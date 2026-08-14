@@ -12,13 +12,33 @@
     "book": "1PT",
     "chapter": 1,
     "verse": 2,
-    "content": "according to the foreknowledge of God the Father, in sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ: Grace to you and peace be multiplied."
+    "content": {
+      "text": "according to the foreknowledge of God the Father, in sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ: Grace to you and peace be multiplied.",
+      "break": true
+    }
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 3,
-    "content": "Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy begat us again unto a living hope by the resurrection of Jesus Christ from the dead,"
+    "content": [
+      { "paragraph": true, "text": "Blessed " },
+      {
+        "text": "be",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "God and the Father", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Romans 15:6", "content": "Rom. 15:6" },
+            " margin."
+          ]
+        }
+      },
+      " the God and Father of our Lord Jesus Christ, who according to his great mercy begat us again unto a living hope by the resurrection of Jesus Christ from the dead,"
+    ]
   },
   {
     "book": "1PT",
@@ -36,67 +56,178 @@
     "book": "1PT",
     "chapter": 1,
     "verse": 6,
-    "content": "Wherein ye greatly rejoice, though now for a little while, if need be, ye have been put to grief in manifold trials,"
+    "content": [
+      {
+        "text": "Wherein ye greatly rejoice, though now for a little while, if need be, ye have been put to grief in manifold ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "temptations", "marks": ["i"] }]
+        }
+      },
+      "trials,"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 7,
-    "content": "that the proof of your faith, being more precious than gold that perisheth though it is proved by fire, may be found unto praise and glory and honor at the revelation of Jesus Christ:"
+    "content": [
+      "that the proof of your faith, ",
+      { "text": "being", "marks": ["i"] },
+      " more precious than gold that perisheth though it is proved by fire, may be found unto praise and glory and honor at the revelation of Jesus Christ:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 8,
-    "content": "whom not having seen ye love; on whom, though now ye see him not, yet believing, ye rejoice greatly with joy unspeakable and full of glory:"
+    "content": [
+      {
+        "text": "whom not having seen ye love; on whom, though now ye see him not, yet believing, ye rejoice greatly with joy unspeakable and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "glorified", "marks": ["i"] }, "."]
+        }
+      },
+      "full of glory:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 9,
-    "content": "receiving the end of your faith, even the salvation of your souls."
+    "content": [
+      "receiving the end of your faith, ",
+      { "text": "even", "marks": ["i"] },
+      " the salvation of ",
+      { "text": "your", "marks": ["i"] },
+      " souls."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 10,
-    "content": "Concerning which salvation the prophets sought and searched diligently, who prophesied of the grace that should come unto you:"
+    "content": [
+      "Concerning which salvation the prophets sought and searched diligently, who prophesied of the grace that ",
+      { "text": "should come", "marks": ["i"] },
+      " unto you:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 11,
-    "content": "searching what time or what manner of time the Spirit of Christ which was in them did point unto, when it testified beforehand the sufferings of Christ, and the glories that should follow them."
+    "content": [
+      "searching what ",
+      { "text": "time", "marks": ["i"] },
+      {
+        "text": " or what manner of time the Spirit of Christ which was in them did point unto, when it testified beforehand the sufferings ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "unto", "marks": ["i"] }, "."]
+        }
+      },
+      "of Christ, and the glories that should follow them."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 12,
-    "content": "To whom it was revealed, that not unto themselves, but unto you, did they minister these things, which now have been announced unto you through them that preached the gospel unto you by the Holy Spirit sent forth from heaven; which things angel desire to look into."
+    "content": [
+      {
+        "text": "To whom it was revealed, that not unto themselves, but unto you, did they minister these things, which now have been announced unto you through them that ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "brought good tidings", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Matthew 11:5", "content": "Mt. 11:5" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "preached the gospel unto you ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "in", "marks": ["i"] }, "."]
+        }
+      },
+      "by the Holy Spirit sent forth from heaven; which things angels desire to look into."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 13,
-    "content": "Wherefore girding up the loins of your mind, be sober and set your hope perfectly on the grace that is to be brought unto you at the revelation of Jesus Christ;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Wherefore girding up the loins of your mind, be sober and set your hope perfectly on the grace that ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "is being brought", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "is to be brought unto you at the revelation of Jesus Christ;"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 14,
-    "content": "as children of obedience, not fashioning yourselves according to your former lusts in the time of your ignorance:"
+    "content": [
+      "as children of obedience, not fashioning yourselves according to your former lusts in ",
+      { "text": "the time of", "marks": ["i"] },
+      " your ignorance:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 15,
-    "content": "but like as he who called you is holy, be ye yourselves also holy in all manner of living;"
+    "content": [
+      {
+        "text": "but ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "like the Holy One who called you", "marks": ["i"] }
+          ]
+        }
+      },
+      "like as he who called you is holy, be ye yourselves also holy in all manner of living;"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 16,
-    "content": "because it is written, Ye shall be holy; for I am holy."
+    "content": [
+      {
+        "text": "because it is written, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Leviticus 11:44–47", "content": "Lev. 11:44f" },
+            "; ",
+            { "bibleLink": "Leviticus 19:2", "content": "19:2" },
+            "; ",
+            { "bibleLink": "Leviticus 20:7", "content": "20:7" },
+            "."
+          ]
+        }
+      },
+      "Ye shall be holy; for I am holy."
+    ]
   },
   {
     "book": "1PT",
@@ -114,13 +245,17 @@
     "book": "1PT",
     "chapter": 1,
     "verse": 19,
-    "content": "but with precious blood, as of a lamb without spot, even the blood of Christ:"
+    "content": [
+      "but with precious blood, as of a lamb without blemish and without spot, ",
+      { "text": "even the blood", "marks": ["i"] },
+      " of Christ:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 20,
-    "content": "who was foreknown indeed before the foundation of the world, but was manifested at the end of times for your sake,"
+    "content": "who was foreknown indeed before the foundation of the world, but was manifested at the end of the times for your sake,"
   },
   {
     "book": "1PT",
@@ -132,40 +267,144 @@
     "book": "1PT",
     "chapter": 1,
     "verse": 22,
-    "content": "Seeing ye have purified your souls in your obedience to the truth unto unfeigned love of the brethren, love one another from the heart fervently:"
+    "content": [
+      {
+        "text": "Seeing ye have purified your souls in your obedience to the truth unto unfeigned love of the brethren, love one another ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "from a clean heart", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "1 Timothy 1:5", "content": "1 Tim. 1:5" },
+            "."
+          ]
+        }
+      },
+      "from the heart fervently:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 23,
-    "content": "having been begotten again, not of corruptible seed, but of incorruptible, through the word of God, which liveth and abideth."
+    "content": [
+      {
+        "text": "having been begotten again, not of corruptible seed, but of incorruptible, through the word of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "God who liveth", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Daniel 6:26", "content": "Dan. 6:26" },
+            "."
+          ]
+        }
+      },
+      "God, which liveth and abideth."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 24,
-    "content": "For, All flesh is as grass, And all the glory thereof as the flower of grass. The grass withereth, and the flower falleth:"
+    "content": [
+      {
+        "text": "For,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 40:6–31", "content": "Isa. 40:6ff" },
+            "."
+          ]
+        }
+      },
+      { "text": "All flesh is as grass,", "break": true },
+      {
+        "text": "And all the glory thereof as the flower of grass.",
+        "break": true
+      },
+      { "text": "The grass withereth, and the flower falleth:", "break": true }
+    ]
   },
   {
     "book": "1PT",
     "chapter": 1,
     "verse": 25,
-    "content": "But the word of the Lord abideth for ever. And this is the word of good tidings which was preached unto you."
+    "content": [
+      {
+        "text": "But the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "saying", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "word of the Lord abideth for ever.", "break": true },
+      {
+        "paragraph": true,
+        "text": "And this is the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "saying", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "word of good tidings which was ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See ",
+            { "bibleLink": "1 Peter 1:12", "content": "verse 12" },
+            "."
+          ]
+        }
+      },
+      "preached unto you."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Putting away therefore all wickedness, and all guile, and hypocrisies, and envies, and all evil speakings,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Putting away therefore all ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "malice", "marks": ["i"] },
+            ". ",
+            { "bibleLink": "1 Corinthians 14:20", "content": "1 Cor. 14:20" }
+          ]
+        }
+      },
+      "wickedness, and all guile, and hypocrisies, and envies, and all evil speakings,"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 2,
-    "content": "as newborn babes, long for the spiritual milk which is without guile, that ye may grow thereby unto salvation;"
+    "content": [
+      {
+        "text": "as newborn babes, long for the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "belonging to the reason", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Romans 12:1", "content": "Rom. 12:1" },
+            "."
+          ]
+        }
+      },
+      "spiritual milk which is without guile, that ye may grow thereby unto salvation;"
+    ]
   },
   {
     "book": "1PT",
@@ -177,49 +416,179 @@
     "book": "1PT",
     "chapter": 2,
     "verse": 4,
-    "content": "unto whom coming, a living stone, rejected indeed of men, but with God elect, precious,"
+    "content": [
+      {
+        "text": "unto whom coming, a living stone, rejected indeed of men, but with God elect, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "honorable", "marks": ["i"] }]
+        }
+      },
+      "precious,"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 5,
-    "content": "ye also, as living stones, are built up a spiritual house, to be a holy priesthood, to offer up spiritual sacrifices, acceptable to God through Jesus Christ."
+    "content": [
+      {
+        "text": "ye also, as living stones, are built up ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "a spiritual house for a holy priesthood",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "a spiritual house, to be a holy priesthood, to offer up spiritual sacrifices, acceptable to God through Jesus Christ."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 6,
-    "content": "Because it is contained in scripture, Behold, I lay in Zion a chief corner stone, elect, precious: And he that believeth on him shall not be put to shame."
+    "content": [
+      {
+        "text": "Because it is contained in ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a scripture", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "scripture,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 28:16", "content": "Isa. 28:16" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Behold, I lay in Zion a chief corner stone, elect, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "honorable", "marks": ["i"] }]
+        }
+      },
+      { "text": "precious:", "break": true },
+      {
+        "text": "And he that believeth on ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it", "marks": ["i"] }]
+        }
+      },
+      { "text": "him shall not be put to shame.", "break": true }
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 7,
-    "content": "For you therefore that believe is the preciousness: but for such as disbelieve, The stone which the builders rejected, The same was made the head of the corner;"
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "In your sight", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "For you therefore that believe is the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "honor", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "preciousness: but for such as disbelieve,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Psalm 118:22", "content": "Ps. 118:22" },
+            "."
+          ]
+        }
+      },
+      { "text": "The stone which the builders rejected,", "break": true },
+      { "text": "The same was made the head of the corner;", "break": true }
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 8,
-    "content": "and, A stone of stumbling, and a rock of offence; for they stumble at the word, being disobedient: whereunto also they were appointed."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "and,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 8:14", "content": "Isa. 8:14" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "A stone of stumbling, and a rock of offence;",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "who", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "for they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "stumble, being disobedient to the word", "marks": ["i"] }
+          ]
+        }
+      },
+      "stumble at the word, being disobedient: whereunto also they were appointed."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 9,
-    "content": "But ye are a elect race, a royal priesthood, a holy nation, a people for God’s own possession, that ye may show forth the excellencies of him who called you out of darkness into his marvellous light:"
+    "content": [
+      "But ye are an elect race, a royal priesthood, a holy nation, a people for ",
+      { "text": "God’s", "marks": ["i"] },
+      " own possession, that ye may show forth the excellencies of him who called you out of darkness into his marvellous light:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 10,
-    "content": "who in time past were no people, but now are the people of God: who had not obtained mercy, but now have obtained mercy."
+    "content": {
+      "text": "who in time past were no people, but now are the people of God: who had not obtained mercy, but now have obtained mercy.",
+      "break": true
+    }
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 11,
-    "content": "Beloved, I beseech you as sojourners and pilgrims, to abstain from fleshly lust, which war against the soul;"
+    "content": {
+      "paragraph": true,
+      "text": "Beloved, I beseech you as sojourners and pilgrims, to abstain from fleshly lusts, which war against the soul;"
+    }
   },
   {
     "book": "1PT",
@@ -231,13 +600,32 @@
     "book": "1PT",
     "chapter": 2,
     "verse": 13,
-    "content": "Be subject to every ordinance of man for the Lord’s sake: whether to the king, as supreme;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Be subject to every ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "creation", "marks": ["i"] }, "."]
+        }
+      },
+      "ordinance of man for the Lord’s sake: whether to the king, as supreme;"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 14,
-    "content": "or unto governors, as sent by him for vengeance on evil-doers and for praise to them that do well."
+    "content": [
+      {
+        "text": "or unto governors, as sent ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "through", "marks": ["i"] }, "."]
+        }
+      },
+      "by him for vengeance on evil-doers and for praise to them that do well."
+    ]
   },
   {
     "book": "1PT",
@@ -249,7 +637,28 @@
     "book": "1PT",
     "chapter": 2,
     "verse": 16,
-    "content": "as free, and not using your freedom for a cloak of wickedness, but as bondservants of God."
+    "content": [
+      {
+        "text": "as free, and not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "having", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "using your freedom for a cloak of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "malice", "marks": ["i"] },
+            ". ",
+            { "bibleLink": "1 Corinthians 14:20", "content": "1 Cor. 14:20" }
+          ]
+        }
+      },
+      "wickedness, but as bondservants of God."
+    ]
   },
   {
     "book": "1PT",
@@ -261,19 +670,63 @@
     "book": "1PT",
     "chapter": 2,
     "verse": 18,
-    "content": "Servants, be in subjection to your masters with all fear; not only to the good and gentle, but also to the froward."
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "Household-servants", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Servants, ",
+      { "text": "be", "marks": ["i"] },
+      " in subjection to your masters with all fear; not only to the good and gentle, but also to the froward."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 19,
-    "content": "For this is acceptable, if for conscience toward God a man endureth griefs, suffering wrongfully."
+    "content": [
+      {
+        "text": "For this is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "grace", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "acceptable, if for conscience ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "of", "marks": ["i"] }, "."]
+        }
+      },
+      "toward God a man endureth griefs, suffering wrongfully."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 20,
-    "content": "For what glory is it, if, when ye sin, and are buffeted for it, ye shall take it patiently? but if, when ye do well, and suffer for it, ye shall take it patiently, this is acceptable with God."
+    "content": [
+      "For what glory is it, if, when ye sin, and are buffeted ",
+      { "text": "for it", "marks": ["i"] },
+      ", ye shall take it patiently? but if, when ye do well, and suffer ",
+      { "text": "for it", "marks": ["i"] },
+      {
+        "text": ", ye shall take it patiently, this is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "grace", "marks": ["i"] }, "."]
+        }
+      },
+      "acceptable with God."
+    ]
   },
   {
     "book": "1PT",
@@ -291,70 +744,197 @@
     "book": "1PT",
     "chapter": 2,
     "verse": 23,
-    "content": "who, when he was reviled, reviled not again; when he suffered threatened not; but committed himself to him that judgeth righteously:"
+    "content": [
+      {
+        "text": "who, when he was reviled, reviled not again; when he suffered, threatened not; but committed ",
+        "foot": { "type": "trn", "content": "Or, his cause" }
+      },
+      { "text": "himself", "marks": ["i"] },
+      " to him that judgeth righteously:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 24,
-    "content": "who his own self bare our sins in his body upon the tree, that we, having died unto sins, might live unto righteousness; by whose stripes ye were healed."
+    "content": [
+      {
+        "text": "who his own self ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "carried up . . . to the tree", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Colossians 2:14", "content": "Col. 2:14" },
+            "; 1 Macc. 4:53 (Greek)."
+          ]
+        }
+      },
+      {
+        "text": "bare our sins in his body upon the tree, that we, having died unto sins, might live unto righteousness; by whose ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bruise", "marks": ["i"] }, "."]
+        }
+      },
+      "stripes ye were healed."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 2,
     "verse": 25,
-    "content": "For ye were going astray like sheep; but are now returned unto the Shepherd and Bishop of your souls."
+    "content": [
+      {
+        "text": "For ye were going astray like sheep; but are now returned unto the Shepherd and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Overseer", "marks": ["i"] }]
+        }
+      },
+      "Bishop of your souls."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "In like manner, ye wives, be in subjection to your won husbands; that, even if any obey not the word, they may without the word be gained by the behavior of their wives;"
-    }
+    "content": [
+      { "paragraph": true, "text": "In like manner, ye wives, " },
+      { "text": "be", "marks": ["i"] },
+      {
+        "text": " in subjection to your own husbands; that, even if any obey not the word, they may without the word be gained by the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "manner of life", "marks": ["i"] },
+            ". ",
+            { "bibleLink": "1 Peter 3:16", "content": "verse 16" }
+          ]
+        }
+      },
+      "behavior of their wives;"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 2,
-    "content": "beholding your chaste behavior coupled with fear."
+    "content": [
+      {
+        "text": "beholding your chaste ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "manner of life", "marks": ["i"] },
+            ". ",
+            { "bibleLink": "1 Peter 3:16", "content": "verse 16" }
+          ]
+        }
+      },
+      "behavior ",
+      { "text": "coupled", "marks": ["i"] },
+      " with fear."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 3,
-    "content": "Whose adorning let it not be the outward adorning of braiding the hair, and of wearing jewels of gold, or of putting on apparel;"
+    "content": [
+      "Whose ",
+      { "text": "adorning", "marks": ["i"] },
+      " let it not be the outward adorning of braiding the hair, and of wearing jewels of gold, or of putting on apparel;"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 4,
-    "content": "but let it be the hidden man of the heart, in the incorruptible apparel of a meek and quiet spirit, which is in the sight of God of great price."
+    "content": [
+      "but ",
+      { "text": "let it be", "marks": ["i"] },
+      " the hidden man of the heart, in the incorruptible ",
+      { "text": "apparel", "marks": ["i"] },
+      " of a meek and quiet spirit, which is in the sight of God of great price."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 5,
-    "content": "For after this manner aforetime the holy women also, who hoped in God, adorned themselves, being in subjection to their own husbands:"
+    "content": [
+      {
+        "text": "For after this manner aforetime the holy women also, who hoped in God, adorned themselves, being in subjection to their own ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "husbands (as Sarah . . . ye are become), doing well, and not being afraid",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "husbands:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 6,
-    "content": "as Sarah obeyed Abraham, calling him lord: whose children ye now are, if ye do well, and are not put in fear by any terror."
+    "content": [
+      {
+        "text": "as Sarah obeyed Abraham, calling him lord: whose children ye now are, if ye do well, and are not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "afraid with", "marks": ["i"] }]
+        }
+      },
+      "put in fear by any terror."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 7,
-    "content": "Ye husbands, in like manner, dwell with your wives according to knowledge, giving honor unto the woman, as unto the weaker vessel, as being also joint-heirs of the grace of life; to the end that your prayers be not hindered."
+    "content": [
+      { "paragraph": true, "text": "Ye husbands, in like manner, dwell with " },
+      { "text": "your wives", "marks": ["i"] },
+      {
+        "text": " according to knowledge, giving honor ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "unto the female vessel, as weaker", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "unto the woman, as unto the weaker vessel, as being also joint-heirs of the grace of life; to the end that your prayers be not hindered."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 8,
-    "content": "Finally, be ye all likeminded, compassionate, loving as brethren, tenderhearted, humbleminded:"
+    "content": [
+      { "paragraph": true, "text": "Finally, " },
+      { "text": "be", "marks": ["i"] },
+      {
+        "text": " ye all likeminded, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "sympathetic", "marks": ["i"] }, "."]
+        }
+      },
+      "compassionate, loving as brethren, tenderhearted, humbleminded:"
+    ]
   },
   {
     "book": "1PT",
@@ -366,43 +946,86 @@
     "book": "1PT",
     "chapter": 3,
     "verse": 10,
-    "content": "For, He that would love life, And see good days, Let him refrain his tongue from evil, And his lips that they speak no guile:"
+    "content": [
+      {
+        "text": "For,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Psalm 34:12–22", "content": "Ps. 34:12ff" },
+            "."
+          ]
+        }
+      },
+      { "text": "He that would love life,", "break": true },
+      { "text": "And see good days,", "break": true },
+      { "text": "Let him refrain his tongue from evil,", "break": true },
+      { "text": "And his lips that they speak no guile:", "break": true }
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 11,
-    "content": "And let him turn away from evil, and do good; Let him seek peace, and pursue it."
+    "content": [
+      {
+        "text": "And let him turn away from evil, and do good;",
+        "break": true
+      },
+      { "text": "Let him seek peace, and pursue it.", "break": true }
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 12,
-    "content": "For the eyes of the Lord are upon the righteous, And his ears unto their supplication: But the face of the Lord is upon them that do evil."
+    "content": [
+      {
+        "text": "For the eyes of the Lord are upon the righteous,",
+        "break": true
+      },
+      { "text": "And his ears unto their supplication:", "break": true },
+      {
+        "text": "But the face of the Lord is upon them that do evil.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 13,
-    "content": "And who is he that will harm you, if ye be zealous of that which is good?"
+    "content": {
+      "paragraph": true,
+      "text": "And who is he that will harm you, if ye be zealous of that which is good?"
+    }
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 14,
-    "content": "But even if ye should suffer for righteousness’ sake, blessed are ye: and fear not their fear, neither be troubled;"
+    "content": [
+      "But even if ye should suffer for righteousness’ sake, blessed ",
+      { "text": "are ye", "marks": ["i"] },
+      ": and fear not their fear, neither be troubled;"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 15,
-    "content": "but sanctify in your hearts Christ as Lord: being ready always to give answer to every man that asketh you a reason concerning the hope that is in you, yet with meekness and fear:"
+    "content": [
+      "but sanctify in your hearts Christ as Lord: ",
+      { "text": "being", "marks": ["i"] },
+      " ready always to give answer to every man that asketh you a reason concerning the hope that is in you, yet with meekness and fear:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 16,
-    "content": "having a good conscience; that, wherein ye are spoken against, they may be put to shame who revil your good manner to life in Christ."
+    "content": "having a good conscience; that, wherein ye are spoken against, they may be put to shame who revile your good manner of life in Christ."
   },
   {
     "book": "1PT",
@@ -414,7 +1037,20 @@
     "book": "1PT",
     "chapter": 3,
     "verse": 18,
-    "content": "Because Christ also suffered for sins once, the righteous for the unrighteous, that he might bring us to God; being put to death in the flesh, but made alive in the spirit;"
+    "content": [
+      {
+        "text": "Because Christ also ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "died", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "suffered for sins once, the righteous for the unrighteous, that he might bring us to God; being put to death in the flesh, but made alive in the spirit;"
+    ]
   },
   {
     "book": "1PT",
@@ -426,34 +1062,102 @@
     "book": "1PT",
     "chapter": 3,
     "verse": 20,
-    "content": "that aforetime were disobedient, when the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight souls, were saved through water:"
+    "content": [
+      {
+        "text": "that aforetime were disobedient, when the longsuffering of God waited in the days of Noah, while the ark was a preparing, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "into which few, that is, eight souls, were brought safely through water",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "wherein few, that is, eight souls, were saved through water:"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 21,
-    "content": "which also after a true likeness doth now save you, even baptism, not the putting away of the filth of the flesh, but the interrogation of a good conscience toward God, through the resurrection of Jesus Christ;"
+    "content": [
+      {
+        "text": "which also ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in the antitype", "marks": ["i"] }]
+        }
+      },
+      "after a true likeness doth now save you, ",
+      { "text": "even", "marks": ["i"] },
+      {
+        "text": " baptism, not the putting away of the filth of the flesh, but the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "inquiry", "marks": ["i"] },
+            ". Or, ",
+            { "text": "appeal", "marks": ["i"] }
+          ]
+        }
+      },
+      "interrogation of a good conscience toward God, through the resurrection of Jesus Christ;"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 3,
     "verse": 22,
-    "content": "who is one the right hand of God, having gone into heaven; angels and authorities and powers being made subject unto him."
+    "content": "who is on the right hand of God, having gone into heaven; angels and authorities and powers being made subject unto him."
   },
   {
     "book": "1PT",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Forasmuch then as Christ suffered in the flesh, arm ye yourselves also with the same mind; for he that hath suffered in the flesh hath ceased from sin;"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Forasmuch then as Christ suffered in the flesh, arm ye yourselves also with the same ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thought", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "mind; for he that hath suffered in the flesh hath ceased ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "unto sins", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "from sin;"
+    ]
   },
   {
     "book": "1PT",
     "chapter": 4,
     "verse": 2,
-    "content": "that ye no longer should live the rest of your time in flesh to the lusts of men, but to the will of God."
+    "content": [
+      {
+        "text": "that ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "he no longer . . . his time", "marks": ["i"] }
+          ]
+        }
+      },
+      "ye no longer should live the rest of your time in the flesh to the lusts of men, but to the will of God."
+    ]
   },
   {
     "book": "1PT",
@@ -465,7 +1169,20 @@
     "book": "1PT",
     "chapter": 4,
     "verse": 4,
-    "content": "wherein they think strange that ye run not with them into the same excess of riot, speaking evil of of:"
+    "content": [
+      "wherein they think it strange that ye run not with ",
+      { "text": "them", "marks": ["i"] },
+      {
+        "text": " into the same ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "flood", "marks": ["i"] }]
+        }
+      },
+      "excess of riot, speaking evil of ",
+      { "text": "you", "marks": ["i"] },
+      ":"
+    ]
   },
   {
     "book": "1PT",
@@ -477,13 +1194,35 @@
     "book": "1PT",
     "chapter": 4,
     "verse": 6,
-    "content": "For unto this end was the gospel preached even to the dead, that they might be judged indeed according to men in the flesh, but live according to God in the spirit."
+    "content": [
+      {
+        "text": "For unto this end ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "were the good tidings preached", "marks": ["i"] }
+          ]
+        }
+      },
+      "was the gospel preached even to the dead, that they might be judged indeed according to men in the flesh, but live according to God in the spirit."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 4,
     "verse": 7,
-    "content": "But the end of all things is at hand: be ye therefore of sound mind, and be sober unto prayer:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But the end of all things is at hand: be ye therefore of sound mind, and be sober unto ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "prayers", "marks": ["i"] }, "."]
+        }
+      },
+      "prayer:"
+    ]
   },
   {
     "book": "1PT",
@@ -507,13 +1246,33 @@
     "book": "1PT",
     "chapter": 4,
     "verse": 11,
-    "content": "if any man speaketh, speaking as it were oracles of God; is any man ministereth, ministering as of the strength which God supplieth: that in all things God may be glorified through Jesus Christ, whose is the glory and the dominion for ever and ever. Amen."
+    "content": [
+      "if any man speaketh, ",
+      { "text": "speaking", "marks": ["i"] },
+      " as it were oracles of God; if any man ministereth, ",
+      { "text": "ministering", "marks": ["i"] },
+      {
+        "text": " as of the strength which God supplieth: that in all things God may be glorified through Jesus Christ, whose is the glory and the dominion ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "unto the ages of the ages", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "for ever and ever. Amen.", "break": true }
+    ]
   },
   {
     "book": "1PT",
     "chapter": 4,
     "verse": 12,
-    "content": "Beloved, think it not strange concerning the fiery trial among you, which cometh upon you to prove you, as though a strange thing happened unto you:"
+    "content": {
+      "paragraph": true,
+      "text": "Beloved, think it not strange concerning the fiery trial among you, which cometh upon you to prove you, as though a strange thing happened unto you:"
+    }
   },
   {
     "book": "1PT",
@@ -525,7 +1284,20 @@
     "book": "1PT",
     "chapter": 4,
     "verse": 14,
-    "content": "If ye are reproached for the name of Christ, blessed are ye; because the Spirit of glory and the Spirit of God resteth upon you."
+    "content": [
+      {
+        "text": "If ye are reproached ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "in", "marks": ["i"] }, "."]
+        }
+      },
+      "for the name of Christ, blessed ",
+      { "text": "are ye", "marks": ["i"] },
+      "; because the ",
+      { "text": "Spirit", "marks": ["i"] },
+      " of glory and the Spirit of God resteth upon you."
+    ]
   },
   {
     "book": "1PT",
@@ -537,13 +1309,38 @@
     "book": "1PT",
     "chapter": 4,
     "verse": 16,
-    "content": "but if a man suffer as a Christian, let him not be ashamed; but let him glorify God in this name."
+    "content": [
+      "but if ",
+      { "text": "a man suffer", "marks": ["i"] },
+      " as a Christian, let him not be ashamed; but let him glorify God in this name."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 4,
     "verse": 17,
-    "content": "For the time is come for judgment to begin at the house of God: and if it begin first at us, what shall be the end of them that obey not the gospel of God?"
+    "content": [
+      "For the time ",
+      { "text": "is come", "marks": ["i"] },
+      " for judgment to begin at the house of God: and if ",
+      { "text": "it begin", "marks": ["i"] },
+      " first at us, what ",
+      { "text": "shall be", "marks": ["i"] },
+      {
+        "text": " the end of them that obey not the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Matthew 4:23", "content": "Mt. 4:23" },
+            " margin."
+          ]
+        }
+      },
+      "gospel of God?"
+    ]
   },
   {
     "book": "1PT",
@@ -563,14 +1360,42 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "The elders among you I exhort, who am a fellow-elder, and a witness of the sufferings of Christ, who am also a partaker of the glory that shall be revealed:"
+      "text": "The elders therefore among you I exhort, who am a fellow-elder, and a witness of the sufferings of Christ, who am also a partaker of the glory that shall be revealed:"
     }
   },
   {
     "book": "1PT",
     "chapter": 5,
     "verse": 2,
-    "content": "Tend the flock of God which is among you, exercising the oversight, not of constraint, but willingly, according to the will of God; nor yet for filthy lucre, but of a ready mind;"
+    "content": [
+      {
+        "text": "Tend the flock of God which is among you, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "exercising the oversight", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "exercising the oversight, not of constraint, but willingly, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "according to", "marks": ["i"] },
+            " the will of ",
+            { "text": "God", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "according to ",
+      { "text": "the will of", "marks": ["i"] },
+      " God; nor yet for filthy lucre, but of a ready mind;"
+    ]
   },
   {
     "book": "1PT",
@@ -588,7 +1413,21 @@
     "book": "1PT",
     "chapter": 5,
     "verse": 5,
-    "content": "Likewise, ye younger, be subject unto the elder. Yea, all of you gird yourselves with humility, to serve one another: for God resisteth the proud, but giveth grace to the humble."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Likewise . . . elder; yea, all of you one to another. Gird yourselves with humility",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "Likewise, ye younger, be subject unto the elder. Yea, all of you gird yourselves with humility, to serve one another: for God resisteth the proud, but giveth grace to the humble."
+    ]
   },
   {
     "book": "1PT",
@@ -606,42 +1445,131 @@
     "book": "1PT",
     "chapter": 5,
     "verse": 8,
-    "content": "Be sober, be watchful: your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour,"
+    "content": "Be sober, be watchful: your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour:"
   },
   {
     "book": "1PT",
     "chapter": 5,
     "verse": 9,
-    "content": "whom withstand stedfast in your faith, knowing that the same sufferings are accomplished in your brethren who are in the world."
+    "content": [
+      {
+        "text": "whom withstand stedfast in ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "your faith, knowing that the same sufferings are ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "being accomplished", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "accomplished in your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "brotherhood", "marks": ["i"] }, "."]
+        }
+      },
+      "brethren who are in the world."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 5,
     "verse": 10,
-    "content": "And the God of all grace, who called you unto his eternal glory in Christ, after that ye have suffered a little while, shall himself perfect, establish, strengthen you."
+    "content": [
+      {
+        "text": "And the God of all grace, who called you unto his eternal glory in Christ, after that ye have suffered a little while, shall himself ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "restore", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "perfect, establish, strengthen ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities add ",
+            { "text": "settle", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "you."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 5,
     "verse": 11,
-    "content": "To him be the dominion for ever and ever. Amen."
+    "content": [
+      "To him ",
+      { "text": "be", "marks": ["i"] },
+      {
+        "text": " the dominion ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "unto the ages of the ages", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "for ever and ever. Amen.", "break": true }
+    ]
   },
   {
     "book": "1PT",
     "chapter": 5,
     "verse": 12,
-    "content": "By Silvanus, our faithful brother, as I account him, I have written unto you briefly, exhorting, and testifying that this is the true grace of God. Stand ye fast therein."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "By Silvanus, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "the", "marks": ["i"] }, "."]
+        }
+      },
+      "our faithful brother, as I account ",
+      { "text": "him", "marks": ["i"] },
+      ", I have written unto you briefly, exhorting, and testifying that this is the true grace of God: stand ye fast therein."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 5,
     "verse": 13,
-    "content": "She that is in Babylon, elect together with you, saluteth you; and so doth Mark my son."
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": "That is, The church, or, The sister"
+        }
+      },
+      "She that is in Babylon, elect together with ",
+      { "text": "you", "marks": ["i"] },
+      ", saluteth you; and ",
+      { "text": "so doth", "marks": ["i"] },
+      " Mark my son."
+    ]
   },
   {
     "book": "1PT",
     "chapter": 5,
     "verse": 14,
-    "content": "Salute one another with a kiss of love. Peace be unto you all that are in Christ."
+    "content": [
+      "Salute one another with a kiss of love.",
+      { "paragraph": true, "text": "Peace be unto you all that are in Christ." }
+    ]
   }
 ]

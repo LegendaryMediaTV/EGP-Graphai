@@ -3,16 +3,38 @@
     "book": "EST",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now it came to pass in the days of Ahasuerus (this is Ahasuerus who reigned from India even unto Ethiopia, over a hundred and seven and twenty provinces),"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now it came to pass in the days of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Xerxes", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "Ahashverosh", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Ahasuerus (this is Ahasuerus who reigned from India even unto Ethiopia, over a hundred and seven and twenty provinces),"
+    ]
   },
   {
     "book": "EST",
     "chapter": 1,
     "verse": 2,
-    "content": "that in those days, when the king Ahasuerus sat on the throne of his kingdom, which was in Shushan the palace,"
+    "content": [
+      {
+        "text": "that in those days, when the king Ahasuerus sat on the throne of his kingdom, which was in Shushan the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "castle", "marks": ["i"] }]
+        }
+      },
+      "palace,"
+    ]
   },
   {
     "book": "EST",
@@ -36,13 +58,63 @@
     "book": "EST",
     "chapter": 1,
     "verse": 6,
-    "content": "There were hangings of white cloth, of green, and of blue, fastened with cords of fine linen and purple to silver rings and pillars of marble: the couches were of gold and silver, upon a pavement of red, and white, and yellow, and black marble."
+    "content": [
+      {
+        "text": "There were hangings of",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "fine", "marks": ["i"] },
+            " cloth, ",
+            { "text": "white and blue", "marks": ["i"] }
+          ]
+        }
+      },
+      " white ",
+      { "text": "cloth", "marks": ["i"] },
+      ", ",
+      {
+        "text": "of",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "cotton", "marks": ["i"] }]
+        }
+      },
+      " green, and ",
+      { "text": "of", "marks": ["i"] },
+      {
+        "text": " blue, fastened with cords of fine linen and purple to silver rings and pillars of marble: the couches were of gold and silver, upon a pavement ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "of porphyry, and white marble and alabaster, and stone of blue color",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "of red, and white, and yellow, and black marble."
+    ]
   },
   {
     "book": "EST",
     "chapter": 1,
     "verse": 7,
-    "content": "And they gave them drink in vessels of gold (the vessels being diverse one from another), and royal wine in abundance, according to the bounty of the king."
+    "content": [
+      {
+        "text": "And they gave them drink in vessels of gold (the vessels being diverse one from another), and royal wine in abundance, according to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "hand", "marks": ["i"] }, "."]
+        }
+      },
+      "bounty of the king."
+    ]
   },
   {
     "book": "EST",
@@ -54,13 +126,31 @@
     "book": "EST",
     "chapter": 1,
     "verse": 9,
-    "content": "Also Vashti the queen made a feast for the women in the royal house which belonged to king Ahasuerus."
+    "content": {
+      "paragraph": true,
+      "text": "Also Vashti the queen made a feast for the women in the royal house which belonged to king Ahasuerus."
+    }
   },
   {
     "book": "EST",
     "chapter": 1,
     "verse": 10,
-    "content": "On the seventh day, when the heart of the king was merry with wine, he commanded Mehuman, Biztha, Harbona, Bigtha, and Abagtha, Zethar, and Carcas, the seven chamberlains that ministered in the presence of Ahasuerus the king,"
+    "content": [
+      {
+        "text": "On the seventh day, when the heart of the king was merry with wine, he commanded Mehuman, Biztha, Harbona, Bigtha, and Abagtha, Zethar, and Carcas, the seven ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "eunuchs", "marks": ["i"] },
+            " (and so in ",
+            { "bibleLink": "Esther 1:12", "content": "verse 12" },
+            ", etc.)"
+          ]
+        }
+      },
+      "chamberlains that ministered in the presence of Ahasuerus the king,"
+    ]
   },
   {
     "book": "EST",
@@ -78,7 +168,10 @@
     "book": "EST",
     "chapter": 1,
     "verse": 13,
-    "content": "Then the king said to the wise men, who knew the times,(for so was the king’s manner toward all that knew law and judgment;"
+    "content": {
+      "paragraph": true,
+      "text": "Then the king said to the wise men, who knew the times (for so was the king’s manner toward all that knew law and judgment;"
+    }
   },
   {
     "book": "EST",
@@ -108,13 +201,57 @@
     "book": "EST",
     "chapter": 1,
     "verse": 18,
-    "content": "And this day will the princesses of Persia and Media who have heard of the deed of the queen say the like unto all the king’s princes. So will there arise much contempt and wrath."
+    "content": [
+      {
+        "text": "And this day will the princesses of Persia and Media who have heard of the deed of the queen ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "tell", "marks": ["i"] }, " it"]
+        }
+      },
+      "say ",
+      { "text": "the like", "marks": ["i"] },
+      " unto all the king’s princes. So ",
+      {
+        "text": "will there arise",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "enough", "marks": ["i"] }]
+        }
+      },
+      " much contempt and wrath."
+    ]
   },
   {
     "book": "EST",
     "chapter": 1,
     "verse": 19,
-    "content": "If it please the king, let there go forth a royal commandment from him, and let it be written among the laws of the Persians and the Medes, that it be not altered, that Vashti come no more before king Ahasuerus; and let the king give her royal estate unto another that is better than she."
+    "content": [
+      {
+        "text": "If it please the king, let there go forth a royal commandment from him, and let it be written among the laws of the Persians and the Medes, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "that it pass not away", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "that it be not altered, that Vashti come no more before king Ahasuerus; and let the king give her royal estate ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "unto her companion", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "unto another that is better than she."
+    ]
   },
   {
     "book": "EST",
@@ -153,7 +290,16 @@
     "book": "EST",
     "chapter": 2,
     "verse": 3,
-    "content": "and let the king appoint officers in all the provinces of his kingdom, that they may gather together all the fair young virgins unto Shushan the palace, to the house of the women, unto the custody of Hegai the king’s chamberlain, keeper of the women; and let their things for purification be given them;"
+    "content": [
+      {
+        "text": "and let the king appoint officers in all the provinces of his kingdom, that they may gather together all the fair young virgins unto Shushan the palace, to the house of the women, unto the custody of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Hegee", "marks": ["i"] }, "."]
+        }
+      },
+      "Hegai the king’s chamberlain, keeper of the women; and let their things for purification be given them;"
+    ]
   },
   {
     "book": "EST",
@@ -165,25 +311,55 @@
     "book": "EST",
     "chapter": 2,
     "verse": 5,
-    "content": "There was a certain Jew in Shushan the palace, whose name was Mordecai, the son of Jair, the son of Shimei, the son of Kish, a Benjamite,"
+    "content": {
+      "paragraph": true,
+      "text": "There was a certain Jew in Shushan the palace, whose name was Mordecai, the son of Jair, the son of Shimei, the son of Kish, a Benjamite,"
+    }
   },
   {
     "book": "EST",
     "chapter": 2,
     "verse": 6,
-    "content": "who had been carried away from Jerusalem with the captives that had been carried away with Jeconiah king of Judah, whom Nebuchadnezzar the king of Babylon had carried away."
+    "content": [
+      {
+        "text": "who had been carried away from Jerusalem with the captives that had been carried away with ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "2 Kings 24:6", "content": "2 Kin. 24:6" },
+            ", ",
+            { "text": "Jehoiachin", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Jeconiah king of Judah, whom Nebuchadnezzar the king of Babylon had carried away."
+    ]
   },
   {
     "book": "EST",
     "chapter": 2,
     "verse": 7,
-    "content": "And he brought up Hadassah, that is, Esther, his uncle’s daughter: for she had neither father nor mother, and the maiden was fair and beautiful; and when her father and mother were dead, Mordecai took her for his own daughter."
+    "content": [
+      {
+        "text": "And he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "nourished", "marks": ["i"] }, "."]
+        }
+      },
+      "brought up Hadassah, that is, Esther, his uncle’s daughter: for she had neither father nor mother, and the maiden was fair and beautiful; and when her father and mother were dead, Mordecai took her for his own daughter."
+    ]
   },
   {
     "book": "EST",
     "chapter": 2,
     "verse": 8,
-    "content": "So it came to pass, when the king’s commandment and his decree was heard, and when many maidens were gathered together unto Shushan the palace, to the custody of Hegai, that Esther was taken into the king’s house, to the custody of Hegai, keeper of the women."
+    "content": {
+      "paragraph": true,
+      "text": "So it came to pass, when the king’s commandment and his decree was heard, and when many maidens were gathered together unto Shushan the palace, to the custody of Hegai, that Esther was taken into the king’s house, to the custody of Hegai, keeper of the women."
+    }
   },
   {
     "book": "EST",
@@ -195,7 +371,7 @@
     "book": "EST",
     "chapter": 2,
     "verse": 10,
-    "content": "Esther had not made known her people nor her kindred; for Modecai had charged her that she should not make it known."
+    "content": "Esther had not made known her people nor her kindred; for Mordecai had charged her that she should not make it known."
   },
   {
     "book": "EST",
@@ -207,13 +383,20 @@
     "book": "EST",
     "chapter": 2,
     "verse": 12,
-    "content": "Now when the turn of every maiden was come to go in to king Ahasuerus, after that it had been done to her according to the law for the women twelve months (for so were the days of their purifications accomplished, to wit, six months with oil of myrrh, and six months with sweet odors and with the things for the purifying of the women),"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now when the turn of every maiden was come to go in to king Ahasuerus, after that it had been done to her according to the law for the women twelve months (for so were the days of their purifications accomplished, "
+      },
+      { "text": "to wit", "marks": ["i"] },
+      ", six months with oil of myrrh, and six months with sweet odors and with the things for the purifying of the women),"
+    ]
   },
   {
     "book": "EST",
     "chapter": 2,
     "verse": 13,
-    "content": "then in this wise came the maiden unto the king: whatsoever she desired was given her to go with her out of the house of the women unto the king’s house."
+    "content": "then in this wise came the maiden unto the king: Whatsoever she desired was given her to go with her out of the house of the women unto the king’s house."
   },
   {
     "book": "EST",
@@ -231,7 +414,10 @@
     "book": "EST",
     "chapter": 2,
     "verse": 16,
-    "content": "So Esther was taken unto king Ahasuerus into his house royal in the tenth month, which is the month Tebeth, in the seventh year of his reign."
+    "content": {
+      "paragraph": true,
+      "text": "So Esther was taken unto king Ahasuerus into his house royal in the tenth month, which is the month Tebeth, in the seventh year of his reign."
+    }
   },
   {
     "book": "EST",
@@ -243,13 +429,32 @@
     "book": "EST",
     "chapter": 2,
     "verse": 18,
-    "content": "Then the king made a great feast unto all his princes and his servants, even Esther’s feast; and he made a release to the provinces, and gave gifts, according to the bounty of the king."
+    "content": [
+      {
+        "text": "Then the king made a great feast unto all his princes and his servants, even Esther’s feast; and he made a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "rest", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "release to the provinces, and gave gifts, according to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "hand", "marks": ["i"] }, "."]
+        }
+      },
+      "bounty of the king."
+    ]
   },
   {
     "book": "EST",
     "chapter": 2,
     "verse": 19,
-    "content": "And when the virgins were gathered together the second time, then Mordecai was sitting in the king’s gate."
+    "content": {
+      "paragraph": true,
+      "text": "And when the virgins were gathered together the second time, then Mordecai was sitting in the king’s gate."
+    }
   },
   {
     "book": "EST",
@@ -267,7 +472,11 @@
     "book": "EST",
     "chapter": 2,
     "verse": 22,
-    "content": "And the thing became known to Mordecai, who showed it unto Esther the queen; and Esther told the king thereof in Modecai’s name."
+    "content": [
+      "And the thing became known to Mordecai, who showed it unto Esther the queen; and Esther told the king ",
+      { "text": "thereof", "marks": ["i"] },
+      " in Mordecai’s name."
+    ]
   },
   {
     "book": "EST",
@@ -300,7 +509,16 @@
     "book": "EST",
     "chapter": 3,
     "verse": 4,
-    "content": "Now it came to pass, when they spake daily unto him, and he hearkened not unto them, that they told Haman, to see whether Mordecai’s matters would stand: for he had told them that he was a Jew."
+    "content": [
+      {
+        "text": "Now it came to pass, when they spake daily unto him, and he hearkened not unto them, that they told Haman, to see whether Mordecai’s ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "words", "marks": ["i"] }]
+        }
+      },
+      "matters would stand: for he had told them that he was a Jew."
+    ]
   },
   {
     "book": "EST",
@@ -318,19 +536,50 @@
     "book": "EST",
     "chapter": 3,
     "verse": 7,
-    "content": "In the first month, which is the month Nisan, in the twelfth year of king Ahasuerus, they cast Pur, that is, the lot, before Haman from day to day, and from month to month, to the twelfth month, which is the month Adar."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In the first month, which is the month Nisan, in the twelfth year of king Ahasuerus, they cast Pur, that is, the lot, before Haman from day to day, and from month to month, "
+      },
+      { "text": "to", "marks": ["i"] },
+      " the twelfth ",
+      { "text": "month", "marks": ["i"] },
+      ", which is the month Adar."
+    ]
   },
   {
     "book": "EST",
     "chapter": 3,
     "verse": 8,
-    "content": "And Haman said unto king Ahasuerus, There is a certain people scattered abroad and dispersed among the peoples in all the provinces of thy kingdom; and their laws are diverse from those of every people; neither keep they the king’s laws: therefore it is not for the king’s profit to suffer them."
+    "content": [
+      {
+        "text": "And Haman said unto king Ahasuerus, There is a certain people scattered abroad and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "separated", "marks": ["i"] }]
+        }
+      },
+      "dispersed among the peoples in all the provinces of thy kingdom; and their laws are diverse from ",
+      { "text": "those of", "marks": ["i"] },
+      {
+        "text": " every people; neither keep they the king’s laws: therefore it is not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "meet for the king", "marks": ["i"] }]
+        }
+      },
+      "for the king’s profit to suffer them."
+    ]
   },
   {
     "book": "EST",
     "chapter": 3,
     "verse": 9,
-    "content": "If it please the king, let it be written that they be destroyed: and I will pay ten thousand talents of silver into the hands of those that have the charge of the king’s business, to bring it into the king’s treasuries."
+    "content": [
+      "If it please the king, let it be written that they be destroyed: and I will pay ten thousand talents of silver into the hands of those that have the charge of the ",
+      { "text": "king’s", "marks": ["i"] },
+      " business, to bring it into the king’s treasuries."
+    ]
   },
   {
     "book": "EST",
@@ -348,19 +597,45 @@
     "book": "EST",
     "chapter": 3,
     "verse": 12,
-    "content": "Then were the king’s scribes called in the first month, on the thirteenth day thereof; and there was written according to all that Haman commanded unto the king’s satraps, and to the governors that were over every province, and to the princes of every people, to every province according to the writing thereof, and to every people after their language; in the name of king Ahasuerus was it written, and it was sealed with the king’s ring."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then were the king’s ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "secretaries", "marks": ["i"] }]
+        }
+      },
+      "scribes called in the first month, on the thirteenth day thereof; and there was written according to all that Haman commanded unto the king’s satraps, and to the governors that were over every province, and to the princes of every people, to every province according to the writing thereof, and to every people after their language; in the name of king Ahasuerus was it written, and it was sealed with the king’s ring."
+    ]
   },
   {
     "book": "EST",
     "chapter": 3,
     "verse": 13,
-    "content": "And letters were sent by posts into all the king’s provinces, to destroy, to slay, and to cause to perish, all Jews, both young and old, little children and women, in one day, even upon the thirteenth day of the twelfth month, which is the month Adar, and to take the spoil of them for a prey."
+    "content": [
+      "And letters were sent by posts into all the king’s provinces, to destroy, to slay, and to cause to perish, all Jews, both young and old, little children and women, in one day, even upon the thirteenth ",
+      { "text": "day", "marks": ["i"] },
+      " of the twelfth month, which is the month Adar, and to take the spoil of them for a prey."
+    ]
   },
   {
     "book": "EST",
     "chapter": 3,
     "verse": 14,
-    "content": "A copy of the writing, that the decree should be given out in every province, was published unto all the peoples, that they should be ready against that day."
+    "content": [
+      {
+        "text": "A copy of the writing, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "to be given out for a decree", "marks": ["i"] }
+          ]
+        }
+      },
+      "that the decree should be given out in every province, was published unto all the peoples, that they should be ready against that day."
+    ]
   },
   {
     "book": "EST",
@@ -387,13 +662,32 @@
     "book": "EST",
     "chapter": 4,
     "verse": 3,
-    "content": "And in every province, whithersoever the king’s commandment and his decree came, there was great mourning among the Jews, and fasting, and weeping, and wailing; and many lay in sackcloth and ashes."
+    "content": [
+      {
+        "text": "And in every province, whithersoever the king’s commandment and his decree came, there was great mourning among the Jews, and fasting, and weeping, and wailing; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            {
+              "text": "sackcloth and ashes were spread under many",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      "many lay in sackcloth and ashes."
+    ]
   },
   {
     "book": "EST",
     "chapter": 4,
     "verse": 4,
-    "content": "And Esther’s maidens and her chamberlains came and told it her; and the queen was exceedingly grieved: and she sent raiment to clothe Mordecai, and to take his sackcloth from off him; but he received it not."
+    "content": {
+      "paragraph": true,
+      "text": "And Esther’s maidens and her chamberlains came and told it her; and the queen was exceedingly grieved: and she sent raiment to clothe Mordecai, and to take his sackcloth from off him; but he received it not."
+    }
   },
   {
     "book": "EST",
@@ -423,13 +717,20 @@
     "book": "EST",
     "chapter": 4,
     "verse": 9,
-    "content": "And Hathach came and told Esther the words of Mordecai."
+    "content": {
+      "paragraph": true,
+      "text": "And Hathach came and told Esther the words of Mordecai."
+    }
   },
   {
     "book": "EST",
     "chapter": 4,
     "verse": 10,
-    "content": "Then Esther spake unto Hathach, and gave him a message unto Mordecai saying:"
+    "content": [
+      "Then Esther spake unto Hathach, and gave him a message unto Mordecai, ",
+      { "text": "saying", "marks": ["i"] },
+      ":"
+    ]
   },
   {
     "book": "EST",
@@ -447,7 +748,10 @@
     "book": "EST",
     "chapter": 4,
     "verse": 13,
-    "content": "Then Mordecai bade them return answer unto Esther, Think not with thyself that thou shalt escape in the king’s house, more than all the Jews."
+    "content": {
+      "paragraph": true,
+      "text": "Then Mordecai bade them return answer unto Esther, Think not with thyself that thou shalt escape in the king’s house, more than all the Jews."
+    }
   },
   {
     "book": "EST",
@@ -504,7 +808,10 @@
     "book": "EST",
     "chapter": 5,
     "verse": 5,
-    "content": "Then the king said, Cause Haman to make haste, that it may be done as Esther hath said. So the king and Haman came to the banquet that Esther had prepared."
+    "content": {
+      "paragraph": true,
+      "text": "Then the king said, Cause Haman to make haste, that it may be done as Esther hath said. So the king and Haman came to the banquet that Esther had prepared."
+    }
   },
   {
     "book": "EST",
@@ -522,13 +829,23 @@
     "book": "EST",
     "chapter": 5,
     "verse": 8,
-    "content": "if I have found favor in the sight of the king, and if it please the king to grant my petition, and to perform my request, let the king and Haman come to the banquet that I shall prepare for them, and I will do to-morrow as the king hath said."
+    "content": "If I have found favor in the sight of the king, and if it please the king to grant my petition, and to perform my request, let the king and Haman come to the banquet that I shall prepare for them, and I will do to-morrow as the king hath said."
   },
   {
     "book": "EST",
     "chapter": 5,
     "verse": 9,
-    "content": "Then went Haman forth that day joyful and glad of heart: but when Haman saw Mordecai in the king’s gate, that he stood not up nor moved for him, he was filled with wrath against Mordecai."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then went Haman forth that day joyful and glad of heart: but when Haman saw Mordecai in the king’s gate, that he stood not up nor ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "trembled before him", "marks": ["i"] }]
+        }
+      },
+      "moved for him, he was filled with wrath against Mordecai."
+    ]
   },
   {
     "book": "EST",
@@ -558,16 +875,36 @@
     "book": "EST",
     "chapter": 5,
     "verse": 14,
-    "content": "Then said Zeresh his wife and all his friends unto him, Let a gallows be made fifty cubits high, and in the morning speak thou unto the king that Mordecai may be hanged thereon: then go thou in merrily with the king unto the banquet. And the thing pleased Haman; and he caused the gallows to be made."
+    "content": [
+      {
+        "text": "Then said Zeresh his wife and all his friends unto him, Let a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "tree", "marks": ["i"] }, "."]
+        }
+      },
+      "gallows be made fifty cubits high, and in the morning speak thou unto the king that Mordecai may be hanged thereon: then go thou in merrily with the king unto the banquet. And the thing pleased Haman; and he caused the gallows to be made."
+    ]
   },
   {
     "book": "EST",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "On that night could not the king sleep; and he commanded to bring the book of records of the chronicles, and they were read before the king."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "On that night ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "the king’s sleep fled", "marks": ["i"] },
+            " from him."
+          ]
+        }
+      },
+      "could not the king sleep; and he commanded to bring the book of records of the chronicles, and they were read before the king."
+    ]
   },
   {
     "book": "EST",
@@ -609,7 +946,22 @@
     "book": "EST",
     "chapter": 6,
     "verse": 8,
-    "content": "let royal apparel be brought which the king useth to wear, and the horse that the king rideth upon, and on the head of which a crown royal is set:"
+    "content": [
+      {
+        "text": "let royal apparel be brought which the king useth to wear, and the horse that the king rideth upon, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "and the crown royal which is set upon his head",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "and on the head of which a crown royal is set:"
+    ]
   },
   {
     "book": "EST",
@@ -621,7 +973,10 @@
     "book": "EST",
     "chapter": 6,
     "verse": 10,
-    "content": "Then the king said to Haman, Make haste, and take the apparel and the horse, as thou hast said, and do even so to Mordecai the Jew, that sitteth at the king’s gate: let nothing fail of all that thou hast spoken."
+    "content": {
+      "paragraph": true,
+      "text": "Then the king said to Haman, Make haste, and take the apparel and the horse, as thou hast said, and do even so to Mordecai the Jew, that sitteth at the king’s gate: let nothing fail of all that thou hast spoken."
+    }
   },
   {
     "book": "EST",
@@ -651,10 +1006,17 @@
     "book": "EST",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "So the king and Haman came to banquet with Esther the queen."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "So the king and Haman came ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "to drink", "marks": ["i"] }, "."]
+        }
+      },
+      "to banquet with Esther the queen."
+    ]
   },
   {
     "book": "EST",
@@ -672,7 +1034,22 @@
     "book": "EST",
     "chapter": 7,
     "verse": 4,
-    "content": "for we are sold, I and my people, to be destroyed, to be slain, and to perish. But if we had been sold for bondmen and bondwomen, I had held my peace, although the adversary could not have compensated for the king’s damage."
+    "content": [
+      {
+        "text": "for we are sold, I and my people, to be destroyed, to be slain, and to perish. But if we had been sold for bondmen and bondwomen, I had held my peace, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "for our affliction is not to be compared with the king’s damage",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "although the adversary could not have compensated for the king’s damage."
+    ]
   },
   {
     "book": "EST",
@@ -690,7 +1067,11 @@
     "book": "EST",
     "chapter": 7,
     "verse": 7,
-    "content": "And the king arose in his wrath from the banquet of wine and went into the palace garden: and Haman stood up to make request for his life to Esther the queen; for he saw that there was evil determined against him by the king."
+    "content": [
+      "And the king arose in his wrath from the banquet of wine ",
+      { "text": "and went", "marks": ["i"] },
+      " into the palace garden: and Haman stood up to make request for his life to Esther the queen; for he saw that there was evil determined against him by the king."
+    ]
   },
   {
     "book": "EST",
@@ -702,7 +1083,16 @@
     "book": "EST",
     "chapter": 7,
     "verse": 9,
-    "content": "Then said Harbonah, one of the chamberlains that were before the king, Behold also, the gallows fifty cubits high, which Haman hath made for Mordecai, who spake good for the king, standeth in the house of Haman. And the king said, Hang him thereon."
+    "content": [
+      {
+        "text": "Then said Harbonah, one of the chamberlains that were before the king, Behold also, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "tree", "marks": ["i"] }, "."]
+        }
+      },
+      "gallows fifty cubits high, which Haman hath made for Mordecai, who spake good for the king, standeth in the house of Haman. And the king said, Hang him thereon."
+    ]
   },
   {
     "book": "EST",
@@ -729,7 +1119,10 @@
     "book": "EST",
     "chapter": 8,
     "verse": 3,
-    "content": "And Esther spake yet again before the king, and fell down at his feet, and besought him with tears to put away the mischief of Haman the Agagite, and his device that he had devised against the Jews."
+    "content": {
+      "paragraph": true,
+      "text": "And Esther spake yet again before the king, and fell down at his feet, and besought him with tears to put away the mischief of Haman the Agagite, and his device that he had devised against the Jews."
+    }
   },
   {
     "book": "EST",
@@ -759,37 +1152,89 @@
     "book": "EST",
     "chapter": 8,
     "verse": 8,
-    "content": "Write ye also to the Jews, as it pleaseth you, in the king’s name, and seal it with the king’s ring; for the writing which is written in the king’s name, and sealed with the king’s ring, may no man reverse."
+    "content": [
+      {
+        "text": "Write ye also ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "concerning", "marks": ["i"] }]
+        }
+      },
+      "to the Jews, as it pleaseth you, in the king’s name, and seal it with the king’s ring; for the writing which is written in the king’s name, and sealed with the king’s ring, may no man reverse."
+    ]
   },
   {
     "book": "EST",
     "chapter": 8,
     "verse": 9,
-    "content": "Then were the king’s scribes called at that time, in the third month Sivan, on the three and twentieth day thereof; and it was written according to all that Mordecai commanded unto the Jews, and to the satraps, and the governors and princes of the provinces which are from India unto Ethiopia, a hundred twenty and seven provinces, unto every province according to the writing thereof, and unto every people after their language, and to the Jews according to their writing, and according to their language."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then were the king’s scribes called at that time, in the third month, which is the month Sivan, on the three and twentieth "
+      },
+      { "text": "day", "marks": ["i"] },
+      " thereof; and it was written according to all that Mordecai commanded unto the Jews, and to the satraps, and the governors and princes of the provinces which are from India unto Ethiopia, a hundred twenty and seven provinces, unto every province according to the writing thereof, and unto every people after their language, and to the Jews according to their writing, and according to their language."
+    ]
   },
   {
     "book": "EST",
     "chapter": 8,
     "verse": 10,
-    "content": "And he wrote the name of king Ahasuerus, and sealed it with the king’s ring, and sent letters by post on horseback, riding on swift steeds that were used in the king’s service, bred of the stud:"
+    "content": [
+      {
+        "text": "And he wrote in the name of king Ahasuerus, and sealed it with the king’s ring, and sent letters by posts on horseback, riding ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "swift steeds, mules", "marks": ["i"] },
+            ", and ",
+            { "text": "young dromedaries", "marks": ["i"] }
+          ]
+        }
+      },
+      "on swift steeds that were used in the king’s service, bred of the stud:"
+    ]
   },
   {
     "book": "EST",
     "chapter": 8,
     "verse": 11,
-    "content": "wherein the king granted the Jews that were in every city to gather themselves together, and to stand for their life, to destroy, to slay, and to cause to perish, all the power of the people and province that would assault them, their little ones and women, and to take the spoil of them for a prey,"
+    "content": [
+      "wherein the king granted the Jews that were in every city to gather themselves together, and to stand for their life, to destroy, to slay, and to cause to perish, all the power of the people and province that would assault them, ",
+      { "text": "their", "marks": ["i"] },
+      " little ones and women, and to take the spoil of them for a prey,"
+    ]
   },
   {
     "book": "EST",
     "chapter": 8,
     "verse": 12,
-    "content": "upon one day in all the provinces of king Ahasuerus, namely, upon the thirteenth day of the twelfth month, which is the month Adar."
+    "content": [
+      "upon one day in all the provinces of king Ahasuerus, ",
+      { "text": "namely", "marks": ["i"] },
+      ", upon the thirteenth ",
+      { "text": "day", "marks": ["i"] },
+      " of the twelfth month, which is the month Adar."
+    ]
   },
   {
     "book": "EST",
     "chapter": 8,
     "verse": 13,
-    "content": "A copy of the writing, that the decree should be given out in every province, was published unto all the peoples, and that the Jews should be ready against that day to avenge themselves on their enemies."
+    "content": [
+      {
+        "text": "A copy of the writing, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "to be given out for a decree", "marks": ["i"] }
+          ]
+        }
+      },
+      "that the decree should be given out in every province, was published unto all the peoples, and that the Jews should be ready against that day to avenge themselves on their enemies."
+    ]
   },
   {
     "book": "EST",
@@ -801,7 +1246,10 @@
     "book": "EST",
     "chapter": 8,
     "verse": 15,
-    "content": "And Mordecai went forth from the presence of the king in royal apparel of blue and white, and with a great crown of gold, and with a robe of fine linen and purple: and the city of Shushan shouted and was glad."
+    "content": {
+      "paragraph": true,
+      "text": "And Mordecai went forth from the presence of the king in royal apparel of blue and white, and with a great crown of gold, and with a robe of fine linen and purple: and the city of Shushan shouted and was glad."
+    }
   },
   {
     "book": "EST",
@@ -821,7 +1269,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Now in the twelfth month, which is the month Adar, on the thirteenth day of the same, when the king’s commandment and his decree drew near to be put in execution, on the day that the enemies of the Jews hoped to have rule over them,(whereas it was turned to the contrary, that the Jews had rule over them that hated them,)"
+      "text": "Now in the twelfth month, which is the month Adar, on the thirteenth day of the same, when the king’s commandment and his decree drew near to be put in execution, on the day that the enemies of the Jews hoped to have rule over them (whereas it was turned to the contrary, that the Jews had rule over them that hated them),"
     }
   },
   {
@@ -876,13 +1324,16 @@
     "book": "EST",
     "chapter": 9,
     "verse": 10,
-    "content": "the ten sons of Haman the son of Hammedatha, the Jew’s enemy, slew they; but on the spoil they laid not their hand."
+    "content": "the ten sons of Haman the son of Hammedatha, the Jews’ enemy, slew they; but on the spoil they laid not their hand."
   },
   {
     "book": "EST",
     "chapter": 9,
     "verse": 11,
-    "content": "On that day the number of those that were slain in Shushan the palace was brought before the king."
+    "content": {
+      "paragraph": true,
+      "text": "On that day the number of those that were slain in Shushan the palace was brought before the king."
+    }
   },
   {
     "book": "EST",
@@ -918,31 +1369,47 @@
     "book": "EST",
     "chapter": 9,
     "verse": 17,
-    "content": "This was done on the thirteenth day of the month Adar; and on the fourteenth day of the same they rested, and made it a day of feasting and gladness."
+    "content": [
+      { "paragraph": true, "text": "This was done", "marks": ["i"] },
+      " on the thirteenth day of the month Adar; and on the fourteenth day of the same they rested, and made it a day of feasting and gladness."
+    ]
   },
   {
     "book": "EST",
     "chapter": 9,
     "verse": 18,
-    "content": "But the Jews that were in Shushan assembled together on the thirteenth day thererof, and on the fourteenth thereof; and on the fifteenth day of the same they rested, and made it a day of feasting and gladness."
+    "content": [
+      "But the Jews that were in Shushan assembled together on the thirteenth ",
+      { "text": "day", "marks": ["i"] },
+      " thereof, and on the fourteenth thereof; and on the fifteenth ",
+      { "text": "day", "marks": ["i"] },
+      " of the same they rested, and made it a day of feasting and gladness."
+    ]
   },
   {
     "book": "EST",
     "chapter": 9,
     "verse": 19,
-    "content": "Therefore do the Jews of the villages, that dwell in the unwalled towns, make the fourteenth day of the month Adar a day of gladness and feasting, and a good day, and of sending portions one to another."
+    "content": [
+      "Therefore do the Jews of the villages, that dwell in the unwalled towns, make the fourteenth day of the month Adar ",
+      { "text": "a day of", "marks": ["i"] },
+      " gladness and feasting, and a good day, and of sending portions one to another."
+    ]
   },
   {
     "book": "EST",
     "chapter": 9,
     "verse": 20,
-    "content": "And Mordecai wrote these things, and sent letters unto all the Jews that were in all the provinces of the king Ahasuerus, both nigh and far,"
+    "content": {
+      "paragraph": true,
+      "text": "And Mordecai wrote these things, and sent letters unto all the Jews that were in all the provinces of the king Ahasuerus, both nigh and far,"
+    }
   },
   {
     "book": "EST",
     "chapter": 9,
     "verse": 21,
-    "content": "to enjoin them that they should keep the fourteenth day of the month Adar, and the fifteenth day of the same,yearly,"
+    "content": "to enjoin them that they should keep the fourteenth day of the month Adar, and the fifteenth day of the same, yearly,"
   },
   {
     "book": "EST",
@@ -966,13 +1433,20 @@
     "book": "EST",
     "chapter": 9,
     "verse": 25,
-    "content": "but when the matter came before the kiing, he commanded by letters that his wicked device, which he had devised against the Jews, should return upon his own head, and that he and his sons should be hanged on the gallows."
+    "content": [
+      "but when ",
+      { "text": "the matter", "marks": ["i"] },
+      " came before the king, he commanded by letters that his wicked device, which he had devised against the Jews, should return upon his own head, and that he and his sons should be hanged on the gallows."
+    ]
   },
   {
     "book": "EST",
     "chapter": 9,
     "verse": 26,
-    "content": "Wherefore they called these days Purim, after the name of Pur. Therefore because of all the words of this letter, and of that which they had seen concerning this matter, and that which had come unto them,"
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore they called these days Purim, after the name of Pur. Therefore because of all the words of this letter, and of that which they had seen concerning this matter, and that which had come unto them,"
+    }
   },
   {
     "book": "EST",
@@ -984,19 +1458,42 @@
     "book": "EST",
     "chapter": 9,
     "verse": 28,
-    "content": "and that these days should be remembered and kept throughout every generation, every family, every province, and every city; and that these days of Purim should not fail from among the Jews, nor the remembrance of them perish from their seed."
+    "content": [
+      {
+        "text": "and that these days should be remembered and kept throughout every generation, every family, every province, and every city; and that these days of Purim should not fail from among the Jews, nor the remembrance of them ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "be ended", "marks": ["i"] }, "."]
+        }
+      },
+      "perish from their seed."
+    ]
   },
   {
     "book": "EST",
     "chapter": 9,
     "verse": 29,
-    "content": "Then Esther the queen, the daughter of Abihail, and Mordecai the Jew, wrote with all authority to confirm this second letter of Purim."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Esther the queen, the daughter of Abihail, and Mordecai the Jew, wrote with all ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "strength", "marks": ["i"] }, "."]
+        }
+      },
+      "authority to confirm this second letter of Purim."
+    ]
   },
   {
     "book": "EST",
     "chapter": 9,
     "verse": 30,
-    "content": "And he sent letters unto all the Jews, to the hundred twenty and seven provinces of the kingdom of Ahasuerus, with words of peace and truth,"
+    "content": [
+      "And he sent letters unto all the Jews, to the hundred twenty and seven provinces of the kingdom of Ahasuerus, ",
+      { "text": "with", "marks": ["i"] },
+      " words of peace and truth,"
+    ]
   },
   {
     "book": "EST",

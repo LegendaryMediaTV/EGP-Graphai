@@ -42,13 +42,25 @@
     "book": "ZEC",
     "chapter": 1,
     "verse": 7,
-    "content": "Upon the four and twentieth day of the eleventh month, which is the month Shebat, in the second year of Darius, came the word of Jehovah unto Zechariah the son of Berechiah, the son of Iddo, the prophet, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "Upon the four and twentieth day of the eleventh month, which is the month Shebat, in the second year of Darius, came the word of Jehovah unto Zechariah the son of Berechiah, the son of Iddo, the prophet, saying,"
+    }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 8,
-    "content": "I saw in the night, and, behold, a man riding upon a red horse, and he stood among the myrtle-trees that were in the bottom; and behind him there were horses, red, sorrel, and white."
+    "content": [
+      {
+        "text": "I saw in the night, and, behold, a man riding upon a red horse, and he stood among the myrtle-trees that were in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shady place", "marks": ["i"] }]
+        }
+      },
+      "bottom; and behind him there were horses, red, sorrel, and white."
+    ]
   },
   {
     "book": "ZEC",
@@ -72,13 +84,20 @@
     "book": "ZEC",
     "chapter": 1,
     "verse": 12,
-    "content": "Then the angel of Jehovah answered and said, O Jehovah of hosts, how long wilt thou not have mercy on Jerusalem and on the cities of Judah, against which thou hast had indignation these threescore and ten years?"
+    "content": {
+      "paragraph": true,
+      "text": "Then the angel of Jehovah answered and said, O Jehovah of hosts, how long wilt thou not have mercy on Jerusalem and on the cities of Judah, against which thou hast had indignation these threescore and ten years?"
+    }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 13,
-    "content": "And Jehovah answered the angel that talked with me with good words, even comfortable words."
+    "content": [
+      "And Jehovah answered the angel that talked with me with good words, ",
+      { "text": "even", "marks": ["i"] },
+      " comfortable words."
+    ]
   },
   {
     "book": "ZEC",
@@ -90,7 +109,16 @@
     "book": "ZEC",
     "chapter": 1,
     "verse": 15,
-    "content": "And I am very sore displeased with the nations that are at ease; for I was but a little displeased, and they helped forward the affliction."
+    "content": [
+      {
+        "text": "And I am very sore displeased with the nations that are at ease; for I was but a little displeased, and they ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "helped for evil", "marks": ["i"] }]
+        }
+      },
+      "helped forward the affliction."
+    ]
   },
   {
     "book": "ZEC",
@@ -102,13 +130,31 @@
     "book": "ZEC",
     "chapter": 1,
     "verse": 17,
-    "content": "Cry yet again, saying, Thus saith Jehovah of hosts: My cities shall yet overflow with prosperity; and Jehovah shall yet comfort Zion, and shall yet choose Jerusalem."
+    "content": [
+      {
+        "text": "Cry yet again, saying, Thus saith Jehovah of hosts: My cities ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "through prosperity shall yet be spread abroad",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "shall yet overflow with prosperity; and Jehovah shall yet comfort Zion, and shall yet choose Jerusalem."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 18,
-    "content": "And I lifted up mine eyes, and saw, and, behold, four horns."
+    "content": {
+      "paragraph": true,
+      "text": "And I lifted up mine eyes, and saw, and, behold, four horns."
+    }
   },
   {
     "book": "ZEC",
@@ -153,7 +199,16 @@
     "book": "ZEC",
     "chapter": 2,
     "verse": 4,
-    "content": "and said unto him, Run, speak to this young man, saying, Jerusalem shall be inhabited as villages without walls, by reason of the multitude of men and cattle therein."
+    "content": [
+      {
+        "text": "and said unto him, Run, speak to this young man, saying, Jerusalem shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "dwell", "marks": ["i"] }]
+        }
+      },
+      "be inhabited as villages without walls, by reason of the multitude of men and cattle therein."
+    ]
   },
   {
     "book": "ZEC",
@@ -165,7 +220,10 @@
     "book": "ZEC",
     "chapter": 2,
     "verse": 6,
-    "content": "Ho, ho, flee from the land of the north, saith Jehovah; for I have spread you abroad as the four winds of the heavens, saith Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "Ho, ho, flee from the land of the north, saith Jehovah; for I have spread you abroad as the four winds of the heavens, saith Jehovah."
+    }
   },
   {
     "book": "ZEC",
@@ -177,7 +235,19 @@
     "book": "ZEC",
     "chapter": 2,
     "verse": 8,
-    "content": "For thus saith Jehovah of hosts: After glory hath he sent me unto the nations which plundered you; for he that toucheth you toucheth the apple of his eye."
+    "content": [
+      {
+        "text": "For thus saith Jehovah of hosts: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "After the glory, he hath etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "After glory hath he sent me unto the nations which plundered you; for he that toucheth you toucheth the apple of his eye."
+    ]
   },
   {
     "book": "ZEC",
@@ -195,7 +265,7 @@
     "book": "ZEC",
     "chapter": 2,
     "verse": 11,
-    "content": "And many nations shall join themselves to Jehovah in that day, and shall be my people; and I will dwell in the midst of thee, and thou shalt know that Jehovah of hosts has sent me unto thee."
+    "content": "And many nations shall join themselves to Jehovah in that day, and shall be my people; and I will dwell in the midst of thee, and thou shalt know that Jehovah of hosts hath sent me unto thee."
   },
   {
     "book": "ZEC",
@@ -213,10 +283,21 @@
     "book": "ZEC",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And he showed me Joshua the high priest standing before the angel of Jehovah, and Satan standing at his right hand to be his adversary."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And he showed me Joshua the high priest standing before the angel of Jehovah, and ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "the Adversary", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Satan standing at his right hand to be his adversary."
+    ]
   },
   {
     "book": "ZEC",
@@ -240,25 +321,74 @@
     "book": "ZEC",
     "chapter": 3,
     "verse": 5,
-    "content": "And I said, Let them set a clean mitre upon his head. So they set a clean mitre upon his head, and clothed him with garments; and the angel of Jehovah was standing by."
+    "content": [
+      {
+        "text": "And I said, Let them set a clean ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "turban", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "mitre upon his head. So they set a clean ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "turban", "marks": ["i"] }]
+        }
+      },
+      "mitre upon his head, and clothed him with garments; and the angel of Jehovah was standing by."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 6,
-    "content": "And the angel of Jehovah protested unto Joshua, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And the angel of Jehovah protested unto Joshua, saying,"
+    }
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 7,
-    "content": "Thus saith Jehovah of hosts: If thou wilt walk in my ways, and if thou wilt keep my charge, then thou also shalt judge my house, and shalt also keep my courts, and I will give thee a place of access among these that stand by."
+    "content": [
+      {
+        "text": "Thus saith Jehovah of hosts: If thou wilt walk in my ways, and if thou wilt keep my charge, then thou also shalt judge my house, and shalt also keep my courts, and I will give thee ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "places to walk", "marks": ["i"] }]
+        }
+      },
+      "a place of access among these that stand by."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 8,
-    "content": "Hear now, O Joshua the high priest, thou and thy fellows that sit before thee; for they are men that are a sign: for, behold, I will bring forth my servant the Branch."
+    "content": [
+      {
+        "text": "Hear now, O Joshua the high priest, thou and thy fellows that sit before thee; for they are men that are a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "wonder", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "sign: for, behold, I will bring forth my servant the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Shoot", "marks": ["i"] },
+            ". Or, ",
+            { "text": "Sprout", "marks": ["i"] }
+          ]
+        }
+      },
+      "Branch."
+    ]
   },
   {
     "book": "ZEC",
@@ -285,7 +415,20 @@
     "book": "ZEC",
     "chapter": 4,
     "verse": 2,
-    "content": "And he said unto me, What seest thou? And I said, I have seen, and, behold, a candlestick all of gold, with its bowl upon the top of it, and its seven lamps thereon; there are seven pipes to each of the lamps, which are upon the top thereof;"
+    "content": [
+      {
+        "text": "And he said unto me, What seest thou? And I said, I have seen, and, behold, a candlestick all of gold, with its bowl upon the top of it, and its seven lamps thereon; ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "The Septuagint and Vulgate have ",
+            { "text": "and seven pipes to the lamps", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "there are seven pipes to each of the lamps, which are upon the top thereof;"
+    ]
   },
   {
     "book": "ZEC",
@@ -309,13 +452,26 @@
     "book": "ZEC",
     "chapter": 4,
     "verse": 6,
-    "content": "Then he answered and spake unto me, saying, This is the word of Jehovah unto Zerubbabel, saying, Not by might, nor by power, but by my Spirit, saith Jehovah of hosts."
+    "content": [
+      {
+        "text": "Then he answered and spake unto me, saying, This is the word of Jehovah unto Zerubbabel, saying, Not by ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "an army", "marks": ["i"] }]
+        }
+      },
+      "might, nor by power, but by my Spirit, saith Jehovah of hosts."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 7,
-    "content": "Who art thou, O great mountain? before Zerubbabel thou shalt become a plain; and he shall bring forth the top stone with shoutings of Grace, grace, unto it."
+    "content": [
+      "Who art thou, O great mountain? before Zerubbabel ",
+      { "text": "thou shalt become", "marks": ["i"] },
+      " a plain; and he shall bring forth the top stone with shoutings of Grace, grace, unto it."
+    ]
   },
   {
     "book": "ZEC",
@@ -333,19 +489,50 @@
     "book": "ZEC",
     "chapter": 4,
     "verse": 10,
-    "content": "For who hath despised the day of small things? for these seven shall rejoice, and shall see the plummet in the hand of Zerubbabel; these are the eyes of Jehovah, which run to and fro through the whole earth."
+    "content": [
+      "For who hath despised the day of small things? for these seven shall rejoice, and shall see the plummet in the hand of Zerubbabel; ",
+      { "text": "these are", "marks": ["i"] },
+      " the eyes of Jehovah, which run to and fro through the whole earth."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 11,
-    "content": "Then answered I, and said unto him, What are these two olive-trees upon the right side of the candlestick and upon the left side thereof?"
+    "content": {
+      "paragraph": true,
+      "text": "Then answered I, and said unto him, What are these two olive-trees upon the right side of the candlestick and upon the left side thereof?"
+    }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 12,
-    "content": "And I answered the second time, and said unto him, What are these two olive-branches, which are beside the two golden spouts, that empty the golden oil out of themselves?"
+    "content": [
+      {
+        "text": "And I answered the second time, and said unto him, What are these two olive-branches, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "which by means of the two golden sprouts empty",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "which are beside the two golden spouts, that empty ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "the gold", "marks": ["i"] }, "."]
+        }
+      },
+      "the golden ",
+      { "text": "oil", "marks": ["i"] },
+      " out of themselves?"
+    ]
   },
   {
     "book": "ZEC",
@@ -378,7 +565,23 @@
     "book": "ZEC",
     "chapter": 5,
     "verse": 3,
-    "content": "Then said he unto me, This is the curse that goeth forth over the face of the whole land: for every one that stealeth shall be cut off on the one side according to it; and every one that sweareth shall be cut off on the other side according to it."
+    "content": [
+      {
+        "text": "Then said he unto me, This is the curse that goeth forth over the face of the whole land: for every one that stealeth shall be cut off ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "from hence", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "on the one side according to it; and every one that sweareth shall be cut off ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "from hence", "marks": ["i"] }]
+        }
+      },
+      "on the other side according to it."
+    ]
   },
   {
     "book": "ZEC",
@@ -390,19 +593,40 @@
     "book": "ZEC",
     "chapter": 5,
     "verse": 5,
-    "content": "Then the angel that talked with me went forth, and said unto me, Lift up now thine eyes, and see what is this that goeth forth."
+    "content": {
+      "paragraph": true,
+      "text": "Then the angel that talked with me went forth, and said unto me, Lift up now thine eyes, and see what is this that goeth forth."
+    }
   },
   {
     "book": "ZEC",
     "chapter": 5,
     "verse": 6,
-    "content": "And I said, What is it? And he said, This is the ephah that goeth forth. He said moreover, This is their appearance in all the land"
+    "content": [
+      {
+        "text": "And I said, What is it? And he said, This is the ephah that goeth forth. He said moreover, This is their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "eye", "marks": ["i"] }, "."]
+        }
+      },
+      "appearance in all the land"
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 5,
     "verse": 7,
-    "content": "(and, behold, there was lifted up a talent of lead); and this is a woman sitting in the midst of the ephah."
+    "content": [
+      {
+        "text": "(and, behold, there was lifted up a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "round piece", "marks": ["i"] }]
+        }
+      },
+      "talent of lead); and this is a woman sitting in the midst of the ephah."
+    ]
   },
   {
     "book": "ZEC",
@@ -426,16 +650,39 @@
     "book": "ZEC",
     "chapter": 5,
     "verse": 11,
-    "content": "And he said unto me, To build her a house in the land of Shinar: and when it is prepared, she shall be set there in her own place."
+    "content": [
+      {
+        "text": "And he said unto me, To build her a house in the land of Shinar: and when it is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "established", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "prepared, she shall be set there ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upon her own base", "marks": ["i"] }]
+        }
+      },
+      "in her own place."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And again I lifted up mine eyes, and saw, and, behold, there came four chariots out from between two mountains; and the mountains were mountains of brass."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And again I lifted up mine eyes, and saw, and, behold, there came four chariots out from between ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the two", "marks": ["i"] }]
+        }
+      },
+      "two mountains; and the mountains were mountains of brass."
+    ]
   },
   {
     "book": "ZEC",
@@ -459,19 +706,54 @@
     "book": "ZEC",
     "chapter": 6,
     "verse": 5,
-    "content": "And the angel answered and said unto me, These are the four winds of heaven, which go forth from standing before the Lord of all the earth."
+    "content": [
+      {
+        "text": "And the angel answered and said unto me, These are the four ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "spirits", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "winds of heaven, which go forth from ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "presenting themselves", "marks": ["i"] }
+          ]
+        }
+      },
+      "standing before the Lord of all the earth."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 6,
-    "content": "The chariot wherein are the black horses goeth forth toward the north country; and the white went forth after them; and the grizzled went forth toward the south country."
+    "content": [
+      { "text": "The chariot", "marks": ["i"] },
+      " wherein are the black horses goeth forth toward the north country; and the white went forth after them; and the grizzled went forth toward the south country."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 7,
-    "content": "And the strong went forth, and sought to go that they might walk to and fro through the earth: and he said, Get you hence, walk to and fro through the earth. So they walked to and fro through the earth."
+    "content": [
+      {
+        "text": "And the ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "The Syriac and Aquila have ",
+            { "text": "red", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "strong went forth, and sought to go that they might walk to and fro through the earth: and he said, Get you hence, walk to and fro through the earth. So they walked to and fro through the earth."
+    ]
   },
   {
     "book": "ZEC",
@@ -483,7 +765,10 @@
     "book": "ZEC",
     "chapter": 6,
     "verse": 9,
-    "content": "And the word of Jehovah came unto me, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And the word of Jehovah came unto me, saying,"
+    }
   },
   {
     "book": "ZEC",
@@ -495,52 +780,152 @@
     "book": "ZEC",
     "chapter": 6,
     "verse": 11,
-    "content": "yea, take of them silver and gold, and make crowns, and set them upon the head of Joshua the son of Jehozadak, the high priest;"
+    "content": [
+      "yea, take ",
+      { "text": "of them", "marks": ["i"] },
+      {
+        "text": " silver and gold, and make ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a crown, and set it", "marks": ["i"] }]
+        }
+      },
+      "crowns, and set them upon the head of Joshua the son of Jehozadak, the high priest;"
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 12,
-    "content": "and speak unto him, saying, Thus speaketh Jehovah of hosts, saying, Behold, the man whose name is the Branch: and he shall grow up out of his place; and he shall build the temple of Jehovah;"
+    "content": [
+      {
+        "text": "and speak unto him, saying, Thus speaketh Jehovah of hosts, saying, Behold, the man ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "whose name is the Bud; and it", "marks": ["i"] },
+            " (or, ",
+            { "text": "they", "marks": ["i"] },
+            ") ",
+            { "text": "shall bud forth under him", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "whose name is the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Shoot", "marks": ["i"] },
+            ". Or, ",
+            { "text": "Sprout", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "Branch: and he shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shoot", "marks": ["i"] }]
+        }
+      },
+      "grow up out of his place; and he shall build the temple of Jehovah;"
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 13,
-    "content": "even he shall build the temple of Jehovah; and he shall bear the glory, and shall sit and rule upon his throne; and he shall be a priest upon his throne; and the counsel of peace shall be between them both."
+    "content": [
+      {
+        "text": "even he shall build the temple of Jehovah; and he shall bear the glory, and shall sit and rule upon his throne; and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "there shall be", "marks": ["i"] }]
+        }
+      },
+      "he shall be a priest upon his throne; and the counsel of peace shall be between them both."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 14,
-    "content": "And the crowns shall be to Helem, and to Tobijah, and to Jedaiah, and to Hen the son of Zephaniah, for a memorial in the temple of Jehovah."
+    "content": [
+      {
+        "text": "And the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "crown", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "crowns shall be to Helem, and to Tobijah, and to Jedaiah, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "for the kindness of the son etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "to Hen the son of Zephaniah, for a memorial in the temple of Jehovah."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 15,
-    "content": "And they that are far off shall come and build in the temple of Jehovah; and ye shall know that Jehovah of hosts hath sent me unto you. And this shall come to pass, if ye will diligently obey the voice of Jehovah your God."
+    "content": [
+      "And they that are far off shall come and build in the temple of Jehovah; and ye shall know that Jehovah of hosts hath sent me unto you. And ",
+      { "text": "this", "marks": ["i"] },
+      " shall come to pass, if ye will diligently obey the voice of Jehovah your God."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And it came to pass in the fourth year of king Darius, that the word of Jehovah came unto Zechariah in the fourth day of the ninth month, even in Chislev."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass in the fourth year of king Darius, that the word of Jehovah came unto Zechariah in the fourth "
+      },
+      { "text": "day", "marks": ["i"] },
+      " of the ninth month, even in Chislev."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 2,
-    "content": "Now they of Beth-el had sent Sharezer and Regem-melech, and their men, to entreat the favor of Jehovah,"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Now", "marks": ["i"] },
+            " they of ",
+            { "text": "Beth-el, even Sharezer . . . had sent", "marks": ["i"] }
+          ]
+        }
+      },
+      "Now ",
+      { "text": "they of", "marks": ["i"] },
+      " Beth-el had sent Sharezer and Regem-melech, and their men, to entreat the favor of Jehovah,"
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 3,
-    "content": "and to speak unto the priests of the house of Jehovah of hosts, and to the prophets, saying, Should I weep in the fifth month, separating myself, as I have done these so many years?"
+    "content": [
+      { "text": "and", "marks": ["i"] },
+      " to speak unto the priests of the house of Jehovah of hosts, and to the prophets, saying, Should I weep in the fifth month, separating myself, as I have done these so many years?"
+    ]
   },
   {
     "book": "ZEC",
@@ -552,25 +937,49 @@
     "book": "ZEC",
     "chapter": 7,
     "verse": 5,
-    "content": "Speak unto all the people of the land, and to the priests, saying, When ye fasted and mourned in the fifth and in the seventh month, even these seventy years, did ye at all fast unto me, even to me?"
+    "content": [
+      "Speak unto all the people of the land, and to the priests, saying, When ye fasted and mourned in the fifth and in the seventh ",
+      { "text": "month", "marks": ["i"] },
+      ", even these seventy years, did ye at all fast unto me, even to me?"
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 6,
-    "content": "And when ye eat, and when ye drink, do not ye eat for yourselves, and drink for yourselves?"
+    "content": [
+      {
+        "text": "And when ye eat, and when ye drink, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "are not ye they that eat etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "do not ye eat for yourselves, and drink for yourselves?"
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 7,
-    "content": "Should ye not hear the words which Jehovah cried by the former prophets, when Jerusalem was inhabited and in prosperity, and the cities thereof round about her, and the South and the lowland were inhabited?"
+    "content": [
+      { "text": "Should ye", "marks": ["i"] },
+      " not ",
+      { "text": "hear", "marks": ["i"] },
+      " the words which Jehovah cried by the former prophets, when Jerusalem was inhabited and in prosperity, and the cities thereof round about her, and the South and the lowland were inhabited?"
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 8,
-    "content": "And the word of Jehovah came unto Zechariah, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And the word of Jehovah came unto Zechariah, saying,"
+    }
   },
   {
     "book": "ZEC",
@@ -588,7 +997,32 @@
     "book": "ZEC",
     "chapter": 7,
     "verse": 11,
-    "content": "But they refused to hearken, and pulled away the shoulder, and stopped their ears, that they might not hear."
+    "content": [
+      {
+        "text": "But they refused to hearken, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "turned a stubborn shoulder", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "pulled away the shoulder, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "made their ears heavy", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Isaiah 6:10", "content": "Isa. 6:10" },
+            "."
+          ]
+        }
+      },
+      "stopped their ears, that they might not hear."
+    ]
   },
   {
     "book": "ZEC",
@@ -606,16 +1040,30 @@
     "book": "ZEC",
     "chapter": 7,
     "verse": 14,
-    "content": "but I will scatter them with a whirlwind among all the nations which they have not known. Thus the land was desolate after them, so that no man passed through nor returned: for they laid the pleasant land desolate."
+    "content": [
+      {
+        "text": "but I will scatter them with a whirlwind among all the nations which they have not known. Thus the land was desolate after them, so that no man passed through nor returned: for they laid the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "land of desire", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "pleasant land desolate."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And the word of Jehovah of hosts came to me, saying,"
-    }
+    "content": [
+      { "paragraph": true, "text": "And the word of Jehovah of hosts came " },
+      { "text": "to me", "marks": ["i"] },
+      ", saying,"
+    ]
   },
   {
     "book": "ZEC",
@@ -633,7 +1081,27 @@
     "book": "ZEC",
     "chapter": 8,
     "verse": 4,
-    "content": "Thus saith Jehovah of hosts: There shall yet old men and old women dwell in the streets of Jerusalem, every man with his staff in his hand for very age."
+    "content": [
+      {
+        "text": "Thus saith Jehovah of hosts: There shall yet old men and old women ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sit", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "dwell in the streets of Jerusalem, every man with his staff in his hand ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "for multitude of days", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "for very age."
+    ]
   },
   {
     "book": "ZEC",
@@ -663,7 +1131,10 @@
     "book": "ZEC",
     "chapter": 8,
     "verse": 9,
-    "content": "Thus saith Jehovah of hosts: Let your hands be strong, ye that hear in these days these words from the mouth of the prophets that were in the day that the foundation of the house of Jehovah of hosts was laid, even the temple, that it might be built."
+    "content": {
+      "paragraph": true,
+      "text": "Thus saith Jehovah of hosts: Let your hands be strong, ye that hear in these days these words from the mouth of the prophets that were in the day that the foundation of the house of Jehovah of hosts was laid, even the temple, that it might be built."
+    }
   },
   {
     "book": "ZEC",
@@ -681,19 +1152,30 @@
     "book": "ZEC",
     "chapter": 8,
     "verse": 12,
-    "content": "For there shall be the seed of peace; the vine shall give its fruit, and the ground shall give its increase, and the heavens shall give their dew; and I will cause the remnant of this people to inherit all these things."
+    "content": [
+      "For ",
+      { "text": "there shall be", "marks": ["i"] },
+      " the seed of peace; the vine shall give its fruit, and the ground shall give its increase, and the heavens shall give their dew; and I will cause the remnant of this people to inherit all these things."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 13,
-    "content": "And it shall come to pass that, as ye were a curse among the nations, O house of Judah and house of Israel, so will I save you, and ye shall be a blessing. Fear not, but let your hands be strong."
+    "content": [
+      "And it shall come to pass that, as ye were a curse among the nations, O house of Judah and house of Israel, so will I save you, and ye shall be a blessing. Fear not, ",
+      { "text": "but", "marks": ["i"] },
+      " let your hands be strong."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 14,
-    "content": "For thus saith Jehovah of hosts: As I thought to do evil unto you, when your fathers provoked me to wrath, saith Jehovah of hosts, and I repented not;"
+    "content": {
+      "paragraph": true,
+      "text": "For thus saith Jehovah of hosts: As I thought to do evil unto you, when your fathers provoked me to wrath, saith Jehovah of hosts, and I repented not;"
+    }
   },
   {
     "book": "ZEC",
@@ -705,7 +1187,20 @@
     "book": "ZEC",
     "chapter": 8,
     "verse": 16,
-    "content": "These are the things that ye shall do: speak ye every man the truth with his neighbor; execute the judgment of truth and peace in your gates;"
+    "content": [
+      {
+        "text": "These are the things that ye shall do: Speak ye every man the truth with his neighbor; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "judge truth and the judgment of peace", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "execute the judgment of truth and peace in your gates;"
+    ]
   },
   {
     "book": "ZEC",
@@ -717,25 +1212,49 @@
     "book": "ZEC",
     "chapter": 8,
     "verse": 18,
-    "content": "And the word of Jehovah of hosts came unto me, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And the word of Jehovah of hosts came unto me, saying,"
+    }
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 19,
-    "content": "Thus saith Jehovah of hosts: The fast of the fourth month, and the fast of the fifth, and the fast of the seventh, and the fast of the tenth, shall be to the house of Judah joy and gladness, and cheerful feasts; therefore love truth and peace."
+    "content": [
+      "Thus saith Jehovah of hosts: The fast of the fourth ",
+      { "text": "month", "marks": ["i"] },
+      ", and the fast of the fifth, and the fast of the seventh, and the fast of the tenth, shall be to the house of Judah joy and gladness, and cheerful feasts; therefore love truth and peace."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 20,
-    "content": "Thus saith Jehovah of hosts: It shall yet come to pass, that there shall come peoples, and the inhabitants of many cities;"
+    "content": [
+      "Thus saith Jehovah of hosts: ",
+      { "text": "It shall", "marks": ["i"] },
+      " yet ",
+      { "text": "come to pass", "marks": ["i"] },
+      {
+        "text": ", that there shall come peoples, and the inhabitants of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "great", "marks": ["i"] }]
+        }
+      },
+      "many cities;"
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 21,
-    "content": "and the inhabitants of one city shall go to another, saying, Let us go speedily to entreat the favor of Jehovah, and to seek Jehovah of hosts: I will go also."
+    "content": [
+      "and the inhabitants of one ",
+      { "text": "city", "marks": ["i"] },
+      " shall go to another, saying, Let us go speedily to entreat the favor of Jehovah, and to seek Jehovah of hosts: I will go also."
+    ]
   },
   {
     "book": "ZEC",
@@ -747,22 +1266,57 @@
     "book": "ZEC",
     "chapter": 8,
     "verse": 23,
-    "content": "Thus saith Jehovah of hosts: In those days it shall come to pass, that ten men shall take hold, out of all the languages of the nations, they shall take hold of the skirt of him that is a Jew, saying, We will go with you, for we have heard that God is with you."
+    "content": [
+      "Thus saith Jehovah of hosts: In those days ",
+      { "text": "it shall come to pass", "marks": ["i"] },
+      ", that ten men shall take hold, out of all the languages of the nations, they shall take hold of the skirt of him that is a Jew, saying, We will go with you, for we have heard that God is with you."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 9,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "The burden of the word of Jehovah upon the land of Hadrach, and Damascus shall be its resting-place (for the eye of man and of all the tribes of Israel is toward Jehovah);"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "oracle", "marks": ["i"] }]
+        }
+      },
+      "burden of the word of Jehovah upon the land of Hadrach, and Damascus ",
+      { "text": "shall be", "marks": ["i"] },
+      {
+        "text": " its resting-place (for ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Jehovah hath an eye upon men and upon all the tribe of Israel",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "the eye of man and of all the tribes of Israel is toward Jehovah);"
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 9,
     "verse": 2,
-    "content": "and Hamath, also, which bordereth thereon; Tyre and Sidon, because they are very wise."
+    "content": [
+      {
+        "text": "and Hamath, also, which bordereth thereon; Tyre and Sidon, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "though", "marks": ["i"] }]
+        }
+      },
+      "because they are very wise."
+    ]
   },
   {
     "book": "ZEC",
@@ -774,7 +1328,21 @@
     "book": "ZEC",
     "chapter": 9,
     "verse": 4,
-    "content": "Behold, the Lord will dispossess her, and he will smite her power in the sea; and she shall be devoured with fire."
+    "content": [
+      {
+        "text": "Behold, the Lord will dispossess her, and he will smite ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the sea which is her rampart", "marks": ["i"] },
+            ". Or, ",
+            { "text": "her rampart into the sea", "marks": ["i"] }
+          ]
+        }
+      },
+      "her power in the sea; and she shall be devoured with fire."
+    ]
   },
   {
     "book": "ZEC",
@@ -786,7 +1354,23 @@
     "book": "ZEC",
     "chapter": 9,
     "verse": 6,
-    "content": "And a bastard shall dwell in Ashdod, and I will cut off the pride of the Philistines."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a bastard race", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "a bastard shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sit", "marks": ["i"] }, " as king"]
+        }
+      },
+      "dwell in Ashdod, and I will cut off the pride of the Philistines."
+    ]
   },
   {
     "book": "ZEC",
@@ -798,13 +1382,50 @@
     "book": "ZEC",
     "chapter": 9,
     "verse": 8,
-    "content": "And I will encamp about my house against the army, that none pass through or return; and no oppressor shall pass through them any more: for now have I seen with mine eyes."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And I will encamp about my house ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, as otherwise read, ",
+            { "text": "as a garrison", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "against the army, that none pass through or return; and no ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "exactor", "marks": ["i"] }]
+        }
+      },
+      "oppressor shall pass through them any more: for now have I seen with mine eyes."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 9,
     "verse": 9,
-    "content": "Rejoice greatly, O daughter of Zion; shout, O daughter of Jerusalem: behold, thy king cometh unto thee; he is just, and having salvation; lowly, and riding upon an ass, even upon a colt the foal of an ass."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Rejoice greatly, O daughter of Zion; shout, O daughter of Jerusalem: behold, thy king cometh unto thee; he is just, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "saved", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "having ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "victory", "marks": ["i"] }]
+        }
+      },
+      "salvation; lowly, and riding upon an ass, even upon a colt the foal of an ass."
+    ]
   },
   {
     "book": "ZEC",
@@ -816,19 +1437,39 @@
     "book": "ZEC",
     "chapter": 9,
     "verse": 11,
-    "content": "As for thee also, because of the blood of thy covenant I have set free thy prisoners from the pit wherein is no water."
+    "content": {
+      "paragraph": true,
+      "text": "As for thee also, because of the blood of thy covenant I have set free thy prisoners from the pit wherein is no water."
+    }
   },
   {
     "book": "ZEC",
     "chapter": 9,
     "verse": 12,
-    "content": "Turn you to the stronghold, ye prisoners of hope: even to-day do I declare that I will render double unto thee."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Return", "marks": ["i"] }]
+        }
+      },
+      "Turn you to the stronghold, ye prisoners of hope: even to-day do I declare that I will render double unto thee."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 9,
     "verse": 13,
-    "content": "For I have bent Judah for me, I have filled the bow with Ephraim; and I will stir up thy sons, O Zion, against thy sons, O Greece, and will make thee as the sword of a mighty man."
+    "content": [
+      {
+        "text": "For I have bent Judah for me, I have filled the bow with Ephraim; and I will stir up thy sons, O Zion, against thy sons, O ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Javan", "marks": ["i"] }, "."]
+        }
+      },
+      "Greece, and will make thee as the sword of a mighty man."
+    ]
   },
   {
     "book": "ZEC",
@@ -846,28 +1487,81 @@
     "book": "ZEC",
     "chapter": 9,
     "verse": 16,
-    "content": "And Jehovah their God will save them in that day as the flock of his people; for they shall be as the stones of a crown, lifted on high over his land."
+    "content": [
+      "And Jehovah their God will save them in that day as the flock of his people; for ",
+      { "text": "they shall be as", "marks": ["i"] },
+      {
+        "text": " the stones of a crown, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "glittering upon etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "lifted on high over his land."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 9,
     "verse": 17,
-    "content": "For how great is his goodness, and how great is his beauty! grain shall make the young men flourish, and new wine the virgins."
+    "content": [
+      {
+        "text": "For how great is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "their", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "prosperity", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "goodness, and how great is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "their", "marks": ["i"] }]
+        }
+      },
+      "his beauty! grain shall make the young men flourish, and new wine the virgins."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 10,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Ask ye of Jehovah rain in the time of the latter rain, even of Jehovah that maketh lightnings; and he will give them showers of rain, to every one grass in the field."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ask ye of Jehovah rain in the time of the latter rain, "
+      },
+      { "text": "even of", "marks": ["i"] },
+      " Jehovah that maketh lightnings; and he will give them showers of rain, to every one grass in the field."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 10,
     "verse": 2,
-    "content": "For the teraphim have spoken vanity, and the diviners have seen a lie; and they have told false dreams, they comfort in vain: therefore they go their way like sheep, they are afflicted, because there is no shepherd."
+    "content": [
+      {
+        "text": "For the teraphim have spoken vanity, and the diviners have seen a lie; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the dreamers speak falsely", "marks": ["i"] }
+          ]
+        }
+      },
+      "they have told false dreams, they comfort in vain: therefore they go their way like sheep, they are afflicted, because there is no shepherd."
+    ]
   },
   {
     "book": "ZEC",
@@ -879,49 +1573,105 @@
     "book": "ZEC",
     "chapter": 10,
     "verse": 4,
-    "content": "From him shall come forth the corner-stone, from him the nail, from him the battle bow, from him every ruler together."
+    "content": [
+      {
+        "text": "From him shall come forth the corner-stone, from him the nail, from him the battle bow, from him every ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "exactor", "marks": ["i"] }]
+        }
+      },
+      "ruler together."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 10,
     "verse": 5,
-    "content": "And they shall be as mighty men, treading down their enemies in the mire of the streets in the battle; and they shall fight, because Jehovah is with them; and the riders on horses shall be confounded."
+    "content": [
+      "And they shall be as mighty men, treading down ",
+      { "text": "their enemies", "marks": ["i"] },
+      " in the mire of the streets in the battle; and they shall fight, because Jehovah is with them; and the riders on horses shall be confounded."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 10,
     "verse": 6,
-    "content": "And I will strenghten the house of Judah, and I will save the house of Joseph, and I will bring them back; for I have mercy upon them; and they shall be as though I had not cast them off: for I am Jehovah their God, and I will hear them."
+    "content": [
+      {
+        "text": "And I will strengthen the house of Judah, and I will save the house of Joseph, and I will ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "cause them to dwell", "marks": ["i"] }]
+        }
+      },
+      "bring them back; for I have mercy upon them; and they shall be as though I had not cast them off: for I am Jehovah their God, and I will hear them."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 10,
     "verse": 7,
-    "content": "And they of Ephraim shall be like a mighty man, and their heart shall rejoice as through wine; yea, their children shall see it, and rejoice; their heart shall be glad in Jehovah."
+    "content": [
+      "And ",
+      { "text": "they of", "marks": ["i"] },
+      " Ephraim shall be like a mighty man, and their heart shall rejoice as through wine; yea, their children shall see it, and rejoice; their heart shall be glad in Jehovah."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 10,
     "verse": 8,
-    "content": "I will hiss for them, and gather them; for I have redeemed them; and they shall increase as they have increased."
+    "content": {
+      "paragraph": true,
+      "text": "I will hiss for them, and gather them; for I have redeemed them; and they shall increase as they have increased."
+    }
   },
   {
     "book": "ZEC",
     "chapter": 10,
     "verse": 9,
-    "content": "And I will sow them among the peoples; and they shall remember me in far countries; and they shall live with their children, and shall return."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "And though I sow them . . . they shall remember etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "And I will sow them among the peoples; and they shall remember me in far countries; and they shall live with their children, and shall return."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 10,
     "verse": 10,
-    "content": "I will bring them again also out of the land of Egypt, and gather them out of Assyria; and I will bring them into the land of Gilead and Lebanon; and place shall not be found for them."
+    "content": [
+      "I will bring them again also out of the land of Egypt, and gather them out of Assyria; and I will bring them into the land of Gilead and Lebanon; and ",
+      { "text": "place", "marks": ["i"] },
+      " shall not be found for them."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 10,
     "verse": 11,
-    "content": "And he will pass through the sea of affliction, and will smite the waves in the sea, and all the depths of the Nile shall dry up; and the pride of Assyria shall be brought down, and the sceptre of Egypt shall depart."
+    "content": [
+      {
+        "text": "And he will pass through the sea of affliction, and will smite ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the sea of waves", "marks": ["i"] }]
+        }
+      },
+      "the waves in the sea, and all the depths of the Nile shall dry up; and the pride of Assyria shall be brought down, and the sceptre of Egypt shall depart."
+    ]
   },
   {
     "book": "ZEC",
@@ -942,7 +1692,23 @@
     "book": "ZEC",
     "chapter": 11,
     "verse": 2,
-    "content": "Wail, O fir-tree, for the cedar is fallen, because the goodly ones are destroyed: wail, O ye oaks of Bashan, for the strong forest is come down."
+    "content": [
+      {
+        "text": "Wail, O fir-tree, for the cedar is fallen, because the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "glorious", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "goodly ones are destroyed: wail, O ye oaks of Bashan, for the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "fortified", "marks": ["i"] }]
+        }
+      },
+      "strong forest is come down."
+    ]
   },
   {
     "book": "ZEC",
@@ -954,13 +1720,35 @@
     "book": "ZEC",
     "chapter": 11,
     "verse": 4,
-    "content": "Thus said Jehovah my God: Feed the flock of slaughter;"
+    "content": {
+      "paragraph": true,
+      "text": "Thus said Jehovah my God: Feed the flock of slaughter;"
+    }
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 5,
-    "content": "whose possessors slay them, and hold themselves not guilty; and they that sell them say, Blessed be Jehovah, for I am rich; and their own shepherds pity them not."
+    "content": [
+      {
+        "text": "whose ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "buyers", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "possessors slay them, and hold themselves not guilty; and they that sell them say, Blessed be Jehovah, for I am rich; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "their shepherd pitieth", "marks": ["i"] }
+          ]
+        }
+      },
+      "their own shepherds pity them not."
+    ]
   },
   {
     "book": "ZEC",
@@ -972,7 +1760,38 @@
     "book": "ZEC",
     "chapter": 11,
     "verse": 7,
-    "content": "So I fed the flock of slaughter, verily the poor of the flock. And I took unto me two staves; the one I called Beauty, and the other I called Bands; and I fed the flock."
+    "content": [
+      {
+        "text": "So I fed the flock of slaughter, verily ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the most miserable of sheep", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "the poor of the flock. And I took unto me two staves; the one I called ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Graciousness", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "Beauty, and the other I called ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Binders", "marks": ["i"] },
+            ". Or, ",
+            { "text": "Union", "marks": ["i"] }
+          ]
+        }
+      },
+      "Bands; and I fed the flock."
+    ]
   },
   {
     "book": "ZEC",
@@ -984,7 +1803,19 @@
     "book": "ZEC",
     "chapter": 11,
     "verse": 9,
-    "content": "Then said I, I will not feed you: that which dieth, let it die; and that which is to be cut off, let it be cut off; and let them that are left eat every one the flesh of another."
+    "content": [
+      {
+        "text": "Then said I, I will not feed you: that which dieth, let it die; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "that which is lost, let it be lost", "marks": ["i"] }
+          ]
+        }
+      },
+      "that which is to be cut off, let it be cut off; and let them that are left eat every one the flesh of another."
+    ]
   },
   {
     "book": "ZEC",
@@ -996,19 +1827,52 @@
     "book": "ZEC",
     "chapter": 11,
     "verse": 11,
-    "content": "And it was broken in that day; and thus the poor of the flock that gave heed unto me knew that it was the word of Jehovah."
+    "content": [
+      {
+        "text": "And it was broken in that day; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "the poor of the flock . . . knew of a truth",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "thus ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the most miserable of sheep", "marks": ["i"] }
+          ]
+        }
+      },
+      "the poor of the flock that gave heed unto me knew that it was the word of Jehovah."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 12,
-    "content": "And I said unto them, If ye think good, give me my hire; and if not, forbear. So they weighed for my hire thirty pieces of silver."
+    "content": [
+      "And I said unto them, If ye think good, give me my hire; and if not, forbear. So they weighed for my hire thirty ",
+      { "text": "pieces", "marks": ["i"] },
+      " of silver."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 13,
-    "content": "And Jehovah said unto me, Cast it unto the potter, the goodly price that I was prized at by them. And I took the thirty pieces of silver, and cast them unto the potter, in the house of Jehovah."
+    "content": [
+      "And Jehovah said unto me, Cast it unto the potter, the goodly price that I was prized at by them. And I took the thirty ",
+      { "text": "pieces", "marks": ["i"] },
+      " of silver, and cast them unto the potter, in the house of Jehovah."
+    ]
   },
   {
     "book": "ZEC",
@@ -1020,34 +1884,101 @@
     "book": "ZEC",
     "chapter": 11,
     "verse": 15,
-    "content": "And Jehovah said unto me, Take unto thee yet again the instruments of a foolish shepherd."
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah said unto me, Take unto thee yet again the instruments of a foolish shepherd."
+    }
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 16,
-    "content": "For, lo, I will raise up a shepherd in the land, who will not visit those that are cut off, neither will seek those that are scattered, nor heal that which is broken, nor feed that which is sound; but he will eat the flesh of the fat sheep, and will tear their hoofs in pieces."
+    "content": [
+      {
+        "text": "For, lo, I will raise up a shepherd in the land, who will not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "miss", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "visit those that are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "lost", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "cut off, neither will seek ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the young", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "those that are scattered, nor heal that which is broken, nor feed that which ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "standeth", "marks": ["i"] }, "."]
+        }
+      },
+      "is sound; but he will eat the flesh of the fat ",
+      { "text": "sheep", "marks": ["i"] },
+      ", and will tear their hoofs in pieces."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 17,
-    "content": "Woe to the worthless shepherd that leaveth the flock! the sword shall be upon his arm, and upon his right eye: his arm shall be clean dried up, and his right eye shall be utterly darkened."
-  },
-  {
-    "book": "ZEC",
-    "chapter": 12,
-    "verse": 1,
     "content": {
-      "paragraph": true,
-      "text": "The burden of the word of Jehovah concerning Israel. Thus saith Jehovah, who stretcheth forth the heavens, and layeth the foundation of the earth, and formeth the spirit of man within him:"
+      "text": "Woe to the worthless shepherd that leaveth the flock! the sword shall be upon his arm, and upon his right eye: his arm shall be clean dried up, and his right eye shall be utterly darkened.",
+      "break": true
     }
   },
   {
     "book": "ZEC",
     "chapter": 12,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "oracle", "marks": ["i"] }]
+        }
+      },
+      "burden of the word of Jehovah concerning Israel.",
+      { "paragraph": true, "text": "Thus", "marks": ["i"] },
+      " saith Jehovah, who stretcheth forth the heavens, and layeth the foundation of the earth, and formeth the spirit of man within him:"
+    ]
+  },
+  {
+    "book": "ZEC",
+    "chapter": 12,
     "verse": 2,
-    "content": "behold, I will make Jerusalem a cup of reeling unto all the peoples round about, and upon Judah also shall it be in the siege against Jerusalem."
+    "content": [
+      {
+        "text": "Behold, I will make Jerusalem a cup of reeling unto all the peoples round about, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "against", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "upon Judah also ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "shall it fall", "marks": ["i"] },
+            " to be"
+          ]
+        }
+      },
+      "shall it be in the siege against Jerusalem."
+    ]
   },
   {
     "book": "ZEC",
@@ -1071,7 +2002,18 @@
     "book": "ZEC",
     "chapter": 12,
     "verse": 6,
-    "content": "In that day will I make the chieftains of Judah like a pan of fire among wood, and like a flaming torch among sheaves; and they shall devour all the peoples round about, on the right hand and on the left; and they of Jerusalem shall yet again dwell in their own place, even in Jerusalem."
+    "content": [
+      "In that day will I make the chieftains of Judah like a pan of fire among wood, and like a flaming torch among sheaves; and they shall devour all the peoples round about, on the right hand and on the left; and ",
+      { "text": "they of", "marks": ["i"] },
+      {
+        "text": " Jerusalem shall yet again dwell in ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "her", "marks": ["i"] }, "."]
+        }
+      },
+      "their own place, even in Jerusalem."
+    ]
   },
   {
     "book": "ZEC",
@@ -1083,7 +2025,16 @@
     "book": "ZEC",
     "chapter": 12,
     "verse": 8,
-    "content": "In that day shall Jehovah defend the inhabitants of Jerusalem: and he that is feeble among them at that day shall be as David; and the house of David shall be as God, as the angel of Jehovah before them."
+    "content": [
+      {
+        "text": "In that day shall Jehovah defend the inhabitants of Jerusalem; and he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "that stumbleth", "marks": ["i"] }]
+        }
+      },
+      "that is feeble among them at that day shall be as David; and the house of David shall be as God, as the angel of Jehovah before them."
+    ]
   },
   {
     "book": "ZEC",
@@ -1095,7 +2046,21 @@
     "book": "ZEC",
     "chapter": 12,
     "verse": 10,
-    "content": "And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and of supplication; and they shall look unto me whom they have pierced; and they shall mourn for him, as one mourneth for his only son, and shall be in bitterness for him, as one that is in bitterness for his first-born."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and of supplication; and they shall look unto ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to some manuscripts, ",
+            { "text": "him", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "me whom they have pierced; and they shall mourn for him, as one mourneth for his only son, and shall be in bitterness for him, as one that is in bitterness for his first-born."
+    ]
   },
   {
     "book": "ZEC",
@@ -1158,13 +2123,32 @@
     "book": "ZEC",
     "chapter": 13,
     "verse": 6,
-    "content": "And one shall say unto him, What are these wounds between thine arms? Then he shall answer, Those with which I was wounded in the house of my friends."
+    "content": [
+      {
+        "text": "And one shall say unto him, What are these wounds between thine ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "hands", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "arms? Then he shall answer, Those with which I was wounded in the house of my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "lovers", "marks": ["i"] }]
+        }
+      },
+      "friends."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 13,
     "verse": 7,
-    "content": "Awake, O sword, against my shepherd, and against the man that is my fellow, saith Jehovah of hosts: smite the shepherd, and the sheep shall be scattered; and I will turn my hand upon the little ones."
+    "content": {
+      "paragraph": true,
+      "text": "Awake, O sword, against my shepherd, and against the man that is my fellow, saith Jehovah of hosts: smite the shepherd, and the sheep shall be scattered; and I will turn my hand upon the little ones."
+    }
   },
   {
     "book": "ZEC",
@@ -1203,19 +2187,64 @@
     "book": "ZEC",
     "chapter": 14,
     "verse": 4,
-    "content": "And his feet shall stand in that day upon the mount of Olives, which is before Jerusalem on the east; and the mount of Olives shall be cleft in the midst thereof toward the east and toward the west, and there shall be a very great valley; and half of the mountain shall remove toward the north, and half of it toward the south."
+    "content": [
+      "And his feet shall stand in that day upon the mount of Olives, which is before Jerusalem on the east; and the mount of Olives shall be cleft in the midst thereof toward the east and toward the west, ",
+      { "text": "and there shall be", "marks": ["i"] },
+      " a very great valley; and half of the mountain shall remove toward the north, and half of it toward the south."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 5,
-    "content": "And ye shall flee by the valley of my mountains; for the valley of the mountains shall reach unto Azel; yea, ye shall flee, like as ye fled from before the earthquake in the days of Uzziah king of Judah; and Jehovah my God shall come, and all the holy ones with thee."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, as otherwise read, ",
+            {
+              "text": "the valley of my mountains shall be stopped",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "ye shall flee ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "by the valley of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the", "marks": ["i"] }]
+        }
+      },
+      "my mountains; for the valley of the mountains shall reach unto Azel; yea, ye shall flee, like as ye fled from before the earthquake in the days of Uzziah king of Judah; and Jehovah my God shall come, and all the holy ones with thee."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 6,
-    "content": "And it shall come to pass in that day, that there shall not be light; the bright ones shall withdraw themselves:"
+    "content": [
+      {
+        "text": "And it shall come to pass in that day, that ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the light shall not be bright nor dark", "marks": ["i"] }
+          ]
+        }
+      },
+      "there shall not be light; the bright ones shall withdraw themselves:"
+    ]
   },
   {
     "book": "ZEC",
@@ -1233,31 +2262,60 @@
     "book": "ZEC",
     "chapter": 14,
     "verse": 9,
-    "content": "And Jehovah shall be King over all the earth: in that day shall Jehovah be one, and his name one."
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah shall be King over all the earth: in that day shall Jehovah be one, and his name one."
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 10,
-    "content": "All the land shall be made like the Arabah, from Geba to Rimmon south of Jerusalem; and she shall be lifted up, and shall dwell in her place, from Benjamin’s gate unto the place of the first gate, unto the corner gate, and from the tower of Hananel unto the king’s wine-presses."
+    "content": "All the land shall be made like the Arabah, from Geba to Rimmon south of Jerusalem; and she shall be lifted up, and shall dwell in her place, from Benjamin’s gate unto the place of the first gate, unto the corner gate, and from the tower of Hananel unto the king’s winepresses."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 11,
-    "content": "And men shall dwell therein, and there shall be no more curse; but Jerusalem shall dwell safely."
+    "content": [
+      {
+        "text": "And men shall dwell therein, and there shall be no more ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "ban", "marks": ["i"] },
+            ". Or, ",
+            { "text": "devoting to destruction", "marks": ["i"] }
+          ]
+        }
+      },
+      "curse; but Jerusalem shall dwell safely."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 12,
-    "content": "And this shall be the plague wherewith Jehovah will smite all the peoples that have warred against Jerusalem: their flesh shall consume away while they stand upon their feet, and their eyes shall consume away in their sockets, and their tongue shall consume away in their mouth."
+    "content": {
+      "paragraph": true,
+      "text": "And this shall be the plague wherewith Jehovah will smite all the peoples that have warred against Jerusalem: their flesh shall consume away while they stand upon their feet, and their eyes shall consume away in their sockets, and their tongue shall consume away in their mouth."
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 13,
-    "content": "And it shall come to pass in that day, that a great tumult from Jehovah shall be among them; and they shall lay hold every one on the hand of his neighbor, and his hand shall rise up against the hand of his neighbor."
+    "content": [
+      {
+        "text": "And it shall come to pass in that day, that a great ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "discomfiture", "marks": ["i"] }]
+        }
+      },
+      "tumult from Jehovah shall be among them; and they shall lay hold every one on the hand of his neighbor, and his hand shall rise up against the hand of his neighbor."
+    ]
   },
   {
     "book": "ZEC",
@@ -1275,25 +2333,52 @@
     "book": "ZEC",
     "chapter": 14,
     "verse": 16,
-    "content": "And it shall come to pass, that every one that is left of all the nations that came against Jerusalem shall go up from year to year to worship the King, Jehovah of hosts, and to keep the feast of tabernacles."
+    "content": {
+      "paragraph": true,
+      "text": "And it shall come to pass, that every one that is left of all the nations that came against Jerusalem shall go up from year to year to worship the King, Jehovah of hosts, and to keep the feast of tabernacles."
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 17,
-    "content": "And it shall be, that whoso of all the families of the earth goeth not up unto Jerusalem to worship the King, Jehovah of hosts, upon them there shall be no rain."
+    "content": [
+      "And it shall be, that whoso of ",
+      { "text": "all", "marks": ["i"] },
+      " the families of the earth goeth not up unto Jerusalem to worship the King, Jehovah of hosts, upon them there shall be no rain."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 18,
-    "content": "And if the family of Egypt go not up, and come not, neither shall it be upon them; there shall be the plague wherewith Jehovah will smite the nations that go not up to keep the feast of tabernacles."
+    "content": [
+      "And if the family of Egypt go not up, and come not, neither ",
+      { "text": "shall it be", "marks": ["i"] },
+      " upon them; there shall be the plague wherewith Jehovah will smite the nations that go not up to keep the feast of tabernacles."
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 19,
-    "content": "This shall be the punishment of Egypt, and the punishment of all the nations that go not up to keep the feast of tabernacles."
+    "content": [
+      {
+        "text": "This shall be the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sin", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "punishment of Egypt, and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sin", "marks": ["i"] }]
+        }
+      },
+      "punishment of all the nations that go not up to keep the feast of tabernacles."
+    ]
   },
   {
     "book": "ZEC",

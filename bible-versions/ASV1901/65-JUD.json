@@ -3,34 +3,124 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Jude, a servant of Jesus Christ, and brother of James, to them that are called, beloved in God the Father, and kept for Jesus Christ:"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Judas", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Jude, a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "servant of Jesus Christ, and brother of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "James, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "to them that are beloved in God the Father, and kept for Jesus Christ",
+              "marks": ["i"]
+            },
+            ", being ",
+            { "text": "called", "marks": ["i"] }
+          ]
+        }
+      },
+      "to them that are called, beloved in God the Father, and kept for Jesus Christ:"
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 2,
-    "content": "Mercy unto you and peace and love be multiplied."
+    "content": {
+      "text": "Mercy unto you and peace and love be multiplied.",
+      "break": true
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 3,
-    "content": "Beloved, while I was giving all diligence to write unto you of our common salvation, I was constrained to write unto you exhorting you to contend earnestly for the faith which was once for all delivered unto the saints."
+    "content": {
+      "paragraph": true,
+      "text": "Beloved, while I was giving all diligence to write unto you of our common salvation, I was constrained to write unto you exhorting you to contend earnestly for the faith which was once for all delivered unto the saints."
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 4,
-    "content": "For there are certain men crept in privily, even they who were of old written of beforehand unto this comdemnation, ungodly men, turning the grace of our God into lasciviousness, and denying our only Master and Lord, Jesus Christ."
+    "content": [
+      "For there are certain men crept in privily, ",
+      { "text": "even", "marks": ["i"] },
+      {
+        "text": " they who were of old ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "set forth", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "written of beforehand unto this condemnation, ungodly men, turning the grace of our God into lasciviousness, and denying ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "the only Master, and our Lord Jesus Christ",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "our only Master and Lord, Jesus Christ."
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 5,
-    "content": "Now I desire to put you in remembrance, though ye know all things once for all, that the Lord, having saved a people out of the land of Egypt, afterward destroyed them that believed not."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now I desire to put you in remembrance, though ye know all things once for all, that ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many very ancient authorities read ",
+            { "text": "Jesus", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "the Lord, having saved a people out of the land of Egypt, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the second time", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "afterward destroyed them that believed not."
+    ]
   },
   {
     "book": "JUD",
@@ -42,13 +132,37 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 7,
-    "content": "Even as Sodom and Gomorrah, and the cities about them, having in like manner with these given themselves over to fornication and gone after strange flesh, are set forth as an example, suffering the punishment of eternal fire."
+    "content": [
+      {
+        "text": "Even as Sodom and Gomorrah, and the cities about them, having in like manner with these given themselves over to fornication and gone after strange flesh, are set forth ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "as an example of eternal fire, suffering punishment",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "as an example, suffering the punishment of eternal fire."
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 8,
-    "content": "Yet in like manner these also in their dreamings defile the flesh, and set at nought dominion, and rail at dignities."
+    "content": [
+      {
+        "text": "Yet in like manner these also in their dreamings defile the flesh, and set at nought dominion, and rail at ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "glories", "marks": ["i"] }, "."]
+        }
+      },
+      "dignities."
+    ]
   },
   {
     "book": "JUD",
@@ -60,31 +174,89 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 10,
-    "content": "But these rail at whatsoever things they know not: and what they understand naturally, like the creatures without reason, in these things are they destroyed."
+    "content": [
+      {
+        "text": "But these rail at whatsoever things they know not: and what they understand naturally, like the creatures without reason, in these things are they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "corrupted", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "2 Peter 2:12", "content": "2 Pet. 2:12" },
+            " margin."
+          ]
+        }
+      },
+      "destroyed."
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 11,
-    "content": "Woe unto them! For they went in the way of Cain, and ran riotously in the error of Balaam for hire, and perished in the gainsaying of Korah."
+    "content": [
+      {
+        "text": "Woe unto them! for they went in the way of Cain, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "cast themselves away through", "marks": ["i"] }
+          ]
+        }
+      },
+      "ran riotously in the error of Balaam for hire, and perished in the gainsaying of Korah."
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 12,
-    "content": "These are they who are hidden rocks in your love-feasts when they feast with you, shepherds that without fear feed themselves; clouds without water, carried along by winds; autumn leaves without fruit, twice dead, plucked up by the roots;"
+    "content": [
+      {
+        "text": "These are they who are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "spots", "marks": ["i"] }]
+        }
+      },
+      "hidden rocks in your love-feasts when they feast with you, shepherds that without fear feed themselves; clouds without water, carried along by winds; autumn trees without fruit, twice dead, plucked up by the roots;"
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 13,
-    "content": "Wild waves of the sea, foaming out their own shame; wandering stars, for whom the blackness of darkness hath been reserved forever."
+    "content": [
+      {
+        "text": "wild waves of the sea, foaming out their own ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "shames", "marks": ["i"] }, "."]
+        }
+      },
+      "shame; wandering stars, for whom the blackness of darkness hath been reserved for ever."
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 14,
-    "content": "And to these also Enoch, the seventh from Adam, prophesied, saying, Behold, the Lord came with ten thousands of his holy ones,"
+    "content": [
+      {
+        "text": "And to these also Enoch, the seventh from Adam, prophesied, saying, Behold, the Lord came with ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "his holy myriads", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "ten thousands of his holy ones,"
+    ]
   },
   {
     "book": "JUD",
@@ -96,25 +268,59 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 16,
-    "content": "These are murmurers, complainers, walking after their lusts (and their mouth speaketh great swelling words), showing respect of persons for the sake of advantage."
+    "content": [
+      "These are murmurers, complainers, walking after their lusts (and their mouth speaketh great swelling ",
+      { "text": "words", "marks": ["i"] },
+      "), showing respect of persons for the sake of advantage."
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 17,
-    "content": "But ye, beloved, remember ye the words which have been spoken before by the apostles of our Lord Jesus Christ;"
+    "content": {
+      "paragraph": true,
+      "text": "But ye, beloved, remember ye the words which have been spoken before by the apostles of our Lord Jesus Christ;"
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 18,
-    "content": "That they said to you, In the last time there shall be mockers, walking after their own ungodly lusts."
+    "content": [
+      {
+        "text": "that they said to you, In the last time there shall be mockers, walking after ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "their own lusts of ungodlinesses", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "their own ungodly lusts."
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 19,
-    "content": "These are they who make separations, sensual, having not the Spirit."
+    "content": [
+      {
+        "text": "These are they who make separations, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "natural", "marks": ["i"] },
+            ". Or, ",
+            { "text": "animal", "marks": ["i"] }
+          ]
+        }
+      },
+      "sensual, having not the Spirit."
+    ]
   },
   {
     "book": "JUD",
@@ -132,24 +338,74 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 22,
-    "content": "And on some have mercy, who are in doubt;"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "The Greek text in this passage (",
+            { "text": "And . . . fire", "marks": ["i"] },
+            ") is somewhat uncertain. Some ancient authorities read ",
+            { "text": "And some refute while they dispute", "marks": ["i"] },
+            " with you. Compare ",
+            { "bibleLink": "1 Timothy 5:20", "content": "1 Tim. 5:20" },
+            "; ",
+            { "bibleLink": "Titus 1:9" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "And on some have mercy, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "while they dispute", "marks": ["i"] },
+            " with you"
+          ]
+        }
+      },
+      "who are in doubt;"
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 23,
-    "content": "and some save, snatching them out of the fire; and on some have mercy with fear; hating even the garment spotted by the flesh."
+    "content": {
+      "text": "and some save, snatching them out of the fire; and on some have mercy with fear; hating even the garment spotted by the flesh.",
+      "break": true
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 24,
-    "content": "Now unto him that is able to guard you from stumbling, and to set you before the presence of his glory without blemish in exceeding joy,"
+    "content": {
+      "paragraph": true,
+      "text": "Now unto him that is able to guard you from stumbling, and to set you before the presence of his glory without blemish in exceeding joy,"
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 25,
-    "content": "to the only God our Saviour, through Jesus Christ our Lord, be glory, majesty, dominion and power, before all time, and now, and for evermore. Amen."
+    "content": [
+      "to the only God our Saviour, through Jesus Christ our Lord, ",
+      { "text": "be", "marks": ["i"] },
+      {
+        "text": " glory, majesty, dominion and power, before all time, and now, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "unto all the ages", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "for evermore. Amen."
+    ]
   }
 ]

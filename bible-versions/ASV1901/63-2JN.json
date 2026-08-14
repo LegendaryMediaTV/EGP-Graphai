@@ -3,10 +3,17 @@
     "book": "2JN",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "The elder unto the elect lady and her children, whom I love in truth; and not I only, but also all they that know the truth;"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The elder unto the elect ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Cyria", "marks": ["i"] }]
+        }
+      },
+      "lady and her children, whom I love in truth; and not I only, but also all they that know the truth;"
+    ]
   },
   {
     "book": "2JN",
@@ -18,19 +25,35 @@
     "book": "2JN",
     "chapter": 1,
     "verse": 3,
-    "content": "Grace, mercy, peace shall be with us, from God the Father, and from Jesus Christ, the Son of the Father, in truth and love."
+    "content": {
+      "text": "Grace, mercy, peace shall be with us, from God the Father, and from Jesus Christ, the Son of the Father, in truth and love.",
+      "break": true
+    }
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 4,
-    "content": "I rejoice greatly that I have found certain of thy children walking in truth, even as we received commandment from the Father."
+    "content": [
+      { "paragraph": true, "text": "I rejoice greatly that I have found " },
+      { "text": "certain", "marks": ["i"] },
+      " of thy children walking in truth, even as we received commandment from the Father."
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 5,
-    "content": "And now I beseech thee, lady, not as though I wrote to thee a new commandment, but that which we had from the beginning, that we love one another."
+    "content": [
+      {
+        "text": "And now I beseech thee, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Cyria", "marks": ["i"] }]
+        }
+      },
+      "lady, not as though I wrote to thee a new commandment, but that which we had from the beginning, that we love one another."
+    ]
   },
   {
     "book": "2JN",
@@ -42,37 +65,90 @@
     "book": "2JN",
     "chapter": 1,
     "verse": 7,
-    "content": "For many deceivers are gone forth into the world, even they that confess not that Jesus Christ cometh in the flesh. This is the deceiver and the antichrist."
+    "content": [
+      "For many deceivers are gone forth into the world, ",
+      { "text": "even", "marks": ["i"] },
+      " they that confess not that Jesus Christ cometh in the flesh. This is the deceiver and the antichrist."
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 8,
-    "content": "Look to yourselves, that ye lose not the things which we have wrought, but that ye receive a full reward."
+    "content": [
+      {
+        "text": "Look to yourselves, that ye ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "destroy", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "lose not the things which ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "ye", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "we have wrought, but that ye receive a full reward."
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 9,
-    "content": "Whosoever goeth onward and abideth not in the teaching of Christ, hath not God: he that abideth in the teaching, the same hath both the Father and the Son."
+    "content": [
+      {
+        "text": "Whosoever ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "taketh the lead", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "3 John 1:9", "content": "3 Jn. 9" },
+            "."
+          ]
+        }
+      },
+      "goeth onward and abideth not in the teaching of Christ, hath not God: he that abideth in the teaching, the same hath both the Father and the Son."
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 10,
-    "content": "If any one cometh unto you, and bringeth not this teaching, receive him not into your house, and give him no greeting:"
+    "content": [
+      "If any one cometh unto you, and bringeth not this teaching, receive him not into ",
+      { "text": "your", "marks": ["i"] },
+      " house, and give him no greeting:"
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 11,
-    "content": "for he that giveth him greeting partaketh in his evil works."
+    "content": {
+      "text": "for he that giveth him greeting partaketh in his evil works.",
+      "break": true
+    }
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 12,
-    "content": "Having many things to write unto you, I would not write them with paper and ink: but I hope to come unto you, and to speak face to face, that your joy may be made full."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Having many things to write unto you, I would not "
+      },
+      { "text": "write them", "marks": ["i"] },
+      " with paper and ink: but I hope to come unto you, and to speak face to face, that your joy may be made full."
+    ]
   },
   {
     "book": "2JN",

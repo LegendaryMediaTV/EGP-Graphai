@@ -1,55 +1,87 @@
 ## Chapter 1
 
-<sup>1</sup> The burden of Nineveh. The book of the vision of Nahum the Elkoshite.
-<sup>2</sup> Jehovah is a jealous God and avengeth; Jehovah avengeth and is full of wrath; Jehovah taketh vengeance on his adversaries, and he reserveth wrath for his enemies.
-<sup>3</sup> Jehovah is slow to anger, and great in power, and will by no means clear the guilty: Jehovah hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet.
+<sup>1</sup> The <sup>a</sup>burden of Nineveh. The book of the vision of Nahum the Elkoshite.
+
+<sup>2</sup> Jehovah is a jealous God and avengeth; Jehovah avengeth and is full of wrath; Jehovah taketh vengeance on his adversaries, and he reserveth _wrath_ for his enemies.
+<sup>3</sup> Jehovah is slow to anger, and great in power, and will by no means clear _the guilty_: Jehovah hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet.
 <sup>4</sup> He rebuketh the sea, and maketh it dry, and drieth up all the rivers: Bashan languisheth, and Carmel; and the flower of Lebanon languisheth.
 <sup>5</sup> The mountains quake at him, and the hills melt; and the earth is upheaved at his presence, yea, the world, and all that dwell therein.
 <sup>6</sup> Who can stand before his indignation? and who can abide in the fierceness of his anger? his wrath is poured out like fire, and the rocks are broken asunder by him.
 <sup>7</sup> Jehovah is good, a stronghold in the day of trouble; and he knoweth them that take refuge in him.
 <sup>8</sup> But with an over-running flood he will make a full end of her place, and will pursue his enemies into darkness.
+
 <sup>9</sup> What do ye devise against Jehovah? he will make a full end; affliction shall not rise up the second time.
-<sup>10</sup> For entangled like thorns, and drunken as with their drink, they are consumed utterly as dry stubble.
-<sup>11</sup> There is one gone forth out of thee, that deviseth evil against Jehovah, that counselleth wickedness.
-<sup>12</sup> Thus saith Jehovah: Though they be in full strength, and likewise many, even so shall they be cut down, and he shall pass away. Though I have afflicted thee, I will afflict thee no more.
+<sup>10</sup> For entangled like thorns, and drunken as with their drink, they are consumed <sup>b</sup>utterly as dry stubble.
+<sup>11</sup> There is one gone forth out of thee, that deviseth evil against Jehovah, <sup>c</sup>that counselleth <sup>d</sup>wickedness.
+<sup>12</sup> Thus saith Jehovah: Though they be in full strength, and likewise many, even so shall they be cut down, and he shall pass away. <sup>e</sup>Though I have afflicted thee, I will afflict thee no more.
 <sup>13</sup> And now will I break his yoke from off thee, and will burst thy bonds in sunder.
+
 <sup>14</sup> And Jehovah hath given commandment concerning thee, that no more of thy name be sown: out of the house of thy gods will I cut off the graven image and the molten image; I will make thy grave; for thou art vile.
-<sup>15</sup> Behold, upon the mountains the feet of him that bringeth good tidings, that publisheth peace! Keep thy feasts, O Judah, perform thy vows; for the wicked one shall no more pass through thee; he is utterly cut off.
+
+<sup>15</sup> Behold, upon the mountains the feet of him that bringeth good tidings, that publisheth peace! Keep thy feasts, O Judah, perform thy vows; for <sup>f</sup>the wicked one shall no more pass through thee; he is utterly cut off.
+
+> - <sup>a</sup> 1. Or, _oracle concerning_
+> - <sup>b</sup> 10. Or, _as stubble fully dry_
+> - <sup>c</sup> 11. Or, _a wicked counsellor_
+> - <sup>d</sup> 11. Or, _worthlessness_. Hebrew _Belial_.
+> - <sup>e</sup> 12. Or, _So will I afflict thee, that I shall afflict etc._
+> - <sup>f</sup> 15. Or, the man of _worthlessness_. Hebrew _Belial_.
 
 ## Chapter 2
 
 <sup>1</sup> He that dasheth in pieces is come up against thee: keep the fortress, watch the way, make thy loins strong, fortify thy power mightily.
 <sup>2</sup> For Jehovah restoreth the excellency of Jacob, as the excellency of Israel; for the emptiers have emptied them out, and destroyed their vine-branches.
-<sup>3</sup> The shield of his mighty men is made red, the valiant men are in scarlet: the chariots flash with steel in the day of his preparation, and the cypress spears are brandished.
+<sup>3</sup> The shield of his mighty men is made red, the valiant men are in scarlet: the chariots <sup>a</sup>flash with steel in the day of his preparation, and the <sup>b</sup>cypress _spears_ are brandished.
 <sup>4</sup> The chariots rage in the streets; they rush to and fro in the broad ways: the appearance of them is like torches; they run like the lightnings.
 <sup>5</sup> He remembereth his nobles: they stumble in their march; they make haste to the wall thereof, and the mantelet is prepared.
 <sup>6</sup> The gates of the rivers are opened, and the palace is dissolved.
-<sup>7</sup> And it is decreed: she is uncovered, she is carried away; and her handmaids moan as with the voice of doves, beating upon their breasts.
-<sup>8</sup> But Nineveh hath been from of old like a pool of water: yet they flee away. Stand, stand, they cry; but none looketh back.
-<sup>9</sup> Take ye the spoil of silver, take the spoil of gold; for there is no end of the store, the glory of all goodly furniture.
+<sup>7</sup> <sup>c</sup>And it is decreed: she is uncovered, she is carried away; and her handmaids <sup>d</sup>moan as with the voice of doves, beating upon their <sup>e</sup>breasts.
+
+<sup>8</sup> But Nineveh hath been <sup>f</sup>from of old like a pool of water: yet they flee away. Stand, stand, _they cry_; but none <sup>g</sup>looketh back.
+<sup>9</sup> Take ye the spoil of silver, take the spoil of gold; for there is no end of the store, the <sup>h</sup>glory of all goodly furniture.
 <sup>10</sup> She is empty, and void, and waste; and the heart melteth, and the knees smite together, and anguish is in all loins, and the faces of them all are waxed pale.
-<sup>11</sup> Where is the den of the lions, and the feeding-place of the young lions, where the lion and the lioness walked, the lion’s whelp, and none made them afraid?
+<sup>11</sup> Where is the den of the lions, and the feeding-place of the young lions, where the lion _and_ the lioness walked, the lion’s whelp, and none made them afraid?
 <sup>12</sup> The lion did tear in pieces enough for his whelps, and strangled for his lionesses, and filled his caves with prey, and his dens with ravin.
 <sup>13</sup> Behold, I am against thee, saith Jehovah of hosts, and I will burn her chariots in the smoke, and the sword shall devour thy young lions; and I will cut off thy prey from the earth, and the voice of thy messengers shall no more be heard.
+
+> - <sup>a</sup> 3. Hebrew _are with fire of steel_.
+> - <sup>b</sup> 3. Hebrew _cypress-trees_.
+> - <sup>c</sup> 7. Or, _Huzzab is uncovered etc._
+> - <sup>d</sup> 7. Or, _lead_ her
+> - <sup>e</sup> 7. Hebrew _hearts_.
+> - <sup>f</sup> 8. Or, _from the days_ that _she_ hath been
+> - <sup>g</sup> 8. Or, _causeth_ them _to turn_
+> - <sup>h</sup> 9. Or, _wealth_
 
 ## Chapter 3
 
 <sup>1</sup> Woe to the bloody city! it is all full of lies and rapine; the prey departeth not.
 <sup>2</sup> The noise of the whip, and the noise of the rattling of wheels, and prancing horses, and bounding chariots,
-<sup>3</sup> the horseman mounting, and the flashing sword, and the glittering spear, and a multitude of slain, and a great heap of corpses, and there is no end of the bodies; they stumble upon their bodies;—
+<sup>3</sup> the horseman <sup>a</sup>mounting, and the flashing sword, and the glittering spear, and a multitude of slain, and a great heap of corpses, and there is no end of the bodies; they stumble upon their bodies;—
 <sup>4</sup> because of the multitude of the whoredoms of the well-favored harlot, the mistress of witchcrafts, that selleth nations through her whoredoms, and families through her witchcrafts.
-<sup>5</sup> Behold, I am against thee, saith Jehovah of hosts, and I will uncover thy skirts upon thy face; and I will show the nations thy nakedness, and the kingdoms thy shame.
+<sup>5</sup> Behold, I am against thee, saith Jehovah of hosts, and I will uncover thy skirts <sup>b</sup>upon thy face; and I will show the nations thy nakedness, and the kingdoms thy shame.
 <sup>6</sup> And I will cast abominable filth upon thee, and make thee vile, and will set thee as a gazing-stock.
 <sup>7</sup> And it shall come to pass, that all they that look upon thee shall flee from thee, and say, Nineveh is laid waste: who will bemoan her? whence shall I seek comforters for thee?
-<sup>8</sup> Art thou better than Noamon, that was situate among the rivers, that had the waters round about her; whose rampart was the sea, and her wall was of the sea?
+
+<sup>8</sup> Art thou better than No-amon, that was situate among the <sup>c</sup>rivers, that had the waters round about her; whose rampart was <sup>d</sup>the sea, _and_ her wall was of the sea?
 <sup>9</sup> Ethiopia and Egypt were her strength, and it was infinite; Put and Lubim were thy helpers.
 <sup>10</sup> Yet was she carried away, she went into captivity; her young children also were dashed in pieces at the head of all the streets; and they cast lots for her honorable men, and all her great men were bound in chains.
-<sup>11</sup> Thou also shalt be drunken; thou shalt be hid; thou also shalt seek a stronghold because of the enemy.
-<sup>12</sup> All thy fortresses shall be like fig-trees with the first-ripe figs: if they be shaken, they fall into the mouth of the eater.
+<sup>11</sup> Thou also shalt be drunken; thou shalt be hid; thou also shalt seek <sup>e</sup>a stronghold because of the enemy.
+<sup>12</sup> All thy fortresses shall be _like_ fig-trees with the first-ripe figs: if they be shaken, they fall into the mouth of the eater.
 <sup>13</sup> Behold, thy people in the midst of thee are women; the gates of thy land are set wide open unto thine enemies: the fire hath devoured thy bars.
-<sup>14</sup> Draw thee water for the siege; strengthen thy fortresses; go into the clay, and tread the mortar; make strong the brickkiln.
+<sup>14</sup> Draw thee water for the siege; strengthen thy fortresses; go into the clay, and tread the mortar; <sup>f</sup>make strong the brickkiln.
 <sup>15</sup> There shall the fire devour thee; the sword shall cut thee off; it shall devour thee like the canker-worm: make thyself many as the canker-worm; make thyself many as the locust.
-<sup>16</sup> Thou hast multiplied thy merchants above the stars of heaven: the canker-worm ravageth, and fleeth away.
-<sup>17</sup> Thy princes are as the locusts, and thy marshals as the swarms of grasshoppers, which encamp in the hedges in the cold day, but when the sun ariseth they flee away, and their place is not known where they are.
+<sup>16</sup> Thou hast multiplied thy merchants above the stars of heaven: the canker-worm <sup>g</sup>ravageth, and fleeth away.
+<sup>17</sup> Thy princes are as the locusts, and thy <sup>h</sup>marshals as the swarms of grasshoppers, which encamp in the <sup>i</sup>hedges in the cold day, but when the sun ariseth they flee away, and their place is not known where they are.
 <sup>18</sup> Thy shepherds slumber, O king of Assyria; thy nobles are at rest; thy people are scattered upon the mountains, and there is none to gather them.
-<sup>19</sup> There is no assuaging of thy hurt: thy wound is grievous: all that hear the report of thee clap their hands over thee; for upon whom hath not thy wickedness passed continually?
+<sup>19</sup> There is no assuaging of thy hurt; thy wound is grievous: all that hear the report of thee clap their hands over thee; for upon whom hath not thy wickedness passed continually?
+
+> - <sup>a</sup> 3. Or, _charging_
+> - <sup>b</sup> 5. Or, _before_
+> - <sup>c</sup> 8. Or, _canals_. See Ex. 7:19.
+> - <sup>d</sup> 8. That is, the Nile
+> - <sup>e</sup> 11. Or, _a defence against_
+> - <sup>f</sup> 14. Or, _lay hold of the brick-mould_
+> - <sup>g</sup> 16. Or, _spreadeth himself_
+> - <sup>h</sup> 17. Or, _scribes_
+> - <sup>i</sup> 17. Or, _walls_

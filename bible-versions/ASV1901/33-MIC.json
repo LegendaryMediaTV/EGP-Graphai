@@ -12,7 +12,28 @@
     "book": "MIC",
     "chapter": 1,
     "verse": 2,
-    "content": "Hear, ye peoples, all of you: hearken, O earth, and all that therein is: and let the Lord Jehovah be witness against you, the Lord from his holy temple."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Hear, ye peoples, all of you; hearken, O earth, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "the fulness thereof", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "all that therein is: and let the Lord Jehovah be witness ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "among", "marks": ["i"] }]
+        }
+      },
+      "against you, the Lord from his holy temple."
+    ]
   },
   {
     "book": "MIC",
@@ -36,7 +57,11 @@
     "book": "MIC",
     "chapter": 1,
     "verse": 6,
-    "content": "Therefore I will make Samaria as a heap of the field, and as places for planting vineyards; and I will pour down the stones thereof into the valley, and I will uncover the foundations thereof."
+    "content": [
+      "Therefore I will make Samaria as a heap of the field, ",
+      { "text": "and", "marks": ["i"] },
+      " as places for planting vineyards; and I will pour down the stones thereof into the valley, and I will uncover the foundations thereof."
+    ]
   },
   {
     "book": "MIC",
@@ -48,7 +73,10 @@
     "book": "MIC",
     "chapter": 1,
     "verse": 8,
-    "content": "For this will I lament and wail; I will go stripped and naked; I will make a wailing like the jackals, and a lamentation like the ostriches."
+    "content": {
+      "paragraph": true,
+      "text": "For this will I lament and wail; I will go stripped and naked; I will make a wailing like the jackals, and a lamentation like the ostriches."
+    }
   },
   {
     "book": "MIC",
@@ -60,43 +88,141 @@
     "book": "MIC",
     "chapter": 1,
     "verse": 10,
-    "content": "Tell it not in Gath, weep not at all: at Beth-le-aphrah have I rolled myself in the dust."
+    "content": [
+      {
+        "text": "Tell it not in Gath, weep not at all: at ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "A house of dust", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Beth-le-aphrah ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "roll thyself", "marks": ["i"] }
+          ]
+        }
+      },
+      "have I rolled myself in the dust."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 1,
     "verse": 11,
-    "content": "Pass away, O inhabitant of Shaphir, in nakedness and shame: the inhabitant of Zaanan is not come forth; the wailing of Beth-ezel shall take from you the stay thereof."
+    "content": [
+      {
+        "text": "Pass away, O ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "inhabitress", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "inhabitant of Shaphir, in nakedness and shame: the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "inhabitress", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "inhabitant of Zaanan is not come forth; the wailing of Beth-ezel shall take from you the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "standing-place", "marks": ["i"] }]
+        }
+      },
+      "stay thereof."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 1,
     "verse": 12,
-    "content": "For the inhabitant of Maroth waiteth anxiously for good, because evil is come down from Jehovah unto the gate of Jerusalem."
+    "content": [
+      {
+        "text": "For the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "inhabitress", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "inhabitant of Maroth ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "is in travail for", "marks": ["i"] }]
+        }
+      },
+      "waiteth anxiously for good, because evil is come down from Jehovah unto the gate of Jerusalem."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 1,
     "verse": 13,
-    "content": "Bind the chariot to the swift steed, O inhabitant of Lachish: she was the beginning of sin to the daughter of Zion; for the transgressions of Israel were found in thee."
+    "content": [
+      {
+        "text": "Bind the chariot to the swift steed, O ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "inhabitress", "marks": ["i"] }, "."]
+        }
+      },
+      "inhabitant of Lachish: she was the beginning of sin to the daughter of Zion; for the transgressions of Israel were found in thee."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 1,
     "verse": 14,
-    "content": "Therefore shalt thou give a parting gift to Moresheth-gath: the houses of Achzib shall be a deceitful thing unto the kings of Israel."
+    "content": [
+      {
+        "text": "Therefore shalt thou give a parting gift to Moresheth-gath: the houses of Achzib shall be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "achzab", "marks": ["i"] }, "."]
+        }
+      },
+      "a deceitful thing unto the kings of Israel."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 1,
     "verse": 15,
-    "content": "I will yet bring unto thee, O inhabitant of Mareshah, him that shall possess thee: the glory of Israel shall come even unto Adullam."
+    "content": [
+      {
+        "text": "I will yet bring unto thee, O ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "inhabitress", "marks": ["i"] }, "."]
+        }
+      },
+      "inhabitant of Mareshah, him that shall possess thee: the glory of Israel shall come even unto Adullam."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 1,
     "verse": 16,
-    "content": "Make thee bald, and cut off thy hair for the children of thy delight: enlarge thy baldness as the eagle; for they are gone into captivity from thee."
+    "content": [
+      {
+        "text": "Make thee bald, and cut off thy hair for the children of thy delight: enlarge thy baldness as the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "vulture", "marks": ["i"] }]
+        }
+      },
+      "eagle; for they are gone into captivity from thee."
+    ]
   },
   {
     "book": "MIC",
@@ -123,7 +249,32 @@
     "book": "MIC",
     "chapter": 2,
     "verse": 4,
-    "content": "In that day shall they take up a parable against you, and lament with a doleful lamentation, and say, We are utterly ruined: he changeth the portion of my people: how doth he remove it from me! to the rebellious he divideth our fields."
+    "content": [
+      {
+        "text": "In that day shall they take up a parable against you, and lament ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "with the lamentation, It is done;", "marks": ["i"] },
+            " and ",
+            { "text": "say etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "with a doleful lamentation, ",
+      { "text": "and", "marks": ["i"] },
+      {
+        "text": " say, We are utterly ruined: he changeth the portion of my people: how doth he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "depart from", "marks": ["i"] }]
+        }
+      },
+      "remove ",
+      { "text": "it", "marks": ["i"] },
+      " from me! to the rebellious he divideth our fields."
+    ]
   },
   {
     "book": "MIC",
@@ -135,19 +286,90 @@
     "book": "MIC",
     "chapter": 2,
     "verse": 6,
-    "content": "Prophesy ye not, thus they prophesy. They shall not prophesy to these: reproaches shall not depart."
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Prophesy ye not, they are", "marks": ["i"] },
+            " ever ",
+            { "text": "prophesying", "marks": ["i"] },
+            ", say they; Hebrew ",
+            { "text": "Drop etc.", "marks": ["i"] },
+            " See ",
+            { "bibleLink": "Amos 7:16", "content": "Am. 7:16" },
+            "."
+          ]
+        }
+      },
+      "Prophesy ye not, ",
+      { "text": "thus", "marks": ["i"] },
+      {
+        "text": " they prophesy. They shall not prophesy ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "of these things: their reproaches never cease",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "to these: reproaches shall not depart."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 2,
     "verse": 7,
-    "content": "Shall it be said, O house of Jacob, Is the Spirit of Jehovah straitened? are these his doings? Do not my words do good to him that walketh uprightly?"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "O", "marks": ["i"] },
+            " thou that art ",
+            { "text": "named the house of Jacob", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "Shall it be said, O house of Jacob, Is the Spirit of Jehovah ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "impatient", "marks": ["i"] },
+            " Hebrew ",
+            { "text": "shortened", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "straitened? are these his doings? Do not my words do good to him that walketh uprightly?"
+    ]
   },
   {
     "book": "MIC",
     "chapter": 2,
     "verse": 8,
-    "content": "But of late my people is risen up as an enemy: ye strip the robe from off the garment from them that pass by securely as men averse from war."
+    "content": [
+      {
+        "text": "But ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "yesterday", "marks": ["i"] }, "."]
+        }
+      },
+      "of late my people is risen up as an enemy: ye strip the robe from off the garment from them that pass by securely ",
+      { "text": "as men", "marks": ["i"] },
+      " averse from war."
+    ]
   },
   {
     "book": "MIC",
@@ -165,13 +387,34 @@
     "book": "MIC",
     "chapter": 2,
     "verse": 11,
-    "content": "If a man walking in a spirit of falsehood do lie, saying, I will prophesy unto thee of wine and of strong drink; he shall even be the prophet of this people."
+    "content": [
+      {
+        "text": "If a man walking ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "in wind and falsehood", "marks": ["i"] }
+          ]
+        }
+      },
+      "in a spirit of falsehood do lie, ",
+      { "text": "saying", "marks": ["i"] },
+      ", I will prophesy unto thee of wine and of strong drink; he shall even be the prophet of this people."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 2,
     "verse": 12,
-    "content": "I will surely assemble, O Jacob, all of thee; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah, as a flock in the midst of their pasture; they shall make great noise by reason of the multitude of men."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I will surely assemble, O Jacob, all of thee; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah, as a flock in the midst of their pasture; they shall make great noise by reason of "
+      },
+      { "text": "the multitude of", "marks": ["i"] },
+      " men."
+    ]
   },
   {
     "book": "MIC",
@@ -210,7 +453,17 @@
     "book": "MIC",
     "chapter": 3,
     "verse": 5,
-    "content": "Thus saith Jehovah concerning the prophets that make my people to err; that bite with their teeth, and cry, Peace; and whoso putteth not into their mouths, they even prepare war against him:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Thus saith Jehovah concerning the prophets that make my people to err; that bite with their teeth, and cry, Peace; and whoso putteth not into their mouths, they even ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "sanctify", "marks": ["i"] }, "."]
+        }
+      },
+      "prepare war against him:"
+    ]
   },
   {
     "book": "MIC",
@@ -228,13 +481,25 @@
     "book": "MIC",
     "chapter": 3,
     "verse": 8,
-    "content": "But as for me, I am full of power by the Spirit of Jehovah, and of judgment, and of might, to declare unto Jacob his transgression, and to Israel his sin."
+    "content": [
+      {
+        "text": "But as for me, I am full of power ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "even the Spirit", "marks": ["i"] }]
+        }
+      },
+      "by the Spirit of Jehovah, and of judgment, and of might, to declare unto Jacob his transgression, and to Israel his sin."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 3,
     "verse": 9,
-    "content": "Hear this, I pray you, ye heads of the house of Jacob, and rulers of the house of Israel, that abhor justice, and pervert all equity."
+    "content": {
+      "paragraph": true,
+      "text": "Hear this, I pray you, ye heads of the house of Jacob, and rulers of the house of Israel, that abhor justice, and pervert all equity."
+    }
   },
   {
     "book": "MIC",
@@ -258,22 +523,54 @@
     "book": "MIC",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "But in the latter days it shall come to pass, that the mountain of Jehovah’s house shall be established on the top of the mountains, and it shall be exalted above the hills; and peoples shall flow unto it."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But in the latter days it shall come to pass, that the mountain of Jehovah’s house shall be established ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "at the head", "marks": ["i"] }]
+        }
+      },
+      "on the top of the mountains, and it shall be exalted above the hills; and peoples shall flow unto it."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 4,
     "verse": 2,
-    "content": "And many nations shall go and say, Come ye, and let us go up to the mountain of Jehovah, and to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths. For out of Zion shall go forth the law, and the word of Jehovah from Jerusalem;"
+    "content": [
+      {
+        "text": "And many nations shall go and say, Come ye, and let us go up to the mountain of Jehovah, and to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths. For out of Zion shall go forth ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "instruction", "marks": ["i"] }]
+        }
+      },
+      "the law, and the word of Jehovah from Jerusalem;"
+    ]
   },
   {
     "book": "MIC",
     "chapter": 4,
     "verse": 3,
-    "content": "and he will judge between many peoples, and will decide concerning strong nations afar off: and they shall beat their swords into plowshares, and their spears into pruning-hooks; nation shall not lift up sword against nation, neither shall they learn war any more."
+    "content": [
+      {
+        "text": "and he will judge ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "among", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "between ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "great", "marks": ["i"] }]
+        }
+      },
+      "many peoples, and will decide concerning strong nations afar off: and they shall beat their swords into plowshares, and their spears into pruning-hooks; nation shall not lift up sword against nation, neither shall they learn war any more."
+    ]
   },
   {
     "book": "MIC",
@@ -291,7 +588,10 @@
     "book": "MIC",
     "chapter": 4,
     "verse": 6,
-    "content": "In that day, saith Jehovah, will I assemble that which is lame, and I will gather that which is driven away, and that which I have afflicted;"
+    "content": {
+      "paragraph": true,
+      "text": "In that day, saith Jehovah, will I assemble that which is lame, and I will gather that which is driven away, and that which I have afflicted;"
+    }
   },
   {
     "book": "MIC",
@@ -303,13 +603,38 @@
     "book": "MIC",
     "chapter": 4,
     "verse": 8,
-    "content": "And thou, O tower of the flock, the hill of the daughter of Zion, unto thee shall it come, yea, the former dominion shall come, the kingdom of the daughter of Jerusalem."
+    "content": [
+      {
+        "text": "And thou, O tower of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Eder", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Genesis 35:21", "content": "Gen. 35:21" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "the flock, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Ophel", "marks": ["i"] }, "."]
+        }
+      },
+      "the hill of the daughter of Zion, unto thee shall it come, yea, the former dominion shall come, the kingdom of the daughter of Jerusalem."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 4,
     "verse": 9,
-    "content": "Now why dost thou cry out aloud? Is there no king in thee, is thy counsellor perished, that pangs have taken hold of thee as of a woman in travail?"
+    "content": {
+      "paragraph": true,
+      "text": "Now why dost thou cry out aloud? Is there no king in thee, is thy counsellor perished, that pangs have taken hold of thee as of a woman in travail?"
+    }
   },
   {
     "book": "MIC",
@@ -321,7 +646,18 @@
     "book": "MIC",
     "chapter": 4,
     "verse": 11,
-    "content": "And now many nations are assembled against thee, that say, Let her be defiled, and let our eye see our desire upon Zion."
+    "content": [
+      {
+        "text": "And now many nations are assembled against thee, that say, Let her be defiled, and let our eye ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "gaze upon", "marks": ["i"] }]
+        }
+      },
+      "see ",
+      { "text": "our desire", "marks": ["i"] },
+      " upon Zion."
+    ]
   },
   {
     "book": "MIC",
@@ -348,25 +684,74 @@
     "book": "MIC",
     "chapter": 5,
     "verse": 2,
-    "content": "But thou, Beth-lehem Ephrathah, which art little to be among the thousands of Judah, out of thee shall one come forth unto me that is to be ruler in Israel; whose goings forth are from of old, from everlasting."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But thou, Beth-lehem Ephrathah, which art little to be among the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "families", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Judges 6:15", "content": "Judg. 6:15" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "thousands of Judah, out of thee shall one come forth unto me that is to be ruler in Israel; whose goings forth are from of old, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "from ancient days", "marks": ["i"] }]
+        }
+      },
+      "from everlasting."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 5,
     "verse": 3,
-    "content": "Therefore will he give them up, until the time that she who travaileth hath brought forth: then the residue of his brethren shall return unto the children of Israel."
+    "content": [
+      {
+        "text": "Therefore will he give them up, until the time that she who travaileth hath brought forth: then the residue of his brethren shall return ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "with", "marks": ["i"] }]
+        }
+      },
+      "unto the children of Israel."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 5,
     "verse": 4,
-    "content": "And he shall stand, and shall feed his flock in the strength of Jehovah, in the majesty of the name of Jehovah his God: and they shall abide; for now shall he be great unto the ends of the earth."
+    "content": [
+      "And he shall stand, and shall feed ",
+      { "text": "his flock", "marks": ["i"] },
+      " in the strength of Jehovah, in the majesty of the name of Jehovah his God: and they shall abide; for now shall he be great unto the ends of the earth."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 5,
     "verse": 5,
-    "content": "And this man shall be our peace. When the Assyrian shall come into our land, and when he shall tread in our palaces, then shall we raise against him seven shepherds, and eight principal men."
+    "content": [
+      "And this ",
+      { "text": "man", "marks": ["i"] },
+      " shall be ",
+      { "text": "our", "marks": ["i"] },
+      {
+        "text": " peace. When the Assyrian shall come into our land, and when he shall tread in our palaces, then shall we raise against him seven shepherds, and eight ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "princes among men", "marks": ["i"] }]
+        }
+      },
+      "principal men."
+    ]
   },
   {
     "book": "MIC",
@@ -396,7 +781,10 @@
     "book": "MIC",
     "chapter": 5,
     "verse": 10,
-    "content": "And it shall come to pass in that day, saith Jehovah, that I will cut off thy horses out of the midst of thee, and will destroy thy chariots:"
+    "content": {
+      "paragraph": true,
+      "text": "And it shall come to pass in that day, saith Jehovah, that I will cut off thy horses out of the midst of thee, and will destroy thy chariots:"
+    }
   },
   {
     "book": "MIC",
@@ -408,25 +796,59 @@
     "book": "MIC",
     "chapter": 5,
     "verse": 12,
-    "content": "And I will cut off witchcrafts out of thy hand; and thou shalt have no more soothsayers:"
+    "content": [
+      "And I will cut off witchcrafts out of thy hand; and thou shalt have no ",
+      { "text": "more", "marks": ["i"] },
+      " soothsayers:"
+    ]
   },
   {
     "book": "MIC",
     "chapter": 5,
     "verse": 13,
-    "content": "and I will cut off thy graven images and thy pillars out of the midst of thee; and thou shalt no more worship the work of thy hands;"
+    "content": [
+      {
+        "text": "and I will cut off thy graven images and thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "obelisks", "marks": ["i"] }]
+        }
+      },
+      "pillars out of the midst of thee; and thou shalt no more worship the work of thy hands;"
+    ]
   },
   {
     "book": "MIC",
     "chapter": 5,
     "verse": 14,
-    "content": "and I will pluck up thine Asherim out of the midst of thee; and I will destroy thy cities."
+    "content": [
+      {
+        "text": "and I will pluck up thine Asherim out of the midst of thee; and I will destroy thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "enemies", "marks": ["i"] }]
+        }
+      },
+      "cities."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 5,
     "verse": 15,
-    "content": "And I will execute vengeance in anger and wrath upon the nations which hearkened not."
+    "content": [
+      {
+        "text": "And I will execute vengeance in anger and wrath upon the nations ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "such as they have not heard", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "which hearkened not.", "break": true }
+    ]
   },
   {
     "book": "MIC",
@@ -459,19 +881,30 @@
     "book": "MIC",
     "chapter": 6,
     "verse": 5,
-    "content": "O my people, remember now what Balak king of Moab devised, and what Balaam the son of Beor answered him; remember from Shittim unto Gilgal, that ye may know the righteous acts of Jehovah."
+    "content": [
+      "O my people, remember now what Balak king of Moab devised, and what Balaam the son of Beor answered him; ",
+      { "text": "remember", "marks": ["i"] },
+      " from Shittim unto Gilgal, that ye may know the righteous acts of Jehovah."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 6,
-    "content": "Wherewith shall I come before Jehovah, and bow myself before the high God? shall I come before him with burnt-offerings, with calves a year old?"
+    "content": {
+      "paragraph": true,
+      "text": "Wherewith shall I come before Jehovah, and bow myself before the high God? shall I come before him with burnt-offerings, with calves a year old?"
+    }
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 7,
-    "content": "will Jehovah be pleased with thousands of rams, or with ten thousands of rivers of oil? shall I give my first-born for my transgression, the fruit of my body for the sin of my soul?"
+    "content": [
+      "will Jehovah be pleased with thousands of rams, ",
+      { "text": "or", "marks": ["i"] },
+      " with ten thousands of rivers of oil? shall I give my first-born for my transgression, the fruit of my body for the sin of my soul?"
+    ]
   },
   {
     "book": "MIC",
@@ -483,13 +916,40 @@
     "book": "MIC",
     "chapter": 6,
     "verse": 9,
-    "content": "The voice of Jehovah crieth unto the city, and the man of wisdom will see thy name: hear ye the rod, and who hath appointed it."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The voice of Jehovah crieth unto the city, and "
+      },
+      { "text": "the man of", "marks": ["i"] },
+      {
+        "text": " wisdom will ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to Septuagint, Vulgate, and Syriac, ",
+            { "text": "fear", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "see thy name: hear ye the rod, and who hath appointed it."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 10,
-    "content": "Are there yet treasures of wickedness in the house of the wicked, and a scant measure that is abominable?"
+    "content": [
+      {
+        "text": "Are there yet treasures of wickedness in the house of the wicked, and a scant ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "ephah", "marks": ["i"] }, "."]
+        }
+      },
+      "measure that is abominable?"
+    ]
   },
   {
     "book": "MIC",
@@ -513,7 +973,16 @@
     "book": "MIC",
     "chapter": 6,
     "verse": 14,
-    "content": "Thou shalt eat, but not be satisfied; and thy humiliation shall be in the midst of thee: and thou shalt put away, but shalt not save; and that which thou savest will I give up to the sword."
+    "content": [
+      {
+        "text": "Thou shalt eat, but not be satisfied; and thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "emptiness", "marks": ["i"] }]
+        }
+      },
+      "humiliation shall be in the midst of thee: and thou shalt put away, but shalt not save; and that which thou savest will I give up to the sword."
+    ]
   },
   {
     "book": "MIC",
@@ -525,16 +994,38 @@
     "book": "MIC",
     "chapter": 6,
     "verse": 16,
-    "content": "For the statutes of Omri are kept, and all the works of the house of Ahab, and ye walk in their counsels; that I may make thee a desolation, and the inhabitants thereof a hissing: and ye shall bear the reproach of my people."
+    "content": [
+      {
+        "text": "For the statutes of Omri are kept, and all the works of the house of Ahab, and ye walk in their counsels; that I may make thee ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "an astonishment", "marks": ["i"] }]
+        }
+      },
+      "a desolation, and the inhabitants thereof a hissing: and ye shall bear the reproach of my people."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Woe is me! for I am as when they have gathered the summer fruits, as the grape gleanings of the vintage: there is no cluster to eat; my soul desireth the first-ripe fig."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Woe is me! for I am as when they have gathered the summer fruits, as the grape gleanings of the vintage: there is no cluster to eat; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "nor first-ripe fig which my soul desired",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "my soul desireth the first-ripe fig."
+    ]
   },
   {
     "book": "MIC",
@@ -546,19 +1037,59 @@
     "book": "MIC",
     "chapter": 7,
     "verse": 3,
-    "content": "Their hands are upon that which is evil to do it diligently; the prince asketh, and the judge is ready for a reward; and the great man, he uttereth the evil desire of his soul: thus they weave it together."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Both hands", "marks": ["i"] },
+            " are put forth ",
+            { "text": "for evil to do it etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "Their hands are upon that which is evil to do it diligently; the prince asketh, and the judge ",
+      { "text": "is ready", "marks": ["i"] },
+      " for a reward; and the great man, he uttereth the evil desire of his soul: thus they weave it together."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 4,
-    "content": "The best of them is as a brier; the most upright is worse than a thorn hedge: the day of thy watchmen, even thy visitation, is come; now shall be their perplexity."
+    "content": [
+      {
+        "text": "The best of them is as a brier; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the straightest is", "marks": ["i"] },
+            " as it were taken ",
+            { "text": "from etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "the most upright is ",
+      { "text": "worse", "marks": ["i"] },
+      " than a thorn hedge: the day of thy watchmen, even thy visitation, is come; now shall be their perplexity."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 5,
-    "content": "Trust ye not in a neighbor; put ye not confidence in a friend; keep the doors of thy mouth from her that lieth in thy bosom."
+    "content": [
+      {
+        "text": "Trust ye not in a neighbor; put ye not confidence in a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "confidant", "marks": ["i"] }]
+        }
+      },
+      "friend; keep the doors of thy mouth from her that lieth in thy bosom."
+    ]
   },
   {
     "book": "MIC",
@@ -570,7 +1101,20 @@
     "book": "MIC",
     "chapter": 7,
     "verse": 7,
-    "content": "But as for me, I will look unto Jehovah; I will wait for the God of my salvation: my God will hear me."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But as for me, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "in Jehovah will I keep watch", "marks": ["i"] }
+          ]
+        }
+      },
+      "I will look unto Jehovah; I will wait for the God of my salvation: my God will hear me."
+    ]
   },
   {
     "book": "MIC",
@@ -582,25 +1126,72 @@
     "book": "MIC",
     "chapter": 7,
     "verse": 9,
-    "content": "I will bear the indignation of Jehovah, because I have sinned against him, until he plead my cause, and execute judgment for me: he will bring me forth to the light, and I shall behold his righteousness."
+    "content": [
+      "I will bear the indignation of Jehovah, because I have sinned against him, until he plead my cause, and execute judgment for me: he will bring me forth to the light, ",
+      { "text": "and", "marks": ["i"] },
+      " I shall behold his righteousness."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 10,
-    "content": "Then mine enemy shall see it, and shame shall cover her who said unto me, Where is Jehovah thy God? Mine eyes shall see my desire upon her; now shall she be trodden down as the mire of the streets."
+    "content": [
+      "Then mine enemy shall see it, and shame shall cover her who said unto me, Where is Jehovah thy God? Mine eyes shall see ",
+      { "text": "my desire", "marks": ["i"] },
+      " upon her; now shall she be trodden down as the mire of the streets."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 11,
-    "content": "A day for building thy walls! in that day shall the decree be far removed."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "In the day that thy walls are to be built",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "A day for building thy walls! in that day shall the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "boundary", "marks": ["i"] }]
+        }
+      },
+      "decree be far removed."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 12,
-    "content": "In that day shall they come unto thee from Assyria and the cities of Egypt, and from Egypt even to the River, and from sea to sea, and from mountain to mountain."
+    "content": [
+      {
+        "text": "In that day shall they come unto thee from Assyria and the cities of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Mazor", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Egypt, and from ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Mazor", "marks": ["i"] }, "."]
+        }
+      },
+      "Egypt even to the River, and from sea to sea, and ",
+      { "text": "from", "marks": ["i"] },
+      " mountain to mountain."
+    ]
   },
   {
     "book": "MIC",
@@ -612,7 +1203,16 @@
     "book": "MIC",
     "chapter": 7,
     "verse": 14,
-    "content": "Feed thy people with thy rod, the flock of thy heritage, which dwell solitarily, in the forest in the midst of Carmel: let them feed in Bashan and Gilead, as in the days of old."
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Rule", "marks": ["i"] }]
+        }
+      },
+      "Feed thy people with thy rod, the flock of thy heritage, which dwell solitarily, in the forest in the midst of Carmel: let them feed in Bashan and Gilead, as in the days of old."
+    ]
   },
   {
     "book": "MIC",
@@ -636,18 +1236,55 @@
     "book": "MIC",
     "chapter": 7,
     "verse": 18,
-    "content": "Who is a God like unto thee, that pardoneth iniquity, and passeth over the transgression of the remnant of his heritage? he retaineth not his anger for ever, because he delighteth in lovingkindness."
+    "content": {
+      "paragraph": true,
+      "text": "Who is a God like unto thee, that pardoneth iniquity, and passeth over the transgression of the remnant of his heritage? he retaineth not his anger for ever, because he delighteth in lovingkindness."
+    }
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 19,
-    "content": "He will again have compassion upon us; he will tread our iniquities under foot; and thou wilt cast all their sins into the depths of the sea."
+    "content": [
+      {
+        "text": "He will again have compassion upon us; he will ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "subdue our iniquities", "marks": ["i"] }
+          ]
+        }
+      },
+      "tread our iniquities under foot; and thou wilt cast all their sins into the depths of the sea."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 20,
-    "content": "Thou wilt perform the truth to Jacob, and the lovingkindness to Abraham, which thou hast sworn unto our fathers from the days of old."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Thou wilt show", "marks": ["i"] },
+            " thy ",
+            { "text": "faithfulness etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "Thou wilt ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "give", "marks": ["i"] }, "."]
+        }
+      },
+      "perform the truth to Jacob, ",
+      { "text": "and", "marks": ["i"] },
+      " the lovingkindness to Abraham, which thou hast sworn unto our fathers from the days of old."
+    ]
   }
 ]

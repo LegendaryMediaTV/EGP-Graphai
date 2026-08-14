@@ -42,13 +42,20 @@
     "book": "JDG",
     "chapter": 1,
     "verse": 7,
-    "content": "And Adoni-bezek said, Threescore and ten kings, having their thumbs and their great toes cut off, gathered their food under my table: as I have done, so God hath requited me. And they brought him to Jerusalem, and he died there."
+    "content": [
+      "And Adoni-bezek said, Threescore and ten kings, having their thumbs and their great toes cut off, gathered ",
+      { "text": "their food", "marks": ["i"] },
+      " under my table: as I have done, so God hath requited me. And they brought him to Jerusalem, and he died there."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 1,
     "verse": 8,
-    "content": "And the children of Judah fought against Jerusalem, and took it, and smote it with the edge of the sword, and set the city on fire."
+    "content": {
+      "paragraph": true,
+      "text": "And the children of Judah fought against Jerusalem, and took it, and smote it with the edge of the sword, and set the city on fire."
+    }
   },
   {
     "book": "JDG",
@@ -66,7 +73,10 @@
     "book": "JDG",
     "chapter": 1,
     "verse": 11,
-    "content": "And from thence he went against the inhabitants of Debir. (Now the name of Debir beforetime was Kiriath-sepher.)"
+    "content": {
+      "paragraph": true,
+      "text": "And from thence he went against the inhabitants of Debir. (Now the name of Debir beforetime was Kiriath-sepher.)"
+    }
   },
   {
     "book": "JDG",
@@ -84,25 +94,67 @@
     "book": "JDG",
     "chapter": 1,
     "verse": 14,
-    "content": "And it came to pass, when she came unto him, that she moved him to ask of her father a field: and she alighted from off her ass; and Caleb said unto her, What wouldest thou?"
+    "content": [
+      "And it came to pass, when she came ",
+      { "text": "unto him", "marks": ["i"] },
+      ", that she moved him to ask of her father a field: and she alighted from off her ass; and Caleb said unto her, What wouldest thou?"
+    ]
   },
   {
     "book": "JDG",
     "chapter": 1,
     "verse": 15,
-    "content": "And she said unto him, Give me a blessing; for that thou hast set me in the land of the South, give me also springs of water. And Caleb gave her the upper springs and the nether springs."
+    "content": [
+      {
+        "text": "And she said unto him, Give me a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "present", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "blessing; for that thou hast ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "given me the land of the South", "marks": ["i"] }
+          ]
+        }
+      },
+      "set me in the land of the South, give me also springs of water. And Caleb gave her the upper springs and the nether springs."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 1,
     "verse": 16,
-    "content": "And the children of the Kenite, Moses’ brother-in-law, went up out of the city of palm-trees with the children of Judah into the wilderness of Judah, which is in the south of Arad; and they went and dwelt with the people."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the children of the Kenite, Moses’ ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "father-in-law", "marks": ["i"] }]
+        }
+      },
+      "brother-in-law, went up out of the city of palm-trees with the children of Judah into the wilderness of Judah, which is in the south of Arad; and they went and dwelt with the people."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 1,
     "verse": 17,
-    "content": "And Judah went with Simeon his brother, and they smote the Canaanites that inhabited Zephath, and utterly destroyed it. And the name of the city was called Hormah."
+    "content": [
+      {
+        "text": "And Judah went with Simeon his brother, and they smote the Canaanites that inhabited Zephath, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "devoted", "marks": ["i"] }, "."]
+        }
+      },
+      "utterly destroyed it. And the name of the city was called Hormah."
+    ]
   },
   {
     "book": "JDG",
@@ -114,7 +166,11 @@
     "book": "JDG",
     "chapter": 1,
     "verse": 19,
-    "content": "And Jehovah was with Judah; and drove out the inhabitants of the hill-country; for he could not drive out the inhabitants of the valley, because they had chariots of iron."
+    "content": [
+      "And Jehovah was with Judah; and drove out ",
+      { "text": "the inhabitants of", "marks": ["i"] },
+      " the hill-country; for he could not drive out the inhabitants of the valley, because they had chariots of iron."
+    ]
   },
   {
     "book": "JDG",
@@ -132,7 +188,10 @@
     "book": "JDG",
     "chapter": 1,
     "verse": 22,
-    "content": "And the house of Joseph, they also went up against Beth-el; and Jehovah was with them."
+    "content": {
+      "paragraph": true,
+      "text": "And the house of Joseph, they also went up against Beth-el; and Jehovah was with them."
+    }
   },
   {
     "book": "JDG",
@@ -162,7 +221,20 @@
     "book": "JDG",
     "chapter": 1,
     "verse": 27,
-    "content": "And Manasseh did not drive out the inhabitants of Beth-shean and its towns, nor of Taanach and its towns, nor the inhabitants of Dor and its towns, nor the inhabitants of Ibleam and its towns, nor the inhabitants of Megiddo and its towns; but the Canaanites would dwell in that land."
+    "content": [
+      { "paragraph": true, "text": "And Manasseh did not drive out " },
+      { "text": "the inhabitants of", "marks": ["i"] },
+      {
+        "text": " Beth-shean and its ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
+        }
+      },
+      "towns, nor ",
+      { "text": "of", "marks": ["i"] },
+      " Taanach and its towns, nor the inhabitants of Dor and its towns, nor the inhabitants of Ibleam and its towns, nor the inhabitants of Megiddo and its towns; but the Canaanites would dwell in that land."
+    ]
   },
   {
     "book": "JDG",
@@ -174,19 +246,28 @@
     "book": "JDG",
     "chapter": 1,
     "verse": 29,
-    "content": "And Ephraim drove not out the Canaanites that dwelt in Gezer; but the Canaanites dwelt in Gezer among them."
+    "content": {
+      "paragraph": true,
+      "text": "And Ephraim drove not out the Canaanites that dwelt in Gezer; but the Canaanites dwelt in Gezer among them."
+    }
   },
   {
     "book": "JDG",
     "chapter": 1,
     "verse": 30,
-    "content": "Zebulun drove not out the inhabitants of Kitron, nor the inhabitants of Nahalol; but the Canaanites dwelt among them, and became subject to taskwork."
+    "content": {
+      "paragraph": true,
+      "text": "Zebulun drove not out the inhabitants of Kitron, nor the inhabitants of Nahalol; but the Canaanites dwelt among them, and became subject to taskwork."
+    }
   },
   {
     "book": "JDG",
     "chapter": 1,
     "verse": 31,
-    "content": "Asher drove not out the inhabitants of Acco, nor the inhabitants of Sidon, nor of Ahlab, nor of Achzib, nor of Helbah, nor of Aphik, nor of Rehob;"
+    "content": {
+      "paragraph": true,
+      "text": "Asher drove not out the inhabitants of Acco, nor the inhabitants of Sidon, nor of Ahlab, nor of Achzib, nor of Helbah, nor of Aphik, nor of Rehob;"
+    }
   },
   {
     "book": "JDG",
@@ -198,13 +279,19 @@
     "book": "JDG",
     "chapter": 1,
     "verse": 33,
-    "content": "Naphtali drove not out the inhabitants of Beth-shemesh, nor the inhabitants of Beth-anath; but he dwelt among the Canaanites, the inhabitants of the land: nevertheless the inhabitants of Beth-shemesh and of Beth-anath became subject to taskwork."
+    "content": {
+      "paragraph": true,
+      "text": "Naphtali drove not out the inhabitants of Beth-shemesh, nor the inhabitants of Beth-anath; but he dwelt among the Canaanites, the inhabitants of the land: nevertheless the inhabitants of Beth-shemesh and of Beth-anath became subject to taskwork."
+    }
   },
   {
     "book": "JDG",
     "chapter": 1,
     "verse": 34,
-    "content": "And the Amorites forced the children of Dan into the hill-country; for they would not suffer them to come down to the valley;"
+    "content": {
+      "paragraph": true,
+      "text": "And the Amorites forced the children of Dan into the hill-country; for they would not suffer them to come down to the valley;"
+    }
   },
   {
     "book": "JDG",
@@ -216,16 +303,32 @@
     "book": "JDG",
     "chapter": 1,
     "verse": 36,
-    "content": "And the border of the Amorites was from the ascent of Akrabbim, from the rock, and upward."
+    "content": [
+      {
+        "text": "And the border of the Amorites was from the ascent of Akrabbim, from ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Sela", "marks": ["i"] }]
+        }
+      },
+      "the rock, and upward."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And the angel of Jehovah came up from Gilgal to Bochim. And he said, I made you to go up out of Egypt, and have brought you unto the land which I sware unto your fathers; and I said, I will never break my covenant with you:"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a messenger", "marks": ["i"] }]
+        }
+      },
+      "the angel of Jehovah came up from Gilgal to Bochim. And he said, I made you to go up out of Egypt, and have brought you unto the land which I sware unto your fathers; and I said, I will never break my covenant with you:"
+    ]
   },
   {
     "book": "JDG",
@@ -237,7 +340,11 @@
     "book": "JDG",
     "chapter": 2,
     "verse": 3,
-    "content": "Wherefore I also said, I will not drive them out from before you; but they shall be as thorns in your sides, and their gods shall be a snare unto you."
+    "content": [
+      "Wherefore I also said, I will not drive them out from before you; but they shall be ",
+      { "text": "as thorns", "marks": ["i"] },
+      " in your sides, and their gods shall be a snare unto you."
+    ]
   },
   {
     "book": "JDG",
@@ -249,13 +356,25 @@
     "book": "JDG",
     "chapter": 2,
     "verse": 5,
-    "content": "And they called the name of that place Bochim: and they sacrificed there unto Jehovah."
+    "content": [
+      {
+        "text": "And they called the name of that place ",
+        "foot": {
+          "type": "stu",
+          "content": ["That is, ", { "text": "Weepers", "marks": ["i"] }, "."]
+        }
+      },
+      "Bochim: and they sacrificed there unto Jehovah."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 2,
     "verse": 6,
-    "content": "Now when Joshua had sent the people away, the children of Israel went every man unto his inheritance to possess the land."
+    "content": {
+      "paragraph": true,
+      "text": "Now when Joshua had sent the people away, the children of Israel went every man unto his inheritance to possess the land."
+    }
   },
   {
     "book": "JDG",
@@ -285,7 +404,10 @@
     "book": "JDG",
     "chapter": 2,
     "verse": 11,
-    "content": "And the children of Israel did that which was evil in the sight of Jehovah, and served the Baalim;"
+    "content": {
+      "paragraph": true,
+      "text": "And the children of Israel did that which was evil in the sight of Jehovah, and served the Baalim;"
+    }
   },
   {
     "book": "JDG",
@@ -315,13 +437,20 @@
     "book": "JDG",
     "chapter": 2,
     "verse": 16,
-    "content": "And Jehovah raised up judges, who saved them out of the hand of those that despoiled them."
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah raised up judges, who saved them out of the hand of those that despoiled them."
+    }
   },
   {
     "book": "JDG",
     "chapter": 2,
     "verse": 17,
-    "content": "And yet they hearkened not unto their judges; for they played the harlot after other gods, and bowed themselves down unto them: they turned aside quickly out of the way wherein their fathers walked, obeying the commandments of Jehovah; but they did not so."
+    "content": [
+      "And yet they hearkened not unto their judges; for they played the harlot after other gods, and bowed themselves down unto them: they turned aside quickly out of the way wherein their fathers walked, obeying the commandments of Jehovah; ",
+      { "text": "but", "marks": ["i"] },
+      " they did not so."
+    ]
   },
   {
     "book": "JDG",
@@ -333,13 +462,26 @@
     "book": "JDG",
     "chapter": 2,
     "verse": 19,
-    "content": "But it came to pass, when the judge was dead, that they turned back, and dealt more corruptly than their fathers, in following other gods to serve them, and to bow down unto them; they ceased not from their doings, nor from their stubborn way."
+    "content": [
+      {
+        "text": "But it came to pass, when the judge was dead, that they turned back, and dealt more corruptly than their fathers, in following other gods to serve them, and to bow down unto them; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "they let nothing fall of their doings", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "they ceased not from their doings, nor from their stubborn way."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 2,
     "verse": 20,
-    "content": "And the anger of Jehovah was kindled against Israel; and he said, Because this nation have transgressed my covenant which I commanded their fathers, and have not hearkened unto my voice,"
+    "content": "And the anger of Jehovah was kindled against Israel; and he said, Because this nation have transgressed my covenant which I commanded their fathers, and have not hearkened unto my voice;"
   },
   {
     "book": "JDG",
@@ -363,10 +505,14 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now these are the nations which Jehovah left, to prove Israel by them, even as many of Israel as had not known all the wars of Canaan;"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now these are the nations which Jehovah left, to prove Israel by them, even as many "
+      },
+      { "text": "of Israel", "marks": ["i"] },
+      " as had not known all the wars of Canaan;"
+    ]
   },
   {
     "book": "JDG",
@@ -378,13 +524,20 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 3,
-    "content": "namely, the five lords of the Philistines, and all the Canaanites, and the Sidonians, and the Hivites that dwelt in mount Lebanon, from mount Baal-hermon unto the entrance of Hamath."
+    "content": [
+      { "text": "namely", "marks": ["i"] },
+      ", the five lords of the Philistines, and all the Canaanites, and the Sidonians, and the Hivites that dwelt in mount Lebanon, from mount Baal-hermon unto the entrance of Hamath."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 3,
     "verse": 4,
-    "content": "And they were left, to prove Israel by them, to know whether they would hearken unto the commandments of Jehovah, which he commanded their fathers by Moses."
+    "content": [
+      "And they were ",
+      { "text": "left", "marks": ["i"] },
+      ", to prove Israel by them, to know whether they would hearken unto the commandments of Jehovah, which he commanded their fathers by Moses."
+    ]
   },
   {
     "book": "JDG",
@@ -402,13 +555,29 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 7,
-    "content": "And the children of Israel did that which was evil in the sight of Jehovah, and forgat Jehovah their God, and served the Baalim and the Asheroth."
+    "content": {
+      "paragraph": true,
+      "text": "And the children of Israel did that which was evil in the sight of Jehovah, and forgat Jehovah their God, and served the Baalim and the Asheroth."
+    }
   },
   {
     "book": "JDG",
     "chapter": 3,
     "verse": 8,
-    "content": "Therefore the anger of Jehovah was kindled against Israel, and he sold them into the hand of Cushan-rishathaim king of Mesopotamia: and the children of Israel served Cushan-rishathaim eight years."
+    "content": [
+      {
+        "text": "Therefore the anger of Jehovah was kindled against Israel, and he sold them into the hand of Cushan-rishathaim king of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Aram-naharaim", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Mesopotamia: and the children of Israel served Cushan-rishathaim eight years."
+    ]
   },
   {
     "book": "JDG",
@@ -420,7 +589,16 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 10,
-    "content": "And the Spirit of Jehovah came upon him, and he judged Israel; and he went out to war, and Jehovah delivered Cushan-rishathaim king of Mesopotamia into his hand: and his hand prevailed against Cushan-rishathaim."
+    "content": [
+      {
+        "text": "And the Spirit of Jehovah came upon him, and he judged Israel; and he went out to war, and Jehovah delivered Cushan-rishathaim king of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Aram", "marks": ["i"] }, "."]
+        }
+      },
+      "Mesopotamia into his hand: and his hand prevailed against Cushan-rishathaim."
+    ]
   },
   {
     "book": "JDG",
@@ -432,7 +610,10 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 12,
-    "content": "And the children of Israel again did that which was evil in the sight of Jehovah: and Jehovah strengthened Eglon the king of Moab against Israel, because they had done that which was evil in the sight of Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "And the children of Israel again did that which was evil in the sight of Jehovah: and Jehovah strengthened Eglon the king of Moab against Israel, because they had done that which was evil in the sight of Jehovah."
+    }
   },
   {
     "book": "JDG",
@@ -450,7 +631,10 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 15,
-    "content": "But when the children of Israel cried unto Jehovah, Jehovah raised them up a saviour, Ehud the son of Gera, the Benjamite, a man left-handed. And the children of Israel sent tribute by him unto Eglon the king of Moab."
+    "content": {
+      "paragraph": true,
+      "text": "But when the children of Israel cried unto Jehovah, Jehovah raised them up a saviour, Ehud the son of Gera, the Benjamite, a man left-handed. And the children of Israel sent tribute by him unto Eglon the king of Moab."
+    }
   },
   {
     "book": "JDG",
@@ -474,7 +658,16 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 19,
-    "content": "But he himself turned back from the quarries that were by Gilgal, and said, I have a secret errand unto thee, O king. And he said, Keep silence. And all that stood by him went out from him."
+    "content": [
+      {
+        "text": "But he himself turned back from the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "graven images", "marks": ["i"] }]
+        }
+      },
+      "quarries that were by Gilgal, and said, I have a secret errand unto thee, O king. And he said, Keep silence. And all that stood by him went out from him."
+    ]
   },
   {
     "book": "JDG",
@@ -492,7 +685,19 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 22,
-    "content": "and the haft also went in after the blade; and the fat closed upon the blade, for he drew not the sword out of his body; and it came out behind."
+    "content": [
+      {
+        "text": "and the haft also went in after the blade; and the fat closed upon the blade, for he drew not the sword out of his body; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "he went out into the antechamber", "marks": ["i"] }
+          ]
+        }
+      },
+      "it came out behind."
+    ]
   },
   {
     "book": "JDG",
@@ -504,19 +709,36 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 24,
-    "content": "Now when he was gone out, his servants came; and they saw, and, behold, the doors of the upper room were locked; and they said, Surely he is covering his feet in the upper chamber."
+    "content": {
+      "paragraph": true,
+      "text": "Now when he was gone out, his servants came; and they saw, and, behold, the doors of the upper room were locked; and they said, Surely he is covering his feet in the upper chamber."
+    }
   },
   {
     "book": "JDG",
     "chapter": 3,
     "verse": 25,
-    "content": "And they tarried till they were ashamed; and, behold, he opened not the doors of the upper room: therefore they took the key, and opened them, and, behold, their lord was fallen down dead on the earth."
+    "content": [
+      "And they tarried till they were ashamed; and, behold, he opened not the doors of the upper room: therefore they took the key, and opened ",
+      { "text": "them", "marks": ["i"] },
+      "; and, behold, their lord was fallen down dead on the earth."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 3,
     "verse": 26,
-    "content": "And Ehud escaped while they tarried, and passed beyond the quarries, and escaped unto Seirah."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Ehud escaped while they tarried, and passed beyond the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "graven images", "marks": ["i"] }]
+        }
+      },
+      "quarries, and escaped unto Seirah."
+    ]
   },
   {
     "book": "JDG",
@@ -528,7 +750,16 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 28,
-    "content": "And he said unto them, Follow after me; for Jehovah hath delivered your enemies the Moabites into your hand. And they went down after him, and took the fords of the Jordan against the Moabites, and suffered not a man to pass over."
+    "content": [
+      {
+        "text": "And he said unto them, Follow after me; for Jehovah hath delivered your enemies the Moabites into your hand. And they went down after him, and took the fords of the Jordan ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "toward Moab", "marks": ["i"] }]
+        }
+      },
+      "against the Moabites, and suffered not a man to pass over."
+    ]
   },
   {
     "book": "JDG",
@@ -546,7 +777,10 @@
     "book": "JDG",
     "chapter": 3,
     "verse": 31,
-    "content": "And after him was Shamgar the son of Anath, who smote of the Philistines six hundred men with an ox-goad: and he also saved Israel."
+    "content": {
+      "paragraph": true,
+      "text": "And after him was Shamgar the son of Anath, who smote of the Philistines six hundred men with an ox-goad: and he also saved Israel."
+    }
   },
   {
     "book": "JDG",
@@ -561,7 +795,16 @@
     "book": "JDG",
     "chapter": 4,
     "verse": 2,
-    "content": "And Jehovah sold them into the hand of Jabin king of Canaan, that reigned in Hazor; the captain of whose host was Sisera, who dwelt in Harosheth of the Gentiles."
+    "content": [
+      {
+        "text": "And Jehovah sold them into the hand of Jabin king of Canaan, that reigned in Hazor; the captain of whose host was Sisera, who dwelt in Harosheth of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "nations", "marks": ["i"] }]
+        }
+      },
+      "Gentiles."
+    ]
   },
   {
     "book": "JDG",
@@ -573,19 +816,35 @@
     "book": "JDG",
     "chapter": 4,
     "verse": 4,
-    "content": "Now Deborah, a prophetess, the wife of Lappidoth, she judged Israel at that time."
+    "content": {
+      "paragraph": true,
+      "text": "Now Deborah, a prophetess, the wife of Lappidoth, she judged Israel at that time."
+    }
   },
   {
     "book": "JDG",
     "chapter": 4,
     "verse": 5,
-    "content": "And she dwelt under the palm-tree of Deborah between Ramah and Beth-el in the hill-country of Ephraim: and the children of Israel came up to her for judgment."
+    "content": [
+      {
+        "text": "And she ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sat", "marks": ["i"] }]
+        }
+      },
+      "dwelt under the palm-tree of Deborah between Ramah and Beth-el in the hill-country of Ephraim: and the children of Israel came up to her for judgment."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 4,
     "verse": 6,
-    "content": "And she sent and called Barak the son of Abinoam out of Kedesh-naphtali, and said unto him, Hath not Jehovah, the God of Israel, commanded, saying, Go and draw unto mount Tabor, and take with thee ten thousand men of the children of Naphtali and of the children of Zebulun?"
+    "content": [
+      "And she sent and called Barak the son of Abinoam out of Kedesh-naphtali, and said unto him, Hath not Jehovah, the God of Israel, commanded, ",
+      { "text": "saying", "marks": ["i"] },
+      ", Go and draw unto mount Tabor, and take with thee ten thousand men of the children of Naphtali and of the children of Zebulun?"
+    ]
   },
   {
     "book": "JDG",
@@ -615,19 +874,61 @@
     "book": "JDG",
     "chapter": 4,
     "verse": 11,
-    "content": "Now Heber the Kenite had separated himself from the Kenites, even from the children of Hobab the brother-in-law of Moses, and had pitched his tent as far as the oak in Zaanannim, which is by Kedesh."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now Heber ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Kain", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Numbers 24:22", "content": "Num. 24:22" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "the Kenite had separated himself from the Kenites, even from the children of Hobab the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "father-in-law", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "brother-in-law of Moses, and had pitched his tent as far as the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "terebinth", "marks": ["i"] }]
+        }
+      },
+      "oak in Zaanannim, which is by Kedesh."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 4,
     "verse": 12,
-    "content": "And they told Sisera that Barak the son of Abinoam was gone up to mount Tabor."
+    "content": {
+      "paragraph": true,
+      "text": "And they told Sisera that Barak the son of Abinoam was gone up to mount Tabor."
+    }
   },
   {
     "book": "JDG",
     "chapter": 4,
     "verse": 13,
-    "content": "And Sisera gathered together all his chariots, even nine hundred chariots of iron, and all the people that were with him, from Harosheth of the Gentiles, unto the river Kishon."
+    "content": [
+      {
+        "text": "And Sisera gathered together all his chariots, even nine hundred chariots of iron, and all the people that were with him, from Harosheth of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "nations", "marks": ["i"] }]
+        }
+      },
+      "Gentiles, unto the river Kishon."
+    ]
   },
   {
     "book": "JDG",
@@ -645,13 +946,25 @@
     "book": "JDG",
     "chapter": 4,
     "verse": 16,
-    "content": "But Barak pursued after the chariots, and after the host, unto Harosheth of the Gentiles: and all the host of Sisera fell by the edge of the sword; there was not a man left."
+    "content": [
+      {
+        "text": "But Barak pursued after the chariots, and after the host, unto Harosheth of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "nations", "marks": ["i"] }]
+        }
+      },
+      "Gentiles: and all the host of Sisera fell by the edge of the sword; there was not a man left."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 4,
     "verse": 17,
-    "content": "Howbeit Sisera fled away on his feet to the tent of Jael the wife of Heber the Kenite; for there was peace between Jabin the king of Hazor and the house of Heber the Kenite."
+    "content": {
+      "paragraph": true,
+      "text": "Howbeit Sisera fled away on his feet to the tent of Jael the wife of Heber the Kenite; for there was peace between Jabin the king of Hazor and the house of Heber the Kenite."
+    }
   },
   {
     "book": "JDG",
@@ -675,7 +988,19 @@
     "book": "JDG",
     "chapter": 4,
     "verse": 21,
-    "content": "Then Jael Heber’s wife took a tent-pin, and took a hammer in her hand, and went softly unto him, and smote the pin into his temples, and it pierced through into the ground; for he was in a deep sleep; so he swooned and died."
+    "content": [
+      {
+        "text": "Then Jael Heber’s wife took a tent-pin, and took a hammer in her hand, and went softly unto him, and smote the pin into his temples, and it pierced through into the ground; for he was ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "in a deep sleep and weary; so he died", "marks": ["i"] }
+          ]
+        }
+      },
+      "in a deep sleep; so he swooned and died."
+    ]
   },
   {
     "book": "JDG",
@@ -687,7 +1012,10 @@
     "book": "JDG",
     "chapter": 4,
     "verse": 23,
-    "content": "So God subdued on that day Jabin the king of Canaan before the children of Israel."
+    "content": {
+      "paragraph": true,
+      "text": "So God subdued on that day Jabin the king of Canaan before the children of Israel."
+    }
   },
   {
     "book": "JDG",
@@ -701,188 +1029,605 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Then sang Deborah and Barak the son of Abinoam on that day, saying,"
+      "text": "Then sang Deborah and Barak the son of Abinoam on that day, saying,",
+      "break": true
     }
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 2,
-    "content": "For that the leaders took the lead in Israel, For that the people offered themselves willingly, Bless ye Jehovah."
+    "content": [
+      {
+        "text": "For that the leaders took the lead in Israel,",
+        "break": true
+      },
+      {
+        "text": "For that the people offered themselves willingly,",
+        "break": true
+      },
+      { "text": "Bless ye Jehovah.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 3,
-    "content": "Hear, O ye kings; give ear, O ye princes; I, even I, will sing unto Jehovah; I will sing praise to Jehovah, the God of Israel."
+    "content": [
+      { "text": "Hear, O ye kings; give ear, O ye princes;", "break": true },
+      "I, ",
+      { "text": "even", "marks": ["i"] },
+      { "text": " I, will sing unto Jehovah;", "break": true },
+      {
+        "text": "I will sing praise to Jehovah, the God of Israel.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 4,
-    "content": "Jehovah, when thou wentest forth out of Seir, When thou marchedst out of the field of Edom, The earth trembled, the heavens also dropped, Yea, the clouds dropped water."
+    "content": [
+      {
+        "text": "Jehovah, when thou wentest forth out of Seir,",
+        "break": true
+      },
+      {
+        "text": "When thou marchedst out of the field of Edom,",
+        "break": true
+      },
+      {
+        "text": "The earth trembled, the heavens also dropped,",
+        "break": true
+      },
+      { "text": "Yea, the clouds dropped water.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 5,
-    "content": "The mountains quaked at the presence of Jehovah, Even yon Sinai at the presence of Jehovah, the God of Israel."
+    "content": [
+      {
+        "text": "The mountains ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "flowed down", "marks": ["i"] }]
+        }
+      },
+      { "text": "quaked at the presence of Jehovah,", "break": true },
+      {
+        "text": "Even yon Sinai at the presence of Jehovah, the God of Israel.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 6,
-    "content": "In the days of Shamgar the son of Anath, In the days of Jael, the highways were unoccupied, And the travellers walked through byways."
+    "content": [
+      { "text": "In the days of Shamgar the son of Anath,", "break": true },
+      {
+        "text": "In the days of Jael, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the caravans ceased", "marks": ["i"] }]
+        }
+      },
+      { "text": "the highways were unoccupied,", "break": true },
+      {
+        "text": "And the travellers walked through ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "crooked ways", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "byways.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 7,
-    "content": "The rulers ceased in Israel, they ceased, Until that I Deborah arose, That I arose a mother in Israel."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "The villages were unoccupied", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "The rulers ceased in Israel, they ceased,", "break": true },
+      { "text": "Until that I Deborah arose,", "break": true },
+      { "text": "That I arose a mother in Israel.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 8,
-    "content": "They chose new gods; Then was war in the gates: Was there a shield or spear seen Among forty thousand in Israel?"
+    "content": [
+      { "text": "They chose new gods;", "break": true },
+      { "text": "Then was war in the gates:", "break": true },
+      { "text": "Was there a shield or spear seen", "break": true },
+      { "text": "Among forty thousand in Israel?", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 9,
-    "content": "My heart is toward the governors of Israel, That offered themselves willingly among the people: Bless ye Jehovah."
+    "content": [
+      {
+        "text": "My heart is toward the governors of Israel,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Ye that offered yourselves willingly among the people, bless etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "That offered themselves willingly among the people:",
+        "break": true
+      },
+      { "text": "Bless ye Jehovah.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 10,
-    "content": "Tell of it, ye that ride on white asses, Ye that sit on rich carpets, And ye that walk by the way."
+    "content": [
+      "Tell ",
+      { "text": "of it", "marks": ["i"] },
+      { "text": ", ye that ride on white asses,", "break": true },
+      { "text": "Ye that sit on rich carpets,", "break": true },
+      { "text": "And ye that walk by the way.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 11,
-    "content": "Far from the noise of archers, in the places of drawing water, There shall they rehearse the righteous acts of Jehovah, Even the righteous acts of his rule in Israel. Then the people of Jehovah went down to the gates."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Because of the voice of the archers . . . there let them rehearse",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "Far from the noise of archers, in the places of drawing water,",
+        "break": true
+      },
+      {
+        "text": "There shall they rehearse the righteous acts of Jehovah,",
+        "break": true
+      },
+      { "text": "Even", "marks": ["i"] },
+      {
+        "text": " the righteous acts ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "toward his villages", "marks": ["i"] }]
+        }
+      },
+      { "text": "of his rule in Israel.", "break": true },
+      {
+        "text": "Then the people of Jehovah went down to the gates.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 12,
-    "content": "Awake, awake, Deborah; Awake, awake, utter a song: Arise, Barak, and lead away thy captives, thou son of Abinoam."
+    "content": [
+      { "text": "Awake, awake, Deborah;", "break": true },
+      { "text": "Awake, awake, utter a song:", "break": true },
+      {
+        "text": "Arise, Barak, and lead away thy captives, thou son of Abinoam.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 13,
-    "content": "Then came down a remnant of the nobles and the people; Jehovah came down for me against the mighty."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Then go down, O remnant, for the nobles . . . O Jehovah, go down for me against the mighty",
+              "marks": ["i"]
+            },
+            ". Or, ",
+            {
+              "text": "Then made he a remnant to have dominion over the nobles",
+              "marks": ["i"]
+            },
+            " and ",
+            {
+              "text": "the people; Jehovah made me have dominion over the mighty",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "Then came down a remnant of the nobles ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, as otherwise read, ",
+            {
+              "text": "the people of Jehovah came down for me against",
+              "marks": ["i"]
+            },
+            " (or ",
+            { "text": "among", "marks": ["i"] },
+            ") ",
+            { "text": "the mighty", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "and", "marks": ["i"] },
+      { "text": " the people;", "break": true },
+      {
+        "text": "Jehovah came down for me ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "among", "marks": ["i"] }]
+        }
+      },
+      { "text": "against the mighty.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 14,
-    "content": "Out of Ephraim came down they whose root is in Amalek; After thee, Benjamin, among thy peoples; Out of Machir came down governors, And out of Zebulun they that handle the marshal’s staff."
+    "content": [
+      "Out of Ephraim ",
+      { "text": "came down", "marks": ["i"] },
+      { "text": " they whose root is in Amalek;", "break": true },
+      { "text": "After thee, Benjamin, among thy peoples;", "break": true },
+      {
+        "text": "Out of Machir came down ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "lawgivers", "marks": ["i"] }]
+        }
+      },
+      { "text": "governors,", "break": true },
+      {
+        "text": "And out of Zebulun they that handle ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the staff of the scribe", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "the marshal’s staff.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 15,
-    "content": "And the princes of Issachar were with Deborah; As was Issachar, so was Barak; Into the valley they rushed forth at his feet. By the watercourses of Reuben There were great resolves of heart."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "my princes in Issachar", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "the princes of Issachar were with Deborah;", "break": true },
+      { "text": "As was Issachar, so was Barak;", "break": true },
+      {
+        "text": "Into the valley they rushed forth at his feet.",
+        "break": true
+      },
+      { "text": "By the watercourses of Reuben", "break": true },
+      { "text": "There were great resolves of heart.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 16,
-    "content": "Why sattest thou among the sheepfolds, To hear the pipings for the flocks? At the watercourses of Reuben There were great searchings of heart."
+    "content": [
+      { "text": "Why sattest thou among the sheepfolds,", "break": true },
+      { "text": "To hear the pipings for the flocks?", "break": true },
+      { "text": "At the watercourses of Reuben", "break": true },
+      { "text": "There were great searchings of heart.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 17,
-    "content": "Gilead abode beyond the Jordan: And Dan, why did he remain in ships? Asher sat still at the haven of the sea, And abode by his creeks."
+    "content": [
+      { "text": "Gilead abode beyond the Jordan:", "break": true },
+      { "text": "And Dan, why did he remain in ships?", "break": true },
+      {
+        "text": "Asher sat still at the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shore", "marks": ["i"] }]
+        }
+      },
+      { "text": "haven of the sea,", "break": true },
+      { "text": "And abode by his creeks.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 18,
-    "content": "Zebulun was a people that jeoparded their lives unto the death, And Naphtali, upon the high places of the field."
+    "content": [
+      {
+        "text": "Zebulun was a people that jeoparded their lives unto the death,",
+        "break": true
+      },
+      {
+        "text": "And Naphtali, upon the high places of the field.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 19,
-    "content": "The kings came and fought; Then fought the kings of Canaan. In Taanach by the waters of Megiddo: They took no gain of money."
+    "content": [
+      { "text": "The kings came and fought;", "break": true },
+      { "text": "Then fought the kings of Canaan,", "break": true },
+      { "text": "In Taanach by the waters of Megiddo:", "break": true },
+      { "text": "They took no gain of money.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 20,
-    "content": "From heaven fought the stars, From their courses they fought against Sisera."
+    "content": [
+      { "text": "From heaven fought the stars,", "break": true },
+      {
+        "text": "From their courses they fought against Sisera.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 21,
-    "content": "The river Kishon swept them away, That ancient river, the river Kishon. O my soul, march on with strength."
+    "content": [
+      { "text": "The river Kishon swept them away,", "break": true },
+      { "text": "That ancient river, the river Kishon.", "break": true },
+      {
+        "text": "O my soul, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "thou hast trodden down strength", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "march on with strength.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 22,
-    "content": "Then did the horsehoofs stamp By reason of the prancings, the prancings of their strong ones."
+    "content": [
+      { "text": "Then did the horsehoofs stamp", "break": true },
+      {
+        "text": "By reason of the prancings, the prancings of their strong ones.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 23,
-    "content": "Curse ye Meroz, said the angel of Jehovah. Curse ye bitterly the inhabitants thereof, Because they came not to the help of Jehovah, To the help of Jehovah against the mighty."
+    "content": [
+      { "text": "Curse ye Meroz, said the angel of Jehovah.", "break": true },
+      { "text": "Curse ye bitterly the inhabitants thereof,", "break": true },
+      {
+        "text": "Because they came not to the help of Jehovah,",
+        "break": true
+      },
+      {
+        "text": "To the help of Jehovah ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "among", "marks": ["i"] }]
+        }
+      },
+      { "text": "against the mighty.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 24,
-    "content": "Blessed above women shall Jael be, The wife of Heber the Kenite; Blessed shall she be above women in the tent."
+    "content": [
+      {
+        "text": "Blessed ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "of", "marks": ["i"] }]
+        }
+      },
+      { "text": "above women shall Jael be,", "break": true },
+      { "text": "The wife of Heber the Kenite;", "break": true },
+      {
+        "text": "Blessed shall she be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "of", "marks": ["i"] }]
+        }
+      },
+      { "text": "above women in the tent.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 25,
-    "content": "He asked water, and she gave him milk; She brought him butter in a lordly dish."
+    "content": [
+      "He asked water, ",
+      { "text": "and", "marks": ["i"] },
+      { "text": " she gave him milk;", "break": true },
+      { "text": "She brought him butter in a lordly dish.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 26,
-    "content": "She put her hand to the tent-pin, And her right hand to the workmen’s hammer; And with the hammer she smote Sisera, she smote through his head; Yea, she pierced and struck through his temples."
+    "content": [
+      { "text": "She put her hand to the tent-pin,", "break": true },
+      { "text": "And her right hand to the workmen’s hammer;", "break": true },
+      {
+        "text": "And with the hammer she smote Sisera, she smote through his head;",
+        "break": true
+      },
+      {
+        "text": "Yea, she pierced and struck through his temples.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 27,
-    "content": "At her feet he bowed, he fell, he lay; At her feet he bowed, he fell; Where he bowed, there he fell down dead."
+    "content": [
+      { "text": "At her feet he bowed, he fell, he lay;", "break": true },
+      { "text": "At her feet he bowed, he fell:", "break": true },
+      {
+        "text": "Where he bowed, there he fell down ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "overpowered", "marks": ["i"] }]
+        }
+      },
+      { "text": "dead.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 28,
-    "content": "Through the window she looked forth, and cried, The mother of Sisera cried through the lattice, Why is his chariot so long in coming? Why tarry the wheels of his chariots?"
+    "content": [
+      {
+        "text": "Through the window she looked forth, and cried,",
+        "break": true
+      },
+      "The mother of Sisera ",
+      { "text": "cried", "marks": ["i"] },
+      { "text": " through the lattice,", "break": true },
+      { "text": "Why is his chariot so long in coming?", "break": true },
+      {
+        "text": "Why tarry the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "steps", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "wheels of his chariots?", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 29,
-    "content": "Her wise ladies answered her, Yea, she returned answer to herself,"
+    "content": [
+      {
+        "text": "Her wise ladies answered her,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or (",
+            {
+              "text": "Yet she repeateth her words unto herself",
+              "marks": ["i"]
+            },
+            ")"
+          ]
+        }
+      },
+      { "text": "Yea, she returned answer to herself,", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 30,
-    "content": "Have they not found, have they not divided the spoil? A damsel, two damsels to every man; To Sisera a spoil of dyed garments, A spoil of dyed garments embroidered, Of dyed garments embroidered on both sides, on the necks of the spoil?"
+    "content": [
+      {
+        "text": "Have they not found, have they not divided the spoil?",
+        "break": true
+      },
+      { "text": "A damsel, two damsels to every man;", "break": true },
+      { "text": "To Sisera a spoil of dyed garments,", "break": true },
+      { "text": "A spoil of dyed garments embroidered,", "break": true },
+      {
+        "text": "Of dyed garments embroidered on both sides, on the necks of the spoil?",
+        "break": true
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 5,
     "verse": 31,
-    "content": "So let all thine enemies perish, O Jehovah: But let them that love him be as the sun when he goeth forth in his might. And the land had rest forty years."
+    "content": [
+      { "text": "So let all thine enemies perish, O Jehovah:", "break": true },
+      {
+        "text": "But let them that love him be as the sun when he goeth forth in his might.",
+        "break": true
+      },
+      { "paragraph": true, "text": "And the land had rest forty years." }
+    ]
   },
   {
     "book": "JDG",
@@ -927,7 +1672,10 @@
     "book": "JDG",
     "chapter": 6,
     "verse": 7,
-    "content": "And it came to pass, when the children of Israel cried unto Jehovah because of Midian,"
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass, when the children of Israel cried unto Jehovah because of Midian,"
+    }
   },
   {
     "book": "JDG",
@@ -951,7 +1699,17 @@
     "book": "JDG",
     "chapter": 6,
     "verse": 11,
-    "content": "And the angel of Jehovah came, and sat under the oak which was in Ophrah, that pertained unto Joash the Abiezrite: and his son Gideon was beating out wheat in the winepress, to hide it from the Midianites."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the angel of Jehovah came, and sat under the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "terebinth", "marks": ["i"] }]
+        }
+      },
+      "oak which was in Ophrah, that pertained unto Joash the Abiezrite: and his son Gideon was beating out wheat in the winepress, to hide it from the Midianites."
+    ]
   },
   {
     "book": "JDG",
@@ -969,13 +1727,31 @@
     "book": "JDG",
     "chapter": 6,
     "verse": 14,
-    "content": "And Jehovah looked upon him, and said, Go in this thy might, and save Israel from the hand of Midian: have not I sent thee?"
+    "content": [
+      {
+        "text": "And Jehovah ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "turned towards", "marks": ["i"] }]
+        }
+      },
+      "looked upon him, and said, Go in this thy might, and save Israel from the hand of Midian: have not I sent thee?"
+    ]
   },
   {
     "book": "JDG",
     "chapter": 6,
     "verse": 15,
-    "content": "And he said unto him, Oh, Lord, wherewith shall I save Israel? behold, my family is the poorest in Manasseh, and I am the least in my father’s house."
+    "content": [
+      {
+        "text": "And he said unto him, Oh, Lord, wherewith shall I save Israel? behold, my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "thousand", "marks": ["i"] }, "."]
+        }
+      },
+      "family is the poorest in Manasseh, and I am the least in my father’s house."
+    ]
   },
   {
     "book": "JDG",
@@ -993,13 +1769,32 @@
     "book": "JDG",
     "chapter": 6,
     "verse": 18,
-    "content": "Depart not hence, I pray thee, until I come unto thee, and bring forth my present, and lay it before thee. And he said, I will tarry until thou come again."
+    "content": [
+      {
+        "text": "Depart not hence, I pray thee, until I come unto thee, and bring forth my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "offering", "marks": ["i"] }]
+        }
+      },
+      "present, and lay it before thee. And he said, I will tarry until thou come again."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 6,
     "verse": 19,
-    "content": "And Gideon went in, and made ready a kid, and unleavened cakes of an ephah of meal: the flesh he put in a basket, and he put the broth in a pot, and brought it out unto him under the oak, and presented it."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Gideon went in, and made ready a kid, and unleavened cakes of an ephah of meal: the flesh he put in a basket, and he put the broth in a pot, and brought it out unto him under the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "terebinth", "marks": ["i"] }]
+        }
+      },
+      "oak, and presented it."
+    ]
   },
   {
     "book": "JDG",
@@ -1029,19 +1824,61 @@
     "book": "JDG",
     "chapter": 6,
     "verse": 24,
-    "content": "Then Gideon built an altar there unto Jehovah, and called it Jehovah-shalom: unto this day it is yet in Ophrah of the Abiezrites."
+    "content": [
+      {
+        "text": "Then Gideon built an altar there unto Jehovah, and called it ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "Jehovah is peace", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Jehovah-shalom: unto this day it is yet in Ophrah of the Abiezrites."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 6,
     "verse": 25,
-    "content": "And it came to pass the same night, that Jehovah said unto him, Take thy father’s bullock, even the second bullock seven years old, and throw down the altar of Baal that thy father hath, and cut down the Asherah that is by it;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass the same night, that Jehovah said unto him, Take thy father’s bullock, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "and", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "even the second bullock seven years old, and throw down the altar of Baal that thy father hath, and cut down the Asherah that is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upon", "marks": ["i"] }]
+        }
+      },
+      "by it;"
+    ]
   },
   {
     "book": "JDG",
     "chapter": 6,
     "verse": 26,
-    "content": "and build an altar unto Jehovah thy God upon the top of this stronghold, in the orderly manner, and take the second bullock, and offer a burnt-offering with the wood of the Asherah which thou shalt cut down."
+    "content": [
+      {
+        "text": "and build an altar unto Jehovah thy God upon the top of this stronghold, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "with that pertaining to it", "marks": ["i"] }
+          ]
+        }
+      },
+      "in the orderly manner, and take the second bullock, and offer a burnt-offering with the wood of the Asherah which thou shalt cut down."
+    ]
   },
   {
     "book": "JDG",
@@ -1053,7 +1890,17 @@
     "book": "JDG",
     "chapter": 6,
     "verse": 28,
-    "content": "And when the men of the city arose early in the morning, behold, the altar of Baal was broken down, and the Asherah was cut down that was by it, and the second bullock was offered upon the altar that was built."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And when the men of the city arose early in the morning, behold, the altar of Baal was broken down, and the Asherah was cut down that was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upon", "marks": ["i"] }]
+        }
+      },
+      "by it, and the second bullock was offered upon the altar that was built."
+    ]
   },
   {
     "book": "JDG",
@@ -1065,31 +1912,92 @@
     "book": "JDG",
     "chapter": 6,
     "verse": 30,
-    "content": "Then the men of the city said unto Joash, Bring out thy son, that he may die, because he hath broken down the altar of Baal, and because he hath cut down the Asherah that was by it."
+    "content": [
+      {
+        "text": "Then the men of the city said unto Joash, Bring out thy son, that he may die, because he hath broken down the altar of Baal, and because he hath cut down the Asherah that was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upon", "marks": ["i"] }]
+        }
+      },
+      "by it."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 6,
     "verse": 31,
-    "content": "And Joash said unto all that stood against him, Will ye contend for Baal? Or will ye save him? he that will contend for him, let him be put to death whilst it is yet morning: if he be a god, let him contend for himself, because one hath broken down his altar."
+    "content": [
+      {
+        "text": "And Joash said unto all that stood against him, Will ye contend for Baal? or will ye save him? he that will contend for him, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "shall be put to death:", "marks": ["i"] },
+            " let be ",
+            { "text": "till morning; if etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "let him be put to death ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "before morning", "marks": ["i"] }]
+        }
+      },
+      "whilst ",
+      { "text": "it is yet", "marks": ["i"] },
+      " morning: if he be a god, let him contend for himself, because one hath broken down his altar."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 6,
     "verse": 32,
-    "content": "Therefore on that day he called him Jerubbaal, saying, Let Baal contend against him, because he hath broken down his altar."
+    "content": [
+      {
+        "text": "Therefore on that day he called him ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "Let Baal contend", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Jerubbaal, saying, Let Baal contend against him, because he hath broken down his altar."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 6,
     "verse": 33,
-    "content": "Then all the Midianites and the Amalekites and the children of the east assembled themselves together; and they passed over, and encamped in the valley of Jezreel."
+    "content": {
+      "paragraph": true,
+      "text": "Then all the Midianites and the Amalekites and the children of the east assembled themselves together; and they passed over, and encamped in the valley of Jezreel."
+    }
   },
   {
     "book": "JDG",
     "chapter": 6,
     "verse": 34,
-    "content": "But the Spirit of Jehovah came upon Gideon; and he blew a trumpet; and Abiezer was gathered together after him."
+    "content": [
+      {
+        "text": "But the Spirit of Jehovah ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "clothed itself with", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "came upon Gideon; and he blew a trumpet; and Abiezer was gathered together after him."
+    ]
   },
   {
     "book": "JDG",
@@ -1101,7 +2009,10 @@
     "book": "JDG",
     "chapter": 6,
     "verse": 36,
-    "content": "And Gideon said unto God, If thou wilt save Israel by my hand, as thou hast spoken,"
+    "content": {
+      "paragraph": true,
+      "text": "And Gideon said unto God, If thou wilt save Israel by my hand, as thou hast spoken,"
+    }
   },
   {
     "book": "JDG",
@@ -1131,28 +2042,68 @@
     "book": "JDG",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Then Jerubbaal, who is Gideon, and all the people that were with him, rose up early, and encamped beside the spring of Harod: and the camp of Midian was on the north side of them, by the hill of Moreh, in the valley."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Jerubbaal, who is Gideon, and all the people that were with him, rose up early, and encamped beside the spring of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "Trembling", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Judges 7:3", "content": "verse 3" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Harod: and the camp of Midian was on the north side of them, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "from the hill of Moreh", "marks": ["i"] },
+            " onwards ",
+            { "text": "in the valley", "marks": ["i"] }
+          ]
+        }
+      },
+      "by the hill of Moreh, in the valley."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 7,
     "verse": 2,
-    "content": "And Jehovah said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hand, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me."
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hand, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me."
+    }
   },
   {
     "book": "JDG",
     "chapter": 7,
     "verse": 3,
-    "content": "Now therefore proclaim in the ears of the people, saying, Whosoever is fearful and trembling, let him return and depart from mount Gilead. And there returned of the people twenty and two thousand; and there remained ten thousand."
+    "content": [
+      {
+        "text": "Now therefore proclaim in the ears of the people, saying, Whosoever is fearful and trembling, let him return and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "go round about", "marks": ["i"] }]
+        }
+      },
+      "depart from mount Gilead. And there returned of the people twenty and two thousand; and there remained ten thousand."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 7,
     "verse": 4,
-    "content": "And Jehovah said unto Gideon, The people are yet too many; bring them down unto the water, and I will try them for thee there: and it shall be, that of whom I say unto thee, This shall go with thee, the same shall go with thee; and of whomsoever I say unto thee, This shall not go with thee, the same shall not go."
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah said unto Gideon, The people are yet too many; bring them down unto the water, and I will try them for thee there: and it shall be, that of whom I say unto thee, This shall go with thee, the same shall go with thee; and of whomsoever I say unto thee, This shall not go with thee, the same shall not go."
+    }
   },
   {
     "book": "JDG",
@@ -1182,7 +2133,17 @@
     "book": "JDG",
     "chapter": 7,
     "verse": 9,
-    "content": "And it came to pass the same night, that Jehovah said unto him, Arise, get thee down into the camp; for I have delivered it into thy hand."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass the same night, that Jehovah said unto him, Arise, get thee down ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "against", "marks": ["i"] }]
+        }
+      },
+      "into the camp; for I have delivered it into thy hand."
+    ]
   },
   {
     "book": "JDG",
@@ -1194,7 +2155,16 @@
     "book": "JDG",
     "chapter": 7,
     "verse": 11,
-    "content": "and thou shalt hear what they say; and afterward shall thy hands be strengthened to go down into the camp. Then went he down with Purah his servant unto the outermost part of the armed men that were in the camp."
+    "content": [
+      {
+        "text": "and thou shalt hear what they say; and afterward shall thy hands be strengthened to go down ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "against", "marks": ["i"] }]
+        }
+      },
+      "into the camp. Then went he down with Purah his servant unto the outermost part of the armed men that were in the camp."
+    ]
   },
   {
     "book": "JDG",
@@ -1218,7 +2188,10 @@
     "book": "JDG",
     "chapter": 7,
     "verse": 15,
-    "content": "And it was so, when Gideon heard the telling of the dream, and the interpretation thereof, that he worshipped; and he returned into the camp of Israel, and said, Arise; for Jehovah hath delivered into your hand the host of Midian."
+    "content": {
+      "paragraph": true,
+      "text": "And it was so, when Gideon heard the telling of the dream, and the interpretation thereof, that he worshipped; and he returned into the camp of Israel, and said, Arise; for Jehovah hath delivered into your hand the host of Midian."
+    }
   },
   {
     "book": "JDG",
@@ -1242,25 +2215,60 @@
     "book": "JDG",
     "chapter": 7,
     "verse": 19,
-    "content": "So Gideon, and the hundred men that were with him, came unto the outermost part of the camp in the beginning of the middle watch, when they had but newly set the watch: and they blew the trumpets, and brake in pieces the pitchers that were in their hands."
+    "content": {
+      "paragraph": true,
+      "text": "So Gideon, and the hundred men that were with him, came unto the outermost part of the camp in the beginning of the middle watch, when they had but newly set the watch: and they blew the trumpets, and brake in pieces the pitchers that were in their hands."
+    }
   },
   {
     "book": "JDG",
     "chapter": 7,
     "verse": 20,
-    "content": "And the three companies blew the trumpets, and brake the pitchers, and held the torches in their left hands, and the trumpets in their right hands wherewith to blow; and they cried, The sword of Jehovah and of Gideon."
+    "content": [
+      {
+        "text": "And the three companies blew the trumpets, and brake the pitchers, and held the torches in their left hands, and the trumpets in their right hands wherewith to blow; and they cried, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "A sword for etc.", "marks": ["i"] }]
+        }
+      },
+      "The sword of Jehovah and of Gideon."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 7,
     "verse": 21,
-    "content": "And they stood every man in his place round about the camp; and all the host ran; and they shouted, and put them to flight."
+    "content": [
+      {
+        "text": "And they stood every man in his place round about the camp; and all the host ran; and they shouted, and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "fled", "marks": ["i"] }
+          ]
+        }
+      },
+      "put ",
+      { "text": "them", "marks": ["i"] },
+      " to flight."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 7,
     "verse": 22,
-    "content": "And they blew the three hundred trumpets, and Jehovah set every man’s sword against his fellow, and against all the host; and the host fled as far as Beth-shittah toward Zererah, as far as the border of Abel-meholah, by Tabbath."
+    "content": [
+      {
+        "text": "And they blew the three hundred trumpets, and Jehovah set every man’s sword against his fellow, and against all the host; and the host fled as far as Beth-shittah toward Zererah, as far as the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "lip", "marks": ["i"] }, "."]
+        }
+      },
+      "border of Abel-meholah, by Tabbath."
+    ]
   },
   {
     "book": "JDG",
@@ -1272,7 +2280,24 @@
     "book": "JDG",
     "chapter": 7,
     "verse": 24,
-    "content": "And Gideon sent messengers throughout all the hill-country of Ephraim, saying, Come down against Midian, and take before them the waters, as far as Beth-barah, even the Jordan. So all the men of Ephraim were gathered together, and took the waters as far as Beth-barah, even the Jordan."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Gideon sent messengers throughout all the hill-country of Ephraim, saying, Come down against Midian, and take before them the waters, as far as Beth-barah, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "and also", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "even the Jordan. So all the men of Ephraim were gathered together, and took the waters as far as Beth-barah, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "and also", "marks": ["i"] }]
+        }
+      },
+      "even the Jordan."
+    ]
   },
   {
     "book": "JDG",
@@ -1299,13 +2324,33 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 3,
-    "content": "God hath delivered into your hand the princes of Midian, Oreb and Zeeb: and what was I able to do in comparison with you? Then their anger was abated toward him, when he had said that."
+    "content": [
+      {
+        "text": "God hath delivered into your hand the princes of Midian, Oreb and Zeeb: and what was I able to do in comparison with you? Then their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "spirit", "marks": ["i"] }, "."]
+        }
+      },
+      "anger was abated toward him, when he had said that."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 8,
     "verse": 4,
-    "content": "And Gideon came to the Jordan, and passed over, he, and the three hundred men that were with him, faint, yet pursuing."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Gideon came to the Jordan, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to pass", "marks": ["i"] }]
+        }
+      },
+      { "text": "and", "marks": ["i"] },
+      " passed over, he, and the three hundred men that were with him, faint, yet pursuing."
+    ]
   },
   {
     "book": "JDG",
@@ -1323,7 +2368,16 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 7,
-    "content": "And Gideon said, Therefore when Jehovah hath delivered Zebah and Zalmunna into my hand, then I will tear your flesh with the thorns of the wilderness and with briers."
+    "content": [
+      {
+        "text": "And Gideon said, Therefore when Jehovah hath delivered Zebah and Zalmunna into my hand, then I will ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "thresh", "marks": ["i"] }, "."]
+        }
+      },
+      "tear your flesh with the thorns of the wilderness and with briers."
+    ]
   },
   {
     "book": "JDG",
@@ -1341,7 +2395,10 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 10,
-    "content": "Now Zebah and Zalmunna were in Karkor, and their hosts with them, about fifteen thousand men, all that were left of all the host of the children of the east; for there fell a hundred and twenty thousand men that drew sword."
+    "content": {
+      "paragraph": true,
+      "text": "Now Zebah and Zalmunna were in Karkor, and their hosts with them, about fifteen thousand men, all that were left of all the host of the children of the east; for there fell a hundred and twenty thousand men that drew sword."
+    }
   },
   {
     "book": "JDG",
@@ -1353,19 +2410,40 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 12,
-    "content": "And Zebah and Zalmunna fled; and he pursued after them; and he took the two kings of Midian, Zebah and Zalmunna, and discomfited all the host."
+    "content": [
+      {
+        "text": "And Zebah and Zalmunna fled; and he pursued after them; and he took the two kings of Midian, Zebah and Zalmunna, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "terrified", "marks": ["i"] }, "."]
+        }
+      },
+      "discomfited all the host."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 8,
     "verse": 13,
-    "content": "And Gideon the son of Joash returned from the battle from the ascent of Heres."
+    "content": {
+      "paragraph": true,
+      "text": "And Gideon the son of Joash returned from the battle from the ascent of Heres."
+    }
   },
   {
     "book": "JDG",
     "chapter": 8,
     "verse": 14,
-    "content": "And he caught a young man of the men of Succoth, and inquired of him: and he described for him the princes of Succoth, and the elders thereof, seventy and seven men."
+    "content": [
+      {
+        "text": "And he caught a young man of the men of Succoth, and inquired of him: and he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "wrote down", "marks": ["i"] }]
+        }
+      },
+      "described for him the princes of Succoth, and the elders thereof, seventy and seven men."
+    ]
   },
   {
     "book": "JDG",
@@ -1389,7 +2467,10 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 18,
-    "content": "Then said he unto Zebah and Zalmunna, What manner of men were they whom ye slew at Tabor? And they answered, As thou art, so were they; each one resembled the children of a king."
+    "content": {
+      "paragraph": true,
+      "text": "Then said he unto Zebah and Zalmunna, What manner of men were they whom ye slew at Tabor? And they answered, As thou art, so were they; each one resembled the children of a king."
+    }
   },
   {
     "book": "JDG",
@@ -1413,7 +2494,10 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 22,
-    "content": "Then the men of Israel said unto Gideon, Rule thou over us, both thou, and thy son, and thy son’s son also; for thou hast saved us out of the hand of Midian."
+    "content": {
+      "paragraph": true,
+      "text": "Then the men of Israel said unto Gideon, Rule thou over us, both thou, and thy son, and thy son’s son also; for thou hast saved us out of the hand of Midian."
+    }
   },
   {
     "book": "JDG",
@@ -1425,7 +2509,16 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 24,
-    "content": "And Gideon said unto them, I would make a request of you, that ye would give me every man the ear-rings of his spoil. (For they had golden ear-rings, because they were Ishmaelites.)"
+    "content": [
+      {
+        "text": "And Gideon said unto them, I would make a request of you, that ye would give me every man the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "nose-rings", "marks": ["i"] }]
+        }
+      },
+      "ear-rings of his spoil. (For they had golden ear-rings, because they were Ishmaelites.)"
+    ]
   },
   {
     "book": "JDG",
@@ -1437,7 +2530,11 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 26,
-    "content": "And the weight of the golden ear-rings that he requested was a thousand and seven hundred shekels of gold, besides the crescents, and the pendants, and the purple raiment that was on the kings of Midian, and besides the chains that were about their camels’ necks."
+    "content": [
+      "And the weight of the golden ear-rings that he requested was a thousand and seven hundred ",
+      { "text": "shekels", "marks": ["i"] },
+      " of gold; besides the crescents, and the pendants, and the purple raiment that was on the kings of Midian, and besides the chains that were about their camels’ necks."
+    ]
   },
   {
     "book": "JDG",
@@ -1455,7 +2552,10 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 29,
-    "content": "And Jerubbaal the son of Joash went and dwelt in his own house."
+    "content": {
+      "paragraph": true,
+      "text": "And Jerubbaal the son of Joash went and dwelt in his own house."
+    }
   },
   {
     "book": "JDG",
@@ -1467,7 +2567,16 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 31,
-    "content": "And his concubine that was in Shechem, she also bare him a son, and he called his name Abimelech."
+    "content": [
+      {
+        "text": "And his concubine that was in Shechem, she also bare him a son, and he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "set", "marks": ["i"] }, "."]
+        }
+      },
+      "called his name Abimelech."
+    ]
   },
   {
     "book": "JDG",
@@ -1479,7 +2588,10 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 33,
-    "content": "And it came to pass, as soon as Gideon was dead, that the children of Israel turned again, and played the harlot after the Baalim, and made Baal-berith their god."
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass, as soon as Gideon was dead, that the children of Israel turned again, and played the harlot after the Baalim, and made Baal-berith their god."
+    }
   },
   {
     "book": "JDG",
@@ -1491,7 +2603,11 @@
     "book": "JDG",
     "chapter": 8,
     "verse": 35,
-    "content": "neither showed they kindness to the house of Jerubbaal, who is Gideon, according to all the goodness which he had showed unto Israel."
+    "content": [
+      "neither showed they kindness to the house of Jerubbaal, ",
+      { "text": "who is", "marks": ["i"] },
+      " Gideon, according to all the goodness which he had showed unto Israel."
+    ]
   },
   {
     "book": "JDG",
@@ -1518,7 +2634,11 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 4,
-    "content": "And they gave him threescore and ten pieces of silver out of the house of Baal-berith, wherewith Abimelech hired vain and light fellows, who followed him."
+    "content": [
+      "And they gave him threescore and ten ",
+      { "text": "pieces", "marks": ["i"] },
+      " of silver out of the house of Baal-berith, wherewith Abimelech hired vain and light fellows, who followed him."
+    ]
   },
   {
     "book": "JDG",
@@ -1530,13 +2650,39 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 6,
-    "content": "And all the men of Shechem assembled themselves together, and all the house of Millo, and went and made Abimelech king, by the oak of the pillar that was in Shechem."
+    "content": [
+      {
+        "text": "And all the men of Shechem assembled themselves together, and all ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Beth-millo", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "the house of Millo, and went and made Abimelech king, by the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "terebinth", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "oak of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "garrison", "marks": ["i"] }]
+        }
+      },
+      "pillar that was in Shechem."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 9,
     "verse": 7,
-    "content": "And when they told it to Jotham, he went and stood on the top of mount Gerizim, and lifted up his voice, and cried, and said unto them, Hearken unto me, ye men of Shechem, that God may hearken unto you."
+    "content": {
+      "paragraph": true,
+      "text": "And when they told it to Jotham, he went and stood on the top of mount Gerizim, and lifted up his voice, and cried, and said unto them, Hearken unto me, ye men of Shechem, that God may hearken unto you."
+    }
   },
   {
     "book": "JDG",
@@ -1548,7 +2694,19 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 9,
-    "content": "But the olive-tree said unto them, Should I leave my fatness, wherewith by me they honor God and man, and go to wave to and fro over the trees?"
+    "content": [
+      {
+        "text": "But the olive-tree said unto them, Should I leave my fatness, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "which God and man honor in me", "marks": ["i"] }
+          ]
+        }
+      },
+      "wherewith by me they honor God and man, and go to wave to and fro over the trees?"
+    ]
   },
   {
     "book": "JDG",
@@ -1578,13 +2736,38 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 14,
-    "content": "Then said all the trees unto the bramble, Come thou, and reign over us."
+    "content": [
+      {
+        "text": "Then said all the trees unto the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thorn", "marks": ["i"] }]
+        }
+      },
+      "bramble, Come thou, and reign over us."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 9,
     "verse": 15,
-    "content": "And the bramble said unto the trees, If in truth ye anoint me king over you, then come and take refuge in my shade; and if not, let fire come out of the bramble, and devour the cedars of Lebanon."
+    "content": [
+      {
+        "text": "And the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thorn", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "bramble said unto the trees, If in truth ye anoint me king over you, then come and take refuge in my shade; and if not, let fire come out of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thorn", "marks": ["i"] }]
+        }
+      },
+      "bramble, and devour the cedars of Lebanon."
+    ]
   },
   {
     "book": "JDG",
@@ -1596,7 +2779,20 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 17,
-    "content": "(for my father fought for you, and adventured his life, and delivered you out of the hand of Midian:"
+    "content": [
+      {
+        "text": "(for my father fought for you, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "cast his life before him", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "adventured his life, and delivered you out of the hand of Midian:"
+    ]
   },
   {
     "book": "JDG",
@@ -1626,7 +2822,10 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 22,
-    "content": "And Abimelech was prince over Israel three years."
+    "content": {
+      "paragraph": true,
+      "text": "And Abimelech was prince over Israel three years."
+    }
   },
   {
     "book": "JDG",
@@ -1650,13 +2849,30 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 26,
-    "content": "And Gaal the son of Ebed came with his brethren, and went over to Shechem; and the men of Shechem put their trust in him."
+    "content": {
+      "paragraph": true,
+      "text": "And Gaal the son of Ebed came with his brethren, and went over to Shechem; and the men of Shechem put their trust in him."
+    }
   },
   {
     "book": "JDG",
     "chapter": 9,
     "verse": 27,
-    "content": "And they went out into the field, and gathered their vineyards, and trod the grapes, and held festival, and went into the house of their god, and did eat and drink, and cursed Abimelech."
+    "content": [
+      "And they went out into the field, and gathered their vineyards, and trod ",
+      { "text": "the grapes", "marks": ["i"] },
+      {
+        "text": ", and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "offered a praise-offering", "marks": ["i"] }
+          ]
+        }
+      },
+      "held festival, and went into the house of their god, and did eat and drink, and cursed Abimelech."
+    ]
   },
   {
     "book": "JDG",
@@ -1668,19 +2884,52 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 29,
-    "content": "And would that this people were under my hand! then would I remove Abimelech. And he said to Abimelech, Increase thine army, and come out."
+    "content": [
+      {
+        "text": "And would that this people were under my hand! then would I remove Abimelech. And he said ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "of", "marks": ["i"] }]
+        }
+      },
+      "to Abimelech, Increase thine army, and come out."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 9,
     "verse": 30,
-    "content": "And when Zebul the ruler of the city heard the words of Gaal the son of Ebed, his anger was kindled."
+    "content": {
+      "paragraph": true,
+      "text": "And when Zebul the ruler of the city heard the words of Gaal the son of Ebed, his anger was kindled."
+    }
   },
   {
     "book": "JDG",
     "chapter": 9,
     "verse": 31,
-    "content": "And he sent messengers unto Abimelech craftily, saying, Behold, Gaal the son of Ebed and his brethren are come to Shechem; and, behold, they constrain the city to take part against thee."
+    "content": [
+      {
+        "text": "And he sent messengers unto Abimelech ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in Tormah", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "craftily, saying, Behold, Gaal the son of Ebed and his brethren are come to Shechem; and, behold, they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "oppress the city on thy account", "marks": ["i"] }
+          ]
+        }
+      },
+      "constrain the city ",
+      { "text": "to take part", "marks": ["i"] },
+      " against thee."
+    ]
   },
   {
     "book": "JDG",
@@ -1692,13 +2941,29 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 33,
-    "content": "and it shall be, that in the morning, as soon as the sun is up, thou shalt rise early, and rush upon the city; and, behold, when he and the people that are with him come out against thee, then mayest thou do to them as thou shalt find occasion."
+    "content": [
+      {
+        "text": "and it shall be, that in the morning, as soon as the sun is up, thou shalt rise early, and rush upon the city; and, behold, when he and the people that are with him come out against thee, then mayest thou do to them ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "as thy hand shall find", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "as thou shalt find occasion."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 9,
     "verse": 34,
-    "content": "And Abimelech rose up, and all the people that were with him, by night, and they laid wait against Shechem in four companies."
+    "content": {
+      "paragraph": true,
+      "text": "And Abimelech rose up, and all the people that were with him, by night, and they laid wait against Shechem in four companies."
+    }
   },
   {
     "book": "JDG",
@@ -1716,7 +2981,29 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 37,
-    "content": "And Gaal spake again and said, See, there come people down by the middle of the land, and one company cometh by the way of the oak of Meonenim."
+    "content": [
+      {
+        "text": "And Gaal spake again and said, See, there come people down by the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "navel", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "middle of the land, and one company cometh by the way of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "the augurs’ oak", "marks": ["i"] },
+            " (or ",
+            { "text": "terebinth", "marks": ["i"] },
+            ")."
+          ]
+        }
+      },
+      "the oak of Meonenim."
+    ]
   },
   {
     "book": "JDG",
@@ -1740,7 +3027,10 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 41,
-    "content": "And Abimelech dwelt at Arumah: and Zebul drove out Gaal and his brethren, that they should not dwell in Shechem."
+    "content": {
+      "paragraph": true,
+      "text": "And Abimelech dwelt at Arumah: and Zebul drove out Gaal and his brethren, that they should not dwell in Shechem."
+    }
   },
   {
     "book": "JDG",
@@ -1752,7 +3042,7 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 43,
-    "content": "And he took the people, and divided them into three companies, and laid wait in the field; and he looked, and, behold, the people came forth out of the city; And he rose up against them, and smote them."
+    "content": "And he took the people, and divided them into three companies, and laid wait in the field; and he looked, and, behold, the people came forth out of the city; and he rose up against them, and smote them."
   },
   {
     "book": "JDG",
@@ -1770,7 +3060,10 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 46,
-    "content": "And when all the men of the tower of Shechem heard thereof, they entered into the stronghold of the house of Elberith."
+    "content": {
+      "paragraph": true,
+      "text": "And when all the men of the tower of Shechem heard thereof, they entered into the stronghold of the house of Elberith."
+    }
   },
   {
     "book": "JDG",
@@ -1782,7 +3075,16 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 48,
-    "content": "And Abimelech gat him up to mount Zalmon, he and all the people that were with him; and Abimelech took an axe in his hand, and cut down a bough from the trees, and took it up, and laid it on his shoulder: and he said unto the people that were with him, What ye have seen me do, make haste, and do as I have done."
+    "content": [
+      {
+        "text": "And Abimelech gat him up to mount Zalmon, he and all the people that were with him; and Abimelech took ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "the axes", "marks": ["i"] }, "."]
+        }
+      },
+      "an axe in his hand, and cut down a bough from the trees, and took it up, and laid it on his shoulder: and he said unto the people that were with him, What ye have seen me do, make haste, and do as I have done."
+    ]
   },
   {
     "book": "JDG",
@@ -1794,7 +3096,10 @@
     "book": "JDG",
     "chapter": 9,
     "verse": 50,
-    "content": "Then went Abimelech to Thebez, and encamped against Thebez, and took it."
+    "content": {
+      "paragraph": true,
+      "text": "Then went Abimelech to Thebez, and encamped against Thebez, and took it."
+    }
   },
   {
     "book": "JDG",
@@ -1844,7 +3149,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And after Abimelech there arose to save Israel Tola the son of Puah, the son of Dodo, a man of Issachar; and he dwelt in Shamir in the hill- country of Ephraim."
+      "text": "And after Abimelech there arose to save Israel Tola the son of Puah, the son of Dodo, a man of Issachar; and he dwelt in Shamir in the hill-country of Ephraim."
     }
   },
   {
@@ -1857,13 +3162,29 @@
     "book": "JDG",
     "chapter": 10,
     "verse": 3,
-    "content": "And after him arose Jair, the Gileadite; and he judged Israel twenty and two years."
+    "content": {
+      "paragraph": true,
+      "text": "And after him arose Jair, the Gileadite; and he judged Israel twenty and two years."
+    }
   },
   {
     "book": "JDG",
     "chapter": 10,
     "verse": 4,
-    "content": "And he had thirty sons that rode on thirty ass colts, and they had thirty cities, which are called Havvoth-jair unto this day, which are in the land of Gilead."
+    "content": [
+      {
+        "text": "And he had thirty sons that rode on thirty ass colts, and they had thirty cities, which are called ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "The towns of Jair", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Havvoth-jair unto this day, which are in the land of Gilead."
+    ]
   },
   {
     "book": "JDG",
@@ -1875,7 +3196,17 @@
     "book": "JDG",
     "chapter": 10,
     "verse": 6,
-    "content": "And the children of Israel again did that which was evil in the sight of Jehovah, and served the Baalim, and the Ashtaroth, and the gods of Syria, and the gods of Sidon, and the gods of Moab, and the gods of the children of Ammon, and the gods of the Philistines; and they forsook Jehovah, and served him not."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the children of Israel again did that which was evil in the sight of Jehovah, and served the Baalim, and the Ashtaroth, and the gods of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Aram", "marks": ["i"] }, "."]
+        }
+      },
+      "Syria, and the gods of Sidon, and the gods of Moab, and the gods of the children of Ammon, and the gods of the Philistines; and they forsook Jehovah, and served him not."
+    ]
   },
   {
     "book": "JDG",
@@ -1887,7 +3218,11 @@
     "book": "JDG",
     "chapter": 10,
     "verse": 8,
-    "content": "And they vexed and oppressed the children of Israel that year: eighteen years oppressed they all the children of Israel that were beyond the Jordan in the land of the Amorites, which is in Gilead."
+    "content": [
+      "And they vexed and oppressed the children of Israel that year: eighteen years ",
+      { "text": "oppressed they", "marks": ["i"] },
+      " all the children of Israel that were beyond the Jordan in the land of the Amorites, which is in Gilead."
+    ]
   },
   {
     "book": "JDG",
@@ -1899,13 +3234,22 @@
     "book": "JDG",
     "chapter": 10,
     "verse": 10,
-    "content": "And the children of Israel cried unto Jehovah, saying, We have sinned against thee, even because we have forsaken our God, and have served the Baalim."
+    "content": {
+      "paragraph": true,
+      "text": "And the children of Israel cried unto Jehovah, saying, We have sinned against thee, even because we have forsaken our God, and have served the Baalim."
+    }
   },
   {
     "book": "JDG",
     "chapter": 10,
     "verse": 11,
-    "content": "And Jehovah said unto the children of Israel, Did not I save you from the Egyptians, and from the Amorites, from the children of Ammon, and from the Philistines?"
+    "content": [
+      "And Jehovah said unto the children of Israel, ",
+      { "text": "Did", "marks": ["i"] },
+      " not ",
+      { "text": "I save you", "marks": ["i"] },
+      " from the Egyptians, and from the Amorites, from the children of Ammon, and from the Philistines?"
+    ]
   },
   {
     "book": "JDG",
@@ -1941,7 +3285,10 @@
     "book": "JDG",
     "chapter": 10,
     "verse": 17,
-    "content": "Then the children of Ammon were gathered together, and encamped in Gilead. And the children of Israel assembled themselves together, and encamped in Mizpah."
+    "content": {
+      "paragraph": true,
+      "text": "Then the children of Ammon were gathered together, and encamped in Gilead. And the children of Israel assembled themselves together, and encamped in Mizpah."
+    }
   },
   {
     "book": "JDG",
@@ -1962,7 +3309,7 @@
     "book": "JDG",
     "chapter": 11,
     "verse": 2,
-    "content": "And Gilead’s wife bare him sons; and when his wife’s sons grew up, they drove out Jepthah, and said unto him, Thou shalt not inherit in our father’s house; for thou art the son of another woman."
+    "content": "And Gilead’s wife bare him sons; and when his wife’s sons grew up, they drove out Jephthah, and said unto him, Thou shalt not inherit in our father’s house; for thou art the son of another woman."
   },
   {
     "book": "JDG",
@@ -1974,7 +3321,10 @@
     "book": "JDG",
     "chapter": 11,
     "verse": 4,
-    "content": "And it came to pass after a while, that the children of Ammon made war against Israel."
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass after a while, that the children of Ammon made war against Israel."
+    }
   },
   {
     "book": "JDG",
@@ -2010,7 +3360,16 @@
     "book": "JDG",
     "chapter": 11,
     "verse": 10,
-    "content": "And the elders of Gilead said unto Jephthah, Jehovah shall be witness between us; surely according to thy word so will we do."
+    "content": [
+      {
+        "text": "And the elders of Gilead said unto Jephthah, Jehovah shall be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "hearer", "marks": ["i"] }, "."]
+        }
+      },
+      "witness between us; surely according to thy word so will we do."
+    ]
   },
   {
     "book": "JDG",
@@ -2022,13 +3381,20 @@
     "book": "JDG",
     "chapter": 11,
     "verse": 12,
-    "content": "And Jephthah sent messengers unto the king of the children of Ammon, saying, What hast thou to do with me, that thou art come unto me to fight against my land?"
+    "content": {
+      "paragraph": true,
+      "text": "And Jephthah sent messengers unto the king of the children of Ammon, saying, What hast thou to do with me, that thou art come unto me to fight against my land?"
+    }
   },
   {
     "book": "JDG",
     "chapter": 11,
     "verse": 13,
-    "content": "And the king of the children of Ammon answered unto the messengers of Jephthah, Because Israel took away my land, when he came up out of Egypt, from the Arnon even unto the Jabbok, and unto the Jordan: now therefore restore those lands again peaceably."
+    "content": [
+      "And the king of the children of Ammon answered unto the messengers of Jephthah, Because Israel took away my land, when he came up out of Egypt, from the Arnon even unto the Jabbok, and unto the Jordan: now therefore restore those ",
+      { "text": "lands", "marks": ["i"] },
+      " again peaceably."
+    ]
   },
   {
     "book": "JDG",
@@ -2040,7 +3406,7 @@
     "book": "JDG",
     "chapter": 11,
     "verse": 15,
-    "content": "and he said unto him, Thus saith Jephthah: Israel took not away the land of Moab, nor the land of the children of Ammon,"
+    "content": "and he said unto him, Thus saith Jephthah: Israel took not away the land of Moab, nor the land of the children of Ammon;"
   },
   {
     "book": "JDG",
@@ -2106,7 +3472,23 @@
     "book": "JDG",
     "chapter": 11,
     "verse": 26,
-    "content": "While Israel dwelt in Heshbon and its towns, and in Aroer and its towns, and in all the cities that are along by the side of the Arnon, three hundred years; wherefore did ye not recover them within that time?"
+    "content": [
+      {
+        "text": "While Israel dwelt in Heshbon and its ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "towns, and in Aroer and its ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
+        }
+      },
+      "towns, and in all the cities that are along by the side of the Arnon, three hundred years; wherefore did ye not recover them within that time?"
+    ]
   },
   {
     "book": "JDG",
@@ -2124,7 +3506,10 @@
     "book": "JDG",
     "chapter": 11,
     "verse": 29,
-    "content": "Then the Spirit of Jehovah came upon Jephthah, and he passed over Gilead and Manasseh, and passed over Mizpeh of Gilead, and from Mizpeh of Gilead he passed over unto the children of Ammon."
+    "content": {
+      "paragraph": true,
+      "text": "Then the Spirit of Jehovah came upon Jephthah, and he passed over Gilead and Manasseh, and passed over Mizpeh of Gilead, and from Mizpeh of Gilead he passed over unto the children of Ammon."
+    }
   },
   {
     "book": "JDG",
@@ -2136,7 +3521,16 @@
     "book": "JDG",
     "chapter": 11,
     "verse": 31,
-    "content": "then it shall be, that whatsoever cometh forth from the doors of my house to meet me, when I return in peace from the children of Ammon, it shall be Jehovah’s, and I will offer it up for a burnt-offering."
+    "content": [
+      {
+        "text": "then it shall be, that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "whosoever", "marks": ["i"] }]
+        }
+      },
+      "whatsoever cometh forth from the doors of my house to meet me, when I return in peace from the children of Ammon, it shall be Jehovah’s, and I will offer it up for a burnt-offering."
+    ]
   },
   {
     "book": "JDG",
@@ -2148,13 +3542,29 @@
     "book": "JDG",
     "chapter": 11,
     "verse": 33,
-    "content": "And he smote them from Aroer until thou come to Minnith, even twenty cities, and unto Abelcheramim, with a very great slaughter. So the children of Ammon were subdued before the children of Israel."
+    "content": [
+      {
+        "text": "And he smote them from Aroer until thou come to Minnith, even twenty cities, and unto ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "The meadow of vineyards", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Abel-cheramim, with a very great slaughter. So the children of Ammon were subdued before the children of Israel."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 11,
     "verse": 34,
-    "content": "And Jephthah came to Mizpah unto his house; and, behold, his daughter came out to meet him with timbrels and with dances: and she was his only child; besides her he had neither son nor daughter."
+    "content": {
+      "paragraph": true,
+      "text": "And Jephthah came to Mizpah unto his house; and, behold, his daughter came out to meet him with timbrels and with dances: and she was his only child; besides her he had neither son nor daughter."
+    }
   },
   {
     "book": "JDG",
@@ -2184,22 +3594,47 @@
     "book": "JDG",
     "chapter": 11,
     "verse": 39,
-    "content": "And it came to pass at the end of two months, that she returned unto her father, who did with her according to his vow which he had vowed: and she knew not man. And it was a custom in Israel,"
+    "content": [
+      {
+        "text": "And it came to pass at the end of two months, that she returned unto her father, who did with her according to his vow which he had vowed: and she knew not man. And it was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "an ordinance", "marks": ["i"] }]
+        }
+      },
+      "a custom in Israel,"
+    ]
   },
   {
     "book": "JDG",
     "chapter": 11,
     "verse": 40,
-    "content": "that the daughters of Israel went yearly to celebrate the daughter of Jephthah the Gileadite four days in a year."
+    "content": [
+      {
+        "text": "that the daughters of Israel went yearly to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "lament", "marks": ["i"] }]
+        }
+      },
+      "celebrate the daughter of Jephthah the Gileadite four days in a year."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 12,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And the men of Ephraim were gathered together, and passed northward; and they said unto Jephthah, Wherefore passedst thou over to fight against the children of Ammon, and didst not call us to go with thee? we will burn thy house upon thee with fire."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the men of Ephraim were gathered together, and passed ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to Zaphon", "marks": ["i"] }]
+        }
+      },
+      "northward; and they said unto Jephthah, Wherefore passedst thou over to fight against the children of Ammon, and didst not call us to go with thee? we will burn thy house upon thee with fire."
+    ]
   },
   {
     "book": "JDG",
@@ -2217,13 +3652,28 @@
     "book": "JDG",
     "chapter": 12,
     "verse": 4,
-    "content": "Then Jephthah gathered together all the men of Gilead, and fought with Ephraim; and the men of Gilead smote Ephraim, because they said, Ye are fugitives of Ephraim, ye Gileadites, in the midst of Ephraim, and in the midst of Manasseh."
+    "content": [
+      "Then Jephthah gathered together all the men of Gilead, and fought with Ephraim; and the men of Gilead smote Ephraim, because they said, Ye are fugitives of Ephraim, ye Gileadites, in the midst of Ephraim, ",
+      { "text": "and", "marks": ["i"] },
+      " in the midst of Manasseh."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 12,
     "verse": 5,
-    "content": "And the Gileadites took the fords of the Jordan against the Ephraimites. And it was so, that, when any of the fugitives of Ephraim said, Let me go over, the men of Gilead said unto him, Art thou an Ephraimite? If he said, Nay;"
+    "content": [
+      {
+        "text": "And the Gileadites took the fords of the Jordan ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "toward Ephraim", "marks": ["i"] }]
+        }
+      },
+      "against the Ephraimites. And it was so, that, when ",
+      { "text": "any of", "marks": ["i"] },
+      " the fugitives of Ephraim said, Let me go over, the men of Gilead said unto him, Art thou an Ephraimite? If he said, Nay;"
+    ]
   },
   {
     "book": "JDG",
@@ -2235,13 +3685,23 @@
     "book": "JDG",
     "chapter": 12,
     "verse": 7,
-    "content": "And Jephthah judged Israel six years. Then died Jephthah the Gileadite, and was buried in one of the cities of Gilead."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Jephthah judged Israel six years. Then died Jephthah the Gileadite, and was buried in "
+      },
+      { "text": "one of", "marks": ["i"] },
+      " the cities of Gilead."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 12,
     "verse": 8,
-    "content": "And after him Ibzan of Bethle-hem judged Israel."
+    "content": {
+      "paragraph": true,
+      "text": "And after him Ibzan of Beth-lehem judged Israel."
+    }
   },
   {
     "book": "JDG",
@@ -2253,13 +3713,16 @@
     "book": "JDG",
     "chapter": 12,
     "verse": 10,
-    "content": "And Ibzan died, and was buried at Bethle-hem."
+    "content": "And Ibzan died, and was buried at Beth-lehem."
   },
   {
     "book": "JDG",
     "chapter": 12,
     "verse": 11,
-    "content": "And after him Elon the Zebulunite judged Israel; and he judged Israel ten years."
+    "content": {
+      "paragraph": true,
+      "text": "And after him Elon the Zebulunite judged Israel; and he judged Israel ten years."
+    }
   },
   {
     "book": "JDG",
@@ -2271,7 +3734,10 @@
     "book": "JDG",
     "chapter": 12,
     "verse": 13,
-    "content": "And after him Abdon the son of Hillel the Pirathonite judged Israel."
+    "content": {
+      "paragraph": true,
+      "text": "And after him Abdon the son of Hillel the Pirathonite judged Israel."
+    }
   },
   {
     "book": "JDG",
@@ -2298,7 +3764,10 @@
     "book": "JDG",
     "chapter": 13,
     "verse": 2,
-    "content": "And there was a certain man of Zorah, of the family of the Danites, whose name was Manoah; and his wife was barren, and bare not."
+    "content": {
+      "paragraph": true,
+      "text": "And there was a certain man of Zorah, of the family of the Danites, whose name was Manoah; and his wife was barren, and bare not."
+    }
   },
   {
     "book": "JDG",
@@ -2334,7 +3803,10 @@
     "book": "JDG",
     "chapter": 13,
     "verse": 8,
-    "content": "Then Manoah entreated Jehovah, and said, Oh, Lord, I pray thee, let the man of God whom thou didst send come again unto us, and teach us what we shall do unto the child that shall be born."
+    "content": {
+      "paragraph": true,
+      "text": "Then Manoah entreated Jehovah, and said, Oh, Lord, I pray thee, let the man of God whom thou didst send come again unto us, and teach us what we shall do unto the child that shall be born."
+    }
   },
   {
     "book": "JDG",
@@ -2346,7 +3818,11 @@
     "book": "JDG",
     "chapter": 13,
     "verse": 10,
-    "content": "And the woman made haste, and ran, and told her husband, and said unto him, Behold, the man hath appeared unto me, that came unto me the other day."
+    "content": [
+      "And the woman made haste, and ran, and told her husband, and said unto him, Behold, the man hath appeared unto me, that came unto me the ",
+      { "text": "other", "marks": ["i"] },
+      " day."
+    ]
   },
   {
     "book": "JDG",
@@ -2358,7 +3834,24 @@
     "book": "JDG",
     "chapter": 13,
     "verse": 12,
-    "content": "And Manoah said, Now let thy words come to pass: what shall be the ordering of the child, and how shall we do unto him?"
+    "content": [
+      {
+        "text": "And Manoah said, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Now when thy words come to pass, what etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "Now let thy words come to pass: what shall be the ordering of the child, and ",
+      { "text": "how", "marks": ["i"] },
+      " shall we do unto him?"
+    ]
   },
   {
     "book": "JDG",
@@ -2370,13 +3863,25 @@
     "book": "JDG",
     "chapter": 13,
     "verse": 14,
-    "content": "She may not eat of anything that cometh of the vine, neither let her drink wine or strong drink, nor eat any unclean thing; all that I commanded her let her observe."
+    "content": [
+      {
+        "text": "She may not eat of anything that cometh of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "grape-vine", "marks": ["i"] }]
+        }
+      },
+      "vine, neither let her drink wine or strong drink, nor eat any unclean thing; all that I commanded her let her observe."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 13,
     "verse": 15,
-    "content": "And Manoah said unto the angel of Jehovah, I pray thee, let us detain thee, that we may make ready a kid for thee."
+    "content": {
+      "paragraph": true,
+      "text": "And Manoah said unto the angel of Jehovah, I pray thee, let us detain thee, that we may make ready a kid for thee."
+    }
   },
   {
     "book": "JDG",
@@ -2394,13 +3899,26 @@
     "book": "JDG",
     "chapter": 13,
     "verse": 18,
-    "content": "And the angel of Jehovah said unto him, Wherefore askest thou after my name, seeing it is wonderful?"
+    "content": [
+      {
+        "text": "And the angel of Jehovah said unto him, Wherefore askest thou after my name, seeing it is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "secret", "marks": ["i"] }]
+        }
+      },
+      "wonderful?"
+    ]
   },
   {
     "book": "JDG",
     "chapter": 13,
     "verse": 19,
-    "content": "So Manoah took the kid with the meal-offering, and offered it upon the rock unto Jehovah: and the angel did wondrously, and Manoah and his wife looked on."
+    "content": [
+      "So Manoah took the kid with the meal-offering, and offered it upon the rock unto Jehovah: and ",
+      { "text": "the angel", "marks": ["i"] },
+      " did wondrously, and Manoah and his wife looked on."
+    ]
   },
   {
     "book": "JDG",
@@ -2412,7 +3930,10 @@
     "book": "JDG",
     "chapter": 13,
     "verse": 21,
-    "content": "But the angel of Jehovah did no more appear to Manoah or to his wife. Then Manoah knew that he was the angel of Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "But the angel of Jehovah did no more appear to Manoah or to his wife. Then Manoah knew that he was the angel of Jehovah."
+    }
   },
   {
     "book": "JDG",
@@ -2430,13 +3951,35 @@
     "book": "JDG",
     "chapter": 13,
     "verse": 24,
-    "content": "And the woman bare a son, and called his name Samson: and the child grew, and Jehovah blessed him."
+    "content": [
+      {
+        "text": "And the woman bare a son, and called his name ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Shimshon", "marks": ["i"] }, "."]
+        }
+      },
+      "Samson: and the child grew, and Jehovah blessed him."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 13,
     "verse": 25,
-    "content": "And the Spirit of Jehovah began to move him in Mahaneh-dan, between Zorah and Eshtaol."
+    "content": [
+      {
+        "text": "And the Spirit of Jehovah began to move him in ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "The camp of Dan", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Mahaneh-dan, between Zorah and Eshtaol."
+    ]
   },
   {
     "book": "JDG",
@@ -2469,7 +4012,10 @@
     "book": "JDG",
     "chapter": 14,
     "verse": 5,
-    "content": "Then went Samson down, and his father and his mother, to Timnah, and came to the vineyards of Timnah: and, behold, a young lion roared against him."
+    "content": {
+      "paragraph": true,
+      "text": "Then went Samson down, and his father and his mother, to Timnah, and came to the vineyards of Timnah: and, behold, a young lion roared against him."
+    }
   },
   {
     "book": "JDG",
@@ -2499,7 +4045,10 @@
     "book": "JDG",
     "chapter": 14,
     "verse": 10,
-    "content": "And his father went down unto the woman: and Samson made there a feast; for so used the young men to do."
+    "content": {
+      "paragraph": true,
+      "text": "And his father went down unto the woman: and Samson made there a feast; for so used the young men to do."
+    }
   },
   {
     "book": "JDG",
@@ -2523,13 +4072,36 @@
     "book": "JDG",
     "chapter": 14,
     "verse": 14,
-    "content": "And he said unto them, Out of the eater came forth food, And out of the strong came forth sweetness. And they could not in three days declare the riddle."
+    "content": [
+      { "text": "And he said unto them,", "break": true },
+      { "text": "Out of the eater came forth food,", "break": true },
+      { "text": "And out of the strong came forth sweetness.", "break": true },
+      {
+        "paragraph": true,
+        "text": "And they could not in three days declare the riddle."
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 14,
     "verse": 15,
-    "content": "And it came to pass on the seventh day, that they said unto Samson’s wife, Entice thy husband, that he may declare unto us the riddle, lest we burn thee and thy father’s house with fire: have ye called us to impoverish us? is it not so?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass on the seventh day, that they said unto Samson’s wife, Entice thy husband, that he may declare unto us the riddle, lest we burn thee and thy father’s house with fire: have ye called us to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "take that which we have", "marks": ["i"] }
+          ]
+        }
+      },
+      "impoverish us? is it not ",
+      { "text": "so", "marks": ["i"] },
+      "?"
+    ]
   },
   {
     "book": "JDG",
@@ -2547,19 +4119,42 @@
     "book": "JDG",
     "chapter": 14,
     "verse": 18,
-    "content": "And the men of the city said unto him on the seventh day before the sun went down, What is sweeter than honey? and what is stronger than a lion? And he said unto them, If ye had not plowed with my heifer, Ye had not found out my riddle."
+    "content": [
+      {
+        "text": "And the men of the city said unto him on the seventh day before the sun went down, What is sweeter than honey? and what is stronger than a lion? And he said unto them,",
+        "break": true
+      },
+      { "text": "If ye had not plowed with my heifer,", "break": true },
+      { "text": "Ye had not found out my riddle.", "break": true }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 14,
     "verse": 19,
-    "content": "And the Spirit of Jehovah came mightily upon him, and he went down to Ashkelon, and smote thirty men of them, and took their spoil, and gave the changes of raiment unto them that declared the riddle. And his anger was kindled, and he went up to his father’s house."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the Spirit of Jehovah came mightily upon him, and he went down to Ashkelon, and smote thirty men of them, and took their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "apparel", "marks": ["i"] }]
+        }
+      },
+      "spoil, and gave the changes ",
+      { "text": "of raiment", "marks": ["i"] },
+      " unto them that declared the riddle. And his anger was kindled, and he went up to his father’s house."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 14,
     "verse": 20,
-    "content": "But Samson’s wife was given to his companion, whom he had used as his friend."
+    "content": [
+      "But Samson’s wife was ",
+      { "text": "given", "marks": ["i"] },
+      " to his companion, whom he had used as his friend."
+    ]
   },
   {
     "book": "JDG",
@@ -2580,13 +4175,41 @@
     "book": "JDG",
     "chapter": 15,
     "verse": 3,
-    "content": "And Samson said unto them, This time shall I be blameless in regard of the Philistines, when I do them a mischief."
+    "content": [
+      {
+        "text": "And Samson said unto them, This time ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "shall I be quits with", "marks": ["i"] }
+          ]
+        }
+      },
+      "shall I be blameless in regard of the Philistines, when I do them a mischief."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 15,
     "verse": 4,
-    "content": "And Samson went and caught three hundred foxes, and took firebrands, and turned tail to tail, and put a firebrand in the midst between every two tails."
+    "content": [
+      {
+        "text": "And Samson went and caught three hundred ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "jackals", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "foxes, and took ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "torches", "marks": ["i"] }]
+        }
+      },
+      "firebrands, and turned tail to tail, and put a firebrand in the midst between every two tails."
+    ]
   },
   {
     "book": "JDG",
@@ -2598,7 +4221,7 @@
     "book": "JDG",
     "chapter": 15,
     "verse": 6,
-    "content": "Then the Philistines said, Who hath done this? And they said, Samson, the son- in-law of the Timnite, because he hath taken his wife, and given her to his companion. And the Philistines came up, and burnt her and her father with fire."
+    "content": "Then the Philistines said, Who hath done this? And they said, Samson, the son-in-law of the Timnite, because he hath taken his wife, and given her to his companion. And the Philistines came up, and burnt her and her father with fire."
   },
   {
     "book": "JDG",
@@ -2616,7 +4239,10 @@
     "book": "JDG",
     "chapter": 15,
     "verse": 9,
-    "content": "Then the Philistines went up, and encamped in Judah, and spread themselves in Lehi."
+    "content": {
+      "paragraph": true,
+      "text": "Then the Philistines went up, and encamped in Judah, and spread themselves in Lehi."
+    }
   },
   {
     "book": "JDG",
@@ -2646,7 +4272,17 @@
     "book": "JDG",
     "chapter": 15,
     "verse": 14,
-    "content": "When he came unto Lehi, the Philistines shouted as they met him: and the Spirit of Jehovah came mightily upon him, and the ropes that were upon his arms became as flax that was burnt with fire, and his bands dropped from off his hands."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "When he came unto Lehi, the Philistines shouted as they met him: and the Spirit of Jehovah came mightily upon him, and the ropes that were upon his arms became as flax that was burnt with fire, and his bands ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "were melted", "marks": ["i"] }, "."]
+        }
+      },
+      "dropped from off his hands."
+    ]
   },
   {
     "book": "JDG",
@@ -2658,13 +4294,55 @@
     "book": "JDG",
     "chapter": 15,
     "verse": 16,
-    "content": "And Samson said, With the jawbone of an ass, heaps upon heaps, With the jawbone of an ass have I smitten a thousand men."
+    "content": [
+      { "text": "And Samson said,", "break": true },
+      {
+        "text": "With the jawbone of an ass, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "heap, two heaps", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "heaps upon heaps,", "break": true },
+      {
+        "text": "With the jawbone of an ass have I smitten a thousand men.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "JDG",
     "chapter": 15,
     "verse": 17,
-    "content": "And it came to pass, when he had made an end of speaking, that he cast away the jawbone out of his hand; and that place was called Ramath-lehi."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass, when he had made an end of speaking, that he cast away the jawbone out of his hand; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "he called that place", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "that place was called ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "The hill of the jawbone", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Ramath-lehi."
+    ]
   },
   {
     "book": "JDG",
@@ -2676,7 +4354,37 @@
     "book": "JDG",
     "chapter": 15,
     "verse": 19,
-    "content": "But God clave the hollow place that is in Lehi, and there came water thereout; and when he had drunk, his spirit came again, and he revived: wherefore the name thereof was called En-hakkore, which is in Lehi, unto this day."
+    "content": [
+      {
+        "text": "But God clave the hollow place that is in ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the jawbone", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "Lehi, and there came water thereout; and when he had drunk, his spirit came again, and he revived: wherefore ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "he called the name thereof", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "the name thereof was called ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "The spring of him that called", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "En-hakkore, which is in Lehi, unto this day."
+    ]
   },
   {
     "book": "JDG",
@@ -2697,7 +4405,25 @@
     "book": "JDG",
     "chapter": 16,
     "verse": 2,
-    "content": "And it was told the Gazites, saying, Samson is come hither. And they compassed him in, and laid wait for him all night in the gate of the city, and were quiet all the night, saying, Let be till morning light, then we will kill him."
+    "content": [
+      { "text": "And it was told", "marks": ["i"] },
+      {
+        "text": " the Gazites, saying, Samson is come hither. And they compassed him in, and laid wait for him all night in the gate of the city, and were quiet all the night, saying, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "When", "marks": ["i"] },
+            " (or, ",
+            { "text": "Before", "marks": ["i"] },
+            ") ",
+            { "text": "the morning is light", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "Let be", "marks": ["i"] },
+      " till morning light, then we will kill him."
+    ]
   },
   {
     "book": "JDG",
@@ -2709,13 +4435,34 @@
     "book": "JDG",
     "chapter": 16,
     "verse": 4,
-    "content": "And it came to pass afterward, that he loved a woman in the valley of Sorek, whose name was Delilah."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass afterward, that he loved a woman ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "by the brook", "marks": ["i"] }]
+        }
+      },
+      "in the valley of Sorek, whose name was Delilah."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 16,
     "verse": 5,
-    "content": "And the lords of the Philistines came up unto her, and said unto her, Entice him, and see wherein his great strength lieth, and by what means we may prevail against him, that we may bind him to afflict him: and we will give thee every one of us eleven hundred pieces of silver."
+    "content": [
+      {
+        "text": "And the lords of the Philistines came up unto her, and said unto her, Entice him, and see wherein his great strength lieth, and by what means we may prevail against him, that we may bind him to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "humble", "marks": ["i"] }]
+        }
+      },
+      "afflict him: and we will give thee every one of us eleven hundred ",
+      { "text": "pieces", "marks": ["i"] },
+      " of silver."
+    ]
   },
   {
     "book": "JDG",
@@ -2727,7 +4474,16 @@
     "book": "JDG",
     "chapter": 16,
     "verse": 7,
-    "content": "And Samson said unto her, If they bind me with seven green withes that were never dried, then shall I become weak, and be as another man."
+    "content": [
+      {
+        "text": "And Samson said unto her, If they bind me with seven ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "new bowstrings", "marks": ["i"] }]
+        }
+      },
+      "green withes that were never dried, then shall I become weak, and be as another man."
+    ]
   },
   {
     "book": "JDG",
@@ -2739,13 +4495,25 @@
     "book": "JDG",
     "chapter": 16,
     "verse": 9,
-    "content": "Now she had liers-in-wait abiding in the inner chamber. And she said unto him, The Philistines are upon thee, Samson. And he brake the withes, as a string of tow is broken when it toucheth the fire. So his strength was not known."
+    "content": [
+      {
+        "text": "Now she had liers-in-wait abiding in the inner chamber. And she said unto him, The Philistines are upon thee, Samson. And he brake the withes, as a string of tow is broken when it ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "smelleth", "marks": ["i"] }, "."]
+        }
+      },
+      "toucheth the fire. So his strength was not known."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 16,
     "verse": 10,
-    "content": "And Delilah said unto Samson, Behold, thou hast mocked me, and told me lies: now tell me, I pray thee, wherewith thou mightest be bound."
+    "content": {
+      "paragraph": true,
+      "text": "And Delilah said unto Samson, Behold, thou hast mocked me, and told me lies: now tell me, I pray thee, wherewith thou mightest be bound."
+    }
   },
   {
     "book": "JDG",
@@ -2763,7 +4531,10 @@
     "book": "JDG",
     "chapter": 16,
     "verse": 13,
-    "content": "And Delilah said unto Samson, Hitherto thou hast mocked me, and told me lies: tell me wherewith thou mightest be bound. And he said unto her, If thou weavest the seven locks of my head with the web."
+    "content": {
+      "paragraph": true,
+      "text": "And Delilah said unto Samson, Hitherto thou hast mocked me, and told me lies: tell me wherewith thou mightest be bound. And he said unto her, If thou weavest the seven locks of my head with the web."
+    }
   },
   {
     "book": "JDG",
@@ -2775,7 +4546,10 @@
     "book": "JDG",
     "chapter": 16,
     "verse": 15,
-    "content": "And she said unto him, How canst thou say, I love thee, when thy heart is not with me? thou hast mocked me these three times, and hast not told me wherein thy great strength lieth."
+    "content": {
+      "paragraph": true,
+      "text": "And she said unto him, How canst thou say, I love thee, when thy heart is not with me? thou hast mocked me these three times, and hast not told me wherein thy great strength lieth."
+    }
   },
   {
     "book": "JDG",
@@ -2793,13 +4567,35 @@
     "book": "JDG",
     "chapter": 16,
     "verse": 18,
-    "content": "And when Delilah saw that he had told her all his heart, she sent and called for the lords of the Philistines, saying, Come up this once, for he hath told me all his heart. Then the lords of the Philistines came up unto her, and brought the money in their hand."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And when Delilah saw that he had told her all his heart, she sent and called for the lords of the Philistines, saying, Come up this once, for ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Or, according to another reading, ",
+            { "text": "he had told her", "marks": ["i"] }
+          ]
+        }
+      },
+      "he hath told me all his heart. Then the lords of the Philistines came up unto her, and brought the money in their hand."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 16,
     "verse": 19,
-    "content": "And she made him sleep upon her knees; and she called for a man, and shaved off the seven locks of his head; and she began to afflict him, and his strength went from him."
+    "content": [
+      {
+        "text": "And she made him sleep upon her knees; and she called for ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the men", "marks": ["i"] }]
+        }
+      },
+      "a man, and shaved off the seven locks of his head; and she began to afflict him, and his strength went from him."
+    ]
   },
   {
     "book": "JDG",
@@ -2823,7 +4619,10 @@
     "book": "JDG",
     "chapter": 16,
     "verse": 23,
-    "content": "And the lords of the Philistines gathered them together to offer a great sacrifice unto Dagon their god, and to rejoice; for they said, Our god hath delivered Samson our enemy into our hand."
+    "content": {
+      "paragraph": true,
+      "text": "And the lords of the Philistines gathered them together to offer a great sacrifice unto Dagon their god, and to rejoice; for they said, Our god hath delivered Samson our enemy into our hand."
+    }
   },
   {
     "book": "JDG",
@@ -2853,7 +4652,23 @@
     "book": "JDG",
     "chapter": 16,
     "verse": 28,
-    "content": "And Samson called unto Jehovah, and said, O Lord Jehovah, remember me, I pray thee, and strengthen me, I pray thee, only this once, O God, that I may be at once avenged of the Philistines for my two eyes."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Samson called unto Jehovah, and said, O Lord Jehovah, remember me, I pray thee, and strengthen me, I pray thee, only this once, O God, that I may ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "be avenged . . . for one of my two eyes",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "be at once avenged of the Philistines for my two eyes."
+    ]
   },
   {
     "book": "JDG",
@@ -2886,25 +4701,71 @@
     "book": "JDG",
     "chapter": 17,
     "verse": 2,
-    "content": "And he said unto his mother, The eleven hundred pieces of silver that were taken from thee, about which thou didst utter a curse, and didst also speak it in mine ears, behold, the silver is with me; I took it. And his mother said, Blessed be my son of Jehovah."
+    "content": [
+      "And he said unto his mother, The eleven hundred ",
+      { "text": "pieces", "marks": ["i"] },
+      {
+        "text": " of silver that were taken from thee, about which thou didst utter ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "an adjuration", "marks": ["i"] }]
+        }
+      },
+      "a curse, and didst also speak it in mine ears, behold, the silver is with me; I took it. And his mother said, Blessed be my son of Jehovah."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 17,
     "verse": 3,
-    "content": "And he restored the eleven hundred pieces of silver to his mother; and his mother said, I verily dedicate the silver unto Jehovah from my hand for my son, to make a graven image and a molten image: now therefore I will restore it unto thee."
+    "content": [
+      "And he restored the eleven hundred ",
+      { "text": "pieces", "marks": ["i"] },
+      {
+        "text": " of silver to his mother; and his mother said, I verily ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "had dedicated", "marks": ["i"] }]
+        }
+      },
+      "dedicate the silver unto Jehovah from my hand for my son, to make a graven image and a molten image: now therefore I will restore it unto thee."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 17,
     "verse": 4,
-    "content": "And when he restored the money unto his mother, his mother took two hundred pieces of silver, and gave them to the founder, who made thereof a graven image and a molten image: and it was in the house of Micah."
+    "content": [
+      "And when he restored the money unto his mother, his mother took two hundred ",
+      { "text": "pieces", "marks": ["i"] },
+      " of silver, and gave them to the founder, who made thereof a graven image and a molten image: and it was in the house of Micah."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 17,
     "verse": 5,
-    "content": "And the man Micah had a house of gods, and he made an ephod, and teraphim, and consecrated one of his sons, who became his priest."
+    "content": [
+      {
+        "text": "And the man Micah had a house of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "God", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "gods, and he made an ephod, and teraphim, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "filled the hand of", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "consecrated one of his sons, who became his priest."
+    ]
   },
   {
     "book": "JDG",
@@ -2916,25 +4777,40 @@
     "book": "JDG",
     "chapter": 17,
     "verse": 7,
-    "content": "And there was a young man out of Beth-lehem-judah, of the family of Judah, who was a Levite; and he sojourned there."
+    "content": {
+      "paragraph": true,
+      "text": "And there was a young man out of Beth-lehem-judah, of the family of Judah, who was a Levite; and he sojourned there."
+    }
   },
   {
     "book": "JDG",
     "chapter": 17,
     "verse": 8,
-    "content": "And the man departed out of the city, out of Beth-lehem-judah, to sojourn where he could find a place, and he came to the hill-country of Ephraim to the house of Micah, as he journeyed."
+    "content": [
+      "And the man departed out of the city, out of Beth-lehem-judah, to sojourn where he could find ",
+      { "text": "a place", "marks": ["i"] },
+      ", and he came to the hill-country of Ephraim to the house of Micah, as he journeyed."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 17,
     "verse": 9,
-    "content": "And Micah said unto him, Whence comest thou? And he said unto him, I am a Levite of Beth-lehem-judah, and I go to sojourn where I may find a place."
+    "content": [
+      "And Micah said unto him, Whence comest thou? And he said unto him, I am a Levite of Beth-lehem-judah, and I go to sojourn where I may find ",
+      { "text": "a place", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 17,
     "verse": 10,
-    "content": "And Micah said unto him, Dwell with me, and be unto me a father and a priest, and I will give thee ten pieces of silver by the year, and a suit of apparel, and thy victuals. So the Levite went in."
+    "content": [
+      "And Micah said unto him, Dwell with me, and be unto me a father and a priest, and I will give thee ten ",
+      { "text": "pieces", "marks": ["i"] },
+      " of silver by the year, and a suit of apparel, and thy victuals. So the Levite went in."
+    ]
   },
   {
     "book": "JDG",
@@ -2958,10 +4834,14 @@
     "book": "JDG",
     "chapter": 18,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "In those days there was no king in Israel: and in those days the tribe of the Danites sought them an inheritance to dwell in; for unto that day their inheritance had not fallen unto them among the tribes of Israel."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In those days there was no king in Israel: and in those days the tribe of the Danites sought them an inheritance to dwell in; for unto that day "
+      },
+      { "text": "their", "marks": ["i"] },
+      " inheritance had not fallen unto them among the tribes of Israel."
+    ]
   },
   {
     "book": "JDG",
@@ -2997,13 +4877,43 @@
     "book": "JDG",
     "chapter": 18,
     "verse": 7,
-    "content": "Then the five men departed, and came to Laish, and saw the people that were therein, how they dwelt in security, after the manner of the Sidonians, quiet and secure; for there was none in the land, possessing authority, that might put them to shame in anything, and they were far from the Sidonians, and had no dealings with any man."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then the five men departed, and came to Laish, and saw the people that were therein, how they dwelt in security, after the manner of the Sidonians, quiet and secure; for there was none in the land, possessing ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "power of restraint", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "authority, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "that might do any hurt", "marks": ["i"] }
+          ]
+        }
+      },
+      "that might put ",
+      { "text": "them", "marks": ["i"] },
+      " to shame in anything, and they were far from the Sidonians, and had no dealings with any man."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 18,
     "verse": 8,
-    "content": "And they came unto their brethren to Zorah and Eshtaol: and their brethren said unto them, What say ye?"
+    "content": [
+      "And they came unto their brethren to Zorah and Eshtaol: and their brethren said unto them, What ",
+      { "text": "say", "marks": ["i"] },
+      " ye?"
+    ]
   },
   {
     "book": "JDG",
@@ -3021,7 +4931,10 @@
     "book": "JDG",
     "chapter": 18,
     "verse": 11,
-    "content": "And there set forth from thence of the family of the Danites, out of Zorah and out of Eshtaol, six hundred men girt with weapons of war."
+    "content": {
+      "paragraph": true,
+      "text": "And there set forth from thence of the family of the Danites, out of Zorah and out of Eshtaol, six hundred men girt with weapons of war."
+    }
   },
   {
     "book": "JDG",
@@ -3039,7 +4952,10 @@
     "book": "JDG",
     "chapter": 18,
     "verse": 14,
-    "content": "Then answered the five men that went to spy out the country of Laish, and said unto their brethren, Do ye know that there is in these houses an ephod, and teraphim, and a graven image, and a molten image? now therefore consider what ye have to do."
+    "content": {
+      "paragraph": true,
+      "text": "Then answered the five men that went to spy out the country of Laish, and said unto their brethren, Do ye know that there is in these houses an ephod, and teraphim, and a graven image, and a molten image? now therefore consider what ye have to do."
+    }
   },
   {
     "book": "JDG",
@@ -3081,7 +4997,10 @@
     "book": "JDG",
     "chapter": 18,
     "verse": 21,
-    "content": "So they turned and departed, and put the little ones and the cattle and the goods before them."
+    "content": {
+      "paragraph": true,
+      "text": "So they turned and departed, and put the little ones and the cattle and the goods before them."
+    }
   },
   {
     "book": "JDG",
@@ -3093,7 +5012,20 @@
     "book": "JDG",
     "chapter": 18,
     "verse": 23,
-    "content": "And they cried unto the children of Dan. And they turned their faces, and said unto Micah, What aileth thee, that thou comest with such a company?"
+    "content": [
+      {
+        "text": "And they cried unto the children of Dan. And they turned their faces, and said unto Micah, What aileth thee, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "that thou art gathered together", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "that thou comest with such a company?"
+    ]
   },
   {
     "book": "JDG",
@@ -3105,7 +5037,20 @@
     "book": "JDG",
     "chapter": 18,
     "verse": 25,
-    "content": "And the children of Dan said unto him, Let not thy voice be heard among us, lest angry fellows fall upon you, and thou lose thy life, with the lives of thy household."
+    "content": [
+      {
+        "text": "And the children of Dan said unto him, Let not thy voice be heard among us, lest ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "bitter of soul", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "angry fellows fall upon you, and thou lose thy life, with the lives of thy household."
+    ]
   },
   {
     "book": "JDG",
@@ -3117,7 +5062,10 @@
     "book": "JDG",
     "chapter": 18,
     "verse": 27,
-    "content": "And they took that which Micah had made, and the priest whom he had, and came unto Laish, unto a people quiet and secure, and smote them with the edge of the sword; and they burnt the city with fire."
+    "content": {
+      "paragraph": true,
+      "text": "And they took that which Micah had made, and the priest whom he had, and came unto Laish, unto a people quiet and secure, and smote them with the edge of the sword; and they burnt the city with fire."
+    }
   },
   {
     "book": "JDG",
@@ -3135,7 +5083,20 @@
     "book": "JDG",
     "chapter": 18,
     "verse": 30,
-    "content": "And the children of Dan set up for themselves the graven image: and Jonathan, the son of Gershom, the son of Moses, he and his sons were priests to the tribe of the Danites until the day of the captivity of the land."
+    "content": [
+      {
+        "text": "And the children of Dan set up for themselves the graven image; and Jonathan, the son of Gershom, the son of ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Manasseh", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Moses, he and his sons were priests to the tribe of the Danites until the day of the captivity of the land."
+    ]
   },
   {
     "book": "JDG",
@@ -3162,7 +5123,20 @@
     "book": "JDG",
     "chapter": 19,
     "verse": 3,
-    "content": "And her husband arose, and went after her, to speak kindly unto her, to bring her again, having his servant with him, and a couple of asses: and she brought him into her father’s house; and when the father of the damsel saw him, he rejoiced to meet him."
+    "content": [
+      {
+        "text": "And her husband arose, and went after her, to speak ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "to her heart", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "kindly unto her, to bring her again, having his servant with him, and a couple of asses: and she brought him into her father’s house; and when the father of the damsel saw him, he rejoiced to meet him."
+    ]
   },
   {
     "book": "JDG",
@@ -3198,13 +5172,29 @@
     "book": "JDG",
     "chapter": 19,
     "verse": 9,
-    "content": "And when the man rose up to depart, he, and his concubine, and his servant, his father-in-law, the damsel’s father, said unto him, Behold, now the day draweth toward evening, I pray you tarry all night: behold, the day groweth to an end, lodge here, that thy heart may be merry; and to-morrow get you early on your way, that thou mayest go home."
+    "content": [
+      {
+        "text": "And when the man rose up to depart, he, and his concubine, and his servant, his father-in-law, the damsel’s father, said unto him, Behold, now the day draweth toward evening, I pray you tarry all night: behold, the day groweth to an end, lodge here, that thy heart may be merry; and to-morrow get you early on your way, that thou mayest go ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "to thy tents", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "home."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 19,
     "verse": 10,
-    "content": "But the man would not tarry that night, but he rose up and departed, and came over against Jebus (the same is Jerusalem): and there were with him a couple of asses saddled; his concubine also was with him."
+    "content": {
+      "paragraph": true,
+      "text": "But the man would not tarry that night, but he rose up and departed, and came over against Jebus (the same is Jerusalem): and there were with him a couple of asses saddled; his concubine also was with him."
+    }
   },
   {
     "book": "JDG",
@@ -3216,7 +5206,22 @@
     "book": "JDG",
     "chapter": 19,
     "verse": 12,
-    "content": "And his master said unto him, We will not turn aside into the city of a foreigner, that is not of the children of Israel; but we will pass over to Gibeah."
+    "content": [
+      {
+        "text": "And his master said unto him, We will not turn aside into the city of a foreigner, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "where there are none of the children of Israel",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "that is not of the children of Israel; but we will pass over to Gibeah."
+    ]
   },
   {
     "book": "JDG",
@@ -3240,7 +5245,10 @@
     "book": "JDG",
     "chapter": 19,
     "verse": 16,
-    "content": "And, behold, there came an old man from his work out of the field at even: now the man was of the hill-country of Ephraim, and he sojourned in Gibeah; but the men of the place were Benjamites."
+    "content": {
+      "paragraph": true,
+      "text": "And, behold, there came an old man from his work out of the field at even: now the man was of the hill-country of Ephraim, and he sojourned in Gibeah; but the men of the place were Benjamites."
+    }
   },
   {
     "book": "JDG",
@@ -3252,7 +5260,11 @@
     "book": "JDG",
     "chapter": 19,
     "verse": 18,
-    "content": "And he said unto him, We are passing from Beth-lehem-judah unto the farther side of the hill-country of Ephraim; from thence am I, and I went to Beth-lehem-judah: and I am now going to the house of Jehovah; and there is no man that taketh me into his house."
+    "content": [
+      "And he said unto him, We are passing from Beth-lehem-judah unto the farther side of the hill-country of Ephraim; from thence am I, and I went to Beth-lehem-judah: and I am ",
+      { "text": "now", "marks": ["i"] },
+      " going to the house of Jehovah; and there is no man that taketh me into his house."
+    ]
   },
   {
     "book": "JDG",
@@ -3276,7 +5288,10 @@
     "book": "JDG",
     "chapter": 19,
     "verse": 22,
-    "content": "As they were making their hearts merry, behold, the men of the city, certain base fellows, beset the house round about, beating at the door; and they spake to the master of the house, the old man, saying, Bring forth the man that came into thy house, that we may know him."
+    "content": {
+      "paragraph": true,
+      "text": "As they were making their hearts merry, behold, the men of the city, certain base fellows, beset the house round about, beating at the door; and they spake to the master of the house, the old man, saying, Bring forth the man that came into thy house, that we may know him."
+    }
   },
   {
     "book": "JDG",
@@ -3306,7 +5321,10 @@
     "book": "JDG",
     "chapter": 19,
     "verse": 27,
-    "content": "And her lord rose up in the morning, and opened the doors of the house, and went out to go his way; and, behold, the woman his concubine was fallen down at the door of the house, with her hands upon the threshold."
+    "content": {
+      "paragraph": true,
+      "text": "And her lord rose up in the morning, and opened the doors of the house, and went out to go his way; and, behold, the woman his concubine was fallen down at the door of the house, with her hands upon the threshold."
+    }
   },
   {
     "book": "JDG",
@@ -3318,7 +5336,20 @@
     "book": "JDG",
     "chapter": 19,
     "verse": 29,
-    "content": "And when he was come into his house, he took a knife, and laid hold on his concubine, and divided her, limb by limb, into twelve pieces, and sent her throughout all the borders of Israel."
+    "content": [
+      {
+        "text": "And when he was come into his house, he took a knife, and laid hold on his concubine, and divided her, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "according to her bones", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "limb by limb, into twelve pieces, and sent her throughout all the borders of Israel."
+    ]
   },
   {
     "book": "JDG",
@@ -3339,7 +5370,23 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 2,
-    "content": "And the chiefs of all the people, even of all the tribes of Israel, presented themselves in the assembly of the people of God, four hundred thousand footmen that drew sword."
+    "content": [
+      {
+        "text": "And the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "corners", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "chiefs of all the people, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "even all", "marks": ["i"] }]
+        }
+      },
+      "even of all the tribes of Israel, presented themselves in the assembly of the people of God, four hundred thousand footmen that drew sword."
+    ]
   },
   {
     "book": "JDG",
@@ -3375,19 +5422,35 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 8,
-    "content": "And all the people arose as one man, saying, We will not any of us go to his tent, neither will we any of us turn unto his house."
+    "content": {
+      "paragraph": true,
+      "text": "And all the people arose as one man, saying, We will not any of us go to his tent, neither will we any of us turn unto his house."
+    }
   },
   {
     "book": "JDG",
     "chapter": 20,
     "verse": 9,
-    "content": "But now this is the thing which we will do to Gibeah: we will go up against it by lot;"
+    "content": [
+      "But now this is the thing which we will do to Gibeah: ",
+      { "text": "we will go up", "marks": ["i"] },
+      " against it by lot;"
+    ]
   },
   {
     "book": "JDG",
     "chapter": 20,
     "verse": 10,
-    "content": "and we will take ten men of a hundred throughout all the tribes of Israel, and a hundred of a thousand, and a thousand out of ten thousand, to fetch victuals for the people, that they may do, when they come to Gibeah of Benjamin, according to all the folly that they have wrought in Israel."
+    "content": [
+      {
+        "text": "and we will take ten men of a hundred throughout all the tribes of Israel, and a hundred of a thousand, and a thousand out of ten thousand, to fetch victuals for the people, that they may do, when they come to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Geba", "marks": ["i"] }, "."]
+        }
+      },
+      "Gibeah of Benjamin, according to all the folly that they have wrought in Israel."
+    ]
   },
   {
     "book": "JDG",
@@ -3399,13 +5462,44 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 12,
-    "content": "And the tribes of Israel sent men through all the tribe of Benjamin, saying, What wickedness is this that is come to pass among you?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the tribes of Israel sent men through all the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "tribes", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Numbers 4:18", "content": "Num. 4:18" },
+            "; ",
+            { "bibleLink": "1 Samuel 9:21", "content": "1 Sam. 9:21" },
+            "."
+          ]
+        }
+      },
+      "tribe of Benjamin, saying, What wickedness is this that is come to pass among you?"
+    ]
   },
   {
     "book": "JDG",
     "chapter": 20,
     "verse": 13,
-    "content": "Now therefore deliver up the men, the base fellows, that are in Gibeah, that we may put them to death, and put away evil from Israel. But Benjamin would not hearken to the voice of their brethren the children of Israel."
+    "content": [
+      {
+        "text": "Now therefore deliver up the men, the base fellows, that are in Gibeah, that we may put them to death, and put away evil from Israel. But ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "the children of Benjamin", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Benjamin would not hearken to the voice of their brethren the children of Israel."
+    ]
   },
   {
     "book": "JDG",
@@ -3429,19 +5523,29 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 17,
-    "content": "And the men of Israel, besides Benjamin, were numbered four hundred thousand men that drew sword: all these were men of war."
+    "content": {
+      "paragraph": true,
+      "text": "And the men of Israel, besides Benjamin, were numbered four hundred thousand men that drew sword: all these were men of war."
+    }
   },
   {
     "book": "JDG",
     "chapter": 20,
     "verse": 18,
-    "content": "And the children of Israel arose, and went up to Beth-el, and asked counsel of God; and they said, Who shall go up for us first to battle against the children of Benjamin? And Jehovah said, Judah shall go up first."
+    "content": [
+      "And the children of Israel arose, and went up to Beth-el, and asked counsel of God; and they said, Who shall go up for us first to battle against the children of Benjamin? And Jehovah said, Judah ",
+      { "text": "shall go up", "marks": ["i"] },
+      " first."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 20,
     "verse": 19,
-    "content": "And the children of Israel rose up in the morning, and encamped against Gibeah."
+    "content": {
+      "paragraph": true,
+      "text": "And the children of Israel rose up in the morning, and encamped against Gibeah."
+    }
   },
   {
     "book": "JDG",
@@ -3471,7 +5575,10 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 24,
-    "content": "And the children of Israel came near against the children of Benjamin the second day."
+    "content": {
+      "paragraph": true,
+      "text": "And the children of Israel came near against the children of Benjamin the second day."
+    }
   },
   {
     "book": "JDG",
@@ -3501,7 +5608,10 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 29,
-    "content": "And Israel set liers-in-wait against Gibeah round about."
+    "content": {
+      "paragraph": true,
+      "text": "And Israel set liers-in-wait against Gibeah round about."
+    }
   },
   {
     "book": "JDG",
@@ -3525,13 +5635,39 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 33,
-    "content": "And all the men of Israel rose up out of their place, and set themselves in array at Baal-tamar: and the liers-in-wait of Israel brake forth out of their place, even out of Maareh-geba."
+    "content": [
+      {
+        "text": "And all the men of Israel rose up out of their place, and set themselves in array at Baal-tamar: and the liers-in-wait of Israel brake forth out of their place, even out of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the meadow of Geba", "marks": ["i"] },
+            " (or ",
+            { "text": "Gibeah", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Judges 20:10", "content": "verse 10" },
+            ")."
+          ]
+        }
+      },
+      "Maareh-geba."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 20,
     "verse": 34,
-    "content": "And there came over against Gibeah ten thousand chosen men out of all Israel, and the battle was sore; but they knew not that evil was close upon them."
+    "content": [
+      {
+        "text": "And there came over against Gibeah ten thousand chosen men out of all Israel, and the battle was sore; but they knew not that evil was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "touching", "marks": ["i"] }, "."]
+        }
+      },
+      "close upon them."
+    ]
   },
   {
     "book": "JDG",
@@ -3543,7 +5679,10 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 36,
-    "content": "So the children of Benjamin saw that they were smitten; for the men of Israel gave place to Benjamin, because they trusted unto the liers-in- wait whom they had set against Gibeah."
+    "content": {
+      "paragraph": true,
+      "text": "So the children of Benjamin saw that they were smitten; for the men of Israel gave place to Benjamin, because they trusted unto the liers-in-wait whom they had set against Gibeah."
+    }
   },
   {
     "book": "JDG",
@@ -3561,13 +5700,31 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 39,
-    "content": "And the men of Israel turned in the battle, and Benjamin began to smite and kill of the men of Israel about thirty persons; for they said, Surely they are smitten down before us, as in the first battle."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "And the men . . . battle: (now Benjamin . . . heaven:) and the men etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "And the men of Israel turned in the battle, and Benjamin began to smite and kill of the men of Israel about thirty persons; for they said, Surely they are smitten down before us, as in the first battle."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 20,
     "verse": 40,
-    "content": "But when the cloud began to arise up out of the city in a pillar of smoke, the Benjamites looked behind them; and, behold, the whole of the city went up in smoke to heaven."
+    "content": [
+      "But when the cloud began to arise up out of the city in a pillar of smoke, the Benjamites looked behind them; and, behold, the whole of the city went up ",
+      { "text": "in smoke", "marks": ["i"] },
+      " to heaven."
+    ]
   },
   {
     "book": "JDG",
@@ -3579,19 +5736,57 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 42,
-    "content": "Therefore they turned their backs before the men of Israel unto the way of the wilderness; but the battle followed hard after them; and they that came out of the cities destroyed them in the midst thereof."
+    "content": [
+      {
+        "text": "Therefore they turned their backs before the men of Israel unto the way of the wilderness; but the battle followed hard after them; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "them that came . . . they destroyed", "marks": ["i"] }
+          ]
+        }
+      },
+      "they that came out of the cities destroyed them in the midst thereof."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 20,
     "verse": 43,
-    "content": "They inclosed the Benjamites round about, and chased them, and trod them down at their resting-place, as far as over against Gibeah toward the sunrising."
+    "content": [
+      "They inclosed the Benjamites round about, ",
+      { "text": "and", "marks": ["i"] },
+      " chased them, ",
+      {
+        "text": "and",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "overtook them", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " trod them down ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "at Menuhah", "marks": ["i"] }]
+        }
+      },
+      "at ",
+      { "text": "their", "marks": ["i"] },
+      " resting-place, as far as over against Gibeah toward the sunrising."
+    ]
   },
   {
     "book": "JDG",
     "chapter": 20,
     "verse": 44,
-    "content": "And there fell of Benjamin eighteen thousand men; all these were men of valor."
+    "content": [
+      "And there fell of Benjamin eighteen thousand men; all these ",
+      { "text": "were", "marks": ["i"] },
+      " men of valor."
+    ]
   },
   {
     "book": "JDG",
@@ -3603,7 +5798,11 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 46,
-    "content": "So that all who fell that day of Benjamin were twenty and five thousand men that drew the sword; all these were men of valor."
+    "content": [
+      "So that all who fell that day of Benjamin were twenty and five thousand men that drew the sword; all these ",
+      { "text": "were", "marks": ["i"] },
+      " men of valor."
+    ]
   },
   {
     "book": "JDG",
@@ -3615,7 +5814,22 @@
     "book": "JDG",
     "chapter": 20,
     "verse": 48,
-    "content": "And the men of Israel turned again upon the children of Benjamin, and smote them with the edge of the sword, both the entire city, and the cattle, and all that they found: moreover all the cities which they found they set on fire."
+    "content": [
+      {
+        "text": "And the men of Israel turned again upon the children of Benjamin, and smote them with the edge of the sword, both ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, as otherwise read, ",
+            { "text": "the inhabited city", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Deuteronomy 2:34", "content": "Dt. 2:34" },
+            "."
+          ]
+        }
+      },
+      "the entire city, and the cattle, and all that they found: moreover all the cities which they found they set on fire."
+    ]
   },
   {
     "book": "JDG",
@@ -3666,7 +5880,10 @@
     "book": "JDG",
     "chapter": 21,
     "verse": 8,
-    "content": "And they said, What one is there of the tribes of Israel that came not up unto Jehovah to Mizpah? And, behold, there came none to the camp from Jabesh-gilead to the assembly."
+    "content": {
+      "paragraph": true,
+      "text": "And they said, What one is there of the tribes of Israel that came not up unto Jehovah to Mizpah? And, behold, there came none to the camp from Jabesh-gilead to the assembly."
+    }
   },
   {
     "book": "JDG",
@@ -3684,7 +5901,16 @@
     "book": "JDG",
     "chapter": 21,
     "verse": 11,
-    "content": "And this is the thing that ye shall do: ye shall utterly destroy every male, and every woman that hath lain by man."
+    "content": [
+      {
+        "text": "And this is the thing that ye shall do: ye shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "devote", "marks": ["i"] }, "."]
+        }
+      },
+      "utterly destroy every male, and every woman that hath lain by man."
+    ]
   },
   {
     "book": "JDG",
@@ -3696,7 +5922,10 @@
     "book": "JDG",
     "chapter": 21,
     "verse": 13,
-    "content": "And the whole congregation sent and spake to the children of Benjamin that were in the rock of Rimmon, and proclaimed peace unto them."
+    "content": {
+      "paragraph": true,
+      "text": "And the whole congregation sent and spake to the children of Benjamin that were in the rock of Rimmon, and proclaimed peace unto them."
+    }
   },
   {
     "book": "JDG",
@@ -3714,7 +5943,10 @@
     "book": "JDG",
     "chapter": 21,
     "verse": 16,
-    "content": "Then the elders of the congregation said, How shall we do for wives for them that remain, seeing the women are destroyed out of Benjamin?"
+    "content": {
+      "paragraph": true,
+      "text": "Then the elders of the congregation said, How shall we do for wives for them that remain, seeing the women are destroyed out of Benjamin?"
+    }
   },
   {
     "book": "JDG",
@@ -3732,7 +5964,16 @@
     "book": "JDG",
     "chapter": 21,
     "verse": 19,
-    "content": "And they said, Behold, there is a feast of Jehovah from year to year in Shiloh, which is on the north of Beth-el, on the east side of the highway that goeth up from Beth-el to Shechem, and on the south of Lebonah."
+    "content": [
+      {
+        "text": "And they said, Behold, there is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the feast", "marks": ["i"] }]
+        }
+      },
+      "a feast of Jehovah from year to year in Shiloh, which is on the north of Beth-el, on the east side of the highway that goeth up from Beth-el to Shechem, and on the south of Lebonah."
+    ]
   },
   {
     "book": "JDG",
@@ -3750,7 +5991,25 @@
     "book": "JDG",
     "chapter": 21,
     "verse": 22,
-    "content": "And it shall be, when their fathers or their brethren come to complain unto us, that we will say unto them, Grant them graciously unto us, because we took not for each man of them his wife in battle, neither did ye give them unto them, else would ye now be guilty."
+    "content": [
+      {
+        "text": "And it shall be, when their fathers or their brethren come to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "strive with us", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "complain unto us, that we will say unto them, Grant them ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "as a gift", "marks": ["i"] }]
+        }
+      },
+      "graciously unto us, because we took not for each man ",
+      { "text": "of them", "marks": ["i"] },
+      " his wife in battle, neither did ye give them unto them, else would ye now be guilty."
+    ]
   },
   {
     "book": "JDG",
@@ -3768,6 +6027,9 @@
     "book": "JDG",
     "chapter": 21,
     "verse": 25,
-    "content": "In those days there was no king in Israel: every man did that which was right in his own eyes."
+    "content": {
+      "paragraph": true,
+      "text": "In those days there was no king in Israel: every man did that which was right in his own eyes."
+    }
   }
 ]

@@ -3,22 +3,51 @@
     "book": "COL",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Paul, an apostle of Christ Jesus through the will of God, and Timothy our brother,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Paul, an apostle of Christ Jesus through the will of God, and Timothy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "the brother", "marks": ["i"] }, "."]
+        }
+      },
+      "our brother,"
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 2,
-    "content": "To the saints and faithful brethren in Christ that are at Colossae: Grace to you and peace from God our Father."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "to those that are at Colossae, holy and faithful brethren in Christ",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "to the saints and faithful brethren in Christ ",
+      { "text": "that are", "marks": ["i"] },
+      {
+        "text": " at Colossæ: Grace to you and peace from God our Father.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 3,
-    "content": "We give thanks to God the Father of our Lord Jesus Christ, praying always for you,"
+    "content": {
+      "paragraph": true,
+      "text": "We give thanks to God the Father of our Lord Jesus Christ, praying always for you,"
+    }
   },
   {
     "book": "COL",
@@ -30,19 +59,51 @@
     "book": "COL",
     "chapter": 1,
     "verse": 5,
-    "content": "because of the hope which is laid up for you in the heavens, whereof ye heard before in the word of the truth of the gospel,"
+    "content": [
+      {
+        "text": "because of the hope which is laid up for you in the heavens, whereof ye heard before in the word of the truth of the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ": and so elsewhere. See marginal note on ",
+            { "bibleLink": "Matthew 4:23", "content": "Mt. 4:23" },
+            "."
+          ]
+        }
+      },
+      "gospel,"
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 6,
-    "content": "which is come unto you; even as it is also in all the world bearing fruit and increasing, as it doth in you also, since the day ye heard and knew the grace of God in truth;"
+    "content": [
+      "which is come unto you; even as it is also in all the world bearing fruit and increasing, as ",
+      { "text": "it doth", "marks": ["i"] },
+      " in you also, since the day ye heard and knew the grace of God in truth;"
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 7,
-    "content": "even as ye learned of Epaphras our beloved fellow-servant, who is a faithful minister of Christ on our behalf,"
+    "content": [
+      {
+        "text": "even as ye learned of Epaphras our beloved fellow-servant, who is a faithful minister of Christ on ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "your", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "our behalf,"
+    ]
   },
   {
     "book": "COL",
@@ -54,25 +115,93 @@
     "book": "COL",
     "chapter": 1,
     "verse": 9,
-    "content": "For this cause we also, since the day we heard it, do not cease to pray and make request for you, that ye may be filled with the knowledge of his will in all spiritual wisdom and understanding,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For this cause we also, since the day we heard "
+      },
+      { "text": "it", "marks": ["i"] },
+      ", do not cease to pray and make request for you, that ye may be filled with the knowledge of his will in all spiritual wisdom and understanding,"
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 10,
-    "content": "to walk worthily of the Lord unto all pleasing, bearing fruit in every good work, and increasing in the knowledge of God;"
+    "content": [
+      {
+        "text": "to walk worthily of the Lord ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "unto all pleasing, in every good work, bearing fruit and increasing etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "unto all pleasing, bearing fruit in every good work, and increasing ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "by", "marks": ["i"] }]
+        }
+      },
+      "in the knowledge of God;"
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 11,
-    "content": "strengthened with all power, according to the might of his glory, unto all patience and longsuffering with joy;"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "made powerful", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "strengthened ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "with all power, according to the might of his glory, unto all ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "stedfastness", "marks": ["i"] }]
+        }
+      },
+      "patience and longsuffering with joy;"
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 12,
-    "content": "giving thanks unto the Father, who made us meet to be partakers of the inheritance of the saints in light;"
+    "content": [
+      {
+        "text": "giving thanks unto the Father, who made ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "you", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "us meet to be partakers of the inheritance of the saints in light;"
+    ]
   },
   {
     "book": "COL",
@@ -102,25 +231,83 @@
     "book": "COL",
     "chapter": 1,
     "verse": 17,
-    "content": "and he is before all things, and in him all things consist."
+    "content": [
+      {
+        "text": "and he is before all things, and in him all things ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "hold together", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "consist."
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 18,
-    "content": "And he is the head of the body, the church: who is the beginning, the firstborn from the dead; that in all things he might have the preeminence."
+    "content": [
+      {
+        "text": "And he is the head of the body, the church: who is the beginning, the firstborn from the dead; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "that among all he might have etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "that in all things he might have the preeminence."
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 19,
-    "content": "For it was the good pleasure of the Father that in him should all the fulness dwell;"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "For the whole fulness", "marks": ["i"] },
+            " of God ",
+            { "text": "was pleased to dwell in him", "marks": ["i"] }
+          ]
+        }
+      },
+      "For it was the good pleasure ",
+      { "text": "of the Father", "marks": ["i"] },
+      " that in him should all the fulness dwell;"
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 20,
-    "content": "and through him to reconcile all things unto himself, having made peace through the blood of his cross; through him, I say, whether things upon the earth, or things in the heavens."
+    "content": [
+      {
+        "text": "and through him to reconcile all things ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "into him", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "unto ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "him", "marks": ["i"] }]
+        }
+      },
+      "himself, having made peace through the blood of his cross; through him, ",
+      { "text": "I say", "marks": ["i"] },
+      ", whether things upon the earth, or things in the heavens."
+    ]
   },
   {
     "book": "COL",
@@ -132,31 +319,96 @@
     "book": "COL",
     "chapter": 1,
     "verse": 22,
-    "content": "yet now hath he reconciled in the body of his flesh through death, to present you holy and without blemish and unreproveable before him:"
+    "content": [
+      {
+        "text": "yet now ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "ye have been reconciled", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "hath he reconciled in the body of his flesh through death, to present you holy and without blemish and unreproveable before him:"
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 23,
-    "content": "if so be that ye continue in the faith, grounded and stedfast, and not moved away from the hope of the gospel which ye heard, which was preached in all creation under heaven; whereof I Paul was made a minister."
+    "content": [
+      {
+        "text": "if so be that ye continue in the faith, grounded and stedfast, and not moved away from the hope of the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Colossians 1:1", "content": "verse 1" },
+            "."
+          ]
+        }
+      },
+      "gospel which ye heard, which was preached in all creation under heaven; whereof I Paul was made a minister."
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 24,
-    "content": "Now I rejoice in my sufferings for your sake, and fill up on my part that which is lacking of the afflictions of Christ in my flesh for his body’s sake, which is the church;"
+    "content": {
+      "paragraph": true,
+      "text": "Now I rejoice in my sufferings for your sake, and fill up on my part that which is lacking of the afflictions of Christ in my flesh for his body’s sake, which is the church;"
+    }
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 25,
-    "content": "whereof I was made a minister, according to the dispensation of God which was given me to you-ward, to fulfil the word of God,"
+    "content": [
+      {
+        "text": "whereof I was made a minister, according to the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "stewardship", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "1 Corinthians 9:17", "content": "1 Cor. 9:17" },
+            "."
+          ]
+        }
+      },
+      "dispensation of God which was given me to you-ward, to fulfil the word of God,"
+    ]
   },
   {
     "book": "COL",
     "chapter": 1,
     "verse": 26,
-    "content": "even the mystery which hath been hid for ages and generations: but now hath it been manifested to his saints,"
+    "content": [
+      { "text": "even", "marks": ["i"] },
+      {
+        "text": " the mystery which hath been hid ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "from all ages etc.", "marks": ["i"] },
+            " Greek ",
+            {
+              "text": "from the ages and from the generations",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      "for ages and generations: but now hath it been manifested to his saints,"
+    ]
   },
   {
     "book": "COL",
@@ -174,7 +426,16 @@
     "book": "COL",
     "chapter": 1,
     "verse": 29,
-    "content": "whereunto I labor also, striving according to his working, which worketh in me mightily."
+    "content": [
+      {
+        "text": "whereunto I labor also, striving according to his working, which worketh in me ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in power", "marks": ["i"] }]
+        }
+      },
+      "mightily."
+    ]
   },
   {
     "book": "COL",
@@ -189,7 +450,24 @@
     "book": "COL",
     "chapter": 2,
     "verse": 2,
-    "content": "that their hearts may be comforted, they being knit together in love, and unto all riches of the full assurance of understanding, that they may know the mystery of God, even Christ,"
+    "content": [
+      {
+        "text": "that their hearts may be comforted, they being knit together in love, and unto all riches of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "fulness", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "full assurance of understanding, that they may know the mystery of God, ",
+        "foot": {
+          "type": "var",
+          "content": "The ancient authorities vary much in the text of this passage."
+        }
+      },
+      { "text": "even", "marks": ["i"] },
+      " Christ,"
+    ]
   },
   {
     "book": "COL",
@@ -213,19 +491,68 @@
     "book": "COL",
     "chapter": 2,
     "verse": 6,
-    "content": "As therefore ye received Christ Jesus the Lord, so walk in him,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "As therefore ye received Christ Jesus the Lord, "
+      },
+      { "text": "so", "marks": ["i"] },
+      " walk in him,"
+    ]
   },
   {
     "book": "COL",
     "chapter": 2,
     "verse": 7,
-    "content": "rooted and builded up in him, and established in your faith, even as ye were taught, abounding in thanksgiving."
+    "content": [
+      {
+        "text": "rooted and builded up in him, and established ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "by", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "in your faith, even as ye were taught, abounding ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities insert ",
+            { "text": "in it", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "in thanksgiving.", "break": true }
+    ]
   },
   {
     "book": "COL",
     "chapter": 2,
     "verse": 8,
-    "content": "Take heed lest there shall be any one that maketh spoil of you through his philosophy and vain deceit, after the tradition of men, after the rudiments of the world, and not after Christ:"
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "See whether", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "Take heed lest there shall be any one that maketh spoil of you through his philosophy and vain deceit, after the tradition of men, after the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "elements", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Galatians 4:3", "content": "Gal. 4:3" },
+            " margin."
+          ]
+        }
+      },
+      "rudiments of the world, and not after Christ:"
+    ]
   },
   {
     "book": "COL",
@@ -255,25 +582,61 @@
     "book": "COL",
     "chapter": 2,
     "verse": 13,
-    "content": "And you, being dead through your trespasses and the uncircumcision of your flesh, you, I say, did he make alive together with him, having forgiven us all our trespasses;"
+    "content": [
+      "And you, being dead through your trespasses and the uncircumcision of your flesh, you, ",
+      { "text": "I say", "marks": ["i"] },
+      ", did he make alive together with him, having forgiven us all our trespasses;"
+    ]
   },
   {
     "book": "COL",
     "chapter": 2,
     "verse": 14,
-    "content": "having blotted out the bond written in ordinances that was against us, which was contrary to us: and he hath taken it out that way, nailing it to the cross;"
+    "content": [
+      {
+        "text": "having blotted out ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "the bond that was against us by its ordinances",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "the bond written in ordinances that was against us, which was contrary to us: and he hath taken it out of the way, nailing it to the cross;"
+    ]
   },
   {
     "book": "COL",
     "chapter": 2,
     "verse": 15,
-    "content": "having despoiled the principalities and the powers, he made a show of them openly, triumphing over them in it."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "having put off from himself the principalities etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "having despoiled the principalities and the powers, he made a show of them openly, triumphing over them in it."
+    ]
   },
   {
     "book": "COL",
     "chapter": 2,
     "verse": 16,
-    "content": "Let no man therefore judge you in meat, or in drink, or in respect of a feast day or a new moon or a sabbath day:"
+    "content": {
+      "paragraph": true,
+      "text": "Let no man therefore judge you in meat, or in drink, or in respect of a feast day or a new moon or a sabbath day:"
+    }
   },
   {
     "book": "COL",
@@ -285,19 +648,75 @@
     "book": "COL",
     "chapter": 2,
     "verse": 18,
-    "content": "Let no man rob you of your prize by a voluntary humility and worshipping of the angels, dwelling in the things which he hath seen, vainly puffed up by his fleshly mind,"
+    "content": [
+      {
+        "text": "Let no man rob you of your prize ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "of his own mere will, by humility etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "by a voluntary humility and ",
+        "foot": {
+          "type": "stu",
+          "content": "The Greek word denotes and act of reverence, whether paid to a creature, or to the Creator."
+        }
+      },
+      {
+        "text": "worshipping of the angels, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "taking his stand upon", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "dwelling in the things which he hath ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many authorities, some ancient, insert ",
+            { "text": "not", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "seen, vainly puffed up by his fleshly mind,"
+    ]
   },
   {
     "book": "COL",
     "chapter": 2,
     "verse": 19,
-    "content": "and not holding fast the Head, from whom all the body, being supplied and knit together through the joints and bands, increasing with the increase of God."
+    "content": "and not holding fast the Head, from whom all the body, being supplied and knit together through the joints and bands, increaseth with the increase of God."
   },
   {
     "book": "COL",
     "chapter": 2,
     "verse": 20,
-    "content": "If ye died with Christ from the rudiments of the world, why, as though living in the world, do ye subject yourselves to ordinances,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "If ye died with Christ from the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "elements", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Galatians 4:3", "content": "Gal. 4:3" },
+            " margin."
+          ]
+        }
+      },
+      "rudiments of the world, why, as though living in the world, do ye subject yourselves to ordinances,"
+    ]
   },
   {
     "book": "COL",
@@ -315,7 +734,18 @@
     "book": "COL",
     "chapter": 2,
     "verse": 23,
-    "content": "Which things have indeed a show of wisdom in will-worship, and humility, and severity to the body; but are not of any value against the indulgence of the flesh."
+    "content": [
+      "Which things have indeed a show of wisdom in will-worship, and humility, and severity to the body; ",
+      { "text": "but are", "marks": ["i"] },
+      {
+        "text": " not of any ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "honor", "marks": ["i"] }]
+        }
+      },
+      "value against the indulgence of the flesh."
+    ]
   },
   {
     "book": "COL",
@@ -342,25 +772,69 @@
     "book": "COL",
     "chapter": 3,
     "verse": 4,
-    "content": "When Christ, who is our life, shall be manifested, then shall ye also with him be manifested in glory."
+    "content": [
+      "When Christ, ",
+      {
+        "text": "who is",
+        "marks": ["i"],
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "your", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": " our life, shall be manifested, then shall ye also with him be manifested in glory.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "COL",
     "chapter": 3,
     "verse": 5,
-    "content": "Put to death therefore your members which are upon the earth: fornication, uncleanness, passion, evil desire, and covetousness, which is idolatry;"
+    "content": {
+      "paragraph": true,
+      "text": "Put to death therefore your members which are upon the earth: fornication, uncleanness, passion, evil desire, and covetousness, which is idolatry;"
+    }
   },
   {
     "book": "COL",
     "chapter": 3,
     "verse": 6,
-    "content": "for which things’ sake cometh the wrath of God upon the sons of disobedience:"
+    "content": [
+      {
+        "text": "for which things’ sake cometh the wrath of God ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "upon the sons of disobedience", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Ephesians 5:6", "content": "Eph. 5:6" },
+            "."
+          ]
+        }
+      },
+      "upon the sons of disobedience:"
+    ]
   },
   {
     "book": "COL",
     "chapter": 3,
     "verse": 7,
-    "content": "wherein ye also once walked, when ye lived in these things;"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "amongst whom", "marks": ["i"] }]
+        }
+      },
+      "wherein ye also once walked, when ye lived in these things;"
+    ]
   },
   {
     "book": "COL",
@@ -390,43 +864,114 @@
     "book": "COL",
     "chapter": 3,
     "verse": 12,
-    "content": "Put on therefore, as God’s elect, holy and beloved, a heart of compassion, kindness, lowliness, meekness, longsuffering;"
+    "content": {
+      "paragraph": true,
+      "text": "Put on therefore, as God’s elect, holy and beloved, a heart of compassion, kindness, lowliness, meekness, longsuffering;"
+    }
   },
   {
     "book": "COL",
     "chapter": 3,
     "verse": 13,
-    "content": "forbearing one another, and forgiving each other, if any man have a complaint against any; even as the Lord forgave you, so also do ye:"
+    "content": [
+      {
+        "text": "forbearing one another, and forgiving each other, if any man have a complaint against any; even as ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "Christ", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the Lord forgave you, so also do ye:"
+    ]
   },
   {
     "book": "COL",
     "chapter": 3,
     "verse": 14,
-    "content": "and above all these things put on love, which is the bond of perfectness."
+    "content": [
+      "and above all these things ",
+      { "text": "put on", "marks": ["i"] },
+      " love, which is the bond of perfectness."
+    ]
   },
   {
     "book": "COL",
     "chapter": 3,
     "verse": 15,
-    "content": "And let the peace of Christ rule in your hearts, to the which also ye were called in one body; and be ye thankful."
+    "content": [
+      {
+        "text": "And let the peace of Christ ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "arbitrate", "marks": ["i"] }, "."]
+        }
+      },
+      "rule in your hearts, to the which also ye were called in one body; and be ye thankful."
+    ]
   },
   {
     "book": "COL",
     "chapter": 3,
     "verse": 16,
-    "content": "Let the word of Christ dwell in you richly; in all wisdom teaching and admonishing one another with psalms and hymns and spiritual songs, singing with grace in your hearts unto God."
+    "content": [
+      {
+        "text": "Let the word of ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "the Lord", "marks": ["i"] },
+            "; others ",
+            { "text": "God", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "Christ dwell in you ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "richly in all wisdom; teaching etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "richly; in all wisdom teaching and admonishing ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "yourselves", "marks": ["i"] }]
+        }
+      },
+      "one another with psalms ",
+      { "text": "and", "marks": ["i"] },
+      " hymns ",
+      { "text": "and", "marks": ["i"] },
+      " spiritual songs, singing with grace in your hearts unto God."
+    ]
   },
   {
     "book": "COL",
     "chapter": 3,
     "verse": 17,
-    "content": "And whatsoever ye do, in word or in deed, do all in the name of the Lord Jesus, giving thanks to God the Father through him."
+    "content": [
+      "And whatsoever ye do, in word or in deed, ",
+      { "text": "do", "marks": ["i"] },
+      " all in the name of the Lord Jesus, giving thanks to God the Father through him."
+    ]
   },
   {
     "book": "COL",
     "chapter": 3,
     "verse": 18,
-    "content": "Wives, be in subjection to your husbands, as is fitting in the Lord."
+    "content": {
+      "paragraph": true,
+      "text": "Wives, be in subjection to your husbands, as is fitting in the Lord."
+    }
   },
   {
     "book": "COL",
@@ -450,13 +995,41 @@
     "book": "COL",
     "chapter": 3,
     "verse": 22,
-    "content": "Servants, obey in all things them that are your masters according to the flesh; not with eye-service, as men-pleasers, but in singleness of heart, fearing the Lord:"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Bondservants", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Servants, obey in all things them that are your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "lords", "marks": ["i"] }, "."]
+        }
+      },
+      "masters according to the flesh; not with eye-service, as men-pleasers, but in singleness of heart, fearing the Lord:"
+    ]
   },
   {
     "book": "COL",
     "chapter": 3,
     "verse": 23,
-    "content": "whatsoever ye do, work heartily, as unto the Lord, and not unto men;"
+    "content": [
+      {
+        "text": "whatsoever ye do, work ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "from the soul", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "heartily, as unto the Lord, and not unto men;"
+    ]
   },
   {
     "book": "COL",
@@ -468,22 +1041,61 @@
     "book": "COL",
     "chapter": 3,
     "verse": 25,
-    "content": "For he that doeth wrong shall receive again for the wrong that he hath done: and there is no respect of persons."
+    "content": [
+      {
+        "text": "For he that doeth wrong shall ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "receive again the wrong", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "receive again for the wrong that he hath done: and there is no respect of persons."
+    ]
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Masters, render unto your servants that which is just and equal; knowing that ye also have a Master in heaven."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Lords", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Masters, render unto your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservants", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "servants that which is just and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "equality", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "equal; knowing that ye also have a Master in heaven.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 2,
-    "content": "Continue stedfastly in prayer, watching therein with thanksgiving;"
+    "content": {
+      "paragraph": true,
+      "text": "Continue stedfastly in prayer, watching therein with thanksgiving;"
+    }
   },
   {
     "book": "COL",
@@ -501,49 +1113,88 @@
     "book": "COL",
     "chapter": 4,
     "verse": 5,
-    "content": "Walk in wisdom toward them that are without, redeeming the time."
+    "content": [
+      {
+        "text": "Walk in wisdom toward them that are without, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "buying up the opportunity", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "redeeming the time."
+    ]
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 6,
-    "content": "Let your speech be always with grace, seasoned with salt, that ye may know how ye ought to answer each one."
+    "content": {
+      "text": "Let your speech be always with grace, seasoned with salt, that ye may know how ye ought to answer each one.",
+      "break": true
+    }
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 7,
-    "content": "All my affairs shall Tychicus make known unto you, the beloved brother and faithful minister and fellow-servant in the Lord:"
+    "content": {
+      "paragraph": true,
+      "text": "All my affairs shall Tychicus make known unto you, the beloved brother and faithful minister and fellow-servant in the Lord:"
+    }
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 8,
-    "content": "whom I have sent you for this very purpose, that ye may know our state, and that he may comfort your hearts;"
+    "content": "whom I have sent unto you for this very purpose, that ye may know our state, and that he may comfort your hearts;"
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 9,
-    "content": "together with Onesimus, the faithful and beloved brother, who is one of you. They shall make known unto you all things that are done here."
+    "content": [
+      "together with Onesimus, the faithful and beloved brother, who is one of you. They shall make known unto you all things that ",
+      { "text": "are done", "marks": ["i"] },
+      " here."
+    ]
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 10,
-    "content": "Aristarchus my fellow-prisoner saluteth you, and Mark, the cousin of Barnabas (touching whom ye received commandments; if he come unto you, receive him),"
+    "content": {
+      "paragraph": true,
+      "text": "Aristarchus my fellow-prisoner saluteth you, and Mark, the cousin of Barnabas (touching whom ye received commandments; if he come unto you, receive him),"
+    }
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 11,
-    "content": "and Jesus that is called Justus, who are of the circumcision: these only are my fellow-workers unto the kingdom of God, men that have been a comfort unto me."
+    "content": [
+      "and Jesus that is called Justus, who are of the circumcision: these only ",
+      { "text": "are my", "marks": ["i"] },
+      " fellow-workers unto the kingdom of God, men that have been a comfort unto me."
+    ]
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 12,
-    "content": "Epaphras, who is one of you, a servant of Christ Jesus, saluteth you, always striving for you in his prayers, that ye may stand perfect and fully assured in all the will of God."
+    "content": [
+      {
+        "text": "Epaphras, who is one of you, a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
+        }
+      },
+      "servant of Christ Jesus, saluteth you, always striving for you in his prayers, that ye may stand perfect and fully assured in all the will of God."
+    ]
   },
   {
     "book": "COL",
@@ -561,24 +1212,63 @@
     "book": "COL",
     "chapter": 4,
     "verse": 15,
-    "content": "Salute the brethren that are in Laodicea, and Nymphas, and the church that is in their house."
+    "content": [
+      {
+        "text": "Salute the brethren that are in Laodicea, and ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "The Greek may represent ",
+            { "text": "Nympha", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Nymphas, and the church that is in ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "her", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "their house."
+    ]
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 16,
-    "content": "And when this epistle hath been read among you, cause that it be read also in the church of the Laodiceans; and that ye also read the epistle from Laodicea."
+    "content": [
+      {
+        "text": "And when ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "the", "marks": ["i"] }, "."]
+        }
+      },
+      "this epistle hath been read among you, cause that it be read also in the church of the Laodiceans; and that ye also read the epistle from Laodicea."
+    ]
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 17,
-    "content": "And say to Archippus, Take heed to the ministry which thou hast received in the the Lord, that thou fulfil it."
+    "content": {
+      "text": "And say to Archippus, Take heed to the ministry which thou hast received in the Lord, that thou fulfil it.",
+      "break": true
+    }
   },
   {
     "book": "COL",
     "chapter": 4,
     "verse": 18,
-    "content": "The salutation of me Paul with mine own hand. Remember my bonds. Grace be with you."
+    "content": {
+      "paragraph": true,
+      "text": "The salutation of me Paul with mine own hand. Remember my bonds. Grace be with you."
+    }
   }
 ]

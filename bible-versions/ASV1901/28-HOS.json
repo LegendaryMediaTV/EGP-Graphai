@@ -12,7 +12,19 @@
     "book": "HOS",
     "chapter": 1,
     "verse": 2,
-    "content": "When Jehovah spake at the first by Hosea, Jehovah said unto Hosea, Go, take unto thee a wife of whoredom and children of whoredom; for the land doth commit great whoredom, departing from Jehovah."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "When Jehovah spake at the first ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "with", "marks": ["i"] }]
+        }
+      },
+      "by Hosea, Jehovah said unto Hosea, Go, take unto thee a wife of whoredom and children of whoredom; for the land doth commit great whoredom, ",
+      { "text": "departing", "marks": ["i"] },
+      " from Jehovah."
+    ]
   },
   {
     "book": "HOS",
@@ -24,7 +36,16 @@
     "book": "HOS",
     "chapter": 1,
     "verse": 4,
-    "content": "And Jehovah said unto him, Call his name Jezreel; for yet a little while, and I will avenge the blood of Jezreel upon the house of Jehu, and will cause the kingdom of the house of Israel to cease."
+    "content": [
+      {
+        "text": "And Jehovah said unto him, Call his name Jezreel; for yet a little while, and I will ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "visit", "marks": ["i"] }, "."]
+        }
+      },
+      "avenge the blood of Jezreel upon the house of Jehu, and will cause the kingdom of the house of Israel to cease."
+    ]
   },
   {
     "book": "HOS",
@@ -36,7 +57,22 @@
     "book": "HOS",
     "chapter": 1,
     "verse": 6,
-    "content": "And she conceived again, and bare a daughter. And Jehovah said unto him, Call her name Lo-ruhamah; for I will no more have mercy upon the house of Israel, that I should in any wise pardon them."
+    "content": [
+      "And she conceived again, and bare a daughter. And ",
+      { "text": "Jehovah", "marks": ["i"] },
+      {
+        "text": " said unto him, Call her name ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "That hath not obtained mercy", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Lo-ruhamah; for I will no more have mercy upon the house of Israel, that I should in any wise pardon them."
+    ]
   },
   {
     "book": "HOS",
@@ -54,13 +90,52 @@
     "book": "HOS",
     "chapter": 1,
     "verse": 9,
-    "content": "And Jehovah said, Call his name Lo-ammi; for ye are not my people, and I will not be your God."
+    "content": [
+      "And ",
+      { "text": "Jehovah", "marks": ["i"] },
+      {
+        "text": " said, Call his name ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "Not my people", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Lo-ammi; for ye are not my people, and I will not be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "for you", "marks": ["i"] }, "."]
+        }
+      },
+      "your ",
+      { "text": "God", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 1,
     "verse": 10,
-    "content": "Yet the number of the children of Israel shall be as the sand of the sea, which cannot be measured nor numbered; and it shall come to pass that, in the place where it was said unto them, Ye are not my people, it shall be said unto them, Ye are the sons of the living God."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Yet the number of the children of Israel shall be as the sand of the sea, which cannot be measured nor numbered; and it shall come to pass that, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "instead of that which was said", "marks": ["i"] }
+          ]
+        }
+      },
+      "in the place where it was said unto them, Ye are not my people, it shall be said unto them, ",
+      { "text": "Ye are", "marks": ["i"] },
+      " the sons of the living God."
+    ]
   },
   {
     "book": "HOS",
@@ -72,16 +147,37 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Say ye unto your brethren, Ammi; and to your sisters, Ruhamah."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Say ye unto your brethren, ",
+        "foot": {
+          "type": "stu",
+          "content": ["That is, ", { "text": "My people", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Ammi; and to your sisters, ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "That hath obtained mercy", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Ruhamah."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 2,
-    "content": "Contend with your mother, contend; for she is not my wife, neither am I her husband; and let her put away her whoredoms from her face, and her adulteries from between her breasts;"
+    "content": {
+      "paragraph": true,
+      "text": "Contend with your mother, contend; for she is not my wife, neither am I her husband; and let her put away her whoredoms from her face, and her adulteries from between her breasts;"
+    }
   },
   {
     "book": "HOS",
@@ -99,7 +195,16 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 5,
-    "content": "for their mother hath played the harlot; she that conceived them hath done shamefully; for she said, I will go after my lovers, that give me my bread and my water, my wool and my flax, mine oil and my drink."
+    "content": [
+      {
+        "text": "for their mother hath played the harlot; she that conceived them hath done shamefully; for she said, I will go after my lovers, that give me my bread and my water, my wool and my flax, mine oil and my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "drinks", "marks": ["i"] }, "."]
+        }
+      },
+      "drink."
+    ]
   },
   {
     "book": "HOS",
@@ -117,25 +222,70 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 8,
-    "content": "For she did not know that I gave her the grain, and the new wine, and the oil, and multiplied unto her silver and gold, which they used for Baal."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For she did not know that I gave her the grain, and the new wine, and the oil, and multiplied unto her silver and gold, which they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "made into the", "marks": ["i"] },
+            " image of ",
+            { "text": "Baal", "marks": ["i"] }
+          ]
+        }
+      },
+      "used for Baal."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 9,
-    "content": "Therefore will I take back my grain in the time thereof, and my new wine in the season thereof, and will pluck away my wool and my flax which should have covered her nakedness."
+    "content": [
+      {
+        "text": "Therefore will I ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "return, and take away", "marks": ["i"] }
+          ]
+        }
+      },
+      "take back my grain in the time thereof, and my new wine in the season thereof, and will pluck away my wool and my flax which should have covered her nakedness."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 10,
-    "content": "And now will I uncover her lewdness in the sight of her lovers, and none shall deliver her out of my hand."
+    "content": [
+      {
+        "text": "And now will I uncover her ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shame", "marks": ["i"] }]
+        }
+      },
+      "lewdness in the sight of her lovers, and none shall deliver her out of my hand."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 11,
-    "content": "I will also cause all her mirth to cease, her feasts, her new moons, and her sabbaths, and all her solemn assemblies."
+    "content": [
+      {
+        "text": "I will also cause all her mirth to cease, her feasts, her new moons, and her sabbaths, and all her ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "appointed feasts", "marks": ["i"] }]
+        }
+      },
+      "solemn assemblies."
+    ]
   },
   {
     "book": "HOS",
@@ -147,31 +297,109 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 13,
-    "content": "And I will visit upon her the days of the Baalim, unto which she burned incense, when she decked herself with her earrings and her jewels, and went after her lovers, and forgat me, saith Jehovah."
+    "content": [
+      {
+        "text": "And I will visit upon her the days of the Baalim, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "wherein she burned incense to them", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "unto which she burned incense, when she decked herself with her ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "nose-rings", "marks": ["i"] }]
+        }
+      },
+      "earrings and her jewels, and went after her lovers, and forgat me, saith Jehovah."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 14,
-    "content": "Therefore, behold, I will allure her, and bring her into the wilderness, and speak comfortably unto her."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Therefore, behold, I will allure her, and bring her into the wilderness, and speak ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "to her heart", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "comfortably unto her."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 15,
-    "content": "And I will give her her vineyards from thence, and the valley of Achor for a door of hope; and she shall make answer there, as in the days of her youth, and as in the day when she came up out of the land of Egypt."
+    "content": [
+      {
+        "text": "And I will give her her vineyards from thence, and the valley of ",
+        "foot": {
+          "type": "stu",
+          "content": ["That is, ", { "text": "Troubling", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Achor for a door of hope; and she shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sing", "marks": ["i"] }]
+        }
+      },
+      "make answer there, as in the days of her youth, and as in the day when she came up out of the land of Egypt."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 16,
-    "content": "And it shall be at that day, saith Jehovah, that thou shalt call me Ishi, and shalt call me no more Baali."
+    "content": [
+      {
+        "text": "And it shall be at that day, saith Jehovah, that thou shalt call me ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "My husband", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Ishi, and shalt call me no more ",
+        "foot": {
+          "type": "stu",
+          "content": ["That is, ", { "text": "My master", "marks": ["i"] }, "."]
+        }
+      },
+      "Baali."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 17,
-    "content": "For I will take away the names of the Baalim out of her mouth, and they shall no more be mentioned by their name."
+    "content": [
+      {
+        "text": "For I will take away the names of the Baalim out of her mouth, and they shall no more be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "remembered", "marks": ["i"] }]
+        }
+      },
+      "mentioned by their name."
+    ]
   },
   {
     "book": "HOS",
@@ -195,34 +423,121 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 21,
-    "content": "And it shall come to pass in that day, I will answer, saith Jehovah, I will answer the heavens, and they shall answer the earth;"
+    "content": {
+      "paragraph": true,
+      "text": "And it shall come to pass in that day, I will answer, saith Jehovah, I will answer the heavens, and they shall answer the earth;"
+    }
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 22,
-    "content": "and the earth shall answer the grain, and the new wine, and the oil; and they shall answer Jezreel."
+    "content": [
+      {
+        "text": "and the earth shall answer the grain, and the new wine, and the oil; and they shall answer ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "Whom God soweth", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Jezreel."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 23,
-    "content": "And I will sow her unto me in the earth; and I will have mercy upon her that had not obtained mercy; and I will say to them that were not my people, Thou art my people; and they shall say, Thou art my God."
+    "content": [
+      {
+        "text": "And I will sow her unto me in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "land", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "earth; and I will have mercy upon ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Lo-ruhamah", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Hosea 1:6", "content": "1:6" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "her that had not obtained mercy; and I will say to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Lo-ammi", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Hosea 1:9", "content": "1:9" },
+            ", ",
+            { "bibleLink": "Hosea 1:10", "content": "10" },
+            "."
+          ]
+        }
+      },
+      "them that were not my people, Thou art my people; and they shall say, ",
+      { "text": "Thou art", "marks": ["i"] },
+      " my God."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And Jehovah said unto me, Go again, love a woman beloved of her friend, and an adulteress, even as Jehovah loveth the children of Israel, though they turn unto other gods, and love cakes of raisins."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Jehovah said unto me, Go again, love a woman beloved ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "of", "marks": ["i"] },
+            " her ",
+            { "text": "husband, yet an etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "of ",
+      { "text": "her", "marks": ["i"] },
+      {
+        "text": " friend, and an adulteress, even as Jehovah loveth the children of Israel, though they turn unto other gods, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "them that love", "marks": ["i"] }]
+        }
+      },
+      "love cakes of raisins."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 3,
     "verse": 2,
-    "content": "So I bought her to me for fifteen pieces of silver, and a homer of barley, and a half-homer of barley;"
+    "content": [
+      "So I bought her to me for fifteen ",
+      { "text": "pieces", "marks": ["i"] },
+      {
+        "text": " of silver, and a homer of barley, and a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "lethech", "marks": ["i"] }, "."]
+        }
+      },
+      "half-homer of barley;"
+    ]
   },
   {
     "book": "HOS",
@@ -234,13 +549,25 @@
     "book": "HOS",
     "chapter": 3,
     "verse": 4,
-    "content": "For the children of Israel shall abide many days without king, and without prince, and without sacrifice, and without pillar, and without ephod or teraphim:"
+    "content": [
+      {
+        "text": "For the children of Israel shall abide many days without king, and without prince, and without sacrifice, and without ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "obelisk", "marks": ["i"] }]
+        }
+      },
+      "pillar, and without ephod or teraphim:"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 3,
     "verse": 5,
-    "content": "afterward shall the children of Israel return, and seek Jehovah their God, and David their king, and shall come with fear unto Jehovah and to his goodness in the latter days."
+    "content": {
+      "text": "afterward shall the children of Israel return, and seek Jehovah their God, and David their king, and shall come with fear unto Jehovah and to his goodness in the latter days.",
+      "break": true
+    }
   },
   {
     "book": "HOS",
@@ -279,7 +606,20 @@
     "book": "HOS",
     "chapter": 4,
     "verse": 6,
-    "content": "My people are destroyed for lack of knowledge: because thou hast rejected knowledge, I will also reject thee, that thou shalt be no priest to me: seeing thou hast forgotten the law of thy God, I also will forget thy children."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "My people are destroyed for lack of knowledge: because thou hast rejected knowledge, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "I have rejected", "marks": ["i"] }
+          ]
+        }
+      },
+      "I will also reject thee, that thou shalt be no priest to me: seeing thou hast forgotten the law of thy God, I also will forget thy children."
+    ]
   },
   {
     "book": "HOS",
@@ -309,13 +649,27 @@
     "book": "HOS",
     "chapter": 4,
     "verse": 11,
-    "content": "Whoredom and wine and new wine take away the understanding."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Whoredom and wine and new wine take away the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "heart", "marks": ["i"] }, "."]
+        }
+      },
+      "understanding."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 4,
     "verse": 12,
-    "content": "My people ask counsel at their stock, and their staff declareth unto them; for the spirit of whoredom hath caused them to err, and they have played the harlot, departing from under their God."
+    "content": [
+      "My people ask counsel at their stock, and their staff declareth unto them; for the spirit of whoredom hath caused them to err, and they have played the harlot, ",
+      { "text": "departing", "marks": ["i"] },
+      " from under their God."
+    ]
   },
   {
     "book": "HOS",
@@ -327,13 +681,34 @@
     "book": "HOS",
     "chapter": 4,
     "verse": 14,
-    "content": "I will not punish your daughters when they play the harlot, nor your brides when they commit adultery; for the men themselves go apart with harlots, and they sacrifice with the prostitutes; and the people that doth not understand shall be overthrown."
+    "content": [
+      {
+        "text": "I will not punish your daughters when they play the harlot, nor your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "daughters-in-law", "marks": ["i"] }]
+        }
+      },
+      "brides when they commit adultery; for ",
+      { "text": "the men", "marks": ["i"] },
+      " themselves go apart with harlots, and they sacrifice with the prostitutes; and the people that doth not understand shall be overthrown."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 4,
     "verse": 15,
-    "content": "Though thou, Israel, play the harlot, yet let not Judah offend; and come not ye unto Gilgal, neither go ye up to Beth-aven, nor swear, As Jehovah liveth."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Though thou, Israel, play the harlot, yet let not Judah ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "become guilty", "marks": ["i"] }]
+        }
+      },
+      "offend; and come not ye unto Gilgal, neither go ye up to Beth-aven, nor swear, As Jehovah liveth."
+    ]
   },
   {
     "book": "HOS",
@@ -345,34 +720,110 @@
     "book": "HOS",
     "chapter": 4,
     "verse": 17,
-    "content": "Ehraim is joined to idols; let him alone."
+    "content": "Ephraim is joined to idols; let him alone."
   },
   {
     "book": "HOS",
     "chapter": 4,
     "verse": 18,
-    "content": "Their drink is become sour; they play the harlot continually; her rulers dearly love shame."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Their carouse is over", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "Their drink is become sour; they play the harlot continually; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "they are given up to love; her rulers are a shame",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "her ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "shields", "marks": ["i"] }, "."]
+        }
+      },
+      "rulers dearly love shame."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 4,
     "verse": 19,
-    "content": "The wind hath wrapped her up in its wings; and they shall be put to shame because of their sacrifices."
+    "content": [
+      {
+        "text": "The wind hath wrapped her up in its ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "skirts", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "wings; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, as otherwise read, ",
+            { "text": "their altars shall be put to shame", "marks": ["i"] }
+          ]
+        }
+      },
+      "they shall be put to shame because of their sacrifices."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Hear this, O ye priests, and hearken, O house of Israel, and give ear, O house of the king; for unto you pertaineth the judgment; for ye have been a snare at Mizpah, and a net spread upon Tabor."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Hear this, O ye priests, and hearken, O house of Israel, and give ear, O house of the king; for ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "against you is the judgment", "marks": ["i"] }
+          ]
+        }
+      },
+      "unto you pertaineth the judgment; for ye have been a snare at Mizpah, and a net spread upon Tabor."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 2,
-    "content": "And the revolters are gone deep in making slaughter; but I am a rebuker of them all."
+    "content": [
+      {
+        "text": "And the revolters are gone deep ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in corruption", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "in making slaughter; but I am a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "rebuke", "marks": ["i"] }, "."]
+        }
+      },
+      "rebuker of them all."
+    ]
   },
   {
     "book": "HOS",
@@ -384,13 +835,40 @@
     "book": "HOS",
     "chapter": 5,
     "verse": 4,
-    "content": "Their doings will not suffer them to turn unto their God; for the spirit of whoredom is within them, and they know not Jehovah."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "They will not frame their doings", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "Their doings will not suffer them to turn unto their God; for the spirit of whoredom is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in the midst of", "marks": ["i"] }]
+        }
+      },
+      "within them, and they know not Jehovah."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 5,
-    "content": "And the pride of Israel doth testify to his face: therefore Israel and Ephraim shall stumble in their iniquity; Judah also shall stumble with them."
+    "content": [
+      {
+        "text": "And the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "excellency", "marks": ["i"] }]
+        }
+      },
+      "pride of Israel doth testify to his face: therefore Israel and Ephraim shall stumble in their iniquity; Judah also shall stumble with them."
+    ]
   },
   {
     "book": "HOS",
@@ -402,13 +880,49 @@
     "book": "HOS",
     "chapter": 5,
     "verse": 7,
-    "content": "They have dealt treacherously against Jehovah; for they have borne strange children: now shall the new moon devour them with their fields."
+    "content": [
+      {
+        "text": "They have dealt treacherously against Jehovah; for they have ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "begotten", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "borne strange children: now shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a month", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "the new moon devour them with their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "portions", "marks": ["i"] }, "."]
+        }
+      },
+      "fields."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 8,
-    "content": "Blow ye the cornet in Gibeah, and the trumpet in Ramah: sound an alarm at Beth-aven; behind thee, O Benjamin."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Blow ye the cornet in Gibeah, and the trumpet in Ramah: sound an alarm at Beth-aven; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "After thee, Benjamin!", "marks": ["i"] }
+          ]
+        }
+      },
+      "behind thee, O Benjamin."
+    ]
   },
   {
     "book": "HOS",
@@ -426,19 +940,45 @@
     "book": "HOS",
     "chapter": 5,
     "verse": 11,
-    "content": "Ephraim is oppressed, he is crushed in judgment; because he was content to walk after man’s command."
+    "content": [
+      "Ephraim is oppressed, he is crushed in judgment; because he was content to walk after ",
+      { "text": "man’s", "marks": ["i"] },
+      " command."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 12,
-    "content": "Therefore am I unto Ephraim as a moth, and to the house of Judah as rottenness."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "And I was", "marks": ["i"] }]
+        }
+      },
+      "Therefore am I unto Ephraim as a moth, and to the house of Judah as rottenness."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 13,
-    "content": "When Ephraim saw his sickness, and Judah saw his wound, then went Ephraim to Assyria, and sent to king Jareb: but he is not able to heal you, neither will he cure you of your wound."
+    "content": [
+      "When Ephraim saw his sickness, and Judah ",
+      { "text": "saw", "marks": ["i"] },
+      {
+        "text": " his wound, then went Ephraim to Assyria, and sent to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "a king that should contend", "marks": ["i"] }
+          ]
+        }
+      },
+      "king Jareb: but he is not able to heal you, neither will he cure you of your wound."
+    ]
   },
   {
     "book": "HOS",
@@ -450,7 +990,30 @@
     "book": "HOS",
     "chapter": 5,
     "verse": 15,
-    "content": "I will go and return to my place, till they acknowledge their offence, and seek my face: in their affliction they will seek me earnestly."
+    "content": [
+      {
+        "text": "I will go and return to my place, till they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "have borne their guilt", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "acknowledge their offence, and seek my face: in their affliction they will seek me ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "earnestly", "marks": ["i"] },
+            ", saying"
+          ]
+        }
+      },
+      "earnestly."
+    ]
   },
   {
     "book": "HOS",
@@ -477,25 +1040,80 @@
     "book": "HOS",
     "chapter": 6,
     "verse": 4,
-    "content": "O Ephraim, what shall I do unto thee? O Judah, what shall I do unto thee? for your goodness is as a morning cloud, and as the dew that goeth early away."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "O Ephraim, what shall I do unto thee? O Judah, what shall I do unto thee? for your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "kindness", "marks": ["i"] }]
+        }
+      },
+      "goodness is as a morning cloud, and as the dew that goeth early away."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 5,
-    "content": "Therefore have I hewed them by the prophets; I have slain them by the words of my mouth: and thy judgments are as the light that goeth forth."
+    "content": [
+      {
+        "text": "Therefore have I hewed them by the prophets; I have slain them by the words of my mouth: and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Or, according to another reading, ",
+            { "text": "my", "marks": ["i"] }
+          ]
+        }
+      },
+      "thy judgments are ",
+      { "text": "as", "marks": ["i"] },
+      " the light that goeth forth."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 6,
-    "content": "For I desire goodness, and not sacrifice; and the knowledge of God more than burnt-offerings."
+    "content": [
+      {
+        "text": "For I desire ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "kindness", "marks": ["i"] }]
+        }
+      },
+      "goodness, and not sacrifice; and the knowledge of God more than burnt-offerings."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 7,
-    "content": "But they like Adam have transgressed the covenant: there have they dealt treacherously against me."
+    "content": [
+      {
+        "text": "But they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "are as men that have transgressed a covenant",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "like ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "men", "marks": ["i"] }]
+        }
+      },
+      "Adam have transgressed the covenant: there have they dealt treacherously against me."
+    ]
   },
   {
     "book": "HOS",
@@ -507,28 +1125,59 @@
     "book": "HOS",
     "chapter": 6,
     "verse": 9,
-    "content": "And as troops of robbers wait for a man, so the company of priests murder in the way toward Shechem; yea, they have committed lewdness."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "And as robbers lying in wait, so etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "And as troops of robbers wait for a man, so the company of priests murder in the way toward Shechem; yea, they have committed lewdness."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 10,
-    "content": "In the house of Israel I have seen a horrible thing: there whoredom is found in Ephraim, Israel is defiled."
+    "content": [
+      "In the house of Israel I have seen a horrible thing: there whoredom is ",
+      { "text": "found", "marks": ["i"] },
+      " in Ephraim, Israel is defiled."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 11,
-    "content": "Also, O Judah, there is a harvest appointed for thee, when I bring back the captivity of my people."
+    "content": [
+      {
+        "text": "Also, O Judah, there is a harvest appointed for thee, when I ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
+        }
+      },
+      "bring back the captivity of my people."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "When I would heal Israel, then is the iniquity of Ephraim uncovered, and the wickedness of Samaria; for they commit falsehood, and the thief entereth in, and the troop of robbers ravageth without."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "When I would heal Israel, then is the iniquity of Ephraim uncovered, and the wickedness of Samaria; for they commit falsehood, and the thief entereth in, and the troop of robbers ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "maketh a raid", "marks": ["i"] }]
+        }
+      },
+      "ravageth without."
+    ]
   },
   {
     "book": "HOS",
@@ -546,19 +1195,45 @@
     "book": "HOS",
     "chapter": 7,
     "verse": 4,
-    "content": "They are all adulterers; they are as an oven heated by the baker; he ceaseth to stir the fire, from the kneading of the dough, until it be leavened."
+    "content": [
+      "They are all adulterers; they are as an oven heated by the baker; he ceaseth to stir ",
+      { "text": "the fire", "marks": ["i"] },
+      ", from the kneading of the dough, until it be leavened."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 5,
-    "content": "On the day of our king the princes made themselves sick with the heat of wine; he stretched out his hand with scoffers."
+    "content": [
+      {
+        "text": "On the day of our king the princes made ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "him", "marks": ["i"] }]
+        }
+      },
+      "themselves sick with the heat of wine; he stretched out his hand with scoffers."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 6,
-    "content": "For they have made ready their heart like an oven, while they lie in wait: their baker sleepeth all the night; in the morning it burneth as a flaming fire."
+    "content": [
+      {
+        "text": "For they have ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "brought near", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "made ready their heart like an oven, while they lie in wait: their baker sleepeth all the night; in the morning it burneth as a flaming fire."
+    ]
   },
   {
     "book": "HOS",
@@ -570,31 +1245,80 @@
     "book": "HOS",
     "chapter": 7,
     "verse": 8,
-    "content": "Ephraim, he mixeth himself among the peoples; Ephraim is a cake not turned."
+    "content": {
+      "paragraph": true,
+      "text": "Ephraim, he mixeth himself among the peoples; Ephraim is a cake not turned."
+    }
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 9,
-    "content": "Strangers have devoured his strength, and he knoweth it not: yea, gray hairs are here and there upon him, and he knoweth it not."
+    "content": [
+      "Strangers have devoured his strength, and he knoweth ",
+      { "text": "it", "marks": ["i"] },
+      {
+        "text": " not: yea, gray hairs are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "sprinkled", "marks": ["i"] }, "."]
+        }
+      },
+      "here and there upon him, and he knoweth ",
+      { "text": "it", "marks": ["i"] },
+      " not."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 10,
-    "content": "And the pride of Israel doth testify to his face: yet they have not returned unto Jehovah their God, nor sought him, for all this."
+    "content": [
+      {
+        "text": "And the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "excellency", "marks": ["i"] }]
+        }
+      },
+      "pride of Israel doth testify to his face: yet they have not returned unto Jehovah their God, nor sought him, for all this."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 11,
-    "content": "And Ephraim is like a silly dove, without understanding: they call unto Egypt, they go to Assyria."
+    "content": [
+      {
+        "text": "And Ephraim is like a silly dove, without ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "heart", "marks": ["i"] }, "."]
+        }
+      },
+      "understanding: they call unto Egypt, they go to Assyria."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 12,
-    "content": "When they shall go, I will spread my net upon them; I will bring them down as the birds of the heavens; I will chastise them, as their congregation hath heard."
+    "content": [
+      {
+        "text": "When they shall go, I will spread my net upon them; I will bring them down as the birds of the heavens; I will chastise them, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "when the report cometh to their congregation",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "as their congregation hath heard."
+    ]
   },
   {
     "book": "HOS",
@@ -612,22 +1336,50 @@
     "book": "HOS",
     "chapter": 7,
     "verse": 15,
-    "content": "Though I have taught and strengthened their arms, yet do they devise mischief against me."
+    "content": [
+      {
+        "text": "Though I have ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "chastened", "marks": ["i"] }, " them"]
+        }
+      },
+      "taught and strengthened their arms, yet do they devise mischief against me."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 16,
-    "content": "They return, but not to him that is on high; they are like a deceitful bow; their princes shall fall by the sword for the rage of their tongue: this shall be their derision in the land of Egypt."
+    "content": [
+      "They return, but not to ",
+      { "text": "him that is", "marks": ["i"] },
+      " on high; they are like a deceitful bow; their princes shall fall by the sword for the rage of their tongue: this shall be their derision in the land of Egypt."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Set the trumpet to thy mouth. As an eagle he cometh against the house of Jehovah, because they have transgressed my covenant, and trespassed against my law."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "The trumpet to thy mouth! As an eagle against the house of Jehovah!",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": "Set", "marks": ["i"] },
+      " the trumpet to thy mouth. As an eagle ",
+      { "text": "he cometh", "marks": ["i"] },
+      " against the house of Jehovah, because they have transgressed my covenant, and trespassed against my law."
+    ]
   },
   {
     "book": "HOS",
@@ -645,7 +1397,20 @@
     "book": "HOS",
     "chapter": 8,
     "verse": 4,
-    "content": "They have set up kings, but not by me; they have made princes, and I knew it not: of their silver and their gold have they made them idols, that they may be cut off."
+    "content": [
+      {
+        "text": "They have set up kings, but not by me; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "they have removed", "marks": ["i"] },
+            " them"
+          ]
+        }
+      },
+      "they have made princes, and I knew it not: of their silver and their gold have they made them idols, that they may be cut off."
+    ]
   },
   {
     "book": "HOS",
@@ -663,31 +1428,72 @@
     "book": "HOS",
     "chapter": 8,
     "verse": 7,
-    "content": "For they sow the wind, and they shall reap the whirlwind: he hath no standing grain; the blade shall yield no meal; if so be it yield, strangers shall swallow it up."
+    "content": [
+      {
+        "text": "For they sow the wind, and they shall reap the whirlwind: ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it hath no stalk", "marks": ["i"] }]
+        }
+      },
+      "he hath no standing grain; the blade shall yield no meal; if so be it yield, strangers shall swallow it up."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 8,
     "verse": 8,
-    "content": "Israel is swallowed up: now are they among the nations as a vessel wherein none delighteth."
+    "content": {
+      "paragraph": true,
+      "text": "Israel is swallowed up: now are they among the nations as a vessel wherein none delighteth."
+    }
   },
   {
     "book": "HOS",
     "chapter": 8,
     "verse": 9,
-    "content": "For they are gone up to Assyria, like a wild ass alone by himself: Ephraim hath hired lovers."
+    "content": [
+      "For they are gone up to Assyria, ",
+      { "text": "like", "marks": ["i"] },
+      {
+        "text": " a wild ass alone by himself: Ephraim hath hired ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "loves", "marks": ["i"] }, "."]
+        }
+      },
+      "lovers."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 8,
     "verse": 10,
-    "content": "Yea, though they hire among the nations, now will I gather them; And they begin to be diminished by reason of the burden of the king of princes."
+    "content": [
+      {
+        "text": "Yea, though they hire among the nations, now will I gather them; and they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, as otherwise read, ",
+            { "text": "shall sorrow a little", "marks": ["i"] },
+            " (or ",
+            { "text": "for a little while", "marks": ["i"] },
+            ")"
+          ]
+        }
+      },
+      "begin to be diminished by reason of the burden of the king of princes."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 8,
     "verse": 11,
-    "content": "Because Ephraim hath multiplied altars for sinning, altars have been unto him for sinning."
+    "content": {
+      "paragraph": true,
+      "text": "Because Ephraim hath multiplied altars for sinning, altars have been unto him for sinning."
+    }
   },
   {
     "book": "HOS",
@@ -705,16 +1511,48 @@
     "book": "HOS",
     "chapter": 8,
     "verse": 14,
-    "content": "For Israel hath forgotten his Maker, and builded palaces; and Judah hath multiplied fortified cities: but I will send a fire upon his cities, and it shall devour the castles thereof."
+    "content": [
+      {
+        "text": "For Israel hath forgotten his Maker, and builded ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "temples", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "palaces; and Judah hath multiplied fortified cities: but I will send a fire upon his cities, and it shall devour the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "palaces", "marks": ["i"] }]
+        }
+      },
+      "castles thereof."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Rejoice not, O Israel, for joy, like the peoples; for thou hast played the harlot, departing from thy God; thou hast loved hire upon every grain-floor."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Rejoice not, O Israel, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "unto exultation", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "for joy, like the peoples; ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "that", "marks": ["i"] }]
+        }
+      },
+      "for thou hast played the harlot, ",
+      { "text": "departing", "marks": ["i"] },
+      " from thy God; thou hast loved hire upon every grain-floor."
+    ]
   },
   {
     "book": "HOS",
@@ -732,7 +1570,26 @@
     "book": "HOS",
     "chapter": 9,
     "verse": 4,
-    "content": "They shall not pour out wine-offerings to Jehovah, neither shall they be pleasing unto him: their sacrifices shall be unto them as the bread of mourners; all that eat thereof shall be polluted; for their bread shall be for their appetite; it shall not come into the house of Jehovah."
+    "content": [
+      "They shall not pour out wine-",
+      { "text": "offerings", "marks": ["i"] },
+      {
+        "text": " to Jehovah, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "neither shall their sacrifices be pleasing unto him:",
+              "marks": ["i"]
+            },
+            " their bread ",
+            { "text": "shall be unto them etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "neither shall they be pleasing unto him: their sacrifices shall be unto them as the bread of mourners; all that eat thereof shall be polluted; for their bread shall be for their appetite; it shall not come into the house of Jehovah."
+    ]
   },
   {
     "book": "HOS",
@@ -744,7 +1601,11 @@
     "book": "HOS",
     "chapter": 9,
     "verse": 6,
-    "content": "For, lo, they are gone away from destruction; yet Egypt shall gather them up, Memphis shall bury them; their pleasant things of silver, nettles shall possess them; thorns shall be in their tents."
+    "content": [
+      "For, lo, they are gone away from destruction; ",
+      { "text": "yet", "marks": ["i"] },
+      " Egypt shall gather them up, Memphis shall bury them; their pleasant things of silver, nettles shall possess them; thorns shall be in their tents."
+    ]
   },
   {
     "book": "HOS",
@@ -756,7 +1617,19 @@
     "book": "HOS",
     "chapter": 9,
     "verse": 8,
-    "content": "Ephraim was a watchman with my God: as for the prophet, a fowler’s snare is in all his ways, and enmity in the house of his God."
+    "content": [
+      {
+        "text": "Ephraim ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "watcheth against", "marks": ["i"] }]
+        }
+      },
+      { "text": "was", "marks": ["i"] },
+      " a watchman with my God: as for the prophet, a fowler’s snare is in all his ways, ",
+      { "text": "and", "marks": ["i"] },
+      " enmity in the house of his God."
+    ]
   },
   {
     "book": "HOS",
@@ -768,7 +1641,24 @@
     "book": "HOS",
     "chapter": 9,
     "verse": 10,
-    "content": "I found Israel like grapes in the wilderness; I saw your fathers as the first-ripe in the fig-tree at its first season: but they came to Baal-peor, and consecrated themselves unto the shameful thing, and became abominable like that which they loved."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I found Israel like grapes in the wilderness; I saw your fathers as the first-ripe in the fig-tree at its first season: but they came to Baal-peor, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "separated", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "consecrated themselves unto the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "shame", "marks": ["i"] }, "."]
+        }
+      },
+      "shameful thing, and became abominable like that which they loved."
+    ]
   },
   {
     "book": "HOS",
@@ -786,7 +1676,22 @@
     "book": "HOS",
     "chapter": 9,
     "verse": 13,
-    "content": "Ephraim, like as I have seen Tyre, is planted in a pleasant place: but Ephraim shall bring out his children to the slayer."
+    "content": [
+      {
+        "text": "Ephraim, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "as I have seen, is like Tyre, that is planted etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "like as I have seen Tyre, is planted in a pleasant place: but Ephraim shall bring out his children to the slayer."
+    ]
   },
   {
     "book": "HOS",
@@ -816,16 +1721,55 @@
     "book": "HOS",
     "chapter": 10,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Israel is a luxuriant vine, that putteth forth his fruit: according to the abundance of his fruit he hath multiplied his altars; according to the goodness of their land they have made goodly pillars."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Israel is a luxuriant vine, that putteth forth his fruit: according to the abundance of his fruit he hath multiplied his altars; according to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "prosperity", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "goodness of their land they have made goodly ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "obelisks", "marks": ["i"] }]
+        }
+      },
+      "pillars."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 2,
-    "content": "Their heart is divided; now shall they be found guilty: he will smite their altars, he will destroy their pillars."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "He hath divided their heart", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "Their heart is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "smooth", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "divided; now shall they be found guilty: he will smite their altars, he will destroy their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "obelisks", "marks": ["i"] }]
+        }
+      },
+      "pillars."
+    ]
   },
   {
     "book": "HOS",
@@ -837,25 +1781,98 @@
     "book": "HOS",
     "chapter": 10,
     "verse": 4,
-    "content": "They speak vain words, swearing falsely in making covenants: therefore judgment springeth up as hemlock in the furrows of the field."
+    "content": [
+      { "paragraph": true, "text": "They speak " },
+      { "text": "vain", "marks": ["i"] },
+      {
+        "text": " words, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "they swear falsely, they make covenants",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "swearing falsely in making covenants: therefore judgment ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shall spring up", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "springeth up as ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "rosh", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Deuteronomy 29:18", "content": "Dt. 29:18" },
+            "."
+          ]
+        }
+      },
+      "hemlock in the furrows of the field."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 5,
-    "content": "The inhabitants of Samaria shall be in terror for the calves of Beth-aven; for the people thereof shall mourn over it, and the priests thereof that rejoiced over it, for the glory thereof, because it is departed from it."
+    "content": [
+      {
+        "text": "The inhabitants of Samaria shall be in terror for the calves of Beth-aven; for the people thereof shall mourn over it, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Chemarim", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "2 Kings 23:5", "content": "2 Kin. 23:5" },
+            "."
+          ]
+        }
+      },
+      "the priests thereof that rejoiced over it, for the glory thereof, because it is departed from it."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 6,
-    "content": "It also, shall be carried unto Assyria for a present to king Jareb: Ephraim shall receive shame, and Israel shall be ashamed of his own counsel."
+    "content": "It also shall be carried unto Assyria for a present to king Jareb: Ephraim shall receive shame, and Israel shall be ashamed of his own counsel."
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 7,
-    "content": "As for Samaria, her king is cut off, as foam upon the water."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Samaria is cut off", "marks": ["i"] },
+            " with ",
+            { "text": "her king", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "As for", "marks": ["i"] },
+      {
+        "text": " Samaria, her king is cut off, as ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "twigs", "marks": ["i"] }]
+        }
+      },
+      "foam upon the water."
+    ]
   },
   {
     "book": "HOS",
@@ -867,43 +1884,148 @@
     "book": "HOS",
     "chapter": 10,
     "verse": 9,
-    "content": "O Israel, thou hast sinned from the days of Gibeah: there they stood; the battle against the children of iniquity doth not overtake them in Gibeah."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "O Israel, thou hast sinned ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "more than in the days", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "from the days of Gibeah: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "there have they continued", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "there they stood; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "shall not the battle . . . Gibeah?", "marks": ["i"] }
+          ]
+        }
+      },
+      "the battle against the children of iniquity doth not overtake them in Gibeah."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 10,
-    "content": "When it is my desire, I will chastise them; and the peoples shall be gathered against them, when they are bound to their two transgressions."
+    "content": [
+      {
+        "text": "When it is my desire, I will chastise them; and the peoples shall be gathered against them, when they are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "yoked", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "bound ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "for", "marks": ["i"] }]
+        }
+      },
+      "to their two transgressions."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 11,
-    "content": "And Ephraim is a heifer that is taught, that loveth to tread out the grain; but I have passed over upon her fair neck: I will set a rider on Ephraim; Judah shall plow, Jacob shall break his clods."
+    "content": [
+      "And Ephraim is a heifer that is taught, that loveth to tread out ",
+      { "text": "the grain", "marks": ["i"] },
+      "; but I have passed over upon her fair neck: I will set a rider on Ephraim; Judah shall plow, Jacob shall break his clods."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 12,
-    "content": "Sow to yourselves in righteousness, reap according to kindness; break up your fallow ground; for it is time to seek Jehovah, till he come and rain righteousness upon you."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Sow to yourselves in righteousness, reap according to kindness; break up your fallow ground; for it is time to seek Jehovah, till he come and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "teach you righteousness", "marks": ["i"] }
+          ]
+        }
+      },
+      "rain righteousness upon you."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 13,
-    "content": "Ye have plowed wickedness, ye have reaped iniquity; ye have eaten the fruit of lies; for thou didst trust in thy way, in the multitude of thy mighty men."
+    "content": [
+      {
+        "text": "Ye have plowed wickedness, ye have reaped iniquity; ye have eaten the fruit of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "faithlessness", "marks": ["i"] }]
+        }
+      },
+      "lies; for thou didst trust in thy way, in the multitude of thy mighty men."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 14,
-    "content": "Therefore shall a tumult arise among thy people, and all thy fortresses shall be destroyed, as Shalman destroyed Beth-arbel in the day of battle: the mother was dashed in pieces with her children."
+    "content": [
+      {
+        "text": "Therefore shall a tumult arise ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "against", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "among thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "peoples", "marks": ["i"] }, "."]
+        }
+      },
+      "people, and all thy fortresses shall be destroyed, as Shalman destroyed Beth-arbel in the day of battle: the mother was dashed in pieces with her children."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 15,
-    "content": "So shall Beth-el do unto you because of your great wickedness: at daybreak shall the king of Israel be utterly cut off."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "So shall it be done unto you at Beth-el",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "So shall Beth-el do unto you because of your great wickedness: at daybreak shall the king of Israel be utterly cut off."
+    ]
   },
   {
     "book": "HOS",
@@ -918,13 +2040,30 @@
     "book": "HOS",
     "chapter": 11,
     "verse": 2,
-    "content": "The more the prophets called them, the more they went from them: they sacrificed unto the Baalim, and burned incense to graven images."
+    "content": [
+      "The more ",
+      { "text": "the prophets", "marks": ["i"] },
+      " called them, the more they went from them: they sacrificed unto the Baalim, and burned incense to graven images."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 11,
     "verse": 3,
-    "content": "Yet I taught Ephraim to walk; I took them on my arms; but they knew not that I healed them."
+    "content": [
+      {
+        "text": "Yet I taught Ephraim to walk; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "he took them on his arms", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "I took them on my arms; but they knew not that I healed them."
+    ]
   },
   {
     "book": "HOS",
@@ -936,31 +2075,82 @@
     "book": "HOS",
     "chapter": 11,
     "verse": 5,
-    "content": "They shall not return into the land of Egypt; but the Assyrian shall be their king, because they refused to return to me."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "They shall not return into the land of Egypt; but the Assyrian shall be their king, because they refused to return "
+      },
+      { "text": "to me", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 11,
     "verse": 6,
-    "content": "And the sword shall fall upon their cities, and shall consume their bars, and devour them, because of their own counsels."
+    "content": [
+      {
+        "text": "And the sword shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "rage against", "marks": ["i"] }]
+        }
+      },
+      "fall upon their cities, and shall consume their bars, and devour ",
+      { "text": "them", "marks": ["i"] },
+      ", because of their own counsels."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 11,
     "verse": 7,
-    "content": "And my people are bent on backsliding from me: though they call them to him that is on high, none at all will exalt him."
+    "content": [
+      "And my people are bent on backsliding from me: though they call them to ",
+      { "text": "him that is", "marks": ["i"] },
+      {
+        "text": " on high, none at all will ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "lift", "marks": ["i"] },
+            " himself ",
+            { "text": "up", "marks": ["i"] }
+          ]
+        }
+      },
+      "exalt ",
+      { "text": "him", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 11,
     "verse": 8,
-    "content": "How shall I give thee up, Ephraim? how shall I cast thee off, Israel? how shall I make thee as Admah? how shall I set thee as Zeboiim? my heart is turned within me, my compassions are kindled together."
+    "content": [
+      { "paragraph": true, "text": "How shall I give thee up, Ephraim? " },
+      { "text": "how", "marks": ["i"] },
+      " shall I cast thee off, Israel? how shall I make thee as Admah? ",
+      { "text": "how", "marks": ["i"] },
+      " shall I set thee as Zeboiim? my heart is turned within me, my compassions are kindled together."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 11,
     "verse": 9,
-    "content": "I will not execute the fierceness of mine anger, I will not return to destroy Ephraim: for I am God, and not man; the Holy One in the midst of thee; and I will not come in wrath."
+    "content": [
+      {
+        "text": "I will not execute the fierceness of mine anger, I will not return to destroy Ephraim: for I am God, and not man; the Holy One in the midst of thee; and I will not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "enter into the city", "marks": ["i"] }]
+        }
+      },
+      "come in wrath."
+    ]
   },
   {
     "book": "HOS",
@@ -978,7 +2168,23 @@
     "book": "HOS",
     "chapter": 11,
     "verse": 12,
-    "content": "Ephraim compasseth me about with falsehood, and the house of Israel with deceit; but Judah yet ruleth with God, and is faithful with the Holy One."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ephraim compasseth me about with falsehood, and the house of Israel with deceit; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "and Judah is yet unstedfast with God, and with the Holy One who is faithful",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "but Judah yet ruleth with God, and is faithful with the Holy One."
+    ]
   },
   {
     "book": "HOS",
@@ -993,13 +2199,38 @@
     "book": "HOS",
     "chapter": 12,
     "verse": 2,
-    "content": "Jehovah hath also a controversy with Judah, and will punish Jacob according to his ways; according to his doings will he recompense him."
+    "content": [
+      {
+        "text": "Jehovah hath also a controversy with Judah, and will ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "visit upon", "marks": ["i"] }, "."]
+        }
+      },
+      "punish Jacob according to his ways; according to his doings will he recompense him."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 3,
-    "content": "In the womb he took his brother by the heel; and in his manhood he had power with God:"
+    "content": [
+      {
+        "text": "In the womb he took his brother by the heel; and in his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "strength", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "manhood he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "strove", "marks": ["i"] }]
+        }
+      },
+      "had power with God:"
+    ]
   },
   {
     "book": "HOS",
@@ -1011,7 +2242,20 @@
     "book": "HOS",
     "chapter": 12,
     "verse": 5,
-    "content": "even Jehovah, the God of hosts; Jehovah is his memorial name."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "for Jehovah is the God of hosts", "marks": ["i"] }
+          ]
+        }
+      },
+      "even Jehovah, the God of hosts; Jehovah is his memorial ",
+      { "text": "name", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "HOS",
@@ -1023,7 +2267,40 @@
     "book": "HOS",
     "chapter": 12,
     "verse": 7,
-    "content": "He is a trafficker, the balances of deceit are in his hand: he loveth to oppress."
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, As for ",
+            { "text": "Canaan, the etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "He is",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "a Canaanite", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "Canaan", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": " a trafficker, the balances of deceit are in his hand: he loveth to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "defraud", "marks": ["i"] }]
+        }
+      },
+      "oppress."
+    ]
   },
   {
     "book": "HOS",
@@ -1041,25 +2318,56 @@
     "book": "HOS",
     "chapter": 12,
     "verse": 10,
-    "content": "I have also spoken unto the prophets, and I have multiplied visions; and by the ministry of the prophets have I used similitudes."
+    "content": [
+      {
+        "text": "I have also spoken unto the prophets, and I have multiplied visions; and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "by the hand", "marks": ["i"] }, "."]
+        }
+      },
+      "by the ministry of the prophets have I used similitudes."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 11,
-    "content": "Is Gilead iniquity? they are altogether false; in Gilgal they sacrifice bullocks; yea, their altars are as heaps in the furrows of the field."
+    "content": [
+      {
+        "text": "Is Gilead iniquity? they are altogether false; in Gilgal they sacrifice bullocks; yea, their altars ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shall be", "marks": ["i"] }]
+        }
+      },
+      "are as heaps in the furrows of the field."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 12,
-    "content": "And Jacob fled into the field of Aram, and Israel served for a wife, and for a wife he kept sheep."
+    "content": [
+      "And Jacob fled into the field of Aram, and Israel served for a wife, and for a wife he kept ",
+      { "text": "sheep", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 13,
-    "content": "And by a prophet Jehovah brought Israel up out of Egypt, and by a prophet was he preserved."
+    "content": [
+      {
+        "text": "And by a prophet Jehovah brought Israel up out of Egypt, and by a prophet was he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "kept", "marks": ["i"] }]
+        }
+      },
+      "preserved."
+    ]
   },
   {
     "book": "HOS",
@@ -1071,16 +2379,45 @@
     "book": "HOS",
     "chapter": 13,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "When Ephraim spake, there was trembling; he exalted himself in Israel; but when he offended in Baal, he died."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "When Ephraim ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "spake with trembling etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "spake, there was trembling; he exalted himself in Israel; but when he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "became guilty", "marks": ["i"] }]
+        }
+      },
+      "offended in Baal, he died."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 13,
     "verse": 2,
-    "content": "And now they sin more and more, and have made them molten images of their silver, even idols according to their own understanding, all of them the work of the craftsmen: they say of them, Let the men that sacrifice kiss the calves."
+    "content": [
+      {
+        "text": "And now they sin more and more, and have made them molten images of their silver, even idols according to their own understanding, all of them the work of the craftsmen: they say of them, Let ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the sacrificers of men", "marks": ["i"] }
+          ]
+        }
+      },
+      "the men that sacrifice kiss the calves."
+    ]
   },
   {
     "book": "HOS",
@@ -1092,7 +2429,17 @@
     "book": "HOS",
     "chapter": 13,
     "verse": 4,
-    "content": "Yet I am Jehovah thy God from the land of Egypt; and thou shalt know no god but me, and besides me there is no saviour."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Yet I am Jehovah thy God from the land of Egypt; and thou ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "knowest", "marks": ["i"] }]
+        }
+      },
+      "shalt know no god but me, and besides me there is no saviour."
+    ]
   },
   {
     "book": "HOS",
@@ -1122,7 +2469,35 @@
     "book": "HOS",
     "chapter": 13,
     "verse": 9,
-    "content": "It is thy destruction, O Israel, that thou art against me, against thy help."
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Thou art destroyed, O Israel; for", "marks": ["i"] },
+            " thou ",
+            { "text": "etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "It is thy destruction, O Israel, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "for in me, in thy help", "marks": ["i"] },
+            "—Or, ",
+            { "text": "but in me is thy help", "marks": ["i"] }
+          ]
+        }
+      },
+      "that ",
+      { "text": "thou art", "marks": ["i"] },
+      " against me, against thy help."
+    ]
   },
   {
     "book": "HOS",
@@ -1146,25 +2521,89 @@
     "book": "HOS",
     "chapter": 13,
     "verse": 13,
-    "content": "The sorrows of a travailing woman shall come upon him: he is an unwise son; for it is time he should not tarry in the place of the breaking forth of children."
+    "content": [
+      {
+        "text": "The sorrows of a travailing woman shall come upon him: he is an unwise son; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "when it is time, he standeth not in etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "for it is time he should not tarry in the place of the breaking forth of children."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 13,
     "verse": 14,
-    "content": "I will ransom them from the power of Sheol; I will redeem them from death: O death, where are thy plagues? O Sheol, where is thy destruction? repentance shall be hid from mine eyes."
+    "content": [
+      {
+        "text": "I will ransom them from the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "hand", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "power of Sheol; I will redeem them from death: O death, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "I will be", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "where are thy plagues? O Sheol, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "I will be", "marks": ["i"] }]
+        }
+      },
+      "where is thy destruction? repentance shall be hid from mine eyes."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 13,
     "verse": 15,
-    "content": "Though he be fruitful among his brethren, an east wind shall come, the breath of Jehovah coming up from the wilderness; and his spring shall become dry, and his fountain shall be dried up: he shall make spoil of the treasure of all goodly vessels."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Though he be fruitful among his brethren, an east wind shall come, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "wind", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "breath of Jehovah coming up from the wilderness; and his spring shall become dry, and his fountain shall be dried up: ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it", "marks": ["i"] }]
+        }
+      },
+      "he shall make spoil of the treasure of all goodly vessels."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 13,
     "verse": 16,
-    "content": "Samaria shall bear her guilt; for she hath rebelled against her God: they shall fall by the sword; their infants shall be dashed in pieces, and their women with child shall be ripped up."
+    "content": [
+      {
+        "text": "Samaria shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "become desolate", "marks": ["i"] }]
+        }
+      },
+      "bear her guilt; for she hath rebelled against her God: they shall fall by the sword; their infants shall be dashed in pieces, and their women with child shall be ripped up."
+    ]
   },
   {
     "book": "HOS",
@@ -1179,19 +2618,44 @@
     "book": "HOS",
     "chapter": 14,
     "verse": 2,
-    "content": "Take with you words, and return unto Jehovah: say unto him, Take away all iniquity, and accept that which is good: so will we render as bullocks the offering of our lips."
+    "content": [
+      {
+        "text": "Take with you words, and return unto Jehovah: say unto him, Take away all iniquity, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "receive", "marks": ["i"] },
+            " us ",
+            { "text": "graciously", "marks": ["i"] }
+          ]
+        }
+      },
+      "accept that which is good: so will we render ",
+      { "text": "as", "marks": ["i"] },
+      " bullocks ",
+      { "text": "the offering of", "marks": ["i"] },
+      " our lips."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 14,
     "verse": 3,
-    "content": "Assyria shall not save us; we will not ride upon horses; neither will we say any more to the work of our hands, Ye are our gods; for in thee the fatherless findeth mercy."
+    "content": [
+      "Assyria shall not save us; we will not ride upon horses; neither will we say any more to the work of our hands, ",
+      { "text": "Ye are", "marks": ["i"] },
+      " our gods; for in thee the fatherless findeth mercy."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 14,
     "verse": 4,
-    "content": "I will heal their backsliding, I will love them freely; for mine anger is turned away from him."
+    "content": {
+      "paragraph": true,
+      "text": "I will heal their backsliding, I will love them freely; for mine anger is turned away from him."
+    }
   },
   {
     "book": "HOS",
@@ -1209,18 +2673,45 @@
     "book": "HOS",
     "chapter": 14,
     "verse": 7,
-    "content": "They that dwell under his shadow shall return; they shall revive as the grain, and blossom as the vine: the scent thereof shall be as the wine of Lebanon."
+    "content": [
+      "They that dwell under his shadow shall return; they shall revive ",
+      { "text": "as", "marks": ["i"] },
+      {
+        "text": " the grain, and blossom as the vine: ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "his memorial", "marks": ["i"] }]
+        }
+      },
+      "the scent thereof shall be as the wine of Lebanon."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 14,
     "verse": 8,
-    "content": "Ephraim shall say, What have I to do any more with idols? I have answered, and will regard him: I am like a green fir-tree; from me is thy fruit found."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "O Ephraim, what etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "Ephraim ",
+      { "text": "shall say", "marks": ["i"] },
+      ", What have I to do any more with idols? I have answered, and will regard him: I am like a green fir-tree; from me is thy fruit found."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 14,
     "verse": 9,
-    "content": "Who is wise, that he may understand these things? prudent, that he may know them? for the ways of Jehovah are right, and the just shall walk in them; but transgressors shall fall therein."
+    "content": {
+      "paragraph": true,
+      "text": "Who is wise, that he may understand these things? prudent, that he may know them? for the ways of Jehovah are right, and the just shall walk in them; but transgressors shall fall therein."
+    }
   }
 ]

@@ -3,16 +3,32 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Paul, called to be an apostle of Jesus Christ through the will of God, and Sosthenes our brother,"
-    }
+    "content": [
+      { "paragraph": true, "text": "Paul, called " },
+      { "text": "to be", "marks": ["i"] },
+      {
+        "text": " an apostle of Jesus Christ through the will of God, and Sosthenes ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "the brother", "marks": ["i"] }, "."]
+        }
+      },
+      "our brother,"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 2,
-    "content": "unto the church of God which is at Corinth, even them that are sanctified in Christ Jesus, called to be saints, with all that call upon the name of our Lord Jesus Christ in every place, their Lord and ours:"
+    "content": [
+      "unto the church of God which is at Corinth, ",
+      { "text": "even", "marks": ["i"] },
+      " them that are sanctified in Christ Jesus, called ",
+      { "text": "to be", "marks": ["i"] },
+      " saints, with all that call upon the name of our Lord Jesus Christ in every place, their ",
+      { "text": "Lord", "marks": ["i"] },
+      " and ours:"
+    ]
   },
   {
     "book": "1CO",
@@ -24,13 +40,36 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 4,
-    "content": "I thank my God always concerning you, for the grace of God which was given you in Christ Jesus;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I thank ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "my", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "my God always concerning you, for the grace of God which was given you in Christ Jesus;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 5,
-    "content": "that in everything ye were enriched in him, in all utterance and all knowledge;"
+    "content": [
+      {
+        "text": "that in everything ye were enriched in him, in all ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "word", "marks": ["i"] }, "."]
+        }
+      },
+      "utterance and all knowledge;"
+    ]
   },
   {
     "book": "1CO",
@@ -48,43 +87,96 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 8,
-    "content": "who shall also confirm you unto the end, that ye be unreproveable in the day of our Lord Jesus Christ."
+    "content": [
+      "who shall also confirm you unto the end, ",
+      { "text": "that ye be", "marks": ["i"] },
+      " unreproveable in the day of our Lord Jesus Christ."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 9,
-    "content": "God is faithful, through whom ye were called into the fellowship of his Son Jesus Christ our Lord."
+    "content": {
+      "text": "God is faithful, through whom ye were called into the fellowship of his Son Jesus Christ our Lord.",
+      "break": true
+    }
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 10,
-    "content": "Now I beseech you, brethren, through the name of our Lord Jesus Christ, that ye all speak the same thing and that there be no divisions among you; but that ye be perfected together in the same mind and in the same judgment."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now I beseech you, brethren, through the name of our Lord Jesus Christ, that ye all speak the same thing, and "
+      },
+      { "text": "that", "marks": ["i"] },
+      {
+        "text": " there be no ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "schisms", "marks": ["i"] }, "."]
+        }
+      },
+      "divisions among you; but ",
+      { "text": "that", "marks": ["i"] },
+      " ye be perfected together in the same mind and in the same judgment."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 11,
-    "content": "For it hath been signified unto me concerning you, my brethren, by them that are of the household of Chloe, that there are contentions among you."
+    "content": [
+      "For it hath been signified unto me concerning you, my brethren, by them ",
+      { "text": "that are of the household", "marks": ["i"] },
+      " of Chloe, that there are contentions among you."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 12,
-    "content": "Now this I mean, that each one of you saith, I am of Paul; and I of Apollos: and I of Cephas; and I of Christ."
+    "content": "Now this I mean, that each one of you saith, I am of Paul; and I of Apollos; and I of Cephas; and I of Christ."
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 13,
-    "content": "Is Christ divided? was Paul crucified for you? or were ye baptized into the name of Paul?"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Christ is divided! Was Paul crucified for you?",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "Is Christ divided? was Paul crucified for you? or were ye baptized into the name of Paul?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 14,
-    "content": "I thank God that I baptized none of you, save Crispus and Gaius;"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "I give thanks that", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "I thank God that I baptized none of you, save Crispus and Gaius;"
+    ]
   },
   {
     "book": "1CO",
@@ -102,31 +194,103 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 17,
-    "content": "For Christ sent me not to baptize, but to preach the gospel: not in wisdom of words, lest the cross of Christ should be made void."
+    "content": [
+      {
+        "text": "For Christ sent me not to baptize, but to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "bring good tidings", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Matthew 11:5", "content": "Mt. 11:5" },
+            "."
+          ]
+        }
+      },
+      "preach the gospel: not in wisdom of words, lest the cross of Christ should be made void."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 18,
-    "content": "For the word of the cross is to them that perish foolishness; but unto us who are saved it is the power of God."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For the word of the cross is to them that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "are perishing", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "perish foolishness; but unto us who ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "are being saved", "marks": ["i"] }]
+        }
+      },
+      "are saved it is the power of God."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 19,
-    "content": "For it is written, I will destroy the wisdom of the wise, And the discernment of the discerning will I bring to nought."
+    "content": [
+      {
+        "text": "For it is written,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 29:14", "content": "Isa. 29:14" },
+            "."
+          ]
+        }
+      },
+      { "text": "I will destroy the wisdom of the wise,", "break": true },
+      {
+        "text": "And the discernment of the discerning will I bring to nought.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 20,
-    "content": "Where is the wise? where is the scribe? where is the disputer of this world? hath not God made foolish the wisdom of the world?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Where is the wise? where is the scribe? where is the disputer of this ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "age", "marks": ["i"] }]
+        }
+      },
+      "world? hath not God made foolish the wisdom of the world?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 21,
-    "content": "For seeing that in the wisdom of God the world through its wisdom knew not God, it was God’s good pleasure through the foolishness of the preaching to save them that believe."
+    "content": [
+      {
+        "text": "For seeing that in the wisdom of God the world through its wisdom knew not God, it was God’s good pleasure through the foolishness of the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "thing preached", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "preaching to save them that believe."
+    ]
   },
   {
     "book": "1CO",
@@ -138,13 +302,35 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 23,
-    "content": "but we preach Christ crucified, unto Jews a stumblingblock, and unto Gentiles foolishness;"
+    "content": [
+      {
+        "text": "but we preach ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a Messiah", "marks": ["i"] }]
+        }
+      },
+      "Christ crucified, unto Jews a stumblingblock, and unto Gentiles foolishness;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 24,
-    "content": "but unto them that are called, both Jews and Greeks, Christ the power of God, and the wisdom of God."
+    "content": [
+      {
+        "text": "but unto ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the called themselves", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "them that are called, both Jews and Greeks, Christ the power of God, and the wisdom of God."
+    ]
   },
   {
     "book": "1CO",
@@ -156,7 +342,19 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 26,
-    "content": "For behold your calling, brethren, that not many wise after the flesh, not many mighty, not many noble, are called:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ye behold", "marks": ["i"] }]
+        }
+      },
+      "behold your calling, brethren, that not many wise after the flesh, not many mighty, not many noble, ",
+      { "text": "are called", "marks": ["i"] },
+      ":"
+    ]
   },
   {
     "book": "1CO",
@@ -168,7 +366,22 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 28,
-    "content": "and the base things of the world, and the things that are despised, did God choose, yea and the things that are not, that he might bring to nought the things that are:"
+    "content": [
+      "and the base things of the world, and the things that are despised, did God choose, ",
+      {
+        "text": "yea",
+        "marks": ["i"],
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities omit ",
+            { "text": "and", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " and the things that are not, that he might bring to nought the things that are:"
+    ]
   },
   {
     "book": "1CO",
@@ -180,22 +393,67 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 30,
-    "content": "But of him are ye in Christ Jesus, who was made unto us wisdom from God, and righteousness and sanctification, and redemption:"
+    "content": [
+      {
+        "text": "But of him are ye in Christ Jesus, who was made unto us wisdom from God, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "both righteousness and sanctification and redemption",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "and righteousness and sanctification, and redemption:"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 31,
-    "content": "that, according as it is written, He that glorieth, let him glory in the Lord."
+    "content": [
+      {
+        "text": "that, according as it is written, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Jeremiah 9:23–26", "content": "Jer. 9:23f" },
+            "."
+          ]
+        }
+      },
+      "He that glorieth, let him glory in the Lord."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I, brethren, when I came unto you, came not with excellency of speech or of wisdom, proclaiming to you the testimony of God."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And I, brethren, when I came unto you, came not with excellency of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "word", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "speech or of wisdom, proclaiming to you the ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "mystery", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "testimony of God."
+    ]
   },
   {
     "book": "1CO",
@@ -213,43 +471,171 @@
     "book": "1CO",
     "chapter": 2,
     "verse": 4,
-    "content": "And my speech and my preaching were not in persuasive words of wisdom, but in demonstration of the Spirit and of power:"
+    "content": [
+      {
+        "text": "And my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "word", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "speech and my ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "thing preached", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "preaching were not in persuasive words of wisdom, but in demonstration of the Spirit and of power:"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 5,
-    "content": "that your faith should not stand in the wisdom of men, but in the power of God."
+    "content": [
+      {
+        "text": "that your faith should not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "be", "marks": ["i"] }, "."]
+        }
+      },
+      "stand in the wisdom of men, but in the power of God."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 6,
-    "content": "We speak wisdom, however, among them that are fullgrown: yet a wisdom not of this world, nor of the rulers of this world, who are coming to nought:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "We speak wisdom, however, among them that are fullgrown: yet a wisdom not of this ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "age", "marks": ["i"] },
+            ": and so in verses ",
+            { "bibleLink": "1 Corinthians 2:7", "content": "7" },
+            ", ",
+            { "bibleLink": "1 Corinthians 2:8", "content": "8" },
+            "; but not in ",
+            { "bibleLink": "1 Corinthians 2:12", "content": "verse 12" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "world, nor of the rulers of this ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "age", "marks": ["i"] },
+            ": and so in verses ",
+            { "bibleLink": "1 Corinthians 2:7", "content": "7" },
+            ", ",
+            { "bibleLink": "1 Corinthians 2:8", "content": "8" },
+            "; but not in ",
+            { "bibleLink": "1 Corinthians 2:12", "content": "verse 12" },
+            "."
+          ]
+        }
+      },
+      "world, who are coming to nought:"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 7,
-    "content": "but we speak God’s wisdom in a mystery, even the wisdom that hath been hidden, which God foreordained before the worlds unto our glory:"
+    "content": [
+      "but we speak God’s wisdom in a mystery, ",
+      { "text": "even", "marks": ["i"] },
+      " the ",
+      { "text": "wisdom", "marks": ["i"] },
+      {
+        "text": " that hath been hidden, which God foreordained before the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "age", "marks": ["i"] }]
+        }
+      },
+      "worlds unto our glory:"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 8,
-    "content": "which none of the rulers of this world hath known: for had they known it, they would not have crucified the Lord of glory:"
+    "content": [
+      {
+        "text": "which none of the rulers of this ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "age", "marks": ["i"] }]
+        }
+      },
+      "world hath known: for had they known it, they would not have crucified the Lord of glory:"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 9,
-    "content": "but as it is written, Things which eye saw not, and ear heard not, And which entered not into the heart of man, Whatsoever things God prepared for them that love him."
+    "content": [
+      {
+        "text": "but as it is written,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 64:4", "content": "Isa. 64:4" },
+            "; ",
+            { "bibleLink": "Isaiah 65:17", "content": "65:17" },
+            "."
+          ]
+        }
+      },
+      { "text": "Things which eye saw not, and ear heard not,", "break": true },
+      "And ",
+      { "text": "which", "marks": ["i"] },
+      { "text": " entered not into the heart of man,", "break": true },
+      {
+        "text": "Whatsoever things God prepared for them that love him.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 10,
-    "content": "But unto us God revealed them through the Spirit: for the Spirit searcheth all things, yea, the deep things of God."
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "For", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "But unto us God revealed ",
+        "foot": { "type": "trn", "content": "Or, it" }
+      },
+      { "text": "them", "marks": ["i"] },
+      " through the Spirit: for the Spirit searcheth all things, yea, the deep things of God."
+    ]
   },
   {
     "book": "1CO",
@@ -261,25 +647,94 @@
     "book": "1CO",
     "chapter": 2,
     "verse": 12,
-    "content": "But we received, not the spirit of the world, but the spirit which is from God; that we might know the things that were freely given to us of God."
+    "content": [
+      {
+        "text": "But we received, not the spirit of the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See ",
+            { "bibleLink": "1 Corinthians 2:6", "content": "verse 6" },
+            "."
+          ]
+        }
+      },
+      "world, but the spirit which is from God; that we might know the things that were freely given to us of God."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 13,
-    "content": "Which things also we speak, not in words which man’s wisdom teacheth, but which the Spirit teacheth; combining spiritual things with spiritual words."
+    "content": [
+      {
+        "text": "Which things also we speak, not in words which man’s wisdom teacheth, but which the Spirit teacheth; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "interpreting spiritual things to spiritual",
+              "marks": ["i"]
+            },
+            " men"
+          ]
+        }
+      },
+      "combining spiritual things with spiritual ",
+      { "text": "words", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 14,
-    "content": "Now the natural man receiveth not the things of the Spirit of God: for they are foolishness unto him; and he cannot know them, because they are spiritually judged."
+    "content": [
+      {
+        "text": "Now the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "unspiritual", "marks": ["i"] },
+            ". Greek ",
+            { "text": "psychical", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "natural man receiveth not the things of the Spirit of God: for they are foolishness unto him; and he cannot know them, because they are spiritually ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "examined", "marks": ["i"] }]
+        }
+      },
+      "judged."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 15,
-    "content": "But he that is spiritual judgeth all things, and he himself is judged of no man."
+    "content": [
+      {
+        "text": "But he that is spiritual ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "examineth", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "judgeth all things, and he himself is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "examined", "marks": ["i"] }]
+        }
+      },
+      "judged of no man."
+    ]
   },
   {
     "book": "1CO",
@@ -300,7 +755,11 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 2,
-    "content": "I fed you with milk, not with meat; for ye were not yet able to bear it: nay, not even now are ye able;"
+    "content": [
+      "I fed you with milk, not with meat; for ye were not yet able ",
+      { "text": "to bear it", "marks": ["i"] },
+      ": nay, not even now are ye able;"
+    ]
   },
   {
     "book": "1CO",
@@ -312,7 +771,7 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 4,
-    "content": "For when one saith,I am of Paul; and another, I am of Apollos; are ye not men?"
+    "content": "For when one saith, I am of Paul; and another, I am of Apollos; are ye not men?"
   },
   {
     "book": "1CO",
@@ -342,13 +801,25 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 9,
-    "content": "For we are God’s fellow-workers: ye are God’s husbandry, God’s building."
+    "content": [
+      {
+        "text": "For we are God’s fellow-workers: ye are God’s ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "tilled land", "marks": ["i"] }, "."]
+        }
+      },
+      "husbandry, God’s building."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 10,
-    "content": "According to the grace of God which was given unto me, as a wise masterbuilder I laid a foundation; and another buildeth thereon. But let each man take heed how he buildeth thereon."
+    "content": {
+      "paragraph": true,
+      "text": "According to the grace of God which was given unto me, as a wise masterbuilder I laid a foundation; and another buildeth thereon. But let each man take heed how he buildeth thereon."
+    }
   },
   {
     "book": "1CO",
@@ -366,7 +837,22 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 13,
-    "content": "each man’s work shall be made manifest: for the day shall declare it, because it is revealed in fire; and the fire itself shall prove each man’s work of what sort it is."
+    "content": [
+      {
+        "text": "each man’s work shall be made manifest: for the day shall declare it, because it is revealed in fire; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "and each man’s work, of what sort it is, the fire shall prove it",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "and the fire itself shall prove each man’s work of what sort it is."
+    ]
   },
   {
     "book": "1CO",
@@ -384,31 +870,99 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 16,
-    "content": "Know ye not that ye are a temple of God, and that the Spirit of God dwelleth in you?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Know ye not that ye are a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
+        }
+      },
+      "temple of God, and ",
+      { "text": "that", "marks": ["i"] },
+      " the Spirit of God dwelleth in you?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 17,
-    "content": "If any man destroyeth the temple of God, him shall God destroy; for the temple of God is holy, and such are ye."
+    "content": [
+      {
+        "text": "If any man destroyeth the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "temple of God, him shall God destroy; for the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "temple of God is holy, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "which", "marks": ["i"] },
+            " temple ",
+            { "text": "ye are", "marks": ["i"] }
+          ]
+        }
+      },
+      "and such are ye."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 18,
-    "content": "Let no man deceive himself. If any man thinketh that he is wise among you in this world, let him become a fool, that he may become wise."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Let no man deceive himself. If any man thinketh that he is wise among you in this ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "age", "marks": ["i"] }]
+        }
+      },
+      "world, let him become a fool, that he may become wise."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 19,
-    "content": "For the wisdom of this world is foolishness with God. For it is written, He that taketh the wise in their craftiness:"
+    "content": [
+      {
+        "text": "For the wisdom of this world is foolishness with God. For it is written, ",
+        "foot": { "type": "xrf", "content": [{ "bibleLink": "Job 5:13" }, "."] }
+      },
+      "He that taketh the wise in their craftiness:"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 20,
-    "content": "and again, The Lord knoweth the reasonings of the wise that they are vain."
+    "content": [
+      {
+        "text": "and again, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Psalm 94:11", "content": "Ps. 94:11" },
+            "."
+          ]
+        }
+      },
+      "The Lord knoweth the reasonings of the wise, that they are vain."
+    ]
   },
   {
     "book": "1CO",
@@ -447,13 +1001,51 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 3,
-    "content": "But with me it is a very small thing that I should be judged of you, or of man’s judgment: yea, I judge not mine own self."
+    "content": [
+      {
+        "text": "But with me it is a very small thing that I should be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "examined", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "judged of you, or of man’s ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "day", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "1 Corinthians 3:13", "content": "3:13" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "judgment: yea, I ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "examine", "marks": ["i"] }]
+        }
+      },
+      "judge not mine own self."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 4,
     "verse": 4,
-    "content": "For I know nothing against myself; yet am I not hereby justified: but he that judgeth me is the Lord."
+    "content": [
+      {
+        "text": "For I know nothing against myself; yet am I not hereby justified: but he that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "examineth", "marks": ["i"] }]
+        }
+      },
+      "judgeth me is the Lord."
+    ]
   },
   {
     "book": "1CO",
@@ -465,7 +1057,14 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 6,
-    "content": "Now these things, brethren, I have in a figure transferred to myself and Apollos for your sakes; that in us ye might learn not to go beyond the things which are written; that no one of you be puffed up for the one against the other."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now these things, brethren, I have in a figure transferred to myself and Apollos for your sakes; that in us ye might learn not "
+      },
+      { "text": "to go", "marks": ["i"] },
+      " beyond the things which are written; that no one of you be puffed up for the one against the other."
+    ]
   },
   {
     "book": "1CO",
@@ -483,7 +1082,20 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 9,
-    "content": "For, I think, God hath set forth us the apostles last of all, as men doomed to death: for we are made a spectacle unto the world, both to angels and men."
+    "content": [
+      {
+        "text": "For, I think, God hath set forth us the apostles last of all, as men doomed to death: for we are made a spectacle unto the world, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "and to angels, and to men", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "both to angels and men."
+    ]
   },
   {
     "book": "1CO",
@@ -507,19 +1119,48 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 13,
-    "content": "being defamed, we entreat: we are made as the filth of the world, the offscouring of all things, even until now."
+    "content": [
+      {
+        "text": "being defamed, we entreat: we are made as the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "refuse", "marks": ["i"] }]
+        }
+      },
+      "filth of the world, the offscouring of all things, even until now."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 4,
     "verse": 14,
-    "content": "I write not these things to shame you, but to admonish you as my beloved children."
+    "content": {
+      "paragraph": true,
+      "text": "I write not these things to shame you, but to admonish you as my beloved children."
+    }
   },
   {
     "book": "1CO",
     "chapter": 4,
     "verse": 15,
-    "content": "For though ye have ten thousand tutors in Christ, yet have ye not many fathers; for in Christ Jesus I begat you through the gospel."
+    "content": [
+      "For though ye have ten thousand tutors in Christ, yet ",
+      { "text": "have ye", "marks": ["i"] },
+      {
+        "text": " not many fathers; for in Christ Jesus I begat you through the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ". See marginal note on ",
+            { "bibleLink": "Matthew 4:23", "content": "Mt. 4:23" },
+            "."
+          ]
+        }
+      },
+      "gospel."
+    ]
   },
   {
     "book": "1CO",
@@ -555,22 +1196,48 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 21,
-    "content": "What will ye? shall I come unto you with a rod, or in love and a spirit of gentleness?"
-  },
-  {
-    "book": "1CO",
-    "chapter": 5,
-    "verse": 1,
     "content": {
-      "paragraph": true,
-      "text": "It is actually reported that there is fornication among you, and such fornication as is not even among the Gentiles, that one of you hath his father’s wife."
+      "text": "What will ye? shall I come unto you with a rod, or in love and a spirit of gentleness?",
+      "break": true
     }
   },
   {
     "book": "1CO",
     "chapter": 5,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "It is actually reported that there is fornication among you, and such fornication as is not even among the Gentiles, that one "
+      },
+      { "text": "of you", "marks": ["i"] },
+      " hath his father’s wife."
+    ]
+  },
+  {
+    "book": "1CO",
+    "chapter": 5,
     "verse": 2,
-    "content": "And ye are puffed up, and did not rather mourn, that he that had done this deed might be taken away from among you."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "are ye puffed up?", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "ye are puffed up, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "did ye not rather mourn, . . . you?", "marks": ["i"] }
+          ]
+        }
+      },
+      "did not rather mourn, that he that had done this deed might be taken away from among you."
+    ]
   },
   {
     "book": "1CO",
@@ -588,7 +1255,20 @@
     "book": "1CO",
     "chapter": 5,
     "verse": 5,
-    "content": "to deliver such a one unto Satan for the destruction of the flesh, that the spirit may be saved in the day of the Lord Jesus."
+    "content": [
+      {
+        "text": "to deliver such a one unto Satan for the destruction of the flesh, that the spirit may be saved in the day of the Lord ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "Jesus", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Jesus."
+    ]
   },
   {
     "book": "1CO",
@@ -600,31 +1280,76 @@
     "book": "1CO",
     "chapter": 5,
     "verse": 7,
-    "content": "Purge out the old leaven, that ye may be a new lump, even as ye are unleavened. For our passover also hath been sacrificed, even Christ:"
+    "content": [
+      "Purge out the old leaven, that ye may be a new lump, even as ye are unleavened. For our passover also hath been sacrificed, ",
+      { "text": "even", "marks": ["i"] },
+      " Christ:"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 5,
     "verse": 8,
-    "content": "wherefore let us keep the feast, not with old leaven, neither with the leaven of malice and wickedness, but with the unleavened bread of sincerity and truth."
+    "content": [
+      {
+        "text": "wherefore let us ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "keep festival", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "keep the feast, not with old leaven, neither with the leaven of malice and wickedness, but with the unleavened bread of sincerity and truth."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 5,
     "verse": 9,
-    "content": "I wrote unto you in my epistle to have no company with fornicators;"
+    "content": {
+      "paragraph": true,
+      "text": "I wrote unto you in my epistle to have no company with fornicators;"
+    }
   },
   {
     "book": "1CO",
     "chapter": 5,
     "verse": 10,
-    "content": "not at all meaning with the fornicators of this world, or with the covetous and extortioners, or with idolaters; for then must ye needs go out of the world:"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "not altogether with the fornicators etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "not at all ",
+      { "text": "meaning", "marks": ["i"] },
+      " with the fornicators of this world, or with the covetous and extortioners, or with idolaters; for then must ye needs go out of the world:"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 5,
     "verse": 11,
-    "content": "but as it is, I wrote unto you not to keep company, if any man that is named a brother be a fornicator, or covetous, or an idolater, or a reviler, or a drunkard, or an extortioner; with such a one no, not to eat."
+    "content": [
+      {
+        "text": "but ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "now I write", "marks": ["i"] }]
+        }
+      },
+      "as it is, I wrote unto you not to keep company, if any man that is named a brother be a fornicator, or covetous, or an idolater, or a reviler, or a drunkard, or an extortioner; with such a one no, not to eat."
+    ]
   },
   {
     "book": "1CO",
@@ -642,16 +1367,42 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Dare any of you, having a matter against his neighbor, go to law before the unrighteous, and not before the saints?"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Dare any of you, having a matter against ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the other", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Romans 13:8", "content": "Rom. 13:8" },
+            "."
+          ]
+        }
+      },
+      "his neighbor, go to law before the unrighteous, and not before the saints?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 6,
     "verse": 2,
-    "content": "Or know ye not that the saints shall judge the world? and if the world is judged by you, are ye unworthy to judge the smallest matters?"
+    "content": [
+      {
+        "text": "Or know ye not that the saints shall judge the world? and if the world is judged by you, are ye unworthy ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "of the smallest tribunals", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "to judge the smallest matters?"
+    ]
   },
   {
     "book": "1CO",
@@ -663,13 +1414,52 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 4,
-    "content": "If then ye have to judge things pertaining to this life, do ye set them to judge who are of no account in the church?"
+    "content": [
+      {
+        "text": "If then ye have ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "tribunals pertaining to", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "to judge things pertaining to this life, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "set them . . . church", "marks": ["i"] }
+          ]
+        }
+      },
+      "do ye set them to judge who are of no account in the church?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 6,
     "verse": 5,
-    "content": "I say this to move you to shame. What, cannot there be found among you one wise man who shall be able to decide between his brethren,"
+    "content": [
+      "I say ",
+      { "text": "this", "marks": ["i"] },
+      {
+        "text": " to move you to shame. ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Is it so, that there cannot etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "What, cannot there be ",
+      { "text": "found", "marks": ["i"] },
+      " among you one wise man who shall be able to decide between his brethren,"
+    ]
   },
   {
     "book": "1CO",
@@ -681,13 +1471,26 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 7,
-    "content": "Nay, already it is altogether a defect in you, that ye have lawsuits one with another. Why not rather take wrong? why not rather be defrauded?"
+    "content": [
+      {
+        "text": "Nay, already it is altogether ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a loss to you", "marks": ["i"] }]
+        }
+      },
+      "a defect in you, that ye have lawsuits one with another. Why not rather take wrong? why not rather be defrauded?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 6,
     "verse": 8,
-    "content": "Nay, but ye yourselves do wrong, and defraud, and that your brethren."
+    "content": [
+      "Nay, but ye yourselves do wrong, and defraud, and that ",
+      { "text": "your", "marks": ["i"] },
+      " brethren."
+    ]
   },
   {
     "book": "1CO",
@@ -705,13 +1508,29 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 11,
-    "content": "And such were some of you: but ye were washed, but ye were sanctified, but ye were justified in the name of the Lord Jesus Christ, and in the Spirit of our God."
+    "content": [
+      {
+        "text": "And such were some of you: but ye ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "washed yourselves", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "were washed, but ye were sanctified, but ye were justified in the name of the Lord Jesus Christ, and in the Spirit of our God."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 6,
     "verse": 12,
-    "content": "All things are lawful for me; but not all things are expedient. All things are lawful for me; but I will not be brought under the power of any."
+    "content": {
+      "paragraph": true,
+      "text": "All things are lawful for me; but not all things are expedient. All things are lawful for me; but I will not be brought under the power of any."
+    }
   },
   {
     "book": "1CO",
@@ -723,7 +1542,7 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 14,
-    "content": "and God both raised the Lord, and will raise up as through his power."
+    "content": "and God both raised the Lord, and will raise up us through his power."
   },
   {
     "book": "1CO",
@@ -735,7 +1554,19 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 16,
-    "content": "Or know ye not that he that is joined to a harlot is one body? for, The twain, saith he, shall become one flesh."
+    "content": [
+      {
+        "text": "Or know ye not that he that is joined to a harlot is one body? for, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Genesis 2:24", "content": "Gen. 2:24" },
+            "."
+          ]
+        }
+      },
+      "The twain, saith he, shall become one flesh."
+    ]
   },
   {
     "book": "1CO",
@@ -753,13 +1584,25 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 19,
-    "content": "Or know ye not that your body is a temple of the Holy Spirit which is in you, which ye have from God? and ye are not your own;"
+    "content": [
+      {
+        "text": "Or know ye not that your body is a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
+        }
+      },
+      "temple of the Holy Spirit which is in you, which ye have from God? and ye are not your own;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 6,
     "verse": 20,
-    "content": "for ye were bought with a price: glorify God therefore in your body."
+    "content": {
+      "text": "for ye were bought with a price: glorify God therefore in your body.",
+      "break": true
+    }
   },
   {
     "book": "1CO",
@@ -804,13 +1647,28 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 7,
-    "content": "Yet I would that all men were even as I myself. Howbeit each man hath his own gift from God, one after this manner, and another after that."
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "For", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Yet I would that all men were even as I myself. Howbeit each man hath his own gift from God, one after this manner, and another after that."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 8,
-    "content": "But I say to the unmarried and to widows, It is good for them if they abide even as I."
+    "content": {
+      "paragraph": true,
+      "text": "But I say to the unmarried and to widows, It is good for them if they abide even as I."
+    }
   },
   {
     "book": "1CO",
@@ -822,7 +1680,11 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 10,
-    "content": "But unto the married I give charge, yea not I, but the Lord, That the wife depart not from her husband"
+    "content": [
+      "But unto the married I give charge, ",
+      { "text": "yea", "marks": ["i"] },
+      " not I, but the Lord, That the wife depart not from her husband"
+    ]
   },
   {
     "book": "1CO",
@@ -852,13 +1714,28 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 15,
-    "content": "Yet if the unbelieving departeth, let him depart: the brother or the sister is not under bondage in such cases: but God hath called us in peace."
+    "content": [
+      "Yet if the unbelieving departeth, let him depart: the brother or the sister is not under bondage in such ",
+      { "text": "cases", "marks": ["i"] },
+      {
+        "text": ": but God hath called ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "you", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "us in peace."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 16,
-    "content": "For how knowest thou, O wife, whether thou shalt save thy husband? Or how knowest thou, O husband, whether thou shalt save thy wife?"
+    "content": "For how knowest thou, O wife, whether thou shalt save thy husband? or how knowest thou, O husband, whether thou shalt save thy wife?"
   },
   {
     "book": "1CO",
@@ -870,7 +1747,7 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 18,
-    "content": "Was any man called being circumcised? Let him not become uncircumcised. Hath any been called in uncircumcision? Let him not be circumcised."
+    "content": "Was any man called being circumcised? let him not become uncircumcised. Hath any been called in uncircumcision? let him not be circumcised."
   },
   {
     "book": "1CO",
@@ -888,7 +1765,18 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 21,
-    "content": "Wast thou called being a bondservant? Care not for it: nay, even if thou canst become free, use it rather."
+    "content": [
+      {
+        "text": "Wast thou called being a bondservant? care not for it: ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "but if", "marks": ["i"] }]
+        }
+      },
+      "nay, even if thou canst become free, use ",
+      { "text": "it", "marks": ["i"] },
+      " rather."
+    ]
   },
   {
     "book": "1CO",
@@ -912,19 +1800,33 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 25,
-    "content": "Now concerning virgins I have no commandment of the Lord: but I give my judgment, as one that hath obtained mercy of the Lord to be trustworthy."
+    "content": {
+      "paragraph": true,
+      "text": "Now concerning virgins I have no commandment of the Lord: but I give my judgment, as one that hath obtained mercy of the Lord to be trustworthy."
+    }
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 26,
-    "content": "I think therefore that this is good by reason of the distress that is upon us, namely, that it is good for a man to be as he is."
+    "content": [
+      "I think therefore that this is good by reason of the distress that is upon us, ",
+      { "text": "namely", "marks": ["i"] },
+      {
+        "text": ", that it is good for a man ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "so to be", "marks": ["i"] }, "."]
+        }
+      },
+      "to be as he is."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 27,
-    "content": "Art thou bound unto a wife? Seek not to be loosed. Art thou loosed from a wife? Seek not a wife."
+    "content": "Art thou bound unto a wife? seek not to be loosed. Art thou loosed from a wife? seek not a wife."
   },
   {
     "book": "1CO",
@@ -936,13 +1838,28 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 29,
-    "content": "But this I say, brethren, the time is shortened, that henceforth both those that have wives may be as though they had none;"
+    "content": [
+      {
+        "text": "But this I say, brethren, the time ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "is shortened henceforth, that both those etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "is shortened, that henceforth both those that have wives may be as though they had none;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 30,
-    "content": "and those that weep, as though they wept not; and those that rejoice,as though they rejoiced not; and those that buy, as though they possessed not;"
+    "content": "and those that weep, as though they wept not; and those that rejoice, as though they rejoiced not; and those that buy, as though they possessed not;"
   },
   {
     "book": "1CO",
@@ -960,58 +1877,162 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 33,
-    "content": "but he that is married is careful for the things of the world, how he may please his wife,"
+    "content": [
+      {
+        "text": "but he that is married is careful for the things of the world, how he may please his ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            {
+              "text": "wife. And there is a difference also between the wife and the virgin. She that is unmarried is careful etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "wife,"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 34,
-    "content": "and is divided. So also the woman that is unmarried and the virgin is careful for the things of the Lord, that she may be holy both in body and in spirit: but she that is married is careful for the things of the world, how she may please her husband."
+    "content": [
+      "and is divided. ",
+      { "text": "So", "marks": ["i"] },
+      " also the woman that is unmarried and the virgin is careful for the things of the Lord, that she may be holy both in body and in spirit: but she that is married is careful for the things of the world, how she may please her husband."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 35,
-    "content": "And this I say for your own profit; not that I may cast a snare upon you, but for that which is seemly, and that ye may attend upon the Lord without distraction."
+    "content": [
+      {
+        "text": "And this I say for your own profit; not that I may cast a ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "constraint", "marks": ["i"] },
+            ". Greek ",
+            { "text": "noose", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "snare upon you, but for that which is seemly, and that ye may attend upon the Lord without distraction."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 36,
-    "content": "But if any man thinketh that he behaveth himself unseemingly toward his virgin daughter, if she be past the flower of her age, and if need so requireth, let him do what he will; he sinneth not; let them marry."
+    "content": [
+      {
+        "text": "But if any man thinketh that he behaveth himself unseemly toward his ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "virgin", "marks": ["i"] },
+            " (omitting daughter)"
+          ]
+        }
+      },
+      "virgin ",
+      { "text": "daughter", "marks": ["i"] },
+      ", if she be past the flower of her age, and if need so requireth, let him do what he will; he sinneth not; let them marry."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 37,
-    "content": "But he that standeth stedfast in his heart, having no necessity, but hath power as touching in his own heart, to keep his own virgin daughter, shall do well."
+    "content": [
+      {
+        "text": "But he that standeth stedfast in his heart, having no necessity, but hath power as touching his own will, and hath determined this in his own heart, to keep his own ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "virgin", "marks": ["i"] },
+            " (omitting daughter)"
+          ]
+        }
+      },
+      "virgin ",
+      { "text": "daughter", "marks": ["i"] },
+      ", shall do well."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 38,
-    "content": "So then both he that giveth his own virgin daughter in marriage doeth well; and he that giveth her not in marriage shall do better."
+    "content": [
+      {
+        "text": "So then both he that giveth his own ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "virgin", "marks": ["i"] },
+            " (omitting daughter)"
+          ]
+        }
+      },
+      "virgin ",
+      { "text": "daughter", "marks": ["i"] },
+      " in marriage doeth well; and he that giveth her not in marriage shall do better."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 39,
-    "content": "A wife is bound for so long time as her husband liveth; but if the husband be dead, she is free to be married to whom she will; only in the Lord."
+    "content": [
+      {
+        "text": "A wife is bound for so long time as her husband liveth; but if the husband be ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "fallen asleep", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Acts 7:60" },
+            "."
+          ]
+        }
+      },
+      "dead, she is free to be married to whom she will; only in the Lord."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 40,
-    "content": "But she is happier if she abide as she is, after my judgment: and I think that I also have the Spirit of God."
+    "content": {
+      "text": "But she is happier if she abide as she is, after my judgment: and I think that I also have the Spirit of God.",
+      "break": true
+    }
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now concerning things sacrificed to idols: We know that we all have knowledge. Knowledge puffeth up, but love edifieth."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now concerning things sacrificed to idols: We know that we all have knowledge. Knowledge puffeth up, but love ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "buildeth up", "marks": ["i"] }, "."]
+        }
+      },
+      "edifieth."
+    ]
   },
   {
     "book": "1CO",
@@ -1029,7 +2050,11 @@
     "book": "1CO",
     "chapter": 8,
     "verse": 4,
-    "content": "Concerning therefore the eating of things sacrificed to idols, we know that no idol is anything in the world, and that there is no God but one."
+    "content": [
+      "Concerning therefore the eating of things sacrificed to idols, we know that no idol is ",
+      { "text": "anything", "marks": ["i"] },
+      " in the world, and that there is no God but one."
+    ]
   },
   {
     "book": "1CO",
@@ -1047,31 +2072,89 @@
     "book": "1CO",
     "chapter": 8,
     "verse": 7,
-    "content": "Howbeit there is not in all men that knowledge: but some, being used until now to the idol, eat as of a thing sacrificed to an idol; and their conscience being weak is defiled."
+    "content": [
+      "Howbeit there is not in all men that knowledge: but some, being used until now to the idol, eat as ",
+      { "text": "of", "marks": ["i"] },
+      " a thing sacrificed to an idol; and their conscience being weak is defiled."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 8,
-    "content": "But food will not commend us to God: neither, if we eat not, are we the worse; nor, if we eat, are we the better."
+    "content": [
+      {
+        "text": "But food will not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "present", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "commend us to God: neither, if we eat not, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "do we lack", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "are we the worse; nor, if we eat, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "do we abound", "marks": ["i"] }, "."]
+        }
+      },
+      "are we the better."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 9,
-    "content": "But take heed lest by any means this liberty of yours become a stumblingblock to the weak."
+    "content": [
+      {
+        "text": "But take heed lest by any means this ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "power", "marks": ["i"] }]
+        }
+      },
+      "liberty of yours become a stumblingblock to the weak."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 10,
-    "content": "For if a man see thee who hast knowledge sitting at meat in an idol’s temple, will not his conscience, if he is weak, be emboldened to eat things sacrificed to idols?"
+    "content": [
+      {
+        "text": "For if a man see thee who hast knowledge sitting at meat in an idol’s temple, will not his conscience, if he is weak, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "be builded up", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "be emboldened to eat things sacrificed to idols?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 11,
-    "content": "For through thy knowledge he that is weak perisheth, the brother for whose sake Christ died."
+    "content": [
+      {
+        "text": "For ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "in", "marks": ["i"] }, "."]
+        }
+      },
+      "through thy knowledge he that is weak perisheth, the brother for whose sake Christ died."
+    ]
   },
   {
     "book": "1CO",
@@ -1091,7 +2174,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Am I not free? Am I not an apostle? Have I not seen Jesus our Lord? Are not ye my work in the Lord?"
+      "text": "Am I not free? am I not an apostle? have I not seen Jesus our Lord? are not ye my work in the Lord?"
     }
   },
   {
@@ -1116,7 +2199,16 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 5,
-    "content": "Have we no right to lead about a wife that is a believer, even as the rest of the apostles, and the brethren of the Lord, and Cephas?"
+    "content": [
+      {
+        "text": "Have we no right to lead about a wife that is a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "sister", "marks": ["i"] }, "."]
+        }
+      },
+      "believer, even as the rest of the apostles, and the brethren of the Lord, and Cephas?"
+    ]
   },
   {
     "book": "1CO",
@@ -1128,7 +2220,7 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 7,
-    "content": "What soldier ever serveth at his own charges? who planteth a vineyard, and eateth not the fruit thereof? Or who feedeth a flock, and eateth not of the milk of the flock?"
+    "content": "What soldier ever serveth at his own charges? who planteth a vineyard, and eateth not the fruit thereof? or who feedeth a flock, and eateth not of the milk of the flock?"
   },
   {
     "book": "1CO",
@@ -1140,13 +2232,36 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 9,
-    "content": "For it is written in the law of Moses, Thou shalt not muzzle the ox when he treadeth out the corn. Is it for the oxen that God careth,"
+    "content": [
+      {
+        "text": "For it is written in the law of Moses, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Deuteronomy 25:4", "content": "Dt. 25:4" },
+            "."
+          ]
+        }
+      },
+      "Thou shalt not muzzle the ox when he treadeth out the corn. Is it for the oxen that God careth,"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 10,
-    "content": "or saith he it assuredly for our sake? Yea, for our sake it was written: because he that ploweth ought to plow in hope, and he that thresheth, to thresh in hope of partaking."
+    "content": [
+      {
+        "text": "or saith he it ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "altogether", "marks": ["i"] }]
+        }
+      },
+      "assuredly for our sake? Yea, for our sake it was written: because he that ploweth ought to plow in hope, and he that thresheth, ",
+      { "text": "to thresh", "marks": ["i"] },
+      " in hope of partaking."
+    ]
   },
   {
     "book": "1CO",
@@ -1158,31 +2273,104 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 12,
-    "content": "If others partake of this right over you, do not we yet more? Nevertheless we did not use this right; but we bear all things, that we may cause no hindrance to the gospel of Christ."
+    "content": [
+      "If others partake of ",
+      { "text": "this", "marks": ["i"] },
+      {
+        "text": " right over you, do not we yet more? Nevertheless we did not use this right; but we bear all things, that we may cause no hindrance to the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 4:15", "content": "4:15" },
+            "."
+          ]
+        }
+      },
+      "gospel of Christ."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 13,
-    "content": "Know ye not that they that minister about sacred things eat of the things of the temple, and they that wait upon the altar have their portion with the altar?"
+    "content": [
+      "Know ye not that they that minister about sacred things eat ",
+      { "text": "of", "marks": ["i"] },
+      " the things of the temple, ",
+      { "text": "and", "marks": ["i"] },
+      " they that wait upon the altar have their portion with the altar?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 14,
-    "content": "Even so did the Lord ordain that they that proclaim the gospel should live of the gospel."
+    "content": [
+      {
+        "text": "Even so did the Lord ordain that they that proclaim the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 4:15", "content": "4:15" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "gospel should live of the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 4:15", "content": "4:15" },
+            "."
+          ]
+        }
+      },
+      "gospel."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 15,
-    "content": "But I have used none of these things: and I write not these things that it may be so done in my case; for it were good for me rather to die, than that any man should make my glorifying void."
+    "content": [
+      "But I have used none of these things: and I write not these things that it may be so done in my case; for ",
+      { "text": "it were", "marks": ["i"] },
+      " good for me rather to die, than that any man should make my glorying void."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 16,
-    "content": "For if I preach the gospel, I have nothing to glory of; for necessity is laid upon me; for woe is unto me, if I preach not the gospel."
+    "content": [
+      {
+        "text": "For if I ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 1:17", "content": "1:17" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "preach the gospel, I have nothing to glory of; for necessity is laid upon me; for woe is unto me, if I ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 1:17", "content": "1:17" },
+            "."
+          ]
+        }
+      },
+      "preach not the gospel."
+    ]
   },
   {
     "book": "1CO",
@@ -1194,13 +2382,52 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 18,
-    "content": "What then is my reward? That, when I preach the gospel, I may make the gospel without charge, so as not to use to the full my right in the gospel."
+    "content": [
+      {
+        "text": "What then is my reward? That, when I ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 1:17", "content": "1:17" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "preach the gospel, I may make the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 4:15", "content": "4:15" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "gospel without charge, so as not to use to the full my right in the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 4:15", "content": "4:15" },
+            "."
+          ]
+        }
+      },
+      "gospel."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 19,
-    "content": "For though I was free from all men, I brought myself under bondage to all, that I might gain the more."
+    "content": [
+      "For though I was free from all ",
+      { "text": "men", "marks": ["i"] },
+      ", I brought myself under bondage to all, that I might gain the more."
+    ]
   },
   {
     "book": "1CO",
@@ -1224,31 +2451,88 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 23,
-    "content": "And I do all things for the gospel’s sake, that I may be a joint partaker thereof."
+    "content": [
+      {
+        "text": "And I do all things for the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 4:15", "content": "4:15" },
+            "."
+          ]
+        }
+      },
+      "gospel’s sake, that I may be a joint partaker thereof."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 24,
-    "content": "Know ye not that they that run in a race run all, but one receiveth the prize? Even so run; that ye may attain."
+    "content": [
+      {
+        "text": "Know ye not that they that run in a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "race-course", "marks": ["i"] }, "."]
+        }
+      },
+      "race run all, but one receiveth the prize? Even so run; that ye may attain."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 25,
-    "content": "And every man that striveth in the games exerciseth self-control in all things. Now they do it to receive a corruptible crown; but we an incorruptible."
+    "content": [
+      "And every man that striveth in the games exerciseth self-control in all things. Now they ",
+      { "text": "do it", "marks": ["i"] },
+      " to receive a corruptible crown; but we an incorruptible."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 26,
-    "content": "I therefore so run, as not uncertainly; so fight I, as not beating the air:"
+    "content": [
+      {
+        "text": "I therefore so run, as not uncertainly; so ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "box", "marks": ["i"] }, "."]
+        }
+      },
+      "fight I, as not beating the air:"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 27,
-    "content": "but I buffet my body, and bring it into bondage: lest by any means, after that I have preached to others, I myself should be rejected."
+    "content": [
+      {
+        "text": "but I ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "bruise", "marks": ["i"] },
+            ". ",
+            { "bibleLink": "Luke 18:5", "content": "Lk. 18:5" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "buffet my body, and bring it into bondage: lest by any means, after that I ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "have been a herald", "marks": ["i"] }]
+        }
+      },
+      "have preached to others, I myself should be rejected."
+    ]
   },
   {
     "book": "1CO",
@@ -1263,7 +2547,16 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 2,
-    "content": "and were all baptized unto Moses in the cloud and in the sea;"
+    "content": [
+      {
+        "text": "and were all baptized ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "into", "marks": ["i"] }, "."]
+        }
+      },
+      "unto Moses in the cloud and in the sea;"
+    ]
   },
   {
     "book": "1CO",
@@ -1275,7 +2568,22 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 4,
-    "content": "and did all drink the same spiritual drink: for they drank of a spiritual rock that followed them: and the rock was Christ."
+    "content": [
+      {
+        "text": "and did all drink the same spiritual drink: for they drank of a spiritual rock that followed them: and the rock was ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the Christ", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Hebrews 11:26", "content": "Heb. 11:26" },
+            "."
+          ]
+        }
+      },
+      "Christ."
+    ]
   },
   {
     "book": "1CO",
@@ -1287,13 +2595,40 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 6,
-    "content": "Now these things were our examples, to the intent we should not lust after evil things, as they also lusted."
+    "content": [
+      {
+        "text": "Now ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "in these things they became figures of us",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "these things were our examples, to the intent we should not lust after evil things, as they also lusted."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 7,
-    "content": "Neither be ye idolaters, as were some of them; as it is written, The people sat down to eat and drink, and rose up to play."
+    "content": [
+      {
+        "text": "Neither be ye idolaters, as were some of them; as it is written, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Exodus 32:6", "content": "Ex. 32:6" },
+            "."
+          ]
+        }
+      },
+      "The people sat down to eat and drink, and rose up to play."
+    ]
   },
   {
     "book": "1CO",
@@ -1305,7 +2640,20 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 9,
-    "content": "Neither let us make trial of the Lord, as some of them made trial, and perished by the serpents."
+    "content": [
+      {
+        "text": "Neither let us make trial of the ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "Christ", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Lord, as some of them made trial, and perished by the serpents."
+    ]
   },
   {
     "book": "1CO",
@@ -1317,7 +2665,20 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 11,
-    "content": "Now these things happened unto them by way of example; and they were written for our admonition, upon whom the ends of the ages are come."
+    "content": [
+      {
+        "text": "Now these things happened unto them ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "by way of figure", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "by way of example; and they were written for our admonition, upon whom the ends of the ages are come."
+    ]
   },
   {
     "book": "1CO",
@@ -1335,7 +2696,10 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 14,
-    "content": "Wherefore, my beloved, flee from idolatry."
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore, my beloved, flee from idolatry."
+    }
   },
   {
     "book": "1CO",
@@ -1347,13 +2711,71 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 16,
-    "content": "The cup of blessing which we bless, is it not a communion of the blood of Christ? The bread which we break, is it not a communion of the body of Christ?"
+    "content": [
+      {
+        "text": "The cup of blessing which we bless, is it not a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "participation in", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "communion of the blood of Christ? The ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "loaf", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "bread which we break, is it not a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "participation in", "marks": ["i"] }]
+        }
+      },
+      "communion of the body of Christ?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 17,
-    "content": "seeing that we, who are many, are one bread, one body: for we are all partake of the one bread."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "seeing that there is one bread, we, who are many, are one body",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "seeing that we, who are many, are one ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "loaf", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "bread, one body: for we all partake ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "of the one ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "loaf", "marks": ["i"] }]
+        }
+      },
+      "bread."
+    ]
   },
   {
     "book": "1CO",
@@ -1371,7 +2793,11 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 20,
-    "content": "But I say, that the things which the Gentiles sacrifice, they sacrifice to demons, and not to God: and I would not that ye should have communion with demons."
+    "content": [
+      "But ",
+      { "text": "I say", "marks": ["i"] },
+      ", that the things which the Gentiles sacrifice, they sacrifice to demons, and not to God: and I would not that ye should have communion with demons."
+    ]
   },
   {
     "book": "1CO",
@@ -1389,19 +2815,48 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 23,
-    "content": "All things are lawful; but not all things are expedient. All things are lawful; but not all things edify."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "All things are lawful; but not all things are expedient. All things are lawful; but not all things ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "build up", "marks": ["i"] }, "."]
+        }
+      },
+      "edify."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 24,
-    "content": "Let no man seek his own, but each his neighbor’s good."
+    "content": [
+      "Let no man seek his own, but ",
+      {
+        "text": "each",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the other’s", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Romans 13:8", "content": "Rom. 13:8" },
+            "."
+          ]
+        }
+      },
+      " his neighbor’s ",
+      { "text": "good", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 25,
-    "content": "Whatsoever is sold in the shambles, eat, asking no question for conscience’ sake,"
+    "content": "Whatsoever is sold in the shambles, eat, asking no question for conscience’ sake;"
   },
   {
     "book": "1CO",
@@ -1413,13 +2868,17 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 27,
-    "content": "If one of them that believe not biddeth you to a feast, and ye are disposed to go; whatsoever is set before you, eat, asking no question for conscience’ sake."
+    "content": [
+      "If one of them that believe not biddeth you ",
+      { "text": "to a feast", "marks": ["i"] },
+      ", and ye are disposed to go; whatsoever is set before you, eat, asking no question for conscience’ sake."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 28,
-    "content": "But if any man say unto you, This hath been offered in sacrifice, eat not, for his sake that showed it, and for conscience sake:"
+    "content": "But if any man say unto you, This hath been offered in sacrifice, eat not, for his sake that showed it, and for conscience’ sake:"
   },
   {
     "book": "1CO",
@@ -1431,7 +2890,18 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 30,
-    "content": "If I partake with thankfulness, why am I evil spoken of for that for which I give thanks?"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "If I by grace partake", "marks": ["i"] }
+          ]
+        }
+      },
+      "If I partake with thankfulness, why am I evil spoken of for that for which I give thanks?"
+    ]
   },
   {
     "book": "1CO",
@@ -1443,13 +2913,17 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 32,
-    "content": "Give no occasions of stumbling, either to Jews, or to Greeks, or to the church of God:"
+    "content": "Give no occasion of stumbling, either to Jews, or to Greeks, or to the church of God:"
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 33,
-    "content": "even as I also please all men in all things, not seeking mine own profit, but the profit of the many, that they may be saved."
+    "content": [
+      "even as I also please all men in all things, not seeking mine own profit, but the ",
+      { "text": "profit", "marks": ["i"] },
+      " of the many, that they may be saved."
+    ]
   },
   {
     "book": "1CO",
@@ -1457,14 +2931,18 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Be ye imitators of me, even as I also am of Christ."
+      "text": "Be ye imitators of me, even as I also am of Christ.",
+      "break": true
     }
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 2,
-    "content": "Now I praise you that ye remember me in all things, and hold fast the traditions, even as I delivered them to you."
+    "content": {
+      "paragraph": true,
+      "text": "Now I praise you that ye remember me in all things, and hold fast the traditions, even as I delivered them to you."
+    }
   },
   {
     "book": "1CO",
@@ -1512,7 +2990,11 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 10,
-    "content": "for this cause ought the woman to have a sign of authority on her head, because of the angels."
+    "content": [
+      "for this cause ought the woman to have ",
+      { "text": "a sign of", "marks": ["i"] },
+      " authority on her head, because of the angels."
+    ]
   },
   {
     "book": "1CO",
@@ -1530,7 +3012,16 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 13,
-    "content": "Judge ye in yourselves: is it seemly that a woman pray unto God unveiled?"
+    "content": [
+      {
+        "text": "Judge ye ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "among", "marks": ["i"] }]
+        }
+      },
+      "in yourselves: is it seemly that a woman pray unto God unveiled?"
+    ]
   },
   {
     "book": "1CO",
@@ -1554,19 +3045,47 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 17,
-    "content": "But in giving you this charge, I praise you not, that ye come together not for the better but for the worse."
+    "content": {
+      "paragraph": true,
+      "text": "But in giving you this charge, I praise you not, that ye come together not for the better but for the worse."
+    }
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 18,
-    "content": "For first of all, when ye come together in the church, I hear that divisions exist among you; and I partly believe it."
+    "content": [
+      {
+        "text": "For first of all, when ye come together ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in congregation", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "in the church, I hear that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "schisms", "marks": ["i"] }, "."]
+        }
+      },
+      "divisions exist among you; and I partly believe it."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 19,
-    "content": "For there must be also factions among you, that they that are approved may be made manifest among you."
+    "content": [
+      {
+        "text": "For there must be also ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "heresies", "marks": ["i"] }, "."]
+        }
+      },
+      "factions among you, that they that are approved may be made manifest among you."
+    ]
   },
   {
     "book": "1CO",
@@ -1578,31 +3097,91 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 21,
-    "content": "for in your eating each one taketh before other his own supper; and one is hungry, and another is drunken."
+    "content": [
+      "for in your eating each one taketh before ",
+      { "text": "other", "marks": ["i"] },
+      " his own supper; and one is hungry, and another is drunken."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 22,
-    "content": "What, have ye not houses to eat and to drink in? or despise ye the church of God, and put them to shame that have not? What shall I say to you? shall I praise you? In this I praise you not."
+    "content": [
+      {
+        "text": "What, have ye not houses to eat and to drink in? or despise ye the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "congregation", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "church of God, and put them to shame that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "having nothing", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "have not? What shall I say to you? ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "shall I praise you in this? I praise you not",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      "shall I praise you? In this I praise you not."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 23,
-    "content": "For I received of the Lord that which also I delivered unto you, that the Lord Jesus in the night in which he was betrayed took bread;"
+    "content": [
+      {
+        "text": "For I received of the Lord that which also I delivered unto you, that the Lord Jesus in the night in which he was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "delivered up", "marks": ["i"] }]
+        }
+      },
+      "betrayed took bread;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 24,
-    "content": "and when he had given thanks, he brake it, and said, This is my body, which is for you: this do in remembrance of me."
+    "content": [
+      {
+        "text": "and when he had given thanks, he brake it, and said, This is my body, which ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "is broken for you", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "is for you: this do in remembrance of me."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 25,
-    "content": "In like manner also the cup, after supper, saying, This cup is the new covenant in my blood: this do, as often as ye drink it, in remembrance of me."
+    "content": [
+      "In like manner also the cup, after supper, saying, This cup is the new covenant in my blood: this do, as often as ye drink ",
+      { "text": "it", "marks": ["i"] },
+      ", in remembrance of me."
+    ]
   },
   {
     "book": "1CO",
@@ -1626,7 +3205,16 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 29,
-    "content": "For he that eateth and drinketh, eateth and drinketh judgment unto himself, if he discern not the body."
+    "content": [
+      {
+        "text": "For he that eateth and drinketh, eateth and drinketh judgment unto himself, if he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "discriminate", "marks": ["i"] }, "."]
+        }
+      },
+      "discern not the body."
+    ]
   },
   {
     "book": "1CO",
@@ -1638,13 +3226,41 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 31,
-    "content": "But if we discerned ourselves, we should not be judged."
+    "content": [
+      {
+        "text": "But if we ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "discriminated", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "discerned ourselves, we should not be judged."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 32,
-    "content": "But when we are judged, we are chastened of the Lord, that we may not be condemned with the world."
+    "content": [
+      {
+        "text": "But ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "when we are judged of the Lord, we are chastened",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "when we are judged, we are chastened of the Lord, that we may not be condemned with the world."
+    ]
   },
   {
     "book": "1CO",
@@ -1656,22 +3272,30 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 34,
-    "content": "If any man is hungry, let him eat at home; that your coming together be not unto judgment. And the rest will I set in order whensoever I come."
-  },
-  {
-    "book": "1CO",
-    "chapter": 12,
-    "verse": 1,
     "content": {
-      "paragraph": true,
-      "text": "Now concerning spiritual gifts, brethren, I would not have you ignorant."
+      "text": "If any man is hungry, let him eat at home; that your coming together be not unto judgment. And the rest will I set in order whensoever I come.",
+      "break": true
     }
   },
   {
     "book": "1CO",
     "chapter": 12,
+    "verse": 1,
+    "content": [
+      { "paragraph": true, "text": "Now concerning spiritual " },
+      { "text": "gifts", "marks": ["i"] },
+      ", brethren, I would not have you ignorant."
+    ]
+  },
+  {
+    "book": "1CO",
+    "chapter": 12,
     "verse": 2,
-    "content": "Ye know that when ye were Gentiles ye were led away unto those dumb idols, howsoever ye might led."
+    "content": [
+      "Ye know that when ye were Gentiles ",
+      { "text": "ye were", "marks": ["i"] },
+      " led away unto those dumb idols, howsoever ye might be led."
+    ]
   },
   {
     "book": "1CO",
@@ -1683,7 +3307,10 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 4,
-    "content": "Now there are diversities of gifts, but the same Spirit."
+    "content": {
+      "paragraph": true,
+      "text": "Now there are diversities of gifts, but the same Spirit."
+    }
   },
   {
     "book": "1CO",
@@ -1719,7 +3346,18 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 10,
-    "content": "and to another workings of miracles; and to another prophecy; and to another discernings of spirits; to another divers kinds of tongues; and to another the interpretation of tongues:"
+    "content": [
+      {
+        "text": "and to another workings of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "powers", "marks": ["i"] }, "."]
+        }
+      },
+      "miracles; and to another prophecy; and to another discernings of spirits: to another ",
+      { "text": "divers", "marks": ["i"] },
+      " kinds of tongues; and to another the interpretation of tongues:"
+    ]
   },
   {
     "book": "1CO",
@@ -1731,7 +3369,10 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 12,
-    "content": "For as the body is one, and hath many members, and all the members of the body, being many, are one body; so also is Christ."
+    "content": {
+      "paragraph": true,
+      "text": "For as the body is one, and hath many members, and all the members of the body, being many, are one body; so also is Christ."
+    }
   },
   {
     "book": "1CO",
@@ -1797,43 +3438,118 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 23,
-    "content": "and those parts of the body, which we think to be less honorable, upon these we bestow more abundant honor; and our uncomely parts have more abundant comeliness;"
+    "content": [
+      "and those ",
+      { "text": "parts", "marks": ["i"] },
+      {
+        "text": " of the body, which we think to be less honorable, upon these we ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "put on", "marks": ["i"] }]
+        }
+      },
+      "bestow more abundant honor; and our uncomely ",
+      { "text": "parts", "marks": ["i"] },
+      " have more abundant comeliness;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 24,
-    "content": "whereas our comely parts have no need: but God tempered the body together, giving more abundant honor to that part which lacked;"
+    "content": [
+      "whereas our comely ",
+      { "text": "parts", "marks": ["i"] },
+      " have no need: but God tempered the body together, giving more abundant honor to that ",
+      { "text": "part", "marks": ["i"] },
+      " which lacked;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 25,
-    "content": "that there should be no schism in the body; but that the members should have the same care one for another."
+    "content": [
+      "that there should be no schism in the body; but ",
+      { "text": "that", "marks": ["i"] },
+      " the members should have the same care one for another."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 26,
-    "content": "And whether one member suffereth, all the members suffer with it; or one member is honored, all the members rejoice with it."
+    "content": [
+      "And whether one member suffereth, all the members suffer with it; or ",
+      { "text": "one", "marks": ["i"] },
+      {
+        "text": " member is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "glorified", "marks": ["i"] }]
+        }
+      },
+      "honored, all the members rejoice with it."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 27,
-    "content": "Now ye are the body of Christ, and severally members thereof."
+    "content": [
+      {
+        "text": "Now ye are the body of Christ, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "members each in his part", "marks": ["i"] }
+          ]
+        }
+      },
+      "severally members thereof."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 28,
-    "content": "And God hath set some in the church, first apostles, secondly prophets, thirdly teachers, then miracles, then gifts of healings, helps, governments, divers kinds of tongues."
+    "content": [
+      {
+        "text": "And God hath set some in the church, first apostles, secondly prophets, thirdly teachers, then ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "powers", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "miracles, then gifts of healings, helps, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "wise counsels", "marks": ["i"] }]
+        }
+      },
+      "governments, ",
+      { "text": "divers", "marks": ["i"] },
+      " kinds of tongues."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 29,
-    "content": "Are all apostles? are all prophets? are all teachers? are all workers of miracles?"
+    "content": [
+      "Are all apostles? are all prophets? are all teachers? are all ",
+      {
+        "text": "workers of",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "powers", "marks": ["i"] }, "."]
+        }
+      },
+      " miracles?"
+    ]
   },
   {
     "book": "1CO",
@@ -1860,19 +3576,42 @@
     "book": "1CO",
     "chapter": 13,
     "verse": 2,
-    "content": "And if I have the gift of prophecy, and know all mysteries and all knowledge; and if I have all faith, so as to remove mountains, but have not love, I am nothing."
+    "content": [
+      "And if I have ",
+      { "text": "the gift of", "marks": ["i"] },
+      " prophecy, and know all mysteries and all knowledge; and if I have all faith, so as to remove mountains, but have not love, I am nothing."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 13,
     "verse": 3,
-    "content": "And if I bestow all my goods to feed the poor, and if I give my body to be burned, but have not love, it profiteth me nothing."
+    "content": [
+      "And if I bestow all my goods to feed ",
+      { "text": "the poor", "marks": ["i"] },
+      {
+        "text": ", and if I give my body ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "that I may glory", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "to be burned, but have not love, it profiteth me nothing."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 13,
     "verse": 4,
-    "content": "Love suffereth long, and is kind; love envieth not; love vaunteth not itself, is not puffed up,"
+    "content": [
+      "Love suffereth long, ",
+      { "text": "and", "marks": ["i"] },
+      " is kind; love envieth not; love vaunteth not itself, is not puffed up,"
+    ]
   },
   {
     "book": "1CO",
@@ -1890,13 +3629,35 @@
     "book": "1CO",
     "chapter": 13,
     "verse": 7,
-    "content": "beareth all things, believeth all things, hopeth all things, endureth all things."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "covereth", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "1 Peter 4:8", "content": "1 Pet. 4:8" },
+            "."
+          ]
+        }
+      },
+      "beareth all things, believeth all things, hopeth all things, endureth all things."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 13,
     "verse": 8,
-    "content": "Love never faileth: but whether there be prophecies, they shall be done away; whether there be tongues, they shall cease; whether there be knowledge, it shall be done away."
+    "content": [
+      "Love never faileth: but whether ",
+      { "text": "there be", "marks": ["i"] },
+      " prophecies, they shall be done away; whether ",
+      { "text": "there be", "marks": ["i"] },
+      " tongues, they shall cease; whether ",
+      { "text": "there be", "marks": ["i"] },
+      " knowledge, it shall be done away."
+    ]
   },
   {
     "book": "1CO",
@@ -1920,40 +3681,106 @@
     "book": "1CO",
     "chapter": 13,
     "verse": 12,
-    "content": "For now we see in a mirror, darkly; but then face to face: now I know in part; but then shall I know fully even as also I was fully known."
+    "content": [
+      {
+        "text": "For now we see in a mirror, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "in a riddle", "marks": ["i"] }, "."]
+        }
+      },
+      "darkly; but then face to face: now I know in part; but then shall I know fully even as also I was fully known."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 13,
     "verse": 13,
-    "content": "But now abideth faith, hope, love, these three; and the greatest of these is love."
+    "content": [
+      {
+        "text": "But now abideth faith, hope, love, these three; and the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "greater", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Matthew 18:1", "content": "Mt. 18:1" },
+            ", ",
+            { "bibleLink": "Matthew 18:4", "content": "4" },
+            "; ",
+            { "bibleLink": "Matthew 23:11", "content": "23:11" },
+            "."
+          ]
+        }
+      },
+      "greatest of these is love."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Follow after love; yet desire earnestly spiritual gifts, but rather that ye may prophesy."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Follow after love; yet desire earnestly spiritual "
+      },
+      { "text": "gifts", "marks": ["i"] },
+      ", but rather that ye may prophesy."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 2,
-    "content": "For he that speaketh in a tongue speaketh not unto men, but unto God; for no man understandeth; but in the spirit he speaketh mysteries."
+    "content": [
+      {
+        "text": "For he that speaketh in a tongue speaketh not unto men, but unto God; for no man ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "heareth", "marks": ["i"] }, "."]
+        }
+      },
+      "understandeth; but in the spirit he speaketh mysteries."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 3,
-    "content": "But he that prophesieth speaketh unto men edification, and exhortation, and consolation."
+    "content": [
+      {
+        "text": "But he that prophesieth speaketh unto men edification, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "comfort", "marks": ["i"] }]
+        }
+      },
+      "exhortation, and consolation."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 4,
-    "content": "He that speaketh in a tongue edifieth himself; but he that prophesieth edifieth the church."
+    "content": [
+      {
+        "text": "He that speaketh in a tongue ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "buildeth up", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "edifieth himself; but he that prophesieth ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "buildeth up", "marks": ["i"] }, "."]
+        }
+      },
+      "edifieth the church."
+    ]
   },
   {
     "book": "1CO",
@@ -1983,25 +3810,59 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 9,
-    "content": "So also ye, unless ye utter by the tongue speech easy to understood, how shall it be known what is spoken? for ye will be speaking into the air."
+    "content": "So also ye, unless ye utter by the tongue speech easy to be understood, how shall it be known what is spoken? for ye will be speaking into the air."
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 10,
-    "content": "There are, it may be, so many kinds of voices in the world, and no kind is without signification."
+    "content": [
+      {
+        "text": "There are, it may be, so many kinds of voices in the world, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "nothing is without voice", "marks": ["i"] }
+          ]
+        }
+      },
+      "no ",
+      { "text": "kind", "marks": ["i"] },
+      " is without signification."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 11,
-    "content": "If then I know not the meaning of the voice, I shall be to him that speaketh a barbarian, and he that speaketh will be a barbarian unto me."
+    "content": [
+      {
+        "text": "If then I know not the meaning of the voice, I shall be to him that speaketh a barbarian, and he that speaketh will be a barbarian ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in my case", "marks": ["i"] }]
+        }
+      },
+      "unto me."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 12,
-    "content": "So also ye, since ye are zealous of spiritual gifts, seek that ye may abound unto the edifying of the church."
+    "content": [
+      {
+        "text": "So also ye, since ye are zealous of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "spirits", "marks": ["i"] }, "."]
+        }
+      },
+      "spiritual ",
+      { "text": "gifts", "marks": ["i"] },
+      ", seek that ye may abound unto the edifying of the church."
+    ]
   },
   {
     "book": "1CO",
@@ -2025,13 +3886,39 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 16,
-    "content": "Else if thou bless with the spirit, how shall he that filleth the place of the unlearned say the Amen at thy giving of thanks, seeing he knoweth not what thou sayest?"
+    "content": [
+      {
+        "text": "Else if thou bless with the spirit, how shall he that filleth the place of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "him that is without gifts", "marks": ["i"] },
+            ": and so in verses ",
+            { "bibleLink": "1 Corinthians 14:23", "content": "23" },
+            ", ",
+            { "bibleLink": "1 Corinthians 14:24", "content": "24" },
+            "."
+          ]
+        }
+      },
+      "the unlearned say the Amen at thy giving of thanks, seeing he knoweth not what thou sayest?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 17,
-    "content": "For thou verily givest thanks well, but the other is not edified."
+    "content": [
+      {
+        "text": "For thou verily givest thanks well, but the other is not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "builded up", "marks": ["i"] }, "."]
+        }
+      },
+      "edified."
+    ]
   },
   {
     "book": "1CO",
@@ -2049,19 +3936,51 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 20,
-    "content": "Brethren, be not children in mind: yet in malice be ye babes, but in mind be men."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Brethren, be not children in mind: yet in malice be ye babes, but in mind be ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "of full age", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "1 Corinthians 2:6", "content": "2:6" },
+            "."
+          ]
+        }
+      },
+      "men."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 21,
-    "content": "In the law it is written, By men of strange tongues and by the lips of strangers will I speak unto this people; and not even thus will they hear me, saith the Lord."
+    "content": [
+      {
+        "text": "In the law it is written, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 28:11–29", "content": "Isa. 28:11f" },
+            "."
+          ]
+        }
+      },
+      "By men of strange tongues and by the lips of strangers will I speak unto this people; and not even thus will they hear me, saith the Lord."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 22,
-    "content": "Wherefore tongues are for a sign, not to them that believe, but to the unbelieving: but prophesying is for a sign, not to the unbelieving, but to them that believe."
+    "content": [
+      "Wherefore tongues are for a sign, not to them that believe, but to the unbelieving: but prophesying ",
+      { "text": "is for a sign", "marks": ["i"] },
+      ", not to the unbelieving, but to them that believe."
+    ]
   },
   {
     "book": "1CO",
@@ -2073,25 +3992,52 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 24,
-    "content": "But if all prophesy, and there come in one unbelieving or unlearned, he is reproved by all, he is judged by all;"
+    "content": [
+      {
+        "text": "But if all prophesy, and there come in one unbelieving or unlearned, he is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "convicted", "marks": ["i"] }]
+        }
+      },
+      "reproved by all, he is judged by all;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 25,
-    "content": "the secrets of his heart are made manifest; and so he will fall down on his face and worship God, declaring that God is among you indeed."
+    "content": [
+      {
+        "text": "the secrets of his heart are made manifest; and so he will fall down on his face and worship God, declaring that God is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in", "marks": ["i"] }]
+        }
+      },
+      "among you indeed."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 26,
-    "content": "What is it then, brethren? When ye come together, each one hath a psalm, hath a teaching, hath a revelation, hath a tongue, hath an interpretation. Let all things be done unto edifying."
+    "content": {
+      "paragraph": true,
+      "text": "What is it then, brethren? When ye come together, each one hath a psalm, hath a teaching, hath a revelation, hath a tongue, hath an interpretation. Let all things be done unto edifying."
+    }
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 27,
-    "content": "If any man speaketh in a tongue, let it be by two, or at the most three, and that in turn; and let one interpret:"
+    "content": [
+      "If any man speaketh in a tongue, ",
+      { "text": "let it be", "marks": ["i"] },
+      " by two, or at the most three, and ",
+      { "text": "that", "marks": ["i"] },
+      " in turn; and let one interpret:"
+    ]
   },
   {
     "book": "1CO",
@@ -2103,7 +4049,18 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 29,
-    "content": "And let the prophets speak by two or three, and let the others discern."
+    "content": [
+      "And let the prophets speak ",
+      { "text": "by", "marks": ["i"] },
+      {
+        "text": " two or three, and let the others ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "discriminate", "marks": ["i"] }, "."]
+        }
+      },
+      "discern."
+    ]
   },
   {
     "book": "1CO",
@@ -2115,7 +4072,16 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 31,
-    "content": "For ye all can prophesy one by one, that all may learn, and all may be exhorted;"
+    "content": [
+      {
+        "text": "For ye all can prophesy one by one, that all may learn, and all may be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "comforted", "marks": ["i"] }]
+        }
+      },
+      "exhorted;"
+    ]
   },
   {
     "book": "1CO",
@@ -2127,13 +4093,30 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 33,
-    "content": "for God is not a God of confusion, but of peace. As in all the churches of the saints,"
+    "content": [
+      "for God is not ",
+      { "text": "a God", "marks": ["i"] },
+      " of confusion, but of peace.",
+      { "paragraph": true, "text": "As in all the churches of the saints," }
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 34,
-    "content": "let the women keep silence in the churches: for it is not permitted unto them to speak; but let them be in subjection, as also saith the law."
+    "content": [
+      {
+        "text": "let the women keep silence in the churches: for it is not permitted unto them to speak; but let them be in subjection, as also ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "bibleLink": "Genesis 3:16", "content": "Gen. 3:16" },
+            "?"
+          ]
+        }
+      },
+      "saith the law."
+    ]
   },
   {
     "book": "1CO",
@@ -2151,40 +4134,119 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 37,
-    "content": "If any man thinketh himself to be a prophet, or spiritual, let him take knowledge of the things which I write unto you, that they are the commandment of the Lord."
+    "content": {
+      "paragraph": true,
+      "text": "If any man thinketh himself to be a prophet, or spiritual, let him take knowledge of the things which I write unto you, that they are the commandment of the Lord."
+    }
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 38,
-    "content": "But if any man is ignorant, let him be ignorant."
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            {
+              "text": "But if any man knoweth not, he is not known.",
+              "marks": ["i"]
+            },
+            " Compare ",
+            { "bibleLink": "1 Corinthians 8:3", "content": "8:3" },
+            "."
+          ]
+        }
+      },
+      "But if any man is ignorant, let him be ignorant."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 39,
-    "content": "Wherefore, my brethren, desire earnestly to prophesy, and forbid not to speak with tongues."
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore, my brethren, desire earnestly to prophesy, and forbid not to speak with tongues."
+    }
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 40,
-    "content": "But let all things be done decently and in order."
-  },
-  {
-    "book": "1CO",
-    "chapter": 15,
-    "verse": 1,
     "content": {
-      "paragraph": true,
-      "text": "Now I make known unto you brethren, the gospel which I preached unto you, which also ye received, wherein also ye stand,"
+      "text": "But let all things be done decently and in order.",
+      "break": true
     }
   },
   {
     "book": "1CO",
     "chapter": 15,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now I make known unto you brethren, the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 4:15", "content": "4:15" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "gospel which I ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 1:17", "content": "1:17" },
+            "."
+          ]
+        }
+      },
+      "preached unto you, which also ye received, wherein also ye stand,"
+    ]
+  },
+  {
+    "book": "1CO",
+    "chapter": 15,
     "verse": 2,
-    "content": "by which also ye are saved, if ye hold fast the word which I preached unto you, except ye believed in vain."
+    "content": [
+      {
+        "text": "by which also ye are saved, if ye hold fast ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "with what word", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "the word which I ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "1 Corinthians 1:17", "content": "1:17" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "preached unto you, except ye believed ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "without cause", "marks": ["i"] }]
+        }
+      },
+      "in vain."
+    ]
   },
   {
     "book": "1CO",
@@ -2214,13 +4276,26 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 7,
-    "content": "then he appeared to James; then to all the apostles;"
+    "content": [
+      {
+        "text": "then he appeared to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James; then to all the apostles;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 8,
-    "content": "and last of all, as to the child untimely born, he appeared to me also."
+    "content": [
+      "and last of all, as to the ",
+      { "text": "child", "marks": ["i"] },
+      " untimely born, he appeared to me also."
+    ]
   },
   {
     "book": "1CO",
@@ -2232,19 +4307,35 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 10,
-    "content": "But by the grace of God I am what I am: and his grace which was bestowed upon me was not found vain; but I labored more abundantly than they all: yet not I, but the grace of God which was with me."
+    "content": [
+      {
+        "text": "But by the grace of God I am what I am: and his grace which was bestowed upon me was not found ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "void", "marks": ["i"] }]
+        }
+      },
+      "vain; but I labored more abundantly than they all: yet not I, but the grace of God which was with me."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 11,
-    "content": "Whether then it be I or they, so we preach, and so ye believed."
+    "content": [
+      "Whether then ",
+      { "text": "it be", "marks": ["i"] },
+      " I or they, so we preach, and so ye believed."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 12,
-    "content": "Now if Christ is preached that he hath been raised from the dead, how say some among you that there is no resurrection of the dead?"
+    "content": {
+      "paragraph": true,
+      "text": "Now if Christ is preached that he hath been raised from the dead, how say some among you that there is no resurrection of the dead?"
+    }
   },
   {
     "book": "1CO",
@@ -2256,13 +4347,49 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 14,
-    "content": "and if Christ hath not been raised, then is our preaching vain, your faith also is vain."
+    "content": [
+      {
+        "text": "and if Christ hath not been raised, then is our preaching ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "void", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "vain, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "our", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "your faith also is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "void", "marks": ["i"] }]
+        }
+      },
+      "vain."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 15,
-    "content": "Yea, we are found false witnesses of God; because we witnessed of God that he raised up Christ: whom he raised not up, if so be that the dead are not raised."
+    "content": [
+      {
+        "text": "Yea, and we are found false witnesses of God; because we witnessed of God that he raised up ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "the Christ", "marks": ["i"] }, "."]
+        }
+      },
+      "Christ: whom he raised not up, if so be that the dead are not raised."
+    ]
   },
   {
     "book": "1CO",
@@ -2286,37 +4413,93 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 19,
-    "content": "If we have only hoped in Christ in this life, we are of all men most pitiable."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "If in this life only we have hoped in Christ etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "If we have only hoped in Christ in this life, we are of all men most pitiable."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 20,
-    "content": "But now hath Christ been raised from the dead, the firstfruits of them that are asleep."
+    "content": {
+      "paragraph": true,
+      "text": "But now hath Christ been raised from the dead, the firstfruits of them that are asleep."
+    }
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 21,
-    "content": "For since by man came death, by man came also the resurrection of the dead."
+    "content": [
+      "For since by man ",
+      { "text": "came", "marks": ["i"] },
+      " death, by man ",
+      { "text": "came", "marks": ["i"] },
+      " also the resurrection of the dead."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 22,
-    "content": "For as in Adam all die, so also in Christ shall all be made alive."
+    "content": [
+      {
+        "text": "For as in Adam all die, so also in ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "the Christ", "marks": ["i"] }, "."]
+        }
+      },
+      "Christ shall all be made alive."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 23,
-    "content": "But each in his own order: Christ the firstfruits; then they that are Christ’s, at his coming."
+    "content": [
+      {
+        "text": "But each in his own order: Christ the firstfruits; then they that are Christ’s, at his c",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "presence", "marks": ["i"] }, "."]
+        }
+      },
+      "oming."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 24,
-    "content": "Then cometh the end, when he shall deliver up the kingdom to God, even the Father; when he shall have abolished all rule and all authority and power."
+    "content": [
+      "Then ",
+      { "text": "cometh", "marks": ["i"] },
+      {
+        "text": " the end, when he shall deliver up the kingdom to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the God and Father", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "God, even the Father; when he shall have abolished all rule and all authority and power."
+    ]
   },
   {
     "book": "1CO",
@@ -2334,7 +4517,31 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 27,
-    "content": "For, He put all things in subjection under his feet. But when he saith, All things are put in subjection, it is evident that he is excepted who did subject all things unto him."
+    "content": [
+      {
+        "text": "For, He put all things in subjection under his feet. ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "But when he shall have said, All things are put in subjection (evidently excepting him that did subject all things unto him), when",
+              "marks": ["i"]
+            },
+            ", I say, ",
+            { "text": "all things etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "But when he saith, ",
+        "foot": {
+          "type": "xrf",
+          "content": [{ "bibleLink": "Psalm 8:6", "content": "Ps. 8:6" }, "."]
+        }
+      },
+      "All things are put in subjection, it is evident that he is excepted who did subject all things unto him."
+    ]
   },
   {
     "book": "1CO",
@@ -2346,25 +4553,52 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 29,
-    "content": "Else what shall they do that are baptized for the dead? If the dead are not raised at all, why then are they baptized for them?"
+    "content": {
+      "paragraph": true,
+      "text": "Else what shall they do that are baptized for the dead? If the dead are not raised at all, why then are they baptized for them?"
+    }
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 30,
-    "content": "Why do we also stand in jeopardy every hour?"
+    "content": "why do we also stand in jeopardy every hour?"
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 31,
-    "content": "I protest by that glorifying in you, brethren, which I have in Christ Jesus our Lord, I die daily."
+    "content": [
+      {
+        "text": "I protest by ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "your glorying", "marks": ["i"] }]
+        }
+      },
+      "that glorying in you, brethren, which I have in Christ Jesus our Lord, I die daily."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 32,
-    "content": "If after the manner of men I fought with beasts at Ephesus, what doth it profit me? If the dead are not raised, let us eat and drink, for to-morrow we die."
+    "content": [
+      {
+        "text": "If after the manner of men I fought with beasts at Ephesus, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "what doth it profit me, if the dead are not raised? Let us eat etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "what doth it profit me? If the dead are not raised, let us eat and drink, for to-morrow we die."
+    ]
   },
   {
     "book": "1CO",
@@ -2376,13 +4610,20 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 34,
-    "content": "Awake to soberness righteously, and sin not; for some have no knowledge of God: I speak this to move you to shame."
+    "content": [
+      "Awake to soberness righteously, and sin not; for some have no knowledge of God: I speak ",
+      { "text": "this", "marks": ["i"] },
+      " to move you to shame."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 35,
-    "content": "But some one will say, How are the dead raised? and with what manner of body do they come?"
+    "content": {
+      "paragraph": true,
+      "text": "But some one will say, How are the dead raised? and with what manner of body do they come?"
+    }
   },
   {
     "book": "1CO",
@@ -2406,13 +4647,21 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 39,
-    "content": "All flesh is not the same flesh: but there is one flesh of men, and another flesh of beasts, and another flesh of birds, and another of fishes."
+    "content": [
+      "All flesh is not the same flesh: but there is one ",
+      { "text": "flesh", "marks": ["i"] },
+      " of men, and another flesh of beasts, and another flesh of birds, and another of fishes."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 40,
-    "content": "There are also celestial bodies, and bodies terrestrial: but the glory of the celestial is one, and the glory of the terrestrial is another."
+    "content": [
+      "There are also celestial bodies, and bodies terrestrial: but the glory of the celestial is one, and the ",
+      { "text": "glory", "marks": ["i"] },
+      " of the terrestrial is another."
+    ]
   },
   {
     "book": "1CO",
@@ -2436,19 +4685,60 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 44,
-    "content": "it is sown a natural body; it is raised a spiritual body. If there is a natural body, there is also a spiritual body."
+    "content": [
+      {
+        "text": "it is sown a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "psychical", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "natural body; it is raised a spiritual body. If there is a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "psychical", "marks": ["i"] }, "."]
+        }
+      },
+      "natural body, there is also a spiritual ",
+      { "text": "body", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 45,
-    "content": "So also it is written, The first man Adam became a living soul. The last Adam became a life-giving spirit."
+    "content": [
+      {
+        "text": "So also it is written, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Genesis 2:7", "content": "Gen. 2:7" },
+            "."
+          ]
+        }
+      },
+      "The first man Adam became a living soul. The last Adam ",
+      { "text": "became", "marks": ["i"] },
+      " a life-giving spirit."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 46,
-    "content": "Howbeit that is not first which is spiritual, but that which is natural; then that which is spiritual."
+    "content": [
+      {
+        "text": "Howbeit that is not first which is spiritual, but that which is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "psychical", "marks": ["i"] }, "."]
+        }
+      },
+      "natural; then that which is spiritual."
+    ]
   },
   {
     "book": "1CO",
@@ -2466,19 +4756,47 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 49,
-    "content": "And as we have borne the image of the earthy, we shall also bear the image of the heavenly."
+    "content": [
+      {
+        "text": "And as we have borne the image of the earthy, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "let us also bear", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "we shall also bear the image of the heavenly."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 50,
-    "content": "Now this I say, brethren, that flesh and blood cannot inherit the kingdom of God; neither doth corruption inherit incorruption."
+    "content": {
+      "paragraph": true,
+      "text": "Now this I say, brethren, that flesh and blood cannot inherit the kingdom of God; neither doth corruption inherit incorruption."
+    }
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 51,
-    "content": "Behold, I tell you a mystery: We all shall not sleep, but we shall all be changed,"
+    "content": [
+      {
+        "text": "Behold, I tell you a mystery: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "We shall not all etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "We all shall not sleep, but we shall all be changed,"
+    ]
   },
   {
     "book": "1CO",
@@ -2496,13 +4814,57 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 54,
-    "content": "But when this corruptible shall have put on incorruption, and this mortal shall have put on immortality, then shall come to pass the saying that is written, Death is swallowed up in victory."
+    "content": [
+      {
+        "text": "But when ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities omit ",
+            {
+              "text": "this corruptible shall have put on incorruption, and",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "this corruptible shall have put on incorruption, and this mortal shall have put on immortality, then shall come to pass the saying that is written, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 25:8", "content": "Isa. 25:8" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Death is swallowed up ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "victoriously", "marks": ["i"] }]
+        }
+      },
+      "in victory."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 55,
-    "content": "O death, where is thy victory? O death, where is thy sting?"
+    "content": [
+      {
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Hosea 13:14", "content": "Hos. 13:14" },
+            "."
+          ]
+        }
+      },
+      "O death, where is thy victory? O death, where is thy sting?"
+    ]
   },
   {
     "book": "1CO",
@@ -2520,7 +4882,16 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 58,
-    "content": "Wherefore, my beloved brethren, be ye stedfast, unmovable, always abounding in the work of the Lord, forasmuch as ye know that your labor is not vain in the Lord."
+    "content": [
+      {
+        "text": "Wherefore, my beloved brethren, be ye stedfast, unmoveable, always abounding in the work of the Lord, forasmuch as ye know that your labor is not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "void", "marks": ["i"] }]
+        }
+      },
+      { "text": "vain in the Lord.", "break": true }
+    ]
   },
   {
     "book": "1CO",
@@ -2541,7 +4912,22 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 3,
-    "content": "And when I arrive, whomsoever ye shall approve, them will I send with letters to carry your bounty unto Jerusalem:"
+    "content": [
+      {
+        "text": "And when I arrive, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "whomsoever ye shall approve by letters, them will I send etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "whomsoever ye shall approve, them will I send with letters to carry your bounty unto Jerusalem:"
+    ]
   },
   {
     "book": "1CO",
@@ -2583,7 +4969,10 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 10,
-    "content": "Now if Timothy come, see that he be with you without fear; for he worketh the work of the Lord, as I also do:"
+    "content": {
+      "paragraph": true,
+      "text": "Now if Timothy come, see that he be with you without fear; for he worketh the work of the Lord, as I also do:"
+    }
   },
   {
     "book": "1CO",
@@ -2595,13 +4984,32 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 12,
-    "content": "But as touching Apollos the brother, I besought him much to come unto you with the brethren: and it was not all his will to come now; but he will come when he shall have opportunity."
+    "content": [
+      {
+        "text": "But as touching Apollos the brother, I besought him much to come unto you with the brethren: and it was not at all ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, God’s ",
+            { "text": "will that he should come now", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Romans 2:18", "content": "Rom. 2:18" },
+            " margin."
+          ]
+        }
+      },
+      { "text": "his", "marks": ["i"] },
+      " will to come now; but he will come when he shall have opportunity."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 13,
-    "content": "Watch ye, stand fast in the faith, quit you like men, be strong."
+    "content": {
+      "paragraph": true,
+      "text": "Watch ye, stand fast in the faith, quit you like men, be strong."
+    }
   },
   {
     "book": "1CO",
@@ -2613,7 +5021,10 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 15,
-    "content": "Now I beseech you, brethren (ye know the house of Stephanas, that it is the firstfruits of Achaia, and that they have set themselves to minister unto the saints),"
+    "content": {
+      "paragraph": true,
+      "text": "Now I beseech you, brethren (ye know the house of Stephanas, that it is the firstfruits of Achaia, and that they have set themselves to minister unto the saints),"
+    }
   },
   {
     "book": "1CO",
@@ -2625,7 +5036,22 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 17,
-    "content": "And I rejoice at the coming of Stephanas and Fortunatus and Achaicus: for that which was lacking on your part they supplied."
+    "content": [
+      {
+        "text": "And I rejoice at the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "presence", "marks": ["i"] },
+            ". ",
+            { "bibleLink": "2 Corinthians 10:10", "content": "2 Cor. 10:10" },
+            "."
+          ]
+        }
+      },
+      "coming of Stephanas and Fortunatus and Achaicus: for that which was lacking on your part they supplied."
+    ]
   },
   {
     "book": "1CO",
@@ -2637,7 +5063,10 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 19,
-    "content": "The churches of Asia salute you. Aquila and Prisca salute you much in the Lord, with the church that is in their house."
+    "content": {
+      "paragraph": true,
+      "text": "The churches of Asia salute you. Aquila and Prisca salute you much in the Lord, with the church that is in their house."
+    }
   },
   {
     "book": "1CO",
@@ -2649,13 +5078,32 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 21,
-    "content": "The salutation of me Paul with mine own hand."
+    "content": {
+      "paragraph": true,
+      "text": "The salutation of me Paul with mine own hand."
+    }
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 22,
-    "content": "If any man loveth not the Lord, let him be anathema. Maranatha."
+    "content": [
+      {
+        "text": "If any man loveth not the Lord, let him be anathema. ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "O", "marks": ["i"] },
+            " (or ",
+            { "text": "Our", "marks": ["i"] },
+            ") ",
+            { "text": "Lord, come!", "marks": ["i"] }
+          ]
+        }
+      },
+      "Maranatha."
+    ]
   },
   {
     "book": "1CO",

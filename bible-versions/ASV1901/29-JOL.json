@@ -12,25 +12,67 @@
     "book": "JOL",
     "chapter": 1,
     "verse": 2,
-    "content": "Hear this, ye old men, and give ear, all ye inhabitants of the land. Hath this been in your days, or in the days of your fathers?"
+    "content": {
+      "paragraph": true,
+      "text": "Hear this, ye old men, and give ear, all ye inhabitants of the land. Hath this been in your days, or in the days of your fathers?"
+    }
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 3,
-    "content": "Tell ye your children of it, and let your children tell their children, and their children another generation."
+    "content": [
+      "Tell ye your children of it, and ",
+      { "text": "let", "marks": ["i"] },
+      " your children ",
+      { "text": "tell", "marks": ["i"] },
+      " their children, and their children another generation."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 4,
-    "content": "That which the palmer-worm hath left hath the locust eaten; and that which the locust hath left hath the canker-worm eaten; and that which the canker-worm hath left hath the caterpillar eaten."
+    "content": [
+      {
+        "text": "That which ",
+        "foot": {
+          "type": "stu",
+          "content": "Probably, different kinds of locusts, or locusts in different stages of growth."
+        }
+      },
+      {
+        "text": "the palmer-worm hath left hath ",
+        "foot": {
+          "type": "stu",
+          "content": "Probably, different kinds of locusts, or locusts in different stages of growth."
+        }
+      },
+      {
+        "text": "the locust eaten; and that which the locust hath left hath ",
+        "foot": {
+          "type": "stu",
+          "content": "Probably, different kinds of locusts, or locusts in different stages of growth."
+        }
+      },
+      {
+        "text": "the canker-worm eaten; and that which the canker-worm hath left hath ",
+        "foot": {
+          "type": "stu",
+          "content": "Probably, different kinds of locusts, or locusts in different stages of growth."
+        }
+      },
+      "the caterpillar eaten."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 5,
-    "content": "Awake, ye drunkards, and weep; and wail, all ye drinkers of wine, because of the sweet wine; for it is cut off from your mouth."
+    "content": {
+      "paragraph": true,
+      "text": "Awake, ye drunkards, and weep; and wail, all ye drinkers of wine, because of the sweet wine; for it is cut off from your mouth."
+    }
   },
   {
     "book": "JOL",
@@ -42,13 +84,32 @@
     "book": "JOL",
     "chapter": 1,
     "verse": 7,
-    "content": "He hath laid my vine waste, and barked my fig-tree: he hath made it clean bare, and cast it away; the branches thereof are made white."
+    "content": [
+      {
+        "text": "He hath laid my vine waste, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "broken", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "barked my fig-tree: he hath made it clean bare, and cast it ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "down", "marks": ["i"] }]
+        }
+      },
+      "away; the branches thereof are made white."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 8,
-    "content": "Lament like a virgin girded with sackcloth for the husband of her youth."
+    "content": {
+      "paragraph": true,
+      "text": "Lament like a virgin girded with sackcloth for the husband of her youth."
+    }
   },
   {
     "book": "JOL",
@@ -60,67 +121,178 @@
     "book": "JOL",
     "chapter": 1,
     "verse": 10,
-    "content": "The field is laid waste, the land mourneth; for the grain is destroyed, the new wine is dried up, the oil languisheth."
+    "content": [
+      {
+        "text": "The field is laid waste, the land mourneth; for the grain is destroyed, the new wine is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ashamed", "marks": ["i"] }]
+        }
+      },
+      "dried up, the oil languisheth."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 11,
-    "content": "Be confounded, O ye husbandmen, wail, O ye vinedressers, for the wheat and for the barley; for the harvest of the field is perished."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "The husbandmen are confounded, the vinedressers wail",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "Be confounded, O ye husbandmen, wail, O ye vinedressers, for the wheat and for the barley; for the harvest of the field is perished."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 12,
-    "content": "The vine is withered, and the fig-tree languisheth; the pomegranate-tree, the palm-tree also, and the apple-tree, even all the trees of the field are withered: for joy is withered away from the sons of men."
+    "content": [
+      {
+        "text": "The vine is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ashamed", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "withered, and the fig-tree languisheth; the pomegranate-tree, the palm-tree also, and the apple-tree, even all the trees of the field are withered: for joy is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ashamed", "marks": ["i"] }]
+        }
+      },
+      "withered away from the sons of men."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 13,
-    "content": "Gird yourselves with sackcloth, and lament, ye priests; wail, ye ministers of the altar; come, lie all night in sackcloth, ye ministers of my God: for the meal-offering and the drink-offering are withholden from the house of your God."
+    "content": [
+      { "paragraph": true, "text": "Gird yourselves " },
+      { "text": "with sackcloth", "marks": ["i"] },
+      ", and lament, ye priests; wail, ye ministers of the altar; come, lie all night in sackcloth, ye ministers of my God: for the meal-offering and the drink-offering are withholden from the house of your God."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 14,
-    "content": "Sanctify a fast, call a solemn assembly, gather the old men and all the inhabitants of the land unto the house of Jehovah your God, and cry unto Jehovah."
+    "content": [
+      {
+        "text": "Sanctify a fast, call a solemn assembly, gather the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "elders", "marks": ["i"] }]
+        }
+      },
+      "old men ",
+      { "text": "and", "marks": ["i"] },
+      " all the inhabitants of the land unto the house of Jehovah your God, and cry unto Jehovah."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 15,
-    "content": "Alas for the day! for the day of Jehovah is at hand, and as destruction from the Almighty shall it come."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Alas for the day! for the day of Jehovah is at hand, and as destruction from ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Shaddai", "marks": ["i"] }, "."]
+        }
+      },
+      "the Almighty shall it come."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 16,
-    "content": "Is not the food cut off before our eyes, yea, joy and gladness from the house of our God?"
+    "content": [
+      "Is not the food cut off before our eyes, ",
+      { "text": "yea", "marks": ["i"] },
+      ", joy and gladness from the house of our God?"
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 17,
-    "content": "The seeds rot under their clods; the garners are laid desolate, the barns are broken down; for the grain is withered."
+    "content": [
+      {
+        "text": "The seeds ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shrivel", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "rot under their clods; the garners are laid desolate, the barns are broken down; for the grain is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ashamed", "marks": ["i"] }]
+        }
+      },
+      "withered."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 18,
-    "content": "How do the beasts groan! the herds of cattle are perplexed, because they have no pasture; yea, the flocks of sheep are made desolate."
+    "content": [
+      {
+        "text": "How do the beasts groan! the herds of cattle are perplexed, because they have no pasture; yea, the flocks of sheep ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "suffer punishment", "marks": ["i"] }]
+        }
+      },
+      "are made desolate."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 19,
-    "content": "O Jehovah, to thee do I cry; for the fire hath devoured the pastures of the wilderness, and the flame hath burned all the trees of the field."
+    "content": [
+      {
+        "text": "O Jehovah, to thee do I cry; for the fire hath devoured the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "folds", "marks": ["i"] }]
+        }
+      },
+      "pastures of the wilderness, and the flame hath burned all the trees of the field."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 20,
-    "content": "Yea, the beasts of the field pant unto thee; for the water brooks are dried up, and the fire hath devoured the pastures of the wilderness."
+    "content": [
+      {
+        "text": "Yea, the beasts of the field pant unto thee; for the water brooks are dried up, and the fire hath devoured the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "folds", "marks": ["i"] }]
+        }
+      },
+      "pastures of the wilderness."
+    ]
   },
   {
     "book": "JOL",
@@ -147,7 +319,17 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 4,
-    "content": "The appearance of them is as the appearance of horses; and as horsemen, so do they run."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The appearance of them is as the appearance of horses; and as ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "war-horses", "marks": ["i"] }]
+        }
+      },
+      "horsemen, so do they run."
+    ]
   },
   {
     "book": "JOL",
@@ -171,7 +353,31 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 8,
-    "content": "Neither doth one thrust another; they march every one in his path; and they burst through the weapons, and break not off their course."
+    "content": [
+      {
+        "text": "Neither doth one thrust another; they march every one in his path; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "when they fall around the weapons, they etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "they burst through the weapons, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "are not wounded", "marks": ["i"] }]
+        }
+      },
+      "break not off ",
+      { "text": "their course", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "JOL",
@@ -195,7 +401,10 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 12,
-    "content": "Yet even now, saith Jehovah, turn ye unto me with all your heart, and with fasting, and with weeping, and with mourning:"
+    "content": {
+      "paragraph": true,
+      "text": "Yet even now, saith Jehovah, turn ye unto me with all your heart, and with fasting, and with weeping, and with mourning:"
+    }
   },
   {
     "book": "JOL",
@@ -213,25 +422,52 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 15,
-    "content": "Blow the trumpet in Zion, sanctify a fast, call a solemn assembly;"
+    "content": {
+      "paragraph": true,
+      "text": "Blow the trumpet in Zion, sanctify a fast, call a solemn assembly;"
+    }
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 16,
-    "content": "gather the people, sanctify the assembly, assemble the old men, gather the children, and those that suck the breasts; let the bridegroom go forth from his chamber, and the bride out of her closet."
+    "content": [
+      {
+        "text": "gather the people, sanctify the assembly, assemble the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "elders", "marks": ["i"] }]
+        }
+      },
+      "old men, gather the children, and those that suck the breasts; let the bridegroom go forth from his chamber, and the bride out of her closet."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 17,
-    "content": "Let the priests, the ministers of Jehovah, weep between the porch and the altar, and let them say, Spare thy people, O Jehovah, and give not thy heritage to reproach, that the nations should rule over them: wherefore should they say among the peoples, Where is their God?"
+    "content": [
+      {
+        "text": "Let the priests, the ministers of Jehovah, weep between the porch and the altar, and let them say, Spare thy people, O Jehovah, and give not thy heritage to reproach, that the nations should ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "use a byword against them", "marks": ["i"] }
+          ]
+        }
+      },
+      "rule over them: wherefore should they say among the peoples, Where is their God?"
+    ]
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 18,
-    "content": "Then was Jehovah jealous for his land, and had pity on his people."
+    "content": {
+      "paragraph": true,
+      "text": "Then was Jehovah jealous for his land, and had pity on his people."
+    }
   },
   {
     "book": "JOL",
@@ -243,13 +479,41 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 20,
-    "content": "but I will remove far off from you the northern army, and will drive it into a land barren and desolate, its forepart into the eastern sea, and its hinder part into the western sea; and its stench shall come up, and its ill savor shall come up, because it hath done great things."
+    "content": [
+      "but I will remove far off from you the northern ",
+      { "text": "army", "marks": ["i"] },
+      {
+        "text": ", and will drive it into a land barren and desolate, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "with its forepart", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "its forepart ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "toward", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "into the eastern sea, and its hinder part ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "toward", "marks": ["i"] }]
+        }
+      },
+      "into the western sea; and its stench shall come up, and its ill savor shall come up, because it hath done great things."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 21,
-    "content": "Fear not, O land, be glad and rejoice; for Jehovah hath done great things."
+    "content": {
+      "paragraph": true,
+      "text": "Fear not, O land, be glad and rejoice; for Jehovah hath done great things."
+    }
   },
   {
     "book": "JOL",
@@ -261,7 +525,32 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 23,
-    "content": "Be glad then, ye children of Zion, and rejoice in Jehovah your God; for he giveth you the former rain in just measure, and he causeth to come down for you the rain, the former rain and the latter rain, in the first month."
+    "content": [
+      {
+        "text": "Be glad then, ye children of Zion, and rejoice in Jehovah your God; for he giveth you the former rain ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "in", "marks": ["i"] },
+            " (or, ",
+            { "text": "for", "marks": ["i"] },
+            ") ",
+            { "text": "righteousness", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "in just measure, and he causeth to come down for you the rain, the former rain and the latter rain, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "at the first", "marks": ["i"] }]
+        }
+      },
+      "in the first ",
+      { "text": "month", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "JOL",
@@ -291,7 +580,10 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 28,
-    "content": "And it shall come to pass afterward, that I will pour out my Spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions:"
+    "content": {
+      "paragraph": true,
+      "text": "And it shall come to pass afterward, that I will pour out my Spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions:"
+    }
   },
   {
     "book": "JOL",
@@ -315,16 +607,35 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 32,
-    "content": "And it shall come to pass, that whosoever shall call on the name of Jehovah shall be delivered; for in mount Zion and in Jerusalem there shall be those that escape, as Jehovah hath said, and among the remnant those whom Jehovah doth call."
+    "content": [
+      {
+        "text": "And it shall come to pass, that whosoever shall call on the name of Jehovah shall be delivered; for in mount Zion and in Jerusalem there shall be those that escape, as Jehovah hath said, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "in the remnant whom etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "among the remnant those whom Jehovah doth call."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "For, behold, in those days, and in that time, when I shall bring back the captivity of Judah and Jerusalem,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For, behold, in those days, and in that time, when I shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
+        }
+      },
+      "bring back the captivity of Judah and Jerusalem,"
+    ]
   },
   {
     "book": "JOL",
@@ -342,7 +653,29 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 4,
-    "content": "Yea, and what are ye to me, O Tyre, and Sidon, and all the regions of Philistia? will ye render me a recompense? and if ye recompense me, swiftly and speedily will I return your recompense upon your own head."
+    "content": [
+      {
+        "text": "Yea, and what are ye to me, O Tyre, and Sidon, and all the regions of Philistia? ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "will ye repay a deed of mine, or will ye do aught unto me? swiftly etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "will ye render me a recompense? and if ye recompense me, swiftly and speedily will I return your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deed", "marks": ["i"] }]
+        }
+      },
+      "recompense upon your own head."
+    ]
   },
   {
     "book": "JOL",
@@ -360,7 +693,16 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 7,
-    "content": "behold, I will stir them up out of the place whither ye have sold them, and will return your recompense upon your own head;"
+    "content": [
+      {
+        "text": "behold, I will stir them up out of the place whither ye have sold them, and will return your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deed", "marks": ["i"] }]
+        }
+      },
+      "recompense upon your own head;"
+    ]
   },
   {
     "book": "JOL",
@@ -372,7 +714,17 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 9,
-    "content": "Proclaim ye this among the nations; prepare war; stir up the mighty men; let all the men of war draw near, let them come up."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Proclaim ye this among the nations; ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "sanctify", "marks": ["i"] }, "."]
+        }
+      },
+      "prepare war; stir up the mighty men; let all the men of war draw near, let them come up."
+    ]
   },
   {
     "book": "JOL",
@@ -384,25 +736,65 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 11,
-    "content": "Haste ye, and come, all ye nations round about, and gather yourselves together: thither cause thy mighty ones to come down, O Jehovah."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Assemble yourselves", "marks": ["i"] }]
+        }
+      },
+      "Haste ye, and come, all ye nations round about, and gather yourselves together: thither cause thy mighty ones to come down, O Jehovah."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 12,
-    "content": "Let the nations bestir themselves, and come up to the valley of Jehoshaphat; for there will I sit to judge all the nations round about."
+    "content": [
+      {
+        "text": "Let the nations bestir themselves, and come up to the valley of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "Jehovah judgeth", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Jehoshaphat; for there will I sit to judge all the nations round about."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 13,
-    "content": "Put ye in the sickle; for the harvest is ripe: come, tread ye; for the winepress is full, the vats overflow; for their wickedness is great."
+    "content": [
+      {
+        "text": "Put ye in the sickle; for the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "vintage", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "harvest is ripe: come, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "get you down", "marks": ["i"] }]
+        }
+      },
+      "tread ye; for the winepress is full, the vats overflow; for their wickedness is great."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 14,
-    "content": "Multitudes, multitudes in the valley of decision! for the day of Jehovah is near in the valley of decision."
+    "content": {
+      "paragraph": true,
+      "text": "Multitudes, multitudes in the valley of decision! for the day of Jehovah is near in the valley of decision."
+    }
   },
   {
     "book": "JOL",
@@ -426,7 +818,21 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 18,
-    "content": "And it shall come to pass in that day, that the mountains shall drop down sweet wine, and the hills shall flow with milk, and all the brooks of Judah shall flow with waters; and a fountain shall come forth from the house of Jehovah, and shall water the valley of Shittim."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it shall come to pass in that day, that the mountains shall drop down sweet wine, and the hills shall flow with milk, and all the brooks of Judah shall flow with waters; and a fountain shall come forth from the house of Jehovah, and shall water ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "the valley of accacias", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the valley of Shittim."
+    ]
   },
   {
     "book": "JOL",
@@ -438,12 +844,30 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 20,
-    "content": "But Judah shall abide for ever, and Jerusalem from generation to generation."
+    "content": [
+      {
+        "text": "But Judah shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "be inhabited", "marks": ["i"] }]
+        }
+      },
+      "abide for ever, and Jerusalem from generation to generation."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 21,
-    "content": "And I will cleanse their blood, that I have not cleansed: for Jehovah dwelleth in Zion."
+    "content": [
+      {
+        "text": "And I will ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "hold as innocent", "marks": ["i"] }]
+        }
+      },
+      "cleanse their blood, that I have not cleansed: for Jehovah dwelleth in Zion."
+    ]
   }
 ]

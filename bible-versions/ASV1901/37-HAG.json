@@ -12,7 +12,24 @@
     "book": "HAG",
     "chapter": 1,
     "verse": 2,
-    "content": "Thus speaketh Jehovah of hosts, saying, This people say, It is not the time for us to come, the time for Jehovah’s house to be built."
+    "content": [
+      {
+        "text": "Thus speaketh Jehovah of hosts, saying, This people say, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, as otherwise read, ",
+            {
+              "text": "The time is not come for Jehovah’s house etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "It is not the time ",
+      { "text": "for us", "marks": ["i"] },
+      " to come, the time for Jehovah’s house to be built."
+    ]
   },
   {
     "book": "HAG",
@@ -30,37 +47,84 @@
     "book": "HAG",
     "chapter": 1,
     "verse": 5,
-    "content": "Now therefore thus saith Jehovah of hosts: Consider your ways."
+    "content": [
+      {
+        "text": "Now therefore thus saith Jehovah of hosts: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Set your heart on your ways", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Consider your ways."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 1,
     "verse": 6,
-    "content": "Ye have sown much, and bring in little; ye eat, but ye have not enough; ye drink, but ye are not filled with drink; ye clothe you, but there is none warm; and he that earneth wages earneth wages to put it into a bag with holes."
+    "content": [
+      "Ye have sown much, and bring in little; ye eat, but ye have not enough; ye drink, but ye are not filled with drink; ye clothe you, but there is none warm; and he that earneth wages earneth wages ",
+      { "text": "to put it", "marks": ["i"] },
+      " into a bag with holes."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 1,
     "verse": 7,
-    "content": "Thus saith Jehovah of hosts: Consider your ways."
+    "content": {
+      "paragraph": true,
+      "text": "Thus saith Jehovah of hosts: Consider your ways."
+    }
   },
   {
     "book": "HAG",
     "chapter": 1,
     "verse": 8,
-    "content": "Go up to the mountain, and bring wood, and build the house; and I will take pleasure in it, and I will be glorified, saith Jehovah."
+    "content": [
+      {
+        "text": "Go up to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "hill-country", "marks": ["i"] }]
+        }
+      },
+      "mountain, and bring wood, and build the house; and I will take pleasure in it, and I will be glorified, saith Jehovah."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 1,
     "verse": 9,
-    "content": "Ye looked for much, and, lo, it came to little; and when ye brought it home, I did blow upon it. Why? saith Jehovah of hosts. Because of my house that lieth waste, while ye run every man to his own house."
+    "content": [
+      {
+        "text": "Ye looked for much, and, lo, it came to little; and when ye brought it home, I did ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "blow it away", "marks": ["i"] }]
+        }
+      },
+      "blow upon it. Why? saith Jehovah of hosts. Because of my house that lieth waste, while ye run every man to his own house."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 1,
     "verse": 10,
-    "content": "Therefore for your sake the heavens withhold the dew, and the earth withholdeth its fruit."
+    "content": [
+      {
+        "text": "Therefore ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "over you", "marks": ["i"] }]
+        }
+      },
+      "for your sake the heavens withhold the dew, and the earth withholdeth its fruit."
+    ]
   },
   {
     "book": "HAG",
@@ -72,7 +136,10 @@
     "book": "HAG",
     "chapter": 1,
     "verse": 12,
-    "content": "Then Zerubbabel the son of Shealtiel, and Joshua the son of Jehozadak, the high priest, with all the remnant of the people, obeyed the voice of Jehovah their God, and the words of Haggai the prophet, as Jehovah their God had sent him; and the people did fear before Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "Then Zerubbabel the son of Shealtiel, and Joshua the son of Jehozadak, the high priest, with all the remnant of the people, obeyed the voice of Jehovah their God, and the words of Haggai the prophet, as Jehovah their God had sent him; and the people did fear before Jehovah."
+    }
   },
   {
     "book": "HAG",
@@ -90,16 +157,23 @@
     "book": "HAG",
     "chapter": 1,
     "verse": 15,
-    "content": "in the four and twentieth day of the month, in the sixth month, in the second year of Darius the king."
+    "content": [
+      "in the four and twentieth day of the month, in the sixth ",
+      { "text": "month", "marks": ["i"] },
+      ", in the second year of Darius the king."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "In the seventh month, in the one and twentieth day of the month, came the word of Jehovah by Haggai the prophet, saying,"
-    }
+    "content": [
+      { "paragraph": true, "text": "In the seventh " },
+      { "text": "month", "marks": ["i"] },
+      ", in the one and twentieth ",
+      { "text": "day", "marks": ["i"] },
+      " of the month, came the word of Jehovah by Haggai the prophet, saying,"
+    ]
   },
   {
     "book": "HAG",
@@ -123,7 +197,26 @@
     "book": "HAG",
     "chapter": 2,
     "verse": 5,
-    "content": "according to the word that I covenanted with you when ye came out of Egypt, and my Spirit abode among you: fear ye not."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, Remember ",
+            { "text": "the word etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "according to", "marks": ["i"] },
+      {
+        "text": " the word that I covenanted with you when ye came out of Egypt, and my Spirit ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "abideth", "marks": ["i"] }]
+        }
+      },
+      "abode among you: fear ye not."
+    ]
   },
   {
     "book": "HAG",
@@ -135,7 +228,23 @@
     "book": "HAG",
     "chapter": 2,
     "verse": 7,
-    "content": "and I will shake all nations; and the precious things of all nations shall come; and I will fill this house wih glory, saith Jehovah of hosts."
+    "content": [
+      {
+        "text": "and I will shake all nations; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the things desired", "marks": ["i"] },
+            " (Hebrew ",
+            { "text": "desire", "marks": ["i"] },
+            ") ",
+            { "text": "of all nations shall come", "marks": ["i"] }
+          ]
+        }
+      },
+      "the precious things of all nations shall come; and I will fill this house with glory, saith Jehovah of hosts."
+    ]
   },
   {
     "book": "HAG",
@@ -153,7 +262,13 @@
     "book": "HAG",
     "chapter": 2,
     "verse": 10,
-    "content": "In the four and twentieth day of the ninth month, in the second year of Darius, came the word of Jehovah by Haggai the prophet, saying,"
+    "content": [
+      { "paragraph": true, "text": "In the four and twentieth " },
+      { "text": "day", "marks": ["i"] },
+      " of the ninth ",
+      { "text": "month", "marks": ["i"] },
+      ", in the second year of Darius, came the word of Jehovah by Haggai the prophet, saying,"
+    ]
   },
   {
     "book": "HAG",
@@ -189,31 +304,68 @@
     "book": "HAG",
     "chapter": 2,
     "verse": 16,
-    "content": "Through all that time, when one came to a heap of twenty measures, there were but ten; when one came to the winevat to draw out fifty vessels, there were but twenty."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "since those", "marks": ["i"] },
+            " days ",
+            { "text": "were", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Through all that time, when one came to a heap of twenty ",
+      { "text": "measures", "marks": ["i"] },
+      ", there were but ten; when one came to the winevat to draw out fifty ",
+      { "text": "vessels", "marks": ["i"] },
+      ", there were but twenty."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 17,
-    "content": "I smote you with blasting and with mildew and with hail in all the work of your hands; yet ye turned not to me, saith Jehovah."
+    "content": [
+      "I smote you with blasting and with mildew and with hail in all the work of your hands; yet ye ",
+      { "text": "turned", "marks": ["i"] },
+      " not to me, saith Jehovah."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 18,
-    "content": "Consider, I pray you, from this day and backward, from the four and twentieth day of the ninth month, since the day that the foundation of Jehovah’s temple was laid, consider it."
+    "content": [
+      "Consider, I pray you, from this day and backward, from the four and twentieth day of the ninth ",
+      { "text": "month", "marks": ["i"] },
+      ", since the day that the foundation of Jehovah’s temple was laid, consider it."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 19,
-    "content": "Is the seed yet in the barn? yea, the vine, and the fig-tree, and the pomegranate, and the olive-tree have not brought forth; from this day will I bless you."
+    "content": [
+      "Is the seed yet in the barn? yea, the vine, and the fig-tree, and the pomegranate, and the olive-tree have not brought forth; from this day will I bless ",
+      { "text": "you", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 20,
-    "content": "And the word of Jehovah came the second time unto Haggai in the four and twentieth day of the month, saying,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the word of Jehovah came the second time unto Haggai in the four and twentieth "
+      },
+      { "text": "day", "marks": ["i"] },
+      " of the month, saying,"
+    ]
   },
   {
     "book": "HAG",

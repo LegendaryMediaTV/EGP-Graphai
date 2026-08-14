@@ -30,7 +30,10 @@
     "book": "2KG",
     "chapter": 1,
     "verse": 5,
-    "content": "And the messengers returned unto him, and he said unto them, Why is it that ye are returned?"
+    "content": {
+      "paragraph": true,
+      "text": "And the messengers returned unto him, and he said unto them, Why is it that ye are returned?"
+    }
   },
   {
     "book": "2KG",
@@ -48,13 +51,38 @@
     "book": "2KG",
     "chapter": 1,
     "verse": 8,
-    "content": "And they answered him, He was a hairy man, and girt with a girdle of leather about his loins. And he said, It is Elijah the Tishbite."
+    "content": [
+      {
+        "text": "And they answered him, He was a ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "a man with", "marks": ["i"] },
+            " a garment of ",
+            { "text": "hair", "marks": ["i"] }
+          ]
+        }
+      },
+      "hairy man, and girt with a girdle of leather about his loins. And he said, It is Elijah the Tishbite."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 1,
     "verse": 9,
-    "content": "Then the king sent unto him a captain of fifty with his fifty. And he went up to him: and, behold, he was sitting on the top of the hill. And he spake unto him, O man of God, the king hath said, Come down."
+    "content": [
+      { "paragraph": true, "text": "Then " },
+      { "text": "the king", "marks": ["i"] },
+      {
+        "text": " sent unto him a captain of fifty with his fifty. And he went up to him: and, behold, he was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "dwelling", "marks": ["i"] }]
+        }
+      },
+      "sitting on the top of the hill. And he spake unto him, O man of God, the king hath said, Come down."
+    ]
   },
   {
     "book": "2KG",
@@ -66,7 +94,7 @@
     "book": "2KG",
     "chapter": 1,
     "verse": 11,
-    "content": "And again he sent unto him another captain of fifty and his fifty. And he answered and said unto him, O man of God, thus hath the king said, Come down quickly."
+    "content": "And again he sent unto him another captain of fifty with his fifty. And he answered and said unto him, O man of God, thus hath the king said, Come down quickly."
   },
   {
     "book": "2KG",
@@ -102,7 +130,10 @@
     "book": "2KG",
     "chapter": 1,
     "verse": 17,
-    "content": "So he died according to the word of Jehovah which Elijah had spoken. And Jehoram began to reign in his stead in the second year of Jehoram the son of Jehoshaphat king of Judah; because he had no son."
+    "content": {
+      "paragraph": true,
+      "text": "So he died according to the word of Jehovah which Elijah had spoken. And Jehoram began to reign in his stead in the second year of Jehoram the son of Jehoshaphat king of Judah; because he had no son."
+    }
   },
   {
     "book": "2KG",
@@ -165,25 +196,73 @@
     "book": "2KG",
     "chapter": 2,
     "verse": 9,
-    "content": "And it came to pass, when they were gone over, that Elijah said unto Elisha, Ask what I shall do for thee, before I am taken from thee. And Elisha said, I pray thee, let a double portion of thy spirit be upon me."
+    "content": [
+      {
+        "text": "And it came to pass, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "as they went", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "when they were gone over, that Elijah said unto Elisha, Ask what I shall do for thee, before I am taken from thee. And Elisha said, I pray thee, let ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, the portion of the first-born. See ",
+            { "bibleLink": "Deuteronomy 21:17", "content": "Dt. 21:17" },
+            "."
+          ]
+        }
+      },
+      "a double portion of thy spirit be upon me."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 2,
     "verse": 10,
-    "content": "And he said, Thou hast asked a hard thing: nevertheless, if thou see me when I am taken from thee, it shall be so unto thee; but if not, it shall not be so."
+    "content": [
+      "And he said, Thou hast asked a hard thing: ",
+      { "text": "nevertheless", "marks": ["i"] },
+      ", if thou see me when I am taken from thee, it shall be so unto thee; but if not, it shall not be so."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 2,
     "verse": 11,
-    "content": "And it came to pass, as they still went on, and talked, that, behold, there appeared a chariot of fire, and horses of fire, which parted them both asunder; and Elijah went up by a whirlwind into heaven."
+    "content": [
+      "And it came to pass, as they still went on, and talked, that, behold, ",
+      {
+        "text": "there appeared",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "chariots", "marks": ["i"] }]
+        }
+      },
+      " a chariot of fire, and horses of fire, which parted them both asunder; and Elijah went up by a whirlwind into heaven."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 2,
     "verse": 12,
-    "content": "And Elisha saw it, and he cried, My father, my father, the chariots of Israel and the horsemen thereof! And he saw him no more: and he took hold of his own clothes, and rent them in two pieces."
+    "content": [
+      {
+        "text": "And Elisha saw it, and he cried, My father, my father, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "chariot", "marks": ["i"] }]
+        }
+      },
+      "chariots of Israel and the horsemen thereof!",
+      {
+        "paragraph": true,
+        "text": "And he saw him no more: and he took hold of his own clothes, and rent them in two pieces."
+      }
+    ]
   },
   {
     "book": "2KG",
@@ -195,13 +274,31 @@
     "book": "2KG",
     "chapter": 2,
     "verse": 14,
-    "content": "And he took the mantle of Elijah that fell from him, and smote the waters, and said, Where is Jehovah, the God of Elijah? and when he also had smitten the waters, they were divided hither and thither; and Elisha went over."
+    "content": [
+      {
+        "text": "And he took the mantle of Elijah that fell from him, and smote the waters, and said, Where is Jehovah, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "the God of Elijah, even he? and when he had smitten etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "the God of Elijah? and when he also had smitten the waters, they were divided hither and thither; and Elisha went over."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 2,
     "verse": 15,
-    "content": "And when the sons of the prophets that were at Jericho over against him saw him, they said, The spirit of Elijah doth rest on Elisha. And they came to meet him, and bowed themselves to the ground before him."
+    "content": {
+      "paragraph": true,
+      "text": "And when the sons of the prophets that were at Jericho over against him saw him, they said, The spirit of Elijah doth rest on Elisha. And they came to meet him, and bowed themselves to the ground before him."
+    }
   },
   {
     "book": "2KG",
@@ -225,7 +322,17 @@
     "book": "2KG",
     "chapter": 2,
     "verse": 19,
-    "content": "And the men of the city said unto Elisha, Behold, we pray thee, the situation of this city is pleasant, as my lord seeth: but the water is bad, and the land miscarrieth."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the men of the city said unto Elisha, Behold, we pray thee, the situation of this city is pleasant, as my lord seeth: but the water is bad, and the land ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "casteth its fruit", "marks": ["i"] }]
+        }
+      },
+      "miscarrieth."
+    ]
   },
   {
     "book": "2KG",
@@ -237,7 +344,16 @@
     "book": "2KG",
     "chapter": 2,
     "verse": 21,
-    "content": "And he went forth unto the spring of the waters, and cast salt therein, and said, Thus saith Jehovah, I have healed these waters; there shall not be from thence any more death or miscarrying."
+    "content": [
+      {
+        "text": "And he went forth unto the spring of the waters, and cast salt therein, and said, Thus saith Jehovah, I have healed these waters; there shall not be from thence any more death or ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "casting of fruit", "marks": ["i"] }]
+        }
+      },
+      "miscarrying."
+    ]
   },
   {
     "book": "2KG",
@@ -249,7 +365,10 @@
     "book": "2KG",
     "chapter": 2,
     "verse": 23,
-    "content": "And he went up from thence unto Beth-el; and as he was going up by the way, there came forth young lads out of the city, and mocked him, and said unto him, Go up, thou baldhead; go up, thou baldhead."
+    "content": {
+      "paragraph": true,
+      "text": "And he went up from thence unto Beth-el; and as he was going up by the way, there came forth young lads out of the city, and mocked him, and said unto him, Go up, thou baldhead; go up, thou baldhead."
+    }
   },
   {
     "book": "2KG",
@@ -276,7 +395,16 @@
     "book": "2KG",
     "chapter": 3,
     "verse": 2,
-    "content": "And he did that which was evil in the sight of Jehovah, but not like his father, and like his mother; for he put away the pillar of Baal that his father had made."
+    "content": [
+      {
+        "text": "And he did that which was evil in the sight of Jehovah, but not like his father, and like his mother; for he put away the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "obelisk", "marks": ["i"] }]
+        }
+      },
+      "pillar of Baal that his father had made."
+    ]
   },
   {
     "book": "2KG",
@@ -288,7 +416,25 @@
     "book": "2KG",
     "chapter": 3,
     "verse": 4,
-    "content": "Now Mesha king of Moab was a sheep-master; and he rendered unto the king of Israel the wool of a hundred thousand lambs, and of a hundred thousand rams."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now Mesha king of Moab was a sheep-master; and he rendered unto the king of Israel ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "a hundred thousand lambs, and a hundred thousand rams",
+              "marks": ["i"]
+            },
+            ", with ",
+            { "text": "the wool", "marks": ["i"] }
+          ]
+        }
+      },
+      "the wool of a hundred thousand lambs, and of a hundred thousand rams."
+    ]
   },
   {
     "book": "2KG",
@@ -342,7 +488,10 @@
     "book": "2KG",
     "chapter": 3,
     "verse": 13,
-    "content": "And Elisha said unto the king of Israel, What have I to do with thee? get thee to the prophets of thy father, and to the prophets of thy mother. And the king of Israel said unto him, Nay; for Jehovah hath called these three kings together to deliver them into the hand of Moab."
+    "content": {
+      "paragraph": true,
+      "text": "And Elisha said unto the king of Israel, What have I to do with thee? get thee to the prophets of thy father, and to the prophets of thy mother. And the king of Israel said unto him, Nay; for Jehovah hath called these three kings together to deliver them into the hand of Moab."
+    }
   },
   {
     "book": "2KG",
@@ -390,7 +539,31 @@
     "book": "2KG",
     "chapter": 3,
     "verse": 21,
-    "content": "Now when all the Moabites heard that the kings were come up to fight against them, they gathered themselves together, all that were able to put on armor, and upward, and stood on the border."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now when all the Moabites heard that the kings were come up to fight against them, they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "were called together", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "gathered themselves together, all that were able to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "gird themselves with a girdle", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "put on armor, and upward, and stood on the border."
+    ]
   },
   {
     "book": "2KG",
@@ -402,19 +575,44 @@
     "book": "2KG",
     "chapter": 3,
     "verse": 23,
-    "content": "and they said, This is blood; the kings are surely destroyed, and they have smitten each man his fellow: now therefore, Moab, to the spoil."
+    "content": [
+      {
+        "text": "and they said, This is blood; the kings ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "have surely fought together", "marks": ["i"] }
+          ]
+        }
+      },
+      "are surely destroyed, and they have smitten each man his fellow: now therefore, Moab, to the spoil."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 3,
     "verse": 24,
-    "content": "And when they came to the camp of Israel, the Israelites rose up and smote the Moabites, so that they fled before them; and they went forward into the land smiting the Moabites."
+    "content": [
+      {
+        "text": "And when they came to the camp of Israel, the Israelites rose up and smote the Moabites, so that they fled before them; and they went forward ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "into it", "marks": ["i"] }, "."]
+        }
+      },
+      "into the land smiting the Moabites."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 3,
     "verse": 25,
-    "content": "And they beat down the cities; and on every good piece of land they cast every man his stone, and filled it; and they stopped all the fountains of water, and felled all the good trees, until in Kir-hareseth only they left the stones thereof; howbeit the slingers went about it, and smote it."
+    "content": [
+      "And they beat down the cities; and on every good piece of land they cast every man his stone, and filled it; and they stopped all the fountains of water, and felled all the good trees, until in Kir-hareseth ",
+      { "text": "only", "marks": ["i"] },
+      " they left the stones thereof; howbeit the slingers went about it, and smote it."
+    ]
   },
   {
     "book": "2KG",
@@ -426,7 +624,19 @@
     "book": "2KG",
     "chapter": 3,
     "verse": 27,
-    "content": "Then he took his eldest son that should have reigned in his stead, and offered him for a burnt-offering upon the wall. And there was great wrath against Israel: and they departed from him, and returned to their own land."
+    "content": [
+      {
+        "text": "Then he took his eldest son that should have reigned in his stead, and offered him for a burnt-offering upon the wall. And ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "there came great wrath upon Israel", "marks": ["i"] }
+          ]
+        }
+      },
+      "there was great wrath against Israel: and they departed from him, and returned to their own land."
+    ]
   },
   {
     "book": "2KG",
@@ -459,7 +669,11 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 5,
-    "content": "So she went from him, and shut the door upon her and upon her sons; they brought the vessels to her, and she poured out."
+    "content": [
+      "So she went from him, and shut the door upon her and upon her sons; they brought ",
+      { "text": "the vessels", "marks": ["i"] },
+      " to her, and she poured out."
+    ]
   },
   {
     "book": "2KG",
@@ -477,7 +691,10 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 8,
-    "content": "And it fell on a day, that Elisha passed to Shunem, where was a great woman; and she constrained him to eat bread. And so it was, that as oft as he passed by, he turned in thither to eat bread."
+    "content": {
+      "paragraph": true,
+      "text": "And it fell on a day, that Elisha passed to Shunem, where was a great woman; and she constrained him to eat bread. And so it was, that as oft as he passed by, he turned in thither to eat bread."
+    }
   },
   {
     "book": "2KG",
@@ -489,7 +706,16 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 10,
-    "content": "Let us make, I pray thee, a little chamber on the wall; and let us set for him there a bed, and a table, and a seat, and a candlestick: and it shall be, when he cometh to us, that he shall turn in thither."
+    "content": [
+      {
+        "text": "Let us make, I pray thee, a little chamber ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "with walls", "marks": ["i"] }]
+        }
+      },
+      "on the wall; and let us set for him there a bed, and a table, and a seat, and a candlestick: and it shall be, when he cometh to us, that he shall turn in thither."
+    ]
   },
   {
     "book": "2KG",
@@ -507,7 +733,19 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 13,
-    "content": "And he said unto him, Say now unto her, Behold, thou hast been careful for us with all this care; what is to be done for thee? wouldest thou be spoken for to the king, or to the captain of the host? And she answered, I dwell among mine own people."
+    "content": [
+      {
+        "text": "And he said unto him, Say now unto her, Behold, thou hast ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "showed us all this reverence", "marks": ["i"] }
+          ]
+        }
+      },
+      "been careful for us with all this care; what is to be done for thee? wouldest thou be spoken for to the king, or to the captain of the host? And she answered, I dwell among mine own people."
+    ]
   },
   {
     "book": "2KG",
@@ -525,13 +763,31 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 16,
-    "content": "And he said, At this season, when the time cometh round, thou shalt embrace a son. And she said, Nay, my lord, thou man of God, do not lie unto thy handmaid."
+    "content": [
+      {
+        "text": "And he said, At this season, when the time ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "liveth", "marks": ["i"] },
+            " (or, ",
+            { "text": "reviveth", "marks": ["i"] },
+            ")."
+          ]
+        }
+      },
+      "cometh round, thou shalt embrace a son. And she said, Nay, my lord, thou man of God, do not lie unto thy handmaid."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 4,
     "verse": 17,
-    "content": "And the woman conceived, and bare a son at that season, when the time came round, as Elisha had said unto her."
+    "content": {
+      "paragraph": true,
+      "text": "And the woman conceived, and bare a son at that season, when the time came round, as Elisha had said unto her."
+    }
   },
   {
     "book": "2KG",
@@ -555,7 +811,11 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 21,
-    "content": "And she went up and laid him on the bed of the man of God, and shut the door upon him, and went out."
+    "content": [
+      "And she went up and laid him on the bed of the man of God, and shut ",
+      { "text": "the door", "marks": ["i"] },
+      " upon him, and went out."
+    ]
   },
   {
     "book": "2KG",
@@ -567,7 +827,16 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 23,
-    "content": "And he said, Wherefore wilt thou go to him to-day? it is neither new moon nor sabbath. And she said, It shall be well."
+    "content": [
+      {
+        "text": "And he said, Wherefore wilt thou go to him to-day? it is neither new moon nor sabbath. And she said, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Peace", "marks": ["i"] }, "."]
+        }
+      },
+      "It shall be well."
+    ]
   },
   {
     "book": "2KG",
@@ -579,7 +848,13 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 25,
-    "content": "So she went, and came unto the man of God to mount Carmel. And it came to pass, when the man of God saw her afar off, that he said to Gehazi his servant, Behold, yonder is the Shunammite:"
+    "content": [
+      "So she went, and came unto the man of God to mount Carmel.",
+      {
+        "paragraph": true,
+        "text": "And it came to pass, when the man of God saw her afar off, that he said to Gehazi his servant, Behold, yonder is the Shunammite:"
+      }
+    ]
   },
   {
     "book": "2KG",
@@ -591,7 +866,16 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 27,
-    "content": "And when she came to the man of God to the hill, she caught hold of his feet. And Gehazi came near to thrust her away; but the man of God said, Let her alone: for her soul is vexed within her; and Jehovah hath hid it from me, and hath not told me."
+    "content": [
+      {
+        "text": "And when she came to the man of God to the hill, she caught hold of his feet. And Gehazi came near to thrust her away; but the man of God said, Let her alone: for her soul is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "bitter", "marks": ["i"] }, "."]
+        }
+      },
+      "vexed within her; and Jehovah hath hid it from me, and hath not told me."
+    ]
   },
   {
     "book": "2KG",
@@ -615,13 +899,25 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 31,
-    "content": "And Gehazi passed on before them, and laid the staff upon the face of the child; but there was neither voice, nor hearing. Wherefore he returned to meet him, and told him, saying, The child is not awaked."
+    "content": [
+      {
+        "text": "And Gehazi passed on before them, and laid the staff upon the face of the child; but there was neither voice, nor ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "attention", "marks": ["i"] }, "."]
+        }
+      },
+      "hearing. Wherefore he returned to meet him, and told him, saying, The child is not awaked."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 4,
     "verse": 32,
-    "content": "And when Elisha was come into the house, behold, the child was dead, and laid upon his bed."
+    "content": {
+      "paragraph": true,
+      "text": "And when Elisha was come into the house, behold, the child was dead, and laid upon his bed."
+    }
   },
   {
     "book": "2KG",
@@ -633,13 +929,41 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 34,
-    "content": "And he went up, and lay upon the child, and put his mouth upon his mouth, and his eyes upon his eyes, and his hands upon his hands: and he stretched himself upon him; and the flesh of the child waxed warm."
+    "content": [
+      {
+        "text": "And he went up, and lay upon the child, and put his mouth upon his mouth, and his eyes upon his eyes, and his hands upon his hands: and he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "bowed himself", "marks": ["i"] }]
+        }
+      },
+      "stretched himself upon him; and the flesh of the child waxed warm."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 4,
     "verse": 35,
-    "content": "Then he returned, and walked in the house once to and fro; and went up, and stretched himself upon him: and the child sneezed seven times, and the child opened his eyes."
+    "content": [
+      {
+        "text": "Then he returned, and walked in the house once to and fro; and went up, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "bowed himself", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "stretched himself upon him: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "and embraced the child", "marks": ["i"] }
+          ]
+        }
+      },
+      "and the child sneezed seven times, and the child opened his eyes."
+    ]
   },
   {
     "book": "2KG",
@@ -657,7 +981,10 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 38,
-    "content": "And Elisha came again to Gilgal. And there was a dearth in the land; and the sons of the prophets were sitting before him; and he said unto his servant, Set on the great pot, and boil pottage for the sons of the prophets."
+    "content": {
+      "paragraph": true,
+      "text": "And Elisha came again to Gilgal. And there was a dearth in the land; and the sons of the prophets were sitting before him; and he said unto his servant, Set on the great pot, and boil pottage for the sons of the prophets."
+    }
   },
   {
     "book": "2KG",
@@ -675,19 +1002,47 @@
     "book": "2KG",
     "chapter": 4,
     "verse": 41,
-    "content": "But he said, Then bring meal. And he cast it into the pot; and he said, Pour out for the people, that they may eat. And there was no harm in the pot."
+    "content": [
+      {
+        "text": "But he said, Then bring meal. And he cast it into the pot; and he said, Pour out for the people, that they may eat. And there was no ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "evil thing", "marks": ["i"] }, "."]
+        }
+      },
+      "harm in the pot."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 4,
     "verse": 42,
-    "content": "And there came a man from Baal-shalishah, and brought the man of God bread of the first-fruits, twenty loaves of barley, and fresh ears of grain in his sack. And he said, Give unto the people, that they may eat."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And there came a man from Baal-shalishah, and brought the man of God bread of the first-fruits, twenty loaves of barley, and fresh ears of grain in ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the husk thereof", "marks": ["i"] }]
+        }
+      },
+      "his sack. And he said, Give unto the people, that they may eat."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 4,
     "verse": 43,
-    "content": "And his servant said, What, should I set this before a hundred men? But he said, Give the people, that they may eat; for thus saith Jehovah, They shall eat, and shall leave thereof."
+    "content": [
+      {
+        "text": "And his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "minister", "marks": ["i"] }]
+        }
+      },
+      "servant said, What, should I set this before a hundred men? But he said, Give the people, that they may eat; for thus saith Jehovah, They shall eat, and shall leave thereof."
+    ]
   },
   {
     "book": "2KG",
@@ -699,34 +1054,84 @@
     "book": "2KG",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now Naaman, captain of the host of the king of Syria, was a great man with his master, and honorable, because by him Jehovah had given victory unto Syria: he was also a mighty man of valor, but he was a leper."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now Naaman, captain of the host of the king of Syria, was a great man ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "before", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "with his master, and honorable, because by him Jehovah had given ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "salvation", "marks": ["i"] }, "."]
+        }
+      },
+      "victory unto Syria: he was also a mighty man of valor, ",
+      { "text": "but he was", "marks": ["i"] },
+      " a leper."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 5,
     "verse": 2,
-    "content": "And the Syrians had gone out in bands, and had brought away captive out of the land of Israel a little maiden; and she waited on Naaman’s wife."
+    "content": [
+      {
+        "text": "And the Syrians had gone out in bands, and had brought away captive out of the land of Israel a little maiden; and she ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "was before", "marks": ["i"] }, "."]
+        }
+      },
+      "waited on Naaman’s wife."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 5,
     "verse": 3,
-    "content": "And she said unto her mistress, Would that my lord were with the prophet that is in Samaria! then would he recover him of his leprosy."
+    "content": [
+      {
+        "text": "And she said unto her mistress, Would that my lord were ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "before", "marks": ["i"] }, "."]
+        }
+      },
+      "with the prophet that is in Samaria! then would he recover him of his leprosy."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 5,
     "verse": 4,
-    "content": "And one went in, and told his lord, saying, Thus and thus said the maiden that is of the land of Israel."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "he", "marks": ["i"] }]
+        }
+      },
+      "one went in, and told his lord, saying, Thus and thus said the maiden that is of the land of Israel."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 5,
     "verse": 5,
-    "content": "And the king of Syria said, Go now, and I will send a letter unto the king of Israel. And he departed, and took with him ten talents of silver, and six thousand pieces of gold, and ten changes of raiment."
+    "content": [
+      {
+        "text": "And the king of Syria said, Go now, and I will send a letter unto the king of Israel. And he departed, and took with him ten talents of silver, and six thousand ",
+        "foot": { "type": "trn", "content": "Or, shekels" }
+      },
+      { "text": "pieces", "marks": ["i"] },
+      " of gold, and ten changes of raiment."
+    ]
   },
   {
     "book": "2KG",
@@ -738,13 +1143,25 @@
     "book": "2KG",
     "chapter": 5,
     "verse": 7,
-    "content": "And it came to pass, when the king of Israel had read the letter, that he rent his clothes, and said, Am I God, to kill and to make alive, that this man doth send unto me to recover a man of his leprosy? but consider, I pray you, and see how he seeketh a quarrel against me."
+    "content": [
+      {
+        "text": "And it came to pass, when the king of Israel had read the letter, that he rent his clothes, and said, Am I God, to kill and to make alive, that this man doth send unto me to recover a man of his leprosy? but consider, I pray you, and see how he seeketh ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "an occasion", "marks": ["i"] }]
+        }
+      },
+      "a quarrel against me."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 5,
     "verse": 8,
-    "content": "And it was so, when Elisha the man of God heard that the king of Israel had rent his clothes, that he sent to the king, saying, Wherefore hast thou rent thy clothes? let him come now to me, and he shall know that there is a prophet in Israel."
+    "content": {
+      "paragraph": true,
+      "text": "And it was so, when Elisha the man of God heard that the king of Israel had rent his clothes, that he sent to the king, saying, Wherefore hast thou rent thy clothes? let him come now to me, and he shall know that there is a prophet in Israel."
+    }
   },
   {
     "book": "2KG",
@@ -756,7 +1173,20 @@
     "book": "2KG",
     "chapter": 5,
     "verse": 10,
-    "content": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean."
+    "content": [
+      {
+        "text": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "be thou clean", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "thou shalt be clean."
+    ]
   },
   {
     "book": "2KG",
@@ -768,7 +1198,22 @@
     "book": "2KG",
     "chapter": 5,
     "verse": 12,
-    "content": "Are not Abanah and Pharpar, the rivers of Damascus, better than all the waters of Israel? may I not wash in them, and be clean? So he turned and went away in a rage."
+    "content": [
+      {
+        "text": "Are not ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Amanah", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Song of Songs 4:8", "content": "S. S. 4:8" },
+            "."
+          ]
+        }
+      },
+      "Abanah and Pharpar, the rivers of Damascus, better than all the waters of Israel? may I not wash in them, and be clean? So he turned and went away in a rage."
+    ]
   },
   {
     "book": "2KG",
@@ -780,13 +1225,27 @@
     "book": "2KG",
     "chapter": 5,
     "verse": 14,
-    "content": "Then went he down, and dipped himself seven times in the Jordan, according to the saying of the man of God; and his flesh came again like unto the flesh of a little child, and he was clean."
+    "content": [
+      "Then went he down, and dipped ",
+      { "text": "himself", "marks": ["i"] },
+      " seven times in the Jordan, according to the saying of the man of God; and his flesh came again like unto the flesh of a little child, and he was clean."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 5,
     "verse": 15,
-    "content": "And he returned to the man of God, he and all his company, and came, and stood before him; and he said, Behold now, I know that there is no God in all the earth, but in Israel: now therefore, I pray thee, take a present of thy servant."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And he returned to the man of God, he and all his company, and came, and stood before him; and he said, Behold now, I know that there is no God in all the earth, but in Israel: now therefore, I pray thee, take a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "blessing", "marks": ["i"] }, "."]
+        }
+      },
+      "present of thy servant."
+    ]
   },
   {
     "book": "2KG",
@@ -810,13 +1269,25 @@
     "book": "2KG",
     "chapter": 5,
     "verse": 19,
-    "content": "And he said unto him, Go in peace. So he departed from him a little way."
+    "content": [
+      {
+        "text": "And he said unto him, Go in peace. So he departed from him ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "some distance", "marks": ["i"] }]
+        }
+      },
+      "a little way."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 5,
     "verse": 20,
-    "content": "But Gehazi the servant of Elisha the man of God, said, Behold, my master hath spared this Naaman the Syrian, in not receiving at his hands that which he brought: as Jehovah liveth, I will run after him, and take somewhat of him."
+    "content": {
+      "paragraph": true,
+      "text": "But Gehazi the servant of Elisha the man of God, said, Behold, my master hath spared this Naaman the Syrian, in not receiving at his hands that which he brought: as Jehovah liveth, I will run after him, and take somewhat of him."
+    }
   },
   {
     "book": "2KG",
@@ -840,7 +1311,16 @@
     "book": "2KG",
     "chapter": 5,
     "verse": 24,
-    "content": "And when he came to the hill, he took them from their hand, and bestowed them in the house; and he let the men go, and they departed."
+    "content": [
+      {
+        "text": "And when he came to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Ophel", "marks": ["i"] }, "."]
+        }
+      },
+      "hill, he took them from their hand, and bestowed them in the house; and he let the men go, and they departed."
+    ]
   },
   {
     "book": "2KG",
@@ -852,13 +1332,33 @@
     "book": "2KG",
     "chapter": 5,
     "verse": 26,
-    "content": "And he said unto him, Went not my heart with thee, when the man turned from his chariot to meet thee? Is it a time to receive money, and to receive garments, and oliveyards and vineyards, and sheep and oxen, and men-servants and maid-servants?"
+    "content": [
+      {
+        "text": "And he said unto him, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "My heart went not", "marks": ["i"] },
+            " from me, ",
+            { "text": "when etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "Went not my heart ",
+      { "text": "with thee", "marks": ["i"] },
+      ", when the man turned from his chariot to meet thee? Is it a time to receive money, and to receive garments, and oliveyards and vineyards, and sheep and oxen, and men-servants and maid-servants?"
+    ]
   },
   {
     "book": "2KG",
     "chapter": 5,
     "verse": 27,
-    "content": "The leprosy therefore of Naaman shall cleave unto thee, and unto thy seed for ever. And he went out from his presence a leper as white as snow."
+    "content": [
+      "The leprosy therefore of Naaman shall cleave unto thee, and unto thy seed for ever. And he went out from his presence a leper ",
+      { "text": "as white", "marks": ["i"] },
+      " as snow."
+    ]
   },
   {
     "book": "2KG",
@@ -897,7 +1397,16 @@
     "book": "2KG",
     "chapter": 6,
     "verse": 6,
-    "content": "And the man of God said, Where fell it? And he showed him the place. And he cut down a stick, and cast it in thither, and made the iron to swim."
+    "content": [
+      {
+        "text": "And the man of God said, Where fell it? And he showed him the place. And he cut down a stick, and cast it in thither, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the iron did swim", "marks": ["i"] }]
+        }
+      },
+      "made the iron to swim."
+    ]
   },
   {
     "book": "2KG",
@@ -909,7 +1418,17 @@
     "book": "2KG",
     "chapter": 6,
     "verse": 8,
-    "content": "Now the king of Syria was warring against Israel; and he took counsel with his servants, saying, In such and such a place shall be my camp."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now the king of Syria was warring against Israel; and he took counsel with his servants, saying, In such and such a place shall be my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "encamping", "marks": ["i"] }]
+        }
+      },
+      "camp."
+    ]
   },
   {
     "book": "2KG",
@@ -945,13 +1464,25 @@
     "book": "2KG",
     "chapter": 6,
     "verse": 14,
-    "content": "Therefore sent he thither horses, and chariots, and a great host: and they came by night, and compassed the city about."
+    "content": {
+      "paragraph": true,
+      "text": "Therefore sent he thither horses, and chariots, and a great host: and they came by night, and compassed the city about."
+    }
   },
   {
     "book": "2KG",
     "chapter": 6,
     "verse": 15,
-    "content": "And when the servant of the man of God was risen early, and gone forth, behold, a host with horses and chariots was round about the city. And his servant said unto him, Alas, my master! how shall we do?"
+    "content": [
+      {
+        "text": "And when the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "minister", "marks": ["i"] }]
+        }
+      },
+      "servant of the man of God was risen early, and gone forth, behold, a host with horses and chariots was round about the city. And his servant said unto him, Alas, my master! how shall we do?"
+    ]
   },
   {
     "book": "2KG",
@@ -969,7 +1500,16 @@
     "book": "2KG",
     "chapter": 6,
     "verse": 18,
-    "content": "And when they came down to him, Elisha prayed unto Jehovah, and said, Smite this people, I pray thee, with blindness. And he smote them with blindness according to the word of Elisha."
+    "content": [
+      {
+        "text": "And when they came down to him, Elisha prayed unto Jehovah, and said, Smite this ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "nation", "marks": ["i"] }, "."]
+        }
+      },
+      "people, I pray thee, with blindness. And he smote them with blindness according to the word of Elisha."
+    ]
   },
   {
     "book": "2KG",
@@ -981,7 +1521,10 @@
     "book": "2KG",
     "chapter": 6,
     "verse": 20,
-    "content": "And it came to pass, when they were come into Samaria, that Elisha said, Jehovah, open the eyes of these men, that they may see. And Jehovah opened their eyes, and they saw; and, behold, they were in the midst of Samaria."
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass, when they were come into Samaria, that Elisha said, Jehovah, open the eyes of these men, that they may see. And Jehovah opened their eyes, and they saw; and, behold, they were in the midst of Samaria."
+    }
   },
   {
     "book": "2KG",
@@ -1005,13 +1548,28 @@
     "book": "2KG",
     "chapter": 6,
     "verse": 24,
-    "content": "And it came to pass after this, that Benhadad king of Syria gathered all his host, and went up, and besieged Samaria."
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass after this, that Ben-hadad king of Syria gathered all his host, and went up, and besieged Samaria."
+    }
   },
   {
     "book": "2KG",
     "chapter": 6,
     "verse": 25,
-    "content": "And there was a great famine in Samaria: and, behold, they besieged it, until an ass’s head was sold for fourscore pieces of silver, and the fourth part of a kab of dove’s dung for five pieces of silver."
+    "content": [
+      {
+        "text": "And there was a great famine in Samaria: and, behold, they besieged it, until an ass’s head was sold for fourscore ",
+        "foot": { "type": "trn", "content": "Or, shekels" }
+      },
+      { "text": "pieces", "marks": ["i"] },
+      {
+        "text": " of silver, and the fourth part of a kab of dove’s dung for five ",
+        "foot": { "type": "trn", "content": "Or, shekels" }
+      },
+      { "text": "pieces", "marks": ["i"] },
+      " of silver."
+    ]
   },
   {
     "book": "2KG",
@@ -1023,7 +1581,19 @@
     "book": "2KG",
     "chapter": 6,
     "verse": 27,
-    "content": "And he said, If Jehovah do not help thee, whence shall I help thee? out of the threshing-floor, or out of the winepress?"
+    "content": [
+      {
+        "text": "And he said, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Nay, let Jehovah help thee!", "marks": ["i"] }
+          ]
+        }
+      },
+      "If Jehovah do not help thee, whence shall I help thee? out of the threshing-floor, or out of the winepress?"
+    ]
   },
   {
     "book": "2KG",
@@ -1053,7 +1623,25 @@
     "book": "2KG",
     "chapter": 6,
     "verse": 32,
-    "content": "But Elisha was sitting in his house, and the elders were sitting with him; and the king sent a man from before him: but ere the messenger came to him, he said to the elders, See ye how this son of a murderer hath sent to take away my head? look, when the messenger cometh, shut the door, and hold the door fast against him: is not the sound of his master’s feet behind him?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But Elisha was sitting in his house, and the elders were sitting with him; and "
+      },
+      { "text": "the king", "marks": ["i"] },
+      {
+        "text": " sent a man from before him: but ere the messenger came to him, he said to the elders, See ye how this son of a murderer hath sent to take away my head? look, when the messenger cometh, shut the door, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "thrust him back with the door", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "hold the door fast against him: is not the sound of his master’s feet behind him?"
+    ]
   },
   {
     "book": "2KG",
@@ -1065,10 +1653,19 @@
     "book": "2KG",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And Elisha said, Hear ye the word of Jehovah: thus saith Jehovah, To-morrow about this time shall a measure of fine flour be sold for a shekel, and two measures of barley for a shekel, in the gate of Samaria."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Elisha said, Hear ye the word of Jehovah: thus saith Jehovah, To-morrow about this time shall a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "seah", "marks": ["i"] }, "."]
+        }
+      },
+      "measure of fine flour be ",
+      { "text": "sold", "marks": ["i"] },
+      " for a shekel, and two measures of barley for a shekel, in the gate of Samaria."
+    ]
   },
   {
     "book": "2KG",
@@ -1080,7 +1677,10 @@
     "book": "2KG",
     "chapter": 7,
     "verse": 3,
-    "content": "Now there were four leprous men at the entrance of the gate: and they said one to another, Why sit we here until we die?"
+    "content": {
+      "paragraph": true,
+      "text": "Now there were four leprous men at the entrance of the gate: and they said one to another, Why sit we here until we die?"
+    }
   },
   {
     "book": "2KG",
@@ -1116,19 +1716,50 @@
     "book": "2KG",
     "chapter": 7,
     "verse": 9,
-    "content": "Then they said one to another, We do not well; this day is a day of good tidings, and we hold our peace: if we tarry till the morning light, punishment will overtake us; now therefore come, let us go and tell the king’s household."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then they said one to another, We do not well; this day is a day of good tidings, and we hold our peace: if we tarry till the morning light, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "our iniquity will find us out", "marks": ["i"] }
+          ]
+        }
+      },
+      "punishment will overtake us; now therefore come, let us go and tell the king’s household."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 7,
     "verse": 10,
-    "content": "So they came and called unto the porter of the city; and they told them, saying, We came to the camp of the Syrians, and, behold, there was no man there, neither voice of man, but the horses tied, and the asses tied, and the tents as they were."
+    "content": [
+      {
+        "text": "So they came and called unto the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "porters", "marks": ["i"] }]
+        }
+      },
+      "porter of the city; and they told them, saying, We came to the camp of the Syrians, and, behold, there was no man there, neither voice of man, but the horses tied, and the asses tied, and the tents as they were."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 7,
     "verse": 11,
-    "content": "And he called the porters; and they told it to the king’s household within."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the porters called", "marks": ["i"] }]
+        }
+      },
+      "he called the porters; and they told it to the king’s household within."
+    ]
   },
   {
     "book": "2KG",
@@ -1140,7 +1771,16 @@
     "book": "2KG",
     "chapter": 7,
     "verse": 13,
-    "content": "And one of his servants answered and said, Let some take, I pray thee, five of the horses that remain, which are left in the city (behold, they are as all the multitude of Israel that are left in it; behold, they are as all the multitude of Israel that are consumed); and let us send and see."
+    "content": [
+      {
+        "text": "And one of his servants answered and said, Let some take, I pray thee, five of the horses that remain, which are left ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "in it", "marks": ["i"] }, "."]
+        }
+      },
+      "in the city (behold, they are as all the multitude of Israel that are left in it; behold, they are as all the multitude of Israel that are consumed); and let us send and see."
+    ]
   },
   {
     "book": "2KG",
@@ -1158,7 +1798,14 @@
     "book": "2KG",
     "chapter": 7,
     "verse": 16,
-    "content": "And the people went out, and plundered the camp of the Syrians. So a measure of fine flour was sold for a shekel, and two measures of barley for a shekel, according to the word of Jehovah."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the people went out, and plundered the camp of the Syrians. So a measure of fine flour was "
+      },
+      { "text": "sold", "marks": ["i"] },
+      " for a shekel, and two measures of barley for a shekel, according to the word of Jehovah."
+    ]
   },
   {
     "book": "2KG",
@@ -1221,13 +1868,25 @@
     "book": "2KG",
     "chapter": 8,
     "verse": 6,
-    "content": "And when the king asked the woman, she told him. So the king appointed unto her a certain officer, saying, Restore all that was hers, and all the fruits of the field since the day that she left the land, even until now."
+    "content": [
+      {
+        "text": "And when the king asked the woman, she told him. So the king appointed unto her a certain ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "eunuch", "marks": ["i"] }]
+        }
+      },
+      "officer, saying, Restore all that was hers, and all the fruits of the field since the day that she left the land, even until now."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 8,
     "verse": 7,
-    "content": "And Elisha came to Damascus; and Benhadad the king of Syria was sick; and it was told him, saying, The man of God is come hither."
+    "content": {
+      "paragraph": true,
+      "text": "And Elisha came to Damascus; and Ben-hadad the king of Syria was sick; and it was told him, saying, The man of God is come hither."
+    }
   },
   {
     "book": "2KG",
@@ -1239,19 +1898,54 @@
     "book": "2KG",
     "chapter": 8,
     "verse": 9,
-    "content": "So Hazael went to meet him, and took a present with him, even of every good thing of Damascus, forty camels’ burden, and came and stood before him, and said, Thy son Benhadad king of Syria hath sent me to thee, saying, Shall I recover of this sickness?"
+    "content": [
+      {
+        "text": "So Hazael went to meet him, and took a present ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "in his hand", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "with him, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "and", "marks": ["i"] }]
+        }
+      },
+      "even of every good thing of Damascus, forty camels’ burden, and came and stood before him, and said, Thy son Ben-hadad king of Syria hath sent me to thee, saying, Shall I recover of this sickness?"
+    ]
   },
   {
     "book": "2KG",
     "chapter": 8,
     "verse": 10,
-    "content": "And Elisha said unto him, Go, say unto him, Thou shalt surely recover; howbeit Jehovah hath showed me that he shall surely die."
+    "content": [
+      {
+        "text": "And Elisha said unto him, Go, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            {
+              "text": "say, Thou shalt not recover; for Jehovah etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "say unto him, Thou shalt surely recover; howbeit Jehovah hath showed me that he shall surely die."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 8,
     "verse": 11,
-    "content": "And he settled his countenance stedfastly upon him, until he was ashamed: and the man of God wept."
+    "content": [
+      "And he settled his countenance stedfastly ",
+      { "text": "upon him", "marks": ["i"] },
+      ", until he was ashamed: and the man of God wept."
+    ]
   },
   {
     "book": "2KG",
@@ -1281,7 +1975,10 @@
     "book": "2KG",
     "chapter": 8,
     "verse": 16,
-    "content": "And in the fifth year of Joram the son of Ahab king of Israel, Jehoshaphat being then king of Judah, Jehoram the son of Jehoshaphat king of Judah began to reign."
+    "content": {
+      "paragraph": true,
+      "text": "And in the fifth year of Joram the son of Ahab king of Israel, Jehoshaphat being then king of Judah, Jehoram the son of Jehoshaphat king of Judah began to reign."
+    }
   },
   {
     "book": "2KG",
@@ -1299,13 +1996,28 @@
     "book": "2KG",
     "chapter": 8,
     "verse": 19,
-    "content": "Howbeit Jehovah would not destroy Judah, for David his servant’s sake, as he promised him to give unto him a lamp for his children alway."
+    "content": [
+      {
+        "text": "Howbeit Jehovah would not destroy Judah, for David his servant’s sake, as he promised him to give unto him a lamp ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "and to his children", "marks": ["i"] }
+          ]
+        }
+      },
+      "for his children alway."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 8,
     "verse": 20,
-    "content": "In his days Edom revolted from under the hand of Judah, and made a king over themselves."
+    "content": {
+      "paragraph": true,
+      "text": "In his days Edom revolted from under the hand of Judah, and made a king over themselves."
+    }
   },
   {
     "book": "2KG",
@@ -1335,13 +2047,31 @@
     "book": "2KG",
     "chapter": 8,
     "verse": 25,
-    "content": "In the twelfth year of Joram the son of Ahab king of Israel did Ahaziah the son of Jehoram king of Judah begin to reign."
+    "content": {
+      "paragraph": true,
+      "text": "In the twelfth year of Joram the son of Ahab king of Israel did Ahaziah the son of Jehoram king of Judah begin to reign."
+    }
   },
   {
     "book": "2KG",
     "chapter": 8,
     "verse": 26,
-    "content": "Two and twenty years old was Ahaziah when he began to reign; and he reigned one year in Jerusalem. And his mother’s name was Athaliah the daughter of Omri king of Israel."
+    "content": [
+      {
+        "text": "Two and twenty years old was Ahaziah when he began to reign; and he reigned one year in Jerusalem. And his mother’s name was Athaliah the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "granddaughter", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "2 Kings 8:18", "content": "verse 18" },
+            "."
+          ]
+        }
+      },
+      "daughter of Omri king of Israel."
+    ]
   },
   {
     "book": "2KG",
@@ -1428,7 +2158,10 @@
     "book": "2KG",
     "chapter": 9,
     "verse": 11,
-    "content": "Then Jehu came forth to the servants of his lord: and one said unto him, Is all well? wherefore came this mad fellow to thee? And he said unto them, Ye know the man and what his talk was."
+    "content": {
+      "paragraph": true,
+      "text": "Then Jehu came forth to the servants of his lord: and one said unto him, Is all well? wherefore came this mad fellow to thee? And he said unto them, Ye know the man and what his talk was."
+    }
   },
   {
     "book": "2KG",
@@ -1440,19 +2173,54 @@
     "book": "2KG",
     "chapter": 9,
     "verse": 13,
-    "content": "Then they hasted, and took every man his garment, and put it under him on the top of the stairs, and blew the trumpet, saying, Jehu is king."
+    "content": [
+      {
+        "text": "Then they hasted, and took every man his garment, and put it under him ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "on the bare steps", "marks": ["i"] }]
+        }
+      },
+      "on the top of the stairs, and blew the trumpet, saying, Jehu is king."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 9,
     "verse": 14,
-    "content": "So Jehu the son of Jehoshaphat the son of Nimshi conspired against Joram. (Now Joram was keeping Ramoth-gilead, he and all Israel, because of Hazael king of Syria;"
+    "content": {
+      "paragraph": true,
+      "text": "So Jehu the son of Jehoshaphat the son of Nimshi conspired against Joram. (Now Joram was keeping Ramoth-gilead, he and all Israel, because of Hazael king of Syria;"
+    }
   },
   {
     "book": "2KG",
     "chapter": 9,
     "verse": 15,
-    "content": "but king Joram was returned to be healed in Jezreel of the wounds which the Syrians had given him, when he fought with Hazael king of Syria.) And Jehu said, If this be your mind, then let none escape and go forth out of the city, to go to tell it in Jezreel."
+    "content": [
+      {
+        "text": "but king ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Jehoram", "marks": ["i"] },
+            " (and in verses ",
+            { "bibleLink": "2 Kings 9:17", "content": "17" },
+            ", ",
+            { "bibleLink": "2 Kings 9:21", "content": "21" },
+            ", ",
+            { "bibleLink": "2 Kings 9:22", "content": "22" },
+            ", ",
+            { "bibleLink": "2 Kings 9:23", "content": "23" },
+            ", ",
+            { "bibleLink": "2 Kings 9:24", "content": "24" },
+            ")."
+          ]
+        }
+      },
+      "Joram was returned to be healed in Jezreel of the wounds which the Syrians had given him, when he fought with Hazael king of Syria.) And Jehu said, If this be your mind, then let none escape and go forth out of the city, to go to tell it in Jezreel."
+    ]
   },
   {
     "book": "2KG",
@@ -1464,7 +2232,17 @@
     "book": "2KG",
     "chapter": 9,
     "verse": 17,
-    "content": "Now the watchman was standing on the tower in Jezreel, and he spied the company of Jehu as he came, and said, I see a company. And Joram said, Take a horseman, and send to meet them, and let him say, Is it peace?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now the watchman was standing on the tower in Jezreel, and he spied the company of Jehu as he came, and said, I see a company. And Joram said, Take a horseman, and send to meet them, and let him say, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Is all well?", "marks": ["i"] }]
+        }
+      },
+      "Is it peace?"
+    ]
   },
   {
     "book": "2KG",
@@ -1488,7 +2266,17 @@
     "book": "2KG",
     "chapter": 9,
     "verse": 21,
-    "content": "And Joram said, Make ready. And they made ready his chariot. And Joram king of Israel and Ahaziah king of Judah went out, each in his chariot, and they went out to meet Jehu, and found him in the portion of Naboth the Jezreelite."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Joram said, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Yoke", "marks": ["i"] }]
+        }
+      },
+      "Make ready. And they made ready his chariot. And Joram king of Israel and Ahaziah king of Judah went out, each in his chariot, and they went out to meet Jehu, and found him in the portion of Naboth the Jezreelite."
+    ]
   },
   {
     "book": "2KG",
@@ -1506,25 +2294,70 @@
     "book": "2KG",
     "chapter": 9,
     "verse": 24,
-    "content": "And Jehu drew his bow with his full strength, and smote Joram between his arms; and the arrow went out at his heart, and he sunk down in his chariot."
+    "content": [
+      {
+        "text": "And Jehu ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "filled his hand with the bow", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "drew his bow with his full strength, and smote Joram between his arms; and the arrow went out at his heart, and he sunk down in his chariot."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 9,
     "verse": 25,
-    "content": "Then said Jehu to Bidkar his captain, Take up, and cast him in the portion of the field of Naboth the Jezreelite; for remember how that, when I and thou rode together after Ahab his father, Jehovah laid this burden upon him:"
+    "content": [
+      "Then said ",
+      { "text": "Jehu", "marks": ["i"] },
+      {
+        "text": " to Bidkar his captain, Take up, and cast him in the portion of the field of Naboth the Jezreelite; for remember how that, when I and thou rode together after Ahab his father, Jehovah ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "uttered this oracle against him", "marks": ["i"] }
+          ]
+        }
+      },
+      "laid this burden upon him:"
+    ]
   },
   {
     "book": "2KG",
     "chapter": 9,
     "verse": 26,
-    "content": "Surely I have seen yesterday the blood of Naboth, and the blood of his sons, saith Jehovah; and I will requite thee in this plat, saith Jehovah. Now therefore take and cast him into the plat of ground, according to the word of Jehovah."
+    "content": [
+      {
+        "text": "Surely I have seen yesterday the blood of Naboth, and the blood of his sons, saith Jehovah; and I will requite thee in this ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "portion", "marks": ["i"] }]
+        }
+      },
+      "plat, saith Jehovah. Now therefore take and cast him into the plat ",
+      { "text": "of ground", "marks": ["i"] },
+      ", according to the word of Jehovah."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 9,
     "verse": 27,
-    "content": "But when Ahaziah the king of Judah saw this, he fled by the way of the garden-house. And Jehu followed after him, and said, Smite him also in the chariot: and they smote him at the ascent of Gur, which is by Ibleam. And he fled to Megiddo, and died there."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But when Ahaziah the king of Judah saw this, he fled by the way of the garden-house. And Jehu followed after him, and said, Smite him also in the chariot: "
+      },
+      { "text": "and they smote him", "marks": ["i"] },
+      " at the ascent of Gur, which is by Ibleam. And he fled to Megiddo, and died there."
+    ]
   },
   {
     "book": "2KG",
@@ -1536,19 +2369,34 @@
     "book": "2KG",
     "chapter": 9,
     "verse": 29,
-    "content": "And in the eleventh year of Joram the son of Ahab began Ahaziah to reign over Judah."
+    "content": {
+      "paragraph": true,
+      "text": "And in the eleventh year of Joram the son of Ahab began Ahaziah to reign over Judah."
+    }
   },
   {
     "book": "2KG",
     "chapter": 9,
     "verse": 30,
-    "content": "And when Jehu was come to Jezreel, Jezebel heard of it; and she painted her eyes, and attired her head, and looked out at the window."
+    "content": {
+      "paragraph": true,
+      "text": "And when Jehu was come to Jezreel, Jezebel heard of it; and she painted her eyes, and attired her head, and looked out at the window."
+    }
   },
   {
     "book": "2KG",
     "chapter": 9,
     "verse": 31,
-    "content": "And as Jehu entered in at the gate, she said, Is it peace, thou Zimri, thy master’s murderer?"
+    "content": [
+      {
+        "text": "And as Jehu entered in at the gate, she said, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Is it well", "marks": ["i"] }]
+        }
+      },
+      "Is it peace, thou Zimri, thy master’s murderer?"
+    ]
   },
   {
     "book": "2KG",
@@ -1590,10 +2438,14 @@
     "book": "2KG",
     "chapter": 10,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now Ahab had seventy sons in Samaria. And Jehu wrote letters, and sent to Samaria, unto the rulers of Jezreel, even the elders, and unto them that brought up the sons of Ahab, saying,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now Ahab had seventy sons in Samaria. And Jehu wrote letters, and sent to Samaria, unto the rulers of Jezreel, even the elders, and unto them that brought up "
+      },
+      { "text": "the sons of", "marks": ["i"] },
+      " Ahab, saying,"
+    ]
   },
   {
     "book": "2KG",
@@ -1617,7 +2469,11 @@
     "book": "2KG",
     "chapter": 10,
     "verse": 5,
-    "content": "And he that was over the household, and he that was over the city, the elders also, and they that brought up the children, sent to Jehu, saying, We are thy servants, and will do all that thou shalt bid us; we will not make any man king: do thou that which is good in thine eyes."
+    "content": [
+      "And he that was over the household, and he that was over the city, the elders also, and they that brought up ",
+      { "text": "the children", "marks": ["i"] },
+      ", sent to Jehu, saying, We are thy servants, and will do all that thou shalt bid us; we will not make any man king: do thou that which is good in thine eyes."
+    ]
   },
   {
     "book": "2KG",
@@ -1659,7 +2515,17 @@
     "book": "2KG",
     "chapter": 10,
     "verse": 12,
-    "content": "And he arose and departed, and went to Samaria. And as he was at the shearing-house of the shepherds in the way,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And he arose and departed, and went to Samaria. And as he was at the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "house of gathering", "marks": ["i"] }]
+        }
+      },
+      "shearing-house of the shepherds in the way,"
+    ]
   },
   {
     "book": "2KG",
@@ -1671,13 +2537,32 @@
     "book": "2KG",
     "chapter": 10,
     "verse": 14,
-    "content": "And he said, Take them alive. And they took them alive, and slew them at the pit of the shearing-house, even two and forty men; neither left he any of them."
+    "content": [
+      {
+        "text": "And he said, Take them alive. And they took them alive, and slew them at the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "cistern", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "pit of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "house of gathering", "marks": ["i"] }]
+        }
+      },
+      "shearing-house, even two and forty men; neither left he any of them."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 10,
     "verse": 15,
-    "content": "And when he was departed thence, he lighted on Jehonadab the son of Rechab coming to meet him; and he saluted him, and said to him, Is thy heart right, as my heart is with thy heart? And Jehonadab answered, It is. If it be, give me thy hand. And he gave him his hand; and he took him up to him into the chariot."
+    "content": {
+      "paragraph": true,
+      "text": "And when he was departed thence, he lighted on Jehonadab the son of Rechab coming to meet him; and he saluted him, and said to him, Is thy heart right, as my heart is with thy heart? And Jehonadab answered, It is. If it be, give me thy hand. And he gave him his hand; and he took him up to him into the chariot."
+    }
   },
   {
     "book": "2KG",
@@ -1695,13 +2580,20 @@
     "book": "2KG",
     "chapter": 10,
     "verse": 18,
-    "content": "And Jehu gathered all the people together, and said unto them, Ahab served Baal a little; but Jehu will serve him much."
+    "content": {
+      "paragraph": true,
+      "text": "And Jehu gathered all the people together, and said unto them, Ahab served Baal a little; but Jehu will serve him much."
+    }
   },
   {
     "book": "2KG",
     "chapter": 10,
     "verse": 19,
-    "content": "Now therefore call unto me all the prophets of Baal, all his worshippers, and all his priests; let none be wanting: for I have a great sacrifice to do to Baal; whosoever shall be wanting, he shall not live. But Jehu did it in subtlety, to the intent that he might destroy the worshippers of Baal."
+    "content": [
+      "Now therefore call unto me all the prophets of Baal, all his worshippers, and all his priests; let none be wanting: for I have a great sacrifice ",
+      { "text": "to do", "marks": ["i"] },
+      " to Baal; whosoever shall be wanting, he shall not live. But Jehu did it in subtlety, to the intent that he might destroy the worshippers of Baal."
+    ]
   },
   {
     "book": "2KG",
@@ -1731,19 +2623,42 @@
     "book": "2KG",
     "chapter": 10,
     "verse": 24,
-    "content": "And they went in to offer sacrifices and burnt-offerings. Now Jehu had appointed him fourscore men without, and said, If any of the men whom I bring into your hands escape, he that letteth him go, his life shall be for the life of him."
+    "content": [
+      "And they went in to offer sacrifices and burnt-offerings. Now Jehu had appointed him fourscore men without, and said, If any of the men whom I bring into your hands escape, ",
+      { "text": "he that letteth him go", "marks": ["i"] },
+      ", his life shall be for the life of him."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 10,
     "verse": 25,
-    "content": "And it came to pass, as soon as he had made an end of offering the burnt-offering, that Jehu said to the guard and to the captains, Go in, and slay them; let none come forth. And they smote them with the edge of the sword; and the guard and the captains cast them out, and went to the city of the house of Baal."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass, as soon as he had made an end of offering the burnt-offering, that Jehu said to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "runners", "marks": ["i"] }, "."]
+        }
+      },
+      "guard and to the captains, Go in, and slay them; let none come forth. And they smote them with the edge of the sword; and the guard and the captains cast them out, and went to the city of the house of Baal."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 10,
     "verse": 26,
-    "content": "And they brought forth the pillars that were in the house of Baal, and burned them."
+    "content": [
+      {
+        "text": "And they brought forth the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "obelisks", "marks": ["i"] }]
+        }
+      },
+      "pillars that were in the house of Baal, and burned them."
+    ]
   },
   {
     "book": "2KG",
@@ -1761,13 +2676,36 @@
     "book": "2KG",
     "chapter": 10,
     "verse": 29,
-    "content": "Howbeit from the sins of Jeroboam the son of Nebat, wherewith he made Israel to sin, Jehu departed not from after them, to wit, the golden calves that were in Beth-el, and that were in Dan."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Howbeit from the sins of Jeroboam the son of Nebat, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "who", "marks": ["i"] }]
+        }
+      },
+      "wherewith he made Israel to sin, Jehu departed not from after them, ",
+      { "text": "to wit", "marks": ["i"] },
+      ", the golden calves that were in Beth-el, and that were in Dan."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 10,
     "verse": 30,
-    "content": "And Jehovah said unto Jehu, Because thou hast done well in executing that which is right in mine eyes, and hast done unto the house of Ahab according to all that was in my heart, thy sons of the fourth generation shall sit on the throne of Israel."
+    "content": [
+      {
+        "text": "And Jehovah said unto Jehu, Because thou hast ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "executed well", "marks": ["i"] }]
+        }
+      },
+      "done well in executing that which is right in mine eyes, ",
+      { "text": "and", "marks": ["i"] },
+      " hast done unto the house of Ahab according to all that was in my heart, thy sons of the fourth generation shall sit on the throne of Israel."
+    ]
   },
   {
     "book": "2KG",
@@ -1779,7 +2717,10 @@
     "book": "2KG",
     "chapter": 10,
     "verse": 32,
-    "content": "In those days Jehovah began to cut off from Israel: and Hazael smote them in all the borders of Israel;"
+    "content": {
+      "paragraph": true,
+      "text": "In those days Jehovah began to cut off from Israel: and Hazael smote them in all the borders of Israel;"
+    }
   },
   {
     "book": "2KG",
@@ -1818,7 +2759,24 @@
     "book": "2KG",
     "chapter": 11,
     "verse": 2,
-    "content": "But Jehosheba, the daughter of king Joram, sister of Ahaziah, took Joash the son of Ahaziah, and stole him away from among the king’s sons that were slain, even him and his nurse, and put them in the bedchamber; and they hid him from Athaliah, so that he was not slain;"
+    "content": [
+      {
+        "text": "But Jehosheba, the daughter of king Joram, sister of Ahaziah, took Joash the son of Ahaziah, and stole him away from among the king’s sons that were slain, even him and his nurse, ",
+        "foot": { "type": "trn", "content": "Or, who were" }
+      },
+      { "text": "and put them", "marks": ["i"] },
+      {
+        "text": " in the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "chamber for the beds", "marks": ["i"] }
+          ]
+        }
+      },
+      "bedchamber; and they hid him from Athaliah, so that he was not slain;"
+    ]
   },
   {
     "book": "2KG",
@@ -1830,7 +2788,24 @@
     "book": "2KG",
     "chapter": 11,
     "verse": 4,
-    "content": "And in the seventh year Jehoiada sent and fetched the captains over hundreds of the Carites and of the guard, and brought them to him into the house of Jehovah; and he made a covenant with them, and took an oath of them in the house of Jehovah, and showed them the king’s son."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And in the seventh year Jehoiada sent and fetched the captains over hundreds of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "executioners", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "Carites and of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "runners", "marks": ["i"] }, "."]
+        }
+      },
+      "guard, and brought them to him into the house of Jehovah; and he made a covenant with them, and took an oath of them in the house of Jehovah, and showed them the king’s son."
+    ]
   },
   {
     "book": "2KG",
@@ -1842,7 +2817,7 @@
     "book": "2KG",
     "chapter": 11,
     "verse": 6,
-    "content": "And a third part shall be at the gate Sur; and a third part at the gate behind the guard: so shall ye keep the watch of the house, and be a barrier."
+    "content": "and a third part shall be at the gate Sur; and a third part at the gate behind the guard: so shall ye keep the watch of the house, and be a barrier."
   },
   {
     "book": "2KG",
@@ -1860,7 +2835,10 @@
     "book": "2KG",
     "chapter": 11,
     "verse": 9,
-    "content": "And the captains over hundreds did according to all that Jehoiada the priest commanded; and they took every man his men, those that were to come in on the sabbath, with those that were to go out on the sabbath, and came to Jehoiada the priest."
+    "content": {
+      "paragraph": true,
+      "text": "And the captains over hundreds did according to all that Jehoiada the priest commanded; and they took every man his men, those that were to come in on the sabbath, with those that were to go out on the sabbath, and came to Jehoiada the priest."
+    }
   },
   {
     "book": "2KG",
@@ -1872,25 +2850,69 @@
     "book": "2KG",
     "chapter": 11,
     "verse": 11,
-    "content": "And the guard stood, every man with his weapons in his hand, from the right side of the house to the left side of the house, along by the altar and the house, by the king round about."
+    "content": [
+      {
+        "text": "And the guard stood, every man with his weapons in his hand, from the right ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "shoulder", "marks": ["i"] }, "."]
+        }
+      },
+      "side of the house to the left side of the house, along by the altar and the house, by the king round about."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 11,
     "verse": 12,
-    "content": "Then he brought out the king’s son, and put the crown upon him, and gave him the testimony; and they made him king, and anointed him; and they clapped their hands, and said, Long live the king."
+    "content": [
+      {
+        "text": "Then he brought out the king’s son, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "put upon him the crown and the testimony",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "put the crown upon him, and ",
+      { "text": "gave him", "marks": ["i"] },
+      " the testimony; and they made him king, and anointed him; and they clapped their hands, and said, ",
+      { "text": "Long", "marks": ["i"] },
+      " live the king."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 11,
     "verse": 13,
-    "content": "And when Athaliah heard the noise of the guard and of the people, she came to the people into the house of Jehovah:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And when Athaliah heard the noise of the guard "
+      },
+      { "text": "and of", "marks": ["i"] },
+      " the people, she came to the people into the house of Jehovah:"
+    ]
   },
   {
     "book": "2KG",
     "chapter": 11,
     "verse": 14,
-    "content": "and she looked, and, behold, the king stood by the pillar, as the manner was, and the captains and the trumpets by the king; and all the people of the land rejoiced, and blew trumpets. Then Athaliah rent her clothes, and cried, Treason! treason!"
+    "content": [
+      {
+        "text": "and she looked, and, behold, the king stood ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "on the platform", "marks": ["i"] }]
+        }
+      },
+      "by the pillar, as the manner was, and the captains and the trumpets by the king; and all the people of the land rejoiced, and blew trumpets. Then Athaliah rent her clothes, and cried, Treason! treason!"
+    ]
   },
   {
     "book": "2KG",
@@ -1908,13 +2930,25 @@
     "book": "2KG",
     "chapter": 11,
     "verse": 17,
-    "content": "And Jehoiada made a covenant between Jehovah and the king and the people, that they should be Jehovah’s people; between the king also and the people."
+    "content": {
+      "paragraph": true,
+      "text": "And Jehoiada made a covenant between Jehovah and the king and the people, that they should be Jehovah’s people; between the king also and the people."
+    }
   },
   {
     "book": "2KG",
     "chapter": 11,
     "verse": 18,
-    "content": "And all the people of the land went to the house of Baal, and brake it down; his altars and his images brake they in pieces thoroughly, and slew Mattan the priest of Baal before the altars. And the priest appointed officers over the house of Jehovah."
+    "content": [
+      {
+        "text": "And all the people of the land went to the house of Baal, and brake it down; his altars and his images brake they in pieces thoroughly, and slew Mattan the priest of Baal before the altars. And the priest appointed ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "offices", "marks": ["i"] }, "."]
+        }
+      },
+      "officers over the house of Jehovah."
+    ]
   },
   {
     "book": "2KG",
@@ -1932,7 +2966,10 @@
     "book": "2KG",
     "chapter": 11,
     "verse": 21,
-    "content": "Jehoash was seven years old when he began to reign."
+    "content": {
+      "paragraph": true,
+      "text": "Jehoash was seven years old when he began to reign."
+    }
   },
   {
     "book": "2KG",
@@ -1959,7 +2996,41 @@
     "book": "2KG",
     "chapter": 12,
     "verse": 4,
-    "content": "And Jehoash said to the priests, All the money of the hallowed things that is brought into the house of Jehovah, in current money, the money of the persons for whom each man is rated, and all the money that it cometh into any man’s heart to bring into the house of Jehovah,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Jehoash said to the priests, All the money of the hallowed things that is brought into the house of Jehovah, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, even ",
+            { "text": "the money", "marks": ["i"] },
+            " of every one ",
+            { "text": "that passeth", "marks": ["i"] },
+            " the numbering. See ",
+            { "bibleLink": "Exodus 30:13", "content": "Ex. 30:13" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "in current money, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            {
+              "text": "each man the money of the souls of his estimation",
+              "marks": ["i"]
+            },
+            ". See ",
+            { "bibleLink": "Leviticus 27:2", "content": "Lev. 27:2" },
+            "."
+          ]
+        }
+      },
+      "the money of the persons for whom each man is rated, and all the money that it cometh into any man’s heart to bring into the house of Jehovah,"
+    ]
   },
   {
     "book": "2KG",
@@ -1977,37 +3048,91 @@
     "book": "2KG",
     "chapter": 12,
     "verse": 7,
-    "content": "Then king Jehoash called for Jehoiada the priest, and for the other priests, and said unto them, Why repair ye not the breaches of the house? now therefore take no more money from your acquaintance, but deliver it for the breaches of the house."
+    "content": [
+      "Then king Jehoash called for Jehoiada the priest, and for the ",
+      { "text": "other", "marks": ["i"] },
+      " priests, and said unto them, Why repair ye not the breaches of the house? now therefore take no ",
+      { "text": "more", "marks": ["i"] },
+      " money from your acquaintance, but deliver it for the breaches of the house."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 12,
     "verse": 8,
-    "content": "And the priests consented that they should take no more money from the people, neither repair the breaches of the house."
+    "content": [
+      "And the priests consented that they should take no ",
+      { "text": "more", "marks": ["i"] },
+      " money from the people, neither repair the breaches of the house."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 12,
     "verse": 9,
-    "content": "But Jehoiada the priest took a chest, and bored a hole in the lid of it, and set it beside the altar, on the right side as one cometh into the house of Jehovah: and the priests that kept the threshold put therein all the money that was brought into the house of Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "But Jehoiada the priest took a chest, and bored a hole in the lid of it, and set it beside the altar, on the right side as one cometh into the house of Jehovah: and the priests that kept the threshold put therein all the money that was brought into the house of Jehovah."
+    }
   },
   {
     "book": "2KG",
     "chapter": 12,
     "verse": 10,
-    "content": "And it was so, when they saw that there was much money in the chest, that the king’s scribe and the high priest came up, and they put up in bags and counted the money that was found in the house of Jehovah."
+    "content": [
+      {
+        "text": "And it was so, when they saw that there was much money in the chest, that the king’s ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "secretary", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "scribe and the high priest came up, and they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "bound up and etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "put up in bags and counted the money that was found in the house of Jehovah."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 12,
     "verse": 11,
-    "content": "And they gave the money that was weighed out into the hands of them that did the work, that had the oversight of the house of Jehovah: and they paid it out to the carpenters and the builders, that wrought upon the house of Jehovah,"
+    "content": [
+      {
+        "text": "And they gave the money that was weighed out into the hands of them that did the work, that had the oversight of the house of Jehovah: and they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "brought it forth", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "paid it out to the carpenters and the builders, that wrought upon the house of Jehovah,"
+    ]
   },
   {
     "book": "2KG",
     "chapter": 12,
     "verse": 12,
-    "content": "and to the masons and the hewers of stone, and for buying timber and hewn stone to repair the breaches of the house of Jehovah, and for all that was laid out for the house to repair it."
+    "content": [
+      {
+        "text": "and to the masons and the hewers of stone, and for buying timber and hewn stone to repair the breaches of the house of Jehovah, and for all that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "went forth", "marks": ["i"] }, "."]
+        }
+      },
+      "was laid out for the house to repair it."
+    ]
   },
   {
     "book": "2KG",
@@ -2037,7 +3162,10 @@
     "book": "2KG",
     "chapter": 12,
     "verse": 17,
-    "content": "Then Hazael king of Syria went up, and fought against Gath, and took it; and Hazael set his face to go up to Jerusalem."
+    "content": {
+      "paragraph": true,
+      "text": "Then Hazael king of Syria went up, and fought against Gath, and took it; and Hazael set his face to go up to Jerusalem."
+    }
   },
   {
     "book": "2KG",
@@ -2049,13 +3177,20 @@
     "book": "2KG",
     "chapter": 12,
     "verse": 19,
-    "content": "Now the rest of the acts of Joash, and all that he did, are they not written in the book of the chronicles of the kings of Judah?"
+    "content": {
+      "paragraph": true,
+      "text": "Now the rest of the acts of Joash, and all that he did, are they not written in the book of the chronicles of the kings of Judah?"
+    }
   },
   {
     "book": "2KG",
     "chapter": 12,
     "verse": 20,
-    "content": "And his servants arose, and made a conspiracy, and smote Joash at the house of Millo, on the way that goeth down to Silla."
+    "content": [
+      "And his servants arose, and made a conspiracy, and smote Joash at the house of Millo, ",
+      { "text": "on the way", "marks": ["i"] },
+      " that goeth down to Silla."
+    ]
   },
   {
     "book": "2KG",
@@ -2067,10 +3202,14 @@
     "book": "2KG",
     "chapter": 13,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "In the three and twentieth year of Joash the son of Ahaziah, king of Judah, Jehoahaz the son of Jehu began to reign over Israel in Samaria, and reigned seventeen years."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In the three and twentieth year of Joash the son of Ahaziah, king of Judah, Jehoahaz the son of Jehu began to reign over Israel in Samaria, "
+      },
+      { "text": "and reigned", "marks": ["i"] },
+      " seventeen years."
+    ]
   },
   {
     "book": "2KG",
@@ -2082,7 +3221,20 @@
     "book": "2KG",
     "chapter": 13,
     "verse": 3,
-    "content": "And the anger of Jehovah was kindled against Israel, and he delivered them into the hand of Hazael king of Syria, and into the hand of Benhadad the son of Hazael, continually."
+    "content": [
+      {
+        "text": "And the anger of Jehovah was kindled against Israel, and he delivered them into the hand of Hazael king of Syria, and into the hand of Ben-hadad the son of Hazael, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "all the days", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "continually."
+    ]
   },
   {
     "book": "2KG",
@@ -2100,13 +3252,31 @@
     "book": "2KG",
     "chapter": 13,
     "verse": 6,
-    "content": "Nevertheless they departed not from the sins of the house of Jeroboam, wherewith he made Israel to sin, but walked therein: and there remained the Asherah also in Samaria.)"
+    "content": [
+      {
+        "text": "Nevertheless they departed not from the sins of the house of Jeroboam, wherewith he made Israel to sin, but ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "he walked", "marks": ["i"] }, "."]
+        }
+      },
+      "walked therein: and there remained the Asherah also in Samaria.)"
+    ]
   },
   {
     "book": "2KG",
     "chapter": 13,
     "verse": 7,
-    "content": "For he left not to Jehoahaz of the people save fifty horsemen, and ten chariots, and ten thousand footmen; for the king of Syria destroyed them, and made them like the dust in threshing."
+    "content": [
+      {
+        "text": "For he left not to Jehoahaz of the people save fifty horsemen, and ten chariots, and ten thousand footmen; for the king of Syria destroyed them, and made them like the dust ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to trample on", "marks": ["i"] }]
+        }
+      },
+      "in threshing."
+    ]
   },
   {
     "book": "2KG",
@@ -2124,7 +3294,14 @@
     "book": "2KG",
     "chapter": 13,
     "verse": 10,
-    "content": "In the thirty and seventh year of Joash king of Judah began Jehoash the son of Jehoahaz to reign over Israel in Samaria, and reigned sixteen years."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In the thirty and seventh year of Joash king of Judah began Jehoash the son of Jehoahaz to reign over Israel in Samaria, "
+      },
+      { "text": "and reigned", "marks": ["i"] },
+      " sixteen years."
+    ]
   },
   {
     "book": "2KG",
@@ -2148,7 +3325,24 @@
     "book": "2KG",
     "chapter": 13,
     "verse": 14,
-    "content": "Now Elisha was fallen sick of his sickness whereof he died: and Joash the king of Israel came down unto him, and wept over him, and said, My father, my father, the chariots of Israel and the horsemen thereof!"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now Elisha was fallen sick of his sickness whereof he died: and Joash the king of Israel came down unto him, and wept over ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "his face", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "him, and said, My father, my father, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "chariot", "marks": ["i"] }]
+        }
+      },
+      "chariots of Israel and the horsemen thereof!"
+    ]
   },
   {
     "book": "2KG",
@@ -2160,13 +3354,40 @@
     "book": "2KG",
     "chapter": 13,
     "verse": 16,
-    "content": "And he said to the king of Israel, Put thy hand upon the bow; and he put his hand upon it. And Elisha laid his hands upon the king’s hands."
+    "content": [
+      "And he said to the king of Israel, Put thy hand upon the bow; and he put his hand ",
+      { "text": "upon it", "marks": ["i"] },
+      ". And Elisha laid his hands upon the king’s hands."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 13,
     "verse": 17,
-    "content": "And he said, Open the window eastward; and he opened it. Then Elisha said, Shoot; and he shot. And he said, Jehovah’s arrow of victory, even the arrow of victory over Syria; for thou shalt smite the Syrians in Aphek, till thou have consumed them."
+    "content": [
+      {
+        "text": "And he said, Open the window eastward; and he opened it. Then Elisha said, Shoot; and he shot. And he said, Jehovah’s arrow of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "salvation", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "victory, even the arrow of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "salvation", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "victory ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "against", "marks": ["i"] }]
+        }
+      },
+      "over Syria; for thou shalt smite the Syrians in Aphek, till thou have consumed them."
+    ]
   },
   {
     "book": "2KG",
@@ -2178,43 +3399,71 @@
     "book": "2KG",
     "chapter": 13,
     "verse": 19,
-    "content": "And the man of God was wroth with him, and said, Thou shouldest have smitten five or six times: then hadst thou smitten Syria till thou hadst consumed it, whereas now thou shalt smite Syria but thrice."
+    "content": "And the man of God was wroth with him, and said, Thou shouldest have smitten five or six times: then hadst thou smitten Syria till thou hadst consumed it; whereas now thou shalt smite Syria but thrice."
   },
   {
     "book": "2KG",
     "chapter": 13,
     "verse": 20,
-    "content": "And Elisha died, and they buried him. Now the bands of the Moabites invaded the land at the coming in of the year."
+    "content": {
+      "paragraph": true,
+      "text": "And Elisha died, and they buried him. Now the bands of the Moabites invaded the land at the coming in of the year."
+    }
   },
   {
     "book": "2KG",
     "chapter": 13,
     "verse": 21,
-    "content": "And it came to pass, as they were burying a man, that, behold, they spied a band; and they cast the man into the sepulchre of Elisha: and as soon as the man touched the bones of Elisha, he revived, and stood up on his feet."
+    "content": [
+      {
+        "text": "And it came to pass, as they were burying a man, that, behold, they spied a band; and they cast the man into the sepulchre of Elisha: and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "when the man went and touched", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "as soon as the man touched the bones of Elisha, he revived, and stood up on his feet."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 13,
     "verse": 22,
-    "content": "And Hazael king of Syria oppressed Israel all the days of Jehoahaz."
+    "content": {
+      "paragraph": true,
+      "text": "And Hazael king of Syria oppressed Israel all the days of Jehoahaz."
+    }
   },
   {
     "book": "2KG",
     "chapter": 13,
     "verse": 23,
-    "content": "But Jehovah was gracious unto them, and had compassion on them, and had respect unto them, because of his covenant with Abraham, Isaac, and Jacob, and would not destroy them, neither cast he them from his presence as yet."
+    "content": [
+      {
+        "text": "But Jehovah was gracious unto them, and had compassion on them, and had respect unto them, because of his covenant with Abraham, Isaac, and Jacob, and would not destroy them, neither cast he them from his presence ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "until now", "marks": ["i"] }, "."]
+        }
+      },
+      "as yet."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 13,
     "verse": 24,
-    "content": "And Hazael king of Syria died; and Benhadad his son reigned in his stead."
+    "content": "And Hazael king of Syria died; and Ben-hadad his son reigned in his stead."
   },
   {
     "book": "2KG",
     "chapter": 13,
     "verse": 25,
-    "content": "And Jehoash the son of Jehoahaz took again out of the hand of Benhadad the son of Hazael the cities which he had taken out of the hand of Jehoahaz his father by war. Three times did Joash smite him, and recovered the cities of Israel."
+    "content": "And Jehoash the son of Jehoahaz took again out of the hand of Ben-hadad the son of Hazael the cities which he had taken out of the hand of Jehoahaz his father by war. Three times did Joash smite him, and recovered the cities of Israel."
   },
   {
     "book": "2KG",
@@ -2259,31 +3508,66 @@
     "book": "2KG",
     "chapter": 14,
     "verse": 7,
-    "content": "He slew of Edom in the Valley of Salt ten thousand, and took Sela by war, and called the name of it Joktheel, unto this day."
+    "content": [
+      {
+        "text": "He slew of Edom in the Valley of Salt ten thousand, and took ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the rock", "marks": ["i"] }]
+        }
+      },
+      "Sela by war, and called the name of it Joktheel, unto this day."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 14,
     "verse": 8,
-    "content": "Then Amaziah sent messengers to Jehoash, the son of Jehoahaz son of Jehu, king of Israel, saying, Come, let us look one another in the face."
+    "content": {
+      "paragraph": true,
+      "text": "Then Amaziah sent messengers to Jehoash, the son of Jehoahaz son of Jehu, king of Israel, saying, Come, let us look one another in the face."
+    }
   },
   {
     "book": "2KG",
     "chapter": 14,
     "verse": 9,
-    "content": "And Jehoash the king of Israel sent to Amaziah king of Judah, saying, The thistle that was in Lebanon sent to the cedar that was in Lebanon, saying, Give thy daughter to my son to wife: and there passed by a wild beast that was in Lebanon, and trod down the thistle."
+    "content": [
+      {
+        "text": "And Jehoash the king of Israel sent to Amaziah king of Judah, saying, The ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thorn", "marks": ["i"] }]
+        }
+      },
+      "thistle that was in Lebanon sent to the cedar that was in Lebanon, saying, Give thy daughter to my son to wife: and there passed by a wild beast that was in Lebanon, and trod down the thistle."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 14,
     "verse": 10,
-    "content": "Thou hast indeed smitten Edom, and thy heart hath lifted thee up: glory thereof, and abide at home; for why shouldest thou meddle to thy hurt, that thou shouldest fall, even thou, and Judah with thee?"
+    "content": [
+      {
+        "text": "Thou hast indeed smitten Edom, and thy heart hath lifted thee up: glory thereof, and abide at home; for why shouldest thou ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "provoke calamity", "marks": ["i"] }]
+        }
+      },
+      "meddle to ",
+      { "text": "thy", "marks": ["i"] },
+      " hurt, that thou shouldest fall, even thou, and Judah with thee?"
+    ]
   },
   {
     "book": "2KG",
     "chapter": 14,
     "verse": 11,
-    "content": "But Amaziah would not hear. So Jehoash king of Israel went up; and he and Amaziah king of Judah looked one another in the face at Beth-shemesh, which belongeth to Judah."
+    "content": {
+      "paragraph": true,
+      "text": "But Amaziah would not hear. So Jehoash king of Israel went up; and he and Amaziah king of Judah looked one another in the face at Beth-shemesh, which belongeth to Judah."
+    }
   },
   {
     "book": "2KG",
@@ -2307,7 +3591,10 @@
     "book": "2KG",
     "chapter": 14,
     "verse": 15,
-    "content": "Now the rest of the acts of Jehoash which he did, and his might, and how he fought with Amaziah king of Judah, are they not written in the book of the chronicles of the kings of Israel?"
+    "content": {
+      "paragraph": true,
+      "text": "Now the rest of the acts of Jehoash which he did, and his might, and how he fought with Amaziah king of Judah, are they not written in the book of the chronicles of the kings of Israel?"
+    }
   },
   {
     "book": "2KG",
@@ -2319,7 +3606,10 @@
     "book": "2KG",
     "chapter": 14,
     "verse": 17,
-    "content": "And Amaziah the son of Joash king of Judah lived after the death of Jehoash son of Jehoahaz king of Israel fifteen years."
+    "content": {
+      "paragraph": true,
+      "text": "And Amaziah the son of Joash king of Judah lived after the death of Jehoash son of Jehoahaz king of Israel fifteen years."
+    }
   },
   {
     "book": "2KG",
@@ -2343,7 +3633,23 @@
     "book": "2KG",
     "chapter": 14,
     "verse": 21,
-    "content": "And all the people of Judah took Azariah, who was sixteen years old, and made him king in the room of his father Amaziah."
+    "content": [
+      {
+        "text": "And all the people of Judah took ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "2 Kings 15:13", "content": "15:13" },
+            " and ",
+            { "bibleLink": "2 Chronicles 26:1", "content": "2 Chr. 26:1" },
+            ", ",
+            { "text": "Uzziah", "marks": ["i"] }
+          ]
+        }
+      },
+      "Azariah, who was sixteen years old, and made him king in the room of his father Amaziah."
+    ]
   },
   {
     "book": "2KG",
@@ -2355,7 +3661,14 @@
     "book": "2KG",
     "chapter": 14,
     "verse": 23,
-    "content": "In the fifteenth year of Amaziah the son of Joash king of Judah Jeroboam the son of Joash king of Israel began to reign in Samaria, and reigned forty and one years."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In the fifteenth year of Amaziah the son of Joash king of Judah Jeroboam the son of Joash king of Israel began to reign in Samaria, "
+      },
+      { "text": "and reigned", "marks": ["i"] },
+      " forty and one years."
+    ]
   },
   {
     "book": "2KG",
@@ -2385,7 +3698,14 @@
     "book": "2KG",
     "chapter": 14,
     "verse": 28,
-    "content": "Now the rest of the acts of Jeroboam, and all that he did, and his might, how he warred, and how he recovered Damascus, and Hamath, which had belonged to Judah, for Israel, are they not written in the book of the chronicles of the kings of Israel?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now the rest of the acts of Jeroboam, and all that he did, and his might, how he warred, and how he recovered Damascus, and Hamath, "
+      },
+      { "text": "which had belonged", "marks": ["i"] },
+      " to Judah, for Israel, are they not written in the book of the chronicles of the kings of Israel?"
+    ]
   },
   {
     "book": "2KG",
@@ -2397,10 +3717,24 @@
     "book": "2KG",
     "chapter": 15,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "In the twenty and seventh year of Jeroboam king of Israel began Azariah son of Amaziah king of Judah to reign."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In the twenty and seventh year of Jeroboam king of Israel began ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In verses ",
+            { "bibleLink": "2 Kings 15:13", "content": "13" },
+            ", ",
+            { "bibleLink": "2 Kings 15:30", "content": "30" },
+            ", etc., ",
+            { "text": "Uzziah", "marks": ["i"] }
+          ]
+        }
+      },
+      "Azariah son of Amaziah king of Judah to reign."
+    ]
   },
   {
     "book": "2KG",
@@ -2424,7 +3758,16 @@
     "book": "2KG",
     "chapter": 15,
     "verse": 5,
-    "content": "And Jehovah smote the king, so that he was a leper unto the day of his death, and dwelt in a separate house. And Jotham the king’s son was over the household, judging the people of the land."
+    "content": [
+      {
+        "text": "And Jehovah smote the king, so that he was a leper unto the day of his death, and dwelt in a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "infirmary", "marks": ["i"] }]
+        }
+      },
+      "separate house. And Jotham the king’s son was over the household, judging the people of the land."
+    ]
   },
   {
     "book": "2KG",
@@ -2442,7 +3785,10 @@
     "book": "2KG",
     "chapter": 15,
     "verse": 8,
-    "content": "In the thirty and eighth year of Azariah king of Judah did Zechariah the son of Jeroboam reign over Israel in Samaria six months."
+    "content": {
+      "paragraph": true,
+      "text": "In the thirty and eighth year of Azariah king of Judah did Zechariah the son of Jeroboam reign over Israel in Samaria six months."
+    }
   },
   {
     "book": "2KG",
@@ -2472,7 +3818,10 @@
     "book": "2KG",
     "chapter": 15,
     "verse": 13,
-    "content": "Shallum the son of Jabesh began to reign in the nine and thirtieth year of Uzziah king of Judah; and he reigned the space of a month in Samaria."
+    "content": {
+      "paragraph": true,
+      "text": "Shallum the son of Jabesh began to reign in the nine and thirtieth year of Uzziah king of Judah; and he reigned the space of a month in Samaria."
+    }
   },
   {
     "book": "2KG",
@@ -2496,7 +3845,14 @@
     "book": "2KG",
     "chapter": 15,
     "verse": 17,
-    "content": "In the nine and thirtieth year of Azariah king of Judah began Menahem the son of Gadi to reign over Israel, and reigned ten years in Samaria."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In the nine and thirtieth year of Azariah king of Judah began Menahem the son of Gadi to reign over Israel, "
+      },
+      { "text": "and reigned", "marks": ["i"] },
+      " ten years in Samaria."
+    ]
   },
   {
     "book": "2KG",
@@ -2532,7 +3888,14 @@
     "book": "2KG",
     "chapter": 15,
     "verse": 23,
-    "content": "In the fiftieth year of Azariah king of Judah Pekahiah the son of Menahem began to reign over Israel in Samaria, and reigned two years."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In the fiftieth year of Azariah king of Judah Pekahiah the son of Menahem began to reign over Israel in Samaria, "
+      },
+      { "text": "and reigned", "marks": ["i"] },
+      " two years."
+    ]
   },
   {
     "book": "2KG",
@@ -2544,7 +3907,16 @@
     "book": "2KG",
     "chapter": 15,
     "verse": 25,
-    "content": "And Pekah the son of Remaliah, his captain, conspired against him, and smote him in Samaria, in the castle of the king’s house, with Argob and Arieh; and with him were fifty men of the Gileadites: and he slew him, and reigned in his stead."
+    "content": [
+      {
+        "text": "And Pekah the son of Remaliah, his captain, conspired against him, and smote him in Samaria, in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "palace", "marks": ["i"] }]
+        }
+      },
+      "castle of the king’s house, with Argob and Arieh; and with him were fifty men of the Gileadites: and he slew him, and reigned in his stead."
+    ]
   },
   {
     "book": "2KG",
@@ -2556,7 +3928,14 @@
     "book": "2KG",
     "chapter": 15,
     "verse": 27,
-    "content": "In the two and fiftieth year of Azariah king of Judah Pekah the son of Remaliah began to reign over Israel in Samaria, and reigned twenty years."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In the two and fiftieth year of Azariah king of Judah Pekah the son of Remaliah began to reign over Israel in Samaria, "
+      },
+      { "text": "and reigned", "marks": ["i"] },
+      " twenty years."
+    ]
   },
   {
     "book": "2KG",
@@ -2568,7 +3947,10 @@
     "book": "2KG",
     "chapter": 15,
     "verse": 29,
-    "content": "In the days of Pekah king of Israel came Tiglath-pileser king of Assyria, and took Ijon, and Abel-beth-maacah, and Janoah, and Kedesh, and Hazor, and Gilead, and Galilee, all the land of Naphtali; and he carried them captive to Assyria."
+    "content": {
+      "paragraph": true,
+      "text": "In the days of Pekah king of Israel came Tiglath-pileser king of Assyria, and took Ijon, and Abel-beth-maacah, and Janoah, and Kedesh, and Hazor, and Gilead, and Galilee, all the land of Naphtali; and he carried them captive to Assyria."
+    }
   },
   {
     "book": "2KG",
@@ -2586,7 +3968,10 @@
     "book": "2KG",
     "chapter": 15,
     "verse": 32,
-    "content": "In the second year of Pekah the son of Remaliah king of Israel began Jotham the son of Uzziah king of Judah to reign."
+    "content": {
+      "paragraph": true,
+      "text": "In the second year of Pekah the son of Remaliah king of Israel began Jotham the son of Uzziah king of Judah to reign."
+    }
   },
   {
     "book": "2KG",
@@ -2655,19 +4040,44 @@
     "book": "2KG",
     "chapter": 16,
     "verse": 5,
-    "content": "Then Rezin king of Syria and Pekah son of Remaliah king of Israel came up to Jerusalem to war: and they besieged Ahaz, but could not overcome him."
+    "content": {
+      "paragraph": true,
+      "text": "Then Rezin king of Syria and Pekah son of Remaliah king of Israel came up to Jerusalem to war: and they besieged Ahaz, but could not overcome him."
+    }
   },
   {
     "book": "2KG",
     "chapter": 16,
     "verse": 6,
-    "content": "At that time Rezin king of Syria recovered Elath to Syria, and drove the Jews from Elath; and the Syrians came to Elath, and dwelt there, unto this day."
+    "content": [
+      {
+        "text": "At that time Rezin king of Syria recovered Elath to Syria, and drove the Jews from ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Eloth", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Elath; and the ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "Edomites", "marks": ["i"] }
+          ]
+        }
+      },
+      "Syrians came to Elath, and dwelt there, unto this day."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 16,
     "verse": 7,
-    "content": "So Ahaz sent messengers to Tiglath-pileser king of Assyria, saying, I am thy servant and thy son: come up, and save me out of the hand of the king of Syria, and out of the hand of the king of Israel, who rise up against me."
+    "content": {
+      "paragraph": true,
+      "text": "So Ahaz sent messengers to Tiglath-pileser king of Assyria, saying, I am thy servant and thy son: come up, and save me out of the hand of the king of Syria, and out of the hand of the king of Israel, who rise up against me."
+    }
   },
   {
     "book": "2KG",
@@ -2679,13 +4089,20 @@
     "book": "2KG",
     "chapter": 16,
     "verse": 9,
-    "content": "And the king of Assyria hearkened unto him; and the king of Assyria went up against Damascus, and took it, and carried the people of it captive to Kir, and slew Rezin."
+    "content": [
+      "And the king of Assyria hearkened unto him; and the king of Assyria went up against Damascus, and took it, and carried ",
+      { "text": "the people of", "marks": ["i"] },
+      " it captive to Kir, and slew Rezin."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 16,
     "verse": 10,
-    "content": "And king Ahaz went to Damascus to meet Tiglath-pileser king of Assyria, and saw the altar that was at Damascus; and king Ahaz sent to Urijah the priest the fashion of the altar, and the pattern of it, according to all the workmanship thereof."
+    "content": {
+      "paragraph": true,
+      "text": "And king Ahaz went to Damascus to meet Tiglath-pileser king of Assyria, and saw the altar that was at Damascus; and king Ahaz sent to Urijah the priest the fashion of the altar, and the pattern of it, according to all the workmanship thereof."
+    }
   },
   {
     "book": "2KG",
@@ -2697,13 +4114,35 @@
     "book": "2KG",
     "chapter": 16,
     "verse": 12,
-    "content": "And when the king was come from Damascus, the king saw the altar: and the king drew near unto the altar, and offered thereon."
+    "content": [
+      {
+        "text": "And when the king was come from Damascus, the king saw the altar: and the king drew near unto the altar, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "went up unto it", "marks": ["i"] }]
+        }
+      },
+      "offered thereon."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 16,
     "verse": 13,
-    "content": "And he burnt his burnt-offering and his meal-offering, and poured his drink-offering, and sprinkled the blood of his peace-offerings, upon the altar."
+    "content": [
+      {
+        "text": "And he burnt his burnt-offering and his meal-offering, and poured his drink-offering, and sprinkled the blood of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "the peace-offerings which were his", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "his peace-offerings, upon the altar."
+    ]
   },
   {
     "book": "2KG",
@@ -2727,13 +4166,32 @@
     "book": "2KG",
     "chapter": 16,
     "verse": 17,
-    "content": "And king Ahaz cut off the panels of the bases, and removed the laver from off them, and took down the sea from off the brazen oxen that were under it, and put it upon a pavement of stone."
+    "content": {
+      "paragraph": true,
+      "text": "And king Ahaz cut off the panels of the bases, and removed the laver from off them, and took down the sea from off the brazen oxen that were under it, and put it upon a pavement of stone."
+    }
   },
   {
     "book": "2KG",
     "chapter": 16,
     "verse": 18,
-    "content": "And the covered way for the sabbath that they had built in the house, and the king’s entry without, turned he unto the house of Jehovah, because of the king of Assyria."
+    "content": [
+      {
+        "text": "And the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "covered place", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "covered way for the sabbath that they had built in the house, and the king’s entry without, turned he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "round", "marks": ["i"] }]
+        }
+      },
+      "unto the house of Jehovah, because of the king of Assyria."
+    ]
   },
   {
     "book": "2KG",
@@ -2751,10 +4209,14 @@
     "book": "2KG",
     "chapter": 17,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "In the twelfth year of Ahaz king of Judah began Hoshea the son of Elah to reign in Samaria over Israel, and reigned nine years."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In the twelfth year of Ahaz king of Judah began Hoshea the son of Elah to reign in Samaria over Israel, "
+      },
+      { "text": "and reigned", "marks": ["i"] },
+      " nine years."
+    ]
   },
   {
     "book": "2KG",
@@ -2790,13 +4252,25 @@
     "book": "2KG",
     "chapter": 17,
     "verse": 7,
-    "content": "And it was so, because the children of Israel had sinned against Jehovah their God, who brought them up out of the land of Egypt from under the hand of Pharaoh king of Egypt, and had feared other gods,"
+    "content": {
+      "paragraph": true,
+      "text": "And it was so, because the children of Israel had sinned against Jehovah their God, who brought them up out of the land of Egypt from under the hand of Pharaoh king of Egypt, and had feared other gods,"
+    }
   },
   {
     "book": "2KG",
     "chapter": 17,
     "verse": 8,
-    "content": "and walked in the statutes of the nations, whom Jehovah cast out from before the children of Israel, and of the kings of Israel, which they made."
+    "content": [
+      {
+        "text": "and walked in the statutes of the nations, whom Jehovah cast out from before the children of Israel, and of the kings of Israel, which they ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "practised", "marks": ["i"] }]
+        }
+      },
+      "made."
+    ]
   },
   {
     "book": "2KG",
@@ -2808,7 +4282,16 @@
     "book": "2KG",
     "chapter": 17,
     "verse": 10,
-    "content": "and they set them up pillars and Asherim upon every high hill, and under every green tree;"
+    "content": [
+      {
+        "text": "and they set them up ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "obelisks", "marks": ["i"] }]
+        }
+      },
+      "pillars and Asherim upon every high hill, and under every green tree;"
+    ]
   },
   {
     "book": "2KG",
@@ -2838,7 +4321,11 @@
     "book": "2KG",
     "chapter": 17,
     "verse": 15,
-    "content": "And they rejected his statutes, and his covenant that he made with their fathers, and his testimonies which he testified unto them; and they followed vanity, and became vain, and went after the nations that were round about them, concerning whom Jehovah had charged them that they should not do like them."
+    "content": [
+      "And they rejected his statutes, and his covenant that he made with their fathers, and his testimonies which he testified unto them; and they followed vanity, and became vain, and ",
+      { "text": "went", "marks": ["i"] },
+      " after the nations that were round about them, concerning whom Jehovah had charged them that they should not do like them."
+    ]
   },
   {
     "book": "2KG",
@@ -2862,7 +4349,17 @@
     "book": "2KG",
     "chapter": 17,
     "verse": 19,
-    "content": "Also Judah kept not the commandments of Jehovah their God, but walked in the statutes of Israel which they made."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Also Judah kept not the commandments of Jehovah their God, but walked in the statutes of Israel which they ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "practised", "marks": ["i"] }]
+        }
+      },
+      "made."
+    ]
   },
   {
     "book": "2KG",
@@ -2874,7 +4371,20 @@
     "book": "2KG",
     "chapter": 17,
     "verse": 21,
-    "content": "For he rent Israel from the house of David; and they made Jeroboam the son of Nebat king: and Jeroboam drove Israel from following Jehovah, and made them sin a great sin."
+    "content": [
+      {
+        "text": "For he rent Israel from the house of David; and they made Jeroboam the son of Nebat king: and Jeroboam ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "drew Israel away", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "drove Israel from following Jehovah, and made them sin a great sin."
+    ]
   },
   {
     "book": "2KG",
@@ -2892,7 +4402,10 @@
     "book": "2KG",
     "chapter": 17,
     "verse": 24,
-    "content": "And the king of Assyria brought men from Babylon, and from Cuthah, and from Avva, and from Hamath and Sepharvaim, and placed them in the cities of Samaria instead of the children of Israel; and they possessed Samaria, and dwelt in the cities thereof."
+    "content": {
+      "paragraph": true,
+      "text": "And the king of Assyria brought men from Babylon, and from Cuthah, and from Avva, and from Hamath and Sepharvaim, and placed them in the cities of Samaria instead of the children of Israel; and they possessed Samaria, and dwelt in the cities thereof."
+    }
   },
   {
     "book": "2KG",
@@ -2910,7 +4423,10 @@
     "book": "2KG",
     "chapter": 17,
     "verse": 27,
-    "content": "Then the king of Assyria commanded, saying, Carry thither one of the priests whom ye brought from thence; and let them go and dwell there, and let him teach them the law of the god of the land."
+    "content": {
+      "paragraph": true,
+      "text": "Then the king of Assyria commanded, saying, Carry thither one of the priests whom ye brought from thence; and let them go and dwell there, and let him teach them the law of the god of the land."
+    }
   },
   {
     "book": "2KG",
@@ -2934,7 +4450,16 @@
     "book": "2KG",
     "chapter": 17,
     "verse": 31,
-    "content": "and the Avvites made Nibhaz and Tartak; and the Sepharvites burnt their children in the fire to Adrammelech and Anammelech, the gods of Sepharvaim."
+    "content": [
+      {
+        "text": "and the Avvites made Nibhaz and Tartak; and the Sepharvites burnt their children in the fire to Adrammelech and Anammelech, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "god", "marks": ["i"] }]
+        }
+      },
+      "gods of Sepharvaim."
+    ]
   },
   {
     "book": "2KG",
@@ -2952,7 +4477,10 @@
     "book": "2KG",
     "chapter": 17,
     "verse": 34,
-    "content": "Unto this day they do after the former manner: they fear not Jehovah, neither do they after their statutes, or after their ordinances, or after the law or after the commandment which Jehovah commanded the children of Jacob, whom he named Israel;"
+    "content": {
+      "paragraph": true,
+      "text": "Unto this day they do after the former manner: they fear not Jehovah, neither do they after their statutes, or after their ordinances, or after the law or after the commandment which Jehovah commanded the children of Jacob, whom he named Israel;"
+    }
   },
   {
     "book": "2KG",
@@ -3021,13 +4549,37 @@
     "book": "2KG",
     "chapter": 18,
     "verse": 4,
-    "content": "He removed the high places, and brake the pillars, and cut down the Asherah: and he brake in pieces the brazen serpent that Moses had made; for unto those days the children of Israel did burn incense to it; and he called it Nehushtan."
+    "content": [
+      {
+        "text": "He removed the high places, and brake the pillars, and cut down the Asherah: and he brake in pieces the brazen serpent that Moses had made; for unto those days the children of Israel did burn incense to it; and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it was called", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "he called it ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "A piece of brass", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Nehushtan."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 18,
     "verse": 5,
-    "content": "He trusted in Jehovah, the God of Israel; so that after him was none like him among all the kings of Judah, nor among them that were before him."
+    "content": [
+      "He trusted in Jehovah, the God of Israel; so that after him was none like him among all the kings of Judah, nor ",
+      { "text": "among them", "marks": ["i"] },
+      " that were before him."
+    ]
   },
   {
     "book": "2KG",
@@ -3051,7 +4603,10 @@
     "book": "2KG",
     "chapter": 18,
     "verse": 9,
-    "content": "And it came to pass in the fourth year of king Hezekiah, which was the seventh year of Hoshea son of Elah king of Israel, that Shalmaneser king of Assyria came up against Samaria, and besieged it."
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass in the fourth year of king Hezekiah, which was the seventh year of Hoshea son of Elah king of Israel, that Shalmaneser king of Assyria came up against Samaria, and besieged it."
+    }
   },
   {
     "book": "2KG",
@@ -3075,7 +4630,17 @@
     "book": "2KG",
     "chapter": 18,
     "verse": 13,
-    "content": "Now in the fourteenth year of king Hezekiah did Sennacherib king of Assyria come up against all the fortified cities of Judah, and took them."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now in the fourteenth year of king Hezekiah did ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Sanherib", "marks": ["i"] }, "."]
+        }
+      },
+      "Sennacherib king of Assyria come up against all the fortified cities of Judah, and took them."
+    ]
   },
   {
     "book": "2KG",
@@ -3087,37 +4652,102 @@
     "book": "2KG",
     "chapter": 18,
     "verse": 15,
-    "content": "And Hezekiah gave him all the silver that was found in the house of Jehovah, and in the treasures of the king’s house."
+    "content": [
+      "And Hezekiah gave ",
+      { "text": "him", "marks": ["i"] },
+      " all the silver that was found in the house of Jehovah, and in the treasures of the king’s house."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 18,
     "verse": 16,
-    "content": "At that time did Hezekiah cut off the gold from the doors of the temple of Jehovah, and from the pillars which Hezekiah king of Judah had overlaid, and gave it to the king of Assyria."
+    "content": [
+      "At that time did Hezekiah cut off ",
+      { "text": "the gold from", "marks": ["i"] },
+      " the doors of the temple of Jehovah, and ",
+      { "text": "from", "marks": ["i"] },
+      {
+        "text": " the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "doorposts", "marks": ["i"] }]
+        }
+      },
+      "pillars which Hezekiah king of Judah had overlaid, and gave it to the king of Assyria."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 18,
     "verse": 17,
-    "content": "And the king of Assyria sent Tartan and Rab-saris and Rabshakeh from Lachish to king Hezekiah with a great army unto Jerusalem. And they went up and came to Jerusalem. And when they were come up, they came and stood by the conduit of the upper pool, which is in the highway of the fuller’s field."
+    "content": [
+      {
+        "text": "And the king of Assyria sent ",
+        "foot": { "type": "stu", "content": "The titles of Assyrian officers." }
+      },
+      {
+        "text": "Tartan and ",
+        "foot": { "type": "stu", "content": "The titles of Assyrian officers." }
+      },
+      {
+        "text": "Rab-saris and ",
+        "foot": { "type": "stu", "content": "The titles of Assyrian officers." }
+      },
+      "Rabshakeh from Lachish to king Hezekiah with a great army unto Jerusalem. And they went up and came to Jerusalem. And when they were come up, they came and stood by the conduit of the upper pool, which is in the highway of the fuller’s field."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 18,
     "verse": 18,
-    "content": "And when they had called to the king, there came out to them Eliakim the son of Hilkiah, who was over the household, and Shebnah the scribe, and Joah the son of Asaph the recorder."
+    "content": [
+      {
+        "text": "And when they had called to the king, there came out to them Eliakim the son of Hilkiah, who was over the household, and Shebnah the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "secretary", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "scribe, and Joah the son of Asaph the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "chronicler", "marks": ["i"] }]
+        }
+      },
+      "recorder."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 18,
     "verse": 19,
-    "content": "And Rabshakeh said unto them, Say ye now to Hezekiah, Thus saith the great king, the king of Assyria, What confidence is this wherein thou trustest?"
+    "content": {
+      "paragraph": true,
+      "text": "And Rabshakeh said unto them, Say ye now to Hezekiah, Thus saith the great king, the king of Assyria, What confidence is this wherein thou trustest?"
+    }
   },
   {
     "book": "2KG",
     "chapter": 18,
     "verse": 20,
-    "content": "Thou sayest (but they are but vain words), There is counsel and strength for the war. Now on whom dost thou trust, that thou hast rebelled against me?"
+    "content": [
+      {
+        "text": "Thou sayest (but they are but ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "a word of the lips", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "vain words), ",
+      { "text": "There is", "marks": ["i"] },
+      " counsel and strength for the war. Now on whom dost thou trust, that thou hast rebelled against me?"
+    ]
   },
   {
     "book": "2KG",
@@ -3135,7 +4765,16 @@
     "book": "2KG",
     "chapter": 18,
     "verse": 23,
-    "content": "Now therefore, I pray thee, give pledges to my master the king of Assyria, and I will give thee two thousand horses, if thou be able on thy part to set riders upon them."
+    "content": [
+      {
+        "text": "Now therefore, I pray thee, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "make a wager with", "marks": ["i"] }]
+        }
+      },
+      "give pledges to my master the king of Assyria, and I will give thee two thousand horses, if thou be able on thy part to set riders upon them."
+    ]
   },
   {
     "book": "2KG",
@@ -3153,13 +4792,29 @@
     "book": "2KG",
     "chapter": 18,
     "verse": 26,
-    "content": "Then said Eliakim the son of Hilkiah, and Shebnah, and Joah, unto Rabshakeh, Speak, I pray thee, to thy servants in the Syrian language; for we understand it: and speak not with us in the Jews’ language, in the ears of the people that are on the wall."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then said Eliakim the son of Hilkiah, and Shebnah, and Joah, unto Rabshakeh, Speak, I pray thee, to thy servants in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Aramean", "marks": ["i"] }, "."]
+        }
+      },
+      "Syrian language; for we understand it: and speak not with us in the Jews’ language, in the ears of the people that are on the wall."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 18,
     "verse": 27,
-    "content": "But Rabshakeh said unto them, Hath my master sent me to thy master, and to thee, to speak these words? hath he not sent me to the men that sit on the wall, to eat their own dung, and to drink their own water with you?"
+    "content": [
+      "But Rabshakeh said unto them, Hath my master sent me to thy master, and to thee, to speak these words? ",
+      { "text": "hath he", "marks": ["i"] },
+      " not ",
+      { "text": "sent me", "marks": ["i"] },
+      " to the men that sit on the wall, to eat their own dung, and to drink their own water with you?"
+    ]
   },
   {
     "book": "2KG",
@@ -3183,13 +4838,26 @@
     "book": "2KG",
     "chapter": 18,
     "verse": 31,
-    "content": "Hearken not to Hezekiah: for thus saith the king of Assyria, Make your peace with me, and come out to me; and eat ye every one of his vine, and every one of his fig-tree, and drink ye every one the waters of his own cistern;"
+    "content": [
+      {
+        "text": "Hearken not to Hezekiah: for thus saith the king of Assyria, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Make with me a blessing", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Make your peace with me, and come out to me; and eat ye every one of his vine, and every one of his fig-tree, and drink ye every one the waters of his own cistern;"
+    ]
   },
   {
     "book": "2KG",
     "chapter": 18,
     "verse": 32,
-    "content": "Until I come and take you away to a land like your own land, a land of grain and new wine, a land of bread and vineyards, a land of olive-trees and of honey, that ye may live, and not die: and hearken not unto Hezekiah, when he persuadeth you, saying, Jehovah will deliver us."
+    "content": "until I come and take you away to a land like your own land, a land of grain and new wine, a land of bread and vineyards, a land of olive-trees and of honey, that ye may live, and not die: and hearken not unto Hezekiah, when he persuadeth you, saying, Jehovah will deliver us."
   },
   {
     "book": "2KG",
@@ -3213,7 +4881,10 @@
     "book": "2KG",
     "chapter": 18,
     "verse": 36,
-    "content": "But the people held their peace, and answered him not a word; for the king’s commandment was, saying, Answer him not."
+    "content": {
+      "paragraph": true,
+      "text": "But the people held their peace, and answered him not a word; for the king’s commandment was, saying, Answer him not."
+    }
   },
   {
     "book": "2KG",
@@ -3246,7 +4917,22 @@
     "book": "2KG",
     "chapter": 19,
     "verse": 4,
-    "content": "It may be Jehovah thy God will hear all the words of Rabshakeh, whom the king of Assyria his master hath sent to defy the living God, and will rebuke the words which Jehovah thy God hath heard: wherefore lift up thy prayer for the remnant that is left."
+    "content": [
+      {
+        "text": "It may be Jehovah thy God will hear all the words of Rabshakeh, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "wherewith the king of Assyria hath sent him",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "whom the king of Assyria his master hath sent to defy the living God, and will rebuke the words which Jehovah thy God hath heard: wherefore lift up thy prayer for the remnant that is left."
+    ]
   },
   {
     "book": "2KG",
@@ -3270,7 +4956,10 @@
     "book": "2KG",
     "chapter": 19,
     "verse": 8,
-    "content": "So Rabshakeh returned, and found the king of Assyria warring against Libnah; for he had heard that he was departed from Lachish."
+    "content": {
+      "paragraph": true,
+      "text": "So Rabshakeh returned, and found the king of Assyria warring against Libnah; for he had heard that he was departed from Lachish."
+    }
   },
   {
     "book": "2KG",
@@ -3288,7 +4977,20 @@
     "book": "2KG",
     "chapter": 19,
     "verse": 11,
-    "content": "Behold, thou hast heard what the kings of Assyria have done to all lands, by destroying them utterly: and shalt thou be delivered?"
+    "content": [
+      {
+        "text": "Behold, thou hast heard what the kings of Assyria have done to all lands, by ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "devoting them", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "destroying them utterly: and shalt thou be delivered?"
+    ]
   },
   {
     "book": "2KG",
@@ -3306,13 +5008,27 @@
     "book": "2KG",
     "chapter": 19,
     "verse": 14,
-    "content": "And Hezekiah received the letter from the hand of the messengers, and read it; and Hezekiah went up unto the house of Jehovah, and spread it before Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "And Hezekiah received the letter from the hand of the messengers, and read it; and Hezekiah went up unto the house of Jehovah, and spread it before Jehovah."
+    }
   },
   {
     "book": "2KG",
     "chapter": 19,
     "verse": 15,
-    "content": "And Hezekiah prayed before Jehovah, and said, O Jehovah, the God of Israel, that sittest above the cherubim, thou art the God, even thou alone, of all the kingdoms of the earth; thou hast made heaven and earth."
+    "content": [
+      {
+        "text": "And Hezekiah prayed before Jehovah, and said, O Jehovah, the God of Israel, that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "art enthroned", "marks": ["i"] }]
+        }
+      },
+      "sittest ",
+      { "text": "above", "marks": ["i"] },
+      " the cherubim, thou art the God, even thou alone, of all the kingdoms of the earth; thou hast made heaven and earth."
+    ]
   },
   {
     "book": "2KG",
@@ -3342,37 +5058,95 @@
     "book": "2KG",
     "chapter": 19,
     "verse": 20,
-    "content": "Then Isaiah the son of Amoz sent to Hezekiah, saying, Thus saith Jehovah, the God of Israel, Whereas thou hast prayed to me against Sennacherib king of Assyria, I have heard thee."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Isaiah the son of Amoz sent to Hezekiah, saying, Thus saith Jehovah, the God of Israel, Whereas thou hast prayed to me against Sennacherib king of Assyria, I have heard "
+      },
+      { "text": "thee", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 19,
     "verse": 21,
-    "content": "This is the word that Jehovah hath spoken concerning him: The virgin daughter of Zion hath despised thee and laughed thee to scorn; the daughter of Jerusalem hath shaken her head at thee."
+    "content": [
+      {
+        "text": "This is the word that Jehovah hath spoken concerning him: The virgin daughter of Zion hath despised thee and laughed thee to scorn; the daughter of Jerusalem hath shaken her head ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "after", "marks": ["i"] }, "."]
+        }
+      },
+      "at thee."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 19,
     "verse": 22,
-    "content": "Whom hast thou defied and blasphemed? and against whom hast thou exalted thy voice and lifted up thine eyes on high? even against the Holy One of Israel."
+    "content": [
+      "Whom hast thou defied and blasphemed? and against whom hast thou exalted thy voice and lifted up thine eyes on high? ",
+      { "text": "even", "marks": ["i"] },
+      " against the Holy One of Israel."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 19,
     "verse": 23,
-    "content": "By thy messengers thou hast defied the Lord, and hast said, With the multitude of my chariots am I come up to the height of the mountains, to the innermost parts of Lebanon; and I will cut down the tall cedars thereof, and the choice fir-trees thereof; and I will enter into his farthest lodging-place, the forest of his fruitful field."
+    "content": [
+      {
+        "text": "By thy messengers thou hast defied the Lord, and hast said, With the ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "driving", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "multitude of my chariots am I come up to the height of the mountains, to the innermost parts of Lebanon; and I will cut down the tall cedars thereof, and the choice ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "cypress", "marks": ["i"] }]
+        }
+      },
+      "fir-trees thereof; and I will enter into his farthest lodging-place, the forest of his fruitful field."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 19,
     "verse": 24,
-    "content": "I have digged and drunk strange waters, and with the sole of my feet will I dry up all the rivers of Egypt."
+    "content": [
+      {
+        "text": "I have digged and drunk strange waters, and with the sole of my feet will I dry up all the rivers of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "defence", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "Mazor", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Egypt."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 19,
     "verse": 25,
-    "content": "Hast thou not heard how I have done it long ago, and formed it of ancient times? now have I brought it to pass, that it should be thine to lay waste fortified cities into ruinous heaps."
+    "content": {
+      "paragraph": true,
+      "text": "Hast thou not heard how I have done it long ago, and formed it of ancient times? now have I brought it to pass, that it should be thine to lay waste fortified cities into ruinous heaps."
+    }
   },
   {
     "book": "2KG",
@@ -3390,25 +5164,67 @@
     "book": "2KG",
     "chapter": 19,
     "verse": 28,
-    "content": "Because of thy raging against me, and because thine arrogancy is come up into mine ears, therefore will I put my hook in thy nose, and my bridle in thy lips, and I will turn thee back by the way by which thou camest."
+    "content": [
+      {
+        "text": "Because of thy raging against me, and because ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thy careless ease", "marks": ["i"] }]
+        }
+      },
+      "thine arrogancy is come up into mine ears, therefore will I put my hook in thy nose, and my bridle in thy lips, and I will turn thee back by the way by which thou camest."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 19,
     "verse": 29,
-    "content": "And this shall be the sign unto thee: Ye shall eat this year that which groweth of itself, and in the second year that which springeth of the same; and in the third year sow ye, and reap, and plant vineyards, and eat the fruit thereof."
+    "content": {
+      "paragraph": true,
+      "text": "And this shall be the sign unto thee: ye shall eat this year that which groweth of itself, and in the second year that which springeth of the same; and in the third year sow ye, and reap, and plant vineyards, and eat the fruit thereof."
+    }
   },
   {
     "book": "2KG",
     "chapter": 19,
     "verse": 30,
-    "content": "And the remnant that is escaped of the house of Judah shall again take root downward, and bear fruit upward."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            {
+              "text": "the escaped of the house of Judah that remain",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      "the remnant that is escaped of the house of Judah shall again take root downward, and bear fruit upward."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 19,
     "verse": 31,
-    "content": "For out of Jerusalem shall go forth a remnant, and out of mount Zion they that shall escape: the zeal of Jehovah shall perform this."
+    "content": [
+      {
+        "text": "For out of Jerusalem shall go forth a remnant, and out of mount Zion they that shall escape: the zeal of ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "Jehovah of hosts", "marks": ["i"] },
+            ": and so in ",
+            { "bibleLink": "Isaiah 37:32", "content": "Isa. 37:32" }
+          ]
+        }
+      },
+      "Jehovah shall perform this."
+    ]
   },
   {
     "book": "2KG",
@@ -3432,7 +5248,10 @@
     "book": "2KG",
     "chapter": 19,
     "verse": 35,
-    "content": "And it came to pass that night, that the angel of Jehovah went forth, and smote in the camp of the Assyrians a hundred fourscore and five thousand: and when men arose early in the morning, behold, these were all dead bodies."
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass that night, that the angel of Jehovah went forth, and smote in the camp of the Assyrians a hundred fourscore and five thousand: and when men arose early in the morning, behold, these were all dead bodies."
+    }
   },
   {
     "book": "2KG",
@@ -3444,7 +5263,22 @@
     "book": "2KG",
     "chapter": 19,
     "verse": 37,
-    "content": "And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer smote him with the sword: and they escaped into the land of Ararat. And Esar-haddon his son reigned in his stead."
+    "content": [
+      {
+        "text": "And it came to pass, as he was worshipping in the house of Nisroch his god, that ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "Adrammelech and Sharezer his sons", "marks": ["i"] },
+            " (and so in ",
+            { "bibleLink": "Isaiah 37:38", "content": "Isa. 37:38" },
+            ")"
+          ]
+        }
+      },
+      "Adrammelech and Sharezer smote him with the sword: and they escaped into the land of Ararat. And Esar-haddon his son reigned in his stead."
+    ]
   },
   {
     "book": "2KG",
@@ -3452,7 +5286,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "In those days was Hezekiah sick unto death. And Isaiah the prophet the son of Amoz came to him, and said unto him, Thus saith Jehovah, Set thy house in order: for thou shalt die, and not live."
+      "text": "In those days was Hezekiah sick unto death. And Isaiah the prophet the son of Amoz came to him, and said unto him, Thus saith Jehovah, Set thy house in order; for thou shalt die, and not live."
     }
   },
   {
@@ -3471,13 +5305,41 @@
     "book": "2KG",
     "chapter": 20,
     "verse": 4,
-    "content": "And it came to pass, before Isaiah was gone out into the middle part of the city, that the word of Jehovah came to him, saying,"
+    "content": [
+      {
+        "text": "And it came to pass, before Isaiah was gone ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "out of", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "out into ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "the middle court", "marks": ["i"] }
+          ]
+        }
+      },
+      "the middle part of the city, that the word of Jehovah came to him, saying,"
+    ]
   },
   {
     "book": "2KG",
     "chapter": 20,
     "verse": 5,
-    "content": "Turn back, and say to Hezekiah the prince of my people, Thus saith Jehovah, the God of David thy father, I have heard thy prayer, I have seen thy tears: behold, I will heal thee; on the third day thou shalt go up unto the house of Jehovah."
+    "content": [
+      {
+        "text": "Turn back, and say to Hezekiah the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "leader", "marks": ["i"] }]
+        }
+      },
+      "prince of my people, Thus saith Jehovah, the God of David thy father, I have heard thy prayer, I have seen thy tears: behold, I will heal thee; on the third day thou shalt go up unto the house of Jehovah."
+    ]
   },
   {
     "book": "2KG",
@@ -3495,13 +5357,38 @@
     "book": "2KG",
     "chapter": 20,
     "verse": 8,
-    "content": "And Hezekiah said unto Isaiah, What shall be the sign that Jehovah will heal me, and that I shall go up unto the house of Jehovah the third day?"
+    "content": {
+      "paragraph": true,
+      "text": "And Hezekiah said unto Isaiah, What shall be the sign that Jehovah will heal me, and that I shall go up unto the house of Jehovah the third day?"
+    }
   },
   {
     "book": "2KG",
     "chapter": 20,
     "verse": 9,
-    "content": "And Isaiah said, This shall be the sign unto thee from Jehovah, that Jehovah will do the thing that he hath spoken: shall the shadow go forward ten steps, or go back ten steps?"
+    "content": [
+      {
+        "text": "And Isaiah said, This shall be the sign unto thee from Jehovah, that Jehovah will do the thing that he hath spoken: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "the shadow is gone forward ten steps, shall it go back etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "shall the shadow go forward ten ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "degrees", "marks": ["i"] }]
+        }
+      },
+      "steps, or go back ten steps?"
+    ]
   },
   {
     "book": "2KG",
@@ -3513,19 +5400,70 @@
     "book": "2KG",
     "chapter": 20,
     "verse": 11,
-    "content": "And Isaiah the prophet cried unto Jehovah; and he brought the shadow ten steps backward, by which it had gone down on the dial of Ahaz."
+    "content": [
+      {
+        "text": "And Isaiah the prophet cried unto Jehovah; and he brought the shadow ten steps backward, by which it had gone down on the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "steps", "marks": ["i"] }, "."]
+        }
+      },
+      "dial of Ahaz."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 20,
     "verse": 12,
-    "content": "At that time Berodacahbaladan the son of Baladan, king of Babylon, sent letters and a present unto Hezekiah; for he had heard that Hezekiah had been sick."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "At that time ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Isaiah 39:1", "content": "Isa. 39:1" },
+            ", ",
+            { "text": "Merodach-baladan", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Berodach-baladan the son of Baladan, king of Babylon, sent letters and a present unto Hezekiah; for he had heard that Hezekiah had been sick."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 20,
     "verse": 13,
-    "content": "And Hezekiah hearkened unto them, and showed them all the house of his precious things, the silver, and the gold, and the spices, and the precious oil, and the house of his armor, and all that was found in his treasures: there was nothing in his house, nor in all his dominion, that Hezekiah showed them not."
+    "content": [
+      {
+        "text": "And Hezekiah hearkened unto them, and showed them all the house of his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "spicery", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "precious things, the silver, and the gold, and the spices, and the precious oil, and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "all the house", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "the house of his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "jewels", "marks": ["i"] }]
+        }
+      },
+      "armor, and all that was found in his treasures: there was nothing in his house, nor in all his dominion, that Hezekiah showed them not."
+    ]
   },
   {
     "book": "2KG",
@@ -3543,7 +5481,10 @@
     "book": "2KG",
     "chapter": 20,
     "verse": 16,
-    "content": "And Isaiah said unto Hezekiah, Hear the word of Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "And Isaiah said unto Hezekiah, Hear the word of Jehovah."
+    }
   },
   {
     "book": "2KG",
@@ -3612,7 +5553,22 @@
     "book": "2KG",
     "chapter": 21,
     "verse": 6,
-    "content": "And he made his son to pass through the fire, and practised augury, and used enchantments, and dealt with them that had familiar spirits, and with wizards: he wrought much evil in the sight of Jehovah, to provoke him to anger."
+    "content": [
+      {
+        "text": "And he made his son to pass through the fire, and practised augury, and used enchantments, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "appointed", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "made", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "dealt with them that had familiar spirits, and with wizards: he wrought much evil in the sight of Jehovah, to provoke him to anger."
+    ]
   },
   {
     "book": "2KG",
@@ -3636,7 +5592,10 @@
     "book": "2KG",
     "chapter": 21,
     "verse": 10,
-    "content": "And Jehovah spake by his servants the prophets, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake by his servants the prophets, saying,"
+    }
   },
   {
     "book": "2KG",
@@ -3672,7 +5631,10 @@
     "book": "2KG",
     "chapter": 21,
     "verse": 16,
-    "content": "Moreover Manasseh shed innocent blood very much, till he had filled Jerusalem from one end to another; besides his sin wherewith he made Judah to sin, in doing that which was evil in the sight of Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "Moreover Manasseh shed innocent blood very much, till he had filled Jerusalem from one end to another; besides his sin wherewith he made Judah to sin, in doing that which was evil in the sight of Jehovah."
+    }
   },
   {
     "book": "2KG",
@@ -3690,7 +5652,10 @@
     "book": "2KG",
     "chapter": 21,
     "verse": 19,
-    "content": "Amon was twenty and two years old when he began to reign; and he reigned two years in Jerusalem: and his mother’s name was Meshullemeth the daughter of Haruz of Jotbah."
+    "content": {
+      "paragraph": true,
+      "text": "Amon was twenty and two years old when he began to reign; and he reigned two years in Jerusalem: and his mother’s name was Meshullemeth the daughter of Haruz of Jotbah."
+    }
   },
   {
     "book": "2KG",
@@ -3753,7 +5718,10 @@
     "book": "2KG",
     "chapter": 22,
     "verse": 3,
-    "content": "And it came to pass in the eighteenth year of king Josiah, that the king sent Shaphan, the son of Azaliah the son of Meshullam, the scribe, to the house of Jehovah, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass in the eighteenth year of king Josiah, that the king sent Shaphan, the son of Azaliah the son of Meshullam, the scribe, to the house of Jehovah, saying,"
+    }
   },
   {
     "book": "2KG",
@@ -3783,13 +5751,25 @@
     "book": "2KG",
     "chapter": 22,
     "verse": 8,
-    "content": "And Hilkiah the high priest said unto Shaphan the scribe, I have found the book of the law in the house of Jehovah. And Hilkiah delivered the book to Shaphan, and he read it."
+    "content": {
+      "paragraph": true,
+      "text": "And Hilkiah the high priest said unto Shaphan the scribe, I have found the book of the law in the house of Jehovah. And Hilkiah delivered the book to Shaphan, and he read it."
+    }
   },
   {
     "book": "2KG",
     "chapter": 22,
     "verse": 9,
-    "content": "And Shaphan the scribe came to the king, and brought the king word again, and said, Thy servants have emptied out the money that was found in the house, and have delivered it into the hand of the workmen that have the oversight of the house of Jehovah."
+    "content": [
+      {
+        "text": "And Shaphan the scribe came to the king, and brought the king word again, and said, Thy servants have ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "poured out", "marks": ["i"] }]
+        }
+      },
+      "emptied out the money that was found in the house, and have delivered it into the hand of the workmen that have the oversight of the house of Jehovah."
+    ]
   },
   {
     "book": "2KG",
@@ -3813,13 +5793,32 @@
     "book": "2KG",
     "chapter": 22,
     "verse": 13,
-    "content": "Go ye, inquire of Jehovah for me, and for the people, and for all Judah, concerning the words of this book that is found; for great is the wrath of Jehovah that is kindled against us, because our fathers have not hearkened unto the words of this book, to do according unto all that which is written concerning us."
+    "content": [
+      {
+        "text": "Go ye, inquire of Jehovah for me, and for the people, and for all Judah, concerning the words of this book that is found; for great is the wrath of Jehovah that is kindled against us, because our fathers have not hearkened unto the words of this book, to do according unto all that which is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "enjoined us", "marks": ["i"] }]
+        }
+      },
+      "written concerning us."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 22,
     "verse": 14,
-    "content": "So Hilkiah the priest, and Ahikam, and Achbor, and Shaphan, and Asaiah, went unto Huldah the prophetess, the wife of Shallum the son of Tikvah, the son of Harhas, keeper of the wardrobe (now she dwelt in Jerusalem in the second quarter); and they communed with her."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "So Hilkiah the priest, and Ahikam, and Achbor, and Shaphan, and Asaiah, went unto Huldah the prophetess, the wife of Shallum the son of Tikvah, the son of Harhas, keeper of the wardrobe (now she dwelt in Jerusalem in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Mishneh", "marks": ["i"] }, "."]
+        }
+      },
+      "second quarter); and they communed with her."
+    ]
   },
   {
     "book": "2KG",
@@ -3849,7 +5848,16 @@
     "book": "2KG",
     "chapter": 22,
     "verse": 19,
-    "content": "because thy heart was tender, and thou didst humble thyself before Jehovah, when thou heardest what I spake against this place, and against the inhabitants thereof, that they should become a desolation and a curse, and hast rent thy clothes, and wept before me; I also have heard thee, saith Jehovah."
+    "content": [
+      {
+        "text": "because thy heart was tender, and thou didst humble thyself before Jehovah, when thou heardest what I spake against this place, and against the inhabitants thereof, that they should become ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "an astonishment", "marks": ["i"] }]
+        }
+      },
+      "a desolation and a curse, and hast rent thy clothes, and wept before me; I also have heard thee, saith Jehovah."
+    ]
   },
   {
     "book": "2KG",
@@ -3876,31 +5884,106 @@
     "book": "2KG",
     "chapter": 23,
     "verse": 3,
-    "content": "And the king stood by the pillar, and made a covenant before Jehovah, to walk after Jehovah, and to keep his commandments, and his testimonies, and his statutes, with all his heart, and all his soul, to confirm the words of this covenant that were written in this book: and all the people stood to the covenant."
+    "content": [
+      {
+        "text": "And the king stood ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "on the platform", "marks": ["i"] }]
+        }
+      },
+      "by the pillar, and made a covenant before Jehovah, to walk after Jehovah, and to keep his commandments, and his testimonies, and his statutes, with all ",
+      { "text": "his", "marks": ["i"] },
+      " heart, and all ",
+      { "text": "his", "marks": ["i"] },
+      {
+        "text": " soul, to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "perform", "marks": ["i"] }]
+        }
+      },
+      "confirm the words of this covenant that were written in this book: and all the people stood to the covenant."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 4,
-    "content": "And the king commanded Hilkiah the high priest, and the priests of the second order, and the keepers of the threshold, to bring forth out of the temple of Jehovah all the vessels that were made for Baal, and for the Asherah, and for all the host of heaven, and he burned them without Jerusalem in the fields of the Kidron, and carried the ashes of them unto Beth-el."
+    "content": {
+      "paragraph": true,
+      "text": "And the king commanded Hilkiah the high priest, and the priests of the second order, and the keepers of the threshold, to bring forth out of the temple of Jehovah all the vessels that were made for Baal, and for the Asherah, and for all the host of heaven, and he burned them without Jerusalem in the fields of the Kidron, and carried the ashes of them unto Beth-el."
+    }
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 5,
-    "content": "And he put down the idolatrous priests, whom the kings of Judah had ordained to burn incense in the high places in the cities of Judah, and in the places round about Jerusalem; them also that burned incense unto Baal, to the sun, and to the moon, and to the planets, and to all the host of heaven."
+    "content": [
+      {
+        "text": "And he put down the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Chemarim", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Hosea 10:5", "content": "Hos. 10:5" },
+            "; ",
+            { "bibleLink": "Zephaniah 1:4", "content": "Zeph. 1:4" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "idolatrous priests, whom the kings of Judah had ordained to burn incense in the high places in the cities of Judah, and in the places round about Jerusalem; them also that burned incense unto Baal, to the sun, and to the moon, and to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "twelve signs", "marks": ["i"] }]
+        }
+      },
+      "planets, and to all the host of heaven."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 6,
-    "content": "And he brought out the Asherah from the house of Jehovah, without Jerusalem, unto the brook Kidron, and burned it at the brook Kidron, and beat it to dust, and cast the dust thereof upon the graves of the common people."
+    "content": [
+      {
+        "text": "And he brought out the Asherah from the house of Jehovah, without Jerusalem, unto the brook Kidron, and burned it at the brook Kidron, and beat it to dust, and cast the dust thereof upon the graves of the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "children of the people", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "common people."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 7,
-    "content": "And he brake down the houses of the sodomites, that were in the house of Jehovah, where the women wove hangings for the Asherah."
+    "content": [
+      {
+        "text": "And he brake down the houses of the sodomites, that were in the house of Jehovah, where the women wove ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "tents", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "houses", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "hangings for the Asherah."
+    ]
   },
   {
     "book": "2KG",
@@ -3918,7 +6001,20 @@
     "book": "2KG",
     "chapter": 23,
     "verse": 10,
-    "content": "And he defiled Topheth, which is in the valley of the children of Hinnom, that no man might make his son or his daughter to pass through the fire to Molech."
+    "content": [
+      {
+        "text": "And he defiled Topheth, which is in the valley of the ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "son", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "children of Hinnom, that no man might make his son or his daughter to pass through the fire to Molech."
+    ]
   },
   {
     "book": "2KG",
@@ -3930,25 +6026,57 @@
     "book": "2KG",
     "chapter": 23,
     "verse": 12,
-    "content": "And the altars that were on the roof of the upper chamber of Ahaz, which the kings of Judah had made, and the altars which Manasseh had made in the two courts of the house of Jehovah, did the king break down, and beat them down from thence, and cast the dust of them into the brook Kidron."
+    "content": [
+      {
+        "text": "And the altars that were on the roof of the upper chamber of Ahaz, which the kings of Judah had made, and the altars which Manasseh had made in the two courts of the house of Jehovah, did the king break down, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ran from thence", "marks": ["i"] }]
+        }
+      },
+      "beat ",
+      { "text": "them", "marks": ["i"] },
+      " down from thence, and cast the dust of them into the brook Kidron."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 13,
-    "content": "And the high places that were before Jerusalem, which were on the right hand of the mount of corruption, which Solomon the king of Israel had builded for Ashtoreth the abomination of the Sidonians, and for Chemosh the abomination of Moab, and for Milcom the abomination of the children of Ammon, did the king defile."
+    "content": [
+      {
+        "text": "And the high places that were before Jerusalem, which were on the right hand of the mount of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "destruction", "marks": ["i"] }]
+        }
+      },
+      "corruption, which Solomon the king of Israel had builded for Ashtoreth the abomination of the Sidonians, and for Chemosh the abomination of Moab, and for Milcom the abomination of the children of Ammon, did the king defile."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 14,
-    "content": "And he brake in pieces the pillars, and cut down the Asherim, and filled their places with the bones of men."
+    "content": [
+      {
+        "text": "And he brake in pieces the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "obelisks", "marks": ["i"] }]
+        }
+      },
+      "pillars, and cut down the Asherim, and filled their places with the bones of men."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 15,
-    "content": "Moreover the altar that was at Beth-el, and the high place which Jeroboam the son of Nebat, who made Israel to sin, had made, even that altar and the high place he brake down; and he burned the high place and beat it to dust, and burned the Asherah."
+    "content": {
+      "paragraph": true,
+      "text": "Moreover the altar that was at Beth-el, and the high place which Jeroboam the son of Nebat, who made Israel to sin, had made, even that altar and the high place he brake down; and he burned the high place and beat it to dust, and burned the Asherah."
+    }
   },
   {
     "book": "2KG",
@@ -3972,25 +6100,53 @@
     "book": "2KG",
     "chapter": 23,
     "verse": 19,
-    "content": "And all the houses also of the high places that were in the cities of Samaria, which the kings of Israel had made to provoke Jehovah to anger, Josiah took away, and did to them according to all the acts that he had done in Beth-el."
+    "content": [
+      "And all the houses also of the high places that were in the cities of Samaria, which the kings of Israel had made to provoke ",
+      { "text": "Jehovah", "marks": ["i"] },
+      " to anger, Josiah took away, and did to them according to all the acts that he had done in Beth-el."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 20,
-    "content": "And he slew all the priests of the high places that were there, upon the altars, and burned men’s bones upon them; and he returned to Jerusalem."
+    "content": [
+      {
+        "text": "And he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sacrificed", "marks": ["i"] }]
+        }
+      },
+      "slew all the priests of the high places that were there, upon the altars, and burned men’s bones upon them; and he returned to Jerusalem."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 21,
-    "content": "And the king commanded all the people, saying, Keep the passover unto Jehovah your God, as it is written in this book of the covenant."
+    "content": {
+      "paragraph": true,
+      "text": "And the king commanded all the people, saying, Keep the passover unto Jehovah your God, as it is written in this book of the covenant."
+    }
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 22,
-    "content": "Surely there was not kept such a passover from the days of the judges that judged Israel, nor in all the days of the kings of Israel, nor of the kings of Judah;"
+    "content": [
+      {
+        "text": "Surely there was not kept such a passover from the days of the judges that judged Israel, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "even in all . . . and of", "marks": ["i"] }
+          ]
+        }
+      },
+      "nor in all the days of the kings of Israel, nor of the kings of Judah;"
+    ]
   },
   {
     "book": "2KG",
@@ -4002,7 +6158,17 @@
     "book": "2KG",
     "chapter": 23,
     "verse": 24,
-    "content": "Moreover them that had familiar spirits, and the wizards, and the teraphim, and the idols, and all the abominations that were seen in the land of Judah and in Jerusalem, did Josiah put away, that he might confirm the words of the law which were written in the book that Hilkiah the priest found in the house of Jehovah."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Moreover them that had familiar spirits, and the wizards, and the teraphim, and the idols, and all the abominations that were seen in the land of Judah and in Jerusalem, did Josiah put away, that he might ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "perform", "marks": ["i"] }]
+        }
+      },
+      "confirm the words of the law which were written in the book that Hilkiah the priest found in the house of Jehovah."
+    ]
   },
   {
     "book": "2KG",
@@ -4014,7 +6180,10 @@
     "book": "2KG",
     "chapter": 23,
     "verse": 26,
-    "content": "Notwithstanding, Jehovah turned not from the fierceness of his great wrath, wherewith his anger was kindled against Judah, because of all the provocations wherewith Manasseh had provoked him."
+    "content": {
+      "paragraph": true,
+      "text": "Notwithstanding, Jehovah turned not from the fierceness of his great wrath, wherewith his anger was kindled against Judah, because of all the provocations wherewith Manasseh had provoked him."
+    }
   },
   {
     "book": "2KG",
@@ -4026,13 +6195,20 @@
     "book": "2KG",
     "chapter": 23,
     "verse": 28,
-    "content": "Now the rest of the acts of Josiah, and all that he did, are they not written in the book of the chronicles of the kings of Judah?"
+    "content": {
+      "paragraph": true,
+      "text": "Now the rest of the acts of Josiah, and all that he did, are they not written in the book of the chronicles of the kings of Judah?"
+    }
   },
   {
     "book": "2KG",
     "chapter": 23,
     "verse": 29,
-    "content": "In his days Pharaoh-necoh king of Egypt went up against the king of Assyria to the river Euphrates: and king Josiah went against him; and Pharaoh-necoh slew him at Megiddo, when he had seen him."
+    "content": [
+      "In his days Pharaoh-necoh king of Egypt went up against the king of Assyria to the river Euphrates: and king Josiah went against him; and ",
+      { "text": "Pharaoh-necoh", "marks": ["i"] },
+      " slew him at Megiddo, when he had seen him."
+    ]
   },
   {
     "book": "2KG",
@@ -4044,7 +6220,10 @@
     "book": "2KG",
     "chapter": 23,
     "verse": 31,
-    "content": "Jehoahaz was twenty and three years old when he began to reign; and he reigned three months in Jerusalem: and his mother’s name was Hamutal the daughter of Jeremiah of Libnah."
+    "content": {
+      "paragraph": true,
+      "text": "Jehoahaz was twenty and three years old when he began to reign; and he reigned three months in Jerusalem: and his mother’s name was Hamutal the daughter of Jeremiah of Libnah."
+    }
   },
   {
     "book": "2KG",
@@ -4056,7 +6235,26 @@
     "book": "2KG",
     "chapter": 23,
     "verse": 33,
-    "content": "And Pharaoh-necoh put him in bonds at Riblah in the land of Hamath, that he might not reign in Jerusalem; and put the land to a tribute of a hundred talents of silver, and a talent of gold."
+    "content": [
+      {
+        "text": "And Pharaoh-necoh put him in bonds at Riblah in the land of Hamath, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "when he reigned", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "that he might not reign in Jerusalem; and put the land to a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "fine", "marks": ["i"] }]
+        }
+      },
+      "tribute of a hundred talents of silver, and a talent of gold."
+    ]
   },
   {
     "book": "2KG",
@@ -4074,7 +6272,10 @@
     "book": "2KG",
     "chapter": 23,
     "verse": 36,
-    "content": "Jehoiakim was twenty and five years old when he began to reign; and he reigned eleven years in Jerusalem: and his mother’s name was Zebidah the daughter of Pedaiah of Rumah."
+    "content": {
+      "paragraph": true,
+      "text": "Jehoiakim was twenty and five years old when he began to reign; and he reigned eleven years in Jerusalem: and his mother’s name was Zebidah the daughter of Pedaiah of Rumah."
+    }
   },
   {
     "book": "2KG",
@@ -4131,7 +6332,10 @@
     "book": "2KG",
     "chapter": 24,
     "verse": 8,
-    "content": "Jehoiachin was eighteen years old when he began to reign; and he reigned in Jerusalem three months: and his mother’s name was Nehushta the daughter of Elnathan of Jerusalem."
+    "content": {
+      "paragraph": true,
+      "text": "Jehoiachin was eighteen years old when he began to reign; and he reigned in Jerusalem three months: and his mother’s name was Nehushta the daughter of Elnathan of Jerusalem."
+    }
   },
   {
     "book": "2KG",
@@ -4143,7 +6347,10 @@
     "book": "2KG",
     "chapter": 24,
     "verse": 10,
-    "content": "At that time the servants of Nebuchadnezzar king of Babylon came up to Jerusalem, and the city was besieged."
+    "content": {
+      "paragraph": true,
+      "text": "At that time the servants of Nebuchadnezzar king of Babylon came up to Jerusalem, and the city was besieged."
+    }
   },
   {
     "book": "2KG",
@@ -4155,7 +6362,16 @@
     "book": "2KG",
     "chapter": 24,
     "verse": 12,
-    "content": "and Jehoiachin the king of Judah went out to the king of Babylon, he, and his mother, and his servants, and his princes, and his officers: and the king of Babylon took him in the eighth year of his reign."
+    "content": [
+      {
+        "text": "and Jehoiachin the king of Judah went out to the king of Babylon, he, and his mother, and his servants, and his princes, and his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "eunuchs", "marks": ["i"] }]
+        }
+      },
+      "officers: and the king of Babylon took him in the eighth year of his reign."
+    ]
   },
   {
     "book": "2KG",
@@ -4173,7 +6389,23 @@
     "book": "2KG",
     "chapter": 24,
     "verse": 15,
-    "content": "And he carried away Jehoiachin to Babylon; and the king’s mother, and the king’s wives, and his officers, and the chief men of the land, carried he into captivity from Jerusalem to Babylon."
+    "content": [
+      {
+        "text": "And he carried away Jehoiachin to Babylon; and the king’s mother, and the king’s wives, and his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "eunuchs", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "officers, and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "mighty", "marks": ["i"] }]
+        }
+      },
+      "chief men of the land, carried he into captivity from Jerusalem to Babylon."
+    ]
   },
   {
     "book": "2KG",
@@ -4185,13 +6417,27 @@
     "book": "2KG",
     "chapter": 24,
     "verse": 17,
-    "content": "And the king of Babylon made Mattaniah, Jehoiachin’s father’s brother, king is his stead, and changed his name to Zedekiah."
+    "content": [
+      "And the king of Babylon made Mattaniah, ",
+      { "text": "Jehoiachin’s", "marks": ["i"] },
+      " father’s brother, king in his stead, and changed his name to Zedekiah."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 24,
     "verse": 18,
-    "content": "Zedekiah was twenty and one years old when he began to reign; and he reigned eleven years in Jerusalem: and his mother’s name was Hamutal the daughter of Jeremiah of Libnah."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Zedekiah was twenty and one years old when he began to reign; and he reigned eleven years in Jerusalem: and his mother’s name was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Hamital", "marks": ["i"] }, "."]
+        }
+      },
+      "Hamutal the daughter of Jeremiah of Libnah."
+    ]
   },
   {
     "book": "2KG",
@@ -4203,7 +6449,13 @@
     "book": "2KG",
     "chapter": 24,
     "verse": 20,
-    "content": "For through the anger of Jehovah did it come to pass in Jerusalem and Judah, until he had cast them out from his presence. And Zedekiah rebelled against the king of Babylon."
+    "content": [
+      "For through the anger of Jehovah did it come to pass in Jerusalem and Judah, until he had cast them out from his presence.",
+      {
+        "paragraph": true,
+        "text": "And Zedekiah rebelled against the king of Babylon."
+      }
+    ]
   },
   {
     "book": "2KG",
@@ -4224,13 +6476,23 @@
     "book": "2KG",
     "chapter": 25,
     "verse": 3,
-    "content": "On the ninth day of the fourth month the famine was sore in the city, so that there was no bread for the people of the land."
+    "content": [
+      "On the ninth day of the ",
+      { "text": "fourth", "marks": ["i"] },
+      " month the famine was sore in the city, so that there was no bread for the people of the land."
+    ]
   },
   {
     "book": "2KG",
     "chapter": 25,
     "verse": 4,
-    "content": "Then a breach was made in the city, and all the men of war fled by night by the way of the gate between the two walls, which was by the king’s garden (now the Chaldeans were against the city round about); and the king went by the way of the Arabah."
+    "content": [
+      "Then a breach was made in the city, and all the men of war ",
+      { "text": "fled", "marks": ["i"] },
+      " by night by the way of the gate between the two walls, which was by the king’s garden (now the Chaldeans were against the city round about); and ",
+      { "text": "the king", "marks": ["i"] },
+      " went by the way of the Arabah."
+    ]
   },
   {
     "book": "2KG",
@@ -4242,7 +6504,19 @@
     "book": "2KG",
     "chapter": 25,
     "verse": 6,
-    "content": "Then they took the king, and carried him up unto the king of Babylon to Riblah; and they gave judgment upon him."
+    "content": [
+      {
+        "text": "Then they took the king, and carried him up unto the king of Babylon to Riblah; and they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "spake with him of judgment", "marks": ["i"] }
+          ]
+        }
+      },
+      "gave judgment upon him."
+    ]
   },
   {
     "book": "2KG",
@@ -4254,7 +6528,10 @@
     "book": "2KG",
     "chapter": 25,
     "verse": 8,
-    "content": "Now in the fifth month, on the seventh day of the month, which was the nineteenth year of king Nebuchadnezzar, king of Babylon, came Nebuzaradan the captain of the guard, a servant of the king of Babylon, unto Jerusalem."
+    "content": {
+      "paragraph": true,
+      "text": "Now in the fifth month, on the seventh day of the month, which was the nineteenth year of king Nebuchadnezzar, king of Babylon, came Nebuzaradan the captain of the guard, a servant of the king of Babylon, unto Jerusalem."
+    }
   },
   {
     "book": "2KG",
@@ -4266,7 +6543,11 @@
     "book": "2KG",
     "chapter": 25,
     "verse": 10,
-    "content": "And all the army of the Chaldeans, that were with the captain of the guard, brake down the walls of Jerusalem round about."
+    "content": [
+      "And all the army of the Chaldeans, that were ",
+      { "text": "with", "marks": ["i"] },
+      " the captain of the guard, brake down the walls of Jerusalem round about."
+    ]
   },
   {
     "book": "2KG",
@@ -4284,7 +6565,10 @@
     "book": "2KG",
     "chapter": 25,
     "verse": 13,
-    "content": "And the pillars of brass that were in the house of Jehovah, and the bases and the brazen sea that were in the house of Jehovah, did the Chaldeans break in pieces, and carried the brass of them to Babylon."
+    "content": {
+      "paragraph": true,
+      "text": "And the pillars of brass that were in the house of Jehovah, and the bases and the brazen sea that were in the house of Jehovah, did the Chaldeans break in pieces, and carried the brass of them to Babylon."
+    }
   },
   {
     "book": "2KG",
@@ -4314,13 +6598,35 @@
     "book": "2KG",
     "chapter": 25,
     "verse": 18,
-    "content": "And the captain of the guard took Seraiah the chief priest, and Zephaniah the second priest, and the three keepers of the threshold:"
+    "content": {
+      "paragraph": true,
+      "text": "And the captain of the guard took Seraiah the chief priest, and Zephaniah the second priest, and the three keepers of the threshold:"
+    }
   },
   {
     "book": "2KG",
     "chapter": 25,
     "verse": 19,
-    "content": "and out of the city he took an officer that was set over the men of war; and five men of them that saw the king’s face, who were found in the city; and the scribe, the captain of the host, who mustered the people of the land; and threescore men of the people of the land, that were found in the city."
+    "content": [
+      {
+        "text": "and out of the city he took an ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "eunuch", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "officer that was set over the men of war; and five men of them that saw the king’s face, who were found in the city; and the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "scribe of the captain of the host", "marks": ["i"] }
+          ]
+        }
+      },
+      "scribe, the captain of the host, who mustered the people of the land; and threescore men of the people of the land, that were found in the city."
+    ]
   },
   {
     "book": "2KG",
@@ -4338,7 +6644,10 @@
     "book": "2KG",
     "chapter": 25,
     "verse": 22,
-    "content": "And as for the people that were left in the land of Judah, whom Nebuchadnezzar king of Babylon had left, even over them he made Gedaliah the son of Ahikam, the son of Shaphan, governor."
+    "content": {
+      "paragraph": true,
+      "text": "And as for the people that were left in the land of Judah, whom Nebuchadnezzar king of Babylon had left, even over them he made Gedaliah the son of Ahikam, the son of Shaphan, governor."
+    }
   },
   {
     "book": "2KG",
@@ -4356,7 +6665,7 @@
     "book": "2KG",
     "chapter": 25,
     "verse": 25,
-    "content": "But it came to pass in the seventh month, that Ishmael the son of Nethaniah, the son of Elisham, of the seed royal, came, and ten men with him, and smote Gedaliah, so that he died, and the Jews and the Chaldeans that were with him at Mizpah."
+    "content": "But it came to pass in the seventh month, that Ishmael the son of Nethaniah, the son of Elishama, of the seed royal, came, and ten men with him, and smote Gedaliah, so that he died, and the Jews and the Chaldeans that were with him at Mizpah."
   },
   {
     "book": "2KG",
@@ -4368,7 +6677,10 @@
     "book": "2KG",
     "chapter": 25,
     "verse": 27,
-    "content": "And it came to pass in the seven and thirtieth year of the captivity of Jehoiachin king of Judah, in the twelfth month, on the seven and twentieth day of the month, that Evil-merodach king of Babylon, in the year that he began to reign, did lift up the head of Jehoiachin king of Judah out of prison;"
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass in the seven and thirtieth year of the captivity of Jehoiachin king of Judah, in the twelfth month, on the seven and twentieth day of the month, that Evil-merodach king of Babylon, in the year that he began to reign, did lift up the head of Jehoiachin king of Judah out of prison;"
+    }
   },
   {
     "book": "2KG",
@@ -4380,7 +6692,11 @@
     "book": "2KG",
     "chapter": 25,
     "verse": 29,
-    "content": "and changed his prison garments. And Jehoiachin did eat bread before him continually all the days of his life:"
+    "content": [
+      "and changed his prison garments. And ",
+      { "text": "Jehoiachin", "marks": ["i"] },
+      " did eat bread before him continually all the days of his life:"
+    ]
   },
   {
     "book": "2KG",

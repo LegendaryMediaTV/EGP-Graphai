@@ -5,26 +5,44 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, an apostle of Christ Jesus through the will of God, according to the promise of the life which is in Christ Jesus."
+      "text": "Paul, an apostle of Christ Jesus through the will of God, according to the promise of the life which is in Christ Jesus,"
     }
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 2,
-    "content": "To Timothy, my beloved child: Grace, mercy, peace, from God the Father and Christ Jesus our Lord."
+    "content": {
+      "text": "to Timothy, my beloved child: Grace, mercy, peace, from God the Father and Christ Jesus our Lord.",
+      "break": true
+    }
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 3,
-    "content": "I thank God, whom I serve from my forefathers in a pure conscience, how unceasing is my remembrance of thee in my supplications, night and day"
+    "content": {
+      "paragraph": true,
+      "text": "I thank God, whom I serve from my forefathers in a pure conscience, how unceasing is my remembrance of thee in my supplications, night and day"
+    }
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 4,
-    "content": "longing to see thee, remembering thy tears, that I may be filled with joy;"
+    "content": [
+      {
+        "text": "longing to see thee, remembering thy tears, that I may be filled with ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "joy in being reminded", "marks": ["i"] }
+          ]
+        }
+      },
+      "joy;"
+    ]
   },
   {
     "book": "2TM",
@@ -36,61 +54,185 @@
     "book": "2TM",
     "chapter": 1,
     "verse": 6,
-    "content": "For which cause I put thee in remembrance that thou stir up the gift of God, which is in thee through the laying on of my hands."
+    "content": [
+      {
+        "text": "For which cause I put thee in remembrance that thou ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "stir into flame", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "stir up the gift of God, which is in thee through the laying on of my hands."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 7,
-    "content": "For god gave us not a spirit of fearfulness; but of power and love and discipline."
+    "content": [
+      {
+        "text": "For God gave us not a spirit of fearfulness; but of power and love and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "sobering", "marks": ["i"] }, "."]
+        }
+      },
+      "discipline."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 8,
-    "content": "Be not ashamed therefore of the testimony of our Lord, not of me his prisoner: but suffer hardship with the gospel according to the power of God;"
+    "content": [
+      {
+        "text": "Be not ashamed therefore of the testimony of our Lord, nor of me his prisoner: but suffer hardship with the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ": and so elsewhere. See marginal note on ",
+            { "bibleLink": "Matthew 4:23", "content": "Mt. 4:23" },
+            "."
+          ]
+        }
+      },
+      "gospel according to the power of God;"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 9,
-    "content": "who saved us, and called us with a holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus before times eternal,"
+    "content": [
+      {
+        "text": "who saved us, and called us with a holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "long ages ago", "marks": ["i"] }]
+        }
+      },
+      "before times eternal,"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 10,
-    "content": "but hath now been manifested by the appearing of our Saviour Christ Jesus, who abolished death, and brought life and immortality to light through the gospel,"
+    "content": [
+      {
+        "text": "but hath now been manifested by the appearing of our Saviour Christ Jesus, who abolished death, and brought life and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "incorruption", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Romans 2:7", "content": "Rom. 2:7" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "immortality to light through the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "2 Timothy 1:8", "content": "verse 8" },
+            "."
+          ]
+        }
+      },
+      "gospel,"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 11,
-    "content": "whereunto I was appointed a preacher, and an apostle, and a teacher."
+    "content": [
+      {
+        "text": "whereunto I was appointed a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "herald", "marks": ["i"] }, "."]
+        }
+      },
+      "preacher, and an apostle, and a teacher."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 12,
-    "content": "For which cause I suffer also these things: yet I am not ashamed; for I know him whom I have believed, and I am persuaded that he is able to guard that which I have committed unto him against that day."
+    "content": [
+      {
+        "text": "For which cause I suffer also these things: yet I am not ashamed; for I know him whom I have believed, and I am persuaded that he is able to guard ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "that which he hath committed unto me", "marks": ["i"] },
+            ". Greek ",
+            { "text": "my deposit", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "that which I have committed unto him against that day."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 13,
-    "content": "Hold the pattern of sound words which thou hast heard from me, in faith and love which is in Christ Jesus."
+    "content": [
+      {
+        "text": "Hold the pattern of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "healthful", "marks": ["i"] }, "."]
+        }
+      },
+      "sound words which thou hast heard from me, in faith and love which is in Christ Jesus."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 14,
-    "content": "That good thing which was committed unto thee guard through the Holy Spirit which dwelleth in us."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "The good deposit", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "That good thing which was committed unto ",
+      { "text": "thee", "marks": ["i"] },
+      " guard through the Holy Spirit which dwelleth in us."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 15,
-    "content": "This thou knowest, that all that are in Asia turned away from me; of whom are Phygelus and Hermogenes."
+    "content": {
+      "paragraph": true,
+      "text": "This thou knowest, that all that are in Asia turned away from me; of whom are Phygelus and Hermogenes."
+    }
   },
   {
     "book": "2TM",
@@ -129,25 +271,45 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 3,
-    "content": "Suffer hardship with me, as a good soldier of Christ Jesus."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Take thy part in suffering hardship, as etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "Suffer hardship with ",
+      { "text": "me", "marks": ["i"] },
+      ", as a good soldier of Christ Jesus."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 4,
-    "content": "No soldier on service entangleth himself in the affairs of this life; that he may please him who enrolled him as soldier."
+    "content": [
+      "No soldier on service entangleth himself in the affairs of ",
+      { "text": "this", "marks": ["i"] },
+      " life; that he may please him who enrolled him as a soldier."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 5,
-    "content": "And if also a man contend in the games, he is not crowded, except he have contended lawfully."
+    "content": "And if also a man contend in the games, he is not crowned, except he have contended lawfully."
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 6,
-    "content": "The husbandmen that laboreth must be the first to partake of the fruits."
+    "content": "The husbandman that laboreth must be the first to partake of the fruits."
   },
   {
     "book": "2TM",
@@ -159,7 +321,20 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 8,
-    "content": "Remember Jesus Christ, risen from the dead, of the seed of David, according to my gospel:"
+    "content": [
+      {
+        "text": "Remember Jesus Christ, risen from the dead, of the seed of David, according to my ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "2 Timothy 1:8", "content": "1:8" },
+            "."
+          ]
+        }
+      },
+      "gospel:"
+    ]
   },
   {
     "book": "2TM",
@@ -177,7 +352,16 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 11,
-    "content": "Faithful is the saying: For if we died with him, we shall also live with him:"
+    "content": [
+      {
+        "text": "Faithful is the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "saying; for if etc.", "marks": ["i"] }]
+        }
+      },
+      "saying: For if we died with him, we shall also live with him:"
+    ]
   },
   {
     "book": "2TM",
@@ -195,13 +379,48 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 14,
-    "content": "Of these things put them in remembrance, charging them in the sight of the Lord, that they strive not about words, to no profit, to the subverting of them that hear."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Of these things put them in remembrance, charging "
+      },
+      { "text": "them", "marks": ["i"] },
+      {
+        "text": " in the sight of ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "God", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the Lord, that they strive not about words, to no profit, to the subverting of them that hear."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 15,
-    "content": "Give diligence to present thyself approved unto God, a workman that needeth not to be ashamed, handling aright the word of truth."
+    "content": [
+      {
+        "text": "Give diligence to present thyself approved unto God, a workman that needeth not to be ashamed, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "holding a straight course in the word of truth",
+              "marks": ["i"]
+            },
+            ". Or, ",
+            { "text": "rightly dividing the word of truth", "marks": ["i"] }
+          ]
+        }
+      },
+      "handling aright the word of truth."
+    ]
   },
   {
     "book": "2TM",
@@ -213,19 +432,76 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 17,
-    "content": "and their word will eat as doth a gangrene: or whom is Hymenaeus an Philetus;"
+    "content": [
+      {
+        "text": "and their word will ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "spread", "marks": ["i"] }]
+        }
+      },
+      "eat as doth a gangrene: of whom is Hymenæus and Philetus;"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 18,
-    "content": "men who concerning the truth have erred, saying that the resurrection is past already, and overthrow the faith of some."
+    "content": [
+      {
+        "text": "men who concerning the truth have ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "missed the mark", "marks": ["i"] },
+            ". ",
+            { "bibleLink": "1 Timothy 1:6", "content": "1 Tim. 1:6" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "erred, saying that ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "a resurrection", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the resurrection is past already, and overthrow the faith of some."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 19,
-    "content": "Howbeit the firm foundation of God standeth, having this seal, The Lord knoweth them that are his: and, Let every one that nameth the name of the Lord depart from unrighteousness."
+    "content": [
+      {
+        "text": "Howbeit the firm foundation of God standeth, having this seal, ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "bibleLink": "Numbers 16:5", "content": "Num. 16:5" },
+            "?"
+          ]
+        }
+      },
+      {
+        "text": "The Lord knoweth them that are his: and, ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "bibleLink": "Isaiah 26:13", "content": "Isa. 26:13" },
+            "?"
+          ]
+        }
+      },
+      "Let every one that nameth the name of the Lord depart from unrighteousness."
+    ]
   },
   {
     "book": "2TM",
@@ -243,7 +519,7 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 22,
-    "content": "after righteousness, faith, love, pace, with them that call on the Lord out of a pure heart."
+    "content": "But flee youthful lusts, and follow after righteousness, faith, love, peace, with them that call on the Lord out of a pure heart."
   },
   {
     "book": "2TM",
@@ -255,19 +531,72 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 24,
-    "content": "And the Lord’s servant must not strive, but be gentle towards all, apt to teach, forbearing,"
+    "content": [
+      {
+        "text": "And the Lord’s ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
+        }
+      },
+      "servant must not strive, but be gentle towards all, apt to teach, forbearing,"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 25,
-    "content": "in meekness correcting them that oppose themselves; if peradventure God may give them repentance unto the knowledge of the truth,"
+    "content": [
+      {
+        "text": "in meekness ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "instructing", "marks": ["i"] }]
+        }
+      },
+      "correcting them that oppose themselves; if peradventure God may give them repentance unto the knowledge of the truth,"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 26,
-    "content": "and they may recover themselves out of the snare of the devil, having been taken captive by him unto his will."
+    "content": [
+      {
+        "text": "and they may ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "return to soberness", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "recover themselves out of the snare of the devil, having been ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "taken alive", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "taken captive ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "by him, unto the will of God", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "2 Corinthians 10:5", "content": "2 Cor. 10:5" },
+            ". Greek ",
+            { "text": "by him, unto the will of him", "marks": ["i"] },
+            ". In the Greek the two pronouns are different."
+          ]
+        }
+      },
+      "by him unto his will."
+    ]
   },
   {
     "book": "2TM",
@@ -300,7 +629,7 @@
     "book": "2TM",
     "chapter": 3,
     "verse": 5,
-    "content": "holding a form of godliness, but having denied the power therefore. From these also turn away."
+    "content": "holding a form of godliness, but having denied the power thereof: from these also turn away."
   },
   {
     "book": "2TM",
@@ -318,25 +647,34 @@
     "book": "2TM",
     "chapter": 3,
     "verse": 8,
-    "content": "And even as Jannes and Jambres withstood Moses, so do these also withstand the truth. Men corrupted in mind, reprobate concerning the faith."
+    "content": "And even as Jannes and Jambres withstood Moses, so do these also withstand the truth; men corrupted in mind, reprobate concerning the faith."
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 9,
-    "content": "But they shall proceed no further. For their folly shall be evident unto all men, as theirs also came to be."
+    "content": "But they shall proceed no further: for their folly shall be evident unto all men, as theirs also came to be."
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 10,
-    "content": "But thou didst follow my teaching, conduct, purpose, faith, longsuffering, love, patience,"
+    "content": [
+      {
+        "text": "But thou didst follow my teaching, conduct, purpose, faith, longsuffering, love, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "stedfastness", "marks": ["i"] }]
+        }
+      },
+      "patience,"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 11,
-    "content": "persecutions, sufferings. What things befell me at Antioch, at Iconium, at Lystra; what persecutions I endured. And out of them all the Lord delivered me."
+    "content": "persecutions, sufferings; what things befell me at Antioch, at Iconium, at Lystra; what persecutions I endured: and out of them all the Lord delivered me."
   },
   {
     "book": "2TM",
@@ -354,46 +692,116 @@
     "book": "2TM",
     "chapter": 3,
     "verse": 14,
-    "content": "But abide thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them."
+    "content": [
+      {
+        "text": "But abide thou in the things which thou hast learned and hast been assured of, knowing of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "what persons", "marks": ["i"] }, "."]
+        }
+      },
+      "whom thou hast learned them;"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 15,
-    "content": "And that from a babe thou hast known the sacred writings which are able to make thee wise unto salvation through faith which is in Christ Jesus."
+    "content": "and that from a babe thou hast known the sacred writings which are able to make thee wise unto salvation through faith which is in Christ Jesus."
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 16,
-    "content": "Every scripture inspired of God is also profitable for teaching, for reproof, for correction, for instruction which is in righteousness."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Every scripture", "marks": ["i"] },
+            " is ",
+            { "text": "inspired of God, and profitable", "marks": ["i"] }
+          ]
+        }
+      },
+      "Every scripture inspired of God ",
+      { "text": "is", "marks": ["i"] },
+      {
+        "text": " also profitable for teaching, for reproof, for correction, for ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "discipline", "marks": ["i"] }]
+        }
+      },
+      "instruction which is in righteousness:"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 17,
-    "content": "That the man of God may be complete, furnished completely unto every good work."
+    "content": "that the man of God may be complete, furnished completely unto every good work."
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I charge thee in the sight of God, and of Christ Jesus, who shall judge the living and the dead, and by his appearing and his kingdom:"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "I testify, in the sight . . . dead, both of his appearing etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "I charge ",
+      { "text": "thee", "marks": ["i"] },
+      " in the sight of God, and of Christ Jesus, who shall judge the living and the dead, and by his appearing and his kingdom:"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 2,
-    "content": "preach the word; be urgent in season, out of season; reprove, rebuke, exhort, with all longsuffering and teaching."
+    "content": [
+      {
+        "text": "preach the word; be urgent in season, out of season; ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "bring to the proof", "marks": ["i"] }]
+        }
+      },
+      "reprove, rebuke, exhort, with all longsuffering and teaching."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 3,
-    "content": "For the time will come when they will not endure the sound doctrine; but, having itching ears, will heap to themselves teachers after their own lusts;"
+    "content": [
+      {
+        "text": "For the time will come when they will not endure the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "healthful", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "sound ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "teaching", "marks": ["i"] }]
+        }
+      },
+      "doctrine; but, having itching ears, will heap to themselves teachers after their own lusts;"
+    ]
   },
   {
     "book": "2TM",
@@ -411,7 +819,20 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 6,
-    "content": "For I am already being offered, and the time of my departure is come."
+    "content": [
+      {
+        "text": "For I am already being ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "poured out as a drink-offering", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "offered, and the time of my departure is come."
+    ]
   },
   {
     "book": "2TM",
@@ -429,13 +850,32 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 9,
-    "content": "Give diligence to come shortly unto me:"
+    "content": {
+      "paragraph": true,
+      "text": "Give diligence to come shortly unto me:"
+    }
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 10,
-    "content": "for Demas forsook me, having loved this present world, and went to Thessalonica; Crescens to Galatia, Titus to Dalmatia."
+    "content": [
+      {
+        "text": "for Demas forsook me, having loved this present ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "age", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "world, and went to Thessalonica; Crescens to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Gaul", "marks": ["i"] }]
+        }
+      },
+      "Galatia, Titus to Dalmatia."
+    ]
   },
   {
     "book": "2TM",
@@ -459,7 +899,16 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 14,
-    "content": "Alexander the coppersmith did me much evil: the Lord will render to him according to his works:"
+    "content": [
+      {
+        "text": "Alexander the coppersmith ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "showed", "marks": ["i"] }, "."]
+        }
+      },
+      "did me much evil: the Lord will render to him according to his works:"
+    ]
   },
   {
     "book": "2TM",
@@ -477,19 +926,53 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 17,
-    "content": "But the Lord stood by me, and strengthened me; that through me the message might me fully proclaimed, and that all the Gentiles might hear: and I was delivered out of the mouth of the lion."
+    "content": [
+      {
+        "text": "But the Lord stood by me, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "gave me power", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "strengthened me; that through me the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "proclamation", "marks": ["i"] }]
+        }
+      },
+      "message might be fully proclaimed, and that all the Gentiles might hear: and I was delivered out of the mouth of the lion."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 18,
-    "content": "The Lord will deliver me from every evil work, and will save me unto his heavenly kingdom: to whom be the glory forever and ever. Amen."
+    "content": [
+      "The Lord will deliver me from every evil work, and will save me unto his heavenly kingdom: to whom ",
+      { "text": "be", "marks": ["i"] },
+      {
+        "text": " the glory ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "unto the ages of the ages", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "for ever and ever. Amen."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 19,
-    "content": "Salute Prisca and Aquila, and the house of Onesiphorus."
+    "content": {
+      "paragraph": true,
+      "text": "Salute Prisca and Aquila, and the house of Onesiphorus."
+    }
   },
   {
     "book": "2TM",
@@ -507,6 +990,9 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 22,
-    "content": "The Lord be with thy spirit. Grace be with you."
+    "content": {
+      "paragraph": true,
+      "text": "The Lord be with thy spirit. Grace be with you."
+    }
   }
 ]
