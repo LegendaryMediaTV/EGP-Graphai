@@ -128,19 +128,19 @@ const CONTENT_BRANCHES = ["content", "heading", "subtitle"] as const;
  * caught here:
  *
  * 1. **Formatting with nothing to format** — a node carrying `marks` and/or
- *    `script` but no text. One translation had verses opening with
- *    `{ marks: ["woc"], foot: … }`, and a downstream exporter dutifully
- *    wrapped the nothing in tags, emitting `[red][/red]°`. A renderer pairs
- *    tags with a non-greedy `\[red\](.+?)\[/red\]`, which cannot match zero
- *    characters, so the opening tag ran past its own closer and leaked literal
- *    tags into the verse. Several hundred nodes across two translations were
- *    this shape. The `foot` on such a node is legitimate — a footnote needs an
- *    anchor, not text — so only the formatting is at fault.
+ *    `script` but no text. A renderer that wraps marked text in paired
+ *    delimiters has nothing to wrap here; if its tag-matching is non-greedy
+ *    (as a bold/italic pairing typically is, so it doesn't span past the
+ *    first real closer) it cannot match zero characters, so the opening
+ *    delimiter runs past its own closer and leaks into the surrounding text
+ *    instead of rendering nothing. The `foot` on such a node is legitimate —
+ *    a footnote needs an anchor, not text — so only the formatting is at
+ *    fault.
  *
  * 2. **An empty husk** — a node whose only property is an empty `text`, so it
- *    holds nothing and renders nothing. Two verses in one translation carried
- *    one each, inside footnote content, left behind when the marks came off
- *    `{ text: "", marks: ["b"] }`.
+ *    holds nothing and renders nothing. This is the residue left behind when
+ *    marks are stripped from a shape like `{ text: "", marks: ["b"] }`
+ *    without also removing the now-pointless empty node.
  *
  * Everything else a text-less node can carry is meaningful on its own and is
  * left alone: `foot` and `strong` (thousands of each), `morph`, `lemma`,
@@ -197,6 +197,70 @@ export function findMeaninglessContentNodes(content: Content): string[] {
       ) {
         problems.push(`${at}: empty node with nothing to render`);
       }
+    }
+
+    const foot = properties.foot;
+    if (foot && typeof foot === "object") {
+      walk((foot as { content?: unknown }).content, `${at}.foot.content`);
+    }
+  };
+
+  walk(content, "content");
+  return problems;
+}
+
+/**
+ * Find content nodes carrying a `strong` value whose own `text` ends in
+ * trailing whitespace.
+ *
+ * The established convention for joining one printed word to the next is
+ * that the separating space lives as the **leading** character of whichever
+ * node comes after the gap, never as the trailing character of the node
+ * before it — confirmed directly from KJV1769 Genesis 1:1:
+ * `{ text: "In the beginning", strong: "H7225" }`,
+ * `{ text: " God", strong: "H430" }`. This is what lets a multi-number
+ * Strong's tag's extra numbers ride as textless sibling nodes
+ * (`{ strong: "H853" }`, no `text` key at all) with zero spacing
+ * responsibility, since the space always travels with whichever neighbor has
+ * real text. A translation whose importer instead attaches the space to the
+ * `strong`-carrying node itself inverts that convention, and every exporter
+ * downstream of it that assumes the leading-space shape mishandles the
+ * result (double spaces, misplaced tags).
+ *
+ * A textless sibling never matches here — an empty string never ends in
+ * whitespace — so it needs no special exclusion.
+ *
+ * @param content - A verse's content tree
+ * @returns One message per offending node, each naming its path within the
+ *   tree (e.g. `content[0].foot.content[1]`); empty when the tree is clean
+ */
+export function findStrongTrailingWhitespaceNodes(content: Content): string[] {
+  const problems: string[] = [];
+
+  const walk = (node: unknown, at: string): void => {
+    if (Array.isArray(node)) {
+      node.forEach((child, index) => walk(child, `${at}[${index}]`));
+      return;
+    }
+    if (node === null || typeof node !== "object") return;
+
+    const properties = node as Record<string, unknown>;
+    const branch =
+      CONTENT_BRANCHES.find((key) => key in properties) ??
+      ("paragraph" in properties && typeof properties.paragraph !== "boolean"
+        ? "paragraph"
+        : undefined);
+
+    if (branch) {
+      walk(properties[branch], `${at}.${branch}`);
+    } else if (
+      typeof properties.strong === "string" &&
+      typeof properties.text === "string" &&
+      /\s$/.test(properties.text)
+    ) {
+      problems.push(
+        `${at}: strong "${properties.strong}" carries text "${properties.text}" ending in whitespace`
+      );
     }
 
     const foot = properties.foot;
@@ -499,6 +563,17 @@ async function main() {
         for (const problem of findMeaninglessContentNodes(verse.content)) {
           console.error(
             `❌ Meaningless content in ${filePath}: verse ${verse.chapter}:${verse.verse} — ${problem}`
+          );
+          verseValidationPassed = false;
+        }
+
+        // See findStrongTrailingWhitespaceNodes for the convention this
+        // enforces and why a violation is a real defect, not just style.
+        for (const problem of findStrongTrailingWhitespaceNodes(
+          verse.content
+        )) {
+          console.error(
+            `❌ Strong's text ends in whitespace in ${filePath}: verse ${verse.chapter}:${verse.verse} — ${problem}`
           );
           verseValidationPassed = false;
         }
