@@ -6,7 +6,12 @@
  * vs-trailing-space convention these checks build on):
  *
  * 1. **Unmerged node pairs** — an ordinary, untagged connector word left
- *    split from the `strong`-carrying neighbor it should have folded into.
+ *    split from the `strong`-carrying neighbor immediately *after* it, which
+ *    it should have folded into. A trailing connector with nothing tagged
+ *    after it in its own span is not this shape: with no following
+ *    `strong`-carrying node to fold into, it is simply untagged text, and
+ *    folding it *backward* into whatever precedes it would misattribute it
+ *    under a Strong's number it has no lexical relationship to.
  * 2. **Trailing whitespace** — a `strong`-carrying node's own `text` ending
  *    in a space, when the convention puts a joining space on the *leading*
  *    edge of whatever follows, never the trailing edge of what precedes it.
@@ -138,13 +143,10 @@ function isRealAttachmentPoint(shape: NodeShape): boolean {
 // Check 1 — an ordinary connector word left un-merged beside a strong-carrying neighbor
 // ---------------------------------------------------------------------------
 
-export type MergeDirection = "forward" | "backward";
-
 /** One un-merged pair found within a single array level. */
 interface PairFinding {
   /** The array level this pair was found in (e.g. `content`, `content.heading`, `content.content` for a `ContentNested` descent). */
   where: string;
-  direction: MergeDirection;
   /** The untagged connector node this rule says should have merged. */
   plain: unknown;
   /** The `strong`-carrying node it should have merged into. */
@@ -172,51 +174,30 @@ function canJoinForward(run: readonly NodeShape[], target: NodeShape): boolean {
   );
 }
 
-/** Assigns a span id to every index of one array level — a span is the run of nodes between hard boundaries: a `{heading}`/`{subtitle}`/`{bibleLink}` node (`-1`, belongs to no span), or a node whose own `paragraph` is `true` (opens a new span). */
-function assignSpans(shapes: readonly NodeShape[]): number[] {
-  const spans: number[] = new Array(shapes.length);
-  let span = 0;
-  for (let i = 0; i < shapes.length; i++) {
-    if (shapes[i].isBoundary) {
-      spans[i] = -1;
-      continue;
-    }
-    if (shapes[i].opensParagraph) span++;
-    spans[i] = span;
-  }
-  return spans;
-}
-
-/** For each span id, the index of its own last real, text-bearing `strong`-carrying node — `undefined` when the span has none. "Last," not merely "most recently seen": a span can carry several `strong`-carrying nodes with a mark-mismatched connector between a pair, and that connector must not be judged against an earlier `strong`-carrying node when a later one still sits ahead of it in the same span. */
-function lastTaggedIndexPerSpan(shapes: readonly NodeShape[], spans: readonly number[]): Map<number, number> {
-  const last = new Map<number, number>();
-  for (let i = 0; i < shapes.length; i++) {
-    const span = spans[i];
-    if (span === -1) continue;
-    if (shapes[i].strong !== undefined && shapes[i].text !== undefined) last.set(span, i);
-  }
-  return last;
-}
-
 /**
  * Scan one array level for adjacent node pairs that should have merged into
- * one `strong`-carrying node but did not.
+ * one `strong`-carrying node but did not: every maximal run of consecutive
+ * mergeable connectors immediately *before* a `strong`-carrying node.
  *
- * Pass 1 (forward) walks every maximal run of consecutive mergeable
- * connectors immediately before a `strong`-carrying node; every node
- * consumed here is removed from consideration in pass 2, giving forward
- * priority for the common shape of a single connector between two
- * `strong`-carrying nodes.
- *
- * Pass 2 (backward) walks each span's own trailing remainder — the nodes
- * strictly after that span's own true last `strong`-carrying node — and
- * counts the whole remainder as violations only when *every* node in it
- * qualifies.
+ * Deliberately one-directional. A run of untagged connectors with no
+ * `strong`-carrying node following it — the tail end of a span, or of the
+ * verse — is never a finding here, no matter how well it agrees in
+ * formatting with whatever precedes it: there is nothing tagged for it to
+ * fold into, so it is simply untagged text (e.g. a connector word with no
+ * lexical unit of its own in the source language), not an unmerged pair. A
+ * corpus case that looks identical either direction makes the asymmetry
+ * concrete: Genesis 1:15 KJV1769 ends `{ text: " upon the earth:", strong:
+ * "H776" }, " and it was so."` — untagged, trailing, no `strong`-carrying
+ * node after it in the verse. Folding it backward into the `H776` node would
+ * claim that Strong's number covers "and it was so," which it does not;
+ * elsewhere in the very same chapter (Genesis 1:7) the identical phrase
+ * carries its own tag, `strong: "H3651"` — the actual defect, when there is
+ * one, is a missing tag on the connector itself, not a merge this check
+ * could ever recommend.
  */
 function scanArrayForUnmergedPairs(nodes: readonly unknown[], where: string): PairFinding[] {
   const shapes = nodes.map(describeNode);
   const findings: PairFinding[] = [];
-  const consumedForward = new Array<boolean>(nodes.length).fill(false);
 
   let at = 0;
   while (at < nodes.length) {
@@ -226,41 +207,12 @@ function scanArrayForUnmergedPairs(nodes: readonly unknown[], where: string): Pa
     const run = shapes.slice(at, end);
     if (end > at && target !== undefined && canJoinForward(run, target)) {
       for (let i = at; i < end; i++) {
-        findings.push({ where, direction: "forward", plain: nodes[i], target: nodes[end] });
-        consumedForward[i] = true;
+        findings.push({ where, plain: nodes[i], target: nodes[end] });
       }
       at = end + 1;
     } else {
       at++;
     }
-  }
-
-  const spans = assignSpans(shapes);
-  const lastTagged = lastTaggedIndexPerSpan(shapes, spans);
-
-  const indicesBySpan = new Map<number, number[]>();
-  for (let i = 0; i < nodes.length; i++) {
-    if (consumedForward[i]) continue;
-    const span = spans[i];
-    if (span === -1) continue;
-    const list = indicesBySpan.get(span);
-    if (list) list.push(i);
-    else indicesBySpan.set(span, [i]);
-  }
-
-  for (const [span, indices] of indicesBySpan) {
-    const targetIndex = lastTagged.get(span);
-    if (targetIndex === undefined || consumedForward[targetIndex]) continue;
-    const target = shapes[targetIndex];
-    if (target.endsBreak) continue;
-
-    const after = indices.filter((i) => i > targetIndex);
-    if (after.length === 0) continue;
-
-    const allQualify = after.every((i) => isMergeableConnector(shapes[i]) && agreesInFormatting(target, shapes[i]));
-    if (!allQualify) continue;
-
-    for (const i of after) findings.push({ where, direction: "backward", plain: nodes[i], target: nodes[targetIndex] });
   }
 
   return findings;
@@ -528,7 +480,7 @@ function printFindingLines(summary: VersionAudit, verbose: boolean): void {
   console.log(`  ${summary.unmergedPairs.length} adjacent node pair(s) that should have merged into one strong-carrying node but didn't`);
   for (const finding of summary.unmergedPairs.slice(0, cap)) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} [${finding.direction}] plain=${JSON.stringify(finding.plain)} target=${JSON.stringify(finding.target)}`,
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} plain=${JSON.stringify(finding.plain)} target=${JSON.stringify(finding.target)}`,
     );
   }
   if (!verbose && summary.unmergedPairs.length > cap) console.log(`    … ${summary.unmergedPairs.length - cap} more (--verbose to list all)`);

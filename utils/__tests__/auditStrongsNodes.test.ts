@@ -12,11 +12,12 @@ describe("findStrongsNodeIssues — unmerged pairs", () => {
     expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
   });
 
-  it("should report one forward finding for an un-merged eligible pair", () => {
+  it("should report one finding for an un-merged eligible pair", () => {
     const content: Content = [{ paragraph: true, text: "In the " }, { text: "beginning", strong: "H7225" }];
     const findings = findStrongsNodeIssues(content).unmergedPairs;
     expect(findings).toHaveLength(1);
-    expect(findings[0].direction).toBe("forward");
+    expect(findings[0].plain).toEqual({ paragraph: true, text: "In the " });
+    expect(findings[0].target).toEqual({ text: "beginning", strong: "H7225" });
   });
 
   it("should stay silent when the untagged node already carries its own foot — merging would misattach the footnote onto a word it was never placed over", () => {
@@ -33,6 +34,20 @@ describe("findStrongsNodeIssues — unmerged pairs", () => {
     // {content: [...], strong: "..."} has nothing at its own top level for a
     // preceding connector's text to land on.
     const content: Content = ["the ", { content: ["word"], strong: "H1234" } as unknown as Content];
+    expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
+  });
+
+  it("should stay silent on a trailing connector with nothing strong-carrying after it in the span — real Genesis 1:15 KJV1769 shape", () => {
+    // Genesis 1:7 tags the identical phrase (strong: "H3651"); folding this
+    // one backward into "H776" would claim that number covers text it
+    // doesn't. The real defect, if any, is a missing tag on the connector
+    // itself — never something this check could recommend merging away.
+    const content: Content = [{ text: "upon the earth:", strong: "H776" }, "and it was so."];
+    expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
+  });
+
+  it("should stay silent on a trailing connector even when it agrees in formatting and ends the whole array", () => {
+    const content: Content = [{ text: "he them.", strong: "H1254" }, " he them."];
     expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
   });
 });
