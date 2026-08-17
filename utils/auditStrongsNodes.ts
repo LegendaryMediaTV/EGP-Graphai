@@ -1,6 +1,6 @@
 #!/usr/bin/env ts-node
 /**
- * Corpus-wide sweep for five ways a node's own placement can drift from this
+ * Corpus-wide sweep for various ways a node's own placement can drift from this
  * repo's established text-flow conventions (see `utils/validate.ts`'s
  * `findStrongTrailingWhitespaceNodes` for the leading-vs-trailing-space
  * convention these checks build on):
@@ -62,6 +62,7 @@ import * as path from "path";
 import { getVersionDirectories } from "../functions/getBibleVersions";
 import Content from "../types/Content";
 
+/** Root directory holding one subfolder per Bible version. */
 const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
 
 /** A verse-file's own name: two-digit book order + book id (e.g. `01-GEN.json`) — never `_version.json` or a schema file. */
@@ -69,9 +70,13 @@ const VERSE_FILE_NAME = /^\d{2}-[A-Z0-9]+\.json$/;
 
 /** One shape as it exists on disk: a verse's own identifying fields plus its content tree. */
 interface VerseRecord {
+  /** The verse's own book id (e.g. `GEN`, `MAT`). */
   book: string;
+  /** The verse's own chapter number. */
   chapter: number;
+  /** The verse's own verse number. */
   verse: number;
+  /** The verse's own content tree — any shape `Content` permits. */
   content: Content;
 }
 
@@ -82,20 +87,33 @@ interface VerseRecord {
 interface NodeShape {
   /** This node's own text, or `undefined` when it has no `text` key at all — a `{heading}`/`{subtitle}`/`{bibleLink}` wrapper, a `ContentNested` wrapper, or a multi-number tag's own textless sibling. */
   text: string | undefined;
+  /** This node's own `marks` array, normalized to `[]` when absent so two nodes can be compared for formatting agreement without null-checking first. */
   marks: readonly unknown[];
+  /** This node's own `script` value (e.g. `"G"`/`"H"`), or `undefined` when it doesn't carry one. */
   script: unknown;
+  /** This node's own `strong` number, or `undefined` when it doesn't carry one. */
   strong: string | undefined;
+  /** Whether this node carries a `foot`. */
   hasFoot: boolean;
   /** A `ContentNested` wrapper (`{content: [...], strong: "..."}`) — no top-level `text` of its own, but real, rendered text one level down. Recursed into separately; never itself an eligible donor, merge target, or attachment point at this array level. */
   hasNestedContent: boolean;
   /** A multi-number `<st>` tag's own textless sibling (`{strong: "H853"}`, no `text`, no nested `content` either) — renders nothing at all, so a backward scan for an attachment point passes straight through it rather than stopping there. Distinct from `hasNestedContent`: both lack top-level `text`, but only one of them is actually invisible. */
   isTextlessStrongSibling: boolean;
+  /** Whether this node's own `paragraph` is `true`. */
   opensParagraph: boolean;
+  /** Whether this node's own `break` is `true`. */
   endsBreak: boolean;
   /** A `{heading}`/`{subtitle}`/`{bibleLink}` wrapper, or any other non-plain-object shape — opaque to every check here, a hard boundary none of them cross. */
   isBoundary: boolean;
 }
 
+/**
+ * Reads any raw content-tree node into the shared {@link NodeShape} every
+ * check in this module is built on — a `{heading}`/`{subtitle}`/`{bibleLink}`
+ * wrapper, `null`, or any non-plain-object value all read as a boundary;
+ * everything else reads its own `text`/`marks`/`script`/`strong`/`foot`/
+ * `paragraph`/`break` straight off the node.
+ */
 function describeNode(node: unknown): NodeShape {
   const empty = {
     marks: [] as readonly unknown[],
@@ -131,7 +149,8 @@ function describeNode(node: unknown): NodeShape {
     strong,
     hasFoot: record.foot !== undefined && record.foot !== null,
     hasNestedContent,
-    isTextlessStrongSibling: text === undefined && strong !== undefined && !hasNestedContent,
+    isTextlessStrongSibling:
+      text === undefined && strong !== undefined && !hasNestedContent,
     opensParagraph: record.paragraph === true,
     endsBreak: record.break === true,
     isBoundary: false,
@@ -140,17 +159,28 @@ function describeNode(node: unknown): NodeShape {
 
 /** True when two nodes agree closely enough on `marks`/`script` that a mismatch could not be the reason they stayed split — the same "stays split, not nested" rule that keeps a small-caps divine name (`marks: ["sc"]`) split from an ordinary, unmarked connector word sitting beside it. */
 function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
-  return a.script === b.script && a.marks.length === b.marks.length && a.marks.every((mark, at) => mark === b.marks[at]);
+  return (
+    a.script === b.script &&
+    a.marks.length === b.marks.length &&
+    a.marks.every((mark, at) => mark === b.marks[at])
+  );
 }
 
 /** Real, non-blank, untagged, footnote-less text — the only shape either side of a merge (check 1) may supply the "plain" half of. */
 function isMergeableConnector(shape: NodeShape): boolean {
-  return shape.text !== undefined && shape.text.trim() !== "" && shape.strong === undefined && !shape.hasFoot;
+  return (
+    shape.text !== undefined &&
+    shape.text.trim() !== "" &&
+    shape.strong === undefined &&
+    !shape.hasFoot
+  );
 }
 
 /** A real, text-bearing node some other node's stray text might legitimately belong on — `strong`-carrying, footnoted, or plain, it does not matter which; only a `ContentNested` wrapper (no top-level `text`) or a hard boundary is disqualified. */
 function isRealAttachmentPoint(shape: NodeShape): boolean {
-  return !shape.isBoundary && shape.text !== undefined && shape.text.trim() !== "";
+  return (
+    !shape.isBoundary && shape.text !== undefined && shape.text.trim() !== ""
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -184,7 +214,12 @@ function canJoinForward(run: readonly NodeShape[], target: NodeShape): boolean {
     target.strong !== undefined &&
     target.text !== undefined &&
     !target.opensParagraph &&
-    run.every((shape, at) => !shape.endsBreak && (at === 0 || !shape.opensParagraph) && agreesInFormatting(shape, target))
+    run.every(
+      (shape, at) =>
+        !shape.endsBreak &&
+        (at === 0 || !shape.opensParagraph) &&
+        agreesInFormatting(shape, target),
+    )
   );
 }
 
@@ -209,7 +244,10 @@ function canJoinForward(run: readonly NodeShape[], target: NodeShape): boolean {
  * one, is a missing tag on the connector itself, not a merge this check
  * could ever recommend.
  */
-function scanArrayForUnmergedPairs(nodes: readonly unknown[], where: string): PairFinding[] {
+function scanArrayForUnmergedPairs(
+  nodes: readonly unknown[],
+  where: string,
+): PairFinding[] {
   const shapes = nodes.map(describeNode);
   const findings: PairFinding[] = [];
 
@@ -254,7 +292,9 @@ function isTightPunctuationChar(ch: string): boolean {
 }
 
 /** Splits `text` at the boundary between its own leading run of {@link isTightPunctuationChar} characters and everything after — `undefined` when `text` does not start with one at all. */
-function leadingTightPunctuationSplit(text: string): { before: string; after: string } | undefined {
+function leadingTightPunctuationSplit(
+  text: string,
+): { before: string; after: string } | undefined {
   let i = 0;
   while (i < text.length && isTightPunctuationChar(text[i])) i++;
   if (i === 0) return undefined;
@@ -306,13 +346,21 @@ interface LeadingPunctuationFinding {
  * negligible few with nothing real preceding at all) — both excluded here,
  * not flagged.
  */
-function scanArrayForLeadingPunctuation(nodes: readonly unknown[], where: string): LeadingPunctuationFinding[] {
+function scanArrayForLeadingPunctuation(
+  nodes: readonly unknown[],
+  where: string,
+): LeadingPunctuationFinding[] {
   const shapes = nodes.map(describeNode);
   const findings: LeadingPunctuationFinding[] = [];
 
   for (let i = 0; i < nodes.length; i++) {
     const shape = shapes[i];
-    if (shape.strong === undefined || shape.text === undefined || shape.text.length === 0) continue;
+    if (
+      shape.strong === undefined ||
+      shape.text === undefined ||
+      shape.text.length === 0
+    )
+      continue;
 
     const split = leadingTightPunctuationSplit(shape.text);
     if (split === undefined) continue;
@@ -322,9 +370,20 @@ function scanArrayForLeadingPunctuation(nodes: readonly unknown[], where: string
     if (j < 0) continue;
 
     const target = shapes[j];
-    if (!isRealAttachmentPoint(target) || target.endsBreak || shape.opensParagraph || !agreesInFormatting(target, shape)) continue;
+    if (
+      !isRealAttachmentPoint(target) ||
+      target.endsBreak ||
+      shape.opensParagraph ||
+      !agreesInFormatting(target, shape)
+    )
+      continue;
 
-    findings.push({ where, node: nodes[i], leading: split.before, attachTo: nodes[j] });
+    findings.push({
+      where,
+      node: nodes[i],
+      leading: split.before,
+      attachTo: nodes[j],
+    });
   }
 
   return findings;
@@ -336,7 +395,11 @@ function scanArrayForLeadingPunctuation(nodes: readonly unknown[], where: string
 
 /** True when a node carries a `strong` value and its own `text` ends in whitespace — the mirror image of check 3, and the shape a well-behaved importer should never produce (see `utils/validate.ts`'s `findStrongTrailingWhitespaceNodes` for the convention this violates). */
 function hasTrailingWhitespace(shape: NodeShape): boolean {
-  return shape.strong !== undefined && shape.text !== undefined && /\s$/.test(shape.text);
+  return (
+    shape.strong !== undefined &&
+    shape.text !== undefined &&
+    /\s$/.test(shape.text)
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -359,7 +422,13 @@ function hasTrailingWhitespace(shape: NodeShape): boolean {
  * repeated for essentially every word of the verse.
  */
 function isBlankConnector(shape: NodeShape): boolean {
-  return shape.text !== undefined && shape.text.length > 0 && shape.text.trim() === "" && shape.strong === undefined && !shape.hasFoot;
+  return (
+    shape.text !== undefined &&
+    shape.text.length > 0 &&
+    shape.text.trim() === "" &&
+    shape.strong === undefined &&
+    !shape.hasFoot
+  );
 }
 
 /** One stranded joining-space finding within a single array level. */
@@ -399,7 +468,10 @@ interface MarkBoundarySpaceFinding {
  * footnote stays attached to whichever node already carries it; only the
  * space itself moves.
  */
-function scanArrayForMarkBoundarySpaces(nodes: readonly unknown[], where: string): MarkBoundarySpaceFinding[] {
+function scanArrayForMarkBoundarySpaces(
+  nodes: readonly unknown[],
+  where: string,
+): MarkBoundarySpaceFinding[] {
   const shapes = nodes.map(describeNode);
   const findings: MarkBoundarySpaceFinding[] = [];
 
@@ -418,7 +490,12 @@ function scanArrayForMarkBoundarySpaces(nodes: readonly unknown[], where: string
     if (!isRealAttachmentPoint(target) || target.opensParagraph) continue;
     if (!agreesInFormatting(left, target)) continue;
 
-    findings.push({ where, left: nodes[i - 1], space: nodes[i], target: nodes[j] });
+    findings.push({
+      where,
+      left: nodes[i - 1],
+      space: nodes[i],
+      target: nodes[j],
+    });
   }
 
   return findings;
@@ -437,7 +514,9 @@ function scanArrayForMarkBoundarySpaces(nodes: readonly unknown[], where: string
  * audit (this module only detects; see the top doc comment).
  */
 interface VerseInitialSpaceFinding {
+  /** The verse's own opening content node — the one whose text starts with whitespace. */
   first: unknown;
+  /** Whatever immediately follows `first` in the verse's content array. */
   next: unknown;
 }
 
@@ -461,7 +540,9 @@ interface VerseInitialSpaceFinding {
  * content continues (`{paragraph: true, text: " Jesus went out from the
  * temple..."}`, Matthew 24:1).
  */
-function checkVerseInitialSpace(content: unknown): VerseInitialSpaceFinding | undefined {
+function checkVerseInitialSpace(
+  content: unknown,
+): VerseInitialSpaceFinding | undefined {
   const nodes = asArray(content);
   const shape = describeNode(nodes[0]);
   if (shape.text === undefined || !/^\s/.test(shape.text)) return undefined;
@@ -473,15 +554,22 @@ function checkVerseInitialSpace(content: unknown): VerseInitialSpaceFinding | un
 // Recursion — one array level, plus every node's own heading/subtitle/content/foot.content
 // ---------------------------------------------------------------------------
 
+/** Normalizes a single node or an already-array value into an array — several schema fields (e.g. `heading`, `foot.content`) may hold either shape. */
 function asArray(content: unknown): unknown[] {
   return Array.isArray(content) ? content : [content];
 }
 
+/** All five checks' findings for one array level (and everything nested beneath it) — the shape {@link findStrongsNodeIssues} returns. */
 interface LevelFindings {
+  /** Check 1's findings. */
   unmergedPairs: PairFinding[];
+  /** Check 2's findings — each entry is the offending node's own path (e.g. `content[3]`), not a full finding object. */
   trailingWhitespace: string[];
+  /** Check 3's findings. */
   leadingPunctuation: LeadingPunctuationFinding[];
+  /** Check 4's findings. */
   markBoundarySpaces: MarkBoundarySpaceFinding[];
+  /** Check 5's finding for this verse, or `undefined` when its content doesn't start with whitespace — at most one per verse. */
   verseInitialSpace: VerseInitialSpaceFinding | undefined;
 }
 
@@ -491,7 +579,11 @@ interface LevelFindings {
  * body's own `foot.content` — collecting all four checks' findings into
  * `sink` as it goes.
  */
-function walkLevel(nodes: readonly unknown[], where: string, sink: LevelFindings): void {
+function walkLevel(
+  nodes: readonly unknown[],
+  where: string,
+  sink: LevelFindings,
+): void {
   sink.unmergedPairs.push(...scanArrayForUnmergedPairs(nodes, where));
   sink.leadingPunctuation.push(...scanArrayForLeadingPunctuation(nodes, where));
   sink.markBoundarySpaces.push(...scanArrayForMarkBoundarySpaces(nodes, where));
@@ -499,18 +591,28 @@ function walkLevel(nodes: readonly unknown[], where: string, sink: LevelFindings
   for (let i = 0; i < nodes.length; i++) {
     const node = nodes[i];
     const shape = describeNode(node);
-    if (hasTrailingWhitespace(shape)) sink.trailingWhitespace.push(`${where}[${i}]`);
+    if (hasTrailingWhitespace(shape))
+      sink.trailingWhitespace.push(`${where}[${i}]`);
 
-    if (node === null || typeof node !== "object" || Array.isArray(node)) continue;
+    if (node === null || typeof node !== "object" || Array.isArray(node))
+      continue;
     const record = node as Record<string, unknown>;
 
-    if (record.heading !== undefined) walkLevel(asArray(record.heading), `${where}.heading`, sink);
-    if (record.subtitle !== undefined) walkLevel(asArray(record.subtitle), `${where}.subtitle`, sink);
-    if (record.heading === undefined && record.subtitle === undefined && record.bibleLink === undefined && record.content !== undefined) {
+    if (record.heading !== undefined)
+      walkLevel(asArray(record.heading), `${where}.heading`, sink);
+    if (record.subtitle !== undefined)
+      walkLevel(asArray(record.subtitle), `${where}.subtitle`, sink);
+    if (
+      record.heading === undefined &&
+      record.subtitle === undefined &&
+      record.bibleLink === undefined &&
+      record.content !== undefined
+    ) {
       walkLevel(asArray(record.content), `${where}.content`, sink);
     }
     const foot = record.foot as { content?: unknown } | undefined;
-    if (foot?.content !== undefined) walkLevel(asArray(foot.content), `${where}.foot.content`, sink);
+    if (foot?.content !== undefined)
+      walkLevel(asArray(foot.content), `${where}.foot.content`, sink);
   }
 }
 
@@ -524,7 +626,10 @@ function walkLevel(nodes: readonly unknown[], where: string, sink: LevelFindings
  * @param content - A verse's own `content` value, any shape the schema permits.
  * @param where - The array level's own label, threaded through recursion; callers pass nothing and get `"content"`.
  */
-export function findStrongsNodeIssues(content: Content, where = "content"): LevelFindings {
+export function findStrongsNodeIssues(
+  content: Content,
+  where = "content",
+): LevelFindings {
   const sink: LevelFindings = {
     unmergedPairs: [],
     trailingWhitespace: [],
@@ -542,47 +647,73 @@ export function findStrongsNodeIssues(content: Content, where = "content"): Leve
 
 /** One offending unmerged pair, with its file/verse identity attached. */
 export interface UnmergedStrongPairFinding extends PairFinding {
+  /** The version id this finding belongs to (e.g. `KJV1769`). */
   version: string;
+  /** The verse file this finding belongs to (e.g. `01-GEN.json`). */
   file: string;
+  /** The book id this finding belongs to (e.g. `GEN`). */
   book: string;
+  /** The chapter number this finding belongs to. */
   chapter: number;
+  /** The verse number this finding belongs to. */
   verse: number;
 }
 
 /** One node with trailing whitespace, with its file/verse identity attached. */
 export interface StrongTrailingWhitespaceFinding {
+  /** The version id this finding belongs to (e.g. `KJV1769`). */
   version: string;
+  /** The verse file this finding belongs to (e.g. `01-GEN.json`). */
   file: string;
+  /** The book id this finding belongs to (e.g. `GEN`). */
   book: string;
+  /** The chapter number this finding belongs to. */
   chapter: number;
+  /** The verse number this finding belongs to. */
   verse: number;
+  /** The offending node's own path within the verse's content tree (e.g. `content[3]`). */
   path: string;
 }
 
 /** One misplaced-leading-punctuation node, with its file/verse identity attached. */
 export interface StrongLeadingPunctuationFinding extends LeadingPunctuationFinding {
+  /** The version id this finding belongs to (e.g. `KJV1769`). */
   version: string;
+  /** The verse file this finding belongs to (e.g. `01-GEN.json`). */
   file: string;
+  /** The book id this finding belongs to (e.g. `GEN`). */
   book: string;
+  /** The chapter number this finding belongs to. */
   chapter: number;
+  /** The verse number this finding belongs to. */
   verse: number;
 }
 
 /** One stranded joining-space finding, with its file/verse identity attached. */
 export interface MarkBoundarySpaceFileFinding extends MarkBoundarySpaceFinding {
+  /** The version id this finding belongs to (e.g. `KJV1769`). */
   version: string;
+  /** The verse file this finding belongs to (e.g. `01-GEN.json`). */
   file: string;
+  /** The book id this finding belongs to (e.g. `GEN`). */
   book: string;
+  /** The chapter number this finding belongs to. */
   chapter: number;
+  /** The verse number this finding belongs to. */
   verse: number;
 }
 
 /** One verse-initial-space finding, with its file/verse identity attached. */
 export interface VerseInitialSpaceFileFinding extends VerseInitialSpaceFinding {
+  /** The version id this finding belongs to (e.g. `KJV1769`). */
   version: string;
+  /** The verse file this finding belongs to (e.g. `01-GEN.json`). */
   file: string;
+  /** The book id this finding belongs to (e.g. `GEN`). */
   book: string;
+  /** The chapter number this finding belongs to. */
   chapter: number;
+  /** The verse number this finding belongs to. */
   verse: number;
 }
 
@@ -596,11 +727,17 @@ function verseFiles(version: string): string[] {
 
 /** One version's own audit: its id, and every finding {@link auditVersion} found, across all five checks. */
 export interface VersionAudit {
+  /** The version id audited (e.g. `KJV1769`). */
   version: string;
+  /** Check 1's findings, corpus-wide for this version. */
   unmergedPairs: readonly UnmergedStrongPairFinding[];
+  /** Check 2's findings, corpus-wide for this version. */
   trailingWhitespace: readonly StrongTrailingWhitespaceFinding[];
+  /** Check 3's findings, corpus-wide for this version. */
   leadingPunctuation: readonly StrongLeadingPunctuationFinding[];
+  /** Check 4's findings, corpus-wide for this version. */
   markBoundarySpaces: readonly MarkBoundarySpaceFileFinding[];
+  /** Check 5's findings, corpus-wide for this version. */
   verseInitialSpaces: readonly VerseInitialSpaceFileFinding[];
 }
 
@@ -618,31 +755,53 @@ export function auditVersion(version: string): VersionAudit {
   const verseInitialSpaces: VerseInitialSpaceFileFinding[] = [];
 
   for (const file of verseFiles(version)) {
-    const verses = JSON.parse(fs.readFileSync(path.join(BIBLE_VERSIONS_DIR, version, file), "utf8")) as VerseRecord[];
+    const verses = JSON.parse(
+      fs.readFileSync(path.join(BIBLE_VERSIONS_DIR, version, file), "utf8"),
+    ) as VerseRecord[];
 
     for (const verse of verses) {
-      const identity = { version, file, book: verse.book, chapter: verse.chapter, verse: verse.verse };
+      const identity = {
+        version,
+        file,
+        book: verse.book,
+        chapter: verse.chapter,
+        verse: verse.verse,
+      };
       const findings = findStrongsNodeIssues(verse.content);
-      for (const pair of findings.unmergedPairs) unmergedPairs.push({ ...identity, ...pair });
-      for (const at of findings.trailingWhitespace) trailingWhitespace.push({ ...identity, path: at });
-      for (const finding of findings.leadingPunctuation) leadingPunctuation.push({ ...identity, ...finding });
-      for (const finding of findings.markBoundarySpaces) markBoundarySpaces.push({ ...identity, ...finding });
-      if (findings.verseInitialSpace) verseInitialSpaces.push({ ...identity, ...findings.verseInitialSpace });
+      for (const pair of findings.unmergedPairs)
+        unmergedPairs.push({ ...identity, ...pair });
+      for (const at of findings.trailingWhitespace)
+        trailingWhitespace.push({ ...identity, path: at });
+      for (const finding of findings.leadingPunctuation)
+        leadingPunctuation.push({ ...identity, ...finding });
+      for (const finding of findings.markBoundarySpaces)
+        markBoundarySpaces.push({ ...identity, ...finding });
+      if (findings.verseInitialSpace)
+        verseInitialSpaces.push({ ...identity, ...findings.verseInitialSpace });
     }
   }
 
-  return { version, unmergedPairs, trailingWhitespace, leadingPunctuation, markBoundarySpaces, verseInitialSpaces };
+  return {
+    version,
+    unmergedPairs,
+    trailingWhitespace,
+    leadingPunctuation,
+    markBoundarySpaces,
+    verseInitialSpaces,
+  };
 }
 
 /**
  * Audit each named version, or every version directory under
  * `bible-versions/` when none are named — deliberately not a curated list
  * (see this module's own top doc comment): a version with no `strong`
- * values at all just reports zero findings across all three checks.
+ * values at all just reports zero findings across all five checks.
  *
  * @param versionIds - Versions to audit; defaults to {@link getVersionDirectories}.
  */
-export function auditVersions(versionIds: readonly string[] = getVersionDirectories()): VersionAudit[] {
+export function auditVersions(
+  versionIds: readonly string[] = getVersionDirectories(),
+): VersionAudit[] {
   return versionIds.map((version) => auditVersion(version));
 }
 
@@ -660,46 +819,74 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
     : 0;
 }
 
+/** Prints one version's own findings across all five checks — the first `cap` per check, or every one when `verbose`. */
 function printFindingLines(summary: VersionAudit, verbose: boolean): void {
   const cap = verbose ? Infinity : 10;
 
-  console.log(`  ${summary.unmergedPairs.length} adjacent node pair(s) that should have merged into one strong-carrying node but didn't`);
+  console.log(
+    `  ${summary.unmergedPairs.length} adjacent node pair(s) that should have merged into one strong-carrying node but didn't`,
+  );
   for (const finding of summary.unmergedPairs.slice(0, cap)) {
     console.log(
       `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} plain=${JSON.stringify(finding.plain)} target=${JSON.stringify(finding.target)}`,
     );
   }
-  if (!verbose && summary.unmergedPairs.length > cap) console.log(`    … ${summary.unmergedPairs.length - cap} more (--verbose to list all)`);
+  if (!verbose && summary.unmergedPairs.length > cap)
+    console.log(
+      `    … ${summary.unmergedPairs.length - cap} more (--verbose to list all)`,
+    );
 
-  console.log(`  ${summary.trailingWhitespace.length} strong-carrying node(s) whose own text ends in trailing whitespace`);
+  console.log(
+    `  ${summary.trailingWhitespace.length} strong-carrying node(s) whose own text ends in trailing whitespace`,
+  );
   for (const finding of summary.trailingWhitespace.slice(0, cap)) {
-    console.log(`    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`);
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+    );
   }
-  if (!verbose && summary.trailingWhitespace.length > cap) console.log(`    … ${summary.trailingWhitespace.length - cap} more (--verbose to list all)`);
+  if (!verbose && summary.trailingWhitespace.length > cap)
+    console.log(
+      `    … ${summary.trailingWhitespace.length - cap} more (--verbose to list all)`,
+    );
 
-  console.log(`  ${summary.leadingPunctuation.length} strong-carrying node(s) whose own text starts with punctuation glued to the wrong node`);
+  console.log(
+    `  ${summary.leadingPunctuation.length} strong-carrying node(s) whose own text starts with punctuation glued to the wrong node`,
+  );
   for (const finding of summary.leadingPunctuation.slice(0, cap)) {
     console.log(
       `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} leading=${JSON.stringify(finding.leading)} node=${JSON.stringify(finding.node)} attachTo=${JSON.stringify(finding.attachTo)}`,
     );
   }
-  if (!verbose && summary.leadingPunctuation.length > cap) console.log(`    … ${summary.leadingPunctuation.length - cap} more (--verbose to list all)`);
+  if (!verbose && summary.leadingPunctuation.length > cap)
+    console.log(
+      `    … ${summary.leadingPunctuation.length - cap} more (--verbose to list all)`,
+    );
 
-  console.log(`  ${summary.markBoundarySpaces.length} bare joining space(s) stranded between two same-formatting nodes instead of leading the second`);
+  console.log(
+    `  ${summary.markBoundarySpaces.length} bare joining space(s) stranded between two same-formatting nodes instead of leading the second`,
+  );
   for (const finding of summary.markBoundarySpaces.slice(0, cap)) {
     console.log(
       `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} space=${JSON.stringify(finding.space)} target=${JSON.stringify(finding.target)}`,
     );
   }
-  if (!verbose && summary.markBoundarySpaces.length > cap) console.log(`    … ${summary.markBoundarySpaces.length - cap} more (--verbose to list all)`);
+  if (!verbose && summary.markBoundarySpaces.length > cap)
+    console.log(
+      `    … ${summary.markBoundarySpaces.length - cap} more (--verbose to list all)`,
+    );
 
-  console.log(`  ${summary.verseInitialSpaces.length} verse(s) whose own content starts with a space`);
+  console.log(
+    `  ${summary.verseInitialSpaces.length} verse(s) whose own content starts with a space`,
+  );
   for (const finding of summary.verseInitialSpaces.slice(0, cap)) {
     console.log(
       `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) first=${JSON.stringify(finding.first)} next=${JSON.stringify(finding.next)}`,
     );
   }
-  if (!verbose && summary.verseInitialSpaces.length > cap) console.log(`    … ${summary.verseInitialSpaces.length - cap} more (--verbose to list all)`);
+  if (!verbose && summary.verseInitialSpaces.length > cap)
+    console.log(
+      `    … ${summary.verseInitialSpaces.length - cap} more (--verbose to list all)`,
+    );
 }
 
 /** True when a version's audit found nothing across any of the five checks — printed as a single skipped line rather than an empty block, so a report over every version on disk stays readable. */
@@ -713,9 +900,14 @@ function isClean(summary: VersionAudit): boolean {
   );
 }
 
-function printReport(summaries: readonly VersionAudit[], verbose: boolean): void {
+/** Prints the whole report: every clean version collapsed into one line, then each version carrying any finding in full via {@link printFindingLines}. */
+function printReport(
+  summaries: readonly VersionAudit[],
+  verbose: boolean,
+): void {
   const clean = summaries.filter(isClean).map((summary) => summary.version);
-  if (clean.length > 0) console.log(`Clean (no findings): ${clean.join(", ")}\n`);
+  if (clean.length > 0)
+    console.log(`Clean (no findings): ${clean.join(", ")}\n`);
 
   for (const summary of summaries) {
     if (isClean(summary)) continue;
@@ -738,10 +930,14 @@ function printReport(summaries: readonly VersionAudit[], verbose: boolean): void
  */
 function main(): void {
   const args = process.argv.slice(2);
-  const verbose = args.includes("--verbose") || /^(verbose|silly)$/.test(process.env.npm_config_loglevel ?? "");
+  const verbose =
+    args.includes("--verbose") ||
+    /^(verbose|silly)$/.test(process.env.npm_config_loglevel ?? "");
   const versionIds = args.filter((arg) => arg !== "--verbose");
 
-  const summaries = auditVersions(versionIds.length > 0 ? versionIds : undefined);
+  const summaries = auditVersions(
+    versionIds.length > 0 ? versionIds : undefined,
+  );
   printReport(summaries, verbose);
   process.exit(exitCodeFor(summaries));
 }
