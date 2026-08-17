@@ -9592,8 +9592,7 @@
         "strong": "H310"
       },
       { "text": " all thy wickedness,", "strong": "H7451" },
-      " (",
-      { "text": "woe,", "strong": "H188" },
+      { "text": " (woe,", "strong": "H188" },
       { "text": " woe", "strong": "H188" },
       { "text": " unto thee! saith", "strong": "H5002", "morph": "QalPasPtc" },
       { "text": " the Lord", "strong": "H136" },
@@ -25151,8 +25150,11 @@
         "strong": "H935",
         "morph": "QalInf"
       },
-      " (",
-      { "text": "lo, it will come,)", "strong": "H935", "morph": "QalActPtc" },
+      {
+        "text": " (lo, it will come,)",
+        "strong": "H935",
+        "morph": "QalActPtc"
+      },
       {
         "text": " then shall they know",
         "strong": "H3045",

@@ -34,8 +34,7 @@
     "chapter": 1,
     "verse": 2,
     "content": [
-      "(",
-      { "text": "for", "strong": "G2532" },
+      { "text": "(for", "strong": "G2532" },
       { "text": " the life", "strong": "G2222" },
       { "text": " was manifested,", "strong": "G5319", "morph": "AorPasInd" },
       { "text": " and", "strong": "G2532" },
@@ -876,24 +875,20 @@
       { "text": " not", "strong": "G3761" },
       { "text": " the Father:", "strong": "G3962" },
       " ",
-      { "text": "(", "marks": ["i"] },
       {
-        "text": "but) he that acknowledgeth",
+        "text": "(but) he that acknowledgeth",
         "marks": ["i"],
         "strong": "G3670",
         "morph": "PresActPtc"
       },
-      " ",
-      { "text": "the Son", "marks": ["i"], "strong": "G5207" },
-      " ",
+      { "text": " the Son", "marks": ["i"], "strong": "G5207" },
       {
-        "text": "hath",
+        "text": " hath",
         "marks": ["i"],
         "strong": "G2192",
         "morph": "PresActInd"
       },
-      " ",
-      { "text": "the Father", "marks": ["i"], "strong": "G3962" },
+      { "text": " the Father", "marks": ["i"], "strong": "G3962" },
       " ",
       {
         "content": [{ "text": "also", "marks": ["i"] }, "."],

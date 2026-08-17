@@ -9,15 +9,19 @@
       "ajv-validation": "Use AJV library for JSON Schema validation with support for $ref resolution across schema files.",
       "atomic-file-writes": "Write JSON output via writeJsonFile() and raw text (Markdown, pre-formatted JSON) via writeFileAtomic(), both from functions/writeJsonFile.ts. Do not call fs.writeFileSync directly for pipeline output — both helpers stage bytes to a temp file and rename over the target, retrying on a backoff if the rename is transiently blocked.",
       "json-canonicalization-from-parsed-data": "Any JSON formatting pass (writeJsonFile()'s formatJsonData(), and validate.ts's own reformat-on-change check) must derive its output from JSON.parse'd data, never from a file's existing raw text. Prettier preserves whichever line breaks its input already has rather than re-deciding them from width, so formatting raw text lets a stray break (e.g. from a prior bug, or a different tool's output style) persist across every future validate run instead of self-correcting.",
-      "cross-chapter-bible-link-splitting": "A bibleLink target whose range spans two chapters of the same book (e.g. '2 Kings 6:31–7:20') must be split into two chapter-scoped links joined by a literal en dash. Enforced by utils/crossChapterLinks.ts and audited corpus-wide by utils/auditCrossChapterLinks.ts."
+      "cross-chapter-bible-link-splitting": "A bibleLink target whose range spans two chapters of the same book (e.g. '2 Kings 6:31–7:20') must be split into two chapter-scoped links joined by a literal en dash. Enforced by utils/crossChapterLinks.ts and audited corpus-wide by utils/auditCrossChapterLinks.ts.",
+      "strong-node-text-flow-conventions": "A joining space belongs on the leading edge of the node it joins, never the trailing edge of the node before it; a connector word left unmerged should fold forward into the strong-carrying neighbor after it, never backward; a verse's own outermost content must never open with whitespace. Audited (read-only, no --fix) by utils/auditStrongsNodes.ts across five distinct drift shapes.",
+      "no-meaningless-content-nodes": "A node must never carry only formatting (marks/script) with no text to apply it to, nor an empty '' text husk left over from stripped marks. Enforced by utils/validate.ts's findMeaninglessContentNodes()."
     },
     "architectural_constraints": {
       "no-database": "All data stored as flat JSON files, no traditional database. Read/write via Node.js fs module.",
       "schema-reference-urls": "Schema $id and $ref use GitHub URLs but resolve locally via AJV schema registration.",
       "immutable-source-data": "Bible verse JSON files in version directories are source data; exports go to separate exports/ directory.",
       "content-flexibility": "Content can be plain string, structured object with metadata, or array combining both. Code must handle all cases.",
+      "content-nested-carries-marks": "A ContentNested wrapper ({content, strong, ...}) may itself carry marks (bold/italic/woc/small-caps applying to an entire nested subtree), not just leaf ContentObject nodes.",
       "strong-number-format": "Strong's numbers must match pattern '^[GH][0-9]{1,4}$' (G for Greek, H for Hebrew).",
-      "version-scoped-chapter-lengths": "A chapter's last verse must be read from that version's own verse records, never a shared or borrowed table — versification (e.g. Romans 14's last verse) differs between translations."
+      "version-scoped-chapter-lengths": "A chapter's last verse must be read from that version's own verse records, never a shared or borrowed table — versification (e.g. Romans 14's last verse) differs between translations.",
+      "single-footnote-per-node": "The schema allows only one foot per node; a word's second footnote must ride as a textless sibling node immediately after it, carrying only foot."
     }
   },
   "ui": {
@@ -27,13 +31,14 @@
       "cdn-dependencies": "React, ReactDOM, Tailwind CSS, Font Awesome, and fonts loaded via CDN in index.html.",
       "component-registration": "Each component file assigns to window object (e.g., 'window.App = App') for cross-file access.",
       "tailwind-utility-classes": "Use Tailwind CSS utility classes for styling. Dark mode via 'dark:' prefix variants.",
-      "script-specific-fonts": "Hebrew text uses 'David Libre' font with RTL direction; Greek uses 'EB Garamond'; Latin uses 'Atkinson Hyperlegible'."
+      "script-specific-fonts": "Hebrew text uses 'David Libre' font with RTL direction; Greek uses 'EB Garamond'; Latin uses 'Atkinson Hyperlegible'.",
+      "shared-footnote-text-extraction": "Footnote display text must be derived through the single shared window.getFootnoteText (web/public/js/footnoteText.js), not re-flattened inline per rendering path — it recurses through every foot.content shape (string, array, {bibleLink, content?}, {text}) so every footnote flattens identically regardless of which node shape it's attached to."
     },
     "architectural_constraints": {
       "no-build-process": "Frontend has no webpack/vite/rollup. All JS loaded directly via script tags with Babel transpilation.",
       "single-page-app": "Single index.html entry point. All navigation is in-memory state changes.",
       "prop-drilling": "State flows from App component down via props. No Context API or global state.",
-      "component-order": "Script tags in index.html must load in dependency order (Icons → Toggle → ... → App).",
+      "component-order": "Script tags in index.html must load in dependency order (Icons → Toggle → ... → App); footnoteText.js must load before ContentNode.js, since it's a window-global dependency, not a module import.",
       "dark-mode-class": "Dark mode toggled via 'dark' class on document.documentElement."
     }
   },
@@ -68,7 +73,8 @@
       "dual-export-formats": "Export to both text-vbv-strongs (annotated text) and markdown-par (paragraph markdown).",
       "recursive-content-processing": "Content processing functions must handle string, object, and array recursively.",
       "footnote-lettering": "Footnotes labeled with letters (a, b, c...) cycling after 'z', per chapter.",
-      "chapter-grouping": "Markdown export groups verses by chapter with ## headers."
+      "chapter-grouping": "Markdown export groups verses by chapter with ## headers.",
+      "shared-emphasis-delimiter-spans": "Adjacent array siblings carrying the same open bold/italic (b/i) marks must render under one shared open/close delimiter pair, not one pair per sibling — tracked as an open/close transition between consecutive items, not per-item wrapping. Per-item wrapping produces broken markdown like '**word****word**' instead of '**word word**'."
     },
     "architectural_constraints": {
       "version-directory-mirroring": "Export directories mirror version directory structure.",

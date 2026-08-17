@@ -65,6 +65,8 @@ interface Testament {
 - **Book Reference Integrity** – Book `_id` values must exist in `bible-books.json`
 - **File-Order Alignment** – Verse files named `{order}-{bookId}.json` must match book ordering
 - **Self-Contained Folders** – Each version folder contains `_version.json` + verse JSON files
+- **Duplicate Display Names Disambiguated** – `getBibleVersions()` groups versions by exact-match `name` and appends each colliding member's own trailing-year suffix parsed from its `_id` (e.g. two versions both named "King James Version" become "King James Version (1611)" and "King James Version (1769)"), so the version picker never shows two identical names. A colliding version whose `_id` has no parseable trailing year is logged and left unmodified rather than throwing
+- **Singular Lookup Skips Disambiguation** – `getBibleVersion(versionId)` deliberately does not disambiguate; doing so would require scanning the whole directory for a single lookup, and no current caller displays its `name` standalone. This is documented in code as an invariant to revisit if that changes
 
 ## Representative Code Examples
 
@@ -75,21 +77,52 @@ _From [functions/getBibleVersions.ts](../functions/getBibleVersions.ts)_
 ```typescript
 export function getBibleVersions(versionsDir?: string): BibleVersion[] {
   const dir = versionsDir ?? BIBLE_VERSIONS_DIR;
-  const items = fs.readdirSync(dir);
-  const versions: BibleVersion[] = [];
+  if (!fs.existsSync(dir)) throw new Error(`Bible versions directory not found: ${dir}`);
 
-  for (const item of items) {
+  const versions: BibleVersion[] = [];
+  for (const item of fs.readdirSync(dir)) {
     const itemPath = path.join(dir, item);
     if (!fs.statSync(itemPath).isDirectory()) continue;
 
-    const versionFilePath = path.join(itemPath, "_version.json");
+    const versionFilePath = path.join(itemPath, VERSION_FILENAME);
     if (!fs.existsSync(versionFilePath)) continue;
 
-    const content = fs.readFileSync(versionFilePath, "utf-8");
-    versions.push(JSON.parse(content) as BibleVersion);
+    try {
+      versions.push(JSON.parse(fs.readFileSync(versionFilePath, "utf-8")) as BibleVersion);
+    } catch (error) {
+      console.error(`Error reading version file ${versionFilePath}:`, error);
+    }
   }
 
   versions.sort((a, b) => a._id.localeCompare(b._id));
+  disambiguateDuplicateNames(versions); // mutates in place — see below
+  return versions;
+}
+```
+
+### Duplicate Name Disambiguation
+
+_From [functions/getBibleVersions.ts](../../../functions/getBibleVersions.ts)_
+
+```typescript
+function disambiguateDuplicateNames(versions: BibleVersion[]): BibleVersion[] {
+  const versionsByName = new Map<string, BibleVersion[]>();
+
+  for (const version of versions) {
+    if (typeof version.name !== "string") continue; // avoid a false-positive object-stringify collision
+    const group = versionsByName.get(version.name);
+    if (group) group.push(version);
+    else versionsByName.set(version.name, [version]);
+  }
+
+  for (const group of versionsByName.values()) {
+    if (group.length < 2) continue;
+    for (const version of group) {
+      const yearMatch = version._id.match(TRAILING_YEAR_PATTERN); // /(\d{4})$/
+      // ...append " (year)" to version.name, or log and skip if unparseable
+    }
+  }
+
   return versions;
 }
 ```

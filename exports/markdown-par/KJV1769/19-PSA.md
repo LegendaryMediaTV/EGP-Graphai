@@ -185,7 +185,7 @@
 
 #### ט Tet
 <sup>15</sup> The heathen are sunk down in the pit _that_ they made:<br>In the net which they hid is their own foot taken.<br>
-<sup>16</sup> The LORD is known _by_ the judgment _which_ he executeth:<br>The wicked is snared in the work of his own hands. _Higgaion._ _Selah._<br>
+<sup>16</sup> The LORD is known _by_ the judgment _which_ he executeth:<br>The wicked is snared in the work of his own hands. _Higgaion. Selah._<br>
 
 #### י Yod
 <sup>17</sup> The wicked shall be turned into hell,<br>_And_ all the nations that forget God.<br>

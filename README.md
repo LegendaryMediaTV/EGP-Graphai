@@ -83,6 +83,12 @@ npm run audit-links
 # Audit one version, or add --fix to write the splits
 npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix
 
+# Audit Strong's-node placement conventions (all versions, read-only)
+npm run audit-strongs-nodes
+
+# Audit one version and list every finding
+npx ts-node utils/auditStrongsNodes.ts WEBUS2020 --verbose
+
 # Run tests
 npm run test
 

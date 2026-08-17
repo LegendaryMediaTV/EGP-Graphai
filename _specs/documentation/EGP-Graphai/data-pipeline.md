@@ -25,6 +25,7 @@ flowchart TD
     SortKeys --> Verse
     Verse --> Audit[auditCrossChapterLinks.ts]
     Audit -->|--fix| Verse
+    Verse --> StrongsAudit[auditStrongsNodes.ts]
 ```
 
 A verse file is the source of truth. Every script in `utils/` either validates it, transforms it in place (with the canonical key order preserved), or reads it to produce a downstream artifact.
@@ -97,6 +98,25 @@ Unlike `convertToSmallCaps` and `sortBibleKeys` above, this one is meant to run 
 
 The classification is deliberately version-aware, not corpus-wide: a chapter's last verse is read from each version's own verse records, since translations disagree on where a chapter ends (Romans 14 runs to verse 23 in some, verse 26 in others), and book-name resolution is restricted to that version's own canon (a name valid in one translation may not exist in an NT-only one like BYZ2018). Detection also treats the en dash, em dash, and ASCII hyphen as equivalent targets, since real data doesn't always use the convention's own en dash.
 
+## Strong's-node audit
+
+Verse content built up node by node — one per lexical unit, each carrying its own Strong's number — can drift out of alignment with this repo's own text-flow conventions during import or hand-editing: a connector word left unmerged next to the Strong's-tagged neighbor it belongs with, a joining space sitting on the wrong side of a boundary, or a verse that simply shouldn't open with whitespace at all. [utils/auditStrongsNodes.ts](../../../utils/auditStrongsNodes.ts) sweeps every version (or one named on the command line) for five such drift patterns:
+
+| Finding                | What it catches                                                                                            |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Unmerged node pairs     | An untagged connector word left split from the Strong's-carrying neighbor it should have folded into        |
+| Trailing whitespace     | A Strong's node's own text ending in a space, when the convention keeps joining spaces on the leading edge of what follows |
+| Leading punctuation     | Tight punctuation (a comma, a closing quote, …) glued to the front of the wrong node instead of the word before it |
+| Mark-boundary spaces    | A bare joining space stranded between two nodes that share the same formatting — most visibly, a Words-of-Christ or italics span built one word at a time |
+| Verse-initial spaces    | A verse's own content opening with a space, paragraph marker or not                                          |
+
+```bash
+npm run audit-strongs-nodes                                 # audit every version, read-only
+npx ts-node utils/auditStrongsNodes.ts WEBUS2020 --verbose   # audit one version, list every finding
+```
+
+Unlike the cross-chapter link auditor above, this one never writes — every invocation is a read-only report, findings and all. Fixing what it surfaces is a manual pass over the corpus, not a flag away.
+
 ## Writing files
 
 Every tool that mutates a verse file or writes an export — `validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts` — goes through [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts) rather than calling `fs.writeFileSync` directly.
@@ -136,3 +156,4 @@ The export logic in particular has tight test coverage because it's the most fra
 - **Footnote letters are not stable across edits.** Inserting a footnote earlier in a chapter relabels every subsequent footnote in the export. Don't treat the letters as IDs.
 - **A "Failed to write … after N attempts" error names a real holdout.** The retries in [writeJsonFile.ts](../../../functions/writeJsonFile.ts) already absorb the usual transient file lock; if a write still fails after all of them, something (antivirus, an indexer, a sync client) is holding that specific file open longer than the retry budget — check what's watching the folder rather than re-running the tool.
 - **A file's formatting reflects its data, not its history.** Two writers of identical content always produce identical bytes, because canonicalization starts from parsed data every time rather than from whatever a file already looks like. One translation once drifted into a far more spread-out style than the rest of the corpus this way — formatting from raw text let a line break baked in by an earlier bug persist across every subsequent validation run instead of being caught and corrected.
+- **`auditStrongsNodes`'s `--verbose` works even without npm's own `--` separator.** Normally `npm run <script> --flag` lets npm's CLI parsing swallow the flag before the script ever sees it; this tool also checks the `npm_config_loglevel` environment variable npm leaves behind either way, so `npm run audit-strongs-nodes KJV1769 --verbose` lists every finding as typed.
