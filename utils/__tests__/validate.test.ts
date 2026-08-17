@@ -1,5 +1,8 @@
 import { describe, it, expect } from "vitest";
-import { findMeaninglessContentNodes } from "../validate";
+import {
+  findMeaninglessContentNodes,
+  findStrongTrailingWhitespaceNodes,
+} from "../validate";
 import Content from "../../types/Content";
 
 describe("findMeaninglessContentNodes", () => {
@@ -31,9 +34,9 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should report a footnote anchor when it still carries marks", () => {
-      // The 472-node shape this objective was about: LSB2021 John 3:13 opened
-      // with { marks: ["woc"], foot: … }, which the exporter turned into
-      // [red][/red]°. The foot is legitimate; the marks are not.
+      // A real shape this rule catches: a verse opening with
+      // { marks: ["woc"], foot: … }, which a naive renderer would wrap in an
+      // empty pair of emphasis tags. The foot is legitimate; the marks are not.
       expect(
         findMeaninglessContentNodes([
           { marks: ["woc"], foot: { type: "xrf", content: "Prov 30:4" } },
@@ -140,8 +143,9 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should report a husk when it sits inside footnote content", () => {
-      // NIV1984 Psalm 25:1 / 34:1 — the residue Phase 4 had to clean up after
-      // stripping marks from { text: "", marks: ["b"] }.
+      // A real shape this rule catches: the residue left behind after
+      // stripping marks from { text: "", marks: ["b"] } without also
+      // removing the now-empty node.
       expect(
         findMeaninglessContentNodes([
           {
@@ -164,7 +168,8 @@ describe("findMeaninglessContentNodes", () => {
 
   describe("nodes that are meaningful without text", () => {
     it("should accept a footnote anchor carrying no text", () => {
-      // 12,452 in the corpus, plus 3,286 with paragraph and 32 with break.
+      // A footnote anchor carries no text of its own — with or without a
+      // paragraph or break flag alongside it — and is meaningful regardless.
       expect(
         findMeaninglessContentNodes([
           { foot: { type: "xrf", content: "Gen 1:1" } },
@@ -176,7 +181,8 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should accept a Strong's-only element carrying no text", () => {
-      // 22,851 bare strong, 646 morph+strong, 12 paragraph+strong.
+      // A bare strong value — with or without morph/paragraph alongside it —
+      // is meaningful with no text of its own.
       expect(
         findMeaninglessContentNodes([
           { strong: "H430" },
@@ -188,7 +194,7 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should accept a bare paragraph or break flag", () => {
-      // 14 bare paragraph nodes in the corpus; both flags render on their own.
+      // Both flags render on their own, with no text needed alongside them.
       expect(
         findMeaninglessContentNodes([
           { paragraph: true },
@@ -213,16 +219,16 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should accept marks on a node whose text is only whitespace", () => {
-      // The same line applyInlineTags, validateBBExport check (d) and the BB
-      // importer all draw: a space is text. Flagging it would have produced
-      // 131 false positives in the BB corpus.
+      // A space is text — something for formatting to apply to — so flagging
+      // whitespace-only text as meaningless would misfire against real
+      // corpus data that legitimately marks a bare joining space.
       expect(
         findMeaninglessContentNodes([{ text: " ", marks: ["woc"] }])
       ).toEqual([]);
     });
 
     it("should accept marks on a nested-content object", () => {
-      // 71 in the corpus. The marks apply to the nested content, not to text.
+      // The marks apply to the nested content, not to text.
       // Cast because types/Content.ts omits marks from ContentNested while
       // content-schema.json allows it.
       expect(
@@ -241,6 +247,94 @@ describe("findMeaninglessContentNodes", () => {
     it("should accept script on a node with text", () => {
       expect(
         findMeaninglessContentNodes([{ text: "λόγος", script: "G" }])
+      ).toEqual([]);
+    });
+  });
+});
+
+describe("findStrongTrailingWhitespaceNodes", () => {
+  describe("a strong-carrying node whose own text ends in whitespace", () => {
+    it("should report a node when its strong-carrying text ends in a space", () => {
+      expect(
+        findStrongTrailingWhitespaceNodes([
+          { text: "God ", strong: "H430" },
+          { text: "said", strong: "H559" },
+        ])
+      ).toEqual([
+        'content[0]: strong "H430" carries text "God " ending in whitespace',
+      ]);
+    });
+
+    it("should report every offender when a verse holds more than one", () => {
+      expect(
+        findStrongTrailingWhitespaceNodes([
+          { text: "one ", strong: "H1" },
+          { text: "two", strong: "H2" },
+          { text: "three ", strong: "H3" },
+        ])
+      ).toEqual([
+        'content[0]: strong "H1" carries text "one " ending in whitespace',
+        'content[2]: strong "H3" carries text "three " ending in whitespace',
+      ]);
+    });
+
+    it("should report a node when it sits inside footnote content", () => {
+      expect(
+        findStrongTrailingWhitespaceNodes([
+          {
+            text: "word",
+            foot: {
+              type: "stu",
+              content: [{ text: "note ", strong: "H1" }],
+            },
+          },
+        ])
+      ).toEqual([
+        'content[0].foot.content[0]: strong "H1" carries text "note " ending in whitespace',
+      ]);
+    });
+  });
+
+  describe("shapes that follow the established convention and must not fire", () => {
+    it("should accept a strong-carrying node whose text carries only a leading space", () => {
+      // The established convention (KJV1769 Genesis 1:1): the space that
+      // joins one word to the next lives as the leading character of
+      // whichever node comes after the gap, not the trailing character of
+      // the one before it.
+      expect(
+        findStrongTrailingWhitespaceNodes([
+          { text: "In the beginning", strong: "H7225" },
+          { text: " God", strong: "H430" },
+        ])
+      ).toEqual([]);
+    });
+
+    it("should accept a textless multi-number sibling node", () => {
+      // { strong: "H853" } with no text key at all — this never matches a
+      // trailing-whitespace test and needs no special exclusion.
+      expect(
+        findStrongTrailingWhitespaceNodes([
+          { text: "the earth", strong: "H776" },
+          { strong: "H853" },
+        ])
+      ).toEqual([]);
+    });
+
+    it("should accept a strong-carrying node whose text has no trailing whitespace", () => {
+      expect(
+        findStrongTrailingWhitespaceNodes([{ text: "beginning", strong: "H7225" }])
+      ).toEqual([]);
+    });
+
+    it("should accept a node with trailing whitespace that carries no strong value", () => {
+      expect(
+        findStrongTrailingWhitespaceNodes([{ text: "middle ", marks: ["i"] }])
+      ).toEqual([]);
+    });
+
+    it("should accept plain string content", () => {
+      expect(
+        findStrongTrailingWhitespaceNodes("In the beginning God created")
       ).toEqual([]);
     });
   });

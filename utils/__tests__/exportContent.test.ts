@@ -9,7 +9,7 @@ import VerseSchema from "../../types/VerseSchema";
  * (e.g. "** foo**" fails this and a spec-compliant parser renders literal
  * asterisks, not `<strong>`). A plain string-contains check on `**`/`_`
  * passes even when this fails, which is exactly what let the original
- * whitespace-padding defect through Phase 1's tests.
+ * whitespace-padding defect through an earlier round of tests.
  */
 function expectWellFormedEmphasis(markdown: string): void {
   for (const match of markdown.matchAll(/\*\*(.*?)\*\*/g)) {
@@ -855,8 +855,7 @@ describe("exportContent", () => {
     });
 
     describe("trailing footnotes", () => {
-      it("should not have trailing space when verse ends with footnote (BYZ2018 MRK 3:27 style)", () => {
-        // Real structure: text with footnote + Strong's/morph, then standalone textless footnote
+      it("should place a trailing textless footnote sibling's marker before the Strong's/morph tag, not after (BYZ2018 MRK 3:27 style — corrected: this shape used to encode the bug as expected behavior)", () => {
         const verse: VerseSchema = {
           book: "MRK",
           chapter: 3,
@@ -873,9 +872,61 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "003:027 διαρπάσῃ.°{B διαρπάσῃ ⇒ διαρπάσει} G1283 (V-AAS-3S)°{N διαρπάσῃ ⇒ διαρπάσει}"
+          "003:027 διαρπάσῃ.°{B διαρπάσῃ ⇒ διαρπάσει}°{N διαρπάσῃ ⇒ διαρπάσει} G1283 (V-AAS-3S)"
         );
         expect(result).not.toMatch(/ $/); // No trailing space
+      });
+
+      it("should place every marker in a chain of trailing textless footnote siblings before the Strong's number, in order (a real corpus shape: 'beginning' carries two footnotes)", () => {
+        const verse: VerseSchema = {
+          book: "GEN",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              paragraph: true,
+              text: "In the beginning",
+              foot: { type: "trn", content: "The clause opens the narrative." },
+              strong: "H7225",
+            },
+            {
+              foot: {
+                type: "stu",
+                content: "The verse begins the account of creation.",
+              },
+            },
+            { text: " God", strong: "H430" },
+          ],
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toBe(
+          "001:001 ¶ In the beginning°{The clause opens the narrative.}°{The verse begins the account of creation.} H7225 God H430"
+        );
+      });
+
+      it("should keep a trailing textless sibling's own line break after the Strong's/morph tag while its marker still moves before it (real KJV1769 Proverbs 10:10 shape)", () => {
+        const verse: VerseSchema = {
+          book: "PRV",
+          chapter: 10,
+          verse: 10,
+          content: [
+            {
+              text: "shall fall.",
+              foot: { type: "trn", content: "Or, shall be beaten." },
+              strong: "H3832",
+              morph: "NiphImpf",
+            },
+            {
+              text: "",
+              break: true,
+              foot: { type: "trn", content: "Or, shall be beaten." },
+            },
+          ],
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toBe(
+          "010:010 shall fall.°{Or, shall be beaten.}°{Or, shall be beaten.} H3832 (NiphImpf)␤"
+        );
       });
     });
 
@@ -904,7 +955,6 @@ describe("exportContent", () => {
       });
 
       it("should have no space between footnote marker and content for textless footnote at start (CLV1880 NUM 20:29 style)", () => {
-        // A textless footnote at the very start, followed by a plain string item
         const verse: VerseSchema = {
           book: "NUM",
           chapter: 20,
@@ -1176,7 +1226,7 @@ describe("exportContent", () => {
       return { markers, footnotes };
     }
 
-    it("should give every footnote in a 135-note chapter a unique label (NKJV1982 PSA 119)", () => {
+    it("should give every footnote in a 135-note chapter a unique label", () => {
       const { markers } = renderChapterWithFootnotes(135);
 
       expect(markers).toHaveLength(135);
@@ -1203,6 +1253,317 @@ describe("exportContent", () => {
       expect(markers[51]).toBe("<sup>az</sup>");
       expect(markers[52]).toBe("<sup>ba</sup>");
       expect(markers[134]).toBe("<sup>ee</sup>");
+    });
+  });
+
+  describe("adjacent same-marked nodes merge into one emphasis span", () => {
+    describe("real Psalm 56:1 superscription shape (yonath/-elem/-rekhoqim, all italic, each its own Strong's number)", () => {
+      const psalm56Superscription: VerseSchema["content"] = [
+        { text: "For the music director", strong: "H5329" },
+        { text: ", according to", strong: "H5921" },
+        " the ",
+        { text: "yonath", marks: ["i"], strong: "H3123" },
+        { text: "-elem", marks: ["i"], strong: "H482" },
+        { text: "-rekhoqim", marks: ["i"], strong: "H7350" },
+        {
+          text: " style;",
+          foot: {
+            type: "trn",
+            content: "The literal meaning is “silent dove, distant ones.”",
+          },
+        },
+      ];
+
+      it("should merge all three same-italic Strong's-tagged nodes into one _..._ span in markdown, since nothing renders between them there", () => {
+        const verse: VerseSchema = {
+          book: "PSA",
+          chapter: 56,
+          verse: 1,
+          content: psalm56Superscription,
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>1</sup> For the music director, according to the _yonath-elem-rekhoqim_ style;<sup>a</sup>"
+        );
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should NOT merge the same three nodes in the plain-text export, since each one's own Strong's number renders between them there — every word keeps its own number immediately after it", () => {
+        const verse: VerseSchema = {
+          book: "PSA",
+          chapter: 56,
+          verse: 1,
+          content: psalm56Superscription,
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toBe(
+          "056:001 For the music director H5329, according to H5921 the yonath H3123-elem H482-rekhoqim H7350 style;°{The literal meaning is “silent dove, distant ones.”}"
+        );
+      });
+    });
+
+    describe("real Matthew 3:3 shape (a footnote interrupts an otherwise-mergeable run of same-marked nodes)", () => {
+      const matthew33Excerpt: VerseSchema["content"] = [
+        {
+          text: "The voice",
+          marks: ["b", "i"],
+          foot: { type: "trn", content: "Or “A voice.”" },
+          strong: "G5456",
+        },
+        { text: " of one shouting", marks: ["b", "i"], strong: "G994" },
+        { text: " in", marks: ["b", "i"], strong: "G1722" },
+      ];
+
+      it("should close the emphasis span before the footnote marker and open a fresh one after, in markdown — the interrupted node never merges with what follows, but the following two (nothing rendering between them) still merge with each other", () => {
+        const verse: VerseSchema = {
+          book: "MAT",
+          chapter: 3,
+          verse: 3,
+          content: matthew33Excerpt,
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>3</sup> _**The voice**_<sup>a</sup> _**of one shouting in**_"
+        );
+        expect(footnotes).toEqual(['- <sup>a</sup> 3. Or “A voice.”']);
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should never merge any of the three nodes in the plain-text export, since every one's own Strong's number renders between them there too", () => {
+        const verse: VerseSchema = {
+          book: "MAT",
+          chapter: 3,
+          verse: 3,
+          content: matthew33Excerpt,
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toBe(
+          "003:003 The voice°{Or “A voice.”} G5456 of one shouting G994 in G1722"
+        );
+      });
+    });
+
+    it("should not merge across a paragraph boundary — a new run starting mid-array keeps its paragraph marker outside the wrapper and never joins the run before it", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "before", marks: ["i"] },
+          { text: "after", marks: ["i"], paragraph: true },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> _before_\n\n_after_");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should not merge across an explicit line break — the break stays glued to the end of the first span, and the next word opens its own", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "before", marks: ["i"], break: true },
+          { text: "after", marks: ["i"] },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> _before_<br>_after_");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should never let a run cross a bibleLink — heading/subtitle/bibleLink items always render in their own context, never as a run member", () => {
+      const verse: VerseSchema = {
+        book: "PSA",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "before ", marks: ["i"] },
+          { bibleLink: "Psalm 1", content: "Ps 1" },
+          { text: " after", marks: ["i"] },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> _before_ Ps 1 _after_");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should recurse into a ContentNested's own inner array, merging same-marked members there before the outer nested-content wrapper applies its own mark", () => {
+      const verse: VerseSchema = {
+        book: "PSA",
+        chapter: 1,
+        verse: 1,
+        content: [
+          {
+            content: [
+              { text: "great", marks: ["i"], strong: "H1419" },
+              { text: " joy", marks: ["i"], strong: "H8057" },
+            ],
+            marks: ["b"],
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> **_great joy_**");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should still insert a space before a following letter-starting item when a merged run's own last member ends with an unseparated Strong's tag (GEN 1:2-style spacing convention, now checked against the run's last member rather than a lone item)", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 1,
+        verse: 2,
+        content: [
+          { text: "the ", marks: ["i"] },
+          { text: "great", marks: ["i"], strong: "H1419" },
+          "was",
+        ],
+      };
+      const result = convertVerseToText(verse);
+      expect(result).toBe("001:002 the great H1419 was");
+    });
+
+    it("should still insert a space after a Strong's-tagged node's own trailing textless-footnote-sibling splice, checking the splice's real tag owner rather than whatever array slot the splice consumed (a real corpus shape: 'they are fainting' carries its own strong + 2 footnotes, one riding as a consumed textless sibling, immediately followed by a plain Strong's-tagged word with no leading space of its own)", () => {
+      const verse: VerseSchema = {
+        book: "LAM",
+        chapter: 2,
+        verse: 19,
+        content: [
+          {
+            text: "they are fainting",
+            strong: "H5848",
+            foot: { type: "trn", content: "Heb “who are fainting.”" },
+          },
+          {
+            foot: {
+              type: "stu",
+              content: "The BHS editors suggest this bicolon is a late addition.",
+            },
+          },
+          { text: "from hunger", strong: "H7458", break: true },
+        ],
+      };
+      const result = convertVerseToText(verse);
+      expect(result).toBe(
+        "002:019 they are fainting°{Heb “who are fainting.”}°{The BHS editors suggest this bicolon is a late addition.} H5848 from hunger H7458␤"
+      );
+      expect(result).not.toMatch(/H5848from/);
+    });
+  });
+
+  describe("a shared mark stays open across a neighbor that only drops the OTHER mark (independent nested 'b'/'i' delimiters, not whole-mark-set equality)", () => {
+    describe("real Matthew 1:23 shape (Isaiah 7:14 quotation: bold+italic throughout except 'they', a supplied word carrying italic only)", () => {
+      // Representative of a real corpus shape: a Scripture quotation
+      // rendered bold+italic throughout except for one supplied/implied word
+      // carrying italic only; the real footnote's own long body text is
+      // abbreviated here for readability (its length isn't what this
+      // fixture is testing).
+      const matthew123Quotation: VerseSchema["content"] = [
+        "“",
+        { text: "Look", marks: ["b", "i"], strong: "G2400" },
+        { text: "! The", marks: ["b", "i"], strong: "G3588" },
+        { text: " virgin", marks: ["b", "i"], strong: "G3933" },
+        { text: " will conceive", marks: ["b", "i"], strong: "G1064" },
+        { text: " and", marks: ["b", "i"], strong: "G2532" },
+        { text: " give birth", marks: ["b", "i"], strong: "G5088" },
+        { text: " to a son", marks: ["b", "i"], strong: "G5207" },
+        { text: ", and", marks: ["b", "i"], strong: "G2532" },
+        { text: " they ", marks: ["i"] },
+        { text: "will name", marks: ["b", "i"], strong: "G2564" },
+        { text: " him", marks: ["b", "i"], strong: "G846" },
+        { text: " Emmanuel", marks: ["b", "i"], strong: "G1694" },
+        {
+          text: ",”",
+          foot: { type: "stu", content: "A quotation from Isaiah 7:14." },
+        },
+      ];
+
+      it("should keep the italic span continuous across 'they' while bold independently drops out just for it and picks back up after, in markdown", () => {
+        const verse: VerseSchema = {
+          book: "MAT",
+          chapter: 1,
+          verse: 23,
+          content: matthew123Quotation,
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>23</sup> “_**Look! The virgin will conceive and give birth to a son, and** they **will name him Emmanuel**_,”<sup>a</sup>"
+        );
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should still render every word's own Strong's number in the plain-text export, where nothing merges since a Strong's number renders between every pair", () => {
+        const verse: VerseSchema = {
+          book: "MAT",
+          chapter: 1,
+          verse: 23,
+          content: matthew123Quotation,
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toBe(
+          "001:023 “Look G2400! The G3588 virgin G3933 will conceive G1064 and G2532 give birth G5088 to a son G5207, and G2532 they will name G2564 him G846 Emmanuel G1694,”°{A quotation from Isaiah 7:14.}"
+        );
+        expect(result).not.toContain("*");
+        expect(result).not.toContain("_");
+      });
+    });
+
+    describe("real Romans 4:9 shape (Genesis 15:6 quotation: bold toggles off only for 'faith' and 'Abraham', italic spans the whole thing)", () => {
+      // Representative of a real corpus shape: a Scripture quotation with
+      // italic spanning the whole thing while bold independently toggles
+      // off for two individual words; the real footnote's own body text is
+      // abbreviated here for readability.
+      const romans49Quotation: VerseSchema["content"] = [
+        ", “",
+        { text: "faith", marks: ["i"], strong: "G4102" },
+        { text: " was credited", marks: ["b", "i"], strong: "G3049" },
+        { text: " to ", marks: ["b", "i"] },
+        { text: "Abraham", marks: ["i"], strong: "G11" },
+        { text: " as", marks: ["b", "i"], strong: "G1519" },
+        { text: " righteousness", marks: ["b", "i"], strong: "G1343" },
+        {
+          text: ".”",
+          foot: { type: "stu", content: "A quotation from Genesis 15:6." },
+        },
+      ];
+
+      it("should keep the italic span continuous across 'faith' and 'Abraham' while bold independently toggles off only for those two words, in markdown", () => {
+        const verse: VerseSchema = {
+          book: "ROM",
+          chapter: 4,
+          verse: 9,
+          content: romans49Quotation,
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>9</sup> , “_faith **was credited to** Abraham **as righteousness**_.”<sup>a</sup>"
+        );
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should still render every word's own Strong's number in the plain-text export, where nothing merges since a Strong's number renders between every pair", () => {
+        const verse: VerseSchema = {
+          book: "ROM",
+          chapter: 4,
+          verse: 9,
+          content: romans49Quotation,
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toBe(
+          "004:009 , “faith G4102 was credited G3049 to Abraham G11 as G1519 righteousness G1343.”°{A quotation from Genesis 15:6.}"
+        );
+        expect(result).not.toContain("*");
+        expect(result).not.toContain("_");
+      });
     });
   });
 });
