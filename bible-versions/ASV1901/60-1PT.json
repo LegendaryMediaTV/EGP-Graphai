@@ -341,7 +341,7 @@
           "content": ["Greek ", { "text": "saying", "marks": ["i"] }, "."]
         }
       },
-      { "text": "word of the Lord abideth for ever.", "break": true },
+      "word of the Lord abideth for ever.",
       {
         "paragraph": true,
         "text": "And this is the ",
@@ -542,7 +542,6 @@
       },
       {
         "text": "A stone of stumbling, and a rock of offence;",
-        "break": true,
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "who", "marks": ["i"] }, "."]

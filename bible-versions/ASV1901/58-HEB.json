@@ -75,7 +75,7 @@
         }
       },
       { "text": "Thou art my Son,", "break": true },
-      { "text": "This day have I begotten thee?", "break": true },
+      "This day have I begotten thee?",
       {
         "paragraph": true,
         "text": "and again,",
@@ -415,10 +415,7 @@
     "chapter": 2,
     "verse": 8,
     "content": [
-      {
-        "text": "Thou didst put all things in subjection under his feet.",
-        "break": true
-      },
+      "Thou didst put all things in subjection under his feet.",
       {
         "paragraph": true,
         "text": "For in that he subjected all things unto him, he left nothing that is not subject to him. But now we see not yet all things subjected to him."
@@ -1017,7 +1014,7 @@
           ]
         }
       },
-      { "text": "They shall not enter into my rest:", "break": true },
+      "They shall not enter into my rest:",
       {
         "paragraph": true,
         "text": "although the works were finished from the foundation of the world."
@@ -2806,7 +2803,7 @@
       { "text": "I will make with them", "break": true },
       { "text": "After those days, saith the Lord:", "break": true },
       { "text": "I will put my laws on their heart,", "break": true },
-      { "text": "And upon their mind also will I write them;", "break": true },
+      "And upon their mind also will I write them;",
       { "paragraph": true, "text": "then saith he", "marks": ["i"] },
       { "text": ",", "break": true }
     ]

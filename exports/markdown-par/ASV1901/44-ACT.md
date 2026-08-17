@@ -22,7 +22,7 @@
 <sup>17</sup> For he was numbered among us, and received his <sup>l</sup>portion in this ministry.
 <sup>18</sup> (Now this man obtained a field with the reward of his iniquity; and falling headlong, he burst asunder in the midst, and all his bowels gushed out.
 <sup>19</sup> And it became known to all the dwellers at Jerusalem; insomuch that in their language that field was called Akeldama, that is, The field of blood.)
-<sup>20</sup> For it is written in the book of Psalms,<sup>m</sup><br>Let his habitation be made desolate,<br>And let no man dwell therein:<br>
+<sup>20</sup> For it is written in the book of Psalms,<sup>m</sup><br>Let his habitation be made desolate,<br>And let no man dwell therein:
 
 and,<sup>n</sup><br>His <sup>o</sup>office let another take.<br>
 

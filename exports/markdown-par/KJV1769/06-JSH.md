@@ -349,7 +349,7 @@
 <sup>11</sup> And it came to pass, as they fled from before Israel, _and_ were in the going down to Beth-horon, that the LORD cast down great stones from heaven upon them unto Azekah, and they died: _they were_ more which died with hailstones than _they_ whom the children of Israel slew with the sword.
 
 <sup>12</sup> Then spake Joshua to the LORD in the day when the LORD delivered up the Amorites before the children of Israel, and he said in the sight of Israel,<br>Sun, stand<sup>b</sup> thou still upon Gibeon;<br>And thou, Moon, in the valley of Ajalon.<br>
-<sup>13</sup> And the sun stood still, and the moon stayed,<br>Until the people had avenged themselves upon their enemies.<br>
+<sup>13</sup> And the sun stood still, and the moon stayed,<br>Until the people had avenged themselves upon their enemies.
 
 _Is_ not this written in the book of Jasher? So the sun stood still in the midst of heaven, and hasted not to go down about a whole day.
 <sup>14</sup> And there was no day like that before it or after it, that the LORD hearkened unto the voice of a man: for the LORD fought for Israel.

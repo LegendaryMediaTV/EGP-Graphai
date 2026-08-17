@@ -4,7 +4,7 @@
 <sup>2</sup> hath at the end of these days spoken unto us in <sup>a</sup>_his_ Son, whom he appointed heir of all things, through whom also he made the <sup>b</sup>worlds;
 <sup>3</sup> who being the effulgence of his glory, and <sup>c</sup>the very image of his substance, and upholding all things by the word of his power, when he had made purification of sins, sat down on the right hand of the Majesty on high;
 <sup>4</sup> having become by so much better than the angels, as he hath inherited a more excellent name than they.
-<sup>5</sup> For unto which of the angels said he at any time,<sup>d</sup><br>Thou art my Son,<br>This day have I begotten thee?<br>
+<sup>5</sup> For unto which of the angels said he at any time,<sup>d</sup><br>Thou art my Son,<br>This day have I begotten thee?
 
 and again,<sup>e</sup><br>I will be to him a Father,<br>And he shall be to me a Son?<br>
 
@@ -48,7 +48,7 @@ and again,<sup>e</sup><br>I will be to him a Father,<br>And he shall be to me a 
 <sup>5</sup> For not unto angels did he subject <sup>b</sup>the world to come, whereof we speak.
 <sup>6</sup> But one hath somewhere testified, saying,<sup>c</sup><br>What is man, that thou art mindful of him?<br>Or the son of man, that thou visitest him?<br>
 <sup>7</sup> Thou madest him <sup>d</sup>a little lower than the angels;<br>Thou crownedst him with glory and honor,<sup>e</sup><br>And didst set him over the works of thy hands:<br>
-<sup>8</sup> Thou didst put all things in subjection under his feet.<br>
+<sup>8</sup> Thou didst put all things in subjection under his feet.
 
 For in that he subjected all things unto him, he left nothing that is not subject to him. But now we see not yet all things subjected to him.
 <sup>9</sup> But we behold him who hath been made <sup>f</sup>a little lower than the angels, _even_ Jesus, because of the suffering of death crowned with glory and honor, that by the grace of God he should taste of death for every _man_.
@@ -125,7 +125,7 @@ For in that he subjected all things unto him, he left nothing that is not subjec
 
 <sup>1</sup> Let us fear therefore, lest haply, a promise being left of entering into his rest, any one of you should seem to have come short of it.
 <sup>2</sup> For indeed we have had <sup>a</sup>good tidings preached unto us, even as also they: but the word of hearing did not profit them, because <sup>b</sup>it was not united by faith with them that heard.
-<sup>3</sup> <sup>c</sup>For we who have believed do enter into that rest; even as he hath said,<sup>d</sup><sup>e</sup><br>As I sware in my wrath,<sup>f</sup><br>They shall not enter into my rest:<br>
+<sup>3</sup> <sup>c</sup>For we who have believed do enter into that rest; even as he hath said,<sup>d</sup><sup>e</sup><br>As I sware in my wrath,<sup>f</sup><br>They shall not enter into my rest:
 
 although the works were finished from the foundation of the world.
 <sup>4</sup> For he hath said somewhere of the seventh _day_ on this wise, <sup>g</sup>And God rested on the seventh day from all his works;
@@ -372,7 +372,7 @@ although the works were finished from the foundation of the world.
 <sup>13</sup> henceforth expecting till his enemies be made the footstool of his feet.
 <sup>14</sup> For by one offering he hath perfected for ever them that are sanctified.
 <sup>15</sup> And the Holy Spirit also beareth witness to us; for after he hath said,<br>
-<sup>16</sup> <sup>f</sup>This is the covenant that <sup>g</sup>I will make with them<br>After those days, saith the Lord:<br>I will put my laws on their heart,<br>And upon their mind also will I write them;<br>
+<sup>16</sup> <sup>f</sup>This is the covenant that <sup>g</sup>I will make with them<br>After those days, saith the Lord:<br>I will put my laws on their heart,<br>And upon their mind also will I write them;
 
 _then saith he_,<br>
 <sup>17</sup> And their sins and their iniquities will I remember no more.<br>

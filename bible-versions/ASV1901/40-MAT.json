@@ -330,7 +330,7 @@
           "content": ["Greek ", { "text": "Emmanuel", "marks": ["i"] }, "."]
         }
       },
-      { "text": "Immanuel;", "break": true },
+      "Immanuel;",
       { "paragraph": true, "text": "which is, being interpreted, God with us." }
     ]
   },
@@ -990,10 +990,7 @@
           ]
         }
       },
-      {
-        "text": "He shall give his angels charge concerning thee:",
-        "break": true
-      },
+      "He shall give his angels charge concerning thee:",
       { "paragraph": true, "text": "and,", "break": true },
       { "text": "On their hands they shall bear thee up,", "break": true },
       {

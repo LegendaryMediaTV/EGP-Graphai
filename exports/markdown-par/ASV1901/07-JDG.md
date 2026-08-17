@@ -207,7 +207,7 @@
 <sup>28</sup> Through the window she looked forth, and cried,<br>The mother of Sisera _cried_ through the lattice,<br>Why is his chariot so long in coming?<br>Why tarry the <sup>t</sup>wheels of his chariots?<br>
 <sup>29</sup> Her wise ladies answered her,<sup>u</sup><br>Yea, she returned answer to herself,<br>
 <sup>30</sup> Have they not found, have they not divided the spoil?<br>A damsel, two damsels to every man;<br>To Sisera a spoil of dyed garments,<br>A spoil of dyed garments embroidered,<br>Of dyed garments embroidered on both sides, on the necks of the spoil?<br>
-<sup>31</sup> So let all thine enemies perish, O Jehovah:<br>But let them that love him be as the sun when he goeth forth in his might.<br>
+<sup>31</sup> So let all thine enemies perish, O Jehovah:<br>But let them that love him be as the sun when he goeth forth in his might.
 
 And the land had rest forty years.
 
@@ -645,7 +645,7 @@ And the land had rest forty years.
 <sup>11</sup> And it came to pass, when they saw him, that they brought thirty companions to be with him.
 <sup>12</sup> And Samson said unto them, Let me now put forth a riddle unto you: if ye can declare it unto me within the seven days of the feast, and find it out, then I will give you thirty linen garments and thirty changes of raiment;
 <sup>13</sup> but if ye cannot declare it unto me, then shall ye give me thirty linen garments and thirty changes of raiment. And they said unto him, Put forth thy riddle, that we may hear it.
-<sup>14</sup> And he said unto them,<br>Out of the eater came forth food,<br>And out of the strong came forth sweetness.<br>
+<sup>14</sup> And he said unto them,<br>Out of the eater came forth food,<br>And out of the strong came forth sweetness.
 
 And they could not in three days declare the riddle.
 

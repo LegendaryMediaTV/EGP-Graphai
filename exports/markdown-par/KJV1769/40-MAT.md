@@ -27,7 +27,7 @@
 <sup>20</sup> But while he thought on these things, behold, the angel of the Lord appeared unto him in a dream, saying, Joseph, thou son of David, fear not to take unto thee Mary thy wife: for that which is conceived in her is of the Holy Ghost.
 <sup>21</sup> And she shall bring forth a son, and thou shalt call his name JESUS: for he shall save his people from their sins.
 <sup>22</sup> Now all this was done, that it might be fulfilled which was spoken of the Lord by the prophet, saying,<br>
-<sup>23</sup> Behold, a virgin shall be with child, and shall bring forth a son,<br>And they shall call his name<sup>b</sup> Emmanuel,<br>
+<sup>23</sup> Behold, a virgin shall be with child, and shall bring forth a son,<br>And they shall call his name<sup>b</sup> Emmanuel,
 
 which being interpreted is, God with us.
 <sup>24</sup> Then Joseph being raised from sleep did as the angel of the Lord had bidden him, and took unto him his wife:
