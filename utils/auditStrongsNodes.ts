@@ -1,9 +1,9 @@
 #!/usr/bin/env ts-node
 /**
- * Corpus-wide sweep for three ways a `strong`-carrying node's own placement
- * can drift from this repo's established Strong's-number conventions (see
- * `utils/validate.ts`'s `findStrongTrailingWhitespaceNodes` for the leading-
- * vs-trailing-space convention these checks build on):
+ * Corpus-wide sweep for five ways a node's own placement can drift from this
+ * repo's established text-flow conventions (see `utils/validate.ts`'s
+ * `findStrongTrailingWhitespaceNodes` for the leading-vs-trailing-space
+ * convention these checks build on):
  *
  * 1. **Unmerged node pairs** — an ordinary, untagged connector word left
  *    split from the `strong`-carrying neighbor immediately *after* it, which
@@ -21,18 +21,32 @@
  *    itself carries — illustrative shape: `{"text": "Look", "strong":
  *    "G2400"}` + `{"text": "! The", "strong": "G3588"}`, where the "!"
  *    belongs on "Look," not leading "The."
+ * 4. **Mark-boundary spaces** — a bare, untagged whitespace-only node
+ *    sandwiched between two real nodes that agree in `marks`/`script` with
+ *    each other. Check 1 deliberately excludes a blank connector (it has no
+ *    lexical content to agree or disagree with anything), which left this
+ *    shape uncovered: a `<woc>` (Words of Christ) or italics span built one
+ *    word at a time, with the joining space between each pair of words
+ *    pulled out as its own node instead of leading the word after it. A run
+ *    of textless Strong's siblings right after the space is skipped through
+ *    to find the real node to check, the same way check 3 already skips
+ *    through one to find its own backward attachment point.
+ * 5. **Verse-initial spaces** — a verse's own outermost content starting
+ *    with a space, paragraph-opening or not: there is nothing before the
+ *    first word of a verse for a joining space to belong to. Unlike checks
+ *    1-4, this one never recurses into a `ContentNested` wrapper's inner
+ *    array (an ordinary shape there, not a verse's own start).
  *
  * A general-purpose, version-controlled tool any future import can reach
  * for, rather than a one-off diagnostic scoped to whichever translation
  * happens to be mid-import at the time.
  *
- * All three checks recurse into `content` (a `ContentNested` wrapper's own
- * inner array — KJV1769 alone carries 27,838 of these, one per italicized
- * "added word" span) in addition to `heading`/`subtitle`/`foot.content`
- * (measured zero `strong` values inside any `foot.content`, corpus-wide,
- * across every version this repo currently carries — recursing there is
- * free today and a strictly safer default for whatever a future re-scrape
- * might introduce).
+ * Checks 1-4 recurse into `content` (a `ContentNested` wrapper's own inner
+ * array — KJV1769 alone carries 27,838 of these, one per italicized "added
+ * word" span) in addition to `heading`/`subtitle`/`foot.content` (measured
+ * zero `strong` values inside any `foot.content`, corpus-wide, across every
+ * version this repo currently carries — recursing there is free today and a
+ * strictly safer default for whatever a future re-scrape might introduce).
  *
  * **No curated version list.** With no version named on the command line,
  * this audits every directory under `bible-versions/` — whatever this repo
@@ -326,6 +340,136 @@ function hasTrailingWhitespace(shape: NodeShape): boolean {
 }
 
 // ---------------------------------------------------------------------------
+// Check 4 — a bare joining space stranded between two same-formatting nodes
+// ---------------------------------------------------------------------------
+
+/**
+ * True for a node whose own `text` is nonempty but entirely whitespace.
+ *
+ * Check 1's {@link isMergeableConnector} deliberately excludes this shape —
+ * a blank has no lexical content, so it can never "agree" with a neighbor the
+ * way an ordinary connector word can, forward or backward. That exclusion
+ * left a real, corpus-wide shape uncovered: a `<woc>` (Words of Christ) or
+ * italics span built one word at a time, with the joining space between each
+ * pair of words pulled out as its own untagged node instead of living on the
+ * leading edge of the word that follows — this corpus's own established
+ * convention (see `utils/validate.ts`'s `findStrongTrailingWhitespaceNodes`).
+ * Illustrative shape, Matthew 6:32 KJV1769: `{text: "after", marks: ["woc"],
+ * strong: "G1934"}, " ", {text: "all", marks: ["woc"], strong: "G3956"}` —
+ * repeated for essentially every word of the verse.
+ */
+function isBlankConnector(shape: NodeShape): boolean {
+  return shape.text !== undefined && shape.text.length > 0 && shape.text.trim() === "" && shape.strong === undefined && !shape.hasFoot;
+}
+
+/** One stranded joining-space finding within a single array level. */
+interface MarkBoundarySpaceFinding {
+  /** The array level this was found in. */
+  where: string;
+  /** The real node immediately before the space — left untouched by the fix, kept here only for context. */
+  left: unknown;
+  /** The blank node itself — removed once the fix runs. */
+  space: unknown;
+  /** The real node immediately after the space — the one the space's own text should roll onto the front of. */
+  target: unknown;
+}
+
+/**
+ * Scan one array level for a bare, untagged whitespace-only node sandwiched
+ * between two real, non-blank nodes that agree in `marks`/`script` with each
+ * other — the one condition that makes rolling the space forward safe: with
+ * identical formatting on both sides, the space carries no boundary meaning
+ * of its own, so its only correct home is the leading edge of the node after
+ * it.
+ *
+ * A run of textless Strong's siblings immediately after the space is skipped
+ * through to find that real node, exactly as check 3 already skips through
+ * one to find its own backward attachment point: a textless sibling renders
+ * zero characters, so it is not a visual boundary the space's formatting
+ * agreement needs to cross — real Matthew 3:15 KJV1769 shape, `{text: " it
+ * becometh", marks: ["woc"]}, " ", {strong: "G2076"}, {text: "us", marks:
+ * ["woc"]}`, where the textless `G2076` sibling carries no `marks` of its own
+ * at all (moot for a node with no text to render) and would otherwise block
+ * the match on a `marks` disagreement that was never a real one.
+ *
+ * `endsBreak`/`opensParagraph` guard the same way they do in check 1: a break
+ * on the space itself or a paragraph opening on the target both mark a real
+ * piece boundary that a bare space's own formatting agreement cannot paper
+ * over. A footnote on either real neighbor does not block the finding — the
+ * footnote stays attached to whichever node already carries it; only the
+ * space itself moves.
+ */
+function scanArrayForMarkBoundarySpaces(nodes: readonly unknown[], where: string): MarkBoundarySpaceFinding[] {
+  const shapes = nodes.map(describeNode);
+  const findings: MarkBoundarySpaceFinding[] = [];
+
+  for (let i = 1; i < nodes.length - 1; i++) {
+    const shape = shapes[i];
+    if (!isBlankConnector(shape) || shape.endsBreak) continue;
+
+    const left = shapes[i - 1];
+    if (!isRealAttachmentPoint(left)) continue;
+
+    let j = i + 1;
+    while (j < nodes.length && shapes[j].isTextlessStrongSibling) j++;
+    if (j >= nodes.length) continue;
+
+    const target = shapes[j];
+    if (!isRealAttachmentPoint(target) || target.opensParagraph) continue;
+    if (!agreesInFormatting(left, target)) continue;
+
+    findings.push({ where, left: nodes[i - 1], space: nodes[i], target: nodes[j] });
+  }
+
+  return findings;
+}
+
+// ---------------------------------------------------------------------------
+// Check 5 — a verse whose own content starts with a space
+// ---------------------------------------------------------------------------
+
+/**
+ * One verse-initial-space finding: `first` is the verse's own opening node,
+ * `next` is whatever immediately follows it. Both are always present — the
+ * fix branches on whether `first`'s own text is *entirely* whitespace
+ * (collapse `next` into `first`) or merely *starts* with it (trim `first` in
+ * place, `next` untouched) — but that decision belongs to the fix, not the
+ * audit (this module only detects; see the top doc comment).
+ */
+interface VerseInitialSpaceFinding {
+  first: unknown;
+  next: unknown;
+}
+
+/**
+ * True when a verse's own top-level content starts with a space — never
+ * valid, paragraph-opening or not: there is nothing before the first word of
+ * a verse for a joining space to belong to.
+ *
+ * Unlike checks 1-4, this one looks only at a verse's own outermost content
+ * array — never a `ContentNested` wrapper's inner array (an ordinary,
+ * expected shape there: `{content: [" ", {text: "is", marks: ["i"]}, "
+ * precious,"], strong: "..."}` starts countless mid-sentence insertions
+ * corpus-wide) and never past a `heading`/`subtitle` boundary (measured zero
+ * cases of a heading-prefixed verse whose real first node has this shape, so
+ * there is nothing to skip through in this corpus today).
+ *
+ * Two distinct shapes, both WEBUS2020-only in this corpus's current state: a
+ * first node that is *entirely* whitespace (a bare `" "`, or Revelation's own
+ * recurring `{paragraph: true, text: " "}`, one per chapter-opening verse)
+ * and a first node whose own text merely *starts* with whitespace before real
+ * content continues (`{paragraph: true, text: " Jesus went out from the
+ * temple..."}`, Matthew 24:1).
+ */
+function checkVerseInitialSpace(content: unknown): VerseInitialSpaceFinding | undefined {
+  const nodes = asArray(content);
+  const shape = describeNode(nodes[0]);
+  if (shape.text === undefined || !/^\s/.test(shape.text)) return undefined;
+
+  return { first: nodes[0], next: nodes[1] };
+}
+
+// ---------------------------------------------------------------------------
 // Recursion — one array level, plus every node's own heading/subtitle/content/foot.content
 // ---------------------------------------------------------------------------
 
@@ -337,17 +481,20 @@ interface LevelFindings {
   unmergedPairs: PairFinding[];
   trailingWhitespace: string[];
   leadingPunctuation: LeadingPunctuationFinding[];
+  markBoundarySpaces: MarkBoundarySpaceFinding[];
+  verseInitialSpace: VerseInitialSpaceFinding | undefined;
 }
 
 /**
  * Walk one array level and every node's own nested levels — `heading`,
  * `subtitle`, a `ContentNested` wrapper's own `content`, and a footnote
- * body's own `foot.content` — collecting all three checks' findings into
+ * body's own `foot.content` — collecting all four checks' findings into
  * `sink` as it goes.
  */
 function walkLevel(nodes: readonly unknown[], where: string, sink: LevelFindings): void {
   sink.unmergedPairs.push(...scanArrayForUnmergedPairs(nodes, where));
   sink.leadingPunctuation.push(...scanArrayForLeadingPunctuation(nodes, where));
+  sink.markBoundarySpaces.push(...scanArrayForMarkBoundarySpaces(nodes, where));
 
   for (let i = 0; i < nodes.length; i++) {
     const node = nodes[i];
@@ -368,13 +515,23 @@ function walkLevel(nodes: readonly unknown[], where: string, sink: LevelFindings
 }
 
 /**
- * Walk one verse's whole content tree for all three checks at once.
+ * Walk one verse's whole content tree for all five checks at once.
+ *
+ * Check 5 is not recursive like the other four — it only ever looks at this
+ * verse's own outermost content, so it runs once here rather than inside
+ * {@link walkLevel}.
  *
  * @param content - A verse's own `content` value, any shape the schema permits.
  * @param where - The array level's own label, threaded through recursion; callers pass nothing and get `"content"`.
  */
 export function findStrongsNodeIssues(content: Content, where = "content"): LevelFindings {
-  const sink: LevelFindings = { unmergedPairs: [], trailingWhitespace: [], leadingPunctuation: [] };
+  const sink: LevelFindings = {
+    unmergedPairs: [],
+    trailingWhitespace: [],
+    leadingPunctuation: [],
+    markBoundarySpaces: [],
+    verseInitialSpace: checkVerseInitialSpace(content),
+  };
   walkLevel(asArray(content), where, sink);
   return sink;
 }
@@ -411,6 +568,24 @@ export interface StrongLeadingPunctuationFinding extends LeadingPunctuationFindi
   verse: number;
 }
 
+/** One stranded joining-space finding, with its file/verse identity attached. */
+export interface MarkBoundarySpaceFileFinding extends MarkBoundarySpaceFinding {
+  version: string;
+  file: string;
+  book: string;
+  chapter: number;
+  verse: number;
+}
+
+/** One verse-initial-space finding, with its file/verse identity attached. */
+export interface VerseInitialSpaceFileFinding extends VerseInitialSpaceFinding {
+  version: string;
+  file: string;
+  book: string;
+  chapter: number;
+  verse: number;
+}
+
 /** Every verse-JSON file for one version id, sorted, excluding `_version.json` and any schema file. */
 function verseFiles(version: string): string[] {
   return fs
@@ -419,12 +594,14 @@ function verseFiles(version: string): string[] {
     .sort();
 }
 
-/** One version's own audit: its id, and every finding {@link auditVersion} found, across all three checks. */
+/** One version's own audit: its id, and every finding {@link auditVersion} found, across all five checks. */
 export interface VersionAudit {
   version: string;
   unmergedPairs: readonly UnmergedStrongPairFinding[];
   trailingWhitespace: readonly StrongTrailingWhitespaceFinding[];
   leadingPunctuation: readonly StrongLeadingPunctuationFinding[];
+  markBoundarySpaces: readonly MarkBoundarySpaceFileFinding[];
+  verseInitialSpaces: readonly VerseInitialSpaceFileFinding[];
 }
 
 /**
@@ -437,6 +614,8 @@ export function auditVersion(version: string): VersionAudit {
   const unmergedPairs: UnmergedStrongPairFinding[] = [];
   const trailingWhitespace: StrongTrailingWhitespaceFinding[] = [];
   const leadingPunctuation: StrongLeadingPunctuationFinding[] = [];
+  const markBoundarySpaces: MarkBoundarySpaceFileFinding[] = [];
+  const verseInitialSpaces: VerseInitialSpaceFileFinding[] = [];
 
   for (const file of verseFiles(version)) {
     const verses = JSON.parse(fs.readFileSync(path.join(BIBLE_VERSIONS_DIR, version, file), "utf8")) as VerseRecord[];
@@ -447,10 +626,12 @@ export function auditVersion(version: string): VersionAudit {
       for (const pair of findings.unmergedPairs) unmergedPairs.push({ ...identity, ...pair });
       for (const at of findings.trailingWhitespace) trailingWhitespace.push({ ...identity, path: at });
       for (const finding of findings.leadingPunctuation) leadingPunctuation.push({ ...identity, ...finding });
+      for (const finding of findings.markBoundarySpaces) markBoundarySpaces.push({ ...identity, ...finding });
+      if (findings.verseInitialSpace) verseInitialSpaces.push({ ...identity, ...findings.verseInitialSpace });
     }
   }
 
-  return { version, unmergedPairs, trailingWhitespace, leadingPunctuation };
+  return { version, unmergedPairs, trailingWhitespace, leadingPunctuation, markBoundarySpaces, verseInitialSpaces };
 }
 
 /**
@@ -465,10 +646,15 @@ export function auditVersions(versionIds: readonly string[] = getVersionDirector
   return versionIds.map((version) => auditVersion(version));
 }
 
-/** The exit code this check should report — non-zero when any version carries any finding across any of the three checks. */
+/** The exit code this check should report — non-zero when any version carries any finding across any of the five checks. */
 export function exitCodeFor(summaries: readonly VersionAudit[]): number {
   return summaries.some(
-    (summary) => summary.unmergedPairs.length > 0 || summary.trailingWhitespace.length > 0 || summary.leadingPunctuation.length > 0,
+    (summary) =>
+      summary.unmergedPairs.length > 0 ||
+      summary.trailingWhitespace.length > 0 ||
+      summary.leadingPunctuation.length > 0 ||
+      summary.markBoundarySpaces.length > 0 ||
+      summary.verseInitialSpaces.length > 0,
   )
     ? 1
     : 0;
@@ -498,11 +684,33 @@ function printFindingLines(summary: VersionAudit, verbose: boolean): void {
     );
   }
   if (!verbose && summary.leadingPunctuation.length > cap) console.log(`    … ${summary.leadingPunctuation.length - cap} more (--verbose to list all)`);
+
+  console.log(`  ${summary.markBoundarySpaces.length} bare joining space(s) stranded between two same-formatting nodes instead of leading the second`);
+  for (const finding of summary.markBoundarySpaces.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} space=${JSON.stringify(finding.space)} target=${JSON.stringify(finding.target)}`,
+    );
+  }
+  if (!verbose && summary.markBoundarySpaces.length > cap) console.log(`    … ${summary.markBoundarySpaces.length - cap} more (--verbose to list all)`);
+
+  console.log(`  ${summary.verseInitialSpaces.length} verse(s) whose own content starts with a space`);
+  for (const finding of summary.verseInitialSpaces.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) first=${JSON.stringify(finding.first)} next=${JSON.stringify(finding.next)}`,
+    );
+  }
+  if (!verbose && summary.verseInitialSpaces.length > cap) console.log(`    … ${summary.verseInitialSpaces.length - cap} more (--verbose to list all)`);
 }
 
-/** True when a version's audit found nothing across any of the three checks — printed as a single skipped line rather than an empty block, so a report over every version on disk stays readable. */
+/** True when a version's audit found nothing across any of the five checks — printed as a single skipped line rather than an empty block, so a report over every version on disk stays readable. */
 function isClean(summary: VersionAudit): boolean {
-  return summary.unmergedPairs.length === 0 && summary.trailingWhitespace.length === 0 && summary.leadingPunctuation.length === 0;
+  return (
+    summary.unmergedPairs.length === 0 &&
+    summary.trailingWhitespace.length === 0 &&
+    summary.leadingPunctuation.length === 0 &&
+    summary.markBoundarySpaces.length === 0 &&
+    summary.verseInitialSpaces.length === 0
+  );
 }
 
 function printReport(summaries: readonly VersionAudit[], verbose: boolean): void {
@@ -517,9 +725,20 @@ function printReport(summaries: readonly VersionAudit[], verbose: boolean): void
   }
 }
 
+/**
+ * `npm run audit-strongs-nodes KJV1769 --verbose` (no `--` before the script's
+ * own args) never reaches here as `--verbose` at all: npm's own CLI parses
+ * every `--flag` itself unless it follows a literal `--` separator, consumes
+ * `--verbose` as its *own* `--loglevel verbose`, and only forwards `KJV1769`
+ * to `process.argv`. npm does still expose that consumed config to the
+ * script's environment as `npm_config_loglevel`, so that env var is checked
+ * as a fallback — the one signal this invocation shape actually leaves
+ * behind — in addition to a literal `--verbose` (present when this is run
+ * directly, via `ts-node`, or via `npm run ... -- --verbose`).
+ */
 function main(): void {
   const args = process.argv.slice(2);
-  const verbose = args.includes("--verbose");
+  const verbose = args.includes("--verbose") || /^(verbose|silly)$/.test(process.env.npm_config_loglevel ?? "");
   const versionIds = args.filter((arg) => arg !== "--verbose");
 
   const summaries = auditVersions(versionIds.length > 0 ? versionIds : undefined);

@@ -11203,8 +11203,7 @@
     "chapter": 12,
     "verse": 3,
     "content": [
-      "(",
-      { "text": "Now the man", "strong": "H376" },
+      { "text": "(Now the man", "strong": "H376" },
       { "text": " Moses", "strong": "H4872" },
       {
         "content": [" ", { "text": "was", "marks": ["i"] }, " very"],
@@ -12861,8 +12860,7 @@
     "chapter": 14,
     "verse": 25,
     "content": [
-      "(",
-      { "text": "Now the Amalekites", "strong": "H6003" },
+      { "text": "(Now the Amalekites", "strong": "H6003" },
       { "text": " and the Canaanites", "strong": "H3669" },
       { "text": " dwelt", "strong": "H3427", "morph": "QalActPtc" },
       { "text": " in the valley.)", "strong": "H6010" },
@@ -24867,8 +24865,10 @@
       },
       { "text": " burnt offering,", "strong": "H5930" },
       { "text": " and his meat offering,", "strong": "H4503" },
-      " (",
-      { "text": "they shall be unto you without blemish)", "strong": "H8549" },
+      {
+        "text": " (they shall be unto you without blemish)",
+        "strong": "H8549"
+      },
       { "text": " and their drink offerings.", "strong": "H5262" }
     ]
   },
@@ -27175,8 +27175,7 @@
     "chapter": 31,
     "verse": 43,
     "content": [
-      "(",
-      { "text": "now the half", "strong": "H4275" },
+      { "text": "(now the half", "strong": "H4275" },
       {
         "content": [
           " ",
@@ -28320,8 +28319,7 @@
     "content": [
       { "text": "and Nebo,", "strong": "H5015" },
       { "text": " and Baal-meon,", "strong": "H1186" },
-      " (",
-      { "text": "their names", "strong": "H8034" },
+      { "text": " (their names", "strong": "H8034" },
       { "text": " being changed,)", "strong": "H4142", "morph": "HophPtc" },
       { "text": " and Shibmah:", "strong": "H7643" },
       { "text": " and gave", "strong": "H7121", "morph": "QalImpf" },
@@ -28935,9 +28933,8 @@
     "verse": 36,
     "content": [
       { "text": "And they removed", "strong": "H5265", "morph": "QalImpf" },
-      { "text": " from", "strong": "H6100" },
-      " Ezion-geber, ",
-      { "text": "and pitched", "strong": "H2583", "morph": "QalImpf" },
+      { "text": " from Ezion-geber,", "strong": "H6100" },
+      { "text": " and pitched", "strong": "H2583", "morph": "QalImpf" },
       { "text": " in the wilderness", "strong": "H4057" },
       { "text": " of Zin,", "strong": "H6790" },
       {

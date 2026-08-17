@@ -3376,8 +3376,7 @@
               "content": ["Or, ", { "text": "the filthy part", "marks": ["i"] }]
             }
           },
-          " ",
-          { "text": "of", "marks": ["i"] },
+          { "text": " of", "marks": ["i"] },
           " Dagon"
         ],
         "strong": "H1712"
@@ -4234,8 +4233,7 @@
               ]
             }
           },
-          " ",
-          { "text": "of", "marks": ["i"] },
+          { "text": " of", "marks": ["i"] },
           " Abel,"
         ],
         "strong": "H59"
@@ -5680,8 +5678,7 @@
     "chapter": 9,
     "verse": 9,
     "content": [
-      "(",
-      { "text": "Beforetime", "strong": "H6440" },
+      { "text": "(Beforetime", "strong": "H6440" },
       { "text": " in Israel,", "strong": "H3478" },
       { "text": " when a man", "strong": "H376" },
       { "text": " went", "strong": "H3212", "morph": "QalInf" },
@@ -8621,8 +8618,7 @@
         "strong": "H6887",
         "morph": "QalPerf"
       },
-      " (",
-      { "text": "for the people", "strong": "H5971" },
+      { "text": " (for the people", "strong": "H5971" },
       { "text": " were distressed,)", "strong": "H5065", "morph": "NiphPerf" },
       { "text": " then the people", "strong": "H5971" },
       { "text": " did hide", "strong": "H2244", "morph": "HithImpf" },
@@ -23785,9 +23781,8 @@
       { "text": " slew", "strong": "H5221", "morph": "HiphImpf" },
       { "text": " Jonathan,", "strong": "H3083" },
       { "text": " and Abinadab,", "strong": "H41" },
-      { "text": " and", "strong": "H4444" },
-      " Melchi-shua, ",
-      { "text": "Saul’s", "strong": "H7586" },
+      { "text": " and Melchi-shua,", "strong": "H4444" },
+      { "text": " Saul’s", "strong": "H7586" },
       { "text": " sons.", "strong": "H1121" }
     ]
   },

@@ -131,6 +131,153 @@ describe("findStrongsNodeIssues — leading punctuation", () => {
   });
 });
 
+describe("findStrongsNodeIssues — mark-boundary spaces", () => {
+  it("should report no findings for a clean tree with no blank connector at all", () => {
+    const content: Content = [
+      { text: "after", marks: ["woc"], strong: "G1934" },
+      { text: " all", marks: ["woc"], strong: "G3956" },
+    ];
+    expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should flag a bare space stranded between two nodes sharing the same marks — real Matthew 6:32 KJV1769 shape", () => {
+    const content: Content = [
+      { text: "after", marks: ["woc"], strong: "G1934" },
+      " ",
+      { text: "all", marks: ["woc"], strong: "G3956" },
+    ];
+    const findings = findStrongsNodeIssues(content).markBoundarySpaces;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].left).toEqual({ text: "after", marks: ["woc"], strong: "G1934" });
+    expect(findings[0].space).toBe(" ");
+    expect(findings[0].target).toEqual({ text: "all", marks: ["woc"], strong: "G3956" });
+  });
+
+  it("should stay silent when the two real neighbors disagree in marks — real 1 John 2:23 KJV1769 shape", () => {
+    const content: Content = [{ text: " the Father:", strong: "G3962" }, " ", { text: "(but) he that acknowledgeth", marks: ["i"], strong: "G3670" }];
+    expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should stay silent when a real neighbor is a ContentNested wrapper with no top-level text", () => {
+    const content: Content = [
+      { text: "the Father", marks: ["i"], strong: "G3962" },
+      " ",
+      { content: [{ text: "also", marks: ["i"] }, "."], strong: "G2532" } as unknown as Content,
+    ];
+    expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should not require a strong value on either neighbor — an unmarked, untagged blank between two other unmarked, untagged words still qualifies", () => {
+    const content: Content = [{ text: " AND", strong: "G2532" }, " ", { text: "LORD", strong: "G2962" }];
+    const findings = findStrongsNodeIssues(content).markBoundarySpaces;
+    expect(findings).toHaveLength(1);
+  });
+
+  it("should stay silent when nothing precedes or follows the blank in the array", () => {
+    expect(findStrongsNodeIssues([" ", { text: "all", marks: ["woc"], strong: "G3956" }]).markBoundarySpaces).toEqual([]);
+    expect(findStrongsNodeIssues([{ text: "all", marks: ["woc"], strong: "G3956" }, " "]).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should stay silent across a break on the space itself", () => {
+    const content: Content = [
+      { text: "after", marks: ["woc"], strong: "G1934" },
+      { text: " ", break: true },
+      { text: "all", marks: ["woc"], strong: "G3956" },
+    ];
+    expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should stay silent when the target opens a new paragraph", () => {
+    const content: Content = [
+      { text: "after", marks: ["woc"], strong: "G1934" },
+      " ",
+      { text: "all", marks: ["woc"], strong: "G3956", paragraph: true },
+    ];
+    expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should not be blocked by a footnote on either real neighbor — the footnote stays put; only the space moves", () => {
+    const content: Content = [
+      { text: "have", marks: ["woc"], foot: { type: "var", content: "x" } },
+      " ",
+      { text: "not grown weary.", marks: ["woc"] },
+    ];
+    const findings = findStrongsNodeIssues(content).markBoundarySpaces;
+    expect(findings).toHaveLength(1);
+  });
+
+  it("should skip through a textless Strong's sibling to find the real target, ignoring its own missing marks — real Matthew 3:15 KJV1769 shape", () => {
+    const content: Content = [
+      { text: " it becometh", marks: ["woc"], strong: "G4241" },
+      " ",
+      { strong: "G2076", morph: "PresInd" },
+      { text: "us", marks: ["woc"], strong: "G2254" },
+    ];
+    const findings = findStrongsNodeIssues(content).markBoundarySpaces;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].target).toEqual({ text: "us", marks: ["woc"], strong: "G2254" });
+  });
+
+  it("should stay silent when a run of textless Strong's siblings leads straight into a boundary/end with no real target", () => {
+    const content: Content = [{ text: "it becometh", marks: ["woc"] }, " ", { strong: "G2076" }];
+    expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should still require the real target past the textless sibling to agree in marks", () => {
+    const content: Content = [
+      { text: "it becometh", marks: ["woc"] },
+      " ",
+      { strong: "G2076" },
+      { text: "us", strong: "G2254" },
+    ];
+    expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+});
+
+describe("findStrongsNodeIssues — verse-initial spaces", () => {
+  it("should report no finding for a clean verse", () => {
+    const content: Content = [{ text: "In the beginning", strong: "H7225" }, { text: " God", strong: "H430" }];
+    expect(findStrongsNodeIssues(content).verseInitialSpace).toBeUndefined();
+  });
+
+  it("should flag a bare space as the whole first node — real WEBUS2020 Revelation 1:18 shape", () => {
+    const content: Content = [" ", { text: "and the Living one.", marks: ["woc"] }];
+    const finding = findStrongsNodeIssues(content).verseInitialSpace;
+    expect(finding).toBeDefined();
+    expect(finding!.first).toBe(" ");
+    expect(finding!.next).toEqual({ text: "and the Living one.", marks: ["woc"] });
+  });
+
+  it("should flag a paragraph-opening node whose own text is nothing but a space — real WEBUS2020 Revelation 2:1 shape", () => {
+    const content: Content = [{ paragraph: true, text: " " }, { text: "“To the angel of the assembly in Ephesus write:", marks: ["woc"] }];
+    const finding = findStrongsNodeIssues(content).verseInitialSpace;
+    expect(finding).toBeDefined();
+    expect(finding!.first).toEqual({ paragraph: true, text: " " });
+  });
+
+  it("should flag a first node whose text merely starts with a space before real content continues — real WEBUS2020 Matthew 24:1 shape", () => {
+    const content: Content = [{ paragraph: true, text: " Jesus went out from the temple, and was going on his way." }];
+    const finding = findStrongsNodeIssues(content).verseInitialSpace;
+    expect(finding).toBeDefined();
+    expect(finding!.next).toBeUndefined();
+  });
+
+  it("should stay silent when the first node's own text has no leading space at all", () => {
+    const content: Content = [{ paragraph: true, text: "Jesus went out from the temple." }];
+    expect(findStrongsNodeIssues(content).verseInitialSpace).toBeUndefined();
+  });
+
+  it("should not look inside a ContentNested wrapper's own first node — an everyday, valid shape there", () => {
+    const content: Content = [{ content: [" ", { text: "is", marks: ["i"] }, " precious,"], strong: "H3368" } as unknown as Content];
+    expect(findStrongsNodeIssues(content).verseInitialSpace).toBeUndefined();
+  });
+
+  it("should not look past a heading/subtitle boundary at the very start", () => {
+    const content: Content = [{ heading: "A Memorable Day" } as unknown as Content, " ", { text: "Now it came to pass", strong: "H139" }];
+    expect(findStrongsNodeIssues(content).verseInitialSpace).toBeUndefined();
+  });
+});
+
 describe("findStrongsNodeIssues — recursion", () => {
   it("should descend into a subtitle node's own inner content", () => {
     const content: Content = { subtitle: ["A ", { text: "! psalm", strong: "H4210" }] };
@@ -159,6 +306,22 @@ describe("findStrongsNodeIssues — recursion", () => {
     const findings = findStrongsNodeIssues(content).leadingPunctuation;
     expect(findings).toHaveLength(1);
     expect(findings[0].where).toBe("content.foot.content");
+  });
+
+  it("should find a mark-boundary space inside a ContentNested wrapper's own content too", () => {
+    const content: Content = [
+      {
+        content: [
+          { text: "he that acknowledgeth", marks: ["i"] },
+          " ",
+          { text: "the Son", marks: ["i"] },
+        ],
+        strong: "G3670",
+      } as unknown as Content,
+    ];
+    const findings = findStrongsNodeIssues(content).markBoundarySpaces;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].where).toBe("content.content");
   });
 });
 
@@ -194,6 +357,8 @@ describe("auditVersion / auditVersions — real, on-disk corpus", () => {
     expect(summary.unmergedPairs).toEqual([]);
     expect(summary.trailingWhitespace).toEqual([]);
     expect(summary.leadingPunctuation).toEqual([]);
+    expect(summary.markBoundarySpaces).toEqual([]);
+    expect(summary.verseInitialSpaces).toEqual([]);
   });
 
   it("should never write to bible-versions/ — this audit is read-only", () => {
@@ -210,12 +375,49 @@ describe("exitCodeFor", () => {
       unmergedPairs: [],
       trailingWhitespace: [{ version: "X", file: "01-GEN.json", book: "GEN", chapter: 1, verse: 1, path: "content[0]" }],
       leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
 
-  it("should exit zero when a version carries no finding across all three checks", () => {
-    const summary = { version: "X", unmergedPairs: [], trailingWhitespace: [], leadingPunctuation: [] } as const;
+  it("should exit non-zero when a version carries only a mark-boundary-space finding", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [
+        { version: "X", file: "40-MAT.json", book: "MAT", chapter: 6, verse: 32, where: "content", left: {}, space: " ", target: {} },
+      ],
+      verseInitialSpaces: [],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit non-zero when a version carries only a verse-initial-space finding", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [
+        { version: "X", file: "66-REV.json", book: "REV", chapter: 1, verse: 8, first: " ", next: {} },
+      ],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit zero when a version carries no finding across all five checks", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+    } as const;
     expect(exitCodeFor([summary])).toBe(0);
   });
 });

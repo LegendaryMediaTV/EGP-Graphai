@@ -4450,8 +4450,7 @@
       { "text": " or", "strong": "G1535" },
       { "text": " in", "strong": "G1909" },
       { "text": " earth,", "strong": "G1093" },
-      " (",
-      { "text": "as", "strong": "G5618" },
+      { "text": " (as", "strong": "G5618" },
       { "text": " there be", "strong": "G1526", "morph": "PresInd" },
       { "text": " gods", "strong": "G2316" },
       { "text": " many,", "strong": "G4183" },
@@ -5275,8 +5274,7 @@
       { "text": "to them that are without law,", "strong": "G459" },
       { "text": " as", "strong": "G5613" },
       { "text": " without law,", "strong": "G459" },
-      " (",
-      { "text": "being", "strong": "G5607", "morph": "PresPtc" },
+      { "text": " (being", "strong": "G5607", "morph": "PresPtc" },
       { "text": " not", "strong": "G3361" },
       { "text": " without law", "strong": "G459" },
       { "text": " to God,", "strong": "G2316" },
@@ -6884,48 +6882,40 @@
         "strong": "G2983",
         "morph": "Aor2ActImpr"
       },
-      " ",
       {
-        "text": "eat:",
+        "text": " eat:",
         "marks": ["woc"],
         "strong": "G5315",
         "morph": "Aor2ActImpr"
       },
-      " ",
-      { "text": "this", "marks": ["woc"], "strong": "G5124" },
-      " ",
-      { "text": "is", "marks": ["woc"], "strong": "G2076", "morph": "PresInd" },
-      " ",
-      { "text": "my", "marks": ["woc"], "strong": "G3450" },
-      " ",
-      { "text": "body,", "marks": ["woc"], "strong": "G4983" },
-      " ",
-      { "text": "which", "marks": ["woc"], "strong": "G3588" },
-      " ",
+      { "text": " this", "marks": ["woc"], "strong": "G5124" },
       {
-        "text": "is broken",
+        "text": " is",
+        "marks": ["woc"],
+        "strong": "G2076",
+        "morph": "PresInd"
+      },
+      { "text": " my", "marks": ["woc"], "strong": "G3450" },
+      { "text": " body,", "marks": ["woc"], "strong": "G4983" },
+      { "text": " which", "marks": ["woc"], "strong": "G3588" },
+      {
+        "text": " is broken",
         "marks": ["woc"],
         "strong": "G2806",
         "morph": "PresPasPtc"
       },
-      " ",
-      { "text": "for", "marks": ["woc"], "strong": "G5228" },
-      " ",
-      { "text": "you:", "marks": ["woc"], "strong": "G5216" },
-      " ",
-      { "text": "this", "marks": ["woc"], "strong": "G5124" },
-      " ",
+      { "text": " for", "marks": ["woc"], "strong": "G5228" },
+      { "text": " you:", "marks": ["woc"], "strong": "G5216" },
+      { "text": " this", "marks": ["woc"], "strong": "G5124" },
       {
-        "text": "do",
+        "text": " do",
         "marks": ["woc"],
         "strong": "G4160",
         "morph": "PresActImpr"
       },
-      " ",
-      { "text": "in", "marks": ["woc"], "strong": "G1519" },
-      " ",
+      { "text": " in", "marks": ["woc"], "strong": "G1519" },
       {
-        "text": "remembrance",
+        "text": " remembrance",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -6933,8 +6923,7 @@
         },
         "strong": "G364"
       },
-      " ",
-      { "text": "of me.", "marks": ["woc"], "strong": "G1699" }
+      { "text": " of me.", "marks": ["woc"], "strong": "G1699" }
     ]
   },
   {
@@ -6953,35 +6942,29 @@
       { "text": " saying,", "strong": "G3004", "morph": "PresActPtc" },
       " ",
       { "text": "This", "marks": ["woc"], "strong": "G5124" },
-      " ",
-      { "text": "cup", "marks": ["woc"], "strong": "G4221" },
-      " ",
-      { "text": "is", "marks": ["woc"], "strong": "G2076", "morph": "PresInd" },
-      " ",
-      { "text": "the new", "marks": ["woc"], "strong": "G2537" },
-      " ",
-      { "text": "testament", "marks": ["woc"], "strong": "G1242" },
-      " ",
-      { "text": "in", "marks": ["woc"], "strong": "G1722" },
-      " ",
-      { "text": "my", "marks": ["woc"], "strong": "G1699" },
-      " ",
-      { "text": "blood:", "marks": ["woc"], "strong": "G129" },
-      " ",
-      { "text": "this", "marks": ["woc"], "strong": "G5124" },
-      " ",
+      { "text": " cup", "marks": ["woc"], "strong": "G4221" },
       {
-        "text": "do ye,",
+        "text": " is",
+        "marks": ["woc"],
+        "strong": "G2076",
+        "morph": "PresInd"
+      },
+      { "text": " the new", "marks": ["woc"], "strong": "G2537" },
+      { "text": " testament", "marks": ["woc"], "strong": "G1242" },
+      { "text": " in", "marks": ["woc"], "strong": "G1722" },
+      { "text": " my", "marks": ["woc"], "strong": "G1699" },
+      { "text": " blood:", "marks": ["woc"], "strong": "G129" },
+      { "text": " this", "marks": ["woc"], "strong": "G5124" },
+      {
+        "text": " do ye,",
         "marks": ["woc"],
         "strong": "G4160",
         "morph": "PresActImpr"
       },
-      " ",
-      { "text": "as oft as", "marks": ["woc"], "strong": "G3740" },
-      " ",
+      { "text": " as oft as", "marks": ["woc"], "strong": "G3740" },
       { "strong": "G302" },
       {
-        "text": "ye drink",
+        "text": " ye drink",
         "marks": ["woc"],
         "strong": "G4095",
         "morph": "PresActSubj"
@@ -6996,8 +6979,7 @@
       },
       " ",
       { "text": "remembrance", "marks": ["woc"], "strong": "G364" },
-      " ",
-      { "text": "of me.", "marks": ["woc"], "strong": "G1699" }
+      { "text": " of me.", "marks": ["woc"], "strong": "G1699" }
     ]
   },
   {
@@ -11240,8 +11222,7 @@
       { "text": "I beseech", "strong": "G3870", "morph": "PresActInd" },
       { "text": " you,", "strong": "G5209" },
       { "text": " brethren,", "strong": "G80" },
-      " (",
-      { "text": "ye know", "strong": "G1492", "morph": "PerfActInd" },
+      { "text": " (ye know", "strong": "G1492", "morph": "PerfActInd" },
       { "text": " the house", "strong": "G3614" },
       { "text": " of Stephanas,", "strong": "G4734" },
       { "text": " that", "strong": "G3754" },
