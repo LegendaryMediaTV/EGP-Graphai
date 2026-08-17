@@ -1093,7 +1093,7 @@
 
 <sup>16</sup> And from thence _they went_ to Beer: that _is_ the well whereof the LORD spake unto Moses, Gather the people together, and I will give them water.<br>
 <sup>17</sup> Then Israel sang this song,<br>Spring up,<sup>f</sup> O well; sing<sup>g</sup> ye unto it:<br>
-<sup>18</sup> The princes digged the well,<br>The nobles of the people digged it,<br>By _the direction of_ the lawgiver, with their staves.<br>
+<sup>18</sup> The princes digged the well,<br>The nobles of the people digged it,<br>By _the direction of_ the lawgiver, with their staves.
 
 And from the wilderness _they went_ to Mattanah:
 <sup>19</sup> and from Mattanah to Nahaliel: and from Nahaliel to Bamoth:

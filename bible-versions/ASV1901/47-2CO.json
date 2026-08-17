@@ -1356,7 +1356,7 @@
         }
       },
       { "text": "At an acceptable time I hearkened unto thee,", "break": true },
-      { "text": "And in a day of salvation did I succor thee:", "break": true },
+      "And in a day of salvation did I succor thee:",
       {
         "paragraph": true,
         "text": "behold, now is the acceptable time; behold, now is the day of salvation):"
@@ -1544,10 +1544,7 @@
           ]
         }
       },
-      {
-        "text": "Come ye out from among them, and be ye separate,",
-        "break": true
-      },
+      "Come ye out from among them, and be ye separate,",
       { "paragraph": true, "text": "saith the Lord,", "break": true },
       { "text": "And touch no unclean thing;", "break": true },
       { "text": "And I will receive you,", "break": true }
@@ -1570,7 +1567,7 @@
         }
       },
       { "text": "And will be to you a Father,", "break": true },
-      { "text": "And ye shall be to me sons and daughters,", "break": true },
+      "And ye shall be to me sons and daughters,",
       { "paragraph": true, "text": "saith the Lord Almighty." }
     ]
   },

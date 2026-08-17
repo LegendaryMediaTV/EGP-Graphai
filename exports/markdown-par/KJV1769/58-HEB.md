@@ -4,7 +4,7 @@
 <sup>2</sup> hath in these last days spoken unto us by _his_ Son, whom he hath appointed heir of all things, by whom also he made the worlds;
 <sup>3</sup> who being the brightness of _his_ glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;
 <sup>4</sup> being made so much better than the angels, as he hath by inheritance obtained a more excellent name than they.
-<sup>5</sup> For unto which of the angels said he at any time,<br>Thou art my Son,<br>This day have I begotten thee?<br>
+<sup>5</sup> For unto which of the angels said he at any time,<br>Thou art my Son,<br>This day have I begotten thee?
 
 And again,<br>I will be to him a Father,<br>And he shall be to me a Son?<br>
 
@@ -34,7 +34,7 @@ And again,<br>I will be to him a Father,<br>And he shall be to me a Son?<br>
 <sup>5</sup> For unto the angels hath he not put in subjection the world to come, whereof we speak.
 <sup>6</sup> But one in a certain place testified, saying,<br>What is man, that thou art mindful of him?<br>Or the son of man, that thou visitest him?<br>
 <sup>7</sup> Thou madest him a little lower than the angels;<br>Thou crownedst him with glory and honour,<br>And didst set him over the works of thy hands:<br>
-<sup>8</sup> Thou hast put all things in subjection under his feet.<br>
+<sup>8</sup> Thou hast put all things in subjection under his feet.
 
 For in that he put all in subjection under him, he left nothing _that is_ not put under him. But now we see not yet all things put under him.
 <sup>9</sup> But we see Jesus, who was made a little lower than the angels for<sup>c</sup> the suffering of death, crowned with glory and honour; that he by the grace of God should taste death for every man.
@@ -86,7 +86,7 @@ For in that he put all in subjection under him, he left nothing _that is_ not pu
 
 <sup>1</sup> Let us therefore fear, lest, a promise being left _us_ of entering into his rest, any of you should seem to come short of it.
 <sup>2</sup> For unto us was the gospel preached, as well as unto them: but the word preached<sup>a</sup> did not profit them, not being mixed with faith in them<sup>b</sup> that heard _it_.
-<sup>3</sup> For we which have believed do enter into rest, as he said,<br>As I have sworn in my wrath,<br>If they shall enter into my rest:<br>
+<sup>3</sup> For we which have believed do enter into rest, as he said,<br>As I have sworn in my wrath,<br>If they shall enter into my rest:
 
 although the works were finished from the foundation of the world.
 <sup>4</sup> For he spake in a certain place of the seventh _day_ on this wise, And God did rest the seventh day from all his works.

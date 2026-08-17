@@ -101,7 +101,7 @@
 <sup>16</sup> When I heard, my belly trembled;<br>My lips quivered at the voice:<br>Rottenness entered into my bones, and I trembled in myself,<br>That I might rest in the day of trouble:<br>When he cometh up unto the people,<br>He will invade them<sup>n</sup> with his troops.<br>
 <sup>17</sup> Although the fig tree shall not blossom,<br>Neither _shall_ fruit _be_ in the vines;<br>The labour of the olive shall fail,<sup>o</sup><br>And the fields shall yield no meat;<br>The flock shall be cut off from the fold,<br>And _there shall be_ no herd in the stalls:<br>
 <sup>18</sup> Yet I will rejoice in the LORD,<br>I will joy in the God of my salvation.<br>
-<sup>19</sup> The LORD God _is_ my strength,<br>And he will make my feet like hinds’ _feet_,<br>And he will make me to walk upon mine high places.<br>
+<sup>19</sup> The LORD God _is_ my strength,<br>And he will make my feet like hinds’ _feet_,<br>And he will make me to walk upon mine high places.
 
 To the chief singer on my stringed instruments.<sup>p</sup>
 

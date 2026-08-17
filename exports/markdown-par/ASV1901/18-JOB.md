@@ -1207,7 +1207,7 @@
 <sup>37</sup> I would declare unto him the number of my steps;<br>As a prince would I <sup>l</sup>go near unto him.<br>
 <sup>38</sup> If my land crieth out against me,<br>And the furrows thereof weep together;<br>
 <sup>39</sup> If I have eaten the <sup>m</sup>fruits thereof without money,<br>Or have caused the owners thereof to lose their life:<br>
-<sup>40</sup> Let <sup>n</sup>thistles grow instead of wheat,<br>And <sup>o</sup>cockle instead of barley.<br>
+<sup>40</sup> Let <sup>n</sup>thistles grow instead of wheat,<br>And <sup>o</sup>cockle instead of barley.
 
 The words of Job are ended.<br>
 

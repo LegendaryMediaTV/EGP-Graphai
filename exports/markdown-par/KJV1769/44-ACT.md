@@ -27,7 +27,7 @@
 <sup>17</sup> For he was numbered with us, and had obtained part of this ministry.
 <sup>18</sup> Now this man purchased a field with the reward of iniquity; and falling headlong, he burst asunder in the midst, and all his bowels gushed out.
 <sup>19</sup> And it was known unto all the dwellers at Jerusalem; insomuch as that field is called in their proper tongue, Aceldama, that is to say, The field of blood.
-<sup>20</sup> For it is written in the book of Psalms,<br>Let his habitation be desolate,<br>And let no man dwell therein:<br>
+<sup>20</sup> For it is written in the book of Psalms,<br>Let his habitation be desolate,<br>And let no man dwell therein:
 
 and<br>His bishoprick<sup>b</sup> let another take.<br>
 

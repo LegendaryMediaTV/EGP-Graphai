@@ -2846,7 +2846,7 @@
       { "text": " the day", "strong": "G2250" },
       { "text": " of salvation", "strong": "G4991" },
       { "text": " have I succoured", "strong": "G997", "morph": "AorActInd" },
-      { "text": " thee:", "break": true, "strong": "G4671" },
+      { "text": " thee:", "strong": "G4671" },
       {
         "paragraph": true,
         "text": "behold,",
@@ -3232,12 +3232,7 @@
       { "text": " among", "strong": "G3319" },
       { "text": " them,", "strong": "G846" },
       { "text": " and", "strong": "G2532" },
-      {
-        "text": " be ye separate,",
-        "break": true,
-        "strong": "G873",
-        "morph": "AorPasImpr"
-      },
+      { "text": " be ye separate,", "strong": "G873", "morph": "AorPasImpr" },
       {
         "paragraph": true,
         "text": "saith",
@@ -3279,7 +3274,7 @@
       { "text": " sons", "strong": "G5207" },
       { "strong": "G1519" },
       { "text": " and", "strong": "G2532" },
-      { "text": " daughters,", "break": true, "strong": "G2364" },
+      { "text": " daughters,", "strong": "G2364" },
       {
         "paragraph": true,
         "text": "saith",

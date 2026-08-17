@@ -222,7 +222,7 @@
 <sup>28</sup> The mother of Sisera looked out at a window,<br>And cried through the lattice,<br>Why is his chariot _so_ long in coming?<br>Why tarry the wheels of his chariots?<br>
 <sup>29</sup> Her wise ladies answer<sup>r</sup>ed her,<br>Yea, she returned answer to herself,<br>
 <sup>30</sup> Have they not sped? have they _not_ divided the prey;<br>To every man<sup>s</sup> a damsel _or_ two;<br>To Sisera a prey of divers colours,<br>A prey of divers colours of needlework,<br>Of divers colours of needlework on both sides, _meet_ for the necks of _them that take_ the spoil?<sup>t</sup><br>
-<sup>31</sup> So let all thine enemies perish, O LORD:<br>But _let_ them that love him _be_ as the sun when he goeth forth in his might.<br>
+<sup>31</sup> So let all thine enemies perish, O LORD:<br>But _let_ them that love him _be_ as the sun when he goeth forth in his might.
 
 And the land had rest forty years.
 
@@ -690,7 +690,7 @@ And the land had rest forty years.
 <sup>11</sup> And it came to pass, when they saw him, that they brought thirty companions to be with him.
 <sup>12</sup> And Samson said unto them, I will now put forth a riddle unto you: if ye can certainly declare it me within the seven days of the feast, and find _it_ out, then I will give you thirty sheets<sup>c</sup> and thirty change of garments:
 <sup>13</sup> but if ye cannot declare _it_ me, then shall ye give me thirty sheets and thirty change of garments. And they said unto him, Put forth thy riddle, that we may hear it.
-<sup>14</sup> And he said unto them,<br>Out of the eater came forth meat,<br>And out of the strong came forth sweetness.<br>
+<sup>14</sup> And he said unto them,<br>Out of the eater came forth meat,<br>And out of the strong came forth sweetness.
 
 And they could not in three days expound the riddle.
 

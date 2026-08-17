@@ -28,7 +28,7 @@ And David begat Solomon of her _that had been the wife_ of Uriah;
 <sup>20</sup> But when he thought on these things, behold, an angel of the Lord appeared unto him in a dream, saying, Joseph, thou son of David, fear not to take unto thee Mary thy wife: for that which is <sup>q</sup>conceived in her is of the Holy Spirit.
 <sup>21</sup> And she shall bring forth a son; and thou shalt call his name JESUS; for it is he that shall save his people from their sins.
 <sup>22</sup> Now all this is come to pass, that it might be fulfilled which was spoken by the Lord through the prophet, saying,<br>
-<sup>23</sup> <sup>r</sup>Behold, the virgin shall be with child, and shall bring forth a son,<br>And they shall call his name <sup>s</sup>Immanuel;<br>
+<sup>23</sup> <sup>r</sup>Behold, the virgin shall be with child, and shall bring forth a son,<br>And they shall call his name <sup>s</sup>Immanuel;
 
 which is, being interpreted, God with us.
 <sup>24</sup> And Joseph arose from his sleep, and did as the angel of the Lord commanded him, and took unto him his wife;
@@ -136,7 +136,7 @@ which is, being interpreted, God with us.
 <sup>3</sup> And the tempter came and said unto him, If thou art the Son of God, command that these stones become <sup>a</sup>bread.
 <sup>4</sup> But he answered and said, It is written, <sup>b</sup>Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.
 <sup>5</sup> Then the devil taketh him into the holy city; and he set him on the <sup>c</sup>pinnacle of the temple,
-<sup>6</sup> and saith unto him, If thou art the Son of God, cast thyself down: for it is written,<sup>d</sup><br>He shall give his angels charge concerning thee:<br>
+<sup>6</sup> and saith unto him, If thou art the Son of God, cast thyself down: for it is written,<sup>d</sup><br>He shall give his angels charge concerning thee:
 
 and,<br>On their hands they shall bear thee up,<br>Lest haply thou dash thy foot against a stone.<br>
 

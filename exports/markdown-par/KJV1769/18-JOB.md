@@ -1178,7 +1178,7 @@
 <sup>37</sup> I would declare unto him the number of my steps;<br>As a prince would I go near unto him.<br>
 <sup>38</sup> If my land cry against me,<br>Or that the furrows likewise thereof complain;<sup>l</sup><br>
 <sup>39</sup> If I have eaten the fruits thereof<sup>m</sup> without money,<br>Or have caused the owners thereof to lose their life:<sup>n</sup><br>
-<sup>40</sup> Let thistles grow instead of wheat,<br>And cockle<sup>o</sup> instead of barley.<br>
+<sup>40</sup> Let thistles grow instead of wheat,<br>And cockle<sup>o</sup> instead of barley.
 
 The words of Job are ended.
 

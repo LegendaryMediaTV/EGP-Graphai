@@ -1048,7 +1048,7 @@
 <sup>16</sup> And from thence _they journeyed_ to <sup>i</sup>Beer: that is the well whereof Jehovah said unto Moses, Gather the people together, and I will give them water.
 
 <sup>17</sup> Then sang Israel this song:<br>Spring up, O well; sing ye unto it:<br>
-<sup>18</sup> The well, which the princes digged,<br>Which the nobles of the people delved,<sup>j</sup><br>With the sceptre, _and_ with their staves.<br>
+<sup>18</sup> The well, which the princes digged,<br>Which the nobles of the people delved,<sup>j</sup><br>With the sceptre, _and_ with their staves.
 
 And from the wilderness _they journeyed_ to Mattanah;
 <sup>19</sup> and from Mattanah to Nahaliel; and from Nahaliel to Bamoth;
