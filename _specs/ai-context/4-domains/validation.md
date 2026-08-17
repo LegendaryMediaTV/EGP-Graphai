@@ -23,6 +23,8 @@ The Validation domain ensures data integrity across all Bible JSON files. It val
 5. **File Naming** – Files match `{order}-{bookId}.json` pattern
 6. **Book Field Match** – Verse `book` field matches filename book ID
 7. **Reference Integrity** – Book IDs in versions exist in books registry
+8. **Meaningless Content Nodes** – Flags a node that renders nothing: `marks`/`script` with no `text` to apply them to (a non-greedy bold/italic delimiter pairing can't match zero characters and leaks into surrounding text), or an empty `{text: ""}` husk left over from stripped marks. `foot`, `strong`, `morph`, `lemma`, `bibleLink`, and bare `paragraph`/`break` flags are left alone — each is meaningful on its own even without `text`
+9. **Strong's Trailing Whitespace** – Flags a `strong`-carrying node whose own `text` ends in whitespace, violating the convention that a joining space belongs on the *following* node's leading edge, not the tagged node's trailing edge
 
 ### Canonical Key Order
 
@@ -58,6 +60,8 @@ Verse objects follow: `book`, `chapter`, `verse`, `content`
 - **Cascading Schemas** – Content schema referenced by verse schema, which is used by version validation
 - **AJV Schema Registration** – All referenced schemas must be registered with AJV before validation
 - **Comprehensive Output** – Each check logs success (✅) or failure (❌) with details
+- **Both New Checks Are Exported, Standalone Functions** – `findMeaninglessContentNodes()` and `findStrongTrailingWhitespaceNodes()` each take a verse's `content` tree directly and return path-labeled problem strings (e.g. `content[0].foot.content[1]`), independent of the CLI — usable from tests or other tooling without running the full validation pass
+- **Import-Safe Entry Point** – `main()` only runs when this module is the process entry point (`require.main === module`), so tests can import `validate.ts` for its exported functions without triggering a full validation run as a side effect
 
 ## Representative Code Examples
 
@@ -243,6 +247,34 @@ for (const version of versionDirs) {
   }
 }
 ```
+
+### Meaningless Content Node Detection
+
+_From [utils/validate.ts](../../../utils/validate.ts)_
+
+```typescript
+export function findMeaninglessContentNodes(content: Content): string[] {
+  const problems: string[] = [];
+
+  const walk = (node: unknown, at: string): void => {
+    if (Array.isArray(node)) {
+      node.forEach((child, index) => walk(child, `${at}[${index}]`));
+      return;
+    }
+    if (node === null || typeof node !== "object") return;
+
+    const properties = node as Record<string, unknown>;
+    // formatting (marks/script) with no text, or an empty "" husk, both flagged;
+    // foot/strong/morph/lemma/bibleLink/paragraph/break left alone as meaningful on their own
+    // ...
+  };
+
+  walk(content, "content");
+  return problems;
+}
+```
+
+The walk descends through every content-bearing branch — `foot.content`, subtitles, and headings — not just the top level; guarding only the top-level path is exactly how the two shapes this check targets survived an earlier cleanup pass undetected.
 
 ### Exit on Failure
 

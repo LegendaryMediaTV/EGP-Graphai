@@ -28,6 +28,10 @@ The Export System converts Graphai JSON data into human-readable formats for off
 | `> _text_`     | Subtitle block   | Markdown |
 | `### Heading`  | Section heading (standard) | Markdown |
 | `#### Heading` | Section heading (acrostic, one level smaller) | Markdown |
+| `**text**`     | Bold (`b` mark)   | Markdown |
+| `_text_`       | Italic (`i` mark) | Markdown |
+
+Bold/italic wrapping is a no-op in the text export — `b`/`i` marks carry no visible rendering there, only in markdown.
 
 ## User Workflows
 
@@ -47,6 +51,9 @@ The Export System converts Graphai JSON data into human-readable formats for off
 - **Nested Content** – Content with shared properties (e.g., Strong's numbers applying to multiple words) handled recursively
 - **Bible Reference Links** – `bibleLink` nodes render their `content` override when provided, otherwise the `bibleLink` string itself
 - **Heading Type** – A heading's optional `type` (`standard` default, `acrostic`) renders one level smaller for acrostic markers (e.g., Psalm 119 Hebrew stanza letters) in both text (`[[[...]]]`) and markdown (`####`) exports
+- **Bold/Italic Marks Share One Delimiter Span Across Siblings** – Adjacent array items carrying the same open `b`/`i` state render under one shared open/close delimiter pair instead of each item emitting its own. Without this, a bold+italic quotation built word-by-word produced broken markdown like `**word****word**` instead of `**word word**`. `b` and `i` are tracked independently, so a single un-bolded "supplied word" in the middle of an otherwise bold+italic run can drop bold alone while italic stays open across it (bold nests inside italic: `_word **word** word_`)
+- **Second-Footnote Marker Ordering** – The content schema allows only one `foot` per node, so a word's second footnote rides as a textless sibling node immediately after it. That sibling's marker now renders *before* the word's Strong's number, matching where the first footnote's marker sits, rather than trailing after by array order
+- **Synthetic Space Before an Unseparated Tag** – When a Strong's/morph/lemma tag has no line break and nothing else separating it from the word that follows, a space is inserted so text like `H2822was` renders as `H2822 was`
 
 ## Architecture
 
@@ -65,6 +72,8 @@ interface RenderOptions {
   headingWrapper: (text: string, type?: "standard" | "acrostic") => string;
   subtitleWrapper: (text: string) => string;
   footnoteMarker: (index: number) => string;
+  boldWrapper: (text: string) => string; // Wraps text carrying a "b" mark
+  italicWrapper: (text: string) => string; // Wraps text carrying an "i" mark
 }
 ```
 
@@ -82,6 +91,8 @@ const TEXT_OPTIONS: RenderOptions = {
     type === "acrostic" ? `[[[${text}]]] ` : `[[${text}]] `,
   subtitleWrapper: (text) => `«${text}» `,
   footnoteMarker: () => "°",
+  boldWrapper: (text) => text,
+  italicWrapper: (text) => text,
 };
 
 const MARKDOWN_OPTIONS: RenderOptions = {
@@ -96,6 +107,8 @@ const MARKDOWN_OPTIONS: RenderOptions = {
   subtitleWrapper: (text) => `> _${text}_`,
   footnoteMarker: (index) =>
     `<sup>${String.fromCharCode(97 + (index % 26))}</sup>`,
+  boldWrapper: (text) => `**${text}**`,
+  italicWrapper: (text) => `_${text}_`,
 };
 ```
 
@@ -148,6 +161,27 @@ function renderContent(content: Content, ctx: RenderContext): string {
   return renderTextObject(content as ContentObject, ctx);
 }
 ```
+
+### Bold/Italic Delimiter Merging Across Siblings
+
+_From [utils/exportContent.ts](../../../utils/exportContent.ts)_
+
+```typescript
+function emphasisTransition(
+  from: EmphasisState,
+  to: EmphasisState,
+  bold: { open: string; close: string },
+  italic: { open: string; close: string }
+): { close: string; open: string } {
+  let close = "";
+  if (from.b && !to.b) close += bold.close;
+  if (from.i && !to.i) close += italic.close;
+  // ...opens only marks present in `to` but absent from `from`
+  return { close, open /* built the same way, outermost-first */ };
+}
+```
+
+Called once per transition between array siblings (not once per node), so a run of same-marked words shares one open delimiter and one close delimiter rather than each word wrapping itself — the fix for markdown output that used to look like `**word****word**`.
 
 ### Text Object Rendering with Footnote Order
 

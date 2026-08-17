@@ -5,7 +5,8 @@
     "types/Footnote.ts",
     "types/Verse.ts",
     "types/VerseSchema.ts",
-    "types/Version.ts"
+    "types/Version.ts",
+    "web/public/js/footnoteText.d.ts"
   ],
   "utility-functions": [
     "functions/convertToSmallCaps.ts",
@@ -14,11 +15,13 @@
     "functions/validateJsonAgainstSchema.ts",
     "functions/writeJsonFile.ts",
     "utils/auditCrossChapterLinks.ts",
+    "utils/auditStrongsNodes.ts",
     "utils/convertToSmallCaps.ts",
     "utils/crossChapterLinks.ts",
     "utils/exportContent.ts",
     "utils/sortBibleKeys.ts",
-    "utils/validate.ts"
+    "utils/validate.ts",
+    "web/public/js/footnoteText.js"
   ],
   "test-files": [
     "functions/__tests__/contentSchema.test.ts",
@@ -27,8 +30,11 @@
     "functions/__tests__/sortContentKeys.test.ts",
     "functions/__tests__/writeJsonFile.test.ts",
     "utils/__tests__/auditCrossChapterLinks.test.ts",
+    "utils/__tests__/auditStrongsNodes.test.ts",
     "utils/__tests__/crossChapterLinks.test.ts",
-    "utils/__tests__/exportContent.test.ts"
+    "utils/__tests__/exportContent.test.ts",
+    "utils/__tests__/validate.test.ts",
+    "web/public/js/__tests__/footnoteText.test.ts"
   ],
   "database-schema": [
     "content-schema.json",

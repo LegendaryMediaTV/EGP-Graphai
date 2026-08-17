@@ -16,9 +16,12 @@
   - `functions/__tests__/sortContentKeys.test.ts`
   - `functions/__tests__/writeJsonFile.test.ts`
   - `utils/__tests__/auditCrossChapterLinks.test.ts`
+  - `utils/__tests__/auditStrongsNodes.test.ts`
   - `utils/__tests__/crossChapterLinks.test.ts`
   - `utils/__tests__/exportContent.test.ts`
-- **Pattern** – `*.test.ts` files in `__tests__/` subdirectories
+  - `utils/__tests__/validate.test.ts`
+  - `web/public/js/__tests__/footnoteText.test.ts`
+- **Pattern** – `*.test.ts` files in `__tests__/` subdirectories, including under `web/public/js/` for the reader's own plain-JS utilities
 
 ## Coverage by Domain
 
@@ -33,7 +36,7 @@
 
 ### Bible Versions Domain
 
-- **Existing tests** – `functions/__tests__/getBibleVersions.test.ts` (17 tests)
+- **Existing tests** – `functions/__tests__/getBibleVersions.test.ts` (23 tests)
 - **Covered scenarios:**
   - Version discovery from `_version.json` files
   - Alphabetical sorting by `_id`
@@ -41,17 +44,21 @@
   - Handling malformed JSON files gracefully
   - Custom directory path support
   - Single version retrieval by ID
+  - Duplicate-name disambiguation — colliding `name` values get their `_id`'s trailing-year suffix appended; unique names untouched; a non-string `name` skipped from grouping; an unparseable trailing year logged rather than thrown
+  - `getBibleVersion()`'s singular lookup deliberately does not disambiguate
 
 ### Content Processing / Export Domain
 
-- **Existing tests** – `utils/__tests__/exportContent.test.ts` (50 tests)
+- **Existing tests** – `utils/__tests__/exportContent.test.ts` (80 tests)
 - **Covered scenarios:**
   - Plain text conversion with Strong's numbers and morphology
   - Markdown conversion with paragraph markers, footnotes, line breaks
   - Heading and subtitle rendering
   - Standard vs. acrostic heading rendering — triple-bracket marker in text, one-heading-level-smaller in markdown, across both the generic dispatch and the chapter/verse-leading special cases
-  - Footnote marker placement and ordering
+  - Footnote marker placement and ordering, including a second footnote on the same word (textless-sibling shape) landing its marker before the Strong's number, matching the first footnote's position
   - Small caps rendering in text and markdown exports
+  - Bold/italic rendering — markdown-only wrapping, and the shared-delimiter-span merge across adjacent same-marked siblings (regression coverage for the `**word****word**` bug)
+  - Synthetic space insertion between an unseparated Strong's/morph/lemma tag and the word that follows
   - Edge cases: mid-verse paragraphs, textless elements, trailing footnotes
   - Real-world verse tests from KJV1769
 
@@ -105,17 +112,26 @@
 
 ### Validation Domain
 
-- **Existing tests** – None directly, but its JSON-reformatting step (`formatJsonFile()`) calls the same `formatJsonData()` covered under File Writing Domain above, so that logic isn't untested — only `validate.ts`'s own orchestration (file discovery, schema checks, exit codes) lacks direct coverage
-- **What should be tested:**
-  - `validateJsonAgainstSchema()` – Schema validation with $ref resolution
-  - Version book ordering validation
-  - Cross-schema validation
-  - Automatic key sorting during validation
+- **Existing tests** – `utils/__tests__/validate.test.ts` (33 tests)
+- **Covered scenarios:**
+  - `findMeaninglessContentNodes()` — formatting (`marks`/`script`) with no `text`, and empty `""` husks, flagged; `foot`/`strong`/`morph`/`lemma`/`bibleLink`/bare `paragraph`/`break` left alone; descends into `foot.content`, subtitles, and headings, not just the top level
+  - `findStrongTrailingWhitespaceNodes()` — a `strong`-carrying node's own `text` ending in whitespace
+  - `main()` gated behind `require.main === module`, so importing the module for its exported functions doesn't trigger a full validation run
+
+### Strong's-Node Audit Domain
+
+- **Existing tests** – `utils/__tests__/auditStrongsNodes.test.ts` (49 tests)
+- **Covered scenarios:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the domain narrative — all five findings' positive/negative cases, `agreesInFormatting` mark/script agreement, textless-Strong's-sibling skip-through (both directions), `break`/`paragraph` boundary guards, verse-initial-space detection scoped to a verse's own outermost content, and `exitCodeFor()`/`isClean()` across all five checks combined
 
 ### Web Reader Domain
 
-- **Existing tests** – None
-- **What should be tested:**
+- **Existing tests** – `web/public/js/__tests__/footnoteText.test.ts` (7 tests) for `getFootnoteText()`; none yet for React components or the HTTP server
+- **Covered scenarios:**
+  - Plain string passthrough
+  - `{bibleLink}` falls back to the raw reference when no display override is set; a `content` override is preferred over the raw link when present
+  - Falls back to `.text` on a plain-text note
+  - Mixed arrays of link/string segments joined into one string (real Psalm 111:10 and Matthew 5:3 WEBUS2020 reproduction cases for a reported flattening bug)
+- **What should still be tested:**
   - API endpoint responses
   - Static file serving
 
@@ -173,6 +189,12 @@ npm run audit-links
 
 # Audit one version, or add --fix to split and write its findings
 npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix
+
+# Audit all versions for Strong's-node placement conventions (read-only, no --fix)
+npm run audit-strongs-nodes
+
+# Audit one version, listing every finding rather than the first 10 per check
+npx ts-node utils/auditStrongsNodes.ts WEBUS2020 --verbose
 ```
 
 ### Run Tests
@@ -203,6 +225,7 @@ npx vitest --run path/to/test.ts
 - Text format: verse numbers, Strong's, morph codes, paragraph markers, footnotes
 - Markdown format: paragraph breaks, heading/subtitle rendering, footnote references
 - Heading `type`: acrostic vs. standard marker rendering in both formats
+- Bold/italic (`b`/`i`) mark rendering, especially the shared-delimiter-span merge across adjacent same-marked siblings — the highest-risk regression surface in this file
 - Edge cases: mid-verse paragraphs, textless elements, trailing footnotes
 
 ### When Modifying File Writes (writeJsonFile.ts)
@@ -237,6 +260,33 @@ Any of the five callers (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.
 - Discovery of `_version.json` files from folders
 - Error handling for malformed JSON
 - Version sorting and retrieval
+- Duplicate-name disambiguation, and its deliberate absence from the singular `getBibleVersion()` lookup
+
+### When Modifying Validation Checks (validate.ts)
+
+**Relevant tests:** `npx vitest --run utils/__tests__/validate.test.ts`
+
+**Test coverage includes:**
+
+- `findMeaninglessContentNodes()` and `findStrongTrailingWhitespaceNodes()`, both exported and callable independent of the CLI
+- Recursion into every content-bearing branch (`foot.content`, subtitles, headings), not just the top level — the shape both checks exist to catch
+
+### When Modifying the Strong's-Node Audit (auditStrongsNodes.ts)
+
+**Relevant tests:** `npx vitest --run utils/__tests__/auditStrongsNodes.test.ts`
+
+**Test coverage includes:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the full rule set. This tool has no `--fix` path — it's read-only, so there's no write-back behavior to regression-test, only detection correctness across all five findings.
+
+### When Modifying Footnote Text Extraction (footnoteText.js)
+
+**Relevant tests:** `npx vitest --run web/public/js/__tests__/footnoteText.test.ts`
+
+**Test coverage includes:**
+
+- Every `foot.content` shape: plain string, mixed array, `{bibleLink, content?}`, `{text}`
+- Real-world reproduction cases for a footnote-flattening bug (Psalm 111:10, Matthew 5:3 in WEBUS2020)
+
+This is a plain, unbundled `.js` file loaded as a `window` global in `index.html` before `ContentNode.js` — a change here should also be spot-checked in the browser, not just via its own test suite, since load order and global-namespace collisions aren't something Vitest can catch.
 
 ### When Adding New Bible Versions
 

@@ -52,6 +52,7 @@ A single recursive content shape (defined in [content-schema.json](../../../cont
 | Strong's link points to a 404                        | Strong's number doesn't match `^[GH][0-9]{1,4}$` or starts with the wrong testament prefix |
 | `Failed to write … after N attempts`                 | Something is holding that file open past the retry budget — see [Writing files](./data-pipeline.md#writing-files) |
 | `auditCrossChapterLinks` reports an unsplit finding   | Run it with `--fix` for that version — see [Cross-chapter link audit](./data-pipeline.md#cross-chapter-link-audit) |
+| `auditStrongsNodes` reports a finding                | Read-only — no `--fix`; fix the flagged node(s) by hand — see [Strong's-node audit](./data-pipeline.md#strongs-node-audit) |
 | A validate run reformats far more of a file than expected | The file was carrying stale formatting from before a write went through the canonical path — see [Writing files](./data-pipeline.md#writing-files) |
 
 ## License & contribution notes
