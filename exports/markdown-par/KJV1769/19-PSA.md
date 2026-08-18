@@ -3176,6 +3176,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 
 #### ב Bet
+
 <sup>1</sup> Praise ye<sup>a</sup> the LORD. I will praise the LORD with _my_ whole heart,<br>In the assembly of the upright, and _in_ the congregation.<br>
 
 #### ג Gimel
@@ -3239,6 +3240,7 @@ The fear of the LORD _is_ the beginning of wisdom:<br>A good understanding<sup>d
 
 
 #### ב Bet
+
 <sup>1</sup> Praise ye<sup>a</sup> the LORD. Blessed _is_ the man _that_ feareth the LORD,<br>_That_ delighteth greatly in his commandments.<br>
 
 #### ג Gimel

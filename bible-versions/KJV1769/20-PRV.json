@@ -662,7 +662,7 @@
     "chapter": 2,
     "verse": 1,
     "content": [
-      { "text": "My son,", "strong": "H1121" },
+      { "paragraph": true, "text": "My son,", "strong": "H1121" },
       {
         "text": " if thou wilt receive",
         "strong": "H3947",
@@ -1060,7 +1060,7 @@
     "chapter": 3,
     "verse": 1,
     "content": [
-      { "text": "My son,", "strong": "H1121" },
+      { "paragraph": true, "text": "My son,", "strong": "H1121" },
       { "text": " forget", "strong": "H7911", "morph": "QalImpf" },
       { "text": " not my law;", "break": true, "strong": "H8451" },
       { "text": "But let thine heart", "strong": "H3820" },
@@ -1771,7 +1771,12 @@
     "verse": 1,
     "content": [
       { "heading": "A Father’s Instruction" },
-      { "text": "Hear,", "strong": "H8085", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Hear,",
+        "strong": "H8085",
+        "morph": "QalImpv"
+      },
       { "text": " ye children,", "strong": "H1121" },
       { "text": " the instruction", "strong": "H4148" },
       { "text": " of a father,", "break": true, "strong": "H1" },
@@ -2326,7 +2331,7 @@
     "chapter": 5,
     "verse": 1,
     "content": [
-      { "text": "My son,", "strong": "H1121" },
+      { "paragraph": true, "text": "My son,", "strong": "H1121" },
       { "text": " attend", "strong": "H7181", "morph": "HiphImpv" },
       { "text": " unto my wisdom,", "break": true, "strong": "H2451" },
       {
@@ -2771,7 +2776,7 @@
     "chapter": 6,
     "verse": 1,
     "content": [
-      { "text": "My son,", "strong": "H1121" },
+      { "paragraph": true, "text": "My son,", "strong": "H1121" },
       { "text": " if thou be surety", "strong": "H6148", "morph": "QalPerf" },
       { "text": " for thy friend,", "break": true, "strong": "H7453" },
       {
@@ -3513,7 +3518,7 @@
     "chapter": 7,
     "verse": 1,
     "content": [
-      { "text": "My son,", "strong": "H1121" },
+      { "paragraph": true, "text": "My son,", "strong": "H1121" },
       { "text": " keep", "strong": "H8104", "morph": "QalImpv" },
       { "text": " my words,", "break": true, "strong": "H561" },
       { "text": "And lay up", "strong": "H6845", "morph": "QalImpf" },
@@ -4036,7 +4041,7 @@
     "verse": 1,
     "content": [
       { "heading": "Wisdom and Folly" },
-      { "text": "Doth not wisdom", "strong": "H2451" },
+      { "paragraph": true, "text": "Doth not wisdom", "strong": "H2451" },
       { "text": " cry?", "break": true, "strong": "H7121", "morph": "QalImpf" },
       { "text": "And understanding", "strong": "H8394" },
       { "text": " put forth", "strong": "H5414", "morph": "QalImpf" },
@@ -4784,7 +4789,7 @@
     "chapter": 9,
     "verse": 1,
     "content": [
-      { "text": "Wisdom", "strong": "H2454" },
+      { "paragraph": true, "text": "Wisdom", "strong": "H2454" },
       { "text": " hath builded", "strong": "H1129", "morph": "QalPerf" },
       { "text": " her house,", "break": true, "strong": "H1004" },
       { "text": "She hath hewn out", "strong": "H2672", "morph": "QalPerf" },
@@ -5922,7 +5927,7 @@
     "chapter": 11,
     "verse": 1,
     "content": [
-      { "text": "A false", "strong": "H4820" },
+      { "paragraph": true, "text": "A false", "strong": "H4820" },
       {
         "text": " balance",
         "foot": {
@@ -6700,7 +6705,12 @@
     "chapter": 12,
     "verse": 1,
     "content": [
-      { "text": "Whoso loveth", "strong": "H157", "morph": "QalActPtc" },
+      {
+        "paragraph": true,
+        "text": "Whoso loveth",
+        "strong": "H157",
+        "morph": "QalActPtc"
+      },
       { "text": " instruction", "strong": "H4148" },
       { "text": " loveth", "strong": "H157", "morph": "QalActPtc" },
       { "text": " knowledge:", "break": true, "strong": "H1847" },
@@ -7370,7 +7380,7 @@
     "chapter": 13,
     "verse": 1,
     "content": [
-      { "text": "A wise", "strong": "H2450" },
+      { "paragraph": true, "text": "A wise", "strong": "H2450" },
       { "text": " son", "strong": "H1121" },
       {
         "content": [
@@ -7976,7 +7986,7 @@
     "chapter": 14,
     "verse": 1,
     "content": [
-      { "text": "Every wise", "strong": "H2454" },
+      { "paragraph": true, "text": "Every wise", "strong": "H2454" },
       { "text": " woman", "strong": "H802" },
       { "text": " buildeth", "strong": "H1129", "morph": "QalPerf" },
       { "text": " her house:", "break": true, "strong": "H1004" },
@@ -8734,7 +8744,7 @@
     "chapter": 15,
     "verse": 1,
     "content": [
-      { "text": "A soft", "strong": "H7390" },
+      { "paragraph": true, "text": "A soft", "strong": "H7390" },
       { "text": " answer", "strong": "H4617" },
       { "text": " turneth", "strong": "H7725", "morph": "HiphImpf" },
       { "text": " away wrath:", "break": true, "strong": "H2534" },
@@ -9520,6 +9530,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "The preparations",
         "foot": {
           "type": "trn",
@@ -10298,7 +10309,7 @@
     "chapter": 17,
     "verse": 1,
     "content": [
-      { "text": "Better", "strong": "H2896" },
+      { "paragraph": true, "text": "Better", "strong": "H2896" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " a dry"],
         "strong": "H2720"
@@ -10964,7 +10975,7 @@
     "chapter": 18,
     "verse": 1,
     "content": [
-      { "text": "Through desire", "strong": "H8378" },
+      { "paragraph": true, "text": "Through desire", "strong": "H8378" },
       {
         "text": " a man, having separated",
         "strong": "H6504",
@@ -11513,7 +11524,7 @@
     "chapter": 19,
     "verse": 1,
     "content": [
-      { "text": "Better", "strong": "H2896" },
+      { "paragraph": true, "text": "Better", "strong": "H2896" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " the poor"],
         "strong": "H7326",
@@ -12234,7 +12245,7 @@
     "chapter": 20,
     "verse": 1,
     "content": [
-      { "text": "Wine", "strong": "H3196" },
+      { "paragraph": true, "text": "Wine", "strong": "H3196" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " a mocker,"],
         "strong": "H3887",
@@ -12977,7 +12988,7 @@
     "chapter": 21,
     "verse": 1,
     "content": [
-      { "text": "The king’s", "strong": "H4428" },
+      { "paragraph": true, "text": "The king’s", "strong": "H4428" },
       { "text": " heart", "strong": "H3820" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " in the hand"],
@@ -13737,6 +13748,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": ["A ", { "text": "good", "marks": ["i"] }, " name"],
         "strong": "H8034"
       },
@@ -14465,7 +14477,12 @@
     "chapter": 23,
     "verse": 1,
     "content": [
-      { "text": "When thou sittest", "strong": "H3427", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "When thou sittest",
+        "strong": "H3427",
+        "morph": "QalImpf"
+      },
       { "text": " to eat", "strong": "H3898", "morph": "QalInf" },
       {
         "text": " with a ruler,",
@@ -15238,7 +15255,12 @@
     "chapter": 24,
     "verse": 1,
     "content": [
-      { "text": "Be not thou envious", "strong": "H7065", "morph": "PielImpf" },
+      {
+        "paragraph": true,
+        "text": "Be not thou envious",
+        "strong": "H7065",
+        "morph": "PielImpf"
+      },
       { "text": " against evil", "strong": "H7451" },
       { "text": " men,", "break": true, "strong": "H582" },
       { "text": "Neither desire", "strong": "H183", "morph": "HithImpf" },
@@ -16803,7 +16825,7 @@
     "chapter": 26,
     "verse": 1,
     "content": [
-      { "text": "As snow", "strong": "H7950" },
+      { "paragraph": true, "text": "As snow", "strong": "H7950" },
       { "text": " in summer,", "strong": "H7019" },
       { "text": " and as rain", "strong": "H4306" },
       { "text": " in harvest,", "break": true, "strong": "H7105" },
@@ -17525,7 +17547,12 @@
     "chapter": 27,
     "verse": 1,
     "content": [
-      { "text": "Boast", "strong": "H1984", "morph": "HithImpf" },
+      {
+        "paragraph": true,
+        "text": "Boast",
+        "strong": "H1984",
+        "morph": "HithImpf"
+      },
       {
         "text": " not thyself of to morrow;",
         "break": true,
@@ -18225,7 +18252,7 @@
     "chapter": 28,
     "verse": 1,
     "content": [
-      { "text": "The wicked", "strong": "H7563" },
+      { "paragraph": true, "text": "The wicked", "strong": "H7563" },
       { "text": " flee", "strong": "H5127", "morph": "QalPerf" },
       {
         "text": " when no man pursueth:",
@@ -18954,7 +18981,7 @@
     "chapter": 29,
     "verse": 1,
     "content": [
-      { "text": "He,", "strong": "H376" },
+      { "paragraph": true, "text": "He,", "strong": "H376" },
       { "text": " that being often reproved", "strong": "H8433" },
       { "text": " hardeneth", "strong": "H7185", "morph": "HiphPtc" },
       {

@@ -24659,7 +24659,12 @@
     "verse": 1,
     "content": [
       { "heading": "The Song of Moses" },
-      { "text": "Give ear,", "strong": "H238", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Give ear,",
+        "strong": "H238",
+        "morph": "HiphImpv"
+      },
       { "text": " O ye heavens,", "strong": "H8064" },
       {
         "text": " and I will speak;",

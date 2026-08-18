@@ -4,7 +4,7 @@
     "chapter": 1,
     "verse": 1,
     "content": [
-      { "text": "Blessed", "strong": "H835" },
+      { "paragraph": true, "text": "Blessed", "strong": "H835" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " the man"],
         "strong": "H376"
@@ -155,7 +155,7 @@
     "chapter": 2,
     "verse": 1,
     "content": [
-      { "text": "Why do the heathen", "strong": "H1471" },
+      { "paragraph": true, "text": "Why do the heathen", "strong": "H1471" },
       {
         "text": " rage,",
         "break": true,
@@ -460,6 +460,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [{ "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -671,7 +672,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Hear", "strong": "H6030", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Hear",
+        "strong": "H6030",
+        "morph": "QalImpv"
+      },
       { "text": " me when I call,", "strong": "H7121", "morph": "QalInf" },
       { "text": " O God", "strong": "H430" },
       { "text": " of my righteousness:", "break": true, "strong": "H6664" },
@@ -896,7 +902,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Give ear", "strong": "H238", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Give ear",
+        "strong": "H238",
+        "morph": "HiphImpv"
+      },
       { "text": " to my words,", "strong": "H561" },
       {
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
@@ -1289,6 +1300,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -1524,7 +1536,7 @@
           { "text": " the Benjamite.", "strong": "H1121" }
         ]
       },
-      { "strong": "H1145" },
+      { "paragraph": true, "strong": "H1145" },
       {
         "content": ["O ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -1958,6 +1970,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["O ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -2171,7 +2184,12 @@
         "heading": [{ "text": "א", "script": "H" }, " Aleph"],
         "type": "acrostic"
       },
-      { "text": "I will praise", "strong": "H3034", "morph": "HiphImpf" },
+      {
+        "paragraph": true,
+        "text": "I will praise",
+        "strong": "H3034",
+        "morph": "HiphImpf"
+      },
       {
         "content": [
           " ",
@@ -2664,7 +2682,12 @@
         "heading": [{ "text": "ל", "script": "H" }, " Lamed"],
         "type": "acrostic"
       },
-      { "text": "Why standest", "strong": "H5975", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "Why standest",
+        "strong": "H5975",
+        "morph": "QalImpf"
+      },
       { "text": " thou afar off,", "strong": "H7350" },
       {
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, "?"],
@@ -3258,6 +3281,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["In the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -3444,6 +3468,7 @@
         ]
       },
       {
+        "paragraph": true,
         "text": "Help,",
         "foot": {
           "type": "trn",
@@ -3711,6 +3736,7 @@
         ]
       },
       {
+        "paragraph": true,
         "text": "How long wilt thou forget",
         "strong": "H7911",
         "morph": "QalImpf"
@@ -3859,7 +3885,7 @@
           }
         ]
       },
-      { "text": "The fool", "strong": "H5036" },
+      { "paragraph": true, "text": "The fool", "strong": "H5036" },
       { "text": " hath said", "strong": "H559", "morph": "QalPerf" },
       { "text": " in his heart,", "strong": "H3820" },
       {
@@ -4077,6 +4103,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [{ "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -4218,7 +4245,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Preserve", "strong": "H8104", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Preserve",
+        "strong": "H8104",
+        "morph": "QalImpv"
+      },
       { "text": " me, O God:", "break": true, "strong": "H410" },
       {
         "text": "For in thee do I put my trust.",
@@ -4523,7 +4555,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Hear", "strong": "H8085", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Hear",
+        "strong": "H8085",
+        "morph": "QalImpv"
+      },
       {
         "text": " the right,",
         "foot": {
@@ -5019,7 +5056,12 @@
           { "text": " And he said,", "strong": "H559", "morph": "QalImpf" }
         ]
       },
-      { "text": "I will love", "strong": "H7355", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "I will love",
+        "strong": "H7355",
+        "morph": "QalImpf"
+      },
       {
         "content": [" thee, O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -6270,7 +6312,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "The heavens", "strong": "H8064" },
+      { "paragraph": true, "text": "The heavens", "strong": "H8064" },
       { "text": " declare", "strong": "H5608", "morph": "PielPtc" },
       { "text": " the glory", "strong": "H3519" },
       { "text": " of God;", "break": true, "strong": "H410" },
@@ -6684,6 +6726,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -6942,7 +6985,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "The king", "strong": "H4428" },
+      { "paragraph": true, "text": "The king", "strong": "H4428" },
       { "text": " shall joy", "strong": "H8055", "morph": "QalImpf" },
       { "text": " in thy strength,", "strong": "H5797" },
       {
@@ -7274,7 +7317,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "My God,", "strong": "H410" },
+      { "paragraph": true, "text": "My God,", "strong": "H410" },
       { "text": " my God,", "strong": "H410" },
       {
         "text": " why hast thou forsaken",
@@ -8048,6 +8091,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -8197,7 +8241,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "The earth", "strong": "H776" },
+      { "paragraph": true, "text": "The earth", "strong": "H776" },
       {
         "content": [
           " ",
@@ -8432,6 +8476,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["Unto thee, O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -8968,7 +9013,12 @@
           "strong": "H1732"
         }
       },
-      { "text": "Judge", "strong": "H8199", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Judge",
+        "strong": "H8199",
+        "morph": "QalImpv"
+      },
       {
         "content": [" me, O ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
@@ -9218,6 +9268,7 @@
         }
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -9680,6 +9731,7 @@
         }
       },
       {
+        "paragraph": true,
         "text": "Unto thee will I cry,",
         "strong": "H7121",
         "morph": "QalImpf"
@@ -9946,7 +9998,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Give", "strong": "H3051", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Give",
+        "strong": "H3051",
+        "morph": "QalImpv"
+      },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -10293,7 +10350,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "I will extol", "strong": "H7311", "morph": "PoleImpf" },
+      {
+        "paragraph": true,
+        "text": "I will extol",
+        "strong": "H7311",
+        "morph": "PoleImpf"
+      },
       {
         "content": [" thee, O ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
@@ -10645,6 +10707,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["In thee, O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -11240,7 +11303,7 @@
           { "text": " Maschil.", "strong": "H4905", "morph": "HiphPtc" }
         ]
       },
-      { "text": "Blessed", "strong": "H835" },
+      { "paragraph": true, "text": "Blessed", "strong": "H835" },
       {
         "content": [
           " ",
@@ -11543,7 +11606,12 @@
     "chapter": 33,
     "verse": 1,
     "content": [
-      { "text": "Rejoice", "strong": "H7442", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Rejoice",
+        "strong": "H7442",
+        "morph": "PielImpv"
+      },
       {
         "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -12033,7 +12101,12 @@
         "heading": [{ "text": "א", "script": "H" }, " Aleph"],
         "type": "acrostic"
       },
-      { "text": "I will bless", "strong": "H1288", "morph": "PielImpf" },
+      {
+        "paragraph": true,
+        "text": "I will bless",
+        "strong": "H1288",
+        "morph": "PielImpf"
+      },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -12649,7 +12722,12 @@
           "strong": "H1732"
         }
       },
-      { "text": "Plead", "strong": "H7378", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Plead",
+        "strong": "H7378",
+        "morph": "QalImpv"
+      },
       {
         "content": [
           " ",
@@ -13414,7 +13492,7 @@
           }
         ]
       },
-      { "text": "The transgression", "strong": "H6588" },
+      { "paragraph": true, "text": "The transgression", "strong": "H6588" },
       { "text": " of the wicked", "strong": "H7563" },
       { "text": " saith", "strong": "H5002", "morph": "QalPasPtc" },
       { "text": " within", "strong": "H7130" },
@@ -13741,7 +13819,12 @@
         "heading": [{ "text": "א", "script": "H" }, " Aleph"],
         "type": "acrostic"
       },
-      { "text": "Fret", "strong": "H2734", "morph": "HithImpf" },
+      {
+        "paragraph": true,
+        "text": "Fret",
+        "strong": "H2734",
+        "morph": "HithImpf"
+      },
       {
         "text": " not thyself because of evildoers,",
         "break": true,
@@ -14785,6 +14868,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -15325,7 +15409,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "I said,", "strong": "H559", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "I said,",
+        "strong": "H559",
+        "morph": "QalPerf"
+      },
       { "text": " I will take heed", "strong": "H8104", "morph": "QalImpf" },
       { "text": " to my ways,", "break": true, "strong": "H1870" },
       { "text": "That I sin", "strong": "H2398", "morph": "QalInf" },
@@ -15683,7 +15772,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "I waited", "strong": "H6960", "morph": "PielPerf" },
+      {
+        "paragraph": true,
+        "text": "I waited",
+        "strong": "H6960",
+        "morph": "PielPerf"
+      },
       {
         "text": " patiently",
         "foot": {
@@ -16199,7 +16293,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Blessed", "strong": "H835" },
+      { "paragraph": true, "text": "Blessed", "strong": "H835" },
       {
         "content": [
           " ",
@@ -16582,7 +16676,7 @@
           { "text": " of Korah.", "strong": "H7141" }
         ]
       },
-      { "text": "As the hart", "strong": "H354" },
+      { "paragraph": true, "text": "As the hart", "strong": "H354" },
       {
         "text": " panteth",
         "foot": {
@@ -16913,7 +17007,12 @@
     "chapter": 43,
     "verse": 1,
     "content": [
-      { "text": "Judge", "strong": "H8199", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Judge",
+        "strong": "H8199",
+        "morph": "QalImpv"
+      },
       { "text": " me, O God,", "strong": "H430" },
       { "text": " and plead", "strong": "H7378", "morph": "QalImpv" },
       { "text": " my cause", "strong": "H7379" },
@@ -17074,7 +17173,12 @@
           { "text": " Maschil.", "strong": "H4905", "morph": "HiphPtc" }
         ]
       },
-      { "text": "We have heard", "strong": "H8085", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "We have heard",
+        "strong": "H8085",
+        "morph": "QalPerf"
+      },
       { "text": " with our ears,", "strong": "H241" },
       { "text": " O God,", "strong": "H430" },
       { "text": " our fathers", "strong": "H1" },
@@ -17592,7 +17696,7 @@
           { "text": " of loves.", "strong": "H3039" }
         ]
       },
-      { "text": "My heart", "strong": "H3820" },
+      { "paragraph": true, "text": "My heart", "strong": "H3820" },
       {
         "text": " is inditing",
         "foot": {
@@ -17993,7 +18097,7 @@
           { "text": " upon Alamoth.", "strong": "H5961" }
         ]
       },
-      { "text": "God", "strong": "H430" },
+      { "paragraph": true, "text": "God", "strong": "H430" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " our refuge"],
         "strong": "H4268"
@@ -18297,7 +18401,12 @@
           { "text": " of Korah.", "strong": "H7141" }
         ]
       },
-      { "text": "O clap", "strong": "H8628", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "O clap",
+        "strong": "H8628",
+        "morph": "QalImpv"
+      },
       { "text": " your hands,", "strong": "H3709" },
       { "text": " all ye people;", "break": true, "strong": "H5971" },
       { "text": "Shout", "strong": "H7321", "morph": "HiphImpv" },
@@ -18490,7 +18599,7 @@
           { "text": " of Korah.", "strong": "H7141" }
         ]
       },
-      { "text": "Great", "strong": "H1419" },
+      { "paragraph": true, "text": "Great", "strong": "H1419" },
       {
         "content": [
           " ",
@@ -18798,7 +18907,12 @@
           { "text": " of Korah.", "strong": "H7141" }
         ]
       },
-      { "text": "Hear", "strong": "H8085", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Hear",
+        "strong": "H8085",
+        "morph": "QalImpv"
+      },
       {
         "content": [
           " this, all ",
@@ -19261,7 +19375,7 @@
           { "text": " of Asaph.", "strong": "H623" }
         ]
       },
-      { "text": "The mighty", "strong": "H410" },
+      { "paragraph": true, "text": "The mighty", "strong": "H410" },
       { "text": " God,", "strong": "H430" },
       {
         "content": [
@@ -19823,7 +19937,12 @@
           { "text": " to Bath-sheba.", "strong": "H1339" }
         ]
       },
-      { "text": "Have mercy", "strong": "H2603", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Have mercy",
+        "strong": "H2603",
+        "morph": "QalImpv"
+      },
       { "text": " upon me, O God,", "strong": "H430" },
       {
         "text": " according to thy lovingkindness:",
@@ -20243,7 +20362,12 @@
           { "text": " of Ahimelech.", "strong": "H288" }
         ]
       },
-      { "text": "Why boastest", "strong": "H1984", "morph": "HithImpf" },
+      {
+        "paragraph": true,
+        "text": "Why boastest",
+        "strong": "H1984",
+        "morph": "HithImpf"
+      },
       { "text": " thou thyself in mischief,", "strong": "H7451" },
       { "text": " O mighty", "strong": "H1368" },
       {
@@ -20498,7 +20622,7 @@
           }
         ]
       },
-      { "text": "The fool", "strong": "H5036" },
+      { "paragraph": true, "text": "The fool", "strong": "H5036" },
       { "text": " hath said", "strong": "H559", "morph": "QalPerf" },
       { "text": " in his heart,", "break": true, "strong": "H3820" },
       {
@@ -20731,7 +20855,12 @@
           " himself with us?"
         ]
       },
-      { "text": "Save", "strong": "H3467", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Save",
+        "strong": "H3467",
+        "morph": "HiphImpv"
+      },
       { "text": " me, O God,", "strong": "H430" },
       { "text": " by thy name,", "break": true, "strong": "H8034" },
       { "text": "And judge", "strong": "H1777", "morph": "QalImpf" },
@@ -20903,7 +21032,12 @@
           }
         ]
       },
-      { "text": "Give ear", "strong": "H238", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Give ear",
+        "strong": "H238",
+        "morph": "HiphImpv"
+      },
       { "text": " to my prayer,", "strong": "H8605" },
       { "text": " O God;", "break": true, "strong": "H430" },
       { "text": "And hide", "strong": "H5956", "morph": "HithImpf" },
@@ -21537,7 +21671,12 @@
           { "text": " him in Gath.", "strong": "H1661" }
         ]
       },
-      { "text": "Be merciful", "strong": "H2603", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Be merciful",
+        "strong": "H2603",
+        "morph": "QalImpv"
+      },
       { "text": " unto me, O God:", "strong": "H430" },
       { "text": " for man", "strong": "H582" },
       {
@@ -21831,7 +21970,12 @@
           { "text": " in the cave.", "strong": "H4631" }
         ]
       },
-      { "text": "Be merciful", "strong": "H2603", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Be merciful",
+        "strong": "H2603",
+        "morph": "QalImpv"
+      },
       { "text": " unto me, O God,", "strong": "H430" },
       { "text": " be merciful", "strong": "H2603", "morph": "QalImpv" },
       { "text": " unto me: For my soul", "strong": "H5315" },
@@ -22132,7 +22276,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Do ye indeed", "strong": "H552" },
+      { "paragraph": true, "text": "Do ye indeed", "strong": "H552" },
       { "text": " speak", "strong": "H1696", "morph": "PielImpf" },
       { "text": " righteousness,", "strong": "H6664" },
       { "text": " O congregation?", "break": true, "strong": "H482" },
@@ -22464,7 +22608,12 @@
           { "text": " to kill him.", "strong": "H4191", "morph": "HiphInf" }
         ]
       },
-      { "text": "Deliver", "strong": "H5337", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Deliver",
+        "strong": "H5337",
+        "morph": "HiphImpv"
+      },
       {
         "text": " me from mine enemies,",
         "strong": "H341",
@@ -22953,7 +23102,7 @@
           { "text": " thousand.", "strong": "H505" }
         ]
       },
-      { "text": "O God,", "strong": "H430" },
+      { "paragraph": true, "text": "O God,", "strong": "H430" },
       {
         "text": " thou hast cast us off,",
         "strong": "H2186",
@@ -23281,7 +23430,12 @@
           }
         ]
       },
-      { "text": "Hear", "strong": "H8085", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Hear",
+        "strong": "H8085",
+        "morph": "QalImpv"
+      },
       { "text": " my cry,", "strong": "H7440" },
       { "text": " O God;", "break": true, "strong": "H430" },
       { "text": "Attend", "strong": "H7181", "morph": "HiphImpv" },
@@ -23460,6 +23614,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [
           {
             "text": "Truly",
@@ -23797,7 +23952,7 @@
           { "text": " of Judah.", "strong": "H3063" }
         ]
       },
-      { "text": "O God,", "strong": "H430" },
+      { "paragraph": true, "text": "O God,", "strong": "H430" },
       {
         "content": [
           " thou ",
@@ -24079,7 +24234,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Hear", "strong": "H8085", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Hear",
+        "strong": "H8085",
+        "morph": "QalImpv"
+      },
       { "text": " my voice,", "strong": "H6963" },
       { "text": " O God,", "strong": "H430" },
       { "text": " in my prayer:", "break": true, "strong": "H7879" },
@@ -24354,7 +24514,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Praise", "strong": "H8416" },
+      { "paragraph": true, "text": "Praise", "strong": "H8416" },
       {
         "text": " waiteth",
         "foot": {
@@ -24760,7 +24920,12 @@
           }
         ]
       },
-      { "text": "Make a joyful noise", "strong": "H7321", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Make a joyful noise",
+        "strong": "H7321",
+        "morph": "HiphImpv"
+      },
       { "text": " unto God,", "strong": "H430" },
       {
         "text": " all ye lands:",
@@ -25194,7 +25359,7 @@
           }
         ]
       },
-      { "text": "God", "strong": "H430" },
+      { "paragraph": true, "text": "God", "strong": "H430" },
       { "text": " be merciful", "strong": "H2603", "morph": "QalImpf" },
       { "text": " unto us, and bless", "strong": "H1288", "morph": "PielImpf" },
       {
@@ -25351,7 +25516,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Let God", "strong": "H430" },
+      { "paragraph": true, "text": "Let God", "strong": "H430" },
       { "text": " arise,", "strong": "H6965", "morph": "QalImpf" },
       { "text": " let his enemies", "strong": "H341", "morph": "QalActPtc" },
       {
@@ -26343,7 +26508,12 @@
           }
         ]
       },
-      { "text": "Save", "strong": "H3467", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Save",
+        "strong": "H3467",
+        "morph": "HiphImpv"
+      },
       { "text": " me, O God;", "break": true, "strong": "H430" },
       { "text": "For the waters", "strong": "H4325" },
       { "text": " are come", "strong": "H935", "morph": "QalPerf" },
@@ -27216,6 +27386,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [{ "text": "Make haste", "marks": ["i"] }, ", O God,"],
         "strong": "H430"
       },
@@ -27353,6 +27524,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": ["In thee, O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -27947,7 +28119,12 @@
           "strong": "H8010"
         }
       },
-      { "text": "Give", "strong": "H5414", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Give",
+        "strong": "H5414",
+        "morph": "QalImpv"
+      },
       { "text": " the king", "strong": "H4428" },
       { "text": " thy judgments,", "strong": "H4941" },
       { "text": " O God,", "break": true, "strong": "H430" },
@@ -28381,6 +28558,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [
           {
             "text": "Truly",
@@ -29059,7 +29237,7 @@
           { "text": " of Asaph.", "strong": "H623" }
         ]
       },
-      { "text": "O God,", "strong": "H430" },
+      { "paragraph": true, "text": "O God,", "strong": "H430" },
       {
         "content": [
           " why hast thou cast ",
@@ -29620,7 +29798,7 @@
           { "text": " of Asaph.", "strong": "H623" }
         ]
       },
-      { "text": "Unto thee, O God,", "strong": "H430" },
+      { "paragraph": true, "text": "Unto thee, O God,", "strong": "H430" },
       {
         "text": " do we give thanks,",
         "break": true,
@@ -29893,7 +30071,7 @@
           { "text": " of Asaph.", "strong": "H623" }
         ]
       },
-      { "text": "In Judah", "strong": "H3063" },
+      { "paragraph": true, "text": "In Judah", "strong": "H3063" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " God"],
         "strong": "H430"
@@ -30136,7 +30314,12 @@
           { "text": " of Asaph.", "strong": "H623" }
         ]
       },
-      { "text": "I Cried", "strong": "H6817", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "I Cried",
+        "strong": "H6817",
+        "morph": "QalImpf"
+      },
       { "text": " unto God", "strong": "H430" },
       { "text": " with my voice,", "break": true, "strong": "H6963" },
       {
@@ -30555,7 +30738,12 @@
           { "text": " of Asaph.", "strong": "H623" }
         ]
       },
-      { "text": "Give ear,", "strong": "H238", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Give ear,",
+        "strong": "H238",
+        "morph": "HiphImpv"
+      },
       { "text": " O my people,", "strong": "H5971" },
       {
         "content": [" ", { "text": "to", "marks": ["i"] }, " my law:"],
@@ -32048,7 +32236,7 @@
           { "text": " of Asaph.", "strong": "H623" }
         ]
       },
-      { "text": "O God,", "strong": "H430" },
+      { "paragraph": true, "text": "O God,", "strong": "H430" },
       { "text": " the heathen", "strong": "H1471" },
       { "text": " are come", "strong": "H935", "morph": "QalPerf" },
       { "text": " into thine inheritance;", "break": true, "strong": "H5159" },
@@ -32366,7 +32554,12 @@
           { "text": " of Asaph.", "strong": "H623" }
         ]
       },
-      { "text": "Give ear,", "strong": "H238", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Give ear,",
+        "strong": "H238",
+        "morph": "HiphImpv"
+      },
       { "text": " O Shepherd", "strong": "H7462", "morph": "QalActPtc" },
       { "text": " of Israel,", "strong": "H3478" },
       { "text": " thou that leadest", "strong": "H5090", "morph": "QalActPtc" },
@@ -32785,7 +32978,12 @@
           }
         ]
       },
-      { "text": "Sing aloud", "strong": "H7442", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Sing aloud",
+        "strong": "H7442",
+        "morph": "HiphImpv"
+      },
       { "text": " unto God", "strong": "H430" },
       { "text": " our strength:", "break": true, "strong": "H5797" },
       { "text": "Make a joyful noise", "strong": "H7321", "morph": "HiphImpv" },
@@ -33156,7 +33354,7 @@
           { "text": " of Asaph.", "strong": "H623" }
         ]
       },
-      { "text": "God", "strong": "H430" },
+      { "paragraph": true, "text": "God", "strong": "H430" },
       { "text": " standeth", "strong": "H5324", "morph": "NiphPtc" },
       { "text": " in the congregation", "strong": "H5712" },
       { "text": " of the mighty;", "break": true, "strong": "H410" },
@@ -33323,7 +33521,11 @@
           { "text": " of Asaph.", "strong": "H623" }
         ]
       },
-      { "text": "Keep not thou silence,", "strong": "H1824" },
+      {
+        "paragraph": true,
+        "text": "Keep not thou silence,",
+        "strong": "H1824"
+      },
       { "text": " O God:", "break": true, "strong": "H430" },
       { "text": "Hold not thy peace,", "strong": "H2790", "morph": "QalImpf" },
       { "text": " and be not still,", "strong": "H8252", "morph": "QalImpf" },
@@ -33697,7 +33899,7 @@
           { "text": " of Korah.", "strong": "H7141" }
         ]
       },
-      { "text": "How amiable", "strong": "H3039" },
+      { "paragraph": true, "text": "How amiable", "strong": "H3039" },
       {
         "content": [
           " ",
@@ -34018,6 +34220,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [{ "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -34284,7 +34487,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Bow down", "strong": "H5186", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Bow down",
+        "strong": "H5186",
+        "morph": "HiphImpv"
+      },
       { "text": " thine ear,", "strong": "H241" },
       {
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
@@ -34671,7 +34879,7 @@
           { "text": " of Korah.", "strong": "H7141" }
         ]
       },
-      { "text": "His foundation", "strong": "H3248" },
+      { "paragraph": true, "text": "His foundation", "strong": "H3248" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " in the holy"],
         "strong": "H6944"
@@ -34835,6 +35043,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["O ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -35231,7 +35440,12 @@
           { "text": " the Ezrahite.", "strong": "H250" }
         ]
       },
-      { "text": "I will sing", "strong": "H7891", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "I will sing",
+        "strong": "H7891",
+        "morph": "QalImpf"
+      },
       { "text": " of the mercies", "strong": "H2617" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
@@ -36315,6 +36529,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [{ "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H136"
       },
@@ -36754,7 +36969,12 @@
     "chapter": 91,
     "verse": 1,
     "content": [
-      { "text": "He that dwelleth", "strong": "H3427", "morph": "QalActPtc" },
+      {
+        "paragraph": true,
+        "text": "He that dwelleth",
+        "strong": "H3427",
+        "morph": "QalActPtc"
+      },
       { "text": " in the secret", "strong": "H5643" },
       { "text": " place of the Most High", "break": true, "strong": "H5945" },
       {
@@ -37125,6 +37345,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [{ "text": "It is", "marks": ["i"] }, " a good"],
         "strong": "H2896"
       },
@@ -37470,6 +37691,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -37614,6 +37836,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": ["O ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -38123,7 +38346,12 @@
     "chapter": 95,
     "verse": 1,
     "content": [
-      { "text": "O come,", "strong": "H3212", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "O come,",
+        "strong": "H3212",
+        "morph": "QalImpv"
+      },
       { "text": " let us sing", "strong": "H7442", "morph": "PielImpf" },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }, ":"],
@@ -38418,7 +38646,12 @@
     "chapter": 96,
     "verse": 1,
     "content": [
-      { "text": "O Sing", "strong": "H7891", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "O Sing",
+        "strong": "H7891",
+        "morph": "QalImpv"
+      },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -38729,6 +38962,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -38987,7 +39221,12 @@
     "verse": 1,
     "content": [
       { "subtitle": { "text": "A Psalm.", "strong": "H4210" } },
-      { "text": "O sing", "strong": "H7891", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "O sing",
+        "strong": "H7891",
+        "morph": "QalImpv"
+      },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -39163,6 +39402,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -39390,7 +39630,12 @@
           { "text": " of praise.", "strong": "H8426" }
         ]
       },
-      { "text": "Make a joyful noise", "strong": "H7321", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Make a joyful noise",
+        "strong": "H7321",
+        "morph": "HiphImpv"
+      },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -39537,7 +39782,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "I will sing", "strong": "H7891", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "I will sing",
+        "strong": "H7891",
+        "morph": "QalImpf"
+      },
       { "text": " of mercy", "strong": "H2617" },
       { "text": " and judgment:", "break": true, "strong": "H4941" },
       {
@@ -39762,7 +40012,12 @@
           }
         ]
       },
-      { "text": "Hear", "strong": "H8085", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Hear",
+        "strong": "H8085",
+        "morph": "QalImpv"
+      },
       { "text": " my prayer,", "strong": "H8605" },
       {
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
@@ -40305,7 +40560,12 @@
           "strong": "H1732"
         }
       },
-      { "text": "Bless", "strong": "H1288", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Bless",
+        "strong": "H1288",
+        "morph": "PielImpv"
+      },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -40760,7 +41020,12 @@
     "chapter": 104,
     "verse": 1,
     "content": [
-      { "text": "Bless", "strong": "H1288", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Bless",
+        "strong": "H1288",
+        "morph": "PielImpv"
+      },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -41554,7 +41819,12 @@
     "chapter": 105,
     "verse": 1,
     "content": [
-      { "text": "O give thanks", "strong": "H3034", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "O give thanks",
+        "strong": "H3034",
+        "morph": "HiphImpv"
+      },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
@@ -42397,7 +42667,12 @@
     "chapter": 106,
     "verse": 1,
     "content": [
-      { "text": "Praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [
           {
@@ -43366,7 +43641,12 @@
     "chapter": 107,
     "verse": 1,
     "content": [
-      { "text": "O give thanks", "strong": "H3034", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "O give thanks",
+        "strong": "H3034",
+        "morph": "HiphImpv"
+      },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -44279,7 +44559,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "O God,", "strong": "H430" },
+      { "paragraph": true, "text": "O God,", "strong": "H430" },
       { "text": " my heart", "strong": "H3820" },
       {
         "text": " is fixed;",
@@ -44566,7 +44846,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Hold not thy peace,", "strong": "H2790", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "Hold not thy peace,",
+        "strong": "H2790",
+        "morph": "QalImpf"
+      },
       { "text": " O God", "strong": "H430" },
       { "text": " of my praise;", "break": true, "strong": "H8416" }
     ]
@@ -45260,6 +45545,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -45413,7 +45699,12 @@
         "heading": [{ "text": "ב", "script": "H" }, " Bet"],
         "type": "acrostic"
       },
-      { "text": "Praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [
           {
@@ -45756,7 +46047,12 @@
         "heading": [{ "text": "ב", "script": "H" }, " Bet"],
         "type": "acrostic"
       },
-      { "text": "Praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [
           {
@@ -46078,7 +46374,12 @@
     "chapter": 113,
     "verse": 1,
     "content": [
-      { "text": "Praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [
           {
@@ -46301,7 +46602,7 @@
     "chapter": 114,
     "verse": 1,
     "content": [
-      { "text": "When Israel", "strong": "H3478" },
+      { "paragraph": true, "text": "When Israel", "strong": "H3478" },
       { "text": " went out", "strong": "H3318", "morph": "QalInf" },
       { "text": " of Egypt,", "break": true, "strong": "H4714" },
       { "text": "The house", "strong": "H1004" },
@@ -46452,6 +46753,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": [
           "Not unto us, O ",
           { "text": "Lord", "marks": ["sc"] },
@@ -46841,7 +47143,12 @@
     "chapter": 116,
     "verse": 1,
     "content": [
-      { "text": "I love", "strong": "H157", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "I love",
+        "strong": "H157",
+        "morph": "QalPerf"
+      },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "break": true,
@@ -47240,7 +47547,12 @@
     "chapter": 117,
     "verse": 1,
     "content": [
-      { "text": "O praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "O praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "break": true,
@@ -47285,7 +47597,12 @@
     "chapter": 118,
     "verse": 1,
     "content": [
-      { "text": "O give thanks", "strong": "H3034", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "O give thanks",
+        "strong": "H3034",
+        "morph": "HiphImpv"
+      },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
@@ -48004,7 +48321,7 @@
         "heading": [{ "text": "א", "script": "H" }, " Aleph"],
         "type": "acrostic"
       },
-      { "text": "Blessed", "strong": "H835" },
+      { "paragraph": true, "text": "Blessed", "strong": "H835" },
       {
         "content": [
           " ",
@@ -51504,7 +51821,12 @@
           { "text": " of degrees.", "strong": "H4609" }
         ]
       },
-      { "text": "In my distress", "break": true, "strong": "H6869" },
+      {
+        "paragraph": true,
+        "text": "In my distress",
+        "break": true,
+        "strong": "H6869"
+      },
       { "text": "I cried", "strong": "H7121", "morph": "QalPerf" },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }, ","],
@@ -51679,7 +52001,12 @@
           { "text": " of degrees.", "strong": "H4609" }
         ]
       },
-      { "text": "I will lift up", "strong": "H5375", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "I will lift up",
+        "strong": "H5375",
+        "morph": "QalImpf"
+      },
       { "text": " mine eyes", "strong": "H5869" },
       { "text": " unto the hills,", "break": true, "strong": "H2022" },
       { "text": "From whence", "strong": "H370" },
@@ -51851,7 +52178,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "I was glad", "strong": "H8055", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "I was glad",
+        "strong": "H8055",
+        "morph": "QalPerf"
+      },
       { "text": " when they said", "strong": "H559", "morph": "QalActPtc" },
       {
         "content": [{ "text": " unto me,", "break": true }, "Let us go"],
@@ -52016,7 +52348,12 @@
           { "text": " of degrees.", "strong": "H4609" }
         ]
       },
-      { "text": "Unto thee lift I up", "strong": "H5375", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "Unto thee lift I up",
+        "strong": "H5375",
+        "morph": "QalPerf"
+      },
       { "text": " mine eyes,", "break": true, "strong": "H5869" },
       {
         "text": "O thou that dwellest",
@@ -52125,7 +52462,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "If", "strong": "H3884" },
+      { "paragraph": true, "text": "If", "strong": "H3884" },
       {
         "content": [
           " ",
@@ -52289,7 +52626,12 @@
           { "text": " of degrees.", "strong": "H4609" }
         ]
       },
-      { "text": "They that trust", "strong": "H982", "morph": "QalActPtc" },
+      {
+        "paragraph": true,
+        "text": "They that trust",
+        "strong": "H982",
+        "morph": "QalActPtc"
+      },
       {
         "content": [" in the ", { "text": "Lord", "marks": ["sc"] }],
         "break": true,
@@ -52444,6 +52786,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["When the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -52600,6 +52943,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["Except the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -52766,7 +53110,7 @@
           { "text": " of degrees.", "strong": "H4609" }
         ]
       },
-      { "text": "Blessed", "strong": "H835" },
+      { "paragraph": true, "text": "Blessed", "strong": "H835" },
       {
         "content": [
           " ",
@@ -52893,6 +53237,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [
           {
             "text": "Many",
@@ -53066,7 +53411,7 @@
           { "text": " of degrees.", "strong": "H4609" }
         ]
       },
-      { "text": "Out of the depths", "strong": "H4615" },
+      { "paragraph": true, "text": "Out of the depths", "strong": "H4615" },
       { "text": " have I cried", "strong": "H7121", "morph": "QalPerf" },
       {
         "content": [" unto thee, O ", { "text": "Lord", "marks": ["sc"] }, "."],
@@ -53247,6 +53592,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [{ "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -53368,6 +53714,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [{ "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -53723,7 +54070,7 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Behold, how good", "strong": "H2896" },
+      { "paragraph": true, "text": "Behold, how good", "strong": "H2896" },
       { "text": " and how pleasant", "strong": "H5273" },
       {
         "content": [
@@ -53809,7 +54156,12 @@
           { "text": " of degrees.", "strong": "H4609" }
         ]
       },
-      { "text": "Behold, bless", "strong": "H1288", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Behold, bless",
+        "strong": "H1288",
+        "morph": "PielImpv"
+      },
       {
         "content": [" ye the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "break": true,
@@ -53885,7 +54237,12 @@
     "chapter": 135,
     "verse": 1,
     "content": [
-      { "text": "Praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [" ye the ", { "text": "Lord", "marks": ["sc"] }, "."],
         "strong": "H3050"
@@ -54335,7 +54692,12 @@
     "chapter": 136,
     "verse": 1,
     "content": [
-      { "text": "O give thanks", "strong": "H3034", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "O give thanks",
+        "strong": "H3034",
+        "morph": "HiphImpv"
+      },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
@@ -54810,7 +55172,7 @@
     "chapter": 137,
     "verse": 1,
     "content": [
-      { "text": "By the rivers", "strong": "H5104" },
+      { "paragraph": true, "text": "By the rivers", "strong": "H5104" },
       { "text": " of Babylon,", "strong": "H894" },
       { "text": " there we sat down,", "strong": "H3427", "morph": "QalPerf" },
       {
@@ -55068,7 +55430,12 @@
           "strong": "H1732"
         }
       },
-      { "text": "I will praise", "strong": "H3034", "morph": "HiphImpf" },
+      {
+        "paragraph": true,
+        "text": "I will praise",
+        "strong": "H3034",
+        "morph": "HiphImpf"
+      },
       {
         "text": " thee with my whole heart:",
         "break": true,
@@ -55261,6 +55628,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": ["O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -55842,7 +56210,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Deliver", "strong": "H2502", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Deliver",
+        "strong": "H2502",
+        "morph": "PielImpv"
+      },
       {
         "content": [" me, O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -56143,6 +56516,7 @@
         ]
       },
       {
+        "paragraph": true,
         "content": [{ "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -56412,7 +56786,12 @@
           { "text": " when he was in the cave.", "strong": "H4631" }
         ]
       },
-      { "text": "I cried", "strong": "H2199", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "I cried",
+        "strong": "H2199",
+        "morph": "QalImpf"
+      },
       {
         "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -56623,7 +57002,12 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "text": "Hear", "strong": "H8085", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Hear",
+        "strong": "H8085",
+        "morph": "QalImpv"
+      },
       { "text": " my prayer,", "strong": "H8605" },
       {
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
@@ -56923,7 +57307,12 @@
           "strong": "H1732"
         }
       },
-      { "text": "Blessed", "strong": "H1288", "morph": "QalPasPtc" },
+      {
+        "paragraph": true,
+        "text": "Blessed",
+        "strong": "H1288",
+        "morph": "QalPasPtc"
+      },
       {
         "content": [
           " ",
@@ -57394,7 +57783,12 @@
         "heading": [{ "text": "א", "script": "H" }, " Aleph"],
         "type": "acrostic"
       },
-      { "text": "I will extol", "strong": "H7311", "morph": "PoleImpf" },
+      {
+        "paragraph": true,
+        "text": "I will extol",
+        "strong": "H7311",
+        "morph": "PoleImpf"
+      },
       { "text": " thee, my God,", "strong": "H430" },
       { "text": " O King;", "break": true, "strong": "H4428" },
       { "text": "And I will bless", "strong": "H1288", "morph": "PielImpf" },
@@ -57968,7 +58362,12 @@
     "chapter": 146,
     "verse": 1,
     "content": [
-      { "text": "Praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [
           {
@@ -58230,7 +58629,12 @@
     "chapter": 147,
     "verse": 1,
     "content": [
-      { "text": "Praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [" ye the ", { "text": "Lord", "marks": ["sc"] }, ":"],
         "strong": "H3050"
@@ -58640,7 +59044,12 @@
     "chapter": 148,
     "verse": 1,
     "content": [
-      { "text": "Praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [
           {
@@ -58898,7 +59307,12 @@
     "chapter": 149,
     "verse": 1,
     "content": [
-      { "text": "Praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [
           {
@@ -59091,7 +59505,12 @@
     "chapter": 150,
     "verse": 1,
     "content": [
-      { "text": "Praise", "strong": "H1984", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Praise",
+        "strong": "H1984",
+        "morph": "PielImpv"
+      },
       {
         "content": [
           {
