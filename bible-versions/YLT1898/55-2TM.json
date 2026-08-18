@@ -3,10 +3,14 @@
     "book": "2TM",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Paul, an apostle of Jesus Christ, through the will of God, according to a promise of life that is in Christ Jesus,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Paul, an apostle of Jesus Christ, through the will of God, according to a promise of life that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus,"
+    ]
   },
   {
     "book": "2TM",
@@ -18,7 +22,13 @@
     "book": "2TM",
     "chapter": 1,
     "verse": 3,
-    "content": "I am thankful to God, whom I serve from progenitors in a pure conscience, that unceasingly I have remembrance concerning thee in my supplications night and day,"
+    "content": [
+      { "heading": "Timothy, the Beloved" },
+      {
+        "paragraph": true,
+        "text": "I am thankful to God, whom I serve from progenitors in a pure conscience, that unceasingly I have remembrance concerning thee in my supplications night and day,"
+      }
+    ]
   },
   {
     "book": "2TM",
@@ -72,13 +82,17 @@
     "book": "2TM",
     "chapter": 1,
     "verse": 12,
-    "content": "for which cause also these things I suffer, but I am not ashamed, for I have known in whom I have believed, and have been persuaded that he is able that which I have committed to him to guard-to that day."
+    "content": "for which cause also these things I suffer, but I am not ashamed, for I have known in whom I have believed, and have been persuaded that he is able that which I have committed to him to guard—to that day."
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 13,
-    "content": "The pattern hold thou of sound words, which from me thou didst hear, in faith and love that is in Christ Jesus;"
+    "content": [
+      "The pattern hold thou of sound words, which from me thou didst hear, in faith and love that ",
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus;"
+    ]
   },
   {
     "book": "2TM",
@@ -90,7 +104,10 @@
     "book": "2TM",
     "chapter": 1,
     "verse": 15,
-    "content": "thou hast known this, that they did turn from me-all those in Asia, of whom are Phygellus and Hermogenes;"
+    "content": {
+      "paragraph": true,
+      "text": "thou hast known this, that they did turn from me—all those in Asia, of whom are Phygellus and Hermogenes;"
+    }
   },
   {
     "book": "2TM",
@@ -114,10 +131,15 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Thou, therefore, my child, be strong in the grace that is in Christ Jesus,"
-    }
+    "content": [
+      { "heading": "God’s Soldier and Workman" },
+      {
+        "paragraph": true,
+        "text": "Thou, therefore, my child, be strong in the grace that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus,"
+    ]
   },
   {
     "book": "2TM",
@@ -165,25 +187,37 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 9,
-    "content": "in which I suffer evil-unto bonds, as an evil-doer, but the word of God hath not been bound;"
+    "content": "in which I suffer evil—unto bonds, as an evil-doer, but the word of God hath not been bound;"
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 10,
-    "content": "because of this all things do I endure, because of the choice ones, that they also salvation may obtain that is in Christ Jesus, with glory age-during."
+    "content": [
+      "because of this all things do I endure, because of the choice ones, that they also salvation may obtain that ",
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus, with glory age-during."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 11,
-    "content": "Stedfast is the word: For if we died together-we also shall live together;"
+    "content": [
+      "Stedfast ",
+      { "text": "is", "marks": ["i"] },
+      " the word: For if we died together—we also shall live together;"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 12,
-    "content": "if we do endure together-we shall also reign together; if we deny him, he also shall deny us;"
+    "content": [
+      "if we do endure together—we shall also reign together; if we deny ",
+      { "text": "him", "marks": ["i"] },
+      ", he also shall deny us;"
+    ]
   },
   {
     "book": "2TM",
@@ -195,13 +229,17 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 14,
-    "content": "These things remind them of, testifying fully before the Lord-not to strive about words to nothing profitable, but to the subversion of those hearing;"
+    "content": [
+      { "paragraph": true, "text": "These things remind " },
+      { "text": "them", "marks": ["i"] },
+      " of, testifying fully before the Lord—not to strive about words to nothing profitable, but to the subversion of those hearing;"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 15,
-    "content": "be diligent to present thyself approved to God-a workman irreproachable, rightly dividing the word of the truth;"
+    "content": "be diligent to present thyself approved to God—a workman irreproachable, rightly dividing the word of the truth;"
   },
   {
     "book": "2TM",
@@ -225,7 +263,7 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 19,
-    "content": "sure, nevertheless, hath the foundation of God stood, having this seal, ‘The Lord hath known those who are His,’ and ‘Let him depart from unrighteousness-every one who is naming the name of Christ.’"
+    "content": "sure, nevertheless, hath the foundation of God stood, having this seal, “The Lord hath known those who are His,” and “Let him depart from unrighteousness—every one who is naming the name of Christ.”"
   },
   {
     "book": "2TM",
@@ -237,7 +275,7 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 21,
-    "content": "if, then, any one may cleanse himself from these, he shall be a vessel to honour, sanctified and profitable to the master-to every good work having been prepared,"
+    "content": "if, then, any one may cleanse himself from these, he shall be a vessel to honour, sanctified and profitable to the master—to every good work having been prepared,"
   },
   {
     "book": "2TM",
@@ -261,7 +299,7 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 25,
-    "content": "in meekness instructing those opposing-if perhaps God may give to them repentance to an acknowledging of the truth,"
+    "content": "in meekness instructing those opposing—if perhaps God may give to them repentance to an acknowledging of the truth,"
   },
   {
     "book": "2TM",
@@ -273,16 +311,19 @@
     "book": "2TM",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And this know thou, that in the last days there shall come perilous times,"
-    }
+    "content": [
+      { "heading": "In Perilous Times" },
+      {
+        "paragraph": true,
+        "text": "And this know thou, that in the last days there shall come perilous times,"
+      }
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 2,
-    "content": "for men shall be lovers of themselves, lovers of money, boasters, proud, evil-speakers, to parents disobedient, unthankful, unkind,"
+    "content": "for men shall be lovers of themselves, lovers of money, boasters, proud, evilspeakers, to parents disobedient, unthankful, unkind,"
   },
   {
     "book": "2TM",
@@ -330,7 +371,7 @@
     "book": "2TM",
     "chapter": 3,
     "verse": 10,
-    "content": "And thou-thou hast followed after my teaching, manner of life, purpose, faith, long-suffering, love, endurance,"
+    "content": "And thou—thou hast followed after my teaching, manner of life, purpose, faith, long-suffering, love, endurance,"
   },
   {
     "book": "2TM",
@@ -354,34 +395,47 @@
     "book": "2TM",
     "chapter": 3,
     "verse": 14,
-    "content": "And thou-be remaining in the things which thou didst learn and wast entrusted with, having known from whom thou didst learn,"
+    "content": "And thou—be remaining in the things which thou didst learn and wast entrusted with, having known from whom thou didst learn,"
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 15,
-    "content": "and because from a babe the Holy Writings thou hast known, which are able to make thee wise-to salvation, through faith that is in Christ Jesus;"
+    "content": [
+      "and because from a babe the Holy Writings thou hast known, which are able to make thee wise—to salvation, through faith that ",
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus;"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 16,
-    "content": "every Writing is God-breathed, and profitable for teaching, for conviction, for setting aright, for instruction that is in righteousness,"
+    "content": [
+      "every Writing ",
+      { "text": "is", "marks": ["i"] },
+      " God-breathed, and profitable for teaching, for conviction, for setting aright, for instruction that ",
+      { "text": "is", "marks": ["i"] },
+      " in righteousness,"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 17,
-    "content": "that the man of God may be fitted-for every good work having been completed."
+    "content": "that the man of God may be fitted—for every good work having been completed."
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I do fully testify, then, before God, and the Lord Jesus Christ, who is about to judge living and dead at his manifestation and his reign-"
-    }
+    "content": [
+      { "heading": "A Farewell Charge" },
+      {
+        "paragraph": true,
+        "text": "I do fully testify, then, before God, and the Lord Jesus Christ, who is about to judge living and dead at his manifestation and his reign—"
+      }
+    ]
   },
   {
     "book": "2TM",
@@ -393,7 +447,7 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 3,
-    "content": "for there shall be a season when the sound teaching they will not suffer, but according to their own desires to themselves they shall heap up teachers-itching in the hearing,"
+    "content": "for there shall be a season when the sound teaching they will not suffer, but according to their own desires to themselves they shall heap up teachers—itching in the hearing,"
   },
   {
     "book": "2TM",
@@ -405,13 +459,16 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 5,
-    "content": "And thou-watch in all things; suffer evil; do the work of one proclaiming good news; of thy ministration make full assurance,"
+    "content": "And thou—watch in all things; suffer evil; do the work of one proclaiming good news; of thy ministration make full assurance,"
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 6,
-    "content": "for I am already being poured out, and the time of my release hath arrived;"
+    "content": {
+      "paragraph": true,
+      "text": "for I am already being poured out, and the time of my release hath arrived;"
+    }
   },
   {
     "book": "2TM",
@@ -423,13 +480,16 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 8,
-    "content": "henceforth there is laid up for me the crown of the righteousness that the Lord-the Righteous Judge-shall give to me in that day, and not only to me, but also to all those loving his manifestation."
+    "content": "henceforth there is laid up for me the crown of the righteousness that the Lord—the Righteous Judge—shall give to me in that day, and not only to me, but also to all those loving his manifestation."
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 9,
-    "content": "Be diligent to come unto me quickly,"
+    "content": {
+      "paragraph": true,
+      "text": "Be diligent to come unto me quickly,"
+    }
   },
   {
     "book": "2TM",
@@ -453,7 +513,7 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 13,
-    "content": "the cloak that I left in Troas with Carpus, coming, bring thou and the books-especially the parchments."
+    "content": "the cloak that I left in Troas with Carpus, coming, bring thou and the books—especially the parchments."
   },
   {
     "book": "2TM",
@@ -483,13 +543,22 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 18,
-    "content": "and the Lord shall free me from every evil work, and shall save me-to his heavenly kingdom; to whom is the glory to the ages of the ages! Amen."
+    "content": [
+      "and the Lord shall free me from every evil work, and shall save ",
+      { "text": "me", "marks": ["i"] },
+      "—to his heavenly kingdom; to whom ",
+      { "text": "is", "marks": ["i"] },
+      " the glory to the ages of the ages! Amen."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 19,
-    "content": "Salute Prisca and Aquilas, and Onesiphorus’ household;"
+    "content": {
+      "paragraph": true,
+      "text": "Salute Prisca and Aquilas, and Onesiphorus’ household;"
+    }
   },
   {
     "book": "2TM",
@@ -507,6 +576,12 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 22,
-    "content": "The Lord Jesus Christ is with thy spirit; the grace is with you! Amen."
+    "content": [
+      { "paragraph": true, "text": "The Lord Jesus Christ " },
+      { "text": "is", "marks": ["i"] },
+      " with thy spirit; the grace ",
+      { "text": "is", "marks": ["i"] },
+      " with you! Amen."
+    ]
   }
 ]

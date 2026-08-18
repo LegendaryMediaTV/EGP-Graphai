@@ -18,7 +18,12 @@
     "book": "2CO",
     "chapter": 1,
     "verse": 3,
-    "content": "Blessed is God, even the Father of our Lord Jesus Christ, the Father of the mercies, and God of all comfort,"
+    "content": [
+      { "heading": "Comfort in Tribulation" },
+      { "paragraph": true, "text": "Blessed " },
+      { "text": "is", "marks": ["i"] },
+      " God, even the Father of our Lord Jesus Christ, the Father of the mercies, and God of all comfort,"
+    ]
   },
   {
     "book": "2CO",
@@ -36,19 +41,33 @@
     "book": "2CO",
     "chapter": 1,
     "verse": 6,
-    "content": "and whether we be in tribulation, it is for your comfort and salvation, that is wrought in the enduring of the same sufferings that we also suffer; whether we are comforted, it is for your comfort and salvation;"
+    "content": [
+      "and whether we be in tribulation, ",
+      { "text": "it is", "marks": ["i"] },
+      " for your comfort and salvation, that is wrought in the enduring of the same sufferings that we also suffer; whether we are comforted, ",
+      { "text": "it is", "marks": ["i"] },
+      " for your comfort and salvation;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 1,
     "verse": 7,
-    "content": "and our hope is stedfast for you, knowing that even as ye are partakers of the sufferings-so also of the comfort."
+    "content": [
+      "and our hope ",
+      { "text": "is", "marks": ["i"] },
+      " stedfast for you, knowing that even as ye are partakers of the sufferings—so also of the comfort."
+    ]
   },
   {
     "book": "2CO",
     "chapter": 1,
     "verse": 8,
-    "content": "For we do not wish you to be ignorant, brethren, of our tribulation that happened to us in Asia, that we were exceedingly burdened above our power, so that we despaired even of life;"
+    "content": [
+      "For we do not wish you to be ignorant, brethren, of our tribulation that happened to us in Asia, that we were exceedingly burdened above ",
+      { "text": "our", "marks": ["i"] },
+      " power, so that we despaired even of life;"
+    ]
   },
   {
     "book": "2CO",
@@ -72,7 +91,10 @@
     "book": "2CO",
     "chapter": 1,
     "verse": 12,
-    "content": "For our glorying is this: the testimony of our conscience, that in simplicity and sincerity of God, not in fleshly wisdom, but in the grace of God, we did conduct ourselves in the world, and more abundantly toward you;"
+    "content": {
+      "paragraph": true,
+      "text": "For our glorying is this: the testimony of our conscience, that in simplicity and sincerity of God, not in fleshly wisdom, but in the grace of God, we did conduct ourselves in the world, and more abundantly toward you;"
+    }
   },
   {
     "book": "2CO",
@@ -84,13 +106,20 @@
     "book": "2CO",
     "chapter": 1,
     "verse": 14,
-    "content": "according as also ye did acknowledge us in part, that your glory we are, even as also ye are ours, in the day of the Lord Jesus;"
+    "content": [
+      "according as also ye did acknowledge us in part, that your glory we are, even as also ye ",
+      { "text": "are", "marks": ["i"] },
+      " ours, in the day of the Lord Jesus;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 1,
     "verse": 15,
-    "content": "and in this confidence I was purposing to come unto you before, that a second favour ye might have,"
+    "content": {
+      "paragraph": true,
+      "text": "and in this confidence I was purposing to come unto you before, that a second favour ye might have,"
+    }
   },
   {
     "book": "2CO",
@@ -108,25 +137,39 @@
     "book": "2CO",
     "chapter": 1,
     "verse": 18,
-    "content": "and God is faithful, that our word unto you became not Yes and No,"
+    "content": [
+      "and God ",
+      { "text": "is", "marks": ["i"] },
+      " faithful, that our word unto you became not Yes and No,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 1,
     "verse": 19,
-    "content": "for the Son of God, Jesus Christ, among you through us having been preached-through me and Silvanus and Timotheus-did not become Yes and No, but in him it hath become Yes;"
+    "content": "for the Son of God, Jesus Christ, among you through us having been preached—through me and Silvanus and Timotheus—did not become Yes and No, but in him it hath become Yes;"
   },
   {
     "book": "2CO",
     "chapter": 1,
     "verse": 20,
-    "content": "for as many as are promises of God, in him are the Yes, and in him the Amen, for glory to God through us;"
+    "content": [
+      "for as many as ",
+      { "text": "are", "marks": ["i"] },
+      " promises of God, in him ",
+      { "text": "are", "marks": ["i"] },
+      " the Yes, and in him the Amen, for glory to God through us;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 1,
     "verse": 21,
-    "content": "and He who is confirming you with us into Christ, and did anoint us, is God,"
+    "content": [
+      "and He who is confirming you with us into Christ, and did anoint us, ",
+      { "text": "is", "marks": ["i"] },
+      " God,"
+    ]
   },
   {
     "book": "2CO",
@@ -138,7 +181,10 @@
     "book": "2CO",
     "chapter": 1,
     "verse": 23,
-    "content": "And I for a witness on God do call upon my soul, that sparing you, I came not yet to Corinth;"
+    "content": {
+      "paragraph": true,
+      "text": "And I for a witness on God do call upon my soul, that sparing you, I came not yet to Corinth;"
+    }
   },
   {
     "book": "2CO",
@@ -150,10 +196,13 @@
     "book": "2CO",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I decided this to myself, not again to come in sorrow unto you,"
-    }
+    "content": [
+      { "heading": "Triumph in Christ" },
+      {
+        "paragraph": true,
+        "text": "And I decided this to myself, not again to come in sorrow unto you,"
+      }
+    ]
   },
   {
     "book": "2CO",
@@ -177,19 +226,30 @@
     "book": "2CO",
     "chapter": 2,
     "verse": 5,
-    "content": "And if any one hath caused sorrow, he hath not caused sorrow to me, but in part, that I may not burden you all;"
+    "content": {
+      "paragraph": true,
+      "text": "And if any one hath caused sorrow, he hath not caused sorrow to me, but in part, that I may not burden you all;"
+    }
   },
   {
     "book": "2CO",
     "chapter": 2,
     "verse": 6,
-    "content": "sufficient to such a one is this punishment, that is by the more part,"
+    "content": [
+      "sufficient to such a one is this punishment, that ",
+      { "text": "is", "marks": ["i"] },
+      " by the more part,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 2,
     "verse": 7,
-    "content": "so that, on the contrary, it is rather for you to forgive and to comfort, lest by over abundant sorrow such a one may be swallowed up;"
+    "content": [
+      "so that, on the contrary, ",
+      { "text": "it is", "marks": ["i"] },
+      " rather for you to forgive and to comfort, lest by over abundant sorrow such a one may be swallowed up;"
+    ]
   },
   {
     "book": "2CO",
@@ -207,7 +267,12 @@
     "book": "2CO",
     "chapter": 2,
     "verse": 10,
-    "content": "And to whom ye forgive anything-I also; for I also, if I have forgiven anything, to whom I have forgiven it, because of you-in the person of Christ-I forgive it,"
+    "content": [
+      "And to whom ye forgive anything—I also; for I also, if I have forgiven anything, to whom I have forgiven ",
+      { "text": "it", "marks": ["i"] },
+      ", because of you—in the person of Christ—",
+      { "text": "I forgive it,", "marks": ["i"] }
+    ]
   },
   {
     "book": "2CO",
@@ -219,7 +284,10 @@
     "book": "2CO",
     "chapter": 2,
     "verse": 12,
-    "content": "And having come to Troas for the good news of the Christ, and a door to me having been opened in the Lord,"
+    "content": {
+      "paragraph": true,
+      "text": "And having come to Troas for the good news of the Christ, and a door to me having been opened in the Lord,"
+    }
   },
   {
     "book": "2CO",
@@ -231,13 +299,20 @@
     "book": "2CO",
     "chapter": 2,
     "verse": 14,
-    "content": "and to God are thanks, who at all times is leading us in triumph in the Christ, and the fragrance of His knowledge He is manifesting through us in every place,"
+    "content": [
+      "and to God ",
+      { "text": "are", "marks": ["i"] },
+      " thanks, who at all times is leading us in triumph in the Christ, and the fragrance of His knowledge He is manifesting through us in every place,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 2,
     "verse": 15,
-    "content": "because of Christ a sweet fragrance we are to God, in those being saved, and in those being lost;"
+    "content": {
+      "paragraph": true,
+      "text": "because of Christ a sweet fragrance we are to God, in those being saved, and in those being lost;"
+    }
   },
   {
     "book": "2CO",
@@ -249,16 +324,19 @@
     "book": "2CO",
     "chapter": 2,
     "verse": 17,
-    "content": "for we are not as the many, adulterating the word of God, but as of sincerity-but as of God; in the presence of God, in Christ we do speak."
+    "content": "for we are not as the many, adulterating the word of God, but as of sincerity—but as of God; in the presence of God, in Christ we do speak."
   },
   {
     "book": "2CO",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Do we begin again to recommend ourselves, except we need, as some, letters of recommendation unto you, or from you?"
-    }
+    "content": [
+      { "heading": "Proof of Our Ministry" },
+      {
+        "paragraph": true,
+        "text": "Do we begin again to recommend ourselves, except we need, as some, letters of recommendation unto you, or from you?"
+      }
+    ]
   },
   {
     "book": "2CO",
@@ -276,25 +354,39 @@
     "book": "2CO",
     "chapter": 3,
     "verse": 4,
-    "content": "and such trust we have through the Christ toward God,"
+    "content": {
+      "paragraph": true,
+      "text": "and such trust we have through the Christ toward God,"
+    }
   },
   {
     "book": "2CO",
     "chapter": 3,
     "verse": 5,
-    "content": "not that we are sufficient of ourselves to think anything, as of ourselves, but our sufficiency is of God,"
+    "content": [
+      "not that we are sufficient of ourselves to think anything, as of ourselves, but our sufficiency ",
+      { "text": "is", "marks": ["i"] },
+      " of God,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 3,
     "verse": 6,
-    "content": "who also made us sufficient to be ministrants of a new covenant, not of letter, but of spirit; for the letter doth kill, and the spirit doth make alive."
+    "content": [
+      "who also made us sufficient ",
+      { "text": "to be", "marks": ["i"] },
+      " ministrants of a new covenant, not of letter, but of spirit; for the letter doth kill, and the spirit doth make alive."
+    ]
   },
   {
     "book": "2CO",
     "chapter": 3,
     "verse": 7,
-    "content": "And if the ministration of the death, in letters, engraved in stones, came in glory, so that the sons of Israel were not able to look stedfastly to the face of Moses, because of the glory of his face-which was being made useless,"
+    "content": {
+      "paragraph": true,
+      "text": "And if the ministration of the death, in letters, engraved in stones, came in glory, so that the sons of Israel were not able to look stedfastly to the face of Moses, because of the glory of his face—which was being made useless,"
+    }
   },
   {
     "book": "2CO",
@@ -306,37 +398,54 @@
     "book": "2CO",
     "chapter": 3,
     "verse": 9,
-    "content": "for if the ministration of the condemnation is glory, much more doth the ministration of the righteousness abound in glory;"
+    "content": [
+      "for if the ministration of the condemnation ",
+      { "text": "is", "marks": ["i"] },
+      " glory, much more doth the ministration of the righteousness abound in glory;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 3,
     "verse": 10,
-    "content": "for also even that which hath been glorious, hath not been glorious-in this respect, because of the superior glory;"
+    "content": "for also even that which hath been glorious, hath not been glorious—in this respect, because of the superior glory;"
   },
   {
     "book": "2CO",
     "chapter": 3,
     "verse": 11,
-    "content": "for if that which is being made useless is through glory, much more that which is remaining is in glory."
+    "content": [
+      "for if that which is being made useless ",
+      { "text": "is", "marks": ["i"] },
+      " through glory, much more that which is remaining ",
+      { "text": "is", "marks": ["i"] },
+      " in glory."
+    ]
   },
   {
     "book": "2CO",
     "chapter": 3,
     "verse": 12,
-    "content": "Having, then, such hope, we use much freedom of speech,"
+    "content": {
+      "paragraph": true,
+      "text": "Having, then, such hope, we use much freedom of speech,"
+    }
   },
   {
     "book": "2CO",
     "chapter": 3,
     "verse": 13,
-    "content": "and are not as Moses, who was putting a vail upon his own face, for the sons of Israel not stedfastly to look to the end of that which is being made useless,"
+    "content": [
+      "and ",
+      { "text": "are", "marks": ["i"] },
+      " not as Moses, who was putting a vail upon his own face, for the sons of Israel not stedfastly to look to the end of that which is being made useless,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 3,
     "verse": 14,
-    "content": "but their minds were hardened, for unto this day the same vail at the reading of the Old Covenant doth remain unwithdrawn-which in Christ is being made useless-"
+    "content": "but their minds were hardened, for unto this day the same vail at the reading of the Old Covenant doth remain unwithdrawn—which in Christ is being made useless—"
   },
   {
     "book": "2CO",
@@ -354,7 +463,16 @@
     "book": "2CO",
     "chapter": 3,
     "verse": 17,
-    "content": "And the Lord is the Spirit; and where the Spirit of the Lord is, there is liberty;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the Lord is the Spirit; and where the Spirit of the Lord "
+      },
+      { "text": "is", "marks": ["i"] },
+      ", there ",
+      { "text": "is", "marks": ["i"] },
+      " liberty;"
+    ]
   },
   {
     "book": "2CO",
@@ -366,10 +484,13 @@
     "book": "2CO",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Because of this, having this ministration, according as we did receive kindness, we do not faint,"
-    }
+    "content": [
+      { "heading": "Treasure in Earthen Vessels" },
+      {
+        "paragraph": true,
+        "text": "Because of this, having this ministration, according as we did receive kindness, we do not faint,"
+      }
+    ]
   },
   {
     "book": "2CO",
@@ -393,19 +514,28 @@
     "book": "2CO",
     "chapter": 4,
     "verse": 5,
-    "content": "for not ourselves do we preach, but Christ Jesus-Lord, and ourselves your servants because of Jesus;"
+    "content": "for not ourselves do we preach, but Christ Jesus—Lord, and ourselves your servants because of Jesus;"
   },
   {
     "book": "2CO",
     "chapter": 4,
     "verse": 6,
-    "content": "because it is God who said, Out of darkness light is to shine, who did shine in our hearts, for the enlightening of the knowledge of the glory of God in the face of Jesus Christ."
+    "content": [
+      "because ",
+      { "text": "it is", "marks": ["i"] },
+      " God who said, Out of darkness light ",
+      { "text": "is", "marks": ["i"] },
+      " to shine, who did shine in our hearts, for the enlightening of the knowledge of the glory of God in the face of Jesus Christ."
+    ]
   },
   {
     "book": "2CO",
     "chapter": 4,
     "verse": 7,
-    "content": "And we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us;"
+    "content": {
+      "paragraph": true,
+      "text": "And we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us;"
+    }
   },
   {
     "book": "2CO",
@@ -441,7 +571,7 @@
     "book": "2CO",
     "chapter": 4,
     "verse": 13,
-    "content": "And having the same spirit of the faith, according to that which hath been written, ‘I believed, therefore I did speak;’ we also do believe, therefore also do we speak;"
+    "content": "And having the same spirit of the faith, according to that which hath been written, “I believed, therefore I did speak;” we also do believe, therefore also do we speak;"
   },
   {
     "book": "2CO",
@@ -453,34 +583,50 @@
     "book": "2CO",
     "chapter": 4,
     "verse": 15,
-    "content": "for the all things are because of you, that the grace having been multiplied, because of the thanksgiving of the more, may abound to the glory of God;"
+    "content": [
+      "for the all things ",
+      { "text": "are", "marks": ["i"] },
+      " because of you, that the grace having been multiplied, because of the thanksgiving of the more, may abound to the glory of God;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 4,
     "verse": 16,
-    "content": "wherefore, we faint not, but if also our outward man doth decay, yet the inward is renewed day by day;"
+    "content": {
+      "paragraph": true,
+      "text": "wherefore, we faint not, but if also our outward man doth decay, yet the inward is renewed day by day;"
+    }
   },
   {
     "book": "2CO",
     "chapter": 4,
     "verse": 17,
-    "content": "for the momentary light matter of our tribulation, more and more exceedingly an age-during weight of glory doth work out for us-"
+    "content": "for the momentary light matter of our tribulation, more and more exceedingly an age-during weight of glory doth work out for us—"
   },
   {
     "book": "2CO",
     "chapter": 4,
     "verse": 18,
-    "content": "we not looking to the things seen, but to the things not seen; for the things seen are temporary, but the things not seen are age-during."
+    "content": [
+      "we not looking to the things seen, but to the things not seen; for the things seen ",
+      { "text": "are", "marks": ["i"] },
+      " temporary, but the things not seen ",
+      { "text": "are", "marks": ["i"] },
+      " age-during."
+    ]
   },
   {
     "book": "2CO",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "For we have known that if our earthly house of the tabernacle may be thrown down, a building from God we have, an house not made with hands-age-during-in the heavens,"
-    }
+    "content": [
+      { "heading": "A House Not Made With Hands" },
+      {
+        "paragraph": true,
+        "text": "For we have known that if our earthly house of the tabernacle may be thrown down, a building from God we have, an house not made with hands—age-during—in the heavens,"
+      }
+    ]
   },
   {
     "book": "2CO",
@@ -504,19 +650,26 @@
     "book": "2CO",
     "chapter": 5,
     "verse": 5,
-    "content": "And He who did work us to this self-same thing is God, who also did give to us the earnest of the Spirit;"
+    "content": [
+      "And He who did work us to this self-same thing ",
+      { "text": "is", "marks": ["i"] },
+      " God, who also did give to us the earnest of the Spirit;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 5,
     "verse": 6,
-    "content": "having courage, then, at all times, and knowing that being at home in the body, we are away from home from the Lord,-"
+    "content": {
+      "paragraph": true,
+      "text": "having courage, then, at all times, and knowing that being at home in the body, we are away from home from the Lord,—"
+    }
   },
   {
     "book": "2CO",
     "chapter": 5,
     "verse": 7,
-    "content": "for through faith we walk, not through sight-"
+    "content": "for through faith we walk, not through sight—"
   },
   {
     "book": "2CO",
@@ -534,25 +687,45 @@
     "book": "2CO",
     "chapter": 5,
     "verse": 10,
-    "content": "for all of us it behoveth to be manifested before the tribunal of the Christ, that each one may receive the things done through the body, in reference to the things that he did, whether good or evil;"
+    "content": [
+      "for all of us it behoveth to be manifested before the tribunal of the Christ, that each one may receive the things ",
+      { "text": "done", "marks": ["i"] },
+      " through the body, in reference to the things that he did, whether good or evil;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 5,
     "verse": 11,
-    "content": "having known, therefore, the fear of the Lord, we persuade men, and to God we are manifested, and I hope also in your consciences to have been manifested;"
+    "content": [
+      { "heading": "For the Glory of God" },
+      {
+        "paragraph": true,
+        "text": "having known, therefore, the fear of the Lord, we persuade men, and to God we are manifested, and I hope also in your consciences to have been manifested;"
+      }
+    ]
   },
   {
     "book": "2CO",
     "chapter": 5,
     "verse": 12,
-    "content": "for not again ourselves do we recommend to you, but we are giving occasion to you of glorifying in our behalf, that ye may have something in reference to those glorifying in face and not in heart;"
+    "content": [
+      "for not again ourselves do we recommend to you, but we are giving occasion to you of glorifying in our behalf, that ye may have ",
+      { "text": "something", "marks": ["i"] },
+      " in reference to those glorifying in face and not in heart;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 5,
     "verse": 13,
-    "content": "for whether we were beside ourselves, it was to God; whether we be of sound mind-it is to you,"
+    "content": [
+      "for whether we were beside ourselves, ",
+      { "text": "it was", "marks": ["i"] },
+      " to God; whether we be of sound mind—",
+      { "text": "it is", "marks": ["i"] },
+      " to you,"
+    ]
   },
   {
     "book": "2CO",
@@ -570,31 +743,53 @@
     "book": "2CO",
     "chapter": 5,
     "verse": 16,
-    "content": "So that we henceforth have known no one according to the flesh, and even if we have known Christ according to the flesh, yet now we know him no more;"
+    "content": [
+      { "heading": "A New Creature" },
+      {
+        "paragraph": true,
+        "text": "So that we henceforth have known no one according to the flesh, and even if we have known Christ according to the flesh, yet now we know him no more;"
+      }
+    ]
   },
   {
     "book": "2CO",
     "chapter": 5,
     "verse": 17,
-    "content": "so that if any one is in Christ-he is a new creature; the old things did pass away, lo, become new have the all things."
+    "content": [
+      "so that if any one ",
+      { "text": "is", "marks": ["i"] },
+      " in Christ—",
+      { "text": "he is", "marks": ["i"] },
+      " a new creature; the old things did pass away, lo, become new have the all things."
+    ]
   },
   {
     "book": "2CO",
     "chapter": 5,
     "verse": 18,
-    "content": "And the all things are of God, who reconciled us to Himself through Jesus Christ, and did give to us the ministration of the reconciliation,"
+    "content": [
+      "And the all things ",
+      { "text": "are", "marks": ["i"] },
+      " of God, who reconciled us to Himself through Jesus Christ, and did give to us the ministration of the reconciliation,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 5,
     "verse": 19,
-    "content": "how that God was in Christ-a world reconciling to Himself, not reckoning to them their trespasses; and having put in us the word of the reconciliation,"
+    "content": "how that God was in Christ—a world reconciling to Himself, not reckoning to them their trespasses; and having put in us the word of the reconciliation,"
   },
   {
     "book": "2CO",
     "chapter": 5,
     "verse": 20,
-    "content": "in behalf of Christ, then, we are ambassadors, as if God were calling through us, we beseech, in behalf of Christ, ‘Be ye reconciled to God;’"
+    "content": [
+      { "heading": "Ambassadors for Christ" },
+      {
+        "paragraph": true,
+        "text": "in behalf of Christ, then, we are ambassadors, as if God were calling through us, we beseech, in behalf of Christ, “Be ye reconciled to God;”"
+      }
+    ]
   },
   {
     "book": "2CO",
@@ -606,16 +801,21 @@
     "book": "2CO",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And working together also we call upon you that ye receive not in vain the grace of God-"
-    }
+    "content": [
+      { "paragraph": true, "text": "And working together also we call upon " },
+      { "text": "you", "marks": ["i"] },
+      " that ye receive not in vain the grace of God—"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 6,
     "verse": 2,
-    "content": "for He saith, ‘In an acceptable time I did hear thee, and in a day of salvation I did help thee, lo, now is a well-accepted time; lo, now, a day of salvation,’-"
+    "content": [
+      "for He saith, “In an acceptable time I did hear thee, and in a day of salvation I did help thee, lo, now ",
+      { "text": "is", "marks": ["i"] },
+      " a well-accepted time; lo, now, a day of salvation,”—"
+    ]
   },
   {
     "book": "2CO",
@@ -669,25 +869,46 @@
     "book": "2CO",
     "chapter": 6,
     "verse": 11,
-    "content": "Our mouth hath been open unto you, O Corinthians, our heart hath been enlarged!"
+    "content": {
+      "paragraph": true,
+      "text": "Our mouth hath been open unto you, O Corinthians, our heart hath been enlarged!"
+    }
   },
   {
     "book": "2CO",
     "chapter": 6,
     "verse": 12,
-    "content": "ye are not straitened in us, and ye are straitened in your own bowels,"
+    "content": [
+      "ye are not straitened in us, and ye are straitened in your ",
+      { "text": "own", "marks": ["i"] },
+      " bowels,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 6,
     "verse": 13,
-    "content": "and as a recompense of the same kind, (as to children I say it,) be ye enlarged-also ye!"
+    "content": [
+      "and ",
+      { "text": "as", "marks": ["i"] },
+      " a recompense of the same kind, (as to children I say ",
+      { "text": "it", "marks": ["i"] },
+      ",) be ye enlarged—also ye!"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 6,
     "verse": 14,
-    "content": "Become not yoked with others-unbelievers, for what partaking is there to righteousness and lawlessness?"
+    "content": [
+      { "heading": "Entanglements" },
+      {
+        "paragraph": true,
+        "text": "Become not yoked with others—unbelievers, for what partaking "
+      },
+      { "text": "is there", "marks": ["i"] },
+      " to righteousness and lawlessness?"
+    ]
   },
   {
     "book": "2CO",
@@ -699,19 +920,26 @@
     "book": "2CO",
     "chapter": 6,
     "verse": 16,
-    "content": "and what agreement to the sanctuary of God with idols? for ye are a sanctuary of the living God, according as God said-‘I will dwell in them, and will walk among them, and I will be their God, and they shall be My people,"
+    "content": [
+      "and what agreement to the sanctuary of God with idols? for ye are a sanctuary of the living God, according as God said—“I will dwell in them, and will walk among ",
+      { "text": "them", "marks": ["i"] },
+      ", and I will be their God, and they shall be My people,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 6,
     "verse": 17,
-    "content": "wherefore, come ye forth out of the midst of them, and be separated, saith the Lord, and an unclean thing do not touch, and I-I will receive you,"
+    "content": {
+      "text": "wherefore, come ye forth out of the midst of them, and be separated, saith the Lord, and an unclean thing do not touch, and I—I will receive you,",
+      "break": true
+    }
   },
   {
     "book": "2CO",
     "chapter": 6,
     "verse": 18,
-    "content": "and I will be to you for a Father, and ye-ye shall be to Me for sons and daughters, saith the Lord Almighty.’"
+    "content": "and I will be to you for a Father, and ye—ye shall be to Me for sons and daughters, saith the Lord Almighty.”"
   },
   {
     "book": "2CO",
@@ -726,31 +954,50 @@
     "book": "2CO",
     "chapter": 7,
     "verse": 2,
-    "content": "receive us; no one did we wrong; no one did we waste; no one did we defraud;"
+    "content": {
+      "paragraph": true,
+      "text": "receive us; no one did we wrong; no one did we waste; no one did we defraud;"
+    }
   },
   {
     "book": "2CO",
     "chapter": 7,
     "verse": 3,
-    "content": "not to condemn you do I say it, for I have said before that in our hearts ye are to die with and to live with;"
+    "content": [
+      "not to condemn you do I say ",
+      { "text": "it", "marks": ["i"] },
+      ", for I have said before that in our hearts ye are to die with and to live with;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 7,
     "verse": 4,
-    "content": "great is my freedom of speech unto you, great my glory on your behalf; I have been filled with the comfort, I overabound with the joy on all our tribulation,"
+    "content": [
+      "great ",
+      { "text": "is", "marks": ["i"] },
+      " my freedom of speech unto you, great my glory on your behalf; I have been filled with the comfort, I overabound with the joy on all our tribulation,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 7,
     "verse": 5,
-    "content": "for also we, having come to Macedonia, no relaxation hath our flesh had, but on every side we are in tribulation, without are fightings, within-fears;"
+    "content": [
+      { "heading": "The Mission of Titus" },
+      {
+        "paragraph": true,
+        "text": "for also we, having come to Macedonia, no relaxation hath our flesh had, but on every side we are in tribulation, without "
+      },
+      { "text": "are", "marks": ["i"] },
+      " fightings, within—fears;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 7,
     "verse": 6,
-    "content": "but He who is comforting the cast-down-God-He did comfort us in the presence of Titus;"
+    "content": "but He who is comforting the cast-down—God—He did comfort us in the presence of Titus;"
   },
   {
     "book": "2CO",
@@ -762,7 +1009,7 @@
     "book": "2CO",
     "chapter": 7,
     "verse": 8,
-    "content": "because even if I made you sorry in the letter, I do not repent-if even I did repent-for I perceive that the letter, even if for an hour, did make you sorry."
+    "content": "because even if I made you sorry in the letter, I do not repent—if even I did repent—for I perceive that the letter, even if for an hour, did make you sorry."
   },
   {
     "book": "2CO",
@@ -780,19 +1027,22 @@
     "book": "2CO",
     "chapter": 7,
     "verse": 11,
-    "content": "for, lo, this same thing-your being made sorry toward God-how much diligence it doth work in you! but defence, but displeasure, but fear, but longing desire, but zeal, but revenge; in every thing ye did approve yourselves to be pure in the matter."
+    "content": "for, lo, this same thing—your being made sorry toward God—how much diligence it doth work in you! but defence, but displeasure, but fear, but longing desire, but zeal, but revenge; in every thing ye did approve yourselves to be pure in the matter."
   },
   {
     "book": "2CO",
     "chapter": 7,
     "verse": 12,
-    "content": "If, then, I also wrote to you-not for his cause who did wrong, nor for his cause who did suffer wrong, but for our diligence in your behalf being manifested unto you before God-"
+    "content": "If, then, I also wrote to you—not for his cause who did wrong, nor for his cause who did suffer wrong, but for our diligence in your behalf being manifested unto you before God—"
   },
   {
     "book": "2CO",
     "chapter": 7,
     "verse": 13,
-    "content": "because of this we have been comforted in your comfort, and more abundantly the more did we rejoice in the joy of Titus, that his spirit hath been refreshed from you all;"
+    "content": {
+      "paragraph": true,
+      "text": "because of this we have been comforted in your comfort, and more abundantly the more did we rejoice in the joy of Titus, that his spirit hath been refreshed from you all;"
+    }
   },
   {
     "book": "2CO",
@@ -816,10 +1066,13 @@
     "book": "2CO",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And we make known to you, brethren, the grace of God, that hath been given in the assemblies of Macedonia,"
-    }
+    "content": [
+      { "heading": "God Loves a Cheerful Giver" },
+      {
+        "paragraph": true,
+        "text": "And we make known to you, brethren, the grace of God, that hath been given in the assemblies of Macedonia,"
+      }
+    ]
   },
   {
     "book": "2CO",
@@ -831,7 +1084,13 @@
     "book": "2CO",
     "chapter": 8,
     "verse": 3,
-    "content": "because, according to their power, I testify, and above their power, they were willing of themselves,"
+    "content": [
+      "because, according to ",
+      { "text": "their", "marks": ["i"] },
+      " power, I testify, and above ",
+      { "text": "their", "marks": ["i"] },
+      " power, they were willing of themselves,"
+    ]
   },
   {
     "book": "2CO",
@@ -861,25 +1120,38 @@
     "book": "2CO",
     "chapter": 8,
     "verse": 8,
-    "content": "not according to command do I speak, but because of the diligence of others, and of your love proving the genuineness,"
+    "content": {
+      "paragraph": true,
+      "text": "not according to command do I speak, but because of the diligence of others, and of your love proving the genuineness,"
+    }
   },
   {
     "book": "2CO",
     "chapter": 8,
     "verse": 9,
-    "content": "for ye know the grace of our Lord Jesus Christ, that because of you he became poor-being rich, that ye by that poverty may become rich."
+    "content": "for ye know the grace of our Lord Jesus Christ, that because of you he became poor—being rich, that ye by that poverty may become rich."
   },
   {
     "book": "2CO",
     "chapter": 8,
     "verse": 10,
-    "content": "And an opinion in this do I give: for this to you is expedient, who not only to do, but also to will, did begin before-a year ago,"
+    "content": [
+      "And an opinion in this do I give: for this to you ",
+      { "text": "is", "marks": ["i"] },
+      " expedient, who not only to do, but also to will, did begin before—a year ago,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 8,
     "verse": 11,
-    "content": "and now also finish doing it, that even as there is the readiness of the will, so also the finishing, out of that which ye have,"
+    "content": [
+      "and now also finish doing ",
+      { "text": "it", "marks": ["i"] },
+      ", that even as ",
+      { "text": "there is", "marks": ["i"] },
+      " the readiness of the will, so also the finishing, out of that which ye have,"
+    ]
   },
   {
     "book": "2CO",
@@ -891,25 +1163,37 @@
     "book": "2CO",
     "chapter": 8,
     "verse": 13,
-    "content": "for not that for others release, and ye pressured, do I speak,"
+    "content": [
+      "for not that for others release, and ye pressured, ",
+      { "text": "do I speak,", "marks": ["i"] }
+    ]
   },
   {
     "book": "2CO",
     "chapter": 8,
     "verse": 14,
-    "content": "but by equality, at the present time your abundance-for their want, that also their abundance may be for your want, that there may be equality,"
+    "content": "but by equality, at the present time your abundance—for their want, that also their abundance may be for your want, that there may be equality,"
   },
   {
     "book": "2CO",
     "chapter": 8,
     "verse": 15,
-    "content": "according as it hath been written, ‘He who did gather much, had nothing over; and he who did gather little, had no lack.’"
+    "content": [
+      "according as it hath been written, “He who ",
+      { "text": "did gather", "marks": ["i"] },
+      " much, had nothing over; and he who ",
+      { "text": "did gather", "marks": ["i"] },
+      " little, had no lack.”"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 8,
     "verse": 16,
-    "content": "And thanks to God, who is putting the same diligence for you in the heart of Titus,"
+    "content": {
+      "paragraph": true,
+      "text": "And thanks to God, who is putting the same diligence for you in the heart of Titus,"
+    }
   },
   {
     "book": "2CO",
@@ -921,7 +1205,11 @@
     "book": "2CO",
     "chapter": 8,
     "verse": 18,
-    "content": "and we sent with him the brother, whose praise in the good news is through all the assemblies,"
+    "content": [
+      "and we sent with him the brother, whose praise in the good news ",
+      { "text": "is", "marks": ["i"] },
+      " through all the assemblies,"
+    ]
   },
   {
     "book": "2CO",
@@ -951,7 +1239,7 @@
     "book": "2CO",
     "chapter": 8,
     "verse": 23,
-    "content": "whether-about Titus-my partner and towards you fellow-worker, whether-our brethren, apostles of assemblies-glory of Christ;"
+    "content": "whether—about Titus—my partner and towards you fellow-worker, whether—our brethren, apostles of assemblies—glory of Christ;"
   },
   {
     "book": "2CO",
@@ -963,10 +1251,14 @@
     "book": "2CO",
     "chapter": 9,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "For, indeed, concerning the ministration that is for the saints, it is superfluous for me to write to you,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For, indeed, concerning the ministration that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " for the saints, it is superfluous for me to write to you,"
+    ]
   },
   {
     "book": "2CO",
@@ -984,19 +1276,26 @@
     "book": "2CO",
     "chapter": 9,
     "verse": 4,
-    "content": "lest if Macedonians may come with me, and find you unprepared, we-we may be put to shame (that we say not-ye) in this same confidence of boasting."
+    "content": "lest if Macedonians may come with me, and find you unprepared, we—we may be put to shame (that we say not—ye) in this same confidence of boasting."
   },
   {
     "book": "2CO",
     "chapter": 9,
     "verse": 5,
-    "content": "Necessary, therefore, I thought it to exhort the brethren, that they may go before to you, and may make up before your formerly announced blessing, that this be ready, as a blessing, and not as covetousness."
+    "content": [
+      "Necessary, therefore, I thought ",
+      { "text": "it", "marks": ["i"] },
+      " to exhort the brethren, that they may go before to you, and may make up before your formerly announced blessing, that this be ready, as a blessing, and not as covetousness."
+    ]
   },
   {
     "book": "2CO",
     "chapter": 9,
     "verse": 6,
-    "content": "And this: He who is sowing sparingly, sparingly also shall reap; and he who is sowing in blessings, in blessings also shall reap;"
+    "content": {
+      "paragraph": true,
+      "text": "And this: He who is sowing sparingly, sparingly also shall reap; and he who is sowing in blessings, in blessings also shall reap;"
+    }
   },
   {
     "book": "2CO",
@@ -1008,19 +1307,29 @@
     "book": "2CO",
     "chapter": 9,
     "verse": 8,
-    "content": "and God is able all grace to cause to abound to you, that in every thing always all sufficiency having, ye may abound to every good work,"
+    "content": [
+      "and God ",
+      { "text": "is", "marks": ["i"] },
+      " able all grace to cause to abound to you, that in every thing always all sufficiency having, ye may abound to every good work,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 9,
     "verse": 9,
-    "content": "(according as it hath been written, ‘He dispersed abroad, he gave to the poor, his righteousness doth remain to the age,’)"
+    "content": {
+      "text": "(according as it hath been written, “He dispersed abroad, he gave to the poor, his righteousness doth remain to the age,”)",
+      "break": true
+    }
   },
   {
     "book": "2CO",
     "chapter": 9,
     "verse": 10,
-    "content": "and may He who is supplying seed to the sower, and bread for food, supply and multiply your seed sown, and increase the fruits of your righteousness,"
+    "content": {
+      "paragraph": true,
+      "text": "and may He who is supplying seed to the sower, and bread for food, supply and multiply your seed sown, and increase the fruits of your righteousness,"
+    }
   },
   {
     "book": "2CO",
@@ -1038,7 +1347,11 @@
     "book": "2CO",
     "chapter": 9,
     "verse": 13,
-    "content": "through the proof of this ministration glorifying God for the subjection of your confession to the good news of the Christ, and for the liberality of the fellowship to them and to all,"
+    "content": [
+      "through the proof of this ministration glorifying God for the subjection of your confession to the good news of the Christ, and ",
+      { "text": "for", "marks": ["i"] },
+      " the liberality of the fellowship to them and to all,"
+    ]
   },
   {
     "book": "2CO",
@@ -1056,16 +1369,25 @@
     "book": "2CO",
     "chapter": 10,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I, Paul, myself, do call upon you-through the meekness and gentleness of the Christ-who in presence, indeed am humble among you, and being absent, have courage toward you,"
-    }
+    "content": [
+      { "heading": "Paul Answers His Opponents" },
+      {
+        "paragraph": true,
+        "text": "And I, Paul, myself, do call upon you—through the meekness and gentleness of the Christ—who in presence, indeed "
+      },
+      { "text": "am", "marks": ["i"] },
+      " humble among you, and being absent, have courage toward you,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 10,
     "verse": 2,
-    "content": "and I beseech you, that, being present, I may not have courage, with the confidence with which I reckon to be bold against certain reckoning us as walking according to the flesh;"
+    "content": [
+      "and I beseech ",
+      { "text": "you", "marks": ["i"] },
+      ", that, being present, I may not have courage, with the confidence with which I reckon to be bold against certain reckoning us as walking according to the flesh;"
+    ]
   },
   {
     "book": "2CO",
@@ -1077,7 +1399,11 @@
     "book": "2CO",
     "chapter": 10,
     "verse": 4,
-    "content": "for the weapons of our warfare are not fleshly, but powerful to God for bringing down of strongholds,"
+    "content": [
+      "for the weapons of our warfare ",
+      { "text": "are", "marks": ["i"] },
+      " not fleshly, but powerful to God for bringing down of strongholds,"
+    ]
   },
   {
     "book": "2CO",
@@ -1095,7 +1421,11 @@
     "book": "2CO",
     "chapter": 10,
     "verse": 7,
-    "content": "The things in presence do ye see? if any one hath trusted in himself to be Christ’s, this let him reckon again from himself, that according as he is Christ’s, so also we are Christ’s;"
+    "content": [
+      "The things in presence do ye see? if any one hath trusted in himself to be Christ’s, this let him reckon again from himself, that according as he is Christ’s, so also we ",
+      { "text": "are", "marks": ["i"] },
+      " Christ’s;"
+    ]
   },
   {
     "book": "2CO",
@@ -1113,13 +1443,21 @@
     "book": "2CO",
     "chapter": 10,
     "verse": 10,
-    "content": "‘because the letters indeed-saith one-are weighty and strong, and the bodily presence weak, and the speech despicable.’"
+    "content": [
+      "“because the letters indeed—saith one—",
+      { "text": "are", "marks": ["i"] },
+      " weighty and strong, and the bodily presence weak, and the speech despicable.”"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 10,
     "verse": 11,
-    "content": "This one-let him reckon thus: that such as we are in word, through letters, being absent, such also, being present, we are in deed."
+    "content": [
+      "This one—let him reckon thus: that such as we are in word, through letters, being absent, such also, being present, ",
+      { "text": "we are", "marks": ["i"] },
+      " in deed."
+    ]
   },
   {
     "book": "2CO",
@@ -1131,7 +1469,7 @@
     "book": "2CO",
     "chapter": 10,
     "verse": 13,
-    "content": "and we in regard to the unmeasured things will not boast ourselves, but after the measure of the line that the God of measure did appoint to us-to reach even unto you;"
+    "content": "and we in regard to the unmeasured things will not boast ourselves, but after the measure of the line that the God of measure did appoint to us—to reach even unto you;"
   },
   {
     "book": "2CO",
@@ -1143,19 +1481,23 @@
     "book": "2CO",
     "chapter": 10,
     "verse": 15,
-    "content": "not boasting of the things not measured, in other men’s labours, and having hope-your faith increasing-in you to be enlarged, according to our line-into abundance,"
+    "content": "not boasting of the things not measured, in other men’s labours, and having hope—your faith increasing—in you to be enlarged, according to our line—into abundance,"
   },
   {
     "book": "2CO",
     "chapter": 10,
     "verse": 16,
-    "content": "in the places beyond you to proclaim good news, not in another’s line in regard to the things made ready, to boast;"
+    "content": [
+      "in the ",
+      { "text": "places", "marks": ["i"] },
+      " beyond you to proclaim good news, not in another’s line in regard to the things made ready, to boast;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 10,
     "verse": 17,
-    "content": "and he who is boasting-in the Lord let him boast;"
+    "content": "and he who is boasting—in the Lord let him boast;"
   },
   {
     "book": "2CO",
@@ -1182,13 +1524,21 @@
     "book": "2CO",
     "chapter": 11,
     "verse": 3,
-    "content": "and I fear, lest, as the serpent did beguile Eve in his subtilty, so your minds may be corrupted from the simplicity that is in the Christ;"
+    "content": [
+      "and I fear, lest, as the serpent did beguile Eve in his subtilty, so your minds may be corrupted from the simplicity that ",
+      { "text": "is", "marks": ["i"] },
+      " in the Christ;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 11,
     "verse": 4,
-    "content": "for if, indeed, he who is coming doth preach another Jesus whom we did not preach, or another Spirit ye receive which ye did not receive, or other good news which ye did not accept-well were ye bearing it,"
+    "content": [
+      "for if, indeed, he who is coming doth preach another Jesus whom we did not preach, or another Spirit ye receive which ye did not receive, or other good news which ye did not accept—well were ye bearing ",
+      { "text": "it", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "2CO",
@@ -1200,13 +1550,16 @@
     "book": "2CO",
     "chapter": 11,
     "verse": 6,
-    "content": "and even if unlearned in word-yet not in knowledge, but in every thing we were made manifest in all things to you."
+    "content": "and even if unlearned in word—yet not in knowledge, but in every thing we were made manifest in all things to you."
   },
   {
     "book": "2CO",
     "chapter": 11,
     "verse": 7,
-    "content": "The sin did I do-myself humbling that ye might be exalted, because freely the good news of God I did proclaim to you?"
+    "content": {
+      "paragraph": true,
+      "text": "The sin did I do—myself humbling that ye might be exalted, because freely the good news of God I did proclaim to you?"
+    }
   },
   {
     "book": "2CO",
@@ -1218,7 +1571,7 @@
     "book": "2CO",
     "chapter": 11,
     "verse": 9,
-    "content": "and being present with you, and having been in want, I was chargeable to no one, for my lack did the brethren supply-having come from Macedonia-and in everything burdenless to you I did keep myself, and will keep."
+    "content": "and being present with you, and having been in want, I was chargeable to no one, for my lack did the brethren supply—having come from Macedonia—and in everything burdenless to you I did keep myself, and will keep."
   },
   {
     "book": "2CO",
@@ -1236,31 +1589,44 @@
     "book": "2CO",
     "chapter": 11,
     "verse": 12,
-    "content": "and what I do, I also will do, that I may cut off the occasion of those wishing an occasion, that in that which they boast they may be found according as we also;"
+    "content": {
+      "paragraph": true,
+      "text": "and what I do, I also will do, that I may cut off the occasion of those wishing an occasion, that in that which they boast they may be found according as we also;"
+    }
   },
   {
     "book": "2CO",
     "chapter": 11,
     "verse": 13,
-    "content": "for those such are false apostles, deceitful workers, transforming themselves into apostles of Christ,"
+    "content": [
+      "for those such ",
+      { "text": "are", "marks": ["i"] },
+      " false apostles, deceitful workers, transforming themselves into apostles of Christ,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 11,
     "verse": 14,
-    "content": "and no wonder-for even the Adversary doth transform himself into a messenger of light;"
+    "content": "and no wonder—for even the Adversary doth transform himself into a messenger of light;"
   },
   {
     "book": "2CO",
     "chapter": 11,
     "verse": 15,
-    "content": "no great thing, then, if also his ministrants do transform themselves as ministrants of righteousness-whose end shall be according to their works."
+    "content": "no great thing, then, if also his ministrants do transform themselves as ministrants of righteousness—whose end shall be according to their works."
   },
   {
     "book": "2CO",
     "chapter": 11,
     "verse": 16,
-    "content": "Again I say, may no one think me to be a fool; and if otherwise, even as a fool receive me, that I also a little may boast."
+    "content": [
+      { "heading": "Paul’s Defence" },
+      {
+        "paragraph": true,
+        "text": "Again I say, may no one think me to be a fool; and if otherwise, even as a fool receive me, that I also a little may boast."
+      }
+    ]
   },
   {
     "book": "2CO",
@@ -1278,7 +1644,7 @@
     "book": "2CO",
     "chapter": 11,
     "verse": 19,
-    "content": "for gladly do ye bear with the fools-being wise,"
+    "content": "for gladly do ye bear with the fools—being wise,"
   },
   {
     "book": "2CO",
@@ -1290,7 +1656,11 @@
     "book": "2CO",
     "chapter": 11,
     "verse": 21,
-    "content": "in reference to dishonour I speak, how that we were weak, and in whatever any one is bold-in foolishness I say it-I also am bold."
+    "content": [
+      "in reference to dishonour I speak, how that we were weak, and in whatever any one is bold—in foolishness I say ",
+      { "text": "it", "marks": ["i"] },
+      "—I also am bold."
+    ]
   },
   {
     "book": "2CO",
@@ -1302,13 +1672,17 @@
     "book": "2CO",
     "chapter": 11,
     "verse": 23,
-    "content": "ministrants of Christ are they?-as beside myself I speak-I more; in labours more abundantly, in stripes above measure, in prisons more frequently, in deaths many times;"
+    "content": "ministrants of Christ are they?—as beside myself I speak—I more; in labours more abundantly, in stripes above measure, in prisons more frequently, in deaths many times;"
   },
   {
     "book": "2CO",
     "chapter": 11,
     "verse": 24,
-    "content": "from Jews five times forty stripes save one I did receive;"
+    "content": [
+      "from Jews five times forty ",
+      { "text": "stripes", "marks": ["i"] },
+      " save one I did receive;"
+    ]
   },
   {
     "book": "2CO",
@@ -1332,7 +1706,7 @@
     "book": "2CO",
     "chapter": 11,
     "verse": 28,
-    "content": "apart from the things without-the crowding upon me that is daily-the care of all the assemblies."
+    "content": "apart from the things without—the crowding upon me that is daily—the care of all the assemblies."
   },
   {
     "book": "2CO",
@@ -1344,13 +1718,17 @@
     "book": "2CO",
     "chapter": 11,
     "verse": 30,
-    "content": "if to boast it behoveth me, of the things of my infirmity I will boast;"
+    "content": [
+      "if to boast it behoveth ",
+      { "text": "me", "marks": ["i"] },
+      ", of the things of my infirmity I will boast;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 11,
     "verse": 31,
-    "content": "the God and Father of our Lord Jesus Christ-who is blessed to the ages-hath known that I do not lie!-"
+    "content": "the God and Father of our Lord Jesus Christ—who is blessed to the ages—hath known that I do not lie!—"
   },
   {
     "book": "2CO",
@@ -1377,13 +1755,13 @@
     "book": "2CO",
     "chapter": 12,
     "verse": 2,
-    "content": "I have known a man in Christ, fourteen years ago-whether in the body I have not known, whether out of the body I have not known, God hath known-such an one being caught away unto the third heaven;"
+    "content": "I have known a man in Christ, fourteen years ago—whether in the body I have not known, whether out of the body I have not known, God hath known—such an one being caught away unto the third heaven;"
   },
   {
     "book": "2CO",
     "chapter": 12,
     "verse": 3,
-    "content": "and I have known such a man-whether in the body, whether out of the body, I have not known, God hath known,-"
+    "content": "and I have known such a man—whether in the body, whether out of the body, I have not known, God hath known,—"
   },
   {
     "book": "2CO",
@@ -1419,19 +1797,29 @@
     "book": "2CO",
     "chapter": 12,
     "verse": 9,
-    "content": "and He said to me, ‘Sufficient for thee is My grace, for My power in infirmity is perfected;’ most gladly, therefore, will I rather boast in my infirmities, that the power of the Christ may rest on me:"
+    "content": [
+      "and He said to me, ",
+      {
+        "text": "“Sufficient for thee is My grace, for My power in infirmity is perfected;”",
+        "marks": ["woc"]
+      },
+      " most gladly, therefore, will I rather boast in my infirmities, that the power of the Christ may rest on me:"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 12,
     "verse": 10,
-    "content": "wherefore I am well pleased in infirmities, in damages, in necessities, in persecutions, in distresses-for Christ; for whenever I am infirm, then I am powerful;"
+    "content": "wherefore I am well pleased in infirmities, in damages, in necessities, in persecutions, in distresses—for Christ; for whenever I am infirm, then I am powerful;"
   },
   {
     "book": "2CO",
     "chapter": 12,
     "verse": 11,
-    "content": "I have become a fool-boasting; ye-ye did compel me; for I ought by you to have been commended, for in nothing was I behind the very chiefest apostles-even if I am nothing."
+    "content": {
+      "paragraph": true,
+      "text": "I have become a fool—boasting; ye—ye did compel me; for I ought by you to have been commended, for in nothing was I behind the very chiefest apostles—even if I am nothing."
+    }
   },
   {
     "book": "2CO",
@@ -1461,31 +1849,46 @@
     "book": "2CO",
     "chapter": 12,
     "verse": 16,
-    "content": "And be it so, I-I did not burden you, but being crafty, with guile I did take you;"
+    "content": [
+      "And be it ",
+      { "text": "so", "marks": ["i"] },
+      ", I—I did not burden you, but being crafty, with guile I did take you;"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 12,
     "verse": 17,
-    "content": "any one of those whom I have sent unto you-by him did I take advantage of you?"
+    "content": "any one of those whom I have sent unto you—by him did I take advantage of you?"
   },
   {
     "book": "2CO",
     "chapter": 12,
     "verse": 18,
-    "content": "I entreated Titus, and did send with him the brother; did Titus take advantage of you? in the same spirit did we not walk?-did we not in the same steps?"
+    "content": [
+      "I entreated Titus, and did send with ",
+      { "text": "him", "marks": ["i"] },
+      " the brother; did Titus take advantage of you? in the same spirit did we not walk?—did we not in the same steps?"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 12,
     "verse": 19,
-    "content": "Again, think ye that to you we are making defence? before God in Christ do we speak; and the all things, beloved, are for your up-building,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Again, think ye that to you we are making defence? before God in Christ do we speak; and the all things, beloved, "
+      },
+      { "text": "are", "marks": ["i"] },
+      " for your up-building,"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 12,
     "verse": 20,
-    "content": "for I fear lest, having come, not such as I wish I may find you, and I-I may be found by you such as ye do not wish, lest there be strifes, envyings, wraths, revelries, evil-speakings, whisperings, puffings up, insurrections,"
+    "content": "for I fear lest, having come, not such as I wish I may find you, and I—I may be found by you such as ye do not wish, lest there be strifes, envyings, wraths, revelries, evil speakings, whisperings, puffings up, insurrections,"
   },
   {
     "book": "2CO",
@@ -1497,16 +1900,23 @@
     "book": "2CO",
     "chapter": 13,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "This third time do I come unto you; on the mouth of two witnesses or three shall every saying be established;"
-    }
+    "content": [
+      { "heading": "His Approaching Visit" },
+      {
+        "paragraph": true,
+        "text": "This third time do I come unto you; on the mouth of two witnesses or three shall every saying be established;"
+      }
+    ]
   },
   {
     "book": "2CO",
     "chapter": 13,
     "verse": 2,
-    "content": "I have said before, and I say it before, as being present, the second time, and being absent, now, do I write to those having sinned before, and to all the rest, that if I come again, I will not spare,"
+    "content": [
+      "I have said before, and I say ",
+      { "text": "it", "marks": ["i"] },
+      " before, as being present, the second time, and being absent, now, do I write to those having sinned before, and to all the rest, that if I come again, I will not spare,"
+    ]
   },
   {
     "book": "2CO",
@@ -1530,7 +1940,7 @@
     "book": "2CO",
     "chapter": 13,
     "verse": 6,
-    "content": "and I hope that ye shall know that we-we are not disapproved of;"
+    "content": "and I hope that ye shall know that we—we are not disapproved of;"
   },
   {
     "book": "2CO",
@@ -1548,19 +1958,26 @@
     "book": "2CO",
     "chapter": 13,
     "verse": 9,
-    "content": "for we rejoice when we may be infirm, and ye may be powerful; and this also we pray for-your perfection!"
+    "content": "for we rejoice when we may be infirm, and ye may be powerful; and this also we pray for—your perfection!"
   },
   {
     "book": "2CO",
     "chapter": 13,
     "verse": 10,
-    "content": "because of this, these things-being absent-I write, that being present, I may not treat any sharply, according to the authority that the Lord did give me for building up, and not for casting down."
+    "content": [
+      "because of this, these things—being absent—I write, that being present, I may not treat ",
+      { "text": "any", "marks": ["i"] },
+      " sharply, according to the authority that the Lord did give me for building up, and not for casting down."
+    ]
   },
   {
     "book": "2CO",
     "chapter": 13,
     "verse": 11,
-    "content": "Henceforth, brethren, rejoice; be made perfect, be comforted, be of the same mind, be at peace, and the God of the love and peace shall be with you;"
+    "content": {
+      "paragraph": true,
+      "text": "Henceforth, brethren, rejoice; be made perfect, be comforted, be of the same mind, be at peace, and the God of the love and peace shall be with you;"
+    }
   },
   {
     "book": "2CO",
@@ -1578,6 +1995,13 @@
     "book": "2CO",
     "chapter": 13,
     "verse": 14,
-    "content": "the grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, is with you all! Amen."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "the grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, "
+      },
+      { "text": "is", "marks": ["i"] },
+      " with you all! Amen."
+    ]
   }
 ]

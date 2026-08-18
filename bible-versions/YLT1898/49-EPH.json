@@ -18,7 +18,12 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 3,
-    "content": "Blessed is the God and Father of our Lord Jesus Christ, who did bless us in every spiritual blessing in the heavenly places in Christ,"
+    "content": [
+      { "heading": "The Gospel of Your Salvation" },
+      { "paragraph": true, "text": "Blessed " },
+      { "text": "is", "marks": ["i"] },
+      " the God and Father of our Lord Jesus Christ, who did bless us in every spiritual blessing in the heavenly places in Christ,"
+    ]
   },
   {
     "book": "EPH",
@@ -60,7 +65,7 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 10,
-    "content": "in regard to the dispensation of the fulness of the times, to bring into one the whole in the Christ, both the things in the heavens, and the things upon the earth-in him;"
+    "content": "in regard to the dispensation of the fulness of the times, to bring into one the whole in the Christ, both the things in the heavens, and the things upon the earth—in him;"
   },
   {
     "book": "EPH",
@@ -72,13 +77,17 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 12,
-    "content": "for our being to the praise of His glory, even those who did first hope in the Christ,"
+    "content": [
+      "for our being to the praise of His glory, ",
+      { "text": "even", "marks": ["i"] },
+      " those who did first hope in the Christ,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 13,
-    "content": "in whom ye also, having heard the word of the truth-the good news of your salvation-in whom also having believed, ye were sealed with the Holy Spirit of the promise,"
+    "content": "in whom ye also, having heard the word of the truth—the good news of your salvation—in whom also having believed, ye were sealed with the Holy Spirit of the promise,"
   },
   {
     "book": "EPH",
@@ -90,7 +99,10 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 15,
-    "content": "Because of this I also, having heard of your faith in the Lord Jesus, and the love to all the saints,"
+    "content": {
+      "paragraph": true,
+      "text": "Because of this I also, having heard of your faith in the Lord Jesus, and the love to all the saints,"
+    }
   },
   {
     "book": "EPH",
@@ -120,7 +132,13 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 20,
-    "content": "which He wrought in the Christ, having raised him out of the dead, and did set him at His right hand in the heavenly places,"
+    "content": [
+      "which He wrought in the Christ, having raised him out of the dead, and did set ",
+      { "text": "him", "marks": ["i"] },
+      " at His right hand in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "EPH",
@@ -132,7 +150,7 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 22,
-    "content": "and all things He did put under his feet, and did give him-head over all things to the assembly,"
+    "content": "and all things He did put under his feet, and did give him—head over all things to the assembly,"
   },
   {
     "book": "EPH",
@@ -144,10 +162,13 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Also you-being dead in the trespasses and the sins,"
-    }
+    "content": [
+      { "heading": "The Household of God" },
+      {
+        "paragraph": true,
+        "text": "Also you—being dead in the trespasses and the sins,"
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -159,7 +180,7 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 3,
-    "content": "among whom also we all did walk once in the desires of our flesh, doing the wishes of the flesh and of the thoughts, and were by nature children of wrath-as also the others,"
+    "content": "among whom also we all did walk once in the desires of our flesh, doing the wishes of the flesh and of the thoughts, and were by nature children of wrath—as also the others,"
   },
   {
     "book": "EPH",
@@ -177,7 +198,15 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 6,
-    "content": "and did raise us up together, and did seat us together in the heavenly places in Christ Jesus,"
+    "content": [
+      "and did raise ",
+      { "text": "us", "marks": ["i"] },
+      " up together, and did seat ",
+      { "text": "us", "marks": ["i"] },
+      " together in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      " in Christ Jesus,"
+    ]
   },
   {
     "book": "EPH",
@@ -189,7 +218,7 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 8,
-    "content": "for by grace ye are having been saved, through faith, and this not of you-of God the gift,"
+    "content": "for by grace ye are having been saved, through faith, and this not of you—of God the gift,"
   },
   {
     "book": "EPH",
@@ -207,7 +236,11 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 11,
-    "content": "Wherefore, remember, that ye were once the nations in the flesh, who are called Uncircumcision by that called Circumcision in the flesh made by hands,"
+    "content": [
+      { "paragraph": true, "text": "Wherefore, remember, that ye " },
+      { "text": "were", "marks": ["i"] },
+      " once the nations in the flesh, who are called Uncircumcision by that called Circumcision in the flesh made by hands,"
+    ]
   },
   {
     "book": "EPH",
@@ -243,13 +276,13 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 17,
-    "content": "and having come, he did proclaim good news-peace to you-the far-off and the nigh,"
+    "content": "and having come, he did proclaim good news—peace to you—the far-off and the nigh,"
   },
   {
     "book": "EPH",
     "chapter": 2,
     "verse": 18,
-    "content": "because through him we have the access-we both-in one Spirit unto the Father."
+    "content": "because through him we have the access—we both—in one Spirit unto the Father."
   },
   {
     "book": "EPH",
@@ -261,7 +294,11 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 20,
-    "content": "being built upon the foundation of the apostles and prophets, Jesus Christ himself being chief corner-stone,"
+    "content": [
+      "being built upon the foundation of the apostles and prophets, Jesus Christ himself being chief corner-",
+      { "text": "stone", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "EPH",
@@ -279,10 +316,13 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "For this cause, I Paul, the prisoner of Christ Jesus for you the nations,"
-    }
+    "content": [
+      { "heading": "The Apostle of this Gospel" },
+      {
+        "paragraph": true,
+        "text": "For this cause, I Paul, the prisoner of Christ Jesus for you the nations,"
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -294,19 +334,27 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 3,
-    "content": "that by revelation He made known to me the secret, according as I wrote before in few words-"
+    "content": [
+      "that by revelation He made known to me the secret, according as I wrote before in few ",
+      { "text": "words", "marks": ["i"] },
+      "—"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 4,
-    "content": "in regard to which ye are able, reading it, to understand my knowledge in the secret of the Christ,"
+    "content": [
+      "in regard to which ye are able, reading ",
+      { "text": "it", "marks": ["i"] },
+      ", to understand my knowledge in the secret of the Christ,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 5,
-    "content": "which in other generations was not made known to the sons of men, as it was now revealed to His holy apostles and prophets in the Spirit-"
+    "content": "which in other generations was not made known to the sons of men, as it was now revealed to His holy apostles and prophets in the Spirit—"
   },
   {
     "book": "EPH",
@@ -324,19 +372,27 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 8,
-    "content": "to me-the less than the least of all the saints-was given this grace, among the nations to proclaim good news-the untraceable riches of the Christ,"
+    "content": "to me—the less than the least of all the saints—was given this grace, among the nations to proclaim good news—the untraceable riches of the Christ,"
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 9,
-    "content": "and to cause all to see what is the fellowship of the secret that hath been hid from the ages in God, who the all things did create by Jesus Christ,"
+    "content": [
+      "and to cause all to see what ",
+      { "text": "is", "marks": ["i"] },
+      " the fellowship of the secret that hath been hid from the ages in God, who the all things did create by Jesus Christ,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 10,
-    "content": "that there might be made known now to the principalities and the authorities in the heavenly places, through the assembly, the manifold wisdom of God,"
+    "content": [
+      "that there might be made known now to the principalities and the authorities in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      ", through the assembly, the manifold wisdom of God,"
+    ]
   },
   {
     "book": "EPH",
@@ -354,13 +410,23 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 13,
-    "content": "wherefore, I ask you not to faint in my tribulations for you, which is your glory."
+    "content": [
+      "wherefore, I ask ",
+      { "text": "you", "marks": ["i"] },
+      " not to faint in my tribulations for you, which is your glory."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 14,
-    "content": "For this cause I bow my knees unto the Father of our Lord Jesus Christ,"
+    "content": [
+      { "heading": "His Prayer and Appeal" },
+      {
+        "paragraph": true,
+        "text": "For this cause I bow my knees unto the Father of our Lord Jesus Christ,"
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -384,13 +450,17 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 18,
-    "content": "that ye may be in strength to comprehend, with all the saints, what is the breadth, and length, and depth, and height,"
+    "content": [
+      "that ye may be in strength to comprehend, with all the saints, what ",
+      { "text": "is", "marks": ["i"] },
+      " the breadth, and length, and depth, and height,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 19,
-    "content": "to know also the love of the Christ that is exceeding the knowledge, that ye may be filled-to all the fulness of God;"
+    "content": "to know also the love of the Christ that is exceeding the knowledge, that ye may be filled—to all the fulness of God;"
   },
   {
     "book": "EPH",
@@ -402,16 +472,23 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 21,
-    "content": "to Him is the glory in the assembly in Christ Jesus, to all the generations of the age of the ages. Amen."
+    "content": [
+      "to Him ",
+      { "text": "is", "marks": ["i"] },
+      " the glory in the assembly in Christ Jesus, to all the generations of the age of the ages. Amen."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Call upon you, then, do I-the prisoner of the Lord-to walk worthily of the calling with which ye were called,"
-    }
+    "content": [
+      { "heading": "Prisoner of the Lord" },
+      {
+        "paragraph": true,
+        "text": "Call upon you, then, do I—the prisoner of the Lord—to walk worthily of the calling with which ye were called,"
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -441,7 +518,11 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 6,
-    "content": "one God and Father of all, who is over all, and through all, and in you all,"
+    "content": [
+      "one God and Father of all, who ",
+      { "text": "is", "marks": ["i"] },
+      " over all, and through all, and in you all,"
+    ]
   },
   {
     "book": "EPH",
@@ -453,25 +534,41 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 8,
-    "content": "wherefore, he saith, ‘Having gone up on high he led captive captivity, and gave gifts to men,’-"
+    "content": {
+      "text": "wherefore, he saith, “Having gone up on high he led captive captivity, and gave gifts to men,”—",
+      "break": true
+    }
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 9,
-    "content": "and that, he went up, what is it except that he also went down first to the lower parts of the earth?"
+    "content": {
+      "paragraph": true,
+      "text": "and that, he went up, what is it except that he also went down first to the lower parts of the earth?"
+    }
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 10,
-    "content": "he who went down is the same also who went up far above all the heavens, that He may fill all things-"
+    "content": "he who went down is the same also who went up far above all the heavens, that He may fill all things—"
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 11,
-    "content": "and He gave some as apostles, and some as prophets, and some as proclaimers of good news, and some as shepherds and teachers,"
+    "content": [
+      "and He gave some ",
+      { "text": "as", "marks": ["i"] },
+      " apostles, and some ",
+      { "text": "as", "marks": ["i"] },
+      " prophets, and some ",
+      { "text": "as", "marks": ["i"] },
+      " proclaimers of good news, and some ",
+      { "text": "as", "marks": ["i"] },
+      " shepherds and teachers,"
+    ]
   },
   {
     "book": "EPH",
@@ -495,7 +592,11 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 15,
-    "content": "and, being true in love, we may increase to Him in all things, who is the head-the Christ;"
+    "content": [
+      "and, being true in love, we may increase to Him ",
+      { "text": "in", "marks": ["i"] },
+      " all things, who is the head—the Christ;"
+    ]
   },
   {
     "book": "EPH",
@@ -507,7 +608,13 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 17,
-    "content": "This, then, I say, and I testify in the Lord; ye are no more to walk, as also the other nations walk, in the vanity of their mind,"
+    "content": [
+      { "heading": "Christian Living" },
+      {
+        "paragraph": true,
+        "text": "This, then, I say, and I testify in the Lord; ye are no more to walk, as also the other nations walk, in the vanity of their mind,"
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -555,7 +662,10 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 25,
-    "content": "Wherefore, putting away the lying, speak truth each with his neighbour, because we are members one of another;"
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore, putting away the lying, speak truth each with his neighbour, because we are members one of another;"
+    }
   },
   {
     "book": "EPH",
@@ -618,13 +728,16 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 3,
-    "content": "and whoredom, and all uncleanness, or covetousness, let it not even be named among you, as becometh saints;"
+    "content": {
+      "paragraph": true,
+      "text": "and whoredom, and all uncleanness, or covetousness, let it not even be named among you, as becometh saints;"
+    }
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 4,
-    "content": "also filthiness, and foolish talking, or jesting,-the things not fit-but rather thanksgiving;"
+    "content": "also filthiness, and foolish talking, or jesting,—the things not fit—but rather thanksgiving;"
   },
   {
     "book": "EPH",
@@ -636,7 +749,10 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 6,
-    "content": "Let no one deceive you with vain words, for because of these things cometh the anger of God upon the sons of the disobedience,"
+    "content": {
+      "paragraph": true,
+      "text": "Let no one deceive you with vain words, for because of these things cometh the anger of God upon the sons of the disobedience,"
+    }
   },
   {
     "book": "EPH",
@@ -654,7 +770,11 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 9,
-    "content": "for the fruit of the Spirit is in all goodness, and righteousness, and truth,"
+    "content": [
+      "for the fruit of the Spirit ",
+      { "text": "is", "marks": ["i"] },
+      " in all goodness, and righteousness, and truth,"
+    ]
   },
   {
     "book": "EPH",
@@ -684,13 +804,16 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 14,
-    "content": "wherefore he saith, ‘Arouse thyself, thou who art sleeping, and arise out of the dead, and the Christ shall shine upon thee.’"
+    "content": "wherefore he saith, “Arouse thyself, thou who art sleeping, and arise out of the dead, and the Christ shall shine upon thee.”"
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 15,
-    "content": "See, then, how exactly ye walk, not as unwise, but as wise,"
+    "content": {
+      "paragraph": true,
+      "text": "See, then, how exactly ye walk, not as unwise, but as wise,"
+    }
   },
   {
     "book": "EPH",
@@ -702,7 +825,11 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 17,
-    "content": "because of this become not fools, but-understanding what is the will of the Lord,"
+    "content": [
+      "because of this become not fools, but—understanding what ",
+      { "text": "is", "marks": ["i"] },
+      " the will of the Lord,"
+    ]
   },
   {
     "book": "EPH",
@@ -732,19 +859,30 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 22,
-    "content": "The wives! to your own husbands subject yourselves, as to the Lord,"
+    "content": {
+      "paragraph": true,
+      "text": "The wives! to your own husbands subject yourselves, as to the Lord,"
+    }
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 23,
-    "content": "because the husband is head of the wife, as also the Christ is head of the assembly, and he is saviour of the body,"
+    "content": [
+      "because the husband is head of the wife, as also the Christ ",
+      { "text": "is", "marks": ["i"] },
+      " head of the assembly, and he is saviour of the body,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 24,
-    "content": "but even as the assembly is subject to Christ, so also are the wives to their own husbands in everything."
+    "content": [
+      "but even as the assembly is subject to Christ, so also ",
+      { "text": "are", "marks": ["i"] },
+      " the wives to their own husbands in everything."
+    ]
   },
   {
     "book": "EPH",
@@ -756,7 +894,11 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 26,
-    "content": "that he might sanctify it, having cleansed it with the bathing of the water in the saying,"
+    "content": [
+      "that he might sanctify it, having cleansed ",
+      { "text": "it", "marks": ["i"] },
+      " with the bathing of the water in the saying,"
+    ]
   },
   {
     "book": "EPH",
@@ -768,13 +910,13 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 28,
-    "content": "so ought the husbands to love their own wives as their own bodies: he who is loving his own wife-himself he doth love;"
+    "content": "so ought the husbands to love their own wives as their own bodies: he who is loving his own wife—himself he doth love;"
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 29,
-    "content": "for no one ever his own flesh did hate, but doth nourish and cherish it, as also the Lord-the assembly,"
+    "content": "for no one ever his own flesh did hate, but doth nourish and cherish it, as also the Lord—the assembly,"
   },
   {
     "book": "EPH",
@@ -786,7 +928,7 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 31,
-    "content": "?’for this cause shall a man leave his father and mother, and shall be joined to his wife, and they shall be-the two-for one flesh;’"
+    "content": "“for this cause shall a man leave his father and mother, and shall be joined to his wife, and they shall be—the two—for one flesh;”"
   },
   {
     "book": "EPH",
@@ -798,16 +940,19 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 33,
-    "content": "but ye also, every one in particular-let each his own wife so love as himself, and the wife-that she may reverence the husband."
+    "content": "but ye also, every one in particular—let each his own wife so love as himself, and the wife—that she may reverence the husband."
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "The children! obey your parents in the Lord, for this is righteous;"
-    }
+    "content": [
+      { "heading": "Domestic Relationships" },
+      {
+        "paragraph": true,
+        "text": "The children! obey your parents in the Lord, for this is righteous;"
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -819,7 +964,7 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 3,
-    "content": "which is the first command with a promise, ‘That it may be well with thee, and thou mayest live a long time upon the land.’"
+    "content": "which is the first command with a promise, “That it may be well with thee, and thou mayest live a long time upon the land.”"
   },
   {
     "book": "EPH",
@@ -831,7 +976,10 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 5,
-    "content": "The servants! obey the masters according to the flesh with fear and trembling, in the simplicity of your heart, as to the Christ;"
+    "content": {
+      "paragraph": true,
+      "text": "The servants! obey the masters according to the flesh with fear and trembling, in the simplicity of your heart, as to the Christ;"
+    }
   },
   {
     "book": "EPH",
@@ -861,7 +1009,10 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 10,
-    "content": "As to the rest, my brethren, be strong in the Lord, and in the power of his might;"
+    "content": {
+      "paragraph": true,
+      "text": "As to the rest, my brethren, be strong in the Lord, and in the power of his might;"
+    }
   },
   {
     "book": "EPH",
@@ -879,7 +1030,7 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 13,
-    "content": "because of this take ye up the whole armour of God, that ye may be able to resist in the day of the evil, and all things having done-to stand."
+    "content": "because of this take ye up the whole armour of God, that ye may be able to resist in the day of the evil, and all things having done—to stand."
   },
   {
     "book": "EPH",
@@ -909,7 +1060,7 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 18,
-    "content": "through all prayer and supplication praying at all times in the Spirit, and in regard to this same, watching in all perseverance and supplication for all the saints-"
+    "content": "through all prayer and supplication praying at all times in the Spirit, and in regard to this same, watching in all perseverance and supplication for all the saints—"
   },
   {
     "book": "EPH",
@@ -921,13 +1072,16 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 20,
-    "content": "for which I am an ambassador in a chain, that in it I may speak freely-as it behoveth me to speak."
+    "content": "for which I am an ambassador in a chain, that in it I may speak freely—as it behoveth me to speak."
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 21,
-    "content": "And that ye may know-ye also-the things concerning me-what I do, all things make known to you shall Tychicus, the beloved brother and faithful ministrant in the Lord,"
+    "content": {
+      "paragraph": true,
+      "text": "And that ye may know—ye also—the things concerning me—what I do, all things make known to you shall Tychicus, the beloved brother and faithful ministrant in the Lord,"
+    }
   },
   {
     "book": "EPH",
@@ -939,12 +1093,15 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 23,
-    "content": "Peace to the brethren, and love, with faith, from God the Father, and the Lord Jesus Christ!"
+    "content": {
+      "paragraph": true,
+      "text": "Peace to the brethren, and love, with faith, from God the Father, and the Lord Jesus Christ!"
+    }
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 24,
-    "content": "The grace with all those loving our Lord Jesus Christ-undecayingly! Amen."
+    "content": "The grace with all those loving our Lord Jesus Christ—undecayingly! Amen."
   }
 ]

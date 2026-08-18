@@ -3,10 +3,14 @@
     "book": "TIT",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of the choice ones of God, and an acknowledging of truth that is according to piety,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of the choice ones of God, and an acknowledging of truth that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " according to piety,"
+    ]
   },
   {
     "book": "TIT",
@@ -24,19 +28,25 @@
     "book": "TIT",
     "chapter": 1,
     "verse": 4,
-    "content": "to Titus-true child according to a common faith: Grace, kindness, peace, from God the Father, and the Lord Jesus Christ our Saviour!"
+    "content": "to Titus—true child according to a common faith: Grace, kindness, peace, from God the Father, and the Lord Jesus Christ our Saviour!"
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 5,
-    "content": "For this cause left I thee in Crete, that the things lacking thou mayest arrange, and mayest set down in every city elders, as I did appoint to thee;"
+    "content": [
+      { "heading": "Stewards of God" },
+      {
+        "paragraph": true,
+        "text": "For this cause left I thee in Crete, that the things lacking thou mayest arrange, and mayest set down in every city elders, as I did appoint to thee;"
+      }
+    ]
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 6,
-    "content": "if any one is blameless, of one wife a husband, having children stedfast, not under accusation of riotous living or insubordinate-"
+    "content": "if any one is blameless, of one wife a husband, having children stedfast, not under accusation of riotous living or insubordinate—"
   },
   {
     "book": "TIT",
@@ -48,19 +58,22 @@
     "book": "TIT",
     "chapter": 1,
     "verse": 8,
-    "content": "but a lover of strangers, a lover of good men, sober-minded, righteous, kind, self-controlled,"
+    "content": "but a lover of strangers, a lover of good men, sober-minded, righteous, kind, selfcontrolled,"
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 9,
-    "content": "holding-according to the teaching-to the stedfast word, that he may be able also to exhort in the sound teaching, and the gainsayers to convict;"
+    "content": "holding—according to the teaching—to the stedfast word, that he may be able also to exhort in the sound teaching, and the gainsayers to convict;"
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 10,
-    "content": "for there are many both insubordinate, vain-talkers, and mind-deceivers-especially they of the circumcision-"
+    "content": {
+      "paragraph": true,
+      "text": "for there are many both insubordinate, vain-talkers, and mind-deceivers—especially they of the circumcision—"
+    }
   },
   {
     "book": "TIT",
@@ -72,7 +85,7 @@
     "book": "TIT",
     "chapter": 1,
     "verse": 12,
-    "content": "A certain one of them, a prophet of their own, said-‘Cretans! always liars, evil beasts, lazy bellies!’"
+    "content": "A certain one of them, a prophet of their own, said—“Cretans! always liars, evil beasts, lazy bellies!”"
   },
   {
     "book": "TIT",
@@ -90,22 +103,37 @@
     "book": "TIT",
     "chapter": 1,
     "verse": 15,
-    "content": "all things, indeed, are pure to the pure, and to the defiled and unstedfast is nothing pure, but of them defiled are even the mind and the conscience;"
+    "content": [
+      "all things, indeed, ",
+      { "text": "are", "marks": ["i"] },
+      " pure to the pure, and to the defiled and unstedfast ",
+      { "text": "is", "marks": ["i"] },
+      " nothing pure, but of them defiled ",
+      { "text": "are", "marks": ["i"] },
+      " even the mind and the conscience;"
+    ]
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 16,
-    "content": "God they profess to know, and in the works they deny Him, being abominable, and disobedient, and unto every good work disapproved."
+    "content": [
+      "God they profess to know, and in the works they deny ",
+      { "text": "Him", "marks": ["i"] },
+      ", being abominable, and disobedient, and unto every good work disapproved."
+    ]
   },
   {
     "book": "TIT",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And thou-be speaking what doth become the sound teaching;"
-    }
+    "content": [
+      { "heading": "Sound Doctrine" },
+      {
+        "paragraph": true,
+        "text": "And thou—be speaking what doth become the sound teaching;"
+      }
+    ]
   },
   {
     "book": "TIT",
@@ -123,13 +151,23 @@
     "book": "TIT",
     "chapter": 2,
     "verse": 4,
-    "content": "that they may make the young women sober-minded, to be lovers of their husbands, lovers of their children,"
+    "content": [
+      "that they may make the young women sober-minded, to be lovers of ",
+      { "text": "their", "marks": ["i"] },
+      " husbands, lovers of ",
+      { "text": "their", "marks": ["i"] },
+      " children,"
+    ]
   },
   {
     "book": "TIT",
     "chapter": 2,
     "verse": 5,
-    "content": "sober, pure, keepers of their own houses, good, subject to their own husbands, that the word of God may not be evil spoken of."
+    "content": [
+      "sober, pure, keepers of ",
+      { "text": "their own", "marks": ["i"] },
+      " houses, good, subject to their own husbands, that the word of God may not be evil spoken of."
+    ]
   },
   {
     "book": "TIT",
@@ -153,7 +191,11 @@
     "book": "TIT",
     "chapter": 2,
     "verse": 9,
-    "content": "Servants-to their own masters are to be subject, in all things to be well-pleasing, not gainsaying,"
+    "content": [
+      "Servants—to their own masters ",
+      { "text": "are", "marks": ["i"] },
+      " to be subject, in all things to be well-pleasing, not gainsaying,"
+    ]
   },
   {
     "book": "TIT",
@@ -165,7 +207,10 @@
     "book": "TIT",
     "chapter": 2,
     "verse": 11,
-    "content": "For the saving grace of God was manifested to all men,"
+    "content": {
+      "paragraph": true,
+      "text": "For the saving grace of God was manifested to all men,"
+    }
   },
   {
     "book": "TIT",
@@ -195,22 +240,25 @@
     "book": "TIT",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Remind them to be subject to principalities and authorities, to obey rule, unto every good work to be ready,"
-    }
+    "content": [
+      { "heading": "Social Service" },
+      {
+        "paragraph": true,
+        "text": "Remind them to be subject to principalities and authorities, to obey rule, unto every good work to be ready,"
+      }
+    ]
   },
   {
     "book": "TIT",
     "chapter": 3,
     "verse": 2,
-    "content": "of no one to speak evil, not to be quarrelsome-gentle, showing all meekness to all men,"
+    "content": "of no one to speak evil, not to be quarrelsome—gentle, showing all meekness to all men,"
   },
   {
     "book": "TIT",
     "chapter": 3,
     "verse": 3,
-    "content": "for we were once-also we-thoughtless, disobedient, led astray, serving desires and pleasures manifold, in malice and envy living, odious-hating one another;"
+    "content": "for we were once—also we—thoughtless, disobedient, led astray, serving desires and pleasures manifold, in malice and envy living, odious—hating one another;"
   },
   {
     "book": "TIT",
@@ -222,7 +270,11 @@
     "book": "TIT",
     "chapter": 3,
     "verse": 5,
-    "content": "(not by works that are in righteousness that we did but according to His kindness,) He did save us, through a bathing of regeneration, and a renewing of the Holy Spirit,"
+    "content": [
+      "(not by works that ",
+      { "text": "are", "marks": ["i"] },
+      " in righteousness that we did but according to His kindness,) He did save us, through a bathing of regeneration, and a renewing of the Holy Spirit,"
+    ]
   },
   {
     "book": "TIT",
@@ -240,13 +292,17 @@
     "book": "TIT",
     "chapter": 3,
     "verse": 8,
-    "content": "Stedfast is the word; and concerning these things I counsel thee to affirm fully, that they may be thoughtful, to be leading in good works-who have believed God; these are the good and profitable things to men,"
+    "content": [
+      "Stedfast ",
+      { "text": "is", "marks": ["i"] },
+      " the word; and concerning these things I counsel thee to affirm fully, that they may be thoughtful, to be leading in good works—who have believed God; these are the good and profitable things to men,"
+    ]
   },
   {
     "book": "TIT",
     "chapter": 3,
     "verse": 9,
-    "content": "and foolish questions, and genealogies, and contentions, and strivings about law, stand away from-for they are unprofitable and vain."
+    "content": "and foolish questions, and genealogies, and contentions, and strivings about law, stand away from—for they are unprofitable and vain."
   },
   {
     "book": "TIT",
@@ -258,13 +314,20 @@
     "book": "TIT",
     "chapter": 3,
     "verse": 11,
-    "content": "having known that he hath been subverted who is such, and doth sin, being self-condemned."
+    "content": [
+      "having known that he hath been subverted who ",
+      { "text": "is", "marks": ["i"] },
+      " such, and doth sin, being selfcondemned."
+    ]
   },
   {
     "book": "TIT",
     "chapter": 3,
     "verse": 12,
-    "content": "When I shall send Artemas unto thee, or Tychicus, be diligent to come unto me to Nicopolis, for there to winter I have determined."
+    "content": {
+      "paragraph": true,
+      "text": "When I shall send Artemas unto thee, or Tychicus, be diligent to come unto me to Nicopolis, for there to winter I have determined."
+    }
   },
   {
     "book": "TIT",
@@ -276,12 +339,19 @@
     "book": "TIT",
     "chapter": 3,
     "verse": 14,
-    "content": "and let them learn-ours also-to be leading in good works to the necessary uses, that they may not be unfruitful."
+    "content": "and let them learn—ours also—to be leading in good works to the necessary uses, that they may not be unfruitful."
   },
   {
     "book": "TIT",
     "chapter": 3,
     "verse": 15,
-    "content": "Salute thee do all those with me; salute those loving us in faith; the grace is with you all!"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Salute thee do all those with me; salute those loving us in faith; the grace "
+      },
+      { "text": "is", "marks": ["i"] },
+      " with you all!"
+    ]
   }
 ]

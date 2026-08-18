@@ -5,7 +5,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Judas, of Jesus Christ a servant, and brother of James, to those sanctified in God the Father, and in Jesus Christ kept-called,"
+      "text": "Judas, of Jesus Christ a servant, and brother of James, to those sanctified in God the Father, and in Jesus Christ kept—called,"
     }
   },
   {
@@ -18,19 +18,25 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 3,
-    "content": "Beloved, all diligence using to write to you concerning the common salvation, I had necessity to write to you, exhorting to agonize for the faith once delivered to the saints,"
+    "content": {
+      "paragraph": true,
+      "text": "Beloved, all diligence using to write to you concerning the common salvation, I had necessity to write to you, exhorting to agonize for the faith once delivered to the saints,"
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 4,
-    "content": "for there did come in unobserved certain men, long ago having been written beforehand to this judgment, impious, the grace of our God perverting to lasciviousness, and our only Master, God, and Lord-Jesus Christ-denying,"
+    "content": "for there did come in unobserved certain men, long ago having been written beforehand to this judgment, impious, the grace of our God perverting to lasciviousness, and our only Master, God, and Lord—Jesus Christ—denying,"
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 5,
-    "content": "and to remind you I intend, you knowing once this, that the Lord, a people out of the land of Egypt having saved, again those who did not believe did destroy;"
+    "content": {
+      "paragraph": true,
+      "text": "and to remind you I intend, you knowing once this, that the Lord, a people out of the land of Egypt having saved, again those who did not believe did destroy;"
+    }
   },
   {
     "book": "JUD",
@@ -42,19 +48,22 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 7,
-    "content": "as Sodom and Gomorrah, and the cities around them, in like manner to these, having given themselves to whoredom, and gone after other flesh, have been set before-an example, of fire age-during, justice suffering."
+    "content": "as Sodom and Gomorrah, and the cities around them, in like manner to these, having given themselves to whoredom, and gone after other flesh, have been set before—an example, of fire age-during, justice suffering."
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 8,
-    "content": "In like manner, nevertheless, those dreaming also the flesh indeed do defile, and lordship they put away, and dignities they speak evil of,"
+    "content": {
+      "paragraph": true,
+      "text": "In like manner, nevertheless, those dreaming also the flesh indeed do defile, and lordship they put away, and dignities they speak evil of,"
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 9,
-    "content": "yet Michael, the chief messenger, when, with the devil contending, he was disputing about the body of Moses, did not dare to bring up an evil-speaking judgment, but said, ‘The Lord rebuke thee!’"
+    "content": "yet Michael, the chief messenger, when, with the devil contending, he was disputing about the body of Moses, did not dare to bring up an evil-speaking judgment, but said, “The Lord rebuke thee!”"
   },
   {
     "book": "JUD",
@@ -84,25 +93,34 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 14,
-    "content": "And prophesy also to these did the seventh from Adam-Enoch-saying, ‘Lo, the Lord did come in His saintly myriads,"
+    "content": {
+      "paragraph": true,
+      "text": "And prophesy also to these did the seventh from Adam—Enoch—saying, “Lo, the Lord did come in His saintly myriads,"
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 15,
-    "content": "to do judgment against all, and to convict all their impious ones, concerning all their works of impiety that they did impiously, and concerning all the stiff things that speak against Him did impious sinners.’"
+    "content": "to do judgment against all, and to convict all their impious ones, concerning all their works of impiety that they did impiously, and concerning all the stiff things that speak against Him did impious sinners.”"
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 16,
-    "content": "These are murmurers, repiners; according to their desires walking, and their mouth doth speak great swellings, giving admiration to persons for the sake of profit;"
+    "content": {
+      "paragraph": true,
+      "text": "These are murmurers, repiners; according to their desires walking, and their mouth doth speak great swellings, giving admiration to persons for the sake of profit;"
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 17,
-    "content": "and ye, beloved, remember ye the sayings spoken before by the apostles of our Lord Jesus Christ:"
+    "content": {
+      "paragraph": true,
+      "text": "and ye, beloved, remember ye the sayings spoken before by the apostles of our Lord Jesus Christ:"
+    }
   },
   {
     "book": "JUD",
@@ -126,7 +144,7 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 21,
-    "content": "yourselves in the love of God keep ye, waiting for the kindness of our Lord Jesus Christ-to life age-during;"
+    "content": "yourselves in the love of God keep ye, waiting for the kindness of our Lord Jesus Christ—to life age-during;"
   },
   {
     "book": "JUD",
@@ -144,12 +162,23 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 24,
-    "content": "And to Him who is able to guard you not stumbling, and to set you in the presence of His glory unblemished, in gladness,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And to Him who is able to guard you not stumbling, and to set "
+      },
+      { "text": "you", "marks": ["i"] },
+      " in the presence of His glory unblemished, in gladness,"
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 25,
-    "content": "to the only wise God our Saviour, is glory and greatness, power and authority, both now and to all the ages! Amen."
+    "content": [
+      "to the only wise God our Saviour, ",
+      { "text": "is", "marks": ["i"] },
+      " glory and greatness, power and authority, both now and to all the ages! Amen."
+    ]
   }
 ]

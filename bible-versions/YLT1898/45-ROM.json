@@ -5,14 +5,14 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, a servant of Jesus Christ, a called apostle, having been separated to the good news of God-"
+      "text": "Paul, a servant of Jesus Christ, a called apostle, having been separated to the good news of God—"
     }
   },
   {
     "book": "ROM",
     "chapter": 1,
     "verse": 2,
-    "content": "which He announced before through His prophets in holy writings-"
+    "content": "which He announced before through His prophets in holy writings—"
   },
   {
     "book": "ROM",
@@ -42,13 +42,23 @@
     "book": "ROM",
     "chapter": 1,
     "verse": 7,
-    "content": "to all who are in Rome, beloved of God, called saints; Grace to you, and peace, from God our Father, and from the Lord Jesus Christ!"
+    "content": [
+      "to all who are in Rome, beloved of God, called saints; Grace to you, and peace, from God our Father, and ",
+      { "text": "from", "marks": ["i"] },
+      " the Lord Jesus Christ!"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 1,
     "verse": 8,
-    "content": "First, indeed, I thank my God through Jesus Christ for you all, that your faith is proclaimed in the whole world;"
+    "content": [
+      { "heading": "The Gospel of Salvation" },
+      {
+        "paragraph": true,
+        "text": "first, indeed, I thank my God through Jesus Christ for you all, that your faith is proclaimed in the whole world;"
+      }
+    ]
   },
   {
     "book": "ROM",
@@ -78,7 +88,7 @@
     "book": "ROM",
     "chapter": 1,
     "verse": 13,
-    "content": "And I do not wish you to be ignorant, brethren, that many times I did purpose to come unto you-and was hindered till the present time-that some fruit I might have also among you, even as also among the other nations."
+    "content": "And I do not wish you to be ignorant, brethren, that many times I did purpose to come unto you—and was hindered till the present time—that some fruit I might have also among you, even as also among the other nations."
   },
   {
     "book": "ROM",
@@ -90,7 +100,11 @@
     "book": "ROM",
     "chapter": 1,
     "verse": 15,
-    "content": "so, as much as in me is, I am ready also to you who are in Rome to proclaim good news,"
+    "content": [
+      "so, as much as in me is, I am ready also to you who ",
+      { "text": "are", "marks": ["i"] },
+      " in Rome to proclaim good news,"
+    ]
   },
   {
     "book": "ROM",
@@ -102,31 +116,45 @@
     "book": "ROM",
     "chapter": 1,
     "verse": 17,
-    "content": "For the righteousness of God in it is revealed from faith to faith, according as it hath been written, ‘And the righteous one by faith shall live,’"
+    "content": "For the righteousness of God in it is revealed from faith to faith, according as it hath been written, “And the righteous one by faith shall live,”"
   },
   {
     "book": "ROM",
     "chapter": 1,
     "verse": 18,
-    "content": "for revealed is the wrath of God from heaven upon all impiety and unrighteousness of men, holding down the truth in unrighteousness."
+    "content": [
+      { "heading": "The State of the World" },
+      {
+        "paragraph": true,
+        "text": "for revealed is the wrath of God from heaven upon all impiety and unrighteousness of men, holding down the truth in unrighteousness."
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 1,
     "verse": 19,
-    "content": "Because that which is known of God is manifest among them, for God did manifest it to them,"
+    "content": [
+      "Because that which is known of God is manifest among them, for God did manifest ",
+      { "text": "it", "marks": ["i"] },
+      " to them,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 1,
     "verse": 20,
-    "content": "for the invisible things of Him from the creation of the world, by the things made being understood, are plainly seen, both His eternal power and Godhead-to their being inexcusable;"
+    "content": "for the invisible things of Him from the creation of the world, by the things made being understood, are plainly seen, both His eternal power and Godhead—to their being inexcusable;"
   },
   {
     "book": "ROM",
     "chapter": 1,
     "verse": 21,
-    "content": "because, having known God they did not glorify Him as God, nor gave thanks, but were made vain in their reasonings, and their unintelligent heart was darkened,"
+    "content": [
+      "because, having known God they did not glorify ",
+      { "text": "Him", "marks": ["i"] },
+      " as God, nor gave thanks, but were made vain in their reasonings, and their unintelligent heart was darkened,"
+    ]
   },
   {
     "book": "ROM",
@@ -144,7 +172,10 @@
     "book": "ROM",
     "chapter": 1,
     "verse": 24,
-    "content": "Wherefore also God did give them up, in the desires of their hearts, to uncleanness, to dishonour their bodies among themselves;"
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore also God did give them up, in the desires of their hearts, to uncleanness, to dishonour their bodies among themselves;"
+    }
   },
   {
     "book": "ROM",
@@ -192,16 +223,19 @@
     "book": "ROM",
     "chapter": 1,
     "verse": 32,
-    "content": "who the righteous judgment of God having known-that those practising such things are worthy of death-not only do them, but also have delight with those practising them."
+    "content": "who the righteous judgment of God having known—that those practising such things are worthy of death—not only do them, but also have delight with those practising them."
   },
   {
     "book": "ROM",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Therefore, thou art inexcusable, O man-every one who is judging-for in that in which thou dost judge the other, thyself thou dost condemn, for the same things thou dost practise who art judging,"
-    }
+    "content": [
+      { "heading": "Jews as Well as Gentiles" },
+      {
+        "paragraph": true,
+        "text": "Therefore, thou art inexcusable, O man—every one who is judging—for in that in which thou dost judge the other, thyself thou dost condemn, for the same things thou dost practise who art judging,"
+      }
+    ]
   },
   {
     "book": "ROM",
@@ -219,7 +253,7 @@
     "book": "ROM",
     "chapter": 2,
     "verse": 4,
-    "content": "or the riches of His goodness, and forbearance, and long-suffering, dost thou despise?-not knowing that the goodness of God doth lead thee to reformation!"
+    "content": "or the riches of His goodness, and forbearance, and long-suffering, dost thou despise?—not knowing that the goodness of God doth lead thee to reformation!"
   },
   {
     "book": "ROM",
@@ -237,13 +271,13 @@
     "book": "ROM",
     "chapter": 2,
     "verse": 7,
-    "content": "to those, indeed, who in continuance of a good work, do seek glory, and honour, and incorruptibility-life age-during;"
+    "content": "to those, indeed, who in continuance of a good work, do seek glory, and honour, and incorruptibility—life age-during;"
   },
   {
     "book": "ROM",
     "chapter": 2,
     "verse": 8,
-    "content": "and to those contentious, and disobedient, indeed, to the truth, and obeying the unrighteousness-indignation and wrath,"
+    "content": "and to those contentious, and disobedient, indeed, to the truth, and obeying the unrighteousness—indignation and wrath,"
   },
   {
     "book": "ROM",
@@ -267,19 +301,26 @@
     "book": "ROM",
     "chapter": 2,
     "verse": 12,
-    "content": "for as many as without law did sin, without law also shall perish, and as many as did sin in law, through law shall be judged,"
+    "content": {
+      "paragraph": true,
+      "text": "for as many as without law did sin, without law also shall perish, and as many as did sin in law, through law shall be judged,"
+    }
   },
   {
     "book": "ROM",
     "chapter": 2,
     "verse": 13,
-    "content": "for not the hearers of the law are righteous before God, but the doers of the law shall be declared righteous:-"
+    "content": [
+      "for not the hearers of the law ",
+      { "text": "are", "marks": ["i"] },
+      " righteous before God, but the doers of the law shall be declared righteous:—"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 2,
     "verse": 14,
-    "content": "For, when nations that have not a law, by nature may do the things of the law, these not having a law-to themselves are a law;"
+    "content": "For, when nations that have not a law, by nature may do the things of the law, these not having a law—to themselves are a law;"
   },
   {
     "book": "ROM",
@@ -297,7 +338,10 @@
     "book": "ROM",
     "chapter": 2,
     "verse": 17,
-    "content": "Lo, thou art named a Jew, and dost rest upon the law, and dost boast in God,"
+    "content": {
+      "paragraph": true,
+      "text": "Lo, thou art named a Jew, and dost rest upon the law, and dost boast in God,"
+    }
   },
   {
     "book": "ROM",
@@ -357,28 +401,48 @@
     "book": "ROM",
     "chapter": 2,
     "verse": 27,
-    "content": "and the uncircumcision, by nature, fulfilling the law, shall judge thee who, through letter and circumcision, art a transgressor of law."
+    "content": [
+      "and the uncircumcision, by nature, fulfilling the law, shall judge thee who, through letter and circumcision, ",
+      { "text": "art", "marks": ["i"] },
+      " a transgressor of law."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 2,
     "verse": 28,
-    "content": "For he is not a Jew who is so outwardly, neither is circumcision that which is outward in flesh;"
+    "content": [
+      "For he is not a Jew who is ",
+      { "text": "so", "marks": ["i"] },
+      " outwardly, neither ",
+      { "text": "is", "marks": ["i"] },
+      " circumcision that which is outward in flesh;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 2,
     "verse": 29,
-    "content": "but a Jew is he who is so inwardly, and circumcision is of the heart, in spirit, not in letter, of which the praise is not of men, but of God."
+    "content": [
+      "but a Jew ",
+      { "text": "is", "marks": ["i"] },
+      " he who is ",
+      { "text": "so", "marks": ["i"] },
+      " inwardly, and circumcision ",
+      { "text": "is", "marks": ["i"] },
+      " of the heart, in spirit, not in letter, of which the praise is not of men, but of God."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "What, then, is the superiority of the Jew? or what the profit of the circumcision?"
-    }
+    "content": [
+      { "heading": "They Are All Under Sin" },
+      { "paragraph": true, "text": "What, then, " },
+      { "text": "is", "marks": ["i"] },
+      " the superiority of the Jew? or what the profit of the circumcision?"
+    ]
   },
   {
     "book": "ROM",
@@ -396,13 +460,19 @@
     "book": "ROM",
     "chapter": 3,
     "verse": 4,
-    "content": "let it not be! and let God become true, and every man false, according as it hath been written, ‘That Thou mayest be declared righteous in Thy words, and mayest overcome in Thy being judged.’"
+    "content": {
+      "text": "let it not be! and let God become true, and every man false, according as it hath been written, “That Thou mayest be declared righteous in Thy words, and mayest overcome in Thy being judged.”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 5,
-    "content": "And, if our unrighteousness God’s righteousness doth establish, what shall we say? is God unrighteous who is inflicting the wrath? (after the manner of a man I speak)"
+    "content": {
+      "paragraph": true,
+      "text": "And, if our unrighteousness God’s righteousness doth establish, what shall we say? is God unrighteous who is inflicting the wrath? (after the manner of a man I speak)"
+    }
   },
   {
     "book": "ROM",
@@ -420,73 +490,111 @@
     "book": "ROM",
     "chapter": 3,
     "verse": 8,
-    "content": "and not, as we are evil spoken of, and as certain affirm us to say-‘We may do the evil things, that the good ones may come?’ whose judgment is righteous."
+    "content": "and not, as we are evil spoken of, and as certain affirm us to say—“We may do the evil things, that the good ones may come?” whose judgment is righteous."
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 9,
-    "content": "What, then? are we better? not at all! for we did before charge both Jews and Greeks with being all under sin,"
+    "content": {
+      "paragraph": true,
+      "text": "What, then? are we better? not at all! for we did before charge both Jews and Greeks with being all under sin,"
+    }
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 10,
-    "content": "according as it hath been written- ‘There is none righteous, not even one;"
+    "content": {
+      "text": "according as it hath been written—“There is none righteous, not even one;",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 11,
-    "content": "There is none who is understanding, there is none who is seeking after God."
+    "content": {
+      "text": "There is none who is understanding, there is none who is seeking after God.",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 12,
-    "content": "All did go out of the way, together they became unprofitable, there is none doing good, there is not even one."
+    "content": {
+      "text": "All did go out of the way, together they became unprofitable, there is none doing good, there is not even one.",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 13,
-    "content": "A sepulchre opened is their throat; with their tongues they used deceit; poison of asps is under their lips."
+    "content": [
+      "A sepulchre opened ",
+      { "text": "is", "marks": ["i"] },
+      " their throat; with their tongues they used deceit; poison of asps ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " under their lips.", "break": true }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 14,
-    "content": "Whose mouth is full of cursing and bitterness."
+    "content": {
+      "text": "Whose mouth is full of cursing and bitterness.",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 15,
-    "content": "Swift are their feet to shed blood."
+    "content": [
+      "Swift ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " their feet to shed blood.", "break": true }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 16,
-    "content": "Ruin and misery are in their ways."
+    "content": [
+      "Ruin and misery ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " in their ways.", "break": true }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 17,
-    "content": "And a way of peace they did not know."
+    "content": {
+      "text": "And a way of peace they did not know.",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 18,
-    "content": "There is no fear of God before their eyes.’"
+    "content": {
+      "text": "There is no fear of God before their eyes.”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 19,
-    "content": "And we have known that as many things as the law saith, to those in the law it doth speak, that every mouth may be stopped, and all the world may come under judgment to God;"
+    "content": {
+      "paragraph": true,
+      "text": "And we have known that as many things as the law saith, to those in the law it doth speak, that every mouth may be stopped, and all the world may come under judgment to God;"
+    }
   },
   {
     "book": "ROM",
@@ -498,43 +606,65 @@
     "book": "ROM",
     "chapter": 3,
     "verse": 21,
-    "content": "And now apart from law hath the righteousness of God been manifested, testified to by the law and the prophets,"
+    "content": [
+      { "heading": "God’s Saving Gift" },
+      {
+        "paragraph": true,
+        "text": "And now apart from law hath the righteousness of God been manifested, testified to by the law and the prophets,"
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 22,
-    "content": "and the righteousness of God is through the faith of Jesus Christ to all, and upon all those believing,-for there is no difference,"
+    "content": [
+      "and the righteousness of God ",
+      { "text": "is", "marks": ["i"] },
+      " through the faith of Jesus Christ to all, and upon all those believing,—for there is no difference,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 23,
-    "content": "for all did sin, and are come short of the glory of God-"
+    "content": "for all did sin, and are come short of the glory of God—"
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 24,
-    "content": "being declared righteous freely by His grace through the redemption that is in Christ Jesus,"
+    "content": [
+      "being declared righteous freely by His grace through the redemption that ",
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 25,
-    "content": "whom God did set forth a mercy seat, through the faith in his blood, for the shewing forth of His righteousness, because of the passing over of the bygone sins in the forbearance of God-"
+    "content": "whom God did set forth a mercy seat, through the faith in his blood, for the shewing forth of His righteousness, because of the passing over of the bygone sins in the forbearance of God—"
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 26,
-    "content": "for the shewing forth of His righteousness in the present time, for His being righteous, and declaring him righteous who is of the faith of Jesus."
+    "content": [
+      "for the shewing forth of His righteousness in the present time, for His being righteous, and declaring him righteous who ",
+      { "text": "is", "marks": ["i"] },
+      " of the faith of Jesus."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 27,
-    "content": "Where then is the boasting? it was excluded; by what law? of works? no, but by a law of faith:"
+    "content": [
+      { "paragraph": true, "text": "Where then " },
+      { "text": "is", "marks": ["i"] },
+      " the boasting? it was excluded; by what law? of works? no, but by a law of faith:"
+    ]
   },
   {
     "book": "ROM",
@@ -546,13 +676,21 @@
     "book": "ROM",
     "chapter": 3,
     "verse": 29,
-    "content": "The God of Jews only is He, and not also of nations?"
+    "content": [
+      "The God of Jews only ",
+      { "text": "is He", "marks": ["i"] },
+      ", and not also of nations?"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 30,
-    "content": "yes, also of nations; since one is God who shall declare righteous the circumcision by faith, and the uncircumcision through the faith."
+    "content": [
+      "yes, also of nations; since one ",
+      { "text": "is", "marks": ["i"] },
+      " God who shall declare righteous the circumcision by faith, and the uncircumcision through the faith."
+    ]
   },
   {
     "book": "ROM",
@@ -564,22 +702,25 @@
     "book": "ROM",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "What, then, shall we say Abraham our father, to have found, according to flesh?"
-    }
+    "content": [
+      { "heading": "Grasped by Faith" },
+      {
+        "paragraph": true,
+        "text": "What, then, shall we say Abraham our father, to have found, according to flesh?"
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 4,
     "verse": 2,
-    "content": "for if Abraham by works was declared righteous, he hath to boast-but not before god;"
+    "content": "for if Abraham by works was declared righteous, he hath to boast—but not before god;"
   },
   {
     "book": "ROM",
     "chapter": 4,
     "verse": 3,
-    "content": "for what doth the writing say? ‘And Abraham did believe God, and it was reckoned to him-to righteousness;’"
+    "content": "for what doth the writing say? “And Abraham did believe God, and it was reckoned to him—to righteousness;”"
   },
   {
     "book": "ROM",
@@ -591,7 +732,7 @@
     "book": "ROM",
     "chapter": 4,
     "verse": 5,
-    "content": "and to him who is not working, and is believing upon Him who is declaring righteous the impious, his faith is reckoned-to righteousness:"
+    "content": "and to him who is not working, and is believing upon Him who is declaring righteous the impious, his faith is reckoned—to righteousness:"
   },
   {
     "book": "ROM",
@@ -603,19 +744,28 @@
     "book": "ROM",
     "chapter": 4,
     "verse": 7,
-    "content": "‘Happy they whose lawless acts were forgiven, and whose sins were covered;"
+    "content": {
+      "text": "“Happy they whose lawless acts were forgiven, and whose sins were covered;",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 4,
     "verse": 8,
-    "content": "happy the man to whom the Lord may not reckon sin.’"
+    "content": {
+      "text": "happy the man to whom the Lord may not reckon sin.”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 4,
     "verse": 9,
-    "content": "Is this happiness, then, upon the circumcision, or also upon the uncircumcision-for we say that the faith was reckoned to Abraham-to righteousness?"
+    "content": [
+      { "paragraph": true, "text": "Is", "marks": ["i"] },
+      " this happiness, then, upon the circumcision, or also upon the uncircumcision—for we say that the faith was reckoned to Abraham—to righteousness?"
+    ]
   },
   {
     "book": "ROM",
@@ -633,43 +783,69 @@
     "book": "ROM",
     "chapter": 4,
     "verse": 12,
-    "content": "and father of circumcision to those not of circumcision only, but who also walk in the steps of the faith, that is in the uncircumcision of our father Abraham."
+    "content": [
+      "and father of circumcision to those not of circumcision only, but who also walk in the steps of the faith, that ",
+      { "text": "is", "marks": ["i"] },
+      " in the uncircumcision of our father Abraham."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 4,
     "verse": 13,
-    "content": "For not through law is the promise to Abraham, or to his seed, of his being heir of the world, but through the righteousness of faith;"
+    "content": [
+      { "paragraph": true, "text": "For not through law " },
+      { "text": "is", "marks": ["i"] },
+      " the promise to Abraham, or to his seed, of his being heir of the world, but through the righteousness of faith;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 4,
     "verse": 14,
-    "content": "for if they who are of law are heirs, the faith hath been made void, and the promise hath been made useless;"
+    "content": [
+      "for if they who are of law ",
+      { "text": "are", "marks": ["i"] },
+      " heirs, the faith hath been made void, and the promise hath been made useless;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 4,
     "verse": 15,
-    "content": "for the law doth work wrath; for where law is not, neither is transgression."
+    "content": [
+      "for the law doth work wrath; for where law is not, neither ",
+      { "text": "is", "marks": ["i"] },
+      " transgression."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 4,
     "verse": 16,
-    "content": "Because of this it is of faith, that it may be according to grace, for the promise being sure to all the seed, not to that which is of the law only, but also to that which is of the faith of Abraham,"
+    "content": [
+      "Because of this ",
+      { "text": "it is", "marks": ["i"] },
+      " of faith, that ",
+      { "text": "it may be", "marks": ["i"] },
+      " according to grace, for the promise being sure to all the seed, not to that which ",
+      { "text": "is", "marks": ["i"] },
+      " of the law only, but also to that which ",
+      { "text": "is", "marks": ["i"] },
+      " of the faith of Abraham,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 4,
     "verse": 17,
-    "content": "who is father of us all (according as it hath been written-‘A father of many nations I have set thee,’) before Him whom he did believe-God, who is quickening the dead, and is calling the things that be not as being."
+    "content": "who is father of us all (according as it hath been written—“A father of many nations I have set thee,”) before Him whom he did believe—God, who is quickening the dead, and is calling the things that be not as being."
   },
   {
     "book": "ROM",
     "chapter": 4,
     "verse": 18,
-    "content": "Who, against hope in hope did believe, for his becoming father of many nations according to that spoken: ‘So shall thy seed be;’"
+    "content": "Who, against hope in hope did believe, for his becoming father of many nations according to that spoken: “So shall thy seed be;”"
   },
   {
     "book": "ROM",
@@ -705,7 +881,7 @@
     "book": "ROM",
     "chapter": 4,
     "verse": 24,
-    "content": "but also on ours, to whom it is about to be reckoned-to us believing on Him who did raise up Jesus our Lord out of the dead,"
+    "content": "but also on ours, to whom it is about to be reckoned—to us believing on Him who did raise up Jesus our Lord out of the dead,"
   },
   {
     "book": "ROM",
@@ -717,10 +893,13 @@
     "book": "ROM",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Having been declared righteous, then, by faith, we have peace toward God through our Lord Jesus Christ,"
-    }
+    "content": [
+      { "heading": "Peace with God" },
+      {
+        "paragraph": true,
+        "text": "Having been declared righteous, then, by faith, we have peace toward God through our Lord Jesus Christ,"
+      }
+    ]
   },
   {
     "book": "ROM",
@@ -732,7 +911,11 @@
     "book": "ROM",
     "chapter": 5,
     "verse": 3,
-    "content": "And not only so, but we also boast in the tribulations, knowing that the tribulation doth work endurance;"
+    "content": [
+      "And not only ",
+      { "text": "so", "marks": ["i"] },
+      ", but we also boast in the tribulations, knowing that the tribulation doth work endurance;"
+    ]
   },
   {
     "book": "ROM",
@@ -780,13 +963,20 @@
     "book": "ROM",
     "chapter": 5,
     "verse": 11,
-    "content": "And not only so, but we are also boasting in God, through our Lord Jesus Christ, through whom now we did receive the reconciliation;"
+    "content": [
+      "And not only ",
+      { "text": "so", "marks": ["i"] },
+      ", but we are also boasting in God, through our Lord Jesus Christ, through whom now we did receive the reconciliation;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 5,
     "verse": 12,
-    "content": "because of this, even as through one man the sin did enter into the world, and through the sin the death; and thus to all men the death did pass through, for that all did sin;"
+    "content": {
+      "paragraph": true,
+      "text": "because of this, even as through one man the sin did enter into the world, and through the sin the death; and thus to all men the death did pass through, for that all did sin;"
+    }
   },
   {
     "book": "ROM",
@@ -804,25 +994,46 @@
     "book": "ROM",
     "chapter": 5,
     "verse": 15,
-    "content": "But, not as the offence so also is the free gift; for if by the offence of the one the many did die, much more did the grace of God, and the free gift in grace of the one man Jesus Christ, abound to the many;"
+    "content": [
+      "But, not as the offence so also ",
+      { "text": "is", "marks": ["i"] },
+      " the free gift; for if by the offence of the one the many did die, much more did the grace of God, and the free gift in grace of the one man Jesus Christ, abound to the many;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 5,
     "verse": 16,
-    "content": "and not as through one who did sin is the free gift, for the judgment indeed is of one to condemnation, but the gift is of many offences to a declaration of ‘Righteous,’"
+    "content": [
+      "and not as through one who did sin ",
+      { "text": "is", "marks": ["i"] },
+      " the free gift, for the judgment indeed ",
+      { "text": "is", "marks": ["i"] },
+      " of one to condemnation, but the gift ",
+      { "text": "is", "marks": ["i"] },
+      " of many offences to a declaration of “Righteous,”"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 5,
     "verse": 17,
-    "content": "for if by the offence of the one the death did reign through the one, much more those, who the abundance of the grace and of the free gift of the righteousness are receiving, in life shall reign through the one-Jesus Christ."
+    "content": "for if by the offence of the one the death did reign through the one, much more those, who the abundance of the grace and of the free gift of the righteousness are receiving, in life shall reign through the one—Jesus Christ."
   },
   {
     "book": "ROM",
     "chapter": 5,
     "verse": 18,
-    "content": "So, then, as through one offence to all men it is to condemnation, so also through one declaration of ‘Righteous’ it is to all men to justification of life;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "So, then, as through one offence to all men "
+      },
+      { "text": "it is", "marks": ["i"] },
+      " to condemnation, so also through one declaration of “Righteous” ",
+      { "text": "it is", "marks": ["i"] },
+      " to all men to justification of life;"
+    ]
   },
   {
     "book": "ROM",
@@ -846,16 +1057,19 @@
     "book": "ROM",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "What, then, shall we say? shall we continue in the sin that the grace may abound?"
-    }
+    "content": [
+      { "heading": "Complete Renewal" },
+      {
+        "paragraph": true,
+        "text": "What, then, shall we say? shall we continue in the sin that the grace may abound?"
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 6,
     "verse": 2,
-    "content": "let it not be! we who died to the sin-how shall we still live in it?"
+    "content": "let it not be! we who died to the sin—how shall we still live in it?"
   },
   {
     "book": "ROM",
@@ -873,13 +1087,21 @@
     "book": "ROM",
     "chapter": 6,
     "verse": 5,
-    "content": "For, if we have become planted together to the likeness of his death, so also we shall be of the rising again;"
+    "content": [
+      "For, if we have become planted together to the likeness of his death, ",
+      { "text": "so", "marks": ["i"] },
+      " also we shall be of the rising again;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 6,
     "verse": 6,
-    "content": "this knowing, that our old man was crucified with him, that the body of the sin may be made useless, for our no longer serving the sin;"
+    "content": [
+      "this knowing, that our old man was crucified with ",
+      { "text": "him", "marks": ["i"] },
+      ", that the body of the sin may be made useless, for our no longer serving the sin;"
+    ]
   },
   {
     "book": "ROM",
@@ -915,7 +1137,10 @@
     "book": "ROM",
     "chapter": 6,
     "verse": 12,
-    "content": "Let not then the sin reign in your mortal body, to obey it in its desires;"
+    "content": {
+      "paragraph": true,
+      "text": "Let not then the sin reign in your mortal body, to obey it in its desires;"
+    }
   },
   {
     "book": "ROM",
@@ -933,7 +1158,10 @@
     "book": "ROM",
     "chapter": 6,
     "verse": 15,
-    "content": "What then? shall we sin because we are not under law but under grace? let it not be!"
+    "content": {
+      "paragraph": true,
+      "text": "What then? shall we sin because we are not under law but under grace? let it not be!"
+    }
   },
   {
     "book": "ROM",
@@ -945,7 +1173,7 @@
     "book": "ROM",
     "chapter": 6,
     "verse": 17,
-    "content": "and thanks to God, that ye were servants of the sin, and-were obedient from the heart to the form of teaching to which ye were delivered up;"
+    "content": "and thanks to God, that ye were servants of the sin, and—were obedient from the heart to the form of teaching to which ye were delivered up;"
   },
   {
     "book": "ROM",
@@ -957,7 +1185,7 @@
     "book": "ROM",
     "chapter": 6,
     "verse": 19,
-    "content": "In the manner of men I speak, because of the weakness of your flesh, for even as ye did present your members servants to the uncleanness and to the lawlessness-to the lawlessness, so now present your members servants to the righteousness-to sanctification,"
+    "content": "In the manner of men I speak, because of the weakness of your flesh, for even as ye did present your members servants to the uncleanness and to the lawlessness—to the lawlessness, so now present your members servants to the righteousness—to sanctification,"
   },
   {
     "book": "ROM",
@@ -969,28 +1197,41 @@
     "book": "ROM",
     "chapter": 6,
     "verse": 21,
-    "content": "what fruit, therefore, were ye having then, in the things of which ye are now ashamed? for the end of those is death."
+    "content": [
+      "what fruit, therefore, were ye having then, in the things of which ye are now ashamed? for the end of those ",
+      { "text": "is", "marks": ["i"] },
+      " death."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 6,
     "verse": 22,
-    "content": "And now, having been freed from the sin, and having become servants to God, ye have your fruit-to sanctification, and the end life age-during;"
+    "content": "And now, having been freed from the sin, and having become servants to God, ye have your fruit—to sanctification, and the end life age-during;"
   },
   {
     "book": "ROM",
     "chapter": 6,
     "verse": 23,
-    "content": "for the wages of the sin is death, and the gift of God is life age-during in Christ Jesus our Lord."
+    "content": [
+      "for the wages of the sin ",
+      { "text": "is", "marks": ["i"] },
+      " death, and the gift of God ",
+      { "text": "is", "marks": ["i"] },
+      " life age-during in Christ Jesus our Lord."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Are ye ignorant, brethren-for to those knowing law I speak-that the law hath lordship over the man as long as he liveth?"
-    }
+    "content": [
+      { "heading": "A Change of Masters" },
+      {
+        "paragraph": true,
+        "text": "Are ye ignorant, brethren—for to those knowing law I speak—that the law hath lordship over the man as long as he liveth?"
+      }
+    ]
   },
   {
     "book": "ROM",
@@ -1014,7 +1255,11 @@
     "book": "ROM",
     "chapter": 7,
     "verse": 5,
-    "content": "for when we were in the flesh, the passions of the sins, that are through the law, were working in our members, to bear fruit to the death;"
+    "content": [
+      "for when we were in the flesh, the passions of the sins, that ",
+      { "text": "are", "marks": ["i"] },
+      " through the law, were working in our members, to bear fruit to the death;"
+    ]
   },
   {
     "book": "ROM",
@@ -1026,13 +1271,17 @@
     "book": "ROM",
     "chapter": 7,
     "verse": 7,
-    "content": "What, then, shall we say? the law is sin? let it not be! but the sin I did not know except through law, for also the covetousness I had not known if the law had not said:"
+    "content": [
+      { "paragraph": true, "text": "What, then, shall we say? the law " },
+      { "text": "is", "marks": ["i"] },
+      " sin? let it not be! but the sin I did not know except through law, for also the covetousness I had not known if the law had not said:"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 7,
     "verse": 8,
-    "content": "‘Thou shalt not covet;’ and the sin having received an opportunity, through the command, did work in me all covetousness-for apart from law sin is dead."
+    "content": "“Thou shalt not covet;” and the sin having received an opportunity, through the command, did work in me all covetousness—for apart from law sin is dead."
   },
   {
     "book": "ROM",
@@ -1044,25 +1293,40 @@
     "book": "ROM",
     "chapter": 7,
     "verse": 10,
-    "content": "and the command that is for life, this was found by me for death;"
+    "content": [
+      "and the command that ",
+      { "text": "is", "marks": ["i"] },
+      " for life, this was found by me for death;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 7,
     "verse": 11,
-    "content": "for the sin, having received an opportunity, through the command, did deceive me, and through it did slay me;"
+    "content": [
+      "for the sin, having received an opportunity, through the command, did deceive me, and through it did slay ",
+      { "text": "me", "marks": ["i"] },
+      ";"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 7,
     "verse": 12,
-    "content": "so that the law, indeed, is holy, and the command holy, and righteous, and good."
+    "content": [
+      "so that the law, indeed, ",
+      { "text": "is", "marks": ["i"] },
+      " holy, and the command holy, and righteous, and good."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 7,
     "verse": 13,
-    "content": "That which is good then, to me hath it become death? let it not be! but the sin, that it might appear sin, through the good, working death to me, that the sin might become exceeding sinful through the command,"
+    "content": {
+      "paragraph": true,
+      "text": "That which is good then, to me hath it become death? let it not be! but the sin, that it might appear sin, through the good, working death to me, that the sin might become exceeding sinful through the command,"
+    }
   },
   {
     "book": "ROM",
@@ -1080,7 +1344,11 @@
     "book": "ROM",
     "chapter": 7,
     "verse": 16,
-    "content": "And if what I do not will, this I do, I consent to the law that it is good,"
+    "content": [
+      "And if what I do not will, this I do, I consent to the law that ",
+      { "text": "it is", "marks": ["i"] },
+      " good,"
+    ]
   },
   {
     "book": "ROM",
@@ -1122,28 +1390,39 @@
     "book": "ROM",
     "chapter": 7,
     "verse": 23,
-    "content": "and I behold another law in my members, warring against the law of my mind, and bringing me into captivity to the law of the sin that is in my members."
+    "content": [
+      "and I behold another law in my members, warring against the law of my mind, and bringing me into captivity to the law of the sin that ",
+      { "text": "is", "marks": ["i"] },
+      " in my members."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 7,
     "verse": 24,
-    "content": "A wretched man I am! who shall deliver me out of the body of this death?"
+    "content": [
+      "A wretched man I ",
+      { "text": "am", "marks": ["i"] },
+      "! who shall deliver me out of the body of this death?"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 7,
     "verse": 25,
-    "content": "I thank God-through Jesus Christ our Lord; so then, I myself indeed with the mind do serve the law of God, and with the flesh, the law of sin."
+    "content": "I thank God—through Jesus Christ our Lord; so then, I myself indeed with the mind do serve the law of God, and with the flesh, the law of sin."
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "There is, then, now no condemnation to those in Christ Jesus, who walk not according to the flesh, but according to the Spirit;"
-    }
+    "content": [
+      { "heading": "The Spirit of God Within You" },
+      {
+        "paragraph": true,
+        "text": "There is, then, now no condemnation to those in Christ Jesus, who walk not according to the flesh, but according to the Spirit;"
+      }
+    ]
   },
   {
     "book": "ROM",
@@ -1173,13 +1452,21 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 6,
-    "content": "for the mind of the flesh is death, and the mind of the Spirit-life and peace;"
+    "content": [
+      "for the mind of the flesh ",
+      { "text": "is", "marks": ["i"] },
+      " death, and the mind of the Spirit—life and peace;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 7,
-    "content": "because the mind of the flesh is enmity to God, for to the law of God it doth not subject itself,"
+    "content": [
+      "because the mind of the flesh ",
+      { "text": "is", "marks": ["i"] },
+      " enmity to God, for to the law of God it doth not subject itself,"
+    ]
   },
   {
     "book": "ROM",
@@ -1191,13 +1478,21 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 9,
-    "content": "And ye are not in the flesh, but in the Spirit, if indeed the Spirit of God doth dwell in you; and if any one hath not the Spirit of Christ-this one is not His;"
+    "content": "And ye are not in the flesh, but in the Spirit, if indeed the Spirit of God doth dwell in you; and if any one hath not the Spirit of Christ—this one is not His;"
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 10,
-    "content": "and if Christ is in you, the body, indeed, is dead because of sin, and the Spirit is life because of righteousness,"
+    "content": [
+      "and if Christ ",
+      { "text": "is", "marks": ["i"] },
+      " in you, the body, indeed, ",
+      { "text": "is", "marks": ["i"] },
+      " dead because of sin, and the Spirit ",
+      { "text": "is", "marks": ["i"] },
+      " life because of righteousness,"
+    ]
   },
   {
     "book": "ROM",
@@ -1221,13 +1516,19 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 14,
-    "content": "for as many as are led by the Spirit of God, these are the sons of God;"
+    "content": [
+      { "heading": "Sons of God" },
+      {
+        "paragraph": true,
+        "text": "for as many as are led by the Spirit of God, these are the sons of God;"
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 15,
-    "content": "for ye did not receive a spirit of bondage again for fear, but ye did receive a spirit of adoption in which we cry, ‘Abba-Father.’"
+    "content": "for ye did not receive a spirit of bondage again for fear, but ye did receive a spirit of adoption in which we cry, “Abba—Father.”"
   },
   {
     "book": "ROM",
@@ -1239,13 +1540,23 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 17,
-    "content": "and if children, also heirs, heirs, indeed, of God, and heirs together of Christ-if, indeed, we suffer together, that we may also be glorified together."
+    "content": "and if children, also heirs, heirs, indeed, of God, and heirs together of Christ—if, indeed, we suffer together, that we may also be glorified together."
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 18,
-    "content": "For I reckon that the sufferings of the present time are not worthy to be compared with the glory about to be revealed in us;"
+    "content": [
+      { "heading": "A Glory to be Revealed" },
+      {
+        "paragraph": true,
+        "text": "For I reckon that the sufferings of the present time "
+      },
+      { "text": "are", "marks": ["i"] },
+      " not worthy ",
+      { "text": "to be compared", "marks": ["i"] },
+      " with the glory about to be revealed in us;"
+    ]
   },
   {
     "book": "ROM",
@@ -1257,7 +1568,11 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 20,
-    "content": "for to vanity was the creation made subject-not of its will, but because of Him who did subject it-in hope,"
+    "content": [
+      "for to vanity was the creation made subject—not of its will, but because of Him who did subject ",
+      { "text": "it", "marks": ["i"] },
+      "—in hope,"
+    ]
   },
   {
     "book": "ROM",
@@ -1275,31 +1590,54 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 23,
-    "content": "And not only so, but also we ourselves, having the first-fruit of the Spirit, we also ourselves in ourselves do groan, adoption expecting-the redemption of our body;"
+    "content": [
+      "And not only ",
+      { "text": "so", "marks": ["i"] },
+      ", but also we ourselves, having the first-fruit of the Spirit, we also ourselves in ourselves do groan, adoption expecting—the redemption of our body;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 24,
-    "content": "for in hope we were saved, and hope beheld is not hope; for what any one doth behold, why also doth he hope for it?"
+    "content": [
+      "for in hope we were saved, and hope beheld is not hope; for what any one doth behold, why also doth he hope for ",
+      { "text": "it", "marks": ["i"] },
+      "?"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 25,
-    "content": "and if what we do not behold we hope for, through continuance we expect it."
+    "content": [
+      "and if what we do not behold we hope for, through continuance we expect ",
+      { "text": "it", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 26,
-    "content": "And, in like manner also, the Spirit doth help our weaknesses; for, what we may pray for, as it behoveth us, we have not known, but the Spirit himself doth make intercession for us with groanings unutterable,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And, in like manner also, the Spirit doth help our weaknesses; for, what we may pray for, as it behoveth "
+      },
+      { "text": "us", "marks": ["i"] },
+      ", we have not known, but the Spirit himself doth make intercession for us with groanings unutterable,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 27,
-    "content": "and He who is searching the hearts hath known what is the mind of the Spirit, because according to God he doth intercede for saints."
+    "content": [
+      "and He who is searching the hearts hath known what ",
+      { "text": "is", "marks": ["i"] },
+      " the mind of the Spirit, because according to God he doth intercede for saints."
+    ]
   },
   {
     "book": "ROM",
@@ -1323,7 +1661,17 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 31,
-    "content": "What, then, shall we say unto these things? if God is for us, who is against us?"
+    "content": [
+      { "heading": "More than Conquerors" },
+      {
+        "paragraph": true,
+        "text": "What, then, shall we say unto these things? if God "
+      },
+      { "text": "is", "marks": ["i"] },
+      " for us, who ",
+      { "text": "is", "marks": ["i"] },
+      " against us?"
+    ]
   },
   {
     "book": "ROM",
@@ -1335,13 +1683,23 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 33,
-    "content": "Who shall lay a charge against the choice ones of God? God is He that is declaring righteous,"
+    "content": [
+      "Who shall lay a charge against the choice ones of God? God ",
+      { "text": "is", "marks": ["i"] },
+      " He that is declaring righteous,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 34,
-    "content": "who is he that is condemning? Christ is He that died, yea, rather also, was raised up; who is also on the right hand of God-who also doth intercede for us."
+    "content": [
+      "who ",
+      { "text": "is", "marks": ["i"] },
+      " he that is condemning? Christ ",
+      { "text": "is", "marks": ["i"] },
+      " He that died, yea, rather also, was raised up; who is also on the right hand of God—who also doth intercede for us."
+    ]
   },
   {
     "book": "ROM",
@@ -1353,13 +1711,19 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 36,
-    "content": "(according as it hath been written-‘For Thy sake we are put to death all the day long, we were reckoned as sheep of slaughter,’)"
+    "content": {
+      "text": "(according as it hath been written—“For Thy sake we are put to death all the day long, we were reckoned as sheep of slaughter,”)",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 8,
     "verse": 37,
-    "content": "but in all these we more than conquer, through him who loved us;"
+    "content": {
+      "paragraph": true,
+      "text": "but in all these we more than conquer, through him who loved us;"
+    }
   },
   {
     "book": "ROM",
@@ -1371,112 +1735,158 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 39,
-    "content": "nor things about to be, nor height, nor depth, nor any other created thing, shall be able to separate us from the love of god, that is in Christ Jesus our Lord."
+    "content": [
+      "nor things about to be, nor height, nor depth, nor any other created thing, shall be able to separate us from the love of God, that ",
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus our Lord."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Truth I say in Christ, I lie not, my conscience bearing testimony with me in the Holy Spirit,"
-    }
+    "content": [
+      { "heading": "The Problem of the Jews" },
+      { "heading": "The Rejection of Israel" },
+      {
+        "paragraph": true,
+        "text": "Truth I say in Christ, I lie not, my conscience bearing testimony with me in the Holy Spirit,"
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 2,
-    "content": "that I have great grief and unceasing pain in my heart-"
+    "content": "that I have great grief and unceasing pain in my heart—"
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 3,
-    "content": "for I was wishing, I myself, to be anathema from the Christ-for my brethren, my kindred, according to the flesh,"
+    "content": "for I was wishing, I myself, to be anathema from the Christ—for my brethren, my kindred, according to the flesh,"
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 4,
-    "content": "who are Israelites, whose is the adoption, and the glory, and the covenants, and the lawgiving, and the service, and the promises,"
+    "content": [
+      "who are Israelites, whose ",
+      { "text": "is", "marks": ["i"] },
+      " the adoption, and the glory, and the covenants, and the lawgiving, and the service, and the promises,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 5,
-    "content": "whose are the fathers, and of whom is the Christ, according to the flesh, who is over all, God blessed to the ages. Amen."
+    "content": [
+      "whose ",
+      { "text": "are", "marks": ["i"] },
+      " the fathers, and of whom ",
+      { "text": "is", "marks": ["i"] },
+      " the Christ, according to the flesh, who is over all, God blessed to the ages. Amen."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 6,
-    "content": "And it is not possible that the word of God hath failed; for not all who are of Israel are these Israel;"
+    "content": [
+      "And it is not possible that the word of God hath failed; for not all who ",
+      { "text": "are", "marks": ["i"] },
+      " of Israel are these Israel;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 7,
-    "content": "nor because they are seed of Abraham are all children, but- ‘in Isaac shall a seed be called to thee;’"
+    "content": [
+      "nor because they are seed of Abraham ",
+      { "text": "are", "marks": ["i"] },
+      " all children, but—“in Isaac shall a seed be called to thee;”"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 8,
-    "content": "that is, the children of the flesh-these are not children of God; but the children of the promise are reckoned for seed;"
+    "content": [
+      "that is, the children of the flesh—these ",
+      { "text": "are", "marks": ["i"] },
+      " not children of God; but the children of the promise are reckoned for seed;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 9,
-    "content": "for the word of promise is this; ‘According to this time I will come, and there shall be to Sarah a son.’"
+    "content": [
+      "for the word of promise ",
+      { "text": "is", "marks": ["i"] },
+      " this; “According to this time I will come, and there shall be to Sarah a son.”"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 10,
-    "content": "And not only so, but also Rebecca, having conceived by one-Isaac our father-"
+    "content": [
+      "And not only ",
+      { "text": "so", "marks": ["i"] },
+      ", but also Rebecca, having conceived by one—Isaac our father—"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 11,
-    "content": "(for they being not yet born, neither having done anything good or evil, that the purpose of God, according to choice, might remain; not of works, but of Him who is calling,) it was said to her-"
+    "content": "(for they being not yet born, neither having done anything good or evil, that the purpose of God, according to choice, might remain; not of works, but of Him who is calling,) it was said to her—"
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 12,
-    "content": "‘The greater shall serve the less;’"
+    "content": "“The greater shall serve the less;”"
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 13,
-    "content": "according as it hath been written, ‘Jacob I did love, and Esau I did hate.’"
+    "content": "according as it hath been written, “Jacob I did love, and Esau I did hate.”"
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 14,
-    "content": "What, then, shall we say? unrighteousness is with God? let it not be!"
+    "content": [
+      { "heading": "The Problem" },
+      {
+        "paragraph": true,
+        "text": "What, then, shall we say? unrighteousness "
+      },
+      { "text": "is", "marks": ["i"] },
+      " with God? let it not be!"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 15,
-    "content": "for to Moses He saith, ‘I will do kindness to whom I do kindness, and I will have compassion on whom I have compassion;’"
+    "content": "for to Moses He saith, “I will do kindness to whom I do kindness, and I will have compassion on whom I have compassion;”"
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 16,
-    "content": "so, then-not of him who is willing, nor of him who is running, but of God who is doing kindness:"
+    "content": "so, then—not of him who is willing, nor of him who is running, but of God who is doing kindness:"
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 17,
-    "content": "for the Writing saith to Pharaoh-‘For this very thing I did raise thee up, that I might shew in thee My power, and that My name might be declared in all the land;’"
+    "content": "for the Writing saith to Pharaoh—“For this very thing I did raise thee up, that I might shew in thee My power, and that My name might be declared in all the land;”"
   },
   {
     "book": "ROM",
@@ -1488,13 +1898,20 @@
     "book": "ROM",
     "chapter": 9,
     "verse": 19,
-    "content": "Thou wilt say, then, to me, ‘Why yet doth He find fault? for His counsel who hath resisted?’"
+    "content": {
+      "paragraph": true,
+      "text": "Thou wilt say, then, to me, “Why yet doth He find fault? for His counsel who hath resisted?”"
+    }
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 20,
-    "content": "nay, but, O man, who art thou that art answering again to God? shall the thing formed say to Him who did form it, Why me didst thou make thus?"
+    "content": [
+      "nay, but, O man, who art thou that art answering again to God? shall the thing formed say to Him who did form ",
+      { "text": "it", "marks": ["i"] },
+      ", Why me didst thou make thus?"
+    ]
   },
   {
     "book": "ROM",
@@ -1512,7 +1929,7 @@
     "book": "ROM",
     "chapter": 9,
     "verse": 23,
-    "content": "and that He might make known the riches of His glory on vessels of kindness, that He before prepared for glory, whom also He did call-us-"
+    "content": "and that He might make known the riches of His glory on vessels of kindness, that He before prepared for glory, whom also He did call—us—"
   },
   {
     "book": "ROM",
@@ -1524,19 +1941,36 @@
     "book": "ROM",
     "chapter": 9,
     "verse": 25,
-    "content": "as also in Hosea He saith, ‘I will call what is not My people-My people; and her not beloved-Beloved,"
+    "content": [
+      "as also in Hosea He saith, “I will call what ",
+      { "text": "is", "marks": ["i"] },
+      {
+        "text": " not My people—My people; and her not beloved—Beloved,",
+        "break": true
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 26,
-    "content": "and it shall be-in the place where it was said to them, Ye are not My people; there they shall be called sons of the living God.’"
+    "content": [
+      "and it shall be—in the place where it was said to them, Ye ",
+      { "text": "are", "marks": ["i"] },
+      {
+        "text": " not My people; there they shall be called sons of the living God.”",
+        "break": true
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 27,
-    "content": "And Isaiah doth cry concerning Israel, ‘If the number of the sons of Israel may be as the sand of the sea, the remnant shall be saved;"
+    "content": {
+      "paragraph": true,
+      "text": "And Isaiah doth cry concerning Israel, “If the number of the sons of Israel may be as the sand of the sea, the remnant shall be saved;"
+    }
   },
   {
     "book": "ROM",
@@ -1548,13 +1982,24 @@
     "book": "ROM",
     "chapter": 9,
     "verse": 29,
-    "content": "and according as Isaiah saith before, ‘Except the Lord of Sabaoth did leave to us a seed, as Sodom we had become, and as Gomorrah we had been made like.’"
+    "content": {
+      "text": "And according as Isaiah saith before, “Except the Lord of Sabaoth did leave to us a seed, as Sodom we had become, and as Gomorrah we had been made like.”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 30,
-    "content": "What, then, shall we say? that nations who are not pursuing righteousness did attain to righteousness, and righteousness that is of faith,"
+    "content": [
+      { "heading": "The Divine Justice of It" },
+      {
+        "paragraph": true,
+        "text": "What, then, shall we say? that nations who are not pursuing righteousness did attain to righteousness, and righteousness that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " of faith,"
+    ]
   },
   {
     "book": "ROM",
@@ -1566,22 +2011,29 @@
     "book": "ROM",
     "chapter": 9,
     "verse": 32,
-    "content": "wherefore? because-not by faith, but as by works of law; for they did stumble at the stone of stumbling,"
+    "content": "wherefore? because—not by faith, but as by works of law; for they did stumble at the stone of stumbling,"
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 33,
-    "content": "according as it hath been written, ‘Lo, I place in Sion a stone of stumbling and a rock of offence; and every one who is believing thereon shall not be ashamed.’"
+    "content": {
+      "text": "according as it hath been written, “Lo, I place in Sion a stone of stumbling and a rock of offence; and every one who is believing thereon shall not be ashamed.”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Brethren, the pleasure indeed of my heart, and my supplication that is to God for Israel, is-for salvation;"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Brethren, the pleasure indeed of my heart, and my supplication that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " to God for Israel, is—for salvation;"
+    ]
   },
   {
     "book": "ROM",
@@ -1605,25 +2057,29 @@
     "book": "ROM",
     "chapter": 10,
     "verse": 5,
-    "content": "for Moses doth describe the righteousness that is of the law, that, ‘The man who did them shall live in them,’"
+    "content": [
+      "for Moses doth describe the righteousness that ",
+      { "text": "is", "marks": ["i"] },
+      " of the law, that, “The man who did them shall live in them,”"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 6,
-    "content": "and the righteousness of faith doth thus speak: ‘Thou mayest not say in thine heart, Who shall go up to the heaven,’ that is, Christ to bring down?"
+    "content": "and the righteousness of faith doth thus speak: “Thou mayest not say in thine heart, Who shall go up to the heaven,” that is, Christ to bring down?"
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 7,
-    "content": "or, ‘Who shall go down to the abyss,’ that is, Christ out of the dead to bring up."
+    "content": "or, “Who shall go down to the abyss,” that is, Christ out of the dead to bring up."
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 8,
-    "content": "But what doth it say? ‘Nigh thee is the saying-in thy mouth, and in thy heart:’ that is, the saying of the faith, that we preach;"
+    "content": "But what doth it say? “Nigh thee is the saying—in thy mouth, and in thy heart:” that is, the saying of the faith, that we preach;"
   },
   {
     "book": "ROM",
@@ -1635,100 +2091,144 @@
     "book": "ROM",
     "chapter": 10,
     "verse": 10,
-    "content": "for with the heart doth one believe to righteousness, and with the mouth is confession made to salvation;"
+    "content": [
+      "for with the heart doth ",
+      { "text": "one", "marks": ["i"] },
+      " believe to righteousness, and with the mouth is confession made to salvation;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 11,
-    "content": "for the Writing saith, ‘Every one who is believing on him shall not be ashamed,’"
+    "content": "for the Writing saith, “Every one who is believing on him shall not be ashamed,”"
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 12,
-    "content": "for there is no difference between Jew and Greek, for the same Lord of all is rich to all those calling upon Him,"
+    "content": [
+      "for there is no difference between Jew and Greek, for the same Lord of all ",
+      { "text": "is", "marks": ["i"] },
+      " rich to all those calling upon Him,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 13,
-    "content": "for every one-whoever shall call upon the name of the Lord, he shall be saved.’"
+    "content": "for every one—whoever shall call upon the name of the Lord, he shall be saved.”"
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 14,
-    "content": "How then shall they call upon him in whom they did not believe? and how shall they believe on him of whom they did not hear? and how shall they hear apart from one preaching?"
+    "content": [
+      "How then shall they call upon ",
+      { "text": "him", "marks": ["i"] },
+      " in whom they did not believe? and how shall they believe ",
+      { "text": "on him", "marks": ["i"] },
+      " of whom they did not hear? and how shall they hear apart from one preaching?"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 15,
-    "content": "and how shall they preach, if they may not be sent? according as it hath been written, ‘How beautiful the feet of those proclaiming good tidings of peace, of those proclaiming good tidings of the good things!’"
+    "content": "and how shall they preach, if they may not be sent? according as it hath been written, “How beautiful the feet of those proclaiming good tidings of peace, of those proclaiming good tidings of the good things!”"
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 16,
-    "content": "But they were not all obedient to the good tidings, for Isaiah saith, ‘Lord, who did give credence to our report?’"
+    "content": {
+      "paragraph": true,
+      "text": "But they were not all obedient to the good tidings, for Isaiah saith, “Lord, who did give credence to our report?”"
+    }
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 17,
-    "content": "so then the faith is by a report, and the report through a saying of God,"
+    "content": [
+      "so then the faith ",
+      { "text": "is", "marks": ["i"] },
+      " by a report, and the report through a saying of God,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 18,
-    "content": "but I say, Did they not hear? yes, indeed-‘to all the earth their voice went forth, and to the ends of the habitable world their sayings.’"
+    "content": {
+      "text": "but I say, Did they not hear? yes, indeed—“to all the earth their voice went forth, and to the ends of the habitable world their sayings.”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 19,
-    "content": "But I say, Did not Israel know? first Moses saith, ‘I will provoke you to jealousy by that which is not a nation; by an unintelligent nation I will anger you,’"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But I say, Did not Israel know? first Moses saith, “I will provoke you to jealousy by "
+      },
+      { "text": "that which is", "marks": ["i"] },
+      {
+        "text": " not a nation; by an unintelligent nation I will anger you,”",
+        "break": true
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 20,
-    "content": "and Isaiah is very bold, and saith, ‘I was found by those not seeking Me; I became manifest to those not inquiring after Me;’"
+    "content": {
+      "paragraph": true,
+      "text": "and Isaiah is very bold, and saith, “I was found by those not seeking Me; I became manifest to those not inquiring after Me;”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 10,
     "verse": 21,
-    "content": "and unto Israel He saith, ‘All the day I did stretch out My hands unto a people unbelieving and gainsaying.’"
-  },
-  {
-    "book": "ROM",
-    "chapter": 11,
-    "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "I say, then, Did God cast away His people? let it not be! for I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin:"
+      "text": "and unto Israel He saith, “All the day I did stretch out My hands unto a people unbelieving and gainsaying.”"
     }
   },
   {
     "book": "ROM",
     "chapter": 11,
+    "verse": 1,
+    "content": [
+      { "heading": "The Divine Purpose in It" },
+      {
+        "paragraph": true,
+        "text": "I say, then, Did God cast away His people? let it not be! for I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin:"
+      }
+    ]
+  },
+  {
+    "book": "ROM",
+    "chapter": 11,
     "verse": 2,
-    "content": "God did not cast away His people whom He knew before; have ye not known-in Elijah-what the Writing saith? how he doth plead with God concerning Israel, saying,"
+    "content": "God did not cast away His people whom He knew before; have ye not known—in Elijah—what the Writing saith? how he doth plead with God concerning Israel, saying,"
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 3,
-    "content": "‘Lord, Thy prophets they did kill, and Thy altars they dug down, and I was left alone, and they seek my life;’"
+    "content": "“Lord, Thy prophets they did kill, and Thy altars they dug down, and I was left alone, and they seek my life;”"
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 4,
-    "content": "but what saith the divine answer to him? ‘I left to Myself seven thousand men, who did not bow a knee to Baal.’"
+    "content": "but what saith the divine answer to him? “I left to Myself seven thousand men, who did not bow a knee to Baal.”"
   },
   {
     "book": "ROM",
@@ -1752,37 +2252,58 @@
     "book": "ROM",
     "chapter": 11,
     "verse": 8,
-    "content": "according as it hath been written, ‘God gave to them a spirit of deep sleep, eyes not to see, and ears not to hear,’-unto this very day,"
+    "content": "according as it hath been written, “God gave to them a spirit of deep sleep, eyes not to see, and ears not to hear,”—unto this very day,"
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 9,
-    "content": "and David saith, ‘Let their table become for a snare, and for a trap, and for a stumbling-block, and for a recompense to them;"
+    "content": {
+      "paragraph": true,
+      "text": "and David saith, “Let their table become for a snare, and for a trap, and for a stumbling-block, and for a recompense to them;",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 10,
-    "content": "let their eyes be darkened-not to behold, and their back do Thou always bow down.’"
+    "content": {
+      "text": "let their eyes be darkened—not to behold, and their back do Thou always bow down.”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 11,
-    "content": "I say, then, Did they stumble that they might fall? let it not be! but by their fall the salvation is to the nations, to arouse them to jealousy;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I say, then, Did they stumble that they might fall? let it not be! but by their fall the salvation "
+      },
+      { "text": "is", "marks": ["i"] },
+      " to the nations, to arouse them to jealousy;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 12,
-    "content": "and if the fall of them is the riches of a world, and the diminution of them the riches of nations, how much more the fulness of them?"
+    "content": [
+      "and if the fall of them ",
+      { "text": "is", "marks": ["i"] },
+      " the riches of a world, and the diminution of them the riches of nations, how much more the fulness of them?"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 13,
-    "content": "For to you I speak-to the nations-inasmuch as I am indeed an apostle of nations, my ministration I do glorify;"
+    "content": {
+      "paragraph": true,
+      "text": "For to you I speak—to the nations—inasmuch as I am indeed an apostle of nations, my ministration I do glorify;"
+    }
   },
   {
     "book": "ROM",
@@ -1794,19 +2315,35 @@
     "book": "ROM",
     "chapter": 11,
     "verse": 15,
-    "content": "for if the casting away of them is a reconciliation of the world, what the reception-if not life out of the dead?"
+    "content": [
+      "for if the casting away of them ",
+      { "text": "is", "marks": ["i"] },
+      " a reconciliation of the world, what the reception—if not life out of the dead?"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 16,
-    "content": "and if the first-fruit is holy, the lump also; and if the root is holy, the branches also."
+    "content": [
+      "and if the first-fruit ",
+      { "text": "is", "marks": ["i"] },
+      " holy, the lump also; and if the root ",
+      { "text": "is", "marks": ["i"] },
+      " holy, the branches also."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 17,
-    "content": "And if certain of the branches were broken off, and thou, being a wild olive tree, wast graffed in among them, and a fellow-partaker of the root and of the fatness of the olive tree didst become-"
+    "content": [
+      { "heading": "The Grafted Tree" },
+      {
+        "paragraph": true,
+        "text": "And if certain of the branches were broken off, and thou, being a wild olive tree, wast graffed in among them, and a fellow-partaker of the root and of the fatness of the olive tree didst become—"
+      }
+    ]
   },
   {
     "book": "ROM",
@@ -1818,25 +2355,31 @@
     "book": "ROM",
     "chapter": 11,
     "verse": 19,
-    "content": "Thou wilt say, then, ‘The branches were broken off, that I might be graffed in;’ right!"
+    "content": {
+      "paragraph": true,
+      "text": "Thou wilt say, then, “The branches were broken off, that I might be graffed in;” right!"
+    }
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 20,
-    "content": "by unbelief they were broken off, and thou hast stood by faith; be not high-minded, but be fearing;"
+    "content": {
+      "paragraph": true,
+      "text": "by unbelief they were broken off, and thou hast stood by faith; be not high-minded, but be fearing;"
+    }
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 21,
-    "content": "for if God the natural branches did not spare-lest perhaps He also shall not spare thee."
+    "content": "for if God the natural branches did not spare—lest perhaps He also shall not spare thee."
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 22,
-    "content": "Lo, then, goodness and severity of God-upon those indeed who fell, severity; and upon thee, goodness, if thou mayest remain in the goodness, otherwise, thou also shalt be cut off."
+    "content": "Lo, then, goodness and severity of God—upon those indeed who fell, severity; and upon thee, goodness, if thou mayest remain in the goodness, otherwise, thou also shalt be cut off."
   },
   {
     "book": "ROM",
@@ -1848,37 +2391,62 @@
     "book": "ROM",
     "chapter": 11,
     "verse": 24,
-    "content": "for if thou, out of the olive tree, wild by nature, wast cut out, and, contrary to nature, wast graffed into a good olive tree, how much rather shall they, who are according to nature, be graffed into their own olive tree?"
+    "content": [
+      "for if thou, out of the olive tree, wild by nature, wast cut out, and, contrary to nature, wast graffed into a good olive tree, how much rather shall they, who ",
+      { "text": "are", "marks": ["i"] },
+      " according to nature, be graffed into their own olive tree?"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 25,
-    "content": "For I do not wish you to be ignorant, brethren, of this secret-that ye may not be wise in your own conceits-that hardness in part to Israel hath happened till the fulness of the nations may come in;"
+    "content": {
+      "paragraph": true,
+      "text": "For I do not wish you to be ignorant, brethren, of this secret—that ye may not be wise in your own conceits—that hardness in part to Israel hath happened till the fulness of the nations may come in;"
+    }
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 26,
-    "content": "and so all Israel shall be saved, according as it hath been written, ‘There shall come forth out of Sion he who is delivering, and he shall turn away impiety from Jacob,"
+    "content": {
+      "text": "and so all Israel shall be saved, according as it hath been written, “There shall come forth out of Sion he who is delivering, and he shall turn away impiety from Jacob,",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 27,
-    "content": "and this to them is the covenant from Me, when I may take away their sins.’"
+    "content": [
+      "and this to them ",
+      { "text": "is", "marks": ["i"] },
+      {
+        "text": " the covenant from Me, when I may take away their sins.”",
+        "break": true
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 28,
-    "content": "As regards, indeed, the good tidings, they are enemies on your account; and as regards the choice-beloved on account of the fathers;"
+    "content": [
+      { "paragraph": true, "text": "As regards, indeed, the good tidings, " },
+      { "text": "they are", "marks": ["i"] },
+      " enemies on your account; and as regards the choice—beloved on account of the fathers;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 11,
     "verse": 29,
-    "content": "for unrepented of are the gifts and the calling of God;"
+    "content": [
+      "for unrepented of ",
+      { "text": "are", "marks": ["i"] },
+      " the gifts and the calling of God;"
+    ]
   },
   {
     "book": "ROM",
@@ -1908,7 +2476,10 @@
     "book": "ROM",
     "chapter": 11,
     "verse": 34,
-    "content": "for who did know the mind of the Lord? or who did become His counsellor?"
+    "content": {
+      "paragraph": true,
+      "text": "for who did know the mind of the Lord? or who did become His counsellor?"
+    }
   },
   {
     "book": "ROM",
@@ -1920,28 +2491,44 @@
     "book": "ROM",
     "chapter": 11,
     "verse": 36,
-    "content": "because of Him, and through Him, and to Him are the all things; to Him is the glory-to the ages. Amen."
+    "content": [
+      "because of Him, and through Him, and to Him ",
+      { "text": "are", "marks": ["i"] },
+      " the all things; to Him ",
+      { "text": "is", "marks": ["i"] },
+      " the glory—to the ages. Amen."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 12,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I call upon you, therefore, brethren, through the compassions of God, to present your bodies a sacrifice-living, sanctified, acceptable to God-your intelligent service;"
-    }
+    "content": [
+      { "heading": "Christian Living" },
+      {
+        "paragraph": true,
+        "text": "I call upon you, therefore, brethren, through the compassions of God, to present your bodies a sacrifice—living, sanctified, acceptable to God—your intelligent service;"
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 12,
     "verse": 2,
-    "content": "and be not conformed to this age, but be transformed by the renewing of your mind, for your proving what is the will of God-the good, and acceptable, and perfect."
+    "content": [
+      "and be not conformed to this age, but be transformed by the renewing of your mind, for your proving what ",
+      { "text": "is", "marks": ["i"] },
+      " the will of God—the good, and acceptable, and perfect."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 12,
     "verse": 3,
-    "content": "For I say, through the grace that was given to me, to every one who is among you, not to think above what it behoveth to think; but to think so as to think wisely, as to each God did deal a measure of faith,"
+    "content": {
+      "paragraph": true,
+      "text": "For I say, through the grace that was given to me, to every one who is among you, not to think above what it behoveth to think; but to think so as to think wisely, as to each God did deal a measure of faith,"
+    }
   },
   {
     "book": "ROM",
@@ -1959,25 +2546,28 @@
     "book": "ROM",
     "chapter": 12,
     "verse": 6,
-    "content": "And having gifts, different according to the grace that was given to us; whether prophecy-‘According to the proportion of faith!’"
+    "content": "And having gifts, different according to the grace that was given to us; whether prophecy—“According to the proportion of faith!”"
   },
   {
     "book": "ROM",
     "chapter": 12,
     "verse": 7,
-    "content": "or ministration-‘In the ministration!’ or he who is teaching-‘In the teaching!’"
+    "content": "or ministration—“In the ministration!” or he who is teaching—“In the teaching!”"
   },
   {
     "book": "ROM",
     "chapter": 12,
     "verse": 8,
-    "content": "or he who is exhorting-‘In the exhortation!’ he who is sharing-‘In simplicity!’ he who is leading-‘In diligence!’ he who is doing kindness-‘In cheerfulness.’"
+    "content": "or he who is exhorting—“In the exhortation!” he who is sharing—“In simplicity!” he who is leading—“In diligence?” he who is doing kindness—“In cheerfulness.”"
   },
   {
     "book": "ROM",
     "chapter": 12,
     "verse": 9,
-    "content": "The love unfeigned: abhorring the evil; cleaving to the good;"
+    "content": {
+      "paragraph": true,
+      "text": "The love unfeigned: abhorring the evil; cleaving to the good;"
+    }
   },
   {
     "book": "ROM",
@@ -2031,19 +2621,23 @@
     "book": "ROM",
     "chapter": 12,
     "verse": 18,
-    "content": "If possible-so far as in you-with all men being in peace;"
+    "content": "If possible—so far as in you—with all men being in peace;"
   },
   {
     "book": "ROM",
     "chapter": 12,
     "verse": 19,
-    "content": "not avenging yourselves, beloved, but give place to the wrath, for it hath been written, ‘Vengeance is Mine,"
+    "content": [
+      "not avenging yourselves, beloved, but give place to the wrath, for it hath been written, “Vengeance ",
+      { "text": "is", "marks": ["i"] },
+      " Mine,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 12,
     "verse": 20,
-    "content": "I will recompense again, saith the Lord;’ if, then, thine enemy doth hunger, feed him; if he doth thirst, give him drink; for this doing, coals of fire thou shalt heap upon his head;"
+    "content": "I will recompense again, saith the Lord;” if, then, thine enemy doth hunger, feed him; if he doth thirst, give him drink; for this doing, coals of fire thou shalt heap upon his head;"
   },
   {
     "book": "ROM",
@@ -2055,10 +2649,13 @@
     "book": "ROM",
     "chapter": 13,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Let every soul to the higher authorities be subject, for there is no authority except from God, and the authorities existing are appointed by God,"
-    }
+    "content": [
+      { "heading": "Civil and Social Duties" },
+      {
+        "paragraph": true,
+        "text": "Let every soul to the higher authorities be subject, for there is no authority except from God, and the authorities existing are appointed by God,"
+      }
+    ]
   },
   {
     "book": "ROM",
@@ -2094,31 +2691,48 @@
     "book": "ROM",
     "chapter": 13,
     "verse": 7,
-    "content": "render, therefore, to all their dues; to whom tribute, the tribute; to whom custom, the custom; to whom fear, the fear; to whom honour, the honour."
+    "content": [
+      "render, therefore, to all ",
+      { "text": "their", "marks": ["i"] },
+      " dues; to whom tribute, the tribute; to whom custom, the custom; to whom fear, the fear; to whom honour, the honour."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 13,
     "verse": 8,
-    "content": "To no one owe anything, except to love one another; for he who is loving the other-law he hath fulfilled,"
+    "content": "To no one owe anything, except to love one another; for he who is loving the other—law he hath fulfilled,"
   },
   {
     "book": "ROM",
     "chapter": 13,
     "verse": 9,
-    "content": "for, ‘Thou shalt not commit adultery, Thou shalt do no murder, Thou shalt not steal, Thou shalt not bear false testimony, Thou shalt not covet;’ and if there is any other command, in this word it is summed up, in this: ‘Thou shalt love thy neighbour as thyself;’"
+    "content": "for, “Thou shalt not commit adultery, Thou shalt do no murder, Thou shalt not steal, Thou shalt not bear false testimony, Thou shalt not covet;” and if there is any other command, in this word it is summed up, in this: “Thou shalt love thy neighbour as thyself;”"
   },
   {
     "book": "ROM",
     "chapter": 13,
     "verse": 10,
-    "content": "the love to the neighbour doth work no ill; the love, therefore, is the fulness of law."
+    "content": [
+      "the love to the neighbour doth work no ill; the love, therefore, ",
+      { "text": "is", "marks": ["i"] },
+      " the fulness of law."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 13,
     "verse": 11,
-    "content": "And this, knowing the time, that for us, the hour already is to be aroused out of sleep, for now nearer is our salvation than when we did believe;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And this, knowing the time, that for us, the hour already "
+      },
+      { "text": "is", "marks": ["i"] },
+      " to be aroused out of sleep, for now nearer ",
+      { "text": "is", "marks": ["i"] },
+      " our salvation than when we did believe;"
+    ]
   },
   {
     "book": "ROM",
@@ -2136,22 +2750,25 @@
     "book": "ROM",
     "chapter": 13,
     "verse": 14,
-    "content": "but put ye on the Lord Jesus Christ, and for the flesh take no forethought-for desires."
+    "content": "but put ye on the Lord Jesus Christ, and for the flesh take no forethought—for desires."
   },
   {
     "book": "ROM",
     "chapter": 14,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And him who is weak in the faith receive ye-not to determinations of reasonings;"
-    }
+    "content": [
+      { "heading": "Christian Charity and Unity" },
+      {
+        "paragraph": true,
+        "text": "And him who is weak in the faith receive ye—not to determinations of reasonings;"
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 14,
     "verse": 2,
-    "content": "one doth believe that he may eat all things-and he who is weak doth eat herbs;"
+    "content": "one doth believe that he may eat all things—and he who is weak doth eat herbs;"
   },
   {
     "book": "ROM",
@@ -2163,19 +2780,29 @@
     "book": "ROM",
     "chapter": 14,
     "verse": 4,
-    "content": "Thou-who art thou that art judging another’s domestic? to his own master he doth stand or fall; and he shall be made to stand, for God is able to make him stand."
+    "content": "Thou—who art thou that art judging another’s domestic? to his own master he doth stand or fall; and he shall be made to stand, for God is able to make him stand."
   },
   {
     "book": "ROM",
     "chapter": 14,
     "verse": 5,
-    "content": "One doth judge one day above another, and another doth judge every day alike; let each in his own mind be fully assured."
+    "content": [
+      "One doth judge one day above another, and another doth judge every day ",
+      { "text": "alike", "marks": ["i"] },
+      "; let each in his own mind be fully assured."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 14,
     "verse": 6,
-    "content": "He who is regarding the day, to the Lord he doth regard it, and he who is not regarding the day, to the Lord he doth not regard it. He who is eating, to the Lord he doth eat, for he doth give thanks to God; and he who is not eating, to the Lord he doth not eat, and doth give thanks to God."
+    "content": [
+      "He who is regarding the day, to the Lord he doth regard ",
+      { "text": "it", "marks": ["i"] },
+      ", and he who is not regarding the day, to the Lord he doth not regard ",
+      { "text": "it", "marks": ["i"] },
+      ". He who is eating, to the Lord he doth eat, for he doth give thanks to God; and he who is not eating, to the Lord he doth not eat, and doth give thanks to God."
+    ]
   },
   {
     "book": "ROM",
@@ -2205,25 +2832,43 @@
     "book": "ROM",
     "chapter": 14,
     "verse": 11,
-    "content": "for it hath been written, ‘I live! saith the Lord-to Me bow shall every knee, and every tongue shall confess to God;’"
+    "content": {
+      "text": "for it hath been written, “I live! saith the Lord—to Me bow shall every knee, and every tongue shall confess to God;”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 14,
     "verse": 12,
-    "content": "so, then, each of us concerning himself shall give reckoning to God;"
+    "content": {
+      "paragraph": true,
+      "text": "so, then, each of us concerning himself shall give reckoning to God;"
+    }
   },
   {
     "book": "ROM",
     "chapter": 14,
     "verse": 13,
-    "content": "no longer, therefore, may we judge one another, but this judge ye rather, not to put a stumbling-stone before the brother, or an offence."
+    "content": [
+      { "heading": "The Christian Spirit" },
+      {
+        "paragraph": true,
+        "text": "no longer, therefore, may we judge one another, but this judge ye rather, not to put a stumbling-stone before the brother, or an offence."
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 14,
     "verse": 14,
-    "content": "I have known, and am persuaded, in the Lord Jesus, that nothing is unclean of itself, except to him who is reckoning anything to be unclean-to that one it is unclean;"
+    "content": [
+      "I have known, and am persuaded, in the Lord Jesus, that nothing ",
+      { "text": "is", "marks": ["i"] },
+      " unclean of itself, except to him who is reckoning anything to be unclean—to that one ",
+      { "text": "it is", "marks": ["i"] },
+      " unclean;"
+    ]
   },
   {
     "book": "ROM",
@@ -2247,7 +2892,11 @@
     "book": "ROM",
     "chapter": 14,
     "verse": 18,
-    "content": "for he who in these things is serving the Christ, is acceptable to God and approved of men."
+    "content": [
+      "for he who in these things is serving the Christ, ",
+      { "text": "is", "marks": ["i"] },
+      " acceptable to God and approved of men."
+    ]
   },
   {
     "book": "ROM",
@@ -2259,25 +2908,47 @@
     "book": "ROM",
     "chapter": 14,
     "verse": 20,
-    "content": "for the sake of victuals cast not down the work of God; all things, indeed, are pure, but evil is to the man who is eating through stumbling."
+    "content": [
+      "for the sake of victuals cast not down the work of God; all things, indeed, ",
+      { "text": "are", "marks": ["i"] },
+      " pure, but evil ",
+      { "text": "is", "marks": ["i"] },
+      " to the man who is eating through stumbling."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 14,
     "verse": 21,
-    "content": "Right it is not to eat flesh, nor to drink wine, nor to do anything in which thy brother doth stumble, or is made to fall, or is weak."
+    "content": [
+      "Right ",
+      { "text": "it is", "marks": ["i"] },
+      " not to eat flesh, nor to drink wine, nor to ",
+      { "text": "do anything", "marks": ["i"] },
+      " in which thy brother doth stumble, or is made to fall, or is weak."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 14,
     "verse": 22,
-    "content": "Thou hast faith! to thyself have it before God; happy is he who is not judging himself in what he doth approve,"
+    "content": [
+      "Thou hast faith! to thyself have ",
+      { "text": "it", "marks": ["i"] },
+      " before God; happy is he who is not judging himself in what he doth approve,"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 14,
     "verse": 23,
-    "content": "and he who is making a difference, if he may eat, hath been condemned, because it is not of faith; and all that is not of faith is sin."
+    "content": [
+      "and he who is making a difference, if he may eat, hath been condemned, because ",
+      { "text": "it is", "marks": ["i"] },
+      " not of faith; and all that ",
+      { "text": "is", "marks": ["i"] },
+      " not of faith is sin."
+    ]
   },
   {
     "book": "ROM",
@@ -2285,7 +2956,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And we ought-we who are strong-to bear the infirmities of the weak, and not to please ourselves;"
+      "text": "And we ought—we who are strong—to bear the infirmities of the weak, and not to please ourselves;"
     }
   },
   {
@@ -2298,7 +2969,7 @@
     "book": "ROM",
     "chapter": 15,
     "verse": 3,
-    "content": "for even the Christ did not please himself, but, according as it hath been written, ‘The reproaches of those reproaching Thee fell upon me;’"
+    "content": "for even the Christ did not please himself, but, according as it hath been written, “The reproaches of those reproaching Thee fell upon me;”"
   },
   {
     "book": "ROM",
@@ -2316,13 +2987,19 @@
     "book": "ROM",
     "chapter": 15,
     "verse": 6,
-    "content": "that with one accord-with one mouth-ye may glorify the God and Father of our Lord Jesus Christ;"
+    "content": "that with one accord—with one mouth—ye may glorify the God and Father of our Lord Jesus Christ;"
   },
   {
     "book": "ROM",
     "chapter": 15,
     "verse": 7,
-    "content": "wherefore receive ye one another, according as also the Christ did receive us, to the glory of God."
+    "content": [
+      { "heading": "To the Glory of God" },
+      {
+        "paragraph": true,
+        "text": "wherefore receive ye one another, according as also the Christ did receive us, to the glory of God."
+      }
+    ]
   },
   {
     "book": "ROM",
@@ -2334,37 +3011,61 @@
     "book": "ROM",
     "chapter": 15,
     "verse": 9,
-    "content": "and the nations for kindness to glorify God, according as it hath been written, ‘Because of this I will confess to Thee among nations, and to Thy name I will sing praise,’"
+    "content": {
+      "text": "and the nations for kindness to glorify God, according as it hath been written, “Because of this I will confess to Thee among nations, and to Thy name I will sing praise,”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 15,
     "verse": 10,
-    "content": "and again it saith, ‘Rejoice ye nations, with His people;’"
+    "content": {
+      "paragraph": true,
+      "text": "and again it saith, “Rejoice ye nations, with His people;”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 15,
     "verse": 11,
-    "content": "and again, ‘Praise the Lord, all ye nations; and laud Him, all ye peoples;’"
+    "content": {
+      "paragraph": true,
+      "text": "and again, “Praise the Lord, all ye nations; and laud Him, all ye peoples;”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 15,
     "verse": 12,
-    "content": "and again, Isaiah saith, ‘There shall be the root of Jesse, and he who is rising to rule nations-upon him shall nations hope;’"
+    "content": {
+      "paragraph": true,
+      "text": "and again, Isaiah saith, “There shall be the root of Jesse, and he who is rising to rule nations—upon him shall nations hope;”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 15,
     "verse": 13,
-    "content": "and the God of the hope shall fill you with all joy and peace in the believing, for your abounding in the hope in power of the Holy Spirit."
+    "content": {
+      "paragraph": true,
+      "text": "and the God of the hope shall fill you with all joy and peace in the believing, for your abounding in the hope in power of the Holy Spirit."
+    }
   },
   {
     "book": "ROM",
     "chapter": 15,
     "verse": 14,
-    "content": "And I am persuaded, my brethren-I myself also-concerning you, that ye yourselves also are full of goodness, having been filled with all knowledge, able also one another to admonish;"
+    "content": [
+      { "heading": "Personal Messages" },
+      {
+        "paragraph": true,
+        "text": "And I am persuaded, my brethren—I myself also—concerning you, that ye yourselves also are full of goodness, having been filled with all knowledge, able also one another to admonish;"
+      }
+    ]
   },
   {
     "book": "ROM",
@@ -2400,19 +3101,25 @@
     "book": "ROM",
     "chapter": 15,
     "verse": 20,
-    "content": "and so counting it honour to proclaim good news, not where Christ was named-that upon another’s foundation I might not build-"
+    "content": "and so counting it honour to proclaim good news, not where Christ was named—that upon another’s foundation I might not build—"
   },
   {
     "book": "ROM",
     "chapter": 15,
     "verse": 21,
-    "content": "but according as it hath been written, ‘To whom it was not told concerning him, they shall see; and they who have not heard, shall understand.’"
+    "content": {
+      "text": "but according as it hath been written, “To whom it was not told concerning him, they shall see; and they who have not heard, shall understand.”",
+      "break": true
+    }
   },
   {
     "book": "ROM",
     "chapter": 15,
     "verse": 22,
-    "content": "Wherefore, also, I was hindered many times from coming unto you,"
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore, also, I was hindered many times from coming unto you,"
+    }
   },
   {
     "book": "ROM",
@@ -2436,7 +3143,11 @@
     "book": "ROM",
     "chapter": 15,
     "verse": 26,
-    "content": "for it pleased Macedonia and Achaia well to make a certain contribution for the poor of the saints who are in Jerusalem;"
+    "content": [
+      "for it pleased Macedonia and Achaia well to make a certain contribution for the poor of the saints who ",
+      { "text": "are", "marks": ["i"] },
+      " in Jerusalem;"
+    ]
   },
   {
     "book": "ROM",
@@ -2454,19 +3165,26 @@
     "book": "ROM",
     "chapter": 15,
     "verse": 29,
-    "content": "and I have known that coming unto you-in the fulness of the blessing of the good news of Christ I shall come."
+    "content": "and I have known that coming unto you—in the fulness of the blessing of the good news of Christ I shall come."
   },
   {
     "book": "ROM",
     "chapter": 15,
     "verse": 30,
-    "content": "And I call upon you, brethren, through our Lord Jesus Christ, and through the love of the Spirit, to strive together with me in the prayers for me unto God,"
+    "content": {
+      "paragraph": true,
+      "text": "And I call upon you, brethren, through our Lord Jesus Christ, and through the love of the Spirit, to strive together with me in the prayers for me unto God,"
+    }
   },
   {
     "book": "ROM",
     "chapter": 15,
     "verse": 31,
-    "content": "that I may be delivered from those not believing in Judea, and that my ministration, that is for Jerusalem, may become acceptable to the saints;"
+    "content": [
+      "that I may be delivered from those not believing in Judea, and that my ministration, that ",
+      { "text": "is", "marks": ["i"] },
+      " for Jerusalem, may become acceptable to the saints;"
+    ]
   },
   {
     "book": "ROM",
@@ -2478,34 +3196,45 @@
     "book": "ROM",
     "chapter": 15,
     "verse": 33,
-    "content": "and the God of the peace be with you all. Amen."
+    "content": [
+      "and the God of the peace ",
+      { "text": "be", "marks": ["i"] },
+      " with you all. Amen."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 16,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I commend you to Phebe our sister-being a ministrant of the assembly that is in Cenchrea-"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And I commend you to Phebe our sister—being a ministrant of the assembly that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " in Cenchrea—"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 16,
     "verse": 2,
-    "content": "that ye may receive her in the Lord, as doth become saints, and may assist her in whatever matter she may have need of you-for she also became a leader of many, and of myself."
+    "content": "that ye may receive her in the Lord, as doth become saints, and may assist her in whatever matter she may have need of you—for she also became a leader of many, and of myself."
   },
   {
     "book": "ROM",
     "chapter": 16,
     "verse": 3,
-    "content": "Salute Priscilla and Aquilas, my fellow-workmen in Christ Jesus-"
+    "content": {
+      "paragraph": true,
+      "text": "Salute Priscilla and Aquilas, my fellow-workmen in Christ Jesus—"
+    }
   },
   {
     "book": "ROM",
     "chapter": 16,
     "verse": 4,
-    "content": "who for my life their own neck did lay down, to whom not only I give thanks, but also all the assemblies of the nations-"
+    "content": "who for my life their own neck did lay down, to whom not only I give thanks, but also all the assemblies of the nations—"
   },
   {
     "book": "ROM",
@@ -2541,13 +3270,21 @@
     "book": "ROM",
     "chapter": 16,
     "verse": 10,
-    "content": "salute Apelles, the approved in Christ; salute those of the household of Aristobulus;"
+    "content": [
+      "salute Apelles, the approved in Christ; salute those of the ",
+      { "text": "household", "marks": ["i"] },
+      " of Aristobulus;"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 16,
     "verse": 11,
-    "content": "salute Herodion, my kinsman; salute those of the household of Narcissus, who are in the Lord;"
+    "content": [
+      "salute Herodion, my kinsman; salute those of the ",
+      { "text": "household", "marks": ["i"] },
+      " of Narcissus, who are in the Lord;"
+    ]
   },
   {
     "book": "ROM",
@@ -2583,7 +3320,10 @@
     "book": "ROM",
     "chapter": 16,
     "verse": 17,
-    "content": "And I call upon you, brethren, to mark those who the divisions and the stumbling-blocks, contrary to the teaching that ye did learn, are causing, and turn ye away from them;"
+    "content": {
+      "paragraph": true,
+      "text": "And I call upon you, brethren, to mark those who the divisions and the stumblingblocks, contrary to the teaching that ye did learn, are causing, and turn ye away from them;"
+    }
   },
   {
     "book": "ROM",
@@ -2601,13 +3341,20 @@
     "book": "ROM",
     "chapter": 16,
     "verse": 20,
-    "content": "and the God of the peace shall bruise the Adversary under your feet quickly; the grace of our Lord Jesus Christ be with you. Amen!"
+    "content": [
+      "and the God of the peace shall bruise the Adversary under your feet quickly; the grace of our Lord Jesus Christ ",
+      { "text": "be", "marks": ["i"] },
+      " with you. Amen!"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 16,
     "verse": 21,
-    "content": "Salute you do Timotheus, my fellow-workman, and Lucius, and Jason, and Sosipater, my kindred;"
+    "content": {
+      "paragraph": true,
+      "text": "Salute you do Timotheus, my fellow-workman, and Lucius, and Jason, and Sosipater, my kindred;"
+    }
   },
   {
     "book": "ROM",
@@ -2625,24 +3372,35 @@
     "book": "ROM",
     "chapter": 16,
     "verse": 24,
-    "content": "the grace of our Lord Jesus Christ be with you all. Amen."
+    "content": [
+      "the grace of our Lord Jesus Christ ",
+      { "text": "be", "marks": ["i"] },
+      " with you all. Amen."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 16,
     "verse": 25,
-    "content": "And to Him who is able to establish you, according to my good news, and the preaching of Jesus Christ, according to the revelation of the secret, in the times of the ages having been kept silent,"
+    "content": {
+      "paragraph": true,
+      "text": "And to Him who is able to establish you, according to my good news, and the preaching of Jesus Christ, according to the revelation of the secret, in the times of the ages having been kept silent,"
+    }
   },
   {
     "book": "ROM",
     "chapter": 16,
     "verse": 26,
-    "content": "and now having been made manifest, also, through prophetic writings, according to a command of the age-during God, having been made known to all the nations for obedience of faith-"
+    "content": "and now having been made manifest, also, through prophetic writings, according to a command of the age-during God, having been made known to all the nations for obedience of faith—"
   },
   {
     "book": "ROM",
     "chapter": 16,
     "verse": 27,
-    "content": "to the only wise God, through Jesus Christ, to him be glory to the ages. Amen."
+    "content": [
+      "to the only wise God, through Jesus Christ, to him ",
+      { "text": "be", "marks": ["i"] },
+      " glory to the ages. Amen."
+    ]
   }
 ]

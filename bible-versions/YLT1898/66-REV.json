@@ -3,10 +3,14 @@
     "book": "REV",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "A revelation of Jesus Christ, that God gave to him, to shew to his servants what things it behoveth to come to pass quickly; and he did signify it, having sent through his messenger to his servant John,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "A revelation of Jesus Christ, that God gave to him, to shew to his servants what things it behoveth to come to pass quickly; and he did signify "
+      },
+      { "text": "it", "marks": ["i"] },
+      ", having sent through his messenger to his servant John,"
+    ]
   },
   {
     "book": "REV",
@@ -18,13 +22,17 @@
     "book": "REV",
     "chapter": 1,
     "verse": 3,
-    "content": "Happy is he who is reading, and those hearing, the words of the prophecy, and keeping the things written in it-for the time is nigh!"
+    "content": "Happy is he who is reading, and those hearing, the words of the prophecy, and keeping the things written in it—for the time is nigh!"
   },
   {
     "book": "REV",
     "chapter": 1,
     "verse": 4,
-    "content": "John to the seven assemblies that are in Asia: Grace to you, and peace, from Him who is, and who was, and who is coming, and from the Seven Spirits that are before His throne,"
+    "content": [
+      { "paragraph": true, "text": "John to the seven assemblies that " },
+      { "text": "are", "marks": ["i"] },
+      " in Asia: Grace to you, and peace, from Him who is, and who was, and who is coming, and from the Seven Spirits that are before His throne,"
+    ]
   },
   {
     "book": "REV",
@@ -36,7 +44,11 @@
     "book": "REV",
     "chapter": 1,
     "verse": 6,
-    "content": "and did make us kings and priests to his God and Father, to him is the glory and the power to the ages of the ages! Amen."
+    "content": [
+      "and did make us kings and priests to his God and Father, to him ",
+      { "text": "is", "marks": ["i"] },
+      " the glory and the power to the ages of the ages! Amen."
+    ]
   },
   {
     "book": "REV",
@@ -48,13 +60,17 @@
     "book": "REV",
     "chapter": 1,
     "verse": 8,
-    "content": "‘I am the Alpha and the Omega, beginning and end, saith the Lord, who is, and who was, and who is coming-the Almighty.’"
+    "content": "“I am the Alpha and the Omega, beginning and end, saith the Lord, who is, and who was, and who is coming—the Almighty.”"
   },
   {
     "book": "REV",
     "chapter": 1,
     "verse": 9,
-    "content": "I, John, who also am your brother, and fellow-partner in the tribulation, and in the reign and endurance, of Jesus Christ, was in the isle that is called Patmos, because of the word of God, and because of the testimony of Jesus Christ;"
+    "content": [
+      { "paragraph": true, "text": "I, John, who also " },
+      { "text": "am", "marks": ["i"] },
+      " your brother, and fellow-partner in the tribulation, and in the reign and endurance, of Jesus Christ, was in the isle that is called Patmos, because of the word of God, and because of the testimony of Jesus Christ;"
+    ]
   },
   {
     "book": "REV",
@@ -66,25 +82,36 @@
     "book": "REV",
     "chapter": 1,
     "verse": 11,
-    "content": "‘I am the Alpha and the Omega, the First and the Last;’ and, ‘What thou dost see, write in a scroll, and send to the seven assemblies that are in Asia; to Ephesus, and to Smyrna, and to Pergamos, and to Thyatira, and to Sardis, and to Philadelphia, and to Laodicea.’"
+    "content": [
+      "“I am the Alpha and the Omega, the First and the Last;” and, “What thou dost see, write in a scroll, and send to the seven assemblies that ",
+      { "text": "are", "marks": ["i"] },
+      " in Asia; to Ephesus, and to Smyrna, and to Pergamos, and to Thyatira, and to Sardis, and to Philadelphia, and to Laodicea.”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 1,
     "verse": 12,
-    "content": "And I did turn to see the voice that did speak with me, and having turned, I saw seven golden lamp-stands,"
+    "content": {
+      "paragraph": true,
+      "text": "And I did turn to see the voice that did speak with me, and having turned, I saw seven golden lamp-stands,"
+    }
   },
   {
     "book": "REV",
     "chapter": 1,
     "verse": 13,
-    "content": "and in the midst of the seven lamp-stands, one like to a son of man, clothed to the foot, and girt round at the breast with a golden girdle,"
+    "content": [
+      "and in the midst of the seven lamp-stands, ",
+      { "text": "one", "marks": ["i"] },
+      " like to a son of man, clothed to the foot, and girt round at the breast with a golden girdle,"
+    ]
   },
   {
     "book": "REV",
     "chapter": 1,
     "verse": 14,
-    "content": "and his head and hairs white, as if white wool-as snow, and his eyes as a flame of fire;"
+    "content": "and his head and hairs white, as if white wool—as snow, and his eyes as a flame of fire;"
   },
   {
     "book": "REV",
@@ -96,31 +123,50 @@
     "book": "REV",
     "chapter": 1,
     "verse": 16,
-    "content": "and having in his right hand seven stars, and out of his mouth a sharp two-edged sword is proceeding, and his countenance is as the sun shining in its might."
+    "content": [
+      "and having in his right hand seven stars, and out of his mouth a sharp two-edged sword is proceeding, and his countenance ",
+      { "text": "is", "marks": ["i"] },
+      " as the sun shining in its might."
+    ]
   },
   {
     "book": "REV",
     "chapter": 1,
     "verse": 17,
-    "content": "And when I saw him, I did fall at his feet as dead, and he placed his right hand upon me, saying to me, ‘Be not afraid; I am the First and the Last,"
+    "content": [
+      "And when I saw him, I did fall at his feet as dead, and he placed his right hand upon me, saying to me, ",
+      {
+        "text": "“Be not afraid; I am the First and the Last,",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "REV",
     "chapter": 1,
     "verse": 18,
-    "content": "and he who is living, and I did become dead, and, lo, I am living to the ages of the ages. Amen! and I have the keys of the hades and of the death."
+    "content": {
+      "text": "and he who is living, and I did become dead, and, lo, I am living to the ages of the ages. Amen! and I have the keys of the hades and of the death.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 1,
     "verse": 19,
-    "content": "‘Write the things that thou hast seen, and the things that are, and the things that are about to come after these things;"
+    "content": {
+      "text": "“Write the things that thou hast seen, and the things that are, and the things that are about to come after these things;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 1,
     "verse": 20,
-    "content": "the secret of the seven stars that thou hast seen upon my right hand, and the seven golden lamp-stands: the seven stars are messengers of the seven assemblies, and the seven lamp-stands that thou hast seen are seven assemblies."
+    "content": {
+      "text": "the secret of the seven stars that thou hast seen upon my right hand, and the seven golden lamp-stands: the seven stars are messengers of the seven assemblies, and the seven lampstands that thou hast seen are seven assemblies.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
@@ -128,176 +174,288 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "‘To the messenger of the Ephesian assembly write: These things saith he who is holding the seven stars in his right hand, who is walking in the midst of the seven lamp-stands-the golden:"
+      "text": "“To the messenger of the Ephesian assembly write: These things saith he who is holding the seven stars in his right hand, who is walking in the midst of the seven lamp-stands—the golden:",
+      "marks": ["woc"]
     }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 2,
-    "content": "I have known thy works, and thy labour, and thy endurance, and that thou art not able to bear evil ones, and that thou hast tried those saying themselves to be apostles and are not, and hast found them liars,"
+    "content": {
+      "text": "I have known thy works, and thy labour, and thy endurance, and that thou art not able to bear evil ones, and that thou hast tried those saying themselves to be apostles and are not, and hast found them liars,",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 3,
-    "content": "and thou didst bear, and hast endurance, and because of my name hast toiled, and hast not been weary."
+    "content": {
+      "text": "and thou didst bear, and hast endurance, and because of my name hast toiled, and hast not been weary.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 4,
-    "content": "‘But I have against thee: That thy first love thou didst leave!"
+    "content": {
+      "text": "“But I have against thee: That thy first love thou didst leave!",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 5,
-    "content": "remember, then, whence thou hast fallen, and reform, and the first works do; and if not, I come to thee quickly, and will remove thy lamp-stand from its place-if thou mayest not reform;"
+    "content": {
+      "text": "remember, then, whence thou hast fallen, and reform, and the first works do; and if not, I come to thee quickly, and will remove thy lamp-stand from its place—if thou mayest not reform;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 6,
-    "content": "but this thou hast, that thou dost hate the works of the Nicolaitans, that I also hate."
+    "content": {
+      "text": "but this thou hast, that thou dost hate the works of the Nicolaitans, that I also hate.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 7,
-    "content": "He who is having an ear-let him hear what the Spirit saith to the assemblies: To him who is overcoming-I will give to him to eat of the tree of life that is in the midst of the paradise of God."
+    "content": {
+      "text": "He who is having an ear—let him hear what the Spirit saith to the assemblies: To him who is overcoming—I will give to him to eat of the tree of life that is in the midst of the paradise of God.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 8,
-    "content": "‘And to the messenger of the assembly of the Smyrneans write: These things saith the First and the Last, who did become dead and did live;"
+    "content": {
+      "paragraph": true,
+      "text": "“And to the messenger of the assembly of the Smyrneans write: These things saith the First and the Last, who did become dead and did live;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 9,
-    "content": "I have known thy works, and tribulation, and poverty-yet thou art rich-and the evil-speaking of those saying themselves to be Jews, and are not, but are a synagogue of the Adversary."
+    "content": [
+      {
+        "text": "I have known thy works, and tribulation, and poverty—yet thou art rich—and the evil-speaking of those saying themselves to be Jews, and are not, but ",
+        "marks": ["woc"]
+      },
+      { "text": "are", "marks": ["i", "woc"] },
+      { "text": " a synagogue of the Adversary.", "marks": ["woc"] }
+    ]
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 10,
-    "content": "‘Be not afraid of the things that thou art about to suffer; lo, the devil is about to cast of you to prison, that ye may be tried, and ye shall have tribulation ten days; become thou faithful unto death, and I will give to thee the crown of the life."
+    "content": {
+      "text": "“Be not afraid of the things that thou art about to suffer; lo, the devil is about to cast of you to prison, that ye may be tried, and ye shall have tribulation ten days; become thou faithful unto death, and I will give to thee the crown of the life.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 11,
-    "content": "He who is having an ear-let him hear what the Spirit saith to the assemblies: He who is overcoming may not be injured of the second death."
+    "content": {
+      "text": "He who is having an ear—let him hear what the Spirit saith to the assemblies: He who is overcoming may not be injured of the second death.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 12,
-    "content": "‘And to the messenger of the assembly in Pergamos write: These things saith he who is having the sharp two-edged sword:"
+    "content": {
+      "paragraph": true,
+      "text": "“And to the messenger of the assembly in Pergamos write: These things saith he who is having the sharp two-edged sword:",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 13,
-    "content": "I have known thy works, and where thou dost dwell-where the throne of the Adversary is-and thou dost hold fast my name, and thou didst not deny my faith, even in the days in which Antipas was my faithful witness, who was put to death beside you, where the Adversary doth dwell."
+    "content": [
+      {
+        "text": "I have known thy works, and where thou dost dwell—where the throne of the Adversary ",
+        "marks": ["woc"]
+      },
+      { "text": "is", "marks": ["i", "woc"] },
+      {
+        "text": "—and thou dost hold fast my name, and thou didst not deny my faith, even in the days in which Antipas ",
+        "marks": ["woc"]
+      },
+      { "text": "was", "marks": ["i", "woc"] },
+      {
+        "text": " my faithful witness, who was put to death beside you, where the Adversary doth dwell.",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 14,
-    "content": "‘But I have against thee a few things: That thou hast there those holding the teaching of Balaam, who did teach Balak to cast a stumbling-block before the sons of Israel, to eat idol-sacrifices, and to commit whoredom;"
+    "content": {
+      "text": "“But I have against thee a few things: That thou hast there those holding the teaching of Balaam, who did teach Balak to cast a stumbling-block before the sons of Israel, to eat idol-sacrifices, and to commit whoredom;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 15,
-    "content": "so hast thou, even thou, those holding the teaching of the Nicolaitans-which thing I hate."
+    "content": {
+      "text": "so hast thou, even thou, those holding the teaching of the Nicolaitans—which thing I hate.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 16,
-    "content": "‘Reform! and if not, I come to thee quickly, and will fight against them with the sword of my mouth."
+    "content": {
+      "text": "“Reform! and if not, I come to thee quickly, and will fight against them with the sword of my mouth.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 17,
-    "content": "He who is having an ear-let him hear what the Spirit saith to the assemblies: To him who is overcoming, I will give to him to eat from the hidden manna, and will give to him a white stone, and upon the stone a new name written, that no one knew except him who is receiving it."
+    "content": [
+      {
+        "text": "He who is having an ear—let him hear what the Spirit saith to the assemblies: To him who is overcoming, I will give to him to eat from the hidden manna, and will give to him a white stone, and upon the stone a new name written, that no one knew except him who is receiving ",
+        "marks": ["woc"]
+      },
+      { "text": "it", "marks": ["i", "woc"] },
+      { "text": ".", "marks": ["woc"] }
+    ]
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 18,
-    "content": "‘And to the messenger of the assembly of Thyatira write: These things saith the Son of God, who is having his eyes as a flame of fire, and his feet like to fine brass;"
+    "content": {
+      "paragraph": true,
+      "text": "“And to the messenger of the assembly of Thyatira write: These things saith the Son of God, who is having his eyes as a flame of fire, and his feet like to fine brass;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 19,
-    "content": "I have known thy works, and love, and ministration, and faith, and thy endurance, and thy works-and the last are more than the first."
+    "content": [
+      {
+        "text": "I have known thy works, and love, and ministration, and faith, and thy endurance, and thy works—and the last ",
+        "marks": ["woc"]
+      },
+      { "text": "are", "marks": ["i", "woc"] },
+      { "text": " more than the first.", "marks": ["woc"] }
+    ]
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 20,
-    "content": "‘But I have against thee a few things: That thou dost suffer the woman Jezebel, who is calling herself a prophetess, to teach, and to lead astray, my servants to commit whoredom, and idol-sacrifices to eat;"
+    "content": {
+      "text": "“But I have against thee a few things: That thou dost suffer the woman Jezebel, who is calling herself a prophetess, to teach, and to lead astray, my servants to commit whoredom, and idol-sacrifices to eat;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 21,
-    "content": "and I did give to her a time that she might reform from her whoredom, and she did not reform;"
+    "content": {
+      "text": "and I did give to her a time that she might reform from her whoredom, and she did not reform;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 22,
-    "content": "lo, I will cast her into a couch, and those committing adultery with her into great tribulation-if they may not repent of their works,"
+    "content": {
+      "text": "lo, I will cast her into a couch, and those committing adultery with her into great tribulation—if they may not repent of their works,",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 23,
-    "content": "and her children I will kill in death, and know shall all the assemblies that I am he who is searching reins and hearts; and I will give to you-to each-according to your works."
+    "content": {
+      "text": "and her children I will kill in death, and know shall all the assemblies that I am he who is searching reins and hearts; and I will give to you—to each—according to your works.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 24,
-    "content": "‘And to you I say, and to the rest who are in Thyatira, as many as have not this teaching, and who did not know the depths of the Adversary, as they say; I will not put upon you other burden;"
+    "content": {
+      "text": "“And to you I say, and to the rest who are in Thyatira, as many as have not this teaching, and who did not know the depths of the Adversary, as they say; I will not put upon you other burden;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 25,
-    "content": "but that which ye have-hold ye, till I may come;"
+    "content": {
+      "text": "but that which ye have—hold ye, till I may come;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 26,
-    "content": "and he who is overcoming, and who is keeping unto the end my works, I will give to him authority over the nations,"
+    "content": {
+      "text": "and he who is overcoming, and who is keeping unto the end my works, I will give to him authority over the nations,",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 27,
-    "content": "and he shall rule them with a rod of iron-as the vessels of the potter they shall be broken-as I also have received from my Father;"
+    "content": {
+      "text": "and he shall rule them with a rod of iron—as the vessels of the potter they shall be broken—as I also have received from my Father;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 28,
-    "content": "and I will give to him the morning star."
+    "content": {
+      "text": "and I will give to him the morning star.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 2,
     "verse": 29,
-    "content": "He who is having an ear-let him hear what the Spirit saith to the assemblies."
+    "content": {
+      "text": "He who is having an ear—let him hear what the Spirit saith to the assemblies.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
@@ -305,149 +463,231 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And to the messenger of the assembly in Sardis write: These things saith he who is having the Seven Spirits of God, and the seven stars: I have known thy works, and that thou hast the name that thou dost live, and thou art dead;"
+      "text": "And to the messenger of the assembly in Sardis write: These things saith he who is having the Seven Spirits of God, and the seven stars: I have known thy works, and that thou hast the name that thou dost live, and thou art dead;",
+      "marks": ["woc"]
     }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 2,
-    "content": "become watching, and strengthen the rest of the things that are about to die, for I have not found thy works fulfilled before God."
+    "content": {
+      "text": "become watching, and strengthen the rest of the things that are about to die, for I have not found thy works fulfilled before God.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 3,
-    "content": "‘Remember, then, how thou hast received, and heard, and be keeping, and reform: if, then, thou mayest not watch, I will come upon thee as a thief, and thou mayest not know what hour I will come upon thee."
+    "content": {
+      "text": "“Remember, then, how thou hast received, and heard, and be keeping, and reform: if, then, thou mayest not watch, I will come upon thee as a thief, and thou mayest not know what hour I will come upon thee.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 4,
-    "content": "Thou hast a few names even in Sardis who did not defile their garments, and they shall walk with me in white, because they are worthy."
+    "content": {
+      "text": "Thou hast a few names even in Sardis who did not defile their garments, and they shall walk with me in white, because they are worthy.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 5,
-    "content": "He who is overcoming-this one-shall be arrayed in white garments, and I will not blot out his name from the scroll of the life, and I will confess his name before my Father, and before His messengers."
+    "content": {
+      "text": "He who is overcoming—this one—shall be arrayed in white garments, and I will not blot out his name from the scroll of the life, and I will confess his name before my Father, and before His messengers.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 6,
-    "content": "He who is having an ear-let him hear what the Spirit saith to the assemblies."
+    "content": {
+      "text": "He who is having an ear—let him hear what the Spirit saith to the assemblies.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 7,
-    "content": "‘And to the messenger of the assembly in Philadelphia write: These things saith he who is holy, he who is true, he who is having the key of David, he who is opening and no one doth shut, and he shutteth and no one doth open!"
+    "content": {
+      "paragraph": true,
+      "text": "“And to the messenger of the assembly in Philadelphia write: These things saith he who is holy, he who is true, he who is having the key of David, he who is opening and no one doth shut, and he shutteth and no one doth open!",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 8,
-    "content": "I have known thy works; lo, I have set before thee a door-opened, and no one is able to shut it, because thou hast a little power, and didst keep my word, and didst not deny my name;"
+    "content": {
+      "text": "I have known thy works; lo, I have set before thee a door—opened, and no one is able to shut it, because thou hast a little power, and didst keep my word, and didst not deny my name;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 9,
-    "content": "lo, I make of the synagogue of the Adversary those saying themselves to be Jews, and are not, but do lie; lo, I will make them that they may come and bow before thy feet, and may know that I loved thee."
+    "content": {
+      "text": "lo, I make of the synagogue of the Adversary those saying themselves to be Jews, and are not, but do lie; lo, I will make them that they may come and bow before thy feet, and may know that I loved thee.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 10,
-    "content": "‘Because thou didst keep the word of my endurance, I also will keep thee from the hour of the trial that is about to come upon all the world, to try those dwelling upon the earth."
+    "content": {
+      "text": "“Because thou didst keep the word of my endurance, I also will keep thee from the hour of the trial that is about to come upon all the world, to try those dwelling upon the earth.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 11,
-    "content": "Lo, I come quickly, be holding fast that which thou hast, that no one may receive thy crown."
+    "content": {
+      "text": "Lo, I come quickly, be holding fast that which thou hast, that no one may receive thy crown.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 12,
-    "content": "He who is overcoming-I will make him a pillar in the sanctuary of my God, and without he may not go any more, and I will write upon him the name of my God, and the name of the city of my God, the new Jerusalem, that doth come down out of the heaven from my God-also my new name."
+    "content": {
+      "text": "He who is overcoming—I will make him a pillar in the sanctuary of my God, and without he may not go any more, and I will write upon him the name of my God, and the name of the city of my God, the new Jerusalem, that doth come down out of the heaven from my God—also my new name.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 13,
-    "content": "He who is having an ear-let him hear what the Spirit saith to the assemblies."
+    "content": {
+      "text": "He who is having an ear—let him hear what the Spirit saith to the assemblies.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 14,
-    "content": "‘And to the messenger of the assembly of the Laodiceans write: These things saith the Amen, the witness-the faithful and true-the chief of the creation of God;"
+    "content": {
+      "paragraph": true,
+      "text": "“And to the messenger of the assembly of the Laodiceans write: These things saith the Amen, the witness—the faithful and true—the chief of the creation of God;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 15,
-    "content": "I have known thy works, that neither cold art thou nor hot; I would thou wert cold or hot."
+    "content": {
+      "text": "I have known thy works, that neither cold art thou nor hot; I would thou wert cold or hot.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 16,
-    "content": "So-because thou art lukewarm, and neither cold nor hot, I am about to vomit thee out of my mouth;"
+    "content": {
+      "text": "So—because thou art lukewarm, and neither cold nor hot, I am about to vomit thee out of my mouth;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 17,
-    "content": "because thou sayest-I am rich, and have grown rich, and have need of nothing, and hast not known that thou art the wretched, and miserable, and poor, and blind, and naked,"
+    "content": {
+      "text": "because thou sayest—I am rich, and have grown rich, and have need of nothing, and hast not known that thou art the wretched, and miserable, and poor, and blind, and naked,",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 18,
-    "content": "I counsel thee to buy from me gold fired by fire, that thou mayest be rich, and white garments that thou mayest be arrayed, and the shame of thy nakedness may not be manifest, and with eye-salve anoint thine eyes, that thou mayest see."
+    "content": {
+      "text": "I counsel thee to buy from me gold fired by fire, that thou mayest be rich, and white garments that thou mayest be arrayed, and the shame of thy nakedness may not be manifest, and with eye-salve anoint thine eyes, that thou mayest see.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 19,
-    "content": "‘As many as I love, I do convict and chasten; be zealous, then, and reform;"
+    "content": {
+      "text": "“As many as I love, I do convict and chasten; be zealous, then, and reform;",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 20,
-    "content": "lo, I have stood at the door, and I knock; if any one may hear my voice, and may open the door, I will come in unto him, and will sup with him, and he with me."
+    "content": {
+      "text": "lo, I have stood at the door, and I knock; if any one may hear my voice, and may open the door, I will come in unto him, and will sup with him, and he with me.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 21,
-    "content": "He who is overcoming-I will give to him to sit with me in my throne, as I also did overcome and did sit down with my Father in His throne."
+    "content": {
+      "text": "He who is overcoming—I will give to him to sit with me in my throne, as I also did overcome and did sit down with my Father in His throne.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 3,
     "verse": 22,
-    "content": "He who is having an ear-let him hear what the Spirit saith to the assemblies.’"
-  },
-  {
-    "book": "REV",
-    "chapter": 4,
-    "verse": 1,
     "content": {
-      "paragraph": true,
-      "text": "After these things I saw, and lo, a door opened in the heaven, and the first voice that I heard is as of a trumpet speaking with me, saying, ‘Come up hither, and I will shew thee what it behoveth to come to pass after these things;’"
+      "text": "He who is having an ear—let him hear what the Spirit saith to the assemblies.”",
+      "marks": ["woc"]
     }
   },
   {
     "book": "REV",
     "chapter": 4,
+    "verse": 1,
+    "content": [
+      { "heading": "A Vision of Heaven" },
+      {
+        "paragraph": true,
+        "text": "After these things I saw, and lo, a door opened in the heaven, and the first voice that I heard "
+      },
+      { "text": "is", "marks": ["i"] },
+      " as of a trumpet speaking with me, saying, ",
+      {
+        "text": "“Come up hither, and I will shew thee what it behoveth to come to pass after these things;”",
+        "marks": ["woc"]
+      }
+    ]
+  },
+  {
+    "book": "REV",
+    "chapter": 4,
     "verse": 2,
-    "content": "and immediately I was in the Spirit, and lo, a throne was set in the heaven, and upon the throne is one sitting,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "and immediately I was in the Spirit, and lo, a throne was set in the heaven, and upon the throne is "
+      },
+      { "text": "one", "marks": ["i"] },
+      " sitting,"
+    ]
   },
   {
     "book": "REV",
@@ -459,7 +699,11 @@
     "book": "REV",
     "chapter": 4,
     "verse": 4,
-    "content": "And around the throne are thrones twenty and four, and upon the thrones I saw the twenty and four elders sitting, clothed in white garments, and they had upon their heads crowns of gold;"
+    "content": [
+      "And around the throne ",
+      { "text": "are", "marks": ["i"] },
+      " thrones twenty and four, and upon the thrones I saw the twenty and four elders sitting, clothed in white garments, and they had upon their heads crowns of gold;"
+    ]
   },
   {
     "book": "REV",
@@ -471,19 +715,37 @@
     "book": "REV",
     "chapter": 4,
     "verse": 6,
-    "content": "and before the throne is a sea of glass like to crystal, and in the midst of the throne, and round the throne, are four living creatures, full of eyes before and behind;"
+    "content": [
+      "and before the throne ",
+      { "text": "is", "marks": ["i"] },
+      " a sea of glass like to crystal, and in the midst of the throne, and round the throne, ",
+      { "text": "are", "marks": ["i"] },
+      " four living creatures, full of eyes before and behind;"
+    ]
   },
   {
     "book": "REV",
     "chapter": 4,
     "verse": 7,
-    "content": "and the first living creature is like a lion, and the second living creature is like a calf, and the third living creature hath the face as a man, and the fourth living creature is like an eagle flying."
+    "content": [
+      "and the first living creature ",
+      { "text": "is", "marks": ["i"] },
+      " like a lion, and the second living creature ",
+      { "text": "is", "marks": ["i"] },
+      " like a calf, and the third living creature hath the face as a man, and the fourth living creature ",
+      { "text": "is", "marks": ["i"] },
+      " like an eagle flying."
+    ]
   },
   {
     "book": "REV",
     "chapter": 4,
     "verse": 8,
-    "content": "And the four living creatures, each by itself severally, had six wings, around and within are full of eyes, and rest they have not day and night, saying, ‘Holy, holy, holy, Lord God Almighty, who was, and who is, and who is coming;’"
+    "content": [
+      "And the four living creatures, each by itself severally, had six wings, around and within ",
+      { "text": "are", "marks": ["i"] },
+      " full of eyes, and rest they have not day and night, saying, “Holy, holy, holy, Lord God Almighty, who was, and who is, and who is coming;”"
+    ]
   },
   {
     "book": "REV",
@@ -501,22 +763,25 @@
     "book": "REV",
     "chapter": 4,
     "verse": 11,
-    "content": "‘Worthy art Thou, O Lord, to receive the glory, and the honour, and the power, because Thou-Thou didst create the all things, and because of Thy will are they, and they were created.’"
+    "content": "“Worthy art Thou, O Lord, to receive the glory, and the honour, and the power, because Thou—Thou didst create the all things, and because of Thy will are they, and they were created.”"
   },
   {
     "book": "REV",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I saw upon the right hand of Him who is sitting upon the throne a scroll, written within and on the back, sealed with seven seals;"
-    }
+    "content": [
+      { "heading": "The Sealed Book" },
+      {
+        "paragraph": true,
+        "text": "And I saw upon the right hand of Him who is sitting upon the throne a scroll, written within and on the back, sealed with seven seals;"
+      }
+    ]
   },
   {
     "book": "REV",
     "chapter": 5,
     "verse": 2,
-    "content": "and I saw a strong messenger crying with a great voice, ‘Who is worthy to open the scroll and to loose the seals of it?’"
+    "content": "and I saw a strong messenger crying with a great voice, “Who is worthy to open the scroll and to loose the seals of it?”"
   },
   {
     "book": "REV",
@@ -534,7 +799,7 @@
     "book": "REV",
     "chapter": 5,
     "verse": 5,
-    "content": "and one of the elders saith to me, ‘Weep not; lo, overcome did the Lion, who is of the tribe of Judah, the root of David, to open the scroll, and to loose the seven seals of it;"
+    "content": "and one of the elders saith to me, “Weep not; lo, overcome did the Lion, who is of the tribe of Judah, the root of David, to open the scroll, and to loose the seven seals of it;"
   },
   {
     "book": "REV",
@@ -558,46 +823,53 @@
     "book": "REV",
     "chapter": 5,
     "verse": 9,
-    "content": "and they sing a new song, saying, ‘Worthy art thou to take the scroll, and to open the seals of it, because thou wast slain, and didst redeem us to God in thy blood, out of every tribe, and tongue, and people, and nation,"
+    "content": "and they sing a new song, saying, “Worthy art thou to take the scroll, and to open the seals of it, because thou wast slain, and didst redeem us to God in thy blood, out of every tribe, and tongue, and people, and nation,"
   },
   {
     "book": "REV",
     "chapter": 5,
     "verse": 10,
-    "content": "and didst make us to our God kings and priests, and we shall reign upon the earth.’"
+    "content": "and didst make us to our God kings and priests, and we shall reign upon the earth.”"
   },
   {
     "book": "REV",
     "chapter": 5,
     "verse": 11,
-    "content": "And I saw, and I heard the voice of many messengers round the throne, and the living creatures, and the elders-and the number of them was myriads of myriads, and thousands of thousands-"
+    "content": "And I saw, and I heard the voice of many messengers round the throne, and the living creatures, and the elders—and the number of them was myriads of myriads, and thousands of thousands—"
   },
   {
     "book": "REV",
     "chapter": 5,
     "verse": 12,
-    "content": "saying with a great voice, ‘Worthy is the Lamb that was slain to receive the power, and riches, and wisdom, and strength, and honour, and glory, and blessing!’"
+    "content": "saying with a great voice, “Worthy is the Lamb that was slain to receive the power, and riches, and wisdom, and strength, and honour, and glory, and blessing!”"
   },
   {
     "book": "REV",
     "chapter": 5,
     "verse": 13,
-    "content": "and every creature that is in the heaven, and in the earth, and under the earth, and the things that are upon the sea, and the all things in them, heard I saying, ‘To Him who is sitting upon the throne, and to the Lamb, is the blessing, and the honour, and the glory, and the might-to the ages of the ages!’"
+    "content": [
+      "and every creature that is in the heaven, and in the earth, and under the earth, and the things that are upon the sea, and the all things in them, heard I saying, “To Him who is sitting upon the throne, and to the Lamb, ",
+      { "text": "is", "marks": ["i"] },
+      " the blessing, and the honour, and the glory, and the might—to the ages of the ages!”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 5,
     "verse": 14,
-    "content": "and the four living creatures said, ‘Amen!’ and the twenty-four elders fell down and they bow before Him who is living to the ages of the ages."
+    "content": "and the four living creatures said, “Amen!” and the twenty-four elders fell down and they bow before Him who is living to the ages of the ages."
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I saw when the Lamb opened one of the seals, and I heard one of the four living creatures saying, as it were a voice of thunder, ‘Come and behold!’"
-    }
+    "content": [
+      { "heading": "Opening of the Seals" },
+      {
+        "paragraph": true,
+        "text": "And I saw when the Lamb opened one of the seals, and I heard one of the four living creatures saying, as it were a voice of thunder, “Come and behold!”"
+      }
+    ]
   },
   {
     "book": "REV",
@@ -609,73 +881,88 @@
     "book": "REV",
     "chapter": 6,
     "verse": 3,
-    "content": "And when he opened the second seal, I heard the second living creature saying, ‘Come and behold!’"
+    "content": {
+      "paragraph": true,
+      "text": "And when he opened the second seal, I heard the second living creature saying, “Come and behold!”"
+    }
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 4,
-    "content": "and there went forth another horse-red, and to him who is sitting upon it, there was given to him to take the peace from the land, and that one another they may slay, and there was given to him a great sword."
+    "content": "and there went forth another horse—red, and to him who is sitting upon it, there was given to him to take the peace from the land, and that one another they may slay, and there was given to him a great sword."
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 5,
-    "content": "And when he opened the third seal, I heard the third living creature saying, ‘Come and behold!’ and I saw, and lo, a black horse, and he who is sitting upon it is having a balance in his hand,"
+    "content": {
+      "paragraph": true,
+      "text": "And when he opened the third seal, I heard the third living creature saying, “Come and behold!” and I saw, and lo, a black horse, and he who is sitting upon it is having a balance in his hand,"
+    }
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 6,
-    "content": "and I heard a voice in the midst of the four living creatures saying, ‘A measure of wheat for a denary, and three measures of barley for a denary,’ and ‘The oil and the wine thou mayest not injure.’"
+    "content": "and I heard a voice in the midst of the four living creatures saying, “A measure of wheat for a denary, and three measures of barley for a denary,” and “The oil and the wine thou mayest not injure.”"
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 7,
-    "content": "And when he opened the fourth seal, I heard the voice of the fourth living creature saying, ‘Come and behold!’"
+    "content": {
+      "paragraph": true,
+      "text": "And when he opened the fourth seal, I heard the voice of the fourth living creature saying, “Come and behold!”"
+    }
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 8,
-    "content": "and I saw, and lo, a pale horse, and he who is sitting upon him-his name is Death, and Hades doth follow with him, and there was given to them authority to kill, (over the fourth part of the land,) with sword, and with hunger, and with death, and by the beasts of the land."
+    "content": "and I saw, and lo, a pale horse, and he who is sitting upon him—his name is Death, and Hades doth follow with him, and there was given to them authority to kill, (over the fourth part of the land,) with sword, and with hunger, and with death, and by the beasts of the land."
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 9,
-    "content": "And when he opened the fifth seal, I saw under the altar the souls of those slain because of the word of God, and because of the testimony that they held,"
+    "content": {
+      "paragraph": true,
+      "text": "And when he opened the fifth seal, I saw under the altar the souls of those slain because of the word of God, and because of the testimony that they held,"
+    }
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 10,
-    "content": "and they were crying with a great voice, saying, ‘Till when, O Master, the Holy and the True, dost Thou not judge and take vengeance of our blood from those dwelling upon the land?’"
+    "content": "and they were crying with a great voice, saying, “Till when, O Master, the Holy and the True, dost Thou not judge and take vengeance of our blood from those dwelling upon the land?”"
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 11,
-    "content": "and there was given to each one white robes, and it was said to them that they may rest themselves yet a little time, till may be fulfilled also their fellow-servants and their brethren, who are about to be killed-even as they."
+    "content": "and there was given to each one white robes, and it was said to them that they may rest themselves yet a little time, till may be fulfilled also their fellow-servants and their brethren, who are about to be killed—even as they."
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 12,
-    "content": "And I saw when he opened the sixth seal, and lo, a great earthquake came, and the sun became black as sackcloth of hair, and the moon became as blood,"
+    "content": {
+      "paragraph": true,
+      "text": "And I saw when he opened the sixth seal, and lo, a great earthquake came, and the sun became black as sackcloth of hair, and the moon became as blood,"
+    }
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 13,
-    "content": "and the stars of the heaven fell to the earth-as a fig-tree doth cast her winter figs, by a great wind being shaken-"
+    "content": "and the stars of the heaven fell to the earth—as a fig-tree doth cast her winter figs, by a great wind being shaken—"
   },
   {
     "book": "REV",
     "chapter": 6,
     "verse": 14,
-    "content": "and heaven departed as a scroll rolled up, and every mountain and island-out of their places they were moved;"
+    "content": "and heaven departed as a scroll rolled up, and every mountain and island—out of their places they were moved;"
   },
   {
     "book": "REV",
@@ -687,7 +974,7 @@
     "book": "REV",
     "chapter": 6,
     "verse": 16,
-    "content": "and they say to the mountains and to the rocks, ‘Fall upon us, and hide us from the face of Him who is sitting upon the throne, and from the anger of the Lamb,’"
+    "content": "and they say to the mountains and to the rocks, “Fall upon us, and hide us from the face of Him who is sitting upon the throne, and from the anger of the Lamb,”"
   },
   {
     "book": "REV",
@@ -699,10 +986,13 @@
     "book": "REV",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And after these things I saw four messengers, standing upon the four corners of the land, holding the four winds of the land, that the wind may not blow upon the land, nor upon the sea, nor upon any tree;"
-    }
+    "content": [
+      { "heading": "Sealing the Servants of God" },
+      {
+        "paragraph": true,
+        "text": "And after these things I saw four messengers, standing upon the four corners of the land, holding the four winds of the land, that the wind may not blow upon the land, nor upon the sea, nor upon any tree;"
+      }
+    ]
   },
   {
     "book": "REV",
@@ -714,7 +1004,7 @@
     "book": "REV",
     "chapter": 7,
     "verse": 3,
-    "content": "‘Do not injure the land, nor the sea, nor the trees, till we may seal the servants of our God upon their foreheads.’"
+    "content": "“Do not injure the land, nor the sea, nor the trees, till we may seal the servants of our God upon their foreheads.”"
   },
   {
     "book": "REV",
@@ -750,37 +1040,54 @@
     "book": "REV",
     "chapter": 7,
     "verse": 9,
-    "content": "After these things I saw, and lo, a great multitude, which to number no one was able, out of all nations, and tribes, and peoples, and tongues, standing before the throne, and before the Lamb, arrayed in white robes, and palms in their hands,"
+    "content": {
+      "paragraph": true,
+      "text": "After these things I saw, and lo, a great multitude, which to number no one was able, out of all nations, and tribes, and peoples, and tongues, standing before the throne, and before the Lamb, arrayed in white robes, and palms in their hands,"
+    }
   },
   {
     "book": "REV",
     "chapter": 7,
     "verse": 10,
-    "content": "and crying with a great voice, saying, ‘The salvation is to Him who is sitting upon the throne-to our God, and to the Lamb!’"
+    "content": [
+      "and crying with a great voice, saying, “The salvation ",
+      { "text": "is", "marks": ["i"] },
+      " to Him who is sitting upon the throne—to our God, and to the Lamb!”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 7,
     "verse": 11,
-    "content": "And all the messengers stood around the throne, and the elders and the four living creatures, and they fell upon their face, and bowed before God,"
+    "content": {
+      "paragraph": true,
+      "text": "And all the messengers stood around the throne, and the elders and the four living creatures, and they fell upon their face, and bowed before God,"
+    }
   },
   {
     "book": "REV",
     "chapter": 7,
     "verse": 12,
-    "content": "saying, ‘Amen! the blessing, and the glory, and the wisdom, and the thanksgiving, and the honour, and the power, and the strength, are to our God-to the ages of the ages! Amen!’"
+    "content": [
+      "saying, “Amen! the blessing, and the glory, and the wisdom, and the thanksgiving, and the honour, and the power, and the strength, ",
+      { "text": "are", "marks": ["i"] },
+      " to our God—to the ages of the ages! Amen!”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 7,
     "verse": 13,
-    "content": "And answer did one of the elders, saying to me, ‘These, who have been arrayed with the white robes-who are they, and whence came they?’"
+    "content": {
+      "paragraph": true,
+      "text": "And answer did one of the elders, saying to me, “These, who have been arrayed with the white robes—who are they, and whence came they?”"
+    }
   },
   {
     "book": "REV",
     "chapter": 7,
     "verse": 14,
-    "content": "and I have said to him, ‘Sir, thou hast known;’ and he said to me, ‘These are those who are coming out of the great tribulation, and they did wash their robes, and they made their robes white in the blood of the Lamb;"
+    "content": "and I have said to him, “Sir, thou hast known;” and he said to me, “These are those who are coming out of the great tribulation, and they did wash their robes, and they made their robes white in the blood of the Lamb;"
   },
   {
     "book": "REV",
@@ -798,7 +1105,11 @@
     "book": "REV",
     "chapter": 7,
     "verse": 17,
-    "content": "because the Lamb that is in the midst of the throne shall feed them, and shall lead them unto living fountains of waters, and wipe away shall God every tear from their eyes.’"
+    "content": [
+      "because the Lamb that ",
+      { "text": "is", "marks": ["i"] },
+      " in the midst of the throne shall feed them, and shall lead them unto living fountains of waters, and wipe away shall God every tear from their eyes.”"
+    ]
   },
   {
     "book": "REV",
@@ -813,13 +1124,28 @@
     "book": "REV",
     "chapter": 8,
     "verse": 2,
-    "content": "and I saw the seven messengers who before God have stood, and there were given to them seven trumpets,"
+    "content": [
+      { "heading": "Trumpet Peals" },
+      {
+        "paragraph": true,
+        "text": "and I saw the seven messengers who before God have stood, and there were given to them seven trumpets,"
+      }
+    ]
   },
   {
     "book": "REV",
     "chapter": 8,
     "verse": 3,
-    "content": "and another messenger did come, and he stood at the altar, having a golden censer, and there was given to him much perfume, that he may give it to the prayers of all the saints upon the golden altar that is before the throne,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "and another messenger did come, and he stood at the altar, having a golden censer, and there was given to him much perfume, that he may give "
+      },
+      { "text": "it", "marks": ["i"] },
+      " to the prayers of all the saints upon the golden altar that ",
+      { "text": "is", "marks": ["i"] },
+      " before the throne,"
+    ]
   },
   {
     "book": "REV",
@@ -831,37 +1157,57 @@
     "book": "REV",
     "chapter": 8,
     "verse": 5,
-    "content": "and the messenger took the censer, and did fill it out of the fire of the altar, and did cast it to the earth, and there came voices, and thunders, and lightnings, and an earthquake."
+    "content": [
+      "and the messenger took the censer, and did fill it out of the fire of the altar, and did cast ",
+      { "text": "it", "marks": ["i"] },
+      " to the earth, and there came voices, and thunders, and lightnings, and an earthquake."
+    ]
   },
   {
     "book": "REV",
     "chapter": 8,
     "verse": 6,
-    "content": "And the seven messengers who are having the seven trumpets did prepare themselves that they may sound;"
+    "content": {
+      "paragraph": true,
+      "text": "And the seven messengers who are having the seven trumpets did prepare themselves that they may sound;"
+    }
   },
   {
     "book": "REV",
     "chapter": 8,
     "verse": 7,
-    "content": "and the first messenger did sound, and there came hail and fire, mingled with blood, and it was cast to the land, and the third of the trees was burnt up, and all the green grass was burnt up."
+    "content": {
+      "paragraph": true,
+      "text": "and the first messenger did sound, and there came hail and fire, mingled with blood, and it was cast to the land, and the third of the trees was burnt up, and all the green grass was burnt up."
+    }
   },
   {
     "book": "REV",
     "chapter": 8,
     "verse": 8,
-    "content": "And the second messenger did sound, and as it were a great mountain with fire burning was cast into the sea, and the third of the sea became blood,"
+    "content": {
+      "paragraph": true,
+      "text": "And the second messenger did sound, and as it were a great mountain with fire burning was cast into the sea, and the third of the sea became blood,"
+    }
   },
   {
     "book": "REV",
     "chapter": 8,
     "verse": 9,
-    "content": "and die did the third of the creatures that are in the sea, those having life, and the third of the ships were destroyed."
+    "content": [
+      "and die did the third of the creatures that ",
+      { "text": "are", "marks": ["i"] },
+      " in the sea, those having life, and the third of the ships were destroyed."
+    ]
   },
   {
     "book": "REV",
     "chapter": 8,
     "verse": 10,
-    "content": "And the third messenger did sound, and there fell out of the heaven a great star, burning as a lamp, and it did fall upon the third of the rivers, and upon the fountains of waters,"
+    "content": {
+      "paragraph": true,
+      "text": "And the third messenger did sound, and there fell out of the heaven a great star, burning as a lamp, and it did fall upon the third of the rivers, and upon the fountains of waters,"
+    }
   },
   {
     "book": "REV",
@@ -873,13 +1219,19 @@
     "book": "REV",
     "chapter": 8,
     "verse": 12,
-    "content": "And the fourth messenger did sound, and smitten was the third of the sun, and the third of the moon, and the third of the stars, that darkened may be the third of them, and that the day may not shine-the third of it, and the night in like manner."
+    "content": {
+      "paragraph": true,
+      "text": "And the fourth messenger did sound, and smitten was the third of the sun, and the third of the moon, and the third of the stars, that darkened may be the third of them, and that the day may not shine—the third of it, and the night in like manner."
+    }
   },
   {
     "book": "REV",
     "chapter": 8,
     "verse": 13,
-    "content": "And I saw, and I heard one messenger, flying in the mid-heaven, saying with a great voice, ‘Woe, woe, woe, to those dwelling upon the land from the rest of the voices of the trumpet of the three messengers who are about to sound.’"
+    "content": {
+      "paragraph": true,
+      "text": "And I saw, and I heard one messenger, flying in the mid-heaven, saying with a great voice, “Woe, woe, woe, to those dwelling upon the land from the rest of the voices of the trumpet of the three messengers who are about to sound.”"
+    }
   },
   {
     "book": "REV",
@@ -906,13 +1258,17 @@
     "book": "REV",
     "chapter": 9,
     "verse": 4,
-    "content": "and it was said to them that they may not injure the grass of the earth, nor any green thing, nor any tree, but-the men only who have not the seal of God upon their foreheads,"
+    "content": "and it was said to them that they may not injure the grass of the earth, nor any green thing, nor any tree, but—the men only who have not the seal of God upon their foreheads,"
   },
   {
     "book": "REV",
     "chapter": 9,
     "verse": 5,
-    "content": "and it was given to them that they may not kill them, but that they may be tormented five months, and their torment is as the torment of a scorpion, when it may strike a man;"
+    "content": [
+      "and it was given to them that they may not kill them, but that they may be tormented five months, and their torment ",
+      { "text": "is", "marks": ["i"] },
+      " as the torment of a scorpion, when it may strike a man;"
+    ]
   },
   {
     "book": "REV",
@@ -924,49 +1280,75 @@
     "book": "REV",
     "chapter": 9,
     "verse": 7,
-    "content": "And the likenesses of the locusts are like to horses made ready to battle, and upon their heads as crowns like gold, and their faces as faces of men,"
+    "content": [
+      "And the likenesses of the locusts ",
+      { "text": "are", "marks": ["i"] },
+      " like to horses made ready to battle, and upon their heads as crowns like gold, and their faces as faces of men,"
+    ]
   },
   {
     "book": "REV",
     "chapter": 9,
     "verse": 8,
-    "content": "and they had hair as hair of women, and their teeth were as those of lions,"
+    "content": [
+      "and they had hair as hair of women, and their teeth were as ",
+      { "text": "those", "marks": ["i"] },
+      " of lions,"
+    ]
   },
   {
     "book": "REV",
     "chapter": 9,
     "verse": 9,
-    "content": "and they had breastplates as breastplates of iron, and the noise of their wings is as the noise of chariots of many horses running to battle;"
+    "content": [
+      "and they had breastplates as breastplates of iron, and the noise of their wings ",
+      { "text": "is", "marks": ["i"] },
+      " as the noise of chariots of many horses running to battle;"
+    ]
   },
   {
     "book": "REV",
     "chapter": 9,
     "verse": 10,
-    "content": "and they have tails like to scorpions, and stings were in their tails; and their authority is to injure men five months;"
+    "content": [
+      "and they have tails like to scorpions, and stings were in their tails; and their authority ",
+      { "text": "is", "marks": ["i"] },
+      " to injure men five months;"
+    ]
   },
   {
     "book": "REV",
     "chapter": 9,
     "verse": 11,
-    "content": "and they have over them a king-the messenger of the abyss-a name is to him in Hebrew, Abaddon, and in the Greek he hath a name, Apollyon."
+    "content": [
+      "and they have over them a king—the messenger of the abyss—a name ",
+      { "text": "is", "marks": ["i"] },
+      " to him in Hebrew, Abaddon, and in the Greek he hath a name, Apollyon."
+    ]
   },
   {
     "book": "REV",
     "chapter": 9,
     "verse": 12,
-    "content": "The first woe did go forth, lo, there come yet two woes after these things."
+    "content": {
+      "paragraph": true,
+      "text": "The first woe did go forth, lo, there come yet two woes after these things."
+    }
   },
   {
     "book": "REV",
     "chapter": 9,
     "verse": 13,
-    "content": "And the sixth messenger did sound, and I heard a voice out of the four horns of the altar of gold that is before God,"
+    "content": {
+      "paragraph": true,
+      "text": "And the sixth messenger did sound, and I heard a voice out of the four horns of the altar of gold that is before God,"
+    }
   },
   {
     "book": "REV",
     "chapter": 9,
     "verse": 14,
-    "content": "saying to the sixth messenger who had the trumpet, ‘Loose the four messengers who are bound at the great river Euphrates;’"
+    "content": "saying to the sixth messenger who had the trumpet, “Loose the four messengers who are bound at the great river Euphrates;”"
   },
   {
     "book": "REV",
@@ -978,13 +1360,21 @@
     "book": "REV",
     "chapter": 9,
     "verse": 16,
-    "content": "and the number of the forces of the horsemen is two myriads of myriads, and I heard the number of them."
+    "content": [
+      "and the number of the forces of the horsemen ",
+      { "text": "is", "marks": ["i"] },
+      " two myriads of myriads, and I heard the number of them."
+    ]
   },
   {
     "book": "REV",
     "chapter": 9,
     "verse": 17,
-    "content": "And thus I saw the horses in the vision, and those sitting upon them, having breastplates of fire, and jacinth, and brimstone; and the heads of the horses are as heads of lions, and out of their mouths proceedeth fire, and smoke, and brimstone;"
+    "content": [
+      "And thus I saw the horses in the vision, and those sitting upon them, having breastplates of fire, and jacinth, and brimstone; and the heads of the horses ",
+      { "text": "are", "marks": ["i"] },
+      " as heads of lions, and out of their mouths proceedeth fire, and smoke, and brimstone;"
+    ]
   },
   {
     "book": "REV",
@@ -996,7 +1386,11 @@
     "book": "REV",
     "chapter": 9,
     "verse": 19,
-    "content": "for their authorities are in their mouth, and in their tails, for their tails are like serpents, having heads, and with them they do injure;"
+    "content": [
+      "for their authorities are in their mouth, and in their tails, for their tails ",
+      { "text": "are", "marks": ["i"] },
+      " like serpents, having heads, and with them they do injure;"
+    ]
   },
   {
     "book": "REV",
@@ -1014,10 +1408,13 @@
     "book": "REV",
     "chapter": 10,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I saw another strong messenger coming down out of the heaven, arrayed with a cloud, and a rainbow upon the head, and his face as the sun, and his feet as pillars of fire,"
-    }
+    "content": [
+      { "heading": "The Angel and the Book" },
+      {
+        "paragraph": true,
+        "text": "And I saw another strong messenger coming down out of the heaven, arrayed with a cloud, and a rainbow upon the head, and his face as the sun, and his feet as pillars of fire,"
+      }
+    ]
   },
   {
     "book": "REV",
@@ -1035,7 +1432,7 @@
     "book": "REV",
     "chapter": 10,
     "verse": 4,
-    "content": "and when the seven thunders spake their voices, I was about to write, and I heard a voice out of the heaven saying to me, ‘Seal the things that the seven thunders spake,’ and, ‘Thou mayest not write these things.’"
+    "content": "and when the seven thunders spake their voices, I was about to write, and I heard a voice out of the heaven saying to me, “Seal the things that the seven thunders spake,” and, “Thou mayest not write these things.”"
   },
   {
     "book": "REV",
@@ -1047,7 +1444,7 @@
     "book": "REV",
     "chapter": 10,
     "verse": 6,
-    "content": "and did swear in Him who doth live to the ages of the ages, who did create the heaven and the things in it, and the land and the things in it, and the sea and the things in it-that time shall not be yet,"
+    "content": "and did swear in Him who doth live to the ages of the ages, who did create the heaven and the things in it, and the land and the things in it, and the sea and the things in it—that time shall not be yet,"
   },
   {
     "book": "REV",
@@ -1059,34 +1456,37 @@
     "book": "REV",
     "chapter": 10,
     "verse": 8,
-    "content": "And the voice that I heard out of the heaven is again speaking with me, and saying, ‘Go, take the little scroll that is open in the hand of the messenger who hath been standing upon the sea, and upon the land:’"
+    "content": "And the voice that I heard out of the heaven is again speaking with me, and saying, “Go, take the little scroll that is open in the hand of the messenger who hath been standing upon the sea, and upon the land:”"
   },
   {
     "book": "REV",
     "chapter": 10,
     "verse": 9,
-    "content": "and I went away unto the messenger, saying to him, ‘Give me the little scroll;’ and he saith to me, ‘Take, and eat it up, and it shall make thy belly bitter, but in thy mouth it shall be sweet-as honey.’"
+    "content": "and I went away unto the messenger, saying to him, “Give me the little scroll;” and he saith to me, “Take, and eat it up, and it shall make thy belly bitter, but in thy mouth it shall be sweet—as honey.”"
   },
   {
     "book": "REV",
     "chapter": 10,
     "verse": 10,
-    "content": "And I took the little scroll out of the hand of the messenger, and did eat it up, and it was in my mouth as honey-sweet, and when I did eat it-my belly was made bitter;"
+    "content": "And I took the little scroll out of the hand of the messenger, and did eat it up, and it was in my mouth as honey—sweet, and when I did eat it—my belly was made bitter;"
   },
   {
     "book": "REV",
     "chapter": 10,
     "verse": 11,
-    "content": "and he saith to me, ‘It behoveth thee again to prophesy about peoples, and nations, and tongues, and kings-many.’"
+    "content": "and he saith to me, “It behoveth thee again to prophesy about peoples, and nations, and tongues, and kings—many.”"
   },
   {
     "book": "REV",
     "chapter": 11,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And there was given to me a reed like to a rod, and the messenger stood, saying, ‘Rise, and measure the sanctuary of God, and the altar, and those worshipping in it;"
-    }
+    "content": [
+      { "heading": "The Angel and the Temple" },
+      {
+        "paragraph": true,
+        "text": "And there was given to me a reed like to a rod, and the messenger stood, saying, “Rise, and measure the sanctuary of God, and the altar, and those worshipping in it;"
+      }
+    ]
   },
   {
     "book": "REV",
@@ -1104,7 +1504,11 @@
     "book": "REV",
     "chapter": 11,
     "verse": 4,
-    "content": "these are the two olive trees, and the two lamp-stands that before the God of the earth do stand;"
+    "content": [
+      "these are the two olive ",
+      { "text": "trees", "marks": ["i"] },
+      ", and the two lamp-stands that before the God of the earth do stand;"
+    ]
   },
   {
     "book": "REV",
@@ -1122,25 +1526,29 @@
     "book": "REV",
     "chapter": 11,
     "verse": 7,
-    "content": "‘And when they may finish their testimony, the beast that is coming up out of the abyss shall make war with them, and overcome them, and kill them,"
+    "content": "“And when they may finish their testimony, the beast that is coming up out of the abyss shall make war with them, and overcome them, and kill them,"
   },
   {
     "book": "REV",
     "chapter": 11,
     "verse": 8,
-    "content": "and their dead bodies are upon the broad-place of the great city (that is called spiritually Sodom, and Egypt, where also our Lord was crucified,)"
+    "content": [
+      "and their dead bodies ",
+      { "text": "are", "marks": ["i"] },
+      " upon the broad-place of the great city (that is called spiritually Sodom, and Egypt, where also our Lord was crucified,)"
+    ]
   },
   {
     "book": "REV",
     "chapter": 11,
     "verse": 9,
-    "content": "and they shall behold-they of the peoples, and tribes, and tongues, and nations-their dead bodies three days and a half, and their dead bodies they shall not suffer to be put into tombs,"
+    "content": "and they shall behold—they of the peoples, and tribes, and tongues, and nations—their dead bodies three days and a half, and their dead bodies they shall not suffer to be put into tombs,"
   },
   {
     "book": "REV",
     "chapter": 11,
     "verse": 10,
-    "content": "and those dwelling upon the land shall rejoice over them, and shall make merry, and gifts they shall send to one another, because these-the two prophets-did torment those dwelling upon the land.’"
+    "content": "and those dwelling upon the land shall rejoice over them, and shall make merry, and gifts they shall send to one another, because these—the two prophets—did torment those dwelling upon the land.”"
   },
   {
     "book": "REV",
@@ -1152,25 +1560,36 @@
     "book": "REV",
     "chapter": 11,
     "verse": 12,
-    "content": "and they heard a great voice out of the heaven saying to them, ‘Come up hither;’ and they went up to the heaven in the cloud, and their enemies beheld them;"
+    "content": "and they heard a great voice out of the heaven saying to them, “Come up hither;” and they went up to the heaven in the cloud, and their enemies beheld them;"
   },
   {
     "book": "REV",
     "chapter": 11,
     "verse": 13,
-    "content": "and in that hour came a great earthquake, and the tenth of the city did fall, and killed in the earthquake were names of men-seven thousands, and the rest became affrighted, and they gave glory to the God of the heaven."
+    "content": "and in that hour came a great earthquake, and the tenth of the city did fall, and killed in the earthquake were names of men—seven thousands, and the rest became affrighted, and they gave glory to the God of the heaven."
   },
   {
     "book": "REV",
     "chapter": 11,
     "verse": 14,
-    "content": "The second woe did go forth, lo, the third woe doth come quickly."
+    "content": {
+      "paragraph": true,
+      "text": "The second woe did go forth, lo, the third woe doth come quickly."
+    }
   },
   {
     "book": "REV",
     "chapter": 11,
     "verse": 15,
-    "content": "And the seventh messenger did sound, and there came great voices in the heaven, saying, ‘The kingdoms of the world did become those of our Lord and of His Christ, and he shall reign to the ages of the ages!’"
+    "content": [
+      { "heading": "The Last Trumpet’s Peal" },
+      {
+        "paragraph": true,
+        "text": "And the seventh messenger did sound, and there came great voices in the heaven, saying, “The kingdoms of the world did become "
+      },
+      { "text": "those", "marks": ["i"] },
+      " of our Lord and of His Christ, and he shall reign to the ages of the ages!”"
+    ]
   },
   {
     "book": "REV",
@@ -1182,28 +1601,34 @@
     "book": "REV",
     "chapter": 11,
     "verse": 17,
-    "content": "saying, ‘We give thanks to Thee, O Lord God, the Almighty, who art, and who wast, and who art coming, because Thou hast taken Thy great power and didst reign;"
+    "content": "saying, “We give thanks to Thee, O Lord God, the Almighty, who art, and who wast, and who art coming, because Thou hast taken Thy great power and didst reign;"
   },
   {
     "book": "REV",
     "chapter": 11,
     "verse": 18,
-    "content": "and the nations were angry, and Thine anger did come, and the time of the dead, to be judged, and to give the reward to Thy servants, to the prophets, and to the saints, and to those fearing Thy name, to the small and to the great, and to destroy those who are destroying the land.’"
+    "content": "and the nations were angry, and Thine anger did come, and the time of the dead, to be judged, and to give the reward to Thy servants, to the prophets, and to the saints, and to those fearing Thy name, to the small and to the great, and to destroy those who are destroying the land.”"
   },
   {
     "book": "REV",
     "chapter": 11,
     "verse": 19,
-    "content": "And opened was the sanctuary of God in the heaven, and there was seen the ark of His covenant in His sanctuary, and there did come lightnings, and voices, and thunders, and an earthquake, and great hail."
+    "content": {
+      "paragraph": true,
+      "text": "And opened was the sanctuary of God in the heaven, and there was seen the ark of His covenant in His sanctuary, and there did come lightnings, and voices, and thunders, and an earthquake, and great hail."
+    }
   },
   {
     "book": "REV",
     "chapter": 12,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And a great sign was seen in the heaven, a woman arrayed with the sun, and the moon under her feet, and upon her head a crown of twelve stars,"
-    }
+    "content": [
+      { "heading": "War in Heaven" },
+      {
+        "paragraph": true,
+        "text": "And a great sign was seen in the heaven, a woman arrayed with the sun, and the moon under her feet, and upon her head a crown of twelve stars,"
+      }
+    ]
   },
   {
     "book": "REV",
@@ -1233,13 +1658,16 @@
     "book": "REV",
     "chapter": 12,
     "verse": 6,
-    "content": "and the woman did flee to the wilderness, where she hath a place made ready from God, that there they may nourish her-days a thousand, two hundred, sixty."
+    "content": "and the woman did flee to the wilderness, where she hath a place made ready from God, that there they may nourish her—days a thousand, two hundred, sixty."
   },
   {
     "book": "REV",
     "chapter": 12,
     "verse": 7,
-    "content": "And there came war in the heaven; Michael and his messengers did war against the dragon, and the dragon did war, and his messengers,"
+    "content": {
+      "paragraph": true,
+      "text": "And there came war in the heaven; Michael and his messengers did war against the dragon, and the dragon did war, and his messengers,"
+    }
   },
   {
     "book": "REV",
@@ -1251,31 +1679,34 @@
     "book": "REV",
     "chapter": 12,
     "verse": 9,
-    "content": "and the great dragon was cast forth-the old serpent, who is called ‘Devil,’ and ‘the Adversary,’ who is leading astray the whole world-he was cast forth to the earth, and his messengers were cast forth with him."
+    "content": "and the great dragon was cast forth—the old serpent, who is called “Devil,” and “the Adversary,” who is leading astray the whole world—he was cast forth to the earth, and his messengers were cast forth with him."
   },
   {
     "book": "REV",
     "chapter": 12,
     "verse": 10,
-    "content": "And I heard a great voice saying in the heaven, ‘Now did come the salvation, and the power, and the reign, of our God, and the authority of His Christ, because cast down was the accuser of our brethren, who is accusing them before our God day and night;"
+    "content": "And I heard a great voice saying in the heaven, “Now did come the salvation, and the power, and the reign, of our God, and the authority of His Christ, because cast down was the accuser of our brethren, who is accusing them before our God day and night;"
   },
   {
     "book": "REV",
     "chapter": 12,
     "verse": 11,
-    "content": "and they did overcome him because of the blood of the Lamb, and because of the word of their testimony, and they did not love their life-unto death;"
+    "content": "and they did overcome him because of the blood of the Lamb, and because of the word of their testimony, and they did not love their life—unto death;"
   },
   {
     "book": "REV",
     "chapter": 12,
     "verse": 12,
-    "content": "because of this be glad, ye heavens, and those in them who do tabernacle; woe to those inhabiting the land and the sea, because the Devil did go down unto you, having great wrath, having known that he hath little time.’"
+    "content": "because of this be glad, ye heavens, and those in them who do tabernacle; woe to those inhabiting the land and the sea, because the Devil did go down unto you, having great wrath, having known that he hath little time.”"
   },
   {
     "book": "REV",
     "chapter": 12,
     "verse": 13,
-    "content": "And when the dragon saw that he was cast forth to the earth, he pursued the woman who did bring forth the male,"
+    "content": {
+      "paragraph": true,
+      "text": "And when the dragon saw that he was cast forth to the earth, he pursued the woman who did bring forth the male,"
+    }
   },
   {
     "book": "REV",
@@ -1305,10 +1736,13 @@
     "book": "REV",
     "chapter": 13,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I stood upon the sand of the sea, and I saw out of the sea a beast coming up, having seven heads and ten horns, and upon its horns ten diadems, and upon its heads a name of evil speaking,"
-    }
+    "content": [
+      { "heading": "War in the Sea and on Land" },
+      {
+        "paragraph": true,
+        "text": "And I stood upon the sand of the sea, and I saw out of the sea a beast coming up, having seven heads and ten horns, and upon its horns ten diadems, and upon its heads a name of evil speaking,"
+      }
+    ]
   },
   {
     "book": "REV",
@@ -1326,7 +1760,11 @@
     "book": "REV",
     "chapter": 13,
     "verse": 4,
-    "content": "and they did bow before the dragon who did give authority to the beast, and they did bow before the beast, saying, ‘Who is like to the beast? who is able to war with it?’"
+    "content": [
+      "and they did bow before the dragon who did give authority to the beast, and they did bow before the beast, saying, “Who ",
+      { "text": "is", "marks": ["i"] },
+      " like to the beast? who is able to war with it?”"
+    ]
   },
   {
     "book": "REV",
@@ -1344,7 +1782,10 @@
     "book": "REV",
     "chapter": 13,
     "verse": 7,
-    "content": "and there was given to it to make war with the saints, and to overcome them, and there was given to it authority over every tribe, and tongue, and nation."
+    "content": {
+      "paragraph": true,
+      "text": "and there was given to it to make war with the saints, and to overcome them, and there was given to it authority over every tribe, and tongue, and nation."
+    }
   },
   {
     "book": "REV",
@@ -1356,7 +1797,7 @@
     "book": "REV",
     "chapter": 13,
     "verse": 9,
-    "content": "if any one hath an ear-let him hear:"
+    "content": "if any one hath an ear—let him hear:"
   },
   {
     "book": "REV",
@@ -1368,7 +1809,10 @@
     "book": "REV",
     "chapter": 13,
     "verse": 11,
-    "content": "And I saw another beast coming up out of the land, and it had two horns, like a lamb, and it was speaking as a dragon,"
+    "content": {
+      "paragraph": true,
+      "text": "And I saw another beast coming up out of the land, and it had two horns, like a lamb, and it was speaking as a dragon,"
+    }
   },
   {
     "book": "REV",
@@ -1392,7 +1836,11 @@
     "book": "REV",
     "chapter": 13,
     "verse": 15,
-    "content": "and there was given to it to give a spirit to the image of the beast, that also the image of the beast may speak, and that it may cause as many as shall not bow before the image of the beast, that they may be killed."
+    "content": [
+      "and there was given to it to give a spirit to the image of the beast, that also the image of the beast may speak, and ",
+      { "text": "that", "marks": ["i"] },
+      " it may cause as many as shall not bow before the image of the beast, that they may be killed."
+    ]
   },
   {
     "book": "REV",
@@ -1410,16 +1858,23 @@
     "book": "REV",
     "chapter": 13,
     "verse": 18,
-    "content": "Here is the wisdom! He who is having the understanding, let him count the number of the beast, for the number of a man it is, and its number is six hundred and sixty six."
+    "content": [
+      "Here is the wisdom! He who is having the understanding, let him count the number of the beast, for the number of a man it is, and its number ",
+      { "text": "is", "marks": ["i"] },
+      " six hundred and sixty six."
+    ]
   },
   {
     "book": "REV",
     "chapter": 14,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I saw, and lo, a Lamb having stood upon the mount Sion, and with him an hundred forty-four thousands, having the name of his Father written upon their foreheads;"
-    }
+    "content": [
+      { "heading": "The Church Triumphant" },
+      {
+        "paragraph": true,
+        "text": "And I saw, and lo, a Lamb having stood upon the mount Sion, and with him an hundred forty-four thousands, having the name of his Father written upon their foreheads;"
+      }
+    ]
   },
   {
     "book": "REV",
@@ -1437,7 +1892,7 @@
     "book": "REV",
     "chapter": 14,
     "verse": 4,
-    "content": "these are they who with women were not defiled, for they are virgin; these are they who are following the Lamb whithersoever he may go; these were bought from among men-a first-fruit to God and to the Lamb-"
+    "content": "these are they who with women were not defiled, for they are virgin; these are they who are following the Lamb whithersoever he may go; these were bought from among men—a first-fruit to God and to the Lamb—"
   },
   {
     "book": "REV",
@@ -1449,25 +1904,34 @@
     "book": "REV",
     "chapter": 14,
     "verse": 6,
-    "content": "And I saw another messenger flying in mid-heaven, having good news age-during to proclaim to those dwelling upon the earth, and to every nation, and tribe, and tongue, and people,"
+    "content": {
+      "paragraph": true,
+      "text": "And I saw another messenger flying in mid-heaven, having good news age-during to proclaim to those dwelling upon the earth, and to every nation, and tribe, and tongue, and people,"
+    }
   },
   {
     "book": "REV",
     "chapter": 14,
     "verse": 7,
-    "content": "saying in a great voice, ‘Fear ye God, and give to Him glory, because come did the hour of His judgment, and bow ye before Him who did make the heaven, and the land, and sea, and fountains of waters.’"
+    "content": "saying in a great voice, “Fear ye God, and give to Him glory, because come did the hour of His judgment, and bow ye before Him who did make the heaven, and the land, and sea, and fountains of waters.”"
   },
   {
     "book": "REV",
     "chapter": 14,
     "verse": 8,
-    "content": "And another messenger did follow, saying, ‘Fall, fall, did Babylon, the great city, because of the wine of the wrath of her whoredom she hath given to all nations to drink.’"
+    "content": {
+      "paragraph": true,
+      "text": "And another messenger did follow, saying, “Fall, fall, did Babylon, the great city, because of the wine of the wrath of her whoredom she hath given to all nations to drink.”"
+    }
   },
   {
     "book": "REV",
     "chapter": 14,
     "verse": 9,
-    "content": "And a third messenger did follow them, saying in a great voice, ‘If any one the beast doth bow before, and his image, and doth receive a mark upon his forehead, or upon his hand,"
+    "content": {
+      "paragraph": true,
+      "text": "And a third messenger did follow them, saying in a great voice, “If any one the beast doth bow before, and his image, and doth receive a mark upon his forehead, or upon his hand,"
+    }
   },
   {
     "book": "REV",
@@ -1485,25 +1949,39 @@
     "book": "REV",
     "chapter": 14,
     "verse": 12,
-    "content": "Here is endurance of the saints: here are those keeping the commands of God, and the faith of Jesus.’"
+    "content": [
+      "Here is endurance of the saints: here ",
+      { "text": "are", "marks": ["i"] },
+      " those keeping the commands of God, and the faith of Jesus.”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 14,
     "verse": 13,
-    "content": "And I heard a voice out of the heaven saying to me, ‘Write: Happy are the dead who in the Lord are dying from this time!’ ‘Yes, (saith the Spirit,) That they may rest from their labours-and their works do follow them!’"
+    "content": {
+      "paragraph": true,
+      "text": "And I heard a voice out of the heaven saying to me, “Write: Happy are the dead who in the Lord are dying from this time!” “Yes, (saith the Spirit,) That they may rest from their labours—and their works do follow them!”"
+    }
   },
   {
     "book": "REV",
     "chapter": 14,
     "verse": 14,
-    "content": "And I saw, and lo, a white cloud, and upon the cloud one sitting like to a son of man, having upon his head a golden crown, and in his hand a sharp sickle;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And I saw, and lo, a white cloud, and upon the cloud "
+      },
+      { "text": "one", "marks": ["i"] },
+      " sitting like to a son of man, having upon his head a golden crown, and in his hand a sharp sickle;"
+    ]
   },
   {
     "book": "REV",
     "chapter": 14,
     "verse": 15,
-    "content": "and another messenger did come forth out of the sanctuary crying in a great voice to him who is sitting upon the cloud, ‘Send forth thy sickle and reap, because come to thee hath the hour of reaping, because ripe hath been the harvest of the earth;’"
+    "content": "and another messenger did come forth out of the sanctuary crying in a great voice to him who is sitting upon the cloud, “Send forth thy sickle and reap, because come to thee hath the hour of reaping, because ripe hath been the harvest of the earth;”"
   },
   {
     "book": "REV",
@@ -1515,25 +1993,36 @@
     "book": "REV",
     "chapter": 14,
     "verse": 17,
-    "content": "And another messenger did come forth out of the sanctuary that is in the heaven, having-he also-a sharp sickle,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And another messenger did come forth out of the sanctuary that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " in the heaven, having—he also—a sharp sickle,"
+    ]
   },
   {
     "book": "REV",
     "chapter": 14,
     "verse": 18,
-    "content": "and another messenger did come forth out from the altar, having authority over the fire, and he called with a great cry to him having the sharp sickle, saying, ‘Send forth thy sharp sickle, and gather the clusters of the vine of the earth, because come to perfection have her grapes;’"
+    "content": "and another messenger did come forth out from the altar, having authority over the fire, and he called with a great cry to him having the sharp sickle, saying, “Send forth thy sharp sickle, and gather the clusters of the vine of the earth, because come to perfection have her grapes;”"
   },
   {
     "book": "REV",
     "chapter": 14,
     "verse": 19,
-    "content": "and the messenger did put forth his sickle to the earth, and did gather the vine of the earth, and did cast it to the great wine-press of the wrath of God;"
+    "content": [
+      "and the messenger did put forth his sickle to the earth, and did gather the vine of the earth, and did cast ",
+      { "text": "it", "marks": ["i"] },
+      " to the great wine-press of the wrath of God;"
+    ]
   },
   {
     "book": "REV",
     "chapter": 14,
     "verse": 20,
-    "content": "and trodden was the wine-press outside of the city, and blood did come forth out of the wine-press-unto the bridles of the horses, a thousand, six hundred furlongs."
+    "content": "and trodden was the wine-press outside of the city, and blood did come forth out of the wine-press—unto the bridles of the horses, a thousand, six hundred furlongs."
   },
   {
     "book": "REV",
@@ -1548,25 +2037,45 @@
     "book": "REV",
     "chapter": 15,
     "verse": 2,
-    "content": "and I saw as a sea of glass mingled with fire, and those who do gain the victory over the beast, and his image, and his mark, and the number of his name, standing by the sea of the glass, having harps of God,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "and I saw as a sea of glass mingled with fire, and those who do gain the victory over the beast, and his image, and his mark, "
+      },
+      { "text": "and", "marks": ["i"] },
+      " the number of his name, standing by the sea of the glass, having harps of God,"
+    ]
   },
   {
     "book": "REV",
     "chapter": 15,
     "verse": 3,
-    "content": "and they sing the song of Moses, servant of God, and the song of the Lamb, saying, ‘Great and wonderful are Thy works, O Lord God, the Almighty, righteous and true are Thy ways, O King of saints,"
+    "content": [
+      "and they sing the song of Moses, servant of God, and the song of the Lamb, saying, “Great and wonderful ",
+      { "text": "are", "marks": ["i"] },
+      " Thy works, O Lord God, the Almighty, righteous and true ",
+      { "text": "are", "marks": ["i"] },
+      " Thy ways, O King of saints,"
+    ]
   },
   {
     "book": "REV",
     "chapter": 15,
     "verse": 4,
-    "content": "who may not fear Thee, O Lord, and glorify Thy name? because Thou alone art kind, because all the nations shall come and bow before Thee, because Thy righteous acts were manifested.’"
+    "content": [
+      "who may not fear Thee, O Lord, and glorify Thy name? because Thou alone ",
+      { "text": "art", "marks": ["i"] },
+      " kind, because all the nations shall come and bow before Thee, because Thy righteous acts were manifested.”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 15,
     "verse": 5,
-    "content": "And after these things I saw, and lo, opened was the sanctuary of the tabernacle of the testimony in the heaven;"
+    "content": {
+      "paragraph": true,
+      "text": "And after these things I saw, and lo, opened was the sanctuary of the tabernacle of the testimony in the heaven;"
+    }
   },
   {
     "book": "REV",
@@ -1590,64 +2099,90 @@
     "book": "REV",
     "chapter": 16,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I heard a great voice out of the sanctuary saying to the seven messengers, ‘Go away, and pour out the vials of the wrath of God to the earth;’"
-    }
+    "content": [
+      { "heading": "Visions of Judgement" },
+      {
+        "paragraph": true,
+        "text": "And I heard a great voice out of the sanctuary saying to the seven messengers, “Go away, and pour out the vials of the wrath of God to the earth;”"
+      }
+    ]
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 2,
-    "content": "and the first did go away, and did pour out his vial upon the land, and there came a sore-bad and grievous-to men, those having the mark of the beast, and those bowing to his image."
+    "content": {
+      "paragraph": true,
+      "text": "and the first did go away, and did pour out his vial upon the land, and there came a sore—bad and grievous—to men, those having the mark of the beast, and those bowing to his image."
+    }
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 3,
-    "content": "And the second messenger did pour out his vial to the sea, and there came blood as of one dead, and every living soul died in the sea."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the second messenger did pour out his vial to the sea, and there came blood as of "
+      },
+      { "text": "one", "marks": ["i"] },
+      " dead, and every living soul died in the sea."
+    ]
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 4,
-    "content": "And the third messenger did pour out his vial to the rivers, and to the fountains of the waters, and there came blood,"
+    "content": {
+      "paragraph": true,
+      "text": "And the third messenger did pour out his vial to the rivers, and to the fountains of the waters, and there came blood,"
+    }
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 5,
-    "content": "and I heard the messenger of the waters, saying, ‘righteous, O Lord, art Thou, who art, and who wast, and who shalt be, because these things Thou didst judge,"
+    "content": "and I heard the messenger of the waters, saying, “righteous, O Lord, art Thou, who art, and who wast, and who shalt be, because these things Thou didst judge,"
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 6,
-    "content": "because blood of saints and prophets they did pour out, and blood to them Thou didst give to drink, for they are worthy;’"
+    "content": "because blood of saints and prophets they did pour out, and blood to them Thou didst give to drink, for they are worthy;”"
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 7,
-    "content": "and I heard another out of the altar, saying, ‘Yes, Lord God, the Almighty, true and righteous are Thy judgments.’"
+    "content": [
+      "and I heard another out of the altar, saying, “Yes, Lord God, the Almighty, true and righteous ",
+      { "text": "are", "marks": ["i"] },
+      " Thy judgments.”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 8,
-    "content": "And the fourth messenger did pour out his vial upon the sun, and there was given to him to scorch men with fire,"
+    "content": {
+      "paragraph": true,
+      "text": "And the fourth messenger did pour out his vial upon the sun, and there was given to him to scorch men with fire,"
+    }
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 9,
-    "content": "and men were scorched with great heat, and they did speak evil of the name of God, who hath authority over these plagues, and they did not reform-to give to Him glory."
+    "content": "and men were scorched with great heat, and they did speak evil of the name of God, who hath authority over these plagues, and they did not reform—to give to Him glory."
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 10,
-    "content": "And the fifth messenger did pour out his vial upon the throne of the beast, and his kingdom did become darkened, and they were gnawing their tongues from the pain,"
+    "content": {
+      "paragraph": true,
+      "text": "And the fifth messenger did pour out his vial upon the throne of the beast, and his kingdom did become darkened, and they were gnawing their tongues from the pain,"
+    }
   },
   {
     "book": "REV",
@@ -1659,25 +2194,39 @@
     "book": "REV",
     "chapter": 16,
     "verse": 12,
-    "content": "And the sixth messenger did pour out his vial upon the great river, the Euphrates, and dried up was its water, that the way of the kings who are from the rising of the sun may be made ready;"
+    "content": {
+      "paragraph": true,
+      "text": "And the sixth messenger did pour out his vial upon the great river, the Euphrates, and dried up was its water, that the way of the kings who are from the rising of the sun may be made ready;"
+    }
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 13,
-    "content": "and I saw come out of the mouth of the dragon, and out of the mouth of the beast, and out of the mouth of the false prophet, three unclean spirits like frogs-"
+    "content": [
+      "and I saw ",
+      { "text": "come", "marks": ["i"] },
+      " out of the mouth of the dragon, and out of the mouth of the beast, and out of the mouth of the false prophet, three unclean spirits like frogs—"
+    ]
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 14,
-    "content": "for they are spirits of demons, doing signs-which go forth unto the kings of the earth, and of the whole world, to bring them together to the battle of that great day of God the Almighty;-"
+    "content": "for they are spirits of demons, doing signs—which go forth unto the kings of the earth, and of the whole world, to bring them together to the battle of that great day of God the Almighty;—"
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 15,
-    "content": "‘lo, I do come as a thief; happy is he who is watching, and keeping his garments, that he may not walk naked, and they may see his unseemliness?’-"
+    "content": [
+      { "text": "“lo, I do come as a thief; happy ", "marks": ["woc"] },
+      { "text": "is", "marks": ["i", "woc"] },
+      {
+        "text": " he who is watching, and keeping his garments, that he may not walk naked, and they may see his unseemliness,”—",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "REV",
@@ -1689,19 +2238,22 @@
     "book": "REV",
     "chapter": 16,
     "verse": 17,
-    "content": "And the seventh messenger did pour out his vial to the air, and there came forth a great voice from the sanctuary of the heaven, from the throne, saying, ‘It hath come!’"
+    "content": {
+      "paragraph": true,
+      "text": "And the seventh messenger did pour out his vial to the air, and there came forth a great voice from the sanctuary of the heaven, from the throne, saying, “It hath come!”"
+    }
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 18,
-    "content": "and there came voices, and thunders, and lightnings; and a great earthquake came, such as came not since men came upon the earth, so mighty an earthquake-so great!"
+    "content": "and there came voices, and thunders, and lightnings; and a great earthquake came, such as came not since men came upon the earth, so mighty an earthquake—so great!"
   },
   {
     "book": "REV",
     "chapter": 16,
     "verse": 19,
-    "content": "And it came-the great city-into three parts, and the cities of the nations did fall, and Babylon the great was remembered before God, to give to her the cup of the wine of the wrath of His anger,"
+    "content": "And it came—the great city—into three parts, and the cities of the nations did fall, and Babylon the great was remembered before God, to give to her the cup of the wine of the wrath of His anger,"
   },
   {
     "book": "REV",
@@ -1719,16 +2271,19 @@
     "book": "REV",
     "chapter": 17,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And there came one of the seven messengers, who were having the seven vials, and he spake with me, saying to me, ‘Come, I will shew to thee the judgment of the great whore, who is sitting upon the many waters,"
-    }
+    "content": [
+      { "heading": "Visions of Doom" },
+      {
+        "paragraph": true,
+        "text": "And there came one of the seven messengers, who were having the seven vials, and he spake with me, saying to me, “Come, I will shew to thee the judgment of the great whore, who is sitting upon the many waters,"
+      }
+    ]
   },
   {
     "book": "REV",
     "chapter": 17,
     "verse": 2,
-    "content": "with whom the kings of the earth did commit whoredom; and made drunk from the wine of her whoredom were those inhabiting the earth;’"
+    "content": "with whom the kings of the earth did commit whoredom; and made drunk from the wine of her whoredom were those inhabiting the earth;”"
   },
   {
     "book": "REV",
@@ -1746,31 +2301,42 @@
     "book": "REV",
     "chapter": 17,
     "verse": 5,
-    "content": "and upon her forehead was a name written: ‘Secret, Babylon the Great, the Mother of the Whores, and the Abominations of the earth.’"
+    "content": "and upon her forehead was a name written: “Secret, Babylon the Great, the Mother of the Whores, and the Abominations of the earth.”"
   },
   {
     "book": "REV",
     "chapter": 17,
     "verse": 6,
-    "content": "And I saw the woman drunken from the blood of the saints, and from the blood of the witnesses of Jesus, and I did wonder-having seen her-with great wonder;"
+    "content": "And I saw the woman drunken from the blood of the saints, and from the blood of the witnesses of Jesus, and I did wonder—having seen her—with great wonder;"
   },
   {
     "book": "REV",
     "chapter": 17,
     "verse": 7,
-    "content": "and the messenger said to me, ‘Wherefore didst thou wonder? I-I will tell thee the secret of the woman and of the beast that is carrying her, which hath the seven heads and the ten horns."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "and the messenger said to me, “Wherefore didst thou wonder? I—I will tell thee the secret of the woman and of the beast that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " carrying her, which hath the seven heads and the ten horns."
+    ]
   },
   {
     "book": "REV",
     "chapter": 17,
     "verse": 8,
-    "content": "‘The beast that thou didst see: it was, and it is not; and it is about to come up out of the abyss, and to go away to destruction, and wonder shall those dwelling upon the earth, whose names have not been written upon the scroll of the life from the foundation of the world, beholding the beast that was, and is not, although it is."
+    "content": "“The beast that thou didst see: it was, and it is not; and it is about to come up out of the abyss, and to go away to destruction, and wonder shall those dwelling upon the earth, whose names have not been written upon the scroll of the life from the foundation of the world, beholding the beast that was, and is not, although it is."
   },
   {
     "book": "REV",
     "chapter": 17,
     "verse": 9,
-    "content": "‘Here is the mind that is having wisdom; the seven heads are seven mountains, upon which the woman doth sit,"
+    "content": [
+      "“Here ",
+      { "text": "is", "marks": ["i"] },
+      " the mind that is having wisdom; the seven heads are seven mountains, upon which the woman doth sit,"
+    ]
   },
   {
     "book": "REV",
@@ -1788,7 +2354,7 @@
     "book": "REV",
     "chapter": 17,
     "verse": 12,
-    "content": "‘And the ten horns that thou sawest, are ten kings, who a kingdom did not yet receive, but authority as kings the same hour do receive with the beast,"
+    "content": "“And the ten horns that thou sawest, are ten kings, who a kingdom did not yet receive, but authority as kings the same hour do receive with the beast,"
   },
   {
     "book": "REV",
@@ -1800,13 +2366,13 @@
     "book": "REV",
     "chapter": 17,
     "verse": 14,
-    "content": "these with the Lamb shall make war, and the Lamb shall overcome them, because Lord of lords he is, and King of kings, and those with him are called, and choice, and stedfast.’"
+    "content": "these with the Lamb shall make war, and the Lamb shall overcome them, because Lord of lords he is, and King of kings, and those with him are called, and choice, and stedfast.”"
   },
   {
     "book": "REV",
     "chapter": 17,
     "verse": 15,
-    "content": "And he saith to me, ‘The waters that thou didst see, where the whore doth sit, are peoples, and multitudes, and nations, and tongues;’"
+    "content": "And he saith to me, “The waters that thou didst see, where the whore doth sit, are peoples, and multitudes, and nations, and tongues;”"
   },
   {
     "book": "REV",
@@ -1824,7 +2390,7 @@
     "book": "REV",
     "chapter": 17,
     "verse": 18,
-    "content": "and the woman that thou didst see is the great city that is having reign over the kings of the land.’"
+    "content": "and the woman that thou didst see is the great city that is having reign over the kings of the land.”"
   },
   {
     "book": "REV",
@@ -1839,7 +2405,7 @@
     "book": "REV",
     "chapter": 18,
     "verse": 2,
-    "content": "and he did cry in might-a great voice, saying, ‘Fall, fall did Babylon the great, and she became a habitation of demons, and a hold of every unclean spirit, and a hold of every unclean and hateful bird,"
+    "content": "and he did cry in might—a great voice, saying, “Fall, fall did Babylon the great, and she became a habitation of demons, and a hold of every unclean spirit, and a hold of every unclean and hateful bird,"
   },
   {
     "book": "REV",
@@ -1851,13 +2417,16 @@
     "book": "REV",
     "chapter": 18,
     "verse": 4,
-    "content": "And I heard another voice out of the heaven, saying, ‘Come forth out of her, My people, that ye may not partake with her sins, and that ye may not receive of her plagues,"
+    "content": {
+      "paragraph": true,
+      "text": "And I heard another voice out of the heaven, saying, “Come forth out of her, My people, that ye may not partake with her sins, and that ye may not receive of her plagues,"
+    }
   },
   {
     "book": "REV",
     "chapter": 18,
     "verse": 5,
-    "content": "because her sins did follow-unto the heaven, and God did remember her unrighteousness."
+    "content": "because her sins did follow—unto the heaven, and God did remember her unrighteousness."
   },
   {
     "book": "REV",
@@ -1869,13 +2438,17 @@
     "book": "REV",
     "chapter": 18,
     "verse": 7,
-    "content": "‘As much as she did glorify herself and did revel, so much torment and sorrow give to her, because in her heart she saith, I sit a queen, and a widow I am not, and sorrow I shall not see;"
+    "content": "“As much as she did glorify herself and did revel, so much torment and sorrow give to her, because in her heart she saith, I sit a queen, and a widow I am not, and sorrow I shall not see;"
   },
   {
     "book": "REV",
     "chapter": 18,
     "verse": 8,
-    "content": "because of this, in one day, shall come her plagues, death, and sorrow, and famine; and in fire she shall be utterly burned, because strong is the Lord God who is judging her;"
+    "content": [
+      "because of this, in one day, shall come her plagues, death, and sorrow, and famine; and in fire she shall be utterly burned, because strong ",
+      { "text": "is", "marks": ["i"] },
+      " the Lord God who is judging her;"
+    ]
   },
   {
     "book": "REV",
@@ -1893,7 +2466,7 @@
     "book": "REV",
     "chapter": 18,
     "verse": 11,
-    "content": "‘And the merchants of the earth shall weep and sorrow over her, because their lading no one doth buy any more;"
+    "content": "“And the merchants of the earth shall weep and sorrow over her, because their lading no one doth buy any more;"
   },
   {
     "book": "REV",
@@ -1911,7 +2484,7 @@
     "book": "REV",
     "chapter": 18,
     "verse": 14,
-    "content": "‘And the fruits of the desire of thy soul did go away from thee, and all things-the dainty and the bright-did go away from thee, and no more at all mayest thou find them."
+    "content": "“And the fruits of the desire of thy soul did go away from thee, and all things—the dainty and the bright—did go away from thee, and no more at all mayest thou find them."
   },
   {
     "book": "REV",
@@ -1923,37 +2496,48 @@
     "book": "REV",
     "chapter": 18,
     "verse": 16,
-    "content": "and saying, Woe, woe, the great city, that was arrayed with fine linen, and purple, and scarlet, and gilded in gold, and precious stone, and pearls-because in one hour so much riches were made waste!"
+    "content": "and saying, Woe, woe, the great city, that was arrayed with fine linen, and purple, and scarlet, and gilded in gold, and precious stone, and pearls—because in one hour so much riches were made waste!"
   },
   {
     "book": "REV",
     "chapter": 18,
     "verse": 17,
-    "content": "‘And every shipmaster, and all the company upon the ships, and sailors, and as many as work the sea, far off stood,"
+    "content": "“And every shipmaster, and all the company upon the ships, and sailors, and as many as work the sea, far off stood,"
   },
   {
     "book": "REV",
     "chapter": 18,
     "verse": 18,
-    "content": "and were crying, seeing the smoke of her burning, saying, What city is like to the great city?"
+    "content": [
+      "and were crying, seeing the smoke of her burning, saying, What ",
+      { "text": "city is", "marks": ["i"] },
+      " like to the great city?"
+    ]
   },
   {
     "book": "REV",
     "chapter": 18,
     "verse": 19,
-    "content": "and they did cast dust upon their heads, and were crying out, weeping and sorrowing, saying, Woe, woe, the great city! in which were made rich all having ships in the sea, out of her costliness-for in one hour was she made waste."
+    "content": "and they did cast dust upon their heads, and were crying out, weeping and sorrowing, saying, Woe, woe, the great city! in which were made rich all having ships in the sea, out of her costliness—for in one hour was she made waste."
   },
   {
     "book": "REV",
     "chapter": 18,
     "verse": 20,
-    "content": "‘Be glad over her, O heaven, and ye holy apostles and prophets, because God did judge your judgment of her!’"
+    "content": "“Be glad over her, O heaven, and ye holy apostles and prophets, because God did judge your judgment of her!”"
   },
   {
     "book": "REV",
     "chapter": 18,
     "verse": 21,
-    "content": "And one strong messenger did take up a stone as a great millstone, and did cast it to the sea, saying, ‘Thus with violence shall Babylon be cast, the great city, and may not be found any more at all;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And one strong messenger did take up a stone as a great millstone, and did cast "
+      },
+      { "text": "it", "marks": ["i"] },
+      " to the sea, saying, “Thus with violence shall Babylon be cast, the great city, and may not be found any more at all;"
+    ]
   },
   {
     "book": "REV",
@@ -1965,52 +2549,61 @@
     "book": "REV",
     "chapter": 18,
     "verse": 23,
-    "content": "and light of a lamp may not shine at all in thee any more; and voice of bridegroom and of bride may not be heard at all in thee any more; because thy merchants were the great ones of the earth, because in thy sorcery were all the nations led astray,"
+    "content": "and light of a lamp may not shine at all in thee any more; and voice of bridegroom and of bride may not be heard at all in thee any more; because thy merchants were the great ones of the earth, because in thy sorcery were all the nationsled astray,"
   },
   {
     "book": "REV",
     "chapter": 18,
     "verse": 24,
-    "content": "and in her blood of prophets and of saints was found, and of all those who have been slain on the earth.’"
+    "content": "and in her blood of prophets and of saints was found, and of all those who have been slain on the earth.”"
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And after these things I heard a great voice of a great multitude in the heaven, saying, ‘Alleluia! the salvation, and the glory, and the honour, and the power, is to the Lord our God;"
-    }
+    "content": [
+      { "heading": "Songs of Deliverance" },
+      {
+        "paragraph": true,
+        "text": "And after these things I heard a great voice of a great multitude in the heaven, saying, “Alleluia! the salvation, and the glory, and the honour, and the power, "
+      },
+      { "text": "is", "marks": ["i"] },
+      " to the Lord our God;"
+    ]
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 2,
-    "content": "because true and righteous are His judgments, because He did judge the great whore who did corrupt the earth in her whoredom, and He did avenge the blood of His servants at her hand;’"
+    "content": [
+      "because true and righteous ",
+      { "text": "are", "marks": ["i"] },
+      " His judgments, because He did judge the great whore who did corrupt the earth in her whoredom, and He did avenge the blood of His servants at her hand;”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 3,
-    "content": "and a second time they said, ‘Alleluia;’ and her smoke doth come up-to the ages of the ages!"
+    "content": "and a second time they said, “Alleluia;” and her smoke doth come up—to the ages of the ages!"
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 4,
-    "content": "And fall down did the elders-the twenty and four-and the four living creatures, and they did bow before God who is sitting upon the throne, saying, ‘Amen, Alleluia.’"
+    "content": "And fall down did the elders—the twenty and four—and the four living creatures, and they did bow before God who is sitting upon the throne, saying, “Amen, Alleluia.”"
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 5,
-    "content": "And a voice out of the throne did come forth, saying, ‘Praise our God, all ye His servants, and those fearing Him, both the small and the great;’"
+    "content": "And a voice out of the throne did come forth, saying, “Praise our God, all ye His servants, and those fearing Him, both the small and the great;”"
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 6,
-    "content": "and I heard as the voice of a great multitude, and as the voice of many waters, and as the voice of mighty thunderings, saying, ‘Alleluia! because reign did the Lord God-the Almighty!"
+    "content": "and I heard as the voice of a great multitude, and as the voice of many waters, and as the voice of mighty thunderings, saying, “Alleluia! because reign did the Lord God—the Almighty!"
   },
   {
     "book": "REV",
@@ -2022,31 +2615,46 @@
     "book": "REV",
     "chapter": 19,
     "verse": 8,
-    "content": "and there was given to her that she may be arrayed with fine linen, pure and shining, for the fine linen is the righteous acts of the saints.’"
+    "content": "and there was given to her that she may be arrayed with fine linen, pure and shining, for the fine linen is the righteous acts of the saints.”"
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 9,
-    "content": "And he saith to me, ‘Write: Happy are they who to the supper of the marriage of the Lamb have been called;’ and he saith to me, ‘These are the true words of God;’"
+    "content": [
+      "And he saith to me, “Write: Happy ",
+      { "text": "are", "marks": ["i"] },
+      " they who to the supper of the marriage of the Lamb have been called;” and he saith to me, “These ",
+      { "text": "are", "marks": ["i"] },
+      " the true words of God;”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 10,
-    "content": "and I fell before his feet, to bow before him, and he saith to me, ‘See-not! fellow servant of thee am I, and of thy brethren, those having the testimony of Jesus; bow before God, for the testimony of Jesus is the spirit of the prophecy.’"
+    "content": "and I fell before his feet, to bow before him, and he saith to me, “See—not! fellow servant of thee am I, and of thy brethren, those having the testimony of Jesus; bow before God, for the testimony of Jesus is the spirit of the prophecy.”"
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 11,
-    "content": "And I saw the heaven having been opened, and lo, a white horse, and he who is sitting upon it is called Faithful and True, and in righteousness doth he judge and war,"
+    "content": {
+      "paragraph": true,
+      "text": "And I saw the heaven having been opened, and lo, a white horse, and he who is sitting upon it is called Faithful and True, and in righteousness doth he judge and war,"
+    }
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 12,
-    "content": "and his eyes are as a flame of fire, and upon his head are many diadems-having a name written that no one hath known, except himself,"
+    "content": [
+      "and his eyes ",
+      { "text": "are", "marks": ["i"] },
+      " as a flame of fire, and upon his head ",
+      { "text": "are", "marks": ["i"] },
+      " many diadems—having a name written that no one hath known, except himself,"
+    ]
   },
   {
     "book": "REV",
@@ -2058,7 +2666,7 @@
     "book": "REV",
     "chapter": 19,
     "verse": 14,
-    "content": "And the armies in the heaven were following him upon white horses, clothed in fine linen-white and pure;"
+    "content": "And the armies in the heaven were following him upon white horses, clothed in fine linen—white and pure;"
   },
   {
     "book": "REV",
@@ -2070,37 +2678,47 @@
     "book": "REV",
     "chapter": 19,
     "verse": 16,
-    "content": "and he hath upon the garment and upon his thigh the name written, ‘King of kings, and Lord of lords.’"
+    "content": "and he hath upon the garment and upon his thigh the name written, “King of kings, and Lord of lords.”"
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 17,
-    "content": "And I saw one messenger standing in the sun, and he cried, a great voice, saying to all the birds that are flying in mid-heaven, ‘Come and be gathered together to the supper of the great God,"
+    "content": {
+      "paragraph": true,
+      "text": "And I saw one messenger standing in the sun, and he cried, a great voice, saying to all the birds that are flying in mid-heaven, “Come and be gathered together to the supper of the great God,"
+    }
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 18,
-    "content": "that ye may eat flesh of kings, and flesh of chiefs of thousands, and flesh of strong men, and flesh of horses, and of those sitting on them, and the flesh of all-freemen and servants-both small and great.’"
+    "content": "that ye may eat flesh of kings, and flesh of chiefs of thousands, and flesh of strong men, and flesh of horses, and of those sitting on them, and the flesh of all—freemen and servants—both small and great.”"
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 19,
-    "content": "And I saw the beast, and the kings of the earth, and their armies, having been gathered together to make war with him who is sitting upon the horse, and with his army;"
+    "content": {
+      "paragraph": true,
+      "text": "And I saw the beast, and the kings of the earth, and their armies, having been gathered together to make war with him who is sitting upon the horse, and with his army;"
+    }
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 20,
-    "content": "and the beast was taken, and with him the false prophet who did the signs before him, in which he led astray those who did receive the mark of the beast, and those who did bow before his image; living they were cast-the two-to the lake of the fire, that is burning with brimstone;"
+    "content": "and the beast was taken, and with him the false prophet who did the signs before him, in which he led astray those who did receive the mark of the beast, and those who did bow before his image; living they were cast—the two—to the lake of the fire, that is burning with brimstone;"
   },
   {
     "book": "REV",
     "chapter": 19,
     "verse": 21,
-    "content": "and the rest were killed with the sword of him who is sitting on the horse, which sword is proceeding out of his mouth, and all the birds were filled out of their flesh."
+    "content": [
+      "and the rest were killed with the sword of him who is sitting on the horse, which ",
+      { "text": "sword", "marks": ["i"] },
+      " is proceeding out of his mouth, and all the birds were filled out of their flesh."
+    ]
   },
   {
     "book": "REV",
@@ -2127,31 +2745,49 @@
     "book": "REV",
     "chapter": 20,
     "verse": 4,
-    "content": "And I saw thrones, and they sat upon them, and judgment was given to them, and the souls of those who have been beheaded because of the testimony of Jesus, and because of the word of God, and who did not bow before the beast, nor his image, and did not receive the mark upon their forehead and upon their hand, and they did live and reign with Christ the thousand years;"
+    "content": {
+      "paragraph": true,
+      "text": "And I saw thrones, and they sat upon them, and judgment was given to them, and the souls of those who have been beheaded because of the testimony of Jesus, and because of the word of God, and who did not bow before the beast, nor his image, and did not receive the mark upon their forehead and upon their hand, and they did live and reign with Christ the thousand years;"
+    }
   },
   {
     "book": "REV",
     "chapter": 20,
     "verse": 5,
-    "content": "and the rest of the dead did not live again till the thousand years may be finished; this is the first rising again."
+    "content": [
+      "and the rest of the dead did not live again till the thousand years may be finished; this ",
+      { "text": "is", "marks": ["i"] },
+      " the first rising again."
+    ]
   },
   {
     "book": "REV",
     "chapter": 20,
     "verse": 6,
-    "content": "Happy and holy is he who is having part in the first rising again; over these the second death hath not authority, but they shall be priests of God and of the Christ, and shall reign with him a thousand years."
+    "content": [
+      "Happy and holy ",
+      { "text": "is", "marks": ["i"] },
+      " he who is having part in the first rising again; over these the second death hath not authority, but they shall be priests of God and of the Christ, and shall reign with him a thousand years."
+    ]
   },
   {
     "book": "REV",
     "chapter": 20,
     "verse": 7,
-    "content": "And when the thousand years may be finished, the Adversary shall be loosed out of his prison,"
+    "content": {
+      "paragraph": true,
+      "text": "And when the thousand years may be finished, the Adversary shall be loosed out of his prison,"
+    }
   },
   {
     "book": "REV",
     "chapter": 20,
     "verse": 8,
-    "content": "and he shall go forth to lead the nations astray, that are in the four corners of the earth-Gog and Magog-to gather them together to war, of whom the number is as the sand of the sea;"
+    "content": [
+      "and he shall go forth to lead the nations astray, that are in the four corners of the earth—Gog and Magog—to gather them together to war, of whom the number ",
+      { "text": "is", "marks": ["i"] },
+      " as the sand of the sea;"
+    ]
   },
   {
     "book": "REV",
@@ -2163,19 +2799,29 @@
     "book": "REV",
     "chapter": 20,
     "verse": 10,
-    "content": "and the Devil, who is leading them astray, was cast into the lake of fire and brimstone, where are the beast and the false prophet, and they shall be tormented day and night-to the ages of the ages."
+    "content": [
+      "and the Devil, who is leading them astray, was cast into the lake of fire and brimstone, where ",
+      { "text": "are", "marks": ["i"] },
+      " the beast and the false prophet, and they shall be tormented day and night—to the ages of the ages."
+    ]
   },
   {
     "book": "REV",
     "chapter": 20,
     "verse": 11,
-    "content": "And I saw a great white throne, and Him who is sitting upon it, from whose face the earth and the heaven did flee away, and place was not found for them;"
+    "content": [
+      { "heading": "Visions of Glory" },
+      {
+        "paragraph": true,
+        "text": "And I saw a great white throne, and Him who is sitting upon it, from whose face the earth and the heaven did flee away, and place was not found for them;"
+      }
+    ]
   },
   {
     "book": "REV",
     "chapter": 20,
     "verse": 12,
-    "content": "and I saw the dead, small and great, standing before God, and scrolls were opened, and another scroll was opened, which is that of the life, and the dead were judged out of the things written in the scrolls-according to their works;"
+    "content": "and I saw the dead, small and great, standing before God, and scrolls were opened, and another scroll was opened, which is that of the life, and the dead were judged out of the things written in the scrolls—according to their works;"
   },
   {
     "book": "REV",
@@ -2187,7 +2833,11 @@
     "book": "REV",
     "chapter": 20,
     "verse": 14,
-    "content": "and the death and the hades were cast to the lake of the fire-this is the second death;"
+    "content": [
+      "and the death and the hades were cast to the lake of the fire—this ",
+      { "text": "is", "marks": ["i"] },
+      " the second death;"
+    ]
   },
   {
     "book": "REV",
@@ -2199,58 +2849,72 @@
     "book": "REV",
     "chapter": 21,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I saw a new heaven and a new earth, for the first heaven and the first earth did pass away, and the sea is not any more;"
-    }
+    "content": [
+      { "heading": "A New Heaven and Earth" },
+      {
+        "paragraph": true,
+        "text": "And I saw a new heaven and a new earth, for the first heaven and the first earth did pass away, and the sea is not any more;"
+      }
+    ]
   },
   {
     "book": "REV",
     "chapter": 21,
     "verse": 2,
-    "content": "and I, John, saw the holy city-new Jerusalem-coming down from God out of the heaven, made ready as a bride adorned for her husband;"
+    "content": "and I, John, saw the holy city—new Jerusalem—coming down from God out of the heaven, made ready as a bride adorned for her husband;"
   },
   {
     "book": "REV",
     "chapter": 21,
     "verse": 3,
-    "content": "and I heard a great voice out of the heaven, saying, ‘Lo, the tabernacle of God is with men, and He will tabernacle with them, and they shall be His peoples, and God Himself shall be with them-their God,"
+    "content": [
+      "and I heard a great voice out of the heaven, saying, “Lo, the tabernacle of God ",
+      { "text": "is", "marks": ["i"] },
+      " with men, and He will tabernacle with them, and they shall be His peoples, and God Himself shall be with them—their God,"
+    ]
   },
   {
     "book": "REV",
     "chapter": 21,
     "verse": 4,
-    "content": "and God shall wipe away every tear from their eyes, and the death shall not be any more, nor sorrow, nor crying, nor shall there be any more pain, because the first things did go away.’"
+    "content": "and God shall wipe away every tear from their eyes, and the death shall not be any more, nor sorrow, nor crying, nor shall there be any more pain, because the first things did go away.”"
   },
   {
     "book": "REV",
     "chapter": 21,
     "verse": 5,
-    "content": "And He who is sitting upon the throne said, ‘Lo, new I make all things; and He saith to me, ‘Write, because these words are true and stedfast;’"
+    "content": "And He who is sitting upon the throne said, “Lo, new I make all things; and He saith to me, “Write, because these words are true and stedfast;”"
   },
   {
     "book": "REV",
     "chapter": 21,
     "verse": 6,
-    "content": "and He said to me, ‘It hath been done! I am the Alpha and the Omega, the Beginning and the End; I, to him who is thirsting, will give of the fountain of the water of the life freely;"
+    "content": "and He said to me, “It hath been done! I am the Alpha and the Omega, the Beginning and the End; I, to him who is thirsting, will give of the fountain of the water of the life freely;"
   },
   {
     "book": "REV",
     "chapter": 21,
     "verse": 7,
-    "content": "he who is overcoming shall inherit all things, and I will be to him-a God, and he shall be to me-the son,"
+    "content": "he who is overcoming shall inherit all things, and I will be to him—a God, and he shall be to me—the son,"
   },
   {
     "book": "REV",
     "chapter": 21,
     "verse": 8,
-    "content": "and to fearful, and unstedfast, and abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all the liars, their part is in the lake that is burning with fire and brimstone, which is a second death.’"
+    "content": [
+      "and to fearful, and unstedfast, and abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all the liars, their part ",
+      { "text": "is", "marks": ["i"] },
+      " in the lake that is burning with fire and brimstone, which is a second death.”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 21,
     "verse": 9,
-    "content": "And there came unto me one of the seven messengers, who have the seven vials that are full of the seven last plagues, and he spake with me, saying, ‘Come, I will shew thee the bride of the Lamb-the wife,’"
+    "content": {
+      "paragraph": true,
+      "text": "And there came unto me one of the seven messengers, who have the seven vials that are full of the seven last plagues, and he spake with me, saying, “Come, I will shew thee the bride of the Lamb—the wife,”"
+    }
   },
   {
     "book": "REV",
@@ -2262,13 +2926,21 @@
     "book": "REV",
     "chapter": 21,
     "verse": 11,
-    "content": "having the glory of God, and her light is like a stone most precious, as a jasper stone clear as crystal,"
+    "content": [
+      "having the glory of God, and her light ",
+      { "text": "is", "marks": ["i"] },
+      " like a stone most precious, as a jasper stone clear as crystal,"
+    ]
   },
   {
     "book": "REV",
     "chapter": 21,
     "verse": 12,
-    "content": "having also a wall great and high, having twelve gates, and at the gates twelve messengers, and names written thereon, which are those of the twelve tribes of the sons of Israel,"
+    "content": [
+      "having also a wall great and high, having twelve gates, and at the gates twelve messengers, and names written thereon, which are ",
+      { "text": "those", "marks": ["i"] },
+      " of the twelve tribes of the sons of Israel,"
+    ]
   },
   {
     "book": "REV",
@@ -2292,7 +2964,7 @@
     "book": "REV",
     "chapter": 21,
     "verse": 16,
-    "content": "and the city lieth square, and the length of it is as great as the breadth; and he did measure the city with the reed-furlongs twelve thousand; the length, and the breadth, and the height, of it are equal;"
+    "content": "and the city lieth square, and the length of it is as great as the breadth; and he did measure the city with the reed—furlongs twelve thousand; the length, and the breadth, and the height, of it are equal;"
   },
   {
     "book": "REV",
@@ -2304,7 +2976,11 @@
     "book": "REV",
     "chapter": 21,
     "verse": 18,
-    "content": "and the building of its wall was jasper, and the city is pure gold-like to pure glass;"
+    "content": [
+      "and the building of its wall was jasper, and the city ",
+      { "text": "is", "marks": ["i"] },
+      " pure gold—like to pure glass;"
+    ]
   },
   {
     "book": "REV",
@@ -2322,7 +2998,13 @@
     "book": "REV",
     "chapter": 21,
     "verse": 21,
-    "content": "And the twelve gates are twelve pearls, each several one of the gates was of one pearl; and the broad-place of the city is pure gold-as transparent glass."
+    "content": [
+      "And the twelve gates ",
+      { "text": "are", "marks": ["i"] },
+      " twelve pearls, each several one of the gates was of one pearl; and the broad-place of the city ",
+      { "text": "is", "marks": ["i"] },
+      " pure gold—as transparent glass."
+    ]
   },
   {
     "book": "REV",
@@ -2334,7 +3016,11 @@
     "book": "REV",
     "chapter": 21,
     "verse": 23,
-    "content": "and the city hath no need of the sun, nor of the moon, that they may shine in it; for the glory of God did lighten it, and the lamp of it is the Lamb;"
+    "content": [
+      "and the city hath no need of the sun, nor of the moon, that they may shine in it; for the glory of God did lighten it, and the lamp of it ",
+      { "text": "is", "marks": ["i"] },
+      " the Lamb;"
+    ]
   },
   {
     "book": "REV",
@@ -2358,7 +3044,7 @@
     "book": "REV",
     "chapter": 21,
     "verse": 27,
-    "content": "and there may not at all enter into it any thing defiling and doing abomination, and a lie, but-those written in the scroll of the life of the Lamb."
+    "content": "and there may not at all enter into it any thing defiling and doing abomination, and a lie, but—those written in the scroll of the life of the Lamb."
   },
   {
     "book": "REV",
@@ -2373,7 +3059,13 @@
     "book": "REV",
     "chapter": 22,
     "verse": 2,
-    "content": "in the midst of its broad place, and of the river on this side and on that, is a tree of life, yielding twelve fruits, in each several month rendering its fruits, and the leaves of the tree are for the service of the nations;"
+    "content": [
+      "in the midst of its broad place, and of the river on this side and on that, ",
+      { "text": "is", "marks": ["i"] },
+      " a tree of life, yielding twelve fruits, in each several month rendering its fruits, and the leaves of the tree ",
+      { "text": "are", "marks": ["i"] },
+      " for the service of the nations;"
+    ]
   },
   {
     "book": "REV",
@@ -2385,108 +3077,159 @@
     "book": "REV",
     "chapter": 22,
     "verse": 4,
-    "content": "and they shall see His face, and His name is upon their foreheads,"
+    "content": [
+      "and they shall see His face, and His name ",
+      { "text": "is", "marks": ["i"] },
+      " upon their foreheads,"
+    ]
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 5,
-    "content": "and night shall not be there, and they have no need of a lamp and light of a sun, because the Lord God doth give them light, and they shall reign-to the ages of the ages."
+    "content": "and night shall not be there, and they have no need of a lamp and light of a sun, because the Lord God doth give them light, and they shall reign—to the ages of the ages."
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 6,
-    "content": "And he said to me, ‘These words are stedfast and true, and the Lord God of the holy prophets did send His messenger to shew to His servants the things that it behoveth to come quickly:"
+    "content": [
+      { "heading": "The Words of this Book" },
+      { "paragraph": true, "text": "And he said to me, “These words " },
+      { "text": "are", "marks": ["i"] },
+      " stedfast and true, and the Lord God of the holy prophets did send His messenger to shew to His servants the things that it behoveth to come quickly:"
+    ]
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 7,
-    "content": "Lo, I come quickly; happy is he who is keeping the words of the prophecy of this scroll.’"
+    "content": [
+      "Lo, I come quickly; happy ",
+      { "text": "is", "marks": ["i"] },
+      " he who is keeping the words of the prophecy of this scroll.”"
+    ]
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 8,
-    "content": "And I, John, am he who is seeing these things and hearing, and when I heard and beheld, I fell down to bow before the feet of the messenger who is shewing me these things;"
+    "content": {
+      "paragraph": true,
+      "text": "And I, John, am he who is seeing these things and hearing, and when I heard and beheld, I fell down to bow before the feet of the messenger who is shewing me these things;"
+    }
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 9,
-    "content": "and he saith to me, ‘See-not; for fellow-servant of thee am I, and of thy brethren the prophets, and of those keeping the words of this scroll; before God bow.’"
+    "content": "and he saith to me, “See—not; for fellow-servant of thee am I, and of thy brethren the prophets, and of those keeping the words of this scroll; before God bow.”"
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 10,
-    "content": "And he saith to me, ‘Thou mayest not seal the words of the prophecy of this scroll, because the time is nigh;"
+    "content": {
+      "paragraph": true,
+      "text": "And he saith to me, “Thou mayest not seal the words of the prophecy of this scroll, because the time is nigh;"
+    }
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 11,
-    "content": "he who is unrighteous-let him be unrighteous still, and he who is filthy-let him be filthy still, and he who is righteous-let him be declared righteous still, and he who is sanctified-let him be sanctified still:"
+    "content": "he who is unrighteous—let him be unrighteous still, and he who is filthy—let him be filthy still, and he who is righteous—let him be declared righteous still, and he who is sanctified—let him be sanctified still:"
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 12,
-    "content": "And lo, I come quickly, and my reward is with me, to render to each as his work shall be;"
+    "content": [
+      { "text": "And lo, I come quickly, and my reward ", "marks": ["woc"] },
+      { "text": "is", "marks": ["i", "woc"] },
+      {
+        "text": " with me, to render to each as his work shall be;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 13,
-    "content": "I am the Alpha and the Omega-the Beginning and End-the First and the Last."
+    "content": {
+      "text": "I am the Alpha and the Omega—the Beginning and End—the First and the Last.",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 14,
-    "content": "‘Happy are those doing His commands that the authority shall be theirs unto the tree of the life, and by the gates they may enter into the city;"
+    "content": "“Happy are those doing His commands that the authority shall be theirs unto the tree of the life, and by the gates they may enter into the city;"
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 15,
-    "content": "and without are the dogs, and the sorcerers, and the whoremongers, and the murderers, and the idolaters, and every one who is loving and is doing a lie."
+    "content": [
+      "and without ",
+      { "text": "are", "marks": ["i"] },
+      " the dogs, and the sorcerers, and the whoremongers, and the murderers, and the idolaters, and every one who is loving and is doing a lie."
+    ]
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 16,
-    "content": "‘I, Jesus did send my messenger to testify to you these things concerning the assemblies; I am the root and the offspring of David, the bright and morning star!"
+    "content": {
+      "paragraph": true,
+      "text": "“I, Jesus did send my messenger to testify to you these things concerning the assemblies; I am the root and the offspring of David, the bright and morning star!",
+      "marks": ["woc"]
+    }
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 17,
-    "content": "And the Spirit and the Bride say, Come; and he who is hearing-let him say, Come; and he who is thirsting-let him come; and he who is willing-let him take the water of life freely."
+    "content": {
+      "paragraph": true,
+      "text": "And the Spirit and the Bride say, Come; and he who is hearing—let him say, Come; and he who is thirsting—let him come; and he who is willing—let him take the water of life freely."
+    }
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 18,
-    "content": "‘For I testify to every one hearing the words of the prophecy of this scroll, if any one may add unto these, God shall add to him the plagues that have been written in this scroll,"
+    "content": {
+      "paragraph": true,
+      "text": "“For I testify to every one hearing the words of the prophecy of this scroll, if any one may add unto these, God shall add to him the plagues that have been written in this scroll,"
+    }
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 19,
-    "content": "and if any one may take away from the words of the scroll of this prophecy, God shall take away his part from the scroll of the life, and out of the holy city, and the things that have been written in this scroll;’"
+    "content": "and if any one may take away from the words of the scroll of this prophecy, God shall take away his part from the scroll of the life, and out of the holy city, and the things that have been written in this scroll;”"
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 20,
-    "content": "he saith-who is testifying these things-‘Yes, I come quickly!’ Amen! Yes, be coming, Lord Jesus!"
+    "content": [
+      { "paragraph": true, "text": "he saith—who is testifying these things—" },
+      { "text": "“Yes, I come quickly!”", "marks": ["woc"] },
+      " Amen! Yes, be coming, Lord Jesus!"
+    ]
   },
   {
     "book": "REV",
     "chapter": 22,
     "verse": 21,
-    "content": "The grace of our Lord Jesus Christ is with you all. Amen."
+    "content": [
+      { "paragraph": true, "text": "The grace of our Lord Jesus Christ " },
+      { "text": "is", "marks": ["i"] },
+      " with you all. Amen."
+    ]
   }
 ]

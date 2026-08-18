@@ -24,7 +24,10 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 4,
-    "content": "I give thanks to my God, always making mention of thee in my prayers,"
+    "content": {
+      "paragraph": true,
+      "text": "I give thanks to my God, always making mention of thee in my prayers,"
+    }
   },
   {
     "book": "PHM",
@@ -36,7 +39,11 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 6,
-    "content": "that the fellowship of thy faith may become working in the full knowledge of every good thing that is in you toward Christ Jesus;"
+    "content": [
+      "that the fellowship of thy faith may become working in the full knowledge of every good thing that ",
+      { "text": "is", "marks": ["i"] },
+      " in you toward Christ Jesus;"
+    ]
   },
   {
     "book": "PHM",
@@ -48,7 +55,10 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 8,
-    "content": "Wherefore, having in Christ much boldness to command thee that which is fit-"
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore, having in Christ much boldness to command thee that which is fit—"
+    }
   },
   {
     "book": "PHM",
@@ -60,7 +70,7 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 10,
-    "content": "I entreat thee concerning my child-whom I did beget in my bonds-Onesimus,"
+    "content": "I entreat thee concerning my child—whom I did beget in my bonds—Onesimus,"
   },
   {
     "book": "PHM",
@@ -96,7 +106,7 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 16,
-    "content": "no more as a servant, but above a servant-a brother beloved, especially to me, and how much more to thee, both in the flesh and in the Lord!"
+    "content": "no more as a servant, but above a servant—a brother beloved, especially to me, and how much more to thee, both in the flesh and in the Lord!"
   },
   {
     "book": "PHM",
@@ -114,7 +124,7 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 19,
-    "content": "I, Paul did write with my hand, I-I will repay; that I may not say that also thyself, besides, to me thou dost owe."
+    "content": "I, Paul did write with my hand, I—I will repay; that I may not say that also thyself, besides, to me thou dost owe."
   },
   {
     "book": "PHM",
@@ -126,7 +136,10 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 21,
-    "content": "having been confident in thy obedience I did write to thee, having known that also above what I may say thou wilt do;"
+    "content": {
+      "paragraph": true,
+      "text": "having been confident in thy obedience I did write to thee, having known that also above what I may say thou wilt do;"
+    }
   },
   {
     "book": "PHM",
@@ -138,7 +151,10 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 23,
-    "content": "Salute thee doth Epaphras, (my fellow-captive in Christ Jesus,)"
+    "content": {
+      "paragraph": true,
+      "text": "Salute thee doth Epaphras, (my fellow-captive in Christ Jesus,)"
+    }
   },
   {
     "book": "PHM",
@@ -150,6 +166,10 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 25,
-    "content": "The grace of our Lord Jesus Christ is with your spirit! Amen."
+    "content": [
+      { "paragraph": true, "text": "The grace of our Lord Jesus Christ " },
+      { "text": "is", "marks": ["i"] },
+      " with your spirit! Amen."
+    ]
   }
 ]

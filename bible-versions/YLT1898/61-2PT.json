@@ -30,7 +30,7 @@
     "book": "2PT",
     "chapter": 1,
     "verse": 5,
-    "content": "And this same also-all diligence having brought in besides, superadd in your faith the worthiness, and in the worthiness the knowledge,"
+    "content": "And this same also—all diligence having brought in besides, superadd in your faith the worthiness, and in the worthiness the knowledge,"
   },
   {
     "book": "2PT",
@@ -48,7 +48,11 @@
     "book": "2PT",
     "chapter": 1,
     "verse": 8,
-    "content": "for these things being to you and abounding, do make you neither inert nor unfruitful in regard to the acknowledging of our Lord Jesus Christ,"
+    "content": [
+      "for these things being to you and abounding, do make ",
+      { "text": "you", "marks": ["i"] },
+      " neither inert nor unfruitful in regard to the acknowledging of our Lord Jesus Christ,"
+    ]
   },
   {
     "book": "2PT",
@@ -72,13 +76,20 @@
     "book": "2PT",
     "chapter": 1,
     "verse": 12,
-    "content": "Wherefore, I will not be careless always to remind you concerning these things, though, having known them, and having been established in the present truth,"
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore, I will not be careless always to remind you concerning these things, though, having known them, and having been established in the present truth,"
+    }
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 13,
-    "content": "and I think right, so long as I am in this tabernacle, to stir you up in reminding you,"
+    "content": [
+      "and I think right, so long as I am in this tabernacle, to stir you up in reminding ",
+      { "text": "you", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "2PT",
@@ -96,25 +107,25 @@
     "book": "2PT",
     "chapter": 1,
     "verse": 16,
-    "content": "For, skilfully devised fables not having followed out, we did make known to you the power and presence of our Lord Jesus Christ, but eye-witnesses having become of his majesty-"
+    "content": "For, skilfully devised fables not having followed out, we did make known to you the power and presence of our Lord Jesus Christ, but eye-witnesses having become of his majesty—"
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 17,
-    "content": "for having received from God the Father honour and glory, such a voice being borne to him by the excellent glory: ‘This is My Son-the beloved, in whom I was well pleased;’"
+    "content": "for having received from God the Father honour and glory, such a voice being borne to him by the excellent glory: “This is My Son—the beloved, in whom I was well pleased;”"
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 18,
-    "content": "and this voice we-we did hear, out of heaven borne, being with him in the holy mount."
+    "content": "and this voice we—we did hear, out of heaven borne, being with him in the holy mount."
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 19,
-    "content": "And we have more firm the prophetic word, to which we do well giving heed, as to a lamp shining in a dark place, till day may dawn, and a morning star may arise-in your hearts;"
+    "content": "And we have more firm the prophetic word, to which we do well giving heed, as to a lamp shining in a dark place, till day may dawn, and a morning star may arise—in your hearts;"
   },
   {
     "book": "2PT",
@@ -132,10 +143,13 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And there did come also false prophets among the people, as also among you there shall be false teachers, who shall bring in besides destructive sects, and the Master who bought them denying, bringing to themselves quick destruction,"
-    }
+    "content": [
+      { "heading": "False Teachers" },
+      {
+        "paragraph": true,
+        "text": "And there did come also false prophets among the people, as also among you there shall be false teachers, who shall bring in besides destructive sects, and the Master who bought them denying, bringing to themselves quick destruction,"
+      }
+    ]
   },
   {
     "book": "2PT",
@@ -153,7 +167,13 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 4,
-    "content": "For if God messengers who sinned did not spare, but with chains of thick gloom, having cast them down to Tartarus, did deliver them to judgment, having been reserved,"
+    "content": [
+      "For if God messengers who sinned did not spare, but with chains of thick gloom, having cast ",
+      { "text": "them", "marks": ["i"] },
+      " down to Tartarus, did deliver ",
+      { "text": "them", "marks": ["i"] },
+      " to judgment, having been reserved,"
+    ]
   },
   {
     "book": "2PT",
@@ -165,7 +185,11 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 6,
-    "content": "and the cities of Sodom and Gomorrah having turned to ashes, with an overthrow did condemn, an example to those about to be impious having set them;"
+    "content": [
+      "and the cities of Sodom and Gomorrah having turned to ashes, with an overthrow did condemn, an example to those about to be impious having set ",
+      { "text": "them", "marks": ["i"] },
+      ";"
+    ]
   },
   {
     "book": "2PT",
@@ -201,7 +225,10 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 12,
-    "content": "and these, as irrational natural beasts, made to be caught and destroyed-in what things they are ignorant of, speaking evil-in their destruction shall be destroyed,"
+    "content": {
+      "paragraph": true,
+      "text": "and these, as irrational natural beasts, made to be caught and destroyed—in what things they are ignorant of, speaking evil—in their destruction shall be destroyed,"
+    }
   },
   {
     "book": "2PT",
@@ -219,13 +246,17 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 15,
-    "content": "having forsaken a right way, they did go astray, having followed in the way of Balaam the son of Bosor, who a reward of unrighteousness did love,"
+    "content": [
+      "having forsaken a right way, they did go astray, having followed in the way of Balaam the ",
+      { "text": "son", "marks": ["i"] },
+      " of Bosor, who a reward of unrighteousness did love,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 2,
     "verse": 16,
-    "content": "and had a rebuke of his own iniquity-a dumb ass, in man’s voice having spoken, did forbid the madness of the prophet."
+    "content": "and had a rebuke of his own iniquity—a dumb ass, in man’s voice having spoken, did forbid the madness of the prophet."
   },
   {
     "book": "2PT",
@@ -237,7 +268,7 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 18,
-    "content": "for overswellings of vanity speaking, they do entice in desires of the flesh-lasciviousnesses, those who had truly escaped from those conducting themselves in error,"
+    "content": "for overswellings of vanity speaking, they do entice in desires of the flesh—lasciviousnesses, those who had truly escaped from those conducting themselves in error,"
   },
   {
     "book": "2PT",
@@ -255,22 +286,30 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 21,
-    "content": "for it were better to them not to have acknowledged the way of the righteousness, than having acknowledged it, to turn back from the holy command delivered to them,"
+    "content": [
+      "for it were better to them not to have acknowledged the way of the righteousness, than having acknowledged ",
+      { "text": "it", "marks": ["i"] },
+      ", to turn back from the holy command delivered to them,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 2,
     "verse": 22,
-    "content": "and happened to them hath that of the true similitude; ‘A dog did turn back upon his own vomit,’ and, ‘A sow having bathed herself-to rolling in mire.’"
+    "content": "and happened to them hath that of the true similitude; “A dog did turn back upon his own vomit,” and, “A sow having bathed herself—to rolling in mire.”"
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "This, now, beloved, a second letter to you I write, in both which I stir up your pure mind in reminding you,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "This, now, beloved, a second letter to you I write, in both which I stir up your pure mind in reminding "
+      },
+      { "text": "you", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "2PT",
@@ -288,7 +327,7 @@
     "book": "2PT",
     "chapter": 3,
     "verse": 4,
-    "content": "and saying, ‘Where is the promise of his presence? for since the fathers did fall asleep, all things so remain from the beginning of the creation;’"
+    "content": "and saying, “Where is the promise of his presence? for since the fathers did fall asleep, all things so remain from the beginning of the creation;”"
   },
   {
     "book": "2PT",
@@ -312,19 +351,26 @@
     "book": "2PT",
     "chapter": 3,
     "verse": 8,
-    "content": "And this one thing let not be unobserved by you, beloved, that one day with the Lord is as a thousand years, and a thousand years as one day;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And this one thing let not be unobserved by you, beloved, that one day with the Lord "
+      },
+      { "text": "is", "marks": ["i"] },
+      " as a thousand years, and a thousand years as one day;"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 9,
-    "content": "the Lord is not slow in regard to the promise, as certain count slowness, but is long-suffering to us, not counselling any to be lost but all to pass on to reformation,"
+    "content": "the Lord is not slow in regard to the promise, as certain count slowness, but is longsuffering to us, not counselling any to be lost but all to pass on to reformation,"
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 10,
-    "content": "and it will come-the day of the Lord-as a thief in the night, in which the heavens with a rushing noise will pass away, and the elements with burning heat be dissolved, and earth and the works in it shall be burnt up."
+    "content": "and it will come—the day of the Lord—as a thief in the night, in which the heavens with a rushing noise will pass away, and the elements with burning heat be dissolved, and earth and the works in it shall be burnt up."
   },
   {
     "book": "2PT",
@@ -348,13 +394,16 @@
     "book": "2PT",
     "chapter": 3,
     "verse": 14,
-    "content": "wherefore, beloved, these things waiting for, be diligent, spotless and unblameable, by Him to be found in peace,"
+    "content": {
+      "paragraph": true,
+      "text": "wherefore, beloved, these things waiting for, be diligent, spotless and unblameable, by Him to be found in peace,"
+    }
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 15,
-    "content": "and the long-suffering of our Lord count ye salvation, according as also our beloved brother Paul-according to the wisdom given to him-did write to you,"
+    "content": "and the long-suffering of our Lord count ye salvation, according as also our beloved brother Paul—according to the wisdom given to him—did write to you,"
   },
   {
     "book": "2PT",
@@ -366,12 +415,19 @@
     "book": "2PT",
     "chapter": 3,
     "verse": 17,
-    "content": "Ye, then, beloved, knowing before, take heed, lest, together with the error of the impious being led away, ye may fall from your own stedfastness,"
+    "content": {
+      "paragraph": true,
+      "text": "Ye, then, beloved, knowing before, take heed, lest, together with the error of the impious being led away, ye may fall from your own stedfastness,"
+    }
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 18,
-    "content": "and increase ye in grace, and in the knowledge of our Lord and Saviour Jesus Christ; to him is the glory both now, and to the day of the age! Amen."
+    "content": [
+      "and increase ye in grace, and in the knowledge of our Lord and Saviour Jesus Christ; to him ",
+      { "text": "is", "marks": ["i"] },
+      " the glory both now, and to the day of the age! Amen."
+    ]
   }
 ]

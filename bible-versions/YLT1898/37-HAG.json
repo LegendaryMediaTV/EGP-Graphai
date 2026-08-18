@@ -12,19 +12,29 @@
     "book": "HAG",
     "chapter": 1,
     "verse": 2,
-    "content": "Thus spake Jehovah of Hosts, saying: This people!-they have said, ‘The time hath not come, The time the house of Jehovah is to be built.’"
+    "content": [
+      "Thus spake Jehovah of Hosts, saying: This people!—they have said, “The time hath not come, The time the house of Jehovah ",
+      { "text": "is", "marks": ["i"] },
+      " to be built.”"
+    ]
   },
   {
     "book": "HAG",
     "chapter": 1,
     "verse": 3,
-    "content": "And there is a word of Jehovah by the hand of Haggai the prophet, saying:"
+    "content": [
+      { "heading": "This House Lies Waste" },
+      {
+        "paragraph": true,
+        "text": "And there is a word of Jehovah by the hand of Haggai the prophet, saying:"
+      }
+    ]
   },
   {
     "book": "HAG",
     "chapter": 1,
     "verse": 4,
-    "content": "Is it time for you-you! To dwell in your covered houses, And this house to lie waste?"
+    "content": "Is it time for you—you! To dwell in your covered houses, And this house to lie waste?"
   },
   {
     "book": "HAG",
@@ -42,7 +52,10 @@
     "book": "HAG",
     "chapter": 1,
     "verse": 7,
-    "content": "Thus said Jehovah of Hosts: Set your heart to your ways."
+    "content": {
+      "paragraph": true,
+      "text": "Thus said Jehovah of Hosts: Set your heart to your ways."
+    }
   },
   {
     "book": "HAG",
@@ -54,7 +67,11 @@
     "book": "HAG",
     "chapter": 1,
     "verse": 9,
-    "content": "Looking for much, and lo, little, And ye brought it home, and I blew on it, Wherefore?-an affirmation of Jehovah of Hosts, Because of My house that is waste, And ye are running-each to his house,"
+    "content": [
+      "Looking for much, and lo, little, And ye brought ",
+      { "text": "it", "marks": ["i"] },
+      " home, and I blew on it, Wherefore?—an affirmation of Jehovah of Hosts, Because of My house that is waste, And ye are running—each to his house,"
+    ]
   },
   {
     "book": "HAG",
@@ -66,19 +83,26 @@
     "book": "HAG",
     "chapter": 1,
     "verse": 11,
-    "content": "And I proclaim draught on the land, And on the mountains, and on the corn, And on the new wine, and on the oil, And on what the ground doth bring forth, And on man, and on beast, And on all labour of the hands.’"
+    "content": "And I proclaim draught on the land, And on the mountains, and on the corn, And on the new wine, and on the oil, And on what the ground doth bring forth, And on man, and on beast, And on all labour of the hands.”"
   },
   {
     "book": "HAG",
     "chapter": 1,
     "verse": 12,
-    "content": "And Zerubbabel son of Shealtiel, and Joshua son of Josedech, the high priest, and all the remnant of the people, do hearken to the voice of Jehovah their God, and unto the words of Haggai the prophet, as Jehovah their God had sent him, and the people are afraid of the face of Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "And Zerubbabel son of Shealtiel, and Joshua son of Josedech, the high priest, and all the remnant of the people, do hearken to the voice of Jehovah their God, and unto the words of Haggai the prophet, as Jehovah their God had sent him, and the people are afraid of the face of Jehovah."
+    }
   },
   {
     "book": "HAG",
     "chapter": 1,
     "verse": 13,
-    "content": "And Haggai, messenger of Jehovah, in messages of Jehovah, speaketh to the people, saying: ‘I am with you, an affirmation of Jehovah.’"
+    "content": [
+      "And Haggai, messenger of Jehovah, in messages of Jehovah, speaketh to the people, saying: “I ",
+      { "text": "am", "marks": ["i"] },
+      " with you, an affirmation of Jehovah.”"
+    ]
   },
   {
     "book": "HAG",
@@ -96,16 +120,18 @@
     "book": "HAG",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "In the seventh month, in the twenty and first of the month, hath a word of Jehovah been by the hand of Haggai the prophet, saying:"
-    }
+    "content": [
+      { "heading": "Recall its First Glory" },
+      { "paragraph": true, "text": "In the seventh " },
+      { "text": "month", "marks": ["i"] },
+      ", in the twenty and first of the month, hath a word of Jehovah been by the hand of Haggai the prophet, saying:"
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 2,
-    "content": "‘Speak, I pray thee, unto Zerubbabel son of Shealtiel, governor of Judah, and unto Joshua, son of Josedech, the high priest, and unto the remnant of the people, saying:"
+    "content": "“Speak, I pray thee, unto Zerubbabel son of Shealtiel, governor of Judah, and unto Joshua, son of Josedech, the high priest, and unto the remnant of the people, saying:"
   },
   {
     "book": "HAG",
@@ -117,7 +143,11 @@
     "book": "HAG",
     "chapter": 2,
     "verse": 4,
-    "content": "And now, be strong, O Zerubbabel, An affirmation of Jehovah, And be strong, O Joshua, son of Josedech, the high priest, And be strong, all ye people of the land, An affirmation of Jehovah, And do ye-(for I am with you, An affirmation of Jehovah of Hosts)-"
+    "content": [
+      "And now, be strong, O Zerubbabel, An affirmation of Jehovah, And be strong, O Joshua, son of Josedech, the high priest, And be strong, all ye people of the land, An affirmation of Jehovah, And do ye—(for I ",
+      { "text": "am", "marks": ["i"] },
+      " with you, An affirmation of Jehovah of Hosts)—"
+    ]
   },
   {
     "book": "HAG",
@@ -129,97 +159,150 @@
     "book": "HAG",
     "chapter": 2,
     "verse": 6,
-    "content": "For thus said Jehovah of Hosts: Yet once more-it is a little, And I am shaking the heavens and the earth, And the sea, and the dry land,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For thus said Jehovah of Hosts: Yet once more—it "
+      },
+      { "text": "is", "marks": ["i"] },
+      " a little, And I am shaking the heavens and the earth, And the sea, and the dry land,"
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 7,
-    "content": "And I have shaken all the nations, And they have come to the desire of all the nations, And I have filled this house with honour, Said Jehovah of Hosts."
+    "content": [
+      "And I have shaken all the nations, And they have come ",
+      { "text": "to", "marks": ["i"] },
+      " the desire of all the nations, And I have filled this house ",
+      { "text": "with", "marks": ["i"] },
+      " honour, Said Jehovah of Hosts."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 8,
-    "content": "Mine is the silver, and Mine the gold, An affirmation of Jehovah of Hosts."
+    "content": [
+      "Mine ",
+      { "text": "is", "marks": ["i"] },
+      " the silver, and Mine the gold, An affirmation of Jehovah of Hosts."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 9,
-    "content": "Greater is the honour of this latter house, Than of the former, said Jehovah of Hosts, And in this place do I give peace, An affirmation of Jehovah of Hosts.’"
+    "content": "Greater is the honour of this latter house, Than of the former, said Jehovah of Hosts, And in this place do I give peace, An affirmation of Jehovah of Hosts.”"
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 10,
-    "content": "On the twenty and fourth of the ninth month, in the second year of Darius, hath a word of Jehovah been by the hnd of Haggai the prophet, saying:"
+    "content": [
+      { "paragraph": true, "text": "On the twenty and fourth of the ninth " },
+      { "text": "month", "marks": ["i"] },
+      ", in the second year of Darius, hath a word of Jehovah been by the hand of Haggai the prophet, saying:"
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 11,
-    "content": "Thus said Jehovah of Hosts: ‘Ask, I pray thee, the priests of the law, saying:"
+    "content": [
+      "Thus said Jehovah of Hosts: “Ask, I pray thee, the priests ",
+      { "text": "of", "marks": ["i"] },
+      " the law, saying:"
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 12,
-    "content": "Lo, one doth carry holy flesh in the skirt of his garment, and he hath come with his skirt against the bread, or against the pottage, or against the wine, or against the oil, or against any food-is it holy?’ And the priests answer and say, ‘No.’"
+    "content": "Lo, one doth carry holy flesh in the skirt of his garment, and he hath come with his skirt against the bread, or against the pottage, or against the wine, or against the oil, or against any food—is it holy?” And the priests answer and say, “No.”"
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 13,
-    "content": "And Haggai saith, ‘If the unclean of body doth come against any of these, is it unclean?’ And the priests answer and say, ‘It is unclean.’"
+    "content": "And Haggai saith, “If the unclean of body doth come against any of these, is it unclean?” And the priests answer and say, “It is unclean.”"
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 14,
-    "content": "And Haggai answereth and saith, ‘So is this people, and so is this nation before Me-an affirmation of Jehovah-and so is every work of their hands, and that which they bring near there-it is unclean."
+    "content": [
+      "And Haggai answereth and saith, “So ",
+      { "text": "is", "marks": ["i"] },
+      " this people, and so ",
+      { "text": "is", "marks": ["i"] },
+      " this nation before Me—an affirmation of Jehovah—and so ",
+      { "text": "is", "marks": ["i"] },
+      " every work of their hands, and that which they bring near there—it is unclean."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 15,
-    "content": "And now, lay it, I pray you, to your heart, From this day, and onwards, Before the laying of stone to stone in the temple of Jehovah."
+    "content": [
+      { "paragraph": true, "text": "And now, lay " },
+      { "text": "it", "marks": ["i"] },
+      ", I pray you, to your heart, From this day, and onwards, Before the laying of stone to stone in the temple of Jehovah."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 16,
-    "content": "From that time one hath come to a heap of twenty, And it hath been ten, He hath come unto the wine-fat to draw out fifty purahs, And it hath been twenty."
+    "content": [
+      "From that time ",
+      { "text": "one", "marks": ["i"] },
+      " hath come to a heap of twenty, And it hath been ten, He hath come unto the wine-fat to draw out fifty purahs, And it hath been twenty."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 17,
-    "content": "I have smitten you with blasting, And with mildew, and with hail- All the work of your hands, And there is none of you with Me, An affirmation of Jehovah."
+    "content": "I have smitten you with blasting, And with mildew, and with hail—All the work of your hands, And there is none of you with Me, An affirmation of Jehovah."
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 18,
-    "content": "Set it, I pray you, to your heart, from this day and onwards, from the twenty and fourth day of the ninth month, even from the day that the temple of Jehovah hath been founded, set it to your heart."
+    "content": [
+      { "heading": "Build for a Great Future" },
+      { "paragraph": true, "text": "Set " },
+      { "text": "it", "marks": ["i"] },
+      ", I pray you, to your heart, from this day and onwards, from the twenty and fourth day of the ninth ",
+      { "text": "month", "marks": ["i"] },
+      ", even from the day that the temple of Jehovah hath been founded, set ",
+      { "text": "it", "marks": ["i"] },
+      " to your heart."
+    ]
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 19,
-    "content": "Is the seed yet in the barn? And hitherto the vine and the fig, And the pomegranate, and the olive-tree, Have not borne-from this day I bless.’"
+    "content": "Is the seed yet in the barn? And hitherto the vine and the fig, And the pomegranate, and the olive-tree, Have not borne—from this day I bless.”"
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 20,
-    "content": "And there is a word of Jehovah a second time unto Haggai, on the twenty and fourth of the month, saying:"
+    "content": {
+      "paragraph": true,
+      "text": "And there is a word of Jehovah a second time unto Haggai, on the twenty and fourth of the month, saying:"
+    }
   },
   {
     "book": "HAG",
     "chapter": 2,
     "verse": 21,
-    "content": "‘Speak unto Zerubbabel governor of Judah, saying: I am shaking the heavens and the earth,"
+    "content": "“Speak unto Zerubbabel governor of Judah, saying: I am shaking the heavens and the earth,"
   },
   {
     "book": "HAG",
@@ -231,6 +314,6 @@
     "book": "HAG",
     "chapter": 2,
     "verse": 23,
-    "content": "In that day-an affirmation of Jehovah of Hosts, I take thee, Zerubbabel, son of Shealtiel, My servant-an affirmation of Jehovah, And have set thee as a signet, for on thee I have fixed, An affirmation of Jehovah of Hosts!"
+    "content": "In that day—an affirmation of Jehovah of Hosts, I take thee, Zerubbabel, son of Shealtiel, My servant—an affirmation of Jehovah, And have set thee as a signet, for on thee I have fixed, An affirmation of Jehovah of Hosts!"
   }
 ]

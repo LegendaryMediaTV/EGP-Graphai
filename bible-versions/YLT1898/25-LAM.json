@@ -5,668 +5,1075 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "How hath she sat alone, The city abounding with people! She hath been as a widow, The mighty among nations! Princes among provinces, She hath become tributary!"
+      "text": "How hath she sat alone, The city abounding with people! She hath been as a widow, The mighty among nations! Princes among provinces, She hath become tributary!",
+      "break": true
     }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 2,
-    "content": "She weepeth sore in the night, And her tear is on her cheeks, There is no comforter for her out of all her lovers, All her friends dealt treacherously by her, They have been to her for enemies."
+    "content": [
+      "She weepeth sore in the night, And her tear ",
+      { "text": "is", "marks": ["i"] },
+      {
+        "text": " on her cheeks, There is no comforter for her out of all her lovers, All her friends dealt treacherously by her, They have been to her for enemies.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 3,
-    "content": "Removed hath Judah because of affliction, And because of the abundance of her service; She hath dwelt among nations, She hath not found rest, All her pursuers have overtaken her between the straits."
+    "content": {
+      "text": "Removed hath Judah because of affliction, And because of the abundance of her service; She hath dwelt among nations, She hath not found rest, All her pursuers have overtaken her between the straits.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 4,
-    "content": "The ways of Zion are mourning, Without any coming at the appointed time, All her gates are desolate, her priests sigh, Her virgins are afflicted-and she hath bitterness."
+    "content": {
+      "text": "The ways of Zion are mourning, Without any coming at the appointed time, All her gates are desolate, her priests sigh, Her virgins are afflicted—and she hath bitterness.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 5,
-    "content": "Her adversaries have become chief, Her enemies have been at ease, For Jehovah hath afflicted her, For the abundance of her transgressions, Her infants have gone captive before the adversary."
+    "content": {
+      "text": "Her adversaries have become chief, Her enemies have been at ease, For Jehovah hath afflicted her, For the abundance of her transgressions, Her infants have gone captive before the adversary.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 6,
-    "content": "And go out from the daughter of Zion doth all her honour, Her princes have been as harts- They have not found pasture, And they go powerless before a pursuer."
+    "content": {
+      "text": "And go out from the daughter of Zion doth all her honour, Her princes have been as harts—They have not found pasture, And they go powerless before a pursuer.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 7,
-    "content": "Remembered hath Jerusalem In the days of her affliction and her mournings, all her desirable things that were from the days of old, In the falling of her people into the hand of an adversary, And she hath no helper; Seen her have adversaries, They have laughed at her cessation."
+    "content": [
+      "Remembered hath Jerusalem ",
+      { "text": "In", "marks": ["i"] },
+      {
+        "text": " the days of her affliction and her mournings, all her desirable things that were from the days of old, In the falling of her people into the hand of an adversary, And she hath no helper; Seen her have adversaries, They have laughed at her cessation.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 8,
-    "content": "A sin hath Jerusalem sinned, Therefore impure she hath become, All who honoured her have esteemed her lightly, For they have seen her nakedness, Yea, she herself hath sighed and turneth backward."
+    "content": {
+      "text": "A sin hath Jerusalem sinned, Therefore impure she hath become, All who honoured her have esteemed her lightly, For they have seen her nakedness, Yea, she herself hath sighed and turneth backward.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 9,
-    "content": "Her uncleanness is in her skirts, She hath not remembered her latter end, And she cometh down wonderfully, There is no comforter for her. See, O Jehovah, mine affliction, For exerted himself hath an enemy."
+    "content": [
+      "Her uncleanness ",
+      { "text": "is", "marks": ["i"] },
+      {
+        "text": " in her skirts, She hath not remembered her latter end, And she cometh down wonderfully, There is no comforter for her. See, O Jehovah, mine affliction, For exerted himself hath an enemy.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 10,
-    "content": "His hand spread out hath an adversary On all her desirable things, For she hath seen- Nations have entered her sanctuary, Concerning which Thou didst command, ‘They do not come into the assembly to thee.’"
+    "content": {
+      "text": "His hand spread out hath an adversary On all her desirable things, For she hath seen—Nations have entered her sanctuary, Concerning which Thou didst command, “They do not come into the assembly to thee.”",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 11,
-    "content": "All her people are sighing-seeking bread, They have given their desirable things For food to refresh the body; See, O Jehovah, and behold attentively, For I have been lightly esteemed."
+    "content": {
+      "text": "All her people are sighing—seeking bread, They have given their desirable things For food to refresh the body; See, O Jehovah, and behold attentively, For I have been lightly esteemed.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 12,
-    "content": "Is it nothing to you, all ye passing by the way? Look attentively, and see, If there is any pain like my pain, That He is rolling to me? Whom Jehovah hath afflicted In the day of the fierceness of His anger."
+    "content": [
+      { "text": "Is it", "marks": ["i"] },
+      {
+        "text": " nothing to you, all ye passing by the way? Look attentively, and see, If there is any pain like my pain, That He is rolling to me? Whom Jehovah hath afflicted In the day of the fierceness of His anger.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 13,
-    "content": "From above He hath sent fire into my bone, And it subdueth it, He hath spread a net for my feet, He hath turned me backward, He hath made me desolate-all the day sick."
+    "content": {
+      "text": "From above He hath sent fire into my bone, And it subdueth it, He hath spread a net for my feet, He hath turned me backward, He hath made me desolate—all the day sick.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 14,
-    "content": "Bound hath been the yoke of my transgressions by His hand, They are wrapped together, They have gone up on my neck, He hath caused my power to stumble, The Lord hath given me into hands, I am not able to rise."
+    "content": {
+      "text": "Bound hath been the yoke of my transgressions by His hand, They are wrapped together, They have gone up on my neck, He hath caused my power to stumble, The Lord hath given me into hands, I am not able to rise.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 15,
-    "content": "Trodden down all my mighty ones hath the Lord in my midst, He proclaimed against me an appointed time, To destroy my young men, A wine-press hath the Lord trodden, To the virgin daughter of Judah."
+    "content": {
+      "text": "Trodden down all my mighty ones hath the Lord in my midst, He proclaimed against me an appointed time, To destroy my young men, A wine-press hath the Lord trodden, To the virgin daughter of Judah.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 16,
-    "content": "For these I am weeping, My eye, my eye, is running down with waters, For, far from me hath been a comforter, Refreshing my soul, My sons have been desolate, For mighty hath been an enemy."
+    "content": {
+      "text": "For these I am weeping, My eye, my eye, is running down with waters, For, far from me hath been a comforter, Refreshing my soul, My sons have been desolate, For mighty hath been an enemy.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 17,
-    "content": "Spread forth hath Zion her hands, There is no comforter for her, Jehovah hath charged concerning Jacob, His neighbours are his adversaries, Jerusalem hath become impure among them."
+    "content": [
+      "Spread forth hath Zion her hands, There is no comforter for her, Jehovah hath charged concerning Jacob, His neighbours ",
+      { "text": "are", "marks": ["i"] },
+      {
+        "text": " his adversaries, Jerusalem hath become impure among them.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 18,
-    "content": "Righteous is Jehovah, For His mouth I have provoked. Hear, I pray you, all ye peoples, and see my pain, My virgins and my young men have gone into captivity."
+    "content": {
+      "text": "Righteous is Jehovah, For His mouth I have provoked. Hear, I pray you, all ye peoples, and see my pain, My virgins and my young men have gone into captivity.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 19,
-    "content": "I called for my lovers, they-they have deceived me, My priests and my elders in the city have expired; When they have sought food for themselves, Then they give back their soul."
+    "content": {
+      "text": "I called for my lovers, they—they have deceived me, My priests and my elders in the city have expired; When they have sought food for themselves, Then they give back their soul.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 20,
-    "content": "See, O Jehovah, for distress is to me, My bowels have been troubled, Turned hath been my heart in my midst, For I have greatly provoked, From without bereaved hath the sword, In the house it is as death."
+    "content": [
+      "See, O Jehovah, for distress ",
+      { "text": "is", "marks": ["i"] },
+      " to me, My bowels have been troubled, Turned hath been my heart in my midst, For I have greatly provoked, From without bereaved hath the sword, In the house ",
+      { "text": "it is", "marks": ["i"] },
+      { "text": " as death.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 21,
-    "content": "They have heard that I have sighed, There is no comforter for me, All my enemies have heard of my calamity, They have rejoiced that Thou hast done it, Thou hast brought in the day Thou hast called, And they are like to me."
+    "content": [
+      "They have heard that I have sighed, There is no comforter for me, All my enemies have heard of my calamity, They have rejoiced that Thou hast done ",
+      { "text": "it", "marks": ["i"] },
+      {
+        "text": ", Thou hast brought in the day Thou hast called, And they are like to me.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 1,
     "verse": 22,
-    "content": "Come in doth all their evil before Thee, And one is doing to them as Thou hast done to me, For all my transgressions, For many are my sighs, and my heart is sick!"
+    "content": [
+      "Come in doth all their evil before Thee, And one is doing to them as Thou hast done to me, For all my transgressions, For many ",
+      { "text": "are", "marks": ["i"] },
+      " my sighs, and my heart ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " sick!", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "How doth the Lord cloud in His anger the daughter of Zion, He hath cast from heaven to earth the beauty of Israel, And hath not remembered His footstool in the day of His anger."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "How doth the Lord cloud in His anger the daughter of Zion, He hath cast from heaven "
+      },
+      { "text": "to", "marks": ["i"] },
+      {
+        "text": " earth the beauty of Israel, And hath not remembered His footstool in the day of His anger.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 2,
-    "content": "Swallowed up hath the Lord, He hath not pitied any of the pleasant places of Jacob, He hath broken down in His wrath The fortresses of the daughter of Judah, He hath caused to come to the earth, He polluted the kingdom and its princes."
+    "content": {
+      "text": "Swallowed up hath the Lord, He hath not pitied any of the pleasant places of Jacob, He hath broken down in His wrath The fortresses of the daughter of Judah, He hath caused to come to the earth, He polluted the kingdom and its princes.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 3,
-    "content": "He hath cut off in the heat of anger every horn of Israel, He hath turned backward His right hand From the face of the enemy, And He burneth against Jacob as a flaming fire, It hath devoured round about."
+    "content": {
+      "text": "He hath cut off in the heat of anger every horn of Israel, He hath turned backward His right hand From the face of the enemy, And He burneth against Jacob as a flaming fire, It hath devoured round about.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 4,
-    "content": "He hath trodden His bow as an enemy, Stood hath His right hand as an adversary, And He slayeth all the desirable ones of the eye, In the tent of the daughter of Zion, He hath poured out as fire His fury."
+    "content": {
+      "text": "He hath trodden His bow as an enemy, Stood hath His right hand as an adversary, And He slayeth all the desirable ones of the eye, In the tent of the daughter of Zion, He hath poured out as fire His fury.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 5,
-    "content": "The Lord hath been as an enemy, He hath swallowed up Israel, He hath swallowed up all her palaces, He hath destroyed His fortresses, And He multiplieth in the daughter of Judah Mourning and moaning."
+    "content": {
+      "text": "The Lord hath been as an enemy, He hath swallowed up Israel, He hath swallowed up all her palaces, He hath destroyed His fortresses, And He multiplieth in the daughter of Judah Mourning and moaning.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 6,
-    "content": "And He shaketh as a garden His tabernacle, He hath destroyed His appointed place, Jehovah hath forgotten in Zion the appointed time and sabbath, And despiseth, in the indignation of His anger, king and priest."
+    "content": {
+      "text": "And He shaketh as a garden His tabernacle, He hath destroyed His appointed place, Jehovah hath forgotten in Zion the appointed time and sabbath, And despiseth, in the indignation of His anger, king and priest.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 7,
-    "content": "The Lord hath cast off His altar, He hath rejected His sanctuary, He hath shut up into the hand of the enemy The walls of her palaces, A noise they have made in the house of Jehovah Like a day of appointment."
+    "content": {
+      "text": "The Lord hath cast off His altar, He hath rejected His sanctuary, He hath shut up into the hand of the enemy The walls of her palaces, A noise they have made in the house of Jehovah Like a day of appointment.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 8,
-    "content": "Devised hath Jehovah to destroy the wall of the daughter of Zion, He hath stretched out a line, He hath not turned His hand from destroying, And He causeth bulwark and wall to mourn, Together-they have been weak."
+    "content": {
+      "text": "Devised hath Jehovah to destroy the wall of the daughter of Zion, He hath stretched out a line, He hath not turned His hand from destroying, And He causeth bulwark and wall to mourn, Together—they have been weak.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 9,
-    "content": "Sunk into the earth have her gates, He hath destroyed and broken her bars, Her king and her princes are among the nations, There is no law, also her prophets Have not found vision from Jehovah."
+    "content": [
+      "Sunk into the earth have her gates, He hath destroyed and broken her bars, Her king and her princes ",
+      { "text": "are", "marks": ["i"] },
+      {
+        "text": " among the nations, There is no law, also her prophets Have not found vision from Jehovah.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 10,
-    "content": "Sit on the earth-keep silent do the elders of the daughter of Zion, They have caused dust to go up on their head, They have girded on sackcloth, Put down to the earth their head have the virgins of Jerusalem."
+    "content": {
+      "text": "Sit on the earth—keep silent do the elders of the daughter of Zion, They have caused dust to go up on their head, They have girded on sackcloth, Put down to the earth their head have the virgins of Jerusalem.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 11,
-    "content": "Consumed by tears have been my eyes, Troubled have been my bowels, Poured out to the earth hath been my liver, For the breach of the daughter of my people; In infant and suckling being feeble, In the broad places of the city,"
+    "content": {
+      "text": "Consumed by tears have been my eyes, Troubled have been my bowels, Poured out to the earth hath been my liver, For the breach of the daughter of my people; In infant and suckling being feeble, In the broad places of the city,",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 12,
-    "content": "To their mothers they say, ‘Where are corn and wine?’ In their becoming feeble as a pierced one In the broad places of the city, In their soul pouring itself out into the bosom of their mothers."
+    "content": [
+      "To their mothers they say, “Where ",
+      { "text": "are", "marks": ["i"] },
+      {
+        "text": " corn and wine?” In their becoming feeble as a pierced one In the broad places of the city, In their soul pouring itself out into the bosom of their mothers.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 13,
-    "content": "What do I testify to thee, what do I liken to thee, O daughter of Jerusalem? What do I equal to thee, and I comfort thee, O virgin daughter of Zion? For great as a sea is thy breach, Who doth give healing to thee?"
+    "content": [
+      "What do I testify ",
+      { "text": "to", "marks": ["i"] },
+      " thee, what do I liken to thee, O daughter of Jerusalem? What do I equal to thee, and I comfort thee, O virgin daughter of Zion? For great as a sea ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy breach, Who doth give healing to thee?", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 14,
-    "content": "Thy prophets have seen for thee a false and insipid thing, And have not revealed concerning thine iniquity, To turn back thy captivity, And they see for thee false burdens and causes of expulsion."
+    "content": {
+      "text": "Thy prophets have seen for thee a false and insipid thing, And have not revealed concerning thine iniquity, To turn back thy captivity, And they see for thee false burdens and causes of expulsion.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 15,
-    "content": "Clapped hands at thee have all passing by the way, They have hissed-and they shake the head At the daughter of Jerusalem: ‘Is this the city of which they said: The perfection of beauty, a joy to all the land?’"
+    "content": {
+      "text": "Clapped hands at thee have all passing by the way, They have hissed—and they shake the head At the daughter of Jerusalem: “Is this the city of which they said: The perfection of beauty, a joy to all the land?”",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 16,
-    "content": "Opened against thee their mouth have all thine enemies, They have hissed, yea, they gnash the teeth, They have said: ‘We have swallowed her up, Surely this is the day that we looked for, We have found-we have seen.’"
+    "content": [
+      "Opened against thee their mouth have all thine enemies, They have hissed, yea, they gnash the teeth, They have said: “We have swallowed ",
+      { "text": "her", "marks": ["i"] },
+      " up, Surely this ",
+      { "text": "is", "marks": ["i"] },
+      {
+        "text": " the day that we looked for, We have found—we have seen.”",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 17,
-    "content": "Jehovah hath done that which He devised, He hath fulfilled His saying That He commanded from the days of old, He hath broken down and hath not pitied, And causeth an enemy to rejoice over thee, He lifted up the horn of thine adversaries."
+    "content": {
+      "text": "Jehovah hath done that which He devised, He hath fulfilled His saying That He commanded from the days of old, He hath broken down and hath not pitied, And causeth an enemy to rejoice over thee, He lifted up the horn of thine adversaries.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 18,
-    "content": "Cried hath their heart unto the Lord; O wall of the daughter of Zion, Cause to go down as a stream tears daily and nightly, Give not rest to thyself, Let not the daughter of thine eye stand still."
+    "content": {
+      "text": "Cried hath their heart unto the Lord; O wall of the daughter of Zion, Cause to go down as a stream tears daily and nightly, Give not rest to thyself, Let not the daughter of thine eye stand still.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 19,
-    "content": "Arise, cry aloud in the night, At the beginning of the watches. Pour out as water thy heart, Over against the face of the Lord, Lift up unto Him thy hands, for the soul of thine infants, Who are feeble with hunger at the head of all out-places."
+    "content": {
+      "text": "Arise, cry aloud in the night, At the beginning of the watches. Pour out as water thy heart, Over against the face of the Lord, Lift up unto Him thy hands, for the soul of thine infants, Who are feeble with hunger at the head of all out-places.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 20,
-    "content": "See, O Jehovah, and look attentively, To whom Thou hast acted thus, Do women eat their fruit, infants of a handbreadth? Slain in the sanctuary of the Lord are priest and prophet?"
+    "content": {
+      "text": "See, O Jehovah, and look attentively, To whom Thou hast acted thus, Do women eat their fruit, infants of a handbreadth? Slain in the sanctuary of the Lord are priest and prophet?",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 21,
-    "content": "Lain on the earth in out-places have young and old, My virgins and my young men have fallen by the sword, Thou hast slain in a day of Thine anger, Thou hast slaughtered-Thou hast not pitied."
+    "content": [
+      "Lain on the earth ",
+      { "text": "in", "marks": ["i"] },
+      {
+        "text": " out-places have young and old, My virgins and my young men have fallen by the sword, Thou hast slain in a day of Thine anger, Thou hast slaughtered—Thou hast not pitied.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 2,
     "verse": 22,
-    "content": "Thou dost call as at a day of appointment, My fears from round about, And there hath not been in the day of the anger of Jehovah, An escaped and remaining one, They whom I stretched out and nourished, My enemy hath consumed!"
+    "content": [
+      "Thou dost call as ",
+      { "text": "at", "marks": ["i"] },
+      {
+        "text": " a day of appointment, My fears from round about, And there hath not been in the day of the anger of Jehovah, An escaped and remaining one, They whom I stretched out and nourished, My enemy hath consumed!",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I am the man who hath seen affliction By the rod of His wrath."
-    }
+    "content": [
+      { "paragraph": true, "text": "I " },
+      { "text": "am", "marks": ["i"] },
+      " the man ",
+      { "text": "who", "marks": ["i"] },
+      {
+        "text": " hath seen affliction By the rod of His wrath.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 2,
-    "content": "Me He hath led, and causeth to go in darkness, and without light."
+    "content": [
+      "Me He hath led, and causeth to go ",
+      { "text": "in", "marks": ["i"] },
+      { "text": " darkness, and without light.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 3,
-    "content": "Surely against me He turneth back, He turneth His hand all the day."
+    "content": {
+      "text": "Surely against me He turneth back, He turneth His hand all the day.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 4,
-    "content": "He hath worn out my flesh and my skin. He hath broken my bones."
+    "content": {
+      "text": "He hath worn out my flesh and my skin. He hath broken my bones.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 5,
-    "content": "He hath built up against me, And setteth round poverty and weariness."
+    "content": {
+      "text": "He hath built up against me, And setteth round poverty and weariness.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 6,
-    "content": "In dark places He hath caused me to dwell, As the dead of old."
+    "content": {
+      "text": "In dark places He hath caused me to dwell, As the dead of old.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 7,
-    "content": "He hath hedged me about, and I go not out, He hath made heavy my fetter."
+    "content": {
+      "text": "He hath hedged me about, and I go not out, He hath made heavy my fetter.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 8,
-    "content": "Also when I call and cry out, He hath shut out my prayer."
+    "content": {
+      "text": "Also when I call and cry out, He hath shut out my prayer.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 9,
-    "content": "He hath hedged my ways with hewn work, My paths He hath made crooked."
+    "content": {
+      "text": "He hath hedged my ways with hewn work, My paths He hath made crooked.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 10,
-    "content": "A bear lying in wait He is to me, A lion in secret hiding-places."
+    "content": [
+      "A bear lying in wait He ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " to me, A lion in secret hiding-places.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 11,
-    "content": "My ways He is turning aside, and He pulleth me in pieces, He hath made me a desolation."
+    "content": {
+      "text": "My ways He is turning aside, and He pulleth me in pieces, He hath made me a desolation.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 12,
-    "content": "He hath trodden His bow, And setteth me up as a mark for an arrow."
+    "content": {
+      "text": "He hath trodden His bow, And setteth me up as a mark for an arrow.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 13,
-    "content": "He hath caused to enter into my reins The sons of His quiver."
+    "content": {
+      "text": "He hath caused to enter into my reins The sons of His quiver.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 14,
-    "content": "I have been a derision to all my people, Their song all the day."
+    "content": {
+      "text": "I have been a derision to all my people, Their song all the day.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 15,
-    "content": "He hath filled me with bitter things, He hath filled me with wormwood."
+    "content": [
+      "He hath filled me with bitter things, He hath filled me ",
+      { "text": "with", "marks": ["i"] },
+      { "text": " wormwood.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 16,
-    "content": "And He breaketh with gravel my teeth, He hath covered me with ashes."
+    "content": {
+      "text": "And He breaketh with gravel my teeth, He hath covered me with ashes.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 17,
-    "content": "And Thou castest off from peace my soul, I have forgotten prosperity."
+    "content": {
+      "text": "And Thou castest off from peace my soul, I have forgotten prosperity.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 18,
-    "content": "And I say, Perished hath my strength and my hope from Jehovah."
+    "content": {
+      "text": "And I say, Perished hath my strength and my hope from Jehovah.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 19,
-    "content": "Remember my affliction and my mourning, Wormwood and gall!"
+    "content": {
+      "text": "Remember my affliction and my mourning, Wormwood and gall!",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 20,
-    "content": "Remember well, and bow down doth my soul in me."
+    "content": {
+      "text": "Remember well, and bow down doth my soul in me.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 21,
-    "content": "This I turn to my heart-therefore I hope."
+    "content": {
+      "text": "This I turn to my heart—therefore I hope.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 22,
-    "content": "The kindnesses of Jehovah! For we have not been consumed, For not ended have His mercies."
+    "content": {
+      "text": "The kindnesses of Jehovah! For we have not been consumed, For not ended have His mercies.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 23,
-    "content": "New every morning, abundant is thy faithfulness."
+    "content": [
+      "New every morning, abundant ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy faithfulness.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 24,
-    "content": "My portion is Jehovah, hath my soul said, Therefore I hope for Him."
+    "content": [
+      "My portion ",
+      { "text": "is", "marks": ["i"] },
+      {
+        "text": " Jehovah, hath my soul said, Therefore I hope for Him.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 25,
-    "content": "Good is Jehovah to those waiting for Him, To the soul that seeketh Him."
+    "content": [
+      "Good ",
+      { "text": "is", "marks": ["i"] },
+      " Jehovah to those waiting for Him, To the soul ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " seeketh Him.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 26,
-    "content": "Good! when one doth stay and stand still For the salvation of Jehovah."
+    "content": {
+      "text": "Good! when one doth stay and stand still For the salvation of Jehovah.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 27,
-    "content": "Good for a man that he beareth a yoke in his youth."
+    "content": {
+      "text": "Good for a man that he beareth a yoke in his youth.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 28,
-    "content": "He sitteth alone, and is silent, For He hath laid it upon him."
+    "content": [
+      "He sitteth alone, and is silent, For He hath laid ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " upon him.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 29,
-    "content": "He putteth in the dust his mouth, if so be there is hope."
+    "content": {
+      "text": "He putteth in the dust his mouth, if so be there is hope.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 30,
-    "content": "He giveth to his smiter the cheek, He is filled with reproach."
+    "content": {
+      "text": "He giveth to his smiter the cheek, He is filled with reproach.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 31,
-    "content": "For the Lord doth not cast off to the age."
+    "content": {
+      "text": "For the Lord doth not cast off to the age.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 32,
-    "content": "For though He afflicted, yet He hath pitied, According to the abundance of His kindness."
+    "content": {
+      "text": "For though He afflicted, yet He hath pitied, According to the abundance of His kindness.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 33,
-    "content": "For He hath not afflicted with His heart, Nor doth He grieve the sons of men."
+    "content": {
+      "text": "For He hath not afflicted with His heart, Nor doth He grieve the sons of men.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 34,
-    "content": "To bruise under one’s feet any bound ones of earth,"
+    "content": {
+      "text": "To bruise under one’s feet any bound ones of earth,",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 35,
-    "content": "To turn aside the judgment of a man, Over-against the face of the Most High,"
+    "content": {
+      "text": "To turn aside the judgment of a man, Over-against the face of the Most High,",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 36,
-    "content": "To subvert a man in his cause, the Lord hath not approved."
+    "content": {
+      "text": "To subvert a man in his cause, the Lord hath not approved.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 37,
-    "content": "Who is this-he hath said, and it is, And the Lord hath not commanded it?"
+    "content": [
+      "Who ",
+      { "text": "is", "marks": ["i"] },
+      " this—he hath said, and it is, ",
+      { "text": "And", "marks": ["i"] },
+      " the Lord hath not commanded ",
+      { "text": "it", "marks": ["i"] },
+      { "text": "?", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 38,
-    "content": "From the mouth of the Most High Go not forth the evils and the good."
+    "content": {
+      "text": "From the mouth of the Most High Go not forth the evils and the good.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 39,
-    "content": "What-sigh habitually doth a living man, A man for his sin?"
+    "content": {
+      "text": "What—sigh habitually doth a living man, A man for his sin?",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 40,
-    "content": "We search our ways, and investigate, And turn back unto Jehovah."
+    "content": {
+      "text": "We search our ways, and investigate, And turn back unto Jehovah.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 41,
-    "content": "We lift up our heart on the hands unto God in the heavens."
+    "content": {
+      "text": "We lift up our heart on the hands unto God in the heavens.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 42,
-    "content": "We-we have transgressed and rebelled, Thou-Thou hast not forgiven."
+    "content": {
+      "text": "We—we have transgressed and rebelled, Thou—Thou hast not forgiven.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 43,
-    "content": "Thou hast covered Thyself with anger, And dost pursue us; Thou hast slain-Thou hast not pitied."
+    "content": {
+      "text": "Thou hast covered Thyself with anger, And dost pursue us; Thou hast slain—Thou hast not pitied.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 44,
-    "content": "Thou hast covered Thyself with a cloud, So that prayer doth not pass through."
+    "content": {
+      "text": "Thou hast covered Thyself with a cloud, So that prayer doth not pass through.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 45,
-    "content": "Offscouring and refuse Thou dost make us In the midst of the peoples."
+    "content": {
+      "text": "Offscouring and refuse Thou dost make us In the midst of the peoples.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 46,
-    "content": "Opened against us their mouth have all our enemies."
+    "content": {
+      "text": "Opened against us their mouth have all our enemies.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 47,
-    "content": "Fear and a snare hath been for us, Desolation and destruction."
+    "content": {
+      "text": "Fear and a snare hath been for us, Desolation and destruction.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 48,
-    "content": "Rivulets of water go down my eye, For the destruction of the daughter of my people."
+    "content": {
+      "text": "Rivulets of water go down my eye, For the destruction of the daughter of my people.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 49,
-    "content": "Mine eye is poured out, And doth not cease without intermission,"
+    "content": {
+      "text": "Mine eye is poured out, And doth not cease without intermission,",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 50,
-    "content": "Till Jehovah looketh and seeth from the heavens,"
+    "content": {
+      "text": "Till Jehovah looketh and seeth from the heavens,",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 51,
-    "content": "My eye affecteth my soul, Because of all the daughters of my city."
+    "content": {
+      "text": "My eye affecteth my soul, Because of all the daughters of my city.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 52,
-    "content": "Hunted me sore as a bird have my enemies without cause."
+    "content": {
+      "text": "Hunted me sore as a bird have my enemies without cause.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 53,
-    "content": "They have cut off in a pit my life, And they cast a stone against me."
+    "content": {
+      "text": "They have cut off in a pit my life, And they cast a stone against me.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 54,
-    "content": "Flowed have waters over my head, I have said, I have been cut off."
+    "content": {
+      "text": "Flowed have waters over my head, I have said, I have been cut off.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 55,
-    "content": "I called Thy name, O Jehovah, from the lower pit."
+    "content": {
+      "text": "I called Thy name, O Jehovah, from the lower pit.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 56,
-    "content": "My voice Thou hast heard, Hide not Thine ear at my breathing-at my cry."
+    "content": {
+      "text": "My voice Thou hast heard, Hide not Thine ear at my breathing—at my cry.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 57,
-    "content": "Thou hast drawn near in the day I call Thee, Thou hast said, Fear not."
+    "content": {
+      "text": "Thou hast drawn near in the day I call Thee, Thou hast said, Fear not.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 58,
-    "content": "Thou hast pleaded, O Lord, the pleadings of my soul, Thou hast redeemed my life."
+    "content": {
+      "text": "Thou hast pleaded, O Lord, the pleadings of my soul, Thou hast redeemed my life.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 59,
-    "content": "Thou hast seen, O Jehovah, my overthrow, Judge Thou my cause."
+    "content": {
+      "text": "Thou hast seen, O Jehovah, my overthrow, Judge Thou my cause.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 60,
-    "content": "Thou hast seen all their vengeance, All their thoughts of me."
+    "content": {
+      "text": "Thou hast seen all their vengeance, All their thoughts of me.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 61,
-    "content": "Thou hast heard their reproach, O Jehovah, All their thoughts against me,"
+    "content": {
+      "text": "Thou hast heard their reproach, O Jehovah, All their thoughts against me,",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 62,
-    "content": "The lips of my withstanders, Even their meditation against me all the day."
+    "content": {
+      "text": "The lips of my withstanders, Even their meditation against me all the day.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 63,
-    "content": "Their sitting down, and their rising up, Behold attentively, I am their song."
+    "content": [
+      "Their sitting down, and their rising up, Behold attentively, I ",
+      { "text": "am", "marks": ["i"] },
+      { "text": " their song.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 64,
-    "content": "Thou returnest to them the deed, O Jehovah, According to the work of their hands."
+    "content": {
+      "text": "Thou returnest to them the deed, O Jehovah, According to the work of their hands.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 65,
-    "content": "Thou givest to them a covered heart, Thy curse to them."
+    "content": {
+      "text": "Thou givest to them a covered heart, Thy curse to them.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 3,
     "verse": 66,
-    "content": "Thou pursuest in anger, and destroyest them, From under the heavens of Jehovah!"
+    "content": {
+      "text": "Thou pursuest in anger, and destroyest them, From under the heavens of Jehovah!",
+      "break": true
+    }
   },
   {
     "book": "LAM",
@@ -674,134 +1081,208 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "How is the gold become dim, Changed the best-the pure gold? Poured out are stones of the sanctuary At the head of all out-places."
+      "text": "How is the gold become dim, Changed the best—the pure gold? Poured out are stones of the sanctuary At the head of all out-places.",
+      "break": true
     }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 2,
-    "content": "The precious sons of Zion, Who are comparable with fine gold, How have they been reckoned earthen bottles, Work of the hands of a potter."
+    "content": {
+      "text": "The precious sons of Zion, Who are comparable with fine gold, How have they been reckoned earthen bottles, Work of the hands of a potter.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 3,
-    "content": "Even dragons have drawn out the breast, They have suckled their young ones, The daughter of my people is become cruel, Like the ostriches in a wilderness."
+    "content": {
+      "text": "Even dragons have drawn out the breast, They have suckled their young ones, The daughter of my people is become cruel, Like the ostriches in a wilderness.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 4,
-    "content": "Cleaved hath the tongue of a suckling unto his palate with thirst, Infants asked bread, a dealer out they have none."
+    "content": {
+      "text": "Cleaved hath the tongue of a suckling unto his palate with thirst, Infants asked bread, a dealer out they have none.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 5,
-    "content": "Those eating of dainties have been desolate in out-places, Those supported on scarlet have embraced dunghills."
+    "content": {
+      "text": "Those eating of dainties have been desolate in out-places, Those supported on scarlet have embraced dunghills.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 6,
-    "content": "And greater is the iniquity of the daughter of my people, Than the sin of Sodom, That was overturned as in a moment, And no hands were stayed on her."
+    "content": [
+      "And greater is the iniquity of the daughter of my people, Than the sin of Sodom, That was overturned as ",
+      { "text": "in", "marks": ["i"] },
+      { "text": " a moment, And no hands were stayed on her.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 7,
-    "content": "Purer were her Nazarites than snow, Whiter than milk, ruddier of body than rubies, Of sapphire their form."
+    "content": {
+      "text": "Purer were her Nazarites than snow, Whiter than milk, ruddier of body than rubies, Of sapphire their form.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 8,
-    "content": "Darker than blackness hath been their visage, They have not been known in out-places, Cleaved hath their skin unto their bone, It hath withered-it hath been as wood."
+    "content": {
+      "text": "Darker than blackness hath been their visage, They have not been known in outplaces, Cleaved hath their skin unto their bone, It hath withered—it hath been as wood.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 9,
-    "content": "Better have been the pierced of a sword Than the pierced of famine, For these flow away, pierced through, Without the increase of the field."
+    "content": {
+      "text": "Better have been the pierced of a sword Than the pierced of famine, For these flow away, pierced through, Without the increase of the field.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 10,
-    "content": "The hands of merciful women have boiled their own children, They have been for food to them, In the destruction of the daughter of my people."
+    "content": {
+      "text": "The hands of merciful women have boiled their own children, They have been for food to them, In the destruction of the daughter of my people.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 11,
-    "content": "Completed hath Jehovah His fury, He hath poured out the fierceness of His anger, And he kindleth a fire in Zion, And it devoureth her foundations."
+    "content": {
+      "text": "Completed hath Jehovah His fury, He hath poured out the fierceness of His anger, And he kindleth a fire in Zion, And it devoureth her foundations.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 12,
-    "content": "Believe not did the kings of earth, And any of the inhabitants of the world, That come would an adversary and enemy Into the gates of Jerusalem."
+    "content": {
+      "text": "Believe not did the kings of earth, And any of the inhabitants of the world, That come would an adversary and enemy Into the gates of Jerusalem.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 13,
-    "content": "Because of the sins of her prophets, The iniquities of her priests, Who are shedding in her midst the blood of the righteous,"
+    "content": {
+      "text": "Because of the sins of her prophets, The iniquities of her priests, Who are shedding in her midst the blood of the righteous,",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 14,
-    "content": "They have wandered naked in out-places, They have been polluted with blood, Without any being able to touch their clothing,"
+    "content": [
+      "They have wandered naked in out-places, They have been polluted with blood, Without ",
+      { "text": "any", "marks": ["i"] },
+      { "text": " being able to touch their clothing,", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 15,
-    "content": "‘Turn aside-unclean,’ they called to them, ‘Turn aside, turn aside, touch not,’ For they fled-yea, they have wandered, They have said among nations: ‘They do not add to sojourn.’"
+    "content": {
+      "text": "“Turn aside—unclean,” they called to them, “Turn aside, turn aside, touch not,” For they fled—yea, they have wandered, They have said among nations: “They do not add to sojourn.”",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 16,
-    "content": "The face of Jehovah hath divided them, He doth not add to behold them, The face of priests they have not lifted up, Elders they have not favoured."
+    "content": {
+      "text": "The face of Jehovah hath divided them, He doth not add to behold them, The face of priests they have not lifted up, Elders they have not favoured.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 17,
-    "content": "While we exist-consumed are our eyes for our vain help, In our watch-tower we have watched for a nation that saveth not."
+    "content": [
+      "While we exist—consumed are our eyes for our vain help, In our watch-tower we have watched for a nation ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " saveth not.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 18,
-    "content": "They have hunted our steps from going in our broad-places, Near hath been our end, fulfilled our days, For come hath our end."
+    "content": {
+      "text": "They have hunted our steps from going in our broad-places, Near hath been our end, fulfilled our days, For come hath our end.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 19,
-    "content": "Swifter have been our pursuers, Than the eagles of the heavens, On the mountains they have burned after us, In the wilderness they have laid wait for us."
+    "content": [
+      "Swifter have been our pursuers, Than the eagles of the heavens, On the mountains they have burned ",
+      { "text": "after", "marks": ["i"] },
+      {
+        "text": " us, In the wilderness they have laid wait for us.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 20,
-    "content": "The breath of our nostrils-the anointed of Jehovah, Hath been captured in their pits, of whom we said: ‘In his shadow we do live among nations.’"
+    "content": {
+      "text": "The breath of our nostrils—the anointed of Jehovah, Hath been captured in their pits, of whom we said: “In his shadow we do live among nations.”",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 21,
-    "content": "Joy and rejoice, O daughter of Edom, Dwelling in the land of Uz, Even unto thee pass over doth a cup, Thou art drunk, and makest thyself naked."
+    "content": {
+      "text": "Joy and rejoice, O daughter of Edom, Dwelling in the land of Uz, Even unto thee pass over doth a cup, Thou art drunk, and makest thyself naked.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 4,
     "verse": 22,
-    "content": "Completed is thy iniquity, daughter of Zion, He doth not add to remove thee, He hath inspected thy iniquity, O daughter of Edom, He hath removed thee because of thy sins!"
+    "content": [
+      "Completed ",
+      { "text": "is", "marks": ["i"] },
+      " thy iniquity, daughter of Zion, He doth not add to remove thee, He hath inspected thy iniquity, O daughter of Edom, He hath removed ",
+      { "text": "thee", "marks": ["i"] },
+      { "text": " because of thy sins!", "break": true }
+    ]
   },
   {
     "book": "LAM",
@@ -809,133 +1290,203 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Remember, O Jehovah, what hath befallen us, Look attentively, and see our reproach."
+      "text": "Remember, O Jehovah, what hath befallen us, Look attentively, and see our reproach.",
+      "break": true
     }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 2,
-    "content": "Our inheritance hath been turned to strangers, Our houses to foreigners."
+    "content": {
+      "text": "Our inheritance hath been turned to strangers, Our houses to foreigners.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 3,
-    "content": "Orphans we have been-without a father, our mothers are as widows."
+    "content": [
+      "Orphans we have been—without a father, our mothers ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " as widows.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 4,
-    "content": "Our water for money we have drunk, Our wood for a price doth come."
+    "content": {
+      "text": "Our water for money we have drunk, Our wood for a price doth come.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 5,
-    "content": "For our neck we have been pursued, We have laboured-there hath been no rest for us."
+    "content": {
+      "text": "For our neck we have been pursued, We have laboured—there hath been no rest for us.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 6,
-    "content": "To Egypt we have given a hand, To Asshur, to be satisfied with bread."
+    "content": [
+      { "text": "To", "marks": ["i"] },
+      " Egypt we have given a hand, ",
+      { "text": "To", "marks": ["i"] },
+      { "text": " Asshur, to be satisfied with bread.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 7,
-    "content": "Our fathers have sinned-they are not, We their iniquities have borne."
+    "content": {
+      "text": "Our fathers have sinned—they are not, We their iniquities have borne.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 8,
-    "content": "Servants have ruled over us, A deliverer there is none from their hand."
+    "content": {
+      "text": "Servants have ruled over us, A deliverer there is none from their hand.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 9,
-    "content": "With our lives we bring in our bread, Because of the sword of the wilderness."
+    "content": {
+      "text": "With our lives we bring in our bread, Because of the sword of the wilderness.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 10,
-    "content": "Our skin as an oven hath been burning, Because of the raging of the famine."
+    "content": {
+      "text": "Our skin as an oven hath been burning, Because of the raging of the famine.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 11,
-    "content": "Wives in Zion they have humbled, Virgins-in cities of Judah."
+    "content": {
+      "text": "Wives in Zion they have humbled, Virgins—in cities of Judah.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 12,
-    "content": "Princes by their hand have been hanged, The faces of elders have not been honoured."
+    "content": {
+      "text": "Princes by their hand have been hanged, The faces of elders have not been honoured.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 13,
-    "content": "Young men to grind they have taken, And youths with wood have stumbled."
+    "content": {
+      "text": "Young men to grind they have taken, And youths with wood have stumbled.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 14,
-    "content": "The aged from the gate have ceased, Young men from their song."
+    "content": {
+      "text": "The aged from the gate have ceased, Young men from their song.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 15,
-    "content": "Ceased hath the joy of our heart, Turned to mourning hath been our dancing."
+    "content": {
+      "text": "Ceased hath the joy of our heart, Turned to mourning hath been our dancing.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 16,
-    "content": "Fallen hath the crown from our head, Woe is now to us, for we have sinned."
+    "content": [
+      "Fallen hath the crown ",
+      { "text": "from", "marks": ["i"] },
+      " our head, Woe ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " now to us, for we have sinned.", "break": true }
+    ]
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 17,
-    "content": "For this hath our heart been sick, For these have our eyes been dim."
+    "content": {
+      "text": "For this hath our heart been sick, For these have our eyes been dim.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 18,
-    "content": "For the mount of Zion-that is desolate, Foxes have gone up on it."
+    "content": {
+      "text": "For the mount of Zion—that is desolate, Foxes have gone up on it.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 19,
-    "content": "Thou, O Jehovah, to the age remainest, Thy throne to generation and generation."
+    "content": {
+      "text": "Thou, O Jehovah, to the age remainest, Thy throne to generation and generation.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 20,
-    "content": "Why for ever dost Thou forget us? Thou forsakest us for length of days!"
+    "content": {
+      "text": "Why for ever dost Thou forget us? Thou forsakest us for length of days!",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 21,
-    "content": "Turn us back, O Jehovah, unto Thee, And we turn back, renew our days as of old."
+    "content": {
+      "text": "Turn us back, O Jehovah, unto Thee, And we turn back, renew our days as of old.",
+      "break": true
+    }
   },
   {
     "book": "LAM",
     "chapter": 5,
     "verse": 22,
-    "content": "For hast Thou utterly rejected us? Thou hast been wroth against us-exceedingly!"
+    "content": {
+      "text": "For hast Thou utterly rejected us? Thou hast been wroth against us—exceedingly?",
+      "break": true
+    }
   }
 ]

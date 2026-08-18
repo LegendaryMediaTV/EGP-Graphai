@@ -12,7 +12,7 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 2,
-    "content": "to the assembly of God that is in Corinth, to those sanctified in Christ Jesus, called saints, with all those calling upon the name of our Lord Jesus Christ in every place-both theirs and ours:"
+    "content": "to the assembly of God that is in Corinth, to those sanctified in Christ Jesus, called saints, with all those calling upon the name of our Lord Jesus Christ in every place—both theirs and ours:"
   },
   {
     "book": "1CO",
@@ -24,7 +24,10 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 4,
-    "content": "I give thanks to my God always concerning you for the grace of God that was given to you in Christ Jesus,"
+    "content": {
+      "paragraph": true,
+      "text": "I give thanks to my God always concerning you for the grace of God that was given to you in Christ Jesus,"
+    }
   },
   {
     "book": "1CO",
@@ -48,19 +51,29 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 8,
-    "content": "who also shall confirm you unto the end-unblamable in the day of our Lord Jesus Christ;"
+    "content": "who also shall confirm you unto the end—unblamable in the day of our Lord Jesus Christ;"
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 9,
-    "content": "faithful is God, through whom ye were called to the fellowship of His Son Jesus Christ our Lord."
+    "content": [
+      "faithful ",
+      { "text": "is", "marks": ["i"] },
+      " God, through whom ye were called to the fellowship of His Son Jesus Christ our Lord."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 10,
-    "content": "And I call upon you, brethren, through the name of our Lord Jesus Christ, that the same thing ye may all say, and there may not be divisions among you, and ye may be perfected in the same mind, and in the same judgment,"
+    "content": [
+      { "heading": "Divisions in the Church" },
+      {
+        "paragraph": true,
+        "text": "And I call upon you, brethren, through the name of our Lord Jesus Christ, that the same thing ye may all say, and there may not be divisions among you, and ye may be perfected in the same mind, and in the same judgment,"
+      }
+    ]
   },
   {
     "book": "1CO",
@@ -72,7 +85,7 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 12,
-    "content": "and I say this, that each one of you saith, ‘I, indeed, am of Paul’- ‘and I of Apollos,’- ‘and I of Cephas,’- ‘and I of Christ.’"
+    "content": "and I say this, that each one of you saith, “I, indeed, am of Paul”—“and I of Apollos,”—“and I of Cephas,”—“and I of Christ.”"
   },
   {
     "book": "1CO",
@@ -84,7 +97,7 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 14,
-    "content": "I give thanks to God that no one of you did I baptize, except Crispus and Gaius-"
+    "content": "I give thanks to God that no one of you did I baptize, except Crispus and Gaius—"
   },
   {
     "book": "1CO",
@@ -96,37 +109,50 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 16,
-    "content": "and I did baptize also Stephanas’ household-further, I have not known if I did baptize any other."
+    "content": "and I did baptize also Stephanas’ household—further, I have not known if I did baptize any other."
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 17,
-    "content": "For Christ did not send me to baptize, but-to proclaim good news; not in wisdom of discourse, that the cross of the Christ may not be made of none effect;"
+    "content": "For Christ did not send me to baptize, but—to proclaim good news; not in wisdom of discourse, that the cross of the Christ may not be made of none effect;"
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 18,
-    "content": "for the word of the cross to those indeed perishing is foolishness, and to us-those being saved-it is the power of God,"
+    "content": {
+      "paragraph": true,
+      "text": "for the word of the cross to those indeed perishing is foolishness, and to us—those being saved—it is the power of God,"
+    }
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 19,
-    "content": "for it hath been written, ‘I will destroy the wisdom of the wise, and the intelligence of the intelligent I will bring to nought;’"
+    "content": {
+      "text": "for it hath been written, “I will destroy the wisdom of the wise, and the intelligence of the intelligent I will bring to nought;”",
+      "break": true
+    }
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 20,
-    "content": "where is the wise? where the scribe? where a disputer of this age? did not God make foolish the wisdom of this world?"
+    "content": [
+      { "paragraph": true, "text": "where " },
+      { "text": "is", "marks": ["i"] },
+      " the wise? where the scribe? where a disputer of this age? did not God make foolish the wisdom of this world?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 21,
-    "content": "for, seeing in the wisdom of God the world through the wisdom knew not God, it did please God through the foolishness of the preaching to save those believing."
+    "content": {
+      "paragraph": true,
+      "text": "for, seeing in the wisdom of God the world through the wisdom knew not God, it did please God through the foolishness of the preaching to save those believing."
+    }
   },
   {
     "book": "1CO",
@@ -138,13 +164,13 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 23,
-    "content": "also we-we preach Christ crucified, to Jews, indeed, a stumbling-block, and to Greeks foolishness,"
+    "content": "also we—we preach Christ crucified, to Jews, indeed, a stumbling-block, and to Greeks foolishness,"
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 24,
-    "content": "and to those called-both Jews and Greeks-Christ the power of God, and the wisdom of God,"
+    "content": "and to those called—both Jews and Greeks—Christ the power of God, and the wisdom of God,"
   },
   {
     "book": "1CO",
@@ -156,7 +182,14 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 26,
-    "content": "for see your calling, brethren, that not many are wise according to the flesh, not many mighty, not many noble;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "for see your calling, brethren, that not many "
+      },
+      { "text": "are", "marks": ["i"] },
+      " wise according to the flesh, not many mighty, not many noble;"
+    ]
   },
   {
     "book": "1CO",
@@ -168,7 +201,7 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 28,
-    "content": "and the base things of the world, and the things despised did God choose, and the things that are not, that the things that are He may make useless-"
+    "content": "and the base things of the world, and the things despised did God choose, and the things that are not, that the things that are He may make useless—"
   },
   {
     "book": "1CO",
@@ -180,13 +213,13 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 30,
-    "content": "and of Him ye-ye are in Christ Jesus, who became to us from God wisdom, righteousness also, and sanctification, and redemption,"
+    "content": "and of Him ye—ye are in Christ Jesus, who became to us from God wisdom, righteousness also, and sanctification, and redemption,"
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 31,
-    "content": "that, according as it hath been written, ‘He who is glorying-in the Lord let him glory.’"
+    "content": "that, according as it hath been written, “He who is glorying—in the Lord let him glory.”"
   },
   {
     "book": "1CO",
@@ -194,7 +227,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And I, having come unto you, brethren, came-not in superiority of discourse or wisdom-declaring to you the testimony of God,"
+      "text": "And I, having come unto you, brethren, came—not in superiority of discourse or wisdom—declaring to you the testimony of God,"
     }
   },
   {
@@ -213,7 +246,7 @@
     "book": "1CO",
     "chapter": 2,
     "verse": 4,
-    "content": "and my word and my preaching was not in persuasive words of human wisdom, but in demonstration of the Spirit and of power-"
+    "content": "and my word and my preaching was not in persuasive words of human wisdom, but in demonstration of the Spirit and of power—"
   },
   {
     "book": "1CO",
@@ -225,7 +258,10 @@
     "book": "1CO",
     "chapter": 2,
     "verse": 6,
-    "content": "And wisdom we speak among the perfect, and wisdom not of this age, nor of the rulers of this age-of those becoming useless,"
+    "content": {
+      "paragraph": true,
+      "text": "And wisdom we speak among the perfect, and wisdom not of this age, nor of the rulers of this age—of those becoming useless,"
+    }
   },
   {
     "book": "1CO",
@@ -243,25 +279,40 @@
     "book": "1CO",
     "chapter": 2,
     "verse": 9,
-    "content": "but, according as it hath been written, ‘What eye did not see, and ear did not hear, and upon the heart of man came not up, what God did prepare for those loving Him-‘"
+    "content": {
+      "text": "but, according as it hath been written, “What eye did not see, and ear did not hear, and upon the heart of man came not up, what God did prepare for those loving Him—”",
+      "break": true
+    }
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 10,
-    "content": "but to us did God reveal them through His Spirit, for the Spirit all things doth search, even the depths of God,"
+    "content": [
+      { "paragraph": true, "text": "but to us did God reveal " },
+      { "text": "them", "marks": ["i"] },
+      " through His Spirit, for the Spirit all things doth search, even the depths of God,"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 11,
-    "content": "for who of men hath known the things of the man, except the spirit of the man that is in him? so also the things of God no one hath known, except the Spirit of God."
+    "content": [
+      "for who of men hath known the things of the man, except the spirit of the man that ",
+      { "text": "is", "marks": ["i"] },
+      " in him? so also the things of God no one hath known, except the Spirit of God."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 12,
-    "content": "And we the spirit of the world did not receive, but the Spirit that is of God, that we may know the things conferred by God on us,"
+    "content": [
+      "And we the spirit of the world did not receive, but the Spirit that ",
+      { "text": "is", "marks": ["i"] },
+      " of God, that we may know the things conferred by God on us,"
+    ]
   },
   {
     "book": "1CO",
@@ -273,7 +324,11 @@
     "book": "1CO",
     "chapter": 2,
     "verse": 14,
-    "content": "and the natural man doth not receive the things of the Spirit of God, for to him they are foolishness, and he is not able to know them, because spiritually they are discerned;"
+    "content": [
+      "and the natural man doth not receive the things of the Spirit of God, for to him they are foolishness, and he is not able to know ",
+      { "text": "them", "marks": ["i"] },
+      ", because spiritually they are discerned;"
+    ]
   },
   {
     "book": "1CO",
@@ -285,7 +340,7 @@
     "book": "1CO",
     "chapter": 2,
     "verse": 16,
-    "content": "for who did know the mind of the Lord that he shall instruct Him? and we-we have the mind of Christ."
+    "content": "for who did know the mind of the Lord that he shall instruct Him? and we—we have the mind of Christ."
   },
   {
     "book": "1CO",
@@ -293,7 +348,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And I, brethren, was not able to speak to you as to spiritual, but as to fleshly-as to babes in Christ;"
+      "text": "And I, brethren, was not able to speak to you as to spiritual, but as to fleshly—as to babes in Christ;"
     }
   },
   {
@@ -306,13 +361,17 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 3,
-    "content": "for yet ye are fleshly, for where there is among you envying, and strife, and divisions, are ye not fleshly, and in the manner of men do walk?"
+    "content": [
+      { "paragraph": true, "text": "for yet ye are fleshly, for where " },
+      { "text": "there is", "marks": ["i"] },
+      " among you envying, and strife, and divisions, are ye not fleshly, and in the manner of men do walk?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 4,
-    "content": "for when one may say, ‘I, indeed, am of Paul;’ and another, ‘I-of Apollos;’ are ye not fleshly?"
+    "content": "for when one may say, “I, indeed, am of Paul;” and another, “I—of Apollos;” are ye not fleshly?"
   },
   {
     "book": "1CO",
@@ -330,7 +389,7 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 7,
-    "content": "so that neither is he who is planting anything, nor he who is watering, but He who is giving growth-God;"
+    "content": "so that neither is he who is planting anything, nor he who is watering, but He who is giving growth—God;"
   },
   {
     "book": "1CO",
@@ -348,7 +407,14 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 10,
-    "content": "According to the grace of God that was given to me, as a wise master-builder, a foundation I have laid, and another doth build on it,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "According to the grace of God that was given to me, as a wise master-builder, a foundation I have laid, and another doth build on "
+      },
+      { "text": "it", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "1CO",
@@ -360,19 +426,27 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 12,
-    "content": "and if any one doth build upon this foundation gold, silver, precious stones, wood, hay, straw-"
+    "content": "and if any one doth build upon this foundation gold, silver, precious stones, wood, hay, straw—"
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 13,
-    "content": "of each the work shall become manifest, for the day shall declare it, because in fire it is revealed, and the work of each, what kind it is, the fire shall prove;"
+    "content": [
+      "of each the work shall become manifest, for the day shall declare ",
+      { "text": "it", "marks": ["i"] },
+      ", because in fire it is revealed, and the work of each, what kind it is, the fire shall prove;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 14,
-    "content": "if of any one the work doth remain that he built on it, a wage he shall receive;"
+    "content": [
+      "if of any one the work doth remain that he built on ",
+      { "text": "it", "marks": ["i"] },
+      ", a wage he shall receive;"
+    ]
   },
   {
     "book": "1CO",
@@ -384,7 +458,10 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 16,
-    "content": "Have ye not known that ye are a sanctuary of God, and the Spirit of God doth dwell in you?"
+    "content": {
+      "paragraph": true,
+      "text": "Have ye not known that ye are a sanctuary of God, and the Spirit of God doth dwell in you?"
+    }
   },
   {
     "book": "1CO",
@@ -396,19 +473,22 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 18,
-    "content": "Let no one deceive himself; if any one doth seem to be wise among you in this age-let him become a fool, that he may become wise,"
+    "content": {
+      "paragraph": true,
+      "text": "Let no one deceive himself; if any one doth seem to be wise among you in this age—let him become a fool, that he may become wise,"
+    }
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 19,
-    "content": "for the wisdom of this world is foolishness with God, for it hath been written, ‘Who is taking the wise in their craftiness;’"
+    "content": "for the wisdom of this world is foolishness with God, for it hath been written, “Who is taking the wise in their craftiness;”"
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 20,
-    "content": "and again, ‘The Lord doth know the reasonings of the wise, that they are vain.’"
+    "content": "and again, “The Lord doth know the reasonings of the wise, that they are vain.”"
   },
   {
     "book": "1CO",
@@ -420,13 +500,19 @@
     "book": "1CO",
     "chapter": 3,
     "verse": 22,
-    "content": "whether Paul, or Apollos, or Cephas, or the world, or life, or death, or things present, or things about to be-all are yours,"
+    "content": "whether Paul, or Apollos, or Cephas, or the world, or life, or death, or things present, or things about to be—all are yours,"
   },
   {
     "book": "1CO",
     "chapter": 3,
     "verse": 23,
-    "content": "and ye are Christ’s, and Christ is God’s."
+    "content": [
+      "and ye ",
+      { "text": "are", "marks": ["i"] },
+      " Christ’s, and Christ ",
+      { "text": "is", "marks": ["i"] },
+      " God’s."
+    ]
   },
   {
     "book": "1CO",
@@ -453,7 +539,7 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 4,
-    "content": "for of nothing to myself have I been conscious, but not in this have I been declared right-and he who is discerning me is the Lord:"
+    "content": "for of nothing to myself have I been conscious, but not in this have I been declared right—and he who is discerning me is the Lord:"
   },
   {
     "book": "1CO",
@@ -465,7 +551,10 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 6,
-    "content": "And these things, brethren, I did transfer to myself and to Apollos because of you, that in us ye may learn not to think above that which hath been written, that ye may not be puffed up one for one against the other,"
+    "content": {
+      "paragraph": true,
+      "text": "And these things, brethren, I did transfer to myself and to Apollos because of you, that in us ye may learn not to think above that which hath been written, that ye may not be puffed up one for one against the other,"
+    }
   },
   {
     "book": "1CO",
@@ -483,13 +572,19 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 9,
-    "content": "for I think that God did set forth us the apostles last-as appointed to death, because a spectacle we became to the world, and messengers, and men;"
+    "content": "for I think that God did set forth us the apostles last—as appointed to death, because a spectacle we became to the world, and messengers, and men;"
   },
   {
     "book": "1CO",
     "chapter": 4,
     "verse": 10,
-    "content": "we are fools because of Christ, and ye wise in Christ; we are ailing, and ye strong; ye glorious, and we dishonoured;"
+    "content": [
+      "we ",
+      { "text": "are", "marks": ["i"] },
+      " fools because of Christ, and ye wise in Christ; we ",
+      { "text": "are", "marks": ["i"] },
+      " ailing, and ye strong; ye glorious, and we dishonoured;"
+    ]
   },
   {
     "book": "1CO",
@@ -501,25 +596,33 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 12,
-    "content": "and labour, working with our own hands; being reviled, we bless; being persecuted, we suffer;"
+    "content": [
+      "and labour, working with ",
+      { "text": "our", "marks": ["i"] },
+      " own hands; being reviled, we bless; being persecuted, we suffer;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 4,
     "verse": 13,
-    "content": "being spoken evil of, we entreat; as filth of the world we did become-of all things an offscouring-till now."
+    "content": "being spoken evil of, we entreat; as filth of the world we did become—of all things an offscouring—till now."
   },
   {
     "book": "1CO",
     "chapter": 4,
     "verse": 14,
-    "content": "Not as putting you to shame do I write these things, but as my beloved children I do admonish,"
+    "content": [
+      { "paragraph": true, "text": "Not " },
+      { "text": "as", "marks": ["i"] },
+      " putting you to shame do I write these things, but as my beloved children I do admonish,"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 4,
     "verse": 15,
-    "content": "for if a myriad of child-conductors ye may have in Christ, yet not many fathers; for in Christ Jesus, through the good news, I-I did beget you;"
+    "content": "for if a myriad of child-conductors ye may have in Christ, yet not many fathers; for in Christ Jesus, through the good news, I—I did beget you;"
   },
   {
     "book": "1CO",
@@ -537,7 +640,13 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 18,
-    "content": "And as if I were not coming unto you certain were puffed up;"
+    "content": [
+      { "heading": "I Will Come to You" },
+      {
+        "paragraph": true,
+        "text": "And as if I were not coming unto you certain were puffed up;"
+      }
+    ]
   },
   {
     "book": "1CO",
@@ -561,10 +670,13 @@
     "book": "1CO",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Whoredom is actually heard of among you, and such whoredom as is not even named among the nations-as that one hath the wife of the father!-"
-    }
+    "content": [
+      { "heading": "Moral Disorders" },
+      {
+        "paragraph": true,
+        "text": "Whoredom is actually heard of among you, and such whoredom as is not even named among the nations—as that one hath the wife of the father!—"
+      }
+    ]
   },
   {
     "book": "1CO",
@@ -582,7 +694,7 @@
     "book": "1CO",
     "chapter": 5,
     "verse": 4,
-    "content": "in the name of our Lord Jesus Christ-ye being gathered together, also my spirit-with the power of our Lord Jesus Christ,"
+    "content": "in the name of our Lord Jesus Christ—ye being gathered together, also my spirit—with the power of our Lord Jesus Christ,"
   },
   {
     "book": "1CO",
@@ -594,13 +706,17 @@
     "book": "1CO",
     "chapter": 5,
     "verse": 6,
-    "content": "Not good is your glorying; have ye not known that a little leaven the whole lump doth leaven?"
+    "content": [
+      "Not good ",
+      { "text": "is", "marks": ["i"] },
+      " your glorying; have ye not known that a little leaven the whole lump doth leaven?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 5,
     "verse": 7,
-    "content": "cleanse out, therefore, the old leaven, that ye may be a new lump, according as ye are unleavened, for also our passover for us was sacrificed-Christ,"
+    "content": "cleanse out, therefore, the old leaven, that ye may be a new lump, according as ye are unleavened, for also our passover for us was sacrificed—Christ,"
   },
   {
     "book": "1CO",
@@ -612,19 +728,26 @@
     "book": "1CO",
     "chapter": 5,
     "verse": 9,
-    "content": "I did write to you in the epistle, not to keep company with whoremongers-"
+    "content": {
+      "paragraph": true,
+      "text": "I did write to you in the epistle, not to keep company with whoremongers—"
+    }
   },
   {
     "book": "1CO",
     "chapter": 5,
     "verse": 10,
-    "content": "and not certainly with the whoremongers of this world, or with the covetous, or extortioners, or idolaters, seeing ye ought then to go forth out of the world-"
+    "content": "and not certainly with the whoremongers of this world, or with the covetous, or extortioners, or idolaters, seeing ye ought then to go forth out of the world—"
   },
   {
     "book": "1CO",
     "chapter": 5,
     "verse": 11,
-    "content": "and now, I did write to you not to keep company with him, if any one, being named a brother, may be a whoremonger, or covetous, or an idolater, or a railer, or a drunkard, or an extortioner-with such a one not even to eat together;"
+    "content": [
+      "and now, I did write to you not to keep company with ",
+      { "text": "him", "marks": ["i"] },
+      ", if any one, being named a brother, may be a whoremonger, or covetous, or an idolater, or a railer, or a drunkard, or an extortioner—with such a one not even to eat together;"
+    ]
   },
   {
     "book": "1CO",
@@ -663,7 +786,10 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 4,
-    "content": "of the things of life, indeed, then, if ye may have judgment, those despised in the assembly-these cause ye to sit;"
+    "content": {
+      "paragraph": true,
+      "text": "of the things of life, indeed, then, if ye may have judgment, those despised in the assembly—these cause ye to sit;"
+    }
   },
   {
     "book": "1CO",
@@ -687,7 +813,7 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 8,
-    "content": "but ye-ye do injustice, and ye defraud, and these-brethren!"
+    "content": "but ye—ye do injustice, and ye defraud, and these—brethren!"
   },
   {
     "book": "1CO",
@@ -711,13 +837,22 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 12,
-    "content": "All things are lawful to me, but all things are not profitable; all things are lawful to me, but I-I will not be under authority by any;"
+    "content": {
+      "paragraph": true,
+      "text": "All things are lawful to me, but all things are not profitable; all things are lawful to me, but I—I will not be under authority by any;"
+    }
   },
   {
     "book": "1CO",
     "chapter": 6,
     "verse": 13,
-    "content": "the meats are for the belly, and the belly for the meats. And God both this and these shall make useless; and the body is not for whoredom, but for the Lord, and the Lord for the body;"
+    "content": [
+      "the meats ",
+      { "text": "are", "marks": ["i"] },
+      " for the belly, and the belly for the meats. And God both this and these shall make useless; and the body ",
+      { "text": "is", "marks": ["i"] },
+      " not for whoredom, but for the Lord, and the Lord for the body;"
+    ]
   },
   {
     "book": "1CO",
@@ -729,13 +864,17 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 15,
-    "content": "Have ye not known that your bodies are members of Christ? having taken, then, the members of the Christ, shall I make them members of an harlot? let it be not!"
+    "content": [
+      "Have ye not known that your bodies are members of Christ? having taken, then, the members of the Christ, shall I make ",
+      { "text": "them", "marks": ["i"] },
+      " members of an harlot? let it be not!"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 6,
     "verse": 16,
-    "content": "have ye not known that he who is joined to the harlot is one body? ‘for they shall be-saith He-the two for one flesh.’"
+    "content": "have ye not known that he who is joined to the harlot is one body? “for they shall be—saith He—the two for one flesh.”"
   },
   {
     "book": "1CO",
@@ -747,7 +886,7 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 18,
-    "content": "flee the whoredom; every sin-whatever a man may commit-is without the body, and he who is committing whoredom, against his own body doth sin."
+    "content": "flee the whoredom; every sin—whatever a man may commit—is without the body, and he who is committing whoredom, against his own body doth sin."
   },
   {
     "book": "1CO",
@@ -765,10 +904,15 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And concerning the things of which ye wrote to me: good it is for a man not to touch a woman,"
-    }
+    "content": [
+      { "heading": "Questions Regarding Marriage" },
+      {
+        "paragraph": true,
+        "text": "And concerning the things of which ye wrote to me: good "
+      },
+      { "text": "it is", "marks": ["i"] },
+      " for a man not to touch a woman,"
+    ]
   },
   {
     "book": "1CO",
@@ -798,31 +942,42 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 6,
-    "content": "and this I say by way of concurrence-not of command,"
+    "content": "and this I say by way of concurrence—not of command,"
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 7,
-    "content": "for I wish all men to be even as I myself am; but each his own gift hath of God, one indeed thus, and one thus."
+    "content": [
+      "for I wish all men to be even as I myself ",
+      { "text": "am", "marks": ["i"] },
+      "; but each his own gift hath of God, one indeed thus, and one thus."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 8,
-    "content": "And I say to the unmarried and to the widows: it is good for them if they may remain even as I am;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And I say to the unmarried and to the widows: it is good for them if they may remain even as I "
+      },
+      { "text": "am", "marks": ["i"] },
+      ";"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 9,
-    "content": "and if they have not continence-let them marry, for it is better to marry than to burn;"
+    "content": "and if they have not continence—let them marry, for it is better to marry than to burn;"
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 10,
-    "content": "and to the married I announce-not I, but the Lord-let not a wife separate from a husband:"
+    "content": "and to the married I announce—not I, but the Lord—let not a wife separate from a husband:"
   },
   {
     "book": "1CO",
@@ -834,7 +989,7 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 12,
-    "content": "And to the rest I speak-not the Lord-if any brother hath a wife unbelieving, and she is pleased to dwell with him, let him not send her away;"
+    "content": "And to the rest I speak—not the Lord—if any brother hath a wife unbelieving, and she is pleased to dwell with him, let him not send her away;"
   },
   {
     "book": "1CO",
@@ -852,7 +1007,11 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 15,
-    "content": "And, if the unbelieving doth separate himself-let him separate himself: the brother or the sister is not under servitude in such cases, and in peace hath God called us;"
+    "content": [
+      "And, if the unbelieving doth separate himself—let him separate himself: the brother or the sister is not under servitude in such ",
+      { "text": "cases", "marks": ["i"] },
+      ", and in peace hath God called us;"
+    ]
   },
   {
     "book": "1CO",
@@ -864,37 +1023,48 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 17,
-    "content": "if not, as God did distribute to each, as the Lord hath called each-so let him walk; and thus in all the assemblies do I direct:"
+    "content": {
+      "paragraph": true,
+      "text": "if not, as God did distribute to each, as the Lord hath called each—so let him walk; and thus in all the assemblies do I direct:"
+    }
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 18,
-    "content": "being circumcised-was any one called? let him not become uncircumcised; in uncircumcision was any one called? let him not be circumcised;"
+    "content": "being circumcised—was any one called? let him not become uncircumcised; in uncircumcision was any one called? let him not be circumcised;"
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 19,
-    "content": "the circumcision is nothing, and the uncircumcision is nothing-but a keeping of the commands of God."
+    "content": "the circumcision is nothing, and the uncircumcision is nothing—but a keeping of the commands of God."
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 20,
-    "content": "Each in the calling in which he was called-in this let him remain;"
+    "content": "Each in the calling in which he was called—in this let him remain;"
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 21,
-    "content": "a servant-wast thou called? be not anxious; but if also thou art able to become free-use it rather;"
+    "content": [
+      "a servant—wast thou called? be not anxious; but if also thou art able to become free—use ",
+      { "text": "it", "marks": ["i"] },
+      " rather;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 22,
-    "content": "for he who is in the Lord-having been called a servant-is the Lord’s freedman: in like manner also he the freeman, having been called, is servant of Christ:"
+    "content": [
+      "for he who ",
+      { "text": "is", "marks": ["i"] },
+      " in the Lord—having been called a servant—is the Lord’s freedman: in like manner also he the freeman, having been called, is servant of Christ:"
+    ]
   },
   {
     "book": "1CO",
@@ -912,13 +1082,23 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 25,
-    "content": "And concerning the virgins, a command of the Lord I have not; and I give judgment as having obtained kindness from the Lord to be faithful:"
+    "content": {
+      "paragraph": true,
+      "text": "And concerning the virgins, a command of the Lord I have not; and I give judgment as having obtained kindness from the Lord to be faithful:"
+    }
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 26,
-    "content": "I suppose, therefore, this to be good because of the present necessity, that it is good for a man that the matter be thus:-"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I suppose, therefore, this to be good because of the present necessity, that "
+      },
+      { "text": "it is", "marks": ["i"] },
+      " good for a man that the matter be thus:—"
+    ]
   },
   {
     "book": "1CO",
@@ -936,7 +1116,7 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 29,
-    "content": "And this I say, brethren, the time henceforth is having been shortened-that both those having wives may be as not having;"
+    "content": "And this I say, brethren, the time henceforth is having been shortened—that both those having wives may be as not having;"
   },
   {
     "book": "1CO",
@@ -948,7 +1128,11 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 31,
-    "content": "and those using this world, as not using it up; for passing away is the fashion of this world."
+    "content": [
+      "and those using this world, as not using ",
+      { "text": "it", "marks": ["i"] },
+      " up; for passing away is the fashion of this world."
+    ]
   },
   {
     "book": "1CO",
@@ -978,13 +1162,17 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 36,
-    "content": "and if any one doth think it to be unseemly to his virgin, if she may be beyond the bloom of age, and it ought so to be, what he willeth let him do; he doth not sin-let him marry."
+    "content": [
+      { "paragraph": true, "text": "and if any one doth think " },
+      { "text": "it", "marks": ["i"] },
+      " to be unseemly to his virgin, if she may be beyond the bloom of age, and it ought so to be, what he willeth let him do; he doth not sin—let him marry."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 37,
-    "content": "And he who hath stood stedfast in the heart-not having necessity-and hath authority over his own will, and this he hath determined in his heart-to keep his own virgin-doth well;"
+    "content": "And he who hath stood stedfast in the heart—not having necessity—and hath authority over his own will, and this he hath determined in his heart—to keep his own virgin—doth well;"
   },
   {
     "book": "1CO",
@@ -996,28 +1184,38 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 39,
-    "content": "A wife hath been bound by law as long time as her husband may live, and if her husband may sleep, she is free to be married to whom she will-only in the Lord;"
+    "content": {
+      "paragraph": true,
+      "text": "A wife hath been bound by law as long time as her husband may live, and if her husband may sleep, she is free to be married to whom she will—only in the Lord;"
+    }
   },
   {
     "book": "1CO",
     "chapter": 7,
     "verse": 40,
-    "content": "and she is happier if she may so remain-according to my judgment; and I think I also have the Spirit of God."
+    "content": "and she is happier if she may so remain—according to my judgment; and I think I also have the Spirit of God."
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And concerning the things sacrificed to idols, we have known that we all have knowledge: knowledge puffeth up, but love buildeth up;"
-    }
+    "content": [
+      { "heading": "Social Questions" },
+      {
+        "paragraph": true,
+        "text": "And concerning the things sacrificed to idols, we have known that we all have knowledge: knowledge puffeth up, but love buildeth up;"
+      }
+    ]
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 2,
-    "content": "and if any one doth think to know anything, he hath not yet known anything according as it behoveth him to know;"
+    "content": [
+      "and if any one doth think to know anything, he hath not yet known anything according as it behoveth ",
+      { "text": "him", "marks": ["i"] },
+      " to know;"
+    ]
   },
   {
     "book": "1CO",
@@ -1029,25 +1227,43 @@
     "book": "1CO",
     "chapter": 8,
     "verse": 4,
-    "content": "Concerning the eating then of the things sacrificed to idols, we have known that an idol is nothing in the world, and that there is no other God except one;"
+    "content": [
+      "Concerning the eating then of the things sacrificed to idols, we have known that an idol ",
+      { "text": "is", "marks": ["i"] },
+      " nothing in the world, and that there is no other God except one;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 5,
-    "content": "for even if there are those called gods, whether in heaven, whether upon earth-as there are gods many and lords many-"
+    "content": "for even if there are those called gods, whether in heaven, whether upon earth—as there are gods many and lords many—"
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 6,
-    "content": "yet to us is one God, the Father, of whom are the all things, and we to Him; and one Lord, Jesus Christ, through whom are the all things, and we through Him;"
+    "content": [
+      "yet to us ",
+      { "text": "is", "marks": ["i"] },
+      " one God, the Father, of whom ",
+      { "text": "are", "marks": ["i"] },
+      " the all things, and we to Him; and one Lord, Jesus Christ, through whom ",
+      { "text": "are", "marks": ["i"] },
+      " the all things, and we through Him;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 7,
-    "content": "but not in all men is the knowledge, and certain with conscience of the idol, till now, as a thing sacrificed to an idol do eat it, and their conscience, being weak, is defiled."
+    "content": [
+      "but not in all men ",
+      { "text": "is", "marks": ["i"] },
+      " the knowledge, and certain with conscience of the idol, till now, as a thing sacrificed to an idol do eat ",
+      { "text": "it", "marks": ["i"] },
+      ", and their conscience, being weak, is defiled."
+    ]
   },
   {
     "book": "1CO",
@@ -1065,7 +1281,7 @@
     "book": "1CO",
     "chapter": 8,
     "verse": 10,
-    "content": "for if any one may see thee that hast knowledge in an idol’s temple reclining at meat-shall not his conscience-he being infirm-be emboldened to eat the things sacrificed to idols,"
+    "content": "for if any one may see thee that hast knowledge in an idol’s temple reclining at meat—shall not his conscience—he being infirm—be emboldened to eat the things sacrificed to idols,"
   },
   {
     "book": "1CO",
@@ -1077,13 +1293,13 @@
     "book": "1CO",
     "chapter": 8,
     "verse": 12,
-    "content": "and thus sinning in regard to the brethren, and smiting their weak conscience-in regard to Christ ye sin;"
+    "content": "and thus sinning in regard to the brethren, and smiting their weak conscience—in regard to Christ ye sin;"
   },
   {
     "book": "1CO",
     "chapter": 8,
     "verse": 13,
-    "content": "wherefore, if victuals cause my brother to stumble, I may eat no flesh-to the age-that my brother I may not cause to stumble."
+    "content": "wherefore, if victuals cause my brother to stumble, I may eat no flesh—to the age—that my brother I may not cause to stumble."
   },
   {
     "book": "1CO",
@@ -1098,13 +1314,16 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 2,
-    "content": "if to others I am not an apostle-yet doubtless to you I am; for the seal of my apostleship are ye in the Lord."
+    "content": "if to others I am not an apostle—yet doubtless to you I am; for the seal of my apostleship are ye in the Lord."
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 3,
-    "content": "My defence to those who examine me in this;"
+    "content": {
+      "paragraph": true,
+      "text": "My defence to those who examine me in this;"
+    }
   },
   {
     "book": "1CO",
@@ -1116,13 +1335,13 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 5,
-    "content": "have we not authority a sister-a wife-to lead about, as also the other apostles, and the brethren of the Lord, and Cephas?"
+    "content": "have we not authority a sister—a wife—to lead about, as also the other apostles, and the brethren of the Lord, and Cephas?"
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 6,
-    "content": "or only I and Barnabas, have we not authority-not to work?"
+    "content": "or only I and Barnabas, have we not authority—not to work?"
   },
   {
     "book": "1CO",
@@ -1140,31 +1359,41 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 9,
-    "content": "for in the law of Moses it hath been written, ‘thou shalt not muzzle an ox treading out corn;’ for the oxen doth God care?"
+    "content": "for in the law of Moses it hath been written, “thou shalt not muzzle an ox treading out corn;” for the oxen doth God care?"
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 10,
-    "content": "or because of us by all means doth He say it? yes, because of us it was written, because in hope ought the plower to plow, and he who is treading ought of his hope to partake in hope."
+    "content": [
+      "or because of us by all means doth He say ",
+      { "text": "it", "marks": ["i"] },
+      "? yes, because of us it was written, because in hope ought the plower to plow, and he who is treading ",
+      { "text": "ought", "marks": ["i"] },
+      " of his hope to partake in hope."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 11,
-    "content": "If we to you the spiritual things did sow-great is it if we your fleshly things do reap?"
+    "content": [
+      "If we to you the spiritual things did sow—great ",
+      { "text": "is it", "marks": ["i"] },
+      " if we your fleshly things do reap?"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 12,
-    "content": "if others do partake of the authority over you-not we more? but we did not use this authority, but all things we bear, that we may give no hindrance to the good news of the Christ."
+    "content": "if others do partake of the authority over you—not we more? but we did not use this authority, but all things we bear, that we may give no hindrance to the good news of the Christ."
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 13,
-    "content": "Have ye not known that those working about the things of the temple-of the temple do eat, and those waiting at the altar-with the altar are partakers?"
+    "content": "Have ye not known that those working about the things of the temple—of the temple do eat, and those waiting at the altar—with the altar are partakers?"
   },
   {
     "book": "1CO",
@@ -1176,7 +1405,11 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 15,
-    "content": "And I have used none of these things; neither did I write these things that it may be so done in my case, for it is good for me rather to die, than that any one may make my glorying void;"
+    "content": [
+      "And I have used none of these things; neither did I write these things that it may be so done in my case, for ",
+      { "text": "it is", "marks": ["i"] },
+      " good for me rather to die, than that any one may make my glorying void;"
+    ]
   },
   {
     "book": "1CO",
@@ -1188,19 +1421,22 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 17,
-    "content": "for if willing I do this, I have a reward; and if unwillingly-with a stewardship I have been entrusted!"
+    "content": "for if willing I do this, I have a reward; and if unwillingly—with a stewardship I have been entrusted!"
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 18,
-    "content": "What, then, is my reward?-that proclaiming good news, without charge I shall make the good news of the Christ, not to abuse my authority in the good news;"
+    "content": "What, then, is my reward?—that proclaiming good news, without charge I shall make the good news of the Christ, not to abuse my authority in the good news;"
   },
   {
     "book": "1CO",
     "chapter": 9,
     "verse": 19,
-    "content": "for being free from all men, to all men I made myself servant, that the more I might gain;"
+    "content": {
+      "paragraph": true,
+      "text": "for being free from all men, to all men I made myself servant, that the more I might gain;"
+    }
   },
   {
     "book": "1CO",
@@ -1212,7 +1448,7 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 21,
-    "content": "to those without law, as without law-(not being without law to God, but within law to Christ)-that I might gain those without law;"
+    "content": "to those without law, as without law—(not being without law to God, but within law to Christ)—that I might gain those without law;"
   },
   {
     "book": "1CO",
@@ -1230,7 +1466,10 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 24,
-    "content": "have ye not known that those running in a race-all indeed run, but one doth receive the prize? so run ye, that ye may obtain;"
+    "content": {
+      "paragraph": true,
+      "text": "have ye not known that those running in a race—all indeed run, but one doth receive the prize? so run ye, that ye may obtain;"
+    }
   },
   {
     "book": "1CO",
@@ -1248,7 +1487,11 @@
     "book": "1CO",
     "chapter": 9,
     "verse": 27,
-    "content": "but I chastise my body, and bring it into servitude, lest by any means, having preached to others-I myself may become disapproved."
+    "content": [
+      "but I chastise my body, and bring ",
+      { "text": "it", "marks": ["i"] },
+      " into servitude, lest by any means, having preached to others—I myself may become disapproved."
+    ]
   },
   {
     "book": "1CO",
@@ -1287,13 +1530,16 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 6,
-    "content": "and those things became types of us, for our not passionately desiring evil things, as also these did desire."
+    "content": {
+      "paragraph": true,
+      "text": "and those things became types of us, for our not passionately desiring evil things, as also these did desire."
+    }
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 7,
-    "content": "Neither become ye idolaters, as certain of them, as it hath been written, ‘The people sat down to eat and to drink, and stood up to play;’"
+    "content": "Neither become ye idolaters, as certain of them, as it hath been written, “The people sat down to eat and to drink, and stood up to play;”"
   },
   {
     "book": "1CO",
@@ -1323,37 +1569,47 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 12,
-    "content": "so that he who is thinking to stand-let him observe, lest he fall."
+    "content": {
+      "paragraph": true,
+      "text": "so that he who is thinking to stand—let him observe, lest he fall."
+    }
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 13,
-    "content": "No temptation hath taken you-except human; and God is faithful, who will not suffer you to be tempted above what ye are able, but He will make, with the temptation, also the outlet, for your being able to bear it."
+    "content": [
+      "No temptation hath taken you—except human; and God is faithful, who will not suffer you to be tempted above what ye are able, but He will make, with the temptation, also the outlet, for your being able to bear ",
+      { "text": "it", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 14,
-    "content": "Wherefore, my beloved, flee from the idolatry;"
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore, my beloved, flee from the idolatry;"
+    }
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 15,
-    "content": "as to wise men I speak-judge ye what I say:"
+    "content": "as to wise men I speak—judge ye what I say:"
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 16,
-    "content": "The cup of the blessing that we bless-is it not the fellowship of the blood of the Christ? the bread that we break-is it not the fellowship of the body of the Christ?"
+    "content": "The cup of the blessing that we bless—is it not the fellowship of the blood of the Christ? the bread that we break—is it not the fellowship of the body of the Christ?"
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 17,
-    "content": "because one bread, one body, are we the many-for we all of the one bread do partake."
+    "content": "because one bread, one body, are we the many—for we all of the one bread do partake."
   },
   {
     "book": "1CO",
@@ -1365,13 +1621,16 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 19,
-    "content": "what then do I say? that an idol is anything? or that a sacrifice offered to an idol is anything?-"
+    "content": "what then do I say? that an idol is anything? or that a sacrifice offered to an idol is anything?—"
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 20,
-    "content": "no, but that the things that the nations sacrifice-they sacrifice to demons and not to God; and I do not wish you to come into the fellowship of the demons."
+    "content": [
+      { "text": "no,", "marks": ["i"] },
+      " but that the things that the nations sacrifice—they sacrifice to demons and not to God; and I do not wish you to come into the fellowship of the demons."
+    ]
   },
   {
     "book": "1CO",
@@ -1389,25 +1648,35 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 23,
-    "content": "All things to me are lawful, but all things are not profitable; all things to me are lawful, but all things do not build up;"
+    "content": {
+      "paragraph": true,
+      "text": "All things to me are lawful, but all things are not profitable; all things to me are lawful, but all things do not build up;"
+    }
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 24,
-    "content": "let no one seek his own-but each another’s."
+    "content": "let no one seek his own—but each another’s."
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 25,
-    "content": "Whatever in the meat-market is sold eat ye, not inquiring, because of the conscience,"
+    "content": {
+      "paragraph": true,
+      "text": "Whatever in the meat-market is sold eat ye, not inquiring, because of the conscience,"
+    }
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 26,
-    "content": "for the Lord’s is the earth, and its fulness;"
+    "content": [
+      "for the Lord’s ",
+      { "text": "is", "marks": ["i"] },
+      " the earth, and its fulness;"
+    ]
   },
   {
     "book": "1CO",
@@ -1419,13 +1688,23 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 28,
-    "content": "and if any one may say to you, ‘This is a thing sacrificed to an idol,’-do not eat, because of that one who shewed it, and of the conscience, for the Lord’s is the earth and its fulness:"
+    "content": [
+      "and if any one may say to you, “This is a thing sacrificed to an idol,”—do not eat, because of that one who shewed ",
+      { "text": "it", "marks": ["i"] },
+      ", and of the conscience, for the Lord’s ",
+      { "text": "is", "marks": ["i"] },
+      " the earth and its fulness:"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 29,
-    "content": "and conscience, I say, not of thyself, but of the other, for why is it that my liberty is judged by another’s conscience?"
+    "content": [
+      "and conscience, I say, not of thyself, but of the other, for why ",
+      { "text": "is it", "marks": ["i"] },
+      " that my liberty is judged by another’s conscience?"
+    ]
   },
   {
     "book": "1CO",
@@ -1437,7 +1716,10 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 31,
-    "content": "Whether, then, ye eat, or drink, or do anything, do all to the glory of God;"
+    "content": {
+      "paragraph": true,
+      "text": "Whether, then, ye eat, or drink, or do anything, do all to the glory of God;"
+    }
   },
   {
     "book": "1CO",
@@ -1449,28 +1731,38 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 33,
-    "content": "as I also in all things do please all, not seeking my own profit, but that of many-that they may be saved."
+    "content": "as I also in all things do please all, not seeking my own profit, but that of many—that they may be saved."
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Followers of me become ye, as I also am of Christ."
-    }
+    "content": [
+      { "paragraph": true, "text": "Followers of me become ye, as I also " },
+      { "text": "am", "marks": ["i"] },
+      " of Christ."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 2,
-    "content": "And I praise you, brethren, that in all things ye remember me, and according as I did deliver to you, the deliverances ye keep,"
+    "content": [
+      { "heading": "Christian Worship" },
+      {
+        "paragraph": true,
+        "text": "And I praise you, brethren, that in all things ye remember me, and according as I did deliver to you, the deliverances ye keep,"
+      }
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 3,
-    "content": "and I wish you to know that of every man the head is the Christ, and the head of a woman is the husband, and the head of Christ is God."
+    "content": {
+      "paragraph": true,
+      "text": "and I wish you to know that of every man the head is the Christ, and the head of a woman is the husband, and the head of Christ is God."
+    }
   },
   {
     "book": "1CO",
@@ -1488,7 +1780,11 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 6,
-    "content": "for if a woman is not covered-then let her be shorn, and if it is a shame for a woman to be shorn or shaven-let her be covered;"
+    "content": [
+      "for if a woman is not covered—then let her be shorn, and if ",
+      { "text": "it is", "marks": ["i"] },
+      " a shame for a woman to be shorn or shaven—let her be covered;"
+    ]
   },
   {
     "book": "1CO",
@@ -1500,7 +1796,11 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 8,
-    "content": "for a man is not of a woman, but a woman is of a man,"
+    "content": [
+      "for a man is not of a woman, but a woman ",
+      { "text": "is", "marks": ["i"] },
+      " of a man,"
+    ]
   },
   {
     "book": "1CO",
@@ -1512,19 +1812,35 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 10,
-    "content": "because of this the woman ought to have a token of authority upon the head, because of the messengers;"
+    "content": [
+      "because of this the woman ought to have ",
+      { "text": "a token of", "marks": ["i"] },
+      " authority upon the head, because of the messengers;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 11,
-    "content": "but neither is a man apart from a woman, nor a woman apart from a man, in the Lord,"
+    "content": [
+      "but neither ",
+      { "text": "is", "marks": ["i"] },
+      " a man apart from a woman, nor a woman apart from a man, in the Lord,"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 12,
-    "content": "for as the woman is of the man, so also the man is through the woman, and the all things are of God."
+    "content": [
+      "for as the woman ",
+      { "text": "is", "marks": ["i"] },
+      " of the man, so also the man ",
+      { "text": "is", "marks": ["i"] },
+      " through the woman, and the all things ",
+      { "text": "are", "marks": ["i"] },
+      " of God."
+    ]
   },
   {
     "book": "1CO",
@@ -1554,13 +1870,23 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 17,
-    "content": "And this declaring, I give no praise, because not for the better, but for the worse ye come together;"
+    "content": [
+      { "heading": "The Lord’s Supper" },
+      {
+        "paragraph": true,
+        "text": "And this declaring, I give no praise, because not for the better, but for the worse ye come together;"
+      }
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 18,
-    "content": "for first, indeed, ye coming together in an assembly, I hear of divisions being among you, and partly I believe it,"
+    "content": [
+      "for first, indeed, ye coming together in an assembly, I hear of divisions being among you, and partly I believe ",
+      { "text": "it", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "1CO",
@@ -1572,7 +1898,7 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 20,
-    "content": "ye, then, coming together at the same place-it is not to eat the Lord’s supper;"
+    "content": "ye, then, coming together at the same place—it is not to eat the Lord’s supper;"
   },
   {
     "book": "1CO",
@@ -1590,25 +1916,39 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 23,
-    "content": "For I-I received from the Lord that which also I did deliver to you, that the Lord Jesus in the night in which he was delivered up, took bread,"
+    "content": "For I—I received from the Lord that which also I did deliver to you, that the Lord Jesus in the night in which he was delivered up, took bread,"
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 24,
-    "content": "and having given thanks, he brake, and said, ‘Take ye, eat ye, this is my body, that for you is being broken; this do ye-to the remembrance of me.’"
+    "content": [
+      "and having given thanks, he brake, and said, ",
+      {
+        "text": "“Take ye, eat ye, this is my body, that for you is being broken; this do ye—to the remembrance of me.”",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 25,
-    "content": "In like manner also the cup after the supping, saying, ‘This cup is the new covenant in my blood; this do ye, as often as ye may drink it-to the remembrance of me;’"
+    "content": [
+      "In like manner also the cup after the supping, saying, ",
+      {
+        "text": "“This cup is the new covenant in my blood; this do ye, as often as ye may drink ",
+        "marks": ["woc"]
+      },
+      { "text": "it", "marks": ["i", "woc"] },
+      { "text": "—to the remembrance of me;”", "marks": ["woc"] }
+    ]
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 26,
-    "content": "for as often as ye may eat this bread, and this cup may drink, the death of the Lord ye do shew forth-till he may come;"
+    "content": "for as often as ye may eat this bread, and this cup may drink, the death of the Lord ye do shew forth—till he may come;"
   },
   {
     "book": "1CO",
@@ -1626,13 +1966,17 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 29,
-    "content": "for he who is eating and drinking unworthily, judgment to himself he doth eat and drink-not discerning the body of the Lord."
+    "content": "for he who is eating and drinking unworthily, judgment to himself he doth eat and drink—not discerning the body of the Lord."
   },
   {
     "book": "1CO",
     "chapter": 11,
     "verse": 30,
-    "content": "Because of this, among you many are weak and sickly, and sleep do many;"
+    "content": [
+      "Because of this, among you many ",
+      { "text": "are", "marks": ["i"] },
+      " weak and sickly, and sleep do many;"
+    ]
   },
   {
     "book": "1CO",
@@ -1662,28 +2006,40 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And concerning the spiritual things, brethren, I do not wish you to be ignorant;"
-    }
+    "content": [
+      { "heading": "Spiritual Gifts" },
+      {
+        "paragraph": true,
+        "text": "And concerning the spiritual things, brethren, I do not wish you to be ignorant;"
+      }
+    ]
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 2,
-    "content": "ye have known that ye were nations, unto the dumb idols-as ye were led-being carried away;"
+    "content": "ye have known that ye were nations, unto the dumb idols—as ye were led—being carried away;"
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 3,
-    "content": "wherefore, I give you to understand that no one, in the Spirit of God speaking, saith Jesus is anathema, and no one is able to say Jesus is Lord, except in the Holy Spirit."
+    "content": [
+      "wherefore, I give you to understand that no one, in the Spirit of God speaking, saith Jesus ",
+      { "text": "is", "marks": ["i"] },
+      " anathema, and no one is able to say Jesus ",
+      { "text": "is", "marks": ["i"] },
+      " Lord, except in the Holy Spirit."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 4,
-    "content": "And there are diversities of gifts, and the same Spirit;"
+    "content": {
+      "paragraph": true,
+      "text": "And there are diversities of gifts, and the same Spirit;"
+    }
   },
   {
     "book": "1CO",
@@ -1695,7 +2051,7 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 6,
-    "content": "and there are diversities of workings, and it is the same God-who is working the all in all."
+    "content": "and there are diversities of workings, and it is the same God—who is working the all in all."
   },
   {
     "book": "1CO",
@@ -1719,7 +2075,11 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 10,
-    "content": "and to another in-workings of mighty deeds; and to another prophecy; and to another discernings of spirits; and to another divers kinds of tongues; and to another interpretation of tongues:"
+    "content": [
+      "and to another in-workings of mighty deeds; and to another prophecy; and to another discernings of spirits; and to another ",
+      { "text": "divers", "marks": ["i"] },
+      " kinds of tongues; and to another interpretation of tongues:"
+    ]
   },
   {
     "book": "1CO",
@@ -1731,7 +2091,14 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 12,
-    "content": "For, even as the body is one, and hath many members, and all the members of the one body, being many, are one body, so also is the Christ,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For, even as the body is one, and hath many members, and all the members of the one body, being many, are one body, so also "
+      },
+      { "text": "is", "marks": ["i"] },
+      " the Christ,"
+    ]
   },
   {
     "book": "1CO",
@@ -1749,19 +2116,23 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 15,
-    "content": "if the foot may say, ‘Because I am not a hand, I am not of the body;’ it is not, because of this, not of the body;"
+    "content": "if the foot may say, “Because I am not a hand, I am not of the body;” it is not, because of this, not of the body;"
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 16,
-    "content": "and if the ear may say, ‘Because I am not an eye, I am not of the body;’ it is not, because of this, not of the body?"
+    "content": "and if the ear may say, “Because I am not an eye, I am not of the body;” it is not, because of this, not of the body?"
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 17,
-    "content": "If the whole body were an eye, where the hearing? if the whole hearing, where the smelling?"
+    "content": [
+      "If the whole body ",
+      { "text": "were", "marks": ["i"] },
+      " an eye, where the hearing? if the whole hearing, where the smelling?"
+    ]
   },
   {
     "book": "1CO",
@@ -1779,13 +2150,17 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 20,
-    "content": "and now, indeed, are many members, and one body;"
+    "content": [
+      "and now, indeed, ",
+      { "text": "are", "marks": ["i"] },
+      " many members, and one body;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 12,
     "verse": 21,
-    "content": "and an eye is not able to say to the hand, ‘I have no need of thee;’ nor again the head to the feet, ‘I have no need of you.’"
+    "content": "and an eye is not able to say to the hand, “I have no need of thee;” nor again the head to the feet, “I have no need of you.”"
   },
   {
     "book": "1CO",
@@ -1815,7 +2190,13 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 26,
-    "content": "and whether one member doth suffer, suffer with it do all the members, or one member is glorified, rejoice with it do all the members;"
+    "content": [
+      "and whether one member doth suffer, suffer with ",
+      { "text": "it", "marks": ["i"] },
+      " do all the members, or one member is glorified, rejoice with ",
+      { "text": "it", "marks": ["i"] },
+      " do all the members;"
+    ]
   },
   {
     "book": "1CO",
@@ -1833,7 +2214,16 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 29,
-    "content": "are all apostles? are all prophets? are all teachers? are all powers?"
+    "content": [
+      { "text": "are", "marks": ["i"] },
+      " all apostles? ",
+      { "text": "are", "marks": ["i"] },
+      " all prophets? ",
+      { "text": "are", "marks": ["i"] },
+      " all teachers? ",
+      { "text": "are", "marks": ["i"] },
+      " all powers?"
+    ]
   },
   {
     "book": "1CO",
@@ -1851,10 +2241,13 @@
     "book": "1CO",
     "chapter": 13,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "If with the tongues of men and of messengers I speak, and have not love, I have become brass sounding, or a cymbal tinkling;"
-    }
+    "content": [
+      { "heading": "The More Excellent Way" },
+      {
+        "paragraph": true,
+        "text": "If with the tongues of men and of messengers I speak, and have not love, I have become brass sounding, or a cymbal tinkling;"
+      }
+    ]
   },
   {
     "book": "1CO",
@@ -1896,7 +2289,11 @@
     "book": "1CO",
     "chapter": 13,
     "verse": 8,
-    "content": "The love doth never fail; and whether there be prophecies, they shall become useless; whether tongues, they shall cease; whether knowledge, it shall become useless;"
+    "content": [
+      "The love doth never fail; and whether ",
+      { "text": "there be", "marks": ["i"] },
+      " prophecies, they shall become useless; whether tongues, they shall cease; whether knowledge, it shall become useless;"
+    ]
   },
   {
     "book": "1CO",
@@ -1908,7 +2305,11 @@
     "book": "1CO",
     "chapter": 13,
     "verse": 10,
-    "content": "and when that which is perfect may come, then that which is in part shall become useless."
+    "content": [
+      "and when that which is perfect may come, then that which ",
+      { "text": "is", "marks": ["i"] },
+      " in part shall become useless."
+    ]
   },
   {
     "book": "1CO",
@@ -1926,22 +2327,33 @@
     "book": "1CO",
     "chapter": 13,
     "verse": 13,
-    "content": "and now there doth remain faith, hope, love-these three; and the greatest of these is love."
+    "content": [
+      "and now there doth remain faith, hope, love—these three; and the greatest of these ",
+      { "text": "is", "marks": ["i"] },
+      " love."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Pursue the love, and seek earnestly the spiritual things, and rather that ye may prophecy,"
-    }
+    "content": [
+      { "heading": "The Gift of Tongues" },
+      {
+        "paragraph": true,
+        "text": "Pursue the love, and seek earnestly the spiritual things, and rather that ye may prophecy,"
+      }
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 2,
-    "content": "for he who is speaking in an unknown tongue-to men he doth not speak, but to God, for no one doth hearken, and in spirit he doth speak secrets;"
+    "content": [
+      "for he who is speaking in an ",
+      { "text": "unknown", "marks": ["i"] },
+      " tongue—to men he doth not speak, but to God, for no one doth hearken, and in spirit he doth speak secrets;"
+    ]
   },
   {
     "book": "1CO",
@@ -1953,7 +2365,11 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 4,
-    "content": "he who is speaking in an unknown tongue, himself doth edify, and he who is prophesying, an assembly doth edify;"
+    "content": [
+      "he who is speaking in an ",
+      { "text": "unknown", "marks": ["i"] },
+      " tongue, himself doth edify, and he who is prophesying, an assembly doth edify;"
+    ]
   },
   {
     "book": "1CO",
@@ -1965,13 +2381,16 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 6,
-    "content": "And now, brethren, if I may come unto you speaking tongues, what shall I profit you, except I shall speak to you either in revelation, or in knowledge, or in prophesying, or in teaching?"
+    "content": {
+      "paragraph": true,
+      "text": "And now, brethren, if I may come unto you speaking tongues, what shall I profit you, except I shall speak to you either in revelation, or in knowledge, or in prophesying, or in teaching?"
+    }
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 7,
-    "content": "yet the things without life giving sound-whether pipe or harp-if a difference in the sounds they may not give, how shall be known that which is piped or that which is harped?"
+    "content": "yet the things without life giving sound—whether pipe or harp—if a difference in the sounds they may not give, how shall be known that which is piped or that which is harped?"
   },
   {
     "book": "1CO",
@@ -1983,7 +2402,7 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 9,
-    "content": "so also ye, if through the tongue, speech easily understood ye may not give-how shall that which is spoken be known? for ye shall be speaking to air."
+    "content": "so also ye, if through the tongue, speech easily understood ye may not give—how shall that which is spoken be known? for ye shall be speaking to air."
   },
   {
     "book": "1CO",
@@ -2007,13 +2426,21 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 13,
-    "content": "wherefore he who is speaking in an unknown tongue-let him pray that he may interpret;"
+    "content": [
+      "wherefore he who is speaking in an ",
+      { "text": "unknown", "marks": ["i"] },
+      " tongue—let him pray that he may interpret;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 14,
-    "content": "for if I pray in an unknown tongue, my spirit doth pray, and my understanding is unfruitful."
+    "content": [
+      "for if I pray in an ",
+      { "text": "unknown", "marks": ["i"] },
+      " tongue, my spirit doth pray, and my understanding is unfruitful."
+    ]
   },
   {
     "book": "1CO",
@@ -2037,31 +2464,42 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 18,
-    "content": "I give thanks to my God-more than you all with tongues speaking-"
+    "content": "I give thanks to my God—more than you all with tongues speaking—"
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 19,
-    "content": "but in an assembly I wish to speak five words through my understanding, that others also I may instruct, rather than myriads of words in an unknown tongue."
+    "content": [
+      "but in an assembly I wish to speak five words through my understanding, that others also I may instruct, rather than myriads of words in an ",
+      { "text": "unknown", "marks": ["i"] },
+      " tongue."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 20,
-    "content": "Brethren, become not children in the understanding, but in the evil be ye babes, and in the understanding become ye perfect;"
+    "content": {
+      "paragraph": true,
+      "text": "Brethren, become not children in the understanding, but in the evil be ye babes, and in the understanding become ye perfect;"
+    }
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 21,
-    "content": "in the law it hath been written, that, ‘With other tongues and with other lips I will speak to this people, and not even so will they hear Me, saith the Lord;’"
+    "content": "in the law it hath been written, that, “With other tongues and with other lips I will speak to this people, and not even so will they hear Me, saith the Lord;”"
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 22,
-    "content": "so that the tongues are for a sign, not to the believing, but to the unbelieving; and the prophesy is not for the unbelieving, but for the believing,"
+    "content": [
+      "so that the tongues are for a sign, not to the believing, but to the unbelieving; and the prophesy ",
+      { "text": "is", "marks": ["i"] },
+      " not for the unbelieving, but for the believing,"
+    ]
   },
   {
     "book": "1CO",
@@ -2079,19 +2517,30 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 25,
-    "content": "and so the secrets of his heart become manifest, and so having fallen upon his face, he will bow before God, declaring that God really is among you."
+    "content": [
+      "and so the secrets of his heart become manifest, and so having fallen upon ",
+      { "text": "his", "marks": ["i"] },
+      " face, he will bow before God, declaring that God really is among you."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 26,
-    "content": "What then is it, brethren? whenever ye may come together, each of you hath a psalm, hath a teaching, hath a tongue, hath a revelation, hath an interpretation? let all things be for building up;"
+    "content": {
+      "paragraph": true,
+      "text": "What then is it, brethren? whenever ye may come together, each of you hath a psalm, hath a teaching, hath a tongue, hath a revelation, hath an interpretation? let all things be for building up;"
+    }
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 27,
-    "content": "if an unknown tongue any one do speak, by two, or at the most, by three, and in turn, and let one interpret;"
+    "content": [
+      "if an ",
+      { "text": "unknown", "marks": ["i"] },
+      " tongue any one do speak, by two, or at the most, by three, and in turn, and let one interpret;"
+    ]
   },
   {
     "book": "1CO",
@@ -2103,13 +2552,17 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 29,
-    "content": "And prophets-let two or three speak, and let the others discern,"
+    "content": "And prophets—let two or three speak, and let the others discern,"
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 30,
-    "content": "and if to another sitting anything may be revealed, let the first be silent;"
+    "content": [
+      "and if to another sitting ",
+      { "text": "anything", "marks": ["i"] },
+      " may be revealed, let the first be silent;"
+    ]
   },
   {
     "book": "1CO",
@@ -2127,13 +2580,20 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 33,
-    "content": "for God is not a God of tumult, but of peace, as in all the assemblies of the saints."
+    "content": [
+      "for God is not ",
+      { "text": "a God", "marks": ["i"] },
+      " of tumult, but of peace, as in all the assemblies of the saints."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 34,
-    "content": "Your women in the assemblies let them be silent, for it hath not been permitted to them to speak, but to be subject, as also the law saith;"
+    "content": {
+      "paragraph": true,
+      "text": "Your women in the assemblies let them be silent, for it hath not been permitted to them to speak, but to be subject, as also the law saith;"
+    }
   },
   {
     "book": "1CO",
@@ -2151,13 +2611,16 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 37,
-    "content": "if any one doth think to be a prophet, or spiritual, let him acknowledge the things that I write to you-that of the Lord they are commands;"
+    "content": {
+      "paragraph": true,
+      "text": "if any one doth think to be a prophet, or spiritual, let him acknowledge the things that I write to you—that of the Lord they are commands;"
+    }
   },
   {
     "book": "1CO",
     "chapter": 14,
     "verse": 38,
-    "content": "and if any one is ignorant-let him be ignorant;"
+    "content": "and if any one is ignorant—let him be ignorant;"
   },
   {
     "book": "1CO",
@@ -2175,10 +2638,13 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I make known to you, brethren, the good news that I proclaimed to you, which also ye did receive, in which also ye have stood,"
-    }
+    "content": [
+      { "heading": "The Resurrection of the Dead" },
+      {
+        "paragraph": true,
+        "text": "And I make known to you, brethren, the good news that I proclaimed to you, which also ye did receive, in which also ye have stood,"
+      }
+    ]
   },
   {
     "book": "1CO",
@@ -2220,7 +2686,7 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 8,
-    "content": "And last of all-as to the untimely birth-he appeared also to me,"
+    "content": "And last of all—as to the untimely birth—he appeared also to me,"
   },
   {
     "book": "1CO",
@@ -2232,7 +2698,13 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 10,
-    "content": "and by the grace of God I am what I am, and His grace that is towards me came not in vain, but more abundantly than they all did I labour, yet not I, but the grace of God that is with me;"
+    "content": [
+      "and by the grace of God I am what I am, and His grace that ",
+      { "text": "is", "marks": ["i"] },
+      " towards me came not in vain, but more abundantly than they all did I labour, yet not I, but the grace of God that ",
+      { "text": "is", "marks": ["i"] },
+      " with me;"
+    ]
   },
   {
     "book": "1CO",
@@ -2244,7 +2716,10 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 12,
-    "content": "And if Christ is preached, that out of the dead he hath risen, how say certain among you, that there is no rising again of dead persons?"
+    "content": {
+      "paragraph": true,
+      "text": "And if Christ is preached, that out of the dead he hath risen, how say certain among you, that there is no rising again of dead persons?"
+    }
   },
   {
     "book": "1CO",
@@ -2256,7 +2731,11 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 14,
-    "content": "and if Christ hath not risen, then void is our preaching, and void also your faith,"
+    "content": [
+      "and if Christ hath not risen, then void ",
+      { "text": "is", "marks": ["i"] },
+      " our preaching, and void also your faith,"
+    ]
   },
   {
     "book": "1CO",
@@ -2292,13 +2771,22 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 20,
-    "content": "And now, Christ hath risen out of the dead-the first-fruits of those sleeping he became,"
+    "content": {
+      "paragraph": true,
+      "text": "And now, Christ hath risen out of the dead—the first-fruits of those sleeping he became,"
+    }
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 21,
-    "content": "for since through man is the death, also through man is a rising again of the dead,"
+    "content": [
+      "for since through man ",
+      { "text": "is", "marks": ["i"] },
+      " the death, also through man ",
+      { "text": "is", "marks": ["i"] },
+      " a rising again of the dead,"
+    ]
   },
   {
     "book": "1CO",
@@ -2316,25 +2804,29 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 24,
-    "content": "then-the end, when he may deliver up the reign to God, even the Father, when he may have made useless all rule, and all authority and power-"
+    "content": "then—the end, when he may deliver up the reign to God, even the Father, when he may have made useless all rule, and all authority and power—"
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 25,
-    "content": "for it behoveth him to reign till he may have put all the enemies under his feet-"
+    "content": "for it behoveth him to reign till he may have put all the enemies under his feet—"
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 26,
-    "content": "the last enemy is done away-death;"
+    "content": "the last enemy is done away—death;"
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 27,
-    "content": "for all things He did put under his feet, and, when one may say that all things have been subjected, it is evident that He is excepted who did subject the all things to him,"
+    "content": [
+      "for all things He did put under his feet, and, when one may say that all things have been subjected, ",
+      { "text": "it is", "marks": ["i"] },
+      " evident that He is excepted who did subject the all things to him,"
+    ]
   },
   {
     "book": "1CO",
@@ -2346,7 +2838,10 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 29,
-    "content": "Seeing what shall they do who are baptized for the dead, if the dead do not rise at all? why also are they baptized for the dead?"
+    "content": {
+      "paragraph": true,
+      "text": "Seeing what shall they do who are baptized for the dead, if the dead do not rise at all? why also are they baptized for the dead?"
+    }
   },
   {
     "book": "1CO",
@@ -2376,19 +2871,26 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 34,
-    "content": "awake up, as is right, and sin not; for certain have an ignorance of God; for shame to you I say it."
+    "content": [
+      "awake up, as is right, and sin not; for certain have an ignorance of God; for shame to you I say ",
+      { "text": "it", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 35,
-    "content": "But some one will say, ‘How do the dead rise?"
+    "content": {
+      "paragraph": true,
+      "text": "But some one will say, “How do the dead rise?"
+    }
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 36,
-    "content": "unwise! thou-what thou dost sow is not quickened except it may die;"
+    "content": "unwise! thou—what thou dost sow is not quickened except it may die;"
   },
   {
     "book": "1CO",
@@ -2406,13 +2908,23 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 39,
-    "content": "All flesh is not the same flesh, but there is one flesh of men, and another flesh of beasts, and another of fishes, and another of birds;"
+    "content": [
+      "All flesh ",
+      { "text": "is", "marks": ["i"] },
+      " not the same flesh, but there is one flesh of men, and another flesh of beasts, and another of fishes, and another of birds;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 40,
-    "content": "and there are heavenly bodies, and earthly bodies; but one is the glory of the heavenly, and another that of the earthly;"
+    "content": [
+      "and ",
+      { "text": "there are", "marks": ["i"] },
+      " heavenly bodies, and earthly bodies; but one ",
+      { "text": "is", "marks": ["i"] },
+      " the glory of the heavenly, and another that of the earthly;"
+    ]
   },
   {
     "book": "1CO",
@@ -2424,7 +2936,11 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 42,
-    "content": "So also is the rising again of the dead: it is sown in corruption, it is raised in incorruption;"
+    "content": [
+      "So also ",
+      { "text": "is", "marks": ["i"] },
+      " the rising again of the dead: it is sown in corruption, it is raised in incorruption;"
+    ]
   },
   {
     "book": "1CO",
@@ -2442,25 +2958,53 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 45,
-    "content": "so also it hath been written, ‘The first man Adam became a living creature,’ the last Adam is for a life-giving spirit,"
+    "content": [
+      "so also it hath been written, “The first man Adam became a living creature,” the last Adam ",
+      { "text": "is", "marks": ["i"] },
+      " for a life-giving spirit,"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 46,
-    "content": "but that which is spiritual is not first, but that which was natural, afterwards that which is spiritual."
+    "content": [
+      "but that which is spiritual ",
+      { "text": "is", "marks": ["i"] },
+      " not first, but that which ",
+      { "text": "was", "marks": ["i"] },
+      " natural, afterwards that which ",
+      { "text": "is", "marks": ["i"] },
+      " spiritual."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 47,
-    "content": "The first man is out of the earth, earthy; the second man is the Lord out of heaven;"
+    "content": [
+      "The first man ",
+      { "text": "is", "marks": ["i"] },
+      " out of the earth, earthy; the second man ",
+      { "text": "is", "marks": ["i"] },
+      " the Lord out of heaven;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 48,
-    "content": "as is the earthy, such are also the earthy; and as is the heavenly, such are also the heavenly;"
+    "content": [
+      "as ",
+      { "text": "is", "marks": ["i"] },
+      " the earthy, such ",
+      { "text": "are", "marks": ["i"] },
+      " also the earthy; and as ",
+      { "text": "is", "marks": ["i"] },
+      " the heavenly, such ",
+      { "text": "are", "marks": ["i"] },
+      " also the heavenly;"
+    ]
   },
   {
     "book": "1CO",
@@ -2484,7 +3028,7 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 52,
-    "content": "in a moment, in the twinkling of an eye, in the last trumpet, for it shall sound, and the dead shall be raised incorruptible, and we-we shall be changed:"
+    "content": "in a moment, in the twinkling of an eye, in the last trumpet, for it shall sound, and the dead shall be raised incorruptible, and we—we shall be changed:"
   },
   {
     "book": "1CO",
@@ -2496,25 +3040,29 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 54,
-    "content": "and when this corruptible may have put on incorruption, and this mortal may have put on immortality, then shall be brought to pass the word that hath been written, ‘The Death was swallowed up-to victory;"
+    "content": "and when this corruptible may have put on incorruption, and this mortal may have put on immortality, then shall be brought to pass the word that hath been written, “The Death was swallowed up—to victory;"
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 55,
-    "content": "where, O Death, thy sting? where, O Hades, thy victory?’"
+    "content": "where, O Death, thy sting? where, O Hades, thy victory?”"
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 56,
-    "content": "and the sting of the death is the sin, and the power of the sin the law;"
+    "content": [
+      "and the sting of the death ",
+      { "text": "is", "marks": ["i"] },
+      " the sin, and the power of the sin the law;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 57,
-    "content": "and to God-thanks, to Him who is giving us the victory through our Lord Jesus Christ;"
+    "content": "and to God—thanks, to Him who is giving us the victory through our Lord Jesus Christ;"
   },
   {
     "book": "1CO",
@@ -2526,16 +3074,22 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And concerning the collection that is for the saints, as I directed to the assemblies of Galatia, so also ye-do ye;"
-    }
+    "content": [
+      { "heading": "Administrative and Personal" },
+      { "paragraph": true, "text": "And concerning the collection that " },
+      { "text": "is", "marks": ["i"] },
+      " for the saints, as I directed to the assemblies of Galatia, so also ye—do ye;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 2,
-    "content": "on every first day of the week, let each one of you lay by him, treasuring up whatever he may have prospered, that when I may come then collections may not be made;"
+    "content": [
+      "on every first ",
+      { "text": "day", "marks": ["i"] },
+      " of the week, let each one of you lay by him, treasuring up whatever he may have prospered, that when I may come then collections may not be made;"
+    ]
   },
   {
     "book": "1CO",
@@ -2553,7 +3107,10 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 5,
-    "content": "And I will come unto you, when I pass through Macedonia-for Macedonia I do pass through-"
+    "content": {
+      "paragraph": true,
+      "text": "And I will come unto you, when I pass through Macedonia—for Macedonia I do pass through—"
+    }
   },
   {
     "book": "1CO",
@@ -2577,13 +3134,20 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 9,
-    "content": "for a door to me hath been opened-great and effectual-and withstanders are many."
+    "content": [
+      "for a door to me hath been opened—great and effectual—and withstanders ",
+      { "text": "are", "marks": ["i"] },
+      " many."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 10,
-    "content": "And if Timotheus may come, see that he may become without fear with you, for the work of the Lord he doth work, even as I,"
+    "content": {
+      "paragraph": true,
+      "text": "And if Timotheus may come, see that he may become without fear with you, for the work of the Lord he doth work, even as I,"
+    }
   },
   {
     "book": "1CO",
@@ -2595,13 +3159,23 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 12,
-    "content": "and concerning Apollos our brother, much I did entreat him that he may come unto you with the brethren, and it was not at all his will that he may come now, and he will come when he may find convenient."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "and concerning Apollos our brother, much I did entreat him that he may come unto you with the brethren, and it was not at all "
+      },
+      { "text": "his", "marks": ["i"] },
+      " will that he may come now, and he will come when he may find convenient."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 13,
-    "content": "Watch ye, stand in the faith; be men, be strong;"
+    "content": {
+      "paragraph": true,
+      "text": "Watch ye, stand in the faith; be men, be strong;"
+    }
   },
   {
     "book": "1CO",
@@ -2613,13 +3187,20 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 15,
-    "content": "And I entreat you, brethren, ye have known the household of Stephanas, that it is the first-fruit of Achaia, and to the ministration to the saints they did set themselves-"
+    "content": {
+      "paragraph": true,
+      "text": "And I entreat you, brethren, ye have known the household of Stephanas, that it is the first-fruit of Achaia, and to the ministration to the saints they did set themselves—"
+    }
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 16,
-    "content": "that ye also be subject to such, and to every one who is working with us and labouring;"
+    "content": [
+      "that ye also be subject to such, and to every one who is working with ",
+      { "text": "us", "marks": ["i"] },
+      " and labouring;"
+    ]
   },
   {
     "book": "1CO",
@@ -2631,13 +3212,20 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 18,
-    "content": "for they did refresh my spirit and yours; acknowledge ye, therefore, those who are such."
+    "content": [
+      "for they did refresh my spirit and yours; acknowledge ye, therefore, those who ",
+      { "text": "are", "marks": ["i"] },
+      " such."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 19,
-    "content": "Salute you do the assemblies of Asia; salute you much in the Lord do Aquilas and Priscilla, with the assembly in their house;"
+    "content": {
+      "paragraph": true,
+      "text": "Salute you do the assemblies of Asia; salute you much in the Lord do Aquilas and Priscilla, with the assembly in their house;"
+    }
   },
   {
     "book": "1CO",
@@ -2649,24 +3237,36 @@
     "book": "1CO",
     "chapter": 16,
     "verse": 21,
-    "content": "The salutation of me Paul with my hand;"
+    "content": [
+      { "paragraph": true, "text": "The salutation of " },
+      { "text": "me", "marks": ["i"] },
+      " Paul with my hand;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 22,
-    "content": "if any one doth not love the Lord Jesus Christ-let him be anathema! The Lord hath come!"
+    "content": "if any one doth not love the Lord Jesus Christ—let him be anathema! The Lord hath come!"
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 23,
-    "content": "The grace of the Lord Jesus Christ is with you;"
+    "content": [
+      "The grace of the Lord Jesus Christ ",
+      { "text": "is", "marks": ["i"] },
+      " with you;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 24,
-    "content": "my love is with you all in Christ Jesus. Amen."
+    "content": [
+      "my love ",
+      { "text": "is", "marks": ["i"] },
+      " with you all in Christ Jesus. Amen."
+    ]
   }
 ]

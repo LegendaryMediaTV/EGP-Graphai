@@ -12,31 +12,62 @@
     "book": "EZR",
     "chapter": 1,
     "verse": 2,
-    "content": "‘Thus said Cyrus king of Persia, All kingdoms of the earth hath Jehovah, God of the heavens, given to me, and He hath laid a charge on me to build to Him a house in Jerusalem, that is in Judah;"
+    "content": [
+      "“Thus said Cyrus king of Persia, All kingdoms of the earth hath Jehovah, God of the heavens, given to me, and He hath laid a charge on me to build to Him a house in Jerusalem, that ",
+      { "text": "is", "marks": ["i"] },
+      " in Judah;"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 1,
     "verse": 3,
-    "content": "who is among you of all His people? His God is with him, and he doth go up to Jerusalem, that is in Judah, and build the house of Jehovah, God of Israel-He is God-that is in Jerusalem."
+    "content": [
+      "who ",
+      { "text": "is", "marks": ["i"] },
+      " among you of all His people? His God is with him, and he doth go up to Jerusalem, that ",
+      { "text": "is", "marks": ["i"] },
+      " in Judah, and build the house of Jehovah, God of Israel—He ",
+      { "text": "is", "marks": ["i"] },
+      " God—that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 1,
     "verse": 4,
-    "content": "‘And every one who is left, of any of the places where he is a sojourner, assist him do the men of his place with silver, and with gold, and with goods, and with beasts, along with a free-will offering for the house of God, that is in Jerusalem.’"
+    "content": [
+      "“And every one who is left, of any of the places where he ",
+      { "text": "is", "marks": ["i"] },
+      " a sojourner, assist him do the men of his place with silver, and with gold, and with goods, and with beasts, along with a freewill offering for the house of God, that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem.”"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 1,
     "verse": 5,
-    "content": "And heads of the fathers of Judah and Benjamin rise, and the priests and the Levites, even every one whose spirit God hath waked, to go up to build the house of Jehovah, that is in Jerusalem;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And heads of the fathers of Judah and Benjamin rise, and the priests and the Levites, even every one whose spirit God hath waked, to go up to build the house of Jehovah, that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem;"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 1,
     "verse": 6,
-    "content": "and all those round about them have strengthened them with their hands, with vessels of silver, with gold, with goods, and with beasts, and with precious things, apart from all that hath been offered willingly."
+    "content": [
+      "and all those round about them have strengthened ",
+      { "text": "them", "marks": ["i"] },
+      " with their hands, with vessels of silver, with gold, with goods, and with beasts, and with precious things, apart from all that hath been offered willingly."
+    ]
   },
   {
     "book": "EZR",
@@ -54,7 +85,11 @@
     "book": "EZR",
     "chapter": 1,
     "verse": 9,
-    "content": "And this is their number: dishes of gold thirty, dishes of silver a thousand, knives nine and twenty,"
+    "content": [
+      "And this ",
+      { "text": "is", "marks": ["i"] },
+      " their number: dishes of gold thirty, dishes of silver a thousand, knives nine and twenty,"
+    ]
   },
   {
     "book": "EZR",
@@ -66,16 +101,22 @@
     "book": "EZR",
     "chapter": 1,
     "verse": 11,
-    "content": "All the vessels of gold and of silver are five thousand and four hundred; the whole hath Sheshbazzar brought up with the going up of the removal from Babylon to Jerusalem."
+    "content": [
+      "All the vessels of gold and of silver ",
+      { "text": "are", "marks": ["i"] },
+      " five thousand and four hundred; the whole hath Sheshbazzar brought up with the going up of the removal from Babylon to Jerusalem."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And these are sons of the province who are going up-of the captives of the removal that Nebuchadnezzar king of Babylon removed to Babylon, and they turn back to Jerusalem and Judah, each to his city-"
-    }
+    "content": [
+      { "heading": "Zerubbabel’s Company" },
+      { "paragraph": true, "text": "And these " },
+      { "text": "are", "marks": ["i"] },
+      " sons of the province who are going up—of the captives of the removal that Nebuchadnezzar king of Babylon removed to Babylon, and they turn back to Jerusalem and Judah, each to his city—"
+    ]
   },
   {
     "book": "EZR",
@@ -285,7 +326,10 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 36,
-    "content": "The Priests: sons of Jedaiah, of the house of Jeshua, nine hundred seventy and three."
+    "content": {
+      "paragraph": true,
+      "text": "The Priests: sons of Jedaiah, of the house of Jeshua, nine hundred seventy and three."
+    }
   },
   {
     "book": "EZR",
@@ -309,7 +353,10 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 40,
-    "content": "The Levites; sons of Jeshua and Kadmiel, of the sons of Hodaviah, seventy and four."
+    "content": {
+      "paragraph": true,
+      "text": "The Levites; sons of Jeshua and Kadmiel, of the sons of Hodaviah, seventy and four."
+    }
   },
   {
     "book": "EZR",
@@ -321,13 +368,20 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 42,
-    "content": "Sons of the gatekeepers; sons of Shallum, sons of Ater, sons of Talmon, sons of Akkub, sons of Hatita, sons of Shobai, the whole are a hundred thirty and nine."
+    "content": [
+      "Sons of the gatekeepers; sons of Shallum, sons of Ater, sons of Talmon, sons of Akkub, sons of Hatita, sons of Shobai, the whole ",
+      { "text": "are", "marks": ["i"] },
+      " a hundred thirty and nine."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 43,
-    "content": "The Nethinim: sons of Ziha, sons of Hasupha, sons of Tabbaoth,"
+    "content": {
+      "paragraph": true,
+      "text": "The Nethinim: sons of Ziha, sons of Hasupha, sons of Tabbaoth,"
+    }
   },
   {
     "book": "EZR",
@@ -399,7 +453,10 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 55,
-    "content": "Sons of the servants of Solomon: sons of Sotai, sons of Sophereth, sons of Peruda,"
+    "content": {
+      "paragraph": true,
+      "text": "Sons of the servants of Solomon: sons of Sotai, sons of Sophereth, sons of Peruda,"
+    }
   },
   {
     "book": "EZR",
@@ -417,13 +474,23 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 58,
-    "content": "All the Nethinim, and the sons of the servants of Solomon are three hundred ninety and two."
+    "content": [
+      "All the Nethinim, and the sons of the servants of Solomon ",
+      { "text": "are", "marks": ["i"] },
+      " three hundred ninety and two."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 59,
-    "content": "And these are those going up from Tel-Melah, Tel-Harsa, Cherub, Addan, Immer, and they have not been able to declare the house of their fathers, and their seed, whether they are of Israel:"
+    "content": [
+      { "paragraph": true, "text": "And these " },
+      { "text": "are", "marks": ["i"] },
+      " those going up from Tel-Melah, Tel-Harsa, Cherub, Addan, Immer, and they have not been able to declare the house of their fathers, and their seed, whether they ",
+      { "text": "are", "marks": ["i"] },
+      " of Israel:"
+    ]
   },
   {
     "book": "EZR",
@@ -453,19 +520,33 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 64,
-    "content": "All the assembly together is four myriad two thousand three hundred sixty,"
+    "content": [
+      { "paragraph": true, "text": "All the assembly together " },
+      { "text": "is", "marks": ["i"] },
+      " four myriad two thousand three hundred sixty,"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 65,
-    "content": "apart from their servants and their handmaids; these are seven thousand three hundred thirty and seven: and of them are singers and songstresses two hundred."
+    "content": [
+      "apart from their servants and their handmaids; these ",
+      { "text": "are", "marks": ["i"] },
+      " seven thousand three hundred thirty and seven: and of them ",
+      { "text": "are", "marks": ["i"] },
+      " singers and songstresses two hundred."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 66,
-    "content": "Their horses are seven hundred thirty and six, their mules, two hundred forty and five,"
+    "content": [
+      "Their horses ",
+      { "text": "are", "marks": ["i"] },
+      " seven hundred thirty and six, their mules, two hundred forty and five,"
+    ]
   },
   {
     "book": "EZR",
@@ -477,7 +558,14 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 68,
-    "content": "And some of the heads of the fathers in their coming in to the house of Jehovah that is in Jerusalem, have offered willingly for the house of God, to establish it on its base;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And some of the heads of the fathers in their coming in to the house of Jehovah that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem, have offered willingly for the house of God, to establish it on its base;"
+    ]
   },
   {
     "book": "EZR",
@@ -489,16 +577,24 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 70,
-    "content": "And the priests dwell, and the Levites, and of the people, and the singers, and the gatekeepers, and the Nethinim, in their cities; even all Israel in their cities."
+    "content": {
+      "paragraph": true,
+      "text": "And the priests dwell, and the Levites, and of the people, and the singers, and the gatekeepers, and the Nethinim, in their cities; even all Israel in their cities."
+    }
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And the seventh month cometh, and the sons of Israel are in the cities, and the people are gathered, as one men, unto Jerusalem."
-    }
+    "content": [
+      { "heading": "The Return to Jerusalem" },
+      {
+        "paragraph": true,
+        "text": "And the seventh month cometh, and the sons of Israel "
+      },
+      { "text": "are", "marks": ["i"] },
+      " in the cities, and the people are gathered, as one men, unto Jerusalem."
+    ]
   },
   {
     "book": "EZR",
@@ -540,58 +636,81 @@
     "book": "EZR",
     "chapter": 3,
     "verse": 8,
-    "content": "And in the second year of their coming in unto the house of God, to Jerusalem, in the second month, began Zerubbabel son of Shealtiel, and Jeshua son of Jozadak, and the remnant of their brethren the priests and the Levites, and all those coming from the captivity to Jerusalem, and they appoint the Levites from a son of twenty years and upward, to overlook the work of the house of Jehovah."
+    "content": [
+      { "heading": "Rebuilding the Temple" },
+      {
+        "paragraph": true,
+        "text": "And in the second year of their coming in unto the house of God, to Jerusalem, in the second month, began Zerubbabel son of Shealtiel, and Jeshua son of Jozadak, and the remnant of their brethren the priests and the Levites, and all those coming from the captivity to Jerusalem, and they appoint the Levites from a son of twenty years and upward, to overlook the work of the house of Jehovah."
+      }
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 9,
-    "content": "And Jeshua standeth, and his sons, and his brethren, Kadmiel and his sons, sons of Judah together, to overlook those doing the work in the house of God; the sons of Henadad, and their sons and their brethren the Levites."
+    "content": [
+      "And Jeshua standeth, ",
+      { "text": "and", "marks": ["i"] },
+      " his sons, and his brethren, Kadmiel and his sons, sons of Judah together, to overlook those doing the work in the house of God; the sons of Henadad, ",
+      { "text": "and", "marks": ["i"] },
+      " their sons and their brethren the Levites."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 10,
-    "content": "And those building have founded the temple of Jehovah, and they appoint the priests, clothed, with trumpets, and the Levites, sons of Asaph, with cymbals, to praise Jehovah, by means of the instruments of David king of Israel."
+    "content": [
+      "And those building have founded the temple of Jehovah, and they appoint the priests, clothed, with trumpets, and the Levites, sons of Asaph, with cymbals, to praise Jehovah, by means of ",
+      { "text": "the instruments of", "marks": ["i"] },
+      " David king of Israel."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 11,
-    "content": "And they respond in praising and in giving thanks to Jehovah, for good, for to the age His kindness is over Israel,"
+    "content": [
+      "And they respond in praising and in giving thanks to Jehovah, for good, for to the age His kindness ",
+      { "text": "is", "marks": ["i"] },
+      " over Israel, and all the people have shouted—a great shout—in giving praise to Jehovah, because the house of Jehovah hath been founded."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 12,
-    "content": "and all the people have shouted-a great shout-in giving praise to Jehovah, because the house of Jehovah hath been founded."
+    "content": "And many of the priests, and the Levites, and the heads of the fathers, the aged men who had seen the first house—in this house being founded before their eyes—are weeping with a loud voice, and many with a shout, in joy, lifting up the voice;"
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 13,
-    "content": "And many of the priests, and the Levites, and the heads of the fathers, the aged men who had seen the first house-in this house being founded before their eyes-are weeping with a loud voice, and many with a shout, in joy, lifting up the voice;"
+    "content": "and the people are not discerning the noise of the shout of joy from the noise of the weeping of the people, for the people are shouting—a great shout—and the noise hath been heard unto a distance."
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And adversaries of Judah and Benjamin hear that the sons of the captivity are building a temple to Jehovah, God of Israel,"
-    }
+    "content": [
+      { "heading": "Work is Hindered" },
+      {
+        "paragraph": true,
+        "text": "And adversaries of Judah and Benjamin hear that the sons of the captivity are building a temple to Jehovah, God of Israel,"
+      }
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 2,
-    "content": "and they draw nigh unto Zerubbabel, and unto heads of the fathers, and say to them, ‘Let us build with you; for, like you, we seek to your God, and we are not sacrificing since the days of Esar-Haddon king of Asshur, who brought us up hither.’"
+    "content": "and they draw nigh unto Zerubbabel, and unto heads of the fathers, and say to them, “Let us build with you; for, like you, we seek to your God, and we are not sacrificing since the days of Esar-Haddon king of Asshur, who brought us up hither.”"
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 3,
-    "content": "And Zerubbabel saith to them, also Jeshua, and the rest of the heads of the fathers of Israel, ‘Not for you, and for us, to build a house to our God; but we ourselves together do build to Jehovah God of Israel, as the king Cyrus, king of Persia, commanded us.’"
+    "content": "And Zerubbabel saith to them, also Jeshua, and the rest of the heads of the fathers of Israel, “Not for you, and for us, to build a house to our God; but we ourselves together do build to Jehovah God of Israel, as the king Cyrus, king of Persia, commanded us.”"
   },
   {
     "book": "EZR",
@@ -615,7 +734,10 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 7,
-    "content": "and in the days of Artaxerxes have Bishlam, Mithredath, Tabeel, and the rest of his companions written unto Artaxerxes king of Persia, and the writing of the letter is written in Aramaean, and interpreted in Aramaean."
+    "content": {
+      "paragraph": true,
+      "text": "and in the days of Artaxerxes have Bishlam, Mithredath, Tabeel, and the rest of his companions written unto Artaxerxes king of Persia, and the writing of the letter is written in Aramaean, and interpreted in Aramaean."
+    }
   },
   {
     "book": "EZR",
@@ -639,7 +761,11 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 11,
-    "content": "This is a copy of a letter that they have sent unto him, unto Artaxerxes the king: ‘Thy servants, men beyond the river, and at such a time;"
+    "content": [
+      { "paragraph": true, "text": "This " },
+      { "text": "is", "marks": ["i"] },
+      " a copy of a letter that they have sent unto him, unto Artaxerxes the king: “Thy servants, men beyond the river, and at such a time;"
+    ]
   },
   {
     "book": "EZR",
@@ -651,31 +777,50 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 13,
-    "content": "‘Now, be it known to the king, that if this city be builded, and the walls finished, toll, tribute, and custom they do not give; and at length to the kings it doth cause loss."
+    "content": [
+      "“Now, be it known to the king, that if this city be builded, and the walls finished, toll, tribute, and custom they do not give; and at length ",
+      { "text": "to", "marks": ["i"] },
+      " the kings it doth cause loss."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 14,
-    "content": "Now, because that the salt of the palace is our salt, and the nakedness of the king we have no patience to see, therefore we have sent and made known to the king;"
+    "content": [
+      "Now, because that the salt of the palace ",
+      { "text": "is", "marks": ["i"] },
+      " our salt, and the nakedness of the king we have no patience to see, therefore we have sent and made known to the king;"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 15,
-    "content": "so that he doth seek in the book of the records of thy fathers, and thou dost find in the book of the records, and dost know, that this city is a rebellious city, and causing loss to kings and provinces, and makers of sedition are in its midst from the days of old, therefore hath this city been wasted."
+    "content": [
+      "so that he doth seek in the book of the records of thy fathers, and thou dost find in the book of the records, and dost know, that this city ",
+      { "text": "is", "marks": ["i"] },
+      " a rebellious city, and causing loss ",
+      { "text": "to", "marks": ["i"] },
+      " kings and provinces, and makers of sedition ",
+      { "text": "are", "marks": ["i"] },
+      " in its midst from the days of old, therefore hath this city been wasted."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 16,
-    "content": "We are making known to the king that, if this city be builded and the walls finished, by this means a portion beyond the river thou hast none.’"
+    "content": "We are making known to the king that, if this city be builded and the walls finished, by this means a portion beyond the river thou hast none.”"
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 17,
-    "content": "An answer hath the king sent unto Rehum counsellor, and Shimshai scribe, and the rest of their companions who are dwelling in Samaria, and the rest beyond the river, ‘Peace, and at such a time:"
+    "content": {
+      "paragraph": true,
+      "text": "An answer hath the king sent unto Rehum counsellor, and Shimshai scribe, and the rest of their companions who are dwelling in Samaria, and the rest beyond the river, “Peace, and at such a time:"
+    }
   },
   {
     "book": "EZR",
@@ -699,52 +844,72 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 21,
-    "content": "‘Now, make ye a decree to cause these men to cease, and this city is not builded, till by me a decree is made."
+    "content": "“Now, make ye a decree to cause these men to cease, and this city is not builded, till by me a decree is made."
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 22,
-    "content": "And beware ye of negligence in doing this; why doth the hurt become great to the loss of the kings?’"
+    "content": "And beware ye of negligence in doing this; why doth the hurt become great to the loss of the kings?”"
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 23,
-    "content": "Then from the time that a copy of the letter of king Artaxerxes is read before Rehum, and Shimshai the scribe, and their companions, they have gone in haste to Jerusalem, unto the Jews, and caused them to cease by force and strength;"
+    "content": {
+      "paragraph": true,
+      "text": "Then from the time that a copy of the letter of king Artaxerxes is read before Rehum, and Shimshai the scribe, and their companions, they have gone in haste to Jerusalem, unto the Jews, and caused them to cease by force and strength;"
+    }
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 24,
-    "content": "then ceased the service of the house of God that is in Jerusalem, and it ceased till the second year of the reign of Darius king of Persia."
+    "content": [
+      "then ceased the service of the house of God that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem, and it ceased till the second year of the reign of Darius king of Persia."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And prophesied have the prophets, (Haggai the prophet, and Zechariah son of Iddo) unto the Jews who are in Judah and in Jerusalem, in the name of the God of Israel-unto them."
-    }
+    "content": [
+      { "heading": "The Work Resumed" },
+      {
+        "paragraph": true,
+        "text": "And prophesied have the prophets, (Haggai the prophet, and Zechariah son of Iddo) unto the Jews who "
+      },
+      { "text": "are", "marks": ["i"] },
+      " in Judah and in Jerusalem, in the name of the God of Israel—unto them."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 5,
     "verse": 2,
-    "content": "Then have Zerubbabel son of Shealtiel, and Jeshua son of Jozadak, risen, and begun to build the house of God, that is in Jerusalem, and with them are the prophets of God supporting them."
+    "content": [
+      "Then have Zerubbabel son of Shealtiel, and Jeshua son of Jozadak, risen, and begun to build the house of God, that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem, and with them are the prophets of God supporting them."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 5,
     "verse": 3,
-    "content": "At that time come to them hath Tatnai, governor beyond the river, and Shethar-Boznai, and their companions, and thus they are saying to them, ‘Who hath made for you a decree this house to build, and this wall to finish?’"
+    "content": "At that time come to them hath Tatnai, governor beyond the river, and Shethar-Boznai, and their companions, and thus they are saying to them, “Who hath made for you a decree this house to build, and this wall to finish?”"
   },
   {
     "book": "EZR",
     "chapter": 5,
     "verse": 4,
-    "content": "Then thus we have said to them, ‘What are the names of the men who are building this building?’"
+    "content": [
+      "Then thus we have said to them, “What ",
+      { "text": "are", "marks": ["i"] },
+      " the names of the men who are building this building?”"
+    ]
   },
   {
     "book": "EZR",
@@ -756,7 +921,14 @@
     "book": "EZR",
     "chapter": 5,
     "verse": 6,
-    "content": "The copy of a letter that Tatnai, governor beyond the river, hath sent, and Shethar-Boznai and his companions, the Apharsachites who are beyond the river, unto Darius the king."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The copy of a letter that Tatnai, governor beyond the river, hath sent, and Shethar-Boznai and his companions, the Apharsachites who "
+      },
+      { "text": "are", "marks": ["i"] },
+      " beyond the river, unto Darius the king."
+    ]
   },
   {
     "book": "EZR",
@@ -768,7 +940,11 @@
     "book": "EZR",
     "chapter": 5,
     "verse": 8,
-    "content": "‘To Darius the king, all peace! be it known to the king that we have gone to the province of Judah, to the great house of God, and it is built with rolled stones, and wood is placed in the walls, and this work is done speedily, and prospering in their hand."
+    "content": [
+      "“To Darius the king, all peace! be it known to the king that we have gone to the province of Judah, to the great house of God, and it is built ",
+      { "text": "with", "marks": ["i"] },
+      " rolled stones, and wood is placed in the walls, and this work is done speedily, and prospering in their hand."
+    ]
   },
   {
     "book": "EZR",
@@ -780,13 +956,21 @@
     "book": "EZR",
     "chapter": 5,
     "verse": 10,
-    "content": "And also their names we have asked of them, to let thee know, that we might write the names of the men who are at their head."
+    "content": [
+      "And also their names we have asked of them, to let thee know, that we might write the names of the men who ",
+      { "text": "are", "marks": ["i"] },
+      " at their head."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 5,
     "verse": 11,
-    "content": "‘And thus they have returned us word, saying, We are servants of the God of heaven and earth, and are building the house that was built many years before this, that a great king of Israel built and finished:"
+    "content": [
+      "“And thus they have returned us word, saying, We ",
+      { "text": "are", "marks": ["i"] },
+      " servants of the God of heaven and earth, and are building the house that was built many years before this, that a great king of Israel built and finished:"
+    ]
   },
   {
     "book": "EZR",
@@ -804,46 +988,75 @@
     "book": "EZR",
     "chapter": 5,
     "verse": 14,
-    "content": "and also, the vessels of the house of God, of gold and silver, that Nebuchadnezzar had taken forth out of the temple that is in Jerusalem, and brought them to the temple of Babylon, them hath Cyrus the king brought forth out of the temple of Babylon, and they have been given to one, Sheshbazzar is his name, whom he made governor,"
+    "content": [
+      "and also, the vessels of the house of God, of gold and silver, that Nebuchadnezzar had taken forth out of the temple that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem, and brought them to the temple of Babylon, them hath Cyrus the king brought forth out of the temple of Babylon, and they have been given to ",
+      { "text": "one", "marks": ["i"] },
+      ", Sheshbazzar ",
+      { "text": "is", "marks": ["i"] },
+      " his name, whom he made governor,"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 5,
     "verse": 15,
-    "content": "and said to him, These vessels lift up, go, put them down in the temple that is in Jerusalem, and the house of God is builded on its place."
+    "content": [
+      "and said to him, These vessels lift up, go, put them down in the temple that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem, and the house of God is builded on its place."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 5,
     "verse": 16,
-    "content": "Then hath this Sheshbazzar come-he hath laid the foundations of the house of God that is in Jerusalem, and from thence even till now it hath been building, and is not finished."
+    "content": [
+      "Then hath this Sheshbazzar come—he hath laid the foundations of the house of God that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem, and from thence even till now it hath been building, and is not finished."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 5,
     "verse": 17,
-    "content": "‘And now, if to the king it be good, let search be made in the treasure-house of the king, that is there in Babylon, whether it be that of Cyrus the king there was made a decree to build this house of God in Jerusalem, and the will of the king concerning this thing he doth send unto us.’"
+    "content": [
+      "“And now, if to the king it be good, let search be made in the treasure-house of the king, that ",
+      { "text": "is", "marks": ["i"] },
+      " there in Babylon, whether it be that of Cyrus the king there was made a decree to build this house of God in Jerusalem, and the will of the king concerning this thing he doth send unto us.”"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Then Darius the king made a decree, and they sought in the house of the books of the treasuries placed there in Babylon,"
-    }
+    "content": [
+      { "heading": "The King’s Decree" },
+      {
+        "paragraph": true,
+        "text": "Then Darius the king made a decree, and they sought in the house of the books of the treasuries placed there in Babylon,"
+      }
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 2,
-    "content": "and there hath been found at Achmetha, in a palace that is in the province of Media, a roll, and a record thus written within it is:"
+    "content": [
+      "and there hath been found at Achmetha, in a palace that ",
+      { "text": "is", "marks": ["i"] },
+      " in the province of Media, a roll, and a record thus written within it ",
+      { "text": "is", "marks": ["i"] },
+      ":"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 3,
-    "content": "‘In the first year of Cyrus the king, Cyrus the king hath made a decree concerning the house of God in Jerusalem: the house let be builded in the place where they are sacrificing sacrifices, and its foundations strongly laid; its height sixty cubits, its breadth sixty cubits;"
+    "content": "“In the first year of Cyrus the king, Cyrus the king hath made a decree concerning the house of God in Jerusalem: the house let be builded in the place where they are sacrificing sacrifices, and its foundations strongly laid; its height sixty cubits, its breadth sixty cubits;"
   },
   {
     "book": "EZR",
@@ -855,13 +1068,30 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 5,
-    "content": "‘And also, the vessels of the house of God, of gold and silver, that Nebuchadnezzar took forth out of the temple that is in Jerusalem, and brought to Babylon, let be given back, and go to the temple that is in Jerusalem, each to its place, and put them down in the house of God."
+    "content": [
+      "“And also, the vessels of the house of God, of gold and silver, that Nebuchadnezzar took forth out of the temple that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem, and brought to Babylon, let be given back, and go to the temple that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem, ",
+      { "text": "each", "marks": ["i"] },
+      " to its place, and put ",
+      { "text": "them", "marks": ["i"] },
+      " down in the house of God."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 6,
-    "content": "‘Now, Tatnai, governor beyond the river, Shethar-Boznai, and their companions, the Apharsachites, who are beyond the river, be ye far from hence;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "“Now, Tatnai, governor beyond the river, Shethar-Boznai, and their companions, the Apharsachites, who "
+      },
+      { "text": "are", "marks": ["i"] },
+      " beyond the river, be ye far from hence;"
+    ]
   },
   {
     "book": "EZR",
@@ -873,13 +1103,21 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 8,
-    "content": "‘And by me is made a decree concerning that which ye do with the elders of these Jews to build this house of God, that of the riches of the king, that are of the tribute beyond the river, speedily let the outlay be given to these men, that they cease not;"
+    "content": [
+      "“And by me is made a decree concerning that which ye do with the elders of these Jews to build this house of God, that of the riches of the king, that ",
+      { "text": "are", "marks": ["i"] },
+      " of the tribute beyond the river, speedily let the outlay be given to these men, that they cease not;"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 9,
-    "content": "and what they are needing-both young bullocks, and rams, and lambs for burnt-offerings to the God of heaven, wheat, salt, wine, and oil according to the saying of the priests who are in Jerusalem-let be given to them day by day without fail,"
+    "content": [
+      "and what they are needing—both young bullocks, and rams, and lambs for burnt-offerings to the God of heaven, wheat, salt, wine, and oil according to the saying of the priests who ",
+      { "text": "are", "marks": ["i"] },
+      " in Jerusalem—let be given to them day by day without fail,"
+    ]
   },
   {
     "book": "EZR",
@@ -891,19 +1129,26 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 11,
-    "content": "‘And by me is made a decree, that any one who changeth this thing, let wood be pulled down from his house, and being raised up, let him be smitten on it, and his house let be made a dunghill for this."
+    "content": "“And by me is made a decree, that any one who changeth this thing, let wood be pulled down from his house, and being raised up, let him be smitten on it, and his house let be made a dunghill for this."
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 12,
-    "content": "And God, who caused His name to dwell there, doth cast down any king and people that putteth forth his hand to change, to destroy this house of God that is in Jerusalem; I Darius have made a decree; speedily let it be done.’"
+    "content": [
+      "And God, who caused His name to dwell there, doth cast down any king and people that putteth forth his hand to change, to destroy this house of God that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem; I Darius have made a decree; speedily let it be done.”"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 13,
-    "content": "Then Tatnai, governor beyond the river, Shethar-Boznai, and their companions, according to that which Darius the king hath sent, so they have done speedily;"
+    "content": {
+      "paragraph": true,
+      "text": "Then Tatnai, governor beyond the river, Shethar-Boznai, and their companions, according to that which Darius the king hath sent, so they have done speedily;"
+    }
   },
   {
     "book": "EZR",
@@ -915,13 +1160,22 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 15,
-    "content": "And this house hath gone out till the third day of the month Adar, that is in the sixth year of the reign of Darius the king."
+    "content": [
+      "And this house hath gone out till the third day of the month Adar, that is ",
+      { "text": "in", "marks": ["i"] },
+      " the sixth year of the reign of Darius the king."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 16,
-    "content": "And the sons of Israel have made, and the priests, and the Levites, and the rest of the sons of the captivity, a dedication of this house of God with joy,"
+    "content": [
+      { "heading": "The Feast of Dedication" },
+      { "paragraph": true, "text": "And the sons of Israel have made, " },
+      { "text": "and", "marks": ["i"] },
+      " the priests, and the Levites, and the rest of the sons of the captivity, a dedication of this house of God with joy,"
+    ]
   },
   {
     "book": "EZR",
@@ -933,19 +1187,30 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 18,
-    "content": "and they have established the priests in their divisions, and the Levites in their courses, over the service of God that is in Jerusalem, as it is written in the book of Moses."
+    "content": [
+      "and they have established the priests in their divisions, and the Levites in their courses, over the service of God that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem, as it is written in the book of Moses."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 19,
-    "content": "And the sons of the captivity make the passover on the fourteenth of the first month,"
+    "content": {
+      "paragraph": true,
+      "text": "And the sons of the captivity make the passover on the fourteenth of the first month,"
+    }
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 20,
-    "content": "for the priests and the Levites have been purified together-all of them are pure-and they slaughter the passover for all the sons of the captivity, and for their brethren the priests, and for themselves."
+    "content": [
+      "for the priests and the Levites have been purified together—all of them ",
+      { "text": "are", "marks": ["i"] },
+      " pure—and they slaughter the passover for all the sons of the captivity, and for their brethren the priests, and for themselves."
+    ]
   },
   {
     "book": "EZR",
@@ -963,10 +1228,13 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And after these things, in the reign of Artaxerxes king of Persia, Ezra son of Seraiah, son of Azariah, son of Hilkiah,"
-    }
+    "content": [
+      { "heading": "Ezra" },
+      {
+        "paragraph": true,
+        "text": "And after these things, in the reign of Artaxerxes king of Persia, Ezra son of Seraiah, son of Azariah, son of Hilkiah,"
+      }
+    ]
   },
   {
     "book": "EZR",
@@ -996,7 +1264,11 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 6,
-    "content": "Ezra himself hath come up from Babylon, and he is a scribe ready in the law of Moses, that Jehovah God of Israel gave, and the king giveth to him-according to the hand of Jehovah his God upon him-all his request."
+    "content": [
+      "Ezra himself hath come up from Babylon, and he ",
+      { "text": "is", "marks": ["i"] },
+      " a scribe ready in the law of Moses, that Jehovah God of Israel gave, and the king giveth to him—according to the hand of Jehovah his God upon him—all his request."
+    ]
   },
   {
     "book": "EZR",
@@ -1008,7 +1280,11 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 8,
-    "content": "And he cometh in to Jerusalem in the fifth month, that is in the seventh year of the king,"
+    "content": [
+      "And he cometh in to Jerusalem in the fifth month, that ",
+      { "text": "is in", "marks": ["i"] },
+      " the seventh year of the king,"
+    ]
   },
   {
     "book": "EZR",
@@ -1026,13 +1302,18 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 11,
-    "content": "And this is a copy of the letter that the king Artaxerxes gave to Ezra the priest, the scribe, a scribe of the words of the commands of Jehovah, and of His statutes on Israel:"
+    "content": [
+      { "heading": "Letter of Authority" },
+      { "paragraph": true, "text": "And this " },
+      { "text": "is", "marks": ["i"] },
+      " a copy of the letter that the king Artaxerxes gave to Ezra the priest, the scribe, a scribe of the words of the commands of Jehovah, and of His statutes on Israel:"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 12,
-    "content": "‘Artaxerxes, king of kings, to Ezra the priest, a perfect scribe of the law of the God of heaven, and at such a time:"
+    "content": "“Artaxerxes, king of kings, to Ezra the priest, a perfect scribe of the law of the God of heaven, and at such a time:"
   },
   {
     "book": "EZR",
@@ -1044,37 +1325,53 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 14,
-    "content": "because that from the king and his seven counsellors thou art sent, to inquire concerning Judah and concerning Jerusalem, with the law of God that is in thy hand,"
+    "content": [
+      "because that from the king and his seven counsellors thou art sent, to inquire concerning Judah and concerning Jerusalem, with the law of God that ",
+      { "text": "is", "marks": ["i"] },
+      " in thy hand,"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 15,
-    "content": "and to carry silver and gold that the king and his counsellors willingly offered to the God of Israel, whose tabernacle is in Jerusalem,"
+    "content": [
+      "and to carry silver and gold that the king and his counsellors willingly offered to the God of Israel, whose tabernacle ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem,"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 16,
-    "content": "and all the silver and gold that thou findest in all the province of Babylon, with the free-will offerings of the people, and of the priests, offering willingly, for the house of their God that is in Jerusalem,"
+    "content": [
+      "and all the silver and gold that thou findest in all the province of Babylon, with the freewill offerings of the people, and of the priests, offering willingly, for the house of their God that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem,"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 17,
-    "content": "therefore thou dost speedily buy with this money, bullocks, rams, lambs, and their presents, and their libations, and dost bring them near to the altar of the house of your God that is in Jerusalem,"
+    "content": [
+      "therefore thou dost speedily buy with this money, bullocks, rams, lambs, and their presents, and their libations, and dost bring them near to the altar of the house of your God that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem,"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 18,
-    "content": "and that which to thee and to thy brethren is good to do with the rest of the silver and gold, according to the will of your God ye do.’"
+    "content": "and that which to thee and to thy brethren is good to do with the rest of the silver and gold, according to the will of your God ye do.”"
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 19,
-    "content": "‘And the vessels that are given to thee, for the service of the house of thy God, make perfect before the God of Jerusalem;"
+    "content": "“And the vessels that are given to thee, for the service of the house of thy God, make perfect before the God of Jerusalem;"
   },
   {
     "book": "EZR",
@@ -1086,7 +1383,11 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 21,
-    "content": "‘And by me-I Artaxerxes the king-is made a decree to all treasurers who are beyond the river, that all that Ezra the priest, scribe of the law of the God of heaven, doth ask of you, be done speedily:"
+    "content": [
+      "“And by me—I Artaxerxes the king—is made a decree to all treasurers who ",
+      { "text": "are", "marks": ["i"] },
+      " beyond the river, that all that Ezra the priest, scribe of the law of the God of heaven, doth ask of you, be done speedily:"
+    ]
   },
   {
     "book": "EZR",
@@ -1098,46 +1399,66 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 23,
-    "content": "all that is by the decree of the God of heaven, let be done diligently for the house of the God of heaven; for why is there wrath against the kingdom of the king and his sons?"
+    "content": [
+      "all that ",
+      { "text": "is", "marks": ["i"] },
+      " by the decree of the God of heaven, let be done diligently for the house of the God of heaven; for why is there wrath against the kingdom of the king and his sons?"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 24,
-    "content": "‘And to you we are making known, that upon any of the priests and Levites, singers, gatekeepers, Nethinim, and servants of the house of God, tribute and custom there is no authority to lift up."
+    "content": "“And to you we are making known, that upon any of the priests and Levites, singers, gatekeepers, Nethinim, and servants of the house of God, tribute and custom there is no authority to lift up."
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 25,
-    "content": "‘And thou, Ezra, according to the wisdom of thy God, that is in thy hand, appoint magistrates and judges who may be judges to all the people who are beyond the river, to all knowing the law of thy God, and he who hath not known ye cause to know;"
+    "content": [
+      "“And thou, Ezra, according to the wisdom of thy God, that ",
+      { "text": "is", "marks": ["i"] },
+      " in thy hand, appoint magistrates and judges who may be judges to all the people who are beyond the river, to all knowing the law of thy God, and he who hath not known ye cause to know;"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 26,
-    "content": "and any who doth not do the law of thy God, and the law of the king, speedily is judgment done upon him, whether to death, or to banishment, or to confiscation of riches, and to bonds.’"
+    "content": "and any who doth not do the law of thy God, and the law of the king, speedily is judgment done upon him, whether to death, or to banishment, or to confiscation of riches, and to bonds.”"
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 27,
-    "content": "Blessed is Jehovah, God of our fathers, who hath given such a thing as this in the heart of the king, to beautify the house of Jehovah that is in Jerusalem,"
+    "content": [
+      { "paragraph": true, "text": "Blessed " },
+      { "text": "is", "marks": ["i"] },
+      " Jehovah, God of our fathers, who hath given such a thing as this in the heart of the king, to beautify the house of Jehovah that ",
+      { "text": "is", "marks": ["i"] },
+      " in Jerusalem,"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 28,
-    "content": "and unto me hath stretched out kindness before the king and his counsellors, and before all the mighty heads of the king: and I have strengthened myself as the hand of Jehovah my God is upon me, and I gather out of Israel heads to go up with me."
+    "content": [
+      "and unto me hath stretched out kindness before the king and his counsellors, and before all the mighty heads of the king: and I have strengthened myself as the hand of Jehovah my God ",
+      { "text": "is", "marks": ["i"] },
+      " upon me, and I gather out of Israel heads to go up with me."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And these are heads of their fathers, and the genealogy of those going up with me, in the reign of Artaxerxes the king, from Babylon."
-    }
+    "content": [
+      { "heading": "Ezra’s Company" },
+      { "paragraph": true, "text": "And these " },
+      { "text": "are", "marks": ["i"] },
+      " heads of their fathers, and the genealogy of those going up with me, in the reign of Artaxerxes the king, from Babylon."
+    ]
   },
   {
     "book": "EZR",
@@ -1209,7 +1530,11 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 13,
-    "content": "And from the younger sons of Adonikam-and these are their names-Eliphelet, Jeiel, and Shemaiah, and with them sixty who are males."
+    "content": [
+      "And from the younger sons of Adonikam—and these ",
+      { "text": "are", "marks": ["i"] },
+      " their names—Eliphelet, Jeiel, and Shemaiah, and with them sixty who are males."
+    ]
   },
   {
     "book": "EZR",
@@ -1221,7 +1546,13 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 15,
-    "content": "And I gather them unto the river that is going unto Ahava, and we encamp there three days; and I consider about the people, and about the priests, and of the sons of Levi I have found none there;"
+    "content": [
+      { "heading": "The Journey" },
+      {
+        "paragraph": true,
+        "text": "And I gather them unto the river that is going unto Ahava, and we encamp there three days; and I consider about the people, and about the priests, and of the sons of Levi I have found none there;"
+      }
+    ]
   },
   {
     "book": "EZR",
@@ -1233,7 +1564,11 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 17,
-    "content": "and I charge them for Iddo the head, in the place Casiphia, and put in their mouth words to speak unto Iddo, and his brethren the Nethinim, in the place Casiphia, to bring to us ministrants for the house of our God."
+    "content": [
+      "and I charge them for Iddo the head, in the place Casiphia, and put in their mouth words to speak unto Iddo, ",
+      { "text": "and", "marks": ["i"] },
+      " his brethren the Nethinim, in the place Casiphia, to bring to us ministrants for the house of our God."
+    ]
   },
   {
     "book": "EZR",
@@ -1257,13 +1592,25 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 21,
-    "content": "And I proclaim there a fast, by the river Ahava, to afflict ourselves before our God, to seek from Him a right way for us, and for our infants, and for all our substance,"
+    "content": [
+      { "heading": "Prayer on the Way" },
+      {
+        "paragraph": true,
+        "text": "And I proclaim there a fast, by the river Ahava, to afflict ourselves before our God, to seek from Him a right way for us, and for our infants, and for all our substance,"
+      }
+    ]
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 22,
-    "content": "for I was ashamed to ask from the king a force and horsemen to help us because of the enemy in the way, for we spake to the king, saying, ‘The hand of our God is upon all seeking Him for good, and His strength and His wrath is upon all forsaking Him.’"
+    "content": [
+      "for I was ashamed to ask from the king a force and horsemen to help us because of the enemy in the way, for we spake to the king, saying, “The hand of our God ",
+      { "text": "is", "marks": ["i"] },
+      " upon all seeking Him for good, and His strength and His wrath ",
+      { "text": "is", "marks": ["i"] },
+      " upon all forsaking Him.”"
+    ]
   },
   {
     "book": "EZR",
@@ -1275,13 +1622,16 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 24,
-    "content": "And I separate from the heads of the priests, twelve, even Sherebiah, Hashabiah, and with them of their brethren ten,"
+    "content": {
+      "paragraph": true,
+      "text": "And I separate from the heads of the priests, twelve, even Sherebiah, Hashabiah, and with them of their brethren ten,"
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 25,
-    "content": "and I weigh to them the silver, and the gold, and the vessels, a heave-offering of the house of our God, that the king, and his counsellors, and his heads, and all Israel-those present-lifted up;"
+    "content": "and I weigh to them the silver, and the gold, and the vessels, a heave-offering of the house of our God, that the king, and his counsellors, and his heads, and all Israel—those present—lifted up;"
   },
   {
     "book": "EZR",
@@ -1299,13 +1649,21 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 28,
-    "content": "And I say unto them, ‘Ye are holy to Jehovah, and the vessels are holy, and the silver and the gold are a willing-offering to Jehovah, God of your fathers;"
+    "content": [
+      "And I say unto them, “Ye ",
+      { "text": "are", "marks": ["i"] },
+      " holy to Jehovah, and the vessels ",
+      { "text": "are", "marks": ["i"] },
+      " holy, and the silver and the gold ",
+      { "text": "are", "marks": ["i"] },
+      " a willing-offering to Jehovah, God of your fathers;"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 29,
-    "content": "watch, and keep, till ye weigh before the heads of the priests, and of the Levites, and the heads of the fathers of Israel, in Jerusalem, in the chambers of the house of Jehovah.’"
+    "content": "watch, and keep, till ye weigh before the heads of the priests, and of the Levites, and the heads of the fathers of Israel, in Jerusalem, in the chambers of the house of Jehovah.”"
   },
   {
     "book": "EZR",
@@ -1317,7 +1675,13 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 31,
-    "content": "And we journey from the river Ahava, on the twelfth of the first month, to go to Jerusalem, and the hand of our God hath been upon us, and He delivereth us from the hand of the enemy and the lier in wait by the way;"
+    "content": [
+      { "heading": "In Jerusalem" },
+      {
+        "paragraph": true,
+        "text": "And we journey from the river Ahava, on the twelfth of the first month, to go to Jerusalem, and the hand of our God hath been upon us, and He delivereth us from the hand of the enemy and the lier in wait by the way;"
+      }
+    ]
   },
   {
     "book": "EZR",
@@ -1329,7 +1693,10 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 33,
-    "content": "And on the fourth day hath been weighed the silver, and the gold, and the vessels, in the house of our God, unto the hand of Meremoth son of Uriah the priest, and with him Eleazar son of Phinehas, and with them Jozabad son of Jeshua, and Noadiah son of Binnui, the Levites:"
+    "content": {
+      "paragraph": true,
+      "text": "And on the fourth day hath been weighed the silver, and the gold, and the vessels, in the house of our God, unto the hand of Meremoth son of Uriah the priest, and with him Eleazar son of Phinehas, and with them Jozabad son of Jeshua, and Noadiah son of Binnui, the Levites:"
+    }
   },
   {
     "book": "EZR",
@@ -1341,7 +1708,13 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 35,
-    "content": "Those coming in of the captives-sons of the removal-have brought near burnt-offerings to the God of Israel, bullocks twelve, for all Israel, rams ninety and six, lambs seventy and seven, young he-goats for a sin-offering twelve-the whole a burnt-offering to Jehovah;"
+    "content": [
+      { "heading": "An Offering to God" },
+      {
+        "paragraph": true,
+        "text": "Those coming in of the captives—sons of the removal—have brought near burnt-offerings to the God of Israel, bullocks twelve, for all Israel, rams ninety and six, lambs seventy and seven, young he-goats for a sin-offering twelve—the whole a burnt-offering to Jehovah;"
+      }
+    ]
   },
   {
     "book": "EZR",
@@ -1353,16 +1726,19 @@
     "book": "EZR",
     "chapter": 9,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And at the completion of these things, drawn nigh unto me have the heads, saying, ‘The people of Israel, and the priests, and the Levites, have not been separated from the peoples of the lands, as to their abominations, even the Canaanite, the Hittite, the Perizzite, the Jebusite, the Ammonite, the Moabite, the Egyptian, and the Amorite,"
-    }
+    "content": [
+      { "heading": "Foreign Marriages" },
+      {
+        "paragraph": true,
+        "text": "And at the completion of these things, drawn nigh unto me have the heads, saying, “The people of Israel, and the priests, and the Levites, have not been separated from the peoples of the lands, as to their abominations, even the Canaanite, the Hittite, the Perizzite, the Jebusite, the Ammonite, the Moabite, the Egyptian, and the Amorite,"
+      }
+    ]
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 2,
-    "content": "for they have taken of their daughters to them, and to their sons, and the holy seed have mingled themselves among the peoples of the lands, and the hand of the heads and of the seconds have been first in this trespass.’"
+    "content": "for they have taken of their daughters to them, and to their sons, and the holy seed have mingled themselves among the peoples of the lands, and the hand of the heads and of the seconds have been first in this trespass.”"
   },
   {
     "book": "EZR",
@@ -1380,67 +1756,92 @@
     "book": "EZR",
     "chapter": 9,
     "verse": 5,
-    "content": "And at the present of the evening I have risen from mine affliction, and at my rending my garment and my upper robe, then I bow down on my knees, and spread out my hands unto Jehovah my God,"
+    "content": {
+      "paragraph": true,
+      "text": "And at the present of the evening I have risen from mine affliction, and at my rending my garment and my upper robe, then I bow down on my knees, and spread out my hands unto Jehovah my God,"
+    }
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 6,
-    "content": "and say, ‘O my God, I have been ashamed, and have blushed to lift up, O my God, my face unto Thee, for our iniquities have increased over the head, and our guilt hath become great unto the heavens."
+    "content": "and say, “O my God, I have been ashamed, and have blushed to lift up, O my God, my face unto Thee, for our iniquities have increased over the head, and our guilt hath become great unto the heavens."
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 7,
-    "content": "‘From the days of our fathers we are in great guilt unto this day, and in our iniquities we have been given-we, our kings, our priests-into the hand of the kings of the lands, with sword, with captivity, and with spoiling, and with shame of face, as at this day."
+    "content": [
+      "“From the days of our fathers we ",
+      { "text": "are", "marks": ["i"] },
+      " in great guilt unto this day, and in our iniquities we have been given—we, our kings, our priests—into the hand of the kings of the lands, with sword, with captivity, and with spoiling, and with shame of face, as ",
+      { "text": "at", "marks": ["i"] },
+      " this day."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 8,
-    "content": "‘And now, as a small moment hath grace been from Jehovah our God, to leave to us an escape, and to give to us a nail in His holy place, by our God’s enlightening our eyes, and by giving us a little quickening in our servitude;"
+    "content": "“And now, as a small moment hath grace been from Jehovah our God, to leave to us an escape, and to give to us a nail in His holy place, by our God’s enlightening our eyes, and by giving us a little quickening in our servitude;"
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 9,
-    "content": "for servants we are, and in our servitude our God hath not forsaken us, and stretcheth out unto us kindness before the kings of Persia, to give to us a quickening to lift up the house of our God, and to cause its wastes to cease, and to give to us a wall in Judah and in Jerusalem."
+    "content": [
+      "for servants we ",
+      { "text": "are", "marks": ["i"] },
+      ", and in our servitude our God hath not forsaken us, and stretcheth out unto us kindness before the kings of Persia, to give to us a quickening to lift up the house of our God, and to cause its wastes to cease, and to give to us a wall in Judah and in Jerusalem."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 10,
-    "content": "‘And now, what do we say, O our God, after this? for we have forsaken Thy commands,"
+    "content": "“And now, what do we say, O our God, after this? for we have forsaken Thy commands,"
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 11,
-    "content": "that Thou hast commanded by the hands of thy servants the prophets, saying, The land into which ye are going to possess it, is a land of impurity, by the impurity of the people of the lands, by their abominations with which they have filled it-from mouth unto mouth-by their uncleanness;"
+    "content": [
+      "that Thou hast commanded by the hands of thy servants the prophets, saying, The land into which ye are going to possess it, ",
+      { "text": "is", "marks": ["i"] },
+      " a land of impurity, by the impurity of the people of the lands, by their abominations with which they have filled it—from mouth unto mouth—by their uncleanness;"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 12,
-    "content": "and now, your daughters ye do not give to their sons, and their daughters ye do not take to your sons, and ye do not seek their peace, and their good-unto the age, so that ye are strong, and have eaten the good of the land, and given possession to your sons unto the age."
+    "content": "and now, your daughters ye do not give to their sons, and their daughters ye do not take to your sons, and ye do not seek their peace, and their good—unto the age, so that ye are strong, and have eaten the good of the land, and given possession to your sons unto the age."
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 13,
-    "content": "‘And after all that hath come upon us for our evil works, and for our great guilt (for Thou, O our God, hast kept back of the rod from our iniquities, and hast given to us an escape like this),"
+    "content": "“And after all that hath come upon us for our evil works, and for our great guilt (for Thou, O our God, hast kept back of the rod from our iniquities, and hast given to us an escape like this),"
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 14,
-    "content": "do we turn back to break Thy commands, and to join ourselves in marriage with the people of these abominations? art not Thou angry against us-even to consumption-till there is no remnant and escaped part?"
+    "content": "do we turn back to break Thy commands, and to join ourselves in marriage with the people of these abominations? art not Thou angry against us—even to consumption—till there is no remnant and escaped part?"
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 15,
-    "content": "‘O Jehovah, God of Israel, righteous art Thou, for we have been left an escape, as it is this day; lo, we are before Thee in our guilt, for there is none to stand before Thee concerning this.’"
+    "content": [
+      "“O Jehovah, God of Israel, righteous ",
+      { "text": "art", "marks": ["i"] },
+      " Thou, for we have been left an escape, as ",
+      { "text": "it is", "marks": ["i"] },
+      " this day; lo, we ",
+      { "text": "are", "marks": ["i"] },
+      " before Thee in our guilt, for there is none to stand before Thee concerning this.”"
+    ]
   },
   {
     "book": "EZR",
@@ -1448,14 +1849,14 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And at Ezra’s praying, and at his making confession, weeping and casting himself down before the house of God, there have been gathered unto him out of Israel an assembly very great-men and women and children-for the people have wept, multiplying weeping."
+      "text": "And at Ezra’s praying, and at his making confession, weeping and casting himself down before the house of God, there have been gathered unto him out of Israel an assembly very great—men and women and children—for the people have wept, multiplying weeping."
     }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 2,
-    "content": "And Shechaniah son of Jehiel, of the sons of Elam, answereth and saith to Ezra, ‘We-we have trespassed against our God, and we settle strange women of the peoples of the land; and now there is hope for Israel concerning this,"
+    "content": "And Shechaniah son of Jehiel, of the sons of Elam, answereth and saith to Ezra, “We—we have trespassed against our God, and we settle strange women of the peoples of the land; and now there is hope for Israel concerning this,"
   },
   {
     "book": "EZR",
@@ -1467,19 +1868,31 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 4,
-    "content": "rise, for on thee is the matter, and we are with thee; be strong, and do.’"
+    "content": [
+      "rise, for on thee ",
+      { "text": "is", "marks": ["i"] },
+      " the matter, and we ",
+      { "text": "are", "marks": ["i"] },
+      " with thee; be strong, and do.”"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 5,
-    "content": "And Ezra riseth, and causeth the heads of the priests, the Levites, and all Israel, to swear to do according to this word-and they swear."
+    "content": "And Ezra riseth, and causeth the heads of the priests, the Levites, and all Israel, to swear to do according to this word—and they swear."
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 6,
-    "content": "And Ezra riseth from before the house of God, and goeth unto the chamber of Jehohanan son of Eliashib; yea, he goeth there, bread he hath not eaten, and water he hath not drunk, for he is mourning because of the trespass of the removal."
+    "content": [
+      { "heading": "A Great Assembly" },
+      {
+        "paragraph": true,
+        "text": "And Ezra riseth from before the house of God, and goeth unto the chamber of Jehohanan son of Eliashib; yea, he goeth there, bread he hath not eaten, and water he hath not drunk, for he is mourning because of the trespass of the removal."
+      }
+    ]
   },
   {
     "book": "EZR",
@@ -1497,37 +1910,60 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 9,
-    "content": "And gathered are all the men of Judah and Benjamin to Jerusalem by the third day, it is the ninth month, on the twentieth of the month, and all the people sit in the broad place of the house of God, trembling on account of the matter and of the showers."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And gathered are all the men of Judah and Benjamin to Jerusalem by the third day, it "
+      },
+      { "text": "is", "marks": ["i"] },
+      " the ninth month, on the twentieth of the month, and all the people sit in the broad place of the house of God, trembling on account of the matter and of the showers."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 10,
-    "content": "And Ezra the priest riseth, and saith unto them, ‘Ye-ye have trespassed, and ye settle strange women, to add to the guilt of Israel;"
+    "content": "And Ezra the priest riseth, and saith unto them, “Ye—ye have trespassed, and ye settle strange women, to add to the guilt of Israel;"
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 11,
-    "content": "and, now, make confession to Jehovah, God of your fathers, and do His good pleasure, and be separated from the peoples of the land, and from the strange women.’"
+    "content": "and, now, make confession to Jehovah, God of your fathers, and do His good pleasure, and be separated from the peoples of the land, and from the strange women.”"
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 12,
-    "content": "And all the assembly answer and say with a great voice, ‘Right; according to thy word-on us to do;"
+    "content": [
+      "And all the assembly answer and say ",
+      { "text": "with", "marks": ["i"] },
+      " a great voice, “Right; according to thy word—on us to do;"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 13,
-    "content": "but the people are many, and it is the time of showers, and there is no power to stand without, and the work is not for one day, nor for two, for we have multiplied to transgress in this thing."
+    "content": [
+      "but the people ",
+      { "text": "are", "marks": ["i"] },
+      " many, and ",
+      { "text": "it is", "marks": ["i"] },
+      " the time of showers, and there is no power to stand without, and the work ",
+      { "text": "is", "marks": ["i"] },
+      " not for one day, nor for two, for we have multiplied to transgress in this thing."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 14,
-    "content": "‘Let, we pray thee, our heads of all the assembly stand, and all who are in our cities, who have settled strange wives, do come in at the times appointed, and with them the elders of city and city, and its judges, till the turning back of the fury of the wrath of our God from us, for this thing.’"
+    "content": [
+      "“Let, we pray thee, our heads of all the assembly stand, and all who ",
+      { "text": "are", "marks": ["i"] },
+      " in our cities, who have settled strange wives, do come in at the times appointed, and with them the elders of city and city, and its judges, till the turning back of the fury of the wrath of our God from us, for this thing.”"
+    ]
   },
   {
     "book": "EZR",
@@ -1539,7 +1975,14 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 16,
-    "content": "And the sons of the removal do so, and Ezra the priest, and men, heads of the fathers, for the house of their fathers, are separated, even all of them by name, and they sit on the first day of the tenth month, to examine the matter;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the sons of the removal do so, and Ezra the priest, "
+      },
+      { "text": "and", "marks": ["i"] },
+      " men, heads of the fathers, for the house of their fathers, are separated, even all of them by name, and they sit on the first day of the tenth month, to examine the matter;"
+    ]
   },
   {
     "book": "EZR",
@@ -1551,7 +1994,10 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 18,
-    "content": "And there are found of the sons of the priests that have settled strange women: of the sons of Jeshua son of Jozadak, and his brethren, Maaseiah, and Eliezer, and Jarib, and Gedaliah;"
+    "content": {
+      "paragraph": true,
+      "text": "And there are found of the sons of the priests that have settled strange women: of the sons of Jeshua son of Jozadak, and his brethren, Maaseiah, and Eliezer, and Jarib, and Gedaliah;"
+    }
   },
   {
     "book": "EZR",
@@ -1581,19 +2027,32 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 23,
-    "content": "And of the Levites: Jozabad, and Shimei, and Kelaiah-he is Kelita,-Pethahiah, Judah, and Eliezer."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And of the Levites: Jozabad, and Shimei, and Kelaiah—he "
+      },
+      { "text": "is", "marks": ["i"] },
+      " Kelita,—Pethahiah, Judah, and Eliezer."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 24,
-    "content": "And of the singers: Eliashib. And of the gatekeepers: Shallum, and Telem, and Uri."
+    "content": {
+      "paragraph": true,
+      "text": "And of the singers: Eliashib. And of the gatekeepers: Shallum, and Telem, and Uri."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 25,
-    "content": "And of Israel: of the sons of Parosh: Ramiah, and Jeziah, and Malchijah, and Miamin, and Eleazar, and Malchijah, and Benaiah."
+    "content": {
+      "paragraph": true,
+      "text": "And of Israel: of the sons of Parosh: Ramiah, and Jeziah, and Malchijah, and Miamin, and Eleazar, and Malchijah, and Benaiah."
+    }
   },
   {
     "book": "EZR",
@@ -1707,6 +2166,6 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 44,
-    "content": "all these have taken strange women, and there are of them women-who adopt sons."
+    "content": "all these have taken strange women, and there are of them women—who adopt sons."
   }
 ]

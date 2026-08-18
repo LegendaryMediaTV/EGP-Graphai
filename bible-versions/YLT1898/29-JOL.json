@@ -12,7 +12,10 @@
     "book": "JOL",
     "chapter": 1,
     "verse": 2,
-    "content": "Hear this, ye aged ones, And give ear, all ye inhabitants of the land, Hath this been in your days? Or in the days of your fathers?"
+    "content": {
+      "paragraph": true,
+      "text": "Hear this, ye aged ones, And give ear, all ye inhabitants of the land, Hath this been in your days? Or in the days of your fathers?"
+    }
   },
   {
     "book": "JOL",
@@ -24,19 +27,29 @@
     "book": "JOL",
     "chapter": 1,
     "verse": 4,
-    "content": "What is left of the palmer-worm, eaten hath the locust, And what is left of the locust, Eaten hath the cankerworm, And what is left of the cankerworm, Eaten hath the caterpillar."
+    "content": {
+      "paragraph": true,
+      "text": "What is left of the palmer-worm, eaten hath the locust, And what is left of the locust, Eaten hath the cankerworm, And what is left of the cankerworm, Eaten hath the caterpillar."
+    }
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 5,
-    "content": "Awake, ye drunkards, and weep, And howl all drinking wine, because of the juice, For it hath been cut off from your mouth."
+    "content": {
+      "paragraph": true,
+      "text": "Awake, ye drunkards, and weep, And howl all drinking wine, because of the juice, For it hath been cut off from your mouth."
+    }
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 6,
-    "content": "For a nation hath come up on my land, Strong, and there is no number, Its teeth are the teeth of a lion, And it hath the jaw-teeth of a lioness."
+    "content": [
+      "For a nation hath come up on my land, Strong, and there is no number, Its teeth ",
+      { "text": "are", "marks": ["i"] },
+      " the teeth of a lion, And it hath the jaw-teeth of a lioness."
+    ]
   },
   {
     "book": "JOL",
@@ -48,7 +61,10 @@
     "book": "JOL",
     "chapter": 1,
     "verse": 8,
-    "content": "Wail, as a virgin girdeth with sackcloth, For the husband of her youth."
+    "content": {
+      "paragraph": true,
+      "text": "Wail, as a virgin girdeth with sackcloth, For the husband of her youth."
+    }
   },
   {
     "book": "JOL",
@@ -78,19 +94,33 @@
     "book": "JOL",
     "chapter": 1,
     "verse": 13,
-    "content": "Gird, and lament, ye priests, Howl, ye ministrants of the altar, Come in, lodge in sackcloth, ministrants of my God, For withheld from the house of your God hath been present and libation."
+    "content": [
+      { "heading": ["The Day of the ", { "text": "Jehovah" }] },
+      {
+        "paragraph": true,
+        "text": "Gird, and lament, ye priests, Howl, ye ministrants of the altar, Come in, lodge in sackcloth, ministrants of my God, For withheld from the house of your God hath been present and libation."
+      }
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 14,
-    "content": "Sanctify a fast, proclaim a restraint, Gather the elders-all the inhabitants of the land, Into the house of Jehovah your God,"
+    "content": [
+      "Sanctify a fast, proclaim a restraint, Gather the elders—all the inhabitants of the land, ",
+      { "text": "Into", "marks": ["i"] },
+      " the house of Jehovah your God,"
+    ]
   },
   {
     "book": "JOL",
     "chapter": 1,
     "verse": 15,
-    "content": "And cry unto Jehovah, ‘Alas for the day! For near is a day of Jehovah, And as destruction from the mighty it cometh."
+    "content": [
+      "And cry unto Jehovah, “Alas for the day! For near ",
+      { "text": "is", "marks": ["i"] },
+      " a day of Jehovah, And as destruction from the mighty it cometh."
+    ]
   },
   {
     "book": "JOL",
@@ -120,34 +150,46 @@
     "book": "JOL",
     "chapter": 1,
     "verse": 20,
-    "content": "Also the cattle of the field long for Thee, For dried up have been streams of water, And fire hath consumed comely places of a wilderness!’"
+    "content": "Also the cattle of the field long for Thee, For dried up have been streams of water, And fire hath consumed comely places of a wilderness!”"
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Blow ye a trumpet in Zion, And shout ye in My holy hill, Tremble do all inhabitants of the earth, For coming is the day of Jehovah, for it is near!"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Blow ye a trumpet in Zion, And shout ye in My holy hill, Tremble do all inhabitants of the earth, For coming is the day of Jehovah, for "
+      },
+      { "text": "it is", "marks": ["i"] },
+      " near!"
+    ]
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 2,
-    "content": "A day of darkness and thick darkness, A day of cloud and thick darkness, As darkness spread on the mountains, A people numerous and mighty, Like it there hath not been from of old, And after it there is not again-till the years of generation and generation."
+    "content": "A day of darkness and thick darkness, A day of cloud and thick darkness, As darkness spread on the mountains, A people numerous and mighty, Like it there hath not been from of old, And after it there is not again—till the years of generation and generation."
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 3,
-    "content": "Before it consumed hath fire, And after it burn doth a flame, As the garden of Eden is the land before it, And after it a wilderness-a desolation! And also an escape there hath not been to it,"
+    "content": [
+      "Before it consumed hath fire, And after it burn doth a flame, As the garden of Eden ",
+      { "text": "is", "marks": ["i"] },
+      " the land before it, And after it a wilderness—a desolation! And also an escape there hath not been to it,"
+    ]
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 4,
-    "content": "As the appearance of horses is its appearance, And as horsemen, so they run."
+    "content": [
+      { "paragraph": true, "text": "As the appearance of horses " },
+      { "text": "is", "marks": ["i"] },
+      " its appearance, And as horsemen, so they run."
+    ]
   },
   {
     "book": "JOL",
@@ -189,31 +231,49 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 11,
-    "content": "And Jehovah hath given forth His voice before His force, For very great is His camp, For mighty is the doer of His word, For great is the day of Jehovah-very fearful, And who doth bear it?"
+    "content": [
+      "And Jehovah hath given forth His voice before His force, For very great ",
+      { "text": "is", "marks": ["i"] },
+      " His camp, For mighty ",
+      { "text": "is", "marks": ["i"] },
+      " the doer of His word, For great ",
+      { "text": "is", "marks": ["i"] },
+      " the day of Jehovah—very fearful, And who doth bear it?"
+    ]
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 12,
-    "content": "And also now-an affirmation of Jehovah, Turn ye back unto Me with all your heart, And with fasting, and with weeping, And with lamentation."
+    "content": {
+      "paragraph": true,
+      "text": "And also now—an affirmation of Jehovah, Turn ye back unto Me with all your heart, And with fasting, and with weeping, And with lamentation."
+    }
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 13,
-    "content": "And rend your heart, and not your garments, And turn back unto Jehovah your God, For gracious and merciful is He, Slow to anger, and abundant in kindness, And He hath repented concerning the evil."
+    "content": [
+      "And rend your heart, and not your garments, And turn back unto Jehovah your God, For gracious and merciful ",
+      { "text": "is", "marks": ["i"] },
+      " He, Slow to anger, and abundant in kindness, And He hath repented concerning the evil."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 14,
-    "content": "Who knoweth-He doth turn back, Yea-He hath repented, And He hath left behind Him a blessing, A present and libation of Jehovah your God?"
+    "content": "Who knoweth—He doth turn back, Yea—He hath repented, And He hath left behind Him a blessing, A present and libation of Jehovah your God?"
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 15,
-    "content": "Blow ye a trumpet in Zion, Sanctify a fast-proclaim a restraint."
+    "content": {
+      "paragraph": true,
+      "text": "Blow ye a trumpet in Zion, Sanctify a fast—proclaim a restraint."
+    }
   },
   {
     "book": "JOL",
@@ -225,19 +285,26 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 17,
-    "content": "Between the porch and the altar weep let the priests, ministrants of Jehovah, And let them say: ‘Have pity, O Jehovah, on Thy people, And give not Thy inheritance to reproach, To the ruling over them of nations, Why do they say among peoples, Where is their God?’"
+    "content": [
+      "Between the porch and the altar weep let the priests, ministrants of Jehovah, And let them say: “Have pity, O Jehovah, on Thy people, And give not Thy inheritance to reproach, To the ruling over them of nations, Why do they say among peoples, Where ",
+      { "text": "is", "marks": ["i"] },
+      " their God?”"
+    ]
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 18,
-    "content": "And let Jehovah be zealous for His land, And have pity on His people."
+    "content": {
+      "paragraph": true,
+      "text": "And let Jehovah be zealous for His land, And have pity on His people."
+    }
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 19,
-    "content": "Let Jehovah answer and say to His people, ‘Lo, I am sending to you the corn, And the new wine, and the oil, And ye have been satisfied with it, And I make you no more a reproach among nations,"
+    "content": "Let Jehovah answer and say to His people, “Lo, I am sending to you the corn, And the new wine, and the oil, And ye have been satisfied with it, And I make you no more a reproach among nations,"
   },
   {
     "book": "JOL",
@@ -249,7 +316,10 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 21,
-    "content": "Do not fear, O land! joy and rejoice, For Jehovah hath exerted Himself to work."
+    "content": {
+      "paragraph": true,
+      "text": "Do not fear, O land! joy and rejoice, For Jehovah hath exerted Himself to work."
+    }
   },
   {
     "book": "JOL",
@@ -261,13 +331,19 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 23,
-    "content": "And ye sons of Zion, joy and rejoice, In Jehovah your God, For He hath given to you the Teacher for righteousness, And causeth to come down to you a shower, Sprinkling and gathered-in the beginning."
+    "content": "And ye sons of Zion, joy and rejoice, In Jehovah your God, For He hath given to you the Teacher for righteousness, And causeth to come down to you a shower, Sprinkling and gathered—in the beginning."
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 24,
-    "content": "And full have been the floors with pure corn, And overflown have the presses with new wine and oil."
+    "content": [
+      "And full have been the floors ",
+      { "text": "with", "marks": ["i"] },
+      " pure corn, And overflown have the presses ",
+      { "text": "with", "marks": ["i"] },
+      " new wine and oil."
+    ]
   },
   {
     "book": "JOL",
@@ -285,13 +361,22 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 27,
-    "content": "And ye have known that in the midst of Israel am I, And I am Jehovah your God, and there is none else, And not ashamed are My people to the age."
+    "content": [
+      "And ye have known that in the midst of Israel ",
+      { "text": "am", "marks": ["i"] },
+      " I, And I ",
+      { "text": "am", "marks": ["i"] },
+      " Jehovah your God, and there is none else, And not ashamed are My people to the age."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 2,
     "verse": 28,
-    "content": "And it hath come to pass afterwards, I do pour out My Spirit on all flesh, And prophesied have your sons and your daughters, Your old men do dream dreams, Your young men do see visions."
+    "content": {
+      "paragraph": true,
+      "text": "And it hath come to pass afterwards, I do pour out My Spirit on all flesh, And prophesied have your sons and your daughters, Your old men do dream dreams, Your young men do see visions."
+    }
   },
   {
     "book": "JOL",
@@ -303,7 +388,10 @@
     "book": "JOL",
     "chapter": 2,
     "verse": 30,
-    "content": "And I have given wonders in the heavens, and in the earth, Blood and fire, and columns of smoke."
+    "content": {
+      "paragraph": true,
+      "text": "And I have given wonders in the heavens, and in the earth, Blood and fire, and columns of smoke."
+    }
   },
   {
     "book": "JOL",
@@ -321,16 +409,21 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "For lo, in those days, and in that time, When I turn back to the captivity of Judah and Jerusalem,"
-    }
+    "content": [
+      { "heading": "The Valley of Decision" },
+      {
+        "paragraph": true,
+        "text": "For lo, in those days, and in that time, When I turn back "
+      },
+      { "text": "to", "marks": ["i"] },
+      " the captivity of Judah and Jerusalem,"
+    ]
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 2,
-    "content": "Then I have gathered all the nations, And caused them to go down unto the valley of Jehoshaphat, And I have been judged with them there, Concerning My people and Mine inheritance-Israel, Whom they scattered among nations, And My land they have apportioned."
+    "content": "Then I have gathered all the nations, And caused them to go down unto the valley of Jehoshaphat, And I have been judged with them there, Concerning My people and Mine inheritance—Israel, Whom they scattered among nations, And My land they have apportioned."
   },
   {
     "book": "JOL",
@@ -342,7 +435,11 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 4,
-    "content": "And also, what are ye to Me, O Tyre and Zidon, And all circuits of Philistia? Recompence are ye rendering unto Me? And if ye are giving recompence to Me, Swiftly, hastily, I turn back your recompence on your head."
+    "content": [
+      { "paragraph": true, "text": "And also, what " },
+      { "text": "are", "marks": ["i"] },
+      " ye to Me, O Tyre and Zidon, And all circuits of Philistia? Recompence are ye rendering unto Me? And if ye are giving recompence to Me, Swiftly, hastily, I turn back your recompence on your head."
+    ]
   },
   {
     "book": "JOL",
@@ -372,13 +469,20 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 9,
-    "content": "Proclaim ye this among nations, Sanctify a war, stir up the mighty ones, Come nigh, come up, let all the men of war."
+    "content": {
+      "paragraph": true,
+      "text": "Proclaim ye this among nations, Sanctify a war, stir up the mighty ones, Come nigh, come up, let all the men of war."
+    }
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 10,
-    "content": "Beat your ploughshares to swords, And your pruning-hooks to javelins, Let the weak say, ‘I am mighty.’"
+    "content": [
+      "Beat your ploughshares to swords, And your pruning-hooks to javelins, Let the weak say, “I ",
+      { "text": "am", "marks": ["i"] },
+      " mighty.”"
+    ]
   },
   {
     "book": "JOL",
@@ -396,13 +500,23 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 13,
-    "content": "Send ye forth a sickle, For ripened hath harvest, Come in, come down, for filled hath been the press, Overflowed hath wine-presses, For great is their wickedness."
+    "content": [
+      "Send ye forth a sickle, For ripened hath harvest, Come in, come down, for filled hath been the press, Overflowed hath wine-presses, For great ",
+      { "text": "is", "marks": ["i"] },
+      " their wickedness."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 14,
-    "content": "Multitudes, multitudes are in the valley of decision, For near is the day of Jehovah in the valley of decision."
+    "content": [
+      { "paragraph": true, "text": "Multitudes, multitudes " },
+      { "text": "are", "marks": ["i"] },
+      " in the valley of decision, For near ",
+      { "text": "is", "marks": ["i"] },
+      " the day of Jehovah in the valley of decision."
+    ]
   },
   {
     "book": "JOL",
@@ -414,25 +528,46 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 16,
-    "content": "And Jehovah from Zion doth roar, And from Jerusalem giveth forth His voice, And shaken have the heavens and earth, And Jehovah is a refuge to his people, And a stronghold to sons of Israel."
+    "content": [
+      "And Jehovah from Zion doth roar, And from Jerusalem giveth forth His voice, And shaken have the heavens and earth, And Jehovah ",
+      { "text": "is", "marks": ["i"] },
+      " a refuge to his people, And a stronghold to sons of Israel."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 17,
-    "content": "And ye have known that I am Jehovah your God, Dwelling in Zion, My holy mountain, And Jerusalem hath been holy, And strangers do not pass over into it again."
+    "content": [
+      "And ye have known that I ",
+      { "text": "am", "marks": ["i"] },
+      " Jehovah your God, Dwelling in Zion, My holy mountain, And Jerusalem hath been holy, And strangers do not pass over into it again."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 18,
-    "content": "And it hath come to pass, in that day, Drop down do the mountains juice, And the hills do flow with milk, And all streams of Judah do go with water, And a fountain from the house of Jehovah goeth forth, And hath watered the valley of Shittim."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it hath come to pass, in that day, Drop down do the mountains juice, And the hills do flow "
+      },
+      { "text": "with", "marks": ["i"] },
+      " milk, And all streams of Judah do go ",
+      { "text": "with", "marks": ["i"] },
+      " water, And a fountain from the house of Jehovah goeth forth, And hath watered the valley of Shittim."
+    ]
   },
   {
     "book": "JOL",
     "chapter": 3,
     "verse": 19,
-    "content": "Egypt a desolation becometh, And Edom a desolation, a wilderness, becometh, For violence to sons of Judah, Whose innocent blood they shed in their land."
+    "content": [
+      "Egypt a desolation becometh, And Edom a desolation, a wilderness, becometh, For violence ",
+      { "text": "to", "marks": ["i"] },
+      " sons of Judah, Whose innocent blood they shed in their land."
+    ]
   },
   {
     "book": "JOL",
@@ -444,6 +579,10 @@
     "book": "JOL",
     "chapter": 3,
     "verse": 21,
-    "content": "And I have declared their blood innocent, That I did not declare innocent, And Jehovah is dwelling in Zion!"
+    "content": [
+      "And I have declared their blood innocent, ",
+      { "text": "That", "marks": ["i"] },
+      " I did not declare innocent, And Jehovah is dwelling in Zion!"
+    ]
   }
 ]
