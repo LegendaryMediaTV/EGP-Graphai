@@ -11,7 +11,10 @@
             "type": "stu",
             "content": [
               {
-                "text": "THIS LETTER of Paul to the Colossians is quoted by Justin Martyr (A.D. 140), Theophilus of Antioch (A.D. 181), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230), &c. It was sent apparently from Rome about the same time as the Letter to the Ephesians, with which it agrees in very many places.",
+                "content": [
+                  { "text": "This Letter", "marks": ["sc"] },
+                  " of Paul to the Colossians is quoted by Justin Martyr (A.D. 140), Theophilus of Antioch (A.D. 181), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230), &c. It was sent apparently from Rome about the same time as the Letter to the Ephesians, with which it agrees in very many places."
+                ],
                 "break": true
               },
               {

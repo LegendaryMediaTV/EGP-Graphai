@@ -40,11 +40,11 @@
 <sup>31</sup> unintelligent, faithless, without natural affection, implacable, unmerciful;<sup>e</sup>
 <sup>32</sup> who the righteous judgment of God having known—that those practising such things are worthy of death—not only do them, but also have delight with those practising them.
 
-> - <sup>a</sup> 1. Romans. That this Letter is the composition of the Apostle Paul has never been seriously questioned by any one, and needs not be here discussed. It was written A.D. 58, in Corinth, when Paul was about to visit Jerusalem with an offering for the poor saints, see Rom. 15. 23–28 compared with Acts 20. 2, 3; 24. 17, also 16. 21, 23 with Acts 20. 4; 1 Cor. 1. 14; and it was sent to Rome by Phebe (16. 1) a deaconess of Cenchrae, the eastern port of Corinth.<br>The strangers of Rome (Acts 2. 10) who heard the apostles on the day of Pentecost were undoubtedly the founders of the church of Christ in their native city; there is no good proof that Peter was ever at Rome, certainly not at least when Paul wrote to the church there, or he would most assuredly have given in it some indication (however slight) of his presence among the many Christian salutations he sends to it. A majority of the Christians at Rome at that date were of Jewish origin, hence the apostle’s frequent references to the Mosaic Law (unlike the Letter to the almost wholly Gentile Church of Ephesus), but still there were in it many Gentiles; see 1. 13–15; 15. 15, 16.<br>This Letter is placed first of all the Apostolic Letters because of its being longer than any of the others, of its thorough exhibition of Christian faith and practice, and of the pre-eminence of the church at Rome over all others. It was written, not in Latin, but in Greek, like all the other New Testament books, and for the same good reason, viz. that Greek was universally known. It may be divided into two great divisions, ch. i–xi chiefly _doctrinal_, and ch. xii–xvi chiefly _practical_; or into five parts, ch. i–v treating on _Justification_; ch. vi–viii on _Sanctification_; ch. ix–xi on _Calling and Rejection_; ch. xii–xv. 13 on _Christian Practice_; ch. xv. 14–xvi. 27 _the conclusion_.
+> - <sup>a</sup> 1. THAT this Letter is the composition of the Apostle Paul has never been seriously questioned by any one, and needs not be here discussed. It was written A.D. 58, in Corinth, when Paul was about to visit Jerusalem with an offering for the poor saints, see Rom. 15. 23–28 compared with Acts 20. 2, 3; 24. 17, also 16. 21, 23 with Acts 20. 4; 1 Cor. 1. 14; and it was sent to Rome by Phebe (16. 1) a deaconess of Cenchrae, the eastern port of Corinth.<br>The strangers of Rome (Acts 2. 10) who heard the apostles on the day of Pentecost were undoubtedly the founders of the church of Christ in their native city; there is no good proof that Peter was ever at Rome, certainly not at least when Paul wrote to the church there, or he would most assuredly have given in it some indication (however slight) of his presence among the many Christian salutations he sends to it. A majority of the Christians at Rome at that date were of Jewish origin, hence the apostle’s frequent references to the Mosaic Law (unlike the Letter to the almost wholly Gentile Church of Ephesus), but still there were in it many Gentiles; see 1. 13–15; 15. 15, 16.<br>This Letter is placed first of all the Apostolic Letters because of its being longer than any of the others, of its thorough exhibition of Christian faith and practice, and of the pre-eminence of the church at Rome over all others. It was written, not in Latin, but in Greek, like all the other New Testament books, and for the same good reason, viz. that Greek was universally known. It may be divided into two great divisions, ch. i–xi chiefly _doctrinal_, and ch. xii–xvi chiefly _practical_; or into five parts, ch. i–v treating on _Justification_; ch. vi–viii on _Sanctification_; ch. ix–xi on _Calling and Rejection_; ch. xii–xv. 13 on _Christian Practice_; ch. xv. 14–xvi. 27 _the conclusion_.
 > - <sup>b</sup> 1. Chapter I. May be divided into four parts; v. 1–7 Paul’s salutation; v. 8–12 thanksgiving and prayers; v. 13–18 desire to see them and proclaim the Gospel righteousness of God; v. 19–32 inexcusable vileness of the heathen.
 > - <sup>c</sup> 10. Or, _beseeching or wanting._
-> - <sup>d</sup> 22. Or, _affirming...skilful._
-> - <sup>e</sup> 31. Lit., _not sending things together,...unpoured forth, unkind._
+> - <sup>d</sup> 22. Or, _affirming…skilful._
+> - <sup>e</sup> 31. Lit., _not sending things together,…unpoured forth, unkind._
 
 ## Chapter 2
 
@@ -85,7 +85,7 @@ Therefore, thou art inexcusable, O man—every one who is judging—for in that 
 <sup>29</sup> but a Jew _is_ he who is _so_ inwardly, and circumcision _is_ of the heart, in spirit, not in letter, of which the praise is not of men, but of God.
 
 > - <sup>a</sup> 1. Chapter II. May be divided into five parts; v. 1, 2 every one self-condemned; v. 3–10 God’s forbearance and judgments on all; v. 11–16 who are judged righteously; v. 17–24 Jewish boasting and condemnation; v. 25–29 circumcision of heart better than that of letter only.
-> - <sup>b</sup> 4. Lit., _thinkest thou down upon...his benignity...benignity of...to another mind._
+> - <sup>b</sup> 4. Lit., _thinkest thou down upon…his benignity…benignity of…to another mind._
 > - <sup>c</sup> 19. Lit., _one bringing on the way._
 > - <sup>d</sup> 25. Lit., _a cutting-round._
 
@@ -135,8 +135,8 @@ What, then, _is_ the superiority of the Jew? or what the profit of the circumcis
 <sup>31</sup> Law then do we make useless through the faith? let it not be! yea, we do establish law.
 
 > - <sup>a</sup> 1. Chapter III. May be divided into five parts; v. 1, 2 the Jew’s privileges; v. 3–8 which are not made entirely useless; v. 9–18 Jew and Gentile alike wicked; v. 19, 20 by works of law none are declared just; v. 21–31 but by faith or stedfastness.
-> - <sup>b</sup> 5. Lit., _stands together with...who is bearing on the anger?_
-> - <sup>c</sup> 11. Lit., _is sending or bringing things together...earnestly seeking._
+> - <sup>b</sup> 5. Lit., _stands together with…who is bearing on the anger?_
+> - <sup>c</sup> 11. Lit., _is sending or bringing things together…earnestly seeking._
 > - <sup>d</sup> 14. Or, _execration._
 > - <sup>e</sup> 15. Or, _sharp to pour forth blood._
 > - <sup>f</sup> 24. Lit., _a thorough loosing._
@@ -342,7 +342,7 @@ There is, then, now no condemnation to those in Christ Jesus, who walk not accor
 
 > - <sup>a</sup> 1. Chapter VIII. May be divided into six parts; v. 1–4 believers free from condemnation; v. 5–14 are spiritually-minded; v. 15–17 have the spirit of sons; v. 18–25 are not disheartened; v. 26, 27 have the aid of the spirit; v. 28–39 have all things.
 > - <sup>b</sup> 23. Lit., _waiting for sonship—the full loosing of our bodies._
-> - <sup>c</sup> 38. Or, _confident...things standing in..._
+> - <sup>c</sup> 38. Or, _confident…things standing in…_
 
 ## Chapter 9
 
@@ -399,7 +399,7 @@ Truth I say in Christ, I lie not, my conscience bearing testimony with me in the
 > - <sup>c</sup> 11. Lit., _thing set forth._
 > - <sup>d</sup> 12. Lit., _greater (in age) shall be in bondage to the lesser._
 > - <sup>e</sup> 19. Or, _blame? for who has stood against his counsel, or plan of advancing one nation above another._
-> - <sup>f</sup> 29. Or, _said publicly, If the Lord of Hosts had not left behind among us a seed, we would have been...would have been made._
+> - <sup>f</sup> 29. Or, _said publicly, If the Lord of Hosts had not left behind among us a seed, we would have been…would have been made._
 
 ## Chapter 10
 
@@ -432,7 +432,7 @@ Brethren, the pleasure indeed of my heart, and my supplication that _is_ to God 
 <sup>21</sup> and unto Israel He saith, “All the day I did stretch out My hands unto a people unbelieving and gainsaying.”
 
 > - <sup>a</sup> 1. Chapter X. May be divided into four parts; v. 1–3 Paul’s desire for, and testimony of, the Jews; v. 4–13 his description of the righteousness of the law and of faith; v. 14, 15 desirableness of preaching the gospel; v. 16–21 Jewish unbelief foretold.
-> - <sup>b</sup> 5. Lit., _writeth..._
+> - <sup>b</sup> 5. Lit., _writeth…_
 
 ## Chapter 11
 
@@ -523,8 +523,8 @@ I call upon you, therefore, brethren, through the compassions of God, to present
 <sup>21</sup> Be not overcome by the evil, but overcome, in the good, the evil.
 
 > - <sup>a</sup> 1. Chapter XII. May be divided into three parts; v. 1–5 call to dedication, holiness, and lowliness; v. 6–17 mutual love and duty; v. 18–21 love of enemies.
-> - <sup>b</sup> 12. Lit., _...remaining submissive in the trouble; strong towards (God) in the pouring forth (of desires)._
-> - <sup>c</sup> 13. Lit., _having communion with the...of the holy ones; pursuing the friendship of strangers._
+> - <sup>b</sup> 12. Lit., _…remaining submissive in the trouble; strong towards (God) in the pouring forth (of desires)._
+> - <sup>c</sup> 13. Lit., _having communion with the…of the holy ones; pursuing the friendship of strangers._
 > - <sup>d</sup> 14. Lit., _speak well to those pursuing you; speak well, and curse not at all._
 
 ## Chapter 13
@@ -586,7 +586,7 @@ And him who is weak in the faith receive ye—not to determinations of reasoning
 <sup>23</sup> and he who is making a difference<sup>d</sup>, if he may eat, hath been condemned, because _it is_ not of faith; and all that _is_ not of faith is sin.
 
 > - <sup>a</sup> 1. Chapter XIV. May be divided into four parts; v. 1–9 of eating herbs and observing days; v. 10–13 Christ the only judge; v. 14, 15 nothing unclean, walking in love; v. 16–23 serving the Christ, building up one another.
-> - <sup>b</sup> 2. Lit., _one indeed believes...but he who is infirm eats (only) herbs._
+> - <sup>b</sup> 2. Lit., _one indeed believes…but he who is infirm eats (only) herbs._
 > - <sup>c</sup> 7. Lit., _dies utterly._
 > - <sup>d</sup> 23. Lit., _is judging diversely is judged down._
 

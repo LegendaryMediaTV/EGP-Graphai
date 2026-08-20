@@ -103,25 +103,25 @@
 
 > - <sup>a</sup> 1. THE GOSPEL OF LUKE was probably written about A.D. 60, by one whom all antiquity attests to have been “the beloved physician” and companion of Paul, referred to in Col. 4:14; 2 Tim. 4:11; Philemon 24. He was probably a Gentile (Col. 4:11–14), and may have been one of the 70 disciples; he writes to a Gentile, and for Gentiles, and, in the purest Greek of the New Testament, views the Saviour as THE SON OF MAN, “the glad tidings of great joy that shall be to all people.” He is quoted by Justin Martyr, A.D. 140.<br>References to the Old Testament are found in 1:17; 2:23, 24; 3:4, 5, 6; 4:4, 8, 10, 11, 18; 7:27; 8:10; 10:27; 18:20; 19:46; 20:28, 42, 43; 22:37; 23:46, &c.<br>Incidents not found in any other Gospel are mentioned in 1:1–80; 2:8–38, 40–52; 4:16–30; 7:11–17, 36–50; 8:1–3; 9:52–56; 10:1–42; 12:32–59; 13:1–17, 22–33; 14:1–14; 15; 16; 17:11–37; 18:1–14; 19:1–10; 22:24–30; 23:4–11.<br>The work may be divided into seven parts, viz:—<br>I. History of the birth and early history of John and Jesus, ch. i. ii.<br>II. Ministry of John and commencement of Jesus’ work, ch. iii–iv. 13.<br>III. Christ in Galilee till the Call of Levi, ch. iv. 14–v. 39.<br>IV. Choosing of 12 Apostles, till their return from first Mission, ch. vi. 1–ix. 17.<br>V. Foretelling of his own death till his entrance into Jerusalem, ch. ix. 18–xix. 28.<br>VI. Entry into Jerusalem till his burial, ch. xix. 29–xxiii. 56.<br>VII. His resurrection and ascension, ch. xxiv. 1–53.
 > - <sup>b</sup> 1. Chapter I. may be divided into seven parts; v. 1–4 preface; v. 5–25 Gabriel’s message to Zechariah and its realization; v. 26–38 his message to the Virgin Mary; v. 39–45 her visit to Elizabeth; v. 46–56 Mary’s song; v. 57–66 birth, and naming of John; v. 67–80 Zechariah’s song.
-> - <sup>c</sup> 2. Lit., _gave over to us, who from the beginning became themselves beholders, and under-rowers, of the Word (i.e. Christ)..._
+> - <sup>c</sup> 2. Lit., _gave over to us, who from the beginning became themselves beholders, and under-rowers, of the Word (i.e. Christ)…_
 > - <sup>d</sup> 4. Lit., _sounded thoroughly_
 > - <sup>e</sup> 6. Or, _just_
 > - <sup>f</sup> 7. Lit., _gone forward or advanced_
 > - <sup>g</sup> 9. Lit., _habitation_
-> - <sup>h</sup> 10. Lit., _fulness...pouring forth before (God)...of the perfume_
+> - <sup>h</sup> 10. Lit., _fulness…pouring forth before (God)…of the perfume_
 > - <sup>i</sup> 19. “man (_or_ power) of God”
-> - <sup>j</sup> 21. Lit., _...occupying time in the habitation (of God)_
-> - <sup>k</sup> 22. Lit., _knew fully (or by it) that,...habitation, and he was nodding fully to them, and remained entirely dumb_
+> - <sup>j</sup> 21. Lit., _…occupying time in the habitation (of God)_
+> - <sup>k</sup> 22. Lit., _knew fully (or by it) that,…habitation, and he was nodding fully to them, and remained entirely dumb_
 > - <sup>l</sup> 27. Lit., _one put beyond_
 > - <sup>m</sup> 30. Lit., _Miriam_
 > - <sup>n</sup> 36. Lit., _one of the same race or parentage_
 > - <sup>o</sup> 37. Or, _along-side of God_
-> - <sup>p</sup> 40. Lit., _drew together..._
+> - <sup>p</sup> 40. Lit., _drew together…_
 > - <sup>q</sup> 41. Lit., _nourished-life_
 > - <sup>r</sup> 46. Lit., _breathing_
 > - <sup>s</sup> 47. Lit., _was leaping-for-joy upon (the) God my saviour_
 > - <sup>t</sup> 53. Lit., _he filled fully_
-> - <sup>u</sup> 67. Lit., _...prophesied (or spake openly)..._
+> - <sup>u</sup> 67. Lit., _…prophesied (or spake openly)…_
 
 ## Chapter 2
 
@@ -198,7 +198,7 @@
 > - <sup>a</sup> 1. Chapter II. may be divided into seven parts; v. 1–7 cause of Jesus being born in Beth-lehem; v. 8–14 revealed to shepherds; v. 15–20 their joy at it; v. 21–24 his circumcision and presentation at the temple; v. 25–35 Simeon’s thanksgiving and prophecy; v. 36–39 Anna’s thanks and work; v. 40–52 Jesus with the doctors in the temple.
 > - <sup>b</sup> 4. Or, _family, or paternal descent_
 > - <sup>c</sup> 17. Or, _made (it) thoroughly known about the saying that was spoken to them concerning this boy or lad_
-> - <sup>d</sup> 28. Or, _received...spake well of God_
+> - <sup>d</sup> 28. Or, _received…spake well of God_
 > - <sup>e</sup> 37. Lit., _deprived_
 > - <sup>f</sup> 44. Or, _journeying party_
 > - <sup>g</sup> 50. Lit., _bring together_
@@ -262,7 +262,7 @@
 > - <sup>b</sup> 5. Lit., _cleft place or gulf_
 > - <sup>c</sup> 10. Lit., _crowds asked at (or “lifted up” questions upon) him_
 > - <sup>d</sup> 11. Lit., _give beyond_, i.e. out.
-> - <sup>e</sup> 12. Lit., _custom-house officers..._
+> - <sup>e</sup> 12. Lit., _custom-house officers…_
 > - <sup>f</sup> 18. Or, _calling upon_ them.
 > - <sup>g</sup> 21. Lit., _pouring forth towards (God), the heaven was opened thoroughly_
 
@@ -395,10 +395,10 @@
 > - <sup>a</sup> 1. Chapter V. may be divided into five parts; v. 1–11 miraculous draught of fishes; v. 12–16 cleansing of a leper; v. 17–26 cure of a palsy; v. 27–32 call of Levi and his entertainment; v. 33–39 fasting and its season.
 > - <sup>b</sup> 5. Lit., _one who stands over anything_
 > - <sup>c</sup> 6. Lit., _was being rent_
-> - <sup>d</sup> 9. Lit., _astonishment held him round about...taken together_ (or at once).
-> - <sup>e</sup> 14. Lit., _told him fully at the same time,...bring forward...Moses set forth_
+> - <sup>d</sup> 9. Lit., _astonishment held him round about…taken together_ (or at once).
+> - <sup>e</sup> 14. Lit., _told him fully at the same time,…bring forward…Moses set forth_
 > - <sup>f</sup> 16. Lit., _was giving space, secretly in the deserts, and pouring forth before (God)_
-> - <sup>g</sup> 27. Lit., _viewed for himself a custom-house-officer,...sitting over the custom-house..._
+> - <sup>g</sup> 27. Lit., _viewed for himself a custom-house-officer,…sitting over the custom-house…_
 > - <sup>h</sup> 31. Lit., _a healer, but those having ills_
 
 ## Chapter 6
@@ -473,9 +473,9 @@
 > - <sup>e</sup> 16. “praise, confession;” Iscariot, “man of Carioth _or_ of the city.”
 > - <sup>f</sup> 22. Lit., _mark out fully_ as with a border.
 > - <sup>g</sup> 24. Or, _hold off_
-> - <sup>h</sup> 36. Lit., _become ye pitiful...is pitiful_
+> - <sup>h</sup> 36. Lit., _become ye pitiful…is pitiful_
 > - <sup>i</sup> 39. Or, _parallel_ saying.
-> - <sup>j</sup> 41. Lit., _dry thing...mindest not fully_
+> - <sup>j</sup> 41. Lit., _dry thing…mindest not fully_
 > - <sup>k</sup> 42. Lit., _let alone, I cast forth_
 
 ## Chapter 7
@@ -551,11 +551,11 @@
 > - <sup>b</sup> 2. Lit., _very precious or weighty_
 > - <sup>c</sup> 10. Lit., _turning round secretly_
 > - <sup>d</sup> 13. Lit., _his bowels were moved over her_
-> - <sup>e</sup> 14. Lit., _...Be raised_
+> - <sup>e</sup> 14. Lit., _…Be raised_
 > - <sup>f</sup> 29. Or, _custom-house-officers_
-> - <sup>g</sup> 41. Lit., _giver had two owing necessary things...denaries_
-> - <sup>h</sup> 45. Lit., _friendship (i.e. a mark of friendship or love)...did not leave off thoroughly befriending-thoroughly my feet_
-> - <sup>i</sup> 46. Or, _smear (lit. fatten)..._
+> - <sup>g</sup> 41. Lit., _giver had two owing necessary things…denaries_
+> - <sup>h</sup> 45. Lit., _friendship (i.e. a mark of friendship or love)…did not leave off thoroughly befriending-thoroughly my feet_
+> - <sup>i</sup> 46. Or, _smear (lit. fatten)…_
 
 ## Chapter 8
 
@@ -637,12 +637,12 @@
 <sup>56</sup> and her parents were amazed<sup>i</sup>, but he charged them to say to no one what was come to pass.
 
 > - <sup>a</sup> 1. Chapter VIII. may be divided into seven parts; v. 1–3 work and companions of Jesus; v. 4–8 parable of the sower; v. 9–18 its meaning; v. 19–21 his true brethren; v. 22–25 he calms the sea; v. 26–39 cure of a demoniac and its consequences; v. 40–56 cure of an issue of blood and raising of Jairus’ daughter.
-> - <sup>b</sup> 3. “grace of Jah;” Chuza, “seeing;”...Susannah, i.e. “a lily;” who “were acting-as-deacons to him.”
+> - <sup>b</sup> 3. “grace of Jah;” Chuza, “seeing;”…Susannah, i.e. “a lily;” who “were acting-as-deacons to him.”
 > - <sup>c</sup> 3. Lit., _one upon whom things are turned over_
-> - <sup>d</sup> 24. Lit., _came near...roused him up thoroughly, saying, Master (lit. stander over), we are lost...laid a weight upon the wind and the washing of the waters,...and it became a calm (lit. smile)_
+> - <sup>d</sup> 24. Lit., _came near…roused him up thoroughly, saying, Master (lit. stander over), we are lost…laid a weight upon the wind and the washing of the waters,…and it became a calm (lit. smile)_
 > - <sup>e</sup> 41. “he gives light.”
-> - <sup>f</sup> 45. Lit., _denied with an oath or utterly...the crowds held thee fast, and press greatly_
-> - <sup>g</sup> 47. Lit., _told fully...through what_
+> - <sup>f</sup> 45. Lit., _denied with an oath or utterly…the crowds held thee fast, and press greatly_
+> - <sup>g</sup> 47. Lit., _told fully…through what_
 > - <sup>h</sup> 55. Lit., _turned round again, and she stood up along with the action (or word), and he arranged thoroughly to give her to eat_
 > - <sup>i</sup> 56. Lit., _stood out with amazement_
 
@@ -739,7 +739,7 @@
 > - <sup>a</sup> 1. Chapter IX. may be divided into eleven parts; v. 1–6 commission to the twelve disciples; v. 7–9 Herod’s desire to see Jesus; v. 10–17 feeding of 5000 men; v. 18–27 Peter’s confession and Jesus’ warning; v. 28–36 his transfiguration; v. 37–42 cure of a demoniac; v. 43–45 Jesus to be delivered up; v. 46–48 which is the greatest; v. 49, 50 true toleration; v. 51–56 rebuke of James and John; v. 57–62 the forward and the backward disciple.
 > - <sup>b</sup> 14. Lit., _as it were_
 > - <sup>c</sup> 14. Lit., _lie down_
-> - <sup>d</sup> 32. Or, _burdened...thoroughly awake_
+> - <sup>d</sup> 32. Or, _burdened…thoroughly awake_
 > - <sup>e</sup> 33. Lit., _made a thorough space_
 > - <sup>f</sup> 49. Lit., _over-stander_
 
@@ -806,10 +806,10 @@
 
 > - <sup>a</sup> 1. Chapter X. may be divided into seven parts; v. 1–16 Jesus sends forth 70 disciples; v. 17–20 their return and his congratulation; v. 21, 22 He rejoices and praises God; v. 23, 24 and the disciples; v. 25–29 shows how to inherit life; v. 30–37 who is our neighbour; v. 38–42 also the good part.
 > - <sup>b</sup> 1. Lit., _shewed fully_
-> - <sup>c</sup> 1. Lit., _sent them forth...he was himself about to go_
-> - <sup>d</sup> 13. Lit., _...long ago had a new mind_
-> - <sup>e</sup> 34. Lit., _came forward and bound fast...pouring out over (them)...to an inn (lit. place “for receiving all”), and was careful about him_
-> - <sup>f</sup> 35. Lit., _cast forth two denaries...host (lit. “receiver of all,”). Be careful about him,...spend for (him),...may come back upon thee, I will give back to thee_
+> - <sup>c</sup> 1. Lit., _sent them forth…he was himself about to go_
+> - <sup>d</sup> 13. Lit., _…long ago had a new mind_
+> - <sup>e</sup> 34. Lit., _came forward and bound fast…pouring out over (them)…to an inn (lit. place “for receiving all”), and was careful about him_
+> - <sup>f</sup> 35. Lit., _cast forth two denaries…host (lit. “receiver of all,”). Be careful about him,…spend for (him),…may come back upon thee, I will give back to thee_
 > - <sup>g</sup> 38. “bitterness _or_ lady.”
 
 ## Chapter 11
@@ -886,11 +886,11 @@
 <sup>54</sup> laying wait for him, and seeking to catch something out of his mouth, that they might accuse<sup>g</sup> him.
 
 > - <sup>a</sup> 1. Chapter XI. may be divided into six parts; v. 1–13 Jesus teaches to pray; v. 14–26 cures a dumb demoniac, and refutes his enemies; v. 27, 28 who are happy; v. 29–36 a sign sought and given; v. 37–44 reproof of the Pharisees; v. 45–54 reproof of the lawyers.
-> - <sup>b</sup> 1. Lit., _pouring forth before (God)...a certain one_
-> - <sup>c</sup> 29. Lit., _crowds were closed upon (each other)..._
+> - <sup>b</sup> 1. Lit., _pouring forth before (God)…a certain one_
+> - <sup>c</sup> 29. Lit., _crowds were closed upon (each other)…_
 > - <sup>d</sup> 35. Lit., _look about or consider_
 > - <sup>e</sup> 37. Lit., _asked that he might lunch (lit. make the “best” meal) with him, and having gone in, he reclined_, lit. fell back.
-> - <sup>f</sup> 43. Lit., _...the drawings-near (of men to salute them) in the public places_
+> - <sup>f</sup> 43. Lit., _…the drawings-near (of men to salute them) in the public places_
 > - <sup>g</sup> 54. Or, _make it public against him_
 
 ## Chapter 12
@@ -972,13 +972,13 @@
 <sup>59</sup> I say to thee, thou mayest not come forth thence till even the last mite thou mayest give back.”
 
 > - <sup>a</sup> 1. Chapter XII. may be divided into eight parts; v. 1–3 Jesus warns against hypocrisy; v. 4–12 against timidity; v. 13–21 against covetousness; v. 22–34 against anxiety; v. 35–40 exhorts to watchfulness; v. 41–48 to stedfastness; v. 49–53 result of his coming; v. 54–59 duty of discerning times.
-> - <sup>b</sup> 2. Lit., _fully covered or concealed...be uncovered_
+> - <sup>b</sup> 2. Lit., _fully covered or concealed…be uncovered_
 > - <sup>c</sup> 13. Lit., _a certain one out of the crowd, Teacher, Say to my brother, to divide with me the portion assigned by lot_
 > - <sup>d</sup> 15. Lit., _be guarding yourselves from (or because of) the having-more-than-enough_
 > - <sup>e</sup> 16. Lit., _thing cast along-side of another for comparison or contrast_
-> - <sup>f</sup> 20. Lit., _...ask from thee..._
-> - <sup>g</sup> 24. Lit., _mind thoroughly the ravens (or crows, croakers)..._
-> - <sup>h</sup> 39. Lit., _house-despot..._
+> - <sup>f</sup> 20. Lit., _…ask from thee…_
+> - <sup>g</sup> 24. Lit., _mind thoroughly the ravens (or crows, croakers)…_
+> - <sup>h</sup> 39. Lit., _house-despot…_
 > - <sup>i</sup> 52. Lit., _thoroughly-parted_
 
 ## Chapter 13
@@ -1032,8 +1032,8 @@
 <sup>35</sup> “Lo, your house is being left to you desolate, and verily I say to you—ye may not see me, till it may come, when ye may say, Blessed _is_ he who is coming in the name of the Lord.”
 
 > - <sup>a</sup> 1. Chapter XIII. may be divided into six parts; v. 1–5 Jesus warns against judging others; v. 6–9 against fruitlessness; v. 10–17 against hypocrisy in the case of an infirm woman; v. 18–21 simile of leaven; v. 22–30 warning against vain curiosity and mere profession; v. 31–35 fearlessness and sympathy of Jesus.
-> - <sup>b</sup> 1. Lit., _told him fully..._
-> - <sup>c</sup> 3. Lit., _...have a new mind..._
+> - <sup>b</sup> 1. Lit., _told him fully…_
+> - <sup>c</sup> 3. Lit., _…have a new mind…_
 > - <sup>d</sup> 13. Lit., _along with the act she was made straight again_
 > - <sup>e</sup> 15. Lit., _judge under_ a pretence.
 
@@ -1087,7 +1087,7 @@
 > - <sup>a</sup> 1. Chapter XIV. may be divided into six parts: v. 1–6 cure of a dropsical man on the sabbath; v. 7–11 warning against pride; v. 12–14 against seeking recompense; v. 15–25 who shall eat bread in the kingdom of the heavens; v. 26–33 warning against want of forethought; v. 34, 35 uselessness of unseasoned salt.
 > - <sup>b</sup> 3. Lit., _is it out of measure_
 > - <sup>c</sup> 30. Or, _had not strength to end (it) thoroughly_
-> - <sup>d</sup> 33. Lit., _setteth himself away from..._
+> - <sup>d</sup> 33. Lit., _setteth himself away from…_
 > - <sup>e</sup> 35. Lit., _well-set_
 
 ## Chapter 15
@@ -1139,9 +1139,9 @@ And all the tax-gatherers and the sinners were coming nigh to him, to hear him,
 > - <sup>a</sup> 1. Chapter XV. may be divided into four parts; v. 1, 2 Jesus receives sinners, which he vindicates by similes; v. 3–7 of a lost sheep; v. 8–10 of a lost piece of money; v. 11–32 of a lost son.
 > - <sup>b</sup> 12. Lit., _falleth upon or over_
 > - <sup>c</sup> 12. Lit., _lifted up thoroughly_
-> - <sup>d</sup> 15. Lit., _was glued..._
-> - <sup>e</sup> 23. Or, _bring in...sacrifice (it),...let us have good minds_
-> - <sup>f</sup> 29. Or, _went beyond..._
+> - <sup>d</sup> 15. Lit., _was glued…_
+> - <sup>e</sup> 23. Or, _bring in…sacrifice (it),…let us have good minds_
+> - <sup>f</sup> 29. Or, _went beyond…_
 
 ## Chapter 16
 
@@ -1187,7 +1187,7 @@ And all the tax-gatherers and the sinners were coming nigh to him, to hear him,
 > - <sup>b</sup> 10. Lit., _stedfast in few things is stedfast also in many_
 > - <sup>c</sup> 12. Lit., _become stedfast in the things of others_
 > - <sup>d</sup> 19. Lit., _well-minded every day, brilliantly_ in his own conceit.
-> - <sup>e</sup> 21. Lit., _very desirous...from the little scraps that are falling...had licked away his ulcers_
+> - <sup>e</sup> 21. Lit., _very desirous…from the little scraps that are falling…had licked away his ulcers_
 > - <sup>f</sup> 31. Lit., _may stand up_
 
 ## Chapter 17
@@ -1245,14 +1245,14 @@ And all the tax-gatherers and the sinners were coming nigh to him, to hear him,
 
 > - <sup>a</sup> 1. Chapter XVII. may be divided into four parts; v. 1–4 duty of forbearance and forgiveness; v. 5–10 power of faith; v. 11–19 cleansing of ten lepers; v. 20–37 signs of the coming of God’s reign.
 > - <sup>b</sup> 5. Lit., _set (put or place) beside us stedfastness_
-> - <sup>c</sup> 7. Lit., _straightway,...Having come near lay thyself down_
+> - <sup>c</sup> 7. Lit., _straightway,…Having come near lay thyself down_
 > - <sup>d</sup> 11. Lit., _went thoroughly through_
-> - <sup>e</sup> 13. Lit., _...one “standing over,”..._
-> - <sup>f</sup> 15. Or, _cured, turned round behind...great voice_
-> - <sup>g</sup> 16. Lit., _...rejoicing greatly_
+> - <sup>e</sup> 13. Lit., _…one “standing over,”…_
+> - <sup>f</sup> 15. Or, _cured, turned round behind…great voice_
+> - <sup>g</sup> 16. Lit., _…rejoicing greatly_
 > - <sup>h</sup> 25. Lit., _thought little of by_
 > - <sup>i</sup> 29. Or, _sulphur_; lit., _divinity_.
-> - <sup>j</sup> 31. Lit., _built place...vessels...lift it up,...turn round to the things behind_
+> - <sup>j</sup> 31. Lit., _built place…vessels…lift it up,…turn round to the things behind_
 
 ## Chapter 18
 
@@ -1319,17 +1319,17 @@ And all the tax-gatherers and the sinners were coming nigh to him, to hear him,
 <sup>43</sup> and presently he did receive sight, and was following him, glorifying God; and all the people, having seen, did give praise to God.
 
 > - <sup>a</sup> 1. Chapter XVIII. may be divided into seven parts; v. 1–8 simile of an importunate widow; v. 9–15 of a Pharisee and a custom-house-officer; v. 16–17 Jesus receives little children; v. 18–27 cure of a rich chief; v. 28–30 rewards of the reign of God; v. 31–34 Jesus foretells his death and upraising; v. 35–43 cure of a blind man.
-> - <sup>b</sup> 1. Or, _...that it is necessary always to pour forth before (God), and not to faint,” lit. retire greatly_
-> - <sup>c</sup> 8. Lit., _...find the stedfastness (of the widow seeking right) upon the land of Israel_
+> - <sup>b</sup> 1. Or, _…that it is necessary always to pour forth before (God), and not to faint,” lit. retire greatly_
+> - <sup>c</sup> 8. Lit., _…find the stedfastness (of the widow seeking right) upon the land of Israel_
 > - <sup>d</sup> 9. Lit., _upon themselves that they are just, and are thinking nothing of the rest_
 > - <sup>e</sup> 10. Lit., _pour forth before (God)_
 > - <sup>f</sup> 12. Lit., _sabbath_
-> - <sup>g</sup> 24. Lit., _...have the goods_
+> - <sup>g</sup> 24. Lit., _…have the goods_
 > - <sup>h</sup> 29. Or, _Amen_, i.e. stedfast!
-> - <sup>i</sup> 33. Lit., _death thoroughly...stand up_
-> - <sup>j</sup> 34. Lit., _sent (their heart) with none...was lying hid_
-> - <sup>k</sup> 38. Lit., _bellowed...pity me_
-> - <sup>l</sup> 41. Lit., _...I may behold again_
+> - <sup>i</sup> 33. Lit., _death thoroughly…stand up_
+> - <sup>j</sup> 34. Lit., _sent (their heart) with none…was lying hid_
+> - <sup>k</sup> 38. Lit., _bellowed…pity me_
+> - <sup>l</sup> 41. Lit., _…I may behold again_
 
 ## Chapter 19
 
@@ -1400,12 +1400,12 @@ And having said these things, he went on before, going up to Jerusalem.
 
 > - <sup>a</sup> 1. Chapter XIX. may be divided into six parts; v. 1–10 Jesus and Zacchaeus; v. 11–27 simile of the talents; v. 28–36 Jesus and the ass’ colt; v. 37–40 praises of the disciples and rebuke of the Pharisees; v. 41–44 he bewails Jerusalem; v. 45–48 purging of the temple and its results.
 > - <sup>b</sup> 6. Lit., _received him under (his roof), rejoicing_
-> - <sup>c</sup> 11. Lit., _put forward...is about along with it to be fully manifest_
-> - <sup>d</sup> 23. Lit., _silver upon the table (of the bank),...used it with produce_
+> - <sup>c</sup> 11. Lit., _put forward…is about along with it to be fully manifest_
+> - <sup>d</sup> 23. Lit., _silver upon the table (of the bank),…used it with produce_
 > - <sup>e</sup> 26. Or, _holds_, i.e. uses.
 > - <sup>f</sup> 33. Lit., _lords, masters_
-> - <sup>g</sup> 36. Lit., _...strewing-by-degrees..._
-> - <sup>h</sup> 45. Lit., _turned over...made (it) a public place_
+> - <sup>g</sup> 36. Lit., _…strewing-by-degrees…_
+> - <sup>h</sup> 45. Lit., _turned over…made (it) a public place_
 
 ## Chapter 20
 
@@ -1474,10 +1474,10 @@ And having said these things, he went on before, going up to Jerusalem.
 <sup>47</sup> who devour the houses of the widows, and for a pretence make long prayers, these shall receive more abundant judgment.”
 
 > - <sup>a</sup> 1. Chapter XX. may be divided into six parts; v. 1–8 Jesus silences the Jews; v. 9–18 simile of wicked husbandmen; v. 19–26 question about tribute; v. 27–38 about the rising of the dead; v. 39–44 David’s son and lord; v. 45–47 warning against the writers.
-> - <sup>b</sup> 1. Lit., _...writers stood over him with the presbyters_, i.e. elders.
+> - <sup>b</sup> 1. Lit., _…writers stood over him with the presbyters_, i.e. elders.
 > - <sup>c</sup> 9. Or, _parallel_ saying.
 > - <sup>d</sup> 13. Or, _doubtless they will be turned fully round_
-> - <sup>e</sup> 27. Lit., _came forward...speak against there being any rising up_
+> - <sup>e</sup> 27. Lit., _came forward…speak against there being any rising up_
 > - <sup>f</sup> 37. Lit., _upon_ — narrating the circumstance of the Bush burning.
 > - <sup>g</sup> 43. Lit., _set or put_
 
@@ -1540,9 +1540,9 @@ And having said these things, he went on before, going up to Jerusalem.
 
 > - <sup>a</sup> 1. Chapter XXI. may be divided into four parts; v. 1–4 the widow’s mite; v. 5–28 tokens of Jerusalem’s destruction; v. 29–36 its time and manner; v. 37, 38 Jesus and the people.
 > - <sup>b</sup> 1. Lit., _treasure-hold_
-> - <sup>c</sup> 15. Lit., _those set-against you...to speak-against or stand-against_
-> - <sup>d</sup> 28. Lit., _...your full-release (from Jewish superstition and bigotry) draweth nigh_
-> - <sup>e</sup> 34. Lit., _hold off for yourselves...may be burdened by (in, with) a moving of the head,...cares (lit. partings, distractions) of living,...may stand over (or fully) upon you_
+> - <sup>c</sup> 15. Lit., _those set-against you…to speak-against or stand-against_
+> - <sup>d</sup> 28. Lit., _…your full-release (from Jewish superstition and bigotry) draweth nigh_
+> - <sup>e</sup> 34. Lit., _hold off for yourselves…may be burdened by (in, with) a moving of the head,…cares (lit. partings, distractions) of living,…may stand over (or fully) upon you_
 
 ## Chapter 22
 
@@ -1646,17 +1646,17 @@ And having said these things, he went on before, going up to Jerusalem.
 <sup>71</sup> and they said, “What need yet have we of testimony? for we ourselves did hear _it_ from his mouth.”
 
 > - <sup>a</sup> 1. Chapter XXII. may be divided into ten parts; v. 1–6 Judas agrees to deliver up Jesus; v. 7–13 preparation for the passover; v. 14–23 institution of the supper; v. 24–30 who is great; v. 31–34 Jesus and Simon Peter; v. 35–38 the two swords; v. 39–46 Jesus praying and warning; v. 47–54 Jesus delivered up, but heals the cut ear, and remonstrates; v. 55–62 Peter denies him thrice; v. 63–71 Jesus abused and condemned.
-> - <sup>b</sup> 8. Lit., _sent away...Passing on, make ready for us_
+> - <sup>b</sup> 8. Lit., _sent away…Passing on, make ready for us_
 > - <sup>c</sup> 9. Lit., _dost thou wish (that) we may make ready?_
 > - <sup>d</sup> 12. Lit., _strewn_
 > - <sup>e</sup> 14. Lit., _fell down_
 > - <sup>f</sup> 15. Lit., _with full mind I was fully minded_
 > - <sup>g</sup> 17. Lit., _rejoiced greatly_
-> - <sup>h</sup> 29. Lit., _set thoroughly to you (as my Father set thoroughly to me a kingdom)..._
-> - <sup>i</sup> 30. Lit., _...that ye may eat and drink at, (lit. upon) my table, and may sit upon thrones, judging the twelve tribes of the Israel_
+> - <sup>h</sup> 29. Lit., _set thoroughly to you (as my Father set thoroughly to me a kingdom)…_
+> - <sup>i</sup> 30. Lit., _…that ye may eat and drink at, (lit. upon) my table, and may sit upon thrones, judging the twelve tribes of the Israel_
 > - <sup>j</sup> 41. Lit., _set the knees, and was pouring forth before (God)_
-> - <sup>k</sup> 45. Lit., _stood up from the pouring forth before (God),...from the grief_
-> - <sup>l</sup> 48. Or, _friendship...givest thou over_
+> - <sup>k</sup> 45. Lit., _stood up from the pouring forth before (God),…from the grief_
+> - <sup>l</sup> 48. Or, _friendship…givest thou over_
 > - <sup>m</sup> 51. “it,” i.e. the ear; it is uncertain whether Jesus addressed the crowd or the disciples, more probably the former.
 > - <sup>n</sup> 64. Lit., _covered him round_
 
@@ -1745,15 +1745,15 @@ And having said these things, he went on before, going up to Jerusalem.
 <sup>56</sup> and having turned back, they made ready spices and ointments, and on the sabbath, indeed, they rested, according to the command.
 
 > - <sup>a</sup> 1. Chapter XXIII. may be divided into six parts; v. 1–7 Jesus before Pilate; v. 8–11 before Herod; v. 12–25 condemned by Pilate and given up; v. 26–32 Jesus on the way to Calvary; v. 33–49 his crucifixion and death; v. 50–56 his burial.
-> - <sup>b</sup> 2. Lit., _make (it) public against him...this one turning the nation thoroughly-round,...burdens to Caesar_
-> - <sup>c</sup> 4. Lit., _...no cause (of punishment)_
-> - <sup>d</sup> 10. Lit., _...the writers stood (before Herod), and very extensively made (it) public against him_, that he claimed to be the Son of God—the Christ.
+> - <sup>b</sup> 2. Lit., _make (it) public against him…this one turning the nation thoroughly-round,…burdens to Caesar_
+> - <sup>c</sup> 4. Lit., _…no cause (of punishment)_
+> - <sup>d</sup> 10. Lit., _…the writers stood (before Herod), and very extensively made (it) public against him_, that he claimed to be the Son of God—the Christ.
 > - <sup>e</sup> 11. Or, _warriors thought nothing of him, and treated him entirely as a child, casting around him a shining robe_
 > - <sup>f</sup> 16. Lit., _loose him fully_
 > - <sup>g</sup> 19. Lit., _rising happening_
 > - <sup>h</sup> 30. Or, _ascents_
 > - <sup>i</sup> 45. Lit., _habitation_ of God.
-> - <sup>j</sup> 52. Lit., _...asked for himself_
+> - <sup>j</sup> 52. Lit., _…asked for himself_
 
 ## Chapter 24
 
@@ -1836,5 +1836,5 @@ And having said these things, he went on before, going up to Jerusalem.
 
 > - <sup>a</sup> 1. Chapter XXIV. may be divided into six parts; v. 1–7 the women are informed of Jesus’ rising; v. 8–12 Peter visits the tomb; v. 13–32 Jesus appears to two disciples; v. 23–44 and to the eleven; v. 45–49 he explains to them the Writings; v. 50–53 he blesses them and is borne up to heaven.
 > - <sup>b</sup> 4. Lit., _thoroughly passageless_
-> - <sup>c</sup> 33. Lit., _...thronged together_
-> - <sup>d</sup> 52. Lit., _having kissed forward (the hand) to him..._
+> - <sup>c</sup> 33. Lit., _…thronged together_
+> - <sup>d</sup> 52. Lit., _having kissed forward (the hand) to him…_

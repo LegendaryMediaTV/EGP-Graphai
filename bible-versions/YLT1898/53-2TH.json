@@ -11,7 +11,10 @@
             "type": "stu",
             "content": [
               {
-                "text": "2 Thessalonians. THIS SECOND LETTER was written by Paul, Timotheus, and Silvanus, apparently a few months after the first, at Corinth, A.D. 53, in the 12th year of Claudius. It is quoted or referred to by Polycarp (A.D. 108), Justin Martyr (A.D. 140), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 192), Tertullian (A.D. 192), &c.",
+                "content": [
+                  { "text": "This Second Letter", "marks": ["sc"] },
+                  " was written by Paul, Timotheus, and Silvanus, apparently a few months after the first, at Corinth, A.D. 53, in the 12th year of Claudius. It is quoted or referred to by Polycarp (A.D. 108), Justin Martyr (A.D. 140), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 192), Tertullian (A.D. 192), &c."
+                ],
                 "break": true
               },
               {

@@ -39,11 +39,11 @@
 <sup>29</sup> because to you it was granted, on behalf of Christ, not only to believe in him, but also on behalf of him to suffer;
 <sup>30</sup> the same conflict having, such as ye saw in me, and now hear of in me.
 
-> - <sup>a</sup> 1. Philippians. PHILIPPI was the "first city" of Macedonia visited by Paul (Acts 16. 6–12) in A.D. 50. Its original name was Datos, but Philip, father of Alexander, gave it his own name when he rebuilt and fortified it. Paul visited it a second, if not a third, time (Acts 20. 1–6), and was once and again helped by the liberality of the assembly he formed there (Phil. 2. 25; 4. 10, 14–18; 2 Cor. 11. 9), to which he addressed this Letter, which is quoted by Polycarp (A.D. 108), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Marcion (A.D. 140), the Churches of Vienna and Lyons (A.D. 177), Cyprian (A.D. 248), Eusebius (A.D. 320), &c. It was written when Paul was a prisoner in Rome (1. 7, 13; 4. 22), probably in A.D. 63, and sent by the hands of Epaphroditus, who had been sent to him from Philippi with their gifts.<br>The object of the Letter is five-fold; _first_, to express thanks to God and love to them, with confidence in them and the Spirit (ch. i. 1–26); _second_, to exhort them to perseverance, love, humility, working with God, blamelessness (ch. i. 27–ii. 18); _third_, to encourage them and himself by the presence of Timothy and Epaphroditus (v. 19–30); _fourth_, to avoid Judaizing, and press close to Christ (iii. 1–21): _fifth_, special and general exhortations, congratulations, salutations, (iv. 1–23).<br>Old Testament references are to Ps. 22. 6; 55. 22; Isa. 40. 23; 56. 10; Jer. 9. 23, 24; Da. 9. 26, &c.
+> - <sup>a</sup> 1. PHILIPPI was the “first city” of Macedonia visited by Paul (Acts 16. 6–12) in A.D. 50. Its original name was Datos, but Philip, father of Alexander, gave it his own name when he rebuilt and fortified it. Paul visited it a second, if not a third, time (Acts 20. 1–6), and was once and again helped by the liberality of the assembly he formed there (Phil. 2. 25; 4. 10, 14–18; 2 Cor. 11. 9), to which he addressed this Letter, which is quoted by Polycarp (A.D. 108), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Marcion (A.D. 140), the Churches of Vienna and Lyons (A.D. 177), Cyprian (A.D. 248), Eusebius (A.D. 320), &c. It was written when Paul was a prisoner in Rome (1. 7, 13; 4. 22), probably in A.D. 63, and sent by the hands of Epaphroditus, who had been sent to him from Philippi with their gifts.<br>The object of the Letter is five-fold; _first_, to express thanks to God and love to them, with confidence in them and the Spirit (ch. i. 1–26); _second_, to exhort them to perseverance, love, humility, working with God, blamelessness (ch. i. 27–ii. 18); _third_, to encourage them and himself by the presence of Timothy and Epaphroditus (v. 19–30); _fourth_, to avoid Judaizing, and press close to Christ (iii. 1–21): _fifth_, special and general exhortations, congratulations, salutations, (iv. 1–23).<br>Old Testament references are to Ps. 22. 6; 55. 22; Isa. 40. 23; 56. 10; Jer. 9. 23, 24; Da. 9. 26, &c.
 > - <sup>b</sup> 1. Chapter I. may be divided into eight parts; v. 1, 2 salutation; v. 3–7 thanksgiving for them; v. 8–11 love to them; v. 12–14 encouraging news; v. 15–18 joy in proclamation of the gospel; v. 19–21 confidence in them and the Spirit; v. 22–26 a strait between two; v. 27–30 exhortation to persevere.
 > - <sup>c</sup> 2. Lit., _what causes leaping for joy._
-> - <sup>d</sup> 22. Lit., _the living in flesh this is to me a fruit of work...choose (lit. lift up) I know not,_
-> - <sup>e</sup> 28. Lit., _by those set over against...token (or inward sign) of a full loss...from God._
+> - <sup>d</sup> 22. Lit., _the living in flesh this is to me a fruit of work…choose (lit. lift up) I know not,_
+> - <sup>e</sup> 28. Lit., _by those set over against…token (or inward sign) of a full loss…from God._
 
 ## Chapter 2
 
@@ -83,8 +83,8 @@
 <sup>30</sup> because on account of the work of the Christ he drew near to death, having hazarded the life that he might fill up your deficiency of service unto me.
 
 > - <sup>a</sup> 1. Chapter II. may be divided into six parts; v. 1–4 exhortation to love and humility; v. 5–11 Christ’s humility and exaltation: v. 12, 13 work with God; v. 14–18 to be cheerful, blameless, life-giving; v. 19–24 character of Timotheus; v. 25–30 reasons for sending Epaphroditus.
-> - <sup>b</sup> 3. Lit., _nothing according to...but with lowly-mindedness esteeming one another as being above yourselves._
-> - <sup>c</sup> 14. Lit., _apart from...diverse reasonings._
+> - <sup>b</sup> 3. Lit., _nothing according to…but with lowly-mindedness esteeming one another as being above yourselves._
+> - <sup>c</sup> 14. Lit., _apart from…diverse reasonings._
 
 ## Chapter 3
 
@@ -155,8 +155,8 @@
 
 > - <sup>a</sup> 1. Chapter IV. may be divided into four parts; v. 1–9 special and general exhortations; v. 10–12 Paul’s contentment; v. 13–20 their gifts and his prayer; v. 21–23 mutual salutations.
 > - <sup>b</sup> 2. Lit., _call upon,_
-> - <sup>c</sup> 5. Lit., _much yieldingness...is nigh._
-> - <sup>d</sup> 6. Lit., _divided (in mind)...by the pouring forth before (God), and the supplication, with much leaping for joy._
+> - <sup>c</sup> 5. Lit., _much yieldingness…is nigh._
+> - <sup>d</sup> 6. Lit., _divided (in mind)…by the pouring forth before (God), and the supplication, with much leaping for joy._
 > - <sup>e</sup> 21. Lit., _draw ye near every hallowed one._
 > - <sup>f</sup> 21. Lit., _draw you near._
 > - <sup>g</sup> 22. Lit., _hallowed ones draw you near, but especially those of Caesar’s house._

@@ -12,7 +12,8 @@
             "content": [
               {
                 "content": [
-                  "THE GOSPEL OF LUKE was probably written about A.D. 60, by one whom all antiquity attests to have been “the beloved physician” and companion of Paul, referred to in ",
+                  { "text": "The Gospel of Luke", "marks": ["sc"] },
+                  " was probably written about A.D. 60, by one whom all antiquity attests to have been “the beloved physician” and companion of Paul, referred to in ",
                   { "bibleLink": "Colossians 4:14", "content": "Col. 4:14" },
                   "; ",
                   { "bibleLink": "2 Timothy 4:11", "content": "2 Tim. 4:11" },
@@ -208,7 +209,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "gave over to us, who from the beginning became themselves beholders, and under-rowers, of the Word (i.e. Christ)...",
+            "text": "gave over to us, who from the beginning became themselves beholders, and under-rowers, of the Word (i.e. Christ)…",
             "marks": ["i"]
           }
         ]
@@ -323,7 +324,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "fulness...pouring forth before (God)...of the perfume",
+            "text": "fulness…pouring forth before (God)…of the perfume",
             "marks": ["i"]
           }
         ]
@@ -422,7 +423,7 @@
             "content": [
               "Lit., ",
               {
-                "text": "...occupying time in the habitation (of God)",
+                "text": "…occupying time in the habitation (of God)",
                 "marks": ["i"]
               }
             ]
@@ -443,7 +444,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "knew fully (or by it) that,...habitation, and he was nodding fully to them, and remained entirely dumb",
+            "text": "knew fully (or by it) that,…habitation, and he was nodding fully to them, and remained entirely dumb",
             "marks": ["i"]
           }
         ]
@@ -633,7 +634,7 @@
         "text": "saluted",
         "foot": {
           "type": "trn",
-          "content": ["Lit., ", { "text": "drew together...", "marks": ["i"] }]
+          "content": ["Lit., ", { "text": "drew together…", "marks": ["i"] }]
         }
       },
       " Elisabeth."
@@ -916,7 +917,7 @@
               "type": "trn",
               "content": [
                 "Lit., ",
-                { "text": "...prophesied (or spake openly)...", "marks": ["i"] }
+                { "text": "…prophesied (or spake openly)…", "marks": ["i"] }
               ]
             }
           },
@@ -1305,7 +1306,7 @@
         "type": "trn",
         "content": [
           "Or, ",
-          { "text": "received...spake well of God", "marks": ["i"] }
+          { "text": "received…spake well of God", "marks": ["i"] }
         ]
       }
     }
@@ -1704,7 +1705,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "custom-house officers...", "marks": ["i"] }
+            { "text": "custom-house officers…", "marks": ["i"] }
           ]
         }
       },
@@ -2696,7 +2697,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "astonishment held him round about...taken together",
+            "text": "astonishment held him round about…taken together",
             "marks": ["i"]
           },
           " (or at once)."
@@ -2761,7 +2762,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "told him fully at the same time,...bring forward...Moses set forth",
+              "text": "told him fully at the same time,…bring forward…Moses set forth",
               "marks": ["i"]
             }
           ]
@@ -2892,7 +2893,7 @@
               "content": [
                 "Lit., ",
                 {
-                  "text": "viewed for himself a custom-house-officer,...sitting over the custom-house...",
+                  "text": "viewed for himself a custom-house-officer,…sitting over the custom-house…",
                   "marks": ["i"]
                 }
               ]
@@ -3459,7 +3460,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "become ye pitiful...is pitiful", "marks": ["i"] }
+            { "text": "become ye pitiful…is pitiful", "marks": ["i"] }
           ]
         }
       },
@@ -3535,7 +3536,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "dry thing...mindest not fully", "marks": ["i"] }
+            { "text": "dry thing…mindest not fully", "marks": ["i"] }
           ]
         }
       },
@@ -3831,7 +3832,7 @@
         "marks": ["woc"],
         "foot": {
           "type": "trn",
-          "content": ["Lit., ", { "text": "...Be raised", "marks": ["i"] }]
+          "content": ["Lit., ", { "text": "…Be raised", "marks": ["i"] }]
         }
       },
       { "text": ";”", "marks": ["woc"] }
@@ -4093,7 +4094,7 @@
             "content": [
               "Lit., ",
               {
-                "text": "giver had two owing necessary things...denaries",
+                "text": "giver had two owing necessary things…denaries",
                 "marks": ["i"]
               }
             ]
@@ -4154,7 +4155,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "friendship (i.e. a mark of friendship or love)...did not leave off thoroughly befriending-thoroughly my feet",
+              "text": "friendship (i.e. a mark of friendship or love)…did not leave off thoroughly befriending-thoroughly my feet",
               "marks": ["i"]
             }
           ]
@@ -4181,7 +4182,7 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "smear (lit. fatten)...", "marks": ["i"] }
+            { "text": "smear (lit. fatten)…", "marks": ["i"] }
           ]
         }
       },
@@ -4284,7 +4285,7 @@
         "text": "Joanna",
         "foot": {
           "type": "stu",
-          "content": "“grace of Jah;” Chuza, “seeing;”...Susannah, i.e. “a lily;” who “were acting-as-deacons to him.”"
+          "content": "“grace of Jah;” Chuza, “seeing;”…Susannah, i.e. “a lily;” who “were acting-as-deacons to him.”"
         }
       },
       " wife of Chuza, ",
@@ -4509,7 +4510,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "came near...roused him up thoroughly, saying, Master (lit. stander over), we are lost...laid a weight upon the wind and the washing of the waters,...and it became a calm (lit. smile)",
+            "text": "came near…roused him up thoroughly, saying, Master (lit. stander over), we are lost…laid a weight upon the wind and the washing of the waters,…and it became a calm (lit. smile)",
             "marks": ["i"]
           }
         ]
@@ -4703,7 +4704,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "denied with an oath or utterly...the crowds held thee fast, and press greatly",
+              "text": "denied with an oath or utterly…the crowds held thee fast, and press greatly",
               "marks": ["i"]
             }
           ]
@@ -4740,7 +4741,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "told fully...through what", "marks": ["i"] }
+            { "text": "told fully…through what", "marks": ["i"] }
           ]
         }
       },
@@ -5180,7 +5181,7 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "burdened...thoroughly awake", "marks": ["i"] }
+            { "text": "burdened…thoroughly awake", "marks": ["i"] }
           ]
         }
       },
@@ -5524,7 +5525,7 @@
               "content": [
                 "Lit., ",
                 {
-                  "text": "sent them forth...he was himself about to go",
+                  "text": "sent them forth…he was himself about to go",
                   "marks": ["i"]
                 }
               ]
@@ -5662,7 +5663,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...long ago had a new mind", "marks": ["i"] }
+            { "text": "…long ago had a new mind", "marks": ["i"] }
           ]
         }
       },
@@ -5894,7 +5895,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "came forward and bound fast...pouring out over (them)...to an inn (lit. place “for receiving all”), and was careful about him",
+            "text": "came forward and bound fast…pouring out over (them)…to an inn (lit. place “for receiving all”), and was careful about him",
             "marks": ["i"]
           }
         ]
@@ -5913,7 +5914,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "cast forth two denaries...host (lit. “receiver of all,”). Be careful about him,...spend for (him),...may come back upon thee, I will give back to thee",
+            "text": "cast forth two denaries…host (lit. “receiver of all,”). Be careful about him,…spend for (him),…may come back upon thee, I will give back to thee",
             "marks": ["i"]
           }
         ]
@@ -6037,7 +6038,7 @@
               "content": [
                 "Lit., ",
                 {
-                  "text": "pouring forth before (God)...a certain one",
+                  "text": "pouring forth before (God)…a certain one",
                   "marks": ["i"]
                 }
               ]
@@ -6329,7 +6330,7 @@
               "content": [
                 "Lit., ",
                 {
-                  "text": "crowds were closed upon (each other)...",
+                  "text": "crowds were closed upon (each other)…",
                   "marks": ["i"]
                 }
               ]
@@ -6524,7 +6525,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "...the drawings-near (of men to salute them) in the public places",
+              "text": "…the drawings-near (of men to salute them) in the public places",
               "marks": ["i"]
             }
           ]
@@ -6701,7 +6702,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "fully covered or concealed...be uncovered",
+              "text": "fully covered or concealed…be uncovered",
               "marks": ["i"]
             }
           ]
@@ -6939,10 +6940,7 @@
         "marks": ["woc"],
         "foot": {
           "type": "trn",
-          "content": [
-            "Lit., ",
-            { "text": "...ask from thee...", "marks": ["i"] }
-          ]
+          "content": ["Lit., ", { "text": "…ask from thee…", "marks": ["i"] }]
         }
       },
       {
@@ -6999,7 +6997,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "mind thoroughly the ravens (or crows, croakers)...",
+              "text": "mind thoroughly the ravens (or crows, croakers)…",
               "marks": ["i"]
             }
           ]
@@ -7156,7 +7154,7 @@
         "marks": ["woc"],
         "foot": {
           "type": "trn",
-          "content": ["Lit., ", { "text": "house-despot...", "marks": ["i"] }]
+          "content": ["Lit., ", { "text": "house-despot…", "marks": ["i"] }]
         }
       },
       {
@@ -7411,7 +7409,7 @@
               "type": "trn",
               "content": [
                 "Lit., ",
-                { "text": "told him fully...", "marks": ["i"] }
+                { "text": "told him fully…", "marks": ["i"] }
               ]
             }
           },
@@ -7443,10 +7441,7 @@
         "marks": ["woc"],
         "foot": {
           "type": "trn",
-          "content": [
-            "Lit., ",
-            { "text": "...have a new mind...", "marks": ["i"] }
-          ]
+          "content": ["Lit., ", { "text": "…have a new mind…", "marks": ["i"] }]
         }
       },
       { "text": ", all ye even so shall perish.", "marks": ["woc"] }
@@ -8169,7 +8164,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "setteth himself away from...", "marks": ["i"] }
+            { "text": "setteth himself away from…", "marks": ["i"] }
           ]
         }
       },
@@ -8401,7 +8396,7 @@
         "marks": ["woc"],
         "foot": {
           "type": "trn",
-          "content": ["Lit., ", { "text": "was glued...", "marks": ["i"] }]
+          "content": ["Lit., ", { "text": "was glued…", "marks": ["i"] }]
         }
       },
       {
@@ -8488,7 +8483,7 @@
           "content": [
             "Or, ",
             {
-              "text": "bring in...sacrifice (it),...let us have good minds",
+              "text": "bring in…sacrifice (it),…let us have good minds",
               "marks": ["i"]
             }
           ]
@@ -8555,7 +8550,7 @@
         "marks": ["woc"],
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "went beyond...", "marks": ["i"] }]
+          "content": ["Or, ", { "text": "went beyond…", "marks": ["i"] }]
         }
       },
       {
@@ -8883,7 +8878,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "very desirous...from the little scraps that are falling...had licked away his ulcers",
+            "text": "very desirous…from the little scraps that are falling…had licked away his ulcers",
             "marks": ["i"]
           }
         ]
@@ -9103,7 +9098,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "straightway,...Having come near lay thyself down",
+              "text": "straightway,…Having come near lay thyself down",
               "marks": ["i"]
             }
           ]
@@ -9186,7 +9181,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...one “standing over,”...", "marks": ["i"] }
+            { "text": "…one “standing over,”…", "marks": ["i"] }
           ]
         }
       },
@@ -9218,7 +9213,7 @@
         "type": "trn",
         "content": [
           "Or, ",
-          { "text": "cured, turned round behind...great voice", "marks": ["i"] }
+          { "text": "cured, turned round behind…great voice", "marks": ["i"] }
         ]
       }
     }
@@ -9237,7 +9232,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...rejoicing greatly", "marks": ["i"] }
+            { "text": "…rejoicing greatly", "marks": ["i"] }
           ]
         }
       },
@@ -9440,7 +9435,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "built place...vessels...lift it up,...turn round to the things behind",
+            "text": "built place…vessels…lift it up,…turn round to the things behind",
             "marks": ["i"]
           }
         ]
@@ -9546,7 +9541,7 @@
           "content": [
             "Or, ",
             {
-              "text": "...that it is necessary always to pour forth before (God), and not to faint,” lit. retire greatly",
+              "text": "…that it is necessary always to pour forth before (God), and not to faint,” lit. retire greatly",
               "marks": ["i"]
             }
           ]
@@ -9629,7 +9624,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "...find the stedfastness (of the widow seeking right) upon the land of Israel",
+              "text": "…find the stedfastness (of the widow seeking right) upon the land of Israel",
               "marks": ["i"]
             }
           ]
@@ -9832,7 +9827,7 @@
               "type": "trn",
               "content": [
                 "Lit., ",
-                { "text": "...have the goods", "marks": ["i"] }
+                { "text": "…have the goods", "marks": ["i"] }
               ]
             }
           },
@@ -9954,7 +9949,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "death thoroughly...stand up", "marks": ["i"] }
+            { "text": "death thoroughly…stand up", "marks": ["i"] }
           ]
         }
       },
@@ -9972,7 +9967,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "sent (their heart) with none...was lying hid",
+            "text": "sent (their heart) with none…was lying hid",
             "marks": ["i"]
           }
         ]
@@ -10013,10 +10008,7 @@
         "text": "cried out",
         "foot": {
           "type": "trn",
-          "content": [
-            "Lit., ",
-            { "text": "bellowed...pity me", "marks": ["i"] }
-          ]
+          "content": ["Lit., ", { "text": "bellowed…pity me", "marks": ["i"] }]
         }
       },
       ", saying, “Jesus, Son of David, deal kindly with me;”"
@@ -10048,7 +10040,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...I may behold again", "marks": ["i"] }
+            { "text": "…I may behold again", "marks": ["i"] }
           ]
         }
       },
@@ -10207,7 +10199,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "put forward...is about along with it to be fully manifest",
+            "text": "put forward…is about along with it to be fully manifest",
             "marks": ["i"]
           }
         ]
@@ -10329,7 +10321,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "silver upon the table (of the bank),...used it with produce",
+            "text": "silver upon the table (of the bank),…used it with produce",
             "marks": ["i"]
           }
         ]
@@ -10478,7 +10470,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...strewing-by-degrees...", "marks": ["i"] }
+            { "text": "…strewing-by-degrees…", "marks": ["i"] }
           ]
         }
       },
@@ -10575,7 +10567,7 @@
               "content": [
                 "Lit., ",
                 {
-                  "text": "turned over...made (it) a public place",
+                  "text": "turned over…made (it) a public place",
                   "marks": ["i"]
                 }
               ]
@@ -10646,7 +10638,7 @@
               "content": [
                 "Lit., ",
                 {
-                  "text": "...writers stood over him with the presbyters",
+                  "text": "…writers stood over him with the presbyters",
                   "marks": ["i"]
                 },
                 ", i.e. elders."
@@ -10960,7 +10952,7 @@
               "content": [
                 "Lit., ",
                 {
-                  "text": "came forward...speak against there being any rising up",
+                  "text": "came forward…speak against there being any rising up",
                   "marks": ["i"]
                 }
               ]
@@ -11356,7 +11348,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "those set-against you...to speak-against or stand-against",
+            "text": "those set-against you…to speak-against or stand-against",
             "marks": ["i"]
           }
         ]
@@ -11498,7 +11490,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "...your full-release (from Jewish superstition and bigotry) draweth nigh",
+              "text": "…your full-release (from Jewish superstition and bigotry) draweth nigh",
               "marks": ["i"]
             }
           ]
@@ -11566,7 +11558,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "hold off for yourselves...may be burdened by (in, with) a moving of the head,...cares (lit. partings, distractions) of living,...may stand over (or fully) upon you",
+            "text": "hold off for yourselves…may be burdened by (in, with) a moving of the head,…cares (lit. partings, distractions) of living,…may stand over (or fully) upon you",
             "marks": ["i"]
           }
         ]
@@ -11710,7 +11702,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "sent away...Passing on, make ready for us",
+              "text": "sent away…Passing on, make ready for us",
               "marks": ["i"]
             }
           ]
@@ -11980,7 +11972,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "set thoroughly to you (as my Father set thoroughly to me a kingdom)...",
+            "text": "set thoroughly to you (as my Father set thoroughly to me a kingdom)…",
             "marks": ["i"]
           }
         ]
@@ -11999,7 +11991,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "...that ye may eat and drink at, (lit. upon) my table, and may sit upon thrones, judging the twelve tribes of the Israel",
+            "text": "…that ye may eat and drink at, (lit. upon) my table, and may sit upon thrones, judging the twelve tribes of the Israel",
             "marks": ["i"]
           }
         ]
@@ -12175,7 +12167,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "stood up from the pouring forth before (God),...from the grief",
+              "text": "stood up from the pouring forth before (God),…from the grief",
               "marks": ["i"]
             }
           ]
@@ -12224,7 +12216,7 @@
               "type": "trn",
               "content": [
                 "Or, ",
-                { "text": "friendship...givest thou over", "marks": ["i"] }
+                { "text": "friendship…givest thou over", "marks": ["i"] }
               ]
             }
           },
@@ -12487,7 +12479,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "make (it) public against him...this one turning the nation thoroughly-round,...burdens to Caesar",
+            "text": "make (it) public against him…this one turning the nation thoroughly-round,…burdens to Caesar",
             "marks": ["i"]
           }
         ]
@@ -12517,7 +12509,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...no cause (of punishment)", "marks": ["i"] }
+            { "text": "…no cause (of punishment)", "marks": ["i"] }
           ]
         }
       },
@@ -12573,7 +12565,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "...the writers stood (before Herod), and very extensively made (it) public against him",
+            "text": "…the writers stood (before Herod), and very extensively made (it) public against him",
             "marks": ["i"]
           },
           ", that he claimed to be the Son of God—the Christ."
@@ -12979,7 +12971,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...asked for himself", "marks": ["i"] }
+            { "text": "…asked for himself", "marks": ["i"] }
           ]
         }
       },
@@ -13296,7 +13288,7 @@
               "type": "trn",
               "content": [
                 "Lit., ",
-                { "text": "...thronged together", "marks": ["i"] }
+                { "text": "…thronged together", "marks": ["i"] }
               ]
             }
           },
@@ -13478,7 +13470,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "having kissed forward (the hand) to him...",
+              "text": "having kissed forward (the hand) to him…",
               "marks": ["i"]
             }
           ]

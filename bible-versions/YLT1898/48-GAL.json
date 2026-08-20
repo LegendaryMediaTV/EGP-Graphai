@@ -10,7 +10,8 @@
           "foot": {
             "type": "stu",
             "content": [
-              "Galatians. THAT this Letter was written by the apostle Paul is (and has always been) universally acknowledged; it was quoted by Clement (of Rome), Hermas, Ignatius, and Polycarp, A.D. 100, and was declared authentic by Irenaeus, A.D. 178, Clement (of Alexandria), A.D. 194, Tertullian, A.D. 200, Caius (of Rome), A.D. 200, Origen, A.D. 230, and even by Marcion, A.D. 175. It was probably written at Ephesus (",
+              { "text": "That", "marks": ["sc"] },
+              " this Letter was written by the apostle Paul is (and has always been) universally acknowledged; it was quoted by Clement (of Rome), Hermas, Ignatius, and Polycarp, A.D. 100, and was declared authentic by Irenaeus, A.D. 178, Clement (of Alexandria), A.D. 194, Tertullian, A.D. 200, Caius (of Rome), A.D. 200, Origen, A.D. 230, and even by Marcion, A.D. 175. It was probably written at Ephesus (",
               { "bibleLink": "Acts 18:23", "content": "Acts 18. 23" },
               "; ",
               { "bibleLink": "Acts 19:1", "content": "19. 1" },
@@ -278,7 +279,7 @@
         "text": "enquire about Peter, and remained with him",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "know...remained on", "marks": ["i"] }]
+          "content": ["Or, ", { "text": "know…remained on", "marks": ["i"] }]
         }
       },
       " fifteen days,"
@@ -362,7 +363,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "according to an uncovering (of God’s will)...",
+              "text": "according to an uncovering (of God’s will)…",
               "marks": ["i"]
             }
           ]
@@ -411,7 +412,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "yielded...remain thoroughly toward you", "marks": ["i"] }
+            { "text": "yielded…remain thoroughly toward you", "marks": ["i"] }
           ]
         }
       },
@@ -481,7 +482,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "also judged under along with him...led away along with them in the under-judgment",
+              "text": "also judged under along with him…led away along with them in the under-judgment",
               "marks": ["i"]
             }
           ]
@@ -715,7 +716,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "out of law...out of promise, but God has graciously given...through promise",
+              "text": "out of law…out of promise, but God has graciously given…through promise",
               "marks": ["i"]
             }
           ]
@@ -1294,7 +1295,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...calling forward one another...", "marks": ["i"] }
+            { "text": "…calling forward one another…", "marks": ["i"] }
           ]
         }
       },
@@ -1364,7 +1365,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...deceiveth his own mind", "marks": ["i"] }
+            { "text": "…deceiveth his own mind", "marks": ["i"] }
           ]
         }
       },

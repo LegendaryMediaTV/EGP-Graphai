@@ -26,7 +26,7 @@ A revelation<sup>c</sup> of Jesus Christ<sup>d</sup>, that God gave to him, to s
 <sup>19</sup> “Write the things that thou hast seen, and the things that are, and the things that are about to come after these things;
 <sup>20</sup> the secret of the seven stars that thou hast seen upon my right hand, and the seven golden lamp-stands: the seven stars are messengers of the seven assemblies, and the seven lampstands that thou hast seen are seven assemblies.
 
-> - <sup>a</sup> 1. Revelation. This book is not quoted by any Christian writer till the time of Justin Martyr (A.D. 140), who expressly declares it to be the work of “John, one of the apostles of Christ;” Melito (A.D. 171), is said by Eusebius to have written a Commentary on it; Theophilus (A.D. 160–180) is said by the same to have quoted Rev. 12. 9 in answer to a heretic; Apollonius (A.D. 186) is also said to have quoted it in his public Apology; Irenaeus (A.D. 175) quotes it twenty times; Clement of Alexandria (A.D. 192–220) alludes to it four times; Tertullian (A.D. 200) everywhere quotes it, and so does Hippolytus, Origen, &c. Papias, a hearer of the apostle John, and father of millenarianism, wrote (about A.D. 110–116) a book unfortunately now lost, referring to it. About A.D. 200 doubts regarding the authorship and the public utility of the Book began to rise; some attributed it (most gratuitously) to “John the Presbyter,” others refused to read it publicly in the churches. These doubts arose entirely from the absurdities foisted upon it by millenarians, and the want of proper principles of interpretation. It is wanting in the Peshito Syriac Version, but is often quoted by Ephraim Syrus (A.D. 300–375) in his Syriac Commentaries.<br>It was written in Patmos (about A.D. 68), whither John had been banished by Domitius Nero, as stated in the title of the Syriac Version of the Book; and with this concurs the express statement of Irenaeus (A.D. 175), who says it happened in the reign “Domitianou,” i.e. Domitius (Nero). Sulpicius Severus, Orosius, &c., stupidly mistaking Domitianou for Domitianikos, supposed Irenaeus to refer to Domitian, A.D. 95, and most succeeding writers have fallen into the same blunder. The internal testimony is wholly in favour of the earlier date. The temple at Jerusalem was still standing (ch. 11. 1–10); the exact duration of the siege is foretold, viz., 42 months, 3½ years, or 1260 days; the two witnesses are to be slain in the city where our Lord was crucified; Nero was reigning at that time, for it is said of the seven kings of Rome; “five are fallen, and one is, and the other is not yet come, and when he cometh, he must continue a short space.” The five kings are Julius Caesar, Augustus, Tiberius, Caligula, Claudius. The “one who is” is Nero; the one who “must continue a short space” is Galba, who reigned only seven months. Everywhere the events are “to come quickly,” _lit._ “with haste,” _or_ speed (ch. 1. 1; 2. 16; 3. 11; 11. 14; 22. 7, 12, 20). The escape of the Christian Jews from Jerusalem to Pella is undoubtedly referred to in ch. 7. 1–8, compared with Mat. 24. 30.<br>The Book may be divided into three parts; 1) the Prefatory Matter; 2) the Principal Visions; and 3) the Conclusion of the Whole.<br>I. The Prefatory Matter occupies ch. i. ii. iii. viz.—<br>i. Introductory manifestation of Christ.<br>ii. iii. His Addresses to seven Churches.<br>II. The Principal Visions occupy ch. iv–xx. viz.—<br>iv. v. Introductory manifestations.<br>vi.–xi. First Catastrophe, describing the Overthrow of Judaism, as the first great enemy of Christianity.<br>xii–xix. Second Catastrophe, describing the overthrow of Paganism, as the second great enemy.<br>xx. Third Catastrophe, describing the Overthrow of all Future Enemies, of whatever kind, and age, they may be.<br>III. The Conclusion occupies ch. xxi. xxii. describing the future glory of the church on earth, with a last warning.<br>This book is full of symbols and imagery taken from earthly kingdoms and events to typify the spiritual struggles of the church with the opposing powers of Judaism and Paganism in the first place, and with all contrary principles that may rise hereafter, in any age, or country. It must be interpreted on the same principles as Psalm ii. xvi. xviii. xlv. cx. Song of Songs, Isa. xiii. xiv. and the whole book of Ezekiel, and is thus fitted for all ages alike.
+> - <sup>a</sup> 1. THIS BOOK is not quoted by any Christian writer till the time of Justin Martyr (A.D. 140), who expressly declares it to be the work of “John, one of the apostles of Christ;” Melito (A.D. 171), is said by Eusebius to have written a Commentary on it; Theophilus (A.D. 160–180) is said by the same to have quoted Rev. 12. 9 in answer to a heretic; Apollonius (A.D. 186) is also said to have quoted it in his public Apology; Irenaeus (A.D. 175) quotes it twenty times; Clement of Alexandria (A.D. 192–220) alludes to it four times; Tertullian (A.D. 200) everywhere quotes it, and so does Hippolytus, Origen, &c. Papias, a hearer of the apostle John, and father of millenarianism, wrote (about A.D. 110–116) a book unfortunately now lost, referring to it. About A.D. 200 doubts regarding the authorship and the public utility of the Book began to rise; some attributed it (most gratuitously) to “John the Presbyter,” others refused to read it publicly in the churches. These doubts arose entirely from the absurdities foisted upon it by millenarians, and the want of proper principles of interpretation. It is wanting in the Peshito Syriac Version, but is often quoted by Ephraim Syrus (A.D. 300–375) in his Syriac Commentaries.<br>It was written in Patmos (about A.D. 68), whither John had been banished by Domitius Nero, as stated in the title of the Syriac Version of the Book; and with this concurs the express statement of Irenaeus (A.D. 175), who says it happened in the reign “Domitianou,” i.e. Domitius (Nero). Sulpicius Severus, Orosius, &c., stupidly mistaking Domitianou for Domitianikos, supposed Irenaeus to refer to Domitian, A.D. 95, and most succeeding writers have fallen into the same blunder. The internal testimony is wholly in favour of the earlier date. The temple at Jerusalem was still standing (ch. 11. 1–10); the exact duration of the siege is foretold, viz., 42 months, 3½ years, or 1260 days; the two witnesses are to be slain in the city where our Lord was crucified; Nero was reigning at that time, for it is said of the seven kings of Rome; “five are fallen, and one is, and the other is not yet come, and when he cometh, he must continue a short space.” The five kings are Julius Caesar, Augustus, Tiberius, Caligula, Claudius. The “one who is” is Nero; the one who “must continue a short space” is Galba, who reigned only seven months. Everywhere the events are “to come quickly,” _lit._ “with haste,” _or_ speed (ch. 1. 1; 2. 16; 3. 11; 11. 14; 22. 7, 12, 20). The escape of the Christian Jews from Jerusalem to Pella is undoubtedly referred to in ch. 7. 1–8, compared with Mat. 24. 30.<br>The Book may be divided into three parts; 1) the Prefatory Matter; 2) the Principal Visions; and 3) the Conclusion of the Whole.<br>I. The Prefatory Matter occupies ch. i. ii. iii. viz.—<br>i. Introductory manifestation of Christ.<br>ii. iii. His Addresses to seven Churches.<br>II. The Principal Visions occupy ch. iv–xx. viz.—<br>iv. v. Introductory manifestations.<br>vi.–xi. First Catastrophe, describing the Overthrow of Judaism, as the first great enemy of Christianity.<br>xii–xix. Second Catastrophe, describing the overthrow of Paganism, as the second great enemy.<br>xx. Third Catastrophe, describing the Overthrow of all Future Enemies, of whatever kind, and age, they may be.<br>III. The Conclusion occupies ch. xxi. xxii. describing the future glory of the church on earth, with a last warning.<br>This book is full of symbols and imagery taken from earthly kingdoms and events to typify the spiritual struggles of the church with the opposing powers of Judaism and Paganism in the first place, and with all contrary principles that may rise hereafter, in any age, or country. It must be interpreted on the same principles as Psalm ii. xvi. xviii. xlv. cx. Song of Songs, Isa. xiii. xiv. and the whole book of Ezekiel, and is thus fitted for all ages alike.
 > - <sup>b</sup> 1. Chapter I. may be divided into four parts; v. 1–3 title of the Book, and happiness of its readers; v. 4–8 John’s salutation; v. 9–16 his vision of Christ; v. 17–20 Christ’s title, dignity, and directions.
 > - <sup>c</sup> 1. Lit., _“an uncovering.”_
 > - <sup>d</sup> 1. an “anointed saviour.”
@@ -47,7 +47,7 @@ A revelation<sup>c</sup> of Jesus Christ<sup>d</sup>, that God gave to him, to s
 > - <sup>s</sup> 13. Lit., _zone._
 > - <sup>t</sup> 14. Lit., _“seen, visible,”_
 > - <sup>u</sup> 16. (i.e. a long Thracian sword)
-> - <sup>v</sup> 17. Or, _“perceived...laid over his...Be not fearing for thyself.”_
+> - <sup>v</sup> 17. Or, _“perceived…laid over his…Be not fearing for thyself.”_
 > - <sup>w</sup> 18. Lit., _“unseen”_
 
 ## Chapter 2
@@ -98,7 +98,7 @@ A revelation<sup>c</sup> of Jesus Christ<sup>d</sup>, that God gave to him, to s
 > - <sup>i</sup> 14. Gr., _scandal, i.e. a thing for “laming” man or beast_
 > - <sup>j</sup> 14. Lit., _a “selling” of oneself._
 > - <sup>k</sup> 20. “without cohabitation;”
-> - <sup>l</sup> 25. Or, _“what things...I may or shall come.”_
+> - <sup>l</sup> 25. Or, _“what things…I may or shall come.”_
 
 ## Chapter 3
 
@@ -248,7 +248,7 @@ And after these things I saw four messengers, standing upon the four corners of 
 > - <sup>a</sup> 1. Chapter VII. may be divided into five parts; v. 1–3 the four winds restrained; v. 4–8 a perfect number of Israel are sealed; v. 9, 10 praise by a great multitude; v. 11, 12 and by the messengers, the presbyters, and the four living creatures; v. 13–17 happiness of the saved.
 > - <sup>b</sup> 6. Put instead of Dan.
 > - <sup>c</sup> 12. Lit., _soundness of speech_
-> - <sup>d</sup> 13. Lit., _“out of the presbyters answered (lit. judged off for himself)...have cast round themselves the white robes.”_
+> - <sup>d</sup> 13. Lit., _“out of the presbyters answered (lit. judged off for himself)…have cast round themselves the white robes.”_
 
 ## Chapter 8
 
@@ -281,7 +281,7 @@ And when he openeth the seventh seal, there came silence in the heaven about hal
 > - <sup>a</sup> 1. Chapter VIII. may be divided into six parts; v. 1–5 opening of the seventh seal; v. 6, 7 sounding of the first trumpet; v. 8, 9 of the second; v. 10, 11 of the third; v. 12 of the fourth; v. 13 announcement of the fifth.
 > - <sup>b</sup> 2. Lit., _“have stationed themselves,”_
 > - <sup>c</sup> 9. Lit., _souls_
-> - <sup>d</sup> 11. Lit., _“undrinkable...becomes undrinkable, and many of the men died away by (lit. out of, from).”_
+> - <sup>d</sup> 11. Lit., _“undrinkable…becomes undrinkable, and many of the men died away by (lit. out of, from).”_
 
 ## Chapter 9
 
@@ -316,7 +316,7 @@ And the fifth messenger did sound, and I saw a star out of the heaven having fal
 > - <sup>c</sup> 5. The word trial in Greek is derived from the stone Basanos, used in Lydia for testing gold.
 > - <sup>d</sup> 11. “Abaddon (i.e. a separator, destroyer), and in the Hellenistic (language) he has a name Apollyon,” i.e. a looser away.
 > - <sup>e</sup> 14. very fruitful one.
-> - <sup>f</sup> 17. Or, _“perceived...and these sitting...cuirasses fiery and purple and sulphurous...as heads...passes forth...sulphur.”_
+> - <sup>f</sup> 17. Or, _“perceived…and these sitting…cuirasses fiery and purple and sulphurous…as heads…passes forth…sulphur.”_
 
 ## Chapter 10
 
@@ -375,7 +375,7 @@ And there was given to me a reed like to a rod, and the messenger stood, saying,
 > - <sup>d</sup> 3. See my “Biblical Tracts” for an exposure of the monstrosity of supposing that “a day” in prophetic language means “a year.” Among all the Old Testament prophecies that have already been fulfilled not one has been, or can be, adduced as supporting such a hypothesis.
 > - <sup>e</sup> 4. Or, _“lampstands.”_
 > - <sup>f</sup> 8. even Jerusalem.
-> - <sup>g</sup> 14. Lit., _“went away; behold...comes speedily,”_
+> - <sup>g</sup> 14. Lit., _“went away; behold…comes speedily,”_
 
 ## Chapter 12
 
@@ -436,7 +436,7 @@ And I stood upon the sand of the sea, and I saw out of the sea a beast coming up
 <sup>18</sup> Here is the wisdom! He who is having the understanding, let him count the number of the beast, for the number of a man it is, and its number _is_ six hundred and sixty six<sup>b</sup>.
 
 > - <sup>a</sup> 1. Chapter XIII. may be divided into four parts; v. 1–4 appearance of a little wild beast coming up out of the sea; v. 5–10 its authority and conduct; v. 11–17 a second little wild beast; v. 18 its number.
-> - <sup>b</sup> 18. The Greek here (as in 7. 4–18) gives the number not in words but in letters, viz., χξς, i.e. 600 + 60 + 6=666. Another reading mentioned by Irenaeus is 616...it is shown to refer to Nero, whose character is entirely in accordance with the description here given, and whose name, when spelt in the full Hebrew form Neron, yields the number 666, and in the shorter Greek form Nero gives 616, thus, accounting satisfactorily for the variation as noticed by Irenaeus.
+> - <sup>b</sup> 18. The Greek here (as in 7. 4–18) gives the number not in words but in letters, viz., χξς, i.e. 600 + 60 + 6=666. Another reading mentioned by Irenaeus is 616…it is shown to refer to Nero, whose character is entirely in accordance with the description here given, and whose name, when spelt in the full Hebrew form Neron, yields the number 666, and in the shorter Greek form Nero gives 616, thus, accounting satisfactorily for the variation as noticed by Irenaeus.
 
 ## Chapter 14
 
@@ -562,9 +562,9 @@ And there came one of the seven messengers, who were having the seven vials, and
 > - <sup>a</sup> 1. Chapter XVII. may be divided into four parts; v. 1–5 vision of a great whore; v. 6–11 uncovering of the secret of the wild beast carrying her with its seven heads; v. 12–14 and of its ten horns, warring with the little Lamb; v. 15–18 and of the waters on which she sits, which with the horns at last hate and consume her, who is now reigning over the kings of the land.
 > - <sup>b</sup> 5. a thing formerly unknown, now known.
 > - <sup>c</sup> 5. a symbolic name of any great oppressor of the church, as explained in v. 18.
-> - <sup>d</sup> 12. Or, _“perceivedst...which received...authority.”_
+> - <sup>d</sup> 12. Or, _“perceivedst…which received…authority.”_
 > - <sup>e</sup> 13. Lit., _“knowledge,” i.e. opinion._
-> - <sup>f</sup> 15. Or, _“didst perceive...seats herself down...and crowds.”_
+> - <sup>f</sup> 15. Or, _“didst perceive…seats herself down…and crowds.”_
 
 ## Chapter 18
 
@@ -598,7 +598,7 @@ And after these things I saw another messenger coming down out of the heaven, ha
 <sup>24</sup> and in her blood of prophets and of saints was found, and of all those who have been slain on the earth.”
 
 > - <sup>a</sup> 1. Chapter XVIII. may be divided into eight parts; v. 1–3 announcement of Babylon’s fall and its cause; v. 4–6 call to come out of her; v. 7, 8 her self-glorification; v. 9, 10 kings bewail her; v. 11–16 and merchants; v. 17–19 and those on the sea; v. 20 call to heaven to rejoice over it; v. 21–24 its violent and final end.
-> - <sup>b</sup> 6. Lit., _“give away or back...gave away or back (to you)...she mixed mix ye.”_
+> - <sup>b</sup> 6. Lit., _“give away or back…gave away or back (to you)…she mixed mix ye.”_
 > - <sup>c</sup> 12. i.e. perfume
 > - <sup>d</sup> 12. Gr., _elephantine_
 > - <sup>e</sup> 12. Lit., _“shining.”_
@@ -708,7 +708,7 @@ And I saw a new heaven and a new earth, for the first heaven and the first earth
 
 > - <sup>a</sup> 1. Chapter XXI. may be divided into five parts; v. 1–4 visions of a new heaven, earth, and city; v. 5–8 God’s promises and warnings; v. 9–14 vision of the Lamb’s wife—holy Jerusalem; v. 15–21 its measurements and its foundations; v. 22–27 its glory and purity.
 > - <sup>b</sup> 2. Textual note: _Omitted in many MSS., Versions, &c._
-> - <sup>c</sup> 14. Lit., _“is having...them (are) names.”_
+> - <sup>c</sup> 14. Lit., _“is having…them (are) names.”_
 > - <sup>d</sup> 16. Or, _proportionate._
 > - <sup>e</sup> 24. Textual note: _MSS. omit._
 > - <sup>f</sup> 26. Lit., _“bear.”_

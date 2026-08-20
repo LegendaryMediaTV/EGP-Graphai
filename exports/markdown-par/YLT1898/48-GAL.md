@@ -30,12 +30,12 @@
 <sup>23</sup> and only they were hearing, that “he who is persecuting us then, doth now proclaim good news—the faith that then he was wasting;”
 <sup>24</sup> and they were glorifying God in me.
 
-> - <sup>a</sup> 1. Galatians. THAT this Letter was written by the apostle Paul is (and has always been) universally acknowledged; it was quoted by Clement (of Rome), Hermas, Ignatius, and Polycarp, A.D. 100, and was declared authentic by Irenaeus, A.D. 178, Clement (of Alexandria), A.D. 194, Tertullian, A.D. 200, Caius (of Rome), A.D. 200, Origen, A.D. 230, and even by Marcion, A.D. 175. It was probably written at Ephesus (Acts 18. 23; 19. 1), or Corinth (Acts 20. 2, 3) about A.D. 57–8 after the Second Letter to the Thessalonians and before that to the Romans. Galatia (or Gallograecia) in Asia Minor was subdued by the Romans B.C. 189, became a Roman province A.D. 26, was visited by Paul, A.D. 50–1 (Acts 16. 6, 7), and again in A.D. 54–5 (Acts 18. 23). His great object in writing this Letter was to counteract the tendency to Judaize, i.e. to modify and restrain the liberty of the Gospel Dispensation by the observance of rites and customs derived from the Old Covenant, which had been totally abolished by the death of Christ. It may be divided as follows:—<br>I. The Introduction, ch. i. 1–5.<br>II. Paul’s Personal Defence, ch. i. 6–ii. 21.<br>III. His Exposure of Judaism, ch. iii–iv. 7.<br>IV. His Reproof of the Galatians, ch. iv. 8–v. 9.<br>V. Instructions and Exhortations, ch. v. 10–vi. 10.<br>VI. The Conclusion, ch. vi. 11–18.
+> - <sup>a</sup> 1. THAT this Letter was written by the apostle Paul is (and has always been) universally acknowledged; it was quoted by Clement (of Rome), Hermas, Ignatius, and Polycarp, A.D. 100, and was declared authentic by Irenaeus, A.D. 178, Clement (of Alexandria), A.D. 194, Tertullian, A.D. 200, Caius (of Rome), A.D. 200, Origen, A.D. 230, and even by Marcion, A.D. 175. It was probably written at Ephesus (Acts 18. 23; 19. 1), or Corinth (Acts 20. 2, 3) about A.D. 57–8 after the Second Letter to the Thessalonians and before that to the Romans. Galatia (or Gallograecia) in Asia Minor was subdued by the Romans B.C. 189, became a Roman province A.D. 26, was visited by Paul, A.D. 50–1 (Acts 16. 6, 7), and again in A.D. 54–5 (Acts 18. 23). His great object in writing this Letter was to counteract the tendency to Judaize, i.e. to modify and restrain the liberty of the Gospel Dispensation by the observance of rites and customs derived from the Old Covenant, which had been totally abolished by the death of Christ. It may be divided as follows:—<br>I. The Introduction, ch. i. 1–5.<br>II. Paul’s Personal Defence, ch. i. 6–ii. 21.<br>III. His Exposure of Judaism, ch. iii–iv. 7.<br>IV. His Reproof of the Galatians, ch. iv. 8–v. 9.<br>V. Instructions and Exhortations, ch. v. 10–vi. 10.<br>VI. The Conclusion, ch. vi. 11–18.
 > - <sup>b</sup> 1. Chapter I. May be divided into four parts; v. 1–5 Paul’s salutations; v. 6–10 his surprize at the change of the Galatians; v. 11–19 his own preaching; v. 20–23 his reception in Judea.
 > - <sup>c</sup> 3. Lit., _that which causes leaping for joy_
 > - <sup>d</sup> 4. Lit., _missings_ of the mark
 > - <sup>e</sup> 10. Lit., _would not have been Christ’s bondsman_
-> - <sup>f</sup> 18. Or, _know...remained on_
+> - <sup>f</sup> 18. Or, _know…remained on_
 
 ## Chapter 2
 
@@ -63,10 +63,10 @@
 <sup>21</sup> I do not make void the grace of God, for if righteousness _be_ through law—then Christ died in vain.
 
 > - <sup>a</sup> 1. Chapter II. May be divided into three parts; v. 1–10 Paul’s behaviour and reception at Jerusalem; v. 11–16 his rebuke of Peter; v. 17–21 his consistency and views.
-> - <sup>b</sup> 2. Lit., _according to an uncovering (of God’s will)..._
+> - <sup>b</sup> 2. Lit., _according to an uncovering (of God’s will)…_
 > - <sup>c</sup> 3. Lit., _Hellen_
-> - <sup>d</sup> 5. Lit., _yielded...remain thoroughly toward you_
-> - <sup>e</sup> 13. Lit., _also judged under along with him...led away along with them in the under-judgment_
+> - <sup>d</sup> 5. Lit., _yielded…remain thoroughly toward you_
+> - <sup>e</sup> 13. Lit., _also judged under along with him…led away along with them in the under-judgment_
 
 ## Chapter 3
 
@@ -111,7 +111,7 @@ O thoughtless Galatians, who did bewitch you, not to obey the truth—before who
 <sup>29</sup> and if ye _are_ of Christ then of Abraham ye are seed, and according to promise—heirs.
 
 > - <sup>a</sup> 1. Chapter III. May be divided into seven parts; v. 1–5 an expostulation and enquiry; v. 6–9 Abraham declared just by faith; v. 10 the law leaves man under a curse; v. 11, 12 man declared just by faith; v. 13–18 Abraham’s blessing confirmed by Christ; v. 19–22 origin and temporary character of the law; v. 23–29 design of the law and its abrogation.
-> - <sup>b</sup> 18. Lit., _out of law...out of promise, but God has graciously given...through promise_
+> - <sup>b</sup> 18. Lit., _out of law…out of promise, but God has graciously given…through promise_
 
 ## Chapter 4
 
@@ -195,7 +195,7 @@ In the freedom, then, with which Christ did make you free—stand ye, and be not
 > - <sup>a</sup> 1. Chapter V. May be divided into six parts; v. 1–6 warning against circumcision; v. 7–12 against leavening the whole lump; v. 13–15 call to freedom and love; v. 16–18 to oppose the flesh; v. 19–21 works of the flesh; v. 22–26 and of the spirit.
 > - <sup>b</sup> 20. Lit., _pharmacy, enmity, strifes, zeals, desires, strivings, dissensions, opinions (or sects)_
 > - <sup>c</sup> 23. Lit., _inward power_
-> - <sup>d</sup> 26. Lit., _...calling forward one another..._
+> - <sup>d</sup> 26. Lit., _…calling forward one another…_
 
 ## Chapter 6
 
@@ -225,5 +225,5 @@ Brethren, if a man also may be overtaken in any trespass, ye who _are_ spiritual
 
 > - <sup>a</sup> 1. Chapter VI. May be divided into five parts; v. 1–5 on forbearance, mutual help, pride; v. 6–10 mutual fellowship, practical results, due reward; v. 11–18 motives of Judaizers; v. 14–16 and of Paul, with Christian blessings; v. 17, 18 emphatic conclusion and benediction.
 > - <sup>b</sup> 2. Lit., _weighty things_
-> - <sup>c</sup> 3. Lit., _...deceiveth his own mind_
+> - <sup>c</sup> 3. Lit., _…deceiveth his own mind_
 > - <sup>d</sup> 9. Lit., _act badly in doing that which is good or right, for in (its) own season we shall reap, not being loosed out_

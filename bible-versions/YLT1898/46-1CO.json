@@ -12,7 +12,8 @@
             "content": [
               {
                 "content": [
-                  "1 Corinthians. Corinth was the capital city of Achaia in Greece, famous for its commerce and luxury, where Paul laboured for nearly two years (A.D. 52–3), gathering many Jews and Gentiles chiefly of the humbler class into the church of Christ (",
+                  { "text": "Corinth", "marks": ["sc"] },
+                  " was the capital city of Achaia in Greece, famous for its commerce and luxury, where Paul laboured for nearly two years (A.D. 52–3), gathering many Jews and Gentiles chiefly of the humbler class into the church of Christ (",
                   { "bibleLink": "Acts 18:1–17", "content": "Acts 18. 1–17" },
                   "), and was succeeded by Apollos (",
                   {
@@ -410,7 +411,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "cry or proclaim as heralds...to Jews indeed a...to Hellenes.",
+              "text": "cry or proclaim as heralds…to Jews indeed a…to Hellenes.",
               "marks": ["i"]
             }
           ]
@@ -473,7 +474,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "laid out for himself...that he might thoroughly shame...did lay out for himself the infirm things...that he might thoroughly shame.",
+            "text": "laid out for himself…that he might thoroughly shame…did lay out for himself the infirm things…that he might thoroughly shame.",
             "marks": ["i"]
           }
         ]
@@ -614,7 +615,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "which has been fully hidden,...which God marked out beforehand (or publicly) before the ages, with a view to our glory.",
+              "text": "which has been fully hidden,…which God marked out beforehand (or publicly) before the ages, with a view to our glory.",
               "marks": ["i"]
             }
           ]
@@ -673,7 +674,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "we received...out of God...were granted to us by (lit. under) God.",
+              "text": "we received…out of God…were granted to us by (lit. under) God.",
               "marks": ["i"]
             }
           ]
@@ -701,7 +702,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "but an animal (or sensual) man...spiritually judged-thoroughly.",
+              "text": "but an animal (or sensual) man…spiritually judged-thoroughly.",
               "marks": ["i"]
             }
           ]
@@ -730,10 +731,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            {
-              "text": "who knew...who shall bring it together.",
-              "marks": ["i"]
-            }
+            { "text": "who knew…who shall bring it together.", "marks": ["i"] }
           ]
         }
       },
@@ -1057,7 +1055,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "toil...bless (lit. speak well), being pursued (or caused to flee), we hold up.",
+              "text": "toil…bless (lit. speak well), being pursued (or caused to flee), we hold up.",
               "marks": ["i"]
             }
           ]
@@ -2751,7 +2749,7 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "infirm...are asleep,", "marks": ["i"] },
+            { "text": "infirm…are asleep,", "marks": ["i"] },
             " spiritually."
           ]
         }
@@ -3071,7 +3069,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "be zealous of the best graces...far more excellent way.",
+            "text": "be zealous of the best graces…far more excellent way.",
             "marks": ["i"]
           }
         ]
@@ -3467,7 +3465,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "speaks in (or with)...enterpret thoroughly.",
+              "text": "speaks in (or with)…enterpret thoroughly.",
               "marks": ["i"]
             }
           ]
@@ -4008,7 +4006,7 @@
         "type": "trn",
         "content": [
           "Or, ",
-          { "text": "want of honour...infirmity.", "marks": ["i"] }
+          { "text": "want of honour…infirmity.", "marks": ["i"] }
         ]
       }
     }
@@ -4025,7 +4023,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "physical...physical.", "marks": ["i"] }
+            { "text": "physical…physical.", "marks": ["i"] }
           ]
         }
       },

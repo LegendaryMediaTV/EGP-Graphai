@@ -10,7 +10,8 @@
           "foot": {
             "type": "stu",
             "content": [
-              "THE GOSPEL OF JOHN was most probably written at Ephesus, A.D. 68, and, judging from the comparative purity of its Greek, ",
+              { "text": "The Gospel of John", "marks": ["sc"] },
+              " was most probably written at Ephesus, A.D. 68, and, judging from the comparative purity of its Greek, ",
               { "text": "after", "marks": ["i"] },
               {
                 "text": " the composition of the “Revelation” in Patmos.",
@@ -352,7 +353,7 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "on...that one led (him) out.", "marks": ["i"] }
+            { "text": "on…that one led (him) out.", "marks": ["i"] }
           ]
         }
       }
@@ -380,7 +381,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "spake the same thing (as he had done before), and...spake the same thing, that, I am not.",
+              "text": "spake the same thing (as he had done before), and…spake the same thing, that, I am not.",
               "marks": ["i"]
             }
           ]
@@ -840,7 +841,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "the doves, Lift up...of passing in (for trade).",
+              "text": "the doves, Lift up…of passing in (for trade).",
               "marks": ["i"]
             }
           ]
@@ -1622,7 +1623,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "and the reaping cometh...and view the places (or spaces), that (or because)...towards (the) reaping.",
+            "text": "and the reaping cometh…and view the places (or spaces), that (or because)…towards (the) reaping.",
             "marks": ["i"]
           }
         ]
@@ -2087,7 +2088,7 @@
         "type": "trn",
         "content": [
           "Lit., ",
-          { "text": "have sent away...has borne testimony.", "marks": ["i"] }
+          { "text": "have sent away…has borne testimony.", "marks": ["i"] }
         ]
       }
     }
@@ -4701,7 +4702,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "fattened or smeared (afterwards)...thoroughly-wiped...was infirm.",
+            "text": "fattened or smeared (afterwards)…thoroughly-wiped…was infirm.",
             "marks": ["i"]
           }
         ]
@@ -4814,10 +4815,7 @@
         "text": "freely",
         "foot": {
           "type": "trn",
-          "content": [
-            "Lit., ",
-            { "text": "speaking-all-out...", "marks": ["i"] }
-          ]
+          "content": ["Lit., ", { "text": "speaking-all-out…", "marks": ["i"] }]
         }
       },
       ", ",
@@ -5224,7 +5222,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "genuine spikenard, much prized...", "marks": ["i"] }
+            { "text": "genuine spikenard, much prized…", "marks": ["i"] }
           ]
         }
       },
@@ -5254,7 +5252,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "there was care to him...bag (lit. place of keeping the tongues, i.e. reeds of wind instruments), and the things cast (into it) he was bearing",
+            "text": "there was care to him…bag (lit. place of keeping the tongues, i.e. reeds of wind instruments), and the things cast (into it) he was bearing",
             "marks": ["i"]
           }
         ]
@@ -7105,7 +7103,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "along-side of thyself...along-side of thee.",
+            "text": "along-side of thyself…along-side of thee.",
             "marks": ["i"]
           }
         ]
@@ -7802,7 +7800,7 @@
         "type": "trn",
         "content": [
           "Lit., ",
-          { "text": "underlings...cause (of punishment).", "marks": ["i"] }
+          { "text": "underlings…cause (of punishment).", "marks": ["i"] }
         ]
       }
     }
@@ -7937,7 +7935,7 @@
         "content": [
           "Lit., ",
           {
-            "text": "knew again or recognized...Hebraistic, Hellenistic, Romaic.",
+            "text": "knew again or recognized…Hebraistic, Hellenistic, Romaic.",
             "marks": ["i"]
           }
         ]
@@ -8096,7 +8094,7 @@
         "text": "pierce",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "...pierced through.", "marks": ["i"] }]
+          "content": ["Or, ", { "text": "…pierced through.", "marks": ["i"] }]
         }
       },
       ".”"
@@ -8675,7 +8673,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "word forth to...does not die utterly.", "marks": ["i"] }
+            { "text": "word forth to…does not die utterly.", "marks": ["i"] }
           ]
         }
       },

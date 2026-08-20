@@ -11,7 +11,10 @@
             "type": "stu",
             "content": [
               {
-                "text": "James. The author of this Letter was probably son of Alphaeus or Cleopas, surnamed “the less,” and “the just,” and “the Lord’s brother;” after the murder of James the son of Zebedee, he appears to have been foremost in Jerusalem, where he was martyred A.D. 68. This Letter (written about A.D. 67) has always formed a part of the Syriac Peshito Version, (which omits 2d Peter, 2d and 3d John, Jude and Revelation, executed before A.D. 200), and is found in all complete MSS. of the Greek Testament. It is quoted or referred to by Clement of Rome (A.D. 108), Hermas (A.D. 108), Origen (A.D. 230), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), &c., but none of the Latin fathers before A.D. 300 quote it.",
+                "content": [
+                  { "text": "The Author", "marks": ["sc"] },
+                  " of this Letter was probably son of Alphaeus or Cleopas, surnamed “the less,” and “the just,” and “the Lord’s brother;” after the murder of James the son of Zebedee, he appears to have been foremost in Jerusalem, where he was martyred A.D. 68. This Letter (written about A.D. 67) has always formed a part of the Syriac Peshito Version, (which omits 2d Peter, 2d and 3d John, Jude and Revelation, executed before A.D. 200), and is found in all complete MSS. of the Greek Testament. It is quoted or referred to by Clement of Rome (A.D. 108), Hermas (A.D. 108), Origen (A.D. 230), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), &c., but none of the Latin fathers before A.D. 300 quote it."
+                ],
                 "break": true
               },
               {

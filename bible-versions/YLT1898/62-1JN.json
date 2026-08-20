@@ -11,7 +11,10 @@
             "type": "stu",
             "content": [
               {
-                "text": "1 John. This Epistle is quoted or referred to by Hermas (A.D. 108), Polycarp (A.D. 108), Papias (A.D. 116), the Churches of Vienna and Lyons (A.D. 177), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230), Cyprian (A.D. 248), Dionysius of Alexandria (A.D. 247), Eusebius (A.D. 320), Athanasius (A.D. 326), Jerome, &c., and was not doubted to be John’s (save by Marcion) till the 6th century. The internal evidence in his favour is as powerful as the external.",
+                "content": [
+                  { "text": "This Epistle", "marks": ["sc"] },
+                  " is quoted or referred to by Hermas (A.D. 108), Polycarp (A.D. 108), Papias (A.D. 116), the Churches of Vienna and Lyons (A.D. 177), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230), Cyprian (A.D. 248), Dionysius of Alexandria (A.D. 247), Eusebius (A.D. 320), Athanasius (A.D. 326), Jerome, &c., and was not doubted to be John’s (save by Marcion) till the 6th century. The internal evidence in his favour is as powerful as the external."
+                ],
                 "break": true
               },
               {

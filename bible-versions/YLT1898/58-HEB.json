@@ -10,7 +10,8 @@
           "foot": {
             "type": "stu",
             "content": [
-              "Hebrews. The parties to whom this Epistle was originally addressed were undoubtedly the Jewish Christians in Palestine, who were exposed to peculiar inducements to apostatize to Judaism; and hence the elaborate exhibition of the superiority of Christ and Christianity to all preceding revelations of the Divine Will. It was probably written from Rome about A.D. 62–3, when the author was expecting shortly to be restored to them. He gives no name, but must have been well-known to those whom he addressed, and accordingly they (i.e. the Eastern Churches) have almost unanimously maintained that he was the apostle Paul, while the Western (",
+              { "text": "The Parties", "marks": ["sc"] },
+              " to whom this Epistle was originally addressed were undoubtedly the Jewish Christians in Palestine, who were exposed to peculiar inducements to apostatize to Judaism; and hence the elaborate exhibition of the superiority of Christ and Christianity to all preceding revelations of the Divine Will. It was probably written from Rome about A.D. 62–3, when the author was expecting shortly to be restored to them. He gives no name, but must have been well-known to those whom he addressed, and accordingly they (i.e. the Eastern Churches) have almost unanimously maintained that he was the apostle Paul, while the Western (",
               { "text": "or", "marks": ["i"] },
               {
                 "text": " Roman) Church was divided in opinion, Tertullian ascribing it to Barnabas, others to Apollos, Luke, Silas, &c.",
@@ -26,7 +27,9 @@
               },
               {
                 "content": [
-                  "I. DOCTRINAL,—Superiority of Christ to Angels, Moses, Aaron, and the Levitical priesthood; ",
+                  "I. ",
+                  { "text": "Doctrinal", "marks": ["sc"] },
+                  ",—Superiority of Christ to Angels, Moses, Aaron, and the Levitical priesthood; ",
                   { "bibleLink": "Hebrews 1:1–14", "content": "ch. i. 1" },
                   "–",
                   { "bibleLink": "Hebrews 10:1–18", "content": "10. 18" },
@@ -34,7 +37,9 @@
                 ],
                 "break": true
               },
-              "II. PRACTICAL,—Application of the Doctrine; ",
+              "II. ",
+              { "text": "Practical", "marks": ["sc"] },
+              ",—Application of the Doctrine; ",
               { "bibleLink": "Hebrews 10:19–39", "content": "ch. 10. 19" },
               "–",
               { "bibleLink": "Hebrews 13:1–25", "content": "13. 25" },

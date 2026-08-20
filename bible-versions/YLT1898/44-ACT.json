@@ -12,7 +12,16 @@
             "content": [
               {
                 "content": [
-                  "Acts. This account of the “Deeds of (some of) the Apostles,” is professedly a continuation of the “Gospel” according to Luke, and by the same writer. Its genuineness and authenticity are unquestionable; it is quoted by the Church of Lyons (A.D. 177), by Irenaeus, (A.D. 167), Clement of Alexandria (A.D. 192), and Tertullian (A.D. 192). It was rejected by the Marcionites in the 3d, and by the Manichaeans in the 4th, century. It comprises a period of thirty years, being written about A.D. 63, when Paul was a prisoner in Rome, see ",
+                  { "text": "This", "marks": ["sc"] },
+                  " account of the “",
+                  { "text": "Deeds of", "marks": ["sc"] },
+                  " (some of) ",
+                  { "text": "the Apostles", "marks": ["sc"] },
+                  ",” is professedly a continuation of the “",
+                  { "text": "Gospel", "marks": ["sc"] },
+                  "” according to ",
+                  { "text": "Luke", "marks": ["sc"] },
+                  ", and by the same writer. Its genuineness and authenticity are unquestionable; it is quoted by the Church of Lyons (A.D. 177), by Irenaeus, (A.D. 167), Clement of Alexandria (A.D. 192), and Tertullian (A.D. 192). It was rejected by the Marcionites in the 3d, and by the Manichaeans in the 4th, century. It comprises a period of thirty years, being written about A.D. 63, when Paul was a prisoner in Rome, see ",
                   {
                     "bibleLink": "Acts 28:30",
                     "content": [
