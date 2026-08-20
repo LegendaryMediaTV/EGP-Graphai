@@ -5,38 +5,148 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "The Elder to Gaius the beloved, whom I love in truth!"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "3 John. This Letter is quoted by the same ancient fathers as quote the preceding one, and rests on the same kind of evidence. This Gaius (",
+              { "text": "or", "marks": ["i"] },
+              {
+                "content": [
+                  " Caius) is supposed by some to be the same as Gaius of Macedonia (",
+                  { "bibleLink": "Acts 19:29", "content": "Acts 19. 29" },
+                  "), by others as Caius of Corinth (",
+                  {
+                    "bibleLink": "1 Corinthians 1:14",
+                    "content": "1 Cor. 1. 14"
+                  },
+                  "), by others as Gaius of Derbe (",
+                  { "bibleLink": "Acts 20:4", "content": "Acts 20. 4" },
+                  "), and by others as Gaius of Rome (",
+                  { "bibleLink": "Romans 16:23", "content": "Rom. 16. 23" },
+                  "), but nothing is certain on this point. He appears to have been a man of substance and influence."
+                ],
+                "break": true
+              },
+              "This Letter may be divided into five parts; ",
+              { "bibleLink": "Romans 16:1–4", "content": "v. 1–4" },
+              " address and salutation; ",
+              { "bibleLink": "Romans 16:5–8", "content": "v. 5–8" },
+              " approval and encouragement; ",
+              { "bibleLink": "Romans 16:9, 10", "content": "v. 9, 10" },
+              " a complaint and promise; ",
+              { "bibleLink": "Romans 16:11, 12", "content": "v. 11, 12" },
+              " a warning and testimony; ",
+              { "bibleLink": "Romans 16:13–15", "content": "v. 13–15" },
+              " a hope and salutation."
+            ]
+          }
+        },
+        "The",
+        " ",
+        {
+          "text": "Elder",
+          "foot": {
+            "type": "stu",
+            "content": [
+              "“the presbyter;” a title of age, or of office; see ",
+              { "bibleLink": "1 Peter 5:1" },
+              ", ",
+              { "bibleLink": "1 Peter 5:5" }
+            ]
+          }
+        },
+        " to ",
+        {
+          "text": "Gaius",
+          "foot": {
+            "type": "stu",
+            "content": [{ "text": "Lat.", "marks": ["i"] }, " Caius."]
+          }
+        },
+        " the beloved, whom I love in truth!"
+      ]
     }
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 2,
-    "content": {
-      "paragraph": true,
-      "text": "beloved, concerning all things I desire thee to prosper, and to be in health, even as thy soul doth prosper,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "beloved, concerning all things I desire thee to "
+      },
+      {
+        "text": "prosper",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "I pour myself forth well for thee to have a good journey",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", and to be in health, even as thy soul doth prosper,"
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 3,
-    "content": "for I rejoiced exceedingly, brethren coming and testifying of the truth in thee, even as thou in truth dost walk;"
+    "content": [
+      "for I ",
+      {
+        "text": "rejoiced",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "was caused to leap much with joy", "marks": ["i"] }
+          ]
+        }
+      },
+      " exceedingly, brethren coming and testifying of the truth in thee, even as thou in truth dost walk;"
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 4,
-    "content": "greater than these things I have no joy, that I may hear of my children in truth walking."
+    "content": [
+      "greater than these things I have no ",
+      {
+        "text": "joy",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "cause of leaping for joy", "marks": ["i"] }
+          ]
+        }
+      },
+      ", that I may hear of my children in truth walking."
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 5,
-    "content": {
-      "paragraph": true,
-      "text": "Beloved, faithfully dost thou do whatever thou mayest work to the brethren and to the strangers,"
-    }
+    "content": [
+      { "paragraph": true, "text": "Beloved, " },
+      {
+        "text": "faithfully",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "stedfastly", "marks": ["i"] }]
+        }
+      },
+      " dost thou do whatever thou mayest work to the brethren and to the strangers,"
+    ]
   },
   {
     "book": "3JN",
@@ -64,34 +174,65 @@
     "book": "3JN",
     "chapter": 1,
     "verse": 9,
-    "content": {
-      "paragraph": true,
-      "text": "I did write to the assembly, but he who is loving the first place among them—Diotrephes—doth not receive us;"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I did write to the assembly, but he who is loving the first place among them—"
+      },
+      {
+        "text": "Diotrephes",
+        "foot": { "type": "stu", "content": ["“nourished by Jove.”"] }
+      },
+      "—doth not receive us;"
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 10,
-    "content": "because of this, if I may come, I will cause him to remember his works that he doth, with evil words prating against us; and not content with these, neither doth he himself receive the brethren, and those intending he doth forbid, and out of the assembly he doth cast."
+    "content": [
+      "because of this, if I may come, I will cause him to remember his works that he doth, with evil words ",
+      {
+        "text": "prating",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "flooding us with evil words", "marks": ["i"] }
+          ]
+        }
+      },
+      " against us; and not content with these, neither doth he himself receive the brethren, and those intending he doth forbid, and out of the assembly he doth cast."
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 11,
-    "content": {
-      "paragraph": true,
-      "text": "Beloved, be not thou following that which is evil, but that which is good; he who is doing good, of God he is, and he who is doing evil hath not seen God;"
-    }
+    "content": [
+      { "paragraph": true, "text": "Beloved, be not thou " },
+      {
+        "text": "following",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "imitating", "marks": ["i"] }]
+        }
+      },
+      " that which is evil, but that which is good; he who is doing good, of God he is, and he who is doing evil hath not seen God;"
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 12,
-    "content": {
-      "paragraph": true,
-      "text": "to Demetrius testimony hath been given by all, and by the truth itself, and we also—we do testify, and ye have known that our testimony is true."
-    }
+    "content": [
+      { "paragraph": true, "text": "to " },
+      {
+        "text": "Demetrius",
+        "foot": { "type": "stu", "content": ["“belonging to mother earth.”"] }
+      },
+      " testimony hath been given by all, and by the truth itself, and we also—we do testify, and ye have known that our testimony is true."
+    ]
   },
   {
     "book": "3JN",
@@ -106,6 +247,16 @@
     "book": "3JN",
     "chapter": 1,
     "verse": 14,
-    "content": "and I hope straightway to see thee, and mouth to mouth we shall speak. Peace to thee! salute thee do the friends; be saluting the friends by name."
+    "content": [
+      "and I hope straightway to see thee, and mouth to mouth we shall speak. Peace to thee! salute thee do the friends; be ",
+      {
+        "text": "saluting",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "embracing", "marks": ["i"] }]
+        }
+      },
+      " the friends by name."
+    ]
   }
 ]

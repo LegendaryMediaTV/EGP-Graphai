@@ -1,67 +1,110 @@
 ## Chapter 1
 
-<sup>1</sup> A revelation of Jesus Christ, that God gave to him, to shew to his servants what things it behoveth to come to pass quickly; and he did signify _it_, having sent through his messenger to his servant John,
-<sup>2</sup> who did testify the word of God, and the testimony of Jesus Christ, as many things also as he did see.
-<sup>3</sup> Happy is he who is reading, and those hearing, the words of the prophecy, and keeping the things written in it—for the time is nigh!
+<sup>1</sup> <sup>a</sup><sup>b</sup>
 
-<sup>4</sup> John to the seven assemblies that _are_ in Asia: Grace to you, and peace, from Him who is, and who was, and who is coming, and from the Seven Spirits that are before His throne,
-<sup>5</sup> and from Jesus Christ, the faithful witness, the first-born out of the dead, and the ruler of the kings of the earth; to him who did love us, and did bathe us from our sins in his blood,
+A revelation<sup>c</sup> of Jesus Christ<sup>d</sup>, that God gave to him, to shew to his servants what things it behoveth to come to pass quickly; and he did signify _it_, having sent through his messenger to his servant<sup>e</sup> John<sup>f</sup>,
+<sup>2</sup> who did testify the word of God, and the testimony of Jesus Christ, as many things also as he did see.
+<sup>3</sup> Happy is he who is reading, and those hearing, the words of the prophecy, and keeping the things written in it—for the time is nigh<sup>g</sup>!
+
+<sup>4</sup> John<sup>h</sup> to the seven assemblies that _are_ in Asia<sup>i</sup>: Grace to you, and peace, from Him who is, and who was, and who is coming, and from the Seven Spirits<sup>j</sup> that are before His throne,
+<sup>5</sup> and from Jesus Christ, the faithful witness, the first-born out of the dead, and the ruler of the kings of the earth; to him who did love us, and did bathe<sup>k</sup> us from our sins in his blood,
 <sup>6</sup> and did make us kings and priests to his God and Father, to him _is_ the glory and the power to the ages of the ages! Amen.
 <sup>7</sup> Lo, he doth come with the clouds, and see him shall every eye, even those who did pierce him, and wail because of him shall all the tribes of the land. Yes! Amen!
 <sup>8</sup> “I am the Alpha and the Omega, beginning and end, saith the Lord, who is, and who was, and who is coming—the Almighty.”
 
-<sup>9</sup> I, John, who also _am_ your brother, and fellow-partner in the tribulation, and in the reign and endurance, of Jesus Christ, was in the isle that is called Patmos, because of the word of God, and because of the testimony of Jesus Christ;
-<sup>10</sup> I was in the Spirit on the Lord’s-day, and I heard behind me a great voice, as of a trumpet, saying,
-<sup>11</sup> “I am the Alpha and the Omega, the First and the Last;” and, “What thou dost see, write in a scroll, and send to the seven assemblies that _are_ in Asia; to Ephesus, and to Smyrna, and to Pergamos, and to Thyatira, and to Sardis, and to Philadelphia, and to Laodicea.”
+<sup>9</sup> I, John, who also _am_ your brother, and fellow-partner in the tribulation, and in the reign and endurance, of Jesus Christ, was<sup>l</sup> in the isle<sup>m</sup> that is called Patmos<sup>n</sup>, because of the word of God, and because of the testimony of Jesus Christ;
+<sup>10</sup> I was in the Spirit on the Lord’s-day<sup>o</sup>, and I heard behind me a great voice, as of a trumpet, saying,
+<sup>11</sup> “I am the Alpha and the Omega, the First and the Last;”<sup>p</sup> and, “What thou dost see, write in a scroll<sup>q</sup>, and send to the seven assemblies that _are_<sup>r</sup> in Asia; to Ephesus, and to Smyrna, and to Pergamos, and to Thyatira, and to Sardis, and to Philadelphia, and to Laodicea.”
 
 <sup>12</sup> And I did turn to see the voice that did speak with me, and having turned, I saw seven golden lamp-stands,
-<sup>13</sup> and in the midst of the seven lamp-stands, _one_ like to a son of man, clothed to the foot, and girt round at the breast with a golden girdle,
-<sup>14</sup> and his head and hairs white, as if white wool—as snow, and his eyes as a flame of fire;
+<sup>13</sup> and in the midst of the seven lamp-stands, _one_ like to a son of man, clothed to the foot, and girt round at the breast with a golden girdle<sup>s</sup>,
+<sup>14</sup> and his head and hairs white<sup>t</sup>, as if white wool—as snow, and his eyes as a flame of fire;
 <sup>15</sup> and his feet like to fine brass, as in a furnace having been fired, and his voice as a sound of many waters,
-<sup>16</sup> and having in his right hand seven stars, and out of his mouth a sharp two-edged sword is proceeding, and his countenance _is_ as the sun shining in its might.
-<sup>17</sup> And when I saw him, I did fall at his feet as dead, and he placed his right hand upon me, saying to me, “Be not afraid; I am the First and the Last,
-<sup>18</sup> and he who is living, and I did become dead, and, lo, I am living to the ages of the ages. Amen! and I have the keys of the hades and of the death.
+<sup>16</sup> and having in his right hand seven stars, and out of his mouth a sharp two-edged sword<sup>u</sup> is proceeding, and his countenance _is_ as the sun shining in its might.
+<sup>17</sup> And when I saw<sup>v</sup> him, I did fall at his feet as dead, and he placed his right hand upon me, saying to me, “Be not afraid; I am the First and the Last,
+<sup>18</sup> and he who is living, and I did become dead, and, lo, I am living to the ages of the ages. Amen! and I have the keys of the hades<sup>w</sup> and of the death.
 <sup>19</sup> “Write the things that thou hast seen, and the things that are, and the things that are about to come after these things;
 <sup>20</sup> the secret of the seven stars that thou hast seen upon my right hand, and the seven golden lamp-stands: the seven stars are messengers of the seven assemblies, and the seven lampstands that thou hast seen are seven assemblies.
 
+> - <sup>a</sup> 1. Revelation. This book is not quoted by any Christian writer till the time of Justin Martyr (A.D. 140), who expressly declares it to be the work of “John, one of the apostles of Christ;” Melito (A.D. 171), is said by Eusebius to have written a Commentary on it; Theophilus (A.D. 160–180) is said by the same to have quoted Rev. 12. 9 in answer to a heretic; Apollonius (A.D. 186) is also said to have quoted it in his public Apology; Irenaeus (A.D. 175) quotes it twenty times; Clement of Alexandria (A.D. 192–220) alludes to it four times; Tertullian (A.D. 200) everywhere quotes it, and so does Hippolytus, Origen, &c. Papias, a hearer of the apostle John, and father of millenarianism, wrote (about A.D. 110–116) a book unfortunately now lost, referring to it. About A.D. 200 doubts regarding the authorship and the public utility of the Book began to rise; some attributed it (most gratuitously) to “John the Presbyter,” others refused to read it publicly in the churches. These doubts arose entirely from the absurdities foisted upon it by millenarians, and the want of proper principles of interpretation. It is wanting in the Peshito Syriac Version, but is often quoted by Ephraim Syrus (A.D. 300–375) in his Syriac Commentaries.<br>It was written in Patmos (about A.D. 68), whither John had been banished by Domitius Nero, as stated in the title of the Syriac Version of the Book; and with this concurs the express statement of Irenaeus (A.D. 175), who says it happened in the reign “Domitianou,” i.e. Domitius (Nero). Sulpicius Severus, Orosius, &c., stupidly mistaking Domitianou for Domitianikos, supposed Irenaeus to refer to Domitian, A.D. 95, and most succeeding writers have fallen into the same blunder. The internal testimony is wholly in favour of the earlier date. The temple at Jerusalem was still standing (ch. 11. 1–10); the exact duration of the siege is foretold, viz., 42 months, 3½ years, or 1260 days; the two witnesses are to be slain in the city where our Lord was crucified; Nero was reigning at that time, for it is said of the seven kings of Rome; “five are fallen, and one is, and the other is not yet come, and when he cometh, he must continue a short space.” The five kings are Julius Caesar, Augustus, Tiberius, Caligula, Claudius. The “one who is” is Nero; the one who “must continue a short space” is Galba, who reigned only seven months. Everywhere the events are “to come quickly,” _lit._ “with haste,” _or_ speed (ch. 1. 1; 2. 16; 3. 11; 11. 14; 22. 7, 12, 20). The escape of the Christian Jews from Jerusalem to Pella is undoubtedly referred to in ch. 7. 1–8, compared with Mat. 24. 30.<br>The Book may be divided into three parts; 1) the Prefatory Matter; 2) the Principal Visions; and 3) the Conclusion of the Whole.<br>I. The Prefatory Matter occupies ch. i. ii. iii. viz.—<br>i. Introductory manifestation of Christ.<br>ii. iii. His Addresses to seven Churches.<br>II. The Principal Visions occupy ch. iv–xx. viz.—<br>iv. v. Introductory manifestations.<br>vi.–xi. First Catastrophe, describing the Overthrow of Judaism, as the first great enemy of Christianity.<br>xii–xix. Second Catastrophe, describing the overthrow of Paganism, as the second great enemy.<br>xx. Third Catastrophe, describing the Overthrow of all Future Enemies, of whatever kind, and age, they may be.<br>III. The Conclusion occupies ch. xxi. xxii. describing the future glory of the church on earth, with a last warning.<br>This book is full of symbols and imagery taken from earthly kingdoms and events to typify the spiritual struggles of the church with the opposing powers of Judaism and Paganism in the first place, and with all contrary principles that may rise hereafter, in any age, or country. It must be interpreted on the same principles as Psalm ii. xvi. xviii. xlv. cx. Song of Songs, Isa. xiii. xiv. and the whole book of Ezekiel, and is thus fitted for all ages alike.
+> - <sup>b</sup> 1. Chapter I. may be divided into four parts; v. 1–3 title of the Book, and happiness of its readers; v. 4–8 John’s salutation; v. 9–16 his vision of Christ; v. 17–20 Christ’s title, dignity, and directions.
+> - <sup>c</sup> 1. Lit., _“an uncovering.”_
+> - <sup>d</sup> 1. an “anointed saviour.”
+> - <sup>e</sup> 1. Lit., _bondsman_
+> - <sup>f</sup> 1. “Jah is gracious.”
+> - <sup>g</sup> 3. within 3½ years.
+> - <sup>h</sup> 4. John the apostle, not John the presbyter, as some suppose; he was a person of no note, and of doubtful existence; the simple name “John,” in the latter half of the first century, could only have been understood of the beloved disciple.
+> - <sup>i</sup> 4. proconsular Asia, comprising Phrygia, Mysia, Caria and Lydia.
+> - <sup>j</sup> 4. perhaps “the Holy Spirit;” otherwise it may mean “the full number of spirits;” compare 1 Tim. 5. 21.
+> - <sup>k</sup> 5. Lit., _loosed_
+> - <sup>l</sup> 9. (not necessarily against his will)
+> - <sup>m</sup> 9. Lit., _place for swimming_
+> - <sup>n</sup> 9. one of the Cyclades in the Ægean Sea, now called Palmosa, a barren rock, south of Samos, in the Archipelago.
+> - <sup>o</sup> 10. the first day of the week no doubt, on which the first Christians systematically met together to worship God, and observe divine ordinances, as is everywhere testified to in the New Testament and the writers of the first and second centuries. They never in a single case call it “Sabbath,” but either “Sunday” _or_ “the Lord’s Day,” and this they did on principle, viewing the name “Sabbath” as applicable only to the Jewish day; while the Lord’s day is emphatically a day of work—spiritual work of course—in commemoration of Christ’s rising from rest to work in a higher sphere, as Intercessor, and King in Zion. Some have weakly confounded this “Lord’s day” with the “day of the Lord,” so often spoken of, but the phrases in Greek are entirely distinct.
+> - <sup>p</sup> 11. Textual note: _Oldest MSS. omit._
+> - <sup>q</sup> 11. Lit., _a little book_
+> - <sup>r</sup> 11. Textual note: _Oldest MSS. omit._
+> - <sup>s</sup> 13. Lit., _zone._
+> - <sup>t</sup> 14. Lit., _“seen, visible,”_
+> - <sup>u</sup> 16. (i.e. a long Thracian sword)
+> - <sup>v</sup> 17. Or, _“perceived...laid over his...Be not fearing for thyself.”_
+> - <sup>w</sup> 18. Lit., _“unseen”_
+
 ## Chapter 2
 
-<sup>1</sup> “To the messenger of the Ephesian assembly write: These things saith he who is holding the seven stars in his right hand, who is walking in the midst of the seven lamp-stands—the golden:
+<sup>1</sup> <sup>a</sup>
+
+“To the messenger<sup>b</sup> of the Ephesian assembly<sup>c</sup> write: These things saith he who is holding the seven stars in his right hand, who is walking in the midst of the seven lamp-stands—the golden:
 <sup>2</sup> I have known thy works, and thy labour, and thy endurance, and that thou art not able to bear evil ones, and that thou hast tried those saying themselves to be apostles and are not, and hast found them liars,
 <sup>3</sup> and thou didst bear, and hast endurance, and because of my name hast toiled, and hast not been weary.
 <sup>4</sup> “But I have against thee: That thy first love thou didst leave!
 <sup>5</sup> remember, then, whence thou hast fallen, and reform, and the first works do; and if not, I come to thee quickly, and will remove thy lamp-stand from its place—if thou mayest not reform;
-<sup>6</sup> but this thou hast, that thou dost hate the works of the Nicolaitans, that I also hate.
+<sup>6</sup> but this thou hast, that thou dost hate the works of the Nicolaitans<sup>d</sup>, that I also hate.
 <sup>7</sup> He who is having an ear—let him hear what the Spirit saith to the assemblies: To him who is overcoming—I will give to him to eat of the tree of life that is in the midst of the paradise of God.
 
 <sup>8</sup> “And to the messenger of the assembly of the Smyrneans write: These things saith the First and the Last, who did become dead and did live;
-<sup>9</sup> I have known thy works, and tribulation, and poverty—yet thou art rich—and the evil-speaking of those saying themselves to be Jews, and are not, but _are_ a synagogue of the Adversary.
-<sup>10</sup> “Be not afraid of the things that thou art about to suffer; lo, the devil is about to cast of you to prison, that ye may be tried, and ye shall have tribulation ten days; become thou faithful unto death, and I will give to thee the crown of the life.
+<sup>9</sup> I have known thy works, and tribulation, and poverty—yet thou art rich—and the evil-speaking of those saying themselves to be Jews, and are not, but _are_ a synagogue of the Adversary<sup>e</sup>.
+<sup>10</sup> “Be not afraid of the things that thou art about to suffer; lo, the devil<sup>f</sup> is about to cast of you to prison, that ye may be tried, and ye shall have tribulation ten days; become thou faithful unto death, and I will give to thee the crown of the life.
 <sup>11</sup> He who is having an ear—let him hear what the Spirit saith to the assemblies: He who is overcoming may not be injured of the second death.
 
 <sup>12</sup> “And to the messenger of the assembly in Pergamos write: These things saith he who is having the sharp two-edged sword:
-<sup>13</sup> I have known thy works, and where thou dost dwell—where the throne of the Adversary _is_—and thou dost hold fast my name, and thou didst not deny my faith, even in the days in which Antipas _was_ my faithful witness, who was put to death beside you, where the Adversary doth dwell.
-<sup>14</sup> “But I have against thee a few things: That thou hast there those holding the teaching of Balaam, who did teach Balak to cast a stumbling-block before the sons of Israel, to eat idol-sacrifices, and to commit whoredom;
+<sup>13</sup> I have known thy works, and where thou dost dwell—where the throne of the Adversary _is_—and thou dost hold fast my name, and thou didst not deny my faith, even in the days in which Antipas<sup>g</sup> _was_ my faithful witness, who was put to death beside you, where the Adversary doth dwell.
+<sup>14</sup> “But I have against thee a few things: That thou hast there those holding the teaching of Balaam<sup>h</sup>, who did teach Balak to cast a stumbling-block<sup>i</sup> before the sons of Israel, to eat idol-sacrifices, and to commit whoredom<sup>j</sup>;
 <sup>15</sup> so hast thou, even thou, those holding the teaching of the Nicolaitans—which thing I hate.
 <sup>16</sup> “Reform! and if not, I come to thee quickly, and will fight against them with the sword of my mouth.
 <sup>17</sup> He who is having an ear—let him hear what the Spirit saith to the assemblies: To him who is overcoming, I will give to him to eat from the hidden manna, and will give to him a white stone, and upon the stone a new name written, that no one knew except him who is receiving _it_.
 
 <sup>18</sup> “And to the messenger of the assembly of Thyatira write: These things saith the Son of God, who is having his eyes as a flame of fire, and his feet like to fine brass;
 <sup>19</sup> I have known thy works, and love, and ministration, and faith, and thy endurance, and thy works—and the last _are_ more than the first.
-<sup>20</sup> “But I have against thee a few things: That thou dost suffer the woman Jezebel, who is calling herself a prophetess, to teach, and to lead astray, my servants to commit whoredom, and idol-sacrifices to eat;
+<sup>20</sup> “But I have against thee a few things: That thou dost suffer the woman Jezebel<sup>k</sup>, who is calling herself a prophetess, to teach, and to lead astray, my servants to commit whoredom, and idol-sacrifices to eat;
 <sup>21</sup> and I did give to her a time that she might reform from her whoredom, and she did not reform;
 <sup>22</sup> lo, I will cast her into a couch, and those committing adultery with her into great tribulation—if they may not repent of their works,
 <sup>23</sup> and her children I will kill in death, and know shall all the assemblies that I am he who is searching reins and hearts; and I will give to you—to each—according to your works.
 <sup>24</sup> “And to you I say, and to the rest who are in Thyatira, as many as have not this teaching, and who did not know the depths of the Adversary, as they say; I will not put upon you other burden;
-<sup>25</sup> but that which ye have—hold ye, till I may come;
+<sup>25</sup> but that which ye have—hold ye, till I may come<sup>l</sup>;
 <sup>26</sup> and he who is overcoming, and who is keeping unto the end my works, I will give to him authority over the nations,
 <sup>27</sup> and he shall rule them with a rod of iron—as the vessels of the potter they shall be broken—as I also have received from my Father;
 <sup>28</sup> and I will give to him the morning star.
 <sup>29</sup> He who is having an ear—let him hear what the Spirit saith to the assemblies.
 
+> - <sup>a</sup> 1. Chapter II. may be divided into four parts; v. 1–7 address to the Ephesian; v. 8–11 the Smyrnean; v. 12–17 the Pergamos; v. 18–29 the Thyatirean assembly.
+> - <sup>b</sup> 1. minister whom the assembly in Ephesus had probably sent along with messengers from six other churches to visit John in Patmos, as their representatives, to ask direction in the day of trial.
+> - <sup>c</sup> 1. where Paul laboured three years.
+> - <sup>d</sup> 6. a sect according to Irenaeus and Tertullian, called after Nicolaus, (Acts 6. 3. 5.) Very weak is the idea that Nicolaus (i.e. conqueror of the people) is equal to Balaam (i.e. swallower up of the people), and that the name is symbolic of covetous, unclean persons.
+> - <sup>e</sup> 9. _Gr._ Satan, i.e. one who shuts up “the way.”
+> - <sup>f</sup> 10. Lit., _thruster through_
+> - <sup>g</sup> 13. Antipater
+> - <sup>h</sup> 14. Balaam (i.e. swallower up of the people), who was teaching Balak (i.e. a breaker off, destroyer)
+> - <sup>i</sup> 14. Gr., _scandal, i.e. a thing for “laming” man or beast_
+> - <sup>j</sup> 14. Lit., _a “selling” of oneself._
+> - <sup>k</sup> 20. “without cohabitation;”
+> - <sup>l</sup> 25. Or, _“what things...I may or shall come.”_
+
 ## Chapter 3
 
-<sup>1</sup> And to the messenger of the assembly in Sardis write: These things saith he who is having the Seven Spirits of God, and the seven stars: I have known thy works, and that thou hast the name that thou dost live, and thou art dead;
+<sup>1</sup> <sup>a</sup>
+
+And to the messenger of the assembly in Sardis write: These things saith he who is having the Seven Spirits of God, and the seven stars: I have known thy works, and that thou hast the name that thou dost live, and thou art dead;
 <sup>2</sup> become watching, and strengthen the rest of the things that are about to die, for I have not found thy works fulfilled before God.
 <sup>3</sup> “Remember, then, how thou hast received, and heard, and be keeping, and reform: if, then, thou mayest not watch, I will come upon thee as a thief, and thou mayest not know what hour I will come upon thee.
 <sup>4</sup> Thou hast a few names even in Sardis who did not defile their garments, and they shall walk with me in white, because they are worthy.
@@ -77,24 +120,32 @@
 <sup>13</sup> He who is having an ear—let him hear what the Spirit saith to the assemblies.
 
 <sup>14</sup> “And to the messenger of the assembly of the Laodiceans write: These things saith the Amen, the witness—the faithful and true—the chief of the creation of God;
-<sup>15</sup> I have known thy works, that neither cold art thou nor hot; I would thou wert cold or hot.
+<sup>15</sup> I have known thy works, that neither cold art thou nor hot<sup>b</sup>; I would thou wert cold or hot.
 <sup>16</sup> So—because thou art lukewarm, and neither cold nor hot, I am about to vomit thee out of my mouth;
-<sup>17</sup> because thou sayest—I am rich, and have grown rich, and have need of nothing, and hast not known that thou art the wretched, and miserable, and poor, and blind, and naked,
-<sup>18</sup> I counsel thee to buy from me gold fired by fire, that thou mayest be rich, and white garments that thou mayest be arrayed, and the shame of thy nakedness may not be manifest, and with eye-salve anoint thine eyes, that thou mayest see.
-<sup>19</sup> “As many as I love, I do convict and chasten; be zealous, then, and reform;
+<sup>17</sup> because thou sayest—I am rich, and have grown rich, and have need of nothing, and hast not known that thou art the wretched<sup>c</sup>, and miserable, and poor, and blind, and naked,
+<sup>18</sup> I counsel thee to buy from me gold fired by fire, that thou mayest be rich, and white garments that thou mayest be arrayed, and the shame of thy nakedness may not be manifest, and with eye-salve<sup>d</sup> anoint thine eyes, that thou mayest see.
+<sup>19</sup> “As many as I love, I do convict and chasten<sup>e</sup>; be zealous, then, and reform;
 <sup>20</sup> lo, I have stood at the door, and I knock; if any one may hear my voice, and may open the door, I will come in unto him, and will sup with him, and he with me.
 <sup>21</sup> He who is overcoming—I will give to him to sit with me in my throne, as I also did overcome and did sit down with my Father in His throne.
 <sup>22</sup> He who is having an ear—let him hear what the Spirit saith to the assemblies.”
 
+> - <sup>a</sup> 1. Chapter III. may be divided into three parts; v. 1–7 address to Sardis; v. 8–14 to Philadelphia; v. 15–22 to Laodicea.
+> - <sup>b</sup> 15. Or, _fervent, living_
+> - <sup>c</sup> 17. Lit., _the sustainer of wretchedness,_
+> - <sup>d</sup> 18. Lit., _collyrion_
+> - <sup>e</sup> 19. Or, _“I am friend to, I convict and instruct (lit. use as children); be zealous (at once), therefore, and have another mind”_
+
 ## Chapter 4
 
+<sup>1</sup> <sup>a</sup>
 ### A Vision of Heaven
 
-<sup>1</sup> After these things I saw, and lo, a door opened in the heaven, and the first voice that I heard _is_ as of a trumpet speaking with me, saying, “Come up hither, and I will shew thee what it behoveth to come to pass after these things;”
+
+After these things I saw, and lo, a door opened in the heaven, and the first voice that I heard _is_ as of a trumpet speaking with me, saying, “Come up hither, and I will shew thee what it behoveth to come to pass after these things;”
 
 <sup>2</sup> and immediately I was in the Spirit, and lo, a throne was set in the heaven, and upon the throne is _one_ sitting,
 <sup>3</sup> and He who is sitting was in sight like a stone, jasper and sardine: and a rainbow was round the throne in sight like an emerald.
-<sup>4</sup> And around the throne _are_ thrones twenty and four, and upon the thrones I saw the twenty and four elders sitting, clothed in white garments, and they had upon their heads crowns of gold;
+<sup>4</sup> And around the throne _are_ thrones twenty and four, and upon the thrones I saw the twenty and four elders<sup>b</sup> sitting, clothed in white garments, and they had upon their heads crowns of gold;
 <sup>5</sup> and out of the throne proceed do lightnings, and thunders, and voices; and seven lamps of fire are burning before the throne, which are the Seven Spirits of God,
 <sup>6</sup> and before the throne _is_ a sea of glass like to crystal, and in the midst of the throne, and round the throne, _are_ four living creatures, full of eyes before and behind;
 <sup>7</sup> and the first living creature _is_ like a lion, and the second living creature _is_ like a calf, and the third living creature hath the face as a man, and the fourth living creature _is_ like an eagle flying.
@@ -103,17 +154,22 @@
 <sup>10</sup> fall down do the twenty and four elders before Him who is sitting upon the throne, and bow before Him who is living to the ages of the ages, and they cast their crowns before the throne, saying,
 <sup>11</sup> “Worthy art Thou, O Lord, to receive the glory, and the honour, and the power, because Thou—Thou didst create the all things, and because of Thy will are they, and they were created.”
 
+> - <sup>a</sup> 1. Chapter IV. may be divided into three parts; v. 1–3 vision of an opened door in heaven, a voice, a throne, and One sitting on it; v. 4–7 with twenty-four elders and four living creatures; v. 8–11 and their employment.
+> - <sup>b</sup> 4. Gr., _presbyters_
+
 ## Chapter 5
 
+<sup>1</sup> <sup>a</sup>
 ### The Sealed Book
 
-<sup>1</sup> And I saw upon the right hand of Him who is sitting upon the throne a scroll, written within and on the back, sealed with seven seals;
+
+And I saw upon the right hand of Him who is sitting upon the throne a scroll, written within and on the back, sealed with seven seals;
 <sup>2</sup> and I saw a strong messenger crying with a great voice, “Who is worthy to open the scroll and to loose the seals of it?”
 <sup>3</sup> and no one was able in the heaven, nor upon the earth, nor under the earth, to open the scroll, nor to behold it.
 <sup>4</sup> And I was weeping much, because no one was found worthy to open and to read the scroll, nor to behold it,
 <sup>5</sup> and one of the elders saith to me, “Weep not; lo, overcome did the Lion, who is of the tribe of Judah, the root of David, to open the scroll, and to loose the seven seals of it;
 <sup>6</sup> and I saw, and lo, in the midst of the throne, and of the four living creatures, and in the midst of the elders, a Lamb hath stood as it had been slain, having seven horns and seven eyes, which are the Seven Spirits of God, which are sent to all the earth,
-<sup>7</sup> and he came and took the scroll out of the right hand of Him who is sitting upon the throne.
+<sup>7</sup> and he came and took<sup>b</sup> the scroll out of the right hand of Him who is sitting upon the throne.
 <sup>8</sup> And when he took the scroll, the four living creatures and the twenty-four elders fell before the Lamb, having each one harps and golden vials full of perfumes, which are the prayers of the saints,
 <sup>9</sup> and they sing a new song, saying, “Worthy art thou to take the scroll, and to open the seals of it, because thou wast slain, and didst redeem us to God in thy blood, out of every tribe, and tongue, and people, and nation,
 <sup>10</sup> and didst make us to our God kings and priests, and we shall reign upon the earth.”
@@ -122,43 +178,58 @@
 <sup>13</sup> and every creature that is in the heaven, and in the earth, and under the earth, and the things that are upon the sea, and the all things in them, heard I saying, “To Him who is sitting upon the throne, and to the Lamb, _is_ the blessing, and the honour, and the glory, and the might—to the ages of the ages!”
 <sup>14</sup> and the four living creatures said, “Amen!” and the twenty-four elders fell down and they bow before Him who is living to the ages of the ages.
 
+> - <sup>a</sup> 1. Chapter V. may be divided into four parts; v. 1–3 vision of an unopened scroll; v. 4–7 which a Lamb takes; v. 8–10 amid the praises of the living creatures and the elders; v. 11–14 and of every other creature.
+> - <sup>b</sup> 7. Or, _received_
+
 ## Chapter 6
 
+<sup>1</sup> <sup>a</sup>
 ### Opening of the Seals
 
-<sup>1</sup> And I saw when the Lamb opened one of the seals, and I heard one of the four living creatures saying, as it were a voice of thunder, “Come and behold!”
+
+And I saw when the Lamb opened one of the seals, and I heard one of the four living creatures saying, as it were a voice of thunder, “Come and behold!”
 <sup>2</sup> and I saw, and lo, a white horse, and he who is sitting upon it is having a bow, and there was given to him a crown, and he went forth overcoming, and that he may overcome.
 
 <sup>3</sup> And when he opened the second seal, I heard the second living creature saying, “Come and behold!”
 <sup>4</sup> and there went forth another horse—red, and to him who is sitting upon it, there was given to him to take the peace from the land, and that one another they may slay, and there was given to him a great sword.
 
 <sup>5</sup> And when he opened the third seal, I heard the third living creature saying, “Come and behold!” and I saw, and lo, a black horse, and he who is sitting upon it is having a balance in his hand,
-<sup>6</sup> and I heard a voice in the midst of the four living creatures saying, “A measure of wheat for a denary, and three measures of barley for a denary,” and “The oil and the wine thou mayest not injure.”
+<sup>6</sup> and I heard a voice in the midst of the four living creatures saying, “A measure<sup>b</sup> of wheat for a denary, and three measures of barley for a denary,” and “The oil and the wine thou mayest not injure.”
 
 <sup>7</sup> And when he opened the fourth seal, I heard the voice of the fourth living creature saying, “Come and behold!”
-<sup>8</sup> and I saw, and lo, a pale horse, and he who is sitting upon him—his name is Death, and Hades doth follow with him, and there was given to them authority to kill, (over the fourth part of the land,) with sword, and with hunger, and with death, and by the beasts of the land.
+<sup>8</sup> and I saw, and lo, a pale<sup>c</sup> horse, and he who is sitting upon him—his name is Death, and Hades doth follow with him, and there was given to them authority to kill, (over the fourth part of the land,) with sword, and with hunger, and with death, and by the beasts of the land.
 
 <sup>9</sup> And when he opened the fifth seal, I saw under the altar the souls of those slain because of the word of God, and because of the testimony that they held,
-<sup>10</sup> and they were crying with a great voice, saying, “Till when, O Master, the Holy and the True, dost Thou not judge and take vengeance of our blood from those dwelling upon the land?”
+<sup>10</sup> and they were crying with a great voice, saying, “Till when, O Master<sup>d</sup>, the Holy and the True, dost Thou not judge and take vengeance of our blood from those dwelling upon the land?”
 <sup>11</sup> and there was given to each one white robes, and it was said to them that they may rest themselves yet a little time, till may be fulfilled also their fellow-servants and their brethren, who are about to be killed—even as they.
 
 <sup>12</sup> And I saw when he opened the sixth seal, and lo, a great earthquake came, and the sun became black as sackcloth of hair, and the moon became as blood,
 <sup>13</sup> and the stars of the heaven fell to the earth—as a fig-tree doth cast her winter figs, by a great wind being shaken—
-<sup>14</sup> and heaven departed as a scroll rolled up, and every mountain and island—out of their places they were moved;
+<sup>14</sup> and heaven departed<sup>e</sup> as a scroll rolled up, and every mountain and island—out of their places they were moved<sup>f</sup>;
 <sup>15</sup> and the kings of the earth, and the great men, and the rich, and the chiefs of thousands, and the mighty, and every servant, and every freeman, hid themselves in the dens, and in the rocks of the mountains,
-<sup>16</sup> and they say to the mountains and to the rocks, “Fall upon us, and hide us from the face of Him who is sitting upon the throne, and from the anger of the Lamb,”
+<sup>16</sup> and they say to the mountains and to the rocks, “Fall upon us, and hide us from the face of Him who is sitting upon the throne, and from the anger<sup>g</sup> of the Lamb,”
 <sup>17</sup> because come did the great day of His anger, and who is able to stand?
+
+> - <sup>a</sup> 1. Chapter VI. may be divided into six parts; v. 1, 2 first seal, a white horse; v. 3, 4 second seal, a red horse; v. 5, 6 third seal, a black horse; v. 7, 8 fourth seal, a pale horse; v. 9–11 fifth seal, souls of the slain; v. 12–17 sixth seal, a great earthquake.
+> - <sup>b</sup> 6. Lit., _A choenix_
+> - <sup>c</sup> 8. Lit., _sallow, or green_
+> - <sup>d</sup> 10. Lit., _Despot,_
+> - <sup>e</sup> 14. Or, _withdrew itself_
+> - <sup>f</sup> 14. Or, _moved themselves_
+> - <sup>g</sup> 16. Lit., _stretching out of the hand_
 
 ## Chapter 7
 
+<sup>1</sup> <sup>a</sup>
 ### Sealing the Servants of God
 
-<sup>1</sup> And after these things I saw four messengers, standing upon the four corners of the land, holding the four winds of the land, that the wind may not blow upon the land, nor upon the sea, nor upon any tree;
+
+And after these things I saw four messengers, standing upon the four corners of the land, holding the four winds of the land, that the wind may not blow upon the land, nor upon the sea, nor upon any tree;
 <sup>2</sup> and I saw another messenger going up from the rising of the sun, having a seal of the living God, and he did cry with a great voice to the four messengers, to whom it was given to injure the land and the sea, saying,
 <sup>3</sup> “Do not injure the land, nor the sea, nor the trees, till we may seal the servants of our God upon their foreheads.”
 <sup>4</sup> And I heard the number of those sealed, (one hundred and forty four thousands were sealed out of all the tribes of the sons of Israel):
 <sup>5</sup> of the tribe of Judah twelve thousand were sealed; of the tribe of Reuben twelve thousand were sealed; of the tribe of Gad twelve thousand were sealed;
-<sup>6</sup> of the tribe of Asher twelve thousand were sealed; of the tribe of Naphtali twelve thousand were sealed; of the tribe of Manasseh twelve thousand were sealed;
+<sup>6</sup> of the tribe of Asher twelve thousand were sealed; of the tribe of Naphtali twelve thousand were sealed; of the tribe of Manasseh<sup>b</sup> twelve thousand were sealed;
 <sup>7</sup> of the tribe of Simeon twelve thousand were sealed; of the tribe of Levi twelve thousand were sealed; of the tribe of Issachar twelve thousand were sealed;
 <sup>8</sup> of the tribe of Zebulun twelve thousand were sealed; of the tribe of Joseph twelve thousand were sealed; of the tribe of Benjamin twelve thousand were sealed.
 
@@ -166,21 +237,28 @@
 <sup>10</sup> and crying with a great voice, saying, “The salvation _is_ to Him who is sitting upon the throne—to our God, and to the Lamb!”
 
 <sup>11</sup> And all the messengers stood around the throne, and the elders and the four living creatures, and they fell upon their face, and bowed before God,
-<sup>12</sup> saying, “Amen! the blessing, and the glory, and the wisdom, and the thanksgiving, and the honour, and the power, and the strength, _are_ to our God—to the ages of the ages! Amen!”
+<sup>12</sup> saying, “Amen! the blessing, and the glory, and the wisdom<sup>c</sup>, and the thanksgiving, and the honour, and the power, and the strength, _are_ to our God—to the ages of the ages! Amen!”
 
-<sup>13</sup> And answer did one of the elders, saying to me, “These, who have been arrayed with the white robes—who are they, and whence came they?”
+<sup>13</sup> And answer did one of the elders<sup>d</sup>, saying to me, “These, who have been arrayed with the white robes—who are they, and whence came they?”
 <sup>14</sup> and I have said to him, “Sir, thou hast known;” and he said to me, “These are those who are coming out of the great tribulation, and they did wash their robes, and they made their robes white in the blood of the Lamb;
 <sup>15</sup> because of this are they before the throne of God, and they do service to Him day and night in His sanctuary, and He who is sitting upon the throne shall tabernacle over them;
 <sup>16</sup> they shall not hunger any more, nor may the sun fall upon them, nor any heat,
 <sup>17</sup> because the Lamb that _is_ in the midst of the throne shall feed them, and shall lead them unto living fountains of waters, and wipe away shall God every tear from their eyes.”
 
+> - <sup>a</sup> 1. Chapter VII. may be divided into five parts; v. 1–3 the four winds restrained; v. 4–8 a perfect number of Israel are sealed; v. 9, 10 praise by a great multitude; v. 11, 12 and by the messengers, the presbyters, and the four living creatures; v. 13–17 happiness of the saved.
+> - <sup>b</sup> 6. Put instead of Dan.
+> - <sup>c</sup> 12. Lit., _soundness of speech_
+> - <sup>d</sup> 13. Lit., _“out of the presbyters answered (lit. judged off for himself)...have cast round themselves the white robes.”_
+
 ## Chapter 8
 
-<sup>1</sup> And when he openeth the seventh seal, there came silence in the heaven about half-an-hour,
+<sup>1</sup> <sup>a</sup>
+
+And when he openeth the seventh seal, there came silence in the heaven about half-an-hour,
 
 ### Trumpet Peals
 
-<sup>2</sup> and I saw the seven messengers who before God have stood, and there were given to them seven trumpets,
+<sup>2</sup> and I saw the seven messengers who before God have stood<sup>b</sup>, and there were given to them seven trumpets,
 
 <sup>3</sup> and another messenger did come, and he stood at the altar, having a golden censer, and there was given to him much perfume, that he may give _it_ to the prayers of all the saints upon the golden altar that _is_ before the throne,
 <sup>4</sup> and go up did the smoke of the perfumes to the prayers of the saints out of the hand of the messenger, before God;
@@ -191,46 +269,62 @@
 <sup>7</sup> and the first messenger did sound, and there came hail and fire, mingled with blood, and it was cast to the land, and the third of the trees was burnt up, and all the green grass was burnt up.
 
 <sup>8</sup> And the second messenger did sound, and as it were a great mountain with fire burning was cast into the sea, and the third of the sea became blood,
-<sup>9</sup> and die did the third of the creatures that _are_ in the sea, those having life, and the third of the ships were destroyed.
+<sup>9</sup> and die did the third of the creatures that _are_ in the sea, those having life<sup>c</sup>, and the third of the ships were destroyed.
 
 <sup>10</sup> And the third messenger did sound, and there fell out of the heaven a great star, burning as a lamp, and it did fall upon the third of the rivers, and upon the fountains of waters,
-<sup>11</sup> and the name of the star is called Wormwood, and the third of the waters doth become wormwood, and many of the men did die of the waters, because they were made bitter.
+<sup>11</sup> and the name of the star is called Wormwood, and the third of the waters doth become wormwood<sup>d</sup>, and many of the men did die of the waters, because they were made bitter.
 
 <sup>12</sup> And the fourth messenger did sound, and smitten was the third of the sun, and the third of the moon, and the third of the stars, that darkened may be the third of them, and that the day may not shine—the third of it, and the night in like manner.
 
 <sup>13</sup> And I saw, and I heard one messenger, flying in the mid-heaven, saying with a great voice, “Woe, woe, woe, to those dwelling upon the land from the rest of the voices of the trumpet of the three messengers who are about to sound.”
 
+> - <sup>a</sup> 1. Chapter VIII. may be divided into six parts; v. 1–5 opening of the seventh seal; v. 6, 7 sounding of the first trumpet; v. 8, 9 of the second; v. 10, 11 of the third; v. 12 of the fourth; v. 13 announcement of the fifth.
+> - <sup>b</sup> 2. Lit., _“have stationed themselves,”_
+> - <sup>c</sup> 9. Lit., _souls_
+> - <sup>d</sup> 11. Lit., _“undrinkable...becomes undrinkable, and many of the men died away by (lit. out of, from).”_
+
 ## Chapter 9
 
-<sup>1</sup> And the fifth messenger did sound, and I saw a star out of the heaven having fallen to the earth, and there was given to it the key of the pit of the abyss,
+<sup>1</sup> <sup>a</sup>
+
+And the fifth messenger did sound, and I saw a star out of the heaven having fallen to the earth, and there was given to it the key of the pit of the abyss<sup>b</sup>,
 <sup>2</sup> and he did open the pit of the abyss, and there came up a smoke out of the pit as smoke of a great furnace, and darkened was the sun and the air, from the smoke of the pit.
 <sup>3</sup> And out of the smoke came forth locusts to the earth, and there was given to them authority, as scorpions of the earth have authority,
 <sup>4</sup> and it was said to them that they may not injure the grass of the earth, nor any green thing, nor any tree, but—the men only who have not the seal of God upon their foreheads,
-<sup>5</sup> and it was given to them that they may not kill them, but that they may be tormented five months, and their torment _is_ as the torment of a scorpion, when it may strike a man;
+<sup>5</sup> and it was given to them that they may not kill them, but that they may be tormented five months, and their torment<sup>c</sup> _is_ as the torment of a scorpion, when it may strike a man;
 <sup>6</sup> and in those days shall men seek the death, and they shall not find it, and they shall desire to die, and the death shall flee from them.
 <sup>7</sup> And the likenesses of the locusts _are_ like to horses made ready to battle, and upon their heads as crowns like gold, and their faces as faces of men,
 <sup>8</sup> and they had hair as hair of women, and their teeth were as _those_ of lions,
 <sup>9</sup> and they had breastplates as breastplates of iron, and the noise of their wings _is_ as the noise of chariots of many horses running to battle;
 <sup>10</sup> and they have tails like to scorpions, and stings were in their tails; and their authority _is_ to injure men five months;
-<sup>11</sup> and they have over them a king—the messenger of the abyss—a name _is_ to him in Hebrew, Abaddon, and in the Greek he hath a name, Apollyon.
+<sup>11</sup> and they have over them a king—the messenger of the abyss—a name _is_ to him in Hebrew, Abaddon<sup>d</sup>, and in the Greek he hath a name, Apollyon.
 
 <sup>12</sup> The first woe did go forth, lo, there come yet two woes after these things.
 
 <sup>13</sup> And the sixth messenger did sound, and I heard a voice out of the four horns of the altar of gold that is before God,
-<sup>14</sup> saying to the sixth messenger who had the trumpet, “Loose the four messengers who are bound at the great river Euphrates;”
+<sup>14</sup> saying to the sixth messenger who had the trumpet, “Loose the four messengers who are bound at the great river Euphrates<sup>e</sup>;”
 <sup>15</sup> and loosed were the four messengers, who have been made ready for the hour, and day, and month, and year, that they may kill the third of men;
 <sup>16</sup> and the number of the forces of the horsemen _is_ two myriads of myriads, and I heard the number of them.
-<sup>17</sup> And thus I saw the horses in the vision, and those sitting upon them, having breastplates of fire, and jacinth, and brimstone; and the heads of the horses _are_ as heads of lions, and out of their mouths proceedeth fire, and smoke, and brimstone;
+<sup>17</sup> And thus I saw<sup>f</sup> the horses in the vision, and those sitting upon them, having breastplates of fire, and jacinth, and brimstone; and the heads of the horses _are_ as heads of lions, and out of their mouths proceedeth fire, and smoke, and brimstone;
 <sup>18</sup> by these three were the third of men killed, from the fire, and from the smoke, and from the brimstone, that is proceeding out of their mouth,
 <sup>19</sup> for their authorities are in their mouth, and in their tails, for their tails _are_ like serpents, having heads, and with them they do injure;
 <sup>20</sup> and the rest of men, who were not killed in these plagues, neither did reform from the works of their hands, that they may not bow before the demons, and idols, those of gold, and those of silver, and those of brass, and those of stone, and those of wood, that are neither able to see, nor to hear, nor to walk,
 <sup>21</sup> yea they did not reform from their murders, nor from their sorceries, nor from their whoredoms, nor from their thefts.
 
+> - <sup>a</sup> 1. Chapter IX. may be divided into five parts; v. 1, 2 sounding of the fifth trumpet, and opening of the abyss; v. 3–6 authority given to locusts; v. 7–12 their likeness and king; v. 13–16 sounding of the sixth trumpet, and loosing of four messengers; v. 17–21 appearance of the horses and horsemen.
+> - <sup>b</sup> 1. a very deep or bottomless place.
+> - <sup>c</sup> 5. The word trial in Greek is derived from the stone Basanos, used in Lydia for testing gold.
+> - <sup>d</sup> 11. “Abaddon (i.e. a separator, destroyer), and in the Hellenistic (language) he has a name Apollyon,” i.e. a looser away.
+> - <sup>e</sup> 14. very fruitful one.
+> - <sup>f</sup> 17. Or, _“perceived...and these sitting...cuirasses fiery and purple and sulphurous...as heads...passes forth...sulphur.”_
+
 ## Chapter 10
 
+<sup>1</sup> <sup>a</sup>
 ### The Angel and the Book
 
-<sup>1</sup> And I saw another strong messenger coming down out of the heaven, arrayed with a cloud, and a rainbow upon the head, and his face as the sun, and his feet as pillars of fire,
+
+And I saw another strong messenger coming down out of the heaven, arrayed with a cloud, and a rainbow upon the head, and his face as the sun, and his feet as pillars of fire,
 <sup>2</sup> and he had in his hand a little scroll opened, and he did place his right foot upon the sea, and the left upon the land,
 <sup>3</sup> and he cried with a great voice, as a lion doth roar, and when he cried, speak out did the seven thunders their voices;
 <sup>4</sup> and when the seven thunders spake their voices, I was about to write, and I heard a voice out of the heaven saying to me, “Seal the things that the seven thunders spake,” and, “Thou mayest not write these things.”
@@ -242,25 +336,29 @@
 <sup>10</sup> And I took the little scroll out of the hand of the messenger, and did eat it up, and it was in my mouth as honey—sweet, and when I did eat it—my belly was made bitter;
 <sup>11</sup> and he saith to me, “It behoveth thee again to prophesy about peoples, and nations, and tongues, and kings—many.”
 
+> - <sup>a</sup> 1. Chapter X. may be divided into four parts; v. 1–4 vision of a messenger forbidding further writing; v. 5–7 and swearing that time shall not be yet; v. 8, 9 John directed to eat a little roll; v. 10, 11 which is at first sweet, but afterwards bitter.
+
 ## Chapter 11
 
+<sup>1</sup> <sup>a</sup>
 ### The Angel and the Temple
 
-<sup>1</sup> And there was given to me a reed like to a rod, and the messenger stood, saying, “Rise, and measure the sanctuary of God, and the altar, and those worshipping in it;
-<sup>2</sup> and the court that is without the sanctuary leave out, and thou mayest not measure it, because it was given to the nations, and the holy city they shall tread down forty-two months;
-<sup>3</sup> and I will give to My two witnesses, and they shall prophesy days, a thousand, two hundred, sixty, arrayed with sackcloth;
-<sup>4</sup> these are the two olive _trees_, and the two lamp-stands that before the God of the earth do stand;
+
+And there was given to me a reed like to a rod, and the messenger stood, saying, “Rise, and measure the sanctuary of God, and the altar, and those worshipping in it;
+<sup>2</sup> and the court that is without the sanctuary leave out, and thou mayest not measure it, because it was given to the nations, and the holy city they shall tread down forty-two months<sup>b</sup>;
+<sup>3</sup> and I will give to My two witnesses<sup>c</sup>, and they shall prophesy days, a thousand, two hundred, sixty<sup>d</sup>, arrayed with sackcloth;
+<sup>4</sup> these are the two olive _trees_, and the two lamp-stands<sup>e</sup> that before the God of the earth do stand;
 <sup>5</sup> and if any one may will to injure them, fire doth proceed out of their mouth, and doth devour their enemies, and if any one may will to injure them, thus it behoveth him to be killed.
 <sup>6</sup> These have authority to shut the heaven, that it may not rain rain in the days of their prophecy, and authority they have over the waters to turn them to blood, and to smite the land with every plague, as often as they may will.
 <sup>7</sup> “And when they may finish their testimony, the beast that is coming up out of the abyss shall make war with them, and overcome them, and kill them,
-<sup>8</sup> and their dead bodies _are_ upon the broad-place of the great city (that is called spiritually Sodom, and Egypt, where also our Lord was crucified,)
+<sup>8</sup> and their dead bodies _are_ upon the broad-place of the great city<sup>f</sup> (that is called spiritually Sodom, and Egypt, where also our Lord was crucified,)
 <sup>9</sup> and they shall behold—they of the peoples, and tribes, and tongues, and nations—their dead bodies three days and a half, and their dead bodies they shall not suffer to be put into tombs,
 <sup>10</sup> and those dwelling upon the land shall rejoice over them, and shall make merry, and gifts they shall send to one another, because these—the two prophets—did torment those dwelling upon the land.”
 <sup>11</sup> And after the three days and a half, a spirit of life from God did enter into them, and they stood upon their feet, and great fear fell upon those beholding them,
 <sup>12</sup> and they heard a great voice out of the heaven saying to them, “Come up hither;” and they went up to the heaven in the cloud, and their enemies beheld them;
 <sup>13</sup> and in that hour came a great earthquake, and the tenth of the city did fall, and killed in the earthquake were names of men—seven thousands, and the rest became affrighted, and they gave glory to the God of the heaven.
 
-<sup>14</sup> The second woe did go forth, lo, the third woe doth come quickly.
+<sup>14</sup> The second woe did go forth, lo, the third woe doth come quickly<sup>g</sup>.
 
 ### The Last Trumpet’s Peal
 
@@ -271,20 +369,30 @@
 
 <sup>19</sup> And opened was the sanctuary of God in the heaven, and there was seen the ark of His covenant in His sanctuary, and there did come lightnings, and voices, and thunders, and an earthquake, and great hail.
 
+> - <sup>a</sup> 1. Chapter XI. may be divided into five parts; v. 1–6 the measurement of the habitation of God and the two witnesses; v. 7–10 their death and the enemy’s joy; v. 11–14 their ascent and the enemy’s fear; v. 15–18 sounding of the seventh trumpet and the praise of the presbyters; v. 19 vision of the ark, &c.
+> - <sup>b</sup> 2. i.e. 1260 days or 3½ years, the exact time the Romans besieged Jerusalem.
+> - <sup>c</sup> 3. a sufficient number; two being required by law.
+> - <sup>d</sup> 3. See my “Biblical Tracts” for an exposure of the monstrosity of supposing that “a day” in prophetic language means “a year.” Among all the Old Testament prophecies that have already been fulfilled not one has been, or can be, adduced as supporting such a hypothesis.
+> - <sup>e</sup> 4. Or, _“lampstands.”_
+> - <sup>f</sup> 8. even Jerusalem.
+> - <sup>g</sup> 14. Lit., _“went away; behold...comes speedily,”_
+
 ## Chapter 12
 
+<sup>1</sup> <sup>a</sup>
 ### War in Heaven
 
-<sup>1</sup> And a great sign was seen in the heaven, a woman arrayed with the sun, and the moon under her feet, and upon her head a crown of twelve stars,
+
+And a great sign was seen in the heaven, a woman arrayed with the sun, and the moon under her feet, and upon her head a crown of twelve stars,
 <sup>2</sup> and being with child she doth cry out, travailing and pained to bring forth.
 <sup>3</sup> And there was seen another sign in the heaven, and, lo, a great red dragon, having seven heads and ten horns, and upon his head seven diadems,
 <sup>4</sup> and his tail doth draw the third of the stars of the heaven, and he did cast them to the earth; and the dragon did stand before the woman who is about to bring forth, that when she may bring forth, her child he may devour;
 <sup>5</sup> and she brought forth a male child, who is about to rule all the nations with a rod of iron, and caught away was her child unto God and His throne,
 <sup>6</sup> and the woman did flee to the wilderness, where she hath a place made ready from God, that there they may nourish her—days a thousand, two hundred, sixty.
 
-<sup>7</sup> And there came war in the heaven; Michael and his messengers did war against the dragon, and the dragon did war, and his messengers,
+<sup>7</sup> And there came war in the heaven; Michael<sup>b</sup> and his messengers did war against the dragon, and the dragon did war, and his messengers,
 <sup>8</sup> and they did not prevail, nor was their place found any more in the heaven;
-<sup>9</sup> and the great dragon was cast forth—the old serpent, who is called “Devil,” and “the Adversary,” who is leading astray the whole world—he was cast forth to the earth, and his messengers were cast forth with him.
+<sup>9</sup> and the great dragon was cast forth—the old serpent, who is called “Devil<sup>c</sup>,” and “the Adversary<sup>d</sup>,” who is leading astray the whole world—he was cast forth to the earth, and his messengers were cast forth with him.
 <sup>10</sup> And I heard a great voice saying in the heaven, “Now did come the salvation, and the power, and the reign, of our God, and the authority of His Christ, because cast down was the accuser of our brethren, who is accusing them before our God day and night;
 <sup>11</sup> and they did overcome him because of the blood of the Lamb, and because of the word of their testimony, and they did not love their life—unto death;
 <sup>12</sup> because of this be glad, ye heavens, and those in them who do tabernacle; woe to those inhabiting the land and the sea, because the Devil did go down unto you, having great wrath, having known that he hath little time.”
@@ -295,11 +403,18 @@
 <sup>16</sup> and the land did help the woman, and the land did open its mouth and did swallow up the river, that the dragon did cast forth out of his mouth;
 <sup>17</sup> and the dragon was angry against the woman, and went away to make war with the rest of her seed, those keeping the commands of God, and having the testimony of Jesus Christ.
 
+> - <sup>a</sup> 1. Chapter XII. may be divided into five parts; v. 1, 2 sign of a woman in child-birth; v. 3–6 and of a dragon seeking to destroy her child and herself; v. 7–9 war in heaven and some cast out; v. 10–12 causing joy therein; v. 13–17 the dragon pursues the woman and her seed.
+> - <sup>b</sup> 7. “who is like God?”
+> - <sup>c</sup> 9. Lit., _“thruster through,”_
+> - <sup>d</sup> 9. the Shutter-up
+
 ## Chapter 13
 
+<sup>1</sup> <sup>a</sup>
 ### War in the Sea and on Land
 
-<sup>1</sup> And I stood upon the sand of the sea, and I saw out of the sea a beast coming up, having seven heads and ten horns, and upon its horns ten diadems, and upon its heads a name of evil speaking,
+
+And I stood upon the sand of the sea, and I saw out of the sea a beast coming up, having seven heads and ten horns, and upon its horns ten diadems, and upon its heads a name of evil speaking,
 <sup>2</sup> and the beast that I saw was like to a leopard, and its feet as of a bear, and its mouth as the mouth of a lion, and the dragon did give to it his power, and his throne, and great authority.
 <sup>3</sup> And I saw one of its heads as slain to death, and its deadly stroke was healed, and all the earth did wonder after the beast,
 <sup>4</sup> and they did bow before the dragon who did give authority to the beast, and they did bow before the beast, saying, “Who _is_ like to the beast? who is able to war with it?”
@@ -318,16 +433,21 @@
 <sup>15</sup> and there was given to it to give a spirit to the image of the beast, that also the image of the beast may speak, and _that_ it may cause as many as shall not bow before the image of the beast, that they may be killed.
 <sup>16</sup> And it maketh all, the small, and the great, and the rich, and the poor, and the freemen, and the servants, that it may give to them a mark upon their right hand or upon their foreheads,
 <sup>17</sup> and that no one may be able to buy, or to sell, except he who is having the mark, or the name of the beast, or the number of his name.
-<sup>18</sup> Here is the wisdom! He who is having the understanding, let him count the number of the beast, for the number of a man it is, and its number _is_ six hundred and sixty six.
+<sup>18</sup> Here is the wisdom! He who is having the understanding, let him count the number of the beast, for the number of a man it is, and its number _is_ six hundred and sixty six<sup>b</sup>.
+
+> - <sup>a</sup> 1. Chapter XIII. may be divided into four parts; v. 1–4 appearance of a little wild beast coming up out of the sea; v. 5–10 its authority and conduct; v. 11–17 a second little wild beast; v. 18 its number.
+> - <sup>b</sup> 18. The Greek here (as in 7. 4–18) gives the number not in words but in letters, viz., χξς, i.e. 600 + 60 + 6=666. Another reading mentioned by Irenaeus is 616...it is shown to refer to Nero, whose character is entirely in accordance with the description here given, and whose name, when spelt in the full Hebrew form Neron, yields the number 666, and in the shorter Greek form Nero gives 616, thus, accounting satisfactorily for the variation as noticed by Irenaeus.
 
 ## Chapter 14
 
+<sup>1</sup> <sup>a</sup>
 ### The Church Triumphant
 
-<sup>1</sup> And I saw, and lo, a Lamb having stood upon the mount Sion, and with him an hundred forty-four thousands, having the name of his Father written upon their foreheads;
+
+And I saw, and lo, a Lamb having stood upon the mount Sion<sup>b</sup>, and with him an hundred forty-four thousands, having the name of his Father written upon their foreheads;
 <sup>2</sup> and I heard a voice out of the heaven, as a voice of many waters, and as a voice of great thunder, and a voice I heard of harpers harping with their harps,
 <sup>3</sup> and they sing, as it were, a new song before the throne, and before the four living creatures, and the elders, and no one was able to learn the song except the hundred forty-four thousands, who have been bought from the earth;
-<sup>4</sup> these are they who with women were not defiled, for they are virgin; these are they who are following the Lamb whithersoever he may go; these were bought from among men—a first-fruit to God and to the Lamb—
+<sup>4</sup> these are they who with women were not defiled, for they are virgin<sup>c</sup>; these are they who are following the Lamb whithersoever he may go; these were bought from among men—a first-fruit to God and to the Lamb—
 <sup>5</sup> and in their mouth there was not found guile, for unblemished are they before the throne of God.
 
 <sup>6</sup> And I saw another messenger flying in mid-heaven, having good news age-during to proclaim to those dwelling upon the earth, and to every nation, and tribe, and tongue, and people,
@@ -342,7 +462,7 @@
 
 <sup>13</sup> And I heard a voice out of the heaven saying to me, “Write: Happy are the dead who in the Lord are dying from this time!” “Yes, (saith the Spirit,) That they may rest from their labours—and their works do follow them!”
 
-<sup>14</sup> And I saw, and lo, a white cloud, and upon the cloud _one_ sitting like to a son of man, having upon his head a golden crown, and in his hand a sharp sickle;
+<sup>14</sup> And I saw, and lo, a white cloud, and upon the cloud _one_ sitting like to a son of man<sup>d</sup>, having upon his head a golden crown, and in his hand a sharp sickle;
 <sup>15</sup> and another messenger did come forth out of the sanctuary crying in a great voice to him who is sitting upon the cloud, “Send forth thy sickle and reap, because come to thee hath the hour of reaping, because ripe hath been the harvest of the earth;”
 <sup>16</sup> and he who is sitting upon the cloud did put forth his sickle upon the earth, and the earth was reaped.
 
@@ -351,9 +471,16 @@
 <sup>19</sup> and the messenger did put forth his sickle to the earth, and did gather the vine of the earth, and did cast _it_ to the great wine-press of the wrath of God;
 <sup>20</sup> and trodden was the wine-press outside of the city, and blood did come forth out of the wine-press—unto the bridles of the horses, a thousand, six hundred furlongs.
 
+> - <sup>a</sup> 1. Chapter XIV. may be divided into three parts; v. 1–5 vision of a Lamb and 144,000 redeemed singers; v. 6–13 four voices speak; v. 14–20 vision of the two reapers.
+> - <sup>b</sup> 1. dry or sunny place.
+> - <sup>c</sup> 4. the word is mas. not feminine here.
+> - <sup>d</sup> 14. evidently the “Lord of angels” could not receive a command from one, as here in v. 15, “Send forth at once!” as the aorist imperative implies.
+
 ## Chapter 15
 
-<sup>1</sup> And I saw another sign in the heaven, great and wonderful, seven messengers having the seven last plagues, because in these was completed the wrath of God,
+<sup>1</sup> <sup>a</sup>
+
+And I saw another sign in the heaven, great and wonderful, seven messengers having the seven last plagues, because in these was completed the wrath of God,
 
 <sup>2</sup> and I saw as a sea of glass mingled with fire, and those who do gain the victory over the beast, and his image, and his mark, _and_ the number of his name, standing by the sea of the glass, having harps of God,
 <sup>3</sup> and they sing the song of Moses, servant of God, and the song of the Lamb, saying, “Great and wonderful _are_ Thy works, O Lord God, the Almighty, righteous and true _are_ Thy ways, O King of saints,
@@ -364,11 +491,15 @@
 <sup>7</sup> and one of the four living creatures did give to the seven messengers seven golden vials, full of the wrath of God, who is living to the ages of the ages;
 <sup>8</sup> and filled was the sanctuary with smoke from the glory of God, and from His power, and no one was able to enter into the sanctuary till the seven plagues of the seven messengers may be finished.
 
+> - <sup>a</sup> 1. Chapter XV. may be divided into two parts; v. 1–4 vision of seven messengers, a sea of glass, and the song of the victors; v. 5–8 also of seven vials and the sanctuary filled with smoke.
+
 ## Chapter 16
 
+<sup>1</sup> <sup>a</sup>
 ### Visions of Judgement
 
-<sup>1</sup> And I heard a great voice out of the sanctuary saying to the seven messengers, “Go away, and pour out the vials of the wrath of God to the earth;”
+
+And I heard a great voice out of the sanctuary saying to the seven messengers, “Go away, and pour out the vials of the wrath of God to the earth;”
 
 <sup>2</sup> and the first did go away, and did pour out his vial upon the land, and there came a sore—bad and grievous—to men, those having the mark of the beast, and those bowing to his image.
 
@@ -386,26 +517,33 @@
 <sup>11</sup> and they did speak evil of the God of the heaven, from their pains, and from their sores, and they did not reform from their works.
 
 <sup>12</sup> And the sixth messenger did pour out his vial upon the great river, the Euphrates, and dried up was its water, that the way of the kings who are from the rising of the sun may be made ready;
-<sup>13</sup> and I saw _come_ out of the mouth of the dragon, and out of the mouth of the beast, and out of the mouth of the false prophet, three unclean spirits like frogs—
+<sup>13</sup> and I saw<sup>b</sup> _come_ out of the mouth of the dragon, and out of the mouth of the beast, and out of the mouth of the false prophet, three unclean spirits like frogs—
 <sup>14</sup> for they are spirits of demons, doing signs—which go forth unto the kings of the earth, and of the whole world, to bring them together to the battle of that great day of God the Almighty;—
 <sup>15</sup> “lo, I do come as a thief; happy _is_ he who is watching, and keeping his garments, that he may not walk naked, and they may see his unseemliness,”—
-<sup>16</sup> and they did bring them together to the place that is called in Hebrew Armageddon.
+<sup>16</sup> and they did bring them together to the place that is called in Hebrew Armageddon<sup>c</sup>.
 
 <sup>17</sup> And the seventh messenger did pour out his vial to the air, and there came forth a great voice from the sanctuary of the heaven, from the throne, saying, “It hath come!”
 <sup>18</sup> and there came voices, and thunders, and lightnings; and a great earthquake came, such as came not since men came upon the earth, so mighty an earthquake—so great!
 <sup>19</sup> And it came—the great city—into three parts, and the cities of the nations did fall, and Babylon the great was remembered before God, to give to her the cup of the wine of the wrath of His anger,
 <sup>20</sup> and every island did flee away, and mountains were not found,
-<sup>21</sup> and great hail (as of talent weight) doth come down out of the heaven upon men, and men did speak evil of God because of the plague of the hail, because its plague is very great.
+<sup>21</sup> and great hail (as of talent weight<sup>d</sup>) doth come down out of the heaven upon men, and men did speak evil of God because of the plague of the hail, because its plague is very great.
+
+> - <sup>a</sup> 1. Chapter XVI. may be divided into seven parts; v. 1, 2 pouring out of the vials upon men; v. 3 upon the sea; v. 4–7 upon the rivers and the fountains; v. 8, 9 upon the sun; v. 10, 11 upon the throne of the wild beast; v. 12–16 upon the Euphrates; v. 17–21 upon the air.
+> - <sup>b</sup> 13. Or, _“perceived.”_
+> - <sup>c</sup> 16. i.e. hill of Mageddon, where Sisera was overthrown and Josiah was killed, Jud. 5. 19; 2 K. 23. 29. The name is symbolic of lamentation and wo.
+> - <sup>d</sup> 21. i.e. 93¾ lb. avoirdupois
 
 ## Chapter 17
 
+<sup>1</sup> <sup>a</sup>
 ### Visions of Doom
 
-<sup>1</sup> And there came one of the seven messengers, who were having the seven vials, and he spake with me, saying to me, “Come, I will shew to thee the judgment of the great whore, who is sitting upon the many waters,
+
+And there came one of the seven messengers, who were having the seven vials, and he spake with me, saying to me, “Come, I will shew to thee the judgment of the great whore, who is sitting upon the many waters,
 <sup>2</sup> with whom the kings of the earth did commit whoredom; and made drunk from the wine of her whoredom were those inhabiting the earth;”
 <sup>3</sup> and he carried me away to a wilderness in the Spirit, and I saw a woman sitting upon a scarlet-coloured beast, full of names of evil-speaking, having seven heads and ten horns,
 <sup>4</sup> and the woman was arrayed with purple and scarlet-colour, and gilded with gold, and precious stone, and pearls, having a golden cup in her hand full of abominations and uncleanness of her whoredom,
-<sup>5</sup> and upon her forehead was a name written: “Secret, Babylon the Great, the Mother of the Whores, and the Abominations of the earth.”
+<sup>5</sup> and upon her forehead was a name written: “Secret<sup>b</sup>, Babylon<sup>c</sup> the Great, the Mother of the Whores, and the Abominations of the earth.”
 <sup>6</sup> And I saw the woman drunken from the blood of the saints, and from the blood of the witnesses of Jesus, and I did wonder—having seen her—with great wonder;
 
 <sup>7</sup> and the messenger said to me, “Wherefore didst thou wonder? I—I will tell thee the secret of the woman and of the beast that _is_ carrying her, which hath the seven heads and the ten horns.
@@ -413,48 +551,68 @@
 <sup>9</sup> “Here _is_ the mind that is having wisdom; the seven heads are seven mountains, upon which the woman doth sit,
 <sup>10</sup> and there are seven kings, the five did fall, and the one is, the other did not yet come, and when he may come, it behoveth him to remain a little time;
 <sup>11</sup> and the beast that was, and is not, he also is eighth, and out of the seven he is, and to destruction he doth go away.
-<sup>12</sup> “And the ten horns that thou sawest, are ten kings, who a kingdom did not yet receive, but authority as kings the same hour do receive with the beast,
-<sup>13</sup> these have one mind, and their own power and authority to the beast they shall give over;
+<sup>12</sup> “And the ten horns that thou sawest<sup>d</sup>, are ten kings, who a kingdom did not yet receive, but authority as kings the same hour do receive with the beast,
+<sup>13</sup> these have one mind<sup>e</sup>, and their own power and authority to the beast they shall give over;
 <sup>14</sup> these with the Lamb shall make war, and the Lamb shall overcome them, because Lord of lords he is, and King of kings, and those with him are called, and choice, and stedfast.”
-<sup>15</sup> And he saith to me, “The waters that thou didst see, where the whore doth sit, are peoples, and multitudes, and nations, and tongues;”
+<sup>15</sup> And he saith to me, “The waters that thou didst see<sup>f</sup>, where the whore doth sit, are peoples, and multitudes, and nations, and tongues;”
 <sup>16</sup> and the ten horns that thou didst see upon the beast, these shall hate the whore, and shall make her desolate and naked, and shall eat her flesh, and shall burn her in fire,
 <sup>17</sup> for God did give into their hearts to do its mind, and to make one mind, and to give their kingdom to the beast till the sayings of God may be complete,
 <sup>18</sup> and the woman that thou didst see is the great city that is having reign over the kings of the land.”
 
+> - <sup>a</sup> 1. Chapter XVII. may be divided into four parts; v. 1–5 vision of a great whore; v. 6–11 uncovering of the secret of the wild beast carrying her with its seven heads; v. 12–14 and of its ten horns, warring with the little Lamb; v. 15–18 and of the waters on which she sits, which with the horns at last hate and consume her, who is now reigning over the kings of the land.
+> - <sup>b</sup> 5. a thing formerly unknown, now known.
+> - <sup>c</sup> 5. a symbolic name of any great oppressor of the church, as explained in v. 18.
+> - <sup>d</sup> 12. Or, _“perceivedst...which received...authority.”_
+> - <sup>e</sup> 13. Lit., _“knowledge,” i.e. opinion._
+> - <sup>f</sup> 15. Or, _“didst perceive...seats herself down...and crowds.”_
+
 ## Chapter 18
 
-<sup>1</sup> And after these things I saw another messenger coming down out of the heaven, having great authority, and the earth was lightened from his glory,
+<sup>1</sup> <sup>a</sup>
+
+And after these things I saw another messenger coming down out of the heaven, having great authority, and the earth was lightened from his glory,
 <sup>2</sup> and he did cry in might—a great voice, saying, “Fall, fall did Babylon the great, and she became a habitation of demons, and a hold of every unclean spirit, and a hold of every unclean and hateful bird,
 <sup>3</sup> because of the wine of the wrath of her whoredom have all the nations drunk, and the kings of the earth with her did commit whoredom, and merchants of the earth from the power of her revel were made rich.
 
 <sup>4</sup> And I heard another voice out of the heaven, saying, “Come forth out of her, My people, that ye may not partake with her sins, and that ye may not receive of her plagues,
 <sup>5</sup> because her sins did follow—unto the heaven, and God did remember her unrighteousness.
-<sup>6</sup> Render to her as also she did render to you, and double to her doubles according to her works; in the cup that she did mingle mingle to her double.
+<sup>6</sup> Render to her as also she did render to you<sup>b</sup>, and double to her doubles according to her works; in the cup that she did mingle mingle to her double.
 <sup>7</sup> “As much as she did glorify herself and did revel, so much torment and sorrow give to her, because in her heart she saith, I sit a queen, and a widow I am not, and sorrow I shall not see;
 <sup>8</sup> because of this, in one day, shall come her plagues, death, and sorrow, and famine; and in fire she shall be utterly burned, because strong _is_ the Lord God who is judging her;
 <sup>9</sup> and weep over her, and smite themselves for her, shall the kings of the earth, who with her did commit whoredom and did revel, when they may see the smoke of her burning,
 <sup>10</sup> from afar having stood because of the fear of her torment, saying, Woe, woe, the great city! Babylon, the strong city! because in one hour did come thy judgment.
 <sup>11</sup> “And the merchants of the earth shall weep and sorrow over her, because their lading no one doth buy any more;
-<sup>12</sup> lading of gold, and silver, and precious stone, and pearl, and fine linen, and purple, and silk, and scarlet, and all thyine wood, and every vessel of ivory, and every vessel of most precious wood, and brass, and iron, and marble,
+<sup>12</sup> lading of gold, and silver, and precious stone, and pearl, and fine linen, and purple, and silk, and scarlet, and all thyine<sup>c</sup> wood, and every vessel of ivory<sup>d</sup>, and every vessel of most precious wood, and brass, and iron, and marble<sup>e</sup>,
 <sup>13</sup> and cinnamon, and odours, and ointment, and frankincense, and wine, and oil, and fine flour, and wheat, and cattle, and sheep, and of horses, and of chariots, and of bodies and souls of men.
 <sup>14</sup> “And the fruits of the desire of thy soul did go away from thee, and all things—the dainty and the bright—did go away from thee, and no more at all mayest thou find them.
 <sup>15</sup> The merchants of these things, who were made rich by her, far off shall stand because of the fear of her torment, weeping, and sorrowing,
-<sup>16</sup> and saying, Woe, woe, the great city, that was arrayed with fine linen, and purple, and scarlet, and gilded in gold, and precious stone, and pearls—because in one hour so much riches were made waste!
-<sup>17</sup> “And every shipmaster, and all the company upon the ships, and sailors, and as many as work the sea, far off stood,
+<sup>16</sup> and saying, Woe, woe, the great city, that was arrayed with fine linen, and purple, and scarlet, and gilded in gold, and precious stone, and pearls—because in one hour so much riches were made waste<sup>f</sup>!
+<sup>17</sup> “And every shipmaster<sup>g</sup>, and all the company upon the ships, and sailors, and as many as work the sea, far off stood,
 <sup>18</sup> and were crying, seeing the smoke of her burning, saying, What _city is_ like to the great city?
 <sup>19</sup> and they did cast dust upon their heads, and were crying out, weeping and sorrowing, saying, Woe, woe, the great city! in which were made rich all having ships in the sea, out of her costliness—for in one hour was she made waste.
 <sup>20</sup> “Be glad over her, O heaven, and ye holy apostles and prophets, because God did judge your judgment of her!”
 
 <sup>21</sup> And one strong messenger did take up a stone as a great millstone, and did cast _it_ to the sea, saying, “Thus with violence shall Babylon be cast, the great city, and may not be found any more at all;
 <sup>22</sup> and voice of harpers, and musicians, and pipers, and trumpeters, may not be heard at all in thee any more; and any artisan of any art may not be found at all in thee any more; and noise of a millstone may not be heard at all in thee any more;
-<sup>23</sup> and light of a lamp may not shine at all in thee any more; and voice of bridegroom and of bride may not be heard at all in thee any more; because thy merchants were the great ones of the earth, because in thy sorcery were all the nationsled astray,
+<sup>23</sup> and light of a lamp may not shine at all in thee any more; and voice of bridegroom and of bride may not be heard at all in thee any more; because thy merchants were the great ones of the earth, because in thy sorcery<sup>h</sup> were all the nationsled astray,
 <sup>24</sup> and in her blood of prophets and of saints was found, and of all those who have been slain on the earth.”
+
+> - <sup>a</sup> 1. Chapter XVIII. may be divided into eight parts; v. 1–3 announcement of Babylon’s fall and its cause; v. 4–6 call to come out of her; v. 7, 8 her self-glorification; v. 9, 10 kings bewail her; v. 11–16 and merchants; v. 17–19 and those on the sea; v. 20 call to heaven to rejoice over it; v. 21–24 its violent and final end.
+> - <sup>b</sup> 6. Lit., _“give away or back...gave away or back (to you)...she mixed mix ye.”_
+> - <sup>c</sup> 12. i.e. perfume
+> - <sup>d</sup> 12. Gr., _elephantine_
+> - <sup>e</sup> 12. Lit., _“shining.”_
+> - <sup>f</sup> 16. Lit., _“was made bare.”_
+> - <sup>g</sup> 17. Or, _pilot, steersman,_
+> - <sup>h</sup> 23. Gr., _pharmacy_
 
 ## Chapter 19
 
+<sup>1</sup> <sup>a</sup>
 ### Songs of Deliverance
 
-<sup>1</sup> And after these things I heard a great voice of a great multitude in the heaven, saying, “Alleluia! the salvation, and the glory, and the honour, and the power, _is_ to the Lord our God;
+
+And after these things I heard a great voice of a great multitude in the heaven, saying, “Alleluia<sup>b</sup>! the salvation, and the glory, and the honour, and the power, _is_ to the Lord our God;
 <sup>2</sup> because true and righteous _are_ His judgments, because He did judge the great whore who did corrupt the earth in her whoredom, and He did avenge the blood of His servants at her hand;”
 <sup>3</sup> and a second time they said, “Alleluia;” and her smoke doth come up—to the ages of the ages!
 <sup>4</sup> And fall down did the elders—the twenty and four—and the four living creatures, and they did bow before God who is sitting upon the throne, saying, “Amen, Alleluia.”
@@ -467,7 +625,7 @@
 
 <sup>11</sup> And I saw the heaven having been opened, and lo, a white horse, and he who is sitting upon it is called Faithful and True, and in righteousness doth he judge and war,
 <sup>12</sup> and his eyes _are_ as a flame of fire, and upon his head _are_ many diadems—having a name written that no one hath known, except himself,
-<sup>13</sup> and he is arrayed with a garment covered with blood, and his name is called, The Word of God.
+<sup>13</sup> and he is arrayed with a garment covered with blood<sup>c</sup>, and his name is called, The Word of God.
 <sup>14</sup> And the armies in the heaven were following him upon white horses, clothed in fine linen—white and pure;
 <sup>15</sup> and out of his mouth doth proceed a sharp sword, that with it he may smite the nations, and he shall rule them with a rod of iron, and he doth tread the press of the wine of the wrath and the anger of God the Almighty,
 <sup>16</sup> and he hath upon the garment and upon his thigh the name written, “King of kings, and Lord of lords.”
@@ -479,14 +637,20 @@
 <sup>20</sup> and the beast was taken, and with him the false prophet who did the signs before him, in which he led astray those who did receive the mark of the beast, and those who did bow before his image; living they were cast—the two—to the lake of the fire, that is burning with brimstone;
 <sup>21</sup> and the rest were killed with the sword of him who is sitting on the horse, which _sword_ is proceeding out of his mouth, and all the birds were filled out of their flesh.
 
+> - <sup>a</sup> 1. Chapter XIX. may be divided into seven parts; v. 1–4 praises because of the punishment of the harlot; v. 5–8 of the marriage of the Lamb; v. 9, 10 order to write, and refusal of homage; v. 11–13 appearances of the Word of God; v. 14–16 his followers, work, and name; v. 17, 18 call to devour; v. 19–21 the beast and false prophet and followers defeated and ruined.
+> - <sup>b</sup> 1. Heb. Hallelujah, i.e. praise ye Jah
+> - <sup>c</sup> 13. covered or sprinkled with his own and his enemy’s blood.
+
 ## Chapter 20
 
-<sup>1</sup> And I saw a messenger coming down out of the heaven, having the key of the abyss, and a great chain over his hand,
-<sup>2</sup> and he laid hold on the dragon, the old serpent, who is Devil and Adversary, and did bind him a thousand years,
+<sup>1</sup> <sup>a</sup>
+
+And I saw a messenger coming down out of the heaven, having the key of the abyss, and a great chain over his hand,
+<sup>2</sup> and he laid hold on the dragon, the old serpent, who is Devil and Adversary<sup>b</sup>, and did bind him a thousand years,
 <sup>3</sup> and he cast him to the abyss, and did shut him up, and put a seal upon him, that he may not lead astray the nations any more, till the thousand years may be finished; and after these it behoveth him to be loosed a little time.
 
-<sup>4</sup> And I saw thrones, and they sat upon them, and judgment was given to them, and the souls of those who have been beheaded because of the testimony of Jesus, and because of the word of God, and who did not bow before the beast, nor his image, and did not receive the mark upon their forehead and upon their hand, and they did live and reign with Christ the thousand years;
-<sup>5</sup> and the rest of the dead did not live again till the thousand years may be finished; this _is_ the first rising again.
+<sup>4</sup> And I saw thrones, and they sat upon them, and judgment was given to them, and the souls of those who have been beheaded because of the testimony of Jesus, and because of the word of God, and who did not bow before the beast, nor his image, and did not receive the mark upon their forehead and upon their hand, and they did live and reign with Christ the thousand years<sup>c</sup>;
+<sup>5</sup> and the rest of the dead did not live again<sup>d</sup> till the thousand years may be finished; this _is_ the first rising again.
 <sup>6</sup> Happy and holy _is_ he who is having part in the first rising again; over these the second death hath not authority, but they shall be priests of God and of the Christ, and shall reign with him a thousand years.
 
 <sup>7</sup> And when the thousand years may be finished, the Adversary shall be loosed out of his prison,
@@ -502,12 +666,19 @@
 <sup>14</sup> and the death and the hades were cast to the lake of the fire—this _is_ the second death;
 <sup>15</sup> and if any one was not found written in the scroll of the life, he was cast to the lake of the fire.
 
+> - <sup>a</sup> 1. Chapter XX. may be divided into four parts; v. 1–3 vision of the binding of the Devil; v. 4–6 the thousand years’ reign; v. 7–10 ruin of Gog and Magog; v. 11–13 vision of a great white throne and final judgment.
+> - <sup>b</sup> 2. Lit., _“shutter up.”_
+> - <sup>c</sup> 4. a round number being used to indicate its greatness, as in Rev. 7. 4–8; 9. 16; 21. 16, &c.
+> - <sup>d</sup> 5. the wicked dead lived not, i.e. had no spirit or power during the 1000 years, till their chief was freed again.
+
 ## Chapter 21
 
+<sup>1</sup> <sup>a</sup>
 ### A New Heaven and Earth
 
-<sup>1</sup> And I saw a new heaven and a new earth, for the first heaven and the first earth did pass away, and the sea is not any more;
-<sup>2</sup> and I, John, saw the holy city—new Jerusalem—coming down from God out of the heaven, made ready as a bride adorned for her husband;
+
+And I saw a new heaven and a new earth, for the first heaven and the first earth did pass away, and the sea is not any more;
+<sup>2</sup> and I, John,<sup>b</sup> saw the holy city—new Jerusalem—coming down from God out of the heaven, made ready as a bride adorned for her husband;
 <sup>3</sup> and I heard a great voice out of the heaven, saying, “Lo, the tabernacle of God _is_ with men, and He will tabernacle with them, and they shall be His peoples, and God Himself shall be with them—their God,
 <sup>4</sup> and God shall wipe away every tear from their eyes, and the death shall not be any more, nor sorrow, nor crying, nor shall there be any more pain, because the first things did go away.”
 <sup>5</sup> And He who is sitting upon the throne said, “Lo, new I make all things; and He saith to me, “Write, because these words are true and stedfast;”
@@ -520,9 +691,9 @@
 <sup>11</sup> having the glory of God, and her light _is_ like a stone most precious, as a jasper stone clear as crystal,
 <sup>12</sup> having also a wall great and high, having twelve gates, and at the gates twelve messengers, and names written thereon, which are _those_ of the twelve tribes of the sons of Israel,
 <sup>13</sup> at the east three gates, at the north three gates, at the south three gates, at the west three gates;
-<sup>14</sup> and the wall of the city had twelve foundations, and in them names of the twelve apostles of the Lamb.
+<sup>14</sup> and the wall of the city had<sup>c</sup> twelve foundations, and in them names of the twelve apostles of the Lamb.
 <sup>15</sup> And he who is speaking with me had a golden reed, that he may measure the city, and its gates, and its wall;
-<sup>16</sup> and the city lieth square, and the length of it is as great as the breadth; and he did measure the city with the reed—furlongs twelve thousand; the length, and the breadth, and the height, of it are equal;
+<sup>16</sup> and the city lieth square, and the length of it is as great as the breadth; and he did measure the city with the reed—furlongs twelve thousand; the length, and the breadth, and the height, of it are equal<sup>d</sup>;
 <sup>17</sup> and he measured its wall, an hundred forty-four cubits, the measure of a man, that is, of the messenger;
 <sup>18</sup> and the building of its wall was jasper, and the city _is_ pure gold—like to pure glass;
 <sup>19</sup> and the foundations of the wall of the city with every precious stone have been adorned; the first foundation jasper; the second, sapphire; the third, chalcedony; the fourth, emerald;
@@ -530,16 +701,25 @@
 <sup>21</sup> And the twelve gates _are_ twelve pearls, each several one of the gates was of one pearl; and the broad-place of the city _is_ pure gold—as transparent glass.
 <sup>22</sup> And a sanctuary I did not see in it, for the Lord God, the Almighty, is its sanctuary, and the Lamb,
 <sup>23</sup> and the city hath no need of the sun, nor of the moon, that they may shine in it; for the glory of God did lighten it, and the lamp of it _is_ the Lamb;
-<sup>24</sup> and the nations of the saved in its light shall walk, and the kings of the earth do bring their glory and honour into it,
+<sup>24</sup> and the nations of the saved<sup>e</sup> in its light shall walk, and the kings of the earth do bring their glory and honour into it,
 <sup>25</sup> and its gates shall not at all be shut by day, for night shall not be there;
-<sup>26</sup> and they shall bring the glory and the honour of the nations into it;
+<sup>26</sup> and they shall bring<sup>f</sup> the glory and the honour of the nations into it;
 <sup>27</sup> and there may not at all enter into it any thing defiling and doing abomination, and a lie, but—those written in the scroll of the life of the Lamb.
+
+> - <sup>a</sup> 1. Chapter XXI. may be divided into five parts; v. 1–4 visions of a new heaven, earth, and city; v. 5–8 God’s promises and warnings; v. 9–14 vision of the Lamb’s wife—holy Jerusalem; v. 15–21 its measurements and its foundations; v. 22–27 its glory and purity.
+> - <sup>b</sup> 2. Textual note: _Omitted in many MSS., Versions, &c._
+> - <sup>c</sup> 14. Lit., _“is having...them (are) names.”_
+> - <sup>d</sup> 16. Or, _proportionate._
+> - <sup>e</sup> 24. Textual note: _MSS. omit._
+> - <sup>f</sup> 26. Lit., _“bear.”_
 
 ## Chapter 22
 
-<sup>1</sup> And he shewed me a pure river of water of life, bright as crystal, going forth out of the throne of God and of the Lamb:
+<sup>1</sup> <sup>a</sup>
+
+And he shewed me a pure river of water of life, bright as crystal, going forth out of the throne of God and of the Lamb:
 <sup>2</sup> in the midst of its broad place, and of the river on this side and on that, _is_ a tree of life, yielding twelve fruits, in each several month rendering its fruits, and the leaves of the tree _are_ for the service of the nations;
-<sup>3</sup> and any curse there shall not be any more, and the throne of God and of the Lamb shall be in it, and His servants shall serve Him,
+<sup>3</sup> and any curse<sup>b</sup> there shall not be any more, and the throne of God and of the Lamb shall be in it, and His servants shall serve Him,
 <sup>4</sup> and they shall see His face, and His name _is_ upon their foreheads,
 <sup>5</sup> and night shall not be there, and they have no need of a lamp and light of a sun, because the Lord God doth give them light, and they shall reign—to the ages of the ages.
 
@@ -551,7 +731,7 @@
 <sup>8</sup> And I, John, am he who is seeing these things and hearing, and when I heard and beheld, I fell down to bow before the feet of the messenger who is shewing me these things;
 <sup>9</sup> and he saith to me, “See—not; for fellow-servant of thee am I, and of thy brethren the prophets, and of those keeping the words of this scroll; before God bow.”
 
-<sup>10</sup> And he saith to me, “Thou mayest not seal the words of the prophecy of this scroll, because the time is nigh;
+<sup>10</sup> And he saith to me, “Thou mayest not seal the words of the prophecy of this scroll, because the time is nigh<sup>c</sup>;
 <sup>11</sup> he who is unrighteous—let him be unrighteous still, and he who is filthy—let him be filthy still, and he who is righteous—let him be declared righteous still, and he who is sanctified—let him be sanctified still:
 <sup>12</sup> And lo, I come quickly, and my reward _is_ with me, to render to each as his work shall be;
 <sup>13</sup> I am the Alpha and the Omega—the Beginning and End—the First and the Last.
@@ -567,4 +747,9 @@
 
 <sup>20</sup> he saith—who is testifying these things—“Yes, I come quickly!” Amen! Yes, be coming, Lord Jesus!
 
-<sup>21</sup> The grace of our Lord Jesus Christ _is_ with you all. Amen.
+<sup>21</sup> The grace of our<sup>d</sup> Lord Jesus Christ _is_ with you all. Amen.
+
+> - <sup>a</sup> 1. Chapter XXII. may be divided into eight parts; v. 1–5 vision of the river of life and its fruits; v. 6, 7 a double assurance; v. 8, 9 refusal of obeisance; v. 10–13 coming of the end; v. 14, 15 happiness and misery; v. 16, 17 invitation to come; v. 18–20 warning; v. 21 salutation.
+> - <sup>b</sup> 3. Lit., _a thing “put up” or “put down” upon the altar of God, as devoted._
+> - <sup>c</sup> 10. This shews that the book relates to the contests of the church with ancient Judaism and Paganism.
+> - <sup>d</sup> 21. Textual note: _Some MSS. omit; for “you” others read “is with all the saints. Amen.”_

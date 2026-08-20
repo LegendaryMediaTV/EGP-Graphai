@@ -5,7 +5,53 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, and Silvanus, and Timotheus, to the assembly of Thessalonians in God the Father, and the Lord Jesus Christ: Grace to you, and peace, from God our Father, and the Lord Jesus Christ!"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "1 Thessalonians. PAUL himself first preached the Gospel (A.D. 50), in Thessalonica, a sea-port and capital of Macedonia (",
+                  { "bibleLink": "Acts 17:1–9", "content": "Acts 17. 1–9" },
+                  "), and formed there a church consisting chiefly, if not entirely, of Gentiles; being driven away by the Jews he went to Berea and then to Athens, whence he sent Timothy to Thessalonica, who on his return found Paul in Corinth, who on receiving his comparatively favourable report, wrote, in conjunction with Silvanus and Timotheus, this Letter—the first of all his writings that have been transmitted to us—about A.D. 52—to confirm their faith, to encourage them under persecution, and excite them to holiness."
+                ],
+                "break": true
+              },
+              "It may be divided into two parts, the ",
+              { "text": "first", "marks": ["i"] },
+              ", (",
+              { "bibleLink": "1 Thessalonians 1", "content": "ch. i" },
+              ". ii. iii.) exhorting to constancy and perseverance, the ",
+              { "text": "second", "marks": ["i"] },
+              {
+                "content": [
+                  ", (",
+                  { "bibleLink": "1 Thessalonians 4", "content": "ch. iv" },
+                  ". v.) to progress and become perfect. Like the Second Letter it contains very few allusions to the Old Testament, owing to the Gentile origin of the Thessalonian assembly."
+                ],
+                "break": true
+              },
+              "It is quoted or referred to by Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Caius (A.D. 212), Origen (A.D. 230). It is contained in the earliest Latin and Syriac Versions, the Canon of the Muratorian fragment, and in that of Marcion. Doubtful are the allusions to it in Clement of Rome, Polycarp, Ignatius, &c."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into three parts; ",
+              { "bibleLink": "1 Thessalonians 1:1", "content": "v. 1" },
+              " the writers’ salutation; ",
+              { "bibleLink": "1 Thessalonians 1:2–6", "content": "v. 2–6" },
+              " their joy over the Thessalonians’ full reception of the good-news; ",
+              { "bibleLink": "1 Thessalonians 1:7–10", "content": "v. 7–10" },
+              " with exemplary character, missionary zeal, and turning to God."
+            ]
+          }
+        },
+        "Paul, and Silvanus, and Timotheus, to the assembly of Thessalonians in God the Father, and the Lord Jesus Christ: Grace to you, and peace, from God our Father, and the Lord Jesus Christ!"
+      ]
     }
   },
   {
@@ -16,7 +62,17 @@
       { "heading": "Their Work of Faith" },
       {
         "paragraph": true,
-        "text": "We give thanks to God always for you all, making mention of you in our prayers,"
+        "text": "We give thanks to God always for you all, making mention of you in our prayers,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "leap much for joy before God always concerning you all, ..upon (above, over, during) our pouring forth before (God), unceasingly.",
+              "marks": ["i"]
+            }
+          ]
+        }
       }
     ]
   },
@@ -73,6 +129,22 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter II. may be divided into four parts; ",
+            { "bibleLink": "1 Thessalonians 2:1–6", "content": "v. 1–6" },
+            " Paul’s boldness and disinterestedness; ",
+            { "bibleLink": "1 Thessalonians 2:7–12", "content": "v. 7–12" },
+            " his gentleness, and faithfulness; ",
+            { "bibleLink": "1 Thessalonians 2:13–16", "content": "v. 13–16" },
+            " his thankfulness for their faith, and condemnation of the Jews; ",
+            { "bibleLink": "1 Thessalonians 2:17–20", "content": "v. 17–20" },
+            " his desire to see them and joy in them."
+          ]
+        }
+      },
       { "heading": "Their Ties With the Apostle" },
       {
         "paragraph": true,
@@ -164,7 +236,23 @@
     "verse": 13,
     "content": {
       "paragraph": true,
-      "text": "Because of this also, we—we do give thanks to God continually, that, having received the word of hearing from us of God, ye accepted, not the word of man, but as it is truly, the word of God, who also doth work in you who believe;"
+      "content": [
+        "Because of this also, we—we do give thanks to God continually, that, ",
+        {
+          "text": "having received the word of hearing from us of God, ye accepted, not the word of man, but as it is truly, the word of God, who also doth work in you who believe",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "...having taken alongside of yourselves) God’s word of hearing from us, ye received, not a word of man, but as it is truly, a word of God, (who) also inwardly worketh for himself in (or among) you who are believing.",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ";"
+      ]
     }
   },
   {
@@ -225,6 +313,20 @@
     "chapter": 3,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter III. may be divided into three parts; ",
+            { "bibleLink": "1 Thessalonians 3:1–5", "content": "v. 1–5" },
+            " reasons for sending Timotheus; ",
+            { "bibleLink": "1 Thessalonians 3:6–10", "content": "v. 6–10" },
+            " comfort received from his good report; ",
+            { "bibleLink": "1 Thessalonians 3:11–13", "content": "v. 11–13" },
+            " prayers for mutual blessings."
+          ]
+        }
+      },
       { "heading": "Timothy’s Visit" },
       {
         "paragraph": true,
@@ -320,6 +422,20 @@
     "chapter": 4,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter IV. may be divided into three parts: ",
+            { "bibleLink": "1 Thessalonians 4:1–8", "content": "v. 1–8" },
+            " prayers for their progress and sanctification; ",
+            { "bibleLink": "1 Thessalonians 4:9–12", "content": "v. 9–12" },
+            " of the brotherly love and a becoming behaviour; ",
+            { "bibleLink": "1 Thessalonians 4:13–18", "content": "v. 13–18" },
+            " against sorrow for the dead in the Lord."
+          ]
+        }
+      },
       { "heading": "The New Life" },
       {
         "paragraph": true,
@@ -433,7 +549,23 @@
     "book": "1TH",
     "chapter": 4,
     "verse": 15,
-    "content": "for this to you we say in the word of the Lord, that we who are living—who do remain over to the presence of the Lord—may not precede those asleep,"
+    "content": [
+      "for this to you we say in the word of the Lord, that we who are living—",
+      {
+        "text": "who do remain over to the presence of the Lord—may not precede those asleep",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "in..who are left over to the presence.,go before those asleep.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "1TH",
@@ -457,10 +589,30 @@
     "book": "1TH",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And concerning the times and the seasons, brethren, ye have no need of my writing to you,"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter V. may be divided into five parts; ",
+            { "bibleLink": "1 Thessalonians 5:1–3", "content": "v. 1–3" },
+            " how the day of the Lord comes; ",
+            { "bibleLink": "1 Thessalonians 5:4–8", "content": "v. 4–8" },
+            " character of believers; ",
+            { "bibleLink": "1 Thessalonians 5:9–11", "content": "v. 9–11" },
+            " reasons for comfort; ",
+            { "bibleLink": "1 Thessalonians 5:12–22", "content": "v. 12–22" },
+            " various exhortations; ",
+            { "bibleLink": "1 Thessalonians 5:23–28", "content": "v. 23–28" },
+            " prayers and salutations."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "And concerning the times and the seasons, brethren, ye have no need of my writing to you,"
+      }
+    ]
   },
   {
     "book": "1TH",
@@ -561,7 +713,23 @@
     "book": "1TH",
     "chapter": 5,
     "verse": 17,
-    "content": "continually pray ye;"
+    "content": [
+      "continually ",
+      {
+        "text": "pray",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "be pouring forth before (God) unceasingly.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " ye;"
+    ]
   },
   {
     "book": "1TH",
@@ -577,19 +745,54 @@
     "book": "1TH",
     "chapter": 5,
     "verse": 19,
-    "content": "The Spirit quench not;"
+    "content": [
+      "The Spirit ",
+      {
+        "text": "quench",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "be not quenching.", "marks": ["i"] }]
+        }
+      },
+      " not;"
+    ]
   },
   {
     "book": "1TH",
     "chapter": 5,
     "verse": 20,
-    "content": "prophesyings despise not;"
+    "content": [
+      "prophesyings ",
+      {
+        "text": "despise",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "be not thinking nothing of prophecy", "marks": ["i"] }
+          ]
+        }
+      },
+      " not;"
+    ]
   },
   {
     "book": "1TH",
     "chapter": 5,
     "verse": 21,
-    "content": "all things prove; that which is good hold fast;"
+    "content": {
+      "text": "all things prove; that which is good hold fast;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "be testing every thing, be holding thoroughly the good",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "1TH",
@@ -620,7 +823,26 @@
     "book": "1TH",
     "chapter": 5,
     "verse": 25,
-    "content": { "paragraph": true, "text": "Brethren, pray for us;" }
+    "content": {
+      "paragraph": true,
+      "content": [
+        "Brethren, ",
+        {
+          "text": "pray",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "be pouring forth before (God) concerning us.",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        " for us;"
+      ]
+    }
   },
   {
     "book": "1TH",
@@ -628,7 +850,17 @@
     "verse": 26,
     "content": {
       "paragraph": true,
-      "text": "salute all the brethren in an holy kiss;"
+      "text": "salute all the brethren in an holy kiss;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "draw ye near all the brethren in hallowed friendship.",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {

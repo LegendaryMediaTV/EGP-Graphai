@@ -1,10 +1,10 @@
 ## Chapter 1
 
-<sup>1</sup> In the beginning was the Word, and the Word was with God, and the Word was God;
+<sup>1</sup> <sup>a</sup><sup>b</sup>In the beginning was the Word, and the Word was with God, and the Word was God;
 <sup>2</sup> this one was in the beginning with God;
 <sup>3</sup> all things through him did happen, and without him happened not even one thing that hath happened.
 <sup>4</sup> In him was life, and the life was the light of men,
-<sup>5</sup> and the light in the darkness did shine, and the darkness did not perceive it.
+<sup>5</sup> and the light in the darkness did shine, and the darkness did not perceive it.<sup>c</sup>
 
 <sup>6</sup> There came a man—having been sent from God—whose name _is_ John,
 <sup>7</sup> this one came for testimony, that he might testify about the Light, that all might believe through him;
@@ -21,10 +21,10 @@
 <sup>15</sup> John doth testify concerning him, and hath cried, saying, “This was he of whom I said, He who after me is coming, hath come before me, for he was before me;”
 <sup>16</sup> and out of his fulness did we all receive, and grace over-against grace;
 <sup>17</sup> for the law through Moses was given, the grace and the truth through Jesus Christ did come;
-<sup>18</sup> God no one hath ever seen; the only begotten Son, who is on the bosom of the Father—he did declare.
+<sup>18</sup> God no one hath ever seen; the only begotten Son, who is on the bosom of the Father—he did declare.<sup>d</sup>
 
 <sup>19</sup> And this is the testimony of John, when the Jews sent out of Jerusalem priests and Levites, that they might question him, “Who art thou?”
-<sup>20</sup> and he confessed and did not deny, and confessed—“I am not the Christ.”
+<sup>20</sup> and he confessed and did not deny, and confessed<sup>e</sup>—“I am not the Christ.”
 <sup>21</sup> And they questioned him, “What then? Elijah art thou?” and he saith, “I am not.”—“The prophet art thou?” and he answered, “No.”
 <sup>22</sup> They said then to him, “Who art thou, that we may give an answer to those sending us? what dost thou say concerning thyself?”
 <sup>23</sup> He said, “I _am_ a voice of one crying in the wilderness: Make straight the way of the Lord, as said Isaiah the prophet.”
@@ -65,20 +65,29 @@
 <sup>49</sup> Nathanael answered and saith to him, “Rabbi, thou art the Son of God, thou art the king of Israel.”
 
 <sup>50</sup> Jesus answered and said to him, “Because I said to thee, I saw thee under the fig-tree, thou dost believe; greater things than these thou shalt see;”
-<sup>51</sup> and he saith to him, “Verily, verily, I say to you, henceforth ye shall see the heaven opened, and the messengers of God going up and coming down upon the Son of Man.”
+<sup>51</sup> and he saith to him, “Verily, verily,<sup>f</sup> I say to you, henceforth ye shall see the heaven opened, and the messengers of God going up and coming down upon the Son of Man.”
+
+> - <sup>a</sup> 1. THE GOSPEL OF JOHN was most probably written at Ephesus, A.D. 68, and, judging from the comparative purity of its Greek, _after_ the composition of the “Revelation” in Patmos.<br>He was the younger of the two sons (surnamed Boanerges), of Zebedee and Salome, residing at Beth-saida, by the sea of Galilee; he was directed to Jesus by John (1:36), called a first time (Mat. 4:21, 22), a second time (Luke 5:1–11), and a third time (Mat. 10:2.) This gospel is quoted by Ignatius (A.D. 100), Diognetus (A.D. 120), Justin Martyr (A.D. 140), Tatian (A.D. 170), &c. Marcion, Cerdon, the Montanists, &c., admitted it to be the work of the Apostle, but alleged it was interpolated, or that he was mistaken. It is chiefly occupied with viewing Jesus Christ, the Saviour, as “THE SON OF GOD, THE REVEALER OF THE FATHER.”<br>It may be divided into three parts: the Prologue, the History, the Conclusion.<br>- I. The Prologue, ch. 1:1–18.<br>- II. The History, ch. 1:19–20:29.<br>- 1). Jesus’ first journey, 1:19–2:12.<br>- 2). His second, 2:13–4:54.<br>- 3). His third, 5:1–47.<br>- 4). His fourth, 6:1–71.<br>- 5). His fifth, 7:1–10:21.<br>- 6). His sixth, 10:22–42.<br>- 7). His seventh, 11:1–54.<br>- 8). His eighth, 11:55–12:50.<br>- 9). Preparation for his Passion, 13:1–17:26.<br>- 10). Circumstances of his Death, 18:1–19:42.<br>- 11). His Up-Rising and its proofs, 20:1–29.<br>- III. The Conclusion, ch. 20:30–21:25.<br>The following passages are peculiar to John, viz. ch. 1:1–14, 35–51; 2:1–3:36; 4:1–42, 46–54; 5:1–47; 6:4, 16–65; 7:1–11:57; 12:20–50; 14:1–17:26; 19:31–37; 20:30, 31; 21:1–25. He alone mentions Peter as the person who cut off the ear of the chief-priest’s servant, as Peter was then probably dead.
+> - <sup>b</sup> 1. Chapter I. may be divided into six parts; v. 1–5 Pre-existence and all-creative energy of the Word; v. 6–14 His object in coming into the world in the flesh; v. 15–18 His revelation of the Father; v. 19–36 John’s testimony to the Jews and his disciples; v. 37–42 John, Andrew, and Peter, brought to Jesus; v. 43–51 also Philip and Nathanael.
+> - <sup>c</sup> 5. Lit., _receive it fully._
+> - <sup>d</sup> 18. Or, _on...that one led (him) out._
+> - <sup>e</sup> 20. Lit., _spake the same thing (as he had done before), and...spake the same thing, that, I am not._
+> - <sup>f</sup> 51. _Amen, Amen,_ i.e. _Stedfast! Stedfast!_
 
 ## Chapter 2
 
+<sup>1</sup> <sup>a</sup>
 ### His First Miracle
 
-<sup>1</sup> And the third day a marriage happened in Cana of Galilee, and the mother of Jesus was there,
+
+And the third day a marriage happened in Cana of Galilee, and the mother of Jesus was there,
 <sup>2</sup> and also Jesus was called, and his disciples, to the marriage;
-<sup>3</sup> and wine having failed, the mother of Jesus saith unto him, “Wine they have not;”
+<sup>3</sup> and wine having failed<sup>b</sup>, the mother of Jesus saith unto him, “Wine they have not;”
 <sup>4</sup> Jesus saith to her, “What—to me and to thee, woman? not yet is mine hour come.”
-<sup>5</sup> His mother saith to the ministrants, “Whatever he may say to you—do.”
+<sup>5</sup> His mother saith to the ministrants<sup>c</sup>, “Whatever he may say to you—do.”
 <sup>6</sup> And there were there six water-jugs of stone, placed according to the purifying of the Jews, holding each two or three measures.
 <sup>7</sup> Jesus saith to them, “Fill the water-jugs with water;” and they filled them—unto the brim;
-<sup>8</sup> and he saith to them, “Draw out, now, and bear to the director of the apartment;” and they bare.
+<sup>8</sup> and he saith to them, “Draw out, now, and bear to the director of the apartment<sup>d</sup>;” and they bare.
 <sup>9</sup> And as the director of the apartment tasted the water become wine, and knew not whence it is, (but the ministrants knew, who have drawn the water,) the director of the feast doth call the bridegroom,
 <sup>10</sup> and saith to him, “Every man, at first, the good wine doth set forth; and when they may have drunk freely, then the inferior; thou didst keep the good wine till now.”
 <sup>11</sup> This beginning of the signs did Jesus in Cana of Galilee, and manifested his glory, and his disciples believed in him;
@@ -90,11 +99,11 @@
 <sup>13</sup> And the passover of the Jews was nigh, and Jesus went up to Jerusalem,
 <sup>14</sup> and he found in the temple those selling oxen, and sheep, and doves, and the moneychangers sitting,
 <sup>15</sup> and having made a whip of small cords, he put all forth out of the temple, also the sheep, and the oxen; and of the money-changers he poured out the coins, and the tables he overthrew,
-<sup>16</sup> and to those selling the doves he said, “Take these things hence; make not the house of my Father a house of merchandise.”
+<sup>16</sup> and to those selling the doves he said, “Take these things hence; make not the house of my Father a house of merchandise.”<sup>e</sup>
 <sup>17</sup> And his disciples remembered that it is written, “The zeal of Thy house did eat me up;”
 
 <sup>18</sup> the Jews then answered and said to him, “What sign dost thou shew to us—that thou dost these things?”
-<sup>19</sup> Jesus answered and said to them, “Destroy this sanctuary, and in three days I will raise it up.”
+<sup>19</sup> Jesus answered and said to them, “Destroy this sanctuary<sup>f</sup>, and in three days I will raise it up.”
 <sup>20</sup> The Jews, therefore, said, “Forty and six years was this sanctuary building, and wilt thou in three days raise it up?”
 <sup>21</sup> but he spake concerning the sanctuary of his body;
 <sup>22</sup> when, then, he was raised out of the dead, his disciples remembered that he said this to them, and they believed the Writing, and the word that Jesus said.
@@ -103,15 +112,24 @@
 <sup>24</sup> and Jesus himself was not trusting himself to them, because of his knowing all _men_,
 <sup>25</sup> and because he had no need that any should testify concerning man, for he himself was knowing what was in man.
 
+> - <sup>a</sup> 1. Chapter II. may be divided into three parts; v. 1–11 Jesus turns water into wine; v. 12–22 cleanses the temple; v. 23, 24 believed on by many.
+> - <sup>b</sup> 3. Lit., _wine having been lacking._
+> - <sup>c</sup> 5. Lit., _deacons;_
+> - <sup>d</sup> 8. Lit., _chief-of-the-threefold-couch._
+> - <sup>e</sup> 16. Lit., _the doves, Lift up...of passing in (for trade)._
+> - <sup>f</sup> 19. Lit., _loose down this habitation (of God);_
+
 ## Chapter 3
 
+<sup>1</sup> <sup>a</sup>
 ### Nicodemus
 
-<sup>1</sup> And there was a man of the Pharisees, Nicodemus his name, a ruler of the Jews,
+
+And<sup>b</sup> there was a man of the Pharisees, Nicodemus his name, a ruler of the Jews,
 <sup>2</sup> this one came unto him by night, and said to him, “Rabbi, we have known that from God thou hast come—a teacher, for no one these signs is able to do that thou dost, if God may not be with him.”
 <sup>3</sup> Jesus answered and said to him, “Verily, verily, I say to thee, If any one may not be born from above, he is not able to see the reign of God;”
 
-<sup>4</sup> Nicodemus saith unto him, “How is a man able to be born, being old? is he able into the womb of his mother a second time to enter, and to be born?”
+<sup>4</sup> Nicodemus saith unto him, “How is a man able to be born, being old<sup>c</sup>? is he able into the womb of his mother a second time to enter, and to be born?”
 <sup>5</sup> Jesus answered, “Verily, verily, I say to thee, If any one may not be born of water, and the Spirit, he is not able to enter into the reign of God;
 <sup>6</sup> that which hath been born of the flesh is flesh, and that which hath been born of the Spirit is spirit.
 <sup>7</sup> “Thou mayest not wonder that I said to thee, It behoveth you to be born from above;
@@ -151,20 +169,24 @@
 <sup>35</sup> the Father doth love the Son, and all things hath given into his hand;
 <sup>36</sup> he who is believing in the Son, hath life age-during; and he who is not believing the Son, shall not see life, but the wrath of God doth remain upon him.”
 
+> - <sup>a</sup> 1. Chapter III. may be divided into four parts; v. 1–12 Jesus and Nicodemus; v. 13–21 object of His mission; v. 22–30 John’s testimony to Jesus; v. 31–36 the evangelist’s testimony.
+> - <sup>b</sup> 1. Lit., _but (or now) there was._
+> - <sup>c</sup> 4. Lit., _seeing the earth,_
+
 ## Chapter 4
 
-<sup>1</sup> When therefore the Lord knew that the Pharisees heard that Jesus more disciples doth make and baptize than John,
+<sup>1</sup> <sup>a</sup>When therefore the Lord knew that the Pharisees heard that Jesus more disciples doth make and baptize than John,
 <sup>2</sup> (though indeed Jesus himself was not baptizing, but his disciples,)
-<sup>3</sup> he left Judea and went away again to Galilee,
+<sup>3</sup> he left Judea<sup>b</sup> and went away again to Galilee,
 <sup>4</sup> and it was behoving him to go through Samaria.
 
 ### The Woman of Samaria
 
 <sup>5</sup> He cometh, therefore, to a city of Samaria, called Sychar, near to the place that Jacob gave to Joseph his son;
-<sup>6</sup> and there was there a well of Jacob. Jesus therefore having been weary from the journeying, was sitting thus on the well; it was as it were the sixth hour;
+<sup>6</sup> and there was there a well<sup>c</sup> of Jacob. Jesus therefore having been weary from the journeying, was sitting thus on the well; it was as it were the sixth hour;
 
 <sup>7</sup> there cometh a woman out of Samaria to draw water. Jesus saith to her, “Give me to drink;”
-<sup>8</sup> for his disciples were gone away to the city, that they may buy victuals;
+<sup>8</sup> for his disciples were gone away to the city, that they may buy victuals<sup>d</sup>;
 
 <sup>9</sup> the Samaritan woman therefore saith to him, “How dost thou, being a Jew, ask drink from me, being a Samaritan woman?” for Jews have no dealing with Samaritans.
 <sup>10</sup> Jesus answered and said to her, “If thou hadst known the gift of God, and who it is who is saying to thee, Give me to drink, thou wouldest have asked him, and he would have given thee living water.”
@@ -195,7 +217,7 @@
 <sup>32</sup> and he said to them, “I have food to eat that ye have not known.”
 <sup>33</sup> The disciples then said one to another, “Did any one bring him anything to eat?”
 <sup>34</sup> Jesus saith to them, “My food is, that I may do the will of Him who sent me, and may finish His work;
-<sup>35</sup> do not say that it is yet four months, and the harvest cometh; lo, I say to you, Lift up your eyes, and see the fields, that they are white unto harvest already.
+<sup>35</sup> do not say that it is yet four months, and the harvest cometh; lo, I say to you, Lift up your eyes, and see the fields, that they are white unto harvest already.<sup>e</sup>
 <sup>36</sup> “And he who is reaping doth receive a reward, and doth gather fruit to life age-during, that both he who is sowing and he who is reaping may rejoice together;
 <sup>37</sup> for in this the saying is the true one, that one is the sower and another the reaper.
 <sup>38</sup> I sent you to reap that on which ye have not laboured; others laboured, and ye into their labour have entered.
@@ -212,18 +234,27 @@
 <sup>46</sup> Jesus came, therefore, again to Cana of Galilee, where he made the water wine, and there was a certain courtier, whose son was ailing in Capernaum,
 <sup>47</sup> he, having heard that Jesus is come out of Judea to Galilee, went away unto him, and was asking him that he may come down and may heal his son, for he was about to die.
 <sup>48</sup> Jesus then said unto him, “If signs and wonders ye may not see, ye will not believe.”
-<sup>49</sup> The courtier saith unto him, “Sir, come down before my child die;”
+<sup>49</sup> The courtier saith unto him, “Sir, come down before my child<sup>f</sup> die;”
 <sup>50</sup> Jesus saith to him, “Be going on; thy son doth live.” And the man believed the word that Jesus said to him, and was going on,
 <sup>51</sup> and he now going down, his servants met him, and told, saying—“Thy child doth live;”
 <sup>52</sup> he inquired then of them the hour in which he became better, and they said to him—“Yesterday at the seventh hour the fever left him;”
 <sup>53</sup> then the father knew that _it was_ in that hour in which Jesus said to him—“Thy son doth live,” and he himself believed, and his whole house;
 <sup>54</sup> this again a second sign did Jesus, having come out of Judea to Galilee.
 
+> - <sup>a</sup> 1. Chapter IV. may be divided into three parts; v. 1–29 Jesus and the woman of Samaria; v. 30–42 Jesus, his disciples, and the Samaritans; v. 43–54 Jesus received by the Galileans, and cures a courtier’s son.
+> - <sup>b</sup> 3. Lit., _let Judea go._
+> - <sup>c</sup> 6. Or, _fountain, spring._
+> - <sup>d</sup> 8. Lit., _in order that they might attend the public place for sustenance._
+> - <sup>e</sup> 35. Lit., _and the reaping cometh...and view the places (or spaces), that (or because)...towards (the) reaping._
+> - <sup>f</sup> 49. Lit., _little boy._
+
 ## Chapter 5
 
+<sup>1</sup> <sup>a</sup>
 ### At Another Festival
 
-<sup>1</sup> After these things there was a feast of the Jews, and Jesus went up to Jerusalem,
+
+After these things there was a feast of the Jews, and Jesus went up to Jerusalem,
 <sup>2</sup> and there is in Jerusalem by the sheep-_gate_ a pool that is called in Hebrew Bethesda, having five porches,
 <sup>3</sup> in these were lying a great multitude of the ailing, blind, lame, withered, waiting for the moving of the water,
 <sup>4</sup> for a messenger at a set time was going down in the pool, and was troubling the water, the first then having gone in after the troubling of the water, became whole of whatever sickness he was held.
@@ -258,7 +289,7 @@
 <sup>31</sup> “If I testify concerning myself, my testimony is not true;
 
 <sup>32</sup> another there is who is testifying concerning me, and I have known that the testimony that he doth testify concerning me is true;
-<sup>33</sup> ye have sent unto John, and he hath testified to the truth.
+<sup>33</sup> ye have sent unto John, and he hath testified to the truth.<sup>b</sup>
 <sup>34</sup> “But I do not receive testimony from man, but these things I say that ye may be saved;
 <sup>35</sup> he was the burning and shining lamp, and ye did will to be glad, for an hour, in his light.
 <sup>36</sup> “But I have the testimony greater than John’s, for the works that the Father gave me, that I might finish them, the works themselves that I do, they testify concerning me, that the Father hath sent me.
@@ -275,11 +306,16 @@
 <sup>46</sup> for if ye were believing Moses, ye would have been believing me, for he wrote concerning me;
 <sup>47</sup> but if his writings ye believe not, how shall ye believe my sayings?”
 
+> - <sup>a</sup> 1. Chapter V. may be divided into seven parts; v. 1–9 Jesus cures an infirm man; v. 10–13 who is challenged by the Jews; v. 14 warned by Jesus; v. 15–16 whom the Jews seek to kill; v. 17–30 Jesus asserts his authority; v. 31–35 appeals to the testimony of John; 36–47 to that of his own works, his Father, and the Writings.
+> - <sup>b</sup> 33. Lit., _have sent away...has borne testimony._
+
 ## Chapter 6
 
+<sup>1</sup> <sup>a</sup>
 ### The Second Passover
 
-<sup>1</sup> After these things Jesus went away beyond the sea of Galilee (of Tiberias),
+
+After these things Jesus went away beyond the sea of Galilee (of Tiberias),
 <sup>2</sup> and there was following him a great multitude, because they were seeing his signs that he was doing on the ailing;
 <sup>3</sup> and Jesus went up to the mount, and he was there sitting with his disciples,
 <sup>4</sup> and the passover was nigh, the feast of the Jews.
@@ -363,11 +399,15 @@
 <sup>70</sup> Jesus answered them, “Did not I choose you—the twelve? and of you—one is a devil.
 <sup>71</sup> And he spake of Judas, Simon’s _son_, Iscariot, for he was about to deliver him up, being one of the twelve.
 
+> - <sup>a</sup> 1. Chapter VI. may be divided into five parts; v. 1–15 Feeding of the five thousand men; v. 16–21 Jesus walks on the sea; v. 22–40 reproves the people for worldly desires; v. 41–51 the living bread; v. 52–71 some of the disciples stumbled.
+
 ## Chapter 7
 
+<sup>1</sup> <sup>a</sup>
 ### The Feast of Tabernacles
 
-<sup>1</sup> And Jesus was walking after these things in Galilee, for he did not wish to walk in Judea, because the Jews were seeking to kill him,
+
+And Jesus was walking after these things in Galilee, for he did not wish to walk in Judea, because the Jews were seeking to kill him,
 <sup>2</sup> and the feast of the Jews was nigh—that of tabernacles—
 <sup>3</sup> his brethren, therefore, said unto him, “Remove hence, and go away to Judea, that thy disciples also may behold thy works that thou dost;
 <sup>4</sup> for no one in secret doth anything, and himself seeketh to be in public; if thou dost these things—manifest thyself to the world;”
@@ -425,11 +465,14 @@
 <sup>50</sup> Nicodemus saith unto them—he who came by night unto him—being one of them,
 <sup>51</sup> “Doth our law judge the man, if it may not hear from him first, and know what he doth?”
 <sup>52</sup> They answered and said to him, “Art thou also out of Galilee? search and see, that a prophet out of Galilee hath not risen;”
-<sup>53</sup> and each one went on to his house, but Jesus went on to the mount of the Olives.
+<sup>53</sup> and each one went on to his house, but Jesus went on to the mount of the Olives.<sup>b</sup>
+
+> - <sup>a</sup> 1. Chapter VII. may be divided into six parts; v. 1–9 Jesus and his brothers; v. 10–13 Jews’ opinions of him; v. 14–24 Jesus vindicates his sabbath-works; v. 25–31 many Jerusalemites believe in him; v. 32–44 Jesus before the officers; v. 45–53 who are reproved by the Pharisees, but defended by Nicodemus.
+> - <sup>b</sup> 53. Lit., _passed on to the mount of the olives._
 
 ## Chapter 8
 
-<sup>1</sup> And at dawn he came again to the temple,
+<sup>1</sup> <sup>a</sup>And at dawn he came again to the temple,
 <sup>2</sup> and all the people were coming unto him, and having sat down, he was teaching them;
 <sup>3</sup> and the scribes and the Pharisees bring unto him a woman having been taken in adultery, and having set her in the midst,
 <sup>4</sup> they say to him, “Teacher, this woman was taken in the very crime—committing adultery,
@@ -494,12 +537,15 @@
 <sup>55</sup> and ye have not known Him, and I have known Him, and if I say that I have not known Him, I shall be like you—speaking falsely; but I have known Him, and His word I keep;
 <sup>56</sup> Abraham, your father, was glad that he might see my day; and he saw, and did rejoice.”
 <sup>57</sup> The Jews, therefore, said unto him, “Thou art not yet fifty years old, and Abraham hast thou seen?”
-<sup>58</sup> Jesus said to them, “Verily, verily, I say to you, Before Abraham’s coming—I am;”
+<sup>58</sup> Jesus said to them, “Verily, verily, I say to you, Before Abraham’s coming—I am;”<sup>b</sup>
 <sup>59</sup> they took up, therefore, stones that they may cast at him, but Jesus hid himself, and went forth out of the temple, going through the midst of them, and so passed by.
+
+> - <sup>a</sup> 1. Chapter VIII. may be divided into six parts; v. 1–11 Jesus and the woman taken in adultery; v. 12–19 Jesus the light of the world; v. 20–29 he warns the Jews; v. 30–36 freedom of the Gospel; v. 37–44 the father of the wicked; v. 45–59 Jesus before Abraham.
+> - <sup>b</sup> 58. _before Abraham’s coming I am He,_ that is, the promised Messiah. The simple phrase _I am,_ is used by Jesus 15 times, and in every case (but the present) it is rendered in the Common Version _I am He,_ or _it is I;_
 
 ## Chapter 9
 
-<sup>1</sup> And passing by, he saw a man blind from birth,
+<sup>1</sup> <sup>a</sup>And passing by, he saw a man blind from birth,
 <sup>2</sup> and his disciples asked him, saying, “Rabbi, who did sin, this one or his parents, that he should be born blind?”
 <sup>3</sup> Jesus answered, “Neither did this one sin nor his parents, but that the works of God may be manifested in him;
 <sup>4</sup> it behoveth me to be working the works of Him who sent me while it is day; night doth come, when no one is able to work:—
@@ -528,9 +574,9 @@
 
 <sup>24</sup> They called, therefore, a second time the man who was blind, and they said to him, “Give glory to God, we have known that this man is a sinner;”
 <sup>25</sup> he answered, therefore, and said, “If he be a sinner—I have not known, one thing I have known, that, being blind, now I see.”
-<sup>26</sup> And they said to him again, “What did he to thee? how did he open thine eyes?”
+<sup>26</sup> And they said to him again, “What did he to thee? how did he open<sup>b</sup> thine eyes?”
 <sup>27</sup> He answered them, “I told you already, and ye did not hear; why again do ye wish to hear? do ye also wish to become his disciples?”
-<sup>28</sup> They reviled him, therefore, and said, “Thou art his disciple, and we are Moses’ disciples;
+<sup>28</sup> They reviled him, therefore, and said, “Thou art his disciple<sup>c</sup>, and we are Moses’ disciples;
 <sup>29</sup> we have known that God hath spoken to Moses, but this one—we have not known whence he is.”
 <sup>30</sup> The man answered and said to them, “Why, in this is a wonderful thing, that ye have not known whence he is, and he opened my eyes!
 <sup>31</sup> and we have known that God doth not hear sinners, but, if any one may be a worshipper of God, and may do His will, him He doth hear;
@@ -540,17 +586,24 @@
 <sup>35</sup> Jesus heard that they cast him forth without, and having found him, he said to him, “Dost thou believe in the Son of God?”
 <sup>36</sup> he answered and said, “Who is he, sir, that I may believe in him?”
 <sup>37</sup> And Jesus said to him, “Thou hast both seen him, and he who is speaking with thee is he;”
-<sup>38</sup> and he said, “I believe, sir,” and bowed before him.
+<sup>38</sup> and he said, “I believe, sir,” and bowed before him<sup>d</sup>.
 
 <sup>39</sup> And Jesus said, “For judgment I to this world did come, that those not seeing may see, and those seeing may become blind.”
 <sup>40</sup> And those of the Pharisees who were with him heard these things, and they said to him, “Are we also blind?”
 <sup>41</sup> Jesus said to them, “If ye were blind, ye were not having had sin, but now ye say—We see, therefore doth your sin remain.
 
+> - <sup>a</sup> 1. Chapter IX. may be divided into five parts; v. 1–7 Jesus cures a blind man; v. 8–12 the blind man and his neighbours; v. 13–34 the blind man and the Pharisees; v. 35–38 the blind man and Jesus; v. 39–41 Jesus and the Pharisees.
+> - <sup>b</sup> 26. Lit., _opened he up._
+> - <sup>c</sup> 28. Lit., _a disciple of that one._
+> - <sup>d</sup> 38. Lit., _kissed forward (the hand) to him._
+
 ## Chapter 10
 
+<sup>1</sup> <sup>a</sup>
 ### The Good Shepherd
 
-<sup>1</sup> “Verily, verily, I say to you, He who is not entering through the door to the fold of the sheep, but is going up from another side, that one is a thief and a robber;
+
+“Verily, verily,<sup>b</sup> I say to you, He who is not entering through the door to the fold of the sheep, but is going up from another side, that one is a thief and a robber;
 <sup>2</sup> and he who is entering through the door is shepherd of the sheep;
 <sup>3</sup> to this one the doorkeeper doth open, and the sheep hear his voice, and his own sheep he doth call by name, and doth lead them forth;
 <sup>4</sup> and when his own sheep he may put forth, before them he goeth on, and the sheep follow him, because they have known his voice;
@@ -601,12 +654,17 @@
 <sup>41</sup> and many came unto him, and said—“John, indeed, did no sign, and all things, as many as John said about this one were true;”
 <sup>42</sup> and many did believe in him there.
 
+> - <sup>a</sup> 1. Chapter X. may be divided into three parts; v. 1–21 simile of the good shepherd; v. 22–38 unity of the Father and the Son; v. 39–42 Jesus beyond Jordan.
+> - <sup>b</sup> 1. _Amen, Amen,_ i.e. _stedfast, stedfast,_ or _very stedfast_
+
 ## Chapter 11
 
+<sup>1</sup> <sup>a</sup>
 ### The Lord of Life
 
-<sup>1</sup> And there was a certain one ailing, Lazarus, from Bethany, of the village of Mary and Martha her sister—
-<sup>2</sup> and it was Mary who did anoint the Lord with ointment, and did wipe his feet with her hair, whose brother Lazarus was ailing—
+
+And there was a certain one ailing, Lazarus, from Bethany, of the village of Mary and Martha her sister—
+<sup>2</sup> and it was Mary who did anoint the Lord with ointment, and did wipe his feet with her hair, whose brother Lazarus was ailing—<sup>b</sup>
 <sup>3</sup> therefore sent the sisters unto him, saying, “Sir, lo, he whom thou dost love is ailing;”
 <sup>4</sup> and Jesus having heard, said, “This ailment is not unto death, but for the glory of God, that the Son of God may be glorified through it.”
 <sup>5</sup> And Jesus was loving Martha, and her sister, and Lazarus,
@@ -620,7 +678,7 @@
 
 <sup>12</sup> therefore said his disciples, “Sir, if he hath fallen asleep, he will be saved;”
 <sup>13</sup> but Jesus had spoken about his death, but they thought that about the repose of sleep he speaketh.
-<sup>14</sup> Then, therefore, Jesus said to them freely, “Lazarus hath died;
+<sup>14</sup> Then, therefore, Jesus said to them freely<sup>c</sup>, “Lazarus hath died;
 <sup>15</sup> and I rejoice, for your sake, (that ye may believe,) that I was not there; but we may go to him;”
 <sup>16</sup> therefore said Thomas, who is called Didymus, to the fellow-disciples, “We may go—we also, that we may die with him,”
 <sup>17</sup> Jesus, therefore, having come, found him having been four days already in the tomb.
@@ -630,7 +688,7 @@
 <sup>20</sup> Martha, therefore, when she heard that Jesus doth come, met him, and Mary kept sitting in the house.
 <sup>21</sup> Martha, therefore, said unto Jesus, “Sir, if thou hadst been here, my brother had not died;
 <sup>22</sup> but even now, I have known that whatever thou mayest ask of God, God will give to thee;”
-<sup>23</sup> Jesus saith to her, “Thy brother shall rise again.”
+<sup>23</sup> Jesus saith to her, “Thy brother shall rise again<sup>d</sup>.”
 <sup>24</sup> Martha saith to him, “I have known that he will rise again, in the rising again in the last day;”
 <sup>25</sup> Jesus said to her, “I am the rising again, and the life; he who is believing in me, even if he may die, shall live;
 <sup>26</sup> and every one who is living and believing in me shall not die—to the age;
@@ -643,7 +701,7 @@
 <sup>32</sup> Mary, therefore, when she came where Jesus was, having seen him, fell at his feet, saying to him, “Sir, if thou hadst been here, my brother had not died;”
 <sup>33</sup> Jesus, therefore, when he saw her weeping, and the Jews who came with her weeping, did groan in the spirit, and troubled himself, and he said,
 <sup>34</sup> “Where have ye laid him?” they say to him, “Sir, come and see;”
-<sup>35</sup> Jesus wept.
+<sup>35</sup> Jesus wept.<sup>e</sup>
 <sup>36</sup> The Jews, therefore, said, “Lo, how he was loving him!”
 <sup>37</sup> and certain of them said, “Was not this one, who did open the eyes of the blind man, able to cause that also this one might not have died?”
 
@@ -658,7 +716,7 @@
 <sup>46</sup> but certain of them went away unto the Pharisees, and told them what Jesus did;
 
 <sup>47</sup> the chief priests, therefore, and the Pharisees, gathered together a sanhedrim, and said, “What may we do? because this man doth many signs?
-<sup>48</sup> if we may let him alone thus, all will believe in him; and the Romans will come, and will take away both our place and nation.”
+<sup>48</sup> if we may let him alone thus, all will believe in him; and the Romans will come, and will take away<sup>f</sup> both our place and nation.”
 <sup>49</sup> And a certain one of them, Caiaphas, being chief priest of that year, said to them, “Ye have not known anything,
 <sup>50</sup> nor reason that it is good for us that one man may die for the people, and not the whole nation perish.”
 <sup>51</sup> And this he said not of himself, but being chief priest of that year, he did prophesy that Jesus was about to die for the nation,
@@ -672,14 +730,21 @@
 <sup>56</sup> they were seeking, therefore, Jesus, and said one with another, standing in the temple, “What doth appear to you—that he may not come to the feast?”
 <sup>57</sup> and both the chief priests and the Pharisees had given a command, that if any one may know where he is, he may shew _it_, so that they may seize him.
 
+> - <sup>a</sup> 1. Chapter XI. may be divided into nine parts; v. 1–3 sickness of Lazarus; v. 4–17 Jesus on his sleep and death; v. 18–27 Jesus and Martha; v. 28–32 Jesus and Mary; v. 33–38 Jesus and the Jews; v. 39–44 He raises Lazarus; v. 45–46 many believe; v. 47–53 many reject him; v. 54–57 Jesus and the Jews.
+> - <sup>b</sup> 2. Lit., _fattened or smeared (afterwards)...thoroughly-wiped...was infirm._
+> - <sup>c</sup> 14. Lit., _speaking-all-out..._
+> - <sup>d</sup> 23. Lit., _stand up._
+> - <sup>e</sup> 35. Lit., _Jesus shed-tears._
+> - <sup>f</sup> 48. Lit., _lift up._
+
 ## Chapter 12
 
-<sup>1</sup> Jesus, therefore, six days before the passover, came to Bethany, where was Lazarus, who had died, whom he raised out of the dead;
+<sup>1</sup> <sup>a</sup>Jesus, therefore, six days before the passover, came to Bethany, where was Lazarus, who had died, whom he raised out of the dead;
 <sup>2</sup> they made, therefore, to him a supper there, and Martha was ministering, and Lazarus was one of those reclining together (at meat) with him;
-<sup>3</sup> Mary, therefore, having taken a pound of ointment of spikenard, of great price, anointed the feet of Jesus and did wipe with her hair his feet, and the house was filled from the fragrance of the ointment.
+<sup>3</sup> Mary, therefore, having taken a pound of ointment of spikenard, of great price<sup>b</sup>, anointed the feet of Jesus and did wipe with her hair his feet, and the house was filled from the fragrance of the ointment.
 <sup>4</sup> Therefore saith one of his disciples—Judas Iscariot, of Simon, who is about to deliver him up—
 <sup>5</sup> “Wherefore was not this ointment sold for three hundred denaries, and given to the poor?”
-<sup>6</sup> and he said this, not because he was caring for the poor, but because he was a thief, and had the bag, and what things were put in he was carrying.
+<sup>6</sup> and he said this, not because he was caring for the poor, but because he was a thief, and had the bag, and what things were put in he was carrying.<sup>c</sup>
 <sup>7</sup> Jesus, therefore, said, “Suffer her; for the day of my embalming she hath kept it,
 <sup>8</sup> for the poor ye have always with yourselves, and me ye have not always.”
 
@@ -734,11 +799,17 @@
 <sup>49</sup> because I spake not from myself, but the Father who sent me, He did give me a command, what I may say, and what I may speak,
 <sup>50</sup> and I have known that His command is life age-during; what, therefore, I speak, according as the Father hath said to me, so I speak.”
 
+> - <sup>a</sup> 1. Chapter XII. may be divided into four parts; v. 1–8 Jesus anointed by Mary; v. 9–19 enters Jerusalem in triumph; v. 20–36 rejoices over the Greeks, and warns the Jews; v. 37–50 Jewish unbelief, timidity, and danger.
+> - <sup>b</sup> 3. Lit., _genuine spikenard, much prized..._
+> - <sup>c</sup> 6. Lit., _there was care to him...bag (lit. place of keeping the tongues, i.e. reeds of wind instruments), and the things cast (into it) he was bearing_
+
 ## Chapter 13
 
+<sup>1</sup> <sup>a</sup>
 ### The Third Passover
 
-<sup>1</sup> And before the feast of the passover, Jesus knowing that his hour hath come, that he may remove out of this world unto the Father, having loved his own who _are_ in the world—to the end he loved them.
+
+And before the feast of the passover, Jesus knowing that his hour hath come, that he may remove out of this world unto the Father, having loved his own who _are_ in the world—to the end he loved them.
 
 ### The Last Supper
 
@@ -784,9 +855,11 @@
 <sup>37</sup> Peter saith to him, “Sir, wherefore am I not able to follow thee now? my life for thee I will lay down;”
 <sup>38</sup> Jesus answered him, “Thy life for me thou wilt lay down! verily, verily, I say to thee, a cock will not crow till thou mayest deny me thrice.”
 
+> - <sup>a</sup> 1. Chapter XIII. may be divided into four parts; v. 1–11 Jesus washes the apostles’ feet; v. 12–20 his reasons for doing it; v. 21–30 uncovering of Judas; v. 31–38 Jesus glorified, a new command, prophesy about Peter.
+
 ## Chapter 14
 
-<sup>1</sup> “Let not your heart be troubled, believe in God, also in me believe;
+<sup>1</sup> <sup>a</sup>“Let not your heart be troubled<sup>b</sup>, believe in God, also in me believe;
 <sup>2</sup> in the house of my Father are many mansions; and if not, I would have told you; I go on to prepare a place for you;
 <sup>3</sup> and if I go on and prepare for you a place, again do I come, and will receive you unto myself, that where I am ye also may be;
 <sup>4</sup> and whither I go away ye have known, and the way ye have known.”
@@ -803,7 +876,7 @@
 <sup>14</sup> if ye ask anything in my name I will do _it_.
 
 <sup>15</sup> “If ye love me, my commands keep,
-<sup>16</sup> and I will ask the Father, and another Comforter He will give to you, that he may remain with you—to the age;
+<sup>16</sup> and I will ask the Father, and another Comforter<sup>c</sup> He will give to you, that he may remain with you—to the age;
 <sup>17</sup> the Spirit of truth, whom the world is not able to receive, because it doth not behold him, nor know him, and ye know him, because he doth remain with you, and shall be in you.
 <sup>18</sup> “I will not leave you bereaved, I come unto you;
 <sup>19</sup> yet a little, and the world doth no more behold me, and ye behold me, because I live, and ye shall live;
@@ -814,7 +887,7 @@
 <sup>23</sup> Jesus answered and said to him, “If any one may love me, my word he will keep, and my Father will love him, and unto him we will come, and abode with him we will make;
 <sup>24</sup> he who is not loving me, my words doth not keep; and the word that ye hear is not mine, but the Father’s who sent me.
 
-<sup>25</sup> “These things I have spoken to you, remaining with you,
+<sup>25</sup> “These things I have spoken to you, remaining with you<sup>d</sup>,
 <sup>26</sup> and the Comforter, the Holy Spirit, whom the Father will send in my name, he will teach you all things, and remind you of all things that I said to you.
 <sup>27</sup> “Peace I leave to you; my peace I give to you, not according as the world doth give do I give to you; let not your heart be troubled, nor let it be afraid;
 <sup>28</sup> ye heard that I said to you—I go away, and I come unto you; if ye did love me, ye would have rejoiced that I said—I go on to the Father, because my Father is greater than I.
@@ -822,11 +895,18 @@
 <sup>30</sup> I will no more talk much with you, for the ruler of this world doth come, and in me he hath nothing;
 <sup>31</sup> but that the world may know that I love the Father, and according as the Father gave me command so I do; arise, we may go hence.
 
+> - <sup>a</sup> 1. Chapter XIV. may be divided into six parts; v. 1–4 Jesus encourages the disciples; v. 5–11 answers Thomas and Philip; v. 12–14 promises to help and hear them; v. 15–21 promises the Comforter; v. 22–24 answers Judas; v. 25–31 and promises knowledge, peace, and joy.
+> - <sup>b</sup> 1. Or, _harassed._
+> - <sup>c</sup> 16. Lit., _one who calls along-side of another, i.e. helper, advocate._
+> - <sup>d</sup> 25. Lit., _remaining long-side of you._
+
 ## Chapter 15
 
+<sup>1</sup> <sup>a</sup>
 ### The True Vine
 
-<sup>1</sup> “I am the true vine, and my Father is the husbandman;
+
+“I am the true vine, and my Father is the husbandman;
 <sup>2</sup> every branch in me not bearing fruit, He doth take it away, and every one bearing fruit, He doth cleanse by pruning it, that it may bear more fruit;
 <sup>3</sup> already ye are clean, because of the word that I have spoken to you;
 <sup>4</sup> remain in me, and I in you, as the branch is not able to bear fruit of itself, if it may not remain in the vine, so neither ye, if ye may not remain in me.
@@ -844,7 +924,7 @@
 <sup>15</sup> no more do I call you servants, because the servant hath not known what his lord doth, and you I have called friends, because all things that I heard from my Father, I did make known to you.
 <sup>16</sup> “Ye did not choose out me, but I chose out you, and did appoint you, that ye might go away, and might bear fruit, and your fruit might remain, that whatever ye may ask of the Father in my name, He may give you.
 
-<sup>17</sup> “These things I command you, that ye love one another;
+<sup>17</sup> “These things I command<sup>b</sup> you, that ye love one another;
 <sup>18</sup> if the world doth hate you, ye know that it hath hated me before you;
 <sup>19</sup> if of the world ye were, the world its own would have been loving, and because of the world ye are not—but I chose out of the world—because of this the world hateth you.
 <sup>20</sup> “Remember the word that I said to you, A servant is not greater than his lord; if me they did persecute, you also they will persecute; if my word they did keep, yours also they will keep;
@@ -853,12 +933,16 @@
 <sup>23</sup> “He who is hating me, doth hate also my Father;
 <sup>24</sup> if I did not do among them the works that no other hath done, they were not having sin, and now they have both seen and hated both me and my Father;
 <sup>25</sup> but—that the word may be fulfilled that was written in their law—They hated me without a cause.
-<sup>26</sup> “And when the Comforter may come, whom I will send to you from the Father—the Spirit of truth, who from the Father doth come forth, he will testify of me;
+<sup>26</sup> “And when the Comforter<sup>c</sup> may come, whom I will send to you from the Father—the Spirit of truth, who from the Father doth come forth, he will testify of me;
 <sup>27</sup> and ye also do testify, because from the beginning ye are with me.
+
+> - <sup>a</sup> 1. Chapter XV. may be divided into two parts; v. 1–11 Jesus compares himself and his disciples to a vine and its branches; v. 12–27 exhorts to love and warns of hatred.
+> - <sup>b</sup> 17. Lit., _raise up to you._
+> - <sup>c</sup> 26. Lit., _one calling along-side of another._
 
 ## Chapter 16
 
-<sup>1</sup> “These things I have spoken to you, that ye may not be stumbled,
+<sup>1</sup> <sup>a</sup>“These things I have spoken to you, that ye may not be stumbled,
 <sup>2</sup> out of the synagogues they will put you; but an hour doth come, that every one who hath killed you, may think to offer service unto God;
 <sup>3</sup> and these things they will do to you, because they did not know the Father, nor me.
 <sup>4</sup> “But these things I have spoken to you, that when the hour may come, ye may remember them, that I said _them_ to you, and these things to you from the beginning I did not say, because I was with you;
@@ -868,7 +952,7 @@
 <sup>8</sup> and having come, He will convict the world concerning sin, and concerning righteousness, and concerning judgment;
 <sup>9</sup> concerning sin indeed, because they do not believe in me;
 <sup>10</sup> and concerning righteousness, because unto my Father I go away, and no more do ye behold me;
-<sup>11</sup> and concerning judgment, because the ruler of this world hath been judged.
+<sup>11</sup> and concerning judgment, because the ruler<sup>b</sup> of this world hath been judged.
 
 <sup>12</sup> “I have yet many things to say to you, but ye are not able to bear _them_ now;
 <sup>13</sup> and when He may come—the Spirit of truth—He will guide you to all the truth, for He will not speak from Himself, but as many things as He will hear He will speak, and the coming things He will tell you;
@@ -881,7 +965,7 @@
 <sup>19</sup> Jesus, therefore, knew that they were wishing to ask him, and he said to them, “Concerning this do ye seek one with another, because I said, A little while, and you do not behold me, and again a little while, and ye shall see me?
 <sup>20</sup> verily, verily, I say to you, that ye shall weep and lament, and the world will rejoice; and ye shall be sorrowful, but your sorrow joy will become.
 <sup>21</sup> “The woman, when she may bear, hath sorrow, because her hour did come, and when she may bear the child, no more doth she remember the anguish, because of the joy that a man was born to the world.
-<sup>22</sup> “And ye, therefore, now, indeed, have sorrow; and again I will see you, and your heart shall rejoice, and your joy no one doth take from you,
+<sup>22</sup> “And ye, therefore, now, indeed, have sorrow; and again I will see you, and your heart shall rejoice, and your joy no one doth take<sup>c</sup> from you,
 <sup>23</sup> and in that day ye will question me nothing; verily, verily, I say to you, as many things as ye may ask of the Father in my name, He will give you;
 <sup>24</sup> till now ye did ask nothing in my name; ask, and ye shall receive, that your joy may be full.
 
@@ -889,21 +973,28 @@
 <sup>26</sup> “In that day, in my name ye will make request, and I do not say to you that I will ask the Father for you,
 <sup>27</sup> for the Father himself doth love you, because me ye have loved, and ye have believed that I from God came forth;
 <sup>28</sup> I came forth from the Father, and have come to the world; again I leave the world, and go on unto the Father.”
-<sup>29</sup> His disciples say to him, “Lo, now freely thou dost speak, and no similitude speakest thou;
+<sup>29</sup> His disciples say to him, “Lo, now freely thou dost speak<sup>d</sup>, and no similitude speakest thou;
 <sup>30</sup> now we have known that thou hast known all things, and hast no need that any one do question thee; in this we believe that from God thou didst come forth.”
 <sup>31</sup> Jesus answered them, “Now do ye believe? lo, there doth come an hour,
 <sup>32</sup> and now it hath come, that ye may be scattered, each to his own things, and me ye may leave alone, and I am not alone, because the Father is with me;
 <sup>33</sup> these things I have spoken to you, that in me ye may have peace, in the world ye shall have tribulation, but take courage—I have overcome the world.”
 
+> - <sup>a</sup> 1. Chapter XVI. may be divided into five parts; v. 1–4 Jesus warns against persecution; v. 5–11 comforts sorrow by the promise of the Comforter; v. 12–16 describes his work; v. 17–24 promises joy by his return; v. 25–33 professes and is confessed to have come forth from God.
+> - <sup>b</sup> 11. Lit., _chief or first one._
+> - <sup>c</sup> 22. Lit., _lifteth up._
+> - <sup>d</sup> 29. Lit., _with full-speech thou talkest._
+
 ## Chapter 17
 
+<sup>1</sup> <sup>a</sup>
 ### The Prayer of Jesus
 
-<sup>1</sup> These things spake Jesus, and lifted up his eyes to the heaven, and said—“Father, the hour hath come, glorify Thy Son, that Thy Son also may glorify Thee,
+
+These things spake Jesus, and lifted up his eyes to the heaven, and said—“Father, the hour hath come, glorify Thy Son, that Thy Son also may glorify Thee,
 <sup>2</sup> according as Thou didst give to him authority over all flesh, that—all that Thou hast given to him—he may give to them life age-during;
 <sup>3</sup> and this is the life age-during, that they may know Thee, the only true God, and him whom Thou didst send—Jesus Christ;
 <sup>4</sup> I did glorify Thee on the earth, the work I did finish that Thou hast given me, that I may do _it_.
-<sup>5</sup> “And now, glorify me, Thou Father, with Thyself, with the glory that I had before the world was, with Thee;
+<sup>5</sup> “And now, glorify me, Thou Father, with Thyself, with the glory that I had before the world was, with Thee;<sup>b</sup>
 <sup>6</sup> I did manifest Thy name to the men whom Thou hast given to me out of the world; Thine they were, and to me Thou hast given them, and Thy word they have kept;
 <sup>7</sup> now they have known that all things, as many as Thou hast given to me, are from Thee,
 <sup>8</sup> because the sayings that Thou hast given to me, I have given to them, and they themselves received, and have known truly, that from Thee I came forth, and they did believe that Thou didst send me.
@@ -926,11 +1017,16 @@
 <sup>25</sup> “Righteous Father, also the world did not know Thee, and I knew Thee, and these have known that Thou didst send me,
 <sup>26</sup> and I made known to them Thy name, and will make known, that the love with which Thou lovedst me in them may be, and I in them.”
 
+> - <sup>a</sup> 1. Chapter XVII. may be divided into two parts; v. 1–19 Jesus asks for his twelve apostles; v. 20–26 and for all who shall believe on him hereafter.
+> - <sup>b</sup> 5. Lit., _along-side of thyself...along-side of thee._
+
 ## Chapter 18
 
+<sup>1</sup> <sup>a</sup>
 ### The Betrayal
 
-<sup>1</sup> These things having said, Jesus went forth with his disciples beyond the brook of Kedron, where was a garden, into which he entered, himself and his disciples,
+
+These things having said, Jesus went forth with his disciples beyond the brook of Kedron, where was a garden, into which he entered, himself and his disciples,
 <sup>2</sup> and Judas also, who delivered him up, had known the place, because many times did Jesus assemble there with his disciples.
 <sup>3</sup> Judas, therefore, having taken the band and officers out of the chief priests and Pharisees, doth come thither with torches and lamps, and weapons;
 <sup>4</sup> Jesus, therefore, knowing all things that are coming upon him, having gone forth, said to them, “Whom do ye seek?”
@@ -944,12 +1040,12 @@
 
 <sup>12</sup> The band, therefore, and the captain, and the officers of the Jews, took hold on Jesus, and bound him,
 <sup>13</sup> and they led him away to Annas first, for he was father-in-law of Caiaphas, who was chief priest of that year,
-<sup>14</sup> and Caiaphas was he who gave counsel to the Jews, that it is good for one man to perish for the people.
+<sup>14</sup> and Caiaphas was he who gave counsel to<sup>b</sup> the Jews, that it is good for one man to perish for the people.
 
 <sup>15</sup> And following Jesus was Simon Peter, and the other disciple, and that disciple was known to the chief priest, and he entered with Jesus to the hall of the chief priest,
 <sup>16</sup> and Peter was standing at the door without, therefore went forth the other disciple who was known to the chief priest, and he spake to the female keeping the door, and he brought in Peter.
 
-<sup>17</sup> Then said the maid keeping the door to Peter, “Art thou also of the disciples of this man?” he saith, “I am not;”
+<sup>17</sup> Then said the maid keeping the door<sup>c</sup> to Peter, “Art thou also of the disciples of this man?” he saith, “I am not;”
 <sup>18</sup> and the servants and the officers were standing, having made a fire of coals, because it was cold, and they were warming themselves, and Peter was standing with them, and warming himself.
 
 <sup>19</sup> The chief priests, therefore, questioned Jesus concerning his disciples, and concerning his teaching;
@@ -961,12 +1057,12 @@
 
 <sup>25</sup> And Simon Peter was standing and warming himself, they said then to him, “Art thou also of his disciples?” he denied, and said, “I am not.”
 <sup>26</sup> One of the servants of the chief priest, being kinsman of him whose ear Peter cut off, saith, “Did not I see thee in the garden with him?”
-<sup>27</sup> again, therefore, Peter denied, and immediately a cock crew.
+<sup>27</sup> again, therefore, Peter denied, and immediately a cock crew<sup>d</sup>.
 
 ### The Trial
 
 <sup>28</sup> They led, therefore, Jesus from Caiaphas to the praetorium, and it was early, and they themselves did not enter into the praetorium, that they might not be defiled, but that they might eat the passover;
-<sup>29</sup> Pilate, therefore, went forth unto them, and said, “What accusation do ye bring against this man?”
+<sup>29</sup> Pilate, therefore, went forth unto them, and said, “What accusation<sup>e</sup> do ye bring against this man?”
 <sup>30</sup> they answered and said to him, “If he were not an evil doer, we had not delivered him to thee.”
 <sup>31</sup> Pilate, therefore, said to them, “Take ye him—ye—and according to your law judge him;” the Jews, therefore, said to him, “It is not lawful to us to put any one to death;”
 <sup>32</sup> that the word of Jesus might be fulfilled which he said, signifying by what death he was about to die.
@@ -976,20 +1072,29 @@
 <sup>35</sup> Pilate answered, “Am I a Jew? thy nation, and the chief priests did deliver thee up to me; what didst thou?”
 <sup>36</sup> Jesus answered, “My kingdom is not of this world; if my kingdom were of this world, my officers had struggled that I might not be delivered up to Jews; but now my kingdom is not from hence.”
 <sup>37</sup> Pilate, therefore, said to him, “Art thou then a king?” Jesus answered, “Thou dost say _it_; because a king I am, I for this have been born, and for this I have come to the world, that I may testify to the truth; every one who is of the truth, doth hear my voice.”
-<sup>38</sup> Pilate saith to him, “What is truth?” and this having said, again he went forth unto the Jews, and saith to them, “I do find no fault in him;
+<sup>38</sup> Pilate saith to him, “What is truth?” and this having said, again he went forth unto the Jews, and saith to them, “I do find no fault<sup>f</sup> in him;
 <sup>39</sup> and ye have a custom that I shall release to you one in the passover; will ye, therefore, _that_ I shall release to you the king of the Jews?”
 <sup>40</sup> therefore they all cried out again, saying, “Not this one—but Barabbas;” and Barabbas was a robber.
 
+> - <sup>a</sup> 1. Chapter XVIII. may be divided into five parts; v. 1–14 Jesus delivered up and led to Annas; v. 15–18 Peter’s first denial; v. 19–24 Jesus before Annas; v. 25–27 Peter’s second denial; v. 28–40 Jesus before Pilate.
+> - <sup>b</sup> 14. Or, _took counsel together with._
+> - <sup>c</sup> 17. Lit., _little damsel, the portress._
+> - <sup>d</sup> 27. Lit., _a cock sounded._
+> - <sup>e</sup> 29. Lit., _public fault-bear ye._
+> - <sup>f</sup> 38. Lit., _no cause (of punishment)._
+
 ## Chapter 19
 
+<sup>1</sup> <sup>a</sup>
 ### The Crucifixion
 
-<sup>1</sup> Then, therefore, did Pilate take Jesus and scourge _him_,
+
+Then, therefore, did Pilate take Jesus and scourge _him_,
 <sup>2</sup> and the soldiers having plaited a crown of thorns, did place _it_ on his head, and a purple garment they put around him,
 <sup>3</sup> and said, “Hail! the king of the Jews;” and they were giving him slaps.
 <sup>4</sup> Pilate, therefore, again went forth without, and saith to them, “Lo, I do bring him to you without, that ye may know that in him I find no fault;”
 <sup>5</sup> Jesus, therefore, came forth without, bearing the thorny crown and the purple garment; and he saith to them, “Lo, the man!”
-<sup>6</sup> When, therefore, the chief priests and the officers did see him, they cried out, saying, “Crucify, crucify;” Pilate saith to them, “Take ye him—ye, and crucify; for I find no fault in him;”
+<sup>6</sup> When, therefore, the chief priests and the officers did see him, they cried out, saying, “Crucify, crucify;” Pilate saith to them, “Take ye him—ye, and crucify; for I find no fault in him;”<sup>b</sup>
 <sup>7</sup> the Jews answered him, “We have a law, and according to our law he ought to die, for he made himself Son of God.”
 
 <sup>8</sup> When, therefore, Pilate heard this word, he was the more afraid,
@@ -1000,13 +1105,13 @@
 
 <sup>13</sup> Pilate, therefore, having heard this word, brought Jesus without—and he sat down upon the tribunal—to a place called, “Pavement,” and in Hebrew, Gabbatha;
 <sup>14</sup> and it was the preparation of the passover, and as it were the sixth hour, and he saith to the Jews, “Lo, your king!”
-<sup>15</sup> and they cried out, “Take away, take away, crucify him;” Pilate saith to them, “Your king shall I crucify?” the chief priests answered, “We have no king except Caesar.”
+<sup>15</sup> and they cried out, “Take away, take away<sup>c</sup>, crucify him;” Pilate saith to them, “Your king shall I crucify?” the chief priests answered, “We have no king except Caesar.”
 <sup>16</sup> Then, therefore, he delivered him up to them, that he may be crucified, and they took Jesus and led _him_ away,
 <sup>17</sup> and bearing his cross, he went forth to the place called _Place_ of a Skull, which is called in Hebrew Golgotha;
 <sup>18</sup> where they crucified him, and with him two others, on this side, and on that side, and Jesus in the midst.
 
 <sup>19</sup> And Pilate also wrote a title, and put _it_ on the cross, and it was written, “Jesus the Nazarene, the king of the Jews;”
-<sup>20</sup> this title, therefore, read many of the Jews, because the place was nigh to the city where Jesus was crucified, and it was having been written in Hebrew, in Greek, in Roman.
+<sup>20</sup> this title, therefore, read many of the Jews, because the place was nigh to the city where Jesus was crucified, and it was having been written in Hebrew, in Greek, in Roman.<sup>d</sup>
 <sup>21</sup> The chief priests of the Jews said, therefore, to Pilate, “Write not—The king of the Jews, but that one said, I am king of the Jews;”
 <sup>22</sup> Pilate answered, “What I have written, I have written.”
 
@@ -1024,10 +1129,10 @@
 <sup>31</sup> The Jews, therefore, that the bodies might not remain on the cross on the sabbath, since it was the preparation, (for that sabbath day was a great one,) asked of Pilate that their legs may be broken, and they taken away.
 <sup>32</sup> The soldiers, therefore, came, and of the first indeed they did break the legs, and of the other who was crucified with him,
 <sup>33</sup> and having come to Jesus, when they saw him already having been dead, they did not break his legs;
-<sup>34</sup> but one of the soldiers with a spear did pierce his side, and immediately there came forth blood and water;
+<sup>34</sup> but one of the soldiers with a spear did pierce<sup>e</sup> his side, and immediately there came forth blood and water;
 <sup>35</sup> and he who hath seen hath testified, and his testimony is true, and that one hath known that true things he speaketh, that ye also may believe.
 <sup>36</sup> For these things came to pass, that the Writing may be fulfilled, “A bone of him shall not be broken;”
-<sup>37</sup> and again another Writing saith, “They shall look to him whom they did pierce.”
+<sup>37</sup> and again another Writing saith, “They shall look to him whom they did pierce<sup>f</sup>.”
 
 <sup>38</sup> And after these things did Joseph of Arimathea—being a disciple of Jesus, but concealed, through the fear of the Jews—ask of Pilate, that he may take away the body of Jesus, and Pilate gave leave; he came, therefore, and took away the body of Jesus,
 <sup>39</sup> and Nicodemus also came—who came unto Jesus by night at the first—bearing a mixture of myrrh and aloes, as it were, a hundred pounds.
@@ -1035,11 +1140,20 @@
 <sup>41</sup> and there was in the place where he was crucified a garden, and in the garden a new tomb, in which no one was yet laid;
 <sup>42</sup> there, therefore, because of the preparation of the Jews, because the tomb was nigh, they laid Jesus.
 
+> - <sup>a</sup> 1. Chapter XIX. may be divided into five parts; v. 1–18 Jesus scourged, crowned, condemned; v. 19–24 his title and his garments; v. 25–30 he remembers his mother, and gives up his spirit; v. 31–37 his body pierced but not broken; v. 38–42 his burial.
+> - <sup>b</sup> 6. Lit., _underlings...cause (of punishment)._
+> - <sup>c</sup> 15. Lit., _lift (him) up, lift (him) up!_
+> - <sup>d</sup> 20. Lit., _knew again or recognized...Hebraistic, Hellenistic, Romaic._
+> - <sup>e</sup> 34. Or, _pricked._
+> - <sup>f</sup> 37. Or, _...pierced through._
+
 ## Chapter 20
 
+<sup>1</sup> <sup>a</sup>
 ### The Resurrection
 
-<sup>1</sup> And on the first of the sabbaths, Mary the Magdalene doth come early (there being yet darkness) to the tomb, and she seeth the stone having been taken away out of the tomb,
+
+And on the first of the sabbaths, Mary the Magdalene doth come early (there being yet darkness) to the tomb, and she seeth the stone having been taken away out of the tomb,
 <sup>2</sup> she runneth, therefore, and cometh unto Simon Peter, and unto the other disciple whom Jesus was loving, and saith to them, “They took away the Lord out of the tomb, and we have not known where they laid him.”
 <sup>3</sup> Peter, therefore, went forth, and the other disciple, and they were coming to the tomb,
 <sup>4</sup> and the two were running together, and the other disciple did run forward more quickly than Peter, and came first to the tomb,
@@ -1076,22 +1190,24 @@
 <sup>30</sup> Many indeed, therefore, other signs also did Jesus before his disciples, that are not written in this book;
 <sup>31</sup> and these have been written that ye may believe that Jesus is the Christ, the Son of God, and that believing ye may have life in his name.”
 
+> - <sup>a</sup> 1. Chapter XX. may be divided into five parts; v. 1–9 Jesus’ tomb found empty; v. 10–18 Jesus and two messengers appear to Mary the Magdalene; v. 19–23 He appears to the disciples; v. 24–29 also to them and Thomas; v. 30, 31 object in recording Jesus’ signs.
+
 ## Chapter 21
 
-<sup>1</sup> After these things did Jesus manifest himself again to the disciples on the sea of Tiberias, and he did manifest himself thus:
+<sup>1</sup> <sup>a</sup>After these things did Jesus manifest himself again to the disciples on the sea of Tiberias, and he did manifest himself thus:
 <sup>2</sup> There were together Simon Peter, and Thomas who is called Didymus, and Nathanael from Cana of Galilee, and the _sons_ of Zebedee, and two others of his disciples.
 <sup>3</sup> Simon Peter saith to them, “I go away to fish;” they say to him, “We go—we also—with thee;” they went forth and entered into the boat immediately, and on that night they caught nothing.
 
 <sup>4</sup> And morning being now come, Jesus stood at the shore, yet indeed the disciples did not know that it is Jesus;
 <sup>5</sup> Jesus, therefore, saith to them, “Lads, have ye any meat?”
 <sup>6</sup> they answered him, “No;” and he said to them, “Cast the net at the right side of the boat, and ye shall find;” they cast, therefore, and no longer were they able to draw it, from the multitude of the fishes.
-<sup>7</sup> That disciple, therefore, whom Jesus was loving saith to Peter, “The Lord it is!” Simon Peter, therefore, having heard that it is the Lord, did gird on the outer coat, (for he was naked,) and did cast himself into the sea;
+<sup>7</sup> That disciple, therefore, whom Jesus was loving saith to Peter, “The Lord it is!” Simon Peter, therefore, having heard that it is the Lord, did gird on the outer coat, (for he was naked<sup>b</sup>,) and did cast himself into the sea;
 <sup>8</sup> and the other disciples came by the little boat, for they were not far from the land, but as it were about two hundred cubits off, dragging the net of the fishes;
 
 <sup>9</sup> when, therefore, they came to the land, they behold a fire of coals lying, and a fish lying on it, and bread.
 <sup>10</sup> Jesus saith to them, “Bring ye from the fishes that ye caught now;”
 <sup>11</sup> Simon Peter went up, and drew the net up on the land, full of great fishes, an hundred fifty and three, and though they were so many, the net was not rent.
-<sup>12</sup> Jesus saith to them, “Come ye, dine;” and none of the disciples was venturing to inquire of him, “Who art thou?” knowing that it is the Lord;
+<sup>12</sup> Jesus saith to them, “Come ye, dine<sup>c</sup>;” and none of the disciples was venturing to inquire of him, “Who art thou?” knowing that it is the Lord;
 <sup>13</sup> Jesus, therefore, doth come and take the bread and give to them, and the fish in like manner;
 <sup>14</sup> this _is_ now a third time Jesus was manifested to his disciples, having been raised from the dead.
 
@@ -1103,9 +1219,14 @@
 
 <sup>20</sup> And Peter having turned about doth see the disciple whom Jesus was loving following, (who also reclined in the supper on his breast, and said, “Sir, who is he who is delivering thee up?”)
 <sup>21</sup> Peter having seen this one, saith to Jesus, “Lord, and what of this one?”
-<sup>22</sup> Jesus saith to him, “If him I will to remain till I come, what—to thee? be thou following me.” This word, therefore, went forth to the brethren that that disciple doth not die,
+<sup>22</sup> Jesus saith to him, “If him I will to remain till I come, what—to thee? be thou following me.” This word, therefore, went forth to the brethren that that disciple doth not die<sup>d</sup>,
 <sup>23</sup> yet Jesus did not say to him, that he doth not die, but, “If him I will to remain till I come, what—to thee?”
 
 <sup>24</sup> this is the disciple who is testifying concerning these things, and he wrote these things, and we have known that his testimony is true.
 
 <sup>25</sup> And there are also many other things—as many as Jesus did—which, if they may be written one by one, not even the world itself I think to have place for the books written. Amen.
+
+> - <sup>a</sup> 1. Chapter XXI. may be divided into four parts; v. 1–14 Jesus manifests himself a third time to his disciples; v. 15–19 draws out Peter’s love, and foretells his death; v. 20–24 Peter’s enquiry about John; v. 25 the conclusion.
+> - <sup>b</sup> 7. he was naked, i.e. comparatively so, as in 1 Sa. 19.24; 2 Sa. 6.20; Isa. 20.2, 3; Acts 19.16, &c.
+> - <sup>c</sup> 12. Or, _breakfast;_ lit., _take the “best” meal._
+> - <sup>d</sup> 22. Lit., _word forth to...does not die utterly._

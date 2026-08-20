@@ -5,33 +5,189 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "In many parts, and many ways, God of old having spoken to the fathers in the prophets,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Hebrews. The parties to whom this Epistle was originally addressed were undoubtedly the Jewish Christians in Palestine, who were exposed to peculiar inducements to apostatize to Judaism; and hence the elaborate exhibition of the superiority of Christ and Christianity to all preceding revelations of the Divine Will. It was probably written from Rome about A.D. 62–3, when the author was expecting shortly to be restored to them. He gives no name, but must have been well-known to those whom he addressed, and accordingly they (i.e. the Eastern Churches) have almost unanimously maintained that he was the apostle Paul, while the Western (",
+              { "text": "or", "marks": ["i"] },
+              {
+                "text": " Roman) Church was divided in opinion, Tertullian ascribing it to Barnabas, others to Apollos, Luke, Silas, &c.",
+                "break": true
+              },
+              {
+                "text": "Ignatius (A.D. 108), Polycarp (A.D. 108), Clement of Rome (A.D. 108), Justin Martyr (A.D. 140), Clement of Alexandria (A.D. 194), Origen (A.D. 230), Dionysius (A.D. 247), Theognostus (A.D. 282), Methodius (A.D. 292), Pamphilus (A.D. 294), Archelaus (A.D. 300), Arnobius (A.D. 306), Lactantius (A.D. 306), &c., all considered Paul to be the author, though the composition of the sentences, and the colourings of the style, are by no means so Pauline, as are the casts of thought, and modes of reasoning.",
+                "break": true
+              },
+              {
+                "text": "The object of this Epistle is to shew the pre-eminent dignity of Christ and Christianity, to prevent Jewish believers from relapsing into Judaism, and to exhort them to stedfastness by the example of ancient worthies. It may be divided into two great parts:—",
+                "break": true
+              },
+              {
+                "content": [
+                  "I. DOCTRINAL,—Superiority of Christ to Angels, Moses, Aaron, and the Levitical priesthood; ",
+                  { "bibleLink": "Hebrews 1:1–14", "content": "ch. i. 1" },
+                  "–",
+                  { "bibleLink": "Hebrews 10:1–18", "content": "10. 18" },
+                  "."
+                ],
+                "break": true
+              },
+              "II. PRACTICAL,—Application of the Doctrine; ",
+              { "bibleLink": "Hebrews 10:19–39", "content": "ch. 10. 19" },
+              "–",
+              { "bibleLink": "Hebrews 13:1–25", "content": "13. 25" },
+              "."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. May be divided into two parts; ",
+              { "bibleLink": "Hebrews 1:1–4", "content": "v. 1–4" },
+              " superiority of God’s Son over his other Messengers; ",
+              { "bibleLink": "Hebrews 1:5–14", "content": "v. 5–14" },
+              " reasons for this."
+            ]
+          }
+        },
+        "In many parts, and many ways, ",
+        "God of old having spoken to the fathers in the ",
+        {
+          "text": "prophets,",
+          "foot": {
+            "type": "stu",
+            "content": [
+              "those announcing the will of God, whether it related to things past, present, or future"
+            ]
+          }
+        }
+      ]
     }
   },
   {
     "book": "HEB",
     "chapter": 1,
     "verse": 2,
-    "content": "in these last days did speak to us in a Son, whom He appointed heir of all things, through whom also He did make the ages;"
+    "content": [
+      "in these last days did speak to us in a Son, whom He appointed heir of all things, through whom also He did make the ",
+      {
+        "text": "ages",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "dispensations, whether Adamic, Noachic, Abrahamic or Mosaic",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ";"
+    ]
   },
   {
     "book": "HEB",
     "chapter": 1,
     "verse": 3,
-    "content": "who being the brightness of the glory, and the impress of His subsistence, bearing up also the all things by the saying of his might—through himself having made a cleansing of our sins, sat down at the right hand of the greatness in the highest,"
+    "content": [
+      "who being the brightness of the glory, and ",
+      {
+        "text": "the impress of His subsistence",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "an impress (Gr. character) of his under (or hidden) state, (Gr. hypostasis)",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", bearing up also the all things by the saying of his might—through himself having made a cleansing of ",
+      {
+        "text": "our sins",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "“missings” of the mark", "marks": ["i"] }
+          ]
+        }
+      },
+      ", sat down at the right hand of the greatness in the highest,"
+    ]
   },
   {
     "book": "HEB",
     "chapter": 1,
     "verse": 4,
-    "content": "having become so much better than the messengers, as he did inherit a more excellent name than they."
+    "content": [
+      "having become so much ",
+      {
+        "text": "better",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "having become so much stronger (or nobler) than the (other) messengers (of God) as he has inherited (or received by lot) a thoroughly different name from them",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " than the messengers, as he did inherit a more excellent ",
+      {
+        "text": "name",
+        "foot": {
+          "type": "stu",
+          "content": ["they being simply called “prophets,” and he “Son,”"]
+        }
+      },
+      " than they."
+    ]
   },
   {
     "book": "HEB",
     "chapter": 1,
     "verse": 5,
     "content": {
-      "text": "For to which of the messengers said He ever, “My Son thou art—I to-day have begotten thee?” and again, “I will be to him for a father, and he shall be to Me for a son?”",
+      "content": [
+        "For to which of the ",
+        {
+          "text": "messengers",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "messengers (whether men or unclothed spirits)",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        " said He ever, “My Son thou art—I to-day have begotten thee?” and again, “I will be to him for a ",
+        {
+          "text": "father",
+          "foot": {
+            "type": "stu",
+            "content": ["a new and endearing relationship will be formed"]
+          }
+        },
+        ", and he shall be to Me for a ",
+        {
+          "text": "son",
+          "foot": { "type": "xrf", "content": { "bibleLink": "2 Samuel 7:14" } }
+        },
+        "?”"
+      ],
       "break": true
     }
   },
@@ -41,7 +197,23 @@
     "verse": 6,
     "content": {
       "paragraph": true,
-      "text": "and when again He may bring in the first-born to the world, He saith, “And let them bow before him—all messengers of God;”"
+      "content": [
+        "and when again He may bring in the first-born to the world, He saith, “And let them ",
+        {
+          "text": "bow before him",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "And let all messengers of God kiss forward (the hand) to him",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        "—all messengers of God;”"
+      ]
     }
   },
   {
@@ -49,7 +221,23 @@
     "chapter": 1,
     "verse": 7,
     "content": {
-      "text": "and unto the messengers, indeed, He saith, “Who is making His messengers spirits, and His ministers a flame of fire;”",
+      "content": [
+        "and unto the messengers, indeed, He saith, “",
+        {
+          "text": "Who is making His messengers spirits, and His ministers a flame of fire",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "Who is making his messengers (as) winds, and his public workers (as) a flame of fire",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ";”"
+      ],
       "break": true
     }
   },
@@ -58,7 +246,19 @@
     "chapter": 1,
     "verse": 8,
     "content": [
-      { "paragraph": true, "text": "and unto the Son: “Thy throne, O God, " },
+      { "paragraph": true, "text": "and unto the Son: “Thy throne, " },
+      {
+        "text": "O God",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "This is a clear instance where Christ is called “God,” but as ",
+            { "bibleLink": "Hebrews 1:9", "content": "v. 9" },
+            " speaks of God as his “God,” we cannot lay stress upon it here as proving the supreme divinity of the Saviour, besides it may be justly rendered, “God is thy throne—to the ages of the ages;” in either case it is applicable to the mediatorial throne only."
+          ]
+        }
+      },
+      ", ",
       { "text": "is", "marks": ["i"] },
       " to the age of the age; a sceptre of righteousness ",
       { "text": "is", "marks": ["i"] },
@@ -70,7 +270,20 @@
     "chapter": 1,
     "verse": 9,
     "content": {
-      "text": "thou didst love righteousness, and didst hate lawlessness; because of this did He anoint thee—God, thy God—with oil of gladness above thy partners;”",
+      "content": [
+        "thou didst love righteousness, and didst hate lawlessness; because of this did He anoint thee—God, thy God—with oil of gladness above thy ",
+        {
+          "text": "partners",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "those “having along with” him", "marks": ["i"] }
+            ]
+          }
+        },
+        ";”"
+      ],
       "break": true
     }
   },
@@ -89,7 +302,22 @@
     "chapter": 1,
     "verse": 11,
     "content": {
-      "text": "these shall perish, and Thou dost remain, and all, as a garment, shall become old,",
+      "content": [
+        {
+          "text": "these shall perish",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "loose themselves away, but thou remainest thoroughly..become old as a garment (does)",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ", and Thou dost remain, and all, as a garment, shall become old,"
+      ],
       "break": true
     }
   },
@@ -98,7 +326,23 @@
     "chapter": 1,
     "verse": 12,
     "content": {
-      "text": "and as a mantle Thou shall roll them together, and they shall be changed, and Thou art the same, and Thy years shall not fail.”",
+      "content": [
+        "and as a ",
+        {
+          "text": "mantle",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Or, ",
+              {
+                "text": "wrapper, lit. a thing “cast around” one",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        " Thou shall roll them together, and they shall be changed, and Thou art the same, and Thy years shall not fail.”"
+      ],
       "break": true
     }
   },
@@ -118,7 +362,23 @@
     "verse": 14,
     "content": {
       "paragraph": true,
-      "text": "are they not all spirits of service—for ministration being sent forth because of those about to inherit salvation?"
+      "content": [
+        "are they not all ",
+        {
+          "text": "spirits of service—for ministration",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "public-working spirits, sent forth with a view to deaconship, because (or on account) of those about to inherit salvation",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        " being sent forth because of those about to inherit salvation?"
+      ]
     }
   },
   {
@@ -126,6 +386,22 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter II. May be divided into four parts; ",
+            { "bibleLink": "Hebrews 2:1–4", "content": "v. 1–4" },
+            " a practical inference from the preceding chapter; ",
+            { "bibleLink": "Hebrews 2:5–9", "content": "v. 5–9" },
+            " glory of man and Jesus; ",
+            { "bibleLink": "Hebrews 2:10–13", "content": "v. 10–13" },
+            " reasons for Jesus being perfected through sufferings; ",
+            { "bibleLink": "Hebrews 2:14–18", "content": "v. 14–18" },
+            " and for his incarnation."
+          ]
+        }
+      },
       { "paragraph": true, "text": "Because of this it behoveth " },
       { "text": "us", "marks": ["i"] },
       " more abundantly to take heed to the things heard, lest we may glide aside,"
@@ -135,7 +411,23 @@
     "book": "HEB",
     "chapter": 2,
     "verse": 2,
-    "content": "for if the word being spoken through messengers did become stedfast, and every transgression and disobedience did receive a just recompense,"
+    "content": [
+      "for if the word being spoken through ",
+      {
+        "text": "messengers",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "messengers (e.g. Moses) became firm, and every transgression and mis-hearkening received an inwardly just giving back of hire",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " did become stedfast, and every transgression and disobedience did receive a just recompense,"
+    ]
   },
   {
     "book": "HEB",
@@ -147,7 +439,17 @@
     "book": "HEB",
     "chapter": 2,
     "verse": 4,
-    "content": "God also bearing joint-witness both with signs and wonders, and manifold powers, and distributions of the Holy Spirit, according to His will."
+    "content": [
+      "God also bearing joint-witness both with signs and ",
+      {
+        "text": "wonders",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "terrible things", "marks": ["i"] }]
+        }
+      },
+      ", and manifold powers, and distributions of the Holy Spirit, according to His will."
+    ]
   },
   {
     "book": "HEB",
@@ -163,7 +465,19 @@
     "chapter": 2,
     "verse": 6,
     "content": {
-      "text": "and one in a certain place did testify fully, saying, “What is man, that Thou art mindful of him, or a son of man, that Thou dost look after him?",
+      "content": [
+        "and one in a certain place did testify fully, saying, “What is ",
+        {
+          "text": "man",
+          "foot": { "type": "stu", "content": ["the human race"] }
+        },
+        ", that Thou art mindful of him, or ",
+        {
+          "text": "a son of man",
+          "foot": { "type": "stu", "content": ["a human being"] }
+        },
+        ", that Thou dost look after him?"
+      ],
       "break": true
     }
   },
@@ -172,7 +486,20 @@
     "chapter": 2,
     "verse": 7,
     "content": {
-      "text": "Thou didst make him some little less than messengers, with glory and honour Thou didst crown him, and didst set him over the works of Thy hands,",
+      "content": [
+        {
+          "text": "Thou didst make him some little less than messengers",
+          "foot": {
+            "type": "stu",
+            "content": [
+              "In ",
+              { "bibleLink": "Psalm 8:4", "content": "Ps. 8. 4" },
+              " the Hebrew is, “Thou hast caused him to lack a little of God,” i.e. of the God-head, or divine nature; being made in his image, he was his representative here below. The apostle quotes the Septuagint, which, though perfectly true, does not express all that the Psalmist does."
+            ]
+          }
+        },
+        ", with glory and honour Thou didst crown him, and didst set him over the works of Thy hands,"
+      ],
       "break": true
     }
   },
@@ -197,7 +524,18 @@
       { "text": "are", "marks": ["i"] },
       " the all things, and through whom ",
       { "text": "are", "marks": ["i"] },
-      " the all things, many sons to glory bringing, the author of their salvation through sufferings to make perfect,"
+      " the all things, many sons to glory bringing, the ",
+      {
+        "text": "author",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "to perfect (lit. end) the chief-leader", "marks": ["i"] }
+          ]
+        }
+      },
+      " of their salvation through sufferings to make perfect,"
     ]
   },
   {
@@ -205,7 +543,15 @@
     "chapter": 2,
     "verse": 11,
     "content": [
-      "for both he who is sanctifying and those sanctified ",
+      "for both he who is ",
+      {
+        "text": "sanctifying",
+        "foot": {
+          "type": "stu",
+          "content": ["setting apart, lit. making “not of the earth,”"]
+        }
+      },
+      " and those sanctified ",
       { "text": "are", "marks": ["i"] },
       " all of one, for which cause he is not ashamed to call them brethren,"
     ]
@@ -234,7 +580,31 @@
     "verse": 14,
     "content": {
       "paragraph": true,
-      "text": "Seeing, then, the children have partaken of flesh and blood, he himself also in like manner did take part of the same, that through death he might destroy him having the power of death—that is, the devil—"
+      "content": [
+        "Seeing, then, the children have partaken of flesh and blood, he himself also in like manner did take part of the same, that through death he might ",
+        {
+          "text": "destroy",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "make thoroughly useless", "marks": ["i"] }
+            ]
+          }
+        },
+        " him having the power of death—that is, ",
+        {
+          "text": "the devil",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "thruster through", "marks": ["i"] }
+            ]
+          }
+        },
+        "—"
+      ]
     }
   },
   {
@@ -247,13 +617,36 @@
     "book": "HEB",
     "chapter": 2,
     "verse": 16,
-    "content": "for, doubtless, of messengers it doth not lay hold, but of seed of Abraham it layeth hold,"
+    "content": [
+      "for, doubtless, of messengers ",
+      {
+        "text": "it",
+        "foot": { "type": "stu", "content": ["the fear of death"] }
+      },
+      " doth not lay hold, but of seed of Abraham it layeth hold,"
+    ]
   },
   {
     "book": "HEB",
     "chapter": 2,
     "verse": 17,
-    "content": "wherefore it did behove him in all things to be made like to the brethren, that he might become a kind and stedfast chief-priest in the things with God, to make propitiation for the sins of the people,"
+    "content": [
+      "wherefore it did behove him in all things to be made like to the brethren, that he might become a kind and stedfast chief-priest in the things with God, to make ",
+      {
+        "text": "propitiation",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "making mild (in the sight of God) the sins of the people",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " for the sins of the people,"
+    ]
   },
   {
     "book": "HEB",
@@ -268,9 +661,34 @@
     "content": [
       { "heading": "Jesus and Moses" },
       {
-        "paragraph": true,
-        "text": "Wherefore, holy brethren, partakers of a heavenly calling, consider the apostle and chief priest of our profession, Christ Jesus,"
-      }
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter III. May be divided into two parts; ",
+            { "bibleLink": "Hebrews 3:1–6", "content": "v. 1–6" },
+            " superiority of Christ to Moses; ",
+            { "bibleLink": "Hebrews 3:7–19", "content": "v. 7–19" },
+            " and the greater sin of those who reject him."
+          ]
+        }
+      },
+      { "paragraph": true, "text": "Wherefore, holy brethren, " },
+      {
+        "text": "partakers",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "holders together of", "marks": ["i"] }
+          ]
+        }
+      },
+      " of a heavenly calling, consider the ",
+      {
+        "text": "apostle",
+        "foot": { "type": "stu", "content": ["one “sent forth,”"] }
+      },
+      " and chief priest of our profession, Christ Jesus,"
     ]
   },
   {
@@ -302,14 +720,32 @@
     "content": [
       "and Moses indeed ",
       { "text": "was", "marks": ["i"] },
-      " stedfast in all his house, as an attendant, for a testimony of those things that were to be spoken,"
+      " stedfast in all his house, as an ",
+      {
+        "text": "attendant",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "a nourisher (curer or healer,)", "marks": ["i"] }
+          ]
+        }
+      },
+      ", for a testimony of those things that were to be spoken,"
     ]
   },
   {
     "book": "HEB",
     "chapter": 3,
     "verse": 6,
-    "content": "and Christ, as a Son over his house, whose house are we, if the boldness and the rejoicing of the hope unto the end we hold fast."
+    "content": [
+      "and Christ, as a Son over ",
+      {
+        "text": "his house",
+        "foot": { "type": "stu", "content": ["his (i.e. God’s) household"] }
+      },
+      ", whose house are we, if the boldness and the rejoicing of the hope unto the end we hold fast."
+    ]
   },
   {
     "book": "HEB",
@@ -325,7 +761,22 @@
     "chapter": 3,
     "verse": 8,
     "content": {
-      "text": "ye may not harden your hearts, as in the provocation, in the day of the temptation in the wilderness,",
+      "content": [
+        {
+          "text": "ye may not harden your hearts, as in the provocation",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "may ye not dry up..in the great bitterness, according to the day of the trial",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ", in the day of the temptation in the wilderness,"
+      ],
       "break": true
     }
   },
@@ -343,7 +794,17 @@
     "chapter": 3,
     "verse": 10,
     "content": {
-      "text": "wherefore I was grieved with that generation, and said, Always do they go astray in heart, and these have not known My ways;",
+      "content": [
+        "wherefore I was ",
+        {
+          "text": "grieved",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "very vexed", "marks": ["i"] }]
+          }
+        },
+        " with that generation, and said, Always do they go astray in heart, and these have not known My ways;"
+      ],
       "break": true
     }
   },
@@ -375,7 +836,20 @@
     "book": "HEB",
     "chapter": 3,
     "verse": 14,
-    "content": "for partakers we have become of the Christ, if the beginning of the confidence unto the end we may hold fast,"
+    "content": [
+      "for partakers we have become of the Christ, if the beginning of the ",
+      {
+        "text": "confidence",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "a thing “standing or set under” one", "marks": ["i"] }
+          ]
+        }
+      },
+      " unto the end we may hold fast,"
+    ]
   },
   {
     "book": "HEB",
@@ -393,19 +867,52 @@
     "book": "HEB",
     "chapter": 3,
     "verse": 17,
-    "content": "but with whom was He grieved forty years? was it not with those who did sin, whose carcasses fell in the wilderness?"
+    "content": [
+      "but with whom was He grieved forty years? was it not with those who did sin, whose ",
+      {
+        "text": "carcasses",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "whose limbs", "marks": ["i"] }]
+        }
+      },
+      " fell in the wilderness?"
+    ]
   },
   {
     "book": "HEB",
     "chapter": 3,
     "verse": 18,
-    "content": "and to whom did He swear that they shall not enter into His rest, except to those who did not believe?—"
+    "content": [
+      "and to whom did He swear that they shall not enter into His rest, except to those who ",
+      {
+        "text": "did not believe",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "those unfaithful, or disobedient", "marks": ["i"] }
+          ]
+        }
+      },
+      "?—"
+    ]
   },
   {
     "book": "HEB",
     "chapter": 3,
     "verse": 19,
-    "content": "and we see that they were not able to enter in because of unbelief."
+    "content": [
+      "and we see that they were not able to enter in because of ",
+      {
+        "text": "unbelief",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "unstedfastness", "marks": ["i"] }]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "HEB",
@@ -413,7 +920,25 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "We may fear, then, lest a promise being left of entering into His rest, any one of you may seem to have come short,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter IV. May be divided into four parts; ",
+              { "bibleLink": "Hebrews 4:1–5", "content": "v. 1–5" },
+              " fear of coming short of the promised rest; ",
+              { "bibleLink": "Hebrews 4:6–10", "content": "v. 6–10" },
+              " a sabbatic rest; ",
+              { "bibleLink": "Hebrews 4:11–13", "content": "v. 11–13" },
+              " diligence because of God’s reckoning; ",
+              { "bibleLink": "Hebrews 4:14–16", "content": "v. 14–16" },
+              " confidence because of our high priest."
+            ]
+          }
+        },
+        "We may fear, then, lest a promise being left of entering into His rest, any one of you may seem to have come short,"
+      ]
     }
   },
   {
@@ -479,13 +1004,32 @@
     "book": "HEB",
     "chapter": 4,
     "verse": 9,
-    "content": "there doth remain, then, a sabbatic rest to the people of God,"
+    "content": [
+      "there doth remain, then, a ",
+      {
+        "text": "sabbatic rest",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "after death, as in ",
+            { "bibleLink": "Revelation 14:13", "content": "Rev. 14. 13" }
+          ]
+        }
+      },
+      " to the people of God,"
+    ]
   },
   {
     "book": "HEB",
     "chapter": 4,
     "verse": 10,
-    "content": "for he who did enter into his rest, he also rested from his works, as God from His own."
+    "content": [
+      {
+        "text": "for he",
+        "foot": { "type": "stu", "content": ["i.e. Jesus"] }
+      },
+      " who did enter into his rest, he also rested from his works, as God from His own."
+    ]
   },
   {
     "book": "HEB",
@@ -497,7 +1041,20 @@
     "book": "HEB",
     "chapter": 4,
     "verse": 12,
-    "content": "for the reckoning of God is living, and working, and sharp above every two-edged sword, and piercing unto the dividing asunder both of soul and spirit, of joints also and marrow, and a discerner of thoughts and intents of the heart;"
+    "content": [
+      "for the reckoning of God is living, and working, and sharp above every two-edged sword, and piercing unto the dividing asunder both of soul and spirit, of joints also and marrow, and a ",
+      {
+        "text": "discerner",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "a judge (Gr. critic)", "marks": ["i"] }
+          ]
+        }
+      },
+      " of thoughts and intents of the heart;"
+    ]
   },
   {
     "book": "HEB",
@@ -517,7 +1074,20 @@
       { "heading": "Jesus our Great High Priest" },
       {
         "paragraph": true,
-        "text": "Having, then, a great chief priest passed through the heavens—Jesus the Son of God—may we hold fast the profession,"
+        "content": [
+          "Having, then, a great chief priest passed through the heavens—Jesus the Son of God—may we hold fast the ",
+          {
+            "text": "profession",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "speaking the same thing", "marks": ["i"] }
+              ]
+            }
+          },
+          ","
+        ]
       }
     ]
   },
@@ -535,13 +1105,37 @@
     "book": "HEB",
     "chapter": 4,
     "verse": 16,
-    "content": "we may come near, then, with freedom, to the throne of the grace, that we may receive kindness, and find grace—for seasonable help."
+    "content": [
+      "we may come near, then, with ",
+      {
+        "text": "freedom",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "full-speech", "marks": ["i"] }]
+        }
+      },
+      ", to the throne of the grace, that we may receive kindness, and find grace—for seasonable help."
+    ]
   },
   {
     "book": "HEB",
     "chapter": 5,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter V. May be divided into three parts; ",
+            { "bibleLink": "Hebrews 5:1–4", "content": "v. 1–4" },
+            " character and qualifications of a priest like Aaron; ",
+            { "bibleLink": "Hebrews 5:5–9", "content": "v. 5–9" },
+            " and of the Christ; ",
+            { "bibleLink": "Hebrews 5:10–14", "content": "v. 10–14" },
+            " called after Melchisedec, whom the Hebrews could not appreciate."
+          ]
+        }
+      },
       {
         "paragraph": true,
         "text": "For every chief priest—out of men taken—in behalf of men is set in things "
@@ -587,7 +1181,24 @@
       " He saith, “Thou ",
       { "text": "art", "marks": ["i"] },
       {
-        "text": " a priest—to the age, according to the order of Melchisedek;”",
+        "content": [
+          " a priest—to the age, according to the ",
+          {
+            "text": "order",
+            "foot": {
+              "type": "stu",
+              "content": [
+                "by which he was appointed, viz. God’s will, not by hereditary descent"
+              ]
+            }
+          },
+          " of ",
+          {
+            "text": "Melchisedek",
+            "foot": { "type": "stu", "content": ["i.e. king of righteousness"] }
+          },
+          ";”"
+        ],
         "break": true
       }
     ]
@@ -598,7 +1209,23 @@
     "verse": 7,
     "content": {
       "paragraph": true,
-      "text": "who in the days of his flesh both prayers and supplications unto Him who was able to save him from death—with strong crying and tears—having offered up, and having been heard in respect to that which he feared,"
+      "content": [
+        "who in the days of his flesh both prayers and supplications unto Him who was able to save him from death—with strong crying and tears—having offered up, and having been ",
+        {
+          "text": "heard in respect to that which he feared",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Or, ",
+              {
+                "text": "hearkened to because of the easy or good reception or acceptance",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ","
+      ]
     }
   },
   {
@@ -635,7 +1262,15 @@
     "content": [
       "for even owing to be teachers, because of the time, again ye have need that one teach you what ",
       { "text": "are", "marks": ["i"] },
-      " the elements of the beginning of the oracles of God, and ye have become having need of milk, and not of strong food,"
+      " the ",
+      {
+        "text": "elements",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "steppings", "marks": ["i"] }]
+        }
+      },
+      " of the beginning of the oracles of God, and ye have become having need of milk, and not of strong food,"
     ]
   },
   {
@@ -652,7 +1287,17 @@
     "book": "HEB",
     "chapter": 5,
     "verse": 14,
-    "content": "and of perfect men is the strong food, who because of the use are having the senses exercised, unto the discernment both of good and of evil."
+    "content": [
+      "and of perfect men is the strong food, who because of the use are having the senses ",
+      {
+        "text": "exercised",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "made naked", "marks": ["i"] }]
+        }
+      },
+      ", unto the discernment both of good and of evil."
+    ]
   },
   {
     "book": "HEB",
@@ -660,14 +1305,49 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Wherefore, having left the word of the beginning of the Christ, unto the perfection we may advance, not again a foundation laying of reformation from dead works, and of faith on God,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter VI. May be divided into two parts; ",
+              { "bibleLink": "Hebrews 6:1–9", "content": "v. 1–9" },
+              " warning against apostacy; ",
+              { "bibleLink": "Hebrews 6:10–20", "content": "v. 10–20" },
+              " encouragement to perseverance."
+            ]
+          }
+        },
+        "Wherefore, having left the word of the beginning of the Christ, unto the perfection we may advance, not again a foundation laying of ",
+        {
+          "text": "reformation",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Or, ",
+              { "text": "a new (or another) mind", "marks": ["i"] }
+            ]
+          }
+        },
+        " from dead works, and of faith on God,"
+      ]
     }
   },
   {
     "book": "HEB",
     "chapter": 6,
     "verse": 2,
-    "content": "of the teaching of baptisms, of laying on also of hands, of rising again also of the dead, and of judgment age-during,"
+    "content": [
+      "of the teaching of ",
+      {
+        "text": "baptisms",
+        "foot": {
+          "type": "stu",
+          "content": ["e.g. such as John’s and Christ’s"]
+        }
+      },
+      ", of laying on also of hands, of rising again also of the dead, and of judgment age-during,"
+    ]
   },
   {
     "book": "HEB",
@@ -682,7 +1362,17 @@
     "content": [
       "for ",
       { "text": "it is", "marks": ["i"] },
-      " impossible for those once enlightened, having tasted also of the heavenly gift, and partakers having became of the Holy Spirit,"
+      " ",
+      {
+        "text": "impossible",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "i.e. in the eyes of men, humanly speaking, but “with God all things are possible.”"
+          ]
+        }
+      },
+      " for those once enlightened, having tasted also of the heavenly gift, and partakers having became of the Holy Spirit,"
     ]
   },
   {
@@ -698,14 +1388,41 @@
     "content": [
       "and having fallen away, again to renew ",
       { "text": "them", "marks": ["i"] },
-      " to reformation, having crucified again to themselves the Son of God, and exposed to public shame."
+      " to reformation, having crucified again to themselves the Son of God, and ",
+      {
+        "text": "exposed to public shame",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "made (him) a false show, or example, or spectacle",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "."
     ]
   },
   {
     "book": "HEB",
     "chapter": 6,
     "verse": 7,
-    "content": "For earth, that is drinking in the rain many times coming upon it, and is bringing forth herbs fit for those because of whom also it is dressed, doth partake of blessing from God,"
+    "content": [
+      "For earth, that is drinking in the rain many times coming upon it, and is bringing forth herbs fit for those because of whom also it is dressed, doth partake of ",
+      {
+        "text": "blessing",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "a good word (Gr. eulogy)", "marks": ["i"] }
+          ]
+        }
+      },
+      " from God,"
+    ]
   },
   {
     "book": "HEB",
@@ -732,7 +1449,20 @@
     "book": "HEB",
     "chapter": 6,
     "verse": 10,
-    "content": "for God is not unrighteous to forget your work, and the labour of the love, that ye shewed to His name, having ministered to the saints and ministering;"
+    "content": [
+      "for God is not unrighteous to forget your work, and the labour of the love, that ye shewed to His name, having ",
+      {
+        "text": "ministered",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "deacons to the hallowed ones", "marks": ["i"] }
+          ]
+        }
+      },
+      " to the saints and ministering;"
+    ]
   },
   {
     "book": "HEB",
@@ -759,7 +1489,14 @@
     "book": "HEB",
     "chapter": 6,
     "verse": 14,
-    "content": "saying, “Blessing indeed I will bless thee, and multiplying I will multiply thee;”"
+    "content": [
+      "saying, “",
+      {
+        "text": "Blessing indeed I will bless thee",
+        "foot": { "type": "stu", "content": ["i.e. very well"] }
+      },
+      ", and multiplying I will multiply thee;”"
+    ]
   },
   {
     "book": "HEB",
@@ -815,7 +1552,32 @@
       { "heading": "Melchisedec" },
       {
         "paragraph": true,
-        "text": "For this Melchisedek, king of Salem, priest of God Most High, who did meet Abraham turning back from the smiting of the kings, and did bless him,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter VII. May be divided into five parts; ",
+                { "bibleLink": "Hebrews 7:1–10", "content": "v. 1–10" },
+                " Melchisedec greater than Abraham and the Levitical priesthood; ",
+                { "bibleLink": "Hebrews 7:11–14", "content": "v. 11–14" },
+                " which was changed as to order, law, tribe; ",
+                { "bibleLink": "Hebrews 7:15–21", "content": "v. 15–21" },
+                " Christ made priest by oath; ",
+                { "bibleLink": "Hebrews 7:22–25", "content": "v. 22–25" },
+                " and excels others by his unchangeableness; ",
+                { "bibleLink": "Hebrews 7:26–28", "content": "v. 26–28" },
+                " his sinlessness and perfection."
+              ]
+            }
+          },
+          "For this Melchisedek, ",
+          {
+            "text": "king of Salem",
+            "foot": { "type": "stu", "content": ["supposed to be Jerusalem"] }
+          },
+          ", priest of God Most High, who did meet Abraham turning back from the smiting of the kings, and did bless him,"
+        ]
       }
     ]
   },
@@ -829,7 +1591,18 @@
     "book": "HEB",
     "chapter": 7,
     "verse": 3,
-    "content": "without father, without mother, without genealogy, having neither beginning of days nor end of life, and being made like to the Son of God, doth remain a priest continually."
+    "content": [
+      {
+        "text": "without father, without mother, without genealogy",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Levitical priests required “fathers,” and “mothers,” and “genealogies,” to become priests, but Melchisedec required none of these things, having apparently no predecessor or successor in his offices"
+          ]
+        }
+      },
+      ", having neither beginning of days nor end of life, and being made like to the Son of God, doth remain a priest continually."
+    ]
   },
   {
     "book": "HEB",
@@ -838,7 +1611,15 @@
     "content": [
       { "paragraph": true, "text": "And see how great this one " },
       { "text": "is", "marks": ["i"] },
-      ", to whom also a tenth Abraham the patriarch did give out of the best of the spoils,"
+      ", to whom also a tenth Abraham the patriarch did give out of the ",
+      {
+        "text": "best",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "top of the heaps", "marks": ["i"] }]
+        }
+      },
+      " of the spoils,"
     ]
   },
   {
@@ -900,7 +1681,20 @@
     "book": "HEB",
     "chapter": 7,
     "verse": 13,
-    "content": "for he of whom these things are said in another tribe hath had part, of whom no one gave attendance at the altar,"
+    "content": [
+      "for he of whom these things are said in another tribe hath had part, of whom no one gave attendance at the ",
+      {
+        "text": "altar",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "place of sacrifice", "marks": ["i"] }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "HEB",
@@ -967,7 +1761,21 @@
     "chapter": 7,
     "verse": 21,
     "content": [
-      "and he with an oath through Him who is saying unto him, “The Lord sware, and will not repent, Thou ",
+      "and he with an oath through Him who is saying unto him, “The Lord sware, and ",
+      {
+        "text": "will not repent",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "not be careful (or concerned) afterwards",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", Thou ",
       { "text": "art", "marks": ["i"] },
       {
         "text": " a priest—to the age, according to the order of Melchisedek;”)",
@@ -994,13 +1802,40 @@
     "book": "HEB",
     "chapter": 7,
     "verse": 24,
-    "content": "and he, because of his remaining—to the age, hath the priesthood not transient,"
+    "content": [
+      "and he, because of his remaining—to the age, hath the priesthood ",
+      {
+        "text": "not transient",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "it is not transmitted to any other, as the supporters of “apostolical succession” pretend. See Harrison’s ",
+            { "text": "Whose are the Fathers?", "marks": ["i"] },
+            " for an elaborate exposure of this popish and prelatic fiction."
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "HEB",
     "chapter": 7,
     "verse": 25,
-    "content": "whence also he is able to save to the very end, those coming through him unto God—ever living to make intercession for them."
+    "content": [
+      "whence also he is able to save to the very end, those coming through him unto God—ever living to ",
+      {
+        "text": "make intercession for them",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "be (or come) in in our behalf", "marks": ["i"] }
+          ]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "HEB",
@@ -1036,6 +1871,18 @@
     "content": [
       { "heading": "The Greatness of His Ministry" },
       {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter VIII. May be divided into two parts; ",
+            { "bibleLink": "Hebrews 8:1–6", "content": "v. 1–6" },
+            " position and duties of our chief priest; ",
+            { "bibleLink": "Hebrews 8:7–13", "content": "v. 7–13" },
+            " the New Covenant contrasted with the Old."
+          ]
+        }
+      },
+      {
         "paragraph": true,
         "text": "And the sum concerning the things spoken of "
       },
@@ -1047,7 +1894,20 @@
     "book": "HEB",
     "chapter": 8,
     "verse": 2,
-    "content": "of the holy places a servant, and of the true tabernacle, which the Lord did set up, and not man,"
+    "content": [
+      "of the holy places a ",
+      {
+        "text": "servant",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "public worker of the hallowed things", "marks": ["i"] }
+          ]
+        }
+      },
+      ", and of the true tabernacle, which the Lord did set up, and not man,"
+    ]
   },
   {
     "book": "HEB",
@@ -1069,13 +1929,42 @@
     "book": "HEB",
     "chapter": 8,
     "verse": 5,
-    "content": "who unto an example and shadow do serve of the heavenly things, as Moses hath been divinely warned, being about to construct the tabernacle, for “See (saith He) thou mayest make all things according to the pattern that was shewn to thee in the mount;”)—"
+    "content": [
+      "who unto an example and shadow ",
+      {
+        "text": "do serve",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "who tremble (or go tremblingly)", "marks": ["i"] }
+          ]
+        }
+      },
+      " of the heavenly things, as Moses hath been divinely warned, being about to construct the tabernacle, for “See (saith He) thou mayest make all things according to the pattern that was shewn to thee in the mount;”)—"
+    ]
   },
   {
     "book": "HEB",
     "chapter": 8,
     "verse": 6,
-    "content": "and now he hath obtained a more excellent service, how much also of a better covenant is he mediator, which on better promises hath been sanctioned,"
+    "content": [
+      "and now he hath obtained a more excellent service, how much also of a better covenant is he ",
+      {
+        "text": "mediator",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "thoroughly different public work..he is middle-man..one which has been legalized (or made law) upon",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", which on better promises hath been sanctioned,"
+    ]
   },
   {
     "book": "HEB",
@@ -1155,7 +2044,41 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "It had, indeed, then (even the first tabernacle) ordinances of service, also a worldly sanctuary,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter IX. May be divided into five parts; ",
+              { "bibleLink": "Hebrews 9:1–5", "content": "v. 1–5" },
+              " contents of the first and second tabernacles; ",
+              { "bibleLink": "Hebrews 9:6–10", "content": "v. 6–10" },
+              " what was done there, and its meaning; ",
+              { "bibleLink": "Hebrews 9:11–14", "content": "v. 11–14" },
+              " superiority of Christ’s work; ",
+              { "bibleLink": "Hebrews 9:15–22", "content": "v. 15–22" },
+              " reasons for frequent blood-shedding; ",
+              { "bibleLink": "Hebrews 9:23–28", "content": "v. 23–28" },
+              " sufficiency of the one sacrifice once for all."
+            ]
+          }
+        },
+        "It had, indeed, then (even the first tabernacle) ",
+        {
+          "text": "ordinances of service",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Or, ",
+              {
+                "text": "righteous acts of service (lit. much trembling)",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ", also a worldly sanctuary,"
+      ]
     }
   },
   {
@@ -1184,7 +2107,20 @@
     "book": "HEB",
     "chapter": 9,
     "verse": 5,
-    "content": "and over it cherubim of the glory, overshadowing the mercy-seat, concerning which we are not now to speak particularly."
+    "content": [
+      "and over it cherubim of the glory, overshadowing ",
+      {
+        "text": "the mercy-seat",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "the place of gentleness", "marks": ["i"] }
+          ]
+        }
+      },
+      ", concerning which we are not now to speak particularly."
+    ]
   },
   {
     "book": "HEB",
@@ -1196,7 +2132,17 @@
     "book": "HEB",
     "chapter": 9,
     "verse": 7,
-    "content": "and into the second, once in the year, only the chief priest, not apart from blood, which he doth offer for himself and the errors of the people,"
+    "content": [
+      "and into the second, ",
+      {
+        "text": "once in the year",
+        "foot": {
+          "type": "stu",
+          "content": ["on the 10th day of the 7th month"]
+        }
+      },
+      ", only the chief priest, not apart from blood, which he doth offer for himself and the errors of the people,"
+    ]
   },
   {
     "book": "HEB",
@@ -1215,7 +2161,18 @@
     "content": [
       "which ",
       { "text": "is", "marks": ["i"] },
-      " a simile in regard to the present time, in which both gifts and sacrifices are offered, which are not able, in regard to conscience, to make perfect him who is serving,"
+      " ",
+      {
+        "text": "a simile",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "a simile (Gr. parable)", "marks": ["i"] }
+          ]
+        }
+      },
+      " in regard to the present time, in which both gifts and sacrifices are offered, which are not able, in regard to conscience, to make perfect him who is serving,"
     ]
   },
   {
@@ -1223,7 +2180,17 @@
     "chapter": 9,
     "verse": 10,
     "content": [
-      "only in victuals, and drinks, and different baptisms, and fleshly ordinances—till the time of reformation imposed upon ",
+      "only in ",
+      {
+        "text": "victuals",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Leviticus 11:4" } }
+      },
+      ", and ",
+      {
+        "text": "drinks",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Leviticus 10:9" } }
+      },
+      ", and different baptisms, and fleshly ordinances—till the time of reformation imposed upon ",
       { "text": "them", "marks": ["i"] },
       "."
     ]
@@ -1241,13 +2208,33 @@
     "book": "HEB",
     "chapter": 9,
     "verse": 12,
-    "content": "neither through blood of goats and calves, but through his own blood, did enter in once into the holy places, age-during redemption having obtained;"
+    "content": [
+      "neither through blood of goats and calves, but through his own blood, did enter in once into the holy places, age-during ",
+      {
+        "text": "redemption",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "loosing-price", "marks": ["i"] }]
+        }
+      },
+      " having obtained;"
+    ]
   },
   {
     "book": "HEB",
     "chapter": 9,
     "verse": 13,
-    "content": "for if the blood of bulls, and goats, and ashes of an heifer, sprinkling those defiled, doth sanctify to the purifying of the flesh,"
+    "content": [
+      "for if the blood of bulls, and goats, and ashes of an heifer, sprinkling ",
+      {
+        "text": "those defiled",
+        "foot": {
+          "type": "stu",
+          "content": ["those having become common (like the Gentiles)"]
+        }
+      },
+      ", doth sanctify to the purifying of the flesh,"
+    ]
   },
   {
     "book": "HEB",
@@ -1261,7 +2248,20 @@
     "verse": 15,
     "content": {
       "paragraph": true,
-      "text": "And because of this, of a new covenant he is mediator, that, death having come, for redemption of the transgressions under the first covenant, those called may receive the promise of the age-during inheritance,"
+      "content": [
+        "And because of this, of a new covenant he is mediator, that, death having come, for redemption of the transgressions under the first covenant, those called may receive the promise of the age-during ",
+        {
+          "text": "inheritance",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "distribution by lot", "marks": ["i"] }
+            ]
+          }
+        },
+        ","
+      ]
     }
   },
   {
@@ -1288,7 +2288,20 @@
     "book": "HEB",
     "chapter": 9,
     "verse": 18,
-    "content": "whence not even the first apart from blood hath been initiated,"
+    "content": [
+      "whence not even the first apart from blood hath been ",
+      {
+        "text": "initiated",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "made thoroughly new", "marks": ["i"] }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "HEB",
@@ -1324,7 +2337,18 @@
     "verse": 23,
     "content": [
       { "paragraph": true, "text": "It is", "marks": ["i"] },
-      " necessary, therefore, the pattern indeed of the things in the heavens to be purified with these, and the heavenly things themselves with better sacrifices than these;"
+      " necessary, therefore, the ",
+      {
+        "text": "pattern",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "the under-showings", "marks": ["i"] }
+          ]
+        }
+      },
+      " indeed of the things in the heavens to be purified with these, and the heavenly things themselves with better sacrifices than these;"
     ]
   },
   {
@@ -1363,7 +2387,31 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "For the law having a shadow of the coming good things—not the very image of the matters, every year, by the same sacrifices that they offer continually, is never able to make perfect those coming near,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter X. May be divided into seven parts; ",
+              { "bibleLink": "Hebrews 10:1–4", "content": "v. 1–4" },
+              " legal sacrifices not sufficient; ",
+              { "bibleLink": "Hebrews 10:5–11", "content": "v. 5–11" },
+              " but the one offering of Christ is; ",
+              { "bibleLink": "Hebrews 10:12–18", "content": "v. 12–18" },
+              " results of his offering; ",
+              { "bibleLink": "Hebrews 10:19–25", "content": "v. 19–25" },
+              " practical conclusions; ",
+              { "bibleLink": "Hebrews 10:26–31", "content": "v. 26–31" },
+              " danger of wilful sin; ",
+              { "bibleLink": "Hebrews 10:32–34", "content": "v. 32–34" },
+              " former attainments; ",
+              { "bibleLink": "Hebrews 10:35–39", "content": "v. 35–39" },
+              " prayer for endurance."
+            ]
+          }
+        },
+        "For the law having a shadow of the coming good things—not the very image of the matters, every year, by the same sacrifices that they offer continually, is never able to make perfect those coming near,"
+      ]
     }
   },
   {
@@ -1393,7 +2441,23 @@
     "chapter": 10,
     "verse": 5,
     "content": {
-      "text": "Wherefore, coming into the world, he saith, “Sacrifice and offering Thou didst not will, and a body Thou didst prepare for me,",
+      "content": [
+        "Wherefore, coming into the world, he saith, “Sacrifice and offering Thou didst not will, and ",
+        {
+          "text": "a body Thou didst prepare for me",
+          "foot": {
+            "type": "stu",
+            "content": [
+              "See ",
+              { "bibleLink": "Psalm 40:6", "content": "Ps. 40. 6" },
+              " where the Hebrew is: “Ears thou hast prepared for me,” i.e. thou hast prepared for me the means of “hearing” thy law, and of course, of doing it, which he could not have done (for man) without a bodily organization. The Psalmist specially instances the “ears,” which Paul (following the Septuagint) amplifies (quite correctly) into the whole “body.” Elsewhere Paul does the very reverse of what he does here; he reduces the Psalmist’s: “a little lower than God,” into “a little lower than the angels;” see ",
+              { "bibleLink": "Hebrews 2:7", "content": "2. 7" },
+              ". Both statements are true."
+            ]
+          }
+        },
+        ","
+      ],
       "break": true
     }
   },
@@ -1411,7 +2475,20 @@
     "chapter": 10,
     "verse": 7,
     "content": {
-      "text": "then I said, Lo, I come, (in a volume of the book it hath been written concerning me,) to do, O God, Thy will;”",
+      "content": [
+        "then I said, Lo, I come, (in ",
+        {
+          "text": "a volume of the book",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "head of the Roll (of Psalms)", "marks": ["i"] }
+            ]
+          }
+        },
+        " it hath been written concerning me,) to do, O God, Thy will;”"
+      ],
       "break": true
     }
   },
@@ -1462,7 +2539,20 @@
     "book": "HEB",
     "chapter": 10,
     "verse": 14,
-    "content": "for by one offering he hath perfected to the end those sanctified;"
+    "content": [
+      "for by one offering he hath perfected to ",
+      {
+        "text": "the end",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "to the full continuity", "marks": ["i"] }
+          ]
+        }
+      },
+      " those sanctified;"
+    ]
   },
   {
     "book": "HEB",
@@ -1521,7 +2611,17 @@
     "book": "HEB",
     "chapter": 10,
     "verse": 20,
-    "content": "which way he did initiate for us—new and living, through the vail, that is, his flesh—"
+    "content": [
+      "which way he did initiate for us—",
+      {
+        "text": "new",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "recent, or shining", "marks": ["i"] }]
+        }
+      },
+      " and living, through the vail, that is, his flesh—"
+    ]
   },
   {
     "book": "HEB",
@@ -1549,7 +2649,20 @@
     "book": "HEB",
     "chapter": 10,
     "verse": 24,
-    "content": "and may we consider one another to provoke to love and to good works,"
+    "content": [
+      "and may we consider one another to ",
+      {
+        "text": "provoke",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "a paroxysm (lit. over-sharpness)", "marks": ["i"] }
+          ]
+        }
+      },
+      " to love and to good works,"
+    ]
   },
   {
     "book": "HEB",
@@ -1558,7 +2671,15 @@
     "content": [
       "not forsaking the assembling of ourselves together, as a custom of certain ",
       { "text": "is", "marks": ["i"] },
-      ", but exhorting, and so much the more as ye see the day coming nigh."
+      ", but exhorting, and so much the more as ye see ",
+      {
+        "text": "the day coming nigh",
+        "foot": {
+          "type": "stu",
+          "content": ["when Jerusalem would be destroyed"]
+        }
+      },
+      "."
     ]
   },
   {
@@ -1593,7 +2714,15 @@
     "chapter": 10,
     "verse": 30,
     "content": [
-      "for we have known Him who is saying, “Vengeance ",
+      "for we have known Him who is saying, “",
+      {
+        "text": "Vengeance",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Full-justice", "marks": ["i"] }]
+        }
+      },
+      " ",
       { "text": "is", "marks": ["i"] },
       " Mine, I will recompense, saith the Lord;” and again, “The Lord shall judge His people;”—"
     ]
@@ -1621,7 +2750,20 @@
     "book": "HEB",
     "chapter": 10,
     "verse": 33,
-    "content": "partly both with reproaches and tribulations being made spectacles, and partly having become partners of those so living,"
+    "content": [
+      "partly both with reproaches and tribulations being made ",
+      {
+        "text": "spectacles",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "theatrical exhibitions", "marks": ["i"] }
+          ]
+        }
+      },
+      ", and partly having become partners of those so living,"
+    ]
   },
   {
     "book": "HEB",
@@ -1677,7 +2819,39 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And faith is of things hoped for a confidence, of matters not seen a conviction,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter XI. May be divided into seven parts; ",
+              { "bibleLink": "Hebrews 11:1–3", "content": "v. 1–3" },
+              " description of faith; ",
+              { "bibleLink": "Hebrews 11:4–7", "content": "v. 4–7" },
+              " in Abel, Enoch, Noah; ",
+              { "bibleLink": "Hebrews 11:8–19", "content": "v. 8–19" },
+              " Abraham and Sarah; ",
+              { "bibleLink": "Hebrews 11:20–22", "content": "v. 20–22" },
+              " Isaac, Jacob, Joseph; ",
+              { "bibleLink": "Hebrews 11:23–28", "content": "v. 23–28" },
+              " Moses; ",
+              { "bibleLink": "Hebrews 11:29–31", "content": "v. 29–31" },
+              " Israel; ",
+              { "bibleLink": "Hebrews 11:32–40", "content": "v. 32–40" },
+              " and many others."
+            ]
+          }
+        },
+        "And faith is of things hoped for a ",
+        {
+          "text": "confidence",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "under-standing", "marks": ["i"] }]
+          }
+        },
+        ", of matters not seen a conviction,"
+      ]
     }
   },
   {
@@ -1699,13 +2873,29 @@
     "book": "HEB",
     "chapter": 11,
     "verse": 4,
-    "content": "by faith a better sacrifice did Abel offer to God than Cain, through which he was testified to be righteous, God testifying of his gifts, and through it, he being dead, doth yet speak."
+    "content": [
+      "by faith a better sacrifice did ",
+      { "text": "Abel", "foot": { "type": "stu", "content": ["i.e. vanity"] } },
+      " offer to God than ",
+      {
+        "text": "Cain",
+        "foot": { "type": "stu", "content": ["i.e. acquisition"] }
+      },
+      ", through which he was testified to be righteous, God testifying of his gifts, and through it, he being dead, doth yet speak."
+    ]
   },
   {
     "book": "HEB",
     "chapter": 11,
     "verse": 5,
-    "content": "By faith Enoch was translated—not to see death, and was not found, because God did translate him; for before his translation he had been testified to—that he had pleased God well,"
+    "content": [
+      "By faith ",
+      {
+        "text": "Enoch",
+        "foot": { "type": "stu", "content": ["i.e. initiated, dedicated"] }
+      },
+      " was translated—not to see death, and was not found, because God did translate him; for before his translation he had been testified to—that he had pleased God well,"
+    ]
   },
   {
     "book": "HEB",
@@ -1767,7 +2957,18 @@
         "text": "In faith died all these, not having received the promises, but from afar having seen them, and having been persuaded, and having saluted "
       },
       { "text": "them", "marks": ["i"] },
-      ", and having confessed that strangers and sojourners they are upon the earth,"
+      ", and having confessed that strangers and ",
+      {
+        "text": "sojourners",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "those “near upon a people”", "marks": ["i"] }
+          ]
+        }
+      },
+      " they are upon the earth,"
     ]
   },
   {
@@ -1808,7 +3009,18 @@
     "chapter": 11,
     "verse": 19,
     "content": [
-      "reckoning that even out of the dead God is able to raise up, whence also in a figure he did receive ",
+      "reckoning that even out of the dead God is able to raise up, whence also in ",
+      {
+        "text": "a figure",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "a “thing laid alongside” of another", "marks": ["i"] }
+          ]
+        }
+      },
+      " he did receive ",
       { "text": "him", "marks": ["i"] },
       "."
     ]
@@ -1823,7 +3035,20 @@
     "book": "HEB",
     "chapter": 11,
     "verse": 21,
-    "content": "by faith Jacob dying—each of the sons of Joseph did bless, and did bow down upon the top of his staff;"
+    "content": [
+      "by faith Jacob dying—each of the sons of Joseph did bless, and ",
+      {
+        "text": "did bow down",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "kissed forward (the hand)", "marks": ["i"] }
+          ]
+        }
+      },
+      " upon the top of his staff;"
+    ]
   },
   {
     "book": "HEB",
@@ -1853,7 +3078,14 @@
     "book": "HEB",
     "chapter": 11,
     "verse": 26,
-    "content": "greater wealth having reckoned the reproach of the Christ than the treasures in Egypt, for he did look to the recompense of reward;"
+    "content": [
+      "greater wealth having reckoned the reproach of ",
+      {
+        "text": "the Christ",
+        "foot": { "type": "stu", "content": ["i.e. the anointed one"] }
+      },
+      " than the treasures in Egypt, for he did look to the recompense of reward;"
+    ]
   },
   {
     "book": "HEB",
@@ -1883,7 +3115,20 @@
     "book": "HEB",
     "chapter": 11,
     "verse": 31,
-    "content": "by faith Rahab the harlot did not perish with those who disbelieved, having received the spies with peace."
+    "content": [
+      "by faith Rahab ",
+      {
+        "text": "the harlot",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "one who “sells” herself", "marks": ["i"] }
+          ]
+        }
+      },
+      " did not perish with those who disbelieved, having received the spies with peace."
+    ]
   },
   {
     "book": "HEB",
@@ -1898,7 +3143,28 @@
     "book": "HEB",
     "chapter": 11,
     "verse": 33,
-    "content": "who through faith did subdue kingdoms, wrought righteousness, obtained promises, stopped mouths of lions,"
+    "content": [
+      "who through faith did ",
+      {
+        "text": "subdue kingdoms",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "agonized against kingdoms", "marks": ["i"] }
+          ]
+        }
+      },
+      ", wrought righteousness, obtained promises, ",
+      {
+        "text": "stopped",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "hedged in", "marks": ["i"] }]
+        }
+      },
+      " mouths of lions,"
+    ]
   },
   {
     "book": "HEB",
@@ -1910,7 +3176,20 @@
     "book": "HEB",
     "chapter": 11,
     "verse": 35,
-    "content": "Women received by a rising again their dead, and others were tortured, not accepting the redemption, that a better rising again they might receive,"
+    "content": [
+      "Women received by a rising again their dead, and others ",
+      {
+        "text": "were tortured",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "struck (to death) with clubs", "marks": ["i"] }
+          ]
+        }
+      },
+      ", not accepting the redemption, that a better rising again they might receive,"
+    ]
   },
   {
     "book": "HEB",
@@ -1929,7 +3208,18 @@
     "chapter": 11,
     "verse": 38,
     "content": [
-      "of whom the world was not worthy; in deserts wandering, and ",
+      "of whom the world was not worthy; in deserts ",
+      {
+        "text": "wandering",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "being led astray in", "marks": ["i"] }
+          ]
+        }
+      },
+      ", and ",
       { "text": "in", "marks": ["i"] },
       " mountains, and ",
       { "text": "in", "marks": ["i"] },
@@ -1961,7 +3251,40 @@
       { "heading": "Run with Patience" },
       {
         "paragraph": true,
-        "text": "Therefore, we also having so great a cloud of witnesses set around us, every weight having put off, and the closely besetting sin, through endurance may we run the contest that is set before us,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XII. May be divided into six parts; ",
+                { "bibleLink": "Hebrews 12:1–3", "content": "v. 1–3" },
+                " exhortation to run the contest from the sight and consideration of Jesus; ",
+                { "bibleLink": "Hebrews 12:4–11", "content": "v. 4–11" },
+                " the loving chastisement of God; ",
+                { "bibleLink": "Hebrews 12:12–17", "content": "v. 12–17" },
+                " renewed exhortations to perseverance, peace, separation, watchfulness; ",
+                { "bibleLink": "Hebrews 12:18–21", "content": "v. 18–21" },
+                " terrors of the old-law-giving; ",
+                { "bibleLink": "Hebrews 12:22–24", "content": "v. 22–24" },
+                " happiness of the new; ",
+                { "bibleLink": "Hebrews 12:25–29", "content": "v. 25–29" },
+                " prayer for grace not to refuse to hear the voice from heaven."
+              ]
+            }
+          },
+          "Therefore, we also having so great a cloud of witnesses set around us, every weight having put off, and the closely besetting sin, through endurance may we run the ",
+          {
+            "text": "contest",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "the contest (Gr. agony)", "marks": ["i"] }
+              ]
+            }
+          },
+          " that is set before us,"
+        ]
       }
     ]
   },
@@ -1981,14 +3304,34 @@
     "book": "HEB",
     "chapter": 12,
     "verse": 4,
-    "content": "Not yet unto blood did ye resist—with the sin striving;"
+    "content": [
+      "Not yet unto blood did ye resist—with ",
+      {
+        "text": "the sin",
+        "foot": { "type": "stu", "content": ["of apostacy"] }
+      },
+      " striving;"
+    ]
   },
   {
     "book": "HEB",
     "chapter": 12,
     "verse": 5,
     "content": {
-      "text": "and ye have forgotten the exhortation that doth speak fully with you as with sons, “My son, be not despising chastening of the Lord, nor be faint, being reproved by Him,",
+      "content": [
+        "and ye have forgotten the ",
+        {
+          "text": "exhortation",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Or, ",
+              { "text": "comfort, lit. calling alongside", "marks": ["i"] }
+            ]
+          }
+        },
+        " that doth speak fully with you as with sons, “My son, be not despising chastening of the Lord, nor be faint, being reproved by Him,"
+      ],
       "break": true
     }
   },
@@ -1997,7 +3340,20 @@
     "chapter": 12,
     "verse": 6,
     "content": {
-      "text": "for whom the Lord doth love He doth chasten, and He scourgeth every son whom He receiveth;”",
+      "content": [
+        "for whom the Lord doth love He doth chasten, and He scourgeth every son whom He ",
+        {
+          "text": "receiveth",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Or, ",
+              { "text": "receiveth alongside (of himself)", "marks": ["i"] }
+            ]
+          }
+        },
+        ";”"
+      ],
       "break": true
     }
   },
@@ -2050,7 +3406,20 @@
     "book": "HEB",
     "chapter": 12,
     "verse": 13,
-    "content": "and straight paths make for your feet, that that which is lame may not be turned aside, but rather be healed;"
+    "content": [
+      "and straight ",
+      {
+        "text": "paths",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "right roads (lit. running-places)", "marks": ["i"] }
+          ]
+        }
+      },
+      " make for your feet, that that which is lame may not be turned aside, but rather be healed;"
+    ]
   },
   {
     "book": "HEB",
@@ -2065,7 +3434,19 @@
     "book": "HEB",
     "chapter": 12,
     "verse": 15,
-    "content": "looking diligently over lest any one be failing of the grace of God, lest any root of bitterness springing up may give trouble, and through this many may be defiled;"
+    "content": [
+      {
+        "text": "looking diligently over",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "acting as overseers (i.e. bishops)", "marks": ["i"] }
+          ]
+        }
+      },
+      " lest any one be failing of the grace of God, lest any root of bitterness springing up may give trouble, and through this many may be defiled;"
+    ]
   },
   {
     "book": "HEB",
@@ -2077,7 +3458,17 @@
     "book": "HEB",
     "chapter": 12,
     "verse": 17,
-    "content": "for ye know that also afterwards, wishing to inherit the blessing, he was disapproved of, for a place of reformation he found not, though with tears having sought it."
+    "content": [
+      "for ye know that also afterwards, wishing to inherit the blessing, he was disapproved of, for ",
+      {
+        "text": "a place of reformation",
+        "foot": {
+          "type": "stu",
+          "content": ["a change of mind (in his father)"]
+        }
+      },
+      " he found not, though with tears having sought it."
+    ]
   },
   {
     "book": "HEB",
@@ -2116,7 +3507,23 @@
     "book": "HEB",
     "chapter": 12,
     "verse": 23,
-    "content": "to the company and assembly of the first-born in heaven enrolled, and to God the judge of all, and to spirits of righteous men made perfect,"
+    "content": [
+      "to the company and assembly of the first-born in heaven enrolled, and to God the judge of all, and to spirits of righteous men ",
+      {
+        "text": "made perfect",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "“having perfected themselves,”—by faith",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "HEB",
@@ -2150,7 +3557,20 @@
     "book": "HEB",
     "chapter": 12,
     "verse": 28,
-    "content": "wherefore, a kingdom that cannot be shaken receiving, may we have grace, through which we may serve God well-pleasingly, with reverence and religious fear;"
+    "content": [
+      "wherefore, a kingdom that cannot be shaken receiving, may we have grace, through which we may serve God well-pleasingly, with ",
+      {
+        "text": "reverence",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "modesty (lit. un-seen-ness)", "marks": ["i"] }
+          ]
+        }
+      },
+      " and religious fear;"
+    ]
   },
   {
     "book": "HEB",
@@ -2159,7 +3579,15 @@
     "content": [
       "for also our God ",
       { "text": "is", "marks": ["i"] },
-      " a consuming fire."
+      " ",
+      {
+        "text": "a consuming fire",
+        "foot": {
+          "type": "stu",
+          "content": ["purging his people, and punishing his enemies"]
+        }
+      },
+      "."
     ]
   },
   {
@@ -2168,6 +3596,22 @@
     "verse": 1,
     "content": [
       { "heading": "Perfect in Every Good Work" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XIII. May be divided into four parts; ",
+            { "bibleLink": "Hebrews 13:1–6", "content": "v. 1–6" },
+            " brotherly and personal duties; ",
+            { "bibleLink": "Hebrews 13:7–16", "content": "v. 7–16" },
+            " remembrance of leaders, and imitation of Christ; ",
+            { "bibleLink": "Hebrews 13:17–19", "content": "v. 17–19" },
+            " also trustfulness, yieldingness, prayer; ",
+            { "bibleLink": "Hebrews 13:20–25", "content": "v. 20–25" },
+            " concluding prayer, and praise, entreaty, information and salutation."
+          ]
+        }
+      },
       { "paragraph": true, "text": "Let brotherly love remain;" }
     ]
   },
@@ -2175,7 +3619,28 @@
     "book": "HEB",
     "chapter": 13,
     "verse": 2,
-    "content": "of the hospitality be not forgetful, for through this unawares certain did entertain messengers;"
+    "content": [
+      "of the ",
+      {
+        "text": "hospitality",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "the stranger’s friendship", "marks": ["i"] }
+          ]
+        }
+      },
+      " be not forgetful, for through this ",
+      {
+        "text": "unawares",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "lain hid", "marks": ["i"] }]
+        }
+      },
+      " certain did entertain messengers;"
+    ]
   },
   {
     "book": "HEB",
@@ -2188,7 +3653,14 @@
     "chapter": 13,
     "verse": 4,
     "content": [
-      "honourable ",
+      {
+        "text": "honourable",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "weighty", "marks": ["i"] }]
+        }
+      },
+      " ",
       { "text": "is", "marks": ["i"] },
       " the marriage in all, and the bed undefiled, and whoremongers and adulterers God shall judge."
     ]
@@ -2197,7 +3669,20 @@
     "book": "HEB",
     "chapter": 13,
     "verse": 5,
-    "content": "Without covetousness the behaviour, being content with the things present, for He hath said, “No, I will not leave, no, nor forsake thee,”"
+    "content": [
+      "Without ",
+      {
+        "text": "covetousness",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "the love (or friendship) of money", "marks": ["i"] }
+          ]
+        }
+      },
+      " the behaviour, being content with the things present, for He hath said, “No, I will not leave, no, nor forsake thee,”"
+    ]
   },
   {
     "book": "HEB",
@@ -2227,7 +3712,17 @@
     "verse": 8,
     "content": {
       "paragraph": true,
-      "text": "Jesus Christ yesterday and to-day the same, and to the ages;"
+      "content": [
+        "Jesus Christ yesterday and to-day ",
+        {
+          "text": "the same",
+          "foot": {
+            "type": "stu",
+            "content": ["in his doctrine, person, and character"]
+          }
+        },
+        ", and to the ages;"
+      ]
     }
   },
   {
@@ -2293,7 +3788,19 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Be obedient to those leading you, and be subject, for these do watch for your souls, as about to give account, that with joy they may do this, and not sighing, for this "
+        "content": [
+          {
+            "text": "Be obedient to",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Or, ",
+                { "text": "have confidence in", "marks": ["i"] }
+              ]
+            }
+          },
+          " those leading you, and be subject, for these do watch for your souls, as about to give account, that with joy they may do this, and not sighing, for this "
+        ]
       },
       { "text": "is", "marks": ["i"] },
       " unprofitable to you."

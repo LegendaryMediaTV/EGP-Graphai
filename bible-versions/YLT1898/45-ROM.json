@@ -5,7 +5,103 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, a servant of Jesus Christ, a called apostle, having been separated to the good news of God—"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "Romans. That this Letter is the composition of the Apostle Paul has never been seriously questioned by any one, and needs not be here discussed. It was written A.D. 58, in Corinth, when Paul was about to visit Jerusalem with an offering for the poor saints, see ",
+                  {
+                    "bibleLink": "Romans 15:23–28",
+                    "content": "Rom. 15. 23–28"
+                  },
+                  " compared with ",
+                  { "bibleLink": "Acts 20:2, 3", "content": "Acts 20. 2, 3" },
+                  "; ",
+                  { "bibleLink": "Acts 24:17", "content": "24. 17" },
+                  ", also ",
+                  { "bibleLink": "Romans 16:21, 23", "content": "16. 21, 23" },
+                  " with ",
+                  { "bibleLink": "Acts 20:4", "content": "Acts 20. 4" },
+                  "; ",
+                  {
+                    "bibleLink": "1 Corinthians 1:14",
+                    "content": "1 Cor. 1. 14"
+                  },
+                  "; and it was sent to Rome by Phebe (",
+                  { "bibleLink": "Romans 16:1", "content": "16. 1" },
+                  ") a deaconess of Cenchrae, the eastern port of Corinth."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "The strangers of Rome (",
+                  { "bibleLink": "Acts 2:10", "content": "Acts 2. 10" },
+                  ") who heard the apostles on the day of Pentecost were undoubtedly the founders of the church of Christ in their native city; there is no good proof that Peter was ever at Rome, certainly not at least when Paul wrote to the church there, or he would most assuredly have given in it some indication (however slight) of his presence among the many Christian salutations he sends to it. A majority of the Christians at Rome at that date were of Jewish origin, hence the apostle’s frequent references to the Mosaic Law (unlike the Letter to the almost wholly Gentile Church of Ephesus), but still there were in it many Gentiles; see ",
+                  { "bibleLink": "Romans 1:13–15", "content": "1. 13–15" },
+                  "; ",
+                  { "bibleLink": "Romans 15:15, 16", "content": "15. 15, 16" },
+                  "."
+                ],
+                "break": true
+              },
+              "This Letter is placed first of all the Apostolic Letters because of its being longer than any of the others, of its thorough exhibition of Christian faith and practice, and of the pre-eminence of the church at Rome over all others. It was written, not in Latin, but in Greek, like all the other New Testament books, and for the same good reason, viz. that Greek was universally known. It may be divided into two great divisions, ",
+              { "bibleLink": "Romans 1–11", "content": "ch. i–xi" },
+              " chiefly ",
+              { "text": "doctrinal", "marks": ["i"] },
+              ", and ",
+              { "bibleLink": "Romans 12–16", "content": "ch. xii–xvi" },
+              " chiefly ",
+              { "text": "practical", "marks": ["i"] },
+              "; or into five parts, ",
+              { "bibleLink": "Romans 1–5", "content": "ch. i–v" },
+              " treating on ",
+              { "text": "Justification", "marks": ["i"] },
+              "; ",
+              { "bibleLink": "Romans 6–8", "content": "ch. vi–viii" },
+              " on ",
+              { "text": "Sanctification", "marks": ["i"] },
+              "; ",
+              { "bibleLink": "Romans 9–11", "content": "ch. ix–xi" },
+              " on ",
+              { "text": "Calling and Rejection", "marks": ["i"] },
+              "; ",
+              { "bibleLink": "Romans 12", "content": "ch. xii" },
+              "–",
+              { "bibleLink": "Romans 15:1–13", "content": "xv. 13" },
+              " on ",
+              { "text": "Christian Practice", "marks": ["i"] },
+              "; ",
+              { "bibleLink": "Romans 15:14–33", "content": "ch. xv. 14" },
+              "–",
+              { "bibleLink": "Romans 16:1–27", "content": "xvi. 27" },
+              " ",
+              { "text": "the conclusion", "marks": ["i"] },
+              "."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. May be divided into four parts; ",
+              { "bibleLink": "Romans 1:1–7", "content": "v. 1–7" },
+              " Paul’s salutation; ",
+              { "bibleLink": "Romans 1:8–12", "content": "v. 8–12" },
+              " thanksgiving and prayers; ",
+              { "bibleLink": "Romans 1:13–18", "content": "v. 13–18" },
+              " desire to see them and proclaim the Gospel righteousness of God; ",
+              { "bibleLink": "Romans 1:19–32", "content": "v. 19–32" },
+              " inexcusable vileness of the heathen."
+            ]
+          }
+        },
+        "Paul, a servant of Jesus Christ, a called apostle, having been separated to the good news of God—"
+      ]
     }
   },
   {
@@ -70,7 +166,20 @@
     "book": "ROM",
     "chapter": 1,
     "verse": 10,
-    "content": "always in my prayers beseeching, if by any means now at length I shall have a prosperous journey, by the will of God, to come unto you,"
+    "content": [
+      "always in my prayers ",
+      {
+        "text": "beseeching",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "beseeching or wanting.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", if by any means now at length I shall have a prosperous journey, by the will of God, to come unto you,"
+    ]
   },
   {
     "book": "ROM",
@@ -160,7 +269,19 @@
     "book": "ROM",
     "chapter": 1,
     "verse": 22,
-    "content": "professing to be wise, they were made fools,"
+    "content": [
+      {
+        "text": "professing",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "affirming...skilful.", "marks": ["i"] }
+          ]
+        }
+      },
+      " to be wise, they were made fools,"
+    ]
   },
   {
     "book": "ROM",
@@ -217,7 +338,19 @@
     "book": "ROM",
     "chapter": 1,
     "verse": 31,
-    "content": "unintelligent, faithless, without natural affection, implacable, unmerciful;"
+    "content": {
+      "text": "unintelligent, faithless, without natural affection, implacable, unmerciful;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "not sending things together,...unpoured forth, unkind.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "ROM",
@@ -230,6 +363,24 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter II. May be divided into five parts; ",
+            { "bibleLink": "Romans 2:1, 2", "content": "v. 1, 2" },
+            " every one self-condemned; ",
+            { "bibleLink": "Romans 2:3–10", "content": "v. 3–10" },
+            " God’s forbearance and judgments on all; ",
+            { "bibleLink": "Romans 2:11–16", "content": "v. 11–16" },
+            " who are judged righteously; ",
+            { "bibleLink": "Romans 2:17–24", "content": "v. 17–24" },
+            " Jewish boasting and condemnation; ",
+            { "bibleLink": "Romans 2:25–29", "content": "v. 25–29" },
+            " circumcision of heart better than that of letter only."
+          ]
+        }
+      },
       { "heading": "Jews as Well as Gentiles" },
       {
         "paragraph": true,
@@ -253,7 +404,23 @@
     "book": "ROM",
     "chapter": 2,
     "verse": 4,
-    "content": "or the riches of His goodness, and forbearance, and long-suffering, dost thou despise?—not knowing that the goodness of God doth lead thee to reformation!"
+    "content": [
+      "or the riches of His goodness, and forbearance, and long-suffering, dost thou ",
+      {
+        "text": "despise",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "thinkest thou down upon...his benignity...benignity of...to another mind.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "?—not knowing that the goodness of God doth lead thee to reformation!"
+    ]
   },
   {
     "book": "ROM",
@@ -353,7 +520,20 @@
     "book": "ROM",
     "chapter": 2,
     "verse": 19,
-    "content": "and hast confidence that thou thyself art a leader of blind ones, a light of those in darkness,"
+    "content": [
+      "and hast confidence that thou thyself art a ",
+      {
+        "text": "leader",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "one bringing on the way.", "marks": ["i"] }
+          ]
+        }
+      },
+      " of blind ones, a light of those in darkness,"
+    ]
   },
   {
     "book": "ROM",
@@ -389,7 +569,17 @@
     "book": "ROM",
     "chapter": 2,
     "verse": 25,
-    "content": "For circumcision, indeed, doth profit, if law thou mayest practise, but if a transgressor of law thou mayest be, thy circumcision hath become uncircumcision."
+    "content": [
+      "For ",
+      {
+        "text": "circumcision",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "a cutting-round.", "marks": ["i"] }]
+        }
+      },
+      ", indeed, doth profit, if law thou mayest practise, but if a transgressor of law thou mayest be, thy circumcision hath become uncircumcision."
+    ]
   },
   {
     "book": "ROM",
@@ -438,6 +628,24 @@
     "chapter": 3,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter III. May be divided into five parts; ",
+            { "bibleLink": "Romans 3:1, 2", "content": "v. 1, 2" },
+            " the Jew’s privileges; ",
+            { "bibleLink": "Romans 3:3–8", "content": "v. 3–8" },
+            " which are not made entirely useless; ",
+            { "bibleLink": "Romans 3:9–18", "content": "v. 9–18" },
+            " Jew and Gentile alike wicked; ",
+            { "bibleLink": "Romans 3:19, 20", "content": "v. 19, 20" },
+            " by works of law none are declared just; ",
+            { "bibleLink": "Romans 3:21–31", "content": "v. 21–31" },
+            " but by faith or stedfastness."
+          ]
+        }
+      },
       { "heading": "They Are All Under Sin" },
       { "paragraph": true, "text": "What, then, " },
       { "text": "is", "marks": ["i"] },
@@ -471,7 +679,23 @@
     "verse": 5,
     "content": {
       "paragraph": true,
-      "text": "And, if our unrighteousness God’s righteousness doth establish, what shall we say? is God unrighteous who is inflicting the wrath? (after the manner of a man I speak)"
+      "content": [
+        "And, if our unrighteousness God’s righteousness doth ",
+        {
+          "text": "establish",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "stands together with...who is bearing on the anger?",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ", what shall we say? is God unrighteous who is inflicting the wrath? (after the manner of a man I speak)"
+      ]
     }
   },
   {
@@ -514,10 +738,23 @@
     "book": "ROM",
     "chapter": 3,
     "verse": 11,
-    "content": {
-      "text": "There is none who is understanding, there is none who is seeking after God.",
-      "break": true
-    }
+    "content": [
+      "There is none who is ",
+      {
+        "text": "understanding",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "is sending or bringing things together...earnestly seeking.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": ", there is none who is seeking after God.", "break": true }
+    ]
   },
   {
     "book": "ROM",
@@ -544,17 +781,34 @@
     "book": "ROM",
     "chapter": 3,
     "verse": 14,
-    "content": {
-      "text": "Whose mouth is full of cursing and bitterness.",
-      "break": true
-    }
+    "content": [
+      "Whose mouth is full of ",
+      {
+        "text": "cursing",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "execration.", "marks": ["i"] }]
+        }
+      },
+      { "text": " and bitterness.", "break": true }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 15,
     "content": [
-      "Swift ",
+      {
+        "text": "Swift",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "sharp to pour forth blood.", "marks": ["i"] }
+          ]
+        }
+      },
+      " ",
       { "text": "are", "marks": ["i"] },
       { "text": " their feet to shed blood.", "break": true }
     ]
@@ -635,7 +889,18 @@
     "chapter": 3,
     "verse": 24,
     "content": [
-      "being declared righteous freely by His grace through the redemption that ",
+      "being declared righteous freely by His grace through the ",
+      {
+        "text": "redemption",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "a thorough loosing.", "marks": ["i"] }
+          ]
+        }
+      },
+      " that ",
       { "text": "is", "marks": ["i"] },
       " in Christ Jesus,"
     ]
@@ -703,6 +968,20 @@
     "chapter": 4,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter IV. May be divided into three parts; ",
+            { "bibleLink": "Romans 4:1–17", "content": "v. 1–17" },
+            " justification by faith apart from works of law; ",
+            { "bibleLink": "Romans 4:18–22", "content": "v. 18–22" },
+            " account of Abraham’s faith; ",
+            { "bibleLink": "Romans 4:23–25", "content": "v. 23–25" },
+            " application to us."
+          ]
+        }
+      },
       { "heading": "Grasped by Faith" },
       {
         "paragraph": true,
@@ -814,7 +1093,18 @@
     "chapter": 4,
     "verse": 15,
     "content": [
-      "for the law doth work wrath; for where law is not, neither ",
+      "for the law doth work ",
+      {
+        "text": "wrath",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "anger against (all).", "marks": ["i"] }
+          ]
+        }
+      },
+      "; for where law is not, neither ",
       { "text": "is", "marks": ["i"] },
       " transgression."
     ]
@@ -894,6 +1184,18 @@
     "chapter": 5,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter V. May be divided into two parts; ",
+            { "bibleLink": "Romans 5:1–10", "content": "v. 1–10" },
+            " results of justification; ",
+            { "bibleLink": "Romans 5:11–21", "content": "v. 11–21" },
+            " parallel between Adam and Christ."
+          ]
+        }
+      },
       { "heading": "Peace with God" },
       {
         "paragraph": true,
@@ -933,7 +1235,23 @@
     "book": "ROM",
     "chapter": 5,
     "verse": 6,
-    "content": "For in our being still ailing, Christ in due time did die for the impious;"
+    "content": [
+      "For in our being still ",
+      {
+        "text": "ailing",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "infirm, through time Christ fully died in behalf of irreverent ones.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", Christ in due time did die for the impious;"
+    ]
   },
   {
     "book": "ROM",
@@ -1058,6 +1376,18 @@
     "chapter": 6,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter VI. May be divided into two parts; ",
+            { "bibleLink": "Romans 6:1–11", "content": "v. 1–11" },
+            " believers baptized, buried, planted, crucified, dead, and raised with Jesus; ",
+            { "bibleLink": "Romans 6:12–23", "content": "v. 12–23" },
+            " and are no longer under sin and law, but under holiness and grace."
+          ]
+        }
+      },
       { "heading": "Complete Renewal" },
       {
         "paragraph": true,
@@ -1198,7 +1528,15 @@
     "chapter": 6,
     "verse": 21,
     "content": [
-      "what fruit, therefore, were ye having then, in the things of which ye are now ashamed? for the end of those ",
+      "what fruit, therefore, were ye having then, ",
+      {
+        "text": "in",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upon or over.", "marks": ["i"] }]
+        }
+      },
+      " the things of which ye are now ashamed? for the end of those ",
       { "text": "is", "marks": ["i"] },
       " death."
     ]
@@ -1207,7 +1545,17 @@
     "book": "ROM",
     "chapter": 6,
     "verse": 22,
-    "content": "And now, having been freed from the sin, and having become servants to God, ye have your fruit—to sanctification, and the end life age-during;"
+    "content": [
+      "And now, having been freed from the sin, and having become ",
+      {
+        "text": "servants",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "bondsmen.", "marks": ["i"] }]
+        }
+      },
+      " to God, ye have your fruit—to sanctification, and the end life age-during;"
+    ]
   },
   {
     "book": "ROM",
@@ -1226,6 +1574,22 @@
     "chapter": 7,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter VII. May be divided into four parts; ",
+            { "bibleLink": "Romans 7:1–6", "content": "v. 1–6" },
+            " the dead are freed from the law; ",
+            { "bibleLink": "Romans 7:7–12", "content": "v. 7–12" },
+            " apart from which sin is dead; ",
+            { "bibleLink": "Romans 7:13–20", "content": "v. 13–20" },
+            " the law is good, but sin is working; ",
+            { "bibleLink": "Romans 7:21–25", "content": "v. 21–25" },
+            " the war in the members, and the deliverer."
+          ]
+        }
+      },
       { "heading": "A Change of Masters" },
       {
         "paragraph": true,
@@ -1417,6 +1781,26 @@
     "chapter": 8,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter VIII. May be divided into six parts; ",
+            { "bibleLink": "Romans 8:1–4", "content": "v. 1–4" },
+            " believers free from condemnation; ",
+            { "bibleLink": "Romans 8:5–14", "content": "v. 5–14" },
+            " are spiritually-minded; ",
+            { "bibleLink": "Romans 8:15–17", "content": "v. 15–17" },
+            " have the spirit of sons; ",
+            { "bibleLink": "Romans 8:18–25", "content": "v. 18–25" },
+            " are not disheartened; ",
+            { "bibleLink": "Romans 8:26, 27", "content": "v. 26, 27" },
+            " have the aid of the spirit; ",
+            { "bibleLink": "Romans 8:28–39", "content": "v. 28–39" },
+            " have all things."
+          ]
+        }
+      },
       { "heading": "The Spirit of God Within You" },
       {
         "paragraph": true,
@@ -1593,7 +1977,21 @@
     "content": [
       "And not only ",
       { "text": "so", "marks": ["i"] },
-      ", but also we ourselves, having the first-fruit of the Spirit, we also ourselves in ourselves do groan, adoption expecting—the redemption of our body;"
+      ", but also we ourselves, having the first-fruit of the Spirit, we also ourselves in ourselves do groan, ",
+      {
+        "text": "adoption",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "waiting for sonship—the full loosing of our bodies.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " expecting—the redemption of our body;"
     ]
   },
   {
@@ -1729,7 +2127,20 @@
     "book": "ROM",
     "chapter": 8,
     "verse": 38,
-    "content": "for I am persuaded that neither death, nor life, nor messengers, nor principalities, nor powers, nor things present,"
+    "content": [
+      "for I am ",
+      {
+        "text": "persuaded",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "confident...things standing in...", "marks": ["i"] }
+          ]
+        }
+      },
+      " that neither death, nor life, nor messengers, nor principalities, nor powers, nor things present,"
+    ]
   },
   {
     "book": "ROM",
@@ -1746,6 +2157,22 @@
     "chapter": 9,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter IX. May be divided into four parts; ",
+            { "bibleLink": "Romans 9:1–5", "content": "v. 1–5" },
+            " Paul’s love and sorrow for the Jews; ",
+            { "bibleLink": "Romans 9:6–13", "content": "v. 6–13" },
+            " their fall consistent with God’s former dealings; ",
+            { "bibleLink": "Romans 9:14–24", "content": "v. 14–24" },
+            " also with his justice and mercy; ",
+            { "bibleLink": "Romans 9:25–33", "content": "v. 25–33" },
+            " and with prophecy."
+          ]
+        }
+      },
       { "heading": "The Problem of the Jews" },
       { "heading": "The Rejection of Israel" },
       {
@@ -1835,20 +2262,54 @@
     "content": [
       "And not only ",
       { "text": "so", "marks": ["i"] },
-      ", but also Rebecca, having conceived by one—Isaac our father—"
+      ", but also Rebecca, having conceived ",
+      {
+        "text": "by",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "out of one.", "marks": ["i"] }]
+        }
+      },
+      " one—Isaac our father—"
     ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 11,
-    "content": "(for they being not yet born, neither having done anything good or evil, that the purpose of God, according to choice, might remain; not of works, but of Him who is calling,) it was said to her—"
+    "content": [
+      "(for they being not yet born, neither having done anything good or evil, that the ",
+      {
+        "text": "purpose",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "thing set forth.", "marks": ["i"] }]
+        }
+      },
+      " of God, according to choice, might remain; not of works, but of Him who is calling,) it was said to her—"
+    ]
   },
   {
     "book": "ROM",
     "chapter": 9,
     "verse": 12,
-    "content": "“The greater shall serve the less;”"
+    "content": [
+      "“The greater shall ",
+      {
+        "text": "serve",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "greater (in age) shall be in bondage to the lesser.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " the less;”"
+    ]
   },
   {
     "book": "ROM",
@@ -1900,7 +2361,23 @@
     "verse": 19,
     "content": {
       "paragraph": true,
-      "text": "Thou wilt say, then, to me, “Why yet doth He find fault? for His counsel who hath resisted?”"
+      "content": [
+        "Thou wilt say, then, to me, “Why yet doth He ",
+        {
+          "text": "find fault",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Or, ",
+              {
+                "text": "blame? for who has stood against his counsel, or plan of advancing one nation above another.",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        "? for His counsel who hath resisted?”"
+      ]
     }
   },
   {
@@ -1984,7 +2461,17 @@
     "verse": 29,
     "content": {
       "text": "And according as Isaiah saith before, “Except the Lord of Sabaoth did leave to us a seed, as Sodom we had become, and as Gomorrah we had been made like.”",
-      "break": true
+      "break": true,
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Or, ",
+          {
+            "text": "said publicly, If the Lord of Hosts had not left behind among us a seed, we would have been...would have been made.",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -2028,6 +2515,22 @@
     "verse": 1,
     "content": [
       {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter X. May be divided into four parts; ",
+            { "bibleLink": "Romans 10:1–3", "content": "v. 1–3" },
+            " Paul’s desire for, and testimony of, the Jews; ",
+            { "bibleLink": "Romans 10:4–13", "content": "v. 4–13" },
+            " his description of the righteousness of the law and of faith; ",
+            { "bibleLink": "Romans 10:14, 15", "content": "v. 14, 15" },
+            " desirableness of preaching the gospel; ",
+            { "bibleLink": "Romans 10:16–21", "content": "v. 16–21" },
+            " Jewish unbelief foretold."
+          ]
+        }
+      },
+      {
         "paragraph": true,
         "text": "Brethren, the pleasure indeed of my heart, and my supplication that "
       },
@@ -2058,7 +2561,15 @@
     "chapter": 10,
     "verse": 5,
     "content": [
-      "for Moses doth describe the righteousness that ",
+      "for Moses doth ",
+      {
+        "text": "describe",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "writeth...", "marks": ["i"] }]
+        }
+      },
+      " the righteousness that ",
       { "text": "is", "marks": ["i"] },
       " of the law, that, “The man who did them shall live in them,”"
     ]
@@ -2205,6 +2716,24 @@
     "chapter": 11,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XI. May be divided into five parts; ",
+            { "bibleLink": "Romans 11:1–10", "content": "v. 1–10" },
+            " a remnant saved by grace, others are hardened; ",
+            { "bibleLink": "Romans 11:11–16", "content": "v. 11–16" },
+            " future results; ",
+            { "bibleLink": "Romans 11:17–24", "content": "v. 17–24" },
+            " no ground of boasting; ",
+            { "bibleLink": "Romans 11:25–32", "content": "v. 25–32" },
+            " all Israel shall be saved; ",
+            { "bibleLink": "Romans 11:33–36", "content": "v. 33–36" },
+            " thanksgiving."
+          ]
+        }
+      },
       { "heading": "The Divine Purpose in It" },
       {
         "paragraph": true,
@@ -2392,7 +2921,18 @@
     "chapter": 11,
     "verse": 24,
     "content": [
-      "for if thou, out of the olive tree, wild by nature, wast cut out, and, contrary to nature, wast graffed into a good olive tree, how much rather shall they, who ",
+      "for if thou, out of the ",
+      {
+        "text": "olive tree, wild by nature",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "natural field-olive.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", wast cut out, and, contrary to nature, wast graffed into a good olive tree, how much rather shall they, who ",
       { "text": "are", "marks": ["i"] },
       " according to nature, be graffed into their own olive tree?"
     ]
@@ -2422,10 +2962,18 @@
     "content": [
       "and this to them ",
       { "text": "is", "marks": ["i"] },
+      " the ",
       {
-        "text": " the covenant from Me, when I may take away their sins.”",
-        "break": true
-      }
+        "text": "covenant",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "thoroughly set thing.", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " from Me, when I may take away their sins.”", "break": true }
     ]
   },
   {
@@ -2504,6 +3052,20 @@
     "chapter": 12,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XII. May be divided into three parts; ",
+            { "bibleLink": "Romans 12:1–5", "content": "v. 1–5" },
+            " call to dedication, holiness, and lowliness; ",
+            { "bibleLink": "Romans 12:6–17", "content": "v. 6–17" },
+            " mutual love and duty; ",
+            { "bibleLink": "Romans 12:18–21", "content": "v. 18–21" },
+            " love of enemies."
+          ]
+        }
+      },
       { "heading": "Christian Living" },
       {
         "paragraph": true,
@@ -2585,19 +3147,62 @@
     "book": "ROM",
     "chapter": 12,
     "verse": 12,
-    "content": "in the hope rejoicing; in the tribulation enduring; in the prayer persevering;"
+    "content": {
+      "text": "in the hope rejoicing; in the tribulation enduring; in the prayer persevering;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "...remaining submissive in the trouble; strong towards (God) in the pouring forth (of desires).",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "ROM",
     "chapter": 12,
     "verse": 13,
-    "content": "to the necessities of the saints communicating; the hospitality pursuing."
+    "content": [
+      "to the necessities of the saints communicating; the ",
+      {
+        "text": "hospitality",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "having communion with the...of the holy ones; pursuing the friendship of strangers.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " pursuing."
+    ]
   },
   {
     "book": "ROM",
     "chapter": 12,
     "verse": 14,
-    "content": "Bless those persecuting you; bless, and curse not;"
+    "content": [
+      {
+        "text": "Bless",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "speak well to those pursuing you; speak well, and curse not at all.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " those persecuting you; bless, and curse not;"
+    ]
   },
   {
     "book": "ROM",
@@ -2650,6 +3255,18 @@
     "chapter": 13,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XIII. May be divided into two parts; ",
+            { "bibleLink": "Romans 13:1–7", "content": "v. 1–7" },
+            " exhortation to civil obedience; ",
+            { "bibleLink": "Romans 13:8–14", "content": "v. 8–14" },
+            " and to love and holiness."
+          ]
+        }
+      },
       { "heading": "Civil and Social Duties" },
       {
         "paragraph": true,
@@ -2757,6 +3374,22 @@
     "chapter": 14,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XIV. May be divided into four parts; ",
+            { "bibleLink": "Romans 14:1–9", "content": "v. 1–9" },
+            " of eating herbs and observing days; ",
+            { "bibleLink": "Romans 14:10–13", "content": "v. 10–13" },
+            " Christ the only judge; ",
+            { "bibleLink": "Romans 14:14, 15", "content": "v. 14, 15" },
+            " nothing unclean, walking in love; ",
+            { "bibleLink": "Romans 14:16–23", "content": "v. 16–23" },
+            " serving the Christ, building up one another."
+          ]
+        }
+      },
       { "heading": "Christian Charity and Unity" },
       {
         "paragraph": true,
@@ -2768,7 +3401,23 @@
     "book": "ROM",
     "chapter": 14,
     "verse": 2,
-    "content": "one doth believe that he may eat all things—and he who is weak doth eat herbs;"
+    "content": [
+      "one doth believe that he may eat all things—and he who is weak ",
+      {
+        "text": "doth eat herbs",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "one indeed believes...but he who is infirm eats (only) herbs.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ";"
+    ]
   },
   {
     "book": "ROM",
@@ -2808,7 +3457,17 @@
     "book": "ROM",
     "chapter": 14,
     "verse": 7,
-    "content": "For none of us to himself doth live, and none to himself doth die;"
+    "content": [
+      "For none of us to himself doth live, and none to himself ",
+      {
+        "text": "doth die",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "dies utterly.", "marks": ["i"] }]
+        }
+      },
+      ";"
+    ]
   },
   {
     "book": "ROM",
@@ -2943,7 +3602,18 @@
     "chapter": 14,
     "verse": 23,
     "content": [
-      "and he who is making a difference, if he may eat, hath been condemned, because ",
+      "and he who is ",
+      {
+        "text": "making a difference",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "is judging diversely is judged down.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", if he may eat, hath been condemned, because ",
       { "text": "it is", "marks": ["i"] },
       " not of faith; and all that ",
       { "text": "is", "marks": ["i"] },
@@ -2954,10 +3624,34 @@
     "book": "ROM",
     "chapter": 15,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And we ought—we who are strong—to bear the infirmities of the weak, and not to please ourselves;"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XV. May be divided into seven parts; ",
+            { "bibleLink": "Romans 15:1–4", "content": "v. 1–4" },
+            " exhortation to bear the infirmities of the weak; ",
+            { "bibleLink": "Romans 15:5–7", "content": "v. 5–7" },
+            " to maintain unanimity; ",
+            { "bibleLink": "Romans 15:8–13", "content": "v. 8–13" },
+            " Christ the saviour of Jew and Gentile; ",
+            { "bibleLink": "Romans 15:14–16", "content": "v. 14–16" },
+            " Paul’s confidence in the Roman believers; ",
+            { "bibleLink": "Romans 15:17–21", "content": "v. 17–21" },
+            " his labours in Asia; ",
+            { "bibleLink": "Romans 15:22–29", "content": "v. 22–29" },
+            " his intention to visit Rome; ",
+            { "bibleLink": "Romans 15:30–33", "content": "v. 30–33" },
+            " his call on their prayers."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "And we ought—we who are strong—to bear the infirmities of the weak, and not to please ourselves;"
+      }
+    ]
   },
   {
     "book": "ROM",
@@ -3208,6 +3902,22 @@
     "verse": 1,
     "content": [
       {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XVI. May be divided into four parts; ",
+            { "bibleLink": "Romans 16:1–16", "content": "v. 1–16" },
+            " various salutations; ",
+            { "bibleLink": "Romans 16:17–20", "content": "v. 17–20" },
+            " cautions against divisions and stumbling blocks; ",
+            { "bibleLink": "Romans 16:21–24", "content": "v. 21–24" },
+            " salutation of Paul’s companions; ",
+            { "bibleLink": "Romans 16:25–27", "content": "v. 25–27" },
+            " ascription of glory to God."
+          ]
+        }
+      },
+      {
         "paragraph": true,
         "text": "And I commend you to Phebe our sister—being a ministrant of the assembly that "
       },
@@ -3234,7 +3944,23 @@
     "book": "ROM",
     "chapter": 16,
     "verse": 4,
-    "content": "who for my life their own neck did lay down, to whom not only I give thanks, but also all the assemblies of the nations—"
+    "content": [
+      "who for my life their own neck ",
+      {
+        "text": "did lay down",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "who in behalf of my soul put their own necks under (danger).",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", to whom not only I give thanks, but also all the assemblies of the nations—"
+    ]
   },
   {
     "book": "ROM",

@@ -3,10 +3,67 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "A beginning of the good news of Jesus Christ, Son of God."
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Mark. ",
+            { "text": "generally", "marks": ["i"] },
+            " thought to be the same with the “John whose surname was Mark,” (",
+            { "bibleLink": "Acts 12:12, 25" },
+            "), son of a certain woman called Mary, and cousin of Barnabas (",
+            { "bibleLink": "Colossians 4:10", "content": "Col. 4:10" },
+            "), supposed to be the nameless “young man” of ",
+            { "bibleLink": "Mark 14:51, 52", "content": "Mark 14:51, 52" },
+            ", and afterwards a convert of Peter (",
+            { "bibleLink": "1 Peter 5:13", "content": "1 Pet. 5:13" },
+            "), but this seems inconsistent with ",
+            { "bibleLink": "2 Timothy 4:11", "content": "2 Tim. 4:11" },
+            ", where Paul speaks of him as having been and still likely to be useful to ",
+            { "text": "him", "marks": ["i"] },
+            " as a deacon or ministering servant. Probably there were two of the same name. The style of this Evangelist is altogether that of an eye and ear-witness, and not a mere “interpreter of Peter,” as most of the ancients have it.",
+            " This gospel was probably written about A.D. 50, about ten years after that of Matthew, of which it seems practically an abridgement, but done with the view of bringing out, from personal observation, some peculiar traits of the character of Jesus—especially that of his being the diligent and unwearied “",
+            { "text": "servant", "marks": ["i"] },
+            { "text": " of God.”", "break": true },
+            "Mark only mentions ",
+            { "text": "three", "marks": ["i"] },
+            " special topics that are not found in the other gospels, viz., the parable of the sower (",
+            { "bibleLink": "Mark 4:26–29", "content": "4:26–29" },
+            "), the healing of a blind man (",
+            { "bibleLink": "Mark 8:22–26", "content": "8:22–26" },
+            "), and the salting with fire (",
+            { "bibleLink": "Mark 9:49, 50", "content": "9:49, 50" },
+            { "text": ").", "break": true },
+            "He only supplies ",
+            { "text": "seven", "marks": ["i"] },
+            " passages which have nothing corresponding to them in Matthew, viz., ",
+            { "bibleLink": "Mark 1:21–28", "content": "1:21–28" },
+            "; ",
+            { "bibleLink": "Mark 4:21–25", "content": "4:21–25" },
+            "; ",
+            { "bibleLink": "Mark 9:38–41", "content": "9:38–41" },
+            "; ",
+            { "bibleLink": "Mark 12:41–44", "content": "12:41–44" },
+            "; ",
+            { "bibleLink": "Mark 16:12, 13", "content": "16:12, 13" },
+            "; ",
+            { "bibleLink": "Mark 16:14–18", "content": "16:14–18" },
+            "; ",
+            { "bibleLink": "Mark 16:19, 20", "content": "16:19, 20" },
+            "; all of which however are found in Luke."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "A beginning of the good news of Jesus Christ, "
+      },
+      {
+        "text": "Son of God.",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 3:1–12" } }
+      }
+    ]
   },
   {
     "book": "MRK",
@@ -65,7 +122,8 @@
     "verse": 9,
     "content": {
       "paragraph": true,
-      "text": "And it came to pass in those days, Jesus came from Nazareth of Galilee, and was baptized by John at the Jordan;"
+      "text": "And it came to pass in those days, Jesus came from Nazareth of Galilee, and was baptized by John at the Jordan;",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 3:13–17" } }
     }
   },
   {
@@ -86,7 +144,8 @@
     "verse": 12,
     "content": {
       "paragraph": true,
-      "text": "And immediately doth the Spirit put him forth to the wilderness,"
+      "text": "And immediately doth the Spirit put him forth to the wilderness,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 4:1–11" } }
     }
   },
   {
@@ -103,7 +162,8 @@
       { "heading": "Jesus in Galilee" },
       {
         "paragraph": true,
-        "text": "And after the delivering up of John, Jesus came to Galilee, proclaiming the good news of the reign of God,"
+        "text": "And after the delivering up of John, Jesus came to Galilee, proclaiming the good news of the reign of God,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 4:12" } }
       }
     ]
   },
@@ -127,7 +187,8 @@
       { "heading": "His First Disciples" },
       {
         "paragraph": true,
-        "text": "And, walking by the sea of Galilee, he saw Simon, and Andrew his brother, casting a drag into the sea, for they were fishers,"
+        "text": "And, walking by the sea of Galilee, he saw Simon, and Andrew his brother, casting a drag into the sea, for they were fishers,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 4:13–22" } }
       }
     ]
   },
@@ -169,7 +230,8 @@
       { "heading": "In Capernaum" },
       {
         "paragraph": true,
-        "text": "And they go on to Capernaum, and immediately, on the sabbaths, having gone into the synagogue, he was teaching,"
+        "text": "And they go on to Capernaum, and immediately, on the sabbaths, having gone into the synagogue, he was teaching,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Luke 4:31–37" } }
       }
     ]
   },
@@ -228,7 +290,8 @@
     "verse": 29,
     "content": {
       "paragraph": true,
-      "text": "And immediately, having come forth out of the synagogue, they went to the house of Simon and Andrew, with James and John,"
+      "text": "And immediately, having come forth out of the synagogue, they went to the house of Simon and Andrew, with James and John,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 8:14–17" } }
     }
   },
   {
@@ -270,7 +333,8 @@
     "verse": 35,
     "content": {
       "paragraph": true,
-      "text": "And very early, it being yet night, having risen, he went forth, and went away to a desert place, and was there praying;"
+      "text": "And very early, it being yet night, having risen, he went forth, and went away to a desert place, and was there praying;",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 4:23–25" } }
     }
   },
   {
@@ -310,7 +374,8 @@
     "verse": 40,
     "content": {
       "paragraph": true,
-      "text": "and there doth come to him a leper, calling on him, and kneeling to him, and saying to him—“If thou mayest will, thou art able to cleanse me.”"
+      "text": "and there doth come to him a leper, calling on him, and kneeling to him, and saying to him—“If thou mayest will, thou art able to cleanse me.”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 8:1–4" } }
     }
   },
   {
@@ -363,7 +428,10 @@
         "text": "And again he entered into Capernaum, after "
       },
       { "text": "some", "marks": ["i"] },
-      " days, and it was heard that he is in the house,"
+      {
+        "text": " days, and it was heard that he is in the house,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 9:1–8" } }
+      }
     ]
   },
   {
@@ -457,7 +525,8 @@
     "verse": 13,
     "content": {
       "paragraph": true,
-      "text": "And he went forth again by the sea, and all the multitude was coming unto him, and he was teaching them,"
+      "text": "And he went forth again by the sea, and all the multitude was coming unto him, and he was teaching them,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 9:9–13" } }
     }
   },
   {
@@ -502,7 +571,8 @@
     "verse": 18,
     "content": {
       "paragraph": true,
-      "text": "And the disciples of John and those of the Pharisees were fasting, and they come and say to him, “Wherefore do the disciples of John and those of the Pharisees fast, and thy disciples do not fast?”"
+      "text": "And the disciples of John and those of the Pharisees were fasting, and they come and say to him, “Wherefore do the disciples of John and those of the Pharisees fast, and thy disciples do not fast?”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 9:14–17" } }
     }
   },
   {
@@ -552,7 +622,8 @@
       { "heading": "In the Cornfields" },
       {
         "paragraph": true,
-        "text": "And it came to pass—he is going along on the sabbaths through the corn-fields—and his disciples began to make a way, plucking the ears,"
+        "text": "And it came to pass—he is going along on the sabbaths through the corn-fields—and his disciples began to make a way, plucking the ears,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 12:1–8" } }
       }
     ]
   },
@@ -612,7 +683,8 @@
       { "heading": "A Sabbath Day" },
       {
         "paragraph": true,
-        "text": "And he entered again into the synagogue, and there was there a man having the hand withered,"
+        "text": "And he entered again into the synagogue, and there was there a man having the hand withered,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 12:9–21" } }
       }
     ]
   },
@@ -707,7 +779,8 @@
       { "heading": "His Twelve Apostles" },
       {
         "paragraph": true,
-        "text": "And he goeth up to the mountain, and doth call near whom he willed, and they went away to him;"
+        "text": "And he goeth up to the mountain, and doth call near whom he willed, and they went away to him;",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 10:2–4" } }
       }
     ]
   },
@@ -753,7 +826,8 @@
     "verse": 20,
     "content": {
       "paragraph": true,
-      "text": "And come together again doth a multitude, so that they are not able even to eat bread;"
+      "text": "And come together again doth a multitude, so that they are not able even to eat bread;",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 12:22–37" } }
     }
   },
   {
@@ -852,7 +926,11 @@
       { "heading": "His Mother and Brethren" },
       {
         "paragraph": true,
-        "text": "Then come do his brethren and mother, and standing without, they sent unto him, calling him,"
+        "text": "Then come do his brethren and mother, and standing without, they sent unto him, calling him,",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 12:46–50" }
+        }
       }
     ]
   },
@@ -897,7 +975,8 @@
       { "heading": "Parables of the Kingdom" },
       {
         "paragraph": true,
-        "text": "And again he began to teach by the sea, and there was gathered unto him a great multitude, so that he, having gone into the boat, sat in the sea, and all the multitude was near the sea, on the land,"
+        "text": "And again he began to teach by the sea, and there was gathered unto him a great multitude, so that he, having gone into the boat, sat in the sea, and all the multitude was near the sea, on the land,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 13:1–23" } }
       }
     ]
   },
@@ -1090,7 +1169,8 @@
       { "paragraph": true, "text": "And he said to them, " },
       {
         "text": "“Doth the lamp come that under the measure it may be put, or under the couch—not that it may be put on the lamp-stand?",
-        "marks": ["woc"]
+        "marks": ["woc"],
+        "foot": { "type": "xrf", "content": { "bibleLink": "Luke 8:16–18" } }
       }
     ]
   },
@@ -1141,7 +1221,8 @@
       { "paragraph": true, "text": "And he said, " },
       {
         "text": "“Thus is the reign of God: as if a man may cast the seed on the earth,",
-        "marks": ["woc"]
+        "marks": ["woc"],
+        "foot": { "type": "stu", "content": "not found in any other Gospel" }
       }
     ]
   },
@@ -1180,7 +1261,11 @@
       { "paragraph": true, "text": "And he said, " },
       {
         "text": "“To what may we liken the reign of God, or in what simile may we compare it?",
-        "marks": ["woc"]
+        "marks": ["woc"],
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 13:31, 32" }
+        }
       }
     ]
   },
@@ -1208,7 +1293,8 @@
     "verse": 33,
     "content": {
       "paragraph": true,
-      "text": "And with many such similes he was speaking to them the word, as they were able to hear,"
+      "text": "And with many such similes he was speaking to them the word, as they were able to hear,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 13:34, 35" } }
     }
   },
   {
@@ -1227,7 +1313,11 @@
         "paragraph": true,
         "text": "And he saith to them on that day, evening having come, "
       },
-      { "text": "“We may pass over to the other side;”", "marks": ["woc"] }
+      {
+        "text": "“We may pass over to the other side;”",
+        "marks": ["woc"],
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 8:18–27" } }
+      }
     ]
   },
   {
@@ -1284,7 +1374,8 @@
       { "heading": "The Country of the Gadarenes" },
       {
         "paragraph": true,
-        "text": "And they came to the other side of the sea, to the region of the Gadarenes,"
+        "text": "And they came to the other side of the sea, to the region of the Gadarenes,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 8:28–34" } }
       }
     ]
   },
@@ -1442,7 +1533,8 @@
       { "heading": "The Daughter of Jairus" },
       {
         "paragraph": true,
-        "text": "And Jesus having passed over in the boat again to the other side, there was gathered a great multitude to him, and he was near the sea,"
+        "text": "And Jesus having passed over in the boat again to the other side, there was gathered a great multitude to him, and he was near the sea,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 9:18–26" } }
       }
     ]
   },
@@ -1626,7 +1718,11 @@
       { "heading": "Rejection at Nazareth" },
       {
         "paragraph": true,
-        "text": "And he went forth thence, and came to his own country, and his disciples do follow him,"
+        "text": "And he went forth thence, and came to his own country, and his disciples do follow him,",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 13:53–58" }
+        }
       }
     ]
   },
@@ -1668,7 +1764,17 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 6,
-    "content": "and he wondered because of their unbelief. And he was going round the villages, in a circle, teaching,"
+    "content": {
+      "text": "and he wondered because of their unbelief. And he was going round the villages, in a circle, teaching,",
+      "foot": {
+        "type": "xrf",
+        "content": [
+          { "bibleLink": "Matthew 9:35–38" },
+          "; ",
+          { "bibleLink": "Matthew 11:1" }
+        ]
+      }
+    }
   },
   {
     "book": "MRK",
@@ -1678,7 +1784,8 @@
       { "heading": "Sends Out Apostles" },
       {
         "paragraph": true,
-        "text": "and he doth call near the twelve, and he began to send them forth two by two, and he was giving them power over the unclean spirits,"
+        "text": "and he doth call near the twelve, and he began to send them forth two by two, and he was giving them power over the unclean spirits,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 10" } }
       }
     ]
   },
@@ -1743,7 +1850,8 @@
       { "heading": "Herod’s Alarm" },
       {
         "paragraph": true,
-        "text": "And the king Herod heard, (for his name became public,) and he said—“John the Baptist out of the dead was raised, and because of this the mighty powers are working in him.”"
+        "text": "And the king Herod heard, (for his name became public,) and he said—“John the Baptist out of the dead was raised, and because of this the mighty powers are working in him.”",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 14:1, 2" } }
       }
     ]
   },
@@ -1763,7 +1871,16 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 17,
-    "content": "For Herod himself, having sent forth, did lay hold on John, and bound him in the prison, because of Herodias the wife of Philip his brother, because he married her,"
+    "content": [
+      {
+        "text": "For Herod himself, having sent forth, did lay hold on John, and bound him in the prison,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 14:3" } }
+      },
+      {
+        "text": " because of Herodias the wife of Philip his brother, because he married her,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 14:3–12" } }
+      }
+    ]
   },
   {
     "book": "MRK",
@@ -1848,7 +1965,11 @@
       { "heading": "In a Desert Place" },
       {
         "paragraph": true,
-        "text": "And the apostles are gathered together unto Jesus, and they told him all, and how many things they did, and how many things they taught,"
+        "text": "And the apostles are gathered together unto Jesus, and they told him all, and how many things they did, and how many things they taught,",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 14:13–21" }
+        }
       }
     ]
   },
@@ -1962,7 +2083,11 @@
       { "heading": "Across the Lake" },
       {
         "paragraph": true,
-        "text": "And immediately he constrained his disciples to go into the boat, and to go before to the other side, unto Bethsaida, till he may let the multitude away,"
+        "text": "And immediately he constrained his disciples to go into the boat, and to go before to the other side, unto Bethsaida, till he may let the multitude away,",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 14:22–33" }
+        }
       }
     ]
   },
@@ -2023,7 +2148,8 @@
     "verse": 53,
     "content": {
       "paragraph": true,
-      "text": "And having passed over, they came upon the land of Gennesaret, and drew to the shore,"
+      "text": "And having passed over, they came upon the land of Gennesaret, and drew to the shore,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 14:34–36" } }
     }
   },
   {
@@ -2052,7 +2178,8 @@
       { "heading": "Growing Opposition" },
       {
         "paragraph": true,
-        "text": "And gathered together unto him are the Pharisees, and certain of the scribes, having come from Jerusalem,"
+        "text": "And gathered together unto him are the Pharisees, and certain of the scribes, having come from Jerusalem,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 15:1–20" } }
       }
     ]
   },
@@ -2279,7 +2406,11 @@
       { "heading": "Tyre and Sidon" },
       {
         "paragraph": true,
-        "text": "And from thence having risen, he went away to the borders of Tyre and Sidon, and having entered into the house, he wished none to know, and he was not able to be hid,"
+        "text": "And from thence having risen, he went away to the borders of Tyre and Sidon, and having entered into the house, he wished none to know, and he was not able to be hid,",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 15:21–28" }
+        }
       }
     ]
   },
@@ -2341,7 +2472,11 @@
       { "heading": "Coasts of Decapolis" },
       {
         "paragraph": true,
-        "text": "And again, having gone forth from the coasts of Tyre and Sidon, he came unto the sea of Galilee, through the midst of the coasts of Decapolis,"
+        "text": "And again, having gone forth from the coasts of Tyre and Sidon, he came unto the sea of Galilee, through the midst of the coasts of Decapolis,",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 15:29–31" }
+        }
       }
     ]
   },
@@ -2395,7 +2530,23 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "In those days the multitude being very great, and not having what they may eat, Jesus having called near his disciples, saith to them,"
+      "text": "In those days the multitude being very great, and not having what they may eat, Jesus having called near his disciples, saith to them,",
+      "foot": {
+        "type": "xrf",
+        "content": [
+          "Young’s Commentary prints the parallel as ",
+          {
+            "content": [
+              { "bibleLink": "Matthew 15:32–30", "content": "Mat. 15:32–30" }
+            ],
+            "marks": ["i"]
+          },
+          ", almost certainly a misprint, since Matthew’s chapter runs only to verse 39; the reference below uses the corrected reading of ",
+          { "bibleLink": "Mark 15:32–39", "content": "15:32–39" },
+          ".",
+          { "bibleLink": "Matthew 15:32–39" }
+        ]
+      }
     }
   },
   {
@@ -2472,7 +2623,8 @@
       { "heading": "Dalmanutha" },
       {
         "paragraph": true,
-        "text": "and immediately having entered into the boat with his disciples, he came to the parts of Dalmanutha,"
+        "text": "and immediately having entered into the boat with his disciples, he came to the parts of Dalmanutha,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 16:1–4" } }
       }
     ]
   },
@@ -2506,7 +2658,8 @@
     "verse": 14,
     "content": {
       "paragraph": true,
-      "text": "and they forgot to take loaves, and except one loaf they had nothing with them in the boat,"
+      "text": "and they forgot to take loaves, and except one loaf they had nothing with them in the boat,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 16:5–12" } }
     }
   },
   {
@@ -2589,7 +2742,8 @@
       { "heading": "Bethsaida" },
       {
         "paragraph": true,
-        "text": "And he cometh to Bethsaida, and they bring to him one blind, and call upon him that he may touch him,"
+        "text": "And he cometh to Bethsaida, and they bring to him one blind, and call upon him that he may touch him,",
+        "foot": { "type": "stu", "content": "not found in any other Gospel" }
       }
     ]
   },
@@ -2643,7 +2797,14 @@
         "paragraph": true,
         "text": "And Jesus went forth, and his disciples, to the villages of Caesarea Philippi, and in the way he was questioning his disciples, saying to them, "
       },
-      { "text": "“Who do men say me to be?”", "marks": ["woc"] }
+      {
+        "text": "“Who do men say me to be?”",
+        "marks": ["woc"],
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 16:13–19" }
+        }
+      }
     ]
   },
   {
@@ -2666,7 +2827,10 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 30,
-    "content": "And he strictly charged them that they may tell no one about it,"
+    "content": {
+      "text": "And he strictly charged them that they may tell no one about it,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 16:20–28" } }
+    }
   },
   {
     "book": "MRK",
@@ -2766,7 +2930,8 @@
       { "heading": "Mount of Transfiguration" },
       {
         "paragraph": true,
-        "text": "And after six days doth Jesus take Peter, and James, and John, and bringeth them up to a high mount by themselves, alone, and he was transfigured before them,"
+        "text": "And after six days doth Jesus take Peter, and James, and John, and bringeth them up to a high mount by themselves, alone, and he was transfigured before them,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 17:1–9" } }
       }
     ]
   },
@@ -2831,7 +2996,8 @@
     "verse": 11,
     "content": {
       "paragraph": true,
-      "text": "And they were questioning him, saying, that the scribes say that Elijah it behoveth to come first."
+      "text": "And they were questioning him, saying, that the scribes say that Elijah it behoveth to come first.",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 17:10–13" } }
     }
   },
   {
@@ -2861,7 +3027,8 @@
     "verse": 14,
     "content": {
       "paragraph": true,
-      "text": "And having come unto the disciples, he saw a great multitude about them, and scribes questioning with them,"
+      "text": "And having come unto the disciples, he saw a great multitude about them, and scribes questioning with them,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 17:14–21" } }
     }
   },
   {
@@ -2997,7 +3164,8 @@
     "verse": 30,
     "content": {
       "paragraph": true,
-      "text": "And having gone forth thence, they were passing through Galilee, and he did not wish that any may know,"
+      "text": "And having gone forth thence, they were passing through Galilee, and he did not wish that any may know,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 17:22, 23" } }
     }
   },
   {
@@ -3030,7 +3198,8 @@
       },
       {
         "text": "“What were ye reasoning in the way among yourselves?”",
-        "marks": ["woc"]
+        "marks": ["woc"],
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 18:1–5" } }
       }
     ]
   },
@@ -3073,7 +3242,8 @@
     "verse": 38,
     "content": {
       "paragraph": true,
-      "text": "And John did answer him, saying, “Teacher, we saw a certain one in thy name casting out demons, who doth not follow us, and we forbade him, because he doth not follow us.”"
+      "text": "And John did answer him, saying, “Teacher, we saw a certain one in thy name casting out demons, who doth not follow us, and we forbade him, because he doth not follow us.”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Luke 9:49, 50" } }
     }
   },
   {
@@ -3112,7 +3282,8 @@
     "verse": 42,
     "content": {
       "text": "and whoever may cause to stumble one of the little ones believing in me, better is it for him if a millstone is hanged about his neck, and he hath been cast into the sea.",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 18:6–9" } }
     }
   },
   {
@@ -3175,7 +3346,8 @@
     "verse": 49,
     "content": {
       "text": "for every one with fire shall be salted, and every sacrifice with salt shall be salted.",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": { "type": "stu", "content": "not found in any other Gospel" }
     }
   },
   {
@@ -3205,7 +3377,8 @@
       { "heading": "Beyond Jordan" },
       {
         "paragraph": true,
-        "text": "And having risen thence, he doth come to the coasts of Judea, through the other side of the Jordan, and again do multitudes come together unto him, and, as he had been accustomed, again he was teaching them."
+        "text": "And having risen thence, he doth come to the coasts of Judea, through the other side of the Jordan, and again do multitudes come together unto him, and, as he had been accustomed, again he was teaching them.",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 19:1–12" } }
       }
     ]
   },
@@ -3314,7 +3487,8 @@
     "verse": 13,
     "content": {
       "paragraph": true,
-      "text": "And they were bringing to him children, that he might touch them, and the disciples were rebuking those bringing them,"
+      "text": "And they were bringing to him children, that he might touch them, and the disciples were rebuking those bringing them,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 19:13–15" } }
     }
   },
   {
@@ -3354,7 +3528,8 @@
     "verse": 17,
     "content": {
       "paragraph": true,
-      "text": "And as he is going forth into the way, one having run and having kneeled to him, was questioning him, “Good teacher, what may I do, that life age-during I may inherit?”"
+      "text": "And as he is going forth into the way, one having run and having kneeled to him, was questioning him, “Good teacher, what may I do, that life age-during I may inherit?”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 19:16–26" } }
     }
   },
   {
@@ -3461,7 +3636,8 @@
     "verse": 28,
     "content": {
       "paragraph": true,
-      "text": "And Peter began to say to him, “Lo, we left all, and we followed thee.”"
+      "text": "And Peter began to say to him, “Lo, we left all, and we followed thee.”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 19:27–30" } }
     }
   },
   {
@@ -3502,7 +3678,11 @@
       { "heading": "On the Way to Jerusalem" },
       {
         "paragraph": true,
-        "text": "And they were in the way going up to Jerusalem, and Jesus was going before them, and they were amazed, and following they were afraid. And having again taken the twelve, he began to tell them the things about to happen to him,"
+        "text": "And they were in the way going up to Jerusalem, and Jesus was going before them, and they were amazed, and following they were afraid. And having again taken the twelve, he began to tell them the things about to happen to him,",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 20:17–19" }
+        }
       }
     ]
   },
@@ -3535,7 +3715,11 @@
       { "heading": "The Sons of Zebedee" },
       {
         "paragraph": true,
-        "text": "And there come near to him James and John, the sons of Zebedee, saying, “Teacher, we wish that whatever we may ask for ourselves, thou mayest do for us;”"
+        "text": "And there come near to him James and John, the sons of Zebedee, saying, “Teacher, we wish that whatever we may ask for ourselves, thou mayest do for us;”",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 20:20–28" }
+        }
       }
     ]
   },
@@ -3640,7 +3824,11 @@
       { "heading": "Jericho" },
       {
         "paragraph": true,
-        "text": "And they come to Jericho, and as he is going forth from Jericho, with his disciples and a great multitude, a son of Timaeus—Bartimaeus the blind—was sitting beside the way begging,"
+        "text": "And they come to Jericho, and as he is going forth from Jericho, with his disciples and a great multitude, a son of Timaeus—Bartimaeus the blind—was sitting beside the way begging,",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 20:29–34" }
+        }
       }
     ]
   },
@@ -3697,7 +3885,8 @@
       { "heading": "Sunday" },
       {
         "paragraph": true,
-        "text": "And when they come nigh to Jerusalem, to Bethphage, and Bethany, unto the mount of the Olives, he sendeth forth two of his disciples,"
+        "text": "And when they come nigh to Jerusalem, to Bethphage, and Bethany, unto the mount of the Olives, he sendeth forth two of his disciples,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 21:1–11" } }
       }
     ]
   },
@@ -3774,7 +3963,10 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 11,
-    "content": "And Jesus entered into Jerusalem, and into the temple, and having looked round on all things, it being now evening, he went forth to Bethany with the twelve."
+    "content": {
+      "text": "And Jesus entered into Jerusalem, and into the temple, and having looked round on all things, it being now evening, he went forth to Bethany with the twelve.",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 21:17–22" } }
+    }
   },
   {
     "book": "MRK",
@@ -3813,7 +4005,8 @@
     "verse": 15,
     "content": {
       "paragraph": true,
-      "text": "And they come to Jerusalem, and Jesus having gone into the temple, began to cast forth those selling and buying in the temple, and the tables of the money-changers and the seats of those selling the doves, he overthrew,"
+      "text": "And they come to Jerusalem, and Jesus having gone into the temple, began to cast forth those selling and buying in the temple, and the tables of the money-changers and the seats of those selling the doves, he overthrew,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 21:12–16" } }
     }
   },
   {
@@ -3844,7 +4037,10 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 19,
-    "content": "and when evening came, he was going forth without the city."
+    "content": {
+      "text": "and when evening came, he was going forth without the city.",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 21:17–22" } }
+    }
   },
   {
     "book": "MRK",
@@ -3888,7 +4084,8 @@
     "verse": 24,
     "content": {
       "text": "Because of this I say to you, all whatever—praying—ye do ask, believe that ye receive, and it shall be to you.",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 6:14, 15" } }
     }
   },
   {
@@ -3916,7 +4113,8 @@
     "verse": 27,
     "content": {
       "paragraph": true,
-      "text": "And they come again to Jerusalem, and in the temple, as he is walking, there come unto him the chief priests, and the scribes, and the elders,"
+      "text": "And they come again to Jerusalem, and in the temple, as he is walking, there come unto him the chief priests, and the scribes, and the elders,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 21:23–27" } }
     }
   },
   {
@@ -3981,7 +4179,11 @@
       },
       {
         "text": "“A man planted a vineyard, and put a hedge around, and digged an under-wine-vat, and built a tower, and gave it out to husbandmen, and went abroad;",
-        "marks": ["woc"]
+        "marks": ["woc"],
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 21:33–46" }
+        }
       }
     ]
   },
@@ -4104,7 +4306,8 @@
     "verse": 13,
     "content": {
       "paragraph": true,
-      "text": "and they send unto him certain of the Pharisees and of the Herodians, that they may ensnare him in discourse,"
+      "text": "and they send unto him certain of the Pharisees and of the Herodians, that they may ensnare him in discourse,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 22:15–22" } }
     }
   },
   {
@@ -4156,7 +4359,8 @@
     "verse": 18,
     "content": {
       "paragraph": true,
-      "text": "And the Sadducees come unto him, who say there is not a rising again, and they questioned him, saying,"
+      "text": "And the Sadducees come unto him, who say there is not a rising again, and they questioned him, saying,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 22:23–33" } }
     }
   },
   {
@@ -4241,7 +4445,8 @@
     "verse": 28,
     "content": {
       "paragraph": true,
-      "text": "And one of the scribes having come near, having heard them disputing, knowing that he answered them well, questioned him, “Which is the first command of all?”"
+      "text": "And one of the scribes having come near, having heard them disputing, knowing that he answered them well, questioned him, “Which is the first command of all?”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 22:34–40" } }
     }
   },
   {
@@ -4319,7 +4524,11 @@
       },
       {
         "text": "“How say the scribes that the Christ is son of David?",
-        "marks": ["woc"]
+        "marks": ["woc"],
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 22:41–46" }
+        }
       }
     ]
   },
@@ -4357,7 +4566,8 @@
       },
       {
         "text": "“Beware of the scribes, who will in long robes to walk, and love salutations in the market-places,",
-        "marks": ["woc"]
+        "marks": ["woc"],
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 23:1–39" } }
       }
     ]
   },
@@ -4385,7 +4595,8 @@
     "verse": 41,
     "content": {
       "paragraph": true,
-      "text": "And Jesus having sat down over-against the treasury, was beholding how the multitude do put brass into the treasury, and many rich were putting in much,"
+      "text": "And Jesus having sat down over-against the treasury, was beholding how the multitude do put brass into the treasury, and many rich were putting in much,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Luke 21:1–4" } }
     }
   },
   {
@@ -4421,7 +4632,8 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And as he is going forth out of the temple, one of his disciples saith to him, “Teacher, see! what stones! and what buildings!”"
+      "text": "And as he is going forth out of the temple, one of his disciples saith to him, “Teacher, see! what stones! and what buildings!”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 24:1–51" } }
     }
   },
   {
@@ -4787,7 +4999,8 @@
       { "heading": "Wednesday" },
       {
         "paragraph": true,
-        "text": "And the passover and the unleavened food were after two days, and the chief priests and the scribes were seeking how, by guile, having taken hold of him, they might kill him;"
+        "text": "And the passover and the unleavened food were after two days, and the chief priests and the scribes were seeking how, by guile, having taken hold of him, they might kill him;",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 26:1–5" } }
       }
     ]
   },
@@ -4803,7 +5016,8 @@
     "verse": 3,
     "content": {
       "paragraph": true,
-      "text": "And he, being in Bethany, in the house of Simon the leper, at his reclining (at meat), there came a woman having an alabaster box of ointment, of spikenard, very precious, and having broken the alabaster box, did pour on his head;"
+      "text": "And he, being in Bethany, in the house of Simon the leper, at his reclining (at meat), there came a woman having an alabaster box of ointment, of spikenard, very precious, and having broken the alabaster box, did pour on his head;",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 26:6–13" } }
     }
   },
   {
@@ -4863,7 +5077,8 @@
     "verse": 10,
     "content": {
       "paragraph": true,
-      "text": "And Judas the Iscariot, one of the twelve, went away unto the chief priests that he might deliver him up to them,"
+      "text": "And Judas the Iscariot, one of the twelve, went away unto the chief priests that he might deliver him up to them,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 26:14–16" } }
     }
   },
   {
@@ -4883,7 +5098,13 @@
         "text": "And the first day of the unleavened food, when they were killing the passover, his disciples say to him, “Where wilt thou, "
       },
       { "text": "that,", "marks": ["i"] },
-      " having gone, we may prepare, that thou mayest eat the passover?”"
+      {
+        "text": " having gone, we may prepare, that thou mayest eat the passover?”",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 26:17–29" }
+        }
+      }
     ]
   },
   {
@@ -5015,7 +5236,8 @@
     "verse": 26,
     "content": {
       "paragraph": true,
-      "text": "And having sung an hymn, they went forth to the mount of the Olives,"
+      "text": "And having sung an hymn, they went forth to the mount of the Olives,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 26:30–35" } }
     }
   },
   {
@@ -5074,7 +5296,14 @@
       },
       { "text": "is", "marks": ["i"] },
       " Gethsemane, and he saith to his disciples, ",
-      { "text": "“Sit ye here till I may pray;”", "marks": ["woc"] }
+      {
+        "text": "“Sit ye here till I may pray;”",
+        "marks": ["woc"],
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 26:36–46" }
+        }
+      }
     ]
   },
   {
@@ -5173,7 +5402,8 @@
     "verse": 43,
     "content": {
       "paragraph": true,
-      "text": "And immediately—while he is yet speaking—cometh near Judas, one of the twelve, and with him a great multitude, with swords and sticks, from the chief priests, and the scribes, and the elders;"
+      "text": "And immediately—while he is yet speaking—cometh near Judas, one of the twelve, and with him a great multitude, with swords and sticks, from the chief priests, and the scribes, and the elders;",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 26:47–56" } }
     }
   },
   {
@@ -5257,7 +5487,11 @@
       { "heading": "Friday" },
       {
         "paragraph": true,
-        "text": "And they led away Jesus unto the chief priest, and come together to him do all the chief priests, and the elders, and the scribes;"
+        "text": "And they led away Jesus unto the chief priest, and come together to him do all the chief priests, and the elders, and the scribes;",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 26:57, 58, 69–75" }
+        }
       }
     ]
   },
@@ -5273,7 +5507,8 @@
     "verse": 55,
     "content": {
       "paragraph": true,
-      "text": "And the chief priests and all the sanhedrim were seeking against Jesus testimony—to put him to death, and they were not finding,"
+      "text": "And the chief priests and all the sanhedrim were seeking against Jesus testimony—to put him to death, and they were not finding,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 26:59–68" } }
     }
   },
   {
@@ -5404,7 +5639,13 @@
         "text": "And immediately, in the morning, the chief priests having made a consultation, with the elders, and scribes, and the whole sanhedrim, having bound Jesus, did lead away, and delivered "
       },
       { "text": "him", "marks": ["i"] },
-      " to Pilate;"
+      {
+        "text": " to Pilate;",
+        "foot": {
+          "type": "xrf",
+          "content": { "bibleLink": "Matthew 27:1, 2, 11–14" }
+        }
+      }
     ]
   },
   {
@@ -5445,7 +5686,8 @@
     "verse": 6,
     "content": {
       "paragraph": true,
-      "text": "And at every feast he was releasing to them one prisoner, whomsoever they were asking;"
+      "text": "And at every feast he was releasing to them one prisoner, whomsoever they were asking;",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 27:15–26" } }
     }
   },
   {
@@ -5525,7 +5767,10 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 16,
-    "content": "And the soldiers led him away into the hall, which is Praetorium, and call together the whole band,"
+    "content": {
+      "text": "And the soldiers led him away into the hall, which is Praetorium, and call together the whole band,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 27:27–31" } }
+    }
   },
   {
     "book": "MRK",
@@ -5565,7 +5810,8 @@
     "verse": 21,
     "content": {
       "paragraph": true,
-      "text": "And they impress a certain one passing by—Simon, a Cyrenian, coming from the field, the father of Alexander and Rufus—that he may bear his cross,"
+      "text": "And they impress a certain one passing by—Simon, a Cyrenian, coming from the field, the father of Alexander and Rufus—that he may bear his cross,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 27:32–38" } }
     }
   },
   {
@@ -5619,7 +5865,8 @@
     "verse": 29,
     "content": {
       "paragraph": true,
-      "text": "And those passing by were speaking evil of him, shaking their heads, and saying, “Ah, the thrower down of the sanctuary, and in three days the builder!"
+      "text": "And those passing by were speaking evil of him, shaking their heads, and saying, “Ah, the thrower down of the sanctuary, and in three days the builder!",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 27:39–44" } }
     }
   },
   {
@@ -5646,7 +5893,8 @@
     "verse": 33,
     "content": {
       "paragraph": true,
-      "text": "And the sixth hour having come, darkness came over the whole land till the ninth hour,"
+      "text": "And the sixth hour having come, darkness came over the whole land till the ninth hour,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 27:45–53" } }
     }
   },
   {
@@ -5693,7 +5941,8 @@
     "verse": 39,
     "content": {
       "paragraph": true,
-      "text": "and the centurion who was standing over-against him, having seen that, having so cried out, he yielded the spirit, said, “Truly this man was Son of God.”"
+      "text": "and the centurion who was standing over-against him, having seen that, having so cried out, he yielded the spirit, said, “Truly this man was Son of God.”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 27:54–56" } }
     }
   },
   {
@@ -5714,7 +5963,8 @@
     "verse": 42,
     "content": {
       "paragraph": true,
-      "text": "And now evening having come, seeing it was the preparation, that is, the foresabbath,"
+      "text": "And now evening having come, seeing it was the preparation, that is, the foresabbath,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 27:57–61" } }
     }
   },
   {
@@ -5759,7 +6009,8 @@
       { "heading": "Sunday" },
       {
         "paragraph": true,
-        "text": "And the sabbath having past, Mary the Magdalene, and Mary of James, and Salome, bought spices, that having come, they may anoint him,"
+        "text": "And the sabbath having past, Mary the Magdalene, and Mary of James, and Salome, bought spices, that having come, they may anoint him,",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 28:1–10" } }
       }
     ]
   },
@@ -5832,7 +6083,8 @@
     "verse": 12,
     "content": {
       "paragraph": true,
-      "text": "And after these things, to two of them, as they are going into a field, walking, he was manifested in another form,"
+      "text": "And after these things, to two of them, as they are going into a field, walking, he was manifested in another form,",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Luke 24:13–35" } }
     }
   },
   {
@@ -5847,7 +6099,15 @@
     "verse": 14,
     "content": {
       "paragraph": true,
-      "text": "Afterwards, as they are reclining (at meat), he was manifested to the eleven, and did reproach their unbelief and stiffness of heart, because they believed not those having seen him being raised;"
+      "text": "Afterwards, as they are reclining (at meat), he was manifested to the eleven, and did reproach their unbelief and stiffness of heart, because they believed not those having seen him being raised;",
+      "foot": {
+        "type": "xrf",
+        "content": [
+          { "bibleLink": "Luke 24:36–49" },
+          "; ",
+          { "bibleLink": "John 20:19–29" }
+        ]
+      }
     }
   },
   {
@@ -5895,7 +6155,18 @@
     "verse": 19,
     "content": {
       "paragraph": true,
-      "text": "The Lord, then, indeed, after speaking to them, was received up to the heaven, and sat on the right hand of God;"
+      "text": "The Lord, then, indeed, after speaking to them, was received up to the heaven, and sat on the right hand of God;",
+      "foot": {
+        "type": "xrf",
+        "content": [
+          "Young’s Commentary prints the parallel as ",
+          { "text": "Luke 24:50–58", "marks": ["i"] },
+          ", but Luke’s Gospel ends at 24:53, so the reference is almost certainly meant as ",
+          { "bibleLink": "Luke 24:50–53" },
+          ", used below.",
+          { "bibleLink": "Luke 24:50–53" }
+        ]
+      }
     }
   },
   {

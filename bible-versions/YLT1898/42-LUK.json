@@ -5,14 +5,215 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Seeing that many did take in hand to set in order a narration of the matters that have been fully assured among us,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "THE GOSPEL OF LUKE was probably written about A.D. 60, by one whom all antiquity attests to have been “the beloved physician” and companion of Paul, referred to in ",
+                  { "bibleLink": "Colossians 4:14", "content": "Col. 4:14" },
+                  "; ",
+                  { "bibleLink": "2 Timothy 4:11", "content": "2 Tim. 4:11" },
+                  "; ",
+                  { "bibleLink": "Philemon 1:24", "content": "Philemon 24" },
+                  ". He was probably a Gentile (",
+                  {
+                    "bibleLink": "Colossians 4:11–14",
+                    "content": "Col. 4:11–14"
+                  },
+                  "), and may have been one of the 70 disciples; he writes to a Gentile, and for Gentiles, and, in the purest Greek of the New Testament, views the Saviour as THE SON OF MAN, “the glad tidings of great joy that shall be to all people.” He is quoted by Justin Martyr, A.D. 140."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "References to the Old Testament are found in ",
+                  { "bibleLink": "Luke 1:17", "content": "1:17" },
+                  "; ",
+                  { "bibleLink": "Luke 2:23, 24", "content": "2:23, 24" },
+                  "; ",
+                  { "bibleLink": "Luke 3:4, 5, 6", "content": "3:4, 5, 6" },
+                  "; ",
+                  {
+                    "bibleLink": "Luke 4:4, 8, 10, 11, 18",
+                    "content": "4:4, 8, 10, 11, 18"
+                  },
+                  "; ",
+                  { "bibleLink": "Luke 7:27", "content": "7:27" },
+                  "; ",
+                  { "bibleLink": "Luke 8:10", "content": "8:10" },
+                  "; ",
+                  { "bibleLink": "Luke 10:27", "content": "10:27" },
+                  "; ",
+                  { "bibleLink": "Luke 18:20", "content": "18:20" },
+                  "; ",
+                  { "bibleLink": "Luke 19:46", "content": "19:46" },
+                  "; ",
+                  {
+                    "bibleLink": "Luke 20:28, 42, 43",
+                    "content": "20:28, 42, 43"
+                  },
+                  "; ",
+                  { "bibleLink": "Luke 22:37", "content": "22:37" },
+                  "; ",
+                  { "bibleLink": "Luke 23:46", "content": "23:46" },
+                  ", &c."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "Incidents not found in any other Gospel are mentioned in ",
+                  { "bibleLink": "Luke 1:1–80", "content": "1:1–80" },
+                  "; ",
+                  { "bibleLink": "Luke 2:8–38, 40", "content": "2:8–38, 40" },
+                  "–52; ",
+                  { "bibleLink": "Luke 4:16–30", "content": "4:16–30" },
+                  "; ",
+                  { "bibleLink": "Luke 7:11–17, 36", "content": "7:11–17, 36" },
+                  "–50; ",
+                  { "bibleLink": "Luke 8:1–3", "content": "8:1–3" },
+                  "; ",
+                  { "bibleLink": "Luke 9:52–56", "content": "9:52–56" },
+                  "; ",
+                  { "bibleLink": "Luke 10:1–42", "content": "10:1–42" },
+                  "; ",
+                  { "bibleLink": "Luke 12:32–59", "content": "12:32–59" },
+                  "; ",
+                  { "bibleLink": "Luke 13:1–17, 22", "content": "13:1–17, 22" },
+                  "–33; ",
+                  { "bibleLink": "Luke 14:1–14", "content": "14:1–14" },
+                  "; 15; 16; ",
+                  { "bibleLink": "Luke 17:11–37", "content": "17:11–37" },
+                  "; ",
+                  { "bibleLink": "Luke 18:1–14", "content": "18:1–14" },
+                  "; ",
+                  { "bibleLink": "Luke 19:1–10", "content": "19:1–10" },
+                  "; ",
+                  { "bibleLink": "Luke 22:24–30", "content": "22:24–30" },
+                  "; ",
+                  { "bibleLink": "Luke 23:4–11", "content": "23:4–11" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "text": "The work may be divided into seven parts, viz:—",
+                "break": true
+              },
+              {
+                "content": [
+                  "I. History of the birth and early history of John and Jesus, ",
+                  { "bibleLink": "Luke 1", "content": "ch. i" },
+                  ". ii."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "II. Ministry of John and commencement of Jesus’ work, ",
+                  { "bibleLink": "Luke 3", "content": "ch. iii" },
+                  "–",
+                  { "bibleLink": "Luke 4:1–13", "content": "iv. 13" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "III. Christ in Galilee till the Call of Levi, ",
+                  { "bibleLink": "Luke 4:14–44", "content": "ch. iv. 14" },
+                  "–",
+                  { "bibleLink": "Luke 5:1–39", "content": "v. 39" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "IV. Choosing of 12 Apostles, till their return from first Mission, ",
+                  { "bibleLink": "Luke 6:1–49", "content": "ch. vi. 1" },
+                  "–",
+                  { "bibleLink": "Luke 9:1–17", "content": "ix. 17" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "V. Foretelling of his own death till his entrance into Jerusalem, ",
+                  { "bibleLink": "Luke 9:18–62", "content": "ch. ix. 18" },
+                  "–",
+                  { "bibleLink": "Luke 19:1–28", "content": "xix. 28" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "VI. Entry into Jerusalem till his burial, ",
+                  { "bibleLink": "Luke 19:29–48", "content": "ch. xix. 29" },
+                  "–",
+                  { "bibleLink": "Luke 23:1–56", "content": "xxiii. 56" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "VII. His resurrection and ascension, ",
+                  { "bibleLink": "Luke 24:1–53", "content": "ch. xxiv. 1–53" },
+                  "."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into seven parts; ",
+              { "bibleLink": "Luke 1:1–4", "content": "v. 1–4" },
+              " preface; ",
+              { "bibleLink": "Luke 1:5–25", "content": "v. 5–25" },
+              " Gabriel’s message to Zechariah and its realization; ",
+              { "bibleLink": "Luke 1:26–38", "content": "v. 26–38" },
+              " his message to the Virgin Mary; ",
+              { "bibleLink": "Luke 1:39–45", "content": "v. 39–45" },
+              " her visit to Elizabeth; ",
+              { "bibleLink": "Luke 1:46–56", "content": "v. 46–56" },
+              " Mary’s song; ",
+              { "bibleLink": "Luke 1:57–66", "content": "v. 57–66" },
+              " birth, and naming of John; ",
+              { "bibleLink": "Luke 1:67–80", "content": "v. 67–80" },
+              " Zechariah’s song."
+            ]
+          }
+        },
+        "Seeing that many did take in hand to set in order a narration of the matters that have been fully assured among us,"
+      ]
     }
   },
   {
     "book": "LUK",
     "chapter": 1,
     "verse": 2,
-    "content": "as they did deliver to us, who from the beginning became eye-witnesses, and officers of the Word,—"
+    "content": {
+      "text": "as they did deliver to us, who from the beginning became eye-witnesses, and officers of the Word,—",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "gave over to us, who from the beginning became themselves beholders, and under-rowers, of the Word (i.e. Christ)...",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -24,7 +225,20 @@
     "book": "LUK",
     "chapter": 1,
     "verse": 4,
-    "content": "that thou mayest know the certainty of the things wherein thou wast instructed."
+    "content": [
+      "that thou mayest know the certainty of the things wherein thou wast ",
+      {
+        "text": "instructed",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "sounded thoroughly", "marks": ["i"] }
+          ]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "LUK",
@@ -42,13 +256,36 @@
     "book": "LUK",
     "chapter": 1,
     "verse": 6,
-    "content": "and they were both righteous before God, going on in all the commands and righteousnesses of the Lord blameless,"
+    "content": [
+      "and they were both ",
+      {
+        "text": "righteous",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "just", "marks": ["i"] }]
+        }
+      },
+      " before God, going on in all the commands and righteousnesses of the Lord blameless,"
+    ]
   },
   {
     "book": "LUK",
     "chapter": 1,
     "verse": 7,
-    "content": "and they had no child, because that Elisabeth was barren, and both were advanced in their days."
+    "content": [
+      "and they had no child, because that Elisabeth was barren, and both were ",
+      {
+        "text": "advanced",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "gone forward or advanced", "marks": ["i"] }
+          ]
+        }
+      },
+      " in their days."
+    ]
   },
   {
     "book": "LUK",
@@ -63,13 +300,35 @@
     "book": "LUK",
     "chapter": 1,
     "verse": 9,
-    "content": "according to the custom of the priesthood, his lot was to make perfume, having gone into the sanctuary of the Lord,"
+    "content": [
+      "according to the custom of the priesthood, his lot was to make perfume, having gone into the ",
+      {
+        "text": "sanctuary",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "habitation", "marks": ["i"] }]
+        }
+      },
+      " of the Lord,"
+    ]
   },
   {
     "book": "LUK",
     "chapter": 1,
     "verse": 10,
-    "content": "and all the multitude of the people were praying without, at the hour of the perfume."
+    "content": {
+      "text": "and all the multitude of the people were praying without, at the hour of the perfume.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "fulness...pouring forth before (God)...of the perfume",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -126,7 +385,21 @@
     "book": "LUK",
     "chapter": 1,
     "verse": 19,
-    "content": "And the messenger answering said to him, “I am Gabriel, who have been standing near before God, and I was sent to speak unto thee, and to proclaim these good news to thee,"
+    "content": [
+      "And the messenger answering said to him, “I am ",
+      {
+        "text": "Gabriel",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "“man (",
+            { "text": "or", "marks": ["i"] },
+            " power) of God”"
+          ]
+        }
+      },
+      ", who have been standing near before God, and I was sent to speak unto thee, and to proclaim these good news to thee,"
+    ]
   },
   {
     "book": "LUK",
@@ -140,14 +413,42 @@
     "verse": 21,
     "content": {
       "paragraph": true,
-      "text": "And the people were waiting for Zacharias, and wondering at his tarrying in the sanctuary,"
+      "content": [
+        "And the people were waiting for Zacharias, and wondering at his ",
+        {
+          "text": "tarrying in the sanctuary",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "...occupying time in the habitation (of God)",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ","
+      ]
     }
   },
   {
     "book": "LUK",
     "chapter": 1,
     "verse": 22,
-    "content": "and having come out, he was not able to speak to them, and they perceived that a vision he had seen in the sanctuary, and he was beckoning to them, and did remain dumb."
+    "content": {
+      "text": "and having come out, he was not able to speak to them, and they perceived that a vision he had seen in the sanctuary, and he was beckoning to them, and did remain dumb.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "knew fully (or by it) that,...habitation, and he was nodding fully to them, and remained entirely dumb",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -193,7 +494,15 @@
     "chapter": 1,
     "verse": 27,
     "content": [
-      "to a virgin, betrothed to a man, whose name ",
+      "to a ",
+      {
+        "text": "virgin",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "one put beyond", "marks": ["i"] }]
+        }
+      },
+      ", betrothed to a man, whose name ",
       { "text": "is", "marks": ["i"] },
       " Joseph, of the house of David, and the name of the virgin ",
       { "text": "is", "marks": ["i"] },
@@ -222,7 +531,17 @@
     "book": "LUK",
     "chapter": 1,
     "verse": 30,
-    "content": "And the messenger said to her, “Fear not, Mary, for thou hast found favour with God;"
+    "content": [
+      "And the messenger said to her, “Fear not, ",
+      {
+        "text": "Mary",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "Miriam", "marks": ["i"] }]
+        }
+      },
+      ", for thou hast found favour with God;"
+    ]
   },
   {
     "book": "LUK",
@@ -258,13 +577,36 @@
     "book": "LUK",
     "chapter": 1,
     "verse": 36,
-    "content": "and lo, Elisabeth, thy kinswoman, she also hath conceived a son in her old age, and this is the sixth month to her who was called barren;"
+    "content": [
+      "and lo, Elisabeth, thy ",
+      {
+        "text": "kinswoman",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "one of the same race or parentage", "marks": ["i"] }
+          ]
+        }
+      },
+      ", she also hath conceived a son in her old age, and this is the sixth month to her who was called barren;"
+    ]
   },
   {
     "book": "LUK",
     "chapter": 1,
     "verse": 37,
-    "content": "because nothing shall be impossible with God.”"
+    "content": [
+      "because nothing shall be impossible ",
+      {
+        "text": "with God",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "along-side of God", "marks": ["i"] }]
+        }
+      },
+      ".”"
+    ]
   },
   {
     "book": "LUK",
@@ -285,13 +627,33 @@
     "book": "LUK",
     "chapter": 1,
     "verse": 40,
-    "content": "and entered into the house of Zacharias, and saluted Elisabeth."
+    "content": [
+      "and entered into the house of Zacharias, and ",
+      {
+        "text": "saluted",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "drew together...", "marks": ["i"] }]
+        }
+      },
+      " Elisabeth."
+    ]
   },
   {
     "book": "LUK",
     "chapter": 1,
     "verse": 41,
-    "content": "And it came to pass, when Elisabeth heard the salutation of Mary, the babe did leap in her womb; and Elisabeth was filled with the Holy Spirit,"
+    "content": [
+      "And it came to pass, when Elisabeth heard the salutation of Mary, the ",
+      {
+        "text": "babe",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "nourished-life", "marks": ["i"] }]
+        }
+      },
+      " did leap in her womb; and Elisabeth was filled with the Holy Spirit,"
+    ]
   },
   {
     "book": "LUK",
@@ -339,7 +701,17 @@
       { "heading": "The Magnificat" },
       {
         "paragraph": true,
-        "text": "And Mary said, “My soul doth magnify the Lord,",
+        "content": [
+          "And Mary said, “My ",
+          {
+            "text": "soul",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "breathing", "marks": ["i"] }]
+            }
+          },
+          " doth magnify the Lord,"
+        ],
         "break": true
       }
     ]
@@ -349,7 +721,23 @@
     "chapter": 1,
     "verse": 47,
     "content": {
-      "text": "And my spirit was glad on God my Saviour,",
+      "content": [
+        "And my spirit ",
+        {
+          "text": "was glad on God my Saviour",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "was leaping-for-joy upon (the) God my saviour",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ","
+      ],
       "break": true
     }
   },
@@ -408,7 +796,17 @@
     "chapter": 1,
     "verse": 53,
     "content": {
-      "text": "The hungry He did fill with good, And the rich He sent away empty,",
+      "content": [
+        "The hungry He did ",
+        {
+          "text": "fill",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "he filled fully", "marks": ["i"] }]
+          }
+        },
+        " with good, And the rich He sent away empty,"
+      ],
       "break": true
     }
   },
@@ -510,7 +908,20 @@
       { "heading": "The Benedictus" },
       {
         "paragraph": true,
-        "text": "And Zacharias his father was filled with the Holy Spirit, and did prophesy, saying,",
+        "content": [
+          "And Zacharias his father was filled with the Holy Spirit, and ",
+          {
+            "text": "did prophesy",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "...prophesied (or spake openly)...", "marks": ["i"] }
+              ]
+            }
+          },
+          ", saying,"
+        ],
         "break": true
       }
     ]
@@ -642,7 +1053,31 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And it came to pass in those days, there went forth a decree from Caesar Augustus, that all the world be enrolled—"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter II. may be divided into seven parts; ",
+              { "bibleLink": "Luke 2:1–7", "content": "v. 1–7" },
+              " cause of Jesus being born in Beth-lehem; ",
+              { "bibleLink": "Luke 2:8–14", "content": "v. 8–14" },
+              " revealed to shepherds; ",
+              { "bibleLink": "Luke 2:15–20", "content": "v. 15–20" },
+              " their joy at it; ",
+              { "bibleLink": "Luke 2:21–24", "content": "v. 21–24" },
+              " his circumcision and presentation at the temple; ",
+              { "bibleLink": "Luke 2:25–35", "content": "v. 25–35" },
+              " Simeon’s thanksgiving and prophecy; ",
+              { "bibleLink": "Luke 2:36–39", "content": "v. 36–39" },
+              " Anna’s thanks and work; ",
+              { "bibleLink": "Luke 2:40–52", "content": "v. 40–52" },
+              " Jesus with the doctors in the temple."
+            ]
+          }
+        },
+        "And it came to pass in those days, there went forth a decree from Caesar Augustus, that all the world be enrolled—"
+      ]
     }
   },
   {
@@ -661,7 +1096,20 @@
     "book": "LUK",
     "chapter": 2,
     "verse": 4,
-    "content": "and Joseph also went up from Galilee, out of the city of Nazareth, to Judea, to the city of David, that is called Bethlehem, because of his being of the house and family of David,"
+    "content": [
+      "and Joseph also went up from Galilee, out of the city of Nazareth, to Judea, to the city of David, that is called Bethlehem, because of his being of the house and ",
+      {
+        "text": "family",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "family, or paternal descent", "marks": ["i"] }
+          ]
+        }
+      },
+      " of David,"
+    ]
   },
   {
     "book": "LUK",
@@ -758,7 +1206,19 @@
     "book": "LUK",
     "chapter": 2,
     "verse": 17,
-    "content": "and having seen, they made known abroad concerning the saying spoken to them concerning the child."
+    "content": {
+      "text": "and having seen, they made known abroad concerning the saying spoken to them concerning the child.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Or, ",
+          {
+            "text": "made (it) thoroughly known about the saying that was spoken to them concerning this boy or lad",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -840,7 +1300,14 @@
     "verse": 28,
     "content": {
       "text": "then he took him in his arms, and blessed God, and he said,",
-      "break": true
+      "break": true,
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Or, ",
+          { "text": "received...spake well of God", "marks": ["i"] }
+        ]
+      }
     }
   },
   {
@@ -923,7 +1390,15 @@
     "content": [
       "and she ",
       { "text": "is", "marks": ["i"] },
-      " a widow of about eighty-four years, who did depart not from the temple, with fasts and supplications serving, night and day,"
+      " a ",
+      {
+        "text": "widow",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "deprived", "marks": ["i"] }]
+        }
+      },
+      " of about eighty-four years, who did depart not from the temple, with fasts and supplications serving, night and day,"
     ]
   },
   {
@@ -975,7 +1450,17 @@
     "book": "LUK",
     "chapter": 2,
     "verse": 44,
-    "content": "and, having supposed him to be in the company, they went a day’s journey, and were seeking him among the kindred and among the acquaintances,"
+    "content": [
+      "and, having supposed him to be in the ",
+      {
+        "text": "company",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "journeying party", "marks": ["i"] }]
+        }
+      },
+      ", they went a day’s journey, and were seeking him among the kindred and among the acquaintances,"
+    ]
   },
   {
     "book": "LUK",
@@ -1022,7 +1507,17 @@
     "book": "LUK",
     "chapter": 2,
     "verse": 50,
-    "content": "and they did not understand the saying that he spake to them,"
+    "content": [
+      "and they did not ",
+      {
+        "text": "understand",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "bring together", "marks": ["i"] }]
+        }
+      },
+      " the saying that he spake to them,"
+    ]
   },
   {
     "book": "LUK",
@@ -1034,7 +1529,19 @@
     "book": "LUK",
     "chapter": 2,
     "verse": 52,
-    "content": "and Jesus was advancing in wisdom, and in stature, and in favour with God and men."
+    "content": {
+      "text": "and Jesus was advancing in wisdom, and in stature, and in favour with God and men.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "was striking forward in wisdom and stature (or age, lit. greatness)",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -1044,7 +1551,29 @@
       { "heading": "His Baptism and Temptation" },
       {
         "paragraph": true,
-        "text": "And in the fifteenth year of the government of Tiberius Caesar—Pontius Pilate being governor of Judea, and Herod tetrarch of Galilee, and Philip his brother, tetrarch of Ituraea and of the region of Trachonitis, and Lysanias tetrarch of Abilene—"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter III. may be divided into six parts; ",
+                { "bibleLink": "Luke 3:1–6", "content": "v. 1–6" },
+                " John’s baptism; ",
+                { "bibleLink": "Luke 3:7–15", "content": "v. 7–15" },
+                " his warnings; ",
+                { "bibleLink": "Luke 3:16–18", "content": "v. 16–18" },
+                " his testimony to Christ; ",
+                { "bibleLink": "Luke 3:19, 20", "content": "v. 19, 20" },
+                " his imprisonment; ",
+                { "bibleLink": "Luke 3:21, 22", "content": "v. 21, 22" },
+                " baptism of Jesus; ",
+                { "bibleLink": "Luke 3:23–38", "content": "v. 23–38" },
+                " his birth-roll through (his mother’s father) Heli."
+              ]
+            }
+          },
+          "And in the fifteenth year of the government of Tiberius Caesar—Pontius Pilate being governor of Judea, and Herod tetrarch of Galilee, and Philip his brother, tetrarch of Ituraea and of the region of Trachonitis, and Lysanias tetrarch of Abilene—"
+        ]
       }
     ]
   },
@@ -1077,7 +1606,20 @@
     "chapter": 3,
     "verse": 5,
     "content": {
-      "text": "every valley shall be filled, and every mountain and hill shall be made low, and the crooked shall become straightness, and the rough become smooth ways;",
+      "content": [
+        "every ",
+        {
+          "text": "valley",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "cleft place or gulf", "marks": ["i"] }
+            ]
+          }
+        },
+        " shall be filled, and every mountain and hill shall be made low, and the crooked shall become straightness, and the rough become smooth ways;"
+      ],
       "break": true
     }
   },
@@ -1117,20 +1659,57 @@
     "verse": 10,
     "content": {
       "paragraph": true,
-      "text": "And the multitudes were questioning him, saying, “What, then, shall we do?”"
+      "text": "And the multitudes were questioning him, saying, “What, then, shall we do?”",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "crowds asked at (or “lifted up” questions upon) him",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
     "book": "LUK",
     "chapter": 3,
     "verse": 11,
-    "content": "and he answering saith to them, “He having two coats—let him impart to him having none, and he having victuals—in like manner let him do.”"
+    "content": [
+      "and he answering saith to them, “He having two coats—let him ",
+      {
+        "text": "impart",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "give beyond", "marks": ["i"] },
+            ", i.e. out."
+          ]
+        }
+      },
+      " to him having none, and he having victuals—in like manner let him do.”"
+    ]
   },
   {
     "book": "LUK",
     "chapter": 3,
     "verse": 12,
-    "content": "And there came also tax-gatherers to be baptised, and they said unto him, “Teacher, what shall we do?”"
+    "content": [
+      "And there came also ",
+      {
+        "text": "tax-gatherers",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "custom-house officers...", "marks": ["i"] }
+          ]
+        }
+      },
+      " to be baptised, and they said unto him, “Teacher, what shall we do?”"
+    ]
   },
   {
     "book": "LUK",
@@ -1173,7 +1752,21 @@
     "book": "LUK",
     "chapter": 3,
     "verse": 18,
-    "content": "And, therefore, indeed with many other things, exhorting, he was proclaiming good news to the people,"
+    "content": [
+      "And, therefore, indeed with many other things, ",
+      {
+        "text": "exhorting",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "calling upon", "marks": ["i"] },
+            " them."
+          ]
+        }
+      },
+      ", he was proclaiming good news to the people,"
+    ]
   },
   {
     "book": "LUK",
@@ -1198,7 +1791,23 @@
       { "heading": "The Baptism of Jesus" },
       {
         "paragraph": true,
-        "text": "And it came to pass, in all the people being baptised, Jesus also being baptised, and praying, the heaven was opened,"
+        "content": [
+          "And it came to pass, in all the people being baptised, Jesus also being baptised, and ",
+          {
+            "text": "praying, the heaven was opened",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "pouring forth towards (God), the heaven was opened thoroughly",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          ","
+        ]
       }
     ]
   },
@@ -1498,7 +2107,31 @@
       { "heading": "His Temptation" },
       {
         "paragraph": true,
-        "text": "And Jesus, full of the Holy Spirit, turned back from the Jordan, and was brought in the Spirit to the wilderness,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter IV. may be divided into seven parts; ",
+                { "bibleLink": "Luke 4:1–13", "content": "v. 1–13" },
+                " Jesus tempted; ",
+                { "bibleLink": "Luke 4:14, 15", "content": "v. 14, 15" },
+                " Jesus in Galilee; ",
+                { "bibleLink": "Luke 4:16–27", "content": "v. 16–27" },
+                " Jesus in Nazareth teaching; ",
+                { "bibleLink": "Luke 4:28–30", "content": "v. 28–30" },
+                " he is rejected there; ",
+                { "bibleLink": "Luke 4:31–37", "content": "v. 31–37" },
+                " he teaches and cures a demoniac in Capernaum; ",
+                { "bibleLink": "Luke 4:38–41", "content": "v. 38–41" },
+                " cures Peter’s mother-in-law, and many others; ",
+                { "bibleLink": "Luke 4:42–44", "content": "v. 42–44" },
+                " Jesus entreated to stay, but goes on."
+              ]
+            }
+          },
+          "And Jesus, full of the Holy Spirit, turned back from the Jordan, and was brought in the Spirit to the wilderness,"
+        ]
       }
     ]
   },
@@ -1506,7 +2139,17 @@
     "book": "LUK",
     "chapter": 4,
     "verse": 2,
-    "content": "forty days being tempted by the Devil, and he did not eat anything in those days, and they having been ended, he afterward hungered,"
+    "content": [
+      "forty days being tempted by the ",
+      {
+        "text": "Devil",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "thruster through", "marks": ["i"] }]
+        }
+      },
+      ", and he did not eat anything in those days, and they having been ended, he afterward hungered,"
+    ]
   },
   {
     "book": "LUK",
@@ -1536,13 +2179,42 @@
     "book": "LUK",
     "chapter": 4,
     "verse": 6,
-    "content": "and the Devil said to him, “To thee I will give all this authority, and their glory, because to me it hath been delivered, and to whomsoever I will, I do give it;"
+    "content": [
+      "and the Devil said to him, “To thee I will give all this ",
+      {
+        "text": "authority",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "authority, lit. out-coming or out-being",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", and their glory, because to me it hath been delivered, and to whomsoever I will, I do give it;"
+    ]
   },
   {
     "book": "LUK",
     "chapter": 4,
     "verse": 7,
-    "content": "thou, then, if thou mayest bow before me—all shall be thine.”"
+    "content": [
+      "thou, then, if thou mayest ",
+      {
+        "text": "bow before me",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "mayest kiss forward (the hand) to me", "marks": ["i"] }
+          ]
+        }
+      },
+      "—all shall be thine.”"
+    ]
   },
   {
     "book": "LUK",
@@ -1621,7 +2293,21 @@
       { "heading": "His Proclamation" },
       {
         "paragraph": true,
-        "text": "And he came to Nazareth, where he hath been brought up, and he went in, according to his custom, on the sabbath-day, to the synagogue, and stood up to read;"
+        "content": [
+          "And he came to Nazareth, where he hath been brought up, and he went in, according to his custom, on the sabbath-day, to the synagogue, and stood up to ",
+          {
+            "text": "read",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "know again or know fully", "marks": ["i"] },
+                " the word of God."
+              ]
+            }
+          },
+          ";"
+        ]
       }
     ]
   },
@@ -1802,7 +2488,18 @@
     "chapter": 4,
     "verse": 35,
     "content": [
-      "And Jesus did rebuke him, saying, ",
+      "And Jesus did ",
+      {
+        "text": "rebuke",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "put a weight upon him", "marks": ["i"] }
+          ]
+        }
+      },
+      " him, saying, ",
       { "text": "“Be silenced, and come forth out of him;”", "marks": ["woc"] },
       " and the demon having cast him into the midst, came forth from him, having hurt him nought;"
     ]
@@ -1889,7 +2586,27 @@
       { "heading": "His First Disciples" },
       {
         "paragraph": true,
-        "text": "And it came to pass, in the multitude pressing on him to hear the word of God, that he was standing beside the lake of Gennesaret,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter V. may be divided into five parts; ",
+                { "bibleLink": "Luke 5:1–11", "content": "v. 1–11" },
+                " miraculous draught of fishes; ",
+                { "bibleLink": "Luke 5:12–16", "content": "v. 12–16" },
+                " cleansing of a leper; ",
+                { "bibleLink": "Luke 5:17–26", "content": "v. 17–26" },
+                " cure of a palsy; ",
+                { "bibleLink": "Luke 5:27–32", "content": "v. 27–32" },
+                " call of Levi and his entertainment; ",
+                { "bibleLink": "Luke 5:33–39", "content": "v. 33–39" },
+                " fasting and its season."
+              ]
+            }
+          },
+          "And it came to pass, in the multitude pressing on him to hear the word of God, that he was standing beside the lake of Gennesaret,"
+        ]
       }
     ]
   },
@@ -1921,13 +2638,36 @@
     "book": "LUK",
     "chapter": 5,
     "verse": 5,
-    "content": "and Simon answering said to him, “Master, through the whole night, having laboured, we have taken nothing, but at thy saying I will let down the net.”"
+    "content": [
+      "and Simon answering said to him, “",
+      {
+        "text": "Master",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "one who stands over anything", "marks": ["i"] }
+          ]
+        }
+      },
+      ", through the whole night, having laboured, we have taken nothing, but at thy saying I will let down the net.”"
+    ]
   },
   {
     "book": "LUK",
     "chapter": 5,
     "verse": 6,
-    "content": "And having done this, they enclosed a great multitude of fishes, and their net was breaking,"
+    "content": [
+      "And having done this, they enclosed a great multitude of fishes, and their net was ",
+      {
+        "text": "breaking",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "was being rent", "marks": ["i"] }]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "LUK",
@@ -1949,7 +2689,20 @@
     "book": "LUK",
     "chapter": 5,
     "verse": 9,
-    "content": "for astonishment seized him, and all those with him, at the draught of the fishes that they took,"
+    "content": {
+      "text": "for astonishment seized him, and all those with him, at the draught of the fishes that they took,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "astonishment held him round about...taken together",
+            "marks": ["i"]
+          },
+          " (or at once)."
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -2000,7 +2753,21 @@
     "chapter": 5,
     "verse": 14,
     "content": [
-      "And he charged him to tell no one, ",
+      "And he ",
+      {
+        "text": "charged",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "told him fully at the same time,...bring forward...Moses set forth",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " him to tell no one, ",
       {
         "text": "“But, having gone away, shew thyself to the priest, and bring near for thy cleansing according as Moses directed, for a testimony to them;”",
         "marks": ["woc"]
@@ -2019,7 +2786,17 @@
     "verse": 16,
     "content": {
       "paragraph": true,
-      "text": "and he was withdrawing himself in the desert places and was praying."
+      "text": "and he was withdrawing himself in the desert places and was praying.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "was giving space, secretly in the deserts, and pouring forth before (God)",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -2106,7 +2883,23 @@
       { "heading": "The Call of Levi" },
       {
         "paragraph": true,
-        "text": "And after these things he went forth, and beheld a tax-gatherer, by name Levi, sitting at the tax-office, and said to him, "
+        "content": [
+          "And after these things he went forth, and ",
+          {
+            "text": "beheld a tax-gatherer, by name Levi, sitting at the tax-office",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "viewed for himself a custom-house-officer,...sitting over the custom-house...",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          ", and said to him, "
+        ]
       },
       { "text": "“Be following me;”", "marks": ["woc"] }
     ]
@@ -2135,10 +2928,19 @@
     "verse": 31,
     "content": [
       "And Jesus answering said unto them, ",
+      { "text": "“They who are well have no need of a ", "marks": ["woc"] },
       {
-        "text": "“They who are well have no need of a physician, but they that are ill:",
-        "marks": ["woc"]
-      }
+        "text": "physician",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "a healer, but those having ills", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": ", but they that are ill:", "marks": ["woc"] }
     ]
   },
   {
@@ -2233,7 +3035,33 @@
       { "heading": "Sabbath Problems" },
       {
         "paragraph": true,
-        "text": "And it came to pass, on the second-first sabbath, as he is going through the corn fields, that his disciples were plucking the ears, and were eating, rubbing with the hands,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter VI. may be divided into eight parts; ",
+                { "bibleLink": "Luke 6:1–5", "content": "v. 1–5" },
+                " work of necessity on sabbath; ",
+                { "bibleLink": "Luke 6:6–11", "content": "v. 6–11" },
+                " cure of a withered hand; ",
+                { "bibleLink": "Luke 6:12–16", "content": "v. 12–16" },
+                " call of 12 apostles; ",
+                { "bibleLink": "Luke 6:17–19", "content": "v. 17–19" },
+                " cure of many diseases; ",
+                { "bibleLink": "Luke 6:20–26", "content": "v. 20–26" },
+                " blessings and woes; ",
+                { "bibleLink": "Luke 6:27–38", "content": "v. 27–38" },
+                " exhortations to kindness; ",
+                { "bibleLink": "Luke 6:39–45", "content": "v. 39–45" },
+                " parable of the blind and the hypocrite; ",
+                { "bibleLink": "Luke 6:46–49", "content": "v. 46–49" },
+                " the rocky and the sandy foundation."
+              ]
+            }
+          },
+          "And it came to pass, on the second-first sabbath, as he is going through the corn fields, that his disciples were plucking the ears, and were eating, rubbing with the hands,"
+        ]
       }
     ]
   },
@@ -2320,7 +3148,18 @@
     "content": [
       "And having looked round on them all, he said to the man, ",
       { "text": "“Stretch forth thy hand;”", "marks": ["woc"] },
-      " and he did so, and his hand was restored whole as the other;"
+      " and he did so, and his hand was ",
+      {
+        "text": "restored",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "stood thoroughly forth", "marks": ["i"] }
+          ]
+        }
+      },
+      " whole as the other;"
     ]
   },
   {
@@ -2351,19 +3190,51 @@
     "book": "LUK",
     "chapter": 6,
     "verse": 14,
-    "content": "(Simon, whom also he named Peter, and Andrew his brother, James and John, Philip and Bartholomew,"
+    "content": [
+      "(",
+      {
+        "text": "Simon",
+        "foot": {
+          "type": "stu",
+          "content": "“hearing;” Peter a “rock;” Andrew, “manly;” James, “one who takes by the heel;” John, “Jah is gracious;” Philip, a “lover of horses;” Bartholomew, “son of Tolmai.”"
+        }
+      },
+      ", whom also he named Peter, and Andrew his brother, James and John, Philip and Bartholomew,"
+    ]
   },
   {
     "book": "LUK",
     "chapter": 6,
     "verse": 15,
-    "content": "Matthew and Thomas, James of Alphaeus, and Simon called Zelotes,"
+    "content": [
+      {
+        "text": "Matthew",
+        "foot": {
+          "type": "stu",
+          "content": "“gift of Jah;” Thomas, a “twin;” Alphaeus, “chief;” Zelotes, a “zealot.”"
+        }
+      },
+      " and Thomas, James of Alphaeus, and Simon called Zelotes,"
+    ]
   },
   {
     "book": "LUK",
     "chapter": 6,
     "verse": 16,
-    "content": "Judas of James, and Judas Iscariot, who also became betrayer;)"
+    "content": [
+      {
+        "text": "Judas",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "“praise, confession;” Iscariot, “man of Carioth ",
+            { "text": "or", "marks": ["i"] },
+            " of the city.”"
+          ]
+        }
+      },
+      " of James, and Judas Iscariot, who also became betrayer;)"
+    ]
   },
   {
     "book": "LUK",
@@ -2415,10 +3286,28 @@
     "book": "LUK",
     "chapter": 6,
     "verse": 22,
-    "content": {
-      "text": "“Happy are ye when men shall hate you, and when they shall separate you, and shall reproach, and shall cast forth your name as evil, for the Son of Man’s sake—",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“Happy are ye when men shall hate you, and when they shall ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "separate",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "mark out fully", "marks": ["i"] },
+            " as with a border."
+          ]
+        }
+      },
+      {
+        "text": " you, and shall reproach, and shall cast forth your name as evil, for the Son of Man’s sake—",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -2440,10 +3329,18 @@
     "book": "LUK",
     "chapter": 6,
     "verse": 24,
-    "content": {
-      "text": "“But woe to you—the rich, because ye have got your comfort.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“But woe to you—the rich, because ye ", "marks": ["woc"] },
+      {
+        "text": "have got",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "hold off", "marks": ["i"] }]
+        }
+      },
+      { "text": " your comfort.", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -2553,10 +3450,21 @@
     "book": "LUK",
     "chapter": 6,
     "verse": 36,
-    "content": {
-      "text": "be ye therefore merciful, as also your Father is merciful.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "be ye therefore ", "marks": ["woc"] },
+      {
+        "text": "merciful",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "become ye pitiful...is pitiful", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": ", as also your Father is merciful.", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -2581,7 +3489,24 @@
     "chapter": 6,
     "verse": 39,
     "content": [
-      { "paragraph": true, "text": "And he spake a simile to them, " },
+      {
+        "paragraph": true,
+        "content": [
+          "And he spake a ",
+          {
+            "text": "simile",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Or, ",
+                { "text": "parallel", "marks": ["i"] },
+                " saying."
+              ]
+            }
+          },
+          " to them, "
+        ]
+      },
       {
         "text": "“Is blind able to lead blind? shall they not both fall into a pit?",
         "marks": ["woc"]
@@ -2602,8 +3527,20 @@
     "chapter": 6,
     "verse": 41,
     "content": [
+      { "text": "“And why dost thou behold the ", "marks": ["woc"] },
       {
-        "text": "“And why dost thou behold the mote that is in thy brother’s eye, and the beam that ",
+        "text": "mote",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "dry thing...mindest not fully", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " that is in thy brother’s eye, and the beam that ",
         "marks": ["woc"]
       },
       { "text": "is", "marks": ["i", "woc"] },
@@ -2616,9 +3553,21 @@
     "verse": 42,
     "content": [
       {
-        "text": "or how art thou able to say to thy brother, Brother, suffer, I may take out the mote that ",
+        "text": "or how art thou able to say to thy brother, Brother, ",
         "marks": ["woc"]
       },
+      {
+        "text": "suffer, I may take out",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "let alone, I cast forth", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " the mote that ", "marks": ["woc"] },
       { "text": "is", "marks": ["i", "woc"] },
       {
         "text": " in thine eye—thyself the beam in thine own eye not beholding? Hypocrite, take first the beam out of thine own eye, and then thou shalt see clearly to take out the mote that ",
@@ -2712,7 +3661,29 @@
       { "heading": "A Gentile Believer" },
       {
         "paragraph": true,
-        "text": "And when he completed all his sayings in the ears of the people, he went into Capernaum;"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter VII. may be divided into six parts; ",
+                { "bibleLink": "Luke 7:1–10", "content": "v. 1–10" },
+                " cure of a centurion’s servant; ",
+                { "bibleLink": "Luke 7:11–16", "content": "v. 11–16" },
+                " raising of widow’s son; ",
+                { "bibleLink": "Luke 7:17–23", "content": "v. 17–23" },
+                " Jesus’ answer to John’s enquiry; ",
+                { "bibleLink": "Luke 7:24–28", "content": "v. 24–28" },
+                " he bears testimony to John; ",
+                { "bibleLink": "Luke 7:29–35", "content": "v. 29–35" },
+                " character of that generation; ",
+                { "bibleLink": "Luke 7:36–50", "content": "v. 36–50" },
+                " washing of Jesus” feet and its reward."
+              ]
+            }
+          },
+          "And when he completed all his sayings in the ears of the people, he went into Capernaum;"
+        ]
       }
     ]
   },
@@ -2720,7 +3691,20 @@
     "book": "LUK",
     "chapter": 7,
     "verse": 2,
-    "content": "and a certain centurion’s servant being ill, was about to die, who was much valued by him,"
+    "content": [
+      "and a certain centurion’s servant being ill, was about to die, who was ",
+      {
+        "text": "much valued",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "very precious or weighty", "marks": ["i"] }
+          ]
+        }
+      },
+      " by him,"
+    ]
   },
   {
     "book": "LUK",
@@ -2780,7 +3764,20 @@
     "book": "LUK",
     "chapter": 7,
     "verse": 10,
-    "content": "and those sent, having turned back to the house, found the ailing servant in health."
+    "content": [
+      "and those sent, having ",
+      {
+        "text": "turned back",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "turning round secretly", "marks": ["i"] }
+          ]
+        }
+      },
+      " to the house, found the ailing servant in health."
+    ]
   },
   {
     "book": "LUK",
@@ -2805,7 +3802,18 @@
     "chapter": 7,
     "verse": 13,
     "content": [
-      "And the Lord having seen her, was moved with compassion towards her, and said to her, ",
+      "And the Lord having seen her, ",
+      {
+        "text": "was moved with compassion",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "his bowels were moved over her", "marks": ["i"] }
+          ]
+        }
+      },
+      " towards her, and said to her, ",
       { "text": "“Be not weeping;”", "marks": ["woc"] }
     ]
   },
@@ -2817,7 +3825,16 @@
       "and having come near, he touched the bier, and those bearing ",
       { "text": "it", "marks": ["i"] },
       " stood still, and he said, ",
-      { "text": "“Young man, to thee I say, Arise;”", "marks": ["woc"] }
+      { "text": "“Young man, to thee I say, ", "marks": ["woc"] },
+      {
+        "text": "Arise",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "...Be raised", "marks": ["i"] }]
+        }
+      },
+      { "text": ";”", "marks": ["woc"] }
     ]
   },
   {
@@ -2944,7 +3961,20 @@
     "book": "LUK",
     "chapter": 7,
     "verse": 29,
-    "content": "And all the people having heard, and the tax-gatherers, declared God righteous, having been baptized with the baptism of John,"
+    "content": [
+      "And all the people having heard, and the ",
+      {
+        "text": "tax-gatherers",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "custom-house-officers", "marks": ["i"] }
+          ]
+        }
+      },
+      ", declared God righteous, having been baptized with the baptism of John,"
+    ]
   },
   {
     "book": "LUK",
@@ -3053,8 +4083,27 @@
     "verse": 41,
     "content": {
       "paragraph": true,
-      "text": "“Two debtors were to a certain creditor; the one was owing five hundred denaries, and the other fifty;",
-      "marks": ["woc"]
+      "content": [
+        { "text": "“Two debtors were to a certain ", "marks": ["woc"] },
+        {
+          "text": "creditor",
+          "marks": ["woc"],
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "giver had two owing necessary things...denaries",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        {
+          "text": "; the one was owing five hundred denaries, and the other fifty;",
+          "marks": ["woc"]
+        }
+      ]
     }
   },
   {
@@ -3096,8 +4145,23 @@
     "chapter": 7,
     "verse": 45,
     "content": [
+      { "text": "a ", "marks": ["woc"] },
       {
-        "text": "a kiss to me thou didst not give, but this woman, from what ",
+        "text": "kiss",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "friendship (i.e. a mark of friendship or love)...did not leave off thoroughly befriending-thoroughly my feet",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": " to me thou didst not give, but this woman, from what ",
         "marks": ["woc"]
       },
       { "text": "time", "marks": ["i", "woc"] },
@@ -3108,10 +4172,24 @@
     "book": "LUK",
     "chapter": 7,
     "verse": 46,
-    "content": {
-      "text": "with oil my head thou didst not anoint, but this woman with ointment did anoint my feet;",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "with oil my head thou didst not ", "marks": ["woc"] },
+      {
+        "text": "anoint",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "smear (lit. fatten)...", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": ", but this woman with ointment did anoint my feet;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -3160,7 +4238,31 @@
       { "heading": "Certain Women" },
       {
         "paragraph": true,
-        "text": "And it came to pass thereafter, that he was going through every city and village, preaching and proclaiming good news of the reign of God, and the twelve "
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter VIII. may be divided into seven parts; ",
+                { "bibleLink": "Luke 8:1–3", "content": "v. 1–3" },
+                " work and companions of Jesus; ",
+                { "bibleLink": "Luke 8:4–8", "content": "v. 4–8" },
+                " parable of the sower; ",
+                { "bibleLink": "Luke 8:9–18", "content": "v. 9–18" },
+                " its meaning; ",
+                { "bibleLink": "Luke 8:19–21", "content": "v. 19–21" },
+                " his true brethren; ",
+                { "bibleLink": "Luke 8:22–25", "content": "v. 22–25" },
+                " he calms the sea; ",
+                { "bibleLink": "Luke 8:26–39", "content": "v. 26–39" },
+                " cure of a demoniac and its consequences; ",
+                { "bibleLink": "Luke 8:40–56", "content": "v. 40–56" },
+                " cure of an issue of blood and raising of Jairus’ daughter."
+              ]
+            }
+          },
+          "And it came to pass thereafter, that he was going through every city and village, preaching and proclaiming good news of the reign of God, and the twelve "
+        ]
       },
       { "text": "are", "marks": ["i"] },
       " with him,"
@@ -3176,7 +4278,28 @@
     "book": "LUK",
     "chapter": 8,
     "verse": 3,
-    "content": "and Joanna wife of Chuza, steward of Herod, and Susanna, and many others, who were ministering to him from their substance."
+    "content": [
+      "and ",
+      {
+        "text": "Joanna",
+        "foot": {
+          "type": "stu",
+          "content": "“grace of Jah;” Chuza, “seeing;”...Susannah, i.e. “a lily;” who “were acting-as-deacons to him.”"
+        }
+      },
+      " wife of Chuza, ",
+      {
+        "text": "steward",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "one upon whom things are turned over", "marks": ["i"] }
+          ]
+        }
+      },
+      " of Herod, and Susanna, and many others, who were ministering to him from their substance."
+    ]
   },
   {
     "book": "LUK",
@@ -3379,7 +4502,19 @@
     "book": "LUK",
     "chapter": 8,
     "verse": 24,
-    "content": "And having come near, they awoke him, saying, “Master, master, we perish;” and he, having arisen, rebuked the wind and the raging of the water, and they ceased, and there came a calm,"
+    "content": {
+      "text": "And having come near, they awoke him, saying, “Master, master, we perish;” and he, having arisen, rebuked the wind and the raging of the water, and they ceased, and there came a calm,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "came near...roused him up thoroughly, saying, Master (lit. stander over), we are lost...laid a weight upon the wind and the washing of the waters,...and it became a calm (lit. smile)",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -3518,7 +4653,12 @@
       { "heading": "Jairus’ Daughter" },
       { "paragraph": true, "text": "and lo, there came a man, whose name " },
       { "text": "is", "marks": ["i"] },
-      " Jairus, and he was a chief of the synagogue, and having fallen at the feet of Jesus, was calling on him to come to his house;"
+      " ",
+      {
+        "text": "Jairus",
+        "foot": { "type": "stu", "content": "“he gives light.”" }
+      },
+      ", and he was a chief of the synagogue, and having fallen at the feet of Jesus, was calling on him to come to his house;"
     ]
   },
   {
@@ -3555,7 +4695,21 @@
       { "text": "“Who ", "marks": ["woc"] },
       { "text": "is", "marks": ["i", "woc"] },
       { "text": " it that touched me?”", "marks": ["woc"] },
-      " and all denying, Peter and those with him said, “Master, the multitudes press thee, and throng ",
+      " and all ",
+      {
+        "text": "denying",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "denied with an oath or utterly...the crowds held thee fast, and press greatly",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", Peter and those with him said, “Master, the multitudes press thee, and throng ",
       { "text": "thee", "marks": ["i"] },
       ", and thou dost say, Who ",
       { "text": "is", "marks": ["i"] },
@@ -3578,7 +4732,20 @@
     "book": "LUK",
     "chapter": 8,
     "verse": 47,
-    "content": "And the woman, having seen that she was not hid, trembling, came, and having fallen before him, for what cause she touched him declared to him before all the people, and how she was healed presently;"
+    "content": [
+      "And the woman, having seen that she was not hid, trembling, came, and having fallen before him, for what cause she touched him ",
+      {
+        "text": "declared",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "told fully...through what", "marks": ["i"] }
+          ]
+        }
+      },
+      " to him before all the people, and how she was healed presently;"
+    ]
   },
   {
     "book": "LUK",
@@ -3654,13 +4821,38 @@
     "book": "LUK",
     "chapter": 8,
     "verse": 55,
-    "content": "and her spirit came back, and she arose presently, and he directed that there be given to her to eat;"
+    "content": {
+      "text": "and her spirit came back, and she arose presently, and he directed that there be given to her to eat;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "turned round again, and she stood up along with the action (or word), and he arranged thoroughly to give her to eat",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
     "chapter": 8,
     "verse": 56,
-    "content": "and her parents were amazed, but he charged them to say to no one what was come to pass."
+    "content": [
+      "and her parents were ",
+      {
+        "text": "amazed",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "stood out with amazement", "marks": ["i"] }
+          ]
+        }
+      },
+      ", but he charged them to say to no one what was come to pass."
+    ]
   },
   {
     "book": "LUK",
@@ -3670,7 +4862,39 @@
       { "heading": "Commissions His Apostles" },
       {
         "paragraph": true,
-        "text": "And having called together his twelve disciples, he gave them power and authority over all the demons, and to cure sicknesses,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter IX. may be divided into eleven parts; ",
+                { "bibleLink": "Luke 9:1–6", "content": "v. 1–6" },
+                " commission to the twelve disciples; ",
+                { "bibleLink": "Luke 9:7–9", "content": "v. 7–9" },
+                " Herod’s desire to see Jesus; ",
+                { "bibleLink": "Luke 9:10–17", "content": "v. 10–17" },
+                " feeding of 5000 men; ",
+                { "bibleLink": "Luke 9:18–27", "content": "v. 18–27" },
+                " Peter’s confession and Jesus’ warning; ",
+                { "bibleLink": "Luke 9:28–36", "content": "v. 28–36" },
+                " his transfiguration; ",
+                { "bibleLink": "Luke 9:37–42", "content": "v. 37–42" },
+                " cure of a demoniac; ",
+                { "bibleLink": "Luke 9:43–45", "content": "v. 43–45" },
+                " Jesus to be delivered up; ",
+                { "bibleLink": "Luke 9:46–48", "content": "v. 46–48" },
+                " which is the greatest; ",
+                { "bibleLink": "Luke 9:49, 50", "content": "v. 49, 50" },
+                " true toleration; ",
+                { "bibleLink": "Luke 9:51–56", "content": "v. 51–56" },
+                " rebuke of James and John; ",
+                { "bibleLink": "Luke 9:57–62", "content": "v. 57–62" },
+                " the forward and the backward disciple."
+              ]
+            }
+          },
+          "And having called together his twelve disciples, he gave them power and authority over all the demons, and to cure sicknesses,"
+        ]
       }
     ]
   },
@@ -3776,11 +5000,25 @@
     "chapter": 9,
     "verse": 14,
     "content": [
-      "for they were about five thousand men. And he said unto his disciples, ",
+      "for they were ",
       {
-        "text": "“Cause them to recline in companies, in each fifty;”",
-        "marks": ["woc"]
-      }
+        "text": "about",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "as it were", "marks": ["i"] }]
+        }
+      },
+      " five thousand men. And he said unto his disciples, ",
+      { "text": "“Cause them to ", "marks": ["woc"] },
+      {
+        "text": "recline",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "lie down", "marks": ["i"] }]
+        }
+      },
+      { "text": " in companies, in each fifty;”", "marks": ["woc"] }
     ]
   },
   {
@@ -3934,13 +5172,39 @@
     "book": "LUK",
     "chapter": 9,
     "verse": 32,
-    "content": "but Peter and those with him were heavy with sleep, and having waked, they saw his glory, and the two men standing with him."
+    "content": [
+      "but Peter and those with him were ",
+      {
+        "text": "heavy with sleep, and having waked",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "burdened...thoroughly awake", "marks": ["i"] }
+          ]
+        }
+      },
+      ", they saw his glory, and the two men standing with him."
+    ]
   },
   {
     "book": "LUK",
     "chapter": 9,
     "verse": 33,
-    "content": "And it came to pass, in their parting from him, Peter said unto Jesus, “Master, it is good to us to be here; and we may make three booths, one for thee, and one for Moses, and one for Elijah,” not knowing what he saith:"
+    "content": [
+      "And it came to pass, in their ",
+      {
+        "text": "parting",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "made a thorough space", "marks": ["i"] }
+          ]
+        }
+      },
+      " from him, Peter said unto Jesus, “Master, it is good to us to be here; and we may make three booths, one for thee, and one for Moses, and one for Elijah,” not knowing what he saith:"
+    ]
   },
   {
     "book": "LUK",
@@ -4069,7 +5333,17 @@
     "verse": 49,
     "content": {
       "paragraph": true,
-      "text": "And John answering said, “Master, we saw a certain one in thy name casting forth the demons, and we forbade him, because he doth not follow with us;”"
+      "content": [
+        "And John answering said, “",
+        {
+          "text": "Master",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "over-stander", "marks": ["i"] }]
+          }
+        },
+        ", we saw a certain one in thy name casting forth the demons, and we forbade him, because he doth not follow with us;”"
+      ]
     }
   },
   {
@@ -4211,7 +5485,53 @@
       { "heading": "Seventy Evangelists" },
       {
         "paragraph": true,
-        "text": "And after these things, the Lord did appoint also other seventy, and sent them by twos before his face, to every city and place whither he himself was about to come,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter X. may be divided into seven parts; ",
+                { "bibleLink": "Luke 10:1–16", "content": "v. 1–16" },
+                " Jesus sends forth 70 disciples; ",
+                { "bibleLink": "Luke 10:17–20", "content": "v. 17–20" },
+                " their return and his congratulation; ",
+                { "bibleLink": "Luke 10:21, 22", "content": "v. 21, 22" },
+                " He rejoices and praises God; ",
+                { "bibleLink": "Luke 10:23, 24", "content": "v. 23, 24" },
+                " and the disciples; ",
+                { "bibleLink": "Luke 10:25–29", "content": "v. 25–29" },
+                " shows how to inherit life; ",
+                { "bibleLink": "Luke 10:30–37", "content": "v. 30–37" },
+                " who is our neighbour; ",
+                { "bibleLink": "Luke 10:38–42", "content": "v. 38–42" },
+                " also the good part."
+              ]
+            }
+          },
+          "And after these things, the Lord did ",
+          {
+            "text": "appoint",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "shewed fully", "marks": ["i"] }]
+            }
+          },
+          " also other seventy, and ",
+          {
+            "text": "sent them by twos before his face, to every city and place whither he himself was about to come",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "sent them forth...he was himself about to go",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          ","
+        ]
       }
     ]
   },
@@ -4330,10 +5650,24 @@
     "book": "LUK",
     "chapter": 10,
     "verse": 13,
-    "content": {
-      "text": "“Woe to thee, Chorazin; woe to thee, Bethsaida; for if in Tyre and Sidon had been done the mighty works that were done in you, long ago, sitting in sackcloth and ashes, they had reformed;",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“Woe to thee, Chorazin; woe to thee, Bethsaida; for if in Tyre and Sidon had been done the mighty works that were done in you, long ago, sitting in sackcloth and ashes, they had ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "reformed",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...long ago had a new mind", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": ";", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -4554,7 +5888,17 @@
     "verse": 34,
     "content": {
       "text": "and having come near, he bound up his wounds, pouring on oil and wine, and having lifted him up on his own beast, he brought him to an inn, and was careful of him;",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "came forward and bound fast...pouring out over (them)...to an inn (lit. place “for receiving all”), and was careful about him",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -4563,7 +5907,17 @@
     "verse": 35,
     "content": {
       "text": "and on the morrow, going forth, taking out two denaries, he gave to the innkeeper, and said to him, Be careful of him, and whatever thou mayest spend more, I, in my coming again, will give back to thee.",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "cast forth two denaries...host (lit. “receiver of all,”). Be careful about him,...spend for (him),...may come back upon thee, I will give back to thee",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -4595,7 +5949,21 @@
       { "heading": "Martha and Mary" },
       {
         "paragraph": true,
-        "text": "And it came to pass, in their going on, that he entered into a certain village, and a certain woman, by name Martha, did receive him into her house,"
+        "content": [
+          "And it came to pass, in their going on, that he entered into a certain village, and a certain woman, by name ",
+          {
+            "text": "Martha",
+            "foot": {
+              "type": "stu",
+              "content": [
+                "“bitterness ",
+                { "text": "or", "marks": ["i"] },
+                " lady.”"
+              ]
+            }
+          },
+          ", did receive him into her house,"
+        ]
       }
     ]
   },
@@ -4640,7 +6008,43 @@
       { "heading": "The Lord’s Prayer" },
       {
         "paragraph": true,
-        "text": "And it came to pass, in his being in a certain place praying, as he ceased, a certain one of his disciples said unto him, “Sir, teach us to pray, as also John taught his disciples.”"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XI. may be divided into six parts; ",
+                { "bibleLink": "Luke 11:1–13", "content": "v. 1–13" },
+                " Jesus teaches to pray; ",
+                { "bibleLink": "Luke 11:14–26", "content": "v. 14–26" },
+                " cures a dumb demoniac, and refutes his enemies; ",
+                { "bibleLink": "Luke 11:27, 28", "content": "v. 27, 28" },
+                " who are happy; ",
+                { "bibleLink": "Luke 11:29–36", "content": "v. 29–36" },
+                " a sign sought and given; ",
+                { "bibleLink": "Luke 11:37–44", "content": "v. 37–44" },
+                " reproof of the Pharisees; ",
+                { "bibleLink": "Luke 11:45–54", "content": "v. 45–54" },
+                " reproof of the lawyers."
+              ]
+            }
+          },
+          "And it came to pass, in his being in a certain place ",
+          {
+            "text": "praying",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "pouring forth before (God)...a certain one",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          ", as he ceased, a certain one of his disciples said unto him, “Sir, teach us to pray, as also John taught his disciples.”"
+        ]
       }
     ]
   },
@@ -4916,7 +6320,23 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the multitudes crowding together upon him, he began to say, "
+        "content": [
+          "And the ",
+          {
+            "text": "multitudes crowding together",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "crowds were closed upon (each other)...",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          " upon him, he began to say, "
+        ]
       },
       {
         "text": "“This generation is evil, a sign it doth seek after, and a sign shall not be given to it, except the sign of Jonah the prophet,",
@@ -4984,8 +6404,20 @@
     "content": [
       {
         "paragraph": true,
-        "text": "take heed, then, lest the light that ",
-        "marks": ["woc"]
+        "content": [
+          {
+            "text": "take heed",
+            "marks": ["woc"],
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "look about or consider", "marks": ["i"] }
+              ]
+            }
+          },
+          { "text": ", then, lest the light that ", "marks": ["woc"] }
+        ]
       },
       { "text": "is", "marks": ["i", "woc"] },
       { "text": " in thee be darkness;", "marks": ["woc"] }
@@ -5008,7 +6440,22 @@
       { "heading": "In a Pharisee’s House" },
       { "paragraph": true, "text": "And in " },
       { "text": "his", "marks": ["i"] },
-      " speaking, a certain Pharisee was asking him that he might dine with him, and having gone in, he reclined (at meat),"
+      " speaking, a certain Pharisee was ",
+      {
+        "text": "asking him that he might dine with him, and having gone in, he reclined",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "asked that he might lunch (lit. make the “best” meal) with him, and having gone in, he reclined",
+              "marks": ["i"]
+            },
+            ", lit. fell back."
+          ]
+        }
+      },
+      " (at meat),"
     ]
   },
   {
@@ -5064,10 +6511,27 @@
     "book": "LUK",
     "chapter": 11,
     "verse": 43,
-    "content": {
-      "text": "“Woe to you, the Pharisees, because ye love the first seats in the synagogues, and the salutations in the market-places.",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“Woe to you, the Pharisees, because ye love the first seats in the synagogues, and the ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "salutations in the market-places",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "...the drawings-near (of men to salute them) in the public places",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": ".", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -5166,7 +6630,20 @@
     "book": "LUK",
     "chapter": 11,
     "verse": 54,
-    "content": "laying wait for him, and seeking to catch something out of his mouth, that they might accuse him."
+    "content": [
+      "laying wait for him, and seeking to catch something out of his mouth, that they might ",
+      {
+        "text": "accuse",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "make it public against him", "marks": ["i"] }
+          ]
+        }
+      },
+      " him."
+    ]
   },
   {
     "book": "LUK",
@@ -5176,7 +6653,33 @@
       { "heading": "The Leaven of the Pharisees" },
       {
         "paragraph": true,
-        "text": "At which time the myriads of the multitude having been gathered together, so as to tread upon one another, he began to say unto his disciples, first, "
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XII. may be divided into eight parts; ",
+                { "bibleLink": "Luke 12:1–3", "content": "v. 1–3" },
+                " Jesus warns against hypocrisy; ",
+                { "bibleLink": "Luke 12:4–12", "content": "v. 4–12" },
+                " against timidity; ",
+                { "bibleLink": "Luke 12:13–21", "content": "v. 13–21" },
+                " against covetousness; ",
+                { "bibleLink": "Luke 12:22–34", "content": "v. 22–34" },
+                " against anxiety; ",
+                { "bibleLink": "Luke 12:35–40", "content": "v. 35–40" },
+                " exhorts to watchfulness; ",
+                { "bibleLink": "Luke 12:41–48", "content": "v. 41–48" },
+                " to stedfastness; ",
+                { "bibleLink": "Luke 12:49–53", "content": "v. 49–53" },
+                " result of his coming; ",
+                { "bibleLink": "Luke 12:54–59", "content": "v. 54–59" },
+                " duty of discerning times."
+              ]
+            }
+          },
+          "At which time the myriads of the multitude having been gathered together, so as to tread upon one another, he began to say unto his disciples, first, "
+        ]
       },
       {
         "text": "“Take heed to yourselves of the leaven of the Pharisees, which is hypocrisy;",
@@ -5188,10 +6691,27 @@
     "book": "LUK",
     "chapter": 12,
     "verse": 2,
-    "content": {
-      "text": "and there is nothing covered, that shall not be revealed; and hid, that shall not be known;",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "and there is nothing ", "marks": ["woc"] },
+      {
+        "text": "covered",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "fully covered or concealed...be uncovered",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": ", that shall not be revealed; and hid, that shall not be known;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -5295,7 +6815,17 @@
     "verse": 13,
     "content": {
       "paragraph": true,
-      "text": "And a certain one said to him, out of the multitude, “Teacher, say to my brother to divide with me the inheritance.”"
+      "text": "And a certain one said to him, out of the multitude, “Teacher, say to my brother to divide with me the inheritance.”",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "a certain one out of the crowd, Teacher, Say to my brother, to divide with me the portion assigned by lot",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -5316,8 +6846,23 @@
     "verse": 15,
     "content": [
       "And he said unto them, ",
+      { "text": "“Observe, and beware of the ", "marks": ["woc"] },
       {
-        "text": "“Observe, and beware of the covetousness, because not in the abundance of one’s goods is his life.”",
+        "text": "covetousness",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "be guarding yourselves from (or because of) the having-more-than-enough",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": ", because not in the abundance of one’s goods is his life.”",
         "marks": ["woc"]
       }
     ]
@@ -5329,7 +6874,23 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And he spake a simile unto them, saying, "
+        "content": [
+          "And he spake a ",
+          {
+            "text": "simile",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "thing cast along-side of another for comparison or contrast",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          " unto them, saying, "
+        ]
       },
       {
         "text": "“Of a certain rich man the field brought forth well;",
@@ -5368,10 +6929,27 @@
     "book": "LUK",
     "chapter": 12,
     "verse": 20,
-    "content": {
-      "text": "“And God said to him, Unthinking one! this night thy soul they shall require from thee, and what things thou didst prepare—to whom shall they be?",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“And God said to him, Unthinking one! this night thy soul they shall ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "require from thee",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...ask from thee...", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": ", and what things thou didst prepare—to whom shall they be?",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -5412,10 +6990,26 @@
     "book": "LUK",
     "chapter": 12,
     "verse": 24,
-    "content": {
-      "text": "“Consider the ravens, that they sow not, nor reap, to which there is no barn nor storehouse, and God doth nourish them; how much better are ye than the fowls?",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“Consider the ravens",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "mind thoroughly the ravens (or crows, croakers)...",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": ", that they sow not, nor reap, to which there is no barn nor storehouse, and God doth nourish them; how much better are ye than the fowls?",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -5555,10 +7149,21 @@
     "book": "LUK",
     "chapter": 12,
     "verse": 39,
-    "content": {
-      "text": "“And this know, that if the master of the house had known what hour the thief doth come, he would have watched, and would not have suffered his house to be broken through;",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“And this know, that if the ", "marks": ["woc"] },
+      {
+        "text": "master of the house",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "house-despot...", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " had known what hour the thief doth come, he would have watched, and would not have suffered his house to be broken through;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -5683,10 +7288,21 @@
     "book": "LUK",
     "chapter": 12,
     "verse": 52,
-    "content": {
-      "text": "for there shall be henceforth five in one house divided—three against two, and two against three;",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "for there shall be henceforth five in one house ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "divided",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "thoroughly-parted", "marks": ["i"] }]
+        }
+      },
+      { "text": "—three against two, and two against three;", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -5767,7 +7383,40 @@
       { "heading": "A Warning to the Nation" },
       {
         "paragraph": true,
-        "text": "And there were present certain at that time, telling him about the Galileans, whose blood Pilate did mingle with their sacrifices;"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XIII. may be divided into six parts; ",
+                { "bibleLink": "Luke 13:1–5", "content": "v. 1–5" },
+                " Jesus warns against judging others; ",
+                { "bibleLink": "Luke 13:6–9", "content": "v. 6–9" },
+                " against fruitlessness; ",
+                { "bibleLink": "Luke 13:10–17", "content": "v. 10–17" },
+                " against hypocrisy in the case of an infirm woman; ",
+                { "bibleLink": "Luke 13:18–21", "content": "v. 18–21" },
+                " simile of leaven; ",
+                { "bibleLink": "Luke 13:22–30", "content": "v. 22–30" },
+                " warning against vain curiosity and mere profession; ",
+                { "bibleLink": "Luke 13:31–35", "content": "v. 31–35" },
+                " fearlessness and sympathy of Jesus."
+              ]
+            }
+          },
+          "And there were present certain at that time, ",
+          {
+            "text": "telling",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "told him fully...", "marks": ["i"] }
+              ]
+            }
+          },
+          " him about the Galileans, whose blood Pilate did mingle with their sacrifices;"
+        ]
       }
     ]
   },
@@ -5787,10 +7436,21 @@
     "book": "LUK",
     "chapter": 13,
     "verse": 3,
-    "content": {
-      "text": "No—I say to you, but, if ye may not reform, all ye even so shall perish.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "No—I say to you, but, if ye may not ", "marks": ["woc"] },
+      {
+        "text": "reform",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...have a new mind...", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": ", all ye even so shall perish.", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -5885,7 +7545,21 @@
     "content": [
       "and he laid on her ",
       { "text": "his", "marks": ["i"] },
-      " hands, and presently she was set upright, and was glorifying God."
+      " hands, and ",
+      {
+        "text": "presently she was set upright",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "along with the act she was made straight again",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", and was glorifying God."
     ]
   },
   {
@@ -5905,7 +7579,19 @@
     "content": [
       "Then the Lord answered him and said, ",
       {
-        "text": "“Hypocrite, doth not each of you on the sabbath loose his ox or ass from the stall, and having led away, doth water ",
+        "text": "“Hypocrite",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "judge under", "marks": ["i"] },
+            " a pretence."
+          ]
+        }
+      },
+      {
+        "text": ", doth not each of you on the sabbath loose his ox or ass from the stall, and having led away, doth water ",
         "marks": ["woc"]
       },
       { "text": "it", "marks": ["i", "woc"] },
@@ -6123,7 +7809,29 @@
       { "heading": "Round a Pharisee’s Table" },
       {
         "paragraph": true,
-        "text": "And it came to pass, on his going into the house of a certain one of the chiefs of the Pharisees, on a sabbath, to eat bread, that they were watching him,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XIV. may be divided into six parts: ",
+                { "bibleLink": "Luke 14:1–6", "content": "v. 1–6" },
+                " cure of a dropsical man on the sabbath; ",
+                { "bibleLink": "Luke 14:7–11", "content": "v. 7–11" },
+                " warning against pride; ",
+                { "bibleLink": "Luke 14:12–14", "content": "v. 12–14" },
+                " against seeking recompense; ",
+                { "bibleLink": "Luke 14:15–25", "content": "v. 15–25" },
+                " who shall eat bread in the kingdom of the heavens; ",
+                { "bibleLink": "Luke 14:26–33", "content": "v. 26–33" },
+                " warning against want of forethought; ",
+                { "bibleLink": "Luke 14:34, 35", "content": "v. 34, 35" },
+                " uselessness of unseasoned salt."
+              ]
+            }
+          },
+          "And it came to pass, on his going into the house of a certain one of the chiefs of the Pharisees, on a sabbath, to eat bread, that they were watching him,"
+        ]
       }
     ]
   },
@@ -6139,7 +7847,19 @@
     "verse": 3,
     "content": [
       "and Jesus answering spake to the lawyers and Pharisees, saying, ",
-      { "text": "“Is it lawful on the sabbath-day to heal?”", "marks": ["woc"] }
+      { "text": "“Is it ", "marks": ["woc"] },
+      {
+        "text": "lawful",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "is it out of measure", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " on the sabbath-day to heal?”", "marks": ["woc"] }
     ]
   },
   {
@@ -6399,10 +8119,24 @@
     "book": "LUK",
     "chapter": 14,
     "verse": 30,
-    "content": {
-      "text": "saying—This man began to build, and was not able to finish.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "saying—This man began to build, and ", "marks": ["woc"] },
+      {
+        "text": "was not able to finish",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "had not strength to end (it) thoroughly",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": ".", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -6426,10 +8160,24 @@
     "book": "LUK",
     "chapter": 14,
     "verse": 33,
-    "content": {
-      "text": "“So, then, every one of you who doth not take leave of all that he himself hath, is not able to be my disciple.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“So, then, every one of you who doth not ", "marks": ["woc"] },
+      {
+        "text": "take leave of",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "setteth himself away from...", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " all that he himself hath, is not able to be my disciple.",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -6448,19 +8196,48 @@
     "book": "LUK",
     "chapter": 14,
     "verse": 35,
-    "content": {
-      "text": "neither for land nor for manure is it fit—they cast it without. He who is having ears to hear—let him hear.”",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "neither for land nor for manure is it ", "marks": ["woc"] },
+      {
+        "text": "fit",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "well-set", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "—they cast it without. He who is having ears to hear—let him hear.”",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
     "chapter": 15,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And all the tax-gatherers and the sinners were coming nigh to him, to hear him,"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XV. may be divided into four parts; ",
+            { "bibleLink": "Luke 15:1, 2", "content": "v. 1, 2" },
+            " Jesus receives sinners, which he vindicates by similes; ",
+            { "bibleLink": "Luke 15:3–7", "content": "v. 3–7" },
+            " of a lost sheep; ",
+            { "bibleLink": "Luke 15:8–10", "content": "v. 8–10" },
+            " of a lost piece of money; ",
+            { "bibleLink": "Luke 15:11–32", "content": "v. 11–32" },
+            " of a lost son."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "And all the tax-gatherers and the sinners were coming nigh to him, to hear him,"
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -6564,11 +8341,35 @@
     "verse": 12,
     "content": [
       {
-        "text": "and the younger of them said to the father, Father, give me the portion of the substance falling to ",
+        "text": "and the younger of them said to the father, Father, give me the portion of the substance ",
         "marks": ["woc"]
       },
+      {
+        "text": "falling",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "falleth upon or over", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " to ", "marks": ["woc"] },
       { "text": "me", "marks": ["i", "woc"] },
-      { "text": ", and he divided to them the living.", "marks": ["woc"] }
+      { "text": ", and he ", "marks": ["woc"] },
+      {
+        "text": "divided",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "lifted up thoroughly", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " to them the living.", "marks": ["woc"] }
     ]
   },
   {
@@ -6593,10 +8394,21 @@
     "book": "LUK",
     "chapter": 15,
     "verse": 15,
-    "content": {
-      "text": "and having gone on, he joined himself to one of the citizens of that country, and he sent him to the fields to feed swine,",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "and having gone on, he ", "marks": ["woc"] },
+      {
+        "text": "joined himself",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "was glued...", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " to one of the citizens of that country, and he sent him to the fields to feed swine,",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -6668,7 +8480,20 @@
     "content": [
       { "text": "and having brought the fatted calf, kill ", "marks": ["woc"] },
       { "text": "it", "marks": ["i", "woc"] },
-      { "text": ", and having eaten, we may be merry,", "marks": ["woc"] }
+      {
+        "text": ", and having eaten, we may be merry,",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "bring in...sacrifice (it),...let us have good minds",
+              "marks": ["i"]
+            }
+          ]
+        }
+      }
     ]
   },
   {
@@ -6720,10 +8545,24 @@
     "book": "LUK",
     "chapter": 15,
     "verse": 29,
-    "content": {
-      "text": "and he answering said to the father, Lo, so many years I do serve thee, and never thy command did I transgress, and to me thou didst never give a kid, that with my friends I might make merry;",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and he answering said to the father, Lo, so many years I do serve thee, and never thy command did I ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "transgress",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "went beyond...", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": ", and to me thou didst never give a kid, that with my friends I might make merry;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -6758,7 +8597,28 @@
     "verse": 1,
     "content": [
       { "heading": "The Unjust Steward" },
-      { "paragraph": true, "text": "And he said also unto his disciples, " },
+      {
+        "paragraph": true,
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XVI. may be divided into four parts; ",
+                { "bibleLink": "Luke 16:1–8", "content": "v. 1–8" },
+                " simile of an unjust steward; ",
+                { "bibleLink": "Luke 16:9–13", "content": "v. 9–13" },
+                " difficulty of serving two masters; ",
+                { "bibleLink": "Luke 16:14–18", "content": "v. 14–18" },
+                " reproof of the Pharisees; ",
+                { "bibleLink": "Luke 16:19–31", "content": "v. 19–31" },
+                " simile of the rich man and Lazarus."
+              ]
+            }
+          },
+          "And he said also unto his disciples, "
+        ]
+      },
       {
         "text": "“A certain man was rich, who had a steward, and he was accused to him as scattering his goods;",
         "marks": ["woc"]
@@ -6849,7 +8709,22 @@
     "chapter": 16,
     "verse": 10,
     "content": [
-      { "text": "“He who is faithful in the least, ", "marks": ["woc"] },
+      { "text": "“He who is ", "marks": ["woc"] },
+      {
+        "text": "faithful",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "stedfast in few things is stedfast also in many",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": " in the least, ", "marks": ["woc"] },
       { "text": "is", "marks": ["i", "woc"] },
       {
         "text": " also faithful in much; and he who in the least ",
@@ -6872,10 +8747,24 @@
     "book": "LUK",
     "chapter": 16,
     "verse": 12,
-    "content": {
-      "text": "and if in the other’s ye became not faithful—your own, who shall give to you?",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "and if in the other’s ye ", "marks": ["woc"] },
+      {
+        "text": "became not faithful",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "become stedfast in the things of others",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": "—your own, who shall give to you?", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -6948,8 +8837,28 @@
       { "heading": "The Rich Man and Lazarus" },
       {
         "paragraph": true,
-        "text": "“And—a certain man was rich, and was clothed in purple and fine linen, making merry sumptuously every day,",
-        "marks": ["woc"]
+        "content": [
+          {
+            "text": "“And—a certain man was rich, and was clothed in purple and fine linen, ",
+            "marks": ["woc"]
+          },
+          {
+            "text": "making merry sumptuously every day",
+            "marks": ["woc"],
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "well-minded every day, brilliantly",
+                  "marks": ["i"]
+                },
+                " in his own conceit."
+              ]
+            }
+          },
+          { "text": ",", "marks": ["woc"] }
+        ]
       }
     ]
   },
@@ -6968,7 +8877,17 @@
     "verse": 21,
     "content": {
       "text": "and desiring to be filled from the crumbs that are falling from the table of the rich man; yea, also the dogs, coming, were licking his sores.",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "very desirous...from the little scraps that are falling...had licked away his ulcers",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -7056,10 +8975,21 @@
     "book": "LUK",
     "chapter": 16,
     "verse": 31,
-    "content": {
-      "text": "And he said to him, If Moses and the prophets they do not hear, neither if one may rise out of the dead will they be persuaded.”",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "And he said to him, If Moses and the prophets they do not hear, neither if one may ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "rise",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "may stand up", "marks": ["i"] }]
+        }
+      },
+      { "text": " out of the dead will they be persuaded.”", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -7067,7 +8997,28 @@
     "verse": 1,
     "content": [
       { "heading": "Take Heed to Yourselves" },
-      { "paragraph": true, "text": "And he said unto the disciples, " },
+      {
+        "paragraph": true,
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XVII. may be divided into four parts; ",
+                { "bibleLink": "Luke 17:1–4", "content": "v. 1–4" },
+                " duty of forbearance and forgiveness; ",
+                { "bibleLink": "Luke 17:5–10", "content": "v. 5–10" },
+                " power of faith; ",
+                { "bibleLink": "Luke 17:11–19", "content": "v. 11–19" },
+                " cleansing of ten lepers; ",
+                { "bibleLink": "Luke 17:20–37", "content": "v. 20–37" },
+                " signs of the coming of God’s reign."
+              ]
+            }
+          },
+          "And he said unto the disciples, "
+        ]
+      },
       {
         "text": "“It is impossible for the stumbling blocks not to come, but woe ",
         "marks": ["woc"]
@@ -7110,7 +9061,17 @@
     "verse": 5,
     "content": {
       "paragraph": true,
-      "text": "And the apostles said to the Lord, “Add to us faith;”"
+      "text": "And the apostles said to the Lord, “Add to us faith;”",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "set (put or place) beside us stedfastness",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -7129,10 +9090,27 @@
     "book": "LUK",
     "chapter": 17,
     "verse": 7,
-    "content": {
-      "text": "“But, who is he of you—having a servant ploughing or feeding—who, to him having come in out of the field, will say, Having come near, recline at meat?",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“But, who is he of you—having a servant ploughing or feeding—who, to him having come in out of the field, will say, ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "Having come near, recline at meat",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "straightway,...Having come near lay thyself down",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": "?", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -7173,7 +9151,20 @@
       { "heading": "A Grateful Samaritan" },
       {
         "paragraph": true,
-        "text": "And it came to pass, in his going on to Jerusalem, that he passed through the midst of Samaria and Galilee,"
+        "content": [
+          "And it came to pass, in his going on to Jerusalem, that he ",
+          {
+            "text": "passed through",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "went thoroughly through", "marks": ["i"] }
+              ]
+            }
+          },
+          " the midst of Samaria and Galilee,"
+        ]
       }
     ]
   },
@@ -7187,7 +9178,20 @@
     "book": "LUK",
     "chapter": 17,
     "verse": 13,
-    "content": "and they lifted up the voice, saying, “Jesus, master, deal kindly with us;”"
+    "content": [
+      "and they lifted up the voice, saying, “Jesus, ",
+      {
+        "text": "master",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...one “standing over,”...", "marks": ["i"] }
+          ]
+        }
+      },
+      ", deal kindly with us;”"
+    ]
   },
   {
     "book": "LUK",
@@ -7208,7 +9212,16 @@
     "book": "LUK",
     "chapter": 17,
     "verse": 15,
-    "content": "and one of them having seen that he was healed did turn back, with a loud voice glorifying God,"
+    "content": {
+      "text": "and one of them having seen that he was healed did turn back, with a loud voice glorifying God,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Or, ",
+          { "text": "cured, turned round behind...great voice", "marks": ["i"] }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -7217,7 +9230,18 @@
     "content": [
       "and he fell upon ",
       { "text": "his", "marks": ["i"] },
-      " face at his feet, giving thanks to him, and he was a Samaritan."
+      " face at his feet, ",
+      {
+        "text": "giving thanks",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...rejoicing greatly", "marks": ["i"] }
+          ]
+        }
+      },
+      " to him, and he was a Samaritan."
     ]
   },
   {
@@ -7321,10 +9345,24 @@
     "book": "LUK",
     "chapter": 17,
     "verse": 25,
-    "content": {
-      "text": "and first it behoveth him to suffer many things, and to be rejected by this generation.",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and first it behoveth him to suffer many things, and to be ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "rejected",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "thought little of by", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " by this generation.", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -7358,10 +9396,27 @@
     "book": "LUK",
     "chapter": 17,
     "verse": 29,
-    "content": {
-      "text": "and on the day Lot went forth from Sodom, He rained fire and brimstone from heaven, and destroyed all.",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and on the day Lot went forth from Sodom, He rained fire and ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "brimstone",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "sulphur", "marks": ["i"] },
+            "; lit., ",
+            { "text": "divinity", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": " from heaven, and destroyed all.", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -7379,7 +9434,17 @@
     "content": {
       "paragraph": true,
       "text": "in that day, he who shall be on the house top, and his vessels in the house, let him not come down to take them away; and he in the field, in like manner, let him not turn backward;",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "built place...vessels...lift it up,...turn round to the things behind",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -7446,10 +9511,48 @@
       { "heading": "Parables on Prayer" },
       {
         "paragraph": true,
-        "text": "And he spake also a simile to them, that it behoveth "
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XVIII. may be divided into seven parts; ",
+                { "bibleLink": "Luke 18:1–8", "content": "v. 1–8" },
+                " simile of an importunate widow; ",
+                { "bibleLink": "Luke 18:9–15", "content": "v. 9–15" },
+                " of a Pharisee and a custom-house-officer; ",
+                { "bibleLink": "Luke 18:16–17", "content": "v. 16–17" },
+                " Jesus receives little children; ",
+                { "bibleLink": "Luke 18:18–27", "content": "v. 18–27" },
+                " cure of a rich chief; ",
+                { "bibleLink": "Luke 18:28–30", "content": "v. 28–30" },
+                " rewards of the reign of God; ",
+                { "bibleLink": "Luke 18:31–34", "content": "v. 31–34" },
+                " Jesus foretells his death and upraising; ",
+                { "bibleLink": "Luke 18:35–43", "content": "v. 35–43" },
+                " cure of a blind man."
+              ]
+            }
+          },
+          "And he spake also a simile to them, that it behoveth "
+        ]
       },
       { "text": "us", "marks": ["i"] },
-      " always to pray, and not to faint,"
+      " ",
+      {
+        "text": "always to pray, and not to faint",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "...that it is necessary always to pour forth before (God), and not to faint,” lit. retire greatly",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ","
     ]
   },
   {
@@ -7513,10 +9616,27 @@
     "book": "LUK",
     "chapter": 18,
     "verse": 8,
-    "content": {
-      "text": "I say to you, that He will execute the justice to them quickly; but the Son of Man having come, shall he find the faith upon the earth?”",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "I say to you, that He will execute the justice to them quickly; but the Son of Man having come, shall he ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "find the faith upon the earth",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "...find the stedfastness (of the widow seeking right) upon the land of Israel",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": "?”", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -7524,17 +9644,41 @@
     "verse": 9,
     "content": {
       "paragraph": true,
-      "text": "And he spake also unto certain who have been trusting in themselves that they were righteous, and have been despising the rest, this simile:"
+      "text": "And he spake also unto certain who have been trusting in themselves that they were righteous, and have been despising the rest, this simile:",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "upon themselves that they are just, and are thinking nothing of the rest",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
     "book": "LUK",
     "chapter": 18,
     "verse": 10,
-    "content": {
-      "text": "“Two men went up to the temple to pray, the one a Pharisee, and the other a taxgatherer;",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“Two men went up to the temple to ", "marks": ["woc"] },
+      {
+        "text": "pray",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "pour forth before (God)", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": ", the one a Pharisee, and the other a taxgatherer;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -7549,10 +9693,21 @@
     "book": "LUK",
     "chapter": 18,
     "verse": 12,
-    "content": {
-      "text": "I fast twice in the week, I give tithes of all things—as many as I possess.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "I fast twice in the ", "marks": ["woc"] },
+      {
+        "text": "week",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "sabbath", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": ", I give tithes of all things—as many as I possess.",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -7668,8 +9823,21 @@
     "content": [
       "And Jesus having seen him become very sorrowful, said, ",
       {
-        "text": "“How hardly shall those having riches enter into the reign of God!",
-        "marks": ["woc"]
+        "content": [
+          { "text": "“How hardly shall those having ", "marks": ["woc"] },
+          {
+            "text": "riches",
+            "marks": ["woc"],
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "...have the goods", "marks": ["i"] }
+              ]
+            }
+          },
+          { "text": " enter into the reign of God!", "marks": ["woc"] }
+        ]
       }
     ]
   },
@@ -7719,7 +9887,19 @@
     "content": [
       "and he said to them, ",
       {
-        "text": "“Verily I say to you, that there is not one who left house, or parents, or brothers, or wife, or children, for the sake of the reign of God,",
+        "text": "“Verily",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Amen", "marks": ["i"] },
+            ", i.e. stedfast!"
+          ]
+        }
+      },
+      {
+        "text": " I say to you, that there is not one who left house, or parents, or brothers, or wife, or children, for the sake of the reign of God,",
         "marks": ["woc"]
       }
     ]
@@ -7762,16 +9942,42 @@
     "book": "LUK",
     "chapter": 18,
     "verse": 33,
-    "content": {
-      "text": "and having scourged they shall put him to death, and on the third day he shall rise again.”",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and having scourged they shall put him to death, and on the third day he shall ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "rise again",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "death thoroughly...stand up", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": ".”", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
     "chapter": 18,
     "verse": 34,
-    "content": "And they none of these things understood, and this saying was hid from them, and they were not knowing the things said."
+    "content": {
+      "text": "And they none of these things understood, and this saying was hid from them, and they were not knowing the things said.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "sent (their heart) with none...was lying hid",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -7801,7 +10007,20 @@
     "book": "LUK",
     "chapter": 18,
     "verse": 38,
-    "content": "and he cried out, saying, “Jesus, Son of David, deal kindly with me;”"
+    "content": [
+      "and he ",
+      {
+        "text": "cried out",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "bellowed...pity me", "marks": ["i"] }
+          ]
+        }
+      },
+      ", saying, “Jesus, Son of David, deal kindly with me;”"
+    ]
   },
   {
     "book": "LUK",
@@ -7822,7 +10041,18 @@
     "content": [
       "saying, ",
       { "text": "“What wilt thou I shall do to thee?”", "marks": ["woc"] },
-      " and he said, “Sir, that I may receive sight.”"
+      " and he said, “Sir, that I may ",
+      {
+        "text": "receive sight",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...I may behold again", "marks": ["i"] }
+          ]
+        }
+      },
+      ".”"
     ]
   },
   {
@@ -7851,7 +10081,29 @@
       { "heading": "Zaccheus" },
       {
         "paragraph": true,
-        "text": "And having entered, he was passing through Jericho,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XIX. may be divided into six parts; ",
+                { "bibleLink": "Luke 19:1–10", "content": "v. 1–10" },
+                " Jesus and Zacchaeus; ",
+                { "bibleLink": "Luke 19:11–27", "content": "v. 11–27" },
+                " simile of the talents; ",
+                { "bibleLink": "Luke 19:28–36", "content": "v. 28–36" },
+                " Jesus and the ass’ colt; ",
+                { "bibleLink": "Luke 19:37–40", "content": "v. 37–40" },
+                " praises of the disciples and rebuke of the Pharisees; ",
+                { "bibleLink": "Luke 19:41–44", "content": "v. 41–44" },
+                " he bewails Jerusalem; ",
+                { "bibleLink": "Luke 19:45–48", "content": "v. 45–48" },
+                " purging of the temple and its results."
+              ]
+            }
+          },
+          "And having entered, he was passing through Jericho,"
+        ]
       }
     ]
   },
@@ -7896,7 +10148,16 @@
     "book": "LUK",
     "chapter": 19,
     "verse": 6,
-    "content": "and he having hastened did come down, and did receive him rejoicing;"
+    "content": {
+      "text": "and he having hastened did come down, and did receive him rejoicing;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          { "text": "received him under (his roof), rejoicing", "marks": ["i"] }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -7939,7 +10200,19 @@
     "book": "LUK",
     "chapter": 19,
     "verse": 11,
-    "content": "And while they are hearing these things, having added he spake a simile, because of his being nigh to Jerusalem, and of their thinking that the reign of God is about presently to be made manifest."
+    "content": {
+      "text": "And while they are hearing these things, having added he spake a simile, because of his being nigh to Jerusalem, and of their thinking that the reign of God is about presently to be made manifest.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "put forward...is about along with it to be fully manifest",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -8050,7 +10323,17 @@
     "verse": 23,
     "content": {
       "text": "and wherefore didst thou not give my money to the bank, and I, having come, with interest might have received it?",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "silver upon the table (of the bank),...used it with produce",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -8075,10 +10358,25 @@
     "book": "LUK",
     "chapter": 19,
     "verse": 26,
-    "content": {
-      "text": "for I say to you, that to every one having shall be given, and from him not having, also what he hath shall be taken from him,",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "for I say to you, that to every one ", "marks": ["woc"] },
+      {
+        "text": "having",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "holds", "marks": ["i"] },
+            ", i.e. uses."
+          ]
+        }
+      },
+      {
+        "text": " shall be given, and from him not having, also what he hath shall be taken from him,",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -8144,7 +10442,17 @@
     "book": "LUK",
     "chapter": 19,
     "verse": 33,
-    "content": "and while they are loosing the colt, its owners said unto them, “Why loose ye the colt?”"
+    "content": [
+      "and while they are loosing the colt, its ",
+      {
+        "text": "owners",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "lords, masters", "marks": ["i"] }]
+        }
+      },
+      " said unto them, “Why loose ye the colt?”"
+    ]
   },
   {
     "book": "LUK",
@@ -8162,7 +10470,20 @@
     "book": "LUK",
     "chapter": 19,
     "verse": 36,
-    "content": "And as he is going, they were spreading their garments in the way,"
+    "content": [
+      "And as he is going, they were ",
+      {
+        "text": "spreading",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...strewing-by-degrees...", "marks": ["i"] }
+          ]
+        }
+      },
+      " their garments in the way,"
+    ]
   },
   {
     "book": "LUK",
@@ -8245,7 +10566,23 @@
       { "heading": "Jesus in the Temple" },
       {
         "paragraph": true,
-        "text": "And having entered into the temple, he began to cast forth those selling in it, and those buying,"
+        "content": [
+          "And having entered into the temple, he began to cast forth those ",
+          {
+            "text": "selling",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "turned over...made (it) a public place",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          " in it, and those buying,"
+        ]
       }
     ]
   },
@@ -8280,7 +10617,43 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And it came to pass, on one of those days, as he is teaching the people in the temple, and proclaiming good news, the chief priests and the scribes, with the elders, came upon "
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XX. may be divided into six parts; ",
+                { "bibleLink": "Luke 20:1–8", "content": "v. 1–8" },
+                " Jesus silences the Jews; ",
+                { "bibleLink": "Luke 20:9–18", "content": "v. 9–18" },
+                " simile of wicked husbandmen; ",
+                { "bibleLink": "Luke 20:19–26", "content": "v. 19–26" },
+                " question about tribute; ",
+                { "bibleLink": "Luke 20:27–38", "content": "v. 27–38" },
+                " about the rising of the dead; ",
+                { "bibleLink": "Luke 20:39–44", "content": "v. 39–44" },
+                " David’s son and lord; ",
+                { "bibleLink": "Luke 20:45–47", "content": "v. 45–47" },
+                " warning against the writers."
+              ]
+            }
+          },
+          "And it came to pass, on one of those days, as he is teaching the people in the temple, and proclaiming good news,",
+          {
+            "text": " the chief priests and the scribes, with the elders, came upon ",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "...writers stood over him with the presbyters",
+                  "marks": ["i"]
+                },
+                ", i.e. elders."
+              ]
+            }
+          }
+        ]
       },
       { "text": "him", "marks": ["i"] },
       ","
@@ -8355,7 +10728,21 @@
       { "heading": "Wicked Husbandmen" },
       {
         "paragraph": true,
-        "text": "And he began to speak unto the people this simile: "
+        "content": [
+          "And he began to speak unto the people this ",
+          {
+            "text": "simile",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Or, ",
+                { "text": "parallel", "marks": ["i"] },
+                " saying."
+              ]
+            }
+          },
+          ": "
+        ]
       },
       {
         "text": "“A certain man planted a vineyard, and gave it out to husbandmen, and went abroad for a long time,",
@@ -8398,10 +10785,30 @@
     "book": "LUK",
     "chapter": 20,
     "verse": 13,
-    "content": {
-      "text": "“And the owner of the vineyard said, What shall I do? I will send my son—the beloved, perhaps having seen this one, they will do reverence;",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“And the owner of the vineyard said, What shall I do? I will send my son—the beloved, ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "perhaps",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "doubtless they will be turned fully round",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": " having seen this one, they will do reverence;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -8544,7 +10951,23 @@
       { "heading": "Sadducees" },
       {
         "paragraph": true,
-        "text": "And certain of the Sadducees, who are denying that there is a rising again, having come near, questioned him,"
+        "content": [
+          "And certain of the Sadducees, who are ",
+          {
+            "text": "denying",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "came forward...speak against there being any rising up",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          " that there is a rising again, having come near, questioned him,"
+        ]
       }
     ]
   },
@@ -8618,10 +11041,28 @@
     "book": "LUK",
     "chapter": 20,
     "verse": 37,
-    "content": {
-      "text": "“And that the dead are raised, even Moses shewed at the Bush, since he doth call the Lord, the God of Abraham, and the God of Isaac, and the God of Jacob;",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“And that the dead are raised, even Moses shewed ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "at",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "upon", "marks": ["i"] },
+            " — narrating the circumstance of the Bush burning."
+          ]
+        }
+      },
+      {
+        "text": " the Bush, since he doth call the Lord, the God of Abraham, and the God of Isaac, and the God of Jacob;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "LUK",
@@ -8677,8 +11118,18 @@
     "chapter": 20,
     "verse": 43,
     "content": {
-      "text": "till I shall make thine enemies thy footstool;",
-      "marks": ["woc"],
+      "content": [
+        { "text": "till I shall ", "marks": ["woc"] },
+        {
+          "text": "make",
+          "marks": ["woc"],
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "set or put", "marks": ["i"] }]
+          }
+        },
+        { "text": " thine enemies thy footstool;", "marks": ["woc"] }
+      ],
       "break": true
     }
   },
@@ -8727,7 +11178,33 @@
       { "heading": "The Widow’s Mites" },
       {
         "paragraph": true,
-        "text": "And having looked up, he saw those who did cast their gifts to the treasury—rich men,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XXI. may be divided into four parts; ",
+                { "bibleLink": "Luke 21:1–4", "content": "v. 1–4" },
+                " the widow’s mite; ",
+                { "bibleLink": "Luke 21:5–28", "content": "v. 5–28" },
+                " tokens of Jerusalem’s destruction; ",
+                { "bibleLink": "Luke 21:29–36", "content": "v. 29–36" },
+                " its time and manner; ",
+                { "bibleLink": "Luke 21:37, 38", "content": "v. 37, 38" },
+                " Jesus and the people."
+              ]
+            }
+          },
+          "And having looked up, he saw those who did cast their gifts to the ",
+          {
+            "text": "treasury",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "treasure-hold", "marks": ["i"] }]
+            }
+          },
+          "—rich men,"
+        ]
       }
     ]
   },
@@ -8873,7 +11350,17 @@
     "verse": 15,
     "content": {
       "text": "for I will give to you a mouth and wisdom that all your opposers shall not be able to refute or resist.",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "those set-against you...to speak-against or stand-against",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -8998,10 +11485,27 @@
     "book": "LUK",
     "chapter": 21,
     "verse": 28,
-    "content": {
-      "text": "and these things beginning to happen bend yourselves back, and lift up your heads, because your redemption doth draw nigh.”",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and these things beginning to happen bend yourselves back, and lift up your heads, because ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "your redemption doth draw nigh",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "...your full-release (from Jewish superstition and bigotry) draweth nigh",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": ".”", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -9056,7 +11560,17 @@
     "content": {
       "paragraph": true,
       "text": "“And take heed to yourselves, lest your hearts may be weighed down with surfeiting, and drunkenness, and anxieties of life, and suddenly that day may come on you,",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "hold off for yourselves...may be burdened by (in, with) a moving of the head,...cares (lit. partings, distractions) of living,...may stand over (or fully) upon you",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -9103,7 +11617,37 @@
       { "heading": "His Death and Resurrection" },
       {
         "paragraph": true,
-        "text": "And the feast of the unleavened food was coming nigh, that is called Passover,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XXII. may be divided into ten parts; ",
+                { "bibleLink": "Luke 22:1–6", "content": "v. 1–6" },
+                " Judas agrees to deliver up Jesus; ",
+                { "bibleLink": "Luke 22:7–13", "content": "v. 7–13" },
+                " preparation for the passover; ",
+                { "bibleLink": "Luke 22:14–23", "content": "v. 14–23" },
+                " institution of the supper; ",
+                { "bibleLink": "Luke 22:24–30", "content": "v. 24–30" },
+                " who is great; ",
+                { "bibleLink": "Luke 22:31–34", "content": "v. 31–34" },
+                " Jesus and Simon Peter; ",
+                { "bibleLink": "Luke 22:35–38", "content": "v. 35–38" },
+                " the two swords; ",
+                { "bibleLink": "Luke 22:39–46", "content": "v. 39–46" },
+                " Jesus praying and warning; ",
+                { "bibleLink": "Luke 22:47–54", "content": "v. 47–54" },
+                " Jesus delivered up, but heals the cut ear, and remonstrates; ",
+                { "bibleLink": "Luke 22:55–62", "content": "v. 55–62" },
+                " Peter denies him thrice; ",
+                { "bibleLink": "Luke 22:63–71", "content": "v. 63–71" },
+                " Jesus abused and condemned."
+              ]
+            }
+          },
+          "And the feast of the unleavened food was coming nigh, that is called Passover,"
+        ]
       }
     ]
   },
@@ -9160,7 +11704,17 @@
       "and he sent Peter and John, saying, ",
       {
         "text": "“Having gone on, prepare to us the passover, that we may eat;”",
-        "marks": ["woc"]
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "sent away...Passing on, make ready for us",
+              "marks": ["i"]
+            }
+          ]
+        }
       }
     ]
   },
@@ -9168,7 +11722,16 @@
     "book": "LUK",
     "chapter": 22,
     "verse": 9,
-    "content": "and they said to him, “Where wilt thou that we might prepare?”"
+    "content": {
+      "text": "and they said to him, “Where wilt thou that we might prepare?”",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          { "text": "dost thou wish (that) we may make ready?", "marks": ["i"] }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -9195,10 +11758,18 @@
     "book": "LUK",
     "chapter": 22,
     "verse": 12,
-    "content": {
-      "text": "and he shall show you a large upper room furnished, there make ready;”",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "and he shall show you a large upper room ", "marks": ["woc"] },
+      {
+        "text": "furnished",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "strewn", "marks": ["i"] }]
+        }
+      },
+      { "text": ", there make ready;”", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -9212,7 +11783,17 @@
     "verse": 14,
     "content": {
       "paragraph": true,
-      "text": "And when the hour come, he reclined (at meat), and the twelve apostles with him,"
+      "content": [
+        "And when the hour come, he ",
+        {
+          "text": "reclined",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "fell down", "marks": ["i"] }]
+          }
+        },
+        " (at meat), and the twelve apostles with him,"
+      ]
     }
   },
   {
@@ -9223,7 +11804,14 @@
       "and he said unto them, ",
       {
         "text": "“With desire I did desire to eat this passover with you before my suffering,",
-        "marks": ["woc"]
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "with full mind I was fully minded", "marks": ["i"] }
+          ]
+        }
       }
     ]
   },
@@ -9243,7 +11831,20 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And having taken a cup, having given thanks, he said, "
+        "content": [
+          "And having taken a cup, having ",
+          {
+            "text": "given thanks",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "rejoiced greatly", "marks": ["i"] }
+              ]
+            }
+          },
+          ", he said, "
+        ]
       },
       { "text": "“Take this and divide to yourselves,", "marks": ["woc"] }
     ]
@@ -9373,7 +11974,17 @@
     "verse": 29,
     "content": {
       "text": "and I appoint to you, as my Father did appoint to me, a kingdom,",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "set thoroughly to you (as my Father set thoroughly to me a kingdom)...",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -9382,7 +11993,17 @@
     "verse": 30,
     "content": {
       "text": "that ye may eat and may drink at my table, in my kingdom, and may sit on thrones, judging the twelve tribes of Israel.”",
-      "marks": ["woc"]
+      "marks": ["woc"],
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "...that ye may eat and drink at, (lit. upon) my table, and may sit upon thrones, judging the twelve tribes of the Israel",
+            "marks": ["i"]
+          }
+        ]
+      }
     }
   },
   {
@@ -9499,7 +12120,23 @@
     "book": "LUK",
     "chapter": 22,
     "verse": 41,
-    "content": "And he was withdrawn from them, as it were a stone’s cast, and having fallen on the knees he was praying,"
+    "content": [
+      "And he was withdrawn from them, as it were a stone’s cast, and having fallen on the knees he was ",
+      {
+        "text": "praying",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "set the knees, and was pouring forth before (God)",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "LUK",
@@ -9529,7 +12166,23 @@
     "book": "LUK",
     "chapter": 22,
     "verse": 45,
-    "content": "And having risen up from the prayer, having come unto the disciples, he found them sleeping from the sorrow,"
+    "content": [
+      "And having ",
+      {
+        "text": "risen up from the prayer",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "stood up from the pouring forth before (God),...from the grief",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", having come unto the disciples, he found them sleeping from the sorrow,"
+    ]
   },
   {
     "book": "LUK",
@@ -9562,8 +12215,21 @@
     "content": [
       "and Jesus said to him, ",
       {
-        "text": "“Judas, with a kiss the Son of Man dost thou deliver up?”",
-        "marks": ["woc"]
+        "content": [
+          { "text": "“Judas, with a ", "marks": ["woc"] },
+          {
+            "text": "kiss",
+            "marks": ["woc"],
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Or, ",
+                { "text": "friendship...givest thou over", "marks": ["i"] }
+              ]
+            }
+          },
+          { "text": " the Son of Man dost thou deliver up?”", "marks": ["woc"] }
+        ]
       }
     ]
   },
@@ -9588,7 +12254,14 @@
     "verse": 51,
     "content": [
       "and Jesus answering said, ",
-      { "text": "“Suffer ye thus far,”", "marks": ["woc"] },
+      {
+        "text": "“Suffer ye thus far,”",
+        "marks": ["woc"],
+        "foot": {
+          "type": "stu",
+          "content": "“it,” i.e. the ear; it is uncertain whether Jesus addressed the crowd or the disciples, more probably the former."
+        }
+      },
       " and having touched his ear, he healed him."
     ]
   },
@@ -9690,7 +12363,17 @@
     "book": "LUK",
     "chapter": 22,
     "verse": 64,
-    "content": "and having blindfolded him, they were striking him on the face, and were questioning him, saying, “Prophesy who he is who smote thee?”"
+    "content": [
+      "and having ",
+      {
+        "text": "blindfolded",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "covered him round", "marks": ["i"] }]
+        }
+      },
+      " him, they were striking him on the face, and were questioning him, saying, “Prophesy who he is who smote thee?”"
+    ]
   },
   {
     "book": "LUK",
@@ -9767,7 +12450,29 @@
       { "heading": "Jesus before Pilate" },
       {
         "paragraph": true,
-        "text": "And having risen, the whole multitude of them did lead him to Pilate,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XXIII. may be divided into six parts; ",
+                { "bibleLink": "Luke 23:1–7", "content": "v. 1–7" },
+                " Jesus before Pilate; ",
+                { "bibleLink": "Luke 23:8–11", "content": "v. 8–11" },
+                " before Herod; ",
+                { "bibleLink": "Luke 23:12–25", "content": "v. 12–25" },
+                " condemned by Pilate and given up; ",
+                { "bibleLink": "Luke 23:26–32", "content": "v. 26–32" },
+                " Jesus on the way to Calvary; ",
+                { "bibleLink": "Luke 23:33–49", "content": "v. 33–49" },
+                " his crucifixion and death; ",
+                { "bibleLink": "Luke 23:50–56", "content": "v. 50–56" },
+                " his burial."
+              ]
+            }
+          },
+          "And having risen, the whole multitude of them did lead him to Pilate,"
+        ]
       }
     ]
   },
@@ -9775,7 +12480,19 @@
     "book": "LUK",
     "chapter": 23,
     "verse": 2,
-    "content": "and began to accuse him, saying, “This one we found perverting the nation, and forbidding to give tribute to Caesar, saying himself to be Christ a king.”"
+    "content": {
+      "text": "and began to accuse him, saying, “This one we found perverting the nation, and forbidding to give tribute to Caesar, saying himself to be Christ a king.”",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "make (it) public against him...this one turning the nation thoroughly-round,...burdens to Caesar",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -9792,7 +12509,20 @@
     "book": "LUK",
     "chapter": 23,
     "verse": 4,
-    "content": "And Pilate said unto the chief priests, and the multitude, “I find no fault in this man;”"
+    "content": [
+      "And Pilate said unto the chief priests, and the multitude, “I find no ",
+      {
+        "text": "fault",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...no cause (of punishment)", "marks": ["i"] }
+          ]
+        }
+      },
+      " in this man;”"
+    ]
   },
   {
     "book": "LUK",
@@ -9836,13 +12566,38 @@
     "book": "LUK",
     "chapter": 23,
     "verse": 10,
-    "content": "And the chief priests and the scribes stood vehemently accusing him,"
+    "content": {
+      "text": "And the chief priests and the scribes stood vehemently accusing him,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "...the writers stood (before Herod), and very extensively made (it) public against him",
+            "marks": ["i"]
+          },
+          ", that he claimed to be the Son of God—the Christ."
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
     "chapter": 23,
     "verse": 11,
-    "content": "and Herod with his soldiers having set him at nought, and having mocked, having put around him gorgeous apparel, did send him back to Pilate,"
+    "content": {
+      "text": "and Herod with his soldiers having set him at nought, and having mocked, having put around him gorgeous apparel, did send him back to Pilate,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Or, ",
+          {
+            "text": "warriors thought nothing of him, and treated him entirely as a child, casting around him a shining robe",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "LUK",
@@ -9881,7 +12636,17 @@
     "book": "LUK",
     "chapter": 23,
     "verse": 16,
-    "content": "having chastised, therefore, I will release him,”"
+    "content": [
+      "having chastised, therefore, I will ",
+      {
+        "text": "release",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "loose him fully", "marks": ["i"] }]
+        }
+      },
+      " him,”"
+    ]
   },
   {
     "book": "LUK",
@@ -9899,7 +12664,17 @@
     "book": "LUK",
     "chapter": 23,
     "verse": 19,
-    "content": "who had been, because of a certain sedition made in the city, and murder, cast into prison."
+    "content": [
+      "who had been, because of a certain ",
+      {
+        "text": "sedition",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "rising happening", "marks": ["i"] }]
+        }
+      },
+      " made in the city, and murder, cast into prison."
+    ]
   },
   {
     "book": "LUK",
@@ -9989,10 +12764,21 @@
     "book": "LUK",
     "chapter": 23,
     "verse": 30,
-    "content": {
-      "text": "then they shall begin to say to the mountains, Fall on us, and to the hills, Cover us;—",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "then they shall begin to say to the mountains, Fall on us, and to the ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "hills",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ascents", "marks": ["i"] }]
+        }
+      },
+      { "text": ", Cover us;—", "marks": ["woc"] }
+    ]
   },
   {
     "book": "LUK",
@@ -10116,7 +12902,21 @@
     "book": "LUK",
     "chapter": 23,
     "verse": 45,
-    "content": "and the sun was darkened, and the vail of the sanctuary was rent in the midst,"
+    "content": [
+      "and the sun was darkened, and the vail of the ",
+      {
+        "text": "sanctuary",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "habitation", "marks": ["i"] },
+            " of God."
+          ]
+        }
+      },
+      " was rent in the midst,"
+    ]
   },
   {
     "book": "LUK",
@@ -10171,7 +12971,20 @@
     "book": "LUK",
     "chapter": 23,
     "verse": 52,
-    "content": "he, having gone near to Pilate, asked the body of Jesus,"
+    "content": [
+      "he, having gone near to Pilate, ",
+      {
+        "text": "asked",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...asked for himself", "marks": ["i"] }
+          ]
+        }
+      },
+      " the body of Jesus,"
+    ]
   },
   {
     "book": "LUK",
@@ -10205,7 +13018,29 @@
       { "heading": "The Resurrection" },
       {
         "paragraph": true,
-        "text": "And on the first of the sabbaths, at early dawn, they came to the tomb, bearing the spices they made ready, and certain "
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter XXIV. may be divided into six parts; ",
+                { "bibleLink": "Luke 24:1–7", "content": "v. 1–7" },
+                " the women are informed of Jesus’ rising; ",
+                { "bibleLink": "Luke 24:8–12", "content": "v. 8–12" },
+                " Peter visits the tomb; ",
+                { "bibleLink": "Luke 24:13–32", "content": "v. 13–32" },
+                " Jesus appears to two disciples; ",
+                { "bibleLink": "Luke 24:23–44", "content": "v. 23–44" },
+                " and to the eleven; ",
+                { "bibleLink": "Luke 24:45–49", "content": "v. 45–49" },
+                " he explains to them the Writings; ",
+                { "bibleLink": "Luke 24:50–53", "content": "v. 50–53" },
+                " he blesses them and is borne up to heaven."
+              ]
+            }
+          },
+          "And on the first of the sabbaths, at early dawn, they came to the tomb, bearing the spices they made ready, and certain "
+        ]
       },
       { "text": "others", "marks": ["i"] },
       " with them,"
@@ -10227,7 +13062,20 @@
     "book": "LUK",
     "chapter": 24,
     "verse": 4,
-    "content": "And it came to pass, while they are perplexed about this, that lo, two men stood by them in glittering apparel,"
+    "content": [
+      "And it came to pass, while they are ",
+      {
+        "text": "perplexed",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "thoroughly passageless", "marks": ["i"] }
+          ]
+        }
+      },
+      " about this, that lo, two men stood by them in glittering apparel,"
+    ]
   },
   {
     "book": "LUK",
@@ -10440,7 +13288,20 @@
       { "heading": "Return to Jerusalem" },
       {
         "paragraph": true,
-        "text": "And they, having risen up the same hour, turned back to Jerusalem, and found gathered together the eleven, and those with them,"
+        "content": [
+          "And they, having risen up the same hour, turned back to Jerusalem, and ",
+          {
+            "text": "found gathered together",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "...thronged together", "marks": ["i"] }
+              ]
+            }
+          },
+          " the eleven, and those with them,"
+        ]
       }
     ]
   },
@@ -10608,7 +13469,23 @@
     "book": "LUK",
     "chapter": 24,
     "verse": 52,
-    "content": "and they, having bowed before him, did turn back to Jerusalem with great joy,"
+    "content": [
+      "and they, ",
+      {
+        "text": "having bowed before him",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "having kissed forward (the hand) to him...",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", did turn back to Jerusalem with great joy,"
+    ]
   },
   {
     "book": "LUK",

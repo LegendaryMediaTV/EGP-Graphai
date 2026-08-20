@@ -5,7 +5,232 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, a called apostle of Jesus Christ, through the will of God, and Sosthenes the brother,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "1 Corinthians. Corinth was the capital city of Achaia in Greece, famous for its commerce and luxury, where Paul laboured for nearly two years (A.D. 52–3), gathering many Jews and Gentiles chiefly of the humbler class into the church of Christ (",
+                  { "bibleLink": "Acts 18:1–17", "content": "Acts 18. 1–17" },
+                  "), and was succeeded by Apollos (",
+                  {
+                    "bibleLink": "Acts 18:27, 28",
+                    "content": "ch. 18. 27, 28"
+                  },
+                  "; ",
+                  { "bibleLink": "Acts 19:1", "content": "19. 1" },
+                  "). Clement of Rome (A.D. 100), Polycarp (A.D. 108), and Irenaeus (A.D. 167), Ignatius (A.D. 101), Clement of Alex. (A.D. 192), quote the present Epistle as being the work of Paul, and indeed, no one has ever ventured to doubt it. From ",
+                  { "bibleLink": "1 Corinthians 5:9", "content": "ch. 5. 9" },
+                  " it would appear that he had written to the Corinthians an earlier letter which is now lost; but the present was written from Ephesus (",
+                  { "bibleLink": "1 Corinthians 16:8", "content": "ch. 16. 8" },
+                  ") about Easter or Pentecost A.D. 57, and sent by the hands of Stephanas, Fortunatus, and Achaicus. It may be divided into three parts, viz.:—"
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  {
+                    "text": "I. DISCUSSION BY WAY OF REPROOF.",
+                    "marks": ["b"]
+                  },
+                  " ",
+                  { "bibleLink": "1 Corinthians 1–6", "content": "ch. i–vi" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "1. Introduction, &c. ",
+                  { "bibleLink": "1 Corinthians 1:1–9", "content": "1. 1–9" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "2. Reproof of Dissention and schism, ",
+                  { "bibleLink": "1 Corinthians 1:10–31", "content": "1. 10" },
+                  "–",
+                  { "bibleLink": "1 Corinthians 4:1–21", "content": "4. 21" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "3. Reproof of Incestuous Person, ",
+                  {
+                    "bibleLink": "1 Corinthians 5:11–13",
+                    "content": "5. 11–13"
+                  },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "4. Reproof of Covetous and Litigious spirit, ",
+                  { "bibleLink": "1 Corinthians 6:1–11", "content": "6. 1–11" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "5. Reproof of Fornication, ",
+                  {
+                    "bibleLink": "1 Corinthians 6:12–20",
+                    "content": "6. 12–20"
+                  },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  {
+                    "text": "II. DISCUSSION BY WAY OF DIRECTION",
+                    "marks": ["b"]
+                  },
+                  ", ",
+                  {
+                    "bibleLink": "1 Corinthians 7:1–40",
+                    "content": "ch. 7. 1"
+                  },
+                  "–",
+                  { "bibleLink": "1 Corinthians 15:1–58", "content": "15. 58" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "1. On Marriage and Celibacy, ",
+                  { "bibleLink": "1 Corinthians 7:1–40", "content": "7. 1–40" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "2. On Things offered to Idols, ",
+                  { "bibleLink": "1 Corinthians 8:1–13", "content": "8. 1–13" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "3. Digression on Paul’s conduct, ",
+                  { "bibleLink": "1 Corinthians 9:1–27", "content": "9. 1–27" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "4. Digression on Corinthians’ conduct, ",
+                  {
+                    "bibleLink": "1 Corinthians 10:1–22",
+                    "content": "10. 1–22"
+                  },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "5. On Public Worship, ",
+                  {
+                    "bibleLink": "1 Corinthians 11:1–16",
+                    "content": "11. 1–16"
+                  },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "6. On the Lord’s Supper, ",
+                  {
+                    "bibleLink": "1 Corinthians 11:17–34",
+                    "content": "11. 17–34"
+                  },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "7. On Spiritual Gifts, ",
+                  { "bibleLink": "1 Corinthians 12:1–31", "content": "12. 1" },
+                  "–",
+                  { "bibleLink": "1 Corinthians 14:1–40", "content": "14. 40" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "8. On the Resurrection, ",
+                  {
+                    "bibleLink": "1 Corinthians 15:1–58",
+                    "content": "15. 1–58"
+                  },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  { "text": "III. THE CONCLUSION", "marks": ["b"] },
+                  ", ",
+                  {
+                    "bibleLink": "1 Corinthians 16:1–24",
+                    "content": "ch. 16. 1–24"
+                  },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "1. Various particulars, ",
+                  {
+                    "bibleLink": "1 Corinthians 16:1–12",
+                    "content": "v. 1–12"
+                  },
+                  "."
+                ],
+                "break": true
+              },
+              "2. Admonitions and Salutations, ",
+              { "bibleLink": "1 Corinthians 16:13–24", "content": "v. 13–24" },
+              "."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into four parts; ",
+              { "bibleLink": "1 Corinthians 1:1–3", "content": "v. 1–3" },
+              " Paul’s salutation; ",
+              { "bibleLink": "1 Corinthians 1:4–8", "content": "v. 4–8" },
+              " his thanksgiving; ",
+              { "bibleLink": "1 Corinthians 1:9–21", "content": "v. 9–21" },
+              " his call to unity, and reproof of party spirit; ",
+              { "bibleLink": "1 Corinthians 1:22–31", "content": "v. 22–31" },
+              " the true way of preaching the gospel."
+            ]
+          }
+        },
+        "Paul, a called apostle of Jesus Christ, through the will of God, and Sosthenes the brother,"
+      ]
     }
   },
   {
@@ -18,7 +243,19 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 3,
-    "content": "Grace to you and peace from God our Father and the Lord Jesus Christ!"
+    "content": [
+      {
+        "text": "Grace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "that which causes leaping with joy.", "marks": ["i"] }
+          ]
+        }
+      },
+      " to you and peace from God our Father and the Lord Jesus Christ!"
+    ]
   },
   {
     "book": "1CO",
@@ -164,7 +401,23 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 23,
-    "content": "also we—we preach Christ crucified, to Jews, indeed, a stumbling-block, and to Greeks foolishness,"
+    "content": [
+      "also we—we ",
+      {
+        "text": "preach",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "cry or proclaim as heralds...to Jews indeed a...to Hellenes.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " Christ crucified, to Jews, indeed, a stumbling-block, and to Greeks foolishness,"
+    ]
   },
   {
     "book": "1CO",
@@ -176,7 +429,17 @@
     "book": "1CO",
     "chapter": 1,
     "verse": 25,
-    "content": "because the foolishness of God is wiser than men, and the weakness of God is stronger than men;"
+    "content": [
+      "because the foolishness of God is wiser than men, and the ",
+      {
+        "text": "weakness",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "infirmity.", "marks": ["i"] }]
+        }
+      },
+      " of God is stronger than men;"
+    ]
   },
   {
     "book": "1CO",
@@ -188,14 +451,34 @@
         "text": "for see your calling, brethren, that not many "
       },
       { "text": "are", "marks": ["i"] },
-      " wise according to the flesh, not many mighty, not many noble;"
+      " wise according to the flesh, not many mighty, not many ",
+      {
+        "text": "noble",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "well-born.", "marks": ["i"] }]
+        }
+      },
+      ";"
     ]
   },
   {
     "book": "1CO",
     "chapter": 1,
     "verse": 27,
-    "content": "but the foolish things of the world did God choose, that the wise He may put to shame; and the weak things of the world did God choose that He may put to shame the strong;"
+    "content": {
+      "text": "but the foolish things of the world did God choose, that the wise He may put to shame; and the weak things of the world did God choose that He may put to shame the strong;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "laid out for himself...that he might thoroughly shame...did lay out for himself the infirm things...that he might thoroughly shame.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "1CO",
@@ -227,20 +510,62 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And I, having come unto you, brethren, came—not in superiority of discourse or wisdom—declaring to you the testimony of God,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter II may be divided into three parts; ",
+              { "bibleLink": "1 Corinthians 2:1–5", "content": "v. 1–5" },
+              " Paul’s ministry; ",
+              { "bibleLink": "1 Corinthians 2:6–11", "content": "v. 6–11" },
+              " the hidden wisdom of God; ",
+              { "bibleLink": "1 Corinthians 2:12–16", "content": "v. 12–16" },
+              " the natural and the spiritual man."
+            ]
+          }
+        },
+        "And I, having come unto you, brethren, came—not in superiority of discourse or wisdom—declaring to you the testimony of God,"
+      ]
     }
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 2,
-    "content": "for I decided not to know any thing among you, except Jesus Christ, and him crucified;"
+    "content": [
+      "for I ",
+      {
+        "text": "decided",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "judged not to have known.", "marks": ["i"] }
+          ]
+        }
+      },
+      " not to know any thing among you, except Jesus Christ, and him crucified;"
+    ]
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 3,
-    "content": "and I, in weakness, and in fear, and in much trembling, was with you;"
+    "content": [
+      "and I, in ",
+      {
+        "text": "weakness",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "came to you in infirmity.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", and in fear, and in much trembling, was with you;"
+    ]
   },
   {
     "book": "1CO",
@@ -260,14 +585,43 @@
     "verse": 6,
     "content": {
       "paragraph": true,
-      "text": "And wisdom we speak among the perfect, and wisdom not of this age, nor of the rulers of this age—of those becoming useless,"
+      "content": [
+        "And wisdom we speak among the ",
+        {
+          "text": "perfect",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Or, ",
+              { "text": "complete, finished or ended.", "marks": ["i"] }
+            ]
+          }
+        },
+        ", and wisdom not of this age, nor of the rulers of this age—of those becoming useless,"
+      ]
     }
   },
   {
     "book": "1CO",
     "chapter": 2,
     "verse": 7,
-    "content": "but we speak the hidden wisdom of God in a secret, that God foreordained before the ages to our glory,"
+    "content": [
+      "but we speak the hidden wisdom of God in a secret, that God ",
+      {
+        "text": "foreordained",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "which has been fully hidden,...which God marked out beforehand (or publicly) before the ages, with a view to our glory.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " before the ages to our glory,"
+    ]
   },
   {
     "book": "1CO",
@@ -311,7 +665,21 @@
     "content": [
       "And we the spirit of the world did not receive, but the Spirit that ",
       { "text": "is", "marks": ["i"] },
-      " of God, that we may know the things conferred by God on us,"
+      " of God, that we may know the things conferred ",
+      {
+        "text": "by God",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "we received...out of God...were granted to us by (lit. under) God.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " on us,"
     ]
   },
   {
@@ -325,7 +693,21 @@
     "chapter": 2,
     "verse": 14,
     "content": [
-      "and the natural man doth not receive the things of the Spirit of God, for to him they are foolishness, and he is not able to know ",
+      "and the ",
+      {
+        "text": "natural",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "but an animal (or sensual) man...spiritually judged-thoroughly.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " man doth not receive the things of the Spirit of God, for to him they are foolishness, and he is not able to know ",
       { "text": "them", "marks": ["i"] },
       ", because spiritually they are discerned;"
     ]
@@ -340,7 +722,23 @@
     "book": "1CO",
     "chapter": 2,
     "verse": 16,
-    "content": "for who did know the mind of the Lord that he shall instruct Him? and we—we have the mind of Christ."
+    "content": [
+      "for who did know the mind of the Lord that he shall ",
+      {
+        "text": "instruct",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "who knew...who shall bring it together.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " Him? and we—we have the mind of Christ."
+    ]
   },
   {
     "book": "1CO",
@@ -348,7 +746,27 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And I, brethren, was not able to speak to you as to spiritual, but as to fleshly—as to babes in Christ;"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter III may be divided into five parts; ",
+              { "bibleLink": "1 Corinthians 3:1–4", "content": "v. 1–4" },
+              " condition of the Corinthians; ",
+              { "bibleLink": "1 Corinthians 3:5–7", "content": "v. 5–7" },
+              " dissuasives from division; ",
+              { "bibleLink": "1 Corinthians 3:8–17", "content": "v. 8–17" },
+              " persuasives to concord; ",
+              { "bibleLink": "1 Corinthians 3:18–20", "content": "v. 18–20" },
+              " caution to teachers; ",
+              { "bibleLink": "1 Corinthians 3:21–23", "content": "v. 21–23" },
+              " admonition to all."
+            ]
+          }
+        },
+        "And I, brethren, was not able to speak to you as to spiritual, but as to fleshly—as to babes in Christ;"
+      ]
     }
   },
   {
@@ -520,7 +938,27 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Let a man so reckon us as officers of Christ, and stewards of the secrets of God,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter IV. may be divided into five parts; ",
+              { "bibleLink": "1 Corinthians 4:1, 2", "content": "v. 1, 2" },
+              " how we ought to think of the under-rowers of Christ; ",
+              { "bibleLink": "1 Corinthians 4:3–5", "content": "v. 3–5" },
+              " not to judge hastily; ",
+              { "bibleLink": "1 Corinthians 4:6, 7", "content": "v. 6, 7" },
+              " against partiality and pride; ",
+              { "bibleLink": "1 Corinthians 4:8–13", "content": "v. 8–13" },
+              " doings and sufferings of the apostles; ",
+              { "bibleLink": "1 Corinthians 4:14–21", "content": "v. 14–21" },
+              " Paul’s relation to the Corinthians."
+            ]
+          }
+        },
+        "Let a man so reckon us as officers of Christ, and stewards of the secrets of God,"
+      ]
     }
   },
   {
@@ -590,7 +1028,20 @@
     "book": "1CO",
     "chapter": 4,
     "verse": 11,
-    "content": "unto the present hour we both hunger, and thirst, and are naked, and are buffeted, and wander about,"
+    "content": [
+      "unto the present hour we both hunger, and thirst, and are naked, and are buffeted, and ",
+      {
+        "text": "wander about",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "and stand not still.", "marks": ["i"] }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "1CO",
@@ -599,7 +1050,19 @@
     "content": [
       "and labour, working with ",
       { "text": "our", "marks": ["i"] },
-      " own hands; being reviled, we bless; being persecuted, we suffer;"
+      {
+        "text": " own hands; being reviled, we bless; being persecuted, we suffer;",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "toil...bless (lit. speak well), being pursued (or caused to flee), we hold up.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      }
     ]
   },
   {
@@ -674,7 +1137,25 @@
       { "heading": "Moral Disorders" },
       {
         "paragraph": true,
-        "text": "Whoredom is actually heard of among you, and such whoredom as is not even named among the nations—as that one hath the wife of the father!—"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter V. may be divided into four parts; ",
+                { "bibleLink": "1 Corinthians 5:1, 2", "content": "v. 1, 2" },
+                " the evil report; ",
+                { "bibleLink": "1 Corinthians 5:3–5", "content": "v. 3–5" },
+                " expulsion of the offender; ",
+                { "bibleLink": "1 Corinthians 5:6–8", "content": "v. 6–8" },
+                " of the old leaven; ",
+                { "bibleLink": "1 Corinthians 5:9–13", "content": "v. 9–13" },
+                " of the expulsion of other offenders."
+              ]
+            }
+          },
+          "Whoredom is actually heard of among you, and such whoredom as is not even named among the nations—as that one hath the wife of the father!—"
+        ]
       }
     ]
   },
@@ -767,7 +1248,21 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Dare any one of you, having a matter with the other, go to be judged before the unrighteous, and not before the saints?"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter VI. may be divided into two parts; ",
+              { "bibleLink": "1 Corinthians 6:1–11", "content": "v. 1–11" },
+              " against lawsuits, and unrighteousness; ",
+              { "bibleLink": "1 Corinthians 6:12–20", "content": "v. 12–20" },
+              " against whoredom."
+            ]
+          }
+        },
+        "Dare any one of you, having a matter with the other, go to be judged before the unrighteous, and not before the saints?"
+      ]
     }
   },
   {
@@ -825,7 +1320,17 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 10,
-    "content": "nor thieves, nor covetous, nor drunkards, nor revilers, nor extortioners, the reign of God shall inherit."
+    "content": [
+      "nor thieves, nor covetous, nor drunkards, nor ",
+      {
+        "text": "revilers",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "railers.", "marks": ["i"] }]
+        }
+      },
+      ", nor extortioners, the reign of God shall inherit."
+    ]
   },
   {
     "book": "1CO",
@@ -880,7 +1385,20 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 17,
-    "content": "And he who is joined to the Lord is one spirit;"
+    "content": [
+      "And he who is ",
+      {
+        "text": "joined",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "glued or is gluing himself.", "marks": ["i"] }
+          ]
+        }
+      },
+      " to the Lord is one spirit;"
+    ]
   },
   {
     "book": "1CO",
@@ -898,7 +1416,23 @@
     "book": "1CO",
     "chapter": 6,
     "verse": 20,
-    "content": "for ye were bought with a price; glorify, then, God in your body and in your spirit, which are God’s."
+    "content": [
+      "for ye were ",
+      {
+        "text": "bought",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "were made public or gathered into a market-place.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " with a price; glorify, then, God in your body and in your spirit, which are God’s."
+    ]
   },
   {
     "book": "1CO",
@@ -906,6 +1440,24 @@
     "verse": 1,
     "content": [
       { "heading": "Questions Regarding Marriage" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter VII. may be divided into five parts; ",
+            { "bibleLink": "1 Corinthians 7:1–7", "content": "v. 1–7" },
+            " of the married state, and married persons; ",
+            { "bibleLink": "1 Corinthians 7:8, 9", "content": "v. 8, 9" },
+            " of unmarried and widowed; ",
+            { "bibleLink": "1 Corinthians 7:10–24", "content": "v. 10–24" },
+            " divorce and separation; ",
+            { "bibleLink": "1 Corinthians 7:25–38", "content": "v. 25–38" },
+            " of single unmarried persons; ",
+            { "bibleLink": "1 Corinthians 7:39, 40", "content": "v. 39, 40" },
+            " second marriages lawful."
+          ]
+        }
+      },
       {
         "paragraph": true,
         "text": "And concerning the things of which ye wrote to me: good "
@@ -924,7 +1476,20 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 3,
-    "content": "to the wife let the husband the due benevolence render, and in like manner also the wife to the husband;"
+    "content": [
+      "to the wife let the husband the due ",
+      {
+        "text": "benevolence",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "good mind or thought.", "marks": ["i"] }
+          ]
+        }
+      },
+      " render, and in like manner also the wife to the husband;"
+    ]
   },
   {
     "book": "1CO",
@@ -942,7 +1507,23 @@
     "book": "1CO",
     "chapter": 7,
     "verse": 6,
-    "content": "and this I say by way of concurrence—not of command,"
+    "content": [
+      "and this I say by way of ",
+      {
+        "text": "concurrence",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "according to concurrence (lit. joint-opinion), not according to a higher arrangement.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "—not of command,"
+    ]
   },
   {
     "book": "1CO",
@@ -1202,6 +1783,20 @@
     "content": [
       { "heading": "Social Questions" },
       {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter VIII. may be divided into three parts; ",
+            { "bibleLink": "1 Corinthians 8:1–3", "content": "v. 1–3" },
+            " knowledge not so good as love; ",
+            { "bibleLink": "1 Corinthians 8:4–7", "content": "v. 4–7" },
+            " an idol is nothing, but all have not this knowledge; ",
+            { "bibleLink": "1 Corinthians 8:8–13", "content": "v. 8–13" },
+            " victuals are nothing compared to Christian love."
+          ]
+        }
+      },
+      {
         "paragraph": true,
         "text": "And concerning the things sacrificed to idols, we have known that we all have knowledge: knowledge puffeth up, but love buildeth up;"
       }
@@ -1307,7 +1902,25 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Am not I an apostle? am not I free? Jesus Christ our Lord have I not seen? my work are not ye in the Lord?"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter IX. may be divided into four parts; ",
+              { "bibleLink": "1 Corinthians 9:1–6", "content": "v. 1–6" },
+              " Paul asserts his right as an apostle; ",
+              { "bibleLink": "1 Corinthians 9:7–14", "content": "v. 7–14" },
+              " the worker is worthy of his hire; ",
+              { "bibleLink": "1 Corinthians 9:15–23", "content": "v. 15–23" },
+              " his own disinterested conduct; ",
+              { "bibleLink": "1 Corinthians 9:24–27", "content": "v. 24–27" },
+              " the Christian life compared to a race."
+            ]
+          }
+        },
+        "Am not I an apostle? am not I free? Jesus Christ our Lord have I not seen? my work are not ye in the Lord?"
+      ]
     }
   },
   {
@@ -1322,7 +1935,22 @@
     "verse": 3,
     "content": {
       "paragraph": true,
-      "text": "My defence to those who examine me in this;"
+      "content": [
+        {
+          "text": "My defence",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "apology to those judging me thoroughly is this.",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        " to those who examine me in this;"
+      ]
     }
   },
   {
@@ -1488,7 +2116,18 @@
     "chapter": 9,
     "verse": 27,
     "content": [
-      "but I chastise my body, and bring ",
+      "but I ",
+      {
+        "text": "chastise",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "strike under the eye,", "marks": ["i"] }
+          ]
+        }
+      },
+      " my body, and bring ",
       { "text": "it", "marks": ["i"] },
       " into servitude, lest by any means, having preached to others—I myself may become disapproved."
     ]
@@ -1499,14 +2138,48 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And I do not wish you to be ignorant, brethren, that all our fathers were under the cloud, and all passed through the sea,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter X. may be divided into four parts; ",
+              { "bibleLink": "1 Corinthians 10:1–4", "content": "v. 1–4" },
+              " Israelitish blessings typical of Christian ones; ",
+              { "bibleLink": "1 Corinthians 10:5–13", "content": "v. 5–13" },
+              " their punishments also a warning to us; ",
+              { "bibleLink": "1 Corinthians 10:14–22", "content": "v. 14–22" },
+              " against idolatry and self-pleasing; ",
+              { "bibleLink": "1 Corinthians 10:23–33", "content": "v. 23–33" },
+              " regarding idol-sacrifices."
+            ]
+          }
+        },
+        "And I do not wish you to be ignorant, brethren, that all our fathers were under the cloud, and all passed through the sea,"
+      ]
     }
   },
   {
     "book": "1CO",
     "chapter": 10,
     "verse": 2,
-    "content": "and all to Moses were baptized in the cloud, and in the sea;"
+    "content": [
+      "and all to Moses were ",
+      {
+        "text": "baptized",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "and did all baptize themselves with a view to Moses (as their leader) in the cloud (which dropt as it were upon them), and in the sea (by going down into its depths);",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " in the cloud, and in the sea;"
+    ]
   },
   {
     "book": "1CO",
@@ -1597,7 +2270,20 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 15,
-    "content": "as to wise men I speak—judge ye what I say:"
+    "content": [
+      "as to ",
+      {
+        "text": "wise",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "prudent, or full of mind.", "marks": ["i"] }
+          ]
+        }
+      },
+      " men I speak—judge ye what I say:"
+    ]
   },
   {
     "book": "1CO",
@@ -1642,7 +2328,20 @@
     "book": "1CO",
     "chapter": 10,
     "verse": 22,
-    "content": "do we arouse the Lord to jealousy? are we stronger than He?"
+    "content": [
+      "do we arouse the Lord to ",
+      {
+        "text": "jealousy",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "shall we make the Lord very zealous?", "marks": ["i"] }
+          ]
+        }
+      },
+      "? are we stronger than He?"
+    ]
   },
   {
     "book": "1CO",
@@ -1703,7 +2402,15 @@
     "content": [
       "and conscience, I say, not of thyself, but of the other, for why ",
       { "text": "is it", "marks": ["i"] },
-      " that my liberty is judged by another’s conscience?"
+      " that my ",
+      {
+        "text": "liberty",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "freedom.", "marks": ["i"] }]
+        }
+      },
+      " is judged by another’s conscience?"
     ]
   },
   {
@@ -1738,6 +2445,20 @@
     "chapter": 11,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XI. may be divided into three parts; ",
+            { "bibleLink": "1 Corinthians 11:1–16", "content": "v. 1–16" },
+            " directions as to prayer and praise in the public assembly; ",
+            { "bibleLink": "1 Corinthians 11:17–22", "content": "v. 17–22" },
+            " as to divisions therein; ",
+            { "bibleLink": "1 Corinthians 11:23–34", "content": "v. 23–34" },
+            " as to the Lord’s Supper."
+          ]
+        }
+      },
       { "paragraph": true, "text": "Followers of me become ye, as I also " },
       { "text": "am", "marks": ["i"] },
       " of Christ."
@@ -1768,7 +2489,23 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 4,
-    "content": "Every man praying or prophesying, having the head covered, doth dishonour his head,"
+    "content": [
+      "Every man ",
+      {
+        "text": "praying",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "pouring forth before (God) or prophesying (i.e. speaking publicly) having (any thing) upon the head, shameth his head thoroughly.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " or prophesying, having the head covered, doth dishonour his head,"
+    ]
   },
   {
     "book": "1CO",
@@ -1898,7 +2635,17 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 20,
-    "content": "ye, then, coming together at the same place—it is not to eat the Lord’s supper;"
+    "content": [
+      "ye, then, coming together ",
+      {
+        "text": "at the same place",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "at one time.", "marks": ["i"] }]
+        }
+      },
+      "—it is not to eat the Lord’s supper;"
+    ]
   },
   {
     "book": "1CO",
@@ -1948,7 +2695,17 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 26,
-    "content": "for as often as ye may eat this bread, and this cup may drink, the death of the Lord ye do shew forth—till he may come;"
+    "content": [
+      "for as often as ye may eat this bread, and this cup may drink, the death of the Lord ye do ",
+      {
+        "text": "shew forth",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "tell thoroughly.", "marks": ["i"] }]
+        }
+      },
+      "—till he may come;"
+    ]
   },
   {
     "book": "1CO",
@@ -1966,7 +2723,20 @@
     "book": "1CO",
     "chapter": 11,
     "verse": 29,
-    "content": "for he who is eating and drinking unworthily, judgment to himself he doth eat and drink—not discerning the body of the Lord."
+    "content": [
+      "for he who is eating and drinking ",
+      {
+        "text": "unworthily",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "“unled on” by the spirit", "marks": ["i"] }
+          ]
+        }
+      },
+      ", judgment to himself he doth eat and drink—not discerning the body of the Lord."
+    ]
   },
   {
     "book": "1CO",
@@ -1975,7 +2745,17 @@
     "content": [
       "Because of this, among you many ",
       { "text": "are", "marks": ["i"] },
-      " weak and sickly, and sleep do many;"
+      {
+        "text": " weak and sickly, and sleep do many;",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "infirm...are asleep,", "marks": ["i"] },
+            " spiritually."
+          ]
+        }
+      }
     ]
   },
   {
@@ -2009,6 +2789,20 @@
     "content": [
       { "heading": "Spiritual Gifts" },
       {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XII. may be divided into three parts; ",
+            { "bibleLink": "1 Corinthians 12:1–11", "content": "v. 1–11" },
+            " working of the Spirit and diversity of spiritual gifts; ",
+            { "bibleLink": "1 Corinthians 12:12–21", "content": "v. 12–21" },
+            " unity and diversity of Christians; ",
+            { "bibleLink": "1 Corinthians 12:22–31", "content": "v. 22–31" },
+            " their mutual sympathies and gifts."
+          ]
+        }
+      },
+      {
         "paragraph": true,
         "text": "And concerning the spiritual things, brethren, I do not wish you to be ignorant;"
       }
@@ -2038,7 +2832,17 @@
     "verse": 4,
     "content": {
       "paragraph": true,
-      "text": "And there are diversities of gifts, and the same Spirit;"
+      "content": [
+        "And there are diversities of ",
+        {
+          "text": "gifts",
+          "foot": {
+            "type": "trn",
+            "content": ["Or, ", { "text": "graces.", "marks": ["i"] }]
+          }
+        },
+        ", and the same Spirit;"
+      ]
     }
   },
   {
@@ -2208,7 +3012,32 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 28,
-    "content": "And some, indeed, did God set in the assembly, first apostles, secondly prophets, thirdly teachers, afterwards powers, afterwards gifts of healings, helpings, governings, divers kinds of tongues;"
+    "content": [
+      "And some, indeed, did God set in the assembly, first apostles, secondly prophets, thirdly teachers, afterwards powers, afterwards gifts of healings, ",
+      {
+        "text": "helpings",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "“taking hold over-against”", "marks": ["i"] }
+          ]
+        }
+      },
+      ", ",
+      {
+        "text": "governings",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "steerings", "marks": ["i"] },
+            " as of a ship."
+          ]
+        }
+      },
+      ", divers kinds of tongues;"
+    ]
   },
   {
     "book": "1CO",
@@ -2235,7 +3064,19 @@
     "book": "1CO",
     "chapter": 12,
     "verse": 31,
-    "content": "and desire earnestly the better gifts; and yet a far excelling way do I shew to you:"
+    "content": {
+      "text": "and desire earnestly the better gifts; and yet a far excelling way do I shew to you:",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "be zealous of the best graces...far more excellent way.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "1CO",
@@ -2243,6 +3084,20 @@
     "verse": 1,
     "content": [
       { "heading": "The More Excellent Way" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XIII. may be divided into three parts; ",
+            { "bibleLink": "1 Corinthians 13:1–3", "content": "v. 1–3" },
+            " love the best grace; ",
+            { "bibleLink": "1 Corinthians 13:4–8", "content": "v. 4–8" },
+            " its praise, workings, and perpetuity; ",
+            { "bibleLink": "1 Corinthians 13:9–13", "content": "v. 9–13" },
+            " our present state imperfect, and the sum of all."
+          ]
+        }
+      },
       {
         "paragraph": true,
         "text": "If with the tongues of men and of messengers I speak, and have not love, I have become brass sounding, or a cymbal tinkling;"
@@ -2277,13 +3132,35 @@
     "book": "1CO",
     "chapter": 13,
     "verse": 6,
-    "content": "rejoiceth not over the unrighteousness, and rejoiceth with the truth;"
+    "content": {
+      "text": "rejoiceth not over the unrighteousness, and rejoiceth with the truth;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "leapeth not for joy over the unrighteousness; but leapeth for joy along with the truth.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "1CO",
     "chapter": 13,
     "verse": 7,
-    "content": "all things it beareth, all it believeth, all it hopeth, all it endureth."
+    "content": [
+      "all things it ",
+      {
+        "text": "beareth",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "covereth.", "marks": ["i"] }]
+        }
+      },
+      ", all it believeth, all it hopeth, all it endureth."
+    ]
   },
   {
     "book": "1CO",
@@ -2339,6 +3216,18 @@
     "verse": 1,
     "content": [
       { "heading": "The Gift of Tongues" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XIV. may be divided into two parts; ",
+            { "bibleLink": "1 Corinthians 14:1–19", "content": "v. 1–19" },
+            " commendation of prophesying; ",
+            { "bibleLink": "1 Corinthians 14:20–40", "content": "v. 20–40" },
+            " directions regarding the use of tongues."
+          ]
+        }
+      },
       {
         "paragraph": true,
         "text": "Pursue the love, and seek earnestly the spiritual things, and rather that ye may prophecy,"
@@ -2408,7 +3297,17 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 10,
-    "content": "There are, it may be, so many kinds of voices in the world, and none of them is unmeaning,"
+    "content": [
+      "There are, it may be, so many kinds of voices in the world, and none of them is ",
+      {
+        "text": "unmeaning",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "voiceless.", "marks": ["i"] }]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "1CO",
@@ -2429,7 +3328,21 @@
     "content": [
       "wherefore he who is speaking in an ",
       { "text": "unknown", "marks": ["i"] },
-      " tongue—let him pray that he may interpret;"
+      " tongue—let him pray that he may ",
+      {
+        "text": "interpret",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "with a language pour forth before (God), that (one) may interpret thoroughly.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ";"
     ]
   },
   {
@@ -2439,7 +3352,15 @@
     "content": [
       "for if I pray in an ",
       { "text": "unknown", "marks": ["i"] },
-      " tongue, my spirit doth pray, and my understanding is unfruitful."
+      " tongue, my spirit doth pray, and my ",
+      {
+        "text": "understanding",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "mind.", "marks": ["i"] }]
+        }
+      },
+      " is unfruitful."
     ]
   },
   {
@@ -2539,7 +3460,19 @@
     "content": [
       "if an ",
       { "text": "unknown", "marks": ["i"] },
-      " tongue any one do speak, by two, or at the most, by three, and in turn, and let one interpret;"
+      {
+        "text": " tongue any one do speak, by two, or at the most, by three, and in turn, and let one interpret;",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "speaks in (or with)...enterpret thoroughly.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      }
     ]
   },
   {
@@ -2552,7 +3485,20 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 29,
-    "content": "And prophets—let two or three speak, and let the others discern,"
+    "content": [
+      "And prophets—let two or three speak, and let the others ",
+      {
+        "text": "discern",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "others judge thoroughly.", "marks": ["i"] }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "1CO",
@@ -2574,7 +3520,19 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 32,
-    "content": "and the spiritual gift of prophets to prophets are subject,"
+    "content": {
+      "text": "and the spiritual gift of prophets to prophets are subject,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "spirits (or spiritual gifts) of prophets are arranged (or arrange themselves) under prophets.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "1CO",
@@ -2632,7 +3590,19 @@
     "book": "1CO",
     "chapter": 14,
     "verse": 40,
-    "content": "let all things be done decently and in order."
+    "content": {
+      "text": "let all things be done decently and in order.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "becomingly, and according to arrangement,",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "1CO",
@@ -2640,6 +3610,26 @@
     "verse": 1,
     "content": [
       { "heading": "The Resurrection of the Dead" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XV. may be divided into six parts; ",
+            { "bibleLink": "1 Corinthians 15:1–4", "content": "v. 1–4" },
+            " sum of the good-news; ",
+            { "bibleLink": "1 Corinthians 15:5–11", "content": "v. 5–11" },
+            " proof of Christ’s up-rising; ",
+            { "bibleLink": "1 Corinthians 15:12–19", "content": "v. 12–19" },
+            " consequences of denying it; ",
+            { "bibleLink": "1 Corinthians 15:20–34", "content": "v. 20–34" },
+            " a general up-rising maintained; ",
+            { "bibleLink": "1 Corinthians 15:35–49", "content": "v. 35–49" },
+            " its manner illustrated; ",
+            { "bibleLink": "1 Corinthians 15:50–58", "content": "v. 50–58" },
+            " destruction of Death and Hades."
+          ]
+        }
+      },
       {
         "paragraph": true,
         "text": "And I make known to you, brethren, the good news that I proclaimed to you, which also ye did receive, in which also ye have stood,"
@@ -2692,7 +3682,17 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 9,
-    "content": "for I am the least of the apostles, who am not worthy to be called an apostle, because I did persecute the assembly of God,"
+    "content": [
+      "for I am the least of the apostles, who am not worthy to be called an apostle, because I did ",
+      {
+        "text": "persecute",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "caused to flee.", "marks": ["i"] }]
+        }
+      },
+      " the assembly of God,"
+    ]
   },
   {
     "book": "1CO",
@@ -2710,7 +3710,20 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 11,
-    "content": "whether, then, I or they, so we preach, and so ye did believe."
+    "content": [
+      "whether, then, I or they, so we ",
+      {
+        "text": "preach",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "cry or proclaim (as heralds).", "marks": ["i"] }
+          ]
+        }
+      },
+      ", and so ye did believe."
+    ]
   },
   {
     "book": "1CO",
@@ -2804,7 +3817,19 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 24,
-    "content": "then—the end, when he may deliver up the reign to God, even the Father, when he may have made useless all rule, and all authority and power—"
+    "content": {
+      "text": "then—the end, when he may deliver up the reign to God, even the Father, when he may have made useless all rule, and all authority and power—",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Or, ",
+          {
+            "text": "is the end, when he may give over the reign to the God and Father, when he may make useless all principality.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "1CO",
@@ -2890,7 +3915,22 @@
     "book": "1CO",
     "chapter": 15,
     "verse": 36,
-    "content": "unwise! thou—what thou dost sow is not quickened except it may die;"
+    "content": [
+      {
+        "text": "unwise",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "mindless or thoughtless one! thou—what thou sowest is not made alive.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "! thou—what thou dost sow is not quickened except it may die;"
+    ]
   },
   {
     "book": "1CO",
@@ -2911,7 +3951,15 @@
     "content": [
       "All flesh ",
       { "text": "is", "marks": ["i"] },
-      " not the same flesh, but there is one flesh of men, and another flesh of beasts, and another of fishes, and another of birds;"
+      " not the same flesh, but there is one flesh of men, and another flesh of ",
+      {
+        "text": "beasts",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "cattle,", "marks": ["i"] }]
+        }
+      },
+      ", and another of fishes, and another of birds;"
     ]
   },
   {
@@ -2939,20 +3987,50 @@
     "content": [
       "So also ",
       { "text": "is", "marks": ["i"] },
-      " the rising again of the dead: it is sown in corruption, it is raised in incorruption;"
+      " the ",
+      {
+        "text": "rising again",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "upstanding.", "marks": ["i"] }]
+        }
+      },
+      " of the dead: it is sown in corruption, it is raised in incorruption;"
     ]
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 43,
-    "content": "it is sown in dishonour, it is raised in glory; it is sown in weakness, it is raised in power;"
+    "content": {
+      "text": "it is sown in dishonour, it is raised in glory; it is sown in weakness, it is raised in power;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Or, ",
+          { "text": "want of honour...infirmity.", "marks": ["i"] }
+        ]
+      }
+    }
   },
   {
     "book": "1CO",
     "chapter": 15,
     "verse": 44,
-    "content": "it is sown a natural body, it is raised a spiritual body; there is a natural body, and there is a spiritual body;"
+    "content": [
+      "it is sown a ",
+      {
+        "text": "natural",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "physical...physical.", "marks": ["i"] }
+          ]
+        }
+      },
+      " body, it is raised a spiritual body; there is a natural body, and there is a spiritual body;"
+    ]
   },
   {
     "book": "1CO",
@@ -2973,7 +4051,15 @@
       { "text": "is", "marks": ["i"] },
       " not first, but that which ",
       { "text": "was", "marks": ["i"] },
-      " natural, afterwards that which ",
+      " ",
+      {
+        "text": "natural",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "physical.", "marks": ["i"] }]
+        }
+      },
+      ", afterwards that which ",
       { "text": "is", "marks": ["i"] },
       " spiritual."
     ]
@@ -3076,6 +4162,24 @@
     "verse": 1,
     "content": [
       { "heading": "Administrative and Personal" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XVI. may be divided into five parts; ",
+            { "bibleLink": "1 Corinthians 16:1–4", "content": "v. 1–4" },
+            " on the collection for the poor saints; ",
+            { "bibleLink": "1 Corinthians 16:5–9", "content": "v. 5–9" },
+            " Paul’s plans regarding himself; ",
+            { "bibleLink": "1 Corinthians 16:10–12", "content": "v. 10–12" },
+            " and regarding Timotheus and Apollos; ",
+            { "bibleLink": "1 Corinthians 16:13–18", "content": "v. 13–18" },
+            " exhortations, entreaties, and rejoicings; ",
+            { "bibleLink": "1 Corinthians 16:19–24", "content": "v. 19–24" },
+            " various salutations."
+          ]
+        }
+      },
       { "paragraph": true, "text": "And concerning the collection that " },
       { "text": "is", "marks": ["i"] },
       " for the saints, as I directed to the assemblies of Galatia, so also ye—do ye;"
@@ -3224,21 +4328,52 @@
     "verse": 19,
     "content": {
       "paragraph": true,
-      "text": "Salute you do the assemblies of Asia; salute you much in the Lord do Aquilas and Priscilla, with the assembly in their house;"
+      "content": [
+        {
+          "text": "Salute",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "draw you near.", "marks": ["i"] }]
+          }
+        },
+        " you do the assemblies of Asia; salute you much in the Lord do Aquilas and Priscilla, with the assembly in their house;"
+      ]
     }
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 20,
-    "content": "salute you do all the brethren; salute ye one another in an holy kiss."
+    "content": [
+      {
+        "text": "salute",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "draw you near.", "marks": ["i"] }]
+        }
+      },
+      " you do all the brethren; salute ye one another in an holy kiss."
+    ]
   },
   {
     "book": "1CO",
     "chapter": 16,
     "verse": 21,
     "content": [
-      { "paragraph": true, "text": "The salutation of " },
+      {
+        "paragraph": true,
+        "content": [
+          "The ",
+          {
+            "text": "salutation",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "drawing near.", "marks": ["i"] }]
+            }
+          },
+          " of "
+        ]
+      },
       { "text": "me", "marks": ["i"] },
       " Paul with my hand;"
     ]

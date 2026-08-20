@@ -5,7 +5,106 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we did behold, and our hands did handle, concerning the Word of the Life—"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "text": "1 John. This Epistle is quoted or referred to by Hermas (A.D. 108), Polycarp (A.D. 108), Papias (A.D. 116), the Churches of Vienna and Lyons (A.D. 177), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230), Cyprian (A.D. 248), Dionysius of Alexandria (A.D. 247), Eusebius (A.D. 320), Athanasius (A.D. 326), Jerome, &c., and was not doubted to be John’s (save by Marcion) till the 6th century. The internal evidence in his favour is as powerful as the external.",
+                "break": true
+              },
+              {
+                "content": [
+                  "To whom it was written, and when, are alike uncertain, probably to the Christians in Syria and Asia Minor, and before the destruction of Jerusalem; see ",
+                  {
+                    "bibleLink": "1 John 2:13, 14, 18",
+                    "content": "2. 13, 14, 18"
+                  },
+                  ". It is full of aphorisms and repetitions, contrasts of “spirit” and “flesh,” of “light” and “darkness,” of “life” and “death,” of “love” and “hate”."
+                ],
+                "break": true
+              },
+              "It may be divided into six parts; ",
+              { "bibleLink": "1 John 1:1–7", "content": "1. 1–7" },
+              "; ",
+              { "bibleLink": "1 John 1:8–10", "content": "1. 8" },
+              "–",
+              { "bibleLink": "1 John 2:1–2", "content": "2. 2" },
+              "; ",
+              { "bibleLink": "1 John 2:3–17", "content": "2. 3–17" },
+              "; ",
+              { "bibleLink": "1 John 2:18–29", "content": "2. 18–29" },
+              "; ",
+              { "bibleLink": "1 John 3:1–24", "content": "3. 1–24" },
+              "; ",
+              { "bibleLink": "1 John 4:1–21", "content": "4. 1–21" },
+              "; ",
+              { "bibleLink": "1 John 5:1–21", "content": "5. 1–21" },
+              "; and has allusions to ",
+              { "bibleLink": "Genesis 4:4–8", "content": "Gen. 4. 4–8" },
+              "; ",
+              { "bibleLink": "Deuteronomy 13:13", "content": "De. 13. 13" },
+              "; ",
+              { "bibleLink": "1 Kings 8:46", "content": "1 K. 8. 46" },
+              "; ",
+              { "bibleLink": "Job 19:26", "content": "Job 19. 26" },
+              "; ",
+              { "bibleLink": "Job 42:8", "content": "42. 8" },
+              "; ",
+              { "bibleLink": "Psalm 16:11", "content": "Ps. 16. 11" },
+              "; ",
+              { "bibleLink": "Psalm 41:9", "content": "41. 9" },
+              "; ",
+              { "bibleLink": "Ecclesiastes 7:20", "content": "Ecc. 7. 20" },
+              "; ",
+              { "bibleLink": "Isaiah 9:6", "content": "Isa. 9. 6" },
+              "; ",
+              { "bibleLink": "Isaiah 53:5", "content": "53. 5" },
+              "; ",
+              { "bibleLink": "Isaiah 55:7", "content": "55. 7" },
+              "; ",
+              { "bibleLink": "Isaiah 61:1", "content": "61. 1" },
+              "; ",
+              {
+                "bibleLink": "Jeremiah 31:33, 34",
+                "content": "Jer. 31. 33, 34"
+              },
+              "; ",
+              { "bibleLink": "Micah 6:7", "content": "Mic. 6. 7" },
+              "; ",
+              { "bibleLink": "Romans 3:24", "content": "Rom. 3. 24" },
+              "."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into two parts; ",
+              { "bibleLink": "1 John 1:1–4", "content": "v. 1–4" },
+              " of what and why the author writes; ",
+              { "bibleLink": "1 John 1:5–10", "content": "v. 5–10" },
+              " what God is, and what we should be and do."
+            ]
+          }
+        },
+        "That which was from ",
+        {
+          "text": "the beginning",
+          "foot": {
+            "type": "stu",
+            "content": "of the gospel history (or perhaps, of the creation)"
+          }
+        },
+        ", that which we have heard, that which we have seen with our eyes, that which we did behold, and our hands did handle, concerning ",
+        {
+          "text": "the Word of the Life",
+          "foot": { "type": "stu", "content": "even Christ." }
+        },
+        "—"
+      ]
     }
   },
   {
@@ -52,7 +151,20 @@
     "book": "1JN",
     "chapter": 1,
     "verse": 7,
-    "content": "and if in the light we may walk, as He is in the light—we have fellowship one with another, and the blood of Jesus Christ His Son doth cleanse us from every sin;"
+    "content": [
+      "and if in the light we may walk, as He is in the light—we have fellowship one with another, and the blood of Jesus Christ His Son doth cleanse us from every ",
+      {
+        "text": "sin",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "“missing” of the mark", "marks": ["i"] }
+          ]
+        }
+      },
+      ";"
+    ]
   },
   {
     "book": "1JN",
@@ -64,7 +176,17 @@
     "book": "1JN",
     "chapter": 1,
     "verse": 9,
-    "content": "if we may confess our sins, stedfast He is and righteous that He may forgive us the sins, and may cleanse us from every unrighteousness;"
+    "content": [
+      "if we may ",
+      {
+        "text": "confess",
+        "foot": {
+          "type": "stu",
+          "content": "(Gr. homologate, i.e. say the same thing)"
+        }
+      },
+      " our sins, stedfast He is and righteous that He may forgive us the sins, and may cleanse us from every unrighteousness;"
+    ]
   },
   {
     "book": "1JN",
@@ -78,14 +200,76 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "My little children, these things I write to you, that ye may not sin: and if any one may sin, an advocate we have with the Father, Jesus Christ, a righteous one,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter II. may be divided into seven parts; ",
+              { "bibleLink": "1 John 2:1–6", "content": "v. 1–6" },
+              " we may not sin, but if we do we have an advocate, who is a propitiation for sin, whom we know if we obey him; ",
+              { "bibleLink": "1 John 2:7–11", "content": "v. 7–11" },
+              " a new, yet old, command to love our brother; ",
+              { "bibleLink": "1 John 2:12–14", "content": "v. 12–14" },
+              " reasons for writing to little children, fathers, little boys, young men; ",
+              { "bibleLink": "1 John 2:15–17", "content": "v. 15–17" },
+              " not to love the world; ",
+              { "bibleLink": "1 John 2:18, 19", "content": "v. 18, 19" },
+              " the last hour (of the Jewish dispensation); ",
+              { "bibleLink": "1 John 2:20–23", "content": "v. 20–23" },
+              " the liar and anti-christ; ",
+              { "bibleLink": "1 John 2:24–29", "content": "v. 24–29" },
+              " to let truth remain in us, and we in Christ."
+            ]
+          }
+        },
+        "My little children, these things I write to you, that ye may not ",
+        {
+          "text": "sin",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Or, ",
+              {
+                "text": "“miss” the mark, i.e. not-attain to it",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ": and if any one may sin, an ",
+        {
+          "text": "advocate",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "caller-alongside", "marks": ["i"] }
+            ]
+          }
+        },
+        " we have with the Father, Jesus Christ, a righteous one,"
+      ]
     }
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 2,
-    "content": "and he—he is a propitiation for our sins, and not for ours only, but also for the whole world,"
+    "content": [
+      "and he—he is a ",
+      {
+        "text": "propitiation",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "what makes “mild,”", "marks": ["i"] }
+          ]
+        }
+      },
+      " for our sins, and not for ours only, but also for the whole world,"
+    ]
   },
   {
     "book": "1JN",
@@ -117,14 +301,39 @@
     "verse": 7,
     "content": {
       "paragraph": true,
-      "text": "Brethren, a new command I write not to you, but an old command, that ye had from the beginning—the old command is the word that ye heard from the beginning;"
+      "content": [
+        {
+          "text": "Brethren",
+          "foot": {
+            "type": "var",
+            "content": [
+              "Textual note: many MSS., Versions, and Fathers read ",
+              { "text": "“Beloved.”", "marks": ["i"] }
+            ]
+          }
+        },
+        ", a new command I write not to you, but an old command, that ye had from the beginning—the old command is the word that ye heard from the beginning;"
+      ]
     }
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 8,
-    "content": "again, a new command I write to you, which thing is true in him and in you, because the darkness doth pass away, and the true light doth now shine;"
+    "content": [
+      "again, a new command I write to you, which thing is true in him and in you, because the darkness ",
+      {
+        "text": "doth pass away",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "led away or leads itself away", "marks": ["i"] }
+          ]
+        }
+      },
+      ", and the true light doth now shine;"
+    ]
   },
   {
     "book": "1JN",
@@ -153,7 +362,17 @@
     "verse": 12,
     "content": {
       "paragraph": true,
-      "text": "I write to you, little children, because the sins have been forgiven you through his name;"
+      "content": [
+        "I write to you, little children, because the sins have been ",
+        {
+          "text": "forgiven",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "sent away", "marks": ["i"] }]
+          }
+        },
+        " you through his name;"
+      ]
     }
   },
   {
@@ -163,7 +382,15 @@
     "content": [
       "I write to you, fathers, because ye have known him who ",
       { "text": "is", "marks": ["i"] },
-      " from the beginning; I write to you, young men, because ye have overcome the evil. I write to you, little youths, because ye have known the Father:"
+      " from the beginning; I write to you, young men, because ye have ",
+      {
+        "text": "overcome",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "not yielded (to)", "marks": ["i"] }]
+        }
+      },
+      " the evil. I write to you, little youths, because ye have known the Father:"
     ]
   },
   {
@@ -204,7 +431,14 @@
     "verse": 18,
     "content": {
       "paragraph": true,
-      "text": "Little youths, it is the last hour; and even as ye heard that the antichrist doth come, even now antichrists have become many—whence we know that it is the last hour;"
+      "content": [
+        "Little youths, it is ",
+        {
+          "text": "the last hour",
+          "foot": { "type": "stu", "content": "with unbelieving Jerusalem." }
+        },
+        "; and even as ye heard that the antichrist doth come, even now antichrists have become many—whence we know that it is the last hour;"
+      ]
     }
   },
   {
@@ -291,7 +525,42 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "See ye what love the Father hath given to us, that children of God we may be called; because of this the world doth not know us, because it did not know Him;"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter III. may be divided into seven parts; ",
+              { "bibleLink": "1 John 3:1–3", "content": "v. 1–3" },
+              " children of God not known, but purifying themselves; ",
+              { "bibleLink": "1 John 3:4–6", "content": "v. 4–6" },
+              " sin not in Christ, nor the sinful; ",
+              { "bibleLink": "1 John 3:7–9", "content": "v. 7–9" },
+              " who are of the devil, whose works Christ came to destroy; ",
+              { "bibleLink": "1 John 3:10–12", "content": "v. 10–12" },
+              " how the children of God and of the devil are manifested; ",
+              { "bibleLink": "1 John 3:13–17", "content": "v. 13–17" },
+              " love and hatred of the brethren; ",
+              { "bibleLink": "1 John 3:18–20", "content": "v. 18–20" },
+              " call to love in truth; ",
+              { "bibleLink": "1 John 3:21–24", "content": "v. 21–24" },
+              " our boldness and acceptance with God, and their grounds."
+            ]
+          }
+        },
+        "See ye what love the Father hath given to us, that children of God ",
+        {
+          "text": "we may be called",
+          "foot": {
+            "type": "var",
+            "content": [
+              "Textual note: the oldest MSS. add, ",
+              { "text": "“and we are so.”", "marks": ["i"] }
+            ]
+          }
+        },
+        "; because of this the world doth not know us, because it did not know Him;"
+      ]
     }
   },
   {
@@ -430,7 +699,14 @@
     "book": "1JN",
     "chapter": 3,
     "verse": 22,
-    "content": "and whatever we may ask, we receive from Him, because His commands we keep, and the things pleasing before Him we do,"
+    "content": [
+      "and whatever we may ask, ",
+      {
+        "text": "we receive from Him",
+        "foot": { "type": "stu", "content": "if agreeable to his will." }
+      },
+      ", because His commands we keep, and the things pleasing before Him we do,"
+    ]
   },
   {
     "book": "1JN",
@@ -442,7 +718,14 @@
     "book": "1JN",
     "chapter": 3,
     "verse": 24,
-    "content": "and he who is keeping His commands, in Him he doth remain, and He in him; and in this we know that He doth remain in us, from the Spirit that He gave us."
+    "content": [
+      "and he who is keeping His commands, in Him he doth remain, and He in him; and in this we know that He doth remain in us, from ",
+      {
+        "text": "the Spirit that He gave us",
+        "foot": { "type": "stu", "content": "at our conversion." }
+      },
+      "."
+    ]
   },
   {
     "book": "1JN",
@@ -450,7 +733,29 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Beloved, every spirit believe not, but prove the spirits, if of God they are, because many false prophets have gone forth to the world;"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter IV. may be divided into six parts; ",
+              { "bibleLink": "1 John 4:1–3", "content": "v. 1–3" },
+              " warning against and first test for false prophets; ",
+              { "bibleLink": "1 John 4:4–6", "content": "v. 4–6" },
+              " a second test; ",
+              { "bibleLink": "1 John 4:7, 8", "content": "v. 7, 8" },
+              " a third test; ",
+              { "bibleLink": "1 John 4:9–13", "content": "v. 9–13" },
+              " God’s love to men should increase our love; ",
+              { "bibleLink": "1 John 4:14–16", "content": "v. 14–16" },
+              " apostle’s testimony to God’s love; ",
+              { "bibleLink": "1 John 4:17–21", "content": "v. 17–21" },
+              " love with fear of God, or hate of a brother."
+            ]
+          }
+        },
+        "Beloved, every spirit believe not, but prove the spirits, if of God they are, because many false prophets have gone forth to the world;"
+      ]
     }
   },
   {
@@ -488,7 +793,18 @@
     "book": "1JN",
     "chapter": 4,
     "verse": 6,
-    "content": "we—of God we are; he who is knowing God doth hear us; he who is not of God, doth not hear us; from this we know the spirit of the truth, and the spirit of the error."
+    "content": [
+      { "text": "we", "foot": { "type": "stu", "content": "(the apostles)" } },
+      "—of God we are; he who is knowing God doth hear us; he who is not of God, doth not hear us; from this we know the spirit of the truth, and the spirit of the ",
+      {
+        "text": "error",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "leading astray", "marks": ["i"] }]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "1JN",
@@ -569,7 +885,17 @@
     "book": "1JN",
     "chapter": 4,
     "verse": 18,
-    "content": "fear is not in the love, but the perfect love doth cast out the fear, because the fear hath punishment, and he who is fearing hath not been made perfect in the love;"
+    "content": [
+      "fear is not in the love, but the perfect love doth cast out the fear, because the fear hath ",
+      {
+        "text": "punishment",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "restraint", "marks": ["i"] }]
+        }
+      },
+      ", and he who is fearing hath not been made perfect in the love;"
+    ]
   },
   {
     "book": "1JN",
@@ -599,7 +925,27 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Every one who is believing that Jesus is the Christ, of God he hath been begotten, and every one who is loving Him who did beget, doth love also him who is begotten of Him:"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter V. may be divided into five parts; ",
+              { "bibleLink": "1 John 5:1–5", "content": "v. 1–5" },
+              " believers are begotten by God and they love all such, showing this by keeping God’s commands; ",
+              { "bibleLink": "1 John 5:6–8", "content": "v. 6–8" },
+              " the three witnesses; ",
+              { "bibleLink": "1 John 5:9–12", "content": "v. 9–12" },
+              " God’s testimony regarding Christ; ",
+              { "bibleLink": "1 John 5:13–15", "content": "v. 13–15" },
+              " object of the present writing and full-speech toward God; ",
+              { "bibleLink": "1 John 5:16–21", "content": "v. 16–21" },
+              " prayer for a sinning brother, and purity and knowledge in Christ."
+            ]
+          }
+        },
+        "Every one who is believing that Jesus is the Christ, of God he hath been begotten, and every one who is loving Him who did beget, doth love also him who is begotten of Him:"
+      ]
     }
   },
   {
@@ -640,7 +986,21 @@
       "because three are who are testifying ",
       {
         "text": "in the heaven, the Father, the Word, and the Holy Spirit, and these—the three—are one;",
-        "marks": ["i"]
+        "marks": ["i"],
+        "foot": {
+          "type": "var",
+          "content": [
+            "Textual note: ",
+            {
+              "content": [
+                "These words are wanting in all the Greek MSS. except two, in all the oldest Ancient Versions, and in all the quotations of ",
+                { "bibleLink": "1 John 5:6–8", "content": "v. 6–8" },
+                " in the ancient Fathers before A.D. 475; it is undoubtedly a mere gloss written thoughtlessly on the margin."
+              ],
+              "marks": ["i"]
+            }
+          ]
+        }
       }
     ]
   },
@@ -686,7 +1046,23 @@
     "verse": 13,
     "content": {
       "paragraph": true,
-      "text": "These things I did write to you who are believing in the name of the Son of God, that ye may know that life ye have age-during, and that ye may believe in the name of the Son of God."
+      "content": [
+        "These things I did write to you ",
+        {
+          "text": "who are believing in the name of the Son of God,",
+          "foot": {
+            "type": "var",
+            "content": [
+              "Textual note: some MSS. and Versions omit ",
+              {
+                "text": "who are believing (or trusting to) the name of the Son of God.",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        " that ye may know that life ye have age-during, and that ye may believe in the name of the Son of God."
+      ]
     }
   },
   {

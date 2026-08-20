@@ -5,7 +5,83 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, an apostle of Jesus Christ through the will of God, to the saints who are in Ephesus, and to the faithful in Christ Jesus:"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "Ephesians. THIS LETTER was written when Paul was a prisoner (",
+                  { "bibleLink": "Ephesians 3:1", "content": "ch. 3. 1" },
+                  "; ",
+                  { "bibleLink": "Ephesians 4:1", "content": "4. 1" },
+                  ") in Rome, about A.D. 62, and is cited as his by Ignatius (A.D. 107), Polycarp (A.D. 108), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230). Even Marcion admitted that Paul was its author, but asserted that it was written to the Laodiceans, a worthless theory adopted also by Grotius, Mill, Wetstein, Vitringa, Venema, Benson, Paley, &c., but contrary to all the MSS. (except B.) Ancient Versions, &c."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "Paul’s first visit to Ephesus (A.D. 54), is related in ",
+                  { "bibleLink": "Acts 18:19–21", "content": "Acts 18. 19–21" },
+                  ", and his second in ",
+                  { "bibleLink": "Acts 19:1–41", "content": "Acts 19. 1–41" },
+                  "; want of time prevented him making a third visit, but he called the elders or bishops of Ephesus to meet him at Miletus (A.D. 57), as in ",
+                  { "bibleLink": "Acts 20:17–38", "content": "Acts 20. 17–38" },
+                  ", and exhorted them warmly. His converts in Ephesus were chiefly—if not entirely—Gentiles (",
+                  { "bibleLink": "Ephesians 2:11, 19", "content": "2. 11, 19" },
+                  "; ",
+                  { "bibleLink": "Ephesians 3:1", "content": "3. 1" },
+                  "; ",
+                  { "bibleLink": "Ephesians 4:17", "content": "4. 17" },
+                  "), hence he has few allusions to Judaistic errors and tendencies, and expatiates on the love of God the Father, the grace of Christ, and the fruits of the Spirit, as in his remarkably similar Epistle to the \"Colossians,\" written also about the same time, and sent by the same bearer—Tychicus."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "It may be divided into two great parts, ",
+                  { "bibleLink": "Ephesians 1", "content": "chap. i" },
+                  ".–iii. doctrinal statements, and ",
+                  { "bibleLink": "Ephesians 4", "content": "ch. iv" },
+                  ".–vi. practical duties."
+                ],
+                "break": true
+              },
+              "Old Testament references are: ",
+              { "bibleLink": "Deuteronomy 5:16", "content": "De. 5. 16" },
+              "; ",
+              { "bibleLink": "Isaiah 28:9, 16", "content": "Isa. 28. 9, 16" },
+              "; ",
+              { "bibleLink": "Isaiah 46:10, 11", "content": "46. 10, 11" },
+              "; ",
+              { "bibleLink": "Isaiah 60:1", "content": "60. 1" },
+              "; ",
+              { "bibleLink": "Jeremiah 35:18", "content": "Jer. 35. 18" },
+              "; ",
+              { "bibleLink": "Ezekiel 18:9", "content": "Ezek. 18. 9" },
+              "; ",
+              { "bibleLink": "Zechariah 9:10", "content": "Zec. 9. 10" },
+              "."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into three parts; ",
+              { "bibleLink": "Ephesians 1:1, 2", "content": "v. 1, 2" },
+              " salutation; ",
+              { "bibleLink": "Ephesians 1:3–14", "content": "v. 3–14" },
+              " praise to God for his spiritual blessings bestowed in and through Christ; ",
+              { "bibleLink": "Ephesians 1:15–22", "content": "v. 15–22" },
+              " thanks and prayers for a spirit of wisdom."
+            ]
+          }
+        },
+        "Paul, an apostle of Jesus Christ through the will of God, to the saints who are in Ephesus, and to the faithful in Christ Jesus:"
+      ]
     }
   },
   {
@@ -47,13 +123,42 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 7,
-    "content": "in whom we have the redemption through his blood, the remission of the trespasses, according to the riches of His grace,"
+    "content": [
+      "in whom we have the ",
+      {
+        "text": "redemption",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "the thorough-loosing...letting-go of the fallings-aside...wealth of.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " through his blood, the remission of the trespasses, according to the riches of His grace,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 8,
-    "content": "in which He did abound toward us in all wisdom and prudence,"
+    "content": [
+      "in which He ",
+      {
+        "text": "did abound",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "he abounded...mindfulness.", "marks": ["i"] }
+          ]
+        }
+      },
+      " toward us in all wisdom and prudence,"
+    ]
   },
   {
     "book": "EPH",
@@ -120,7 +225,17 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 18,
-    "content": "the eyes of your understanding being enlightened, for your knowing what is the hope of His calling, and what the riches of the glory of His inheritance in the saints,"
+    "content": [
+      "the eyes of your ",
+      {
+        "text": "understanding",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "heart.", "marks": ["i"] }]
+        }
+      },
+      " being enlightened, for your knowing what is the hope of His calling, and what the riches of the glory of His inheritance in the saints,"
+    ]
   },
   {
     "book": "EPH",
@@ -166,7 +281,27 @@
       { "heading": "The Household of God" },
       {
         "paragraph": true,
-        "text": "Also you—being dead in the trespasses and the sins,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter II. may be divided into five parts; ",
+                { "bibleLink": "Ephesians 2:1–3", "content": "v. 1–3" },
+                " past state of the Ephesians by nature; ",
+                { "bibleLink": "Ephesians 2:4–10", "content": "v. 4–10" },
+                " their present state by the love of God; ",
+                { "bibleLink": "Ephesians 2:11, 12", "content": "v. 11, 12" },
+                " their former state; ",
+                { "bibleLink": "Ephesians 2:13–18", "content": "v. 13–18" },
+                " their present condition in Christ; ",
+                { "bibleLink": "Ephesians 2:19–22", "content": "v. 19–22" },
+                " their privileges."
+              ]
+            }
+          },
+          "Also you—being dead in the trespasses and the sins,"
+        ]
       }
     ]
   },
@@ -320,7 +455,21 @@
       { "heading": "The Apostle of this Gospel" },
       {
         "paragraph": true,
-        "text": "For this cause, I Paul, the prisoner of Christ Jesus for you the nations,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter III. may be divided into two parts; ",
+                { "bibleLink": "Ephesians 3:1–13", "content": "v. 1–13" },
+                " Paul called to be a deacon to the nations; ",
+                { "bibleLink": "Ephesians 3:14–21", "content": "v. 14–21" },
+                " his prayer for the Ephesians."
+              ]
+            }
+          },
+          "For this cause, I Paul, the prisoner of Christ Jesus for you the nations,"
+        ]
       }
     ]
   },
@@ -486,7 +635,25 @@
       { "heading": "Prisoner of the Lord" },
       {
         "paragraph": true,
-        "text": "Call upon you, then, do I—the prisoner of the Lord—to walk worthily of the calling with which ye were called,"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter IV. may be divided into four parts; ",
+                { "bibleLink": "Ephesians 4:1–6", "content": "v. 1–6" },
+                " exhortation to work worthily; ",
+                { "bibleLink": "Ephesians 4:7–16", "content": "v. 7–16" },
+                " gifts of Christ to the assembly; ",
+                { "bibleLink": "Ephesians 4:17–24", "content": "v. 17–24" },
+                " the old and the new man; ",
+                { "bibleLink": "Ephesians 4:25–32", "content": "v. 25–32" },
+                " sins to be avoided and duties to be done."
+              ]
+            }
+          },
+          "Call upon you, then, do I—the prisoner of the Lord—to walk worthily of the calling with which ye were called,"
+        ]
       }
     ]
   },
@@ -535,7 +702,23 @@
     "chapter": 4,
     "verse": 8,
     "content": {
-      "text": "wherefore, he saith, “Having gone up on high he led captive captivity, and gave gifts to men,”—",
+      "content": [
+        "wherefore, he saith, “Having gone up on high he led ",
+        {
+          "text": "captive captivity",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "he took by a spear taking-by-a-spear.",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ", and gave gifts to men,”—"
+      ],
       "break": true
     }
   },
@@ -559,7 +742,21 @@
     "chapter": 4,
     "verse": 11,
     "content": [
-      "and He gave some ",
+      "and He ",
+      {
+        "text": "gave",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "and he himself gave indeed, the apostles, and the prophets, and the tellers of good-news, and the pastors (who are) also teachers, toward the thorough-perfecting of the hallowed ones, with a view to a work of deaconship, with a view to an upbuilding of the body of Christ.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " some ",
       { "text": "as", "marks": ["i"] },
       " apostles, and some ",
       { "text": "as", "marks": ["i"] },
@@ -715,7 +912,27 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Become, then, followers of God, as children beloved,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter V. may be divided into five parts; ",
+              { "bibleLink": "Ephesians 5:1–5", "content": "v. 1–5" },
+              " exhortations to imitate God and Christ, and to avoid sin; ",
+              { "bibleLink": "Ephesians 5:6–14", "content": "v. 6–14" },
+              " once darkness now light; ",
+              { "bibleLink": "Ephesians 5:15–21", "content": "v. 15–21" },
+              " walking as wise not as fools, to rejoice in the Lord; ",
+              { "bibleLink": "Ephesians 5:22–24", "content": "v. 22–24" },
+              " exhortation to wives; ",
+              { "bibleLink": "Ephesians 5:25–33", "content": "v. 25–36" },
+              " and to husbands, to imitate Christ."
+            ]
+          }
+        },
+        "Become, then, followers of God, as children beloved,"
+      ]
     }
   },
   {
@@ -764,7 +981,20 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 8,
-    "content": "for ye were once darkness, and now light in the Lord; as children of light walk ye,"
+    "content": [
+      "for ye were ",
+      {
+        "text": "once",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "then...walk about.", "marks": ["i"] }
+          ]
+        }
+      },
+      " darkness, and now light in the Lord; as children of light walk ye,"
+    ]
   },
   {
     "book": "EPH",
@@ -819,7 +1049,19 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 16,
-    "content": "redeeming the time, because the days are evil;"
+    "content": [
+      {
+        "text": "redeeming",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "buying up the season.", "marks": ["i"] }
+          ]
+        }
+      },
+      " the time, because the days are evil;"
+    ]
   },
   {
     "book": "EPH",
@@ -950,7 +1192,27 @@
       { "heading": "Domestic Relationships" },
       {
         "paragraph": true,
-        "text": "The children! obey your parents in the Lord, for this is righteous;"
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter VI. may be divided into five parts; ",
+                { "bibleLink": "Ephesians 6:1–9", "content": "v. 1–9" },
+                " exhortations to children, fathers, servants, masters; ",
+                { "bibleLink": "Ephesians 6:10–17", "content": "v. 10–17" },
+                " to stand fast, with the whole armour of God; ",
+                { "bibleLink": "Ephesians 6:18–20", "content": "v. 18–20" },
+                " to pray for all saints and Paul; ",
+                { "bibleLink": "Ephesians 6:21", "content": "v. 21" },
+                " he sends Tychicus; ",
+                { "bibleLink": "Ephesians 6:23, 24", "content": "v. 23, 24" },
+                " closing salutation and prayer."
+              ]
+            }
+          },
+          "The children! obey your parents in the Lord, for this is righteous;"
+        ]
       }
     ]
   },
@@ -964,7 +1226,20 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 3,
-    "content": "which is the first command with a promise, “That it may be well with thee, and thou mayest live a long time upon the land.”"
+    "content": [
+      "which is ",
+      {
+        "text": "the first command",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "a first or chief command,", "marks": ["i"] }
+          ]
+        }
+      },
+      " with a promise, “That it may be well with thee, and thou mayest live a long time upon the land.”"
+    ]
   },
   {
     "book": "EPH",
@@ -991,7 +1266,20 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 7,
-    "content": "with good-will serving, as to the Lord, and not to men,"
+    "content": [
+      "with ",
+      {
+        "text": "good-will serving",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "good-minds being bondsmen.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", as to the Lord, and not to men,"
+    ]
   },
   {
     "book": "EPH",
@@ -1054,7 +1342,23 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 17,
-    "content": "and the helmet of the salvation receive, and the sword of the Spirit, which is the saying of God,"
+    "content": [
+      "and the helmet of the salvation ",
+      {
+        "text": "receive",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "receive for yourselves the helmet (lit. thing \"around the head,\") of the salvation...a saying of God,",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", and the sword of the Spirit, which is the saying of God,"
+    ]
   },
   {
     "book": "EPH",

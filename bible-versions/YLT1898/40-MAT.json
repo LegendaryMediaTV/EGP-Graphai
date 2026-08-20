@@ -5,7 +5,101 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "A roll of the birth of Jesus Christ, son of David, son of Abraham."
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "THE GOSPEL OF MATTHEW was the first published of all the Gospels, according to the uniform testimony of all who have examined the subject. It was written most probably about A.D. 40, that is, seven years after the ascension of Christ; others date it as late as A.D. 60. It was written in Greek, like the other Gospels, though almost all the ancient fathers thought it was written in Hebrew, confounding it perhaps with the Hebrew “Gospel of the Nazarenes,” or of “the Hebrews,” which was probably a corrupted, interpolated, castrated, copy of it. Its author was a Jew, writing for Jews, and hence it is full of references to Old Testament passages bearing upon the Messiahship of Jesus. His other name was Levi, and his call (recorded in ",
+                  { "bibleLink": "Matthew 9:9", "content": "ch. 9. 9" },
+                  ") to be one of the personal followers and apostles of Christ fitted him, as an eye-witness, to write this Gospel, aided, as he doubtless was, by the Divine Spirit who was promised to lead the disciples into “all truth” necessary for salvation, and to “bring all things to their remembrance” that Jesus had said and done."
+                ],
+                "break": true
+              },
+              {
+                "text": "The special object of this Gospel is to present to the reader “Jesus Christ as the promised seed of Abraham and son of David, who as the Messiah of Jehovah, was the true king of Israel.” It may be divided as follows:—",
+                "break": true
+              },
+              {
+                "content": [
+                  "- I. Genealogy & Childhood of Jesus, ",
+                  { "bibleLink": "Matthew 1", "content": "ch. i" },
+                  ". ii."
+                ],
+                "break": true
+              },
+              {
+                "text": "- II. John’s Preaching, and Jesus’ Baptism, iii.",
+                "break": true
+              },
+              {
+                "text": "- III. Jesus in the Wilderness, and in Galilee, iv.",
+                "break": true
+              },
+              {
+                "text": "- IV. Jesus’ teaching on the Mount, v–vii.",
+                "break": true
+              },
+              {
+                "text": "- V. Jesus’ doings in Galilee, viii–xii.",
+                "break": true
+              },
+              {
+                "text": "- VI. Jesus’ Similes or Parables, &c., xiii–xiv.",
+                "break": true
+              },
+              {
+                "text": "- VII. Jesus about Tyre and Sidon, xv–xviii.",
+                "break": true
+              },
+              {
+                "text": "- VIII. Jesus’ return to Judea, xix–xxi. 27.",
+                "break": true
+              },
+              {
+                "text": "- IX. Jesus’ Similes, xxi. 28–xxiv. 1, 2.",
+                "break": true
+              },
+              {
+                "text": "- X. Jesus on the Mount of the Olives, xxiv. 3–xxvi. 5.",
+                "break": true
+              },
+              {
+                "text": "- XI. Jesus in Bethany and Gethsemane, xxvi. 6–56.",
+                "break": true
+              },
+              {
+                "text": "- XII. Jesus before his judges, xxvi. 57–xxvii. 31.",
+                "break": true
+              },
+              {
+                "text": "- XIII. Jesus on Calvary, xxvii. 32–56.",
+                "break": true
+              },
+              {
+                "text": "- XIV. Jesus in the Grave, xxvii. 57–66.",
+                "break": true
+              },
+              { "text": "- XV. Jesus risen and in Galilee, xxviii. 1–20." }
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into two parts: ",
+              { "bibleLink": "Matthew 1:1–17", "content": "v. 1–17" },
+              " containing Christ’s genealogy; and ",
+              { "bibleLink": "Matthew 1:18–25", "content": "v. 18–25" },
+              " His birth and its incidents."
+            ]
+          }
+        },
+        "A roll of the birth of Jesus Christ, son of David, son of Abraham."
+      ]
     }
   },
   {
@@ -188,6 +282,22 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter II. may be divided into four parts; ",
+            { "bibleLink": "Matthew 2:1–12", "content": "v. 1–12" },
+            " visit of magi; ",
+            { "bibleLink": "Matthew 2:13–15", "content": "v. 13–15" },
+            " flight into Egypt; ",
+            { "bibleLink": "Matthew 2:16–18", "content": "v. 16–18" },
+            " Herod’s cruelty; and ",
+            { "bibleLink": "Matthew 2:19–23", "content": "v. 19–23" },
+            " return to Israel and Nazareth."
+          ]
+        }
+      },
       { "heading": "Wise Men from the East" },
       {
         "paragraph": true,
@@ -214,7 +324,17 @@
     "book": "MAT",
     "chapter": 2,
     "verse": 4,
-    "content": "and having gathered all the chief priests and scribes of the people, he was inquiring from them where the Christ is born."
+    "content": [
+      "and having ",
+      {
+        "text": "gathered",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "made a synagogue", "marks": ["i"] }]
+        }
+      },
+      " all the chief priests and scribes of the people, he was inquiring from them where the Christ is born."
+    ]
   },
   {
     "book": "MAT",
@@ -256,7 +376,17 @@
     "book": "MAT",
     "chapter": 2,
     "verse": 9,
-    "content": "And they, having heard the king, departed, and lo, the star, that they did see in the east, did go before them, till, having come, it stood over where the child was."
+    "content": [
+      "And they, having heard the king, ",
+      {
+        "text": "departed",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "went on", "marks": ["i"] }]
+        }
+      },
+      ", and lo, the star, that they did see in the east, did go before them, till, having come, it stood over where the child was."
+    ]
   },
   {
     "book": "MAT",
@@ -342,7 +472,17 @@
       { "heading": "Return to Nazareth" },
       {
         "paragraph": true,
-        "text": "And Herod having died, lo, a messenger of the Lord in a dream doth appear to Joseph in Egypt,"
+        "content": [
+          "And Herod having ",
+          {
+            "text": "died",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "ended", "marks": ["i"] }]
+            }
+          },
+          ", lo, a messenger of the Lord in a dream doth appear to Joseph in Egypt,"
+        ]
       }
     ]
   },
@@ -375,6 +515,18 @@
     "chapter": 3,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter III. may be divided into two parts; ",
+            { "bibleLink": "Matthew 3:1–12", "content": "v. 1–12" },
+            ", John’s preaching and baptism; ",
+            { "bibleLink": "Matthew 3:13–17", "content": "v. 13–17" },
+            ", Jesus’ baptism and anointing."
+          ]
+        }
+      },
       { "heading": "His Baptism and Temptation" },
       { "heading": "John the Baptist" },
       {
@@ -478,14 +630,44 @@
     "book": "MAT",
     "chapter": 3,
     "verse": 14,
-    "content": "but John was forbidding him, saying, “I have need by thee to be baptized—and thou dost come unto me!”"
+    "content": [
+      "but John was ",
+      {
+        "text": "forbidding",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "was forbidden or keeping him thoroughly back.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " him, saying, “I have need by thee to be baptized—and thou dost come unto me!”"
+    ]
   },
   {
     "book": "MAT",
     "chapter": 3,
     "verse": 15,
     "content": [
-      "But Jesus answering said to him, ",
+      "But Jesus ",
+      {
+        "text": "answering",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "having judged himself of the matter, says, Leave or let go now,",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " said to him, ",
       {
         "text": "“Suffer now, for thus it is becoming to us to fulfil all righteousness,”",
         "marks": ["woc"]
@@ -510,6 +692,28 @@
     "chapter": 4,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter IV. may be divided into seven parts; ",
+            { "bibleLink": "Matthew 4:1–4", "content": "v. 1–4" },
+            ", Jesus’ first trial; ",
+            { "bibleLink": "Matthew 4:5–7", "content": "v. 5–7" },
+            " second trial; ",
+            { "bibleLink": "Matthew 4:8–11", "content": "v. 8–11" },
+            " third trial and issue; ",
+            { "bibleLink": "Matthew 4:12–16", "content": "v. 12–16" },
+            ", Jesus goes to Galilee and its result; ",
+            { "bibleLink": "Matthew 4:17", "content": "v. 17" },
+            ", Jesus’ text and theme; ",
+            { "bibleLink": "Matthew 4:18–22", "content": "v. 18–22" },
+            ", call of four apostles; ",
+            { "bibleLink": "Matthew 4:23–25", "content": "v. 23–25" },
+            ", Jesus teaching, preaching, healing, and their results."
+          ]
+        }
+      },
       { "heading": "His Temptation" },
       {
         "paragraph": true,
@@ -527,7 +731,17 @@
     "book": "MAT",
     "chapter": 4,
     "verse": 3,
-    "content": "And the Tempter having come to him said, “If Son thou art of God—speak that these stones may become loaves.”"
+    "content": [
+      "And the ",
+      {
+        "text": "Tempter",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "trier, tester,", "marks": ["i"] }]
+        }
+      },
+      " having come to him said, “If Son thou art of God—speak that these stones may become loaves.”"
+    ]
   },
   {
     "book": "MAT",
@@ -546,7 +760,18 @@
     "chapter": 4,
     "verse": 5,
     "content": [
-      "Then doth the Devil take him to the ",
+      "Then doth the Devil ",
+      {
+        "text": "take",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "taketh him along with", "marks": ["i"] }
+          ]
+        }
+      },
+      " him to the ",
       { "text": "holy", "marks": ["i"] },
       " city, and doth set him on the pinnacle of the temple,"
     ]
@@ -565,7 +790,23 @@
     "chapter": 4,
     "verse": 7,
     "content": [
-      { "paragraph": true, "text": "Jesus said to him again, " },
+      {
+        "paragraph": true,
+        "content": [
+          "Jesus ",
+          {
+            "text": "said",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "brought to light", "marks": ["i"] }
+              ]
+            }
+          },
+          " to him again, "
+        ]
+      },
       {
         "text": "“It hath been written, Thou shalt not tempt the Lord thy God.”",
         "marks": ["woc"]
@@ -582,14 +823,38 @@
     "book": "MAT",
     "chapter": 4,
     "verse": 9,
-    "content": "and saith to him, “All these to thee I will give, if falling down thou mayest bow to me.”"
+    "content": [
+      "and saith to him, “All these to thee I will give, if falling down thou mayest ",
+      {
+        "text": "bow",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "kiss (the hand) before or to me;", "marks": ["i"] }
+          ]
+        }
+      },
+      " to me.”"
+    ]
   },
   {
     "book": "MAT",
     "chapter": 4,
     "verse": 10,
     "content": [
-      "Then saith Jesus to him, ",
+      "Then ",
+      {
+        "text": "saith",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "layeth or layeth down,", "marks": ["i"] }
+          ]
+        }
+      },
+      " Jesus to him, ",
       {
         "text": "“Go—Adversary, for it hath been written, The Lord thy God thou shalt bow to, and Him only thou shalt serve.”",
         "marks": ["woc"]
@@ -670,7 +935,20 @@
       { "heading": "His First Disciples" },
       {
         "paragraph": true,
-        "text": "And Jesus, walking by the sea of Galilee, saw two brothers, Simon named Peter and Andrew his brother, casting a drag into the sea—for they were fishers—"
+        "content": [
+          "And Jesus, ",
+          {
+            "text": "walking",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "walking round about", "marks": ["i"] }
+              ]
+            }
+          },
+          " by the sea of Galilee, saw two brothers, Simon named Peter and Andrew his brother, casting a drag into the sea—for they were fishers—"
+        ]
       }
     ]
   },
@@ -733,10 +1011,38 @@
     "chapter": 5,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter V. may be divided into various parts; ",
+            { "bibleLink": "Matthew 5:1, 2", "content": "v. 1, 2" },
+            ", The occasion of the following discourse; ",
+            { "bibleLink": "Matthew 5:2–12", "content": "v. 2–12" },
+            ", Who are truly happy; ",
+            { "bibleLink": "Matthew 5:13–16", "content": "v. 13–16" },
+            ", Their duties to others; ",
+            { "bibleLink": "Matthew 5:17–48", "content": "v. 17–48" },
+            ", Opening up of the Moral Law in four special particulars; 1) murder; 2) unchastity; 3) oaths; 4) retaliation."
+          ]
+        }
+      },
       { "heading": "Sermon on the Mount" },
       {
         "paragraph": true,
-        "text": "And having seen the multitudes, he went up to the mount, and he having sat down, his disciples came to him,"
+        "content": [
+          "And having seen the ",
+          {
+            "text": "multitudes",
+            "foot": {
+              "type": "trn",
+              "content": ["Or, ", { "text": "crowds,", "marks": ["i"] }]
+            }
+          },
+          {
+            "text": ", he went up to the mount, and he having sat down, his disciples came to him,"
+          }
+        ]
       }
     ]
   },
@@ -762,8 +1068,21 @@
     "verse": 4,
     "content": {
       "paragraph": true,
-      "text": "“Happy the mourning—because they shall be comforted.",
-      "marks": ["woc"]
+      "content": [
+        {
+          "text": "“Happy the mourning—because they shall be ",
+          "marks": ["woc"]
+        },
+        {
+          "text": "comforted",
+          "marks": ["woc"],
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "called near,", "marks": ["i"] }]
+          }
+        },
+        { "text": ".", "marks": ["woc"] }
+      ]
     }
   },
   {
@@ -822,8 +1141,21 @@
     "verse": 10,
     "content": {
       "paragraph": true,
-      "text": "“Happy those persecuted for righteousness’ sake—because theirs is the reign of the heavens.",
-      "marks": ["woc"]
+      "content": [
+        { "text": "“Happy those ", "marks": ["woc"] },
+        {
+          "text": "persecuted",
+          "marks": ["woc"],
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "caused to flee,", "marks": ["i"] }]
+          }
+        },
+        {
+          "text": " for righteousness’ sake—because theirs is the reign of the heavens.",
+          "marks": ["woc"]
+        }
+      ]
     }
   },
   {
@@ -832,8 +1164,24 @@
     "verse": 11,
     "content": {
       "paragraph": true,
-      "text": "“Happy are ye whenever they may reproach you, and may persecute, and may say any evil thing against you falsely for my sake—",
-      "marks": ["woc"]
+      "content": [
+        { "text": "“Happy are ye whenever they may ", "marks": ["woc"] },
+        {
+          "text": "reproach",
+          "marks": ["woc"],
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "make a fame, name, or report", "marks": ["i"] }
+            ]
+          }
+        },
+        {
+          "text": " you, and may persecute, and may say any evil thing against you falsely for my sake—",
+          "marks": ["woc"]
+        }
+      ]
     }
   },
   {
@@ -842,9 +1190,14 @@
     "verse": 12,
     "content": [
       {
-        "text": "rejoice ye and be glad, because your reward ",
-        "marks": ["woc"]
+        "text": "rejoice",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "hail ye (it),", "marks": ["i"] }]
+        }
       },
+      { "text": " ye and be glad, because your reward ", "marks": ["woc"] },
       { "text": "is", "marks": ["i", "woc"] },
       {
         "text": " great in the heavens, for thus did they persecute the prophets who were before you.",
@@ -866,10 +1219,21 @@
     "book": "MAT",
     "chapter": 5,
     "verse": 14,
-    "content": {
-      "text": "“Ye are the light of the world, a city set upon a mount is not able to be hid;",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“Ye are the light of the ", "marks": ["woc"] },
+      {
+        "text": "world",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "order, adornment,", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": ", a city set upon a mount is not able to be hid;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -899,8 +1263,33 @@
     "verse": 17,
     "content": {
       "paragraph": true,
-      "text": "“Do not suppose that I came to throw down the law or the prophets—I did not come to throw down, but to fulfil;",
-      "marks": ["woc"]
+      "content": [
+        { "text": "“Do not ", "marks": ["woc"] },
+        {
+          "text": "suppose",
+          "marks": ["woc"],
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "let it not be (a thing) allotted", "marks": ["i"] }
+            ]
+          }
+        },
+        { "text": " that I came to throw down the ", "marks": ["woc"] },
+        {
+          "text": "law",
+          "marks": ["woc"],
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "thing allotted", "marks": ["i"] }]
+          }
+        },
+        {
+          "text": " or the prophets—I did not come to throw down, but to fulfil;",
+          "marks": ["woc"]
+        }
+      ]
     }
   },
   {
@@ -963,10 +1352,27 @@
     "book": "MAT",
     "chapter": 5,
     "verse": 23,
-    "content": {
-      "text": "“If, therefore, thou mayest bring thy gift to the altar, and there mayest remember that thy brother hath anything against thee,",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“If, therefore, thou mayest ", "marks": ["woc"] },
+      {
+        "text": "bring thy gift to the altar",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "bear forward thy gift upon (not “to”) the place of sacrifice.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": ", and there mayest remember that thy brother hath anything against thee,",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -1206,6 +1612,26 @@
     "chapter": 6,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter VI. may be divided into six parts; ",
+            { "bibleLink": "Matthew 6:1–4", "content": "v. 1–4" },
+            " of alms; ",
+            { "bibleLink": "Matthew 6:5–15", "content": "v. 5–15" },
+            " of prayer; ",
+            { "bibleLink": "Matthew 6:16–18", "content": "v. 16–18" },
+            " of fasting; ",
+            { "bibleLink": "Matthew 6:19–21", "content": "v. 19–21" },
+            " of treasures; ",
+            { "bibleLink": "Matthew 6:22, 23", "content": "v. 22, 23" },
+            " of single-mindedness; ",
+            { "bibleLink": "Matthew 6:24–34", "content": "v. 24–34" },
+            " of anxiety for the future."
+          ]
+        }
+      },
       { "heading": "Real Religion" },
       {
         "paragraph": true,
@@ -1238,10 +1664,27 @@
     "book": "MAT",
     "chapter": 6,
     "verse": 4,
-    "content": {
-      "text": "that thy kindness may be in secret, and thy Father who is seeing in secret Himself shall reward thee manifestly.",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "that thy kindness may be in secret, and thy Father who is seeing in secret Himself shall reward thee ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "manifestly",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "...he shall give from (himself) to thee in the light.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": ".", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -1259,9 +1702,18 @@
     "verse": 6,
     "content": [
       {
-        "text": "“But thou, when thou mayest pray, go into thy chamber, and having shut thy door, pray to thy Father who ",
+        "text": "“But thou, when thou mayest pray, go into thy chamber, and having shut thy door, ",
         "marks": ["woc"]
       },
+      {
+        "text": "pray",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "speak out", "marks": ["i"] }]
+        }
+      },
+      { "text": " to thy Father who ", "marks": ["woc"] },
       { "text": "is", "marks": ["i", "woc"] },
       {
         "text": " in secret, and thy Father who is seeing in secret, shall reward thee manifestly.",
@@ -1338,8 +1790,23 @@
     "chapter": 6,
     "verse": 14,
     "content": [
+      { "text": "“For, if ye may ", "marks": ["woc"] },
       {
-        "text": "“For, if ye may forgive men their trespasses He also will forgive you—your Father who ",
+        "text": "forgive",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "may let go to the men their fallings from (duty), let go also to you will your heavenly Father.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": " men their trespasses He also will forgive you—your Father who ",
         "marks": ["woc"]
       },
       { "text": "is", "marks": ["i", "woc"] },
@@ -1554,11 +2021,35 @@
     "book": "MAT",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "“Judge not, that ye may not be judged,",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter VII. may be divided into seven parts; ",
+            { "bibleLink": "Matthew 7:1–4", "content": "v. 1–4" },
+            " of rash judgments; ",
+            { "bibleLink": "Matthew 7:5, 6", "content": "v. 5, 6" },
+            " of holy prudence; ",
+            { "bibleLink": "Matthew 7:7–12", "content": "v. 7–12" },
+            " of perseverance in seeking good; ",
+            { "bibleLink": "Matthew 7:13, 14", "content": "v. 13, 14" },
+            " of the strait and the wide gates; ",
+            { "bibleLink": "Matthew 7:15–20", "content": "v. 15–20" },
+            " of false teachers and their fruits; ",
+            { "bibleLink": "Matthew 7:21–27", "content": "v. 21–27" },
+            " of the hearers and the doers of duty; ",
+            { "bibleLink": "Matthew 7:28, 29", "content": "v. 28, 29" },
+            " of the result and manner of Jesus’ teaching."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "“Judge not, that ye may not be judged,",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -1598,10 +2089,24 @@
     "book": "MAT",
     "chapter": 7,
     "verse": 5,
-    "content": {
-      "text": "Hypocrite, cast out first the beam out of thine own eye, and then thou shalt see clearly to cast out the mote out of thy brother’s eye.",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "Hypocrite, cast out first the beam out of thine own eye, and then thou shalt see ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "clearly",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "behold thoroughly.", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " to cast out the mote out of thy brother’s eye.",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -1626,8 +2131,27 @@
     "verse": 7,
     "content": {
       "paragraph": true,
-      "text": "“Ask, and it shall be given to you; seek, and ye shall find; knock, and it shall be opened to you;",
-      "marks": ["woc"]
+      "content": [
+        { "text": "“", "marks": ["woc"] },
+        {
+          "text": "Ask",
+          "marks": ["woc"],
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "be asking...be seeking (or desiring), be knocking...opened up;",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        {
+          "text": ", and it shall be given to you; seek, and ye shall find; knock, and it shall be opened to you;",
+          "marks": ["woc"]
+        }
+      ]
     }
   },
   {
@@ -1852,16 +2376,65 @@
     "book": "MAT",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And when he came down from the mount, great multitudes did follow him,"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter VIII. may be divided into eight parts; ",
+            { "bibleLink": "Matthew 8:1–4", "content": "v. 1–4" },
+            " cure of a leper; ",
+            { "bibleLink": "Matthew 8:5–13", "content": "v. 5–13" },
+            " of a centurion’s servant; ",
+            { "bibleLink": "Matthew 8:14, 15", "content": "v. 14, 15" },
+            " of Peter’s wife’s mother; ",
+            { "bibleLink": "Matthew 8:16, 17", "content": "v. 16, 17" },
+            " a fulfilment of prophecy; ",
+            { "bibleLink": "Matthew 8:18–20", "content": "v. 18–20" },
+            " a forward scribe; ",
+            { "bibleLink": "Matthew 8:21, 22", "content": "v. 21, 22" },
+            " a backward disciple; ",
+            { "bibleLink": "Matthew 8:23–27", "content": "v. 23–27" },
+            " a quieting of the sea; ",
+            { "bibleLink": "Matthew 8:28–34", "content": "v. 28–34" },
+            " two demonized ones and a herd of swine."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "content": [
+          "And when he came down from the mount, great ",
+          {
+            "text": "multitudes",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "many crowds.", "marks": ["i"] }]
+            }
+          },
+          { "text": " did follow him," }
+        ]
+      }
+    ]
   },
   {
     "book": "MAT",
     "chapter": 8,
     "verse": 2,
-    "content": "and lo, a leper having come, was bowing to him, saying, “Sir, if thou art willing, thou art able to cleanse me;”"
+    "content": [
+      "and lo, a leper having come, was ",
+      {
+        "text": "bowing",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "kissed (the hand) towards him;", "marks": ["i"] }
+          ]
+        }
+      },
+      " to him, saying, “Sir, if thou art willing, thou art able to cleanse me;”"
+    ]
   },
   {
     "book": "MAT",
@@ -1910,14 +2483,36 @@
     "verse": 7,
     "content": [
       "and Jesus saith to him, ",
-      { "text": "“I, having come, will heal him.”", "marks": ["woc"] }
+      { "text": "“I, having come, will ", "marks": ["woc"] },
+      {
+        "text": "heal",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "attend (or nourish) him;", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " him.”", "marks": ["woc"] }
     ]
   },
   {
     "book": "MAT",
     "chapter": 8,
     "verse": 8,
-    "content": "And the centurion answering said, “Sir, I am not worthy that thou mayest enter under my roof, but only say a word, and my servant shall be healed;"
+    "content": [
+      "And the centurion answering said, “Sir, I am not ",
+      {
+        "text": "worthy",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sufficient,", "marks": ["i"] }]
+        }
+      },
+      " that thou mayest enter under my roof, but only say a word, and my servant shall be healed;"
+    ]
   },
   {
     "book": "MAT",
@@ -1993,7 +2588,17 @@
     "verse": 16,
     "content": {
       "paragraph": true,
-      "text": "And evening having come, they brought to him many demoniacs, and he did cast out the spirits with a word, and did heal all who were ill,"
+      "content": [
+        "And ",
+        {
+          "text": "evening",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "late", "marks": ["i"] }]
+          }
+        },
+        " having come, they brought to him many demoniacs, and he did cast out the spirits with a word, and did heal all who were ill,"
+      ]
     }
   },
   {
@@ -2010,7 +2615,23 @@
       { "heading": "Power Over Men" },
       {
         "paragraph": true,
-        "text": "And Jesus having seen great multitudes about him, did command to depart to the other side;"
+        "content": [
+          "And Jesus having seen great ",
+          {
+            "text": "multitudes",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "many crowds about him, he commanded (or perhaps simply “named”) to go from (thence) to the further side,",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          " about him, did command to depart to the other side;"
+        ]
       }
     ]
   },
@@ -2026,8 +2647,20 @@
     "verse": 20,
     "content": [
       "and Jesus saith to him, ",
+      { "text": "“The ", "marks": ["woc"] },
       {
-        "text": "“The foxes have holes, and the birds of the heaven places of rest, but the Son of Man hath not where he may lay the head.”",
+        "text": "foxes",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "deceivers of sight.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " have holes, and the birds of the heaven places of rest, but the Son of Man hath not where he may lay the head.”",
         "marks": ["woc"]
       }
     ]
@@ -2154,6 +2787,34 @@
     "chapter": 9,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter IX. may be divided into ten parts; ",
+            { "bibleLink": "Matthew 9:1–8", "content": "v. 1–8" },
+            " cure of a paralytic, and authority of the Son of Man; ",
+            { "bibleLink": "Matthew 9:9", "content": "v. 9" },
+            " call of Matthew; ",
+            { "bibleLink": "Matthew 9:10–13", "content": "v. 10–13" },
+            " eating with tax-gatherers and sinners; ",
+            { "bibleLink": "Matthew 9:14–17", "content": "v. 14–17" },
+            " of fasting; ",
+            { "bibleLink": "Matthew 9:18, 19", "content": "v. 18, 19" },
+            " application of a chief man; ",
+            { "bibleLink": "Matthew 9:20–22", "content": "v. 20–22" },
+            " cure of an issue of blood; ",
+            { "bibleLink": "Matthew 9:23–26", "content": "v. 23–26" },
+            " raising of the chief’s daughter; ",
+            { "bibleLink": "Matthew 9:27–31", "content": "v. 27–31" },
+            " cure of two blind men; ",
+            { "bibleLink": "Matthew 9:32–34", "content": "v. 32–34" },
+            " cure of a dumb man; ",
+            { "bibleLink": "Matthew 9:35–38", "content": "v. 35–38" },
+            " Jesus’ teaching, proclaiming, healing, and compassion."
+          ]
+        }
+      },
       { "heading": "Forgives Sin" },
       {
         "paragraph": true,
@@ -2357,7 +3018,20 @@
     "book": "MAT",
     "chapter": 9,
     "verse": 23,
-    "content": "And Jesus having come to the house of the ruler, and having seen the minstrels and the multitude making tumult,"
+    "content": [
+      "And Jesus having come to the house of the ",
+      {
+        "text": "ruler",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "head or chief man.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", and having seen the minstrels and the multitude making tumult,"
+    ]
   },
   {
     "book": "MAT",
@@ -2455,7 +3129,27 @@
     "book": "MAT",
     "chapter": 9,
     "verse": 35,
-    "content": "And Jesus was going up and down all the cities and the villages, teaching in their synagogues, and proclaiming the good news of the reign, and healing every sickness and every malady among the people."
+    "content": [
+      "And Jesus was going up and down all the cities and the villages, teaching in their ",
+      {
+        "text": "synagogues",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "content": [
+                "synagogues, (that is, places for “bringing together” the people “to meet” with God, as in ",
+                { "bibleLink": "Exodus 25:22", "content": "Ex. 25. 22" },
+                ", and more systematically established after the captivity wherein any one present might address the audience)"
+              ],
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", and proclaiming the good news of the reign, and healing every sickness and every malady among the people."
+    ]
   },
   {
     "book": "MAT",
@@ -2465,7 +3159,17 @@
       { "heading": "Jesus and His Apostles" },
       {
         "paragraph": true,
-        "text": "And having seen the multitudes, he was moved with compassion for them, that they were faint and cast aside, as sheep not having a shepherd,"
+        "content": [
+          "And having seen the multitudes, he was moved with compassion for them, that they were faint and cast aside, as sheep not having a ",
+          {
+            "text": "shepherd",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "feeder.", "marks": ["i"] }]
+            }
+          },
+          ","
+        ]
       }
     ]
   },
@@ -2494,6 +3198,50 @@
     "chapter": 10,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter X. may be divided into various parts; ",
+            { "bibleLink": "Matthew 10:1", "content": "v. 1" },
+            " the general power given to the twelve sent; ",
+            { "bibleLink": "Matthew 10:2–4", "content": "v. 2–4" },
+            " their names; ",
+            { "bibleLink": "Matthew 10:5, 6", "content": "v. 5, 6" },
+            " to whom they were to go; ",
+            { "bibleLink": "Matthew 10:7, 8", "content": "v. 7, 8" },
+            " what to do; ",
+            { "bibleLink": "Matthew 10:9, 10", "content": "v. 9, 10" },
+            " what not to provide; ",
+            { "bibleLink": "Matthew 10:11–15", "content": "v. 11–15" },
+            " how to behave to all; ",
+            { "bibleLink": "Matthew 10:16", "content": "v. 16" },
+            " what to be; ",
+            { "bibleLink": "Matthew 10:17", "content": "v. 17" },
+            " what to beware of; ",
+            { "bibleLink": "Matthew 10:18", "content": "v. 18" },
+            " what to expect; ",
+            { "bibleLink": "Matthew 10:19–22", "content": "v. 19–22" },
+            " not to be anxious; ",
+            { "bibleLink": "Matthew 10:23", "content": "v. 23" },
+            " speedy comfort; ",
+            { "bibleLink": "Matthew 10:24, 25", "content": "v. 24, 25" },
+            " not to wonder at sufferings; ",
+            { "bibleLink": "Matthew 10:26–31", "content": "v. 26–31" },
+            " to fear God not men; ",
+            { "bibleLink": "Matthew 10:32, 33", "content": "v. 32, 33" },
+            " mutual avowals; ",
+            { "bibleLink": "Matthew 10:34–36", "content": "v. 34–36" },
+            " result of his coming; ",
+            { "bibleLink": "Matthew 10:37, 38", "content": "v. 37, 38" },
+            " who is worthy of him; ",
+            { "bibleLink": "Matthew 10:39", "content": "v. 39" },
+            " losing and finding; ",
+            { "bibleLink": "Matthew 10:40", "content": "v. 40" },
+            " recompense of reward."
+          ]
+        }
+      },
       { "heading": "Names of the Twelve" },
       {
         "paragraph": true,
@@ -2566,10 +3314,24 @@
     "book": "MAT",
     "chapter": 10,
     "verse": 9,
-    "content": {
-      "text": "“Provide not gold, nor silver, nor brass in your girdles,",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“Provide not gold, nor ", "marks": ["woc"] },
+      {
+        "text": "silver",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "prepare not gold, nor silver (so called from its whiteness), nor copper for your girdles,",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": ", nor brass in your girdles,", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -2593,10 +3355,18 @@
     "book": "MAT",
     "chapter": 10,
     "verse": 12,
-    "content": {
-      "text": "And coming to the house salute it,",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "And coming to the house ", "marks": ["woc"] },
+      {
+        "text": "salute",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "draw it together,", "marks": ["i"] }]
+        }
+      },
+      { "text": " it,", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -2620,10 +3390,20 @@
     "book": "MAT",
     "chapter": 10,
     "verse": 15,
-    "content": {
-      "text": "verily I say to you, It shall be more tolerable for the land of Sodom and Gomorrah in the day of judgment than for that city.",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "verily",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "Amen,", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " I say to you, It shall be more tolerable for the land of Sodom and Gomorrah in the day of judgment than for that city.",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -2730,10 +3510,21 @@
     "book": "MAT",
     "chapter": 10,
     "verse": 27,
-    "content": {
-      "text": "that which I tell you in the darkness, speak in the light, and that which you hear at the ear, proclaim on the house-tops.",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "that which I tell you in the darkness, speak in the light, and that which you hear at the ear, proclaim on the ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "house-tops",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "built places.", "marks": ["i"] }]
+        }
+      },
+      { "text": ".", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -2784,10 +3575,24 @@
     "book": "MAT",
     "chapter": 10,
     "verse": 33,
-    "content": {
-      "text": "and whoever shall deny me before men, I also will deny him before my Father who is in the heavens.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "and whoever shall ", "marks": ["woc"] },
+      {
+        "text": "deny",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "may not lift up (the hand) with) me.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " me before men, I also will deny him before my Father who is in the heavens.",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -2839,10 +3644,27 @@
     "book": "MAT",
     "chapter": 10,
     "verse": 39,
-    "content": {
-      "text": "“He who found his life shall lose it, and he who lost his life for my sake shall find it.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“He who ", "marks": ["woc"] },
+      {
+        "text": "found",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "is finding (by unlawful compliances) his life (soul or breath), shall lose it from (himself), and he who has loosed from (himself) his soul because of me, shall find it.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": " his life shall lose it, and he who lost his life for my sake shall find it.",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -2876,10 +3698,30 @@
     "book": "MAT",
     "chapter": 11,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And it came to pass, when Jesus ended directing his twelve disciples, he departed thence to teach and to preach in their cities."
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XI. may be divided into five parts; ",
+            { "bibleLink": "Matthew 11:1–6", "content": "v. 1–6" },
+            " John’s enquiry at Jesus and the answer; ",
+            { "bibleLink": "Matthew 11:7–15", "content": "v. 7–15" },
+            " Jesus’ testimony to John; ",
+            { "bibleLink": "Matthew 11:16–19", "content": "v. 16–19" },
+            " His simile about that generation; ",
+            { "bibleLink": "Matthew 11:20–24", "content": "v. 20–24" },
+            " His reproof of three cities; ",
+            { "bibleLink": "Matthew 11:25–30", "content": "v. 25–30" },
+            " His thanksgiving and his invitation to men."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "And it came to pass, when Jesus ended directing his twelve disciples, he departed thence to teach and to preach in their cities."
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -2905,10 +3747,16 @@
     "verse": 4,
     "content": [
       "And Jesus answering said to them, ",
+      { "text": "“Having gone, ", "marks": ["woc"] },
       {
-        "text": "“Having gone, declare to John the things that ye hear and see,",
-        "marks": ["woc"]
-      }
+        "text": "declare",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "tell thoroughly", "marks": ["i"] }]
+        }
+      },
+      { "text": " to John the things that ye hear and see,", "marks": ["woc"] }
     ]
   },
   {
@@ -2936,7 +3784,31 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And as they are going, Jesus began to say to the multitudes concerning John, "
+        "content": [
+          "And as they are ",
+          {
+            "text": "going",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "and these going on (to John’s prison),",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          ", Jesus began to ",
+          {
+            "text": "say",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "lay down", "marks": ["i"] }]
+            }
+          },
+          " to the multitudes concerning John, "
+        ]
       },
       {
         "text": "“What went ye out to the wilderness to view?—a reed shaken by the wind?",
@@ -2978,18 +3850,44 @@
     "verse": 11,
     "content": {
       "paragraph": true,
-      "text": "Verily I say to you, there hath not risen, among those born of women, a greater than John the Baptist, but he who is least in the reign of the heavens is greater than he.",
-      "marks": ["woc"]
+      "content": [
+        {
+          "text": "Verily",
+          "marks": ["woc"],
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "Amen,", "marks": ["i"] }]
+          }
+        },
+        {
+          "text": " I say to you, there hath not risen, among those born of women, a greater than John the Baptist, but he who is least in the reign of the heavens is greater than he.",
+          "marks": ["woc"]
+        }
+      ]
     }
   },
   {
     "book": "MAT",
     "chapter": 11,
     "verse": 12,
-    "content": {
-      "text": "“And, from the days of John the Baptist till now, the reign of the heavens doth suffer violence, and violent men do take it by force,",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“And, from the days of John the Baptist till now, the reign of the heavens doth suffer violence, and violent men do ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "take it by force",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "seize, snatch or lay hold of it.", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": ",", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -3145,8 +4043,24 @@
     "verse": 28,
     "content": {
       "paragraph": true,
-      "text": "“Come unto me, all ye labouring and burdened ones, and I will give you rest,",
-      "marks": ["woc"]
+      "content": [
+        { "text": "“Come unto me, all ye ", "marks": ["woc"] },
+        {
+          "text": "labouring",
+          "marks": ["woc"],
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "are struck or tried.", "marks": ["i"] }
+            ]
+          }
+        },
+        {
+          "text": " and burdened ones, and I will give you rest,",
+          "marks": ["woc"]
+        }
+      ]
     }
   },
   {
@@ -3165,7 +4079,16 @@
     "content": [
       { "text": "for my yoke ", "marks": ["woc"] },
       { "text": "is", "marks": ["i", "woc"] },
-      { "text": " easy, and my burden is light.”", "marks": ["woc"] }
+      { "text": " ", "marks": ["woc"] },
+      {
+        "text": "easy",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "useful.", "marks": ["i"] }]
+        }
+      },
+      { "text": ", and my burden is light.”", "marks": ["woc"] }
     ]
   },
   {
@@ -3173,6 +4096,26 @@
     "chapter": 12,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XII. may be divided into six parts; ",
+            { "bibleLink": "Matthew 12:1–8", "content": "v. 1–8" },
+            " kindness better than sacrifice; ",
+            { "bibleLink": "Matthew 12:9–13", "content": "v. 9–13" },
+            " cure of a withered hand; ",
+            { "bibleLink": "Matthew 12:14–21", "content": "v. 14–21" },
+            " plot against Jesus, his work and character; ",
+            { "bibleLink": "Matthew 12:22–37", "content": "v. 22–37" },
+            " cure of a blind and dumb man, and reproof of idle words; ",
+            { "bibleLink": "Matthew 12:38–45", "content": "v. 38–45" },
+            " a sign sought and given with a warning; ",
+            { "bibleLink": "Matthew 12:46–50", "content": "v. 46–50" },
+            " his true brethren and friends."
+          ]
+        }
+      },
       { "heading": "Jesus Challenged" },
       {
         "paragraph": true,
@@ -3287,10 +4230,31 @@
     "verse": 13,
     "content": [
       "Then saith he to the man, ",
-      { "text": "“Stretch forth thy hand,”", "marks": ["woc"] },
+      {
+        "text": "“Stretch forth thy hand,”",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "extend, make long.", "marks": ["i"] }]
+        }
+      },
       " and he stretched ",
       { "text": "it", "marks": ["i"] },
-      " forth, and it was restored whole as the other."
+      " forth, and it was ",
+      {
+        "text": "restored",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "stood thoroughly forth sound as the other.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " whole as the other."
     ]
   },
   {
@@ -3309,7 +4273,23 @@
     "book": "MAT",
     "chapter": 12,
     "verse": 15,
-    "content": "and Jesus having known, withdrew thence, and there followed him great multitudes, and he healed them all,"
+    "content": [
+      "and Jesus having known, ",
+      {
+        "text": "withdrew",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "gave place again...many crowds...and he attended (or cherished) them all.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " thence, and there followed him great multitudes, and he healed them all,"
+    ]
   },
   {
     "book": "MAT",
@@ -3330,10 +4310,26 @@
     "book": "MAT",
     "chapter": 12,
     "verse": 18,
-    "content": {
-      "text": "“Lo, My servant, whom I did choose, My beloved, in whom My soul did delight, I will put My Spirit upon him, and judgment to the nations he shall declare,",
-      "break": true
-    }
+    "content": [
+      { "text": "“Lo, My " },
+      {
+        "text": "servant",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "lad or boy, whom I did chuse, (or “lift up for myself,”)",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": ", whom I did choose, My beloved, in whom My soul did delight, I will put My Spirit upon him, and judgment to the nations he shall declare,",
+        "break": true
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -3388,7 +4384,15 @@
     "chapter": 12,
     "verse": 25,
     "content": [
-      "And Jesus, knowing their thoughts, said to them, ",
+      "And Jesus, knowing their ",
+      {
+        "text": "thoughts",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "inner minds.", "marks": ["i"] }]
+        }
+      },
+      ", said to them, ",
       {
         "text": "“Every kingdom having been divided against itself is desolated, and no city or house having been divided against itself, doth stand,",
         "marks": ["woc"]
@@ -3624,7 +4628,15 @@
     "chapter": 12,
     "verse": 49,
     "content": [
-      "And having stretched forth his hand toward his disciples, he said, ",
+      "And having stretched forth his hand ",
+      {
+        "text": "toward",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "upon.", "marks": ["i"] }]
+        }
+      },
+      " his disciples, he said, ",
       { "text": "“Lo, my mother and my brethren!", "marks": ["woc"] }
     ]
   },
@@ -3642,6 +4654,40 @@
     "chapter": 13,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XIII. may be divided into various parts; ",
+            { "bibleLink": "Matthew 13:1–10", "content": "v. 1–10" },
+            " Simile of various kinds of soil; ",
+            { "bibleLink": "Matthew 13:11–17", "content": "v. 11–17" },
+            " reasons for teaching by similes; ",
+            { "bibleLink": "Matthew 13:18–23", "content": "v. 18–23" },
+            " explanation of the simile; ",
+            { "bibleLink": "Matthew 13:24–30", "content": "v. 24–30" },
+            " simile of the tares; ",
+            { "bibleLink": "Matthew 13:31, 32", "content": "v. 31, 32" },
+            " of the mustard-seed; ",
+            { "bibleLink": "Matthew 13:33", "content": "v. 33" },
+            " of the leaven; ",
+            { "bibleLink": "Matthew 13:34, 35", "content": "v. 34, 35" },
+            " reason for so teaching; ",
+            { "bibleLink": "Matthew 13:36–43", "content": "v. 36–43" },
+            " explanation of the tares; ",
+            { "bibleLink": "Matthew 13:44", "content": "v. 44" },
+            " simile of the hid treasure; ",
+            { "bibleLink": "Matthew 13:45, 46", "content": "v. 45, 46" },
+            " of pearl of great price; ",
+            { "bibleLink": "Matthew 13:47–50", "content": "v. 47–50" },
+            " of the net; ",
+            { "bibleLink": "Matthew 13:51", "content": "v. 51" },
+            " of the householder; ",
+            { "bibleLink": "Matthew 13:53–58", "content": "v. 53–58" },
+            " Jesus rejected by his townsmen."
+          ]
+        }
+      },
       { "heading": "Parables of the Kingdom" },
       {
         "paragraph": true,
@@ -3672,10 +4718,27 @@
     "book": "MAT",
     "chapter": 13,
     "verse": 4,
-    "content": {
-      "text": "and in his sowing, some indeed fell by the way, and the fowls did come and devour them,",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and in his sowing, some indeed fell by the way, and the ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "fowls",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "along (or near) the way, and the flying creatures came.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": " did come and devour them,", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -3973,17 +5036,37 @@
     "verse": 34,
     "content": {
       "paragraph": true,
-      "text": "All these things spake Jesus in similes to the multitudes, and without a simile he was not speaking to them,"
+      "content": [
+        "All these things spake Jesus in similes to the ",
+        {
+          "text": "multitudes",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "crowds,", "marks": ["i"] }]
+          }
+        },
+        ", and without a simile he was not speaking to them,"
+      ]
     }
   },
   {
     "book": "MAT",
     "chapter": 13,
     "verse": 35,
-    "content": {
-      "text": "that it might be fulfilled that was spoken through the prophet, saying, “I will open in similes my mouth, I will utter things having been hidden from the foundation of the world.”",
-      "break": true
-    }
+    "content": [
+      "that it might be fulfilled that was spoken through the prophet, saying, “I will open in similes my mouth, I will utter things having been hidden from the foundation of the ",
+      {
+        "text": "world",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "order, arrangement,", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": ".”", "break": true }
+    ]
   },
   {
     "book": "MAT",
@@ -4141,7 +5224,19 @@
     "verse": 51,
     "content": [
       "Jesus saith to them, ",
-      { "text": "“Did ye understand all these?”", "marks": ["woc"] },
+      { "text": "“Did ye ", "marks": ["woc"] },
+      {
+        "text": "understand",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "sent (your hearts) with all these.", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " all these?”", "marks": ["woc"] },
       " They say to him, “Yes, sir.”"
     ]
   },
@@ -4174,7 +5269,17 @@
       { "heading": "The Rejection" },
       {
         "paragraph": true,
-        "text": "and having come to his own country, he was teaching them in their synagogue, so that they were astonished, and were saying, “Whence to this one this wisdom and the mighty works?"
+        "content": [
+          "and having come to his ",
+          {
+            "text": "own country",
+            "foot": {
+              "type": "trn",
+              "content": ["Or, ", { "text": "father’s place,", "marks": ["i"] }]
+            }
+          },
+          ", he was teaching them in their synagogue, so that they were astonished, and were saying, “Whence to this one this wisdom and the mighty works?"
+        ]
       }
     ]
   },
@@ -4206,13 +5311,39 @@
     "book": "MAT",
     "chapter": 13,
     "verse": 58,
-    "content": "and he did not there many mighty works, because of their unbelief."
+    "content": [
+      "and he did not there many mighty works, because of their ",
+      {
+        "text": "unbelief",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "unstedfastness,", "marks": ["i"] }]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "MAT",
     "chapter": 14,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XIV. may be divided into four parts; ",
+            { "bibleLink": "Matthew 14:1–12", "content": "v. 1–12" },
+            " imprisonment and death of John the Baptist; ",
+            { "bibleLink": "Matthew 14:13–21", "content": "v. 13–21" },
+            " Jesus feeds five thousand men; ",
+            { "bibleLink": "Matthew 14:22–33", "content": "v. 22–33" },
+            " He and Peter walk on the waters; ",
+            { "bibleLink": "Matthew 14:34–36", "content": "v. 34–36" },
+            " Jesus at Gennesaret."
+          ]
+        }
+      },
       { "heading": "From Place to Place" },
       {
         "paragraph": true,
@@ -4224,7 +5355,17 @@
     "book": "MAT",
     "chapter": 14,
     "verse": 2,
-    "content": "and said to his servants, “This is John the Baptist, he did rise from the dead, and because of this the mighty energies are working in him.”"
+    "content": [
+      "and said to his ",
+      {
+        "text": "servants",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "lads or boys;", "marks": ["i"] }]
+        }
+      },
+      ", “This is John the Baptist, he did rise from the dead, and because of this the mighty energies are working in him.”"
+    ]
   },
   {
     "book": "MAT",
@@ -4257,7 +5398,16 @@
     "book": "MAT",
     "chapter": 14,
     "verse": 7,
-    "content": "whereupon with an oath he professed to give her whatever she might ask."
+    "content": [
+      {
+        "text": "whereupon",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "whence.", "marks": ["i"] }]
+        }
+      },
+      " with an oath he professed to give her whatever she might ask."
+    ]
   },
   {
     "book": "MAT",
@@ -4279,7 +5429,17 @@
     "book": "MAT",
     "chapter": 14,
     "verse": 10,
-    "content": "and having sent, he beheaded John in the prison,"
+    "content": [
+      "and having sent, he beheaded John in the ",
+      {
+        "text": "prison",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ward;", "marks": ["i"] }]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "MAT",
@@ -4351,7 +5511,16 @@
     "verse": 18,
     "content": [
       "And he said, ",
-      { "text": "“Bring ye them to me hither.”", "marks": ["woc"] }
+      { "text": "“", "marks": ["woc"] },
+      {
+        "text": "Bring",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "bear", "marks": ["i"] }]
+        }
+      },
+      { "text": " ye them to me hither.”", "marks": ["woc"] }
     ]
   },
   {
@@ -4447,7 +5616,19 @@
     "verse": 31,
     "content": [
       "And immediately Jesus, having stretched forth the hand, laid hold of him, and saith to him, ",
-      { "text": "“Little faith! for what didst thou waver?”", "marks": ["woc"] }
+      { "text": "“Little faith! for what didst thou ", "marks": ["woc"] },
+      {
+        "text": "waver",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "stand on two things", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "?”", "marks": ["woc"] }
     ]
   },
   {
@@ -4490,16 +5671,50 @@
     "book": "MAT",
     "chapter": 15,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Then come unto Jesus do they from Jerusalem—scribes and Pharisees—saying,"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XV. may be divided into four parts; ",
+            { "bibleLink": "Matthew 15:1–20", "content": "v. 1–20" },
+            " Jesus and the tradition of the presbyters; ",
+            { "bibleLink": "Matthew 15:21–28", "content": "v. 21–28" },
+            " cure of a Canaanitess’ daughter; ",
+            { "bibleLink": "Matthew 15:29–31", "content": "v. 29–31" },
+            " cure of many others; ",
+            { "bibleLink": "Matthew 15:32–39", "content": "v. 32–39" },
+            " feeding of four thousand men, &c."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Then come unto Jesus do they from Jerusalem—scribes and Pharisees—saying,"
+      }
+    ]
   },
   {
     "book": "MAT",
     "chapter": 15,
     "verse": 2,
-    "content": "“Wherefore do thy disciples transgress the tradition of the elders? for they do not wash their hands when they may eat bread.”"
+    "content": [
+      "“Wherefore do thy disciples ",
+      {
+        "text": "transgress",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "go beyond the traditions (lit. things “given forth” by or) of the elders,",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " the tradition of the elders? for they do not wash their hands when they may eat bread.”"
+    ]
   },
   {
     "book": "MAT",
@@ -4517,10 +5732,24 @@
     "book": "MAT",
     "chapter": 15,
     "verse": 4,
-    "content": {
-      "text": "for God did command, saying, Honour thy father and mother; and, He who is speaking evil of father or mother—let him die the death;",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "for God did command, saying, ", "marks": ["woc"] },
+      {
+        "text": "Honour",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "make heavy, weighty;", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " thy father and mother; and, He who is speaking evil of father or mother—let him die the death;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -4548,11 +5777,25 @@
     "book": "MAT",
     "chapter": 15,
     "verse": 7,
-    "content": {
-      "text": "“Hypocrites, well did Isaiah prophesy of you, saying,",
-      "marks": ["woc"],
-      "break": true
-    }
+    "content": [
+      { "text": "“", "marks": ["woc"] },
+      {
+        "text": "Hypocrites",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "judges under (a pretence).", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": ", well did Isaiah prophesy of you, saying,",
+        "marks": ["woc"],
+        "break": true
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -4583,7 +5826,19 @@
         "paragraph": true,
         "text": "And having called near the multitude, he said to them, "
       },
-      { "text": "“Hear and understand:", "marks": ["woc"] }
+      { "text": "“Hear and ", "marks": ["woc"] },
+      {
+        "text": "understand",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...and send (your heart) with it.", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": ":", "marks": ["woc"] }
     ]
   },
   {
@@ -4617,10 +5872,21 @@
     "book": "MAT",
     "chapter": 15,
     "verse": 14,
-    "content": {
-      "text": "let them alone, guides they are—blind of blind; and if blind may guide blind, both into a ditch shall fall.”",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "let them alone, guides they are—blind of blind; and if blind may guide blind, both into a ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "ditch",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "a deep place.", "marks": ["i"] }]
+        }
+      },
+      { "text": " shall fall.”", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -4650,19 +5916,44 @@
     "book": "MAT",
     "chapter": 15,
     "verse": 18,
-    "content": {
-      "text": "but the things coming forth from the mouth from the heart do come forth, and these defile the man;",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "but the things coming forth from the mouth from the heart do come forth, and these ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "defile",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "make common,", "marks": ["i"] }]
+        }
+      },
+      { "text": " the man;", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
     "chapter": 15,
     "verse": 19,
-    "content": {
-      "text": "for out of the heart come forth evil thoughts, murders, adulteries, whoredoms, thefts, false witnessings, evil speakings:",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "for out of the heart come forth evil ", "marks": ["woc"] },
+      {
+        "text": "thoughts",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "things laid thoroughly together.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": ", murders, adulteries, whoredoms, thefts, false witnessings, evil speakings:",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -4695,7 +5986,23 @@
     "book": "MAT",
     "chapter": 15,
     "verse": 23,
-    "content": "And he did not answer her a word; and his disciples having come to him, were asking him, saying—“Let her away, because she crieth after us;”"
+    "content": [
+      "And he did not answer her a word; and his disciples having come to him, were asking him, saying—“",
+      {
+        "text": "Let her away",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "Loose her from (thee, by granting her request).",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", because she crieth after us;”"
+    ]
   },
   {
     "book": "MAT",
@@ -4713,7 +6020,23 @@
     "book": "MAT",
     "chapter": 15,
     "verse": 25,
-    "content": "And having come, she was bowing to him, saying, “Sir, help me;”"
+    "content": [
+      "And having come, she was ",
+      {
+        "text": "bowing",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "kissed forward (the hand) to him, saying, Sir, be helping me!",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " to him, saying, “Sir, help me;”"
+    ]
   },
   {
     "book": "MAT",
@@ -4764,7 +6087,23 @@
     "book": "MAT",
     "chapter": 15,
     "verse": 30,
-    "content": "and there came to him great multitudes, having with them lame, blind, dumb, maimed, and many others, and they did cast them at the feet of Jesus, and he healed them,"
+    "content": [
+      "and there came to him great ",
+      {
+        "text": "multitudes",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "many crowds come forward,...near Jesus’ feet, and he attended (or cherished) them.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", having with them lame, blind, dumb, maimed, and many others, and they did cast them at the feet of Jesus, and he healed them,"
+    ]
   },
   {
     "book": "MAT",
@@ -4814,7 +6153,20 @@
     "book": "MAT",
     "chapter": 15,
     "verse": 36,
-    "content": "and having taken the seven loaves and the fishes, having given thanks, he did break, and gave to his disciples, and the disciples to the multitude."
+    "content": [
+      "and having taken the seven loaves and the fishes, having ",
+      {
+        "text": "given thanks",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "having leaped well for joy.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", he did break, and gave to his disciples, and the disciples to the multitude."
+    ]
   },
   {
     "book": "MAT",
@@ -4838,10 +6190,46 @@
     "book": "MAT",
     "chapter": 16,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And the Pharisees and Sadducees having come, tempting, did question him, to shew to them a sign from the heaven,"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XVI. may be divided into five parts; ",
+            { "bibleLink": "Matthew 16:1–4", "content": "v. 1–4" },
+            " a sign sought and given; ",
+            { "bibleLink": "Matthew 16:5–12", "content": "v. 5–12" },
+            " tendency of the teachings of the Pharisees and Sadducees; ",
+            { "bibleLink": "Matthew 16:13–20", "content": "v. 13–20" },
+            " Jesus confessed by Peter; ",
+            { "bibleLink": "Matthew 16:21–23", "content": "v. 21–23" },
+            " avows his sufferings, and rebukes Peter; ",
+            { "bibleLink": "Matthew 16:24–28", "content": "v. 24–28" },
+            " announces profit and loss."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "content": [
+          "And the Pharisees and Sadducees having come, tempting, did question him, to ",
+          {
+            "text": "shew",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "...asked him a sign out of the heavens to show to them over and above",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          { "text": " to them a sign from the heaven," }
+        ]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -4888,8 +6276,20 @@
     "verse": 6,
     "content": [
       { "paragraph": true, "text": "and Jesus said to them, " },
+      { "text": "“Beware, and ", "marks": ["woc"] },
       {
-        "text": "“Beware, and take heed of the leaven of the Pharisees and Sadducees;”",
+        "text": "take heed",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "see and hold off from.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " of the leaven of the Pharisees and Sadducees;”",
         "marks": ["woc"]
       }
     ]
@@ -4916,10 +6316,24 @@
     "book": "MAT",
     "chapter": 16,
     "verse": 9,
-    "content": {
-      "text": "do ye not yet understand, nor remember the five loaves of the five thousand, and how many hand-baskets ye took up?",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "do ye not yet ", "marks": ["woc"] },
+      {
+        "text": "understand",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "bear in mind...wicker-baskets.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": ", nor remember the five loaves of the five thousand, and how many hand-baskets ye took up?",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -5106,10 +6520,43 @@
     "chapter": 17,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XVII. may be divided into five parts; ",
+            { "bibleLink": "Matthew 17:1–8", "content": "v. 1–8" },
+            " Jesus is transfigured; ",
+            { "bibleLink": "Matthew 17:9–13", "content": "v. 9–13" },
+            " the true Elijah; ",
+            { "bibleLink": "Matthew 17:14–21", "content": "v. 14–21" },
+            " expulsion of demoniac, and power of prayer; ",
+            { "bibleLink": "Matthew 17:22, 23", "content": "v. 22, 23" },
+            " suffering foretold; ",
+            { "bibleLink": "Matthew 17:24–27", "content": "v. 24–27" },
+            " tribute paid."
+          ]
+        }
+      },
       { "heading": "The Transfiguration" },
       {
         "paragraph": true,
-        "text": "And after six days Jesus taketh Peter, and James, and John his brother, and doth bring them up to a high mount by themselves,"
+        "content": [
+          "And after six days Jesus ",
+          {
+            "text": "taketh",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                { "text": "taketh along with himself.", "marks": ["i"] }
+              ]
+            }
+          },
+          {
+            "text": " Peter, and James, and John his brother, and doth bring them up to a high mount by themselves,"
+          }
+        ]
       }
     ]
   },
@@ -5148,7 +6595,15 @@
     "chapter": 17,
     "verse": 7,
     "content": [
-      "and Jesus having come near, touched them, and said, ",
+      "and Jesus having ",
+      {
+        "text": "come near",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "came forward.", "marks": ["i"] }]
+        }
+      },
+      ", touched them, and said, ",
       { "text": "“Rise, be not afraid,”", "marks": ["woc"] }
     ]
   },
@@ -5177,7 +6632,17 @@
     "book": "MAT",
     "chapter": 17,
     "verse": 10,
-    "content": "And his disciples questioned him, saying, “Why then do the scribes say that Elijah it behoveth to come first?”"
+    "content": [
+      "And his disciples ",
+      {
+        "text": "questioned",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "asked him also.", "marks": ["i"] }]
+        }
+      },
+      " him, saying, “Why then do the scribes say that Elijah it behoveth to come first?”"
+    ]
   },
   {
     "book": "MAT",
@@ -5254,7 +6719,17 @@
     "verse": 19,
     "content": {
       "paragraph": true,
-      "text": "Then the disciples having come to Jesus by himself, said, “Wherefore were we not able to cast him out?”"
+      "content": [
+        "Then the disciples having ",
+        {
+          "text": "come",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "came forward.", "marks": ["i"] }]
+          }
+        },
+        " to Jesus by himself, said, “Wherefore were we not able to cast him out?”"
+      ]
     }
   },
   {
@@ -5350,6 +6825,28 @@
     "chapter": 18,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XVIII. may be divided into seven parts; ",
+            { "bibleLink": "Matthew 18:1–6", "content": "v. 1–6" },
+            " the great one in the kingdom; ",
+            { "bibleLink": "Matthew 18:7–9", "content": "v. 7–9" },
+            " wo to the stumbling-block; ",
+            { "bibleLink": "Matthew 18:10–14", "content": "v. 10–14" },
+            " value of a lost sheep; ",
+            { "bibleLink": "Matthew 18:15–18", "content": "v. 15–18" },
+            " how to deal with a stumbling brother; ",
+            { "bibleLink": "Matthew 18:19, 20", "content": "v. 19, 20" },
+            " unity of desire; ",
+            { "bibleLink": "Matthew 18:21, 22", "content": "v. 21, 22" },
+            " extent of forgiveness; ",
+            { "bibleLink": "Matthew 18:23–35", "content": "v. 23–35" },
+            " mutual forgiveness."
+          ]
+        }
+      },
       { "heading": "Jesus and His Disciples" },
       {
         "paragraph": true,
@@ -5443,10 +6940,21 @@
     "book": "MAT",
     "chapter": 18,
     "verse": 11,
-    "content": {
-      "text": "for the Son of Man did come to save the lost.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "for the Son of Man did come to save the ", "marks": ["woc"] },
+      {
+        "text": "lost",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "came...loosed (itself) away.", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": ".", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -5677,6 +7185,28 @@
     "chapter": 19,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XIX. may be divided into seven parts; ",
+            { "bibleLink": "Matthew 19:1, 2", "content": "v. 1, 2" },
+            " Jesus’ return to Judea; ",
+            { "bibleLink": "Matthew 19:3–9", "content": "v. 3–9" },
+            " law of divorce; ",
+            { "bibleLink": "Matthew 19:10–12", "content": "v. 10–12" },
+            " when marriage is necessary; ",
+            { "bibleLink": "Matthew 19:13–15", "content": "v. 13–15" },
+            " He blesses little children; ",
+            { "bibleLink": "Matthew 19:16–22", "content": "v. 16–22" },
+            " a rich young ruler; ",
+            { "bibleLink": "Matthew 19:23–26", "content": "v. 23–26" },
+            " earthly riches a hindrance; ",
+            { "bibleLink": "Matthew 19:27–30", "content": "v. 27–30" },
+            " rewards of fidelity."
+          ]
+        }
+      },
       { "heading": "Beyond Jordan" },
       {
         "paragraph": true,
@@ -5688,7 +7218,20 @@
     "book": "MAT",
     "chapter": 19,
     "verse": 2,
-    "content": "and great multitudes followed him, and he healed them there."
+    "content": [
+      "and great multitudes followed him, and he ",
+      {
+        "text": "healed",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "attended (or cherished)", "marks": ["i"] }
+          ]
+        }
+      },
+      " them there."
+    ]
   },
   {
     "book": "MAT",
@@ -5795,7 +7338,23 @@
     "verse": 13,
     "content": {
       "paragraph": true,
-      "text": "Then were brought near to him children that he might put hands on them and pray, and the disciples rebuked them."
+      "content": [
+        "Then were brought near to him children that he might put hands on them and ",
+        {
+          "text": "pray",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "brought forward...might put...might pour forth (prayer) for them,...laid a weight upon them.",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ", and the disciples rebuked them."
+      ]
     }
   },
   {
@@ -5862,10 +7421,20 @@
     "book": "MAT",
     "chapter": 19,
     "verse": 19,
-    "content": {
-      "text": "honour thy father and mother, and, thou shalt love thy neighbour as thyself.”",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "honour",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "make weighty.", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " thy father and mother, and, thou shalt love thy neighbour as thyself.”",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -5916,7 +7485,17 @@
     "book": "MAT",
     "chapter": 19,
     "verse": 25,
-    "content": "And his disciples having heard, were amazed exceedingly, saying, “Who, then, is able to be saved?”"
+    "content": [
+      "And his disciples having heard, were ",
+      {
+        "text": "amazed",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "struck.", "marks": ["i"] }]
+        }
+      },
+      " exceedingly, saying, “Who, then, is able to be saved?”"
+    ]
   },
   {
     "book": "MAT",
@@ -5974,6 +7553,24 @@
     "chapter": 20,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XX. may be divided into five parts; ",
+            { "bibleLink": "Matthew 20:1–16", "content": "v. 1–16" },
+            " simile of the dissatisfied workmen; ",
+            { "bibleLink": "Matthew 20:17–19", "content": "v. 17–19" },
+            " Jesus foretells his suffering; ",
+            { "bibleLink": "Matthew 20:20–23", "content": "v. 20–23" },
+            " reasons with the sons of Zebedee; ",
+            { "bibleLink": "Matthew 20:24–28", "content": "v. 24–28" },
+            " and with his disciples; ",
+            { "bibleLink": "Matthew 20:29–34", "content": "v. 29–34" },
+            " cures two blind men."
+          ]
+        }
+      },
       { "heading": "Labourers in the Vineyard" },
       {
         "paragraph": true,
@@ -5995,10 +7592,21 @@
     "book": "MAT",
     "chapter": 20,
     "verse": 3,
-    "content": {
-      "text": "“And having gone forth about the third hour, he saw others standing in the marketplace idle,",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“And having gone forth about the third hour, he saw others standing in the marketplace ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "idle",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "not working.", "marks": ["i"] }]
+        }
+      },
+      { "text": ",", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -6116,10 +7724,21 @@
     "book": "MAT",
     "chapter": 20,
     "verse": 16,
-    "content": {
-      "text": "So the last shall be first, and the first last, for many are called, and few chosen.”",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "So the last shall be first, and the first last, for many are called, and few ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "chosen",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "elect or select,", "marks": ["i"] }]
+        }
+      },
+      { "text": ".”", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -6127,26 +7746,73 @@
     "verse": 17,
     "content": {
       "paragraph": true,
-      "text": "And Jesus going up to Jerusalem, took the twelve disciples by themselves in the way, and said to them,"
+      "content": [
+        "And Jesus going up to Jerusalem, ",
+        {
+          "text": "took",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "took along with him.", "marks": ["i"] }
+            ]
+          }
+        },
+        " the twelve disciples by themselves in the way, and said to them,"
+      ]
     }
   },
   {
     "book": "MAT",
     "chapter": 20,
     "verse": 18,
-    "content": {
-      "text": "“Lo, we go up to Jerusalem, and the Son of Man shall be delivered to the chief priests and scribes,",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "“Lo, we go up to Jerusalem, and the Son of Man shall be ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "delivered",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "given over...judge him down to death.", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " to the chief priests and scribes,", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
     "chapter": 20,
     "verse": 19,
-    "content": {
-      "text": "and they shall condemn him to death, and shall deliver him to the nations to mock, and to scourge, and to crucify, and the third day he will rise again.”",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and they shall condemn him to death, and shall ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "deliver",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "give him over...to treat as a child, and to lash,...shall stand up.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": " him to the nations to mock, and to scourge, and to crucify, and the third day he will rise again.”",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -6217,10 +7883,21 @@
     "book": "MAT",
     "chapter": 20,
     "verse": 26,
-    "content": {
-      "text": "but not so shall it be among you, but whoever may will among you to become great, let him be your ministrant;",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "but not so shall it be among you, but whoever may will among you to become great, let him be your ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "ministrant",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "deacon,", "marks": ["i"] }]
+        }
+      },
+      { "text": ";", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -6279,7 +7956,20 @@
     "book": "MAT",
     "chapter": 20,
     "verse": 33,
-    "content": "they say to him, “Sir, that our eyes may be opened;”"
+    "content": [
+      "they say to him, “Sir, that our eyes may be ",
+      {
+        "text": "opened",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "opened up or thoroughly.", "marks": ["i"] }
+          ]
+        }
+      },
+      ";”"
+    ]
   },
   {
     "book": "MAT",
@@ -6292,6 +7982,26 @@
     "chapter": 21,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XXI. may be divided into six parts; ",
+            { "bibleLink": "Matthew 21:1–11", "content": "v. 1–11" },
+            " Jesus enters Jerusalem amid hosannahs; ",
+            { "bibleLink": "Matthew 21:12–17", "content": "v. 12–17" },
+            " cleanses the temple, cures the people, and defends the children; ",
+            { "bibleLink": "Matthew 21:18–22", "content": "v. 18–22" },
+            " the barren fig-tree; ",
+            { "bibleLink": "Matthew 21:23–27", "content": "v. 23–27" },
+            " He silences the priests and elders; ",
+            { "bibleLink": "Matthew 21:28–32", "content": "v. 28–32" },
+            " parable of two sons; ",
+            { "bibleLink": "Matthew 21:33–46", "content": "v. 33–46" },
+            " of the wicked husbandmen."
+          ]
+        }
+      },
       { "heading": "In Jerusalem" },
       { "heading": "Triumphal Entry" },
       {
@@ -6345,7 +8055,20 @@
     "verse": 6,
     "content": {
       "paragraph": true,
-      "text": "And the disciples having gone and having done as Jesus commanded them,"
+      "content": [
+        "And the disciples having gone and having done as Jesus ",
+        {
+          "text": "commanded",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "set before them.", "marks": ["i"] }
+            ]
+          }
+        },
+        " them,"
+      ]
     }
   },
   {
@@ -6374,7 +8097,17 @@
     "book": "MAT",
     "chapter": 21,
     "verse": 10,
-    "content": "And he having entered into Jerusalem, all the city was moved, saying, “Who is this?”"
+    "content": [
+      "And he having entered into Jerusalem, all the city was ",
+      {
+        "text": "moved",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shaken.", "marks": ["i"] }]
+        }
+      },
+      ", saying, “Who is this?”"
+    ]
   },
   {
     "book": "MAT",
@@ -6414,13 +8147,36 @@
     "book": "MAT",
     "chapter": 21,
     "verse": 14,
-    "content": "And there came to him blind and lame men in the temple, and he healed them,"
+    "content": [
+      "And there came to him blind and lame men in the temple, and he ",
+      {
+        "text": "healed",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "came forward...attended or cherished.", "marks": ["i"] }
+          ]
+        }
+      },
+      " them,"
+    ]
   },
   {
     "book": "MAT",
     "chapter": 21,
     "verse": 15,
-    "content": "and the chief priests and the scribes having seen the wonderful things that he did, and the children crying in the temple, and saying, “Hosanna to the Son of David,” were much displeased;"
+    "content": [
+      "and the chief priests and the scribes having seen the wonderful things that he did, and the ",
+      {
+        "text": "children",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "lads or boys.", "marks": ["i"] }]
+        }
+      },
+      " crying in the temple, and saying, “Hosanna to the Son of David,” were much displeased;"
+    ]
   },
   {
     "book": "MAT",
@@ -6448,7 +8204,17 @@
       { "heading": "The Barren Fig Tree" },
       {
         "paragraph": true,
-        "text": "and in the morning turning back to the city, he hungered,"
+        "content": [
+          "and in the morning ",
+          {
+            "text": "turning back",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "came up over.", "marks": ["i"] }]
+            }
+          },
+          " to the city, he hungered,"
+        ]
       }
     ]
   },
@@ -6487,10 +8253,27 @@
     "book": "MAT",
     "chapter": 21,
     "verse": 22,
-    "content": {
-      "text": "and all—as much as ye may ask in the prayer, believing, ye shall receive.”",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and all—as much as ye may ask in the prayer, ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "believing",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "as many things as ye may ask for yourselves in the pouring forth before (God) remaining stedfast (to me), ye shall receive.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": ", ye shall receive.”", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -6616,19 +8399,50 @@
     "book": "MAT",
     "chapter": 21,
     "verse": 35,
-    "content": {
-      "text": "and the husbandmen having taken his servants, one they scourged, and one they killed, and one they stoned.",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and the husbandmen having taken his servants, one they ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "scourged",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "leathered...killed fully.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": ", and one they killed, and one they stoned.",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
     "chapter": 21,
     "verse": 36,
-    "content": {
-      "text": "“Again he sent other servants more than the first, and they did to them in the same manner.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“Again he ", "marks": ["woc"] },
+      {
+        "text": "sent",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "sent away (from himself).", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " other servants more than the first, and they did to them in the same manner.",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -6722,6 +8536,24 @@
     "chapter": 22,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XXII. may be divided into five parts; ",
+            { "bibleLink": "Matthew 22:1–14", "content": "v. 1–14" },
+            " simile of a wedding-garment; ",
+            { "bibleLink": "Matthew 22:15–22", "content": "v. 15–22" },
+            " duty of tribute; ",
+            { "bibleLink": "Matthew 22:23–33", "content": "v. 23–33" },
+            " Sadducees and the Up-rising; ",
+            { "bibleLink": "Matthew 22:34–40", "content": "v. 34–40" },
+            " sum of the law and the prophets; ",
+            { "bibleLink": "Matthew 22:41–46", "content": "v. 41–46" },
+            " David’s Son and Lord."
+          ]
+        }
+      },
       { "heading": "The Wedding Garment" },
       {
         "paragraph": true,
@@ -6779,9 +8611,24 @@
     "verse": 6,
     "content": [
       {
-        "text": "and the rest, having laid hold on his servants, did insult and slay ",
+        "text": "and the rest, having laid hold on his servants, did ",
         "marks": ["woc"]
       },
+      {
+        "text": "insult",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "seized...injured (or dishonoured), and slew them.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": " and slay ", "marks": ["woc"] },
       { "text": "them", "marks": ["i", "woc"] },
       { "text": ".", "marks": ["woc"] }
     ]
@@ -6889,7 +8736,19 @@
     "verse": 18,
     "content": [
       "And Jesus having known their wickedness, said, ",
-      { "text": "“Why me do ye tempt, hypocrites?", "marks": ["woc"] }
+      { "text": "“Why me do ye tempt, ", "marks": ["woc"] },
+      {
+        "text": "hypocrites",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "ye judges under a pretence.", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "?", "marks": ["woc"] }
     ]
   },
   {
@@ -6909,7 +8768,19 @@
       "and he saith to them, ",
       { "text": "“Whose ", "marks": ["woc"] },
       { "text": "is", "marks": ["i", "woc"] },
-      { "text": " this image and the inscription?”", "marks": ["woc"] }
+      { "text": " this image and the ", "marks": ["woc"] },
+      {
+        "text": "inscription",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "writing-over (it).", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "?”", "marks": ["woc"] }
     ]
   },
   {
@@ -6918,8 +8789,20 @@
     "verse": 21,
     "content": [
       "they say to him, “Caesar’s;” then saith he to them, ",
+      { "text": "“", "marks": ["woc"] },
       {
-        "text": "“Render therefore the things of Caesar to Caesar, and the things of God to God;”",
+        "text": "Render",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "give back or away.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " therefore the things of Caesar to Caesar, and the things of God to God;”",
         "marks": ["woc"]
       }
     ]
@@ -6970,7 +8853,20 @@
     "book": "MAT",
     "chapter": 22,
     "verse": 28,
-    "content": "therefore in the rising again, of which of the seven shall she be wife—for all had her?”"
+    "content": [
+      "therefore in the ",
+      {
+        "text": "rising again",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "standing up of the dead.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", of which of the seven shall she be wife—for all had her?”"
+    ]
   },
   {
     "book": "MAT",
@@ -7025,7 +8921,17 @@
       { "heading": "Reproving the Pharisees" },
       {
         "paragraph": true,
-        "text": "and the Pharisees, having heard that he did silence the Sadducees, were gathered together unto him;"
+        "content": [
+          "and the Pharisees, having heard that he did ",
+          {
+            "text": "silence",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "muzzled;", "marks": ["i"] }]
+            }
+          },
+          " the Sadducees, were gathered together unto him;"
+        ]
       }
     ]
   },
@@ -7033,7 +8939,20 @@
     "book": "MAT",
     "chapter": 22,
     "verse": 35,
-    "content": "and one of them, a lawyer, did question, tempting him, and saying,"
+    "content": [
+      "and one of them, a lawyer, did question, ",
+      {
+        "text": "tempting",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "trying, testing, proving.", "marks": ["i"] }
+          ]
+        }
+      },
+      " him, and saying,"
+    ]
   },
   {
     "book": "MAT",
@@ -7154,10 +9073,34 @@
     "chapter": 23,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XXIII. may be divided into three parts; ",
+            { "bibleLink": "Matthew 23:1–12", "content": "v. 1–12" },
+            " warning against lip-service, formalism and pride; ",
+            { "bibleLink": "Matthew 23:13–36", "content": "v. 13–36" },
+            " woes to the scribes and pharisees; ",
+            { "bibleLink": "Matthew 23:37, 38", "content": "v. 37, 38" },
+            " lament over Jerusalem."
+          ]
+        }
+      },
       { "heading": "The Great Denunciation" },
       {
         "paragraph": true,
-        "text": "Then Jesus spake to the multitudes, and to his disciples,"
+        "content": [
+          "Then Jesus spake to the ",
+          {
+            "text": "multitudes",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "crowds.", "marks": ["i"] }]
+            }
+          },
+          { "text": ", and to his disciples," }
+        ]
       }
     ]
   },
@@ -7195,19 +9138,47 @@
     "book": "MAT",
     "chapter": 23,
     "verse": 5,
-    "content": {
-      "text": "“And all their works they do to be seen by men, and they make broad their phylacteries, and enlarge the fringes of their garments,",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“And all their works they do to be ", "marks": ["woc"] },
+      {
+        "text": "seen",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "viewed.", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " by men, and they make broad their phylacteries, and enlarge the fringes of their garments,",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
     "chapter": 23,
     "verse": 6,
-    "content": {
-      "text": "they love also the chief couches in the supper, and the chief seats in the synagogues,",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "they love also the ", "marks": ["woc"] },
+      {
+        "text": "chief couches",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "foremost places for reclining in the suppers, and the foremost seats.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": " in the supper, and the chief seats in the synagogues,",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -7309,7 +9280,15 @@
     "chapter": 23,
     "verse": 17,
     "content": [
-      { "text": "Fools and blind! for which ", "marks": ["woc"] },
+      {
+        "text": "Fools",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "rebellious,", "marks": ["i"] }]
+        }
+      },
+      { "text": " and blind! for which ", "marks": ["woc"] },
       { "text": "is", "marks": ["i", "woc"] },
       {
         "text": " greater, the gold, or the sanctuary that is sanctifying the gold?",
@@ -7465,10 +9444,21 @@
     "book": "MAT",
     "chapter": 23,
     "verse": 33,
-    "content": {
-      "text": "“Serpents! brood of vipers! how may ye escape from the judgment of the gehenna?",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“", "marks": ["woc"] },
+      {
+        "text": "Serpents",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "observing ones.", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "! brood of vipers! how may ye escape from the judgment of the gehenna?",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -7538,6 +9528,18 @@
     "chapter": 24,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XXIV. may be divided into two parts; ",
+            { "bibleLink": "Matthew 24:1–41", "content": "v. 1–41" },
+            " signs of Christ’s coming to destroy Jerusalem; ",
+            { "bibleLink": "Matthew 24:42–51", "content": "v. 42–51" },
+            " duty of watchfulness in reference to it."
+          ]
+        }
+      },
       { "heading": "Destruction of the Temple" },
       {
         "paragraph": true,
@@ -7663,10 +9665,21 @@
     "book": "MAT",
     "chapter": 24,
     "verse": 13,
-    "content": {
-      "text": "but he who did endure to the end, he shall be saved;",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "but he who did ", "marks": ["woc"] },
+      {
+        "text": "endure",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "remain under (it),", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " to the end, he shall be saved;", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -7694,28 +9707,61 @@
     "book": "MAT",
     "chapter": 24,
     "verse": 16,
-    "content": {
-      "text": "then those in Judea—let them flee to the mounts;",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "then those in Judea—let them flee to the ", "marks": ["woc"] },
+      {
+        "text": "mounts",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "upon the hills.", "marks": ["i"] }]
+        }
+      },
+      { "text": ";", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
     "chapter": 24,
     "verse": 17,
-    "content": {
-      "text": "he on the house-top—let him not come down to take up any thing out of his house;",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "he on the ", "marks": ["woc"] },
+      {
+        "text": "house-top",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "building;", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "—let him not come down to take up any thing out of his house;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
     "chapter": 24,
     "verse": 18,
-    "content": {
-      "text": "and he in the field—let him not turn back to take his garments.",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and he in the field—let him not turn back to ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "take",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "lift up his raiment.", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " his garments.", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -7730,10 +9776,24 @@
     "book": "MAT",
     "chapter": 24,
     "verse": 20,
-    "content": {
-      "text": "and pray ye that your flight may not be in winter, nor on a sabbath;",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "and ", "marks": ["woc"] },
+      {
+        "text": "pray",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "pour forth before (God),", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " ye that your flight may not be in winter, nor on a sabbath;",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -7893,19 +9953,44 @@
     "book": "MAT",
     "chapter": 24,
     "verse": 37,
-    "content": {
-      "text": "and as the days of Noah—so shall be also the presence of the Son of Man;",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and as the days of Noah—so shall be also the ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "presence",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "being long-side.", "marks": ["i"] }]
+        }
+      },
+      { "text": " of the Son of Man;", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
     "chapter": 24,
     "verse": 38,
-    "content": {
-      "text": "for as they were, in the days before the flood, eating, and drinking, marrying, and giving in marriage, till the day Noah entered into the ark,",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "for as they were, in the days before the ", "marks": ["woc"] },
+      {
+        "text": "flood",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "washing down...and marrying out.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": ", eating, and drinking, marrying, and giving in marriage, till the day Noah entered into the ark,",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -8033,6 +10118,20 @@
     "chapter": 25,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XXV. may be divided into three parts; ",
+            { "bibleLink": "Matthew 25:1–13", "content": "v. 1–13" },
+            " simile of the ten virgins; ",
+            { "bibleLink": "Matthew 25:13–30", "content": "v. 13–30" },
+            " of the talents; ",
+            { "bibleLink": "Matthew 25:31–46", "content": "v. 31–46" },
+            " of a day of judgment."
+          ]
+        }
+      },
       { "heading": "The Ten Virgins" },
       {
         "paragraph": true,
@@ -8090,10 +10189,18 @@
     "book": "MAT",
     "chapter": 25,
     "verse": 7,
-    "content": {
-      "text": "“Then rose all those virgins, and trimmed their lamps,",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“Then rose all those virgins, and ", "marks": ["woc"] },
+      {
+        "text": "trimmed",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "adorned.", "marks": ["i"] }]
+        }
+      },
+      { "text": " their lamps,", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -8144,10 +10251,21 @@
     "book": "MAT",
     "chapter": 25,
     "verse": 13,
-    "content": {
-      "text": "“Watch therefore, for ye have not known the day nor the hour in which the Son of Man doth come.",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "“", "marks": ["woc"] },
+      {
+        "text": "Watch",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "be awake;", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " therefore, for ye have not known the day nor the hour in which the Son of Man doth come.",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -8166,10 +10284,21 @@
     "book": "MAT",
     "chapter": 25,
     "verse": 15,
-    "content": {
-      "text": "and to one he gave five talents, and to another two, and to another one, to each according to his several ability, went abroad immediately.",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and to one he gave five talents, and to another two, and to another one, to each according to his several ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "ability",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "his own power", "marks": ["i"] }]
+        }
+      },
+      { "text": ", went abroad immediately.", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -8378,10 +10507,24 @@
     "book": "MAT",
     "chapter": 25,
     "verse": 38,
-    "content": {
-      "text": "and when did we see thee a stranger, and we received? or naked, and we put around?",
-      "marks": ["woc"]
-    }
+    "content": [
+      {
+        "text": "and when did we see thee a stranger, and we ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "received",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "led with (ourselves);", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "? or naked, and we put around?", "marks": ["woc"] }
+    ]
   },
   {
     "book": "MAT",
@@ -8475,6 +10618,38 @@
     "chapter": 26,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XXVI. may be divided into twelve parts; ",
+            { "bibleLink": "Matthew 26:1, 2", "content": "v. 1, 2" },
+            " coming of the passover; ",
+            { "bibleLink": "Matthew 26:3–5", "content": "v. 3–5" },
+            " plot of the chief priests; ",
+            { "bibleLink": "Matthew 26:6–13", "content": "v. 6–13" },
+            " Jesus anointed by a woman; ",
+            { "bibleLink": "Matthew 26:14–16", "content": "v. 14–16" },
+            " Judas plots against him; ",
+            { "bibleLink": "Matthew 26:17–25", "content": "v. 17–25" },
+            " Jesus reveals the betrayer; ",
+            { "bibleLink": "Matthew 26:26–29", "content": "v. 26–29" },
+            " institutes the Lord’s supper; ",
+            { "bibleLink": "Matthew 26:30–35", "content": "v. 30–35" },
+            " foretells Peter’s denial; ",
+            { "bibleLink": "Matthew 26:36–46", "content": "v. 36–46" },
+            " Jesus in Gethsemane; ",
+            { "bibleLink": "Matthew 26:47–50", "content": "v. 47–50" },
+            " is betrayed and seized; ",
+            { "bibleLink": "Matthew 26:51–58", "content": "v. 51–58" },
+            " Jesus heals, reasons, and is forsaken; ",
+            { "bibleLink": "Matthew 26:59–67", "content": "v. 59–67" },
+            " Jesus before the Chief Priest; ",
+            { "bibleLink": "Matthew 26:68–75", "content": "v. 68–75" },
+            " Peter denies him."
+          ]
+        }
+      },
       { "heading": "The Death of Jesus" },
       {
         "paragraph": true,
@@ -8502,7 +10677,21 @@
     "chapter": 26,
     "verse": 4,
     "content": [
-      "and they consulted together that they might take Jesus by guile, and kill ",
+      "and they consulted together that they might take Jesus by guile, and ",
+      {
+        "text": "kill",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "took counsel together...seize...kill (him) thoroughly.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " ",
       { "text": "him", "marks": ["i"] },
       ","
     ]
@@ -8529,7 +10718,20 @@
     "book": "MAT",
     "chapter": 26,
     "verse": 7,
-    "content": "there came to him a woman having an alabaster box of ointment, very precious, and she poured on his head as he is reclining (at meat)."
+    "content": [
+      "there came to him a woman having an alabaster box of ointment, very precious, and she ",
+      {
+        "text": "poured",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "poured it down thoroughly (or utterly)", "marks": ["i"] }
+          ]
+        }
+      },
+      " on his head as he is reclining (at meat)."
+    ]
   },
   {
     "book": "MAT",
@@ -8575,8 +10777,17 @@
     "chapter": 26,
     "verse": 12,
     "content": [
+      { "text": "for she having ", "marks": ["woc"] },
       {
-        "text": "for she having put this ointment on my body—for my burial she did ",
+        "text": "put",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "cast this oil.", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " this ointment on my body—for my burial she did ",
         "marks": ["woc"]
       },
       { "text": "it", "marks": ["i", "woc"] },
@@ -8652,7 +10863,20 @@
     "book": "MAT",
     "chapter": 26,
     "verse": 19,
-    "content": "and the disciples did as Jesus appointed them, and prepared the passover."
+    "content": [
+      "and the disciples did as Jesus ",
+      {
+        "text": "appointed",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "arranged together for them.", "marks": ["i"] }
+          ]
+        }
+      },
+      " them, and prepared the passover."
+    ]
   },
   {
     "book": "MAT",
@@ -8670,9 +10894,18 @@
     "content": [
       "and while they are eating, he said, ",
       {
-        "text": "“Verily I say to you, that one of you shall deliver me up.”",
+        "text": "“Verily I say to you, that one of you shall ",
         "marks": ["woc"]
-      }
+      },
+      {
+        "text": "deliver me up",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "give me over.", "marks": ["i"] }]
+        }
+      },
+      { "text": ".”", "marks": ["woc"] }
     ]
   },
   {
@@ -8775,10 +11008,27 @@
     "book": "MAT",
     "chapter": 26,
     "verse": 32,
-    "content": {
-      "text": "but, after my having risen, I will go before you to Galilee.”",
-      "marks": ["woc"]
-    }
+    "content": [
+      { "text": "but, ", "marks": ["woc"] },
+      {
+        "text": "after",
+        "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "with my being raised, I will lead you forward into the (circuits of) Galil.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": " my having risen, I will go before you to Galilee.”",
+        "marks": ["woc"]
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -8812,7 +11062,23 @@
       { "heading": "Arrest and Trial" },
       {
         "paragraph": true,
-        "text": "Then come with them doth Jesus to a place called Gethsemane, and he saith to the disciples, "
+        "content": [
+          "Then come with them doth Jesus to a place called ",
+          {
+            "text": "Gethsemane",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "space, named Gethsemane, (i.e. “press of fatness,”)",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          ", and he saith to the disciples, "
+        ]
       },
       {
         "text": "“Sit ye here, till having gone away, I shall pray yonder.”",
@@ -8824,7 +11090,20 @@
     "book": "MAT",
     "chapter": 26,
     "verse": 37,
-    "content": "And having taken Peter, and the two sons of Zebedee, he began to be sorrowful, and to be very heavy;"
+    "content": [
+      "And having ",
+      {
+        "text": "taken",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "took along with him.", "marks": ["i"] }
+          ]
+        }
+      },
+      " Peter, and the two sons of Zebedee, he began to be sorrowful, and to be very heavy;"
+    ]
   },
   {
     "book": "MAT",
@@ -8887,7 +11166,20 @@
     "book": "MAT",
     "chapter": 26,
     "verse": 43,
-    "content": "and having come, he findeth them again sleeping, for their eyes were heavy."
+    "content": [
+      "and having come, he findeth them again ",
+      {
+        "text": "sleeping",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "sleeping fast...were weighed down.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", for their eyes were heavy."
+    ]
   },
   {
     "book": "MAT",
@@ -8935,7 +11227,23 @@
     "book": "MAT",
     "chapter": 26,
     "verse": 49,
-    "content": "and immediately, having come to Jesus, he said, “Hail, Rabbi,” and kissed him;"
+    "content": [
+      "and immediately, having come to Jesus, he said, “",
+      {
+        "text": "Hail",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "Rejoice! Rabbi, and shewed him much love,",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", Rabbi,” and kissed him;"
+    ]
   },
   {
     "book": "MAT",
@@ -9012,7 +11320,20 @@
     "chapter": 26,
     "verse": 57,
     "content": [
-      { "paragraph": true, "text": "And those laying hold on Jesus led " },
+      {
+        "paragraph": true,
+        "content": [
+          "And those ",
+          {
+            "text": "laying hold on",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "seized.", "marks": ["i"] }]
+            }
+          },
+          " Jesus led "
+        ]
+      },
       { "text": "him", "marks": ["i"] },
       " away unto Caiaphas the chief priest, where the scribes and the elders were gathered together,"
     ]
@@ -9069,7 +11390,17 @@
     "book": "MAT",
     "chapter": 26,
     "verse": 65,
-    "content": "Then the chief priest rent his garments, saying,—“He hath spoken evil; what need have we yet of witnesses? lo, now ye heard his evil speaking;"
+    "content": [
+      "Then the chief priest ",
+      {
+        "text": "rent",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "rent thoroughly", "marks": ["i"] }]
+        }
+      },
+      " his garments, saying,—“He hath spoken evil; what need have we yet of witnesses? lo, now ye heard his evil speaking;"
+    ]
   },
   {
     "book": "MAT",
@@ -9081,7 +11412,23 @@
     "book": "MAT",
     "chapter": 26,
     "verse": 67,
-    "content": "Then did they spit in his face and buffet him, and others did slap,"
+    "content": [
+      "Then did they ",
+      {
+        "text": "spit in his face and buffet him, and others did slap",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "spit fully into his face, and smote-with-the-fist, and others slapped with the palm of the hand.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "MAT",
@@ -9126,7 +11473,20 @@
     "book": "MAT",
     "chapter": 26,
     "verse": 74,
-    "content": "Then began he to anathematise, and to swear—“I have not known the man;” and immediately did a cock crow,"
+    "content": [
+      "Then began he to ",
+      {
+        "text": "anathematise",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "anathematize thoroughly.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", and to swear—“I have not known the man;” and immediately did a cock crow,"
+    ]
   },
   {
     "book": "MAT",
@@ -9138,10 +11498,34 @@
     "book": "MAT",
     "chapter": 27,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And morning having come, all the chief priests and the elders of the people took counsel against Jesus, so as to put him to death;"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XXVII. may be divided into seven parts; ",
+            { "bibleLink": "Matthew 27:1, 2", "content": "v. 1, 2" },
+            " Jesus delivered to Pilate; ",
+            { "bibleLink": "Matthew 27:3–10", "content": "v. 3–10" },
+            " conduct of Judas and the priests; ",
+            { "bibleLink": "Matthew 27:11–26", "content": "v. 11–26" },
+            " Jesus before Pilate; ",
+            { "bibleLink": "Matthew 27:27–49", "content": "v. 27–49" },
+            " Jesus crucified; ",
+            { "bibleLink": "Matthew 27:50–56", "content": "v. 50–56" },
+            " the saints, centurion, and the women; ",
+            { "bibleLink": "Matthew 27:57–61", "content": "v. 57–61" },
+            " Jesus’ burial; ",
+            { "bibleLink": "Matthew 27:62–66", "content": "v. 62–66" },
+            " sealing of the sepulchre."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "And morning having come, all the chief priests and the elders of the people took counsel against Jesus, so as to put him to death;"
+      }
+    ]
   },
   {
     "book": "MAT",
@@ -9198,7 +11582,17 @@
     "book": "MAT",
     "chapter": 27,
     "verse": 10,
-    "content": "and gave them for the field of the potter, as the Lord did appoint to me.”"
+    "content": [
+      "and gave them for the field of the potter, as the Lord did ",
+      {
+        "text": "appoint",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "arranged with me.", "marks": ["i"] }]
+        }
+      },
+      " to me.”"
+    ]
   },
   {
     "book": "MAT",
@@ -9208,7 +11602,17 @@
       { "heading": "Jesus Before Pilate" },
       {
         "paragraph": true,
-        "text": "And Jesus stood before the governor, and the governor did question him, saying, “Art thou the king of the Jews!” And Jesus said to him, "
+        "content": [
+          "And Jesus stood before the ",
+          {
+            "text": "governor",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "leader.", "marks": ["i"] }]
+            }
+          },
+          ", and the governor did question him, saying, “Art thou the king of the Jews!” And Jesus said to him, "
+        ]
       },
       { "text": "“Thou sayest.”", "marks": ["woc"] }
     ]
@@ -9217,7 +11621,20 @@
     "book": "MAT",
     "chapter": 27,
     "verse": 12,
-    "content": "And in his being accused by the chief priests and the elders, he did not answer any thing,"
+    "content": [
+      "And in his being ",
+      {
+        "text": "accused",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "publicly spoken against by.", "marks": ["i"] }
+          ]
+        }
+      },
+      " by the chief priests and the elders, he did not answer any thing,"
+    ]
   },
   {
     "book": "MAT",
@@ -9247,7 +11664,23 @@
     "book": "MAT",
     "chapter": 27,
     "verse": 17,
-    "content": "they therefore having been gathered together, Pilate said to them, “Whom will ye I shall release to you? Barabbas or Jesus who is called Christ?”"
+    "content": [
+      "they therefore having been gathered together, Pilate said to them, “Whom will ye I shall ",
+      {
+        "text": "release",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "do ye wish that I loose thoroughly to you?",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " to you? Barabbas or Jesus who is called Christ?”"
+    ]
   },
   {
     "book": "MAT",
@@ -9275,7 +11708,18 @@
     "chapter": 27,
     "verse": 21,
     "content": [
-      "and the governor answering said to them, “Which of the two will ye ",
+      "and the ",
+      {
+        "text": "governor",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "leader...do ye wish.", "marks": ["i"] }
+          ]
+        }
+      },
+      " answering said to them, “Which of the two will ye ",
       { "text": "that", "marks": ["i"] },
       " I shall release to you?” And they said, “Barabbas.”"
     ]
@@ -9328,7 +11772,23 @@
     "book": "MAT",
     "chapter": 27,
     "verse": 27,
-    "content": "then the soldiers of the governor having taken Jesus to the Praetorium, did gather to him all the band;"
+    "content": [
+      "then the soldiers of the ",
+      {
+        "text": "governor",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "leader took along with them Jesus into the Praetorium, brought together against him all the band.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " having taken Jesus to the Praetorium, did gather to him all the band;"
+    ]
   },
   {
     "book": "MAT",
@@ -9405,7 +11865,17 @@
     "book": "MAT",
     "chapter": 27,
     "verse": 37,
-    "content": "and they put up over his head, his accusation written, “This is Jesus, the king of the Jews.”"
+    "content": [
+      "and they put up over his head, his ",
+      {
+        "text": "accusation",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "cause", "marks": ["i"] }]
+        }
+      },
+      " written, “This is Jesus, the king of the Jews.”"
+    ]
   },
   {
     "book": "MAT",
@@ -9436,7 +11906,20 @@
     "book": "MAT",
     "chapter": 27,
     "verse": 41,
-    "content": "And in like manner also the chief priests mocking, with the scribes and elders, said,"
+    "content": [
+      "And in like manner also the chief priests ",
+      {
+        "text": "mocking",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "treating (him) as a child.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", with the scribes and elders, said,"
+    ]
   },
   {
     "book": "MAT",
@@ -9460,7 +11943,17 @@
     "book": "MAT",
     "chapter": 27,
     "verse": 45,
-    "content": "And from the sixth hour darkness came over all the land unto the ninth hour,"
+    "content": [
+      "And from the sixth hour darkness ",
+      {
+        "text": "came",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "happened or came.", "marks": ["i"] }]
+        }
+      },
+      " over all the land unto the ninth hour,"
+    ]
   },
   {
     "book": "MAT",
@@ -9536,7 +12029,17 @@
     "book": "MAT",
     "chapter": 27,
     "verse": 55,
-    "content": "And there were there many women beholding from afar, who did follow Jesus from Galilee, ministering to him,"
+    "content": [
+      "And there were there many women beholding from afar, who did follow Jesus from Galilee, ",
+      {
+        "text": "ministering",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "acting-as-deacons", "marks": ["i"] }]
+        }
+      },
+      " to him,"
+    ]
   },
   {
     "book": "MAT",
@@ -9618,6 +12121,22 @@
     "chapter": 28,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter XXVIII. may be divided into four parts; ",
+            { "bibleLink": "Matthew 28:1–8", "content": "v. 1–8" },
+            " first announcement of the rising of Jesus; ",
+            { "bibleLink": "Matthew 28:9, 10", "content": "v. 9, 10" },
+            " Jesus himself appears; ",
+            { "bibleLink": "Matthew 28:11–15", "content": "v. 11–15" },
+            " conduct of the watch and the chief priests; ",
+            { "bibleLink": "Matthew 28:16–20", "content": "v. 16–20" },
+            " Jesus appears to the 11 disciples in Galilee, and gives them a charge."
+          ]
+        }
+      },
       { "heading": "The Resurrection" },
       {
         "paragraph": true,
@@ -9635,7 +12154,20 @@
     "book": "MAT",
     "chapter": 28,
     "verse": 3,
-    "content": "and his countenance was as lightning, and his clothing white as snow,"
+    "content": [
+      "and his ",
+      {
+        "text": "countenance",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "sight or appearance...his clothing.", "marks": ["i"] }
+          ]
+        }
+      },
+      " was as lightning, and his clothing white as snow,"
+    ]
   },
   {
     "book": "MAT",
@@ -9659,7 +12191,17 @@
     "book": "MAT",
     "chapter": 28,
     "verse": 7,
-    "content": "and having gone quickly, say ye to his disciples, that he rose from the dead; and lo, he doth go before you to Galilee, there ye shall see him; lo, I have told you.”"
+    "content": [
+      "and having gone quickly, say ye to his disciples, that he ",
+      {
+        "text": "rose",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "he was raised.", "marks": ["i"] }]
+        }
+      },
+      " from the dead; and lo, he doth go before you to Galilee, there ye shall see him; lo, I have told you.”"
+    ]
   },
   {
     "book": "MAT",
@@ -9674,7 +12216,23 @@
     "content": [
       {
         "paragraph": true,
-        "text": "and as they were going to tell to his disciples, then lo, Jesus met them, saying, "
+        "content": [
+          "and as they were going to tell to his disciples, then lo, Jesus ",
+          {
+            "text": "met",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Lit., ",
+                {
+                  "text": "was over-against them, saying, Rejoice! and they coming forward.",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          },
+          " them, saying, "
+        ]
       },
       { "text": "“Hail!”", "marks": ["woc"] },
       " and they having come near, laid hold of his feet, and did bow to him."

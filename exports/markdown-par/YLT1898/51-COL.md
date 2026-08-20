@@ -1,7 +1,7 @@
 ## Chapter 1
 
-<sup>1</sup> Paul, an apostle of Jesus Christ through the will of God, and Timotheus the brother,
-<sup>2</sup> to the saints in Colossae, and to the faithful brethren in Christ: Grace to you, and peace from God our Father, and the Lord Jesus Christ!
+<sup>1</sup> <sup>a</sup><sup>b</sup>Paul, an apostle of Jesus Christ through the will of God, and Timotheus the brother,
+<sup>2</sup> to the saints<sup>c</sup> in Colossae, and to the faithful brethren in Christ: Grace to you, and peace from God our Father, and the Lord Jesus Christ!
 
 <sup>3</sup> We give thanks to the God and Father of our Lord Jesus Christ, always praying for you,
 <sup>4</sup> having heard of your faith in Christ Jesus, and of the love that _is_ to all the saints,
@@ -36,9 +36,13 @@
 <sup>28</sup> whom we proclaim, warning every man, and teaching every man, in all wisdom, that we may present every man perfect in Christ Jesus,
 <sup>29</sup> for which also I labour, striving according to his working that is working in me in power.
 
+> - <sup>a</sup> 1. THIS LETTER of Paul to the Colossians is quoted by Justin Martyr (A.D. 140), Theophilus of Antioch (A.D. 181), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230), &c. It was sent apparently from Rome about the same time as the Letter to the Ephesians, with which it agrees in very many places.<br>Colosse (or Colasse) was a large city of Phrygia, and is now called Khonae; its Christian inhabitants were chiefly Gentiles (2. 13), gathered together perhaps by Epaphras, Timothy, Philemon, or Paul himself. The Greek style, both as to words and phrases, is peculiar. The writer’s object is to counteract a tendency to Judaism—the greatest curse of the primitive church,—with a mixture of oriental theosophy, angel worship, and asceticism.<br>The following table shews the parallelism of the Letters to the Ephesians and Colossians; viz.:—<br>- 1. 1, 2. — 1. 1, 2.<br>- 1. 6, 7. — 1. 13.<br>- 1. 10. — 1. 19, 20.<br>- 1. 15, 16. — 1. 3, 4.<br>- 1. 17–21. — 1. 9–15.<br>- 1. 22; 3. 10, 11. — 1. 16–18.<br>- 1. 19; 2. 1–5. — 2. 12, 13.<br>- 2. 1. — 1. 21.<br>- 2. 13–16. — 1. 20; 2. 14.<br>- 3. 1. — 1. 24, 25.<br>- 3. 3, &c. — 1. 26–29.<br>- 4. 2–4. — 2. 12–15.<br>- 4. 16. — 2. 19.<br>- 4. 22–25. — 3. 9, 10.<br>- 4. 17–21. — 1. 21; 2. 6; 3. 8–10.<br>- 4. 29. — 4. 6.<br>- 4. 32. — 3. 12, 13.<br>- 4. 31. — 3. 8.<br>- 5. 5. — 3. 5.<br>- 5. 6. — 3. 6.<br>- 5. 7, 8. — 3. 7, 8.<br>- 5. 15, 16. — 4. 5.<br>- 5. 18–20. — 3. 16, 17.<br>- 5. 21–23; 6. 1–9. — 3. 18–25; 4. 1.<br>- 6. 18–20. — 4. 2–4.<br>- 6. 21, 22. — 4. 7–9.<br>This Letter contains references to De. 30. 6; Ec. 10. 10; Ezek. 13. 3; John 1. 1; Rom. 8. 38; 1 Cor. 8. 6; Heb. 1. 2, &c.<br>It may be divided into three parts; the _first_, (1. 1–2. 5) being chiefly doctrinal, and the _second_ (2. 6–4. 6) chiefly practical, and the _third_, containing salutations.
+> - <sup>b</sup> 1. Chapter I. may be divided into five parts; v. 1, 2 introductory salutation; v. 3–8 expression of gratitude; v. 9–14 and of desire for them; v. 15–23 dignity and work of Christ; v. 24–29 Paul’s joy and work.
+> - <sup>c</sup> 2. Lit., _hallowed and stedfast ones, brethren in Christ, who are in Colosse,_
+
 ## Chapter 2
 
-<sup>1</sup> For I wish you to know how great a conflict I have for you and those in Laodicea, and as many as have not seen my face in the flesh,
+<sup>1</sup> <sup>a</sup>For I wish you to know how great a conflict I have for you and those in Laodicea, and as many as have not seen my face in the flesh,
 <sup>2</sup> that their hearts may be comforted, being united in love, and to all riches of the full assurance of the understanding, to the full knowledge of the secret of the God and Father, and of the Christ,
 <sup>3</sup> in whom are all the treasures of the wisdom and the knowledge hid,
 <sup>4</sup> and this I say, that no one may beguile you in enticing words,
@@ -49,7 +53,7 @@
 <sup>6</sup> as, then, ye did receive Christ Jesus the Lord, in him walk ye,
 <sup>7</sup> being rooted and built up in him, and confirmed in the faith, as ye were taught—abounding in it in thanksgiving.
 
-<sup>8</sup> See that no one shall be carrying you away as spoil through the philosophy and vain deceit, according to the deliverance of men, according to the rudiments of the world, and not according to Christ,
+<sup>8</sup> See that no one shall be carrying you away as spoil through the philosophy and vain deceit, according to the deliverance<sup>b</sup> of men, according to the rudiments of the world, and not according to Christ,
 <sup>9</sup> because in him doth tabernacle all the fulness of the Godhead bodily,
 <sup>10</sup> and ye are in him made full, who is the head of all principality and authority,
 <sup>11</sup> in whom also ye were circumcised with a circumcision not made with hands, in the putting off of the body of the sins of the flesh in the circumcision of the Christ,
@@ -68,11 +72,14 @@
 <sup>22</sup> which are all for destruction with the using, after the commands and teachings of men,
 <sup>23</sup> which are, indeed, having a matter of wisdom in will-worship, and humblemindedness, and neglecting of body—not in any honour, unto a satisfying of the flesh.
 
+> - <sup>a</sup> 1. Chapter II. may be divided into four parts; v. 1–5 Paul’s desire and prayer; v. 6–8 exhortation and warning; v. 9–15 fulness of Christ and his people; v. 16–23 warning against Judaism and Gnosticism.
+> - <sup>b</sup> 8. Lit., _thing given over_
+
 ## Chapter 3
 
 ### His Sovereign Will
 
-<sup>1</sup> If, then, ye were raised with the Christ, the things above seek ye, where the Christ is, on the right hand of God seated,
+<sup>1</sup> <sup>a</sup>If, then, ye were raised with the Christ, the things above seek ye, where the Christ is, on the right hand of God seated,
 <sup>2</sup> the things above mind ye, not the things upon the earth,
 <sup>3</sup> for ye did die, and your life hath been hid with the Christ in God;
 <sup>4</sup> when the Christ—our life—may be manifested, then also we with him shall be manifested in glory.
@@ -103,9 +110,11 @@
 <sup>24</sup> having known that from the Lord ye shall receive the recompense of the inheritance—for the Lord Christ ye serve;
 <sup>25</sup> and he who is doing unrighteously shall receive what he did unrighteously, and there is no acceptance of persons.
 
+> - <sup>a</sup> 1. Chapter III. may be divided into seven parts; v. 1–4 exhortations to seek and mind things above; v. 5–8 to avoid various sins; v. 9–11 to put on the image of Christ; v. 12–15 to bear, forbear, be thankful; v. 16, 17 to praise Christ and glorify God; v. 18–21 address to wives; v. 22–25 to bondsmen.
+
 ## Chapter 4
 
-<sup>1</sup> The masters! that which is righteous and equal to the servants give ye, having known that ye also have a Master in the heavens.
+<sup>1</sup> <sup>a</sup>The masters! that which is righteous and equal to the servants give ye, having known that ye also have a Master in the heavens.
 
 <sup>2</sup> In the prayer continue ye, watching in it in thanksgiving;
 <sup>3</sup> praying at the same time also for us, that God may open to us a door for the word, to speak the secret of the Christ, because of which also I have been bound,
@@ -127,3 +136,5 @@
 <sup>17</sup> and say to Archippus, “See to the ministration that thou didst receive in the Lord, that thou mayest fulfil it.”
 
 <sup>18</sup> The salutation by the hand of me, Paul; remember my bonds; the grace _is_ with you. Amen.
+
+> - <sup>a</sup> 1. Chapter IV. may be divided into seven parts; v. 1 exhortations to masters; v. 2–6 to prayer, wise behaviour, and seasonable conversation; v. 7–9 intimation of the sending of Tychicus and Onesimus; v. 10–15 various salutations; v. 16 this Letter to be publicly read; v. 17 charge to Archippus; v. 18 closing salutation and prayer.

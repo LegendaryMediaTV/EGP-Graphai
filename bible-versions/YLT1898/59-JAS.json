@@ -5,7 +5,81 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "James, of God and of the Lord Jesus Christ a servant, to the Twelve Tribes who are in the dispersion: Hail!"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "text": "James. The author of this Letter was probably son of Alphaeus or Cleopas, surnamed “the less,” and “the just,” and “the Lord’s brother;” after the murder of James the son of Zebedee, he appears to have been foremost in Jerusalem, where he was martyred A.D. 68. This Letter (written about A.D. 67) has always formed a part of the Syriac Peshito Version, (which omits 2d Peter, 2d and 3d John, Jude and Revelation, executed before A.D. 200), and is found in all complete MSS. of the Greek Testament. It is quoted or referred to by Clement of Rome (A.D. 108), Hermas (A.D. 108), Origen (A.D. 230), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), &c., but none of the Latin fathers before A.D. 300 quote it.",
+                "break": true
+              },
+              {
+                "text": "It is an address by a Jewish believer, chiefly to his fellow-believers in Christ belonging to what is here called “the Twelve Tribes,” because remnants from each of these had mingled themselves with those of the two tribes, who had returned from Babylon. By the time this Letter was written hundreds of thousands of Jews had embraced the gospel, but the zeal of the unbelieving Jews and the practical errors of the Gnostics and Judaising false brethren rendered his position important and perilous, hence the pre-eminently practical character of his teaching in cautions, censures, and exhortations.",
+                "break": true
+              },
+              {
+                "content": [
+                  "It may be divided into three parts; ",
+                  { "text": "first", "marks": ["i"] },
+                  ", ",
+                  { "bibleLink": "James 1:1–27", "content": "ch. 1. 1–27" },
+                  "; ",
+                  { "text": "second", "marks": ["i"] },
+                  ", ",
+                  { "bibleLink": "James 2:1–26", "content": "ch. 2. 1" },
+                  "–",
+                  { "bibleLink": "James 5:1–6", "content": "5. 6" },
+                  "; and ",
+                  { "text": "thirdly", "marks": ["i"] },
+                  ", ",
+                  { "bibleLink": "James 5:7–20", "content": "ch. 5. 7–20" },
+                  "."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into seven parts; ",
+              { "bibleLink": "James 1:1", "content": "v. 1" },
+              " introductory salutations; ",
+              { "bibleLink": "James 1:2–8", "content": "v. 2–8" },
+              " call to rejoice because of trials, to ask of God unwaveringly; ",
+              { "bibleLink": "James 1:9–12", "content": "v. 9–12" },
+              " exhortation to the low, the rich, and the tried; ",
+              { "bibleLink": "James 1:13–15", "content": "v. 13–15" },
+              " whence temptations; ",
+              { "bibleLink": "James 1:16–18", "content": "v. 16–18" },
+              " and every perfect gift come; ",
+              { "bibleLink": "James 1:19–25", "content": "v. 19–25" },
+              " to be doers not hearers only; ",
+              { "bibleLink": "James 1:26, 27", "content": "v. 26, 27" },
+              " vain and true religion."
+            ]
+          }
+        },
+        "James, of God and of the Lord Jesus Christ a ",
+        {
+          "text": "servant",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "bondsman", "marks": ["i"] }]
+          }
+        },
+        ", to the Twelve Tribes who are in the dispersion: ",
+        {
+          "text": "Hail",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "“to rejoice!”", "marks": ["i"] }]
+          }
+        },
+        "!"
+      ]
     }
   },
   {
@@ -22,7 +96,20 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 3,
-    "content": "knowing that the proof of your faith doth work endurance,"
+    "content": [
+      "knowing that the proof of your faith doth work ",
+      {
+        "text": "endurance",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "“remaining under.”", "marks": ["i"] }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "JAS",
@@ -36,14 +123,37 @@
     "verse": 5,
     "content": {
       "paragraph": true,
-      "text": "and if any of you do lack wisdom, let him ask from God, who is giving to all liberally, and not reproaching, and it shall be given to him;"
+      "content": [
+        "and if any of you do lack wisdom, let him ask from God, who is giving to all ",
+        {
+          "text": "liberally",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "simply (or with simplicity)", "marks": ["i"] }
+            ]
+          }
+        },
+        ", and not reproaching, and it shall be given to him;"
+      ]
     }
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 6,
-    "content": "and let him ask in faith, nothing doubting, for he who is doubting hath been like a wave of the sea, driven by wind and tossed,"
+    "content": [
+      "and let him ask in faith, nothing doubting, for he who is doubting hath been like a ",
+      {
+        "text": "wave",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "washer", "marks": ["i"] }]
+        }
+      },
+      " of the sea, driven by wind and tossed,"
+    ]
   },
   {
     "book": "JAS",
@@ -77,7 +187,25 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 11,
-    "content": "for the sun did rise with the burning heat, and did wither the grass, and the flower of it fell, and the grace of its appearance did perish, so also the rich in his way shall fade away!"
+    "content": [
+      "for the sun did rise with the burning ",
+      {
+        "text": "heat",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "hot-wind", "marks": ["i"] }]
+        }
+      },
+      ", and did wither the grass, and the flower of it fell, and the grace of its ",
+      {
+        "text": "appearance",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "face", "marks": ["i"] }]
+        }
+      },
+      " did perish, so also the rich in his way shall fade away!"
+    ]
   },
   {
     "book": "JAS",
@@ -92,13 +220,36 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 13,
-    "content": "Let no one say, being tempted—“From God I am tempted,” for God is not tempted of evil, and Himself doth tempt no one,"
+    "content": [
+      "Let no one say, being ",
+      {
+        "text": "tempted",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "tried, i.e. with evil", "marks": ["i"] }
+          ]
+        }
+      },
+      "—“From God I am tempted,” for God is not tempted of evil, and Himself doth tempt no one,"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 14,
-    "content": "and each one is tempted, by his own desires being led away and enticed,"
+    "content": [
+      "and each one is tempted, by his own desires being led away and ",
+      {
+        "text": "enticed",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "bribed by himself", "marks": ["i"] }]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "JAS",
@@ -191,7 +342,40 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "My brethren, hold not, in respect of persons, the faith of the glory of our Lord Jesus Christ,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter II. may be divided into six parts; ",
+              { "bibleLink": "James 2:1–4", "content": "v. 1–4" },
+              " exhortation against respect of persons; ",
+              { "bibleLink": "James 2:5–7", "content": "v. 5–7" },
+              " from the doings of God and of the rich; ",
+              { "bibleLink": "James 2:8–13", "content": "v. 8–13" },
+              " also from the royal law; ",
+              { "bibleLink": "James 2:14–19", "content": "v. 14–19" },
+              " faith without works unprofitable and dead; ",
+              { "bibleLink": "James 2:20–23", "content": "v. 20–23" },
+              " contrasted with that of Abraham; ",
+              { "bibleLink": "James 2:24–26", "content": "v. 24–26" },
+              " and of Rahab."
+            ]
+          }
+        },
+        "My brethren, hold not, ",
+        {
+          "text": "in respect of persons",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "in acceptances of faces", "marks": ["i"] }
+            ]
+          }
+        },
+        ", the faith of the glory of our Lord Jesus Christ,"
+      ]
     }
   },
   {
@@ -210,7 +394,20 @@
     "book": "JAS",
     "chapter": 2,
     "verse": 4,
-    "content": "ye did not judge fully in yourselves, and did become ill-reasoning judges."
+    "content": [
+      "ye did not judge ",
+      {
+        "text": "fully",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "diversely (or thoroughly)", "marks": ["i"] }
+          ]
+        }
+      },
+      " in yourselves, and did become ill-reasoning judges."
+    ]
   },
   {
     "book": "JAS",
@@ -295,7 +492,21 @@
     "chapter": 2,
     "verse": 16,
     "content": [
-      "and any one of you may say to them, “Depart ye in peace, be warmed, and be filled,” and may not give to them the things needful for the body, what ",
+      "and any one of you may say to them, “Depart ye in peace, be warmed, and be filled,” and may not give to them ",
+      {
+        "text": "the things needful for the body",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "the very-sweet (or soothing) things of the body",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", what ",
       { "text": "is", "marks": ["i"] },
       " the profit?"
     ]
@@ -340,7 +551,14 @@
     "book": "JAS",
     "chapter": 2,
     "verse": 23,
-    "content": "and fulfilled was the Writing that is saying, “And Abraham did believe God, and it was reckoned to him—to righteousness;” and, “Friend of God” he was called."
+    "content": [
+      "and fulfilled was the Writing that is saying, “And Abraham ",
+      {
+        "text": "did believe",
+        "foot": { "type": "stu", "content": "remained stedfast to" }
+      },
+      " God, and it was reckoned to him—to righteousness;” and, “Friend of God” he was called."
+    ]
   },
   {
     "book": "JAS",
@@ -366,7 +584,23 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Many teachers become not, my brethren, having known that greater judgment we shall receive,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter III. may be divided into three parts; ",
+              { "bibleLink": "James 3:1–6", "content": "v. 1–6" },
+              " warning against becoming teachers and talkative; ",
+              { "bibleLink": "James 3:7–12", "content": "v. 7–12" },
+              " because of the power of the tongue; ",
+              { "bibleLink": "James 3:13–18", "content": "v. 13–18" },
+              " heavenly and earthly wisdom."
+            ]
+          }
+        },
+        "Many teachers become not, my brethren, having known that greater judgment we shall receive,"
+      ]
     }
   },
   {
@@ -389,7 +623,17 @@
     "book": "JAS",
     "chapter": 3,
     "verse": 4,
-    "content": "lo, also the ships, being so great, and by fierce winds being driven, are led about by a very small helm, whithersoever the impulse of the helmsman doth counsel,"
+    "content": [
+      "lo, also the ships, being so great, and by fierce winds being driven, are led about by a very small helm, whithersoever the impulse of the ",
+      {
+        "text": "helmsman",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "straightener", "marks": ["i"] }]
+        }
+      },
+      " doth counsel,"
+    ]
   },
   {
     "book": "JAS",
@@ -404,7 +648,21 @@
     "content": [
       "and the tongue ",
       { "text": "is", "marks": ["i"] },
-      " a fire, the world of the unrighteousness, so the tongue is set in our members, which is spotting our whole body, and is setting on fire the course of nature, and is set on fire by the gehenna."
+      " a fire, the world of the unrighteousness, so the tongue is set in our members, which is spotting our whole body, and is setting on fire ",
+      {
+        "text": "the course of nature",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "the running of the birth (origen, descent)",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", and is set on fire by the gehenna."
     ]
   },
   {
@@ -427,7 +685,17 @@
     "book": "JAS",
     "chapter": 3,
     "verse": 9,
-    "content": "with it we do bless the God and Father, and with it we do curse the men made according to the similitude of God;"
+    "content": [
+      "with it we do ",
+      {
+        "text": "bless",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "speak well of", "marks": ["i"] }]
+        }
+      },
+      " the God and Father, and with it we do curse the men made according to the similitude of God;"
+    ]
   },
   {
     "book": "JAS",
@@ -480,7 +748,18 @@
     "content": [
       "for where zeal and rivalry ",
       { "text": "are", "marks": ["i"] },
-      ", there is insurrection and every evil matter;"
+      ", there is ",
+      {
+        "text": "insurrection",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "un-settled-downness", "marks": ["i"] }
+          ]
+        }
+      },
+      " and every evil matter;"
     ]
   },
   {
@@ -500,6 +779,22 @@
     "chapter": 4,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter IV. may be divided into four parts; ",
+            { "bibleLink": "James 4:1–5", "content": "v. 1–5" },
+            " warning against wars and worldly friendship; ",
+            { "bibleLink": "James 4:6–10", "content": "v. 6–10" },
+            " pride and impurity; ",
+            { "bibleLink": "James 4:11, 12", "content": "v. 11, 12" },
+            " judging a brother; ",
+            { "bibleLink": "James 4:13–16", "content": "v. 13–16" },
+            " reckoning on the future."
+          ]
+        }
+      },
       { "paragraph": true, "text": "Whence " },
       { "text": "are", "marks": ["i"] },
       " wars and fightings among you? not thence—out of your passions, that are as soldiers in your members?"
@@ -509,7 +804,17 @@
     "book": "JAS",
     "chapter": 4,
     "verse": 2,
-    "content": "ye desire, and ye have not; ye murder, and are zealous, and are not able to attain; ye fight and war, and ye have not, because of your not asking;"
+    "content": [
+      "ye desire, and ye have not; ye ",
+      {
+        "text": "murder",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "kill (inwardly)", "marks": ["i"] }]
+        }
+      },
+      ", and are zealous, and are not able to attain; ye fight and war, and ye have not, because of your not asking;"
+    ]
   },
   {
     "book": "JAS",
@@ -531,13 +836,36 @@
     "book": "JAS",
     "chapter": 4,
     "verse": 5,
-    "content": "Do ye think that emptily the Writing saith, “To envy earnestly desireth the spirit that did dwell in us,”"
+    "content": [
+      "Do ye think that emptily the Writing saith, “To ",
+      {
+        "text": "envy",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "withering", "marks": ["i"] }]
+        }
+      },
+      " earnestly desireth the spirit that did dwell in us,”"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 6,
-    "content": "and greater grace he doth give, wherefore he saith, “God against proud ones doth set Himself up, and to lowly ones He doth give grace?”"
+    "content": [
+      "and greater ",
+      {
+        "text": "grace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "cause of leaping for joy", "marks": ["i"] }
+          ]
+        }
+      },
+      " he doth give, wherefore he saith, “God against proud ones doth set Himself up, and to lowly ones He doth give grace?”"
+    ]
   },
   {
     "book": "JAS",
@@ -555,7 +883,17 @@
     "book": "JAS",
     "chapter": 4,
     "verse": 9,
-    "content": "be exceeding afflicted, and mourn, and weep, let your laughter to mourning be turned, and the joy to heaviness;"
+    "content": [
+      "be exceeding afflicted, and mourn, and weep, let your laughter to mourning be turned, and the joy to ",
+      {
+        "text": "heaviness",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "a down-cast eye", "marks": ["i"] }]
+        }
+      },
+      ";"
+    ]
   },
   {
     "book": "JAS",
@@ -603,7 +941,17 @@
     "book": "JAS",
     "chapter": 4,
     "verse": 16,
-    "content": "and now ye glory in your pride; all such glorying is evil;"
+    "content": [
+      "and now ye glory in your ",
+      {
+        "text": "pride",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "assumptions", "marks": ["i"] }]
+        }
+      },
+      "; all such glorying is evil;"
+    ]
   },
   {
     "book": "JAS",
@@ -616,6 +964,28 @@
     "chapter": 5,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter V. may be divided into seven parts; ",
+            { "bibleLink": "James 5:1–6", "content": "v. 1–6" },
+            " warnings for the rich; ",
+            { "bibleLink": "James 5:7–9", "content": "v. 7–9" },
+            " exhortation to patience; ",
+            { "bibleLink": "James 5:10, 11", "content": "v. 10, 11" },
+            " from the example of Job; ",
+            { "bibleLink": "James 5:12", "content": "v. 12" },
+            " against swearing; ",
+            { "bibleLink": "James 5:13–15", "content": "v. 13–15" },
+            " directions for the suffering and the joyful; ",
+            { "bibleLink": "James 5:16–18", "content": "v. 16–18" },
+            " mutual confessions and power of prayer; ",
+            { "bibleLink": "James 5:19, 20", "content": "v. 19, 20" },
+            " value of a straying one."
+          ]
+        }
+      },
       {
         "paragraph": true,
         "text": "Go, now, ye rich! weep, howling over your miseries that are coming upon "
@@ -634,19 +1004,49 @@
     "book": "JAS",
     "chapter": 5,
     "verse": 3,
-    "content": "your gold and silver have rotted, and the rust of them for a testimony shall be to you, and shall eat your flesh as fire. Ye made treasure in the last days!"
+    "content": [
+      "your gold and silver have rotted, and the rust of them for a testimony shall be to you, and shall eat your flesh as fire. Ye made treasure ",
+      {
+        "text": "in the last days",
+        "foot": { "type": "stu", "content": "of Judaism" }
+      },
+      "!"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 5,
     "verse": 4,
-    "content": "lo, the reward of the workmen, of those who in-gathered your fields, which hath been fraudulently kept back by you—doth cry out, and the exclamations of those who did reap into the ears of the Lord of Sabaoth have entered;"
+    "content": [
+      "lo, the reward of the workmen, of those who in-gathered your fields, which hath been ",
+      {
+        "text": "fraudulently kept back",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "un-confirmed", "marks": ["i"] }]
+        }
+      },
+      " by you—doth cry out, and the exclamations of those who did reap into the ears of the Lord of Sabaoth have entered;"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 5,
     "verse": 5,
-    "content": "ye did live in luxury upon the earth, and were wanton; ye did nourish your hearts, as in a day of slaughter;"
+    "content": [
+      "ye did live in luxury upon the earth, and ",
+      {
+        "text": "were wanton",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "adorned yourselves", "marks": ["i"] }
+          ]
+        }
+      },
+      "; ye did nourish your hearts, as in a day of slaughter;"
+    ]
   },
   {
     "book": "JAS",
@@ -667,13 +1067,35 @@
     "book": "JAS",
     "chapter": 5,
     "verse": 8,
-    "content": "be patient, ye also; establish your hearts, because the presence of the Lord hath drawn nigh;"
+    "content": [
+      "be patient, ye also; establish your hearts, because ",
+      {
+        "text": "the presence of the Lord hath drawn nigh",
+        "foot": {
+          "type": "stu",
+          "content": "the Roman armies beginning to encompass Jerusalem"
+        }
+      },
+      ";"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 5,
     "verse": 9,
-    "content": "murmur not against one another, brethren, that ye may not be condemned; lo, the Judge before the door hath stood."
+    "content": [
+      {
+        "text": "murmur not against",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "be not constrained against", "marks": ["i"] }
+          ]
+        }
+      },
+      " one another, brethren, that ye may not be condemned; lo, the Judge before the door hath stood."
+    ]
   },
   {
     "book": "JAS",
@@ -685,7 +1107,17 @@
     "book": "JAS",
     "chapter": 5,
     "verse": 11,
-    "content": "lo, we call happy those who are enduring; the endurance of Job ye heard of, and the end of the Lord ye have seen, that very compassionate is the Lord, and pitying."
+    "content": [
+      "lo, we call happy those who are enduring; the endurance of Job ye heard of, and the end of the Lord ye have seen, that very ",
+      {
+        "text": "compassionate",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "has many bowels", "marks": ["i"] }]
+        }
+      },
+      " is the Lord, and pitying."
+    ]
   },
   {
     "book": "JAS",
@@ -702,7 +1134,14 @@
     "verse": 13,
     "content": {
       "paragraph": true,
-      "text": "Doth any one suffer evil among you? let him pray; is any of good cheer? let him sing psalms;"
+      "content": [
+        "Doth any one suffer evil among you? let him pray; is any of good cheer? let him ",
+        {
+          "text": "sing psalms",
+          "foot": { "type": "stu", "content": "play the psaltery" }
+        },
+        ";"
+      ]
     }
   },
   {
@@ -721,7 +1160,17 @@
     "book": "JAS",
     "chapter": 5,
     "verse": 16,
-    "content": "Be confessing to one another the trespasses, and be praying for one another, that ye may be healed; very strong is a working supplication of a righteous man;"
+    "content": [
+      "Be confessing to one another the ",
+      {
+        "text": "trespasses",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "fallings-aside", "marks": ["i"] }]
+        }
+      },
+      ", and be praying for one another, that ye may be healed; very strong is a working supplication of a righteous man;"
+    ]
   },
   {
     "book": "JAS",
@@ -745,6 +1194,13 @@
     "book": "JAS",
     "chapter": 5,
     "verse": 20,
-    "content": "let him know that he who did turn back a sinner from the straying of his way shall save a soul from death, and shall cover a multitude of sins."
+    "content": [
+      "let him know that he who did turn back a sinner from the straying of his way shall save a soul from death, and shall cover a multitude of ",
+      {
+        "text": "sins",
+        "foot": { "type": "stu", "content": "“missings” of the mark" }
+      },
+      "."
+    ]
   }
 ]

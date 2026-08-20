@@ -5,7 +5,49 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, an apostle of Jesus Christ, according to a command of God our Saviour, and of the Lord Jesus Christ our hope,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "text": "1 Timothy. TIMOTHEUS was the son of a Gentile father, and a Jewish mother, named Eunice, who with her mother Lois, were believers in Christ, and residing apparently in Lystra, in Lycaonia. Paul having taught and chosen him for his fellow-evangelist, caused him to be circumcised, to propitiate the Jews. He afterwards sent him to Corinth, Philippi, Thessalonica, and left him at Ephesus to check error, and establish order. Paul is also supposed to have written the First Letter to him from Laodicea or Athens, about A.D. 64. It is quoted or referred to by Clement of Rome (A.D. 96), Polycarp (A.D. 108), Ignatius (A.D. 108), Athenagoras (A.D. 178), Justin Martyr (A.D. 140), Theophilus of Antioch (A.D. 181), Caius (A.D. 212), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Eusebius (A.D. 320), &c.",
+                "break": true
+              },
+              {
+                "text": "The Gnostics in ancient times rejected both of the Letters to Timothy and also that to Titus; in modern days doubts have been held by Baur, De Wette, Eichhorn, Schleiermacher, &c.",
+                "break": true
+              },
+              "The opinions chiefly combated in this Letter are those of the Judaizing Gnostics, as tending to godlessness, (see ",
+              { "bibleLink": "1 Timothy 1:7, 8, 19", "content": "1. 7, 8, 19" },
+              "; ",
+              { "bibleLink": "1 Timothy 4:2", "content": "4. 2" },
+              "; ",
+              { "bibleLink": "1 Timothy 6:5", "content": "6. 5" },
+              ", &c.) lawlessness, pomp, female ambition, word-striving, covetousness, both among the flock and its leaders."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into five parts; ",
+              { "bibleLink": "1 Timothy 1:1, 2", "content": "v. 1, 2" },
+              " address and salutation; ",
+              { "bibleLink": "1 Timothy 1:3, 4", "content": "v. 3, 4" },
+              " design in leaving Timothy in Ephesus; ",
+              { "bibleLink": "1 Timothy 1:5–11", "content": "v. 5–11" },
+              " end of the charge and object of law; ",
+              { "bibleLink": "1 Timothy 1:12–17", "content": "v. 12–17" },
+              " thanksgiving for his own conversion, and object of Christ’s coming; ",
+              { "bibleLink": "1 Timothy 1:18–20", "content": "v. 18–20" },
+              " charge to Timothy."
+            ]
+          }
+        },
+        "Paul, an apostle of Jesus Christ, according to a command of God our Saviour, and of the Lord Jesus Christ our hope,"
+      ]
     }
   },
   {
@@ -30,7 +72,19 @@
     "book": "1TM",
     "chapter": 1,
     "verse": 4,
-    "content": "nor to give heed to fables and endless genealogies, that cause questions rather than the building up of God that is in faith:—"
+    "content": {
+      "text": "nor to give heed to fables and endless genealogies, that cause questions rather than the building up of God that is in faith:—",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "to hold toward fables (Gr. myths)..which hold along questions (or searchings) rather than the upbuilding (or stewardship, lit. house-distribution) of God.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "1TM",
@@ -96,7 +150,21 @@
     "chapter": 1,
     "verse": 13,
     "content": [
-      "who before was speaking evil, and persecuting, and insulting, but I found kindness, because, being ignorant, I did ",
+      "who before was ",
+      {
+        "text": "speaking evil, and persecuting, and insulting, but I found kindness",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "being formerly (or at first) an injurious-speaker, and causing to flee, and insulting, but I was kindly dealt with.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", because, being ignorant, I did ",
       { "text": "it", "marks": ["i"] },
       " in unbelief,"
     ]
@@ -164,7 +232,21 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "I exhort, then, first of all, there be made supplications, prayers, intercessions, thanksgivings, for all men:"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter II. may be divided into two parts; ",
+              { "bibleLink": "1 Timothy 2:1–8", "content": "v. 1–8" },
+              " exhortations to prayer for all men, with reasons; ",
+              { "bibleLink": "1 Timothy 2:9–15", "content": "v. 9–15" },
+              " exhortations to women."
+            ]
+          }
+        },
+        "I exhort, then, first of all, there be made supplications, prayers, intercessions, thanksgivings, for all men:"
+      ]
     }
   },
   {
@@ -205,7 +287,19 @@
     "book": "1TM",
     "chapter": 2,
     "verse": 6,
-    "content": "who did give himself a ransom for all—the testimony in its own times—"
+    "content": {
+      "text": "who did give himself a ransom for all—the testimony in its own times—",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "a corresponding (or equivalent) ransom in behalf of all,—the testimony (of which God gives) in its proper seasons,",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "1TM",
@@ -265,13 +359,43 @@
     "book": "1TM",
     "chapter": 2,
     "verse": 15,
-    "content": "and she shall be saved through the child-bearing, if they remain in faith, and love, and sanctification, with sobriety."
+    "content": [
+      "and she shall be saved ",
+      {
+        "text": "through the child-bearing",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "through (or because of) the child-bearing,",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", if they remain in faith, and love, and sanctification, with sobriety."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 3,
     "verse": 1,
     "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter III. may be divided into three parts; ",
+            { "bibleLink": "1 Timothy 3:1–7", "content": "v. 1–7" },
+            " character of an overseer; ",
+            { "bibleLink": "1 Timothy 3:8–13", "content": "v. 8–13" },
+            " of deacons and deaconesses; ",
+            { "bibleLink": "1 Timothy 3:14–16", "content": "v. 14–16" },
+            " reasons for thus writing."
+          ]
+        }
+      },
       { "paragraph": true, "text": "Stedfast " },
       { "text": "is", "marks": ["i"] },
       " the word: If any one the oversight doth long for, a right work he desireth;"
@@ -321,7 +445,19 @@
     "book": "1TM",
     "chapter": 3,
     "verse": 8,
-    "content": "Ministrants—in like manner grave, not double-tongued, not given to much wine, not given to filthy lucre,"
+    "content": {
+      "text": "Ministrants—in like manner grave, not double-tongued, not given to much wine, not given to filthy lucre,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "Deacons likewise (it behoves to be) venerable, not double-tongued (lit. worded), not holding to much wine, not (seeking) shameful gain.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "1TM",
@@ -388,6 +524,18 @@
     "verse": 1,
     "content": [
       { "heading": "The Good Minister" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter IV. may be divided into two parts; ",
+            { "bibleLink": "1 Timothy 4:1–5", "content": "v. 1–5" },
+            " coming corruptions; ",
+            { "bibleLink": "1 Timothy 4:6–16", "content": "v. 6–16" },
+            " exhortations to Timothy."
+          ]
+        }
+      },
       {
         "paragraph": true,
         "text": "And the Spirit expressly speaketh, that in latter times shall certain fall away from the faith, giving heed to seducing spirits and teachings of demons,"
@@ -465,7 +613,17 @@
     "book": "1TM",
     "chapter": 4,
     "verse": 11,
-    "content": { "paragraph": true, "text": "Charge these things, and teach;" }
+    "content": {
+      "paragraph": true,
+      "text": "Charge these things, and teach;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          { "text": "be telling fully and teaching.", "marks": ["i"] }
+        ]
+      }
+    }
   },
   {
     "book": "1TM",
@@ -503,7 +661,27 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "An aged person thou mayest not rebuke, but be entreating as a father; younger persons as brethren;"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter V. may be divided into five parts; ",
+              { "bibleLink": "1 Timothy 5:1, 2", "content": "v. 1, 2" },
+              " how to treat aged men and women; ",
+              { "bibleLink": "1 Timothy 5:3–16", "content": "v. 3–16" },
+              " widows; ",
+              { "bibleLink": "1 Timothy 5:17–21", "content": "v. 17–21" },
+              " elders; ",
+              { "bibleLink": "1 Timothy 5:22, 23", "content": "v. 22, 23" },
+              " himself; ",
+              { "bibleLink": "1 Timothy 5:24, 25", "content": "v. 24, 25" },
+              " sins and works all manifest."
+            ]
+          }
+        },
+        "An aged person thou mayest not rebuke, but be entreating as a father; younger persons as brethren;"
+      ]
     }
   },
   {
@@ -540,7 +718,16 @@
     "book": "1TM",
     "chapter": 5,
     "verse": 7,
-    "content": "and these things charge, that they may be blameless;"
+    "content": {
+      "text": "and these things charge, that they may be blameless;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          { "text": "tell along-side..be un-laid-hold-on.", "marks": ["i"] }
+        ]
+      }
+    }
   },
   {
     "book": "1TM",
@@ -667,7 +854,29 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "As many as are servants under a yoke, their own masters worthy of all honour let them reckon, that the name of God and the teaching may not be evil spoken of;"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter VI. may be divided into six parts; ",
+              { "bibleLink": "1 Timothy 6:1, 2", "content": "v. 1, 2" },
+              " advice to bondsmen; ",
+              { "bibleLink": "1 Timothy 6:3–10", "content": "v. 3–10" },
+              " warning against pride and covetousness; ",
+              { "bibleLink": "1 Timothy 6:11–13", "content": "v. 11–13" },
+              " exhortations to Timothy; ",
+              { "bibleLink": "1 Timothy 6:14–16", "content": "v. 14–16" },
+              " with a solemn charge; ",
+              { "bibleLink": "1 Timothy 6:17–19", "content": "v. 17–19" },
+              " duty of the rich; ",
+              { "bibleLink": "1 Timothy 6:20, 21", "content": "v. 20, 21" },
+              " concluding charge."
+            ]
+          }
+        },
+        "As many as are servants under a yoke, their own masters worthy of all honour let them reckon, that the name of God and the teaching may not be evil spoken of;"
+      ]
     }
   },
   {
