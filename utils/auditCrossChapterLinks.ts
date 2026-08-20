@@ -64,6 +64,19 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
   return summaries.some((summary) => summary.findings.length > 0) ? 1 : 0;
 }
 
+/**
+ * Render one finding as this report's one-line format.
+ *
+ * Exported so `validate.ts` can render the same line inline in its own
+ * report instead of maintaining a second copy of this formatting.
+ */
+export function formatCrossChapterFinding(finding: CrossChapterFinding): string {
+  return (
+    `${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
+    `"${finding.target}" spans ${finding.book ?? finding.target} ${finding.fromChapter}–${finding.toChapter} — unsplit`
+  );
+}
+
 /** Print one human-readable report line per version that has an unsplit finding — silent for a version with none. */
 function printReport(summaries: readonly VersionAudit[]): void {
   const totalScanned = summaries.reduce((sum, summary) => sum + summary.scanned, 0);
@@ -74,10 +87,7 @@ function printReport(summaries: readonly VersionAudit[]): void {
 
     console.log(`${summary.version}:`);
     for (const finding of summary.findings) {
-      console.log(
-        `  ${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
-          `"${finding.target}" spans ${finding.book ?? finding.target} ${finding.fromChapter}–${finding.toChapter} — unsplit`,
-      );
+      console.log(`  ${formatCrossChapterFinding(finding)}`);
     }
     console.log("");
   }

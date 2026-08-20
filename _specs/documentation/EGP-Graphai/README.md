@@ -47,12 +47,13 @@ A single recursive content shape (defined in [content-schema.json](../../../cont
 | Symptom                                              | Likely culprit                                                      |
 | ---------------------------------------------------- | ------------------------------------------------------------------- |
 | `npm run validate` fails with schema error           | Mismatched content shape — diff against [content-model.md](./content-model.md) examples |
+| `npm run validate` fails on cross-chapter links or Strong's-node findings | It also runs both audits below for each version validated — see their rows for what to do |
 | Exports look right but markdown drops a piece        | Missing case in `renderContent` dispatch — see [data-pipeline.md](./data-pipeline.md) |
 | Web reader shows raw JSON or blank                   | A new content variant isn't handled in `ContentNode.js` — see [web-reader.md](./web-reader.md) |
 | Strong's link points to a 404                        | Strong's number doesn't match `^[GH][0-9]{1,4}$` or starts with the wrong testament prefix |
 | `Failed to write … after N attempts`                 | Something is holding that file open past the retry budget — see [Writing files](./data-pipeline.md#writing-files) |
 | `auditCrossChapterLinks` reports an unsplit finding   | Run it with `--fix` for that version — see [Cross-chapter link audit](./data-pipeline.md#cross-chapter-link-audit) |
-| `auditStrongsNodes` reports a finding                | Read-only — no `--fix`; fix the flagged node(s) by hand — see [Strong's-node audit](./data-pipeline.md#strongs-node-audit) |
+| `auditNodes` reports a finding                | Read-only — no `--fix`; fix the flagged node(s) by hand — see [Strong's-node audit](./data-pipeline.md#strongs-node-audit) |
 | A validate run reformats far more of a file than expected | The file was carrying stale formatting from before a write went through the canonical path — see [Writing files](./data-pipeline.md#writing-files) |
 
 ## License & contribution notes

@@ -4,7 +4,7 @@
 
 Verse content is built one lexical node at a time, each carrying its own `strong` number, `marks`, and joining whitespace. That structure can drift out of alignment with this repo's own text-flow conventions during import or hand-editing — a connector word left unmerged, a joining space on the wrong side of a boundary, a verse that shouldn't open with whitespace at all. This domain owns detecting five such drift patterns, corpus-wide, across every version this repo carries.
 
-[utils/auditStrongsNodes.ts](../../../utils/auditStrongsNodes.ts) is the sole owner — both the detection logic and the CLI. Unlike the cross-chapter link auditor (see [cross-chapter-links.md](./cross-chapter-links.md)), it has no `--fix` path: it only ever reports.
+[utils/auditNodes.ts](../../../utils/auditNodes.ts) is the sole owner — both the detection logic and the CLI. Unlike the cross-chapter link auditor (see [cross-chapter-links.md](./cross-chapter-links.md)), it has no `--fix` path: it only ever reports.
 
 ## Core Entities
 
@@ -28,9 +28,9 @@ The shared, cheaply-computed read of one array element — a plain string, a `st
 
 ## User Workflows
 
-- **Audit every version** – `npm run audit-strongs-nodes` (read-only report; also accepts `-- <versionId> --verbose` to scope and expand)
-- **Audit one version, capped output** – `npx ts-node utils/auditStrongsNodes.ts KJV1769` (first 10 findings per check, then a "… N more" note)
-- **List every finding** – `npx ts-node utils/auditStrongsNodes.ts KJV1769 --verbose`
+- **Audit every version** – `npm run audit-nodes` (read-only report; also accepts `-- <versionId> --verbose` to scope and expand)
+- **Audit one version, capped output** – `npx ts-node utils/auditNodes.ts KJV1769` (first 10 findings per check, then a "… N more" note)
+- **List every finding** – `npx ts-node utils/auditNodes.ts KJV1769 --verbose`
 - **Programmatic single-verse check** – `findStrongsNodeIssues(verse.content)` returns all five findings for one verse's content tree without touching disk
 
 ## Key Business Rules
@@ -42,13 +42,14 @@ The shared, cheaply-computed read of one array element — a plain string, a `st
 - **A textless Strong's sibling is transparent, not a boundary** – `{strong: "H853"}` (no `text`, no nested `content`) renders zero characters. Check 3 skips through it backward to find a real attachment point; check 4 skips through it forward to find the real node to test mark-agreement against (real Matthew 3:15 KJV1769 shape: `{text: " it becometh", marks: ["woc"]}, " ", {strong: "G2076"}, {text: "us", marks: ["woc"]}` — the space correctly rolls onto `"us"`, past the unmarked textless sibling).
 - **`break`/`paragraph` mark real piece boundaries a formatting match can't paper over** – A `break: true` on the connector itself, or `paragraph: true` opening on the target, blocks a finding even when every other condition matches.
 - **Verse-initial-space detection never recurses into a `ContentNested` wrapper** – A leading space inside one is completely ordinary (mid-sentence insertion, not a verse's own start), so this check looks only at a verse's own outermost `content[0]`.
-- **`--verbose` survives npm's own flag-swallowing** – `npm run audit-strongs-nodes KJV1769 --verbose` (no `--` separator) never delivers a literal `--verbose` to `process.argv` — npm's CLI parsing consumes it as its own `--loglevel verbose` first. The tool also checks `process.env.npm_config_loglevel`, the one signal that invocation shape actually leaves behind, so verbose output still works as typed.
+- **`--verbose` survives npm's own flag-swallowing** – `npm run audit-nodes KJV1769 --verbose` (no `--` separator) never delivers a literal `--verbose` to `process.argv` — npm's CLI parsing consumes it as its own `--loglevel verbose` first. The tool also checks `process.env.npm_config_loglevel`, the one signal that invocation shape actually leaves behind, so verbose output still works as typed.
+- **`validate.ts` runs this audit too** – `auditVersion(versionId)` is called directly from `utils/validate.ts`'s `main()`, once per version being validated, using the exported `isClean()`/`printFindingLines()` to render the same report shape rather than a second, divergent copy of it. A version with any finding fails validation alongside its schema checks.
 
 ## Representative Code Examples
 
 ### Formatting agreement gates a merge
 
-_From [utils/auditStrongsNodes.ts](../../../utils/auditStrongsNodes.ts)_
+_From [utils/auditNodes.ts](../../../utils/auditNodes.ts)_
 
 ```typescript
 function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
@@ -58,7 +59,7 @@ function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
 
 ### Skipping through a textless Strong's sibling (check 4)
 
-_From [utils/auditStrongsNodes.ts](../../../utils/auditStrongsNodes.ts)_
+_From [utils/auditNodes.ts](../../../utils/auditNodes.ts)_
 
 ```typescript
 let j = i + 1;
@@ -72,7 +73,7 @@ if (!agreesInFormatting(left, target)) continue;
 
 ### The npm `--verbose`-swallowing fallback
 
-_From [utils/auditStrongsNodes.ts](../../../utils/auditStrongsNodes.ts)_
+_From [utils/auditNodes.ts](../../../utils/auditNodes.ts)_
 
 ```typescript
 const verbose = args.includes("--verbose") || /^(verbose|silly)$/.test(process.env.npm_config_loglevel ?? "");

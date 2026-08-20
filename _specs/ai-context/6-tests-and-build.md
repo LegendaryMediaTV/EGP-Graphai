@@ -16,7 +16,7 @@
   - `functions/__tests__/sortContentKeys.test.ts`
   - `functions/__tests__/writeJsonFile.test.ts`
   - `utils/__tests__/auditCrossChapterLinks.test.ts`
-  - `utils/__tests__/auditStrongsNodes.test.ts`
+  - `utils/__tests__/auditNodes.test.ts`
   - `utils/__tests__/crossChapterLinks.test.ts`
   - `utils/__tests__/exportContent.test.ts`
   - `utils/__tests__/validate.test.ts`
@@ -100,27 +100,28 @@
 
 ### Cross-Chapter Link Audit Domain
 
-- **Existing tests** – `utils/__tests__/crossChapterLinks.test.ts` (31 tests), `utils/__tests__/auditCrossChapterLinks.test.ts` (8 tests)
+- **Existing tests** – `utils/__tests__/crossChapterLinks.test.ts` (36 tests), `utils/__tests__/auditCrossChapterLinks.test.ts` (8 tests)
 - **Covered scenarios:**
-  - Target-shape classification: `singleChapter`, `crossChapterRange`, `wholeChapterRange`, `mergedTarget`, `unparsed`
+  - Target-shape classification: `singleChapter`, `crossChapterRange`, `wholeChapterRange`, `mergedTarget`, `unparsed` — `wholeChapterRange` is a finding, split alongside `crossChapterRange`, not an out-of-scope shape
   - Dash-agnostic detection — en dash, em dash, and ASCII hyphen all recognized as the same range separator
   - Per-version chapter-length lookups (e.g. Ezra 4's last verse from ASV1901's own records) and per-version canon-scoped book resolution
-  - Splitting a cross-chapter range into two chapter-scoped links, byte-for-byte display preservation, and idempotency on a second pass
+  - Splitting a cross-chapter range into two chapter-scoped links, byte-for-byte display preservation, and idempotency on a second pass; a whole-chapter range splits the same way but with no verse anchor on either half (real YLT1898 fixtures, e.g. `"Romans 1–11"`)
   - Corpus-wide sweep across all 6 versions, `scanned` count as a guard against a walk that silently stops descending, and `exitCodeFor()`'s pass/fail behavior
   - Read-only guarantee — auditing twice produces byte-identical results
   - Real fixtures drawn from this repo's own WEBUS2020 data (the only one of the 6 versions carrying any `bibleLink`) rather than synthetic examples, wherever a real occurrence exists
 
 ### Validation Domain
 
-- **Existing tests** – `utils/__tests__/validate.test.ts` (33 tests)
+- **Existing tests** – `utils/__tests__/validate.test.ts` (36 tests)
 - **Covered scenarios:**
   - `findMeaninglessContentNodes()` — formatting (`marks`/`script`) with no `text`, and empty `""` husks, flagged; `foot`/`strong`/`morph`/`lemma`/`bibleLink`/bare `paragraph`/`break` left alone; descends into `foot.content`, subtitles, and headings, not just the top level
   - `findStrongTrailingWhitespaceNodes()` — a `strong`-carrying node's own `text` ending in whitespace
   - `main()` gated behind `require.main === module`, so importing the module for its exported functions doesn't trigger a full validation run
+  - `main()` also runs the cross-chapter link audit and the Strong's-node audit for each version it validates, both read-only — see [cross-chapter-links.md](../4-domains/cross-chapter-links.md) and [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for what each one checks
 
 ### Strong's-Node Audit Domain
 
-- **Existing tests** – `utils/__tests__/auditStrongsNodes.test.ts` (49 tests)
+- **Existing tests** – `utils/__tests__/auditNodes.test.ts` (49 tests)
 - **Covered scenarios:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the domain narrative — all five findings' positive/negative cases, `agreesInFormatting` mark/script agreement, textless-Strong's-sibling skip-through (both directions), `break`/`paragraph` boundary guards, verse-initial-space detection scoped to a verse's own outermost content, and `exitCodeFor()`/`isClean()` across all five checks combined
 
 ### Web Reader Domain
@@ -191,10 +192,10 @@ npm run audit-links
 npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix
 
 # Audit all versions for Strong's-node placement conventions (read-only, no --fix)
-npm run audit-strongs-nodes
+npm run audit-nodes
 
 # Audit one version, listing every finding rather than the first 10 per check
-npx ts-node utils/auditStrongsNodes.ts WEBUS2020 --verbose
+npx ts-node utils/auditNodes.ts WEBUS2020 --verbose
 ```
 
 ### Run Tests
@@ -248,8 +249,10 @@ Any of the five callers (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.
 
 - Target-shape classification and dash-agnostic detection
 - Per-version chapter-length and book-canon resolution (never a shared table across versions)
-- Split correctness, display-text preservation, and idempotency
+- Split correctness for both `crossChapterRange` and `wholeChapterRange`, display-text preservation, and idempotency
 - Corpus-wide sweep counts and the CLI's exit-code behavior
+
+`findCrossChapterLinks()` is also called directly from `validate.ts`, one call per version being validated — re-run `utils/__tests__/validate.test.ts` alongside this suite when changing its return shape.
 
 ### When Modifying Version Discovery (getBibleVersions.ts)
 
@@ -271,11 +274,13 @@ Any of the five callers (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.
 - `findMeaninglessContentNodes()` and `findStrongTrailingWhitespaceNodes()`, both exported and callable independent of the CLI
 - Recursion into every content-bearing branch (`foot.content`, subtitles, headings), not just the top level — the shape both checks exist to catch
 
-### When Modifying the Strong's-Node Audit (auditStrongsNodes.ts)
+`main()` also calls `findCrossChapterLinks()` and `auditVersion()` (from `auditNodes.ts`) directly, one call per version being validated — a change to either audit's exported function signature or return shape is a `validate.ts` change too, even though no test in `validate.test.ts` exercises that wiring directly (it's covered end-to-end by running `npm run validate` itself). Re-run the cross-chapter link and Strong's-node suites alongside this one when touching that boundary.
 
-**Relevant tests:** `npx vitest --run utils/__tests__/auditStrongsNodes.test.ts`
+### When Modifying the Strong's-Node Audit (auditNodes.ts)
 
-**Test coverage includes:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the full rule set. This tool has no `--fix` path — it's read-only, so there's no write-back behavior to regression-test, only detection correctness across all five findings.
+**Relevant tests:** `npx vitest --run utils/__tests__/auditNodes.test.ts`
+
+**Test coverage includes:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the full rule set. This tool has no `--fix` path — it's read-only, so there's no write-back behavior to regression-test, only detection correctness across all five findings. `isClean()` and `printFindingLines()` are exported alongside the audit functions specifically so `validate.ts` can reuse them rather than re-deriving the same clean/dirty check and report formatting.
 
 ### When Modifying Footnote Text Extraction (footnoteText.js)
 

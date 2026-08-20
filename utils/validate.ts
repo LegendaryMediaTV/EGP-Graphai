@@ -12,6 +12,13 @@ import {
 } from "../functions/writeJsonFile";
 import Content from "../types/Content";
 import BibleVersion from "../types/Version";
+import { findCrossChapterLinks } from "./crossChapterLinks";
+import { formatCrossChapterFinding } from "./auditCrossChapterLinks";
+import {
+  auditVersion as auditNodeConventions,
+  isClean as nodeConventionsAreClean,
+  printFindingLines as printNodeConventionFindings,
+} from "./auditNodes";
 
 const jsonPath = "./bible-books/bible-books.json";
 const schemaPath = "./bible-books/bible-books-schema.json";
@@ -274,12 +281,23 @@ export function findStrongTrailingWhitespaceNodes(content: Content): string[] {
  * schema and content. Exits the process with a non-zero code on the first
  * validation phase that fails.
  *
+ * The schema/structure phases above are hierarchical — each later phase
+ * assumes the earlier ones held, so a failure there exits immediately rather
+ * than continuing on data it can no longer trust. The two corpus-wide audits
+ * that run last, `crossChapterLinks.ts` (unsplit `bibleLink` ranges) and
+ * `auditNodes.ts` (Strong's-node placement conventions), are peers of each
+ * other with no such dependency, so both always run and report in full
+ * before `main` exits non-zero — a version that fails one still gets audited
+ * by the other in the same pass, rather than needing a second `validate` run
+ * to find out.
+ *
  * @param requestedVersion - A single version id to validate (e.g.
  *   `"YLT1898"`, from `process.argv[2]`). When omitted, every version
- *   directory on disk is validated — the documented default. An id with no
- *   matching directory isn't checked for existence up front: it surfaces as
- *   a natural filesystem error later, matching `exportContent.ts`,
- *   `auditCrossChapterLinks.ts`, and `auditStrongsNodes.ts`.
+ *   directory on disk is validated — the documented default, and each of
+ *   `versionDirs` is what both trailing audits scope themselves to as well.
+ *   An id with no matching directory isn't checked for existence up front:
+ *   it surfaces as a natural filesystem error later, matching
+ *   `exportContent.ts`, `auditCrossChapterLinks.ts`, and `auditNodes.ts`.
  */
 async function main(requestedVersion?: string) {
   const versionDirs = requestedVersion
@@ -597,6 +615,56 @@ async function main(requestedVersion?: string) {
   } else {
     console.log("\n✅ All verse file validations passed!");
   }
+
+  // Cross-chapter bibleLink audit: every unsplit range this version's own
+  // content carries. See crossChapterLinks.ts for the rule; utils/validate.ts
+  // only ever reports here — never --fix.
+  console.log("\n🔗 Auditing cross-chapter bibleLink targets...");
+  let crossChapterLinksPassed = true;
+
+  for (const versionDir of versionDirs) {
+    const { findings } = findCrossChapterLinks(versionDir);
+    if (findings.length === 0) {
+      console.log(`✅ ${versionDir}: no unsplit cross-chapter links`);
+      continue;
+    }
+
+    console.error(`❌ ${versionDir}: ${findings.length} unsplit cross-chapter link(s):`);
+    for (const finding of findings) {
+      console.error(`  ${formatCrossChapterFinding(finding)}`);
+    }
+    crossChapterLinksPassed = false;
+  }
+
+  // Strong's-node placement audit: the five conventions auditNodes.ts owns
+  // (unmerged pairs, trailing whitespace, leading punctuation, mark-boundary
+  // spaces, verse-initial spaces). Also report-only here.
+  console.log("\n🧩 Auditing Strong's-node placement conventions...");
+  let nodeConventionsPassed = true;
+
+  for (const versionDir of versionDirs) {
+    const summary = auditNodeConventions(versionDir);
+    if (nodeConventionsAreClean(summary)) {
+      console.log(`✅ ${versionDir}: no Strong's-node placement findings`);
+      continue;
+    }
+
+    console.error(`❌ ${versionDir}: Strong's-node placement findings:`);
+    printNodeConventionFindings(summary, false);
+    nodeConventionsPassed = false;
+  }
+
+  if (!crossChapterLinksPassed || !nodeConventionsPassed) {
+    if (!crossChapterLinksPassed) {
+      console.error("\n❌ Cross-chapter link audit failed! Run `npm run audit-links -- <version> --fix` to split them.");
+    }
+    if (!nodeConventionsPassed) {
+      console.error("\n❌ Strong's-node audit failed! Run `npm run audit-nodes -- <version> --verbose` for full detail.");
+    }
+    process.exit(1);
+  }
+
+  console.log("\n✅ Cross-chapter link and Strong's-node audits both passed!");
 }
 
 // Guard so importing this module (e.g. from tests) doesn't also run main()

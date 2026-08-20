@@ -819,8 +819,14 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
     : 0;
 }
 
-/** Prints one version's own findings across all five checks — the first `cap` per check, or every one when `verbose`. */
-function printFindingLines(summary: VersionAudit, verbose: boolean): void {
+/**
+ * Prints one version's own findings across all five checks — the first `cap`
+ * per check, or every one when `verbose`.
+ *
+ * Exported so `validate.ts` can render the same per-check breakdown inline in
+ * its own report instead of maintaining a second copy of this formatting.
+ */
+export function printFindingLines(summary: VersionAudit, verbose: boolean): void {
   const cap = verbose ? Infinity : 10;
 
   console.log(
@@ -889,8 +895,15 @@ function printFindingLines(summary: VersionAudit, verbose: boolean): void {
     );
 }
 
-/** True when a version's audit found nothing across any of the five checks — printed as a single skipped line rather than an empty block, so a report over every version on disk stays readable. */
-function isClean(summary: VersionAudit): boolean {
+/**
+ * True when a version's audit found nothing across any of the five checks —
+ * printed as a single skipped line rather than an empty block, so a report
+ * over every version on disk stays readable.
+ *
+ * Exported so `validate.ts` can reuse this same clean/dirty test rather than
+ * re-deriving it from `VersionAudit`'s five finding arrays itself.
+ */
+export function isClean(summary: VersionAudit): boolean {
   return (
     summary.unmergedPairs.length === 0 &&
     summary.trailingWhitespace.length === 0 &&
@@ -918,7 +931,7 @@ function printReport(
 }
 
 /**
- * `npm run audit-strongs-nodes KJV1769 --verbose` (no `--` before the script's
+ * `npm run audit-nodes KJV1769 --verbose` (no `--` before the script's
  * own args) never reaches here as `--verbose` at all: npm's own CLI parses
  * every `--flag` itself unless it follows a literal `--` separator, consumes
  * `--verbose` as its *own* `--loglevel verbose`, and only forwards `KJV1769`

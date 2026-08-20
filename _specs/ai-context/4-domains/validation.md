@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Validation domain ensures data integrity across all Bible JSON files. It validates schemas, book ordering, file naming, verse structure, and cross-references between entities. Validation also auto-normalizes key ordering in verse files. Runs as a pre-commit check and CI gate.
+The Validation domain ensures data integrity across all Bible JSON files. It validates schemas, book ordering, file naming, verse structure, and cross-references between entities, then runs the cross-chapter link and Strong's-node placement audits for the same version(s). Validation also auto-normalizes key ordering in verse files. Runs as a pre-commit check and CI gate.
 
 ## Core Entities
 
@@ -25,6 +25,8 @@ The Validation domain ensures data integrity across all Bible JSON files. It val
 7. **Reference Integrity** – Book IDs in versions exist in books registry
 8. **Meaningless Content Nodes** – Flags a node that renders nothing: `marks`/`script` with no `text` to apply them to (a non-greedy bold/italic delimiter pairing can't match zero characters and leaks into surrounding text), or an empty `{text: ""}` husk left over from stripped marks. `foot`, `strong`, `morph`, `lemma`, `bibleLink`, and bare `paragraph`/`break` flags are left alone — each is meaningful on its own even without `text`
 9. **Strong's Trailing Whitespace** – Flags a `strong`-carrying node whose own `text` ends in whitespace, violating the convention that a joining space belongs on the *following* node's leading edge, not the tagged node's trailing edge
+10. **Cross-Chapter Link Audit** – Delegates to `findCrossChapterLinks()` for each version being validated; see [cross-chapter-links.md](../4-domains/cross-chapter-links.md)
+11. **Strong's-Node Placement Audit** – Delegates to `auditVersion()` for each version being validated; see [strongs-node-audit.md](../4-domains/strongs-node-audit.md)
 
 ### Canonical Key Order
 
@@ -62,6 +64,7 @@ Verse objects follow: `book`, `chapter`, `verse`, `content`
 - **Comprehensive Output** – Each check logs success (✅) or failure (❌) with details
 - **Both New Checks Are Exported, Standalone Functions** – `findMeaninglessContentNodes()` and `findStrongTrailingWhitespaceNodes()` each take a verse's `content` tree directly and return path-labeled problem strings (e.g. `content[0].foot.content[1]`), independent of the CLI — usable from tests or other tooling without running the full validation pass
 - **Import-Safe Entry Point** – `main()` only runs when this module is the process entry point (`require.main === module`), so tests can import `validate.ts` for its exported functions without triggering a full validation run as a side effect
+- **The two trailing audits are peers, not a pipeline** – Checks 1–9 are hierarchical (each assumes the earlier ones held, so a failure exits immediately); the cross-chapter link audit and the Strong's-node audit depend on neither each other nor anything upstream, so both always run to completion and report in full before `main()` exits non-zero. A version that fails one still gets audited by the other in the same run.
 
 ## Representative Code Examples
 
@@ -293,6 +296,28 @@ if (!versionsResult.valid) {
 
 if (!verseValidationPassed) {
   console.error("\n❌ Verse file validation failed!");
+  process.exit(1);
+}
+```
+
+### The two trailing audits run as peers, then gate together
+
+_From [utils/validate.ts](../../../utils/validate.ts)_
+
+```typescript
+// Both loops run to completion regardless of each other's outcome —
+// unlike the hierarchical exits above, neither audit depends on the other.
+for (const versionDir of versionDirs) {
+  const { findings } = findCrossChapterLinks(versionDir);
+  if (findings.length > 0) crossChapterLinksPassed = false;
+}
+
+for (const versionDir of versionDirs) {
+  const summary = auditNodeConventions(versionDir);
+  if (!nodeConventionsAreClean(summary)) nodeConventionsPassed = false;
+}
+
+if (!crossChapterLinksPassed || !nodeConventionsPassed) {
   process.exit(1);
 }
 ```

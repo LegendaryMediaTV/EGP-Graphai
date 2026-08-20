@@ -8,7 +8,7 @@ import { getVersionDirectories } from "../../functions/getBibleVersions";
 import Content from "../../types/Content";
 
 describe("collectJsonFiles — real, on-disk corpus", () => {
-  // Deliberately version-agnostic, like the auditStrongsNodes on-disk-corpus
+  // Deliberately version-agnostic, like the auditNodes on-disk-corpus
   // tests: nothing here assumes a curated version list beyond YLT1898 and
   // KJV1769, used only to prove a second, unrequested version's files are
   // excluded/included correctly.
