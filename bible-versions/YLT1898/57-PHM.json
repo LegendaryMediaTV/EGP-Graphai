@@ -11,10 +11,14 @@
             "type": "stu",
             "content": [
               {
-                "text": "Philemon lived at Colosse, and was a rich convert and fellow-labourer of Paul, who, when a prisoner in Rome, A.D. 61–2, wrote him this letter to induce him to receive back a run-away bondsman—Onesimus—whom Paul had met with and converted to the gospel. This letter was quoted or referred to by Tertullian (A.D. 192), Caius (A.D. 212), Origen (A.D. 230), Jerome (A.D. 392), Eusebius (A.D. 320), and perhaps Ignatius (A.D. 107).",
+                "content": [
+                  { "text": "Philemon", "marks": ["sc"] },
+                  " lived at Colosse, and was a rich convert and fellow-labourer of Paul, who, when a prisoner in Rome, A.D. 61–2, wrote him this letter to induce him to receive back a run-away bondsman—Onesimus—whom Paul had met with and converted to the gospel. This letter was quoted or referred to by Tertullian (A.D. 192), Caius (A.D. 212), Origen (A.D. 230), Jerome (A.D. 392), Eusebius (A.D. 320), and perhaps Ignatius (A.D. 107)."
+                ],
                 "break": true
               },
-              "This Letter may be divided into six parts; ",
+              { "text": "This Letter", "marks": ["sc"] },
+              " may be divided into six parts; ",
               { "bibleLink": "Philemon 1:1–3", "content": "v. 1–3" },
               " address and salutation; ",
               { "bibleLink": "Philemon 1:4–7", "content": "v. 4–7" },
@@ -76,9 +80,9 @@
         "foot": {
           "type": "stu",
           "content": [
-            "...Apphia (a female), and Archippus (i.e. chief-horseman, ",
+            "…Apphia (a female), and Archippus (i.e. chief-horseman, ",
             { "bibleLink": "Colossians 4:17", "content": "Col. 4. 17" },
-            "), ...church (or assembly) at thy house; see ",
+            "), …church (or assembly) at thy house; see ",
             { "bibleLink": "Romans 16:15" },
             "; ",
             { "bibleLink": "1 Corinthians 16:11" }
@@ -191,7 +195,7 @@
         "text": "comfort",
         "foot": {
           "type": "trn",
-          "content": ["Lit., ", { "text": "...exhortation...", "marks": ["i"] }]
+          "content": ["Lit., ", { "text": "…exhortation…", "marks": ["i"] }]
         }
       },
       " in thy love, because the bowels of the saints have been refreshed through thee, brother."
@@ -210,7 +214,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "...full-speech to arrange for thee what comes up.",
+              "text": "…full-speech to arrange for thee what comes up.",
               "marks": ["i"]
             }
           ]
@@ -231,7 +235,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...call upon (thee).", "marks": ["i"] }
+            { "text": "…call upon (thee).", "marks": ["i"] }
           ]
         }
       },
@@ -275,7 +279,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...he might be a deacon to me.", "marks": ["i"] }
+            { "text": "…he might be a deacon to me.", "marks": ["i"] }
           ]
         }
       },
@@ -321,7 +325,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...have him entirely;", "marks": ["i"] },
+            { "text": "…have him entirely;", "marks": ["i"] },
             " see ",
             { "bibleLink": "Exodus 21:6" }
           ]
@@ -367,7 +371,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...used thee unjustly...", "marks": ["i"] }
+            { "text": "…used thee unjustly…", "marks": ["i"] }
           ]
         }
       },
@@ -398,7 +402,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "...submissive hearkening...", "marks": ["i"] }
+            { "text": "…submissive hearkening…", "marks": ["i"] }
           ]
         }
       },

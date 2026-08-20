@@ -13,8 +13,8 @@ A `bibleLink` cross-reference target must resolve inside a single chapter. A tar
 | Shape               | Example                        | Meaning                                                                 |
 | ------------------- | ------------------------------- | ------------------------------------------------------------------------ |
 | `singleChapter`     | `"Exodus 3:3–4"`                | Both endpoints in the same chapter — no action needed                    |
-| `crossChapterRange` | `"2 Kings 6:31–7:20"`           | Endpoints in different chapters of the same book — the one real finding  |
-| `wholeChapterRange` | `"Isaiah 36–39"`                | A range already naming whole chapters — out of scope, not a finding      |
+| `crossChapterRange` | `"2 Kings 6:31–7:20"`           | Endpoints in different chapters of the same book, each naming a verse — a finding |
+| `wholeChapterRange` | `"Romans 1–11"`                 | Endpoints in different chapters, neither naming a verse — also a finding, split the same way but with no verse anchor on either half |
 | `mergedTarget`       | `"Isaiah 66:10, 13"`           | Comma-joined targets confined to one chapter — excluded before dash parsing |
 | `unparsed`          | `"Deuteronomy 32:43 LXX"`       | Does not match the `Book C[:V]` grammar at all — reported, never thrown  |
 
@@ -42,8 +42,10 @@ One genuine cross-chapter-range `bibleLink`, as returned by `findCrossChapterLin
 - **Chapter length is version-scoped, never a shared table** – A chapter's last verse comes from that version's own verse records. Translations disagree (Romans 14 runs to verse 23 in ASV1901/CLV1880/KJV1769/YLT1898, but verse 26 in BYZ2018/WEBUS2020); a table built from one version and reused for another would silently mis-split a range in some of them.
 - **Book resolution is canon-scoped** – A book name resolves only within the version being checked. A name valid elsewhere but outside a version's own canon (e.g. anything absent from BYZ2018's NT-only canon) is reported as unresolvable rather than guessed at.
 - **Never throws on an unparseable target** – A target the grammar doesn't describe, or that names a book outside the version's canon, comes back reported in the result. A wrong link is worse than a missing one, but a shape the audit cannot verify is not a crash.
-- **Idempotent splitting** – An already-split pair (`"2 Kings 6:31–33"` and `"2 Kings 7:1–20"`) classifies as `singleChapter` on a second pass, so re-running `--fix` is always safe.
+- **Idempotent splitting** – An already-split pair (`"2 Kings 6:31–33"` and `"2 Kings 7:1–20"`) classifies as `singleChapter` on a second pass, so re-running `--fix` is always safe. A split whole-chapter pair (`"Romans 1"` and `"Romans 11"`) is idempotent the same way — each bare chapter reference also classifies as `singleChapter`.
 - **Display text is never recomputed** – The two split halves' display text is read directly off the link's existing display and split at the same dash the target is split at, so concatenating both halves plus the separator reconstructs the original display byte-for-byte.
+- **A whole-chapter split carries no verse anchor** – `crossChapterRange`'s two halves each get a verse (Part A tacks on `fromChapter`'s own last verse, Part B gets `toChapter:1`); a `wholeChapterRange` split has no verse to carry on either side, so Part A is `fromChapter` verbatim and Part B is just `${bookName} ${toChapter}`. `splitCrossChapterLink()` branches on the classified shape to pick the right formula.
+- **`validate.ts` runs this audit too** – `findCrossChapterLinks(versionId)` is called directly from `utils/validate.ts`'s `main()`, once per version being validated, read-only (never `--fix`). A version with any finding fails validation alongside its schema checks.
 
 ## Representative Code Examples
 

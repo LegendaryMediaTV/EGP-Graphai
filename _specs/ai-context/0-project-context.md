@@ -1,6 +1,6 @@
 # EGP Graphai - Project Context
 
-> **Updated:** August 17, 2026  
+> **Updated:** August 20, 2026  
 > **Repository:** [LegendaryMediaTV/EGP-Graphai](https://github.com/LegendaryMediaTV/EGP-Graphai)
 
 ## Project Summary
@@ -14,14 +14,24 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Flexible Content Model** – Recursive structure supporting paragraphs, headings, subtitles, footnotes
 - **Export Formats** – Text with Strong's annotations, paragraph-formatted Markdown, with bold/italic rendering
 - **Web Reader** – React-based SPA for reading and studying with toggleable tools
-- **Validation** – JSON Schema validation ensuring data integrity, automatic key sorting, and structural sanity checks (meaningless nodes, trailing whitespace)
-- **Cross-Chapter Link Audit** – Detects and fixes `bibleLink` targets that span two chapters of the same book
+- **Validation** – JSON Schema validation ensuring data integrity, automatic key sorting, and structural sanity checks (meaningless nodes, trailing whitespace); also runs the two audits below for each version it validates
+- **Cross-Chapter Link Audit** – Detects and fixes `bibleLink` targets that span two chapters of the same book, whether both ends name a verse or only a chapter
 - **Strong's-Node Placement Audit** – Read-only sweep for five ways a node's text-flow placement can drift from this repo's own conventions
 
-## Recent Changes (Strong's-Node Audit & Export/Validation Fixes)
+## Recent Changes (Whole-Chapter Link Splitting, YLT1898 Node Bugfixes & Audit Tooling)
 
-- **Strong's-Node Audit Tool** – New [utils/auditStrongsNodes.ts](../../utils/auditStrongsNodes.ts) sweeps every version for five drift patterns: unmerged connector/Strong's-node pairs, trailing whitespace on a `strong`-carrying node, leading punctuation glued to the wrong neighbor, a bare joining space stranded between two same-formatting nodes, and a verse whose own content opens with a space. Read-only — no `--fix` path; see [4-domains/strongs-node-audit.md](4-domains/strongs-node-audit.md)
-- **`--verbose` Survives npm's Own Flag-Swallowing** – `npm run audit-strongs-nodes KJV1769 --verbose` (no `--` separator) never delivers a literal `--verbose` to the script — npm's own CLI parsing consumes it first. The tool also checks `process.env.npm_config_loglevel`, the one signal that invocation shape leaves behind, so verbose output still works as typed
+- **Whole-Chapter Ranges Now a Finding, Not Excluded** – `wholeChapterRange` (e.g. `"Romans 1–11"`) used to be classified separately and explicitly excluded from `findings` as out of scope. It's now split the same way as `crossChapterRange`, just with no verse anchor on either half — `splitCrossChapterLink()` branches on the classified shape to pick the right formula. `findCrossChapterLinks()` no longer returns a separate `wholeChapterRanges` count
+- **Real YLT1898 Findings Fixed** – Nine outline references across Romans, 1–2 Corinthians, and Revelation's introductory footnotes (e.g. `"Romans 1–11"`) split into their chapter-scoped halves via `auditCrossChapterLinks.ts --fix`
+- **YLT1898 Node Bugfixes** – A missing array wrapper on `marks` (`"marks": "sc"` instead of `["sc"]`) in five books' introductory footnotes, and four stray joining-space nodes that should have led the following word instead — both are exactly the shapes `auditNodes.ts` and `validate.ts`'s content checks exist to catch
+- **`auditStrongsNodes.ts` Renamed to `auditNodes.ts`** – npm script renamed `audit-strongs-nodes` → `audit-nodes` to match; `isClean()` and `printFindingLines()` are now exported for reuse
+- **`validate.ts` Now Runs Both Corpus-Wide Audits** – For each version it validates, `main()` also calls `findCrossChapterLinks()` and `auditVersion()` (read-only, never `--fix`), reusing each module's own report formatting rather than duplicating it. The two run to completion regardless of each other's outcome, unlike the hierarchical schema-checking phases before them, so a version failing one still gets audited by the other in the same run
+- **Test Coverage Expansion** – 5 new tests for the whole-chapter split behavior, bringing the suite to 320 tests across 11 files
+- See [4-domains/cross-chapter-links.md](4-domains/cross-chapter-links.md), [4-domains/strongs-node-audit.md](4-domains/strongs-node-audit.md), and [4-domains/validation.md](4-domains/validation.md#key-business-rules) for full detail
+
+## Previous Changes (Strong's-Node Audit & Export/Validation Fixes)
+
+- **Strong's-Node Audit Tool** – New [utils/auditNodes.ts](../../utils/auditNodes.ts) sweeps every version for five drift patterns: unmerged connector/Strong's-node pairs, trailing whitespace on a `strong`-carrying node, leading punctuation glued to the wrong neighbor, a bare joining space stranded between two same-formatting nodes, and a verse whose own content opens with a space. Read-only — no `--fix` path; see [4-domains/strongs-node-audit.md](4-domains/strongs-node-audit.md)
+- **`--verbose` Survives npm's Own Flag-Swallowing** – `npm run audit-nodes KJV1769 --verbose` (no `--` separator) never delivers a literal `--verbose` to the script — npm's own CLI parsing consumes it first. The tool also checks `process.env.npm_config_loglevel`, the one signal that invocation shape leaves behind, so verbose output still works as typed
 - **Corpus Cleaned Up** – Every finding the new checks (and the pre-existing unmerged-pair/punctuation checks) surfaced across KJV1769 and WEBUS2020 was fixed — this restored the leading-space convention through the Words-of-Christ-heavy Gospels/Acts/Revelation text and removed 73 verse-initial spaces from WEBUS2020, all verified byte-for-byte text-preserving against the pre-fix corpus
 - **Export: Bold/Italic Rendering Added** – `exportContent.ts` now wraps `b`/`i` marks in markdown (`**bold**`, `_italic_`; a no-op in the text export). Adjacent siblings sharing the same open marks share one delimiter pair instead of each emitting its own — fixes broken markdown like `**word****word**` for a bold+italic quotation built word-by-word
 - **Export: Two Rendering Fixes** – A word's second footnote (forced to ride as a textless sibling, since only one `foot` is allowed per node) now places its marker before the Strong's number, matching the first footnote's position; a Strong's/morph/lemma tag with nothing separating it from the following word now gets a synthetic space, fixing fused output like `H2822was`
@@ -104,7 +114,7 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 | `npm run export`   | Export to text/markdown            |
 | `npm run test`     | Run Vitest tests                   |
 | `npm run audit-links` | Audit all versions for unsplit cross-chapter `bibleLink`s |
-| `npm run audit-strongs-nodes` | Audit all versions for Strong's-node placement drift (read-only) |
+| `npm run audit-nodes` | Audit all versions for Strong's-node placement drift (read-only) |
 
 ## Context Documents
 
@@ -178,7 +188,7 @@ graph TB
         CSC[convertToSmallCaps.ts]
         CCL[crossChapterLinks.ts]
         WJF[writeJsonFile.ts]
-        ASN[auditStrongsNodes.ts]
+        ASN[auditNodes.ts]
     end
 
     subgraph Types["Type Definitions"]
@@ -217,6 +227,8 @@ graph TB
 
     VF --> CCL
     VF --> ASN
+    VAL -->|"read-only, per version"| CCL
+    VAL -->|"read-only, per version"| ASN
 
     VAL --> WJF
     EXP --> WJF
@@ -289,11 +301,11 @@ window.ComponentName = ComponentName;
 5. **Strong's Number Format** – Must match `^[GH][0-9]{1,4}$`
 6. **Verse File Naming** – Must follow `{order}-{bookId}.json` pattern
 7. **Exit on Validation Failure** – Scripts exit with code 1 on any error
-8. **Leading-Space Convention** – A joining space belongs on the leading edge of the node it joins, never the trailing edge of the node before it, and never as a verse's own opening character — audited (read-only) by `auditStrongsNodes.ts`
+8. **Leading-Space Convention** – A joining space belongs on the leading edge of the node it joins, never the trailing edge of the node before it, and never as a verse's own opening character — audited (read-only) by `auditNodes.ts`
 
 ## Test Status
 
-✅ **312 tests passing** (Vitest, 11 files):
+✅ **320 tests passing** (Vitest, 11 files):
 
 - `functions/__tests__/contentSchema.test.ts` – 4 tests for the heading `type` schema addition
 - `functions/__tests__/convertToSmallCaps.test.ts` – 40 tests for small caps conversion
@@ -301,10 +313,10 @@ window.ComponentName = ComponentName;
 - `functions/__tests__/getBibleVersions.test.ts` – 23 tests for version discovery and duplicate-name disambiguation
 - `functions/__tests__/writeJsonFile.test.ts` – 10 tests for atomic file writes and JSON canonicalization
 - `utils/__tests__/exportContent.test.ts` – 80 tests for export functionality, including bold/italic and footnote/spacing fixes
-- `utils/__tests__/crossChapterLinks.test.ts` – 31 tests for cross-chapter target classification and splitting
+- `utils/__tests__/crossChapterLinks.test.ts` – 36 tests for cross-chapter target classification and splitting, including whole-chapter ranges
 - `utils/__tests__/auditCrossChapterLinks.test.ts` – 8 tests for the corpus-wide sweep and CLI
-- `utils/__tests__/validate.test.ts` – 33 tests for the meaningless-content-node and Strong's-trailing-whitespace checks
-- `utils/__tests__/auditStrongsNodes.test.ts` – 49 tests for all five Strong's-node placement checks
+- `utils/__tests__/validate.test.ts` – 36 tests for the meaningless-content-node and Strong's-trailing-whitespace checks
+- `utils/__tests__/auditNodes.test.ts` – 49 tests for all five Strong's-node placement checks
 - `web/public/js/__tests__/footnoteText.test.ts` – 7 tests for shared footnote-text extraction
 
 See [6-tests-and-build.md](6-tests-and-build.md) for test details and coverage.

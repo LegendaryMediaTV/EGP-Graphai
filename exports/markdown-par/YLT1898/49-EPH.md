@@ -28,10 +28,10 @@
 <sup>22</sup> and all things He did put under his feet, and did give him—head over all things to the assembly,
 <sup>23</sup> which is his body, the fulness of Him who is filling the all in all,
 
-> - <sup>a</sup> 1. Ephesians. THIS LETTER was written when Paul was a prisoner (ch. 3. 1; 4. 1) in Rome, about A.D. 62, and is cited as his by Ignatius (A.D. 107), Polycarp (A.D. 108), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230). Even Marcion admitted that Paul was its author, but asserted that it was written to the Laodiceans, a worthless theory adopted also by Grotius, Mill, Wetstein, Vitringa, Venema, Benson, Paley, &c., but contrary to all the MSS. (except B.) Ancient Versions, &c.<br>Paul’s first visit to Ephesus (A.D. 54), is related in Acts 18. 19–21, and his second in Acts 19. 1–41; want of time prevented him making a third visit, but he called the elders or bishops of Ephesus to meet him at Miletus (A.D. 57), as in Acts 20. 17–38, and exhorted them warmly. His converts in Ephesus were chiefly—if not entirely—Gentiles (2. 11, 19; 3. 1; 4. 17), hence he has few allusions to Judaistic errors and tendencies, and expatiates on the love of God the Father, the grace of Christ, and the fruits of the Spirit, as in his remarkably similar Epistle to the "Colossians," written also about the same time, and sent by the same bearer—Tychicus.<br>It may be divided into two great parts, chap. i.–iii. doctrinal statements, and ch. iv.–vi. practical duties.<br>Old Testament references are: De. 5. 16; Isa. 28. 9, 16; 46. 10, 11; 60. 1; Jer. 35. 18; Ezek. 18. 9; Zec. 9. 10.
+> - <sup>a</sup> 1. THIS LETTER was written when Paul was a prisoner (ch. 3. 1; 4. 1) in Rome, about A.D. 62, and is cited as his by Ignatius (A.D. 107), Polycarp (A.D. 108), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230). Even Marcion admitted that Paul was its author, but asserted that it was written to the Laodiceans, a worthless theory adopted also by Grotius, Mill, Wetstein, Vitringa, Venema, Benson, Paley, &c., but contrary to all the MSS. (except B.) Ancient Versions, &c.<br>Paul’s first visit to Ephesus (A.D. 54), is related in Acts 18. 19–21, and his second in Acts 19. 1–41; want of time prevented him making a third visit, but he called the elders or bishops of Ephesus to meet him at Miletus (A.D. 57), as in Acts 20. 17–38, and exhorted them warmly. His converts in Ephesus were chiefly—if not entirely—Gentiles (2. 11, 19; 3. 1; 4. 17), hence he has few allusions to Judaistic errors and tendencies, and expatiates on the love of God the Father, the grace of Christ, and the fruits of the Spirit, as in his remarkably similar Epistle to the “Colossians,” written also about the same time, and sent by the same bearer—Tychicus.<br>It may be divided into two great parts, chap. i.–iii. doctrinal statements, and ch. iv.–vi. practical duties.<br>Old Testament references are: De. 5. 16; Isa. 28. 9, 16; 46. 10, 11; 60. 1; Jer. 35. 18; Ezek. 18. 9; Zec. 9. 10.
 > - <sup>b</sup> 1. Chapter I. may be divided into three parts; v. 1, 2 salutation; v. 3–14 praise to God for his spiritual blessings bestowed in and through Christ; v. 15–22 thanks and prayers for a spirit of wisdom.
-> - <sup>c</sup> 7. Lit., _the thorough-loosing...letting-go of the fallings-aside...wealth of._
-> - <sup>d</sup> 8. Lit., _he abounded...mindfulness._
+> - <sup>c</sup> 7. Lit., _the thorough-loosing…letting-go of the fallings-aside…wealth of._
+> - <sup>d</sup> 8. Lit., _he abounded…mindfulness._
 > - <sup>e</sup> 18. Or, _heart._
 
 ## Chapter 2
@@ -182,7 +182,7 @@
 <sup>33</sup> but ye also, every one in particular—let each his own wife so love as himself, and the wife—that she may reverence the husband.
 
 > - <sup>a</sup> 1. Chapter V. may be divided into five parts; v. 1–5 exhortations to imitate God and Christ, and to avoid sin; v. 6–14 once darkness now light; v. 15–21 walking as wise not as fools, to rejoice in the Lord; v. 22–24 exhortation to wives; v. 25–36 and to husbands, to imitate Christ.
-> - <sup>b</sup> 8. Lit., _then...walk about._
+> - <sup>b</sup> 8. Lit., _then…walk about._
 > - <sup>c</sup> 16. Lit., _buying up the season._
 
 ## Chapter 6
@@ -221,4 +221,4 @@
 > - <sup>a</sup> 1. Chapter VI. may be divided into five parts; v. 1–9 exhortations to children, fathers, servants, masters; v. 10–17 to stand fast, with the whole armour of God; v. 18–20 to pray for all saints and Paul; v. 21 he sends Tychicus; v. 23, 24 closing salutation and prayer.
 > - <sup>b</sup> 3. Lit., _a first or chief command,_
 > - <sup>c</sup> 7. Lit., _good-minds being bondsmen._
-> - <sup>d</sup> 17. Lit., _receive for yourselves the helmet (lit. thing "around the head,") of the salvation...a saying of God,_
+> - <sup>d</sup> 17. Lit., _receive for yourselves the helmet (lit. thing “around the head,”) of the salvation…a saying of God,_

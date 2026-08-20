@@ -11,7 +11,10 @@
             "type": "stu",
             "content": [
               {
-                "text": "2 Peter. This Epistle is wanting in the Syriac Peshito Version, and is not mentioned by Tertullian (A.D. 160–200), Clement of Alexandria (A.D. 194), Cyprian (A.D. 200–258), or the fragment of Muratori (A.D. 200). The first who expressly mentions it, (which he does as S.S.), is Origen (A.D. 182–254), while he states that some doubted its canonicity. Clement of Rome (A.D. 108), Hermas (A.D. 108), Justin-Martyr (A.D. 140), Athenagorus (A.D. 178), Irenaeus (A.D. 140–200), &c. appear to have several allusions to certain phrases that appear in it. The style is somewhat different from that of Peter’s First Epistle, but this is too indefinite a criterion to decide so weighty a point, and not a few verbal coincidences between them have been pointed out, and Jude’s language is in many verses almost indentical.",
+                "content": [
+                  { "text": "This Epistle", "marks": ["sc"] },
+                  " is wanting in the Syriac Peshito Version, and is not mentioned by Tertullian (A.D. 160–200), Clement of Alexandria (A.D. 194), Cyprian (A.D. 200–258), or the fragment of Muratori (A.D. 200). The first who expressly mentions it, (which he does as S.S.), is Origen (A.D. 182–254), while he states that some doubted its canonicity. Clement of Rome (A.D. 108), Hermas (A.D. 108), Justin-Martyr (A.D. 140), Athenagorus (A.D. 178), Irenaeus (A.D. 140–200), &c. appear to have several allusions to certain phrases that appear in it. The style is somewhat different from that of Peter’s First Epistle, but this is too indefinite a criterion to decide so weighty a point, and not a few verbal coincidences between them have been pointed out, and Jude’s language is in many verses almost identical."
+                ],
                 "break": true
               },
               {
@@ -684,9 +687,8 @@
           "content": "of the Jewish dispensation, as always,"
         }
       },
-      " ",
       {
-        "text": "scoffers",
+        "text": " scoffers",
         "foot": {
           "type": "trn",
           "content": [

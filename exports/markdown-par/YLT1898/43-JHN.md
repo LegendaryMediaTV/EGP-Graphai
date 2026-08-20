@@ -70,8 +70,8 @@
 > - <sup>a</sup> 1. THE GOSPEL OF JOHN was most probably written at Ephesus, A.D. 68, and, judging from the comparative purity of its Greek, _after_ the composition of the “Revelation” in Patmos.<br>He was the younger of the two sons (surnamed Boanerges), of Zebedee and Salome, residing at Beth-saida, by the sea of Galilee; he was directed to Jesus by John (1:36), called a first time (Mat. 4:21, 22), a second time (Luke 5:1–11), and a third time (Mat. 10:2.) This gospel is quoted by Ignatius (A.D. 100), Diognetus (A.D. 120), Justin Martyr (A.D. 140), Tatian (A.D. 170), &c. Marcion, Cerdon, the Montanists, &c., admitted it to be the work of the Apostle, but alleged it was interpolated, or that he was mistaken. It is chiefly occupied with viewing Jesus Christ, the Saviour, as “THE SON OF GOD, THE REVEALER OF THE FATHER.”<br>It may be divided into three parts: the Prologue, the History, the Conclusion.<br>- I. The Prologue, ch. 1:1–18.<br>- II. The History, ch. 1:19–20:29.<br>- 1). Jesus’ first journey, 1:19–2:12.<br>- 2). His second, 2:13–4:54.<br>- 3). His third, 5:1–47.<br>- 4). His fourth, 6:1–71.<br>- 5). His fifth, 7:1–10:21.<br>- 6). His sixth, 10:22–42.<br>- 7). His seventh, 11:1–54.<br>- 8). His eighth, 11:55–12:50.<br>- 9). Preparation for his Passion, 13:1–17:26.<br>- 10). Circumstances of his Death, 18:1–19:42.<br>- 11). His Up-Rising and its proofs, 20:1–29.<br>- III. The Conclusion, ch. 20:30–21:25.<br>The following passages are peculiar to John, viz. ch. 1:1–14, 35–51; 2:1–3:36; 4:1–42, 46–54; 5:1–47; 6:4, 16–65; 7:1–11:57; 12:20–50; 14:1–17:26; 19:31–37; 20:30, 31; 21:1–25. He alone mentions Peter as the person who cut off the ear of the chief-priest’s servant, as Peter was then probably dead.
 > - <sup>b</sup> 1. Chapter I. may be divided into six parts; v. 1–5 Pre-existence and all-creative energy of the Word; v. 6–14 His object in coming into the world in the flesh; v. 15–18 His revelation of the Father; v. 19–36 John’s testimony to the Jews and his disciples; v. 37–42 John, Andrew, and Peter, brought to Jesus; v. 43–51 also Philip and Nathanael.
 > - <sup>c</sup> 5. Lit., _receive it fully._
-> - <sup>d</sup> 18. Or, _on...that one led (him) out._
-> - <sup>e</sup> 20. Lit., _spake the same thing (as he had done before), and...spake the same thing, that, I am not._
+> - <sup>d</sup> 18. Or, _on…that one led (him) out._
+> - <sup>e</sup> 20. Lit., _spake the same thing (as he had done before), and…spake the same thing, that, I am not._
 > - <sup>f</sup> 51. _Amen, Amen,_ i.e. _Stedfast! Stedfast!_
 
 ## Chapter 2
@@ -116,7 +116,7 @@ And the third day a marriage happened in Cana of Galilee, and the mother of Jesu
 > - <sup>b</sup> 3. Lit., _wine having been lacking._
 > - <sup>c</sup> 5. Lit., _deacons;_
 > - <sup>d</sup> 8. Lit., _chief-of-the-threefold-couch._
-> - <sup>e</sup> 16. Lit., _the doves, Lift up...of passing in (for trade)._
+> - <sup>e</sup> 16. Lit., _the doves, Lift up…of passing in (for trade)._
 > - <sup>f</sup> 19. Lit., _loose down this habitation (of God);_
 
 ## Chapter 3
@@ -245,7 +245,7 @@ And<sup>b</sup> there was a man of the Pharisees, Nicodemus his name, a ruler of
 > - <sup>b</sup> 3. Lit., _let Judea go._
 > - <sup>c</sup> 6. Or, _fountain, spring._
 > - <sup>d</sup> 8. Lit., _in order that they might attend the public place for sustenance._
-> - <sup>e</sup> 35. Lit., _and the reaping cometh...and view the places (or spaces), that (or because)...towards (the) reaping._
+> - <sup>e</sup> 35. Lit., _and the reaping cometh…and view the places (or spaces), that (or because)…towards (the) reaping._
 > - <sup>f</sup> 49. Lit., _little boy._
 
 ## Chapter 5
@@ -307,7 +307,7 @@ After these things there was a feast of the Jews, and Jesus went up to Jerusalem
 <sup>47</sup> but if his writings ye believe not, how shall ye believe my sayings?”
 
 > - <sup>a</sup> 1. Chapter V. may be divided into seven parts; v. 1–9 Jesus cures an infirm man; v. 10–13 who is challenged by the Jews; v. 14 warned by Jesus; v. 15–16 whom the Jews seek to kill; v. 17–30 Jesus asserts his authority; v. 31–35 appeals to the testimony of John; 36–47 to that of his own works, his Father, and the Writings.
-> - <sup>b</sup> 33. Lit., _have sent away...has borne testimony._
+> - <sup>b</sup> 33. Lit., _have sent away…has borne testimony._
 
 ## Chapter 6
 
@@ -731,8 +731,8 @@ And there was a certain one ailing, Lazarus, from Bethany, of the village of Mar
 <sup>57</sup> and both the chief priests and the Pharisees had given a command, that if any one may know where he is, he may shew _it_, so that they may seize him.
 
 > - <sup>a</sup> 1. Chapter XI. may be divided into nine parts; v. 1–3 sickness of Lazarus; v. 4–17 Jesus on his sleep and death; v. 18–27 Jesus and Martha; v. 28–32 Jesus and Mary; v. 33–38 Jesus and the Jews; v. 39–44 He raises Lazarus; v. 45–46 many believe; v. 47–53 many reject him; v. 54–57 Jesus and the Jews.
-> - <sup>b</sup> 2. Lit., _fattened or smeared (afterwards)...thoroughly-wiped...was infirm._
-> - <sup>c</sup> 14. Lit., _speaking-all-out..._
+> - <sup>b</sup> 2. Lit., _fattened or smeared (afterwards)…thoroughly-wiped…was infirm._
+> - <sup>c</sup> 14. Lit., _speaking-all-out…_
 > - <sup>d</sup> 23. Lit., _stand up._
 > - <sup>e</sup> 35. Lit., _Jesus shed-tears._
 > - <sup>f</sup> 48. Lit., _lift up._
@@ -800,8 +800,8 @@ And there was a certain one ailing, Lazarus, from Bethany, of the village of Mar
 <sup>50</sup> and I have known that His command is life age-during; what, therefore, I speak, according as the Father hath said to me, so I speak.”
 
 > - <sup>a</sup> 1. Chapter XII. may be divided into four parts; v. 1–8 Jesus anointed by Mary; v. 9–19 enters Jerusalem in triumph; v. 20–36 rejoices over the Greeks, and warns the Jews; v. 37–50 Jewish unbelief, timidity, and danger.
-> - <sup>b</sup> 3. Lit., _genuine spikenard, much prized..._
-> - <sup>c</sup> 6. Lit., _there was care to him...bag (lit. place of keeping the tongues, i.e. reeds of wind instruments), and the things cast (into it) he was bearing_
+> - <sup>b</sup> 3. Lit., _genuine spikenard, much prized…_
+> - <sup>c</sup> 6. Lit., _there was care to him…bag (lit. place of keeping the tongues, i.e. reeds of wind instruments), and the things cast (into it) he was bearing_
 
 ## Chapter 13
 
@@ -1018,7 +1018,7 @@ These things spake Jesus, and lifted up his eyes to the heaven, and said—“Fa
 <sup>26</sup> and I made known to them Thy name, and will make known, that the love with which Thou lovedst me in them may be, and I in them.”
 
 > - <sup>a</sup> 1. Chapter XVII. may be divided into two parts; v. 1–19 Jesus asks for his twelve apostles; v. 20–26 and for all who shall believe on him hereafter.
-> - <sup>b</sup> 5. Lit., _along-side of thyself...along-side of thee._
+> - <sup>b</sup> 5. Lit., _along-side of thyself…along-side of thee._
 
 ## Chapter 18
 
@@ -1141,11 +1141,11 @@ Then, therefore, did Pilate take Jesus and scourge _him_,
 <sup>42</sup> there, therefore, because of the preparation of the Jews, because the tomb was nigh, they laid Jesus.
 
 > - <sup>a</sup> 1. Chapter XIX. may be divided into five parts; v. 1–18 Jesus scourged, crowned, condemned; v. 19–24 his title and his garments; v. 25–30 he remembers his mother, and gives up his spirit; v. 31–37 his body pierced but not broken; v. 38–42 his burial.
-> - <sup>b</sup> 6. Lit., _underlings...cause (of punishment)._
+> - <sup>b</sup> 6. Lit., _underlings…cause (of punishment)._
 > - <sup>c</sup> 15. Lit., _lift (him) up, lift (him) up!_
-> - <sup>d</sup> 20. Lit., _knew again or recognized...Hebraistic, Hellenistic, Romaic._
+> - <sup>d</sup> 20. Lit., _knew again or recognized…Hebraistic, Hellenistic, Romaic._
 > - <sup>e</sup> 34. Or, _pricked._
-> - <sup>f</sup> 37. Or, _...pierced through._
+> - <sup>f</sup> 37. Or, _…pierced through._
 
 ## Chapter 20
 
@@ -1229,4 +1229,4 @@ And on the first of the sabbaths, Mary the Magdalene doth come early (there bein
 > - <sup>a</sup> 1. Chapter XXI. may be divided into four parts; v. 1–14 Jesus manifests himself a third time to his disciples; v. 15–19 draws out Peter’s love, and foretells his death; v. 20–24 Peter’s enquiry about John; v. 25 the conclusion.
 > - <sup>b</sup> 7. he was naked, i.e. comparatively so, as in 1 Sa. 19.24; 2 Sa. 6.20; Isa. 20.2, 3; Acts 19.16, &c.
 > - <sup>c</sup> 12. Or, _breakfast;_ lit., _take the “best” meal._
-> - <sup>d</sup> 22. Lit., _word forth to...does not die utterly._
+> - <sup>d</sup> 22. Lit., _word forth to…does not die utterly._

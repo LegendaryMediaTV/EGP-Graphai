@@ -8,7 +8,8 @@
         "foot": {
           "type": "stu",
           "content": [
-            "Mark. ",
+            { "text": "The Writer", "marks": ["sc"] },
+            " of this Gospel is ",
             { "text": "generally", "marks": ["i"] },
             " thought to be the same with the “John whose surname was Mark,” (",
             { "bibleLink": "Acts 12:12, 25" },

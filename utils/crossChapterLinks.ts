@@ -92,18 +92,20 @@ function parseEndpoint(text: string): ParsedEndpoint | null {
 /**
  * Which of this repo's `bibleLink` target shapes a string matches.
  *
- * `crossChapterRange` is the one shape this audit finds: both ends name a
- * verse, and the chapters differ. `wholeChapterRange` (`"Isaiah 36–39"`) is
- * a different shape entirely — a range already naming whole chapters has
- * nowhere unresolvable to land — and is classified so the decision stays
- * visible, never treated as a finding. `mergedTarget` is a same-book-and-
- * chapter comma-joined target (e.g. `"Isaiah 66:10, 13"`); a comma is that
- * merge's unambiguous signature (a plain target never contains one), and a
- * merge is by construction confined to one chapter, so it is excluded before
- * the dash grammar is even attempted rather than risking the comma being
- * misread as a second endpoint. `unparsed` is anything the grammar above
- * does not describe at all (`"Deuteronomy 32:43 LXX"`) — reported, never
- * thrown.
+ * `crossChapterRange` and `wholeChapterRange` are both findings this audit
+ * splits — the two ends name a verse in `crossChapterRange` (e.g.
+ * `"2 Kings 6:31–7:20"`), and name only a chapter in `wholeChapterRange`
+ * (e.g. `"Romans 1–11"`); either way, a target spanning two chapters resolves
+ * inside neither, so both get cut into two chapter-scoped halves. The two
+ * shapes differ only in what {@link splitCrossChapterLink} carries into each
+ * half: a verse anchor for `crossChapterRange`, none at all for
+ * `wholeChapterRange`. `mergedTarget` is a same-book-and-chapter comma-joined
+ * target (e.g. `"Isaiah 66:10, 13"`); a comma is that merge's unambiguous
+ * signature (a plain target never contains one), and a merge is by
+ * construction confined to one chapter, so it is excluded before the dash
+ * grammar is even attempted rather than risking the comma being misread as a
+ * second endpoint. `unparsed` is anything the grammar above does not
+ * describe at all (`"Deuteronomy 32:43 LXX"`) — reported, never thrown.
  */
 type TargetShape = "singleChapter" | "crossChapterRange" | "wholeChapterRange" | "mergedTarget" | "unparsed";
 
@@ -413,36 +415,30 @@ function walkContent(
 }
 
 /**
- * Audit one version for cross-chapter-range `bibleLink`s — every `bibleLink`
- * this version carries, classified through {@link classifyBibleLink}, with
- * only the genuine `crossChapterRange` shape collected as a finding.
+ * Audit one version for `bibleLink`s spanning two chapters — every
+ * `bibleLink` this version carries, classified through
+ * {@link classifyBibleLink}, with both the `crossChapterRange` and
+ * `wholeChapterRange` shapes collected as findings (see {@link TargetShape}
+ * for why the same finding covers both).
  *
  * @param versionId - A `bible-versions/` directory name, e.g. `"WEBUS2020"`.
- * @returns `findings` (empty for a version with none), `scanned` (every
+ * @returns `findings` (empty for a version with none) and `scanned` (every
  *   `bibleLink` node visited, so a walk that silently stops descending is
- *   caught rather than under-reporting a clean bill of health), and
- *   `wholeChapterRanges` (the out-of-scope shape's count, kept visible
- *   rather than silently discarded — never a finding).
+ *   caught rather than under-reporting a clean bill of health).
  */
 export function findCrossChapterLinks(versionId: string): {
   findings: readonly CrossChapterFinding[];
   scanned: number;
-  wholeChapterRanges: number;
 } {
   const findings: CrossChapterFinding[] = [];
   let scanned = 0;
-  let wholeChapterRanges = 0;
 
   for (const record of readVersionRecords(versionId)) {
     walkContent(record.content, "verse", null, (link, zone, footnoteType) => {
       scanned += 1;
       const classification = classifyBibleLink(versionId, link.bibleLink);
 
-      if (classification.shape === "wholeChapterRange") {
-        wholeChapterRanges += 1;
-        return;
-      }
-      if (classification.shape !== "crossChapterRange") return;
+      if (classification.shape !== "crossChapterRange" && classification.shape !== "wholeChapterRange") return;
 
       findings.push({
         book: classification.book,
@@ -461,7 +457,7 @@ export function findCrossChapterLinks(versionId: string): {
     });
   }
 
-  return { findings, scanned, wholeChapterRanges };
+  return { findings, scanned };
 }
 
 // ---------------------------------------------------------------------------
@@ -486,19 +482,27 @@ function withDisplay(target: string, display: string): ContentBibleLink {
 }
 
 /**
- * Split one cross-chapter-range `bibleLink` into its two chapter-scoped
+ * Split one two-chapter-spanning `bibleLink` into its two chapter-scoped
  * halves, joined by a literal en dash, with one simplification: **Part B's
  * book name is read from the original target's own left endpoint**
  * ({@link classifyBibleLink}'s `bookName`, exactly as written) instead of
- * round-tripping through a naming table — a cross-chapter range never
- * renames the book partway through, so the left endpoint's own spelling is
- * always correct for both halves.
+ * round-tripping through a naming table — a range never renames the book
+ * partway through, so the left endpoint's own spelling is always correct for
+ * both halves.
  *
  * The two halves' **display** text is never recomputed. It is read directly
  * off `link`'s own existing display (its `content` override, or the target
  * itself when there is none) and split at the very same dash the target is
  * split at, so concatenating Part A's display, the separator, and Part B's
  * display always reconstructs the original display byte-for-byte.
+ *
+ * The two shapes this handles carry different endpoints: `crossChapterRange`
+ * (e.g. `"2 Kings 6:31–7:20"`) anchors each half on a verse — Part A gets
+ * `fromChapter`'s own last verse tacked on unless it's already there, Part B
+ * gets `toChapter:1` (or `toChapter:1–toVerse` when `toVerse` isn't 1).
+ * `wholeChapterRange` (e.g. `"Romans 1–11"`) names no verse on either end, so
+ * neither half gets one — Part A is `fromChapter` verbatim, Part B is
+ * `${bookName} ${toChapter}`.
  *
  * @param versionId - A `bible-versions/` directory name, e.g. `"WEBUS2020"` —
  *   Part A's chapter length and Part B's book spelling are both read from
@@ -507,47 +511,58 @@ function withDisplay(target: string, display: string): ContentBibleLink {
  * @param link - One `bibleLink` node exactly as it appears in `versionId`'s
  *   own data.
  * @returns `null` when `link.bibleLink` needs no split — anything other than
- *   {@link classifyBibleLink}'s `crossChapterRange` shape, including an
- *   already-split half (`"2 Kings 6:31–33"` classifies as `singleChapter`,
- *   which is what makes re-running this idempotent). Otherwise the
- *   replacement — Part A, the literal en-dash separator, Part B — that
- *   {@link splitCrossChapterLinksInContent} splices into `link`'s place.
+ *   {@link classifyBibleLink}'s `crossChapterRange` or `wholeChapterRange`
+ *   shape, including an already-split half (`"2 Kings 6:31–33"` classifies
+ *   as `singleChapter`, which is what makes re-running this idempotent).
+ *   Otherwise the replacement — Part A, the literal en-dash separator, Part
+ *   B — that {@link splitCrossChapterLinksInContent} splices into `link`'s
+ *   place.
  * @throws if `link.content` is present but is not a plain string, or if
- *   `versionId`'s own data cannot resolve the book or the first chapter's
- *   last verse for a target already classified as a genuine cross-chapter
- *   range.
+ *   `versionId`'s own data cannot resolve the book (either shape) or the
+ *   first chapter's last verse (`crossChapterRange` only) for a target
+ *   already classified as one of the two shapes above.
  */
 export function splitCrossChapterLink(
   versionId: string,
   link: ContentBibleLink,
 ): readonly [ContentBibleLink, string, ContentBibleLink] | null {
   const classification = classifyBibleLink(versionId, link.bibleLink);
-  if (classification.shape !== "crossChapterRange") return null;
+  if (classification.shape !== "crossChapterRange" && classification.shape !== "wholeChapterRange") return null;
 
   if (link.content !== undefined && typeof link.content !== "string") {
     throw new Error(`splitCrossChapterLink: a bibleLink's content override must be a plain string: ${JSON.stringify(link)}`);
   }
-  if (classification.book === null || classification.firstChapterLastVerse === null) {
-    throw new Error(`splitCrossChapterLink: cannot derive ${versionId}'s book or chapter length for: ${JSON.stringify(link)}`);
+  if (classification.book === null) {
+    throw new Error(`splitCrossChapterLink: cannot derive ${versionId}'s book for: ${JSON.stringify(link)}`);
   }
   const display = link.content ?? link.bibleLink;
 
   const targetDashMatch = DASH.exec(link.bibleLink);
   const displayDashMatch = DASH.exec(display);
   if (!targetDashMatch || !displayDashMatch) {
-    throw new Error(`splitCrossChapterLink: a crossChapterRange target and its display must each carry a dash: ${JSON.stringify(link)}`);
+    throw new Error(`splitCrossChapterLink: a target and its display must each carry a dash: ${JSON.stringify(link)}`);
   }
-  const targetPrefix = link.bibleLink.slice(0, targetDashMatch.index); // e.g. "2 Kings 6:31"
-  const displayPrefix = display.slice(0, displayDashMatch.index); // e.g. "2 Kings 6:31"
-  const displayTail = display.slice(displayDashMatch.index + 1); // e.g. "7:20" — identical text to the target's own tail, by construction
+  const targetPrefix = link.bibleLink.slice(0, targetDashMatch.index); // e.g. "2 Kings 6:31" or "Romans 1"
+  const displayPrefix = display.slice(0, displayDashMatch.index);
+  const displayTail = display.slice(displayDashMatch.index + 1);
 
+  const bookName = classification.bookName as string; // the left endpoint's own spelling, exactly as written — never a naming table
+  const toChapter = classification.toChapter as number;
+
+  if (classification.shape === "wholeChapterRange") {
+    const partA = withDisplay(targetPrefix, displayPrefix);
+    const partB = withDisplay(`${bookName} ${toChapter}`, displayTail);
+    return [partA, EN_DASH, partB];
+  }
+
+  if (classification.firstChapterLastVerse === null) {
+    throw new Error(`splitCrossChapterLink: cannot derive ${versionId}'s chapter length for: ${JSON.stringify(link)}`);
+  }
   const lastVerse = classification.firstChapterLastVerse;
   const fromVerse = classification.fromVerse as number;
   const partATarget = fromVerse === lastVerse ? targetPrefix : `${targetPrefix}${EN_DASH}${lastVerse}`;
   const partA = withDisplay(partATarget, displayPrefix);
 
-  const bookName = classification.bookName as string; // the left endpoint's own spelling, exactly as written — never a naming table
-  const toChapter = classification.toChapter as number;
   const toVerse = classification.toVerse as number;
   const partBTarget = toVerse === 1 ? `${bookName} ${toChapter}:1` : `${bookName} ${toChapter}:1${EN_DASH}${toVerse}`;
   const partB = withDisplay(partBTarget, displayTail);

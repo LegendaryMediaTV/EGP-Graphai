@@ -11,7 +11,10 @@
             "type": "stu",
             "content": [
               {
-                "text": "2 Corinthians. THIS LETTER was probably written from Macedonia, shortly after the First, and was sent to Corinth by the hands of Titus (and Luke?). Paul’s former Letter had produced good effects, but still the Judaizing party persisted in opposing his apostolic authority. Being informed of this by Titus (and also by Timotheus?) Paul resolved to vindicate his character and position, which he does with great boldness and success. The whole may be divided into four sections:—",
+                "content": [
+                  { "text": "This Letter", "marks": ["sc"] },
+                  " was probably written from Macedonia, shortly after the First, and was sent to Corinth by the hands of Titus (and Luke?). Paul’s former Letter had produced good effects, but still the Judaizing party persisted in opposing his apostolic authority. Being informed of this by Titus (and also by Timotheus?) Paul resolved to vindicate his character and position, which he does with great boldness and success. The whole may be divided into four sections:—"
+                ],
                 "break": true
               },
               {
@@ -21,7 +24,9 @@
                     "marks": ["b"]
                   },
                   ", ",
-                  { "bibleLink": "2 Corinthians 1–7", "content": "ch. i–vii" },
+                  { "bibleLink": "2 Corinthians 1", "content": "ch. i" },
+                  "–",
+                  { "bibleLink": "2 Corinthians 7", "content": "vii" },
                   "."
                 ],
                 "break": true
@@ -183,10 +188,9 @@
                 "content": [
                   { "text": "III. REPROOFS AND WARNINGS", "marks": ["b"] },
                   ", ",
-                  {
-                    "bibleLink": "2 Corinthians 10–12",
-                    "content": "ch. x–xii"
-                  },
+                  { "bibleLink": "2 Corinthians 10", "content": "ch. x" },
+                  "–",
+                  { "bibleLink": "2 Corinthians 12", "content": "xii" },
                   "."
                 ],
                 "break": true
@@ -467,7 +471,7 @@
             "type": "trn",
             "content": [
               "Lit., ",
-              { "text": "counselling...second grace.", "marks": ["i"] }
+              { "text": "counselling…second grace.", "marks": ["i"] }
             ]
           }
         },
@@ -586,7 +590,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "giving me a good mind...from me.", "marks": ["i"] }
+            { "text": "giving me a good mind…from me.", "marks": ["i"] }
           ]
         }
       },
@@ -740,7 +744,7 @@
               "content": [
                 "Lit., ",
                 {
-                  "text": "set (with others or) together...as certain.",
+                  "text": "set (with others or) together…as certain.",
                   "marks": ["i"]
                 }
               ]
@@ -830,7 +834,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "has been glorified has not been glorified...over-excelling glory.",
+              "text": "has been glorified has not been glorified…over-excelling glory.",
               "marks": ["i"]
             }
           ]
@@ -1017,7 +1021,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "caused to flee, but not wholly left inwardly...loosing ourselves.",
+              "text": "caused to flee, but not wholly left inwardly…loosing ourselves.",
               "marks": ["i"]
             }
           ]
@@ -1391,7 +1395,7 @@
           "content": [
             "Or, ",
             {
-              "text": "grieving...leaping for joy...having all things thoroughly.",
+              "text": "grieving…leaping for joy…having all things thoroughly.",
               "marks": ["i"]
             }
           ]
@@ -2004,7 +2008,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "grace...over his unthoroughly-led out gift.",
+              "text": "grace…over his unthoroughly-led out gift.",
               "marks": ["i"]
             }
           ]
@@ -2091,7 +2095,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "execute full-justice (on) every hearkening-amiss...your submissive-obedience may be fulfilled.",
+              "text": "execute full-justice (on) every hearkening-amiss…your submissive-obedience may be fulfilled.",
               "marks": ["i"]
             }
           ]
@@ -2135,7 +2139,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "saith he (i.e. any one)...and strong...(is) infirm, and the word (or doctrine), has been thought nothing of.",
+              "text": "saith he (i.e. any one)…and strong…(is) infirm, and the word (or doctrine), has been thought nothing of.",
               "marks": ["i"]
             }
           ]
@@ -2209,7 +2213,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "is setting himself together...setteth together.",
+              "text": "is setting himself together…setteth together.",
               "marks": ["i"]
             }
           ]

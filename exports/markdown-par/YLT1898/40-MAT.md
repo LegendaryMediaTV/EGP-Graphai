@@ -298,7 +298,7 @@ And having seen the multitudes<sup>b</sup>, he went up to the mount, and he havi
 <sup>34</sup> Be not therefore anxious for the morrow, for the morrow shall be anxious for its own things; sufficient for the day _is_ the evil of it.
 
 > - <sup>a</sup> 1. Chapter VI. may be divided into six parts; v. 1–4 of alms; v. 5–15 of prayer; v. 16–18 of fasting; v. 19–21 of treasures; v. 22, 23 of single-mindedness; v. 24–34 of anxiety for the future.
-> - <sup>b</sup> 4. Lit., _...he shall give from (himself) to thee in the light._
+> - <sup>b</sup> 4. Lit., _…he shall give from (himself) to thee in the light._
 > - <sup>c</sup> 6. Or, _speak out_
 > - <sup>d</sup> 14. Lit., _may let go to the men their fallings from (duty), let go also to you will your heavenly Father._
 
@@ -344,7 +344,7 @@ And having seen the multitudes<sup>b</sup>, he went up to the mount, and he havi
 
 > - <sup>a</sup> 1. Chapter VII. may be divided into seven parts; v. 1–4 of rash judgments; v. 5, 6 of holy prudence; v. 7–12 of perseverance in seeking good; v. 13, 14 of the strait and the wide gates; v. 15–20 of false teachers and their fruits; v. 21–27 of the hearers and the doers of duty; v. 28, 29 of the result and manner of Jesus’ teaching.
 > - <sup>b</sup> 5. Or, _behold thoroughly._
-> - <sup>c</sup> 7. Lit., _be asking...be seeking (or desiring), be knocking...opened up;_
+> - <sup>c</sup> 7. Lit., _be asking…be seeking (or desiring), be knocking…opened up;_
 
 ## Chapter 8
 
@@ -674,7 +674,7 @@ At that time did Jesus go on the sabbaths through the corn, and his disciples we
 > - <sup>a</sup> 1. Chapter XII. may be divided into six parts; v. 1–8 kindness better than sacrifice; v. 9–13 cure of a withered hand; v. 14–21 plot against Jesus, his work and character; v. 22–37 cure of a blind and dumb man, and reproof of idle words; v. 38–45 a sign sought and given with a warning; v. 46–50 his true brethren and friends.
 > - <sup>b</sup> 13. Or, _extend, make long._
 > - <sup>c</sup> 13. Lit., _stood thoroughly forth sound as the other._
-> - <sup>d</sup> 15. Lit., _gave place again...many crowds...and he attended (or cherished) them all._
+> - <sup>d</sup> 15. Lit., _gave place again…many crowds…and he attended (or cherished) them all._
 > - <sup>e</sup> 18. Lit., _lad or boy, whom I did chuse, (or “lift up for myself,”)_
 > - <sup>f</sup> 25. Or, _inner minds._
 > - <sup>g</sup> 49. Lit., _upon._
@@ -903,13 +903,13 @@ Then come unto Jesus do they from Jerusalem—scribes and Pharisees—saying,
 > - <sup>b</sup> 2. Lit., _go beyond the traditions (lit. things “given forth” by or) of the elders,_
 > - <sup>c</sup> 4. Lit., _make heavy, weighty;_
 > - <sup>d</sup> 7. Lit., _judges under (a pretence)._
-> - <sup>e</sup> 10. Lit., _...and send (your heart) with it._
+> - <sup>e</sup> 10. Lit., _…and send (your heart) with it._
 > - <sup>f</sup> 14. Lit., _a deep place._
 > - <sup>g</sup> 18. Or, _make common,_
 > - <sup>h</sup> 19. Lit., _things laid thoroughly together._
 > - <sup>i</sup> 23. Lit., _Loose her from (thee, by granting her request)._
 > - <sup>j</sup> 25. Lit., _kissed forward (the hand) to him, saying, Sir, be helping me!_
-> - <sup>k</sup> 30. Lit., _many crowds come forward,...near Jesus’ feet, and he attended (or cherished) them._
+> - <sup>k</sup> 30. Lit., _many crowds come forward,…near Jesus’ feet, and he attended (or cherished) them._
 > - <sup>l</sup> 36. Lit., _having leaped well for joy._
 
 ## Chapter 16
@@ -955,9 +955,9 @@ And the Pharisees and Sadducees having come, tempting, did question him, to shew
 <sup>28</sup> Verily I say to you, there are certain of those standing here who shall not taste of death till they may see the Son of Man coming in his reign.”
 
 > - <sup>a</sup> 1. Chapter XVI. may be divided into five parts; v. 1–4 a sign sought and given; v. 5–12 tendency of the teachings of the Pharisees and Sadducees; v. 13–20 Jesus confessed by Peter; v. 21–23 avows his sufferings, and rebukes Peter; v. 24–28 announces profit and loss.
-> - <sup>b</sup> 1. Lit., _...asked him a sign out of the heavens to show to them over and above_
+> - <sup>b</sup> 1. Lit., _…asked him a sign out of the heavens to show to them over and above_
 > - <sup>c</sup> 6. Lit., _see and hold off from._
-> - <sup>d</sup> 9. Or, _bear in mind...wicker-baskets._
+> - <sup>d</sup> 9. Or, _bear in mind…wicker-baskets._
 
 ## Chapter 17
 
@@ -1054,7 +1054,7 @@ At that hour came the disciples near to Jesus, saying, “Who, now, is greater i
 <sup>35</sup> so also my heavenly Father will do to you, if ye may not forgive each one his brother from your hearts their trespasses.”
 
 > - <sup>a</sup> 1. Chapter XVIII. may be divided into seven parts; v. 1–6 the great one in the kingdom; v. 7–9 wo to the stumbling-block; v. 10–14 value of a lost sheep; v. 15–18 how to deal with a stumbling brother; v. 19, 20 unity of desire; v. 21, 22 extent of forgiveness; v. 23–35 mutual forgiveness.
-> - <sup>b</sup> 11. Lit., _came...loosed (itself) away._
+> - <sup>b</sup> 11. Lit., _came…loosed (itself) away._
 
 ## Chapter 19
 
@@ -1102,7 +1102,7 @@ And it came to pass, when Jesus finished these words, he removed from Galilee, a
 
 > - <sup>a</sup> 1. Chapter XIX. may be divided into seven parts; v. 1, 2 Jesus’ return to Judea; v. 3–9 law of divorce; v. 10–12 when marriage is necessary; v. 13–15 He blesses little children; v. 16–22 a rich young ruler; v. 23–26 earthly riches a hindrance; v. 27–30 rewards of fidelity.
 > - <sup>b</sup> 2. Lit., _attended (or cherished)_
-> - <sup>c</sup> 13. Lit., _brought forward...might put...might pour forth (prayer) for them,...laid a weight upon them._
+> - <sup>c</sup> 13. Lit., _brought forward…might put…might pour forth (prayer) for them,…laid a weight upon them._
 > - <sup>d</sup> 19. Lit., _make weighty._
 > - <sup>e</sup> 25. Lit., _struck._
 
@@ -1158,8 +1158,8 @@ And it came to pass, when Jesus finished these words, he removed from Galilee, a
 > - <sup>b</sup> 3. Lit., _not working._
 > - <sup>c</sup> 16. Lit., _elect or select,_
 > - <sup>d</sup> 17. Lit., _took along with him._
-> - <sup>e</sup> 18. Lit., _given over...judge him down to death._
-> - <sup>f</sup> 19. Lit., _give him over...to treat as a child, and to lash,...shall stand up._
+> - <sup>e</sup> 18. Lit., _given over…judge him down to death._
+> - <sup>f</sup> 19. Lit., _give him over…to treat as a child, and to lash,…shall stand up._
 > - <sup>g</sup> 26. Lit., _deacon,_
 > - <sup>h</sup> 33. Lit., _opened up or thoroughly._
 
@@ -1234,11 +1234,11 @@ And when they came nigh to Jerusalem, and came to Bethphage, unto the mount of t
 > - <sup>a</sup> 1. Chapter XXI. may be divided into six parts; v. 1–11 Jesus enters Jerusalem amid hosannahs; v. 12–17 cleanses the temple, cures the people, and defends the children; v. 18–22 the barren fig-tree; v. 23–27 He silences the priests and elders; v. 28–32 parable of two sons; v. 33–46 of the wicked husbandmen.
 > - <sup>b</sup> 6. Lit., _set before them._
 > - <sup>c</sup> 10. Or, _shaken._
-> - <sup>d</sup> 14. Lit., _came forward...attended or cherished._
+> - <sup>d</sup> 14. Lit., _came forward…attended or cherished._
 > - <sup>e</sup> 15. Lit., _lads or boys._
 > - <sup>f</sup> 18. Lit., _came up over._
 > - <sup>g</sup> 22. Lit., _as many things as ye may ask for yourselves in the pouring forth before (God) remaining stedfast (to me), ye shall receive._
-> - <sup>h</sup> 35. Lit., _leathered...killed fully._
+> - <sup>h</sup> 35. Lit., _leathered…killed fully._
 > - <sup>i</sup> 36. Lit., _sent away (from himself)._
 
 ## Chapter 22
@@ -1307,7 +1307,7 @@ And Jesus answering, again spake to them in similes, saying,
 <sup>46</sup> And no one was able to answer him a word, nor durst any from that day question him any more.
 
 > - <sup>a</sup> 1. Chapter XXII. may be divided into five parts; v. 1–14 simile of a wedding-garment; v. 15–22 duty of tribute; v. 23–33 Sadducees and the Up-rising; v. 34–40 sum of the law and the prophets; v. 41–46 David’s Son and Lord.
-> - <sup>b</sup> 6. Or, _seized...injured (or dishonoured), and slew them._
+> - <sup>b</sup> 6. Or, _seized…injured (or dishonoured), and slew them._
 > - <sup>c</sup> 18. Lit., _ye judges under a pretence._
 > - <sup>d</sup> 20. Lit., _writing-over (it)._
 > - <sup>e</sup> 21. Lit., _give back or away._
@@ -1448,7 +1448,7 @@ And having gone forth, Jesus departed from the temple, and his disciples came ne
 > - <sup>e</sup> 18. Or, _lift up his raiment._
 > - <sup>f</sup> 20. Lit., _pour forth before (God),_
 > - <sup>g</sup> 37. Lit., _being long-side._
-> - <sup>h</sup> 38. Lit., _washing down...and marrying out._
+> - <sup>h</sup> 38. Lit., _washing down…and marrying out._
 
 ## Chapter 25
 
@@ -1616,7 +1616,7 @@ And it came to pass, when Jesus finished all these words, he said to his discipl
 <sup>75</sup> and Peter remembered the saying of Jesus, he having said to him—“Before cockcrowing, thrice thou wilt deny me;” and having gone without, he did weep bitterly.
 
 > - <sup>a</sup> 1. Chapter XXVI. may be divided into twelve parts; v. 1, 2 coming of the passover; v. 3–5 plot of the chief priests; v. 6–13 Jesus anointed by a woman; v. 14–16 Judas plots against him; v. 17–25 Jesus reveals the betrayer; v. 26–29 institutes the Lord’s supper; v. 30–35 foretells Peter’s denial; v. 36–46 Jesus in Gethsemane; v. 47–50 is betrayed and seized; v. 51–58 Jesus heals, reasons, and is forsaken; v. 59–67 Jesus before the Chief Priest; v. 68–75 Peter denies him.
-> - <sup>b</sup> 4. Lit., _took counsel together...seize...kill (him) thoroughly._
+> - <sup>b</sup> 4. Lit., _took counsel together…seize…kill (him) thoroughly._
 > - <sup>c</sup> 7. Lit., _poured it down thoroughly (or utterly)_
 > - <sup>d</sup> 12. Lit., _cast this oil._
 > - <sup>e</sup> 19. Lit., _arranged together for them._
@@ -1624,7 +1624,7 @@ And it came to pass, when Jesus finished all these words, he said to his discipl
 > - <sup>g</sup> 32. Or, _with my being raised, I will lead you forward into the (circuits of) Galil._
 > - <sup>h</sup> 36. Lit., _space, named Gethsemane, (i.e. “press of fatness,”)_
 > - <sup>i</sup> 37. Lit., _took along with him._
-> - <sup>j</sup> 43. Lit., _sleeping fast...were weighed down._
+> - <sup>j</sup> 43. Lit., _sleeping fast…were weighed down._
 > - <sup>k</sup> 49. Lit., _Rejoice! Rabbi, and shewed him much love,_
 > - <sup>l</sup> 57. Lit., _seized._
 > - <sup>m</sup> 65. Lit., _rent thoroughly_
@@ -1725,7 +1725,7 @@ And morning having come, all the chief priests and the elders of the people took
 > - <sup>c</sup> 11. Lit., _leader._
 > - <sup>d</sup> 12. Lit., _publicly spoken against by._
 > - <sup>e</sup> 17. Or, _do ye wish that I loose thoroughly to you?_
-> - <sup>f</sup> 21. Lit., _leader...do ye wish._
+> - <sup>f</sup> 21. Lit., _leader…do ye wish._
 > - <sup>g</sup> 27. Lit., _leader took along with them Jesus into the Praetorium, brought together against him all the band._
 > - <sup>h</sup> 37. Lit., _cause_
 > - <sup>i</sup> 41. Lit., _treating (him) as a child._
@@ -1763,6 +1763,6 @@ And on the eve of the sabbaths, at the dawn, toward the first of the sabbaths, c
 <sup>20</sup> teaching them to observe all, whatever I did command you,) and lo, I am with you all the days—till the full end of the age.”
 
 > - <sup>a</sup> 1. Chapter XXVIII. may be divided into four parts; v. 1–8 first announcement of the rising of Jesus; v. 9, 10 Jesus himself appears; v. 11–15 conduct of the watch and the chief priests; v. 16–20 Jesus appears to the 11 disciples in Galilee, and gives them a charge.
-> - <sup>b</sup> 3. Lit., _sight or appearance...his clothing._
+> - <sup>b</sup> 3. Lit., _sight or appearance…his clothing._
 > - <sup>c</sup> 7. Lit., _he was raised._
 > - <sup>d</sup> 9. Lit., _was over-against them, saying, Rejoice! and they coming forward._

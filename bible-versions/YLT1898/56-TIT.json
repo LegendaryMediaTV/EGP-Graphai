@@ -12,7 +12,8 @@
             "content": [
               {
                 "content": [
-                  "Titus was a Gentile by birth (",
+                  { "text": "Titus", "marks": ["sc"] },
+                  " was a Gentile by birth (",
                   {
                     "bibleLink": "Galatians 2:1, 3",
                     "content": "Gal. 2. 1, 3"

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import Content from "../../types/Content";
 import { getVersionDirectories } from "../../functions/getBibleVersions";
-import { auditVersion, auditVersions, exitCodeFor, findStrongsNodeIssues } from "../auditStrongsNodes";
+import { auditVersion, auditVersions, exitCodeFor, findStrongsNodeIssues } from "../auditNodes";
 
 describe("findStrongsNodeIssues — unmerged pairs", () => {
   it("should report no findings for a clean tree with everything already merged", () => {

@@ -11,7 +11,10 @@
             "type": "stu",
             "content": [
               {
-                "text": "1 Timothy. TIMOTHEUS was the son of a Gentile father, and a Jewish mother, named Eunice, who with her mother Lois, were believers in Christ, and residing apparently in Lystra, in Lycaonia. Paul having taught and chosen him for his fellow-evangelist, caused him to be circumcised, to propitiate the Jews. He afterwards sent him to Corinth, Philippi, Thessalonica, and left him at Ephesus to check error, and establish order. Paul is also supposed to have written the First Letter to him from Laodicea or Athens, about A.D. 64. It is quoted or referred to by Clement of Rome (A.D. 96), Polycarp (A.D. 108), Ignatius (A.D. 108), Athenagoras (A.D. 178), Justin Martyr (A.D. 140), Theophilus of Antioch (A.D. 181), Caius (A.D. 212), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Eusebius (A.D. 320), &c.",
+                "content": [
+                  { "text": "Timotheus", "marks": ["sc"] },
+                  " was the son of a Gentile father, and a Jewish mother, named Eunice, who with her mother Lois, were believers in Christ, and residing apparently in Lystra, in Lycaonia. Paul having taught and chosen him for his fellow-evangelist, caused him to be circumcised, to propitiate the Jews. He afterwards sent him to Corinth, Philippi, Thessalonica, and left him at Ephesus to check error, and establish order. Paul is also supposed to have written the First Letter to him from Laodicea or Athens, about A.D. 64. It is quoted or referred to by Clement of Rome (A.D. 96), Polycarp (A.D. 108), Ignatius (A.D. 108), Athenagoras (A.D. 178), Justin Martyr (A.D. 140), Theophilus of Antioch (A.D. 181), Caius (A.D. 212), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Eusebius (A.D. 320), &c."
+                ],
                 "break": true
               },
               {

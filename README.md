@@ -62,7 +62,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 # Install dependencies
 npm install
 
-# Validate JSON schemas and data integrity (auto-sorts keys)
+# Validate JSON schemas and data integrity (auto-sorts keys, and for each
+# version validated, also runs the audit-links and audit-nodes checks below)
 npm run validate
 
 # Convert Bible JSON to text/markdown formats (all versions)
@@ -77,17 +78,19 @@ npx ts-node utils/convertToSmallCaps.ts WEBUS2020
 # Standardize content key order
 npx ts-node utils/sortBibleKeys.ts WEBUS2020
 
-# Audit bibleLink targets for unsplit cross-chapter ranges (all versions)
+# Audit bibleLink targets for unsplit cross-chapter ranges (all versions) —
+# also runs as part of `npm run validate` for whichever version(s) it scopes to
 npm run audit-links
 
 # Audit one version, or add --fix to write the splits
 npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix
 
-# Audit Strong's-node placement conventions (all versions, read-only)
-npm run audit-strongs-nodes
+# Audit Strong's-node placement conventions (all versions, read-only) —
+# also runs as part of `npm run validate` for whichever version(s) it scopes to
+npm run audit-nodes
 
 # Audit one version and list every finding
-npx ts-node utils/auditStrongsNodes.ts WEBUS2020 --verbose
+npx ts-node utils/auditNodes.ts WEBUS2020 --verbose
 
 # Run tests
 npm run test

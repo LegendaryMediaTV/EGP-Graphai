@@ -12,7 +12,10 @@
             "content": [
               {
                 "content": [
-                  "2 John. There is no good reason for questioning the generally received opinion that the writer of this Letter (as well as the following one to GAIUS) was the Apostle John; out of the thirteen verses of which it consists, not less than eight are found substantially in his first Letter, while it was attributed to him by Irenaeus (A.D. 167), Clement of Alexandria (A.D. 192), Origen (A.D. 230), Cyprian (A.D. 248), Eusebius (A.D. 315), Aurelius (A.D. 256), Alexander of Alexandria (A.D. 313), Dionysius of Alexandria (A.D. 247), Ephraim Syrus (A.D. 370), &c. The only other person to whom these two letters have been attributed is one John, surnamed “the Presbyter,” but beyond the circumstance that the writer of both Letters calls himself “the presbyter” there is nothing to recommend or prove the hypothesis, since Peter in his first letter (",
+                  { "text": "There", "marks": ["sc"] },
+                  " is no good reason for questioning the generally received opinion that the writer of this Letter (as well as the following one to ",
+                  { "text": "Gaius", "marks": ["sc"] },
+                  ") was the Apostle John; out of the thirteen verses of which it consists, not less than eight are found substantially in his first Letter, while it was attributed to him by Irenaeus (A.D. 167), Clement of Alexandria (A.D. 192), Origen (A.D. 230), Cyprian (A.D. 248), Eusebius (A.D. 315), Aurelius (A.D. 256), Alexander of Alexandria (A.D. 313), Dionysius of Alexandria (A.D. 247), Ephraim Syrus (A.D. 370), &c. The only other person to whom these two letters have been attributed is one John, surnamed “the Presbyter,” but beyond the circumstance that the writer of both Letters calls himself “the presbyter” there is nothing to recommend or prove the hypothesis, since Peter in his first letter (",
                   { "bibleLink": "1 Peter 5:1", "content": "5. 1" },
                   ") assumes the same title, it being in reality the highest permanent title of office in the early Christian church: unfortunately also we have no writings of John the Presbyter which we could compare with these, while their whole tone, style, and sentiments are in thorough accordance with all we know of the “beloved disciple.”"
                 ],
@@ -37,9 +40,8 @@
           }
         },
         "The",
-        " ",
         {
-          "text": "Elder",
+          "text": " Elder",
           "foot": {
             "type": "stu",
             "content": [
@@ -166,7 +168,7 @@
         "text": "reward",
         "foot": {
           "type": "trn",
-          "content": ["Lit., ", { "text": "...a full hire.", "marks": ["i"] }]
+          "content": ["Lit., ", { "text": "…a full hire.", "marks": ["i"] }]
         }
       },
       " may receive;"
@@ -230,10 +232,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            {
-              "text": "...leaping with joy may be filled full.",
-              "marks": ["i"]
-            }
+            { "text": "…leaping with joy may be filled full.", "marks": ["i"] }
           ]
         }
       },

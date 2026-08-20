@@ -31,30 +31,30 @@
 
 <sup>25</sup> The grace<sup>ae</sup> of our Lord Jesus Christ _is_ with your spirit! Amen.
 
-> - <sup>a</sup> 1. Philemon lived at Colosse, and was a rich convert and fellow-labourer of Paul, who, when a prisoner in Rome, A.D. 61–2, wrote him this letter to induce him to receive back a run-away bondsman—Onesimus—whom Paul had met with and converted to the gospel. This letter was quoted or referred to by Tertullian (A.D. 192), Caius (A.D. 212), Origen (A.D. 230), Jerome (A.D. 392), Eusebius (A.D. 320), and perhaps Ignatius (A.D. 107).<br>This Letter may be divided into six parts; v. 1–3 address and salutation; v. 4–7 thanksgiving for Philemon’s state; v. 8–16 entreaty for Onesimus; v. 17–19 personal reasons for this; v. 20–22 expression of confidence and a request; v. 23–25 closing salutations.
+> - <sup>a</sup> 1. PHILEMON lived at Colosse, and was a rich convert and fellow-labourer of Paul, who, when a prisoner in Rome, A.D. 61–2, wrote him this letter to induce him to receive back a run-away bondsman—Onesimus—whom Paul had met with and converted to the gospel. This letter was quoted or referred to by Tertullian (A.D. 192), Caius (A.D. 212), Origen (A.D. 230), Jerome (A.D. 392), Eusebius (A.D. 320), and perhaps Ignatius (A.D. 107).<br>THIS LETTER may be divided into six parts; v. 1–3 address and salutation; v. 4–7 thanksgiving for Philemon’s state; v. 8–16 entreaty for Onesimus; v. 17–19 personal reasons for this; v. 20–22 expression of confidence and a request; v. 23–25 closing salutations.
 > - <sup>b</sup> 1. Lit., _bound one._
 > - <sup>c</sup> 1. the “anointed saviour.”
 > - <sup>d</sup> 1. “the brother,” in the faith.
 > - <sup>e</sup> 1. “loving, befriending.”
 > - <sup>f</sup> 1. “joint worker,” in building up the Colossians.
-> - <sup>g</sup> 2. ...Apphia (a female), and Archippus (i.e. chief-horseman, Col. 4. 17), ...church (or assembly) at thy house; see Romans 16:15; 1 Corinthians 16:11
+> - <sup>g</sup> 2. …Apphia (a female), and Archippus (i.e. chief-horseman, Col. 4. 17), …church (or assembly) at thy house; see Romans 16:15; 1 Corinthians 16:11
 > - <sup>h</sup> 3. Lit., _what causes leaping for joy._
 > - <sup>i</sup> 3. Lit., _what brings into unity._
 > - <sup>j</sup> 3. Or, _and (Father of the) Lord Jesus Christ._
 > - <sup>k</sup> 4. Lit., _leap much for joy_
 > - <sup>l</sup> 4. Lit., _pouring-forth_
 > - <sup>m</sup> 5. Lit., _“not of the earth.”_
-> - <sup>n</sup> 7. Lit., _...exhortation..._
-> - <sup>o</sup> 8. Lit., _...full-speech to arrange for thee what comes up._
-> - <sup>p</sup> 9. Lit., _...call upon (thee)._
+> - <sup>n</sup> 7. Lit., _…exhortation…_
+> - <sup>o</sup> 8. Lit., _…full-speech to arrange for thee what comes up._
+> - <sup>p</sup> 9. Lit., _…call upon (thee)._
 > - <sup>q</sup> 10. profitable.
-> - <sup>r</sup> 13. Lit., _...he might be a deacon to me._
+> - <sup>r</sup> 13. Lit., _…he might be a deacon to me._
 > - <sup>s</sup> 14. Lit., _apart from thy knowledge_
 > - <sup>t</sup> 15. Lit., _was separated_
-> - <sup>u</sup> 15. Lit., _...have him entirely;_ see Exodus 21:6
+> - <sup>u</sup> 15. Lit., _…have him entirely;_ see Exodus 21:6
 > - <sup>v</sup> 16. Lit., _no more as a bondsman._
-> - <sup>w</sup> 18. Lit., _...used thee unjustly..._
-> - <sup>x</sup> 21. Lit., _...submissive hearkening..._
+> - <sup>w</sup> 18. Lit., _…used thee unjustly…_
+> - <sup>x</sup> 21. Lit., _…submissive hearkening…_
 > - <sup>y</sup> 23. Lit., _draw thee near_
 > - <sup>z</sup> 23. Epaphroditus, upon Venus, i.q. lovely.
 > - <sup>aa</sup> 24. “far, distant.”

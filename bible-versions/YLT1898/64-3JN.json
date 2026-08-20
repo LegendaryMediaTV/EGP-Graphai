@@ -10,7 +10,8 @@
           "foot": {
             "type": "stu",
             "content": [
-              "3 John. This Letter is quoted by the same ancient fathers as quote the preceding one, and rests on the same kind of evidence. This Gaius (",
+              { "text": "This Letter", "marks": ["sc"] },
+              " is quoted by the same ancient fathers as quote the preceding one, and rests on the same kind of evidence. This Gaius (",
               { "text": "or", "marks": ["i"] },
               {
                 "content": [
@@ -44,9 +45,8 @@
           }
         },
         "The",
-        " ",
         {
-          "text": "Elder",
+          "text": " Elder",
           "foot": {
             "type": "stu",
             "content": [

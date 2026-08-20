@@ -12,7 +12,8 @@
             "content": [
               {
                 "content": [
-                  "Ephesians. THIS LETTER was written when Paul was a prisoner (",
+                  { "text": "This Letter", "marks": ["sc"] },
+                  " was written when Paul was a prisoner (",
                   { "bibleLink": "Ephesians 3:1", "content": "ch. 3. 1" },
                   "; ",
                   { "bibleLink": "Ephesians 4:1", "content": "4. 1" },
@@ -34,7 +35,7 @@
                   { "bibleLink": "Ephesians 3:1", "content": "3. 1" },
                   "; ",
                   { "bibleLink": "Ephesians 4:17", "content": "4. 17" },
-                  "), hence he has few allusions to Judaistic errors and tendencies, and expatiates on the love of God the Father, the grace of Christ, and the fruits of the Spirit, as in his remarkably similar Epistle to the \"Colossians,\" written also about the same time, and sent by the same bearer—Tychicus."
+                  "), hence he has few allusions to Judaistic errors and tendencies, and expatiates on the love of God the Father, the grace of Christ, and the fruits of the Spirit, as in his remarkably similar Epistle to the “Colossians,” written also about the same time, and sent by the same bearer—Tychicus."
                 ],
                 "break": true
               },
@@ -132,7 +133,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "the thorough-loosing...letting-go of the fallings-aside...wealth of.",
+              "text": "the thorough-loosing…letting-go of the fallings-aside…wealth of.",
               "marks": ["i"]
             }
           ]
@@ -153,7 +154,7 @@
           "type": "trn",
           "content": [
             "Lit., ",
-            { "text": "he abounded...mindfulness.", "marks": ["i"] }
+            { "text": "he abounded…mindfulness.", "marks": ["i"] }
           ]
         }
       },
@@ -987,10 +988,7 @@
         "text": "once",
         "foot": {
           "type": "trn",
-          "content": [
-            "Lit., ",
-            { "text": "then...walk about.", "marks": ["i"] }
-          ]
+          "content": ["Lit., ", { "text": "then…walk about.", "marks": ["i"] }]
         }
       },
       " darkness, and now light in the Lord; as children of light walk ye,"
@@ -1351,7 +1349,7 @@
           "content": [
             "Lit., ",
             {
-              "text": "receive for yourselves the helmet (lit. thing \"around the head,\") of the salvation...a saying of God,",
+              "text": "receive for yourselves the helmet (lit. thing “around the head,”) of the salvation…a saying of God,",
               "marks": ["i"]
             }
           ]

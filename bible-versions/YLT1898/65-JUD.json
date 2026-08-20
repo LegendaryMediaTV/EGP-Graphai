@@ -10,7 +10,10 @@
           "foot": {
             "type": "stu",
             "content": [
-              "Jude—or rather Judas—the writer of this Letter was probably that one of the twelve apostles referred to in ",
+              { "text": "Jude", "marks": ["sc"] },
+              "—or rather ",
+              { "text": "Judas", "marks": ["sc"] },
+              "—the writer of this Letter was probably that one of the twelve apostles referred to in ",
               { "bibleLink": "John 14:22", "content": "John 14. 22" },
               ", and elsewhere called Lebbeus and Thaddeus (",
               { "text": "lit.", "marks": ["i"] },
