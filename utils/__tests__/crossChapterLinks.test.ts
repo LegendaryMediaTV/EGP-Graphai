@@ -174,6 +174,29 @@ describe("splitCrossChapterLink — whole-chapter ranges (pure function only —
   });
 });
 
+describe("splitCrossChapterLink — chapter-existence guard", () => {
+  // Every fixture here uses Jude (JUD) against YLT1898 — both are part of
+  // this repo's own corpus, and Jude is single-chapter in every version
+  // checked, so "chapter 2" is guaranteed absent without depending on data
+  // this repo doesn't have.
+
+  it("should throw for a wholeChapterRange target whose fromChapter is absent (Jude 2–3, YLT1898's Jude has only chapter 1)", () => {
+    expect(() => splitCrossChapterLink("YLT1898", { bibleLink: "Jude 2–3" })).toThrow("cannot derive YLT1898's chapter length for:");
+  });
+
+  it("should throw for a wholeChapterRange target whose toChapter is absent (Jude 1–2, YLT1898's Jude has only chapter 1)", () => {
+    expect(() => splitCrossChapterLink("YLT1898", { bibleLink: "Jude 1–2" })).toThrow("YLT1898 carries no Jude 2 for:");
+  });
+
+  it("should throw for a crossChapterRange target whose toChapter is absent (Jude 1:5–2:3)", () => {
+    expect(() => splitCrossChapterLink("YLT1898", { bibleLink: "Jude 1:5–2:3" })).toThrow("YLT1898 carries no Jude 2 for:");
+  });
+
+  it("should still throw for a crossChapterRange target whose fromChapter is absent (Jude 2:5–3:1) — already threw before this guard; kept so the hoisting refactor cannot regress it", () => {
+    expect(() => splitCrossChapterLink("YLT1898", { bibleLink: "Jude 2:5–3:1" })).toThrow("cannot derive YLT1898's chapter length for:");
+  });
+});
+
 describe("splitCrossChapterLinksInContent — the content-array splice", () => {
   it("should splice a bare {bibleLink} footnote content into its three-part replacement", () => {
     const { content, splits } = splitCrossChapterLinksInContent("WEBUS2020", { bibleLink: "2 Kings 6:31—7:20" });
