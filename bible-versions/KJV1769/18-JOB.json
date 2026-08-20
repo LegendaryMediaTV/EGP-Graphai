@@ -2216,7 +2216,12 @@
     "chapter": 5,
     "verse": 1,
     "content": [
-      { "text": "Call", "strong": "H7121", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Call",
+        "strong": "H7121",
+        "morph": "QalImpv"
+      },
       { "text": " now, if there be", "strong": "H3426" },
       {
         "text": " any that will answer",
@@ -3612,6 +3617,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": [
           { "text": "Is there", "marks": ["i"] },
           {
@@ -5365,7 +5371,7 @@
     "chapter": 10,
     "verse": 1,
     "content": [
-      { "text": "My soul", "strong": "H5315" },
+      { "paragraph": true, "text": "My soul", "strong": "H5315" },
       { "text": " is weary", "strong": "H5354", "morph": "QalPerf" },
       {
         "text": " of my life;",
@@ -6983,7 +6989,7 @@
     "chapter": 13,
     "verse": 1,
     "content": [
-      { "text": "Lo, mine eye", "strong": "H5869" },
+      { "paragraph": true, "text": "Lo, mine eye", "strong": "H5869" },
       { "text": " hath seen", "strong": "H7200", "morph": "QalPerf" },
       {
         "content": [
@@ -7541,7 +7547,7 @@
     "chapter": 14,
     "verse": 1,
     "content": [
-      { "text": "Man", "strong": "H120" },
+      { "paragraph": true, "text": "Man", "strong": "H120" },
       {
         "content": [" ", { "text": "that is", "marks": ["i"] }, " born"],
         "strong": "H3205",
@@ -9308,7 +9314,7 @@
     "chapter": 17,
     "verse": 1,
     "content": [
-      { "text": "My breath", "strong": "H7307" },
+      { "paragraph": true, "text": "My breath", "strong": "H7307" },
       {
         "text": " is corrupt,",
         "foot": {
@@ -13462,7 +13468,7 @@
     "chapter": 24,
     "verse": 1,
     "content": [
-      { "text": "Why, seeing times", "strong": "H6256" },
+      { "paragraph": true, "text": "Why, seeing times", "strong": "H6256" },
       { "text": " are not hidden", "strong": "H6845", "morph": "NiphPerf" },
       { "text": " from the Almighty,", "break": true, "strong": "H7706" },
       { "text": "Do they that know", "strong": "H3045", "morph": "QalActPtc" },
@@ -15018,7 +15024,7 @@
     "chapter": 28,
     "verse": 1,
     "content": [
-      { "text": "Surely", "strong": "H3426" },
+      { "paragraph": true, "text": "Surely", "strong": "H3426" },
       {
         "text": " there is a vein",
         "foot": {
@@ -16207,6 +16213,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": [
           "But now ",
           { "text": "they that are", "marks": ["i"] },
@@ -16963,7 +16970,12 @@
     "chapter": 31,
     "verse": 1,
     "content": [
-      { "text": "I made", "strong": "H3772", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "I made",
+        "strong": "H3772",
+        "morph": "QalPerf"
+      },
       { "text": " a covenant", "strong": "H1285" },
       { "text": " with mine eyes;", "break": true, "strong": "H5869" },
       {
@@ -18476,7 +18488,7 @@
     "chapter": 33,
     "verse": 1,
     "content": [
-      { "text": "Wherefore,", "strong": "H199" },
+      { "paragraph": true, "text": "Wherefore,", "strong": "H199" },
       { "text": " Job,", "strong": "H347" },
       { "text": " I pray thee, hear", "strong": "H8085", "morph": "QalImpv" },
       { "text": " my speeches,", "break": true, "strong": "H4405" },
@@ -21221,7 +21233,7 @@
     "chapter": 37,
     "verse": 1,
     "content": [
-      { "text": "At this", "strong": "H2063" },
+      { "paragraph": true, "text": "At this", "strong": "H2063" },
       { "text": " also my heart", "strong": "H3820" },
       {
         "text": " trembleth,",
@@ -22680,7 +22692,12 @@
     "chapter": 39,
     "verse": 1,
     "content": [
-      { "text": "Knowest", "strong": "H3045", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "Knowest",
+        "strong": "H3045",
+        "morph": "QalPerf"
+      },
       { "text": " thou the time", "strong": "H6256" },
       { "text": " when the wild goats", "strong": "H3277" },
       { "text": " of the rock", "strong": "H5553" },
@@ -23272,6 +23289,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": ["Moreover the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -23795,7 +23813,12 @@
     "chapter": 41,
     "verse": 1,
     "content": [
-      { "text": "Canst thou draw out", "strong": "H4900", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "Canst thou draw out",
+        "strong": "H4900",
+        "morph": "QalImpf"
+      },
       {
         "text": " leviathan",
         "foot": {

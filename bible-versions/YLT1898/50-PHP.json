@@ -5,20 +5,132 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul and Timotheus, servants of Jesus Christ, to all the saints in Christ Jesus who are in Philippi, with overseers and ministrants;"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "Philippians. PHILIPPI was the \"first city\" of Macedonia visited by Paul (",
+                  { "bibleLink": "Acts 16:6–12", "content": "Acts 16. 6–12" },
+                  ") in A.D. 50. Its original name was Datos, but Philip, father of Alexander, gave it his own name when he rebuilt and fortified it. Paul visited it a second, if not a third, time (",
+                  { "bibleLink": "Acts 20:1–6", "content": "Acts 20. 1–6" },
+                  "), and was once and again helped by the liberality of the assembly he formed there (",
+                  { "bibleLink": "Philippians 2:25", "content": "Phil. 2. 25" },
+                  "; ",
+                  {
+                    "bibleLink": "Philippians 4:10, 14",
+                    "content": "4. 10, 14"
+                  },
+                  "–18; ",
+                  {
+                    "bibleLink": "2 Corinthians 11:9",
+                    "content": "2 Cor. 11. 9"
+                  },
+                  "), to which he addressed this Letter, which is quoted by Polycarp (A.D. 108), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Marcion (A.D. 140), the Churches of Vienna and Lyons (A.D. 177), Cyprian (A.D. 248), Eusebius (A.D. 320), &c. It was written when Paul was a prisoner in Rome (",
+                  { "bibleLink": "Philippians 1:7, 13", "content": "1. 7, 13" },
+                  "; ",
+                  { "bibleLink": "Philippians 4:22", "content": "4. 22" },
+                  "), probably in A.D. 63, and sent by the hands of Epaphroditus, who had been sent to him from Philippi with their gifts."
+                ],
+                "break": true
+              },
+              "The object of the Letter is five-fold; ",
+              { "text": "first", "marks": ["i"] },
+              ", to express thanks to God and love to them, with confidence in them and the Spirit (",
+              { "bibleLink": "Philippians 1:1–26", "content": "ch. i. 1–26" },
+              "); ",
+              { "text": "second", "marks": ["i"] },
+              ", to exhort them to perseverance, love, humility, working with God, blamelessness (",
+              { "bibleLink": "Philippians 1:27–30", "content": "ch. i. 27" },
+              "–",
+              { "bibleLink": "Philippians 2:1–18", "content": "ii. 18" },
+              "); ",
+              { "text": "third", "marks": ["i"] },
+              ", to encourage them and himself by the presence of Timothy and Epaphroditus (",
+              { "bibleLink": "Philippians 2:19–30", "content": "v. 19–30" },
+              "); ",
+              { "text": "fourth", "marks": ["i"] },
+              ", to avoid Judaizing, and press close to Christ (iii. 1–21): ",
+              { "text": "fifth", "marks": ["i"] },
+              {
+                "text": ", special and general exhortations, congratulations, salutations, (iv. 1–23).",
+                "break": true
+              },
+              "Old Testament references are to ",
+              { "bibleLink": "Psalm 22:6", "content": "Ps. 22. 6" },
+              "; ",
+              { "bibleLink": "Psalm 55:22", "content": "55. 22" },
+              "; ",
+              { "bibleLink": "Isaiah 40:23", "content": "Isa. 40. 23" },
+              "; ",
+              { "bibleLink": "Isaiah 56:10", "content": "56. 10" },
+              "; ",
+              { "bibleLink": "Jeremiah 9:23, 24", "content": "Jer. 9. 23, 24" },
+              "; ",
+              { "bibleLink": "Daniel 9:26", "content": "Da. 9. 26" },
+              ", &c."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into eight parts; ",
+              { "bibleLink": "Philippians 1:1, 2", "content": "v. 1, 2" },
+              " salutation; ",
+              { "bibleLink": "Philippians 1:3–7", "content": "v. 3–7" },
+              " thanksgiving for them; ",
+              { "bibleLink": "Philippians 1:8–11", "content": "v. 8–11" },
+              " love to them; ",
+              { "bibleLink": "Philippians 1:12–14", "content": "v. 12–14" },
+              " encouraging news; ",
+              { "bibleLink": "Philippians 1:15–18", "content": "v. 15–18" },
+              " joy in proclamation of the gospel; ",
+              { "bibleLink": "Philippians 1:19–21", "content": "v. 19–21" },
+              " confidence in them and the Spirit; ",
+              { "bibleLink": "Philippians 1:22–26", "content": "v. 22–26" },
+              " a strait between two; ",
+              { "bibleLink": "Philippians 1:27–30", "content": "v. 27–30" },
+              " exhortation to persevere."
+            ]
+          }
+        },
+        "Paul and Timotheus, servants of Jesus Christ, to all the saints in Christ Jesus who are in Philippi, with overseers and ministrants;"
+      ]
     }
   },
   {
     "book": "PHP",
     "chapter": 1,
     "verse": 2,
-    "content": "Grace to you, and peace from God our Father, and the Lord Jesus Christ."
+    "content": [
+      {
+        "text": "Grace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "what causes leaping for joy.", "marks": ["i"] }
+          ]
+        }
+      },
+      " to you, and peace from God our Father, and the Lord Jesus Christ."
+    ]
   },
   {
     "book": "PHP",
     "chapter": 1,
     "verse": 3,
-    "content": "I give thanks to my God upon all the remembrance of you,"
+    "content": [
+      { "heading": "The Heart of the Apostle" },
+      {
+        "paragraph": true,
+        "text": "I give thanks to my God upon all the remembrance of you,"
+      }
+    ]
   },
   {
     "book": "PHP",
@@ -36,13 +148,21 @@
     "book": "PHP",
     "chapter": 1,
     "verse": 6,
-    "content": "having been confident of this very thing, that He who did begin in you a good work, will perform it till a day of Jesus Christ,"
+    "content": [
+      "having been confident of this very thing, that He who did begin in you a good work, will perform ",
+      { "text": "it", "marks": ["i"] },
+      " till a day of Jesus Christ,"
+    ]
   },
   {
     "book": "PHP",
     "chapter": 1,
     "verse": 7,
-    "content": "according as it is righteous for me to think this in behalf of you all, because of my having you in the heart, both in my bonds, and in the defence and confirmation of the good news, all of you being fellow-partakers with me of grace."
+    "content": [
+      "according as it is righteous for me to think this in behalf of you all, because of my having you in the heart, both in my bonds, and ",
+      { "text": "in", "marks": ["i"] },
+      " the defence and confirmation of the good news, all of you being fellow-partakers with me of grace."
+    ]
   },
   {
     "book": "PHP",
@@ -60,37 +180,47 @@
     "book": "PHP",
     "chapter": 1,
     "verse": 10,
-    "content": "for your proving the things that differ, that ye may be pure and offenceless-to a day of Christ,"
+    "content": "for your proving the things that differ, that ye may be pure and offenceless—to a day of Christ,"
   },
   {
     "book": "PHP",
     "chapter": 1,
     "verse": 11,
-    "content": "being filled with the fruit of righteousness, that is through Jesus Christ, to the glory and praise of God."
+    "content": [
+      "being filled with the fruit of righteousness, that ",
+      { "text": "is", "marks": ["i"] },
+      " through Jesus Christ, to the glory and praise of God."
+    ]
   },
   {
     "book": "PHP",
     "chapter": 1,
     "verse": 12,
-    "content": "And I wish you to know, brethren, that the things concerning me, rather to an advancement of the good news have come,"
+    "content": {
+      "paragraph": true,
+      "text": "And I wish you to know, brethren, that the things concerning me, rather to an advancement of the good news have come,"
+    }
   },
   {
     "book": "PHP",
     "chapter": 1,
     "verse": 13,
-    "content": "so that my bonds have become manifest in Christ in the whole praetorium, and to the other places-all,"
+    "content": "so that my bonds have become manifest in Christ in the whole praetorium, and to the other places—all,"
   },
   {
     "book": "PHP",
     "chapter": 1,
     "verse": 14,
-    "content": "and the greater part of the brethren in the Lord, having confidence by my bonds, are more abundantly bold-fearlessly to speak the word."
+    "content": "and the greater part of the brethren in the Lord, having confidence by my bonds, are more abundantly bold—fearlessly to speak the word."
   },
   {
     "book": "PHP",
     "chapter": 1,
     "verse": 15,
-    "content": "Certain, indeed, even through envy and contention, and certain also through good-will, do preach the Christ;"
+    "content": {
+      "paragraph": true,
+      "text": "Certain, indeed, even through envy and contention, and certain also through good-will, do preach the Christ;"
+    }
   },
   {
     "book": "PHP",
@@ -108,7 +238,10 @@
     "book": "PHP",
     "chapter": 1,
     "verse": 18,
-    "content": "what then? in every way, whether in pretence or in truth, Christ is proclaimed-and in this I rejoice, yea, and shall rejoice."
+    "content": {
+      "paragraph": true,
+      "text": "what then? in every way, whether in pretence or in truth, Christ is proclaimed—and in this I rejoice, yea, and shall rejoice."
+    }
   },
   {
     "book": "PHP",
@@ -126,13 +259,35 @@
     "book": "PHP",
     "chapter": 1,
     "verse": 21,
-    "content": "for to me to live is Christ, and to die gain."
+    "content": [
+      { "paragraph": true, "text": "for to me to live " },
+      { "text": "is", "marks": ["i"] },
+      " Christ, and to die gain."
+    ]
   },
   {
     "book": "PHP",
     "chapter": 1,
     "verse": 22,
-    "content": "And if to live in the flesh is to me a fruit of work, then what shall I choose? I know not;"
+    "content": [
+      "And if ",
+      {
+        "text": "to live in the flesh",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "the living in flesh this is to me a fruit of work...choose (lit. lift up) I know not,",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      " to me a fruit of work, then what shall I choose? I know not;"
+    ]
   },
   {
     "book": "PHP",
@@ -162,13 +317,32 @@
     "book": "PHP",
     "chapter": 1,
     "verse": 27,
-    "content": "Only worthily of the good news of the Christ conduct ye yourselves, that, whether having come and seen you, whether being absent I may hear of the things concerning you, that ye stand fast in one spirit, with one soul, striving together for the faith of the good news,"
+    "content": {
+      "paragraph": true,
+      "text": "Only worthily of the good news of the Christ conduct ye yourselves, that, whether having come and seen you, whether being absent I may hear of the things concerning you, that ye stand fast in one spirit, with one soul, striving together for the faith of the good news,"
+    }
   },
   {
     "book": "PHP",
     "chapter": 1,
     "verse": 28,
-    "content": "and not terrified in anything by those opposing, which to them indeed is a token of destruction, and to you of salvation, and that from God;"
+    "content": [
+      "and not terrified in anything by ",
+      {
+        "text": "those opposing",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "by those set over against...token (or inward sign) of a full loss...from God.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", which to them indeed is a token of destruction, and to you of salvation, and that from God;"
+    ]
   },
   {
     "book": "PHP",
@@ -186,22 +360,65 @@
     "book": "PHP",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "If, then, any exhortation is in Christ, if any comfort of love, if any fellowship of spirit, if any bowels and mercies,"
-    }
+    "content": [
+      { "heading": "The Mind of Christ" },
+      {
+        "paragraph": true,
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter II. may be divided into six parts; ",
+                { "bibleLink": "Philippians 2:1–4", "content": "v. 1–4" },
+                " exhortation to love and humility; ",
+                { "bibleLink": "Philippians 2:5–11", "content": "v. 5–11" },
+                " Christ’s humility and exaltation: ",
+                { "bibleLink": "Philippians 2:12, 13", "content": "v. 12, 13" },
+                " work with God; ",
+                { "bibleLink": "Philippians 2:14–18", "content": "v. 14–18" },
+                " to be cheerful, blameless, life-giving; ",
+                { "bibleLink": "Philippians 2:19–24", "content": "v. 19–24" },
+                " character of Timotheus; ",
+                { "bibleLink": "Philippians 2:25–30", "content": "v. 25–30" },
+                " reasons for sending Epaphroditus."
+              ]
+            }
+          },
+          "If, then, any exhortation ",
+          { "text": "is", "marks": ["i"] },
+          " in Christ, if any comfort of love, if any fellowship of spirit, if any bowels and mercies,"
+        ]
+      }
+    ]
   },
   {
     "book": "PHP",
     "chapter": 2,
     "verse": 2,
-    "content": "fulfil ye my joy, that ye may mind the same thing-having the same love-of one soul-minding the one thing,"
+    "content": "fulfil ye my joy, that ye may mind the same thing—having the same love—of one soul—minding the one thing,"
   },
   {
     "book": "PHP",
     "chapter": 2,
     "verse": 3,
-    "content": "nothing in rivalry or vain-glory, but in humility of mind one another counting more excellent than yourselves-"
+    "content": [
+      "nothing in rivalry or vain-glory, but in humility of mind ",
+      {
+        "text": "one another counting more excellent than yourselves",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "nothing according to...but with lowly-mindedness esteeming one another as being above yourselves.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "—"
+    ]
   },
   {
     "book": "PHP",
@@ -213,13 +430,21 @@
     "book": "PHP",
     "chapter": 2,
     "verse": 5,
-    "content": "For, let this mind be in you that is also in Christ Jesus,"
+    "content": [
+      "For, let this mind be in you that ",
+      { "text": "is", "marks": ["i"] },
+      " also in Christ Jesus,"
+    ]
   },
   {
     "book": "PHP",
     "chapter": 2,
     "verse": 6,
-    "content": "who, being in the form of God, thought it not robbery to be equal to God,"
+    "content": [
+      "who, being in the form of God, thought ",
+      { "text": "it", "marks": ["i"] },
+      " not robbery to be equal to God,"
+    ]
   },
   {
     "book": "PHP",
@@ -231,31 +456,42 @@
     "book": "PHP",
     "chapter": 2,
     "verse": 8,
-    "content": "and in fashion having been found as a man, he humbled himself, having become obedient unto death-death even of a cross,"
+    "content": "and in fashion having been found as a man, he humbled himself, having become obedient unto death—death even of a cross,"
   },
   {
     "book": "PHP",
     "chapter": 2,
     "verse": 9,
-    "content": "wherefore, also, God did highly exalt him, and gave to him a name that is above every name,"
+    "content": [
+      "wherefore, also, God did highly exalt him, and gave to him a name that ",
+      { "text": "is", "marks": ["i"] },
+      " above every name,"
+    ]
   },
   {
     "book": "PHP",
     "chapter": 2,
     "verse": 10,
-    "content": "that in the name of Jesus every knee may bow-of heavenlies, and earthlies, and what are under the earth-"
+    "content": "that in the name of Jesus every knee may bow—of heavenlies, and earthlies, and what are under the earth—"
   },
   {
     "book": "PHP",
     "chapter": 2,
     "verse": 11,
-    "content": "and every tongue may confess that Jesus Christ is Lord, to the glory of God the Father."
+    "content": [
+      "and every tongue may confess that Jesus Christ ",
+      { "text": "is", "marks": ["i"] },
+      " Lord, to the glory of God the Father."
+    ]
   },
   {
     "book": "PHP",
     "chapter": 2,
     "verse": 12,
-    "content": "So that, my beloved, as ye always obey, not as in my presence only, but now much more in my absence, with fear and trembling your own salvation work out,"
+    "content": {
+      "paragraph": true,
+      "text": "So that, my beloved, as ye always obey, not as in my presence only, but now much more in my absence, with fear and trembling your own salvation work out,"
+    }
   },
   {
     "book": "PHP",
@@ -267,7 +503,20 @@
     "book": "PHP",
     "chapter": 2,
     "verse": 14,
-    "content": "All things do without murmurings and reasonings,"
+    "content": [
+      "All things do ",
+      {
+        "text": "without",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "apart from...diverse reasonings.", "marks": ["i"] }
+          ]
+        }
+      },
+      " murmurings and reasonings,"
+    ]
   },
   {
     "book": "PHP",
@@ -297,7 +546,10 @@
     "book": "PHP",
     "chapter": 2,
     "verse": 19,
-    "content": "And I hope, in the Lord Jesus, Timotheus to send quickly to you, that I also may be of good spirit, having known the things concerning you,"
+    "content": {
+      "paragraph": true,
+      "text": "And I hope, in the Lord Jesus, Timotheus to send quickly to you, that I also may be of good spirit, having known the things concerning you,"
+    }
   },
   {
     "book": "PHP",
@@ -315,13 +567,17 @@
     "book": "PHP",
     "chapter": 2,
     "verse": 22,
-    "content": "and the proof of him ye know, that as a child serveth a father, with me he did serve in regard to the good news;"
+    "content": [
+      "and the proof of him ye know, that as a child ",
+      { "text": "serveth", "marks": ["i"] },
+      " a father, with me he did serve in regard to the good news;"
+    ]
   },
   {
     "book": "PHP",
     "chapter": 2,
     "verse": 23,
-    "content": "him, indeed, therefore, I hope to send, when I may see through the things concerning me-immediately;"
+    "content": "him, indeed, therefore, I hope to send, when I may see through the things concerning me—immediately;"
   },
   {
     "book": "PHP",
@@ -333,7 +589,11 @@
     "book": "PHP",
     "chapter": 2,
     "verse": 25,
-    "content": "And I thought it necessary Epaphroditus-my brother, and fellow-workman, and fellow-soldier, and your apostle and servant to my need-to send unto you,"
+    "content": [
+      "And I thought ",
+      { "text": "it", "marks": ["i"] },
+      " necessary Epaphroditus—my brother, and fellow-workman, and fellow-soldier, and your apostle and servant to my need—to send unto you,"
+    ]
   },
   {
     "book": "PHP",
@@ -369,16 +629,44 @@
     "book": "PHP",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "As to the rest, my brethren, rejoice in the Lord; the same things to write to you to me indeed is not tiresome, and for you is sure;"
-    }
+    "content": [
+      { "heading": "Paul and Christ" },
+      {
+        "paragraph": true,
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter III. may be divided into five parts; ",
+                { "bibleLink": "Philippians 3:1–7", "content": "v. 1–7" },
+                " to avoid Judaizing; ",
+                { "bibleLink": "Philippians 3:8–11", "content": "v. 8–11" },
+                " gains and losses for Christ; ",
+                { "bibleLink": "Philippians 3:12–14", "content": "v. 12–14" },
+                " striving for the prize; ",
+                { "bibleLink": "Philippians 3:15–17", "content": "v. 15–17" },
+                " future revelations and present conduct; ",
+                { "bibleLink": "Philippians 3:18–21", "content": "v. 18–21" },
+                " a contrast, future hope."
+              ]
+            }
+          },
+          "As to the rest, my brethren, rejoice in the Lord; the same things to write to you to me indeed is not tiresome, and for you ",
+          { "text": "is", "marks": ["i"] },
+          " sure;"
+        ]
+      }
+    ]
   },
   {
     "book": "PHP",
     "chapter": 3,
     "verse": 2,
-    "content": "look to the dogs, look to the evil-workers, look to the concision;"
+    "content": {
+      "paragraph": true,
+      "text": "look to the dogs, look to the evil-workers, look to the concision;"
+    }
   },
   {
     "book": "PHP",
@@ -390,7 +678,11 @@
     "book": "PHP",
     "chapter": 3,
     "verse": 4,
-    "content": "though I also have cause of trust in flesh. If any other one doth think to have trust in flesh, I more;"
+    "content": [
+      { "paragraph": true, "text": "though I also have " },
+      { "text": "cause of", "marks": ["i"] },
+      " trust in flesh. If any other one doth think to have trust in flesh, I more;"
+    ]
   },
   {
     "book": "PHP",
@@ -420,7 +712,13 @@
     "book": "PHP",
     "chapter": 3,
     "verse": 9,
-    "content": "not having my righteousness, which is of law, but that which is through faith of Christ-the righteousness that is of God by the faith,"
+    "content": [
+      "not having my righteousness, which ",
+      { "text": "is", "marks": ["i"] },
+      " of law, but that which ",
+      { "text": "is", "marks": ["i"] },
+      " through faith of Christ—the righteousness that is of God by the faith,"
+    ]
   },
   {
     "book": "PHP",
@@ -444,7 +742,7 @@
     "book": "PHP",
     "chapter": 3,
     "verse": 13,
-    "content": "brethren, I do not reckon myself to have laid hold; and one thing-the things behind indeed forgetting, and to the things before stretching forth-"
+    "content": "brethren, I do not reckon myself to have laid hold; and one thing—the things behind indeed forgetting, and to the things before stretching forth—"
   },
   {
     "book": "PHP",
@@ -456,37 +754,54 @@
     "book": "PHP",
     "chapter": 3,
     "verse": 15,
-    "content": "As many, therefore, as are perfect-let us think this, and if in anything ye think otherwise, this also shall God reveal to you,"
+    "content": [
+      "As many, therefore, as ",
+      { "text": "are", "marks": ["i"] },
+      " perfect—let us think this, and if ",
+      { "text": "in", "marks": ["i"] },
+      " anything ye think otherwise, this also shall God reveal to you,"
+    ]
   },
   {
     "book": "PHP",
     "chapter": 3,
     "verse": 16,
-    "content": "but to what we have come-by the same rule walk, the same thing think;"
+    "content": "but to what we have come—by the same rule walk, the same thing think;"
   },
   {
     "book": "PHP",
     "chapter": 3,
     "verse": 17,
-    "content": "become followers together of me, brethren, and observe those thus walking, according as ye have us-a pattern;"
+    "content": {
+      "paragraph": true,
+      "text": "become followers together of me, brethren, and observe those thus walking, according as ye have us—a pattern;"
+    }
   },
   {
     "book": "PHP",
     "chapter": 3,
     "verse": 18,
-    "content": "for many walk of whom many times I told you-and now also weeping tell-the enemies of the cross of the Christ!"
+    "content": "for many walk of whom many times I told you—and now also weeping tell—the enemies of the cross of the Christ!"
   },
   {
     "book": "PHP",
     "chapter": 3,
     "verse": 19,
-    "content": "whose end is destruction, whose god is the belly, and whose glory is in their shame, who the things on earth are minding."
+    "content": [
+      "whose end ",
+      { "text": "is", "marks": ["i"] },
+      " destruction, whose god ",
+      { "text": "is", "marks": ["i"] },
+      " the belly, and whose glory ",
+      { "text": "is", "marks": ["i"] },
+      " in their shame, who the things on earth are minding."
+    ]
   },
   {
     "book": "PHP",
     "chapter": 3,
     "verse": 20,
-    "content": "For our citizenship is in the heavens, whence also a Saviour we await-the Lord Jesus Christ-"
+    "content": "For our citizenship is in the heavens, whence also a Saviour we await—the Lord Jesus Christ—"
   },
   {
     "book": "PHP",
@@ -498,40 +813,112 @@
     "book": "PHP",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "So then, my brethren, beloved and longed for, my joy and crown, so stand ye in the Lord, beloved."
-    }
+    "content": [
+      { "heading": "Paul and the Philippians" },
+      {
+        "paragraph": true,
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter IV. may be divided into four parts; ",
+                { "bibleLink": "Philippians 4:1–9", "content": "v. 1–9" },
+                " special and general exhortations; ",
+                { "bibleLink": "Philippians 4:10–12", "content": "v. 10–12" },
+                " Paul’s contentment; ",
+                { "bibleLink": "Philippians 4:13–20", "content": "v. 13–20" },
+                " their gifts and his prayer; ",
+                { "bibleLink": "Philippians 4:21–23", "content": "v. 21–23" },
+                " mutual salutations."
+              ]
+            }
+          },
+          "So then, my brethren, beloved and longed for, my joy and crown, so stand ye in the Lord, beloved."
+        ]
+      }
+    ]
   },
   {
     "book": "PHP",
     "chapter": 4,
     "verse": 2,
-    "content": "Euodia I exhort, and Syntyche I exhort, to be of the same mind in the Lord;"
+    "content": {
+      "paragraph": true,
+      "content": [
+        "Euodia I ",
+        {
+          "text": "exhort",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "call upon,", "marks": ["i"] }]
+          }
+        },
+        ", and Syntyche I exhort, to be of the same mind in the Lord;"
+      ]
+    }
   },
   {
     "book": "PHP",
     "chapter": 4,
     "verse": 3,
-    "content": "and I ask also thee, genuine yoke-fellow, be assisting those women who in the good news did strive along with me, with Clement also, and the others, my fellow-workers, whose names are in the book of life."
+    "content": [
+      "and I ask also thee, genuine yoke-fellow, be assisting those women who in the good news did strive along with me, with Clement also, and the others, my fellow-workers, whose names ",
+      { "text": "are", "marks": ["i"] },
+      " in the book of life."
+    ]
   },
   {
     "book": "PHP",
     "chapter": 4,
     "verse": 4,
-    "content": "Rejoice in the Lord always; again I will say, rejoice;"
+    "content": {
+      "paragraph": true,
+      "text": "Rejoice in the Lord always; again I will say, rejoice;"
+    }
   },
   {
     "book": "PHP",
     "chapter": 4,
     "verse": 5,
-    "content": "let your forbearance be known to all men; the Lord is near;"
+    "content": [
+      "let your ",
+      {
+        "text": "forbearance",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "much yieldingness...is nigh.", "marks": ["i"] }
+          ]
+        }
+      },
+      " be known to all men; the Lord ",
+      { "text": "is", "marks": ["i"] },
+      " near;"
+    ]
   },
   {
     "book": "PHP",
     "chapter": 4,
     "verse": 6,
-    "content": "for nothing be anxious, but in everything by prayer, and by supplication, with thanksgiving, let your requests be made known unto God;"
+    "content": [
+      "for nothing be ",
+      {
+        "text": "anxious",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "divided (in mind)...by the pouring forth before (God), and the supplication, with much leaping for joy.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", but in everything by prayer, and by supplication, with thanksgiving, let your requests be made known unto God;"
+    ]
   },
   {
     "book": "PHP",
@@ -543,7 +930,23 @@
     "book": "PHP",
     "chapter": 4,
     "verse": 8,
-    "content": "As to the rest, brethren, as many things as are true, as many as are grave, as many as are righteous, as many as are pure, as many as are lovely, as many as are of good report, if any worthiness, and if any praise, these things think upon;"
+    "content": [
+      { "heading": "Think on These Things" },
+      {
+        "paragraph": true,
+        "text": "As to the rest, brethren, as many things as are true, as many as "
+      },
+      { "text": "are", "marks": ["i"] },
+      " grave, as many as ",
+      { "text": "are", "marks": ["i"] },
+      " righteous, as many as ",
+      { "text": "are", "marks": ["i"] },
+      " pure, as many as ",
+      { "text": "are", "marks": ["i"] },
+      " lovely, as many as ",
+      { "text": "are", "marks": ["i"] },
+      " of good report, if any worthiness, and if any praise, these things think upon;"
+    ]
   },
   {
     "book": "PHP",
@@ -555,13 +958,20 @@
     "book": "PHP",
     "chapter": 4,
     "verse": 10,
-    "content": "And I rejoiced in the Lord greatly, that now at length ye flourished again in caring for me, for which also ye were caring, and lacked opportunity;"
+    "content": {
+      "paragraph": true,
+      "text": "And I rejoiced in the Lord greatly, that now at length ye flourished again in caring for me, for which also ye were caring, and lacked opportunity;"
+    }
   },
   {
     "book": "PHP",
     "chapter": 4,
     "verse": 11,
-    "content": "not that in respect of want I say it, for I did learn in the things in which I am-to be content;"
+    "content": [
+      "not that in respect of want I say ",
+      { "text": "it", "marks": ["i"] },
+      ", for I did learn in the things in which I am—to be content;"
+    ]
   },
   {
     "book": "PHP",
@@ -603,7 +1013,7 @@
     "book": "PHP",
     "chapter": 4,
     "verse": 18,
-    "content": "and I have all things, and abound; I am filled, having received from Epaphroditus the things from you-an odour of a sweet smell-a sacrifice acceptable, well-pleasing to God:"
+    "content": "and I have all things, and abound; I am filled, having received from Epaphroditus the things from you—an odour of a sweet smell—a sacrifice acceptable, well-pleasing to God:"
   },
   {
     "book": "PHP",
@@ -615,24 +1025,71 @@
     "book": "PHP",
     "chapter": 4,
     "verse": 20,
-    "content": "and to God, even our Father, is the glory-to the ages of the ages. Amen."
+    "content": [
+      "and to God, even our Father, ",
+      { "text": "is", "marks": ["i"] },
+      " the glory—to the ages of the ages. Amen."
+    ]
   },
   {
     "book": "PHP",
     "chapter": 4,
     "verse": 21,
-    "content": "Salute ye every saint in Christ Jesus; there salute you the brethren with me;"
+    "content": {
+      "paragraph": true,
+      "content": [
+        {
+          "text": "Salute",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "draw ye near every hallowed one.", "marks": ["i"] }
+            ]
+          }
+        },
+        " ye every saint in Christ Jesus; there ",
+        {
+          "text": "salute",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "draw you near.", "marks": ["i"] }]
+          }
+        },
+        " you the brethren with me;"
+      ]
+    }
   },
   {
     "book": "PHP",
     "chapter": 4,
     "verse": 22,
-    "content": "there salute you all the saints, and specially those of Caesar’s house;"
+    "content": [
+      "there salute you all the ",
+      {
+        "text": "saints",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "hallowed ones draw you near, but especially those of Caesar’s house.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", and specially those of Caesar’s house;"
+    ]
   },
   {
     "book": "PHP",
     "chapter": 4,
     "verse": 23,
-    "content": "the grace of our Lord Jesus Christ is with you all. Amen."
+    "content": [
+      { "paragraph": true, "text": "the grace of our Lord Jesus Christ " },
+      { "text": "is", "marks": ["i"] },
+      " with you all. Amen."
+    ]
   }
 ]

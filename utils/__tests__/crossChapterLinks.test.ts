@@ -1,13 +1,12 @@
 import { describe, it, expect } from "vitest";
 import { classifyBibleLink, findCrossChapterLinks, fixCrossChapterLinks, splitCrossChapterLink, splitCrossChapterLinksInContent } from "../crossChapterLinks";
 
-// Target strings below are drawn from this repo's own six versions
-// (ASV1901, BYZ2018, CLV1880, KJV1769, WEBUS2020, YLT1898) wherever a real
-// example exists — WEBUS2020 is the only one of the six that carries any
-// `bibleLink` at all (423 corpus-wide), so most real fixtures are its own.
-// Two shapes this repo's own data does not currently contain at all
-// (`wholeChapterRange`, a bare chapter reference) are marked below as
-// grammar illustrations rather than claimed as real occurrences.
+// Target strings are drawn from this repo's own six versions (ASV1901,
+// BYZ2018, CLV1880, KJV1769, WEBUS2020, YLT1898) wherever a real example
+// exists — WEBUS2020 is the only one with any `bibleLink` at all (423
+// corpus-wide), so most fixtures are its own. Two shapes absent from this
+// repo's data (`wholeChapterRange`, a bare chapter reference) are marked
+// below as grammar illustrations, not real occurrences.
 
 describe("classifyBibleLink — target shape", () => {
   it("should classify an em-dash cross-chapter target as crossChapterRange (the real WEBUS2020 Hebrews 11:34 finding)", () => {
@@ -69,9 +68,11 @@ describe("classifyBibleLink — per-version chapter lengths", () => {
     expect(classifyBibleLink("WEBUS2020", "Romans 14:1").firstChapterLastVerse).toBe(26);
   });
 
-  it("should read 3 John 1's last verse as 14 from WEBUS2020 but 15 from YLT1898, same function, different version", () => {
+  it("should read 3 John 1's last verse as 14 from both WEBUS2020 and YLT1898", () => {
+    // YLT1898's 3 John has 14 verses, matching the standard versification and
+    // every other version here — an earlier import miscounted it as 15.
     expect(classifyBibleLink("WEBUS2020", "3 John 1:1").firstChapterLastVerse).toBe(14);
-    expect(classifyBibleLink("YLT1898", "3 John 1:1").firstChapterLastVerse).toBe(15);
+    expect(classifyBibleLink("YLT1898", "3 John 1:1").firstChapterLastVerse).toBe(14);
   });
 
   it("should report a chapter this version does not carry as unknown, not default it to 0", () => {
@@ -101,10 +102,9 @@ describe("classifyBibleLink — book-name resolution restricted to a version's o
 
 describe("findCrossChapterLinks", () => {
   it("should report zero findings for WEBUS2020 now that this repo's own --fix run has split its one Hebrews 11:34 link", () => {
-    // This repo's `npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix`
-    // rewrote bible-versions/WEBUS2020/58-HEB.json for real, and both halves
-    // ("2 Kings 6:31–33", "2 Kings 7:1–20") classify as singleChapter, so the
-    // finding is gone rather than merely changed.
+    // `auditCrossChapterLinks.ts WEBUS2020 --fix` already rewrote 58-HEB.json
+    // for real; both split halves classify as singleChapter, so the finding
+    // is gone rather than merely changed.
     expect(findCrossChapterLinks("WEBUS2020").findings).toHaveLength(0);
   });
 
@@ -186,10 +186,8 @@ describe("splitCrossChapterLinksInContent — idempotence", () => {
 
 describe("fixCrossChapterLinks — read-only, whole-version application", () => {
   it("should report nothing left to fix for WEBUS2020, now that this repo's own --fix run has already split 58-HEB.json's Hebrews 11:34 link", () => {
-    // This is the whole-version equivalent of the idempotence proof above:
-    // bible-versions/WEBUS2020/58-HEB.json was rewritten for real by this
-    // repo's `--fix` application, so re-running the fixer against it today
-    // finds nothing left to do.
+    // Whole-version equivalent of the idempotence proof above: 58-HEB.json's
+    // real fix is already applied, so there's nothing left to do.
     expect(fixCrossChapterLinks("WEBUS2020")).toHaveLength(0);
   });
 

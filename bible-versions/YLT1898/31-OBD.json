@@ -5,20 +5,30 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Thus said the Lord Jehovah to Edom, A report we have heard from Jehovah, And an ambassador among nations was sent, ‘Rise, yea, let us rise against her for battle.’"
+      "text": "Thus said the Lord Jehovah to Edom, A report we have heard from Jehovah, And an ambassador among nations was sent, “Rise, yea, let us rise against her for battle.”"
     }
   },
   {
     "book": "OBD",
     "chapter": 1,
     "verse": 2,
-    "content": "Lo, little I have made thee among nations, Despised art thou exceedingly."
+    "content": [
+      "Lo, little I have made thee among nations, Despised ",
+      { "text": "art", "marks": ["i"] },
+      " thou exceedingly."
+    ]
   },
   {
     "book": "OBD",
     "chapter": 1,
     "verse": 3,
-    "content": "The pride of thy heart hath lifted thee up, O dweller in clifts of a rock, (A high place is his habitation, He is saying in his heart, ‘Who doth bring me down to earth?’)"
+    "content": [
+      "The pride of thy heart hath lifted thee up, O dweller in clifts of a rock, (A high place ",
+      { "text": "is", "marks": ["i"] },
+      " his habitation, He is saying in his heart, “Who doth bring me down ",
+      { "text": "to", "marks": ["i"] },
+      " earth?”)"
+    ]
   },
   {
     "book": "OBD",
@@ -30,7 +40,10 @@
     "book": "OBD",
     "chapter": 1,
     "verse": 5,
-    "content": "If thieves have come in to thee, If spoilers of the night, How hast thou been cut off! Do they not steal their sufficiency? If gatherers have come in to thee, Do they not leave gleanings?"
+    "content": {
+      "paragraph": true,
+      "text": "If thieves have come in to thee, If spoilers of the night, How hast thou been cut off! Do they not steal their sufficiency? If gatherers have come in to thee, Do they not leave gleanings?"
+    }
   },
   {
     "book": "OBD",
@@ -48,7 +61,7 @@
     "book": "OBD",
     "chapter": 1,
     "verse": 8,
-    "content": "Is it not in that day-an affirmation of Jehovah, That I have destroyed the wise out of Edom, And understanding out of the mount of Esau?"
+    "content": "Is it not in that day—an affirmation of Jehovah, That I have destroyed the wise out of Edom, And understanding out of the mount of Esau?"
   },
   {
     "book": "OBD",
@@ -60,19 +73,28 @@
     "book": "OBD",
     "chapter": 1,
     "verse": 10,
-    "content": "For slaughter, for violence to thy brother Jacob, Cover thee doth shame, And thou hast been cut off-to the age."
+    "content": [
+      { "heading": "Edom’s Violence" },
+      { "paragraph": true, "text": "For slaughter, for violence " },
+      { "text": "to", "marks": ["i"] },
+      " thy brother Jacob, Cover thee doth shame, And thou hast been cut off—to the age."
+    ]
   },
   {
     "book": "OBD",
     "chapter": 1,
     "verse": 11,
-    "content": "In the day of thy standing over-against, In the day of strangers taking captive his force, And foreigners have entered his gates, And for Jerusalem have cast a lot, Even thou art as one of them!"
+    "content": [
+      "In the day of thy standing over-against, In the day of strangers taking captive his force, And foreigners have entered his gates, And for Jerusalem have cast a lot, Even thou ",
+      { "text": "art", "marks": ["i"] },
+      " as one of them!"
+    ]
   },
   {
     "book": "OBD",
     "chapter": 1,
     "verse": 12,
-    "content": "And-thou dost not look on the day of thy brother, On the day of his alienation, Nor dost thou rejoice over sons of Judah, In the day of their destruction, Nor make great thy mouth in a day of distress."
+    "content": "And—thou dost not look on the day of thy brother, On the day of his alienation, Nor dost thou rejoice over sons of Judah, In the day of their destruction, Nor make great thy mouth in a day of distress."
   },
   {
     "book": "OBD",
@@ -90,19 +112,26 @@
     "book": "OBD",
     "chapter": 1,
     "verse": 15,
-    "content": "For near is the day of Jehovah, on all the nations, As thou hast done, it is done to thee, Thy deed doth turn back on thine own head."
+    "content": [
+      { "paragraph": true, "text": "For near " },
+      { "text": "is", "marks": ["i"] },
+      " the day of Jehovah, on all the nations, As thou hast done, it is done to thee, Thy deed doth turn back on thine own head."
+    ]
   },
   {
     "book": "OBD",
     "chapter": 1,
     "verse": 16,
-    "content": "For-as ye have drunk on My holy mount, Drink do all the nations continually, And they have drunk and have swallowed, And they have been as they have not been."
+    "content": "For—as ye have drunk on My holy mount, Drink do all the nations continually, And they have drunk and have swallowed, And they have been as they have not been."
   },
   {
     "book": "OBD",
     "chapter": 1,
     "verse": 17,
-    "content": "And in mount Zion there is an escape, And it hath been holy, And the house of Jacob have possessed their possessions."
+    "content": {
+      "paragraph": true,
+      "text": "And in mount Zion there is an escape, And it hath been holy, And the house of Jacob have possessed their possessions."
+    }
   },
   {
     "book": "OBD",
@@ -114,18 +143,27 @@
     "book": "OBD",
     "chapter": 1,
     "verse": 19,
-    "content": "And they have possessed the south with the mount of Esau, And the low country with the Philistines, And they have possessed the field of Ephraim, And the field of Samaria, And Benjamin with Gilead."
+    "content": {
+      "paragraph": true,
+      "text": "And they have possessed the south with the mount of Esau, And the low country with the Philistines, And they have possessed the field of Ephraim, And the field of Samaria, And Benjamin with Gilead."
+    }
   },
   {
     "book": "OBD",
     "chapter": 1,
     "verse": 20,
-    "content": "And the removed of this force of the sons of Israel, That is with the Canaanites unto Zarephat, And the removed of Jerusalem that is with the Sepharad, Possess the cities of the south."
+    "content": [
+      "And the removed of this force of the sons of Israel, That ",
+      { "text": "is with", "marks": ["i"] },
+      " the Canaanites unto Zarephat, And the removed of Jerusalem that ",
+      { "text": "is", "marks": ["i"] },
+      " with the Sepharad, Possess the cities of the south."
+    ]
   },
   {
     "book": "OBD",
     "chapter": 1,
     "verse": 21,
-    "content": "And gone up have saviours on mount Zion, To judge the mount of Esau, And the kingdom hath been to Jehovah!’"
+    "content": "And gone up have saviours on mount Zion, To judge the mount of Esau, And the kingdom hath been to Jehovah!”"
   }
 ]

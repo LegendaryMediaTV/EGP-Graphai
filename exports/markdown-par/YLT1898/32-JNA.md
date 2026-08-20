@@ -1,59 +1,73 @@
 ## Chapter 1
 
 <sup>1</sup> And there is a word of Jehovah unto Jonah son of Amittai, saying:
-<sup>2</sup> ‘Rise, go unto Nineveh, the great city, and proclaim against it that their wickedness hath come up before Me.’
-<sup>3</sup> And Jonah riseth to flee to Tarshish from the face of Jehovah, and goeth down to Joppa, and findeth a ship going to Tarshish, and he giveth its fare, and goeth down into it, to go with them to Tarshish from the face of Jehovah.
+<sup>2</sup> “Rise, go unto Nineveh, the great city, and proclaim against it that their wickedness hath come up before Me.”
+<sup>3</sup> And Jonah riseth to flee to Tarshish from the face of Jehovah, and goeth down _to_ Joppa, and findeth a ship going _to_ Tarshish, and he giveth its fare, and goeth down into it, to go with them to Tarshish from the face of Jehovah.
+
 <sup>4</sup> And Jehovah hath cast a great wind on the sea, and there is a great tempest in the sea, and the ship hath reckoned to be broken;
-<sup>5</sup> and the mariners are afraid, and cry each unto his god, and cast the goods that are in the ship into the sea, to make it light of them; and Jonah hath gone down unto the sides of the vessel, and he lieth down, and is fast asleep.
-<sup>6</sup> And the chief of the company draweth near to him, and saith to him, ‘What-to thee, O sleeper? rise, call unto thy God, it may be God doth bethink himself of us, and we do not perish.’
-<sup>7</sup> And they say each unto his neighbour, ‘Come, and we cast lots, and we know on whose account this evil is on us.’ And they cast lots, and the lot falleth on Jonah.
-<sup>8</sup> And they say unto him, ‘Declare to us, we pray thee, on what account this evil is on us? what is thine occupation, and whence comest thou? what is thy country, seeing thou art not of this people?’
-<sup>9</sup> And he saith unto them, ‘A Hebrew I am, and Jehovah, God of the heavens, I am reverencing, who made the sea and the dry land.’
-<sup>10</sup> And the men fear a great fear, and say unto him, ‘What is this thou hast done!’ for the men have known that from the face of Jehovah he is fleeing, for he hath told them.
-<sup>11</sup> And they say unto him, ‘What do we do to thee that the sea may cease from us, for the sea is more and more tempestuous?’
-<sup>12</sup> And he saith unto them, ‘Lift me up, and cast me into the sea, and the sea doth cease from you; for I know that on my account this great tempest is upon you.’
+<sup>5</sup> and the mariners are afraid, and cry each unto his god, and cast the goods that _are_ in the ship into the sea, to make _it_ light of them; and Jonah hath gone down unto the sides of the vessel, and he lieth down, and is fast asleep.
+<sup>6</sup> And the chief of the company draweth near to him, and saith to him, “What—to thee, O sleeper? rise, call unto thy God, it may be God doth bethink himself of us, and we do not perish.”
+<sup>7</sup> And they say each unto his neighbour, “Come, and we cast lots, and we know on whose account this evil _is_ on us.” And they cast lots, and the lot falleth on Jonah.
+<sup>8</sup> And they say unto him, “Declare to us, we pray thee, on what account this evil _is_ on us? what _is_ thine occupation, and whence comest thou? what _is_ thy country, seeing thou art not of this people?”
+<sup>9</sup> And he saith unto them, “A Hebrew I _am_, and Jehovah, God of the heavens, I am reverencing, who made the sea and the dry land.”
+<sup>10</sup> And the men fear a great fear, and say unto him, “What _is_ this thou hast done!” for the men have known that from the face of Jehovah he is fleeing, for he hath told them.
+
+<sup>11</sup> And they say unto him, “What do we do to thee that the sea may cease from us, for the sea is more and more tempestuous?”
+<sup>12</sup> And he saith unto them, “Lift me up, and cast me into the sea, and the sea doth cease from you; for I know that on my account this great tempest _is_ upon you.”
 <sup>13</sup> And the men row to turn back unto the dry land, and are not able, for the sea is more and more tempestuous against them.
-<sup>14</sup> And they cry unto Jehovah, and say, ‘We pray Thee, O Jehovah, let us not, we pray Thee, perish for this man’s life, and do not lay on us innocent blood, for Thou, Jehovah, as Thou hast pleased, Thou hast done.’
+<sup>14</sup> And they cry unto Jehovah, and say, “We pray Thee, O Jehovah, let us not, we pray Thee, perish for this man’s life, and do not lay on us innocent blood, for Thou, Jehovah, as Thou hast pleased, Thou hast done.”
 <sup>15</sup> And they lift up Jonah, and cast him into the sea, and the sea ceaseth from its raging;
-<sup>16</sup> and the men fear Jehovah-a great fear, and sacrifice a sacrifice to Jehovah, and vow vows.
+<sup>16</sup> and the men fear Jehovah—a great fear, and sacrifice a sacrifice to Jehovah, and vow vows.
+
+### The Prophet’s Prayer
+
 <sup>17</sup> And Jehovah appointeth a great fish to swallow up Jonah, and Jonah is in the bowels of the fish three days and three nights.
 
 ## Chapter 2
 
 <sup>1</sup> And Jonah prayeth unto Jehovah his God from the bowels of the fish.
-<sup>2</sup> And he saith: I called, because of my distress, to Jehovah, And He doth answer me, From the belly of sheol I have cried, Thou hast heard my voice.
-<sup>3</sup> When Thou dost cast me into the deep, Into the heart of the seas, Then the flood doth compass me, All Thy breakers and Thy billows have passed over me.
-<sup>4</sup> And I-I said: I have been cast out from before Thine eyes, (Yet I add to look unto Thy holy temple!)
-<sup>5</sup> Compassed me have waters unto the soul, The deep doth compass me, The weed is bound to my head.
-<sup>6</sup> To the cuttings of mountains I have come down, The earth, her bars are behind me to the age. And Thou bringest up from the pit my life, O Jehovah my God.
-<sup>7</sup> In the feebleness within me of my soul Jehovah I have remembered, And come in unto Thee doth my prayer, Unto Thy holy temple.
-<sup>8</sup> Those observing lying vanities their own mercy forsake.
-<sup>9</sup> And I-with a voice of thanksgiving- I sacrifice to Thee, That which I have vowed I complete, Salvation is of Jehovah.
+<sup>2</sup> And he saith: I called, because of my distress, to Jehovah, And He doth answer me, From the belly of sheol I have cried, Thou hast heard my voice.<br>
+<sup>3</sup> When Thou dost cast me _into_ the deep, Into the heart of the seas, Then the flood doth compass me, All Thy breakers and Thy billows have passed over me.<br>
+<sup>4</sup> And I—I said: I have been cast out from before Thine eyes, (Yet I add to look unto Thy holy temple!)<br>
+<sup>5</sup> Compassed me have waters unto the soul, The deep doth compass me, The weed is bound to my head.<br>
+<sup>6</sup> To the cuttings of mountains I have come down, The earth, her bars _are_ behind me to the age. And Thou bringest up from the pit my life, O Jehovah my God.<br>
+<sup>7</sup> In the feebleness within me of my soul Jehovah I have remembered, And come in unto Thee doth my prayer, Unto Thy holy temple.<br>
+<sup>8</sup> Those observing lying vanities their own mercy forsake.<br>
+<sup>9</sup> And I—with a voice of thanksgiving—I sacrifice to Thee, That which I have vowed I complete, Salvation _is_ of Jehovah.<br>
+
 <sup>10</sup> And Jehovah saith to the fish, and it vomiteth out Jonah on the dry land.
 
 ## Chapter 3
 
+### The Prophet’s Obedience
+
 <sup>1</sup> And there is a word of Jehovah unto Jonah a second time, saying,
-<sup>2</sup> ‘Rise, go unto Nineveh, the great city, and proclaim unto it the proclamation that I am speaking unto thee;’
+<sup>2</sup> “Rise, go unto Nineveh, the great city, and proclaim unto it the proclamation that I am speaking unto thee;”
 <sup>3</sup> and Jonah riseth, and he goeth unto Nineveh, according to the word of Jehovah. And Nineveh hath been a great city before God, a journey of three days.
-<sup>4</sup> And Jonah beginneth to go in to the city a journey of one day, and proclaimeth, and saith, ‘Yet forty days-and Nineveh is overturned.’
+<sup>4</sup> And Jonah beginneth to go in to the city a journey of one day, and proclaimeth, and saith, “Yet forty days—and Nineveh is overturned.”
+
 <sup>5</sup> And the men of Nineveh believe in God, and proclaim a fast, and put on sackcloth, from their greatest even unto their least,
 <sup>6</sup> seeing the word doth come unto the king of Nineveh, and he riseth from his throne, and removeth his honourable robe from off him, and spreadeth out sackcloth, and sitteth on the ashes,
-<sup>7</sup> and he crieth and saith in Nineveh by a decree of the king and his great ones, saying, ‘Man and beast, herd and flock-let them not taste anything, let them not feed, even water let them not drink;
-<sup>8</sup> and cover themselves with sackcloth let man and beast, and let them call unto God mightily, and let them turn back each from his evil way, and from the violence that is in their hands.
-<sup>9</sup> Who knoweth? He doth turn back, and God hath repented, and hath turned back from the heat of His anger, and we do not perish.’
-<sup>10</sup> And God seeth their works, that they have turned back from their evil way, and God repenteth of the evil that He spake of doing to them, and he hath not done it.
+<sup>7</sup> and he crieth and saith in Nineveh by a decree of the king and his great ones, saying, “Man and beast, herd and flock—let them not taste anything, let them not feed, even water let them not drink;
+<sup>8</sup> and cover themselves _with_ sackcloth let man and beast, and let them call unto God mightily, and let them turn back each from his evil way, and from the violence that _is_ in their hands.
+<sup>9</sup> Who knoweth? He doth turn back, and God hath repented, and hath turned back from the heat of His anger, and we do not perish.”
+
+<sup>10</sup> And God seeth their works, that they have turned back from their evil way, and God repenteth of the evil that He spake of doing to them, and he hath not done _it_.
 
 ## Chapter 4
 
-<sup>1</sup> And it is grievous unto Jonah-a great evil-and he is displeased at it;
-<sup>2</sup> and he prayeth unto Jehovah, and he saith, ‘I pray Thee, O Jehovah, is not this my word while I was in mine own land-therefore I was beforehand to flee to Tarshish-that I have known that Thou art a God, gracious and merciful, slow to anger, and abundant in kindness, and repenting of evil?
-<sup>3</sup> And now, O Jehovah, take, I pray Thee, my soul from me, for better is my death than my life.’
-<sup>4</sup> And Jehovah saith, ‘Is doing good displeasing to thee?’
+### The Prophet’s Education
+
+<sup>1</sup> And it is grievous unto Jonah—a great evil—and he is displeased at it;
+<sup>2</sup> and he prayeth unto Jehovah, and he saith, “I pray Thee, O Jehovah, is not this my word while I was in mine own land—therefore I was beforehand to flee to Tarshish—that I have known that Thou _art_ a God, gracious and merciful, slow to anger, and abundant in kindness, and repenting of evil?
+<sup>3</sup> And now, O Jehovah, take, I pray Thee, my soul from me, for better _is_ my death than my life.”
+<sup>4</sup> And Jehovah saith, “Is doing good displeasing to thee?”
 <sup>5</sup> And Jonah goeth forth from the city, and sitteth on the east of the city, and maketh to himself there a booth, and sitteth under it in the shade, till that he seeth what is in the city.
-<sup>6</sup> And Jehovah God appointeth a gourd, and causeth it to come up over Jonah, to be a shade over his head, to give deliverance to him from his affliction, and Jonah rejoiceth because of the gourd with great joy.
+
+<sup>6</sup> And Jehovah God appointeth a gourd, and causeth it to come up over Jonah, to be a shade over his head, to give deliverance to him from his affliction, and Jonah rejoiceth because of the gourd _with_ great joy.
 <sup>7</sup> And God appointeth a worm at the going up of the dawn on the morrow, and it smiteth the gourd, and it drieth up.
-<sup>8</sup> And it cometh to pass, about the rising of the sun, that God appointeth a cutting east wind, and the sun smiteth on the head of Jonah, and he wrappeth himself up, and asketh his soul to die, and saith, ‘Better is my death than my life.’
-<sup>9</sup> And God saith unto Jonah: ‘Is doing good displeasing to thee, because of the gourd?’ and he saith, ‘To do good is displeasing to me-unto death.’
-<sup>10</sup> And Jehovah saith, ‘Thou hast had pity on the gourd, for which thou didst not labour, neither didst thou nourish it, which a son of a night was, and a son of a night perished,
-<sup>11</sup> and I-have not I pity on Nineveh, the great city, in which there are more than twelve myriads of human beings, who have not known between their right hand and their left-and much cattle!’
+<sup>8</sup> And it cometh to pass, about the rising of the sun, that God appointeth a cutting east wind, and the sun smiteth on the head of Jonah, and he wrappeth himself up, and asketh his soul to die, and saith, “Better _is_ my death than my life.”
+
+<sup>9</sup> And God saith unto Jonah: “Is doing good displeasing to thee, because of the gourd?” and he saith, “To do good is displeasing to me—unto death.”
+<sup>10</sup> And Jehovah saith, “Thou hast had pity on the gourd, for which thou didst not labour, neither didst thou nourish it, which a son of a night was, and a son of a night perished,
+<sup>11</sup> and I—have not I pity on Nineveh, the great city, in which there are more than twelve myriads of human beings, who have not known between their right hand and their left—and much cattle!”

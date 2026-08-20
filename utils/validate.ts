@@ -56,13 +56,11 @@ async function sortVerseFileKeys(filePath: string): Promise<boolean> {
 /**
  * Format a JSON file and write it back if changed.
  *
- * Formats from the parsed data, not the file's raw text, so it always lands on
- * the canonical form {@link writeJsonFile} would produce for equivalent
- * content. Formatting the raw text would let Prettier preserve pre-existing
- * line breaks instead of re-deriving them from width, so a drifted file would
- * keep passing as "already formatted."
+ * Formats from the parsed data, not the file's raw text, so the output always
+ * matches the canonical form {@link writeJsonFile} produces. Formatting raw
+ * text would let Prettier preserve pre-existing line breaks, so a drifted
+ * file could keep passing as "already formatted."
  *
- * @param filePath - Path to the JSON file
  * @returns true if the file was reformatted, false if unchanged
  */
 async function formatJsonFile(filePath: string): Promise<boolean> {
@@ -78,8 +76,16 @@ async function formatJsonFile(filePath: string): Promise<boolean> {
 
 /**
  * Collect all JSON files to be validated and formatted.
+ *
+ * The root-level schema, the bible-books registry, and the two
+ * bible-versions-wide schemas are always included regardless of scope —
+ * every version depends on them.
+ *
+ * @param versionDirs - Version folder names to scope collection to — e.g.
+ *   `["YLT1898"]` for one requested version, or `getVersionDirectories()`'s
+ *   full result to collect every version's files
  */
-function collectJsonFiles(): string[] {
+export function collectJsonFiles(versionDirs: string[]): string[] {
   const files: string[] = [];
 
   // Root-level schema
@@ -94,7 +100,6 @@ function collectJsonFiles(): string[] {
   files.push("./bible-versions/bible-verses-schema.json");
 
   // Version folders and their files
-  const versionDirs = getVersionDirectories(bibleVersionsDir);
   for (const versionDir of versionDirs) {
     const versionPath = path.join(bibleVersionsDir, versionDir);
     const jsonFiles = fs
@@ -110,46 +115,39 @@ function collectJsonFiles(): string[] {
 }
 
 /**
- * Properties that carry a node's content instead of its text. A node rendering
- * through one of these has something for its formatting to apply to, so the
- * text-level rules below do not apply to it.
+ * Properties that hold a node's nested content instead of its own text — when
+ * one is present, the checks below recurse into it instead of applying at
+ * this level.
  *
- * `paragraph` is deliberately absent: it is a boolean flag on a text node but
- * nested content on a paragraph node, so it has to be told apart by its value.
+ * `paragraph` is deliberately excluded: it's a boolean flag on a text node but
+ * nested content on a paragraph node, so it must be told apart by its value,
+ * not by key alone.
  */
 const CONTENT_BRANCHES = ["content", "heading", "subtitle"] as const;
 
 /**
  * Find content nodes the schema accepts but that render as nothing.
  *
- * `content-schema.json` is purely structural: it does not require `text`
- * alongside `marks`, and it puts no `minLength` on `text`. Both gaps have
- * produced real defects that every structural check passed. Two shapes are
- * caught here:
+ * `content-schema.json` doesn't require `text` alongside `marks`, and puts no
+ * `minLength` on `text` — both gaps have let real defects through structural
+ * checks. Two shapes are caught:
  *
- * 1. **Formatting with nothing to format** — a node carrying `marks` and/or
- *    `script` but no text. A renderer that wraps marked text in paired
- *    delimiters has nothing to wrap here; if its tag-matching is non-greedy
- *    (as a bold/italic pairing typically is, so it doesn't span past the
- *    first real closer) it cannot match zero characters, so the opening
- *    delimiter runs past its own closer and leaks into the surrounding text
- *    instead of rendering nothing. The `foot` on such a node is legitimate —
- *    a footnote needs an anchor, not text — so only the formatting is at
- *    fault.
+ * 1. **Formatting with nothing to format** — a node with `marks` and/or
+ *    `script` but no text. A non-greedy tag-matching renderer can't wrap zero
+ *    characters, so the opening delimiter leaks into the surrounding text
+ *    instead of rendering nothing. (A `foot` alongside is fine — a footnote
+ *    anchor needs no text — so only the marks/script is at fault.)
+ * 2. **An empty husk** — a node whose only property is an empty `text`, the
+ *    residue left when marks are stripped from a shape like
+ *    `{ text: "", marks: ["b"] }` without also removing the now-pointless node.
  *
- * 2. **An empty husk** — a node whose only property is an empty `text`, so it
- *    holds nothing and renders nothing. This is the residue left behind when
- *    marks are stripped from a shape like `{ text: "", marks: ["b"] }`
- *    without also removing the now-pointless empty node.
+ * Everything else a text-less node can carry — `foot`, `strong`, `morph`,
+ * `lemma`, `bibleLink`, bare `paragraph` / `break` flags — is meaningful on
+ * its own; whitespace counts as text.
  *
- * Everything else a text-less node can carry is meaningful on its own and is
- * left alone: `foot` and `strong` (thousands of each), `morph`, `lemma`,
- * `bibleLink`, and the bare `paragraph` / `break` flags. Whitespace counts as
- * text: a single space is something for formatting to apply to.
- *
- * The walk descends through every content-bearing branch, including
- * `foot.content`, subtitles and headings. Guarding only the top-level path is
- * exactly how both husks survived the first cleanup pass.
+ * The walk recurses into every content-bearing branch (`foot.content`,
+ * subtitles, headings) — guarding only the top-level path is how both husks
+ * above survived the first cleanup pass.
  *
  * @param content - A verse's content tree
  * @returns One message per offending node, each naming its path within the
@@ -213,19 +211,15 @@ export function findMeaninglessContentNodes(content: Content): string[] {
  * Find content nodes carrying a `strong` value whose own `text` ends in
  * trailing whitespace.
  *
- * The established convention for joining one printed word to the next is
- * that the separating space lives as the **leading** character of whichever
- * node comes after the gap, never as the trailing character of the node
- * before it — confirmed directly from KJV1769 Genesis 1:1:
+ * The established convention (confirmed in KJV1769 Genesis 1:1:
  * `{ text: "In the beginning", strong: "H7225" }`,
- * `{ text: " God", strong: "H430" }`. This is what lets a multi-number
- * Strong's tag's extra numbers ride as textless sibling nodes
- * (`{ strong: "H853" }`, no `text` key at all) with zero spacing
- * responsibility, since the space always travels with whichever neighbor has
- * real text. A translation whose importer instead attaches the space to the
- * `strong`-carrying node itself inverts that convention, and every exporter
- * downstream of it that assumes the leading-space shape mishandles the
- * result (double spaces, misplaced tags).
+ * `{ text: " God", strong: "H430" }`) is that a joining space lives as the
+ * **leading** character of the node after the gap, never trailing on the
+ * node before it — which is also what lets a multi-number Strong's tag's
+ * extra numbers ride as textless siblings (`{ strong: "H853" }`) with no
+ * spacing responsibility. An importer that instead attaches the space to the
+ * `strong`-carrying node inverts this, and any exporter assuming the
+ * leading-space shape mishandles the result (double spaces, misplaced tags).
  *
  * A textless sibling never matches here — an empty string never ends in
  * whitespace — so it needs no special exclusion.
@@ -274,12 +268,27 @@ export function findStrongTrailingWhitespaceNodes(content: Content): string[] {
 }
 
 /**
- * Main validation function (async to support prettier)
+ * Validates (and normalizes) one version, or every version when none is
+ * requested: sorts verse keys, formats JSON files, then checks bible-books,
+ * each version's `_version.json`, book ordering, and every verse file's
+ * schema and content. Exits the process with a non-zero code on the first
+ * validation phase that fails.
+ *
+ * @param requestedVersion - A single version id to validate (e.g.
+ *   `"YLT1898"`, from `process.argv[2]`). When omitted, every version
+ *   directory on disk is validated — the documented default. An id with no
+ *   matching directory isn't checked for existence up front: it surfaces as
+ *   a natural filesystem error later, matching `exportContent.ts`,
+ *   `auditCrossChapterLinks.ts`, and `auditStrongsNodes.ts`.
  */
-async function main() {
+async function main(requestedVersion?: string) {
+  const versionDirs = requestedVersion
+    ? [requestedVersion]
+    : getVersionDirectories(bibleVersionsDir);
+
   console.log("🔑 Sorting keys in verse files...\n");
 
-  const jsonFiles = collectJsonFiles();
+  const jsonFiles = collectJsonFiles(versionDirs);
   let sortedCount = 0;
 
   for (const file of jsonFiles) {
@@ -344,7 +353,6 @@ async function main() {
   // Now validate each _version.json file against the schema
   console.log("\n🔍 Validating Bible version files...");
 
-  const versionDirs = getVersionDirectories(bibleVersionsDir);
   const versions: BibleVersion[] = [];
   let versionsValidationPassed = true;
 
@@ -591,9 +599,10 @@ async function main() {
   }
 }
 
-// Run the main function
+// Guard so importing this module (e.g. from tests) doesn't also run main()
+// and call process.exit
 if (require.main === module) {
-  main().catch((error) => {
+  main(process.argv[2]).catch((error) => {
     console.error("Validation failed with error:", error);
     process.exit(1);
   });

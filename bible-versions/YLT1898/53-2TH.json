@@ -5,7 +5,100 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, and Silvanus, and Timotheus, to the assembly of Thessalonians in God our Father, and the Lord Jesus Christ:"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "text": "2 Thessalonians. THIS SECOND LETTER was written by Paul, Timotheus, and Silvanus, apparently a few months after the first, at Corinth, A.D. 53, in the 12th year of Claudius. It is quoted or referred to by Polycarp (A.D. 108), Justin Martyr (A.D. 140), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 192), Tertullian (A.D. 192), &c.",
+                "break": true
+              },
+              {
+                "text": "It may be divided into three parts, corresponding to its three chapters.",
+                "break": true
+              },
+              { "text": "I.", "marks": ["b"] },
+              {
+                "content": [
+                  " Salutation (",
+                  {
+                    "bibleLink": "2 Thessalonians 1:1, 2",
+                    "content": "v. 1, 2"
+                  },
+                  "); thanksgiving with encouragements (",
+                  {
+                    "bibleLink": "2 Thessalonians 1:3–10",
+                    "content": "v. 3–10"
+                  },
+                  "); prayers for progress (",
+                  {
+                    "bibleLink": "2 Thessalonians 1:11, 12",
+                    "content": "v. 11, 12"
+                  },
+                  ")."
+                ],
+                "break": true
+              },
+              { "text": "II.", "marks": ["b"] },
+              {
+                "content": [
+                  " Correction as to Christ’s coming (",
+                  { "bibleLink": "2 Thessalonians 1:1–4", "content": "v. 1–4" },
+                  "); description of the apostacy (",
+                  {
+                    "bibleLink": "2 Thessalonians 1:5–12",
+                    "content": "v. 5–12"
+                  },
+                  "); thanks, exhortations and prayers (",
+                  {
+                    "bibleLink": "2 Thessalonians 2:13–17",
+                    "content": "v. 13–17"
+                  },
+                  ")."
+                ],
+                "break": true
+              },
+              { "text": "III.", "marks": ["b"] },
+              {
+                "content": [
+                  " Request, and expression of confidence (",
+                  { "bibleLink": "2 Thessalonians 1:1–5", "content": "v. 1–5" },
+                  "); charge and example (",
+                  {
+                    "bibleLink": "2 Thessalonians 1:6–12",
+                    "content": "v. 6–12"
+                  },
+                  "); exhortation, prayer, and salutation (",
+                  {
+                    "bibleLink": "2 Thessalonians 3:13–18",
+                    "content": "v. 13–18"
+                  },
+                  ")."
+                ],
+                "break": true
+              },
+              "It contains references or parallels to ",
+              { "bibleLink": "Exodus 7:11, 12", "content": "Ex. 7. 11, 12" },
+              "; ",
+              { "bibleLink": "Exodus 8:18", "content": "8. 18" },
+              "; ",
+              { "bibleLink": "Exodus 9:11", "content": "9. 11" },
+              "; ",
+              { "bibleLink": "Matthew 16:14", "content": "Mat. 16. 14" },
+              "; ",
+              { "bibleLink": "Acts 14:22", "content": "Acts 14. 22" },
+              "; ",
+              {
+                "bibleLink": "2 Peter 1:20, 21",
+                "content": "2 Pet. 1. 20, 21"
+              },
+              "."
+            ]
+          }
+        },
+        "Paul, and Silvanus, and Timotheus, to the assembly of Thessalonians in God our Father, and the Lord Jesus Christ:"
+      ]
     }
   },
   {
@@ -18,7 +111,13 @@
     "book": "2TH",
     "chapter": 1,
     "verse": 3,
-    "content": "We ought to give thanks to God always for you, brethren, as it is meet, because increase greatly doth your faith, and abound doth the love of each one of you all, to one another;"
+    "content": [
+      { "heading": "Rejoicing in their Fidelity" },
+      {
+        "paragraph": true,
+        "text": "We ought to give thanks to God always for you, brethren, as it is meet, because increase greatly doth your faith, and abound doth the love of each one of you all, to one another;"
+      }
+    ]
   },
   {
     "book": "2TH",
@@ -36,13 +135,17 @@
     "book": "2TH",
     "chapter": 1,
     "verse": 6,
-    "content": "since it is a righteous thing with God to give back to those troubling you-trouble,"
+    "content": [
+      "since ",
+      { "text": "it is", "marks": ["i"] },
+      " a righteous thing with God to give back to those troubling you—trouble,"
+    ]
   },
   {
     "book": "2TH",
     "chapter": 1,
     "verse": 7,
-    "content": "and to you who are troubled-rest with us in the revelation of the Lord Jesus from heaven, with messengers of his power,"
+    "content": "and to you who are troubled—rest with us in the revelation of the Lord Jesus from heaven, with messengers of his power,"
   },
   {
     "book": "2TH",
@@ -54,19 +157,22 @@
     "book": "2TH",
     "chapter": 1,
     "verse": 9,
-    "content": "who shall suffer justice-destruction age-during-from the face of the Lord, and from the glory of his strength,"
+    "content": "who shall suffer justice—destruction age-during—from the face of the Lord, and from the glory of his strength,"
   },
   {
     "book": "2TH",
     "chapter": 1,
     "verse": 10,
-    "content": "when He may come to be glorified in his saints, and to be wondered at in all those believing-because our testimony was believed among you-in that day;"
+    "content": "when He may come to be glorified in his saints, and to be wondered at in all those believing—because our testimony was believed among you—in that day;"
   },
   {
     "book": "2TH",
     "chapter": 1,
     "verse": 11,
-    "content": "for which also we do pray always for you, that our God may count you worthy of the calling, and may fulfil all the good pleasure of goodness, and the work of the faith in power,"
+    "content": {
+      "paragraph": true,
+      "text": "for which also we do pray always for you, that our God may count you worthy of the calling, and may fulfil all the good pleasure of goodness, and the work of the faith in power,"
+    }
   },
   {
     "book": "2TH",
@@ -78,10 +184,26 @@
     "book": "2TH",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And we ask you, brethren, in regard to the presence of our Lord Jesus Christ, and of our gathering together unto him,"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter II. may be divided into three parts; ",
+            { "bibleLink": "2 Thessalonians 2:1–4", "content": "v. 1–4" },
+            " correction as to Christ’s coming; ",
+            { "bibleLink": "2 Thessalonians 2:5–12", "content": "v. 5–12" },
+            " description of the apostacy; ",
+            { "bibleLink": "2 Thessalonians 2:13–17", "content": "v. 13–17" },
+            " thanks, exhortations, and prayers."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "And we ask you, brethren, in regard to the presence of our Lord Jesus Christ, and of our gathering together unto him,"
+      }
+    ]
   },
   {
     "book": "2TH",
@@ -93,13 +215,17 @@
     "book": "2TH",
     "chapter": 2,
     "verse": 3,
-    "content": "let not any one deceive you in any manner, because-if the falling away may not come first, and the man of sin be revealed-the son of the destruction,"
+    "content": "let not any one deceive you in any manner, because—if the falling away may not come first, and the man of sin be revealed—the son of the destruction,"
   },
   {
     "book": "2TH",
     "chapter": 2,
     "verse": 4,
-    "content": "who is opposing and is raising himself up above all called God or worshipped, so that he in the sanctuary of God as God hath sat down, shewing himself off that he is God-the day doth not come."
+    "content": [
+      "who is opposing and is raising himself up above all called God or worshipped, so that he in the sanctuary of God as God hath sat down, shewing himself off that he is God—",
+      { "text": "the day doth not come", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "2TH",
@@ -117,7 +243,11 @@
     "book": "2TH",
     "chapter": 2,
     "verse": 7,
-    "content": "for the secret of the lawlessness doth already work, only he who is keeping down now will hinder-till he may be out of the way,"
+    "content": [
+      "for the secret of the lawlessness doth already work, only he who is keeping down now ",
+      { "text": "will hinder", "marks": ["i"] },
+      "—till he may be out of the way,"
+    ]
   },
   {
     "book": "2TH",
@@ -129,7 +259,10 @@
     "book": "2TH",
     "chapter": 2,
     "verse": 9,
-    "content": "him, whose presence is according to the working of the Adversary, in all power, and signs, and lying wonders,"
+    "content": [
+      { "text": "him,", "marks": ["i"] },
+      " whose presence is according to the working of the Adversary, in all power, and signs, and lying wonders,"
+    ]
   },
   {
     "book": "2TH",
@@ -147,13 +280,16 @@
     "book": "2TH",
     "chapter": 2,
     "verse": 12,
-    "content": "that they may be judged-all who did not believe the truth, but were well pleased in the unrighteousness."
+    "content": "that they may be judged—all who did not believe the truth, but were well pleased in the unrighteousness."
   },
   {
     "book": "2TH",
     "chapter": 2,
     "verse": 13,
-    "content": "And we-we ought to give thanks to God always for you, brethren, beloved by the Lord, that God did choose you from the beginning to salvation, in sanctification of the Spirit, and belief of the truth,"
+    "content": {
+      "paragraph": true,
+      "text": "And we—we ought to give thanks to God always for you, brethren, beloved by the Lord, that God did choose you from the beginning to salvation, in sanctification of the Spirit, and belief of the truth,"
+    }
   },
   {
     "book": "2TH",
@@ -183,22 +319,50 @@
     "book": "2TH",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "As to the rest, pray ye, brethren, concerning us, that the word of the Lord may run and may be glorified, as also with you,"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter III. may be divided into three parts; ",
+            { "bibleLink": "2 Thessalonians 3:1–5", "content": "v. 1–5" },
+            " a request, and an expression of confidence; ",
+            { "bibleLink": "2 Thessalonians 3:6–12", "content": "v. 6–12" },
+            " a charge and an example; ",
+            { "bibleLink": "2 Thessalonians 3:13–18", "content": "v. 13–18" },
+            " an exhortation, prayer, and salutation."
+          ]
+        }
+      },
+      { "heading": "Soliciting Their Support" },
+      {
+        "paragraph": true,
+        "text": "As to the rest, pray ye, brethren, concerning us, that the word of the Lord may run and may be glorified, as also with you,"
+      }
+    ]
   },
   {
     "book": "2TH",
     "chapter": 3,
     "verse": 2,
-    "content": "and that we may be delivered from the unreasonable and evil men, for the faith is not of all;"
+    "content": [
+      "and that we may be delivered from the unreasonable and evil men, for the faith ",
+      { "text": "is", "marks": ["i"] },
+      " not of all;"
+    ]
   },
   {
     "book": "2TH",
     "chapter": 3,
     "verse": 3,
-    "content": "and stedfast is the Lord, who shall establish you, and shall guard you from the evil;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "and stedfast is the Lord, who shall establish you, and shall guard "
+      },
+      { "text": "you", "marks": ["i"] },
+      " from the evil;"
+    ]
   },
   {
     "book": "2TH",
@@ -216,13 +380,20 @@
     "book": "2TH",
     "chapter": 3,
     "verse": 6,
-    "content": "And we command you, brethren, in the name of our Lord Jesus Christ, to withdraw yourselves from every brother disorderly walking, and not after the deliverance that ye received from us,"
+    "content": {
+      "paragraph": true,
+      "text": "And we command you, brethren, in the name of our Lord Jesus Christ, to withdraw yourselves from every brother disorderly walking, and not after the deliverance that ye received from us,"
+    }
   },
   {
     "book": "2TH",
     "chapter": 3,
     "verse": 7,
-    "content": "for yourselves have known how it behoveth you to imitate us, because we did not act disorderly among you;"
+    "content": [
+      "for yourselves have known how it behoveth ",
+      { "text": "you", "marks": ["i"] },
+      " to imitate us, because we did not act disorderly among you;"
+    ]
   },
   {
     "book": "2TH",
@@ -270,24 +441,41 @@
     "book": "2TH",
     "chapter": 3,
     "verse": 15,
-    "content": "and as an enemy count him not, but admonish ye him as a brother;"
+    "content": [
+      "and as an enemy count ",
+      { "text": "him", "marks": ["i"] },
+      " not, but admonish ye ",
+      { "text": "him", "marks": ["i"] },
+      " as a brother;"
+    ]
   },
   {
     "book": "2TH",
     "chapter": 3,
     "verse": 16,
-    "content": "and may the Lord of the peace Himself give to you the peace always in every way; the Lord is with you all!"
+    "content": [
+      "and may the Lord of the peace Himself give to you the peace always in every way; the Lord ",
+      { "text": "is", "marks": ["i"] },
+      " with you all!"
+    ]
   },
   {
     "book": "2TH",
     "chapter": 3,
     "verse": 17,
-    "content": "The salutation by the hand of me, Paul, which is a sign in every letter; thus I write;"
+    "content": {
+      "paragraph": true,
+      "text": "The salutation by the hand of me, Paul, which is a sign in every letter; thus I write;"
+    }
   },
   {
     "book": "2TH",
     "chapter": 3,
     "verse": 18,
-    "content": "the grace of our Lord Jesus Christ is with you all! Amen."
+    "content": [
+      "the grace of our Lord Jesus Christ ",
+      { "text": "is", "marks": ["i"] },
+      " with you all! Amen."
+    ]
   }
 ]

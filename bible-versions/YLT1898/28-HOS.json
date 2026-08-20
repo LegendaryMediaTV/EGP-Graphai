@@ -12,7 +12,10 @@
     "book": "HOS",
     "chapter": 1,
     "verse": 2,
-    "content": "The commencement of Jehovah’s speaking by Hosea. And Jehovah saith unto Hosea, ‘Go, take to thee a woman of whoredoms, and children of whoredoms, for utterly go a-whoring doth the land from after Jehovah.’"
+    "content": {
+      "paragraph": true,
+      "text": "The commencement of Jehovah’s speaking by Hosea. And Jehovah saith unto Hosea, “Go, take to thee a woman of whoredoms, and children of whoredoms, for utterly go a-whoring doth the land from after Jehovah.”"
+    }
   },
   {
     "book": "HOS",
@@ -24,25 +27,25 @@
     "book": "HOS",
     "chapter": 1,
     "verse": 4,
-    "content": "and Jehovah saith unto him, ‘Call his name Jezreel, for yet a little, and I have charged the blood of Jezreel on the house of Jehu, and have caused to cease the kingdom of the house of Israel;"
+    "content": "and Jehovah saith unto him, “Call his name Jezreel, for yet a little, and I have charged the blood of Jezreel on the house of Jehu, and have caused to cease the kingdom of the house of Israel;"
   },
   {
     "book": "HOS",
     "chapter": 1,
     "verse": 5,
-    "content": "and it hath come to pass in that day that I have broken the bow of Israel, in the valley of Jezreel.’"
+    "content": "and it hath come to pass in that day that I have broken the bow of Israel, in the valley of Jezreel.”"
   },
   {
     "book": "HOS",
     "chapter": 1,
     "verse": 6,
-    "content": "And she conceiveth again, and beareth a daughter, and He saith to him, ‘Call her name Lo-Ruhamah, for I add no more to pity the house of Israel, for I do utterly take them away;"
+    "content": "And she conceiveth again, and beareth a daughter, and He saith to him, “Call her name Lo-Ruhamah, for I add no more to pity the house of Israel, for I do utterly take them away;"
   },
   {
     "book": "HOS",
     "chapter": 1,
     "verse": 7,
-    "content": "and the house of Judah I pity, and have saved them by Jehovah their God, and do not save them by bow, and by sword, and by battle, by horses, and by horsemen.’"
+    "content": "and the house of Judah I pity, and have saved them by Jehovah their God, and do not save them by bow, and by sword, and by battle, by horses, and by horsemen.”"
   },
   {
     "book": "HOS",
@@ -54,19 +57,34 @@
     "book": "HOS",
     "chapter": 1,
     "verse": 9,
-    "content": "and He saith, ‘Call his name Lo-Ammi, for ye are not My people, and I am not for you;"
+    "content": [
+      "and He saith, “Call his name Lo-Ammi, for ye ",
+      { "text": "are", "marks": ["i"] },
+      " not My people, and I am not for you;"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 1,
     "verse": 10,
-    "content": "and the number of the sons of Israel hath been as the sand of the sea, that is not measured nor numbered, and it hath come to pass in the place where it is said to them, Ye are not My people, it is said to them, Sons of the Living God;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "and the number of the sons of Israel hath been as the sand of the sea, that is not measured nor numbered, and it hath come to pass in the place where it is said to them, Ye "
+      },
+      { "text": "are", "marks": ["i"] },
+      " not My people, it is said to them, Sons of the Living God;"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 1,
     "verse": 11,
-    "content": "and gathered have been the sons of Judah and the sons of Israel together, and they have appointed to themselves one head, and have gone up from the land, for great is the day of Jezreel."
+    "content": [
+      "and gathered have been the sons of Judah and the sons of Israel together, and they have appointed to themselves one head, and have gone up from the land, for great ",
+      { "text": "is", "marks": ["i"] },
+      " the day of Jezreel."
+    ]
   },
   {
     "book": "HOS",
@@ -74,26 +92,44 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "‘Say ye to your brethren-Ammi, And to your sisters-Ruhamah."
+      "text": "“Say ye to your brethren—Ammi, And to your sisters—Ruhamah."
     }
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 2,
-    "content": "Plead ye with your mother-plead, (For she is not My wife, and I am not her husband,) And she turneth her whoredoms from before her, And her adulteries from between her breasts,"
+    "content": [
+      { "heading": "Israel, a Faithless Wife" },
+      {
+        "paragraph": true,
+        "text": "Plead ye with your mother—plead, (For she "
+      },
+      { "text": "is", "marks": ["i"] },
+      " not My wife, and I ",
+      { "text": "am", "marks": ["i"] },
+      " not her husband,) And she turneth her whoredoms from before her, And her adulteries from between her breasts,"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 3,
-    "content": "Lest I strip her naked. And have set her up as in the day of her birth, And have made her as a wilderness, And have set her as a dry land, And have put her to death with thirst."
+    "content": [
+      "Lest I strip her naked. And have set her up as ",
+      { "text": "in", "marks": ["i"] },
+      " the day of her birth, And have made her as a wilderness, And have set her as a dry land, And have put her to death with thirst."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 4,
-    "content": "And her sons I do not pity, For sons of whoredoms are they,"
+    "content": [
+      "And her sons I do not pity, For sons of whoredoms ",
+      { "text": "are", "marks": ["i"] },
+      " they,"
+    ]
   },
   {
     "book": "HOS",
@@ -111,13 +147,16 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 7,
-    "content": "And she hath pursued her lovers, And she doth not overtake them, And hath sought them, and doth not find, And she hath said: I go, and I turn back unto My first husband, For-better to me then than now."
+    "content": "And she hath pursued her lovers, And she doth not overtake them, And hath sought them, and doth not find, And she hath said: I go, and I turn back unto My first husband, For—better to me then than now."
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 8,
-    "content": "And she knew not that I had given to her, The corn, and the new wine, and the oil. Yea, silver I did multiply to her, And the gold they prepared for Baal."
+    "content": {
+      "paragraph": true,
+      "text": "And she knew not that I had given to her, The corn, and the new wine, and the oil. Yea, silver I did multiply to her, And the gold they prepared for Baal."
+    }
   },
   {
     "book": "HOS",
@@ -141,19 +180,26 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 12,
-    "content": "And made desolate her vine and her fig-tree, Of which she said, A gift they are to me, That my lovers have given to me, And I have made them for a forest, And consumed them hath a beast of the field."
+    "content": [
+      "And made desolate her vine and her fig-tree, Of which she said, A gift they ",
+      { "text": "are", "marks": ["i"] },
+      " to me, That my lovers have given to me, And I have made them for a forest, And consumed them hath a beast of the field."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 13,
-    "content": "And I have charged on her the days of the Baalim, To whom she maketh perfume, And putteth on her ring and her ornament, And goeth after her lovers, And Me forgat-an affirmation of Jehovah."
+    "content": "And I have charged on her the days of the Baalim, To whom she maketh perfume, And putteth on her ring and her ornament, And goeth after her lovers, And Me forgat—an affirmation of Jehovah."
   },
   {
     "book": "HOS",
     "chapter": 2,
     "verse": 14,
-    "content": "Therefore, lo, I am enticing her, And have caused her to go to the wilderness, And I have spoken unto her heart,"
+    "content": {
+      "paragraph": true,
+      "text": "Therefore, lo, I am enticing her, And have caused her to go to the wilderness, And I have spoken unto her heart,"
+    }
   },
   {
     "book": "HOS",
@@ -165,7 +211,7 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 16,
-    "content": "And it hath come to pass, in that day, An affirmation of Jehovah, Thou dost call Me-My husband, And dost not call Me any more-My lord."
+    "content": "And it hath come to pass, in that day, An affirmation of Jehovah, Thou dost call Me—My husband, And dost not call Me any more—My lord."
   },
   {
     "book": "HOS",
@@ -183,7 +229,10 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 19,
-    "content": "And I have betrothed thee to Me to the age, And betrothed thee to Me in righteousness, And in judgment, and kindness, and mercies,"
+    "content": {
+      "paragraph": true,
+      "text": "And I have betrothed thee to Me to the age, And betrothed thee to Me in righteousness, And in judgment, and kindness, and mercies,"
+    }
   },
   {
     "book": "HOS",
@@ -195,7 +244,7 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 21,
-    "content": "And it hath come to pass in that day, I answer-an affirmation of Jehovah, I answer the heavens, and they answer the earth."
+    "content": "And it hath come to pass in that day, I answer—an affirmation of Jehovah, I answer the heavens, and they answer the earth."
   },
   {
     "book": "HOS",
@@ -207,16 +256,23 @@
     "book": "HOS",
     "chapter": 2,
     "verse": 23,
-    "content": "And I have sowed her to Me in the land, And I have pitied Lo-Ruhamah, And I have said to Lo-Ammi, My people thou art, and it saith, My God!’"
+    "content": [
+      "And I have sowed her to Me in the land, And I have pitied Lo-Ruhamah, And I have said to Lo-Ammi, My people thou ",
+      { "text": "art", "marks": ["i"] },
+      ", and it saith, My God!”"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And Jehovah saith unto me: ‘Again, go, love a woman, loved of a friend, and an adulteress, like the loved of Jehovah, the sons of Israel, and they are turning unto other gods, and are lovers of grape-cakes.’"
-    }
+    "content": [
+      { "heading": "Her Purchase Price" },
+      {
+        "paragraph": true,
+        "text": "And Jehovah saith unto me: “Again, go, love a woman, loved of a friend, and an adulteress, like the loved of Jehovah, the sons of Israel, and they are turning unto other gods, and are lovers of grape-cakes.”"
+      }
+    ]
   },
   {
     "book": "HOS",
@@ -228,13 +284,23 @@
     "book": "HOS",
     "chapter": 3,
     "verse": 3,
-    "content": "and I say unto her, ‘Many days thou dost remain for Me, thou dost not go a-whoring, nor become any one’s; and I also am for thee.’"
+    "content": [
+      "and I say unto her, “Many days thou dost remain for Me, thou dost not go a-whoring, nor become any one’s; and I also ",
+      { "text": "am", "marks": ["i"] },
+      " for thee.”"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 3,
     "verse": 4,
-    "content": "For many days remain do the sons of Israel without a king, and there is no prince, and there is no sacrifice, and there is no standing pillar, and there is no ephod and teraphim."
+    "content": [
+      { "heading": "Israel’s Return" },
+      {
+        "paragraph": true,
+        "text": "For many days remain do the sons of Israel without a king, and there is no prince, and there is no sacrifice, and there is no standing pillar, and there is no ephod and teraphim."
+      }
+    ]
   },
   {
     "book": "HOS",
@@ -246,28 +312,37 @@
     "book": "HOS",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "‘Hear a word of Jehovah, sons of Israel, For a strife is to Jehovah with inhabitants of the land, For there is no truth, nor kindness, Nor knowledge of God, in the land,"
-    }
+    "content": [
+      { "heading": ["The ", { "text": "Jehovah" }, "’s Controversy"] },
+      {
+        "paragraph": true,
+        "text": "“Hear a word of Jehovah, sons of Israel, For a strife "
+      },
+      { "text": "is", "marks": ["i"] },
+      " to Jehovah with inhabitants of the land, For there is no truth, nor kindness, Nor knowledge of God, in the land,"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 4,
     "verse": 2,
-    "content": "Swearing, and lying, and murdering, And stealing, and committing adultery-have increased, And blood against blood hath touched."
+    "content": "Swearing, and lying, and murdering, And stealing, and committing adultery—have increased, And blood against blood hath touched."
   },
   {
     "book": "HOS",
     "chapter": 4,
     "verse": 3,
-    "content": "Therefore mourn doth the land, And weak is every dweller in it, With the beast of the field, And with the fowl of the heavens, And the fishes of the sea-they are removed."
+    "content": "Therefore mourn doth the land, And weak is every dweller in it, With the beast of the field, And with the fowl of the heavens, And the fishes of the sea—they are removed."
   },
   {
     "book": "HOS",
     "chapter": 4,
     "verse": 4,
-    "content": "Only, let no one strive, nor reprove a man, And thy people are as those striving with a priest."
+    "content": [
+      "Only, let no one strive, nor reprove a man, And thy people ",
+      { "text": "are", "marks": ["i"] },
+      " as those striving with a priest."
+    ]
   },
   {
     "book": "HOS",
@@ -279,7 +354,10 @@
     "book": "HOS",
     "chapter": 4,
     "verse": 6,
-    "content": "Cut off have been My people for lack of knowledge, Because thou knowledge hast rejected, I reject thee from being priest to Me, And thou forgettest the law of thy God, I forget thy sons, I also!"
+    "content": {
+      "paragraph": true,
+      "text": "Cut off have been My people for lack of knowledge, Because thou knowledge hast rejected, I reject thee from being priest to Me, And thou forgettest the law of thy God, I forget thy sons, I also!"
+    }
   },
   {
     "book": "HOS",
@@ -309,7 +387,10 @@
     "book": "HOS",
     "chapter": 4,
     "verse": 11,
-    "content": "Whoredom, and wine, and new wine, take the heart,"
+    "content": {
+      "paragraph": true,
+      "text": "Whoredom, and wine, and new wine, take the heart,"
+    }
   },
   {
     "book": "HOS",
@@ -321,7 +402,11 @@
     "book": "HOS",
     "chapter": 4,
     "verse": 13,
-    "content": "On tops of the mountains they do sacrifice, And on the hills they make perfume, Under oak, and poplar, and terebinth, For good is its shade."
+    "content": [
+      "On tops of the mountains they do sacrifice, And on the hills they make perfume, Under oak, and poplar, and terebinth, For good ",
+      { "text": "is", "marks": ["i"] },
+      " its shade."
+    ]
   },
   {
     "book": "HOS",
@@ -333,7 +418,11 @@
     "book": "HOS",
     "chapter": 4,
     "verse": 15,
-    "content": "Though a harlot thou art, O Israel, Let not Judah become guilty, And come not ye in to Gilgal, nor go up to Beth-Aven, Nor swear ye, Jehovah liveth."
+    "content": [
+      { "paragraph": true, "text": "Though a harlot thou " },
+      { "text": "art", "marks": ["i"] },
+      ", O Israel, Let not Judah become guilty, And come not ye in to Gilgal, nor go up to Beth-Aven, Nor swear ye, Jehovah liveth."
+    ]
   },
   {
     "book": "HOS",
@@ -345,13 +434,21 @@
     "book": "HOS",
     "chapter": 4,
     "verse": 17,
-    "content": "Joined to idols is Ephraim, let him alone."
+    "content": [
+      "Joined to idols ",
+      { "text": "is", "marks": ["i"] },
+      " Ephraim, let him alone."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 4,
     "verse": 18,
-    "content": "Sour is their drink, They have gone diligently a-whoring, Her protectors have loved shame thoroughly."
+    "content": [
+      "Sour ",
+      { "text": "is", "marks": ["i"] },
+      " their drink, They have gone diligently a-whoring, Her protectors have loved shame thoroughly."
+    ]
   },
   {
     "book": "HOS",
@@ -363,28 +460,44 @@
     "book": "HOS",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "‘Hear this, O priests, and attend, O house of Israel, And, O house of the king, give ear, For the judgment is for you, For, a snare ye have been on Mizpah, And a net spread out on Tabor."
-    }
+    "content": [
+      { "heading": "Against Priests and Kings" },
+      {
+        "paragraph": true,
+        "text": "“Hear this, O priests, and attend, O house of Israel, And, O house of the king, give ear, For the judgment "
+      },
+      { "text": "is", "marks": ["i"] },
+      " for you, For, a snare ye have been on Mizpah, And a net spread out on Tabor."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 2,
-    "content": "And to slaughter sinners have gone deep, And I am a fetter to them all."
+    "content": [
+      "And to slaughter sinners have gone deep, And I ",
+      { "text": "am", "marks": ["i"] },
+      " a fetter to them all."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 3,
-    "content": "I have known Ephraim, And Israel hath not been hid from me, For now thou hast gone a-whoring, Ephraim, Defiled is Israel."
+    "content": {
+      "paragraph": true,
+      "text": "I have known Ephraim, And Israel hath not been hid from me, For now thou hast gone a-whoring, Ephraim, Defiled is Israel."
+    }
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 4,
-    "content": "They give not up their habitual doings, To turn back unto their God, For a spirit of whoredoms is in their midst, And Jehovah they have not known."
+    "content": [
+      "They give not up their habitual doings, To turn back unto their God, For a spirit of whoredoms ",
+      { "text": "is", "marks": ["i"] },
+      " in their midst, And Jehovah they have not known."
+    ]
   },
   {
     "book": "HOS",
@@ -402,13 +515,20 @@
     "book": "HOS",
     "chapter": 5,
     "verse": 7,
-    "content": "Against Jehovah they dealt treacherously, For strange sons they have begotten, Now consume them doth a month with their portions."
+    "content": [
+      "Against Jehovah they dealt treacherously, For strange sons they have begotten, Now consume them doth a month ",
+      { "text": "with", "marks": ["i"] },
+      " their portions."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 8,
-    "content": "Blow ye a cornet in Gibeah, a trumpet in Ramah, Shout, O Beth-Aven, after thee, O Benjamin."
+    "content": {
+      "paragraph": true,
+      "text": "Blow ye a cornet in Gibeah, a trumpet in Ramah, Shout, O Beth-Aven, after thee, O Benjamin."
+    }
   },
   {
     "book": "HOS",
@@ -420,7 +540,10 @@
     "book": "HOS",
     "chapter": 5,
     "verse": 10,
-    "content": "Princes of Judah have been as those removing a border, On them I do pour out as water My wrath."
+    "content": {
+      "paragraph": true,
+      "text": "Princes of Judah have been as those removing a border, On them I do pour out as water My wrath."
+    }
   },
   {
     "book": "HOS",
@@ -432,7 +555,11 @@
     "book": "HOS",
     "chapter": 5,
     "verse": 12,
-    "content": "And I am as a moth to Ephraim, And as a rotten thing to the house of Judah."
+    "content": [
+      "And I ",
+      { "text": "am", "marks": ["i"] },
+      " as a moth to Ephraim, And as a rotten thing to the house of Judah."
+    ]
   },
   {
     "book": "HOS",
@@ -444,22 +571,29 @@
     "book": "HOS",
     "chapter": 5,
     "verse": 14,
-    "content": "For I am as a lion to Ephraim, And as a young lion to the house of Judah, I-I tear and go, I bear away, and there is no deliverer."
+    "content": [
+      "For I ",
+      { "text": "am", "marks": ["i"] },
+      " as a lion to Ephraim, And as a young lion to the house of Judah, I—I tear and go, I bear away, and there is no deliverer."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 5,
     "verse": 15,
-    "content": "I go-I turn back unto My place, Till that they are desolate, and have sought My face. In their distress they do seek Me speedily!’"
+    "content": "I go—I turn back unto My place, Till that they are desolate, and have sought My face. In their distress they do seek Me speedily!”"
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "‘Come, and we turn back unto Jehovah, For He hath torn, and He doth heal us, He doth smite, and He bindeth us up."
-    }
+    "content": [
+      { "heading": "A Brief Repentance" },
+      {
+        "paragraph": true,
+        "text": "“Come, and we turn back unto Jehovah, For He hath torn, and He doth heal us, He doth smite, and He bindeth us up."
+      }
+    ]
   },
   {
     "book": "HOS",
@@ -471,13 +605,20 @@
     "book": "HOS",
     "chapter": 6,
     "verse": 3,
-    "content": "And we know-we pursue to know Jehovah, As the dawn prepared is His going forth, And He cometh in as a shower to us, As gathered rain-sprinkling earth.’"
+    "content": "And we know—we pursue to know Jehovah, As the dawn prepared is His going forth, And He cometh in as a shower to us, As gathered rain—sprinkling earth.”"
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 4,
-    "content": "What do I do to thee, O Ephraim? What do I do to thee, O Judah? Your goodness is as a cloud of the morning, And as dew rising early-going."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "What do I do to thee, O Ephraim? What do I do to thee, O Judah? Your goodness "
+      },
+      { "text": "is", "marks": ["i"] },
+      " as a cloud of the morning, And as dew rising early—going."
+    ]
   },
   {
     "book": "HOS",
@@ -489,76 +630,113 @@
     "book": "HOS",
     "chapter": 6,
     "verse": 6,
-    "content": "For kindness I desired, and not sacrifice, And a knowledge of God above burnt-offerings."
+    "content": "For kindness I desired, and not sacrifice, And a knowledge of God above burntofferings."
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 7,
-    "content": "And they, as Adam, transgressed a covenant, There they dealt treacherously against me."
+    "content": {
+      "paragraph": true,
+      "text": "And they, as Adam, transgressed a covenant, There they dealt treacherously against me."
+    }
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 8,
-    "content": "Gilead is a city of workers of iniquity, Slippery from blood."
+    "content": [
+      "Gilead ",
+      { "text": "is", "marks": ["i"] },
+      " a city of workers of iniquity, Slippery from blood."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 9,
-    "content": "And as bands do wait for a man, A company of priests do murder-the way to Shechem, For wickedness they have done."
+    "content": "And as bands do wait for a man, A company of priests do murder—the way to Shechem, For wickedness they have done."
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 10,
-    "content": "In the house of Israel I have seen a horrible thing, There is the whoredom of Ephraim-defiled is Israel."
+    "content": [
+      "In the house of Israel I have seen a horrible thing, There ",
+      { "text": "is", "marks": ["i"] },
+      " the whoredom of Ephraim—defiled is Israel."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 6,
     "verse": 11,
-    "content": "Also, O Judah, appointed is a harvest to thee, In My turning back to the captivity of My people!"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Also, O Judah, appointed is a harvest to thee, In My turning back "
+      },
+      { "text": "to", "marks": ["i"] },
+      " the captivity of My people!"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "‘When I give healing to Israel, Then revealed is the iniquity of Ephraim, And the wickedness of Samaria, For they have wrought falsehood, And a thief doth come in, Stript off hath a troop in the street,"
-    }
+    "content": [
+      { "heading": "A Half-baked Cake" },
+      {
+        "paragraph": true,
+        "text": "“When I give healing to Israel, Then revealed is the iniquity of Ephraim, And the wickedness of Samaria, For they have wrought falsehood, And a thief doth come in, Stript off hath a troop in the street,"
+      }
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 2,
-    "content": "And they do not say to their heart, That all their evil I have remembered, Now compassed them have their doings, Over-against My face they have been."
+    "content": [
+      "And they do not say to their heart, ",
+      { "text": "That", "marks": ["i"] },
+      " all their evil I have remembered, Now compassed them have their doings, Over-against My face they have been."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 3,
-    "content": "With their wickedness they make glad a king, And with their lies-princes."
+    "content": "With their wickedness they make glad a king, And with their lies—princes."
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 4,
-    "content": "All of them are adulterers, Like a burning oven of a baker, He ceaseth from stirring up after kneading the dough, till its leavening."
+    "content": [
+      "All of them ",
+      { "text": "are", "marks": ["i"] },
+      " adulterers, Like a burning oven of a baker, He ceaseth from stirring up after kneading the dough, till its leavening."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 5,
-    "content": "A day of our king! Princes have polluted themselves with the poison of wine, He hath drawn out his hand with scorners."
+    "content": [
+      "A day of our king! Princes have polluted themselves ",
+      { "text": "with", "marks": ["i"] },
+      " the poison of wine, He hath drawn out his hand with scorners."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 6,
-    "content": "For they have drawn near, As an oven is their heart, In their lying in wait all the night sleep doth their baker, Morning! he is burning as a flaming fire."
+    "content": [
+      "For they have drawn near, As an oven ",
+      { "text": "is", "marks": ["i"] },
+      " their heart, In their lying in wait all the night sleep doth their baker, Morning! he is burning as a flaming fire."
+    ]
   },
   {
     "book": "HOS",
@@ -570,13 +748,20 @@
     "book": "HOS",
     "chapter": 7,
     "verse": 8,
-    "content": "Ephraim! among peoples he mixeth himself, Ephraim hath been a cake unturned."
+    "content": {
+      "paragraph": true,
+      "text": "Ephraim! among peoples he mixeth himself, Ephraim hath been a cake unturned."
+    }
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 9,
-    "content": "Devoured have strangers his power, And he hath not known, Also old age hath sprinkled itself on him, And he hath not known."
+    "content": [
+      "Devoured have strangers his power, And he hath not known, Also old age hath sprinkled ",
+      { "text": "itself", "marks": ["i"] },
+      " on him, And he hath not known."
+    ]
   },
   {
     "book": "HOS",
@@ -588,7 +773,11 @@
     "book": "HOS",
     "chapter": 7,
     "verse": 11,
-    "content": "And Ephraim is as a simple dove without heart, Egypt they called on-to Asshur they have gone."
+    "content": [
+      "And Ephraim is as a simple dove without heart, Egypt they called on—",
+      { "text": "to", "marks": ["i"] },
+      " Asshur they have gone."
+    ]
   },
   {
     "book": "HOS",
@@ -600,7 +789,7 @@
     "book": "HOS",
     "chapter": 7,
     "verse": 13,
-    "content": "Woe to them, for they wandered from Me, Destruction to them, for they transgressed against Me, And I-I ransom them, and they have spoken lies against Me,"
+    "content": "Woe to them, for they wandered from Me, Destruction to them, for they transgressed against Me, And I—I ransom them, and they have spoken lies against Me,"
   },
   {
     "book": "HOS",
@@ -612,34 +801,44 @@
     "book": "HOS",
     "chapter": 7,
     "verse": 15,
-    "content": "And I instructed-I strengthened their arms, And concerning Me they think evil!"
+    "content": "And I instructed—I strengthened their arms, And concerning Me they think evil!"
   },
   {
     "book": "HOS",
     "chapter": 7,
     "verse": 16,
-    "content": "They turn back-not to the Most High, They have been as a deceitful bow, Fall by sword do their princes, From the insolence of their tongue, This is their derision in the land of Egypt!"
+    "content": [
+      "They turn back—not to the Most High, They have been as a deceitful bow, Fall by sword do their princes, From the insolence of their tongue, This ",
+      { "text": "is", "marks": ["i"] },
+      " their derision in the land of Egypt!"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "‘Unto thy mouth-a trumpet, As an eagle against the house of Jehovah, Because they transgressed My covenant, And against My law they have rebelled."
-    }
+    "content": [
+      { "heading": "Reaping the Whirlwind" },
+      {
+        "paragraph": true,
+        "text": "“Unto thy mouth—a trumpet, As an eagle against the house of Jehovah, Because they transgressed My covenant, And against My law they have rebelled."
+      }
+    ]
   },
   {
     "book": "HOS",
     "chapter": 8,
     "verse": 2,
-    "content": "To Me they cry, ‘My God, we-Israel-have known Thee.’"
+    "content": "To Me they cry, “My God, we—Israel—have known Thee.”"
   },
   {
     "book": "HOS",
     "chapter": 8,
     "verse": 3,
-    "content": "Cast off good hath Israel, an enemy pursueth him."
+    "content": {
+      "paragraph": true,
+      "text": "Cast off good hath Israel, an enemy pursueth him."
+    }
   },
   {
     "book": "HOS",
@@ -651,19 +850,31 @@
     "book": "HOS",
     "chapter": 8,
     "verse": 5,
-    "content": "Cast off hath thy calf, O Samaria, Burned hath Mine anger against them, Till when are they not capable of purity?"
+    "content": {
+      "paragraph": true,
+      "text": "Cast off hath thy calf, O Samaria, Burned hath Mine anger against them, Till when are they not capable of purity?"
+    }
   },
   {
     "book": "HOS",
     "chapter": 8,
     "verse": 6,
-    "content": "For even it is of Israel; an artificer made it, And it is not God, For the calf of Samaria is fragments!"
+    "content": [
+      "For even it ",
+      { "text": "is", "marks": ["i"] },
+      " of Israel; an artificer made it, And it ",
+      { "text": "is", "marks": ["i"] },
+      " not God, For the calf of Samaria is fragments!"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 8,
     "verse": 7,
-    "content": "For wind they sow, and a hurricane they reap, Stalk it hath none-a shoot not yielding grain, If so be it yield-strangers do swallow it up."
+    "content": {
+      "paragraph": true,
+      "text": "For wind they sow, and a hurricane they reap, Stalk it hath none—a shoot not yielding grain, If so be it yield—strangers do swallow it up."
+    }
   },
   {
     "book": "HOS",
@@ -675,7 +886,13 @@
     "book": "HOS",
     "chapter": 8,
     "verse": 9,
-    "content": "For they-they have gone up to Asshur, A wild ass alone by himself is Ephraim, They have hired lovers!"
+    "content": [
+      "For they—they have gone up ",
+      { "text": "to", "marks": ["i"] },
+      " Asshur, A wild ass alone by himself ",
+      { "text": "is", "marks": ["i"] },
+      " Ephraim, They have hired lovers!"
+    ]
   },
   {
     "book": "HOS",
@@ -687,7 +904,10 @@
     "book": "HOS",
     "chapter": 8,
     "verse": 11,
-    "content": "Because Ephraim did multiply altars to sin, They have been to him altars to sin."
+    "content": {
+      "paragraph": true,
+      "text": "Because Ephraim did multiply altars to sin, They have been to him altars to sin."
+    }
   },
   {
     "book": "HOS",
@@ -699,7 +919,11 @@
     "book": "HOS",
     "chapter": 8,
     "verse": 13,
-    "content": "The sacrifices of Mine offerings! They sacrifice flesh, and they eat, Jehovah hath not accepted them, Now doth He remember their iniquity, And inspect their sin, They-to Egypt they turn back."
+    "content": [
+      "The sacrifices of Mine offerings! They sacrifice flesh, and they eat, Jehovah hath not accepted them, Now doth He remember their iniquity, And inspect their sin, They—",
+      { "text": "to", "marks": ["i"] },
+      " Egypt they turn back."
+    ]
   },
   {
     "book": "HOS",
@@ -711,10 +935,13 @@
     "book": "HOS",
     "chapter": 9,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "‘Rejoice not, O Israel, be not joyful like the peoples, For thou hast gone a-whoring from thy God, Thou hast loved a gift near all floors of corn."
-    }
+    "content": [
+      { "heading": "Days of Recompence" },
+      {
+        "paragraph": true,
+        "text": "“Rejoice not, O Israel, be not joyful like the peoples, For thou hast gone a-whoring from thy God, Thou hast loved a gift near all floors of corn."
+      }
+    ]
   },
   {
     "book": "HOS",
@@ -726,79 +953,137 @@
     "book": "HOS",
     "chapter": 9,
     "verse": 3,
-    "content": "They do not abide in the land of Jehovah, And turned back hath Ephraim to Egypt, And in Asshur an unclean thing they eat."
+    "content": [
+      "They do not abide in the land of Jehovah, And turned back hath Ephraim ",
+      { "text": "to", "marks": ["i"] },
+      " Egypt, And in Asshur an unclean thing they eat."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 4,
-    "content": "They pour not out wine to Jehovah, Nor are they sweet to Him, Their sacrifices are as bread of mourners to them, All eating it are unclean: For their bread is for themselves, It doth not come into the house of Jehovah."
+    "content": [
+      "They pour not out wine to Jehovah, Nor are they sweet to Him, Their sacrifices ",
+      { "text": "are", "marks": ["i"] },
+      " as bread of mourners to them, All eating it are unclean: For their bread ",
+      { "text": "is", "marks": ["i"] },
+      " for themselves, It doth not come into the house of Jehovah."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 5,
-    "content": "What do ye at the day appointed? And at the day of Jehovah’s festival?"
+    "content": {
+      "paragraph": true,
+      "text": "What do ye at the day appointed? And at the day of Jehovah’s festival?"
+    }
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 6,
-    "content": "For, lo, they have gone because of destruction, Egypt gathereth them, Moph burieth them, The desirable things of their silver, Nettles possess them-a thorn is in their tents."
+    "content": [
+      "For, lo, they have gone because of destruction, Egypt gathereth them, Moph burieth them, The desirable things of their silver, Nettles possess them—a thorn ",
+      { "text": "is", "marks": ["i"] },
+      " in their tents."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 7,
-    "content": "Come in have the days of inspection, Come in have the days of recompence, Israel doth know! a fool is the prophet, Mad is the man of the Spirit, Because of the abundance of thine iniquity, And great is the hatred."
+    "content": [
+      "Come in have the days of inspection, Come in have the days of recompence, Israel doth know! a fool ",
+      { "text": "is", "marks": ["i"] },
+      " the prophet, Mad ",
+      { "text": "is", "marks": ["i"] },
+      " the man of the Spirit, Because of the abundance of thine iniquity, And great ",
+      { "text": "is", "marks": ["i"] },
+      " the hatred."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 8,
-    "content": "Ephraim is looking away from My God, The prophet! a snare of a fowler is over all his ways, Hatred is in the house of his God."
+    "content": [
+      "Ephraim is looking ",
+      { "text": "away", "marks": ["i"] },
+      " from My God, The prophet! a snare of a fowler ",
+      { "text": "is", "marks": ["i"] },
+      " over all his ways, Hatred ",
+      { "text": "is", "marks": ["i"] },
+      " in the house of his God."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 9,
-    "content": "They have gone deep-have done corruptly, As in the days of Gibeah, He doth remember their iniquity, He doth inspect their sins."
+    "content": [
+      "They have gone deep—have done corruptly, As ",
+      { "text": "in", "marks": ["i"] },
+      " the days of Gibeah, He doth remember their iniquity, He doth inspect their sins."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 10,
-    "content": "As grapes in a wilderness I found Israel, As the first-fruit in a fig-tree, at its beginning, I have seen your fathers, They-they have gone in to Baal-Peor, And are separated to a shameful thing, And are become abominable like their love."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "As grapes in a wilderness I found Israel, As the first-fruit in a fig-tree, at its beginning, I have seen your fathers, They—they have gone in "
+      },
+      { "text": "to", "marks": ["i"] },
+      " Baal-Peor, And are separated to a shameful thing, And are become abominable like their love."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 11,
-    "content": "Ephraim is as a fowl, Fly away doth their honour, without birth, And without womb, and without conception."
+    "content": [
+      "Ephraim ",
+      { "text": "is", "marks": ["i"] },
+      " as a fowl, Fly away doth their honour, without birth, And without womb, and without conception."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 12,
-    "content": "For though they nourish their sons, I have made them childless-without man, Surely also, woe to them, when I turn aside from them."
+    "content": "For though they nourish their sons, I have made them childless—without man, Surely also, woe to them, when I turn aside from them."
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 13,
-    "content": "Ephraim! when I have looked to the rock, Is planted in comeliness, And Ephraim is to bring out unto a slayer his sons."
+    "content": [
+      "Ephraim! when I have looked to the rock, Is planted in comeliness, And Ephraim ",
+      { "text": "is", "marks": ["i"] },
+      " to bring out unto a slayer his sons."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 14,
-    "content": "Give to them, Jehovah-what dost Thou give? Give to them miscarrying womb, and dry breasts."
+    "content": "Give to them, Jehovah—what dost Thou give? Give to them miscarrying womb, and dry breasts."
   },
   {
     "book": "HOS",
     "chapter": 9,
     "verse": 15,
-    "content": "All their evil is in Gilgal, Surely there I have hated them, Because of the evil of their doings, Out of My house I do drive them, I add not to love them, all their heads are apostates."
+    "content": [
+      { "paragraph": true, "text": "All their evil " },
+      { "text": "is", "marks": ["i"] },
+      " in Gilgal, Surely there I have hated them, Because of the evil of their doings, Out of My house I do drive them, I add not to love them, all their heads ",
+      { "text": "are", "marks": ["i"] },
+      " apostates."
+    ]
   },
   {
     "book": "HOS",
@@ -816,10 +1101,12 @@
     "book": "HOS",
     "chapter": 10,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "‘An empty vine is Israel, Fruit he maketh like to himself, According to the abundance of his fruit, He hath multiplied for the altars, According to the goodness of his land, They have made goodly standing-pillars."
-    }
+    "content": [
+      { "heading": "Their Divided Heart" },
+      { "paragraph": true, "text": "“An empty vine " },
+      { "text": "is", "marks": ["i"] },
+      " Israel, Fruit he maketh like to himself, According to the abundance of his fruit, He hath multiplied for the altars, According to the goodness of his land, They have made goodly standing-pillars."
+    ]
   },
   {
     "book": "HOS",
@@ -831,13 +1118,16 @@
     "book": "HOS",
     "chapter": 10,
     "verse": 3,
-    "content": "For now they say: We have no king, Because we have not feared Jehovah, And the king-what doth he for us?"
+    "content": "For now they say: We have no king, Because we have not feared Jehovah, And the king—what doth he for us?"
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 4,
-    "content": "They have spoken words, To swear falsehood in making a covenant, And flourished as a poisonous herb hath judgment, on the furrows of a field."
+    "content": {
+      "paragraph": true,
+      "text": "They have spoken words, To swear falsehood in making a covenant, And flourished as a poisonous herb hath judgment, on the furrows of a field."
+    }
   },
   {
     "book": "HOS",
@@ -855,7 +1145,11 @@
     "book": "HOS",
     "chapter": 10,
     "verse": 7,
-    "content": "Cut off is Samaria! Its king is as a chip on the face of the waters."
+    "content": [
+      { "paragraph": true, "text": "Cut off is Samaria! Its king " },
+      { "text": "is", "marks": ["i"] },
+      " as a chip on the face of the waters."
+    ]
   },
   {
     "book": "HOS",
@@ -867,7 +1161,10 @@
     "book": "HOS",
     "chapter": 10,
     "verse": 9,
-    "content": "From the days of Gibeah thou hast sinned, O Israel, There they have stood, Not overtake them in Gibeah doth battle, Because of sons of perverseness."
+    "content": {
+      "paragraph": true,
+      "text": "From the days of Gibeah thou hast sinned, O Israel, There they have stood, Not overtake them in Gibeah doth battle, Because of sons of perverseness."
+    }
   },
   {
     "book": "HOS",
@@ -879,13 +1176,22 @@
     "book": "HOS",
     "chapter": 10,
     "verse": 11,
-    "content": "And Ephraim is a trained heifer-loving to thresh, And I-I have passed over on the goodness of its neck, I cause one to ride Ephraim, Plough doth Judah, harrow for him doth Jacob."
+    "content": [
+      "And Ephraim ",
+      { "text": "is", "marks": ["i"] },
+      " a trained heifer—loving to thresh, And I—I have passed over on the goodness of its neck, I cause ",
+      { "text": "one", "marks": ["i"] },
+      " to ride Ephraim, Plough doth Judah, harrow for him doth Jacob."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 10,
     "verse": 12,
-    "content": "Sow for yourselves in righteousness, Reap according to loving-kindness, Till for yourselves tillage of knowledge, To seek Jehovah, Till he come and shew righteousness to you."
+    "content": {
+      "paragraph": true,
+      "text": "Sow for yourselves in righteousness, Reap according to loving-kindness, Till for yourselves tillage of knowledge, To seek Jehovah, Till he come and shew righteousness to you."
+    }
   },
   {
     "book": "HOS",
@@ -897,7 +1203,10 @@
     "book": "HOS",
     "chapter": 10,
     "verse": 14,
-    "content": "And rise doth a tumult among thy people, And all thy fortresses are spoiled, As the spoiling of Shalman of Beth-Arbel, In a day of battle, Mother against sons dashed in pieces."
+    "content": {
+      "paragraph": true,
+      "text": "And rise doth a tumult among thy people, And all thy fortresses are spoiled, As the spoiling of Shalman of Beth-Arbel, In a day of battle, Mother against sons dashed in pieces."
+    }
   },
   {
     "book": "HOS",
@@ -909,10 +1218,12 @@
     "book": "HOS",
     "chapter": 11,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Because Israel is a youth, and I love him, Out of Egypt I have called for My Son."
-    }
+    "content": [
+      { "heading": "The Father’s Love" },
+      { "paragraph": true, "text": "Because Israel " },
+      { "text": "is", "marks": ["i"] },
+      " a youth, and I love him, Out of Egypt I have called for My Son."
+    ]
   },
   {
     "book": "HOS",
@@ -924,25 +1235,39 @@
     "book": "HOS",
     "chapter": 11,
     "verse": 3,
-    "content": "And I have caused Ephraim to go on foot, Taking them by their arms, And they have not known that I strengthened them."
+    "content": {
+      "paragraph": true,
+      "text": "And I have caused Ephraim to go on foot, Taking them by their arms, And they have not known that I strengthened them."
+    }
   },
   {
     "book": "HOS",
     "chapter": 11,
     "verse": 4,
-    "content": "With cords of man I do draw them, With thick cords of love, And I am to them as a raiser up of a yoke on their jaws, And I incline unto him-I feed him."
+    "content": [
+      "With cords of man I do draw them, With thick cords of love, And I am to them as a raiser up of a yoke on their jaws, And I incline unto him—I feed ",
+      { "text": "him", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 11,
     "verse": 5,
-    "content": "He turneth not back unto the land of Egypt, And Asshur-he is his king, For they have refused to return."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "He turneth not back unto the land of Egypt, And Asshur—he "
+      },
+      { "text": "is", "marks": ["i"] },
+      " his king, For they have refused to return."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 11,
     "verse": 6,
-    "content": "Grievous hath been the sword in his cities, And it hath ended his bars, and consumed-from their own counsels."
+    "content": "Grievous hath been the sword in his cities, And it hath ended his bars, and consumed—from their own counsels."
   },
   {
     "book": "HOS",
@@ -954,19 +1279,26 @@
     "book": "HOS",
     "chapter": 11,
     "verse": 8,
-    "content": "How do I give thee up, O Ephraim? Do I deliver thee up, O Israel? How do I make thee as Admah? Do I set thee as Zeboim? Turned in Me is My heart, kindled together have been My repentings."
+    "content": {
+      "paragraph": true,
+      "text": "How do I give thee up, O Ephraim? Do I deliver thee up, O Israel? How do I make thee as Admah? Do I set thee as Zeboim? Turned in Me is My heart, kindled together have been My repentings."
+    }
   },
   {
     "book": "HOS",
     "chapter": 11,
     "verse": 9,
-    "content": "I do not the fierceness of My anger, I turn not back to destroy Ephraim, For God I am, and not a man. In thy midst the Holy One, and I enter not in enmity,"
+    "content": [
+      "I do not the fierceness of My anger, I turn not back to destroy Ephraim, For God I ",
+      { "text": "am", "marks": ["i"] },
+      ", and not a man. In thy midst the Holy One, and I enter not in enmity,"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 11,
     "verse": 10,
-    "content": "After Jehovah they go-as a lion He roareth, When He doth roar, then tremble do the sons from the west."
+    "content": "After Jehovah they go—as a lion He roareth, When He doth roar, then tremble do the sons from the west."
   },
   {
     "book": "HOS",
@@ -978,22 +1310,35 @@
     "book": "HOS",
     "chapter": 11,
     "verse": 12,
-    "content": "Compassed Me with feigning hath Ephraim, And with deceit the house of Israel. And Judah again is ruling with God, And with the Holy Ones is faithful!"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Compassed Me with feigning hath Ephraim, And with deceit the house of Israel. And Judah again is ruling with God, And with the Holy Ones "
+      },
+      { "text": "is", "marks": ["i"] },
+      " faithful!"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Ephraim is enjoying wind, And is pursuing an east wind, All the day lying and spoiling he multiplieth, And a covenant with Asshur they make, And oil to Egypt is carried."
-    }
+    "content": [
+      { "heading": "His Past Mercies" },
+      {
+        "paragraph": true,
+        "text": "Ephraim is enjoying wind, And is pursuing an east wind, All the day lying and spoiling he multiplieth, And a covenant with Asshur they make, And oil to Egypt is carried."
+      }
+    ]
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 2,
-    "content": "And a controversy hath Jehovah with Judah, To lay a charge on Jacob according to his ways, According to his doings He returneth to him."
+    "content": {
+      "paragraph": true,
+      "text": "And a controversy hath Jehovah with Judah, To lay a charge on Jacob according to his ways, According to his doings He returneth to him."
+    }
   },
   {
     "book": "HOS",
@@ -1005,13 +1350,21 @@
     "book": "HOS",
     "chapter": 12,
     "verse": 4,
-    "content": "Yea, he is a prince unto the Messenger, And he overcometh by weeping, And he maketh supplication to Him, At Bethel He doth find him, And there He doth speak with us,"
+    "content": [
+      "Yea, he is a prince unto the Messenger, And he overcometh ",
+      { "text": "by", "marks": ["i"] },
+      " weeping, And he maketh supplication to Him, At Bethel He doth find him, And there He doth speak with us,"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 5,
-    "content": "Even Jehovah, God of the Hosts, Jehovah is His memorial."
+    "content": [
+      "Even Jehovah, God of the Hosts, Jehovah ",
+      { "text": "is", "marks": ["i"] },
+      " His memorial."
+    ]
   },
   {
     "book": "HOS",
@@ -1023,31 +1376,48 @@
     "book": "HOS",
     "chapter": 12,
     "verse": 7,
-    "content": "Canaan! in his hand are balances of deceit! To oppress he hath loved."
+    "content": [
+      { "paragraph": true, "text": "Canaan! in his hand " },
+      { "text": "are", "marks": ["i"] },
+      " balances of deceit! To oppress he hath loved."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 8,
-    "content": "And Ephraim saith: ‘Surely I have become rich, I have found wealth for myself, All my labours-they find not against me iniquity that is sin.’"
+    "content": [
+      "And Ephraim saith: “Surely I have become rich, I have found wealth for myself, All my labours—they find not against me iniquity that ",
+      { "text": "is", "marks": ["i"] },
+      " sin.”"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 9,
-    "content": "And I-Jehovah thy God from the land of Egypt, Again do I turn thee back into tents, As in the days of the appointed time."
+    "content": "And I—Jehovah thy God from the land of Egypt, Again do I turn thee back into tents, As in the days of the appointed time."
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 10,
-    "content": "And I have spoken unto the prophets, And I have multiplied vision, And by the hand of the prophets I use similes."
+    "content": {
+      "paragraph": true,
+      "text": "And I have spoken unto the prophets, And I have multiplied vision, And by the hand of the prophets I use similes."
+    }
   },
   {
     "book": "HOS",
     "chapter": 12,
     "verse": 11,
-    "content": "Surely Gilead is iniquity, Only, vanity they have been, In Gilead bullocks they have sacrificed, Also their altars are as heaps, on the furrows of a field."
+    "content": [
+      "Surely Gilead ",
+      { "text": "is", "marks": ["i"] },
+      " iniquity, Only, vanity they have been, In Gilead bullocks they have sacrificed, Also their altars ",
+      { "text": "are", "marks": ["i"] },
+      " as heaps, on the furrows of a field."
+    ]
   },
   {
     "book": "HOS",
@@ -1071,16 +1441,23 @@
     "book": "HOS",
     "chapter": 13,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "When Ephraim speaketh tremblingly, He hath been lifted up in Israel, When he becometh guilty in Baal he dieth."
-    }
+    "content": [
+      { "heading": "The Only Saviour" },
+      {
+        "paragraph": true,
+        "text": "When Ephraim speaketh tremblingly, He hath been lifted up in Israel, When he becometh guilty in Baal he dieth."
+      }
+    ]
   },
   {
     "book": "HOS",
     "chapter": 13,
     "verse": 2,
-    "content": "And now do they add to sin, And make to them a molten image of their silver, By their own understanding-idols, A work of artisans-all of it, Of them they say, who are sacrificers among men, ‘The calves let them kiss.’"
+    "content": [
+      "And now do they add to sin, And make to them a molten image of their silver, By their own understanding—idols, A work of artisans—all of it, Of them they say, who ",
+      { "text": "are", "marks": ["i"] },
+      " sacrificers among men, “The calves let them kiss.”"
+    ]
   },
   {
     "book": "HOS",
@@ -1092,13 +1469,17 @@
     "book": "HOS",
     "chapter": 13,
     "verse": 4,
-    "content": "And I am Jehovah thy God from the land of Egypt, And a God besides Me thou dost not know, And a Saviour-there is none save Me."
+    "content": [
+      { "paragraph": true, "text": "And I " },
+      { "text": "am", "marks": ["i"] },
+      " Jehovah thy God from the land of Egypt, And a God besides Me thou dost not know, And a Saviour—there is none save Me."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 13,
     "verse": 5,
-    "content": "I-I have known thee in a wilderness, In a land of droughts."
+    "content": "I—I have known thee in a wilderness, In a land of droughts."
   },
   {
     "book": "HOS",
@@ -1122,13 +1503,22 @@
     "book": "HOS",
     "chapter": 13,
     "verse": 9,
-    "content": "And I consume them there as a lioness, A beast of the field doth rend them."
+    "content": {
+      "paragraph": true,
+      "text": "And I consume them there as a lioness, A beast of the field doth rend them."
+    }
   },
   {
     "book": "HOS",
     "chapter": 13,
     "verse": 10,
-    "content": "Thou hast destroyed thyself, O Israel, But in Me is thy help, Where is thy king now- And he doth save thee in all thy cities? And thy judges of whom thou didst say, ‘Give to me a king and heads?’"
+    "content": [
+      "Thou hast destroyed thyself, O Israel, But in Me ",
+      { "text": "is", "marks": ["i"] },
+      " thy help, Where ",
+      { "text": "is", "marks": ["i"] },
+      " thy king now—And he doth save thee in all thy cities? And thy judges of whom thou didst say, “Give to me a king and heads?”"
+    ]
   },
   {
     "book": "HOS",
@@ -1140,25 +1530,42 @@
     "book": "HOS",
     "chapter": 13,
     "verse": 12,
-    "content": "Bound up is the iniquity of Ephraim, Hidden is his sin,"
+    "content": [
+      "Bound up ",
+      { "text": "is", "marks": ["i"] },
+      " the iniquity of Ephraim, Hidden ",
+      { "text": "is", "marks": ["i"] },
+      " his sin,"
+    ]
   },
   {
     "book": "HOS",
     "chapter": 13,
     "verse": 13,
-    "content": "Pangs of a travailing woman come to him, He is a son not wise, For he remaineth not the time for the breaking forth of sons."
+    "content": [
+      "Pangs of a travailing woman come to him, He ",
+      { "text": "is", "marks": ["i"] },
+      " a son not wise, For he remaineth not the time for the breaking forth of sons."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 13,
     "verse": 14,
-    "content": "From the hand of Sheol I do ransom them, From death I redeem them, Where is thy plague, O death? Where thy destruction, O Sheol? Repentance is hid from Mine eyes."
+    "content": [
+      "From the hand of Sheol I do ransom them, From death I redeem them, Where ",
+      { "text": "is", "marks": ["i"] },
+      " thy plague, O death? Where thy destruction, O Sheol? Repentance is hid from Mine eyes."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 13,
     "verse": 15,
-    "content": "Though he among brethren produceth fruit, Come in doth an east wind, a wind of Jehovah, From a wilderness it is coming up, And it drieth up his fountain, And become dry doth his spring, It-it spoileth a treasure-every desirable vessel."
+    "content": {
+      "paragraph": true,
+      "text": "Though he among brethren produceth fruit, Come in doth an east wind, a wind of Jehovah, From a wilderness it is coming up, And it drieth up his fountain, And become dry doth his spring, It—it spoileth a treasure—every desirable vessel."
+    }
   },
   {
     "book": "HOS",
@@ -1170,28 +1577,34 @@
     "book": "HOS",
     "chapter": 14,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Turn back, O Israel, unto Jehovah thy God, For thou hast stumbled by thine iniquity."
-    }
+    "content": [
+      { "heading": "Return, O Israel!" },
+      {
+        "paragraph": true,
+        "text": "Turn back, O Israel, unto Jehovah thy God, For thou hast stumbled by thine iniquity."
+      }
+    ]
   },
   {
     "book": "HOS",
     "chapter": 14,
     "verse": 2,
-    "content": "Take with you words, and turn to Jehovah, Say ye unto Him: ‘Take away all iniquity, and give good, And we do render the fruit of our lips."
+    "content": "Take with you words, and turn to Jehovah, Say ye unto Him: “Take away all iniquity, and give good, And we do render the fruit of our lips."
   },
   {
     "book": "HOS",
     "chapter": 14,
     "verse": 3,
-    "content": "Asshur doth not save us, on a horse we ride not, Nor do we say any more, Our God, to the work of our hands, For in Thee find mercy doth the fatherless.’"
+    "content": "Asshur doth not save us, on a horse we ride not, Nor do we say any more, Our God, to the work of our hands, For in Thee find mercy doth the fatherless.”"
   },
   {
     "book": "HOS",
     "chapter": 14,
     "verse": 4,
-    "content": "I heal their backsliding, I love them freely, For turned back hath Mine anger from him."
+    "content": {
+      "paragraph": true,
+      "text": "I heal their backsliding, I love them freely, For turned back hath Mine anger from him."
+    }
   },
   {
     "book": "HOS",
@@ -1209,18 +1622,32 @@
     "book": "HOS",
     "chapter": 14,
     "verse": 7,
-    "content": "Return do the dwellers under his shadow, They revive as corn, and flourish as a vine, His memorial is as wine of Lebanon."
+    "content": [
+      "Return do the dwellers under his shadow, They revive ",
+      { "text": "as", "marks": ["i"] },
+      " corn, and flourish as a vine, His memorial ",
+      { "text": "is", "marks": ["i"] },
+      " as wine of Lebanon."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 14,
     "verse": 8,
-    "content": "O Ephraim, what to Me any more with idols? I-I afflicted, and I cause him to sing: ‘I am as a green fir-tree,’ From Me is thy fruit found."
+    "content": [
+      "O Ephraim, what to Me any more with idols? I—I afflicted, and I cause him to sing: “I ",
+      { "text": "am", "marks": ["i"] },
+      " as a green fir-tree,” From Me is thy fruit found."
+    ]
   },
   {
     "book": "HOS",
     "chapter": 14,
     "verse": 9,
-    "content": "Who is wise, and doth understand these? Prudent, and knoweth them? For upright are the ways of Jehovah, And the righteous go on in them, And the transgressors stumble therein!"
+    "content": [
+      { "paragraph": true, "text": "Who " },
+      { "text": "is", "marks": ["i"] },
+      " wise, and doth understand these? Prudent, and knoweth them? For upright are the ways of Jehovah, And the righteous go on in them, And the transgressors stumble therein!"
+    ]
   }
 ]

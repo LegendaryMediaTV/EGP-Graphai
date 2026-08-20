@@ -5,7 +5,87 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of the choice ones of God, and an acknowledging of truth that is according to piety,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "Titus was a Gentile by birth (",
+                  {
+                    "bibleLink": "Galatians 2:1, 3",
+                    "content": "Gal. 2. 1, 3"
+                  },
+                  "), an uncircumcised convert (",
+                  { "bibleLink": "Titus 1:4", "content": "1. 4" },
+                  ") and beloved fellow-worker with Paul, who took him to the Jerusalem assembly (",
+                  { "bibleLink": "Acts 15:2", "content": "Acts 15. 2" },
+                  "), and to Ephesus, and then sent him to Corinth (",
+                  {
+                    "bibleLink": "2 Corinthians 7:6–9",
+                    "content": "2 Cor. 7. 6–9"
+                  },
+                  "; ",
+                  { "bibleLink": "2 Corinthians 8:6", "content": "8. 6" },
+                  "; ",
+                  { "bibleLink": "2 Corinthians 12:18", "content": "12. 18" },
+                  "), and called him to Troas in Macedon (",
+                  {
+                    "bibleLink": "2 Corinthians 2:12, 13",
+                    "content": "2 Cor. 2. 12, 13"
+                  },
+                  "; ",
+                  { "bibleLink": "2 Corinthians 7:6", "content": "7. 6" },
+                  "), and thereafter sent him to Corinth (",
+                  {
+                    "bibleLink": "2 Corinthians 8:16, 17, 23",
+                    "content": "2 Cor. 6. 16, 17, 23"
+                  },
+                  "), and to Crete (",
+                  { "bibleLink": "Titus 1:5", "content": "1. 5" },
+                  "), where he received this Letter about A.D. 65–6, but others date it as early as A.D. 52."
+                ],
+                "break": true
+              },
+              "This Letter is designed to oppose Judaism, false science, and wickedness, to state the qualifications and graces of presbyters and others, young and old, male and female. It is quoted or referred to by Clement of Rome (A.D. 108), Irenaeus (A.D. 178), Theophilus (A.D. 177), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), &c., and resembles 1st Timothy in many phrases, comp. ",
+              { "bibleLink": "Titus 1:4, 5", "content": "1. 4, 5" },
+              " with ",
+              { "bibleLink": "1 Timothy 1:1–3", "content": "1 Tim. 1. 1–3" },
+              "; ",
+              { "bibleLink": "Titus 1:14", "content": "1. 14" },
+              " with ",
+              { "bibleLink": "1 Timothy 1:4", "content": "1 Tim. 1. 4" },
+              "; ",
+              { "bibleLink": "Titus 2:7, 15", "content": "2. 7, 15" },
+              " with ",
+              { "bibleLink": "1 Timothy 4:12", "content": "1 Tim. 4. 12" },
+              "; ",
+              { "bibleLink": "Titus 1:6–8", "content": "1. 6–8" },
+              " with ",
+              { "bibleLink": "1 Timothy 3:2–4", "content": "1 Tim. 3. 2–4" },
+              "."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into three parts; ",
+              { "bibleLink": "Titus 1:1–4", "content": "v. 1–4" },
+              " address and salutation; ",
+              { "bibleLink": "Titus 1:5–9", "content": "v. 5–9" },
+              " qualifications of presbyters; ",
+              { "bibleLink": "Titus 1:10–16", "content": "v. 10–16" },
+              " character of Jewish teachers."
+            ]
+          }
+        },
+        "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of the choice ones of God, and an acknowledging of truth that ",
+        { "text": "is", "marks": ["i"] },
+        " according to piety,"
+      ]
     }
   },
   {
@@ -24,19 +104,25 @@
     "book": "TIT",
     "chapter": 1,
     "verse": 4,
-    "content": "to Titus-true child according to a common faith: Grace, kindness, peace, from God the Father, and the Lord Jesus Christ our Saviour!"
+    "content": "to Titus—true child according to a common faith: Grace, kindness, peace, from God the Father, and the Lord Jesus Christ our Saviour!"
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 5,
-    "content": "For this cause left I thee in Crete, that the things lacking thou mayest arrange, and mayest set down in every city elders, as I did appoint to thee;"
+    "content": [
+      { "heading": "Stewards of God" },
+      {
+        "paragraph": true,
+        "text": "For this cause left I thee in Crete, that the things lacking thou mayest arrange, and mayest set down in every city elders, as I did appoint to thee;"
+      }
+    ]
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 6,
-    "content": "if any one is blameless, of one wife a husband, having children stedfast, not under accusation of riotous living or insubordinate-"
+    "content": "if any one is blameless, of one wife a husband, having children stedfast, not under accusation of riotous living or insubordinate—"
   },
   {
     "book": "TIT",
@@ -48,31 +134,46 @@
     "book": "TIT",
     "chapter": 1,
     "verse": 8,
-    "content": "but a lover of strangers, a lover of good men, sober-minded, righteous, kind, self-controlled,"
+    "content": "but a lover of strangers, a lover of good men, sober-minded, righteous, kind, selfcontrolled,"
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 9,
-    "content": "holding-according to the teaching-to the stedfast word, that he may be able also to exhort in the sound teaching, and the gainsayers to convict;"
+    "content": "holding—according to the teaching—to the stedfast word, that he may be able also to exhort in the sound teaching, and the gainsayers to convict;"
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 10,
-    "content": "for there are many both insubordinate, vain-talkers, and mind-deceivers-especially they of the circumcision-"
+    "content": {
+      "paragraph": true,
+      "text": "for there are many both insubordinate, vain-talkers, and mind-deceivers—especially they of the circumcision—"
+    }
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 11,
-    "content": "whose mouth it behoveth to stop, who whole households do overturn, teaching what things it behoveth not, for filthy lucre’s sake."
+    "content": {
+      "text": "whose mouth it behoveth to stop, who whole households do overturn, teaching what things it behoveth not, for filthy lucre’s sake.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "whom it behoves to muzzle, who turn upside down whole houses..because of shameful gain.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 12,
-    "content": "A certain one of them, a prophet of their own, said-‘Cretans! always liars, evil beasts, lazy bellies!’"
+    "content": "A certain one of them, a prophet of their own, said—“Cretans! always liars, evil beasts, lazy bellies!”"
   },
   {
     "book": "TIT",
@@ -84,28 +185,82 @@
     "book": "TIT",
     "chapter": 1,
     "verse": 14,
-    "content": "not giving heed to Jewish fables and commands of men, turning themselves away from the truth;"
+    "content": {
+      "text": "not giving heed to Jewish fables and commands of men, turning themselves away from the truth;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "not holding-towards Jewish myths..turning round.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 15,
-    "content": "all things, indeed, are pure to the pure, and to the defiled and unstedfast is nothing pure, but of them defiled are even the mind and the conscience;"
+    "content": [
+      "all things, indeed, ",
+      { "text": "are", "marks": ["i"] },
+      " pure to the pure, and to the defiled and unstedfast ",
+      { "text": "is", "marks": ["i"] },
+      " nothing pure, but of them defiled ",
+      { "text": "are", "marks": ["i"] },
+      " even the mind and the conscience;"
+    ]
   },
   {
     "book": "TIT",
     "chapter": 1,
     "verse": 16,
-    "content": "God they profess to know, and in the works they deny Him, being abominable, and disobedient, and unto every good work disapproved."
+    "content": [
+      "God they ",
+      {
+        "text": "profess",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "say the same thing or speak together.", "marks": ["i"] }
+          ]
+        }
+      },
+      " to know, and in the works they deny ",
+      { "text": "Him", "marks": ["i"] },
+      ", being abominable, and disobedient, and unto every good work disapproved."
+    ]
   },
   {
     "book": "TIT",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And thou-be speaking what doth become the sound teaching;"
-    }
+    "content": [
+      { "heading": "Sound Doctrine" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter II. may be divided into four parts; ",
+            { "bibleLink": "Titus 2:1–5", "content": "v. 1–5" },
+            " rules for aged men, also for women aged and young; ",
+            { "bibleLink": "Titus 2:6–8", "content": "v. 6–8" },
+            " younger men; ",
+            { "bibleLink": "Titus 2:9, 10", "content": "v. 9, 10" },
+            " servants; ",
+            { "bibleLink": "Titus 2:11–15", "content": "v. 11–15" },
+            " object of the saving grace of God."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "And thou—be speaking what doth become the sound teaching;"
+      }
+    ]
   },
   {
     "book": "TIT",
@@ -123,13 +278,23 @@
     "book": "TIT",
     "chapter": 2,
     "verse": 4,
-    "content": "that they may make the young women sober-minded, to be lovers of their husbands, lovers of their children,"
+    "content": [
+      "that they may make the young women sober-minded, to be lovers of ",
+      { "text": "their", "marks": ["i"] },
+      " husbands, lovers of ",
+      { "text": "their", "marks": ["i"] },
+      " children,"
+    ]
   },
   {
     "book": "TIT",
     "chapter": 2,
     "verse": 5,
-    "content": "sober, pure, keepers of their own houses, good, subject to their own husbands, that the word of God may not be evil spoken of."
+    "content": [
+      "sober, pure, keepers of ",
+      { "text": "their own", "marks": ["i"] },
+      " houses, good, subject to their own husbands, that the word of God may not be evil spoken of."
+    ]
   },
   {
     "book": "TIT",
@@ -153,7 +318,11 @@
     "book": "TIT",
     "chapter": 2,
     "verse": 9,
-    "content": "Servants-to their own masters are to be subject, in all things to be well-pleasing, not gainsaying,"
+    "content": [
+      "Servants—to their own masters ",
+      { "text": "are", "marks": ["i"] },
+      " to be subject, in all things to be well-pleasing, not gainsaying,"
+    ]
   },
   {
     "book": "TIT",
@@ -165,7 +334,10 @@
     "book": "TIT",
     "chapter": 2,
     "verse": 11,
-    "content": "For the saving grace of God was manifested to all men,"
+    "content": {
+      "paragraph": true,
+      "text": "For the saving grace of God was manifested to all men,"
+    }
   },
   {
     "book": "TIT",
@@ -195,22 +367,63 @@
     "book": "TIT",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Remind them to be subject to principalities and authorities, to obey rule, unto every good work to be ready,"
-    }
+    "content": [
+      { "heading": "Social Service" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter III. may be divided into three parts; ",
+            { "bibleLink": "Titus 3:1–9", "content": "v. 1–9" },
+            " present duty, past state, and future hopes of Christians; ",
+            { "bibleLink": "Titus 3:10", "content": "v. 10" },
+            " to reject a sectarian man; ",
+            { "bibleLink": "Titus 3:12–15", "content": "v. 12–15" },
+            " closing commands and salutations."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Remind them to be subject to principalities and authorities, to obey rule, unto every good work to be ready,"
+      }
+    ]
   },
   {
     "book": "TIT",
     "chapter": 3,
     "verse": 2,
-    "content": "of no one to speak evil, not to be quarrelsome-gentle, showing all meekness to all men,"
+    "content": {
+      "text": "of no one to speak evil, not to be quarrelsome—gentle, showing all meekness to all men,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Or, ",
+          {
+            "text": "injuriously (lit. blasphemously) of no one, to be unwarlike (or without fighting), very-yielding, shewing inwardly all.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "TIT",
     "chapter": 3,
     "verse": 3,
-    "content": "for we were once-also we-thoughtless, disobedient, led astray, serving desires and pleasures manifold, in malice and envy living, odious-hating one another;"
+    "content": {
+      "text": "for we were once—also we—thoughtless, disobedient, led astray, serving desires and pleasures manifold, in malice and envy living, odious—hating one another;",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "then thoughtless, untrusting, deceived (or deceiving ourselves), being in bondage to manifold over-desires and pleasures, leading (ourselves) thoroughly in badness, and envy.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "TIT",
@@ -222,7 +435,11 @@
     "book": "TIT",
     "chapter": 3,
     "verse": 5,
-    "content": "(not by works that are in righteousness that we did but according to His kindness,) He did save us, through a bathing of regeneration, and a renewing of the Holy Spirit,"
+    "content": [
+      "(not by works that ",
+      { "text": "are", "marks": ["i"] },
+      " in righteousness that we did but according to His kindness,) He did save us, through a bathing of regeneration, and a renewing of the Holy Spirit,"
+    ]
   },
   {
     "book": "TIT",
@@ -240,13 +457,29 @@
     "book": "TIT",
     "chapter": 3,
     "verse": 8,
-    "content": "Stedfast is the word; and concerning these things I counsel thee to affirm fully, that they may be thoughtful, to be leading in good works-who have believed God; these are the good and profitable things to men,"
+    "content": [
+      "Stedfast ",
+      { "text": "is", "marks": ["i"] },
+      " the word; and concerning these things I counsel thee to affirm fully, that they may be thoughtful, to be leading in good works—who have believed God; these are the good and profitable things to men,"
+    ]
   },
   {
     "book": "TIT",
     "chapter": 3,
     "verse": 9,
-    "content": "and foolish questions, and genealogies, and contentions, and strivings about law, stand away from-for they are unprofitable and vain."
+    "content": {
+      "text": "and foolish questions, and genealogies, and contentions, and strivings about law, stand away from—for they are unprofitable and vain.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "be setting away foolish (or rebellious) searchings..law fightings.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "TIT",
@@ -258,13 +491,20 @@
     "book": "TIT",
     "chapter": 3,
     "verse": 11,
-    "content": "having known that he hath been subverted who is such, and doth sin, being self-condemned."
+    "content": [
+      "having known that he hath been subverted who ",
+      { "text": "is", "marks": ["i"] },
+      " such, and doth sin, being selfcondemned."
+    ]
   },
   {
     "book": "TIT",
     "chapter": 3,
     "verse": 12,
-    "content": "When I shall send Artemas unto thee, or Tychicus, be diligent to come unto me to Nicopolis, for there to winter I have determined."
+    "content": {
+      "paragraph": true,
+      "text": "When I shall send Artemas unto thee, or Tychicus, be diligent to come unto me to Nicopolis, for there to winter I have determined."
+    }
   },
   {
     "book": "TIT",
@@ -276,12 +516,19 @@
     "book": "TIT",
     "chapter": 3,
     "verse": 14,
-    "content": "and let them learn-ours also-to be leading in good works to the necessary uses, that they may not be unfruitful."
+    "content": "and let them learn—ours also—to be leading in good works to the necessary uses, that they may not be unfruitful."
   },
   {
     "book": "TIT",
     "chapter": 3,
     "verse": 15,
-    "content": "Salute thee do all those with me; salute those loving us in faith; the grace is with you all!"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Salute thee do all those with me; salute those loving us in faith; the grace "
+      },
+      { "text": "is", "marks": ["i"] },
+      " with you all!"
+    ]
   }
 ]

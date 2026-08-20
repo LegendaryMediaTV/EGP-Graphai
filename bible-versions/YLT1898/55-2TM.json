@@ -5,7 +5,87 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, an apostle of Jesus Christ, through the will of God, according to a promise of life that is in Christ Jesus,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "2 Timothy. THIS second Epistle to Timotheus is generally supposed to have been written from Rome about A.D. 66 or 67, some months before Paul’s martyrdom under Nero. Timotheus was residing in Asia Minor, probably at Troas or Ephesus, and being perhaps constitutionally timid, Paul exhorts him to faithfulness, sound doctrine, and patience amid trials. The Second Letter is quoted as canonical by the same ancient writers as quote the First; it contains apparent references to ",
+                  {
+                    "bibleLink": "Exodus 7:11, 12",
+                    "content": "Exod. 7. 11, 12"
+                  },
+                  "; ",
+                  { "bibleLink": "Exodus 8:18", "content": "8. 18" },
+                  "; ",
+                  { "bibleLink": "Exodus 9:11", "content": "9. 11" },
+                  "; ",
+                  { "bibleLink": "Matthew 16:24", "content": "Mat. 16. 24" },
+                  "; ",
+                  { "bibleLink": "Acts 14:22", "content": "Acts 14. 22" },
+                  "; ",
+                  {
+                    "bibleLink": "2 Peter 1:20, 21",
+                    "content": "2 Pet. 1. 20, 21"
+                  },
+                  "; and may be divided into three parts, viz.:—"
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  { "text": "I.", "marks": ["b"] },
+                  " The Inscription and Salutation, i. 1–5."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  { "text": "II.", "marks": ["b"] },
+                  " An Exhortation to Timothy, ",
+                  { "bibleLink": "2 Timothy 1:6–18", "content": "ch. i. 6" },
+                  "–",
+                  { "bibleLink": "2 Timothy 4:1–8", "content": "iv. 8" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  { "text": "III.", "marks": ["b"] },
+                  " The Conclusion, and Salutations, ",
+                  {
+                    "bibleLink": "2 Timothy 4:9–22",
+                    "content": "ch. iv. 9–22"
+                  },
+                  "."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into four parts; ",
+              { "bibleLink": "2 Timothy 1:1, 2", "content": "v. 1, 2" },
+              " Paul’s address and salutation; ",
+              { "bibleLink": "2 Timothy 1:3–5", "content": "v. 3–5" },
+              " his joy before God over Timotheus; ",
+              { "bibleLink": "2 Timothy 1:6–12", "content": "v. 6–12" },
+              " exhortation to activity, boldness, endurance; ",
+              { "bibleLink": "2 Timothy 1:13–18", "content": "v. 13–18" },
+              " to sound words and remembrance of Onesiphorus."
+            ]
+          }
+        },
+        "Paul, an apostle of Jesus Christ, through the will of God, according to a promise of life that ",
+        { "text": "is", "marks": ["i"] },
+        " in Christ Jesus,"
+      ]
     }
   },
   {
@@ -18,7 +98,13 @@
     "book": "2TM",
     "chapter": 1,
     "verse": 3,
-    "content": "I am thankful to God, whom I serve from progenitors in a pure conscience, that unceasingly I have remembrance concerning thee in my supplications night and day,"
+    "content": [
+      { "heading": "Timothy, the Beloved" },
+      {
+        "paragraph": true,
+        "text": "I am thankful to God, whom I serve from progenitors in a pure conscience, that unceasingly I have remembrance concerning thee in my supplications night and day,"
+      }
+    ]
   },
   {
     "book": "2TM",
@@ -72,13 +158,17 @@
     "book": "2TM",
     "chapter": 1,
     "verse": 12,
-    "content": "for which cause also these things I suffer, but I am not ashamed, for I have known in whom I have believed, and have been persuaded that he is able that which I have committed to him to guard-to that day."
+    "content": "for which cause also these things I suffer, but I am not ashamed, for I have known in whom I have believed, and have been persuaded that he is able that which I have committed to him to guard—to that day."
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 13,
-    "content": "The pattern hold thou of sound words, which from me thou didst hear, in faith and love that is in Christ Jesus;"
+    "content": [
+      "The pattern hold thou of sound words, which from me thou didst hear, in faith and love that ",
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus;"
+    ]
   },
   {
     "book": "2TM",
@@ -90,7 +180,10 @@
     "book": "2TM",
     "chapter": 1,
     "verse": 15,
-    "content": "thou hast known this, that they did turn from me-all those in Asia, of whom are Phygellus and Hermogenes;"
+    "content": {
+      "paragraph": true,
+      "text": "thou hast known this, that they did turn from me—all those in Asia, of whom are Phygellus and Hermogenes;"
+    }
   },
   {
     "book": "2TM",
@@ -114,10 +207,31 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Thou, therefore, my child, be strong in the grace that is in Christ Jesus,"
-    }
+    "content": [
+      { "heading": "God’s Soldier and Workman" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter II. may be divided into four parts; ",
+            { "bibleLink": "2 Timothy 2:1–7", "content": "v. 1–7" },
+            " exhortations to be strong, disentangled, considerate; ",
+            { "bibleLink": "2 Timothy 2:8–13", "content": "v. 8–13" },
+            " to remember Christ, Paul’s endurance, and union with Christ; ",
+            { "bibleLink": "2 Timothy 2:14–19", "content": "v. 14–19" },
+            " to avoid word-striving, profane talking, and error; ",
+            { "bibleLink": "2 Timothy 2:20–26", "content": "v. 20–26" },
+            " become vessels of honour, avoid lusts and foolish questions, and be meek to opposers."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Thou, therefore, my child, be strong in the grace that "
+      },
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus,"
+    ]
   },
   {
     "book": "2TM",
@@ -165,25 +279,49 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 9,
-    "content": "in which I suffer evil-unto bonds, as an evil-doer, but the word of God hath not been bound;"
+    "content": "in which I suffer evil—unto bonds, as an evil-doer, but the word of God hath not been bound;"
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 10,
-    "content": "because of this all things do I endure, because of the choice ones, that they also salvation may obtain that is in Christ Jesus, with glory age-during."
+    "content": [
+      "because of this all things do I endure, because of the choice ones, that they also salvation may obtain that ",
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus, with glory age-during."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 11,
-    "content": "Stedfast is the word: For if we died together-we also shall live together;"
+    "content": [
+      "Stedfast ",
+      { "text": "is", "marks": ["i"] },
+      " the word: For if we died together—we also shall live together;"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 12,
-    "content": "if we do endure together-we shall also reign together; if we deny him, he also shall deny us;"
+    "content": [
+      "if we do endure together—we shall also reign together; if we deny ",
+      { "text": "him", "marks": ["i"] },
+      {
+        "text": ", he also shall deny us;",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "remain under..deny (him) for ourselves, he also will deny us for himself.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      }
+    ]
   },
   {
     "book": "2TM",
@@ -195,19 +333,35 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 14,
-    "content": "These things remind them of, testifying fully before the Lord-not to strive about words to nothing profitable, but to the subversion of those hearing;"
+    "content": [
+      { "paragraph": true, "text": "These things remind " },
+      { "text": "them", "marks": ["i"] },
+      " of, testifying fully before the Lord—not to strive about words to nothing profitable, but to the subversion of those hearing;"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 15,
-    "content": "be diligent to present thyself approved to God-a workman irreproachable, rightly dividing the word of the truth;"
+    "content": "be diligent to present thyself approved to God—a workman irreproachable, rightly dividing the word of the truth;"
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 16,
-    "content": "and the profane vain talkings stand aloof from, for to more impiety they will advance,"
+    "content": {
+      "text": "and the profane vain talkings stand aloof from, for to more impiety they will advance,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "but the profane vain-voices (or sound) be setting away for thyself, for they will strike forward upon more irreverence.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "2TM",
@@ -225,19 +379,28 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 19,
-    "content": "sure, nevertheless, hath the foundation of God stood, having this seal, ‘The Lord hath known those who are His,’ and ‘Let him depart from unrighteousness-every one who is naming the name of Christ.’"
+    "content": "sure, nevertheless, hath the foundation of God stood, having this seal, “The Lord hath known those who are His,” and “Let him depart from unrighteousness—every one who is naming the name of Christ.”"
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 20,
-    "content": "And in a great house there are not only vessels of gold and of silver, but also of wood and of earth, and some to honour, and some to dishonour:"
+    "content": {
+      "text": "And in a great house there are not only vessels of gold and of silver, but also of wood and of earth, and some to honour, and some to dishonour:",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          { "text": "earthen-ware..to less honour,", "marks": ["i"] }
+        ]
+      }
+    }
   },
   {
     "book": "2TM",
     "chapter": 2,
     "verse": 21,
-    "content": "if, then, any one may cleanse himself from these, he shall be a vessel to honour, sanctified and profitable to the master-to every good work having been prepared,"
+    "content": "if, then, any one may cleanse himself from these, he shall be a vessel to honour, sanctified and profitable to the master—to every good work having been prepared,"
   },
   {
     "book": "2TM",
@@ -261,7 +424,19 @@
     "book": "2TM",
     "chapter": 2,
     "verse": 25,
-    "content": "in meekness instructing those opposing-if perhaps God may give to them repentance to an acknowledging of the truth,"
+    "content": {
+      "text": "in meekness instructing those opposing—if perhaps God may give to them repentance to an acknowledging of the truth,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "those setting themselves thoroughly on the other side, if at any time God may give to them a new-mind with a view to a full-knowledge of truth.",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "2TM",
@@ -273,16 +448,33 @@
     "book": "2TM",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And this know thou, that in the last days there shall come perilous times,"
-    }
+    "content": [
+      { "heading": "In Perilous Times" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter III. may be divided into three parts; ",
+            { "bibleLink": "2 Timothy 3:1–9", "content": "v. 1–9" },
+            " prophetic description of evil men; ",
+            { "bibleLink": "2 Timothy 3:10–13", "content": "v. 10–13" },
+            " Paul’s sufferings, and progress of evil; ",
+            { "bibleLink": "2 Timothy 3:14–17", "content": "v. 14–17" },
+            " exhortation to the knowledge of the Scriptures."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "And this know thou, that in the last days there shall come perilous times,"
+      }
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 2,
-    "content": "for men shall be lovers of themselves, lovers of money, boasters, proud, evil-speakers, to parents disobedient, unthankful, unkind,"
+    "content": "for men shall be lovers of themselves, lovers of money, boasters, proud, evilspeakers, to parents disobedient, unthankful, unkind,"
   },
   {
     "book": "2TM",
@@ -294,7 +486,19 @@
     "book": "2TM",
     "chapter": 3,
     "verse": 4,
-    "content": "traitors, heady, lofty, lovers of pleasure more than lovers of God,"
+    "content": [
+      {
+        "text": "traitors, heady, lofty",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "givers-up, fallers-forward, puffed up.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", lovers of pleasure more than lovers of God,"
+    ]
   },
   {
     "book": "2TM",
@@ -324,13 +528,38 @@
     "book": "2TM",
     "chapter": 3,
     "verse": 9,
-    "content": "but they shall not advance any further, for their folly shall be manifest to all, as theirs also did become."
+    "content": [
+      "but they shall not ",
+      {
+        "text": "advance any further",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "strike forward upon more.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", for their folly shall be manifest to all, as theirs also did become."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 10,
-    "content": "And thou-thou hast followed after my teaching, manner of life, purpose, faith, long-suffering, love, endurance,"
+    "content": {
+      "text": "And thou—thou hast followed after my teaching, manner of life, purpose, faith, long-suffering, love, endurance,",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          {
+            "text": "followed along-side of me in the teaching, the leading on, the setting forth, the faith, the long suffering, the love, the remaining under (trials), the pursuits, the sufferings...",
+            "marks": ["i"]
+          }
+        ]
+      }
+    }
   },
   {
     "book": "2TM",
@@ -348,40 +577,79 @@
     "book": "2TM",
     "chapter": 3,
     "verse": 13,
-    "content": "and evil men and impostors shall advance to the worse, leading astray and being led astray."
+    "content": [
+      "and evil men and ",
+      {
+        "text": "impostors",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "groaners,", "marks": ["i"] }]
+        }
+      },
+      " shall advance to the worse, leading astray and being led astray."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 14,
-    "content": "And thou-be remaining in the things which thou didst learn and wast entrusted with, having known from whom thou didst learn,"
+    "content": "And thou—be remaining in the things which thou didst learn and wast entrusted with, having known from whom thou didst learn,"
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 15,
-    "content": "and because from a babe the Holy Writings thou hast known, which are able to make thee wise-to salvation, through faith that is in Christ Jesus;"
+    "content": [
+      "and because from a babe the Holy Writings thou hast known, which are able to make thee wise—to salvation, through faith that ",
+      { "text": "is", "marks": ["i"] },
+      " in Christ Jesus;"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 16,
-    "content": "every Writing is God-breathed, and profitable for teaching, for conviction, for setting aright, for instruction that is in righteousness,"
+    "content": [
+      "every Writing ",
+      { "text": "is", "marks": ["i"] },
+      " God-breathed, and profitable for teaching, for conviction, for setting aright, for instruction that ",
+      { "text": "is", "marks": ["i"] },
+      " in righteousness,"
+    ]
   },
   {
     "book": "2TM",
     "chapter": 3,
     "verse": 17,
-    "content": "that the man of God may be fitted-for every good work having been completed."
+    "content": "that the man of God may be fitted—for every good work having been completed."
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I do fully testify, then, before God, and the Lord Jesus Christ, who is about to judge living and dead at his manifestation and his reign-"
-    }
+    "content": [
+      { "heading": "A Farewell Charge" },
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter IV. may be divided into four parts; ",
+            { "bibleLink": "2 Timothy 4:1–4", "content": "v. 1–4" },
+            " exhortations with public reasons; ",
+            { "bibleLink": "2 Timothy 4:5–8", "content": "v. 5–8" },
+            " exhortations with personal reasons; ",
+            { "bibleLink": "2 Timothy 4:9–18", "content": "v. 9–18" },
+            " Paul’s associates and trials; ",
+            { "bibleLink": "2 Timothy 4:19–22", "content": "v. 19–22" },
+            " concluding salutations and exhortations."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "I do fully testify, then, before God, and the Lord Jesus Christ, who is about to judge living and dead at his manifestation and his reign—"
+      }
+    ]
   },
   {
     "book": "2TM",
@@ -393,7 +661,7 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 3,
-    "content": "for there shall be a season when the sound teaching they will not suffer, but according to their own desires to themselves they shall heap up teachers-itching in the hearing,"
+    "content": "for there shall be a season when the sound teaching they will not suffer, but according to their own desires to themselves they shall heap up teachers—itching in the hearing,"
   },
   {
     "book": "2TM",
@@ -405,13 +673,16 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 5,
-    "content": "And thou-watch in all things; suffer evil; do the work of one proclaiming good news; of thy ministration make full assurance,"
+    "content": "And thou—watch in all things; suffer evil; do the work of one proclaiming good news; of thy ministration make full assurance,"
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 6,
-    "content": "for I am already being poured out, and the time of my release hath arrived;"
+    "content": {
+      "paragraph": true,
+      "text": "for I am already being poured out, and the time of my release hath arrived;"
+    }
   },
   {
     "book": "2TM",
@@ -423,13 +694,16 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 8,
-    "content": "henceforth there is laid up for me the crown of the righteousness that the Lord-the Righteous Judge-shall give to me in that day, and not only to me, but also to all those loving his manifestation."
+    "content": "henceforth there is laid up for me the crown of the righteousness that the Lord—the Righteous Judge—shall give to me in that day, and not only to me, but also to all those loving his manifestation."
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 9,
-    "content": "Be diligent to come unto me quickly,"
+    "content": {
+      "paragraph": true,
+      "text": "Be diligent to come unto me quickly,"
+    }
   },
   {
     "book": "2TM",
@@ -453,7 +727,7 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 13,
-    "content": "the cloak that I left in Troas with Carpus, coming, bring thou and the books-especially the parchments."
+    "content": "the cloak that I left in Troas with Carpus, coming, bring thou and the books—especially the parchments."
   },
   {
     "book": "2TM",
@@ -483,13 +757,22 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 18,
-    "content": "and the Lord shall free me from every evil work, and shall save me-to his heavenly kingdom; to whom is the glory to the ages of the ages! Amen."
+    "content": [
+      "and the Lord shall free me from every evil work, and shall save ",
+      { "text": "me", "marks": ["i"] },
+      "—to his heavenly kingdom; to whom ",
+      { "text": "is", "marks": ["i"] },
+      " the glory to the ages of the ages! Amen."
+    ]
   },
   {
     "book": "2TM",
     "chapter": 4,
     "verse": 19,
-    "content": "Salute Prisca and Aquilas, and Onesiphorus’ household;"
+    "content": {
+      "paragraph": true,
+      "text": "Salute Prisca and Aquilas, and Onesiphorus’ household;"
+    }
   },
   {
     "book": "2TM",
@@ -507,6 +790,12 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 22,
-    "content": "The Lord Jesus Christ is with thy spirit; the grace is with you! Amen."
+    "content": [
+      { "paragraph": true, "text": "The Lord Jesus Christ " },
+      { "text": "is", "marks": ["i"] },
+      " with thy spirit; the grace ",
+      { "text": "is", "marks": ["i"] },
+      " with you! Amen."
+    ]
   }
 ]

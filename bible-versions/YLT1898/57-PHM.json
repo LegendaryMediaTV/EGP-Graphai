@@ -5,62 +5,251 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, a prisoner of Christ Jesus, and Timotheus the brother, to Philemon our beloved and fellow-worker,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "text": "Philemon lived at Colosse, and was a rich convert and fellow-labourer of Paul, who, when a prisoner in Rome, A.D. 61–2, wrote him this letter to induce him to receive back a run-away bondsman—Onesimus—whom Paul had met with and converted to the gospel. This letter was quoted or referred to by Tertullian (A.D. 192), Caius (A.D. 212), Origen (A.D. 230), Jerome (A.D. 392), Eusebius (A.D. 320), and perhaps Ignatius (A.D. 107).",
+                "break": true
+              },
+              "This Letter may be divided into six parts; ",
+              { "bibleLink": "Philemon 1:1–3", "content": "v. 1–3" },
+              " address and salutation; ",
+              { "bibleLink": "Philemon 1:4–7", "content": "v. 4–7" },
+              " thanksgiving for Philemon’s state; ",
+              { "bibleLink": "Philemon 1:8–16", "content": "v. 8–16" },
+              " entreaty for Onesimus; ",
+              { "bibleLink": "Philemon 1:17–19", "content": "v. 17–19" },
+              " personal reasons for this; ",
+              { "bibleLink": "Philemon 1:20–22", "content": "v. 20–22" },
+              " expression of confidence and a request; ",
+              { "bibleLink": "Philemon 1:23–25", "content": "v. 23–25" },
+              " closing salutations."
+            ]
+          }
+        },
+        "Paul, a ",
+        {
+          "text": "prisoner",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "bound one.", "marks": ["i"] }]
+          }
+        },
+        " of ",
+        {
+          "text": "Christ Jesus",
+          "foot": { "type": "stu", "content": "the “anointed saviour.”" }
+        },
+        ", and Timotheus ",
+        {
+          "text": "the brother",
+          "foot": { "type": "stu", "content": "“the brother,” in the faith." }
+        },
+        ", to ",
+        {
+          "text": "Philemon",
+          "foot": { "type": "stu", "content": "“loving, befriending.”" }
+        },
+        " our beloved and ",
+        {
+          "text": "fellow-worker",
+          "foot": {
+            "type": "stu",
+            "content": "“joint worker,” in building up the Colossians."
+          }
+        },
+        ","
+      ]
     }
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 2,
-    "content": "and Apphia the beloved, and Archippus our fellow-soldier, and the assembly in thy house:"
+    "content": [
+      "and ",
+      {
+        "text": "Apphia",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "...Apphia (a female), and Archippus (i.e. chief-horseman, ",
+            { "bibleLink": "Colossians 4:17", "content": "Col. 4. 17" },
+            "), ...church (or assembly) at thy house; see ",
+            { "bibleLink": "Romans 16:15" },
+            "; ",
+            { "bibleLink": "1 Corinthians 16:11" }
+          ]
+        }
+      },
+      " the beloved, and Archippus our fellow-soldier, and the assembly in thy house:"
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 3,
-    "content": "Grace to you, and peace, from God our Father, and the Lord Jesus Christ!"
+    "content": [
+      {
+        "text": "Grace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "what causes leaping for joy.", "marks": ["i"] }
+          ]
+        }
+      },
+      " to you, and ",
+      {
+        "text": "peace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "what brings into unity.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", from God our Father, and ",
+      {
+        "text": "the Lord Jesus Christ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "and (Father of the) Lord Jesus Christ.", "marks": ["i"] }
+          ]
+        }
+      },
+      "!"
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 4,
-    "content": "I give thanks to my God, always making mention of thee in my prayers,"
+    "content": [
+      { "paragraph": true, "text": "I give " },
+      {
+        "text": "thanks",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "leap much for joy", "marks": ["i"] }]
+        }
+      },
+      " to my God, always making mention of thee in my ",
+      {
+        "text": "prayers",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "pouring-forth", "marks": ["i"] }]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 5,
-    "content": "hearing of thy love and faith that thou hast unto the Lord Jesus and toward all the saints,"
+    "content": [
+      "hearing of thy love and faith that thou hast unto the Lord Jesus and toward all the ",
+      {
+        "text": "saints",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "“not of the earth.”", "marks": ["i"] }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 6,
-    "content": "that the fellowship of thy faith may become working in the full knowledge of every good thing that is in you toward Christ Jesus;"
+    "content": [
+      "that the fellowship of thy faith may become working in the full knowledge of every good thing that ",
+      { "text": "is", "marks": ["i"] },
+      " in you toward Christ Jesus;"
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 7,
-    "content": "for we have much joy and comfort in thy love, because the bowels of the saints have been refreshed through thee, brother."
+    "content": [
+      "for we have much joy and ",
+      {
+        "text": "comfort",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "...exhortation...", "marks": ["i"] }]
+        }
+      },
+      " in thy love, because the bowels of the saints have been refreshed through thee, brother."
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 8,
-    "content": "Wherefore, having in Christ much boldness to command thee that which is fit-"
+    "content": [
+      { "paragraph": true, "text": "Wherefore, having in Christ much " },
+      {
+        "text": "boldness",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "...full-speech to arrange for thee what comes up.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " to command thee that which is fit—"
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 9,
-    "content": "because of the love I rather entreat, being such an one as Paul the aged, and now also a prisoner of Jesus Christ;"
+    "content": [
+      "because of the love I rather ",
+      {
+        "text": "entreat",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...call upon (thee).", "marks": ["i"] }
+          ]
+        }
+      },
+      ", being such an one as Paul the aged, and now also a prisoner of Jesus Christ;"
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 10,
-    "content": "I entreat thee concerning my child-whom I did beget in my bonds-Onesimus,"
+    "content": [
+      "I entreat thee concerning my child—whom I did beget in my bonds—",
+      {
+        "text": "Onesimus",
+        "foot": { "type": "stu", "content": "profitable." }
+      },
+      ","
+    ]
   },
   {
     "book": "PHM",
@@ -78,25 +267,87 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 13,
-    "content": "whom I did wish to retain to myself, that in thy behalf he might minister to me in the bonds of the good news,"
+    "content": [
+      "whom I did wish to retain to myself, that in thy behalf he might ",
+      {
+        "text": "minister",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...he might be a deacon to me.", "marks": ["i"] }
+          ]
+        }
+      },
+      " to me in the bonds of the good news,"
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 14,
-    "content": "and apart from thy mind I willed to do nothing, that as of necessity thy good deed may not be, but of willingness,"
+    "content": [
+      "and apart from thy ",
+      {
+        "text": "mind",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "apart from thy knowledge", "marks": ["i"] }
+          ]
+        }
+      },
+      " I willed to do nothing, that as of necessity thy good deed may not be, but of willingness,"
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 15,
-    "content": "for perhaps because of this he did depart for an hour, that age-duringly thou mayest have him,"
+    "content": [
+      "for perhaps because of this he did ",
+      {
+        "text": "depart",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "was separated", "marks": ["i"] }]
+        }
+      },
+      " for an hour, that age-duringly thou mayest ",
+      {
+        "text": "have him",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...have him entirely;", "marks": ["i"] },
+            " see ",
+            { "bibleLink": "Exodus 21:6" }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 16,
-    "content": "no more as a servant, but above a servant-a brother beloved, especially to me, and how much more to thee, both in the flesh and in the Lord!"
+    "content": [
+      "no more as a ",
+      {
+        "text": "servant",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "no more as a bondsman.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", but above a servant—a brother beloved, especially to me, and how much more to thee, both in the flesh and in the Lord!"
+    ]
   },
   {
     "book": "PHM",
@@ -108,13 +359,26 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 18,
-    "content": "and if he did hurt to thee, or doth owe anything, this to me be reckoning;"
+    "content": [
+      "and if he did ",
+      {
+        "text": "hurt",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...used thee unjustly...", "marks": ["i"] }
+          ]
+        }
+      },
+      " to thee, or doth owe anything, this to me be reckoning;"
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 19,
-    "content": "I, Paul did write with my hand, I-I will repay; that I may not say that also thyself, besides, to me thou dost owe."
+    "content": "I, Paul did write with my hand, I—I will repay; that I may not say that also thyself, besides, to me thou dost owe."
   },
   {
     "book": "PHM",
@@ -126,7 +390,20 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 21,
-    "content": "having been confident in thy obedience I did write to thee, having known that also above what I may say thou wilt do;"
+    "content": [
+      { "paragraph": true, "text": "having been confident in thy " },
+      {
+        "text": "obedience",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...submissive hearkening...", "marks": ["i"] }
+          ]
+        }
+      },
+      " I did write to thee, having known that also above what I may say thou wilt do;"
+    ]
   },
   {
     "book": "PHM",
@@ -138,18 +415,69 @@
     "book": "PHM",
     "chapter": 1,
     "verse": 23,
-    "content": "Salute thee doth Epaphras, (my fellow-captive in Christ Jesus,)"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Salute",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "draw thee near", "marks": ["i"] }]
+        }
+      },
+      " thee doth ",
+      {
+        "text": "Epaphras",
+        "foot": {
+          "type": "stu",
+          "content": "Epaphroditus, upon Venus, i.q. lovely."
+        }
+      },
+      ", (my fellow-captive in Christ Jesus,)"
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 24,
-    "content": "Markus, Aristarchus, Demas, Lukas, my fellow-workmen!"
+    "content": [
+      {
+        "text": "Markus",
+        "foot": { "type": "stu", "content": "“far, distant.”" }
+      },
+      ", ",
+      {
+        "text": "Aristarchus",
+        "foot": { "type": "stu", "content": "“best of chiefs.”" }
+      },
+      ", ",
+      {
+        "text": "Demas",
+        "foot": { "type": "stu", "content": "a “plebeian,” of the “people.”" }
+      },
+      ", ",
+      { "text": "Lukas", "foot": { "type": "stu", "content": "“shining.”" } },
+      ", my fellow-workmen!"
+    ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 25,
-    "content": "The grace of our Lord Jesus Christ is with your spirit! Amen."
+    "content": [
+      { "paragraph": true, "text": "The " },
+      {
+        "text": "grace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "what causes leaping for joy.", "marks": ["i"] }
+          ]
+        }
+      },
+      " of our Lord Jesus Christ ",
+      { "text": "is", "marks": ["i"] },
+      " with your spirit! Amen."
+    ]
   }
 ]

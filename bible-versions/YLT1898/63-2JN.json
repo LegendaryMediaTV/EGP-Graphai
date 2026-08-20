@@ -5,7 +5,76 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "The Elder to the choice Kyria, and to her children, whom I love in truth, and not I only, but also all those having known the truth,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "2 John. There is no good reason for questioning the generally received opinion that the writer of this Letter (as well as the following one to GAIUS) was the Apostle John; out of the thirteen verses of which it consists, not less than eight are found substantially in his first Letter, while it was attributed to him by Irenaeus (A.D. 167), Clement of Alexandria (A.D. 192), Origen (A.D. 230), Cyprian (A.D. 248), Eusebius (A.D. 315), Aurelius (A.D. 256), Alexander of Alexandria (A.D. 313), Dionysius of Alexandria (A.D. 247), Ephraim Syrus (A.D. 370), &c. The only other person to whom these two letters have been attributed is one John, surnamed “the Presbyter,” but beyond the circumstance that the writer of both Letters calls himself “the presbyter” there is nothing to recommend or prove the hypothesis, since Peter in his first letter (",
+                  { "bibleLink": "1 Peter 5:1", "content": "5. 1" },
+                  ") assumes the same title, it being in reality the highest permanent title of office in the early Christian church: unfortunately also we have no writings of John the Presbyter which we could compare with these, while their whole tone, style, and sentiments are in thorough accordance with all we know of the “beloved disciple.”"
+                ],
+                "break": true
+              },
+              {
+                "text": "The dates of the composition of the so-called “second” and “third” Letters are altogether unknown; Lardner fixes both about A.D. 68, while others fix them at A.D. 90, a very unlikely date, every thing considered; they are supposed to have been both written in Ephesus.",
+                "break": true
+              },
+              {
+                "text": "The party to whom the “Second” Letter is addressed has been a matter of dispute. The Common Version speaks of an “elect lady,” others render it the “lady Electa,” the “elect Kyria,” is decidedly preferable. Some again, consider the word kyria as equivalent to ecclesia, and think that some particular church is meant, e.g. of Jerusalem, Antioch, Rome, Babylon, &c., but Neander, Alford, &c. agree in regarding the “elect Kyria,” as literally a Christian Lady of that name.",
+                "break": true
+              },
+              "The Letter to Kyria may be divided into four parts; 1–3 address and salutation; ",
+              { "bibleLink": "2 John 1:4–7", "content": "v. 4–7" },
+              " call to love and obedience; ",
+              { "bibleLink": "2 John 1:8–11", "content": "v. 8–11" },
+              " warning against losing the reward and encouraging transgressors; ",
+              { "bibleLink": "2 John 1:12, 13", "content": "v. 12, 13" },
+              " joyful hope and salutation."
+            ]
+          }
+        },
+        "The",
+        " ",
+        {
+          "text": "Elder",
+          "foot": {
+            "type": "stu",
+            "content": [
+              "“the presbyter:” a title of age or office; see ",
+              { "bibleLink": "1 Peter 5:1" },
+              ", ",
+              { "bibleLink": "1 Peter 5:5" },
+              "; ",
+              { "bibleLink": "Acts 15:2" }
+            ]
+          }
+        },
+        " to the choice ",
+        {
+          "text": "Kyria",
+          "foot": {
+            "type": "stu",
+            "content": [
+              { "text": "Gr.", "marks": ["i"] },
+              " “Kyria;” ",
+              { "text": "Heb.", "marks": ["i"] },
+              " “Martha.”"
+            ]
+          }
+        },
+        ", and to her children, whom I love in truth, and not I only, but also all those having ",
+        {
+          "text": "known",
+          "foot": {
+            "type": "trn",
+            "content": ["Or, ", { "text": "approved of", "marks": ["i"] }]
+          }
+        },
+        " the truth,"
+      ]
     }
   },
   {
@@ -18,13 +87,39 @@
     "book": "2JN",
     "chapter": 1,
     "verse": 3,
-    "content": "there shall be with you grace, kindness, peace, from God the Father, and from the Lord Jesus Christ, the Son of the Father, in truth and love."
+    "content": [
+      "there shall be with you ",
+      {
+        "text": "grace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "what causes leaping for joy.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", kindness, peace, from God the Father, and from the Lord Jesus Christ, the Son of the Father, in truth and love."
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 4,
-    "content": "I rejoiced exceedingly that I have found of thy children walking in truth, even as a command we did receive from the Father;"
+    "content": [
+      { "paragraph": true, "text": "I " },
+      {
+        "text": "rejoiced",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "I was caused to leap much for joy", "marks": ["i"] }
+          ]
+        }
+      },
+      " exceedingly that I have found of thy children walking in truth, even as a command we did receive from the Father;"
+    ]
   },
   {
     "book": "2JN",
@@ -42,42 +137,122 @@
     "book": "2JN",
     "chapter": 1,
     "verse": 7,
-    "content": "because many leading astray did enter into the world, who are not confessing Jesus Christ coming in flesh; this one is he who is leading astray, and the antichrist."
+    "content": [
+      "because many leading astray did enter into the world, who are not ",
+      {
+        "text": "confessing",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "homologating (",
+            { "text": "lit.", "marks": ["i"] },
+            " speaking the same thing with); see ",
+            { "bibleLink": "Matthew 24:5" },
+            ", ",
+            { "bibleLink": "Matthew 24:12" }
+          ]
+        }
+      },
+      " Jesus Christ coming in flesh; this one is he who is leading astray, and the antichrist."
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 8,
-    "content": "See to yourselves that ye may not lose the things that we wrought, but a full reward may receive;"
+    "content": [
+      "See to yourselves that ye may not lose the things that we wrought, but a full ",
+      {
+        "text": "reward",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "...a full hire.", "marks": ["i"] }]
+        }
+      },
+      " may receive;"
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 9,
-    "content": "every one who is transgressing, and is not remaining in the teaching of the Christ, hath not God; he who is remaining in the teaching of the Christ, this one hath both the Father and the Son;"
+    "content": [
+      "every one who is ",
+      {
+        "text": "transgressing",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "going beyond", "marks": ["i"] }]
+        }
+      },
+      ", and is not remaining in the teaching of the Christ, hath not God; he who is remaining in the teaching of the Christ, this one hath both the Father and the Son;"
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 10,
-    "content": "if any one doth come unto you, and this teaching doth not bear, receive him not into the house, and say not to him, ‘Hail!’"
+    "content": [
+      "if any one doth come unto you, and this teaching doth not bear, receive him not into the house, and say not to him, “",
+      {
+        "text": "Hail",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "rejoice", "marks": ["i"] },
+            ", or ",
+            { "text": "leap for joy", "marks": ["i"] }
+          ]
+        }
+      },
+      "!”"
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 11,
-    "content": "for he who is saying to him, ‘Hail,’ hath fellowship with his evil works."
+    "content": "for he who is saying to him, “Hail,” hath fellowship with his evil works."
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 12,
-    "content": "Many things having to write to you, I did not intend through paper and ink, but I hope to come unto you, and speak mouth to mouth, that our joy may be full;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Many things having to write to you, I did not intend through paper and ink, but I hope to come unto you, and speak mouth to mouth, that our "
+      },
+      {
+        "text": "joy",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "...leaping with joy may be filled full.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " may be full;"
+    ]
   },
   {
     "book": "2JN",
     "chapter": 1,
     "verse": 13,
-    "content": "salute thee do the children of thy choice sister. Amen."
+    "content": [
+      {
+        "text": "salute",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "draw thee near,", "marks": ["i"] }]
+        }
+      },
+      " thee do the children of thy choice sister. Amen."
+    ]
   }
 ]

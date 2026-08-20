@@ -5,7 +5,83 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, an apostle of Jesus Christ through the will of God, to the saints who are in Ephesus, and to the faithful in Christ Jesus:"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "content": [
+                  "Ephesians. THIS LETTER was written when Paul was a prisoner (",
+                  { "bibleLink": "Ephesians 3:1", "content": "ch. 3. 1" },
+                  "; ",
+                  { "bibleLink": "Ephesians 4:1", "content": "4. 1" },
+                  ") in Rome, about A.D. 62, and is cited as his by Ignatius (A.D. 107), Polycarp (A.D. 108), Irenaeus (A.D. 178), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230). Even Marcion admitted that Paul was its author, but asserted that it was written to the Laodiceans, a worthless theory adopted also by Grotius, Mill, Wetstein, Vitringa, Venema, Benson, Paley, &c., but contrary to all the MSS. (except B.) Ancient Versions, &c."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "Paul’s first visit to Ephesus (A.D. 54), is related in ",
+                  { "bibleLink": "Acts 18:19–21", "content": "Acts 18. 19–21" },
+                  ", and his second in ",
+                  { "bibleLink": "Acts 19:1–41", "content": "Acts 19. 1–41" },
+                  "; want of time prevented him making a third visit, but he called the elders or bishops of Ephesus to meet him at Miletus (A.D. 57), as in ",
+                  { "bibleLink": "Acts 20:17–38", "content": "Acts 20. 17–38" },
+                  ", and exhorted them warmly. His converts in Ephesus were chiefly—if not entirely—Gentiles (",
+                  { "bibleLink": "Ephesians 2:11, 19", "content": "2. 11, 19" },
+                  "; ",
+                  { "bibleLink": "Ephesians 3:1", "content": "3. 1" },
+                  "; ",
+                  { "bibleLink": "Ephesians 4:17", "content": "4. 17" },
+                  "), hence he has few allusions to Judaistic errors and tendencies, and expatiates on the love of God the Father, the grace of Christ, and the fruits of the Spirit, as in his remarkably similar Epistle to the \"Colossians,\" written also about the same time, and sent by the same bearer—Tychicus."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "It may be divided into two great parts, ",
+                  { "bibleLink": "Ephesians 1", "content": "chap. i" },
+                  ".–iii. doctrinal statements, and ",
+                  { "bibleLink": "Ephesians 4", "content": "ch. iv" },
+                  ".–vi. practical duties."
+                ],
+                "break": true
+              },
+              "Old Testament references are: ",
+              { "bibleLink": "Deuteronomy 5:16", "content": "De. 5. 16" },
+              "; ",
+              { "bibleLink": "Isaiah 28:9, 16", "content": "Isa. 28. 9, 16" },
+              "; ",
+              { "bibleLink": "Isaiah 46:10, 11", "content": "46. 10, 11" },
+              "; ",
+              { "bibleLink": "Isaiah 60:1", "content": "60. 1" },
+              "; ",
+              { "bibleLink": "Jeremiah 35:18", "content": "Jer. 35. 18" },
+              "; ",
+              { "bibleLink": "Ezekiel 18:9", "content": "Ezek. 18. 9" },
+              "; ",
+              { "bibleLink": "Zechariah 9:10", "content": "Zec. 9. 10" },
+              "."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into three parts; ",
+              { "bibleLink": "Ephesians 1:1, 2", "content": "v. 1, 2" },
+              " salutation; ",
+              { "bibleLink": "Ephesians 1:3–14", "content": "v. 3–14" },
+              " praise to God for his spiritual blessings bestowed in and through Christ; ",
+              { "bibleLink": "Ephesians 1:15–22", "content": "v. 15–22" },
+              " thanks and prayers for a spirit of wisdom."
+            ]
+          }
+        },
+        "Paul, an apostle of Jesus Christ through the will of God, to the saints who are in Ephesus, and to the faithful in Christ Jesus:"
+      ]
     }
   },
   {
@@ -18,7 +94,12 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 3,
-    "content": "Blessed is the God and Father of our Lord Jesus Christ, who did bless us in every spiritual blessing in the heavenly places in Christ,"
+    "content": [
+      { "heading": "The Gospel of Your Salvation" },
+      { "paragraph": true, "text": "Blessed " },
+      { "text": "is", "marks": ["i"] },
+      " the God and Father of our Lord Jesus Christ, who did bless us in every spiritual blessing in the heavenly places in Christ,"
+    ]
   },
   {
     "book": "EPH",
@@ -42,13 +123,42 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 7,
-    "content": "in whom we have the redemption through his blood, the remission of the trespasses, according to the riches of His grace,"
+    "content": [
+      "in whom we have the ",
+      {
+        "text": "redemption",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "the thorough-loosing...letting-go of the fallings-aside...wealth of.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " through his blood, the remission of the trespasses, according to the riches of His grace,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 8,
-    "content": "in which He did abound toward us in all wisdom and prudence,"
+    "content": [
+      "in which He ",
+      {
+        "text": "did abound",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "he abounded...mindfulness.", "marks": ["i"] }
+          ]
+        }
+      },
+      " toward us in all wisdom and prudence,"
+    ]
   },
   {
     "book": "EPH",
@@ -60,7 +170,7 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 10,
-    "content": "in regard to the dispensation of the fulness of the times, to bring into one the whole in the Christ, both the things in the heavens, and the things upon the earth-in him;"
+    "content": "in regard to the dispensation of the fulness of the times, to bring into one the whole in the Christ, both the things in the heavens, and the things upon the earth—in him;"
   },
   {
     "book": "EPH",
@@ -72,13 +182,17 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 12,
-    "content": "for our being to the praise of His glory, even those who did first hope in the Christ,"
+    "content": [
+      "for our being to the praise of His glory, ",
+      { "text": "even", "marks": ["i"] },
+      " those who did first hope in the Christ,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 13,
-    "content": "in whom ye also, having heard the word of the truth-the good news of your salvation-in whom also having believed, ye were sealed with the Holy Spirit of the promise,"
+    "content": "in whom ye also, having heard the word of the truth—the good news of your salvation—in whom also having believed, ye were sealed with the Holy Spirit of the promise,"
   },
   {
     "book": "EPH",
@@ -90,7 +204,10 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 15,
-    "content": "Because of this I also, having heard of your faith in the Lord Jesus, and the love to all the saints,"
+    "content": {
+      "paragraph": true,
+      "text": "Because of this I also, having heard of your faith in the Lord Jesus, and the love to all the saints,"
+    }
   },
   {
     "book": "EPH",
@@ -108,7 +225,17 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 18,
-    "content": "the eyes of your understanding being enlightened, for your knowing what is the hope of His calling, and what the riches of the glory of His inheritance in the saints,"
+    "content": [
+      "the eyes of your ",
+      {
+        "text": "understanding",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "heart.", "marks": ["i"] }]
+        }
+      },
+      " being enlightened, for your knowing what is the hope of His calling, and what the riches of the glory of His inheritance in the saints,"
+    ]
   },
   {
     "book": "EPH",
@@ -120,7 +247,13 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 20,
-    "content": "which He wrought in the Christ, having raised him out of the dead, and did set him at His right hand in the heavenly places,"
+    "content": [
+      "which He wrought in the Christ, having raised him out of the dead, and did set ",
+      { "text": "him", "marks": ["i"] },
+      " at His right hand in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "EPH",
@@ -132,7 +265,7 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 22,
-    "content": "and all things He did put under his feet, and did give him-head over all things to the assembly,"
+    "content": "and all things He did put under his feet, and did give him—head over all things to the assembly,"
   },
   {
     "book": "EPH",
@@ -144,10 +277,33 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Also you-being dead in the trespasses and the sins,"
-    }
+    "content": [
+      { "heading": "The Household of God" },
+      {
+        "paragraph": true,
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter II. may be divided into five parts; ",
+                { "bibleLink": "Ephesians 2:1–3", "content": "v. 1–3" },
+                " past state of the Ephesians by nature; ",
+                { "bibleLink": "Ephesians 2:4–10", "content": "v. 4–10" },
+                " their present state by the love of God; ",
+                { "bibleLink": "Ephesians 2:11, 12", "content": "v. 11, 12" },
+                " their former state; ",
+                { "bibleLink": "Ephesians 2:13–18", "content": "v. 13–18" },
+                " their present condition in Christ; ",
+                { "bibleLink": "Ephesians 2:19–22", "content": "v. 19–22" },
+                " their privileges."
+              ]
+            }
+          },
+          "Also you—being dead in the trespasses and the sins,"
+        ]
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -159,7 +315,7 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 3,
-    "content": "among whom also we all did walk once in the desires of our flesh, doing the wishes of the flesh and of the thoughts, and were by nature children of wrath-as also the others,"
+    "content": "among whom also we all did walk once in the desires of our flesh, doing the wishes of the flesh and of the thoughts, and were by nature children of wrath—as also the others,"
   },
   {
     "book": "EPH",
@@ -177,7 +333,15 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 6,
-    "content": "and did raise us up together, and did seat us together in the heavenly places in Christ Jesus,"
+    "content": [
+      "and did raise ",
+      { "text": "us", "marks": ["i"] },
+      " up together, and did seat ",
+      { "text": "us", "marks": ["i"] },
+      " together in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      " in Christ Jesus,"
+    ]
   },
   {
     "book": "EPH",
@@ -189,7 +353,7 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 8,
-    "content": "for by grace ye are having been saved, through faith, and this not of you-of God the gift,"
+    "content": "for by grace ye are having been saved, through faith, and this not of you—of God the gift,"
   },
   {
     "book": "EPH",
@@ -207,7 +371,11 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 11,
-    "content": "Wherefore, remember, that ye were once the nations in the flesh, who are called Uncircumcision by that called Circumcision in the flesh made by hands,"
+    "content": [
+      { "paragraph": true, "text": "Wherefore, remember, that ye " },
+      { "text": "were", "marks": ["i"] },
+      " once the nations in the flesh, who are called Uncircumcision by that called Circumcision in the flesh made by hands,"
+    ]
   },
   {
     "book": "EPH",
@@ -243,13 +411,13 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 17,
-    "content": "and having come, he did proclaim good news-peace to you-the far-off and the nigh,"
+    "content": "and having come, he did proclaim good news—peace to you—the far-off and the nigh,"
   },
   {
     "book": "EPH",
     "chapter": 2,
     "verse": 18,
-    "content": "because through him we have the access-we both-in one Spirit unto the Father."
+    "content": "because through him we have the access—we both—in one Spirit unto the Father."
   },
   {
     "book": "EPH",
@@ -261,7 +429,11 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 20,
-    "content": "being built upon the foundation of the apostles and prophets, Jesus Christ himself being chief corner-stone,"
+    "content": [
+      "being built upon the foundation of the apostles and prophets, Jesus Christ himself being chief corner-",
+      { "text": "stone", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "EPH",
@@ -279,10 +451,27 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "For this cause, I Paul, the prisoner of Christ Jesus for you the nations,"
-    }
+    "content": [
+      { "heading": "The Apostle of this Gospel" },
+      {
+        "paragraph": true,
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter III. may be divided into two parts; ",
+                { "bibleLink": "Ephesians 3:1–13", "content": "v. 1–13" },
+                " Paul called to be a deacon to the nations; ",
+                { "bibleLink": "Ephesians 3:14–21", "content": "v. 14–21" },
+                " his prayer for the Ephesians."
+              ]
+            }
+          },
+          "For this cause, I Paul, the prisoner of Christ Jesus for you the nations,"
+        ]
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -294,19 +483,27 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 3,
-    "content": "that by revelation He made known to me the secret, according as I wrote before in few words-"
+    "content": [
+      "that by revelation He made known to me the secret, according as I wrote before in few ",
+      { "text": "words", "marks": ["i"] },
+      "—"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 4,
-    "content": "in regard to which ye are able, reading it, to understand my knowledge in the secret of the Christ,"
+    "content": [
+      "in regard to which ye are able, reading ",
+      { "text": "it", "marks": ["i"] },
+      ", to understand my knowledge in the secret of the Christ,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 5,
-    "content": "which in other generations was not made known to the sons of men, as it was now revealed to His holy apostles and prophets in the Spirit-"
+    "content": "which in other generations was not made known to the sons of men, as it was now revealed to His holy apostles and prophets in the Spirit—"
   },
   {
     "book": "EPH",
@@ -324,19 +521,27 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 8,
-    "content": "to me-the less than the least of all the saints-was given this grace, among the nations to proclaim good news-the untraceable riches of the Christ,"
+    "content": "to me—the less than the least of all the saints—was given this grace, among the nations to proclaim good news—the untraceable riches of the Christ,"
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 9,
-    "content": "and to cause all to see what is the fellowship of the secret that hath been hid from the ages in God, who the all things did create by Jesus Christ,"
+    "content": [
+      "and to cause all to see what ",
+      { "text": "is", "marks": ["i"] },
+      " the fellowship of the secret that hath been hid from the ages in God, who the all things did create by Jesus Christ,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 10,
-    "content": "that there might be made known now to the principalities and the authorities in the heavenly places, through the assembly, the manifold wisdom of God,"
+    "content": [
+      "that there might be made known now to the principalities and the authorities in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      ", through the assembly, the manifold wisdom of God,"
+    ]
   },
   {
     "book": "EPH",
@@ -354,13 +559,23 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 13,
-    "content": "wherefore, I ask you not to faint in my tribulations for you, which is your glory."
+    "content": [
+      "wherefore, I ask ",
+      { "text": "you", "marks": ["i"] },
+      " not to faint in my tribulations for you, which is your glory."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 14,
-    "content": "For this cause I bow my knees unto the Father of our Lord Jesus Christ,"
+    "content": [
+      { "heading": "His Prayer and Appeal" },
+      {
+        "paragraph": true,
+        "text": "For this cause I bow my knees unto the Father of our Lord Jesus Christ,"
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -384,13 +599,17 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 18,
-    "content": "that ye may be in strength to comprehend, with all the saints, what is the breadth, and length, and depth, and height,"
+    "content": [
+      "that ye may be in strength to comprehend, with all the saints, what ",
+      { "text": "is", "marks": ["i"] },
+      " the breadth, and length, and depth, and height,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 19,
-    "content": "to know also the love of the Christ that is exceeding the knowledge, that ye may be filled-to all the fulness of God;"
+    "content": "to know also the love of the Christ that is exceeding the knowledge, that ye may be filled—to all the fulness of God;"
   },
   {
     "book": "EPH",
@@ -402,16 +621,41 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 21,
-    "content": "to Him is the glory in the assembly in Christ Jesus, to all the generations of the age of the ages. Amen."
+    "content": [
+      "to Him ",
+      { "text": "is", "marks": ["i"] },
+      " the glory in the assembly in Christ Jesus, to all the generations of the age of the ages. Amen."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Call upon you, then, do I-the prisoner of the Lord-to walk worthily of the calling with which ye were called,"
-    }
+    "content": [
+      { "heading": "Prisoner of the Lord" },
+      {
+        "paragraph": true,
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter IV. may be divided into four parts; ",
+                { "bibleLink": "Ephesians 4:1–6", "content": "v. 1–6" },
+                " exhortation to work worthily; ",
+                { "bibleLink": "Ephesians 4:7–16", "content": "v. 7–16" },
+                " gifts of Christ to the assembly; ",
+                { "bibleLink": "Ephesians 4:17–24", "content": "v. 17–24" },
+                " the old and the new man; ",
+                { "bibleLink": "Ephesians 4:25–32", "content": "v. 25–32" },
+                " sins to be avoided and duties to be done."
+              ]
+            }
+          },
+          "Call upon you, then, do I—the prisoner of the Lord—to walk worthily of the calling with which ye were called,"
+        ]
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -441,7 +685,11 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 6,
-    "content": "one God and Father of all, who is over all, and through all, and in you all,"
+    "content": [
+      "one God and Father of all, who ",
+      { "text": "is", "marks": ["i"] },
+      " over all, and through all, and in you all,"
+    ]
   },
   {
     "book": "EPH",
@@ -453,25 +701,71 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 8,
-    "content": "wherefore, he saith, ‘Having gone up on high he led captive captivity, and gave gifts to men,’-"
+    "content": {
+      "content": [
+        "wherefore, he saith, “Having gone up on high he led ",
+        {
+          "text": "captive captivity",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "he took by a spear taking-by-a-spear.",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        ", and gave gifts to men,”—"
+      ],
+      "break": true
+    }
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 9,
-    "content": "and that, he went up, what is it except that he also went down first to the lower parts of the earth?"
+    "content": {
+      "paragraph": true,
+      "text": "and that, he went up, what is it except that he also went down first to the lower parts of the earth?"
+    }
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 10,
-    "content": "he who went down is the same also who went up far above all the heavens, that He may fill all things-"
+    "content": "he who went down is the same also who went up far above all the heavens, that He may fill all things—"
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 11,
-    "content": "and He gave some as apostles, and some as prophets, and some as proclaimers of good news, and some as shepherds and teachers,"
+    "content": [
+      "and He ",
+      {
+        "text": "gave",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "and he himself gave indeed, the apostles, and the prophets, and the tellers of good-news, and the pastors (who are) also teachers, toward the thorough-perfecting of the hallowed ones, with a view to a work of deaconship, with a view to an upbuilding of the body of Christ.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " some ",
+      { "text": "as", "marks": ["i"] },
+      " apostles, and some ",
+      { "text": "as", "marks": ["i"] },
+      " prophets, and some ",
+      { "text": "as", "marks": ["i"] },
+      " proclaimers of good news, and some ",
+      { "text": "as", "marks": ["i"] },
+      " shepherds and teachers,"
+    ]
   },
   {
     "book": "EPH",
@@ -495,7 +789,11 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 15,
-    "content": "and, being true in love, we may increase to Him in all things, who is the head-the Christ;"
+    "content": [
+      "and, being true in love, we may increase to Him ",
+      { "text": "in", "marks": ["i"] },
+      " all things, who is the head—the Christ;"
+    ]
   },
   {
     "book": "EPH",
@@ -507,7 +805,13 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 17,
-    "content": "This, then, I say, and I testify in the Lord; ye are no more to walk, as also the other nations walk, in the vanity of their mind,"
+    "content": [
+      { "heading": "Christian Living" },
+      {
+        "paragraph": true,
+        "text": "This, then, I say, and I testify in the Lord; ye are no more to walk, as also the other nations walk, in the vanity of their mind,"
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -555,7 +859,10 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 25,
-    "content": "Wherefore, putting away the lying, speak truth each with his neighbour, because we are members one of another;"
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore, putting away the lying, speak truth each with his neighbour, because we are members one of another;"
+    }
   },
   {
     "book": "EPH",
@@ -605,7 +912,27 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Become, then, followers of God, as children beloved,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter V. may be divided into five parts; ",
+              { "bibleLink": "Ephesians 5:1–5", "content": "v. 1–5" },
+              " exhortations to imitate God and Christ, and to avoid sin; ",
+              { "bibleLink": "Ephesians 5:6–14", "content": "v. 6–14" },
+              " once darkness now light; ",
+              { "bibleLink": "Ephesians 5:15–21", "content": "v. 15–21" },
+              " walking as wise not as fools, to rejoice in the Lord; ",
+              { "bibleLink": "Ephesians 5:22–24", "content": "v. 22–24" },
+              " exhortation to wives; ",
+              { "bibleLink": "Ephesians 5:25–33", "content": "v. 25–36" },
+              " and to husbands, to imitate Christ."
+            ]
+          }
+        },
+        "Become, then, followers of God, as children beloved,"
+      ]
     }
   },
   {
@@ -618,13 +945,16 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 3,
-    "content": "and whoredom, and all uncleanness, or covetousness, let it not even be named among you, as becometh saints;"
+    "content": {
+      "paragraph": true,
+      "text": "and whoredom, and all uncleanness, or covetousness, let it not even be named among you, as becometh saints;"
+    }
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 4,
-    "content": "also filthiness, and foolish talking, or jesting,-the things not fit-but rather thanksgiving;"
+    "content": "also filthiness, and foolish talking, or jesting,—the things not fit—but rather thanksgiving;"
   },
   {
     "book": "EPH",
@@ -636,7 +966,10 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 6,
-    "content": "Let no one deceive you with vain words, for because of these things cometh the anger of God upon the sons of the disobedience,"
+    "content": {
+      "paragraph": true,
+      "text": "Let no one deceive you with vain words, for because of these things cometh the anger of God upon the sons of the disobedience,"
+    }
   },
   {
     "book": "EPH",
@@ -648,13 +981,30 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 8,
-    "content": "for ye were once darkness, and now light in the Lord; as children of light walk ye,"
+    "content": [
+      "for ye were ",
+      {
+        "text": "once",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "then...walk about.", "marks": ["i"] }
+          ]
+        }
+      },
+      " darkness, and now light in the Lord; as children of light walk ye,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 9,
-    "content": "for the fruit of the Spirit is in all goodness, and righteousness, and truth,"
+    "content": [
+      "for the fruit of the Spirit ",
+      { "text": "is", "marks": ["i"] },
+      " in all goodness, and righteousness, and truth,"
+    ]
   },
   {
     "book": "EPH",
@@ -684,25 +1034,44 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 14,
-    "content": "wherefore he saith, ‘Arouse thyself, thou who art sleeping, and arise out of the dead, and the Christ shall shine upon thee.’"
+    "content": "wherefore he saith, “Arouse thyself, thou who art sleeping, and arise out of the dead, and the Christ shall shine upon thee.”"
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 15,
-    "content": "See, then, how exactly ye walk, not as unwise, but as wise,"
+    "content": {
+      "paragraph": true,
+      "text": "See, then, how exactly ye walk, not as unwise, but as wise,"
+    }
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 16,
-    "content": "redeeming the time, because the days are evil;"
+    "content": [
+      {
+        "text": "redeeming",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "buying up the season.", "marks": ["i"] }
+          ]
+        }
+      },
+      " the time, because the days are evil;"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 17,
-    "content": "because of this become not fools, but-understanding what is the will of the Lord,"
+    "content": [
+      "because of this become not fools, but—understanding what ",
+      { "text": "is", "marks": ["i"] },
+      " the will of the Lord,"
+    ]
   },
   {
     "book": "EPH",
@@ -732,19 +1101,30 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 22,
-    "content": "The wives! to your own husbands subject yourselves, as to the Lord,"
+    "content": {
+      "paragraph": true,
+      "text": "The wives! to your own husbands subject yourselves, as to the Lord,"
+    }
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 23,
-    "content": "because the husband is head of the wife, as also the Christ is head of the assembly, and he is saviour of the body,"
+    "content": [
+      "because the husband is head of the wife, as also the Christ ",
+      { "text": "is", "marks": ["i"] },
+      " head of the assembly, and he is saviour of the body,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 24,
-    "content": "but even as the assembly is subject to Christ, so also are the wives to their own husbands in everything."
+    "content": [
+      "but even as the assembly is subject to Christ, so also ",
+      { "text": "are", "marks": ["i"] },
+      " the wives to their own husbands in everything."
+    ]
   },
   {
     "book": "EPH",
@@ -756,7 +1136,11 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 26,
-    "content": "that he might sanctify it, having cleansed it with the bathing of the water in the saying,"
+    "content": [
+      "that he might sanctify it, having cleansed ",
+      { "text": "it", "marks": ["i"] },
+      " with the bathing of the water in the saying,"
+    ]
   },
   {
     "book": "EPH",
@@ -768,13 +1152,13 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 28,
-    "content": "so ought the husbands to love their own wives as their own bodies: he who is loving his own wife-himself he doth love;"
+    "content": "so ought the husbands to love their own wives as their own bodies: he who is loving his own wife—himself he doth love;"
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 29,
-    "content": "for no one ever his own flesh did hate, but doth nourish and cherish it, as also the Lord-the assembly,"
+    "content": "for no one ever his own flesh did hate, but doth nourish and cherish it, as also the Lord—the assembly,"
   },
   {
     "book": "EPH",
@@ -786,7 +1170,7 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 31,
-    "content": "?’for this cause shall a man leave his father and mother, and shall be joined to his wife, and they shall be-the two-for one flesh;’"
+    "content": "“for this cause shall a man leave his father and mother, and shall be joined to his wife, and they shall be—the two—for one flesh;”"
   },
   {
     "book": "EPH",
@@ -798,16 +1182,39 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 33,
-    "content": "but ye also, every one in particular-let each his own wife so love as himself, and the wife-that she may reverence the husband."
+    "content": "but ye also, every one in particular—let each his own wife so love as himself, and the wife—that she may reverence the husband."
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "The children! obey your parents in the Lord, for this is righteous;"
-    }
+    "content": [
+      { "heading": "Domestic Relationships" },
+      {
+        "paragraph": true,
+        "content": [
+          {
+            "foot": {
+              "type": "stu",
+              "content": [
+                "Chapter VI. may be divided into five parts; ",
+                { "bibleLink": "Ephesians 6:1–9", "content": "v. 1–9" },
+                " exhortations to children, fathers, servants, masters; ",
+                { "bibleLink": "Ephesians 6:10–17", "content": "v. 10–17" },
+                " to stand fast, with the whole armour of God; ",
+                { "bibleLink": "Ephesians 6:18–20", "content": "v. 18–20" },
+                " to pray for all saints and Paul; ",
+                { "bibleLink": "Ephesians 6:21", "content": "v. 21" },
+                " he sends Tychicus; ",
+                { "bibleLink": "Ephesians 6:23, 24", "content": "v. 23, 24" },
+                " closing salutation and prayer."
+              ]
+            }
+          },
+          "The children! obey your parents in the Lord, for this is righteous;"
+        ]
+      }
+    ]
   },
   {
     "book": "EPH",
@@ -819,7 +1226,20 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 3,
-    "content": "which is the first command with a promise, ‘That it may be well with thee, and thou mayest live a long time upon the land.’"
+    "content": [
+      "which is ",
+      {
+        "text": "the first command",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "a first or chief command,", "marks": ["i"] }
+          ]
+        }
+      },
+      " with a promise, “That it may be well with thee, and thou mayest live a long time upon the land.”"
+    ]
   },
   {
     "book": "EPH",
@@ -831,7 +1251,10 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 5,
-    "content": "The servants! obey the masters according to the flesh with fear and trembling, in the simplicity of your heart, as to the Christ;"
+    "content": {
+      "paragraph": true,
+      "text": "The servants! obey the masters according to the flesh with fear and trembling, in the simplicity of your heart, as to the Christ;"
+    }
   },
   {
     "book": "EPH",
@@ -843,7 +1266,20 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 7,
-    "content": "with good-will serving, as to the Lord, and not to men,"
+    "content": [
+      "with ",
+      {
+        "text": "good-will serving",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "good-minds being bondsmen.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", as to the Lord, and not to men,"
+    ]
   },
   {
     "book": "EPH",
@@ -861,7 +1297,10 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 10,
-    "content": "As to the rest, my brethren, be strong in the Lord, and in the power of his might;"
+    "content": {
+      "paragraph": true,
+      "text": "As to the rest, my brethren, be strong in the Lord, and in the power of his might;"
+    }
   },
   {
     "book": "EPH",
@@ -879,7 +1318,7 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 13,
-    "content": "because of this take ye up the whole armour of God, that ye may be able to resist in the day of the evil, and all things having done-to stand."
+    "content": "because of this take ye up the whole armour of God, that ye may be able to resist in the day of the evil, and all things having done—to stand."
   },
   {
     "book": "EPH",
@@ -903,13 +1342,29 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 17,
-    "content": "and the helmet of the salvation receive, and the sword of the Spirit, which is the saying of God,"
+    "content": [
+      "and the helmet of the salvation ",
+      {
+        "text": "receive",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "receive for yourselves the helmet (lit. thing \"around the head,\") of the salvation...a saying of God,",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", and the sword of the Spirit, which is the saying of God,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 18,
-    "content": "through all prayer and supplication praying at all times in the Spirit, and in regard to this same, watching in all perseverance and supplication for all the saints-"
+    "content": "through all prayer and supplication praying at all times in the Spirit, and in regard to this same, watching in all perseverance and supplication for all the saints—"
   },
   {
     "book": "EPH",
@@ -921,13 +1376,16 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 20,
-    "content": "for which I am an ambassador in a chain, that in it I may speak freely-as it behoveth me to speak."
+    "content": "for which I am an ambassador in a chain, that in it I may speak freely—as it behoveth me to speak."
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 21,
-    "content": "And that ye may know-ye also-the things concerning me-what I do, all things make known to you shall Tychicus, the beloved brother and faithful ministrant in the Lord,"
+    "content": {
+      "paragraph": true,
+      "text": "And that ye may know—ye also—the things concerning me—what I do, all things make known to you shall Tychicus, the beloved brother and faithful ministrant in the Lord,"
+    }
   },
   {
     "book": "EPH",
@@ -939,12 +1397,15 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 23,
-    "content": "Peace to the brethren, and love, with faith, from God the Father, and the Lord Jesus Christ!"
+    "content": {
+      "paragraph": true,
+      "text": "Peace to the brethren, and love, with faith, from God the Father, and the Lord Jesus Christ!"
+    }
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 24,
-    "content": "The grace with all those loving our Lord Jesus Christ-undecayingly! Amen."
+    "content": "The grace with all those loving our Lord Jesus Christ—undecayingly! Amen."
   }
 ]

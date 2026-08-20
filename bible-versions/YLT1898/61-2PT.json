@@ -5,20 +5,146 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Simeon Peter, a servant and an apostle of Jesus Christ, to those who did obtain a like precious faith with us in the righteousness of our God and Saviour Jesus Christ:"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              {
+                "text": "2 Peter. This Epistle is wanting in the Syriac Peshito Version, and is not mentioned by Tertullian (A.D. 160–200), Clement of Alexandria (A.D. 194), Cyprian (A.D. 200–258), or the fragment of Muratori (A.D. 200). The first who expressly mentions it, (which he does as S.S.), is Origen (A.D. 182–254), while he states that some doubted its canonicity. Clement of Rome (A.D. 108), Hermas (A.D. 108), Justin-Martyr (A.D. 140), Athenagorus (A.D. 178), Irenaeus (A.D. 140–200), &c. appear to have several allusions to certain phrases that appear in it. The style is somewhat different from that of Peter’s First Epistle, but this is too indefinite a criterion to decide so weighty a point, and not a few verbal coincidences between them have been pointed out, and Jude’s language is in many verses almost indentical.",
+                "break": true
+              },
+              {
+                "content": [
+                  "The date and place of its composition are alike uncertain; it has apparently allusions to ",
+                  { "bibleLink": "Genesis 1:6–9", "content": "Gen. 1. 6–9" },
+                  "; ",
+                  {
+                    "bibleLink": "Genesis 7:1–11, 16, 22, 23",
+                    "content": "7. 1–11, 16, 22, 23"
+                  },
+                  "; ",
+                  {
+                    "bibleLink": "Genesis 19:16, 24, 25",
+                    "content": "19. 16, 24, 25"
+                  },
+                  "; ",
+                  {
+                    "bibleLink": "Numbers 22:5, 7, 21, 23, 28",
+                    "content": "Nu. 22. 5, 7, 21, 23, 28"
+                  },
+                  "; ",
+                  { "bibleLink": "Joshua 23:14", "content": "Jos. 23. 14" },
+                  "; ",
+                  { "bibleLink": "2 Samuel 23:2", "content": "2 Sa. 23. 2" },
+                  "; ",
+                  { "bibleLink": "Psalm 102:26", "content": "Ps. 102. 26" },
+                  "; ",
+                  { "bibleLink": "Isaiah 5:19", "content": "Isa. 5. 19" },
+                  "; ",
+                  { "bibleLink": "Isaiah 65:17–19", "content": "65. 17–19" },
+                  "; ",
+                  { "bibleLink": "Matthew 17:1–5", "content": "Mat. 17. 1–5" },
+                  "; ",
+                  { "bibleLink": "Revelation 21", "content": "Rev. 21" },
+                  "."
+                ],
+                "break": true
+              },
+              "It may be divided into three parts; ",
+              { "bibleLink": "2 Peter 1", "content": "ch. i" },
+              ". Exhortations, ",
+              { "bibleLink": "2 Peter 2", "content": "ch. ii" },
+              ". False Teachers, ",
+              { "bibleLink": "2 Peter 3", "content": "ch. iii" },
+              ". Scoffers."
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. may be divided into five parts; ",
+              { "bibleLink": "2 Peter 1:1, 2", "content": "v. 1, 2" },
+              " address and salutation; ",
+              { "bibleLink": "2 Peter 1:3, 4", "content": "v. 3, 4" },
+              " divine gifts and promises; ",
+              { "bibleLink": "2 Peter 1:5–11", "content": "v. 5–11" },
+              " encouragement to abound in graces; ",
+              { "bibleLink": "2 Peter 1:12–15", "content": "v. 12–15" },
+              " reasons for reminding them; ",
+              { "bibleLink": "2 Peter 1:16–21", "content": "v. 16–21" },
+              " of the truthfulness of the apostolic and scripture testimony to Christ."
+            ]
+          }
+        },
+        "Simeon ",
+        {
+          "text": "Peter",
+          "foot": {
+            "type": "stu",
+            "content": "i.e. a “rock,” a firm, unbending man."
+          }
+        },
+        ", a ",
+        {
+          "text": "servant",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "bondsman", "marks": ["i"] }]
+          }
+        },
+        " and an ",
+        {
+          "text": "apostle",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "one sent forth", "marks": ["i"] }]
+          }
+        },
+        " of ",
+        {
+          "text": "Jesus Christ",
+          "foot": { "type": "stu", "content": "i.e. the “anointed saviour.”" }
+        },
+        ", to those who did obtain a like precious faith with us in the righteousness of our God and Saviour Jesus Christ:"
+      ]
     }
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 2,
-    "content": "Grace to you, and peace be multiplied in the acknowledgement of God and of Jesus our Lord!"
+    "content": [
+      {
+        "text": "Grace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "what causes leaping for joy", "marks": ["i"] }
+          ]
+        }
+      },
+      " to you, and peace be multiplied in the acknowledgement of God and of Jesus our Lord!"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 3,
-    "content": "As all things to us His divine power (the things pertaining unto life and piety) hath given, through the acknowledgement of him who did call us through glory and worthiness,"
+    "content": [
+      "As all things to us His divine power (the things pertaining unto life and piety) hath given, through the acknowledgement of him who did call us through glory and ",
+      {
+        "text": "worthiness",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pleasingness", "marks": ["i"] }]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "2PT",
@@ -30,13 +156,31 @@
     "book": "2PT",
     "chapter": 1,
     "verse": 5,
-    "content": "And this same also-all diligence having brought in besides, superadd in your faith the worthiness, and in the worthiness the knowledge,"
+    "content": "And this same also—all diligence having brought in besides, superadd in your faith the worthiness, and in the worthiness the knowledge,"
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 6,
-    "content": "and in the knowledge the temperance, and in the temperance the endurance, and in the endurance the piety,"
+    "content": [
+      "and in the knowledge the ",
+      {
+        "text": "temperance",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "inward-strength", "marks": ["i"] }]
+        }
+      },
+      ", and in the temperance the ",
+      {
+        "text": "endurance",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "remaining under", "marks": ["i"] }]
+        }
+      },
+      ", and in the endurance the piety,"
+    ]
   },
   {
     "book": "2PT",
@@ -48,19 +192,54 @@
     "book": "2PT",
     "chapter": 1,
     "verse": 8,
-    "content": "for these things being to you and abounding, do make you neither inert nor unfruitful in regard to the acknowledging of our Lord Jesus Christ,"
+    "content": [
+      "for these things being to you and abounding, do make ",
+      { "text": "you", "marks": ["i"] },
+      " neither inert nor unfruitful in regard to the acknowledging of our Lord Jesus Christ,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 9,
-    "content": "for he with whom these things are not present is blind, dim-sighted, having become forgetful of the cleansing of his old sins;"
+    "content": [
+      "for he with whom these things are not present is blind, ",
+      {
+        "text": "dim-sighted",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "shutting the eyes", "marks": ["i"] }]
+        }
+      },
+      ", having ",
+      {
+        "text": "become forgetful of",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "accepted a hiding of", "marks": ["i"] }
+          ]
+        }
+      },
+      " the cleansing of his old sins;"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 10,
-    "content": "wherefore, the rather, brethren, be diligent to make stedfast your calling and choice, for these things doing, ye may never stumble,"
+    "content": [
+      "wherefore, the rather, brethren, be diligent to make stedfast your calling and ",
+      {
+        "text": "choice",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "election", "marks": ["i"] }]
+        }
+      },
+      ", for these things doing, ye may never stumble,"
+    ]
   },
   {
     "book": "2PT",
@@ -72,13 +251,20 @@
     "book": "2PT",
     "chapter": 1,
     "verse": 12,
-    "content": "Wherefore, I will not be careless always to remind you concerning these things, though, having known them, and having been established in the present truth,"
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore, I will not be careless always to remind you concerning these things, though, having known them, and having been established in the present truth,"
+    }
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 13,
-    "content": "and I think right, so long as I am in this tabernacle, to stir you up in reminding you,"
+    "content": [
+      "and I think right, so long as I am in this tabernacle, to stir you up in reminding ",
+      { "text": "you", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "2PT",
@@ -90,37 +276,70 @@
     "book": "2PT",
     "chapter": 1,
     "verse": 15,
-    "content": "and I will be diligent that also at every time ye have, after my outgoing, power to make to yourselves the remembrance of these things."
+    "content": [
+      "and I will be diligent that also at every time ye have, after my ",
+      {
+        "text": "outgoing",
+        "foot": { "type": "stu", "content": "Gr. exodus" }
+      },
+      ", power to make to yourselves the remembrance of these things."
+    ]
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 16,
-    "content": "For, skilfully devised fables not having followed out, we did make known to you the power and presence of our Lord Jesus Christ, but eye-witnesses having become of his majesty-"
+    "content": "For, skilfully devised fables not having followed out, we did make known to you the power and presence of our Lord Jesus Christ, but eye-witnesses having become of his majesty—"
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 17,
-    "content": "for having received from God the Father honour and glory, such a voice being borne to him by the excellent glory: ‘This is My Son-the beloved, in whom I was well pleased;’"
+    "content": "for having received from God the Father honour and glory, such a voice being borne to him by the excellent glory: “This is My Son—the beloved, in whom I was well pleased;”"
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 18,
-    "content": "and this voice we-we did hear, out of heaven borne, being with him in the holy mount."
+    "content": "and this voice we—we did hear, out of heaven borne, being with him in the holy mount."
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 19,
-    "content": "And we have more firm the prophetic word, to which we do well giving heed, as to a lamp shining in a dark place, till day may dawn, and a morning star may arise-in your hearts;"
+    "content": [
+      "And we have more firm the prophetic word, to which we do well giving heed, as to a lamp shining in a ",
+      {
+        "text": "dark",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "squalid", "marks": ["i"] }]
+        }
+      },
+      " place, till day may dawn, and a morning star may arise—in your hearts;"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 1,
     "verse": 20,
-    "content": "this first knowing, that no prophecy of the Writing doth come of private exposition,"
+    "content": [
+      "this first knowing, that no prophecy of the Writing doth come of ",
+      {
+        "text": "private exposition",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "one’s (i.e. a prophet’s) own solution (or “loosing out” of probable events)",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "2PT",
@@ -132,10 +351,39 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And there did come also false prophets among the people, as also among you there shall be false teachers, who shall bring in besides destructive sects, and the Master who bought them denying, bringing to themselves quick destruction,"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter II. may be divided into four parts; ",
+            { "bibleLink": "2 Peter 2:1–3", "content": "v. 1–3" },
+            " prediction of false teachers; ",
+            { "bibleLink": "2 Peter 2:4–8", "content": "v. 4–8" },
+            " God’s conduct towards sinful messengers, the old world, the cities of Sodom and Gomorrah; ",
+            { "bibleLink": "2 Peter 2:9–16", "content": "v. 9–16" },
+            " and those following Balaam; ",
+            { "bibleLink": "2 Peter 2:17–22", "content": "v. 17–22" },
+            " their awful corruption and depravity."
+          ]
+        }
+      },
+      { "heading": "False Teachers" },
+      {
+        "paragraph": true,
+        "content": [
+          "And there did come also false prophets among the people, as also among you there shall be false teachers, who shall bring in besides destructive sects, and the ",
+          {
+            "text": "Master",
+            "foot": {
+              "type": "trn",
+              "content": ["Lit., ", { "text": "Despot", "marks": ["i"] }]
+            }
+          },
+          " who bought them denying, bringing to themselves quick destruction,"
+        ]
+      }
+    ]
   },
   {
     "book": "2PT",
@@ -147,37 +395,98 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 3,
-    "content": "and in covetousness, with moulded words, of you they shall make merchandise, whose judgment of old is not idle, and their destruction doth not slumber."
+    "content": [
+      "and in covetousness, with moulded words, of you they shall make merchandise, whose judgment of old is not idle, and their ",
+      {
+        "text": "destruction",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "loosing away", "marks": ["i"] }]
+        }
+      },
+      " doth not slumber."
+    ]
   },
   {
     "book": "2PT",
     "chapter": 2,
     "verse": 4,
-    "content": "For if God messengers who sinned did not spare, but with chains of thick gloom, having cast them down to Tartarus, did deliver them to judgment, having been reserved,"
+    "content": [
+      "For if God messengers who ",
+      {
+        "text": "sinned",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "“missed” the mark", "marks": ["i"] }]
+        }
+      },
+      " did not spare, but with chains of thick gloom, having cast ",
+      { "text": "them", "marks": ["i"] },
+      " down to Tartarus, did deliver ",
+      { "text": "them", "marks": ["i"] },
+      " to judgment, having been reserved,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 2,
     "verse": 5,
-    "content": "and the old world did not spare, but the eighth person, Noah, of righteousness a preacher, did keep, a flood on the world of the impious having brought,"
+    "content": [
+      "and the old world did not spare, but the eighth person, Noah, of righteousness a ",
+      {
+        "text": "preacher",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "herald", "marks": ["i"] }]
+        }
+      },
+      ", did keep, a flood on the world of the impious having brought,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 2,
     "verse": 6,
-    "content": "and the cities of Sodom and Gomorrah having turned to ashes, with an overthrow did condemn, an example to those about to be impious having set them;"
+    "content": [
+      "and the cities of Sodom and Gomorrah having turned to ashes, with an overthrow did condemn, an example to those about to be impious having set ",
+      { "text": "them", "marks": ["i"] },
+      ";"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 2,
     "verse": 7,
-    "content": "and righteous Lot, worn down by the conduct in lasciviousness of the impious, He did rescue,"
+    "content": [
+      "and righteous Lot, worn down by the conduct in lasciviousness of the ",
+      {
+        "text": "impious",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "the unsettled", "marks": ["i"] }]
+        }
+      },
+      ", He did rescue,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 2,
     "verse": 8,
-    "content": "for in seeing and hearing, the righteous man, dwelling among them, day by day the righteous soul with unlawful works was harassing."
+    "content": [
+      "for in seeing and hearing, the righteous man, dwelling among them, day by day the righteous soul with unlawful works was ",
+      {
+        "text": "harassing",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "oppressing, violating, forcing", "marks": ["i"] }
+          ]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "2PT",
@@ -201,7 +510,10 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 12,
-    "content": "and these, as irrational natural beasts, made to be caught and destroyed-in what things they are ignorant of, speaking evil-in their destruction shall be destroyed,"
+    "content": {
+      "paragraph": true,
+      "text": "and these, as irrational natural beasts, made to be caught and destroyed—in what things they are ignorant of, speaking evil—in their destruction shall be destroyed,"
+    }
   },
   {
     "book": "2PT",
@@ -213,19 +525,54 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 14,
-    "content": "having eyes full of adultery, and unable to cease from sin, enticing unstable souls, having an heart exercised in covetousnesses, children of a curse,"
+    "content": [
+      "having eyes full of adultery, and unable to cease from sin, enticing unstable souls, having an heart ",
+      {
+        "text": "exercised",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "made naked", "marks": ["i"] }]
+        }
+      },
+      " in covetousnesses, children of a curse,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 2,
     "verse": 15,
-    "content": "having forsaken a right way, they did go astray, having followed in the way of Balaam the son of Bosor, who a reward of unrighteousness did love,"
+    "content": [
+      "having forsaken a right way, they did go astray, having followed in the way of Balaam the ",
+      { "text": "son", "marks": ["i"] },
+      " of Bosor, who a reward of unrighteousness did love,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 2,
     "verse": 16,
-    "content": "and had a rebuke of his own iniquity-a dumb ass, in man’s voice having spoken, did forbid the madness of the prophet."
+    "content": [
+      "and had a rebuke of his own ",
+      {
+        "text": "iniquity",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "going aside from law", "marks": ["i"] }
+          ]
+        }
+      },
+      "—a dumb ",
+      {
+        "text": "ass",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "one under yoke", "marks": ["i"] }]
+        }
+      },
+      ", in man’s voice having spoken, did forbid the madness of the prophet."
+    ]
   },
   {
     "book": "2PT",
@@ -237,7 +584,17 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 18,
-    "content": "for overswellings of vanity speaking, they do entice in desires of the flesh-lasciviousnesses, those who had truly escaped from those conducting themselves in error,"
+    "content": [
+      "for overswellings of vanity speaking, they do entice in desires of the flesh—lasciviousnesses, those who had ",
+      {
+        "text": "truly",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "scarcely", "marks": ["i"] }]
+        }
+      },
+      " escaped from those conducting themselves in error,"
+    ]
   },
   {
     "book": "2PT",
@@ -255,22 +612,58 @@
     "book": "2PT",
     "chapter": 2,
     "verse": 21,
-    "content": "for it were better to them not to have acknowledged the way of the righteousness, than having acknowledged it, to turn back from the holy command delivered to them,"
+    "content": [
+      "for it were better to them not to have acknowledged the way of the righteousness, than having acknowledged ",
+      { "text": "it", "marks": ["i"] },
+      ", to turn back from the holy command delivered to them,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 2,
     "verse": 22,
-    "content": "and happened to them hath that of the true similitude; ‘A dog did turn back upon his own vomit,’ and, ‘A sow having bathed herself-to rolling in mire.’"
+    "content": [
+      "and happened to them hath that of the true similitude; “A dog did turn back upon his own vomit,” and, “A sow having bathed herself—to rolling in ",
+      {
+        "text": "mire",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "“food.”", "marks": ["i"] }]
+        }
+      },
+      ".”"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "This, now, beloved, a second letter to you I write, in both which I stir up your pure mind in reminding you,"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter III. may be divided into five parts; ",
+            { "bibleLink": "2 Peter 3:1, 2", "content": "v. 1, 2" },
+            " exhortation to be mindful of former sayings; ",
+            { "bibleLink": "2 Peter 3:3–7", "content": "v. 3–7" },
+            " prediction of coming scoffers and their folly; ",
+            { "bibleLink": "2 Peter 3:8–10", "content": "v. 8–10" },
+            " certainty of the coming of the day of the Lord; ",
+            { "bibleLink": "2 Peter 3:11–16", "content": "v. 11–16" },
+            " and what we ought to be and to do; ",
+            { "bibleLink": "2 Peter 3:17, 18", "content": "v. 17, 18" },
+            " final warning, exhortation and doxology."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "This, now, beloved, a second letter to you I write, in both which I stir up your pure mind in reminding "
+      },
+      { "text": "you", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "2PT",
@@ -282,13 +675,34 @@
     "book": "2PT",
     "chapter": 3,
     "verse": 3,
-    "content": "this first knowing, that there shall come in the latter end of the days scoffers, according to their own desires going on,"
+    "content": [
+      "this first knowing, that there shall come in ",
+      {
+        "text": "the latter end of the days",
+        "foot": {
+          "type": "stu",
+          "content": "of the Jewish dispensation, as always,"
+        }
+      },
+      " ",
+      {
+        "text": "scoffers",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "those acting inwardly as boys", "marks": ["i"] }
+          ]
+        }
+      },
+      ", according to their own desires going on,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 4,
-    "content": "and saying, ‘Where is the promise of his presence? for since the fathers did fall asleep, all things so remain from the beginning of the creation;’"
+    "content": "and saying, “Where is the promise of his presence? for since the fathers did fall asleep, all things so remain from the beginning of the creation;”"
   },
   {
     "book": "2PT",
@@ -300,31 +714,78 @@
     "book": "2PT",
     "chapter": 3,
     "verse": 6,
-    "content": "through which the then world, by water having been deluged, was destroyed;"
+    "content": [
+      "through which the then ",
+      {
+        "text": "world",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "“order” of things", "marks": ["i"] }]
+        }
+      },
+      ", by water having been deluged, was destroyed;"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 7,
-    "content": "and the present heavens and the earth, by the same word are treasured, for fire being kept to a day of judgment and destruction of the impious men."
+    "content": [
+      "and the present heavens and the earth, by the same word are ",
+      {
+        "text": "treasured",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "set for to-morrow", "marks": ["i"] }]
+        }
+      },
+      ", for fire being kept to a day of judgment and destruction of the impious men."
+    ]
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 8,
-    "content": "And this one thing let not be unobserved by you, beloved, that one day with the Lord is as a thousand years, and a thousand years as one day;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And this one thing let not be unobserved by you, beloved, that one day with the Lord "
+      },
+      { "text": "is", "marks": ["i"] },
+      " as a thousand years, and a thousand years as one day;"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 9,
-    "content": "the Lord is not slow in regard to the promise, as certain count slowness, but is long-suffering to us, not counselling any to be lost but all to pass on to reformation,"
+    "content": [
+      "the Lord is not ",
+      {
+        "text": "slow",
+        "foot": { "type": "stu", "content": "as being under a “burden.”" }
+      },
+      " in regard to the promise, as certain count slowness, but is longsuffering to us, not counselling any to be lost but all to pass on to reformation,"
+    ]
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 10,
-    "content": "and it will come-the day of the Lord-as a thief in the night, in which the heavens with a rushing noise will pass away, and the elements with burning heat be dissolved, and earth and the works in it shall be burnt up."
+    "content": [
+      "and it will come—the day of the Lord—as a thief in the night, in which the heavens with a rushing noise will pass away, and ",
+      {
+        "text": "the elements",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "steppings (i.e. first principles)", "marks": ["i"] }
+          ]
+        }
+      },
+      " with burning heat be dissolved, and earth and the works in it shall be burnt up."
+    ]
   },
   {
     "book": "2PT",
@@ -348,13 +809,23 @@
     "book": "2PT",
     "chapter": 3,
     "verse": 14,
-    "content": "wherefore, beloved, these things waiting for, be diligent, spotless and unblameable, by Him to be found in peace,"
+    "content": {
+      "paragraph": true,
+      "text": "wherefore, beloved, these things waiting for, be diligent, spotless and unblameable, by Him to be found in peace,"
+    }
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 15,
-    "content": "and the long-suffering of our Lord count ye salvation, according as also our beloved brother Paul-according to the wisdom given to him-did write to you,"
+    "content": [
+      "and the long-suffering of our Lord count ye ",
+      {
+        "text": "salvation",
+        "foot": { "type": "stu", "content": "i.e. a time of it." }
+      },
+      ", according as also our beloved brother Paul—according to the wisdom given to him—did write to you,"
+    ]
   },
   {
     "book": "2PT",
@@ -366,12 +837,19 @@
     "book": "2PT",
     "chapter": 3,
     "verse": 17,
-    "content": "Ye, then, beloved, knowing before, take heed, lest, together with the error of the impious being led away, ye may fall from your own stedfastness,"
+    "content": {
+      "paragraph": true,
+      "text": "Ye, then, beloved, knowing before, take heed, lest, together with the error of the impious being led away, ye may fall from your own stedfastness,"
+    }
   },
   {
     "book": "2PT",
     "chapter": 3,
     "verse": 18,
-    "content": "and increase ye in grace, and in the knowledge of our Lord and Saviour Jesus Christ; to him is the glory both now, and to the day of the age! Amen."
+    "content": [
+      "and increase ye in grace, and in the knowledge of our Lord and Saviour Jesus Christ; to him ",
+      { "text": "is", "marks": ["i"] },
+      " the glory both now, and to the day of the age! Amen."
+    ]
   }
 ]

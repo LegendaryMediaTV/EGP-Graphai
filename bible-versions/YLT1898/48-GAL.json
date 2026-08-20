@@ -5,7 +5,105 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Paul, an apostle-not from men, nor through man, but through Jesus Christ, and God the Father, who did raise him out of the dead-"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Galatians. THAT this Letter was written by the apostle Paul is (and has always been) universally acknowledged; it was quoted by Clement (of Rome), Hermas, Ignatius, and Polycarp, A.D. 100, and was declared authentic by Irenaeus, A.D. 178, Clement (of Alexandria), A.D. 194, Tertullian, A.D. 200, Caius (of Rome), A.D. 200, Origen, A.D. 230, and even by Marcion, A.D. 175. It was probably written at Ephesus (",
+              { "bibleLink": "Acts 18:23", "content": "Acts 18. 23" },
+              "; ",
+              { "bibleLink": "Acts 19:1", "content": "19. 1" },
+              "), or Corinth (",
+              { "bibleLink": "Acts 20:2, 3", "content": "Acts 20. 2, 3" },
+              ") about A.D. 57–8 after the Second Letter to the Thessalonians and before that to the Romans. Galatia (or Gallograecia) in Asia Minor was subdued by the Romans B.C. 189, became a Roman province A.D. 26, was visited by Paul, A.D. 50–1 (",
+              { "bibleLink": "Acts 16:6, 7", "content": "Acts 16. 6, 7" },
+              "), and again in A.D. 54–5 (",
+              { "bibleLink": "Acts 18:23", "content": "Acts 18. 23" },
+              {
+                "text": "). His great object in writing this Letter was to counteract the tendency to Judaize, i.e. to modify and restrain the liberty of the Gospel Dispensation by the observance of rites and customs derived from the Old Covenant, which had been totally abolished by the death of Christ. It may be divided as follows:—",
+                "break": true
+              },
+              {
+                "content": [
+                  "I. The Introduction, ",
+                  { "bibleLink": "Galatians 1:1–5", "content": "ch. i. 1–5" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "II. Paul’s Personal Defence, ",
+                  { "bibleLink": "Galatians 1:6–24", "content": "ch. i. 6" },
+                  "–",
+                  { "bibleLink": "Galatians 2:1–21", "content": "ii. 21" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "III. His Exposure of Judaism, ",
+                  { "bibleLink": "Galatians 3", "content": "ch. iii" },
+                  "–",
+                  { "bibleLink": "Galatians 4:1–7", "content": "iv. 7" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "IV. His Reproof of the Galatians, ",
+                  { "bibleLink": "Galatians 4:8–31", "content": "ch. iv. 8" },
+                  "–",
+                  { "bibleLink": "Galatians 5:1–9", "content": "v. 9" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "V. Instructions and Exhortations, ",
+                  { "bibleLink": "Galatians 5:10–26", "content": "ch. v. 10" },
+                  "–",
+                  { "bibleLink": "Galatians 6:1–10", "content": "vi. 10" },
+                  "."
+                ],
+                "break": true
+              },
+              {
+                "content": [
+                  "VI. The Conclusion, ",
+                  {
+                    "bibleLink": "Galatians 6:11–18",
+                    "content": "ch. vi. 11–18"
+                  },
+                  "."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter I. May be divided into four parts; ",
+              { "bibleLink": "Galatians 1:1–5", "content": "v. 1–5" },
+              " Paul’s salutations; ",
+              { "bibleLink": "Galatians 1:6–10", "content": "v. 6–10" },
+              " his surprize at the change of the Galatians; ",
+              { "bibleLink": "Galatians 1:11–19", "content": "v. 11–19" },
+              " his own preaching; ",
+              { "bibleLink": "Galatians 1:20–23", "content": "v. 20–23" },
+              " his reception in Judea."
+            ]
+          }
+        },
+        "Paul",
+        ", an apostle—not from men, nor through man, but through Jesus Christ, and God the Father, who did raise him out of the dead—"
+      ]
     }
   },
   {
@@ -18,25 +116,61 @@
     "book": "GAL",
     "chapter": 1,
     "verse": 3,
-    "content": "Grace to you, and peace from God the Father, and our Lord Jesus Christ,"
+    "content": [
+      {
+        "text": "Grace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "that which causes leaping for joy", "marks": ["i"] }
+          ]
+        }
+      },
+      " to you, and peace from God the Father, and our Lord Jesus Christ,"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 1,
     "verse": 4,
-    "content": "who did give himself for our sins, that he might deliver us out of the present evil age, according to the will of God even our Father,"
+    "content": [
+      "who did give himself for our ",
+      {
+        "text": "sins",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "missings", "marks": ["i"] },
+            " of the mark"
+          ]
+        }
+      },
+      ", that he might deliver us out of the present evil age, according to the will of God even our Father,"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 1,
     "verse": 5,
-    "content": "to whom is the glory to the ages of the ages. Amen."
+    "content": [
+      "to whom ",
+      { "text": "is", "marks": ["i"] },
+      " the glory to the ages of the ages. Amen."
+    ]
   },
   {
     "book": "GAL",
     "chapter": 1,
     "verse": 6,
-    "content": "I wonder that ye are so quickly removed from Him who did call you in the grace of Christ to another good news;"
+    "content": [
+      { "heading": "Paul Defends His Authority" },
+      {
+        "paragraph": true,
+        "text": "I wonder that ye are so quickly removed from Him who did call you in the grace of Christ to another good news;"
+      }
+    ]
   },
   {
     "book": "GAL",
@@ -48,19 +182,38 @@
     "book": "GAL",
     "chapter": 1,
     "verse": 8,
-    "content": "but even if we or a messenger out of heaven may proclaim good news to you different from what we did proclaim to you-anathema let him be!"
+    "content": "but even if we or a messenger out of heaven may proclaim good news to you different from what we did proclaim to you—anathema let him be!"
   },
   {
     "book": "GAL",
     "chapter": 1,
     "verse": 9,
-    "content": "as we have said before, and now say again, If any one to you may proclaim good news different from what ye did receive-anathema let him be!"
+    "content": "as we have said before, and now say again, If any one to you may proclaim good news different from what ye did receive—anathema let him be!"
   },
   {
     "book": "GAL",
     "chapter": 1,
     "verse": 10,
-    "content": "for now men do I persuade, or God? or do I seek to please men? for if yet men I did please-Christ’s servant I should not be."
+    "content": {
+      "paragraph": true,
+      "content": [
+        "for now men do I persuade, or God? or do I seek to please men? for if yet men I did please—",
+        {
+          "text": "Christ’s servant I should not be",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              {
+                "text": "would not have been Christ’s bondsman",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        "."
+      ]
+    }
   },
   {
     "book": "GAL",
@@ -72,13 +225,20 @@
     "book": "GAL",
     "chapter": 1,
     "verse": 12,
-    "content": "for neither did I from man receive it, nor was I taught it, but through a revelation of Jesus Christ,"
+    "content": [
+      "for neither did I from man receive it, nor was I taught ",
+      { "text": "it", "marks": ["i"] },
+      ", but through a revelation of Jesus Christ,"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 1,
     "verse": 13,
-    "content": "for ye did hear of my behaviour once in Judaism, that exceedingly I was persecuting the assembly of God, and wasting it,"
+    "content": {
+      "paragraph": true,
+      "text": "for ye did hear of my behaviour once in Judaism, that exceedingly I was persecuting the assembly of God, and wasting it,"
+    }
   },
   {
     "book": "GAL",
@@ -90,7 +250,11 @@
     "book": "GAL",
     "chapter": 1,
     "verse": 15,
-    "content": "and when God was well pleased-having separated me from the womb of my mother, and having called me through His grace-"
+    "content": [
+      "and when God was well pleased—having separated me from the womb of my mother, and having called ",
+      { "text": "me", "marks": ["i"] },
+      " through His grace—"
+    ]
   },
   {
     "book": "GAL",
@@ -108,7 +272,17 @@
     "book": "GAL",
     "chapter": 1,
     "verse": 18,
-    "content": "then, after three years I went up to Jerusalem to enquire about Peter, and remained with him fifteen days,"
+    "content": [
+      "then, after three years I went up to Jerusalem to ",
+      {
+        "text": "enquire about Peter, and remained with him",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "know...remained on", "marks": ["i"] }]
+        }
+      },
+      " fifteen days,"
+    ]
   },
   {
     "book": "GAL",
@@ -120,7 +294,7 @@
     "book": "GAL",
     "chapter": 1,
     "verse": 20,
-    "content": "And the things that I write to you, lo, before God-I lie not;"
+    "content": "And the things that I write to you, lo, before God—I lie not;"
   },
   {
     "book": "GAL",
@@ -132,13 +306,17 @@
     "book": "GAL",
     "chapter": 1,
     "verse": 22,
-    "content": "and was unknown by face to the assemblies of Judea, that are in Christ,"
+    "content": [
+      "and was unknown by face to the assemblies of Judea, that ",
+      { "text": "are", "marks": ["i"] },
+      " in Christ,"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 1,
     "verse": 23,
-    "content": "and only they were hearing, that ‘he who is persecuting us then, doth now proclaim good news-the faith that then he was wasting;’"
+    "content": "and only they were hearing, that “he who is persecuting us then, doth now proclaim good news—the faith that then he was wasting;”"
   },
   {
     "book": "GAL",
@@ -152,44 +330,109 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Then, after fourteen years again I went up to Jerusalem with Barnabas, having taken with me also Titus;"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter II. May be divided into three parts; ",
+              { "bibleLink": "Galatians 2:1–10", "content": "v. 1–10" },
+              " Paul’s behaviour and reception at Jerusalem; ",
+              { "bibleLink": "Galatians 2:11–16", "content": "v. 11–16" },
+              " his rebuke of Peter; ",
+              { "bibleLink": "Galatians 2:17–21", "content": "v. 17–21" },
+              " his consistency and views."
+            ]
+          }
+        },
+        "Then, after fourteen years again I went up to Jerusalem with Barnabas, having taken with me also Titus;"
+      ]
     }
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 2,
-    "content": "and I went up by revelation, and did submit to them the good news that I preach among the nations, and privately to those esteemed, lest in vain I might run or did run;"
+    "content": [
+      "and I went up ",
+      {
+        "text": "by revelation",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "according to an uncovering (of God’s will)...",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", and did submit to them the good news that I preach among the nations, and privately to those esteemed, lest in vain I might run or did run;"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 3,
-    "content": "but not even Titus, who is with me, being a Greek, was compelled to be circumcised-"
+    "content": [
+      "but not even Titus, who ",
+      { "text": "is", "marks": ["i"] },
+      " with me, being a ",
+      {
+        "text": "Greek",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "Hellen", "marks": ["i"] }]
+        }
+      },
+      ", was compelled to be circumcised—"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 4,
-    "content": "and that because of the false brethren brought in unawares, who did come in privily to spy out our liberty that we have in Christ Jesus, that us they might bring under bondage,"
+    "content": [
+      "and ",
+      { "text": "that", "marks": ["i"] },
+      " because of the false brethren brought in unawares, who did come in privily to spy out our liberty that we have in Christ Jesus, that us they might bring under bondage,"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 5,
-    "content": "to whom not even for an hour we gave place by subjection, that the truth of the good news might remain to you."
+    "content": [
+      "to whom not even for an hour we ",
+      {
+        "text": "gave place",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "yielded...remain thoroughly toward you", "marks": ["i"] }
+          ]
+        }
+      },
+      " by subjection, that the truth of the good news might remain to you."
+    ]
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 6,
-    "content": "And from those who were esteemed to be something-whatever they were then, it maketh no difference to me-the face of man God accepteth not, for-to me those esteemed did add nothing,"
+    "content": "And from those who were esteemed to be something—whatever they were then, it maketh no difference to me—the face of man God accepteth not, for—to me those esteemed did add nothing,"
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 7,
-    "content": "but, on the contrary, having seen that I have been entrusted with the good news of the uncircumcision, as Peter with that of the circumcision,"
+    "content": [
+      "but, on the contrary, having seen that I have been entrusted with the good news of the uncircumcision, as Peter with ",
+      { "text": "that", "marks": ["i"] },
+      " of the circumcision,"
+    ]
   },
   {
     "book": "GAL",
@@ -201,13 +444,17 @@
     "book": "GAL",
     "chapter": 2,
     "verse": 9,
-    "content": "and having known the grace that was given to me, James, and Cephas, and John, who were esteemed to be pillars, a right hand of fellowship they did give to me, and to Barnabas, that we to the nations, and they to the circumcision may go,"
+    "content": [
+      "and having known the grace that was given to me, James, and Cephas, and John, who were esteemed to be pillars, a right hand of fellowship they did give to me, and to Barnabas, that we to the nations, and they to the circumcision ",
+      { "text": "may go", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 10,
-    "content": "only, of the poor that we should be mindful, which also I was diligent-this very thing-to do."
+    "content": "only, of the poor that we should be mindful, which also I was diligent—this very thing—to do."
   },
   {
     "book": "GAL",
@@ -225,31 +472,54 @@
     "book": "GAL",
     "chapter": 2,
     "verse": 13,
-    "content": "and dissemble with him also did the other Jews, so that also Barnabas was carried away by their dissimulation."
+    "content": [
+      "and ",
+      {
+        "text": "dissemble with him",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "also judged under along with him...led away along with them in the under-judgment",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " also did the other Jews, so that also Barnabas was carried away by their dissimulation."
+    ]
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 14,
-    "content": "But when I saw that they are not walking uprightly to the truth of the good news, I said to Peter before all, ‘If thou, being a Jew, in the manner of the nations dost live, and not in the manner of the Jews, how the nations dost thou compel to Judaize?"
+    "content": "But when I saw that they are not walking uprightly to the truth of the good news, I said to Peter before all, “If thou, being a Jew, in the manner of the nations dost live, and not in the manner of the Jews, how the nations dost thou compel to Judaize?"
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 15,
-    "content": "we by nature Jews, and not sinners of the nations,"
+    "content": {
+      "paragraph": true,
+      "text": "we by nature Jews, and not sinners of the nations,"
+    }
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 16,
-    "content": "having known also that a man is not declared righteous by works of law, if not through the faith of Jesus Christ, also we in Christ Jesus did believe, that we might be declared righteous by the faith of Christ, and not by works of law, wherefore declared righteous by works of law shall be no flesh.’"
+    "content": "having known also that a man is not declared righteous by works of law, if not through the faith of Jesus Christ, also we in Christ Jesus did believe, that we might be declared righteous by the faith of Christ, and not by works of law, wherefore declared righteous by works of law shall be no flesh.”"
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 17,
-    "content": "And if, seeking to be declared righteous in Christ, we ourselves also were found sinners, is then Christ a ministrant of sin? let it not be!"
+    "content": [
+      "And if, seeking to be declared righteous in Christ, we ourselves also were found sinners, ",
+      { "text": "is", "marks": ["i"] },
+      " then Christ a ministrant of sin? let it not be!"
+    ]
   },
   {
     "book": "GAL",
@@ -267,28 +537,57 @@
     "book": "GAL",
     "chapter": 2,
     "verse": 20,
-    "content": "with Christ I have been crucified, and live no more do I, and Christ doth live in me; and that which I now live in the flesh-in the faith I live of the Son of God, who did love me and did give himself for me;"
+    "content": "with Christ I have been crucified, and live no more do I, and Christ doth live in me; and that which I now live in the flesh—in the faith I live of the Son of God, who did love me and did give himself for me;"
   },
   {
     "book": "GAL",
     "chapter": 2,
     "verse": 21,
-    "content": "I do not make void the grace of God, for if righteousness be through law-then Christ died in vain."
+    "content": [
+      "I do not make void the grace of God, for if righteousness ",
+      { "text": "be", "marks": ["i"] },
+      " through law—then Christ died in vain."
+    ]
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "O thoughtless Galatians, who did bewitch you, not to obey the truth-before whose eyes Jesus Christ was described before among you crucified?"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter III. May be divided into seven parts; ",
+            { "bibleLink": "Galatians 3:1–5", "content": "v. 1–5" },
+            " an expostulation and enquiry; ",
+            { "bibleLink": "Galatians 3:6–9", "content": "v. 6–9" },
+            " Abraham declared just by faith; ",
+            { "bibleLink": "Galatians 3:10", "content": "v. 10" },
+            " the law leaves man under a curse; ",
+            { "bibleLink": "Galatians 3:11, 12", "content": "v. 11, 12" },
+            " man declared just by faith; ",
+            { "bibleLink": "Galatians 3:13–18", "content": "v. 13–18" },
+            " Abraham’s blessing confirmed by Christ; ",
+            { "bibleLink": "Galatians 3:19–22", "content": "v. 19–22" },
+            " origin and temporary character of the law; ",
+            { "bibleLink": "Galatians 3:23–29", "content": "v. 23–29" },
+            " design of the law and its abrogation."
+          ]
+        }
+      },
+      { "heading": "Defends the Truth of His Message" },
+      {
+        "paragraph": true,
+        "text": "O thoughtless Galatians, who did bewitch you, not to obey the truth—before whose eyes Jesus Christ was described before among you crucified?"
+      }
+    ]
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 2,
-    "content": "this only do I wish to learn from you-by works of law the Spirit did ye receive, or by the hearing of faith?"
+    "content": "this only do I wish to learn from you—by works of law the Spirit did ye receive, or by the hearing of faith?"
   },
   {
     "book": "GAL",
@@ -306,55 +605,69 @@
     "book": "GAL",
     "chapter": 3,
     "verse": 5,
-    "content": "He, therefore, who is supplying to you the Spirit, and working mighty acts among you-by works of law or by the hearing of faith is it?"
+    "content": [
+      "He, therefore, who is supplying to you the Spirit, and working mighty acts among you—by works of law or by the hearing of faith ",
+      { "text": "is it", "marks": ["i"] },
+      "?"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 6,
-    "content": "according as Abraham did believe God, and it was reckoned to him-to righteousness;"
+    "content": "according as Abraham did believe God, and it was reckoned to him—to righteousness;"
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 7,
-    "content": "know ye, then, that those of faith-these are sons of Abraham,"
+    "content": {
+      "paragraph": true,
+      "text": "know ye, then, that those of faith—these are sons of Abraham,"
+    }
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 8,
-    "content": "and the Writing having foreseen that by faith God doth declare righteous the nations did proclaim before the good news to Abraham-"
+    "content": "and the Writing having foreseen that by faith God doth declare righteous the nations did proclaim before the good news to Abraham—"
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 9,
-    "content": "‘Blessed in thee shall be all the nations;’ so that those of faith are blessed with the faithful Abraham,"
+    "content": "“Blessed in thee shall be all the nations;” so that those of faith are blessed with the faithful Abraham,"
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 10,
-    "content": "for as many as are of works of law are under a curse, for it hath been written, ‘Cursed is every one who is not remaining in all things that have been written in the Book of the Law-to do them,’"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "for as many as are of works of law are under a curse, for it hath been written, “Cursed "
+      },
+      { "text": "is", "marks": ["i"] },
+      " every one who is not remaining in all things that have been written in the Book of the Law—to do them,”"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 11,
-    "content": "and that in law no one is declared righteous with God, is evident, because ‘The righteous by faith shall live;’"
+    "content": "and that in law no one is declared righteous with God, is evident, because “The righteous by faith shall live;”"
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 12,
-    "content": "and the law is not by faith, but-‘The man who did them shall live in them.’"
+    "content": "and the law is not by faith, but—“The man who did them shall live in them.”"
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 13,
-    "content": "Christ did redeem us from the curse of the law, having become for us a curse, for it hath been written, ‘Cursed is every one who is hanging on a tree,’"
+    "content": "Christ did redeem us from the curse of the law, having become for us a curse, for it hath been written, “Cursed is every one who is hanging on a tree,”"
   },
   {
     "book": "GAL",
@@ -366,13 +679,17 @@
     "book": "GAL",
     "chapter": 3,
     "verse": 15,
-    "content": "Brethren, as a man I say it, even of man a confirmed covenant no one doth make void or doth add to,"
+    "content": [
+      { "paragraph": true, "text": "Brethren, as a man I say " },
+      { "text": "it", "marks": ["i"] },
+      ", even of man a confirmed covenant no one doth make void or doth add to,"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 16,
-    "content": "and to Abraham were the promises spoken, and to his seed; He doth not say, ‘And to seeds,’ as of many, but as of one, ‘And to thy seed,’ which is Christ;"
+    "content": "and to Abraham were the promises spoken, and to his seed; He doth not say, “And to seeds,” as of many, but as of one, “And to thy seed,” which is Christ;"
   },
   {
     "book": "GAL",
@@ -384,25 +701,53 @@
     "book": "GAL",
     "chapter": 3,
     "verse": 18,
-    "content": "for if by law be the inheritance, it is no more by promise, but to Abraham through promise did God grant it."
+    "content": [
+      "for if by law ",
+      { "text": "be", "marks": ["i"] },
+      " the inheritance, ",
+      { "text": "it is", "marks": ["i"] },
+      " no more by promise, but to Abraham through promise did God grant ",
+      {
+        "text": "it",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "out of law...out of promise, but God has graciously given...through promise",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 19,
-    "content": "Why, then, the law? on account of the transgressions it was added, till the seed might come to which the promise hath been made, having been set in order through messengers in the hand of a mediator-"
+    "content": {
+      "paragraph": true,
+      "text": "Why, then, the law? on account of the transgressions it was added, till the seed might come to which the promise hath been made, having been set in order through messengers in the hand of a mediator—"
+    }
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 20,
-    "content": "and the mediator is not of one, and God is one-"
+    "content": "and the mediator is not of one, and God is one—"
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 21,
-    "content": "the law, then, is against the promises of God?-let it not be! for if a law was given that was able to make alive, truly by law there would have been the righteousness,"
+    "content": [
+      "the law, then, ",
+      { "text": "is", "marks": ["i"] },
+      " against the promises of God?—let it not be! for if a law was given that was able to make alive, truly by law there would have been the righteousness,"
+    ]
   },
   {
     "book": "GAL",
@@ -414,13 +759,16 @@
     "book": "GAL",
     "chapter": 3,
     "verse": 23,
-    "content": "And before the coming of the faith, under law we were being kept, shut up to the faith about to be revealed,"
+    "content": {
+      "paragraph": true,
+      "text": "And before the coming of the faith, under law we were being kept, shut up to the faith about to be revealed,"
+    }
   },
   {
     "book": "GAL",
     "chapter": 3,
     "verse": 24,
-    "content": "so that the law became our child-conductor-to Christ, that by faith we may be declared righteous,"
+    "content": "so that the law became our child-conductor—to Christ, that by faith we may be declared righteous,"
   },
   {
     "book": "GAL",
@@ -432,7 +780,10 @@
     "book": "GAL",
     "chapter": 3,
     "verse": 26,
-    "content": "for ye are all sons of God through the faith in Christ Jesus,"
+    "content": {
+      "paragraph": true,
+      "text": "for ye are all sons of God through the faith in Christ Jesus,"
+    }
   },
   {
     "book": "GAL",
@@ -450,7 +801,11 @@
     "book": "GAL",
     "chapter": 3,
     "verse": 29,
-    "content": "and if ye are of Christ then of Abraham ye are seed, and according to promise-heirs."
+    "content": [
+      "and if ye ",
+      { "text": "are", "marks": ["i"] },
+      " of Christ then of Abraham ye are seed, and according to promise—heirs."
+    ]
   },
   {
     "book": "GAL",
@@ -458,7 +813,25 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And I say, so long time as the heir is a babe, he differeth nothing from a servant-being lord of all,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Chapter IV. May be divided into four parts; ",
+              { "bibleLink": "Galatians 4:1–7", "content": "v. 1–7" },
+              " the heir as a babe and as a son; ",
+              { "bibleLink": "Galatians 4:8–11", "content": "v. 8–11" },
+              " former and present state; ",
+              { "bibleLink": "Galatians 4:12–20", "content": "v. 12–20" },
+              " former and present treatment of Paul; ",
+              { "bibleLink": "Galatians 4:21–31", "content": "v. 21–31" },
+              " simile of the two Covenants."
+            ]
+          }
+        },
+        "And I say, so long time as the heir is a babe, he differeth nothing from a servant—being lord of all,"
+      ]
     }
   },
   {
@@ -489,7 +862,10 @@
     "book": "GAL",
     "chapter": 4,
     "verse": 6,
-    "content": "and because ye are sons, God did send forth the spirit of His Son into your hearts, crying, ‘Abba, Father!’"
+    "content": {
+      "paragraph": true,
+      "text": "and because ye are sons, God did send forth the spirit of His Son into your hearts, crying, “Abba, Father!”"
+    }
   },
   {
     "book": "GAL",
@@ -501,13 +877,16 @@
     "book": "GAL",
     "chapter": 4,
     "verse": 8,
-    "content": "But then, indeed, not having known God, ye were in servitude to those not by nature gods,"
+    "content": {
+      "paragraph": true,
+      "text": "But then, indeed, not having known God, ye were in servitude to those not by nature gods,"
+    }
   },
   {
     "book": "GAL",
     "chapter": 4,
     "verse": 9,
-    "content": "and now, having known God-and rather being known by God-how turn ye again unto the weak and poor elements to which anew ye desire to be in servitude?"
+    "content": "and now, having known God—and rather being known by God—how turn ye again unto the weak and poor elements to which anew ye desire to be in servitude?"
   },
   {
     "book": "GAL",
@@ -525,7 +904,13 @@
     "book": "GAL",
     "chapter": 4,
     "verse": 12,
-    "content": "Become as I am-because I also am as ye brethren, I beseech you; to me ye did no hurt,"
+    "content": [
+      { "paragraph": true, "text": "Become as I " },
+      { "text": "am", "marks": ["i"] },
+      "—because I also ",
+      { "text": "am", "marks": ["i"] },
+      " as ye brethren, I beseech you; to me ye did no hurt,"
+    ]
   },
   {
     "book": "GAL",
@@ -537,7 +922,11 @@
     "book": "GAL",
     "chapter": 4,
     "verse": 14,
-    "content": "and my trial that is in my flesh ye did not despise nor reject, but as a messenger of God ye did receive me-as Christ Jesus;"
+    "content": [
+      "and my trial that ",
+      { "text": "is", "marks": ["i"] },
+      " in my flesh ye did not despise nor reject, but as a messenger of God ye did receive me—as Christ Jesus;"
+    ]
   },
   {
     "book": "GAL",
@@ -555,13 +944,21 @@
     "book": "GAL",
     "chapter": 4,
     "verse": 17,
-    "content": "they are zealous for you-yet not well, but they wish to shut us out, that for them ye may be zealous;"
+    "content": [
+      "they are zealous for you—",
+      { "text": "yet", "marks": ["i"] },
+      " not well, but they wish to shut us out, that for them ye may be zealous;"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 4,
     "verse": 18,
-    "content": "and it is good to be zealously regarded, in what is good, at all times, and not only in my being present with you;"
+    "content": [
+      "and ",
+      { "text": "it is", "marks": ["i"] },
+      " good to be zealously regarded, in what is good, at all times, and not only in my being present with you;"
+    ]
   },
   {
     "book": "GAL",
@@ -579,7 +976,10 @@
     "book": "GAL",
     "chapter": 4,
     "verse": 21,
-    "content": "Tell me, ye who are willing to be under law, the law do ye not hear?"
+    "content": {
+      "paragraph": true,
+      "text": "Tell me, ye who are willing to be under law, the law do ye not hear?"
+    }
   },
   {
     "book": "GAL",
@@ -591,7 +991,13 @@
     "book": "GAL",
     "chapter": 4,
     "verse": 23,
-    "content": "but he who is of the maid-servant, according to flesh hath been, and he who is of the free-woman, through the promise;"
+    "content": [
+      "but he who ",
+      { "text": "is", "marks": ["i"] },
+      " of the maid-servant, according to flesh hath been, and he who ",
+      { "text": "is", "marks": ["i"] },
+      " of the free-woman, through the promise;"
+    ]
   },
   {
     "book": "GAL",
@@ -603,7 +1009,11 @@
     "book": "GAL",
     "chapter": 4,
     "verse": 25,
-    "content": "for this Hagar is mount Sinai in Arabia, and doth correspond to the Jerusalem that now is, and is in servitude with her children,"
+    "content": [
+      "for this Hagar is mount Sinai in Arabia, and doth correspond to the Jerusalem that now ",
+      { "text": "is", "marks": ["i"] },
+      ", and is in servitude with her children,"
+    ]
   },
   {
     "book": "GAL",
@@ -615,13 +1025,23 @@
     "book": "GAL",
     "chapter": 4,
     "verse": 27,
-    "content": "for it hath been written, ‘Rejoice, O barren, who art not bearing; break forth and cry, thou who art not travailing, because many are the children of the desolate-more than of her having the husband.’"
+    "content": [
+      "for it hath been written, “Rejoice, O barren, who art not bearing; break forth and cry, thou who art not travailing, because many ",
+      { "text": "are", "marks": ["i"] },
+      {
+        "text": " the children of the desolate—more than of her having the husband.”",
+        "break": true
+      }
+    ]
   },
   {
     "book": "GAL",
     "chapter": 4,
     "verse": 28,
-    "content": "And we, brethren, as Isaac, are children of promise,"
+    "content": {
+      "paragraph": true,
+      "text": "And we, brethren, as Isaac, are children of promise,"
+    }
   },
   {
     "book": "GAL",
@@ -633,7 +1053,7 @@
     "book": "GAL",
     "chapter": 4,
     "verse": 30,
-    "content": "but what saith the Writing? ‘Cast forth the maid-servant and her son, for the son of the maid-servant may not be heir with the son of the free-woman;’"
+    "content": "but what saith the Writing? “Cast forth the maid-servant and her son, for the son of the maid-servant may not be heir with the son of the free-woman;”"
   },
   {
     "book": "GAL",
@@ -645,16 +1065,42 @@
     "book": "GAL",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "In the freedom, then, with which Christ did make you free-stand ye, and be not held fast again by a yoke of servitude;"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter V. May be divided into six parts; ",
+            { "bibleLink": "Galatians 5:1–6", "content": "v. 1–6" },
+            " warning against circumcision; ",
+            { "bibleLink": "Galatians 5:7–12", "content": "v. 7–12" },
+            " against leavening the whole lump; ",
+            { "bibleLink": "Galatians 5:13–15", "content": "v. 13–15" },
+            " call to freedom and love; ",
+            { "bibleLink": "Galatians 5:16–18", "content": "v. 16–18" },
+            " to oppose the flesh; ",
+            { "bibleLink": "Galatians 5:19–21", "content": "v. 19–21" },
+            " works of the flesh; ",
+            { "bibleLink": "Galatians 5:22–26", "content": "v. 22–26" },
+            " and of the spirit."
+          ]
+        }
+      },
+      { "heading": "Commends the New Life" },
+      {
+        "paragraph": true,
+        "text": "In the freedom, then, with which Christ did make you free—stand ye, and be not held fast again by a yoke of servitude;"
+      }
+    ]
   },
   {
     "book": "GAL",
     "chapter": 5,
     "verse": 2,
-    "content": "lo, I Paul do say to you, that if ye be circumcised, Christ shall profit you nothing;"
+    "content": {
+      "paragraph": true,
+      "text": "lo, I Paul do say to you, that if ye be circumcised, Christ shall profit you nothing;"
+    }
   },
   {
     "book": "GAL",
@@ -684,13 +1130,20 @@
     "book": "GAL",
     "chapter": 5,
     "verse": 7,
-    "content": "Ye were running well; who did hinder you-not to obey the truth?"
+    "content": {
+      "paragraph": true,
+      "text": "Ye were running well; who did hinder you—not to obey the truth?"
+    }
   },
   {
     "book": "GAL",
     "chapter": 5,
     "verse": 8,
-    "content": "the obedience is not of him who is calling you!"
+    "content": [
+      "the obedience ",
+      { "text": "is", "marks": ["i"] },
+      " not of him who is calling you!"
+    ]
   },
   {
     "book": "GAL",
@@ -720,31 +1173,37 @@
     "book": "GAL",
     "chapter": 5,
     "verse": 13,
-    "content": "For ye-to freedom ye were called, brethren, only not the freedom for an occasion to the flesh, but through the love serve ye one another,"
+    "content": {
+      "paragraph": true,
+      "text": "For ye—to freedom ye were called, brethren, only not the freedom for an occasion to the flesh, but through the love serve ye one another,"
+    }
   },
   {
     "book": "GAL",
     "chapter": 5,
     "verse": 14,
-    "content": "for all the law in one word is fulfilled-in this: ‘Thou shalt love thy neighbour as thyself;’"
+    "content": "for all the law in one word is fulfilled—in this: “Thou shalt love thy neighbour as thyself;”"
   },
   {
     "book": "GAL",
     "chapter": 5,
     "verse": 15,
-    "content": "and if one another ye do bite and devour, see-that ye may not by one another be consumed."
+    "content": "and if one another ye do bite and devour, see—that ye may not by one another be consumed."
   },
   {
     "book": "GAL",
     "chapter": 5,
     "verse": 16,
-    "content": "And I say: In the Spirit walk ye, and the desire of the flesh ye may not complete;"
+    "content": {
+      "paragraph": true,
+      "text": "And I say: In the Spirit walk ye, and the desire of the flesh ye may not complete;"
+    }
   },
   {
     "book": "GAL",
     "chapter": 5,
     "verse": 17,
-    "content": "for the flesh doth desire contrary to the Spirit, and the Spirit contrary to the flesh, and these are opposed one to another, that the things that ye may will-these ye may not do;"
+    "content": "for the flesh doth desire contrary to the Spirit, and the Spirit contrary to the flesh, and these are opposed one to another, that the things that ye may will—these ye may not do;"
   },
   {
     "book": "GAL",
@@ -762,7 +1221,23 @@
     "book": "GAL",
     "chapter": 5,
     "verse": 20,
-    "content": "idolatry, witchcraft, hatred, strifes, emulations, wraths, rivalries, dissensions, sects,"
+    "content": [
+      "idolatry, ",
+      {
+        "text": "witchcraft",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "pharmacy, enmity, strifes, zeals, desires, strivings, dissensions, opinions (or sects)",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", hatred, strifes, emulations, wraths, rivalries, dissensions, sects,"
+    ]
   },
   {
     "book": "GAL",
@@ -780,7 +1255,17 @@
     "book": "GAL",
     "chapter": 5,
     "verse": 23,
-    "content": "meekness, temperance: against such there is no law;"
+    "content": [
+      "meekness, ",
+      {
+        "text": "temperance",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "inward power", "marks": ["i"] }]
+        }
+      },
+      ": against such there is no law;"
+    ]
   },
   {
     "book": "GAL",
@@ -792,34 +1277,99 @@
     "book": "GAL",
     "chapter": 5,
     "verse": 25,
-    "content": "if we may live in the Spirit, in the Spirit also we may walk;"
+    "content": {
+      "paragraph": true,
+      "text": "if we may live in the Spirit, in the Spirit also we may walk;"
+    }
   },
   {
     "book": "GAL",
     "chapter": 5,
     "verse": 26,
-    "content": "let us not become vain-glorious-one another provoking, one another envying!"
+    "content": [
+      "let us not become vain-glorious—one another ",
+      {
+        "text": "provoking",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...calling forward one another...", "marks": ["i"] }
+          ]
+        }
+      },
+      ", one another envying!"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Brethren, if a man also may be overtaken in any trespass, ye who are spiritual restore such a one in a spirit of meekness, considering thyself-lest thou also may be tempted;"
-    }
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Chapter VI. May be divided into five parts; ",
+            { "bibleLink": "Galatians 6:1–5", "content": "v. 1–5" },
+            " on forbearance, mutual help, pride; ",
+            { "bibleLink": "Galatians 6:6–10", "content": "v. 6–10" },
+            " mutual fellowship, practical results, due reward; ",
+            { "bibleLink": "Galatians 6:11–18", "content": "v. 11–18" },
+            " motives of Judaizers; ",
+            { "bibleLink": "Galatians 6:14–16", "content": "v. 14–16" },
+            " and of Paul, with Christian blessings; ",
+            { "bibleLink": "Galatians 6:17, 18", "content": "v. 17, 18" },
+            " emphatic conclusion and benediction."
+          ]
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Brethren, if a man also may be overtaken in any trespass, ye who "
+      },
+      { "text": "are", "marks": ["i"] },
+      {
+        "text": " spiritual restore such a one in a spirit of meekness, considering thyself—lest thou also may be tempted;"
+      }
+    ]
   },
   {
     "book": "GAL",
     "chapter": 6,
     "verse": 2,
-    "content": "of one another the burdens bear ye, and so fill up the law of the Christ,"
+    "content": [
+      "of one another the ",
+      {
+        "text": "burdens",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "weighty things", "marks": ["i"] }]
+        }
+      },
+      " bear ye, and so fill up the law of the Christ,"
+    ]
   },
   {
     "book": "GAL",
     "chapter": 6,
     "verse": 3,
-    "content": "for if any one doth think himself to be something-being nothing-himself he doth deceive;"
+    "content": [
+      "for if any one doth think ",
+      { "text": "himself", "marks": ["i"] },
+      " to be something—being nothing—",
+      {
+        "text": "himself he doth deceive",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "...deceiveth his own mind", "marks": ["i"] }
+          ]
+        }
+      },
+      ";"
+    ]
   },
   {
     "book": "GAL",
@@ -837,13 +1387,16 @@
     "book": "GAL",
     "chapter": 6,
     "verse": 6,
-    "content": "And let him who is instructed in the word share with him who is instructing-in all good things."
+    "content": {
+      "paragraph": true,
+      "text": "And let him who is instructed in the word share with him who is instructing—in all good things."
+    }
   },
   {
     "book": "GAL",
     "chapter": 6,
     "verse": 7,
-    "content": "Be not led astray; God is not mocked; for what a man may sow-that also he shall reap,"
+    "content": "Be not led astray; God is not mocked; for what a man may sow—that also he shall reap,"
   },
   {
     "book": "GAL",
@@ -855,7 +1408,23 @@
     "book": "GAL",
     "chapter": 6,
     "verse": 9,
-    "content": "and in the doing good we may not be faint-hearted, for at the proper time we shall reap-not desponding;"
+    "content": [
+      "and in the doing good we may not be ",
+      {
+        "text": "faint-hearted",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            {
+              "text": "act badly in doing that which is good or right, for in (its) own season we shall reap, not being loosed out",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      ", for at the proper time we shall reap—not desponding;"
+    ]
   },
   {
     "book": "GAL",
@@ -867,13 +1436,16 @@
     "book": "GAL",
     "chapter": 6,
     "verse": 11,
-    "content": "Ye see in how large letters I have written to you with my own hand;"
+    "content": {
+      "paragraph": true,
+      "text": "Ye see in how large letters I have written to you with my own hand;"
+    }
   },
   {
     "book": "GAL",
     "chapter": 6,
     "verse": 12,
-    "content": "as many as are willing to make a good appearance in the flesh, these constrain you to be circumcised-only that for the cross of the Christ they may not be persecuted,"
+    "content": "as many as are willing to make a good appearance in the flesh, these constrain you to be circumcised—only that for the cross of the Christ they may not be persecuted,"
   },
   {
     "book": "GAL",
@@ -885,7 +1457,7 @@
     "book": "GAL",
     "chapter": 6,
     "verse": 14,
-    "content": "And for me, let it not be-to glory, except in the cross of our Lord Jesus Christ, through which to me the world hath been crucified, and I to the world;"
+    "content": "And for me, let it not be—to glory, except in the cross of our Lord Jesus Christ, through which to me the world hath been crucified, and I to the world;"
   },
   {
     "book": "GAL",
@@ -897,18 +1469,25 @@
     "book": "GAL",
     "chapter": 6,
     "verse": 16,
-    "content": "and as many as by this rule do walk-peace upon them, and kindness, and on the Israel of God!"
+    "content": "and as many as by this rule do walk—peace upon them, and kindness, and on the Israel of God!"
   },
   {
     "book": "GAL",
     "chapter": 6,
     "verse": 17,
-    "content": "Henceforth, let no one give me trouble, for I the scars of the Lord Jesus in my body do bear."
+    "content": {
+      "paragraph": true,
+      "text": "Henceforth, let no one give me trouble, for I the scars of the Lord Jesus in my body do bear."
+    }
   },
   {
     "book": "GAL",
     "chapter": 6,
     "verse": 18,
-    "content": "The grace of our Lord Jesus Christ is with your spirit, brethren! Amen."
+    "content": [
+      "The grace of our Lord Jesus Christ ",
+      { "text": "is", "marks": ["i"] },
+      " with your spirit, brethren! Amen."
+    ]
   }
 ]

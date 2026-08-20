@@ -5,32 +5,214 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Judas, of Jesus Christ a servant, and brother of James, to those sanctified in God the Father, and in Jesus Christ kept-called,"
+      "content": [
+        {
+          "foot": {
+            "type": "stu",
+            "content": [
+              "Jude—or rather Judas—the writer of this Letter was probably that one of the twelve apostles referred to in ",
+              { "bibleLink": "John 14:22", "content": "John 14. 22" },
+              ", and elsewhere called Lebbeus and Thaddeus (",
+              { "text": "lit.", "marks": ["i"] },
+              {
+                "text": " one with a heart, i.e. a bold man). His brother James, to whom he refers in the opening of his Letter, was doubtless the one who spoke at the Jerusalem Council. This Letter is quoted or referred to by Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), Origen (A.D. 230), Eusebius (A.D. 320), Jerome (A.D. 392), Ephraim Syrus (A.D. 370). It was evidently written a little before the destruction of Jerusalem.",
+                "break": true
+              },
+              "This Letter may be divided into eight parts; ",
+              { "bibleLink": "John 14:1, 2", "content": "v. 1, 2" },
+              " address and salutation; ",
+              { "bibleLink": "John 14:3–7", "content": "v. 3–7" },
+              " exhortation to contend for the faith, against certain impious men, from God’s past dealings; ",
+              { "bibleLink": "John 14:8–11", "content": "v. 8–11" },
+              " their presumption and carnality; ",
+              { "bibleLink": "John 14:12, 13", "content": "v. 12, 13" },
+              " their dangerous character and end; ",
+              { "bibleLink": "John 14:14, 15", "content": "v. 14, 15" },
+              " like those to whom Enoch prophesied; ",
+              { "bibleLink": "John 14:16–19", "content": "v. 16–19" },
+              " and they themselves spoken of beforehand by the apostles; ",
+              { "bibleLink": "John 14:20–23", "content": "v. 20–23" },
+              " call to build themselves up, to wait for the kindness of Christ, and to help others; ",
+              { "bibleLink": "John 14:24, 25", "content": "v. 24, 25" },
+              " ascription of praise to God."
+            ]
+          }
+        },
+        "Judas",
+        ", of ",
+        {
+          "text": "Jesus Christ",
+          "foot": { "type": "stu", "content": ["an “anointed saviour.”"] }
+        },
+        " a ",
+        {
+          "text": "servant",
+          "foot": {
+            "type": "trn",
+            "content": ["Lit., ", { "text": "a bondsman", "marks": ["i"] }]
+          }
+        },
+        ", and ",
+        {
+          "text": "brother",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "Lit., ",
+              { "text": "one from the same womb.", "marks": ["i"] }
+            ]
+          }
+        },
+        " of ",
+        {
+          "text": "James",
+          "foot": {
+            "type": "stu",
+            "content": [
+              { "text": "Gr.", "marks": ["i"] },
+              " Jacobus, same as ",
+              { "text": "Heb.", "marks": ["i"] },
+              " Jacob, “one who takes by the heel,” i.e. supplants; he is called the Less or Little (",
+              { "bibleLink": "Mark 15:40", "content": "Mark 15. 40" },
+              "; ",
+              { "bibleLink": "Luke 6:16", "content": "Luke 6. 16" },
+              "; ",
+              { "bibleLink": "James 1:1", "content": "Jas. 1. 1" },
+              "), probably because of his stature."
+            ]
+          }
+        },
+        ", to those ",
+        {
+          "text": "sanctified",
+          "foot": {
+            "type": "var",
+            "content": [
+              "Textual note: ",
+              {
+                "text": "set-apart (lit. “not of the earth,” but many MSS. read, “beloved,”)",
+                "marks": ["i"]
+              }
+            ]
+          }
+        },
+        " in God the Father, and in Jesus Christ kept—",
+        {
+          "text": "called",
+          "foot": {
+            "type": "stu",
+            "content": [
+              "same as ",
+              { "text": "Heb.", "marks": ["i"] },
+              " Judah, “praise, confession.”"
+            ]
+          }
+        },
+        ","
+      ]
     }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 2,
-    "content": "kindness to you, and peace, and love, be multiplied!"
+    "content": [
+      "kindness to you, and ",
+      {
+        "text": "peace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "what brings into unity.", "marks": ["i"] }
+          ]
+        }
+      },
+      ", and love, be multiplied!"
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 3,
-    "content": "Beloved, all diligence using to write to you concerning the common salvation, I had necessity to write to you, exhorting to agonize for the faith once delivered to the saints,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Beloved, all diligence using to write to you concerning the common salvation, I had necessity to write to you, exhorting to "
+      },
+      {
+        "text": "agonize",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "agonize-openly", "marks": ["i"] }]
+        }
+      },
+      " for the faith once delivered to the ",
+      {
+        "text": "saints",
+        "foot": { "type": "stu", "content": ["those “out of the earth.”"] }
+      },
+      ","
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 4,
-    "content": "for there did come in unobserved certain men, long ago having been written beforehand to this judgment, impious, the grace of our God perverting to lasciviousness, and our only Master, God, and Lord-Jesus Christ-denying,"
+    "content": [
+      "for there did come in ",
+      {
+        "text": "unobserved",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "along-side", "marks": ["i"] }]
+        }
+      },
+      " certain men, long ago having been ",
+      {
+        "text": "written",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "publicly described", "marks": ["i"] }
+          ]
+        }
+      },
+      " beforehand to this judgment, impious, the grace of our God perverting to lasciviousness, and our only ",
+      {
+        "text": "Master",
+        "foot": { "type": "stu", "content": ["the only despot,"] }
+      },
+      ", God, and Lord—Jesus Christ—denying,"
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 5,
-    "content": "and to remind you I intend, you knowing once this, that the Lord, a people out of the land of Egypt having saved, again those who did not believe did destroy;"
+    "content": [
+      { "paragraph": true, "text": "and to " },
+      {
+        "text": "remind",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "remind you somewhat or a little", "marks": ["i"] }
+          ]
+        }
+      },
+      " you I intend, you knowing once this, that the Lord, a people out of the land of Egypt having saved, again those who did not believe did ",
+      {
+        "text": "destroy",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "loosed away", "marks": ["i"] }]
+        }
+      },
+      ";"
+    ]
   },
   {
     "book": "JUD",
@@ -42,19 +224,66 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 7,
-    "content": "as Sodom and Gomorrah, and the cities around them, in like manner to these, having given themselves to whoredom, and gone after other flesh, have been set before-an example, of fire age-during, justice suffering."
+    "content": "as Sodom and Gomorrah, and the cities around them, in like manner to these, having given themselves to whoredom, and gone after other flesh, have been set before—an example, of fire age-during, justice suffering."
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 8,
-    "content": "In like manner, nevertheless, those dreaming also the flesh indeed do defile, and lordship they put away, and dignities they speak evil of,"
+    "content": [
+      { "paragraph": true, "text": "In like manner, nevertheless, those " },
+      {
+        "text": "dreaming",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "putting themselves in a sleep", "marks": ["i"] }
+          ]
+        }
+      },
+      " also the flesh indeed do defile, and lordship they put away, and ",
+      {
+        "text": "dignities",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "glories", "marks": ["i"] }]
+        }
+      },
+      " they speak evil of,"
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 9,
-    "content": "yet Michael, the chief messenger, when, with the devil contending, he was disputing about the body of Moses, did not dare to bring up an evil-speaking judgment, but said, ‘The Lord rebuke thee!’"
+    "content": [
+      "yet ",
+      {
+        "text": "Michael",
+        "foot": { "type": "stu", "content": ["who is like God?"] }
+      },
+      ", the chief messenger, when, with the devil contending, he was disputing about the body of ",
+      {
+        "text": "Moses",
+        "foot": {
+          "type": "stu",
+          "content": ["the Jewish church, comp. the “body of Christ,”"]
+        }
+      },
+      ", did not dare to bring up an evil-speaking judgment, but said, “The Lord ",
+      {
+        "text": "rebuke",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "put a weight upon thee!", "marks": ["i"] }
+          ]
+        }
+      },
+      " thee!”"
+    ]
   },
   {
     "book": "JUD",
@@ -66,7 +295,20 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 11,
-    "content": "woe to them! because in the way of Cain they did go on, and to the deceit of Balaam for reward they did rush, and in the gainsaying of Korah they did perish."
+    "content": [
+      "woe to them! because in the way of Cain they did go on, and to the deceit of Balaam for reward they did rush, and in the gainsaying of Korah they did ",
+      {
+        "text": "perish",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "loosed themselves away", "marks": ["i"] }
+          ]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "JUD",
@@ -78,37 +320,87 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 13,
-    "content": "wild waves of a sea, foaming out their own shames; stars going astray, to whom the gloom of the darkness to the age hath been kept."
+    "content": [
+      {
+        "text": "wild",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "field", "marks": ["i"] }]
+        }
+      },
+      " waves of a sea, foaming out their own shames; stars going astray, to whom the gloom of the darkness to the age hath been kept."
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 14,
-    "content": "And prophesy also to these did the seventh from Adam-Enoch-saying, ‘Lo, the Lord did come in His saintly myriads,"
+    "content": {
+      "paragraph": true,
+      "text": "And prophesy also to these did the seventh from Adam—Enoch—saying, “Lo, the Lord did come in His saintly myriads,"
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 15,
-    "content": "to do judgment against all, and to convict all their impious ones, concerning all their works of impiety that they did impiously, and concerning all the stiff things that speak against Him did impious sinners.’"
+    "content": [
+      "to do judgment against all, and to convict all their impious ones, concerning all their works of impiety that they did impiously, and concerning all the ",
+      {
+        "text": "stiff",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "dry things", "marks": ["i"] }]
+        }
+      },
+      " things that speak against Him did impious sinners.”"
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 16,
-    "content": "These are murmurers, repiners; according to their desires walking, and their mouth doth speak great swellings, giving admiration to persons for the sake of profit;"
+    "content": {
+      "paragraph": true,
+      "text": "These are murmurers, repiners; according to their desires walking, and their mouth doth speak great swellings, giving admiration to persons for the sake of profit;"
+    }
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 17,
-    "content": "and ye, beloved, remember ye the sayings spoken before by the apostles of our Lord Jesus Christ:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "and ye, beloved, remember ye the sayings spoken before "
+      },
+      {
+        "text": "by",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "under", "marks": ["i"] }]
+        }
+      },
+      " the apostles of our Lord Jesus Christ:"
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 18,
-    "content": "that they said to you, that in the last time there shall be scoffers, after their own desires of impieties going on,"
+    "content": [
+      "that they said to you, that in the ",
+      {
+        "text": "last time",
+        "foot": { "type": "stu", "content": ["of the Jewish dispensation"] }
+      },
+      " there shall be ",
+      {
+        "text": "scoffers",
+        "foot": { "type": "stu", "content": ["those acting inwardly as boys"] }
+      },
+      ", after their own desires of impieties going on,"
+    ]
   },
   {
     "book": "JUD",
@@ -120,13 +412,26 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 20,
-    "content": "And ye, beloved, on your most holy faith building yourselves up, in the Holy Spirit praying,"
+    "content": [
+      "And ye, beloved, on your most holy faith building yourselves up, in the Holy Spirit ",
+      {
+        "text": "praying",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Lit., ",
+            { "text": "pouring yourselves forth well", "marks": ["i"] }
+          ]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 21,
-    "content": "yourselves in the love of God keep ye, waiting for the kindness of our Lord Jesus Christ-to life age-during;"
+    "content": "yourselves in the love of God keep ye, waiting for the kindness of our Lord Jesus Christ—to life age-during;"
   },
   {
     "book": "JUD",
@@ -138,18 +443,52 @@
     "book": "JUD",
     "chapter": 1,
     "verse": 23,
-    "content": "and some in fear save ye, out of the fire snatching, hating even the coat from the flesh spotted."
+    "content": [
+      "and some in fear ",
+      {
+        "text": "save",
+        "foot": { "type": "stu", "content": ["trying to save"] }
+      },
+      " ye, out of the fire snatching, hating even the coat from the flesh spotted."
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 24,
-    "content": "And to Him who is able to guard you not stumbling, and to set you in the presence of His glory unblemished, in gladness,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And to Him who is able to guard you not stumbling, and to set "
+      },
+      { "text": "you", "marks": ["i"] },
+      " in the presence of His glory unblemished, in ",
+      {
+        "text": "gladness",
+        "foot": {
+          "type": "trn",
+          "content": ["Lit., ", { "text": "much leaping.", "marks": ["i"] }]
+        }
+      },
+      ","
+    ]
   },
   {
     "book": "JUD",
     "chapter": 1,
     "verse": 25,
-    "content": "to the only wise God our Saviour, is glory and greatness, power and authority, both now and to all the ages! Amen."
+    "content": [
+      "to the only wise God our Saviour, ",
+      { "text": "is", "marks": ["i"] },
+      " glory and greatness, ",
+      {
+        "text": "power",
+        "foot": {
+          "type": "xrf",
+          "content": ["See ", { "bibleLink": "1 Timothy 1:17" }]
+        }
+      },
+      " and authority, both now and to all the ages! Amen."
+    ]
   }
 ]

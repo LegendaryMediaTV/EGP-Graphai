@@ -4,7 +4,7 @@
     "chapter": 1,
     "verse": 1,
     "content": [
-      { "text": "How doth the city", "strong": "H5892" },
+      { "paragraph": true, "text": "How doth the city", "strong": "H5892" },
       { "text": " sit", "strong": "H3427", "morph": "QalPerf" },
       { "text": " solitary,", "break": true, "strong": "H910" },
       {
@@ -991,7 +991,7 @@
     "chapter": 2,
     "verse": 1,
     "content": [
-      { "text": "How hath the Lord", "strong": "H136" },
+      { "paragraph": true, "text": "How hath the Lord", "strong": "H136" },
       { "text": " covered", "break": true, "strong": "H5743" },
       { "text": "The daughter", "strong": "H1323" },
       { "text": " of Zion", "strong": "H6726" },
@@ -1866,6 +1866,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": ["I ", { "text": "am", "marks": ["i"] }, " the man"],
         "strong": "H1397"
       },
@@ -3146,7 +3147,7 @@
     "chapter": 4,
     "verse": 1,
     "content": [
-      { "text": "How is the gold", "strong": "H2091" },
+      { "paragraph": true, "text": "How is the gold", "strong": "H2091" },
       {
         "text": " become dim!",
         "break": true,
@@ -3786,7 +3787,12 @@
     "chapter": 5,
     "verse": 1,
     "content": [
-      { "text": "Remember,", "strong": "H2142", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Remember,",
+        "strong": "H2142",
+        "morph": "QalImpv"
+      },
       {
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"

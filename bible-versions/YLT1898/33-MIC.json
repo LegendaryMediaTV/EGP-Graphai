@@ -12,7 +12,13 @@
     "book": "MIC",
     "chapter": 1,
     "verse": 2,
-    "content": "Hear, O peoples, all of them! Attend, O earth, and its fulness, And the Lord Jehovah is against you for a witness, The Lord from His holy temple."
+    "content": [
+      { "heading": "The House of Israel" },
+      {
+        "paragraph": true,
+        "text": "Hear, O peoples, all of them! Attend, O earth, and its fulness, And the Lord Jehovah is against you for a witness, The Lord from His holy temple."
+      }
+    ]
   },
   {
     "book": "MIC",
@@ -30,7 +36,13 @@
     "book": "MIC",
     "chapter": 1,
     "verse": 5,
-    "content": "For the transgression of Jacob is all this, And for the sins of the house of Israel. What is the transgression of Jacob? Is it not Samaria? And what the high places of Judah? Is it not Jerusalem?"
+    "content": [
+      "For the transgression of Jacob ",
+      { "text": "is", "marks": ["i"] },
+      " all this, And for the sins of the house of Israel. What ",
+      { "text": "is", "marks": ["i"] },
+      " the transgression of Jacob? Is it not Samaria? And what the high places of Judah? Is it not Jerusalem?"
+    ]
   },
   {
     "book": "MIC",
@@ -54,13 +66,23 @@
     "book": "MIC",
     "chapter": 1,
     "verse": 9,
-    "content": "For mortal are her wounds, For it hath come unto Judah, It hath come to a gate of My people-to Jerusalem."
+    "content": [
+      "For mortal ",
+      { "text": "are", "marks": ["i"] },
+      " her wounds, For it hath come unto Judah, It hath come to a gate of My people—to Jerusalem."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 1,
     "verse": 10,
-    "content": "In Gath tell ye not-in Acco weep not, In Beth-Aphrah, in dust roll thyself."
+    "content": [
+      { "heading": "The House of Judah" },
+      {
+        "paragraph": true,
+        "text": "In Gath tell ye not—in Acco weep not, In Beth-Aphrah, in dust roll thyself."
+      }
+    ]
   },
   {
     "book": "MIC",
@@ -78,7 +100,11 @@
     "book": "MIC",
     "chapter": 1,
     "verse": 13,
-    "content": "Bind the chariot to a swift beast, O inhabitant of Lachish, The beginning of sin is she to the daughter of Zion, For in thee have been found the transgressions of Israel."
+    "content": [
+      "Bind the chariot to a swift beast, O inhabitant of Lachish, The beginning of sin ",
+      { "text": "is", "marks": ["i"] },
+      " she to the daughter of Zion, For in thee have been found the transgressions of Israel."
+    ]
   },
   {
     "book": "MIC",
@@ -102,10 +128,12 @@
     "book": "MIC",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Woe to those devising iniquity, And working evil on their beds, In the light of the morning they do it, For their hand is-to God."
-    }
+    "content": [
+      { "heading": "To Men in Power" },
+      { "paragraph": true, "text": "Woe " },
+      { "text": "to", "marks": ["i"] },
+      " those devising iniquity, And working evil on their beds, In the light of the morning they do it, For their hand is—to God."
+    ]
   },
   {
     "book": "MIC",
@@ -117,13 +145,21 @@
     "book": "MIC",
     "chapter": 2,
     "verse": 3,
-    "content": "Therefore, thus said Jehovah: Lo, I am devising against this family evil, From which ye do not remove your necks, Nor walk loftily, for a time of evil it is."
+    "content": [
+      "Therefore, thus said Jehovah: Lo, I am devising against this family evil, From which ye do not remove your necks, Nor walk loftily, for a time of evil it ",
+      { "text": "is", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 2,
     "verse": 4,
-    "content": "In that day doth one take up for you a simile, And he hath wailed a wailing of woe, He hath said, We have been utterly spoiled, The portion of my people He doth change, How doth He move toward me! To the backslider our fields He apportioneth."
+    "content": [
+      { "paragraph": true, "text": "In that day doth " },
+      { "text": "one", "marks": ["i"] },
+      " take up for you a simile, And he hath wailed a wailing of woe, He hath said, We have been utterly spoiled, The portion of my people He doth change, How doth He move toward me! To the backslider our fields He apportioneth."
+    ]
   },
   {
     "book": "MIC",
@@ -135,13 +171,16 @@
     "book": "MIC",
     "chapter": 2,
     "verse": 6,
-    "content": "Ye do not prophesy-they do prophesy, They do not prophesy to these, It doth not remove shame."
+    "content": "Ye do not prophesy—they do prophesy, They do not prophesy to these, It doth not remove shame."
   },
   {
     "book": "MIC",
     "chapter": 2,
     "verse": 7,
-    "content": "Doth the house of Jacob say, ‘Hath the Spirit of Jehovah been shortened? Are these His doings?’ Do not My words benefit the people that is walking uprightly?"
+    "content": {
+      "paragraph": true,
+      "text": "Doth the house of Jacob say, “Hath the Spirit of Jehovah been shortened? Are these His doings?” Do not My words benefit the people that is walking uprightly?"
+    }
   },
   {
     "book": "MIC",
@@ -159,19 +198,32 @@
     "book": "MIC",
     "chapter": 2,
     "verse": 10,
-    "content": "Rise and go, for this is not the rest, Because of uncleanness it doth corrupt, And corruption is powerful."
+    "content": [
+      "Rise and go, for this ",
+      { "text": "is", "marks": ["i"] },
+      " not the rest, Because of uncleanness it doth corrupt, And corruption is powerful."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 2,
     "verse": 11,
-    "content": "If one is going with the wind, And with falsehood hath lied: ‘I prophesy to thee of wine, and of strong drink,’ He hath been the prophet of this people!"
+    "content": [
+      "If one is going ",
+      { "text": "with", "marks": ["i"] },
+      " the wind, And ",
+      { "text": "with", "marks": ["i"] },
+      " falsehood hath lied: “I prophesy to thee of wine, and of strong drink,” He hath been the prophet of this people!"
+    ]
   },
   {
     "book": "MIC",
     "chapter": 2,
     "verse": 12,
-    "content": "I do surely gather thee, O Jacob, all of thee, I surely bring together the remnant of Israel, Together I do set it as the flock of Bozrah, As a drove in the midst of its pasture, It maketh a noise because of man."
+    "content": {
+      "paragraph": true,
+      "text": "I do surely gather thee, O Jacob, all of thee, I surely bring together the remnant of Israel, Together I do set it as the flock of Bozrah, As a drove in the midst of its pasture, It maketh a noise because of man."
+    }
   },
   {
     "book": "MIC",
@@ -183,10 +235,13 @@
     "book": "MIC",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And I say, ‘Hear, I pray you, heads of Jacob, And ye judges of the house of Israel, Is it not for you to know the judgment?"
-    }
+    "content": [
+      { "heading": "Jerusalem, City of Blood" },
+      {
+        "paragraph": true,
+        "text": "And I say, “Hear, I pray you, heads of Jacob, And ye judges of the house of Israel, Is it not for you to know the judgment?"
+      }
+    ]
   },
   {
     "book": "MIC",
@@ -198,7 +253,11 @@
     "book": "MIC",
     "chapter": 3,
     "verse": 3,
-    "content": "And who have eaten the flesh of My people, And their skin from off them have stript, And their bones they have broken, And they have spread them out as in a pot, And as flesh in the midst of a caldron."
+    "content": [
+      "And who have eaten the flesh of My people, And their skin from off them have stript, And their bones they have broken, And they have spread ",
+      { "text": "them", "marks": ["i"] },
+      " out as in a pot, And as flesh in the midst of a caldron."
+    ]
   },
   {
     "book": "MIC",
@@ -210,7 +269,10 @@
     "book": "MIC",
     "chapter": 3,
     "verse": 5,
-    "content": "Thus said Jehovah concerning the prophets Who are causing My people to err, Who are biting with their teeth, And have cried ‘Peace,’ And he who doth not give unto their mouth, They have sanctified against him war."
+    "content": {
+      "paragraph": true,
+      "text": "Thus said Jehovah concerning the prophets Who are causing My people to err, Who are biting with their teeth, And have cried “Peace,” And he who doth not give unto their mouth, They have sanctified against him war."
+    }
   },
   {
     "book": "MIC",
@@ -228,13 +290,19 @@
     "book": "MIC",
     "chapter": 3,
     "verse": 8,
-    "content": "And yet I have been full of power by the Spirit of Jehovah, And of judgment, and of might, To declare to Jacob his transgression, And to Israel his sin."
+    "content": {
+      "paragraph": true,
+      "text": "And yet I have been full of power by the Spirit of Jehovah, And of judgment, and of might, To declare to Jacob his transgression, And to Israel his sin."
+    }
   },
   {
     "book": "MIC",
     "chapter": 3,
     "verse": 9,
-    "content": "Hear this, I pray you, heads of the house of Jacob, And ye judges of the house of Israel, Who are making judgment abominable, And all uprightness do pervert."
+    "content": {
+      "paragraph": true,
+      "text": "Hear this, I pray you, heads of the house of Jacob, And ye judges of the house of Israel, Who are making judgment abominable, And all uprightness do pervert."
+    }
   },
   {
     "book": "MIC",
@@ -246,22 +314,29 @@
     "book": "MIC",
     "chapter": 3,
     "verse": 11,
-    "content": "Her heads for a bribe do judge, And her priests for hire do teach, And her prophets for silver divine, And on Jehovah they lean, saying, ‘Is not Jehovah in our midst? Evil doth not come in upon us.’"
+    "content": "Her heads for a bribe do judge, And her priests for hire do teach, And her prophets for silver divine, And on Jehovah they lean, saying, “Is not Jehovah in our midst? Evil doth not come in upon us.”"
   },
   {
     "book": "MIC",
     "chapter": 3,
     "verse": 12,
-    "content": "Therefore, for your sake, Zion is ploughed a field, and Jerusalem is heaps, And the mount of the house is for high places of a forest!"
+    "content": [
+      "Therefore, for your sake, Zion is ploughed a field, and Jerusalem is heaps, And the mount of the house ",
+      { "text": "is", "marks": ["i"] },
+      " for high places of a forest!"
+    ]
   },
   {
     "book": "MIC",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And it hath come to pass, In the latter end of the days, The mount of the house of Jehovah Is established above the top of the mounts, And it hath been lifted up above the hills, And flowed unto it have peoples."
-    }
+    "content": [
+      { "heading": "Jerusalem, City of God" },
+      {
+        "paragraph": true,
+        "text": "And it hath come to pass, In the latter end of the days, The mount of the house of Jehovah Is established above the top of the mounts, And it hath been lifted up above the hills, And flowed unto it have peoples."
+      }
+    ]
   },
   {
     "book": "MIC",
@@ -285,13 +360,16 @@
     "book": "MIC",
     "chapter": 4,
     "verse": 5,
-    "content": "For all the peoples do walk, Each in the name of its god-and we, We do walk in the name of Jehovah our God, To the age and for ever."
+    "content": "For all the peoples do walk, Each in the name of its god—and we, We do walk in the name of Jehovah our God, To the age and for ever."
   },
   {
     "book": "MIC",
     "chapter": 4,
     "verse": 6,
-    "content": "In that day-an affirmation of Jehovah, I do gather the halting one, And the driven away one I bring together, And she whom I have afflicted."
+    "content": {
+      "paragraph": true,
+      "text": "In that day—an affirmation of Jehovah, I do gather the halting one, And the driven away one I bring together, And she whom I have afflicted."
+    }
   },
   {
     "book": "MIC",
@@ -309,7 +387,10 @@
     "book": "MIC",
     "chapter": 4,
     "verse": 9,
-    "content": "Now, why dost thou shout aloud? A king-is there none in thee? Hath thy counsellor perished, That taken hold of thee hath pain as a travailing woman?"
+    "content": {
+      "paragraph": true,
+      "text": "Now, why dost thou shout aloud? A king—is there none in thee? Hath thy counsellor perished, That taken hold of thee hath pain as a travailing woman?"
+    }
   },
   {
     "book": "MIC",
@@ -321,13 +402,20 @@
     "book": "MIC",
     "chapter": 4,
     "verse": 11,
-    "content": "And now, gathered against thee have been many nations, who are saying: ‘Let her be defiled, and our eyes look on Zion.’"
+    "content": {
+      "paragraph": true,
+      "text": "And now, gathered against thee have been many nations, who are saying: “Let her be defiled, and our eyes look on Zion.”"
+    }
   },
   {
     "book": "MIC",
     "chapter": 4,
     "verse": 12,
-    "content": "They have not known the thoughts of Jehovah, Nor have they understood His counsel, For He hath gathered them as a sheaf into a threshing-floor."
+    "content": [
+      "They have not known the thoughts of Jehovah, Nor have they understood His counsel, For He hath gathered them as a sheaf ",
+      { "text": "into", "marks": ["i"] },
+      " a threshing-floor."
+    ]
   },
   {
     "book": "MIC",
@@ -348,7 +436,15 @@
     "book": "MIC",
     "chapter": 5,
     "verse": 2,
-    "content": "And thou, Beth-Lehem Ephratah, Little to be among the chiefs of Judah! From thee to Me he cometh forth-to be ruler in Israel, And his comings forth are of old, From the days of antiquity."
+    "content": [
+      { "heading": "Little Town of Beth-Lehem" },
+      {
+        "paragraph": true,
+        "text": "And thou, Beth-Lehem Ephratah, Little to be among the chiefs of Judah! From thee to Me he cometh forth—to be ruler in Israel, And his comings forth "
+      },
+      { "text": "are", "marks": ["i"] },
+      " of old, From the days of antiquity."
+    ]
   },
   {
     "book": "MIC",
@@ -366,7 +462,11 @@
     "book": "MIC",
     "chapter": 5,
     "verse": 5,
-    "content": "And this one hath been peace, Asshur! when he doth come into our land, And when he doth tread in our palaces, We have raised against him seven shepherds, And eight anointed of man."
+    "content": [
+      { "paragraph": true, "text": "And this " },
+      { "text": "one", "marks": ["i"] },
+      " hath been peace, Asshur! when he doth come into our land, And when he doth tread in our palaces, We have raised against him seven shepherds, And eight anointed of man."
+    ]
   },
   {
     "book": "MIC",
@@ -378,7 +478,10 @@
     "book": "MIC",
     "chapter": 5,
     "verse": 7,
-    "content": "And the remnant of Jacob hath been in the midst of many peoples, As dew from Jehovah-as showers on the herb, That waiteth not for man, nor stayeth for the sons of men."
+    "content": {
+      "paragraph": true,
+      "text": "And the remnant of Jacob hath been in the midst of many peoples, As dew from Jehovah—as showers on the herb, That waiteth not for man, nor stayeth for the sons of men."
+    }
   },
   {
     "book": "MIC",
@@ -396,7 +499,10 @@
     "book": "MIC",
     "chapter": 5,
     "verse": 10,
-    "content": "And it hath come to pass in that day, An affirmation of Jehovah, I have cut off thy horses from thy midst, And I have destroyed thy chariots,"
+    "content": {
+      "paragraph": true,
+      "text": "And it hath come to pass in that day, An affirmation of Jehovah, I have cut off thy horses from thy midst, And I have destroyed thy chariots,"
+    }
   },
   {
     "book": "MIC",
@@ -434,20 +540,24 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Hear, I pray you, that which Jehovah is saying: ‘Rise-strive thou with the mountains, And cause thou the hills to hear thy voice.’"
+      "text": "Hear, I pray you, that which Jehovah is saying: “Rise—strive thou with the mountains, And cause thou the hills to hear thy voice.”"
     }
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 2,
-    "content": "Hear, O mountains, the strife of Jehovah, Ye strong ones-foundations of earth! For a strife is to Jehovah, with His people, And with Israel He doth reason."
+    "content": [
+      "Hear, O mountains, the strife of Jehovah, Ye strong ones—foundations of earth! For a strife ",
+      { "text": "is", "marks": ["i"] },
+      " to Jehovah, with His people, And with Israel He doth reason."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 3,
-    "content": "O My people, what have I done to thee? And what-have I wearied thee? Testify against Me."
+    "content": "O My people, what have I done to thee? And what—have I wearied thee? Testify against Me."
   },
   {
     "book": "MIC",
@@ -459,49 +569,80 @@
     "book": "MIC",
     "chapter": 6,
     "verse": 5,
-    "content": "O My people, remember, I pray you, What counsel did Balak king of Moab, What answer him did Balaam son of Beor, (From Shittim unto Gilgal,) In order to know the righteous acts of Jehovah.’"
+    "content": "O My people, remember, I pray you, What counsel did Balak king of Moab, What answer him did Balaam son of Beor, (From Shittim unto Gilgal,) In order to know the righteous acts of Jehovah.”"
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 6,
-    "content": "With what do I come before Jehovah? Do I bow to God Most High? Do I come before Him with burnt-offerings? With calves-sons of a year?"
+    "content": {
+      "paragraph": true,
+      "text": "With what do I come before Jehovah? Do I bow to God Most High? Do I come before Him with burnt-offerings? With calves—sons of a year?"
+    }
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 7,
-    "content": "Is Jehovah pleased with thousands of rams? With myriads of streams of oil? Do I give my first-born for my transgression? The fruit of my body for the sin of my soul?"
+    "content": [
+      "Is Jehovah pleased with thousands of rams? With myriads of streams of oil? Do I give my first-born ",
+      { "text": "for", "marks": ["i"] },
+      " my transgression? The fruit of my body ",
+      { "text": "for", "marks": ["i"] },
+      " the sin of my soul?"
+    ]
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 8,
-    "content": "He hath declared to thee, O man, what is good; Yea, what is Jehovah requiring of thee, Except-to do judgment, and love kindness, And lowly to walk with thy God?"
+    "content": [
+      "He hath declared to thee, O man, what ",
+      { "text": "is", "marks": ["i"] },
+      " good; Yea, what is Jehovah requiring of thee, Except—to do judgment, and love kindness, And lowly to walk with thy God?"
+    ]
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 9,
-    "content": "A voice of Jehovah to the city calleth, And wisdom doth fear Thy name, Hear ye the rod, and Him who appointed it."
+    "content": [
+      { "heading": "His Call to the City" },
+      {
+        "paragraph": true,
+        "text": "A voice of Jehovah to the city calleth, And wisdom doth fear Thy name, Hear ye the rod, and Him who appointed it."
+      }
+    ]
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 10,
-    "content": "Are there yet in the house of the wicked Treasures of wickedness, And the abhorred scanty ephah?"
+    "content": [
+      "Are there yet ",
+      { "text": "in", "marks": ["i"] },
+      " the house of the wicked Treasures of wickedness, And the abhorred scanty ephah?"
+    ]
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 11,
-    "content": "Do I reckon it pure with balances of wickedness? And with a bag of deceitful stones?"
+    "content": [
+      "Do I reckon ",
+      { "text": "it", "marks": ["i"] },
+      " pure with balances of wickedness? And with a bag of deceitful stones?"
+    ]
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 12,
-    "content": "Whose rich ones have been full of violence, And its inhabitants have spoken falsehood, And their tongue is deceitful in their mouth."
+    "content": [
+      "Whose rich ones have been full of violence, And its inhabitants have spoken falsehood, And their tongue ",
+      { "text": "is", "marks": ["i"] },
+      " deceitful in their mouth."
+    ]
   },
   {
     "book": "MIC",
@@ -513,46 +654,68 @@
     "book": "MIC",
     "chapter": 6,
     "verse": 14,
-    "content": "Thou-thou eatest, and thou art not satisfied, And thy pit is in thy midst, And thou removest, and dost not deliver, And that which thou deliverest, to a sword I give."
+    "content": [
+      "Thou—thou eatest, and thou art not satisfied, And thy pit ",
+      { "text": "is", "marks": ["i"] },
+      " in thy midst, And thou removest, and dost not deliver, And that which thou deliverest, to a sword I give."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 15,
-    "content": "Thou-thou sowest, and thou dost not reap, Thou-thou treadest the olive, And thou pourest not out oil, And new wine-and thou drinkest not wine."
+    "content": "Thou—thou sowest, and thou dost not reap, Thou—thou treadest the olive, And thou pourest not out oil, And new wine—and thou drinkest not wine."
   },
   {
     "book": "MIC",
     "chapter": 6,
     "verse": 16,
-    "content": "And kept habitually are the statutes of Omri, And all the work of the house of Ahab, And ye do walk in their counsels, For My giving thee for a desolation, And its inhabitants for a hissing, And the reproach of My people ye do bear!"
-  },
-  {
-    "book": "MIC",
-    "chapter": 7,
-    "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "My woe is to me, for I have been As gatherings of summer-fruit, As gleanings of harvest, There is no cluster to eat, The first-ripe fruit desired hath my soul."
+      "text": "And kept habitually are the statutes of Omri, And all the work of the house of Ahab, And ye do walk in their counsels, For My giving thee for a desolation, And its inhabitants for a hissing, And the reproach of My people ye do bear!"
     }
   },
   {
     "book": "MIC",
     "chapter": 7,
+    "verse": 1,
+    "content": [
+      { "paragraph": true, "text": "My woe " },
+      { "text": "is", "marks": ["i"] },
+      " to me, for I have been As gatherings of summer-fruit, As gleanings of harvest, There is no cluster to eat, The first-ripe fruit desired hath my soul."
+    ]
+  },
+  {
+    "book": "MIC",
+    "chapter": 7,
     "verse": 2,
-    "content": "Perished hath the kind out of the land, And upright among men-there are none, All of them for blood lie in wait, Each his brother they hunt with a net."
+    "content": [
+      "Perished hath the kind out of the land, And upright among men—there are none, All of them for blood lie in wait, Each his brother they hunt ",
+      { "text": "with", "marks": ["i"] },
+      " a net."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 3,
-    "content": "On the evil are both hands to do it well, The prince is asking-also the judge-for recompence, And the great-he is speaking the mischief of his soul, And they wrap it up."
+    "content": [
+      "On the evil ",
+      { "text": "are", "marks": ["i"] },
+      " both hands to do ",
+      { "text": "it", "marks": ["i"] },
+      " well, The prince is asking—also the judge—for recompence, And the great—he is speaking the mischief of his soul, And they wrap it up."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 4,
-    "content": "Their best one is as a brier, The upright one-than a thorn-hedge, The day of thy watchmen- Thy visitation-hath come. Now is their perplexity."
+    "content": [
+      "Their best one ",
+      { "text": "is", "marks": ["i"] },
+      " as a brier, The upright one—than a thorn-hedge, The day of thy watchmen—Thy visitation—hath come. Now is their perplexity."
+    ]
   },
   {
     "book": "MIC",
@@ -564,13 +727,23 @@
     "book": "MIC",
     "chapter": 7,
     "verse": 6,
-    "content": "For a son is dishonouring a father, A daughter hath stood against her mother, A daughter-in-law against her mother-in-law, The enemies of each are the men of his house."
+    "content": [
+      "For a son is dishonouring a father, A daughter hath stood against her mother, A daughter-in-law against her mother-in-law, The enemies of each ",
+      { "text": "are", "marks": ["i"] },
+      " the men of his house."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 7,
-    "content": "And I-in Jehovah I do watch, I do wait for the God of my salvation, Hear me doth my God."
+    "content": [
+      { "heading": "Her Trust in God" },
+      {
+        "paragraph": true,
+        "text": "And I—in Jehovah I do watch, I do wait for the God of my salvation, Hear me doth my God."
+      }
+    ]
   },
   {
     "book": "MIC",
@@ -588,19 +761,26 @@
     "book": "MIC",
     "chapter": 7,
     "verse": 10,
-    "content": "And see doth mine enemy, And cover her doth shame, Who saith unto me, ‘Where is Jehovah thy God?’ Mine eyes do look on her, Now she is for a treading-place, As mire of the out-places."
+    "content": [
+      "And see doth mine enemy, And cover her doth shame, Who saith unto me, “Where ",
+      { "text": "is", "marks": ["i"] },
+      " Jehovah thy God?” Mine eyes do look on her, Now she is for a treading-place, As mire of the outplaces."
+    ]
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 11,
-    "content": "The day to build thy walls! That day-removed is the limit."
+    "content": {
+      "paragraph": true,
+      "text": "The day to build thy walls! That day—removed is the limit."
+    }
   },
   {
     "book": "MIC",
     "chapter": 7,
     "verse": 12,
-    "content": "That day-even unto thee it doth come in, From Asshur and the cities of the fortress, And from the fortress even unto the river, And from sea to sea, and mount to mount."
+    "content": "That day—even unto thee it doth come in, From Asshur and the cities of the fortress, And from the fortress even unto the river, And from sea to sea, and mount to mount."
   },
   {
     "book": "MIC",
@@ -612,7 +792,14 @@
     "book": "MIC",
     "chapter": 7,
     "verse": 14,
-    "content": "Rule Thou Thy people with Thy rod, The flock of Thine inheritance, Dwelling alone in a forest in the midst of Carmel, They enjoy Bashan and Gilead as in days of old."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Rule Thou Thy people with Thy rod, The flock of Thine inheritance, Dwelling alone "
+      },
+      { "text": "in", "marks": ["i"] },
+      " a forest in the midst of Carmel, They enjoy Bashan and Gilead as in days of old."
+    ]
   },
   {
     "book": "MIC",
@@ -636,7 +823,13 @@
     "book": "MIC",
     "chapter": 7,
     "verse": 18,
-    "content": "Who is a God like Thee? taking away iniquity, And passing by the transgression of the remnant of His inheritance, He hath not retained for ever His anger, Because He-He delighteth in kindness."
+    "content": [
+      { "paragraph": true, "text": "Who " },
+      { "text": "is", "marks": ["i"] },
+      " a God like Thee? taking away iniquity, And passing by the transgression of the remnant of His inheritance, He hath not retained for ever His anger, Because He—He delighteth ",
+      { "text": "in", "marks": ["i"] },
+      " kindness."
+    ]
   },
   {
     "book": "MIC",

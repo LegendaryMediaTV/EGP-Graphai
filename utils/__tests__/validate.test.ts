@@ -1,9 +1,46 @@
 import { describe, it, expect } from "vitest";
 import {
+  collectJsonFiles,
   findMeaninglessContentNodes,
   findStrongTrailingWhitespaceNodes,
 } from "../validate";
+import { getVersionDirectories } from "../../functions/getBibleVersions";
 import Content from "../../types/Content";
+
+describe("collectJsonFiles — real, on-disk corpus", () => {
+  // Deliberately version-agnostic, like the auditStrongsNodes on-disk-corpus
+  // tests: nothing here assumes a curated version list beyond YLT1898 and
+  // KJV1769, used only to prove a second, unrequested version's files are
+  // excluded/included correctly.
+
+  it("should scope every bible-versions-scoped file to the requested version and none other", () => {
+    const files = collectJsonFiles(["YLT1898"]);
+    const versionScoped = files.filter((file) => file.includes("bible-versions") && !file.includes("schema"));
+
+    expect(versionScoped.length).toBeGreaterThan(0);
+    for (const file of versionScoped) {
+      expect(file).toContain("YLT1898");
+    }
+    expect(files.some((file) => file.includes("KJV1769"))).toBe(false);
+  });
+
+  it("should always include the shared root-level and registry files regardless of scope", () => {
+    const files = collectJsonFiles(["YLT1898"]);
+
+    expect(files).toContain("content-schema.json");
+    expect(files).toContain("./bible-books/bible-books.json");
+    expect(files).toContain("./bible-books/bible-books-schema.json");
+    expect(files).toContain("./bible-versions/bible-versions-schema.json");
+    expect(files).toContain("./bible-versions/bible-verses-schema.json");
+  });
+
+  it("should span every version's files when passed the full directory list — the preserved no-argument default", () => {
+    const files = collectJsonFiles(getVersionDirectories());
+
+    expect(files.some((file) => file.includes("YLT1898"))).toBe(true);
+    expect(files.some((file) => file.includes("KJV1769"))).toBe(true);
+  });
+});
 
 describe("findMeaninglessContentNodes", () => {
   describe("formatting with no text to apply it to", () => {
@@ -34,9 +71,8 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should report a footnote anchor when it still carries marks", () => {
-      // A real shape this rule catches: a verse opening with
-      // { marks: ["woc"], foot: … }, which a naive renderer would wrap in an
-      // empty pair of emphasis tags. The foot is legitimate; the marks are not.
+      // Real shape: a verse opening with marks but no text, alongside a
+      // legitimate foot — only the dangling marks are the problem.
       expect(
         findMeaninglessContentNodes([
           { marks: ["woc"], foot: { type: "xrf", content: "Prov 30:4" } },
@@ -143,9 +179,7 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should report a husk when it sits inside footnote content", () => {
-      // A real shape this rule catches: the residue left behind after
-      // stripping marks from { text: "", marks: ["b"] } without also
-      // removing the now-empty node.
+      // The same empty-husk shape, now nested inside footnote content.
       expect(
         findMeaninglessContentNodes([
           {
@@ -219,9 +253,9 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should accept marks on a node whose text is only whitespace", () => {
-      // A space is text — something for formatting to apply to — so flagging
-      // whitespace-only text as meaningless would misfire against real
-      // corpus data that legitimately marks a bare joining space.
+      // A space counts as text, so flagging whitespace-only text would
+      // misfire against real corpus data that legitimately marks a bare
+      // joining space.
       expect(
         findMeaninglessContentNodes([{ text: " ", marks: ["woc"] }])
       ).toEqual([]);
@@ -297,10 +331,8 @@ describe("findStrongTrailingWhitespaceNodes", () => {
 
   describe("shapes that follow the established convention and must not fire", () => {
     it("should accept a strong-carrying node whose text carries only a leading space", () => {
-      // The established convention (KJV1769 Genesis 1:1): the space that
-      // joins one word to the next lives as the leading character of
-      // whichever node comes after the gap, not the trailing character of
-      // the one before it.
+      // Matches the leading-space convention described on
+      // findStrongTrailingWhitespaceNodes.
       expect(
         findStrongTrailingWhitespaceNodes([
           { text: "In the beginning", strong: "H7225" },
@@ -310,8 +342,8 @@ describe("findStrongTrailingWhitespaceNodes", () => {
     });
 
     it("should accept a textless multi-number sibling node", () => {
-      // { strong: "H853" } with no text key at all — this never matches a
-      // trailing-whitespace test and needs no special exclusion.
+      // A textless sibling never matches a trailing-whitespace check, so it
+      // needs no special exclusion.
       expect(
         findStrongTrailingWhitespaceNodes([
           { text: "the earth", strong: "H776" },

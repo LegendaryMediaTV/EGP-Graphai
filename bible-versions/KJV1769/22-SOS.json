@@ -442,6 +442,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": ["I ", { "text": "am", "marks": ["i"] }, " the rose"],
         "strong": "H2261"
       },
@@ -906,7 +907,7 @@
     "chapter": 3,
     "verse": 1,
     "content": [
-      { "text": "By night", "strong": "H3915" },
+      { "paragraph": true, "text": "By night", "strong": "H3915" },
       { "text": " on my bed", "strong": "H4904" },
       { "text": " I sought", "strong": "H1245", "morph": "PielPerf" },
       { "text": " him whom my soul", "strong": "H5315" },
@@ -1209,6 +1210,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "content": [
           "Behold, thou ",
           { "text": "art", "marks": ["i"] },
@@ -1640,7 +1642,12 @@
     "chapter": 5,
     "verse": 1,
     "content": [
-      { "text": "I am come", "strong": "H935", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "I am come",
+        "strong": "H935",
+        "morph": "QalPerf"
+      },
       { "text": " into my garden,", "strong": "H1588" },
       { "text": " my sister,", "strong": "H269" },
       {
@@ -2182,7 +2189,11 @@
     "chapter": 6,
     "verse": 1,
     "content": [
-      { "text": "Whither is thy beloved", "strong": "H1730" },
+      {
+        "paragraph": true,
+        "text": "Whither is thy beloved",
+        "strong": "H1730"
+      },
       {
         "text": " gone,",
         "break": true,
@@ -2556,7 +2567,12 @@
     "chapter": 7,
     "verse": 1,
     "content": [
-      { "text": "How beautiful", "strong": "H3302", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "How beautiful",
+        "strong": "H3302",
+        "morph": "QalPerf"
+      },
       { "text": " are thy feet", "strong": "H6471" },
       { "text": " with shoes,", "break": true, "strong": "H5275" },
       { "text": "O prince’s", "strong": "H5081" },
@@ -2908,7 +2924,12 @@
     "chapter": 8,
     "verse": 1,
     "content": [
-      { "text": "O that", "strong": "H5414", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "O that",
+        "strong": "H5414",
+        "morph": "QalImpf"
+      },
       {
         "content": [
           " thou ",

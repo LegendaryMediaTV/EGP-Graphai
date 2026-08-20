@@ -12,25 +12,52 @@
     "book": "NAH",
     "chapter": 1,
     "verse": 2,
-    "content": "A God zealous and avenging is Jehovah, An avenger is Jehovah, and possessing fury. An avenger is Jehovah on His adversaries, And He is watching for His enemies."
+    "content": [
+      { "heading": "The Wrath of God" },
+      { "paragraph": true, "text": "A God zealous and avenging " },
+      { "text": "is", "marks": ["i"] },
+      " Jehovah, An avenger ",
+      { "text": "is", "marks": ["i"] },
+      " Jehovah, and possessing fury. An avenger ",
+      { "text": "is", "marks": ["i"] },
+      " Jehovah on His adversaries, And He is watching for His enemies."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 3,
-    "content": "Jehovah is slow to anger, and great in power, And Jehovah doth not entirely acquit, In a hurricane and in a tempest is His way, And a cloud is the dust of His feet."
+    "content": [
+      "Jehovah ",
+      { "text": "is", "marks": ["i"] },
+      " slow to anger, and great in power, And Jehovah doth not entirely acquit, In a hurricane and in a tempest ",
+      { "text": "is", "marks": ["i"] },
+      " His way, And a cloud ",
+      { "text": "is", "marks": ["i"] },
+      " the dust of His feet."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 4,
-    "content": "He is pushing against a sea, and drieth it up, Yea, all the floods He hath made dry, Languishing are Bashan and Carmel, Yea, the flower of Lebanon is languishing."
+    "content": [
+      "He is pushing against a sea, and drieth it up, Yea, all the floods He hath made dry, Languishing ",
+      { "text": "are", "marks": ["i"] },
+      " Bashan and Carmel, Yea, the flower of Lebanon ",
+      { "text": "is", "marks": ["i"] },
+      " languishing."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 5,
-    "content": "Mountains have shaken because of Him, And the hills have been melted; And lifted up is the earth at His presence, And the world and all dwelling in it."
+    "content": [
+      "Mountains have shaken because of Him, And the hills have been melted; And lifted up ",
+      { "text": "is", "marks": ["i"] },
+      " the earth at His presence, And the world and all dwelling in it."
+    ]
   },
   {
     "book": "NAH",
@@ -42,7 +69,11 @@
     "book": "NAH",
     "chapter": 1,
     "verse": 7,
-    "content": "Good is Jehovah for a strong place in a day of distress. And He knoweth those trusting in Him."
+    "content": [
+      "Good ",
+      { "text": "is", "marks": ["i"] },
+      " Jehovah for a strong place in a day of distress. And He knoweth those trusting in Him."
+    ]
   },
   {
     "book": "NAH",
@@ -54,19 +85,29 @@
     "book": "NAH",
     "chapter": 1,
     "verse": 9,
-    "content": "What do we devise against Jehovah? An end He is making, arise not twice doth distress."
+    "content": {
+      "paragraph": true,
+      "text": "What do we devise against Jehovah? An end He is making, arise not twice doth distress."
+    }
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 10,
-    "content": "For while princes are perplexed, And with their drink are drunken, They have been consumed as stubble fully dried."
+    "content": [
+      "For while princes ",
+      { "text": "are", "marks": ["i"] },
+      " perplexed, And with their drink are drunken, They have been consumed as stubble fully dried."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 11,
-    "content": "From thee hath come forth a deviser of evil Against Jehovah-a worthless counsellor."
+    "content": {
+      "paragraph": true,
+      "text": "From thee hath come forth a deviser of evil Against Jehovah—a worthless counsellor."
+    }
   },
   {
     "book": "NAH",
@@ -84,13 +125,19 @@
     "book": "NAH",
     "chapter": 1,
     "verse": 14,
-    "content": "And commanded concerning thee hath Jehovah, ‘No more of thy name doth spread abroad, From the house of thy gods I cut off graven and molten image, I appoint thy grave, for thou hast been vile."
+    "content": {
+      "paragraph": true,
+      "text": "And commanded concerning thee hath Jehovah, “No more of thy name doth spread abroad, From the house of thy gods I cut off graven and molten image, I appoint thy grave, for thou hast been vile."
+    }
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 15,
-    "content": "Lo, on the mountains the feet of one proclaiming tidings, sounding peace! Celebrate, O Judah, thy festivals, complete thy vows, For add no more to pass over into thee doth the worthless, He hath been completely cut off!"
+    "content": {
+      "paragraph": true,
+      "text": "Lo, on the mountains the feet of one proclaiming tidings, sounding peace! Celebrate, O Judah, thy festivals, complete thy vows, For add no more to pass over into thee doth the worthless, He hath been completely cut off!"
+    }
   },
   {
     "book": "NAH",
@@ -105,25 +152,47 @@
     "book": "NAH",
     "chapter": 2,
     "verse": 2,
-    "content": "For turned back hath Jehovah to the excellency of Jacob, As to the excellency of Israel, For emptied them out have emptiers, And their branches they have marred."
+    "content": [
+      "For turned back hath Jehovah to the excellency of Jacob, As ",
+      { "text": "to", "marks": ["i"] },
+      " the excellency of Israel, For emptied them out have emptiers, And their branches they have marred."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 3,
-    "content": "The shield of his mighty ones is become red, Men of might are in scarlet, With fiery torches is the chariot in a day of his preparation, And the firs have been caused to tremble."
+    "content": [
+      { "heading": "Attack on Nineveh" },
+      {
+        "paragraph": true,
+        "text": "The shield of his mighty ones is become red, Men of might "
+      },
+      { "text": "are in", "marks": ["i"] },
+      " scarlet, With fiery torches ",
+      { "text": "is", "marks": ["i"] },
+      " the chariot in a day of his preparation, And the firs have been caused to tremble."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 4,
-    "content": "In out-places shine do the chariots, They go to and fro in broad places, Their appearances are like torches, As lightnings they run."
+    "content": [
+      "In out-places shine do the chariots, They go to and fro in broad places, Their appearances ",
+      { "text": "are", "marks": ["i"] },
+      " like torches, As lightnings they run."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 5,
-    "content": "He doth remember his honourable ones, They stumble in their goings, They hasten to its wall, and prepared is the covering."
+    "content": [
+      "He doth remember his honourable ones, They stumble in their goings, They hasten ",
+      { "text": "to", "marks": ["i"] },
+      " its wall, and prepared is the covering."
+    ]
   },
   {
     "book": "NAH",
@@ -135,52 +204,86 @@
     "book": "NAH",
     "chapter": 2,
     "verse": 7,
-    "content": "And it is established-she hath removed, She hath been brought up, And her handmaids are leading as the voice of doves, Tabering on their hearts."
+    "content": "And it is established—she hath removed, She hath been brought up, And her handmaids are leading as the voice of doves, Tabering on their hearts."
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 8,
-    "content": "And Nineveh is as a pool of waters, From of old it is-and they are fleeing! ‘Stand ye, stand;’ and none is turning!"
+    "content": [
+      { "paragraph": true, "text": "And Nineveh " },
+      { "text": "is", "marks": ["i"] },
+      " as a pool of waters, From of old it ",
+      { "text": "is", "marks": ["i"] },
+      "—and they are fleeing! “Stand ye, stand;” and none is turning!"
+    ]
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 9,
-    "content": "Seize ye silver, seize ye gold, And there is no end to the prepared things, To the abundance of all desirable vessels."
+    "content": [
+      "Seize ye silver, seize ye gold, And there is no end to the prepared things, ",
+      { "text": "To", "marks": ["i"] },
+      " the abundance of all desirable vessels."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 10,
-    "content": "She is empty, yea, emptiness and waste, And the heart hath melted, And the knees have smitten together, And great pain is in all loins, And the faces of all of them have gathered paleness."
+    "content": [
+      "She is empty, yea, emptiness and waste, And the heart hath melted, And the knees have smitten together, And great pain ",
+      { "text": "is", "marks": ["i"] },
+      " in all loins, And the faces of all of them have gathered paleness."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 11,
-    "content": "Where is the habitation of lionesses? And a feeding-place it is for young lions Where walked hath a lion, an old lion, A lion’s whelp, and there is none troubling."
+    "content": [
+      "Where ",
+      { "text": "is", "marks": ["i"] },
+      " the habitation of lionesses? And a feeding-place it ",
+      { "text": "is", "marks": ["i"] },
+      " for young lions Where walked hath a lion, an old lion, A lion’s whelp, and there is none troubling."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 12,
-    "content": "The lion is tearing parts for his whelps, And is strangling for his lionesses, And he doth fill with prey his holes, And his habitations with rapine."
+    "content": [
+      "The lion is tearing parts ",
+      { "text": "for", "marks": ["i"] },
+      " his whelps, And is strangling for his lionesses, And he doth fill ",
+      { "text": "with", "marks": ["i"] },
+      " prey his holes, And his habitations ",
+      { "text": "with", "marks": ["i"] },
+      " rapine."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 13,
-    "content": "Lo, I am against thee, An affirmation of Jehovah of Hosts, And I have burned in smoke its chariot, And thy young lions consume doth a sword, And I have cut off from the land thy prey, And not heard any more is the voice of thy messengers!"
+    "content": [
+      "Lo, I ",
+      { "text": "am", "marks": ["i"] },
+      " against thee, An affirmation of Jehovah of Hosts, And I have burned in smoke its chariot, And thy young lions consume doth a sword, And I have cut off from the land thy prey, And not heard any more is the voice of thy messengers!"
+    ]
   },
   {
     "book": "NAH",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Woe to the city of blood, She is all with lies-burglary-full, Prey doth not depart."
-    }
+    "content": [
+      { "heading": "The End of Nineveh" },
+      { "paragraph": true, "text": "Woe " },
+      { "text": "to", "marks": ["i"] },
+      " the city of blood, She is all with lies—burglary—full, Prey doth not depart."
+    ]
   },
   {
     "book": "NAH",
@@ -204,7 +307,11 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 5,
-    "content": "Lo, I am against thee, An affirmation of Jehovah of Hosts, And have removed thy skirts before thy face, And have shewed nations thy nakedness, And kingdoms thy shame,"
+    "content": [
+      { "paragraph": true, "text": "Lo, I " },
+      { "text": "am", "marks": ["i"] },
+      " against thee, An affirmation of Jehovah of Hosts, And have removed thy skirts before thy face, And have shewed nations thy nakedness, And kingdoms thy shame,"
+    ]
   },
   {
     "book": "NAH",
@@ -216,13 +323,20 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 7,
-    "content": "And it hath come to pass, Each of thy beholders fleeth from thee, And hath said: ‘Spoiled is Nineveh, Who doth bemoan for her?’ Whence do I seek comforters for thee?"
+    "content": "And it hath come to pass, Each of thy beholders fleeth from thee, And hath said: “Spoiled is Nineveh, Who doth bemoan for her?” Whence do I seek comforters for thee?"
   },
   {
     "book": "NAH",
     "chapter": 3,
     "verse": 8,
-    "content": "Art thou better than No-Ammon, That is dwelling among brooks? Waters she hath round about her, Whose bulwark is the sea, waters her wall."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Art thou better than No-Ammon, That is dwelling among brooks? Waters she hath round about her, Whose bulwark "
+      },
+      { "text": "is", "marks": ["i"] },
+      " the sea, waters her wall."
+    ]
   },
   {
     "book": "NAH",
@@ -246,19 +360,30 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 12,
-    "content": "All thy fortresses are fig-trees with first-fruits, If they are shaken, They have fallen into the mouth of the eater."
+    "content": [
+      "All thy fortresses ",
+      { "text": "are", "marks": ["i"] },
+      " fig-trees with first-fruits, If they are shaken, They have fallen into the mouth of the eater."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 3,
     "verse": 13,
-    "content": "Lo, thy people are women in thy midst, To thine enemies thoroughly opened Have been the gates of thy land, Consumed hath fire thy bars."
+    "content": [
+      "Lo, thy people ",
+      { "text": "are", "marks": ["i"] },
+      " women in thy midst, To thine enemies thoroughly opened Have been the gates of thy land, Consumed hath fire thy bars."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 3,
     "verse": 14,
-    "content": "Waters of a siege draw for thyself, Strengthen thy fortresses, Enter into mire, and tread on clay, Make strong a brick-kiln."
+    "content": {
+      "paragraph": true,
+      "text": "Waters of a siege draw for thyself, Strengthen thy fortresses, Enter into mire, and tread on clay, Make strong a brick-kiln."
+    }
   },
   {
     "book": "NAH",
@@ -276,18 +401,29 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 17,
-    "content": "Thy crowned ones are as a locust, And thy princes as great grasshoppers, That encamp in hedges in a day of cold, The sun hath risen, and it doth flee away, And not known is its place where they are."
+    "content": [
+      "Thy crowned ones ",
+      { "text": "are", "marks": ["i"] },
+      " as a locust, And thy princes as great grasshoppers, That encamp in hedges in a day of cold, The sun hath risen, and it doth flee away, And not known is its place where they are."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 3,
     "verse": 18,
-    "content": "Slumbered have thy friends, king of Asshur, Rest do thine honourable ones, Scattered have been thy people on the mountains, And there is none gathering."
+    "content": {
+      "paragraph": true,
+      "text": "Slumbered have thy friends, king of Asshur, Rest do thine honourable ones, Scattered have been thy people on the mountains, And there is none gathering."
+    }
   },
   {
     "book": "NAH",
     "chapter": 3,
     "verse": 19,
-    "content": "There is no weakening of thy destruction, Grievous is thy smiting, All hearing thy fame have clapped the hand at thee, For over whom did not thy wickedness pass continually?"
+    "content": [
+      "There is no weakening of thy destruction, Grievous ",
+      { "text": "is", "marks": ["i"] },
+      " thy smiting, All hearing thy fame have clapped the hand at thee, For over whom did not thy wickedness pass continually?"
+    ]
   }
 ]
