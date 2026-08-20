@@ -67,7 +67,7 @@ describe("exitCodeFor", () => {
       toChapter: 7,
       firstChapterLastVerse: 33,
     };
-    const summary: VersionAudit = { version: "WEBUS2020", findings: [finding], scanned: 423, wholeChapterRanges: 0 };
+    const summary: VersionAudit = { version: "WEBUS2020", findings: [finding], scanned: 423 };
     expect(exitCodeFor([summary])).toBe(1);
   });
 

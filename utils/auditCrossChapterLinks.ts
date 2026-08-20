@@ -30,7 +30,6 @@ export interface VersionAudit {
   version: string;
   findings: readonly CrossChapterFinding[];
   scanned: number;
-  wholeChapterRanges: number;
 }
 
 /** Every version this repo carries under `bible-versions/`, directory-listed rather than hardcoded so an added or removed version is picked up automatically. */
@@ -65,13 +64,13 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
   return summaries.some((summary) => summary.findings.length > 0) ? 1 : 0;
 }
 
-/** Print one human-readable report line per version that has anything to say — silent for a version with zero findings and zero whole-chapter ranges. */
+/** Print one human-readable report line per version that has an unsplit finding — silent for a version with none. */
 function printReport(summaries: readonly VersionAudit[]): void {
   const totalScanned = summaries.reduce((sum, summary) => sum + summary.scanned, 0);
   console.log(`Scanned ${totalScanned} bibleLink(s) across ${summaries.length} version(s).\n`);
 
   for (const summary of summaries) {
-    if (summary.findings.length === 0 && summary.wholeChapterRanges === 0) continue;
+    if (summary.findings.length === 0) continue;
 
     console.log(`${summary.version}:`);
     for (const finding of summary.findings) {
@@ -79,9 +78,6 @@ function printReport(summaries: readonly VersionAudit[]): void {
         `  ${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
           `"${finding.target}" spans ${finding.book ?? finding.target} ${finding.fromChapter}–${finding.toChapter} — unsplit`,
       );
-    }
-    if (summary.wholeChapterRanges > 0) {
-      console.log(`  (${summary.wholeChapterRanges} whole-chapter range(s), out of scope by the cross-chapter convention — not a finding)`);
     }
     console.log("");
   }

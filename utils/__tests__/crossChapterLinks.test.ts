@@ -3,10 +3,10 @@ import { classifyBibleLink, findCrossChapterLinks, fixCrossChapterLinks, splitCr
 
 // Target strings are drawn from this repo's own six versions (ASV1901,
 // BYZ2018, CLV1880, KJV1769, WEBUS2020, YLT1898) wherever a real example
-// exists — WEBUS2020 is the only one with any `bibleLink` at all (423
-// corpus-wide), so most fixtures are its own. Two shapes absent from this
-// repo's data (`wholeChapterRange`, a bare chapter reference) are marked
-// below as grammar illustrations, not real occurrences.
+// exists — WEBUS2020 and YLT1898 are the only ones with any `bibleLink` at
+// all, so most fixtures are theirs. One shape absent from this repo's data (a
+// bare chapter reference) is marked below as a grammar illustration, not a
+// real occurrence.
 
 describe("classifyBibleLink — target shape", () => {
   it("should classify an em-dash cross-chapter target as crossChapterRange (the real WEBUS2020 Hebrews 11:34 finding)", () => {
@@ -25,8 +25,8 @@ describe("classifyBibleLink — target shape", () => {
     expect(classifyBibleLink("WEBUS2020", "Exodus 3:3–4").shape).toBe("singleChapter");
   });
 
-  it("should classify a whole-chapter range as wholeChapterRange, not a finding (grammar illustration — no such target exists in this repo's own six versions today)", () => {
-    expect(classifyBibleLink("WEBUS2020", "Isaiah 36–39").shape).toBe("wholeChapterRange");
+  it("should classify a whole-chapter range as wholeChapterRange — a finding, split with no verse anchor (real YLT1898 target, pre-fix; see the splitCrossChapterLink and fixCrossChapterLinks suites below for the real, now-applied split)", () => {
+    expect(classifyBibleLink("YLT1898", "Romans 1–11").shape).toBe("wholeChapterRange");
   });
 
   it("should classify a bare chapter reference as singleChapter (grammar illustration, same reason)", () => {
@@ -108,6 +108,15 @@ describe("findCrossChapterLinks", () => {
     expect(findCrossChapterLinks("WEBUS2020").findings).toHaveLength(0);
   });
 
+  it("should report zero findings for YLT1898 now that this repo's own --fix run has split its nine whole-chapter-range links", () => {
+    // `auditCrossChapterLinks.ts YLT1898 --fix` already rewrote 45-ROM.json,
+    // 46-1CO.json, 47-2CO.json, and 66-REV.json for real — the argument
+    // footnotes' outline references (e.g. "Romans 1–11") — and each split
+    // half classifies as singleChapter, so the finding is gone rather than
+    // merely changed.
+    expect(findCrossChapterLinks("YLT1898").findings).toHaveLength(0);
+  });
+
   it("should report zero findings for a version with no bibleLinks at all", () => {
     expect(findCrossChapterLinks("ASV1901").findings).toHaveLength(0);
     expect(findCrossChapterLinks("BYZ2018").findings).toHaveLength(0);
@@ -138,6 +147,30 @@ describe("splitCrossChapterLink — the real WEBUS2020 Hebrews 11:34 node (pure 
 
   it("should return null for a target that needs no split", () => {
     expect(splitCrossChapterLink("WEBUS2020", { bibleLink: "Exodus 3:3–4" })).toBeNull();
+  });
+});
+
+describe("splitCrossChapterLink — whole-chapter ranges (pure function only — must not write to bible-versions/YLT1898/)", () => {
+  it("should split a whole-chapter range into two bare chapter references, with no verse anchor on either half (real YLT1898 target, pre-fix)", () => {
+    const link = { bibleLink: "Romans 1–11", content: "ch. i–xi" };
+    const split = splitCrossChapterLink("YLT1898", link);
+
+    expect(split).not.toBeNull();
+    const [partA, dash, partB] = split!;
+    expect(partA).toEqual({ bibleLink: "Romans 1", content: "ch. i" });
+    expect(dash).toBe("–");
+    expect(partB).toEqual({ bibleLink: "Romans 11", content: "xi" });
+  });
+
+  it("should read Part B's chapter number, not fold it into a verse the way crossChapterRange does", () => {
+    const [, , partB] = splitCrossChapterLink("YLT1898", { bibleLink: "2 Corinthians 10–12" })!;
+    expect(partB).toEqual({ bibleLink: "2 Corinthians 12", content: "12" });
+  });
+
+  it("should drop Part A's content override when its display matches its own target, but keep Part B's bare chapter number as an override (its display never gained the book name a bare target needs)", () => {
+    const [partA, , partB] = splitCrossChapterLink("YLT1898", { bibleLink: "Revelation 4–20" })!;
+    expect(partA).toEqual({ bibleLink: "Revelation 4" });
+    expect(partB).toEqual({ bibleLink: "Revelation 20", content: "20" });
   });
 });
 
@@ -189,6 +222,12 @@ describe("fixCrossChapterLinks — read-only, whole-version application", () => 
     // Whole-version equivalent of the idempotence proof above: 58-HEB.json's
     // real fix is already applied, so there's nothing left to do.
     expect(fixCrossChapterLinks("WEBUS2020")).toHaveLength(0);
+  });
+
+  it("should report nothing left to fix for YLT1898, now that this repo's own --fix run has already split its nine whole-chapter-range links", () => {
+    // 45-ROM.json, 46-1CO.json, 47-2CO.json, and 66-REV.json's real fix is
+    // already applied, so there's nothing left to do.
+    expect(fixCrossChapterLinks("YLT1898")).toHaveLength(0);
   });
 
   it("should never write to disk itself — calling it twice must not change what it returns", () => {

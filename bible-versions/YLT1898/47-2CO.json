@@ -24,7 +24,9 @@
                     "marks": ["b"]
                   },
                   ", ",
-                  { "bibleLink": "2 Corinthians 1–7", "content": "ch. i–vii" },
+                  { "bibleLink": "2 Corinthians 1", "content": "ch. i" },
+                  "–",
+                  { "bibleLink": "2 Corinthians 7", "content": "vii" },
                   "."
                 ],
                 "break": true
@@ -186,10 +188,9 @@
                 "content": [
                   { "text": "III. REPROOFS AND WARNINGS", "marks": ["b"] },
                   ", ",
-                  {
-                    "bibleLink": "2 Corinthians 10–12",
-                    "content": "ch. x–xii"
-                  },
+                  { "bibleLink": "2 Corinthians 10", "content": "ch. x" },
+                  "–",
+                  { "bibleLink": "2 Corinthians 12", "content": "xii" },
                   "."
                 ],
                 "break": true

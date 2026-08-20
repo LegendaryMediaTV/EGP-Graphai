@@ -37,7 +37,9 @@
                     "marks": ["b"]
                   },
                   " ",
-                  { "bibleLink": "1 Corinthians 1–6", "content": "ch. i–vi" },
+                  { "bibleLink": "1 Corinthians 1", "content": "ch. i" },
+                  "–",
+                  { "bibleLink": "1 Corinthians 6", "content": "vi" },
                   "."
                 ],
                 "break": true
