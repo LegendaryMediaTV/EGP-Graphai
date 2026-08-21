@@ -121,7 +121,7 @@
 <sup>31</sup> Do we then nullify the law through faith? May it never be! No, we establish the law.
 
 > - <sup>a</sup> 4. Psalm 51:4
-> - <sup>b</sup> 12. Psalm 14:1–3; 53:1-3; Ecclesiastes 7:20
+> - <sup>b</sup> 12. Psalm 14:1–3; 53:1–3; Ecclesiastes 7:20
 > - <sup>c</sup> 13. Psalm 5:9
 > - <sup>d</sup> 13. Psalm 140:3
 > - <sup>e</sup> 14. Psalm 10:7
