@@ -1720,7 +1720,7 @@ But they cried out exceedingly, saying, “Let him be crucified!”
 <sup>66</sup> So they went with the guard and made the tomb secure, sealing the stone.
 
 > - <sup>a</sup> 9. some manuscripts omit “Jeremiah”
-> - <sup>b</sup> 10. Zechariah 11:12–13; Jeremiah 19:1–13; 32:6-9
+> - <sup>b</sup> 10. Zechariah 11:12–13; Jeremiah 19:1–13; 32:6–9
 > - <sup>c</sup> 34. or, vinegar
 > - <sup>d</sup> 34. Gall is a bitter-tasting, dark green oil from a wormwood plant that is alcoholic in its effect.
 > - <sup>e</sup> 35. TR adds “that it might be fulfilled which was spoken by the prophet: ‘They divided my garments among them, and for my clothing they cast lots;’ ” [see Psalm 22:18 and John 19:24]
