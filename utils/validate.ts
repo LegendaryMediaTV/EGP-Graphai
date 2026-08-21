@@ -10,7 +10,7 @@ import {
   writeFileAtomic,
   writeJsonFile,
 } from "../functions/writeJsonFile";
-import Content from "../types/Content";
+import Content, { ContentBibleLink } from "../types/Content";
 import BibleVersion from "../types/Version";
 import { findCrossChapterLinks } from "./crossChapterLinks";
 import { formatCrossChapterFinding } from "./auditCrossChapterLinks";
@@ -39,7 +39,10 @@ function isVerseFile(filePath: string): boolean {
 }
 
 /**
- * Sort keys in a verse file according to canonical order
+ * Sort keys in a verse file according to canonical order and write it back
+ * if anything changed.
+ *
+ * @returns true if the file was re-sorted, false if unchanged
  */
 async function sortVerseFileKeys(filePath: string): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
@@ -63,10 +66,9 @@ async function sortVerseFileKeys(filePath: string): Promise<boolean> {
 /**
  * Format a JSON file and write it back if changed.
  *
- * Formats from the parsed data, not the file's raw text, so the output always
- * matches the canonical form {@link writeJsonFile} produces. Formatting raw
- * text would let Prettier preserve pre-existing line breaks, so a drifted
- * file could keep passing as "already formatted."
+ * Formats the parsed data, not the file's raw text — otherwise Prettier
+ * would preserve pre-existing line breaks, and a drifted file could keep
+ * passing as "already formatted."
  *
  * @returns true if the file was reformatted, false if unchanged
  */
@@ -76,6 +78,34 @@ async function formatJsonFile(filePath: string): Promise<boolean> {
 
   if (content !== formatted) {
     await writeFileAtomic(filePath, formatted);
+    return true;
+  }
+  return false;
+}
+
+/**
+ * Normalize `bibleLink` dashes in one verse file and write it back if
+ * anything changed.
+ *
+ * Uses {@link normalizeBibleLinkDashesInContent}'s own per-verse `changed`
+ * flag directly, unlike {@link sortVerseFileKeys}'s whole-array
+ * serialize-and-diff (needed there only because `sortVerseKeys` itself
+ * returns no such flag).
+ */
+async function normalizeBibleLinkDashesInFile(filePath: string): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = normalizeBibleLinkDashesInContent(verse.content as Content);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return { ...verse, content: rewritten.content };
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
     return true;
   }
   return false;
@@ -142,8 +172,7 @@ const CONTENT_BRANCHES = ["content", "heading", "subtitle"] as const;
  * 1. **Formatting with nothing to format** — a node with `marks` and/or
  *    `script` but no text. A non-greedy tag-matching renderer can't wrap zero
  *    characters, so the opening delimiter leaks into the surrounding text
- *    instead of rendering nothing. (A `foot` alongside is fine — a footnote
- *    anchor needs no text — so only the marks/script is at fault.)
+ *    instead of rendering nothing.
  * 2. **An empty husk** — a node whose only property is an empty `text`, the
  *    residue left when marks are stripped from a shape like
  *    `{ text: "", marks: ["b"] }` without also removing the now-pointless node.
@@ -218,18 +247,16 @@ export function findMeaninglessContentNodes(content: Content): string[] {
  * Find content nodes carrying a `strong` value whose own `text` ends in
  * trailing whitespace.
  *
- * The established convention (confirmed in KJV1769 Genesis 1:1:
+ * The established convention (e.g. KJV1769 Genesis 1:1:
  * `{ text: "In the beginning", strong: "H7225" }`,
- * `{ text: " God", strong: "H430" }`) is that a joining space lives as the
+ * `{ text: " God", strong: "H430" }`) puts a joining space as the
  * **leading** character of the node after the gap, never trailing on the
- * node before it — which is also what lets a multi-number Strong's tag's
- * extra numbers ride as textless siblings (`{ strong: "H853" }`) with no
- * spacing responsibility. An importer that instead attaches the space to the
- * `strong`-carrying node inverts this, and any exporter assuming the
- * leading-space shape mishandles the result (double spaces, misplaced tags).
+ * node before it. An importer that inverts this breaks any exporter
+ * assuming the leading-space shape (double spaces, misplaced tags).
  *
- * A textless sibling never matches here — an empty string never ends in
- * whitespace — so it needs no special exclusion.
+ * A textless sibling — e.g. a multi-number Strong's tag's extra numbers,
+ * `{ strong: "H853" }` — never matches here, since an empty string can't
+ * end in whitespace, so it needs no special exclusion.
  *
  * @param content - A verse's content tree
  * @returns One message per offending node, each naming its path within the
@@ -275,11 +302,117 @@ export function findStrongTrailingWhitespaceNodes(content: Content): string[] {
 }
 
 /**
+ * Fix one `bibleLink` node's ASCII hyphens — in the target itself and in a
+ * string `content` override — dropping `content` once it's redundant with
+ * the (now-fixed) `bibleLink`, even if the redundancy predates this fix and
+ * involves no hyphen at all. Never invents a `content` key, and never
+ * touches one that's absent or not a string.
+ *
+ * Not exported — a caller reaches this only through
+ * {@link normalizeBibleLinkDashesInContent}, which is the one that knows
+ * when a node in the tree is a `bibleLink` at all.
+ */
+function fixBibleLinkNode(node: ContentBibleLink): { content: ContentBibleLink; changed: boolean } {
+  const bibleLink = node.bibleLink.includes("-")
+    ? node.bibleLink.split("-").join("–")
+    : node.bibleLink;
+
+  const content =
+    typeof node.content === "string" && node.content.includes("-")
+      ? node.content.split("-").join("–")
+      : node.content;
+
+  if (typeof content === "string" && content === bibleLink) {
+    return { content: { bibleLink }, changed: true };
+  }
+
+  if (bibleLink === node.bibleLink && content === node.content) {
+    return { content: node, changed: false };
+  }
+
+  return {
+    content: content === undefined ? { bibleLink } : { bibleLink, content },
+    changed: true,
+  };
+}
+
+/**
+ * Normalize every `bibleLink` node's ASCII hyphens to en dashes, via
+ * {@link fixBibleLinkNode} — never touching any other `content` key in the
+ * tree (a paragraph's or heading's own `content` is left alone even when it
+ * contains a hyphen).
+ *
+ * The traversal order — array, `bibleLink`, `heading`, `subtitle`,
+ * `paragraph`-as-content, then nested `content`, then `foot` — mirrors
+ * `crossChapterLinks.ts`'s own `splitCrossChapterLinksInContent` shape, but
+ * deliberately not {@link CONTENT_BRANCHES}'s: that shape treats a
+ * `bibleLink`'s own `content` as just another branch to recurse into, which
+ * is wrong here since it's display text to rewrite in place, not a subtree.
+ * The `"bibleLink" in node` check has to come before the generic
+ * `"content" in node` check, and the walk stops there rather than recursing
+ * into that node's own `content`.
+ *
+ * @param content - A verse's content tree, or any subtree of it
+ * @returns The rewritten tree (structurally new only where something
+ *   changed) and whether anything changed at all
+ */
+export function normalizeBibleLinkDashesInContent(
+  content: Content
+): { content: Content; changed: boolean } {
+  if (content === null || content === undefined || typeof content !== "object") {
+    return { content, changed: false };
+  }
+
+  if (Array.isArray(content)) {
+    let changed = false;
+    const items = content.map((item) => {
+      const rewritten = normalizeBibleLinkDashesInContent(item);
+      changed = changed || rewritten.changed;
+      return rewritten.content;
+    });
+    return { content: items, changed };
+  }
+
+  if ("bibleLink" in content) {
+    return fixBibleLinkNode(content);
+  }
+
+  if ("heading" in content) {
+    const rewritten = normalizeBibleLinkDashesInContent(content.heading);
+    return { content: { ...content, heading: rewritten.content }, changed: rewritten.changed };
+  }
+
+  if ("subtitle" in content) {
+    const rewritten = normalizeBibleLinkDashesInContent(content.subtitle);
+    return { content: { ...content, subtitle: rewritten.content }, changed: rewritten.changed };
+  }
+
+  if ("paragraph" in content && content.paragraph !== undefined && typeof content.paragraph !== "boolean") {
+    const rewritten = normalizeBibleLinkDashesInContent(content.paragraph);
+    return { content: { ...content, paragraph: rewritten.content }, changed: rewritten.changed };
+  }
+
+  let result: Content = content;
+  let changed = false;
+  if ("content" in content) {
+    const rewritten = normalizeBibleLinkDashesInContent(content.content);
+    result = { ...content, content: rewritten.content };
+    changed = rewritten.changed;
+  }
+  if (content.foot) {
+    const rewritten = normalizeBibleLinkDashesInContent(content.foot.content);
+    result = { ...(result as typeof content), foot: { ...content.foot, content: rewritten.content } };
+    changed = changed || rewritten.changed;
+  }
+  return { content: result, changed };
+}
+
+/**
  * Validates (and normalizes) one version, or every version when none is
- * requested: sorts verse keys, formats JSON files, then checks bible-books,
- * each version's `_version.json`, book ordering, and every verse file's
- * schema and content. Exits the process with a non-zero code on the first
- * validation phase that fails.
+ * requested: sorts verse keys, formats JSON files, normalizes `bibleLink`
+ * dashes, then checks bible-books, each version's `_version.json`, book
+ * ordering, and every verse file's schema and content. Exits the process
+ * with a non-zero code on the first validation phase that fails.
  *
  * The schema/structure phases above are hierarchical — each later phase
  * assumes the earlier ones held, so a failure there exits immediately rather
@@ -292,11 +425,10 @@ export function findStrongTrailingWhitespaceNodes(content: Content): string[] {
  * to find out.
  *
  * @param requestedVersion - A single version id to validate (e.g.
- *   `"YLT1898"`, from `process.argv[2]`). When omitted, every version
- *   directory on disk is validated — the documented default, and each of
- *   `versionDirs` is what both trailing audits scope themselves to as well.
- *   An id with no matching directory isn't checked for existence up front:
- *   it surfaces as a natural filesystem error later, matching
+ *   `"YLT1898"`, from `process.argv[2]`). Omitted → every version directory
+ *   on disk is validated, including by the two trailing audits, which scope
+ *   to the same `versionDirs`. An unmatched id isn't checked for existence
+ *   up front — it surfaces as a natural filesystem error later, matching
  *   `exportContent.ts`, `auditCrossChapterLinks.ts`, and `auditNodes.ts`.
  */
 async function main(requestedVersion?: string) {
@@ -343,6 +475,26 @@ async function main(requestedVersion?: string) {
     console.log(`\n✅ Formatted ${formattedCount} file(s)\n`);
   } else {
     console.log("✅ All JSON files already formatted\n");
+  }
+
+  console.log("🔧 Normalizing bibleLink dashes...\n");
+
+  let dashNormalizedCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasNormalized = await normalizeBibleLinkDashesInFile(file);
+      if (wasNormalized) {
+        dashNormalizedCount++;
+        console.log(`  🔄 Normalized bibleLink dashes: ${file}`);
+      }
+    }
+  }
+
+  if (dashNormalizedCount > 0) {
+    console.log(`\n✅ Normalized bibleLink dashes in ${dashNormalizedCount} file(s)\n`);
+  } else {
+    console.log("✅ All bibleLink dashes already normalized\n");
   }
 
   const result = validateJsonAgainstSchema(schemaPath, jsonPath);

@@ -3,15 +3,15 @@ import {
   collectJsonFiles,
   findMeaninglessContentNodes,
   findStrongTrailingWhitespaceNodes,
+  normalizeBibleLinkDashesInContent,
 } from "../validate";
 import { getVersionDirectories } from "../../functions/getBibleVersions";
 import Content from "../../types/Content";
 
 describe("collectJsonFiles — real, on-disk corpus", () => {
-  // Deliberately version-agnostic, like the auditNodes on-disk-corpus
-  // tests: nothing here assumes a curated version list beyond YLT1898 and
-  // KJV1769, used only to prove a second, unrequested version's files are
-  // excluded/included correctly.
+  // Version-agnostic, like the auditNodes on-disk-corpus tests: assumes
+  // nothing beyond YLT1898 and KJV1769 existing, used only to prove an
+  // unrequested version's files are excluded/included correctly.
 
   it("should scope every bible-versions-scoped file to the requested version and none other", () => {
     const files = collectJsonFiles(["YLT1898"]);
@@ -342,8 +342,8 @@ describe("findStrongTrailingWhitespaceNodes", () => {
     });
 
     it("should accept a textless multi-number sibling node", () => {
-      // A textless sibling never matches a trailing-whitespace check, so it
-      // needs no special exclusion.
+      // Same no-special-exclusion case described on
+      // findStrongTrailingWhitespaceNodes.
       expect(
         findStrongTrailingWhitespaceNodes([
           { text: "the earth", strong: "H776" },
@@ -368,6 +368,169 @@ describe("findStrongTrailingWhitespaceNodes", () => {
       expect(
         findStrongTrailingWhitespaceNodes("In the beginning God created")
       ).toEqual([]);
+    });
+  });
+});
+
+describe("normalizeBibleLinkDashesInContent", () => {
+  describe("fixing a hyphen in bibleLink and/or its content override", () => {
+    it("should fix a hyphen in a bare bibleLink target without inventing a content key", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([{ bibleLink: "Isaiah 66-2" }])
+      ).toEqual({
+        content: [{ bibleLink: "Isaiah 66–2" }],
+        changed: true,
+      });
+    });
+
+    it("should fix a hyphen in content alone when bibleLink is already clean", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Psalm 53:1–3", content: "53:1-3" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Psalm 53:1–3", content: "53:1–3" }],
+        changed: true,
+      });
+    });
+
+    it("should fix a hyphen in both bibleLink and content on the same node", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Psalm 53:1-3", content: "53:1-3" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Psalm 53:1–3", content: "53:1–3" }],
+        changed: true,
+      });
+    });
+  });
+
+  describe("dropping a content override that becomes redundant", () => {
+    it("should drop content once the hyphen fix makes it byte-identical to the now-fixed bibleLink", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Isaiah 66-2", content: "Isaiah 66-2" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Isaiah 66–2" }],
+        changed: true,
+      });
+    });
+
+    it("should drop a content override already byte-identical to bibleLink with no hyphen involved", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Isaiah 66:2", content: "Isaiah 66:2" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Isaiah 66:2" }],
+        changed: true,
+      });
+    });
+  });
+
+  describe("what the transform leaves alone", () => {
+    it("should leave a non-string content override untouched even when bibleLink on the same node gets fixed", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "John 3-16", content: [{ marks: ["i"] }, "see"] },
+        ])
+      ).toEqual({
+        content: [
+          { bibleLink: "John 3–16", content: [{ marks: ["i"] }, "see"] },
+        ],
+        changed: true,
+      });
+    });
+
+    it("should never touch a content key that is not a sibling of a bibleLink, even with a hyphen inside it", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { content: ["the", "well-known", " Lord"], strong: "H3068" },
+        ])
+      ).toEqual({
+        content: [{ content: ["the", "well-known", " Lord"], strong: "H3068" }],
+        changed: false,
+      });
+    });
+
+    it("should return the content unchanged and changed: false when nothing needs fixing", () => {
+      const fixture: Content = [
+        { bibleLink: "Isaiah 66:2", content: "66:2" },
+        "In the beginning",
+      ];
+      expect(normalizeBibleLinkDashesInContent(fixture)).toEqual({
+        content: fixture,
+        changed: false,
+      });
+    });
+
+    it("should accept plain string content", () => {
+      expect(normalizeBibleLinkDashesInContent("In the beginning God created")).toEqual({
+        content: "In the beginning God created",
+        changed: false,
+      });
+    });
+  });
+
+  describe("recursion into every content-bearing branch", () => {
+    it("should reach a bibleLink nested inside footnote content", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          {
+            text: "word",
+            foot: { type: "xrf", content: [{ bibleLink: "Romans 3-12" }] },
+          },
+        ])
+      ).toEqual({
+        content: [
+          {
+            text: "word",
+            foot: { type: "xrf", content: [{ bibleLink: "Romans 3–12" }] },
+          },
+        ],
+        changed: true,
+      });
+    });
+
+    it("should reach a bibleLink nested inside a heading", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { heading: [{ bibleLink: "Psalm 119-1" }] },
+        ])
+      ).toEqual({
+        content: [{ heading: [{ bibleLink: "Psalm 119–1" }] }],
+        changed: true,
+      });
+    });
+
+    it("should reach a bibleLink nested inside a subtitle", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { subtitle: [{ bibleLink: "Psalm 51-1" }] },
+        ])
+      ).toEqual({
+        content: [{ subtitle: [{ bibleLink: "Psalm 51–1" }] }],
+        changed: true,
+      });
+    });
+
+    it("should fix every bibleLink node in a record independently when there's more than one", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Gen 1-1" },
+          "and",
+          { bibleLink: "Gen 1-2", content: "Gen 1-2" },
+        ])
+      ).toEqual({
+        content: [
+          { bibleLink: "Gen 1–1" },
+          "and",
+          { bibleLink: "Gen 1–2" },
+        ],
+        changed: true,
+      });
     });
   });
 });
