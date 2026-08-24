@@ -25,7 +25,7 @@
 <sup>17</sup> Now as for these four youths, God gave them knowledge and skill in all learning and wisdom; and Daniel had understanding in all visions and dreams.
 
 <sup>18</sup> At the end of the days which the king had appointed for bringing them in, the prince of the eunuchs brought them in before Nebuchadnezzar.
-<sup>19</sup> The king talked with them; and among them all was found no one like Daniel, Hananiah, Mishael, and Azariah. Therefore stood they before the king.
+<sup>19</sup> The king talked with them; and among them all was found no one like Daniel, Hananiah, Mishael, and Azariah. Therefore they stood before the king.
 <sup>20</sup> In every matter of wisdom and understanding concerning which the king inquired of them, he found them ten times better than all the magicians and enchanters who were in all his realm.
 
 <sup>21</sup> Daniel continued even to the first year of King Cyrus.
@@ -81,7 +81,7 @@
 <sup>30</sup> But as for me, this secret is not revealed to me for any wisdom that I have more than any living, but to the intent that the interpretation may be made known to the king, and that you may know the thoughts of your heart.
 
 <sup>31</sup> “You, O king, saw, and behold,<sup>a</sup> a great image. This image, which was mighty, and whose brightness was excellent, stood before you; and its appearance was terrifying.
-<sup>32</sup> As for this image, its head was of fine gold, its breast and its arms of silver, its belly and its thighs of bronze,
+<sup>32</sup> As for this image, its head was of fine gold, its chest and its arms of silver, its belly and its thighs of bronze,
 <sup>33</sup> its legs of iron, its feet part of iron and part of clay.
 <sup>34</sup> You saw until a stone was cut out without hands, which struck the image on its feet that were of iron and clay, and broke them in pieces.
 <sup>35</sup> Then the iron, the clay, the bronze, the silver, and the gold were broken in pieces together, and became like the chaff of the summer threshing floors. The wind carried them away, so that no place was found for them. The stone that struck the image became a great mountain and filled the whole earth.
@@ -161,40 +161,60 @@ Then Shadrach, Meshach, and Abednego came out of the middle of the fire.
 ## Chapter 4
 
 <sup>1</sup> Nebuchadnezzar the king,
+
+to all the peoples, nations, and languages, who dwell in all the earth:
+
+Peace be multiplied to you.
+
 <sup>2</sup> It has seemed good to me to show the signs and wonders that the Most High God has worked toward me.<br>
 <sup>3</sup> How great are his signs!<br>How mighty are his wonders!<br>His kingdom is an everlasting kingdom.<br>His dominion is from generation to generation.
+
 <sup>4</sup> I, Nebuchadnezzar, was at rest in my house, and flourishing in my palace.
 <sup>5</sup> I saw a dream which made me afraid; and the thoughts on my bed and the visions of my head troubled me.
 <sup>6</sup> Therefore I made a decree to bring in all the wise men of Babylon before me, that they might make known to me the interpretation of the dream.
 <sup>7</sup> Then the magicians, the enchanters, the Chaldeans, and the soothsayers came in; and I told them the dream, but they didn’t make known to me its interpretation.
 <sup>8</sup> But at last, Daniel came in before me, whose name was Belteshazzar according to the name of my god, and in whom is the spirit of the holy gods. I told the dream before him, saying,
+
 <sup>9</sup> “Belteshazzar, master of the magicians, because I know that the spirit of the holy gods is in you and no secret troubles you, tell me the visions of my dream that I have seen, and its interpretation.
 <sup>10</sup> These were the visions of my head on my bed: I saw, and behold, a tree in the middle of the earth; and its height was great.
 <sup>11</sup> The tree grew and was strong. Its height reached to the sky and its sight to the end of all the earth.
 <sup>12</sup> Its leaves were beautiful, and it had much fruit, and in it was food for all. The animals of the field had shade under it, and the birds of the sky lived in its branches, and all flesh was fed from it.
+
 <sup>13</sup> “I saw in the visions of my head on my bed, and behold, a holy watcher came down from the sky.
 <sup>14</sup> He cried aloud and said this: ‘Cut down the tree, and cut off its branches! Shake off its leaves and scatter its fruit! Let the animals get away from under it and the birds from its branches.
 <sup>15</sup> Nevertheless leave the stump of its roots in the earth, even with a band of iron and bronze, in the tender grass of the field; and let it be wet with the dew of the sky. Let his portion be with the animals in the grass of the earth.
 <sup>16</sup> Let his heart be changed from man’s, and let an animal’s heart be given to him. Then let seven times pass over him.
-<sup>17</sup> “ ‘The sentence is by the decree of the watchers and the demand by the word of the holy ones, to the intent that the living may know that the Most High rules in the kingdom of men, and gives it to whomever he will, and sets up over it the lowest of men.’
+
+<sup>17</sup> “‘The sentence is by the decree of the watchers and the demand by the word of the holy ones, to the intent that the living may know that the Most High rules in the kingdom of men, and gives it to whomever he will, and sets up over it the lowest of men.’
+
 <sup>18</sup> “This dream I, King Nebuchadnezzar, have seen; and you, Belteshazzar, declare the interpretation, because all the wise men of my kingdom are not able to make known to me the interpretation; but you are able, for the spirit of the holy gods is in you.”
-<sup>19</sup> Then Daniel, whose name was Belteshazzar, was stricken mute for a while, and his thoughts troubled him. The king answered, “Belteshazzar, don’t let the dream or the interpretation, trouble you.”
+
+<sup>19</sup> Then Daniel, whose name was Belteshazzar, was stricken mute for a while, and his thoughts troubled him. The king answered, “Belteshazzar, don’t let the dream or the interpretation trouble you.”
+
+Belteshazzar answered, “My lord, may the dream be for those who hate you, and its interpretation to your adversaries.
 <sup>20</sup> The tree that you saw, which grew and was strong, whose height reached to the sky and its sight to all the earth;
 <sup>21</sup> whose leaves were beautiful and its fruit plentiful, and in it was food for all; under which the animals of the field lived, and on whose branches the birds of the sky had their habitation—
 <sup>22</sup> it is you, O king, that have grown and become strong; for your greatness has grown, and reaches to the sky, and your dominion to the end of the earth.
+
 <sup>23</sup> “Whereas the king saw a holy watcher coming down from the sky and saying, ‘Cut down the tree, and destroy it; nevertheless leave the stump of its roots in the earth, even with a band of iron and bronze, in the tender grass of the field, and let it be wet with the dew of the sky. Let his portion be with the animals of the field, until seven times pass over him.’
+
 <sup>24</sup> “This is the interpretation, O king, and it is the decree of the Most High, which has come on my lord the king:
 <sup>25</sup> You will be driven from men and your dwelling shall be with the animals of the field. You will be made to eat grass as oxen, and will be wet with the dew of the sky, and seven times shall pass over you, until you know that the Most High rules in the kingdom of men, and gives it to whomever he will.
-<sup>26</sup> Whereas it was commanded to leave the stump of the roots of the tree, your kingdom shall be sure to you after you know that Heavens rules.
+<sup>26</sup> Whereas it was commanded to leave the stump of the roots of the tree, your kingdom shall be sure to you after you know that Heaven rules.
 <sup>27</sup> Therefore, O king, let my counsel be acceptable to you, and break off your sins by righteousness, and your iniquities by showing mercy to the poor. Perhaps there may be a lengthening of your tranquility.”
+
 <sup>28</sup> All this came on the King Nebuchadnezzar.
 <sup>29</sup> At the end of twelve months he was walking in the royal palace of Babylon.
 <sup>30</sup> The king spoke and said, “Is not this great Babylon, which I have built for the royal dwelling place by the might of my power and for the glory of my majesty?”
+
 <sup>31</sup> While the word was in the king’s mouth, a voice came from the sky, saying, “O King Nebuchadnezzar, to you it is spoken: ‘The kingdom has departed from you.
-<sup>32</sup> You shall be driven from men, and your dwelling shall be with the animals of the field. You shall be made to eat grass like oxen. Seven times shall pass over you, until you know that the Most High rules in the kingdom of men, and gives it to whomever he will.’ ”
+<sup>32</sup> You shall be driven from men, and your dwelling shall be with the animals of the field. You shall be made to eat grass like oxen. Seven times shall pass over you, until you know that the Most High rules in the kingdom of men, and gives it to whomever he will.’”
+
 <sup>33</sup> This was fulfilled the same hour on Nebuchadnezzar. He was driven from men and ate grass like oxen; and his body was wet with the dew of the sky until his hair had grown like eagles’ feathers, and his nails like birds’ claws.
+
 <sup>34</sup> At the end of the days I, Nebuchadnezzar, lifted up my eyes to heaven, and my understanding returned to me; and I blessed the Most High, and I praised and honored him who lives forever,<br>for his dominion is an everlasting dominion,<br>and his kingdom from generation to generation.<br>
 <sup>35</sup> All the inhabitants of the earth are reputed as nothing;<br>and he does according to his will in the army of heaven,<br>and among the inhabitants of the earth;<br>and no one can stop his hand,<br>or ask him, “What are you doing?”
+
 <sup>36</sup> At the same time my understanding returned to me; and for the glory of my kingdom, my majesty and brightness returned to me. My counselors and my lords sought me; and I was established in my kingdom, and excellent greatness was added to me.
 <sup>37</sup> Now I, Nebuchadnezzar, praise and extol and honor the King of heaven; for all his works are truth, and his ways justice; and those who walk in pride he is able to abase.
 
@@ -236,7 +256,11 @@ Then Shadrach, Meshach, and Abednego came out of the middle of the fire.
 <sup>25</sup> “This is the writing that was inscribed: ‘MENE, MENE, TEKEL, UPHARSIN.’
 
 <sup>26</sup> “This is the interpretation of the thing:
+
+MENE: God has counted your kingdom, and brought it to an end.
+
 <sup>27</sup> TEKEL: you are weighed in the balances, and are found wanting.
+
 <sup>28</sup> PERES: your kingdom is divided, and given to the Medes and Persians.”
 
 <sup>29</sup> Then Belshazzar commanded, and they clothed Daniel with purple, and put a chain of gold about his neck, and made proclamation concerning him, that he should be the third ruler in the kingdom.
@@ -275,7 +299,7 @@ The king answered, “This thing is true, according to the law of the Medes and 
 <sup>18</sup> Then the king went to his palace, and passed the night fasting. No musical instruments were brought before him; and his sleep fled from him.
 
 <sup>19</sup> Then the king arose very early in the morning, and went in haste to the den of lions.
-<sup>20</sup> When he came near to the den to Daniel, he cried with a troubled voice. The king spoke and said to Daniel, “Daniel, servant of the living God, is your God, whom you serve continually, able to deliver you from the lions?”
+<sup>20</sup> When he came near to Daniel in the den, he cried with a troubled voice. The king spoke and said to Daniel, “Daniel, servant of the living God, is your God, whom you serve continually, able to deliver you from the lions?”
 
 <sup>21</sup> Then Daniel said to the king, “O king, live forever!
 <sup>22</sup> My God has sent his angel, and has shut the lions’ mouths, and they have not hurt me, because innocence was found in me before him; and also before you, O king, I have done no harm.”
@@ -285,6 +309,9 @@ The king answered, “This thing is true, according to the law of the Medes and 
 <sup>24</sup> The king commanded, and they brought those men who had accused Daniel, and they cast them into the den of lions—them, their children, and their wives; and the lions mauled them, and broke all their bones in pieces before they came to the bottom of the den.
 
 <sup>25</sup> Then King Darius wrote to all the peoples, nations, and languages who dwell in all the earth:
+
+“Peace be multiplied to you.
+
 <sup>26</sup> “I make a decree that in all the dominion of my kingdom men tremble and fear before the God of Daniel.<br>“For he is the living God,<br>and steadfast forever.<br>His kingdom is that which will not be destroyed.<br>His dominion will be even to the end.<br>
 <sup>27</sup> He delivers and rescues.<br>He works signs and wonders in heaven and in earth,<br>who has delivered Daniel from the power of the lions.”
 
@@ -306,7 +333,7 @@ The king answered, “This thing is true, according to the law of the Medes and 
 <sup>7</sup> “After this I saw in the night visions, and, behold, there was a fourth animal, awesome, powerful, and exceedingly strong. It had great iron teeth. It devoured and broke in pieces, and stamped the residue with its feet. It was different from all the animals that were before it. It had ten horns.
 
 <sup>8</sup> “I considered the horns, and behold, there came up among them another horn, a little one, before which three of the first horns were plucked up by the roots; and behold, in this horn were eyes like the eyes of a man, and a mouth speaking arrogantly.<br>
-<sup>9</sup> “I watched until thrones were placed,<br>and one who was ancient of days sat.<br>His clothing was white as snow,<br>and the hair of his head like pure wool.<br>His throne was fiery flames,<br>and its wheels burning fire.<br>
+<sup>9</sup> “I watched until thrones were placed,<br>and one who was Ancient of Days sat.<br>His clothing was white as snow,<br>and the hair of his head like pure wool.<br>His throne was fiery flames,<br>and its wheels burning fire.<br>
 <sup>10</sup> A fiery stream issued and came out from before him.<br>Thousands of thousands ministered to him.<br>Ten thousand times ten thousand stood before him.<br>The judgment was set.<br>The books were opened.
 
 <sup>11</sup> “I watched at that time because of the voice of the arrogant words which the horn spoke. I watched even until the animal was slain, and its body destroyed, and it was given to be burned with fire.
@@ -325,13 +352,13 @@ The king answered, “This thing is true, according to the law of the Medes and 
 <sup>19</sup> “Then I desired to know the truth concerning the fourth animal, which was different from all of them, exceedingly terrible, whose teeth were of iron, and its nails of bronze; which devoured, broke in pieces, and stamped the residue with its feet;
 <sup>20</sup> and concerning the ten horns that were on its head and the other horn which came up, and before which three fell, even that horn that had eyes and a mouth that spoke arrogantly, whose look was more stout than its fellows.
 <sup>21</sup> I saw, and the same horn made war with the saints, and prevailed against them,
-<sup>22</sup> until the ancient of days came, and judgment was given to the saints of the Most High, and the time came that the saints possessed the kingdom.
+<sup>22</sup> until the Ancient of Days came, and judgment was given to the saints of the Most High, and the time came that the saints possessed the kingdom.
 
 <sup>23</sup> “So he said, ‘The fourth animal will be a fourth kingdom on earth, which will be different from all the kingdoms, and will devour the whole earth, and will tread it down and break it in pieces.
 <sup>24</sup> As for the ten horns, ten kings will arise out of this kingdom. Another will arise after them; and he will be different from the former, and he will put down three kings.
 <sup>25</sup> He will speak words against the Most High, and will wear out the saints of the Most High. He will plan to change the times and the law; and they will be given into his hand until a time and times and half a time.
 
-<sup>26</sup> “ ‘But the judgment will be set, and they will take away his dominion, to consume and to destroy it to the end.
+<sup>26</sup> “‘But the judgment will be set, and they will take away his dominion, to consume and to destroy it to the end.
 <sup>27</sup> The kingdom and the dominion, and the greatness of the kingdoms under the whole sky, will be given to the people of the saints of the Most High. His kingdom is an everlasting kingdom, and all dominions will serve and obey him.’
 
 <sup>28</sup> “Here is the end of the matter. As for me, Daniel, my thoughts troubled me greatly, and my face was changed in me; but I kept the matter in my heart.”
@@ -384,18 +411,25 @@ The king answered, “This thing is true, according to the law of the Medes and 
 <sup>3</sup> I set my face to the Lord God, to seek by prayer and petitions, with fasting and sackcloth and ashes.
 
 <sup>4</sup> I prayed to Yahweh my God, and made confession, and said,
+
+“Oh, Lord, the great and dreadful God, who keeps covenant and loving kindness with those who love him and keep his commandments,
 <sup>5</sup> we have sinned, and have dealt perversely, and have done wickedly, and have rebelled, even turning aside from your precepts and from your ordinances.
 <sup>6</sup> We haven’t listened to your servants the prophets, who spoke in your name to our kings, our princes, and our fathers, and to all the people of the land.
+
 <sup>7</sup> “Lord, righteousness belongs to you, but to us confusion of face, as it is today; to the men of Judah, and to the inhabitants of Jerusalem, and to all Israel, who are near and who are far off, through all the countries where you have driven them, because of their trespass that they have trespassed against you.
 <sup>8</sup> Lord, to us belongs confusion of face, to our kings, to our princes, and to our fathers, because we have sinned against you.
 <sup>9</sup> To the Lord our God belong mercies and forgiveness, for we have rebelled against him.
 <sup>10</sup> We haven’t obeyed Yahweh our God’s voice, to walk in his laws, which he set before us by his servants the prophets.
 <sup>11</sup> Yes, all Israel have transgressed your law, turning aside, that they should not obey your voice.
+
+“Therefore the curse and the oath written in the law of Moses the servant of God has been poured out on us, for we have sinned against him.
 <sup>12</sup> He has confirmed his words, which he spoke against us and against our judges who judged us, by bringing on us a great evil; for under the whole sky, such has not been done as has been done to Jerusalem.
 <sup>13</sup> As it is written in the law of Moses, all this evil has come on us. Yet we have not entreated the favor of Yahweh our God, that we should turn from our iniquities and have discernment in your truth.
 <sup>14</sup> Therefore Yahweh has watched over the evil, and brought it on us; for Yahweh our God is righteous in all his works which he does, and we have not obeyed his voice.
+
 <sup>15</sup> “Now, Lord our God, who has brought your people out of the land of Egypt with a mighty hand, and have gotten yourself renown, as it is today, we have sinned. We have done wickedly.
 <sup>16</sup> Lord, according to all your righteousness, please let your anger and your wrath be turned away from your city Jerusalem, your holy mountain; because for our sins and for the iniquities of our fathers, Jerusalem and your people have become a reproach to all who are around us.
+
 <sup>17</sup> “Now therefore, our God, listen to the prayer of your servant and to his petitions, and cause your face to shine on your sanctuary that is desolate, for the Lord’s sake.
 <sup>18</sup> My God, turn your ear and hear. Open your eyes and see our desolations, and the city which is called by your name; for we do not present our petitions before you for our righteousness, but for your great mercies’ sake.
 <sup>19</sup> Lord, hear. Lord, forgive. Lord, listen and do. Don’t defer, for your own sake, my God, because your city and your people are called by your name.”

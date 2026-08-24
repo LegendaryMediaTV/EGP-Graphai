@@ -78,9 +78,9 @@ She sat beside the reapers, and they passed her parched grain. She ate, was sati
 She told her mother-in-law with whom she had worked, “The man’s name with whom I worked today is Boaz.”
 <sup>20</sup> Naomi said to her daughter-in-law, “May he be blessed by Yahweh, who has not abandoned his kindness to the living and to the dead.” Naomi said to her, “The man is a close relative to us, one of our near kinsmen.”
 
-<sup>21</sup> Ruth the Moabitess said, “Yes, he said to me, ‘You shall stay close to my young men until they have finished all my harvest.’ ”
+<sup>21</sup> Ruth the Moabitess said, “Yes, he said to me, ‘You shall stay close to my young men until they have finished all my harvest.’”
 
-<sup>22</sup> Naomi said to Ruth her daughter-in-law, “It is good, my daughter, that you go out with his maidens, and that they not meet you in any other field.”
+<sup>22</sup> Naomi said to Ruth her daughter-in-law, “It is good, my daughter, that you go out with his maidens, and that they not harm you in any other field.”
 <sup>23</sup> So she stayed close to the maidens of Boaz, to glean to the end of barley harvest and of wheat harvest; and she lived with her mother-in-law.
 
 > - <sup>a</sup> 17. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
@@ -111,7 +111,7 @@ She answered, “I am Ruth your servant. Therefore spread the corner of your gar
 <sup>16</sup> When she came to her mother-in-law, she said, “How did it go, my daughter?”
 
 She told her all that the man had done for her.
-<sup>17</sup> She said, “He gave me these six measures of barley; for he said, ‘Don’t go empty to your mother-in-law.’ ”
+<sup>17</sup> She said, “He gave me these six measures of barley; for he said, ‘Don’t go empty to your mother-in-law.’”
 
 <sup>18</sup> Then she said, “Wait, my daughter, until you know what will happen; for the man will not rest until he has settled this today.”
 

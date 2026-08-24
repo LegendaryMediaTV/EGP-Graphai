@@ -53,7 +53,7 @@
 
 <sup>1</sup> Yahweh’s angel came up from Gilgal to Bochim. He said, “I brought you out of Egypt, and have brought you to the land which I swore to give your fathers. I said, ‘I will never break my covenant with you.
 <sup>2</sup> You shall make no covenant with the inhabitants of this land. You shall break down their altars.’ But you have not listened to my voice. Why have you done this?
-<sup>3</sup> Therefore I also said, ‘I will not drive them out from before you; but they shall be in your sides, and their gods will be a snare to you.’ ”
+<sup>3</sup> Therefore I also said, ‘I will not drive them out from before you; but they shall be in your sides, and their gods will be a snare to you.’”
 
 <sup>4</sup> When Yahweh’s angel spoke these words to all the children of Israel, the people lifted up their voice and wept.
 <sup>5</sup> They called the name of that place Bochim,<sup>a</sup> and they sacrificed there to Yahweh.
@@ -131,7 +131,7 @@ The king said, “Keep silence!” All who stood by him left him.
 <sup>4</sup> Now Deborah, a prophetess, the wife of Lappidoth, judged Israel at that time.
 <sup>5</sup> She lived under Deborah’s palm tree between Ramah and Bethel in the hill country of Ephraim; and the children of Israel came up to her for judgment.
 <sup>6</sup> She sent and called Barak the son of Abinoam out of Kedesh Naphtali, and said to him, “Hasn’t Yahweh, the God of Israel, commanded, ‘Go and lead the way to Mount Tabor, and take with you ten thousand men of the children of Naphtali and of the children of Zebulun?
-<sup>7</sup> I will draw to you, to the river Kishon, Sisera, the captain of Jabin’s army, with his chariots and his multitude; and I will deliver him into your hand.’ ”
+<sup>7</sup> I will draw to you, to the river Kishon, Sisera, the captain of Jabin’s army, with his chariots and his multitude; and I will deliver him into your hand.’”
 
 <sup>8</sup> Barak said to her, “If you will go with me, then I will go; but if you will not go with me, I will not go.”
 
@@ -153,7 +153,7 @@ The king said, “Keep silence!” All who stood by him left him.
 
 She opened a container of milk, and gave him a drink, and covered him.
 
-<sup>20</sup> He said to her, “Stand in the door of the tent, and if any man comes and inquires of you, and says, ‘Is there any man here?’ you shall say, ‘No.’ ”
+<sup>20</sup> He said to her, “Stand in the door of the tent, and if any man comes and inquires of you, and says, ‘Is there any man here?’ you shall say, ‘No.’”
 
 <sup>21</sup> Then Jael, Heber’s wife, took a tent peg, and took a hammer in her hand, and went softly to him, and struck the pin into his temples, and it pierced through into the ground, for he was in a deep sleep; so he fainted and died.
 <sup>22</sup> Behold, as Barak pursued Sisera, Jael came out to meet him, and said to him, “Come, and I will show you the man whom you seek.” He came to her; and behold, Sisera lay dead, and the tent peg was in his temples.
@@ -205,8 +205,6 @@ She opened a container of milk, and gave him a drink, and covered him.
 
 <sup>31</sup> “So let all your enemies perish, Yahweh,<br>but let those who love him be as the sun when it rises in its strength.”
 
-
-
 Then the land had rest forty years.
 
 ## Chapter 6
@@ -221,7 +219,7 @@ Then the land had rest forty years.
 <sup>7</sup> When the children of Israel cried to Yahweh because of Midian,
 <sup>8</sup> Yahweh sent a prophet to the children of Israel; and he said to them, “Yahweh, the God of Israel, says, ‘I brought you up from Egypt, and brought you out of the house of bondage.
 <sup>9</sup> I delivered you out of the hand of the Egyptians and out of the hand of all who oppressed you, and drove them out from before you, and gave you their land.
-<sup>10</sup> I said to you, “I am Yahweh your God. You shall not fear the gods of the Amorites, in whose land you dwell.” But you have not listened to my voice.’ ”
+<sup>10</sup> I said to you, “I am Yahweh your God. You shall not fear the gods of the Amorites, in whose land you dwell.” But you have not listened to my voice.’”
 
 <sup>11</sup> Yahweh’s angel came and sat under the oak which was in Ophrah, that belonged to Joash the Abiezrite. His son Gideon was beating out wheat in the wine press, to hide it from the Midianites.
 <sup>12</sup> Yahweh’s angel appeared to him, and said to him, “Yahweh is with you, you mighty man of valor!”
@@ -288,7 +286,7 @@ When they inquired and asked, they said, “Gideon the son of Joash has done thi
 
 <sup>1</sup> Then Jerubbaal, who is Gideon, and all the people who were with him, rose up early and encamped beside the spring of Harod. Midian’s camp was on the north side of them, by the hill of Moreh, in the valley.
 <sup>2</sup> Yahweh said to Gideon, “The people who are with you are too many for me to give the Midianites into their hand, lest Israel brag against me, saying, ‘My own hand has saved me.’
-<sup>3</sup> Now therefore proclaim in the ears of the people, saying, ‘Whoever is fearful and trembling, let him return and depart from Mount Gilead.’ ” So twenty-two thousand of the people returned, and ten thousand remained.
+<sup>3</sup> Now therefore proclaim in the ears of the people, saying, ‘Whoever is fearful and trembling, let him return and depart from Mount Gilead.’” So twenty-two thousand of the people returned, and ten thousand remained.
 
 <sup>4</sup> Yahweh said to Gideon, “There are still too many people. Bring them down to the water, and I will test them for you there. It shall be, that those whom I tell you, ‘This shall go with you,’ shall go with you; and whoever I tell you, ‘This shall not go with you,’ shall not go.”
 <sup>5</sup> So he brought down the people to the water; and Yahweh said to Gideon, “Everyone who laps of the water with his tongue, like a dog laps, you shall set him by himself; likewise everyone who bows down on his knees to drink.”
@@ -311,7 +309,7 @@ When they inquired and asked, they said, “Gideon the son of Joash has done thi
 <sup>16</sup> He divided the three hundred men into three companies, and he put into the hands of all of them trumpets and empty pitchers, with torches within the pitchers.
 
 <sup>17</sup> He said to them, “Watch me, and do likewise. Behold, when I come to the outermost part of the camp, it shall be that, as I do, so you shall do.
-<sup>18</sup> When I blow the trumpet, I and all who are with me, then blow the trumpets also on every side of all the camp, and shout, ‘For Yahweh and for Gideon!’ ”
+<sup>18</sup> When I blow the trumpet, I and all who are with me, then blow the trumpets also on every side of all the camp, and shout, ‘For Yahweh and for Gideon!’”
 
 <sup>19</sup> So Gideon and the hundred men who were with him came to the outermost part of the camp in the beginning of the middle watch, when they had but newly set the watch. Then they blew the trumpets and broke in pieces the pitchers that were in their hands.
 <sup>20</sup> The three companies blew the trumpets, broke the pitchers, and held the torches in their left hands and the trumpets in their right hands with which to blow; and they shouted, “The sword of Yahweh and of Gideon!”
@@ -342,7 +340,7 @@ When they inquired and asked, they said, “Gideon the son of Joash has done thi
 <sup>12</sup> Zebah and Zalmunna fled and he pursued them. He took the two kings of Midian, Zebah and Zalmunna, and confused all the army.
 <sup>13</sup> Gideon the son of Joash returned from the battle from the ascent of Heres.
 <sup>14</sup> He caught a young man of the men of Succoth, and inquired of him; and he described for him the princes of Succoth, and its elders, seventy-seven men.
-<sup>15</sup> He came to the men of Succoth, and said, “See Zebah and Zalmunna, concerning whom you taunted me, saying, ‘Are the hands of Zebah and Zalmunna now in your hand, that we should give bread to your men who are weary?’ ”
+<sup>15</sup> He came to the men of Succoth, and said, “See Zebah and Zalmunna, concerning whom you taunted me, saying, ‘Are the hands of Zebah and Zalmunna now in your hand, that we should give bread to your men who are weary?’”
 <sup>16</sup> He took the elders of the city, and thorns of the wilderness and briers, and with them he taught the men of Succoth.
 <sup>17</sup> He broke down the tower of Penuel, and killed the men of the city.
 
@@ -555,7 +553,7 @@ Zebul said to him, “You see the shadows of the mountains as if they were men.�
 
 <sup>4</sup> Then Jephthah gathered together all the men of Gilead, and fought with Ephraim. The men of Gilead struck Ephraim, because they said, “You are fugitives of Ephraim, you Gileadites, in the middle of Ephraim, and in the middle of Manasseh.”
 <sup>5</sup> The Gileadites took the fords of the Jordan against the Ephraimites. Whenever a fugitive of Ephraim said, “Let me go over,” the men of Gilead said to him, “Are you an Ephraimite?” If he said, “No;”
-<sup>6</sup> then they said to him, “Now say ‘Shibboleth;’ ” and he said “Sibboleth”; for he couldn’t manage to pronounce it correctly, then they seized him and killed him at the fords of the Jordan. At that time, forty-two thousand of Ephraim fell.
+<sup>6</sup> then they said to him, “Now say ‘Shibboleth;’” and he said “Sibboleth”; for he couldn’t manage to pronounce it correctly, then they seized him and killed him at the fords of the Jordan. At that time, forty-two thousand of Ephraim fell.
 
 <sup>7</sup> Jephthah judged Israel six years. Then Jephthah the Gileadite died, and was buried in the cities of Gilead.
 
@@ -580,7 +578,7 @@ Zebul said to him, “You see the shadows of the mountains as if they were men.�
 <sup>5</sup> for, behold, you shall conceive and give birth to a son. No razor shall come on his head, for the child shall be a Nazirite to God from the womb. He shall begin to save Israel out of the hand of the Philistines.”
 
 <sup>6</sup> Then the woman came and told her husband, saying, “A man of God came to me, and his face was like the face of the angel of God, very awesome. I didn’t ask him where he was from, neither did he tell me his name;
-<sup>7</sup> but he said to me, ‘Behold, you shall conceive and bear a son; and now drink no wine nor strong drink. Don’t eat any unclean thing, for the child shall be a Nazirite to God from the womb to the day of his death.’ ”
+<sup>7</sup> but he said to me, ‘Behold, you shall conceive and bear a son; and now drink no wine nor strong drink. Don’t eat any unclean thing, for the child shall be a Nazirite to God from the womb to the day of his death.’”
 
 <sup>8</sup> Then Manoah entreated Yahweh, and said, “Oh, Lord, please let the man of God whom you sent come again to us, and teach us what we should do to the child who shall be born.”
 
@@ -719,7 +717,7 @@ Samson said to them, “Swear to me that you will not attack me yourselves.”
 
 <sup>10</sup> Delilah said to Samson, “Behold, you have mocked me, and told me lies. Now please tell me how you might be bound.”
 
-<sup>11</sup> He said to her, “If they only bind me with new ropes with which no work has been done, then shall I become weak, and be as another man.”
+<sup>11</sup> He said to her, “If they only bind me with new ropes with which no work has been done, then I will become weak, and be as another man.”
 
 <sup>12</sup> So Delilah took new ropes and bound him with them, then said to him, “The Philistines are on you, Samson!” The ambush was waiting in the inner room. He broke them off his arms like a thread.
 
@@ -778,7 +776,7 @@ He said to him, “I am a Levite of Bethlehem Judah, and I am looking for a plac
 <sup>12</sup> Micah consecrated the Levite, and the young man became his priest, and was in the house of Micah.
 <sup>13</sup> Then Micah said, “Now I know that Yahweh will do good to me, since I have a Levite as my priest.”
 
-> - <sup>a</sup> 5. teraphim were household idols that may have been associated with inheritance rights to the household property.
+> - <sup>a</sup> 5. Teraphim were household idols that may have been associated with inheritance rights to the household property.
 
 ## Chapter 18
 
@@ -798,7 +796,7 @@ They came to the hill country of Ephraim, to the house of Micah, and lodged ther
 <sup>8</sup> They came to their brothers at Zorah and Eshtaol; and their brothers asked them, “What do you say?”
 
 <sup>9</sup> They said, “Arise, and let’s go up against them; for we have seen the land, and behold, it is very good. Do you stand still? Don’t be slothful to go and to enter in to possess the land.
-<sup>10</sup> When you go, you will come to an unsuspecting people, and the land is large; for God has given it into your hand, a place where there is no lack of anything that is in the earth.”
+<sup>10</sup> When you go, you will come to an unsuspecting people, and the land is large; for God has given it into your hand, a place where there is no lack of anything that is on the earth.”
 
 <sup>11</sup> The family of the Danites set out from Zorah and Eshtaol with six hundred men armed with weapons of war.
 <sup>12</sup> They went up and encamped in Kiriath Jearim in Judah. Therefore they call that place Mahaneh Dan to this day. Behold, it is behind Kiriath Jearim.
@@ -818,7 +816,7 @@ They came to the hill country of Ephraim, to the house of Micah, and lodged ther
 <sup>22</sup> When they were a good way from the house of Micah, the men who were in the houses near Micah’s house gathered together and overtook the children of Dan.
 <sup>23</sup> As they called to the children of Dan, they turned their faces, and said to Micah, “What ails you, that you come with such a company?”
 
-<sup>24</sup> He said, “You have taken away my gods which I made, and the priest, and have gone away! What more do I have? How can you ask me, ‘What ails you?’ ”
+<sup>24</sup> He said, “You have taken away my gods which I made, and the priest, and have gone away! What more do I have? How can you ask me, ‘What ails you?’”
 
 <sup>25</sup> The children of Dan said to him, “Don’t let your voice be heard among us, lest angry fellows fall on you, and you lose your life, with the lives of your household.”
 
@@ -829,7 +827,7 @@ They came to the hill country of Ephraim, to the house of Micah, and lodged ther
 <sup>30</sup> The children of Dan set up for themselves the engraved image; and Jonathan, the son of Gershom, the son of Moses, and his sons were priests to the tribe of the Danites until the day of the captivity of the land.
 <sup>31</sup> So they set up for themselves Micah’s engraved image which he made, and it remained all the time that God’s house was in Shiloh.
 
-> - <sup>a</sup> 14. teraphim were household idols that may have been associated with inheritance rights to the household property.
+> - <sup>a</sup> 14. Teraphim were household idols that may have been associated with inheritance rights to the household property.
 
 ## Chapter 19
 
@@ -965,11 +963,11 @@ Yahweh said, “Go up; for tomorrow I will deliver him into your hand.”
 <sup>15</sup> The people grieved for Benjamin, because Yahweh had made a breach in the tribes of Israel.
 <sup>16</sup> Then the elders of the congregation said, “How shall we provide wives for those who remain, since the women are destroyed out of Benjamin?”
 <sup>17</sup> They said, “There must be an inheritance for those who are escaped of Benjamin, that a tribe not be blotted out from Israel.
-<sup>18</sup> However, we may not give them wives of our daughters, for the children of Israel had sworn, saying, ‘Cursed is he who gives a wife to Benjamin.’ ”
+<sup>18</sup> However, we may not give them wives of our daughters, for the children of Israel had sworn, saying, ‘Cursed is he who gives a wife to Benjamin.’”
 <sup>19</sup> They said, “Behold, there is a feast of Yahweh from year to year in Shiloh, which is on the north of Bethel, on the east side of the highway that goes up from Bethel to Shechem, and on the south of Lebonah.”
 <sup>20</sup> They commanded the children of Benjamin, saying, “Go and lie in wait in the vineyards,
 <sup>21</sup> and see, and behold, if the daughters of Shiloh come out to dance in the dances, then come out of the vineyards, and each man catch his wife of the daughters of Shiloh, and go to the land of Benjamin.
-<sup>22</sup> It shall be, when their fathers or their brothers come to complain to us, that we will say to them, ‘Grant them graciously to us, because we didn’t take for each man his wife in battle, neither did you give them to them; otherwise you would now be guilty.’ ”
+<sup>22</sup> It shall be, when their fathers or their brothers come to complain to us, that we will say to them, ‘Grant them graciously to us, because we didn’t take for each man his wife in battle, neither did you give them to them; otherwise you would now be guilty.’”
 
 <sup>23</sup> The children of Benjamin did so, and took wives for themselves according to their number, of those who danced, whom they carried off. They went and returned to their inheritance, built the cities, and lived in them.
 <sup>24</sup> The children of Israel departed from there at that time, every man to his tribe and to his family, and they each went out from there to his own inheritance.

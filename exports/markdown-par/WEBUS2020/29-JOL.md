@@ -42,7 +42,7 @@
 <sup>14</sup> Who knows? He may turn and relent,<br>and leave a blessing behind him,<br>even a meal offering and a drink offering to Yahweh, your God.<br>
 <sup>15</sup> Blow the trumpet in Zion!<br>Sanctify a fast.<br>Call a solemn assembly.<br>
 <sup>16</sup> Gather the people.<br>Sanctify the assembly.<br>Assemble the elders.<br>Gather the children, and those who nurse from breasts.<br>Let the bridegroom go out of his room,<br>and the bride out of her chamber.<br>
-<sup>17</sup> Let the priests, the ministers of Yahweh, weep between the porch and the altar,<br>and let them say, “Spare your people, Yahweh,<br>and don’t give your heritage to reproach,<br>that the nations should rule over them.<br>Why should they say among the peoples,<br>‘Where is their God?’ ”<br>
+<sup>17</sup> Let the priests, the ministers of Yahweh, weep between the porch and the altar,<br>and let them say, “Spare your people, Yahweh,<br>and don’t give your heritage to reproach,<br>that the nations should rule over them.<br>Why should they say among the peoples,<br>‘Where is their God?’”<br>
 <sup>18</sup> Then Yahweh was jealous for his land,<br>and had pity on his people.<br>
 <sup>19</sup> Yahweh answered his people,<br>“Behold,<sup>a</sup> I will send you grain, new wine, and oil,<br>and you will be satisfied with them;<br>and I will no more make you a reproach among the nations.<br>
 <sup>20</sup> But I will remove the northern army far away from you,<br>and will drive it into a barren and desolate land,<br>its front into the eastern sea,<br>and its back into the western sea;<br>and its stench will come up,<br>and its bad smell will rise.”<br>Surely he has done great things.<br>
@@ -57,7 +57,7 @@
 
 <sup>28</sup> “It will happen afterward, that I will pour out my Spirit on all flesh;<br>and your sons and your daughters will prophesy.<br>Your old men will dream dreams.<br>Your young men will see visions.<br>
 <sup>29</sup> And also on the servants and on the handmaids in those days,<br>I will pour out my Spirit.<br>
-<sup>30</sup> I will show wonders in the heavens and in the earth:<br>blood, fire, and pillars of smoke.<br>
+<sup>30</sup> I will show wonders in the heavens and on the earth:<br>blood, fire, and pillars of smoke.<br>
 <sup>31</sup> The sun will be turned into darkness,<br>and the moon into blood,<br>before the great and terrible day of Yahweh comes.<br>
 <sup>32</sup> It will happen that whoever will call on Yahweh’s name shall be saved;<br>for in Mount Zion and in Jerusalem there will be those who escape,<br>as Yahweh has said,<br>and among the remnant, those whom Yahweh calls.
 

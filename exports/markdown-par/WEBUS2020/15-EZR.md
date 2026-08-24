@@ -1,9 +1,10 @@
 ## Chapter 1
 
 <sup>1</sup> Now in the first year of Cyrus king of Persia, that Yahweh’s<sup>a</sup> word by Jeremiah’s mouth might be accomplished, Yahweh stirred up the spirit of Cyrus king of Persia, so that he made a proclamation throughout all his kingdom, and put it also in writing, saying,
+
 <sup>2</sup> “Cyrus king of Persia says, ‘Yahweh, the God<sup>b</sup> of heaven, has given me all the kingdoms of the earth; and he has commanded me to build him a house in Jerusalem, which is in Judah.
 <sup>3</sup> Whoever there is among you of all his people, may his God be with him, and let him go up to Jerusalem, which is in Judah, and build the house of Yahweh, the God of Israel (he is God), which is in Jerusalem.
-<sup>4</sup> Whoever is left, in any place where he lives, let the men of his place help him with silver, with gold, with goods, and with animals, in addition to the free will offering for God’s house which is in Jerusalem.’ ”
+<sup>4</sup> Whoever is left, in any place where he lives, let the men of his place help him with silver, with gold, with goods, and with animals, in addition to the free will offering for God’s house which is in Jerusalem.’”
 
 <sup>5</sup> Then the heads of fathers’ households of Judah and Benjamin, the priests and the Levites, all whose spirit God had stirred to go up, rose up to build Yahweh’s house which is in Jerusalem.
 <sup>6</sup> All those who were around them strengthened their hands with vessels of silver, with gold, with goods, with animals, and with precious things, in addition to all that was willingly offered.
@@ -100,7 +101,7 @@ The number of the men of the people of Israel:
 <sup>70</sup> So the priests and the Levites, with some of the people, the singers, the gatekeepers, and the temple servants, lived in their cities, and all Israel in their cities.
 
 > - <sup>a</sup> 59. or, seed
-> - <sup>b</sup> 69. a daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each.
+> - <sup>b</sup> 69. A daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each.
 > - <sup>c</sup> 69. A mina is about 600 grams or 1.3 U. S. pounds, so 5,000 minas is about 3 metric tons.
 
 ## Chapter 3
@@ -140,6 +141,8 @@ The number of the men of the people of Israel:
 
 <sup>11</sup> This is the copy of the letter that they sent:
 
+To King Artaxerxes, from your servants, the people beyond the River.
+
 <sup>12</sup> Be it known to the king that the Jews who came up from you have come to us to Jerusalem. They are building the rebellious and bad city, and have finished the walls and repaired the foundations.
 <sup>13</sup> Be it known now to the king that if this city is built and the walls finished, they will not pay tribute, custom, or toll, and in the end it will be hurtful to the kings.
 <sup>14</sup> Now because we eat the salt of the palace and it is not appropriate for us to see the king’s dishonor, therefore we have sent and informed the king,
@@ -147,6 +150,8 @@ The number of the men of the people of Israel:
 <sup>16</sup> We inform the king that if this city is built and the walls finished, then you will have no possession beyond the River.
 
 <sup>17</sup> Then the king sent an answer to Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions who live in Samaria, and in the rest of the country beyond the River:
+
+Peace.
 
 <sup>18</sup> The letter which you sent to us has been plainly read before me.
 <sup>19</sup> I decreed, and search has been made, and it was found that this city has made insurrection against kings in the past, and that rebellion and revolts have been made in it.
@@ -169,6 +174,8 @@ The number of the men of the people of Israel:
 <sup>6</sup> The copy of the letter that Tattenai, the governor beyond the River, and Shetharbozenai, and his companions the Apharsachites who were beyond the River, sent to Darius the king follows.
 <sup>7</sup> They sent a letter to him, in which was written:
 
+To Darius the king, all peace.
+
 <sup>8</sup> Be it known to the king that we went into the province of Judah, to the house of the great God, which is being built with great stones and timber is laid in the walls. This work goes on with diligence and prospers in their hands.
 <sup>9</sup> Then we asked those elders, and said to them thus, “Who gave you a decree to build this house, and to finish this wall?”
 <sup>10</sup> We asked them their names also, to inform you that we might write the names of the men who were at their head.
@@ -178,6 +185,7 @@ The number of the men of the people of Israel:
 <sup>14</sup> The gold and silver vessels of God’s house, which Nebuchadnezzar took out of the temple that was in Jerusalem and brought into the temple of Babylon, those Cyrus the king also took out of the temple of Babylon, and they were delivered to one whose name was Sheshbazzar, whom he had made governor.
 <sup>15</sup> He said to him, ‘Take these vessels, go, put them in the temple that is in Jerusalem, and let God’s house be built in its place.’
 <sup>16</sup> Then the same Sheshbazzar came and laid the foundations of God’s house which is in Jerusalem. Since that time even until now it has been being built, and yet it is not completed.
+
 <sup>17</sup> Now therefore, if it seems good to the king, let a search be made in the king’s treasure house, which is there at Babylon, whether it is so that a decree was made by Cyrus the king to build this house of God at Jerusalem; and let the king send his pleasure to us concerning this matter.”
 
 ## Chapter 6
@@ -188,6 +196,7 @@ The number of the men of the people of Israel:
 <sup>3</sup> In the first year of Cyrus the king, Cyrus the king made a decree: Concerning God’s house at Jerusalem, let the house be built, the place where they offer sacrifices, and let its foundations be strongly laid, with its height sixty cubits<sup>a</sup> and its width sixty cubits;
 <sup>4</sup> with three courses of great stones and a course of new timber. Let the expenses be given out of the king’s house.
 <sup>5</sup> Also let the gold and silver vessels of God’s house, which Nebuchadnezzar took out of the temple which is at Jerusalem and brought to Babylon, be restored and brought again to the temple which is at Jerusalem, everything to its place. You shall put them in God’s house.
+
 <sup>6</sup> Now therefore, Tattenai, governor beyond the River, Shetharbozenai, and your companions the Apharsachites, who are beyond the River, you must stay far from there.
 <sup>7</sup> Leave the work of this house of God alone; let the governor of the Jews and the elders of the Jews build this house of God in its place.
 <sup>8</sup> Moreover I make a decree regarding what you shall do for these elders of the Jews for the building of this house of God: that of the king’s goods, even of the tribute beyond the River, expenses must be given with all diligence to these men, that they not be hindered.
@@ -228,6 +237,10 @@ The number of the men of the people of Israel:
 <sup>11</sup> Now this is the copy of the letter that King Artaxerxes gave to Ezra the priest, the scribe, even the scribe of the words of Yahweh’s commandments, and of his statutes to Israel:
 
 <sup>12</sup> Artaxerxes, king of kings,
+
+To Ezra the priest, the scribe of the law of the perfect God of heaven.
+
+Now
 <sup>13</sup> I make a decree that all those of the people of Israel and their priests and the Levites in my realm, who intend of their own free will to go to Jerusalem, go with you.
 <sup>14</sup> Because you are sent by the king and his seven counselors to inquire concerning Judah and Jerusalem, according to the law of your God which is in your hand,
 <sup>15</sup> and to carry the silver and gold, which the king and his counselors have freely offered to the God of Israel, whose habitation is in Jerusalem,
@@ -236,10 +249,13 @@ The number of the men of the people of Israel:
 <sup>18</sup> Whatever seems good to you and to your brothers to do with the rest of the silver and the gold, do that according to the will of your God.
 <sup>19</sup> The vessels that are given to you for the service of the house of your God, deliver before the God of Jerusalem.
 <sup>20</sup> Whatever more will be needed for the house of your God, which you may have occasion to give, give it out of the king’s treasure house.
+
 <sup>21</sup> I, even I, Artaxerxes the king, make a decree to all the treasurers who are beyond the River, that whatever Ezra the priest, the scribe of the law of the God of heaven, requires of you, it shall be done with all diligence,
 <sup>22</sup> up to one hundred talents<sup>a</sup> of silver, and to one hundred cors<sup>b</sup> of wheat, and to one hundred baths<sup>c</sup> of wine, and to one hundred baths of oil, and salt without prescribing how much.
 <sup>23</sup> Whatever is commanded by the God of heaven, let it be done exactly for the house of the God of heaven; for why should there be wrath against the realm of the king and his sons?
+
 <sup>24</sup> Also we inform you that it shall not be lawful to impose tribute, custom, or toll on any of the priests, Levites, singers, gatekeepers, temple servants, or laborers of this house of God.
+
 <sup>25</sup> You, Ezra, according to the wisdom of your God that is in your hand, appoint magistrates and judges who may judge all the people who are beyond the River, who all know the laws of your God; and teach him who doesn’t know them.
 <sup>26</sup> Whoever will not do the law of your God and the law of the king, let judgment be executed on him with all diligence, whether it is to death, or to banishment, or to confiscation of goods, or to imprisonment.
 
@@ -253,18 +269,35 @@ The number of the men of the people of Israel:
 ## Chapter 8
 
 <sup>1</sup> Now these are the heads of their fathers’ households, and this is the genealogy of those who went up with me from Babylon, in the reign of Artaxerxes the king:
+
 <sup>2</sup> Of the sons of Phinehas, Gershom.
+
+Of the sons of Ithamar, Daniel.
+
+Of the sons of David, Hattush.
+
 <sup>3</sup> Of the sons of Shecaniah, of the sons of Parosh, Zechariah; and with him were listed by genealogy of the males one hundred fifty.
+
 <sup>4</sup> Of the sons of Pahathmoab, Eliehoenai the son of Zerahiah; and with him two hundred males.
+
 <sup>5</sup> Of the sons of Shecaniah, the son of Jahaziel; and with him three hundred males.
+
 <sup>6</sup> Of the sons of Adin, Ebed the son of Jonathan; and with him fifty males.
+
 <sup>7</sup> Of the sons of Elam, Jeshaiah the son of Athaliah; and with him seventy males.
+
 <sup>8</sup> Of the sons of Shephatiah, Zebadiah the son of Michael; and with him eighty males.
+
 <sup>9</sup> Of the sons of Joab, Obadiah the son of Jehiel; and with him two hundred eighteen males.
+
 <sup>10</sup> Of the sons of Shelomith, the son of Josiphiah; and with him one hundred sixty males.
+
 <sup>11</sup> Of the sons of Bebai, Zechariah the son of Bebai; and with him twenty-eight males.
+
 <sup>12</sup> Of the sons of Azgad, Johanan the son of Hakkatan; and with him one hundred ten males.
+
 <sup>13</sup> Of the sons of Adonikam, who were the last, their names are: Eliphelet, Jeuel, and Shemaiah; and with them sixty males.
+
 <sup>14</sup> Of the sons of Bigvai, Uthai and Zabbud; and with them seventy males.
 
 <sup>15</sup> I gathered them together to the river that runs to Ahava; and there we encamped three days. Then I looked around at the people and the priests, and found there were none of the sons of Levi.
@@ -296,7 +329,7 @@ The number of the men of the people of Israel:
 <sup>36</sup> They delivered the king’s commissions to the king’s local governors and to the governors beyond the River. So they supported the people and God’s house.
 
 > - <sup>a</sup> 26. A talent is about 30 kilograms or 66 pounds or 965 Troy ounces
-> - <sup>b</sup> 27. a daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each.
+> - <sup>b</sup> 27. A daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each.
 
 ## Chapter 9
 
@@ -349,21 +382,39 @@ The number of the men of the people of Israel:
 <sup>17</sup> They finished with all the men who had married foreign women by the first day of the first month.
 
 <sup>18</sup> Among the sons of the priests there were found who had married foreign women:
+
+of the sons of Jeshua, the son of Jozadak, and his brothers: Maaseiah, Eliezer, Jarib, and Gedaliah.
 <sup>19</sup> They gave their hand that they would put away their wives; and being guilty, they offered a ram of the flock for their guilt.
+
 <sup>20</sup> Of the sons of Immer: Hanani and Zebadiah.
+
 <sup>21</sup> Of the sons of Harim: Maaseiah, Elijah, Shemaiah, Jehiel, and Uzziah.
+
 <sup>22</sup> Of the sons of Pashhur: Elioenai, Maaseiah, Ishmael, Nethanel, Jozabad, and Elasah.
+
 <sup>23</sup> Of the Levites: Jozabad, Shimei, Kelaiah (also called Kelita), Pethahiah, Judah, and Eliezer.
+
 <sup>24</sup> Of the singers: Eliashib.
+
+Of the gatekeepers: Shallum, Telem, and Uri.
+
 <sup>25</sup> Of Israel: Of the sons of Parosh: Ramiah, Izziah, Malchijah, Mijamin, Eleazar, Malchijah, and Benaiah.
+
 <sup>26</sup> Of the sons of Elam: Mattaniah, Zechariah, Jehiel, Abdi, Jeremoth, and Elijah.
+
 <sup>27</sup> Of the sons of Zattu: Elioenai, Eliashib, Mattaniah, Jeremoth, Zabad, and Aziza.
+
 <sup>28</sup> Of the sons of Bebai: Jehohanan, Hananiah, Zabbai, and Athlai.
+
 <sup>29</sup> Of the sons of Bani: Meshullam, Malluch, Adaiah, Jashub, Sheal, and Jeremoth.
+
 <sup>30</sup> Of the sons of Pahathmoab: Adna, Chelal, Benaiah, Maaseiah, Mattaniah, Bezalel, Binnui, and Manasseh.
+
 <sup>31</sup> Of the sons of Harim: Eliezer, Isshijah, Malchijah, Shemaiah, Shimeon,
 <sup>32</sup> Benjamin, Malluch, and Shemariah.
+
 <sup>33</sup> Of the sons of Hashum: Mattenai, Mattattah, Zabad, Eliphelet, Jeremai, Manasseh, and Shimei.
+
 <sup>34</sup> Of the sons of Bani: Maadai, Amram, Uel,
 <sup>35</sup> Benaiah, Bedeiah, Cheluhi,
 <sup>36</sup> Vaniah, Meremoth, Eliashib,
@@ -373,6 +424,7 @@ The number of the men of the people of Israel:
 <sup>40</sup> Machnadebai, Shashai, Sharai,
 <sup>41</sup> Azarel, Shelemiah, Shemariah,
 <sup>42</sup> Shallum, Amariah, and Joseph.
+
 <sup>43</sup> Of the sons of Nebo: Jeiel, Mattithiah, Zabad, Zebina, Iddo, Joel, and Benaiah.
 
 <sup>44</sup> All these had taken foreign wives. Some of them had wives by whom they had children.

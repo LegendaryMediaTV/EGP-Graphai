@@ -378,7 +378,7 @@
 <sup>28</sup> He who trusts in his riches will fall,<br>but the righteous shall flourish as the green leaf.<br>
 <sup>29</sup> He who troubles his own house shall inherit the wind.<br>The foolish shall be servant to the wise of heart.<br>
 <sup>30</sup> The fruit of the righteous is a tree of life.<br>He who is wise wins souls.<br>
-<sup>31</sup> Behold, the righteous shall be repaid in the earth,<br>how much more the wicked and the sinner!
+<sup>31</sup> Behold, the righteous shall be repaid on the earth,<br>how much more the wicked and the sinner!
 
 > - <sup>a</sup> 21. or, seed
 
@@ -615,7 +615,7 @@
 ## Chapter 19
 
 <sup>1</sup> Better is the poor who walks in his integrity<br>than he who is perverse in his lips and is a fool.<br>
-<sup>2</sup> It isn’t good to have zeal without knowledge,<br>nor being hasty with one’s feet and missing the way.<br>
+<sup>2</sup> It isn’t good to have zeal without knowledge,<br>nor to be hasty with one’s feet and miss the way.<br>
 <sup>3</sup> The foolishness of man subverts his way;<br>his heart rages against Yahweh.<br>
 <sup>4</sup> Wealth adds many friends,<br>but the poor is separated from his friend.<br>
 <sup>5</sup> A false witness shall not be unpunished.<br>He who pours out lies shall not go free.<br>
@@ -717,7 +717,7 @@
 <sup>2</sup> The rich and the poor have this in common:<br>Yahweh is the maker of them all.<br>
 <sup>3</sup> A prudent man sees danger and hides himself;<br>but the simple pass on, and suffer for it.<br>
 <sup>4</sup> The result of humility and the fear of Yahweh<br>is wealth, honor, and life.<br>
-<sup>5</sup> Thorns and snares are in the path of the wicked;<br>whoever guards his soul stays from them.<br>
+<sup>5</sup> Thorns and snares are in the path of the wicked;<br>whoever guards his soul stays far from them.<br>
 <sup>6</sup> Train up a child in the way he should go,<br>and when he is old he will not depart from it.<br>
 <sup>7</sup> The rich rule over the poor.<br>The borrower is servant to the lender.<br>
 <sup>8</sup> He who sows wickedness reaps trouble,<br>and the rod of his fury will be destroyed.<br>
@@ -807,7 +807,7 @@
 <sup>9</sup> The schemes of folly are sin.<br>The mocker is detested by men.<br>
 <sup>10</sup> If you falter in the time of trouble,<br>your strength is small.<br>
 <sup>11</sup> Rescue those who are being led away to death!<br>Indeed, hold back those who are staggering to the slaughter!<br>
-<sup>12</sup> If you say, “Behold, we didn’t know this,”<br>doesn’t he who weighs the hearts consider it?<br>He who keeps your soul, doesn’t he know it?<br>Shall he not render to every man according to his work?<br>
+<sup>12</sup> If you say, “Behold, we didn’t know this,”<br>doesn’t he who weighs the hearts consider it?<br>He who keeps your soul, doesn’t he know it?<br>Shall he not give to every man according to his work?<br>
 <sup>13</sup> My son, eat honey, for it is good,<br>the droppings of the honeycomb, which are sweet to your taste;<br>
 <sup>14</sup> so you shall know wisdom to be to your soul.<br>If you have found it, then there will be a reward:<br>Your hope will not be cut off.<br>
 <sup>15</sup> Don’t lay in wait, wicked man, against the habitation of the righteous.<br>Don’t destroy his resting place;<br>

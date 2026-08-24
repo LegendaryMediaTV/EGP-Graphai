@@ -82,7 +82,7 @@
 <sup>1</sup> Now the serpent was more subtle than any animal of the field which Yahweh God had made. He said to the woman, “Has God really said, ‘You shall not eat of any tree of the garden’?”
 
 <sup>2</sup> The woman said to the serpent, “We may eat fruit from the trees of the garden,
-<sup>3</sup> but not the fruit of the tree which is in the middle of the garden. God has said, ‘You shall not eat of it. You shall not touch it, lest you die.’ ”
+<sup>3</sup> but not the fruit of the tree which is in the middle of the garden. God has said, ‘You shall not eat of it. You shall not touch it, lest you die.’”
 
 <sup>4</sup> The serpent said to the woman, “You won’t really die,
 <sup>5</sup> for God knows that in the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.”
@@ -119,7 +119,7 @@ The woman said, “The serpent deceived me, and I ate.”
 <sup>23</sup> Therefore Yahweh God sent him out from the garden of Eden, to till the ground from which he was taken.
 <sup>24</sup> So he drove out the man; and he placed cherubim<sup>a</sup> at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.
 
-> - <sup>a</sup> 24. cherubim are powerful angelic creatures, messengers of God with wings. See Ezekiel 10.
+> - <sup>a</sup> 24. Cherubim are powerful angelic creatures, messengers of God with wings. See Ezekiel 10.
 
 ## Chapter 4
 
@@ -138,10 +138,10 @@ He said, “I don’t know. Am I my brother’s keeper?”
 
 <sup>10</sup> Yahweh said, “What have you done? The voice of your brother’s blood cries to me from the ground.
 <sup>11</sup> Now you are cursed because of the ground, which has opened its mouth to receive your brother’s blood from your hand.
-<sup>12</sup> From now on, when you till the ground, it won’t yield its strength to you. You will be a fugitive and a wanderer in the earth.”
+<sup>12</sup> From now on, when you till the ground, it won’t yield its strength to you. You will be a fugitive and a wanderer on the earth.”
 
 <sup>13</sup> Cain said to Yahweh, “My punishment is greater than I can bear.
-<sup>14</sup> Behold, you have driven me out today from the surface of the ground. I will be hidden from your face, and I will be a fugitive and a wanderer in the earth. Whoever finds me will kill me.”
+<sup>14</sup> Behold, you have driven me out today from the surface of the ground. I will be hidden from your face, and I will be a fugitive and a wanderer on the earth. Whoever finds me will kill me.”
 
 <sup>15</sup> Yahweh said to him, “Therefore whoever slays Cain, vengeance will be taken on him sevenfold.” Yahweh appointed a sign for Cain, so that anyone finding him would not strike him.
 
@@ -212,9 +212,9 @@ He said, “I don’t know. Am I my brother’s keeper?”
 <sup>1</sup> When men began to multiply on the surface of the ground, and daughters were born to them,
 <sup>2</sup> God’s sons saw that men’s daughters were beautiful, and they took any that they wanted for themselves as wives.
 <sup>3</sup> Yahweh said, “My Spirit will not strive with man forever, because he also is flesh; so his days will be one hundred twenty years.”
-<sup>4</sup> The Nephilim<sup>a</sup> were in the earth in those days, and also after that, when God’s sons came in to men’s daughters and had children with them. Those were the mighty men who were of old, men of renown.
+<sup>4</sup> The Nephilim<sup>a</sup> were on the earth in those days, and also after that, when God’s sons came in to men’s daughters and had children with them. Those were the mighty men who were of old, men of renown.
 
-<sup>5</sup> Yahweh saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of man’s heart was continually only evil.
+<sup>5</sup> Yahweh saw that the wickedness of man was great on the earth, and that every imagination of the thoughts of man’s heart was continually only evil.
 <sup>6</sup> Yahweh was sorry that he had made man on the earth, and it grieved him in his heart.
 <sup>7</sup> Yahweh said, “I will destroy man whom I have created from the surface of the ground—man, along with animals, creeping things, and birds of the sky—for I am sorry that I have made them.”
 <sup>8</sup> But Noah found favor in Yahweh’s eyes.
@@ -228,7 +228,7 @@ He said, “I don’t know. Am I my brother’s keeper?”
 <sup>14</sup> Make a ship of gopher wood. You shall make rooms in the ship, and shall seal it inside and outside with pitch.
 <sup>15</sup> This is how you shall make it. The length of the ship shall be three hundred cubits,<sup>b</sup> its width fifty cubits, and its height thirty cubits.
 <sup>16</sup> You shall make a roof in the ship, and you shall finish it to a cubit upward. You shall set the door of the ship in its side. You shall make it with lower, second, and third levels.
-<sup>17</sup> I, even I, will bring the flood of waters on this earth, to destroy all flesh having the breath of life from under the sky. Everything that is in the earth will die.
+<sup>17</sup> I, even I, will bring the flood of waters on this earth, to destroy all flesh having the breath of life from under the sky. Everything that is on the earth will die.
 <sup>18</sup> But I will establish my covenant with you. You shall come into the ship, you, your sons, your wife, and your sons’ wives with you.
 <sup>19</sup> Of every living thing of all flesh, you shall bring two of every sort into the ship, to keep them alive with you. They shall be male and female.
 <sup>20</sup> Of the birds after their kind, of the livestock after their kind, of every creeping thing of the ground after its kind, two of every sort will come to you, to keep them alive.
@@ -291,7 +291,7 @@ He said, “I don’t know. Am I my brother’s keeper?”
 
 <sup>15</sup> God spoke to Noah, saying,
 <sup>16</sup> “Go out of the ship, you, your wife, your sons, and your sons’ wives with you.
-<sup>17</sup> Bring out with you every living thing that is with you of all flesh, including birds, livestock, and every creeping thing that creeps on the earth, that they may breed abundantly in the earth, and be fruitful, and multiply on the earth.”
+<sup>17</sup> Bring out with you every living thing that is with you of all flesh, including birds, livestock, and every creeping thing that creeps on the earth, that they may breed abundantly on the earth, and be fruitful, and multiply on the earth.”
 
 <sup>18</sup> Noah went out, with his sons, his wife, and his sons’ wives with him.
 <sup>19</sup> Every animal, every creeping thing, and every bird, whatever moves on the earth, after their families, went out of the ship.
@@ -308,7 +308,7 @@ He said, “I don’t know. Am I my brother’s keeper?”
 <sup>4</sup> But flesh with its life, that is, its blood, you shall not eat.
 <sup>5</sup> I will surely require accounting for your life’s blood. At the hand of every animal I will require it. At the hand of man, even at the hand of every man’s brother, I will require the life of man.
 <sup>6</sup> Whoever sheds man’s blood, his blood will be shed by man, for God made man in his own image.
-<sup>7</sup> Be fruitful and multiply. Increase abundantly in the earth, and multiply in it.”
+<sup>7</sup> Be fruitful and multiply. Increase abundantly on the earth, and multiply in it.”
 
 <sup>8</sup> God spoke to Noah and to his sons with him, saying,
 <sup>9</sup> “As for me, behold, I establish my covenant with you, and with your offspring after you,
@@ -348,7 +348,7 @@ He said, “I don’t know. Am I my brother’s keeper?”
 
 <sup>6</sup> The sons of Ham were: Cush, Mizraim, Put, and Canaan.
 <sup>7</sup> The sons of Cush were: Seba, Havilah, Sabtah, Raamah, and Sabteca. The sons of Raamah were: Sheba and Dedan.
-<sup>8</sup> Cush became the father of Nimrod. He began to be a mighty one in the earth.
+<sup>8</sup> Cush became the father of Nimrod. He began to be a mighty one on the earth.
 <sup>9</sup> He was a mighty hunter before Yahweh. Therefore it is said, “like Nimrod, a mighty hunter before Yahweh”.
 <sup>10</sup> The beginning of his kingdom was Babel, Erech, Accad, and Calneh, in the land of Shinar.
 <sup>11</sup> Out of that land he went into Assyria, and built Nineveh, Rehoboth Ir, Calah,
@@ -375,7 +375,7 @@ He said, “I don’t know. Am I my brother’s keeper?”
 <sup>30</sup> Their dwelling extended from Mesha, as you go toward Sephar, the mountain of the east.
 <sup>31</sup> These are the sons of Shem, by their families, according to their languages, lands, and nations.
 
-<sup>32</sup> These are the families of the sons of Noah, by their generations, according to their nations. The nations divided from these in the earth after the flood.
+<sup>32</sup> These are the families of the sons of Noah, by their generations, according to their nations. The nations divided from these on the earth after the flood.
 
 ## Chapter 11
 
@@ -446,7 +446,7 @@ He built an altar there to Yahweh, who had appeared to him.
 <sup>12</sup> It will happen that when the Egyptians see you, they will say, ‘This is his wife.’ They will kill me, but they will save you alive.
 <sup>13</sup> Please say that you are my sister, that it may be well with me for your sake, and that my soul may live because of you.”
 
-<sup>14</sup> When Abram had come into Egypt, Egyptians saw that the woman was very beautiful.
+<sup>14</sup> When Abram had come into Egypt, some Egyptians saw that the woman was very beautiful.
 <sup>15</sup> The princes of Pharaoh saw her, and praised her to Pharaoh; and the woman was taken into Pharaoh’s house.
 <sup>16</sup> He dealt well with Abram for her sake. He had sheep, cattle, male donkeys, male servants, female servants, female donkeys, and camels.
 <sup>17</sup> Yahweh afflicted Pharaoh and his house with great plagues because of Sarai, Abram’s wife.
@@ -470,7 +470,7 @@ He built an altar there to Yahweh, who had appeared to him.
 <sup>9</sup> Isn’t the whole land before you? Please separate yourself from me. If you go to the left hand, then I will go to the right. Or if you go to the right hand, then I will go to the left.”
 
 <sup>10</sup> Lot lifted up his eyes, and saw all the plain of the Jordan, that it was well-watered everywhere, before Yahweh destroyed Sodom and Gomorrah, like the garden of Yahweh, like the land of Egypt, as you go to Zoar.
-<sup>11</sup> So Lot chose the Plain of the Jordan for himself. Lot traveled east, and they separated themselves from one other.
+<sup>11</sup> So Lot chose the Plain of the Jordan for himself. Lot traveled east, and they separated themselves from one another.
 <sup>12</sup> Abram lived in the land of Canaan, and Lot lived in the cities of the plain, and moved his tent as far as Sodom.
 <sup>13</sup> Now the men of Sodom were exceedingly wicked and sinners against Yahweh.
 
@@ -727,7 +727,7 @@ But he seemed to his sons-in-law to be joking.
 <sup>29</sup> When God destroyed the cities of the plain, God remembered Abraham, and sent Lot out of the middle of the overthrow, when he overthrew the cities in which Lot lived.
 
 <sup>30</sup> Lot went up out of Zoar, and lived in the mountain, and his two daughters with him; for he was afraid to live in Zoar. He lived in a cave with his two daughters.
-<sup>31</sup> The firstborn said to the younger, “Our father is old, and there is not a man in the earth to come in to us in the way of all the earth.
+<sup>31</sup> The firstborn said to the younger, “Our father is old, and there is not a man on the earth to come in to us in the way of all the earth.
 <sup>32</sup> Come, let’s make our father drink wine, and we will lie with him, that we may preserve our father’s family line.”
 <sup>33</sup> They made their father drink wine that night: and the firstborn went in, and lay with her father. He didn’t know when she lay down, nor when she arose.
 <sup>34</sup> It came to pass on the next day, that the firstborn said to the younger, “Behold, I lay last night with my father. Let’s make him drink wine again tonight. You go in, and lie with him, that we may preserve our father’s family line.”
@@ -756,7 +756,7 @@ But he seemed to his sons-in-law to be joking.
 
 <sup>11</sup> Abraham said, “Because I thought, ‘Surely the fear of God is not in this place. They will kill me for my wife’s sake.’
 <sup>12</sup> Besides, she is indeed my sister, the daughter of my father, but not the daughter of my mother; and she became my wife.
-<sup>13</sup> When God caused me to wander from my father’s house, I said to her, ‘This is your kindness which you shall show to me. Everywhere that we go, say of me, “He is my brother.” ’ ”
+<sup>13</sup> When God caused me to wander from my father’s house, I said to her, ‘This is your kindness which you shall show to me. Everywhere that we go, say of me, “He is my brother.”’”
 
 <sup>14</sup> Abimelech took sheep and cattle, male servants and female servants, and gave them to Abraham, and restored Sarah, his wife, to him.
 <sup>15</sup> Abimelech said, “Behold, my land is before you. Dwell where it pleases you.”
@@ -847,9 +847,9 @@ He said, “Here I am.”
 <sup>14</sup> Abraham called the name of that place “Yahweh Will Provide”.<sup>a</sup> As it is said to this day, “On Yahweh’s mountain, it will be provided.”
 
 <sup>15</sup> Yahweh’s angel called to Abraham a second time out of the sky,
-<sup>16</sup> and said, “ ‘I have sworn by myself,’ says Yahweh, ‘because you have done this thing, and have not withheld your son, your only son,
+<sup>16</sup> and said, “‘I have sworn by myself,’ says Yahweh, ‘because you have done this thing, and have not withheld your son, your only son,
 <sup>17</sup> that I will bless you greatly, and I will multiply your offspring greatly like the stars of the heavens, and like the sand which is on the seashore. Your offspring will possess the gate of his enemies.
-<sup>18</sup> All the nations of the earth will be blessed by your offspring, because you have obeyed my voice.’ ”
+<sup>18</sup> All the nations of the earth will be blessed by your offspring, because you have obeyed my voice.’”
 
 <sup>19</sup> So Abraham returned to his young men, and they rose up and went together to Beersheba. Abraham lived at Beersheba.
 
@@ -922,7 +922,7 @@ He said, “Here I am.”
 <sup>20</sup> She hurried, and emptied her pitcher into the trough, and ran again to the well to draw, and drew for all his camels.
 
 <sup>21</sup> The man looked steadfastly at her, remaining silent, to know whether Yahweh had made his journey prosperous or not.
-<sup>22</sup> As the camels had done drinking, the man took a golden ring of half a shekel<sup>a</sup> weight, and two bracelets for her hands of ten shekels weight of gold,
+<sup>22</sup> As the camels had finished drinking, the man took a golden ring of half a shekel<sup>a</sup> weight, and two bracelets for her hands of ten shekels weight of gold,
 <sup>23</sup> and said, “Whose daughter are you? Please tell me. Is there room in your father’s house for us to stay?”
 
 <sup>24</sup> She said to him, “I am the daughter of Bethuel the son of Milcah, whom she bore to Nahor.”
@@ -1052,7 +1052,7 @@ He swore to him. He sold his birthright to Jacob.
 <sup>8</sup> When he had been there a long time, Abimelech king of the Philistines looked out at a window, and saw, and, behold, Isaac was caressing Rebekah, his wife.
 <sup>9</sup> Abimelech called Isaac, and said, “Behold, surely she is your wife. Why did you say, ‘She is my sister’?”
 
-Isaac said to him, “Because I said, ‘Lest I die because of her.’ ”
+Isaac said to him, “Because I said, ‘Lest I die because of her.’”
 
 <sup>10</sup> Abimelech said, “What is this you have done to us? One of the people might easily have lain with your wife, and you would have brought guilt on us!”
 
@@ -1353,7 +1353,7 @@ Jacob said, “You shall not give me anything. If you will do this thing for me,
 <sup>10</sup> During mating season, I lifted up my eyes, and saw in a dream, and behold, the male goats which leaped on the flock were streaked, speckled, and grizzled.
 <sup>11</sup> The angel of God said to me in the dream, ‘Jacob,’ and I said, ‘Here I am.’
 <sup>12</sup> He said, ‘Now lift up your eyes, and behold, all the male goats which leap on the flock are streaked, speckled, and grizzled, for I have seen all that Laban does to you.
-<sup>13</sup> I am the God of Bethel, where you anointed a pillar, where you vowed a vow to me. Now arise, get out from this land, and return to the land of your birth.’ ”
+<sup>13</sup> I am the God of Bethel, where you anointed a pillar, where you vowed a vow to me. Now arise, get out from this land, and return to the land of your birth.’”
 
 <sup>14</sup> Rachel and Leah answered him, “Is there yet any portion or inheritance for us in our father’s house?
 <sup>15</sup> Aren’t we considered as foreigners by him? For he has sold us, and has also used up our money.
@@ -1373,7 +1373,7 @@ Jacob said, “You shall not give me anything. If you will do this thing for me,
 <sup>25</sup> Laban caught up with Jacob. Now Jacob had pitched his tent in the mountain, and Laban with his relatives encamped in the mountain of Gilead.
 <sup>26</sup> Laban said to Jacob, “What have you done, that you have deceived me, and carried away my daughters like captives of the sword?
 <sup>27</sup> Why did you flee secretly, and deceive me, and didn’t tell me, that I might have sent you away with mirth and with songs, with tambourine and with harp;
-<sup>28</sup> and didn’t allow me to kiss my sons and my daughters? Now have you done foolishly.
+<sup>28</sup> and didn’t allow me to kiss my sons and my daughters? Now you have done foolishly.
 <sup>29</sup> It is in the power of my hand to hurt you, but the God of your father spoke to me last night, saying, ‘Be careful that you don’t speak to Jacob either good or bad.’
 <sup>30</sup> Now, you want to be gone, because you greatly longed for your father’s house, but why have you stolen my gods?”
 
@@ -1408,7 +1408,7 @@ Jacob said, “You shall not give me anything. If you will do this thing for me,
 <sup>54</sup> Jacob offered a sacrifice in the mountain, and called his relatives to eat bread. They ate bread, and stayed all night in the mountain.
 <sup>55</sup> Early in the morning, Laban rose up, and kissed his sons and his daughters, and blessed them. Laban departed and returned to his place.
 
-> - <sup>a</sup> 19. teraphim were household idols that may have been associated with inheritance rights to the household property.
+> - <sup>a</sup> 19. Teraphim were household idols that may have been associated with inheritance rights to the household property.
 > - <sup>b</sup> 47. “Jegar Sahadutha” means “Witness Heap” in Aramaic.
 > - <sup>c</sup> 47. “Galeed” means “Witness Heap” in Hebrew.
 
@@ -1419,23 +1419,23 @@ Jacob said, “You shall not give me anything. If you will do this thing for me,
 
 <sup>3</sup> Jacob sent messengers in front of him to Esau, his brother, to the land of Seir, the field of Edom.
 <sup>4</sup> He commanded them, saying, “This is what you shall tell my lord, Esau: ‘This is what your servant, Jacob, says. I have lived as a foreigner with Laban, and stayed until now.
-<sup>5</sup> I have cattle, donkeys, flocks, male servants, and female servants. I have sent to tell my lord, that I may find favor in your sight.’ ”
+<sup>5</sup> I have cattle, donkeys, flocks, male servants, and female servants. I have sent to tell my lord, that I may find favor in your sight.’”
 <sup>6</sup> The messengers returned to Jacob, saying, “We came to your brother Esau. He is coming to meet you, and four hundred men are with him.”
 <sup>7</sup> Then Jacob was greatly afraid and was distressed. He divided the people who were with him, along with the flocks, the herds, and the camels, into two companies.
 <sup>8</sup> He said, “If Esau comes to the one company, and strikes it, then the company which is left will escape.”
 <sup>9</sup> Jacob said, “God of my father Abraham, and God of my father Isaac, Yahweh, who said to me, ‘Return to your country, and to your relatives, and I will do you good,’
 <sup>10</sup> I am not worthy of the least of all the loving kindnesses, and of all the truth, which you have shown to your servant; for with just my staff I crossed over this Jordan; and now I have become two companies.
 <sup>11</sup> Please deliver me from the hand of my brother, from the hand of Esau; for I fear him, lest he come and strike me and the mothers with the children.
-<sup>12</sup> You said, ‘I will surely do you good, and make your offspring as the sand of the sea, which can’t be counted because there are so many.’ ”
+<sup>12</sup> You said, ‘I will surely do you good, and make your offspring as the sand of the sea, which can’t be counted because there are so many.’”
 
 <sup>13</sup> He stayed there that night, and took from that which he had with him a present for Esau, his brother:
 <sup>14</sup> two hundred female goats and twenty male goats, two hundred ewes and twenty rams,
 <sup>15</sup> thirty milk camels and their colts, forty cows, ten bulls, twenty female donkeys and ten foals.
 <sup>16</sup> He delivered them into the hands of his servants, every herd by itself, and said to his servants, “Pass over before me, and put a space between herd and herd.”
 <sup>17</sup> He commanded the foremost, saying, “When Esau, my brother, meets you, and asks you, saying, ‘Whose are you? Where are you going? Whose are these before you?’
-<sup>18</sup> Then you shall say, ‘They are your servant, Jacob’s. It is a present sent to my lord, Esau. Behold, he also is behind us.’ ”
+<sup>18</sup> Then you shall say, ‘They are your servant, Jacob’s. It is a present sent to my lord, Esau. Behold, he also is behind us.’”
 <sup>19</sup> He commanded also the second, and the third, and all that followed the herds, saying, “This is how you shall speak to Esau, when you find him.
-<sup>20</sup> You shall say, ‘Not only that, but behold, your servant, Jacob, is behind us.’ ” For, he said, “I will appease him with the present that goes before me, and afterward I will see his face. Perhaps he will accept me.”
+<sup>20</sup> You shall say, ‘Not only that, but behold, your servant, Jacob, is behind us.’” For, he said, “I will appease him with the present that goes before me, and afterward I will see his face. Perhaps he will accept me.”
 
 <sup>21</sup> So the present passed over before him, and he himself stayed that night in the camp.
 
@@ -1502,7 +1502,7 @@ He said, “Why? Let me find favor in the sight of my lord.”
 <sup>19</sup> He bought the parcel of ground where he had spread his tent, at the hand of the children of Hamor, Shechem’s father, for one hundred pieces of money.
 <sup>20</sup> He erected an altar there, and called it El Elohe Israel.<sup>b</sup>
 
-> - <sup>a</sup> 17. succoth means shelters or booths.
+> - <sup>a</sup> 17. Succoth means shelters or booths.
 > - <sup>b</sup> 20. El Elohe Israel means “God, the God of Israel” or “The God of Israel is mighty”.
 
 ## Chapter 34
@@ -1666,7 +1666,7 @@ Now the sons of Jacob were twelve.
 
 <sup>16</sup> He said, “I am looking for my brothers. Tell me, please, where they are feeding the flock.”
 
-<sup>17</sup> The man said, “They have left here, for I heard them say, ‘Let’s go to Dothan.’ ”
+<sup>17</sup> The man said, “They have left here, for I heard them say, ‘Let’s go to Dothan.’”
 
 Joseph went after his brothers, and found them in Dothan.
 <sup>18</sup> They saw him afar off, and before he came near to them, they conspired against him to kill him.
@@ -1678,7 +1678,7 @@ Joseph went after his brothers, and found them in Dothan.
 <sup>23</sup> When Joseph came to his brothers, they stripped Joseph of his tunic, the tunic of many colors that was on him;
 <sup>24</sup> and they took him, and threw him into the pit. The pit was empty. There was no water in it.
 
-<sup>25</sup> They sat down to eat bread, and they lifted up their eyes and looked, and saw a caravan of Ishmaelites was coming from Gilead, with their camels bearing spices and balm and myrrh, going to carry it down to Egypt.
+<sup>25</sup> They sat down to eat bread, and they lifted up their eyes and looked, and saw a caravan of Ishmaelites coming from Gilead, with their camels bearing spices and balm and myrrh, going to carry it down to Egypt.
 <sup>26</sup> Judah said to his brothers, “What profit is it if we kill our brother and conceal his blood?
 <sup>27</sup> Come, and let’s sell him to the Ishmaelites, and not let our hand be on him; for he is our brother, our flesh.” His brothers listened to him.
 <sup>28</sup> Midianites who were merchants passed by, and they drew and lifted up Joseph out of the pit, and sold Joseph to the Ishmaelites for twenty pieces of silver. The merchants brought Joseph into Egypt.
@@ -1732,7 +1732,7 @@ He gave them to her, and came in to her, and she conceived by him.
 
 They said, “There has been no prostitute here.”
 
-<sup>22</sup> He returned to Judah, and said, “I haven’t found her; and also the men of the place said, ‘There has been no prostitute here.’ ”
+<sup>22</sup> He returned to Judah, and said, “I haven’t found her; and also the men of the place said, ‘There has been no prostitute here.’”
 <sup>23</sup> Judah said, “Let her keep it, lest we be shamed. Behold, I sent this young goat, and you haven’t found her.”
 
 <sup>24</sup> About three months later, Judah was told, “Tamar, your daughter-in-law, has played the prostitute. Moreover, behold, she is with child by prostitution.”
@@ -1935,7 +1935,7 @@ They did so.
 <sup>31</sup> We said to him, ‘We are honest men. We are no spies.
 <sup>32</sup> We are twelve brothers, sons of our father; one is no more, and the youngest is today with our father in the land of Canaan.’
 <sup>33</sup> The man, the lord of the land, said to us, ‘By this I will know that you are honest men: leave one of your brothers with me, and take grain for the famine of your houses, and go your way.
-<sup>34</sup> Bring your youngest brother to me. Then I will know that you are not spies, but that you are honest men. So I will deliver your brother to you, and you shall trade in the land.’ ”
+<sup>34</sup> Bring your youngest brother to me. Then I will know that you are not spies, but that you are honest men. So I will deliver your brother to you, and you shall trade in the land.’”
 
 <sup>35</sup> As they emptied their sacks, behold, each man’s bundle of money was in his sack. When they and their father saw their bundles of money, they were afraid.
 <sup>36</sup> Jacob, their father, said to them, “You have bereaved me of my children! Joseph is no more, Simeon is no more, and you want to take Benjamin away. All these things are against me.”
@@ -1953,7 +1953,7 @@ They did so.
 
 <sup>3</sup> Judah spoke to him, saying, “The man solemnly warned us, saying, ‘You shall not see my face, unless your brother is with you.’
 <sup>4</sup> If you’ll send our brother with us, we’ll go down and buy you food;
-<sup>5</sup> but if you don’t send him, we won’t go down, for the man said to us, ‘You shall not see my face, unless your brother is with you.’ ”
+<sup>5</sup> but if you don’t send him, we won’t go down, for the man said to us, ‘You shall not see my face, unless your brother is with you.’”
 
 <sup>6</sup> Israel said, “Why did you treat me so badly, telling the man that you had another brother?”
 
@@ -2000,7 +2000,7 @@ They did so.
 <sup>2</sup> Put my cup, the silver cup, in the sack’s mouth of the youngest, with his grain money.” He did according to the word that Joseph had spoken.
 <sup>3</sup> As soon as the morning was light, the men were sent away, they and their donkeys.
 <sup>4</sup> When they had gone out of the city, and were not yet far off, Joseph said to his steward, “Up, follow after the men. When you overtake them, ask them, ‘Why have you rewarded evil for good?
-<sup>5</sup> Isn’t this that from which my lord drinks, and by which he indeed divines? You have done evil in so doing.’ ”
+<sup>5</sup> Isn’t this that from which my lord drinks, and by which he indeed divines? You have done evil in so doing.’”
 <sup>6</sup> He overtook them, and he spoke these words to them.
 
 <sup>7</sup> They said to him, “Why does my lord speak such words as these? Far be it from your servants that they should do such a thing!
@@ -2053,11 +2053,11 @@ His brothers couldn’t answer him; for they were terrified at his presence.
 They came near. He said, “I am Joseph, your brother, whom you sold into Egypt.
 <sup>5</sup> Now don’t be grieved, nor angry with yourselves, that you sold me here, for God sent me before you to preserve life.
 <sup>6</sup> For these two years the famine has been in the land, and there are yet five years, in which there will be no plowing and no harvest.
-<sup>7</sup> God sent me before you to preserve for you a remnant in the earth, and to save you alive by a great deliverance.
+<sup>7</sup> God sent me before you to preserve for you a remnant on the earth, and to save you alive by a great deliverance.
 <sup>8</sup> So now it wasn’t you who sent me here, but God, and he has made me a father to Pharaoh, lord of all his house, and ruler over all the land of Egypt.
 <sup>9</sup> Hurry, and go up to my father, and tell him, ‘This is what your son Joseph says, “God has made me lord of all Egypt. Come down to me. Don’t wait.
 <sup>10</sup> You shall dwell in the land of Goshen, and you will be near to me, you, your children, your children’s children, your flocks, your herds, and all that you have.
-<sup>11</sup> There I will provide for you; for there are yet five years of famine; lest you come to poverty, you, and your household, and all that you have.” ’
+<sup>11</sup> There I will provide for you; for there are yet five years of famine; lest you come to poverty, you, and your household, and all that you have.”’
 <sup>12</sup> Behold, your eyes see, and the eyes of my brother Benjamin, that it is my mouth that speaks to you.
 <sup>13</sup> You shall tell my father of all my glory in Egypt, and of all that you have seen. You shall hurry and bring my father down here.”
 <sup>14</sup> He fell on his brother Benjamin’s neck and wept, and Benjamin wept on his neck.
@@ -2200,7 +2200,7 @@ He said, “Please bring them to me, and I will bless them.”
 <sup>18</sup> Joseph said to his father, “Not so, my father, for this is the firstborn. Put your right hand on his head.”
 
 <sup>19</sup> His father refused, and said, “I know, my son, I know. He also will become a people, and he also will be great. However, his younger brother will be greater than he, and his offspring will become a multitude of nations.”
-<sup>20</sup> He blessed them that day, saying, “Israel will bless in you, saying, ‘God make you as Ephraim and as Manasseh’ ” He set Ephraim before Manasseh.
+<sup>20</sup> He blessed them that day, saying, “Israel will bless in your name, saying, ‘God make you as Ephraim and as Manasseh’” He set Ephraim before Manasseh.
 <sup>21</sup> Israel said to Joseph, “Behold, I am dying, but God will be with you, and bring you again to the land of your fathers.
 <sup>22</sup> Moreover I have given to you one portion above your brothers, which I took out of the hand of the Amorite with my sword and with my bow.”
 
@@ -2259,7 +2259,7 @@ He said, “Please bring them to me, and I will bless them.”
 <sup>3</sup> Forty days were used for him, for that is how many days it takes to embalm. The Egyptians wept for Israel for seventy days.
 
 <sup>4</sup> When the days of weeping for him were past, Joseph spoke to Pharaoh’s staff, saying, “If now I have found favor in your eyes, please speak in the ears of Pharaoh, saying,
-<sup>5</sup> ‘My father made me swear, saying, “Behold, I am dying. Bury me in my grave which I have dug for myself in the land of Canaan.” Now therefore, please let me go up and bury my father, and I will come again.’ ”
+<sup>5</sup> ‘My father made me swear, saying, “Behold, I am dying. Bury me in my grave which I have dug for myself in the land of Canaan.” Now therefore, please let me go up and bury my father, and I will come again.’”
 
 <sup>6</sup> Pharaoh said, “Go up, and bury your father, just like he made you swear.”
 
@@ -2274,7 +2274,7 @@ He said, “Please bring them to me, and I will bless them.”
 
 <sup>15</sup> When Joseph’s brothers saw that their father was dead, they said, “It may be that Joseph will hate us, and will fully pay us back for all the evil which we did to him.”
 <sup>16</sup> They sent a message to Joseph, saying, “Your father commanded before he died, saying,
-<sup>17</sup> ‘You shall tell Joseph, “Now please forgive the disobedience of your brothers, and their sin, because they did evil to you.” ’ Now, please forgive the disobedience of the servants of the God of your father.” Joseph wept when they spoke to him.
+<sup>17</sup> ‘You shall tell Joseph, “Now please forgive the disobedience of your brothers, and their sin, because they did evil to you.”’ Now, please forgive the disobedience of the servants of the God of your father.” Joseph wept when they spoke to him.
 <sup>18</sup> His brothers also went and fell down before his face; and they said, “Behold, we are your servants.”
 <sup>19</sup> Joseph said to them, “Don’t be afraid, for am I in the place of God?
 <sup>20</sup> As for you, you meant evil against me, but God meant it for good, to save many people alive, as is happening today.

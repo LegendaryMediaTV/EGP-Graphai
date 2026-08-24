@@ -61,7 +61,7 @@ says Yahweh.
 ## Chapter 3
 
 <sup>1</sup> Hear this word that Yahweh has spoken against you, children of Israel, against the whole family which I brought up out of the land of Egypt, saying:<br>
-<sup>2</sup> “I have only chosen you of all the families of the earth.<br>Therefore I will punish you for all of your sins.”<br>
+<sup>2</sup> “I have chosen only you of all the families of the earth.<br>Therefore I will punish you for all of your sins.”<br>
 <sup>3</sup> Do two walk together,<br>unless they have agreed?<br>
 <sup>4</sup> Will a lion roar in the thicket,<br>when he has no prey?<br>Does a young lion cry out of his den,<br>if he has caught nothing?<br>
 <sup>5</sup> Can a bird fall in a trap on the earth,<br>where no snare is set for him?<br>Does a snare spring up from the ground,<br>when there is nothing to catch?<br>
@@ -171,7 +171,7 @@ Then the Lord said, “Behold, I will set a plumb line in the middle of my peopl
 <sup>9</sup> The high places of Isaac will be desolate, the sanctuaries of Israel will be laid waste; and I will rise against the house of Jeroboam with the sword.”
 
 <sup>10</sup> Then Amaziah the priest of Bethel sent to Jeroboam king of Israel, saying, “Amos has conspired against you in the middle of the house of Israel. The land is not able to bear all his words.
-<sup>11</sup> For Amos says, ‘Jeroboam will die by the sword, and Israel shall surely be led away captive out of his land.’ ”
+<sup>11</sup> For Amos says, ‘Jeroboam will die by the sword, and Israel shall surely be led away captive out of his land.’”
 
 <sup>12</sup> Amaziah also said to Amos, “You seer, go, flee away into the land of Judah, and there eat bread, and prophesy there,
 <sup>13</sup> but don’t prophesy again any more at Bethel; for it is the king’s sanctuary, and it is a royal house!”
@@ -179,7 +179,7 @@ Then the Lord said, “Behold, I will set a plumb line in the middle of my peopl
 <sup>14</sup> Then Amos answered Amaziah, “I was no prophet, neither was I a prophet’s son, but I was a herdsman, and a farmer of sycamore figs;
 <sup>15</sup> and Yahweh took me from following the flock, and Yahweh said to me, ‘Go, prophesy to my people Israel.’
 <sup>16</sup> Now therefore listen to Yahweh’s word: ‘You say, Don’t prophesy against Israel, and don’t preach against the house of Isaac.’
-<sup>17</sup> Therefore Yahweh says: ‘Your wife shall be a prostitute in the city, and your sons and your daughters shall fall by the sword, and your land shall be divided by line; and you yourself shall die in a land that is unclean, and Israel shall surely be led away captive out of his land.’ ”
+<sup>17</sup> Therefore Yahweh says: ‘Your wife shall be a prostitute in the city, and your sons and your daughters shall fall by the sword, and your land shall be divided by line; and you yourself shall die in a land that is unclean, and Israel shall surely be led away captive out of his land.’”
 
 ## Chapter 8
 
@@ -193,7 +193,7 @@ Then Yahweh said to me,<br>“The end has come on my people Israel.<br>I will no
 <sup>3</sup> The songs of the temple will be wailing in that day,” says the Lord Yahweh.<br>“The dead bodies will be many. In every place they will throw them out with silence.<br>
 <sup>4</sup> Hear this, you who desire to swallow up the needy,<br>and cause the poor of the land to fail,<br>
 <sup>5</sup> saying, ‘When will the new moon be gone, that we may sell grain?<br>And the Sabbath, that we may market wheat,<br>making the ephah<sup>a</sup> small, and the shekel<sup>b</sup> large,<br>and dealing falsely with balances of deceit;<br>
-<sup>6</sup> that we may buy the poor for silver,<br>and the needy for a pair of sandals,<br>and sell the sweepings with the wheat?’ ”<br>
+<sup>6</sup> that we may buy the poor for silver,<br>and the needy for a pair of sandals,<br>and sell the sweepings with the wheat?’”<br>
 <sup>7</sup> Yahweh has sworn by the pride of Jacob,<br>“Surely I will never forget any of their works.<br>
 <sup>8</sup> Won’t the land tremble for this,<br>and everyone mourn who dwells in it?<br>Yes, it will rise up wholly like the River;<br>and it will be stirred up and sink again, like the River of Egypt.<br>
 <sup>9</sup> It will happen in that day,” says the Lord Yahweh,<br>“that I will cause the sun to go down at noon,<br>and I will darken the earth in the clear day.<br>
@@ -204,7 +204,7 @@ Then Yahweh said to me,<br>“The end has come on my people Israel.<br>I will no
 <sup>14</sup> Those who swear by the sin of Samaria,<br>and say, ‘As your god, Dan, lives,’<br>and, ‘As the way of Beersheba lives,’<br>they will fall, and never rise up again.”
 
 > - <sup>a</sup> 5. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
-> - <sup>b</sup> 5. a normal shekel is about 10 grams or about 0.35 ounces.
+> - <sup>b</sup> 5. A normal shekel is about 10 grams or about 0.35 ounces.
 
 ## Chapter 9
 

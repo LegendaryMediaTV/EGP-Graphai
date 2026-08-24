@@ -3,7 +3,7 @@
 <sup>1</sup> Yahweh<sup>a</sup> called to Moses, and spoke to him from the Tent of Meeting, saying,
 <sup>2</sup> “Speak to the children of Israel, and tell them, ‘When anyone of you offers an offering to Yahweh, you shall offer your offering of the livestock, from the herd and from the flock.
 
-<sup>3</sup> “ ‘If his offering is a burnt offering from the herd, he shall offer a male without defect. He shall offer it at the door of the Tent of Meeting, that he may be accepted before Yahweh.
+<sup>3</sup> “‘If his offering is a burnt offering from the herd, he shall offer a male without defect. He shall offer it at the door of the Tent of Meeting, that he may be accepted before Yahweh.
 <sup>4</sup> He shall lay his hand on the head of the burnt offering, and it shall be accepted for him to make atonement for him.
 <sup>5</sup> He shall kill the bull before Yahweh. Aaron’s sons, the priests, shall present the blood and sprinkle the blood around on the altar that is at the door of the Tent of Meeting.
 <sup>6</sup> He shall skin the burnt offering and cut it into pieces.
@@ -11,12 +11,12 @@
 <sup>8</sup> and Aaron’s sons, the priests, shall lay the pieces, the head, and the fat in order on the wood that is on the fire which is on the altar;
 <sup>9</sup> but he shall wash its innards and its legs with water. The priest shall burn all of it on the altar, for a burnt offering, an offering made by fire, of a pleasant aroma to Yahweh.
 
-<sup>10</sup> “ ‘If his offering is from the flock, from the sheep or from the goats, for a burnt offering, he shall offer a male without defect.
+<sup>10</sup> “‘If his offering is from the flock, from the sheep or from the goats, for a burnt offering, he shall offer a male without defect.
 <sup>11</sup> He shall kill it on the north side of the altar before Yahweh. Aaron’s sons, the priests, shall sprinkle its blood around on the altar.
 <sup>12</sup> He shall cut it into its pieces, with its head and its fat. The priest shall lay them in order on the wood that is on the fire which is on the altar,
 <sup>13</sup> but the innards and the legs he shall wash with water. The priest shall offer the whole, and burn it on the altar. It is a burnt offering, an offering made by fire, of a pleasant aroma to Yahweh.
 
-<sup>14</sup> “ ‘If his offering to Yahweh is a burnt offering of birds, then he shall offer his offering from turtledoves or of young pigeons.
+<sup>14</sup> “‘If his offering to Yahweh is a burnt offering of birds, then he shall offer his offering from turtledoves or of young pigeons.
 <sup>15</sup> The priest shall bring it to the altar, and wring off its head, and burn it on the altar; and its blood shall be drained out on the side of the altar;
 <sup>16</sup> and he shall take away its crop and its feathers, and cast it beside the altar on the east part, in the place of the ashes.
 <sup>17</sup> He shall tear it by its wings, but shall not divide it apart. The priest shall burn it on the altar, on the wood that is on the fire. It is a burnt offering, an offering made by fire, of a pleasant aroma to Yahweh.
@@ -25,11 +25,11 @@
 
 ## Chapter 2
 
-<sup>1</sup> “ ‘When anyone offers an offering of a meal offering to Yahweh, his offering shall be of fine flour. He shall pour oil on it, and put frankincense on it.
+<sup>1</sup> “‘When anyone offers an offering of a meal offering to Yahweh, his offering shall be of fine flour. He shall pour oil on it, and put frankincense on it.
 <sup>2</sup> He shall bring it to Aaron’s sons, the priests. He shall take his handful of its fine flour, and of its oil, with all its frankincense, and the priest shall burn its memorial on the altar, an offering made by fire, of a pleasant aroma to Yahweh.
 <sup>3</sup> That which is left of the meal offering shall be Aaron’s and his sons’. It is a most holy part of the offerings of Yahweh made by fire.
 
-<sup>4</sup> “ ‘When you offer an offering of a meal offering baked in the oven, it shall be unleavened cakes of fine flour mixed with oil, or unleavened wafers anointed with oil.
+<sup>4</sup> “‘When you offer an offering of a meal offering baked in the oven, it shall be unleavened cakes of fine flour mixed with oil, or unleavened wafers anointed with oil.
 <sup>5</sup> If your offering is a meal offering made on a griddle, it shall be of unleavened fine flour, mixed with oil.
 <sup>6</sup> You shall cut it in pieces, and pour oil on it. It is a meal offering.
 <sup>7</sup> If your offering is a meal offering of the pan, it shall be made of fine flour with oil.
@@ -37,11 +37,11 @@
 <sup>9</sup> The priest shall take from the meal offering its memorial, and shall burn it on the altar, an offering made by fire, of a pleasant aroma to Yahweh.
 <sup>10</sup> That which is left of the meal offering shall be Aaron’s and his sons’. It is a most holy part of the offerings of Yahweh made by fire.
 
-<sup>11</sup> “ ‘No meal offering which you shall offer to Yahweh shall be made with yeast; for you shall burn no yeast, nor any honey, as an offering made by fire to Yahweh.
+<sup>11</sup> “‘No meal offering which you shall offer to Yahweh shall be made with yeast; for you shall burn no yeast, nor any honey, as an offering made by fire to Yahweh.
 <sup>12</sup> As an offering of first fruits you shall offer them to Yahweh, but they shall not rise up as a pleasant aroma on the altar.
 <sup>13</sup> Every offering of your meal offering you shall season with salt. You shall not allow the salt of the covenant of your God<sup>a</sup> to be lacking from your meal offering. With all your offerings you shall offer salt.
 
-<sup>14</sup> “ ‘If you offer a meal offering of first fruits to Yahweh, you shall offer for the meal offering of your first fruits fresh heads of grain parched with fire and crushed.
+<sup>14</sup> “‘If you offer a meal offering of first fruits to Yahweh, you shall offer for the meal offering of your first fruits fresh heads of grain parched with fire and crushed.
 <sup>15</sup> You shall put oil on it and lay frankincense on it. It is a meal offering.
 <sup>16</sup> The priest shall burn as its memorial part of its crushed grain and part of its oil, along with all its frankincense. It is an offering made by fire to Yahweh.
 
@@ -49,26 +49,26 @@
 
 ## Chapter 3
 
-<sup>1</sup> “ ‘If his offering is a sacrifice of peace offerings, if he offers it from the herd, whether male or female, he shall offer it without defect before Yahweh.
+<sup>1</sup> “‘If his offering is a sacrifice of peace offerings, if he offers it from the herd, whether male or female, he shall offer it without defect before Yahweh.
 <sup>2</sup> He shall lay his hand on the head of his offering, and kill it at the door of the Tent of Meeting. Aaron’s sons, the priests, shall sprinkle the blood around on the altar.
 <sup>3</sup> He shall offer of the sacrifice of peace offerings an offering made by fire to Yahweh. The fat that covers the innards, and all the fat that is on the innards,
 <sup>4</sup> and the two kidneys, and the fat that is on them, which is by the loins, and the cover on the liver, with the kidneys, he shall take away.
 <sup>5</sup> Aaron’s sons shall burn it on the altar on the burnt offering, which is on the wood that is on the fire: it is an offering made by fire, of a pleasant aroma to Yahweh.
 
-<sup>6</sup> “ ‘If his offering for a sacrifice of peace offerings to Yahweh is from the flock, either male or female, he shall offer it without defect.
+<sup>6</sup> “‘If his offering for a sacrifice of peace offerings to Yahweh is from the flock, either male or female, he shall offer it without defect.
 <sup>7</sup> If he offers a lamb for his offering, then he shall offer it before Yahweh;
 <sup>8</sup> and he shall lay his hand on the head of his offering, and kill it before the Tent of Meeting. Aaron’s sons shall sprinkle its blood around on the altar.
 <sup>9</sup> He shall offer from the sacrifice of peace offerings an offering made by fire to Yahweh; its fat, the entire tail fat, he shall take away close to the backbone; and the fat that covers the entrails, and all the fat that is on the entrails,
 <sup>10</sup> and the two kidneys, and the fat that is on them, which is by the loins, and the cover on the liver, with the kidneys, he shall take away.
 <sup>11</sup> The priest shall burn it on the altar: it is the food of the offering made by fire to Yahweh.
 
-<sup>12</sup> “ ‘If his offering is a goat, then he shall offer it before Yahweh.
+<sup>12</sup> “‘If his offering is a goat, then he shall offer it before Yahweh.
 <sup>13</sup> He shall lay his hand on its head, and kill it before the Tent of Meeting; and the sons of Aaron shall sprinkle its blood around on the altar.
 <sup>14</sup> He shall offer from it as his offering, an offering made by fire to Yahweh; the fat that covers the innards, and all the fat that is on the innards,
 <sup>15</sup> and the two kidneys, and the fat that is on them, which is by the loins, and the cover on the liver, with the kidneys, he shall take away.
 <sup>16</sup> The priest shall burn them on the altar: it is the food of the offering made by fire, for a pleasant aroma; all the fat is Yahweh’s.
 
-<sup>17</sup> “ ‘It shall be a perpetual statute throughout your generations in all your dwellings, that you shall eat neither fat nor blood.’ ”
+<sup>17</sup> “‘It shall be a perpetual statute throughout your generations in all your dwellings, that you shall eat neither fat nor blood.’”
 
 ## Chapter 4
 
@@ -85,7 +85,7 @@
 <sup>11</sup> He shall carry the bull’s skin, all its meat, with its head, and with its legs, its innards, and its dung
 <sup>12</sup> —all the rest of the bull—outside of the camp to a clean place where the ashes are poured out, and burn it on wood with fire. It shall be burned where the ashes are poured out.
 
-<sup>13</sup> “ ‘If the whole congregation of Israel sins, and the thing is hidden from the eyes of the assembly, and they have done any of the things which Yahweh has commanded not to be done, and are guilty;
+<sup>13</sup> “‘If the whole congregation of Israel sins, and the thing is hidden from the eyes of the assembly, and they have done any of the things which Yahweh has commanded not to be done, and are guilty;
 <sup>14</sup> when the sin in which they have sinned is known, then the assembly shall offer a young bull for a sin offering, and bring it before the Tent of Meeting.
 <sup>15</sup> The elders of the congregation shall lay their hands on the head of the bull before Yahweh; and the bull shall be killed before Yahweh.
 <sup>16</sup> The anointed priest shall bring some of the blood of the bull to the Tent of Meeting.
@@ -95,43 +95,43 @@
 <sup>20</sup> He shall do this with the bull; as he did with the bull of the sin offering, so he shall do with this; and the priest shall make atonement for them, and they shall be forgiven.
 <sup>21</sup> He shall carry the bull outside the camp, and burn it as he burned the first bull. It is the sin offering for the assembly.
 
-<sup>22</sup> “ ‘When a ruler sins, and unwittingly does any one of all the things which Yahweh his God has commanded not to be done, and is guilty,
+<sup>22</sup> “‘When a ruler sins, and unwittingly does any one of all the things which Yahweh his God has commanded not to be done, and is guilty,
 <sup>23</sup> if his sin in which he has sinned is made known to him, he shall bring as his offering a goat, a male without defect.
 <sup>24</sup> He shall lay his hand on the head of the goat, and kill it in the place where they kill the burnt offering before Yahweh. It is a sin offering.
 <sup>25</sup> The priest shall take some of the blood of the sin offering with his finger, and put it on the horns of the altar of burnt offering. He shall pour out the rest of its blood at the base of the altar of burnt offering.
 <sup>26</sup> All its fat he shall burn on the altar, like the fat of the sacrifice of peace offerings; and the priest shall make atonement for him concerning his sin, and he will be forgiven.
 
-<sup>27</sup> “ ‘If anyone of the common people sins unwittingly, in doing any of the things which Yahweh has commanded not to be done, and is guilty,
+<sup>27</sup> “‘If anyone of the common people sins unwittingly, in doing any of the things which Yahweh has commanded not to be done, and is guilty,
 <sup>28</sup> if his sin which he has sinned is made known to him, then he shall bring for his offering a goat, a female without defect, for his sin which he has sinned.
 <sup>29</sup> He shall lay his hand on the head of the sin offering, and kill the sin offering in the place of burnt offering.
 <sup>30</sup> The priest shall take some of its blood with his finger, and put it on the horns of the altar of burnt offering; and the rest of its blood he shall pour out at the base of the altar.
 <sup>31</sup> All its fat he shall take away, like the fat is taken away from the sacrifice of peace offerings; and the priest shall burn it on the altar for a pleasant aroma to Yahweh; and the priest shall make atonement for him, and he will be forgiven.
 
-<sup>32</sup> “ ‘If he brings a lamb as his offering for a sin offering, he shall bring a female without defect.
+<sup>32</sup> “‘If he brings a lamb as his offering for a sin offering, he shall bring a female without defect.
 <sup>33</sup> He shall lay his hand on the head of the sin offering, and kill it for a sin offering in the place where they kill the burnt offering.
 <sup>34</sup> The priest shall take some of the blood of the sin offering with his finger, and put it on the horns of the altar of burnt offering; and all the rest of its blood he shall pour out at the base of the altar.
 <sup>35</sup> He shall remove all its fat, like the fat of the lamb is removed from the sacrifice of peace offerings. The priest shall burn them on the altar, on the offerings of Yahweh made by fire. The priest shall make atonement for him concerning his sin that he has sinned, and he will be forgiven.
 
 ## Chapter 5
 
-<sup>1</sup> “ ‘If anyone sins, in that he hears a public adjuration to testify, he being a witness, whether he has seen or known, if he doesn’t report it, then he shall bear his iniquity.
+<sup>1</sup> “‘If anyone sins, in that he hears a public adjuration to testify, he being a witness, whether he has seen or known, if he doesn’t report it, then he shall bear his iniquity.
 
-<sup>2</sup> “ ‘Or if anyone touches any unclean thing, whether it is the carcass of an unclean animal, or the carcass of unclean livestock, or the carcass of unclean creeping things, and it is hidden from him, and he is unclean, then he shall be guilty.
+<sup>2</sup> “‘Or if anyone touches any unclean thing, whether it is the carcass of an unclean animal, or the carcass of unclean livestock, or the carcass of unclean creeping things, and it is hidden from him, and he is unclean, then he shall be guilty.
 
-<sup>3</sup> “ ‘Or if he touches the uncleanness of man, whatever his uncleanness is with which he is unclean, and it is hidden from him; when he knows of it, then he shall be guilty.
+<sup>3</sup> “‘Or if he touches the uncleanness of man, whatever his uncleanness is with which he is unclean, and it is hidden from him; when he knows of it, then he shall be guilty.
 
-<sup>4</sup> “ ‘Or if anyone swears rashly with his lips to do evil or to do good—whatever it is that a man might utter rashly with an oath, and it is hidden from him—when he knows of it, then he will be guilty of one of these.
+<sup>4</sup> “‘Or if anyone swears rashly with his lips to do evil or to do good—whatever it is that a man might utter rashly with an oath, and it is hidden from him—when he knows of it, then he will be guilty of one of these.
 <sup>5</sup> It shall be, when he is guilty of one of these, he shall confess that in which he has sinned;
 <sup>6</sup> and he shall bring his trespass offering to Yahweh for his sin which he has sinned: a female from the flock, a lamb or a goat, for a sin offering; and the priest shall make atonement for him concerning his sin.
 
-<sup>7</sup> “ ‘If he can’t afford a lamb, then he shall bring his trespass offering for that in which he has sinned, two turtledoves, or two young pigeons, to Yahweh; one for a sin offering, and the other for a burnt offering.
+<sup>7</sup> “‘If he can’t afford a lamb, then he shall bring his trespass offering for that in which he has sinned, two turtledoves, or two young pigeons, to Yahweh; one for a sin offering, and the other for a burnt offering.
 <sup>8</sup> He shall bring them to the priest, who shall first offer the one which is for the sin offering. He shall wring off its head from its neck, but shall not sever it completely.
 <sup>9</sup> He shall sprinkle some of the blood of the sin offering on the side of the altar; and the rest of the blood shall be drained out at the base of the altar. It is a sin offering.
 <sup>10</sup> He shall offer the second for a burnt offering, according to the ordinance; and the priest shall make atonement for him concerning his sin which he has sinned, and he shall be forgiven.
 
-<sup>11</sup> “ ‘But if he can’t afford two turtledoves or two young pigeons, then he shall bring as his offering for that in which he has sinned, one tenth of an ephah<sup>a</sup> of fine flour for a sin offering. He shall put no oil on it, and he shall not put any frankincense on it, for it is a sin offering.
+<sup>11</sup> “‘But if he can’t afford two turtledoves or two young pigeons, then he shall bring as his offering for that in which he has sinned, one tenth of an ephah<sup>a</sup> of fine flour for a sin offering. He shall put no oil on it, and he shall not put any frankincense on it, for it is a sin offering.
 <sup>12</sup> He shall bring it to the priest, and the priest shall take his handful of it as the memorial portion, and burn it on the altar, on the offerings of Yahweh made by fire. It is a sin offering.
-<sup>13</sup> The priest shall make atonement for him concerning his sin that he has sinned in any of these things, and he will be forgiven; and the rest shall be the priest’s, as the meal offering.’ ”
+<sup>13</sup> The priest shall make atonement for him concerning his sin that he has sinned in any of these things, and he will be forgiven; and the rest shall be the priest’s, as the meal offering.’”
 
 <sup>14</sup> Yahweh spoke to Moses, saying,
 <sup>15</sup> “If anyone commits a trespass, and sins unwittingly regarding Yahweh’s holy things, then he shall bring his trespass offering to Yahweh: a ram without defect from the flock, according to your estimation in silver by shekels, according to the shekel<sup>b</sup> of the sanctuary, for a trespass offering.
@@ -161,11 +161,11 @@
 <sup>12</sup> The fire on the altar shall be kept burning on it, it shall not go out; and the priest shall burn wood on it every morning. He shall lay the burnt offering in order upon it, and shall burn on it the fat of the peace offerings.
 <sup>13</sup> Fire shall be kept burning on the altar continually; it shall not go out.
 
-<sup>14</sup> “ ‘This is the law of the meal offering: the sons of Aaron shall offer it before Yahweh, before the altar.
+<sup>14</sup> “‘This is the law of the meal offering: the sons of Aaron shall offer it before Yahweh, before the altar.
 <sup>15</sup> He shall take from there his handful of the fine flour of the meal offering, and of its oil, and all the frankincense which is on the meal offering, and shall burn it on the altar for a pleasant aroma, as its memorial portion, to Yahweh.
 <sup>16</sup> That which is left of it Aaron and his sons shall eat. It shall be eaten without yeast in a holy place. They shall eat it in the court of the Tent of Meeting.
 <sup>17</sup> It shall not be baked with yeast. I have given it as their portion of my offerings made by fire. It is most holy, as are the sin offering and the trespass offering.
-<sup>18</sup> Every male among the children of Aaron shall eat of it, as their portion forever throughout your generations, from the offerings of Yahweh made by fire. Whoever touches them shall be holy.’ ”
+<sup>18</sup> Every male among the children of Aaron shall eat of it, as their portion forever throughout your generations, from the offerings of Yahweh made by fire. Whoever touches them shall be holy.’”
 
 <sup>19</sup> Yahweh spoke to Moses, saying,
 <sup>20</sup> “This is the offering of Aaron and of his sons, which they shall offer to Yahweh in the day when he is anointed: one tenth of an ephah<sup>a</sup> of fine flour for a meal offering perpetually, half of it in the morning, and half of it in the evening.
@@ -185,38 +185,38 @@
 
 ## Chapter 7
 
-<sup>1</sup> “ ‘This is the law of the trespass offering: It is most holy.
+<sup>1</sup> “‘This is the law of the trespass offering: It is most holy.
 <sup>2</sup> In the place where they kill the burnt offering, he shall kill the trespass offering; and its blood he shall sprinkle around on the altar.
 <sup>3</sup> He shall offer all of its fat: the fat tail, and the fat that covers the innards,
 <sup>4</sup> and he shall take away the two kidneys, and the fat that is on them, which is by the loins, and the cover on the liver, with the kidneys;
 <sup>5</sup> and the priest shall burn them on the altar for an offering made by fire to Yahweh: it is a trespass offering.
 <sup>6</sup> Every male among the priests may eat of it. It shall be eaten in a holy place. It is most holy.
 
-<sup>7</sup> “ ‘As is the sin offering, so is the trespass offering; there is one law for them. The priest who makes atonement with them shall have it.
+<sup>7</sup> “‘As is the sin offering, so is the trespass offering; there is one law for them. The priest who makes atonement with them shall have it.
 <sup>8</sup> The priest who offers any man’s burnt offering shall have for himself the skin of the burnt offering which he has offered.
 <sup>9</sup> Every meal offering that is baked in the oven, and all that is prepared in the pan and on the griddle, shall be the priest’s who offers it.
 <sup>10</sup> Every meal offering, mixed with oil or dry, belongs to all the sons of Aaron, one as well as another.
 
-<sup>11</sup> “ ‘This is the law of the sacrifice of peace offerings, which one shall offer to Yahweh:
+<sup>11</sup> “‘This is the law of the sacrifice of peace offerings, which one shall offer to Yahweh:
 <sup>12</sup> If he offers it for a thanksgiving, then he shall offer with the sacrifice of thanksgiving unleavened cakes mixed with oil, and unleavened wafers anointed with oil, and cakes mixed with oil.
 <sup>13</sup> He shall offer his offering with the sacrifice of his peace offerings for thanksgiving with cakes of leavened bread.
 <sup>14</sup> Of it he shall offer one out of each offering for a heave offering to Yahweh. It shall be the priest’s who sprinkles the blood of the peace offerings.
 <sup>15</sup> The flesh of the sacrifice of his peace offerings for thanksgiving shall be eaten on the day of his offering. He shall not leave any of it until the morning.
 
-<sup>16</sup> “ ‘But if the sacrifice of his offering is a vow, or a free will offering, it shall be eaten on the day that he offers his sacrifice. On the next day what remains of it shall be eaten,
+<sup>16</sup> “‘But if the sacrifice of his offering is a vow, or a free will offering, it shall be eaten on the day that he offers his sacrifice. On the next day what remains of it shall be eaten,
 <sup>17</sup> but what remains of the meat of the sacrifice on the third day shall be burned with fire.
 <sup>18</sup> If any of the meat of the sacrifice of his peace offerings is eaten on the third day, it will not be accepted, and it shall not be credited to him who offers it. It will be an abomination, and the soul who eats any of it will bear his iniquity.
 
-<sup>19</sup> “ ‘The meat that touches any unclean thing shall not be eaten. It shall be burned with fire. As for the meat, everyone who is clean may eat it;
+<sup>19</sup> “‘The meat that touches any unclean thing shall not be eaten. It shall be burned with fire. As for the meat, everyone who is clean may eat it;
 <sup>20</sup> but the soul who eats of the meat of the sacrifice of peace offerings that belongs to Yahweh, having his uncleanness on him, that soul shall be cut off from his people.
-<sup>21</sup> When anyone touches any unclean thing, the uncleanness of man, or an unclean animal, or any unclean abomination, and eats some of the meat of the sacrifice of peace offerings which belong to Yahweh, that soul shall be cut off from his people.’ ”
+<sup>21</sup> When anyone touches any unclean thing, the uncleanness of man, or an unclean animal, or any unclean abomination, and eats some of the meat of the sacrifice of peace offerings which belong to Yahweh, that soul shall be cut off from his people.’”
 
 <sup>22</sup> Yahweh spoke to Moses, saying,
 <sup>23</sup> “Speak to the children of Israel, saying, ‘You shall eat no fat, of bull, or sheep, or goat.
 <sup>24</sup> The fat of that which dies of itself, and the fat of that which is torn of animals, may be used for any other service, but you shall in no way eat of it.
 <sup>25</sup> For whoever eats the fat of the animal which men offer as an offering made by fire to Yahweh, even the soul who eats it shall be cut off from his people.
 <sup>26</sup> You shall not eat any blood, whether it is of bird or of animal, in any of your dwellings.
-<sup>27</sup> Whoever it is who eats any blood, that soul shall be cut off from his people.’ ”
+<sup>27</sup> Whoever it is who eats any blood, that soul shall be cut off from his people.’”
 
 <sup>28</sup> Yahweh spoke to Moses, saying,
 <sup>29</sup> “Speak to the children of Israel, saying, ‘He who offers the sacrifice of his peace offerings to Yahweh shall bring his offering to Yahweh out of the sacrifice of his peace offerings.
@@ -224,7 +224,7 @@
 <sup>31</sup> The priest shall burn the fat on the altar, but the breast shall be Aaron’s and his sons’.
 <sup>32</sup> The right thigh you shall give to the priest for a heave offering out of the sacrifices of your peace offerings.
 <sup>33</sup> He among the sons of Aaron who offers the blood of the peace offerings, and the fat, shall have the right thigh for a portion.
-<sup>34</sup> For the waved breast and the heaved thigh I have taken from the children of Israel out of the sacrifices of their peace offerings, and have given them to Aaron the priest and to his sons as their portion forever from the children of Israel.’ ”
+<sup>34</sup> For the waved breast and the heaved thigh I have taken from the children of Israel out of the sacrifices of their peace offerings, and have given them to Aaron the priest and to his sons as their portion forever from the children of Israel.’”
 
 <sup>35</sup> This is the consecrated portion of Aaron, and the consecrated portion of his sons, out of the offerings of Yahweh made by fire, in the day when he presented them to minister to Yahweh in the priest’s office;
 <sup>36</sup> which Yahweh commanded to be given them of the children of Israel, in the day that he anointed them. It is their portion forever throughout their generations.
@@ -278,7 +278,7 @@
 <sup>1</sup> On the eighth day, Moses called Aaron and his sons, and the elders of Israel;
 <sup>2</sup> and he said to Aaron, “Take a calf from the herd for a sin offering, and a ram for a burnt offering, without defect, and offer them before Yahweh.
 <sup>3</sup> You shall speak to the children of Israel, saying, ‘Take a male goat for a sin offering; and a calf and a lamb, both a year old, without defect, for a burnt offering;
-<sup>4</sup> and a bull and a ram for peace offerings, to sacrifice before Yahweh; and a meal offering mixed with oil: for today Yahweh appears to you.’ ”
+<sup>4</sup> and a bull and a ram for peace offerings, to sacrifice before Yahweh; and a meal offering mixed with oil: for today Yahweh appears to you.’”
 
 <sup>5</sup> They brought what Moses commanded before the Tent of Meeting. All the congregation came near and stood before Yahweh.
 <sup>6</sup> Moses said, “This is the thing which Yahweh commanded that you should do; and Yahweh’s glory shall appear to you.”
@@ -308,7 +308,7 @@
 <sup>1</sup> Nadab and Abihu, the sons of Aaron, each took his censer, and put fire in it, and laid incense on it, and offered strange fire before Yahweh, which he had not commanded them.
 <sup>2</sup> Fire came out from before Yahweh, and devoured them, and they died before Yahweh.
 
-<sup>3</sup> Then Moses said to Aaron, “This is what Yahweh spoke of, saying,<br>‘I will show myself holy to those who come near me,<br>and before all the people I will be glorified.’ ”
+<sup>3</sup> Then Moses said to Aaron, “This is what Yahweh spoke of, saying,<br>‘I will show myself holy to those who come near me,<br>and before all the people I will be glorified.’”
 
 Aaron held his peace.
 <sup>4</sup> Moses called Mishael and Elzaphan, the sons of Uzziel the uncle of Aaron, and said to them, “Draw near, carry your brothers from before the sanctuary out of the camp.”
@@ -342,18 +342,18 @@ Aaron held his peace.
 <sup>2</sup> “Speak to the children of Israel, saying, ‘These are the living things which you may eat among all the animals that are on the earth.
 <sup>3</sup> Whatever parts the hoof, and is cloven-footed, and chews the cud among the animals, that you may eat.
 
-<sup>4</sup> “ ‘Nevertheless these you shall not eat of those that chew the cud, or of those who part the hoof: the camel, because it chews the cud but doesn’t have a parted hoof, is unclean to you.
+<sup>4</sup> “‘Nevertheless these you shall not eat of those that chew the cud, or of those who part the hoof: the camel, because it chews the cud but doesn’t have a parted hoof, is unclean to you.
 <sup>5</sup> The hyrax,<sup>a</sup> because it chews the cud but doesn’t have a parted hoof, is unclean to you.
 <sup>6</sup> The hare, because it chews the cud but doesn’t have a parted hoof, is unclean to you.
 <sup>7</sup> The pig, because it has a split hoof, and is cloven-footed, but doesn’t chew the cud, is unclean to you.
 <sup>8</sup> You shall not eat their meat. You shall not touch their carcasses. They are unclean to you.
 
-<sup>9</sup> “ ‘You may eat of all these that are in the waters: whatever has fins and scales in the waters, in the seas, and in the rivers, that you may eat.
+<sup>9</sup> “‘You may eat of all these that are in the waters: whatever has fins and scales in the waters, in the seas, and in the rivers, that you may eat.
 <sup>10</sup> All that don’t have fins and scales in the seas and rivers, all that move in the waters, and all the living creatures that are in the waters, they are an abomination to you,
 <sup>11</sup> and you shall detest them. You shall not eat of their meat, and you shall detest their carcasses.
 <sup>12</sup> Whatever has no fins nor scales in the waters is an abomination to you.
 
-<sup>13</sup> “ ‘You shall detest these among the birds; they shall not be eaten because they are an abomination: the eagle, the vulture, the black vulture,
+<sup>13</sup> “‘You shall detest these among the birds; they shall not be eaten because they are an abomination: the eagle, the vulture, the black vulture,
 <sup>14</sup> the red kite, any kind of black kite,
 <sup>15</sup> any kind of raven,
 <sup>16</sup> the horned owl, the screech owl, the gull, any kind of hawk,
@@ -361,19 +361,19 @@ Aaron held his peace.
 <sup>18</sup> the white owl, the desert owl, the osprey,
 <sup>19</sup> the stork, any kind of heron, the hoopoe, and the bat.
 
-<sup>20</sup> “ ‘All flying insects that walk on all fours are an abomination to you.
+<sup>20</sup> “‘All flying insects that walk on all fours are an abomination to you.
 <sup>21</sup> Yet you may eat these: of all winged creeping things that go on all fours, which have long, jointed legs for hopping on the earth.
 <sup>22</sup> Even of these you may eat: any kind of locust, any kind of katydid, any kind of cricket, and any kind of grasshopper.
 <sup>23</sup> But all winged creeping things which have four feet are an abomination to you.
 
-<sup>24</sup> “ ‘By these you will become unclean: whoever touches their carcass shall be unclean until the evening.
+<sup>24</sup> “‘By these you will become unclean: whoever touches their carcass shall be unclean until the evening.
 <sup>25</sup> Whoever carries any part of their carcass shall wash his clothes, and be unclean until the evening.
 
-<sup>26</sup> “ ‘Every animal which has a split hoof that isn’t completely divided, or doesn’t chew the cud, is unclean to you. Everyone who touches them shall be unclean.
+<sup>26</sup> “‘Every animal which has a split hoof that isn’t completely divided, or doesn’t chew the cud, is unclean to you. Everyone who touches them shall be unclean.
 <sup>27</sup> Whatever goes on its paws, among all animals that go on all fours, they are unclean to you. Whoever touches their carcass shall be unclean until the evening.
 <sup>28</sup> He who carries their carcass shall wash his clothes, and be unclean until the evening. They are unclean to you.
 
-<sup>29</sup> “ ‘These are they which are unclean to you among the creeping things that creep on the earth: the weasel, the rat, any kind of great lizard,
+<sup>29</sup> “‘These are they which are unclean to you among the creeping things that creep on the earth: the weasel, the rat, any kind of great lizard,
 <sup>30</sup> the gecko, and the monitor lizard, the wall lizard, the skink, and the chameleon.
 <sup>31</sup> These are they which are unclean to you among all that creep. Whoever touches them when they are dead shall be unclean until the evening.
 <sup>32</sup> Anything they fall on when they are dead shall be unclean; whether it is any vessel of wood, or clothing, or skin, or sack, whatever vessel it is, with which any work is done, it must be put into water, and it shall be unclean until the evening. Then it will be clean.
@@ -384,17 +384,17 @@ Aaron held his peace.
 <sup>37</sup> If part of their carcass falls on any sowing seed which is to be sown, it is clean.
 <sup>38</sup> But if water is put on the seed, and part of their carcass falls on it, it is unclean to you.
 
-<sup>39</sup> “ ‘If any animal of which you may eat dies, he who touches its carcass shall be unclean until the evening.
+<sup>39</sup> “‘If any animal of which you may eat dies, he who touches its carcass shall be unclean until the evening.
 <sup>40</sup> He who eats of its carcass shall wash his clothes, and be unclean until the evening. He also who carries its carcass shall wash his clothes, and be unclean until the evening.
 
-<sup>41</sup> “ ‘Every creeping thing that creeps on the earth is an abomination. It shall not be eaten.
+<sup>41</sup> “‘Every creeping thing that creeps on the earth is an abomination. It shall not be eaten.
 <sup>42</sup> Whatever goes on its belly, and whatever goes on all fours, or whatever has many feet, even all creeping things that creep on the earth, them you shall not eat; for they are an abomination.
 <sup>43</sup> You shall not make yourselves abominable with any creeping thing that creeps. You shall not make yourselves unclean with them, that you should be defiled by them.
 <sup>44</sup> For I am Yahweh your God. Sanctify yourselves therefore, and be holy; for I am holy. You shall not defile yourselves with any kind of creeping thing that moves on the earth.
 <sup>45</sup> For I am Yahweh who brought you up out of the land of Egypt, to be your God. You shall therefore be holy, for I am holy.
 
-<sup>46</sup> “ ‘This is the law of the animal, and of the bird, and of every living creature that moves in the waters, and of every creature that creeps on the earth,
-<sup>47</sup> to make a distinction between the unclean and the clean, and between the living thing that may be eaten and the living thing that may not be eaten.’ ”
+<sup>46</sup> “‘This is the law of the animal, and of the bird, and of every living creature that moves in the waters, and of every creature that creeps on the earth,
+<sup>47</sup> to make a distinction between the unclean and the clean, and between the living thing that may be eaten and the living thing that may not be eaten.’”
 
 > - <sup>a</sup> 5. Or rock badger, or cony
 
@@ -406,11 +406,11 @@ Aaron held his peace.
 <sup>4</sup> She shall continue in the blood of purification thirty-three days. She shall not touch any holy thing, nor come into the sanctuary, until the days of her purifying are completed.
 <sup>5</sup> But if she bears a female child, then she shall be unclean two weeks, as in her period; and she shall continue in the blood of purification sixty-six days.
 
-<sup>6</sup> “ ‘When the days of her purification are completed for a son or for a daughter, she shall bring to the priest at the door of the Tent of Meeting, a year old lamb for a burnt offering, and a young pigeon or a turtledove, for a sin offering.
+<sup>6</sup> “‘When the days of her purification are completed for a son or for a daughter, she shall bring to the priest at the door of the Tent of Meeting, a year old lamb for a burnt offering, and a young pigeon or a turtledove, for a sin offering.
 <sup>7</sup> He shall offer it before Yahweh, and make atonement for her; then she shall be cleansed from the fountain of her blood.
 
-“ ‘This is the law for her who bears, whether a male or a female.
-<sup>8</sup> If she cannot afford a lamb, then she shall take two turtledoves or two young pigeons: the one for a burnt offering, and the other for a sin offering. The priest shall make atonement for her, and she shall be clean.’ ”
+“‘This is the law for her who bears, whether a male or a female.
+<sup>8</sup> If she cannot afford a lamb, then she shall take two turtledoves or two young pigeons: the one for a burnt offering, and the other for a sin offering. The priest shall make atonement for her, and she shall be clean.’”
 
 ## Chapter 13
 
@@ -461,7 +461,7 @@ Aaron held his peace.
 <sup>39</sup> then the priest shall examine them. Behold, if the bright spots on the skin of their body are a dull white, it is a harmless rash. It has broken out in the skin. He is clean.
 
 <sup>40</sup> “If a man’s hair has fallen from his head, he is bald. He is clean.
-<sup>41</sup> If his hair has fallen off from the front part of his head, he is forehead bald. He is clean.
+<sup>41</sup> If his hair has fallen off from the front part of his head, his forehead is bald. He is clean.
 <sup>42</sup> But if a reddish-white plague is in the bald head or the bald forehead, it is leprosy breaking out in his bald head or his bald forehead.
 <sup>43</sup> Then the priest shall examine him. Behold, if the swelling of the plague is reddish-white in his bald head, or in his bald forehead, like the appearance of leprosy in the skin of the body,
 <sup>44</sup> he is a leprous man. He is unclean. The priest shall surely pronounce him unclean. His plague is on his head.
@@ -470,7 +470,7 @@ Aaron held his peace.
 <sup>46</sup> All the days in which the plague is in him he shall be unclean. He is unclean. He shall dwell alone. His dwelling shall be outside of the camp.
 
 <sup>47</sup> “The garment also that the plague of leprosy is in, whether it is a woolen garment, or a linen garment;
-<sup>48</sup> whether it is in warp or woof;<sup>a</sup> of linen or of wool; whether in a leather, or in anything made of leather;
+<sup>48</sup> whether it is in warp or woof;<sup>a</sup> of linen or of wool; whether in leather, or in anything made of leather;
 <sup>49</sup> if the plague is greenish or reddish in the garment, or in the leather, or in the warp, or in the woof, or in anything made of leather; it is the plague of leprosy, and shall be shown to the priest.
 <sup>50</sup> The priest shall examine the plague, and isolate the plague seven days.
 <sup>51</sup> He shall examine the plague on the seventh day. If the plague has spread in the garment, either in the warp, or in the woof, or in the skin, whatever use the skin is used for, the plague is a destructive mildew. It is unclean.
@@ -485,7 +485,7 @@ Aaron held his peace.
 
 <sup>59</sup> This is the law of the plague of mildew in a garment of wool or linen, either in the warp, or the woof, or in anything of skin, to pronounce it clean, or to pronounce it unclean.
 
-> - <sup>a</sup> 48. warp and woof are the vertical and horizontal threads in woven cloth
+> - <sup>a</sup> 48. Warp and woof are the vertical and horizontal threads in woven cloth
 
 ## Chapter 14
 
@@ -563,9 +563,9 @@ Aaron held his peace.
 This is the law of leprosy.
 
 > - <sup>a</sup> 10. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
-> - <sup>b</sup> 10. a log is a liquid measure of about 300 ml or 10 ounces
+> - <sup>b</sup> 10. A log is a liquid measure of about 300 ml or 10 ounces
 > - <sup>c</sup> 21. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
-> - <sup>d</sup> 21. a log is a liquid measure of about 300 ml or 10 ounces
+> - <sup>d</sup> 21. A log is a liquid measure of about 300 ml or 10 ounces
 
 ## Chapter 15
 
@@ -573,48 +573,48 @@ This is the law of leprosy.
 <sup>2</sup> “Speak to the children of Israel, and tell them, ‘When any man has a discharge from his body, because of his discharge he is unclean.
 <sup>3</sup> This shall be his uncleanness in his discharge: whether his body runs with his discharge, or his body has stopped from his discharge, it is his uncleanness.
 
-<sup>4</sup> “ ‘Every bed on which he who has the discharge lies shall be unclean; and everything he sits on shall be unclean.
+<sup>4</sup> “‘Every bed on which he who has the discharge lies shall be unclean; and everything he sits on shall be unclean.
 <sup>5</sup> Whoever touches his bed shall wash his clothes, and bathe himself in water, and be unclean until the evening.
 <sup>6</sup> He who sits on anything on which the man who has the discharge sat shall wash his clothes, and bathe himself in water, and be unclean until the evening.
 
-<sup>7</sup> “ ‘He who touches the body of him who has the discharge shall wash his clothes, and bathe himself in water, and be unclean until the evening.
+<sup>7</sup> “‘He who touches the body of him who has the discharge shall wash his clothes, and bathe himself in water, and be unclean until the evening.
 
-<sup>8</sup> “ ‘If he who has the discharge spits on him who is clean, then he shall wash his clothes, and bathe himself in water, and be unclean until the evening.
+<sup>8</sup> “‘If he who has the discharge spits on him who is clean, then he shall wash his clothes, and bathe himself in water, and be unclean until the evening.
 
-<sup>9</sup> “ ‘Whatever saddle he who has the discharge rides on shall be unclean.
+<sup>9</sup> “‘Whatever saddle he who has the discharge rides on shall be unclean.
 <sup>10</sup> Whoever touches anything that was under him shall be unclean until the evening. He who carries those things shall wash his clothes, and bathe himself in water, and be unclean until the evening.
 
-<sup>11</sup> “ ‘Whomever he who has the discharge touches, without having rinsed his hands in water, he shall wash his clothes, and bathe himself in water, and be unclean until the evening.
+<sup>11</sup> “‘Whomever he who has the discharge touches, without having rinsed his hands in water, he shall wash his clothes, and bathe himself in water, and be unclean until the evening.
 
-<sup>12</sup> “ ‘The earthen vessel, which he who has the discharge touches, shall be broken; and every vessel of wood shall be rinsed in water.
+<sup>12</sup> “‘The earthen vessel, which he who has the discharge touches, shall be broken; and every vessel of wood shall be rinsed in water.
 
-<sup>13</sup> “ ‘When he who has a discharge is cleansed of his discharge, then he shall count to himself seven days for his cleansing, and wash his clothes; and he shall bathe his flesh in running water, and shall be clean.
+<sup>13</sup> “‘When he who has a discharge is cleansed of his discharge, then he shall count to himself seven days for his cleansing, and wash his clothes; and he shall bathe his flesh in running water, and shall be clean.
 
-<sup>14</sup> “ ‘On the eighth day he shall take two turtledoves, or two young pigeons, and come before Yahweh to the door of the Tent of Meeting, and give them to the priest.
+<sup>14</sup> “‘On the eighth day he shall take two turtledoves, or two young pigeons, and come before Yahweh to the door of the Tent of Meeting, and give them to the priest.
 <sup>15</sup> The priest shall offer them, the one for a sin offering, and the other for a burnt offering. The priest shall make atonement for him before Yahweh for his discharge.
 
-<sup>16</sup> “ ‘If any man has an emission of semen, then he shall bathe all his flesh in water, and be unclean until the evening.
+<sup>16</sup> “‘If any man has an emission of semen, then he shall bathe all his flesh in water, and be unclean until the evening.
 <sup>17</sup> Every garment and every skin which the semen is on shall be washed with water, and be unclean until the evening.
 <sup>18</sup> If a man lies with a woman and there is an emission of semen, they shall both bathe themselves in water, and be unclean until the evening.
 
-<sup>19</sup> “ ‘If a woman has a discharge, and her discharge in her flesh is blood, she shall be in her impurity seven days. Whoever touches her shall be unclean until the evening.
+<sup>19</sup> “‘If a woman has a discharge, and her discharge in her flesh is blood, she shall be in her impurity seven days. Whoever touches her shall be unclean until the evening.
 
-<sup>20</sup> “ ‘Everything that she lies on in her impurity shall be unclean. Everything also that she sits on shall be unclean.
+<sup>20</sup> “‘Everything that she lies on in her impurity shall be unclean. Everything also that she sits on shall be unclean.
 <sup>21</sup> Whoever touches her bed shall wash his clothes, and bathe himself in water, and be unclean until the evening.
 <sup>22</sup> Whoever touches anything that she sits on shall wash his clothes, and bathe himself in water, and be unclean until the evening.
 <sup>23</sup> If it is on the bed, or on anything she sits on, when he touches it, he shall be unclean until the evening.
 
-<sup>24</sup> “ ‘If any man lies with her, and her monthly flow is on him, he shall be unclean seven days; and every bed he lies on shall be unclean.
+<sup>24</sup> “‘If any man lies with her, and her monthly flow is on him, he shall be unclean seven days; and every bed he lies on shall be unclean.
 
-<sup>25</sup> “ ‘If a woman has a discharge of her blood many days not in the time of her period, or if she has a discharge beyond the time of her period, all the days of the discharge of her uncleanness shall be as in the days of her period. She is unclean.
+<sup>25</sup> “‘If a woman has a discharge of her blood many days not in the time of her period, or if she has a discharge beyond the time of her period, all the days of the discharge of her uncleanness shall be as in the days of her period. She is unclean.
 <sup>26</sup> Every bed she lies on all the days of her discharge shall be to her as the bed of her period. Everything she sits on shall be unclean, as the uncleanness of her period.
 <sup>27</sup> Whoever touches these things shall be unclean, and shall wash his clothes and bathe himself in water, and be unclean until the evening.
 
-<sup>28</sup> “ ‘But if she is cleansed of her discharge, then she shall count to herself seven days, and after that she shall be clean.
+<sup>28</sup> “‘But if she is cleansed of her discharge, then she shall count to herself seven days, and after that she shall be clean.
 <sup>29</sup> On the eighth day she shall take two turtledoves, or two young pigeons, and bring them to the priest, to the door of the Tent of Meeting.
 <sup>30</sup> The priest shall offer the one for a sin offering, and the other for a burnt offering; and the priest shall make atonement for her before Yahweh for the uncleanness of her discharge.
 
-<sup>31</sup> “ ‘Thus you shall separate the children of Israel from their uncleanness, so they will not die in their uncleanness when they defile my tabernacle that is among them.’ ”
+<sup>31</sup> “‘Thus you shall separate the children of Israel from their uncleanness, so they will not die in their uncleanness when they defile my tabernacle that is among them.’”
 
 <sup>32</sup> This is the law of him who has a discharge, and of him who has an emission of semen, so that he is unclean by it;
 <sup>33</sup> and of her who has her period, and of a man or woman who has a discharge, and of him who lies with her who is unclean.
@@ -681,15 +681,15 @@ It was done as Yahweh commanded Moses.
 <sup>8</sup> “You shall say to them, ‘Any man there is of the house of Israel, or of the strangers who live as foreigners among them, who offers a burnt offering or sacrifice,
 <sup>9</sup> and doesn’t bring it to the door of the Tent of Meeting to sacrifice it to Yahweh, that man shall be cut off from his people.
 
-<sup>10</sup> “ ‘Any man of the house of Israel, or of the strangers who live as foreigners among them, who eats any kind of blood, I will set my face against that soul who eats blood, and will cut him off from among his people.
+<sup>10</sup> “‘Any man of the house of Israel, or of the strangers who live as foreigners among them, who eats any kind of blood, I will set my face against that soul who eats blood, and will cut him off from among his people.
 <sup>11</sup> For the life of the flesh is in the blood. I have given it to you on the altar to make atonement for your souls; for it is the blood that makes atonement by reason of the life.
 <sup>12</sup> Therefore I have said to the children of Israel, “No person among you may eat blood, nor may any stranger who lives as a foreigner among you eat blood.”
 
-<sup>13</sup> “ ‘Whatever man there is of the children of Israel, or of the strangers who live as foreigners among them, who takes in hunting any animal or bird that may be eaten, he shall pour out its blood, and cover it with dust.
+<sup>13</sup> “‘Whatever man there is of the children of Israel, or of the strangers who live as foreigners among them, who takes in hunting any animal or bird that may be eaten, he shall pour out its blood, and cover it with dust.
 <sup>14</sup> For as to the life of all flesh, its blood is with its life. Therefore I said to the children of Israel, “You shall not eat the blood of any kind of flesh; for the life of all flesh is its blood. Whoever eats it shall be cut off.”
 
-<sup>15</sup> “ ‘Every person that eats what dies of itself, or that which is torn by animals, whether he is native-born or a foreigner, shall wash his clothes, and bathe himself in water, and be unclean until the evening. Then he shall be clean.
-<sup>16</sup> But if he doesn’t wash them, or bathe his flesh, then he shall bear his iniquity.’ ”
+<sup>15</sup> “‘Every person that eats what dies of itself, or that which is torn by animals, whether he is native-born or a foreigner, shall wash his clothes, and bathe himself in water, and be unclean until the evening. Then he shall be clean.
+<sup>16</sup> But if he doesn’t wash them, or bathe his flesh, then he shall bear his iniquity.’”
 
 ## Chapter 18
 
@@ -699,129 +699,129 @@ It was done as Yahweh commanded Moses.
 <sup>4</sup> You shall do my ordinances. You shall keep my statutes and walk in them. I am Yahweh your God.
 <sup>5</sup> You shall therefore keep my statutes and my ordinances, which if a man does, he shall live in them. I am Yahweh.
 
-<sup>6</sup> “ ‘None of you shall approach any close relatives, to uncover their nakedness: I am Yahweh.
+<sup>6</sup> “‘None of you shall approach any close relatives, to uncover their nakedness: I am Yahweh.
 
-<sup>7</sup> “ ‘You shall not uncover the nakedness of your father, nor the nakedness of your mother: she is your mother. You shall not uncover her nakedness.
+<sup>7</sup> “‘You shall not uncover the nakedness of your father, nor the nakedness of your mother: she is your mother. You shall not uncover her nakedness.
 
-<sup>8</sup> “ ‘You shall not uncover the nakedness of your father’s wife. It is your father’s nakedness.
+<sup>8</sup> “‘You shall not uncover the nakedness of your father’s wife. It is your father’s nakedness.
 
-<sup>9</sup> “ ‘You shall not uncover the nakedness of your sister, the daughter of your father, or the daughter of your mother, whether born at home or born abroad.
+<sup>9</sup> “‘You shall not uncover the nakedness of your sister, the daughter of your father, or the daughter of your mother, whether born at home or born abroad.
 
-<sup>10</sup> “ ‘You shall not uncover the nakedness of your son’s daughter, or of your daughter’s daughter, even their nakedness; for theirs is your own nakedness.
+<sup>10</sup> “‘You shall not uncover the nakedness of your son’s daughter, or of your daughter’s daughter, even their nakedness; for theirs is your own nakedness.
 
-<sup>11</sup> “ ‘You shall not uncover the nakedness of your father’s wife’s daughter, conceived by your father, since she is your sister.
+<sup>11</sup> “‘You shall not uncover the nakedness of your father’s wife’s daughter, conceived by your father, since she is your sister.
 
-<sup>12</sup> “ ‘You shall not uncover the nakedness of your father’s sister. She is your father’s near kinswoman.
+<sup>12</sup> “‘You shall not uncover the nakedness of your father’s sister. She is your father’s near kinswoman.
 
-<sup>13</sup> “ ‘You shall not uncover the nakedness of your mother’s sister, for she is your mother’s near kinswoman.
+<sup>13</sup> “‘You shall not uncover the nakedness of your mother’s sister, for she is your mother’s near kinswoman.
 
-<sup>14</sup> “ ‘You shall not uncover the nakedness of your father’s brother. You shall not approach his wife. She is your aunt.
+<sup>14</sup> “‘You shall not uncover the nakedness of your father’s brother. You shall not approach his wife. She is your aunt.
 
-<sup>15</sup> “ ‘You shall not uncover the nakedness of your daughter-in-law. She is your son’s wife. You shall not uncover her nakedness.
+<sup>15</sup> “‘You shall not uncover the nakedness of your daughter-in-law. She is your son’s wife. You shall not uncover her nakedness.
 
-<sup>16</sup> “ ‘You shall not uncover the nakedness of your brother’s wife. It is your brother’s nakedness.
+<sup>16</sup> “‘You shall not uncover the nakedness of your brother’s wife. It is your brother’s nakedness.
 
-<sup>17</sup> “ ‘You shall not uncover the nakedness of a woman and her daughter. You shall not take her son’s daughter, or her daughter’s daughter, to uncover her nakedness. They are near kinswomen. It is wickedness.
+<sup>17</sup> “‘You shall not uncover the nakedness of a woman and her daughter. You shall not take her son’s daughter, or her daughter’s daughter, to uncover her nakedness. They are near kinswomen. It is wickedness.
 
-<sup>18</sup> “ ‘You shall not take a wife in addition to her sister, to be a rival, to uncover her nakedness, while her sister is still alive.
+<sup>18</sup> “‘You shall not take a wife in addition to her sister, to be a rival, to uncover her nakedness, while her sister is still alive.
 
-<sup>19</sup> “ ‘You shall not approach a woman to uncover her nakedness, as long as she is impure by her uncleanness.
+<sup>19</sup> “‘You shall not approach a woman to uncover her nakedness, as long as she is impure by her uncleanness.
 
-<sup>20</sup> “ ‘You shall not lie carnally with your neighbor’s wife, and defile yourself with her.
+<sup>20</sup> “‘You shall not lie carnally with your neighbor’s wife, and defile yourself with her.
 
-<sup>21</sup> “ ‘You shall not give any of your children as a sacrifice to Molech. You shall not profane the name of your God. I am Yahweh.
+<sup>21</sup> “‘You shall not give any of your children as a sacrifice to Molech. You shall not profane the name of your God. I am Yahweh.
 
-<sup>22</sup> “ ‘You shall not lie with a man as with a woman. That is detestable.
+<sup>22</sup> “‘You shall not lie with a man as with a woman. That is detestable.
 
-<sup>23</sup> “ ‘You shall not lie with any animal to defile yourself with it. No woman may give herself to an animal, to lie down with it: it is a perversion.
+<sup>23</sup> “‘You shall not lie with any animal to defile yourself with it. No woman may give herself to an animal, to lie down with it: it is a perversion.
 
-<sup>24</sup> “ ‘Don’t defile yourselves in any of these things; for in all these the nations which I am casting out before you were defiled.
+<sup>24</sup> “‘Don’t defile yourselves in any of these things; for in all these the nations which I am casting out before you were defiled.
 <sup>25</sup> The land was defiled. Therefore I punished its iniquity, and the land vomited out her inhabitants.
 <sup>26</sup> You therefore shall keep my statutes and my ordinances, and shall not do any of these abominations; neither the native-born, nor the stranger who lives as a foreigner among you
 <sup>27</sup> (for the men of the land that were before you had done all these abominations, and the land became defiled),
 <sup>28</sup> that the land not vomit you out also, when you defile it, as it vomited out the nation that was before you.
 
-<sup>29</sup> “ ‘For whoever shall do any of these abominations, even the souls that do them shall be cut off from among their people.
-<sup>30</sup> Therefore you shall keep my requirements, that you do not practice any of these abominable customs which were practiced before you, and that you do not defile yourselves with them. I am Yahweh your God.’ ”
+<sup>29</sup> “‘For whoever shall do any of these abominations, even the souls that do them shall be cut off from among their people.
+<sup>30</sup> Therefore you shall keep my requirements, that you do not practice any of these abominable customs which were practiced before you, and that you do not defile yourselves with them. I am Yahweh your God.’”
 
 ## Chapter 19
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
 <sup>2</sup> “Speak to all the congregation of the children of Israel, and tell them, ‘You shall be holy; for I, Yahweh your God, am holy.
 
-<sup>3</sup> “ ‘Each one of you shall respect his mother and his father. You shall keep my Sabbaths. I am Yahweh your God.
+<sup>3</sup> “‘Each one of you shall respect his mother and his father. You shall keep my Sabbaths. I am Yahweh your God.
 
-<sup>4</sup> “ ‘Don’t turn to idols, nor make molten gods for yourselves. I am Yahweh your God.
+<sup>4</sup> “‘Don’t turn to idols, nor make molten gods for yourselves. I am Yahweh your God.
 
-<sup>5</sup> “ ‘When you offer a sacrifice of peace offerings to Yahweh, you shall offer it so that you may be accepted.
+<sup>5</sup> “‘When you offer a sacrifice of peace offerings to Yahweh, you shall offer it so that you may be accepted.
 <sup>6</sup> It shall be eaten the same day you offer it, and on the next day. If anything remains until the third day, it shall be burned with fire.
 <sup>7</sup> If it is eaten at all on the third day, it is an abomination. It will not be accepted;
 <sup>8</sup> but everyone who eats it shall bear his iniquity, because he has profaned the holy thing of Yahweh, and that soul shall be cut off from his people.
 
-<sup>9</sup> “ ‘When you reap the harvest of your land, you shall not wholly reap the corners of your field, neither shall you gather the gleanings of your harvest.
+<sup>9</sup> “‘When you reap the harvest of your land, you shall not wholly reap the corners of your field, neither shall you gather the gleanings of your harvest.
 <sup>10</sup> You shall not glean your vineyard, neither shall you gather the fallen grapes of your vineyard. You shall leave them for the poor and for the foreigner. I am Yahweh your God.
 
-<sup>11</sup> “ ‘You shall not steal.
+<sup>11</sup> “‘You shall not steal.
 
-“ ‘You shall not lie.
+“‘You shall not lie.
 
-“ ‘You shall not deceive one another.
+“‘You shall not deceive one another.
 
-<sup>12</sup> “ ‘You shall not swear by my name falsely, and profane the name of your God. I am Yahweh.
+<sup>12</sup> “‘You shall not swear by my name falsely, and profane the name of your God. I am Yahweh.
 
-<sup>13</sup> “ ‘You shall not oppress your neighbor, nor rob him.
+<sup>13</sup> “‘You shall not oppress your neighbor, nor rob him.
 
-“ ‘The wages of a hired servant shall not remain with you all night until the morning.
+“‘The wages of a hired servant shall not remain with you all night until the morning.
 
-<sup>14</sup> “ ‘You shall not curse the deaf, nor put a stumbling block before the blind; but you shall fear your God. I am Yahweh.
+<sup>14</sup> “‘You shall not curse the deaf, nor put a stumbling block before the blind; but you shall fear your God. I am Yahweh.
 
-<sup>15</sup> “ ‘You shall do no injustice in judgment. You shall not be partial to the poor, nor show favoritism to the great; but you shall judge your neighbor in righteousness.
+<sup>15</sup> “‘You shall do no injustice in judgment. You shall not be partial to the poor, nor show favoritism to the great; but you shall judge your neighbor in righteousness.
 
-<sup>16</sup> “ ‘You shall not go around as a slanderer among your people.
+<sup>16</sup> “‘You shall not go around as a slanderer among your people.
 
-“ ‘You shall not endanger the life<sup>a</sup> of your neighbor. I am Yahweh.
+“‘You shall not endanger the life<sup>a</sup> of your neighbor. I am Yahweh.
 
-<sup>17</sup> “ ‘You shall not hate your brother in your heart. You shall surely rebuke your neighbor, and not bear sin because of him.
+<sup>17</sup> “‘You shall not hate your brother in your heart. You shall surely rebuke your neighbor, and not bear sin because of him.
 
-<sup>18</sup> “ ‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.
+<sup>18</sup> “‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.
 
-<sup>19</sup> “ ‘You shall keep my statutes.
+<sup>19</sup> “‘You shall keep my statutes.
 
-“ ‘You shall not cross-breed different kinds of animals.
+“‘You shall not cross-breed different kinds of animals.
 
-“ ‘You shall not sow your field with two kinds of seed;
+“‘You shall not sow your field with two kinds of seed;
 
-“ ‘Don’t wear a garment made of two kinds of material.
+“‘Don’t wear a garment made of two kinds of material.
 
-<sup>20</sup> “ ‘If a man lies carnally with a woman who is a slave girl, pledged to be married to another man, and not ransomed or given her freedom; they shall be punished. They shall not be put to death, because she was not free.
+<sup>20</sup> “‘If a man lies carnally with a woman who is a slave girl, pledged to be married to another man, and not ransomed or given her freedom; they shall be punished. They shall not be put to death, because she was not free.
 <sup>21</sup> He shall bring his trespass offering to Yahweh, to the door of the Tent of Meeting, even a ram for a trespass offering.
 <sup>22</sup> The priest shall make atonement for him with the ram of the trespass offering before Yahweh for his sin which he has committed; and the sin which he has committed shall be forgiven him.
 
-<sup>23</sup> “ ‘When you come into the land, and have planted all kinds of trees for food, then you shall count their fruit as forbidden.<sup>b</sup> For three years it shall be forbidden to you. It shall not be eaten.
+<sup>23</sup> “‘When you come into the land, and have planted all kinds of trees for food, then you shall count their fruit as forbidden.<sup>b</sup> For three years it shall be forbidden to you. It shall not be eaten.
 <sup>24</sup> But in the fourth year all its fruit shall be holy, for giving praise to Yahweh.
 <sup>25</sup> In the fifth year you shall eat its fruit, that it may yield its increase to you. I am Yahweh your God.
 
-<sup>26</sup> “ ‘You shall not eat any meat with the blood still in it. You shall not use enchantments, nor practice sorcery.
+<sup>26</sup> “‘You shall not eat any meat with the blood still in it. You shall not use enchantments, nor practice sorcery.
 
-<sup>27</sup> “ ‘You shall not cut the hair on the sides of your head or clip off the edge of your beard.
+<sup>27</sup> “‘You shall not cut the hair on the sides of your head or clip off the edge of your beard.
 
-<sup>28</sup> “ ‘You shall not make any cuttings in your flesh for the dead, nor tattoo any marks on you. I am Yahweh.
+<sup>28</sup> “‘You shall not make any cuttings in your flesh for the dead, nor tattoo any marks on you. I am Yahweh.
 
-<sup>29</sup> “ ‘Don’t profane your daughter, to make her a prostitute; lest the land fall to prostitution, and the land become full of wickedness.
+<sup>29</sup> “‘Don’t profane your daughter, to make her a prostitute; lest the land fall to prostitution, and the land become full of wickedness.
 
-<sup>30</sup> “ ‘You shall keep my Sabbaths, and reverence my sanctuary; I am Yahweh.
+<sup>30</sup> “‘You shall keep my Sabbaths, and reverence my sanctuary; I am Yahweh.
 
-<sup>31</sup> “ ‘Don’t turn to those who are mediums, nor to the wizards. Don’t seek them out, to be defiled by them. I am Yahweh your God.
+<sup>31</sup> “‘Don’t turn to those who are mediums, nor to the wizards. Don’t seek them out, to be defiled by them. I am Yahweh your God.
 
-<sup>32</sup> “ ‘You shall rise up before the gray head and honor the face of the elderly; and you shall fear your God. I am Yahweh.
+<sup>32</sup> “‘You shall rise up before the gray head and honor the face of the elderly; and you shall fear your God. I am Yahweh.
 
-<sup>33</sup> “ ‘If a stranger lives as a foreigner with you in your land, you shall not do him wrong.
+<sup>33</sup> “‘If a stranger lives as a foreigner with you in your land, you shall not do him wrong.
 <sup>34</sup> The stranger who lives as a foreigner with you shall be to you as the native-born among you, and you shall love him as yourself; for you lived as foreigners in the land of Egypt. I am Yahweh your God.
 
-<sup>35</sup> “ ‘You shall do no unrighteousness in judgment, in measures of length, of weight, or of quantity.
+<sup>35</sup> “‘You shall do no unrighteousness in judgment, in measures of length, of weight, or of quantity.
 <sup>36</sup> You shall have just balances, just weights, a just ephah,<sup>c</sup> and a just hin.<sup>d</sup> I am Yahweh your God, who brought you out of the land of Egypt.
 
-<sup>37</sup> “ ‘You shall observe all my statutes and all my ordinances, and do them. I am Yahweh.’ ”
+<sup>37</sup> “‘You shall observe all my statutes and all my ordinances, and do them. I am Yahweh.’”
 
 > - <sup>a</sup> 16. Literally, “blood”
 > - <sup>b</sup> 23. Literally, “uncircumcised”
@@ -836,44 +836,44 @@ It was done as Yahweh commanded Moses.
 <sup>4</sup> If the people of the land all hide their eyes from that person when he gives of his offspring to Molech, and don’t put him to death,
 <sup>5</sup> then I will set my face against that man and against his family, and will cut him off, and all who play the prostitute after him to play the prostitute with Molech, from among their people.
 
-<sup>6</sup> “ ‘The person that turns to those who are mediums and wizards, to play the prostitute after them, I will even set my face against that person, and will cut him off from among his people.
+<sup>6</sup> “‘The person that turns to those who are mediums and wizards, to play the prostitute after them, I will even set my face against that person, and will cut him off from among his people.
 
-<sup>7</sup> “ ‘Sanctify yourselves therefore, and be holy; for I am Yahweh your God.
+<sup>7</sup> “‘Sanctify yourselves therefore, and be holy; for I am Yahweh your God.
 <sup>8</sup> You shall keep my statutes, and do them. I am Yahweh who sanctifies you.
 
-<sup>9</sup> “ ‘For everyone who curses his father or his mother shall surely be put to death. He has cursed his father or his mother. His blood shall be upon himself.
+<sup>9</sup> “‘For everyone who curses his father or his mother shall surely be put to death. He has cursed his father or his mother. His blood shall be upon himself.
 
-<sup>10</sup> “ ‘The man who commits adultery with another man’s wife, even he who commits adultery with his neighbor’s wife, the adulterer and the adulteress shall surely be put to death.
+<sup>10</sup> “‘The man who commits adultery with another man’s wife, even he who commits adultery with his neighbor’s wife, the adulterer and the adulteress shall surely be put to death.
 
-<sup>11</sup> “ ‘The man who lies with his father’s wife has uncovered his father’s nakedness. Both of them shall surely be put to death. Their blood shall be upon themselves.
+<sup>11</sup> “‘The man who lies with his father’s wife has uncovered his father’s nakedness. Both of them shall surely be put to death. Their blood shall be upon themselves.
 
-<sup>12</sup> “ ‘If a man lies with his daughter-in-law, both of them shall surely be put to death. They have committed a perversion. Their blood shall be upon themselves.
+<sup>12</sup> “‘If a man lies with his daughter-in-law, both of them shall surely be put to death. They have committed a perversion. Their blood shall be upon themselves.
 
-<sup>13</sup> “ ‘If a man lies with a male, as with a woman, both of them have committed an abomination. They shall surely be put to death. Their blood shall be upon themselves.
+<sup>13</sup> “‘If a man lies with a male, as with a woman, both of them have committed an abomination. They shall surely be put to death. Their blood shall be upon themselves.
 
-<sup>14</sup> “ ‘If a man takes a wife and her mother, it is wickedness. They shall be burned with fire, both he and they, that there may be no wickedness among you.
+<sup>14</sup> “‘If a man takes a wife and her mother, it is wickedness. They shall be burned with fire, both he and they, that there may be no wickedness among you.
 
-<sup>15</sup> “ ‘If a man lies with an animal, he shall surely be put to death; and you shall kill the animal.
+<sup>15</sup> “‘If a man lies with an animal, he shall surely be put to death; and you shall kill the animal.
 
-<sup>16</sup> “ ‘If a woman approaches any animal and lies with it, you shall kill the woman and the animal. They shall surely be put to death. Their blood shall be upon them.
+<sup>16</sup> “‘If a woman approaches any animal and lies with it, you shall kill the woman and the animal. They shall surely be put to death. Their blood shall be upon them.
 
-<sup>17</sup> “ ‘If a man takes his sister—his father’s daughter, or his mother’s daughter—and sees her nakedness, and she sees his nakedness, it is a shameful thing. They shall be cut off in the sight of the children of their people. He has uncovered his sister’s nakedness. He shall bear his iniquity.
+<sup>17</sup> “‘If a man takes his sister—his father’s daughter, or his mother’s daughter—and sees her nakedness, and she sees his nakedness, it is a shameful thing. They shall be cut off in the sight of the children of their people. He has uncovered his sister’s nakedness. He shall bear his iniquity.
 
-<sup>18</sup> “ ‘If a man lies with a woman having her monthly period, and uncovers her nakedness, he has made her fountain naked, and she has uncovered the fountain of her blood. Both of them shall be cut off from among their people.
+<sup>18</sup> “‘If a man lies with a woman having her monthly period, and uncovers her nakedness, he has made her fountain naked, and she has uncovered the fountain of her blood. Both of them shall be cut off from among their people.
 
-<sup>19</sup> “ ‘You shall not uncover the nakedness of your mother’s sister, nor of your father’s sister, for he has made his close relative naked. They shall bear their iniquity.
+<sup>19</sup> “‘You shall not uncover the nakedness of your mother’s sister, nor of your father’s sister, for he has made his close relative naked. They shall bear their iniquity.
 <sup>20</sup> If a man lies with his uncle’s wife, he has uncovered his uncle’s nakedness. They shall bear their sin. They shall die childless.
 
-<sup>21</sup> “ ‘If a man takes his brother’s wife, it is an impurity. He has uncovered his brother’s nakedness. They shall be childless.
+<sup>21</sup> “‘If a man takes his brother’s wife, it is an impurity. He has uncovered his brother’s nakedness. They shall be childless.
 
-<sup>22</sup> “ ‘You shall therefore keep all my statutes and all my ordinances, and do them, that the land where I am bringing you to dwell may not vomit you out.
+<sup>22</sup> “‘You shall therefore keep all my statutes and all my ordinances, and do them, that the land where I am bringing you to dwell may not vomit you out.
 <sup>23</sup> You shall not walk in the customs of the nation which I am casting out before you; for they did all these things, and therefore I abhorred them.
 <sup>24</sup> But I have said to you, “You shall inherit their land, and I will give it to you to possess it, a land flowing with milk and honey.” I am Yahweh your God, who has separated you from the peoples.
 
-<sup>25</sup> “ ‘You shall therefore make a distinction between the clean animal and the unclean, and between the unclean fowl and the clean. You shall not make yourselves abominable by animal, or by bird, or by anything with which the ground teems, which I have separated from you as unclean for you.
+<sup>25</sup> “‘You shall therefore make a distinction between the clean animal and the unclean, and between the unclean fowl and the clean. You shall not make yourselves abominable by animal, or by bird, or by anything with which the ground teems, which I have separated from you as unclean for you.
 <sup>26</sup> You shall be holy to me, for I, Yahweh, am holy, and have set you apart from the peoples, that you should be mine.
 
-<sup>27</sup> “ ‘A man or a woman that is a medium or is a wizard shall surely be put to death. They shall be stoned with stones. Their blood shall be upon themselves.’ ”
+<sup>27</sup> “‘A man or a woman that is a medium or is a wizard shall surely be put to death. They shall be stoned with stones. Their blood shall be upon themselves.’”
 
 > - <sup>a</sup> 2. or, seed
 
@@ -884,21 +884,21 @@ It was done as Yahweh commanded Moses.
 <sup>3</sup> and for his virgin sister who is near to him, who has had no husband; for her he may defile himself.
 <sup>4</sup> He shall not defile himself, being a chief man among his people, to profane himself.
 
-<sup>5</sup> “ ‘They shall not shave their heads or shave off the corners of their beards or make any cuttings in their flesh.
+<sup>5</sup> “‘They shall not shave their heads or shave off the corners of their beards or make any cuttings in their flesh.
 <sup>6</sup> They shall be holy to their God, and not profane the name of their God, for they offer the offerings of Yahweh made by fire, the bread of their God. Therefore they shall be holy.
 
-<sup>7</sup> “ ‘They shall not marry a woman who is a prostitute, or profane. A priest shall not marry a woman divorced from her husband; for he is holy to his God.
+<sup>7</sup> “‘They shall not marry a woman who is a prostitute, or profane. A priest shall not marry a woman divorced from her husband; for he is holy to his God.
 <sup>8</sup> Therefore you shall sanctify him, for he offers the bread of your God. He shall be holy to you, for I Yahweh, who sanctify you, am holy.
 
-<sup>9</sup> “ ‘The daughter of any priest, if she profanes herself by playing the prostitute, she profanes her father. She shall be burned with fire.
+<sup>9</sup> “‘The daughter of any priest, if she profanes herself by playing the prostitute, she profanes her father. She shall be burned with fire.
 
-<sup>10</sup> “ ‘He who is the high priest among his brothers, upon whose head the anointing oil is poured, and who is consecrated to put on the garments, shall not let the hair of his head hang loose, or tear his clothes.
+<sup>10</sup> “‘He who is the high priest among his brothers, upon whose head the anointing oil is poured, and who is consecrated to put on the garments, shall not let the hair of his head hang loose, or tear his clothes.
 <sup>11</sup> He must not go in to any dead body, or defile himself for his father or for his mother.
 <sup>12</sup> He shall not go out of the sanctuary, nor profane the sanctuary of his God; for the crown of the anointing oil of his God is upon him. I am Yahweh.
 
-<sup>13</sup> “ ‘He shall take a wife in her virginity.
+<sup>13</sup> “‘He shall take a wife in her virginity.
 <sup>14</sup> He shall not marry a widow, or one divorced, or a woman who has been defiled, or a prostitute. He shall take a virgin of his own people as a wife.
-<sup>15</sup> He shall not profane his offspring among his people, for I am Yahweh who sanctifies him.’ ”
+<sup>15</sup> He shall not profane his offspring among his people, for I am Yahweh who sanctifies him.’”
 
 <sup>16</sup> Yahweh spoke to Moses, saying,
 <sup>17</sup> “Say to Aaron, ‘None of your offspring throughout their generations who has a defect may approach to offer the bread of his God.
@@ -907,7 +907,7 @@ It was done as Yahweh commanded Moses.
 <sup>20</sup> or hunchbacked, or a dwarf, or one who has a defect in his eye, or an itching disease, or scabs, or who has damaged testicles.
 <sup>21</sup> No man of the offspring of Aaron the priest who has a defect shall come near to offer the offerings of Yahweh made by fire. Since he has a defect, he shall not come near to offer the bread of his God.
 <sup>22</sup> He shall eat the bread of his God, both of the most holy, and of the holy.
-<sup>23</sup> He shall not come near to the veil, nor come near to the altar, because he has a defect; that he may not profane my sanctuaries, for I am Yahweh who sanctifies them.’ ”
+<sup>23</sup> He shall not come near to the veil, nor come near to the altar, because he has a defect; that he may not profane my sanctuaries, for I am Yahweh who sanctifies them.’”
 
 <sup>24</sup> So Moses spoke to Aaron, and to his sons, and to all the children of Israel.
 
@@ -918,22 +918,22 @@ It was done as Yahweh commanded Moses.
 
 <sup>3</sup> “Tell them, ‘If anyone of all your offspring throughout your generations approaches the holy things which the children of Israel make holy to Yahweh, having his uncleanness on him, that soul shall be cut off from before me. I am Yahweh.
 
-<sup>4</sup> “ ‘Whoever of the offspring of Aaron is a leper or has a discharge shall not eat of the holy things until he is clean. Whoever touches anything that is unclean by the dead, or a man who has a seminal emission,
+<sup>4</sup> “‘Whoever of the offspring of Aaron is a leper or has a discharge shall not eat of the holy things until he is clean. Whoever touches anything that is unclean by the dead, or a man who has a seminal emission,
 <sup>5</sup> or whoever touches any creeping thing by which he may be made unclean, or a man from whom he may become unclean, whatever uncleanness he has—
 <sup>6</sup> the person that touches any such shall be unclean until the evening, and shall not eat of the holy things unless he bathes his body in water.
 <sup>7</sup> When the sun is down, he shall be clean; and afterward he shall eat of the holy things, because it is his bread.
 <sup>8</sup> He shall not eat that which dies of itself or is torn by animals, defiling himself by it. I am Yahweh.
 
-<sup>9</sup> “ ‘They shall therefore follow my commandment, lest they bear sin for it and die in it, if they profane it. I am Yahweh who sanctifies them.
+<sup>9</sup> “‘They shall therefore follow my commandment, lest they bear sin for it and die in it, if they profane it. I am Yahweh who sanctifies them.
 
-<sup>10</sup> “ ‘No stranger shall eat of the holy thing: a foreigner living with the priests, or a hired servant, shall not eat of the holy thing.
+<sup>10</sup> “‘No stranger shall eat of the holy thing: a foreigner living with the priests, or a hired servant, shall not eat of the holy thing.
 <sup>11</sup> But if a priest buys a slave, purchased by his money, he shall eat of it; and those who are born in his house shall eat of his bread.
 <sup>12</sup> If a priest’s daughter is married to an outsider, she shall not eat of the heave offering of the holy things.
 <sup>13</sup> But if a priest’s daughter is a widow, or divorced, and has no child, and has returned to her father’s house as in her youth, she may eat of her father’s bread; but no stranger shall eat any of it.
 
-<sup>14</sup> “ ‘If a man eats something holy unwittingly, then he shall add the fifth part of its value to it, and shall give the holy thing to the priest.
+<sup>14</sup> “‘If a man eats something holy unwittingly, then he shall add the fifth part of its value to it, and shall give the holy thing to the priest.
 <sup>15</sup> The priests shall not profane the holy things of the children of Israel, which they offer to Yahweh,
-<sup>16</sup> and so cause them to bear the iniquity that brings guilt when they eat their holy things; for I am Yahweh who sanctifies them.’ ”
+<sup>16</sup> and so cause them to bear the iniquity that brings guilt when they eat their holy things; for I am Yahweh who sanctifies them.’”
 
 <sup>17</sup> Yahweh spoke to Moses, saying,
 <sup>18</sup> “Speak to Aaron, and to his sons, and to all the children of Israel, and say to them, ‘Whoever is of the house of Israel, or of the foreigners in Israel, who offers his offering, whether it is any of their vows or any of their free will offerings, which they offer to Yahweh for a burnt offering:
@@ -943,7 +943,7 @@ It was done as Yahweh commanded Moses.
 <sup>22</sup> You shall not offer what is blind, is injured, is maimed, has a wart, is festering, or has a running sore to Yahweh, nor make an offering by fire of them on the altar to Yahweh.
 <sup>23</sup> Either a bull or a lamb that has any deformity or lacking in his parts, that you may offer for a free will offering; but for a vow it shall not be accepted.
 <sup>24</sup> You must not offer to Yahweh that which has its testicles bruised, crushed, broken, or cut. You must not do this in your land.
-<sup>25</sup> You must not offer any of these as the bread of your God from the hand of a foreigner, because their corruption is in them. There is a defect in them. They shall not be accepted for you.’ ”
+<sup>25</sup> You must not offer any of these as the bread of your God from the hand of a foreigner, because their corruption is in them. There is a defect in them. They shall not be accepted for you.’”
 
 <sup>26</sup> Yahweh spoke to Moses, saying,
 <sup>27</sup> “When a bull, a sheep, or a goat is born, it shall remain seven days with its mother. From the eighth day on it shall be accepted for the offering of an offering made by fire to Yahweh.
@@ -961,13 +961,13 @@ It was done as Yahweh commanded Moses.
 <sup>1</sup> Yahweh spoke to Moses, saying,
 <sup>2</sup> “Speak to the children of Israel, and tell them, ‘The set feasts of Yahweh, which you shall proclaim to be holy convocations, even these are my set feasts.
 
-<sup>3</sup> “ ‘Six days shall work be done, but on the seventh day is a Sabbath of solemn rest, a holy convocation; you shall do no kind of work. It is a Sabbath to Yahweh in all your dwellings.
+<sup>3</sup> “‘Six days shall work be done, but on the seventh day is a Sabbath of solemn rest, a holy convocation; you shall do no kind of work. It is a Sabbath to Yahweh in all your dwellings.
 
-<sup>4</sup> “ ‘These are the set feasts of Yahweh, even holy convocations, which you shall proclaim in their appointed season.
+<sup>4</sup> “‘These are the set feasts of Yahweh, even holy convocations, which you shall proclaim in their appointed season.
 <sup>5</sup> In the first month, on the fourteenth day of the month in the evening, is Yahweh’s Passover.
 <sup>6</sup> On the fifteenth day of the same month is the feast of unleavened bread to Yahweh. Seven days you shall eat unleavened bread.
 <sup>7</sup> In the first day you shall have a holy convocation. You shall do no regular work.
-<sup>8</sup> But you shall offer an offering made by fire to Yahweh seven days. In the seventh day is a holy convocation. You shall do no regular work.’ ”
+<sup>8</sup> But you shall offer an offering made by fire to Yahweh seven days. In the seventh day is a holy convocation. You shall do no regular work.’”
 
 <sup>9</sup> Yahweh spoke to Moses, saying,
 <sup>10</sup> “Speak to the children of Israel, and tell them, ‘When you have come into the land which I give to you, and shall reap its harvest, then you shall bring the sheaf of the first fruits of your harvest to the priest.
@@ -976,7 +976,7 @@ It was done as Yahweh commanded Moses.
 <sup>13</sup> The meal offering with it shall be two tenths of an ephah<sup>a</sup> of fine flour mixed with oil, an offering made by fire to Yahweh for a pleasant aroma; and the drink offering with it shall be of wine, the fourth part of a hin.<sup>b</sup>
 <sup>14</sup> You must not eat bread, or roasted grain, or fresh grain, until this same day, until you have brought the offering of your God. This is a statute forever throughout your generations in all your dwellings.
 
-<sup>15</sup> “ ‘You shall count from the next day after the Sabbath, from the day that you brought the sheaf of the wave offering: seven Sabbaths shall be completed.
+<sup>15</sup> “‘You shall count from the next day after the Sabbath, from the day that you brought the sheaf of the wave offering: seven Sabbaths shall be completed.
 <sup>16</sup> The next day after the seventh Sabbath you shall count fifty days; and you shall offer a new meal offering to Yahweh.
 <sup>17</sup> You shall bring out of your habitations two loaves of bread for a wave offering made of two tenths of an ephah<sup>c</sup> of fine flour. They shall be baked with yeast, for first fruits to Yahweh.
 <sup>18</sup> You shall present with the bread seven lambs without defect a year old, one young bull, and two rams. They shall be a burnt offering to Yahweh, with their meal offering and their drink offerings, even an offering made by fire, of a sweet aroma to Yahweh.
@@ -984,11 +984,11 @@ It was done as Yahweh commanded Moses.
 <sup>20</sup> The priest shall wave them with the bread of the first fruits for a wave offering before Yahweh, with the two lambs. They shall be holy to Yahweh for the priest.
 <sup>21</sup> You shall make proclamation on the same day that there shall be a holy convocation to you. You shall do no regular work. This is a statute forever in all your dwellings throughout your generations.
 
-<sup>22</sup> “ ‘When you reap the harvest of your land, you must not wholly reap into the corners of your field. You must not gather the gleanings of your harvest. You must leave them for the poor and for the foreigner. I am Yahweh your God.’ ”
+<sup>22</sup> “‘When you reap the harvest of your land, you must not wholly reap into the corners of your field. You must not gather the gleanings of your harvest. You must leave them for the poor and for the foreigner. I am Yahweh your God.’”
 
 <sup>23</sup> Yahweh spoke to Moses, saying,
 <sup>24</sup> “Speak to the children of Israel, saying, ‘In the seventh month, on the first day of the month, there shall be a solemn rest for you, a memorial of blowing of trumpets, a holy convocation.
-<sup>25</sup> You shall do no regular work. You shall offer an offering made by fire to Yahweh.’ ”
+<sup>25</sup> You shall do no regular work. You shall offer an offering made by fire to Yahweh.’”
 
 <sup>26</sup> Yahweh spoke to Moses, saying,
 <sup>27</sup> “However on the tenth day of this seventh month is the day of atonement. It shall be a holy convocation to you. You shall afflict yourselves and you shall offer an offering made by fire to Yahweh.
@@ -1003,14 +1003,14 @@ It was done as Yahweh commanded Moses.
 <sup>35</sup> On the first day shall be a holy convocation. You shall do no regular work.
 <sup>36</sup> Seven days you shall offer an offering made by fire to Yahweh. On the eighth day shall be a holy convocation to you. You shall offer an offering made by fire to Yahweh. It is a solemn assembly; you shall do no regular work.
 
-<sup>37</sup> “ ‘These are the appointed feasts of Yahweh which you shall proclaim to be holy convocations, to offer an offering made by fire to Yahweh, a burnt offering, a meal offering, a sacrifice, and drink offerings, each on its own day—
+<sup>37</sup> “‘These are the appointed feasts of Yahweh which you shall proclaim to be holy convocations, to offer an offering made by fire to Yahweh, a burnt offering, a meal offering, a sacrifice, and drink offerings, each on its own day—
 <sup>38</sup> in addition to the Sabbaths of Yahweh, and in addition to your gifts, and in addition to all your vows, and in addition to all your free will offerings, which you give to Yahweh.
 
-<sup>39</sup> “ ‘So on the fifteenth day of the seventh month, when you have gathered in the fruits of the land, you shall keep the feast of Yahweh seven days. On the first day shall be a solemn rest, and on the eighth day shall be a solemn rest.
+<sup>39</sup> “‘So on the fifteenth day of the seventh month, when you have gathered in the fruits of the land, you shall keep the feast of Yahweh seven days. On the first day shall be a solemn rest, and on the eighth day shall be a solemn rest.
 <sup>40</sup> You shall take on the first day the fruit of majestic trees, branches of palm trees, and boughs of thick trees, and willows of the brook; and you shall rejoice before Yahweh your God seven days.
 <sup>41</sup> You shall keep it as a feast to Yahweh seven days in the year. It is a statute forever throughout your generations. You shall keep it in the seventh month.
 <sup>42</sup> You shall dwell in temporary shelters<sup>e</sup> for seven days. All who are native-born in Israel shall dwell in temporary shelters,<sup>f</sup>
-<sup>43</sup> that your generations may know that I made the children of Israel to dwell in temporary shelters<sup>g</sup> when I brought them out of the land of Egypt. I am Yahweh your God.’ ”
+<sup>43</sup> that your generations may know that I made the children of Israel to dwell in temporary shelters<sup>g</sup> when I brought them out of the land of Egypt. I am Yahweh your God.’”
 
 <sup>44</sup> So Moses declared to the children of Israel the appointed feasts of Yahweh.
 
@@ -1043,12 +1043,12 @@ It was done as Yahweh commanded Moses.
 <sup>15</sup> You shall speak to the children of Israel, saying, ‘Whoever curses his God shall bear his sin.
 <sup>16</sup> He who blasphemes Yahweh’s name, he shall surely be put to death. All the congregation shall certainly stone him. The foreigner as well as the native-born shall be put to death when he blasphemes the Name.
 
-<sup>17</sup> “ ‘He who strikes any man mortally shall surely be put to death.
+<sup>17</sup> “‘He who strikes any man mortally shall surely be put to death.
 <sup>18</sup> He who strikes an animal mortally shall make it good, life for life.
 <sup>19</sup> If anyone injures his neighbor, it shall be done to him as he has done:
 <sup>20</sup> fracture for fracture, eye for eye, tooth for tooth. It shall be done to him as he has injured someone.
 <sup>21</sup> He who kills an animal shall make it good; and he who kills a man shall be put to death.
-<sup>22</sup> You shall have one kind of law for the foreigner as well as the native-born; for I am Yahweh your God.’ ”
+<sup>22</sup> You shall have one kind of law for the foreigner as well as the native-born; for I am Yahweh your God.’”
 
 <sup>23</sup> Moses spoke to the children of Israel; and they brought him who had cursed out of the camp, and stoned him with stones. The children of Israel did as Yahweh commanded Moses.
 
@@ -1064,57 +1064,57 @@ It was done as Yahweh commanded Moses.
 <sup>6</sup> The Sabbath of the land shall be for food for you; for yourself, for your servant, for your maid, for your hired servant, and for your stranger, who lives as a foreigner with you.
 <sup>7</sup> For your livestock also, and for the animals that are in your land, shall all its increase be for food.
 
-<sup>8</sup> “ ‘You shall count off seven Sabbaths of years, seven times seven years; and there shall be to you the days of seven Sabbaths of years, even forty-nine years.
+<sup>8</sup> “‘You shall count off seven Sabbaths of years, seven times seven years; and there shall be to you the days of seven Sabbaths of years, even forty-nine years.
 <sup>9</sup> Then you shall sound the loud trumpet on the tenth day of the seventh month. On the Day of Atonement you shall sound the trumpet throughout all your land.
 <sup>10</sup> You shall make the fiftieth year holy, and proclaim liberty throughout the land to all its inhabitants. It shall be a jubilee to you; and each of you shall return to his own property, and each of you shall return to his family.
 <sup>11</sup> That fiftieth year shall be a jubilee to you. In it you shall not sow, neither reap that which grows of itself, nor gather from the undressed vines.
 <sup>12</sup> For it is a jubilee; it shall be holy to you. You shall eat of its increase out of the field.
 
-<sup>13</sup> “ ‘In this Year of Jubilee each of you shall return to his property.
+<sup>13</sup> “‘In this Year of Jubilee each of you shall return to his property.
 
-<sup>14</sup> “ ‘If you sell anything to your neighbor, or buy from your neighbor, you shall not wrong one another.
+<sup>14</sup> “‘If you sell anything to your neighbor, or buy from your neighbor, you shall not wrong one another.
 <sup>15</sup> According to the number of years after the Jubilee you shall buy from your neighbor. According to the number of years of the crops he shall sell to you.
 <sup>16</sup> According to the length of the years you shall increase its price, and according to the shortness of the years you shall diminish its price; for he is selling the number of the crops to you.
 <sup>17</sup> You shall not wrong one another, but you shall fear your God; for I am Yahweh your God.
 
-<sup>18</sup> “ ‘Therefore you shall do my statutes, and keep my ordinances and do them; and you shall dwell in the land in safety.
+<sup>18</sup> “‘Therefore you shall do my statutes, and keep my ordinances and do them; and you shall dwell in the land in safety.
 <sup>19</sup> The land shall yield its fruit, and you shall eat your fill, and dwell therein in safety.
 <sup>20</sup> If you said, “What shall we eat the seventh year? Behold, we shall not sow, nor gather in our increase;”
 <sup>21</sup> then I will command my blessing on you in the sixth year, and it shall bear fruit for the three years.
 <sup>22</sup> You shall sow the eighth year, and eat of the fruits from the old store until the ninth year. Until its fruits come in, you shall eat the old store.
 
-<sup>23</sup> “ ‘The land shall not be sold in perpetuity, for the land is mine; for you are strangers and live as foreigners with me.
+<sup>23</sup> “‘The land shall not be sold in perpetuity, for the land is mine; for you are strangers and live as foreigners with me.
 <sup>24</sup> In all the land of your possession you shall grant a redemption for the land.
 
-<sup>25</sup> “ ‘If your brother becomes poor, and sells some of his possessions, then his kinsman who is next to him shall come, and redeem that which his brother has sold.
+<sup>25</sup> “‘If your brother becomes poor, and sells some of his possessions, then his kinsman who is next to him shall come, and redeem that which his brother has sold.
 <sup>26</sup> If a man has no one to redeem it, and he becomes prosperous and finds sufficient means to redeem it,
 <sup>27</sup> then let him reckon the years since its sale, and restore the surplus to the man to whom he sold it; and he shall return to his property.
 <sup>28</sup> But if he isn’t able to get it back for himself, then what he has sold shall remain in the hand of him who has bought it until the Year of Jubilee. In the Jubilee it shall be released, and he shall return to his property.
 
-<sup>29</sup> “ ‘If a man sells a dwelling house in a walled city, then he may redeem it within a whole year after it has been sold. For a full year he shall have the right of redemption.
+<sup>29</sup> “‘If a man sells a dwelling house in a walled city, then he may redeem it within a whole year after it has been sold. For a full year he shall have the right of redemption.
 <sup>30</sup> If it isn’t redeemed within the space of a full year, then the house that is in the walled city shall be made sure in perpetuity to him who bought it, throughout his generations. It shall not be released in the Jubilee.
 <sup>31</sup> But the houses of the villages which have no wall around them shall be accounted for with the fields of the country: they may be redeemed, and they shall be released in the Jubilee.
 
-<sup>32</sup> “ ‘Nevertheless, in the cities of the Levites, the Levites may redeem the houses in the cities of their possession at any time.
+<sup>32</sup> “‘Nevertheless, in the cities of the Levites, the Levites may redeem the houses in the cities of their possession at any time.
 <sup>33</sup> The Levites may redeem the house that was sold, and the city of his possession, and it shall be released in the Jubilee; for the houses of the cities of the Levites are their possession among the children of Israel.
 <sup>34</sup> But the field of the pasture lands of their cities may not be sold, for it is their perpetual possession.
 
-<sup>35</sup> “ ‘If your brother has become poor, and his hand can’t support himself among you, then you shall uphold him. He shall live with you like an alien and a temporary resident.
+<sup>35</sup> “‘If your brother has become poor, and his hand can’t support himself among you, then you shall uphold him. He shall live with you like an alien and a temporary resident.
 <sup>36</sup> Take no interest from him or profit; but fear your God, that your brother may live among you.
 <sup>37</sup> You shall not lend him your money at interest, nor give him your food for profit.
 <sup>38</sup> I am Yahweh your God, who brought you out of the land of Egypt, to give you the land of Canaan, and to be your God.
 
-<sup>39</sup> “ ‘If your brother has grown poor among you, and sells himself to you, you shall not make him to serve as a slave.
+<sup>39</sup> “‘If your brother has grown poor among you, and sells himself to you, you shall not make him to serve as a slave.
 <sup>40</sup> As a hired servant, and as a temporary resident, he shall be with you; he shall serve with you until the Year of Jubilee.
 <sup>41</sup> Then he shall go out from you, he and his children with him, and shall return to his own family, and to the possession of his fathers.
 <sup>42</sup> For they are my servants, whom I brought out of the land of Egypt. They shall not be sold as slaves.
 <sup>43</sup> You shall not rule over him with harshness, but shall fear your God.
 
-<sup>44</sup> “ ‘As for your male and your female slaves, whom you may have from the nations that are around you, from them you may buy male and female slaves.
+<sup>44</sup> “‘As for your male and your female slaves, whom you may have from the nations that are around you, from them you may buy male and female slaves.
 <sup>45</sup> Moreover, of the children of the aliens who live among you, of them you may buy, and of their families who are with you, which they have conceived in your land; and they will be your property.
 <sup>46</sup> You may make them an inheritance for your children after you, to hold for a possession. Of them you may take your slaves forever, but over your brothers the children of Israel you shall not rule, one over another, with harshness.
 
-<sup>47</sup> “ ‘If an alien or temporary resident with you becomes rich, and your brother beside him has grown poor, and sells himself to the stranger or foreigner living among you, or to a member of the stranger’s family,
+<sup>47</sup> “‘If an alien or temporary resident with you becomes rich, and your brother beside him has grown poor, and sells himself to the stranger or foreigner living among you, or to a member of the stranger’s family,
 <sup>48</sup> after he is sold he may be redeemed. One of his brothers may redeem him;
 <sup>49</sup> or his uncle, or his uncle’s son, may redeem him, or any who is a close relative to him of his family may redeem him; or if he has grown rich, he may redeem himself.
 <sup>50</sup> He shall reckon with him who bought him from the year that he sold himself to him to the Year of Jubilee. The price of his sale shall be according to the number of years; he shall be with him according to the time of a hired servant.
@@ -1126,42 +1126,42 @@ It was done as Yahweh commanded Moses.
 
 ## Chapter 26
 
-<sup>1</sup> “ ‘You shall make for yourselves no idols, and you shall not raise up a carved image or a pillar, and you shall not place any figured stone in your land, to bow down to it; for I am Yahweh your God.
+<sup>1</sup> “‘You shall make for yourselves no idols, and you shall not raise up a carved image or a pillar, and you shall not place any figured stone in your land, to bow down to it; for I am Yahweh your God.
 
-<sup>2</sup> “ ‘You shall keep my Sabbaths, and have reverence for my sanctuary. I am Yahweh.
+<sup>2</sup> “‘You shall keep my Sabbaths, and have reverence for my sanctuary. I am Yahweh.
 
-<sup>3</sup> “ ‘If you walk in my statutes and keep my commandments, and do them,
+<sup>3</sup> “‘If you walk in my statutes and keep my commandments, and do them,
 <sup>4</sup> then I will give you your rains in their season, and the land shall yield its increase, and the trees of the field shall yield their fruit.
 <sup>5</sup> Your threshing shall continue until the vintage, and the vintage shall continue until the sowing time. You shall eat your bread to the full, and dwell in your land safely.
 
-<sup>6</sup> “ ‘I will give peace in the land, and you shall lie down, and no one will make you afraid. I will remove evil animals out of the land, neither shall the sword go through your land.
+<sup>6</sup> “‘I will give peace in the land, and you shall lie down, and no one will make you afraid. I will remove evil animals out of the land, neither shall the sword go through your land.
 <sup>7</sup> You shall chase your enemies, and they shall fall before you by the sword.
 <sup>8</sup> Five of you shall chase a hundred, and a hundred of you shall chase ten thousand; and your enemies shall fall before you by the sword.
 
-<sup>9</sup> “ ‘I will have respect for you, make you fruitful, multiply you, and will establish my covenant with you.
+<sup>9</sup> “‘I will have respect for you, make you fruitful, multiply you, and will establish my covenant with you.
 <sup>10</sup> You shall eat old supplies long kept, and you shall move out the old because of the new.
 <sup>11</sup> I will set my tent among you, and my soul won’t abhor you.
 <sup>12</sup> I will walk among you, and will be your God, and you will be my people.
 <sup>13</sup> I am Yahweh your God, who brought you out of the land of Egypt, that you should not be their slaves. I have broken the bars of your yoke, and made you walk upright.
 
-<sup>14</sup> “ ‘But if you will not listen to me, and will not do all these commandments,
+<sup>14</sup> “‘But if you will not listen to me, and will not do all these commandments,
 <sup>15</sup> and if you shall reject my statutes, and if your soul abhors my ordinances, so that you will not do all my commandments, but break my covenant,
 <sup>16</sup> I also will do this to you: I will appoint terror over you, even consumption and fever, that shall consume the eyes, and make the soul to pine away. You will sow your seed in vain, for your enemies will eat it.
 <sup>17</sup> I will set my face against you, and you will be struck before your enemies. Those who hate you will rule over you; and you will flee when no one pursues you.
 
-<sup>18</sup> “ ‘If you in spite of these things will not listen to me, then I will chastise you seven times more for your sins.
+<sup>18</sup> “‘If you in spite of these things will not listen to me, then I will chastise you seven times more for your sins.
 <sup>19</sup> I will break the pride of your power, and I will make your sky like iron, and your soil like bronze.
 <sup>20</sup> Your strength will be spent in vain; for your land won’t yield its increase, neither will the trees of the land yield their fruit.
 
-<sup>21</sup> “ ‘If you walk contrary to me, and won’t listen to me, then I will bring seven times more plagues on you according to your sins.
+<sup>21</sup> “‘If you walk contrary to me, and won’t listen to me, then I will bring seven times more plagues on you according to your sins.
 <sup>22</sup> I will send the wild animals among you, which will rob you of your children, destroy your livestock, and make you few in number. Your roads will become desolate.
 
-<sup>23</sup> “ ‘If by these things you won’t be turned back to me, but will walk contrary to me,
+<sup>23</sup> “‘If by these things you won’t be turned back to me, but will walk contrary to me,
 <sup>24</sup> then I will also walk contrary to you; and I will strike you, even I, seven times for your sins.
 <sup>25</sup> I will bring a sword upon you that will execute the vengeance of the covenant. You will be gathered together within your cities, and I will send the pestilence among you. You will be delivered into the hand of the enemy.
 <sup>26</sup> When I break your staff of bread, ten women shall bake your bread in one oven, and they shall deliver your bread again by weight. You shall eat, and not be satisfied.
 
-<sup>27</sup> “ ‘If you in spite of this won’t listen to me, but walk contrary to me,
+<sup>27</sup> “‘If you in spite of this won’t listen to me, but walk contrary to me,
 <sup>28</sup> then I will walk contrary to you in wrath. I will also chastise you seven times for your sins.
 <sup>29</sup> You will eat the flesh of your sons, and you will eat the flesh of your daughters.
 <sup>30</sup> I will destroy your high places, and cut down your incense altars, and cast your dead bodies upon the bodies of your idols; and my soul will abhor you.
@@ -1171,17 +1171,17 @@ It was done as Yahweh commanded Moses.
 <sup>34</sup> Then the land will enjoy its Sabbaths as long as it lies desolate and you are in your enemies’ land. Even then the land will rest and enjoy its Sabbaths.
 <sup>35</sup> As long as it lies desolate it shall have rest, even the rest which it didn’t have in your Sabbaths when you lived on it.
 
-<sup>36</sup> “ ‘As for those of you who are left, I will send a faintness into their hearts in the lands of their enemies. The sound of a driven leaf will put them to flight; and they shall flee, as one flees from the sword. They will fall when no one pursues.
+<sup>36</sup> “‘As for those of you who are left, I will send a faintness into their hearts in the lands of their enemies. The sound of a driven leaf will put them to flight; and they shall flee, as one flees from the sword. They will fall when no one pursues.
 <sup>37</sup> They will stumble over one another, as it were before the sword, when no one pursues. You will have no power to stand before your enemies.
 <sup>38</sup> You will perish among the nations. The land of your enemies will eat you up.
 <sup>39</sup> Those of you who are left will pine away in their iniquity in your enemies’ lands; and also in the iniquities of their fathers they shall pine away with them.
 
-<sup>40</sup> “ ‘If they confess their iniquity and the iniquity of their fathers, in their trespass which they trespassed against me; and also that because they walked contrary to me,
+<sup>40</sup> “‘If they confess their iniquity and the iniquity of their fathers, in their trespass which they trespassed against me; and also that because they walked contrary to me,
 <sup>41</sup> I also walked contrary to them, and brought them into the land of their enemies; if then their uncircumcised heart is humbled, and they then accept the punishment of their iniquity,
 <sup>42</sup> then I will remember my covenant with Jacob, my covenant with Isaac, and also my covenant with Abraham; and I will remember the land.
 <sup>43</sup> The land also will be left by them, and will enjoy its Sabbaths while it lies desolate without them; and they will accept the punishment of their iniquity because they rejected my ordinances, and their soul abhorred my statutes.
 <sup>44</sup> Yet for all that, when they are in the land of their enemies, I will not reject them, neither will I abhor them, to destroy them utterly and to break my covenant with them; for I am Yahweh their God.
-<sup>45</sup> But I will for their sake remember the covenant of their ancestors, whom I brought out of the land of Egypt in the sight of the nations, that I might be their God. I am Yahweh.’ ”
+<sup>45</sup> But I will for their sake remember the covenant of their ancestors, whom I brought out of the land of Egypt in the sight of the nations, that I might be their God. I am Yahweh.’”
 
 <sup>46</sup> These are the statutes, ordinances, and laws, which Yahweh made between him and the children of Israel in Mount Sinai by Moses.
 
@@ -1196,38 +1196,38 @@ It was done as Yahweh commanded Moses.
 <sup>7</sup> If the person is from sixty years old and upward; if he is a male, then your valuation shall be fifteen shekels, and for a female ten shekels.
 <sup>8</sup> But if he is poorer than your valuation, then he shall be set before the priest, and the priest shall assign a value to him. The priest shall assign a value according to his ability to pay.
 
-<sup>9</sup> “ ‘If it is an animal of which men offer an offering to Yahweh, all that any man gives of such to Yahweh becomes holy.
+<sup>9</sup> “‘If it is an animal of which men offer an offering to Yahweh, all that any man gives of such to Yahweh becomes holy.
 <sup>10</sup> He shall not alter it, nor exchange it, a good for a bad, or a bad for a good. If he shall at all exchange animal for animal, then both it and that for which it is exchanged shall be holy.
 <sup>11</sup> If it is any unclean animal, of which they do not offer as an offering to Yahweh, then he shall set the animal before the priest;
 <sup>12</sup> and the priest shall evaluate it, whether it is good or bad. As the priest evaluates it, so it shall be.
 <sup>13</sup> But if he will indeed redeem it, then he shall add the fifth part of it to its valuation.
 
-<sup>14</sup> “ ‘When a man dedicates his house to be holy to Yahweh, then the priest shall evaluate it, whether it is good or bad. As the priest evaluates it, so it shall stand.
+<sup>14</sup> “‘When a man dedicates his house to be holy to Yahweh, then the priest shall evaluate it, whether it is good or bad. As the priest evaluates it, so it shall stand.
 <sup>15</sup> If he who dedicates it will redeem his house, then he shall add the fifth part of the money of your valuation to it, and it shall be his.
 
-<sup>16</sup> “ ‘If a man dedicates to Yahweh part of the field of his possession, then your valuation shall be according to the seed for it. The sowing of a homer<sup>b</sup> of barley shall be valued at fifty shekels<sup>c</sup> of silver.
+<sup>16</sup> “‘If a man dedicates to Yahweh part of the field of his possession, then your valuation shall be according to the seed for it. The sowing of a homer<sup>b</sup> of barley shall be valued at fifty shekels<sup>c</sup> of silver.
 <sup>17</sup> If he dedicates his field from the Year of Jubilee, according to your valuation it shall stand.
 <sup>18</sup> But if he dedicates his field after the Jubilee, then the priest shall reckon to him the money according to the years that remain to the Year of Jubilee; and an abatement shall be made from your valuation.
 <sup>19</sup> If he who dedicated the field will indeed redeem it, then he shall add the fifth part of the money of your valuation to it, and it shall remain his.
 <sup>20</sup> If he will not redeem the field, or if he has sold the field to another man, it shall not be redeemed any more;
 <sup>21</sup> but the field, when it goes out in the Jubilee, shall be holy to Yahweh, as a devoted field. It shall be owned by the priests.
 
-<sup>22</sup> “ ‘If he dedicates a field to Yahweh which he has bought, which is not of the field of his possession,
+<sup>22</sup> “‘If he dedicates a field to Yahweh which he has bought, which is not of the field of his possession,
 <sup>23</sup> then the priest shall reckon to him the worth of your valuation up to the Year of Jubilee; and he shall give your valuation on that day, as a holy thing to Yahweh.
 <sup>24</sup> In the Year of Jubilee the field shall return to him from whom it was bought, even to him to whom the possession of the land belongs.
 <sup>25</sup> All your valuations shall be according to the shekel of the sanctuary: twenty gerahs<sup>d</sup> to the shekel.<sup>e</sup>
 
-<sup>26</sup> “ ‘However the firstborn among animals, which belongs to Yahweh as a firstborn, no man may dedicate, whether an ox or a sheep. It is Yahweh’s.
+<sup>26</sup> “‘However the firstborn among animals, which belongs to Yahweh as a firstborn, no man may dedicate, whether an ox or a sheep. It is Yahweh’s.
 <sup>27</sup> If it is an unclean animal, then he shall buy it back according to your valuation, and shall add to it the fifth part of it; or if it isn’t redeemed, then it shall be sold according to your valuation.
 
-<sup>28</sup> “ ‘Notwithstanding, no devoted thing that a man devotes to Yahweh of all that he has, whether of man or animal, or of the field of his possession, shall be sold or redeemed. Everything that is permanently devoted is most holy to Yahweh.
+<sup>28</sup> “‘Notwithstanding, no devoted thing that a man devotes to Yahweh of all that he has, whether of man or animal, or of the field of his possession, shall be sold or redeemed. Everything that is permanently devoted is most holy to Yahweh.
 
-<sup>29</sup> “ ‘No one devoted to destruction, who shall be devoted from among men, shall be ransomed. He shall surely be put to death.
+<sup>29</sup> “‘No one devoted to destruction, who shall be devoted from among men, shall be ransomed. He shall surely be put to death.
 
-<sup>30</sup> “ ‘All the tithe of the land, whether of the seed of the land or of the fruit of the trees, is Yahweh’s. It is holy to Yahweh.
+<sup>30</sup> “‘All the tithe of the land, whether of the seed of the land or of the fruit of the trees, is Yahweh’s. It is holy to Yahweh.
 <sup>31</sup> If a man redeems anything of his tithe, he shall add a fifth part to it.
 <sup>32</sup> All the tithe of the herds or the flocks, whatever passes under the rod, the tenth shall be holy to Yahweh.
-<sup>33</sup> He shall not examine whether it is good or bad, neither shall he exchange it. If he exchanges it at all, then both it and that for which it is exchanged shall be holy. It shall not be redeemed.’ ”
+<sup>33</sup> He shall not examine whether it is good or bad, neither shall he exchange it. If he exchanges it at all, then both it and that for which it is exchanged shall be holy. It shall not be redeemed.’”
 
 <sup>34</sup> These are the commandments which Yahweh commanded Moses for the children of Israel on Mount Sinai.
 

@@ -155,7 +155,7 @@ The king said, “Let him come in.”
 Now Haman said in his heart, “Who would the king delight to honor more than myself?”
 <sup>7</sup> Haman said to the king, “For the man whom the king delights to honor,
 <sup>8</sup> let royal clothing be brought which the king uses to wear, and the horse that the king rides on, and on the head of which a royal crown is set.
-<sup>9</sup> Let the clothing and the horse be delivered to the hand of one of the king’s most noble princes, that they may array the man whom the king delights to honor with them, and have him ride on horseback through the city square, and proclaim before him, ‘Thus it shall be done to the man whom the king delights to honor!’ ”
+<sup>9</sup> Let the clothing and the horse be delivered to the hand of one of the king’s most noble princes, that they may array the man whom the king delights to honor with them, and have him ride on horseback through the city square, and proclaim before him, ‘Thus it shall be done to the man whom the king delights to honor!’”
 
 <sup>10</sup> Then the king said to Haman, “Hurry and take the clothing and the horse, as you have said, and do this for Mordecai the Jew, who sits at the king’s gate. Let nothing fail of all that you have spoken.”
 

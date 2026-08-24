@@ -40,7 +40,7 @@
 > - <sup>b</sup> 4. or, seed
 > - <sup>c</sup> 10. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 > - <sup>d</sup> 24. The word translated “Lord” is “Adonai.”
-> - <sup>e</sup> 25. tin is a metal that is separated from silver during the refining and purification process.
+> - <sup>e</sup> 25. Tin is a metal that is separated from silver during the refining and purification process.
 
 ## Chapter 2
 
@@ -194,7 +194,7 @@ He answered,<br>“Until cities are waste without inhabitant,<br>houses without 
 <sup>6</sup> “Let’s go up against Judah, and tear it apart, and let’s divide it among ourselves, and set up a king within it, even the son of Tabeel.”
 <sup>7</sup> This is what the Lord Yahweh says: “It shall not stand, neither shall it happen.”
 <sup>8</sup> For the head of Syria is Damascus, and the head of Damascus is Rezin. Within sixty-five years Ephraim shall be broken in pieces, so that it shall not be a people.
-<sup>9</sup> The head of Ephraim is Samaria, and the head of Samaria is Remaliah’s son. If you will not believe, surely you shall not be established.’ ”
+<sup>9</sup> The head of Ephraim is Samaria, and the head of Samaria is Remaliah’s son. If you will not believe, surely you shall not be established.’”
 
 <sup>10</sup> Yahweh spoke again to Ahaz, saying,
 <sup>11</sup> “Ask a sign of Yahweh your God; ask it either in the depth, or in the height above.”
@@ -544,7 +544,7 @@ For in a night, Ar of Moab is laid waste, and brought to nothing. For in a night
 <sup>3</sup> Yahweh said, “As my servant Isaiah has walked naked and barefoot three years for a sign and a wonder concerning Egypt and concerning Ethiopia,
 <sup>4</sup> so the king of Assyria will lead away the captives of Egypt and the exiles of Ethiopia, young and old, naked and barefoot, and with buttocks uncovered, to the shame of Egypt.
 <sup>5</sup> They will be dismayed and confounded, because of Ethiopia their expectation, and of Egypt their glory.
-<sup>6</sup> The inhabitants of this coast land will say in that day, ‘Behold, this is our expectation, where we fled for help to be delivered from the king of Assyria. And we, how will we escape?’ ”
+<sup>6</sup> The inhabitants of this coast land will say in that day, ‘Behold, this is our expectation, where we fled for help to be delivered from the king of Assyria. And we, how will we escape?’”
 
 ## Chapter 21
 
@@ -696,7 +696,7 @@ Moab will be trodden down in his place, even like straw is trodden down in the w
 <sup>7</sup> The way of the just is uprightness.<br>You who are upright make the path of the righteous level.
 
 <sup>8</sup> Yes, in the way of your judgments, Yahweh, we have waited for you.<br>Your name and your renown are the desire of our soul.<br>
-<sup>9</sup> With my soul I have desired you in the night.<br>Yes, with my spirit within me I will seek you earnestly;<br>for when your judgments are in the earth, the inhabitants of the world learn righteousness.<br>
+<sup>9</sup> With my soul I have desired you in the night.<br>Yes, with my spirit within me I will seek you earnestly;<br>for when your judgments are on the earth, the inhabitants of the world learn righteousness.<br>
 <sup>10</sup> Let favor be shown to the wicked,<br>yet he will not learn righteousness.<br>In the land of uprightness he will deal wrongfully,<br>and will not see Yahweh’s majesty.
 
 <sup>11</sup> Yahweh, your hand is lifted up, yet they don’t see;<br>but they will see your zeal for the people and be disappointed.<br>Yes, fire will consume your adversaries.<br>
@@ -707,7 +707,7 @@ Moab will be trodden down in his place, even like straw is trodden down in the w
 
 <sup>16</sup> Yahweh, in trouble they have visited you.<br>They poured out a prayer when your chastening was on them.<br>
 <sup>17</sup> Just as a woman with child, who draws near the time of her delivery,<br>is in pain and cries out in her pangs,<br>so we have been before you, Yahweh.<br>
-<sup>18</sup> We have been with child.<br>We have been in pain.<br>We gave birth, it seems, only to wind.<br>We have not worked any deliverance in the earth;<br>neither have the inhabitants of the world fallen.<br>
+<sup>18</sup> We have been with child.<br>We have been in pain.<br>We gave birth, it seems, only to wind.<br>We have not worked any deliverance on the earth;<br>neither have the inhabitants of the world fallen.<br>
 <sup>19</sup> Your dead shall live.<br>Their dead bodies shall arise.<br>Awake and sing, you who dwell in the dust;<br>for your dew is like the dew of herbs,<br>and the earth will cast out the departed spirits.
 
 <sup>20</sup> Come, my people, enter into your rooms,<br>and shut your doors behind you.<br>Hide yourself for a little moment,<br>until the indignation is past.<br>
@@ -753,7 +753,7 @@ Moab will be trodden down in his place, even like straw is trodden down in the w
 <sup>13</sup> Therefore Yahweh’s word will be to them precept on precept, precept on precept; line on line, line on line; here a little, there a little; that they may go, fall backward, be broken, be snared, and be taken.
 
 <sup>14</sup> Therefore hear Yahweh’s word, you scoffers, that rule this people in Jerusalem:
-<sup>15</sup> “Because you have said, ‘We have made a covenant with death, and we are in agreement with Sheol.<sup>a</sup> When the overflowing scourge passes through, it won’t come to us; for we have made lies our refuge, and we have hidden ourselves under falsehood.’ ”
+<sup>15</sup> “Because you have said, ‘We have made a covenant with death, and we are in agreement with Sheol.<sup>a</sup> When the overflowing scourge passes through, it won’t come to us; for we have made lies our refuge, and we have hidden ourselves under falsehood.’”
 <sup>16</sup> Therefore the Lord Yahweh says, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.
 <sup>17</sup> I will make justice the measuring line, and righteousness the plumb line. The hail will sweep away the refuge of lies, and the waters will overflow the hiding place.
 <sup>18</sup> Your covenant with death shall be annulled, and your agreement with Sheol<sup>b</sup> shall not stand. When the overflowing scourge passes through, then you will be trampled down by it.
@@ -974,19 +974,19 @@ Through the land of trouble and anguish, of the lioness and the lion, the viper 
 <sup>7</sup> But if you tell me, ‘We trust in Yahweh our God,’ isn’t that he whose high places and whose altars Hezekiah has taken away, and has said to Judah and to Jerusalem, ‘You shall worship before this altar’?”
 <sup>8</sup> Now therefore, please make a pledge to my master the king of Assyria, and I will give you two thousand horses, if you are able on your part to set riders on them.
 <sup>9</sup> How then can you turn away the face of one captain of the least of my master’s servants, and put your trust in Egypt for chariots and for horsemen?
-<sup>10</sup> Have I come up now without Yahweh against this land to destroy it? Yahweh said to me, “Go up against this land, and destroy it.” ’ ”
+<sup>10</sup> Have I come up now without Yahweh against this land to destroy it? Yahweh said to me, “Go up against this land, and destroy it.”’”
 
 <sup>11</sup> Then Eliakim, Shebna and Joah said to Rabshakeh, “Please speak to your servants in Aramaic, for we understand it. Don’t speak to us in the Jews’ language in the hearing of the people who are on the wall.”
 
 <sup>12</sup> But Rabshakeh said, “Has my master sent me only to your master and to you, to speak these words, and not to the men who sit on the wall, who will eat their own dung and drink their own urine with you?”
 <sup>13</sup> Then Rabshakeh stood, and called out with a loud voice in the Jews’ language, and said, “Hear the words of the great king, the king of Assyria!
 <sup>14</sup> The king says, ‘Don’t let Hezekiah deceive you; for he will not be able to deliver you.
-<sup>15</sup> Don’t let Hezekiah make you trust in Yahweh, saying, “Yahweh will surely deliver us. This city won’t be given into the hand of the king of Assyria.” ’
+<sup>15</sup> Don’t let Hezekiah make you trust in Yahweh, saying, “Yahweh will surely deliver us. This city won’t be given into the hand of the king of Assyria.”’
 <sup>16</sup> Don’t listen to Hezekiah, for the king of Assyria says, ‘Make your peace with me, and come out to me; and each of you eat from his vine, and each one from his fig tree, and each one of you drink the waters of his own cistern;
 <sup>17</sup> until I come and take you away to a land like your own land, a land of grain and new wine, a land of bread and vineyards.
 <sup>18</sup> Beware lest Hezekiah persuade you, saying, “Yahweh will deliver us.” Have any of the gods of the nations delivered their lands from the hand of the king of Assyria?
 <sup>19</sup> Where are the gods of Hamath and Arpad? Where are the gods of Sepharvaim? Have they delivered Samaria from my hand?
-<sup>20</sup> Who are they among all the gods of these countries that have delivered their country out of my hand, that Yahweh should deliver Jerusalem out of my hand?’ ”
+<sup>20</sup> Who are they among all the gods of these countries that have delivered their country out of my hand, that Yahweh should deliver Jerusalem out of my hand?’”
 
 <sup>21</sup> But they remained silent, and said nothing in reply, for the king’s commandment was, “Don’t answer him.”
 
@@ -997,19 +997,19 @@ Through the land of trouble and anguish, of the lioness and the lion, the viper 
 <sup>1</sup> When King Hezekiah heard it, he tore his clothes, covered himself with sackcloth, and went into Yahweh’s house.
 <sup>2</sup> He sent Eliakim, who was over the household, and Shebna the scribe, and the elders of the priests, covered with sackcloth, to Isaiah the prophet, the son of Amoz.
 <sup>3</sup> They said to him, “Hezekiah says, ‘Today is a day of trouble, and of rebuke, and of rejection; for the children have come to the birth, and there is no strength to give birth.
-<sup>4</sup> It may be Yahweh your God will hear the words of Rabshakeh, whom the king of Assyria his master has sent to defy the living God, and will rebuke the words which Yahweh your God has heard. Therefore lift up your prayer for the remnant that is left.’ ”
+<sup>4</sup> It may be Yahweh your God will hear the words of Rabshakeh, whom the king of Assyria his master has sent to defy the living God, and will rebuke the words which Yahweh your God has heard. Therefore lift up your prayer for the remnant that is left.’”
 
 <sup>5</sup> So the servants of King Hezekiah came to Isaiah.
 
 <sup>6</sup> Isaiah said to them, “Tell your master, ‘Yahweh says, “Don’t be afraid of the words that you have heard, with which the servants of the king of Assyria have blasphemed me.
-<sup>7</sup> Behold, I will put a spirit in him and he will hear news, and will return to his own land. I will cause him to fall by the sword in his own land.” ’ ”
+<sup>7</sup> Behold, I will put a spirit in him and he will hear news, and will return to his own land. I will cause him to fall by the sword in his own land.”’”
 
 <sup>8</sup> So Rabshakeh returned, and found the king of Assyria warring against Libnah, for he heard that he had departed from Lachish.
 <sup>9</sup> He heard news concerning Tirhakah king of Ethiopia, “He has come out to fight against you.” When he heard it, he sent messengers to Hezekiah, saying,
 <sup>10</sup> “Thus you shall speak to Hezekiah king of Judah, saying, ‘Don’t let your God in whom you trust deceive you, saying, “Jerusalem won’t be given into the hand of the king of Assyria.”
 <sup>11</sup> Behold, you have heard what the kings of Assyria have done to all lands, by destroying them utterly. Shall you be delivered?
 <sup>12</sup> Have the gods of the nations delivered them, which my fathers have destroyed, Gozan, Haran, Rezeph, and the children of Eden who were in Telassar?
-<sup>13</sup> Where is the king of Hamath, and the king of Arpad, and the king of the city of Sepharvaim, of Hena, and Ivvah?’ ”
+<sup>13</sup> Where is the king of Hamath, and the king of Arpad, and the king of the city of Sepharvaim, of Hena, and Ivvah?’”
 
 <sup>14</sup> Hezekiah received the letter from the hand of the messengers and read it. Then Hezekiah went up to Yahweh’s house, and spread it before Yahweh.
 <sup>15</sup> Hezekiah prayed to Yahweh, saying,
@@ -1025,18 +1025,18 @@ Through the land of trouble and anguish, of the lioness and the lion, the viper 
 <sup>24</sup> By your servants, you have defied the Lord, and have said, “With the multitude of my chariots I have come up to the height of the mountains, to the innermost parts of Lebanon. I will cut down its tall cedars and its choice cypress trees. I will enter into its farthest height, the forest of its fruitful field.
 <sup>25</sup> I have dug and drunk water, and with the sole of my feet I will dry up all the rivers of Egypt.”
 
-<sup>26</sup> “ ‘Have you not heard how I have done it long ago, and formed it in ancient times? Now I have brought it to pass, that it should be yours to destroy fortified cities, turning them into ruinous heaps.
+<sup>26</sup> “‘Have you not heard how I have done it long ago, and formed it in ancient times? Now I have brought it to pass, that it should be yours to destroy fortified cities, turning them into ruinous heaps.
 <sup>27</sup> Therefore their inhabitants had little power. They were dismayed and confounded. They were like the grass of the field, and like the green herb, like the grass on the housetops, and like a field before its crop has grown.
 <sup>28</sup> But I know your sitting down, your going out, your coming in, and your raging against me.
 <sup>29</sup> Because of your raging against me, and because your arrogance has come up into my ears, therefore I will put my hook in your nose and my bridle in your lips, and I will turn you back by the way by which you came.
 
-<sup>30</sup> “ ‘This shall be the sign to you: You will eat this year that which grows of itself, and in the second year that which springs from it; and in the third year sow and reap and plant vineyards, and eat their fruit.
+<sup>30</sup> “‘This shall be the sign to you: You will eat this year that which grows of itself, and in the second year that which springs from it; and in the third year sow and reap and plant vineyards, and eat their fruit.
 <sup>31</sup> The remnant that is escaped of the house of Judah will again take root downward, and bear fruit upward.
 <sup>32</sup> For out of Jerusalem a remnant will go out, and survivors will escape from Mount Zion. The zeal of Yahweh of Armies will perform this.’
 
 <sup>33</sup> “Therefore Yahweh says concerning the king of Assyria, ‘He will not come to this city, nor shoot an arrow there, neither will he come before it with shield, nor cast up a mound against it.
 <sup>34</sup> He will return the way that he came, and he won’t come to this city,’ says Yahweh.
-<sup>35</sup> ‘For I will defend this city to save it, for my own sake, and for my servant David’s sake.’ ”
+<sup>35</sup> ‘For I will defend this city to save it, for my own sake, and for my servant David’s sake.’”
 
 <sup>36</sup> Then Yahweh’s angel went out and struck one hundred and eighty-five thousand men in the camp of the Assyrians. When men arose early in the morning, behold, these were all dead bodies.
 <sup>37</sup> So Sennacherib king of Assyria departed, went away, returned to Nineveh, and stayed there.
@@ -1044,7 +1044,7 @@ Through the land of trouble and anguish, of the lioness and the lion, the viper 
 
 ## Chapter 38
 
-<sup>1</sup> In those days Hezekiah was sick and near death. Isaiah the prophet, the son of Amoz, came to him, and said to him, “Yahweh says, ‘Set your house in order, for you will die, and not live.’ ”
+<sup>1</sup> In those days Hezekiah was sick and near death. Isaiah the prophet, the son of Amoz, came to him, and said to him, “Yahweh says, ‘Set your house in order, for you will die, and not live.’”
 
 <sup>2</sup> Then Hezekiah turned his face to the wall and prayed to Yahweh,
 <sup>3</sup> and said, “Remember now, Yahweh, I beg you, how I have walked before you in truth and with a perfect heart, and have done that which is good in your sight.” Then Hezekiah wept bitterly.
@@ -1053,7 +1053,7 @@ Through the land of trouble and anguish, of the lioness and the lion, the viper 
 <sup>5</sup> “Go, and tell Hezekiah, ‘Yahweh, the God of David your father, says, “I have heard your prayer. I have seen your tears. Behold, I will add fifteen years to your life.
 <sup>6</sup> I will deliver you and this city out of the hand of the king of Assyria, and I will defend this city.
 <sup>7</sup> This shall be the sign to you from Yahweh, that Yahweh will do this thing that he has spoken.
-<sup>8</sup> Behold, I will cause the shadow on the sundial, which has gone down on the sundial of Ahaz with the sun, to return backward ten steps.” ’ ” So the sun returned ten steps on the sundial on which it had gone down.
+<sup>8</sup> Behold, I will cause the shadow on the sundial, which has gone down on the sundial of Ahaz with the sun, to return backward ten steps.”’” So the sun returned ten steps on the sundial on which it had gone down.
 
 <sup>9</sup> The writing of Hezekiah king of Judah, when he had been sick, and had recovered of his sickness:<br>
 <sup>10</sup> I said, “In the middle of my life I go into the gates of Sheol.<sup>a</sup><br>I am deprived of the residue of my years.”<br>
@@ -1088,7 +1088,7 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 
 <sup>5</sup> Then Isaiah said to Hezekiah, “Hear the word of Yahweh of Armies:
 <sup>6</sup> ‘Behold, the days are coming when all that is in your house, and that which your fathers have stored up until today, will be carried to Babylon. Nothing will be left,’ says Yahweh.
-<sup>7</sup> ‘They will take away your sons who will issue from you, whom you shall father, and they will be eunuchs in the king of Babylon’s palace.’ ”
+<sup>7</sup> ‘They will take away your sons who will issue from you, whom you shall father, and they will be eunuchs in the king of Babylon’s palace.’”
 
 <sup>8</sup> Then Hezekiah said to Isaiah, “Yahweh’s word which you have spoken is good.” He said moreover, “For there will be peace and truth in my days.”
 
@@ -1175,7 +1175,7 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 <sup>1</sup> “Behold, my servant, whom I uphold,<br>my chosen, in whom my soul delights:<br>I have put my Spirit on him.<br>He will bring justice to the nations.<br>
 <sup>2</sup> He will not shout,<br>nor raise his voice,<br>nor cause it to be heard in the street.<br>
 <sup>3</sup> He won’t break a bruised reed.<br>He won’t quench a dimly burning wick.<br>He will faithfully bring justice.<br>
-<sup>4</sup> He will not fail nor be discouraged,<br>until he has set justice in the earth,<br>and the islands wait for his law.”
+<sup>4</sup> He will not fail nor be discouraged,<br>until he has set justice on the earth,<br>and the islands wait for his law.”
 
 <sup>5</sup> God Yahweh,<br>he who created the heavens and stretched them out,<br>he who spread out the earth and that which comes out of it,<br>he who gives breath to its people and spirit to those who walk in it, says:<br>
 <sup>6</sup> “I, Yahweh, have called you in righteousness.<br>I will hold your hand.<br>I will keep you,<br>and make you a covenant for the people,<br>as a light for the nations,<br>
@@ -1213,7 +1213,7 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 <sup>4</sup> Since you have been precious and honored in my sight,<br>and I have loved you,<br>therefore I will give people in your place,<br>and nations instead of your life.<br>
 <sup>5</sup> Don’t be afraid, for I am with you.<br>I will bring your offspring from the east,<br>and gather you from the west.<br>
 <sup>6</sup> I will tell the north, ‘Give them up!’<br>and tell the south, ‘Don’t hold them back!<br>Bring my sons from far away,<br>and my daughters from the ends of the earth—<br>
-<sup>7</sup> everyone who is called by my name,<br>and whom I have created for my glory,<br>whom I have formed,<br>yes, whom I have made.’ ”
+<sup>7</sup> everyone who is called by my name,<br>and whom I have created for my glory,<br>whom I have formed,<br>yes, whom I have made.’”
 
 <sup>8</sup> Bring out the blind people who have eyes,<br>and the deaf who have ears.<br>
 <sup>9</sup> Let all the nations be gathered together,<br>and let the peoples be assembled.<br>Who among them can declare this,<br>and show us former things?<br>Let them bring their witnesses, that they may be justified,<br>or let them hear, and say, “That is true.”
@@ -1278,7 +1278,7 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 <sup>25</sup> who frustrates the signs of the liars,<br>and makes diviners mad;<br>who turns wise men backward,<br>and makes their knowledge foolish;<br>
 <sup>26</sup> who confirms the word of his servant,<br>and performs the counsel of his messengers;<br>who says of Jerusalem, ‘She will be inhabited;’<br>and of the cities of Judah, ‘They will be built,’<br>and ‘I will raise up its waste places;’<br>
 <sup>27</sup> who says to the deep, ‘Be dry,’<br>and ‘I will dry up your rivers,’<br>
-<sup>28</sup> who says of Cyrus, ‘He is my shepherd, and shall perform all my pleasure,’<br>even saying of Jerusalem, ‘She will be built;’<br>and of the temple, ‘Your foundation will be laid.’ ”
+<sup>28</sup> who says of Cyrus, ‘He is my shepherd, and shall perform all my pleasure,’<br>even saying of Jerusalem, ‘She will be built;’<br>and of the temple, ‘Your foundation will be laid.’”
 
 ## Chapter 45
 
@@ -1293,14 +1293,14 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 <sup>8</sup> Rain, you heavens, from above,<br>and let the skies pour down righteousness.<br>Let the earth open, that it may produce salvation,<br>and let it cause righteousness to spring up with it.<br>I, Yahweh, have created it.
 
 <sup>9</sup> Woe to him who strives with his Maker—<br>a clay pot among the clay pots of the earth!<br>Shall the clay ask him who fashions it, ‘What are you making?’<br>or your work, ‘He has no hands’?<br>
-<sup>10</sup> Woe to him who says to a father, ‘What have you become the father of?’<br>or to a mother, ‘What have you given birth to?’ ”
+<sup>10</sup> Woe to him who says to a father, ‘What have you become the father of?’<br>or to a mother, ‘What have you given birth to?’”
 
 <sup>11</sup> Yahweh, the Holy One of Israel<br>and his Maker says:<br>“You ask me about the things that are to come, concerning my sons,<br>and you command me concerning the work of my hands!<br>
 <sup>12</sup> I have made the earth, and created man on it.<br>I, even my hands, have stretched out the heavens.<br>I have commanded all their army.<br>
 <sup>13</sup> I have raised him up in righteousness,<br>and I will make all his ways straight.<br>He shall build my city,<br>and he shall let my exiles go free,<br>not for price nor reward,” says Yahweh of Armies.
 
 <sup>14</sup> Yahweh says: “The labor of Egypt,<br>and the merchandise of Ethiopia,<br>and the Sabeans, men of stature, will come over to you,<br>and they will be yours.<br>They will go after you.<br>They shall come over in chains.<br>They will bow down to you.<br>They will make supplication to you:<br>‘Surely God is in you; and there is no one else.<br>There is no other god.<br>
-<sup>15</sup> Most certainly you are a God who has hidden yourself,<br>God of Israel, the Savior.’ ”<br>
+<sup>15</sup> Most certainly you are a God who has hidden yourself,<br>God of Israel, the Savior.’”<br>
 <sup>16</sup> They will be disappointed,<br>yes, confounded, all of them.<br>Those who are makers of idols will go into confusion together.<br>
 <sup>17</sup> Israel will be saved by Yahweh with an everlasting salvation.<br>You will not be disappointed nor confounded to ages everlasting.
 
@@ -1312,7 +1312,7 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 
 <sup>22</sup> “Look to me, and be saved, all the ends of the earth;<br>for I am God, and there is no other.<br>
 <sup>23</sup> I have sworn by myself.<br>The word has gone out of my mouth in righteousness, and will not be revoked,<br>that to me every knee shall bow,<br>every tongue shall take an oath.<br>
-<sup>24</sup> They will say of me,<br>‘There is righteousness and strength only in Yahweh.’ ”<br>Even to him will men come.<br>All those who raged against him will be disappointed.<br>
+<sup>24</sup> They will say of me,<br>‘There is righteousness and strength only in Yahweh.’”<br>Even to him will men come.<br>All those who raged against him will be disappointed.<br>
 <sup>25</sup> All the offspring of Israel will be justified in Yahweh,<br>and will rejoice!
 
 > - <sup>a</sup> 5. or, equip
@@ -1335,7 +1335,7 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 <sup>11</sup> I call a ravenous bird from the east,<br>the man of my counsel from a far country.<br>Yes, I have spoken.<br>I will also bring it to pass.<br>I have planned.<br>I will also do it.
 
 <sup>12</sup> Listen to me, you stubborn-hearted,<br>who are far from righteousness!<br>
-<sup>13</sup> I bring my righteousness near.<br>It is not far off,<br>and my salvation will not wait.<br>I will grant salvation to Zion,<br>my glory to Israel. 
+<sup>13</sup> I bring my righteousness near.<br>It is not far off,<br>and my salvation will not wait.<br>I will grant salvation to Zion,<br>my glory to Israel.
 
 ## Chapter 47
 
@@ -1421,7 +1421,7 @@ Now the Lord Yahweh has sent me<br>with his Spirit.
 <sup>18</sup> Lift up your eyes all around, and see:<br>all these gather themselves together, and come to you.<br>As I live,” says Yahweh, “you shall surely clothe yourself with them all as with an ornament,<br>and dress yourself with them, like a bride.<br>
 <sup>19</sup> “For, as for your waste and your desolate places,<br>and your land that has been destroyed,<br>surely now that land will be too small for the inhabitants,<br>and those who swallowed you up will be far away.<br>
 <sup>20</sup> The children of your bereavement will say in your ears,<br>‘This place is too small for me.<br>Give me a place to live in.’<br>
-<sup>21</sup> Then you will say in your heart, ‘Who has conceived these for me, since I have been bereaved of my children<br>and am alone, an exile, and wandering back and forth?<br>Who has brought these up?<br>Behold, I was left alone. Where were these?’ ”
+<sup>21</sup> Then you will say in your heart, ‘Who has conceived these for me, since I have been bereaved of my children<br>and am alone, an exile, and wandering back and forth?<br>Who has brought these up?<br>Behold, I was left alone. Where were these?’”
 
 <sup>22</sup> The Lord Yahweh says, “Behold, I will lift up my hand to the nations,<br>and lift up my banner to the peoples.<br>They shall bring your sons in their bosom,<br>and your daughters shall be carried on their shoulders.<br>
 <sup>23</sup> Kings shall be your foster fathers,<br>and their queens your nursing mothers.<br>They will bow down to you with their faces to the earth,<br>and lick the dust of your feet.<br>Then you will know that I am Yahweh;<br>and those who wait for me won’t be disappointed.”
@@ -1467,7 +1467,7 @@ Now the Lord Yahweh has sent me<br>with his Spirit.
 <sup>13</sup> Have you forgotten Yahweh your Maker,<br>who stretched out the heavens,<br>and laid the foundations of the earth?<br>Do you live in fear continually all day because of the fury of the oppressor,<br>when he prepares to destroy?<br>Where is the fury of the oppressor?<br>
 <sup>14</sup> The captive exile will speedily be freed.<br>He will not die and go down into the pit.<br>His bread won’t fail.<br>
 <sup>15</sup> For I am Yahweh your God, who stirs up the sea<br>so that its waves roar.<br>Yahweh of Armies is his name.<br>
-<sup>16</sup> I have put my words in your mouth<br>and have covered you in the shadow of my hand,<br>that I may plant the heavens,<br>and lay the foundations of the earth,<br>and tell Zion, ‘You are my people.’ ”
+<sup>16</sup> I have put my words in your mouth<br>and have covered you in the shadow of my hand,<br>that I may plant the heavens,<br>and lay the foundations of the earth,<br>and tell Zion, ‘You are my people.’”
 
 <sup>17</sup> Awake, awake!<br>Stand up, Jerusalem,<br>you who have drunk from Yahweh’s hand the cup of his wrath.<br>You have drunken the bowl of the cup of staggering,<br>and drained it.<br>
 <sup>18</sup> There is no one to guide her among all the sons to whom she has given birth;<br>and there is no one who takes her by the hand among all the sons whom she has brought up.<br>
@@ -1596,7 +1596,7 @@ Now the Lord Yahweh has sent me<br>with his Spirit.
 <sup>5</sup> you who inflame yourselves among the oaks,<br>under every green tree;<br>who kill the children in the valleys,<br>under the clefts of the rocks?<br>
 <sup>6</sup> Among the smooth stones of the valley is your portion.<br>They, they are your lot.<br>You have even poured a drink offering to them.<br>You have offered an offering.<br>Shall I be appeased for these things?<br>
 <sup>7</sup> On a high and lofty mountain you have set your bed.<br>You also went up there to offer sacrifice.<br>
-<sup>8</sup> You have set up your memorial behind the doors and the posts,<br>for you have exposed yourself to someone besides me,<br>and have gone up.<br>You have enlarged your bed<br>and made you a covenant with them.<br>You loved what you saw on their bed.<br>
+<sup>8</sup> You have set up your memorial behind the doors and the posts,<br>for you have exposed yourself to someone besides me,<br>and have gone up.<br>You have enlarged your bed<br>and made a covenant for yourself with them.<br>You loved what you saw on their bed.<br>
 <sup>9</sup> You went to the king with oil,<br>increased your perfumes,<br>sent your ambassadors far off,<br>and degraded yourself even to Sheol.<sup>a</sup><br>
 <sup>10</sup> You were wearied with the length of your ways;<br>yet you didn’t say, ‘It is in vain.’<br>You found a reviving of your strength;<br>therefore you weren’t faint.
 
@@ -1725,13 +1725,13 @@ Yahweh saw it,<br>and it displeased him that there was no justice.<br>
 <sup>5</sup> For as a young man marries a virgin,<br>so your sons will marry you.<br>As a bridegroom rejoices over his bride,<br>so your God will rejoice over you.
 
 <sup>6</sup> I have set watchmen on your walls, Jerusalem.<br>They will never be silent day nor night.<br>You who call on Yahweh, take no rest,<br>
-<sup>7</sup> and give him no rest until he establishes,<br>and until he makes Jerusalem a praise in the earth.
+<sup>7</sup> and give him no rest until he establishes,<br>and until he makes Jerusalem a praise on the earth.
 
 <sup>8</sup> Yahweh has sworn by his right hand,<br>and by the arm of his strength,<br>“Surely I will no more give your grain to be food for your enemies,<br>and foreigners will not drink your new wine, for which you have labored,<br>
 <sup>9</sup> but those who have harvested it will eat it, and praise Yahweh.<br>Those who have gathered it will drink it in the courts of my sanctuary.”
 
 <sup>10</sup> Go through, go through the gates!<br>Prepare the way of the people!<br>Build up, build up the highway!<br>Gather out the stones!<br>Lift up a banner for the peoples.<br>
-<sup>11</sup> Behold, Yahweh has proclaimed to the end of the earth:<br>“Say to the daughter of Zion,<br>‘Behold, your salvation comes!<br>Behold, his reward is with him,<br>and his recompense before him!’ ”<br>
+<sup>11</sup> Behold, Yahweh has proclaimed to the end of the earth:<br>“Say to the daughter of Zion,<br>‘Behold, your salvation comes!<br>Behold, his reward is with him,<br>and his recompense before him!’”<br>
 <sup>12</sup> They will call them “The Holy People,<br>Yahweh’s Redeemed”.<br>You will be called “Sought Out,<br>A City Not Forsaken”.
 
 > - <sup>a</sup> 4. Hephzibah means “I delight in her”.
@@ -1801,7 +1801,7 @@ Yahweh saw it,<br>and it displeased him that there was no justice.<br>
 <sup>13</sup> Therefore the Lord Yahweh says,<br>“Behold, my servants will eat,<br>but you will be hungry;<br>behold, my servants will drink,<br>but you will be thirsty.<br>Behold, my servants will rejoice,<br>but you will be disappointed.<br>
 <sup>14</sup> Behold, my servants will sing for joy of heart,<br>but you will cry for sorrow of heart,<br>and will wail for anguish of spirit.<br>
 <sup>15</sup> You will leave your name for a curse to my chosen,<br>and the Lord Yahweh will kill you.<br>He will call his servants by another name,<br>
-<sup>16</sup> so that he who blesses himself in the earth will bless himself in the God of truth;<br>and he who swears in the earth will swear by the God of truth;<br>because the former troubles are forgotten,<br>and because they are hidden from my eyes.
+<sup>16</sup> so that he who blesses himself on the earth will bless himself in the God of truth;<br>and he who swears on the earth will swear by the God of truth;<br>because the former troubles are forgotten,<br>and because they are hidden from my eyes.
 
 <sup>17</sup> “For, behold, I create new heavens and a new earth;<br>and the former things will not be remembered,<br>nor come into mind.<br>
 <sup>18</sup> But be glad and rejoice forever in that which I create;<br>for, behold, I create Jerusalem to be a delight,<br>and her people a joy.<br>
@@ -1836,7 +1836,7 @@ Yahweh saw it,<br>and it displeased him that there was no justice.<br>
 
 <sup>14</sup> You will see it, and your heart shall rejoice,<br>and your bones will flourish like the tender grass.<br>Yahweh’s hand will be known among his servants;<br>and he will have indignation against his enemies.
 
-<sup>15</sup> For, behold, Yahweh will come with fire,<br>and his chariots will be like the whirlwind;<br>to render his anger with fierceness,<br>and his rebuke with flames of fire.<br>
+<sup>15</sup> For, behold, Yahweh will come with fire,<br>and his chariots will be like the whirlwind;<br>to give his anger with fierceness,<br>and his rebuke with flames of fire.<br>
 <sup>16</sup> For Yahweh will execute judgment by fire and by his sword on all flesh;<br>and those slain by Yahweh will be many.
 
 <sup>17</sup> “Those who sanctify themselves and purify themselves to go to the gardens, following one in the middle, eating pig’s meat, abominable things, and the mouse, they shall come to an end together,” says Yahweh.

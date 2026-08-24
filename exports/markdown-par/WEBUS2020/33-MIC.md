@@ -17,7 +17,7 @@
 <sup>13</sup> Harness the chariot to the swift steed, inhabitant of Lachish.<br>She was the beginning of sin to the daughter of Zion;<br>for the transgressions of Israel were found in you.<br>
 <sup>14</sup> Therefore you will give a parting gift to Moresheth Gath.<br>The houses of Achzib will be a deceitful thing to the kings of Israel.<br>
 <sup>15</sup> I will yet bring a conqueror to you, inhabitants of Mareshah.<br>The glory of Israel will come to Adullam.<br>
-<sup>16</sup> Shave your heads,<br>and cut off your hair for the children of your delight.<br>Enlarge your baldness like the vulture,<br>for they have gone into captivity from you! 
+<sup>16</sup> Shave your heads,<br>and cut off your hair for the children of your delight.<br>Enlarge your baldness like the vulture,<br>for they have gone into captivity from you!
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 2. The word translated “Lord” is “Adonai.”
@@ -29,7 +29,7 @@
 <sup>1</sup> Woe to those who devise iniquity<br>and work evil on their beds!<br>When the morning is light, they practice it,<br>because it is in the power of their hand.<br>
 <sup>2</sup> They covet fields and seize them,<br>and houses, then take them away.<br>They oppress a man and his house,<br>even a man and his heritage.<br>
 <sup>3</sup> Therefore Yahweh says:<br>“Behold, I am planning against these people a disaster,<br>from which you will not remove your necks,<br>neither will you walk haughtily,<br>for it is an evil time.<br>
-<sup>4</sup> In that day they will take up a parable against you,<br>and lament with a doleful lamentation, saying,<br>‘We are utterly ruined!<br>My people’s possession is divided up.<br>Indeed he takes it from me and assigns our fields to traitors!’ ”<br>
+<sup>4</sup> In that day they will take up a parable against you,<br>and lament with a doleful lamentation, saying,<br>‘We are utterly ruined!<br>My people’s possession is divided up.<br>Indeed he takes it from me and assigns our fields to traitors!’”<br>
 <sup>5</sup> Therefore you will have no one who divides the land by lot in Yahweh’s assembly.<br>
 <sup>6</sup> “Don’t prophesy!”—they prophesy—<br>“Don’t prophesy about these things.<br>Disgrace won’t overtake us.”<br>
 <sup>7</sup> Shall it be said, O house of Jacob,<br>“Is Yahweh’s Spirit angry?<br>Are these his doings?<br>Don’t my words do good to him who walks blamelessly?”<br>
@@ -53,7 +53,7 @@
 <sup>8</sup> But as for me, I am full of power by Yahweh’s Spirit,<br>and of judgment, and of might,<br>to declare to Jacob his disobedience,<br>and to Israel his sin.<br>
 <sup>9</sup> Please listen to this, you heads of the house of Jacob,<br>and rulers of the house of Israel,<br>who abhor justice,<br>and pervert all equity,<br>
 <sup>10</sup> who build up Zion with blood,<br>and Jerusalem with iniquity.<br>
-<sup>11</sup> Her leaders judge for bribes,<br>and her priests teach for a price,<br>and her prophets of it tell fortunes for money;<br>yet they lean on Yahweh, and say,<br>“Isn’t Yahweh among us?<br>No disaster will come on us.”<br>
+<sup>11</sup> Her leaders judge for bribes,<br>and her priests teach for a price,<br>and her prophets tell fortunes for money;<br>yet they lean on Yahweh, and say,<br>“Isn’t Yahweh among us?<br>No disaster will come on us.”<br>
 <sup>12</sup> Therefore Zion for your sake will be plowed like a field,<br>and Jerusalem will become heaps of rubble,<br>and the mountain of the temple like the high places of a forest.
 
 > - <sup>a</sup> 7. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
@@ -74,7 +74,7 @@
 
 <sup>11</sup> Now many nations have assembled against you, that say,<br>“Let her be defiled,<br>and let our eye gloat over Zion.”<br>
 <sup>12</sup> But they don’t know the thoughts of Yahweh,<br>neither do they understand his counsel;<br>for he has gathered them like the sheaves to the threshing floor.<br>
-<sup>13</sup> Arise and thresh, daughter of Zion,<br>for I will make your horn iron,<br>and I will make your hoofs bronze.<br>You will beat in pieces many peoples.<br>I will devote their gain to Yahweh,<br>and their substance to the Lord of the whole earth. 
+<sup>13</sup> Arise and thresh, daughter of Zion,<br>for I will make your horn iron,<br>and I will make your hoofs bronze.<br>You will beat in pieces many peoples.<br>I will devote their gain to Yahweh,<br>and their substance to the Lord of the whole earth.
 
 ## Chapter 5
 

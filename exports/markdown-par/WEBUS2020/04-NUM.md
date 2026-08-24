@@ -306,7 +306,7 @@ These are the families of the Levites according to their fathers’ houses.
 <sup>7</sup> then he shall confess his sin which he has done; and he shall make restitution for his guilt in full, add to it the fifth part of it, and give it to him in respect of whom he has been guilty.
 <sup>8</sup> But if the man has no kinsman to whom restitution may be made for the guilt, the restitution for guilt which is made to Yahweh shall be the priest’s, in addition to the ram of the atonement, by which atonement shall be made for him.
 <sup>9</sup> Every heave offering of all the holy things of the children of Israel, which they present to the priest, shall be his.
-<sup>10</sup> Every man’s holy things shall be his; whatever any man gives the priest, it shall be his.’ ”
+<sup>10</sup> Every man’s holy things shall be his; whatever any man gives the priest, it shall be his.’”
 
 <sup>11</sup> Yahweh spoke to Moses, saying,
 <sup>12</sup> “Speak to the children of Israel, and tell them: ‘If any man’s wife goes astray and is unfaithful to him,
@@ -321,16 +321,16 @@ These are the families of the Levites according to their fathers’ houses.
 <sup>21</sup> then the priest shall cause the woman to swear with the oath of cursing, and the priest shall tell the woman, “May Yahweh make you a curse and an oath among your people, when Yahweh allows your thigh to fall away, and your body to swell;
 <sup>22</sup> and this water that brings a curse will go into your bowels, and make your body swell, and your thigh fall away.” The woman shall say, “Amen, Amen.”
 
-<sup>23</sup> “ ‘The priest shall write these curses in a book, and he shall wipe them into the water of bitterness.
+<sup>23</sup> “‘The priest shall write these curses in a book, and he shall wipe them into the water of bitterness.
 <sup>24</sup> He shall make the woman drink the water of bitterness that causes the curse; and the water that causes the curse shall enter into her and become bitter.
 <sup>25</sup> The priest shall take the meal offering of jealousy out of the woman’s hand, and shall wave the meal offering before Yahweh, and bring it to the altar.
 <sup>26</sup> The priest shall take a handful of the meal offering, as its memorial portion, and burn it on the altar, and afterward shall make the woman drink the water.
 <sup>27</sup> When he has made her drink the water, then it shall happen, if she is defiled and has committed a trespass against her husband, that the water that causes the curse will enter into her and become bitter, and her body will swell, and her thigh will fall away; and the woman will be a curse among her people.
 <sup>28</sup> If the woman isn’t defiled, but is clean; then she shall be free, and shall conceive offspring.<sup>b</sup>
 
-<sup>29</sup> “ ‘This is the law of jealousy, when a wife, being under her husband, goes astray, and is defiled,
+<sup>29</sup> “‘This is the law of jealousy, when a wife, being under her husband, goes astray, and is defiled,
 <sup>30</sup> or when the spirit of jealousy comes on a man, and he is jealous of his wife; then he shall set the woman before Yahweh, and the priest shall execute on her all this law.
-<sup>31</sup> The man shall be free from iniquity, and that woman shall bear her iniquity.’ ”
+<sup>31</sup> The man shall be free from iniquity, and that woman shall bear her iniquity.’”
 
 > - <sup>a</sup> 15. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>b</sup> 28. or, seed
@@ -342,18 +342,18 @@ These are the families of the Levites according to their fathers’ houses.
 <sup>3</sup> he shall separate himself from wine and strong drink. He shall drink no vinegar of wine, or vinegar of fermented drink, neither shall he drink any juice of grapes, nor eat fresh grapes or dried.
 <sup>4</sup> All the days of his separation he shall eat nothing that is made of the grapevine, from the seeds even to the skins.
 
-<sup>5</sup> “ ‘All the days of his vow of separation no razor shall come on his head, until the days are fulfilled in which he separates himself to Yahweh. He shall be holy. He shall let the locks of the hair of his head grow long.
+<sup>5</sup> “‘All the days of his vow of separation no razor shall come on his head, until the days are fulfilled in which he separates himself to Yahweh. He shall be holy. He shall let the locks of the hair of his head grow long.
 
-<sup>6</sup> “ ‘All the days that he separates himself to Yahweh he shall not go near a dead body.
+<sup>6</sup> “‘All the days that he separates himself to Yahweh he shall not go near a dead body.
 <sup>7</sup> He shall not make himself unclean for his father, or for his mother, for his brother, or for his sister, when they die, because his separation to God<sup>a</sup> is on his head.
 <sup>8</sup> All the days of his separation he is holy to Yahweh.
 
-<sup>9</sup> “ ‘If any man dies very suddenly beside him, and he defiles the head of his separation, then he shall shave his head in the day of his cleansing. On the seventh day he shall shave it.
+<sup>9</sup> “‘If any man dies very suddenly beside him, and he defiles the head of his separation, then he shall shave his head in the day of his cleansing. On the seventh day he shall shave it.
 <sup>10</sup> On the eighth day he shall bring two turtledoves or two young pigeons to the priest, to the door of the Tent of Meeting.
 <sup>11</sup> The priest shall offer one for a sin offering, and the other for a burnt offering, and make atonement for him, because he sinned by reason of the dead, and shall make his head holy that same day.
 <sup>12</sup> He shall separate to Yahweh the days of his separation, and shall bring a male lamb a year old for a trespass offering; but the former days shall be void, because his separation was defiled.
 
-<sup>13</sup> “ ‘This is the law of the Nazirite: when the days of his separation are fulfilled, he shall be brought to the door of the Tent of Meeting,
+<sup>13</sup> “‘This is the law of the Nazirite: when the days of his separation are fulfilled, he shall be brought to the door of the Tent of Meeting,
 <sup>14</sup> and he shall offer his offering to Yahweh: one male lamb a year old without defect for a burnt offering, one ewe lamb a year old without defect for a sin offering, one ram without defect for peace offerings,
 <sup>15</sup> a basket of unleavened bread, cakes of fine flour mixed with oil, and unleavened wafers anointed with oil with their meal offering and their drink offerings.
 <sup>16</sup> The priest shall present them before Yahweh, and shall offer his sin offering and his burnt offering.
@@ -362,7 +362,7 @@ These are the families of the Levites according to their fathers’ houses.
 <sup>19</sup> The priest shall take the boiled shoulder of the ram, one unleavened cake out of the basket, and one unleavened wafer, and shall put them on the hands of the Nazirite after he has shaved the head of his separation;
 <sup>20</sup> and the priest shall wave them for a wave offering before Yahweh. They are holy for the priest, together with the breast that is waved and the thigh that is offered. After that the Nazirite may drink wine.
 
-<sup>21</sup> “ ‘This is the law of the Nazirite who vows and of his offering to Yahweh for his separation, in addition to that which he is able to afford. According to his vow which he vows, so he must do after the law of his separation.’ ”
+<sup>21</sup> “‘This is the law of the Nazirite who vows and of his offering to Yahweh for his separation, in addition to that which he is able to afford. According to his vow which he vows, so he must do after the law of his separation.’”
 
 <sup>22</sup> Yahweh spoke to Moses, saying,
 <sup>23</sup> “Speak to Aaron and to his sons, saying, ‘This is how you shall bless the children of Israel.’ You shall tell them,<br>
@@ -632,7 +632,7 @@ one male lamb a year old, for a burnt offering;
 ## Chapter 8
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
-<sup>2</sup> “Speak to Aaron, and tell him, ‘When you light the lamps, the seven lamps shall give light in front of the lamp stand.’ ”
+<sup>2</sup> “Speak to Aaron, and tell him, ‘When you light the lamps, the seven lamps shall give light in front of the lamp stand.’”
 
 <sup>3</sup> Aaron did so. He lit its lamps to light the area in front of the lamp stand, as Yahweh commanded Moses.
 <sup>4</sup> This was the workmanship of the lamp stand, beaten work of gold. From its base to its flowers, it was beaten work. He made the lamp stand according to the pattern which Yahweh had shown Moses.
@@ -683,7 +683,7 @@ one male lamb a year old, for a burnt offering;
 <sup>12</sup> They shall leave none of it until the morning, nor break a bone of it. According to all the statute of the Passover they shall keep it.
 <sup>13</sup> But the man who is clean, and is not on a journey, and fails to keep the Passover, that soul shall be cut off from his people. Because he didn’t offer the offering of Yahweh in its appointed season, that man shall bear his sin.
 
-<sup>14</sup> “ ‘If a foreigner lives among you and desires to keep the Passover to Yahweh, then he shall do so according to the statute of the Passover, and according to its ordinance. You shall have one statute, both for the foreigner and for him who is born in the land.’ ”
+<sup>14</sup> “‘If a foreigner lives among you and desires to keep the Passover to Yahweh, then he shall do so according to the statute of the Passover, and according to its ordinance. You shall have one statute, both for the foreigner and for him who is born in the land.’”
 
 <sup>15</sup> On the day that the tabernacle was raised up, the cloud covered the tabernacle, even the Tent of the Testimony. At evening it was over the tabernacle, as it were the appearance of fire, until morning.
 <sup>16</sup> So it was continually. The cloud covered it, and the appearance of fire by night.
@@ -770,7 +770,7 @@ one male lamb a year old, for a burnt offering;
 
 <sup>18</sup> “Say to the people, ‘Sanctify yourselves in preparation for tomorrow, and you will eat meat; for you have wept in the ears of Yahweh, saying, “Who will give us meat to eat? For it was well with us in Egypt.” Therefore Yahweh will give you meat, and you will eat.
 <sup>19</sup> You will not eat just one day, or two days, or five days, or ten days, or twenty days,
-<sup>20</sup> but a whole month, until it comes out at your nostrils, and it is loathsome to you; because you have rejected Yahweh who is among you, and have wept before him, saying, “Why did we come out of Egypt?” ’ ”
+<sup>20</sup> but a whole month, until it comes out at your nostrils, and it is loathsome to you; because you have rejected Yahweh who is among you, and have wept before him, saying, “Why did we come out of Egypt?”’”
 
 <sup>21</sup> Moses said, “The people, among whom I am, are six hundred thousand men on foot; and you have said, ‘I will give them meat, that they may eat a whole month.’
 <sup>22</sup> Shall flocks and herds be slaughtered for them, to be sufficient for them? Shall all the fish of the sea be gathered together for them, to be sufficient for them?”
@@ -834,17 +834,31 @@ The three of them came out.
 
 <sup>3</sup> Moses sent them from the wilderness of Paran according to the commandment of Yahweh. All of them were men who were heads of the children of Israel.
 <sup>4</sup> These were their names:
+
+Of the tribe of Reuben, Shammua the son of Zaccur.
+
 <sup>5</sup> Of the tribe of Simeon, Shaphat the son of Hori.
+
 <sup>6</sup> Of the tribe of Judah, Caleb the son of Jephunneh.
+
 <sup>7</sup> Of the tribe of Issachar, Igal the son of Joseph.
+
 <sup>8</sup> Of the tribe of Ephraim, Hoshea the son of Nun.
+
 <sup>9</sup> Of the tribe of Benjamin, Palti the son of Raphu.
+
 <sup>10</sup> Of the tribe of Zebulun, Gaddiel the son of Sodi.
+
 <sup>11</sup> Of the tribe of Joseph, of the tribe of Manasseh, Gaddi the son of Susi.
+
 <sup>12</sup> Of the tribe of Dan, Ammiel the son of Gemalli.
+
 <sup>13</sup> Of the tribe of Asher, Sethur the son of Michael.
+
 <sup>14</sup> Of the tribe of Naphtali, Nahbi the son of Vophsi.
+
 <sup>15</sup> Of the tribe of Gad, Geuel the son of Machi.
+
 <sup>16</sup> These are the names of the men who Moses sent to spy out the land. Moses called Hoshea the son of Nun Joshua.
 <sup>17</sup> Moses sent them to spy out the land of Canaan, and said to them, “Go up this way by the South, and go up into the hill country.
 <sup>18</sup> See the land, what it is; and the people who dwell therein, whether they are strong or weak, whether they are few or many;
@@ -939,7 +953,7 @@ Yahweh’s glory appeared in the Tent of Meeting to all the children of Israel.
 <sup>4</sup> then he who offers his offering shall offer to Yahweh a meal offering of one tenth of an ephah<sup>a</sup> of fine flour mixed with one fourth of a hin<sup>b</sup> of oil.
 <sup>5</sup> You shall prepare wine for the drink offering, one fourth of a hin, with the burnt offering or for the sacrifice, for each lamb.
 
-<sup>6</sup> “ ‘For a ram, you shall prepare for a meal offering two tenths of an ephah<sup>c</sup> of fine flour mixed with the third part of a hin of oil;
+<sup>6</sup> “‘For a ram, you shall prepare for a meal offering two tenths of an ephah<sup>c</sup> of fine flour mixed with the third part of a hin of oil;
 <sup>7</sup> and for the drink offering you shall offer the third part of a hin of wine, of a pleasant aroma to Yahweh.
 <sup>8</sup> When you prepare a bull for a burnt offering or for a sacrifice, to accomplish a vow, or for peace offerings to Yahweh,
 <sup>9</sup> then he shall offer with the bull a meal offering of three tenths of an ephah<sup>d</sup> of fine flour mixed with half a hin of oil;
@@ -947,10 +961,10 @@ Yahweh’s glory appeared in the Tent of Meeting to all the children of Israel.
 <sup>11</sup> Thus it shall be done for each bull, for each ram, for each of the male lambs, or of the young goats.
 <sup>12</sup> According to the number that you shall prepare, so you shall do to everyone according to their number.
 
-<sup>13</sup> “ ‘All who are native-born shall do these things in this way, in offering an offering made by fire, of a pleasant aroma to Yahweh.
+<sup>13</sup> “‘All who are native-born shall do these things in this way, in offering an offering made by fire, of a pleasant aroma to Yahweh.
 <sup>14</sup> If a stranger lives as a foreigner with you, or whoever may be among you throughout your generations, and will offer an offering made by fire, of a pleasant aroma to Yahweh, as you do, so he shall do.
 <sup>15</sup> For the assembly, there shall be one statute for you and for the stranger who lives as a foreigner, a statute forever throughout your generations. As you are, so the foreigner shall be before Yahweh.
-<sup>16</sup> One law and one ordinance shall be for you and for the stranger who lives as a foreigner with you.’ ”
+<sup>16</sup> One law and one ordinance shall be for you and for the stranger who lives as a foreigner with you.’”
 
 <sup>17</sup> Yahweh spoke to Moses, saying,
 <sup>18</sup> “Speak to the children of Israel, and tell them, ‘When you come into the land where I bring you,
@@ -958,18 +972,18 @@ Yahweh’s glory appeared in the Tent of Meeting to all the children of Israel.
 <sup>20</sup> Of the first of your dough you shall offer up a cake for a wave offering. As the wave offering of the threshing floor, so you shall heave it.
 <sup>21</sup> Of the first of your dough, you shall give to Yahweh a wave offering throughout your generations.
 
-<sup>22</sup> “ ‘When you err, and don’t observe all these commandments which Yahweh has spoken to Moses—
+<sup>22</sup> “‘When you err, and don’t observe all these commandments which Yahweh has spoken to Moses—
 <sup>23</sup> even all that Yahweh has commanded you by Moses, from the day that Yahweh gave commandment and onward throughout your generations—
 <sup>24</sup> then it shall be, if it was done unwittingly, without the knowledge of the congregation, that all the congregation shall offer one young bull for a burnt offering, for a pleasant aroma to Yahweh, with its meal offering and its drink offering, according to the ordinance, and one male goat for a sin offering.
 <sup>25</sup> The priest shall make atonement for all the congregation of the children of Israel, and they shall be forgiven; for it was an error, and they have brought their offering, an offering made by fire to Yahweh, and their sin offering before Yahweh, for their error.
 <sup>26</sup> All the congregation of the children of Israel shall be forgiven, as well as the stranger who lives as a foreigner among them; for with regard to all the people, it was done unwittingly.
 
-<sup>27</sup> “ ‘If a person sins unwittingly, then he shall offer a female goat a year old for a sin offering.
+<sup>27</sup> “‘If a person sins unwittingly, then he shall offer a female goat a year old for a sin offering.
 <sup>28</sup> The priest shall make atonement for the soul who errs when he sins unwittingly before Yahweh. He shall make atonement for him; and he shall be forgiven.
 <sup>29</sup> You shall have one law for him who does anything unwittingly, for him who is native-born among the children of Israel, and for the stranger who lives as a foreigner among them.
 
-<sup>30</sup> “ ‘But the soul who does anything with a high hand, whether he is native-born or a foreigner, blasphemes Yahweh. That soul shall be cut off from among his people.
-<sup>31</sup> Because he has despised Yahweh’s word, and has broken his commandment, that soul shall be utterly cut off. His iniquity shall be on him.’ ”
+<sup>30</sup> “‘But the soul who does anything with a high hand, whether he is native-born or a foreigner, blasphemes Yahweh. That soul shall be cut off from among his people.
+<sup>31</sup> Because he has despised Yahweh’s word, and has broken his commandment, that soul shall be utterly cut off. His iniquity shall be on him.’”
 
 <sup>32</sup> While the children of Israel were in the wilderness, they found a man gathering sticks on the Sabbath day.
 <sup>33</sup> Those who found him gathering sticks brought him to Moses and Aaron, and to all the congregation.
@@ -1027,7 +1041,7 @@ Yahweh’s glory appeared to all the congregation.
 <sup>22</sup> They fell on their faces, and said, “God, the God of the spirits of all flesh, shall one man sin, and will you be angry with all the congregation?”
 
 <sup>23</sup> Yahweh spoke to Moses, saying,
-<sup>24</sup> “Speak to the congregation, saying, ‘Get away from around the tent of Korah, Dathan, and Abiram!’ ”
+<sup>24</sup> “Speak to the congregation, saying, ‘Get away from around the tent of Korah, Dathan, and Abiram!’”
 
 <sup>25</sup> Moses rose up and went to Dathan and Abiram; and the elders of Israel followed him.
 <sup>26</sup> He spoke to the congregation, saying, “Depart, please, from the tents of these wicked men, and touch nothing of theirs, lest you be consumed in all their sins!”
@@ -1100,7 +1114,7 @@ Yahweh’s glory appeared to all the congregation.
 <sup>7</sup> You and your sons with you shall keep your priesthood for everything of the altar, and for that within the veil. You shall serve. I give you the service of the priesthood as a gift. The stranger who comes near shall be put to death.”
 
 <sup>8</sup> Yahweh spoke to Aaron, “Behold, I myself have given you the command of my wave offerings, even all the holy things of the children of Israel. I have given them to you by reason of the anointing, and to your sons, as a portion forever.
-<sup>9</sup> This shall be yours of the most holy things from the fire: every offering of theirs, even every meal offering of theirs, and every sin offering of theirs, and every trespass offering of theirs, which they shall render to me, shall be most holy for you and for your sons.
+<sup>9</sup> This shall be yours of the most holy things from the fire: every offering of theirs, even every meal offering of theirs, and every sin offering of theirs, and every trespass offering of theirs, which they shall give to me, shall be most holy for you and for your sons.
 <sup>10</sup> You shall eat of it like the most holy things. Every male shall eat of it. It shall be holy to you.
 
 <sup>11</sup> “This is yours, too: the wave offering of their gift, even all the wave offerings of the children of Israel. I have given them to you, and to your sons and to your daughters with you, as a portion forever. Everyone who is clean in your house shall eat of it.
@@ -1121,7 +1135,7 @@ Yahweh’s glory appeared to all the congregation.
 <sup>21</sup> “To the children of Levi, behold, I have given all the tithe in Israel for an inheritance, in return for their service which they serve, even the service of the Tent of Meeting.
 <sup>22</sup> Henceforth the children of Israel shall not come near the Tent of Meeting, lest they bear sin, and die.
 <sup>23</sup> But the Levites shall do the service of the Tent of Meeting, and they shall bear their iniquity. It shall be a statute forever throughout your generations. Among the children of Israel, they shall have no inheritance.
-<sup>24</sup> For the tithe of the children of Israel, which they offer as a wave offering to Yahweh, I have given to the Levites for an inheritance. Therefore I have said to them, ‘Among the children of Israel they shall have no inheritance.’ ”
+<sup>24</sup> For the tithe of the children of Israel, which they offer as a wave offering to Yahweh, I have given to the Levites for an inheritance. Therefore I have said to them, ‘Among the children of Israel they shall have no inheritance.’”
 
 <sup>25</sup> Yahweh spoke to Moses, saying,
 <sup>26</sup> “Moreover you shall speak to the Levites, and tell them, ‘When you take of the children of Israel the tithe which I have given you from them for your inheritance, then you shall offer up a wave offering of it for Yahweh, a tithe of the tithe.
@@ -1131,7 +1145,7 @@ Yahweh’s glory appeared to all the congregation.
 
 <sup>30</sup> “Therefore you shall tell them, ‘When you heave its best from it, then it shall be credited to the Levites as the increase of the threshing floor, and as the increase of the wine press.
 <sup>31</sup> You may eat it anywhere, you and your households, for it is your reward in return for your service in the Tent of Meeting.
-<sup>32</sup> You shall bear no sin by reason of it, when you have heaved from it its best. You shall not profane the holy things of the children of Israel, that you not die.’ ”
+<sup>32</sup> You shall bear no sin by reason of it, when you have heaved from it its best. You shall not profane the holy things of the children of Israel, that you not die.’”
 
 > - <sup>a</sup> 16. A shekel is about 10 grams or about 0.35 ounces.
 > - <sup>b</sup> 16. A gerah is about 0.5 grams or about 7.7 grains.
@@ -1233,7 +1247,7 @@ Yahweh’s glory appeared to all the congregation.
 <sup>11</sup> They traveled from Oboth, and encamped at Iyeabarim, in the wilderness which is before Moab, toward the sunrise.
 <sup>12</sup> From there they traveled, and encamped in the valley of Zered.
 <sup>13</sup> From there they traveled, and encamped on the other side of the Arnon, which is in the wilderness that comes out of the border of the Amorites; for the Arnon is the border of Moab, between Moab and the Amorites.
-<sup>14</sup> Therefore it is said in [cite]The Book of the Wars of Yahweh[/cite], “Vaheb in Suphah, the valleys of the Arnon,
+<sup>14</sup> Therefore it is said in _The Book of the Wars of Yahweh_, “Vaheb in Suphah, the valleys of the Arnon,
 <sup>15</sup> the slope of the valleys that incline toward the dwelling of Ar, leans on the border of Moab.”
 
 <sup>16</sup> From there they traveled to Beer; that is the well of which Yahweh said to Moses, “Gather the people together, and I will give them water.”
@@ -1284,7 +1298,7 @@ Balak the son of Zippor was king of Moab at that time.
 <sup>9</sup> God came to Balaam, and said, “Who are these men with you?”
 
 <sup>10</sup> Balaam said to God, “Balak the son of Zippor, king of Moab, has said to me,
-<sup>11</sup> ‘Behold, the people that has come out of Egypt covers the surface of the earth. Now, come curse them for me. Perhaps I shall be able to fight against them, and shall drive them out.’ ”
+<sup>11</sup> ‘Behold, the people that has come out of Egypt covers the surface of the earth. Now, come curse them for me. Perhaps I shall be able to fight against them, and shall drive them out.’”
 
 <sup>12</sup> God said to Balaam, “You shall not go with them. You shall not curse the people, for they are blessed.”
 
@@ -1294,7 +1308,7 @@ Balak the son of Zippor was king of Moab at that time.
 
 <sup>15</sup> Balak again sent princes, more, and more honorable than they.
 <sup>16</sup> They came to Balaam, and said to him, “Balak the son of Zippor says, ‘Please let nothing hinder you from coming to me,
-<sup>17</sup> for I will promote you to very great honor, and whatever you say to me I will do. Please come therefore, and curse this people for me.’ ”
+<sup>17</sup> for I will promote you to very great honor, and whatever you say to me I will do. Please come therefore, and curse this people for me.’”
 
 <sup>18</sup> Balaam answered the servants of Balak, “If Balak would give me his house full of silver and gold, I can’t go beyond the word of Yahweh my God, to do less or more.
 <sup>19</sup> Now therefore please stay here tonight as well, that I may know what else Yahweh will speak to me.”
@@ -1438,7 +1452,7 @@ He went to a bare height.
 <sup>10</sup> Yahweh spoke to Moses, saying,
 <sup>11</sup> “Phinehas, the son of Eleazar, the son of Aaron the priest, has turned my wrath away from the children of Israel, in that he was jealous with my jealousy among them, so that I didn’t consume the children of Israel in my jealousy.
 <sup>12</sup> Therefore say, ‘Behold, I give to him my covenant of peace.
-<sup>13</sup> It shall be to him, and to his offspring after him, the covenant of an everlasting priesthood, because he was jealous for his God, and made atonement for the children of Israel.’ ”
+<sup>13</sup> It shall be to him, and to his offspring after him, the covenant of an everlasting priesthood, because he was jealous for his God, and made atonement for the children of Israel.’”
 
 <sup>14</sup> Now the name of the man of Israel that was slain, who was slain with the Midianite woman, was Zimri, the son of Salu, a prince of a fathers’ house among the Simeonites.
 <sup>15</sup> The name of the Midianite woman who was slain was Cozbi, the daughter of Zur. He was head of the people of a fathers’ house in Midian.
@@ -1532,7 +1546,7 @@ These are those who came out of the land of Egypt.
 <sup>8</sup> You shall speak to the children of Israel, saying, ‘If a man dies, and has no son, then you shall cause his inheritance to pass to his daughter.
 <sup>9</sup> If he has no daughter, then you shall give his inheritance to his brothers.
 <sup>10</sup> If he has no brothers, then you shall give his inheritance to his father’s brothers.
-<sup>11</sup> If his father has no brothers, then you shall give his inheritance to his kinsman who is next to him of his family, and he shall possess it. This shall be a statute and ordinance for the children of Israel, as Yahweh commanded Moses.’ ”
+<sup>11</sup> If his father has no brothers, then you shall give his inheritance to his kinsman who is next to him of his family, and he shall possess it. This shall be a statute and ordinance for the children of Israel, as Yahweh commanded Moses.’”
 
 <sup>12</sup> Yahweh said to Moses, “Go up into this mountain of Abarim, and see the land which I have given to the children of Israel.
 <sup>13</sup> When you have seen it, you also shall be gathered to your people, as Aaron your brother was gathered;
@@ -1561,16 +1575,16 @@ These are those who came out of the land of Egypt.
 <sup>7</sup> Its drink offering shall be the fourth part of a hin<sup>c</sup> for each lamb. You shall pour out a drink offering of strong drink to Yahweh in the holy place.
 <sup>8</sup> The other lamb you shall offer at evening. As the meal offering of the morning, and as its drink offering, you shall offer it, an offering made by fire, for a pleasant aroma to Yahweh.
 
-<sup>9</sup> “ ‘On the Sabbath day, you shall offer two male lambs a year old without defect, and two tenths of an ephah<sup>d</sup> of fine flour for a meal offering mixed with oil, and its drink offering:
+<sup>9</sup> “‘On the Sabbath day, you shall offer two male lambs a year old without defect, and two tenths of an ephah<sup>d</sup> of fine flour for a meal offering mixed with oil, and its drink offering:
 <sup>10</sup> this is the burnt offering of every Sabbath, in addition to the continual burnt offering and its drink offering.
 
-<sup>11</sup> “ ‘In the beginnings of your months, you shall offer a burnt offering to Yahweh: two young bulls, one ram, seven male lambs a year old without defect,
+<sup>11</sup> “‘In the beginnings of your months, you shall offer a burnt offering to Yahweh: two young bulls, one ram, seven male lambs a year old without defect,
 <sup>12</sup> and three tenths of an ephah<sup>e</sup> of fine flour for a meal offering mixed with oil, for each bull; and two tenth parts of fine flour for a meal offering mixed with oil, for the one ram;
 <sup>13</sup> and one tenth part of fine flour mixed with oil for a meal offering to every lamb, as a burnt offering of a pleasant aroma, an offering made by fire to Yahweh.
 <sup>14</sup> Their drink offerings shall be half a hin of wine for a bull, the third part of a hin for the ram, and the fourth part of a hin for a lamb. This is the burnt offering of every month throughout the months of the year.
 <sup>15</sup> Also, one male goat for a sin offering to Yahweh shall be offered in addition to the continual burnt offering and its drink offering.
 
-<sup>16</sup> “ ‘In the first month, on the fourteenth day of the month, is Yahweh’s Passover.
+<sup>16</sup> “‘In the first month, on the fourteenth day of the month, is Yahweh’s Passover.
 <sup>17</sup> On the fifteenth day of this month shall be a feast. Unleavened bread shall be eaten for seven days.
 <sup>18</sup> In the first day shall be a holy convocation. You shall do no regular work,
 <sup>19</sup> but you shall offer an offering made by fire, a burnt offering to Yahweh: two young bulls, one ram, and seven male lambs a year old. They shall be without defect,
@@ -1581,7 +1595,7 @@ These are those who came out of the land of Egypt.
 <sup>24</sup> In this way you shall offer daily, for seven days, the food of the offering made by fire, of a pleasant aroma to Yahweh. It shall be offered in addition to the continual burnt offering and its drink offering.
 <sup>25</sup> On the seventh day you shall have a holy convocation. You shall do no regular work.
 
-<sup>26</sup> “ ‘Also in the day of the first fruits, when you offer a new meal offering to Yahweh in your feast of weeks, you shall have a holy convocation. You shall do no regular work;
+<sup>26</sup> “‘Also in the day of the first fruits, when you offer a new meal offering to Yahweh in your feast of weeks, you shall have a holy convocation. You shall do no regular work;
 <sup>27</sup> but you shall offer a burnt offering for a pleasant aroma to Yahweh: two young bulls, one ram, seven male lambs a year old;
 <sup>28</sup> and their meal offering, fine flour mixed with oil, three tenths for each bull, two tenths for the one ram,
 <sup>29</sup> one tenth for every lamb of the seven lambs;
@@ -1596,55 +1610,55 @@ These are those who came out of the land of Egypt.
 
 ## Chapter 29
 
-<sup>1</sup> “ ‘In the seventh month, on the first day of the month, you shall have a holy convocation; you shall do no regular work. It is a day of blowing of trumpets to you.
+<sup>1</sup> “‘In the seventh month, on the first day of the month, you shall have a holy convocation; you shall do no regular work. It is a day of blowing of trumpets to you.
 <sup>2</sup> You shall offer a burnt offering for a pleasant aroma to Yahweh: one young bull, one ram, seven male lambs a year old without defect;
 <sup>3</sup> and their meal offering, fine flour mixed with oil: three tenths for the bull, two tenths for the ram,
 <sup>4</sup> and one tenth for every lamb of the seven lambs;
 <sup>5</sup> and one male goat for a sin offering, to make atonement for you;
 <sup>6</sup> in addition to the burnt offering of the new moon with its meal offering, and the continual burnt offering with its meal offering, and their drink offerings, according to their ordinance, for a pleasant aroma, an offering made by fire to Yahweh.
 
-<sup>7</sup> “ ‘On the tenth day of this seventh month you shall have a holy convocation. You shall afflict your souls. You shall do no kind of work;
+<sup>7</sup> “‘On the tenth day of this seventh month you shall have a holy convocation. You shall afflict your souls. You shall do no kind of work;
 <sup>8</sup> but you shall offer a burnt offering to Yahweh for a pleasant aroma: one young bull, one ram, seven male lambs a year old, all without defect;
 <sup>9</sup> and their meal offering, fine flour mixed with oil: three tenths for the bull, two tenths for the one ram,
 <sup>10</sup> one tenth for every lamb of the seven lambs;
 <sup>11</sup> one male goat for a sin offering, in addition to the sin offering of atonement, and the continual burnt offering, and its meal offering, and their drink offerings.
 
-<sup>12</sup> “ ‘On the fifteenth day of the seventh month you shall have a holy convocation. You shall do no regular work. You shall keep a feast to Yahweh seven days.
+<sup>12</sup> “‘On the fifteenth day of the seventh month you shall have a holy convocation. You shall do no regular work. You shall keep a feast to Yahweh seven days.
 <sup>13</sup> You shall offer a burnt offering, an offering made by fire, of a pleasant aroma to Yahweh: thirteen young bulls, two rams, fourteen male lambs a year old, all without defect;
 <sup>14</sup> and their meal offering, fine flour mixed with oil: three tenths for every bull of the thirteen bulls, two tenths for each ram of the two rams,
 <sup>15</sup> and one tenth for every lamb of the fourteen lambs;
 <sup>16</sup> and one male goat for a sin offering, in addition to the continual burnt offering, its meal offering, and its drink offering.
 
-<sup>17</sup> “ ‘On the second day you shall offer twelve young bulls, two rams, and fourteen male lambs a year old without defect;
+<sup>17</sup> “‘On the second day you shall offer twelve young bulls, two rams, and fourteen male lambs a year old without defect;
 <sup>18</sup> and their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance;
 <sup>19</sup> and one male goat for a sin offering, in addition to the continual burnt offering, with its meal offering and their drink offerings.
 
-<sup>20</sup> “ ‘On the third day: eleven bulls, two rams, fourteen male lambs a year old without defect;
+<sup>20</sup> “‘On the third day: eleven bulls, two rams, fourteen male lambs a year old without defect;
 <sup>21</sup> and their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance;
 <sup>22</sup> and one male goat for a sin offering, in addition to the continual burnt offering, and its meal offering, and its drink offering.
 
-<sup>23</sup> “ ‘On the fourth day ten bulls, two rams, fourteen male lambs a year old without defect;
+<sup>23</sup> “‘On the fourth day ten bulls, two rams, fourteen male lambs a year old without defect;
 <sup>24</sup> their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance;
 <sup>25</sup> and one male goat for a sin offering; in addition to the continual burnt offering, its meal offering, and its drink offering.
 
-<sup>26</sup> “ ‘On the fifth day: nine bulls, two rams, fourteen male lambs a year old without defect;
+<sup>26</sup> “‘On the fifth day: nine bulls, two rams, fourteen male lambs a year old without defect;
 <sup>27</sup> and their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance,
 <sup>28</sup> and one male goat for a sin offering, in addition to the continual burnt offering, and its meal offering, and its drink offering.
 
-<sup>29</sup> “ ‘On the sixth day: eight bulls, two rams, fourteen male lambs a year old without defect;
+<sup>29</sup> “‘On the sixth day: eight bulls, two rams, fourteen male lambs a year old without defect;
 <sup>30</sup> and their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance,
 <sup>31</sup> and one male goat for a sin offering; in addition to the continual burnt offering, its meal offering, and the drink offerings of it.
 
-<sup>32</sup> “ ‘On the seventh day: seven bulls, two rams, fourteen male lambs a year old without defect;
+<sup>32</sup> “‘On the seventh day: seven bulls, two rams, fourteen male lambs a year old without defect;
 <sup>33</sup> and their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance,
 <sup>34</sup> and one male goat for a sin offering; in addition to the continual burnt offering, its meal offering, and its drink offering.
 
-<sup>35</sup> “ ‘On the eighth day you shall have a solemn assembly. You shall do no regular work;
+<sup>35</sup> “‘On the eighth day you shall have a solemn assembly. You shall do no regular work;
 <sup>36</sup> but you shall offer a burnt offering, an offering made by fire, a pleasant aroma to Yahweh: one bull, one ram, seven male lambs a year old without defect;
 <sup>37</sup> their meal offering and their drink offerings for the bull, for the ram, and for the lambs, shall be according to their number, after the ordinance,
 <sup>38</sup> and one male goat for a sin offering, in addition to the continual burnt offering, with its meal offering, and its drink offering.
 
-<sup>39</sup> “ ‘You shall offer these to Yahweh in your set feasts—in addition to your vows and your free will offerings—for your burnt offerings, your meal offerings, your drink offerings, and your peace offerings.’ ”
+<sup>39</sup> “‘You shall offer these to Yahweh in your set feasts—in addition to your vows and your free will offerings—for your burnt offerings, your meal offerings, your drink offerings, and your peace offerings.’”
 
 <sup>40</sup> Moses told the children of Israel according to all that Yahweh commanded Moses.
 
@@ -1861,15 +1875,15 @@ These are those who came out of the land of Egypt.
 <sup>4</sup> Your border shall turn about southward of the ascent of Akrabbim, and pass along to Zin; and it shall pass southward of Kadesh Barnea; and it shall go from there to Hazar Addar, and pass along to Azmon.
 <sup>5</sup> The border shall turn about from Azmon to the brook of Egypt, and it shall end at the sea.
 
-<sup>6</sup> “ ‘For the western border, you shall have the great sea and its border. This shall be your west border.
+<sup>6</sup> “‘For the western border, you shall have the great sea and its border. This shall be your west border.
 
-<sup>7</sup> “ ‘This shall be your north border: from the great sea you shall mark out for yourselves Mount Hor.
+<sup>7</sup> “‘This shall be your north border: from the great sea you shall mark out for yourselves Mount Hor.
 <sup>8</sup> From Mount Hor you shall mark out to the entrance of Hamath; and the border shall pass by Zedad.
 <sup>9</sup> Then the border shall go to Ziphron, and it shall end at Hazar Enan. This shall be your north border.
 
-<sup>10</sup> “ ‘You shall mark out your east border from Hazar Enan to Shepham.
+<sup>10</sup> “‘You shall mark out your east border from Hazar Enan to Shepham.
 <sup>11</sup> The border shall go down from Shepham to Riblah, on the east side of Ain. The border shall go down, and shall reach to the side of the sea of Chinnereth eastward.
-<sup>12</sup> The border shall go down to the Jordan, and end at the Salt Sea. This shall be your land according to its borders around it.’ ”
+<sup>12</sup> The border shall go down to the Jordan, and end at the Salt Sea. This shall be your land according to its borders around it.’”
 
 <sup>13</sup> Moses commanded the children of Israel, saying, “This is the land which you shall inherit by lot, which Yahweh has commanded to give to the nine tribes, and to the half-tribe;
 <sup>14</sup> for the tribe of the children of Reuben according to their fathers’ houses, the tribe of the children of Gad according to their fathers’ houses, and the half-tribe of Manasseh have received their inheritance.
@@ -1910,32 +1924,32 @@ These are those who came out of the land of Egypt.
 <sup>14</sup> You shall give three cities beyond the Jordan, and you shall give three cities in the land of Canaan. They shall be cities of refuge.
 <sup>15</sup> These six cities shall be refuge for the children of Israel, for the stranger, and for the foreigner living among them, that everyone who kills any person unwittingly may flee there.
 
-<sup>16</sup> “ ‘But if he struck him with an instrument of iron, so that he died, he is a murderer. The murderer shall surely be put to death.
+<sup>16</sup> “‘But if he struck him with an instrument of iron, so that he died, he is a murderer. The murderer shall surely be put to death.
 <sup>17</sup> If he struck him with a stone in the hand, by which a man may die, and he died, he is a murderer. The murderer shall surely be put to death.
 <sup>18</sup> Or if he struck him with a weapon of wood in the hand, by which a man may die, and he died, he is a murderer. The murderer shall surely be put to death.
 <sup>19</sup> The avenger of blood shall himself put the murderer to death. When he meets him, he shall put him to death.
 <sup>20</sup> If he shoved him out of hatred, or hurled something at him while lying in wait, so that he died,
 <sup>21</sup> or in hostility struck him with his hand, so that he died, he who struck him shall surely be put to death. He is a murderer. The avenger of blood shall put the murderer to death when he meets him.
 
-<sup>22</sup> “ ‘But if he shoved him suddenly without hostility, or hurled on him anything without lying in wait,
+<sup>22</sup> “‘But if he shoved him suddenly without hostility, or hurled on him anything without lying in wait,
 <sup>23</sup> or with any stone, by which a man may die, not seeing him, and cast it on him so that he died, and he was not his enemy and not seeking his harm,
 <sup>24</sup> then the congregation shall judge between the striker and the avenger of blood according to these ordinances.
 <sup>25</sup> The congregation shall deliver the man slayer out of the hand of the avenger of blood, and the congregation shall restore him to his city of refuge, where he had fled. He shall dwell therein until the death of the high priest, who was anointed with the holy oil.
 
-<sup>26</sup> “ ‘But if the man slayer shall at any time go beyond the border of his city of refuge where he flees,
+<sup>26</sup> “‘But if the man slayer shall at any time go beyond the border of his city of refuge where he flees,
 <sup>27</sup> and the avenger of blood finds him outside of the border of his city of refuge, and the avenger of blood kills the man slayer, he shall not be guilty of blood,
 <sup>28</sup> because he should have remained in his city of refuge until the death of the high priest. But after the death of the high priest, the man slayer shall return into the land of his possession.
 
-<sup>29</sup> “ ‘These things shall be for a statute and ordinance to you throughout your generations in all your dwellings.
+<sup>29</sup> “‘These things shall be for a statute and ordinance to you throughout your generations in all your dwellings.
 
-<sup>30</sup> “ ‘Whoever kills any person, the murderer shall be slain based on the testimony of witnesses; but one witness shall not testify alone against any person so that he dies.
+<sup>30</sup> “‘Whoever kills any person, the murderer shall be slain based on the testimony of witnesses; but one witness shall not testify alone against any person so that he dies.
 
-<sup>31</sup> “ ‘Moreover you shall take no ransom for the life of a murderer who is guilty of death. He shall surely be put to death.
+<sup>31</sup> “‘Moreover you shall take no ransom for the life of a murderer who is guilty of death. He shall surely be put to death.
 
-<sup>32</sup> “ ‘You shall take no ransom for him who has fled to his city of refuge, that he may come again to dwell in the land before the death of the priest.
+<sup>32</sup> “‘You shall take no ransom for him who has fled to his city of refuge, that he may come again to dwell in the land before the death of the priest.
 
-<sup>33</sup> “ ‘So you shall not pollute the land where you live; for blood pollutes the land. No atonement can be made for the land for the blood that is shed in it, but by the blood of him who shed it.
-<sup>34</sup> You shall not defile the land which you inhabit, where I dwell; for I, Yahweh, dwell among the children of Israel.’ ”
+<sup>33</sup> “‘So you shall not pollute the land where you live; for blood pollutes the land. No atonement can be made for the land for the blood that is shed in it, but by the blood of him who shed it.
+<sup>34</sup> You shall not defile the land which you inhabit, where I dwell; for I, Yahweh, dwell among the children of Israel.’”
 
 > - <sup>a</sup> 4. A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters.
 
@@ -1950,7 +1964,7 @@ These are those who came out of the land of Egypt.
 <sup>6</sup> This is the thing which Yahweh commands concerning the daughters of Zelophehad, saying, ‘Let them be married to whom they think best, only they shall marry into the family of the tribe of their father.
 <sup>7</sup> So shall no inheritance of the children of Israel move from tribe to tribe; for the children of Israel shall all keep the inheritance of the tribe of his fathers.
 <sup>8</sup> Every daughter who possesses an inheritance in any tribe of the children of Israel shall be wife to one of the family of the tribe of her father, that the children of Israel may each possess the inheritance of his fathers.
-<sup>9</sup> So shall no inheritance move from one tribe to another tribe; for the tribes of the children of Israel shall each keep his own inheritance.’ ”
+<sup>9</sup> So shall no inheritance move from one tribe to another tribe; for the tribes of the children of Israel shall each keep his own inheritance.’”
 
 <sup>10</sup> The daughters of Zelophehad did as Yahweh commanded Moses:
 <sup>11</sup> for Mahlah, Tirzah, Hoglah, Milcah, and Noah, the daughters of Zelophehad, were married to their father’s brothers’ sons.

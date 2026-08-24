@@ -214,45 +214,81 @@ All the assembly said, “Amen,” and praised Yahweh. The people did according 
 <sup>7</sup> who came with Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, Bilshan, Mispereth, Bigvai, Nehum, and Baanah.
 
 The number of the men of the people of Israel:
+
 <sup>8</sup> The children of Parosh: two thousand one hundred seventy-two.
+
 <sup>9</sup> The children of Shephatiah: three hundred seventy-two.
+
 <sup>10</sup> The children of Arah: six hundred fifty-two.
+
 <sup>11</sup> The children of Pahathmoab, of the children of Jeshua and Joab: two thousand eight hundred eighteen.
+
 <sup>12</sup> The children of Elam: one thousand two hundred fifty-four.
+
 <sup>13</sup> The children of Zattu: eight hundred forty-five.
+
 <sup>14</sup> The children of Zaccai: seven hundred sixty.
+
 <sup>15</sup> The children of Binnui: six hundred forty-eight.
+
 <sup>16</sup> The children of Bebai: six hundred twenty-eight.
+
 <sup>17</sup> The children of Azgad: two thousand three hundred twenty-two.
+
 <sup>18</sup> The children of Adonikam: six hundred sixty-seven.
+
 <sup>19</sup> The children of Bigvai: two thousand sixty-seven.
+
 <sup>20</sup> The children of Adin: six hundred fifty-five.
+
 <sup>21</sup> The children of Ater: of Hezekiah, ninety-eight.
+
 <sup>22</sup> The children of Hashum: three hundred twenty-eight.
+
 <sup>23</sup> The children of Bezai: three hundred twenty-four.
+
 <sup>24</sup> The children of Hariph: one hundred twelve.
+
 <sup>25</sup> The children of Gibeon: ninety-five.
+
 <sup>26</sup> The men of Bethlehem and Netophah: one hundred eighty-eight.
+
 <sup>27</sup> The men of Anathoth: one hundred twenty-eight.
+
 <sup>28</sup> The men of Beth Azmaveth: forty-two.
+
 <sup>29</sup> The men of Kiriath Jearim, Chephirah, and Beeroth: seven hundred forty-three.
+
 <sup>30</sup> The men of Ramah and Geba: six hundred twenty-one.
+
 <sup>31</sup> The men of Michmas: one hundred twenty-two.
+
 <sup>32</sup> The men of Bethel and Ai: one hundred twenty-three.
+
 <sup>33</sup> The men of the other Nebo: fifty-two.
+
 <sup>34</sup> The children of the other Elam: one thousand two hundred fifty-four.
+
 <sup>35</sup> The children of Harim: three hundred twenty.
+
 <sup>36</sup> The children of Jericho: three hundred forty-five.
+
 <sup>37</sup> The children of Lod, Hadid, and Ono: seven hundred twenty-one.
+
 <sup>38</sup> The children of Senaah: three thousand nine hundred thirty.
 
 <sup>39</sup> The priests: The children of Jedaiah, of the house of Jeshua: nine hundred seventy-three.
+
 <sup>40</sup> The children of Immer: one thousand fifty-two.
+
 <sup>41</sup> The children of Pashhur: one thousand two hundred forty-seven.
+
 <sup>42</sup> The children of Harim: one thousand seventeen.
 
 <sup>43</sup> The Levites: the children of Jeshua, of Kadmiel, of the children of Hodevah: seventy-four.
+
 <sup>44</sup> The singers: the children of Asaph: one hundred forty-eight.
+
 <sup>45</sup> The gatekeepers: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai: one hundred thirty-eight.
 
 <sup>46</sup> The temple servants: the children of Ziha, the children of Hasupha, the children of Tabbaoth,
@@ -273,7 +309,9 @@ The number of the men of the people of Israel:
 <sup>60</sup> All the temple servants and the children of Solomon’s servants were three hundred ninety-two.
 
 <sup>61</sup> These were those who went up from Tel Melah, Tel Harsha, Cherub, Addon, and Immer; but they could not show their fathers’ houses, nor their offspring,<sup>a</sup> whether they were of Israel:
+
 <sup>62</sup> The children of Delaiah, the children of Tobiah, the children of Nekoda: six hundred forty-two.
+
 <sup>63</sup> Of the priests: the children of Hobaiah, the children of Hakkoz, the children of Barzillai, who took a wife of the daughters of Barzillai the Gileadite, and was called after their name.
 
 <sup>64</sup> These searched for their genealogical records, but couldn’t find them. Therefore they were deemed disqualified and removed from the priesthood.
@@ -293,7 +331,7 @@ The number of the men of the people of Israel:
 When the seventh month had come, the children of Israel were in their cities.
 
 > - <sup>a</sup> 61. or, seed
-> - <sup>b</sup> 70. a daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each.
+> - <sup>b</sup> 70. A daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each.
 > - <sup>c</sup> 71. A mina is about 600 grams or 1.3 U. S. pounds, so 2,200 minas is about 1.3 metric tons.
 
 ## Chapter 8
@@ -535,7 +573,7 @@ All the people answered, “Amen, Amen,” with the lifting up of their hands. T
 <sup>3</sup> It came to pass, when they had heard the law, that they separated all the mixed multitude from Israel.
 
 <sup>4</sup> Now before this, Eliashib the priest, who was appointed over the rooms of the house of our God, being allied to Tobiah,
-<sup>5</sup> had prepared for him a great room, where before they laid the meal offerings, the frankincense, the vessels, and the tithes of the grain, the new wine, and the oil, which were given by commandment to the Levites, the singers, and the gatekeepers; and the wave offerings for the priests.
+<sup>5</sup> had prepared for him a great room, where previously they laid the meal offerings, the frankincense, the vessels, and the tithes of the grain, the new wine, and the oil, which were given by commandment to the Levites, the singers, and the gatekeepers; and the wave offerings for the priests.
 <sup>6</sup> But in all this, I was not at Jerusalem; for in the thirty-second year of Artaxerxes king of Babylon I went to the king; and after some days I asked leave of the king,
 <sup>7</sup> and I came to Jerusalem, and understood the evil that Eliashib had done for Tobiah, in preparing him a room in the courts of God’s house.
 <sup>8</sup> It grieved me severely. Therefore I threw all Tobiah’s household stuff out of the room.

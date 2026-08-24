@@ -1,5 +1,7 @@
 ## Chapter 1
 
+### BOOK ONE (Psalms 1–41)
+
 <sup>1</sup> Blessed is the man who doesn’t walk in the counsel of the wicked,<br>nor stand on the path of sinners,<br>nor sit in the seat of scoffers;<br>
 <sup>2</sup> but his delight is in Yahweh’s<sup>a</sup> law.<br>On his law he meditates day and night.<br>
 <sup>3</sup> He will be like a tree planted by the streams of water,<br>that produces its fruit in its season,<br>whose leaf also does not wither.<br>Whatever he does shall prosper.<br>
@@ -33,15 +35,13 @@
 > _A Psalm by David, when he fled from Absalom his son._
 
 <sup>1</sup> Yahweh, how my adversaries have increased!<br>Many are those who rise up against me.<br>
-<sup>2</sup> Many there are who say of my soul,<br>“There is no help for him in God.”<sup>a</sup><br>Selah.
-
+<sup>2</sup> Many there are who say of my soul,<br>“There is no help for him in God.”<sup>a</sup> _Selah._<br>
 <sup>3</sup> But you, Yahweh, are a shield around me,<br>my glory, and the one who lifts up my head.<br>
-<sup>4</sup> I cry to Yahweh with my voice,<br>and he answers me out of his holy hill.<br>Selah.
-
+<sup>4</sup> I cry to Yahweh with my voice,<br>and he answers me out of his holy hill. _Selah._<br>
 <sup>5</sup> I laid myself down and slept.<br>I awakened, for Yahweh sustains me.<br>
 <sup>6</sup> I will not be afraid of tens of thousands of people<br>who have set themselves against me on every side.<br>
 <sup>7</sup> Arise, Yahweh!<br>Save me, my God!<br>For you have struck all of my enemies on the cheek bone.<br>You have broken the teeth of the wicked.<br>
-<sup>8</sup> Salvation belongs to Yahweh.<br>May your blessing be on your people.<br>Selah.
+<sup>8</sup> Salvation belongs to Yahweh.<br>May your blessing be on your people. _Selah._
 
 > - <sup>a</sup> 2. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
@@ -50,11 +50,9 @@
 > _For the Chief Musician; on stringed instruments. A Psalm by David._
 
 <sup>1</sup> Answer me when I call, God of my righteousness.<br>Give me relief from my distress.<br>Have mercy on me, and hear my prayer.<br>
-<sup>2</sup> You sons of men, how long shall my glory be turned into dishonor?<br>Will you love vanity and seek after falsehood?<br>Selah.
-
+<sup>2</sup> You sons of men, how long shall my glory be turned into dishonor?<br>Will you love vanity and seek after falsehood? _Selah._<br>
 <sup>3</sup> But know that Yahweh has set apart for himself him who is godly;<br>Yahweh will hear when I call to him.<br>
-<sup>4</sup> Stand in awe, and don’t sin.<br>Search your own heart on your bed, and be still.<br>Selah.
-
+<sup>4</sup> Stand in awe, and don’t sin.<br>Search your own heart on your bed, and be still. _Selah._<br>
 <sup>5</sup> Offer the sacrifices of righteousness.<br>Put your trust in Yahweh.<br>
 <sup>6</sup> Many say, “Who will show us any good?”<br>Yahweh, let the light of your face shine on us.<br>
 <sup>7</sup> You have put gladness in my heart,<br>more than when their grain and their new wine are increased.<br>
@@ -101,9 +99,8 @@
 <sup>1</sup> Yahweh, my God, I take refuge in you.<br>Save me from all those who pursue me, and deliver me,<br>
 <sup>2</sup> lest they tear apart my soul like a lion,<br>ripping it in pieces, while there is no one to deliver.<br>
 <sup>3</sup> Yahweh, my God, if I have done this,<br>if there is iniquity in my hands,<br>
-<sup>4</sup> if I have rewarded evil to him who was at peace with me<br>(yes, I have delivered him who without cause was my adversary),<br>
-<sup>5</sup> let the enemy pursue my soul, and overtake it;<br>yes, let him tread my life down to the earth,<br>and lay my glory in the dust.<br>Selah.
-
+<sup>4</sup> if I have rewarded evil to him who was at peace with me<br>(yes, I have plundered him who without cause was my adversary),<br>
+<sup>5</sup> let the enemy pursue my soul, and overtake it;<br>yes, let him tread my life down to the earth,<br>and lay my glory in the dust. _Selah._<br>
 <sup>6</sup> Arise, Yahweh, in your anger.<br>Lift up yourself against the rage of my adversaries.<br>Awake for me. You have commanded judgment.<br>
 <sup>7</sup> Let the congregation of the peoples surround you.<br>Rule over them on high.<br>
 <sup>8</sup> Yahweh administers judgment to the peoples.<br>Judge me, Yahweh, according to my righteousness,<br>and to my integrity that is in me.<br>
@@ -154,12 +151,11 @@
 <sup>13</sup> Have mercy on me, Yahweh.<br>See my affliction by those who hate me,<br>and lift me up from the gates of death,<br>
 <sup>14</sup> that I may show all of your praise.<br>I will rejoice in your salvation in the gates of the daughter of Zion.<br>
 <sup>15</sup> The nations have sunk down in the pit that they made.<br>In the net which they hid, their own foot is taken.<br>
-<sup>16</sup> Yahweh has made himself known.<br>He has executed judgment.<br>The wicked is snared by the work of his own hands.<br>Meditation. Selah.
-
+<sup>16</sup> Yahweh has made himself known.<br>He has executed judgment.<br>The wicked is snared by the work of his own hands. _Meditation. Selah._<br>
 <sup>17</sup> The wicked shall be turned back to Sheol,<sup>a</sup><br>even all the nations that forget God.<br>
 <sup>18</sup> For the needy shall not always be forgotten,<br>nor the hope of the poor perish forever.<br>
 <sup>19</sup> Arise, Yahweh! Don’t let man prevail.<br>Let the nations be judged in your sight.<br>
-<sup>20</sup> Put them in fear, Yahweh.<br>Let the nations know that they are only men.<br>Selah.
+<sup>20</sup> Put them in fear, Yahweh.<br>Let the nations know that they are only men. _Selah._
 
 > - <sup>a</sup> 17. Sheol is the place of the dead.
 
@@ -252,7 +248,7 @@ He who does these things shall never be shaken.
 
 <sup>1</sup> Preserve me, God, for I take refuge in you.<br>
 <sup>2</sup> My soul, you have said to Yahweh, “You are my Lord.<br>Apart from you I have no good thing.”<br>
-<sup>3</sup> As for the saints who are in the earth,<br>they are the excellent ones in whom is all my delight.
+<sup>3</sup> As for the saints who are on the earth,<br>they are the excellent ones in whom is all my delight.
 
 <sup>4</sup> Their sorrows shall be multiplied who give gifts to another god.<br>Their drink offerings of blood I will not offer,<br>nor take their names on my lips.<br>
 <sup>5</sup> Yahweh assigned my portion and my cup.<br>You made my lot secure.
@@ -371,8 +367,7 @@ He who does these things shall never be shaken.
 
 <sup>1</sup> May Yahweh answer you in the day of trouble.<br>May the name of the God of Jacob set you up on high,<br>
 <sup>2</sup> send you help from the sanctuary,<br>grant you support from Zion,<br>
-<sup>3</sup> remember all your offerings,<br>and accept your burned sacrifice.<br>Selah.
-
+<sup>3</sup> remember all your offerings,<br>and accept your burned sacrifice. _Selah._<br>
 <sup>4</sup> May he grant you your heart’s desire,<br>and fulfill all your counsel.<br>
 <sup>5</sup> We will triumph in your salvation.<br>In the name of our God, we will set up our banners.<br>May Yahweh grant all your requests.<br>
 <sup>6</sup> Now I know that Yahweh saves his anointed.<br>He will answer him from his holy heaven,<br>with the saving strength of his right hand.<br>
@@ -385,8 +380,7 @@ He who does these things shall never be shaken.
 > _For the Chief Musician. A Psalm by David._
 
 <sup>1</sup> The king rejoices in your strength, Yahweh!<br>How greatly he rejoices in your salvation!<br>
-<sup>2</sup> You have given him his heart’s desire,<br>and have not withheld the request of his lips.<br>Selah.
-
+<sup>2</sup> You have given him his heart’s desire,<br>and have not withheld the request of his lips. _Selah._<br>
 <sup>3</sup> For you meet him with the blessings of goodness.<br>You set a crown of fine gold on his head.<br>
 <sup>4</sup> He asked life of you and you gave it to him,<br>even length of days forever and ever.<br>
 <sup>5</sup> His glory is great in your salvation.<br>You lay honor and majesty on him.<br>
@@ -461,12 +455,12 @@ He who does these things shall never be shaken.
 <sup>3</sup> Who may ascend to Yahweh’s hill?<br>Who may stand in his holy place?<br>
 <sup>4</sup> He who has clean hands and a pure heart;<br>who has not lifted up his soul to falsehood,<br>and has not sworn deceitfully.<br>
 <sup>5</sup> He shall receive a blessing from Yahweh,<br>righteousness from the God of his salvation.<br>
-<sup>6</sup> This is the generation of those who seek Him,<br>who seek your face—even Jacob.<br>Selah.
+<sup>6</sup> This is the generation of those who seek Him,<br>who seek your face—even Jacob. _Selah._
 
 <sup>7</sup> Lift up your heads, you gates!<br>Be lifted up, you everlasting doors,<br>and the King of glory will come in.<br>
 <sup>8</sup> Who is the King of glory?<br>Yahweh strong and mighty,<br>Yahweh mighty in battle.<br>
 <sup>9</sup> Lift up your heads, you gates;<br>yes, lift them up, you everlasting doors,<br>and the King of glory will come in.<br>
-<sup>10</sup> Who is this King of glory?<br>Yahweh of Armies is the King of glory!<br>Selah.
+<sup>10</sup> Who is this King of glory?<br>Yahweh of Armies is the King of glory! _Selah._
 
 ## Chapter 25
 
@@ -625,13 +619,10 @@ He who does these things shall never be shaken.
 <sup>1</sup> Blessed is he whose disobedience is forgiven,<br>whose sin is covered.<br>
 <sup>2</sup> Blessed is the man to whom Yahweh doesn’t impute iniquity,<br>in whose spirit there is no deceit.<br>
 <sup>3</sup> When I kept silence, my bones wasted away through my groaning all day long.<br>
-<sup>4</sup> For day and night your hand was heavy on me.<br>My strength was sapped in the heat of summer.<br>Selah.
-
-<sup>5</sup> I acknowledged my sin to you.<br>I didn’t hide my iniquity.<br>I said, I will confess my transgressions to Yahweh,<br>and you forgave the iniquity of my sin.<br>Selah.
-
+<sup>4</sup> For day and night your hand was heavy on me.<br>My strength was sapped in the heat of summer. _Selah._<br>
+<sup>5</sup> I acknowledged my sin to you.<br>I didn’t hide my iniquity.<br>I said, I will confess my transgressions to Yahweh,<br>and you forgave the iniquity of my sin. _Selah._<br>
 <sup>6</sup> For this, let everyone who is godly pray to you in a time when you may be found.<br>Surely when the great waters overflow, they shall not reach to him.<br>
-<sup>7</sup> You are my hiding place.<br>You will preserve me from trouble.<br>You will surround me with songs of deliverance.<br>Selah.
-
+<sup>7</sup> You are my hiding place.<br>You will preserve me from trouble.<br>You will surround me with songs of deliverance. _Selah._<br>
 <sup>8</sup> I will instruct you and teach you in the way which you shall go.<br>I will counsel you with my eye on you.<br>
 <sup>9</sup> Don’t be like the horse, or like the mule, which have no understanding,<br>who are controlled by bit and bridle, or else they will not come near to you.<br>
 <sup>10</sup> Many sorrows come to the wicked,<br>but loving kindness shall surround him who trusts in Yahweh.<br>
@@ -666,7 +657,7 @@ He who does these things shall never be shaken.
 
 > _By David; when he pretended to be insane before Abimelech, who drove him away, and he departed._
 
-<sup>1</sup> <sup>a</sup> I will bless Yahweh at all times.<br>His praise will always be in my mouth.<br>
+<sup>1</sup> <sup>a</sup>I will bless Yahweh at all times.<br>His praise will always be in my mouth.<br>
 <sup>2</sup> My soul shall boast in Yahweh.<br>The humble shall hear of it and be glad.<br>
 <sup>3</sup> Oh magnify Yahweh with me.<br>Let’s exalt his name together.<br>
 <sup>4</sup> I sought Yahweh, and he answered me,<br>and delivered me from all my fears.<br>
@@ -817,7 +808,7 @@ He who does these things shall never be shaken.
 <sup>17</sup> For I am ready to fall.<br>My pain is continually before me.<br>
 <sup>18</sup> For I will declare my iniquity.<br>I will be sorry for my sin.<br>
 <sup>19</sup> But my enemies are vigorous and many.<br>Those who hate me without reason are numerous.<br>
-<sup>20</sup> They who render evil for good are also adversaries to me,<br>because I follow what is good.<br>
+<sup>20</sup> They who give evil for good are also adversaries to me,<br>because I follow what is good.<br>
 <sup>21</sup> Don’t forsake me, Yahweh.<br>My God, don’t be far from me.<br>
 <sup>22</sup> Hurry to help me,<br>Lord, my salvation.
 
@@ -829,15 +820,13 @@ He who does these things shall never be shaken.
 <sup>2</sup> I was mute with silence.<br>I held my peace, even from good.<br>My sorrow was stirred.<br>
 <sup>3</sup> My heart was hot within me.<br>While I meditated, the fire burned.<br>I spoke with my tongue:<br>
 <sup>4</sup> “Yahweh, show me my end,<br>what is the measure of my days.<br>Let me know how frail I am.<br>
-<sup>5</sup> Behold, you have made my days hand widths.<br>My lifetime is as nothing before you.<br>Surely every man stands as a breath.”<br>Selah.
-
+<sup>5</sup> Behold, you have made my days hand widths.<br>My lifetime is as nothing before you.<br>Surely every man stands as a breath.” _Selah._<br>
 <sup>6</sup> “Surely every man walks like a shadow.<br>Surely they busy themselves in vain.<br>He heaps up, and doesn’t know who shall gather.<br>
 <sup>7</sup> Now, Lord, what do I wait for?<br>My hope is in you.<br>
 <sup>8</sup> Deliver me from all my transgressions.<br>Don’t make me the reproach of the foolish.<br>
 <sup>9</sup> I was mute.<br>I didn’t open my mouth,<br>because you did it.<br>
 <sup>10</sup> Remove your scourge away from me.<br>I am overcome by the blow of your hand.<br>
-<sup>11</sup> When you rebuke and correct man for iniquity,<br>you consume his wealth like a moth.<br>Surely every man is but a breath.”<br>Selah.
-
+<sup>11</sup> When you rebuke and correct man for iniquity,<br>you consume his wealth like a moth.<br>Surely every man is but a breath.” _Selah._<br>
 <sup>12</sup> “Hear my prayer, Yahweh, and give ear to my cry.<br>Don’t be silent at my tears.<br>For I am a stranger with you,<br>a foreigner, as all my fathers were.<br>
 <sup>13</sup> Oh spare me, that I may recover strength,<br>before I go away and exist no more.”
 
@@ -885,9 +874,11 @@ He who does these things shall never be shaken.
 
 ## Chapter 42
 
-> _For the Chief Musician. A contemplation by the sons of Korah._
+### BOOK TWO (Psalms 42–72)
 
-<sup>1</sup> As the deer pants for the water brooks,<br>so my soul pants after you, God.<sup>a</sup><br>
+<sup>1</sup> > _For the Chief Musician. A contemplation by the sons of Korah._
+
+As the deer pants for the water brooks,<br>so my soul pants after you, God.<sup>a</sup><br>
 <sup>2</sup> My soul thirsts for God, for the living God.<br>When shall I come and appear before God?<br>
 <sup>3</sup> My tears have been my food day and night,<br>while they continually ask me, “Where is your God?”<br>
 <sup>4</sup> These things I remember, and pour out my soul within me,<br>how I used to go with the crowd, and led them to God’s house,<br>with the voice of joy and praise, a multitude keeping a holy day.<br>
@@ -922,7 +913,7 @@ He who does these things shall never be shaken.
 <sup>5</sup> Through you, we will push down our adversaries.<br>Through your name, we will tread down those who rise up against us.<br>
 <sup>6</sup> For I will not trust in my bow,<br>neither will my sword save me.<br>
 <sup>7</sup> But you have saved us from our adversaries,<br>and have shamed those who hate us.<br>
-<sup>8</sup> In God we have made our boast all day long.<br>We will give thanks to your name forever.<br>Selah.
+<sup>8</sup> In God we have made our boast all day long.<br>We will give thanks to your name forever. _Selah._
 
 <sup>9</sup> But now you rejected us, and brought us to dishonor,<br>and don’t go out with our armies.<br>
 <sup>10</sup> You make us turn back from the adversary.<br>Those who hate us take plunder for themselves.<br>
@@ -973,17 +964,17 @@ He who does these things shall never be shaken.
 
 <sup>1</sup> God is our refuge and strength,<br>a very present help in trouble.<br>
 <sup>2</sup> Therefore we won’t be afraid, though the earth changes,<br>though the mountains are shaken into the heart of the seas;<br>
-<sup>3</sup> though its waters roar and are troubled,<br>though the mountains tremble with their swelling.<br>Selah.
+<sup>3</sup> though its waters roar and are troubled,<br>though the mountains tremble with their swelling. _Selah._
 
 <sup>4</sup> There is a river, the streams of which make the city of God glad,<br>the holy place of the tents of the Most High.<br>
 <sup>5</sup> God is within her. She shall not be moved.<br>God will help her at dawn.<br>
 <sup>6</sup> The nations raged. The kingdoms were moved.<br>He lifted his voice and the earth melted.<br>
-<sup>7</sup> Yahweh of Armies is with us.<br>The God of Jacob is our refuge.<br>Selah.
+<sup>7</sup> Yahweh of Armies is with us.<br>The God of Jacob is our refuge. _Selah._
 
-<sup>8</sup> Come, see Yahweh’s works,<br>what desolations he has made in the earth.<br>
+<sup>8</sup> Come, see Yahweh’s works,<br>what desolations he has made on the earth.<br>
 <sup>9</sup> He makes wars cease to the end of the earth.<br>He breaks the bow, and shatters the spear.<br>He burns the chariots in the fire.<br>
-<sup>10</sup> “Be still, and know that I am God.<br>I will be exalted among the nations.<br>I will be exalted in the earth.”<br>
-<sup>11</sup> Yahweh of Armies is with us.<br>The God of Jacob is our refuge.<br>Selah.
+<sup>10</sup> “Be still, and know that I am God.<br>I will be exalted among the nations.<br>I will be exalted on the earth.”<br>
+<sup>11</sup> Yahweh of Armies is with us.<br>The God of Jacob is our refuge. _Selah._
 
 > - <sup>a</sup> Subtitle. Alamoth is a musical term.
 
@@ -994,8 +985,7 @@ He who does these things shall never be shaken.
 <sup>1</sup> Oh clap your hands, all you nations.<br>Shout to God with the voice of triumph!<br>
 <sup>2</sup> For Yahweh Most High is awesome.<br>He is a great King over all the earth.<br>
 <sup>3</sup> He subdues nations under us,<br>and peoples under our feet.<br>
-<sup>4</sup> He chooses our inheritance for us,<br>the glory of Jacob whom he loved.<br>Selah.
-
+<sup>4</sup> He chooses our inheritance for us,<br>the glory of Jacob whom he loved. _Selah._<br>
 <sup>5</sup> God has gone up with a shout,<br>Yahweh with the sound of a trumpet.<br>
 <sup>6</sup> Sing praises to God! Sing praises!<br>Sing praises to our King! Sing praises!<br>
 <sup>7</sup> For God is the King of all the earth.<br>Sing praises with understanding.<br>
@@ -1013,8 +1003,7 @@ He who does these things shall never be shaken.
 <sup>5</sup> They saw it, then they were amazed.<br>They were dismayed.<br>They hurried away.<br>
 <sup>6</sup> Trembling took hold of them there,<br>pain, as of a woman in travail.<br>
 <sup>7</sup> With the east wind, you break the ships of Tarshish.<br>
-<sup>8</sup> As we have heard, so we have seen,<br>in the city of Yahweh of Armies, in the city of our God.<br>God will establish it forever.<br>Selah.
-
+<sup>8</sup> As we have heard, so we have seen,<br>in the city of Yahweh of Armies, in the city of our God.<br>God will establish it forever. _Selah._<br>
 <sup>9</sup> We have thought about your loving kindness, God,<br>in the middle of your temple.<br>
 <sup>10</sup> As is your name, God,<br>so is your praise to the ends of the earth.<br>Your right hand is full of righteousness.<br>
 <sup>11</sup> Let Mount Zion be glad!<br>Let the daughters of Judah rejoice because of your judgments.<br>
@@ -1039,11 +1028,9 @@ He who does these things shall never be shaken.
 <sup>11</sup> Their inward thought is that their houses will endure forever,<br>and their dwelling places to all generations.<br>They name their lands after themselves.<br>
 <sup>12</sup> But man, despite his riches, doesn’t endure.<br>He is like the animals that perish.
 
-<sup>13</sup> This is the destiny of those who are foolish,<br>and of those who approve their sayings.<br>Selah.
-
+<sup>13</sup> This is the destiny of those who are foolish,<br>and of those who approve their sayings. _Selah._<br>
 <sup>14</sup> They are appointed as a flock for Sheol.<sup>a</sup><br>Death shall be their shepherd.<br>The upright shall have dominion over them in the morning.<br>Their beauty shall decay in Sheol,<sup>b</sup><br>far from their mansion.<br>
-<sup>15</sup> But God will redeem my soul from the power of Sheol,<sup>c</sup><br>for he will receive me.<br>Selah.
-
+<sup>15</sup> But God will redeem my soul from the power of Sheol,<sup>c</sup><br>for he will receive me. _Selah._<br>
 <sup>16</sup> Don’t be afraid when a man is made rich,<br>when the glory of his house is increased;<br>
 <sup>17</sup> for when he dies he will carry nothing away.<br>His glory won’t descend after him.<br>
 <sup>18</sup> Though while he lived he blessed his soul—<br>and men praise you when you do well for yourself—<br>
@@ -1063,8 +1050,7 @@ He who does these things shall never be shaken.
 <sup>3</sup> Our God comes, and does not keep silent.<br>A fire devours before him.<br>It is very stormy around him.<br>
 <sup>4</sup> He calls to the heavens above,<br>to the earth, that he may judge his people:<br>
 <sup>5</sup> “Gather my saints together to me,<br>those who have made a covenant with me by sacrifice.”<br>
-<sup>6</sup> The heavens shall declare his righteousness,<br>for God himself is judge.<br>Selah.
-
+<sup>6</sup> The heavens shall declare his righteousness,<br>for God himself is judge. _Selah._<br>
 <sup>7</sup> “Hear, my people, and I will speak.<br>Israel, I will testify against you.<br>I am God, your God.<br>
 <sup>8</sup> I don’t rebuke you for your sacrifices.<br>Your burnt offerings are continually before me.<br>
 <sup>9</sup> I have no need for a bull from your stall,<br>nor male goats from your pens.<br>
@@ -1117,11 +1103,9 @@ He who does these things shall never be shaken.
 
 <sup>1</sup> Why do you boast of mischief, mighty man?<br>God’s loving kindness endures continually.<br>
 <sup>2</sup> Your tongue plots destruction,<br>like a sharp razor, working deceitfully.<br>
-<sup>3</sup> You love evil more than good,<br>lying rather than speaking the truth.<br>Selah.
-
+<sup>3</sup> You love evil more than good,<br>lying rather than speaking the truth. _Selah._<br>
 <sup>4</sup> You love all devouring words,<br>you deceitful tongue.<br>
-<sup>5</sup> God will likewise destroy you forever.<br>He will take you up, and pluck you out of your tent,<br>and root you out of the land of the living.<br>Selah.
-
+<sup>5</sup> God will likewise destroy you forever.<br>He will take you up, and pluck you out of your tent,<br>and root you out of the land of the living. _Selah._<br>
 <sup>6</sup> The righteous also will see it, and fear,<br>and laugh at him, saying,<br>
 <sup>7</sup> “Behold, this is the man who didn’t make God his strength,<br>but trusted in the abundance of his riches,<br>and strengthened himself in his wickedness.”<br>
 <sup>8</sup> But as for me, I am like a green olive tree in God’s house.<br>I trust in God’s loving kindness forever and ever.<br>
@@ -1144,8 +1128,7 @@ He who does these things shall never be shaken.
 
 <sup>1</sup> Save me, God, by your name.<br>Vindicate me in your might.<br>
 <sup>2</sup> Hear my prayer, God.<br>Listen to the words of my mouth.<br>
-<sup>3</sup> For strangers have risen up against me.<br>Violent men have sought after my soul.<br>They haven’t set God before them.<br>Selah.
-
+<sup>3</sup> For strangers have risen up against me.<br>Violent men have sought after my soul.<br>They haven’t set God before them. _Selah._<br>
 <sup>4</sup> Behold, God is my helper.<br>The Lord is the one who sustains my soul.<br>
 <sup>5</sup> He will repay the evil to my enemies.<br>Destroy them in your truth.<br>
 <sup>6</sup> With a free will offering, I will sacrifice to you.<br>I will give thanks to your name, Yahweh, for it is good.<br>
@@ -1161,8 +1144,7 @@ He who does these things shall never be shaken.
 <sup>4</sup> My heart is severely pained within me.<br>The terrors of death have fallen on me.<br>
 <sup>5</sup> Fearfulness and trembling have come on me.<br>Horror has overwhelmed me.<br>
 <sup>6</sup> I said, “Oh that I had wings like a dove!<br>Then I would fly away, and be at rest.<br>
-<sup>7</sup> Behold, then I would wander far off.<br>I would lodge in the wilderness.”<br>Selah.
-
+<sup>7</sup> Behold, then I would wander far off.<br>I would lodge in the wilderness.” _Selah._<br>
 <sup>8</sup> “I would hurry to a shelter from the stormy wind and storm.”<br>
 <sup>9</sup> Confuse them, Lord, and confound their language,<br>for I have seen violence and strife in the city.<br>
 <sup>10</sup> Day and night they prowl around on its walls.<br>Malice and abuse are also within her.<br>
@@ -1174,10 +1156,9 @@ He who does these things shall never be shaken.
 <sup>16</sup> As for me, I will call on God.<br>Yahweh will save me.<br>
 <sup>17</sup> Evening, morning, and at noon, I will cry out in distress.<br>He will hear my voice.<br>
 <sup>18</sup> He has redeemed my soul in peace from the battle that was against me,<br>although there are many who oppose me.<br>
-<sup>19</sup> God, who is enthroned forever,<br>will hear and answer them.<br>Selah.
+<sup>19</sup> God, who is enthroned forever,<br>will hear and answer them. _Selah._
 
 They never change<br>and don’t fear God.<br>
-
 <sup>20</sup> He raises his hands against his friends.<br>He has violated his covenant.<br>
 <sup>21</sup> His mouth was smooth as butter,<br>but his heart was war.<br>His words were softer than oil,<br>yet they were drawn swords.
 
@@ -1210,13 +1191,11 @@ They never change<br>and don’t fear God.<br>
 
 <sup>1</sup> Be merciful to me, God, be merciful to me,<br>for my soul takes refuge in you.<br>Yes, in the shadow of your wings, I will take refuge,<br>until disaster has passed.<br>
 <sup>2</sup> I cry out to God Most High,<br>to God who accomplishes my requests for me.<br>
-<sup>3</sup> He will send from heaven, and save me,<br>he rebukes the one who is pursuing me.<br>Selah.<br>God will send out his loving kindness and his truth.<br>
-
+<sup>3</sup> He will send from heaven, and save me,<br>he rebukes the one who is pursuing me. _Selah._<br>God will send out his loving kindness and his truth.<br>
 <sup>4</sup> My soul is among lions.<br>I lie among those who are set on fire,<br>even the sons of men, whose teeth are spears and arrows,<br>and their tongue a sharp sword.<br>
 <sup>5</sup> Be exalted, God, above the heavens!<br>Let your glory be above all the earth!
 
-<sup>6</sup> They have prepared a net for my steps.<br>My soul is bowed down.<br>They dig a pit before me.<br>They fall into the middle of it themselves.<br>Selah.
-
+<sup>6</sup> They have prepared a net for my steps.<br>My soul is bowed down.<br>They dig a pit before me.<br>They fall into the middle of it themselves. _Selah._<br>
 <sup>7</sup> My heart is steadfast, God.<br>My heart is steadfast.<br>I will sing, yes, I will sing praises.<br>
 <sup>8</sup> Wake up, my glory! Wake up, lute and harp!<br>I will wake up the dawn.<br>
 <sup>9</sup> I will give thanks to you, Lord, among the peoples.<br>I will sing praises to you among the nations.<br>
@@ -1228,7 +1207,7 @@ They never change<br>and don’t fear God.<br>
 > _For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David._
 
 <sup>1</sup> Do you indeed speak righteousness, silent ones?<br>Do you judge blamelessly, you sons of men?<br>
-<sup>2</sup> No, in your heart you plot injustice.<br>You measure out the violence of your hands in the earth.<br>
+<sup>2</sup> No, in your heart you plot injustice.<br>You measure out the violence of your hands on the earth.<br>
 <sup>3</sup> The wicked go astray from the womb.<br>They are wayward as soon as they are born, speaking lies.<br>
 <sup>4</sup> Their poison is like the poison of a snake,<br>like a deaf cobra that stops its ear,<br>
 <sup>5</sup> which doesn’t listen to the voice of charmers,<br>no matter how skillful the charmer may be.<br>
@@ -1247,8 +1226,7 @@ They never change<br>and don’t fear God.<br>
 <sup>2</sup> Deliver me from the workers of iniquity.<br>Save me from the bloodthirsty men.<br>
 <sup>3</sup> For, behold, they lie in wait for my soul.<br>The mighty gather themselves together against me,<br>not for my disobedience, nor for my sin, Yahweh.<br>
 <sup>4</sup> I have done no wrong, yet they are ready to attack me.<br>Rise up, behold, and help me!<br>
-<sup>5</sup> You, Yahweh God of Armies, the God of Israel,<br>rouse yourself to punish the nations.<br>Show no mercy to the wicked traitors.<br>Selah.
-
+<sup>5</sup> You, Yahweh God of Armies, the God of Israel,<br>rouse yourself to punish the nations.<br>Show no mercy to the wicked traitors. _Selah._<br>
 <sup>6</sup> They return at evening, howling like dogs,<br>and prowl around the city.<br>
 <sup>7</sup> Behold, they spew with their mouth.<br>Swords are in their lips,<br>“For”, they say, “who hears us?”<br>
 <sup>8</sup> But you, Yahweh, laugh at them.<br>You scoff at all the nations.<br>
@@ -1256,8 +1234,7 @@ They never change<br>and don’t fear God.<br>
 <sup>10</sup> My God will go before me with his loving kindness.<br>God will let me look at my enemies in triumph.<br>
 <sup>11</sup> Don’t kill them, or my people may forget.<br>Scatter them by your power, and bring them down, Lord our shield.<br>
 <sup>12</sup> For the sin of their mouth, and the words of their lips,<br>let them be caught in their pride,<br>for the curses and lies which they utter.<br>
-<sup>13</sup> Consume them in wrath.<br>Consume them, and they will be no more.<br>Let them know that God rules in Jacob,<br>to the ends of the earth.<br>Selah.
-
+<sup>13</sup> Consume them in wrath.<br>Consume them, and they will be no more.<br>Let them know that God rules in Jacob,<br>to the ends of the earth. _Selah._<br>
 <sup>14</sup> At evening let them return.<br>Let them howl like a dog, and go around the city.<br>
 <sup>15</sup> They shall wander up and down for food,<br>and wait all night if they aren’t satisfied.
 
@@ -1271,7 +1248,7 @@ They never change<br>and don’t fear God.<br>
 <sup>1</sup> God, you have rejected us.<br>You have broken us down.<br>You have been angry.<br>Restore us, again.<br>
 <sup>2</sup> You have made the land tremble.<br>You have torn it.<br>Mend its fractures,<br>for it quakes.<br>
 <sup>3</sup> You have shown your people hard things.<br>You have made us drink the wine that makes us stagger.<br>
-<sup>4</sup> You have given a banner to those who fear you,<br>that it may be displayed because of the truth.<br>Selah.
+<sup>4</sup> You have given a banner to those who fear you,<br>that it may be displayed because of the truth. _Selah._
 
 <sup>5</sup> So that your beloved may be delivered,<br>save with your right hand, and answer us.<br>
 <sup>6</sup> God has spoken from his sanctuary:<br>“I will triumph.<br>I will divide Shechem,<br>and measure out the valley of Succoth.<br>
@@ -1290,8 +1267,7 @@ They never change<br>and don’t fear God.<br>
 <sup>1</sup> Hear my cry, God.<br>Listen to my prayer.<br>
 <sup>2</sup> From the end of the earth, I will call to you when my heart is overwhelmed.<br>Lead me to the rock that is higher than I.<br>
 <sup>3</sup> For you have been a refuge for me,<br>a strong tower from the enemy.<br>
-<sup>4</sup> I will dwell in your tent forever.<br>I will take refuge in the shelter of your wings.<br>Selah.
-
+<sup>4</sup> I will dwell in your tent forever.<br>I will take refuge in the shelter of your wings. _Selah._<br>
 <sup>5</sup> For you, God, have heard my vows.<br>You have given me the heritage of those who fear your name.<br>
 <sup>6</sup> You will prolong the king’s life.<br>His years will be for generations.<br>
 <sup>7</sup> He shall be enthroned in God’s presence forever.<br>Appoint your loving kindness and truth, that they may preserve him.<br>
@@ -1304,13 +1280,11 @@ They never change<br>and don’t fear God.<br>
 <sup>1</sup> My soul rests in God alone.<br>My salvation is from him.<br>
 <sup>2</sup> He alone is my rock, my salvation, and my fortress.<br>I will never be greatly shaken.<br>
 <sup>3</sup> How long will you assault a man?<br>Would all of you throw him down,<br>like a leaning wall, like a tottering fence?<br>
-<sup>4</sup> They fully intend to throw him down from his lofty place.<br>They delight in lies.<br>They bless with their mouth, but they curse inwardly.<br>Selah.
-
+<sup>4</sup> They fully intend to throw him down from his lofty place.<br>They delight in lies.<br>They bless with their mouth, but they curse inwardly. _Selah._<br>
 <sup>5</sup> My soul, wait in silence for God alone,<br>for my expectation is from him.<br>
 <sup>6</sup> He alone is my rock and my salvation, my fortress.<br>I will not be shaken.<br>
 <sup>7</sup> My salvation and my honor is with God.<br>The rock of my strength, and my refuge, is in God.<br>
-<sup>8</sup> Trust in him at all times, you people.<br>Pour out your heart before him.<br>God is a refuge for us.<br>Selah.
-
+<sup>8</sup> Trust in him at all times, you people.<br>Pour out your heart before him.<br>God is a refuge for us. _Selah._<br>
 <sup>9</sup> Surely men of low degree are just a breath,<br>and men of high degree are a lie.<br>In the balances they will go up.<br>They are together lighter than a breath.<br>
 <sup>10</sup> Don’t trust in oppression.<br>Don’t become vain in robbery.<br>If riches increase,<br>don’t set your heart on them.<br>
 <sup>11</sup> God has spoken once;<br>twice I have heard this,<br>that power belongs to God.<br>
@@ -1372,12 +1346,10 @@ They never change<br>and don’t fear God.<br>
 <sup>1</sup> Make a joyful shout to God, all the earth!<br>
 <sup>2</sup> Sing to the glory of his name!<br>Offer glory and praise!<br>
 <sup>3</sup> Tell God, “How awesome are your deeds!<br>Through the greatness of your power, your enemies submit themselves to you.<br>
-<sup>4</sup> All the earth will worship you,<br>and will sing to you;<br>they will sing to your name.”<br>Selah.
-
+<sup>4</sup> All the earth will worship you,<br>and will sing to you;<br>they will sing to your name.” _Selah._<br>
 <sup>5</sup> Come, and see God’s deeds—<br>awesome work on behalf of the children of men.<br>
 <sup>6</sup> He turned the sea into dry land.<br>They went through the river on foot.<br>There, we rejoiced in him.<br>
-<sup>7</sup> He rules by his might forever.<br>His eyes watch the nations.<br>Don’t let the rebellious rise up against him.<br>Selah.
-
+<sup>7</sup> He rules by his might forever.<br>His eyes watch the nations.<br>Don’t let the rebellious rise up against him. _Selah._<br>
 <sup>8</sup> Praise our God, you peoples!<br>Make the sound of his praise heard,<br>
 <sup>9</sup> who preserves our life among the living,<br>and doesn’t allow our feet to be moved.<br>
 <sup>10</sup> For you, God, have tested us.<br>You have refined us, as silver is refined.<br>
@@ -1385,8 +1357,7 @@ They never change<br>and don’t fear God.<br>
 <sup>12</sup> You allowed men to ride over our heads.<br>We went through fire and through water,<br>but you brought us to the place of abundance.<br>
 <sup>13</sup> I will come into your temple with burnt offerings.<br>I will pay my vows to you,
 <sup>14</sup> which my lips promised,<br>and my mouth spoke, when I was in distress.<br>
-<sup>15</sup> I will offer to you burnt offerings of fat animals,<br>with the offering of rams,<br>I will offer bulls with goats.<br>Selah.
-
+<sup>15</sup> I will offer to you burnt offerings of fat animals,<br>with the offering of rams,<br>I will offer bulls with goats. _Selah._<br>
 <sup>16</sup> Come and hear, all you who fear God.<br>I will declare what he has done for my soul.<br>
 <sup>17</sup> I cried to him with my mouth.<br>He was extolled with my tongue.<br>
 <sup>18</sup> If I cherished sin in my heart,<br>the Lord wouldn’t have listened.<br>
@@ -1397,12 +1368,10 @@ They never change<br>and don’t fear God.<br>
 
 > _For the Chief Musician. With stringed instruments. A Psalm. A song._
 
-<sup>1</sup> May God be merciful to us, bless us,<br>and cause his face to shine on us.<br>Selah.
-
+<sup>1</sup> May God be merciful to us, bless us,<br>and cause his face to shine on us. _Selah._<br>
 <sup>2</sup> That your way may be known on earth,<br>and your salvation among all nations,<br>
 <sup>3</sup> let the peoples praise you, God.<br>Let all the peoples praise you.<br>
-<sup>4</sup> Oh let the nations be glad and sing for joy,<br>for you will judge the peoples with equity,<br>and govern the nations on earth.<br>Selah.
-
+<sup>4</sup> Oh let the nations be glad and sing for joy,<br>for you will judge the peoples with equity,<br>and govern the nations on earth. _Selah._<br>
 <sup>5</sup> Let the peoples praise you, God.<br>Let all the peoples praise you.<br>
 <sup>6</sup> The earth has yielded its increase.<br>God, even our own God, will bless us.<br>
 <sup>7</sup> God will bless us.<br>All the ends of the earth shall fear him.
@@ -1418,8 +1387,7 @@ They never change<br>and don’t fear God.<br>
 <sup>5</sup> A father of the fatherless, and a defender of the widows,<br>is God in his holy habitation.<br>
 <sup>6</sup> God sets the lonely in families.<br>He brings out the prisoners with singing,<br>but the rebellious dwell in a sun-scorched land.
 
-<sup>7</sup> God, when you went out before your people,<br>when you marched through the wilderness…<br>Selah.
-
+<sup>7</sup> God, when you went out before your people,<br>when you marched through the wilderness... _Selah._<br>
 <sup>8</sup> The earth trembled.<br>The sky also poured down rain at the presence of the God of Sinai—<br>at the presence of God, the God of Israel.<br>
 <sup>9</sup> You, God, sent a plentiful rain.<br>You confirmed your inheritance when it was weary.<br>
 <sup>10</sup> Your congregation lived therein.<br>You, God, prepared your goodness for the poor.<br>
@@ -1432,8 +1400,7 @@ They never change<br>and don’t fear God.<br>
 <sup>17</sup> The chariots of God are tens of thousands and thousands of thousands.<br>The Lord is among them, from Sinai, into the sanctuary.<br>
 <sup>18</sup> You have ascended on high.<br>You have led away captives.<br>You have received gifts among people,<br>yes, among the rebellious also, that Yah God might dwell there.
 
-<sup>19</sup> Blessed be the Lord, who daily bears our burdens,<br>even the God who is our salvation.<br>Selah.
-
+<sup>19</sup> Blessed be the Lord, who daily bears our burdens,<br>even the God who is our salvation. _Selah._<br>
 <sup>20</sup> God is to us a God of deliverance.<br>To Yahweh, the Lord, belongs escape from death.<br>
 <sup>21</sup> But God will strike through the head of his enemies,<br>the hairy scalp of such a one as still continues in his guiltiness.<br>
 <sup>22</sup> The Lord said, “I will bring you again from Bashan,<br>I will bring you again from the depths of the sea,<br>
@@ -1447,8 +1414,7 @@ They never change<br>and don’t fear God.<br>
 <sup>29</sup> Because of your temple at Jerusalem,<br>kings shall bring presents to you.<br>
 <sup>30</sup> Rebuke the wild animal of the reeds,<br>the multitude of the bulls with the calves of the peoples.<br>Trample under foot the bars of silver.<br>Scatter the nations who delight in war.<br>
 <sup>31</sup> Princes shall come out of Egypt.<br>Ethiopia shall hurry to stretch out her hands to God.<br>
-<sup>32</sup> Sing to God, you kingdoms of the earth!<br>Sing praises to the Lord—<br>Selah—
-
+<sup>32</sup> Sing to God, you kingdoms of the earth!<br>Sing praises to the Lord—_Selah—_<br>
 <sup>33</sup> to him who rides on the heaven of heavens, which are of old;<br>behold, he utters his voice, a mighty voice.<br>
 <sup>34</sup> Ascribe strength to God!<br>His excellency is over Israel,<br>his strength is in the skies.<br>
 <sup>35</sup> You are awesome, God, in your sanctuaries.<br>The God of Israel gives strength and power to his people.<br>Praise be to God!
@@ -1560,9 +1526,11 @@ They never change<br>and don’t fear God.<br>
 
 ## Chapter 73
 
-> _A Psalm by Asaph._
+### BOOK THREE (Psalms 73–89)
 
-<sup>1</sup> Surely God<sup>a</sup> is good to Israel,<br>to those who are pure in heart.<br>
+<sup>1</sup> > _A Psalm by Asaph._
+
+Surely God<sup>a</sup> is good to Israel,<br>to those who are pure in heart.<br>
 <sup>2</sup> But as for me, my feet were almost gone.<br>My steps had nearly slipped.<br>
 <sup>3</sup> For I was envious of the arrogant,<br>when I saw the prosperity of the wicked.<br>
 <sup>4</sup> For there are no struggles in their death,<br>but their strength is firm.<br>
@@ -1632,8 +1600,7 @@ They never change<br>and don’t fear God.<br>
 <sup>1</sup> We give thanks to you, God.<br>We give thanks, for your Name is near.<br>Men tell about your wondrous works.
 
 <sup>2</sup> When I choose the appointed time,<br>I will judge blamelessly.<br>
-<sup>3</sup> The earth and all its inhabitants quake.<br>I firmly hold its pillars.<br>Selah.
-
+<sup>3</sup> The earth and all its inhabitants quake.<br>I firmly hold its pillars. _Selah._<br>
 <sup>4</sup> I said to the arrogant, “Don’t boast!”<br>I said to the wicked, “Don’t lift up the horn.<br>
 <sup>5</sup> Don’t lift up your horn on high.<br>Don’t speak with a stiff neck.”<br>
 <sup>6</sup> For neither from the east, nor from the west,<br>nor yet from the south, comes exaltation.<br>
@@ -1649,15 +1616,13 @@ They never change<br>and don’t fear God.<br>
 
 <sup>1</sup> In Judah, God is known.<br>His name is great in Israel.<br>
 <sup>2</sup> His tabernacle is also in Salem.<br>His dwelling place in Zion.<br>
-<sup>3</sup> There he broke the flaming arrows of the bow,<br>the shield, and the sword, and the weapons of war.<br>Selah.
-
+<sup>3</sup> There he broke the flaming arrows of the bow,<br>the shield, and the sword, and the weapons of war. _Selah._<br>
 <sup>4</sup> Glorious are you, and excellent,<br>more than mountains of game.<br>
 <sup>5</sup> Valiant men lie plundered,<br>they have slept their last sleep.<br>None of the men of war can lift their hands.<br>
 <sup>6</sup> At your rebuke, God of Jacob,<br>both chariot and horse are cast into a dead sleep.<br>
 <sup>7</sup> You, even you, are to be feared.<br>Who can stand in your sight when you are angry?<br>
 <sup>8</sup> You pronounced judgment from heaven.<br>The earth feared, and was silent,<br>
-<sup>9</sup> when God arose to judgment,<br>to save all the afflicted ones of the earth.<br>Selah.
-
+<sup>9</sup> when God arose to judgment,<br>to save all the afflicted ones of the earth. _Selah._<br>
 <sup>10</sup> Surely the wrath of man praises you.<br>The survivors of your wrath are restrained.<br>
 <sup>11</sup> Make vows to Yahweh your God, and fulfill them!<br>Let all of his neighbors bring presents to him who is to be feared.<br>
 <sup>12</sup> He will cut off the spirit of princes.<br>He is feared by the kings of the earth.
@@ -1668,22 +1633,20 @@ They never change<br>and don’t fear God.<br>
 
 <sup>1</sup> My cry goes to God!<br>Indeed, I cry to God for help,<br>and for him to listen to me.<br>
 <sup>2</sup> In the day of my trouble I sought the Lord.<br>My hand was stretched out in the night, and didn’t get tired.<br>My soul refused to be comforted.<br>
-<sup>3</sup> I remember God, and I groan.<br>I complain, and my spirit is overwhelmed.<br>Selah.
+<sup>3</sup> I remember God, and I groan.<br>I complain, and my spirit is overwhelmed. _Selah._
 
 <sup>4</sup> You hold my eyelids open.<br>I am so troubled that I can’t speak.<br>
 <sup>5</sup> I have considered the days of old,<br>the years of ancient times.<br>
 <sup>6</sup> I remember my song in the night.<br>I consider in my own heart;<br>my spirit diligently inquires:<br>
 <sup>7</sup> “Will the Lord reject us forever?<br>Will he be favorable no more?<br>
 <sup>8</sup> Has his loving kindness vanished forever?<br>Does his promise fail for generations?<br>
-<sup>9</sup> Has God forgotten to be gracious?<br>Has he, in anger, withheld his compassion?”<br>Selah.
-
+<sup>9</sup> Has God forgotten to be gracious?<br>Has he, in anger, withheld his compassion?” _Selah._<br>
 <sup>10</sup> Then I thought, “I will appeal to this:<br>the years of the right hand of the Most High.”<br>
 <sup>11</sup> I will remember Yah’s deeds;<br>for I will remember your wonders of old.<br>
 <sup>12</sup> I will also meditate on all your work,<br>and consider your doings.<br>
 <sup>13</sup> Your way, God, is in the sanctuary.<br>What god is great like God?<br>
 <sup>14</sup> You are the God who does wonders.<br>You have made your strength known among the peoples.<br>
-<sup>15</sup> You have redeemed your people with your arm,<br>the sons of Jacob and Joseph.<br>Selah.
-
+<sup>15</sup> You have redeemed your people with your arm,<br>the sons of Jacob and Joseph. _Selah._<br>
 <sup>16</sup> The waters saw you, God.<br>The waters saw you, and they writhed.<br>The depths also convulsed.<br>
 <sup>17</sup> The clouds poured out water.<br>The skies resounded with thunder.<br>Your arrows also flashed around.<br>
 <sup>18</sup> The voice of your thunder was in the whirlwind.<br>The lightnings lit up the world.<br>The earth trembled and shook.<br>
@@ -1821,7 +1784,7 @@ They never change<br>and don’t fear God.<br>
 <sup>4</sup> For it is a statute for Israel,<br>an ordinance of the God of Jacob.<br>
 <sup>5</sup> He appointed it in Joseph for a covenant,<br>when he went out over the land of Egypt,<br>I heard a language that I didn’t know.<br>
 <sup>6</sup> “I removed his shoulder from the burden.<br>His hands were freed from the basket.<br>
-<sup>7</sup> You called in trouble, and I delivered you.<br>I answered you in the secret place of thunder.<br>I tested you at the waters of Meribah.”<br>Selah.
+<sup>7</sup> You called in trouble, and I delivered you.<br>I answered you in the secret place of thunder.<br>I tested you at the waters of Meribah.” _Selah._
 
 <sup>8</sup> “Hear, my people, and I will testify to you,<br>Israel, if you would listen to me!<br>
 <sup>9</sup> There shall be no strange god in you,<br>neither shall you worship any foreign god.<br>
@@ -1838,7 +1801,7 @@ They never change<br>and don’t fear God.<br>
 > _A Psalm by Asaph._
 
 <sup>1</sup> God presides in the great assembly.<br>He judges among the gods.<br>
-<sup>2</sup> “How long will you judge unjustly,<br>and show partiality to the wicked?”<br>Selah.
+<sup>2</sup> “How long will you judge unjustly,<br>and show partiality to the wicked?” _Selah._
 
 <sup>3</sup> “Defend the weak, the poor, and the fatherless.<br>Maintain the rights of the poor and oppressed.<br>
 <sup>4</sup> Rescue the weak and needy.<br>Deliver them out of the hand of the wicked.”<br>
@@ -1858,8 +1821,7 @@ They never change<br>and don’t fear God.<br>
 <sup>5</sup> For they have conspired together with one mind.<br>They form an alliance against you.<br>
 <sup>6</sup> The tents of Edom and the Ishmaelites;<br>Moab, and the Hagrites;<br>
 <sup>7</sup> Gebal, Ammon, and Amalek;<br>Philistia with the inhabitants of Tyre;<br>
-<sup>8</sup> Assyria also is joined with them.<br>They have helped the children of Lot.<br>Selah.
-
+<sup>8</sup> Assyria also is joined with them.<br>They have helped the children of Lot. _Selah._<br>
 <sup>9</sup> Do to them as you did to Midian,<br>as to Sisera, as to Jabin, at the river Kishon;<br>
 <sup>10</sup> who perished at Endor,<br>who became as dung for the earth.<br>
 <sup>11</sup> Make their nobles like Oreb and Zeeb,<br>yes, all their princes like Zebah and Zalmunna,<br>
@@ -1878,13 +1840,11 @@ They never change<br>and don’t fear God.<br>
 <sup>1</sup> How lovely are your dwellings,<br>Yahweh of Armies!<br>
 <sup>2</sup> My soul longs, and even faints for the courts of Yahweh.<br>My heart and my flesh cry out for the living God.<br>
 <sup>3</sup> Yes, the sparrow has found a home,<br>and the swallow a nest for herself, where she may have her young,<br>near your altars, Yahweh of Armies, my King, and my God.<br>
-<sup>4</sup> Blessed are those who dwell in your house.<br>They are always praising you.<br>Selah.
-
+<sup>4</sup> Blessed are those who dwell in your house.<br>They are always praising you. _Selah._<br>
 <sup>5</sup> Blessed are those whose strength is in you,<br>who have set their hearts on a pilgrimage.<br>
 <sup>6</sup> Passing through the valley of Weeping, they make it a place of springs.<br>Yes, the autumn rain covers it with blessings.<br>
 <sup>7</sup> They go from strength to strength.<br>Every one of them appears before God in Zion.<br>
-<sup>8</sup> Yahweh, God of Armies, hear my prayer.<br>Listen, God of Jacob.<br>Selah.
-
+<sup>8</sup> Yahweh, God of Armies, hear my prayer.<br>Listen, God of Jacob. _Selah._<br>
 <sup>9</sup> Behold, God our shield,<br>look at the face of your anointed.<br>
 <sup>10</sup> For a day in your courts is better than a thousand.<br>I would rather be a doorkeeper in the house of my God,<br>than to dwell in the tents of wickedness.<br>
 <sup>11</sup> For Yahweh God is a sun and a shield.<br>Yahweh will give grace and glory.<br>He withholds no good thing from those who walk blamelessly.<br>
@@ -1895,8 +1855,7 @@ They never change<br>and don’t fear God.<br>
 > _For the Chief Musician. A Psalm by the sons of Korah._
 
 <sup>1</sup> Yahweh, you have been favorable to your land.<br>You have restored the fortunes of Jacob.<br>
-<sup>2</sup> You have forgiven the iniquity of your people.<br>You have covered all their sin.<br>Selah.
-
+<sup>2</sup> You have forgiven the iniquity of your people.<br>You have covered all their sin. _Selah._<br>
 <sup>3</sup> You have taken away all your wrath.<br>You have turned from the fierceness of your anger.<br>
 <sup>4</sup> Turn us, God of our salvation,<br>and cause your indignation toward us to cease.<br>
 <sup>5</sup> Will you be angry with us forever?<br>Will you draw out your anger to all generations?<br>
@@ -1939,12 +1898,10 @@ They never change<br>and don’t fear God.<br>
 
 <sup>1</sup> His foundation is in the holy mountains.<br>
 <sup>2</sup> Yahweh loves the gates of Zion more than all the dwellings of Jacob.<br>
-<sup>3</sup> Glorious things are spoken about you, city of God.<br>Selah.
-
+<sup>3</sup> Glorious things are spoken about you, city of God. _Selah._<br>
 <sup>4</sup> I will record Rahab<sup>a</sup> and Babylon among those who acknowledge me.<br>Behold, Philistia, Tyre, and also Ethiopia:<br>“This one was born there.”<br>
 <sup>5</sup> Yes, of Zion it will be said, “This one and that one was born in her;”<br>the Most High himself will establish her.<br>
-<sup>6</sup> Yahweh will count, when he writes up the peoples,<br>“This one was born there.”<br>Selah.
-
+<sup>6</sup> Yahweh will count, when he writes up the peoples,<br>“This one was born there.” _Selah._<br>
 <sup>7</sup> Those who sing as well as those who dance say,<br>“All my springs are in you.”
 
 > - <sup>a</sup> 4. Rahab is a reference to Egypt.
@@ -1959,12 +1916,10 @@ They never change<br>and don’t fear God.<br>
 <sup>4</sup> I am counted among those who go down into the pit.<br>I am like a man who has no help,<br>
 <sup>5</sup> set apart among the dead,<br>like the slain who lie in the grave,<br>whom you remember no more.<br>They are cut off from your hand.<br>
 <sup>6</sup> You have laid me in the lowest pit,<br>in the darkest depths.<br>
-<sup>7</sup> Your wrath lies heavily on me.<br>You have afflicted me with all your waves.<br>Selah.
-
+<sup>7</sup> Your wrath lies heavily on me.<br>You have afflicted me with all your waves. _Selah._<br>
 <sup>8</sup> You have taken my friends from me.<br>You have made me an abomination to them.<br>I am confined, and I can’t escape.<br>
 <sup>9</sup> My eyes are dim from grief.<br>I have called on you daily, Yahweh.<br>I have spread out my hands to you.<br>
-<sup>10</sup> Do you show wonders to the dead?<br>Do the departed spirits rise up and praise you?<br>Selah.
-
+<sup>10</sup> Do you show wonders to the dead?<br>Do the departed spirits rise up and praise you? _Selah._<br>
 <sup>11</sup> Is your loving kindness declared in the grave?<br>Or your faithfulness in Destruction?<br>
 <sup>12</sup> Are your wonders made known in the dark?<br>Or your righteousness in the land of forgetfulness?<br>
 <sup>13</sup> But to you, Yahweh, I have cried.<br>In the morning, my prayer comes before you.<br>
@@ -1984,8 +1939,7 @@ They never change<br>and don’t fear God.<br>
 <sup>2</sup> I indeed declare, “Love stands firm forever.<br>You established the heavens.<br>Your faithfulness is in them.”
 
 <sup>3</sup> “I have made a covenant with my chosen one,<br>I have sworn to David, my servant,<br>
-<sup>4</sup> ‘I will establish your offspring forever,<br>and build up your throne to all generations.’ ”<br>Selah.
-
+<sup>4</sup> ‘I will establish your offspring forever,<br>and build up your throne to all generations.’” _Selah._<br>
 <sup>5</sup> The heavens will praise your wonders, Yahweh,<br>your faithfulness also in the assembly of the holy ones.<br>
 <sup>6</sup> For who in the skies can be compared to Yahweh?<br>Who among the sons of the heavenly beings is like Yahweh,<br>
 <sup>7</sup> a very awesome God in the council of the holy ones,<br>to be feared above all those who are around him?<br>
@@ -2019,7 +1973,7 @@ They never change<br>and don’t fear God.<br>
 <sup>34</sup> I will not break my covenant,<br>nor alter what my lips have uttered.<br>
 <sup>35</sup> Once I have sworn by my holiness,<br>I will not lie to David.<br>
 <sup>36</sup> His offspring will endure forever,<br>his throne like the sun before me.<br>
-<sup>37</sup> It will be established forever like the moon,<br>the faithful witness in the sky.”<br>Selah.
+<sup>37</sup> It will be established forever like the moon,<br>the faithful witness in the sky.” _Selah._
 
 <sup>38</sup> But you have rejected and spurned.<br>You have been angry with your anointed.<br>
 <sup>39</sup> You have renounced the covenant of your servant.<br>You have defiled his crown in the dust.<br>
@@ -2028,12 +1982,10 @@ They never change<br>and don’t fear God.<br>
 <sup>42</sup> You have exalted the right hand of his adversaries.<br>You have made all of his enemies rejoice.<br>
 <sup>43</sup> Yes, you turn back the edge of his sword,<br>and haven’t supported him in battle.<br>
 <sup>44</sup> You have ended his splendor,<br>and thrown his throne down to the ground.<br>
-<sup>45</sup> You have shortened the days of his youth.<br>You have covered him with shame.<br>Selah.
-
+<sup>45</sup> You have shortened the days of his youth.<br>You have covered him with shame. _Selah._<br>
 <sup>46</sup> How long, Yahweh?<br>Will you hide yourself forever?<br>Will your wrath burn like fire?<br>
 <sup>47</sup> Remember how short my time is,<br>for what vanity you have created all the children of men!<br>
-<sup>48</sup> What man is he who shall live and not see death,<br>who shall deliver his soul from the power of Sheol?<sup>a</sup><br>Selah.
-
+<sup>48</sup> What man is he who shall live and not see death,<br>who shall deliver his soul from the power of Sheol?<sup>a</sup> _Selah._<br>
 <sup>49</sup> Lord, where are your former loving kindnesses,<br>which you swore to David in your faithfulness?<br>
 <sup>50</sup> Remember, Lord, the reproach of your servants,<br>how I bear in my heart the taunts of all the mighty peoples,<br>
 <sup>51</sup> With which your enemies have mocked, Yahweh,<br>with which they have mocked the footsteps of your anointed one.
@@ -2044,9 +1996,11 @@ They never change<br>and don’t fear God.<br>
 
 ## Chapter 90
 
-> _A Prayer by Moses, the man of God.<sup>a</sup>_
+### BOOK FOUR (Psalms 90–106)
 
-<sup>1</sup> Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
+<sup>1</sup> > _A Prayer by Moses, the man of God.<sup>a</sup>_
+
+Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>2</sup> Before the mountains were born,<br>before you had formed the earth and the world,<br>even from everlasting to everlasting, you are God.<br>
 <sup>3</sup> You turn man to destruction, saying,<br>“Return, you children of men.”<br>
 <sup>4</sup> For a thousand years in your sight are just like yesterday when it is past,<br>like a watch in the night.<br>
@@ -2446,6 +2400,8 @@ They never change<br>and don’t fear God.<br>
 
 ## Chapter 107
 
+### BOOK FIVE (Psalms 107–150)
+
 <sup>1</sup> Give thanks to Yahweh,<sup>a</sup> for he is good,<br>for his loving kindness endures forever.<br>
 <sup>2</sup> Let the redeemed by Yahweh say so,<br>whom he has redeemed from the hand of the adversary,<br>
 <sup>3</sup> and gathered out of the lands,<br>from the east and from the west,<br>from the north and from the south.
@@ -2608,7 +2564,7 @@ They never change<br>and don’t fear God.<br>
 <sup>3</sup> From the rising of the sun to its going down,<br>Yahweh’s name is to be praised.<br>
 <sup>4</sup> Yahweh is high above all nations,<br>his glory above the heavens.<br>
 <sup>5</sup> Who is like Yahweh, our God,<br>who has his seat on high,<br>
-<sup>6</sup> who stoops down to see in heaven and in the earth?<br>
+<sup>6</sup> who stoops down to see in heaven and on the earth?<br>
 <sup>7</sup> He raises up the poor out of the dust,<br>and lifts up the needy from the ash heap,<br>
 <sup>8</sup> that he may set him with princes,<br>even with the princes of his people.<br>
 <sup>9</sup> He settles the barren woman in her home<br>as a joyful mother of children.<br>Praise Yah!
@@ -2706,7 +2662,7 @@ They never change<br>and don’t fear God.<br>
 <sup>28</sup> You are my God, and I will give thanks to you.<br>You are my God, I will exalt you.<br>
 <sup>29</sup> Oh give thanks to Yahweh, for he is good,<br>for his loving kindness endures forever.
 
-> - <sup>a</sup> 22. Literally, head of the corner
+> - <sup>a</sup> 22. Literally, _head of the corner_
 
 ## Chapter 119
 
@@ -2719,10 +2675,9 @@ They never change<br>and don’t fear God.<br>
 <sup>5</sup> Oh that my ways were steadfast<br>to obey your statutes!<br>
 <sup>6</sup> Then I wouldn’t be disappointed,<br>when I consider all of your commandments.<br>
 <sup>7</sup> I will give thanks to you with uprightness of heart,<br>when I learn your righteous judgments.<br>
-<sup>8</sup> I will observe your statutes.<br>Don’t utterly forsake me.
+<sup>8</sup> I will observe your statutes.<br>Don’t utterly forsake me.<br>
 
 #### BETH
-
 <sup>9</sup> How can a young man keep his way pure?<br>By living according to your word.<br>
 <sup>10</sup> With my whole heart I have sought you.<br>Don’t let me wander from your commandments.<br>
 <sup>11</sup> I have hidden your word in my heart,<br>that I might not sin against you.<br>
@@ -2730,10 +2685,9 @@ They never change<br>and don’t fear God.<br>
 <sup>13</sup> With my lips,<br>I have declared all the ordinances of your mouth.<br>
 <sup>14</sup> I have rejoiced in the way of your testimonies,<br>as much as in all riches.<br>
 <sup>15</sup> I will meditate on your precepts,<br>and consider your ways.<br>
-<sup>16</sup> I will delight myself in your statutes.<br>I will not forget your word.
+<sup>16</sup> I will delight myself in your statutes.<br>I will not forget your word.<br>
 
 #### GIMEL
-
 <sup>17</sup> Do good to your servant.<br>I will live and I will obey your word.<br>
 <sup>18</sup> Open my eyes,<br>that I may see wondrous things out of your law.<br>
 <sup>19</sup> I am a stranger on the earth.<br>Don’t hide your commandments from me.<br>
@@ -2741,10 +2695,9 @@ They never change<br>and don’t fear God.<br>
 <sup>21</sup> You have rebuked the proud who are cursed,<br>who wander from your commandments.<br>
 <sup>22</sup> Take reproach and contempt away from me,<br>for I have kept your statutes.<br>
 <sup>23</sup> Though princes sit and slander me,<br>your servant will meditate on your statutes.<br>
-<sup>24</sup> Indeed your statutes are my delight,<br>and my counselors.
+<sup>24</sup> Indeed your statutes are my delight,<br>and my counselors.<br>
 
 #### DALETH
-
 <sup>25</sup> My soul is laid low in the dust.<br>Revive me according to your word!<br>
 <sup>26</sup> I declared my ways, and you answered me.<br>Teach me your statutes.<br>
 <sup>27</sup> Let me understand the teaching of your precepts!<br>Then I will meditate on your wondrous works.<br>
@@ -2752,10 +2705,9 @@ They never change<br>and don’t fear God.<br>
 <sup>29</sup> Keep me from the way of deceit.<br>Grant me your law graciously!<br>
 <sup>30</sup> I have chosen the way of truth.<br>I have set your ordinances before me.<br>
 <sup>31</sup> I cling to your statutes, Yahweh.<br>Don’t let me be disappointed.<br>
-<sup>32</sup> I run in the path of your commandments,<br>for you have set my heart free.
+<sup>32</sup> I run in the path of your commandments,<br>for you have set my heart free.<br>
 
 #### HE
-
 <sup>33</sup> Teach me, Yahweh, the way of your statutes.<br>I will keep them to the end.<br>
 <sup>34</sup> Give me understanding, and I will keep your law.<br>Yes, I will obey it with my whole heart.<br>
 <sup>35</sup> Direct me in the path of your commandments,<br>for I delight in them.<br>
@@ -2763,10 +2715,9 @@ They never change<br>and don’t fear God.<br>
 <sup>37</sup> Turn my eyes away from looking at worthless things.<br>Revive me in your ways.<br>
 <sup>38</sup> Fulfill your promise to your servant,<br>that you may be feared.<br>
 <sup>39</sup> Take away my disgrace that I dread,<br>for your ordinances are good.<br>
-<sup>40</sup> Behold, I long for your precepts!<br>Revive me in your righteousness.
+<sup>40</sup> Behold, I long for your precepts!<br>Revive me in your righteousness.<br>
 
 #### VAV
-
 <sup>41</sup> Let your loving kindness also come to me, Yahweh,<br>your salvation, according to your word.<br>
 <sup>42</sup> So I will have an answer for him who reproaches me,<br>for I trust in your word.<br>
 <sup>43</sup> Don’t snatch the word of truth out of my mouth,<br>for I put my hope in your ordinances.<br>
@@ -2774,10 +2725,9 @@ They never change<br>and don’t fear God.<br>
 <sup>45</sup> I will walk in liberty,<br>for I have sought your precepts.<br>
 <sup>46</sup> I will also speak of your statutes before kings,<br>and will not be disappointed.<br>
 <sup>47</sup> I will delight myself in your commandments,<br>because I love them.<br>
-<sup>48</sup> I reach out my hands for your commandments, which I love.<br>I will meditate on your statutes.
+<sup>48</sup> I reach out my hands for your commandments, which I love.<br>I will meditate on your statutes.<br>
 
 #### ZAYIN
-
 <sup>49</sup> Remember your word to your servant,<br>because you gave me hope.<br>
 <sup>50</sup> This is my comfort in my affliction,<br>for your word has revived me.<br>
 <sup>51</sup> The arrogant mock me excessively,<br>but I don’t swerve from your law.<br>
@@ -2785,10 +2735,9 @@ They never change<br>and don’t fear God.<br>
 <sup>53</sup> Indignation has taken hold on me,<br>because of the wicked who forsake your law.<br>
 <sup>54</sup> Your statutes have been my songs<br>in the house where I live.<br>
 <sup>55</sup> I have remembered your name, Yahweh, in the night,<br>and I obey your law.<br>
-<sup>56</sup> This is my way,<br>that I keep your precepts.
+<sup>56</sup> This is my way,<br>that I keep your precepts.<br>
 
 #### HETH
-
 <sup>57</sup> Yahweh is my portion.<br>I promised to obey your words.<br>
 <sup>58</sup> I sought your favor with my whole heart.<br>Be merciful to me according to your word.<br>
 <sup>59</sup> I considered my ways,<br>and turned my steps to your statutes.<br>
@@ -2796,10 +2745,9 @@ They never change<br>and don’t fear God.<br>
 <sup>61</sup> The ropes of the wicked bind me,<br>but I won’t forget your law.<br>
 <sup>62</sup> At midnight I will rise to give thanks to you,<br>because of your righteous ordinances.<br>
 <sup>63</sup> I am a friend of all those who fear you,<br>of those who observe your precepts.<br>
-<sup>64</sup> The earth is full of your loving kindness, Yahweh.<br>Teach me your statutes.
+<sup>64</sup> The earth is full of your loving kindness, Yahweh.<br>Teach me your statutes.<br>
 
 #### TETH
-
 <sup>65</sup> You have treated your servant well,<br>according to your word, Yahweh.<br>
 <sup>66</sup> Teach me good judgment and knowledge,<br>for I believe in your commandments.<br>
 <sup>67</sup> Before I was afflicted, I went astray;<br>but now I observe your word.<br>
@@ -2807,10 +2755,9 @@ They never change<br>and don’t fear God.<br>
 <sup>69</sup> The proud have smeared a lie upon me.<br>With my whole heart, I will keep your precepts.<br>
 <sup>70</sup> Their heart is as callous as the fat,<br>but I delight in your law.<br>
 <sup>71</sup> It is good for me that I have been afflicted,<br>that I may learn your statutes.<br>
-<sup>72</sup> The law of your mouth is better to me than thousands of pieces of gold and silver.
+<sup>72</sup> The law of your mouth is better to me than thousands of pieces of gold and silver.<br>
 
 #### YODH
-
 <sup>73</sup> Your hands have made me and formed me.<br>Give me understanding, that I may learn your commandments.<br>
 <sup>74</sup> Those who fear you will see me and be glad,<br>because I have put my hope in your word.<br>
 <sup>75</sup> Yahweh, I know that your judgments are righteous,<br>that in faithfulness you have afflicted me.<br>
@@ -2818,10 +2765,9 @@ They never change<br>and don’t fear God.<br>
 <sup>77</sup> Let your tender mercies come to me, that I may live;<br>for your law is my delight.<br>
 <sup>78</sup> Let the proud be disappointed, for they have overthrown me wrongfully.<br>I will meditate on your precepts.<br>
 <sup>79</sup> Let those who fear you turn to me.<br>They will know your statutes.<br>
-<sup>80</sup> Let my heart be blameless toward your decrees,<br>that I may not be disappointed.
+<sup>80</sup> Let my heart be blameless toward your decrees,<br>that I may not be disappointed.<br>
 
 #### KAPF
-
 <sup>81</sup> My soul faints for your salvation.<br>I hope in your word.<br>
 <sup>82</sup> My eyes fail for your word.<br>I say, “When will you comfort me?”<br>
 <sup>83</sup> For I have become like a wineskin in the smoke.<br>I don’t forget your statutes.<br>
@@ -2829,10 +2775,9 @@ They never change<br>and don’t fear God.<br>
 <sup>85</sup> The proud have dug pits for me,<br>contrary to your law.<br>
 <sup>86</sup> All of your commandments are faithful.<br>They persecute me wrongfully.<br>Help me!<br>
 <sup>87</sup> They had almost wiped me from the earth,<br>but I didn’t forsake your precepts.<br>
-<sup>88</sup> Preserve my life according to your loving kindness,<br>so I will obey the statutes of your mouth.
+<sup>88</sup> Preserve my life according to your loving kindness,<br>so I will obey the statutes of your mouth.<br>
 
 #### LAMEDH
-
 <sup>89</sup> Yahweh, your word is settled in heaven forever.<br>
 <sup>90</sup> Your faithfulness is to all generations.<br>You have established the earth, and it remains.<br>
 <sup>91</sup> Your laws remain to this day,<br>for all things serve you.<br>
@@ -2840,10 +2785,9 @@ They never change<br>and don’t fear God.<br>
 <sup>93</sup> I will never forget your precepts,<br>for with them, you have revived me.<br>
 <sup>94</sup> I am yours.<br>Save me, for I have sought your precepts.<br>
 <sup>95</sup> The wicked have waited for me, to destroy me.<br>I will consider your statutes.<br>
-<sup>96</sup> I have seen a limit to all perfection,<br>but your commands are boundless.
+<sup>96</sup> I have seen a limit to all perfection,<br>but your commands are boundless.<br>
 
 #### MEM
-
 <sup>97</sup> How I love your law!<br>It is my meditation all day.<br>
 <sup>98</sup> Your commandments make me wiser than my enemies,<br>for your commandments are always with me.<br>
 <sup>99</sup> I have more understanding than all my teachers,<br>for your testimonies are my meditation.<br>
@@ -2851,10 +2795,9 @@ They never change<br>and don’t fear God.<br>
 <sup>101</sup> I have kept my feet from every evil way,<br>that I might observe your word.<br>
 <sup>102</sup> I have not turned away from your ordinances,<br>for you have taught me.<br>
 <sup>103</sup> How sweet are your promises to my taste,<br>more than honey to my mouth!<br>
-<sup>104</sup> Through your precepts, I get understanding;<br>therefore I hate every false way.
+<sup>104</sup> Through your precepts, I get understanding;<br>therefore I hate every false way.<br>
 
 #### NUN
-
 <sup>105</sup> Your word is a lamp to my feet,<br>and a light for my path.<br>
 <sup>106</sup> I have sworn, and have confirmed it,<br>that I will obey your righteous ordinances.<br>
 <sup>107</sup> I am afflicted very much.<br>Revive me, Yahweh, according to your word.<br>
@@ -2862,10 +2805,9 @@ They never change<br>and don’t fear God.<br>
 <sup>109</sup> My soul is continually in my hand,<br>yet I won’t forget your law.<br>
 <sup>110</sup> The wicked have laid a snare for me,<br>yet I haven’t gone astray from your precepts.<br>
 <sup>111</sup> I have taken your testimonies as a heritage forever,<br>for they are the joy of my heart.<br>
-<sup>112</sup> I have set my heart to perform your statutes forever,<br>even to the end.
+<sup>112</sup> I have set my heart to perform your statutes forever,<br>even to the end.<br>
 
 #### SAMEKH
-
 <sup>113</sup> I hate double-minded men,<br>but I love your law.<br>
 <sup>114</sup> You are my hiding place and my shield.<br>I hope in your word.<br>
 <sup>115</sup> Depart from me, you evildoers,<br>that I may keep the commandments of my God.<br>
@@ -2873,10 +2815,9 @@ They never change<br>and don’t fear God.<br>
 <sup>117</sup> Hold me up, and I will be safe,<br>and will have respect for your statutes continually.<br>
 <sup>118</sup> You reject all those who stray from your statutes,<br>for their deceit is in vain.<br>
 <sup>119</sup> You put away all the wicked of the earth like dross.<br>Therefore I love your testimonies.<br>
-<sup>120</sup> My flesh trembles for fear of you.<br>I am afraid of your judgments.
+<sup>120</sup> My flesh trembles for fear of you.<br>I am afraid of your judgments.<br>
 
 #### AYIN
-
 <sup>121</sup> I have done what is just and righteous.<br>Don’t leave me to my oppressors.<br>
 <sup>122</sup> Ensure your servant’s well-being.<br>Don’t let the proud oppress me.<br>
 <sup>123</sup> My eyes fail looking for your salvation,<br>for your righteous word.<br>
@@ -2884,10 +2825,9 @@ They never change<br>and don’t fear God.<br>
 <sup>125</sup> I am your servant. Give me understanding,<br>that I may know your testimonies.<br>
 <sup>126</sup> It is time to act, Yahweh,<br>for they break your law.<br>
 <sup>127</sup> Therefore I love your commandments more than gold,<br>yes, more than pure gold.<br>
-<sup>128</sup> Therefore I consider all of your precepts to be right.<br>I hate every false way.
+<sup>128</sup> Therefore I consider all of your precepts to be right.<br>I hate every false way.<br>
 
 #### PE
-
 <sup>129</sup> Your testimonies are wonderful,<br>therefore my soul keeps them.<br>
 <sup>130</sup> The entrance of your words gives light.<br>It gives understanding to the simple.<br>
 <sup>131</sup> I opened my mouth wide and panted,<br>for I longed for your commandments.<br>
@@ -2895,10 +2835,9 @@ They never change<br>and don’t fear God.<br>
 <sup>133</sup> Establish my footsteps in your word.<br>Don’t let any iniquity have dominion over me.<br>
 <sup>134</sup> Redeem me from the oppression of man,<br>so I will observe your precepts.<br>
 <sup>135</sup> Make your face shine on your servant.<br>Teach me your statutes.<br>
-<sup>136</sup> Streams of tears run down my eyes,<br>because they don’t observe your law.
+<sup>136</sup> Streams of tears run down my eyes,<br>because they don’t observe your law.<br>
 
 #### TZADHE
-
 <sup>137</sup> You are righteous, Yahweh.<br>Your judgments are upright.<br>
 <sup>138</sup> You have commanded your statutes in righteousness.<br>They are fully trustworthy.<br>
 <sup>139</sup> My zeal wears me out,<br>because my enemies ignore your words.<br>
@@ -2906,10 +2845,9 @@ They never change<br>and don’t fear God.<br>
 <sup>141</sup> I am small and despised.<br>I don’t forget your precepts.<br>
 <sup>142</sup> Your righteousness is an everlasting righteousness.<br>Your law is truth.<br>
 <sup>143</sup> Trouble and anguish have taken hold of me.<br>Your commandments are my delight.<br>
-<sup>144</sup> Your testimonies are righteous forever.<br>Give me understanding, that I may live.
+<sup>144</sup> Your testimonies are righteous forever.<br>Give me understanding, that I may live.<br>
 
 #### QOPH
-
 <sup>145</sup> I have called with my whole heart.<br>Answer me, Yahweh!<br>I will keep your statutes.<br>
 <sup>146</sup> I have called to you. Save me!<br>I will obey your statutes.<br>
 <sup>147</sup> I rise before dawn and cry for help.<br>I put my hope in your words.<br>
@@ -2917,10 +2855,9 @@ They never change<br>and don’t fear God.<br>
 <sup>149</sup> Hear my voice according to your loving kindness.<br>Revive me, Yahweh, according to your ordinances.<br>
 <sup>150</sup> They draw near who follow after wickedness.<br>They are far from your law.<br>
 <sup>151</sup> You are near, Yahweh.<br>All your commandments are truth.<br>
-<sup>152</sup> Of old I have known from your testimonies,<br>that you have founded them forever.
+<sup>152</sup> Of old I have known from your testimonies,<br>that you have founded them forever.<br>
 
 #### RESH
-
 <sup>153</sup> Consider my affliction, and deliver me,<br>for I don’t forget your law.<br>
 <sup>154</sup> Plead my cause, and redeem me!<br>Revive me according to your promise.<br>
 <sup>155</sup> Salvation is far from the wicked,<br>for they don’t seek your statutes.<br>
@@ -2928,10 +2865,9 @@ They never change<br>and don’t fear God.<br>
 <sup>157</sup> Many are my persecutors and my adversaries.<br>I haven’t swerved from your testimonies.<br>
 <sup>158</sup> I look at the faithless with loathing,<br>because they don’t observe your word.<br>
 <sup>159</sup> Consider how I love your precepts.<br>Revive me, Yahweh, according to your loving kindness.<br>
-<sup>160</sup> All of your words are truth.<br>Every one of your righteous ordinances endures forever.
+<sup>160</sup> All of your words are truth.<br>Every one of your righteous ordinances endures forever.<br>
 
 #### SIN AND SHIN
-
 <sup>161</sup> Princes have persecuted me without a cause,<br>but my heart stands in awe of your words.<br>
 <sup>162</sup> I rejoice at your word,<br>as one who finds great plunder.<br>
 <sup>163</sup> I hate and abhor falsehood.<br>I love your law.<br>
@@ -2939,10 +2875,9 @@ They never change<br>and don’t fear God.<br>
 <sup>165</sup> Those who love your law have great peace.<br>Nothing causes them to stumble.<br>
 <sup>166</sup> I have hoped for your salvation, Yahweh.<br>I have done your commandments.<br>
 <sup>167</sup> My soul has observed your testimonies.<br>I love them exceedingly.<br>
-<sup>168</sup> I have obeyed your precepts and your testimonies,<br>for all my ways are before you.
+<sup>168</sup> I have obeyed your precepts and your testimonies,<br>for all my ways are before you.<br>
 
 #### TAV
-
 <sup>169</sup> Let my cry come before you, Yahweh.<br>Give me understanding according to your word.<br>
 <sup>170</sup> Let my supplication come before you.<br>Deliver me according to your word.<br>
 <sup>171</sup> Let my lips utter praise,<br>for you teach me your statutes.<br>
@@ -3247,18 +3182,15 @@ They never change<br>and don’t fear God.<br>
 
 <sup>1</sup> Deliver me, Yahweh, from evil men.<br>Preserve me from violent men:<br>
 <sup>2</sup> those who devise mischief in their hearts.<br>They continually gather themselves together for war.<br>
-<sup>3</sup> They have sharpened their tongues like a serpent.<br>Viper’s poison is under their lips.<br>Selah.
-
+<sup>3</sup> They have sharpened their tongues like a serpent.<br>Viper’s poison is under their lips. _Selah._<br>
 <sup>4</sup> Yahweh, keep me from the hands of the wicked.<br>Preserve me from the violent men who have determined to trip my feet.<br>
-<sup>5</sup> The proud have hidden a snare for me,<br>they have spread the cords of a net by the path.<br>They have set traps for me.<br>Selah.
-
+<sup>5</sup> The proud have hidden a snare for me,<br>they have spread the cords of a net by the path.<br>They have set traps for me. _Selah._<br>
 <sup>6</sup> I said to Yahweh, “You are my God.”<br>Listen to the cry of my petitions, Yahweh.<br>
 <sup>7</sup> Yahweh, the Lord, the strength of my salvation,<br>you have covered my head in the day of battle.<br>
-<sup>8</sup> Yahweh, don’t grant the desires of the wicked.<br>Don’t let their evil plans succeed, or they will become proud.<br>Selah.
-
+<sup>8</sup> Yahweh, don’t grant the desires of the wicked.<br>Don’t let their evil plans succeed, or they will become proud. _Selah._<br>
 <sup>9</sup> As for the head of those who surround me,<br>let the mischief of their own lips cover them.<br>
 <sup>10</sup> Let burning coals fall on them.<br>Let them be thrown into the fire,<br>into miry pits, from where they never rise.<br>
-<sup>11</sup> An evil speaker won’t be established in the earth.<br>Evil will hunt the violent man to overthrow him.<br>
+<sup>11</sup> An evil speaker won’t be established on the earth.<br>Evil will hunt the violent man to overthrow him.<br>
 <sup>12</sup> I know that Yahweh will maintain the cause of the afflicted,<br>and justice for the needy.<br>
 <sup>13</sup> Surely the righteous will give thanks to your name.<br>The upright will dwell in your presence.
 
@@ -3300,8 +3232,7 @@ They never change<br>and don’t fear God.<br>
 <sup>3</sup> For the enemy pursues my soul.<br>He has struck my life down to the ground.<br>He has made me live in dark places, as those who have been long dead.<br>
 <sup>4</sup> Therefore my spirit is overwhelmed within me.<br>My heart within me is desolate.<br>
 <sup>5</sup> I remember the days of old.<br>I meditate on all your doings.<br>I contemplate the work of your hands.<br>
-<sup>6</sup> I spread out my hands to you.<br>My soul thirsts for you, like a parched land.<br>Selah.
-
+<sup>6</sup> I spread out my hands to you.<br>My soul thirsts for you, like a parched land. _Selah._<br>
 <sup>7</sup> Hurry to answer me, Yahweh.<br>My spirit fails.<br>Don’t hide your face from me,<br>so that I don’t become like those who go down into the pit.<br>
 <sup>8</sup> Cause me to hear your loving kindness in the morning,<br>for I trust in you.<br>Cause me to know the way in which I should walk,<br>for I lift up my soul to you.<br>
 <sup>9</sup> Deliver me, Yahweh, from my enemies.<br>I flee to you to hide me.<br>
