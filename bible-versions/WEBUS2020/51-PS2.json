@@ -5,6 +5,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -22,11 +23,7 @@
           " composed when he fought in single combat with Goliath."
         ]
       },
-      {
-        "paragraph": true,
-        "text": "I was small among my brothers,",
-        "break": true
-      },
+      { "text": "I was small among my brothers,", "break": true },
       { "text": "and youngest in my father’s house.", "break": true },
       { "text": "I tended my father’s sheep.", "break": true }
     ]

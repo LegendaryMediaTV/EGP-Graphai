@@ -1,8 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>
-
-Love righteousness, all you who are judges of the earth.<br>Think of the Lord<sup>b</sup> with a good mind.<br>Seek him in singleness of heart,<br>
+<sup>1</sup> <sup>a</sup>Love righteousness, all you who are judges of the earth.<br>Think of the Lord<sup>b</sup> with a good mind.<br>Seek him in singleness of heart,<br>
 <sup>2</sup> because he is found by those who don’t put him to the test,<br>and is manifested to those who trust him.<br>
 <sup>3</sup> for crooked thoughts separate from God.<br>His Power convicts when it is tested,<br>and exposes the foolish;<br>
 <sup>4</sup> because wisdom will not enter into a soul that devises evil,<br>nor dwell in a body that is enslaved by sin.<br>

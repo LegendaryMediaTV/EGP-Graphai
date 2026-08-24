@@ -1,8 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup><sup>b</sup>
-
-All wisdom comes from the Lord,<br>and is with him forever.<br>
+<sup>1</sup> <sup>a</sup><sup>b</sup>All wisdom comes from the Lord,<br>and is with him forever.<br>
 <sup>2</sup> Who can count the sand of the seas,<br>the drops of rain,<br>and the days of eternity?<br>
 <sup>3</sup> Who will search out the height of the sky,<br>the breadth of the earth, the deep,<br>and wisdom?<br>
 <sup>4</sup> Wisdom has been created before all things,<br>and the understanding of prudence from everlasting.

@@ -5,6 +5,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -14,7 +15,6 @@
         }
       },
       {
-        "paragraph": true,
         "text": "The book of the words of Tobit, the son of Tobiel, the son of Ananiel, the son of Aduel, the son of Gabael, of the seed of Asiel, of the tribe of Naphtali;"
       }
     ]

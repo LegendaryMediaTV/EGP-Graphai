@@ -5,6 +5,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -15,7 +16,6 @@
         }
       },
       {
-        "paragraph": true,
         "text": "Love righteousness, all you who are judges of the earth.",
         "break": true
       },

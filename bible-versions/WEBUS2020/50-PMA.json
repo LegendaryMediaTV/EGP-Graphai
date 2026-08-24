@@ -5,6 +5,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "var",
           "content": [
@@ -13,7 +14,6 @@
           ]
         }
       },
-      { "paragraph": true },
       "O ",
       { "text": "Lord", "marks": ["sc"] },
       " Almighty in heaven, God of our fathers Abraham, Isaac, and Jacob, and of their righteous offspring,"

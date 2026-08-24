@@ -1,8 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>
-
-The book of the words of Tobit, the son of Tobiel, the son of Ananiel, the son of Aduel, the son of Gabael, of the seed of Asiel, of the tribe of Naphtali;
+<sup>1</sup> <sup>a</sup>The book of the words of Tobit, the son of Tobiel, the son of Ananiel, the son of Aduel, the son of Gabael, of the seed of Asiel, of the tribe of Naphtali;
 <sup>2</sup> who in the days of Enemessar<sup>b</sup> king of the Assyrians was carried away captive out of Thisbe, which is on the right hand of Kedesh Naphtali in Galilee above Asher.
 
 <sup>3</sup> I, Tobit walked in the ways of truth and righteousness all the days of my life, and I did many alms deeds to my kindred and my nation, who went with me into the land of the Assyrians, to Nineveh.

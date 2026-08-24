@@ -1,8 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>
-
-In the twelfth year of the reign of Nebuchadnezzar, who reigned over the Assyrians in Nineveh, the great city, in the days of Arphaxad, who reigned over the Medes in Ecbatana,
+<sup>1</sup> <sup>a</sup>In the twelfth year of the reign of Nebuchadnezzar, who reigned over the Assyrians in Nineveh, the great city, in the days of Arphaxad, who reigned over the Medes in Ecbatana,
 <sup>2</sup> and built around Ecbatana walls of hewn stones three cubits broad and six cubits long, and made the height of the wall seventy cubits, and its breadth fifty cubits,
 <sup>3</sup> and set its towers at its gates one hundred cubits high, and its breadth in the foundation was sixty cubits,
 <sup>4</sup> and made its gates, even gates that were raised to the height of seventy cubits, and their breadth forty cubits, for his mighty army to go out of, and the setting in array of his footmen—

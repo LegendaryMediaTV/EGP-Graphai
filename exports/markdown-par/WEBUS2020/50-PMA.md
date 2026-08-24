@@ -1,8 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>
-
-O LORD Almighty in heaven, God of our fathers Abraham, Isaac, and Jacob, and of their righteous offspring,
+<sup>1</sup> <sup>a</sup>O LORD Almighty in heaven, God of our fathers Abraham, Isaac, and Jacob, and of their righteous offspring,
 <sup>2</sup> you who have made heaven and earth, with all their order,
 <sup>3</sup> who have bound the sea by the word of your commandment, who have shut up the deep, and sealed it by your terrible and glorious name,
 <sup>4</sup> whom all things fear, yes, tremble before your power,

@@ -1,8 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>
-
-These are the words of the book which Baruch the son of Nerias, the son of Maaseas, the son of Sedekias, the son of Asadias, the son of Helkias, wrote in Babylon,
+<sup>1</sup> <sup>a</sup>These are the words of the book which Baruch the son of Nerias, the son of Maaseas, the son of Sedekias, the son of Asadias, the son of Helkias, wrote in Babylon,
 <sup>2</sup> in the fifth year, in the seventh day of the month, at the time when the Chaldeans took Jerusalem and burned it with fire.
 <sup>3</sup> Baruch read the words of this book in the hearing of Jechonias the son of Joakim king of Judah, and in the hearing of all the people who came to hear the book,
 <sup>4</sup> and in the hearing of the mighty men, and of the kings’ sons, and in the hearing of the elders, and in the hearing of all the people, from the least to the greatest, even of all those who lived at Babylon by the river Sud.

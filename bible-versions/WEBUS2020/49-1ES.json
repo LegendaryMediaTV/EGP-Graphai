@@ -5,6 +5,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "var",
           "content": [
@@ -14,7 +15,6 @@
         }
       },
       {
-        "paragraph": true,
         "foot": {
           "type": "xrf",
           "content": [
