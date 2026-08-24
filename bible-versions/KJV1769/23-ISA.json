@@ -36524,7 +36524,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "shepherds, as Psal. 77.21", "marks": ["i"] }
+            { "text": "shepherds, as ", "marks": ["i"] },
+            {
+              "bibleLink": "Psalm 77:20",
+              "content": { "text": "Psal. 77.20", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H7462",

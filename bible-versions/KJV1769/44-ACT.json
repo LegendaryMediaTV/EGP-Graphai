@@ -11917,7 +11917,11 @@
               "type": "trn",
               "content": [
                 "Or, ",
-                { "text": "charge, chap. 11.29, 30", "marks": ["i"] }
+                { "text": "charge, ", "marks": ["i"] },
+                {
+                  "bibleLink": "Acts 11:29, 30",
+                  "content": { "text": "chap. 11.29, 30", "marks": ["i"] }
+                }
               ]
             }
           }
@@ -12439,8 +12443,13 @@
                   "marks": ["i"]
                 },
                 " or ",
+                { "text": "feedeth her child, ", "marks": ["i"] },
                 {
-                  "text": "feedeth her child, Deut. 1.31. 2. Macc 7.27. according to the Sept. and so Chrysost.",
+                  "bibleLink": "Deuteronomy 1:31",
+                  "content": { "text": "Deut. 1.31", "marks": ["i"] }
+                },
+                {
+                  "text": ". 2. Macc 7.27. according to the Sept. and so Chrysost.",
                   "marks": ["i"]
                 }
               ]
@@ -16821,7 +16830,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "gods that you worship, 2 Thess. 2.4", "marks": ["i"] }
+            { "text": "gods that you worship, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Thessalonians 2:4",
+              "content": { "text": "2 Thess. 2.4", "marks": ["i"] }
+            }
           ]
         },
         "strong": "G4574"

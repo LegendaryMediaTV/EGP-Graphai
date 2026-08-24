@@ -695,7 +695,11 @@
               "type": "stu",
               "content": [
                 "Called ",
-                { "text": "Mat. 1.5 Booz", "marks": ["i"] }
+                {
+                  "bibleLink": "Matthew 1:5",
+                  "content": { "text": "Mat. 1.5", "marks": ["i"] }
+                },
+                { "text": " Booz", "marks": ["i"] }
               ]
             }
           }

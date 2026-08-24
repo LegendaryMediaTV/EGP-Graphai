@@ -4172,9 +4172,18 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Hodaviah, Ezra 2.4.", "marks": ["i"] },
+            { "text": "Hodaviah, ", "marks": ["i"] },
+            {
+              "bibleLink": "Ezra 2:4",
+              "content": { "text": "Ezra 2.4", "marks": ["i"] }
+            },
+            { "text": ".", "marks": ["i"] },
             " Or, ",
-            { "text": "Judah, Ezra. 3.9", "marks": ["i"] }
+            { "text": "Judah, ", "marks": ["i"] },
+            {
+              "bibleLink": "Ezra 3:9",
+              "content": { "text": "Ezra. 3.9", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H1937"

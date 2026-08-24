@@ -12899,9 +12899,18 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "ahaziah, chap. 22.1.", "marks": ["i"] },
+            { "text": "ahaziah, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Chronicles 22:1",
+              "content": { "text": "chap. 22.1", "marks": ["i"] }
+            },
+            { "text": ".", "marks": ["i"] },
             " Or, ",
-            { "text": "Azariah, ver. 6", "marks": ["i"] }
+            { "text": "Azariah, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Chronicles 21:6",
+              "content": { "text": "ver. 6", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H3059"
@@ -13153,10 +13162,18 @@
         "text": " And Azariah",
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "Otherwise called Ahaziah, ver. 1. & Jehoahaz chap. 21.17",
-            "marks": ["i"]
-          }
+          "content": [
+            { "text": "Otherwise called Ahaziah, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Chronicles 22:1",
+              "content": { "text": "ver. 1", "marks": ["i"] }
+            },
+            { "text": ". & Jehoahaz ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Chronicles 21:17",
+              "content": { "text": "chap. 21.17", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H5838"
       },
@@ -15832,9 +15849,10 @@
           "type": "stu",
           "content": [
             "That is, ",
+            { "text": "the city of David, as it is ", "marks": ["i"] },
             {
-              "text": "the city of David, as it is 2. king. 14.20",
-              "marks": ["i"]
+              "bibleLink": "2 Kings 14:20",
+              "content": { "text": "2. king. 14.20", "marks": ["i"] }
             }
           ]
         },
@@ -24343,9 +24361,18 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Jeconiah, 1. chro. 3.16.", "marks": ["i"] },
+            { "text": "Jeconiah, ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Chronicles 3:16",
+              "content": { "text": "1. chro. 3.16", "marks": ["i"] }
+            },
+            { "text": ".", "marks": ["i"] },
             " Or, ",
-            { "text": "Coniah, jer. 22.24", "marks": ["i"] }
+            { "text": "Coniah, ", "marks": ["i"] },
+            {
+              "bibleLink": "Jeremiah 22:24",
+              "content": { "text": "jer. 22.24", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H3078"

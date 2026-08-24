@@ -27526,10 +27526,13 @@
         "text": " a penny.",
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "In value seven pence halfpenny, chap. 20.2",
-            "marks": ["i"]
-          }
+          "content": [
+            { "text": "In value seven pence halfpenny, ", "marks": ["i"] },
+            {
+              "bibleLink": "Matthew 20:2",
+              "content": { "text": "chap. 20.2", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G1220"
       }
@@ -32424,10 +32427,16 @@
         "marks": ["woc"],
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "A talent is 187. pound 10. Shillings, chap. 18.24",
-            "marks": ["i"]
-          }
+          "content": [
+            {
+              "text": "A talent is 187. pound 10. Shillings, ",
+              "marks": ["i"]
+            },
+            {
+              "bibleLink": "Matthew 18:24",
+              "content": { "text": "chap. 18.24", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G5007"
       },

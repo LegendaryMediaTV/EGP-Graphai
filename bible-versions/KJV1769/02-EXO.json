@@ -12114,7 +12114,11 @@
           "type": "stu",
           "content": [
             "Called ",
-            { "text": "Jesus, Acts. 7.45", "marks": ["i"] }
+            { "text": "Jesus, ", "marks": ["i"] },
+            {
+              "bibleLink": "Acts 7:45",
+              "content": { "text": "Acts. 7.45", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H3091"

@@ -10701,7 +10701,13 @@
         "marks": ["woc"],
         "foot": {
           "type": "stu",
-          "content": { "text": "See Mat. 18.28", "marks": ["i"] }
+          "content": [
+            { "text": "See ", "marks": ["i"] },
+            {
+              "bibleLink": "Matthew 18:28",
+              "content": { "text": "Mat. 18.28", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G1220"
       },
@@ -16609,7 +16615,13 @@
         "marks": ["woc"],
         "foot": {
           "type": "stu",
-          "content": { "text": "See Matt. 20.2", "marks": ["i"] }
+          "content": [
+            { "text": "See ", "marks": ["i"] },
+            {
+              "bibleLink": "Matthew 20:2",
+              "content": { "text": "Matt. 20.2", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G1220"
       },
@@ -19445,7 +19457,13 @@
             "marks": ["woc"],
             "foot": {
               "type": "stu",
-              "content": { "text": "See Matt. 10.29", "marks": ["i"] }
+              "content": [
+                { "text": "See ", "marks": ["i"] },
+                {
+                  "bibleLink": "Matthew 10:29",
+                  "content": { "text": "Matt. 10.29", "marks": ["i"] }
+                }
+              ]
             }
           },
           { "text": "s,", "marks": ["woc"] }
@@ -21844,7 +21862,13 @@
         "marks": ["woc"],
         "foot": {
           "type": "stu",
-          "content": { "text": "See Mar. 12.42", "marks": ["i"] }
+          "content": [
+            { "text": "See ", "marks": ["i"] },
+            {
+              "bibleLink": "Mark 12:42",
+              "content": { "text": "Mar. 12.42", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G3016"
       }
@@ -22701,7 +22725,13 @@
         "marks": ["woc"],
         "foot": {
           "type": "stu",
-          "content": { "text": "See Mat. 13.33", "marks": ["i"] }
+          "content": [
+            { "text": "See ", "marks": ["i"] },
+            {
+              "bibleLink": "Matthew 13:33",
+              "content": { "text": "Mat. 13.33", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G4568"
       },
@@ -25267,10 +25297,16 @@
         "marks": ["woc"],
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "Drachma here translated a piece of silver, is the eighth part of an ounce, which cometh to seven pence half penny, and is equal to the Roman penny, Mat. 18.28",
-            "marks": ["i"]
-          }
+          "content": [
+            {
+              "text": "Drachma here translated a piece of silver, is the eighth part of an ounce, which cometh to seven pence half penny, and is equal to the Roman penny, ",
+              "marks": ["i"]
+            },
+            {
+              "bibleLink": "Matthew 18:28",
+              "content": { "text": "Mat. 18.28", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G1406"
       },
@@ -33552,7 +33588,13 @@
         "marks": ["woc"],
         "foot": {
           "type": "stu",
-          "content": { "text": "See Matt. 18.28", "marks": ["i"] }
+          "content": [
+            { "text": "See ", "marks": ["i"] },
+            {
+              "bibleLink": "Matthew 18:28",
+              "content": { "text": "Matt. 18.28", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G1220"
       },

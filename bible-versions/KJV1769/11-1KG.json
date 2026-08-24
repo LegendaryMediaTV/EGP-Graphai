@@ -7776,7 +7776,11 @@
               "type": "trn",
               "content": [
                 "Or, ",
-                { "text": "Ark, as 2. Chron. 5.9", "marks": ["i"] }
+                { "text": "Ark, as ", "marks": ["i"] },
+                {
+                  "bibleLink": "2 Chronicles 5:9",
+                  "content": { "text": "2. Chron. 5.9", "marks": ["i"] }
+                }
               ]
             }
           },

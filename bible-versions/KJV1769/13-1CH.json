@@ -236,7 +236,12 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Mash. gen. 10.23 [sic]", "marks": ["i"] }
+            { "text": "Mash. ", "marks": ["i"] },
+            {
+              "bibleLink": "Genesis 10:23",
+              "content": { "text": "gen. 10.23", "marks": ["i"] }
+            },
+            { "text": " [sic]", "marks": ["i"] }
           ]
         },
         "strong": "H4902"
@@ -434,7 +439,14 @@
         "text": " Hadad,",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Hadar, Gen. 25.14", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Hadar, ", "marks": ["i"] },
+            {
+              "bibleLink": "Genesis 25:14",
+              "content": { "text": "Gen. 25.14", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H2301"
       },
@@ -539,7 +551,14 @@
         "text": " Zephi,",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Zepho, Gen. 36.12", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Zepho, ", "marks": ["i"] },
+            {
+              "bibleLink": "Genesis 36:12",
+              "content": { "text": "Gen. 36.12", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H6825"
       },
@@ -590,7 +609,14 @@
         "text": " and Homam:",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Heman, Gen. 36.22", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Heman, ", "marks": ["i"] },
+            {
+              "bibleLink": "Genesis 36:22",
+              "content": { "text": "Gen. 36.22", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H1950"
       },
@@ -613,7 +639,14 @@
         "text": " Alian,",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Alvan, Gen. 36.23", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Alvan, ", "marks": ["i"] },
+            {
+              "bibleLink": "Genesis 36:23",
+              "content": { "text": "Gen. 36.23", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H5935"
       },
@@ -623,7 +656,14 @@
         "text": " Shephi,",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Sepho, Gen. 36.23", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Sepho, ", "marks": ["i"] },
+            {
+              "bibleLink": "Genesis 36:23",
+              "content": { "text": "Gen. 36.23", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H8195"
       },
@@ -648,7 +688,14 @@
         "text": " Amram,",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Hemdan, Gen. 36.26", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Hemdan, ", "marks": ["i"] },
+            {
+              "bibleLink": "Genesis 36:26",
+              "content": { "text": "Gen. 36.26", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H2566"
       },
@@ -674,7 +721,14 @@
             "text": " Jakan.",
             "foot": {
               "type": "trn",
-              "content": ["Or ", { "text": "Akan, Gen. 36.27", "marks": ["i"] }]
+              "content": [
+                "Or ",
+                { "text": "Akan, ", "marks": ["i"] },
+                {
+                  "bibleLink": "Genesis 36:27",
+                  "content": { "text": "Gen. 36.27", "marks": ["i"] }
+                }
+              ]
             }
           }
         ],
@@ -827,7 +881,14 @@
         "text": " Hadad",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Hadar, Gen. 36.39", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Hadar, ", "marks": ["i"] },
+            {
+              "bibleLink": "Genesis 36:39",
+              "content": { "text": "Gen. 36.39", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H1908"
       },
@@ -842,7 +903,14 @@
             "text": " Pai;",
             "foot": {
               "type": "trn",
-              "content": ["Or, ", { "text": "Pau, Gen. 36.39", "marks": ["i"] }]
+              "content": [
+                "Or, ",
+                { "text": "Pau, ", "marks": ["i"] },
+                {
+                  "bibleLink": "Genesis 36:39",
+                  "content": { "text": "Gen. 36.39", "marks": ["i"] }
+                }
+              ]
             }
           }
         ],
@@ -1034,7 +1102,14 @@
         "text": " Zimri,",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Zabdi, Josh. 7.1", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Zabdi, ", "marks": ["i"] },
+            {
+              "bibleLink": "Joshua 7:1",
+              "content": { "text": "Josh. 7.1", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H2174"
       },
@@ -1097,7 +1172,14 @@
         "text": " and Ram,",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Aram. Mat. 1.3", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Aram. ", "marks": ["i"] },
+            {
+              "bibleLink": "Matthew 1:3",
+              "content": { "text": "Mat. 1.3", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H7410"
       },
@@ -1105,7 +1187,14 @@
         "text": " and Chelubai.",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Caleb. Ver. 18", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Caleb. ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Chronicles 2:18",
+              "content": { "text": "Ver. 18", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H3621"
       }
@@ -1168,7 +1257,14 @@
         "text": " and Shimma",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Shamma, 1 Sam. 16.9", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Shamma, ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Samuel 16:9",
+              "content": { "text": "1 Sam. 16.9", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H8092"
       },
@@ -1830,7 +1926,14 @@
         "text": " Haroeh,",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Reaiah, chap. 4.2", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Reaiah, ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Chronicles 4:2",
+              "content": { "text": "chap. 4.2", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H7204"
       },
@@ -1950,7 +2053,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Chileab, 2. sam. 3.3", "marks": ["i"] }
+            { "text": "Chileab, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Samuel 3:3",
+              "content": { "text": "2. sam. 3.3", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H1840"
@@ -2032,7 +2139,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Shammua, 2. Sam. 5.14", "marks": ["i"] }
+            { "text": "Shammua, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Samuel 5:14",
+              "content": { "text": "2. Sam. 5.14", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H8092"
@@ -2047,7 +2158,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Bethsabe, 2. Sam. 11.13", "marks": ["i"] }
+            { "text": "Bethsabe, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Samuel 11:13",
+              "content": { "text": "2. Sam. 11.13", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H1340"
@@ -2068,7 +2183,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Elishua 2. Sam. 5.15", "marks": ["i"] }
+            { "text": "Elishua ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Samuel 5:15",
+              "content": { "text": "2. Sam. 5.15", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H476"
@@ -2098,7 +2217,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Beliada, 1. Chro. 14.7", "marks": ["i"] }
+            { "text": "Beliada, ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Chronicles 14:7",
+              "content": { "text": "1. Chro. 14.7", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H450"
@@ -2140,7 +2263,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Abiam, 1. king. 15.1", "marks": ["i"] }
+            { "text": "Abiam, ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Kings 15:1",
+              "content": { "text": "1. king. 15.1", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H29"
@@ -2165,7 +2292,12 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Azariah, 2. chr. 22.6 & 21.17", "marks": ["i"] }
+            { "text": "Azariah, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Chronicles 22:6",
+              "content": { "text": "2. chr. 22.6", "marks": ["i"] }
+            },
+            { "text": " & 21.17", "marks": ["i"] }
           ]
         },
         "strong": "H274"
@@ -2188,7 +2320,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Uzziah 2. king. 15.30", "marks": ["i"] }
+            { "text": "Uzziah ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Kings 15:30",
+              "content": { "text": "2. king. 15.30", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H5838"
@@ -2239,7 +2375,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Joachaz, 2. king. 23.30", "marks": ["i"] }
+            { "text": "Joachaz, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Kings 23:30",
+              "content": { "text": "2. king. 23.30", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H3110"
@@ -2253,7 +2393,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Mathania, 2. king. 24.17", "marks": ["i"] }
+            { "text": "Mathania, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Kings 24:17",
+              "content": { "text": "2. king. 24.17", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H6667"
@@ -2275,7 +2419,11 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Jehoiachin, 2. king. 24.6", "marks": ["i"] }
+            { "text": "Jehoiachin, ", "marks": ["i"] },
+            {
+              "bibleLink": "2 Kings 24:6",
+              "content": { "text": "2. king. 24.6", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H3204"
@@ -2295,7 +2443,14 @@
         "text": " of Jeconiah;",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Coniah, jer. 22.34", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Coniah, ", "marks": ["i"] },
+            {
+              "bibleLink": "Jeremiah 22:24",
+              "content": { "text": "jer. 22.24", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H3204"
       },
@@ -2312,10 +2467,13 @@
         "text": " his son,",
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "2. King. 24.17. being his uncle",
-            "marks": ["i"]
-          }
+          "content": [
+            {
+              "bibleLink": "2 Kings 24:17",
+              "content": { "text": "2. King. 24.17", "marks": ["i"] }
+            },
+            { "text": ". being his uncle", "marks": ["i"] }
+          ]
         },
         "strong": "H1121"
       }
@@ -2460,9 +2618,18 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Chelubai, Chap. 2.9.", "marks": ["i"] },
+            { "text": "Chelubai, ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Chronicles 2:9",
+              "content": { "text": "Chap. 2.9", "marks": ["i"] }
+            },
+            { "text": ".", "marks": ["i"] },
             " or ",
-            { "text": "Caleb, Chap. 2.18", "marks": ["i"] }
+            { "text": "Caleb, ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Chronicles 2:18",
+              "content": { "text": "Chap. 2.18", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H3756"
@@ -18335,7 +18502,13 @@
         "text": " six,",
         "foot": {
           "type": "stu",
-          "content": { "text": "With Shimei mentioned ver. 17", "marks": ["i"] }
+          "content": [
+            { "text": "With Shimei mentioned ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Chronicles 25:17",
+              "content": { "text": "ver. 17", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H8337"
       },

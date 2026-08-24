@@ -13403,7 +13403,12 @@
     "verse": 2,
     "content": [
       { "heading": "Sacrifices" },
-      { "text": "Speak", "strong": "H1696", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Speak",
+        "strong": "H1696",
+        "morph": "PielImpv"
+      },
       { "text": " unto Aaron,", "strong": "H175" },
       { "text": " and unto his sons,", "strong": "H1121" },
       { "text": " and unto all the children", "strong": "H1121" },

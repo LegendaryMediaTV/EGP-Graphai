@@ -984,7 +984,12 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Judah, chap. 3.9. called also Hodevah", "marks": ["i"] }
+            { "text": "Judah, ", "marks": ["i"] },
+            {
+              "bibleLink": "Ezra 3:9",
+              "content": { "text": "chap. 3.9", "marks": ["i"] }
+            },
+            { "text": ". called also Hodevah", "marks": ["i"] }
           ]
         },
         "strong": "H1938"

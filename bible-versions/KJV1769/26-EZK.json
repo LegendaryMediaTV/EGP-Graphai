@@ -29172,8 +29172,12 @@
                 { "text": "strike thee with six plagues", "marks": ["i"] },
                 ", or, ",
                 {
-                  "text": "draw thee back, with an hook of six teeth, as chap. 38.4",
+                  "text": "draw thee back, with an hook of six teeth, as ",
                   "marks": ["i"]
+                },
+                {
+                  "bibleLink": "Ezekiel 38:4",
+                  "content": { "text": "chap. 38.4", "marks": ["i"] }
                 }
               ]
             }
@@ -31447,7 +31451,11 @@
             "Or, ",
             { "text": "ward", "marks": ["i"] },
             ", or, ",
-            { "text": "ordinance, and so ver. 46", "marks": ["i"] }
+            { "text": "ordinance, and so ", "marks": ["i"] },
+            {
+              "bibleLink": "Ezekiel 40:46",
+              "content": { "text": "ver. 46", "marks": ["i"] }
+            }
           ]
         },
         "strong": "H4931"

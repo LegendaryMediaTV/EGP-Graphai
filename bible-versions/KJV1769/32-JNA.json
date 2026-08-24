@@ -15,7 +15,11 @@
           "type": "stu",
           "content": [
             "Called ",
-            { "text": "Matth. 12.39 Jonas", "marks": ["i"] }
+            {
+              "bibleLink": "Matthew 12:39",
+              "content": { "text": "Matth. 12.39", "marks": ["i"] }
+            },
+            { "text": " Jonas", "marks": ["i"] }
           ]
         },
         "strong": "H3124"

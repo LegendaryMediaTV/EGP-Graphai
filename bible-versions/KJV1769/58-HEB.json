@@ -963,7 +963,14 @@
         "text": " to him that appointed",
         "foot": {
           "type": "trn",
-          "content": ["Gr. ", { "text": "made, 1 Sam. 12.6", "marks": ["i"] }]
+          "content": [
+            "Gr. ",
+            { "text": "made, ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Samuel 12:6",
+              "content": { "text": "1 Sam. 12.6", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G4160",
         "morph": "AorActPtc"

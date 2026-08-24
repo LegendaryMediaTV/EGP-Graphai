@@ -4485,7 +4485,14 @@
         "text": " him;",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "for him, Rom. 11.36", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "for him, ", "marks": ["i"] },
+            {
+              "bibleLink": "Romans 11:36",
+              "content": { "text": "Rom. 11.36", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G846"
       },

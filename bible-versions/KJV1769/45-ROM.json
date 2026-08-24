@@ -9772,7 +9772,11 @@
           "type": "trn",
           "content": [
             "Gr. ",
-            { "text": "according to charity 1. Cor. 8.11", "marks": ["i"] }
+            { "text": "according to charity ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Corinthians 8:11",
+              "content": { "text": "1. Cor. 8.11", "marks": ["i"] }
+            }
           ]
         },
         "strong": "G26"
@@ -10661,7 +10665,14 @@
         "text": ".",
         "foot": {
           "type": "trn",
-          "content": ["Gr. ", { "text": "with you. Ver. 32", "marks": ["i"] }]
+          "content": [
+            "Gr. ",
+            { "text": "with you. ", "marks": ["i"] },
+            {
+              "bibleLink": "Romans 15:32",
+              "content": { "text": "Ver. 32", "marks": ["i"] }
+            }
+          ]
         }
       }
     ]
