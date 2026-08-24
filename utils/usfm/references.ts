@@ -425,8 +425,7 @@ export interface CrossReferenceBuildResult {
  *
  * A single target becomes one `bibleLink` object directly; multiple targets
  * become an array, each pair joined by a literal `"; "` text item — the
- * same shape already on disk in `NKJV1982/19-PSA.json` 1:1's second
- * footnote.
+ * same shape a real multi-target cross-reference footnote uses on disk.
  *
  * @param canonBookIds - See {@link resolveTarget}.
  */

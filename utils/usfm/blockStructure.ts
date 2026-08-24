@@ -12,7 +12,7 @@
  * - A block carrying {@link VerseBlock.headingContent} (a `\d`/`\ms1`/`\sp`-
  *   derived `subtitle`/`heading` object) is pushed as-is, never expanded
  *   from `text`/`nodes` and never a `paragraph`/`break` target — matching
- *   `NKJV1982/19-PSA.json`'s own shape, where a heading/subtitle always
+ *   already-shipped precedent, where a heading/subtitle always
  *   stands as its own sibling array item rather than sharing a node with
  *   the paragraph content beside it.
  * - Exactly one node, no flags at all → a bare string.

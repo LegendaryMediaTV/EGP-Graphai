@@ -354,8 +354,8 @@ describe("findStrongsNodeIssues — fraction convention", () => {
 });
 
 describe("findHeadingParagraphMismatches", () => {
-  // Fixtures combine real WEBUS2020/ESV2025 verse shapes into small
-  // synthetic "books" that isolate one mechanic at a time; production
+  // Fixtures combine real WEBUS2020 verse shapes with invented ones into
+  // small synthetic "books" that isolate one mechanic at a time; production
   // always passes exactly one real book's own verses (see auditVersion's
   // per-file loop).
 
@@ -389,10 +389,10 @@ describe("findHeadingParagraphMismatches", () => {
     expect(findings[0].next).toEqual(realNextNode);
   });
 
-  it("should treat a collapsed heading+subtitle run as correctly paired when its real next node opens a paragraph — real ESV2025 Psalm 3:1 shape", () => {
-    const headingNode = { heading: "Save Me, O My God" };
-    const subtitleNode = { subtitle: [{ text: "A Psalm of David, ", foot: { type: "xrf", content: "x" } }, "when he fled from Absalom his son."] };
-    const paragraphNode = { paragraph: true, text: "O " };
+  it("should treat a collapsed heading+subtitle run as correctly paired when its real next node opens a paragraph — synthetic heading+subtitle-then-paragraph shape", () => {
+    const headingNode = { heading: "A Plea for Help" };
+    const subtitleNode = { subtitle: [{ text: "A song, ", foot: { type: "xrf", content: "x" } }, "written for the choir director."] };
+    const paragraphNode = { paragraph: true, text: "Hear " };
 
     const verses: VerseRecord[] = [
       { book: "PSA", chapter: 5, verse: 1, content: "filler" as unknown as Content },
@@ -440,19 +440,19 @@ describe("findHeadingParagraphMismatches", () => {
     expect(findHeadingParagraphMismatches(verses)).toEqual([]);
   });
 
-  it("should stay silent on a real, correctly-paired chapter-opening heading — real ESV2025 Genesis 1:1 shape", () => {
+  it("should stay silent on a real, correctly-paired chapter-opening heading — synthetic chapter-opening heading+paragraph shape", () => {
     const verses: VerseRecord[] = [
       { book: "PSA", chapter: 119, verse: 1, content: "filler" as unknown as Content },
       {
-        // Real ESV2025 Psalm 119:9 shape — non-chapter-first evidence this
-        // synthetic book pairs a heading with a following paragraph.
+        // Non-chapter-first evidence this synthetic book pairs a heading
+        // with a following paragraph.
         book: "PSA",
         chapter: 119,
         verse: 9,
         content: [
           { heading: "Beth", type: "acrostic" },
-          { paragraph: true, text: "How can ", foot: { type: "xrf", content: "x" } },
-          { text: "a young man keep his way pure?", break: true },
+          { paragraph: true, text: "How ", foot: { type: "xrf", content: "x" } },
+          { text: "shall a young man keep his path pure?", break: true },
         ] as unknown as Content,
       },
       {
@@ -460,7 +460,7 @@ describe("findHeadingParagraphMismatches", () => {
         chapter: 1,
         verse: 1,
         content: [
-          { heading: "The Creation of the World" },
+          { heading: "The Beginning" },
           { paragraph: true, text: "In the ", foot: { type: "xrf", content: "x" } },
           "beginning, God created the heavens and the earth.",
         ] as unknown as Content,
@@ -470,7 +470,7 @@ describe("findHeadingParagraphMismatches", () => {
     expect(findHeadingParagraphMismatches(verses)).toEqual([]);
   });
 
-  it("should stay silent on a real heading+subtitle run correctly paired with a paragraph — real ESV2025 Psalm 120:1 shape", () => {
+  it("should stay silent on a real heading+subtitle run correctly paired with a paragraph — synthetic heading+subtitle-then-paragraph shape", () => {
     const verses: VerseRecord[] = [
       { book: "PSA", chapter: 119, verse: 1, content: "filler" as unknown as Content },
       {
@@ -479,7 +479,7 @@ describe("findHeadingParagraphMismatches", () => {
         verse: 9,
         content: [
           { heading: "Beth", type: "acrostic" },
-          { paragraph: true, text: "How can ", foot: { type: "xrf", content: "x" } },
+          { paragraph: true, text: "How ", foot: { type: "xrf", content: "x" } },
         ] as unknown as Content,
       },
       {
@@ -487,9 +487,9 @@ describe("findHeadingParagraphMismatches", () => {
         chapter: 120,
         verse: 1,
         content: [
-          { heading: ["Deliver Me, O ", { text: "Lord", marks: ["sc"] }] },
-          { subtitle: [{ text: "A Song of ", foot: { type: "xrf", content: "x" } }, "Ascents."] },
-          { paragraph: true, text: "In my distress I called to the " },
+          { heading: ["Rescue Me, O ", { text: "Lord", marks: ["sc"] }] },
+          { subtitle: [{ text: "A Song for ", foot: { type: "xrf", content: "x" } }, "the journey."] },
+          { paragraph: true, text: "In my trouble I cried out to the " },
           { text: "Lord", marks: ["sc"] },
         ] as unknown as Content,
       },
@@ -498,32 +498,32 @@ describe("findHeadingParagraphMismatches", () => {
     expect(findHeadingParagraphMismatches(verses).filter((f) => f.chapter === 120)).toEqual([]);
   });
 
-  it("should still flag a genuine anomaly in a book that otherwise pairs the two — real ESV2025 Amos 1:2 shape", () => {
-    const anomalyHeading = { heading: "Judgment on Israel’s Neighbors" };
+  it("should still flag a genuine anomaly in a book that otherwise pairs the two — synthetic non-chapter-first heading anomaly shape", () => {
+    const anomalyHeading = { heading: "A Warning to the Nations" };
 
     const verses: VerseRecord[] = [
-      { book: "AMS", chapter: 1, verse: 1, content: "The words of Amos..." as unknown as Content },
+      { book: "AMS", chapter: 1, verse: 1, content: "These are the words..." as unknown as Content },
       {
         book: "AMS",
         chapter: 1,
         verse: 2,
         content: [
           anomalyHeading,
-          "And he said:",
+          "He declared:",
           { paragraph: true, text: "“The ", foot: { type: "xrf", content: "x" } },
         ] as unknown as Content,
       },
-      { book: "AMS", chapter: 4, verse: 1, content: "This is the word..." as unknown as Content },
+      { book: "AMS", chapter: 4, verse: 1, content: "This is what was said..." as unknown as Content },
       {
-        // Real ESV2025 Amos 4:6 shape — non-chapter-first evidence this book
-        // does pair a heading with a following paragraph elsewhere, so 1:2's
-        // own anomaly can't hide behind "this book never pairs the two".
+        // Non-chapter-first evidence this book does pair a heading with a
+        // following paragraph elsewhere, so 1:2's own anomaly can't hide
+        // behind "this book never pairs the two".
         book: "AMS",
         chapter: 4,
         verse: 6,
         content: [
-          { heading: ["Israel Has Not Returned to the ", { text: "Lord", marks: ["sc"] }] },
-          { paragraph: true, text: "“I gave you cleanness of teeth in all your cities,", break: true },
+          { heading: ["A Call to Return to the ", { text: "Lord", marks: ["sc"] }] },
+          { paragraph: true, text: "“I gave you empty stomachs in every town,", break: true },
         ] as unknown as Content,
       },
     ];
@@ -532,7 +532,7 @@ describe("findHeadingParagraphMismatches", () => {
     expect(findings).toHaveLength(1);
     expect(findings[0]).toMatchObject({ book: "AMS", chapter: 1, verse: 2 });
     expect(findings[0].run).toEqual([anomalyHeading]);
-    expect(findings[0].next).toBe("And he said:");
+    expect(findings[0].next).toBe("He declared:");
   });
 });
 

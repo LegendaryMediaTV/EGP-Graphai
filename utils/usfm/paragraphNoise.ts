@@ -1,5 +1,5 @@
 /**
- * MSB2025's own real USFM source marks `\m` immediately before literally
+ * One real USFM import source marks `\m` immediately before literally
  * every verse — all 31,098 verses across all 66 books carry
  * `paragraph: true`, zero exceptions. That is the source export tool's own
  * default line-formatting marker, not real per-verse paragraph structure: a
@@ -9,8 +9,8 @@
  *
  * Confirmed safe against every other already-shipped, richly-tagged corpus
  * this repo carries: the highest real per-book paragraph density anywhere
- * is 61.5% (`NLT2015`'s 2 John), and WEBUS2020's own highest is 50.0% (3
- * John) — nowhere near the 100%-with-zero-exceptions bar
+ * is 61.5% (2 John), and WEBUS2020's own highest is 50.0% (3 John) —
+ * nowhere near the 100%-with-zero-exceptions bar
  * {@link isUniformParagraphNoise} requires, so that trigger is safe by a
  * wide margin, not a close call.
  *
@@ -27,10 +27,11 @@
  *
  * Must still honor `utils/auditNodes.ts`'s Check 6 rule (a heading/subtitle
  * run's own real next node keeps `paragraph: true`) even though no real
- * MSB2025 book exercises that interaction today — MSB2025 carries zero
- * headings/subtitles. The rule below is written generically, not
- * MSB2025-specific, and only a synthetic fixture can prove the interaction
- * survives suppression (see this module's own test file).
+ * book from the triggering source exercises that interaction today — that
+ * source carries zero headings/subtitles. The rule below is written
+ * generically, not tied to any one source, and only a synthetic fixture
+ * can prove the interaction survives suppression (see this module's own
+ * test file).
  */
 
 import Content from "../../types/Content";
@@ -50,7 +51,7 @@ export interface ParagraphNoiseVerse {
   readonly content: Content;
 }
 
-/** Normalizes a single node or an already-array value into an array — `Content` permits either shape (MSB2025's own real Genesis 1:1 is a bare object, not a one-element array), mirroring `utils/auditNodes.ts`'s own private `asArray`, reimplemented here rather than shared. */
+/** Normalizes a single node or an already-array value into an array — `Content` permits either shape (a real source's own Genesis 1:1 is a bare object, not a one-element array), mirroring `utils/auditNodes.ts`'s own private `asArray`, reimplemented here rather than shared. */
 function asArray(content: Content): unknown[] {
   return Array.isArray(content) ? content : [content];
 }
@@ -140,7 +141,8 @@ function stripParagraphExcept(content: Content, keepPositions: ReadonlySet<numbe
 /**
  * Detects and suppresses one whole book's own uniform, zero-exception
  * `paragraph: true` source noise (see this module's own top doc comment) —
- * the real fix for MSB2025's own bare source. `verses` must be in the
+ * the real fix for the triggering source's own bare paragraph markers.
+ * `verses` must be in the
  * book's real, on-disk order: chapter-first detection is positional (the
  * first record encountered with a given chapter number, never assumed to
  * be verse 1), matching `utils/auditNodes.ts`'s own Check 6 convention.

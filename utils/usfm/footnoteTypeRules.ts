@@ -1,28 +1,34 @@
 /**
- * The shared footnote-type classification table `imports/guide.md` §5 calls
- * for: a pure, side-effect-free lookup with no I/O, imported by both
- * `usfm/footnotes.ts` (the importer) and `usfm/verify.ts` (the independent
- * verifier) — neither may import the other's parsing/segmentation code, but
- * both must agree on this one table.
+ * The shared footnote-type classification table: a pure, side-effect-free
+ * lookup with no I/O, imported by both `usfm/footnotes.ts` (the importer)
+ * and `usfm/verify.ts` (the independent verifier) — neither may import the
+ * other's parsing/segmentation code, but both must agree on this one table.
  *
  * Classifies an already-extracted footnote body (the concatenated `\ft`/
  * `\fq`/`\fqa` text, `\fr`'s own reference label already dropped) into one
- * of guide §6's four ordered types — `xrf` → `var` → `trn` → `stu` — never
- * `map` (see {@link classifyFootnote}'s own doc comment for why).
+ * of four ordered types — `xrf` → `var` → `trn` → `stu` — never `map` (see
+ * {@link classifyFootnote}'s own doc comment for why).
  *
- * **Order matters**: a witness-language note ("Some Greek texts reverse the
- * order of verses 13 and 14... NU omits verse 14" — Matthew 17) would
- * wrongly fall through to `trn` on the word "Or"/"texts" if that rule ran
- * before `var`.
+ * **This table classifies by construct, not by memorized wording.** An
+ * earlier version of this file worked from literal phrase lists lifted out
+ * of one edition's own footnotes (down to a source-side typo,
+ * `"authorites insert"`), which meant every new edition run through it
+ * needed its own pass of new literals. The four rules below instead ask
+ * what shape a footnote body has — is it nothing but citations, does it
+ * name a manuscript witness, does it open with a translation marker, does
+ * it weigh one language's reading against another — so the same rules hold
+ * across editions without being re-derived from each one's house style.
  *
- * **WEB's own house style is not NLT's**, so this table's signal words were
- * re-derived from WEBUS2020's own real footnote bodies rather than copied
- * from guide §6's NLT-derived worked example: WEB names its Greek-text
- * traditions with the sigla its own front matter defines (MT the Byzantine
- * Majority Text, TR the Textus Receptus, NU the Nestle-Aland/UBS critical
- * text) far more often than it spells out "manuscript"/"Septuagint"/
- * "Masoretic Text" in full, and uses `LXX`/`DSS` as its own standing
- * abbreviations for the Septuagint and Dead Sea Scrolls.
+ * **Order is load-bearing**, and each rule's own doc comment below explains
+ * why it sits where it does. In short: `xrf` runs first because it is a
+ * whole-body test that a mixed note can never satisfy, so it is safe to try
+ * before anything else, and it must resolve a body like `"Heb. 6:10"` (the
+ * epistle) before any translation-opener rule gets a chance to misread
+ * `Heb.` as Hebrew. `var` runs before `trn` so a witness note that happens
+ * to use the word "reads" is not caught by the translation-alternative rule
+ * instead. The weaker language-comparison signal for `var` runs last of the
+ * four, after `trn` has already had its chance to claim an opening language
+ * name as a translation marker instead.
  */
 
 import Footnote from "../../types/Footnote";
@@ -31,304 +37,288 @@ import Footnote from "../../types/Footnote";
 export type ClassifiableFootnoteType = Exclude<NonNullable<Footnote["type"]>, "map">;
 
 /**
- * Named witness/text-tradition signals, measured directly against the real
- * in-scope corpus rather than assumed from guide §6's own NLT-derived list.
- * `Samaritan Pentateuch` and `Targum` are kept even though this corpus has
- * zero real instances of either — generic witness vocabulary, harmless to
- * check for, worth confirming absent rather than silently dropping.
- *
- * `authorities read` is the deuterocanon corpus's own recurring
- * manuscript-variant phrase ("Some/Many/other/ancient authorities read
- * <alternate>"), playing the same role as the 66-book corpus's MT/TR/NU
- * sigla, just worded differently (36 real instances across Tobit, Judith,
- * Wisdom, Sirach, 1-2 Maccabees). **Deliberately not joined by a bare
- * `"Hebrew"` phrase**: the canonical corpus already carries real footnotes
- * that mention "the Hebrew" purely as etymological background (e.g. Exodus
- * 2:10's "'Moses' sounds like the Hebrew for 'draw out'"), correctly typed
- * `stu` — a bare `"Hebrew"` entry would silently flip those to `var`.
- *
- * The remaining five entries are ASV1901's own real textual-variant
- * phrasing (16 New Testament notes citing manuscript witnesses,
- * `70-MAT.usfm` through `75-ROM.usfm`), each the verbatim wording measured
- * from those bodies, confirmed to collide with nothing in WEB's own corpus:
- *
- * - `"authorities insert"`/`"authorities add"` — the bare noun-first
- *   phrasing covering most of ASV1901's real instances (e.g. "Many ancient
- *   authorities insert...", John 5:4).
- * - `"authorities, some ancient, insert"` — Matthew 17:21/18:11's own
- *   variant, with a parenthetical clause between "authorities" and
- *   "insert" that the bare phrase above wouldn't match as one substring.
- * - `"authorites insert"` — Acts 15:34's own real source-side spelling
- *   slip (missing the second "i").
- * - `"omitted by the best ancient authorities"` — Mark 9:44/9:46's own
- *   real, reverse (verb-first) word order. Deliberately not the bare
- *   noun-first `"authorities omit"`: WEB's own deuterocanon corpus already
- *   carries 3 real "authorities omit" notes (Sirach 7:26, 1 Esdras 9:48,
- *   Manasses 1:10), correctly `stu`, that a noun-first phrase would flip
- *   to `var`; ASV1901's real wording is reverse-ordered and doesn't
- *   collide.
- */
-const WITNESS_PHRASES = [
-  "manuscript",
-  "Masoretic",
-  "Samaritan Pentateuch",
-  "Vulgate",
-  "Septuagint",
-  "Targum",
-  "Dead Sea Scrolls",
-  "some versions",
-  "LXX",
-  "DSS",
-  "authorities read",
-  "authorities insert",
-  "authorities add",
-  "authorities, some ancient, insert",
-  "authorites insert",
-  "omitted by the best ancient authorities",
-] as const;
-
-/**
  * WEB's own three self-documented Greek-text-tradition sigla (front matter,
- * "What are MT, TR, and NU?") — exported (not just the regex built from it
+ * "What are MT, TR, and NU?"), exported (not just the regex built from it
  * below) so `usfm/footnotes.ts`'s own footnote-initial capitalization fix
  * can anchor the identical vocabulary to a body's own *leading* word
- * instead of re-deriving a second copy of "which three abbreviations count
- * as a witness siglon." That fix needs to recapitalize the *whole*
- * abbreviation (Acts 4:27's real "nu adds..." casing slip becomes "NU
- * adds...", matching upstream `HEAD`, not the "Nu adds..." a bare
- * first-letter rule would produce), a different shape of use than this
- * module's own unanchored, anywhere-in-the-body match below, so the two
- * call sites share the vocabulary, not the compiled pattern.
+ * instead of re-deriving a second copy of "which abbreviations count as a
+ * witness siglon." That fix recapitalizes the *whole* abbreviation (Acts
+ * 4:27's real "nu adds..." casing slip becomes "NU adds...", not "Nu
+ * adds..."), a different shape of use than this module's own broader,
+ * unanchored, anywhere-in-the-body {@link WITNESS_SIGLA} match below, so the
+ * two call sites share the vocabulary, not the compiled pattern. Kept at
+ * three names rather than widened to match `WITNESS_SIGLA`'s own seven,
+ * since the capitalization fix has no reason to touch a body that doesn't
+ * open with one of WEB's own documented three.
  */
 export const WITNESS_SIGLA_NAMES = "TR|NU|MT";
 
 /**
- * Matched case-insensitively as a whole word, anywhere in the body. Every
- * real instance in the corpus is upper-case except one (Acts 4:27's "nu
- * adds..." — a real source-side casing slip against 200+ other upper-case
- * occurrences), which case-insensitive matching classifies correctly
- * without a special-cased typo branch.
+ * One reference-shaped run — a citation, not a claim about the text. The
+ * book name or abbreviation is optional and, when present, at most **one**
+ * word: `Ps.`, `1Sm`, `II Chron`, but never two words in a row. That cap is
+ * what keeps a real body like `"Or, Jeshimon. See 23:19."` from being read
+ * as a citation on "Jeshimon" — with two book words allowed, the pattern
+ * would swallow "Jeshimon. See" into the reference itself and leave nothing
+ * behind to prove the body is more than a citation (see
+ * {@link isNothingButReferences}). Everything else here exists to cover the
+ * real shapes citations actually take across editions: a numeral or Roman
+ * prefix (`1`, `2`, `II`), `:verse`, `:title`, or `, title`, an `f.`/`ff.`
+ * continuation marker, a `-`/`–`/`—` range, a comma-separated list of
+ * further verses, and a trailing tradition siglon (`Deuteronomy 32:43 LXX`,
+ * Hebrews 1:6's real `\x`-sourced target).
  */
-const WITNESS_SIGLA = new RegExp(`\\b(?:${WITNESS_SIGLA_NAMES})\\b`, "i");
+const REFERENCE = new RegExp(
+  [
+    "(?:(?:[1-4]|I{1,3}|IV)\\s?)?", // 1 / 2 / II numeral prefix
+    "(?:[A-Z][A-Za-z]{1,11}\\.?\\s?)?", // one book name or abbreviation, never two
+    "\\d+", // chapter (or a bare verse continuing a previous citation)
+    "(?::\\d+|:title|,\\s?title)?", // :verse, :title, ", title"
+    "(?:\\s?f{1,2}\\.?)?", // 7f. / 7ff.
+    "(?:[-–—]\\s?\\d+(?::\\d+)?(?:\\s?f{1,2}\\.?)?)?", // a-b range
+    "(?:\\s?,\\s?\\d+(?::\\d+)?(?:\\s?f{1,2}\\.?)?)*", // , 11, 18
+    "(?:\\s(?:LXX|MT|TR|NU))?", // trailing tradition siglon
+  ].join(""),
+  "g",
+);
 
 /**
- * WEB's own recurring `trn` phrasing, read directly off the real corpus
- * rather than assumed from guide §6's NLT-derived openers. WEB rarely opens
- * a note with the bare word "Or" the way NLT does — its own house style is
- * `or, <alternate reading>` (lower-case, comma-led, e.g. "or, aromatic
- * resin"), plus `Hebrew:`/`Greek:`/`Aramaic:` openers naming the literal
- * original-language reading, plus a recurring "an alternate English gloss
- * exists" sentence shape — "(can/could/may) (also) (correctly) be
- * translated", "sometimes translated"/"sometimes rendered", or "also
- * means" — each introducing a second, genuinely substitutable English
- * wording in quotes (John 1:14's "only born"/"only begotten").
- *
- * This is deliberately narrower than "any note that mentions Hebrew/Greek":
- * a note that only *names* the underlying original-language term as
- * background, with no verb saying it was *rendered* or *translated* that
- * way (Genesis 25:26's "Isaac means 'he laughs'", Revelation 9:11's
- * "'Abaddon' is a Hebrew word that means 'ruin'...") offers no live English
- * alternative and is `stu`, not `trn`.
- *
- * **The hardest real boundary this module draws.** Genesis 1:1's own
- * recurring "The Hebrew word rendered 'God' is '<Hebrew>' (Elohim)." and
- * every book's own recurring "The word translated 'Lord' is 'Adonai'."
- * look, on the surface, like the identical shape as Isaac/Abaddon/Apollyon
- * above — a quoted term, a word named as background — but *saying a word
- * was "rendered" or "translated" is itself already describing a real
- * translation choice*, the same family of signal as the `Hebrew:`/`Greek:`
- * openers and `sometimes translated`/`sometimes rendered` above, not a
- * different kind of note that merely happens to share a surface shape with
- * a name-etymology note. Isaac/Abaddon/Apollyon stay `stu` for a
- * different, principled reason, not because they use different words: they
- * explain what a name *means* because it matters to the narrative, and
- * never once say the name was *rendered* or *translated* — "Isaac means
- * 'he laughs'" reports a name's own etymology; "the word rendered 'God' is
- * 'Elohim'" reports a translation choice. Real fixtures for both sides of
- * this exact line live in this module's own tests.
- *
- * `/^Gr\.\s/i` is the deuterocanon corpus's own abbreviated spelling of the
- * same `Greek:`/`Greek ` opener (140 real instances in Tobit/2 Maccabees,
- * each immediately following `\ft` with nothing before it, so anchoring at
- * the body's own start is exactly as safe here as for the spelled-out
- * form).
- *
- * `/^(?:Literally,?|Lit\.?)\s/i` matches a `Literally,`/`literally,` opener
- * (27 real WEB instances, e.g. Leviticus 19:16's `literally, "blood"`) or
- * the abbreviated `Lit`/`Lit.` form — never spelled out in real WEB text,
- * but `NET2019` tags all 24 of its own spelled-out `"Literally, ..."`
- * bodies `trn`, and `LSB2021`/`CSB2017`/`NKJV1982` use the abbreviated form
- * for hundreds to thousands of their own real `trn` notes. **One real,
- * accepted disagreement**: `AMP1987`'s own 3 real `"Literally, ..."`
- * bodies are tagged `stu`, not `trn` — not reimported or reclassified
- * here, so no shipped data is at risk; the other four corpora's volume
- * justifies keeping the pattern this broad rather than narrowing it to
- * dodge one corpus.
- *
- * `/\bBehold\b[^.]*?\bmeans look at, take notice, observe, see, or gaze
- * at\b/i` matches WEB's own recurring interjection-gloss boilerplate
- * ("Behold", from "הִנֵּה"/"ἰδοὺ", means look at, take notice, observe, see,
- * or gaze at...", 52 real instances). **Deliberately narrow, anchored to
- * this exact, named, recurring construct** rather than a general "sentence
- * says means followed by an or-list" rule: this corpus also carries two
- * real name-etymology notes sharing the identical comma-and-`or`-separated
- * gloss-list shape ("'Abaddon' is a Hebrew word that means 'ruin',
- * 'destruction', or 'the place of destruction'" and "'Apollyon' means
- * 'Destroyer'.", Revelation 9:11), both correctly `stu` — a broader
- * structural rule would misclassify them. The real distinction: `Behold`/
- * `Lo` is a common word translators *did* translate every time its
- * underlying term occurs, and this note offers other ways that live choice
- * could have gone; `Abaddon`/`Apollyon` are transliterated proper names
- * the translators left *untranslated*, so their notes are glossary
- * background about a name, never a live alternative for anything actually
- * rendered.
- *
- * `\balso means?\b` (broadened from the exact `\balso means\b`) is a
- * grammatical-number fix, not a new construct: WEB's own real "can also
- * **mean** 'gods', 'princes', or 'angels'" (Psalm 138:1) and "can also
- * **mean** teachers, scientists, ..." (Matthew 2:1) use the bare infinitive
- * a plural-subject gloss list agrees with, which the singular `\balso
- * means\b` could never match. **A real, documented cross-corpus
- * disagreement, not silently narrowed away**: several other already-shipped
- * corpora (`CSB2017`, `ESV2025`, `NCV1991`, `NET2019`, `NIV1984`,
- * `NLT1996`, `NLT2015`) carry real, already-`stu`-tagged bodies using this
- * identical bare-infinitive construct for what reads as a genuine
- * alternative in their own house style — none of them is reimported or
- * reclassified here, and WEB's own corpus has zero unwanted collision from
- * this broadening.
- *
- * The `(?:can|could|may)...be...translated` alternation gained one more
- * optional `also` after `be` (not just after the modal) to accept a real
- * word-order permutation: Acts 3:17's own recurring "may **be also**
- * correctly translated" (7 real instances). Zero collision elsewhere.
- *
- * `Hebrew[:,\s]`/`Greek[:,\s]`/`Aramaic[:,\s]` each gained a comma to their
- * own bracket class (objective 2026-08-22-001's own Finding 5), covering a
- * comma-punctuated opener in the identical translation-choice family as the
- * colon-led form — WEB's own real "Hebrew, Yahweh Nissi" (Exodus 17:15) and
- * "Greek, petra, a rock mass or bedrock." (Matthew 16:18), the corpus's own
- * only two real instances of this shape, both already `trn` upstream. Zero
- * `Aramaic,` instances exist today; the comma is added there too for the
- * same reason `Samaritan Pentateuch`/`Targum` stay in `WITNESS_PHRASES`
- * with zero real hits — harmless to check for, and it keeps the three
- * openers' own bracket classes matching each other rather than drifting.
- * Confirmed corpus-wide: exactly these two real bodies gain a comma
- * immediately after the bare language name anywhere in WEBUS2020's real
- * 2,233 footnotes, and zero real body in any other already-shipped version
- * would newly match if it were ever run through this classifier.
- *
- * `\bnot as a word, but as a grammatical marker\b/i` (objective
- * 2026-08-22-001's own Finding 5) covers WEB's own real "Aleph Tav" note —
- * "the Hebrew has the two letters 'Aleph Tav' ... not as a word, but as a
- * grammatical marker" — explaining a real Hebrew grammatical particle with
- * no English rendering at all, not a name's own etymology (the shape
- * `WITNESS_PHRASES`'s own doc comment above already warns a bare "Hebrew"
- * substring would misclassify). First described as a genuine singleton
- * (Exodus 20:1 alone); checked directly against the real corpus, that
- * description was wrong — Zechariah 12:10 carries the identical template
- * verbatim, differing only in the quoted word before it ("God" vs "me"),
- * and upstream `HEAD` tags both `trn`. Anchored to the note's own
- * distinctive closing clause, not to "Aleph Tav" or "Hebrew" alone, so nothing
- * else in the corpus's real "Hebrew"-mentioning background notes can ever
- * match it. Confirmed corpus-wide: exactly these two real bodies in
- * WEBUS2020, and zero real body in any other already-shipped version.
- *
- * `\bword\s+(?:rendered|translated)\b/i` generalizes the divine-title-
- * naming template above into a construct rather than two hardcoded literal
- * phrases ("Hebrew word rendered 'God'", "word translated 'Lord'"), so it
- * also catches every other body using the identical wording. Measured
- * directly against the full 82-file in-scope corpus: this flips exactly 71
- * real bodies from `stu` to `trn` (41 "Hebrew word rendered 'God'..."
- * instances, 30 "word translated 'Lord' is 'Adonai'" instances). Zero other
- * real WEBUS2020 body is touched: neither Isaac/Abaddon/Apollyon (none say
- * a name was "rendered" or "translated") nor the corpus's only two other
- * bodies containing either verb — Exodus 10:19's "could be more literally
- * translated" (no "word" immediately before "translated") and 1 Maccabees
- * 1:59's "The two **words** rendered altar..." (plural "words," so the
- * `\bword\b` singular boundary excludes it).
- *
- * **A real, documented cross-corpus disagreement, not silently omitted.**
- * None of the corpora below is reimported, reclassified, or written to
- * here. `AMP1987` and `NIV1984` tag their own real "word rendered/
- * translated" bodies `stu` where they read as background gloss on a word's
- * semantic range rather than a live alternative. `ESV2025`'s three
- * instances are `stu` notes about translation *uncertainty*, not an
- * offered alternative. `NET2019` (75 instances) splits internally on this
- * identical template (36 `trn`, 32 `stu`, 2 `var`), so it never applied one
- * consistent rule to this construct and carries no weight as an arbiter
- * here.
+ * Words that may sit between citations, or lead into one, without turning
+ * an otherwise citation-only body into prose. `"See marginal note on 3:9."`
+ * is the real shape this exists for: without treating "See", "marginal",
+ * "note", and "on" as connective residue, deleting the citation `3:9`
+ * leaves `"Seemarginalnoteon"` behind and the body wrongly falls through to
+ * `stu`. `"See verse 12."` and `"See 2:13 margin."` are the same shape with
+ * the lead-in on the other side of the reference.
  */
-const TRANSLATION_ALTERNATIVE_PATTERNS = [
-  /^Or,?\s/i,
-  /^Hebrew[:,\s]/i,
-  /^Greek[:,\s]/i,
-  /^Gr\.\s/i,
-  /^Aramaic[:,\s]/i,
-  /^(?:Literally,?|Lit\.?)\s/i,
-  /\bBehold\b[^.]*?\bmeans look at, take notice, observe, see, or gaze at\b/i,
-  /\b(?:can|could|may)(?:\s+also)?\s+(?:be\s+(?:also\s+)?correctly\s+translated|correctly\s+be\s+translated|be\s+(?:also\s+)?translated)\b/i,
+const CONNECTIVES =
+  /\b(?:see|compare|cf|also|and|or|marginal|notes?|on|margin|verses?|ver|vv|chapters?|chs?|cp|ff|f|parallel|following|above|below|version|greek|hebrew|aramaic|latin|gk|heb|for)\b/gi;
+
+/**
+ * The whole-body `xrf` test: a body is nothing-but-citations only if at
+ * least one real citation matches, and deleting every citation plus every
+ * connective plus punctuation leaves nothing behind. Requiring a real
+ * citation match up front is what keeps `"Or, and"` — connectives with no
+ * digit anywhere — from reading as a citation-only body just because "or"
+ * and "and" are both in {@link CONNECTIVES}; with no reference to strip, the
+ * residue check never even runs.
+ *
+ * A reference immediately followed by a trailing tradition siglon is still
+ * "nothing but a reference": Hebrews 1:6's real `\x`-sourced target,
+ * "Deuteronomy 32:43 LXX", would otherwise leave the trailing " LXX" behind
+ * as residue and fall through to {@link namesAWitness}, misreading a
+ * citation naming which tradition it quotes as a note contesting the
+ * verse's own wording.
+ */
+function isNothingButReferences(body: string): boolean {
+  if (!body.trim()) return false;
+  const references = body.match(REFERENCE);
+  if (!references) return false; // connectives alone are not a citation
+  const residue = body
+    .replace(REFERENCE, " ")
+    .replace(CONNECTIVES, " ")
+    .replace(/[;,.:\s()[\]–—-]/g, "");
+  return residue.length === 0;
+}
+
+/** Witness/text-tradition names spelled out in full, matched case-insensitively anywhere in the body. */
+const NAMED_WITNESSES =
+  /\b(?:Septuagint|Vulgate|Syriac|Peshitta|Targum|Mas?soretic|Samaritan|Dead Sea Scrolls?|Aquila|Symmachus|Theodotion|Alexandrinus|Vaticanus|Sinaiticus|Vatican|Aethiopic|Coptic|Armenian|Old Latin|the Latin|Byzantine|Majority Text)\b/;
+
+/**
+ * The same witnesses in their abbreviated, period-terminated spellings
+ * (e.g. `Tg.`, `Vss.`, `Sam.`). Kept as its own pattern rather than folded
+ * into {@link NAMED_WITNESSES}'s alternation because a trailing `\b` can
+ * never match after a period: `\.` and the space following it are both
+ * non-word characters, so there is no boundary between them, and every
+ * period-terminated alternative inside a `\b(?:...)\b` wrapper is silently
+ * unreachable. Anchoring on the period itself is what makes these match at
+ * all.
+ */
+const WITNESS_ABBREVIATIONS = /\b(?:Vg|Syr|Tg|Sam|Vss)(?![a-z])(?![.\sa-z]*\d)|\b(?:Kt|Qr|M\.T)\./;
+
+/**
+ * The short-form tradition sigla, matched **case-sensitively** on purpose.
+ * A case-insensitive version of this exact pattern is the single defect
+ * that produced the largest share of this classifier's old disagreements
+ * with ASV1901: matched with `/i`, `MT` also matches every citation of
+ * Matthew abbreviated `Mt.` (`Mt. 4:23`), reading the epistle-free Gospel
+ * as a claim about the Masoretic Text. Case-sensitive matching costs
+ * nothing here, since every real siglon in scope is written upper-case.
+ */
+const WITNESS_SIGLA = /\b(?:LXX|DSS|MT|TR|NU|RP|FH)\b/;
+
+/** Reading-verb vocabulary shared by {@link LOWERCASE_SIGLON_READING}, {@link WITNESS_CLAIM}, and {@link WITNESS_CLAIM_REVERSE} — the verbs a witness or manuscript can take when a note describes what it says. */
+const WITNESS_VERB_SOURCE =
+  "(?:reads?|adds?|omits?|omitted|inserts?|inserted|lacks?|lacking|transposes?|transposed|emended|vary|varies|writes?|says?|has|have|do(?:es)? not have|reverses?)";
+
+/**
+ * The one confirmed exception to {@link WITNESS_SIGLA}'s case-sensitivity:
+ * Acts 4:27's real "nu adds..." is a genuine source-side casing slip
+ * against 200+ upper-case occurrences elsewhere, and `classifyFootnote`
+ * sees the raw body before `usfm/footnotes.ts`'s own
+ * `capitalizeFootnoteOpening` runs, so the lower-case spelling is exactly
+ * what reaches this function. Rather than lower-casing the whole
+ * {@link WITNESS_SIGLA} check (which would let `Mt. 4:23` collide again,
+ * this time via a case-insensitive match on "mt"), this narrow allowance
+ * only fires when the lower-case siglon is immediately followed by a
+ * reading verb (`nu adds`, `mt omits`) — `Mt. 4:23` has a period and a
+ * digit after it, never a verb, so it can never satisfy this.
+ */
+const LOWERCASE_SIGLON_READING = new RegExp(`\\b(?:lxx|dss|mt|tr|nu|rp|fh)\\s+${WITNESS_VERB_SOURCE}\\b`);
+
+/** Nouns that always name a manuscript witness, whatever the sentence around them. */
+const STRONG_WITNESS_NOUN = "(?:manuscripts?|MSS?|mss?|authorities|copies|scrolls?)\\b\\.?";
+
+/**
+ * A noun that means a manuscript witness only when a reading verb sits next
+ * to it, however it is quantified. `witnesses` is apparatus jargon and
+ * ordinary scripture vocabulary at once, and the scripture sense is far
+ * commoner: of 534 real bodies across the in-scope corpora that use the
+ * word, only 163 sit near a reading verb. KJV1769's `"Or, I will give unto
+ * my two witnesses that they may prophesy"` is the shape this keeps out of
+ * `var` — a quantifier and a witness noun, and nothing to do with
+ * manuscripts. Used only by {@link WITNESS_CLAIM}, never by
+ * {@link WITNESS_PHRASE}.
+ */
+const VERB_BOUND_WITNESS_NOUN = "(?:witnesses)\\b";
+const CLAIM_WITNESS_NOUN = `(?:${STRONG_WITNESS_NOUN}|${VERB_BOUND_WITNESS_NOUN})`;
+
+/**
+ * Nouns that name a witness only when quantified (see {@link QUANTIFIER}) or
+ * paired with a reading verb (see {@link WITNESS_CLAIM}). ASV1901's real
+ * `"The Hebrew text has taken, taken."` is the body that forced this split:
+ * unquantified, "text" is just as often background description as it is a
+ * claim about a manuscript tradition, and that note is `stu`, not `var`.
+ */
+const WEAK_WITNESS_NOUN = "(?:texts?|versions?|traditions?|readings?)\\b";
+const WITNESS_NOUN = `(?:${STRONG_WITNESS_NOUN}|${WEAK_WITNESS_NOUN})`;
+
+/** Determiners that turn a witness noun into a claim about a body of manuscripts, rather than a bare mention of "the text" or "a manuscript." */
+const QUANTIFIER =
+  "(?:some|other|others|many|most|a few|few|one|two|three|several|certain|early|earliest|earlier|oldest|older|ancient|later|latter|various|numerous|best|another|alternate|alt)";
+
+/** A quantifier followed, within two words, by a witness noun — `"some ancient authorities"`, `"other mss"`, `"two early manuscripts"`. This is what lets a weak noun like `"text"`/`"version"` count once it is quantified, without letting a bare, unquantified one count on its own. */
+const WITNESS_PHRASE = new RegExp(`\\b${QUANTIFIER}(?:\\s+\\S+){0,2}\\s+${WITNESS_NOUN}`, "i");
+
+/** A strong witness noun near a reading verb, either order — `"authorities insert"` (ASV1901's own "Many ancient authorities insert...", John 5:4) and its reverse, `"omitted by the best ancient authorities"` (ASV1901's Mark 9:44/9:46). Deliberately restricted to {@link STRONG_WITNESS_NOUN}: a weak noun near a verb is still not enough on its own (see {@link WEAK_WITNESS_NOUN}'s own doc comment). */
+const WITNESS_CLAIM = new RegExp(`\\b${CLAIM_WITNESS_NOUN}[^.]{0,40}?\\b${WITNESS_VERB_SOURCE}\\b`, "i");
+const WITNESS_CLAIM_REVERSE = new RegExp(`\\b${WITNESS_VERB_SOURCE}\\b[^.]{0,40}?\\b${CLAIM_WITNESS_NOUN}`, "i");
+
+/** ASV1901's own real `"Another reading is, Ai."` phrasing — a witness claim with no named witness, no siglon, and no witness noun at all, just this fixed idiom. */
+const ANOTHER_READING = /\banother reading\b/i;
+
+/**
+ * A language name, spelled out or abbreviated, for use only in the two
+ * comparison-shaped constructs below — never matched bare, since a bare
+ * mention of "Hebrew" or "Greek" is at least as often background etymology
+ * (Genesis 25:26's "Isaac means 'he laughs'") as it is a claim about a
+ * manuscript tradition.
+ */
+const LANGUAGE = "(?:Hebrew|Greek|Aramaic|Latin|Samaritan|Heb|Gr|Aram|Lat|Syr)\\.?";
+
+/**
+ * A language name carrying its own witness noun — `"Greek version"`, `"Heb
+ * mss"`. This is strong enough to count as naming a witness outright
+ * (folded into {@link namesAWitness} below, not the weaker
+ * {@link comparesLanguageWitnesses}), because a language paired with
+ * "version"/"manuscripts"/"mss"/"copies" is not naming the original-
+ * language reading behind a translation, it is naming one side of a
+ * textual comparison — the same role {@link WITNESS_NOUN} plays for named
+ * and sigla-based witnesses. A body like `"As in Greek manuscripts; the
+ * Hebrew omits this word."` is `var` because of this clause alone,
+ * independent of the semicolon test below.
+ */
+const LANGUAGE_WITNESS = new RegExp(`\\b${LANGUAGE}\\s+(?:versions?|manuscripts?|mss?|copies)\\b`, "i");
+
+/**
+ * A language name following a semicolon — weaker evidence than
+ * {@link LANGUAGE_WITNESS}, since nothing here confirms the language is
+ * paired with a witness noun, only that it appears on the far side of a
+ * clause break from whatever came first. This is the subtlest boundary in
+ * the whole table: **a language name is a translation marker when it opens
+ * the note, and a witness when it is one side of a comparison.** A body
+ * opening with `"Hebrew lacks this word"` is `trn` — it is naming the
+ * original-language reading behind the English translation. A body like
+ * `"As in Greek manuscripts; the Hebrew omits this word."` puts "Hebrew"
+ * after a semicolon, weighing it against "Greek manuscripts" already named
+ * on the other side, and is `var`. Because this signal is weaker than
+ * an opening translation marker, {@link classifyFootnote} only consults it
+ * after {@link offersATranslationAlternative} has already had its chance to
+ * claim the opener — see that function's own place in the ordering.
+ */
+const LANGUAGE_AFTER_SEMICOLON = new RegExp(`;\\s*(?:the\\s+)?${LANGUAGE}\\b`, "i");
+
+/** The weaker of the two language-comparison signals — see {@link LANGUAGE_AFTER_SEMICOLON}'s own doc comment for why it runs last, after {@link offersATranslationAlternative}. */
+function comparesLanguageWitnesses(body: string): boolean {
+  return LANGUAGE_AFTER_SEMICOLON.test(body);
+}
+
+/** Whether `body` names a manuscript witness or text-tradition — the `var` signal. Runs before {@link offersATranslationAlternative} so a witness note that also happens to say "reads" (`"LXX reads 'angels' instead of 'gods'"`) is not caught by the translation-alternative rule instead. */
+function namesAWitness(body: string): boolean {
+  return (
+    NAMED_WITNESSES.test(body) ||
+    WITNESS_ABBREVIATIONS.test(body) ||
+    WITNESS_SIGLA.test(body) ||
+    LOWERCASE_SIGLON_READING.test(body) ||
+    WITNESS_PHRASE.test(body) ||
+    WITNESS_CLAIM.test(body) ||
+    WITNESS_CLAIM_REVERSE.test(body) ||
+    LANGUAGE_WITNESS.test(body) ||
+    ANOTHER_READING.test(body)
+  );
+}
+
+/**
+ * An *anchored* opener naming a live English alternative or the original-
+ * language reading behind the current one: `Or`, `Lit`/`Lit.`/`Literally,`,
+ * `Heb`/`Heb.`/`Hebrew`/`Hb`, `Gr`/`Gr.`/`Greek`, `Aram`/`Aramaic`, in any of
+ * their real punctuation variants (a trailing period, comma, colon, or
+ * semicolon, in any combination — `Lit.,`, `Hebrew:`, `Hebrew,`). Anchoring
+ * to the body's own start, rather than matching these words anywhere, is
+ * what keeps a bare in-sentence mention of "Hebrew" or "Greek" from
+ * claiming `trn` on its own — ASV1901's `"The Greek word denotes an act of
+ * reverence..."` is `stu`, and would not be if this matched anywhere.
+ * (What keeps `"Or, Jeshimon. See 23:19."` off `xrf` is {@link REFERENCE}'s
+ * own one-book-word cap, not this anchoring: `xrf` is settled before this
+ * rule ever runs.) This single construct covers KJV's 2,146 `Heb.` notes,
+ * YLT's 216 `Lit.,` notes, and ASV1901's 4,500 `Or,` notes — one shape,
+ * re-derived per edition only in which punctuation variant each one
+ * happens to prefer.
+ */
+const TRANSLATION_OPENER = /^\s*["'“(]?\s*(?:or|lit|literally|heb|hebrew|hb|gr|greek|aram|aramaic)\b[.,:;]*[\s“"']/i;
+
+/**
+ * Sentence-shaped translation-alternative constructs, unanchored (unlike
+ * {@link TRANSLATION_OPENER}) because each one names its own live-alternative
+ * verb explicitly enough that it cannot be mistaken for background
+ * etymology wherever in the body it falls: "can/could/may be translated",
+ * "sometimes translated"/"sometimes rendered", "word(s) rendered/translated"
+ * (WEB's own recurring "The Hebrew word rendered 'God' is 'Elohim'" and
+ * "The word translated 'Lord' is 'Adonai'" both fall out of this one
+ * generic construct, with no divine-title-specific literal needed), and
+ * "also/alternately/alternatively translated/rendered/means".
+ */
+const TRANSLATION_CONSTRUCTS = [
+  /\b(?:can|could|may)\s+(?:also\s+)?(?:be\s+)?(?:also\s+)?(?:more\s+)?(?:correctly|literally|accurately)?\s*(?:be\s+)?(?:translated|rendered)\b/i,
   /\bsometimes (?:translated|rendered)\b/i,
-  /\bword\s+(?:rendered|translated)\b/i,
-  /\balso means?\b/i,
-  /\bnot as a word, but as a grammatical marker\b/i,
+  /\bwords?\s+(?:rendered|translated)\b/i,
+  /\b(?:also|alternately|alternatively)\s+(?:translated|rendered|means?)\b/i,
 ] as const;
 
 /**
- * A reference-shaped run: `[1-4 ]Book chapter:verse[-verse]`, optionally
- * followed by a trailing tradition siglon (`LXX`/`MT`/`TR`/`NU`) — the same
- * four-siglon vocabulary and case-sensitive matching `usfm/references.ts`'s
- * own `REFERENCE_SUFFIX` uses for the identical shape, resolution-side.
- * E.g. "Exodus 30:12" or, the one real in-scope fixture needing the
- * trailing group, Hebrews 1:6's own "Deuteronomy 32:43 LXX". Used only by
- * {@link isNothingButReferences}'s own boundary test — never a real
- * resolver (`usfm/references.ts` owns turning a reference into a
- * `bibleLink`; this predicate only asks "if every reference-shaped run
- * were deleted, would anything be left").
+ * Whether `body` offers a live English alternative reading, or names the
+ * original-language reading behind the current one — the `trn` signal.
+ * Deliberately narrower than "any note that mentions Hebrew/Greek": a note
+ * that only *names* an original-language term as background, with no verb
+ * saying it was *rendered* or *translated* that way, offers no live
+ * alternative (Genesis 25:26's "Isaac means 'he laughs'", Revelation 9:11's
+ * "'Apollyon' means 'Destroyer'" are `stu`, not `trn` — neither one uses
+ * "rendered"/"translated," or any of {@link TRANSLATION_OPENER}'s anchored
+ * openers, they only report what a name means).
  */
-const REFERENCE_PATTERN = /\b(?:[1-4]\s?)?[A-Z][a-z]+(?:\s[A-Z][a-z]+)*\s\d+:\d+(?:[-–—,]\s?\d+)*(?:\s(?:LXX|MT|TR|NU))?\b/g;
-
-/**
- * Guide §6's own `xrf` test: delete every reference-shaped run from `body`
- * and see whether anything real is left. A note that is *only* references
- * (no connecting prose at all) is `xrf`; a note that merely *contains* one
- * ("cherubim are powerful angelic creatures... See Ezekiel 10.") is not.
- * The real in-scope corpus carries zero true `\f`-type notes shaped this
- * way (every reference inside a real `\f` note sits in explanatory prose),
- * so this predicate's own unit test instead uses a real reference string
- * pulled from an in-scope `\x` cross-reference's own `\xt` target (2 Kings
- * 12:4's `Exodus 30:12`) to prove the rule on a genuinely reference-only
- * body.
- *
- * **A reference immediately followed by a trailing tradition siglon is
- * still "nothing but a reference."** Hebrews 1:6's own real target,
- * "Deuteronomy 32:43 LXX," is `\x`-sourced — `usfm/references.ts`'s own
- * `buildCrossReferenceContent` hardcodes every `\x`-derived footnote's type
- * to `xrf` unconditionally, so this predicate never runs against it at
- * real import time. It does run whenever anything re-derives a type from
- * already-built `content` instead (`overhaulFootnotes.ts`'s
- * `reclassifyFootnotesIn`, `usfm/verify.ts`'s own reconciliation): without
- * this rule, the residue check would leave the trailing " LXX" behind, fall
- * through to `namesAWitness`, and misclassify the note `var` instead of
- * `xrf` — a citation naming which textual tradition it quotes is not the
- * same as a note contesting the verse's own wording. Upstream WEBUS2020
- * tags this note `xrf`; `CSB2017`'s own already-shipped corpus tags the
- * identical shape `var` instead, systematically — a real, documented
- * disagreement this fix does not resolve for that corpus, since it is
- * scoped to WEBUS2020's own confirmed convention.
- */
-function isNothingButReferences(body: string): boolean {
-  const withoutReferences = body.replace(REFERENCE_PATTERN, "").replace(/[;,.\s]/g, "");
-  return withoutReferences.length === 0 && body.trim().length > 0;
-}
-
-/** Whether `body` names a witness/text-tradition (a phrase from {@link WITNESS_PHRASES} or a siglum from {@link WITNESS_SIGLA}) — the `var` signal. */
-function namesAWitness(body: string): boolean {
-  return WITNESS_PHRASES.some((phrase) => body.includes(phrase)) || WITNESS_SIGLA.test(body);
-}
-
-/** Whether `body` offers a live English alternative reading, matching one of {@link TRANSLATION_ALTERNATIVE_PATTERNS} — the `trn` signal. */
 function offersATranslationAlternative(body: string): boolean {
-  return TRANSLATION_ALTERNATIVE_PATTERNS.some((pattern) => pattern.test(body));
+  return TRANSLATION_OPENER.test(body) || TRANSLATION_CONSTRUCTS.some((pattern) => pattern.test(body));
 }
 
 /**
@@ -361,7 +351,11 @@ export function flattenContentText(content: unknown): string {
   if (typeof content === "string") return content;
   if (Array.isArray(content)) return content.map(flattenContentText).join("");
   if (content !== null && typeof content === "object") {
-    const node = content as { text?: unknown; content?: unknown; bibleLink?: unknown };
+    const node = content as {
+      text?: unknown;
+      content?: unknown;
+      bibleLink?: unknown;
+    };
     if (typeof node.text === "string") return node.text;
     if ("content" in node) return flattenContentText(node.content);
     if (typeof node.bibleLink === "string") return node.bibleLink;
@@ -370,17 +364,15 @@ export function flattenContentText(content: unknown): string {
 }
 
 /**
- * Classifies one already-extracted footnote body into guide §6's ordered
+ * Classifies one already-extracted footnote body into the ordered
  * `xrf` → `var` → `trn` → `stu` types.
  *
- * **`map` is never returned.** Guide §6 is explicit that `map` is not
- * hypothetical in general (NET2019's own corpus populates it, from an
- * explicit `notetype="map"` source label) but that emitting it "stretches a
- * guess into existence" wherever the source gives no comparable, unambiguous
- * signal — and WEBUS2020's own footnotes carry no map-reference apparatus
- * at all, checked directly against the real corpus. This function's own
- * return type (excluding `map`) makes that a compile-time guarantee, not
- * just a runtime habit.
+ * **`map` is never returned.** No source label reaching this function ever
+ * carries an unambiguous map-reference signal comparable to the other three
+ * types' own constructs, so producing `map` here would stretch a guess into
+ * existence rather than read one off the body. This function's own return
+ * type (excluding `map`) makes that a compile-time guarantee, not just a
+ * runtime habit.
  *
  * @param body - The footnote's own concatenated `\ft`/`\fq`/`\fqa` text
  *   (`\fr`'s reference label already dropped, per the already-established
@@ -390,5 +382,6 @@ export function classifyFootnote(body: string): ClassifiableFootnoteType {
   if (isNothingButReferences(body)) return "xrf";
   if (namesAWitness(body)) return "var";
   if (offersATranslationAlternative(body)) return "trn";
+  if (comparesLanguageWitnesses(body)) return "var";
   return "stu";
 }

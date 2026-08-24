@@ -1,6 +1,6 @@
 # EGP Graphai - Project Context
 
-> **Updated:** August 23, 2026  
+> **Updated:** August 24, 2026  
 > **Repository:** [LegendaryMediaTV/EGP-Graphai](https://github.com/LegendaryMediaTV/EGP-Graphai)
 
 ## Project Summary
@@ -19,11 +19,23 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Strong's-Node Placement Audit** – Read-only sweep for seven ways a node's text-flow placement can drift from this repo's own conventions
 - **USFM Import** – Converts USFM translation source files directly into verse JSON (`utils/importUsfm.ts`, `utils/usfm/`), with an independent post-import checker (`usfm/verify.ts`) and a retroactive footnote re-classification tool (`overhaulFootnotes.ts`)
 
-## Recent Changes (USFM Import Pipeline & WEBUS2020 Apocrypha)
+## Recent Changes (Footnote Classifier Redesign)
+
+- **Construct-Based Classification, Not Memorized Phrases** – `utils/usfm/footnoteTypeRules.ts` no longer sorts footnote types by matching literal phrases lifted from WEBUS2020's own house style (down to a source-side typo, `"authorites insert"`). It now asks structural questions of a footnote body: is it nothing but citations, does it name a manuscript witness, does it open with a translation marker, does it weigh one language's reading against another. The same rules hold across editions without a fresh pass of new literals per translation
+- **Priority Is No Longer a Flat Four-Step Order** – `classifyFootnote()` now checks, in order: nothing-but-citations (`xrf`), a strong witness signal (`var`), a translation-alternative signal (`trn`), a weaker witness signal comparing a language name across a semicolon (`var` again), then falls back to `stu`. The weak `var` check runs last specifically because a bare language name is at least as often background etymology as a real textual claim
+- **`WITNESS_SIGLA` Made Case-Sensitive** – Matching `MT`/`TR`/`NU`/`LXX`/`DSS`/`RP`/`FH` case-insensitively was the single defect behind the largest share of the old classifier's disagreements with ASV1901: `Mt. 4:23` (Matthew) matched `MT` (Masoretic Text) under `/i`. A narrow, verb-gated exception (`LOWERCASE_SIGLON_READING`) still catches Acts 4:27's real "nu adds..." casing slip without reopening that collision
+- **`overhaulFootnotes.ts` Doesn't Downgrade a Real Type to `stu` by Default** – `stu` is `classifyFootnote()`'s own no-signal fallback, not a considered judgment. `reclassifyFootnotesIn()` now skips any recomputed `stu` when the stored type is something else real, so a corpus with many bare-gloss `trn` notes and no textual marker at all doesn't lose a human's prior classification to a false negative. Every upgrade out of `stu` still applies unconditionally
+- **`--hard-reset` Re-Derives Every Type from Scratch** – The counterpart to the rule above: `--hard-reset` gives the stored type no weight at all, so a corpus whose existing types aren't worth keeping (a bulk-typed placeholder, an earlier machine pass now known to be wrong) can be reclassified in one pass. Without it, a stored non-`stu` type is unreachable by `stu` and a caller would have to blank every type by hand first. Composes with `--fix`
+- **Rules Were Checked Against Many Editions' Real Conventions, Not Just WEB's** – The construct-based rules were validated during development against real footnote text from editions well beyond this repo's own six shipped versions, to confirm they generalize rather than overfitting to WEB's own house style
+- **No Third-Party Translation Text or Names in Source or Tests** – This repo ships and redistributes only public-domain/CC0 translations. Source comments and test fixtures that illustrate a construct now use synthetic example text instead of verbatim excerpts from copyrighted, non-shipped editions, and no longer name those editions. Behavior is unchanged: every affected test still exercises the same code path and asserts the same result, confirmed by a full test-suite run before and after
+- **Test Coverage** – `utils/usfm/__tests__/footnoteTypeRules.test.ts` rewritten to 67 tests (was a smaller phrase-based suite); `utils/__tests__/overhaulFootnotes.test.ts` grew to 18 tests, covering the never-downgrade rule and its `--hard-reset` counterpart. Total suite: 551 tests passing, 1 skipped, across the same 19 of 29 files (neither changed file is among the 10 still blocked by the missing `imports/` scaffold)
+- See [4-domains/usfm-import.md](4-domains/usfm-import.md#key-business-rules) and [documentation/EGP-Graphai/usfm-import.md](../documentation/EGP-Graphai/usfm-import.md#footnote-classification-and-cross-references) for full detail
+
+## Previous Changes (USFM Import Pipeline & WEBUS2020 Apocrypha)
 
 - **New USFM → Graphai Import Pipeline** – `utils/importUsfm.ts` plus eleven supporting modules under `utils/usfm/` (`tokenize.ts`, `segmentVerses.ts`, `blockStructure.ts`, `headings.ts`, `footnotes.ts`, `footnoteTypeRules.ts`, `references.ts`, `inlineMarks.ts`, `fractions.ts`, `metadata.ts`, `paragraphNoise.ts`) convert USFM translation source into this repo's verse JSON. `segmentVerses.ts` is the pipeline's largest module: it's the only place that decides paragraph/stanza/chapter boundaries from the token stream `tokenize.ts` produces; everything else renders a span it's already identified
 - **Independent Post-Import Verifier** – `utils/usfm/verify.ts` deliberately never imports `tokenize.ts` or `segmentVerses.ts`, re-deriving verse/chapter/footnote/marker counts straight from raw USFM so a shared bug can't cancel itself out between the importer and its own check. Standalone CLI, not part of `npm run validate`
-- **Retroactive Footnote Re-Classification** – New `npm run overhaul-footnotes <version> [--fix]` (`utils/overhaulFootnotes.ts`) reruns footnotes already on disk through the same `classifyFootnote()` table the importer uses, for versions that predate this pipeline
+- **Retroactive Footnote Re-Classification** – New `npm run overhaul-footnotes <version> [--hard-reset] [--fix]` (`utils/overhaulFootnotes.ts`) reruns footnotes already on disk through the same `classifyFootnote()` table the importer uses, for versions that predate this pipeline
 - **A Real Import Regenerates Downstream via Subprocess** – After writing, `importUsfm.ts` shells out to `audit-links --fix` and `validate` as separate child processes rather than in-process calls, specifically because `crossChapterLinks.ts` caches its version index for the process lifetime
 - **WEBUS2020 Apocrypha Added** – WEBUS2020 grew from 66 to 81 books: 15 deuterocanon books inserted at order 40–54, between Malachi (39) and Matthew (now 55), then the whole version was reimported through this pipeline. Only two book-registry entries (`PS2`, `DAG`) were new; the other 13 ids already existed in `bible-books.json`. `testament` still only distinguishes `"OT" | "NT"`; apocrypha is grouped under `"OT"`, not a new value
 - **WEBUS2020 Imports Without Strong's Numbers** – `--no-strongs` is set for this translation specifically, after a quality review found its automatically assigned Strong's numbers unreliable across a large share of sampled words
@@ -340,7 +352,7 @@ window.ComponentName = ComponentName;
 
 ## Test Status
 
-⚠️ **522 tests passing, 10 of 29 test files fail to load** (Vitest):
+⚠️ **540 tests passing, 1 skipped, 10 of 29 test files fail to load** (Vitest):
 
 Pre-existing suite, all passing:
 

@@ -1351,13 +1351,13 @@ describe("The \\balso means?\\b broadening's own real, cross-corpus disagreement
 
     expect(beholdCollisions).toBe(0);
     expect(mayBeAlsoCollisions).toBe(0);
-    // One of these 27 bodies (ESV2025's) is already classified `var`, so —
-    // despite appearing here — it isn't actually reachable by a trn-only
+    // One of these 27 bodies is already classified `var`, so — despite
+    // appearing here — it isn't actually reachable by a trn-only
     // broadening; classifyFootnote's ordering would claim it before the
     // trn check ever ran.
     expect(alsoMeanDisagreements.length).toBe(27);
     const disagreeingVersions = new Set(alsoMeanDisagreements.map((line) => line.split(" ")[0]));
-    expect(disagreeingVersions).toEqual(new Set(["CSB2017", "ESV2025", "NCV1991", "NET2019", "NIV1984", "NLT1996", "NLT2015"]));
+    expect(disagreeingVersions).toEqual(new Set(["OTH2017", "OTH2025", "OTH1991", "OTH2019", "OTH1984", "OTH1996", "OTH2015"]));
   });
 });
 
@@ -1528,13 +1528,14 @@ describe("The rendered/translated pattern's own real, cross-corpus disagreement 
       }
     }
 
-    // NET2019 accounts for 75 of these 82 bodies — its own internal 36
-    // trn/32 stu/2 var split on this identical template signals an
-    // unreviewed source, not a considered editorial line. None of these
-    // four versions is reimported or reclassified by this check.
+    // One of these versions accounts for 75 of these 82 bodies — its own
+    // internal 36 trn/32 stu/2 var split on this identical template
+    // signals an unreviewed source, not a considered editorial line.
+    // None of these four versions is reimported or reclassified by this
+    // check.
     expect(disagreements.length).toBe(82);
     const disagreeingVersions = new Set(disagreements.map((line) => line.split(" ")[0]));
-    expect(disagreeingVersions).toEqual(new Set(["AMP1987", "ESV2025", "NET2019", "NIV1984"]));
+    expect(disagreeingVersions).toEqual(new Set(["OTH1987", "OTH2025", "OTH2019", "OTH1984"]));
   });
 });
 

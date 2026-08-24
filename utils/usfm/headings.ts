@@ -176,10 +176,10 @@ function plainTextOf(pieces: readonly InlineTextPiece[]): string {
  * only ever needs the plain text; an ordinary superscription's own
  * `pieces` are run through the same `buildRunNodes`/`collapseContentNodes`
  * pipeline `usfm/footnotes.ts` already uses for a footnote's own body,
- * matching `NKJV1982/19-PSA.json` chapter 3 verse 1's own shape exactly —
- * so the 3 real footnote-bearing superscriptions (Psalm 46:0/90:0/145:0,
- * Q14) land inside the subtitle's own content the same way a footnote
- * lands inside any other run.
+ * matching the same footnote-in-run shape already established elsewhere in
+ * this pipeline — so the 3 real footnote-bearing superscriptions (Psalm
+ * 46:0/90:0/145:0, Q14) land inside the subtitle's own content the same
+ * way a footnote lands inside any other run.
  */
 export function buildSuperscriptionContent(
   pieces: readonly InlineTextPiece[],
@@ -208,10 +208,10 @@ export function buildSuperscriptionContent(
  *
  * `splitScriptRuns` (`imports/_lib/splitScriptRuns.ts`, already proven for
  * WEB's own bare-Greek footnote content) separates the leading Hebrew
- * letter from its trailing transliterated name, matching
- * `bible-versions/NKJV1982/19-PSA.json`'s own already-shipped `{heading:
- * [{text, script: "H"}, " <NAME>"], type: "acrostic"}` shape for a source
- * that really prints the glyph. This source's own trailing period (`"
+ * letter from its trailing transliterated name, matching the already-
+ * established `{heading: [{text, script: "H"}, " <NAME>"], type:
+ * "acrostic"}` shape for a source that really prints the glyph. This
+ * source's own trailing period (`"
  * ALEPH."`, not `" ALEPH"`) is kept — real source punctuation, not chrome
  * (confirmed against all 22 real fixtures, every one ending in a literal
  * period).
@@ -223,13 +223,13 @@ export function buildAcrosticGlyphHeading(pieces: readonly InlineTextPiece[]): C
 
 /**
  * Builds one `\sp` speaker label's own final content — always a plain
- * `heading`, per the NLT2004 decision log (guide §7). Every one of the 33
- * real in-scope instances is a
- * bare name with no embedded footnote or Strong's tag (confirmed
- * directly), so this never needs anything beyond the same run-building
- * pipeline {@link buildSuperscriptionContent} already uses for its own
- * subtitle case — reused here rather than forked, even though this
- * corpus's own real data never exercises the footnote path for `\sp`.
+ * `heading`, per this project's own decision log (guide §7). Every one of
+ * the 33 real in-scope instances is a bare name with no embedded footnote
+ * or Strong's tag (confirmed directly), so this never needs anything
+ * beyond the same run-building pipeline {@link buildSuperscriptionContent}
+ * already uses for its own subtitle case — reused here rather than
+ * forked, even though this corpus's own real data never exercises the
+ * footnote path for `\sp`.
  */
 export function buildSpeakerHeading(pieces: readonly InlineTextPiece[]): ContentHeading {
   const nodes = buildRunNodes(pieces);
@@ -250,13 +250,13 @@ const ORDINAL_WORDS = ["One", "Two", "Three", "Four", "Five"];
 
 /**
  * Builds one Psalter book-division heading — `[{text: "Book <Word>", marks:
- * ["sc"]}, " (Psalms <start>–<end>)"]`, matching `NKJV1982/19-PSA.json`
- * chapter 1 verse 1's own already-shipped shape exactly (Q3). `start`/`end`
- * are plain numbers the caller must compute from its own already-segmented
- * verse data (`usfm/segmentVerses.ts`'s own post-pass, once every `\ms1`
- * boundary's own chapter is known and the book's own highest chapter is
- * known too) — never hand-typed, and never recomputed here, since this
- * function has no access to "the rest of the book" on its own.
+ * ["sc"]}, " (Psalms <start>–<end>)"]`, matching the already-established
+ * output shape exactly (Q3). `start`/`end` are plain numbers the caller
+ * must compute from its own already-segmented verse data
+ * (`usfm/segmentVerses.ts`'s own post-pass, once every `\ms1` boundary's
+ * own chapter is known and the book's own highest chapter is known too) —
+ * never hand-typed, and never recomputed here, since this function has no
+ * access to "the rest of the book" on its own.
  *
  * @param index - 0 for the first `\ms1` this book carries, 1 for the
  *   second, and so on — selects {@link ORDINAL_WORDS}.

@@ -137,7 +137,7 @@
   - This isn't a regression in committed code. `imports/` is intentionally gitignored, and in this checkout it holds only a handful of unrelated one-off correction scripts, not the `_lib/` helper or per-version USFM source the pipeline's own doc comments assume is there. See [usfm-import.md](../4-domains/usfm-import.md#key-business-rules) for detail.
 - **Covered scenarios (in the files that do load):**
   - Lexing raw USFM into a flat token stream, including paired vs. unpaired marker interleaving (`tokenize.ts`)
-  - Footnote type classification priority: cross-reference before variant before translation before study (`footnoteTypeRules.ts`)
+  - Footnote type classification by construct (citation-only, names a witness, opens with a translation marker, compares languages across a semicolon) rather than by memorized phrases, plus the never-downgrade-to-`stu` rule and its `--hard-reset` counterpart (`footnoteTypeRules.ts`, `overhaulFootnotes.ts`)
   - Fraction notation normalization across its several raw input shapes (`fractions.ts`)
   - The shared Strong's-run/joining-space builder used by both verse content and footnote bodies (`inlineMarks.ts`)
   - The whole-book paragraph-noise suppression pass (`paragraphNoise.ts`)
@@ -334,13 +334,13 @@ This is a plain, unbundled `.js` file loaded as a `window` global in `index.html
 **Test coverage includes (where it loads):**
 
 - Token-stream lexing and paired/unpaired marker interleaving
-- Footnote classification priority (cross-reference, variant, translation, study)
+- Footnote classification by construct, in priority order (citation-only, strong witness signal, translation marker, weaker language-comparison witness signal, then study as fallback)
 - Fraction notation normalization
 - The shared Strong's-run/joining-space builder
 - Whole-book paragraph-noise suppression
 - Cross-reference resolution, including embedded references with no `\x` marker
 
-`overhaulFootnotes.ts` shares `footnoteTypeRules.ts`'s `classifyFootnote()` with the importer. A change to that function's priority or signal phrases affects both and should be tested against `utils/__tests__/overhaulFootnotes.test.ts` as well as `utils/usfm/__tests__/footnoteTypeRules.test.ts`.
+`overhaulFootnotes.ts` shares `footnoteTypeRules.ts`'s `classifyFootnote()` with the importer, and additionally owns the rule that a recomputed `stu` never overwrites a stored non-`stu` type. A change to either the classifier's priority/constructs or that never-downgrade rule affects both entry points and should be tested against `utils/__tests__/overhaulFootnotes.test.ts` as well as `utils/usfm/__tests__/footnoteTypeRules.test.ts`.
 
 ### When Adding New Bible Versions
 

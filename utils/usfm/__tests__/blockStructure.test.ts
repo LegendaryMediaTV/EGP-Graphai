@@ -8,7 +8,7 @@ describe("buildBlockContent — the three shapes content-schema.json's own prece
     expect(buildBlockContent(blocks)).toBe("In the beginning, God created the heavens and the earth.");
   });
 
-  it("should render a single flagged block as a bare object, never wrapped in a one-element array (bible-versions/NIV1984/01-GEN.json and ASV1901/01-GEN.json 1:1)", () => {
+  it("should render a single flagged block as a bare object, never wrapped in a one-element array (bible-versions/ASV1901/01-GEN.json 1:1)", () => {
     const blocks: VerseBlock[] = [{ text: "In the beginning God created the heavens and the earth.", paragraph: true }];
     expect(buildBlockContent(blocks)).toEqual({
       text: "In the beginning God created the heavens and the earth.",
@@ -21,14 +21,14 @@ describe("buildBlockContent — the three shapes content-schema.json's own prece
     expect(buildBlockContent(blocks)).toEqual({ text: "I shall not want.", break: true });
   });
 
-  it("should render multiple blocks as an array, mixing bare strings for unflagged blocks with objects for flagged ones (bible-versions/NKJV1982/19-PSA.json 1:2)", () => {
+  it("should render multiple blocks as an array, mixing bare strings for unflagged blocks with objects for flagged ones", () => {
     const blocks: VerseBlock[] = [
-      { text: "These were their names:" },
-      { text: "Of the tribe of Reuben, Shammua the son of Zaccur.", paragraph: true },
+      { text: "Here is the list of names:" },
+      { text: "From the eastern camp, Aldric son of Bren.", paragraph: true },
     ];
     expect(buildBlockContent(blocks)).toEqual([
-      "These were their names:",
-      { text: "Of the tribe of Reuben, Shammua the son of Zaccur.", paragraph: true },
+      "Here is the list of names:",
+      { text: "From the eastern camp, Aldric son of Bren.", paragraph: true },
     ]);
   });
 
@@ -97,7 +97,7 @@ describe("buildBlockContent — Phase 3's own `nodes`-aware blocks (Strong's/mar
 });
 
 describe("buildBlockContent — Phase 6's own heading-carrying blocks (subtitle/heading, standing alone, never merged or flag-attached)", () => {
-  it("should render a subtitle block as its own array item before the paragraph content that follows it (NKJV1982/19-PSA.json 3:1's own shape)", () => {
+  it("should render a subtitle block as its own array item before the paragraph content that follows it, matching already-shipped precedent's own shape", () => {
     const blocks: VerseBlock[] = [
       { text: "", headingContent: { subtitle: "A Psalm by David, when he fled from Absalom his son." } },
       { text: "Yahweh, how my adversaries have increased!", paragraph: true, break: true },
@@ -124,7 +124,7 @@ describe("buildBlockContent — Phase 6's own heading-carrying blocks (subtitle/
     expect((result[0] as Record<string, unknown>).break).toBeUndefined();
   });
 
-  it("should stack a book-division heading before a subtitle before the paragraph content, all as sibling array items (NKJV1982/19-PSA.json 42:1's own shape)", () => {
+  it("should stack a book-division heading before a subtitle before the paragraph content, all as sibling array items, matching already-shipped precedent's own shape", () => {
     const blocks: VerseBlock[] = [
       { text: "", headingContent: { heading: [{ text: "Book Two", marks: ["sc"] }, " (Psalms 42–72)"] } },
       { text: "", headingContent: { subtitle: "For the Chief Musician. A contemplation by the sons of Korah." } },

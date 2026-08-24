@@ -100,7 +100,7 @@ const PARAGRAPH_MARKER_NAMES = new Set(["p", "m", "nb", "li1", "pi1", "mi"]);
  * for completeness even though this corpus carries zero in-scope
  * instances. Marks the *last* content-bearing block that precedes it,
  * reaching backward across a verse or chapter boundary when nothing has
- * accumulated since the last one — the KJV1769/NASB1995 "same rule,
+ * accumulated since the last one — the KJV1769 "same rule,
  * two sides" convention, not a forward-looking paragraph.
  *
  * `\b` — the real stanza-break marker, USFM's own blank-line-between-poem-
@@ -316,8 +316,8 @@ export function segmentVerses(
    * between two blocks of the same verse) or might be the *next* one
    * (1:1's own trailing `\sp Beloved`, which belongs to verse 2, never
    * verse 1, even though the marker itself sits inside verse 1's own token
-   * stream before the `\v 2` boundary — matching `NLT2015/22-SOS.json`
-   * 1:2's own shape for the identical construct). Resolved in three
+   * stream before the `\v 2` boundary — matching a real source's own
+   * Song of Solomon 1:2 shape for the identical construct). Resolved in three
    * cooperating steps:
    *
    * 1. Every `d`/`sp` marker first force-flushes whatever was already
@@ -383,7 +383,7 @@ export function segmentVerses(
    * all in this block (Mark 16:9's own footnote opens its verse with
    * nothing before it), the note stands on its own —
    * `content-schema.json`'s own `minProperties: 1` allows a content object
-   * whose only property is `foot` (matching NIV1984/ASV1901's own shape
+   * whose only property is `foot` (matching ASV1901's own shape
    * for Luke 17:36).
    *
    * When the last piece already carries a `foot` of its own, a second,
@@ -507,7 +507,7 @@ export function segmentVerses(
     // it, and `flushBlock`'s own `nodes`-based check (see its own doc
     // comment) lets that survive into a real block — `blocks` below then
     // carries these verses as a content object whose only property is
-    // `foot`, matching NIV1984/ASV1901's own shape for Luke 17:36.
+    // `foot`, matching ASV1901's own shape for Luke 17:36.
     //
     // `rawOrFallback`/`asidePieces` keep `rawContent` — a diagnostic field
     // only, never written to disk — populated with real text even for
@@ -523,7 +523,7 @@ export function segmentVerses(
     // end of `currentVerseBlocks` belongs to *this* verse only if real
     // content actually followed it. When it is still sitting at the very
     // end with nothing real after it, that drain happened one verse too
-    // early (`NLT2015/22-SOS.json` 1:2's own precedent: `\sp Beloved`
+    // early (another real source's Song of Solomon 1:2 precedent: `\sp Beloved`
     // between v1 and v2 belongs to v2, never v1) — reclaim it, in original
     // order, back into the pending queue so the *next* verse's own first
     // real push picks it up instead.
@@ -918,7 +918,7 @@ export function segmentVerses(
   // unshifted onto its own boundary chapter's verse 1, ahead of whatever a
   // `\d` subtitle may have already placed there via
   // {@link pendingHeadingBlocks}'s own drain, matching
-  // `NKJV1982/19-PSA.json` 42:1's own ordering (the book-division heading
+  // a real source's own Psalm 42:1 ordering (the book-division heading
   // always comes first).
   if (bookDivisionBoundaryChapters.length > 0) {
     const maxChapter = records.reduce((max, record) => Math.max(max, record.chapter), 0);

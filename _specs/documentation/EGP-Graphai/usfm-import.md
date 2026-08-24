@@ -71,7 +71,7 @@ This is a representative sampling. The test fixtures under `utils/usfm/__tests__
 
 ## Footnote classification and cross-references
 
-`footnoteTypeRules.ts` sorts a footnote's plain text into cross-reference, variant, translation, or study, in that priority order, using signal phrases derived from this translation's own conventions (textual-witness abbreviations, "or,"-led alternate readings, the phrasing deuterocanon footnotes use to flag a manuscript-authority difference). The importer and the retroactive re-classification tool below both import this one table, so the two never disagree about what a given footnote should be.
+`footnoteTypeRules.ts` sorts a footnote's plain text into cross-reference, variant, translation, or study. Rather than matching phrases memorized from one translation's own house style, it asks structural questions of the body: is it nothing but citations, does it name a manuscript witness, does it open with a translation marker, does it weigh one language's reading against another. That's what lets the same table hold up across different editions instead of needing a fresh pass of literals re-derived from each one. The priority isn't a flat first-to-last ordering either: a strong witness signal outranks a translation marker, but a weaker one (a language name showing up after a semicolon, comparing two readings) is only checked once translation and the stronger witness signals have both already had their turn. The importer and the retroactive re-classification tool below both import this one table, so the two never disagree about what a given footnote should be.
 
 `references.ts` handles two distinct cases. An explicit `\x` cross-reference resolves against the book registry directly, rather than through the cached index the cross-chapter-link auditor builds, which may be incomplete mid-import. A reference named in ordinary footnote prose with no marker at all is linked only when the surrounding text actually names a real book, chapter, and verse, not because it follows a cue phrase like "See."
 
@@ -93,9 +93,16 @@ npm run overhaul-footnotes WEBUS2020
 
 # Rewrite them
 npm run overhaul-footnotes WEBUS2020 --fix
+
+# Re-derive every type from scratch, ignoring what's already stored
+npm run overhaul-footnotes WEBUS2020 --hard-reset --fix
 ```
 
 This tool works on JSON already committed to `bible-versions/`, independent of import. It reruns every existing footnote through the same classification table the importer uses and reports (or writes) any type that would now come out differently. It exists because most versions in the corpus predate this pipeline; without it, an improvement to the classification rules could never reach content that was never imported through USFM in the first place.
+
+One case is deliberately excluded from that rewrite: a recomputed result of study never overwrites a stored type that's something else. Study is the table's own fallback for a body with no matching construct, not a considered judgment that the note carries no real signal, and some editions carry thousands of real translation-note footnotes that are bare glosses with no textual marker at all. Overwriting a human's stored judgment on no evidence would discard it rather than correct it, so only genuine upgrades out of study into a specific type stay unconditional.
+
+`--hard-reset` is the escape hatch from that rule. It gives the stored type no weight at all and takes whatever the classifier derives, study included. Reach for it when the existing types aren't worth keeping: a version bulk-typed to a single value as a placeholder, or an earlier machine pass whose output has since proven unreliable. Without it a stored non-study type is unreachable by study, so re-deriving a version cleanly would otherwise mean blanking every type by hand first. It composes with `--fix` and previews the same way on its own.
 
 ## The apocrypha addition
 

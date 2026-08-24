@@ -27,8 +27,8 @@ const FRACTION_SLASH = "⁄";
 
 /**
  * A fraction as a source sometimes writes it: plain digits either side of the
- * real U+2044 slash, not yet raised/lowered. `imports/nkjv/nkjvText.ts` is the
- * only real corpus known to carry this shape; every other caller of
+ * real U+2044 slash, not yet raised/lowered. Exactly one imported corpus is
+ * known to carry this shape; every other caller of
  * {@link normalizeFractionText} converts it too, at no extra cost, matching
  * this module's own "however the source spells it" scope.
  */
@@ -131,7 +131,7 @@ export const CITATION_YEAR = /^ ?\(\d{4}[):]/;
  * one digit (every real fraction this module converts has a single-digit
  * numerator, so `numerator.length > 1` costs nothing) or a trailing
  * parenthesized year. Ported from `fix-ascii-fractions.ts`'s own guard,
- * verified against NET2006's 13 real citation instances.
+ * verified against a real corpus's 13 citation instances.
  *
  * @param numerator - The digits before the slash.
  * @param after - Up to six characters immediately after the match.

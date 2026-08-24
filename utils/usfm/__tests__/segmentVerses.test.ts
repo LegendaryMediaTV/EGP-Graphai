@@ -517,7 +517,7 @@ describe("segmentVerses — Psalm 1 into Psalm 2 (corrected by Finding 7: this c
 describe("segmentVerses — Genesis 1:1 (Strong's attachment: the leading-space convention and the forward-merge default, verified against real dense \\w tagging)", () => {
   const records = segmentVerses(readFixture("genesis-1-2.usfm"), "GEN");
 
-  it("should attach every joining space to the leading edge of the word after the gap, never trailing the word before it (the KJV1769/NASB1995 convention) — \"God\" also carries the real footnote its own \\f marker immediately follows, which does not disturb the spacing convention around it", () => {
+  it("should attach every joining space to the leading edge of the word after the gap, never trailing the word before it (the KJV1769 convention) — \"God\" also carries the real footnote its own \\f marker immediately follows, which does not disturb the spacing convention around it", () => {
     const verseOne = records.find((record) => record.chapter === 1 && record.verse === 1);
     expect(verseOne?.blocks[0].nodes).toEqual([
       { text: "In", strong: "H8064" },
@@ -826,7 +826,7 @@ describe("segmentVerses — Psalm 1's own \\ms1 BOOK 1 (no \\d superscription on
 describe("segmentVerses — Song of Solomon's \\sp speaker labels, both across a verse boundary and mid-verse", () => {
   const records = segmentVerses(readFixture("song-of-solomon-1-1-5.usfm"), "SNG");
 
-  it("should attach \"Beloved\" to verse 2's own first block, never to verse 1's own trailing block, even though the \\sp marker sits in verse 1's own token stream before the verse boundary (NLT2015/22-SOS.json 1:2's own precedent shape)", () => {
+  it("should attach \"Beloved\" to verse 2's own first block, never to verse 1's own trailing block, even though the \\sp marker sits in verse 1's own token stream before the verse boundary (another real source's Song of Solomon 1:2 precedent shape)", () => {
     const verseOne = records.find((record) => record.verse === 1);
     const verseTwo = records.find((record) => record.verse === 2);
     expect(verseOne?.blocks.some((block) => block.headingContent !== undefined)).toBe(false);
@@ -1187,9 +1187,8 @@ describe("segmentVerses — already-established mechanisms need no change for th
  * marker than `\d`) is dispatched the same way `\d`/`\sp`/`\s1` already
  * are, producing a standalone `{heading: [...], type: "acrostic"}` block —
  * `splitScriptRuns` separates the real Hebrew glyph from its trailing
- * transliterated name and period, matching
- * `bible-versions/NKJV1982/19-PSA.json`'s own already-shipped shape for a
- * source that really prints the glyph.
+ * transliterated name and period, matching another real source's own
+ * already-shipped shape for a source that really prints the glyph.
  */
 describe("segmentVerses — ASV1901's real \\qc (Psalm 119's acrostic letter heading, on a different marker than \\d)", () => {
   it("should attach a real {heading: [...], type: \"acrostic\"} block for \\qc's own \"א ALEPH.\" ahead of verse 1's own paragraph content, splitting the Hebrew letter from its transliterated name", () => {

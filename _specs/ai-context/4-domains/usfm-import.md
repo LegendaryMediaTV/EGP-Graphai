@@ -61,7 +61,9 @@ npm run overhaul-footnotes <version-id> [--fix]
 
 ## Key Business Rules
 
-- **Footnote classification priority is fixed and total**: `classifyFootnote()` in `footnoteTypeRules.ts` checks cross-reference, then textual-variant, then translation-alternative, then falls back to study. Every footnote gets exactly one type; `map` is never assigned by this pipeline.
+- **Footnote classification is construct-based, not phrase-based, and its priority isn't a flat four-step order.** `classifyFootnote()` in `footnoteTypeRules.ts` checks cross-reference first, then a strong witness/textual-variant signal, then a translation-alternative signal, then a weaker witness/variant signal (a language name compared across a semicolon), then falls back to study. Detection asks what shape a body has (citation-only, names a manuscript witness, opens with a translation marker, compares two language readings) rather than matching literal phrases lifted from one edition's own house style, so the same table holds across different translations. Every footnote gets exactly one type; `map` is never assigned by this pipeline.
+- **`overhaulFootnotes.ts` doesn't downgrade a real stored type to `stu` unless `--hard-reset` is given.** `stu` is `classifyFootnote()`'s own fallback for "no construct matched," not a considered judgment that a note is untyped, so `reclassifyFootnotesIn()` skips any recomputed `stu` result when the stored type is something else real. A corpus with many bare-gloss `trn` notes and no textual marker at all is the case this protects. Every other reclassification, including every upgrade out of `stu`, still applies unconditionally.
+- **`--hard-reset` re-derives every type from scratch.** It gives the stored type no weight at all, for a corpus whose existing types aren't worth keeping (a bulk-typed placeholder, an earlier machine pass now known to be wrong). It exists because without it a stored non-`stu` type is unreachable by `stu`, so a clean re-derivation would otherwise require blanking every type by hand first. Composes with `--fix`.
 - **`verify.ts` must never import `tokenize.ts` or `segmentVerses.ts`** (or anything that imports them). It exists specifically to catch a bug the importer itself couldn't see, which requires deriving its own counts independently from raw USFM rather than reusing the importer's parsing.
 - **`importUsfm.ts` is intentionally absent from `package.json`'s `scripts`.** Its own header comment is the documented invocation, since the tool takes an arbitrary local source directory that varies per translation.
 - **A real (non-preview, non-redirected) import shells out to `audit-links --fix` and `validate` as subprocesses**, not in-process function calls. `regenerateDownstream` does this specifically because `crossChapterLinks.ts` builds and caches its version index once per process, and a fresh process is the only way to guarantee that cache isn't stale mid-import.
@@ -98,9 +100,12 @@ export function classifyFootnote(body: string): ClassifiableFootnoteType {
   if (isNothingButReferences(body)) return "xrf";
   if (namesAWitness(body)) return "var";
   if (offersATranslationAlternative(body)) return "trn";
+  if (comparesLanguageWitnesses(body)) return "var";
   return "stu";
 }
 ```
+
+`namesAWitness` and `offersATranslationAlternative` each test several independent constructs (named witnesses, tradition sigla, quantified witness nouns, anchored translation openers, sentence-shaped translation verbs); `comparesLanguageWitnesses` is deliberately the weakest signal and checked last, since a bare language name is at least as often background etymology as a real textual claim.
 
 ### Acrostic heading detection
 

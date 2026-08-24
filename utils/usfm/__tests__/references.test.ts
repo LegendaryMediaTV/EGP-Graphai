@@ -41,7 +41,7 @@ describe("buildCrossReferenceContent — a single target becomes one bibleLink, 
   });
 });
 
-describe("buildCrossReferenceContent — multiple targets join with a literal \"; \" (matches NKJV1982/19-PSA.json 1:1's own shape)", () => {
+describe("buildCrossReferenceContent — multiple targets join with a literal \"; \" (matches a real multi-target cross-reference footnote's own shape)", () => {
   it("should build an array of bibleLinks joined by \"; \" for a two-target list (Hebrews 11:34's real shape — also the real WEBUS2020 cross-chapter em-dash finding, left unsplit here: the split is a post-write subprocess, never performed during construction)", () => {
     const { footnote } = xrefFrom("\\x + \\xo 11:34 \\xt 1 Kings 19:1-3; 2 Kings 6:31—7:20\\x*");
     expect(footnote.type).toBe("xrf");

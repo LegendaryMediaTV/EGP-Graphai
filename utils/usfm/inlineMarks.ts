@@ -9,7 +9,7 @@
  *  1. The joining space between two words leads the node after the gap,
  *     never trails the node before it (`{"text": "In the beginning",
  *     "strong": "H7225"}, {"text": " God", "strong": "H430"}` — never the
- *     inverted form NET2019 once shipped by mistake).
+ *     inverted form this importer once shipped by mistake).
  *  2. An untagged connector word merges *forward* by default, into the
  *     `strong`- or `foot`-carrying node it precedes, becoming that node's
  *     leading text. It merges *backward*, into the nearest preceding
@@ -55,7 +55,7 @@ export interface InlineTextPiece {
    * `foot` with nothing preceding it to attach to (e.g., Mark 16:9's
    * footnote opens its verse) — matches `content-schema.json`'s existing
    * precedent for a content object whose only property is `foot`
-   * (NIV1984/ASV1901's Luke 17:36).
+   * (ASV1901's Luke 17:36).
    */
   readonly text?: string;
   /** The Strong's number this piece's `\w`/`\+w` tag carries, if any. */
@@ -109,7 +109,7 @@ function isConnector(node: ContentObject): boolean {
  * default, forward-merge direction, which prepends the connector's text
  * onto this node's text. Requires `strong` and/or `foot` plus real text;
  * excludes a textless Strong's-only sibling (`{"strong": "H853"}`, no
- * `text` at all — the KJV1769/NASB1995 convention for a tag with nothing
+ * `text` at all — the KJV1769 convention for a tag with nothing
  * of its own to attach text to), which stops a backward scan rather than
  * becoming a home for untagged prose (guide §6), and excludes a node that
  * opens a new paragraph.
@@ -300,7 +300,7 @@ export function attachFootToPieces(pieces: InlineTextPiece[], foot: Footnote): v
  * quotation cannot merge forward (a marks mismatch), and a naive "try
  * backward whenever forward fails" rule would glue it onto "saying"
  * instead, leaving a node ending in whitespace — the defect class `npm
- * run audit-nodes` catches. Genesis 2:4 (NASB1995) confirms the
+ * run audit-nodes` catches. Genesis 2:4 confirms the
  * alternative is correct: its mark-mismatched connector stays standing
  * alone, unmerged in *either* direction, even with a good
  * `strong`-carrying node right behind it. Forward and backward use two
@@ -373,7 +373,7 @@ function leadingTightPunctuationSplit(text: string): { punctuation: string; rest
   return { punctuation: text.slice(0, index), rest: text.slice(index) };
 }
 
-/** Whether `node` is a Strong's tag with nothing of its own to attach text to (the KJV1769/NASB1995 convention) — never a real attachment target, only a scan-through when looking for one behind it. */
+/** Whether `node` is a Strong's tag with nothing of its own to attach text to (the KJV1769 convention) — never a real attachment target, only a scan-through when looking for one behind it. */
 function isTextlessStrongSibling(node: ContentObject): boolean {
   return node.strong !== undefined && node.text === undefined;
 }

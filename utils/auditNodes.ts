@@ -693,13 +693,14 @@ export interface HeadingParagraphFinding {
  *
  * A book is judged to use the convention only once real evidence exists: a
  * heading/subtitle run, sitting anywhere other than its own chapter's first
- * verse, whose real next node does open a paragraph (real ESV2025 Genesis
- * 1:1 and Psalm 120:1 supply this, among others). The chapter-first
- * exclusion exists only for *this* evidence-gathering step — see {@link
- * HeadingParagraphCandidate.isChapterFirstVerse}'s own doc comment for why
- * Song of Solomon 4:1 cannot be trusted as real evidence. Once real
- * evidence exists anywhere in the book, every run in the book — chapter-
- * first or not — is held to that same convention; a book with no real
+ * verse, whose real next node does open a paragraph (a chapter-opening
+ * heading paired with a real paragraph start, or a later mid-book
+ * heading+subtitle run doing the same, both supply this, among others). The
+ * chapter-first exclusion exists only for *this* evidence-gathering step —
+ * see {@link HeadingParagraphCandidate.isChapterFirstVerse}'s own doc
+ * comment for why Song of Solomon 4:1 cannot be trusted as real evidence.
+ * Once real evidence exists anywhere in the book, every run in the book —
+ * chapter-first or not — is held to that same convention; a book with no real
  * evidence at all reports nothing, by construction, rather than an
  * allowlist of accepted findings living beside a check that still nominally
  * disagrees with the real corpus.

@@ -30,7 +30,7 @@ describe("normalizeFractionText — real WEBUS2020 fixtures", () => {
     expect(changes).toBe(3);
   });
 
-  it("should convert a mixed number, keeping the space before the fraction (matches NKJV1982's own '7 ¹⁄₂ feet')", () => {
+  it("should convert a mixed number, keeping the space before the fraction", () => {
     const { value, changes } = normalizeFractionText("1 1/8 miles");
 
     expect(value).toBe(`1 ${uniformFraction("1", "8")} miles`);
@@ -88,7 +88,7 @@ describe("normalizeFractionText — idempotency", () => {
     expect(changes).toBe(0);
   });
 
-  it("should recognize the plain-digit-plus-U+2044 shape and raise/lower it, matching nkjvText.ts's own third fraction shape", () => {
+  it("should recognize the plain-digit-plus-U+2044 shape and raise/lower it, matching this module's third fraction shape", () => {
     // WEBUS2020's raw USFM carries zero real instances of this shape, so this
     // is a synthetic fixture proving the third shape is still covered.
     const { value, changes } = normalizeFractionText("about 1⁄2 a hin");
