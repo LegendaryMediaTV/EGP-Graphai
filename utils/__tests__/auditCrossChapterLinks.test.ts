@@ -3,12 +3,10 @@ import { CrossChapterFinding } from "../crossChapterLinks";
 import { allVersionIds, auditVersions, exitCodeFor, VersionAudit } from "../auditCrossChapterLinks";
 
 describe("auditVersions — corpus-wide sweep", () => {
-  // These four scan every version on disk — a corpus that has only grown
-  // since this file was written, including in downstream forks that carry
-  // additional versions — so each gets an explicit timeout rather than
-  // relying on vitest's 5s default, which a single unrestricted
-  // auditVersions() call is already close to on its own (see the "never
-  // write" test below, which pays for two calls).
+  // These four scan every version on disk — a corpus that only grows over
+  // time — so each gets an explicit timeout instead of vitest's 5s default;
+  // a single unrestricted auditVersions() call already runs close to that
+  // limit on its own (the "never write" test below calls it twice).
   it("should audit every version on disk when none are named", () => {
     const versionIds = allVersionIds();
     expect(versionIds.length).toBeGreaterThan(0);
@@ -28,19 +26,23 @@ describe("auditVersions — corpus-wide sweep", () => {
     for (const summary of summaries) expect(summary.findings).toHaveLength(0);
   }, 15000);
 
-  it("should scan exactly 424 bibleLink nodes in WEBUS2020 — a walk that silently stops descending would under-report this", () => {
-    // 423 (pre-fix) + 1: the split replaced one bibleLink node with two.
-    // Scoped to WEBUS2020 specifically, the only version this repo's own
-    // corpus carries any bibleLink in at all, so this regression guard
-    // doesn't depend on how many other versions happen to sit on disk.
+  it("should scan 550 bibleLink nodes in WEBUS2020, the full 81-book corpus with usfm/references.ts's own trailing-tradition-siglon fix applied", () => {
+    // WEBUS2020 currently carries 550 real bibleLink nodes — see the
+    // `findCrossChapterLinks` scanned-count test in crossChapterLinks.test.ts
+    // for what's included (524 -> 550, Phase 15's own redesign of Finding 9:
+    // 99 corpus-wide embedded links, up from Phase 14's own cue-word-gated
+    // 72, with Deuteronomy 33:16's own link now produced by that same
+    // generic mechanism directly rather than a separate import.ts override).
+    // This count drifts as the corpus changes; update it here too rather
+    // than treating a mismatch as a bug.
     const [summary] = auditVersions(["WEBUS2020"]);
-    expect(summary.scanned).toBe(424);
+    expect(summary.scanned).toBe(550);
   });
 
   it("should never write to bible-versions/ — this audit is read-only", () => {
-    // A behavioral guard, not just a doc comment: auditing every version
-    // twice must produce byte-identical results, which would not be true if
-    // any code path here mutated the files it reads.
+    // A behavioral guard: running every version's audit twice must produce
+    // byte-identical results — impossible if any code path here mutated the
+    // files it reads.
     const first = JSON.stringify(auditVersions());
     const second = JSON.stringify(auditVersions());
     expect(second).toBe(first);
@@ -49,11 +51,10 @@ describe("auditVersions — corpus-wide sweep", () => {
 
 describe("exitCodeFor", () => {
   it("should exit non-zero when a version's audit carries a finding", () => {
-    // WEBUS2020's real Hebrews 11:34 finding no longer exists post-fix (the
-    // corpus now has no finding left at all), so this branch of exitCodeFor
-    // is exercised here with WEBUS2020's own pre-fix finding, reconstructed
-    // verbatim from what `findCrossChapterLinks` measured before the split
-    // (Task 3.3's dry-run report) — a real value, just no longer a live one.
+    // The corpus now has zero real findings, so this branch of exitCodeFor
+    // is exercised with a reconstructed pre-fix finding: the same shape
+    // `findCrossChapterLinks` measured for WEBUS2020's Hebrews 11:34 before
+    // the split — a real value, just no longer a live one.
     const finding: CrossChapterFinding = {
       book: "2KG",
       atBook: "HEB",

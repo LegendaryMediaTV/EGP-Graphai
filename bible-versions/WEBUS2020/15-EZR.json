@@ -25,6 +25,7 @@
     "verse": 2,
     "content": [
       {
+        "paragraph": true,
         "text": "“Cyrus king of Persia says, ‘Yahweh, the God",
         "foot": {
           "type": "trn",
@@ -48,7 +49,7 @@
     "book": "EZR",
     "chapter": 1,
     "verse": 4,
-    "content": "Whoever is left, in any place where he lives, let the men of his place help him with silver, with gold, with goods, and with animals, in addition to the free will offering for God’s house which is in Jerusalem.’ ”"
+    "content": "Whoever is left, in any place where he lives, let the men of his place help him with silver, with gold, with goods, and with animals, in addition to the free will offering for God’s house which is in Jerusalem.’”"
   },
   {
     "book": "EZR",
@@ -546,7 +547,7 @@
         "text": "They gave according to their ability into the treasury of the work sixty-one thousand darics of gold,",
         "foot": {
           "type": "stu",
-          "content": "a daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each."
+          "content": "A daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each."
         }
       },
       {
@@ -734,10 +735,16 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 11,
-    "content": {
-      "paragraph": true,
-      "text": "This is the copy of the letter that they sent:"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "This is the copy of the letter that they sent:"
+      },
+      {
+        "paragraph": true,
+        "text": "To King Artaxerxes, from your servants, the people beyond the River."
+      }
+    ]
   },
   {
     "book": "EZR",
@@ -780,7 +787,8 @@
       {
         "paragraph": true,
         "text": "Then the king sent an answer to Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions who live in Samaria, and in the rest of the country beyond the River:"
-      }
+      },
+      { "paragraph": true, "text": "Peace." }
     ]
   },
   {
@@ -880,7 +888,10 @@
     "book": "EZR",
     "chapter": 5,
     "verse": 7,
-    "content": "They sent a letter to him, in which was written:"
+    "content": [
+      "They sent a letter to him, in which was written:",
+      { "paragraph": true, "text": "To Darius the king, all peace." }
+    ]
   },
   {
     "book": "EZR",
@@ -943,7 +954,10 @@
     "book": "EZR",
     "chapter": 5,
     "verse": 17,
-    "content": "Now therefore, if it seems good to the king, let a search be made in the king’s treasure house, which is there at Babylon, whether it is so that a decree was made by Cyrus the king to build this house of God at Jerusalem; and let the king send his pleasure to us concerning this matter.”"
+    "content": {
+      "paragraph": true,
+      "text": "Now therefore, if it seems good to the king, let a search be made in the king’s treasure house, which is there at Babylon, whether it is so that a decree was made by Cyrus the king to build this house of God at Jerusalem; and let the king send his pleasure to us concerning this matter.”"
+    }
   },
   {
     "book": "EZR",
@@ -992,7 +1006,10 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 6,
-    "content": "Now therefore, Tattenai, governor beyond the River, Shetharbozenai, and your companions the Apharsachites, who are beyond the River, you must stay far from there."
+    "content": {
+      "paragraph": true,
+      "text": "Now therefore, Tattenai, governor beyond the River, Shetharbozenai, and your companions the Apharsachites, who are beyond the River, you must stay far from there."
+    }
   },
   {
     "book": "EZR",
@@ -1178,7 +1195,14 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 12,
-    "content": { "paragraph": true, "text": "Artaxerxes, king of kings," }
+    "content": [
+      { "paragraph": true, "text": "Artaxerxes, king of kings," },
+      {
+        "paragraph": true,
+        "text": "To Ezra the priest, the scribe of the law of the perfect God of heaven."
+      },
+      { "paragraph": true, "text": "Now" }
+    ]
   },
   {
     "book": "EZR",
@@ -1232,7 +1256,10 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 21,
-    "content": "I, even I, Artaxerxes the king, make a decree to all the treasurers who are beyond the River, that whatever Ezra the priest, the scribe of the law of the God of heaven, requires of you, it shall be done with all diligence,"
+    "content": {
+      "paragraph": true,
+      "text": "I, even I, Artaxerxes the king, make a decree to all the treasurers who are beyond the River, that whatever Ezra the priest, the scribe of the law of the God of heaven, requires of you, it shall be done with all diligence,"
+    }
   },
   {
     "book": "EZR",
@@ -1273,13 +1300,19 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 24,
-    "content": "Also we inform you that it shall not be lawful to impose tribute, custom, or toll on any of the priests, Levites, singers, gatekeepers, temple servants, or laborers of this house of God."
+    "content": {
+      "paragraph": true,
+      "text": "Also we inform you that it shall not be lawful to impose tribute, custom, or toll on any of the priests, Levites, singers, gatekeepers, temple servants, or laborers of this house of God."
+    }
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 25,
-    "content": "You, Ezra, according to the wisdom of your God that is in your hand, appoint magistrates and judges who may judge all the people who are beyond the River, who all know the laws of your God; and teach him who doesn’t know them."
+    "content": {
+      "paragraph": true,
+      "text": "You, Ezra, according to the wisdom of your God that is in your hand, appoint magistrates and judges who may judge all the people who are beyond the River, who all know the laws of your God; and teach him who doesn’t know them."
+    }
   },
   {
     "book": "EZR",
@@ -1315,79 +1348,119 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 2,
-    "content": "Of the sons of Phinehas, Gershom."
+    "content": [
+      { "paragraph": true, "text": "Of the sons of Phinehas, Gershom." },
+      { "paragraph": true, "text": "Of the sons of Ithamar, Daniel." },
+      { "paragraph": true, "text": "Of the sons of David, Hattush." }
+    ]
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 3,
-    "content": "Of the sons of Shecaniah, of the sons of Parosh, Zechariah; and with him were listed by genealogy of the males one hundred fifty."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Shecaniah, of the sons of Parosh, Zechariah; and with him were listed by genealogy of the males one hundred fifty."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 4,
-    "content": "Of the sons of Pahathmoab, Eliehoenai the son of Zerahiah; and with him two hundred males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Pahathmoab, Eliehoenai the son of Zerahiah; and with him two hundred males."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 5,
-    "content": "Of the sons of Shecaniah, the son of Jahaziel; and with him three hundred males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Shecaniah, the son of Jahaziel; and with him three hundred males."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 6,
-    "content": "Of the sons of Adin, Ebed the son of Jonathan; and with him fifty males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Adin, Ebed the son of Jonathan; and with him fifty males."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 7,
-    "content": "Of the sons of Elam, Jeshaiah the son of Athaliah; and with him seventy males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Elam, Jeshaiah the son of Athaliah; and with him seventy males."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 8,
-    "content": "Of the sons of Shephatiah, Zebadiah the son of Michael; and with him eighty males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Shephatiah, Zebadiah the son of Michael; and with him eighty males."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 9,
-    "content": "Of the sons of Joab, Obadiah the son of Jehiel; and with him two hundred eighteen males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Joab, Obadiah the son of Jehiel; and with him two hundred eighteen males."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 10,
-    "content": "Of the sons of Shelomith, the son of Josiphiah; and with him one hundred sixty males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Shelomith, the son of Josiphiah; and with him one hundred sixty males."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 11,
-    "content": "Of the sons of Bebai, Zechariah the son of Bebai; and with him twenty-eight males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Bebai, Zechariah the son of Bebai; and with him twenty-eight males."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 12,
-    "content": "Of the sons of Azgad, Johanan the son of Hakkatan; and with him one hundred ten males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Azgad, Johanan the son of Hakkatan; and with him one hundred ten males."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 13,
-    "content": "Of the sons of Adonikam, who were the last, their names are: Eliphelet, Jeuel, and Shemaiah; and with them sixty males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Adonikam, who were the last, their names are: Eliphelet, Jeuel, and Shemaiah; and with them sixty males."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 14,
-    "content": "Of the sons of Bigvai, Uthai and Zabbud; and with them seventy males."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Bigvai, Uthai and Zabbud; and with them seventy males."
+    }
   },
   {
     "book": "EZR",
@@ -1488,7 +1561,7 @@
         "text": "twenty bowls of gold weighing one thousand darics,",
         "foot": {
           "type": "stu",
-          "content": "a daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each."
+          "content": "A daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each."
         }
       },
       " and two vessels of fine bright bronze, precious as gold."
@@ -1802,10 +1875,16 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 18,
-    "content": {
-      "paragraph": true,
-      "text": "Among the sons of the priests there were found who had married foreign women:"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Among the sons of the priests there were found who had married foreign women:"
+      },
+      {
+        "paragraph": true,
+        "text": "of the sons of Jeshua, the son of Jozadak, and his brothers: Maaseiah, Eliezer, Jarib, and Gedaliah."
+      }
+    ]
   },
   {
     "book": "EZR",
@@ -1817,73 +1896,112 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 20,
-    "content": "Of the sons of Immer: Hanani and Zebadiah."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Immer: Hanani and Zebadiah."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 21,
-    "content": "Of the sons of Harim: Maaseiah, Elijah, Shemaiah, Jehiel, and Uzziah."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Harim: Maaseiah, Elijah, Shemaiah, Jehiel, and Uzziah."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 22,
-    "content": "Of the sons of Pashhur: Elioenai, Maaseiah, Ishmael, Nethanel, Jozabad, and Elasah."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Pashhur: Elioenai, Maaseiah, Ishmael, Nethanel, Jozabad, and Elasah."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 23,
-    "content": "Of the Levites: Jozabad, Shimei, Kelaiah (also called Kelita), Pethahiah, Judah, and Eliezer."
+    "content": {
+      "paragraph": true,
+      "text": "Of the Levites: Jozabad, Shimei, Kelaiah (also called Kelita), Pethahiah, Judah, and Eliezer."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 24,
-    "content": "Of the singers: Eliashib."
+    "content": [
+      { "paragraph": true, "text": "Of the singers: Eliashib." },
+      {
+        "paragraph": true,
+        "text": "Of the gatekeepers: Shallum, Telem, and Uri."
+      }
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 25,
-    "content": "Of Israel: Of the sons of Parosh: Ramiah, Izziah, Malchijah, Mijamin, Eleazar, Malchijah, and Benaiah."
+    "content": {
+      "paragraph": true,
+      "text": "Of Israel: Of the sons of Parosh: Ramiah, Izziah, Malchijah, Mijamin, Eleazar, Malchijah, and Benaiah."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 26,
-    "content": "Of the sons of Elam: Mattaniah, Zechariah, Jehiel, Abdi, Jeremoth, and Elijah."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Elam: Mattaniah, Zechariah, Jehiel, Abdi, Jeremoth, and Elijah."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 27,
-    "content": "Of the sons of Zattu: Elioenai, Eliashib, Mattaniah, Jeremoth, Zabad, and Aziza."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Zattu: Elioenai, Eliashib, Mattaniah, Jeremoth, Zabad, and Aziza."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 28,
-    "content": "Of the sons of Bebai: Jehohanan, Hananiah, Zabbai, and Athlai."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Bebai: Jehohanan, Hananiah, Zabbai, and Athlai."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 29,
-    "content": "Of the sons of Bani: Meshullam, Malluch, Adaiah, Jashub, Sheal, and Jeremoth."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Bani: Meshullam, Malluch, Adaiah, Jashub, Sheal, and Jeremoth."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 30,
-    "content": "Of the sons of Pahathmoab: Adna, Chelal, Benaiah, Maaseiah, Mattaniah, Bezalel, Binnui, and Manasseh."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Pahathmoab: Adna, Chelal, Benaiah, Maaseiah, Mattaniah, Bezalel, Binnui, and Manasseh."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 31,
-    "content": "Of the sons of Harim: Eliezer, Isshijah, Malchijah, Shemaiah, Shimeon,"
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Harim: Eliezer, Isshijah, Malchijah, Shemaiah, Shimeon,"
+    }
   },
   {
     "book": "EZR",
@@ -1895,13 +2013,19 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 33,
-    "content": "Of the sons of Hashum: Mattenai, Mattattah, Zabad, Eliphelet, Jeremai, Manasseh, and Shimei."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Hashum: Mattenai, Mattattah, Zabad, Eliphelet, Jeremai, Manasseh, and Shimei."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 34,
-    "content": "Of the sons of Bani: Maadai, Amram, Uel,"
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Bani: Maadai, Amram, Uel,"
+    }
   },
   {
     "book": "EZR",
@@ -1955,7 +2079,10 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 43,
-    "content": "Of the sons of Nebo: Jeiel, Mattithiah, Zabad, Zebina, Iddo, Joel, and Benaiah."
+    "content": {
+      "paragraph": true,
+      "text": "Of the sons of Nebo: Jeiel, Mattithiah, Zabad, Zebina, Iddo, Joel, and Benaiah."
+    }
   },
   {
     "book": "EZR",

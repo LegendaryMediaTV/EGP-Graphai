@@ -237,7 +237,7 @@
     "book": "2CH",
     "chapter": 2,
     "verse": 9,
-    "content": "even to prepare me timber in abundance; for the house which I am about to build will be great and wonderful."
+    "content": "even to prepare timber in abundance for me; for the house which I am about to build will be great and wonderful."
   },
   {
     "book": "2CH",
@@ -724,7 +724,11 @@
         "break": true
       },
       { "text": "“For he is good,", "break": true },
-      "for his loving kindness endures forever!”"
+      "for his loving kindness endures forever!”",
+      {
+        "paragraph": true,
+        "text": "then the house was filled with a cloud, even Yahweh’s house,"
+      }
     ]
   },
   {
@@ -953,7 +957,7 @@
     "book": "2CH",
     "chapter": 6,
     "verse": 30,
-    "content": "then hear from heaven your dwelling place and forgive, and render to every man according to all his ways, whose heart you know (for you, even you only, know the hearts of the children of men),"
+    "content": "then hear from heaven your dwelling place and forgive, and give to every man according to all his ways, whose heart you know (for you, even you only, know the hearts of the children of men),"
   },
   {
     "book": "2CH",
@@ -1212,7 +1216,7 @@
     "book": "2CH",
     "chapter": 7,
     "verse": 22,
-    "content": "They shall answer, ‘Because they abandoned Yahweh, the God of their fathers, who brought them out of the land of Egypt, and took other gods, worshiped them, and served them. Therefore he has brought all this evil on them.’ ”"
+    "content": "They shall answer, ‘Because they abandoned Yahweh, the God of their fathers, who brought them out of the land of Egypt, and took other gods, worshiped them, and served them. Therefore he has brought all this evil on them.’”"
   },
   {
     "book": "2CH",
@@ -1441,7 +1445,7 @@
         "text": "The servants of Huram and the servants of Solomon, who brought gold from Ophir, also brought algum trees",
         "foot": {
           "type": "stu",
-          "content": "possibly Indian sandalwood, which has nice grain and a pleasant scent and is good for woodworking"
+          "content": "Possibly Indian sandalwood, which has nice grain and a pleasant scent and is good for woodworking"
         }
       },
       " and precious stones."
@@ -1692,7 +1696,7 @@
     "book": "2CH",
     "chapter": 10,
     "verse": 11,
-    "content": "Now whereas my father burdened you with a heavy yoke, I will add to your yoke. My father chastised you with whips, but I will chastise you with scorpions.’ ”"
+    "content": "Now whereas my father burdened you with a heavy yoke, I will add to your yoke. My father chastised you with whips, but I will chastise you with scorpions.’”"
   },
   {
     "book": "2CH",
@@ -1779,7 +1783,7 @@
     "book": "2CH",
     "chapter": 11,
     "verse": 4,
-    "content": "‘Yahweh says, “You shall not go up, nor fight against your brothers! Every man return to his house; for this thing is of me.” ’ ” So they listened to Yahweh’s words, and returned from going against Jeroboam."
+    "content": "‘Yahweh says, “You shall not go up, nor fight against your brothers! Every man return to his house; for this thing is of me.”’” So they listened to Yahweh’s words, and returned from going against Jeroboam."
   },
   {
     "book": "2CH",
@@ -1935,7 +1939,7 @@
     "book": "2CH",
     "chapter": 12,
     "verse": 5,
-    "content": "Now Shemaiah the prophet came to Rehoboam and to the princes of Judah, who were gathered together to Jerusalem because of Shishak, and said to them, “Yahweh says, ‘You have forsaken me, therefore I have also left you in the hand of Shishak.’ ”"
+    "content": "Now Shemaiah the prophet came to Rehoboam and to the princes of Judah, who were gathered together to Jerusalem because of Shishak, and said to them, “Yahweh says, ‘You have forsaken me, therefore I have also left you in the hand of Shishak.’”"
   },
   {
     "book": "2CH",
@@ -2238,7 +2242,7 @@
     "book": "2CH",
     "chapter": 14,
     "verse": 11,
-    "content": "Asa cried to Yahweh his God, and said, “Yahweh, there is no one besides you to help, between the mighty and him who has no strength. Help us, Yahweh our God; for we rely on you, and in your name are we come against this multitude. Yahweh, you are our God. Don’t let man prevail against you.”"
+    "content": "Asa cried to Yahweh his God, and said, “Yahweh, there is no one besides you to help, between the mighty and him who has no strength. Help us, Yahweh our God; for we rely on you, and in your name we have come against this multitude. Yahweh, you are our God. Don’t let man prevail against you.”"
   },
   {
     "book": "2CH",
@@ -2337,7 +2341,7 @@
     "book": "2CH",
     "chapter": 15,
     "verse": 11,
-    "content": "They sacrificed to Yahweh in that day, of the plunder which they had brought, seven hundred head of cattle and seven thousand sheep."
+    "content": "They sacrificed to Yahweh in that day, from the plunder which they had brought, seven hundred head of cattle and seven thousand sheep."
   },
   {
     "book": "2CH",
@@ -2706,7 +2710,7 @@
     "book": "2CH",
     "chapter": 18,
     "verse": 10,
-    "content": "Zedekiah the son of Chenaanah made himself horns of iron and said, “Yahweh says, ‘With these you shall push the Syrians, until they are consumed.’ ”"
+    "content": "Zedekiah the son of Chenaanah made himself horns of iron and said, “Yahweh says, ‘With these you shall push the Syrians, until they are consumed.’”"
   },
   {
     "book": "2CH",
@@ -2765,7 +2769,7 @@
     "verse": 16,
     "content": {
       "paragraph": true,
-      "text": "He said, “I saw all Israel scattered on the mountains, as sheep that have no shepherd. Yahweh said, ‘These have no master. Let them each return to his house in peace.’ ”"
+      "text": "He said, “I saw all Israel scattered on the mountains, as sheep that have no shepherd. Yahweh said, ‘These have no master. Let them each return to his house in peace.’”"
     }
   },
   {
@@ -2856,7 +2860,7 @@
     "book": "2CH",
     "chapter": 18,
     "verse": 26,
-    "content": "and say, ‘The king says, “Put this fellow in the prison, and feed him with bread of affliction and with water of affliction, until I return in peace.” ’ ”"
+    "content": "and say, ‘The king says, “Put this fellow in the prison, and feed him with bread of affliction and with water of affliction, until I return in peace.”’”"
   },
   {
     "book": "2CH",
@@ -2994,10 +2998,23 @@
     "book": "2CH",
     "chapter": 20,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "After this, the children of Moab, the children of Ammon, and with them some of the Ammonites, came against Jehoshaphat to battle."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "After this, the children of Moab, the children of Ammon, and with them some of the Meunites",
+        "foot": {
+          "type": "var",
+          "content": [
+            "The LXX reads ",
+            { "text": "Meunites", "marks": ["i"] },
+            ". Heb. reads ",
+            { "text": "Ammonites", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      ", came against Jehoshaphat to battle."
+    ]
   },
   {
     "book": "2CH",
@@ -3009,7 +3026,7 @@
     "book": "2CH",
     "chapter": 20,
     "verse": 3,
-    "content": "Jehoshaphat was alarmed, and set himself to seek to Yahweh. He proclaimed a fast throughout all Judah."
+    "content": "Jehoshaphat was alarmed, and set himself to seek Yahweh. He proclaimed a fast throughout all Judah."
   },
   {
     "book": "2CH",
@@ -3108,7 +3125,7 @@
     "book": "2CH",
     "chapter": 20,
     "verse": 17,
-    "content": "You will not need to fight this battle. Set yourselves, stand still, and see the salvation of Yahweh with you, O Judah and Jerusalem. Don’t be afraid, nor be dismayed. Go out against them tomorrow, for Yahweh is with you.’ ”"
+    "content": "You will not need to fight this battle. Set yourselves, stand still, and see the salvation of Yahweh with you, O Judah and Jerusalem. Don’t be afraid, nor be dismayed. Go out against them tomorrow, for Yahweh is with you.’”"
   },
   {
     "book": "2CH",
@@ -3354,7 +3371,7 @@
     "book": "2CH",
     "chapter": 21,
     "verse": 15,
-    "content": "and you will have great sickness with a disease of your bowels, until your bowels fall out by reason of the sickness, day by day.’ ”"
+    "content": "and you will have great sickness with a disease of your bowels, until your bowels fall out by reason of the sickness, day by day.’”"
   },
   {
     "book": "2CH",
@@ -3495,7 +3512,10 @@
     "content": [
       {
         "text": "All the assembly made a covenant with the king in God’s house. Jehoiada",
-        "foot": { "type": "trn", "content": "Hebrew He" }
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "He", "marks": ["i"] }]
+        }
       },
       " said to them, “Behold, the king’s son must reign, as Yahweh has spoken concerning the sons of David."
     ]
@@ -3755,7 +3775,7 @@
     "verse": 20,
     "content": {
       "paragraph": true,
-      "text": "The Spirit of God came on Zechariah the son of Jehoiada the priest; and he stood above the people, and said to them, “God says, ‘Why do you disobey Yahweh’s commandments, so that you can’t prosper? Because you have forsaken Yahweh, he has also forsaken you.’ ”"
+      "text": "The Spirit of God came on Zechariah the son of Jehoiada the priest; and he stood above the people, and said to them, “God says, ‘Why do you disobey Yahweh’s commandments, so that you can’t prosper? Because you have forsaken Yahweh, he has also forsaken you.’”"
     }
   },
   {
@@ -3974,7 +3994,7 @@
     "book": "2CH",
     "chapter": 25,
     "verse": 19,
-    "content": "You say to yourself that you have struck Edom; and your heart lifts you up to boast. Now stay at home. Why should you meddle with trouble, that you should fall, even you and Judah with you?’ ”"
+    "content": "You say to yourself that you have struck Edom; and your heart lifts you up to boast. Now stay at home. Why should you meddle with trouble, that you should fall, even you and Judah with you?’”"
   },
   {
     "book": "2CH",
@@ -5154,7 +5174,7 @@
       {
         "paragraph": true,
         "text": "Yahweh sent an angel, who cut off all the mighty men of valor, the leaders, and captains in the camp of the king of Assyria. So he returned with shame of face to his own land. When he had come into the house of his god, those who came out of his own body",
-        "foot": { "type": "stu", "content": "i.e., his own sons" }
+        "foot": { "type": "stu", "content": "I.e., his own sons" }
       },
       " killed him there with the sword."
     ]
@@ -5583,7 +5603,7 @@
     "book": "2CH",
     "chapter": 34,
     "verse": 25,
-    "content": "Because they have forsaken me, and have burned incense to other gods, that they might provoke me to anger with all the works of their hands, therefore my wrath is poured out on this place, and it will not be quenched.’ ” ’"
+    "content": "Because they have forsaken me, and have burned incense to other gods, that they might provoke me to anger with all the works of their hands, therefore my wrath is poured out on this place, and it will not be quenched.’”’"
   },
   {
     "book": "2CH",
@@ -5602,7 +5622,7 @@
     "chapter": 34,
     "verse": 28,
     "content": [
-      "“Behold, I will gather you to your fathers, and you will be gathered to your grave in peace. Your eyes won’t see all the evil that I will bring on this place and on its inhabitants.” ’ ”",
+      "“Behold, I will gather you to your fathers, and you will be gathered to your grave in peace. Your eyes won’t see all the evil that I will bring on this place and on its inhabitants.”’”",
       {
         "paragraph": true,
         "text": "They brought back this message to the king."
@@ -5838,7 +5858,21 @@
     "book": "2CH",
     "chapter": 36,
     "verse": 2,
-    "content": "Joahaz was twenty-three years old when he began to reign; and he reigned three months in Jerusalem."
+    "content": [
+      {
+        "text": "Joahaz",
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "text": "Joahaz ", "marks": ["i"] },
+            "is a variant of ",
+            { "text": "Jehoahaz", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " was twenty-three years old when he began to reign; and he reigned three months in Jerusalem."
+    ]
   },
   {
     "book": "2CH",
@@ -5859,7 +5893,21 @@
     "book": "2CH",
     "chapter": 36,
     "verse": 4,
-    "content": "The king of Egypt made Eliakim his brother king over Judah and Jerusalem, and changed his name to Jehoiakim. Neco took Joahaz his brother, and carried him to Egypt."
+    "content": [
+      {
+        "text": "The king of Egypt made Eliakim his brother king over Judah and Jerusalem, and changed his name to Jehoiakim. Neco took Joahaz",
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "text": "Joahaz ", "marks": ["i"] },
+            "is a variant of ",
+            { "text": "Jehoahaz", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " his brother, and carried him to Egypt."
+    ]
   },
   {
     "book": "2CH",
@@ -5991,6 +6039,6 @@
     "book": "2CH",
     "chapter": 36,
     "verse": 23,
-    "content": "“Cyrus king of Persia says, ‘Yahweh, the God of heaven, has given all the kingdoms of the earth to me; and he has commanded me to build him a house in Jerusalem, which is in Judah. Whoever there is among you of all his people, Yahweh his God be with him, and let him go up.’ ”"
+    "content": "“Cyrus king of Persia says, ‘Yahweh, the God of heaven, has given all the kingdoms of the earth to me; and he has commanded me to build him a house in Jerusalem, which is in Judah. Whoever there is among you of all his people, Yahweh his God be with him, and let him go up.’”"
   }
 ]

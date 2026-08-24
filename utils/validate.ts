@@ -166,24 +166,18 @@ const CONTENT_BRANCHES = ["content", "heading", "subtitle"] as const;
  * Find content nodes the schema accepts but that render as nothing.
  *
  * `content-schema.json` doesn't require `text` alongside `marks`, and puts no
- * `minLength` on `text` — both gaps have let real defects through structural
- * checks. Two shapes are caught:
- *
- * 1. **Formatting with nothing to format** — a node with `marks` and/or
- *    `script` but no text. A non-greedy tag-matching renderer can't wrap zero
- *    characters, so the opening delimiter leaks into the surrounding text
- *    instead of rendering nothing.
- * 2. **An empty husk** — a node whose only property is an empty `text`, the
- *    residue left when marks are stripped from a shape like
- *    `{ text: "", marks: ["b"] }` without also removing the now-pointless node.
+ * `minLength` on `text` — gaps that let two real defects through structural
+ * checks: a node with `marks`/`script` but no text (a non-greedy
+ * tag-matching renderer can't wrap zero characters, so the opening delimiter
+ * leaks into the surrounding text), and an empty husk (`{text: "", marks:
+ * ["b"]}` with marks stripped but the now-pointless node left behind).
  *
  * Everything else a text-less node can carry — `foot`, `strong`, `morph`,
- * `lemma`, `bibleLink`, bare `paragraph` / `break` flags — is meaningful on
- * its own; whitespace counts as text.
+ * `lemma`, `bibleLink`, bare `paragraph`/`break` flags — is meaningful on its
+ * own; whitespace counts as text.
  *
- * The walk recurses into every content-bearing branch (`foot.content`,
- * subtitles, headings) — guarding only the top-level path is how both husks
- * above survived the first cleanup pass.
+ * Recurses into every content-bearing branch (`foot.content`, subtitles,
+ * headings), since either shape can appear nested, not just at the top level.
  *
  * @param content - A verse's content tree
  * @returns One message per offending node, each naming its path within the
@@ -304,9 +298,9 @@ export function findStrongTrailingWhitespaceNodes(content: Content): string[] {
 /**
  * Fix one `bibleLink` node's ASCII hyphens — in the target itself and in a
  * string `content` override — dropping `content` once it's redundant with
- * the (now-fixed) `bibleLink`, even if the redundancy predates this fix and
- * involves no hyphen at all. Never invents a `content` key, and never
- * touches one that's absent or not a string.
+ * the (now-fixed) `bibleLink`, even when the redundancy has nothing to do
+ * with a hyphen. Never invents a `content` key, and never touches one
+ * that's absent or not a string.
  *
  * Not exported — a caller reaches this only through
  * {@link normalizeBibleLinkDashesInContent}, which is the one that knows
@@ -342,15 +336,13 @@ function fixBibleLinkNode(node: ContentBibleLink): { content: ContentBibleLink; 
  * tree (a paragraph's or heading's own `content` is left alone even when it
  * contains a hyphen).
  *
- * The traversal order — array, `bibleLink`, `heading`, `subtitle`,
- * `paragraph`-as-content, then nested `content`, then `foot` — mirrors
- * `crossChapterLinks.ts`'s own `splitCrossChapterLinksInContent` shape, but
- * deliberately not {@link CONTENT_BRANCHES}'s: that shape treats a
- * `bibleLink`'s own `content` as just another branch to recurse into, which
- * is wrong here since it's display text to rewrite in place, not a subtree.
- * The `"bibleLink" in node` check has to come before the generic
- * `"content" in node` check, and the walk stops there rather than recursing
- * into that node's own `content`.
+ * Traversal order — array, `bibleLink`, `heading`, `subtitle`,
+ * `paragraph`-as-content, `content`, then `foot` — mirrors
+ * `crossChapterLinks.ts`'s `splitCrossChapterLinksInContent`, not
+ * {@link CONTENT_BRANCHES}: a `bibleLink`'s own `content` is display text to
+ * rewrite, not a subtree, so the `"bibleLink" in node` check must run, and
+ * stop there, before the generic `"content" in node` check reaches it as a
+ * branch instead.
  *
  * @param content - A verse's content tree, or any subtree of it
  * @returns The rewritten tree (structurally new only where something
@@ -411,25 +403,21 @@ export function normalizeBibleLinkDashesInContent(
  * Validates (and normalizes) one version, or every version when none is
  * requested: sorts verse keys, formats JSON files, normalizes `bibleLink`
  * dashes, then checks bible-books, each version's `_version.json`, book
- * ordering, and every verse file's schema and content. Exits the process
- * with a non-zero code on the first validation phase that fails.
+ * ordering, and every verse file's schema and content. Exits non-zero on
+ * the first validation phase that fails.
  *
- * The schema/structure phases above are hierarchical — each later phase
- * assumes the earlier ones held, so a failure there exits immediately rather
- * than continuing on data it can no longer trust. The two corpus-wide audits
- * that run last, `crossChapterLinks.ts` (unsplit `bibleLink` ranges) and
- * `auditNodes.ts` (Strong's-node placement conventions), are peers of each
- * other with no such dependency, so both always run and report in full
- * before `main` exits non-zero — a version that fails one still gets audited
- * by the other in the same pass, rather than needing a second `validate` run
- * to find out.
+ * The schema/structure phases are hierarchical — each assumes the earlier
+ * ones held, so a failure exits immediately. The two corpus-wide audits
+ * that run last (`crossChapterLinks.ts` and `auditNodes.ts`, including its
+ * fraction-normalization check) have no such dependency on each other, so
+ * both always run to completion before `main` exits non-zero — a version
+ * failing one still gets audited by the other in the same pass, rather than
+ * needing a second `validate` run to find out.
  *
- * @param requestedVersion - A single version id to validate (e.g.
- *   `"YLT1898"`, from `process.argv[2]`). Omitted → every version directory
- *   on disk is validated, including by the two trailing audits, which scope
- *   to the same `versionDirs`. An unmatched id isn't checked for existence
- *   up front — it surfaces as a natural filesystem error later, matching
- *   `exportContent.ts`, `auditCrossChapterLinks.ts`, and `auditNodes.ts`.
+ * @param requestedVersion - A single version id (e.g. `"YLT1898"`, from
+ *   `process.argv[2]`). Omitted → every version directory on disk is
+ *   validated. An unmatched id surfaces as a natural filesystem error later
+ *   rather than being checked for existence up front.
  */
 async function main(requestedVersion?: string) {
   const versionDirs = requestedVersion
@@ -717,8 +705,9 @@ async function main(requestedVersion?: string) {
 
       const verses = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
-      // Per-verse checks: schema, the book field against the filename, and
-      // content that passes the schema but renders as nothing.
+      // Per-verse checks: schema validity, the book field against the
+      // filename, content that passes the schema but renders as nothing,
+      // and Strong's-tagged text with trailing whitespace.
       for (const verse of verses) {
         const valid = validateVerse(verse);
         if (!valid) {
@@ -788,20 +777,19 @@ async function main(requestedVersion?: string) {
     crossChapterLinksPassed = false;
   }
 
-  // Strong's-node placement audit: the five conventions auditNodes.ts owns
-  // (unmerged pairs, trailing whitespace, leading punctuation, mark-boundary
-  // spaces, verse-initial spaces). Also report-only here.
-  console.log("\n🧩 Auditing Strong's-node placement conventions...");
+  // Node-placement and content-convention audit: the seven checks
+  // auditNodes.ts owns. Also report-only here.
+  console.log("\n🧩 Auditing node-placement and content conventions...");
   let nodeConventionsPassed = true;
 
   for (const versionDir of versionDirs) {
     const summary = auditNodeConventions(versionDir);
     if (nodeConventionsAreClean(summary)) {
-      console.log(`✅ ${versionDir}: no Strong's-node placement findings`);
+      console.log(`✅ ${versionDir}: no node/content convention findings`);
       continue;
     }
 
-    console.error(`❌ ${versionDir}: Strong's-node placement findings:`);
+    console.error(`❌ ${versionDir}: node/content convention findings:`);
     printNodeConventionFindings(summary, false);
     nodeConventionsPassed = false;
   }
@@ -811,12 +799,12 @@ async function main(requestedVersion?: string) {
       console.error("\n❌ Cross-chapter link audit failed! Run `npm run audit-links -- <version> --fix` to split them.");
     }
     if (!nodeConventionsPassed) {
-      console.error("\n❌ Strong's-node audit failed! Run `npm run audit-nodes -- <version> --verbose` for full detail.");
+      console.error("\n❌ Node/content convention audit failed! Run `npm run audit-nodes -- <version> --verbose` for full detail.");
     }
     process.exit(1);
   }
 
-  console.log("\n✅ Cross-chapter link and Strong's-node audits both passed!");
+  console.log("\n✅ Cross-chapter link and node/content convention audits both passed!");
 }
 
 // Guard so importing this module (e.g. from tests) doesn't also run main()

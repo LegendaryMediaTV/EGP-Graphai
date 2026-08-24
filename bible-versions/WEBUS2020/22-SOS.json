@@ -5,7 +5,8 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "The Song of songs, which is Solomon’s."
+      "text": "The Song of songs, which is Solomon’s.",
+      "break": true
     }
   },
   {
@@ -13,6 +14,7 @@
     "chapter": 1,
     "verse": 2,
     "content": [
+      { "heading": "Beloved" },
       {
         "text": "Let him kiss me with the kisses of his mouth;",
         "break": true
@@ -38,8 +40,10 @@
       { "text": "Take me away with you.", "break": true },
       { "text": "Let’s hurry.", "break": true },
       { "text": "The king has brought me into his rooms.", "break": true },
+      { "heading": "Friends" },
       { "text": "We will be glad and rejoice in you.", "break": true },
       { "text": "We will praise your love more than wine!", "break": true },
+      { "heading": "Beloved" },
       { "text": "They are right to love you.", "break": true }
     ]
   },
@@ -75,7 +79,7 @@
       { "text": "where you graze your flock,", "break": true },
       { "text": "where you rest them at noon;", "break": true },
       { "text": "for why should I be as one who is veiled", "break": true },
-      "beside the flocks of your companions?"
+      { "text": "beside the flocks of your companions?", "break": true }
     ]
   },
   {
@@ -83,6 +87,7 @@
     "chapter": 1,
     "verse": 8,
     "content": [
+      { "heading": "Lover" },
       {
         "text": "If you don’t know, most beautiful among women,",
         "break": true
@@ -110,7 +115,7 @@
     "verse": 10,
     "content": [
       { "text": "Your cheeks are beautiful with earrings,", "break": true },
-      "your neck with strings of jewels."
+      { "text": "your neck with strings of jewels.", "break": true }
     ]
   },
   {
@@ -118,8 +123,9 @@
     "chapter": 1,
     "verse": 11,
     "content": [
+      { "heading": "Friends" },
       { "text": "We will make you earrings of gold,", "break": true },
-      "with studs of silver."
+      { "text": "with studs of silver.", "break": true }
     ]
   },
   {
@@ -127,6 +133,7 @@
     "chapter": 1,
     "verse": 12,
     "content": [
+      { "heading": "Beloved" },
       { "text": "While the king sat at his table,", "break": true },
       { "text": "my perfume spread its fragrance.", "break": true }
     ]
@@ -149,7 +156,7 @@
         "text": "My beloved is to me a cluster of henna blossoms",
         "break": true
       },
-      "from the vineyards of En Gedi."
+      { "text": "from the vineyards of En Gedi.", "break": true }
     ]
   },
   {
@@ -157,6 +164,7 @@
     "chapter": 1,
     "verse": 15,
     "content": [
+      { "heading": "Lover" },
       {
         "text": "Behold,",
         "foot": {
@@ -170,7 +178,7 @@
       },
       { "text": " you are beautiful, my love.", "break": true },
       { "text": "Behold, you are beautiful.", "break": true },
-      "Your eyes are like doves."
+      { "text": "Your eyes are like doves.", "break": true }
     ]
   },
   {
@@ -178,11 +186,12 @@
     "chapter": 1,
     "verse": 16,
     "content": [
+      { "heading": "Beloved" },
       {
         "text": "Behold, you are beautiful, my beloved, yes, pleasant;",
         "break": true
       },
-      "and our couch is verdant."
+      { "text": "and our couch is verdant.", "break": true }
     ]
   },
   {
@@ -190,6 +199,7 @@
     "chapter": 1,
     "verse": 17,
     "content": [
+      { "heading": "Lover" },
       { "text": "The beams of our house are cedars.", "break": true },
       "Our rafters are firs."
     ]
@@ -199,8 +209,9 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      { "heading": "Beloved" },
       { "paragraph": true, "text": "I am a rose of Sharon,", "break": true },
-      "a lily of the valleys."
+      { "text": "a lily of the valleys.", "break": true }
     ]
   },
   {
@@ -208,8 +219,9 @@
     "chapter": 2,
     "verse": 2,
     "content": [
+      { "heading": "Lover" },
       { "text": "As a lily among thorns,", "break": true },
-      "so is my love among the daughters."
+      { "text": "so is my love among the daughters.", "break": true }
     ]
   },
   {
@@ -217,6 +229,7 @@
     "chapter": 2,
     "verse": 3,
     "content": [
+      { "heading": "Beloved" },
       {
         "text": "As the apple tree among the trees of the wood,",
         "break": true
@@ -337,7 +350,7 @@
       { "text": "The vines are in blossom.", "break": true },
       { "text": "They give out their fragrance.", "break": true },
       { "text": "Arise, my love, my beautiful one,", "break": true },
-      "and come away.”"
+      { "text": "and come away.”", "break": true }
     ]
   },
   {
@@ -345,6 +358,7 @@
     "chapter": 2,
     "verse": 14,
     "content": [
+      { "heading": "Lover" },
       { "text": "My dove in the clefts of the rock,", "break": true },
       { "text": "in the hiding places of the mountainside,", "break": true },
       { "text": "let me see your face.", "break": true },
@@ -362,7 +376,7 @@
     "content": [
       { "text": "Catch for us the foxes,", "break": true },
       { "text": "the little foxes that plunder the vineyards;", "break": true },
-      "for our vineyards are in blossom."
+      { "text": "for our vineyards are in blossom.", "break": true }
     ]
   },
   {
@@ -370,6 +384,7 @@
     "chapter": 2,
     "verse": 16,
     "content": [
+      { "heading": "Beloved" },
       { "text": "My beloved is mine, and I am his.", "break": true },
       { "text": "He browses among the lilies.", "break": true }
     ]
@@ -532,6 +547,7 @@
     "chapter": 4,
     "verse": 1,
     "content": [
+      { "heading": "Lover" },
       {
         "paragraph": true,
         "text": "Behold, you are beautiful, my love.",
@@ -721,7 +737,7 @@
     "content": [
       { "text": "a fountain of gardens,", "break": true },
       { "text": "a well of living waters,", "break": true },
-      "flowing streams from Lebanon."
+      { "text": "flowing streams from Lebanon.", "break": true }
     ]
   },
   {
@@ -729,6 +745,7 @@
     "chapter": 4,
     "verse": 16,
     "content": [
+      { "heading": "Beloved" },
       { "text": "Awake, north wind, and come, you south!", "break": true },
       {
         "text": "Blow on my garden, that its spices may flow out.",
@@ -743,6 +760,7 @@
     "chapter": 5,
     "verse": 1,
     "content": [
+      { "heading": "Lover" },
       {
         "paragraph": true,
         "text": "I have come into my garden, my sister, my bride.",
@@ -751,8 +769,9 @@
       { "text": "I have gathered my myrrh with my spice;", "break": true },
       { "text": "I have eaten my honeycomb with my honey;", "break": true },
       { "text": "I have drunk my wine with my milk.", "break": true },
+      { "heading": "Friends" },
       { "text": "Eat, friends!", "break": true },
-      "Drink, yes, drink abundantly, beloved."
+      { "text": "Drink, yes, drink abundantly, beloved.", "break": true }
     ]
   },
   {
@@ -760,6 +779,7 @@
     "chapter": 5,
     "verse": 2,
     "content": [
+      { "heading": "Beloved" },
       { "text": "I was asleep, but my heart was awake.", "break": true },
       { "text": "It is the voice of my beloved who knocks:", "break": true },
       {
@@ -842,7 +862,7 @@
         "break": true
       },
       { "text": "If you find my beloved,", "break": true },
-      "that you tell him that I am faint with love."
+      { "text": "that you tell him that I am faint with love.", "break": true }
     ]
   },
   {
@@ -850,6 +870,7 @@
     "chapter": 5,
     "verse": 9,
     "content": [
+      { "heading": "Friends" },
       {
         "text": "How is your beloved better than another beloved,",
         "break": true
@@ -859,7 +880,7 @@
         "text": "How is your beloved better than another beloved,",
         "break": true
       },
-      "that you do so adjure us?"
+      { "text": "that you do so adjure us?", "break": true }
     ]
   },
   {
@@ -867,6 +888,7 @@
     "chapter": 5,
     "verse": 10,
     "content": [
+      { "heading": "Beloved" },
       { "text": "My beloved is white and ruddy.", "break": true },
       { "text": "The best among ten thousand.", "break": true }
     ]
@@ -953,12 +975,16 @@
     "chapter": 6,
     "verse": 1,
     "content": [
+      { "heading": "Friends" },
       {
         "paragraph": true,
         "text": "Where has your beloved gone, you fairest among women?",
         "break": true
       },
-      "Where has your beloved turned, that we may seek him with you?"
+      {
+        "text": "Where has your beloved turned, that we may seek him with you?",
+        "break": true
+      }
     ]
   },
   {
@@ -966,6 +992,7 @@
     "chapter": 6,
     "verse": 2,
     "content": [
+      { "heading": "Beloved" },
       { "text": "My beloved has gone down to his garden,", "break": true },
       { "text": "to the beds of spices,", "break": true },
       {
@@ -988,6 +1015,7 @@
     "chapter": 6,
     "verse": 4,
     "content": [
+      { "heading": "Lover" },
       {
         "paragraph": true,
         "text": "You are beautiful, my love, as Tirzah,",
@@ -1089,7 +1117,10 @@
     "verse": 12,
     "content": [
       { "text": "Without realizing it,", "break": true },
-      "my desire set me with my royal people’s chariots."
+      {
+        "text": "my desire set me with my royal people’s chariots.",
+        "break": true
+      }
     ]
   },
   {
@@ -1097,8 +1128,10 @@
     "chapter": 6,
     "verse": 13,
     "content": [
+      { "heading": "Friends" },
       { "text": "Return, return, Shulammite!", "break": true },
       { "text": "Return, return, that we may gaze at you.", "break": true },
+      { "heading": "Lover" },
       { "text": "Why do you desire to gaze at the Shulammite,", "break": true },
       "as at the dance of Mahanaim?"
     ]
@@ -1202,7 +1235,10 @@
     "content": [
       { "text": "Your mouth is like the best wine,", "break": true },
       { "text": "that goes down smoothly for my beloved,", "break": true },
-      "gliding through the lips of those who are asleep."
+      {
+        "text": "gliding through the lips of those who are asleep.",
+        "break": true
+      }
     ]
   },
   {
@@ -1210,6 +1246,7 @@
     "chapter": 7,
     "verse": 10,
     "content": [
+      { "heading": "Beloved" },
       { "text": "I am my beloved’s.", "break": true },
       { "text": "His desire is toward me.", "break": true }
     ]
@@ -1300,7 +1337,7 @@
         "break": true
       },
       { "text": "that you not stir up, nor awaken love,", "break": true },
-      "until it so desires."
+      { "text": "until it so desires.", "break": true }
     ]
   },
   {
@@ -1308,11 +1345,13 @@
     "chapter": 8,
     "verse": 5,
     "content": [
+      { "heading": "Friends" },
       {
         "text": "Who is this who comes up from the wilderness,",
         "break": true
       },
       "leaning on her beloved?",
+      { "heading": "Beloved" },
       {
         "paragraph": true,
         "text": "Under the apple tree I awakened you.",
@@ -1365,7 +1404,7 @@
         "text": "If a man would give all the wealth of his house for love,",
         "break": true
       },
-      "he would be utterly scorned."
+      { "text": "he would be utterly scorned.", "break": true }
     ]
   },
   {
@@ -1373,6 +1412,7 @@
     "chapter": 8,
     "verse": 8,
     "content": [
+      { "heading": "Brothers" },
       { "text": "We have a little sister.", "break": true },
       { "text": "She has no breasts.", "break": true },
       { "text": "What shall we do for our sister", "break": true },
@@ -1387,7 +1427,7 @@
       { "paragraph": true, "text": "If she is a wall,", "break": true },
       { "text": "we will build on her a turret of silver.", "break": true },
       { "text": "If she is a door,", "break": true },
-      "we will enclose her with boards of cedar."
+      { "text": "we will enclose her with boards of cedar.", "break": true }
     ]
   },
   {
@@ -1395,6 +1435,7 @@
     "chapter": 8,
     "verse": 10,
     "content": [
+      { "heading": "Beloved" },
       { "text": "I am a wall, and my breasts like towers,", "break": true },
       {
         "text": "then I was in his eyes like one who found peace.",
@@ -1426,7 +1467,7 @@
     "content": [
       { "text": "My own vineyard is before me.", "break": true },
       { "text": "The thousand are for you, Solomon,", "break": true },
-      "two hundred for those who tend its fruit."
+      { "text": "two hundred for those who tend its fruit.", "break": true }
     ]
   },
   {
@@ -1434,11 +1475,12 @@
     "chapter": 8,
     "verse": 13,
     "content": [
+      { "heading": "Lover" },
       {
         "text": "You who dwell in the gardens, with friends in attendance,",
         "break": true
       },
-      "let me hear your voice!"
+      { "text": "let me hear your voice!", "break": true }
     ]
   },
   {
@@ -1446,6 +1488,7 @@
     "chapter": 8,
     "verse": 14,
     "content": [
+      { "heading": "Beloved" },
       { "text": "Come away, my beloved!", "break": true },
       "Be like a gazelle or a young stag on the mountains of spices!"
     ]

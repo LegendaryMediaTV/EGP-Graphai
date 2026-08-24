@@ -1502,7 +1502,7 @@
     "book": "NUM",
     "chapter": 5,
     "verse": 10,
-    "content": "Every man’s holy things shall be his; whatever any man gives the priest, it shall be his.’ ”"
+    "content": "Every man’s holy things shall be his; whatever any man gives the priest, it shall be his.’”"
   },
   {
     "book": "NUM",
@@ -1591,7 +1591,7 @@
     "verse": 23,
     "content": {
       "paragraph": true,
-      "text": "“ ‘The priest shall write these curses in a book, and he shall wipe them into the water of bitterness."
+      "text": "“‘The priest shall write these curses in a book, and he shall wipe them into the water of bitterness."
     }
   },
   {
@@ -1633,7 +1633,7 @@
     "verse": 29,
     "content": {
       "paragraph": true,
-      "text": "“ ‘This is the law of jealousy, when a wife, being under her husband, goes astray, and is defiled,"
+      "text": "“‘This is the law of jealousy, when a wife, being under her husband, goes astray, and is defiled,"
     }
   },
   {
@@ -1646,7 +1646,7 @@
     "book": "NUM",
     "chapter": 5,
     "verse": 31,
-    "content": "The man shall be free from iniquity, and that woman shall bear her iniquity.’ ”"
+    "content": "The man shall be free from iniquity, and that woman shall bear her iniquity.’”"
   },
   {
     "book": "NUM",
@@ -1678,7 +1678,7 @@
     "verse": 5,
     "content": {
       "paragraph": true,
-      "text": "“ ‘All the days of his vow of separation no razor shall come on his head, until the days are fulfilled in which he separates himself to Yahweh. He shall be holy. He shall let the locks of the hair of his head grow long."
+      "text": "“‘All the days of his vow of separation no razor shall come on his head, until the days are fulfilled in which he separates himself to Yahweh. He shall be holy. He shall let the locks of the hair of his head grow long."
     }
   },
   {
@@ -1687,7 +1687,7 @@
     "verse": 6,
     "content": {
       "paragraph": true,
-      "text": "“ ‘All the days that he separates himself to Yahweh he shall not go near a dead body."
+      "text": "“‘All the days that he separates himself to Yahweh he shall not go near a dead body."
     }
   },
   {
@@ -1721,7 +1721,7 @@
     "verse": 9,
     "content": {
       "paragraph": true,
-      "text": "“ ‘If any man dies very suddenly beside him, and he defiles the head of his separation, then he shall shave his head in the day of his cleansing. On the seventh day he shall shave it."
+      "text": "“‘If any man dies very suddenly beside him, and he defiles the head of his separation, then he shall shave his head in the day of his cleansing. On the seventh day he shall shave it."
     }
   },
   {
@@ -1748,7 +1748,7 @@
     "verse": 13,
     "content": {
       "paragraph": true,
-      "text": "“ ‘This is the law of the Nazirite: when the days of his separation are fulfilled, he shall be brought to the door of the Tent of Meeting,"
+      "text": "“‘This is the law of the Nazirite: when the days of his separation are fulfilled, he shall be brought to the door of the Tent of Meeting,"
     }
   },
   {
@@ -1799,7 +1799,7 @@
     "verse": 21,
     "content": {
       "paragraph": true,
-      "text": "“ ‘This is the law of the Nazirite who vows and of his offering to Yahweh for his separation, in addition to that which he is able to afford. According to his vow which he vows, so he must do after the law of his separation.’ ”"
+      "text": "“‘This is the law of the Nazirite who vows and of his offering to Yahweh for his separation, in addition to that which he is able to afford. According to his vow which he vows, so he must do after the law of his separation.’”"
     }
   },
   {
@@ -2764,7 +2764,7 @@
     "book": "NUM",
     "chapter": 8,
     "verse": 2,
-    "content": "“Speak to Aaron, and tell him, ‘When you light the lamps, the seven lamps shall give light in front of the lamp stand.’ ”"
+    "content": "“Speak to Aaron, and tell him, ‘When you light the lamps, the seven lamps shall give light in front of the lamp stand.’”"
   },
   {
     "book": "NUM",
@@ -3015,7 +3015,7 @@
     "verse": 14,
     "content": {
       "paragraph": true,
-      "text": "“ ‘If a foreigner lives among you and desires to keep the Passover to Yahweh, then he shall do so according to the statute of the Passover, and according to its ordinance. You shall have one statute, both for the foreigner and for him who is born in the land.’ ”"
+      "text": "“‘If a foreigner lives among you and desires to keep the Passover to Yahweh, then he shall do so according to the statute of the Passover, and according to its ordinance. You shall have one statute, both for the foreigner and for him who is born in the land.’”"
     }
   },
   {
@@ -3469,7 +3469,7 @@
     "book": "NUM",
     "chapter": 11,
     "verse": 20,
-    "content": "but a whole month, until it comes out at your nostrils, and it is loathsome to you; because you have rejected Yahweh who is among you, and have wept before him, saying, “Why did we come out of Egypt?” ’ ”"
+    "content": "but a whole month, until it comes out at your nostrils, and it is loathsome to you; because you have rejected Yahweh who is among you, and have wept before him, saying, “Why did we come out of Egypt?”’”"
   },
   {
     "book": "NUM",
@@ -3754,79 +3754,121 @@
     "book": "NUM",
     "chapter": 13,
     "verse": 4,
-    "content": "These were their names:"
+    "content": [
+      "These were their names:",
+      {
+        "paragraph": true,
+        "text": "Of the tribe of Reuben, Shammua the son of Zaccur."
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 5,
-    "content": "Of the tribe of Simeon, Shaphat the son of Hori."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Simeon, Shaphat the son of Hori."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 6,
-    "content": "Of the tribe of Judah, Caleb the son of Jephunneh."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Judah, Caleb the son of Jephunneh."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 7,
-    "content": "Of the tribe of Issachar, Igal the son of Joseph."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Issachar, Igal the son of Joseph."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 8,
-    "content": "Of the tribe of Ephraim, Hoshea the son of Nun."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Ephraim, Hoshea the son of Nun."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 9,
-    "content": "Of the tribe of Benjamin, Palti the son of Raphu."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Benjamin, Palti the son of Raphu."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 10,
-    "content": "Of the tribe of Zebulun, Gaddiel the son of Sodi."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Zebulun, Gaddiel the son of Sodi."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 11,
-    "content": "Of the tribe of Joseph, of the tribe of Manasseh, Gaddi the son of Susi."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Joseph, of the tribe of Manasseh, Gaddi the son of Susi."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 12,
-    "content": "Of the tribe of Dan, Ammiel the son of Gemalli."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Dan, Ammiel the son of Gemalli."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 13,
-    "content": "Of the tribe of Asher, Sethur the son of Michael."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Asher, Sethur the son of Michael."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 14,
-    "content": "Of the tribe of Naphtali, Nahbi the son of Vophsi."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Naphtali, Nahbi the son of Vophsi."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 15,
-    "content": "Of the tribe of Gad, Geuel the son of Machi."
+    "content": {
+      "paragraph": true,
+      "text": "Of the tribe of Gad, Geuel the son of Machi."
+    }
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 16,
-    "content": "These are the names of the men who Moses sent to spy out the land. Moses called Hoshea the son of Nun Joshua."
+    "content": {
+      "paragraph": true,
+      "text": "These are the names of the men who Moses sent to spy out the land. Moses called Hoshea the son of Nun Joshua."
+    }
   },
   {
     "book": "NUM",
@@ -4317,7 +4359,7 @@
     "content": [
       {
         "paragraph": true,
-        "text": "“ ‘For a ram, you shall prepare for a meal offering two tenths of an ephah",
+        "text": "“‘For a ram, you shall prepare for a meal offering two tenths of an ephah",
         "foot": {
           "type": "stu",
           "content": "1 ephah is about 22 liters or about ²⁄₃ of a bushel"
@@ -4377,7 +4419,7 @@
     "verse": 13,
     "content": {
       "paragraph": true,
-      "text": "“ ‘All who are native-born shall do these things in this way, in offering an offering made by fire, of a pleasant aroma to Yahweh."
+      "text": "“‘All who are native-born shall do these things in this way, in offering an offering made by fire, of a pleasant aroma to Yahweh."
     }
   },
   {
@@ -4396,7 +4438,7 @@
     "book": "NUM",
     "chapter": 15,
     "verse": 16,
-    "content": "One law and one ordinance shall be for you and for the stranger who lives as a foreigner with you.’ ”"
+    "content": "One law and one ordinance shall be for you and for the stranger who lives as a foreigner with you.’”"
   },
   {
     "book": "NUM",
@@ -4434,7 +4476,7 @@
     "verse": 22,
     "content": {
       "paragraph": true,
-      "text": "“ ‘When you err, and don’t observe all these commandments which Yahweh has spoken to Moses—"
+      "text": "“‘When you err, and don’t observe all these commandments which Yahweh has spoken to Moses—"
     }
   },
   {
@@ -4467,7 +4509,7 @@
     "verse": 27,
     "content": {
       "paragraph": true,
-      "text": "“ ‘If a person sins unwittingly, then he shall offer a female goat a year old for a sin offering."
+      "text": "“‘If a person sins unwittingly, then he shall offer a female goat a year old for a sin offering."
     }
   },
   {
@@ -4488,14 +4530,14 @@
     "verse": 30,
     "content": {
       "paragraph": true,
-      "text": "“ ‘But the soul who does anything with a high hand, whether he is native-born or a foreigner, blasphemes Yahweh. That soul shall be cut off from among his people."
+      "text": "“‘But the soul who does anything with a high hand, whether he is native-born or a foreigner, blasphemes Yahweh. That soul shall be cut off from among his people."
     }
   },
   {
     "book": "NUM",
     "chapter": 15,
     "verse": 31,
-    "content": "Because he has despised Yahweh’s word, and has broken his commandment, that soul shall be utterly cut off. His iniquity shall be on him.’ ”"
+    "content": "Because he has despised Yahweh’s word, and has broken his commandment, that soul shall be utterly cut off. His iniquity shall be on him.’”"
   },
   {
     "book": "NUM",
@@ -4546,14 +4588,7 @@
     "content": [
       {
         "text": "“Speak to the children of Israel, and tell them that they should make themselves fringes",
-        "foot": {
-          "type": "trn",
-          "content": [
-            "or, tassels (Hebrew ",
-            { "text": "צִיצִ֛ת", "script": "H" },
-            ")"
-          ]
-        }
+        "foot": { "type": "trn", "content": "or, tassels (Hebrew צִיצִ֛ת)" }
       },
       {
         "text": " on the borders of their garments throughout their generations, and that they put on the fringe",
@@ -4758,7 +4793,7 @@
     "book": "NUM",
     "chapter": 16,
     "verse": 24,
-    "content": "“Speak to the congregation, saying, ‘Get away from around the tent of Korah, Dathan, and Abiram!’ ”"
+    "content": "“Speak to the congregation, saying, ‘Get away from around the tent of Korah, Dathan, and Abiram!’”"
   },
   {
     "book": "NUM",
@@ -5106,7 +5141,7 @@
     "book": "NUM",
     "chapter": 18,
     "verse": 9,
-    "content": "This shall be yours of the most holy things from the fire: every offering of theirs, even every meal offering of theirs, and every sin offering of theirs, and every trespass offering of theirs, which they shall render to me, shall be most holy for you and for your sons."
+    "content": "This shall be yours of the most holy things from the fire: every offering of theirs, even every meal offering of theirs, and every sin offering of theirs, and every trespass offering of theirs, which they shall give to me, shall be most holy for you and for your sons."
   },
   {
     "book": "NUM",
@@ -5229,7 +5264,7 @@
     "book": "NUM",
     "chapter": 18,
     "verse": 24,
-    "content": "For the tithe of the children of Israel, which they offer as a wave offering to Yahweh, I have given to the Levites for an inheritance. Therefore I have said to them, ‘Among the children of Israel they shall have no inheritance.’ ”"
+    "content": "For the tithe of the children of Israel, which they offer as a wave offering to Yahweh, I have given to the Levites for an inheritance. Therefore I have said to them, ‘Among the children of Israel they shall have no inheritance.’”"
   },
   {
     "book": "NUM",
@@ -5280,7 +5315,7 @@
     "book": "NUM",
     "chapter": 18,
     "verse": 32,
-    "content": "You shall bear no sin by reason of it, when you have heaved from it its best. You shall not profane the holy things of the children of Israel, that you not die.’ ”"
+    "content": "You shall bear no sin by reason of it, when you have heaved from it its best. You shall not profane the holy things of the children of Israel, that you not die.’”"
   },
   {
     "book": "NUM",
@@ -5755,7 +5790,11 @@
     "book": "NUM",
     "chapter": 21,
     "verse": 14,
-    "content": "Therefore it is said in [cite]The Book of the Wars of Yahweh[/cite], “Vaheb in Suphah, the valleys of the Arnon,"
+    "content": [
+      "Therefore it is said in",
+      { "text": " The Book of the Wars of Yahweh", "marks": ["i"] },
+      ", “Vaheb in Suphah, the valleys of the Arnon,"
+    ]
   },
   {
     "book": "NUM",
@@ -6021,7 +6060,7 @@
     "book": "NUM",
     "chapter": 22,
     "verse": 11,
-    "content": "‘Behold, the people that has come out of Egypt covers the surface of the earth. Now, come curse them for me. Perhaps I shall be able to fight against them, and shall drive them out.’ ”"
+    "content": "‘Behold, the people that has come out of Egypt covers the surface of the earth. Now, come curse them for me. Perhaps I shall be able to fight against them, and shall drive them out.’”"
   },
   {
     "book": "NUM",
@@ -6069,7 +6108,7 @@
     "book": "NUM",
     "chapter": 22,
     "verse": 17,
-    "content": "for I will promote you to very great honor, and whatever you say to me I will do. Please come therefore, and curse this people for me.’ ”"
+    "content": "for I will promote you to very great honor, and whatever you say to me I will do. Please come therefore, and curse this people for me.’”"
   },
   {
     "book": "NUM",
@@ -6899,7 +6938,7 @@
     "book": "NUM",
     "chapter": 25,
     "verse": 13,
-    "content": "It shall be to him, and to his offspring after him, the covenant of an everlasting priesthood, because he was jealous for his God, and made atonement for the children of Israel.’ ”"
+    "content": "It shall be to him, and to his offspring after him, the covenant of an everlasting priesthood, because he was jealous for his God, and made atonement for the children of Israel.’”"
   },
   {
     "book": "NUM",
@@ -7406,7 +7445,7 @@
     "book": "NUM",
     "chapter": 27,
     "verse": 11,
-    "content": "If his father has no brothers, then you shall give his inheritance to his kinsman who is next to him of his family, and he shall possess it. This shall be a statute and ordinance for the children of Israel, as Yahweh commanded Moses.’ ”"
+    "content": "If his father has no brothers, then you shall give his inheritance to his kinsman who is next to him of his family, and he shall possess it. This shall be a statute and ordinance for the children of Israel, as Yahweh commanded Moses.’”"
   },
   {
     "book": "NUM",
@@ -7569,7 +7608,7 @@
     "content": [
       {
         "paragraph": true,
-        "text": "“ ‘On the Sabbath day, you shall offer two male lambs a year old without defect, and two tenths of an ephah",
+        "text": "“‘On the Sabbath day, you shall offer two male lambs a year old without defect, and two tenths of an ephah",
         "foot": {
           "type": "stu",
           "content": "1 ephah is about 22 liters or about ²⁄₃ of a bushel"
@@ -7590,7 +7629,7 @@
     "verse": 11,
     "content": {
       "paragraph": true,
-      "text": "“ ‘In the beginnings of your months, you shall offer a burnt offering to Yahweh: two young bulls, one ram, seven male lambs a year old without defect,"
+      "text": "“‘In the beginnings of your months, you shall offer a burnt offering to Yahweh: two young bulls, one ram, seven male lambs a year old without defect,"
     }
   },
   {
@@ -7632,7 +7671,7 @@
     "verse": 16,
     "content": {
       "paragraph": true,
-      "text": "“ ‘In the first month, on the fourteenth day of the month, is Yahweh’s Passover."
+      "text": "“‘In the first month, on the fourteenth day of the month, is Yahweh’s Passover."
     }
   },
   {
@@ -7695,7 +7734,7 @@
     "verse": 26,
     "content": {
       "paragraph": true,
-      "text": "“ ‘Also in the day of the first fruits, when you offer a new meal offering to Yahweh in your feast of weeks, you shall have a holy convocation. You shall do no regular work;"
+      "text": "“‘Also in the day of the first fruits, when you offer a new meal offering to Yahweh in your feast of weeks, you shall have a holy convocation. You shall do no regular work;"
     }
   },
   {
@@ -7734,7 +7773,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "“ ‘In the seventh month, on the first day of the month, you shall have a holy convocation; you shall do no regular work. It is a day of blowing of trumpets to you."
+      "text": "“‘In the seventh month, on the first day of the month, you shall have a holy convocation; you shall do no regular work. It is a day of blowing of trumpets to you."
     }
   },
   {
@@ -7773,7 +7812,7 @@
     "verse": 7,
     "content": {
       "paragraph": true,
-      "text": "“ ‘On the tenth day of this seventh month you shall have a holy convocation. You shall afflict your souls. You shall do no kind of work;"
+      "text": "“‘On the tenth day of this seventh month you shall have a holy convocation. You shall afflict your souls. You shall do no kind of work;"
     }
   },
   {
@@ -7806,7 +7845,7 @@
     "verse": 12,
     "content": {
       "paragraph": true,
-      "text": "“ ‘On the fifteenth day of the seventh month you shall have a holy convocation. You shall do no regular work. You shall keep a feast to Yahweh seven days."
+      "text": "“‘On the fifteenth day of the seventh month you shall have a holy convocation. You shall do no regular work. You shall keep a feast to Yahweh seven days."
     }
   },
   {
@@ -7839,7 +7878,7 @@
     "verse": 17,
     "content": {
       "paragraph": true,
-      "text": "“ ‘On the second day you shall offer twelve young bulls, two rams, and fourteen male lambs a year old without defect;"
+      "text": "“‘On the second day you shall offer twelve young bulls, two rams, and fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -7860,7 +7899,7 @@
     "verse": 20,
     "content": {
       "paragraph": true,
-      "text": "“ ‘On the third day: eleven bulls, two rams, fourteen male lambs a year old without defect;"
+      "text": "“‘On the third day: eleven bulls, two rams, fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -7881,7 +7920,7 @@
     "verse": 23,
     "content": {
       "paragraph": true,
-      "text": "“ ‘On the fourth day ten bulls, two rams, fourteen male lambs a year old without defect;"
+      "text": "“‘On the fourth day ten bulls, two rams, fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -7902,7 +7941,7 @@
     "verse": 26,
     "content": {
       "paragraph": true,
-      "text": "“ ‘On the fifth day: nine bulls, two rams, fourteen male lambs a year old without defect;"
+      "text": "“‘On the fifth day: nine bulls, two rams, fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -7923,7 +7962,7 @@
     "verse": 29,
     "content": {
       "paragraph": true,
-      "text": "“ ‘On the sixth day: eight bulls, two rams, fourteen male lambs a year old without defect;"
+      "text": "“‘On the sixth day: eight bulls, two rams, fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -7944,7 +7983,7 @@
     "verse": 32,
     "content": {
       "paragraph": true,
-      "text": "“ ‘On the seventh day: seven bulls, two rams, fourteen male lambs a year old without defect;"
+      "text": "“‘On the seventh day: seven bulls, two rams, fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -7965,7 +8004,7 @@
     "verse": 35,
     "content": {
       "paragraph": true,
-      "text": "“ ‘On the eighth day you shall have a solemn assembly. You shall do no regular work;"
+      "text": "“‘On the eighth day you shall have a solemn assembly. You shall do no regular work;"
     }
   },
   {
@@ -7992,7 +8031,7 @@
     "verse": 39,
     "content": {
       "paragraph": true,
-      "text": "“ ‘You shall offer these to Yahweh in your set feasts—in addition to your vows and your free will offerings—for your burnt offerings, your meal offerings, your drink offerings, and your peace offerings.’ ”"
+      "text": "“‘You shall offer these to Yahweh in your set feasts—in addition to your vows and your free will offerings—for your burnt offerings, your meal offerings, your drink offerings, and your peace offerings.’”"
     }
   },
   {
@@ -9129,7 +9168,7 @@
     "verse": 6,
     "content": {
       "paragraph": true,
-      "text": "“ ‘For the western border, you shall have the great sea and its border. This shall be your west border."
+      "text": "“‘For the western border, you shall have the great sea and its border. This shall be your west border."
     }
   },
   {
@@ -9138,7 +9177,7 @@
     "verse": 7,
     "content": {
       "paragraph": true,
-      "text": "“ ‘This shall be your north border: from the great sea you shall mark out for yourselves Mount Hor."
+      "text": "“‘This shall be your north border: from the great sea you shall mark out for yourselves Mount Hor."
     }
   },
   {
@@ -9159,7 +9198,7 @@
     "verse": 10,
     "content": {
       "paragraph": true,
-      "text": "“ ‘You shall mark out your east border from Hazar Enan to Shepham."
+      "text": "“‘You shall mark out your east border from Hazar Enan to Shepham."
     }
   },
   {
@@ -9172,7 +9211,7 @@
     "book": "NUM",
     "chapter": 34,
     "verse": 12,
-    "content": "The border shall go down to the Jordan, and end at the Salt Sea. This shall be your land according to its borders around it.’ ”"
+    "content": "The border shall go down to the Jordan, and end at the Salt Sea. This shall be your land according to its borders around it.’”"
   },
   {
     "book": "NUM",
@@ -9391,7 +9430,7 @@
     "verse": 16,
     "content": {
       "paragraph": true,
-      "text": "“ ‘But if he struck him with an instrument of iron, so that he died, he is a murderer. The murderer shall surely be put to death."
+      "text": "“‘But if he struck him with an instrument of iron, so that he died, he is a murderer. The murderer shall surely be put to death."
     }
   },
   {
@@ -9430,7 +9469,7 @@
     "verse": 22,
     "content": {
       "paragraph": true,
-      "text": "“ ‘But if he shoved him suddenly without hostility, or hurled on him anything without lying in wait,"
+      "text": "“‘But if he shoved him suddenly without hostility, or hurled on him anything without lying in wait,"
     }
   },
   {
@@ -9457,7 +9496,7 @@
     "verse": 26,
     "content": {
       "paragraph": true,
-      "text": "“ ‘But if the man slayer shall at any time go beyond the border of his city of refuge where he flees,"
+      "text": "“‘But if the man slayer shall at any time go beyond the border of his city of refuge where he flees,"
     }
   },
   {
@@ -9478,7 +9517,7 @@
     "verse": 29,
     "content": {
       "paragraph": true,
-      "text": "“ ‘These things shall be for a statute and ordinance to you throughout your generations in all your dwellings."
+      "text": "“‘These things shall be for a statute and ordinance to you throughout your generations in all your dwellings."
     }
   },
   {
@@ -9487,7 +9526,7 @@
     "verse": 30,
     "content": {
       "paragraph": true,
-      "text": "“ ‘Whoever kills any person, the murderer shall be slain based on the testimony of witnesses; but one witness shall not testify alone against any person so that he dies."
+      "text": "“‘Whoever kills any person, the murderer shall be slain based on the testimony of witnesses; but one witness shall not testify alone against any person so that he dies."
     }
   },
   {
@@ -9496,7 +9535,7 @@
     "verse": 31,
     "content": {
       "paragraph": true,
-      "text": "“ ‘Moreover you shall take no ransom for the life of a murderer who is guilty of death. He shall surely be put to death."
+      "text": "“‘Moreover you shall take no ransom for the life of a murderer who is guilty of death. He shall surely be put to death."
     }
   },
   {
@@ -9505,7 +9544,7 @@
     "verse": 32,
     "content": {
       "paragraph": true,
-      "text": "“ ‘You shall take no ransom for him who has fled to his city of refuge, that he may come again to dwell in the land before the death of the priest."
+      "text": "“‘You shall take no ransom for him who has fled to his city of refuge, that he may come again to dwell in the land before the death of the priest."
     }
   },
   {
@@ -9514,14 +9553,14 @@
     "verse": 33,
     "content": {
       "paragraph": true,
-      "text": "“ ‘So you shall not pollute the land where you live; for blood pollutes the land. No atonement can be made for the land for the blood that is shed in it, but by the blood of him who shed it."
+      "text": "“‘So you shall not pollute the land where you live; for blood pollutes the land. No atonement can be made for the land for the blood that is shed in it, but by the blood of him who shed it."
     }
   },
   {
     "book": "NUM",
     "chapter": 35,
     "verse": 34,
-    "content": "You shall not defile the land which you inhabit, where I dwell; for I, Yahweh, dwell among the children of Israel.’ ”"
+    "content": "You shall not defile the land which you inhabit, where I dwell; for I, Yahweh, dwell among the children of Israel.’”"
   },
   {
     "book": "NUM",
@@ -9581,7 +9620,7 @@
     "book": "NUM",
     "chapter": 36,
     "verse": 9,
-    "content": "So shall no inheritance move from one tribe to another tribe; for the tribes of the children of Israel shall each keep his own inheritance.’ ”"
+    "content": "So shall no inheritance move from one tribe to another tribe; for the tribes of the children of Israel shall each keep his own inheritance.’”"
   },
   {
     "book": "NUM",

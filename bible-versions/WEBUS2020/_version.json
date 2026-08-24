@@ -278,192 +278,297 @@
       "chapters": 4
     },
     {
+      "_id": "TOB",
+      "name": "Tobit",
+      "title": "Tobit",
+      "order": 40,
+      "chapters": 14
+    },
+    {
+      "_id": "JDT",
+      "name": "Judith",
+      "title": "Judith",
+      "order": 41,
+      "chapters": 16
+    },
+    {
+      "_id": "ESG",
+      "name": "Esther (Greek)",
+      "title": "Esther (Greek)",
+      "order": 42,
+      "chapters": 10
+    },
+    {
+      "_id": "DAG",
+      "name": "Daniel (Greek)",
+      "title": "The Book of Daniel with Greek Portions",
+      "order": 43,
+      "chapters": 14
+    },
+    {
+      "_id": "WIS",
+      "name": "Wisdom of Solomon",
+      "title": "The Wisdom of Solomon",
+      "order": 44,
+      "chapters": 19
+    },
+    {
+      "_id": "SIR",
+      "name": "Sirach",
+      "title": "The Wisdom of Jesus the Son of Sirach, or Ecclesiasticus",
+      "order": 45,
+      "chapters": 51
+    },
+    {
+      "_id": "BAR",
+      "name": "Baruch",
+      "title": "Baruch",
+      "order": 46,
+      "chapters": 6
+    },
+    {
+      "_id": "1MC",
+      "name": "1 Maccabees",
+      "title": "The First Book of the Maccabees",
+      "order": 47,
+      "chapters": 16
+    },
+    {
+      "_id": "2MC",
+      "name": "2 Maccabees",
+      "title": "The Second Book of the Maccabees",
+      "order": 48,
+      "chapters": 15
+    },
+    {
+      "_id": "1ES",
+      "name": "1 Esdras",
+      "title": "The First Book of Esdras",
+      "order": 49,
+      "chapters": 9
+    },
+    {
+      "_id": "PMA",
+      "name": "Prayer of Manasses",
+      "title": "The Prayer of Manasses King of Judah When He Was Held Captive in Babylon",
+      "order": 50,
+      "chapters": 1
+    },
+    {
+      "_id": "PS2",
+      "name": "Psalm 151",
+      "title": "Psalm 151",
+      "order": 51,
+      "chapters": 1
+    },
+    {
+      "_id": "3MC",
+      "name": "3 Maccabees",
+      "title": "The Third Book of the Maccabees",
+      "order": 52,
+      "chapters": 7
+    },
+    {
+      "_id": "2ES",
+      "name": "2 Esdras",
+      "title": "The Second Book of Esdras",
+      "order": 53,
+      "chapters": 16
+    },
+    {
+      "_id": "4MC",
+      "name": "4 Maccabees",
+      "title": "The Fourth Book of the Maccabees",
+      "order": 54,
+      "chapters": 18
+    },
+    {
       "_id": "MAT",
       "name": "Matthew",
       "title": "The Good News According to Matthew",
-      "order": 40,
+      "order": 55,
       "chapters": 28
     },
     {
       "_id": "MRK",
       "name": "Mark",
       "title": "The Good News According to Mark",
-      "order": 41,
+      "order": 56,
       "chapters": 16
     },
     {
       "_id": "LUK",
       "name": "Luke",
       "title": "The Good News According to Luke",
-      "order": 42,
+      "order": 57,
       "chapters": 24
     },
     {
       "_id": "JHN",
       "name": "John",
       "title": "The Good News According to John",
-      "order": 43,
+      "order": 58,
       "chapters": 21
     },
     {
       "_id": "ACT",
       "name": "Acts",
       "title": "The Acts of the Apostles",
-      "order": 44,
+      "order": 59,
       "chapters": 28
     },
     {
       "_id": "ROM",
       "name": "Romans",
       "title": "Paul’s Letter to the Romans",
-      "order": 45,
+      "order": 60,
       "chapters": 16
     },
     {
       "_id": "1CO",
       "name": "1 Corinthians",
       "title": "Paul’s First Letter to the Corinthians",
-      "order": 46,
+      "order": 61,
       "chapters": 16
     },
     {
       "_id": "2CO",
       "name": "2 Corinthians",
       "title": "Paul’s Second Letter to the Corinthians",
-      "order": 47,
+      "order": 62,
       "chapters": 13
     },
     {
       "_id": "GAL",
       "name": "Galatians",
       "title": "Paul’s Letter to the Galatians",
-      "order": 48,
+      "order": 63,
       "chapters": 6
     },
     {
       "_id": "EPH",
       "name": "Ephesians",
       "title": "Paul’s Letter to the Ephesians",
-      "order": 49,
+      "order": 64,
       "chapters": 6
     },
     {
       "_id": "PHP",
       "name": "Philippians",
       "title": "Paul’s Letter to the Philippians",
-      "order": 50,
+      "order": 65,
       "chapters": 4
     },
     {
       "_id": "COL",
       "name": "Colossians",
       "title": "Paul’s Letter to the Colossians",
-      "order": 51,
+      "order": 66,
       "chapters": 4
     },
     {
       "_id": "1TH",
       "name": "1 Thessalonians",
       "title": "Paul’s First Letter to the Thessalonians",
-      "order": 52,
+      "order": 67,
       "chapters": 5
     },
     {
       "_id": "2TH",
       "name": "2 Thessalonians",
       "title": "Paul’s Second Letter to the Thessalonians",
-      "order": 53,
+      "order": 68,
       "chapters": 3
     },
     {
       "_id": "1TM",
       "name": "1 Timothy",
       "title": "Paul’s First Letter to Timothy",
-      "order": 54,
+      "order": 69,
       "chapters": 6
     },
     {
       "_id": "2TM",
       "name": "2 Timothy",
       "title": "Paul’s Second Letter to Timothy",
-      "order": 55,
+      "order": 70,
       "chapters": 4
     },
     {
       "_id": "TIT",
       "name": "Titus",
       "title": "Paul’s Letter to Titus",
-      "order": 56,
+      "order": 71,
       "chapters": 3
     },
     {
       "_id": "PHM",
       "name": "Philemon",
       "title": "Paul’s Letter to Philemon",
-      "order": 57,
+      "order": 72,
       "chapters": 1
     },
     {
       "_id": "HEB",
       "name": "Hebrews",
       "title": "The Letter to the Hebrews",
-      "order": 58,
+      "order": 73,
       "chapters": 13
     },
     {
       "_id": "JAS",
       "name": "James",
       "title": "The Letter from James",
-      "order": 59,
+      "order": 74,
       "chapters": 5
     },
     {
       "_id": "1PT",
       "name": "1 Peter",
       "title": "Peter’s First Letter",
-      "order": 60,
+      "order": 75,
       "chapters": 5
     },
     {
       "_id": "2PT",
       "name": "2 Peter",
       "title": "Peter’s Second Letter",
-      "order": 61,
+      "order": 76,
       "chapters": 3
     },
     {
       "_id": "1JN",
       "name": "1 John",
       "title": "John’s First Letter",
-      "order": 62,
+      "order": 77,
       "chapters": 5
     },
     {
       "_id": "2JN",
       "name": "2 John",
       "title": "John’s Second Letter",
-      "order": 63,
+      "order": 78,
       "chapters": 1
     },
     {
       "_id": "3JN",
       "name": "3 John",
       "title": "John’s Third Letter",
-      "order": 64,
+      "order": 79,
       "chapters": 1
     },
     {
       "_id": "JUD",
       "name": "Jude",
       "title": "The Letter from Jude",
-      "order": 65,
+      "order": 80,
       "chapters": 1
     },
     {
       "_id": "REV",
       "name": "Revelation",
       "title": "The Revelation to John",
-      "order": 66,
+      "order": 81,
       "chapters": 22
     }
   ]

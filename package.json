@@ -7,6 +7,7 @@
     "audit-nodes": "ts-node utils/auditNodes",
     "dev": "ts-node web/server.ts",
     "export": "ts-node utils/exportContent",
+    "overhaul-footnotes": "ts-node utils/overhaulFootnotes",
     "test": "vitest --run",
     "validate": "ts-node utils/validate"
   },

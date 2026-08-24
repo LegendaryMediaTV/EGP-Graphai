@@ -322,8 +322,8 @@
     "verse": 3,
     "content": [
       { "text": "God came from Teman,", "break": true },
-      { "text": "the Holy One from Mount Paran.", "break": true },
-      "Selah.",
+      "the Holy One from Mount Paran. ",
+      { "text": "Selah.", "marks": ["i"] },
       {
         "paragraph": true,
         "text": "His glory covered the heavens,",
@@ -337,11 +337,7 @@
     "chapter": 3,
     "verse": 4,
     "content": [
-      {
-        "paragraph": true,
-        "text": "His splendor is like the sunrise.",
-        "break": true
-      },
+      { "text": "His splendor is like the sunrise.", "break": true },
       {
         "text": "Rays shine from his hand, where his power is hidden.",
         "break": true
@@ -396,8 +392,8 @@
     "verse": 9,
     "content": [
       { "text": "You uncovered your bow.", "break": true },
-      { "text": "You called for your sworn arrows.", "break": true },
-      { "text": "Selah.", "break": true },
+      "You called for your sworn arrows. ",
+      { "text": "Selah.", "marks": ["i"], "break": true },
       { "text": "You split the earth with rivers.", "break": true }
     ]
   },
@@ -406,11 +402,7 @@
     "chapter": 3,
     "verse": 10,
     "content": [
-      {
-        "paragraph": true,
-        "text": "The mountains saw you, and were afraid.",
-        "break": true
-      },
+      { "text": "The mountains saw you, and were afraid.", "break": true },
       { "text": "The storm of waters passed by.", "break": true },
       {
         "text": "The deep roared and lifted up its hands on high.",
@@ -451,8 +443,8 @@
         "text": "You crushed the head of the land of wickedness.",
         "break": true
       },
-      { "text": "You stripped them head to foot.", "break": true },
-      "Selah."
+      "You stripped them head to foot. ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {

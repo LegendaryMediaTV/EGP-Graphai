@@ -1,0 +1,91 @@
+[
+  {
+    "book": "PS2",
+    "chapter": 1,
+    "verse": 1,
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "text": "Psalm 151", "marks": ["i"] },
+            " is recognized as Deuterocanonical Scripture by the Greek Orthodox and Russian Orthodox Churches."
+          ]
+        }
+      },
+      {
+        "subtitle": [
+          {
+            "text": "This Psalm is a genuine one of David, though extra,",
+            "foot": { "type": "trn", "content": "or, supernumerary" }
+          },
+          " composed when he fought in single combat with Goliath."
+        ]
+      },
+      {
+        "paragraph": true,
+        "text": "I was small among my brothers,",
+        "break": true
+      },
+      { "text": "and youngest in my father’s house.", "break": true },
+      { "text": "I tended my father’s sheep.", "break": true }
+    ]
+  },
+  {
+    "book": "PS2",
+    "chapter": 1,
+    "verse": 2,
+    "content": [
+      { "text": "My hands formed a musical instrument,", "break": true },
+      { "text": "and my fingers tuned a lyre.", "break": true }
+    ]
+  },
+  {
+    "book": "PS2",
+    "chapter": 1,
+    "verse": 3,
+    "content": [
+      { "text": "Who shall tell my Lord?", "break": true },
+      { "text": "The Lord himself, he himself hears.", "break": true }
+    ]
+  },
+  {
+    "book": "PS2",
+    "chapter": 1,
+    "verse": 4,
+    "content": [
+      {
+        "text": "He sent forth his angel and took me from my father’s sheep,",
+        "break": true
+      },
+      { "text": "and he anointed me with his anointing oil.", "break": true }
+    ]
+  },
+  {
+    "book": "PS2",
+    "chapter": 1,
+    "verse": 5,
+    "content": [
+      { "text": "My brothers were handsome and tall;", "break": true },
+      { "text": "but the Lord didn’t take pleasure in them.", "break": true }
+    ]
+  },
+  {
+    "book": "PS2",
+    "chapter": 1,
+    "verse": 6,
+    "content": [
+      { "text": "I went out to meet the Philistine,", "break": true },
+      { "text": "and he cursed me by his idols.", "break": true }
+    ]
+  },
+  {
+    "book": "PS2",
+    "chapter": 1,
+    "verse": 7,
+    "content": [
+      { "text": "But I drew his own sword and beheaded him,", "break": true },
+      "and removed reproach from the children of Israel."
+    ]
+  }
+]

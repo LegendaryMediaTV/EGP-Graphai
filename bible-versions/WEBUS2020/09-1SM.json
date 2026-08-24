@@ -575,7 +575,7 @@
     "book": "1SM",
     "chapter": 2,
     "verse": 36,
-    "content": "It will happen that everyone who is left in your house will come and bow down to him for a piece of silver and a loaf of bread, and will say, “Please put me into one of the priests’ offices, that I may eat a morsel of bread.” ’ ”"
+    "content": "It will happen that everyone who is left in your house will come and bow down to him for a piece of silver and a loaf of bread, and will say, “Please put me into one of the priests’ offices, that I may eat a morsel of bread.”’”"
   },
   {
     "book": "1SM",
@@ -658,7 +658,7 @@
     "book": "1SM",
     "chapter": 3,
     "verse": 9,
-    "content": "Therefore Eli said to Samuel, “Go, lie down. It shall be, if he calls you, that you shall say, ‘Speak, Yahweh; for your servant hears.’ ” So Samuel went and lay down in his place."
+    "content": "Therefore Eli said to Samuel, “Go, lie down. It shall be, if he calls you, that you shall say, ‘Speak, Yahweh; for your servant hears.’” So Samuel went and lay down in his place."
   },
   {
     "book": "1SM",
@@ -767,7 +767,7 @@
     "chapter": 4,
     "verse": 1,
     "content": [
-      "The word of Samuel came to all Israel.",
+      { "paragraph": true, "text": "The word of Samuel came to all Israel." },
       {
         "paragraph": true,
         "text": "Now Israel went out against the Philistines to battle, and encamped beside Ebenezer; and the Philistines encamped in Aphek."
@@ -1635,13 +1635,13 @@
     "book": "1SM",
     "chapter": 9,
     "verse": 23,
-    "content": "Samuel said to the cook, “Bring the portion which I gave you, of which I said to you, ‘Set it aside.’ ”"
+    "content": "Samuel said to the cook, “Bring the portion which I gave you, of which I said to you, ‘Set it aside.’”"
   },
   {
     "book": "1SM",
     "chapter": 9,
     "verse": 24,
-    "content": "The cook took up the thigh, and that which was on it, and set it before Saul. Samuel said, “Behold, that which has been reserved! Set it before yourself and eat; because it has been kept for you for the appointed time, for I said, ‘I have invited the people.’ ” So Saul ate with Samuel that day."
+    "content": "The cook took up the thigh, and that which was on it, and set it before Saul. Samuel said, “Behold, that which has been reserved! Set it before yourself and eat; because it has been kept for you for the appointed time, for I said, ‘I have invited the people.’” So Saul ate with Samuel that day."
   },
   {
     "book": "1SM",
@@ -1677,7 +1677,7 @@
     "book": "1SM",
     "chapter": 10,
     "verse": 2,
-    "content": "When you have departed from me today, then you will find two men by Rachel’s tomb, on the border of Benjamin at Zelzah. They will tell you, ‘The donkeys which you went to look for have been found; and behold, your father has stopped caring about the donkeys and is anxious for you, saying, “What shall I do for my son?” ’"
+    "content": "When you have departed from me today, then you will find two men by Rachel’s tomb, on the border of Benjamin at Zelzah. They will tell you, ‘The donkeys which you went to look for have been found; and behold, your father has stopped caring about the donkeys and is anxious for you, saying, “What shall I do for my son?”’"
   },
   {
     "book": "1SM",
@@ -1944,7 +1944,7 @@
     "book": "1SM",
     "chapter": 11,
     "verse": 9,
-    "content": "They said to the messengers who came, “Tell the men of Jabesh Gilead, ‘Tomorrow, by the time the sun is hot, you will be rescued.’ ” The messengers came and told the men of Jabesh; and they were glad."
+    "content": "They said to the messengers who came, “Tell the men of Jabesh Gilead, ‘Tomorrow, by the time the sun is hot, you will be rescued.’” The messengers came and told the men of Jabesh; and they were glad."
   },
   {
     "book": "1SM",
@@ -2548,7 +2548,7 @@
     "book": "1SM",
     "chapter": 14,
     "verse": 28,
-    "content": "Then one of the people answered, and said, “Your father directly commanded the people with an oath, saying, ‘Cursed is the man who eats food today.’ ” So the people were faint."
+    "content": "Then one of the people answered, and said, “Your father directly commanded the people with an oath, saying, ‘Cursed is the man who eats food today.’” So the people were faint."
   },
   {
     "book": "1SM",
@@ -2593,7 +2593,7 @@
     "book": "1SM",
     "chapter": 14,
     "verse": 34,
-    "content": "Saul said, “Disperse yourselves among the people, and tell them, ‘Every man bring me here his ox, and every man his sheep, and kill them here, and eat; and don’t sin against Yahweh in eating meat with the blood.’ ” All the people brought every man his ox with him that night, and killed them there."
+    "content": "Saul said, “Disperse yourselves among the people, and tell them, ‘Every man bring me here his ox, and every man his sheep, and kill them here, and eat; and don’t sin against Yahweh in eating meat with the blood.’” All the people brought every man his ox with him that night, and killed them there."
   },
   {
     "book": "1SM",
@@ -2780,7 +2780,7 @@
     "book": "1SM",
     "chapter": 15,
     "verse": 3,
-    "content": "Now go and strike Amalek, and utterly destroy all that they have, and don’t spare them; but kill both man and woman, infant and nursing baby, ox and sheep, camel and donkey.’ ”"
+    "content": "Now go and strike Amalek, and utterly destroy all that they have, and don’t spare them; but kill both man and woman, infant and nursing baby, ox and sheep, camel and donkey.’”"
   },
   {
     "book": "1SM",
@@ -2941,7 +2941,7 @@
         "text": "For rebellion is as the sin of witchcraft, and stubbornness is as idolatry and teraphim.",
         "foot": {
           "type": "stu",
-          "content": "teraphim were household idols that may have been associated with inheritance rights to the household property."
+          "content": "Teraphim were household idols that may have been associated with inheritance rights to the household property."
         }
       },
       " Because you have rejected Yahweh’s word, he has also rejected you from being king.”"
@@ -3853,7 +3853,7 @@
     "verse": 22,
     "content": {
       "paragraph": true,
-      "text": "Saul commanded his servants, “Talk with David secretly, and say, ‘Behold, the king has delight in you, and all his servants love you. Now therefore be the king’s son-in-law.’ ”"
+      "text": "Saul commanded his servants, “Talk with David secretly, and say, ‘Behold, the king has delight in you, and all his servants love you. Now therefore be the king’s son-in-law.’”"
     }
   },
   {
@@ -3880,7 +3880,7 @@
     "verse": 25,
     "content": {
       "paragraph": true,
-      "text": "Saul said, “Tell David, ‘The king desires no dowry except one hundred foreskins of the Philistines, to be avenged of the king’s enemies.’ ” Now Saul thought he would make David fall by the hand of the Philistines."
+      "text": "Saul said, “Tell David, ‘The king desires no dowry except one hundred foreskins of the Philistines, to be avenged of the king’s enemies.’” Now Saul thought he would make David fall by the hand of the Philistines."
     }
   },
   {
@@ -4015,7 +4015,7 @@
         "text": "Michal took the teraphim",
         "foot": {
           "type": "stu",
-          "content": "teraphim were household idols that may have been associated with inheritance rights to the household property."
+          "content": "Teraphim were household idols that may have been associated with inheritance rights to the household property."
         }
       },
       " and laid it in the bed, and put a pillow of goats’ hair at its head and covered it with clothes."
@@ -4053,7 +4053,7 @@
       },
       {
         "paragraph": true,
-        "text": "Michal answered Saul, “He said to me, ‘Let me go! Why should I kill you?’ ”"
+        "text": "Michal answered Saul, “He said to me, ‘Let me go! Why should I kill you?’”"
       }
     ]
   },
@@ -4240,7 +4240,7 @@
     "verse": 17,
     "content": {
       "paragraph": true,
-      "text": "Jonathan caused David to swear again, for the love that he had to him; for he loved him as he loved his own soul."
+      "text": "Jonathan caused David to swear again, for the love that he had for him; for he loved him as he loved his own soul."
     }
   },
   {
@@ -4415,7 +4415,7 @@
     "book": "1SM",
     "chapter": 20,
     "verse": 42,
-    "content": "Jonathan said to David, “Go in peace, because we have both sworn in Yahweh’s name, saying, ‘Yahweh is between me and you, and between my offspring and your offspring, forever.’ ” He arose and departed; and Jonathan went into the city."
+    "content": "Jonathan said to David, “Go in peace, because we have both sworn in Yahweh’s name, saying, ‘Yahweh is between me and you, and between my offspring and your offspring, forever.’” He arose and departed; and Jonathan went into the city."
   },
   {
     "book": "1SM",
@@ -4983,7 +4983,7 @@
     "book": "1SM",
     "chapter": 24,
     "verse": 4,
-    "content": "David’s men said to him, “Behold, the day of which Yahweh said to you, ‘Behold, I will deliver your enemy into your hand, and you shall do to him as it shall seem good to you.’ ” Then David arose and cut off the skirt of Saul’s robe secretly."
+    "content": "David’s men said to him, “Behold, the day of which Yahweh said to you, ‘Behold, I will deliver your enemy into your hand, and you shall do to him as it shall seem good to you.’” Then David arose and cut off the skirt of Saul’s robe secretly."
   },
   {
     "book": "1SM",
@@ -5160,7 +5160,7 @@
     "book": "1SM",
     "chapter": 25,
     "verse": 8,
-    "content": "Ask your young men, and they will tell you. Therefore let the young men find favor in your eyes, for we come on a good day. Please give whatever comes to your hand to your servants and to your son David.’ ”"
+    "content": "Ask your young men, and they will tell you. Therefore let the young men find favor in your eyes, for we come on a good day. Please give whatever comes to your hand to your servants and to your son David.’”"
   },
   {
     "book": "1SM",
@@ -5623,7 +5623,7 @@
     "book": "1SM",
     "chapter": 26,
     "verse": 23,
-    "content": "Yahweh will render to every man his righteousness and his faithfulness; because Yahweh delivered you into my hand today, and I wouldn’t stretch out my hand against Yahweh’s anointed."
+    "content": "Yahweh will give to every man his righteousness and his faithfulness; because Yahweh delivered you into my hand today, and I wouldn’t stretch out my hand against Yahweh’s anointed."
   },
   {
     "book": "1SM",
@@ -5728,7 +5728,7 @@
     "book": "1SM",
     "chapter": 27,
     "verse": 11,
-    "content": "David saved neither man nor woman alive to bring them to Gath, saying, “Lest they should tell about us, saying, ‘David did this, and this has been his way all the time he has lived in the country of the Philistines.’ ”"
+    "content": "David saved neither man nor woman alive to bring them to Gath, saying, “Lest they should tell about us, saying, ‘David did this, and this has been his way all the time he has lived in the country of the Philistines.’”"
   },
   {
     "book": "1SM",

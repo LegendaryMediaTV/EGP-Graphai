@@ -88,9 +88,9 @@ describe("classifyBibleLink — book-name resolution restricted to a version's o
     expect(classifyBibleLink("WEBUS2020", "2 Kings 6:31—7:20").book).toBe("2KG");
   });
 
-  it("should report '1 Esdras' as unresolvable in WEBUS2020 rather than throw (absent from every version's canon here)", () => {
-    expect(() => classifyBibleLink("WEBUS2020", "1 Esdras 8:32")).not.toThrow();
-    expect(classifyBibleLink("WEBUS2020", "1 Esdras 8:32").book).toBeNull();
+  it("should report 'Psalms of Solomon' as unresolvable in WEBUS2020 rather than throw (a real bible-books.json entry, but absent from every version's canon here)", () => {
+    expect(() => classifyBibleLink("WEBUS2020", "Psalms of Solomon 8:32")).not.toThrow();
+    expect(classifyBibleLink("WEBUS2020", "Psalms of Solomon 8:32").book).toBeNull();
   });
 
   it("should report a name valid in one version's canon as unresolvable in BYZ2018's NT-only canon", () => {
@@ -123,8 +123,18 @@ describe("findCrossChapterLinks", () => {
   });
 
   it("should count every bibleLink node scanned, not just the ones that turn out to be findings", () => {
+    // WEBUS2020 currently carries 550 real bibleLink nodes: canonical
+    // Strong's/cross-reference targets plus deuterocanon and \f-derived
+    // reference nodes (see `utils/usfm/verify.ts`'s BIBLE_LINKS_IN_CORPUS),
+    // plus Finding 9's own real, generic linkEmbeddedReferences population
+    // in usfm/references.ts — 99 corpus-wide as of Phase 15's redesign (up
+    // from Phase 14's own cue-word-gated 72; Deuteronomy 33:16's own link
+    // now comes from this same generic mechanism directly, no separate
+    // import.ts override needed any more). This count drifts as the corpus
+    // changes — update it here rather than treating a mismatch as a bug in
+    // findCrossChapterLinks.
     const { scanned, findings } = findCrossChapterLinks("WEBUS2020");
-    expect(scanned).toBe(424); // 423 (pre-fix) + 1: the split replaced one bibleLink node with two
+    expect(scanned).toBe(550);
     expect(findings.length).toBeLessThan(scanned);
   });
 });

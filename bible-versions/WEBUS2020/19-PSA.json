@@ -5,6 +5,9 @@
     "verse": 1,
     "content": [
       {
+        "heading": [{ "text": "Book One", "marks": ["sc"] }, " (Psalms 1–41)"]
+      },
+      {
         "paragraph": true,
         "text": "Blessed is the man who doesn’t walk in the counsel of the wicked,",
         "break": true
@@ -102,7 +105,7 @@
       {
         "text": "against Yahweh, and against his Anointed,",
         "foot": {
-          "type": "trn",
+          "type": "stu",
           "content": "The word “Anointed” is the same as the word for “Messiah” or “Christ”"
         }
       },
@@ -246,7 +249,6 @@
       { "text": "Many there are who say of my soul,", "break": true },
       {
         "text": "“There is no help for him in God.”",
-        "break": true,
         "foot": {
           "type": "trn",
           "content": [
@@ -256,7 +258,7 @@
           ]
         }
       },
-      "Selah."
+      { "text": " Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -264,11 +266,7 @@
     "chapter": 3,
     "verse": 3,
     "content": [
-      {
-        "paragraph": true,
-        "text": "But you, Yahweh, are a shield around me,",
-        "break": true
-      },
+      { "text": "But you, Yahweh, are a shield around me,", "break": true },
       { "text": "my glory, and the one who lifts up my head.", "break": true }
     ]
   },
@@ -278,8 +276,8 @@
     "verse": 4,
     "content": [
       { "text": "I cry to Yahweh with my voice,", "break": true },
-      { "text": "and he answers me out of his holy hill.", "break": true },
-      "Selah."
+      "and he answers me out of his holy hill. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -287,11 +285,7 @@
     "chapter": 3,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "I laid myself down and slept.",
-        "break": true
-      },
+      { "text": "I laid myself down and slept.", "break": true },
       { "text": "I awakened, for Yahweh sustains me.", "break": true }
     ]
   },
@@ -330,8 +324,8 @@
     "verse": 8,
     "content": [
       { "text": "Salvation belongs to Yahweh.", "break": true },
-      { "text": "May your blessing be on your people.", "break": true },
-      "Selah."
+      "May your blessing be on your people. ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -360,11 +354,8 @@
         "text": "You sons of men, how long shall my glory be turned into dishonor?",
         "break": true
       },
-      {
-        "text": "Will you love vanity and seek after falsehood?",
-        "break": true
-      },
-      "Selah."
+      "Will you love vanity and seek after falsehood? ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -373,7 +364,6 @@
     "verse": 3,
     "content": [
       {
-        "paragraph": true,
         "text": "But know that Yahweh has set apart for himself him who is godly;",
         "break": true
       },
@@ -386,11 +376,8 @@
     "verse": 4,
     "content": [
       { "text": "Stand in awe, and don’t sin.", "break": true },
-      {
-        "text": "Search your own heart on your bed, and be still.",
-        "break": true
-      },
-      "Selah."
+      "Search your own heart on your bed, and be still. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -398,11 +385,7 @@
     "chapter": 4,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Offer the sacrifices of righteousness.",
-        "break": true
-      },
+      { "text": "Offer the sacrifices of righteousness.", "break": true },
       { "text": "Put your trust in Yahweh.", "break": true }
     ]
   },
@@ -750,7 +733,7 @@
         "break": true
       },
       {
-        "text": "(yes, I have delivered him who without cause was my adversary),",
+        "text": "(yes, I have plundered him who without cause was my adversary),",
         "break": true
       }
     ]
@@ -768,8 +751,8 @@
         "text": "yes, let him tread my life down to the earth,",
         "break": true
       },
-      { "text": "and lay my glory in the dust.", "break": true },
-      "Selah."
+      "and lay my glory in the dust. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -777,11 +760,7 @@
     "chapter": 7,
     "verse": 6,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Arise, Yahweh, in your anger.",
-        "break": true
-      },
+      { "text": "Arise, Yahweh, in your anger.", "break": true },
       {
         "text": "Lift up yourself against the rage of my adversaries.",
         "break": true
@@ -996,7 +975,7 @@
         "text": "For you have made him a little lower than the angels,",
         "break": true,
         "foot": {
-          "type": "trn",
+          "type": "var",
           "content": [
             "Hebrew: Elohim. The word Elohim, used here, usually means “God”, but can also mean “gods”, “princes”, or “angels”. The Septuagint reads “angels” here. See also the quote from the Septuagint in ",
             { "bibleLink": "Hebrews 2:7" },
@@ -1230,11 +1209,8 @@
     "content": [
       { "text": "Yahweh has made himself known.", "break": true },
       { "text": "He has executed judgment.", "break": true },
-      {
-        "text": "The wicked is snared by the work of his own hands.",
-        "break": true
-      },
-      "Meditation. Selah."
+      "The wicked is snared by the work of his own hands. ",
+      { "text": "Meditation. Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -1243,7 +1219,6 @@
     "verse": 17,
     "content": [
       {
-        "paragraph": true,
         "text": "The wicked shall be turned back to Sheol,",
         "break": true,
         "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
@@ -1275,8 +1250,8 @@
     "verse": 20,
     "content": [
       { "text": "Put them in fear, Yahweh.", "break": true },
-      { "text": "Let the nations know that they are only men.", "break": true },
-      "Selah."
+      "Let the nations know that they are only men. ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -1913,7 +1888,7 @@
     "chapter": 16,
     "verse": 3,
     "content": [
-      { "text": "As for the saints who are in the earth,", "break": true },
+      { "text": "As for the saints who are on the earth,", "break": true },
       "they are the excellent ones in whom is all my delight."
     ]
   },
@@ -2983,8 +2958,8 @@
     "verse": 3,
     "content": [
       { "text": "remember all your offerings,", "break": true },
-      { "text": "and accept your burned sacrifice.", "break": true },
-      "Selah."
+      "and accept your burned sacrifice. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -2992,11 +2967,7 @@
     "chapter": 20,
     "verse": 4,
     "content": [
-      {
-        "paragraph": true,
-        "text": "May he grant you your heart’s desire,",
-        "break": true
-      },
+      { "text": "May he grant you your heart’s desire,", "break": true },
       { "text": "and fulfill all your counsel.", "break": true }
     ]
   },
@@ -3070,11 +3041,8 @@
     "verse": 2,
     "content": [
       { "text": "You have given him his heart’s desire,", "break": true },
-      {
-        "text": "and have not withheld the request of his lips.",
-        "break": true
-      },
-      "Selah."
+      "and have not withheld the request of his lips. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -3083,7 +3051,6 @@
     "verse": 3,
     "content": [
       {
-        "paragraph": true,
         "text": "For you meet him with the blessings of goodness.",
         "break": true
       },
@@ -3690,8 +3657,8 @@
         "text": "This is the generation of those who seek Him,",
         "break": true
       },
-      { "text": "who seek your face—even Jacob.", "break": true },
-      "Selah."
+      "who seek your face—even Jacob. ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -3734,8 +3701,8 @@
     "verse": 10,
     "content": [
       { "text": "Who is this King of glory?", "break": true },
-      { "text": "Yahweh of Armies is the King of glory!", "break": true },
-      "Selah."
+      "Yahweh of Armies is the King of glory! ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -5006,11 +4973,8 @@
     "verse": 4,
     "content": [
       { "text": "For day and night your hand was heavy on me.", "break": true },
-      {
-        "text": "My strength was sapped in the heat of summer.",
-        "break": true
-      },
-      "Selah."
+      "My strength was sapped in the heat of summer. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -5018,18 +4982,14 @@
     "chapter": 32,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "I acknowledged my sin to you.",
-        "break": true
-      },
+      { "text": "I acknowledged my sin to you.", "break": true },
       { "text": "I didn’t hide my iniquity.", "break": true },
       {
         "text": "I said, I will confess my transgressions to Yahweh,",
         "break": true
       },
-      { "text": "and you forgave the iniquity of my sin.", "break": true },
-      "Selah."
+      "and you forgave the iniquity of my sin. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -5038,7 +4998,6 @@
     "verse": 6,
     "content": [
       {
-        "paragraph": true,
         "text": "For this, let everyone who is godly pray to you in a time when you may be found.",
         "break": true
       },
@@ -5055,11 +5014,8 @@
     "content": [
       { "text": "You are my hiding place.", "break": true },
       { "text": "You will preserve me from trouble.", "break": true },
-      {
-        "text": "You will surround me with songs of deliverance.",
-        "break": true
-      },
-      "Selah."
+      "You will surround me with songs of deliverance. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -5068,7 +5024,6 @@
     "verse": 8,
     "content": [
       {
-        "paragraph": true,
         "text": "I will instruct you and teach you in the way which you shall go.",
         "break": true
       },
@@ -5364,7 +5319,7 @@
           "content": "Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav)."
         }
       },
-      { "text": " I will bless Yahweh at all times.", "break": true },
+      { "text": "I will bless Yahweh at all times.", "break": true },
       { "text": "His praise will always be in my mouth.", "break": true }
     ]
   },
@@ -6722,7 +6677,7 @@
     "verse": 20,
     "content": [
       {
-        "text": "They who render evil for good are also adversaries to me,",
+        "text": "They who give evil for good are also adversaries to me,",
         "break": true
       },
       { "text": "because I follow what is good.", "break": true }
@@ -6800,8 +6755,8 @@
     "content": [
       { "text": "Behold, you have made my days hand widths.", "break": true },
       { "text": "My lifetime is as nothing before you.", "break": true },
-      { "text": "Surely every man stands as a breath.”", "break": true },
-      "Selah."
+      "Surely every man stands as a breath.” ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -6809,11 +6764,7 @@
     "chapter": 39,
     "verse": 6,
     "content": [
-      {
-        "paragraph": true,
-        "text": "“Surely every man walks like a shadow.",
-        "break": true
-      },
+      { "text": "“Surely every man walks like a shadow.", "break": true },
       { "text": "Surely they busy themselves in vain.", "break": true },
       {
         "text": "He heaps up, and doesn’t know who shall gather.",
@@ -6868,8 +6819,8 @@
         "break": true
       },
       { "text": "you consume his wealth like a moth.", "break": true },
-      { "text": "Surely every man is but a breath.”", "break": true },
-      "Selah."
+      "Surely every man is but a breath.” ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -6878,7 +6829,6 @@
     "verse": 12,
     "content": [
       {
-        "paragraph": true,
         "text": "“Hear my prayer, Yahweh, and give ear to my cry.",
         "break": true
       },
@@ -7276,6 +7226,9 @@
     "verse": 1,
     "content": [
       {
+        "heading": [{ "text": "Book Two", "marks": ["sc"] }, " (Psalms 42–72)"]
+      },
+      {
         "subtitle": "For the Chief Musician. A contemplation by the sons of Korah."
       },
       {
@@ -7599,8 +7552,8 @@
     "verse": 8,
     "content": [
       { "text": "In God we have made our boast all day long.", "break": true },
-      { "text": "We will give thanks to your name forever.", "break": true },
-      "Selah."
+      "We will give thanks to your name forever. ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -8056,11 +8009,8 @@
     "verse": 3,
     "content": [
       { "text": "though its waters roar and are troubled,", "break": true },
-      {
-        "text": "though the mountains tremble with their swelling.",
-        "break": true
-      },
-      "Selah."
+      "though the mountains tremble with their swelling. ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -8100,8 +8050,8 @@
     "verse": 7,
     "content": [
       { "text": "Yahweh of Armies is with us.", "break": true },
-      { "text": "The God of Jacob is our refuge.", "break": true },
-      "Selah."
+      "The God of Jacob is our refuge. ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -8110,7 +8060,7 @@
     "verse": 8,
     "content": [
       { "paragraph": true, "text": "Come, see Yahweh’s works,", "break": true },
-      { "text": "what desolations he has made in the earth.", "break": true }
+      { "text": "what desolations he has made on the earth.", "break": true }
     ]
   },
   {
@@ -8130,7 +8080,7 @@
     "content": [
       { "text": "“Be still, and know that I am God.", "break": true },
       { "text": "I will be exalted among the nations.", "break": true },
-      { "text": "I will be exalted in the earth.”", "break": true }
+      { "text": "I will be exalted on the earth.”", "break": true }
     ]
   },
   {
@@ -8139,8 +8089,8 @@
     "verse": 11,
     "content": [
       { "text": "Yahweh of Armies is with us.", "break": true },
-      { "text": "The God of Jacob is our refuge.", "break": true },
-      "Selah."
+      "The God of Jacob is our refuge. ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -8181,8 +8131,8 @@
     "verse": 4,
     "content": [
       { "text": "He chooses our inheritance for us,", "break": true },
-      { "text": "the glory of Jacob whom he loved.", "break": true },
-      "Selah."
+      "the glory of Jacob whom he loved. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -8190,11 +8140,7 @@
     "chapter": 47,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "God has gone up with a shout,",
-        "break": true
-      },
+      { "text": "God has gone up with a shout,", "break": true },
       { "text": "Yahweh with the sound of a trumpet.", "break": true }
     ]
   },
@@ -8322,8 +8268,8 @@
         "text": "in the city of Yahweh of Armies, in the city of our God.",
         "break": true
       },
-      { "text": "God will establish it forever.", "break": true },
-      "Selah."
+      "God will establish it forever. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -8332,7 +8278,6 @@
     "verse": 9,
     "content": [
       {
-        "paragraph": true,
         "text": "We have thought about your loving kindness, God,",
         "break": true
       },
@@ -8523,8 +8468,8 @@
         "text": "This is the destiny of those who are foolish,",
         "break": true
       },
-      { "text": "and of those who approve their sayings.", "break": true },
-      "Selah."
+      "and of those who approve their sayings. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -8533,7 +8478,6 @@
     "verse": 14,
     "content": [
       {
-        "paragraph": true,
         "text": "They are appointed as a flock for Sheol.",
         "break": true,
         "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
@@ -8561,8 +8505,8 @@
         "break": true,
         "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
-      { "text": "for he will receive me.", "break": true },
-      "Selah."
+      "for he will receive me. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -8570,11 +8514,7 @@
     "chapter": 49,
     "verse": 16,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Don’t be afraid when a man is made rich,",
-        "break": true
-      },
+      { "text": "Don’t be afraid when a man is made rich,", "break": true },
       { "text": "when the glory of his house is increased;", "break": true }
     ]
   },
@@ -8680,8 +8620,8 @@
     "verse": 6,
     "content": [
       { "text": "The heavens shall declare his righteousness,", "break": true },
-      { "text": "for God himself is judge.", "break": true },
-      "Selah."
+      "for God himself is judge. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -8689,11 +8629,7 @@
     "chapter": 50,
     "verse": 7,
     "content": [
-      {
-        "paragraph": true,
-        "text": "“Hear, my people, and I will speak.",
-        "break": true
-      },
+      { "text": "“Hear, my people, and I will speak.", "break": true },
       { "text": "Israel, I will testify against you.", "break": true },
       { "text": "I am God, your God.", "break": true }
     ]
@@ -9114,8 +9050,8 @@
     "verse": 3,
     "content": [
       { "text": "You love evil more than good,", "break": true },
-      { "text": "lying rather than speaking the truth.", "break": true },
-      "Selah."
+      "lying rather than speaking the truth. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -9123,11 +9059,7 @@
     "chapter": 52,
     "verse": 4,
     "content": [
-      {
-        "paragraph": true,
-        "text": "You love all devouring words,",
-        "break": true
-      },
+      { "text": "You love all devouring words,", "break": true },
       { "text": "you deceitful tongue.", "break": true }
     ]
   },
@@ -9141,8 +9073,8 @@
         "text": "He will take you up, and pluck you out of your tent,",
         "break": true
       },
-      { "text": "and root you out of the land of the living.", "break": true },
-      "Selah."
+      "and root you out of the land of the living. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -9150,11 +9082,7 @@
     "chapter": 52,
     "verse": 6,
     "content": [
-      {
-        "paragraph": true,
-        "text": "The righteous also will see it, and fear,",
-        "break": true
-      },
+      { "text": "The righteous also will see it, and fear,", "break": true },
       { "text": "and laugh at him, saying,", "break": true }
     ]
   },
@@ -9318,8 +9246,8 @@
     "content": [
       { "text": "For strangers have risen up against me.", "break": true },
       { "text": "Violent men have sought after my soul.", "break": true },
-      { "text": "They haven’t set God before them.", "break": true },
-      "Selah."
+      "They haven’t set God before them. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -9327,7 +9255,7 @@
     "chapter": 54,
     "verse": 4,
     "content": [
-      { "paragraph": true, "text": "Behold, God is my helper.", "break": true },
+      { "text": "Behold, God is my helper.", "break": true },
       { "text": "The Lord is the one who sustains my soul.", "break": true }
     ]
   },
@@ -9430,8 +9358,8 @@
     "verse": 7,
     "content": [
       { "text": "Behold, then I would wander far off.", "break": true },
-      { "text": "I would lodge in the wilderness.”", "break": true },
-      "Selah."
+      "I would lodge in the wilderness.” ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -9439,7 +9367,6 @@
     "chapter": 55,
     "verse": 8,
     "content": {
-      "paragraph": true,
       "text": "“I would hurry to a shelter from the stormy wind and storm.”",
       "break": true
     }
@@ -9571,8 +9498,8 @@
     "verse": 19,
     "content": [
       { "text": "God, who is enthroned forever,", "break": true },
-      { "text": "will hear and answer them.", "break": true },
-      "Selah.",
+      "will hear and answer them. ",
+      { "text": "Selah.", "marks": ["i"] },
       { "paragraph": true, "text": "They never change", "break": true },
       { "text": "and don’t fear God.", "break": true }
     ]
@@ -9582,11 +9509,7 @@
     "chapter": 55,
     "verse": 20,
     "content": [
-      {
-        "paragraph": true,
-        "text": "He raises his hands against his friends.",
-        "break": true
-      },
+      { "text": "He raises his hands against his friends.", "break": true },
       { "text": "He has violated his covenant.", "break": true }
     ]
   },
@@ -9808,8 +9731,8 @@
     "verse": 3,
     "content": [
       { "text": "He will send from heaven, and save me,", "break": true },
-      { "text": "he rebukes the one who is pursuing me.", "break": true },
-      { "text": "Selah.", "break": true },
+      "he rebukes the one who is pursuing me. ",
+      { "text": "Selah.", "marks": ["i"], "break": true },
       {
         "text": "God will send out his loving kindness and his truth.",
         "break": true
@@ -9821,7 +9744,7 @@
     "chapter": 57,
     "verse": 4,
     "content": [
-      { "paragraph": true, "text": "My soul is among lions.", "break": true },
+      { "text": "My soul is among lions.", "break": true },
       { "text": "I lie among those who are set on fire,", "break": true },
       {
         "text": "even the sons of men, whose teeth are spears and arrows,",
@@ -9851,8 +9774,8 @@
       },
       { "text": "My soul is bowed down.", "break": true },
       { "text": "They dig a pit before me.", "break": true },
-      { "text": "They fall into the middle of it themselves.", "break": true },
-      "Selah."
+      "They fall into the middle of it themselves. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -9860,11 +9783,7 @@
     "chapter": 57,
     "verse": 7,
     "content": [
-      {
-        "paragraph": true,
-        "text": "My heart is steadfast, God.",
-        "break": true
-      },
+      { "text": "My heart is steadfast, God.", "break": true },
       { "text": "My heart is steadfast.", "break": true },
       { "text": "I will sing, yes, I will sing praises.", "break": true }
     ]
@@ -9934,7 +9853,7 @@
     "content": [
       { "text": "No, in your heart you plot injustice.", "break": true },
       {
-        "text": "You measure out the violence of your hands in the earth.",
+        "text": "You measure out the violence of your hands on the earth.",
         "break": true
       }
     ]
@@ -10119,8 +10038,8 @@
         "break": true
       },
       { "text": "rouse yourself to punish the nations.", "break": true },
-      { "text": "Show no mercy to the wicked traitors.", "break": true },
-      "Selah."
+      "Show no mercy to the wicked traitors. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -10128,11 +10047,7 @@
     "chapter": 59,
     "verse": 6,
     "content": [
-      {
-        "paragraph": true,
-        "text": "They return at evening, howling like dogs,",
-        "break": true
-      },
+      { "text": "They return at evening, howling like dogs,", "break": true },
       { "text": "and prowl around the city.", "break": true }
     ]
   },
@@ -10212,8 +10127,8 @@
       { "text": "Consume them in wrath.", "break": true },
       { "text": "Consume them, and they will be no more.", "break": true },
       { "text": "Let them know that God rules in Jacob,", "break": true },
-      { "text": "to the ends of the earth.", "break": true },
-      "Selah."
+      "to the ends of the earth. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -10221,11 +10136,7 @@
     "chapter": 59,
     "verse": 14,
     "content": [
-      {
-        "paragraph": true,
-        "text": "At evening let them return.",
-        "break": true
-      },
+      { "text": "At evening let them return.", "break": true },
       {
         "text": "Let them howl like a dog, and go around the city.",
         "break": true
@@ -10318,11 +10229,8 @@
         "text": "You have given a banner to those who fear you,",
         "break": true
       },
-      {
-        "text": "that it may be displayed because of the truth.",
-        "break": true
-      },
-      "Selah."
+      "that it may be displayed because of the truth. ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -10448,11 +10356,8 @@
     "verse": 4,
     "content": [
       { "text": "I will dwell in your tent forever.", "break": true },
-      {
-        "text": "I will take refuge in the shelter of your wings.",
-        "break": true
-      },
-      "Selah."
+      "I will take refuge in the shelter of your wings. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -10460,11 +10365,7 @@
     "chapter": 61,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "For you, God, have heard my vows.",
-        "break": true
-      },
+      { "text": "For you, God, have heard my vows.", "break": true },
       {
         "text": "You have given me the heritage of those who fear your name.",
         "break": true
@@ -10550,11 +10451,8 @@
         "break": true
       },
       { "text": "They delight in lies.", "break": true },
-      {
-        "text": "They bless with their mouth, but they curse inwardly.",
-        "break": true
-      },
-      "Selah."
+      "They bless with their mouth, but they curse inwardly. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -10562,11 +10460,7 @@
     "chapter": 62,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "My soul, wait in silence for God alone,",
-        "break": true
-      },
+      { "text": "My soul, wait in silence for God alone,", "break": true },
       { "text": "for my expectation is from him.", "break": true }
     ]
   },
@@ -10601,8 +10495,8 @@
     "content": [
       { "text": "Trust in him at all times, you people.", "break": true },
       { "text": "Pour out your heart before him.", "break": true },
-      { "text": "God is a refuge for us.", "break": true },
-      "Selah."
+      "God is a refuge for us. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -10610,11 +10504,7 @@
     "chapter": 62,
     "verse": 9,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Surely men of low degree are just a breath,",
-        "break": true
-      },
+      { "text": "Surely men of low degree are just a breath,", "break": true },
       { "text": "and men of high degree are a lie.", "break": true },
       { "text": "In the balances they will go up.", "break": true },
       { "text": "They are together lighter than a breath.", "break": true }
@@ -11065,8 +10955,8 @@
     "content": [
       { "text": "All the earth will worship you,", "break": true },
       { "text": "and will sing to you;", "break": true },
-      { "text": "they will sing to your name.”", "break": true },
-      "Selah."
+      "they will sing to your name.” ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -11074,11 +10964,7 @@
     "chapter": 66,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Come, and see God’s deeds—",
-        "break": true
-      },
+      { "text": "Come, and see God’s deeds—", "break": true },
       {
         "text": "awesome work on behalf of the children of men.",
         "break": true
@@ -11102,11 +10988,8 @@
     "content": [
       { "text": "He rules by his might forever.", "break": true },
       { "text": "His eyes watch the nations.", "break": true },
-      {
-        "text": "Don’t let the rebellious rise up against him.",
-        "break": true
-      },
-      "Selah."
+      "Don’t let the rebellious rise up against him. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -11114,11 +10997,7 @@
     "chapter": 66,
     "verse": 8,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Praise our God, you peoples!",
-        "break": true
-      },
+      { "text": "Praise our God, you peoples!", "break": true },
       { "text": "Make the sound of his praise heard,", "break": true }
     ]
   },
@@ -11190,8 +11069,8 @@
         "break": true
       },
       { "text": "with the offering of rams,", "break": true },
-      { "text": "I will offer bulls with goats.", "break": true },
-      "Selah."
+      "I will offer bulls with goats. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -11199,11 +11078,7 @@
     "chapter": 66,
     "verse": 16,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Come and hear, all you who fear God.",
-        "break": true
-      },
+      { "text": "Come and hear, all you who fear God.", "break": true },
       { "text": "I will declare what he has done for my soul.", "break": true }
     ]
   },
@@ -11259,8 +11134,8 @@
         "text": "May God be merciful to us, bless us,",
         "break": true
       },
-      { "text": "and cause his face to shine on us.", "break": true },
-      "Selah."
+      "and cause his face to shine on us. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -11268,11 +11143,7 @@
     "chapter": 67,
     "verse": 2,
     "content": [
-      {
-        "paragraph": true,
-        "text": "That your way may be known on earth,",
-        "break": true
-      },
+      { "text": "That your way may be known on earth,", "break": true },
       { "text": "and your salvation among all nations,", "break": true }
     ]
   },
@@ -11292,8 +11163,8 @@
     "content": [
       { "text": "Oh let the nations be glad and sing for joy,", "break": true },
       { "text": "for you will judge the peoples with equity,", "break": true },
-      { "text": "and govern the nations on earth.", "break": true },
-      "Selah."
+      "and govern the nations on earth. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -11301,11 +11172,7 @@
     "chapter": 67,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Let the peoples praise you, God.",
-        "break": true
-      },
+      { "text": "Let the peoples praise you, God.", "break": true },
       { "text": "Let all the peoples praise you.", "break": true }
     ]
   },
@@ -11405,8 +11272,8 @@
         "text": "God, when you went out before your people,",
         "break": true
       },
-      { "text": "when you marched through the wilderness…", "break": true },
-      "Selah."
+      "when you marched through the wilderness... ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -11414,7 +11281,7 @@
     "chapter": 68,
     "verse": 8,
     "content": [
-      { "paragraph": true, "text": "The earth trembled.", "break": true },
+      { "text": "The earth trembled.", "break": true },
       {
         "text": "The sky also poured down rain at the presence of the God of Sinai—",
         "break": true
@@ -11544,8 +11411,8 @@
         "text": "Blessed be the Lord, who daily bears our burdens,",
         "break": true
       },
-      { "text": "even the God who is our salvation.", "break": true },
-      "Selah."
+      "even the God who is our salvation. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -11553,11 +11420,7 @@
     "chapter": 68,
     "verse": 20,
     "content": [
-      {
-        "paragraph": true,
-        "text": "God is to us a God of deliverance.",
-        "break": true
-      },
+      { "text": "God is to us a God of deliverance.", "break": true },
       {
         "text": "To Yahweh, the Lord, belongs escape from death.",
         "break": true
@@ -11709,8 +11572,8 @@
     "verse": 32,
     "content": [
       { "text": "Sing to God, you kingdoms of the earth!", "break": true },
-      { "text": "Sing praises to the Lord—", "break": true },
-      "Selah—"
+      "Sing praises to the Lord—",
+      { "text": "Selah—", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -11719,7 +11582,6 @@
     "verse": 33,
     "content": [
       {
-        "paragraph": true,
         "text": "to him who rides on the heaven of heavens, which are of old;",
         "break": true
       },
@@ -12747,6 +12609,12 @@
     "chapter": 73,
     "verse": 1,
     "content": [
+      {
+        "heading": [
+          { "text": "Book Three", "marks": ["sc"] },
+          " (Psalms 73–89)"
+        ]
+      },
       { "subtitle": "A Psalm by Asaph." },
       {
         "paragraph": true,
@@ -13359,8 +13227,8 @@
     "verse": 3,
     "content": [
       { "text": "The earth and all its inhabitants quake.", "break": true },
-      { "text": "I firmly hold its pillars.", "break": true },
-      "Selah."
+      "I firmly hold its pillars. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -13368,11 +13236,7 @@
     "chapter": 75,
     "verse": 4,
     "content": [
-      {
-        "paragraph": true,
-        "text": "I said to the arrogant, “Don’t boast!”",
-        "break": true
-      },
+      { "text": "I said to the arrogant, “Don’t boast!”", "break": true },
       {
         "text": "I said to the wicked, “Don’t lift up the horn.",
         "break": true
@@ -13472,11 +13336,8 @@
         "text": "There he broke the flaming arrows of the bow,",
         "break": true
       },
-      {
-        "text": "the shield, and the sword, and the weapons of war.",
-        "break": true
-      },
-      "Selah."
+      "the shield, and the sword, and the weapons of war. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -13484,11 +13345,7 @@
     "chapter": 76,
     "verse": 4,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Glorious are you, and excellent,",
-        "break": true
-      },
+      { "text": "Glorious are you, and excellent,", "break": true },
       { "text": "more than mountains of game.", "break": true }
     ]
   },
@@ -13541,8 +13398,8 @@
     "verse": 9,
     "content": [
       { "text": "when God arose to judgment,", "break": true },
-      { "text": "to save all the afflicted ones of the earth.", "break": true },
-      "Selah."
+      "to save all the afflicted ones of the earth. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -13550,11 +13407,7 @@
     "chapter": 76,
     "verse": 10,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Surely the wrath of man praises you.",
-        "break": true
-      },
+      { "text": "Surely the wrath of man praises you.", "break": true },
       { "text": "The survivors of your wrath are restrained.", "break": true }
     ]
   },
@@ -13612,8 +13465,8 @@
     "verse": 3,
     "content": [
       { "text": "I remember God, and I groan.", "break": true },
-      { "text": "I complain, and my spirit is overwhelmed.", "break": true },
-      "Selah."
+      "I complain, and my spirit is overwhelmed. ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -13668,8 +13521,8 @@
     "verse": 9,
     "content": [
       { "text": "Has God forgotten to be gracious?", "break": true },
-      { "text": "Has he, in anger, withheld his compassion?”", "break": true },
-      "Selah."
+      "Has he, in anger, withheld his compassion?” ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -13677,11 +13530,7 @@
     "chapter": 77,
     "verse": 10,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Then I thought, “I will appeal to this:",
-        "break": true
-      },
+      { "text": "Then I thought, “I will appeal to this:", "break": true },
       {
         "text": "the years of the right hand of the Most High.”",
         "break": true
@@ -13733,8 +13582,8 @@
     "verse": 15,
     "content": [
       { "text": "You have redeemed your people with your arm,", "break": true },
-      { "text": "the sons of Jacob and Joseph.", "break": true },
-      "Selah."
+      "the sons of Jacob and Joseph. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -13742,7 +13591,7 @@
     "chapter": 77,
     "verse": 16,
     "content": [
-      { "paragraph": true, "text": "The waters saw you, God.", "break": true },
+      { "text": "The waters saw you, God.", "break": true },
       { "text": "The waters saw you, and they writhed.", "break": true },
       { "text": "The depths also convulsed.", "break": true }
     ]
@@ -15028,8 +14877,8 @@
         "text": "I answered you in the secret place of thunder.",
         "break": true
       },
-      { "text": "I tested you at the waters of Meribah.”", "break": true },
-      "Selah."
+      "I tested you at the waters of Meribah.” ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -15147,8 +14996,8 @@
     "verse": 2,
     "content": [
       { "text": "“How long will you judge unjustly,", "break": true },
-      { "text": "and show partiality to the wicked?”", "break": true },
-      "Selah."
+      "and show partiality to the wicked?” ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -15299,8 +15148,8 @@
     "verse": 8,
     "content": [
       { "text": "Assyria also is joined with them.", "break": true },
-      { "text": "They have helped the children of Lot.", "break": true },
-      "Selah."
+      "They have helped the children of Lot. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -15308,11 +15157,7 @@
     "chapter": 83,
     "verse": 9,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Do to them as you did to Midian,",
-        "break": true
-      },
+      { "text": "Do to them as you did to Midian,", "break": true },
       {
         "text": "as to Sisera, as to Jabin, at the river Kishon;",
         "break": true
@@ -15462,8 +15307,8 @@
     "verse": 4,
     "content": [
       { "text": "Blessed are those who dwell in your house.", "break": true },
-      { "text": "They are always praising you.", "break": true },
-      "Selah."
+      "They are always praising you. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -15471,11 +15316,7 @@
     "chapter": 84,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Blessed are those whose strength is in you,",
-        "break": true
-      },
+      { "text": "Blessed are those whose strength is in you,", "break": true },
       { "text": "who have set their hearts on a pilgrimage.", "break": true }
     ]
   },
@@ -15509,8 +15350,8 @@
     "verse": 8,
     "content": [
       { "text": "Yahweh, God of Armies, hear my prayer.", "break": true },
-      { "text": "Listen, God of Jacob.", "break": true },
-      "Selah."
+      "Listen, God of Jacob. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -15518,7 +15359,7 @@
     "chapter": 84,
     "verse": 9,
     "content": [
-      { "paragraph": true, "text": "Behold, God our shield,", "break": true },
+      { "text": "Behold, God our shield,", "break": true },
       { "text": "look at the face of your anointed.", "break": true }
     ]
   },
@@ -15583,8 +15424,8 @@
         "text": "You have forgiven the iniquity of your people.",
         "break": true
       },
-      { "text": "You have covered all their sin.", "break": true },
-      "Selah."
+      "You have covered all their sin. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -15592,11 +15433,7 @@
     "chapter": 85,
     "verse": 3,
     "content": [
-      {
-        "paragraph": true,
-        "text": "You have taken away all your wrath.",
-        "break": true
-      },
+      { "text": "You have taken away all your wrath.", "break": true },
       {
         "text": "You have turned from the fierceness of your anger.",
         "break": true
@@ -15935,11 +15772,8 @@
     "chapter": 87,
     "verse": 3,
     "content": [
-      {
-        "text": "Glorious things are spoken about you, city of God.",
-        "break": true
-      },
-      "Selah."
+      "Glorious things are spoken about you, city of God. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -15948,7 +15782,6 @@
     "verse": 4,
     "content": [
       {
-        "paragraph": true,
         "text": "I will record Rahab",
         "foot": { "type": "stu", "content": "Rahab is a reference to Egypt." }
       },
@@ -15978,8 +15811,8 @@
         "text": "Yahweh will count, when he writes up the peoples,",
         "break": true
       },
-      { "text": "“This one was born there.”", "break": true },
-      "Selah."
+      "“This one was born there.” ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -15988,7 +15821,6 @@
     "verse": 7,
     "content": [
       {
-        "paragraph": true,
         "text": "Those who sing as well as those who dance say,",
         "break": true
       },
@@ -16071,8 +15903,8 @@
     "verse": 7,
     "content": [
       { "text": "Your wrath lies heavily on me.", "break": true },
-      { "text": "You have afflicted me with all your waves.", "break": true },
-      "Selah."
+      "You have afflicted me with all your waves. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -16080,11 +15912,7 @@
     "chapter": 88,
     "verse": 8,
     "content": [
-      {
-        "paragraph": true,
-        "text": "You have taken my friends from me.",
-        "break": true
-      },
+      { "text": "You have taken my friends from me.", "break": true },
       { "text": "You have made me an abomination to them.", "break": true },
       { "text": "I am confined, and I can’t escape.", "break": true }
     ]
@@ -16105,11 +15933,8 @@
     "verse": 10,
     "content": [
       { "text": "Do you show wonders to the dead?", "break": true },
-      {
-        "text": "Do the departed spirits rise up and praise you?",
-        "break": true
-      },
-      "Selah."
+      "Do the departed spirits rise up and praise you? ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -16118,7 +15943,6 @@
     "verse": 11,
     "content": [
       {
-        "paragraph": true,
         "text": "Is your loving kindness declared in the grave?",
         "break": true
       },
@@ -16240,11 +16064,8 @@
     "verse": 4,
     "content": [
       { "text": "‘I will establish your offspring forever,", "break": true },
-      {
-        "text": "and build up your throne to all generations.’ ”",
-        "break": true
-      },
-      "Selah."
+      "and build up your throne to all generations.’” ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -16253,7 +16074,6 @@
     "verse": 5,
     "content": [
       {
-        "paragraph": true,
         "text": "The heavens will praise your wonders, Yahweh,",
         "break": true
       },
@@ -16609,8 +16429,8 @@
         "text": "It will be established forever like the moon,",
         "break": true
       },
-      { "text": "the faithful witness in the sky.”", "break": true },
-      "Selah."
+      "the faithful witness in the sky.” ",
+      { "text": "Selah.", "marks": ["i"] }
     ]
   },
   {
@@ -16692,8 +16512,8 @@
     "verse": 45,
     "content": [
       { "text": "You have shortened the days of his youth.", "break": true },
-      { "text": "You have covered him with shame.", "break": true },
-      "Selah."
+      "You have covered him with shame. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -16701,7 +16521,7 @@
     "chapter": 89,
     "verse": 46,
     "content": [
-      { "paragraph": true, "text": "How long, Yahweh?", "break": true },
+      { "text": "How long, Yahweh?", "break": true },
       { "text": "Will you hide yourself forever?", "break": true },
       { "text": "Will your wrath burn like fire?", "break": true }
     ]
@@ -16729,10 +16549,9 @@
       },
       {
         "text": "who shall deliver his soul from the power of Sheol?",
-        "break": true,
         "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
-      "Selah."
+      { "text": " Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -16741,7 +16560,6 @@
     "verse": 49,
     "content": [
       {
-        "paragraph": true,
         "text": "Lord, where are your former loving kindnesses,",
         "break": true
       },
@@ -16793,6 +16611,12 @@
     "chapter": 90,
     "verse": 1,
     "content": [
+      {
+        "heading": [
+          { "text": "Book Four", "marks": ["sc"] },
+          " (Psalms 90–106)"
+        ]
+      },
       {
         "subtitle": {
           "text": "A Prayer by Moses, the man of God.",
@@ -20264,6 +20088,12 @@
     "verse": 1,
     "content": [
       {
+        "heading": [
+          { "text": "Book Five", "marks": ["sc"] },
+          " (Psalms 107–150)"
+        ]
+      },
+      {
         "paragraph": true,
         "text": "Give thanks to Yahweh,",
         "foot": {
@@ -21607,7 +21437,7 @@
     "chapter": 113,
     "verse": 6,
     "content": {
-      "text": "who stoops down to see in heaven and in the earth?",
+      "text": "who stoops down to see in heaven and on the earth?",
       "break": true
     }
   },
@@ -22328,7 +22158,13 @@
       {
         "text": "has become the cornerstone.",
         "break": true,
-        "foot": { "type": "trn", "content": "Literally, head of the corner" }
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Literally, ",
+            { "text": "head of the corner", "marks": ["i"] }
+          ]
+        }
       }
     ]
   },
@@ -22478,7 +22314,7 @@
     "verse": 8,
     "content": [
       { "text": "I will observe your statutes.", "break": true },
-      "Don’t utterly forsake me."
+      { "text": "Don’t utterly forsake me.", "break": true }
     ]
   },
   {
@@ -22487,11 +22323,7 @@
     "verse": 9,
     "content": [
       { "heading": "BETH", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "How can a young man keep his way pure?",
-        "break": true
-      },
+      { "text": "How can a young man keep his way pure?", "break": true },
       { "text": "By living according to your word.", "break": true }
     ]
   },
@@ -22561,7 +22393,7 @@
     "verse": 16,
     "content": [
       { "text": "I will delight myself in your statutes.", "break": true },
-      "I will not forget your word."
+      { "text": "I will not forget your word.", "break": true }
     ]
   },
   {
@@ -22570,7 +22402,7 @@
     "verse": 17,
     "content": [
       { "heading": "GIMEL", "type": "acrostic" },
-      { "paragraph": true, "text": "Do good to your servant.", "break": true },
+      { "text": "Do good to your servant.", "break": true },
       { "text": "I will live and I will obey your word.", "break": true }
     ]
   },
@@ -22637,7 +22469,7 @@
     "verse": 24,
     "content": [
       { "text": "Indeed your statutes are my delight,", "break": true },
-      "and my counselors."
+      { "text": "and my counselors.", "break": true }
     ]
   },
   {
@@ -22646,11 +22478,7 @@
     "verse": 25,
     "content": [
       { "heading": "DALETH", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "My soul is laid low in the dust.",
-        "break": true
-      },
+      { "text": "My soul is laid low in the dust.", "break": true },
       { "text": "Revive me according to your word!", "break": true }
     ]
   },
@@ -22717,7 +22545,7 @@
     "verse": 32,
     "content": [
       { "text": "I run in the path of your commandments,", "break": true },
-      "for you have set my heart free."
+      { "text": "for you have set my heart free.", "break": true }
     ]
   },
   {
@@ -22726,11 +22554,7 @@
     "verse": 33,
     "content": [
       { "heading": "HE", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "Teach me, Yahweh, the way of your statutes.",
-        "break": true
-      },
+      { "text": "Teach me, Yahweh, the way of your statutes.", "break": true },
       { "text": "I will keep them to the end.", "break": true }
     ]
   },
@@ -22800,7 +22624,7 @@
     "verse": 40,
     "content": [
       { "text": "Behold, I long for your precepts!", "break": true },
-      "Revive me in your righteousness."
+      { "text": "Revive me in your righteousness.", "break": true }
     ]
   },
   {
@@ -22810,7 +22634,6 @@
     "content": [
       { "heading": "VAV", "type": "acrostic" },
       {
-        "paragraph": true,
         "text": "Let your loving kindness also come to me, Yahweh,",
         "break": true
       },
@@ -22889,7 +22712,7 @@
         "text": "I reach out my hands for your commandments, which I love.",
         "break": true
       },
-      "I will meditate on your statutes."
+      { "text": "I will meditate on your statutes.", "break": true }
     ]
   },
   {
@@ -22898,11 +22721,7 @@
     "verse": 49,
     "content": [
       { "heading": "ZAYIN", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "Remember your word to your servant,",
-        "break": true
-      },
+      { "text": "Remember your word to your servant,", "break": true },
       { "text": "because you gave me hope.", "break": true }
     ]
   },
@@ -22969,7 +22788,7 @@
     "verse": 56,
     "content": [
       { "text": "This is my way,", "break": true },
-      "that I keep your precepts."
+      { "text": "that I keep your precepts.", "break": true }
     ]
   },
   {
@@ -22978,7 +22797,7 @@
     "verse": 57,
     "content": [
       { "heading": "HETH", "type": "acrostic" },
-      { "paragraph": true, "text": "Yahweh is my portion.", "break": true },
+      { "text": "Yahweh is my portion.", "break": true },
       { "text": "I promised to obey your words.", "break": true }
     ]
   },
@@ -23048,7 +22867,7 @@
         "text": "The earth is full of your loving kindness, Yahweh.",
         "break": true
       },
-      "Teach me your statutes."
+      { "text": "Teach me your statutes.", "break": true }
     ]
   },
   {
@@ -23057,11 +22876,7 @@
     "verse": 65,
     "content": [
       { "heading": "TETH", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "You have treated your servant well,",
-        "break": true
-      },
+      { "text": "You have treated your servant well,", "break": true },
       { "text": "according to your word, Yahweh.", "break": true }
     ]
   },
@@ -23129,7 +22944,10 @@
     "book": "PSA",
     "chapter": 119,
     "verse": 72,
-    "content": "The law of your mouth is better to me than thousands of pieces of gold and silver."
+    "content": {
+      "text": "The law of your mouth is better to me than thousands of pieces of gold and silver.",
+      "break": true
+    }
   },
   {
     "book": "PSA",
@@ -23137,11 +22955,7 @@
     "verse": 73,
     "content": [
       { "heading": "YODH", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "Your hands have made me and formed me.",
-        "break": true
-      },
+      { "text": "Your hands have made me and formed me.", "break": true },
       {
         "text": "Give me understanding, that I may learn your commandments.",
         "break": true
@@ -23223,7 +23037,7 @@
         "text": "Let my heart be blameless toward your decrees,",
         "break": true
       },
-      "that I may not be disappointed."
+      { "text": "that I may not be disappointed.", "break": true }
     ]
   },
   {
@@ -23232,11 +23046,7 @@
     "verse": 81,
     "content": [
       { "heading": "KAPF", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "My soul faints for your salvation.",
-        "break": true
-      },
+      { "text": "My soul faints for your salvation.", "break": true },
       { "text": "I hope in your word.", "break": true }
     ]
   },
@@ -23310,7 +23120,7 @@
         "text": "Preserve my life according to your loving kindness,",
         "break": true
       },
-      "so I will obey the statutes of your mouth."
+      { "text": "so I will obey the statutes of your mouth.", "break": true }
     ]
   },
   {
@@ -23320,7 +23130,6 @@
     "content": [
       { "heading": "LAMEDH", "type": "acrostic" },
       {
-        "paragraph": true,
         "text": "Yahweh, your word is settled in heaven forever.",
         "break": true
       }
@@ -23392,7 +23201,7 @@
     "verse": 96,
     "content": [
       { "text": "I have seen a limit to all perfection,", "break": true },
-      "but your commands are boundless."
+      { "text": "but your commands are boundless.", "break": true }
     ]
   },
   {
@@ -23401,7 +23210,7 @@
     "verse": 97,
     "content": [
       { "heading": "MEM", "type": "acrostic" },
-      { "paragraph": true, "text": "How I love your law!", "break": true },
+      { "text": "How I love your law!", "break": true },
       { "text": "It is my meditation all day.", "break": true }
     ]
   },
@@ -23471,7 +23280,7 @@
     "verse": 104,
     "content": [
       { "text": "Through your precepts, I get understanding;", "break": true },
-      "therefore I hate every false way."
+      { "text": "therefore I hate every false way.", "break": true }
     ]
   },
   {
@@ -23480,11 +23289,7 @@
     "verse": 105,
     "content": [
       { "heading": "NUN", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "Your word is a lamp to my feet,",
-        "break": true
-      },
+      { "text": "Your word is a lamp to my feet,", "break": true },
       { "text": "and a light for my path.", "break": true }
     ]
   },
@@ -23557,7 +23362,7 @@
         "text": "I have set my heart to perform your statutes forever,",
         "break": true
       },
-      "even to the end."
+      { "text": "even to the end.", "break": true }
     ]
   },
   {
@@ -23566,7 +23371,7 @@
     "verse": 113,
     "content": [
       { "heading": "SAMEKH", "type": "acrostic" },
-      { "paragraph": true, "text": "I hate double-minded men,", "break": true },
+      { "text": "I hate double-minded men,", "break": true },
       { "text": "but I love your law.", "break": true }
     ]
   },
@@ -23642,7 +23447,7 @@
     "verse": 120,
     "content": [
       { "text": "My flesh trembles for fear of you.", "break": true },
-      "I am afraid of your judgments."
+      { "text": "I am afraid of your judgments.", "break": true }
     ]
   },
   {
@@ -23651,11 +23456,7 @@
     "verse": 121,
     "content": [
       { "heading": "AYIN", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "I have done what is just and righteous.",
-        "break": true
-      },
+      { "text": "I have done what is just and righteous.", "break": true },
       { "text": "Don’t leave me to my oppressors.", "break": true }
     ]
   },
@@ -23728,7 +23529,7 @@
         "text": "Therefore I consider all of your precepts to be right.",
         "break": true
       },
-      "I hate every false way."
+      { "text": "I hate every false way.", "break": true }
     ]
   },
   {
@@ -23737,11 +23538,7 @@
     "verse": 129,
     "content": [
       { "heading": "PE", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "Your testimonies are wonderful,",
-        "break": true
-      },
+      { "text": "Your testimonies are wonderful,", "break": true },
       { "text": "therefore my soul keeps them.", "break": true }
     ]
   },
@@ -23805,7 +23602,7 @@
     "verse": 136,
     "content": [
       { "text": "Streams of tears run down my eyes,", "break": true },
-      "because they don’t observe your law."
+      { "text": "because they don’t observe your law.", "break": true }
     ]
   },
   {
@@ -23814,11 +23611,7 @@
     "verse": 137,
     "content": [
       { "heading": "TZADHE", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "You are righteous, Yahweh.",
-        "break": true
-      },
+      { "text": "You are righteous, Yahweh.", "break": true },
       { "text": "Your judgments are upright.", "break": true }
     ]
   },
@@ -23888,7 +23681,7 @@
     "verse": 144,
     "content": [
       { "text": "Your testimonies are righteous forever.", "break": true },
-      "Give me understanding, that I may live."
+      { "text": "Give me understanding, that I may live.", "break": true }
     ]
   },
   {
@@ -23897,11 +23690,7 @@
     "verse": 145,
     "content": [
       { "heading": "QOPH", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "I have called with my whole heart.",
-        "break": true
-      },
+      { "text": "I have called with my whole heart.", "break": true },
       { "text": "Answer me, Yahweh!", "break": true },
       { "text": "I will keep your statutes.", "break": true }
     ]
@@ -23972,7 +23761,7 @@
     "verse": 152,
     "content": [
       { "text": "Of old I have known from your testimonies,", "break": true },
-      "that you have founded them forever."
+      { "text": "that you have founded them forever.", "break": true }
     ]
   },
   {
@@ -23981,11 +23770,7 @@
     "verse": 153,
     "content": [
       { "heading": "RESH", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "Consider my affliction, and deliver me,",
-        "break": true
-      },
+      { "text": "Consider my affliction, and deliver me,", "break": true },
       { "text": "for I don’t forget your law.", "break": true }
     ]
   },
@@ -24052,7 +23837,10 @@
     "verse": 160,
     "content": [
       { "text": "All of your words are truth.", "break": true },
-      "Every one of your righteous ordinances endures forever."
+      {
+        "text": "Every one of your righteous ordinances endures forever.",
+        "break": true
+      }
     ]
   },
   {
@@ -24061,11 +23849,7 @@
     "verse": 161,
     "content": [
       { "heading": "SIN AND SHIN", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "Princes have persecuted me without a cause,",
-        "break": true
-      },
+      { "text": "Princes have persecuted me without a cause,", "break": true },
       { "text": "but my heart stands in awe of your words.", "break": true }
     ]
   },
@@ -24132,7 +23916,7 @@
         "text": "I have obeyed your precepts and your testimonies,",
         "break": true
       },
-      "for all my ways are before you."
+      { "text": "for all my ways are before you.", "break": true }
     ]
   },
   {
@@ -24141,11 +23925,7 @@
     "verse": 169,
     "content": [
       { "heading": "TAV", "type": "acrostic" },
-      {
-        "paragraph": true,
-        "text": "Let my cry come before you, Yahweh.",
-        "break": true
-      },
+      { "text": "Let my cry come before you, Yahweh.", "break": true },
       { "text": "Give me understanding according to your word.", "break": true }
     ]
   },
@@ -26257,8 +26037,8 @@
         "text": "They have sharpened their tongues like a serpent.",
         "break": true
       },
-      { "text": "Viper’s poison is under their lips.", "break": true },
-      "Selah."
+      "Viper’s poison is under their lips. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -26267,7 +26047,6 @@
     "verse": 4,
     "content": [
       {
-        "paragraph": true,
         "text": "Yahweh, keep me from the hands of the wicked.",
         "break": true
       },
@@ -26287,8 +26066,8 @@
         "text": "they have spread the cords of a net by the path.",
         "break": true
       },
-      { "text": "They have set traps for me.", "break": true },
-      "Selah."
+      "They have set traps for me. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -26296,11 +26075,7 @@
     "chapter": 140,
     "verse": 6,
     "content": [
-      {
-        "paragraph": true,
-        "text": "I said to Yahweh, “You are my God.”",
-        "break": true
-      },
+      { "text": "I said to Yahweh, “You are my God.”", "break": true },
       { "text": "Listen to the cry of my petitions, Yahweh.", "break": true }
     ]
   },
@@ -26328,11 +26103,8 @@
         "text": "Yahweh, don’t grant the desires of the wicked.",
         "break": true
       },
-      {
-        "text": "Don’t let their evil plans succeed, or they will become proud.",
-        "break": true
-      },
-      "Selah."
+      "Don’t let their evil plans succeed, or they will become proud. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -26340,11 +26112,7 @@
     "chapter": 140,
     "verse": 9,
     "content": [
-      {
-        "paragraph": true,
-        "text": "As for the head of those who surround me,",
-        "break": true
-      },
+      { "text": "As for the head of those who surround me,", "break": true },
       {
         "text": "let the mischief of their own lips cover them.",
         "break": true
@@ -26367,7 +26135,7 @@
     "verse": 11,
     "content": [
       {
-        "text": "An evil speaker won’t be established in the earth.",
+        "text": "An evil speaker won’t be established on the earth.",
         "break": true
       },
       {
@@ -26671,11 +26439,8 @@
     "verse": 6,
     "content": [
       { "text": "I spread out my hands to you.", "break": true },
-      {
-        "text": "My soul thirsts for you, like a parched land.",
-        "break": true
-      },
-      "Selah."
+      "My soul thirsts for you, like a parched land. ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -26683,11 +26448,7 @@
     "chapter": 143,
     "verse": 7,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Hurry to answer me, Yahweh.",
-        "break": true
-      },
+      { "text": "Hurry to answer me, Yahweh.", "break": true },
       { "text": "My spirit fails.", "break": true },
       { "text": "Don’t hide your face from me,", "break": true },
       {
