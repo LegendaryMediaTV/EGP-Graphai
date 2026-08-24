@@ -463,3 +463,74 @@ describe("classifyFootnote — a critical edition's longer publisher notes", () 
     expect(classifyFootnote("This verse is numbered differently in the standard critical editions of the Greek NT.")).toBe("stu");
   });
 });
+
+/**
+ * A 17th-century edition abbreviates its original-language names many ways,
+ * and inconsistently. KJV1769 spells Chaldee seven ways across 136 real
+ * bodies and Hebrew three, none of which a fixed list of full names catches.
+ */
+describe("classifyFootnote — every spelling of an original-language opener is trn", () => {
+  describe("KJV1769's own Hebrew abbreviations", () => {
+    const bodies = ["Hebr. to cause it to fly", "He. the staff, or the head", "Heb. between the light and between the darkness"];
+    it.each(bodies)("should classify %j as trn", (body) => {
+      expect(classifyFootnote(body)).toBe("trn");
+    });
+  });
+
+  describe("KJV1769's own Chaldee abbreviations, including the h-less and comma-terminated printings", () => {
+    const bodies = [
+      "Chald. societies",
+      "Chal. Cheeneth",
+      "Cald. made",
+      "Chalde, books",
+      "Chaldee, go",
+      "Chal, societies",
+      "Chald, cores",
+    ];
+    it.each(bodies)("should classify %j as trn", (body) => {
+      expect(classifyFootnote(body)).toBe("trn");
+    });
+  });
+
+  it("should classify a truncated body that is nothing but the opener as trn (2 Chronicles 4:2's real body is the single word “Heb.”)", () => {
+    expect(classifyFootnote("Heb.")).toBe("trn");
+  });
+
+  it("should not read an ordinary sentence opening with the pronoun “He” as a Hebrew gloss, which is why that two-letter form alone must carry its own period or comma", () => {
+    expect(classifyFootnote("He said unto them, Follow me.")).toBe("stu");
+  });
+
+  it("should not read a word merely beginning with an opener's letters as an opener (“called in the original Didrachma…” is not the Chaldee “Cal.”)", () => {
+    expect(classifyFootnote("called in the original Didrachma, being in value fifteen pence")).toBe("stu");
+  });
+});
+
+/**
+ * "Some read X" is a witness claim with the witness noun left out, since it
+ * can only mean "some manuscripts read X".
+ */
+describe("classifyFootnote — an elliptical “some read” is var when it is the note itself", () => {
+  const bodies = ["Some read, our", "some read against themselves", "Some read, both your, and their master"];
+  it.each(bodies)("should classify %j as var", (body) => {
+    expect(classifyFootnote(body)).toBe("var");
+  });
+
+  it("should leave the same words as trn when they only qualify an alternative an Or opener already offered — ASV1901's own convention, which KJV1769 disagrees with", () => {
+    expect(classifyFootnote("Or as some read shake. See Ps. 69:23.")).toBe("trn");
+  });
+});
+
+/**
+ * `Sam.` abbreviates the Samaritan Pentateuch in an apparatus and the book
+ * of Samuel in a cross-reference. Position tells them apart.
+ */
+describe("classifyFootnote — Sam. is a witness only at the start of a note", () => {
+  it("should classify a note-initial Sam. as the Samaritan Pentateuch", () => {
+    expect(classifyFootnote("Sam. omits Chief Korah")).toBe("var");
+  });
+
+  it("should read a trailing “in Sam.” as the book of Samuel instead (KJV1769's own cross-reference wording)", () => {
+    expect(classifyFootnote("Called Ahimelech in Sam.")).toBe("stu");
+    expect(classifyFootnote("Or, Hadadezer in Sam")).toBe("trn");
+  });
+});

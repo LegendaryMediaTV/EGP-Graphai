@@ -138,7 +138,8 @@ const NAMED_WITNESSES =
  * unreachable. Anchoring on the period itself is what makes these match at
  * all.
  */
-const WITNESS_ABBREVIATIONS = /\b(?:Vg|Syr|Tg|Sam|Vss)(?![a-z])(?![.\sa-z]*\d)|\b(?:Kt|Qr|M\.T)\./;
+const WITNESS_ABBREVIATIONS =
+  /\b(?:Vg|Syr|Tg|Vss)(?![a-z])(?![.\sa-z]*\d)|\b(?:Kt|Qr|M\.T)\.|^Sam[.,]?\s(?![.\sa-z]*\d)/;
 
 /**
  * `ℵ` (U+2135), the siglon for Codex Sinaiticus. Kept out of
@@ -235,6 +236,22 @@ const WITNESS_CLAIM_REVERSE = new RegExp(`\\b${WITNESS_VERB_SOURCE}\\b[^.]{0,40}
 
 /** ASV1901's own real `"Another reading is, Ai."` phrasing — a witness claim with no named witness, no siglon, and no witness noun at all, just this fixed idiom. */
 const ANOTHER_READING = /\banother reading\b/i;
+
+/**
+ * `"Some read, our"` — a witness claim with the witness noun left out, since
+ * "some read" can only mean "some *manuscripts* read." KJV1769 writes 24 of
+ * its variants this way, and CSB2017 and NLT2015 several hundred more.
+ *
+ * **Anchored to the body's own start on purpose.** As a whole note the
+ * construct is the claim itself, but as a trailing clause under an `Or`
+ * opener it only qualifies an alternative already offered, and the two
+ * editions closest to this decision split on that: ASV1901 tags `"Or as
+ * some read shake. See Ps. 69:23."` `trn` while KJV1769 tags `"Or, Zaccur,
+ * as some read"` `var`. Anchoring follows ASV1901, the calibration corpus,
+ * and leaves 4 real KJV1769 bodies as an accepted disagreement rather than
+ * flipping ASV1901's own 2.
+ */
+const ELLIPTICAL_WITNESS_READING = /^\s*(?:some|many|others?|a few|several)\s+reads?\b/i;
 
 /**
  * The symbolic operators a critical edition's apparatus uses in place of
@@ -338,7 +355,8 @@ function namesAWitness(body: string): boolean {
     WITNESS_CLAIM.test(body) ||
     WITNESS_CLAIM_REVERSE.test(body) ||
     LANGUAGE_WITNESS.test(body) ||
-    ANOTHER_READING.test(body)
+    ANOTHER_READING.test(body) ||
+    ELLIPTICAL_WITNESS_READING.test(body)
   );
 }
 
@@ -359,7 +377,31 @@ function namesAWitness(body: string): boolean {
  * re-derived per edition only in which punctuation variant each one
  * happens to prefer.
  */
-const TRANSLATION_OPENER = /^\s*["'“(]?\s*(?:or|lit|literally|heb|hebrew|hb|gr|greek|aram|aramaic)\b[.,:;]*[\s“"']/i;
+/**
+ * Every spelling of an original-language name a real edition opens with,
+ * written as a stem with optional tails rather than a list, because the
+ * abbreviations vary by edition and by printing. KJV1769 alone spells
+ * Chaldee seven ways across 136 real bodies (`Chald.`, `Chal.`, `Chalde,`,
+ * `Chaldee,`, `Chald,`, `Chal,`, and `Cald.` with the h dropped), and
+ * abbreviates Hebrew as `Heb.`, `Hebr.`, and `He.`. `ch?al(?:d(?:ee?)?)?`
+ * covers the whole Chaldee family including the h-less variants; every
+ * other stem works the same way.
+ */
+const LANGUAGE_OPENER = "or|lit(?:erally)?|heb(?:r(?:ew)?)?|hb|gr(?:eek)?|aram(?:aic)?|ch?al(?:d(?:ee?)?)?";
+
+/**
+ * `He.`, KJV1769's shortest abbreviation for Hebrew (2 Samuel 21:16's `"He.
+ * the staff, or the head"`). Held apart from {@link LANGUAGE_OPENER} because
+ * two letters is short enough to be an ordinary word, so this one must
+ * carry its own period or comma — a note opening `"He said..."` is prose,
+ * not a Hebrew gloss.
+ */
+const SHORT_LANGUAGE_OPENER = "he";
+
+const TRANSLATION_OPENER = new RegExp(
+  `^\\s*["'“(]?\\s*(?:(?:${LANGUAGE_OPENER})\\b[.,:;]*|(?:${SHORT_LANGUAGE_OPENER})[.,])(?:[\\s“"']|$)`,
+  "i",
+);
 
 /**
  * Sentence-shaped translation-alternative constructs, unanchored (unlike
