@@ -39,9 +39,8 @@
             ]
           }
         },
-        "The",
         {
-          "text": " Elder",
+          "text": "The Elder",
           "foot": {
             "type": "stu",
             "content": [
@@ -54,11 +53,10 @@
             ]
           }
         },
-        " to the choice ",
         {
-          "text": "Kyria",
+          "text": " to the choice Kyria",
           "foot": {
-            "type": "stu",
+            "type": "trn",
             "content": [
               { "text": "Gr.", "marks": ["i"] },
               " “Kyria;” ",
@@ -67,9 +65,8 @@
             ]
           }
         },
-        ", and to her children, whom I love in truth, and not I only, but also all those having ",
         {
-          "text": "known",
+          "text": ", and to her children, whom I love in truth, and not I only, but also all those having known",
           "foot": {
             "type": "trn",
             "content": ["Or, ", { "text": "approved of", "marks": ["i"] }]
@@ -90,9 +87,8 @@
     "chapter": 1,
     "verse": 3,
     "content": [
-      "there shall be with you ",
       {
-        "text": "grace",
+        "text": "there shall be with you grace",
         "foot": {
           "type": "trn",
           "content": [
@@ -109,9 +105,9 @@
     "chapter": 1,
     "verse": 4,
     "content": [
-      { "paragraph": true, "text": "I " },
       {
-        "text": "rejoiced",
+        "paragraph": true,
+        "text": "I rejoiced",
         "foot": {
           "type": "trn",
           "content": [
@@ -140,9 +136,8 @@
     "chapter": 1,
     "verse": 7,
     "content": [
-      "because many leading astray did enter into the world, who are not ",
       {
-        "text": "confessing",
+        "text": "because many leading astray did enter into the world, who are not confessing",
         "foot": {
           "type": "stu",
           "content": [
@@ -163,9 +158,8 @@
     "chapter": 1,
     "verse": 8,
     "content": [
-      "See to yourselves that ye may not lose the things that we wrought, but a full ",
       {
-        "text": "reward",
+        "text": "See to yourselves that ye may not lose the things that we wrought, but a full reward",
         "foot": {
           "type": "trn",
           "content": ["Lit., ", { "text": "…a full hire.", "marks": ["i"] }]
@@ -179,9 +173,8 @@
     "chapter": 1,
     "verse": 9,
     "content": [
-      "every one who is ",
       {
-        "text": "transgressing",
+        "text": "every one who is transgressing",
         "foot": {
           "type": "trn",
           "content": ["Lit., ", { "text": "going beyond", "marks": ["i"] }]
@@ -195,9 +188,8 @@
     "chapter": 1,
     "verse": 10,
     "content": [
-      "if any one doth come unto you, and this teaching doth not bear, receive him not into the house, and say not to him, “",
       {
-        "text": "Hail",
+        "text": "if any one doth come unto you, and this teaching doth not bear, receive him not into the house, and say not to him, “Hail",
         "foot": {
           "type": "trn",
           "content": [
@@ -224,10 +216,7 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Many things having to write to you, I did not intend through paper and ink, but I hope to come unto you, and speak mouth to mouth, that our "
-      },
-      {
-        "text": "joy",
+        "text": "Many things having to write to you, I did not intend through paper and ink, but I hope to come unto you, and speak mouth to mouth, that our joy",
         "foot": {
           "type": "trn",
           "content": [

@@ -58,10 +58,7 @@
       },
       {
         "paragraph": true,
-        "text": "A beginning of the good news of Jesus Christ, "
-      },
-      {
-        "text": "Son of God.",
+        "text": "A beginning of the good news of Jesus Christ, Son of God.",
         "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 3:1–12" } }
       }
     ]
@@ -2534,19 +2531,10 @@
       "text": "In those days the multitude being very great, and not having what they may eat, Jesus having called near his disciples, saith to them,",
       "foot": {
         "type": "xrf",
-        "content": [
-          "Young’s Commentary prints the parallel as ",
-          {
-            "content": [
-              { "bibleLink": "Matthew 15:32–30", "content": "Mat. 15:32–30" }
-            ],
-            "marks": ["i"]
-          },
-          ", almost certainly a misprint, since Matthew’s chapter runs only to verse 39; the reference below uses the corrected reading of ",
-          { "bibleLink": "Mark 15:32–39", "content": "15:32–39" },
-          ".",
-          { "bibleLink": "Matthew 15:32–39" }
-        ]
+        "content": {
+          "bibleLink": "Matthew 15:32–39",
+          "content": "Mat. 15:32–30"
+        }
       }
     }
   },
@@ -6159,14 +6147,7 @@
       "text": "The Lord, then, indeed, after speaking to them, was received up to the heaven, and sat on the right hand of God;",
       "foot": {
         "type": "xrf",
-        "content": [
-          "Young’s Commentary prints the parallel as ",
-          { "text": "Luke 24:50–58", "marks": ["i"] },
-          ", but Luke’s Gospel ends at 24:53, so the reference is almost certainly meant as ",
-          { "bibleLink": "Luke 24:50–53" },
-          ", used below.",
-          { "bibleLink": "Luke 24:50–53" }
-        ]
+        "content": { "bibleLink": "Luke 24:50–53", "content": "Luke 24:50–58" }
       }
     }
   },

@@ -493,7 +493,7 @@ A beginning of the good news of Jesus Christ, Son of God.<sup>b</sup>
 <sup>37</sup> Or what shall a man give as an exchange for his life?
 <sup>38</sup> for whoever may be ashamed of me, and of my words, in this adulterous and sinful generation, the Son of Man also shall be ashamed of him, when he may come in the glory of his Father, with the holy messengers.”
 
-> - <sup>a</sup> 1. Young’s Commentary prints the parallel as _Mat. 15:32–30_, almost certainly a misprint, since Matthew’s chapter runs only to verse 39; the reference below uses the corrected reading of 15:32–39.Matthew 15:32–39
+> - <sup>a</sup> 1. Mat. 15:32–30
 > - <sup>b</sup> 10. Matthew 16:1–4
 > - <sup>c</sup> 14. Matthew 16:5–12
 > - <sup>d</sup> 22. not found in any other Gospel
@@ -1028,4 +1028,4 @@ A beginning of the good news of Jesus Christ, Son of God.<sup>b</sup>
 > - <sup>a</sup> 1. Matthew 28:1–10
 > - <sup>b</sup> 12. Luke 24:13–35
 > - <sup>c</sup> 14. Luke 24:36–49; John 20:19–29
-> - <sup>d</sup> 19. Young’s Commentary prints the parallel as _Luke 24:50–58_, but Luke’s Gospel ends at 24:53, so the reference is almost certainly meant as Luke 24:50–53, used below.Luke 24:50–53
+> - <sup>d</sup> 19. Luke 24:50–58
