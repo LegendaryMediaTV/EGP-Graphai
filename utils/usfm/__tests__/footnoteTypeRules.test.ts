@@ -412,3 +412,54 @@ describe("classifyFootnote — witnesses needs a reading verb, not just a quanti
     expect(classifyFootnote("Some witnesses read “the Lord” here.")).toBe("var");
   });
 });
+
+/**
+ * A Greek or Hebrew critical edition prints its apparatus as operators
+ * between competing readings, never as the prose the vocabulary rules look
+ * for, so without this construct every one of BYZ2018's 7,522 real bodies
+ * falls through to `stu`.
+ */
+describe("classifyFootnote — symbolic apparatus notation is var", () => {
+  it("should classify the ⇒ operator separating two readings as var (BYZ2018's own 2018 apparatus)", () => {
+    expect(classifyFootnote("N Οἱ δὲ ⇒ -")).toBe("var");
+    expect(classifyFootnote("B ὁ βασιλεὺς ⇒ βασιλεῦ")).toBe("var");
+    expect(classifyFootnote("N αὐτῷ ὁ Ἰωάννης ⇒ ὁ Ἰωάννης αὐτῷ")).toBe("var");
+  });
+
+  it("should classify a standalone ~ as var — BYZ2018's own mark for a verse the compared edition omits, used for exactly the eleven verses from Matthew 17:21 to Romans 16:24", () => {
+    expect(classifyFootnote("N ~")).toBe("var");
+  });
+
+  it("should classify the ¦ witness separator as var, the notation the forthcoming 2026 edition uses throughout", () => {
+    expect(classifyFootnote("δαυιδ ¦ HF TR δαβιδ ¦ TH WH δαυειδ")).toBe("var");
+    expect(classifyFootnote("ασα ασα ¦ CT ασαφ ασαφ")).toBe("var");
+  });
+
+  it("should not read an ordinary tilde inside prose as apparatus notation", () => {
+    expect(classifyFootnote("A cubit is about 18 inches (~45 cm).")).toBe("stu");
+  });
+});
+
+/**
+ * The 2026 Byzantine edition carries longer publisher notes as the second
+ * of two back-to-back footnotes on one word. Almost all of them still use
+ * the `¦` separator, but two in the whole edition do not, and neither opens
+ * with a Greek character, so each needs a signal read off the note itself.
+ */
+describe("classifyFootnote — a critical edition's longer publisher notes", () => {
+  it("should classify a prose note about how comparison editions differ as var, on its quantified “editions” (the 2026 edition's own Matthew 23:13-14 note, which carries no apparatus separator at all)", () => {
+    expect(
+      classifyFootnote(
+        "Some comparison editions swap verse numbers for verse 13 and verse 14, some omit the content of verse 13 entirely, and some display variations in the appearance of the post-positive conjunction δε. Please see Appendix C for a full treatment of this lengthy variant unit.",
+      ),
+    ).toBe("var");
+  });
+
+  it("should classify a bare witness list as var on its ℵ siglon, where the uncial letters and Gregory-Aland numbers around it are far too ordinary to match on (the 2026 edition's own 1 John 5:7-8 note, markdown stripped)", () => {
+    expect(classifyFootnote("om. ℵ A B K L P Ψ 048 049 056 0142 0296 33vid 1841 1862 2464")).toBe("var");
+  });
+
+  it("should not read an unquantified mention of editions as a witness claim, since that is ordinary background prose", () => {
+    expect(classifyFootnote("This verse is numbered differently in the standard critical editions of the Greek NT.")).toBe("stu");
+  });
+});

@@ -13,22 +13,25 @@
  * earlier version of this file worked from literal phrase lists lifted out
  * of one edition's own footnotes (down to a source-side typo,
  * `"authorites insert"`), which meant every new edition run through it
- * needed its own pass of new literals. The four rules below instead ask
- * what shape a footnote body has — is it nothing but citations, does it
- * name a manuscript witness, does it open with a translation marker, does
- * it weigh one language's reading against another — so the same rules hold
- * across editions without being re-derived from each one's house style.
+ * needed its own pass of new literals. The rules below instead ask what
+ * shape a footnote body has — is it nothing but citations, is it an
+ * apparatus entry in symbolic notation, does it name a manuscript witness,
+ * does it open with a translation marker, does it weigh one language's
+ * reading against another — so the same rules hold across editions without
+ * being re-derived from each one's house style.
  *
  * **Order is load-bearing**, and each rule's own doc comment below explains
  * why it sits where it does. In short: `xrf` runs first because it is a
  * whole-body test that a mixed note can never satisfy, so it is safe to try
  * before anything else, and it must resolve a body like `"Heb. 6:10"` (the
  * epistle) before any translation-opener rule gets a chance to misread
- * `Heb.` as Hebrew. `var` runs before `trn` so a witness note that happens
- * to use the word "reads" is not caught by the translation-alternative rule
- * instead. The weaker language-comparison signal for `var` runs last of the
- * four, after `trn` has already had its chance to claim an opening language
- * name as a translation marker instead.
+ * `Heb.` as Hebrew. Symbolic apparatus notation is checked next, since a
+ * Greek or Hebrew critical edition prints operators rather than prose and
+ * no vocabulary rule can see it. `var` then runs before `trn` so a witness
+ * note that happens to use the word "reads" is not caught by the
+ * translation-alternative rule instead. The weaker language-comparison
+ * signal for `var` runs last, after `trn` has already had its chance to
+ * claim an opening language name as a translation marker instead.
  */
 
 import Footnote from "../../types/Footnote";
@@ -138,6 +141,31 @@ const NAMED_WITNESSES =
 const WITNESS_ABBREVIATIONS = /\b(?:Vg|Syr|Tg|Sam|Vss)(?![a-z])(?![.\sa-z]*\d)|\b(?:Kt|Qr|M\.T)\./;
 
 /**
+ * `ℵ` (U+2135), the siglon for Codex Sinaiticus. Kept out of
+ * {@link NAMED_WITNESSES}'s alternation for the same reason
+ * {@link WITNESS_ABBREVIATIONS} is, one step further along — it is not a word
+ * character, so a `\b` on either side of it can never match.
+ *
+ * It earns its place on a bare witness list with no prose around it at all,
+ * the shape a critical edition uses when it simply names who omits a
+ * passage. The 2026 Byzantine edition's own note on 1 John 5:7-8 is the one
+ * real case: strip the markdown and it reads `om. ℵ A B K L P Ψ 048 049 056
+ * 0142 0296 33vid 1841 1862 2464`, where every other signal in this table
+ * sees nothing. The uncial letters and Gregory-Aland numbers around it are
+ * far too ordinary to match on; this symbol appears in a critical apparatus
+ * and nowhere else.
+ *
+ * **The papyrus siglon `𝔓` is deliberately absent.** It appears in 25 of
+ * that edition's entries and every one of them already carries `¦`, so it
+ * would match nothing this table does not already catch. It is also a trap
+ * to copy: `𝔓` is U+1D513, outside the BMP, and the 2026 source currently
+ * holds U+D513 in all 52 places instead — a Hangul syllable that merely
+ * looks similar, from a digit dropped somewhere upstream. A pattern built
+ * by copying the character out of that source would silently never match.
+ */
+const SIGLA_SYMBOLS = /ℵ/u;
+
+/**
  * The short-form tradition sigla, matched **case-sensitively** on purpose.
  * A case-insensitive version of this exact pattern is the single defect
  * that produced the largest share of this classifier's old disagreements
@@ -191,7 +219,7 @@ const CLAIM_WITNESS_NOUN = `(?:${STRONG_WITNESS_NOUN}|${VERB_BOUND_WITNESS_NOUN}
  * unquantified, "text" is just as often background description as it is a
  * claim about a manuscript tradition, and that note is `stu`, not `var`.
  */
-const WEAK_WITNESS_NOUN = "(?:texts?|versions?|traditions?|readings?)\\b";
+const WEAK_WITNESS_NOUN = "(?:texts?|versions?|traditions?|readings?|editions?)\\b";
 const WITNESS_NOUN = `(?:${STRONG_WITNESS_NOUN}|${WEAK_WITNESS_NOUN})`;
 
 /** Determiners that turn a witness noun into a claim about a body of manuscripts, rather than a bare mention of "the text" or "a manuscript." */
@@ -207,6 +235,50 @@ const WITNESS_CLAIM_REVERSE = new RegExp(`\\b${WITNESS_VERB_SOURCE}\\b[^.]{0,40}
 
 /** ASV1901's own real `"Another reading is, Ai."` phrasing — a witness claim with no named witness, no siglon, and no witness noun at all, just this fixed idiom. */
 const ANOTHER_READING = /\banother reading\b/i;
+
+/**
+ * The symbolic operators a critical edition's apparatus uses in place of
+ * prose. A Greek or Hebrew edition does not write "some manuscripts read";
+ * it prints the two competing readings and an operator between them, so
+ * none of the vocabulary rules above can see it at all.
+ *
+ * - `⇒` separates the edition's own reading from a competing one
+ *   (`"N Οἱ δὲ ⇒ -"`, BYZ2018's 2018 apparatus).
+ * - A standalone `~` marks a verse the compared edition omits outright.
+ *   BYZ2018 uses it for exactly the eleven verses modern critical editions
+ *   drop, Matthew 17:21 through Romans 16:24.
+ * - `¦` separates one witness group's reading from the next
+ *   (`"δαυιδ ¦ HF TR δαβιδ ¦ TH WH δαυειδ"`), the notation the forthcoming
+ *   2026 edition uses throughout.
+ *
+ * Measured across every footnote in the corpus: `⇒` and `~` together cover
+ * all 7,522 of BYZ2018's bodies with no gaps, `¦` covers 10,225 of the 2026
+ * edition's own 10,227 apparatus entries, and outside a Greek edition
+ * exactly one body anywhere uses any of the three.
+ *
+ * **A leading Greek or Hebrew character is deliberately not a fourth
+ * signal**, though the 2026 edition's own convention would suggest it, and
+ * it would not help even where it seems most needed. That edition also
+ * carries 647 longer publisher notes, written as the second of two
+ * back-to-back footnotes on one word, and the worry is that those argue a
+ * variant in prose rather than printing it in notation. Measured against
+ * the real source, 646 of the 647 carry `¦` anyway. The two entries in the
+ * whole edition that do not are Matthew 23:13-14's prose note on verse
+ * renumbering and 1 John 5:7-8's bare witness list, and **neither one opens
+ * with a Greek or Hebrew character** — the first opens in English, the
+ * second on an italicized `om.`. Those two are covered here instead by a
+ * quantified `editions` (see {@link WEAK_WITNESS_NOUN}) and by
+ * {@link SIGLA_SYMBOLS}, both of which read the note rather than guessing at
+ * the edition it came from. A leading-character rule would meanwhile
+ * misread any translation gloss that opens with the original-language word
+ * it is glossing.
+ */
+const APPARATUS_NOTATION = /[⇒¦]|(?:^|\s)~(?:\s|$)/;
+
+/** Whether `body` is an apparatus entry in symbolic notation rather than prose — the other `var` signal, and the only one a Greek or Hebrew critical edition ever gives. */
+function usesApparatusNotation(body: string): boolean {
+  return APPARATUS_NOTATION.test(body);
+}
 
 /**
  * A language name, spelled out or abbreviated, for use only in the two
@@ -259,6 +331,7 @@ function namesAWitness(body: string): boolean {
   return (
     NAMED_WITNESSES.test(body) ||
     WITNESS_ABBREVIATIONS.test(body) ||
+    SIGLA_SYMBOLS.test(body) ||
     WITNESS_SIGLA.test(body) ||
     LOWERCASE_SIGLON_READING.test(body) ||
     WITNESS_PHRASE.test(body) ||
@@ -380,6 +453,7 @@ export function flattenContentText(content: unknown): string {
  */
 export function classifyFootnote(body: string): ClassifiableFootnoteType {
   if (isNothingButReferences(body)) return "xrf";
+  if (usesApparatusNotation(body)) return "var";
   if (namesAWitness(body)) return "var";
   if (offersATranslationAlternative(body)) return "trn";
   if (comparesLanguageWitnesses(body)) return "var";
