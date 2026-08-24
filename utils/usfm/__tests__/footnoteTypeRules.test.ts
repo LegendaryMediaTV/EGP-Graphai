@@ -368,8 +368,8 @@ describe("flattenContentText — a bare bibleLink node's own implied display tex
 
 /**
  * A trailing `\b` can never match after a period, so every period-terminated
- * alternative inside a `\b(?:...)\b` wrapper is silently unreachable. These
- * are the real bodies that exposed it, one per pattern that had the flaw.
+ * alternative inside a `\b(?:...)\b` wrapper is silently unreachable. One
+ * case per pattern that carried the flaw.
  */
 describe("classifyFootnote — abbreviations that end in a period still name a witness", () => {
   it("should classify a bare MSS. claim as var (YLT1898's own textual notes, which carry no quantifier the phrase rule could use)", () => {

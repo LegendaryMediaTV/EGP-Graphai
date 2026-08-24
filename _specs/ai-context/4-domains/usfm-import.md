@@ -56,7 +56,7 @@ npx ts-node utils/importUsfm.ts <source-dir> <version-id> --no-strongs
 npx ts-node utils/usfm/verify.ts <source-dir> <version-id>
 
 # Retroactively re-run existing on-disk footnotes through the current classification rules
-npm run overhaul-footnotes <version-id> [--fix]
+npm run overhaul-footnotes <version-id> [-- --hard-reset --fix]
 ```
 
 ## Key Business Rules

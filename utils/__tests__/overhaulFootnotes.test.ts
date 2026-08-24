@@ -3,7 +3,7 @@ import * as os from "os";
 import * as path from "path";
 import { describe, expect, it } from "vitest";
 import VerseSchema from "../../types/VerseSchema";
-import { applyFootnoteOverhaul, computeFootnoteOverhaul, parseOverhaulArgs } from "../overhaulFootnotes";
+import { applyFootnoteOverhaul, computeFootnoteOverhaul, findSwallowedFlags, parseOverhaulArgs } from "../overhaulFootnotes";
 
 /**
  * Every fixture body below lands on an already-established `classifyFootnote`
@@ -305,5 +305,34 @@ describe("parseOverhaulArgs — the --fix-requires-a-version guard, matching aud
       hardReset: true,
       versionArg: "WEBUS2020",
     });
+  });
+});
+
+/**
+ * `npm run <script> --fix` never reaches the script: npm reads the flag as
+ * one of its own config settings and runs the script without it, leaving
+ * only an `npm_config_*` environment variable behind as evidence.
+ */
+describe("findSwallowedFlags — npm eats a flag unless a bare -- precedes it", () => {
+  it("should report a flag npm consumed instead of forwarding", () => {
+    expect(findSwallowedFlags(["ASV1901"], { npm_config_fix: "true" })).toEqual(["--fix"]);
+    expect(findSwallowedFlags(["ASV1901"], { npm_config_hard_reset: "true" })).toEqual(["--hard-reset"]);
+  });
+
+  it("should report both when npm consumed both", () => {
+    expect(findSwallowedFlags(["ASV1901"], { npm_config_fix: "true", npm_config_hard_reset: "true" })).toEqual([
+      "--fix",
+      "--hard-reset",
+    ]);
+  });
+
+  it("should report nothing when the flag actually arrived, whatever npm also recorded", () => {
+    expect(findSwallowedFlags(["ASV1901", "--fix"], { npm_config_fix: "true" })).toEqual([]);
+    expect(findSwallowedFlags(["ASV1901", "--hard-reset", "--fix"], {})).toEqual([]);
+  });
+
+  it("should report nothing outside npm, where the script is invoked directly", () => {
+    expect(findSwallowedFlags(["ASV1901", "--hard-reset"], {})).toEqual([]);
+    expect(findSwallowedFlags(["ASV1901"], {})).toEqual([]);
   });
 });

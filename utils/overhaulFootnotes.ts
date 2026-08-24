@@ -42,11 +42,22 @@
  * `--fix` needs a target regardless. `--hard-reset` composes with both: on
  * its own it previews the full re-derivation, and with `--fix` it writes it.
  *
+ * **Through `npm run`, every flag needs a bare `--` ahead of it.** `npm run
+ * overhaul-footnotes WEBUS2020 --fix` does not reach this script at all:
+ * npm reads `--fix` as one of its own config settings, warns `Unknown cli
+ * config "--fix"`, and runs a plain preview. `importUsfm.ts` and
+ * `validate.ts` already spell their own `audit-links` invocations this way.
+ * {@link findSwallowedFlags} turns that into a loud failure rather than a
+ * silently wrong run.
+ *
  * Usage:
- *   npx ts-node utils/overhaulFootnotes.ts WEBUS2020                     # preview one version's changes
- *   npx ts-node utils/overhaulFootnotes.ts WEBUS2020 --fix               # apply and write them
- *   npx ts-node utils/overhaulFootnotes.ts WEBUS2020 --hard-reset        # preview a from-scratch re-derivation
- *   npx ts-node utils/overhaulFootnotes.ts WEBUS2020 --hard-reset --fix  # apply and write that re-derivation
+ *   npm run overhaul-footnotes WEBUS2020                        # preview one version's changes
+ *   npm run overhaul-footnotes WEBUS2020 -- --fix               # apply and write them
+ *   npm run overhaul-footnotes WEBUS2020 -- --hard-reset        # preview a from-scratch re-derivation
+ *   npm run overhaul-footnotes WEBUS2020 -- --hard-reset --fix  # apply and write that re-derivation
+ *
+ * Invoked directly, the `--` is unnecessary:
+ *   npx ts-node utils/overhaulFootnotes.ts WEBUS2020 --hard-reset --fix
  */
 
 import * as fs from "fs";
@@ -261,11 +272,57 @@ export function parseOverhaulArgs(args: readonly string[]): ParsedOverhaulArgs |
   return { fix, hardReset, versionArg };
 }
 
+/**
+ * This tool's own flags, paired with the `npm_config_*` environment variable
+ * npm sets when it swallows one instead of forwarding it.
+ */
+const FLAG_ENV_NAMES: ReadonlyArray<readonly [flag: string, envName: string]> = [
+  ["--fix", "npm_config_fix"],
+  ["--hard-reset", "npm_config_hard_reset"],
+];
+
+/**
+ * Which of this tool's flags npm ate rather than passed along. `npm run
+ * <script> --fix` does not forward `--fix` to the script: npm reads it as
+ * one of its own config settings, warns `Unknown cli config "--fix"`, and
+ * runs the script with no flag at all. Only `npm run <script> -- --fix`
+ * forwards it, which is why `importUsfm.ts` and `validate.ts` both already
+ * spell their own `audit-links` invocations with the `--` separator.
+ *
+ * Worth detecting rather than only documenting, because both failure modes
+ * are silent and one of them is dangerous. A swallowed `--fix` merely
+ * previews when the caller expected a write, but a swallowed `--hard-reset`
+ * alongside a forwarded `--fix` (`npm run overhaul-footnotes ASV1901
+ * --hard-reset -- --fix`) writes the wrong mode's results to disk. npm
+ * leaves the evidence behind in the environment either way, so the check
+ * costs nothing.
+ *
+ * @param args - `process.argv.slice(2)`, the flags that did arrive.
+ * @param env - `process.env`, carrying npm's own record of what it consumed.
+ */
+export function findSwallowedFlags(args: readonly string[], env: NodeJS.ProcessEnv): string[] {
+  return FLAG_ENV_NAMES.filter(([flag, envName]) => env[envName] !== undefined && !args.includes(flag)).map(([flag]) => flag);
+}
+
 async function main(): Promise<void> {
-  const parsed = parseOverhaulArgs(process.argv.slice(2));
-  if (!parsed) {
-    console.error("A version is required, e.g. `npx ts-node utils/overhaulFootnotes.ts WEBUS2020` or `... WEBUS2020 --fix`");
+  const args = process.argv.slice(2);
+
+  const swallowed = findSwallowedFlags(args, process.env);
+  if (swallowed.length > 0) {
+    console.error(
+      `npm consumed ${swallowed.join(" and ")} instead of passing ${swallowed.length > 1 ? "them" : "it"} to this script.\n` +
+        `Put a bare -- before the flags: \`npm run overhaul-footnotes <version> -- ${swallowed.join(" ")}\``,
+    );
     process.exit(1);
+  }
+
+  const parsed = parseOverhaulArgs(args);
+  if (!parsed) {
+    console.error(
+      "A version is required, e.g. `npm run overhaul-footnotes WEBUS2020` or `npm run overhaul-footnotes WEBUS2020 -- --fix`",
+    );
+    process.exit(1);
+    return;
   }
 
   const { fix, hardReset, versionArg } = parsed;

@@ -92,10 +92,10 @@ npx ts-node utils/usfm/verify.ts path/to/usfm-files WEBUS2020
 npm run overhaul-footnotes WEBUS2020
 
 # Rewrite them
-npm run overhaul-footnotes WEBUS2020 --fix
+npm run overhaul-footnotes WEBUS2020 -- --fix
 
 # Re-derive every type from scratch, ignoring what's already stored
-npm run overhaul-footnotes WEBUS2020 --hard-reset --fix
+npm run overhaul-footnotes WEBUS2020 -- --hard-reset --fix
 ```
 
 This tool works on JSON already committed to `bible-versions/`, independent of import. It reruns every existing footnote through the same classification table the importer uses and reports (or writes) any type that would now come out differently. It exists because most versions in the corpus predate this pipeline; without it, an improvement to the classification rules could never reach content that was never imported through USFM in the first place.

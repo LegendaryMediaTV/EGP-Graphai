@@ -208,7 +208,7 @@ npx ts-node utils/usfm/verify.ts path/to/usfm-files WEBUS2020
 
 # Re-run existing on-disk footnotes through the current classification rules
 npm run overhaul-footnotes WEBUS2020
-npm run overhaul-footnotes WEBUS2020 --fix
+npm run overhaul-footnotes WEBUS2020 -- --fix
 
 # Convert LORD/GOD to small caps format
 npx ts-node utils/convertToSmallCaps.ts WEBUS2020
