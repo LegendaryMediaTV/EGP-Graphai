@@ -315,4 +315,4 @@ _When a footnote cross-references another verse_
 
 When `content` is omitted, exporters and the reader use the `bibleLink` string as the display text. Provide `content` to override the rendered text while keeping the reference target intact. Verse-range separators use en-dashes (`–`), not hyphens.
 
-A `bibleLink` target must never span two chapters of the same book (e.g. `"2 Kings 6:31–7:20"`) — split it into two chapter-scoped links joined by a literal en dash instead, since a cross-chapter target resolves inside neither chapter. See [4-domains/cross-chapter-links.md](./cross-chapter-links.md) for the audit tool that enforces this.
+A `bibleLink` target must never span two chapters of the same book (e.g. `"2 Kings 6:31–7:20"`). Split it into two chapter-scoped links joined by a literal en dash instead, since a cross-chapter target resolves inside neither chapter. See [4-domains/cross-chapter-links.md](./cross-chapter-links.md) for the audit tool that enforces this.

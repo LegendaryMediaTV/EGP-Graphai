@@ -95,7 +95,7 @@ export function getBibleVersions(versionsDir?: string): BibleVersion[] {
   }
 
   versions.sort((a, b) => a._id.localeCompare(b._id));
-  disambiguateDuplicateNames(versions); // mutates in place — see below
+  disambiguateDuplicateNames(versions); // mutates in place; see below
   return versions;
 }
 ```

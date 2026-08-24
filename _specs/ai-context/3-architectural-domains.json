@@ -7,10 +7,10 @@
       "version-book-ordering": "Each Bible version maintains its own book ordering via the 'order' property (1-indexed, sequential, no gaps).",
       "verse-file-naming": "Verse files follow pattern '{order}-{bookId}.json' (e.g., '01-GEN.json', '40-MAT.json').",
       "ajv-validation": "Use AJV library for JSON Schema validation with support for $ref resolution across schema files.",
-      "atomic-file-writes": "Write JSON output via writeJsonFile() and raw text (Markdown, pre-formatted JSON) via writeFileAtomic(), both from functions/writeJsonFile.ts. Do not call fs.writeFileSync directly for pipeline output — both helpers stage bytes to a temp file and rename over the target, retrying on a backoff if the rename is transiently blocked.",
+      "atomic-file-writes": "Write JSON output via writeJsonFile() and raw text (Markdown, pre-formatted JSON) via writeFileAtomic(), both from functions/writeJsonFile.ts. Do not call fs.writeFileSync directly for pipeline output. Both helpers stage bytes to a temp file and rename over the target, retrying on a backoff if the rename is transiently blocked.",
       "json-canonicalization-from-parsed-data": "Any JSON formatting pass (writeJsonFile()'s formatJsonData(), and validate.ts's own reformat-on-change check) must derive its output from JSON.parse'd data, never from a file's existing raw text. Prettier preserves whichever line breaks its input already has rather than re-deciding them from width, so formatting raw text lets a stray break (e.g. from a prior bug, or a different tool's output style) persist across every future validate run instead of self-correcting.",
-      "cross-chapter-bible-link-splitting": "A bibleLink target whose range spans two chapters of the same book must be split into two chapter-scoped links joined by a literal en dash — whether the range names a verse on each end (e.g. '2 Kings 6:31–7:20') or only a chapter on each end (e.g. 'Romans 1–11'). Enforced by utils/crossChapterLinks.ts and audited corpus-wide by utils/auditCrossChapterLinks.ts, and run read-only per version from within utils/validate.ts.",
-      "strong-node-text-flow-conventions": "A joining space belongs on the leading edge of the node it joins, never the trailing edge of the node before it; a connector word left unmerged should fold forward into the strong-carrying neighbor after it, never backward; a verse's own outermost content must never open with whitespace. Audited (read-only, no --fix) by utils/auditNodes.ts across five distinct drift shapes, and run per version from within utils/validate.ts.",
+      "cross-chapter-bible-link-splitting": "A bibleLink target whose range spans two chapters of the same book must be split into two chapter-scoped links joined by a literal en dash. This applies whether the range names a verse on each end (e.g. '2 Kings 6:31–7:20') or only a chapter on each end (e.g. 'Romans 1–11'). Enforced by utils/crossChapterLinks.ts and audited corpus-wide by utils/auditCrossChapterLinks.ts, and run read-only per version from within utils/validate.ts.",
+      "strong-node-text-flow-conventions": "A joining space belongs on the leading edge of the node it joins, never the trailing edge of the node before it; a connector word left unmerged should fold forward into the strong-carrying neighbor after it, never backward; a verse's own outermost content must never open with whitespace. Audited (read-only, no --fix) by utils/auditNodes.ts across seven distinct drift shapes, and run per version from within utils/validate.ts.",
       "no-meaningless-content-nodes": "A node must never carry only formatting (marks/script) with no text to apply it to, nor an empty '' text husk left over from stripped marks. Enforced by utils/validate.ts's findMeaninglessContentNodes()."
     },
     "architectural_constraints": {
@@ -20,7 +20,7 @@
       "content-flexibility": "Content can be plain string, structured object with metadata, or array combining both. Code must handle all cases.",
       "content-nested-carries-marks": "A ContentNested wrapper ({content, strong, ...}) may itself carry marks (bold/italic/woc/small-caps applying to an entire nested subtree), not just leaf ContentObject nodes.",
       "strong-number-format": "Strong's numbers must match pattern '^[GH][0-9]{1,4}$' (G for Greek, H for Hebrew).",
-      "version-scoped-chapter-lengths": "A chapter's last verse must be read from that version's own verse records, never a shared or borrowed table — versification (e.g. Romans 14's last verse) differs between translations.",
+      "version-scoped-chapter-lengths": "A chapter's last verse must be read from that version's own verse records, never a shared or borrowed table. Versification (e.g. Romans 14's last verse) differs between translations.",
       "single-footnote-per-node": "The schema allows only one foot per node; a word's second footnote must ride as a textless sibling node immediately after it, carrying only foot."
     }
   },
@@ -32,7 +32,7 @@
       "component-registration": "Each component file assigns to window object (e.g., 'window.App = App') for cross-file access.",
       "tailwind-utility-classes": "Use Tailwind CSS utility classes for styling. Dark mode via 'dark:' prefix variants.",
       "script-specific-fonts": "Hebrew text uses 'David Libre' font with RTL direction; Greek uses 'EB Garamond'; Latin uses 'Atkinson Hyperlegible'.",
-      "shared-footnote-text-extraction": "Footnote display text must be derived through the single shared window.getFootnoteText (web/public/js/footnoteText.js), not re-flattened inline per rendering path — it recurses through every foot.content shape (string, array, {bibleLink, content?}, {text}) so every footnote flattens identically regardless of which node shape it's attached to."
+      "shared-footnote-text-extraction": "Footnote display text must be derived through the single shared window.getFootnoteText (web/public/js/footnoteText.js), not re-flattened inline per rendering path. It recurses through every foot.content shape (string, array, {bibleLink, content?}, {text}) so every footnote flattens identically regardless of which node shape it's attached to."
     },
     "architectural_constraints": {
       "no-build-process": "Frontend has no webpack/vite/rollup. All JS loaded directly via script tags with Babel transpilation.",
@@ -68,13 +68,26 @@
       "loading-state": "Loading boolean tracks API request state; content cleared on error."
     }
   },
+  "usfm-import": {
+    "required_patterns": {
+      "tokenize-then-segment": "utils/usfm/tokenize.ts lexes raw USFM into a flat, source-ordered token stream; utils/usfm/segmentVerses.ts is the only module that decides paragraph/stanza/chapter boundaries from that stream. Specialized builders (headings.ts, footnotes.ts, references.ts, inlineMarks.ts) render spans segmentVerses.ts has already identified; they don't make their own boundary decisions.",
+      "shared-footnote-classification-table": "utils/usfm/footnoteTypeRules.ts's classifyFootnote() is the single source of truth for footnote type. Both the importer (via footnotes.ts) and the standalone retroactive tool (utils/overhaulFootnotes.ts) call this same function, so the two entry points can never disagree about a footnote's type.",
+      "subprocess-regeneration-after-write": "A real (non-preview, non-redirected) import run in utils/importUsfm.ts shells out to `npm run audit-links <version> -- --fix` and then `npm run validate` as separate child processes rather than calling their exported functions in-process, specifically so crossChapterLinks.ts's own per-process cached book index can't go stale mid-import."
+    },
+    "architectural_constraints": {
+      "verify-must-not-share-parsing-with-importer": "utils/usfm/verify.ts must never import tokenize.ts, segmentVerses.ts, or anything that imports them. Its entire purpose is catching a bug the importer itself couldn't see, which requires deriving its own verse/chapter/footnote/marker counts independently from raw USFM.",
+      "no-package-json-script-for-import": "utils/importUsfm.ts is deliberately excluded from package.json's scripts. It's invoked directly via ts-node with a source directory that varies per translation; its own header comment is the documented invocation.",
+      "strongs-suppression-is-per-version": "--no-strongs (ImportOptions.strongs = false) is a deliberate, translation-specific decision based on a quality review of that translation's Strong's-number alignment, not a default to toggle without redoing that review.",
+      "missing-local-import-scaffold": "utils/usfm/headings.ts, footnotes.ts, and verify.ts import a Hebrew/Greek run-splitting helper from a gitignored imports/_lib/ path that does not exist in this checkout, and one test fixture expects a source USFM file under an equally absent imports/webus2020/ path. New code in this domain should not assume that path resolves until that local scaffold is restored. See 6-tests-and-build.md for the resulting test-suite impact."
+    }
+  },
   "export-system": {
     "required_patterns": {
       "dual-export-formats": "Export to both text-vbv-strongs (annotated text) and markdown-par (paragraph markdown).",
       "recursive-content-processing": "Content processing functions must handle string, object, and array recursively.",
       "footnote-lettering": "Footnotes labeled with letters (a, b, c...) cycling after 'z', per chapter.",
       "chapter-grouping": "Markdown export groups verses by chapter with ## headers.",
-      "shared-emphasis-delimiter-spans": "Adjacent array siblings carrying the same open bold/italic (b/i) marks must render under one shared open/close delimiter pair, not one pair per sibling — tracked as an open/close transition between consecutive items, not per-item wrapping. Per-item wrapping produces broken markdown like '**word****word**' instead of '**word word**'."
+      "shared-emphasis-delimiter-spans": "Adjacent array siblings carrying the same open bold/italic (b/i) marks must render under one shared open/close delimiter pair, not one pair per sibling. This is tracked as an open/close transition between consecutive items, not per-item wrapping. Per-item wrapping produces broken markdown like '**word****word**' instead of '**word word**'."
     },
     "architectural_constraints": {
       "version-directory-mirroring": "Export directories mirror version directory structure.",

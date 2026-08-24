@@ -26,6 +26,11 @@ GEN, EXO, LEV, NUM, DEU, JSH, JDG, RTH, 1SM, 2SM, 1KG, 2KG, 1CH, 2CH, EZR, NEH, 
 **New Testament (27 books):**
 MAT, MRK, LUK, JHN, ACT, ROM, 1CO, 2CO, GAL, EPH, PHP, COL, 1TH, 2TH, 1TM, 2TM, TIT, PHM, HEB, JAS, 1PT, 2PT, 1JN, 2JN, 3JN, JUD, REV
 
+**Apocrypha / Deuterocanon (15 books, registered under `testament: "OT"`; carried by WEBUS2020 only):**
+TOB (Tobit), JDT (Judith), ESG (Greek Esther), DAG (Greek Daniel additions), WIS (Wisdom of Solomon), SIR (Sirach), BAR (Baruch), 1MC/2MC/3MC/4MC (1–4 Maccabees), 1ES/2ES (1–2 Esdras), PMA (Prayer of Manasseh), PS2 (Psalm 151)
+
+Of these, only `PS2` and `DAG` are new registry entries. The other 13 already existed in `bible-books.json` before WEBUS2020's apocrypha was imported, even though no other translation in this repo currently carries verse files for them. See [usfm-import.md](./usfm-import.md#key-business-rules) for how they were imported and where they sit in WEBUS2020's book order.
+
 ## User Workflows
 
 - **Book Navigation** – User clicks book in sidebar to load its content
