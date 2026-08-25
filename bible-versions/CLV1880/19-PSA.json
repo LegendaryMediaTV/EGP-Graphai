@@ -17971,7 +17971,10 @@
     "verse": 10,
     "content": [
       { "subtitle": "alleluia" },
-      { "foot": { "type": "var", "content": "Originally verse 115:10." } },
+      {
+        "paragraph": true,
+        "foot": { "type": "var", "content": "Originally verse 115:10." }
+      },
       "credidi propter quod locutus sum ego autem humiliatus sum nimis"
     ]
   },
@@ -22744,7 +22747,10 @@
     "verse": 12,
     "content": [
       { "subtitle": "alleluia" },
-      "lauda Hierusalem Dominum lauda Deum tuum Sion"
+      {
+        "paragraph": true,
+        "text": "lauda Hierusalem Dominum lauda Deum tuum Sion"
+      }
     ]
   },
   {

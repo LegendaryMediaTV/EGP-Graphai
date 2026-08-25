@@ -629,100 +629,24 @@ describe("auditVersion / auditVersions — real, on-disk corpus", () => {
   });
 
   /**
-   * Song of Solomon stopped being "never pairs" the moment the real,
-   * upstream-confirmed `\b` fix landed in a real reimport. Its raw USFM
-   * carries two real `\b` markers sitting directly in front of an `\sp`
-   * speaker-label heading (before 6:4's own "Lover" line and, mid-verse,
-   * before 8:5's own second, "Beloved" line) — the identical
-   * heading-adjacent shape the Psalm 46:11→47:1 fixture already proves
-   * correct elsewhere: `\b`'s own `pendingParagraph` carries straight
-   * through the intervening `\sp` marker onto the real block that follows
-   * it. Both are real, correct, upstream-shaped `\b` boundaries — not a
-   * defect this fix introduced.
+   * Song of Solomon's own `\sp` speaker labels are the only heading kind in
+   * WEBUS2020 whose paragraph start is not written into the raw source: a
+   * `\sp` is followed by a bare `\q1`, never a `\p`. Five of the book's 33
+   * labels used to pick a paragraph up from a marker beside them anyway
+   * (6:4 and 8:5's second, "Beloved" run each sit behind a `\b`; 2:1, 5:1's
+   * "Lover" and 6:1 sit behind a `\c`), and 4:1 is the one label the source
+   * does follow with an explicit `\p` — which left this check flagging the
+   * other 27, correctly: a speaker change opens the speech after it whether
+   * or not another marker happens to share the boundary.
    *
-   * `\sp` speaker labels have no upstream `HEAD` counterpart at all (checked
-   * directly: `git show HEAD:bible-versions/WEBUS2020/22-SOS.json` carries
-   * no `heading` node anywhere), unlike Psalm subtitles, which this check's
-   * own evidence-gathering was designed around. Once these two real,
-   * correct instances exist, this check's own "once evidence exists
-   * anywhere in the book, flag every place it doesn't" rule — accurate for
-   * Psalm subtitles, where every heading really is expected to open a
-   * paragraph — treats every other `\sp` heading in Song of Solomon (28 of
-   * them, none preceded by a real `\b`, all correctly still opening with
-   * `break: true`, matching the raw source exactly) as a violation of a
-   * convention that was never real for a speaker-label change on its own,
-   * only for the `\b` that occasionally happens to precede one.
-   *
-   * This is a real, narrow limitation of this check's own book-wide
-   * heuristic when applied to a construct with no upstream baseline to
-   * confirm against, not a WEBUS2020 content defect — every boundary that
-   * DOES open a paragraph is one the raw source actually marks (with a
-   * real `\b`, or, per Finding 7 below, with a chapter boundary in its own
-   * right), and the ones that don't are exactly the ones the raw source
-   * never marks. Locked here at the real, current, exact count and
-   * locations rather than loosened to "some number of findings are
-   * expected," so a future change to either the corpus or this check's
-   * own heuristic that shifts this count is caught, not silently absorbed.
-   *
-   * **Finding 7 addendum.** Three more of Song of Solomon's own 30
-   * findings resolved for real once `segmentVerses.ts`'s own `\c`
-   * dispatch started setting `pendingParagraph` unconditionally (Finding
-   * 7, this same objective): chapters 2, 5, and 6 all open directly with
-   * a bare `\sp` speaker label (`\c 2 \sp Beloved \q1 \v 1...`, `\c 5 \sp
-   * Lover \q1 \v 1...`, `\c 6 \sp Friends \q1 \v 1...`), no `\p`/`\m`
-   * and no `\b` anywhere near the boundary. Before this phase, nothing
-   * set `pendingParagraph` for any of the three, so each one's own real
-   * first content block was missing `paragraph: true` — a genuine gap
-   * this check correctly flagged, not a false positive. Confirmed
-   * directly against the freshly reimported JSON: all three now carry
-   * `paragraph: true` on the real block right after their own heading,
-   * dropping this book's own real finding count from 30 to 27. This is
-   * the same "correct effect of a real fix, not a defect it introduced"
-   * shape Phase 8's own report already established for this test's
-   * original two `\b`-preceded exclusions — extended here with three
-   * more, named the same way.
+   * `segmentVerses.ts`'s `\sp` dispatch now sets `pendingParagraph` itself,
+   * so all 33 carry the flag and the book is internally consistent. The
+   * whole version is asserted, not just Song of Solomon, so a new finding
+   * anywhere in WEBUS2020 surfaces here.
    */
-  it("should report exactly 27 real heading/paragraph mismatches for WEBUS2020, all in Song of Solomon, none at the two real \\b-preceded headings or the three real \\c-preceded chapter-boundary headings (Finding 7) that all correctly open a paragraph", () => {
+  it("should report zero heading/paragraph mismatches for WEBUS2020 — every one of Song of Solomon's 33 \\sp speaker labels now opens the speech that follows it", () => {
     const summary = auditVersion("WEBUS2020");
-    const sosFindings = summary.headingParagraphMismatches;
-
-    expect(sosFindings).toHaveLength(27);
-    expect(sosFindings.every((f) => f.book === "SOS")).toBe(true);
-
-    // The two real, \b-preceded headings (6:4's "Lover", 8:5's second run,
-    // "Beloved") correctly open a paragraph and must never appear here.
-    expect(sosFindings.some((f) => f.chapter === 6 && f.verse === 4)).toBe(false);
-    expect(
-      sosFindings.some(
-        (f) => f.chapter === 8 && f.verse === 5 && (f.run[0] as { heading?: string }).heading === "Beloved",
-      ),
-    ).toBe(false);
-
-    // The three real, \c-preceded chapter-boundary headings this phase's
-    // own Finding 7 fix now correctly pairs with a paragraph — each one
-    // is verse 1 of the chapter its own heading names, and none may
-    // appear here either. 5:1 also carries a second, unrelated mid-verse
-    // "Friends" heading (real, and still correctly excluded from a
-    // paragraph — nothing sets pendingParagraph for it) that a bare
-    // chapter/verse check would conflate with 5:1's own chapter-opening
-    // "Lover" heading, so this one is matched by its own heading text too,
-    // the same disambiguation 8:5's own two headings already need below.
-    expect(sosFindings.some((f) => f.chapter === 2 && f.verse === 1)).toBe(false);
-    expect(
-      sosFindings.some(
-        (f) => f.chapter === 5 && f.verse === 1 && (f.run[0] as { heading?: string }).heading === "Lover",
-      ),
-    ).toBe(false);
-    expect(sosFindings.some((f) => f.chapter === 6 && f.verse === 1)).toBe(false);
-
-    // 8:5 does carry one real finding — its own first run, "Friends" (no
-    // \b precedes it), confirming the verse's own two heading runs are told
-    // apart correctly rather than the whole verse being skipped or merged.
-    expect(
-      sosFindings.some(
-        (f) => f.chapter === 8 && f.verse === 5 && (f.run[0] as { heading?: string }).heading === "Friends",
-      ),
-    ).toBe(true);
+    expect(summary.headingParagraphMismatches).toEqual([]);
   });
 
   it("should never write to bible-versions/ — this audit is read-only", () => {

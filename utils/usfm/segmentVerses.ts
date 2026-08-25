@@ -722,6 +722,20 @@ export function segmentVerses(
       // when nothing has accumulated (the ordinary Psalm-superscription
       // case, chapter start, before any verse has opened).
       flushBlock(false);
+      // A speaker label opens the speech that follows it. Song of
+      // Solomon's own `\sp` marks a change of voice in a dialogue, and the
+      // line after it begins a new paragraph whether or not a `\b` or `\c`
+      // happens to sit beside the same boundary — which is why five of the
+      // book's own 33 labels already carried `paragraph: true` from a
+      // neighboring marker while the other 28 did not. Set here, after
+      // `flushBlock` has consumed any flag belonging to the block *before*
+      // the label, so it lands on the block after it instead.
+      //
+      // The other three markers in this set are not speech boundaries and
+      // set nothing: a `\d` superscription sits above a psalm rather than
+      // opening it, and a `\qc` acrostic letter sits inside continuous
+      // poetry.
+      if (token.name === "sp") pendingParagraph = true;
       skipToNextMarker = false;
       const { pieces: headingPieces, nextIndex } = buildHeadingSpanContent(tokens, index + 1);
       const headingContent =

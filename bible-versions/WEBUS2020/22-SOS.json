@@ -16,6 +16,7 @@
     "content": [
       { "heading": "Beloved" },
       {
+        "paragraph": true,
         "text": "Let him kiss me with the kisses of his mouth;",
         "break": true
       },
@@ -41,10 +42,18 @@
       { "text": "Let’s hurry.", "break": true },
       { "text": "The king has brought me into his rooms.", "break": true },
       { "heading": "Friends" },
-      { "text": "We will be glad and rejoice in you.", "break": true },
+      {
+        "paragraph": true,
+        "text": "We will be glad and rejoice in you.",
+        "break": true
+      },
       { "text": "We will praise your love more than wine!", "break": true },
       { "heading": "Beloved" },
-      { "text": "They are right to love you.", "break": true }
+      {
+        "paragraph": true,
+        "text": "They are right to love you.",
+        "break": true
+      }
     ]
   },
   {
@@ -89,6 +98,7 @@
     "content": [
       { "heading": "Lover" },
       {
+        "paragraph": true,
         "text": "If you don’t know, most beautiful among women,",
         "break": true
       },
@@ -124,7 +134,11 @@
     "verse": 11,
     "content": [
       { "heading": "Friends" },
-      { "text": "We will make you earrings of gold,", "break": true },
+      {
+        "paragraph": true,
+        "text": "We will make you earrings of gold,",
+        "break": true
+      },
       { "text": "with studs of silver.", "break": true }
     ]
   },
@@ -134,7 +148,11 @@
     "verse": 12,
     "content": [
       { "heading": "Beloved" },
-      { "text": "While the king sat at his table,", "break": true },
+      {
+        "paragraph": true,
+        "text": "While the king sat at his table,",
+        "break": true
+      },
       { "text": "my perfume spread its fragrance.", "break": true }
     ]
   },
@@ -166,6 +184,7 @@
     "content": [
       { "heading": "Lover" },
       {
+        "paragraph": true,
         "text": "Behold,",
         "foot": {
           "type": "trn",
@@ -188,6 +207,7 @@
     "content": [
       { "heading": "Beloved" },
       {
+        "paragraph": true,
         "text": "Behold, you are beautiful, my beloved, yes, pleasant;",
         "break": true
       },
@@ -200,7 +220,11 @@
     "verse": 17,
     "content": [
       { "heading": "Lover" },
-      { "text": "The beams of our house are cedars.", "break": true },
+      {
+        "paragraph": true,
+        "text": "The beams of our house are cedars.",
+        "break": true
+      },
       "Our rafters are firs."
     ]
   },
@@ -220,7 +244,7 @@
     "verse": 2,
     "content": [
       { "heading": "Lover" },
-      { "text": "As a lily among thorns,", "break": true },
+      { "paragraph": true, "text": "As a lily among thorns,", "break": true },
       { "text": "so is my love among the daughters.", "break": true }
     ]
   },
@@ -231,6 +255,7 @@
     "content": [
       { "heading": "Beloved" },
       {
+        "paragraph": true,
         "text": "As the apple tree among the trees of the wood,",
         "break": true
       },
@@ -359,7 +384,11 @@
     "verse": 14,
     "content": [
       { "heading": "Lover" },
-      { "text": "My dove in the clefts of the rock,", "break": true },
+      {
+        "paragraph": true,
+        "text": "My dove in the clefts of the rock,",
+        "break": true
+      },
       { "text": "in the hiding places of the mountainside,", "break": true },
       { "text": "let me see your face.", "break": true },
       { "text": "Let me hear your voice;", "break": true },
@@ -385,7 +414,11 @@
     "verse": 16,
     "content": [
       { "heading": "Beloved" },
-      { "text": "My beloved is mine, and I am his.", "break": true },
+      {
+        "paragraph": true,
+        "text": "My beloved is mine, and I am his.",
+        "break": true
+      },
       { "text": "He browses among the lilies.", "break": true }
     ]
   },
@@ -746,7 +779,11 @@
     "verse": 16,
     "content": [
       { "heading": "Beloved" },
-      { "text": "Awake, north wind, and come, you south!", "break": true },
+      {
+        "paragraph": true,
+        "text": "Awake, north wind, and come, you south!",
+        "break": true
+      },
       {
         "text": "Blow on my garden, that its spices may flow out.",
         "break": true
@@ -770,7 +807,7 @@
       { "text": "I have eaten my honeycomb with my honey;", "break": true },
       { "text": "I have drunk my wine with my milk.", "break": true },
       { "heading": "Friends" },
-      { "text": "Eat, friends!", "break": true },
+      { "paragraph": true, "text": "Eat, friends!", "break": true },
       { "text": "Drink, yes, drink abundantly, beloved.", "break": true }
     ]
   },
@@ -780,7 +817,11 @@
     "verse": 2,
     "content": [
       { "heading": "Beloved" },
-      { "text": "I was asleep, but my heart was awake.", "break": true },
+      {
+        "paragraph": true,
+        "text": "I was asleep, but my heart was awake.",
+        "break": true
+      },
       { "text": "It is the voice of my beloved who knocks:", "break": true },
       {
         "text": "“Open to me, my sister, my love, my dove, my undefiled;",
@@ -872,6 +913,7 @@
     "content": [
       { "heading": "Friends" },
       {
+        "paragraph": true,
         "text": "How is your beloved better than another beloved,",
         "break": true
       },
@@ -889,7 +931,11 @@
     "verse": 10,
     "content": [
       { "heading": "Beloved" },
-      { "text": "My beloved is white and ruddy.", "break": true },
+      {
+        "paragraph": true,
+        "text": "My beloved is white and ruddy.",
+        "break": true
+      },
       { "text": "The best among ten thousand.", "break": true }
     ]
   },
@@ -993,7 +1039,11 @@
     "verse": 2,
     "content": [
       { "heading": "Beloved" },
-      { "text": "My beloved has gone down to his garden,", "break": true },
+      {
+        "paragraph": true,
+        "text": "My beloved has gone down to his garden,",
+        "break": true
+      },
       { "text": "to the beds of spices,", "break": true },
       {
         "text": "to pasture his flock in the gardens, and to gather lilies.",
@@ -1129,10 +1179,18 @@
     "verse": 13,
     "content": [
       { "heading": "Friends" },
-      { "text": "Return, return, Shulammite!", "break": true },
+      {
+        "paragraph": true,
+        "text": "Return, return, Shulammite!",
+        "break": true
+      },
       { "text": "Return, return, that we may gaze at you.", "break": true },
       { "heading": "Lover" },
-      { "text": "Why do you desire to gaze at the Shulammite,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Why do you desire to gaze at the Shulammite,",
+        "break": true
+      },
       "as at the dance of Mahanaim?"
     ]
   },
@@ -1247,7 +1305,7 @@
     "verse": 10,
     "content": [
       { "heading": "Beloved" },
-      { "text": "I am my beloved’s.", "break": true },
+      { "paragraph": true, "text": "I am my beloved’s.", "break": true },
       { "text": "His desire is toward me.", "break": true }
     ]
   },
@@ -1347,6 +1405,7 @@
     "content": [
       { "heading": "Friends" },
       {
+        "paragraph": true,
         "text": "Who is this who comes up from the wilderness,",
         "break": true
       },
@@ -1413,7 +1472,7 @@
     "verse": 8,
     "content": [
       { "heading": "Brothers" },
-      { "text": "We have a little sister.", "break": true },
+      { "paragraph": true, "text": "We have a little sister.", "break": true },
       { "text": "She has no breasts.", "break": true },
       { "text": "What shall we do for our sister", "break": true },
       "in the day when she is to be spoken for?"
@@ -1436,7 +1495,11 @@
     "verse": 10,
     "content": [
       { "heading": "Beloved" },
-      { "text": "I am a wall, and my breasts like towers,", "break": true },
+      {
+        "paragraph": true,
+        "text": "I am a wall, and my breasts like towers,",
+        "break": true
+      },
       {
         "text": "then I was in his eyes like one who found peace.",
         "break": true
@@ -1477,6 +1540,7 @@
     "content": [
       { "heading": "Lover" },
       {
+        "paragraph": true,
         "text": "You who dwell in the gardens, with friends in attendance,",
         "break": true
       },
@@ -1489,7 +1553,7 @@
     "verse": 14,
     "content": [
       { "heading": "Beloved" },
-      { "text": "Come away, my beloved!", "break": true },
+      { "paragraph": true, "text": "Come away, my beloved!", "break": true },
       "Be like a gazelle or a young stag on the mountains of spices!"
     ]
   }

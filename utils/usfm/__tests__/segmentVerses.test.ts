@@ -857,6 +857,40 @@ describe("segmentVerses — Song of Solomon's \\sp speaker labels, both across a
       "They are right to love you.",
     ]);
   });
+
+  it("should open a paragraph on the block after each \\sp, including the two mid-verse ones inside verse 4, and on no other block", () => {
+    const verseFour = records.find((record) => record.verse === 4);
+    expect(blockFlags(verseFour?.blocks ?? [])).toEqual([
+      { text: "Take me away with you.", paragraph: undefined, break: true },
+      { text: "Let’s hurry.", paragraph: undefined, break: true },
+      { text: "The king has brought me into his rooms.", paragraph: undefined, break: true },
+      { text: "", paragraph: undefined, break: undefined },
+      { text: "We will be glad and rejoice in you.", paragraph: true, break: true },
+      { text: "We will praise your love more than wine!", paragraph: undefined, break: true },
+      { text: "", paragraph: undefined, break: undefined },
+      { text: "They are right to love you.", paragraph: true, break: true },
+    ]);
+  });
+
+  it("should carry the \\sp's own paragraph across the verse boundary onto verse 2's first block, never back onto verse 1, whose \\sp only flushes what had already accumulated", () => {
+    const verseOne = records.find((record) => record.verse === 1);
+    const verseTwo = records.find((record) => record.verse === 2);
+    // Verse 1 keeps its single block, flagged by the \p above it and not
+    // by the \sp that follows it — the marker flushes, it does not reach
+    // back.
+    expect(blockFlags(verseOne?.blocks ?? [])).toEqual([
+      { text: "The Song of songs, which is Solomon’s.", paragraph: true, break: true },
+    ]);
+    // blocks[0] is the queued "Beloved" heading; blocks[1] is the real line.
+    expect(verseTwo?.blocks[1]).toMatchObject({ paragraph: true });
+  });
+
+  it("should leave every verse with no \\sp of its own unflagged, so the paragraph tracks the speaker change and nothing else", () => {
+    for (const verse of [3, 5]) {
+      const blocks = records.find((record) => record.verse === verse)?.blocks ?? [];
+      expect(blocks.some((block) => block.paragraph)).toBe(false);
+    }
+  });
 });
 
 describe("segmentVerses — Numbers 21:14's \\bk/\\bk* book-title citation (Finding 6: tagged marks: [\"i\"] on each of its own real Strong's-tagged words, no longer dropped as plain text)", () => {

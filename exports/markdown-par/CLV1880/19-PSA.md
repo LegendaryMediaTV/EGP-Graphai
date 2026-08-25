@@ -4541,7 +4541,9 @@
 <sup>7</sup> <sup>g</sup>convertere anima mea in requiem tuam quia Dominus benefecit tibi
 <sup>8</sup> <sup>h</sup>quia eripuit animam meam de morte oculos meos a lacrimis pedes meos a lapsu
 <sup>9</sup> <sup>i</sup>placebo Domino in regione vivorum
-<sup>10</sup> > _alleluia_<sup>j</sup>credidi propter quod locutus sum ego autem humiliatus sum nimis
+<sup>10</sup> > _alleluia_
+
+<sup>j</sup>credidi propter quod locutus sum ego autem humiliatus sum nimis
 <sup>11</sup> <sup>k</sup>ego dixi in excessu meo omnis homo mendax
 <sup>12</sup> <sup>l</sup>quid retribuam Domino pro omnibus quae retribuit mihi
 <sup>13</sup> <sup>m</sup>calicem salutaris accipiam et nomen Domini invocabo
@@ -5799,7 +5801,9 @@
 <sup>9</sup> <sup>i</sup>et dat iumentis escam ipsorum et pullis corvorum invocantibus eum
 <sup>10</sup> <sup>j</sup>non in fortitudine equi voluntatem habebit nec in tibiis viri beneplacitum erit ei
 <sup>11</sup> <sup>k</sup>beneplacitum est Domino super timentes eum et in eis qui sperant super misericordia eius
-<sup>12</sup> > _alleluia_lauda Hierusalem Dominum lauda Deum tuum Sion
+<sup>12</sup> > _alleluia_
+
+lauda Hierusalem Dominum lauda Deum tuum Sion
 <sup>13</sup> quoniam confortavit seras portarum tuarum benedixit filiis tuis in te
 <sup>14</sup> qui posuit fines tuos pacem et adipe frumenti satiat te
 <sup>15</sup> qui emittit eloquium suum terrae velociter currit sermo eius

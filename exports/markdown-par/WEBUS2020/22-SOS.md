@@ -3,38 +3,49 @@
 <sup>1</sup> The Song of songs, which is Solomon’s.<br>
 
 ### Beloved
+
 <sup>2</sup> Let him kiss me with the kisses of his mouth;<br>for your love is better than wine.<br>
 <sup>3</sup> Your oils have a pleasing fragrance.<br>Your name is oil poured out,<br>therefore the virgins love you.<br>
 <sup>4</sup> Take me away with you.<br>Let’s hurry.<br>The king has brought me into his rooms.<br>
 ### Friends
+
+
 We will be glad and rejoice in you.<br>We will praise your love more than wine!<br>
 ### Beloved
+
+
 They are right to love you.<br>
 <sup>5</sup> I am dark, but lovely,<br>you daughters of Jerusalem,<br>like Kedar’s tents,<br>like Solomon’s curtains.<br>
 <sup>6</sup> Don’t stare at me because I am dark,<br>because the sun has scorched me.<br>My mother’s sons were angry with me.<br>They made me keeper of the vineyards.<br>I haven’t kept my own vineyard.<br>
 <sup>7</sup> Tell me, you whom my soul loves,<br>where you graze your flock,<br>where you rest them at noon;<br>for why should I be as one who is veiled<br>beside the flocks of your companions?<br>
 
 ### Lover
+
 <sup>8</sup> If you don’t know, most beautiful among women,<br>follow the tracks of the sheep.<br>Graze your young goats beside the shepherds’ tents.
 
 <sup>9</sup> I have compared you, my love,<br>to a steed in Pharaoh’s chariots.<br>
 <sup>10</sup> Your cheeks are beautiful with earrings,<br>your neck with strings of jewels.<br>
 
 ### Friends
+
 <sup>11</sup> We will make you earrings of gold,<br>with studs of silver.<br>
 
 ### Beloved
+
 <sup>12</sup> While the king sat at his table,<br>my perfume spread its fragrance.<br>
 <sup>13</sup> My beloved is to me a sachet of myrrh,<br>that lies between my breasts.<br>
 <sup>14</sup> My beloved is to me a cluster of henna blossoms<br>from the vineyards of En Gedi.<br>
 
 ### Lover
+
 <sup>15</sup> Behold,<sup>a</sup> you are beautiful, my love.<br>Behold, you are beautiful.<br>Your eyes are like doves.<br>
 
 ### Beloved
+
 <sup>16</sup> Behold, you are beautiful, my beloved, yes, pleasant;<br>and our couch is verdant.<br>
 
 ### Lover
+
 <sup>17</sup> The beams of our house are cedars.<br>Our rafters are firs.
 
 > - <sup>a</sup> 15. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
@@ -46,9 +57,11 @@ They are right to love you.<br>
 <sup>1</sup> I am a rose of Sharon,<br>a lily of the valleys.<br>
 
 ### Lover
+
 <sup>2</sup> As a lily among thorns,<br>so is my love among the daughters.<br>
 
 ### Beloved
+
 <sup>3</sup> As the apple tree among the trees of the wood,<br>so is my beloved among the sons.<br>I sat down under his shadow with great delight,<br>his fruit was sweet to my taste.<br>
 <sup>4</sup> He brought me to the banquet hall.<br>His banner over me is love.<br>
 <sup>5</sup> Strengthen me with raisins,<br>refresh me with apples;<br>for I am faint with love.<br>
@@ -64,10 +77,12 @@ They are right to love you.<br>
 <sup>13</sup> The fig tree ripens her green figs.<br>The vines are in blossom.<br>They give out their fragrance.<br>Arise, my love, my beautiful one,<br>and come away.”<br>
 
 ### Lover
+
 <sup>14</sup> My dove in the clefts of the rock,<br>in the hiding places of the mountainside,<br>let me see your face.<br>Let me hear your voice;<br>for your voice is sweet and your face is lovely.<br>
 <sup>15</sup> Catch for us the foxes,<br>the little foxes that plunder the vineyards;<br>for our vineyards are in blossom.<br>
 
 ### Beloved
+
 <sup>16</sup> My beloved is mine, and I am his.<br>He browses among the lilies.<br>
 <sup>17</sup> Until the day is cool, and the shadows flee away,<br>turn, my beloved,<br>and be like a roe or a young deer on the mountains of Bether.
 
@@ -112,6 +127,7 @@ They are right to love you.<br>
 <sup>15</sup> a fountain of gardens,<br>a well of living waters,<br>flowing streams from Lebanon.<br>
 
 ### Beloved
+
 <sup>16</sup> Awake, north wind, and come, you south!<br>Blow on my garden, that its spices may flow out.<br>Let my beloved come into his garden,<br>and taste his precious fruits.
 
 ## Chapter 5
@@ -120,9 +136,12 @@ They are right to love you.<br>
 
 <sup>1</sup> I have come into my garden, my sister, my bride.<br>I have gathered my myrrh with my spice;<br>I have eaten my honeycomb with my honey;<br>I have drunk my wine with my milk.<br>
 ### Friends
+
+
 Eat, friends!<br>Drink, yes, drink abundantly, beloved.<br>
 
 ### Beloved
+
 <sup>2</sup> I was asleep, but my heart was awake.<br>It is the voice of my beloved who knocks:<br>“Open to me, my sister, my love, my dove, my undefiled;<br>for my head is filled with dew,<br>and my hair with the dampness of the night.”<br>
 <sup>3</sup> I have taken off my robe. Indeed, must I put it on?<br>I have washed my feet. Indeed, must I soil them?<br>
 <sup>4</sup> My beloved thrust his hand in through the latch opening.<br>My heart pounded for him.<br>
@@ -133,9 +152,11 @@ Eat, friends!<br>Drink, yes, drink abundantly, beloved.<br>
 <sup>8</sup> I adjure you, daughters of Jerusalem,<br>If you find my beloved,<br>that you tell him that I am faint with love.<br>
 
 ### Friends
+
 <sup>9</sup> How is your beloved better than another beloved,<br>you fairest among women?<br>How is your beloved better than another beloved,<br>that you do so adjure us?<br>
 
 ### Beloved
+
 <sup>10</sup> My beloved is white and ruddy.<br>The best among ten thousand.<br>
 <sup>11</sup> His head is like the purest gold.<br>His hair is bushy, black as a raven.<br>
 <sup>12</sup> His eyes are like doves beside the water brooks,<br>washed with milk, mounted like jewels.<br>
@@ -151,6 +172,7 @@ Eat, friends!<br>Drink, yes, drink abundantly, beloved.<br>
 <sup>1</sup> Where has your beloved gone, you fairest among women?<br>Where has your beloved turned, that we may seek him with you?<br>
 
 ### Beloved
+
 <sup>2</sup> My beloved has gone down to his garden,<br>to the beds of spices,<br>to pasture his flock in the gardens, and to gather lilies.<br>
 <sup>3</sup> I am my beloved’s, and my beloved is mine.<br>He browses among the lilies.
 
@@ -170,8 +192,11 @@ Eat, friends!<br>Drink, yes, drink abundantly, beloved.<br>
 <sup>12</sup> Without realizing it,<br>my desire set me with my royal people’s chariots.<br>
 
 ### Friends
+
 <sup>13</sup> Return, return, Shulammite!<br>Return, return, that we may gaze at you.<br>
 ### Lover
+
+
 Why do you desire to gaze at the Shulammite,<br>as at the dance of Mahanaim?
 
 ## Chapter 7
@@ -187,6 +212,7 @@ Why do you desire to gaze at the Shulammite,<br>as at the dance of Mahanaim?
 <sup>9</sup> Your mouth is like the best wine,<br>that goes down smoothly for my beloved,<br>gliding through the lips of those who are asleep.<br>
 
 ### Beloved
+
 <sup>10</sup> I am my beloved’s.<br>His desire is toward me.<br>
 <sup>11</sup> Come, my beloved! Let’s go out into the field.<br>Let’s lodge in the villages.<br>
 <sup>12</sup> Let’s go early up to the vineyards.<br>Let’s see whether the vine has budded,<br>its blossom is open,<br>and the pomegranates are in flower.<br>There I will give you my love.<br>
@@ -201,6 +227,7 @@ Why do you desire to gaze at the Shulammite,<br>as at the dance of Mahanaim?
 <sup>4</sup> I adjure you, daughters of Jerusalem,<br>that you not stir up, nor awaken love,<br>until it so desires.<br>
 
 ### Friends
+
 <sup>5</sup> Who is this who comes up from the wilderness,<br>leaning on her beloved?
 ### Beloved
 
@@ -211,19 +238,23 @@ Under the apple tree I awakened you.<br>There your mother conceived you.<br>Ther
 <sup>7</sup> Many waters can’t quench love,<br>neither can floods drown it.<br>If a man would give all the wealth of his house for love,<br>he would be utterly scorned.<br>
 
 ### Brothers
+
 <sup>8</sup> We have a little sister.<br>She has no breasts.<br>What shall we do for our sister<br>in the day when she is to be spoken for?
 
 <sup>9</sup> If she is a wall,<br>we will build on her a turret of silver.<br>If she is a door,<br>we will enclose her with boards of cedar.<br>
 
 ### Beloved
+
 <sup>10</sup> I am a wall, and my breasts like towers,<br>then I was in his eyes like one who found peace.<br>
 <sup>11</sup> Solomon had a vineyard at Baal Hamon.<br>He leased out the vineyard to keepers.<br>Each was to bring a thousand shekels<sup>c</sup> of silver for its fruit.<br>
 <sup>12</sup> My own vineyard is before me.<br>The thousand are for you, Solomon,<br>two hundred for those who tend its fruit.<br>
 
 ### Lover
+
 <sup>13</sup> You who dwell in the gardens, with friends in attendance,<br>let me hear your voice!<br>
 
 ### Beloved
+
 <sup>14</sup> Come away, my beloved!<br>Be like a gazelle or a young stag on the mountains of spices!
 
 > - <sup>a</sup> 6. Sheol is the place of the dead.
