@@ -106,8 +106,8 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "nations: ", "marks": ["i"] },
-            "and so throughout this book."
+            { "text": "nations:", "marks": ["i"] },
+            " and so throughout this book."
           ]
         }
       },
@@ -131,8 +131,8 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "nations: ", "marks": ["i"] },
-            "and so throughout this book."
+            { "text": "nations:", "marks": ["i"] },
+            " and so throughout this book."
           ]
         }
       },
@@ -157,8 +157,8 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "nations: ", "marks": ["i"] },
-            "and so throughout this book."
+            { "text": "nations:", "marks": ["i"] },
+            " and so throughout this book."
           ]
         }
       },
@@ -176,8 +176,8 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "nations: ", "marks": ["i"] },
-            "and so throughout this book"
+            { "text": "nations:", "marks": ["i"] },
+            " and so throughout this book"
           ]
         }
       },
@@ -503,8 +503,8 @@
           "type": "stu",
           "content": [
             "The two words rendered ",
-            { "text": "altar ", "marks": ["i"] },
-            "are different in the Greek: and so in ",
+            { "text": "altar", "marks": ["i"] },
+            " are different in the Greek: and so in ",
             { "bibleLink": "1 Maccabees 1:59" },
             "."
           ]
@@ -516,8 +516,8 @@
           "type": "stu",
           "content": [
             "The two words rendered ",
-            { "text": "altar ", "marks": ["i"] },
-            "are different in the Greek: and so in ",
+            { "text": "altar", "marks": ["i"] },
+            " are different in the Greek: and so in ",
             { "bibleLink": "1 Maccabees 1:59" },
             "."
           ]
@@ -2076,8 +2076,8 @@
           "type": "trn",
           "content": [
             "Gr. ",
-            { "text": "daughters. ", "marks": ["i"] },
-            "Compare ",
+            { "text": "daughters.", "marks": ["i"] },
+            " Compare ",
             { "bibleLink": "Numbers 21:25" },
             "."
           ]
@@ -2519,8 +2519,8 @@
           "type": "trn",
           "content": [
             "Gr. ",
-            { "text": "daughters. ", "marks": ["i"] },
-            "Compare ",
+            { "text": "daughters.", "marks": ["i"] },
+            " Compare ",
             { "bibleLink": "Numbers 21:25" },
             "."
           ]
@@ -2547,8 +2547,8 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "Marisa ", "marks": ["i"] },
-            "See Josephus, Antiquities 12:8. 6, and ",
+            { "text": "Marisa", "marks": ["i"] },
+            " See Josephus, Antiquities 12:8. 6, and ",
             { "bibleLink": "2 Maccabees 12:35" },
             "."
           ]
@@ -5424,8 +5424,8 @@
           "type": "var",
           "content": [
             "So the old Latin versions and Josephus: compare also ver. 20. All the other authorities read ",
-            { "text": "Darius ", "marks": ["i"] },
-            "in this place."
+            { "text": "Darius", "marks": ["i"] },
+            " in this place."
           ]
         }
       },
@@ -6070,8 +6070,8 @@
             "); ",
             { "bibleLink": "1 Maccabees 14:7, 34" },
             "; 15:28; 16:1: also Josephus. All the authorities read ",
-            { "text": "Gaza ", "marks": ["i"] },
-            "in this verse."
+            { "text": "Gaza", "marks": ["i"] },
+            " in this verse."
           ]
         }
       },
@@ -6374,13 +6374,12 @@
     "verse": 26,
     "content": [
       {
-        "text": "For he and his brothers and the house of his father have made themselves strong, and have fought and chased away Israel’s enemies, and confirmed liberty to Israel.",
+        "text": "For he and his brothers and the house of his father have made themselves strong, and have fought and chased away Israel’s enemies, and confirmed liberty to Israel.”",
         "foot": {
           "type": "trn",
           "content": ["Gr. ", { "text": "him.", "marks": ["i"] }]
         }
-      },
-      "”"
+      }
     ]
   },
   {
@@ -6754,8 +6753,8 @@
           "type": "var",
           "content": [
             "Some authorities read ",
-            { "text": "Sampsaces: ", "marks": ["i"] },
-            "the Latin versions have ",
+            { "text": "Sampsaces:", "marks": ["i"] },
+            " the Latin versions have ",
             { "text": "Lampsacus.", "marks": ["i"] }
           ]
         }

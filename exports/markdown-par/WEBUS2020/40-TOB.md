@@ -54,7 +54,7 @@
 
 I didn’t believe her, and I asked her to return it to the owners; and I was ashamed of her.
 
-But she answered and said to me, “Where are your alms and your righteous deeds? Behold, you and all your works are known.<sup>c</sup>”
+But she answered and said to me, “Where are your alms and your righteous deeds? Behold, you and all your works are known.”<sup>c</sup>
 
 > - <sup>a</sup> 6. Amos 8:10
 > - <sup>b</sup> 10. Some authorities read _until he went._
@@ -73,7 +73,7 @@ But she answered and said to me, “Where are your alms and your righteous deeds
 <sup>7</sup> The same day it happened to Sarah the daughter of Raguel in Ecbatana of Media, that she also was reproached by her father’s maidservants;
 <sup>8</sup> because that she had been given to seven husbands, and Asmodaeus the evil spirit<sup>a</sup> killed them, before they had lain with her. And they said to her, “Do you not know that you strangle your husbands? You have had already seven husbands, and you haven’t borne the name of any one of them.
 <sup>9</sup> Why do you scourge us? If they are dead, go your ways with them. Let us never see either son or daughter from you.”
-<sup>10</sup> When she heard these things, she was grieved exceedingly, so that she thought about hanging herself. Then she said, “I am the only daughter of my father. If I do this, it will be a reproach to him, and I will bring down his old age with sorrow to the grave.<sup>b</sup>”
+<sup>10</sup> When she heard these things, she was grieved exceedingly, so that she thought about hanging herself. Then she said, “I am the only daughter of my father. If I do this, it will be a reproach to him, and I will bring down his old age with sorrow to the grave.”<sup>b</sup>
 <sup>11</sup> Then she prayed by the window, and said, “Blessed are you, O Lord my God, and blessed is your holy and honorable name forever! Let all your works praise you forever!
 <sup>12</sup> And now, Lord, I have set my eyes and my face toward you.
 <sup>13</sup> Command that I be released from the earth, and that I no longer hear reproach.
@@ -81,7 +81,7 @@ But she answered and said to me, “Where are your alms and your righteous deeds
 <sup>15</sup> and that I never polluted my name or the name of my father in the land of my captivity. I am the only daughter of my father, and he has no child that will be his heir, nor brother near him, nor son belonging to him, that I should keep myself for a wife to him. Seven husbands of mine are dead already. Why should I live? If it doesn’t please you to kill me, command some regard to be had of me, and pity taken of me, and that I hear no more reproach.”
 
 <sup>16</sup> The prayer of both was heard before the glory of the great God.
-<sup>17</sup> Raphael also was sent to heal them both, to scale away the white films from Tobit’s eyes, and to give Sarah the daughter of Raguel for a wife to Tobias the son of Tobit; and to bind Asmodaeus the evil spirit<sup>c</sup>; because it belonged to Tobias that he should inherit her. At that very time, Tobit returned and entered into his house, and Sarah the daughter of Raguel came down from her upper chamber.
+<sup>17</sup> Raphael also was sent to heal them both, to scale away the white films from Tobit’s eyes, and to give Sarah the daughter of Raguel for a wife to Tobias the son of Tobit; and to bind Asmodaeus the evil spirit;<sup>c</sup> because it belonged to Tobias that he should inherit her. At that very time, Tobit returned and entered into his house, and Sarah the daughter of Raguel came down from her upper chamber.
 
 > - <sup>a</sup> 8. Gr. _demon._
 > - <sup>b</sup> 10. Gr. _Hades._

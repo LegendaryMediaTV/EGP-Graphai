@@ -8,7 +8,7 @@ import {
   buildSpeakerHeading,
   buildSuperscriptionContent,
 } from "./headings";
-import { normalizeFractionText } from "./fractions";
+import { normalizeFractionText } from "../../functions/normalizeFractions";
 import { attachFootToPieces, buildRunNodes, InlineMarkName, InlineTextPiece } from "./inlineMarks";
 import { buildCrossReferenceContent } from "./references";
 import { tokenize } from "./tokenize";
@@ -904,7 +904,7 @@ export function segmentVerses(
       // downstream use (`pieces`/`rawContent`, `blockPieces`/a block's own
       // `text`, and `blockInline`/a block's own `nodes`, whether directly
       // or via `pendingWordText`) reads the identical normalized string.
-      // See `utils/usfm/fractions.ts`.
+      // See `functions/normalizeFractions.ts`.
       const text = normalizeFractionText(token.text).value;
       pieces.push(text);
       blockPieces.push(text);

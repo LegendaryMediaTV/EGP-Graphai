@@ -38,19 +38,32 @@
  *    raised/lowered) rather than this repo's own superscript/U+2044/
  *    subscript convention. Unlike checks 1-6, this one isn't about a node's
  *    own *placement* relative to its neighbors — it's a project-wide content
- *    standard ({@link normalizeFractionText}, `utils/usfm/fractions.ts`)
+ *    standard ({@link normalizeFractionText}, `functions/normalizeFractions.ts`)
  *    checked here so any version's content, however it was built, can be
  *    measured against it independent of the USFM importer that first applies
  *    it. See {@link hasUnnormalizedFraction}.
+ * 8. **Footnote punctuation order** — a `foot`-carrying, text-bearing node
+ *    immediately followed by a real sibling whose own text starts with tight
+ *    punctuation (check 3's own definition) that belongs to the same span.
+ *    Rendered, the footnote marker lands before punctuation that should have
+ *    come before it instead, since a node's own marker always renders after
+ *    that node's own full text (see `utils/exportContent.ts`'s renderer).
+ *    See {@link scanArrayForFootnotePunctuationOrder}.
+ * 9. **Mark-boundary embedded spaces** — a node whose own `marks`/`script`
+ *    are non-empty and whose own `text` starts or ends with a whitespace
+ *    character that disagrees in formatting with the real node immediately
+ *    across that boundary. Asymmetric by design: only the side that itself
+ *    carries the formatting can be the offender. See {@link
+ *    carriesFormatting} and {@link scanArrayForMarkBoundaryEmbeddedSpaces}.
  *
  * A general-purpose, version-controlled tool any future import can reach
  * for, rather than a one-off diagnostic scoped to whichever translation
  * happens to be mid-import at the time.
  *
- * Checks 1-4 recurse into `content` (a `ContentNested` wrapper's own inner
- * array) in addition to `heading`/`subtitle`/`foot.content` — recursing
- * into `foot.content` costs nothing today (no version currently tags
- * `strong` inside a footnote) and is a safe default if a future import
+ * Checks 1-4 and 8-9 recurse into `content` (a `ContentNested` wrapper's own
+ * inner array) in addition to `heading`/`subtitle`/`foot.content` —
+ * recursing into `foot.content` costs nothing today (no version currently
+ * tags `strong` inside a footnote) and is a safe default if a future import
  * ever does.
  *
  * **No curated version list.** With no version named on the command line,
@@ -65,7 +78,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { getVersionDirectories } from "../functions/getBibleVersions";
 import Content from "../types/Content";
-import { normalizeFractionText } from "./usfm/fractions";
+import { normalizeFractionText } from "../functions/normalizeFractions";
 
 /** Root directory holding one subfolder per Bible version. */
 const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
@@ -163,7 +176,7 @@ export function describeNode(node: unknown): NodeShape {
 }
 
 /** True when two nodes agree closely enough on `marks`/`script` that a mismatch could not be the reason they stayed split — the same "stays split, not nested" rule that keeps a small-caps divine name (`marks: ["sc"]`) split from an ordinary, unmarked connector word sitting beside it. */
-function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
+export function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
   return (
     a.script === b.script &&
     a.marks.length === b.marks.length &&
@@ -190,7 +203,7 @@ export function isMergeableConnector(shape: NodeShape): boolean {
 }
 
 /** A real, text-bearing node some other node's stray text might legitimately belong on — `strong`-carrying, footnoted, or plain, it does not matter which; only a `ContentNested` wrapper (no top-level `text`) or a hard boundary is disqualified. */
-function isRealAttachmentPoint(shape: NodeShape): boolean {
+export function isRealAttachmentPoint(shape: NodeShape): boolean {
   return (
     !shape.isBoundary && shape.text !== undefined && shape.text.trim() !== ""
   );
@@ -315,7 +328,7 @@ function isTightPunctuationChar(ch: string): boolean {
 }
 
 /** Splits `text` at the boundary between its own leading run of {@link isTightPunctuationChar} characters and everything after — `undefined` when `text` does not start with one at all. */
-function leadingTightPunctuationSplit(
+export function leadingTightPunctuationSplit(
   text: string,
 ): { before: string; after: string } | undefined {
   let i = 0;
@@ -426,8 +439,8 @@ function hasTrailingWhitespace(shape: NodeShape): boolean {
  * module, this one has nothing to do with a node's placement relative to its
  * neighbors and applies to any text-bearing node, `strong`-carrying or not —
  * it's the same project-wide fraction convention the USFM importer applies
- * on the way in (`utils/usfm/fractions.ts`), reachable here so any version's
- * already-built content can be checked against it too.
+ * on the way in (`functions/normalizeFractions.ts`), reachable here so any
+ * version's already-built content can be checked against it too.
  */
 function hasUnnormalizedFraction(shape: NodeShape): boolean {
   return shape.text !== undefined && normalizeFractionText(shape.text).changes > 0;
@@ -589,36 +602,26 @@ function isHeadingOrSubtitle(node: unknown): boolean {
 }
 
 /**
- * True for a node that renders no visible text of its own — carrying
- * neither a top-level `text` nor a nested `content` to read one from, and
- * not itself a `heading`/`subtitle`/`bibleLink` boundary — *and* that does
- * not itself carry `paragraph: true`. Skipped when looking for the real node
- * after a heading/subtitle run, the same way checks 3/4's own backward/
- * forward scans skip through a textless Strong's sibling
- * (`isTextlessStrongSibling`) rather than stopping there: a node that
- * renders zero characters isn't really "the thing after the heading" from a
- * reader's standpoint, so testing *it* for `paragraph: true` tests the wrong
- * node.
- *
- * Real YLT1898 case this exists for: 1 Corinthians 7:1's heading is
- * immediately followed by a chapter-summary `{foot: {...}}` node with no
- * `text` of its own (Young's own "Chapter VII. may be divided into five
- * parts…" note), and only *after* that does the verse's real
- * `{paragraph: true, text: "And concerning…"}` appear. Without this skip,
- * `next` would be the footnote-only node itself — never `paragraph: true`
- * by construction, since it carries no text for a paragraph flag to open —
- * producing a false finding on a run that is correctly flagged in the real
- * next visible node.
+ * True for a node that renders no visible text — no top-level `text`, no
+ * nested `content`, not itself a `heading`/`subtitle`/`bibleLink` boundary —
+ * and that doesn't itself carry `paragraph: true`. Skipped when looking for
+ * the real node after a heading/subtitle run, the same way checks 3/4 skip
+ * through a textless Strong's sibling (`isTextlessStrongSibling`): a node
+ * rendering zero characters isn't really "the thing after the heading" from
+ * a reader's standpoint, so testing *it* for `paragraph: true` tests the
+ * wrong node. Real YLT1898 case: 1 Corinthians 7:1's heading is immediately
+ * followed by a textless chapter-summary `{foot: {...}}` node, and only
+ * *after* that does the verse's real `{paragraph: true, text: "And
+ * concerning…"}` appear — without this skip, `next` would be the
+ * footnote-only node itself, never `paragraph: true` by construction,
+ * producing a false finding on a run that is correctly flagged.
  *
  * **The `paragraph: true` exclusion is load-bearing, not defensive
  * padding.** Real KJV1769 Matthew 13:1 puts `{paragraph: true, strong:
- * "G1161"}` — a textless multi-word Strong's connector, the untranslated
- * half of a two-word Greek phrase rendered as one English word elsewhere —
- * directly after its heading, with the real visible text (`{text: "The
- * same", strong: "G1722"}`) only the node *after* that. The paragraph flag
- * genuinely lives on the textless node here; skipping straight past it
- * because it renders nothing would silently lose the very signal this check
- * exists to find, and flag a run that is already correctly marked. A node
+ * "G1161"}` — a textless connector — directly after its heading, with the
+ * real visible text only on the node *after* that. The flag genuinely lives
+ * on the textless node here; skipping past it because it renders nothing
+ * would silently lose the very signal this check exists to find. A node
  * with no visible text can still be the real paragraph boundary, so this
  * only ever skips a node that is both textless *and* not the boundary
  * itself.
@@ -657,10 +660,8 @@ export interface HeadingParagraphFinding {
  * whole against the one real node that actually follows it.
  *
  * "The node right after the run" skips forward past any {@link
- * skipsPastHeadingRun} node before landing on `next` — real YLT1898 1
- * Corinthians 7:1 puts a footnote-only chapter-summary node between the
- * heading and the real, correctly-flagged paragraph text, and that
- * in-between node renders nothing a reader would ever see.
+ * skipsPastHeadingRun} node before landing on `next` — see that function's
+ * own doc comment for the real corpus case this exists for.
  *
  * Never recurses past a verse's own outermost array: a heading/subtitle
  * never occurs nested inside a `ContentNested` wrapper's own content or a
@@ -715,6 +716,213 @@ export function findHeadingParagraphMismatches(
 }
 
 // ---------------------------------------------------------------------------
+// Check 8 — a footnote marker rendering before punctuation that belongs to the same span
+// ---------------------------------------------------------------------------
+
+/** One misplaced-footnote-marker finding within a single array level. */
+interface FootnotePunctuationOrderFinding {
+  /** The array level this was found in. */
+  where: string;
+  /** The foot-carrying node whose own marker renders before punctuation that belongs to the same span. */
+  node: unknown;
+  /** The leading run of tight-punctuation characters on `next` that the footnote marker should have rendered after instead of before. */
+  leading: string;
+  /** The real sibling immediately after `node` (skipping any textless Strong's sibling in between) whose own text starts with `leading`. */
+  next: unknown;
+}
+
+/**
+ * Scan one array level for a `foot`-carrying, text-bearing node immediately
+ * followed by a real sibling whose own text starts with tight punctuation
+ * (see {@link isTightPunctuationChar}/{@link leadingTightPunctuationSplit},
+ * check 3's own definition, reused verbatim here) — illustrative shape, real
+ * WEBUS2020 Revelation 1:8: `{text: "…the Omega,", foot: {...}}` immediately
+ * followed by `{text: "”"}`. Rendered, the footnote marker lands right after
+ * "Omega," and right *before* the closing quote it should have followed
+ * instead, since `utils/exportContent.ts`'s own renderer always places a
+ * node's footnote marker in its `suffix`, after that node's own full `core`
+ * text (see `RenderedParts` there) — which also bounds this check's own
+ * scope: punctuation embedded in the *footed* node's own text is never a
+ * defect this check can find, since it only ever inspects the node *after*
+ * the footed one.
+ *
+ * The offending punctuation need not be `next`'s *entire* text — a leading
+ * run is enough, with real content continuing right after it (`{text:
+ * "word", foot: {...}}, {text: "! Next"}`), which is why {@link
+ * leadingTightPunctuationSplit} is reused rather than a whole-string test. A
+ * footed node with no `text` of its own never fires — the loop's own first
+ * guard requires `text` to be present and non-empty before it even looks at
+ * what follows. Every other guard mirrors check 3's own: a textless Strong's
+ * sibling in between is skipped through, not treated as a boundary; `next`
+ * opening a new paragraph marks a real piece boundary a footnote marker's
+ * own position cannot cross.
+ */
+function scanArrayForFootnotePunctuationOrder(
+  nodes: readonly unknown[],
+  where: string,
+): FootnotePunctuationOrderFinding[] {
+  const shapes = nodes.map(describeNode);
+  const findings: FootnotePunctuationOrderFinding[] = [];
+
+  for (let i = 0; i < nodes.length; i++) {
+    const shape = shapes[i];
+    if (!shape.hasFoot || shape.text === undefined || shape.text.length === 0) continue;
+
+    let j = i + 1;
+    while (j < nodes.length && shapes[j].isTextlessStrongSibling) j++;
+    if (j >= nodes.length) continue;
+
+    const next = shapes[j];
+    if (!isRealAttachmentPoint(next) || next.opensParagraph || next.text === undefined) continue;
+
+    const split = leadingTightPunctuationSplit(next.text);
+    if (split === undefined) continue;
+
+    findings.push({ where, node: nodes[i], leading: split.before, next: nodes[j] });
+  }
+
+  return findings;
+}
+
+// ---------------------------------------------------------------------------
+// Check 9 — a mark-boundary space embedded inside a node's own text at a boundary where the two real sides disagree
+// ---------------------------------------------------------------------------
+
+/**
+ * True when a node's own `marks`/`script` are non-empty. This is the gate
+ * check 9 needs, since only a node that itself carries formatting can
+ * wrongly extend it onto an adjacent, differently-formatted node's own
+ * joining space. An unmarked node's own embedded space is never this check's
+ * concern.
+ *
+ * Real WEBUS2020 Revelation 1:8 is exactly why this gate is one-directional
+ * rather than a plain "the two sides disagree" test: `(1) {marks: ["woc"]},
+ * (2) {marks: []} (none), " says the Lord God,", (3) {marks: ["woc"]}, "
+ * "who is…"`. Node 3's own leading space wrongly reaches across a real
+ * disagreement (node 2 carries no marks) and is a finding. Node 2's own
+ * leading space sits at the identical kind of disagreement (node 1 does
+ * carry marks) and is *not* one — nothing on node 2's own side is marked for
+ * the space to wrongly extend. A symmetric "the two sides simply disagree"
+ * rule would flag both; only the side that itself carries the formatting is
+ * this check's concern.
+ */
+export function carriesFormatting(shape: NodeShape): boolean {
+  return shape.marks.length > 0 || shape.script !== undefined;
+}
+
+/**
+ * True when two nodes' own marks share the same script and one's marks are
+ * a non-empty subset of the other's, meaning the smaller side is a strict
+ * formatting subset of the larger, not a disagreement. Scoped to check 9
+ * only, not folded into {@link agreesInFormatting} itself, since checks 1/3/4
+ * use that function's exact-equality test and are currently clean
+ * corpus-wide; changing its meaning there is a bigger, unjustified blast
+ * radius than this one check needs.
+ *
+ * Real YLT1898 case this exists for: a Words-of-Christ node (marks:
+ * ["woc"]) bordering a translator-supplied word that is *also* part of
+ * Christ's own discourse (marks: ["i","woc"]). The supplied word correctly
+ * carries `woc` plus one more mark, not a genuine boundary — `exportContent.ts`
+ * renders both orderings identically, so nothing hinges on which side is
+ * "outer." Do not generalize this into `agreesInFormatting` itself.
+ */
+function isFormattingSubsetOf(a: NodeShape, b: NodeShape): boolean {
+  if (a.script !== b.script) return false;
+  const [smaller, larger] = a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
+  return smaller.length > 0 && smaller.every((mark) => larger.includes(mark));
+}
+
+/** One mark-boundary-embedded-space finding within a single array level. */
+interface MarkBoundaryEmbeddedSpaceFinding {
+  /** The array level this was found in. */
+  where: string;
+  /** `"leading"` when `node`'s own text starts with the misplaced space; `"trailing"` when it ends with it. */
+  side: "leading" | "trailing";
+  /** The node whose own non-empty `marks`/`script` don't match `neighbor`'s, yet whose own text carries a leading/trailing space reaching across that boundary anyway. */
+  node: unknown;
+  /** The real node immediately across the space (predecessor for a leading space, successor for a trailing space; skipping any textless Strong's sibling in between) the space should belong to instead. */
+  neighbor: unknown;
+}
+
+/**
+ * Scan one array level for a node whose own `marks`/`script` are non-empty
+ * and whose own `text` starts or ends with a whitespace character that
+ * disagrees in formatting (see {@link agreesInFormatting}) with the real
+ * node immediately across that boundary — the space should belong on the
+ * *other*, agreeing node's own leading/trailing edge instead, not embedded
+ * inside the marked node's own text.
+ *
+ * **Asymmetric by design** — see {@link carriesFormatting}'s own doc comment
+ * for the concrete Revelation 1:8 case this comes from. This check only ever
+ * fires when the space-carrying node *itself* carries the non-empty
+ * `marks`/`script`, never when it's the unmarked side of a disagreement.
+ * Future readers: do not "fix" this into a symmetric check without
+ * re-reading that example first.
+ *
+ * **A strict formatting-subset boundary is excluded, not flagged** — see
+ * {@link isFormattingSubsetOf}'s own doc comment for the real YLT1898
+ * `["woc"]`-vs-`["i","woc"]` case this exists for. One side's marks being a
+ * non-empty subset of the other's is a nesting relationship, not a genuine
+ * disagreement, so both guards below check it alongside `agreesInFormatting`.
+ *
+ * Distinct from check 4 ({@link scanArrayForMarkBoundarySpaces}): check 4
+ * catches a *standalone* whitespace-only node between two agreeing real
+ * nodes; this check catches whitespace *embedded* inside an otherwise-real
+ * node's own text at a boundary where the two real sides *disagree*.
+ *
+ * Both directions reuse the same guards checks 3 and 4 already established:
+ * a textless Strong's sibling in between is skipped through rather than
+ * treated as a boundary; a `break` or a `paragraph`-opening neighbor marks a
+ * real piece boundary a stray embedded space cannot cross.
+ */
+function scanArrayForMarkBoundaryEmbeddedSpaces(
+  nodes: readonly unknown[],
+  where: string,
+): MarkBoundaryEmbeddedSpaceFinding[] {
+  const shapes = nodes.map(describeNode);
+  const findings: MarkBoundaryEmbeddedSpaceFinding[] = [];
+
+  for (let i = 0; i < nodes.length; i++) {
+    const shape = shapes[i];
+    if (shape.text === undefined || shape.text.trim() === "" || !carriesFormatting(shape)) continue;
+
+    if (/^\s/.test(shape.text) && !shape.opensParagraph) {
+      let j = i - 1;
+      while (j >= 0 && shapes[j].isTextlessStrongSibling) j--;
+      if (j >= 0) {
+        const neighbor = shapes[j];
+        if (
+          isRealAttachmentPoint(neighbor) &&
+          !neighbor.endsBreak &&
+          !agreesInFormatting(shape, neighbor) &&
+          !isFormattingSubsetOf(shape, neighbor)
+        ) {
+          findings.push({ where, side: "leading", node: nodes[i], neighbor: nodes[j] });
+        }
+      }
+    }
+
+    if (/\s$/.test(shape.text) && !shape.endsBreak) {
+      let j = i + 1;
+      while (j < nodes.length && shapes[j].isTextlessStrongSibling) j++;
+      if (j < nodes.length) {
+        const neighbor = shapes[j];
+        if (
+          isRealAttachmentPoint(neighbor) &&
+          !neighbor.opensParagraph &&
+          !agreesInFormatting(shape, neighbor) &&
+          !isFormattingSubsetOf(shape, neighbor)
+        ) {
+          findings.push({ where, side: "trailing", node: nodes[i], neighbor: nodes[j] });
+        }
+      }
+    }
+  }
+
+  return findings;
+}
+
+// ---------------------------------------------------------------------------
 // Recursion — one array level, plus every node's own heading/subtitle/content/foot.content
 // ---------------------------------------------------------------------------
 
@@ -723,7 +931,7 @@ function asArray(content: unknown): unknown[] {
   return Array.isArray(content) ? content : [content];
 }
 
-/** All six checks' findings for one array level (and everything nested beneath it) — the shape {@link findStrongsNodeIssues} returns. */
+/** All eight checks' findings for one array level (and everything nested beneath it) — the shape {@link findStrongsNodeIssues} returns. */
 interface LevelFindings {
   /** Check 1's findings. */
   unmergedPairs: PairFinding[];
@@ -737,12 +945,16 @@ interface LevelFindings {
   verseInitialSpace: VerseInitialSpaceFinding | undefined;
   /** Check 7's findings — each entry is the offending node's own path (e.g. `content[3]`), not a full finding object, matching Check 2's own shape. */
   fractionFindings: string[];
+  /** Check 8's findings. */
+  footnotePunctuationOrder: FootnotePunctuationOrderFinding[];
+  /** Check 9's findings. */
+  markBoundaryEmbeddedSpaces: MarkBoundaryEmbeddedSpaceFinding[];
 }
 
 /**
  * Walk one array level and every node's own nested levels — `heading`,
  * `subtitle`, a `ContentNested` wrapper's own `content`, and a footnote
- * body's own `foot.content` — collecting all five per-node checks' findings
+ * body's own `foot.content` — collecting all seven per-node checks' findings
  * into `sink` as it goes.
  */
 function walkLevel(
@@ -753,6 +965,8 @@ function walkLevel(
   sink.unmergedPairs.push(...scanArrayForUnmergedPairs(nodes, where));
   sink.leadingPunctuation.push(...scanArrayForLeadingPunctuation(nodes, where));
   sink.markBoundarySpaces.push(...scanArrayForMarkBoundarySpaces(nodes, where));
+  sink.footnotePunctuationOrder.push(...scanArrayForFootnotePunctuationOrder(nodes, where));
+  sink.markBoundaryEmbeddedSpaces.push(...scanArrayForMarkBoundaryEmbeddedSpaces(nodes, where));
 
   for (let i = 0; i < nodes.length; i++) {
     const node = nodes[i];
@@ -785,10 +999,10 @@ function walkLevel(
 }
 
 /**
- * Walk one verse's whole content tree for checks 1-5 and 7 at once (six
+ * Walk one verse's whole content tree for checks 1-5 and 7-9 at once (eight
  * checks total).
  *
- * Check 5 is not recursive like the other five — it only ever looks at this
+ * Check 5 is not recursive like the other seven — it only ever looks at this
  * verse's own outermost content, so it runs once here rather than inside
  * {@link walkLevel}. Check 6 ({@link findHeadingParagraphMismatches}) is not
  * included here at all — it needs a whole book's own verse sequence to
@@ -808,6 +1022,8 @@ export function findStrongsNodeIssues(
     markBoundarySpaces: [],
     verseInitialSpace: checkVerseInitialSpace(content),
     fractionFindings: [],
+    footnotePunctuationOrder: [],
+    markBoundaryEmbeddedSpaces: [],
   };
   walkLevel(asArray(content), where, sink);
   return sink;
@@ -905,6 +1121,34 @@ export interface VerseInitialSpaceFileFinding extends VerseInitialSpaceFinding {
   verse: number;
 }
 
+/** One misplaced-footnote-marker finding, with its file/verse identity attached. */
+export interface FootnotePunctuationOrderFileFinding extends FootnotePunctuationOrderFinding {
+  /** The version id this finding belongs to (e.g. `WEBUS2020`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `81-REV.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `REV`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+}
+
+/** One mark-boundary-embedded-space finding, with its file/verse identity attached. */
+export interface MarkBoundaryEmbeddedSpaceFileFinding extends MarkBoundaryEmbeddedSpaceFinding {
+  /** The version id this finding belongs to (e.g. `WEBUS2020`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `81-REV.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `REV`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+}
+
 /** Every verse-JSON file for one version id, sorted, excluding `_version.json` and any schema file. */
 function verseFiles(version: string): string[] {
   return fs
@@ -921,7 +1165,7 @@ export interface HeadingParagraphFileFinding extends HeadingParagraphFinding {
   file: string;
 }
 
-/** One version's own audit: its id, and every finding {@link auditVersion} found, across all seven checks. */
+/** One version's own audit: its id, and every finding {@link auditVersion} found, across all nine checks. */
 export interface VersionAudit {
   /** The version id audited (e.g. `KJV1769`). */
   version: string;
@@ -939,6 +1183,10 @@ export interface VersionAudit {
   headingParagraphMismatches: readonly HeadingParagraphFileFinding[];
   /** Check 7's findings, corpus-wide for this version — a node whose own text still carries a fraction shape not yet normalized to this repo's own convention. */
   fractionFindings: readonly FractionFinding[];
+  /** Check 8's findings, corpus-wide for this version — a footnote marker rendering before punctuation that belongs to the same span. */
+  footnotePunctuationOrder: readonly FootnotePunctuationOrderFileFinding[];
+  /** Check 9's findings, corpus-wide for this version — a mark-boundary space embedded inside a node's own text at a boundary where the two real sides disagree. */
+  markBoundaryEmbeddedSpaces: readonly MarkBoundaryEmbeddedSpaceFileFinding[];
 }
 
 /**
@@ -955,6 +1203,8 @@ export function auditVersion(version: string): VersionAudit {
   const verseInitialSpaces: VerseInitialSpaceFileFinding[] = [];
   const headingParagraphMismatches: HeadingParagraphFileFinding[] = [];
   const fractionFindings: FractionFinding[] = [];
+  const footnotePunctuationOrder: FootnotePunctuationOrderFileFinding[] = [];
+  const markBoundaryEmbeddedSpaces: MarkBoundaryEmbeddedSpaceFileFinding[] = [];
 
   for (const file of verseFiles(version)) {
     const verses = JSON.parse(
@@ -982,6 +1232,10 @@ export function auditVersion(version: string): VersionAudit {
         verseInitialSpaces.push({ ...identity, ...findings.verseInitialSpace });
       for (const at of findings.fractionFindings)
         fractionFindings.push({ ...identity, path: at });
+      for (const finding of findings.footnotePunctuationOrder)
+        footnotePunctuationOrder.push({ ...identity, ...finding });
+      for (const finding of findings.markBoundaryEmbeddedSpaces)
+        markBoundaryEmbeddedSpaces.push({ ...identity, ...finding });
     }
 
     for (const finding of findHeadingParagraphMismatches(verses))
@@ -997,6 +1251,8 @@ export function auditVersion(version: string): VersionAudit {
     verseInitialSpaces,
     headingParagraphMismatches,
     fractionFindings,
+    footnotePunctuationOrder,
+    markBoundaryEmbeddedSpaces,
   };
 }
 
@@ -1005,7 +1261,7 @@ export function auditVersion(version: string): VersionAudit {
  * `bible-versions/` when none are named — deliberately not a curated list
  * (see this module's own top doc comment): a version with no `strong`
  * values and no un-normalized fraction at all just reports zero findings
- * across all seven checks.
+ * across all nine checks.
  *
  * @param versionIds - Versions to audit; defaults to {@link getVersionDirectories}.
  */
@@ -1015,7 +1271,7 @@ export function auditVersions(
   return versionIds.map((version) => auditVersion(version));
 }
 
-/** The exit code this check should report — non-zero when any version carries any finding across any of the seven checks. */
+/** The exit code this check should report — non-zero when any version carries any finding across any of the nine checks. */
 export function exitCodeFor(summaries: readonly VersionAudit[]): number {
   return summaries.some(
     (summary) =>
@@ -1025,14 +1281,16 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
       summary.markBoundarySpaces.length > 0 ||
       summary.verseInitialSpaces.length > 0 ||
       summary.headingParagraphMismatches.length > 0 ||
-      summary.fractionFindings.length > 0,
+      summary.fractionFindings.length > 0 ||
+      summary.footnotePunctuationOrder.length > 0 ||
+      summary.markBoundaryEmbeddedSpaces.length > 0,
   )
     ? 1
     : 0;
 }
 
 /**
- * Prints one version's own findings across all seven checks — the first `cap`
+ * Prints one version's own findings across all nine checks — the first `cap`
  * per check, or every one when `verbose`.
  *
  * Exported so `validate.ts` can render the same per-check breakdown inline in
@@ -1131,15 +1389,41 @@ export function printFindingLines(summary: VersionAudit, verbose: boolean): void
     console.log(
       `    … ${summary.fractionFindings.length - cap} more (--verbose to list all)`,
     );
+
+  console.log(
+    `  ${summary.footnotePunctuationOrder.length} footnote marker(s) rendering before punctuation that belongs to the same span`,
+  );
+  for (const finding of summary.footnotePunctuationOrder.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} leading=${JSON.stringify(finding.leading)} node=${JSON.stringify(finding.node)} next=${JSON.stringify(finding.next)}`,
+    );
+  }
+  if (!verbose && summary.footnotePunctuationOrder.length > cap)
+    console.log(
+      `    … ${summary.footnotePunctuationOrder.length - cap} more (--verbose to list all)`,
+    );
+
+  console.log(
+    `  ${summary.markBoundaryEmbeddedSpaces.length} mark-boundary space(s) embedded inside a node's own text at a boundary where the two real sides disagree`,
+  );
+  for (const finding of summary.markBoundaryEmbeddedSpaces.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} side=${finding.side} node=${JSON.stringify(finding.node)} neighbor=${JSON.stringify(finding.neighbor)}`,
+    );
+  }
+  if (!verbose && summary.markBoundaryEmbeddedSpaces.length > cap)
+    console.log(
+      `    … ${summary.markBoundaryEmbeddedSpaces.length - cap} more (--verbose to list all)`,
+    );
 }
 
 /**
- * True when a version's audit found nothing across any of the seven checks —
+ * True when a version's audit found nothing across any of the nine checks —
  * printed as a single skipped line rather than an empty block, so a report
  * over every version on disk stays readable.
  *
  * Exported so `validate.ts` can reuse this same clean/dirty test rather than
- * re-deriving it from `VersionAudit`'s seven finding arrays itself.
+ * re-deriving it from `VersionAudit`'s nine finding arrays itself.
  */
 export function isClean(summary: VersionAudit): boolean {
   return (
@@ -1149,7 +1433,9 @@ export function isClean(summary: VersionAudit): boolean {
     summary.markBoundarySpaces.length === 0 &&
     summary.verseInitialSpaces.length === 0 &&
     summary.headingParagraphMismatches.length === 0 &&
-    summary.fractionFindings.length === 0
+    summary.fractionFindings.length === 0 &&
+    summary.footnotePunctuationOrder.length === 0 &&
+    summary.markBoundaryEmbeddedSpaces.length === 0
   );
 }
 

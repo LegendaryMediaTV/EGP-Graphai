@@ -212,7 +212,7 @@ These are the families of the Levites according to their fathers’ houses.
 <sup>44</sup> Yahweh spoke to Moses, saying,
 <sup>45</sup> “Take the Levites instead of all the firstborn among the children of Israel, and the livestock of the Levites instead of their livestock; and the Levites shall be mine. I am Yahweh.
 <sup>46</sup> For the redemption of the two hundred seventy-three of the firstborn of the children of Israel who exceed the number of the Levites,
-<sup>47</sup> you shall take five shekels apiece for each one; according to the shekel<sup>c</sup> of the sanctuary you shall take them (the shekel is twenty gerahs<sup>d</sup>);
+<sup>47</sup> you shall take five shekels apiece for each one; according to the shekel<sup>c</sup> of the sanctuary you shall take them (the shekel is twenty gerahs);<sup>d</sup>
 <sup>48</sup> and you shall give the money, with which their remainder is redeemed, to Aaron and to his sons.”
 
 <sup>49</sup> Moses took the redemption money from those who exceeded the number of those who were redeemed by the Levites;

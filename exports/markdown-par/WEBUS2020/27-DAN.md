@@ -143,7 +143,7 @@
 
 They answered the king, “True, O king.”
 
-<sup>25</sup> He answered, “Look, I see four men loose, walking in the middle of the fire, and they are unharmed. The appearance of the fourth is like a son of the gods.<sup>b</sup>”
+<sup>25</sup> He answered, “Look, I see four men loose, walking in the middle of the fire, and they are unharmed. The appearance of the fourth is like a son of the gods.”<sup>b</sup>
 
 <sup>26</sup> Then Nebuchadnezzar came near to the mouth of the burning fiery furnace. He spoke and said, “Shadrach, Meshach, and Abednego, you servants of the Most High God, come out, and come here!”
 

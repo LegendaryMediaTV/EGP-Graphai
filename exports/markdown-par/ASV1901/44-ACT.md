@@ -102,7 +102,7 @@ and,<sup>n</sup><br>His <sup>o</sup>office let another take.<br>
 <sup>41</sup> They then <sup>p</sup>that received his word were baptized: and there were added _unto them_ in that day about three thousand souls.
 <sup>42</sup> And they continued stedfastly in the apostles’ teaching and <sup>q</sup>fellowship, in the breaking of bread and the prayers.
 
-<sup>43</sup> And fear came upon every soul: and many wonders and signs were done through the apostles<sup>r</sup>.
+<sup>43</sup> And fear came upon every soul: and many wonders and signs were done through the apostles.<sup>r</sup>
 <sup>44</sup> And all that believed were together, and had all things common;
 <sup>45</sup> and they sold their possessions and goods, and parted them to all, according as any man had need.
 <sup>46</sup> And day by day, continuing stedfastly with one accord in the temple, and breaking bread at home, they took their food with gladness and singleness of heart,

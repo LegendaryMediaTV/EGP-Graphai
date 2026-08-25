@@ -1404,7 +1404,7 @@ And the LORD said unto Moses, Thus thou shalt say unto the children of Israel, Y
 <sup>23</sup> For they said unto me, Make us gods, which shall go before us: for _as for_ this Moses, the man that brought us up out of the land of Egypt, we wot not what is become of him.
 <sup>24</sup> And I said unto them, Whosoever hath any gold, let them break _it_ off. So they gave _it_ me: then I cast it into the fire, and there came out this calf.
 
-<sup>25</sup> And when Moses saw that the people _were_ naked; (for Aaron had made them naked unto _their_ shame among their enemies:<sup>c</sup>)
+<sup>25</sup> And when Moses saw that the people _were_ naked; (for Aaron had made them naked unto _their_ shame among their enemies:)<sup>c</sup>
 <sup>26</sup> then Moses stood in the gate of the camp, and said, Who _is_ on the LORD’s side? _let him come_ unto me. And all the sons of Levi gathered themselves together unto him.
 <sup>27</sup> And he said unto them, Thus saith the LORD God of Israel, Put every man his sword by his side, _and_ go in and out from gate to gate throughout the camp, and slay every man his brother, and every man his companion, and every man his neighbour.
 <sup>28</sup> And the children of Levi did according to the word of Moses: and there fell of the people that day about three thousand men.

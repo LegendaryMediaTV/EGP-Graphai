@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { describe, expect, it } from "vitest";
 import { buildFootnoteContent, buildIntroParagraphFootnote, capitalizeFootnoteOpening } from "../footnotes";
-import { uniformFraction } from "../fractions";
+import { uniformFraction } from "../../../functions/normalizeFractions";
 import { Token, tokenize } from "../tokenize";
 import { extractFootnoteBodiesIn, FOOTNOTES_IN_CORPUS } from "../verify";
 
@@ -136,7 +136,7 @@ describe("buildFootnoteContent — classification reaches the built footnote's o
 });
 
 /**
- * `normalizeFractionText` (`utils/usfm/fractions.ts`) is wired into the
+ * `normalizeFractionText` (`functions/normalizeFractions.ts`) is wired into the
  * `token.type === "text"` branch above so a raw fraction, however the
  * source spells it, comes out the far side already in this repo's own
  * convention — both in the footnote's own displayed `content` and in
@@ -270,26 +270,16 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
   });
 
   /**
-   * Two real footnotes (Deuteronomy 33:16, Matthew 23:5) never matched a
-   * `HEAD` counterpart by a per-footnote, book/chapter/verse/text sweep, both
-   * for the identical real reason: upstream `HEAD` embeds a real `bibleLink`
-   * node for a trailing in-body scripture reference ("Exodus 3:3–4",
-   * "Deuteronomy 6:8") that the raw USFM carries as plain, unmarked prose
-   * with no `\+xt`/`\x` structural marker of its own. Finding 9's own
-   * `linkEmbeddedReferences` (`usfm/references.ts`) now closes this gap
-   * generically — Matthew 23:5's own "...See Deuteronomy 6:8." matches
+   * Both footnotes (Deuteronomy 33:16, Matthew 23:5) embed a trailing,
+   * in-body scripture reference ("Exodus 3:3–4", "Deuteronomy 6:8") that the
+   * raw USFM carries as plain, unmarked prose with no `\+xt`/`\x` structural
+   * marker of its own. `linkEmbeddedReferences` (`usfm/references.ts`,
+   * Finding 9) resolves any real, fully-qualified, registry-resolvable
+   * reference found anywhere in a footnote body, no cue word required —
+   * "Exodus 3:3-4" and "Deuteronomy 6:8" both name their own book
+   * explicitly, so they link through this same generic mechanism, matching
    * upstream `HEAD` exactly (modulo the intentional, already-accepted
-   * capitalization divergence below). Deuteronomy 33:16 used to be treated
-   * as a separate, harder exception (Phase 14: its own cue is "of," a
-   * single, unevidenced instance too common to safely generalize into a
-   * third cue word) with its own verse-specific override applied later in
-   * `imports/webus2020/import.ts`. Phase 15 found the cue-word requirement
-   * itself was the wrong safeguard and redesigned `linkEmbeddedReferences`
-   * to link any real, fully-qualified, registry-resolvable reference found
-   * anywhere in the body, no cue word required — "Exodus 3:3-4" names its
-   * own book explicitly, so it now links right here, through the same
-   * generic mechanism as everything else, with no separate override needed
-   * at all.
+   * capitalization divergence below).
    */
   it('should link Deuteronomy 33:16\'s real "the burning bush of Exodus 3:3-4" through the generic mechanism, no cue word or separate override needed — "Exodus 3:3-4" names its own book explicitly, matching upstream HEAD\'s own exact shape (modulo the dash character, a separate, later, post-write convention this module never applies)', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 33:16 \\ft i.e., the burning bush of Exodus 3:3-4.\\f*');

@@ -12,7 +12,7 @@
 
 <sup>8</sup> first, indeed, I thank my God through Jesus Christ for you all, that your faith is proclaimed in the whole world;
 <sup>9</sup> for God is my witness, whom I serve in my spirit in the good news of His Son, how unceasingly I make mention of you,
-<sup>10</sup> always in my prayers beseeching<sup>c</sup>, if by any means now at length I shall have a prosperous journey, by the will of God, to come unto you,
+<sup>10</sup> always in my prayers beseeching,<sup>c</sup> if by any means now at length I shall have a prosperous journey, by the will of God, to come unto you,
 <sup>11</sup> for I long to see you, that I may impart to you some spiritual gift, that ye may be established;
 <sup>12</sup> and that is, that I may be comforted together among you, through the faith in one another, both yours and mine.
 <sup>13</sup> And I do not wish you to be ignorant, brethren, that many times I did purpose to come unto you—and was hindered till the present time—that some fruit I might have also among you, even as also among the other nations.
@@ -55,7 +55,7 @@
 Therefore, thou art inexcusable, O man—every one who is judging—for in that in which thou dost judge the other, thyself thou dost condemn, for the same things thou dost practise who art judging,
 <sup>2</sup> and we have known that the judgment of God is according to truth, upon those practising such things.
 <sup>3</sup> And dost thou think this, O man, who art judging those who such things are practising, and art doing them, that thou shalt escape the judgment of God?
-<sup>4</sup> or the riches of His goodness, and forbearance, and long-suffering, dost thou despise<sup>b</sup>?—not knowing that the goodness of God doth lead thee to reformation!
+<sup>4</sup> or the riches of His goodness, and forbearance, and long-suffering, dost thou despise?<sup>b</sup>—not knowing that the goodness of God doth lead thee to reformation!
 <sup>5</sup> but, according to thy hardness and impenitent heart, thou dost treasure up to thyself wrath, in a day of wrath and of the revelation of the righteous judgment of God,
 <sup>6</sup> who shall render to each according to his works;
 <sup>7</sup> to those, indeed, who in continuance of a good work, do seek glory, and honour, and incorruptibility—life age-during;
@@ -78,7 +78,7 @@ Therefore, thou art inexcusable, O man—every one who is judging—for in that 
 <sup>22</sup> thou who art preaching not to steal, dost thou steal? thou who art saying not to commit adultery, dost thou commit adultery? thou who art abhorring the idols, dost thou rob temples?
 <sup>23</sup> thou who in the law dost boast, through the transgression of the law God dost thou dishonour?
 <sup>24</sup> for the name of God because of you is evil spoken of among the nations, according as it hath been written.
-<sup>25</sup> For circumcision<sup>d</sup>, indeed, doth profit, if law thou mayest practise, but if a transgressor of law thou mayest be, thy circumcision hath become uncircumcision.
+<sup>25</sup> For circumcision,<sup>d</sup> indeed, doth profit, if law thou mayest practise, but if a transgressor of law thou mayest be, thy circumcision hath become uncircumcision.
 <sup>26</sup> If, therefore the uncircumcision the righteousness of the law may keep, shall not his uncircumcision for circumcision be reckoned?
 <sup>27</sup> and the uncircumcision, by nature, fulfilling the law, shall judge thee who, through letter and circumcision, _art_ a transgressor of law.
 <sup>28</sup> For he is not a Jew who is _so_ outwardly, neither _is_ circumcision that which is outward in flesh;
@@ -100,14 +100,14 @@ What, then, _is_ the superiority of the Jew? or what the profit of the circumcis
 <sup>3</sup> for what, if certain were faithless? shall their faithlessness the faithfulness of god make useless?
 <sup>4</sup> let it not be! and let God become true, and every man false, according as it hath been written, “That Thou mayest be declared righteous in Thy words, and mayest overcome in Thy being judged.”<br>
 
-<sup>5</sup> And, if our unrighteousness God’s righteousness doth establish<sup>b</sup>, what shall we say? is God unrighteous who is inflicting the wrath? (after the manner of a man I speak)
+<sup>5</sup> And, if our unrighteousness God’s righteousness doth establish,<sup>b</sup> what shall we say? is God unrighteous who is inflicting the wrath? (after the manner of a man I speak)
 <sup>6</sup> let it not be! since how shall God judge the world?
 <sup>7</sup> for if the truth of God in my falsehood did more abound to His glory, why yet am I also as a sinner judged?
 <sup>8</sup> and not, as we are evil spoken of, and as certain affirm us to say—“We may do the evil things, that the good ones may come?” whose judgment is righteous.
 
 <sup>9</sup> What, then? are we better? not at all! for we did before charge both Jews and Greeks with being all under sin,
 <sup>10</sup> according as it hath been written—“There is none righteous, not even one;<br>
-<sup>11</sup> There is none who is understanding<sup>c</sup>, there is none who is seeking after God.<br>
+<sup>11</sup> There is none who is understanding,<sup>c</sup> there is none who is seeking after God.<br>
 <sup>12</sup> All did go out of the way, together they became unprofitable, there is none doing good, there is not even one.<br>
 <sup>13</sup> A sepulchre opened _is_ their throat; with their tongues they used deceit; poison of asps _is_ under their lips.<br>
 <sup>14</sup> Whose mouth is full of cursing<sup>d</sup> and bitterness.<br>
@@ -163,7 +163,7 @@ What, then, shall we say Abraham our father, to have found, according to flesh?
 
 <sup>13</sup> For not through law _is_ the promise to Abraham, or to his seed, of his being heir of the world, but through the righteousness of faith;
 <sup>14</sup> for if they who are of law _are_ heirs, the faith hath been made void, and the promise hath been made useless;
-<sup>15</sup> for the law doth work wrath<sup>b</sup>; for where law is not, neither _is_ transgression.
+<sup>15</sup> for the law doth work wrath;<sup>b</sup> for where law is not, neither _is_ transgression.
 <sup>16</sup> Because of this _it is_ of faith, that _it may be_ according to grace, for the promise being sure to all the seed, not to that which _is_ of the law only, but also to that which _is_ of the faith of Abraham,
 <sup>17</sup> who is father of us all (according as it hath been written—“A father of many nations I have set thee,”) before Him whom he did believe—God, who is quickening the dead, and is calling the things that be not as being.
 <sup>18</sup> Who, against hope in hope did believe, for his becoming father of many nations according to that spoken: “So shall thy seed be;”
@@ -189,7 +189,7 @@ Having been declared righteous, then, by faith, we have peace toward God through
 <sup>3</sup> And not only _so_, but we also boast in the tribulations, knowing that the tribulation doth work endurance;
 <sup>4</sup> and the endurance, experience; and the experience, hope;
 <sup>5</sup> and the hope doth not make ashamed, because the love of God hath been poured forth in our hearts through the Holy Spirit that hath been given to us.
-<sup>6</sup> For in our being still ailing<sup>b</sup>, Christ in due time did die for the impious;
+<sup>6</sup> For in our being still ailing,<sup>b</sup> Christ in due time did die for the impious;
 <sup>7</sup> for scarcely for a righteous man will any one die, for for the good man perhaps some one also doth dare to die;
 <sup>8</sup> and God doth commend His own love to us, that, in our being still sinners, Christ did die for us;
 <sup>9</sup> much more, then, having been declared righteous now in his blood, we shall be saved through him from the wrath;
@@ -374,7 +374,7 @@ Truth I say in Christ, I lie not, my conscience bearing testimony with me in the
 <sup>17</sup> for the Writing saith to Pharaoh—“For this very thing I did raise thee up, that I might shew in thee My power, and that My name might be declared in all the land;”
 <sup>18</sup> so, then, to whom He willeth, He doth kindness, and to whom He willeth, He doth harden.
 
-<sup>19</sup> Thou wilt say, then, to me, “Why yet doth He find fault<sup>e</sup>? for His counsel who hath resisted?”
+<sup>19</sup> Thou wilt say, then, to me, “Why yet doth He find fault?<sup>e</sup> for His counsel who hath resisted?”
 <sup>20</sup> nay, but, O man, who art thou that art answering again to God? shall the thing formed say to Him who did form _it_, Why me didst thou make thus?
 <sup>21</sup> hath not the potter authority over the clay, out of the same lump to make the one vessel to honour, and the one to dishonour?
 <sup>22</sup> And if God, willing to shew the wrath and to make known His power, did endure, in much long suffering, vessels of wrath fitted for destruction,
@@ -471,7 +471,7 @@ I say, then, Did God cast away His people? let it not be! for I also am an Israe
 <sup>21</sup> for if God the natural branches did not spare—lest perhaps He also shall not spare thee.
 <sup>22</sup> Lo, then, goodness and severity of God—upon those indeed who fell, severity; and upon thee, goodness, if thou mayest remain in the goodness, otherwise, thou also shalt be cut off.
 <sup>23</sup> And those also, if they may not remain in unbelief, shall be graffed in, for God is able again to graff them in;
-<sup>24</sup> for if thou, out of the olive tree, wild by nature<sup>b</sup>, wast cut out, and, contrary to nature, wast graffed into a good olive tree, how much rather shall they, who _are_ according to nature, be graffed into their own olive tree?
+<sup>24</sup> for if thou, out of the olive tree, wild by nature,<sup>b</sup> wast cut out, and, contrary to nature, wast graffed into a good olive tree, how much rather shall they, who _are_ according to nature, be graffed into their own olive tree?
 
 <sup>25</sup> For I do not wish you to be ignorant, brethren, of this secret—that ye may not be wise in your own conceits—that hardness in part to Israel hath happened till the fulness of the nations may come in;
 <sup>26</sup> and so all Israel shall be saved, according as it hath been written, “There shall come forth out of Sion he who is delivering, and he shall turn away impiety from Jacob,<br>
@@ -558,12 +558,12 @@ Let every soul to the higher authorities be subject, for there is no authority e
 
 
 And him who is weak in the faith receive ye—not to determinations of reasonings;
-<sup>2</sup> one doth believe that he may eat all things—and he who is weak doth eat herbs<sup>b</sup>;
+<sup>2</sup> one doth believe that he may eat all things—and he who is weak doth eat herbs;<sup>b</sup>
 <sup>3</sup> let not him who is eating despise him who is not eating: and let not him who is not eating judge him who is eating, for God did receive him.
 <sup>4</sup> Thou—who art thou that art judging another’s domestic? to his own master he doth stand or fall; and he shall be made to stand, for God is able to make him stand.
 <sup>5</sup> One doth judge one day above another, and another doth judge every day _alike_; let each in his own mind be fully assured.
 <sup>6</sup> He who is regarding the day, to the Lord he doth regard _it_, and he who is not regarding the day, to the Lord he doth not regard _it_. He who is eating, to the Lord he doth eat, for he doth give thanks to God; and he who is not eating, to the Lord he doth not eat, and doth give thanks to God.
-<sup>7</sup> For none of us to himself doth live, and none to himself doth die<sup>c</sup>;
+<sup>7</sup> For none of us to himself doth live, and none to himself doth die;<sup>c</sup>
 <sup>8</sup> for both, if we may live, to the Lord we live; if also we may die, to the Lord we die; both then if we may live, also if we may die, we are the Lord’s;
 <sup>9</sup> for because of this Christ both died and rose again, and lived again, that both of dead and of living he may be Lord.
 <sup>10</sup> And thou, why dost thou judge thy brother? or again, thou, why dost thou set at nought thy brother? for we shall all stand at the tribunal of the Christ;
@@ -583,7 +583,7 @@ And him who is weak in the faith receive ye—not to determinations of reasoning
 <sup>20</sup> for the sake of victuals cast not down the work of God; all things, indeed, _are_ pure, but evil _is_ to the man who is eating through stumbling.
 <sup>21</sup> Right _it is_ not to eat flesh, nor to drink wine, nor to _do anything_ in which thy brother doth stumble, or is made to fall, or is weak.
 <sup>22</sup> Thou hast faith! to thyself have _it_ before God; happy is he who is not judging himself in what he doth approve,
-<sup>23</sup> and he who is making a difference<sup>d</sup>, if he may eat, hath been condemned, because _it is_ not of faith; and all that _is_ not of faith is sin.
+<sup>23</sup> and he who is making a difference,<sup>d</sup> if he may eat, hath been condemned, because _it is_ not of faith; and all that _is_ not of faith is sin.
 
 > - <sup>a</sup> 1. Chapter XIV. May be divided into four parts; v. 1–9 of eating herbs and observing days; v. 10–13 Christ the only judge; v. 14, 15 nothing unclean, walking in love; v. 16–23 serving the Christ, building up one another.
 > - <sup>b</sup> 2. Lit., _one indeed believes…but he who is infirm eats (only) herbs._
@@ -650,7 +650,7 @@ And I commend you to Phebe our sister—being a ministrant of the assembly that 
 <sup>2</sup> that ye may receive her in the Lord, as doth become saints, and may assist her in whatever matter she may have need of you—for she also became a leader of many, and of myself.
 
 <sup>3</sup> Salute Priscilla and Aquilas, my fellow-workmen in Christ Jesus—
-<sup>4</sup> who for my life their own neck did lay down<sup>b</sup>, to whom not only I give thanks, but also all the assemblies of the nations—
+<sup>4</sup> who for my life their own neck did lay down,<sup>b</sup> to whom not only I give thanks, but also all the assemblies of the nations—
 <sup>5</sup> and the assembly at their house; salute Epaenetus, my beloved, who is first-fruit of Achaia to Christ.
 <sup>6</sup> Salute Mary, who did labour much for us;
 <sup>7</sup> salute Andronicus and Junias, my kindred, and my fellow-captives, who are of note among the apostles, who also have been in Christ before me.

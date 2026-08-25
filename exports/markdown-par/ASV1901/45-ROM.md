@@ -675,7 +675,7 @@
 <sup>18</sup> For he that herein serveth Christ is well-pleasing to God, and approved of men.
 <sup>19</sup> So then <sup>e</sup>let us follow after things which make for peace, and things whereby we may edify one another.
 <sup>20</sup> Overthrow not for meat’s sake the work of God. All things indeed are clean; howbeit it is evil for that man who eateth with offence.
-<sup>21</sup> It is good not to eat flesh, nor to drink wine, nor _to do anything_ whereby thy brother stumbleth<sup>f</sup>.
+<sup>21</sup> It is good not to eat flesh, nor to drink wine, nor _to do anything_ whereby thy brother stumbleth.<sup>f</sup>
 <sup>22</sup> The faith which thou hast, have thou to thyself before God. Happy is he that judgeth not himself in that which he <sup>g</sup>approveth.
 <sup>23</sup> But he that doubteth is condemned if he eat, because _he eateth_ not of faith; and whatsoever is not of faith is sin.<sup>h</sup>
 

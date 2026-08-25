@@ -131,7 +131,7 @@ This thing pleased the king; and he did so.
 <sup>29</sup> And queen Esther took refuge in the Lord, being taken as it were in the agony of death.
 <sup>30</sup> Having taken off her glorious apparel, she put on garments of distress and mourning. Instead of grand perfumes she filled her head with ashes and dung. She greatly humbled her body, and she filled every place of her glad adorning with her tangled hair.
 <sup>31</sup> She implored the Lord God of Israel, and said, “O my Lord, you alone are our king. Help me. I am destitute, and have no helper but you,
-<sup>32</sup> for my danger is near at hand<sup>b</sup>.
+<sup>32</sup> for my danger is near at hand.<sup>b</sup>
 <sup>33</sup> I have heard from my birth in the tribe of my kindred that you, Lord, took Israel out of all the nations, and our fathers out of all their kindred for a perpetual inheritance, and have done for them all that you have said.
 <sup>34</sup> And now we have sinned before you, and you have delivered us into the hands of our enemies,
 <sup>35</sup> because we honored their gods. You are righteous, O Lord.

@@ -453,7 +453,7 @@
 
 <sup>6</sup> The wolf also shall dwell with the lamb, and the leopard shall lie down with the kid; and the calf and the young lion and the fatling together; and a little child shall lead them.
 <sup>7</sup> And the cow and the bear shall feed; their young ones shall lie down together: and the lion shall eat straw like the ox.
-<sup>8</sup> And the sucking child shall play on the hole of the asp, and the weaned child shall put his hand on the cockatrice<sup>c</sup>’ den.
+<sup>8</sup> And the sucking child shall play on the hole of the asp, and the weaned child shall put his hand on the cockatrice’<sup>c</sup> den.
 <sup>9</sup> They shall not hurt nor destroy in all my holy mountain: for the earth shall be full of the knowledge of the LORD, as the waters cover the sea.
 
 <sup>10</sup> And in that day there shall be a root of Jesse, which shall stand for an ensign of the people; to it shall the Gentiles seek: and his rest shall be glorious.<sup>d</sup>
@@ -1342,7 +1342,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 ### The Assyrian Threat
 
 <sup>4</sup> And Rabshakeh said unto them, Say ye now to Hezekiah, Thus saith the great king, the king of Assyria, What confidence _is_ this wherein thou trustest?
-<sup>5</sup> I say, _sayest thou_, (but _they are but_ vain words<sup>b</sup>) _I have_ counsel and strength for war: now on whom dost thou trust, that thou rebellest against me?
+<sup>5</sup> I say, _sayest thou_, (but _they are but_ vain words)<sup>b</sup> _I have_ counsel and strength for war: now on whom dost thou trust, that thou rebellest against me?
 <sup>6</sup> Lo, thou trustest in the staff of this broken reed, on Egypt; whereon if a man lean, it will go into his hand, and pierce it: so _is_ Pharaoh king of Egypt to all that trust in him.
 <sup>7</sup> But if thou say to me, We trust in the LORD our God: _is it_ not he, whose high places and whose altars Hezekiah hath taken away, and said to Judah and to Jerusalem, Ye shall worship before this altar?
 <sup>8</sup> Now therefore give pledges,<sup>c</sup> I pray thee, to my master the king of Assyria, and I will give thee two thousand horses, if thou be able on thy part to set riders upon them.
@@ -2184,7 +2184,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 <sup>2</sup> but your iniquities have separated between you and your God, and your sins have hid<sup>a</sup> _his_ face from you, that he will not hear.
 <sup>3</sup> For your hands are defiled with blood, and your fingers with iniquity; your lips have spoken lies, your tongue hath muttered perverseness.
 <sup>4</sup> None calleth for justice, nor _any_ pleadeth for truth: they trust in vanity, and speak lies; they conceive mischief, and bring forth iniquity.
-<sup>5</sup> They hatch cockatrice<sup>b</sup>’ eggs, and weave the spider’s web: he that eateth of their eggs dieth, and that which is crushed breaketh out into a viper.<sup>c</sup>
+<sup>5</sup> They hatch cockatrice’<sup>b</sup> eggs, and weave the spider’s web: he that eateth of their eggs dieth, and that which is crushed breaketh out into a viper.<sup>c</sup>
 <sup>6</sup> Their webs shall not become garments, neither shall they cover themselves with their works: their works _are_ works of iniquity, and the act of violence _is_ in their hands.
 <sup>7</sup> Their feet run to evil, and they make haste to shed innocent blood: their thoughts _are_ thoughts of iniquity; wasting and destruction<sup>d</sup> _are_ in their paths.
 <sup>8</sup> The way of peace they know not; and _there is_ no judgment<sup>e</sup> in their goings: they have made them crooked paths: whosoever goeth therein shall not know peace.

@@ -63,7 +63,7 @@ They said to him, “Rabbi” (which is to say, being interpreted, Teacher), “
 
 They came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.<sup>h</sup>
 <sup>40</sup> One of the two who heard John and followed him was Andrew, Simon Peter’s brother.
-<sup>41</sup> He first found his own brother, Simon, and said to him, “We have found the Messiah!” (which is, being interpreted, Christ<sup>i</sup>).
+<sup>41</sup> He first found his own brother, Simon, and said to him, “We have found the Messiah!” (which is, being interpreted, Christ).<sup>i</sup>
 <sup>42</sup> He brought him to Jesus. Jesus looked at him and said, “You are Simon the son of Jonah. You shall be called Cephas” (which is by interpretation, Peter).<sup>j</sup>
 
 <sup>43</sup> On the next day, he was determined to go out into Galilee, and he found Philip. Jesus said to him, “Follow me.”

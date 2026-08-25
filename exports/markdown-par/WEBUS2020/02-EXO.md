@@ -1247,7 +1247,7 @@ Moses reported the words of the people to Yahweh.
 
 <sup>11</sup> Yahweh spoke to Moses, saying,
 <sup>12</sup> “When you take a census of the children of Israel, according to those who are counted among them, then each man shall give a ransom for his soul to Yahweh when you count them, that there be no plague among them when you count them.
-<sup>13</sup> They shall give this, everyone who passes over to those who are counted, half a shekel according to the shekel<sup>b</sup> of the sanctuary (the shekel is twenty gerahs<sup>c</sup>); half a shekel for an offering to Yahweh.
+<sup>13</sup> They shall give this, everyone who passes over to those who are counted, half a shekel according to the shekel<sup>b</sup> of the sanctuary (the shekel is twenty gerahs);<sup>c</sup> half a shekel for an offering to Yahweh.
 <sup>14</sup> Everyone who passes over to those who are counted, from twenty years old and upward, shall give the offering to Yahweh.
 <sup>15</sup> The rich shall not give more, and the poor shall not give less, than the half shekel,<sup>d</sup> when they give the offering of Yahweh, to make atonement for your souls.
 <sup>16</sup> You shall take the atonement money from the children of Israel, and shall appoint it for the service of the Tent of Meeting; that it may be a memorial for the children of Israel before Yahweh, to make atonement for your souls.”

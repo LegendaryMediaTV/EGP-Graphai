@@ -79,7 +79,7 @@
 <sup>14</sup> that the blessing of Abraham might come on the Gentiles through Christ Jesus, that we might receive the promise of the Spirit through faith.
 
 <sup>15</sup> Brothers, speaking of human terms, though it is only a man’s covenant, yet when it has been confirmed, no one makes it void or adds to it.
-<sup>16</sup> Now the promises were spoken to Abraham and to his offspring.<sup>g</sup> He doesn’t say, “To descendants<sup>h</sup>”, as of many, but as of one, “To your offspring”,<sup>i</sup> which is Christ.
+<sup>16</sup> Now the promises were spoken to Abraham and to his offspring.<sup>g</sup> He doesn’t say, “To descendants”,<sup>h</sup> as of many, but as of one, “To your offspring”,<sup>i</sup> which is Christ.
 <sup>17</sup> Now I say this: A covenant confirmed beforehand by God in Christ, the law, which came four hundred thirty years after, does not annul, so as to make the promise of no effect.
 <sup>18</sup> For if the inheritance is of the law, it is no more of promise; but God has granted it to Abraham by promise.
 

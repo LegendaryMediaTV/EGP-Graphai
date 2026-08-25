@@ -204,16 +204,16 @@ Worthy is the Lamb that hath been slain to receive the power, and riches, and wi
 
 ## Chapter 6
 
-<sup>1</sup> And I saw when the Lamb opened one of the seven seals, and I heard one of the four living creatures saying as with a voice of thunder, Come<sup>a</sup>.
+<sup>1</sup> And I saw when the Lamb opened one of the seven seals, and I heard one of the four living creatures saying as with a voice of thunder, Come.<sup>a</sup>
 <sup>2</sup> And I saw, and behold, a white horse, and he that sat thereon had a bow; and there was given unto him a crown: and he came forth conquering, and to conquer.
 
-<sup>3</sup> And when he opened the second seal, I heard the second living creature saying, Come<sup>b</sup>.
+<sup>3</sup> And when he opened the second seal, I heard the second living creature saying, Come.<sup>b</sup>
 <sup>4</sup> And another _horse_ came forth, a red horse: and to him that sat thereon it was given to take <sup>c</sup>peace from the earth, and that they should slay one another: and there was given unto him a great sword.
 
 <sup>5</sup> And when he opened the third seal, I heard the third living creature saying, Come. <sup>d</sup>And I saw, and behold, a black horse; and he that sat thereon had a balance in his hand.
 <sup>6</sup> And I heard as it were a voice in the midst of the four living creatures saying, <sup>e</sup>A measure of wheat for a <sup>f</sup>shilling, and three measures of barley for a <sup>g</sup>shilling; and the oil and the wine hurt thou not.
 
-<sup>7</sup> And when he opened the fourth seal, I heard the voice of the fourth living creature saying, Come<sup>h</sup>.
+<sup>7</sup> And when he opened the fourth seal, I heard the voice of the fourth living creature saying, Come.<sup>h</sup>
 <sup>8</sup> And I saw, and behold, a pale horse: and he that sat upon him, his name was Death; and Hades followed with him. And there was given unto them authority over the fourth part of the earth, to kill with sword, and with famine, and with <sup>i</sup>death, and by the wild beasts of the earth.
 
 <sup>9</sup> And when he opened the fifth seal, I saw underneath the altar the souls of them that had been slain for the word of God, and for the testimony which they held:

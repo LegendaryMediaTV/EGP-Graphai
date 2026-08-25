@@ -50,7 +50,7 @@
 import Content from "../../types/Content";
 import Footnote from "../../types/Footnote";
 import { classifyFootnote, WITNESS_SIGLA_NAMES } from "./footnoteTypeRules";
-import { normalizeFractionText } from "./fractions";
+import { normalizeFractionText } from "../../functions/normalizeFractions";
 import { buildRunNodes, collapseContentNodes, InlineTextPiece } from "./inlineMarks";
 import { buildReferenceOnlyContent, linkEmbeddedReferences } from "./references";
 import { splitScriptRuns } from "./splitScriptRuns";
@@ -225,7 +225,7 @@ export function buildFootnoteContent(
         // becomes part of the footnote's own text representation — the
         // same normalized string then feeds both `classificationText`
         // (`plainText`, below) and `pieces` (the displayed `content`), so
-        // neither can drift from the other. See `utils/usfm/fractions.ts`.
+        // neither can drift from the other. See `functions/normalizeFractions.ts`.
         const text = normalizeFractionText(token.text).value;
         classificationText += text;
         // `\bk`'s own italic mark applies independently of which
@@ -299,22 +299,19 @@ export interface IntroParagraphFootnoteResult {
  * itself).
  *
  * `\ip` is unpaired (no `\ip*`) and, like `\d`/`\sp`/`\s1`, its own span
- * ends at the next marker of any kind. Unlike those constructs, though, a
- * real `\ip` block carries none of `\f`'s own `\fr`/`\ft`/`\fq`/`\fqa`
- * sub-marker grammar — every one of the 16 real in-scope instances is bare
- * prose, most wrapping a `\bk` book-title citation (Tobit's own "Tobit," 17
- * real spans across 13 deuterocanon books corpus-wide — not
- * `43-ESGeng-web.usfm`, this doc comment's own earlier claim: the real,
- * current raw source carries no `\bk` there at all, confirmed directly
- * rather than assumed when Finding 6 landed) — so `buildFootnoteContent`'s
- * own sub-marker-aware walk has nothing to set `currentSubMarker` from and
- * would keep none of a real `\ip` block's own text. Rather than fork a
- * second, parallel body-builder, this function finds the block's own real
- * boundary itself, then wraps that exact token range in a synthetic `\ft`
- * marker and a synthetic `\f*` close and hands the whole thing to
- * `buildFootnoteContent` unmodified — literal reuse of its own body-building
- * and classification logic, including its own `\bk`-inside-a-kept-sub-marker
- * handling (Finding 6), rather than a second copy of it here.
+ * ends at the next marker of any kind. Unlike those constructs, a real `\ip`
+ * block carries none of `\f`'s own `\fr`/`\ft`/`\fq`/`\fqa` sub-marker
+ * grammar — every one of the 16 real in-scope instances is bare prose, most
+ * wrapping a `\bk` book-title citation (17 real spans across 13
+ * deuterocanon books corpus-wide) — so `buildFootnoteContent`'s own
+ * sub-marker-aware walk has nothing to set `currentSubMarker` from and would
+ * keep none of a real `\ip` block's own text. Rather than fork a second,
+ * parallel body-builder, this function finds the block's own real boundary
+ * itself, then wraps that exact token range in a synthetic `\ft` marker and
+ * a synthetic `\f*` close and hands the whole thing to `buildFootnoteContent`
+ * unmodified — literal reuse of its own body-building and classification
+ * logic, including its own `\bk`-inside-a-kept-sub-marker handling
+ * (Finding 6), rather than a second copy of it here.
  */
 export function buildIntroParagraphFootnote(
   tokens: readonly Token[],

@@ -42,7 +42,7 @@
 
 <sup>32</sup> And at even, when the sun did set, they brought unto him all that were sick, and them that were <sup>q</sup>possessed with demons.
 <sup>33</sup> And all the city was gathered together at the door.
-<sup>34</sup> And he healed many that were sick with divers diseases, and cast out many demons; and he suffered not the demons to speak, because they knew him<sup>r</sup>.
+<sup>34</sup> And he healed many that were sick with divers diseases, and cast out many demons; and he suffered not the demons to speak, because they knew him.<sup>r</sup>
 
 <sup>35</sup> And in the morning, a great while before day, he rose up and went out, and departed into a desert place, and there prayed.
 <sup>36</sup> And Simon and they that were with him followed after him;
@@ -403,7 +403,7 @@ And he went round about the villages teaching.
 <sup>1</sup> And there are gathered together unto him the Pharisees, and certain of the scribes, who had come from Jerusalem,
 <sup>2</sup> and had seen that some of his disciples ate their bread with <sup>a</sup>defiled, that is, unwashen, hands.
 <sup>3</sup> (For the Pharisees, and all the Jews, except they wash their hands <sup>b</sup>diligently, eat not, holding the tradition of the elders;
-<sup>4</sup> and _when they come_ from the marketplace, except they <sup>c</sup>bathe themselves, they eat not; and many other things there are, which they have received to hold, <sup>d</sup>washings of cups, and pots, and brasen vessels<sup>e</sup>.)
+<sup>4</sup> and _when they come_ from the marketplace, except they <sup>c</sup>bathe themselves, they eat not; and many other things there are, which they have received to hold, <sup>d</sup>washings of cups, and pots, and brasen vessels.)<sup>e</sup>
 <sup>5</sup> And the Pharisees and the scribes ask him, Why walk not thy disciples according to the tradition of the elders, but eat their bread with <sup>f</sup>defiled hands?
 <sup>6</sup> And he said unto them, Well did Isaiah prophesy of you hypocrites, as it is written,<sup>g</sup><br>This people honoreth me with their lips,<br>But their heart is far from me.<br>
 <sup>7</sup> But in vain do they worship me,<br>Teaching _as their_ doctrines the precepts of men.<br>
@@ -542,7 +542,7 @@ And he went round about the villages teaching.
 <sup>26</sup> And having cried out, and <sup>g</sup>torn him much, he came out: and _the boy_ became as one dead; insomuch that the more part said, He is dead.
 <sup>27</sup> But Jesus took him by the hand, and raised him up; and he arose.
 <sup>28</sup> And when he was come into the house, his disciples asked him privately, <sup>h</sup>_How is it_ that we could not cast it out?
-<sup>29</sup> And he said unto them, This kind can come out by nothing, save by prayer<sup>i</sup>.
+<sup>29</sup> And he said unto them, This kind can come out by nothing, save by prayer.<sup>i</sup>
 
 <sup>30</sup> And they went forth from thence, and passed through Galilee; and he would not that any man should know it.
 <sup>31</sup> For he taught his disciples, and said unto them, The Son of man is <sup>j</sup>delivered up into the hands of men, and they shall kill him; and when he is killed, after three days he shall rise again.
@@ -564,7 +564,7 @@ And he went round about the villages teaching.
 <sup>45</sup> And if thy foot cause thee to stumble, cut it off: it is good for thee to enter into life halt, rather than having thy two feet to be cast into <sup>s</sup>hell.
 <sup>47</sup> And if thine eye cause thee to stumble, cast it out: it is good for thee to enter into the kingdom of God with one eye, rather than having two eyes to be cast into <sup>t</sup>hell;
 <sup>48</sup> where their worm dieth not, and the fire is not quenched.
-<sup>49</sup> For every one shall be salted with fire<sup>u</sup>.
+<sup>49</sup> For every one shall be salted with fire.<sup>u</sup>
 <sup>50</sup> Salt is good: but if the salt have lost its saltness, wherewith will ye season it? Have salt in yourselves, and be at peace one with another.
 
 > - <sup>a</sup> 2. Or, _Jacob_

@@ -104,6 +104,12 @@ npx ts-node utils/fixUnmergedNodes.ts YLT1898 --fix
 # Fix headings/subtitles missing their paragraph flag (audit-nodes check 6); add --fix to write
 npx ts-node utils/fixHeadingParagraphs.ts WEBUS2020 --fix
 
+# Fix footnote markers rendering before punctuation (audit-nodes check 8); add --fix to write
+npx ts-node utils/fixFootnotePunctuationOrder.ts YLT1898 --fix
+
+# Fix mark-boundary embedded spaces (audit-nodes check 9); add --fix to write
+npx ts-node utils/fixMarkBoundaryEmbeddedSpaces.ts WEBUS2020 --fix
+
 # Run tests
 npm run test
 

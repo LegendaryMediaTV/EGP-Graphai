@@ -31,7 +31,7 @@
 
 <sup>26</sup> Now in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth,
 <sup>27</sup> to a virgin betrothed to a man whose name was Joseph, of the house of David; and the virgin’s name was Mary.
-<sup>28</sup> And he came in unto her, and said, Hail, thou that art <sup>l</sup>highly favored, the Lord _is_ with thee<sup>m</sup>.
+<sup>28</sup> And he came in unto her, and said, Hail, thou that art <sup>l</sup>highly favored, the Lord _is_ with thee.<sup>m</sup>
 <sup>29</sup> But she was greatly troubled at the saying, and cast in her mind what manner of salutation this might be.
 <sup>30</sup> And the angel said unto her, Fear not, Mary: for thou hast found <sup>n</sup>favor with God.
 <sup>31</sup> And behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS.
@@ -702,8 +702,8 @@ But while all were marvelling at all the things which he did, he said unto his d
 <sup>51</sup> And it came to pass, when the days <sup>q</sup>were well-nigh come that he should be received up, he stedfastly set his face to go to Jerusalem,
 <sup>52</sup> and sent messengers before his face: and they went, and entered into a village of the Samaritans, to make ready for him.
 <sup>53</sup> And they did not receive him, because his face was _as though he were_ going to Jerusalem.
-<sup>54</sup> And when his disciples James and John saw _this_, they said, Lord, wilt thou that we bid fire to come down from heaven, and consume them<sup>r</sup>?
-<sup>55</sup> But he turned, and rebuked them<sup>s</sup>.
+<sup>54</sup> And when his disciples James and John saw _this_, they said, Lord, wilt thou that we bid fire to come down from heaven, and consume them?<sup>r</sup>
+<sup>55</sup> But he turned, and rebuked them.<sup>s</sup>
 <sup>56</sup> And they went to another village.
 
 <sup>57</sup> And as they went on the way, a certain man said unto him, I will follow thee whithersoever thou goest.
@@ -803,7 +803,7 @@ But while all were marvelling at all the things which he did, he said unto his d
 <sup>1</sup> And it came to pass, as he was praying in a certain place, that when he ceased, one of his disciples said unto him, Lord, teach us to pray, even as John also taught his disciples.
 <sup>2</sup> And he said unto them, When ye pray, say, <sup>a</sup>Father, Hallowed be thy name. Thy kingdom come.<sup>b</sup>
 <sup>3</sup> Give us day by day <sup>c</sup>our daily bread.
-<sup>4</sup> And forgive us our sins; for we ourselves also forgive every one that is indebted to us. And bring us not into temptation<sup>d</sup>.
+<sup>4</sup> And forgive us our sins; for we ourselves also forgive every one that is indebted to us. And bring us not into temptation.<sup>d</sup>
 
 <sup>5</sup> And he said unto them, Which of you shall have a friend, and shall go unto him at midnight, and say to him, Friend, lend me three loaves;
 <sup>6</sup> for a friend of mine is come to me from a journey, and I have nothing to set before him;
@@ -1118,7 +1118,7 @@ But while all were marvelling at all the things which he did, he said unto his d
 <sup>18</sup> I will arise and go to my father, and will say unto him, Father, I have sinned against heaven, and in thy sight:
 <sup>19</sup> I am no more worthy to be called thy son: make me as one of thy hired servants.
 <sup>20</sup> And he arose, and came to his father. But while he was yet afar off, his father saw him, and was moved with compassion, and ran, and fell on his neck, and <sup>f</sup>kissed him.
-<sup>21</sup> And the son said unto him, Father, I have sinned against heaven, and in thy sight: I am no more worthy to be called thy son<sup>g</sup>.
+<sup>21</sup> And the son said unto him, Father, I have sinned against heaven, and in thy sight: I am no more worthy to be called thy son.<sup>g</sup>
 <sup>22</sup> But the father said to his <sup>h</sup>servants, Bring forth quickly the best robe, and put it on him; and put a ring on his hand, and shoes on his feet:
 <sup>23</sup> and bring the fatted calf, _and_ kill it, and let us eat, and make merry:
 <sup>24</sup> for this my son was dead, and is alive again; he was lost, and is found. And they began to be merry.
@@ -1754,7 +1754,7 @@ And on the sabbath they rested according to the commandment.
 <sup>39</sup> See my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye behold me having.
 <sup>40</sup> <sup>l</sup>And when he had said this, he showed them his hands and his feet.
 <sup>41</sup> And while they still disbelieved for joy, and wondered, he said unto them, Have ye here anything to eat?
-<sup>42</sup> And they gave him a piece of a broiled fish<sup>m</sup>.
+<sup>42</sup> And they gave him a piece of a broiled fish.<sup>m</sup>
 <sup>43</sup> And he took it, and ate before them.
 
 <sup>44</sup> And he said unto them, These are my words which I spake unto you, while I was yet with you, that all things must needs be fulfilled, which are written in the law of Moses, and the prophets, and the psalms, concerning me.

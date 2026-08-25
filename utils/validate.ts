@@ -11,6 +11,7 @@ import {
   writeJsonFile,
 } from "../functions/writeJsonFile";
 import Content, { ContentBibleLink } from "../types/Content";
+import { normalizeFractionsInContent } from "../functions/normalizeFractions";
 import BibleVersion from "../types/Version";
 import { findCrossChapterLinks } from "./crossChapterLinks";
 import { formatCrossChapterFinding } from "./auditCrossChapterLinks";
@@ -20,13 +21,17 @@ import {
   printFindingLines as printNodeConventionFindings,
 } from "./auditNodes";
 
+/** Path to the bible-books registry JSON file. */
 const jsonPath = "./bible-books/bible-books.json";
+/** Path to the JSON Schema `jsonPath` is validated against. */
 const schemaPath = "./bible-books/bible-books-schema.json";
+/** Path to the JSON Schema each version's own `_version.json` is validated against. */
 const versionsSchemaPath = "./bible-versions/bible-versions-schema.json";
+/** Root directory holding one subfolder per Bible version. */
 const bibleVersionsDir = "./bible-versions";
 
 /**
- * Check if a file is a Bible verse file (not _version.json or schema)
+ * Check if a file is a Bible verse file (not _version.json or schema).
  */
 function isVerseFile(filePath: string): boolean {
   const basename = path.basename(filePath);
@@ -99,6 +104,36 @@ async function normalizeBibleLinkDashesInFile(filePath: string): Promise<boolean
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
     const rewritten = normalizeBibleLinkDashesInContent(verse.content as Content);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return { ...verse, content: rewritten.content };
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+    return true;
+  }
+  return false;
+}
+
+/**
+ * Normalize every un-normalized fraction in one verse file and write it back
+ * if anything changed.
+ *
+ * Uses {@link normalizeFractionsInContent}'s own per-verse `changed` flag
+ * directly, the same pattern {@link normalizeBibleLinkDashesInFile} uses.
+ * No `sortVerseKeys` call is needed here: `sortVerseFileKeys` already ran as
+ * the first auto-fix step, and this step, like the bibleLink one before it,
+ * only ever mutates an existing `text` string's value in place — it never
+ * adds, removes, or reorders keys.
+ */
+async function normalizeFractionsInFile(filePath: string): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = normalizeFractionsInContent(verse.content as Content);
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return { ...verse, content: rewritten.content };
@@ -402,14 +437,14 @@ export function normalizeBibleLinkDashesInContent(
 /**
  * Validates (and normalizes) one version, or every version when none is
  * requested: sorts verse keys, formats JSON files, normalizes `bibleLink`
- * dashes, then checks bible-books, each version's `_version.json`, book
- * ordering, and every verse file's schema and content. Exits non-zero on
- * the first validation phase that fails.
+ * dashes, normalizes fractions, then checks bible-books, each version's
+ * `_version.json`, book ordering, and every verse file's schema and
+ * content. Exits non-zero on the first validation phase that fails.
  *
  * The schema/structure phases are hierarchical — each assumes the earlier
  * ones held, so a failure exits immediately. The two corpus-wide audits
  * that run last (`crossChapterLinks.ts` and `auditNodes.ts`, including its
- * fraction-normalization check) have no such dependency on each other, so
+ * un-normalized-fraction check) have no such dependency on each other, so
  * both always run to completion before `main` exits non-zero — a version
  * failing one still gets audited by the other in the same pass, rather than
  * needing a second `validate` run to find out.
@@ -483,6 +518,26 @@ async function main(requestedVersion?: string) {
     console.log(`\n✅ Normalized bibleLink dashes in ${dashNormalizedCount} file(s)\n`);
   } else {
     console.log("✅ All bibleLink dashes already normalized\n");
+  }
+
+  console.log("➗ Normalizing fractions...\n");
+
+  let fractionsNormalizedCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasNormalized = await normalizeFractionsInFile(file);
+      if (wasNormalized) {
+        fractionsNormalizedCount++;
+        console.log(`  🔄 Normalized fractions: ${file}`);
+      }
+    }
+  }
+
+  if (fractionsNormalizedCount > 0) {
+    console.log(`\n✅ Normalized fractions in ${fractionsNormalizedCount} file(s)\n`);
+  } else {
+    console.log("✅ All fractions already normalized\n");
   }
 
   const result = validateJsonAgainstSchema(schemaPath, jsonPath);
@@ -642,7 +697,8 @@ async function main(requestedVersion?: string) {
   // Create version map for book list validation
   const versionMap = new Map(versions.map((v) => [v._id, v]));
 
-  // Load and compile the verse schema once
+  // Load all three schemas and compile the verse validator once, so it
+  // isn't recompiled per version in the loop below
   const verseSchemaContent = fs.readFileSync(verseSchemaPath, "utf-8");
   const verseSchema = JSON.parse(verseSchemaContent);
   const bookSchemaContent = fs.readFileSync(schemaPath, "utf-8");
@@ -777,7 +833,7 @@ async function main(requestedVersion?: string) {
     crossChapterLinksPassed = false;
   }
 
-  // Node-placement and content-convention audit: the seven checks
+  // Node-placement and content-convention audit: the nine checks
   // auditNodes.ts owns. Also report-only here.
   console.log("\n🧩 Auditing node-placement and content conventions...");
   let nodeConventionsPassed = true;

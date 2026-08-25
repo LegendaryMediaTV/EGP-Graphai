@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { uniformFraction } from "../fractions";
+import { uniformFraction } from "../../../functions/normalizeFractions";
 import { segmentVerses, VerseBlock } from "../segmentVerses";
 import { readFixture } from "./fixtures";
 
@@ -475,19 +475,14 @@ describe("segmentVerses — Psalm 41:11-42:2 (Finding 7's own \\ms1-adjacent sha
 describe("segmentVerses — Psalm 1 into Psalm 2 (corrected by Finding 7: this chapter boundary gets the same clean-cut, chapter-paragraph-start convention as every other one, not the \"same rule, two sides\" cross-chapter reach this describe block used to assert)", () => {
   const records = segmentVerses(readFixture("psalm-1-2-boundary.usfm"), "PSA");
 
-  // These two tests used to assert the opposite: that Psalm 2's own
-  // opening bare \q1 reaches backward across the chapter boundary to mark
-  // Psalm 1:6 break: true, leaving Psalm 2:1 itself unflagged —
-  // cited against bible-versions/ASV1901/19-PSA.json's own Psalm 22/23
-  // boundary as precedent. Checked against WEBUS2020's real upstream HEAD
-  // (git show HEAD:bible-versions/WEBUS2020/19-PSA.json), that precedent
-  // turns out to be the same bug Finding 7 fixes, not the real convention:
-  // HEAD leaves Psalm 1:6 clean and gives Psalm 2:1 paragraph: true, the
-  // identical shape as every other \b-less chapter boundary Finding 7
-  // covers (Deuteronomy 31:30→32:1, Psalm 90:17→91:1, the four \ms1
-  // book-division boundaries). ASV1901's own shipped file predates
-  // Finding 7's fix and was never reimported, so its own analogous
-  // boundary is stale, not evidence of a second real convention.
+  // WEBUS2020's real upstream HEAD (git show
+  // HEAD:bible-versions/WEBUS2020/19-PSA.json) leaves Psalm 1:6 clean and
+  // gives Psalm 2:1 paragraph: true — the same \b-less chapter-boundary
+  // shape as every other case Finding 7 covers (Deuteronomy 31:30→32:1,
+  // Psalm 90:17→91:1, the four \ms1 book-division boundaries). ASV1901's own
+  // shipped file has an analogous boundary (Psalm 22/23) that reaches
+  // backward instead, but that file predates Finding 7's fix and was never
+  // reimported — it's stale, not evidence of a second real convention.
   it("should leave Psalm 1:6's own last block clean, with no break: true reach-back from Psalm 2's own opening \\q1 — matching WEBUS2020's own real upstream HEAD", () => {
     const blocks =
       records.find((record) => record.chapter === 1 && record.verse === 6)?.blocks ?? [];
@@ -1382,7 +1377,7 @@ describe("segmentVerses — MSB2025's real Acts 8:37 (\\v 37 with nothing at all
 });
 
 /**
- * `normalizeFractionText` (`utils/usfm/fractions.ts`) is wired into this
+ * `normalizeFractionText` (`functions/normalizeFractions.ts`) is wired into this
  * file's own per-token `text` handling too (the same fix already proven
  * from the footnote side in `footnotes.test.ts`), so a raw fraction
  * converts regardless of which of the two real ingestion points first

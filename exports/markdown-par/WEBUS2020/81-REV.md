@@ -11,11 +11,11 @@
 
 <sup>7</sup> Behold,<sup>d</sup> he is coming with the clouds, and every eye will see him, including those who pierced him. All the tribes of the earth will mourn over him. Even so, Amen.
 
-<sup>8</sup> “I am the Alpha and the Omega,<sup>e</sup>” says the Lord God,<sup>f</sup> “who is and who was and who is to come, the Almighty.”
+<sup>8</sup> “I am the Alpha and the Omega,”<sup>e</sup> says the Lord God, <sup>f</sup>“who is and who was and who is to come, the Almighty.”
 
 <sup>9</sup> I John, your brother and partner with you in the oppression, Kingdom, and perseverance in Christ Jesus, was on the isle that is called Patmos because of God’s Word and the testimony of Jesus Christ.
 <sup>10</sup> I was in the Spirit on the Lord’s day, and I heard behind me a loud voice, like a trumpet
-<sup>11</sup> saying,<sup>g</sup> “What you see, write in a book and send to the seven assemblies:<sup>h</sup> to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and to Laodicea.”
+<sup>11</sup> saying, <sup>g</sup>“What you see, write in a book and send to the seven assemblies:<sup>h</sup> to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and to Laodicea.”
 
 <sup>12</sup> I turned to see the voice that spoke with me. Having turned, I saw seven golden lamp stands.
 <sup>13</sup> And among the lamp stands was one like a son of man,<sup>i</sup> clothed with a robe reaching down to his feet, and with a golden sash around his chest.

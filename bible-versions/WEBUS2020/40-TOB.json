@@ -30,8 +30,8 @@
           "type": "stu",
           "content": [
             "That is, ",
-            { "text": "Shalmaneser. ", "marks": ["i"] },
-            "Compare ",
+            { "text": "Shalmaneser.", "marks": ["i"] },
+            " Compare ",
             { "bibleLink": "2 Kings 17:3, 23" },
             "."
           ]
@@ -196,8 +196,8 @@
           "type": "stu",
           "content": [
             "That is, ",
-            { "text": "Esar-haddon, ", "marks": ["i"] },
-            "and so in verse 22."
+            { "text": "Esar-haddon,", "marks": ["i"] },
+            " and so in verse 22."
           ]
         }
       },
@@ -332,7 +332,7 @@
       },
       {
         "paragraph": true,
-        "text": "But she answered and said to me, “Where are your alms and your righteous deeds? Behold, you and all your works are known.",
+        "text": "But she answered and said to me, “Where are your alms and your righteous deeds? Behold, you and all your works are known.”",
         "foot": {
           "type": "trn",
           "content": [
@@ -340,8 +340,7 @@
             { "text": "all things are known with you.", "marks": ["i"] }
           ]
         }
-      },
-      "”"
+      }
     ]
   },
   {
@@ -422,13 +421,12 @@
     "verse": 10,
     "content": [
       {
-        "text": "When she heard these things, she was grieved exceedingly, so that she thought about hanging herself. Then she said, “I am the only daughter of my father. If I do this, it will be a reproach to him, and I will bring down his old age with sorrow to the grave.",
+        "text": "When she heard these things, she was grieved exceedingly, so that she thought about hanging herself. Then she said, “I am the only daughter of my father. If I do this, it will be a reproach to him, and I will bring down his old age with sorrow to the grave.”",
         "foot": {
           "type": "trn",
           "content": ["Gr. ", { "text": "Hades.", "marks": ["i"] }]
         }
-      },
-      "”"
+      }
     ]
   },
   {
@@ -476,13 +474,13 @@
     "verse": 17,
     "content": [
       {
-        "text": "Raphael also was sent to heal them both, to scale away the white films from Tobit’s eyes, and to give Sarah the daughter of Raguel for a wife to Tobias the son of Tobit; and to bind Asmodaeus the evil spirit",
+        "text": "Raphael also was sent to heal them both, to scale away the white films from Tobit’s eyes, and to give Sarah the daughter of Raguel for a wife to Tobias the son of Tobit; and to bind Asmodaeus the evil spirit;",
         "foot": {
           "type": "trn",
           "content": ["Gr. ", { "text": "demon.", "marks": ["i"] }]
         }
       },
-      "; because it belonged to Tobias that he should inherit her. At that very time, Tobit returned and entered into his house, and Sarah the daughter of Raguel came down from her upper chamber."
+      " because it belonged to Tobias that he should inherit her. At that very time, Tobit returned and entered into his house, and Sarah the daughter of Raguel came down from her upper chamber."
     ]
   },
   {

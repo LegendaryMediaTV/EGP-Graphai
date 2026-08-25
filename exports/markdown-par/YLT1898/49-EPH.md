@@ -106,7 +106,7 @@
 <sup>5</sup> one Lord, one faith, one baptism,
 <sup>6</sup> one God and Father of all, who _is_ over all, and through all, and in you all,
 <sup>7</sup> and to each one of you was given the grace, according to the measure of the gift of Christ,
-<sup>8</sup> wherefore, he saith, “Having gone up on high he led captive captivity<sup>b</sup>, and gave gifts to men,”—<br>
+<sup>8</sup> wherefore, he saith, “Having gone up on high he led captive captivity,<sup>b</sup> and gave gifts to men,”—<br>
 
 <sup>9</sup> and that, he went up, what is it except that he also went down first to the lower parts of the earth?
 <sup>10</sup> he who went down is the same also who went up far above all the heavens, that He may fill all things—
@@ -196,7 +196,7 @@
 
 <sup>5</sup> The servants! obey the masters according to the flesh with fear and trembling, in the simplicity of your heart, as to the Christ;
 <sup>6</sup> not with eye-service as men-pleasers, but as servants of the Christ, doing the will of God out of soul,
-<sup>7</sup> with good-will serving<sup>c</sup>, as to the Lord, and not to men,
+<sup>7</sup> with good-will serving,<sup>c</sup> as to the Lord, and not to men,
 <sup>8</sup> having known that whatever good thing each one may do, this he shall receive from the Lord, whether servant or freeman.
 <sup>9</sup> And the masters! the same things do ye unto them, letting threatening alone, having known that also your Master is in the heavens, and acceptance of persons is not with him.
 
@@ -207,7 +207,7 @@
 <sup>14</sup> Stand, therefore, having your loins girt about in truth, and having put on the breastplate of the righteousness,
 <sup>15</sup> and having the feet shod in the preparation of the good-news of the peace;
 <sup>16</sup> above all, having taken up the shield of the faith, in which ye shall be able all the fiery darts of the evil one to quench,
-<sup>17</sup> and the helmet of the salvation receive<sup>d</sup>, and the sword of the Spirit, which is the saying of God,
+<sup>17</sup> and the helmet of the salvation receive,<sup>d</sup> and the sword of the Spirit, which is the saying of God,
 <sup>18</sup> through all prayer and supplication praying at all times in the Spirit, and in regard to this same, watching in all perseverance and supplication for all the saints—
 <sup>19</sup> and in behalf of me, that to me may be given a word in the opening of my mouth, in freedom, to make known the secret of the good news,
 <sup>20</sup> for which I am an ambassador in a chain, that in it I may speak freely—as it behoveth me to speak.

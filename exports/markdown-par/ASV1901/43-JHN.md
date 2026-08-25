@@ -554,7 +554,7 @@ Now it was the sabbath on that day.
 <sup>56</sup> Your father Abraham rejoiced <sup>k</sup>to see my day; and he saw it, and was glad.
 <sup>57</sup> The Jews therefore said unto him, Thou art not yet fifty years old, and hast thou seen Abraham?
 <sup>58</sup> Jesus said unto them, Verily, verily, I say unto you, Before Abraham was born, I am.
-<sup>59</sup> They took up stones therefore to cast at him: but Jesus <sup>l</sup>hid himself, and went out of the temple<sup>m</sup>.
+<sup>59</sup> They took up stones therefore to cast at him: but Jesus <sup>l</sup>hid himself, and went out of the temple.<sup>m</sup>
 
 > - <sup>a</sup> 5. Lev. 20:10; Dt. 22:22f.
 > - <sup>b</sup> 17. Compare Dt. 19:15; 17:6.

@@ -120,10 +120,15 @@ function startsWithLetter(text: string): boolean {
 
 /**
  * A node carrying only a footnote of its own — no text, no Strong's number,
- * no nested content. The shape a *second* footnote on one word takes:
- * `content-schema.json` allows only one `foot` per node, so it rides as a
- * textless sibling immediately after the word it annotates rather than
- * living on that word's own node.
+ * no nested content. Two real corpus shapes take this form. The first is a
+ * *second* footnote on one word: `content-schema.json` allows only one
+ * `foot` per node, so it rides as a textless sibling immediately after the
+ * word it annotates rather than living on that word's own node. The second
+ * is a `{foot}` node that is the *sole* note on a phrase, sitting
+ * immediately before the phrase rather than trailing a second note after
+ * it — ASV1901 Matthew 1:23 opens its content array with exactly this: a
+ * lone footnote node ahead of the "Behold, the virgin..." text it
+ * annotates.
  */
 function isTextlessFootnoteSibling(item: Content): boolean {
   if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
@@ -162,7 +167,9 @@ function isMarkRunCandidate(item: Content): item is ContentObject | ContentNeste
  * affect emphasis wrapping, only whether the text is uppercased).
  */
 interface EmphasisState {
+  /** Whether "b" (bold) is currently open. */
   b: boolean;
+  /** Whether "i" (italic) is currently open. */
   i: boolean;
 }
 
@@ -235,20 +242,12 @@ function delimitersOf(wrapper: (text: string) => string): { open: string; close:
 
 /**
  * The close/open delimiters for moving the array branch's running "b"/"i"
- * open-state from `from` to `to` — closing only marks present in `from` but
- * absent from `to` (innermost first: "b" before "i", since bold nests inside
- * italic — see `wrapEmphasisMarks`'s own doc comment for that order), opening
- * only marks present in `to` but absent from `from` (outermost first: "i"
- * before "b"), and leaving a mark present in both completely alone (no
- * close/reopen). This is the whole fix for a real corpus shape: a
- * Scripture-quotation passage carrying almost every node as `["b","i"]`
- * except one or two nodes marked `["i"]` only (a supplied/implied word,
- * italicized as part of the continuous quotation but not bolded like the
- * rest of it). Comparing whole mark sets for exact equality sees those as a
- * full mismatch and closes/reopens *both* delimiters there; tracking "b" and
- * "i" independently keeps italic open continuously across the whole
- * quotation while bold alone toggles off and back on for just the supplied
- * word.
+ * open-state from `from` to `to` — closing marks present in `from` but not
+ * `to` (innermost first: "b" before "i", matching `wrapEmphasisMarks`'s own
+ * nesting order), opening marks present in `to` but not `from` (outermost
+ * first: "i" before "b"), and leaving a mark present in both untouched. See
+ * {@link EmphasisState} for why "b"/"i" must be tracked independently rather
+ * than compared as a whole set.
  */
 function emphasisTransition(
   from: EmphasisState,
@@ -272,19 +271,15 @@ function emphasisTransition(
  * kept apart rather than joined into a single string so that `renderContent`
  * (the array branch) can track adjacent same-marked nodes' own open "b"/"i"
  * state and emit a shared delimiter across several of them instead of one
- * pair per node — see `emphasisTransition`. `prefix` is the paragraph marker
- * when the node opens a new paragraph (rendered before its own text, so it
- * never falls inside the wrapper); `core` is the node's own text (or, for
- * `ContentNested`, its already-rendered nested content) before any "b"/"i"
- * wrapping is applied; `suffix` is everything that renders after the node's
- * own text and is never wrapped — footnote marker (+ inline body), Strong's
- * number, morph code, lemma, line break. A lone node (the overwhelming
- * majority) still renders as `prefix + wrap(core) + suffix`, identical to
- * before this split existed.
+ * pair per node — see `emphasisTransition`. A lone node still renders as
+ * `prefix + wrap(core) + suffix`.
  */
 interface RenderedParts {
+  /** The paragraph marker when the node opens a new paragraph — rendered before `core`, so it never falls inside the "b"/"i" wrapper. */
   prefix: string;
+  /** The node's own text (or, for `ContentNested`, its already-rendered nested content), before any "b"/"i" wrapping. */
   core: string;
+  /** Everything that renders after `core` and is never wrapped — footnote marker (+ inline body), Strong's number, morph code, lemma, line break. */
   suffix: string;
 }
 
@@ -294,12 +289,9 @@ interface RenderedParts {
  * sibling array elements as it goes. A second footnote on the same word
  * can't live on that word's own node (`content-schema.json` allows only one
  * `foot` per node — see `isTextlessFootnoteSibling`), so it rides as a
- * textless sibling immediately after; rendered in plain array order, that
- * sibling's own marker would land after this node's Strong's number purely
- * because it comes later in the array, not because that is where it
- * belongs (a real corpus case: a word carrying two footnotes).
- * Splicing every such sibling's own marker+body in before the number keeps
- * every footnote on a word reading before its Strong's number, never after.
+ * textless sibling immediately after; left in plain array order, that
+ * sibling's own marker would land after this node's Strong's number simply
+ * because it comes later in the array, not because that is where it belongs.
  * Returns the updated suffix and the true last array index consumed
  * (`startIndex` itself when there was nothing to splice).
  */
@@ -439,21 +431,17 @@ function renderContent(content: Content, ctx: RenderContext): string {
 
       // A tagged node's text can legitimately end mid-word-space — an attach
       // pass folds a leaf's trailing join-space backward into the tagged node
-      // when the following text is marked — leaving the *next* sibling
-      // without the leading space every other node in the array relies on,
-      // which fuses the words in the plain-text export ("darkness H2822was").
-      // Testing the next sibling's own rendered text rather than guessing
-      // from this item alone is what keeps the end of an array correct
-      // (nothing follows, so nothing needs separating) and leaves a textless
-      // footnote-only sibling alone: its render opens with "°", which must
-      // stay unspaced for °{...} to remain a clean search/replace target.
-      // Checked against `item` itself, never whatever sits at `content[index]`
-      // after splicing, since a trailing textless-footnote sibling consumed by
-      // `spliceTrailingFootnoteSiblings` never itself carries the
-      // Strong's/morph tag this check looks for (a real corpus case: a word
-      // carrying the tag plus two footnotes, one riding as a consumed
-      // textless sibling; the sibling slot spliced in after it carries no
-      // tag of its own).
+      // when the following text is marked, leaving the *next* sibling
+      // without its usual leading space and fusing words in the plain-text
+      // export ("darkness H2822was"). Testing the next sibling's own
+      // rendered text, rather than guessing from this item alone, keeps the
+      // end of an array correct and leaves a textless footnote-only sibling
+      // alone (its render opens with "°", which must stay unspaced for
+      // °{...} to remain a clean search/replace target). Checked against
+      // `item` itself, never `content[index]` after splicing, since a
+      // trailing textless-footnote sibling consumed by
+      // `spliceTrailingFootnoteSiblings` never carries the tag this check
+      // looks for.
       const next = content[index + 1];
       if (next !== undefined && endsWithUnseparatedTag(item, ctx) && startsWithLetter(renderContent(next, ctx))) {
         result += " ";

@@ -838,7 +838,7 @@
 <sup>21</sup> And all the men of his city shall stone him with stones, that he die: so shalt thou put evil away from among you; and all Israel shall hear, and fear.
 
 <sup>22</sup> And if a man have committed a sin worthy of death, and he be to be put to death, and thou hang him on a tree:
-<sup>23</sup> his body shall not remain all night upon the tree, but thou shalt in any wise bury him that day; (for he that is hanged _is_ accursed of God;<sup>e</sup>) that thy land be not defiled, which the LORD thy God giveth thee _for_ an inheritance.
+<sup>23</sup> his body shall not remain all night upon the tree, but thou shalt in any wise bury him that day; (for he that is hanged _is_ accursed of God;)<sup>e</sup> that thy land be not defiled, which the LORD thy God giveth thee _for_ an inheritance.
 
 > - <sup>a</sup> 5. Heb. _mouth_
 > - <sup>b</sup> 8. Heb. _in the midst_

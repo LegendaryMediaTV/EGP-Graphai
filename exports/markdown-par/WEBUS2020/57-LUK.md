@@ -865,7 +865,7 @@ Then Jesus said to him, “Go and do likewise.”
 <sup>4</sup> “I tell you, my friends, don’t be afraid of those who kill the body, and after that have no more that they can do.
 <sup>5</sup> But I will warn you whom you should fear. Fear him who after he has killed, has power to cast into Gehenna.<sup>a</sup> Yes, I tell you, fear him.
 
-<sup>6</sup> “Aren’t five sparrows sold for two assaria coins<sup>b</sup>? Not one of them is forgotten by God.
+<sup>6</sup> “Aren’t five sparrows sold for two assaria coins?<sup>b</sup> Not one of them is forgotten by God.
 <sup>7</sup> But the very hairs of your head are all counted. Therefore don’t be afraid. You are of more value than many sparrows.
 
 <sup>8</sup> “I tell you, everyone who confesses me before men, the Son of Man will also confess before the angels of God;
@@ -932,7 +932,7 @@ Then Jesus said to him, “Go and do likewise.”
 
 <sup>57</sup> “Why don’t you judge for yourselves what is right?
 <sup>58</sup> For when you are going with your adversary before the magistrate, try diligently on the way to be released from him, lest perhaps he drag you to the judge, and the judge deliver you to the officer, and the officer throw you into prison.
-<sup>59</sup> I tell you, you will by no means get out of there until you have paid the very last penny.<sup>e</sup>”
+<sup>59</sup> I tell you, you will by no means get out of there until you have paid the very last penny.”<sup>e</sup>
 
 > - <sup>a</sup> 5. or, Hell
 > - <sup>b</sup> 6. An assarion was a small copper coin worth about an hour’s wages for an agricultural laborer.
@@ -1034,7 +1034,7 @@ He took him, and healed him, and let him go.
 <sup>22</sup> “The servant said, ‘Lord, it is done as you commanded, and there is still room.’
 
 <sup>23</sup> “The lord said to the servant, ‘Go out into the highways and hedges, and compel them to come in, that my house may be filled.
-<sup>24</sup> For I tell you that none of those men who were invited will taste of my supper. For many are called, but few are chosen.<sup>b</sup>’”
+<sup>24</sup> For I tell you that none of those men who were invited will taste of my supper. For many are called, but few are chosen.’”<sup>b</sup>
 
 <sup>25</sup> Now great multitudes were going with him. He turned and said to them,
 <sup>26</sup> “If anyone comes to me, and doesn’t disregard<sup>c</sup> his own father, mother, wife, children, brothers, and sisters, yes, and his own life also, he can’t be my disciple.
@@ -1430,7 +1430,7 @@ They answered, “Caesar’s.”
 
 <sup>7</sup> They asked him, “Teacher, so when will these things be? What is the sign that these things are about to happen?”
 
-<sup>8</sup> He said, “Watch out that you don’t get led astray, for many will come in my name, saying, ‘I am he<sup>b</sup>,’ and, ‘The time is at hand.’ Therefore don’t follow them.
+<sup>8</sup> He said, “Watch out that you don’t get led astray, for many will come in my name, saying, ‘I am he,’<sup>b</sup> and, ‘The time is at hand.’ Therefore don’t follow them.
 <sup>9</sup> When you hear of wars and disturbances, don’t be terrified, for these things must happen first, but the end won’t come immediately.”
 
 <sup>10</sup> Then he said to them, “Nation will rise against nation, and kingdom against kingdom.

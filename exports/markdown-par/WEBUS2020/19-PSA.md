@@ -35,7 +35,7 @@
 > _A Psalm by David, when he fled from Absalom his son._
 
 <sup>1</sup> Yahweh, how my adversaries have increased!<br>Many are those who rise up against me.<br>
-<sup>2</sup> Many there are who say of my soul,<br>“There is no help for him in God.”<sup>a</sup> _Selah._<br>
+<sup>2</sup> Many there are who say of my soul,<br>“There is no help for him in God.” <sup>a</sup>_Selah._<br>
 <sup>3</sup> But you, Yahweh, are a shield around me,<br>my glory, and the one who lifts up my head.<br>
 <sup>4</sup> I cry to Yahweh with my voice,<br>and he answers me out of his holy hill. _Selah._<br>
 <sup>5</sup> I laid myself down and slept.<br>I awakened, for Yahweh sustains me.<br>
@@ -1985,7 +1985,7 @@ Surely God<sup>a</sup> is good to Israel,<br>to those who are pure in heart.<br>
 <sup>45</sup> You have shortened the days of his youth.<br>You have covered him with shame. _Selah._<br>
 <sup>46</sup> How long, Yahweh?<br>Will you hide yourself forever?<br>Will your wrath burn like fire?<br>
 <sup>47</sup> Remember how short my time is,<br>for what vanity you have created all the children of men!<br>
-<sup>48</sup> What man is he who shall live and not see death,<br>who shall deliver his soul from the power of Sheol?<sup>a</sup> _Selah._<br>
+<sup>48</sup> What man is he who shall live and not see death,<br>who shall deliver his soul from the power of Sheol? <sup>a</sup>_Selah._<br>
 <sup>49</sup> Lord, where are your former loving kindnesses,<br>which you swore to David in your faithfulness?<br>
 <sup>50</sup> Remember, Lord, the reproach of your servants,<br>how I bear in my heart the taunts of all the mighty peoples,<br>
 <sup>51</sup> With which your enemies have mocked, Yahweh,<br>with which they have mocked the footsteps of your anointed one.
