@@ -1,6 +1,6 @@
 # EGP Graphai
 
-Initially created by [Equip God’s People](https://www.equipgodspeople.com), “Graphai” (γραφαὶ) — the Koine Greek word for “writings” or “scriptures” — provides access to sacred texts and related resources through modern data formats.
+Initially created by [Equip God’s People](https://www.equipgodspeople.com), “Graphai” (γραφαὶ) is the Koine Greek word for “writings” or “scriptures”. It provides access to sacred texts and related resources through modern data formats.
 
 Its purpose is to provide a comprehensive, verbose JSON standard for Bible resources. This project provides structured Bible data with rich metadata, including various Bible versions, lexical information, and conversion tools for working with other common formats.
 
@@ -72,25 +72,37 @@ npm run export
 # Convert specific version and book (e.g., WEBUS2020 Genesis)
 npx ts-node utils/exportContent.ts WEBUS2020 GEN
 
+# Import a translation from USFM source files (see docs for details)
+npx ts-node utils/importUsfm.ts path/to/usfm-files WEBUS2020
+
 # Convert LORD/Lord GOD to small caps formatting
 npx ts-node utils/convertToSmallCaps.ts WEBUS2020
+
+# Re-classify footnote types already on disk against the latest rules (add --fix to write)
+npm run overhaul-footnotes WEBUS2020
 
 # Standardize content key order
 npx ts-node utils/sortBibleKeys.ts WEBUS2020
 
-# Audit bibleLink targets for unsplit cross-chapter ranges (all versions) —
+# Audit bibleLink targets for unsplit cross-chapter ranges (all versions);
 # also runs as part of `npm run validate` for whichever version(s) it scopes to
 npm run audit-links
 
 # Audit one version, or add --fix to write the splits
 npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix
 
-# Audit Strong's-node placement conventions (all versions, read-only) —
+# Audit node placement, heading paragraphs, and fraction formatting (all versions, read-only);
 # also runs as part of `npm run validate` for whichever version(s) it scopes to
 npm run audit-nodes
 
 # Audit one version and list every finding
 npx ts-node utils/auditNodes.ts WEBUS2020 --verbose
+
+# Fix unmerged connector nodes (audit-nodes check 1); add --fix to write
+npx ts-node utils/fixUnmergedNodes.ts YLT1898 --fix
+
+# Fix headings/subtitles missing their paragraph flag (audit-nodes check 6); add --fix to write
+npx ts-node utils/fixHeadingParagraphs.ts WEBUS2020 --fix
 
 # Run tests
 npm run test
@@ -120,8 +132,8 @@ npm run dev
 
 For deeper architectural and domain detail, see:
 
-- [Supplemental developer docs](./_specs/documentation/EGP-Graphai/README.md) — content model, data pipeline, web reader
-- [AI context references](./_specs/ai-context/) — domain documents and style guides for AI agents
+- [Supplemental developer docs](./_specs/documentation/EGP-Graphai/README.md); content model, data pipeline, USFM import, web reader
+- [AI context references](./_specs/ai-context/); domain documents and style guides for AI agents
 
 ## JSON Format Examples
 
@@ -200,6 +212,8 @@ For deeper architectural and domain detail, see:
 3. Add verses by book to `bible-versions/{version}/{order}-{book}.json` (e.g., `01-GEN.json`, `66-REV.json`)
 4. Validate: `npm run validate`
 5. Export: `npm run export`
+
+Already have the translation as USFM source files? `utils/importUsfm.ts` converts it directly, book by book, and runs validation for you. See [usfm-import.md](./_specs/documentation/EGP-Graphai/usfm-import.md) for the pipeline it runs.
 
 ### Schema Validation
 

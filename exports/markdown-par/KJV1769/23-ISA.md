@@ -214,9 +214,9 @@
 > - <sup>i</sup> 13. Heb. _their glory are men of famine_
 > - <sup>j</sup> 16. Or, _the holy God, Heb. The God the holy_
 > - <sup>k</sup> 20. Heb. _that say concerning evil, It is good_, etc.
-> - <sup>l</sup> 21. _before their face_
+> - <sup>l</sup> 21. _Before their face_
 > - <sup>m</sup> 24. Heb. _the tongue of fire_
-> - <sup>n</sup> 25. or _as dung_
+> - <sup>n</sup> 25. Or _as dung_
 > - <sup>o</sup> 30. Or, _distress_
 > - <sup>p</sup> 30. Or, _when it is light it shall be dark in the destructions thereof_
 
@@ -292,7 +292,7 @@
 <sup>25</sup> And _on_ all hills that shall be digged with the mattock, there shall not come thither the fear of briers and thorns: but it shall be for the sending forth of oxen, and for the treading of lesser cattle.
 
 > - <sup>a</sup> 2. Heb. _resteth on Ephraim_
-> - <sup>b</sup> 3. that is, _The remnant shall return_
+> - <sup>b</sup> 3. That is, _The remnant shall return_
 > - <sup>c</sup> 3. Or, _causeway_
 > - <sup>d</sup> 4. Heb. _let not thine heart be tender_
 > - <sup>e</sup> 6. Or, _waken_
@@ -2325,7 +2325,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 <sup>19</sup> We are _thine:_ thou never barest rule over them; they were not called by thy name.<sup>d</sup>
 
 > - <sup>a</sup> 1. Heb. _decked_
-> - <sup>b</sup> 11. Or, _shepherds, as Psal. 77.21_
+> - <sup>b</sup> 11. Or, _shepherds, as_ _Psal. 77.20_
 > - <sup>c</sup> 15. Or, _the multitude_
 > - <sup>d</sup> 19. Heb. _thy name was not called upon them_
 

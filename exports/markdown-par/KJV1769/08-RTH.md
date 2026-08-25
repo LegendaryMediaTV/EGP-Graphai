@@ -31,7 +31,7 @@
 > - <sup>c</sup> 13. Heb. _hope_
 > - <sup>d</sup> 13. Heb. _I have much bitterness_
 > - <sup>e</sup> 16. Or, _Be not against me_
-> - <sup>f</sup> 20. that is, _pleasant_
+> - <sup>f</sup> 20. That is, _pleasant_
 > - <sup>g</sup> 20. That is, _bitter_
 
 ## Chapter 2
@@ -66,7 +66,7 @@
 <sup>23</sup> So she kept fast by the maidens of Boaz to glean unto the end of barley harvest and of wheat harvest; and dwelt with her mother in law.
 
 > - <sup>a</sup> 3. Heb. _hap happened_
-> - <sup>b</sup> 3. Called _Mat. 1.5 Booz_
+> - <sup>b</sup> 3. Called _Mat. 1.5_ _Booz_
 > - <sup>c</sup> 13. Heb. _to the heart_
 > - <sup>d</sup> 15. Heb. _shame her not_
 > - <sup>e</sup> 20. Or, _one that hath right to redeem_

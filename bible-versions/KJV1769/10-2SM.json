@@ -1146,7 +1146,7 @@
         "foot": {
           "type": "stu",
           "content": [
-            "that is, ",
+            "That is, ",
             { "text": "The field of strong men", "marks": ["i"] }
           ]
         },
@@ -3524,7 +3524,7 @@
         "foot": {
           "type": "stu",
           "content": [
-            "that is, ",
+            "That is, ",
             { "text": "the plain of breaches", "marks": ["i"] }
           ]
         },
@@ -3657,7 +3657,7 @@
         "text": " from Geba",
         "foot": {
           "type": "stu",
-          "content": ["also called, ", { "text": "Gibeon", "marks": ["i"] }]
+          "content": ["Also called, ", { "text": "Gibeon", "marks": ["i"] }]
         },
         "strong": "H1387"
       },
@@ -4555,10 +4555,14 @@
         "text": " of the tribes",
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "In the 1. Chro. 17.6. any of the judges",
-            "marks": ["i"]
-          }
+          "content": [
+            { "text": "In the ", "marks": ["i"] },
+            {
+              "bibleLink": "1 Chronicles 17:6",
+              "content": { "text": "1. Chro. 17.6", "marks": ["i"] }
+            },
+            { "text": ". any of the judges", "marks": ["i"] }
+          ]
         },
         "strong": "H7626"
       },
@@ -8038,7 +8042,7 @@
         "foot": {
           "type": "stu",
           "content": [
-            "that is, ",
+            "That is, ",
             { "text": "Beloved of the Lord", "marks": ["i"] }
           ]
         },
@@ -10938,7 +10942,11 @@
           "type": "stu",
           "content": [
             "Called ",
-            { "text": "Joh. 18.1. Cedron", "marks": ["i"] }
+            {
+              "bibleLink": "John 18:1",
+              "content": { "text": "Joh. 18.1", "marks": ["i"] }
+            },
+            { "text": ". Cedron", "marks": ["i"] }
           ]
         },
         "strong": "H6939"
@@ -15710,7 +15718,7 @@
             "foot": {
               "type": "stu",
               "content": {
-                "text": "and so they ended the matter: Or, they plainly spake in the beginning, saying, surely they will ask of Abel; and so make an end",
+                "text": "And so they ended the matter: Or, they plainly spake in the beginning, saying, surely they will ask of Abel; and so make an end",
                 "marks": ["i"]
               }
             }
@@ -18779,10 +18787,12 @@
             "Heb. ",
             { "text": "a man of countenance", "marks": ["i"] },
             " or ",
+            { "text": "sight, called ", "marks": ["i"] },
             {
-              "text": "sight, called 1. Chro. 11.23 a man of great stature",
-              "marks": ["i"]
-            }
+              "bibleLink": "1 Chronicles 11:23",
+              "content": { "text": "1. Chro. 11.23", "marks": ["i"] }
+            },
+            { "text": " a man of great stature", "marks": ["i"] }
           ]
         },
         "strong": "H376"
@@ -19103,7 +19113,13 @@
             "text": " the",
             "foot": {
               "type": "stu",
-              "content": { "text": "Satan. See 1. Chron. 21.1", "marks": ["i"] }
+              "content": [
+                { "text": "Satan. See ", "marks": ["i"] },
+                {
+                  "bibleLink": "1 Chronicles 21:1",
+                  "content": { "text": "1. Chron. 21.1", "marks": ["i"] }
+                }
+              ]
             }
           },
           " anger"

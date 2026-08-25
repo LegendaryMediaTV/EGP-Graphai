@@ -16133,7 +16133,7 @@
         "foot": {
           "type": "stu",
           "content": [
-            "that is, ",
+            "That is, ",
             { "text": "about two miles", "marks": ["i"] }
           ]
         },
@@ -25876,10 +25876,16 @@
         "text": " year.",
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "And Annas sent Christ bound unto Caiaphas the high priest, ver. 24",
-            "marks": ["i"]
-          }
+          "content": [
+            {
+              "text": "And Annas sent Christ bound unto Caiaphas the high priest, ",
+              "marks": ["i"]
+            },
+            {
+              "bibleLink": "John 18:24",
+              "content": { "text": "ver. 24", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G1763"
       }

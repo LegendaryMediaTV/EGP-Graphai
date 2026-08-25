@@ -1,0 +1,23 @@
+## Chapter 1
+
+<sup>1</sup> <sup>a</sup>O LORD Almighty in heaven, God of our fathers Abraham, Isaac, and Jacob, and of their righteous offspring,
+<sup>2</sup> you who have made heaven and earth, with all their order,
+<sup>3</sup> who have bound the sea by the word of your commandment, who have shut up the deep, and sealed it by your terrible and glorious name,
+<sup>4</sup> whom all things fear, yes, tremble before your power,
+<sup>5</sup> for the majesty of your glory can’t be borne, and the anger of your threatening toward sinners is unbearable.
+<sup>6</sup> Your merciful promise is unmeasurable and unsearchable,
+<sup>7</sup> for you are the Lord Most High, of great compassion, patient and abundant in mercy, and relent at human suffering.
+<sup>8</sup> <sup>b</sup>You, O Lord, according to your great goodness have promised repentance and forgiveness to those who have sinned against you. Of your infinite mercies, you have appointed repentance to sinners, that they may be saved. You therefore, O Lord, who are the God of the just, have not appointed repentance to the just, to Abraham, Isaac, and Jacob, which have not sinned against you, but you have appointed repentance to me, a sinner.
+<sup>9</sup> For I have sinned more than the number of the sands of the sea. My transgressions are multiplied,<sup>c</sup> O Lord, my transgressions are multiplied, and I am not worthy to behold and see the height of heaven for the multitude of my iniquities.
+<sup>10</sup> I am bowed down with many iron bands, so that I can’t lift up my head by reason of my sins,<sup>d</sup> neither have I any relief; for I have provoked your wrath, and done that which is evil before you:<sup>e</sup> I didn’t do your will, neither did I keep your commandments. I have set up abominations, and have multiplied detestable things.
+<sup>11</sup> Now therefore I bow the knee of my heart, asking you for grace.
+<sup>12</sup> I have sinned, O Lord, I have sinned, and I acknowledge my iniquities;
+<sup>13</sup> but, I humbly ask you, forgive me, O Lord, forgive me, and please don’t destroy me with my iniquities. Don’t be angry with me forever, by reserving evil for me. Don’t condemn me into the lower parts of the earth. For you, O Lord, are the God of those who repent.
+<sup>14</sup> In me you will show all your goodness, for you will save me, even though I am unworthy, according to your great mercy.
+<sup>15</sup> Then I will praise you forever all the days of my life; for all the army of heaven sings your praise, and yours is the glory forever and ever. Amen.
+
+> - <sup>a</sup> 1. _The Prayer of Manasses_ is recognized as Deuterocanonical Scripture by the Greek Orthodox and Russian Orthodox Churches. It is included in an appendix to the Latin Vulgate Bible.
+> - <sup>b</sup> 8. The Alex. MS. omits _You... saved._
+> - <sup>c</sup> 9. The Alex. MS. omits _O Lord... multiplied._
+> - <sup>d</sup> 10. Some authorities omit _by reason of my sins._
+> - <sup>e</sup> 10. The Alex. MS. omits _I did... commandments._

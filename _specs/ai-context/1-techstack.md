@@ -21,7 +21,7 @@
 - **Font Awesome (CDN)** – Icon library for UI icons in the web reader.
 - **Lodash** – Utility library used in validation scripts for data manipulation (grouping, sorting, difference operations).
 - **ts-node** – TypeScript execution engine for running `.ts` files directly without compilation.
-- **Vitest** – Modern test runner used for all unit tests (320 tests across 11 suites). Runs via `npm test` or `npx vitest --run`.
+- **Vitest** – Modern test runner used for all unit tests. 551 tests pass (1 skipped) across 19 of 29 suites; the other 10 belong to the USFM import pipeline and fail to load pending local scaffolding it depends on (see [6-tests-and-build.md](./6-tests-and-build.md#usfm-import-pipeline-domain)). Runs via `npm test` or `npx vitest --run`.
 
 ### State Management Approach
 
@@ -32,6 +32,7 @@
 
 ### Other Relevant Technologies
 
+- **USFM (Unified Standard Format Markers)** – External markup format that `utils/importUsfm.ts` and `utils/usfm/` convert into Graphai verse JSON, used to bring translation source text into the repo without hand-transcription.
 - **JSON Schema (Draft-07)** – Schema definitions for validating Bible data structure and content.
 - **Google Fonts** – Custom fonts loaded for proper rendering of Greek (`EB Garamond`), Hebrew (`David Libre`), and Latin (`Atkinson Hyperlegible`) scripts.
 - **File System (fs)** – Node.js file system module used extensively for reading/writing Bible data files.
@@ -52,6 +53,8 @@ EGP Graphai is a **Bible resource data management and display system**. It provi
 - **Morphological Codes** – Grammatical parsing information (Robinson or Packard format)
 - **Footnotes** – Study notes, translation notes, textual variants, cross-references, and maps
 - **Scripts** – Support for Greek (G), Hebrew (H), and Latin script rendering
+- **USFM Import** – Pipeline (`utils/importUsfm.ts`, `utils/usfm/`) that converts USFM-formatted translation source into verse JSON; used to bring WEBUS2020's apocrypha into the corpus
+- **Apocrypha / Deuterocanon** – 15 additional books (Tobit, Judith, Wisdom, Sirach, Baruch, 1–4 Maccabees, 1–2 Esdras, Prayer of Manasseh, Psalm 151, and the Greek additions to Esther and Daniel), registered under the existing `testament: "OT"` value rather than a new canon classification
 
 ### User Interactions
 

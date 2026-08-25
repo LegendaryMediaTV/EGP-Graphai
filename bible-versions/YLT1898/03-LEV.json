@@ -4143,7 +4143,10 @@
     "verse": 2,
     "content": [
       { "heading": "Sacrifices" },
-      "“Speak unto Aaron, and unto his sons, and unto all the sons of Israel; and thou hast said unto them, This ",
+      {
+        "paragraph": true,
+        "text": "“Speak unto Aaron, and unto his sons, and unto all the sons of Israel; and thou hast said unto them, This "
+      },
       { "text": "is", "marks": ["i"] },
       " the thing which Jehovah hath commanded, saying,"
     ]

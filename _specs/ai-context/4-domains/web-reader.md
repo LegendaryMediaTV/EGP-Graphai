@@ -272,7 +272,7 @@ export function getFootnoteText(content) {
 }
 ```
 
-Handles every shape `foot.content` can take — a plain string, a mixed array (cross-reference footnotes joining several targets with separators like `"; "`), a `{bibleLink, content?}` link (falling back to the raw reference when no display override is set), or a `{text}` node — and is called from both the nested-content and leaf-content branches in `ContentNode.js` so a footnote flattens the same way regardless of which node shape it's attached to.
+Handles every shape `foot.content` can take: a plain string, a mixed array (cross-reference footnotes joining several targets with separators like `"; "`), a `{bibleLink, content?}` link (falling back to the raw reference when no display override is set), or a `{text}` node. It is called from both the nested-content and leaf-content branches in `ContentNode.js`, so a footnote flattens the same way regardless of which node shape it's attached to.
 
 ### Strong's Number Linking
 

@@ -159,7 +159,7 @@
     "book": "DAN",
     "chapter": 1,
     "verse": 19,
-    "content": "The king talked with them; and among them all was found no one like Daniel, Hananiah, Mishael, and Azariah. Therefore stood they before the king."
+    "content": "The king talked with them; and among them all was found no one like Daniel, Hananiah, Mishael, and Azariah. Therefore they stood before the king."
   },
   {
     "book": "DAN",
@@ -450,7 +450,7 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 32,
-    "content": "As for this image, its head was of fine gold, its breast and its arms of silver, its belly and its thighs of bronze,"
+    "content": "As for this image, its head was of fine gold, its chest and its arms of silver, its belly and its thighs of bronze,"
   },
   {
     "book": "DAN",
@@ -809,13 +809,21 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 1,
-    "content": { "paragraph": true, "text": "Nebuchadnezzar the king," }
+    "content": [
+      { "paragraph": true, "text": "Nebuchadnezzar the king," },
+      {
+        "paragraph": true,
+        "text": "to all the peoples, nations, and languages, who dwell in all the earth:"
+      },
+      { "paragraph": true, "text": "Peace be multiplied to you." }
+    ]
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 2,
     "content": {
+      "paragraph": true,
       "text": "It has seemed good to me to show the signs and wonders that the Most High God has worked toward me.",
       "break": true
     }
@@ -835,7 +843,10 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 4,
-    "content": "I, Nebuchadnezzar, was at rest in my house, and flourishing in my palace."
+    "content": {
+      "paragraph": true,
+      "text": "I, Nebuchadnezzar, was at rest in my house, and flourishing in my palace."
+    }
   },
   {
     "book": "DAN",
@@ -865,7 +876,10 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 9,
-    "content": "“Belteshazzar, master of the magicians, because I know that the spirit of the holy gods is in you and no secret troubles you, tell me the visions of my dream that I have seen, and its interpretation."
+    "content": {
+      "paragraph": true,
+      "text": "“Belteshazzar, master of the magicians, because I know that the spirit of the holy gods is in you and no secret troubles you, tell me the visions of my dream that I have seen, and its interpretation."
+    }
   },
   {
     "book": "DAN",
@@ -889,7 +903,10 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 13,
-    "content": "“I saw in the visions of my head on my bed, and behold, a holy watcher came down from the sky."
+    "content": {
+      "paragraph": true,
+      "text": "“I saw in the visions of my head on my bed, and behold, a holy watcher came down from the sky."
+    }
   },
   {
     "book": "DAN",
@@ -913,19 +930,34 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 17,
-    "content": "“ ‘The sentence is by the decree of the watchers and the demand by the word of the holy ones, to the intent that the living may know that the Most High rules in the kingdom of men, and gives it to whomever he will, and sets up over it the lowest of men.’"
+    "content": {
+      "paragraph": true,
+      "text": "“‘The sentence is by the decree of the watchers and the demand by the word of the holy ones, to the intent that the living may know that the Most High rules in the kingdom of men, and gives it to whomever he will, and sets up over it the lowest of men.’"
+    }
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 18,
-    "content": "“This dream I, King Nebuchadnezzar, have seen; and you, Belteshazzar, declare the interpretation, because all the wise men of my kingdom are not able to make known to me the interpretation; but you are able, for the spirit of the holy gods is in you.”"
+    "content": {
+      "paragraph": true,
+      "text": "“This dream I, King Nebuchadnezzar, have seen; and you, Belteshazzar, declare the interpretation, because all the wise men of my kingdom are not able to make known to me the interpretation; but you are able, for the spirit of the holy gods is in you.”"
+    }
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 19,
-    "content": "Then Daniel, whose name was Belteshazzar, was stricken mute for a while, and his thoughts troubled him. The king answered, “Belteshazzar, don’t let the dream or the interpretation, trouble you.”"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Daniel, whose name was Belteshazzar, was stricken mute for a while, and his thoughts troubled him. The king answered, “Belteshazzar, don’t let the dream or the interpretation trouble you.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Belteshazzar answered, “My lord, may the dream be for those who hate you, and its interpretation to your adversaries."
+      }
+    ]
   },
   {
     "book": "DAN",
@@ -949,13 +981,19 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 23,
-    "content": "“Whereas the king saw a holy watcher coming down from the sky and saying, ‘Cut down the tree, and destroy it; nevertheless leave the stump of its roots in the earth, even with a band of iron and bronze, in the tender grass of the field, and let it be wet with the dew of the sky. Let his portion be with the animals of the field, until seven times pass over him.’"
+    "content": {
+      "paragraph": true,
+      "text": "“Whereas the king saw a holy watcher coming down from the sky and saying, ‘Cut down the tree, and destroy it; nevertheless leave the stump of its roots in the earth, even with a band of iron and bronze, in the tender grass of the field, and let it be wet with the dew of the sky. Let his portion be with the animals of the field, until seven times pass over him.’"
+    }
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 24,
-    "content": "“This is the interpretation, O king, and it is the decree of the Most High, which has come on my lord the king:"
+    "content": {
+      "paragraph": true,
+      "text": "“This is the interpretation, O king, and it is the decree of the Most High, which has come on my lord the king:"
+    }
   },
   {
     "book": "DAN",
@@ -967,7 +1005,7 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 26,
-    "content": "Whereas it was commanded to leave the stump of the roots of the tree, your kingdom shall be sure to you after you know that Heavens rules."
+    "content": "Whereas it was commanded to leave the stump of the roots of the tree, your kingdom shall be sure to you after you know that Heaven rules."
   },
   {
     "book": "DAN",
@@ -979,7 +1017,10 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 28,
-    "content": "All this came on the King Nebuchadnezzar."
+    "content": {
+      "paragraph": true,
+      "text": "All this came on the King Nebuchadnezzar."
+    }
   },
   {
     "book": "DAN",
@@ -997,19 +1038,25 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 31,
-    "content": "While the word was in the king’s mouth, a voice came from the sky, saying, “O King Nebuchadnezzar, to you it is spoken: ‘The kingdom has departed from you."
+    "content": {
+      "paragraph": true,
+      "text": "While the word was in the king’s mouth, a voice came from the sky, saying, “O King Nebuchadnezzar, to you it is spoken: ‘The kingdom has departed from you."
+    }
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 32,
-    "content": "You shall be driven from men, and your dwelling shall be with the animals of the field. You shall be made to eat grass like oxen. Seven times shall pass over you, until you know that the Most High rules in the kingdom of men, and gives it to whomever he will.’ ”"
+    "content": "You shall be driven from men, and your dwelling shall be with the animals of the field. You shall be made to eat grass like oxen. Seven times shall pass over you, until you know that the Most High rules in the kingdom of men, and gives it to whomever he will.’”"
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 33,
-    "content": "This was fulfilled the same hour on Nebuchadnezzar. He was driven from men and ate grass like oxen; and his body was wet with the dew of the sky until his hair had grown like eagles’ feathers, and his nails like birds’ claws."
+    "content": {
+      "paragraph": true,
+      "text": "This was fulfilled the same hour on Nebuchadnezzar. He was driven from men and ate grass like oxen; and his body was wet with the dew of the sky until his hair had grown like eagles’ feathers, and his nails like birds’ claws."
+    }
   },
   {
     "book": "DAN",
@@ -1017,6 +1064,7 @@
     "verse": 34,
     "content": [
       {
+        "paragraph": true,
         "text": "At the end of the days I, Nebuchadnezzar, lifted up my eyes to heaven, and my understanding returned to me; and I blessed the Most High, and I praised and honored him who lives forever,",
         "break": true
       },
@@ -1049,7 +1097,10 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 36,
-    "content": "At the same time my understanding returned to me; and for the glory of my kingdom, my majesty and brightness returned to me. My counselors and my lords sought me; and I was established in my kingdom, and excellent greatness was added to me."
+    "content": {
+      "paragraph": true,
+      "text": "At the same time my understanding returned to me; and for the glory of my kingdom, my majesty and brightness returned to me. My counselors and my lords sought me; and I was established in my kingdom, and excellent greatness was added to me."
+    }
   },
   {
     "book": "DAN",
@@ -1241,22 +1292,34 @@
     "book": "DAN",
     "chapter": 5,
     "verse": 26,
-    "content": {
-      "paragraph": true,
-      "text": "“This is the interpretation of the thing:"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "“This is the interpretation of the thing:"
+      },
+      {
+        "paragraph": true,
+        "text": "MENE: God has counted your kingdom, and brought it to an end."
+      }
+    ]
   },
   {
     "book": "DAN",
     "chapter": 5,
     "verse": 27,
-    "content": "TEKEL: you are weighed in the balances, and are found wanting."
+    "content": {
+      "paragraph": true,
+      "text": "TEKEL: you are weighed in the balances, and are found wanting."
+    }
   },
   {
     "book": "DAN",
     "chapter": 5,
     "verse": 28,
-    "content": "PERES: your kingdom is divided, and given to the Medes and Persians.”"
+    "content": {
+      "paragraph": true,
+      "text": "PERES: your kingdom is divided, and given to the Medes and Persians.”"
+    }
   },
   {
     "book": "DAN",
@@ -1433,7 +1496,7 @@
     "book": "DAN",
     "chapter": 6,
     "verse": 20,
-    "content": "When he came near to the den to Daniel, he cried with a troubled voice. The king spoke and said to Daniel, “Daniel, servant of the living God, is your God, whom you serve continually, able to deliver you from the lions?”"
+    "content": "When he came near to Daniel in the den, he cried with a troubled voice. The king spoke and said to Daniel, “Daniel, servant of the living God, is your God, whom you serve continually, able to deliver you from the lions?”"
   },
   {
     "book": "DAN",
@@ -1472,10 +1535,13 @@
     "book": "DAN",
     "chapter": 6,
     "verse": 25,
-    "content": {
-      "paragraph": true,
-      "text": "Then King Darius wrote to all the peoples, nations, and languages who dwell in all the earth:"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then King Darius wrote to all the peoples, nations, and languages who dwell in all the earth:"
+      },
+      { "paragraph": true, "text": "“Peace be multiplied to you." }
+    ]
   },
   {
     "book": "DAN",
@@ -1483,6 +1549,7 @@
     "verse": 26,
     "content": [
       {
+        "paragraph": true,
         "text": "“I make a decree that in all the dominion of my kingdom men tremble and fear before the God of Daniel.",
         "break": true
       },
@@ -1593,7 +1660,7 @@
     "verse": 9,
     "content": [
       { "text": "“I watched until thrones were placed,", "break": true },
-      { "text": "and one who was ancient of days sat.", "break": true },
+      { "text": "and one who was Ancient of Days sat.", "break": true },
       { "text": "His clothing was white as snow,", "break": true },
       { "text": "and the hair of his head like pure wool.", "break": true },
       { "text": "His throne was fiery flames,", "break": true },
@@ -1706,7 +1773,7 @@
     "book": "DAN",
     "chapter": 7,
     "verse": 22,
-    "content": "until the ancient of days came, and judgment was given to the saints of the Most High, and the time came that the saints possessed the kingdom."
+    "content": "until the Ancient of Days came, and judgment was given to the saints of the Most High, and the time came that the saints possessed the kingdom."
   },
   {
     "book": "DAN",
@@ -1735,7 +1802,7 @@
     "verse": 26,
     "content": {
       "paragraph": true,
-      "text": "“ ‘But the judgment will be set, and they will take away his dominion, to consume and to destroy it to the end."
+      "text": "“‘But the judgment will be set, and they will take away his dominion, to consume and to destroy it to the end."
     }
   },
   {
@@ -1989,10 +2056,16 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 4,
-    "content": {
-      "paragraph": true,
-      "text": "I prayed to Yahweh my God, and made confession, and said,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I prayed to Yahweh my God, and made confession, and said,"
+      },
+      {
+        "paragraph": true,
+        "text": "“Oh, Lord, the great and dreadful God, who keeps covenant and loving kindness with those who love him and keep his commandments,"
+      }
+    ]
   },
   {
     "book": "DAN",
@@ -2010,7 +2083,10 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 7,
-    "content": "“Lord, righteousness belongs to you, but to us confusion of face, as it is today; to the men of Judah, and to the inhabitants of Jerusalem, and to all Israel, who are near and who are far off, through all the countries where you have driven them, because of their trespass that they have trespassed against you."
+    "content": {
+      "paragraph": true,
+      "text": "“Lord, righteousness belongs to you, but to us confusion of face, as it is today; to the men of Judah, and to the inhabitants of Jerusalem, and to all Israel, who are near and who are far off, through all the countries where you have driven them, because of their trespass that they have trespassed against you."
+    }
   },
   {
     "book": "DAN",
@@ -2034,7 +2110,13 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 11,
-    "content": "Yes, all Israel have transgressed your law, turning aside, that they should not obey your voice."
+    "content": [
+      "Yes, all Israel have transgressed your law, turning aside, that they should not obey your voice.",
+      {
+        "paragraph": true,
+        "text": "“Therefore the curse and the oath written in the law of Moses the servant of God has been poured out on us, for we have sinned against him."
+      }
+    ]
   },
   {
     "book": "DAN",
@@ -2058,7 +2140,10 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 15,
-    "content": "“Now, Lord our God, who has brought your people out of the land of Egypt with a mighty hand, and have gotten yourself renown, as it is today, we have sinned. We have done wickedly."
+    "content": {
+      "paragraph": true,
+      "text": "“Now, Lord our God, who has brought your people out of the land of Egypt with a mighty hand, and have gotten yourself renown, as it is today, we have sinned. We have done wickedly."
+    }
   },
   {
     "book": "DAN",
@@ -2070,7 +2155,10 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 17,
-    "content": "“Now therefore, our God, listen to the prayer of your servant and to his petitions, and cause your face to shine on your sanctuary that is desolate, for the Lord’s sake."
+    "content": {
+      "paragraph": true,
+      "text": "“Now therefore, our God, listen to the prayer of your servant and to his petitions, and cause your face to shine on your sanctuary that is desolate, for the Lord’s sake."
+    }
   },
   {
     "book": "DAN",

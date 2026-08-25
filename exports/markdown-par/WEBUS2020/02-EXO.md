@@ -46,7 +46,7 @@
 The young woman went and called the child’s mother.
 <sup>9</sup> Pharaoh’s daughter said to her, “Take this child away, and nurse him for me, and I will give you your wages.”
 
-The woman took the child, and nursed it.
+The woman took the child, and nursed him.
 <sup>10</sup> The child grew, and she brought him to Pharaoh’s daughter, and he became her son. She named him Moses,<sup>a</sup> and said, “Because I drew him out of the water.”
 
 <sup>11</sup> In those days, when Moses had grown up, he went out to his brothers and saw their burdens. He saw an Egyptian striking a Hebrew, one of his brothers.
@@ -103,10 +103,10 @@ Moses hid his face because he was afraid to look at God.
 
 <sup>13</sup> Moses said to God, “Behold, when I come to the children of Israel, and tell them, ‘The God of your fathers has sent me to you,’ and they ask me, ‘What is his name?’ what should I tell them?”
 
-<sup>14</sup> God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’ ”
+<sup>14</sup> God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’”
 <sup>15</sup> God said moreover to Moses, “You shall tell the children of Israel this, ‘Yahweh, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is my memorial to all generations.
 <sup>16</sup> Go and gather the elders of Israel together, and tell them, ‘Yahweh, the God of your fathers, the God of Abraham, of Isaac, and of Jacob, has appeared to me, saying, “I have surely visited you, and seen that which is done to you in Egypt.
-<sup>17</sup> I have said, I will bring you up out of the affliction of Egypt to the land of the Canaanite, the Hittite, the Amorite, the Perizzite, the Hivite, and the Jebusite, to a land flowing with milk and honey.” ’
+<sup>17</sup> I have said, I will bring you up out of the affliction of Egypt to the land of the Canaanite, the Hittite, the Amorite, the Perizzite, the Hivite, and the Jebusite, to a land flowing with milk and honey.”’
 <sup>18</sup> They will listen to your voice. You shall come, you and the elders of Israel, to the king of Egypt, and you shall tell him, ‘Yahweh, the God of the Hebrews, has met with us. Now please let us go three days’ journey into the wilderness, that we may sacrifice to Yahweh, our God.’
 <sup>19</sup> I know that the king of Egypt won’t give you permission to go, no, not by a mighty hand.
 <sup>20</sup> I will reach out my hand and strike Egypt with all my wonders which I will do among them, and after that he will let you go.
@@ -117,7 +117,7 @@ Moses hid his face because he was afraid to look at God.
 
 ## Chapter 4
 
-<sup>1</sup> Moses answered, “But, behold, they will not believe me, nor listen to my voice; for they will say, ‘Yahweh has not appeared to you.’ ”
+<sup>1</sup> Moses answered, “But, behold, they will not believe me, nor listen to my voice; for they will say, ‘Yahweh has not appeared to you.’”
 
 <sup>2</sup> Yahweh said to him, “What is that in your hand?”
 
@@ -164,7 +164,7 @@ Jethro said to Moses, “Go in peace.”
 <sup>20</sup> Moses took his wife and his sons, and set them on a donkey, and he returned to the land of Egypt. Moses took God’s rod in his hand.
 <sup>21</sup> Yahweh said to Moses, “When you go back into Egypt, see that you do before Pharaoh all the wonders which I have put in your hand, but I will harden his heart and he will not let the people go.
 <sup>22</sup> You shall tell Pharaoh, ‘Yahweh says, Israel is my son, my firstborn,
-<sup>23</sup> and I have said to you, “Let my son go, that he may serve me;” and you have refused to let him go. Behold, I will kill your firstborn son.’ ”
+<sup>23</sup> and I have said to you, “Let my son go, that he may serve me;” and you have refused to let him go. Behold, I will kill your firstborn son.’”
 
 <sup>24</sup> On the way at a lodging place, Yahweh met Moses and wanted to kill him.
 <sup>25</sup> Then Zipporah took a flint, and cut off the foreskin of her son, and cast it at his feet; and she said, “Surely you are a bridegroom of blood to me.”
@@ -183,7 +183,7 @@ He went, and met him on God’s mountain, and kissed him.
 
 ## Chapter 5
 
-<sup>1</sup> Afterward Moses and Aaron came, and said to Pharaoh, “This is what Yahweh, the God of Israel, says, ‘Let my people go, that they may hold a feast to me in the wilderness.’ ”
+<sup>1</sup> Afterward Moses and Aaron came, and said to Pharaoh, “This is what Yahweh, the God of Israel, says, ‘Let my people go, that they may hold a feast to me in the wilderness.’”
 
 <sup>2</sup> Pharaoh said, “Who is Yahweh, that I should listen to his voice to let Israel go? I don’t know Yahweh, and moreover I will not let Israel go.”
 
@@ -197,7 +197,7 @@ He went, and met him on God’s mountain, and kissed him.
 <sup>9</sup> Let heavier work be laid on the men, that they may labor in it. Don’t let them pay any attention to lying words.”
 
 <sup>10</sup> The taskmasters of the people went out with their officers, and they spoke to the people, saying, “This is what Pharaoh says: ‘I will not give you straw.
-<sup>11</sup> Go yourselves, get straw where you can find it, for nothing of your work shall be diminished.’ ”
+<sup>11</sup> Go yourselves, get straw where you can find it, for nothing of your work shall be diminished.’”
 <sup>12</sup> So the people were scattered abroad throughout all the land of Egypt to gather stubble for straw.
 <sup>13</sup> The taskmasters were urgent saying, “Fulfill your work quota daily, as when there was straw!”
 <sup>14</sup> The officers of the children of Israel, whom Pharaoh’s taskmasters had set over them, were beaten, and were asked, “Why haven’t you fulfilled your quota both yesterday and today, in making brick as before?”
@@ -226,7 +226,7 @@ He went, and met him on God’s mountain, and kissed him.
 <sup>5</sup> Moreover I have heard the groaning of the children of Israel, whom the Egyptians keep in bondage, and I have remembered my covenant.
 <sup>6</sup> Therefore tell the children of Israel, ‘I am Yahweh, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with an outstretched arm, and with great judgments.
 <sup>7</sup> I will take you to myself for a people. I will be your God; and you shall know that I am Yahweh your God, who brings you out from under the burdens of the Egyptians.
-<sup>8</sup> I will bring you into the land which I swore to give to Abraham, to Isaac, and to Jacob; and I will give it to you for a heritage: I am Yahweh.’ ”
+<sup>8</sup> I will bring you into the land which I swore to give to Abraham, to Isaac, and to Jacob; and I will give it to you for a heritage: I am Yahweh.’”
 
 <sup>9</sup> Moses spoke so to the children of Israel, but they didn’t listen to Moses for anguish of spirit, and for cruel bondage.
 
@@ -268,7 +268,7 @@ He went, and met him on God’s mountain, and kissed him.
 <sup>7</sup> Moses was eighty years old, and Aaron eighty-three years old, when they spoke to Pharaoh.
 
 <sup>8</sup> Yahweh spoke to Moses and to Aaron, saying,
-<sup>9</sup> “When Pharaoh speaks to you, saying, ‘Perform a miracle!’ then you shall tell Aaron, ‘Take your rod, and cast it down before Pharaoh, and it will become a serpent.’ ”
+<sup>9</sup> “When Pharaoh speaks to you, saying, ‘Perform a miracle!’ then you shall tell Aaron, ‘Take your rod, and cast it down before Pharaoh, and it will become a serpent.’”
 
 <sup>10</sup> Moses and Aaron went in to Pharaoh, and they did so, as Yahweh had commanded. Aaron cast down his rod before Pharaoh and before his servants, and it became a serpent.
 <sup>11</sup> Then Pharaoh also called for the wise men and the sorcerers. They also, the magicians of Egypt, did the same thing with their enchantments.
@@ -279,8 +279,8 @@ He went, and met him on God’s mountain, and kissed him.
 <sup>15</sup> Go to Pharaoh in the morning. Behold, he is going out to the water. You shall stand by the river’s bank to meet him. You shall take the rod which was turned to a serpent in your hand.
 <sup>16</sup> You shall tell him, ‘Yahweh, the God of the Hebrews, has sent me to you, saying, “Let my people go, that they may serve me in the wilderness. Behold, until now you haven’t listened.”
 <sup>17</sup> Yahweh says, “In this you shall know that I am Yahweh. Behold: I will strike with the rod that is in my hand on the waters which are in the river, and they shall be turned to blood.
-<sup>18</sup> The fish that are in the river will die and the river will become foul. The Egyptians will loathe to drink water from the river.” ’ ”
-<sup>19</sup> Yahweh said to Moses, “Tell Aaron, ‘Take your rod, and stretch out your hand over the waters of Egypt, over their rivers, over their streams, and over their pools, and over all their ponds of water, that they may become blood. There will be blood throughout all the land of Egypt, both in vessels of wood and in vessels of stone.’ ”
+<sup>18</sup> The fish that are in the river will die and the river will become foul. The Egyptians will loathe to drink water from the river.”’”
+<sup>19</sup> Yahweh said to Moses, “Tell Aaron, ‘Take your rod, and stretch out your hand over the waters of Egypt, over their rivers, over their streams, and over their pools, and over all their ponds of water, that they may become blood. There will be blood throughout all the land of Egypt, both in vessels of wood and in vessels of stone.’”
 
 <sup>20</sup> Moses and Aaron did so, as Yahweh commanded; and he lifted up the rod, and struck the waters that were in the river, in the sight of Pharaoh, and in the sight of his servants; and all the waters that were in the river were turned to blood.
 <sup>21</sup> The fish that were in the river died. The river became foul. The Egyptians couldn’t drink water from the river. The blood was throughout all the land of Egypt.
@@ -294,8 +294,8 @@ He went, and met him on God’s mountain, and kissed him.
 <sup>1</sup> Yahweh spoke to Moses, “Go in to Pharaoh, and tell him, ‘This is what Yahweh says, “Let my people go, that they may serve me.
 <sup>2</sup> If you refuse to let them go, behold, I will plague all your borders with frogs.
 <sup>3</sup> The river will swarm with frogs, which will go up and come into your house, and into your bedroom, and on your bed, and into the house of your servants, and on your people, and into your ovens, and into your kneading troughs.
-<sup>4</sup> The frogs shall come up both on you, and on your people, and on all your servants.” ’ ”
-<sup>5</sup> Yahweh said to Moses, “Tell Aaron, ‘Stretch out your hand with your rod over the rivers, over the streams, and over the pools, and cause frogs to come up on the land of Egypt.’ ”
+<sup>4</sup> The frogs shall come up both on you, and on your people, and on all your servants.”’”
+<sup>5</sup> Yahweh said to Moses, “Tell Aaron, ‘Stretch out your hand with your rod over the rivers, over the streams, and over the pools, and cause frogs to come up on the land of Egypt.’”
 <sup>6</sup> Aaron stretched out his hand over the waters of Egypt; and the frogs came up, and covered the land of Egypt.
 <sup>7</sup> The magicians did the same thing with their enchantments, and brought up frogs on the land of Egypt.
 
@@ -313,7 +313,7 @@ Moses said, “Let it be according to your word, that you may know that there is
 <sup>14</sup> They gathered them together in heaps, and the land stank.
 <sup>15</sup> But when Pharaoh saw that there was a respite, he hardened his heart, and didn’t listen to them, as Yahweh had spoken.
 
-<sup>16</sup> Yahweh said to Moses, “Tell Aaron, ‘Stretch out your rod, and strike the dust of the earth, that it may become lice throughout all the land of Egypt.’ ”
+<sup>16</sup> Yahweh said to Moses, “Tell Aaron, ‘Stretch out your rod, and strike the dust of the earth, that it may become lice throughout all the land of Egypt.’”
 <sup>17</sup> They did so; and Aaron stretched out his hand with his rod, and struck the dust of the earth, and there were lice on man, and on animal; all the dust of the earth became lice throughout all the land of Egypt.
 <sup>18</sup> The magicians tried with their enchantments to produce lice, but they couldn’t. There were lice on man, and on animal.
 <sup>19</sup> Then the magicians said to Pharaoh, “This is God’s finger;” but Pharaoh’s heart was hardened, and he didn’t listen to them, as Yahweh had spoken.
@@ -321,7 +321,7 @@ Moses said, “Let it be according to your word, that you may know that there is
 <sup>20</sup> Yahweh said to Moses, “Rise up early in the morning, and stand before Pharaoh; behold, he comes out to the water; and tell him, ‘This is what Yahweh says, “Let my people go, that they may serve me.
 <sup>21</sup> Else, if you will not let my people go, behold, I will send swarms of flies on you, and on your servants, and on your people, and into your houses. The houses of the Egyptians shall be full of swarms of flies, and also the ground they are on.
 <sup>22</sup> I will set apart in that day the land of Goshen, in which my people dwell, that no swarms of flies shall be there, to the end you may know that I am Yahweh on the earth.
-<sup>23</sup> I will put a division between my people and your people. This sign shall happen by tomorrow.” ’ ”
+<sup>23</sup> I will put a division between my people and your people. This sign shall happen by tomorrow.”’”
 <sup>24</sup> Yahweh did so; and there came grievous swarms of flies into the house of Pharaoh, and into his servants’ houses. In all the land of Egypt the land was corrupted by reason of the swarms of flies.
 
 <sup>25</sup> Pharaoh called for Moses and for Aaron, and said, “Go, sacrifice to your God in the land!”
@@ -341,7 +341,7 @@ Moses said, “Let it be according to your word, that you may know that there is
 <sup>1</sup> Then Yahweh said to Moses, “Go in to Pharaoh, and tell him, ‘This is what Yahweh, the God of the Hebrews, says: “Let my people go, that they may serve me.
 <sup>2</sup> For if you refuse to let them go, and hold them still,
 <sup>3</sup> behold, Yahweh’s hand is on your livestock which are in the field, on the horses, on the donkeys, on the camels, on the herds, and on the flocks with a very grievous pestilence.
-<sup>4</sup> Yahweh will make a distinction between the livestock of Israel and the livestock of Egypt; and nothing shall die of all that belongs to the children of Israel.” ’ ”
+<sup>4</sup> Yahweh will make a distinction between the livestock of Israel and the livestock of Egypt; and nothing shall die of all that belongs to the children of Israel.”’”
 <sup>5</sup> Yahweh appointed a set time, saying, “Tomorrow Yahweh shall do this thing in the land.”
 <sup>6</sup> Yahweh did that thing on the next day; and all the livestock of Egypt died, but of the livestock of the children of Israel, not one died.
 <sup>7</sup> Pharaoh sent, and, behold, there was not so much as one of the livestock of the Israelites dead. But the heart of Pharaoh was stubborn, and he didn’t let the people go.
@@ -359,7 +359,7 @@ Moses said, “Let it be according to your word, that you may know that there is
 <sup>16</sup> but indeed for this cause I have made you stand: to show you my power, and that my name may be declared throughout all the earth,
 <sup>17</sup> because you still exalt yourself against my people, that you won’t let them go.
 <sup>18</sup> Behold, tomorrow about this time I will cause it to rain a very grievous hail, such as has not been in Egypt since the day it was founded even until now.
-<sup>19</sup> Now therefore command that all of your livestock and all that you have in the field be brought into shelter. The hail will come down on every man and animal that is found in the field, and isn’t brought home, and they will die.” ’ ”
+<sup>19</sup> Now therefore command that all of your livestock and all that you have in the field be brought into shelter. The hail will come down on every man and animal that is found in the field, and isn’t brought home, and they will die.”’”
 
 <sup>20</sup> Those who feared Yahweh’s word among the servants of Pharaoh made their servants and their livestock flee into the houses.
 <sup>21</sup> Whoever didn’t respect Yahweh’s word left his servants and his livestock in the field.
@@ -391,7 +391,7 @@ Moses said, “Let it be according to your word, that you may know that there is
 <sup>3</sup> Moses and Aaron went in to Pharaoh, and said to him, “This is what Yahweh, the God of the Hebrews, says: ‘How long will you refuse to humble yourself before me? Let my people go, that they may serve me.
 <sup>4</sup> Or else, if you refuse to let my people go, behold, tomorrow I will bring locusts into your country,
 <sup>5</sup> and they shall cover the surface of the earth, so that one won’t be able to see the earth. They shall eat the residue of that which has escaped, which remains to you from the hail, and shall eat every tree which grows for you out of the field.
-<sup>6</sup> Your houses shall be filled, and the houses of all your servants, and the houses of all the Egyptians, as neither your fathers nor your fathers’ fathers have seen, since the day that they were on the earth to this day.’ ” He turned, and went out from Pharaoh.
+<sup>6</sup> Your houses shall be filled, and the houses of all your servants, and the houses of all the Egyptians, as neither your fathers nor your fathers’ fathers have seen, since the day that they were on the earth to this day.’” He turned, and went out from Pharaoh.
 
 <sup>7</sup> Pharaoh’s servants said to him, “How long will this man be a snare to us? Let the men go, that they may serve Yahweh, their God. Don’t you yet know that Egypt is destroyed?”
 
@@ -439,7 +439,7 @@ Moses said, “Let it be according to your word, that you may know that there is
 <sup>5</sup> and all the firstborn in the land of Egypt shall die, from the firstborn of Pharaoh who sits on his throne, even to the firstborn of the female servant who is behind the mill, and all the firstborn of livestock.
 <sup>6</sup> There will be a great cry throughout all the land of Egypt, such as there has not been, nor will be any more.
 <sup>7</sup> But against any of the children of Israel a dog won’t even bark or move its tongue, against man or animal, that you may know that Yahweh makes a distinction between the Egyptians and Israel.
-<sup>8</sup> All these servants of yours will come down to me, and bow down themselves to me, saying, “Get out, with all the people who follow you;” and after that I will go out.’ ” He went out from Pharaoh in hot anger.
+<sup>8</sup> All these servants of yours will come down to me, and bow down themselves to me, saying, “Get out, with all the people who follow you;” and after that I will go out.’” He went out from Pharaoh in hot anger.
 
 <sup>9</sup> Yahweh said to Moses, “Pharaoh won’t listen to you, that my wonders may be multiplied in the land of Egypt.”
 <sup>10</sup> Moses and Aaron did all these wonders before Pharaoh, but Yahweh hardened Pharaoh’s heart, and he didn’t let the children of Israel go out of his land.
@@ -461,12 +461,12 @@ Moses said, “Let it be according to your word, that you may know that there is
 <sup>13</sup> The blood shall be to you for a token on the houses where you are. When I see the blood, I will pass over you, and no plague will be on you to destroy you when I strike the land of Egypt.
 <sup>14</sup> This day shall be a memorial for you. You shall keep it as a feast to Yahweh. You shall keep it as a feast throughout your generations by an ordinance forever.
 
-<sup>15</sup> “ ‘Seven days you shall eat unleavened bread; even the first day you shall put away yeast out of your houses, for whoever eats leavened bread from the first day until the seventh day, that soul shall be cut off from Israel.
+<sup>15</sup> “‘Seven days you shall eat unleavened bread; even the first day you shall put away yeast out of your houses, for whoever eats leavened bread from the first day until the seventh day, that soul shall be cut off from Israel.
 <sup>16</sup> In the first day there shall be to you a holy convocation, and in the seventh day a holy convocation; no kind of work shall be done in them, except that which every man must eat, only that may be done by you.
 <sup>17</sup> You shall observe the feast of unleavened bread; for in this same day I have brought your armies out of the land of Egypt. Therefore you shall observe this day throughout your generations by an ordinance forever.
 <sup>18</sup> In the first month, on the fourteenth day of the month at evening, you shall eat unleavened bread, until the twenty first day of the month at evening.
 <sup>19</sup> There shall be no yeast found in your houses for seven days, for whoever eats that which is leavened, that soul shall be cut off from the congregation of Israel, whether he is a foreigner, or one who is born in the land.
-<sup>20</sup> You shall eat nothing leavened. In all your habitations you shall eat unleavened bread.’ ”
+<sup>20</sup> You shall eat nothing leavened. In all your habitations you shall eat unleavened bread.’”
 
 <sup>21</sup> Then Moses called for all the elders of Israel, and said to them, “Draw out, and take lambs according to your families, and kill the Passover.
 <sup>22</sup> You shall take a bunch of hyssop, and dip it in the blood that is in the basin, and strike the lintel and the two door posts with the blood that is in the basin. None of you shall go out of the door of his house until the morning.
@@ -474,7 +474,7 @@ Moses said, “Let it be according to your word, that you may know that there is
 <sup>24</sup> You shall observe this thing for an ordinance to you and to your sons forever.
 <sup>25</sup> It shall happen when you have come to the land which Yahweh will give you, as he has promised, that you shall keep this service.
 <sup>26</sup> It will happen, when your children ask you, ‘What do you mean by this service?’
-<sup>27</sup> that you shall say, ‘It is the sacrifice of Yahweh’s Passover, who passed over the houses of the children of Israel in Egypt, when he struck the Egyptians, and spared our houses.’ ”
+<sup>27</sup> that you shall say, ‘It is the sacrifice of Yahweh’s Passover, who passed over the houses of the children of Israel in Egypt, when he struck the Egyptians, and spared our houses.’”
 
 The people bowed their heads and worshiped.
 <sup>28</sup> The children of Israel went and did so; as Yahweh had commanded Moses and Aaron, so they did.
@@ -623,22 +623,22 @@ The people bowed their heads and worshiped.
 <sup>6</sup> Moses and Aaron said to all the children of Israel, “At evening, you shall know that Yahweh has brought you out from the land of Egypt.
 <sup>7</sup> In the morning, you shall see Yahweh’s glory; because he hears your murmurings against Yahweh. Who are we, that you murmur against us?”
 <sup>8</sup> Moses said, “Now Yahweh will give you meat to eat in the evening, and in the morning bread to satisfy you, because Yahweh hears your murmurings which you murmur against him. And who are we? Your murmurings are not against us, but against Yahweh.”
-<sup>9</sup> Moses said to Aaron, “Tell all the congregation of the children of Israel, ‘Come close to Yahweh, for he has heard your murmurings.’ ”
+<sup>9</sup> Moses said to Aaron, “Tell all the congregation of the children of Israel, ‘Come close to Yahweh, for he has heard your murmurings.’”
 <sup>10</sup> As Aaron spoke to the whole congregation of the children of Israel, they looked toward the wilderness, and behold, Yahweh’s glory appeared in the cloud.
 <sup>11</sup> Yahweh spoke to Moses, saying,
-<sup>12</sup> “I have heard the murmurings of the children of Israel. Speak to them, saying, ‘At evening you shall eat meat, and in the morning you shall be filled with bread. Then you will know that I am Yahweh your God.’ ”
+<sup>12</sup> “I have heard the murmurings of the children of Israel. Speak to them, saying, ‘At evening you shall eat meat, and in the morning you shall be filled with bread. Then you will know that I am Yahweh your God.’”
 
 <sup>13</sup> In the evening, quail came up and covered the camp; and in the morning the dew lay around the camp.
 <sup>14</sup> When the dew that lay had gone, behold, on the surface of the wilderness was a small round thing, small as the frost on the ground.
 <sup>15</sup> When the children of Israel saw it, they said to one another, “What is it?” For they didn’t know what it was. Moses said to them, “It is the bread which Yahweh has given you to eat.
-<sup>16</sup> This is the thing which Yahweh has commanded: ‘Gather of it everyone according to his eating; an omer<sup>a</sup> a head, according to the number of your persons, you shall take it, every man for those who are in his tent.’ ”
+<sup>16</sup> This is the thing which Yahweh has commanded: ‘Gather of it everyone according to his eating; an omer<sup>a</sup> a head, according to the number of your persons, you shall take it, every man for those who are in his tent.’”
 <sup>17</sup> The children of Israel did so, and some gathered more, some less.
 <sup>18</sup> When they measured it with an omer, he who gathered much had nothing over, and he who gathered little had no lack. They each gathered according to his eating.
 <sup>19</sup> Moses said to them, “Let no one leave of it until the morning.”
 <sup>20</sup> Notwithstanding they didn’t listen to Moses, but some of them left of it until the morning, so it bred worms and became foul; and Moses was angry with them.
 <sup>21</sup> They gathered it morning by morning, everyone according to his eating. When the sun grew hot, it melted.
 <sup>22</sup> On the sixth day, they gathered twice as much bread, two omers for each one; and all the rulers of the congregation came and told Moses.
-<sup>23</sup> He said to them, “This is that which Yahweh has spoken, ‘Tomorrow is a solemn rest, a holy Sabbath to Yahweh. Bake that which you want to bake, and boil that which you want to boil; and all that remains over lay up for yourselves to be kept until the morning.’ ”
+<sup>23</sup> He said to them, “This is that which Yahweh has spoken, ‘Tomorrow is a solemn rest, a holy Sabbath to Yahweh. Bake that which you want to bake, and boil that which you want to boil; and all that remains over lay up for yourselves to be kept until the morning.’”
 <sup>24</sup> They laid it up until the morning, as Moses ordered, and it didn’t become foul, and there were no worms in it.
 <sup>25</sup> Moses said, “Eat that today, for today is a Sabbath to Yahweh. Today you shall not find it in the field.
 <sup>26</sup> Six days you shall gather it, but on the seventh day is the Sabbath. In it there shall be none.”
@@ -648,7 +648,7 @@ The people bowed their heads and worshiped.
 <sup>30</sup> So the people rested on the seventh day.
 
 <sup>31</sup> The house of Israel called its name “Manna”,<sup>b</sup> and it was like coriander seed, white; and its taste was like wafers with honey.
-<sup>32</sup> Moses said, “This is the thing which Yahweh has commanded, ‘Let an omer-full of it be kept throughout your generations, that they may see the bread with which I fed you in the wilderness, when I brought you out of the land of Egypt.’ ”
+<sup>32</sup> Moses said, “This is the thing which Yahweh has commanded, ‘Let an omer-full of it be kept throughout your generations, that they may see the bread with which I fed you in the wilderness, when I brought you out of the land of Egypt.’”
 <sup>33</sup> Moses said to Aaron, “Take a pot, and put an omer-full of manna in it, and lay it up before Yahweh, to be kept throughout your generations.”
 <sup>34</sup> As Yahweh commanded Moses, so Aaron laid it up before the Testimony, to be kept.
 <sup>35</sup> The children of Israel ate the manna forty years, until they came to an inhabited land. They ate the manna until they came to the borders of the land of Canaan.
@@ -681,7 +681,7 @@ Moses said to them, “Why do you quarrel with me? Why do you test Yahweh?”
 <sup>13</sup> Joshua defeated Amalek and his people with the edge of the sword.
 <sup>14</sup> Yahweh said to Moses, “Write this for a memorial in a book, and rehearse it in the ears of Joshua: that I will utterly blot out the memory of Amalek from under the sky.”
 <sup>15</sup> Moses built an altar, and called its name “Yahweh our Banner”.<sup>c</sup>
-<sup>16</sup> He said, “Yah has sworn: ‘Yahweh will have war with Amalek from generation to generation.’ ”
+<sup>16</sup> He said, “Yah has sworn: ‘Yahweh will have war with Amalek from generation to generation.’”
 
 > - <sup>a</sup> 7. Massah means testing.
 > - <sup>b</sup> 7. Meribah means quarreling.
@@ -755,7 +755,7 @@ Moses reported the words of the people to Yahweh.
 <sup>21</sup> Yahweh said to Moses, “Go down, warn the people, lest they break through to Yahweh to gaze, and many of them perish.
 <sup>22</sup> Let the priests also, who come near to Yahweh, sanctify themselves, lest Yahweh break out on them.”
 
-<sup>23</sup> Moses said to Yahweh, “The people can’t come up to Mount Sinai, for you warned us, saying, ‘Set bounds around the mountain, and sanctify it.’ ”
+<sup>23</sup> Moses said to Yahweh, “The people can’t come up to Mount Sinai, for you warned us, saying, ‘Set bounds around the mountain, and sanctify it.’”
 
 <sup>24</sup> Yahweh said to him, “Go down! You shall bring Aaron up with you, but don’t let the priests and the people break through to come up to Yahweh, lest he break out against them.”
 
@@ -768,7 +768,7 @@ Moses reported the words of the people to Yahweh.
 
 <sup>3</sup> “You shall have no other gods before me.
 
-<sup>4</sup> “You shall not make for yourselves an idol, nor any image of anything that is in the heavens above, or that is in the earth beneath, or that is in the water under the earth:
+<sup>4</sup> “You shall not make for yourselves an idol, nor any image of anything that is in the heavens above, or that is on the earth beneath, or that is in the water under the earth:
 <sup>5</sup> you shall not bow yourself down to them, nor serve them, for I, Yahweh your God, am a jealous God, visiting the iniquity of the fathers on the children, on the third and on the fourth generation of those who hate me,
 <sup>6</sup> and showing loving kindness to thousands of those who love me and keep my commandments.
 
@@ -1255,7 +1255,7 @@ Moses reported the words of the people to Yahweh.
 <sup>17</sup> Yahweh spoke to Moses, saying,
 <sup>18</sup> “You shall also make a basin of bronze, and its base of bronze, in which to wash. You shall put it between the Tent of Meeting and the altar, and you shall put water in it.
 <sup>19</sup> Aaron and his sons shall wash their hands and their feet in it.
-<sup>20</sup> When they go into the Tent of Meeting, they shall wash with water, that they not die; or when they come near to the altar to minister, to burn an offering made by fire to Yahweh.
+<sup>20</sup> When they go into the Tent of Meeting, they shall wash with water, that they don’t die; or when they come near to the altar to minister, to burn an offering made by fire to Yahweh.
 <sup>21</sup> So they shall wash their hands and their feet, that they not die. This shall be a statute forever to them, even to him and to his descendants throughout their generations.”
 
 <sup>22</sup> Moreover Yahweh spoke to Moses, saying,
@@ -1269,7 +1269,7 @@ Moses reported the words of the people to Yahweh.
 <sup>30</sup> You shall anoint Aaron and his sons, and sanctify them, that they may minister to me in the priest’s office.
 <sup>31</sup> You shall speak to the children of Israel, saying, ‘This shall be a holy anointing oil to me throughout your generations.
 <sup>32</sup> It shall not be poured on man’s flesh, and do not make any like it, according to its composition. It is holy. It shall be holy to you.
-<sup>33</sup> Whoever compounds any like it, or whoever puts any of it on a stranger, he shall be cut off from his people.’ ”
+<sup>33</sup> Whoever compounds any like it, or whoever puts any of it on a stranger, he shall be cut off from his people.’”
 
 <sup>34</sup> Yahweh said to Moses, “Take to yourself sweet spices, gum resin, onycha, and galbanum: sweet spices with pure frankincense. There shall be an equal weight of each.
 <sup>35</sup> You shall make incense of it, a perfume after the art of the perfumer, seasoned with salt, pure and holy.
@@ -1279,7 +1279,7 @@ Moses reported the words of the people to Yahweh.
 
 > - <sup>a</sup> 2. A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters.
 > - <sup>b</sup> 13. A shekel is about 10 grams or about 0.35 ounces.
-> - <sup>c</sup> 13. a gerah is about 0.5 grams or about 7.7 grains
+> - <sup>c</sup> 13. A gerah is about 0.5 grams or about 7.7 grains
 > - <sup>d</sup> 15. A shekel is about 10 grams or about 0.35 ounces.
 > - <sup>e</sup> 23. A shekel is about 10 grams or about 0.35 ounces, so 500 shekels is about 5 kilograms or about 11 pounds.
 > - <sup>f</sup> 24. A hin is about 6.5 liters or 1.7 gallons.
@@ -1303,7 +1303,7 @@ Moses reported the words of the people to Yahweh.
 <sup>14</sup> You shall keep the Sabbath therefore, for it is holy to you. Everyone who profanes it shall surely be put to death; for whoever does any work therein, that soul shall be cut off from among his people.
 <sup>15</sup> Six days shall work be done, but on the seventh day is a Sabbath of solemn rest, holy to Yahweh. Whoever does any work on the Sabbath day shall surely be put to death.
 <sup>16</sup> Therefore the children of Israel shall keep the Sabbath, to observe the Sabbath throughout their generations, for a perpetual covenant.
-<sup>17</sup> It is a sign between me and the children of Israel forever; for in six days Yahweh made heaven and earth, and on the seventh day he rested, and was refreshed.’ ”
+<sup>17</sup> It is a sign between me and the children of Israel forever; for in six days Yahweh made heaven and earth, and on the seventh day he rested, and was refreshed.’”
 
 <sup>18</sup> When he finished speaking with him on Mount Sinai, he gave Moses the two tablets of the covenant, stone tablets, written with God’s finger.
 
@@ -1321,14 +1321,14 @@ Moses reported the words of the people to Yahweh.
 <sup>6</sup> They rose up early on the next day, and offered burnt offerings, and brought peace offerings; and the people sat down to eat and to drink, and rose up to play.
 
 <sup>7</sup> Yahweh spoke to Moses, “Go, get down; for your people, whom you brought up out of the land of Egypt, have corrupted themselves!
-<sup>8</sup> They have turned away quickly out of the way which I commanded them. They have made themselves a molded calf, and have worshiped it, and have sacrificed to it, and said, ‘These are your gods, Israel, which brought you up out of the land of Egypt.’ ”
+<sup>8</sup> They have turned away quickly out of the way which I commanded them. They have made themselves a molded calf, and have worshiped it, and have sacrificed to it, and said, ‘These are your gods, Israel, which brought you up out of the land of Egypt.’”
 
 <sup>9</sup> Yahweh said to Moses, “I have seen these people, and behold, they are a stiff-necked people.
 <sup>10</sup> Now therefore leave me alone, that my wrath may burn hot against them, and that I may consume them; and I will make of you a great nation.”
 
 <sup>11</sup> Moses begged Yahweh his God, and said, “Yahweh, why does your wrath burn hot against your people, that you have brought out of the land of Egypt with great power and with a mighty hand?
 <sup>12</sup> Why should the Egyptians talk, saying, ‘He brought them out for evil, to kill them in the mountains, and to consume them from the surface of the earth’? Turn from your fierce wrath, and turn away from this evil against your people.
-<sup>13</sup> Remember Abraham, Isaac, and Israel, your servants, to whom you swore by your own self, and said to them, ‘I will multiply your offspring<sup>a</sup> as the stars of the sky, and all this land that I have spoken of I will give to your offspring, and they shall inherit it forever.’ ”
+<sup>13</sup> Remember Abraham, Isaac, and Israel, your servants, to whom you swore by your own self, and said to them, ‘I will multiply your offspring<sup>a</sup> as the stars of the sky, and all this land that I have spoken of I will give to your offspring, and they shall inherit it forever.’”
 
 <sup>14</sup> So Yahweh turned away from the evil which he said he would do to his people.
 
@@ -1351,7 +1351,7 @@ Moses reported the words of the people to Yahweh.
 <sup>26</sup> then Moses stood in the gate of the camp, and said, “Whoever is on Yahweh’s side, come to me!”
 
 All the sons of Levi gathered themselves together to him.
-<sup>27</sup> He said to them, “Yahweh, the God of Israel, says, ‘Every man put his sword on his thigh, and go back and forth from gate to gate throughout the camp, and every man kill his brother, and every man his companion, and every man his neighbor.’ ”
+<sup>27</sup> He said to them, “Yahweh, the God of Israel, says, ‘Every man put his sword on his thigh, and go back and forth from gate to gate throughout the camp, and every man kill his brother, and every man his companion, and every man his neighbor.’”
 <sup>28</sup> The sons of Levi did according to the word of Moses. About three thousand men fell of the people that day.
 <sup>29</sup> Moses said, “Consecrate yourselves today to Yahweh, for every man was against his son and against his brother, that he may give you a blessing today.”
 
@@ -1374,7 +1374,7 @@ All the sons of Levi gathered themselves together to him.
 
 <sup>4</sup> When the people heard this evil news, they mourned; and no one put on his jewelry.
 
-<sup>5</sup> Yahweh had said to Moses, “Tell the children of Israel, ‘You are a stiff-necked people. If I were to go up among you for one moment, I would consume you. Therefore now take off your jewelry from you, that I may know what to do to you.’ ”
+<sup>5</sup> Yahweh had said to Moses, “Tell the children of Israel, ‘You are a stiff-necked people. If I were to go up among you for one moment, I would consume you. Therefore now take off your jewelry from you, that I may know what to do to you.’”
 
 <sup>6</sup> The children of Israel stripped themselves of their jewelry from Mount Horeb onward.
 
@@ -1460,7 +1460,7 @@ All the sons of Levi gathered themselves together to him.
 
 <sup>1</sup> Moses assembled all the congregation of the children of Israel, and said to them, “These are the words which Yahweh has commanded, that you should do them.
 <sup>2</sup> ‘Six days shall work be done, but on the seventh day there shall be a holy day for you, a Sabbath of solemn rest to Yahweh: whoever does any work in it shall be put to death.
-<sup>3</sup> You shall kindle no fire throughout your habitations on the Sabbath day.’ ”
+<sup>3</sup> You shall kindle no fire throughout your habitations on the Sabbath day.’”
 
 <sup>4</sup> Moses spoke to all the congregation of the children of Israel, saying, “This is the thing which Yahweh commanded, saying,
 <sup>5</sup> ‘Take from among you an offering to Yahweh. Whoever is of a willing heart, let him bring it as Yahweh’s offering: gold, silver, bronze,
@@ -1469,7 +1469,7 @@ All the sons of Levi gathered themselves together to him.
 <sup>8</sup> oil for the light, spices for the anointing oil and for the sweet incense,
 <sup>9</sup> onyx stones, and stones to be set for the ephod and for the breastplate.
 
-<sup>10</sup> “ ‘Let every wise-hearted man among you come, and make all that Yahweh has commanded:
+<sup>10</sup> “‘Let every wise-hearted man among you come, and make all that Yahweh has commanded:
 <sup>11</sup> the tabernacle, its outer covering, its roof, its clasps, its boards, its bars, its pillars, and its sockets;
 <sup>12</sup> the ark, and its poles, the mercy seat, the veil of the screen;
 <sup>13</sup> the table with its poles and all its vessels, and the show bread;
@@ -1478,7 +1478,7 @@ All the sons of Levi gathered themselves together to him.
 <sup>16</sup> the altar of burnt offering, with its grating of bronze, its poles, and all its vessels, the basin and its base;
 <sup>17</sup> the hangings of the court, its pillars, their sockets, and the screen for the gate of the court;
 <sup>18</sup> the pins of the tabernacle, the pins of the court, and their cords;
-<sup>19</sup> the finely worked garments for ministering in the holy place—the holy garments for Aaron the priest, and the garments of his sons—to minister in the priest’s office.’ ”
+<sup>19</sup> the finely worked garments for ministering in the holy place—the holy garments for Aaron the priest, and the garments of his sons—to minister in the priest’s office.’”
 
 <sup>20</sup> All the congregation of the children of Israel departed from the presence of Moses.
 <sup>21</sup> They came, everyone whose heart stirred him up, and everyone whom his spirit made willing, and brought Yahweh’s offering for the work of the Tent of Meeting, and for all of its service, and for the holy garments.
@@ -1629,7 +1629,7 @@ All the sons of Levi gathered themselves together to him.
 > - <sup>c</sup> 24. A shekel is about 10 grams or about 0.32 Troy ounces.
 > - <sup>d</sup> 25. A talent is about 30 kilograms or 66 pounds
 > - <sup>e</sup> 25. A shekel is about 10 grams or about 0.35 ounces.
-> - <sup>f</sup> 26. a beka is about 5 grams or about 0.175 ounces
+> - <sup>f</sup> 26. A beka is about 5 grams or about 0.175 ounces
 > - <sup>g</sup> 26. A shekel is about 10 grams or about 0.35 ounces.
 > - <sup>h</sup> 27. A talent is about 30 kilograms or 66 pounds.
 > - <sup>i</sup> 28. A shekel is about 10 grams or about 0.35 ounces, so 1775 shekels is about 17.75 kilograms or about 39 pounds.

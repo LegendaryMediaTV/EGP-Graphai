@@ -964,7 +964,7 @@
         "text": " Bochim:",
         "foot": {
           "type": "stu",
-          "content": ["that is, ", { "text": "Weepers", "marks": ["i"] }]
+          "content": ["That is, ", { "text": "Weepers", "marks": ["i"] }]
         },
         "strong": "H1066"
       },
@@ -4743,7 +4743,7 @@
         "foot": {
           "type": "stu",
           "content": [
-            "that is, ",
+            "That is, ",
             { "text": "The LORD send peace", "marks": ["i"] }
           ]
         },
@@ -7203,9 +7203,10 @@
           "type": "trn",
           "content": [
             "Or, ",
+            { "text": "by the oak of the pillar. See ", "marks": ["i"] },
             {
-              "text": "by the oak of the pillar. See Josh. 24.26",
-              "marks": ["i"]
+              "bibleLink": "Joshua 24:26",
+              "content": { "text": "Josh. 24.26", "marks": ["i"] }
             }
           ]
         },
@@ -12346,7 +12347,7 @@
         "foot": {
           "type": "stu",
           "content": [
-            "that is, ",
+            "That is, ",
             { "text": "the lifting up of the jawbone", "marks": ["i"] },
             ", or, ",
             { "text": "casting away of the jawbone", "marks": ["i"] }
@@ -12424,7 +12425,7 @@
         "foot": {
           "type": "stu",
           "content": [
-            "that is, ",
+            "That is, ",
             { "text": "the well of him that called", "marks": ["i"] },
             " or ",
             { "text": "cried", "marks": ["i"] }

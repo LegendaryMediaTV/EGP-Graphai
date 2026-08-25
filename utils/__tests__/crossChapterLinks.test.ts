@@ -1,12 +1,11 @@
 import { describe, it, expect } from "vitest";
 import { classifyBibleLink, findCrossChapterLinks, fixCrossChapterLinks, splitCrossChapterLink, splitCrossChapterLinksInContent } from "../crossChapterLinks";
 
-// Target strings are drawn from this repo's own six versions (ASV1901,
-// BYZ2018, CLV1880, KJV1769, WEBUS2020, YLT1898) wherever a real example
-// exists — WEBUS2020 and YLT1898 are the only ones with any `bibleLink` at
-// all, so most fixtures are theirs. One shape absent from this repo's data (a
-// bare chapter reference) is marked below as a grammar illustration, not a
-// real occurrence.
+// Target strings are drawn from this repo's own versions wherever a real
+// example exists — WEBUS2020 and YLT1898 are the only ones carrying any
+// `bibleLink` at all, so most fixtures are theirs. One shape absent from real
+// data (a bare chapter reference) is marked below as a grammar illustration,
+// not an occurrence.
 
 describe("classifyBibleLink — target shape", () => {
   it("should classify an em-dash cross-chapter target as crossChapterRange (the real WEBUS2020 Hebrews 11:34 finding)", () => {
@@ -88,9 +87,9 @@ describe("classifyBibleLink — book-name resolution restricted to a version's o
     expect(classifyBibleLink("WEBUS2020", "2 Kings 6:31—7:20").book).toBe("2KG");
   });
 
-  it("should report '1 Esdras' as unresolvable in WEBUS2020 rather than throw (absent from every version's canon here)", () => {
-    expect(() => classifyBibleLink("WEBUS2020", "1 Esdras 8:32")).not.toThrow();
-    expect(classifyBibleLink("WEBUS2020", "1 Esdras 8:32").book).toBeNull();
+  it("should report 'Psalms of Solomon' as unresolvable in WEBUS2020 rather than throw (a real bible-books.json entry, but absent from every version's canon here)", () => {
+    expect(() => classifyBibleLink("WEBUS2020", "Psalms of Solomon 8:32")).not.toThrow();
+    expect(classifyBibleLink("WEBUS2020", "Psalms of Solomon 8:32").book).toBeNull();
   });
 
   it("should report a name valid in one version's canon as unresolvable in BYZ2018's NT-only canon", () => {
@@ -123,8 +122,15 @@ describe("findCrossChapterLinks", () => {
   });
 
   it("should count every bibleLink node scanned, not just the ones that turn out to be findings", () => {
+    // WEBUS2020 currently carries 550 real bibleLink nodes: canonical
+    // Strong's/cross-reference targets, deuterocanon and \f-derived reference
+    // nodes (see `utils/usfm/verify.ts`'s BIBLE_LINKS_IN_CORPUS), and generic
+    // embedded-reference links from `usfm/references.ts`'s
+    // linkEmbeddedReferences. This count drifts as the corpus changes —
+    // update it here rather than treating a mismatch as a bug in
+    // findCrossChapterLinks.
     const { scanned, findings } = findCrossChapterLinks("WEBUS2020");
-    expect(scanned).toBe(424); // 423 (pre-fix) + 1: the split replaced one bibleLink node with two
+    expect(scanned).toBe(550);
     expect(findings.length).toBeLessThan(scanned);
   });
 });

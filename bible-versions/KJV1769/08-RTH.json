@@ -540,7 +540,7 @@
         "text": " me not Naomi,",
         "foot": {
           "type": "stu",
-          "content": ["that is, ", { "text": "pleasant", "marks": ["i"] }]
+          "content": ["That is, ", { "text": "pleasant", "marks": ["i"] }]
         },
         "strong": "H5281"
       },
@@ -695,7 +695,11 @@
               "type": "stu",
               "content": [
                 "Called ",
-                { "text": "Mat. 1.5 Booz", "marks": ["i"] }
+                {
+                  "bibleLink": "Matthew 1:5",
+                  "content": { "text": "Mat. 1.5", "marks": ["i"] }
+                },
+                { "text": " Booz", "marks": ["i"] }
               ]
             }
           }

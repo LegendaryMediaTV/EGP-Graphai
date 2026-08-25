@@ -21,6 +21,7 @@
 <sup>19</sup> So _are_ the paths of every gainer of dishonest gain, The life of its owners it taketh.<br>
 
 ### The Cry of Wisdom
+
 <sup>20</sup> Wisdom in an out-place crieth aloud, In broad places she giveth forth her voice,<br>
 <sup>21</sup> At the head of the multitudes she calleth, In the openings of the gates, In the city her sayings she saith:<br>
 <sup>22</sup> “Till when, ye simple, do ye love simplicity? And have scorners their scorning desired? And do fools hate knowledge?<br>
@@ -704,6 +705,7 @@
 <sup>16</sup> He is oppressing the poor to multiply to him, He is giving to the rich—only to want.<br>
 
 ### Words of the Wise
+
 <sup>17</sup> Incline thine ear, and hear words of the wise, And thy heart set to my knowledge,<br>
 <sup>18</sup> For they are pleasant when thou dost keep them in thy heart, They are prepared together for thy lips.<br>
 <sup>19</sup> That thy trust may be in Jehovah, I caused thee to know to-day, even thou.<br>
@@ -1001,6 +1003,7 @@
 <sup>9</sup> Open thy mouth, judge righteously, Both the cause of the poor and needy!”<br>
 
 ### The Good Wife
+
 <sup>10</sup> A woman of worth who doth find? Yea, far above rubies _is_ her price.<br>
 <sup>11</sup> The heart of her husband hath trusted in her, And spoil he lacketh not.<br>
 <sup>12</sup> She hath done him good, and not evil, All days of her life.<br>

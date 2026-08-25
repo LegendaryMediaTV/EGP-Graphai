@@ -1,7 +1,7 @@
 ## Chapter 1
 
 <sup>1</sup> In the second year of Darius the king, in the sixth month, in the first day of the month, Yahweh’s<sup>a</sup> word came by Haggai the prophet, to Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Jehozadak, the high priest, saying,
-<sup>2</sup> “This is what Yahweh of Armies says: These people say, ‘The time hasn’t yet come, the time for Yahweh’s house to be built.’ ”
+<sup>2</sup> “This is what Yahweh of Armies says: These people say, ‘The time hasn’t yet come, the time for Yahweh’s house to be built.’”
 
 <sup>3</sup> Then Yahweh’s word came by Haggai the prophet, saying,
 <sup>4</sup> “Is it a time for you yourselves to dwell in your paneled houses, while this house lies waste?
@@ -39,20 +39,20 @@
 
 <sup>10</sup> In the twenty-fourth day of the ninth month, in the second year of Darius, Yahweh’s word came by Haggai the prophet, saying,
 <sup>11</sup> “Yahweh of Armies says: Ask now the priests concerning the law, saying,
-<sup>12</sup> ‘If someone carries holy meat in the fold of his garment, and with his fold touches bread, stew, wine, oil, or any food, will it become holy?’ ”
+<sup>12</sup> ‘If someone carries holy meat in the fold of his garment, and with his fold touches bread, stew, wine, oil, or any food, will it become holy?’”
 
 The priests answered, “No.”
 
-<sup>13</sup> Then Haggai said, “If one who is unclean by reason of a dead body touch any of these, will it be unclean?”
+<sup>13</sup> Then Haggai said, “If one who is unclean by reason of a dead body touches any of these, will it be unclean?”
 
 The priests answered, “It will be unclean.”
 
-<sup>14</sup> Then Haggai answered, “ ‘So is this people, and so is this nation before me,’ says Yahweh; ‘and so is every work of their hands. That which they offer there is unclean.
+<sup>14</sup> Then Haggai answered, “‘So is this people, and so is this nation before me,’ says Yahweh; ‘and so is every work of their hands. That which they offer there is unclean.
 <sup>15</sup> Now, please consider from this day and backward, before a stone was laid on a stone in Yahweh’s temple.
 <sup>16</sup> Through all that time, when one came to a heap of twenty measures, there were only ten. When one came to the wine vat to draw out fifty, there were only twenty.
 <sup>17</sup> I struck you with blight, mildew, and hail in all the work of your hands; yet you didn’t turn to me,’ says Yahweh.
 <sup>18</sup> ‘Consider, please, from this day and backward, from the twenty-fourth day of the ninth month, since the day that the foundation of Yahweh’s temple was laid, consider it.
-<sup>19</sup> Is the seed yet in the barn? Yes, the vine, the fig tree, the pomegranate, and the olive tree haven’t produced. From today I will bless you.’ ”
+<sup>19</sup> Is the seed yet in the barn? Yes, the vine, the fig tree, the pomegranate, and the olive tree haven’t produced. From today I will bless you.’”
 
 <sup>20</sup> Yahweh’s word came the second time to Haggai in the twenty-fourth day of the month, saying,
 <sup>21</sup> “Speak to Zerubbabel, governor of Judah, saying, ‘I will shake the heavens and the earth.

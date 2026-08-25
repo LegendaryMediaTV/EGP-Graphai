@@ -7,11 +7,11 @@
 <sup>5</sup> Your fathers, where are they? And the prophets, do they live forever?
 <sup>6</sup> But my words and my decrees, which I commanded my servants the prophets, didn’t they overtake your fathers?
 
-“Then they repented and said, ‘Just as Yahweh of Armies determined to do to us, according to our ways and according to our practices, so he has dealt with us.’ ”
+“Then they repented and said, ‘Just as Yahweh of Armies determined to do to us, according to our ways and according to our practices, so he has dealt with us.’”
 
 <sup>7</sup> On the twenty-fourth day of the eleventh month, which is the month Shebat, in the second year of Darius, Yahweh’s word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,
 <sup>8</sup> “I had a vision in the night, and behold,<sup>b</sup> a man riding on a red horse, and he stood among the myrtle trees that were in a ravine; and behind him there were red, brown, and white horses.
-<sup>9</sup> Then I asked, ‘My lord, what are these?’ ”
+<sup>9</sup> Then I asked, ‘My lord, what are these?’”
 
 The angel who talked with me said to me, “I will show you what these are.”
 
@@ -24,9 +24,9 @@ The angel who talked with me said to me, “I will show you what these are.”
 <sup>13</sup> Yahweh answered the angel who talked with me with kind and comforting words.
 <sup>14</sup> So the angel who talked with me said to me, “Proclaim, saying, ‘Yahweh of Armies says: “I am jealous for Jerusalem and for Zion with a great jealousy.
 <sup>15</sup> I am very angry with the nations that are at ease; for I was but a little displeased, but they added to the calamity.”
-<sup>16</sup> Therefore Yahweh says: “I have returned to Jerusalem with mercy. My house shall be built in it,” says Yahweh of Armies, “and a line shall be stretched out over Jerusalem.” ’
+<sup>16</sup> Therefore Yahweh says: “I have returned to Jerusalem with mercy. My house shall be built in it,” says Yahweh of Armies, “and a line shall be stretched out over Jerusalem.”’
 
-<sup>17</sup> “Proclaim further, saying, ‘Yahweh of Armies says: “My cities will again overflow with prosperity, and Yahweh will again comfort Zion, and will again choose Jerusalem.” ’ ”
+<sup>17</sup> “Proclaim further, saying, ‘Yahweh of Armies says: “My cities will again overflow with prosperity, and Yahweh will again comfort Zion, and will again choose Jerusalem.”’”
 
 <sup>18</sup> I lifted up my eyes and saw, and behold, four horns.
 <sup>19</sup> I asked the angel who talked with me, “What are these?”
@@ -77,7 +77,7 @@ So they set a clean turban on his head, and clothed him; and Yahweh’s angel wa
 <sup>7</sup> “Yahweh of Armies says: ‘If you will walk in my ways, and if you will follow my instructions, then you also shall judge my house, and shall also keep my courts, and I will give you a place of access among these who stand by.
 <sup>8</sup> Hear now, Joshua the high priest, you and your fellows who sit before you, for they are men who are a sign; for, behold, I will bring out my servant, the Branch.
 <sup>9</sup> For, behold, the stone that I have set before Joshua: on one stone are seven eyes; behold, I will engrave its inscription,’ says Yahweh of Armies, ‘and I will remove the iniquity of that land in one day.
-<sup>10</sup> In that day,’ says Yahweh of Armies, ‘you will invite every man his neighbor under the vine and under the fig tree.’ ”
+<sup>10</sup> In that day,’ says Yahweh of Armies, ‘you will invite every man his neighbor under the vine and under the fig tree.’”
 
 ## Chapter 4
 
@@ -94,7 +94,7 @@ I said, “I have seen, and behold, a lamp stand all of gold, with its bowl on t
 I said, “No, my lord.”
 
 <sup>6</sup> Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.
-<sup>7</sup> Who are you, great mountain? Before Zerubbabel you are a plain; and he will bring out the capstone with shouts of ‘Grace, grace, to it!’ ”
+<sup>7</sup> Who are you, great mountain? Before Zerubbabel you are a plain; and he will bring out the capstone with shouts of ‘Grace, grace, to it!’”
 
 <sup>8</sup> Moreover Yahweh’s word came to me, saying,
 <sup>9</sup> “The hands of Zerubbabel have laid the foundation of this house. His hands shall also finish it; and you will know that Yahweh of Armies has sent me to you.
@@ -160,7 +160,7 @@ He said, “This is the ephah<sup>b</sup> basket that is appearing.” He said m
 <sup>13</sup> He will build Yahweh’s temple. He will bear the glory, and will sit and rule on his throne. He will be a priest on his throne. The counsel of peace will be between them both.
 <sup>14</sup> The crowns shall be to Helem, to Tobijah, to Jedaiah, and to Hen the son of Zephaniah, for a memorial in Yahweh’s temple.
 
-<sup>15</sup> Those who are far off shall come and build in Yahweh’s temple; and you shall know that Yahweh of Armies has sent me to you. This will happen, if you will diligently obey Yahweh your God’s voice.” ’ ”<sup>a</sup>
+<sup>15</sup> Those who are far off shall come and build in Yahweh’s temple; and you shall know that Yahweh of Armies has sent me to you. This will happen, if you will diligently obey Yahweh your God’s voice.”’”<sup>a</sup>
 
 > - <sup>a</sup> 15. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
@@ -173,7 +173,7 @@ He said, “This is the ephah<sup>b</sup> basket that is appearing.” He said m
 <sup>4</sup> Then the word of Yahweh of Armies came to me, saying,
 <sup>5</sup> “Speak to all the people of the land and to the priests, saying, ‘When you fasted and mourned in the fifth and in the seventh month for these seventy years, did you at all fast to me, really to me?
 <sup>6</sup> When you eat and when you drink, don’t you eat for yourselves and drink for yourselves?
-<sup>7</sup> Aren’t these the words which Yahweh proclaimed by the former prophets when Jerusalem was inhabited and in prosperity, and its cities around her, and the South and the lowland were inhabited?’ ”
+<sup>7</sup> Aren’t these the words which Yahweh proclaimed by the former prophets when Jerusalem was inhabited and in prosperity, and its cities around her, and the South and the lowland were inhabited?’”
 
 <sup>8</sup> Yahweh’s word came to Zechariah, saying,
 <sup>9</sup> “Thus has Yahweh of Armies spoken, saying, ‘Execute true judgment, and show kindness and compassion every man to his brother.
@@ -188,7 +188,7 @@ He said, “This is the ephah<sup>b</sup> basket that is appearing.” He said m
 <sup>1</sup> The word of Yahweh of Armies came to me.
 <sup>2</sup> Yahweh of Armies says: “I am jealous for Zion with great jealousy, and I am jealous for her with great wrath.”
 
-<sup>3</sup> Yahweh says: “I have returned to Zion, and will dwell in the middle of Jerusalem. Jerusalem shall be called ‘The City of Truth;’ and the mountain of Yahweh of Armies, ‘The Holy Mountain.’ ”
+<sup>3</sup> Yahweh says: “I have returned to Zion, and will dwell in the middle of Jerusalem. Jerusalem shall be called ‘The City of Truth;’ and the mountain of Yahweh of Armies, ‘The Holy Mountain.’”
 
 <sup>4</sup> Yahweh of Armies says: “Old men and old women will again dwell in the streets of Jerusalem, every man with his staff in his hand because of their old age.
 <sup>5</sup> The streets of the city will be full of boys and girls playing in its streets.”
@@ -215,7 +215,7 @@ He said, “This is the ephah<sup>b</sup> basket that is appearing.” He said m
 <sup>20</sup> Yahweh of Armies says: “Many peoples and the inhabitants of many cities will yet come.
 <sup>21</sup> The inhabitants of one will go to another, saying, ‘Let’s go speedily to entreat the favor of Yahweh, and to seek Yahweh of Armies. I will go also.’
 <sup>22</sup> Yes, many peoples and strong nations will come to seek Yahweh of Armies in Jerusalem and to entreat the favor of Yahweh.”
-<sup>23</sup> Yahweh of Armies says: “In those days, ten men out of all the languages of the nations will take hold of the skirt of him who is a Jew, saying, ‘We will go with you, for we have heard that God is with you.’ ”
+<sup>23</sup> Yahweh of Armies says: “In those days, ten men out of all the languages of the nations will take hold of the skirt of him who is a Jew, saying, ‘We will go with you, for we have heard that God is with you.’”
 
 ## Chapter 9
 
@@ -259,7 +259,7 @@ He said, “This is the ephah<sup>b</sup> basket that is appearing.” He said m
 <sup>11</sup> He will pass through the sea of affliction,<br>and will strike the waves in the sea,<br>and all the depths of the Nile will dry up;<br>and the pride of Assyria will be brought down,<br>and the scepter of Egypt will depart.<br>
 <sup>12</sup> I will strengthen them in Yahweh.<br>They will walk up and down in his name,” says Yahweh.
 
-> - <sup>a</sup> 2. teraphim were household idols that may have been associated with inheritance rights to the household property.
+> - <sup>a</sup> 2. Teraphim were household idols that may have been associated with inheritance rights to the household property.
 
 ## Chapter 11
 
@@ -318,7 +318,7 @@ He said, “This is the ephah<sup>b</sup> basket that is appearing.” He said m
 
 <sup>7</sup> “Awake, sword, against my shepherd,<br>and against the man who is close to me,” says Yahweh of Armies.<br>“Strike the shepherd, and the sheep will be scattered;<br>and I will turn my hand against the little ones.<br>
 <sup>8</sup> It shall happen that in all the land,” says Yahweh,<br>“two parts in it will be cut off and die;<br>but the third will be left in it.<br>
-<sup>9</sup> I will bring the third part into the fire,<br>and will refine them as silver is refined,<br>and will test them like gold is tested.<br>They will call on my name, and I will hear them.<br>I will say, ‘It is my people;’<br>and they will say, ‘Yahweh is my God.’ ”
+<sup>9</sup> I will bring the third part into the fire,<br>and will refine them as silver is refined,<br>and will test them like gold is tested.<br>They will call on my name, and I will hear them.<br>I will say, ‘It is my people;’<br>and they will say, ‘Yahweh is my God.’”
 
 ## Chapter 14
 

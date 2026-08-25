@@ -160,37 +160,46 @@
 <sup>2</sup> I will be glad and rejoice in thee:<br>I will sing praise to thy name, O thou Most High.<br>
 
 #### ב Bet
+
 <sup>3</sup> When mine enemies are turned back,<br>They shall fall and perish at thy presence.<br>
 <sup>4</sup> For thou hast maintained my right<sup>a</sup> and my cause;<br>Thou satest in the throne judging right.<sup>b</sup><br>
 
 #### ג Gimel
+
 <sup>5</sup> Thou hast rebuked the heathen, thou hast destroyed the wicked,<br>Thou hast put out their name for ever and ever.<br>
 <sup>6</sup> O thou enemy, destructions are come to a perpetual end:<br>And thou hast destroyed cities; Their memorial is perished with them.<br>
 
 #### ה He
+
 <sup>7</sup> But the LORD shall endure for ever:<br>He hath prepared his throne for judgment.<br>
 <sup>8</sup> And he shall judge the world in righteousness,<br>He shall minister judgment to the people in uprightness.<br>
 
 #### ו Waw
+
 <sup>9</sup> The LORD also will be a refuge<sup>c</sup> for the oppressed,<br>A refuge in times of trouble.<br>
 <sup>10</sup> And they that know thy name will put their trust in thee:<br>For thou, LORD, hast not forsaken them that seek thee.<br>
 
 #### ז Zain
+
 <sup>11</sup> Sing praises to the LORD, which dwelleth in Zion:<br>Declare among the people his doings.<br>
 <sup>12</sup> When he maketh inquisition for blood, he remembereth them:<br>He forgetteth not the cry of the humble.<sup>d</sup><br>
 
 #### ח Het
+
 <sup>13</sup> Have mercy upon me, O LORD; Consider my trouble _which I suffer_ of them that hate me,<br>Thou that liftest me up from the gates of death:<br>
 <sup>14</sup> That I may shew forth all thy praise in the gates of the daughter of Zion:<br>I will rejoice in thy salvation.<br>
 
 #### ט Tet
+
 <sup>15</sup> The heathen are sunk down in the pit _that_ they made:<br>In the net which they hid is their own foot taken.<br>
 <sup>16</sup> The LORD is known _by_ the judgment _which_ he executeth:<br>The wicked is snared in the work of his own hands. _Higgaion. Selah._<br>
 
 #### י Yod
+
 <sup>17</sup> The wicked shall be turned into hell,<br>_And_ all the nations that forget God.<br>
 
 #### כ Kaph
+
 <sup>18</sup> For the needy shall not alway be forgotten:<br>The expectation of the poor shall _not_ perish for ever.<br>
 <sup>19</sup> Arise, O LORD; let not man prevail:<br>Let the heathen be judged in thy sight.<br>
 <sup>20</sup> Put them in fear, O LORD:<br>_That_ the nations may know themselves _to be but_ men. _Selah._<br>
@@ -208,9 +217,11 @@
 <sup>2</sup> The wicked in _his_ pride doth persecute the poor:<sup>a</sup><br>Let them be taken in the devices that they have imagined.<br>
 
 #### (מ Mem)
+
 <sup>3</sup> For the wicked boasteth of his heart’s desire,<br>And blesseth<sup>b</sup> the covetous, _whom_ the LORD abhorreth.<br>
 
 #### (נ Nun)
+
 <sup>4</sup> The wicked, through the pride of his countenance, will not seek _after God:_<br>God _is_ not in all his thoughts.<br>
 <sup>5</sup> His ways are always grievous; Thy judgments _are_ far above out of his sight:<br>_As for_ all his enemies, he puffeth at them.<br>
 <sup>6</sup> He hath said in his heart, I shall not be moved:<br>For _I shall_ never<sup>c</sup> _be_ in adversity.<br>
@@ -218,28 +229,36 @@
 #### (ס Samek)
 <sup>7</sup> 
 #### פ Pe
+
+
 His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tongue _is_ mischief and vanity.<sup>e</sup><br>
 
 #### ע Ain
+
 <sup>8</sup> He sitteth in the lurking places of the villages:<br>In the secret places doth he murder the innocent: His eyes are privily set against the poor.<br>
 
 #### (צ Zade)
+
 <sup>9</sup> He lieth in wait secretly<sup>f</sup> as a lion in his den:<br>He lieth in wait to catch the poor:<br>He doth catch the poor, when he draweth him into his net.<br>
 <sup>10</sup> He croucheth,<sup>g</sup> _and_ humbleth himself,<br>That the poor may fall by his strong ones.<sup>h</sup><br>
 <sup>11</sup> He hath said in his heart, God hath forgotten:<br>He hideth his face; he will never see _it_.<br>
 
 #### ק Qoph
+
 <sup>12</sup> Arise, O LORD; O God, lift up thine hand:<br>Forget not the humble.<sup>i</sup><br>
 <sup>13</sup> Wherefore doth the wicked contemn God?<br>He hath said in his heart, Thou wilt not require _it_.<br>
 
 #### ר Resh
+
 <sup>14</sup> Thou hast seen _it_; for thou beholdest mischief and spite, to requite _it_ with thy hand:<br>The poor committeth<sup>j</sup> himself unto thee; Thou art the helper of the fatherless.<br>
 
 #### ש Shin
+
 <sup>15</sup> Break thou the arm of the wicked<br>And the evil _man:_ seek out his wickedness _till_ thou find none.<br>
 <sup>16</sup> The LORD _is_ King for ever and ever:<br>The heathen are perished out of his land.<br>
 
 #### ת Taw
+
 <sup>17</sup> LORD, thou hast heard the desire of the humble:<br>Thou wilt prepare<sup>k</sup> their heart, thou wilt cause thine ear to hear:<br>
 <sup>18</sup> To judge the fatherless and the oppress<sup>l</sup>ed,<br>That the man of the earth may no more oppress.<br>
 
@@ -590,7 +609,7 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 <sup>6</sup> Surely goodness and mercy shall follow me all the days of my life:<br>And I will dwell in the house of the LORD for ever.<br>
 
 > - <sup>a</sup> 2. Heb. _pastures of tender grass_
-> - <sup>b</sup> 2. _waters of quietness_
+> - <sup>b</sup> 2. _Waters of quietness_
 > - <sup>c</sup> 5. Heb. _makest fat_
 
 ## Chapter 24
@@ -620,65 +639,86 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 <sup>1</sup> Unto thee, O LORD, do I lift up my soul.
 
 #### ב Bet
+
 <sup>2</sup> O my God, I trust in thee:<br>Let me not be ashamed, let not mine enemies triumph over me.<br>
 
 #### ג Gimel
+
 <sup>3</sup> Yea, let none that wait on thee be ashamed:<br>Let them be ashamed which transgress without cause.<br>
 
 #### ד Dalet
+
 <sup>4</sup> Shew me thy ways, O LORD;<br>Teach me thy paths.<br>
 
 #### ה He
 <sup>5</sup> 
 #### (ו Waw)
+
+
 Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; on thee do I wait all the day.<br>
 
 #### ז Zain
+
 <sup>6</sup> Remember, O LORD, thy tender mercies and thy lovingkindnesses;<br>For they _have been_ ever of old.<br>
 
 #### ח Het
+
 <sup>7</sup> Remember not the sins of my youth, nor my transgressions:<br>According to thy mercy remember thou me for thy goodness’ sake, O LORD.<br>
 
 #### ט Tet
+
 <sup>8</sup> Good and upright _is_ the LORD:<br>Therefore will he teach sinners in the way.<br>
 
 #### י Yod
+
 <sup>9</sup> The meek will he guide in judgment:<br>And the meek will he teach his way.<br>
 
 #### כ Kaph
+
 <sup>10</sup> All the paths of the LORD _are_ mercy and truth<br>Unto such as keep his covenant and his testimonies.<br>
 
 #### ל Lamed
+
 <sup>11</sup> For thy name’s sake, O LORD,<br>Pardon mine iniquity; for it _is_ great.<br>
 
 #### מ Mem
+
 <sup>12</sup> What man _is_ he that feareth the LORD?<br>Him shall he teach in the way _that_ he shall choose.<br>
 
 #### נ Nun
+
 <sup>13</sup> His soul shall dwell at ease;<br>And his seed shall inherit the earth.<br>
 
 #### ס Samek
+
 <sup>14</sup> The secret of the LORD _is_ with them that fear him;<br>And he will shew them his covenant.<br>
 
 #### ע Ain
+
 <sup>15</sup> Mine eyes _are_ ever toward the LORD;<br>For he shall pluck<sup>a</sup> my feet out of the net.<br>
 
 #### פ Pe
+
 <sup>16</sup> Turn thee unto me, and have mercy upon me;<br>For I _am_ desolate and afflicted.<br>
 
 #### צ Zade
+
 <sup>17</sup> The troubles of my heart are enlarged:<br>_O_ bring thou me out of my distresses.<br>
 
 #### (ק Qoph)
+
 <sup>18</sup> Look upon mine affliction and my pain;<br>And forgive all my sins.<br>
 
 #### ר Resh
+
 <sup>19</sup> Consider mine enemies; for they are many;<br>And they hate me with cruel hatred.<sup>b</sup><br>
 
 #### ש Shin
+
 <sup>20</sup> O keep my soul, and deliver me:<br>Let me not be ashamed; for I put my trust in thee.<br>
 
 #### ת Taw
+
 <sup>21</sup> Let integrity and uprightness preserve me;<br>For I wait on thee.<br>
 <sup>22</sup> Redeem Israel, O God, out of all his troubles.<br>
 
@@ -895,63 +935,83 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>1</sup> I will bless the LORD at all times:<br>His praise _shall_ continually _be_ in my mouth.<br>
 
 #### ב Bet
+
 <sup>2</sup> My soul shall make her boast in the LORD:<br>The humble shall hear _thereof_, and be glad.<br>
 
 #### ג Gimel
+
 <sup>3</sup> O magnify the LORD with me,<br>And let us exalt his name together.<br>
 
 #### ד Dalet
+
 <sup>4</sup> I sought the LORD, and he heard me,<br>And delivered me from all my fears.<br>
 
 #### ה He
+
 <sup>5</sup> They looked unto him,<sup>a</sup> and were lightened:<br>And their faces were not ashamed.<br>
 
 #### ז Zain
+
 <sup>6</sup> This poor man cried, and the LORD heard _him_,<br>And saved him out of all his troubles.<br>
 
 #### ח Het
+
 <sup>7</sup> The angel of the LORD encampeth round about them that fear him,<br>And delivereth them.<br>
 
 #### ט Tet
+
 <sup>8</sup> O taste and see that the LORD _is_ good:<br>Blessed _is_ the man _that_ trusteth in him.<br>
 
 #### י Yod
+
 <sup>9</sup> O fear the LORD, ye his saints:<br>For _there is_ no want to them that fear him.<br>
 
 #### כ Kaph
+
 <sup>10</sup> The young lions do lack, and suffer hunger:<br>But they that seek the LORD shall not want any good _thing_.<br>
 
 #### ל Lamed
+
 <sup>11</sup> Come, ye children, hearken unto me:<br>I will teach you the fear of the LORD.<br>
 
 #### מ Mem
+
 <sup>12</sup> What man _is he that_ desireth life,<br>_And_ loveth _many_ days, that he may see good?<br>
 
 #### נ Nun
+
 <sup>13</sup> Keep thy tongue from evil,<br>And thy lips from speaking guile.<br>
 
 #### ס Samek
+
 <sup>14</sup> Depart from evil, and do good;<br>Seek peace, and pursue it.<br>
 
 #### ע Ain
+
 <sup>15</sup> The eyes of the LORD _are_ upon the righteous,<br>And his ears _are open_ unto their cry.<br>
 
 #### פ Pe
+
 <sup>16</sup> The face of the LORD _is_ against them that do evil,<br>To cut off the remembrance of them from the earth.<br>
 
 #### צ Zade
+
 <sup>17</sup> _The righteous_ cry, and the LORD heareth,<br>And delivereth them out of all their troubles.<br>
 
 #### ק Qoph
+
 <sup>18</sup> The LORD _is_ nigh unto them that are of a broken heart;<sup>b</sup><br>And saveth such as be of a contrite spirit.<sup>c</sup><br>
 
 #### ר Resh
+
 <sup>19</sup> Many _are_ the afflictions of the righteous:<br>But the LORD delivereth him out of them all.<br>
 
 #### ש Shin
+
 <sup>20</sup> He keepeth all his bones:<br>Not one of them is broken.<br>
 
 #### ת Taw
+
 <sup>21</sup> Evil shall slay the wicked:<br>And they that hate the righteous shall be desolate.<sup>d</sup><br>
 <sup>22</sup> The LORD redeemeth the soul of his servants:<br>And none of them that trust in him shall be desolate.<br>
 
@@ -1041,82 +1101,103 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>2</sup> For they shall soon be cut down like the grass,<br>And wither as the green herb.<br>
 
 #### ב Bet
+
 <sup>3</sup> Trust in the LORD, and do good;<br>_So_ shalt thou dwell in the land, and verily<sup>a</sup> thou shalt be fed.<br>
 <sup>4</sup> Delight thyself also in the LORD;<br>And he shall give thee the desires of thine heart.<br>
 
 #### ג Gimel
+
 <sup>5</sup> Commit thy way unto the LORD;<sup>b</sup> Trust also in him;<br>And he shall bring _it_ to pass.<br>
 <sup>6</sup> And he shall bring forth thy righteousness as the light,<br>And thy judgment as the noonday.<br>
 
 #### ד Dalet
+
 <sup>7</sup> Rest in the LORD,<sup>c</sup> and wait patiently for him:<br>Fret not thyself because of him who prospereth in his way, because of the man who bringeth wicked devices to pass.<br>
 
 #### ה He
+
 <sup>8</sup> Cease from anger, and forsake wrath:<br>Fret not thyself in any wise to do evil.<br>
 <sup>9</sup> For evildoers shall be cut off:<br>But those that wait upon the LORD, they shall inherit the earth.<br>
 
 #### ו Waw
+
 <sup>10</sup> For yet a little while, and the wicked _shall_ not _be:_<br>Yea, thou shalt diligently consider his place, and it _shall_ not _be_.<br>
 <sup>11</sup> But the meek shall inherit the earth;<br>And shall delight themselves in the abundance of peace.<br>
 
 #### ז Zain
+
 <sup>12</sup> The wicked plotteth<sup>d</sup> against the just,<br>And gnasheth upon him with his teeth.<br>
 <sup>13</sup> The Lord shall laugh at him:<br>For he seeth that his day is coming.<br>
 
 #### ח Het
+
 <sup>14</sup> The wicked have drawn out the sword, and have bent their bow,<br>To cast down the poor and needy, _and_ to slay such as be of upright conversation.<sup>e</sup><br>
 <sup>15</sup> Their sword shall enter into their own heart,<br>And their bows shall be broken.<br>
 
 #### ט Tet
+
 <sup>16</sup> A little that a righteous man hath _is_ better<br>Than the riches of many wicked.<br>
 <sup>17</sup> For the arms of the wicked shall be broken:<br>But the LORD upholdeth the righteous.<br>
 
 #### י Yod
+
 <sup>18</sup> The LORD knoweth the days of the upright:<br>And their inheritance shall be for ever.<br>
 <sup>19</sup> They shall not be ashamed in the evil time:<br>And in the days of famine they shall be satisfied.<br>
 
 #### כ Kaph
+
 <sup>20</sup> But the wicked shall perish,<br>And the enemies of the LORD _shall be_ as the fat of lambs:<sup>f</sup><br>They shall consume; into smoke shall they consume away.<br>
 
 #### ל Lamed
+
 <sup>21</sup> The wicked borroweth, and payeth not again:<br>But the righteous sheweth mercy, and giveth.<br>
 <sup>22</sup> For _such as be_ blessed of him shall inherit the earth;<br>And _they that be_ cursed of him shall be cut off.<br>
 
 #### מ Mem
+
 <sup>23</sup> The steps of a _good_ man are ordered<sup>g</sup> by the LORD:<br>And he delighteth in his way.<br>
 <sup>24</sup> Though he fall, he shall not be utterly cast down:<br>For the LORD upholdeth _him with_ his hand.<br>
 
 #### נ Nun
+
 <sup>25</sup> I have been young, and _now_ am old;<br>Yet have I not seen the righteous forsaken, nor his seed begging bread.<br>
 <sup>26</sup> _He is_ ever<sup>h</sup> merciful, and lendeth;<br>And his seed _is_ blessed.<br>
 
 #### ס Samek
+
 <sup>27</sup> Depart from evil, and do good;<br>And dwell for evermore.<br>
 
 #### ע Ain
+
 <sup>28</sup> For the LORD loveth judgment,<br>And forsaketh not his saints; they are preserved for ever:<br>But the seed of the wicked shall be cut off.<br>
 <sup>29</sup> The righteous shall inherit the land,<br>And dwell therein for ever.<br>
 
 #### פ Pe
+
 <sup>30</sup> The mouth of the righteous speaketh wisdom,<br>And his tongue talketh of judgment.<br>
 <sup>31</sup> The law of his God _is_ in his heart;<br>None of his steps<sup>i</sup> shall slide.<br>
 
 #### צ Zade
+
 <sup>32</sup> The wicked watcheth the righteous,<br>And seeketh to slay him.<br>
 <sup>33</sup> The LORD will not leave him in his hand,<br>Nor condemn him when he is judged.<br>
 
 #### ק Qoph
+
 <sup>34</sup> Wait on the LORD, and keep his way, and he shall exalt thee to inherit the land:<br>When the wicked are cut off, thou shalt see _it_.<br>
 
 #### ר Resh
+
 <sup>35</sup> I have seen the wicked in great power,<br>And spreading himself like a green bay tree.<sup>j</sup><br>
 <sup>36</sup> Yet he passed away, and, lo, he _was_ not:<br>Yea, I sought him, but he could not be found.<br>
 
 #### ש Shin
+
 <sup>37</sup> Mark the perfect _man_, and behold the upright:<br>For the end of _that_ man _is_ peace.<br>
 <sup>38</sup> But the transgressors shall be destroyed together:<br>The end of the wicked shall be cut off.<br>
 
 #### ת Taw
+
 <sup>39</sup> But the salvation of the righteous _is_ of the LORD:<br>_He is_ their strength in the time of trouble.<br>
 <sup>40</sup> And the LORD shall help them, and deliver them:<br>He shall deliver them from the wicked, and save them, because they trust in him.<br>
 
@@ -2567,7 +2648,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 > - <sup>f</sup> 14. Or, _establishment_
 > - <sup>g</sup> 31. Heb. _profane my statutes_
 > - <sup>h</sup> 33. Heb. _to lie_
-> - <sup>i</sup> 35. _if I lie_
+> - <sup>i</sup> 35. _If I lie_
 > - <sup>j</sup> 44. Heb. _brightness_
 
 ## Chapter 90
@@ -3182,36 +3263,50 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 #### ג Gimel
 <sup>2</sup> 
 #### ד Dalet
+
+
 The works of the LORD _are_ great,<br>Sought out of all them that have pleasure therein.<br>
 
 #### ה He
 <sup>3</sup> 
 #### ו Waw
+
+
 His work _is_ honourable and glorious:<br>And his righteousness endureth for ever.<br>
 
 #### ז Zain
 <sup>4</sup> 
 #### ח Het
+
+
 He hath made his wonderful works to be remembered:<br>The LORD _is_ gracious and full of compassion.<br>
 
 #### ט Tet
 <sup>5</sup> 
 #### י Yod
+
+
 He hath given meat<sup>b</sup> unto them that fear him:<br>He will ever be mindful of his covenant.<br>
 
 #### כ Kaph
 <sup>6</sup> 
 #### ל Lamed
+
+
 He hath shewed his people the power of his works,<br>That he may give them the heritage of the heathen.<br>
 
 #### מ Mem
 <sup>7</sup> 
 #### נ Nun
+
+
 The works of his hands _are_ verity and judgment;<br>All his commandments _are_ sure.<br>
 
 #### ס Samek
 <sup>8</sup> 
 #### ע Ain
+
+
 They stand fast<sup>c</sup> for ever and ever,<br>_And are_ done in truth and uprightness.<br>
 
 #### פ Pe
@@ -3219,6 +3314,8 @@ They stand fast<sup>c</sup> for ever and ever,<br>_And are_ done in truth and up
 #### צ Zade
 
 #### ק Qoph
+
+
 He sent redemption unto his people:<br>He hath commanded his covenant for ever:<br>Holy and reverend _is_ his name.<br>
 
 #### ר Resh
@@ -3226,6 +3323,8 @@ He sent redemption unto his people:<br>He hath commanded his covenant for ever:<
 #### ש Shin
 
 #### ת Taw
+
+
 The fear of the LORD _is_ the beginning of wisdom:<br>A good understanding<sup>d</sup> have all they that do _his commandments:_<sup>e</sup><br>His praise endureth for ever.<br>
 
 > - <sup>a</sup> 1. Heb. _Hallelujah_
@@ -3246,36 +3345,50 @@ The fear of the LORD _is_ the beginning of wisdom:<br>A good understanding<sup>d
 #### ג Gimel
 <sup>2</sup> 
 #### ד Dalet
+
+
 His seed shall be mighty upon earth:<br>The generation of the upright shall be blessed.<br>
 
 #### ה He
 <sup>3</sup> 
 #### ו Waw
+
+
 Wealth and riches _shall be_ in his house:<br>And his righteousness endureth for ever.<br>
 
 #### ז Zain
 <sup>4</sup> 
 #### ח Het
+
+
 Unto the upright there ariseth light in the darkness:<br>_He is_ gracious, and full of compassion, and righteous.<br>
 
 #### ט Tet
 <sup>5</sup> 
 #### י Yod
+
+
 A good man sheweth favour, and lendeth:<br>He will guide his affairs with discretion.<sup>b</sup><br>
 
 #### כ Kaph
 <sup>6</sup> 
 #### ל Lamed
+
+
 Surely he shall not be moved for ever:<br>The righteous shall be in everlasting remembrance.<br>
 
 #### מ Mem
 <sup>7</sup> 
 #### נ Nun
+
+
 He shall not be afraid of evil tidings:<br>His heart is fixed, trusting in the LORD.<br>
 
 #### ס Samek
 <sup>8</sup> 
 #### ע Ain
+
+
 His heart _is_ established, he shall not be afraid,<br>Until he see _his desire_ upon his enemies.<br>
 
 #### פ Pe
@@ -3283,6 +3396,8 @@ His heart _is_ established, he shall not be afraid,<br>Until he see _his desire_
 #### צ Zade
 
 #### ק Qoph
+
+
 He hath dispersed, he hath given to the poor;<br>His righteousness endureth for ever;<br>His horn shall be exalted with honour.<br>
 
 #### ר Resh
@@ -3290,6 +3405,8 @@ He hath dispersed, he hath given to the poor;<br>His righteousness endureth for 
 #### ש Shin
 
 #### ת Taw
+
+
 The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and melt away:<br>The desire of the wicked shall perish.<br>
 
 > - <sup>a</sup> 1. Heb. _Hallelujah_
@@ -3425,6 +3542,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>8</sup> I will keep thy statutes:<br>O forsake me not utterly.<br>
 
 #### ב Bet
+
 <sup>9</sup> Wherewithal shall a young man cleanse his way?<br>By taking heed _thereto_ according to thy word.<br>
 <sup>10</sup> With my whole heart have I sought thee:<br>O let me not wander from thy commandments.<br>
 <sup>11</sup> Thy word have I hid in mine heart,<br>That I might not sin against thee.<br>
@@ -3435,6 +3553,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>16</sup> I will delight myself in thy statutes:<br>I will not forget thy word.<br>
 
 #### ג Gimel
+
 <sup>17</sup> Deal bountifully with thy servant,<br>_That_ I may live, and keep thy word.<br>
 <sup>18</sup> Open<sup>c</sup> thou mine eyes,<br>That I may behold wondrous things out of thy law.<br>
 <sup>19</sup> I _am_ a stranger in the earth:<br>Hide not thy commandments from me.<br>
@@ -3445,6 +3564,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>24</sup> Thy testimonies also _are_<br>My delight _and_ my counsellors.<sup>d</sup><br>
 
 #### ד Dalet
+
 <sup>25</sup> My soul cleaveth unto the dust:<br>Quicken thou me according to thy word.<br>
 <sup>26</sup> I have declared my ways, and thou heardest me:<br>Teach me thy statutes.<br>
 <sup>27</sup> Make me to understand the way of thy precepts:<br>So shall I talk of thy wondrous works.<br>
@@ -3455,6 +3575,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>32</sup> I will run the way of thy commandments,<br>When thou shalt enlarge my heart.<br>
 
 #### ה He
+
 <sup>33</sup> Teach me, O LORD, the way of thy statutes;<br>And I shall keep it _unto_ the end.<br>
 <sup>34</sup> Give me understanding, and I shall keep thy law;<br>Yea, I shall observe it with _my_ whole heart.<br>
 <sup>35</sup> Make me to go in the path of thy commandments;<br>For therein do I delight.<br>
@@ -3465,6 +3586,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>40</sup> Behold, I have longed after thy precepts:<br>Quicken me in thy righteousness.<br>
 
 #### ו Waw
+
 <sup>41</sup> Let thy mercies come also unto me, O LORD,<br>_Even_ thy salvation, according to thy word.<br>
 <sup>42</sup> So shall I have wherewith to answer him that reproacheth me:<br>For I trust in thy word.<br>
 <sup>43</sup> And take not the word of truth utterly out of my mouth;<br>For I have hoped in thy judgments.<br>
@@ -3475,6 +3597,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>48</sup> My hands also will I lift up unto thy commandments, which I have loved;<br>And I will meditate in thy statutes.<br>
 
 #### ז Zain
+
 <sup>49</sup> Remember the word unto thy servant,<br>Upon which thou hast caused me to hope.<br>
 <sup>50</sup> This _is_ my comfort in my affliction:<br>For thy word hath quickened me.<br>
 <sup>51</sup> The proud have had me greatly in derision:<br>_Yet_ have I not declined from thy law.<br>
@@ -3485,6 +3608,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>56</sup> This I had, because I kept thy precepts.<br>
 
 #### ח Het
+
 <sup>57</sup> _Thou art_ my portion, O LORD:<br>I have said that I would keep thy words.<br>
 <sup>58</sup> I intreated thy favour<sup>h</sup> with _my_ whole heart:<br>Be merciful unto me according to thy word.<br>
 <sup>59</sup> I thought on my ways,<br>And turned my feet unto thy testimonies.<br>
@@ -3495,6 +3619,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>64</sup> The earth, O LORD, is full of<br>Thy mercy: Teach me thy statutes.<br>
 
 #### ט Tet
+
 <sup>65</sup> Thou hast dealt well with thy servant,<br>O LORD, according unto thy word.<br>
 <sup>66</sup> Teach me good judgment and knowledge:<br>For I have believed thy commandments.<br>
 <sup>67</sup> Before I was afflicted I went astray:<br>But now have I kept thy word.<br>
@@ -3505,6 +3630,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>72</sup> The law of thy mouth _is_ better unto me<br>Than thousands of gold and silver.<br>
 
 #### י Yod
+
 <sup>73</sup> Thy hands have made me and fashioned me:<br>Give me understanding, that I may learn thy commandments.<br>
 <sup>74</sup> They that fear thee will be glad when they see me;<br>Because I have hoped in thy word.<br>
 <sup>75</sup> I know, O LORD, that thy judgments _are_ right,<sup>j</sup><br>And _that_ thou in faithfulness hast afflicted me.<br>
@@ -3515,6 +3641,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>80</sup> Let my heart be sound in thy statutes;<br>That I be not ashamed.<br>
 
 #### כ Kaph
+
 <sup>81</sup> My soul fainteth for thy salvation:<br>_But_ I hope in thy word.<br>
 <sup>82</sup> Mine eyes fail for thy word,<br>Saying, When wilt thou comfort me?<br>
 <sup>83</sup> For I am become like a bottle in the smoke;<br>_Yet_ do I not forget thy statutes.<br>
@@ -3525,6 +3652,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>88</sup> Quicken me after thy lovingkindness;<br>So shall I keep the testimony of thy mouth.<br>
 
 #### ל Lamed
+
 <sup>89</sup> For ever, O LORD, Thy word<br>Is settled in heaven.<br>
 <sup>90</sup> Thy faithfulness _is_ unto all generations:<sup>m</sup><br>Thou hast established the earth, and it abideth.<sup>n</sup><br>
 <sup>91</sup> They continue this day according to thine ordinances:<br>For all _are_ thy servants.<br>
@@ -3535,6 +3663,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>96</sup> I have seen an end of all perfection:<br>_But_ thy commandment _is_ exceeding broad.<br>
 
 #### מ Mem
+
 <sup>97</sup> O how love I thy law!<br>It _is_ my meditation all the day.<br>
 <sup>98</sup> Thou through thy commandments hast made me wiser than mine enemies:<br>For they _are_ ever with me.<sup>o</sup><br>
 <sup>99</sup> I have more understanding than all my teachers:<br>For thy testimonies _are_ my meditation.<br>
@@ -3545,6 +3674,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>104</sup> Through thy precepts I get understanding:<br>Therefore I hate every false way.<br>
 
 #### נ Nun
+
 <sup>105</sup> Thy word _is_ a lamp<sup>q</sup> unto my feet,<br>And a light unto my path.<br>
 <sup>106</sup> I have sworn, and I will perform _it_,<br>That I will keep thy righteous judgments.<br>
 <sup>107</sup> I am afflicted very much:<br>Quicken me, O LORD, according unto thy word.<br>
@@ -3555,6 +3685,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>112</sup> I have inclined mine heart to perform<sup>r</sup> thy statutes<br>Alway, _even unto_ the end.<br>
 
 #### ס Samek
+
 <sup>113</sup> I hate _vain_ thoughts:<br>But thy law do I love.<br>
 <sup>114</sup> Thou _art_ my hiding place and my shield:<br>I hope in thy word.<br>
 <sup>115</sup> Depart from me, ye evildoers:<br>For I will keep the commandments of my God.<br>
@@ -3565,6 +3696,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>120</sup> My flesh trembleth for fear of thee;<br>And I am afraid of thy judgments.<br>
 
 #### ע Ain
+
 <sup>121</sup> I have done judgment and justice:<br>Leave me not to mine oppressors.<br>
 <sup>122</sup> Be surety for thy servant for good:<br>Let not the proud oppress me.<br>
 <sup>123</sup> Mine eyes fail for thy salvation,<br>And for the word of thy righteousness.<br>
@@ -3575,6 +3707,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>128</sup> Therefore I esteem all _thy_ precepts _concerning_ all _things to be_ right;<br>_And_ I hate every false way.<br>
 
 #### פ Pe
+
 <sup>129</sup> Thy testimonies _are_ wonderful:<br>Therefore doth my soul keep them.<br>
 <sup>130</sup> The entrance of thy words giveth light;<br>It giveth understanding unto the simple.<br>
 <sup>131</sup> I opened my mouth, and panted:<br>For I longed for thy commandments.<br>
@@ -3585,6 +3718,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>136</sup> Rivers of waters run down mine eyes,<br>Because they keep not thy law.<br>
 
 #### צ Zade
+
 <sup>137</sup> Righteous _art_ thou, O LORD,<br>And upright _are_ thy judgments.<br>
 <sup>138</sup> Thy testimonies _that_ thou hast commanded<br>_are_ righteous<sup>u</sup> and very faithful.<sup>v</sup><br>
 <sup>139</sup> My zeal hath consumed me,<sup>w</sup><br>Because mine enemies have forgotten thy words.<br>
@@ -3595,6 +3729,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>144</sup> The righteousness of thy testimonies _is_ everlasting:<br>Give me understanding, and I shall live.<br>
 
 #### ק Qoph
+
 <sup>145</sup> I cried with _my_ whole heart;<br>hear me, O LORD: I will keep thy statutes.<br>
 <sup>146</sup> I cried unto thee;<br>save me, and I shall keep thy testimonies.<sup>z</sup><br>
 <sup>147</sup> I prevented the dawning of the morning, and cried:<br>I hoped in thy word.<br>
@@ -3605,6 +3740,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>152</sup> Concerning thy testimonies, I have known of old<br>That thou hast founded them for ever.<br>
 
 #### ר Resh
+
 <sup>153</sup> Consider mine affliction, and deliver me:<br>For I do not forget thy law.<br>
 <sup>154</sup> Plead my cause, and deliver me:<br>Quicken me according to thy word.<br>
 <sup>155</sup> Salvation _is_ far from the wicked:<br>For they seek not thy statutes.<br>
@@ -3615,6 +3751,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>160</sup> Thy word _is_ true _from_ the beginning:<sup>ab</sup><br>And every one of thy righteous judgments _endureth_ for ever.<br>
 
 #### ש Shin
+
 <sup>161</sup> Princes have persecuted me without a cause:<br>But my heart standeth in awe of thy word.<br>
 <sup>162</sup> I rejoice at thy word,<br>As one that findeth great spoil.<br>
 <sup>163</sup> I hate and abhor lying:<br>_But_ thy law do I love.<br>
@@ -3625,6 +3762,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>168</sup> I have kept thy precepts and thy testimonies:<br>For all my ways _are_ before thee.<br>
 
 #### ת Taw
+
 <sup>169</sup> Let my cry come near before thee, O LORD:<br>Give me understanding according to thy word.<br>
 <sup>170</sup> Let my supplication come before thee:<br>Deliver me according to thy word.<br>
 <sup>171</sup> My lips shall utter praise,<br>When thou hast taught me thy statutes.<br>
@@ -4117,63 +4255,83 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>1</sup> I will extol thee, my God, O King;<br>And I will bless thy name for ever and ever.<br>
 
 #### ב Bet
+
 <sup>2</sup> Every day will I bless thee;<br>And I will praise thy name for ever and ever.<br>
 
 #### ג Gimel
+
 <sup>3</sup> Great _is_ the LORD, and greatly to be praised;<br>And his greatness _is_ unsearchable.<sup>a</sup><br>
 
 #### ד Dalet
+
 <sup>4</sup> One generation shall praise thy works to another,<br>And shall declare thy mighty acts.<br>
 
 #### ה He
+
 <sup>5</sup> I will speak of the glorious honour of thy majesty,<br>And of thy wondrous works.<sup>b</sup><br>
 
 #### ו Waw
+
 <sup>6</sup> And _men_ shall speak of the might of thy terrible acts:<br>And I will declare<sup>c</sup> thy greatness.<br>
 
 #### ז Zain
+
 <sup>7</sup> They shall abundantly utter the memory of thy great goodness,<br>And shall sing of thy righteousness.<br>
 
 #### ח Het
+
 <sup>8</sup> The LORD _is_ gracious, and full of compassion;<br>Slow to anger, and of great mercy.<sup>d</sup><br>
 
 #### ט Tet
+
 <sup>9</sup> The LORD _is_ good to all:<br>And his tender mercies _are_ over all his works.<br>
 
 #### י Yod
+
 <sup>10</sup> All thy works shall praise thee, O LORD;<br>And thy saints shall bless thee.<br>
 
 #### כ Kaph
+
 <sup>11</sup> They shall speak of the glory of thy kingdom,<br>And talk of thy power;<br>
 
 #### ל Lamed
+
 <sup>12</sup> To make known to the sons of men his mighty acts,<br>And the glorious majesty of his kingdom.<br>
 
 #### מ Mem
+
 <sup>13</sup> Thy kingdom _is_ an everlasting kingdom,<sup>e</sup><br>And thy dominion _endureth_ throughout all generations.<br>
 
 #### ס Samek
+
 <sup>14</sup> The LORD upholdeth all that fall,<br>And raiseth up all _those that be_ bowed down.<br>
 
 #### ע Ain
+
 <sup>15</sup> The eyes of all wait upon thee;<sup>f</sup><br>And thou givest them their meat in due season.<br>
 
 #### פ Pe
+
 <sup>16</sup> Thou openest thine hand,<br>And satisfiest the desire of every living thing.<br>
 
 #### צ Zade
+
 <sup>17</sup> The LORD _is_ righteous in all his ways,<br>And holy<sup>g</sup> in all his works.<br>
 
 #### ק Qoph
+
 <sup>18</sup> The LORD _is_ nigh unto all them that call upon him,<br>To all that call upon him in truth.<br>
 
 #### ר Resh
+
 <sup>19</sup> He will fulfil the desire of them that fear him:<br>He also will hear their cry, and will save them.<br>
 
 #### ש Shin
+
 <sup>20</sup> The LORD preserveth all them that love him:<br>But all the wicked will he destroy.<br>
 
 #### ת Taw
+
 <sup>21</sup> My mouth shall speak the praise of the LORD:<br>And let all flesh bless his holy name for ever and ever.<br>
 
 > - <sup>a</sup> 3. Heb. _and of his greatness there is no search_

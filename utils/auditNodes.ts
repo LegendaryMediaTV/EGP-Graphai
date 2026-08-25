@@ -1,58 +1,62 @@
 #!/usr/bin/env ts-node
 /**
- * Corpus-wide sweep for various ways a node's own placement can drift from this
- * repo's established text-flow conventions (see `utils/validate.ts`'s
- * `findStrongTrailingWhitespaceNodes` for the leading-vs-trailing-space
- * convention these checks build on):
+ * Corpus-wide sweep for ways a node's own placement can drift from this
+ * repo's leading-vs-trailing-space convention (see `utils/validate.ts`'s
+ * `findStrongTrailingWhitespaceNodes`):
  *
- * 1. **Unmerged node pairs** — an ordinary, untagged connector word left
- *    split from the `strong`-carrying neighbor immediately *after* it, which
- *    it should have folded into. A trailing connector with nothing tagged
- *    after it in its own span is not this shape: with no following
- *    `strong`-carrying node to fold into, it is simply untagged text, and
- *    folding it *backward* into whatever precedes it would misattribute it
- *    under a Strong's number it has no lexical relationship to.
+ * 1. **Unmerged node pairs** — an ordinary, untagged connector left split
+ *    from the neighbor immediately after it that carries a `strong`
+ *    number, a `foot`, or a `break`, when it should have folded forward
+ *    into that neighbor instead. One-directional: a trailing connector
+ *    with nothing tagged after it is simply untagged text, not a pair this
+ *    check recommends merging. See {@link canJoinForward} and {@link
+ *    scanArrayForUnmergedPairs}.
  * 2. **Trailing whitespace** — a `strong`-carrying node's own `text` ending
  *    in a space, when the convention puts a joining space on the *leading*
  *    edge of whatever follows, never the trailing edge of what precedes it.
  * 3. **Leading punctuation** — a `strong`-carrying node's own `text`
- *    *starting* with tight punctuation (a comma, period, closing quote, …)
- *    that reads as glued to the word before it, not to the word this node
- *    itself carries — illustrative shape: `{"text": "Look", "strong":
- *    "G2400"}` + `{"text": "! The", "strong": "G3588"}`, where the "!"
- *    belongs on "Look," not leading "The."
+ *    *starting* with tight punctuation that reads as glued to the word
+ *    before it, not to the word this node itself carries. See {@link
+ *    scanArrayForLeadingPunctuation}.
  * 4. **Mark-boundary spaces** — a bare, untagged whitespace-only node
  *    sandwiched between two real nodes that agree in `marks`/`script` with
- *    each other. Check 1 deliberately excludes a blank connector (it has no
- *    lexical content to agree or disagree with anything), which left this
- *    shape uncovered: a `<woc>` (Words of Christ) or italics span built one
- *    word at a time, with the joining space between each pair of words
- *    pulled out as its own node instead of leading the word after it. A run
- *    of textless Strong's siblings right after the space is skipped through
- *    to find the real node to check, the same way check 3 already skips
- *    through one to find its own backward attachment point.
+ *    each other, instead of leading the word after it. See {@link
+ *    isBlankConnector} and {@link scanArrayForMarkBoundarySpaces}.
  * 5. **Verse-initial spaces** — a verse's own outermost content starting
  *    with a space, paragraph-opening or not: there is nothing before the
- *    first word of a verse for a joining space to belong to. Unlike checks
- *    1-4, this one never recurses into a `ContentNested` wrapper's inner
- *    array (an ordinary shape there, not a verse's own start).
+ *    first word of a verse for a joining space to belong to. See {@link
+ *    checkVerseInitialSpace}.
+ * 6. **Heading/subtitle not followed by a paragraph** — a heading- or
+ *    subtitle-type node (any consecutive run of the two collapsed into one)
+ *    whose own real next node fails to carry `paragraph: true`. Flat and
+ *    corpus-wide: every heading or subtitle followed by anything that is
+ *    not itself a heading or subtitle opens a paragraph, in every version
+ *    and every book. See {@link findHeadingParagraphMismatches}.
+ * 7. **Un-normalized fraction** — a node's own `text` still carrying a real
+ *    fraction shape (an ASCII `N/M` slash, a precomposed vulgar-fraction
+ *    glyph, or plain digits already separated by U+2044 but not yet
+ *    raised/lowered) rather than this repo's own superscript/U+2044/
+ *    subscript convention. Unlike checks 1-6, this one isn't about a node's
+ *    own *placement* relative to its neighbors — it's a project-wide content
+ *    standard ({@link normalizeFractionText}, `utils/usfm/fractions.ts`)
+ *    checked here so any version's content, however it was built, can be
+ *    measured against it independent of the USFM importer that first applies
+ *    it. See {@link hasUnnormalizedFraction}.
  *
  * A general-purpose, version-controlled tool any future import can reach
  * for, rather than a one-off diagnostic scoped to whichever translation
  * happens to be mid-import at the time.
  *
  * Checks 1-4 recurse into `content` (a `ContentNested` wrapper's own inner
- * array — KJV1769 alone carries 27,838 of these, one per italicized "added
- * word" span) in addition to `heading`/`subtitle`/`foot.content` (measured
- * zero `strong` values inside any `foot.content`, corpus-wide, across every
- * version this repo currently carries — recursing there is free today and a
- * strictly safer default for whatever a future re-scrape might introduce).
+ * array) in addition to `heading`/`subtitle`/`foot.content` — recursing
+ * into `foot.content` costs nothing today (no version currently tags
+ * `strong` inside a footnote) and is a safe default if a future import
+ * ever does.
  *
  * **No curated version list.** With no version named on the command line,
  * this audits every directory under `bible-versions/` — whatever this repo
  * happens to carry, not a hardcoded set. A version with no `strong` values
- * at all (most of them) simply reports zero findings, cheaply; scanning
- * every version this repo carries today takes well under three seconds.
+ * at all (most of them) simply reports zero findings, cheaply.
  *
  * Read-only. Detects; does not fix.
  */
@@ -61,6 +65,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { getVersionDirectories } from "../functions/getBibleVersions";
 import Content from "../types/Content";
+import { normalizeFractionText } from "./usfm/fractions";
 
 /** Root directory holding one subfolder per Bible version. */
 const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
@@ -69,7 +74,7 @@ const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
 const VERSE_FILE_NAME = /^\d{2}-[A-Z0-9]+\.json$/;
 
 /** One shape as it exists on disk: a verse's own identifying fields plus its content tree. */
-interface VerseRecord {
+export interface VerseRecord {
   /** The verse's own book id (e.g. `GEN`, `MAT`). */
   book: string;
   /** The verse's own chapter number. */
@@ -84,7 +89,7 @@ interface VerseRecord {
 // One node's own shape, read once and shared by every check below
 // ---------------------------------------------------------------------------
 
-interface NodeShape {
+export interface NodeShape {
   /** This node's own text, or `undefined` when it has no `text` key at all — a `{heading}`/`{subtitle}`/`{bibleLink}` wrapper, a `ContentNested` wrapper, or a multi-number tag's own textless sibling. */
   text: string | undefined;
   /** This node's own `marks` array, normalized to `[]` when absent so two nodes can be compared for formatting agreement without null-checking first. */
@@ -95,7 +100,7 @@ interface NodeShape {
   strong: string | undefined;
   /** Whether this node carries a `foot`. */
   hasFoot: boolean;
-  /** A `ContentNested` wrapper (`{content: [...], strong: "..."}`) — no top-level `text` of its own, but real, rendered text one level down. Recursed into separately; never itself an eligible donor, merge target, or attachment point at this array level. */
+  /** A `ContentNested` wrapper (`{content: [...], strong: "..."}`) — has rendered text one level down but no top-level `text` of its own, so it's never itself an eligible donor, merge target, or attachment point at this array level. */
   hasNestedContent: boolean;
   /** A multi-number `<st>` tag's own textless sibling (`{strong: "H853"}`, no `text`, no nested `content` either) — renders nothing at all, so a backward scan for an attachment point passes straight through it rather than stopping there. Distinct from `hasNestedContent`: both lack top-level `text`, but only one of them is actually invisible. */
   isTextlessStrongSibling: boolean;
@@ -114,7 +119,7 @@ interface NodeShape {
  * everything else reads its own `text`/`marks`/`script`/`strong`/`foot`/
  * `paragraph`/`break` straight off the node.
  */
-function describeNode(node: unknown): NodeShape {
+export function describeNode(node: unknown): NodeShape {
   const empty = {
     marks: [] as readonly unknown[],
     script: undefined,
@@ -166,13 +171,21 @@ function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
   );
 }
 
-/** Real, non-blank, untagged, footnote-less text — the only shape either side of a merge (check 1) may supply the "plain" half of. */
-function isMergeableConnector(shape: NodeShape): boolean {
+/**
+ * Real, non-blank, untagged, footnote-less, break-free text — the only shape
+ * a merge (check 1) may treat as the "plain" half of a pair. `endsBreak` is
+ * excluded alongside `strong`/`hasFoot` because a break-carrying node is
+ * itself a valid {@link canJoinForward} target; without the exclusion the
+ * scanning loop would sweep past it instead of stopping to treat it as the
+ * target.
+ */
+export function isMergeableConnector(shape: NodeShape): boolean {
   return (
     shape.text !== undefined &&
     shape.text.trim() !== "" &&
     shape.strong === undefined &&
-    !shape.hasFoot
+    !shape.hasFoot &&
+    !shape.endsBreak
   );
 }
 
@@ -184,7 +197,7 @@ function isRealAttachmentPoint(shape: NodeShape): boolean {
 }
 
 // ---------------------------------------------------------------------------
-// Check 1 — an ordinary connector word left un-merged beside a strong-carrying neighbor
+// Check 1 — an ordinary connector word left un-merged beside a strong/foot/break-carrying neighbor
 // ---------------------------------------------------------------------------
 
 /** One un-merged pair found within a single array level. */
@@ -193,25 +206,35 @@ interface PairFinding {
   where: string;
   /** The untagged connector node this rule says should have merged. */
   plain: unknown;
-  /** The `strong`-carrying node it should have merged into. */
+  /** The `strong`-, `foot`-, or `break`-carrying node it should have merged into. */
   target: unknown;
 }
 
 /**
  * True when every node in a candidate run of consecutive mergeable
- * connectors should merge forward as a unit into `target`. Requires
- * `target.text !== undefined` in addition to `target.strong !== undefined` —
- * checking `strong` alone would wrongly accept a `ContentNested` wrapper,
- * which carries `strong` with no top-level `text` of its own, so "merging" a
- * connector's text into it would have nowhere to actually land. The run's own first
- * member may carry `opensParagraph`; no later member may — a `paragraph:
- * true` on any member after the first marks a piece boundary strictly inside
- * the run (Genesis 13:11's real corpus case).
+ * connectors should merge forward as a unit into `target`. `target` is
+ * eligible whenever it carries a `strong` number, a `foot`, or a `break` —
+ * any one of these is a suffix that attaches to the end of accumulated text
+ * and is exactly why `target` had to stay its own node; the connectors
+ * before it, carrying none of these themselves, have no such reason and
+ * should have folded forward into it first. Requires `target.text !==
+ * undefined` in addition — checking `strong`/`hasFoot`/`endsBreak` alone
+ * would wrongly accept a `ContentNested` wrapper, which can carry `strong`
+ * with no top-level `text` of its own, so "merging" a connector's text into
+ * it would have nowhere to actually land. The run's own first member may
+ * carry `opensParagraph`; no later member may — a `paragraph: true` on any
+ * member after the first marks a piece boundary strictly inside the run
+ * (Genesis 13:11's real corpus case).
+ *
+ * Concrete case: `{ paragraph: true, text: "In the beginning, " }, { text:
+ * "God", foot: {...} }` should merge into one node — the paragraph-opening
+ * connector carries no `strong`/`foot`/`break` of its own and belongs
+ * folded into the node that does.
  */
-function canJoinForward(run: readonly NodeShape[], target: NodeShape): boolean {
+export function canJoinForward(run: readonly NodeShape[], target: NodeShape): boolean {
   return (
     run.length > 0 &&
-    target.strong !== undefined &&
+    (target.strong !== undefined || target.hasFoot || target.endsBreak) &&
     target.text !== undefined &&
     !target.opensParagraph &&
     run.every(
@@ -225,24 +248,24 @@ function canJoinForward(run: readonly NodeShape[], target: NodeShape): boolean {
 
 /**
  * Scan one array level for adjacent node pairs that should have merged into
- * one `strong`-carrying node but did not: every maximal run of consecutive
- * mergeable connectors immediately *before* a `strong`-carrying node.
+ * one node but did not: every maximal run of consecutive mergeable
+ * connectors immediately *before* a node carrying a `strong` number, a
+ * `foot`, or a `break` — any of the three counts as `target`, per {@link
+ * canJoinForward}.
  *
- * Deliberately one-directional. A run of untagged connectors with no
- * `strong`-carrying node following it — the tail end of a span, or of the
- * verse — is never a finding here, no matter how well it agrees in
- * formatting with whatever precedes it: there is nothing tagged for it to
- * fold into, so it is simply untagged text (e.g. a connector word with no
- * lexical unit of its own in the source language), not an unmerged pair. A
- * corpus case that looks identical either direction makes the asymmetry
- * concrete: Genesis 1:15 KJV1769 ends `{ text: " upon the earth:", strong:
- * "H776" }, " and it was so."` — untagged, trailing, no `strong`-carrying
- * node after it in the verse. Folding it backward into the `H776` node would
- * claim that Strong's number covers "and it was so," which it does not;
- * elsewhere in the very same chapter (Genesis 1:7) the identical phrase
- * carries its own tag, `strong: "H3651"` — the actual defect, when there is
- * one, is a missing tag on the connector itself, not a merge this check
- * could ever recommend.
+ * Deliberately one-directional: a run of untagged connectors with no
+ * suffix-carrying node following it — the tail end of a span, or of the
+ * verse — is never a finding, no matter how well it agrees in formatting
+ * with what precedes it. There's nothing tagged for it to fold into, so
+ * it's simply untagged text, not an unmerged pair. A corpus case that looks
+ * identical either direction makes the asymmetry concrete: Genesis 1:15
+ * KJV1769 ends `{ text: " upon the earth:", strong: "H776" }, " and it was
+ * so."` — untagged, trailing, nothing suffix-carrying after it. Folding it
+ * backward into `H776` would claim that Strong's number covers "and it was
+ * so," which it does not; the identical phrase in Genesis 1:7 carries its
+ * own tag (`strong: "H3651"`) — the real defect, when there is one, is a
+ * missing tag on the connector, never something this check could recommend
+ * merging away.
  */
 function scanArrayForUnmergedPairs(
   nodes: readonly unknown[],
@@ -316,35 +339,24 @@ interface LeadingPunctuationFinding {
 /**
  * Scan one array level for a `strong`-carrying node whose own `text` starts
  * with tight punctuation that reads as glued to the word before it —
- * illustrative shape: `"Look"`/G2400 + `"! The"`/G3588 (this module's own
- * top doc comment).
+ * illustrative shape: `"Look"`/G2400 + `"! The"`/G3588.
  *
  * A finding requires a genuine attachment point immediately before the
- * offending node: real, non-blank text (a `strong`-carrying node, a
- * footnoted plain node, or an ordinary word — any of these is a legitimate
- * home for trailing punctuation), agreeing in `marks`/`script`, with no
- * `break` at the join and no `paragraph` opening on the offending node
- * itself. **A textless Strong's sibling in between is skipped over, not
- * treated as a boundary** — it renders zero characters (`{strong: "H853"}`,
- * no `text` at all), so the *visual* neighbor is whatever precedes it: a
- * real, on-disk corpus case has a node ending "... and female"/H5347,
- * immediately followed by a bare `{strong: "H1961"}` sibling, immediately
- * followed by a node starting ", to keep ..."/H2421 — the comma is visually
- * glued to "female," not to the textless sibling sitting between them.
+ * offending node (see {@link isRealAttachmentPoint}), agreeing in
+ * `marks`/`script` (see {@link agreesInFormatting}), with no `break` at the
+ * join and no `paragraph` opening on the offending node itself.
  *
- * **A genuine `marks`/`script` mismatch is not a finding** — the same
- * "stays split" rule the merge check above already establishes blocks this
- * one too: a small-caps divine name (`marks:
- * ["sc"]`) immediately followed by an unmarked node starting with a comma or
- * apostrophe is not a bug — the possessive/connecting punctuation cannot
- * join the divine name without either mis-marking it small-caps or breaking
- * the small-caps convention, so it correctly stays on the following node
- * instead. Measured against a real corpus with heavy Strong's tagging: the
- * large majority of raw occurrences of this shape have a genuine
- * same-formatting attachment point once textless siblings are skipped
- * through; a small remainder is exactly this mark-mismatch case (plus a
- * negligible few with nothing real preceding at all) — both excluded here,
- * not flagged.
+ * **A textless Strong's sibling in between is skipped over, not treated as
+ * a boundary** — it renders zero characters (`{strong: "H853"}`, no `text`
+ * at all), so the *visual* neighbor is whatever precedes it: a real corpus
+ * case has a node ending "... and female"/H5347, immediately followed by a
+ * bare `{strong: "H1961"}` sibling, immediately followed by a node starting
+ * ", to keep ..."/H2421 — the comma is visually glued to "female," not to
+ * the textless sibling between them.
+ *
+ * A genuine `marks`/`script` mismatch is not a finding: a small-caps divine
+ * name followed by unmarked punctuation correctly stays split rather than
+ * take on formatting it doesn't carry.
  */
 function scanArrayForLeadingPunctuation(
   nodes: readonly unknown[],
@@ -393,7 +405,7 @@ function scanArrayForLeadingPunctuation(
 // Check 2 — trailing whitespace on a strong-carrying node
 // ---------------------------------------------------------------------------
 
-/** True when a node carries a `strong` value and its own `text` ends in whitespace — the mirror image of check 3, and the shape a well-behaved importer should never produce (see `utils/validate.ts`'s `findStrongTrailingWhitespaceNodes` for the convention this violates). */
+/** True when a node carries a `strong` value and its own `text` ends in whitespace — the mirror image of check 3, and a violation of this corpus's leading-space convention (see the top of this file). */
 function hasTrailingWhitespace(shape: NodeShape): boolean {
   return (
     shape.strong !== undefined &&
@@ -403,23 +415,39 @@ function hasTrailingWhitespace(shape: NodeShape): boolean {
 }
 
 // ---------------------------------------------------------------------------
+// Check 7 — a node's own text still carrying an un-normalized fraction
+// ---------------------------------------------------------------------------
+
+/**
+ * True when a node's own `text` still carries a real fraction shape
+ * {@link normalizeFractionText} would rewrite — an ASCII `N/M` slash, a
+ * precomposed vulgar-fraction glyph, or plain digits already separated by
+ * U+2044 but not yet raised/lowered. Unlike every other check in this
+ * module, this one has nothing to do with a node's placement relative to its
+ * neighbors and applies to any text-bearing node, `strong`-carrying or not —
+ * it's the same project-wide fraction convention the USFM importer applies
+ * on the way in (`utils/usfm/fractions.ts`), reachable here so any version's
+ * already-built content can be checked against it too.
+ */
+function hasUnnormalizedFraction(shape: NodeShape): boolean {
+  return shape.text !== undefined && normalizeFractionText(shape.text).changes > 0;
+}
+
+// ---------------------------------------------------------------------------
 // Check 4 — a bare joining space stranded between two same-formatting nodes
 // ---------------------------------------------------------------------------
 
 /**
  * True for a node whose own `text` is nonempty but entirely whitespace.
  *
- * Check 1's {@link isMergeableConnector} deliberately excludes this shape —
- * a blank has no lexical content, so it can never "agree" with a neighbor the
- * way an ordinary connector word can, forward or backward. That exclusion
- * left a real, corpus-wide shape uncovered: a `<woc>` (Words of Christ) or
- * italics span built one word at a time, with the joining space between each
- * pair of words pulled out as its own untagged node instead of living on the
- * leading edge of the word that follows — this corpus's own established
- * convention (see `utils/validate.ts`'s `findStrongTrailingWhitespaceNodes`).
- * Illustrative shape, Matthew 6:32 KJV1769: `{text: "after", marks: ["woc"],
- * strong: "G1934"}, " ", {text: "all", marks: ["woc"], strong: "G3956"}` —
- * repeated for essentially every word of the verse.
+ * A blank has no lexical content, so {@link isMergeableConnector} (check 1)
+ * excludes it — leaving a separate real shape uncovered: a `<woc>` (Words
+ * of Christ) or italics span built one word at a time, with the joining
+ * space between each word pulled out as its own node instead of leading the
+ * word that follows. Illustrative shape, Matthew 6:32 KJV1769: `{text:
+ * "after", marks: ["woc"], strong: "G1934"}, " ", {text: "all", marks:
+ * ["woc"], strong: "G3956"}` — repeated for essentially every word of the
+ * verse.
  */
 function isBlankConnector(shape: NodeShape): boolean {
   return (
@@ -451,15 +479,15 @@ interface MarkBoundarySpaceFinding {
  * of its own, so its only correct home is the leading edge of the node after
  * it.
  *
- * A run of textless Strong's siblings immediately after the space is skipped
- * through to find that real node, exactly as check 3 already skips through
- * one to find its own backward attachment point: a textless sibling renders
- * zero characters, so it is not a visual boundary the space's formatting
- * agreement needs to cross — real Matthew 3:15 KJV1769 shape, `{text: " it
+ * A run of textless Strong's siblings immediately after the space is
+ * skipped through to find that real node (the same skip-through check 3
+ * uses for its own backward attachment point) — a textless sibling renders
+ * zero characters, so it isn't a visual boundary the formatting-agreement
+ * check needs to cross. Real Matthew 3:15 KJV1769 shape: `{text: " it
  * becometh", marks: ["woc"]}, " ", {strong: "G2076"}, {text: "us", marks:
- * ["woc"]}`, where the textless `G2076` sibling carries no `marks` of its own
- * at all (moot for a node with no text to render) and would otherwise block
- * the match on a `marks` disagreement that was never a real one.
+ * ["woc"]}` — the textless `G2076` sibling carries no `marks` at all (moot,
+ * since it renders nothing) and would otherwise cause a false `marks`
+ * mismatch.
  *
  * `endsBreak`/`opensParagraph` guard the same way they do in check 1: a break
  * on the space itself or a paragraph opening on the target both mark a real
@@ -526,12 +554,11 @@ interface VerseInitialSpaceFinding {
  * a verse for a joining space to belong to.
  *
  * Unlike checks 1-4, this one looks only at a verse's own outermost content
- * array — never a `ContentNested` wrapper's inner array (an ordinary,
- * expected shape there: `{content: [" ", {text: "is", marks: ["i"]}, "
- * precious,"], strong: "..."}` starts countless mid-sentence insertions
- * corpus-wide) and never past a `heading`/`subtitle` boundary (measured zero
- * cases of a heading-prefixed verse whose real first node has this shape, so
- * there is nothing to skip through in this corpus today).
+ * array — never a `ContentNested` wrapper's inner array (an expected shape
+ * there: `{content: [" ", {text: "is", marks: ["i"]}, " precious,"],
+ * strong: "..."}` is an ordinary mid-sentence insertion) and never past a
+ * `heading`/`subtitle` boundary — no heading-prefixed verse in this corpus
+ * needs that today.
  *
  * Two distinct shapes, both WEBUS2020-only in this corpus's current state: a
  * first node that is *entirely* whitespace (a bare `" "`, or Revelation's own
@@ -551,6 +578,143 @@ function checkVerseInitialSpace(
 }
 
 // ---------------------------------------------------------------------------
+// Check 6 — a heading/subtitle run not immediately followed by a paragraph start
+// ---------------------------------------------------------------------------
+
+/** True for a `{heading: ...}` or `{subtitle: ...}` wrapper — the two boundary shapes this check collapses into one run before looking at what comes after. */
+function isHeadingOrSubtitle(node: unknown): boolean {
+  if (node === null || typeof node !== "object" || Array.isArray(node)) return false;
+  const record = node as Record<string, unknown>;
+  return "heading" in record || "subtitle" in record;
+}
+
+/**
+ * True for a node that renders no visible text of its own — carrying
+ * neither a top-level `text` nor a nested `content` to read one from, and
+ * not itself a `heading`/`subtitle`/`bibleLink` boundary — *and* that does
+ * not itself carry `paragraph: true`. Skipped when looking for the real node
+ * after a heading/subtitle run, the same way checks 3/4's own backward/
+ * forward scans skip through a textless Strong's sibling
+ * (`isTextlessStrongSibling`) rather than stopping there: a node that
+ * renders zero characters isn't really "the thing after the heading" from a
+ * reader's standpoint, so testing *it* for `paragraph: true` tests the wrong
+ * node.
+ *
+ * Real YLT1898 case this exists for: 1 Corinthians 7:1's heading is
+ * immediately followed by a chapter-summary `{foot: {...}}` node with no
+ * `text` of its own (Young's own "Chapter VII. may be divided into five
+ * parts…" note), and only *after* that does the verse's real
+ * `{paragraph: true, text: "And concerning…"}` appear. Without this skip,
+ * `next` would be the footnote-only node itself — never `paragraph: true`
+ * by construction, since it carries no text for a paragraph flag to open —
+ * producing a false finding on a run that is correctly flagged in the real
+ * next visible node.
+ *
+ * **The `paragraph: true` exclusion is load-bearing, not defensive
+ * padding.** Real KJV1769 Matthew 13:1 puts `{paragraph: true, strong:
+ * "G1161"}` — a textless multi-word Strong's connector, the untranslated
+ * half of a two-word Greek phrase rendered as one English word elsewhere —
+ * directly after its heading, with the real visible text (`{text: "The
+ * same", strong: "G1722"}`) only the node *after* that. The paragraph flag
+ * genuinely lives on the textless node here; skipping straight past it
+ * because it renders nothing would silently lose the very signal this check
+ * exists to find, and flag a run that is already correctly marked. A node
+ * with no visible text can still be the real paragraph boundary, so this
+ * only ever skips a node that is both textless *and* not the boundary
+ * itself.
+ */
+function skipsPastHeadingRun(node: unknown): boolean {
+  const shape = describeNode(node);
+  return !shape.isBoundary && shape.text === undefined && !shape.hasNestedContent && !shape.opensParagraph;
+}
+
+/** One heading/subtitle run whose own real next node fails to open a paragraph. */
+export interface HeadingParagraphFinding {
+  /** The book id this finding belongs to (e.g. `AMS`). */
+  book: string;
+  /** The chapter this run belongs to. */
+  chapter: number;
+  /** The verse this run belongs to. */
+  verse: number;
+  /** The collapsed run of one or more consecutive heading/subtitle nodes. */
+  run: readonly unknown[];
+  /** The node immediately after the run — the one that should have carried `paragraph: true` and didn't. */
+  next: unknown;
+  /** Where the offending node sits in the verse's own outermost content, so a fixer can reach it without rediscovering the run. */
+  nextIndex: number;
+}
+
+/**
+ * Every heading/subtitle run in one verse's own outermost content whose own
+ * real next node fails to open a paragraph.
+ *
+ * Consecutive heading/subtitle nodes collapse into a single run before the
+ * node after them is judged — real WEBUS2020 Psalm 90:1 shape (`heading` →
+ * `subtitle` → real content) needs both boundary nodes treated as one:
+ * checking each one's own literal next sibling separately would treat the
+ * subtitle itself as the heading's own "next node" (never `paragraph:
+ * true`) and produce a spurious finding, instead of judging the run as a
+ * whole against the one real node that actually follows it.
+ *
+ * "The node right after the run" skips forward past any {@link
+ * skipsPastHeadingRun} node before landing on `next` — real YLT1898 1
+ * Corinthians 7:1 puts a footnote-only chapter-summary node between the
+ * heading and the real, correctly-flagged paragraph text, and that
+ * in-between node renders nothing a reader would ever see.
+ *
+ * Never recurses past a verse's own outermost array: a heading/subtitle
+ * never occurs nested inside a `ContentNested` wrapper's own content or a
+ * footnote body in this corpus. A run with nothing after it at all reports
+ * nothing — there is no node for the convention to apply to.
+ */
+function findVerseHeadingParagraphMismatches(verse: VerseRecord): HeadingParagraphFinding[] {
+  const nodes = asArray(verse.content);
+  const findings: HeadingParagraphFinding[] = [];
+
+  let at = 0;
+  while (at < nodes.length) {
+    if (!isHeadingOrSubtitle(nodes[at])) {
+      at++;
+      continue;
+    }
+    let end = at;
+    while (end < nodes.length && isHeadingOrSubtitle(nodes[end])) end++;
+    let nextIndex = end;
+    while (nextIndex < nodes.length && skipsPastHeadingRun(nodes[nextIndex])) nextIndex++;
+
+    if (nextIndex < nodes.length && !describeNode(nodes[nextIndex]).opensParagraph) {
+      findings.push({
+        book: verse.book,
+        chapter: verse.chapter,
+        verse: verse.verse,
+        run: nodes.slice(at, end),
+        next: nodes[nextIndex],
+        nextIndex,
+      });
+    }
+    at = nextIndex + 1;
+  }
+
+  return findings;
+}
+
+/**
+ * Every heading/subtitle-run finding across one whole book's own verses.
+ *
+ * The convention is flat and corpus-wide: a heading or subtitle followed by
+ * anything that is not itself a heading or subtitle opens a paragraph, in
+ * every version and every book. No per-book judgment, no evidence
+ * gathering, no allowlist — a run either pairs or it is a finding.
+ *
+ * @param verses - One whole book's own verses, in their real on-disk order (matches {@link auditVersion}'s own per-file loop).
+ */
+export function findHeadingParagraphMismatches(
+  verses: readonly VerseRecord[],
+): HeadingParagraphFinding[] {
+  return verses.flatMap(findVerseHeadingParagraphMismatches);
+}
+
+// ---------------------------------------------------------------------------
 // Recursion — one array level, plus every node's own heading/subtitle/content/foot.content
 // ---------------------------------------------------------------------------
 
@@ -559,7 +723,7 @@ function asArray(content: unknown): unknown[] {
   return Array.isArray(content) ? content : [content];
 }
 
-/** All five checks' findings for one array level (and everything nested beneath it) — the shape {@link findStrongsNodeIssues} returns. */
+/** All six checks' findings for one array level (and everything nested beneath it) — the shape {@link findStrongsNodeIssues} returns. */
 interface LevelFindings {
   /** Check 1's findings. */
   unmergedPairs: PairFinding[];
@@ -571,13 +735,15 @@ interface LevelFindings {
   markBoundarySpaces: MarkBoundarySpaceFinding[];
   /** Check 5's finding for this verse, or `undefined` when its content doesn't start with whitespace — at most one per verse. */
   verseInitialSpace: VerseInitialSpaceFinding | undefined;
+  /** Check 7's findings — each entry is the offending node's own path (e.g. `content[3]`), not a full finding object, matching Check 2's own shape. */
+  fractionFindings: string[];
 }
 
 /**
  * Walk one array level and every node's own nested levels — `heading`,
  * `subtitle`, a `ContentNested` wrapper's own `content`, and a footnote
- * body's own `foot.content` — collecting all four checks' findings into
- * `sink` as it goes.
+ * body's own `foot.content` — collecting all five per-node checks' findings
+ * into `sink` as it goes.
  */
 function walkLevel(
   nodes: readonly unknown[],
@@ -593,6 +759,8 @@ function walkLevel(
     const shape = describeNode(node);
     if (hasTrailingWhitespace(shape))
       sink.trailingWhitespace.push(`${where}[${i}]`);
+    if (hasUnnormalizedFraction(shape))
+      sink.fractionFindings.push(`${where}[${i}]`);
 
     if (node === null || typeof node !== "object" || Array.isArray(node))
       continue;
@@ -617,11 +785,14 @@ function walkLevel(
 }
 
 /**
- * Walk one verse's whole content tree for all five checks at once.
+ * Walk one verse's whole content tree for checks 1-5 and 7 at once (six
+ * checks total).
  *
- * Check 5 is not recursive like the other four — it only ever looks at this
+ * Check 5 is not recursive like the other five — it only ever looks at this
  * verse's own outermost content, so it runs once here rather than inside
- * {@link walkLevel}.
+ * {@link walkLevel}. Check 6 ({@link findHeadingParagraphMismatches}) is not
+ * included here at all — it needs a whole book's own verse sequence to
+ * decide anything, not one verse in isolation, so it runs separately.
  *
  * @param content - A verse's own `content` value, any shape the schema permits.
  * @param where - The array level's own label, threaded through recursion; callers pass nothing and get `"content"`.
@@ -636,6 +807,7 @@ export function findStrongsNodeIssues(
     leadingPunctuation: [],
     markBoundarySpaces: [],
     verseInitialSpace: checkVerseInitialSpace(content),
+    fractionFindings: [],
   };
   walkLevel(asArray(content), where, sink);
   return sink;
@@ -666,6 +838,22 @@ export interface StrongTrailingWhitespaceFinding {
   /** The verse file this finding belongs to (e.g. `01-GEN.json`). */
   file: string;
   /** The book id this finding belongs to (e.g. `GEN`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+  /** The offending node's own path within the verse's content tree (e.g. `content[3]`). */
+  path: string;
+}
+
+/** One node whose own text still carries an un-normalized fraction, with its file/verse identity attached. */
+export interface FractionFinding {
+  /** The version id this finding belongs to (e.g. `WEBUS2020`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `02-EXO.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `EXO`). */
   book: string;
   /** The chapter number this finding belongs to. */
   chapter: number;
@@ -725,7 +913,15 @@ function verseFiles(version: string): string[] {
     .sort();
 }
 
-/** One version's own audit: its id, and every finding {@link auditVersion} found, across all five checks. */
+/** One {@link HeadingParagraphFinding}, with its version/file identity attached — matches every other check's own file-finding wrapper. */
+export interface HeadingParagraphFileFinding extends HeadingParagraphFinding {
+  /** The version id this finding belongs to (e.g. `WEBUS2020`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `19-PSA.json`). */
+  file: string;
+}
+
+/** One version's own audit: its id, and every finding {@link auditVersion} found, across all seven checks. */
 export interface VersionAudit {
   /** The version id audited (e.g. `KJV1769`). */
   version: string;
@@ -739,6 +935,10 @@ export interface VersionAudit {
   markBoundarySpaces: readonly MarkBoundarySpaceFileFinding[];
   /** Check 5's findings, corpus-wide for this version. */
   verseInitialSpaces: readonly VerseInitialSpaceFileFinding[];
+  /** Check 6's findings, corpus-wide for this version — a heading/subtitle run not immediately followed by a real paragraph start. */
+  headingParagraphMismatches: readonly HeadingParagraphFileFinding[];
+  /** Check 7's findings, corpus-wide for this version — a node whose own text still carries a fraction shape not yet normalized to this repo's own convention. */
+  fractionFindings: readonly FractionFinding[];
 }
 
 /**
@@ -753,6 +953,8 @@ export function auditVersion(version: string): VersionAudit {
   const leadingPunctuation: StrongLeadingPunctuationFinding[] = [];
   const markBoundarySpaces: MarkBoundarySpaceFileFinding[] = [];
   const verseInitialSpaces: VerseInitialSpaceFileFinding[] = [];
+  const headingParagraphMismatches: HeadingParagraphFileFinding[] = [];
+  const fractionFindings: FractionFinding[] = [];
 
   for (const file of verseFiles(version)) {
     const verses = JSON.parse(
@@ -778,7 +980,12 @@ export function auditVersion(version: string): VersionAudit {
         markBoundarySpaces.push({ ...identity, ...finding });
       if (findings.verseInitialSpace)
         verseInitialSpaces.push({ ...identity, ...findings.verseInitialSpace });
+      for (const at of findings.fractionFindings)
+        fractionFindings.push({ ...identity, path: at });
     }
+
+    for (const finding of findHeadingParagraphMismatches(verses))
+      headingParagraphMismatches.push({ version, file, ...finding });
   }
 
   return {
@@ -788,6 +995,8 @@ export function auditVersion(version: string): VersionAudit {
     leadingPunctuation,
     markBoundarySpaces,
     verseInitialSpaces,
+    headingParagraphMismatches,
+    fractionFindings,
   };
 }
 
@@ -795,7 +1004,8 @@ export function auditVersion(version: string): VersionAudit {
  * Audit each named version, or every version directory under
  * `bible-versions/` when none are named — deliberately not a curated list
  * (see this module's own top doc comment): a version with no `strong`
- * values at all just reports zero findings across all five checks.
+ * values and no un-normalized fraction at all just reports zero findings
+ * across all seven checks.
  *
  * @param versionIds - Versions to audit; defaults to {@link getVersionDirectories}.
  */
@@ -805,7 +1015,7 @@ export function auditVersions(
   return versionIds.map((version) => auditVersion(version));
 }
 
-/** The exit code this check should report — non-zero when any version carries any finding across any of the five checks. */
+/** The exit code this check should report — non-zero when any version carries any finding across any of the seven checks. */
 export function exitCodeFor(summaries: readonly VersionAudit[]): number {
   return summaries.some(
     (summary) =>
@@ -813,14 +1023,16 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
       summary.trailingWhitespace.length > 0 ||
       summary.leadingPunctuation.length > 0 ||
       summary.markBoundarySpaces.length > 0 ||
-      summary.verseInitialSpaces.length > 0,
+      summary.verseInitialSpaces.length > 0 ||
+      summary.headingParagraphMismatches.length > 0 ||
+      summary.fractionFindings.length > 0,
   )
     ? 1
     : 0;
 }
 
 /**
- * Prints one version's own findings across all five checks — the first `cap`
+ * Prints one version's own findings across all seven checks — the first `cap`
  * per check, or every one when `verbose`.
  *
  * Exported so `validate.ts` can render the same per-check breakdown inline in
@@ -830,7 +1042,7 @@ export function printFindingLines(summary: VersionAudit, verbose: boolean): void
   const cap = verbose ? Infinity : 10;
 
   console.log(
-    `  ${summary.unmergedPairs.length} adjacent node pair(s) that should have merged into one strong-carrying node but didn't`,
+    `  ${summary.unmergedPairs.length} adjacent node pair(s) that should have merged into one strong-, foot-, or break-carrying node but didn't`,
   );
   for (const finding of summary.unmergedPairs.slice(0, cap)) {
     console.log(
@@ -893,15 +1105,41 @@ export function printFindingLines(summary: VersionAudit, verbose: boolean): void
     console.log(
       `    … ${summary.verseInitialSpaces.length - cap} more (--verbose to list all)`,
     );
+
+  console.log(
+    `  ${summary.headingParagraphMismatches.length} heading/subtitle run(s) not immediately followed by a real paragraph start`,
+  );
+  for (const finding of summary.headingParagraphMismatches.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) run=${JSON.stringify(finding.run)} next=${JSON.stringify(finding.next)}`,
+    );
+  }
+  if (!verbose && summary.headingParagraphMismatches.length > cap)
+    console.log(
+      `    … ${summary.headingParagraphMismatches.length - cap} more (--verbose to list all)`,
+    );
+
+  console.log(
+    `  ${summary.fractionFindings.length} node(s) whose own text still carries an un-normalized fraction`,
+  );
+  for (const finding of summary.fractionFindings.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+    );
+  }
+  if (!verbose && summary.fractionFindings.length > cap)
+    console.log(
+      `    … ${summary.fractionFindings.length - cap} more (--verbose to list all)`,
+    );
 }
 
 /**
- * True when a version's audit found nothing across any of the five checks —
+ * True when a version's audit found nothing across any of the seven checks —
  * printed as a single skipped line rather than an empty block, so a report
  * over every version on disk stays readable.
  *
  * Exported so `validate.ts` can reuse this same clean/dirty test rather than
- * re-deriving it from `VersionAudit`'s five finding arrays itself.
+ * re-deriving it from `VersionAudit`'s seven finding arrays itself.
  */
 export function isClean(summary: VersionAudit): boolean {
   return (
@@ -909,7 +1147,9 @@ export function isClean(summary: VersionAudit): boolean {
     summary.trailingWhitespace.length === 0 &&
     summary.leadingPunctuation.length === 0 &&
     summary.markBoundarySpaces.length === 0 &&
-    summary.verseInitialSpaces.length === 0
+    summary.verseInitialSpaces.length === 0 &&
+    summary.headingParagraphMismatches.length === 0 &&
+    summary.fractionFindings.length === 0
   );
 }
 
@@ -931,15 +1171,13 @@ function printReport(
 }
 
 /**
- * `npm run audit-nodes KJV1769 --verbose` (no `--` before the script's
- * own args) never reaches here as `--verbose` at all: npm's own CLI parses
- * every `--flag` itself unless it follows a literal `--` separator, consumes
- * `--verbose` as its *own* `--loglevel verbose`, and only forwards `KJV1769`
- * to `process.argv`. npm does still expose that consumed config to the
- * script's environment as `npm_config_loglevel`, so that env var is checked
- * as a fallback — the one signal this invocation shape actually leaves
- * behind — in addition to a literal `--verbose` (present when this is run
- * directly, via `ts-node`, or via `npm run ... -- --verbose`).
+ * `npm run audit-nodes KJV1769 --verbose` (no `--` before the script's own
+ * args) never reaches here as `--verbose` at all: npm's own CLI consumes
+ * any `--flag` before a literal `--` separator as its *own* config (here,
+ * `--loglevel verbose`) and forwards only `KJV1769` to `process.argv`. npm
+ * does expose that consumed setting as the `npm_config_loglevel` env var,
+ * so that's checked as a fallback alongside a literal `--verbose` (present
+ * when run directly, via `ts-node`, or via `npm run ... -- --verbose`).
  */
 function main(): void {
   const args = process.argv.slice(2);

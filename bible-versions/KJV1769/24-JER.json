@@ -937,9 +937,15 @@
               "type": "trn",
               "content": [
                 "Or, ",
+                { "text": "feed on thy crown, ", "marks": ["i"] },
                 {
-                  "text": "feed on thy crown, deut. 33.12 Isai. 8.8",
-                  "marks": ["i"]
+                  "bibleLink": "Deuteronomy 33:12",
+                  "content": { "text": "deut. 33.12", "marks": ["i"] }
+                },
+                { "text": " ", "marks": ["i"] },
+                {
+                  "bibleLink": "Isaiah 8:8",
+                  "content": { "text": "Isai. 8.8", "marks": ["i"] }
                 }
               ]
             }
@@ -10063,7 +10069,7 @@
         "text": " for your principalities",
         "foot": {
           "type": "trn",
-          "content": ["or, ", { "text": "head tires", "marks": ["i"] }]
+          "content": ["Or, ", { "text": "head tires", "marks": ["i"] }]
         },
         "strong": "H4761"
       },
@@ -10814,8 +10820,12 @@
           "content": [
             "Or, ",
             {
-              "text": "make merchandise against a land, and men acknowledge it not, Chap. 5.31",
+              "text": "make merchandise against a land, and men acknowledge it not, ",
               "marks": ["i"]
+            },
+            {
+              "bibleLink": "Jeremiah 5:31",
+              "content": { "text": "Chap. 5.31", "marks": ["i"] }
             }
           ]
         }
@@ -11882,9 +11892,10 @@
               "type": "trn",
               "content": [
                 "Or, ",
+                { "text": "break bread for them, as ", "marks": ["i"] },
                 {
-                  "text": "break bread for them, as Ezek. 24.17",
-                  "marks": ["i"]
+                  "bibleLink": "Ezekiel 24:17",
+                  "content": { "text": "Ezek. 24.17", "marks": ["i"] }
                 }
               ]
             }
@@ -18259,8 +18270,12 @@
             { "text": "cut off into corners", "marks": ["i"] },
             ", or ",
             {
-              "text": "having the corners of the hair polled, chap. 9.28",
+              "text": "having the corners of the hair polled, ",
               "marks": ["i"]
+            },
+            {
+              "bibleLink": "Jeremiah 9:26",
+              "content": { "text": "chap. 9.26", "marks": ["i"] }
             }
           ]
         },

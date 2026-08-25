@@ -702,7 +702,7 @@
 <sup>56</sup> Then sought they for Jesus, and spake among themselves, as they stood in the temple, What think ye, that he will not come to the feast?
 <sup>57</sup> Now both the chief priests and the Pharisees had given a commandment, that, if any man knew where he were, he should shew _it_, that they might take him.
 
-> - <sup>a</sup> 18. that is, _about two miles_
+> - <sup>a</sup> 18. That is, _about two miles_
 > - <sup>b</sup> 33. Gr. _He troubled himself_
 
 ## Chapter 12
@@ -1031,7 +1031,7 @@ And when he had said this, he went out again unto the Jews, and saith unto them,
 <sup>39</sup> But ye have a custom, that I should release unto you one at the passover: will ye therefore that I release unto you the King of the Jews?
 <sup>40</sup> Then cried they all again, saying, Not this man, but Barabbas. Now Barabbas was a robber.
 
-> - <sup>a</sup> 13. _And Annas sent Christ bound unto Caiaphas the high priest, ver. 24_
+> - <sup>a</sup> 13. _And Annas sent Christ bound unto Caiaphas the high priest,_ _ver. 24_
 > - <sup>b</sup> 22. Or, _with a rod_
 > - <sup>c</sup> 28. Or, _Pilats house_
 

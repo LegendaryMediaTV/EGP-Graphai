@@ -1,7 +1,15 @@
 import { describe, expect, it } from "vitest";
 import Content from "../../types/Content";
 import { getVersionDirectories } from "../../functions/getBibleVersions";
-import { auditVersion, auditVersions, exitCodeFor, findStrongsNodeIssues } from "../auditNodes";
+import { uniformFraction } from "../usfm/fractions";
+import {
+  auditVersion,
+  auditVersions,
+  exitCodeFor,
+  findHeadingParagraphMismatches,
+  findStrongsNodeIssues,
+  VerseRecord,
+} from "../auditNodes";
 
 describe("findStrongsNodeIssues — unmerged pairs", () => {
   it("should report no findings for a clean tree with everything already merged", () => {
@@ -31,23 +39,49 @@ describe("findStrongsNodeIssues — unmerged pairs", () => {
   });
 
   it("should never treat a ContentNested wrapper (no top-level text) as a forward-merge target", () => {
-    // {content: [...], strong: "..."} has nothing at its own top level for a
-    // preceding connector's text to land on.
     const content: Content = ["the ", { content: ["word"], strong: "H1234" } as unknown as Content];
     expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
   });
 
   it("should stay silent on a trailing connector with nothing strong-carrying after it in the span — real Genesis 1:15 KJV1769 shape", () => {
-    // Genesis 1:7 tags the identical phrase (strong: "H3651"); folding this
-    // one backward into "H776" would claim that number covers text it
-    // doesn't. The real defect, if any, is a missing tag on the connector
-    // itself — never something this check could recommend merging away.
     const content: Content = [{ text: "upon the earth:", strong: "H776" }, "and it was so."];
     expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
   });
 
   it("should stay silent on a trailing connector even when it agrees in formatting and ends the whole array", () => {
     const content: Content = [{ text: "he them.", strong: "H1254" }, " he them."];
+    expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
+  });
+
+  it("should flag a plain connector left unmerged before a foot-carrying node — real Genesis 1:1 WEBUS2020 shape", () => {
+    const content: Content = [
+      { paragraph: true, text: "In the beginning, " },
+      { text: "God", foot: { type: "stu", content: "x" } },
+    ];
+    const findings = findStrongsNodeIssues(content).unmergedPairs;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].plain).toEqual({ paragraph: true, text: "In the beginning, " });
+    expect(findings[0].target).toEqual({ text: "God", foot: { type: "stu", content: "x" } });
+  });
+
+  it("should flag a plain connector left unmerged before a break-carrying node", () => {
+    const content: Content = [{ text: "In the beginning, " }, { text: "God", break: true }];
+    const findings = findStrongsNodeIssues(content).unmergedPairs;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].plain).toEqual({ text: "In the beginning, " });
+    expect(findings[0].target).toEqual({ text: "God", break: true });
+  });
+
+  it("should stay silent on a foot-carrying target that itself opens a new paragraph", () => {
+    const content: Content = [
+      { text: "In the beginning, " },
+      { paragraph: true, text: "God", foot: { type: "stu", content: "x" } },
+    ];
+    expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
+  });
+
+  it("should stay silent on a break-carrying target that itself opens a new paragraph", () => {
+    const content: Content = [{ text: "In the beginning, " }, { paragraph: true, text: "God", break: true }];
     expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
   });
 });
@@ -278,6 +312,203 @@ describe("findStrongsNodeIssues — verse-initial spaces", () => {
   });
 });
 
+describe("findStrongsNodeIssues — fraction convention", () => {
+  it("should flag a node whose text still carries a genuine ASCII N/M fraction — real, current Exodus 16:36 WEBUS2020 shape", () => {
+    const content: Content = [{ text: "1 ephah is about 22 liters or about 2/3 of a bushel" }];
+    expect(findStrongsNodeIssues(content).fractionFindings).toEqual(["content[0]"]);
+  });
+
+  it("should flag a node whose text still carries a precomposed vulgar-fraction glyph — real, current Exodus 27:1 WEBUS2020 shape", () => {
+    const content: Content = [{ text: "The altar was to be about 7½×7½×4½ feet." }];
+    expect(findStrongsNodeIssues(content).fractionFindings).toEqual(["content[0]"]);
+  });
+
+  it("should stay silent on text already normalized to this repo's own fraction convention", () => {
+    const content: Content = [
+      { text: `1 ephah is about 22 liters or about ${uniformFraction("2", "3")} of a bushel` },
+    ];
+    expect(findStrongsNodeIssues(content).fractionFindings).toEqual([]);
+  });
+
+  it("should stay silent on plain text with no fraction shape at all", () => {
+    const content: Content = [{ paragraph: true, text: "In the beginning, God created the heavens and the earth." }];
+    expect(findStrongsNodeIssues(content).fractionFindings).toEqual([]);
+  });
+
+  it("should stay silent on the real ordinal-suffix exception left verbatim by the shared normalizer — real WEBUS2020 Glossary/Matthew 20:2 shape", () => {
+    const content: Content = [{ text: "1/25th of a Roman aureus" }];
+    expect(findStrongsNodeIssues(content).fractionFindings).toEqual([]);
+  });
+
+  it("should report each offending node's own path, not just a count, when more than one node in the same array carries a fraction", () => {
+    const content: Content = [{ text: "about 2/3 of a bushel" }, "plain text", { text: "about 1/4 hin" }];
+    expect(findStrongsNodeIssues(content).fractionFindings).toEqual(["content[0]", "content[2]"]);
+  });
+
+  it("should descend into a footnote body's own content, the same as every other check in this recursion", () => {
+    const content: Content = [
+      { text: "word", foot: { type: "trn", content: ["about 2/3 of a bushel"] } },
+    ];
+    expect(findStrongsNodeIssues(content).fractionFindings).toEqual(["content.foot.content[0]"]);
+  });
+});
+
+describe("findHeadingParagraphMismatches", () => {
+  // Fixtures combine real verse shapes with invented ones into small
+  // synthetic "books"; production always passes exactly one real book's own
+  // verses (see auditVersion's per-file loop). The rule is flat, so no
+  // fixture needs to establish anything about the book around it — a run
+  // either pairs or it is a finding.
+
+  it("should collapse a heading immediately followed by a subtitle into one run before judging what comes after — real WEBUS2020 Psalm 90:1 shape", () => {
+    const headingNode = { heading: [{ text: "Book Four", marks: ["sc"] }, " (Psalms 90-106)"] };
+    const subtitleNode = { subtitle: { text: "A Prayer by Moses, the man of God.", foot: { type: "stu", content: "x" } } };
+    const realNextNode = { text: "Lord,", foot: { type: "stu", content: "x" } };
+
+    const verses: VerseRecord[] = [
+      {
+        book: "PSA",
+        chapter: 90,
+        verse: 1,
+        content: [headingNode, subtitleNode, realNextNode, { text: " you have been our dwelling place for all generations.", break: true }] as unknown as Content,
+      },
+    ];
+
+    const findings = findHeadingParagraphMismatches(verses);
+    expect(findings).toHaveLength(1);
+    expect(findings[0].run).toEqual([headingNode, subtitleNode]);
+    expect(findings[0].next).toEqual(realNextNode);
+    expect(findings[0].nextIndex).toBe(2);
+  });
+
+  it("should treat a collapsed heading+subtitle run as correctly paired when its real next node opens a paragraph — synthetic heading+subtitle-then-paragraph shape", () => {
+    const verses: VerseRecord[] = [
+      {
+        book: "PSA",
+        chapter: 3,
+        verse: 1,
+        content: [
+          { heading: "A Plea for Help" },
+          { subtitle: [{ text: "A song, ", foot: { type: "xrf", content: "x" } }, "written for the choir director."] },
+          { paragraph: true, text: "Hear " },
+          { text: "Lord", marks: ["sc"] },
+        ] as unknown as Content,
+      },
+    ];
+
+    expect(findHeadingParagraphMismatches(verses)).toEqual([]);
+  });
+
+  it("should flag a mid-verse heading the same as any other, with nothing about the book around it changing the answer — real WEBUS2020 Song of Solomon 1:4 shape", () => {
+    const friendsHeading = { heading: "Friends" };
+
+    const verses: VerseRecord[] = [
+      { book: "SOS", chapter: 1, verse: 1, content: "By night on my bed," as unknown as Content },
+      {
+        book: "SOS",
+        chapter: 1,
+        verse: 4,
+        content: [
+          { text: "The king has brought me into his rooms.", break: true },
+          friendsHeading,
+          { text: "We will be glad and rejoice in you.", break: true },
+        ] as unknown as Content,
+      },
+    ];
+
+    const findings = findHeadingParagraphMismatches(verses);
+    expect(findings).toHaveLength(1);
+    expect(findings[0]).toMatchObject({ book: "SOS", chapter: 1, verse: 4, nextIndex: 2 });
+    expect(findings[0].run).toEqual([friendsHeading]);
+  });
+
+  it("should stay silent on a correctly-paired chapter-opening heading, whether or not anything else in the book carries one", () => {
+    const verses: VerseRecord[] = [
+      {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { heading: "The Beginning" },
+          { paragraph: true, text: "In the ", foot: { type: "xrf", content: "x" } },
+          "beginning, God created the heavens and the earth.",
+        ] as unknown as Content,
+      },
+    ];
+
+    expect(findHeadingParagraphMismatches(verses)).toEqual([]);
+  });
+
+  it("should report both runs in one verse separately, telling them apart by nextIndex — real WEBUS2020 Song of Solomon 6:13 shape", () => {
+    const friendsHeading = { heading: "Friends" };
+    const loverHeading = { heading: "Lover" };
+
+    const verses: VerseRecord[] = [
+      {
+        book: "SOS",
+        chapter: 6,
+        verse: 13,
+        content: [
+          friendsHeading,
+          { text: "Return, return, Shulammite!", break: true },
+          loverHeading,
+          { text: "Why do you desire to gaze at the Shulammite,", break: true },
+        ] as unknown as Content,
+      },
+    ];
+
+    const findings = findHeadingParagraphMismatches(verses);
+    expect(findings).toHaveLength(2);
+    expect(findings[0].run).toEqual([friendsHeading]);
+    expect(findings[0].nextIndex).toBe(1);
+    expect(findings[1].run).toEqual([loverHeading]);
+    expect(findings[1].nextIndex).toBe(3);
+  });
+
+  it("should skip past a node that renders nothing to reach the block the flag really belongs on — real YLT1898 1 Corinthians 7:1 shape", () => {
+    const chapterSummary = { foot: { type: "stu", content: "Chapter VII. may be divided into five parts..." } };
+
+    const paired: VerseRecord[] = [
+      {
+        book: "1CO",
+        chapter: 7,
+        verse: 1,
+        content: [
+          { heading: "Marriage" },
+          chapterSummary,
+          { paragraph: true, text: "And concerning the things of which ye wrote to me:" },
+        ] as unknown as Content,
+      },
+    ];
+    expect(findHeadingParagraphMismatches(paired)).toEqual([]);
+
+    const unpaired: VerseRecord[] = [
+      {
+        book: "1CO",
+        chapter: 7,
+        verse: 1,
+        content: [
+          { heading: "Marriage" },
+          chapterSummary,
+          { text: "And concerning the things of which ye wrote to me:" },
+        ] as unknown as Content,
+      },
+    ];
+    const findings = findHeadingParagraphMismatches(unpaired);
+    expect(findings).toHaveLength(1);
+    expect(findings[0].nextIndex).toBe(2);
+  });
+
+  it("should stay silent on a heading with nothing after it at all — there is no node for the convention to apply to", () => {
+    const verses: VerseRecord[] = [
+      { book: "PSA", chapter: 3, verse: 1, content: ["Trailing line.", { heading: "Selah" }] as unknown as Content },
+      { book: "PSA", chapter: 4, verse: 1, content: { heading: "A lone heading" } as unknown as Content },
+    ];
+
+    expect(findHeadingParagraphMismatches(verses)).toEqual([]);
+  });
+});
+
 describe("findStrongsNodeIssues — recursion", () => {
   it("should descend into a subtitle node's own inner content", () => {
     const content: Content = { subtitle: ["A ", { text: "! psalm", strong: "H4210" }] };
@@ -352,14 +583,34 @@ describe("auditVersion / auditVersions — real, on-disk corpus", () => {
     expect(summaries.map((s) => s.version)).toEqual(versionIds);
   }, 30000);
 
-  it("should report zero findings for a version with no Strong's tagging at all", () => {
+  it("should report zero findings for the four strong-specific checks in a version with no Strong's tagging at all", () => {
     const summary = auditVersion("WEBUS2020");
-    expect(summary.unmergedPairs).toEqual([]);
     expect(summary.trailingWhitespace).toEqual([]);
     expect(summary.leadingPunctuation).toEqual([]);
     expect(summary.markBoundarySpaces).toEqual([]);
     expect(summary.verseInitialSpaces).toEqual([]);
   });
+
+  it("should report zero unmerged-pair findings for WEBUS2020 — the importer merges the Genesis-1:1-shaped foot-only split at import time (see utils/usfm/inlineMarks.ts's isMergeTarget)", () => {
+    const summary = auditVersion("WEBUS2020");
+    expect(summary.unmergedPairs).toEqual([]);
+  });
+
+  /**
+   * The heading/paragraph convention holds across the whole corpus, so the
+   * whole corpus is asserted rather than one version at a time. Raw sources
+   * rarely write the paragraph themselves — a USFM `\d` superscription,
+   * `\sp` speaker label, or `\qc` acrostic letter is normally followed by a
+   * bare `\q1`, never a `\p` — which is why 358 runs across four versions
+   * were missing it until `usfm/segmentVerses.ts`'s heading dispatch started
+   * supplying it and `utils/fixHeadingParagraphs.ts` backfilled the versions
+   * already on disk.
+   */
+  it("should report zero heading/paragraph mismatches anywhere in the corpus — every heading and subtitle opens whatever follows it", () => {
+    for (const summary of auditVersions()) {
+      expect(summary.headingParagraphMismatches).toEqual([]);
+    }
+  }, 30000);
 
   it("should never write to bible-versions/ — this audit is read-only", () => {
     const first = JSON.stringify(auditVersions());
@@ -377,6 +628,8 @@ describe("exitCodeFor", () => {
       leadingPunctuation: [],
       markBoundarySpaces: [],
       verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -391,6 +644,8 @@ describe("exitCodeFor", () => {
         { version: "X", file: "40-MAT.json", book: "MAT", chapter: 6, verse: 32, where: "content", left: {}, space: " ", target: {} },
       ],
       verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -405,11 +660,13 @@ describe("exitCodeFor", () => {
       verseInitialSpaces: [
         { version: "X", file: "66-REV.json", book: "REV", chapter: 1, verse: 8, first: " ", next: {} },
       ],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
 
-  it("should exit zero when a version carries no finding across all five checks", () => {
+  it("should exit non-zero when a version carries only a heading/subtitle-paragraph mismatch", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
@@ -417,6 +674,40 @@ describe("exitCodeFor", () => {
       leadingPunctuation: [],
       markBoundarySpaces: [],
       verseInitialSpaces: [],
+      headingParagraphMismatches: [
+        { version: "X", file: "30-AMS.json", book: "AMS", chapter: 1, verse: 2, run: [{ heading: "x" }], next: "y", nextIndex: 1 },
+      ],
+      fractionFindings: [],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit non-zero when a version carries only a fraction finding", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [
+        { version: "X", file: "02-EXO.json", book: "EXO", chapter: 16, verse: 36, path: "content.foot.content[0]" },
+      ],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit zero when a version carries no finding across all seven checks", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
     } as const;
     expect(exitCodeFor([summary])).toBe(0);
   });

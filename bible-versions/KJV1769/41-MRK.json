@@ -4012,10 +4012,16 @@
         "marks": ["woc"],
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "The word, in the original, signifieth a less measure as Mat. 5.15",
-            "marks": ["i"]
-          }
+          "content": [
+            {
+              "text": "The word, in the original, signifieth a less measure as ",
+              "marks": ["i"]
+            },
+            {
+              "bibleLink": "Matthew 5:15",
+              "content": { "text": "Mat. 5.15", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G3426"
       },
@@ -6103,10 +6109,20 @@
         "text": " money",
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "the word signifieth a piece of brass money, in value somewhat less than a farthing, mat. 10.9 but here it is taken in general for money",
-            "marks": ["i"]
-          }
+          "content": [
+            {
+              "text": "The word signifieth a piece of brass money, in value somewhat less than a farthing, ",
+              "marks": ["i"]
+            },
+            {
+              "bibleLink": "Matthew 10:9",
+              "content": { "text": "mat. 10.9", "marks": ["i"] }
+            },
+            {
+              "text": " but here it is taken in general for money",
+              "marks": ["i"]
+            }
+          ]
         },
         "strong": "G5475"
       },
@@ -6955,10 +6971,16 @@
         "text": " pennyworth",
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "the Rom. penny is sevenpence halfpenny as Mat. 18.28",
-            "marks": ["i"]
-          }
+          "content": [
+            {
+              "text": "The Rom. penny is sevenpence halfpenny as ",
+              "marks": ["i"]
+            },
+            {
+              "bibleLink": "Matthew 18:28",
+              "content": { "text": "Mat. 18.28", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G1220"
       },
@@ -15294,10 +15316,16 @@
         "marks": ["woc"],
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "Valuing of our money seven pence halfpenny, as Mat. 18.28",
-            "marks": ["i"]
-          }
+          "content": [
+            {
+              "text": "Valuing of our money seven pence halfpenny, as ",
+              "marks": ["i"]
+            },
+            {
+              "bibleLink": "Matthew 18:28",
+              "content": { "text": "Mat. 18.28", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G1220"
       },
@@ -16223,10 +16251,13 @@
         "text": " money",
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "A piece of brass money, see Matth. 10.9",
-            "marks": ["i"]
-          }
+          "content": [
+            { "text": "A piece of brass money, see ", "marks": ["i"] },
+            {
+              "bibleLink": "Matthew 10:9",
+              "content": { "text": "Matth. 10.9", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G5475"
       },
@@ -18071,8 +18102,14 @@
       {
         "text": " pence,",
         "foot": {
-          "type": "stu",
-          "content": { "text": "See Matt. 18.28", "marks": ["i"] }
+          "type": "xrf",
+          "content": [
+            { "text": "See ", "marks": ["i"] },
+            {
+              "bibleLink": "Matthew 18:28",
+              "content": { "text": "Matt. 18.28", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G1220"
       },

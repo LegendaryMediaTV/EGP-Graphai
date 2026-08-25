@@ -6596,7 +6596,7 @@
         "foot": {
           "type": "stu",
           "content": [
-            "that is, ",
+            "That is, ",
             { "text": "he shall establish", "marks": ["i"] }
           ]
         },
@@ -7776,7 +7776,11 @@
               "type": "trn",
               "content": [
                 "Or, ",
-                { "text": "Ark, as 2. Chron. 5.9", "marks": ["i"] }
+                { "text": "Ark, as ", "marks": ["i"] },
+                {
+                  "bibleLink": "2 Chronicles 5:9",
+                  "content": { "text": "2. Chron. 5.9", "marks": ["i"] }
+                }
               ]
             }
           },
@@ -9941,7 +9945,7 @@
         "foot": {
           "type": "stu",
           "content": [
-            "that is, ",
+            "That is, ",
             { "text": "displeasing", "marks": ["i"] },
             " Or, ",
             { "text": "dirty", "marks": ["i"] }

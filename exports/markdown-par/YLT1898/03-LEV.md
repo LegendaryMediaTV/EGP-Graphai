@@ -633,6 +633,7 @@
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
 
 ### Sacrifices
+
 <sup>2</sup> “Speak unto Aaron, and unto his sons, and unto all the sons of Israel; and thou hast said unto them, This _is_ the thing which Jehovah hath commanded, saying,
 <sup>3</sup> Any man of the house of Israel who slaughtereth ox, or lamb, or goat, in the camp, or who slaughtereth at the outside of the camp,
 <sup>4</sup> and unto the opening of the tent of meeting hath not brought it in to bring near an offering to Jehovah before the tabernacle of Jehovah, blood is reckoned to that man—blood he hath shed—and that man hath been cut off from the midst of his people;

@@ -49,10 +49,10 @@ Then he said to him, “Call her name Lo-Ruhamah,<sup>b</sup> for I will no long
 <sup>20</sup> I will even betroth you to me in faithfulness;<br>and you shall know Yahweh.<br>
 <sup>21</sup> It will happen in that day, that I will respond,” says Yahweh.<br>“I will respond to the heavens,<br>and they will respond to the earth;<br>
 <sup>22</sup> and the earth will respond to the grain, and the new wine, and the oil;<br>and they will respond to Jezreel.<br>
-<sup>23</sup> I will sow her to me in the earth;<br>and I will have mercy on her who had not obtained mercy;<br>and I will tell those who were not my people, ‘You are my people;’<br>and they will say, ‘You are My God!’ ”
+<sup>23</sup> I will sow her to me in the earth;<br>and I will have mercy on her who had not obtained mercy;<br>and I will tell those who were not my people, ‘You are my people;’<br>and they will say, ‘You are My God!’”
 
-> - <sup>a</sup> 1. “Ammi” in Hebrew
-> - <sup>b</sup> 1. “Ruhamah” in Hebrew
+> - <sup>a</sup> 1. ‘Ammi’ in Hebrew
+> - <sup>b</sup> 1. ‘Ruhamah’ in Hebrew
 > - <sup>c</sup> 6. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 
 ## Chapter 3

@@ -31,7 +31,7 @@ The Export System converts Graphai JSON data into human-readable formats for off
 | `**text**`     | Bold (`b` mark)   | Markdown |
 | `_text_`       | Italic (`i` mark) | Markdown |
 
-Bold/italic wrapping is a no-op in the text export — `b`/`i` marks carry no visible rendering there, only in markdown.
+Bold/italic wrapping is a no-op in the text export. The `b`/`i` marks carry no visible rendering there, only in markdown.
 
 ## User Workflows
 
@@ -181,7 +181,7 @@ function emphasisTransition(
 }
 ```
 
-Called once per transition between array siblings (not once per node), so a run of same-marked words shares one open delimiter and one close delimiter rather than each word wrapping itself — the fix for markdown output that used to look like `**word****word**`.
+Called once per transition between array siblings (not once per node), so a run of same-marked words shares one open delimiter and one close delimiter rather than each word wrapping itself. This is the fix for markdown output that used to look like `**word****word**`.
 
 ### Text Object Rendering with Footnote Order
 

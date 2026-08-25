@@ -21,6 +21,7 @@
 <sup>19</sup> So _are_ the ways of every one that is greedy of gain;<br>_Which_ taketh away the life of the owners thereof.<br>
 
 ### The Cry of Wisdom
+
 <sup>20</sup> Wisdom<sup>g</sup> crieth without;<br>She uttereth her voice in the streets:<br>
 <sup>21</sup> She crieth in the chief place of concourse, in the openings of the gates:<br>In the city she uttereth her words, _saying_,<br>
 <sup>22</sup> How long, ye simple ones, will ye love simplicity?<br>And the scorners delight in their scorning,<br>And fools hate knowledge?<br>
@@ -595,7 +596,7 @@
 <sup>32</sup> He that refuseth instruction<sup>h</sup> despiseth his own soul:<br>But he that heareth<sup>i</sup> reproof getteth understanding.<sup>j</sup><br>
 <sup>33</sup> The fear of the LORD _is_ the instruction of wisdom;<br>And before honour _is_ humility.<br>
 
-> - <sup>a</sup> 2. _blecheth, or bubbleth_
+> - <sup>a</sup> 2. _Blecheth, or bubbleth_
 > - <sup>b</sup> 4. Heb. _The healing of the tongue_
 > - <sup>c</sup> 10. Or, _instruction_, etc.
 > - <sup>d</sup> 19. Heb. _is raised up as a causey_
@@ -883,6 +884,7 @@
 <sup>16</sup> He that oppresseth the poor to increase his _riches_,<br>_And_ he that giveth to the rich, _shall_ surely _come_ to want.<br>
 
 ### Words of the Wise
+
 <sup>17</sup> Bow down thine ear, and hear the words of the wise,<br>And apply thine heart unto my knowledge.<br>
 <sup>18</sup> For _it is_ a pleasant thing if thou keep them within thee;<sup>i</sup><br>They shall withal be fitted in thy lips.<br>
 <sup>19</sup> That thy trust may be in the LORD,<br>I have made known to thee this day, even to thee.<sup>j</sup><br>
@@ -1280,6 +1282,7 @@
 <sup>9</sup> Open thy mouth, judge righteously,<br>And plead the cause of the poor and needy.<br>
 
 ### The Good Wife
+
 <sup>10</sup> Who can find a virtuous woman?<br>For her price _is_ far above rubies.<br>
 <sup>11</sup> The heart of her husband doth safely trust in her,<br>So that he shall have no need of spoil.<br>
 <sup>12</sup> She will do him good and not evil<br>All the days of her life.<br>

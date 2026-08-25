@@ -96,7 +96,7 @@
     "book": "JSH",
     "chapter": 1,
     "verse": 11,
-    "content": "“Pass through the middle of the camp, and command the people, saying, ‘Prepare food; for within three days you are to pass over this Jordan, to go in to possess the land which Yahweh your God gives you to possess.’ ”"
+    "content": "“Pass through the middle of the camp, and command the people, saying, ‘Prepare food; for within three days you are to pass over this Jordan, to go in to possess the land which Yahweh your God gives you to possess.’”"
   },
   {
     "book": "JSH",
@@ -123,7 +123,7 @@
     "book": "JSH",
     "chapter": 1,
     "verse": 15,
-    "content": "until Yahweh has given your brothers rest, as he has given you, and they have also possessed the land which Yahweh your God gives them. Then you shall return to the land of your possession and possess it, which Moses the servant of Yahweh gave you beyond the Jordan toward the sunrise.’ ”"
+    "content": "until Yahweh has given your brothers rest, as he has given you, and they have also possessed the land which Yahweh your God gives them. Then you shall return to the land of your possession and possess it, which Moses the servant of Yahweh gave you beyond the Jordan toward the sunrise.’”"
   },
   {
     "book": "JSH",
@@ -395,7 +395,7 @@
     "book": "JSH",
     "chapter": 3,
     "verse": 8,
-    "content": "You shall command the priests who bear the ark of the covenant, saying, ‘When you come to the brink of the waters of the Jordan, you shall stand still in the Jordan.’ ”"
+    "content": "You shall command the priests who bear the ark of the covenant, saying, ‘When you come to the brink of the waters of the Jordan, you shall stand still in the Jordan.’”"
   },
   {
     "book": "JSH",
@@ -485,7 +485,7 @@
     "book": "JSH",
     "chapter": 4,
     "verse": 3,
-    "content": "and command them, saying, ‘Take from out of the middle of the Jordan, out of the place where the priests’ feet stood firm, twelve stones, carry them over with you, and lay them down in the place where you’ll camp tonight.’ ”"
+    "content": "and command them, saying, ‘Take from out of the middle of the Jordan, out of the place where the priests’ feet stood firm, twelve stones, carry them over with you, and lay them down in the place where you’ll camp tonight.’”"
   },
   {
     "book": "JSH",
@@ -512,7 +512,7 @@
     "book": "JSH",
     "chapter": 4,
     "verse": 7,
-    "content": "then you shall tell them, ‘Because the waters of the Jordan were cut off before the ark of Yahweh’s covenant. When it crossed over the Jordan, the waters of the Jordan were cut off. These stones shall be for a memorial to the children of Israel forever.’ ”"
+    "content": "then you shall tell them, ‘Because the waters of the Jordan were cut off before the ark of Yahweh’s covenant. When it crossed over the Jordan, the waters of the Jordan were cut off. These stones shall be for a memorial to the children of Israel forever.’”"
   },
   {
     "book": "JSH",
@@ -626,7 +626,7 @@
     "book": "JSH",
     "chapter": 4,
     "verse": 24,
-    "content": "that all the peoples of the earth may know that Yahweh’s hand is mighty, and that you may fear Yahweh your God forever.’ ”"
+    "content": "that all the peoples of the earth may know that Yahweh’s hand is mighty, and that you may fear Yahweh your God forever.’”"
   },
   {
     "book": "JSH",
@@ -1029,7 +1029,7 @@
     "book": "JSH",
     "chapter": 7,
     "verse": 15,
-    "content": "It shall be, that he who is taken with the devoted thing shall be burned with fire, he and all that he has, because he has transgressed Yahweh’s covenant, and because he has done a disgraceful thing in Israel.’ ”"
+    "content": "It shall be, that he who is taken with the devoted thing shall be burned with fire, he and all that he has, because he has transgressed Yahweh’s covenant, and because he has done a disgraceful thing in Israel.’”"
   },
   {
     "book": "JSH",
@@ -1374,7 +1374,7 @@
     "book": "JSH",
     "chapter": 9,
     "verse": 4,
-    "content": "they also resorted to a ruse, and went and made as if they had been ambassadors, and took old sacks on their donkeys, and old, torn-up and bound up wine skins,"
+    "content": "they also resorted to a ruse, and went and made as if they had been ambassadors, and took old sacks on their donkeys, and old, torn-up and bound up wineskins,"
   },
   {
     "book": "JSH",
@@ -1431,7 +1431,7 @@
     "book": "JSH",
     "chapter": 9,
     "verse": 11,
-    "content": "Our elders and all the inhabitants of our country spoke to us, saying, ‘Take supplies in your hand for the journey, and go to meet them. Tell them, “We are your servants. Now make a covenant with us.” ’"
+    "content": "Our elders and all the inhabitants of our country spoke to us, saying, ‘Take supplies in your hand for the journey, and go to meet them. Tell them, “We are your servants. Now make a covenant with us.”’"
   },
   {
     "book": "JSH",
@@ -1443,7 +1443,7 @@
     "book": "JSH",
     "chapter": 9,
     "verse": 13,
-    "content": "These wine skins, which we filled, were new; and behold, they are torn. These our garments and our sandals have become old because of the very long journey.”"
+    "content": "These wineskins, which we filled, were new; and behold, they are torn. These our garments and our sandals have become old because of the very long journey.”"
   },
   {
     "book": "JSH",
@@ -2064,97 +2064,151 @@
     "book": "JSH",
     "chapter": 12,
     "verse": 9,
-    "content": "the king of Jericho, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Jericho, one;" },
+      {
+        "paragraph": true,
+        "text": "the king of Ai, which is beside Bethel, one;"
+      }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 10,
-    "content": "the king of Jerusalem, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Jerusalem, one;" },
+      { "paragraph": true, "text": "the king of Hebron, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 11,
-    "content": "the king of Jarmuth, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Jarmuth, one;" },
+      { "paragraph": true, "text": "the king of Lachish, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 12,
-    "content": "the king of Eglon, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Eglon, one;" },
+      { "paragraph": true, "text": "the king of Gezer, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 13,
-    "content": "the king of Debir, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Debir, one;" },
+      { "paragraph": true, "text": "the king of Geder, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 14,
-    "content": "the king of Hormah, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Hormah, one;" },
+      { "paragraph": true, "text": "the king of Arad, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 15,
-    "content": "the king of Libnah, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Libnah, one;" },
+      { "paragraph": true, "text": "the king of Adullam, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 16,
-    "content": "the king of Makkedah, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Makkedah, one;" },
+      { "paragraph": true, "text": "the king of Bethel, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 17,
-    "content": "the king of Tappuah, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Tappuah, one;" },
+      { "paragraph": true, "text": "the king of Hepher, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 18,
-    "content": "the king of Aphek, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Aphek, one;" },
+      { "paragraph": true, "text": "the king of Lassharon, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 19,
-    "content": "the king of Madon, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Madon, one;" },
+      { "paragraph": true, "text": "the king of Hazor, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 20,
-    "content": "the king of Shimron Meron, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Shimron Meron, one;" },
+      { "paragraph": true, "text": "the king of Achshaph, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 21,
-    "content": "the king of Taanach, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Taanach, one;" },
+      { "paragraph": true, "text": "the king of Megiddo, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 22,
-    "content": "the king of Kedesh, one;"
+    "content": [
+      { "paragraph": true, "text": "the king of Kedesh, one;" },
+      { "paragraph": true, "text": "the king of Jokneam in Carmel, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 23,
-    "content": "the king of Dor in the height of Dor, one;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "the king of Dor in the height of Dor, one;"
+      },
+      { "paragraph": true, "text": "the king of Goiim in Gilgal, one;" }
+    ]
   },
   {
     "book": "JSH",
     "chapter": 12,
     "verse": 24,
-    "content": "the king of Tirzah, one:"
+    "content": [
+      { "paragraph": true, "text": "the king of Tirzah, one:" },
+      { "paragraph": true, "text": "all the kings thirty-one." }
+    ]
   },
   {
     "book": "JSH",
@@ -2688,7 +2742,10 @@
     "book": "JSH",
     "chapter": 15,
     "verse": 33,
-    "content": "In the lowland, Eshtaol, Zorah, Ashnah,"
+    "content": {
+      "paragraph": true,
+      "text": "In the lowland, Eshtaol, Zorah, Ashnah,"
+    }
   },
   {
     "book": "JSH",
@@ -2712,7 +2769,7 @@
     "book": "JSH",
     "chapter": 15,
     "verse": 37,
-    "content": "Zenan, Hadashah, Migdal Gad,"
+    "content": { "paragraph": true, "text": "Zenan, Hadashah, Migdal Gad," }
   },
   {
     "book": "JSH",
@@ -2742,7 +2799,7 @@
     "book": "JSH",
     "chapter": 15,
     "verse": 42,
-    "content": "Libnah, Ether, Ashan,"
+    "content": { "paragraph": true, "text": "Libnah, Ether, Ashan," }
   },
   {
     "book": "JSH",
@@ -2760,7 +2817,10 @@
     "book": "JSH",
     "chapter": 15,
     "verse": 45,
-    "content": "Ekron, with its towns and its villages;"
+    "content": {
+      "paragraph": true,
+      "text": "Ekron, with its towns and its villages;"
+    }
   },
   {
     "book": "JSH",
@@ -2778,7 +2838,10 @@
     "book": "JSH",
     "chapter": 15,
     "verse": 48,
-    "content": "In the hill country, Shamir, Jattir, Socoh,"
+    "content": {
+      "paragraph": true,
+      "text": "In the hill country, Shamir, Jattir, Socoh,"
+    }
   },
   {
     "book": "JSH",
@@ -2802,7 +2865,7 @@
     "book": "JSH",
     "chapter": 15,
     "verse": 52,
-    "content": "Arab, Dumah, Eshan,"
+    "content": { "paragraph": true, "text": "Arab, Dumah, Eshan," }
   },
   {
     "book": "JSH",
@@ -2820,7 +2883,7 @@
     "book": "JSH",
     "chapter": 15,
     "verse": 55,
-    "content": "Maon, Carmel, Ziph, Jutah,"
+    "content": { "paragraph": true, "text": "Maon, Carmel, Ziph, Jutah," }
   },
   {
     "book": "JSH",
@@ -2838,7 +2901,7 @@
     "book": "JSH",
     "chapter": 15,
     "verse": 58,
-    "content": "Halhul, Beth Zur, Gedor,"
+    "content": { "paragraph": true, "text": "Halhul, Beth Zur, Gedor," }
   },
   {
     "book": "JSH",
@@ -2856,7 +2919,10 @@
     "book": "JSH",
     "chapter": 15,
     "verse": 61,
-    "content": "In the wilderness, Beth Arabah, Middin, Secacah,"
+    "content": {
+      "paragraph": true,
+      "text": "In the wilderness, Beth Arabah, Middin, Secacah,"
+    }
   },
   {
     "book": "JSH",
@@ -3603,7 +3669,7 @@
     "book": "JSH",
     "chapter": 20,
     "verse": 6,
-    "content": "He shall dwell in that city until he stands before the congregation for judgment, until the death of the high priest that shall be in those days. Then the man slayer shall return, and come to his own city, and to his own house, to the city he fled from.’ ”"
+    "content": "He shall dwell in that city until he stands before the congregation for judgment, until the death of the high priest that shall be in those days. Then the man slayer shall return, and come to his own city, and to his own house, to the city he fled from.’”"
   },
   {
     "book": "JSH",
@@ -4044,7 +4110,7 @@
     "book": "JSH",
     "chapter": 22,
     "verse": 20,
-    "content": "Didn’t Achan the son of Zerah commit a trespass in the devoted thing, and wrath fell on all the congregation of Israel? That man didn’t perish alone in his iniquity.’ ”"
+    "content": "Didn’t Achan the son of Zerah commit a trespass in the devoted thing, and wrath fell on all the congregation of Israel? That man didn’t perish alone in his iniquity.’”"
   },
   {
     "book": "JSH",
@@ -4080,7 +4146,7 @@
     "book": "JSH",
     "chapter": 22,
     "verse": 25,
-    "content": "For Yahweh has made the Jordan a border between us and you, you children of Reuben and children of Gad. You have no portion in Yahweh.” ’ So your children might make our children cease from fearing Yahweh."
+    "content": "For Yahweh has made the Jordan a border between us and you, you children of Reuben and children of Gad. You have no portion in Yahweh.”’ So your children might make our children cease from fearing Yahweh."
   },
   {
     "book": "JSH",
@@ -4103,7 +4169,7 @@
     "verse": 28,
     "content": {
       "paragraph": true,
-      "text": "“Therefore we said, ‘It shall be, when they tell us or our generations this in time to come, that we shall say, “Behold the pattern of Yahweh’s altar, which our fathers made, not for burnt offering, nor for sacrifice; but it is a witness between us and you.” ’"
+      "text": "“Therefore we said, ‘It shall be, when they tell us or our generations this in time to come, that we shall say, “Behold the pattern of Yahweh’s altar, which our fathers made, not for burnt offering, nor for sacrifice; but it is a witness between us and you.”’"
     }
   },
   {
@@ -4298,7 +4364,7 @@
     "verse": 5,
     "content": {
       "paragraph": true,
-      "text": "“ ‘I sent Moses and Aaron, and I plagued Egypt, according to that which I did among them: and afterward I brought you out."
+      "text": "“‘I sent Moses and Aaron, and I plagued Egypt, according to that which I did among them: and afterward I brought you out."
     }
   },
   {
@@ -4319,7 +4385,7 @@
     "verse": 8,
     "content": {
       "paragraph": true,
-      "text": "“ ‘I brought you into the land of the Amorites, that lived beyond the Jordan. They fought with you, and I gave them into your hand. You possessed their land, and I destroyed them from before you."
+      "text": "“‘I brought you into the land of the Amorites, that lived beyond the Jordan. They fought with you, and I gave them into your hand. You possessed their land, and I destroyed them from before you."
     }
   },
   {
@@ -4340,7 +4406,7 @@
     "verse": 11,
     "content": {
       "paragraph": true,
-      "text": "“ ‘You went over the Jordan, and came to Jericho. The men of Jericho fought against you, the Amorite, the Perizzite, the Canaanite, the Hittite, the Girgashite, the Hivite, and the Jebusite; and I delivered them into your hand."
+      "text": "“‘You went over the Jordan, and came to Jericho. The men of Jericho fought against you, the Amorite, the Perizzite, the Canaanite, the Hittite, the Girgashite, the Hivite, and the Jebusite; and I delivered them into your hand."
     }
   },
   {

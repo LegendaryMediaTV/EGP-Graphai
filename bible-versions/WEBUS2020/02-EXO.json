@@ -238,7 +238,7 @@
     "verse": 9,
     "content": [
       "Pharaoh’s daughter said to her, “Take this child away, and nurse him for me, and I will give you your wages.”",
-      { "paragraph": true, "text": "The woman took the child, and nursed it." }
+      { "paragraph": true, "text": "The woman took the child, and nursed him." }
     ]
   },
   {
@@ -511,11 +511,12 @@
     "chapter": 3,
     "verse": 14,
     "content": [
-      { "paragraph": true, "text": "God said to Moses, “" },
+      { "paragraph": true },
+      "God said to Moses, “",
       { "text": "I Am Who I Am", "marks": ["sc"] },
       ",” and he said, “You shall tell the children of Israel this: ‘",
       { "text": "I Am", "marks": ["sc"] },
-      " has sent me to you.’ ”"
+      " has sent me to you.’”"
     ]
   },
   {
@@ -534,7 +535,7 @@
     "book": "EXO",
     "chapter": 3,
     "verse": 17,
-    "content": "I have said, I will bring you up out of the affliction of Egypt to the land of the Canaanite, the Hittite, the Amorite, the Perizzite, the Hivite, and the Jebusite, to a land flowing with milk and honey.” ’"
+    "content": "I have said, I will bring you up out of the affliction of Egypt to the land of the Canaanite, the Hittite, the Amorite, the Perizzite, the Hivite, and the Jebusite, to a land flowing with milk and honey.”’"
   },
   {
     "book": "EXO",
@@ -572,7 +573,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Moses answered, “But, behold, they will not believe me, nor listen to my voice; for they will say, ‘Yahweh has not appeared to you.’ ”"
+      "text": "Moses answered, “But, behold, they will not believe me, nor listen to my voice; for they will say, ‘Yahweh has not appeared to you.’”"
     }
   },
   {
@@ -778,7 +779,7 @@
     "book": "EXO",
     "chapter": 4,
     "verse": 23,
-    "content": "and I have said to you, “Let my son go, that he may serve me;” and you have refused to let him go. Behold, I will kill your firstborn son.’ ”"
+    "content": "and I have said to you, “Let my son go, that he may serve me;” and you have refused to let him go. Behold, I will kill your firstborn son.’”"
   },
   {
     "book": "EXO",
@@ -849,7 +850,7 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Afterward Moses and Aaron came, and said to Pharaoh, “This is what Yahweh, the God of Israel, says, ‘Let my people go, that they may hold a feast to me in the wilderness.’ ”"
+      "text": "Afterward Moses and Aaron came, and said to Pharaoh, “This is what Yahweh, the God of Israel, says, ‘Let my people go, that they may hold a feast to me in the wilderness.’”"
     }
   },
   {
@@ -922,7 +923,7 @@
     "book": "EXO",
     "chapter": 5,
     "verse": 11,
-    "content": "Go yourselves, get straw where you can find it, for nothing of your work shall be diminished.’ ”"
+    "content": "Go yourselves, get straw where you can find it, for nothing of your work shall be diminished.’”"
   },
   {
     "book": "EXO",
@@ -1063,7 +1064,7 @@
     "book": "EXO",
     "chapter": 6,
     "verse": 8,
-    "content": "I will bring you into the land which I swore to give to Abraham, to Isaac, and to Jacob; and I will give it to you for a heritage: I am Yahweh.’ ”"
+    "content": "I will bring you into the land which I swore to give to Abraham, to Isaac, and to Jacob; and I will give it to you for a heritage: I am Yahweh.’”"
   },
   {
     "book": "EXO",
@@ -1273,7 +1274,7 @@
     "book": "EXO",
     "chapter": 7,
     "verse": 9,
-    "content": "“When Pharaoh speaks to you, saying, ‘Perform a miracle!’ then you shall tell Aaron, ‘Take your rod, and cast it down before Pharaoh, and it will become a serpent.’ ”"
+    "content": "“When Pharaoh speaks to you, saying, ‘Perform a miracle!’ then you shall tell Aaron, ‘Take your rod, and cast it down before Pharaoh, and it will become a serpent.’”"
   },
   {
     "book": "EXO",
@@ -1333,13 +1334,13 @@
     "book": "EXO",
     "chapter": 7,
     "verse": 18,
-    "content": "The fish that are in the river will die and the river will become foul. The Egyptians will loathe to drink water from the river.” ’ ”"
+    "content": "The fish that are in the river will die and the river will become foul. The Egyptians will loathe to drink water from the river.”’”"
   },
   {
     "book": "EXO",
     "chapter": 7,
     "verse": 19,
-    "content": "Yahweh said to Moses, “Tell Aaron, ‘Take your rod, and stretch out your hand over the waters of Egypt, over their rivers, over their streams, and over their pools, and over all their ponds of water, that they may become blood. There will be blood throughout all the land of Egypt, both in vessels of wood and in vessels of stone.’ ”"
+    "content": "Yahweh said to Moses, “Tell Aaron, ‘Take your rod, and stretch out your hand over the waters of Egypt, over their rivers, over their streams, and over their pools, and over all their ponds of water, that they may become blood. There will be blood throughout all the land of Egypt, both in vessels of wood and in vessels of stone.’”"
   },
   {
     "book": "EXO",
@@ -1405,13 +1406,13 @@
     "book": "EXO",
     "chapter": 8,
     "verse": 4,
-    "content": "The frogs shall come up both on you, and on your people, and on all your servants.” ’ ”"
+    "content": "The frogs shall come up both on you, and on your people, and on all your servants.”’”"
   },
   {
     "book": "EXO",
     "chapter": 8,
     "verse": 5,
-    "content": "Yahweh said to Moses, “Tell Aaron, ‘Stretch out your hand with your rod over the rivers, over the streams, and over the pools, and cause frogs to come up on the land of Egypt.’ ”"
+    "content": "Yahweh said to Moses, “Tell Aaron, ‘Stretch out your hand with your rod over the rivers, over the streams, and over the pools, and cause frogs to come up on the land of Egypt.’”"
   },
   {
     "book": "EXO",
@@ -1494,7 +1495,7 @@
     "verse": 16,
     "content": {
       "paragraph": true,
-      "text": "Yahweh said to Moses, “Tell Aaron, ‘Stretch out your rod, and strike the dust of the earth, that it may become lice throughout all the land of Egypt.’ ”"
+      "text": "Yahweh said to Moses, “Tell Aaron, ‘Stretch out your rod, and strike the dust of the earth, that it may become lice throughout all the land of Egypt.’”"
     }
   },
   {
@@ -1540,7 +1541,7 @@
     "book": "EXO",
     "chapter": 8,
     "verse": 23,
-    "content": "I will put a division between my people and your people. This sign shall happen by tomorrow.” ’ ”"
+    "content": "I will put a division between my people and your people. This sign shall happen by tomorrow.”’”"
   },
   {
     "book": "EXO",
@@ -1633,7 +1634,7 @@
     "book": "EXO",
     "chapter": 9,
     "verse": 4,
-    "content": "Yahweh will make a distinction between the livestock of Israel and the livestock of Egypt; and nothing shall die of all that belongs to the children of Israel.” ’ ”"
+    "content": "Yahweh will make a distinction between the livestock of Israel and the livestock of Egypt; and nothing shall die of all that belongs to the children of Israel.”’”"
   },
   {
     "book": "EXO",
@@ -1732,7 +1733,7 @@
     "book": "EXO",
     "chapter": 9,
     "verse": 19,
-    "content": "Now therefore command that all of your livestock and all that you have in the field be brought into shelter. The hail will come down on every man and animal that is found in the field, and isn’t brought home, and they will die.” ’ ”"
+    "content": "Now therefore command that all of your livestock and all that you have in the field be brought into shelter. The hail will come down on every man and animal that is found in the field, and isn’t brought home, and they will die.”’”"
   },
   {
     "book": "EXO",
@@ -1888,7 +1889,7 @@
     "book": "EXO",
     "chapter": 10,
     "verse": 6,
-    "content": "Your houses shall be filled, and the houses of all your servants, and the houses of all the Egyptians, as neither your fathers nor your fathers’ fathers have seen, since the day that they were on the earth to this day.’ ” He turned, and went out from Pharaoh."
+    "content": "Your houses shall be filled, and the houses of all your servants, and the houses of all the Egyptians, as neither your fathers nor your fathers’ fathers have seen, since the day that they were on the earth to this day.’” He turned, and went out from Pharaoh."
   },
   {
     "book": "EXO",
@@ -1988,7 +1989,7 @@
       {
         "text": "Yahweh sent an exceedingly strong west wind, which took up the locusts, and drove them into the Red Sea.",
         "foot": {
-          "type": "trn",
+          "type": "stu",
           "content": "“Red Sea” is the translation for the Hebrew “Yam Suf”, which could be more literally translated “Sea of Reeds” or “Sea of Cattails”. It refers to the body of water currently known as the Red Sea, or possibly to one of the bodies of water connected to it or near it."
         }
       },
@@ -2122,7 +2123,7 @@
     "book": "EXO",
     "chapter": 11,
     "verse": 8,
-    "content": "All these servants of yours will come down to me, and bow down themselves to me, saying, “Get out, with all the people who follow you;” and after that I will go out.’ ” He went out from Pharaoh in hot anger."
+    "content": "All these servants of yours will come down to me, and bow down themselves to me, saying, “Get out, with all the people who follow you;” and after that I will go out.’” He went out from Pharaoh in hot anger."
   },
   {
     "book": "EXO",
@@ -2232,7 +2233,7 @@
     "verse": 15,
     "content": {
       "paragraph": true,
-      "text": "“ ‘Seven days you shall eat unleavened bread; even the first day you shall put away yeast out of your houses, for whoever eats leavened bread from the first day until the seventh day, that soul shall be cut off from Israel."
+      "text": "“‘Seven days you shall eat unleavened bread; even the first day you shall put away yeast out of your houses, for whoever eats leavened bread from the first day until the seventh day, that soul shall be cut off from Israel."
     }
   },
   {
@@ -2263,7 +2264,7 @@
     "book": "EXO",
     "chapter": 12,
     "verse": 20,
-    "content": "You shall eat nothing leavened. In all your habitations you shall eat unleavened bread.’ ”"
+    "content": "You shall eat nothing leavened. In all your habitations you shall eat unleavened bread.’”"
   },
   {
     "book": "EXO",
@@ -2309,7 +2310,7 @@
     "chapter": 12,
     "verse": 27,
     "content": [
-      "that you shall say, ‘It is the sacrifice of Yahweh’s Passover, who passed over the houses of the children of Israel in Egypt, when he struck the Egyptians, and spared our houses.’ ”",
+      "that you shall say, ‘It is the sacrifice of Yahweh’s Passover, who passed over the houses of the children of Israel in Egypt, when he struck the Egyptians, and spared our houses.’”",
       {
         "paragraph": true,
         "text": "The people bowed their heads and worshiped."
@@ -3192,7 +3193,7 @@
     "book": "EXO",
     "chapter": 16,
     "verse": 9,
-    "content": "Moses said to Aaron, “Tell all the congregation of the children of Israel, ‘Come close to Yahweh, for he has heard your murmurings.’ ”"
+    "content": "Moses said to Aaron, “Tell all the congregation of the children of Israel, ‘Come close to Yahweh, for he has heard your murmurings.’”"
   },
   {
     "book": "EXO",
@@ -3210,7 +3211,7 @@
     "book": "EXO",
     "chapter": 16,
     "verse": 12,
-    "content": "“I have heard the murmurings of the children of Israel. Speak to them, saying, ‘At evening you shall eat meat, and in the morning you shall be filled with bread. Then you will know that I am Yahweh your God.’ ”"
+    "content": "“I have heard the murmurings of the children of Israel. Speak to them, saying, ‘At evening you shall eat meat, and in the morning you shall be filled with bread. Then you will know that I am Yahweh your God.’”"
   },
   {
     "book": "EXO",
@@ -3245,7 +3246,7 @@
           "content": "An omer is about 2.2 liters or about 2.3 quarts"
         }
       },
-      " a head, according to the number of your persons, you shall take it, every man for those who are in his tent.’ ”"
+      " a head, according to the number of your persons, you shall take it, every man for those who are in his tent.’”"
     ]
   },
   {
@@ -3288,7 +3289,7 @@
     "book": "EXO",
     "chapter": 16,
     "verse": 23,
-    "content": "He said to them, “This is that which Yahweh has spoken, ‘Tomorrow is a solemn rest, a holy Sabbath to Yahweh. Bake that which you want to bake, and boil that which you want to boil; and all that remains over lay up for yourselves to be kept until the morning.’ ”"
+    "content": "He said to them, “This is that which Yahweh has spoken, ‘Tomorrow is a solemn rest, a holy Sabbath to Yahweh. Bake that which you want to bake, and boil that which you want to boil; and all that remains over lay up for yourselves to be kept until the morning.’”"
   },
   {
     "book": "EXO",
@@ -3349,7 +3350,7 @@
     "book": "EXO",
     "chapter": 16,
     "verse": 32,
-    "content": "Moses said, “This is the thing which Yahweh has commanded, ‘Let an omer-full of it be kept throughout your generations, that they may see the bread with which I fed you in the wilderness, when I brought you out of the land of Egypt.’ ”"
+    "content": "Moses said, “This is the thing which Yahweh has commanded, ‘Let an omer-full of it be kept throughout your generations, that they may see the bread with which I fed you in the wilderness, when I brought you out of the land of Egypt.’”"
   },
   {
     "book": "EXO",
@@ -3509,7 +3510,7 @@
     "book": "EXO",
     "chapter": 17,
     "verse": 16,
-    "content": "He said, “Yah has sworn: ‘Yahweh will have war with Amalek from generation to generation.’ ”"
+    "content": "He said, “Yah has sworn: ‘Yahweh will have war with Amalek from generation to generation.’”"
   },
   {
     "book": "EXO",
@@ -3865,7 +3866,7 @@
     "verse": 23,
     "content": {
       "paragraph": true,
-      "text": "Moses said to Yahweh, “The people can’t come up to Mount Sinai, for you warned us, saying, ‘Set bounds around the mountain, and sanctify it.’ ”"
+      "text": "Moses said to Yahweh, “The people can’t come up to Mount Sinai, for you warned us, saying, ‘Set bounds around the mountain, and sanctify it.’”"
     }
   },
   {
@@ -3923,7 +3924,7 @@
     "verse": 4,
     "content": {
       "paragraph": true,
-      "text": "“You shall not make for yourselves an idol, nor any image of anything that is in the heavens above, or that is in the earth beneath, or that is in the water under the earth:"
+      "text": "“You shall not make for yourselves an idol, nor any image of anything that is in the heavens above, or that is on the earth beneath, or that is in the water under the earth:"
     }
   },
   {
@@ -6358,7 +6359,7 @@
         "text": " of the sanctuary (the shekel is twenty gerahs",
         "foot": {
           "type": "stu",
-          "content": "a gerah is about 0.5 grams or about 7.7 grains"
+          "content": "A gerah is about 0.5 grams or about 7.7 grains"
         }
       },
       "); half a shekel for an offering to Yahweh."
@@ -6413,7 +6414,7 @@
     "book": "EXO",
     "chapter": 30,
     "verse": 20,
-    "content": "When they go into the Tent of Meeting, they shall wash with water, that they not die; or when they come near to the altar to minister, to burn an offering made by fire to Yahweh."
+    "content": "When they go into the Tent of Meeting, they shall wash with water, that they don’t die; or when they come near to the altar to minister, to burn an offering made by fire to Yahweh."
   },
   {
     "book": "EXO",
@@ -6512,7 +6513,7 @@
     "book": "EXO",
     "chapter": 30,
     "verse": 33,
-    "content": "Whoever compounds any like it, or whoever puts any of it on a stranger, he shall be cut off from his people.’ ”"
+    "content": "Whoever compounds any like it, or whoever puts any of it on a stranger, he shall be cut off from his people.’”"
   },
   {
     "book": "EXO",
@@ -6647,7 +6648,7 @@
     "book": "EXO",
     "chapter": 31,
     "verse": 17,
-    "content": "It is a sign between me and the children of Israel forever; for in six days Yahweh made heaven and earth, and on the seventh day he rested, and was refreshed.’ ”"
+    "content": "It is a sign between me and the children of Israel forever; for in six days Yahweh made heaven and earth, and on the seventh day he rested, and was refreshed.’”"
   },
   {
     "book": "EXO",
@@ -6722,7 +6723,7 @@
     "book": "EXO",
     "chapter": 32,
     "verse": 8,
-    "content": "They have turned away quickly out of the way which I commanded them. They have made themselves a molded calf, and have worshiped it, and have sacrificed to it, and said, ‘These are your gods, Israel, which brought you up out of the land of Egypt.’ ”"
+    "content": "They have turned away quickly out of the way which I commanded them. They have made themselves a molded calf, and have worshiped it, and have sacrificed to it, and said, ‘These are your gods, Israel, which brought you up out of the land of Egypt.’”"
   },
   {
     "book": "EXO",
@@ -6763,7 +6764,7 @@
         "text": "Remember Abraham, Isaac, and Israel, your servants, to whom you swore by your own self, and said to them, ‘I will multiply your offspring",
         "foot": { "type": "trn", "content": "or, seed" }
       },
-      " as the stars of the sky, and all this land that I have spoken of I will give to your offspring, and they shall inherit it forever.’ ”"
+      " as the stars of the sky, and all this land that I have spoken of I will give to your offspring, and they shall inherit it forever.’”"
     ]
   },
   {
@@ -6875,7 +6876,7 @@
     "book": "EXO",
     "chapter": 32,
     "verse": 27,
-    "content": "He said to them, “Yahweh, the God of Israel, says, ‘Every man put his sword on his thigh, and go back and forth from gate to gate throughout the camp, and every man kill his brother, and every man his companion, and every man his neighbor.’ ”"
+    "content": "He said to them, “Yahweh, the God of Israel, says, ‘Every man put his sword on his thigh, and go back and forth from gate to gate throughout the camp, and every man kill his brother, and every man his companion, and every man his neighbor.’”"
   },
   {
     "book": "EXO",
@@ -6970,7 +6971,7 @@
     "verse": 5,
     "content": {
       "paragraph": true,
-      "text": "Yahweh had said to Moses, “Tell the children of Israel, ‘You are a stiff-necked people. If I were to go up among you for one moment, I would consume you. Therefore now take off your jewelry from you, that I may know what to do to you.’ ”"
+      "text": "Yahweh had said to Moses, “Tell the children of Israel, ‘You are a stiff-necked people. If I were to go up among you for one moment, I would consume you. Therefore now take off your jewelry from you, that I may know what to do to you.’”"
     }
   },
   {
@@ -7385,7 +7386,7 @@
     "book": "EXO",
     "chapter": 35,
     "verse": 3,
-    "content": "You shall kindle no fire throughout your habitations on the Sabbath day.’ ”"
+    "content": "You shall kindle no fire throughout your habitations on the Sabbath day.’”"
   },
   {
     "book": "EXO",
@@ -7432,7 +7433,7 @@
     "verse": 10,
     "content": {
       "paragraph": true,
-      "text": "“ ‘Let every wise-hearted man among you come, and make all that Yahweh has commanded:"
+      "text": "“‘Let every wise-hearted man among you come, and make all that Yahweh has commanded:"
     }
   },
   {
@@ -7487,7 +7488,7 @@
     "book": "EXO",
     "chapter": 35,
     "verse": 19,
-    "content": "the finely worked garments for ministering in the holy place—the holy garments for Aaron the priest, and the garments of his sons—to minister in the priest’s office.’ ”"
+    "content": "the finely worked garments for ministering in the holy place—the holy garments for Aaron the priest, and the garments of his sons—to minister in the priest’s office.’”"
   },
   {
     "book": "EXO",
@@ -8265,7 +8266,7 @@
         "text": "a beka",
         "foot": {
           "type": "stu",
-          "content": "a beka is about 5 grams or about 0.175 ounces"
+          "content": "A beka is about 5 grams or about 0.175 ounces"
         }
       },
       {

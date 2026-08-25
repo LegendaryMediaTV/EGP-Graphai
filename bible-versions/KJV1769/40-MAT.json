@@ -219,7 +219,7 @@
         "foot": {
           "type": "var",
           "content": {
-            "text": "some read, Josias begat Jakim, and Jakim begat Jechonias",
+            "text": "Some read, Josias begat Jakim, and Jakim begat Jechonias",
             "marks": ["i"]
           }
         },
@@ -15853,7 +15853,7 @@
         "foot": {
           "type": "stu",
           "content": {
-            "text": "the word in the Greek is a measure containing about a peck and an half, wanting little more then a pint",
+            "text": "The word in the Greek is a measure containing about a peck and an half, wanting little more then a pint",
             "marks": ["i"]
           }
         },
@@ -20654,7 +20654,7 @@
             "foot": {
               "type": "stu",
               "content": [
-                "called ",
+                "Called ",
                 {
                   "text": "in the original Didrachma, being in value fifteen pence",
                   "marks": ["i"]
@@ -21927,7 +21927,7 @@
         "foot": {
           "type": "stu",
           "content": {
-            "text": "a talent is 750 ounces of silver, which after five shillings the ounce is 187.li 10.s.",
+            "text": "A talent is 750 ounces of silver, which after five shillings the ounce is 187.li 10.s.",
             "marks": ["i"]
           }
         },
@@ -22118,7 +22118,7 @@
         "foot": {
           "type": "stu",
           "content": {
-            "text": "the Roman penny is the eighth part of an ounce, which after 5. shillings the ounce is 7.d. ob.",
+            "text": "The Roman penny is the eighth part of an ounce, which after 5. shillings the ounce is 7.d. ob.",
             "marks": ["i"]
           }
         },
@@ -23737,7 +23737,7 @@
         "foot": {
           "type": "stu",
           "content": {
-            "text": "the Roman penny is the eighth part of an ounce, which after five shillings the ounce, is seven pence halfpenny",
+            "text": "The Roman penny is the eighth part of an ounce, which after five shillings the ounce, is seven pence halfpenny",
             "marks": ["i"]
           }
         },
@@ -27526,10 +27526,13 @@
         "text": " a penny.",
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "in value seven pence halfpenny, chap. 20.2",
-            "marks": ["i"]
-          }
+          "content": [
+            { "text": "In value seven pence halfpenny, ", "marks": ["i"] },
+            {
+              "bibleLink": "Matthew 20:2",
+              "content": { "text": "chap. 20.2", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G1220"
       }
@@ -32424,10 +32427,16 @@
         "marks": ["woc"],
         "foot": {
           "type": "stu",
-          "content": {
-            "text": "a talent is 187. pound 10. Shillings, chap. 18.24",
-            "marks": ["i"]
-          }
+          "content": [
+            {
+              "text": "A talent is 187. pound 10. Shillings, ",
+              "marks": ["i"]
+            },
+            {
+              "bibleLink": "Matthew 18:24",
+              "content": { "text": "chap. 18.24", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "G5007"
       },

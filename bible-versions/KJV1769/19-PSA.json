@@ -2238,7 +2238,12 @@
         "heading": [{ "text": "ב", "script": "H" }, " Bet"],
         "type": "acrostic"
       },
-      { "text": "When mine enemies", "strong": "H341", "morph": "QalActPtc" },
+      {
+        "paragraph": true,
+        "text": "When mine enemies",
+        "strong": "H341",
+        "morph": "QalActPtc"
+      },
       { "text": " are turned", "strong": "H7725", "morph": "QalInf" },
       { "text": " back,", "break": true, "strong": "H268" },
       { "text": "They shall fall", "strong": "H3782", "morph": "NiphImpf" },
@@ -2291,7 +2296,12 @@
         "heading": [{ "text": "ג", "script": "H" }, " Gimel"],
         "type": "acrostic"
       },
-      { "text": "Thou hast rebuked", "strong": "H1605", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "Thou hast rebuked",
+        "strong": "H1605",
+        "morph": "QalPerf"
+      },
       { "text": " the heathen,", "strong": "H1471" },
       { "text": " thou hast destroyed", "strong": "H6", "morph": "PielPerf" },
       { "text": " the wicked,", "break": true, "strong": "H7563" },
@@ -2332,6 +2342,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["But the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -2369,6 +2380,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -2417,7 +2429,12 @@
         "heading": [{ "text": "ז", "script": "H" }, " Zain"],
         "type": "acrostic"
       },
-      { "text": "Sing praises", "strong": "H2167", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Sing praises",
+        "strong": "H2167",
+        "morph": "PielImpv"
+      },
       {
         "content": [" to the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -2468,7 +2485,12 @@
         "heading": [{ "text": "ח", "script": "H" }, " Het"],
         "type": "acrostic"
       },
-      { "text": "Have mercy", "strong": "H2603", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Have mercy",
+        "strong": "H2603",
+        "morph": "QalImpv"
+      },
       {
         "content": [" upon me, O ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
@@ -2523,7 +2545,7 @@
         "heading": [{ "text": "ט", "script": "H" }, " Tet"],
         "type": "acrostic"
       },
-      { "text": "The heathen", "strong": "H1471" },
+      { "paragraph": true, "text": "The heathen", "strong": "H1471" },
       { "text": " are sunk down", "strong": "H2883", "morph": "QalPerf" },
       { "text": " in the pit", "strong": "H7845" },
       {
@@ -2582,7 +2604,7 @@
         "heading": [{ "text": "י", "script": "H" }, " Yod"],
         "type": "acrostic"
       },
-      { "text": "The wicked", "strong": "H7563" },
+      { "paragraph": true, "text": "The wicked", "strong": "H7563" },
       { "text": " shall be turned", "strong": "H7725", "morph": "QalImpf" },
       { "text": " into hell,", "break": true, "strong": "H7585" },
       {
@@ -2602,7 +2624,7 @@
         "heading": [{ "text": "כ", "script": "H" }, " Kaph"],
         "type": "acrostic"
       },
-      { "text": "For the needy", "strong": "H34" },
+      { "paragraph": true, "text": "For the needy", "strong": "H34" },
       { "text": " shall not alway", "strong": "H5331" },
       {
         "text": " be forgotten:",
@@ -2756,7 +2778,7 @@
         "heading": ["(", { "text": "מ", "script": "H" }, " Mem)"],
         "type": "acrostic"
       },
-      { "text": "For the wicked", "strong": "H7563" },
+      { "paragraph": true, "text": "For the wicked", "strong": "H7563" },
       { "text": " boasteth", "strong": "H1984", "morph": "PielPerf" },
       { "text": " of his heart’s", "strong": "H5315" },
       { "text": " desire,", "break": true, "strong": "H8378" },
@@ -2802,7 +2824,7 @@
         "heading": ["(", { "text": "נ", "script": "H" }, " Nun)"],
         "type": "acrostic"
       },
-      { "text": "The wicked,", "strong": "H7563" },
+      { "paragraph": true, "text": "The wicked,", "strong": "H7563" },
       { "text": " through the pride", "strong": "H1363" },
       { "text": " of his countenance,", "strong": "H639" },
       { "text": " will not seek", "strong": "H1875", "morph": "QalImpf" },
@@ -2902,7 +2924,7 @@
         "heading": [{ "text": "פ", "script": "H" }, " Pe"],
         "type": "acrostic"
       },
-      { "text": "His mouth", "strong": "H6310" },
+      { "paragraph": true, "text": "His mouth", "strong": "H6310" },
       { "text": " is full", "strong": "H4390", "morph": "QalPerf" },
       { "text": " of cursing", "strong": "H423" },
       {
@@ -2939,7 +2961,12 @@
         "heading": [{ "text": "ע", "script": "H" }, " Ain"],
         "type": "acrostic"
       },
-      { "text": "He sitteth", "strong": "H3427", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "He sitteth",
+        "strong": "H3427",
+        "morph": "QalImpf"
+      },
       { "text": " in the lurking places", "strong": "H3993" },
       { "text": " of the villages:", "break": true, "strong": "H2691" },
       { "text": "In the secret places", "strong": "H4565" },
@@ -2959,7 +2986,12 @@
         "heading": ["(", { "text": "צ", "script": "H" }, " Zade)"],
         "type": "acrostic"
       },
-      { "text": "He lieth in wait", "strong": "H693", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "He lieth in wait",
+        "strong": "H693",
+        "morph": "QalImpf"
+      },
       {
         "text": " secretly",
         "foot": {
@@ -3058,7 +3090,12 @@
         "heading": [{ "text": "ק", "script": "H" }, " Qoph"],
         "type": "acrostic"
       },
-      { "text": "Arise,", "strong": "H6965", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Arise,",
+        "strong": "H6965",
+        "morph": "QalImpv"
+      },
       {
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
@@ -3108,7 +3145,12 @@
         "heading": [{ "text": "ר", "script": "H" }, " Resh"],
         "type": "acrostic"
       },
-      { "text": "Thou hast seen", "strong": "H7200", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "Thou hast seen",
+        "strong": "H7200",
+        "morph": "QalPerf"
+      },
       {
         "content": [
           " ",
@@ -3153,7 +3195,12 @@
         "heading": [{ "text": "ש", "script": "H" }, " Shin"],
         "type": "acrostic"
       },
-      { "text": "Break", "strong": "H7665", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Break",
+        "strong": "H7665",
+        "morph": "QalImpv"
+      },
       { "text": " thou the arm", "strong": "H2220" },
       { "text": " of the wicked", "break": true, "strong": "H7563" },
       { "text": "And the evil", "strong": "H7451" },
@@ -3201,6 +3248,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": [{ "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
@@ -8138,7 +8186,7 @@
         "break": true,
         "foot": {
           "type": "stu",
-          "content": { "text": "waters of quietness", "marks": ["i"] }
+          "content": { "text": "Waters of quietness", "marks": ["i"] }
         },
         "strong": "H4325"
       }
@@ -8493,7 +8541,7 @@
         "heading": [{ "text": "ב", "script": "H" }, " Bet"],
         "type": "acrostic"
       },
-      { "text": "O my God,", "strong": "H430" },
+      { "paragraph": true, "text": "O my God,", "strong": "H430" },
       { "text": " I trust", "strong": "H982", "morph": "QalPerf" },
       {
         "content": [
@@ -8522,6 +8570,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Yea, let none that wait",
         "strong": "H6960",
         "morph": "QalActPtc"
@@ -8546,7 +8595,12 @@
         "heading": [{ "text": "ד", "script": "H" }, " Dalet"],
         "type": "acrostic"
       },
-      { "text": "Shew", "strong": "H3045", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Shew",
+        "strong": "H3045",
+        "morph": "HiphImpv"
+      },
       { "text": " me thy ways,", "strong": "H1870" },
       {
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ";"],
@@ -8570,7 +8624,12 @@
         "heading": ["(", { "text": "ו", "script": "H" }, " Waw)"],
         "type": "acrostic"
       },
-      { "text": "Lead", "strong": "H1869", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Lead",
+        "strong": "H1869",
+        "morph": "HiphImpv"
+      },
       { "text": " me in thy truth,", "strong": "H571" },
       { "text": " and teach", "strong": "H3925", "morph": "PielImpv" },
       {
@@ -8596,7 +8655,12 @@
         "heading": [{ "text": "ז", "script": "H" }, " Zain"],
         "type": "acrostic"
       },
-      { "text": "Remember,", "strong": "H2142", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Remember,",
+        "strong": "H2142",
+        "morph": "QalImpv"
+      },
       {
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -8627,7 +8691,12 @@
         "heading": [{ "text": "ח", "script": "H" }, " Het"],
         "type": "acrostic"
       },
-      { "text": "Remember", "strong": "H2142", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "Remember",
+        "strong": "H2142",
+        "morph": "QalImpf"
+      },
       { "text": " not the sins", "strong": "H2403" },
       { "text": " of my youth,", "strong": "H5271" },
       { "text": " nor my transgressions:", "break": true, "strong": "H6588" },
@@ -8650,7 +8719,7 @@
         "heading": [{ "text": "ט", "script": "H" }, " Tet"],
         "type": "acrostic"
       },
-      { "text": "Good", "strong": "H2896" },
+      { "paragraph": true, "text": "Good", "strong": "H2896" },
       { "text": " and upright", "strong": "H3477" },
       {
         "content": [
@@ -8681,7 +8750,7 @@
         "heading": [{ "text": "י", "script": "H" }, " Yod"],
         "type": "acrostic"
       },
-      { "text": "The meek", "strong": "H6035" },
+      { "paragraph": true, "text": "The meek", "strong": "H6035" },
       { "text": " will he guide", "strong": "H1869", "morph": "HiphImpf" },
       { "text": " in judgment:", "break": true, "strong": "H4941" },
       { "text": "And the meek", "strong": "H6035" },
@@ -8698,7 +8767,7 @@
         "heading": [{ "text": "כ", "script": "H" }, " Kaph"],
         "type": "acrostic"
       },
-      { "text": "All the paths", "strong": "H734" },
+      { "paragraph": true, "text": "All the paths", "strong": "H734" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -8722,7 +8791,7 @@
         "heading": [{ "text": "ל", "script": "H" }, " Lamed"],
         "type": "acrostic"
       },
-      { "text": "For thy name’s", "strong": "H8034" },
+      { "paragraph": true, "text": "For thy name’s", "strong": "H8034" },
       {
         "content": [" sake, O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "break": true,
@@ -8746,7 +8815,7 @@
         "heading": [{ "text": "מ", "script": "H" }, " Mem"],
         "type": "acrostic"
       },
-      { "text": "What man", "strong": "H376" },
+      { "paragraph": true, "text": "What man", "strong": "H376" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " he that feareth"],
         "strong": "H3373"
@@ -8779,7 +8848,7 @@
         "heading": [{ "text": "נ", "script": "H" }, " Nun"],
         "type": "acrostic"
       },
-      { "text": "His soul", "strong": "H5315" },
+      { "paragraph": true, "text": "His soul", "strong": "H5315" },
       { "text": " shall dwell", "strong": "H3885", "morph": "QalImpf" },
       { "text": " at ease;", "break": true, "strong": "H2896" },
       { "text": "And his seed", "strong": "H2233" },
@@ -8796,7 +8865,7 @@
         "heading": [{ "text": "ס", "script": "H" }, " Samek"],
         "type": "acrostic"
       },
-      { "text": "The secret", "strong": "H5475" },
+      { "paragraph": true, "text": "The secret", "strong": "H5475" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -8826,7 +8895,7 @@
         "heading": [{ "text": "ע", "script": "H" }, " Ain"],
         "type": "acrostic"
       },
-      { "text": "Mine eyes", "strong": "H5869" },
+      { "paragraph": true, "text": "Mine eyes", "strong": "H5869" },
       {
         "content": [" ", { "text": "are", "marks": ["i"] }, " ever"],
         "strong": "H8548"
@@ -8858,7 +8927,12 @@
         "heading": [{ "text": "פ", "script": "H" }, " Pe"],
         "type": "acrostic"
       },
-      { "text": "Turn", "strong": "H6437", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Turn",
+        "strong": "H6437",
+        "morph": "QalImpv"
+      },
       {
         "text": " thee unto me, and have mercy",
         "strong": "H2603",
@@ -8885,7 +8959,7 @@
         "heading": [{ "text": "צ", "script": "H" }, " Zade"],
         "type": "acrostic"
       },
-      { "text": "The troubles", "strong": "H6869" },
+      { "paragraph": true, "text": "The troubles", "strong": "H6869" },
       { "text": " of my heart", "strong": "H3824" },
       {
         "text": " are enlarged:",
@@ -8910,7 +8984,12 @@
         "heading": ["(", { "text": "ק", "script": "H" }, " Qoph)"],
         "type": "acrostic"
       },
-      { "text": "Look", "strong": "H7200", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Look",
+        "strong": "H7200",
+        "morph": "QalImpv"
+      },
       { "text": " upon mine affliction", "strong": "H6040" },
       { "text": " and my pain;", "break": true, "strong": "H5999" },
       { "text": "And forgive", "strong": "H5375", "morph": "QalImpv" },
@@ -8926,7 +9005,12 @@
         "heading": [{ "text": "ר", "script": "H" }, " Resh"],
         "type": "acrostic"
       },
-      { "text": "Consider", "strong": "H7200", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Consider",
+        "strong": "H7200",
+        "morph": "QalImpv"
+      },
       { "text": " mine enemies;", "strong": "H341", "morph": "QalActPtc" },
       {
         "text": " for they are many;",
@@ -8956,7 +9040,12 @@
         "heading": [{ "text": "ש", "script": "H" }, " Shin"],
         "type": "acrostic"
       },
-      { "text": "O keep", "strong": "H8104", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "O keep",
+        "strong": "H8104",
+        "morph": "QalImpv"
+      },
       { "text": " my soul,", "strong": "H5315" },
       { "text": " and deliver", "strong": "H5337", "morph": "HiphImpv" },
       {
@@ -8980,7 +9069,7 @@
         "heading": [{ "text": "ת", "script": "H" }, " Taw"],
         "type": "acrostic"
       },
-      { "text": "Let integrity", "strong": "H8537" },
+      { "paragraph": true, "text": "Let integrity", "strong": "H8537" },
       { "text": " and uprightness", "strong": "H3476" },
       { "text": " preserve", "strong": "H5341", "morph": "QalImpf" },
       {
@@ -12133,7 +12222,7 @@
         "heading": [{ "text": "ב", "script": "H" }, " Bet"],
         "type": "acrostic"
       },
-      { "text": "My soul", "strong": "H5315" },
+      { "paragraph": true, "text": "My soul", "strong": "H5315" },
       {
         "text": " shall make her boast",
         "strong": "H1984",
@@ -12167,7 +12256,12 @@
         "heading": [{ "text": "ג", "script": "H" }, " Gimel"],
         "type": "acrostic"
       },
-      { "text": "O magnify", "strong": "H1431", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "O magnify",
+        "strong": "H1431",
+        "morph": "PielImpv"
+      },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -12190,7 +12284,12 @@
         "heading": [{ "text": "ד", "script": "H" }, " Dalet"],
         "type": "acrostic"
       },
-      { "text": "I sought", "strong": "H1875", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "I sought",
+        "strong": "H1875",
+        "morph": "QalPerf"
+      },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -12213,7 +12312,12 @@
         "heading": [{ "text": "ה", "script": "H" }, " He"],
         "type": "acrostic"
       },
-      { "text": "They looked", "strong": "H5027", "morph": "HiphPerf" },
+      {
+        "paragraph": true,
+        "text": "They looked",
+        "strong": "H5027",
+        "morph": "HiphPerf"
+      },
       {
         "content": [
           {
@@ -12250,7 +12354,7 @@
         "heading": [{ "text": "ז", "script": "H" }, " Zain"],
         "type": "acrostic"
       },
-      { "text": "This poor man", "strong": "H6041" },
+      { "paragraph": true, "text": "This poor man", "strong": "H6041" },
       { "text": " cried,", "strong": "H7121", "morph": "QalPerf" },
       {
         "content": [" and the ", { "text": "Lord", "marks": ["sc"] }],
@@ -12283,7 +12387,7 @@
         "heading": [{ "text": "ח", "script": "H" }, " Het"],
         "type": "acrostic"
       },
-      { "text": "The angel", "strong": "H4397" },
+      { "paragraph": true, "text": "The angel", "strong": "H4397" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -12308,7 +12412,12 @@
         "heading": [{ "text": "ט", "script": "H" }, " Tet"],
         "type": "acrostic"
       },
-      { "text": "O taste", "strong": "H2938", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "O taste",
+        "strong": "H2938",
+        "morph": "QalImpv"
+      },
       { "text": " and see", "strong": "H7200", "morph": "QalImpv" },
       {
         "content": [" that the ", { "text": "Lord", "marks": ["sc"] }],
@@ -12341,7 +12450,12 @@
         "heading": [{ "text": "י", "script": "H" }, " Yod"],
         "type": "acrostic"
       },
-      { "text": "O fear", "strong": "H3372", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "O fear",
+        "strong": "H3372",
+        "morph": "QalImpv"
+      },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -12364,7 +12478,7 @@
         "heading": [{ "text": "כ", "script": "H" }, " Kaph"],
         "type": "acrostic"
       },
-      { "text": "The young lions", "strong": "H3715" },
+      { "paragraph": true, "text": "The young lions", "strong": "H3715" },
       { "text": " do lack,", "strong": "H7326", "morph": "QalPerf" },
       {
         "text": " and suffer hunger:",
@@ -12393,7 +12507,12 @@
         "heading": [{ "text": "ל", "script": "H" }, " Lamed"],
         "type": "acrostic"
       },
-      { "text": "Come,", "strong": "H3212", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Come,",
+        "strong": "H3212",
+        "morph": "QalImpv"
+      },
       { "text": " ye children,", "strong": "H1121" },
       { "text": " hearken", "strong": "H8085", "morph": "QalImpv" },
       {
@@ -12418,7 +12537,7 @@
         "heading": [{ "text": "מ", "script": "H" }, " Mem"],
         "type": "acrostic"
       },
-      { "text": "What man", "strong": "H376" },
+      { "paragraph": true, "text": "What man", "strong": "H376" },
       {
         "content": [" ", { "text": "is he that", "marks": ["i"] }, " desireth"],
         "strong": "H2655"
@@ -12446,7 +12565,12 @@
         "heading": [{ "text": "נ", "script": "H" }, " Nun"],
         "type": "acrostic"
       },
-      { "text": "Keep", "strong": "H5341", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Keep",
+        "strong": "H5341",
+        "morph": "QalImpv"
+      },
       { "text": " thy tongue", "strong": "H3956" },
       { "text": " from evil,", "break": true, "strong": "H7451" },
       { "text": "And thy lips", "strong": "H8193" },
@@ -12463,7 +12587,12 @@
         "heading": [{ "text": "ס", "script": "H" }, " Samek"],
         "type": "acrostic"
       },
-      { "text": "Depart", "strong": "H5493", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Depart",
+        "strong": "H5493",
+        "morph": "QalImpv"
+      },
       { "text": " from evil,", "strong": "H7451" },
       { "text": " and do", "strong": "H6213", "morph": "QalImpv" },
       { "text": " good;", "break": true, "strong": "H2896" },
@@ -12482,7 +12611,7 @@
         "heading": [{ "text": "ע", "script": "H" }, " Ain"],
         "type": "acrostic"
       },
-      { "text": "The eyes", "strong": "H5869" },
+      { "paragraph": true, "text": "The eyes", "strong": "H5869" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -12517,7 +12646,7 @@
         "heading": [{ "text": "פ", "script": "H" }, " Pe"],
         "type": "acrostic"
       },
-      { "text": "The face", "strong": "H6440" },
+      { "paragraph": true, "text": "The face", "strong": "H6440" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -12547,6 +12676,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": [{ "text": "The righteous", "marks": ["i"] }, " cry,"],
         "strong": "H6817",
         "morph": "QalPerf"
@@ -12579,6 +12709,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -12625,7 +12756,7 @@
         "heading": [{ "text": "ר", "script": "H" }, " Resh"],
         "type": "acrostic"
       },
-      { "text": "Many", "strong": "H7227" },
+      { "paragraph": true, "text": "Many", "strong": "H7227" },
       {
         "content": [" ", { "text": "are", "marks": ["i"] }, " the afflictions"],
         "strong": "H7451"
@@ -12648,7 +12779,12 @@
         "heading": [{ "text": "ש", "script": "H" }, " Shin"],
         "type": "acrostic"
       },
-      { "text": "He keepeth", "strong": "H8104", "morph": "QalActPtc" },
+      {
+        "paragraph": true,
+        "text": "He keepeth",
+        "strong": "H8104",
+        "morph": "QalActPtc"
+      },
       { "text": " all his bones:", "break": true, "strong": "H6106" },
       { "text": "Not one", "strong": "H259" },
       { "text": " of them", "strong": "H2007" },
@@ -12669,7 +12805,7 @@
         "heading": [{ "text": "ת", "script": "H" }, " Taw"],
         "type": "acrostic"
       },
-      { "text": "Evil", "strong": "H7451" },
+      { "paragraph": true, "text": "Evil", "strong": "H7451" },
       { "text": " shall slay", "strong": "H4191", "morph": "PoleImpf" },
       { "text": " the wicked:", "break": true, "strong": "H7563" },
       { "text": "And they that hate", "strong": "H8130", "morph": "QalActPtc" },
@@ -13866,7 +14002,12 @@
         "heading": [{ "text": "ב", "script": "H" }, " Bet"],
         "type": "acrostic"
       },
-      { "text": "Trust", "strong": "H982", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Trust",
+        "strong": "H982",
+        "morph": "QalImpv"
+      },
       {
         "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -13927,7 +14068,12 @@
         "heading": [{ "text": "ג", "script": "H" }, " Gimel"],
         "type": "acrostic"
       },
-      { "text": "Commit", "strong": "H1556", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Commit",
+        "strong": "H1556",
+        "morph": "QalImpv"
+      },
       { "text": " thy way", "strong": "H1870" },
       {
         "content": [
@@ -13985,7 +14131,12 @@
         "heading": [{ "text": "ד", "script": "H" }, " Dalet"],
         "type": "acrostic"
       },
-      { "text": "Rest", "strong": "H1826", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Rest",
+        "strong": "H1826",
+        "morph": "QalImpv"
+      },
       {
         "content": [
           " in the ",
@@ -14035,7 +14186,12 @@
         "heading": [{ "text": "ה", "script": "H" }, " He"],
         "type": "acrostic"
       },
-      { "text": "Cease", "strong": "H7503", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Cease",
+        "strong": "H7503",
+        "morph": "HiphImpv"
+      },
       { "text": " from anger,", "strong": "H639" },
       { "text": " and forsake", "strong": "H5800", "morph": "QalImpv" },
       { "text": " wrath:", "break": true, "strong": "H2534" },
@@ -14083,7 +14239,11 @@
         "heading": [{ "text": "ו", "script": "H" }, " Waw"],
         "type": "acrostic"
       },
-      { "text": "For yet a little while,", "strong": "H4592" },
+      {
+        "paragraph": true,
+        "text": "For yet a little while,",
+        "strong": "H4592"
+      },
       { "text": " and the wicked", "strong": "H7563" },
       {
         "content": [
@@ -14126,7 +14286,7 @@
         "heading": [{ "text": "ז", "script": "H" }, " Zain"],
         "type": "acrostic"
       },
-      { "text": "The wicked", "strong": "H7563" },
+      { "paragraph": true, "text": "The wicked", "strong": "H7563" },
       {
         "text": " plotteth",
         "foot": {
@@ -14171,7 +14331,7 @@
         "heading": [{ "text": "ח", "script": "H" }, " Het"],
         "type": "acrostic"
       },
-      { "text": "The wicked", "strong": "H7563" },
+      { "paragraph": true, "text": "The wicked", "strong": "H7563" },
       { "text": " have drawn out", "strong": "H6605", "morph": "QalPerf" },
       { "text": " the sword,", "strong": "H2719" },
       { "text": " and have bent", "strong": "H1869", "morph": "QalPerf" },
@@ -14222,7 +14382,7 @@
         "heading": [{ "text": "ט", "script": "H" }, " Tet"],
         "type": "acrostic"
       },
-      { "text": "A little", "strong": "H4592" },
+      { "paragraph": true, "text": "A little", "strong": "H4592" },
       { "text": " that a righteous man", "strong": "H6662" },
       {
         "content": [" hath ", { "text": "is", "marks": ["i"] }, " better"],
@@ -14265,6 +14425,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -14306,7 +14467,7 @@
         "heading": [{ "text": "כ", "script": "H" }, " Kaph"],
         "type": "acrostic"
       },
-      { "text": "But the wicked", "strong": "H7563" },
+      { "paragraph": true, "text": "But the wicked", "strong": "H7563" },
       {
         "text": " shall perish,",
         "break": true,
@@ -14353,7 +14514,7 @@
         "heading": [{ "text": "ל", "script": "H" }, " Lamed"],
         "type": "acrostic"
       },
-      { "text": "The wicked", "strong": "H7563" },
+      { "paragraph": true, "text": "The wicked", "strong": "H7563" },
       { "text": " borroweth,", "strong": "H3867", "morph": "QalPtc" },
       {
         "text": " and payeth not again:",
@@ -14417,7 +14578,7 @@
         "heading": [{ "text": "מ", "script": "H" }, " Mem"],
         "type": "acrostic"
       },
-      { "text": "The steps", "strong": "H4703" },
+      { "paragraph": true, "text": "The steps", "strong": "H4703" },
       {
         "content": [" of a ", { "text": "good", "marks": ["i"] }, " man"],
         "strong": "H1397"
@@ -14473,7 +14634,7 @@
         "heading": [{ "text": "נ", "script": "H" }, " Nun"],
         "type": "acrostic"
       },
-      { "text": "I have been young,", "strong": "H5288" },
+      { "paragraph": true, "text": "I have been young,", "strong": "H5288" },
       {
         "content": [" and ", { "text": "now", "marks": ["i"] }, " am old;"],
         "break": true,
@@ -14530,7 +14691,12 @@
         "heading": [{ "text": "ס", "script": "H" }, " Samek"],
         "type": "acrostic"
       },
-      { "text": "Depart", "strong": "H5493", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Depart",
+        "strong": "H5493",
+        "morph": "QalImpv"
+      },
       { "text": " from evil,", "strong": "H7451" },
       { "text": " and do", "strong": "H6213", "morph": "QalImpv" },
       { "text": " good;", "break": true, "strong": "H2896" },
@@ -14548,6 +14714,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["For the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -14588,7 +14755,7 @@
         "heading": [{ "text": "פ", "script": "H" }, " Pe"],
         "type": "acrostic"
       },
-      { "text": "The mouth", "strong": "H6310" },
+      { "paragraph": true, "text": "The mouth", "strong": "H6310" },
       { "text": " of the righteous", "strong": "H6662" },
       { "text": " speaketh", "strong": "H1897", "morph": "QalImpf" },
       { "text": " wisdom,", "break": true, "strong": "H2451" },
@@ -14634,7 +14801,7 @@
         "heading": [{ "text": "צ", "script": "H" }, " Zade"],
         "type": "acrostic"
       },
-      { "text": "The wicked", "strong": "H7563" },
+      { "paragraph": true, "text": "The wicked", "strong": "H7563" },
       { "text": " watcheth", "strong": "H6822", "morph": "QalActPtc" },
       { "text": " the righteous,", "break": true, "strong": "H6662" },
       { "text": "And seeketh", "strong": "H1245", "morph": "PielPtc" },
@@ -14671,7 +14838,12 @@
         "heading": [{ "text": "ק", "script": "H" }, " Qoph"],
         "type": "acrostic"
       },
-      { "text": "Wait", "strong": "H6960", "morph": "PielImpv" },
+      {
+        "paragraph": true,
+        "text": "Wait",
+        "strong": "H6960",
+        "morph": "PielImpv"
+      },
       {
         "content": [" on the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -14698,7 +14870,12 @@
         "heading": [{ "text": "ר", "script": "H" }, " Resh"],
         "type": "acrostic"
       },
-      { "text": "I have seen", "strong": "H7200", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "I have seen",
+        "strong": "H7200",
+        "morph": "QalPerf"
+      },
       { "text": " the wicked", "strong": "H7563" },
       { "text": " in great power,", "break": true, "strong": "H6184" },
       { "text": "And spreading", "strong": "H6168", "morph": "HithPtc" },
@@ -14753,7 +14930,12 @@
         "heading": [{ "text": "ש", "script": "H" }, " Shin"],
         "type": "acrostic"
       },
-      { "text": "Mark", "strong": "H8104", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Mark",
+        "strong": "H8104",
+        "morph": "QalImpv"
+      },
       { "text": " the perfect", "strong": "H8535" },
       {
         "content": [" ", { "text": "man", "marks": ["i"] }, ", and behold"],
@@ -14804,7 +14986,7 @@
         "heading": [{ "text": "ת", "script": "H" }, " Taw"],
         "type": "acrostic"
       },
-      { "text": "But the salvation", "strong": "H8668" },
+      { "paragraph": true, "text": "But the salvation", "strong": "H8668" },
       { "text": " of the righteous", "strong": "H6662" },
       {
         "content": [
@@ -36159,7 +36341,7 @@
         "text": " that I will not lie",
         "foot": {
           "type": "stu",
-          "content": { "text": "if I lie", "marks": ["i"] }
+          "content": { "text": "If I lie", "marks": ["i"] }
         },
         "strong": "H3576",
         "morph": "PielImpf"
@@ -45760,7 +45942,7 @@
         "heading": [{ "text": "ד", "script": "H" }, " Dalet"],
         "type": "acrostic"
       },
-      { "text": "The works", "strong": "H4639" },
+      { "paragraph": true, "text": "The works", "strong": "H4639" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -45788,7 +45970,7 @@
         "heading": [{ "text": "ו", "script": "H" }, " Waw"],
         "type": "acrostic"
       },
-      { "text": "His work", "strong": "H6467" },
+      { "paragraph": true, "text": "His work", "strong": "H6467" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " honourable"],
         "strong": "H1935"
@@ -45812,7 +45994,12 @@
         "heading": [{ "text": "ח", "script": "H" }, " Het"],
         "type": "acrostic"
       },
-      { "text": "He hath made", "strong": "H6213", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "He hath made",
+        "strong": "H6213",
+        "morph": "QalPerf"
+      },
       { "text": " his wonderful works", "strong": "H6381", "morph": "NiphPtc" },
       { "text": " to be remembered:", "break": true, "strong": "H2143" },
       {
@@ -45839,7 +46026,12 @@
         "heading": [{ "text": "י", "script": "H" }, " Yod"],
         "type": "acrostic"
       },
-      { "text": "He hath given", "strong": "H5414", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "He hath given",
+        "strong": "H5414",
+        "morph": "QalPerf"
+      },
       {
         "text": " meat",
         "foot": {
@@ -45870,7 +46062,12 @@
         "heading": [{ "text": "ל", "script": "H" }, " Lamed"],
         "type": "acrostic"
       },
-      { "text": "He hath shewed", "strong": "H5046", "morph": "HiphPerf" },
+      {
+        "paragraph": true,
+        "text": "He hath shewed",
+        "strong": "H5046",
+        "morph": "HiphPerf"
+      },
       { "text": " his people", "strong": "H5971" },
       { "text": " the power", "strong": "H3581" },
       { "text": " of his works,", "break": true, "strong": "H4639" },
@@ -45892,7 +46089,7 @@
         "heading": [{ "text": "נ", "script": "H" }, " Nun"],
         "type": "acrostic"
       },
-      { "text": "The works", "strong": "H4639" },
+      { "paragraph": true, "text": "The works", "strong": "H4639" },
       { "text": " of his hands", "strong": "H3027" },
       {
         "content": [" ", { "text": "are", "marks": ["i"] }, " verity"],
@@ -45922,6 +46119,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "They stand fast",
         "foot": {
           "type": "trn",
@@ -45958,7 +46156,12 @@
         "heading": [{ "text": "ק", "script": "H" }, " Qoph"],
         "type": "acrostic"
       },
-      { "text": "He sent", "strong": "H7971", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "He sent",
+        "strong": "H7971",
+        "morph": "QalPerf"
+      },
       { "text": " redemption", "strong": "H6304" },
       { "text": " unto his people:", "break": true, "strong": "H5971" },
       { "text": "He hath commanded", "strong": "H6680", "morph": "PielPerf" },
@@ -45990,7 +46193,7 @@
         "heading": [{ "text": "ת", "script": "H" }, " Taw"],
         "type": "acrostic"
       },
-      { "text": "The fear", "strong": "H3374" },
+      { "paragraph": true, "text": "The fear", "strong": "H3374" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
@@ -46105,7 +46308,7 @@
         "heading": [{ "text": "ד", "script": "H" }, " Dalet"],
         "type": "acrostic"
       },
-      { "text": "His seed", "strong": "H2233" },
+      { "paragraph": true, "text": "His seed", "strong": "H2233" },
       { "text": " shall be mighty", "strong": "H1368" },
       { "text": " upon earth:", "break": true, "strong": "H776" },
       { "text": "The generation", "strong": "H1755" },
@@ -46131,7 +46334,7 @@
         "heading": [{ "text": "ו", "script": "H" }, " Waw"],
         "type": "acrostic"
       },
-      { "text": "Wealth", "strong": "H1952" },
+      { "paragraph": true, "text": "Wealth", "strong": "H1952" },
       { "text": " and riches", "strong": "H6239" },
       {
         "content": [
@@ -46160,7 +46363,7 @@
         "heading": [{ "text": "ח", "script": "H" }, " Het"],
         "type": "acrostic"
       },
-      { "text": "Unto the upright", "strong": "H3477" },
+      { "paragraph": true, "text": "Unto the upright", "strong": "H3477" },
       { "text": " there ariseth", "strong": "H2224", "morph": "QalPerf" },
       { "text": " light", "strong": "H216" },
       { "text": " in the darkness:", "break": true, "strong": "H2822" },
@@ -46185,7 +46388,7 @@
         "heading": [{ "text": "י", "script": "H" }, " Yod"],
         "type": "acrostic"
       },
-      { "text": "A good", "strong": "H2896" },
+      { "paragraph": true, "text": "A good", "strong": "H2896" },
       { "text": " man", "strong": "H376" },
       { "text": " sheweth favour,", "strong": "H2603", "morph": "QalActPtc" },
       {
@@ -46221,6 +46424,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Surely he shall not be moved",
         "strong": "H4131",
         "morph": "NiphImpf"
@@ -46245,6 +46449,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "He shall not be afraid",
         "strong": "H3372",
         "morph": "QalImpf"
@@ -46274,7 +46479,7 @@
         "heading": [{ "text": "ע", "script": "H" }, " Ain"],
         "type": "acrostic"
       },
-      { "text": "His heart", "strong": "H3820" },
+      { "paragraph": true, "text": "His heart", "strong": "H3820" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " established,"],
         "strong": "H5564",
@@ -46315,7 +46520,12 @@
         "heading": [{ "text": "ק", "script": "H" }, " Qoph"],
         "type": "acrostic"
       },
-      { "text": "He hath dispersed,", "strong": "H6340", "morph": "PielPerf" },
+      {
+        "paragraph": true,
+        "text": "He hath dispersed,",
+        "strong": "H6340",
+        "morph": "PielPerf"
+      },
       { "text": " he hath given", "strong": "H5414", "morph": "QalPerf" },
       { "text": " to the poor;", "break": true, "strong": "H34" },
       { "text": "His righteousness", "strong": "H6666" },
@@ -46343,7 +46553,7 @@
         "heading": [{ "text": "ת", "script": "H" }, " Taw"],
         "type": "acrostic"
       },
-      { "text": "The wicked", "strong": "H7563" },
+      { "paragraph": true, "text": "The wicked", "strong": "H7563" },
       { "text": " shall see", "strong": "H7200", "morph": "QalImpf" },
       {
         "content": [" ", { "text": "it", "marks": ["i"] }, ", and be grieved;"],
@@ -48485,7 +48695,11 @@
         "heading": [{ "text": "ב", "script": "H" }, " Bet"],
         "type": "acrostic"
       },
-      { "text": "Wherewithal shall a young man", "strong": "H5288" },
+      {
+        "paragraph": true,
+        "text": "Wherewithal shall a young man",
+        "strong": "H5288"
+      },
       { "text": " cleanse", "strong": "H2135", "morph": "PielImpf" },
       { "text": " his way?", "break": true, "strong": "H734" },
       { "text": "By taking heed", "strong": "H8104", "morph": "QalInf" },
@@ -48610,7 +48824,12 @@
         "heading": [{ "text": "ג", "script": "H" }, " Gimel"],
         "type": "acrostic"
       },
-      { "text": "Deal bountifully", "strong": "H1580", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Deal bountifully",
+        "strong": "H1580",
+        "morph": "QalImpv"
+      },
       { "text": " with thy servant,", "break": true, "strong": "H5650" },
       {
         "content": [{ "text": "That", "marks": ["i"] }, " I may live,"],
@@ -48769,7 +48988,7 @@
         "heading": [{ "text": "ד", "script": "H" }, " Dalet"],
         "type": "acrostic"
       },
-      { "text": "My soul", "strong": "H5315" },
+      { "paragraph": true, "text": "My soul", "strong": "H5315" },
       { "text": " cleaveth", "strong": "H1692", "morph": "QalPerf" },
       { "text": " unto the dust:", "break": true, "strong": "H6083" },
       { "text": "Quicken", "strong": "H2421", "morph": "PielImpv" },
@@ -48917,7 +49136,12 @@
         "heading": [{ "text": "ה", "script": "H" }, " He"],
         "type": "acrostic"
       },
-      { "text": "Teach", "strong": "H3384", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Teach",
+        "strong": "H3384",
+        "morph": "HiphImpv"
+      },
       {
         "content": [" me, O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -49072,7 +49296,7 @@
         "heading": [{ "text": "ו", "script": "H" }, " Waw"],
         "type": "acrostic"
       },
-      { "text": "Let thy mercies", "strong": "H2617" },
+      { "paragraph": true, "text": "Let thy mercies", "strong": "H2617" },
       { "text": " come", "strong": "H935", "morph": "QalImpf" },
       {
         "content": [
@@ -49224,7 +49448,12 @@
         "heading": [{ "text": "ז", "script": "H" }, " Zain"],
         "type": "acrostic"
       },
-      { "text": "Remember", "strong": "H2142", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Remember",
+        "strong": "H2142",
+        "morph": "QalImpv"
+      },
       { "text": " the word", "strong": "H1697" },
       { "text": " unto thy servant,", "break": true, "strong": "H5650" },
       {
@@ -49355,6 +49584,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": [{ "text": "Thou art", "marks": ["i"] }, " my portion,"],
         "strong": "H2506"
       },
@@ -49526,7 +49756,12 @@
         "heading": [{ "text": "ט", "script": "H" }, " Tet"],
         "type": "acrostic"
       },
-      { "text": "Thou hast dealt", "strong": "H6213", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "Thou hast dealt",
+        "strong": "H6213",
+        "morph": "QalPerf"
+      },
       { "text": " well", "strong": "H2896" },
       { "text": " with thy servant,", "break": true, "strong": "H5650" },
       {
@@ -49680,7 +49915,7 @@
         "heading": [{ "text": "י", "script": "H" }, " Yod"],
         "type": "acrostic"
       },
-      { "text": "Thy hands", "strong": "H3027" },
+      { "paragraph": true, "text": "Thy hands", "strong": "H3027" },
       { "text": " have made", "strong": "H6213", "morph": "QalPerf" },
       { "text": " me and fashioned", "strong": "H3559", "morph": "PoleImpf" },
       {
@@ -49855,7 +50090,7 @@
         "heading": [{ "text": "כ", "script": "H" }, " Kaph"],
         "type": "acrostic"
       },
-      { "text": "My soul", "strong": "H5315" },
+      { "paragraph": true, "text": "My soul", "strong": "H5315" },
       { "text": " fainteth", "strong": "H3615", "morph": "QalPerf" },
       { "text": " for thy salvation:", "break": true, "strong": "H8668" },
       {
@@ -50010,7 +50245,7 @@
         "heading": [{ "text": "ל", "script": "H" }, " Lamed"],
         "type": "acrostic"
       },
-      { "text": "For ever,", "strong": "H5769" },
+      { "paragraph": true, "text": "For ever,", "strong": "H5769" },
       {
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -50189,7 +50424,12 @@
         "heading": [{ "text": "מ", "script": "H" }, " Mem"],
         "type": "acrostic"
       },
-      { "text": "O how love I", "strong": "H157", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "O how love I",
+        "strong": "H157",
+        "morph": "QalPerf"
+      },
       { "text": " thy law!", "break": true, "strong": "H8451" },
       {
         "content": ["It ", { "text": "is", "marks": ["i"] }, " my meditation"],
@@ -50342,7 +50582,7 @@
         "heading": [{ "text": "נ", "script": "H" }, " Nun"],
         "type": "acrostic"
       },
-      { "text": "Thy word", "strong": "H1697" },
+      { "paragraph": true, "text": "Thy word", "strong": "H1697" },
       {
         "content": [
           " ",
@@ -50503,7 +50743,12 @@
         "heading": [{ "text": "ס", "script": "H" }, " Samek"],
         "type": "acrostic"
       },
-      { "text": "I hate", "strong": "H8130", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "I hate",
+        "strong": "H8130",
+        "morph": "QalPerf"
+      },
       {
         "content": [" ", { "text": "vain", "marks": ["i"] }, " thoughts:"],
         "break": true,
@@ -50665,7 +50910,12 @@
         "heading": [{ "text": "ע", "script": "H" }, " Ain"],
         "type": "acrostic"
       },
-      { "text": "I have done", "strong": "H6213", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "I have done",
+        "strong": "H6213",
+        "morph": "QalPerf"
+      },
       { "text": " judgment", "strong": "H4941" },
       { "text": " and justice:", "break": true, "strong": "H6664" },
       { "text": "Leave", "strong": "H3240", "morph": "HiphImpf" },
@@ -50824,7 +51074,7 @@
         "heading": [{ "text": "פ", "script": "H" }, " Pe"],
         "type": "acrostic"
       },
-      { "text": "Thy testimonies", "strong": "H5715" },
+      { "paragraph": true, "text": "Thy testimonies", "strong": "H5715" },
       {
         "content": [" ", { "text": "are", "marks": ["i"] }, " wonderful:"],
         "break": true,
@@ -50971,7 +51221,7 @@
         "heading": [{ "text": "צ", "script": "H" }, " Zade"],
         "type": "acrostic"
       },
-      { "text": "Righteous", "strong": "H6662" },
+      { "paragraph": true, "text": "Righteous", "strong": "H6662" },
       {
         "content": [
           " ",
@@ -51194,7 +51444,12 @@
         "heading": [{ "text": "ק", "script": "H" }, " Qoph"],
         "type": "acrostic"
       },
-      { "text": "I cried", "strong": "H7121", "morph": "QalPerf" },
+      {
+        "paragraph": true,
+        "text": "I cried",
+        "strong": "H7121",
+        "morph": "QalPerf"
+      },
       {
         "content": [
           " with ",
@@ -51356,7 +51611,12 @@
         "heading": [{ "text": "ר", "script": "H" }, " Resh"],
         "type": "acrostic"
       },
-      { "text": "Consider", "strong": "H7200", "morph": "QalImpv" },
+      {
+        "paragraph": true,
+        "text": "Consider",
+        "strong": "H7200",
+        "morph": "QalImpv"
+      },
       { "text": " mine affliction,", "strong": "H6040" },
       { "text": " and deliver", "strong": "H2502", "morph": "PielImpv" },
       {
@@ -51535,7 +51795,7 @@
         "heading": [{ "text": "ש", "script": "H" }, " Shin"],
         "type": "acrostic"
       },
-      { "text": "Princes", "strong": "H8269" },
+      { "paragraph": true, "text": "Princes", "strong": "H8269" },
       { "text": " have persecuted", "strong": "H7291", "morph": "QalPerf" },
       { "text": " me without a cause:", "break": true, "strong": "H2600" },
       { "text": "But my heart", "strong": "H3820" },
@@ -51674,7 +51934,7 @@
         "heading": [{ "text": "ת", "script": "H" }, " Taw"],
         "type": "acrostic"
       },
-      { "text": "Let my cry", "strong": "H7440" },
+      { "paragraph": true, "text": "Let my cry", "strong": "H7440" },
       { "text": " come near", "strong": "H7126", "morph": "QalImpf" },
       { "text": " before", "strong": "H6440" },
       {
@@ -57806,7 +58066,7 @@
         "heading": [{ "text": "ב", "script": "H" }, " Bet"],
         "type": "acrostic"
       },
-      { "text": "Every day", "strong": "H3117" },
+      { "paragraph": true, "text": "Every day", "strong": "H3117" },
       { "text": " will I bless", "strong": "H1288", "morph": "PielImpf" },
       {
         "content": [{ "text": " thee;", "break": true }, "And I will praise"],
@@ -57827,7 +58087,7 @@
         "heading": [{ "text": "ג", "script": "H" }, " Gimel"],
         "type": "acrostic"
       },
-      { "text": "Great", "strong": "H1419" },
+      { "paragraph": true, "text": "Great", "strong": "H1419" },
       {
         "content": [
           " ",
@@ -57878,7 +58138,7 @@
         "heading": [{ "text": "ד", "script": "H" }, " Dalet"],
         "type": "acrostic"
       },
-      { "text": "One", "strong": "H1755" },
+      { "paragraph": true, "text": "One", "strong": "H1755" },
       { "text": " generation", "strong": "H1755" },
       { "text": " shall praise", "strong": "H7623", "morph": "PielImpf" },
       { "text": " thy works", "strong": "H4639" },
@@ -57902,7 +58162,12 @@
         "heading": [{ "text": "ה", "script": "H" }, " He"],
         "type": "acrostic"
       },
-      { "text": "I will speak", "strong": "H7878", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "I will speak",
+        "strong": "H7878",
+        "morph": "QalImpf"
+      },
       { "text": " of the glorious", "strong": "H3519" },
       { "text": " honour", "strong": "H1926" },
       { "text": " of thy majesty,", "break": true, "strong": "H1935" },
@@ -57933,6 +58198,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["And ", { "text": "men", "marks": ["i"] }, " shall speak"],
         "strong": "H559",
         "morph": "QalImpf"
@@ -57966,6 +58232,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "They shall abundantly utter",
         "strong": "H5042",
         "morph": "HiphImpf"
@@ -57987,6 +58254,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -58019,6 +58287,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -58053,7 +58322,7 @@
         "heading": [{ "text": "י", "script": "H" }, " Yod"],
         "type": "acrostic"
       },
-      { "text": "All thy works", "strong": "H4639" },
+      { "paragraph": true, "text": "All thy works", "strong": "H4639" },
       { "text": " shall praise", "strong": "H3034", "morph": "HiphImpf" },
       {
         "content": [" thee, O ", { "text": "Lord", "marks": ["sc"] }, ";"],
@@ -58074,7 +58343,12 @@
         "heading": [{ "text": "כ", "script": "H" }, " Kaph"],
         "type": "acrostic"
       },
-      { "text": "They shall speak", "strong": "H559", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "They shall speak",
+        "strong": "H559",
+        "morph": "QalImpf"
+      },
       { "text": " of the glory", "strong": "H3519" },
       { "text": " of thy kingdom,", "break": true, "strong": "H4438" },
       { "text": "And talk", "strong": "H1696", "morph": "PielImpf" },
@@ -58090,7 +58364,12 @@
         "heading": [{ "text": "ל", "script": "H" }, " Lamed"],
         "type": "acrostic"
       },
-      { "text": "To make known", "strong": "H3045", "morph": "HiphInf" },
+      {
+        "paragraph": true,
+        "text": "To make known",
+        "strong": "H3045",
+        "morph": "HiphInf"
+      },
       { "text": " to the sons", "strong": "H1121" },
       { "text": " of men", "strong": "H120" },
       { "text": " his mighty acts,", "break": true, "strong": "H1369" },
@@ -58108,7 +58387,7 @@
         "heading": [{ "text": "מ", "script": "H" }, " Mem"],
         "type": "acrostic"
       },
-      { "text": "Thy kingdom", "strong": "H4438" },
+      { "paragraph": true, "text": "Thy kingdom", "strong": "H4438" },
       {
         "content": [" ", { "text": "is", "marks": ["i"] }, " an everlasting"],
         "strong": "H5769"
@@ -58147,6 +58426,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -58179,7 +58459,7 @@
         "heading": [{ "text": "ע", "script": "H" }, " Ain"],
         "type": "acrostic"
       },
-      { "text": "The eyes", "strong": "H5869" },
+      { "paragraph": true, "text": "The eyes", "strong": "H5869" },
       { "text": " of all wait", "strong": "H7663", "morph": "PielImpf" },
       {
         "content": [
@@ -58209,7 +58489,12 @@
         "heading": [{ "text": "פ", "script": "H" }, " Pe"],
         "type": "acrostic"
       },
-      { "text": "Thou openest", "strong": "H6605", "morph": "QalActPtc" },
+      {
+        "paragraph": true,
+        "text": "Thou openest",
+        "strong": "H6605",
+        "morph": "QalActPtc"
+      },
       { "text": " thine hand,", "break": true, "strong": "H3027" },
       { "text": "And satisfiest", "strong": "H7646", "morph": "HiphPtc" },
       { "text": " the desire", "strong": "H7522" },
@@ -58226,6 +58511,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -58260,6 +58546,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -58292,7 +58579,12 @@
         "heading": [{ "text": "ר", "script": "H" }, " Resh"],
         "type": "acrostic"
       },
-      { "text": "He will fulfil", "strong": "H6213", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "He will fulfil",
+        "strong": "H6213",
+        "morph": "QalImpf"
+      },
       { "text": " the desire", "strong": "H7522" },
       { "text": " of them that fear", "strong": "H3373" },
       {
@@ -58315,6 +58607,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
@@ -58341,7 +58634,7 @@
         "heading": [{ "text": "ת", "script": "H" }, " Taw"],
         "type": "acrostic"
       },
-      { "text": "My mouth", "strong": "H6310" },
+      { "paragraph": true, "text": "My mouth", "strong": "H6310" },
       { "text": " shall speak", "strong": "H1696", "morph": "PielImpf" },
       { "text": " the praise", "strong": "H8416" },
       {

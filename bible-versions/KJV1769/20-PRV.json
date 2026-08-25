@@ -394,6 +394,7 @@
     "content": [
       { "heading": "The Cry of Wisdom" },
       {
+        "paragraph": true,
         "text": "Wisdom",
         "foot": {
           "type": "trn",
@@ -8776,7 +8777,7 @@
             "text": " poureth",
             "foot": {
               "type": "stu",
-              "content": { "text": "blecheth, or bubbleth", "marks": ["i"] }
+              "content": { "text": "Blecheth, or bubbleth", "marks": ["i"] }
             }
           },
           " out"
@@ -14190,7 +14191,12 @@
     "verse": 17,
     "content": [
       { "heading": "Words of the Wise" },
-      { "text": "Bow down", "strong": "H5186", "morph": "HiphImpv" },
+      {
+        "paragraph": true,
+        "text": "Bow down",
+        "strong": "H5186",
+        "morph": "HiphImpv"
+      },
       { "text": " thine ear,", "strong": "H241" },
       { "text": " and hear", "strong": "H8085", "morph": "QalImpv" },
       { "text": " the words", "strong": "H1697" },
@@ -20643,7 +20649,12 @@
     "verse": 10,
     "content": [
       { "heading": "The Good Wife" },
-      { "text": "Who can find", "strong": "H4672", "morph": "QalImpf" },
+      {
+        "paragraph": true,
+        "text": "Who can find",
+        "strong": "H4672",
+        "morph": "QalImpf"
+      },
       { "text": " a virtuous", "strong": "H2428" },
       { "text": " woman?", "break": true, "strong": "H802" },
       { "text": "For her price", "strong": "H4377" },

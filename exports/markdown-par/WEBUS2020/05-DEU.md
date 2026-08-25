@@ -7,7 +7,7 @@
 <sup>5</sup> Beyond the Jordan, in the land of Moab, Moses began to declare this law, saying,
 <sup>6</sup> “Yahweh our God<sup>b</sup> spoke to us in Horeb, saying, ‘You have lived long enough at this mountain.
 <sup>7</sup> Turn, and take your journey, and go to the hill country of the Amorites and to all the places near there: in the Arabah, in the hill country, in the lowland, in the South, by the seashore, in the land of the Canaanites, and in Lebanon as far as the great river, the river Euphrates.
-<sup>8</sup> Behold,<sup>c</sup> I have set the land before you. Go in and possess the land which Yahweh swore to your fathers—to Abraham, to Isaac, and to Jacob—to give to them and to their offspring<sup>d</sup> after them.’ ”
+<sup>8</sup> Behold,<sup>c</sup> I have set the land before you. Go in and possess the land which Yahweh swore to your fathers—to Abraham, to Isaac, and to Jacob—to give to them and to their offspring<sup>d</sup> after them.’”
 
 <sup>9</sup> I spoke to you at that time, saying, “I am not able to bear you myself alone.
 <sup>10</sup> Yahweh your God has multiplied you, and behold, you are today as the stars of the sky for multitude.
@@ -32,7 +32,7 @@
 
 <sup>26</sup> Yet you wouldn’t go up, but rebelled against the commandment of Yahweh your God.
 <sup>27</sup> You murmured in your tents, and said, “Because Yahweh hated us, he has brought us out of the land of Egypt, to deliver us into the hand of the Amorites to destroy us.
-<sup>28</sup> Where are we going up? Our brothers have made our heart melt, saying, ‘The people are greater and taller than we. The cities are great and fortified up to the sky. Moreover we have seen the sons of the Anakim there!’ ”
+<sup>28</sup> Where are we going up? Our brothers have made our heart melt, saying, ‘The people are greater and taller than we. The cities are great and fortified up to the sky. Moreover we have seen the sons of the Anakim there!’”
 
 <sup>29</sup> Then I said to you, “Don’t be terrified. Don’t be afraid of them.
 <sup>30</sup> Yahweh your God, who goes before you, he will fight for you, according to all that he did for you in Egypt before your eyes,
@@ -51,7 +51,7 @@
 
 <sup>41</sup> Then you answered and said to me, “We have sinned against Yahweh. We will go up and fight, according to all that Yahweh our God commanded us.” Every man of you put on his weapons of war, and presumed to go up into the hill country.
 
-<sup>42</sup> Yahweh said to me, “Tell them, ‘Don’t go up and don’t fight; for I am not among you, lest you be struck before your enemies.’ ”
+<sup>42</sup> Yahweh said to me, “Tell them, ‘Don’t go up and don’t fight; for I am not among you, lest you be struck before your enemies.’”
 
 <sup>43</sup> So I spoke to you, and you didn’t listen; but you rebelled against the commandment of Yahweh, and were presumptuous, and went up into the hill country.
 <sup>44</sup> The Amorites, who lived in that hill country, came out against you and chased you as bees do, and beat you down in Seir, even to Hormah.
@@ -71,7 +71,7 @@
 <sup>3</sup> “You have encircled this mountain long enough. Turn northward.
 <sup>4</sup> Command the people, saying, ‘You are to pass through the border of your brothers, the children of Esau, who dwell in Seir; and they will be afraid of you. Therefore be careful.
 <sup>5</sup> Don’t contend with them; for I will not give you any of their land, no, not so much as for the sole of the foot to tread on, because I have given Mount Seir to Esau for a possession.
-<sup>6</sup> You shall purchase food from them for money, that you may eat. You shall also buy water from them for money, that you may drink.’ ”
+<sup>6</sup> You shall purchase food from them for money, that you may eat. You shall also buy water from them for money, that you may drink.’”
 
 <sup>7</sup> For Yahweh your God has blessed you in all the work of your hands. He has known your walking through this great wilderness. These forty years, Yahweh your God has been with you. You have lacked nothing.
 
@@ -206,7 +206,7 @@
 <sup>45</sup> These are the testimonies, and the statutes, and the ordinances which Moses spoke to the children of Israel when they came out of Egypt,
 <sup>46</sup> beyond the Jordan, in the valley opposite Beth Peor, in the land of Sihon king of the Amorites, who lived at Heshbon, whom Moses and the children of Israel struck when they came out of Egypt.
 <sup>47</sup> They took possession of his land and the land of Og king of Bashan, the two kings of the Amorites, who were beyond the Jordan toward the sunrise;
-<sup>48</sup> from Aroer, which is on the edge of the valley of the Arnon, even to Mount Zion (also called Hermon),
+<sup>48</sup> from Aroer, which is on the edge of the valley of the Arnon, even to Mount Siyon (also called Hermon),
 <sup>49</sup> and all the Arabah beyond the Jordan eastward, even to the sea of the Arabah, under the slopes of Pisgah.
 
 ## Chapter 5
@@ -216,11 +216,12 @@
 <sup>3</sup> Yahweh didn’t make this covenant with our fathers, but with us, even us, who are all of us here alive today.
 <sup>4</sup> Yahweh spoke with you face to face on the mountain out of the middle of the fire,
 <sup>5</sup> (I stood between Yahweh and you at that time, to show you Yahweh’s word; for you were afraid because of the fire, and didn’t go up onto the mountain) saying,
+
 <sup>6</sup> “I am Yahweh your God, who brought you out of the land of Egypt, out of the house of bondage.
 
 <sup>7</sup> “You shall have no other gods before me.
 
-<sup>8</sup> “You shall not make a carved image for yourself—any likeness of what is in heaven above, or what is in the earth beneath, or that is in the water under the earth.
+<sup>8</sup> “You shall not make a carved image for yourself—any likeness of what is in heaven above, or what is on the earth beneath, or that is in the water under the earth.
 <sup>9</sup> You shall not bow yourself down to them, nor serve them, for I, Yahweh your God, am a jealous God, visiting the iniquity of the fathers on the children and on the third and on the fourth generation of those who hate me
 <sup>10</sup> and showing loving kindness to thousands of those who love me and keep my commandments.
 
@@ -228,7 +229,7 @@
 
 <sup>12</sup> “Observe the Sabbath day, to keep it holy, as Yahweh your God commanded you.
 <sup>13</sup> You shall labor six days, and do all your work;
-<sup>14</sup> but the seventh day is a Sabbath to Yahweh your God, in which you shall not do any work— neither you, nor your son, nor your daughter, nor your male servant, nor your female servant, nor your ox, nor your donkey, nor any of your livestock, nor your stranger who is within your gates; that your male servant and your female servant may rest as well as you.
+<sup>14</sup> but the seventh day is a Sabbath to Yahweh your God, in which you shall not do any work—neither you, nor your son, nor your daughter, nor your male servant, nor your female servant, nor your ox, nor your donkey, nor any of your livestock, nor your stranger who is within your gates; that your male servant and your female servant may rest as well as you.
 <sup>15</sup> You shall remember that you were a servant in the land of Egypt, and Yahweh your God brought you out of there by a mighty hand and by an outstretched arm. Therefore Yahweh your God commanded you to keep the Sabbath day.
 
 <sup>16</sup> “Honor your father and your mother, as Yahweh your God commanded you, that your days may be long and that it may go well with you in the land which Yahweh your God gives you.
@@ -966,9 +967,9 @@ All the people shall say, ‘Amen.’
 
 <sup>26</sup> ‘Cursed is he who doesn’t uphold the words of this law by doing them.’
 
-All the people shall say, ‘Amen.’ ”
+All the people shall say, ‘Amen.’”
 
-> - <sup>a</sup> 20. i.e., has sexual relations with
+> - <sup>a</sup> 20. I.e., has sexual relations with
 
 ## Chapter 28
 
@@ -1041,7 +1042,7 @@ All the people shall say, ‘Amen.’ ”
 <sup>65</sup> Among these nations you will find no ease, and there will be no rest for the sole of your foot; but Yahweh will give you there a trembling heart, failing of eyes, and pining of soul.
 <sup>66</sup> Your life will hang in doubt before you. You will be afraid night and day, and will have no assurance of your life.
 <sup>67</sup> In the morning you will say, “I wish it were evening!” and at evening you will say, “I wish it were morning!” for the fear of your heart which you will fear, and for the sights which your eyes will see.
-<sup>68</sup> Yahweh will bring you into Egypt again with ships, by the way of which I told to you that you would never see it again. There you will offer yourselves to your enemies for male and female slaves, and nobody will buy you.
+<sup>68</sup> Yahweh will bring you into Egypt again with ships, by the way of which I told you that you would never see it again. There you will offer yourselves to your enemies for male and female slaves, and nobody will buy you.
 
 ## Chapter 29
 
@@ -1177,7 +1178,7 @@ Moses and Joshua went, and presented themselves in the Tent of Meeting.
 <sup>24</sup> They shall be wasted with hunger,<br>and devoured with burning heat<br>and bitter destruction.<br>I will send the teeth of animals on them,<br>with the venom of vipers that glide in the dust.<br>
 <sup>25</sup> Outside the sword will bereave,<br>and in the rooms,<br>terror on both young man and virgin,<br>the nursing infant with the gray-haired man.<br>
 <sup>26</sup> I said that I would scatter them afar.<br>I would make their memory to cease from among men;<br>
-<sup>27</sup> were it not that I feared the provocation of the enemy,<br>lest their adversaries should judge wrongly,<br>lest they should say, ‘Our hand is exalted;<br>Yahweh has not done all this.’ ”
+<sup>27</sup> were it not that I feared the provocation of the enemy,<br>lest their adversaries should judge wrongly,<br>lest they should say, ‘Our hand is exalted;<br>Yahweh has not done all this.’”
 
 <sup>28</sup> For they are a nation void of counsel.<br>There is no understanding in them.<br>
 <sup>29</sup> Oh that they were wise, that they understood this,<br>that they would consider their latter end!<br>
@@ -1212,7 +1213,7 @@ Moses and Joshua went, and presented themselves in the Tent of Meeting.
 <sup>52</sup> For you shall see the land from a distance; but you shall not go there into the land which I give the children of Israel.”
 
 > - <sup>a</sup> 22. Sheol is the place of the dead.
-> - <sup>b</sup> 43. For this verse, LXX reads: Rejoice, you heavens, with him, and let all the angels of God worship him; rejoice you Gentiles, with his people, and let all the sons of God strengthen themselves in him; for he will avenge the blood of his sons, and he will render vengeance, and recompense justice to his enemies, and will reward them that hate him; and the Lord shall purge the land of his people.
+> - <sup>b</sup> 43. For this verse, LXX reads: Rejoice, you heavens, with him, and let all the angels of God worship him; rejoice you Gentiles, with his people, and let all the sons of God strengthen themselves in him; for he will avenge the blood of his sons, and he will give vengeance, and recompense justice to his enemies, and will reward them that hate him; and the Lord shall purge the land of his people.
 
 ## Chapter 33
 
@@ -1258,7 +1259,7 @@ Moses and Joshua went, and presented themselves in the Tent of Meeting.
 <sup>29</sup> You are happy, Israel!<br>Who is like you, a people saved by Yahweh,<br>the shield of your help,<br>the sword of your excellency?<br>Your enemies will submit themselves to you.<br>You will tread on their high places.”
 
 > - <sup>a</sup> 2. Another manuscript reads “He came with myriads of holy ones from the south, from his mountain slopes.”
-> - <sup>b</sup> 16. i.e., the burning bush of Exodus 3:3–4.
+> - <sup>b</sup> 16. I.e., the burning bush of Exodus 3:3–4.
 
 ## Chapter 34
 

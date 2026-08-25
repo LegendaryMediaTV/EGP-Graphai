@@ -12,20 +12,20 @@ A `bibleLink` cross-reference target must resolve inside a single chapter. A tar
 
 | Shape               | Example                        | Meaning                                                                 |
 | ------------------- | ------------------------------- | ------------------------------------------------------------------------ |
-| `singleChapter`     | `"Exodus 3:3–4"`                | Both endpoints in the same chapter — no action needed                    |
-| `crossChapterRange` | `"2 Kings 6:31–7:20"`           | Endpoints in different chapters of the same book, each naming a verse — a finding |
-| `wholeChapterRange` | `"Romans 1–11"`                 | Endpoints in different chapters, neither naming a verse — also a finding, split the same way but with no verse anchor on either half |
-| `mergedTarget`       | `"Isaiah 66:10, 13"`           | Comma-joined targets confined to one chapter — excluded before dash parsing |
-| `unparsed`          | `"Deuteronomy 32:43 LXX"`       | Does not match the `Book C[:V]` grammar at all — reported, never thrown  |
+| `singleChapter`     | `"Exodus 3:3–4"`                | Both endpoints in the same chapter; no action needed                    |
+| `crossChapterRange` | `"2 Kings 6:31–7:20"`           | Endpoints in different chapters of the same book, each naming a verse; a finding |
+| `wholeChapterRange` | `"Romans 1–11"`                 | Endpoints in different chapters, neither naming a verse; also a finding, split the same way but with no verse anchor on either half |
+| `mergedTarget`       | `"Isaiah 66:10, 13"`           | Comma-joined targets confined to one chapter; excluded before dash parsing |
+| `unparsed`          | `"Deuteronomy 32:43 LXX"`       | Does not match the `Book C[:V]` grammar at all; reported, never thrown  |
 
 ### CrossChapterFinding
 
 One genuine cross-chapter-range `bibleLink`, as returned by `findCrossChapterLinks(versionId)`:
 
-- `book` / `atBook` / `atChapter` / `atVerse` — the repo book id the range targets, and where the link itself sits (not always the same book — WEBUS2020's Hebrews 11:34 links to 2 Kings)
-- `footnoteType`, `zone` — the enclosing footnote type (`stu`, `xrf`, …) and whether the link sits in verse content, a heading, or a subtitle
-- `target`, `display?`, `dash` — the target exactly as written, its display override when present, and the actual dash character joining the range (en dash, em dash, or ASCII hyphen — never assumed to be the convention's own en dash)
-- `fromChapter` / `toChapter` / `firstChapterLastVerse` — the range's two chapters and the first chapter's actual last verse, read from that version's own data
+- `book` / `atBook` / `atChapter` / `atVerse`; the repo book id the range targets, and where the link itself sits (not always the same book: WEBUS2020's Hebrews 11:34 links to 2 Kings)
+- `footnoteType`, `zone`; the enclosing footnote type (`stu`, `xrf`, …) and whether the link sits in verse content, a heading, or a subtitle
+- `target`, `display?`, `dash`; the target exactly as written, its display override when present, and the actual dash character joining the range (en dash, em dash, or ASCII hyphen; never assumed to be the convention's own en dash)
+- `fromChapter` / `toChapter` / `firstChapterLastVerse`; the range's two chapters and the first chapter's actual last verse, read from that version's own data
 
 ## User Workflows
 
@@ -36,13 +36,13 @@ One genuine cross-chapter-range `bibleLink`, as returned by `findCrossChapterLin
 
 ## Key Business Rules
 
-- **Dry-run by default** – Only `--fix` writes; every other invocation is a read-only report. This is the opposite polarity from `convertToSmallCaps.ts`'s `--dry-run` flag, which opts *out* of writing — a deliberate choice for a tool whose default use is "tell me the state," not "change it."
+- **Dry-run by default** – Only `--fix` writes; every other invocation is a read-only report. This is the opposite polarity from `convertToSmallCaps.ts`'s `--dry-run` flag, which opts *out* of writing. That's a deliberate choice for a tool whose default use is "tell me the state," not "change it."
 - **Non-zero exit on any finding** – `exitCodeFor()` returns 1 if any version still carries an unsplit `crossChapterRange`, so this can gate CI the same way `validate.ts` does.
 - **Dash-agnostic detection, en-dash-only emission** – Detection accepts the whole dash class (en dash, em dash, ASCII hyphen, and related Unicode dashes) since real data doesn't always use the convention's own character (WEBUS2020's real Hebrews 11:34 finding used an em dash against that version's other 77 en-dash ranges). Splitting always emits the en dash regardless of which dash the source used.
 - **Chapter length is version-scoped, never a shared table** – A chapter's last verse comes from that version's own verse records. Translations disagree (Romans 14 runs to verse 23 in ASV1901/CLV1880/KJV1769/YLT1898, but verse 26 in BYZ2018/WEBUS2020); a table built from one version and reused for another would silently mis-split a range in some of them.
 - **Book resolution is canon-scoped** – A book name resolves only within the version being checked. A name valid elsewhere but outside a version's own canon (e.g. anything absent from BYZ2018's NT-only canon) is reported as unresolvable rather than guessed at.
 - **Never throws on an unparseable target** – A target the grammar doesn't describe, or that names a book outside the version's canon, comes back reported in the result. A wrong link is worse than a missing one, but a shape the audit cannot verify is not a crash.
-- **Idempotent splitting** – An already-split pair (`"2 Kings 6:31–33"` and `"2 Kings 7:1–20"`) classifies as `singleChapter` on a second pass, so re-running `--fix` is always safe. A split whole-chapter pair (`"Romans 1"` and `"Romans 11"`) is idempotent the same way — each bare chapter reference also classifies as `singleChapter`.
+- **Idempotent splitting** – An already-split pair (`"2 Kings 6:31–33"` and `"2 Kings 7:1–20"`) classifies as `singleChapter` on a second pass, so re-running `--fix` is always safe. A split whole-chapter pair (`"Romans 1"` and `"Romans 11"`) is idempotent the same way. Each bare chapter reference also classifies as `singleChapter`.
 - **Display text is never recomputed** – The two split halves' display text is read directly off the link's existing display and split at the same dash the target is split at, so concatenating both halves plus the separator reconstructs the original display byte-for-byte.
 - **A whole-chapter split carries no verse anchor** – `crossChapterRange`'s two halves each get a verse (Part A tacks on `fromChapter`'s own last verse, Part B gets `toChapter:1`); a `wholeChapterRange` split has no verse to carry on either side, so Part A is `fromChapter` verbatim and Part B is just `${bookName} ${toChapter}`. `splitCrossChapterLink()` branches on the classified shape to pick the right formula.
 - **`validate.ts` runs this audit too** – `findCrossChapterLinks(versionId)` is called directly from `utils/validate.ts`'s `main()`, once per version being validated, read-only (never `--fix`). A version with any finding fails validation alongside its schema checks.
@@ -101,4 +101,4 @@ async function applyFix(versionId: string): Promise<readonly FixedBook[]> {
 }
 ```
 
-`fixCrossChapterLinks()` itself is read-only — it returns replacement records rather than writing anything, matching `findCrossChapterLinks()`'s own contract. Only the CLI's `--fix` path, via `applyFix()`, ever writes to `bible-versions/`, and it goes through [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts) like every other writer in this repo.
+`fixCrossChapterLinks()` itself is read-only. It returns replacement records rather than writing anything, matching `findCrossChapterLinks()`'s own contract. Only the CLI's `--fix` path, via `applyFix()`, ever writes to `bible-versions/`, and it goes through [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts) like every other writer in this repo.

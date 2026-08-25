@@ -34,7 +34,7 @@ if (require.main === module) {
 }
 ```
 
-CLI entry points are `async` even when nothing in the script's own logic requires it, because every script that writes output (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts`, `auditCrossChapterLinks.ts`) `await`s a call into [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts). `exportContent.ts`'s `main()` also wraps its `require.main === module` call in `.catch()` to report failures with a non-zero exit rather than an unhandled rejection; `auditCrossChapterLinks.ts` does the same.
+CLI entry points are `async` even when nothing in the script's own logic requires it, because every script that writes output (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts`, `auditCrossChapterLinks.ts`, `importUsfm.ts`, `overhaulFootnotes.ts`, `fixUnmergedNodes.ts`, `fixHeadingParagraphs.ts`) `await`s a call into [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts). `exportContent.ts`'s `main()` also wraps its `require.main === module` call in `.catch()` to report failures with a non-zero exit rather than an unhandled rejection; `auditCrossChapterLinks.ts` and `importUsfm.ts` do the same. `fixUnmergedNodes.ts` and `fixHeadingParagraphs.ts` skip the `require.main === module` guard entirely and call `main().catch(...)` unconditionally — safe because nothing else imports them, unlike `auditNodes.ts`, which both of them (and `validate.ts`) import directly and which therefore needs the guard to avoid running its CLI as a side effect of that import.
 
 ## Naming and Organization
 
@@ -88,14 +88,14 @@ if (!fs.existsSync(outputDir)) {
 // Read and parse JSON
 const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
-// Write JSON data — formats in-process and writes via stage-then-rename
+// Write JSON data: formats in-process and writes via stage-then-rename
 await writeJsonFile(outputPath, data);
 
 // Write text that's already exactly what belongs on disk (Markdown, plain text)
 await writeFileAtomic(outputPath, content);
 ```
 
-Both helpers come from [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts). Neither utility script calls `fs.writeFileSync` directly for output it produces — the staged write and retry-on-backoff behavior guards against a Windows transient where something else (antivirus, an indexer) briefly holds the target file open.
+Both helpers come from [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts). Neither utility script calls `fs.writeFileSync` directly for output it produces. The staged write and retry-on-backoff behavior guards against a Windows transient where something else (antivirus, an indexer) briefly holds the target file open.
 
 ### CLI Argument Handling
 
@@ -109,6 +109,22 @@ function main(): void {
   } else {
     // Handle specific item
   }
+}
+```
+
+A boolean flag that should read regardless of where it sits among the positional arguments is filtered out of `argv` first, then the remaining values are destructured positionally. See `importUsfm.ts`'s `parseArgv()`:
+
+```typescript
+export function parseArgv(argv: readonly string[]): ParsedArgv {
+  const noStrongs = argv.includes("--no-strongs");
+  const [sourceDir, versionId, book, chapterText] = argv.filter((argument) => argument !== "--no-strongs");
+  return {
+    sourceDir,
+    versionId,
+    book,
+    chapter: chapterText !== undefined ? parseInt(chapterText, 10) : undefined,
+    options: noStrongs ? { strongs: false } : {},
+  };
 }
 ```
 

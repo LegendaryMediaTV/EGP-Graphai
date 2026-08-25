@@ -79,7 +79,7 @@ For in that he put all in subjection under him, he left nothing _that is_ not pu
 <sup>18</sup> And to whom sware he that they should not enter into his rest, but to them that believed not?
 <sup>19</sup> So we see that they could not enter in because of unbelief.
 
-> - <sup>a</sup> 2. Gr. _made, 1 Sam. 12.6_
+> - <sup>a</sup> 2. Gr. _made,_ _1 Sam. 12.6_
 > - <sup>b</sup> 11. Gr. _if they shall enter_
 
 ## Chapter 4
@@ -111,7 +111,7 @@ although the works were finished from the foundation of the world.
 > - <sup>a</sup> 2. Gr. _the word of hearing_
 > - <sup>b</sup> 2. Or, _because they were not united by faith to_
 > - <sup>c</sup> 6. Or, _the Gospel was first preached_
-> - <sup>d</sup> 8. that is, _Joshua_
+> - <sup>d</sup> 8. That is, _Joshua_
 > - <sup>e</sup> 9. Or, _keeping of a Sabbath_
 > - <sup>f</sup> 11. Or, _disobedience_
 

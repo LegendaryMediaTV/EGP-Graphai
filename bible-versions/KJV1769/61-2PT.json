@@ -883,7 +883,7 @@
         "text": " them",
         "foot": {
           "type": "var",
-          "content": { "text": "some read against themselves", "marks": ["i"] }
+          "content": { "text": "Some read against themselves", "marks": ["i"] }
         },
         "strong": "G846"
       },
@@ -1101,7 +1101,7 @@
       {
         "text": " those that were clean",
         "foot": {
-          "type": "var",
+          "type": "trn",
           "content": [
             "Or, ",
             { "text": "for a little", "marks": ["i"] },

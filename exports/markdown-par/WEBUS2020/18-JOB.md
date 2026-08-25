@@ -9,9 +9,9 @@
 <sup>6</sup> Now on the day when God’s sons came to present themselves before Yahweh,<sup>b</sup> Satan also came among them.
 <sup>7</sup> Yahweh said to Satan, “Where have you come from?”
 
-Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+Then Satan answered Yahweh, and said, “From going back and forth on the earth, and from walking up and down in it.”
 
-<sup>8</sup> Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
+<sup>8</sup> Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him on the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
 
 <sup>9</sup> Then Satan answered Yahweh, and said, “Does Job fear God for nothing?
 <sup>10</sup> Haven’t you made a hedge around him, and around his house, and around all that he has, on every side? You have blessed the work of his hands, and his substance is increased in the land.
@@ -44,9 +44,9 @@ So Satan went out from the presence of Yahweh.
 <sup>1</sup> Again, on the day when God’s sons came to present themselves before Yahweh, Satan came also among them to present himself before Yahweh.
 <sup>2</sup> Yahweh said to Satan, “Where have you come from?”
 
-Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
+Satan answered Yahweh, and said, “From going back and forth on the earth, and from walking up and down in it.”
 
-<sup>3</sup> Yahweh said to Satan, “Have you considered my servant Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil. He still maintains his integrity, although you incited me against him, to ruin him without cause.”
+<sup>3</sup> Yahweh said to Satan, “Have you considered my servant Job? For there is no one like him on the earth, a blameless and an upright man, one who fears God, and turns away from evil. He still maintains his integrity, although you incited me against him, to ruin him without cause.”
 
 <sup>4</sup> Satan answered Yahweh, and said, “Skin for skin. Yes, all that a man has he will give for his life.
 <sup>5</sup> But stretch out your hand now, and touch his bone and his flesh, and he will renounce you to your face.”
@@ -104,7 +104,7 @@ In all this Job didn’t sin with his lips.
 <sup>5</sup> But now it has come to you, and you faint.<br>It touches you, and you are troubled.<br>
 <sup>6</sup> Isn’t your piety your confidence?<br>Isn’t the integrity of your ways your hope?
 
-<sup>7</sup> “Remember, now, whoever perished, being innocent?<br>Or where were the upright cut off?<br>
+<sup>7</sup> “Remember, now, who ever perished, being innocent?<br>Or where were the upright cut off?<br>
 <sup>8</sup> According to what I have seen, those who plow iniquity<br>and sow trouble, reap the same.<br>
 <sup>9</sup> By the breath of God they perish.<br>By the blast of his anger are they consumed.<br>
 <sup>10</sup> The roaring of the lion,<br>and the voice of the fierce lion,<br>the teeth of the young lions, are broken.<br>
@@ -297,7 +297,7 @@ In all this Job didn’t sin with his lips.
 <sup>6</sup> that you inquire after my iniquity,<br>and search after my sin?<br>
 <sup>7</sup> Although you know that I am not wicked,<br>there is no one who can deliver out of your hand.
 
-<sup>8</sup> “ ‘Your hands have framed me and fashioned me altogether,<br>yet you destroy me.<br>
+<sup>8</sup> “‘Your hands have framed me and fashioned me altogether,<br>yet you destroy me.<br>
 <sup>9</sup> Remember, I beg you, that you have fashioned me as clay.<br>Will you bring me into dust again?<br>
 <sup>10</sup> Haven’t you poured me out like milk,<br>and curdled me like cheese?<br>
 <sup>11</sup> You have clothed me with skin and flesh,<br>and knit me together with bones and sinews.<br>
@@ -308,11 +308,11 @@ In all this Job didn’t sin with his lips.
 <sup>16</sup> If my head is held high, you hunt me like a lion.<br>Again you show yourself powerful to me.<br>
 <sup>17</sup> You renew your witnesses against me,<br>and increase your indignation on me.<br>Changes and warfare are with me.
 
-<sup>18</sup> “ ‘Why, then, have you brought me out of the womb?<br>I wish I had given up the spirit, and no eye had seen me.<br>
+<sup>18</sup> “‘Why, then, have you brought me out of the womb?<br>I wish I had given up the spirit, and no eye had seen me.<br>
 <sup>19</sup> I should have been as though I had not been.<br>I should have been carried from the womb to the grave.<br>
 <sup>20</sup> Aren’t my days few?<br>Stop!<br>Leave me alone, that I may find a little comfort,<br>
 <sup>21</sup> before I go where I will not return from,<br>to the land of darkness and of the shadow of death;<br>
-<sup>22</sup> the land dark as midnight,<br>of the shadow of death,<br>without any order,<br>where the light is as midnight.’ ”
+<sup>22</sup> the land dark as midnight,<br>of the shadow of death,<br>without any order,<br>where the light is as midnight.’”
 
 ## Chapter 11
 
@@ -393,7 +393,7 @@ In all this Job didn’t sin with his lips.
 <sup>16</sup> This also will be my salvation,<br>that a godless man will not come before him.<br>
 <sup>17</sup> Listen carefully to my speech.<br>Let my declaration be in your ears.<br>
 <sup>18</sup> See now, I have set my cause in order.<br>I know that I am righteous.<br>
-<sup>19</sup> Who is he who will contend with me?<br>For then would I hold my peace and give up the spirit.
+<sup>19</sup> Who is he who will contend with me?<br>For then I would hold my peace and give up the spirit.
 
 <sup>20</sup> “Only don’t do two things to me,<br>then I will not hide myself from your face:<br>
 <sup>21</sup> withdraw your hand far from me,<br>and don’t let your terror make me afraid.<br>
@@ -744,7 +744,7 @@ In all this Job didn’t sin with his lips.
 <sup>16</sup> In the dark they dig through houses.<br>They shut themselves up in the daytime.<br>They don’t know the light.<br>
 <sup>17</sup> For the morning is to all of them like thick darkness,<br>for they know the terrors of the thick darkness.
 
-<sup>18</sup> “They are foam on the surface of the waters.<br>Their portion is cursed in the earth.<br>They don’t turn into the way of the vineyards.<br>
+<sup>18</sup> “They are foam on the surface of the waters.<br>Their portion is cursed on the earth.<br>They don’t turn into the way of the vineyards.<br>
 <sup>19</sup> Drought and heat consume the snow waters,<br>so does Sheol<sup>a</sup> those who have sinned.<br>
 <sup>20</sup> The womb will forget him.<br>The worm will feed sweetly on him.<br>He will be no more remembered.<br>Unrighteousness will be broken as a tree.<br>
 <sup>21</sup> He devours the barren who don’t bear.<br>He shows no kindness to the widow.<br>
@@ -845,7 +845,7 @@ In all this Job didn’t sin with his lips.
 <sup>25</sup> He establishes the force of the wind.<br>Yes, he measures out the waters by measure.<br>
 <sup>26</sup> When he made a decree for the rain,<br>and a way for the lightning of the thunder,<br>
 <sup>27</sup> then he saw it, and declared it.<br>He established it, yes, and searched it out.<br>
-<sup>28</sup> To man he said,<br>‘Behold, the fear of the Lord,<sup>b</sup> that is wisdom.<br>To depart from evil is understanding.’ ”
+<sup>28</sup> To man he said,<br>‘Behold, the fear of the Lord,<sup>b</sup> that is wisdom.<br>To depart from evil is understanding.’”
 
 > - <sup>a</sup> 16. or, lapis lazuli
 > - <sup>b</sup> 28. The word translated “Lord” is “Adonai.”
@@ -961,8 +961,6 @@ In all this Job didn’t sin with his lips.
 <sup>39</sup> if I have eaten its fruits without money,<br>or have caused its owners to lose their life,<br>
 <sup>40</sup> let briers grow instead of wheat,<br>and stinkweed instead of barley.”
 
-
-
 The words of Job are ended.
 
 ## Chapter 32
@@ -1049,7 +1047,7 @@ The words of Job are ended.
 <sup>9</sup> For he has said, ‘It profits a man nothing<br>that he should delight himself with God.’
 
 <sup>10</sup> “Therefore listen to me, you men of understanding:<br>far be it from God, that he should do wickedness,<br>from the Almighty, that he should commit iniquity.<br>
-<sup>11</sup> For the work of a man he will render to him,<br>and cause every man to find according to his ways.<br>
+<sup>11</sup> For the work of a man he will give to him,<br>and cause every man to find according to his ways.<br>
 <sup>12</sup> Yes surely, God will not do wickedly,<br>neither will the Almighty pervert justice.<br>
 <sup>13</sup> Who put him in charge of the earth?<br>Or who has appointed him over the whole world?<br>
 <sup>14</sup> If he set his heart on himself,<br>if he gathered to himself his spirit and his breath,<br>

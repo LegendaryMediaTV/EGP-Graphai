@@ -802,7 +802,14 @@
         "text": " of Hege",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "Hegai, ver. 8", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "Hegai, ", "marks": ["i"] },
+            {
+              "bibleLink": "Esther 2:8",
+              "content": { "text": "ver. 8", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H1896"
       },
@@ -4958,7 +4965,7 @@
             "text": " Pur",
             "foot": {
               "type": "stu",
-              "content": ["that is, ", { "text": "Lot", "marks": ["i"] }]
+              "content": ["That is, ", { "text": "Lot", "marks": ["i"] }]
             }
           },
           "im"

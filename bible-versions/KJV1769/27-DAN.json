@@ -4755,7 +4755,14 @@
         "text": " thy rewards",
         "foot": {
           "type": "trn",
-          "content": ["Or, ", { "text": "fee, as chap. 2.6", "marks": ["i"] }]
+          "content": [
+            "Or, ",
+            { "text": "fee, as ", "marks": ["i"] },
+            {
+              "bibleLink": "Daniel 2:6",
+              "content": { "text": "chap. 2.6", "marks": ["i"] }
+            }
+          ]
         },
         "strong": "H5023"
       },
@@ -8782,7 +8789,7 @@
             "text": " long:",
             "foot": {
               "type": "stu",
-              "content": { "text": "great", "marks": ["i"] }
+              "content": { "text": "Great", "marks": ["i"] }
             }
           }
         ],

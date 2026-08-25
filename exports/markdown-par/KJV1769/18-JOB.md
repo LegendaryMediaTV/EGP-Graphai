@@ -245,7 +245,7 @@
 > - <sup>k</sup> 21. Heb. _not_
 > - <sup>l</sup> 27. Heb. _ye cause to fall upon_
 > - <sup>m</sup> 28. Heb. _before your face_
-> - <sup>n</sup> 29. that is, _in this matter_
+> - <sup>n</sup> 29. That is, _in this matter_
 > - <sup>o</sup> 30. Heb. _my palate_
 
 ## Chapter 7
@@ -310,7 +310,7 @@
 > - <sup>b</sup> 9. Heb. _not_
 > - <sup>c</sup> 20. Heb. _take the ungodly by the hand_
 > - <sup>d</sup> 21. Heb. _shouting for joy_
-> - <sup>e</sup> 22. _shall not be_
+> - <sup>e</sup> 22. _Shall not be_
 
 ## Chapter 9
 
@@ -1594,7 +1594,7 @@ The words of Job are ended.
 > - <sup>a</sup> 15. Or, _the elephant, as some think_
 > - <sup>b</sup> 17. Or, _he settleth up_
 > - <sup>c</sup> 23. Heb. _he oppresseth_
-> - <sup>d</sup> 24. _his nose pierceth through snares: Or, will any take him in his sight? or bore his nose with a ginn?_
+> - <sup>d</sup> 24. _His nose pierceth through snares: Or, will any take him in his sight? or bore his nose with a ginn?_
 
 ## Chapter 41
 

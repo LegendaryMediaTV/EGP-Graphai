@@ -12,12 +12,12 @@
 <sup>9</sup> Haven’t I commanded you? Be strong and courageous. Don’t be afraid. Don’t be dismayed, for Yahweh your God<sup>b</sup> is with you wherever you go.”
 
 <sup>10</sup> Then Joshua commanded the officers of the people, saying,
-<sup>11</sup> “Pass through the middle of the camp, and command the people, saying, ‘Prepare food; for within three days you are to pass over this Jordan, to go in to possess the land which Yahweh your God gives you to possess.’ ”
+<sup>11</sup> “Pass through the middle of the camp, and command the people, saying, ‘Prepare food; for within three days you are to pass over this Jordan, to go in to possess the land which Yahweh your God gives you to possess.’”
 
 <sup>12</sup> Joshua spoke to the Reubenites, and to the Gadites, and to the half-tribe of Manasseh, saying,
 <sup>13</sup> “Remember the word which Moses the servant of Yahweh commanded you, saying, ‘Yahweh your God gives you rest, and will give you this land.
 <sup>14</sup> Your wives, your little ones, and your livestock shall live in the land which Moses gave you beyond the Jordan; but you shall pass over before your brothers armed, all the mighty men of valor, and shall help them
-<sup>15</sup> until Yahweh has given your brothers rest, as he has given you, and they have also possessed the land which Yahweh your God gives them. Then you shall return to the land of your possession and possess it, which Moses the servant of Yahweh gave you beyond the Jordan toward the sunrise.’ ”
+<sup>15</sup> until Yahweh has given your brothers rest, as he has given you, and they have also possessed the land which Yahweh your God gives them. Then you shall return to the land of your possession and possess it, which Moses the servant of Yahweh gave you beyond the Jordan toward the sunrise.’”
 
 <sup>16</sup> They answered Joshua, saying, “All that you have commanded us we will do, and wherever you send us we will go.
 <sup>17</sup> Just as we listened to Moses in all things, so will we listen to you. Only may Yahweh your God be with you, as he was with Moses.
@@ -75,7 +75,7 @@
 <sup>6</sup> Joshua spoke to the priests, saying, “Take up the ark of the covenant, and cross over before the people.” They took up the ark of the covenant, and went before the people.
 
 <sup>7</sup> Yahweh said to Joshua, “Today I will begin to magnify you in the sight of all Israel, that they may know that as I was with Moses, so I will be with you.
-<sup>8</sup> You shall command the priests who bear the ark of the covenant, saying, ‘When you come to the brink of the waters of the Jordan, you shall stand still in the Jordan.’ ”
+<sup>8</sup> You shall command the priests who bear the ark of the covenant, saying, ‘When you come to the brink of the waters of the Jordan, you shall stand still in the Jordan.’”
 
 <sup>9</sup> Joshua said to the children of Israel, “Come here, and hear the words of Yahweh your God.”
 <sup>10</sup> Joshua said, “By this you shall know that the living God is among you, and that he will without fail drive the Canaanite, the Hittite, the Hivite, the Perizzite, the Girgashite, the Amorite, and the Jebusite out from before you.
@@ -95,12 +95,12 @@
 
 <sup>1</sup> When all the nation had completely crossed over the Jordan, Yahweh spoke to Joshua, saying,
 <sup>2</sup> “Take twelve men out of the people, a man out of every tribe,
-<sup>3</sup> and command them, saying, ‘Take from out of the middle of the Jordan, out of the place where the priests’ feet stood firm, twelve stones, carry them over with you, and lay them down in the place where you’ll camp tonight.’ ”
+<sup>3</sup> and command them, saying, ‘Take from out of the middle of the Jordan, out of the place where the priests’ feet stood firm, twelve stones, carry them over with you, and lay them down in the place where you’ll camp tonight.’”
 
 <sup>4</sup> Then Joshua called the twelve men whom he had prepared of the children of Israel, a man out of every tribe.
 <sup>5</sup> Joshua said to them, “Cross before the ark of Yahweh your God into the middle of the Jordan, and each of you pick up a stone and put it on your shoulder, according to the number of the tribes of the children of Israel;
 <sup>6</sup> that this may be a sign among you, that when your children ask in the future, saying, ‘What do you mean by these stones?’
-<sup>7</sup> then you shall tell them, ‘Because the waters of the Jordan were cut off before the ark of Yahweh’s covenant. When it crossed over the Jordan, the waters of the Jordan were cut off. These stones shall be for a memorial to the children of Israel forever.’ ”
+<sup>7</sup> then you shall tell them, ‘Because the waters of the Jordan were cut off before the ark of Yahweh’s covenant. When it crossed over the Jordan, the waters of the Jordan were cut off. These stones shall be for a memorial to the children of Israel forever.’”
 
 <sup>8</sup> The children of Israel did as Joshua commanded, and took up twelve stones out of the middle of the Jordan, as Yahweh spoke to Joshua, according to the number of the tribes of the children of Israel. They carried them over with them to the place where they camped, and laid them down there.
 <sup>9</sup> Joshua set up twelve stones in the middle of the Jordan, in the place where the feet of the priests who bore the ark of the covenant stood; and they are there to this day.
@@ -122,7 +122,7 @@
 <sup>21</sup> He spoke to the children of Israel, saying, “When your children ask their fathers in time to come, saying, ‘What do these stones mean?’
 <sup>22</sup> Then you shall let your children know, saying, ‘Israel came over this Jordan on dry land.
 <sup>23</sup> For Yahweh your God dried up the waters of the Jordan from before you until you had crossed over, as Yahweh your God did to the Red Sea, which he dried up from before us, until we had crossed over,
-<sup>24</sup> that all the peoples of the earth may know that Yahweh’s hand is mighty, and that you may fear Yahweh your God forever.’ ”
+<sup>24</sup> that all the peoples of the earth may know that Yahweh’s hand is mighty, and that you may fear Yahweh your God forever.’”
 
 ## Chapter 5
 
@@ -206,7 +206,7 @@ The men went up and spied out Ai.
 <sup>12</sup> Therefore the children of Israel can’t stand before their enemies. They turn their backs before their enemies, because they have become devoted for destruction. I will not be with you any more, unless you destroy the devoted things from among you.
 <sup>13</sup> Get up! Sanctify the people, and say, ‘Sanctify yourselves for tomorrow, for Yahweh, the God of Israel, says, “There is a devoted thing among you, Israel. You cannot stand before your enemies until you take away the devoted thing from among you.”
 <sup>14</sup> In the morning therefore you shall be brought near by your tribes. It shall be that the tribe which Yahweh selects shall come near by families. The family which Yahweh selects shall come near by households. The household which Yahweh selects shall come near man by man.
-<sup>15</sup> It shall be, that he who is taken with the devoted thing shall be burned with fire, he and all that he has, because he has transgressed Yahweh’s covenant, and because he has done a disgraceful thing in Israel.’ ”
+<sup>15</sup> It shall be, that he who is taken with the devoted thing shall be burned with fire, he and all that he has, because he has transgressed Yahweh’s covenant, and because he has done a disgraceful thing in Israel.’”
 
 <sup>16</sup> So Joshua rose up early in the morning and brought Israel near by their tribes. The tribe of Judah was selected.
 <sup>17</sup> He brought near the family of Judah, and he selected the family of the Zerahites. He brought near the family of the Zerahites man by man, and Zabdi was selected.
@@ -274,7 +274,7 @@ Joshua stretched out the javelin that was in his hand toward the city.
 <sup>1</sup> When all the kings who were beyond the Jordan, in the hill country, and in the lowland, and on all the shore of the great sea in front of Lebanon, the Hittite, the Amorite, the Canaanite, the Perizzite, the Hivite, and the Jebusite, heard of it
 <sup>2</sup> they gathered themselves together to fight with Joshua and with Israel, with one accord.
 <sup>3</sup> But when the inhabitants of Gibeon heard what Joshua had done to Jericho and to Ai,
-<sup>4</sup> they also resorted to a ruse, and went and made as if they had been ambassadors, and took old sacks on their donkeys, and old, torn-up and bound up wine skins,
+<sup>4</sup> they also resorted to a ruse, and went and made as if they had been ambassadors, and took old sacks on their donkeys, and old, torn-up and bound up wineskins,
 <sup>5</sup> and old and patched sandals on their feet, and wore old garments. All the bread of their food supply was dry and moldy.
 <sup>6</sup> They went to Joshua at the camp at Gilgal, and said to him and to the men of Israel, “We have come from a far country. Now therefore make a covenant with us.”
 
@@ -286,9 +286,9 @@ Joshua said to them, “Who are you? Where do you come from?”
 
 <sup>9</sup> They said to him, “Your servants have come from a very far country because of the name of Yahweh your God; for we have heard of his fame, all that he did in Egypt,
 <sup>10</sup> and all that he did to the two kings of the Amorites who were beyond the Jordan, to Sihon king of Heshbon and to Og king of Bashan, who was at Ashtaroth.
-<sup>11</sup> Our elders and all the inhabitants of our country spoke to us, saying, ‘Take supplies in your hand for the journey, and go to meet them. Tell them, “We are your servants. Now make a covenant with us.” ’
+<sup>11</sup> Our elders and all the inhabitants of our country spoke to us, saying, ‘Take supplies in your hand for the journey, and go to meet them. Tell them, “We are your servants. Now make a covenant with us.”’
 <sup>12</sup> This our bread we took hot for our supplies out of our houses on the day we went out to go to you; but now, behold, it is dry, and has become moldy.
-<sup>13</sup> These wine skins, which we filled, were new; and behold, they are torn. These our garments and our sandals have become old because of the very long journey.”
+<sup>13</sup> These wineskins, which we filled, were new; and behold, they are torn. These our garments and our sandals have become old because of the very long journey.”
 
 <sup>14</sup> The men sampled their provisions, and didn’t ask counsel from Yahweh’s mouth.
 <sup>15</sup> Joshua made peace with them, and made a covenant with them, to let them live. The princes of the congregation swore to them.
@@ -412,22 +412,70 @@ They came near, and put their feet on their necks.
 
 <sup>7</sup> These are the kings of the land whom Joshua and the children of Israel struck beyond the Jordan westward, from Baal Gad in the valley of Lebanon even to Mount Halak, that goes up to Seir. Joshua gave it to the tribes of Israel for a possession according to their divisions;
 <sup>8</sup> in the hill country, and in the lowland, and in the Arabah, and in the slopes, and in the wilderness, and in the South; the Hittite, the Amorite, and the Canaanite, the Perizzite, the Hivite, and the Jebusite:
+
 <sup>9</sup> the king of Jericho, one;
+
+the king of Ai, which is beside Bethel, one;
+
 <sup>10</sup> the king of Jerusalem, one;
+
+the king of Hebron, one;
+
 <sup>11</sup> the king of Jarmuth, one;
+
+the king of Lachish, one;
+
 <sup>12</sup> the king of Eglon, one;
+
+the king of Gezer, one;
+
 <sup>13</sup> the king of Debir, one;
+
+the king of Geder, one;
+
 <sup>14</sup> the king of Hormah, one;
+
+the king of Arad, one;
+
 <sup>15</sup> the king of Libnah, one;
+
+the king of Adullam, one;
+
 <sup>16</sup> the king of Makkedah, one;
+
+the king of Bethel, one;
+
 <sup>17</sup> the king of Tappuah, one;
+
+the king of Hepher, one;
+
 <sup>18</sup> the king of Aphek, one;
+
+the king of Lassharon, one;
+
 <sup>19</sup> the king of Madon, one;
+
+the king of Hazor, one;
+
 <sup>20</sup> the king of Shimron Meron, one;
+
+the king of Achshaph, one;
+
 <sup>21</sup> the king of Taanach, one;
+
+the king of Megiddo, one;
+
 <sup>22</sup> the king of Kedesh, one;
+
+the king of Jokneam in Carmel, one;
+
 <sup>23</sup> the king of Dor in the height of Dor, one;
+
+the king of Goiim in Gilgal, one;
+
 <sup>24</sup> the king of Tirzah, one:
+
+all the kings thirty-one.
 
 ## Chapter 13
 
@@ -530,34 +578,43 @@ So he gave her the upper springs and the lower springs.
 <sup>30</sup> Eltolad, Chesil, Hormah,
 <sup>31</sup> Ziklag, Madmannah, Sansannah,
 <sup>32</sup> Lebaoth, Shilhim, Ain, and Rimmon. All the cities are twenty-nine, with their villages.
+
 <sup>33</sup> In the lowland, Eshtaol, Zorah, Ashnah,
 <sup>34</sup> Zanoah, En Gannim, Tappuah, Enam,
 <sup>35</sup> Jarmuth, Adullam, Socoh, Azekah,
 <sup>36</sup> Shaaraim, Adithaim and Gederah (or Gederothaim); fourteen cities with their villages.
+
 <sup>37</sup> Zenan, Hadashah, Migdal Gad,
 <sup>38</sup> Dilean, Mizpah, Joktheel,
 <sup>39</sup> Lachish, Bozkath, Eglon,
 <sup>40</sup> Cabbon, Lahmam, Chitlish,
 <sup>41</sup> Gederoth, Beth Dagon, Naamah, and Makkedah; sixteen cities with their villages.
+
 <sup>42</sup> Libnah, Ether, Ashan,
 <sup>43</sup> Iphtah, Ashnah, Nezib,
 <sup>44</sup> Keilah, Achzib, and Mareshah; nine cities with their villages.
+
 <sup>45</sup> Ekron, with its towns and its villages;
 <sup>46</sup> from Ekron even to the sea, all that were by the side of Ashdod, with their villages.
 <sup>47</sup> Ashdod, its towns and its villages; Gaza, its towns and its villages; to the brook of Egypt, and the great sea with its coastline.
+
 <sup>48</sup> In the hill country, Shamir, Jattir, Socoh,
 <sup>49</sup> Dannah, Kiriath Sannah (which is Debir),
 <sup>50</sup> Anab, Eshtemoh, Anim,
 <sup>51</sup> Goshen, Holon, and Giloh; eleven cities with their villages.
+
 <sup>52</sup> Arab, Dumah, Eshan,
 <sup>53</sup> Janim, Beth Tappuah, Aphekah,
 <sup>54</sup> Humtah, Kiriath Arba (also called Hebron), and Zior; nine cities with their villages.
+
 <sup>55</sup> Maon, Carmel, Ziph, Jutah,
 <sup>56</sup> Jezreel, Jokdeam, Zanoah,
 <sup>57</sup> Kain, Gibeah, and Timnah; ten cities with their villages.
+
 <sup>58</sup> Halhul, Beth Zur, Gedor,
 <sup>59</sup> Maarath, Beth Anoth, and Eltekon; six cities with their villages.
 <sup>60</sup> Kiriath Baal (also called Kiriath Jearim), and Rabbah; two cities with their villages.
+
 <sup>61</sup> In the wilderness, Beth Arabah, Middin, Secacah,
 <sup>62</sup> Nibshan, the City of Salt, and En Gedi; six cities with their villages.
 
@@ -703,7 +760,7 @@ So he gave her the upper springs and the lower springs.
 <sup>3</sup> that the man slayer who kills any person accidentally or unintentionally may flee there. They shall be to you for a refuge from the avenger of blood.
 <sup>4</sup> He shall flee to one of those cities, and shall stand at the entrance of the gate of the city, and declare his case in the ears of the elders of that city. They shall take him into the city with them, and give him a place, that he may live among them.
 <sup>5</sup> If the avenger of blood pursues him, then they shall not deliver up the man slayer into his hand; because he struck his neighbor unintentionally, and didn’t hate him before.
-<sup>6</sup> He shall dwell in that city until he stands before the congregation for judgment, until the death of the high priest that shall be in those days. Then the man slayer shall return, and come to his own city, and to his own house, to the city he fled from.’ ”
+<sup>6</sup> He shall dwell in that city until he stands before the congregation for judgment, until the death of the high priest that shall be in those days. Then the man slayer shall return, and come to his own city, and to his own house, to the city he fled from.’”
 
 <sup>7</sup> They set apart Kedesh in Galilee in the hill country of Naphtali, Shechem in the hill country of Ephraim, and Kiriath Arba (also called Hebron) in the hill country of Judah.
 <sup>8</sup> Beyond the Jordan at Jericho eastward, they assigned Bezer in the wilderness in the plain out of the tribe of Reuben, Ramoth in Gilead out of the tribe of Gad, and Golan in Bashan out of the tribe of Manasseh.
@@ -786,19 +843,19 @@ So he gave her the upper springs and the lower springs.
 <sup>17</sup> Is the iniquity of Peor too little for us, from which we have not cleansed ourselves to this day, although there came a plague on the congregation of Yahweh,
 <sup>18</sup> that you must turn away today from following Yahweh? It will be, since you rebel today against Yahweh, that tomorrow he will be angry with the whole congregation of Israel.
 <sup>19</sup> However, if the land of your possession is unclean, then pass over to the land of the possession of Yahweh, in which Yahweh’s tabernacle dwells, and take possession among us; but don’t rebel against Yahweh, nor rebel against us, in building an altar other than Yahweh our God’s altar.
-<sup>20</sup> Didn’t Achan the son of Zerah commit a trespass in the devoted thing, and wrath fell on all the congregation of Israel? That man didn’t perish alone in his iniquity.’ ”
+<sup>20</sup> Didn’t Achan the son of Zerah commit a trespass in the devoted thing, and wrath fell on all the congregation of Israel? That man didn’t perish alone in his iniquity.’”
 
 <sup>21</sup> Then the children of Reuben and the children of Gad and the half-tribe of Manasseh answered, and spoke to the heads of the thousands of Israel,
 <sup>22</sup> “The Mighty One, God, Yahweh, the Mighty One, God, Yahweh, he knows; and Israel shall know: if it was in rebellion, or if in trespass against Yahweh (don’t save us today),
 <sup>23</sup> that we have built us an altar to turn away from following Yahweh; or if to offer burnt offering or meal offering, or if to offer sacrifices of peace offerings, let Yahweh himself require it.
 
 <sup>24</sup> “If we have not out of concern done this, and for a reason, saying, ‘In time to come your children might speak to our children, saying, “What have you to do with Yahweh, the God of Israel?
-<sup>25</sup> For Yahweh has made the Jordan a border between us and you, you children of Reuben and children of Gad. You have no portion in Yahweh.” ’ So your children might make our children cease from fearing Yahweh.
+<sup>25</sup> For Yahweh has made the Jordan a border between us and you, you children of Reuben and children of Gad. You have no portion in Yahweh.”’ So your children might make our children cease from fearing Yahweh.
 
 <sup>26</sup> “Therefore we said, ‘Let’s now prepare to build ourselves an altar, not for burnt offering, nor for sacrifice;
 <sup>27</sup> but it will be a witness between us and you, and between our generations after us, that we may perform the service of Yahweh before him with our burnt offerings, with our sacrifices, and with our peace offerings;’ that your children may not tell our children in time to come, ‘You have no portion in Yahweh.’
 
-<sup>28</sup> “Therefore we said, ‘It shall be, when they tell us or our generations this in time to come, that we shall say, “Behold the pattern of Yahweh’s altar, which our fathers made, not for burnt offering, nor for sacrifice; but it is a witness between us and you.” ’
+<sup>28</sup> “Therefore we said, ‘It shall be, when they tell us or our generations this in time to come, that we shall say, “Behold the pattern of Yahweh’s altar, which our fathers made, not for burnt offering, nor for sacrifice; but it is a witness between us and you.”’
 
 <sup>29</sup> “Far be it from us that we should rebel against Yahweh, and turn away today from following Yahweh, to build an altar for burnt offering, for meal offering, or for sacrifice, besides Yahweh our God’s altar that is before his tabernacle!”
 
@@ -838,15 +895,15 @@ So he gave her the upper springs and the lower springs.
 <sup>3</sup> I took your father Abraham from beyond the River, and led him throughout all the land of Canaan, and multiplied his offspring,<sup>a</sup> and gave him Isaac.
 <sup>4</sup> I gave to Isaac Jacob and Esau: and I gave to Esau Mount Seir, to possess it. Jacob and his children went down into Egypt.
 
-<sup>5</sup> “ ‘I sent Moses and Aaron, and I plagued Egypt, according to that which I did among them: and afterward I brought you out.
+<sup>5</sup> “‘I sent Moses and Aaron, and I plagued Egypt, according to that which I did among them: and afterward I brought you out.
 <sup>6</sup> I brought your fathers out of Egypt: and you came to the sea. The Egyptians pursued your fathers with chariots and with horsemen to the Red Sea.
 <sup>7</sup> When they cried out to Yahweh, he put darkness between you and the Egyptians, and brought the sea on them, and covered them; and your eyes saw what I did in Egypt. You lived in the wilderness many days.
 
-<sup>8</sup> “ ‘I brought you into the land of the Amorites, that lived beyond the Jordan. They fought with you, and I gave them into your hand. You possessed their land, and I destroyed them from before you.
+<sup>8</sup> “‘I brought you into the land of the Amorites, that lived beyond the Jordan. They fought with you, and I gave them into your hand. You possessed their land, and I destroyed them from before you.
 <sup>9</sup> Then Balak the son of Zippor, king of Moab, arose and fought against Israel. He sent and called Balaam the son of Beor to curse you,
 <sup>10</sup> but I would not listen to Balaam; therefore he blessed you still. So I delivered you out of his hand.
 
-<sup>11</sup> “ ‘You went over the Jordan, and came to Jericho. The men of Jericho fought against you, the Amorite, the Perizzite, the Canaanite, the Hittite, the Girgashite, the Hivite, and the Jebusite; and I delivered them into your hand.
+<sup>11</sup> “‘You went over the Jordan, and came to Jericho. The men of Jericho fought against you, the Amorite, the Perizzite, the Canaanite, the Hittite, the Girgashite, the Hivite, and the Jebusite; and I delivered them into your hand.
 <sup>12</sup> I sent the hornet before you, which drove them out from before you, even the two kings of the Amorites; not with your sword, nor with your bow.
 <sup>13</sup> I gave you a land on which you had not labored, and cities which you didn’t build, and you live in them. You eat of vineyards and olive groves which you didn’t plant.’
 

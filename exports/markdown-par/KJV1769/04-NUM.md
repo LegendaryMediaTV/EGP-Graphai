@@ -448,7 +448,7 @@
 <sup>89</sup> And when Moses was gone into the tabernacle of the congregation to speak with him,<sup>b</sup> then he heard the voice of one speaking unto him from off the mercy seat that _was_ upon the ark of testimony, from between the two cherubims: and he spake unto him.
 
 > - <sup>a</sup> 2. Heb. _who stood_
-> - <sup>b</sup> 89. _i. God_
+> - <sup>b</sup> 89. _I. God_
 
 ## Chapter 8
 
@@ -642,11 +642,11 @@
 > - <sup>a</sup> 1. Or, _were as it were complainers…_
 > - <sup>b</sup> 1. Heb. _it was evil in the eyes of_ etc.
 > - <sup>c</sup> 2. Heb. _sunk_
-> - <sup>d</sup> 3. that is, _a burning_
+> - <sup>d</sup> 3. That is, _a burning_
 > - <sup>e</sup> 4. Heb. _lusted a lust_
 > - <sup>f</sup> 4. Heb. _returned and wept_
 > - <sup>g</sup> 20. Heb. _month of days_
-> - <sup>h</sup> 34. that is, _The graves of lust_
+> - <sup>h</sup> 34. That is, _The graves of lust_
 > - <sup>i</sup> 35. Heb. _they were in_, etc.
 
 ## Chapter 12
@@ -1064,7 +1064,7 @@
 <sup>28</sup> And Moses stripped Aaron of his garments, and put them upon Eleazar his son; and Aaron died there in the top of the mount: and Moses and Eleazar came down from the mount.
 <sup>29</sup> And when all the congregation saw that Aaron was dead, they mourned for Aaron thirty days, _even_ all the house of Israel.
 
-> - <sup>a</sup> 13. that is, _strife_
+> - <sup>a</sup> 13. That is, _strife_
 > - <sup>b</sup> 24. Heb. _mouth_
 
 ## Chapter 21
@@ -1117,7 +1117,7 @@ And from the wilderness _they went_ to Mattanah:
 <sup>34</sup> And the LORD said unto Moses, Fear him not: for I have delivered him into thy hand, and all his people, and his land; and thou shalt do to him as thou didst unto Sihon king of the Amorites, which dwelt at Heshbon.
 <sup>35</sup> So they smote him, and his sons, and all his people, until there was none left him alive: and they possessed his land.
 
-> - <sup>a</sup> 3. that is, _utter destruction_
+> - <sup>a</sup> 3. That is, _utter destruction_
 > - <sup>b</sup> 4. Or, _grieved_. Heb. _shortened_
 > - <sup>c</sup> 11. Or, _heaps of Abarim_
 > - <sup>d</sup> 14. Or, _Vaheb in Suphah_
@@ -1270,7 +1270,7 @@ And from the wilderness _they went_ to Mattanah:
 > - <sup>a</sup> 1. Heb. _to the meeting of enchantments_
 > - <sup>b</sup> 3. Heb. _who had his eyes shut, but now open_
 > - <sup>c</sup> 17. Or, _smite through the princes of Moab_
-> - <sup>d</sup> 20. _the nations that warred against Israel, Exod. 17_
+> - <sup>d</sup> 20. _The nations that warred against Israel, Exod. 17_
 > - <sup>e</sup> 22. Heb. _Kain_
 
 ## Chapter 25
@@ -1752,7 +1752,7 @@ And from the wilderness _they went_ to Mattanah:
 <sup>55</sup> But if ye will not drive out the inhabitants of the land from before you; then it shall come to pass, that those which ye let remain of them _shall be_ pricks in your eyes, and thorns in your sides, and shall vex you in the land wherein ye dwell.
 <sup>56</sup> Moreover it shall come to pass, _that_ I shall do unto you, as I thought to do unto them.
 
-> - <sup>a</sup> 16. that is, _the graves of lust_
+> - <sup>a</sup> 16. That is, _the graves of lust_
 > - <sup>b</sup> 44. Or, _heaps of Abarim_
 > - <sup>c</sup> 49. Or, _the plains of Shittim_
 > - <sup>d</sup> 54. Heb. _multiply his inheritance_

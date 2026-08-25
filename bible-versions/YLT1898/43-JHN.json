@@ -245,16 +245,13 @@
     "book": "JHN",
     "chapter": 1,
     "verse": 5,
-    "content": [
-      "and the light in the darkness did shine, and the darkness did not ",
-      {
-        "text": "perceive it.",
-        "foot": {
-          "type": "trn",
-          "content": ["Lit., ", { "text": "receive it fully.", "marks": ["i"] }]
-        }
+    "content": {
+      "text": "and the light in the darkness did shine, and the darkness did not perceive it.",
+      "foot": {
+        "type": "trn",
+        "content": ["Lit., ", { "text": "receive it fully.", "marks": ["i"] }]
       }
-    ]
+    }
   },
   {
     "book": "JHN",
@@ -345,19 +342,16 @@
     "book": "JHN",
     "chapter": 1,
     "verse": 18,
-    "content": [
-      "God no one hath ever seen; the only begotten Son, who is ",
-      {
-        "text": "on the bosom of the Father—he did declare.",
-        "foot": {
-          "type": "trn",
-          "content": [
-            "Or, ",
-            { "text": "on…that one led (him) out.", "marks": ["i"] }
-          ]
-        }
+    "content": {
+      "text": "God no one hath ever seen; the only begotten Son, who is on the bosom of the Father—he did declare.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Or, ",
+          { "text": "on…that one led (him) out.", "marks": ["i"] }
+        ]
       }
-    ]
+    }
   },
   {
     "book": "JHN",
@@ -373,9 +367,8 @@
     "chapter": 1,
     "verse": 20,
     "content": [
-      "and he ",
       {
-        "text": "confessed and did not deny, and confessed",
+        "text": "and he confessed and did not deny, and confessed",
         "foot": {
           "type": "trn",
           "content": [
@@ -696,9 +689,8 @@
     "chapter": 2,
     "verse": 3,
     "content": [
-      "and ",
       {
-        "text": "wine having failed",
+        "text": "and wine having failed",
         "foot": {
           "type": "trn",
           "content": [
@@ -727,9 +719,8 @@
     "chapter": 2,
     "verse": 5,
     "content": [
-      "His mother saith to the ",
       {
-        "text": "ministrants",
+        "text": "His mother saith to the ministrants",
         "foot": {
           "type": "trn",
           "content": ["Lit., ", { "text": "deacons;", "marks": ["i"] }]
@@ -760,9 +751,8 @@
     "verse": 8,
     "content": [
       "and he saith to them, ",
-      { "text": "“Draw out, now, and bear to the ", "marks": ["woc"] },
       {
-        "text": "director of the apartment",
+        "text": "“Draw out, now, and bear to the director of the apartment",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -992,9 +982,8 @@
     "content": {
       "paragraph": true,
       "content": [
-        "Nicodemus saith unto him, “How is a man able to be born, being ",
         {
-          "text": "old",
+          "text": "Nicodemus saith unto him, “How is a man able to be born, being old",
           "foot": {
             "type": "trn",
             "content": [
@@ -1341,9 +1330,8 @@
     "chapter": 4,
     "verse": 6,
     "content": [
-      "and there was there a ",
       {
-        "text": "well",
+        "text": "and there was there a well",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "fountain, spring.", "marks": ["i"] }]
@@ -1369,9 +1357,8 @@
     "chapter": 4,
     "verse": 8,
     "content": [
-      "for his disciples were gone away to the city, that they may ",
       {
-        "text": "buy victuals",
+        "text": "for his disciples were gone away to the city, that they may buy victuals",
         "foot": {
           "type": "trn",
           "content": [
@@ -1737,9 +1724,8 @@
     "chapter": 4,
     "verse": 49,
     "content": [
-      "The courtier saith unto him, “Sir, come down before my ",
       {
-        "text": "child",
+        "text": "The courtier saith unto him, “Sir, come down before my child",
         "foot": {
           "type": "trn",
           "content": ["Lit., ", { "text": "little boy.", "marks": ["i"] }]
@@ -3279,19 +3265,16 @@
     "book": "JHN",
     "chapter": 7,
     "verse": 53,
-    "content": [
-      "and each one went on to his house, but Jesus ",
-      {
-        "text": "went on to the mount of the Olives.",
-        "foot": {
-          "type": "trn",
-          "content": [
-            "Lit., ",
-            { "text": "passed on to the mount of the olives.", "marks": ["i"] }
-          ]
-        }
+    "content": {
+      "text": "and each one went on to his house, but Jesus went on to the mount of the Olives.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Lit., ",
+          { "text": "passed on to the mount of the olives.", "marks": ["i"] }
+        ]
       }
-    ]
+    }
   },
   {
     "book": "JHN",
@@ -4094,9 +4077,8 @@
     "chapter": 9,
     "verse": 26,
     "content": [
-      "And they said to him again, “What did he to thee? how did he ",
       {
-        "text": "open",
+        "text": "And they said to him again, “What did he to thee? how did he open",
         "foot": {
           "type": "trn",
           "content": ["Lit., ", { "text": "opened he up.", "marks": ["i"] }]
@@ -4116,9 +4098,8 @@
     "chapter": 9,
     "verse": 28,
     "content": [
-      "They reviled him, therefore, and said, “Thou art ",
       {
-        "text": "his disciple",
+        "text": "They reviled him, therefore, and said, “Thou art his disciple",
         "foot": {
           "type": "trn",
           "content": [
@@ -4198,9 +4179,8 @@
     "chapter": 9,
     "verse": 38,
     "content": [
-      "and he said, “I believe, sir,” and ",
       {
-        "text": "bowed before him",
+        "text": "and he said, “I believe, sir,” and bowed before him",
         "foot": {
           "type": "trn",
           "content": [
@@ -4810,9 +4790,8 @@
     "chapter": 11,
     "verse": 14,
     "content": [
-      "Then, therefore, Jesus said to them ",
       {
-        "text": "freely",
+        "text": "Then, therefore, Jesus said to them freely",
         "foot": {
           "type": "trn",
           "content": ["Lit., ", { "text": "speaking-all-out…", "marks": ["i"] }]
@@ -4882,9 +4861,8 @@
     "verse": 23,
     "content": [
       "Jesus saith to her, ",
-      { "text": "“Thy brother ", "marks": ["woc"] },
       {
-        "text": "shall rise again",
+        "text": "“Thy brother shall rise again",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -5102,9 +5080,8 @@
     "chapter": 11,
     "verse": 48,
     "content": [
-      "if we may let him alone thus, all will believe in him; and the Romans will come, and will ",
       {
-        "text": "take away",
+        "text": "if we may let him alone thus, all will believe in him; and the Romans will come, and will take away",
         "foot": {
           "type": "trn",
           "content": ["Lit., ", { "text": "lift up.", "marks": ["i"] }]
@@ -5215,9 +5192,8 @@
     "chapter": 12,
     "verse": 3,
     "content": [
-      "Mary, therefore, having taken a pound of ointment of ",
       {
-        "text": "spikenard, of great price",
+        "text": "Mary, therefore, having taken a pound of ointment of spikenard, of great price",
         "foot": {
           "type": "trn",
           "content": [
@@ -6043,9 +6019,8 @@
             ]
           }
         },
-        { "text": "“Let not your heart be ", "marks": ["woc"] },
         {
-          "text": "troubled",
+          "text": "“Let not your heart be troubled",
           "marks": ["woc"],
           "foot": {
             "type": "trn",
@@ -6200,9 +6175,8 @@
     "chapter": 14,
     "verse": 16,
     "content": [
-      { "text": "and I will ask the Father, and another ", "marks": ["woc"] },
       {
-        "text": "Comforter",
+        "text": "and I will ask the Father, and another Comforter",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -6304,9 +6278,8 @@
     "content": {
       "paragraph": true,
       "content": [
-        { "text": "“These things I have spoken to you, ", "marks": ["woc"] },
         {
-          "text": "remaining with you",
+          "text": "“These things I have spoken to you, remaining with you",
           "marks": ["woc"],
           "foot": {
             "type": "trn",
@@ -6546,9 +6519,8 @@
     "content": {
       "paragraph": true,
       "content": [
-        { "text": "“These things I ", "marks": ["woc"] },
         {
-          "text": "command",
+          "text": "“These things I command",
           "marks": ["woc"],
           "foot": {
             "type": "trn",
@@ -6639,9 +6611,8 @@
     "chapter": 15,
     "verse": 26,
     "content": [
-      { "text": "“And when the ", "marks": ["woc"] },
       {
-        "text": "Comforter",
+        "text": "“And when the Comforter",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -6791,9 +6762,8 @@
     "chapter": 16,
     "verse": 11,
     "content": [
-      { "text": "and concerning judgment, because the ", "marks": ["woc"] },
       {
-        "text": "ruler",
+        "text": "and concerning judgment, because the ruler",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -6908,11 +6878,7 @@
     "verse": 22,
     "content": [
       {
-        "text": "“And ye, therefore, now, indeed, have sorrow; and again I will see you, and your heart shall rejoice, and your joy no one doth ",
-        "marks": ["woc"]
-      },
-      {
-        "text": "take",
+        "text": "“And ye, therefore, now, indeed, have sorrow; and again I will see you, and your heart shall rejoice, and your joy no one doth take",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -6982,9 +6948,8 @@
     "chapter": 16,
     "verse": 29,
     "content": [
-      "His disciples say to him, “Lo, now ",
       {
-        "text": "freely thou dost speak",
+        "text": "His disciples say to him, “Lo, now freely thou dost speak",
         "foot": {
           "type": "trn",
           "content": [
@@ -7451,9 +7416,8 @@
     "chapter": 18,
     "verse": 14,
     "content": [
-      "and Caiaphas was he who ",
       {
-        "text": "gave counsel to",
+        "text": "and Caiaphas was he who gave counsel to",
         "foot": {
           "type": "trn",
           "content": [
@@ -7487,9 +7451,8 @@
     "content": {
       "paragraph": true,
       "content": [
-        "Then said the ",
         {
-          "text": "maid keeping the door",
+          "text": "Then said the maid keeping the door",
           "foot": {
             "type": "trn",
             "content": [
@@ -7582,9 +7545,8 @@
     "chapter": 18,
     "verse": 27,
     "content": [
-      "again, therefore, Peter denied, and immediately a cock ",
       {
-        "text": "crew",
+        "text": "again, therefore, Peter denied, and immediately a cock crew",
         "foot": {
           "type": "trn",
           "content": ["Lit., ", { "text": "a cock sounded.", "marks": ["i"] }]
@@ -7610,9 +7572,8 @@
     "chapter": 18,
     "verse": 29,
     "content": [
-      "Pilate, therefore, went forth unto them, and said, “What ",
       {
-        "text": "accusation",
+        "text": "Pilate, therefore, went forth unto them, and said, “What accusation",
         "foot": {
           "type": "trn",
           "content": [
@@ -7700,9 +7661,8 @@
     "chapter": 18,
     "verse": 38,
     "content": [
-      "Pilate saith to him, “What is truth?” and this having said, again he went forth unto the Jews, and saith to them, “I do find no ",
       {
-        "text": "fault",
+        "text": "Pilate saith to him, “What is truth?” and this having said, again he went forth unto the Jews, and saith to them, “I do find no fault",
         "foot": {
           "type": "trn",
           "content": [
@@ -7874,9 +7834,8 @@
     "chapter": 19,
     "verse": 15,
     "content": [
-      "and they cried out, “",
       {
-        "text": "Take away, take away",
+        "text": "and they cried out, “Take away, take away",
         "foot": {
           "type": "trn",
           "content": [
@@ -8061,9 +8020,8 @@
     "chapter": 19,
     "verse": 34,
     "content": [
-      "but one of the soldiers with a spear did ",
       {
-        "text": "pierce",
+        "text": "but one of the soldiers with a spear did pierce",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pricked.", "marks": ["i"] }]
@@ -8089,9 +8047,8 @@
     "chapter": 19,
     "verse": 37,
     "content": [
-      "and again another Writing saith, “They shall look to him whom they did ",
       {
-        "text": "pierce",
+        "text": "and again another Writing saith, “They shall look to him whom they did pierce",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "…pierced through.", "marks": ["i"] }]
@@ -8492,9 +8449,8 @@
     "chapter": 21,
     "verse": 7,
     "content": [
-      "That disciple, therefore, whom Jesus was loving saith to Peter, “The Lord it is!” Simon Peter, therefore, having heard that it is the Lord, did gird on the outer coat, (for he was ",
       {
-        "text": "naked",
+        "text": "That disciple, therefore, whom Jesus was loving saith to Peter, “The Lord it is!” Simon Peter, therefore, having heard that it is the Lord, did gird on the outer coat, (for he was naked",
         "foot": {
           "type": "stu",
           "content": [
@@ -8552,9 +8508,8 @@
     "verse": 12,
     "content": [
       "Jesus saith to them, ",
-      { "text": "“Come ye, ", "marks": ["woc"] },
       {
-        "text": "dine",
+        "text": "“Come ye, dine",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -8663,11 +8618,7 @@
     "content": [
       "Jesus saith to him, ",
       {
-        "text": "“If him I will to remain till I come, what—to thee? be thou following me.” ",
-        "marks": ["woc"]
-      },
-      {
-        "text": "This word, therefore, went forth to the brethren that that disciple doth not die",
+        "text": "“If him I will to remain till I come, what—to thee? be thou following me.” This word, therefore, went forth to the brethren that that disciple doth not die",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
