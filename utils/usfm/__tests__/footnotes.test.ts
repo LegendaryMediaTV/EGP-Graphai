@@ -608,8 +608,19 @@ describe("buildIntroParagraphFootnote — \\ip", () => {
  * sweep uses a different, broader methodology than a 66-canonical-book,
  * per-footnote match against `HEAD`.
  */
+// Report-only, corpus-wide measurement: needs WEBUS2020's own real raw USFM
+// locally at `webDir` (gitignored, never committed — a fresh clone doesn't
+// have it). Guarded with a plain `if`, not `describe.skipIf`: vitest still
+// runs a skipped describe's own callback body to collect its child tests,
+// so `skipIf` alone would not stop the corpus read below from executing.
+const FOOTNOTES_WEB_DIR = path.join(__dirname, "../../../imports/webus2020/ebible-usfm");
+if (!fs.existsSync(FOOTNOTES_WEB_DIR)) {
+  describe.skip("capitalizeFootnoteOpening — corpus-wide collision check against WEBUS2020's own real 81-book raw source", () => {
+    it("requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm", () => {});
+  });
+} else {
 describe("capitalizeFootnoteOpening — corpus-wide collision check against WEBUS2020's own real 81-book raw source", () => {
-  const webDir = path.join(__dirname, "../../../imports/webus2020/ebible-usfm");
+  const webDir = FOOTNOTES_WEB_DIR;
   const webFiles = fs.readdirSync(webDir).filter((name) => name.endsWith(".usfm") && name !== "00-FRTeng-web.usfm");
 
   it("should change a footnote's own leading character if and only if it is a real ASCII lowercase letter not immediately followed by the or, exception, and never anything else", () => {
@@ -665,3 +676,4 @@ describe("capitalizeFootnoteOpening — corpus-wide collision check against WEBU
     expect(witnessSiglonRecapitalized).toBe(1);
   });
 });
+}

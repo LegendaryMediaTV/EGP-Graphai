@@ -116,7 +116,28 @@ function classifyChapterBoundaries(source: string): ChapterBoundary[] {
   return boundaries;
 }
 
-describe("Finding 7's own \\b-less chapter-boundary fix, measured corpus-wide against WEBUS2020's own real upstream HEAD", () => {
+// Report-only, corpus-wide measurement: needs WEBUS2020's own real raw USFM
+// locally at `SOURCE_DIR` (gitignored, never committed), and it has to be
+// the exact revision `HEAD`'s own `bible-versions/WEBUS2020/*.json` was
+// actually built from, since every assertion below compares the two
+// directly. A present-but-different revision doesn't fail loud and clear
+// here — it silently produces wrong counts that look like real
+// regressions — so this only runs when a developer has deliberately placed
+// the matching corpus there; skipped otherwise. Guarded with a plain `if`,
+// not `describe.skipIf`: vitest still runs a skipped describe's own
+// callback body to collect its child tests, so `skipIf` alone would not
+// stop the corpus read below from ever executing.
+if (!fs.existsSync(SOURCE_DIR)) {
+  describe.skip(
+    "Finding 7's own \\b-less chapter-boundary fix, measured corpus-wide against WEBUS2020's own real upstream HEAD",
+    () => {
+      it("requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm", () => {});
+    },
+  );
+} else {
+describe(
+  "Finding 7's own \\b-less chapter-boundary fix, measured corpus-wide against WEBUS2020's own real upstream HEAD",
+  () => {
   const usfmFiles = usfmFilesByRegistryId();
   const books = readCanonicalBooks();
 
@@ -229,4 +250,6 @@ describe("Finding 7's own \\b-less chapter-boundary fix, measured corpus-wide ag
     const bothMatching = upstreamMatching.filter((r) => r.fixedMatch);
     expect(bothMatching.length).toBe(upstreamMatching.length);
   });
-});
+  },
+);
+}

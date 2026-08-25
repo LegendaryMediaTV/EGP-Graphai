@@ -54,10 +54,44 @@ export interface CanonicalBook {
 }
 
 /**
+ * The 15 real deuterocanon book ids this version carries alongside the 66
+ * canonical ones — no upstream `HEAD` baseline exists for any of them, so
+ * {@link readCanonicalBooks} excludes them by id.
+ *
+ * Filtering by filename pattern alone (`^\d{2}-[A-Z0-9]+\.json$`) used to be
+ * enough to isolate the 66 canonical books from `git ls-tree HEAD`, back
+ * when `HEAD` itself had never carried a deuterocanon book and every
+ * committed `bible-versions/WEBUS2020/*.json` file matched that pattern by
+ * construction. This branch's own apocrypha work has since committed all 15
+ * of these to `HEAD` too, under the identical `NN-XXX.json` shape (e.g.
+ * `40-TOB.json`) — so the old filename-only filter now returns all 81 books,
+ * not 66, silently doubling several corpus-wide counts below. Excluding by
+ * id here is the fix; matches `verify.test.ts`'s own `DEUTEROCANON_RAW_FILES`
+ * set (resolved from raw-USFM filenames to registry ids).
+ */
+const DEUTEROCANON_BOOK_IDS = new Set([
+  "TOB",
+  "JDT",
+  "ESG",
+  "DAG",
+  "WIS",
+  "SIR",
+  "BAR",
+  "1MC",
+  "2MC",
+  "1ES",
+  "PMA",
+  "PS2",
+  "3MC",
+  "2ES",
+  "4MC",
+]);
+
+/**
  * The 66 real books `HEAD` actually carries under `bible-versions/WEBUS2020/`
  * — read directly from git, not filtered out of the current working tree's
- * own registry. Deuterocanon books are excluded: no upstream baseline
- * exists for them.
+ * own registry. Deuterocanon books are excluded by id (see
+ * {@link DEUTEROCANON_BOOK_IDS}): no upstream baseline exists for them.
  */
 export function readCanonicalBooks(): CanonicalBook[] {
   const filenames = execFileSync(
@@ -70,7 +104,9 @@ export function readCanonicalBooks(): CanonicalBook[] {
     .map((line) => path.basename(line))
     .filter((name) => /^\d{2}-[A-Z0-9]+\.json$/.test(name));
 
-  return filenames.map((filename) => ({ id: /^\d{2}-([A-Z0-9]+)\.json$/.exec(filename)![1], filename }));
+  return filenames
+    .map((filename) => ({ id: /^\d{2}-([A-Z0-9]+)\.json$/.exec(filename)![1], filename }))
+    .filter((book) => !DEUTEROCANON_BOOK_IDS.has(book.id));
 }
 
 /** One book's real, upstream-committed content, read directly from git. */

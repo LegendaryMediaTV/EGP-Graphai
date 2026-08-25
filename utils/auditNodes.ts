@@ -88,7 +88,7 @@ export interface VerseRecord {
 // One node's own shape, read once and shared by every check below
 // ---------------------------------------------------------------------------
 
-interface NodeShape {
+export interface NodeShape {
   /** This node's own text, or `undefined` when it has no `text` key at all — a `{heading}`/`{subtitle}`/`{bibleLink}` wrapper, a `ContentNested` wrapper, or a multi-number tag's own textless sibling. */
   text: string | undefined;
   /** This node's own `marks` array, normalized to `[]` when absent so two nodes can be compared for formatting agreement without null-checking first. */
@@ -118,7 +118,7 @@ interface NodeShape {
  * everything else reads its own `text`/`marks`/`script`/`strong`/`foot`/
  * `paragraph`/`break` straight off the node.
  */
-function describeNode(node: unknown): NodeShape {
+export function describeNode(node: unknown): NodeShape {
   const empty = {
     marks: [] as readonly unknown[],
     script: undefined,
@@ -178,7 +178,7 @@ function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
  * scanning loop would sweep past it instead of stopping to treat it as the
  * target.
  */
-function isMergeableConnector(shape: NodeShape): boolean {
+export function isMergeableConnector(shape: NodeShape): boolean {
   return (
     shape.text !== undefined &&
     shape.text.trim() !== "" &&
@@ -230,7 +230,7 @@ interface PairFinding {
  * connector carries no `strong`/`foot`/`break` of its own and belongs
  * folded into the node that does.
  */
-function canJoinForward(run: readonly NodeShape[], target: NodeShape): boolean {
+export function canJoinForward(run: readonly NodeShape[], target: NodeShape): boolean {
   return (
     run.length > 0 &&
     (target.strong !== undefined || target.hasFoot || target.endsBreak) &&
@@ -588,6 +588,46 @@ function isHeadingOrSubtitle(node: unknown): boolean {
 }
 
 /**
+ * True for a node that renders no visible text of its own — carrying
+ * neither a top-level `text` nor a nested `content` to read one from, and
+ * not itself a `heading`/`subtitle`/`bibleLink` boundary — *and* that does
+ * not itself carry `paragraph: true`. Skipped when looking for the real node
+ * after a heading/subtitle run, the same way checks 3/4's own backward/
+ * forward scans skip through a textless Strong's sibling
+ * (`isTextlessStrongSibling`) rather than stopping there: a node that
+ * renders zero characters isn't really "the thing after the heading" from a
+ * reader's standpoint, so testing *it* for `paragraph: true` tests the wrong
+ * node.
+ *
+ * Real YLT1898 case this exists for: 1 Corinthians 7:1's heading is
+ * immediately followed by a chapter-summary `{foot: {...}}` node with no
+ * `text` of its own (Young's own "Chapter VII. may be divided into five
+ * parts…" note), and only *after* that does the verse's real
+ * `{paragraph: true, text: "And concerning…"}` appear. Without this skip,
+ * `next` would be the footnote-only node itself — never `paragraph: true`
+ * by construction, since it carries no text for a paragraph flag to open —
+ * producing a false finding on a run that is correctly flagged in the real
+ * next visible node.
+ *
+ * **The `paragraph: true` exclusion is load-bearing, not defensive
+ * padding.** Real KJV1769 Matthew 13:1 puts `{paragraph: true, strong:
+ * "G1161"}` — a textless multi-word Strong's connector, the untranslated
+ * half of a two-word Greek phrase rendered as one English word elsewhere —
+ * directly after its heading, with the real visible text (`{text: "The
+ * same", strong: "G1722"}`) only the node *after* that. The paragraph flag
+ * genuinely lives on the textless node here; skipping straight past it
+ * because it renders nothing would silently lose the very signal this check
+ * exists to find, and flag a run that is already correctly marked. A node
+ * with no visible text can still be the real paragraph boundary, so this
+ * only ever skips a node that is both textless *and* not the boundary
+ * itself.
+ */
+function skipsPastHeadingRun(node: unknown): boolean {
+  const shape = describeNode(node);
+  return !shape.isBoundary && shape.text === undefined && !shape.hasNestedContent && !shape.opensParagraph;
+}
+
+/**
  * One heading/subtitle run collapsed out of a single verse's own outermost
  * content, paired with whatever node immediately follows the whole run —
  * before book-wide filtering (see {@link findHeadingParagraphMismatches})
@@ -634,6 +674,12 @@ interface HeadingParagraphCandidate {
  * footnote body in this corpus, and never sits as the very last node of a
  * verse either, so "the node right after the run" always exists for every
  * run this function sees.
+ *
+ * "The node right after the run" skips forward past any {@link
+ * skipsPastHeadingRun} node before landing on `next` — real YLT1898 1
+ * Corinthians 7:1 puts a footnote-only chapter-summary node between the
+ * heading and the real, correctly-flagged paragraph text, and that
+ * in-between node renders nothing a reader would ever see.
  */
 function collapseHeadingRuns(
   verse: VerseRecord,
@@ -650,7 +696,9 @@ function collapseHeadingRuns(
     }
     let end = at;
     while (end < nodes.length && isHeadingOrSubtitle(nodes[end])) end++;
-    const next = nodes[end];
+    let nextIndex = end;
+    while (nextIndex < nodes.length && skipsPastHeadingRun(nodes[nextIndex])) nextIndex++;
+    const next = nodes[nextIndex];
     candidates.push({
       book: verse.book,
       chapter: verse.chapter,
@@ -660,7 +708,7 @@ function collapseHeadingRuns(
       isChapterFirstVerse,
       nextOpensParagraph: describeNode(next).opensParagraph,
     });
-    at = end + 1;
+    at = nextIndex + 1;
   }
 
   return candidates;

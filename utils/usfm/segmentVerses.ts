@@ -949,6 +949,16 @@ export function segmentVerses(
   // of anything a `\d`/`\ms1` may have already placed there, so an `\ip`
   // block (the outermost editorial framing around the whole book) always
   // reads first.
+  //
+  // Verse 1 already carries `paragraph: true` on whichever of its own
+  // blocks the real `\p` marker opened — normally its first block, before
+  // any `\ip` footnote block(s) take that position instead. That flag has
+  // to move onto the first footnote block along with them: the renderer
+  // (`web/public/js/VerseRenderer.js`) only ever inspects a verse's own
+  // *first* content node to decide where its pre-verse-number paragraph
+  // break belongs, so leaving the flag behind strands it on a node that is
+  // no longer first, and it renders as a break in the middle of the verse —
+  // after the verse number and footnote icon — instead of before both.
   if (introParagraphFootnotes.length > 0) {
     const minChapter = records.reduce((min, record) => Math.min(min, record.chapter), Infinity);
     const verseOne = records.find((record) => record.chapter === minChapter && record.verse === 1);
@@ -957,9 +967,27 @@ export function segmentVerses(
         `segmentVerses: found ${introParagraphFootnotes.length} \\ip block(s) but this book has no chapter ${minChapter} verse 1 to attach their own textless footnote node(s) to`,
       );
     }
-    verseOne.blocks.unshift(
-      ...introParagraphFootnotes.map((foot) => ({ text: "", nodes: [{ foot }] }) as VerseBlock),
-    );
+    const footBlocks = introParagraphFootnotes.map((foot) => ({ text: "", nodes: [{ foot }] }) as VerseBlock);
+    const paragraphBlockIndex = verseOne.blocks.findIndex((block) => block.paragraph === true);
+    if (paragraphBlockIndex !== -1) {
+      const { paragraph: _paragraph, ...rest } = verseOne.blocks[paragraphBlockIndex];
+      // A block whose only reason to exist was carrying `paragraph: true` —
+      // no text, no nodes, no break, no heading — contributes nothing once
+      // that flag moves onto the footnote block ahead of it, and is dropped
+      // outright rather than left behind as a hollow block. A real corpus
+      // instance (WEBUS2020's own Prayer of Manasses 1:1, whose `\p` opens
+      // directly on a plain-string "O " with nothing of its own to carry
+      // the flag) already relies on `content-schema.json`'s own bare-object
+      // shape for "flag with nothing else" — leaving that shape behind
+      // empty here would violate the schema's own `minProperties: 1`.
+      if (rest.text === "" && (rest.nodes?.length ?? 0) === 0 && !rest.break && !rest.headingContent) {
+        verseOne.blocks.splice(paragraphBlockIndex, 1);
+      } else {
+        verseOne.blocks[paragraphBlockIndex] = rest;
+      }
+      footBlocks[0] = { ...footBlocks[0], paragraph: true };
+    }
+    verseOne.blocks.unshift(...footBlocks);
   }
 
   return records;

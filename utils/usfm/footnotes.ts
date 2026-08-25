@@ -26,7 +26,7 @@
  *   inside `\ft`/`\fq` prose) becomes `{text, script: "H"}` directly — the
  *   delimiter already marks the boundary, so no character-range scan is
  *   needed. A bare, undelimited Greek word has no such delimiter to lean
- *   on and is found by `imports/_lib/splitScriptRuns.ts`'s own
+ *   on and is found by `usfm/splitScriptRuns.ts`'s own
  *   character-range scan instead — both call the same underlying
  *   Hebrew/Greek tagging convention, just via two different discovery
  *   mechanisms.
@@ -49,11 +49,11 @@
 
 import Content from "../../types/Content";
 import Footnote from "../../types/Footnote";
-import { splitScriptRuns } from "../../imports/_lib/splitScriptRuns";
 import { classifyFootnote, WITNESS_SIGLA_NAMES } from "./footnoteTypeRules";
 import { normalizeFractionText } from "./fractions";
 import { buildRunNodes, collapseContentNodes, InlineTextPiece } from "./inlineMarks";
 import { buildReferenceOnlyContent, linkEmbeddedReferences } from "./references";
+import { splitScriptRuns } from "./splitScriptRuns";
 import { Token } from "./tokenize";
 
 /**

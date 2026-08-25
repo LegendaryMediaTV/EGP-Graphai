@@ -1,0 +1,217 @@
+#!/usr/bin/env ts-node
+/**
+ * Applies `auditNodes.ts`'s own check 1 in the one direction it ever
+ * recommends: folds an ordinary, untagged connector forward into the
+ * `strong`-, `foot`-, or `break`-carrying neighbor right after it
+ * ({@link canJoinForward}), wherever that neighbor's own eligibility already
+ * makes the fold unambiguous.
+ *
+ * `auditNodes.ts` ships no `--fix` of its own — see its domain doc
+ * (`_specs/ai-context/4-domains/strongs-node-audit.md`)'s "Read-only by
+ * design" note — because a mechanical fixer risks getting the fold direction
+ * wrong on real Bible text. This script does not reimplement that judgment;
+ * it imports `describeNode`/`isMergeableConnector`/`canJoinForward` directly
+ * from `auditNodes.ts` and only ever acts where those functions already say
+ * the fold is safe, so there is exactly one "is this safe" decision in the
+ * whole repo, never two copies that could drift apart. What this script adds
+ * is purely mechanical: building the merged node once eligibility says yes.
+ *
+ * Written for YLT1898, which tags no word with `strong` at all (a
+ * translation-note-only edition — `foot` is the only suffix its own content
+ * ever carries) and so trips check 1 through the `hasFoot` branch alone,
+ * corpus-wide: hundreds of single footnoted words left split from the
+ * ordinary prose immediately before them (`["and having ", {text:
+ * "gathered", foot: {...}}, " all the chief priests..."]`, real Matthew
+ * 2:4). Scoped to every version on disk, not just YLT1898, the same
+ * "no curated version list" choice `auditNodes.ts` itself makes — a version
+ * already clean on check 1 (every version with real `strong` tagging, which
+ * already merges connectors on the way in) simply reports zero changes.
+ *
+ * Merging never changes rendered text: it is pure string concatenation, so a
+ * verse's own visible content is byte-identical before and after. What
+ * changes is only which node the combined text and the trailing `foot`/
+ * `strong`/`break` live on — the same node-shape normalization every other
+ * version's own import already produces.
+ *
+ * Usage:
+ *   npx ts-node utils/fixUnmergedNodes.ts                 # preview, every version
+ *   npx ts-node utils/fixUnmergedNodes.ts YLT1898          # preview, one version
+ *   npx ts-node utils/fixUnmergedNodes.ts YLT1898 --fix    # write
+ */
+
+import * as fs from "fs";
+import * as path from "path";
+import { getVersionDirectories } from "../functions/getBibleVersions";
+import { sortVerseKeys } from "../functions/sortContentKeys";
+import { writeJsonFile } from "../functions/writeJsonFile";
+import { canJoinForward, describeNode, findStrongsNodeIssues, isMergeableConnector, NodeShape } from "./auditNodes";
+
+const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
+const VERSE_FILE_NAME = /^\d{2}-[A-Z0-9]+\.json$/;
+
+interface VerseRecord {
+  book: string;
+  chapter: number;
+  verse: number;
+  content: unknown;
+  [key: string]: unknown;
+}
+
+/**
+ * One array level's own siblings, rewritten once: every maximal run of
+ * {@link isMergeableConnector} nodes immediately before a {@link
+ * canJoinForward}-eligible target folds into that target's own `text`,
+ * left to right, in one pass — the identical scan `scanArrayForUnmergedPairs`
+ * (`auditNodes.ts`) uses to detect the same pairs, run here to actually
+ * build the merged node instead of only reporting it.
+ *
+ * The merged node keeps every one of the target's own properties (`foot`,
+ * `strong`, `break`, `marks`, `script`, …) via a shallow spread, with only
+ * `text` overwritten by the run's own text prepended to the target's own —
+ * safe because `canJoinForward` already confirmed every run member agrees
+ * with the target in `marks`/`script`. A `paragraph: true` on the run's own
+ * first member (the only position `canJoinForward` ever allows it) carries
+ * onto the merged node, matching this repo's own convention of a piece
+ * boundary staying on the piece's first node regardless of how many sibling
+ * nodes fold into it.
+ */
+function mergeSiblings(nodes: readonly unknown[]): unknown[] {
+  const shapes = nodes.map(describeNode);
+  const result: unknown[] = [];
+
+  let at = 0;
+  while (at < nodes.length) {
+    let end = at;
+    while (end < nodes.length && isMergeableConnector(shapes[end])) end++;
+    const target: NodeShape | undefined = shapes[end];
+    const run = shapes.slice(at, end);
+
+    if (end > at && target !== undefined && canJoinForward(run, target)) {
+      const mergedText = run.map((shape) => shape.text).join("") + target.text;
+      const targetNode = nodes[end] as Record<string, unknown>;
+      const merged: Record<string, unknown> = { ...targetNode, text: mergedText };
+      if (shapes[at].opensParagraph) merged.paragraph = true;
+      result.push(merged);
+      at = end + 1;
+    } else {
+      result.push(nodes[at]);
+      at++;
+    }
+  }
+
+  return result;
+}
+
+/**
+ * Rewrites one node's own nested levels — `heading`, `subtitle`, a
+ * `ContentNested` wrapper's own `content`, and a footnote body's own
+ * `foot.content` — mirroring `auditNodes.ts`'s own `walkLevel` recursion
+ * exactly (including its `content` exclusion whenever `heading`/`subtitle`/
+ * `bibleLink` is present, so a `bibleLink`'s own `content` display override
+ * is never mistaken for regular nested content), then returns a shallow copy
+ * with those fields replaced. A string, or anything that isn't a plain
+ * object, has no nested levels to rewrite and passes through unchanged.
+ */
+function rewriteNode(node: unknown): unknown {
+  if (node === null || typeof node !== "object" || Array.isArray(node)) return node;
+  const record = { ...(node as Record<string, unknown>) };
+
+  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading);
+  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle);
+  if (record.heading === undefined && record.subtitle === undefined && record.bibleLink === undefined && record.content !== undefined) {
+    record.content = rewriteLevel(record.content);
+  }
+
+  const foot = record.foot as { content?: unknown } | undefined;
+  if (foot?.content !== undefined) {
+    record.foot = { ...foot, content: rewriteLevel(foot.content) };
+  }
+
+  return record;
+}
+
+/**
+ * Rewrites one `Content` value, single node or array alike — the same
+ * `asArray`-then-scan shape `findStrongsNodeIssues` uses for detection,
+ * except this one rebuilds instead of only reporting. A single node has no
+ * siblings to merge, so only its own nested levels change (via {@link
+ * rewriteNode}); an array first rewrites every child's own nested levels,
+ * then merges siblings at this level.
+ *
+ * Collapses back to a bare node only when *this fixer's own merge* is what
+ * brought the array down to one element (`content.length > 1` but
+ * `merged.length === 1`) — never when the array already had exactly one
+ * element and simply stayed that way, since that shape carries no check-1
+ * finding at all and unwrapping it would be a cosmetic change this script
+ * has no license to make. An early version of this function collapsed every
+ * length-1 result unconditionally, which quietly rewrote hundreds of
+ * single-element `foot.content` arrays (`["...text..."]` to a bare string)
+ * that check 1 never flagged in the first place — caught by reviewing the
+ * real diff before committing to it, not by any test.
+ */
+function rewriteLevel(content: unknown): unknown {
+  if (Array.isArray(content)) {
+    const merged = mergeSiblings(content.map(rewriteNode));
+    return merged.length === 1 && content.length > 1 ? merged[0] : merged;
+  }
+  return rewriteNode(content);
+}
+
+async function main(): Promise<void> {
+  const args = process.argv.slice(2);
+  const write = args.includes("--fix");
+  const requestedVersion = args.find((arg) => !arg.startsWith("--"));
+  const versions = requestedVersion ? [requestedVersion] : getVersionDirectories();
+
+  let totalPairs = 0;
+  let totalVerses = 0;
+
+  for (const version of versions) {
+    const versionDir = path.join(BIBLE_VERSIONS_DIR, version);
+    const files = fs.readdirSync(versionDir).filter((file) => VERSE_FILE_NAME.test(file));
+
+    let versionPairs = 0;
+    let versionVerses = 0;
+
+    for (const file of files) {
+      const filePath = path.join(versionDir, file);
+      const records: VerseRecord[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      let fileChanged = false;
+
+      for (let i = 0; i < records.length; i++) {
+        const record = records[i];
+        const pairCount = findStrongsNodeIssues(record.content as never).unmergedPairs.length;
+        if (pairCount === 0) continue;
+
+        const rewritten = rewriteLevel(record.content);
+        if (JSON.stringify(rewritten) === JSON.stringify(record.content)) continue;
+
+        records[i] = sortVerseKeys({ ...record, content: rewritten });
+        versionPairs += pairCount;
+        versionVerses++;
+        fileChanged = true;
+      }
+
+      if (write && fileChanged) await writeJsonFile(filePath, records);
+    }
+
+    if (versionVerses > 0) {
+      console.log(`${version}: ${versionPairs} pair(s) across ${versionVerses} verse(s) ${write ? "merged" : "would be merged"}`);
+    }
+    totalPairs += versionPairs;
+    totalVerses += versionVerses;
+  }
+
+  if (totalVerses === 0) {
+    console.log("No unmerged node pairs found.");
+    return;
+  }
+
+  console.log(`\n${totalPairs} pair(s) across ${totalVerses} verse(s) total.`);
+  if (!write) console.log("Re-run with --fix to write.");
+}
+
+main().catch((error: unknown) => {
+  console.error(error instanceof Error ? error.message : String(error));
+  process.exit(1);
+});

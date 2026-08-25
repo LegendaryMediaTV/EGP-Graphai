@@ -88,8 +88,20 @@ function scanCorpus(): readonly CorpusLink[] {
   return links;
 }
 
-const links = scanCorpus();
+// Report-only, corpus-wide measurement: needs WEBUS2020's own real raw USFM
+// locally (gitignored, never committed — a fresh clone doesn't have it).
+// Guarded before `scanCorpus()` ever runs, not with `describe.skipIf`:
+// vitest still runs a skipped describe's own callback body to collect its
+// child tests, and the real crash site here (`const links = scanCorpus()`)
+// sits at module scope, outside any describe at all.
+const SOURCE_AVAILABLE = fs.existsSync(path.join(REPO_ROOT, "imports", "webus2020", "ebible-usfm"));
+const links = SOURCE_AVAILABLE ? scanCorpus() : [];
 
+if (!SOURCE_AVAILABLE) {
+  describe.skip("bibleLink target conventions — Finding 8b/8c, measured against the whole real WEBUS2020 corpus", () => {
+    it("requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm", () => {});
+  });
+} else {
 describe("bibleLink target conventions — Finding 8b/8c, measured against the whole real WEBUS2020 corpus", () => {
   it("should resolve every real Psalms cross-reference to the canonical singular \"Psalm\" target — exactly 88 real corpus-wide instances, none left plural", () => {
     const psalmsOrPsalm = links.filter((link) => /^Psalms? \d/.test(link.target));
@@ -152,3 +164,4 @@ describe("bibleLink target conventions — Finding 8b/8c, measured against the w
     expect(matthew54?.target).toBe("Isaiah 66:10, 13");
   });
 });
+}

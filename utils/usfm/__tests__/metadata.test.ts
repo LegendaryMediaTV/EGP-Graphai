@@ -4,11 +4,17 @@ import { describe, expect, it } from "vitest";
 import BibleVersion from "../../../types/Version";
 import { extractBookMetadata, mergeBookMetadata, resolveBookId } from "../metadata";
 
-/** The real, complete Genesis USFM file — read directly, not a truncated fixture, since this test's own expected `chapters: 50` depends on the whole book (`imports/guide.md` §6 — verbatim, never hand-invented). */
-const GENESIS_SOURCE = fs.readFileSync(
-  path.join(__dirname, "../../../imports/webus2020/ebible-usfm/02-GENeng-web.usfm"),
-  "utf8",
-);
+/**
+ * The real, complete Genesis USFM file — read directly, not a truncated
+ * fixture, since this test's own expected `chapters: 50` depends on the
+ * whole book (verbatim, never hand-invented). Lives at a gitignored,
+ * never-committed path — a fresh clone doesn't have it — so this is
+ * `undefined` rather than a thrown error when absent, and the one describe
+ * block that needs it below is skipped in that case rather than crashing
+ * the whole file's collection.
+ */
+const GENESIS_SOURCE_PATH = path.join(__dirname, "../../../imports/webus2020/ebible-usfm/02-GENeng-web.usfm");
+const GENESIS_SOURCE = fs.existsSync(GENESIS_SOURCE_PATH) ? fs.readFileSync(GENESIS_SOURCE_PATH, "utf8") : undefined;
 
 describe("resolveBookId", () => {
   it("should leave an id unchanged when the USFM standard and this repo's own registry already agree", () => {
@@ -61,14 +67,31 @@ function realUsfmIds(dir: string, files: readonly string[]): string[] {
   });
 }
 
+// Both directories are gitignored, never-committed local corpora — a fresh
+// clone has neither. Guarded before either `readdirSync` call runs, not
+// with `describe.skipIf`: vitest still runs a skipped describe's own
+// callback body to collect its child tests.
 const ASV1901_DIR = path.join(__dirname, "../../../imports/asv1901/ebible-usfm");
-const ASV1901_CANONICAL_FILES = fs
-  .readdirSync(ASV1901_DIR)
-  .filter((file) => file.endsWith(".usfm") && file !== "00-FRTeng-asv.usfm" && file !== "01-INTeng-asv.usfm");
-
 const MSB2025_DIR = path.join(__dirname, "../../../imports/msb2025/ebible-usfm");
-const MSB2025_CANONICAL_FILES = fs.readdirSync(MSB2025_DIR).filter((file) => file.endsWith(".usfm"));
+const NEW_SOURCES_AVAILABLE = fs.existsSync(ASV1901_DIR) && fs.existsSync(MSB2025_DIR);
+const ASV1901_CANONICAL_FILES = NEW_SOURCES_AVAILABLE
+  ? fs
+      .readdirSync(ASV1901_DIR)
+      .filter((file) => file.endsWith(".usfm") && file !== "00-FRTeng-asv.usfm" && file !== "01-INTeng-asv.usfm")
+  : [];
 
+const MSB2025_CANONICAL_FILES = NEW_SOURCES_AVAILABLE
+  ? fs.readdirSync(MSB2025_DIR).filter((file) => file.endsWith(".usfm"))
+  : [];
+
+if (!NEW_SOURCES_AVAILABLE) {
+  describe.skip(
+    "resolveBookId — ASV1901/MSB2025's own real \\id sets need zero new crosswalk rows (Phase 1 of the generality-test objective)",
+    () => {
+      it("requires the local ASV1901 and MSB2025 raw USFM corpora at imports/asv1901/ebible-usfm and imports/msb2025/ebible-usfm", () => {});
+    },
+  );
+} else {
 describe("resolveBookId — ASV1901/MSB2025's own real \\id sets need zero new crosswalk rows (Phase 1 of the generality-test objective)", () => {
   it("should find exactly 66 real canonical .usfm files in each new source, matching this planning pass's own direct count", () => {
     expect(ASV1901_CANONICAL_FILES).toHaveLength(66);
@@ -107,19 +130,26 @@ describe("resolveBookId — ASV1901/MSB2025's own real \\id sets need zero new c
     }
   });
 });
+}
 
-describe("extractBookMetadata — the real Genesis front matter", () => {
-  const metadata = extractBookMetadata(GENESIS_SOURCE);
+if (GENESIS_SOURCE === undefined) {
+  describe.skip("extractBookMetadata — the real Genesis front matter", () => {
+    it("requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm", () => {});
+  });
+} else {
+  describe("extractBookMetadata — the real Genesis front matter", () => {
+    const metadata = extractBookMetadata(GENESIS_SOURCE);
 
-  it("should extract _id, name, title, and chapters exactly as the real front matter states them", () => {
-    expect(metadata).toEqual({
-      _id: "GEN",
-      name: "Genesis",
-      title: "The First Book of Moses, Commonly Called Genesis",
-      chapters: 50,
+    it("should extract _id, name, title, and chapters exactly as the real front matter states them", () => {
+      expect(metadata).toEqual({
+        _id: "GEN",
+        name: "Genesis",
+        title: "The First Book of Moses, Commonly Called Genesis",
+        chapters: 50,
+      });
     });
   });
-});
+}
 
 describe("extractBookMetadata — a USFM file missing a required marker", () => {
   it("should throw when the source carries no \\id marker at all", () => {

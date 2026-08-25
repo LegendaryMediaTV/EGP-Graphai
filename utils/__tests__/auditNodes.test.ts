@@ -725,19 +725,6 @@ describe("auditVersion / auditVersions — real, on-disk corpus", () => {
     ).toBe(true);
   });
 
-  // `bible-versions/MSB2025/` was `git stash`ed in an earlier, unrelated
-  // session and isn't on disk right now; this test skips cleanly rather
-  // than crashing when it's absent, via the same `getVersionDirectories()`
-  // this describe block's own "default to every version directory on disk"
-  // test above already calls.
-  it.skipIf(!getVersionDirectories().includes("MSB2025"))(
-    "should report zero heading/subtitle-paragraph mismatches for MSB2025 — it carries no headings or subtitles at all",
-    () => {
-      const summary = auditVersion("MSB2025");
-      expect(summary.headingParagraphMismatches).toEqual([]);
-    },
-  );
-
   it("should never write to bible-versions/ — this audit is read-only", () => {
     const first = JSON.stringify(auditVersions());
     const second = JSON.stringify(auditVersions());

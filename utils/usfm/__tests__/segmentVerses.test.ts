@@ -1079,11 +1079,12 @@ describe("segmentVerses — \\cp/\\d (Psalm 151's own front matter — \\cp sits
 });
 
 describe("segmentVerses — \\ip (every \\ip block becomes a footnote on a textless leading node, attached to the book's own verse 1:1)", () => {
-  it("should attach Tobit's own single \\ip block (one embedded \\bk citation, tagged marks: [\"i\"] per Finding 6) as a textless leading node ahead of verse 1's own real content", () => {
+  it("should attach Tobit's own single \\ip block (one embedded \\bk citation, tagged marks: [\"i\"] per Finding 6) as a textless leading node ahead of verse 1's own real content, carrying the verse's own paragraph: true along with it", () => {
     const records = segmentVerses(readFixture("tobit-opening-ip.usfm"), "TOB");
     const verseOne = records.find((record) => record.verse === 1);
     expect(verseOne?.blocks[0]).toEqual({
       text: "",
+      paragraph: true,
       nodes: [
         {
           foot: {
@@ -1096,7 +1097,7 @@ describe("segmentVerses — \\ip (every \\ip block becomes a footnote on a textl
         },
       ],
     });
-    expect(verseOne?.blocks[1]).toMatchObject({ paragraph: true });
+    expect(verseOne?.blocks[1]?.paragraph).toBeUndefined();
   });
 
   it("should keep both of an \\ip block's own two embedded \\bk citations, each tagged marks: [\"i\"], and classify the real, Septuagint-naming body var, not every \\ip is stu (Baruch)", () => {
@@ -1127,6 +1128,15 @@ describe("segmentVerses — \\ip (every \\ip block becomes a footnote on a textl
     expect(verseOne?.blocks[1]).toBe(introBlocks[1]);
   });
 
+  it("should move verse 1's own paragraph: true onto only the first of Esther-Greek's two \\ip blocks, never the second, and off the real \\p-opened block it originally sat on", () => {
+    const records = segmentVerses(readFixture("esther-greek-opening.usfm"), "ESG");
+    const verseOne = records.find((record) => record.verse === 1);
+
+    expect(verseOne?.blocks[0]?.paragraph).toBe(true);
+    expect(verseOne?.blocks[1]?.paragraph).toBeUndefined();
+    expect(verseOne?.blocks[2]?.paragraph).toBeUndefined();
+  });
+
   it("should attach Sirach's own two \\ip blocks — the modern editorial blurb and the real, ancient Prologue alike — as two separate textless leading nodes in source order, with nothing lost to chrome for either one, ahead of the real poetry content that follows", () => {
     const records = segmentVerses(readFixture("sirach-opening-ip.usfm"), "SIR");
     const verseOne = records.find((record) => record.verse === 1);
@@ -1146,6 +1156,15 @@ describe("segmentVerses — \\ip (every \\ip block becomes a footnote on a textl
     expect(verseOne?.blocks[0]).toBe(introBlocks[0]);
     expect(verseOne?.blocks[1]).toBe(introBlocks[1]);
     expect(verseOne?.blocks[2]).toMatchObject({ text: "All wisdom comes from the Lord," });
+  });
+
+  it("should move verse 1's own paragraph: true (from the \\b stanza break ahead of \\q1 \\v 1) onto the first of Sirach's two \\ip blocks, never the second, and off the real poetry content it originally sat on", () => {
+    const records = segmentVerses(readFixture("sirach-opening-ip.usfm"), "SIR");
+    const verseOne = records.find((record) => record.verse === 1);
+
+    expect(verseOne?.blocks[0]?.paragraph).toBe(true);
+    expect(verseOne?.blocks[1]?.paragraph).toBeUndefined();
+    expect(verseOne?.blocks[2]?.paragraph).toBeUndefined();
   });
 });
 

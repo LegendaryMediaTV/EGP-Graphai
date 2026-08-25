@@ -131,10 +131,10 @@
 import * as fs from "fs";
 import * as path from "path";
 import { getBibleVersion } from "../../functions/getBibleVersions";
-import { splitScriptRuns } from "../../imports/_lib/splitScriptRuns";
 import { classifyFootnote, flattenContentText } from "./footnoteTypeRules";
 import { isAcrosticLetterName } from "./headings";
 import { resolveBookId } from "./metadata";
+import { splitScriptRuns } from "./splitScriptRuns";
 
 /**
  * How many verses the whole in-scope WEBUS2020 corpus declares — every `\v`

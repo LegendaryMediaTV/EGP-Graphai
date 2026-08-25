@@ -22,16 +22,23 @@ import Footnote from "../../../types/Footnote";
  * `linkEmbeddedReferences` after the user's own correction: the cue-word
  * gate was the wrong safeguard, and the real one — registry-and-grammar
  * validation, with an explicit verse required — already existed
- * independently. Measured directly against the real, current corpus, the
- * redesign links **99** real embedded references, not 72 — the 27-instance
- * gain is real, not a bug: it is every reference the cue-word gate was
- * missing for a real, documented reason (see each `it` below), minus two
- * chapter-only matches the cue-word version had wrongly linked (Genesis
- * 3:24's own "Ezekiel 10", Esther-Greek 8:13's own malformed "Luke 22." —
- * see the chapter-only exclusion tests below).
+ * independently. That redesign measured 99 real embedded references at the
+ * time (a 27-instance gain over the cue-word version, for a real,
+ * documented reason — see each `it` below).
+ *
+ * Measured directly against the real, current corpus, the population is now
+ * **53**, concentrated entirely in 1 Maccabees (52 → 19) and 2 Maccabees
+ * (20 → 8); 1 Esdras and 2 Esdras hold at their own original 7 and 3. Later
+ * classification-accuracy work elsewhere in this pipeline (`stu`/`var`/`trn`
+ * vs. `xrf` — a body that is *nothing but* a reference belongs in the
+ * `xrf` bucket, resolved by `buildReferenceOnlyContent` instead, and never
+ * reaches `linkEmbeddedReferences` at all) moved a real share of 1/2
+ * Maccabees' own reference-only footnote bodies out of this count — this
+ * measurement's own filter (`if (footnote.type === "xrf") continue`)
+ * excludes them by design, the same rule it always has.
  *
  * Deliberately corpus-wide, not limited to the 66 canonical books: most of
- * the 99 real instances live in the deuterocanon (52 in 1 Maccabees alone),
+ * the 53 real instances live in the deuterocanon (19 in 1 Maccabees alone),
  * which carries no upstream `HEAD` baseline at all.
  */
 
@@ -105,7 +112,15 @@ function scanFootnotes(): readonly CorpusFootnote[] {
   return footnotes;
 }
 
-const footnotes = scanFootnotes();
+// Report-only, corpus-wide measurement: needs WEBUS2020's own real raw USFM
+// locally at `SOURCE_DIR` (gitignored, never committed — a fresh clone
+// doesn't have it). Guarded before `scanFootnotes()` ever runs, not with
+// `describe.skipIf`: vitest still runs a skipped describe's own callback
+// body to collect its child tests, and the real crash site here (`const
+// footnotes = scanFootnotes()`) sits at module scope, outside any describe
+// at all.
+const SOURCE_AVAILABLE = fs.existsSync(SOURCE_DIR);
+const footnotes = SOURCE_AVAILABLE ? scanFootnotes() : [];
 
 /** Every embedded link found inside a non-`xrf` footnote — Finding 9's own real, new population; an `xrf`-typed footnote's own link(s) are the pre-existing `buildReferenceOnlyContent` path, unrelated to this fix. */
 const embeddedLinks: EmbeddedLink[] = [];
@@ -114,9 +129,17 @@ for (const { file, footnote } of footnotes) {
   collectLinks(footnote.content, file, embeddedLinks);
 }
 
+if (!SOURCE_AVAILABLE) {
+  describe.skip(
+    "Finding 9 — a fully-qualified reference embedded in ordinary footnote prose, measured against the whole real 81-book WEBUS2020 corpus",
+    () => {
+      it("requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm", () => {});
+    },
+  );
+} else {
 describe("Finding 9 — a fully-qualified reference embedded in ordinary footnote prose, measured against the whole real 81-book WEBUS2020 corpus", () => {
-  it("should link exactly 99 real embedded references corpus-wide, none of them from an already-xrf-typed footnote", () => {
-    expect(embeddedLinks).toHaveLength(99);
+  it("should link exactly 53 real embedded references corpus-wide, none of them from an already-xrf-typed footnote", () => {
+    expect(embeddedLinks).toHaveLength(53);
   });
 
   it('should link both of Matthew 27:35\'s real "and"-joined references, matching upstream HEAD\'s own exact shape ("[see Psalms 22:18 and John 19:24]" — Psalms 22:18 also carries Finding 8b\'s own book-name override) — each found and resolved independently now, with no dedicated "and"-chain rule needed', () => {
@@ -219,11 +242,11 @@ describe("Finding 9 — a fully-qualified reference embedded in ordinary footnot
     }
   });
 
-  it("should keep every deuterocanon-heavy book's own real population exactly where it was measured (1 Maccabees 52, 2 Maccabees 20, 1 Esdras 7, 2 Esdras 3 — no upstream baseline for any of the four, so this is the only real guard against a silent regression in either direction)", () => {
+  it("should keep every deuterocanon-heavy book's own real population exactly where it was measured (1 Maccabees 19, 2 Maccabees 8, 1 Esdras 7, 2 Esdras 3 — no upstream baseline for any of the four, so this is the only real guard against a silent regression in either direction)", () => {
     const byFile = new Map<string, number>();
     for (const link of embeddedLinks) byFile.set(link.file, (byFile.get(link.file) ?? 0) + 1);
-    expect(byFile.get("52-1MAeng-web.usfm")).toBe(52);
-    expect(byFile.get("53-2MAeng-web.usfm")).toBe(20);
+    expect(byFile.get("52-1MAeng-web.usfm")).toBe(19);
+    expect(byFile.get("53-2MAeng-web.usfm")).toBe(8);
     expect(byFile.get("54-1ESeng-web.usfm")).toBe(7);
     expect(byFile.get("58-2ESeng-web.usfm")).toBe(3);
   });
@@ -235,3 +258,4 @@ describe("Finding 9 — a fully-qualified reference embedded in ordinary footnot
     expect(links.map((l) => l.target)).toEqual(["Daniel 3:23", "Daniel 3:24"]);
   });
 });
+}

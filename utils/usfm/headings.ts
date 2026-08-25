@@ -29,9 +29,9 @@
  */
 
 import Content, { ContentHeading, ContentSubtitle } from "../../types/Content";
-import { splitScriptRuns } from "../../imports/_lib/splitScriptRuns";
 import { buildFootnoteContent } from "./footnotes";
 import { attachFootToPieces, buildRunNodes, collapseContentNodes, InlineTextPiece } from "./inlineMarks";
+import { splitScriptRuns } from "./splitScriptRuns";
 import { Token } from "./tokenize";
 
 /**
@@ -206,7 +206,7 @@ export function buildSuperscriptionContent(
  * builder needs no content-based classification at all; it always
  * produces the acrostic shape.
  *
- * `splitScriptRuns` (`imports/_lib/splitScriptRuns.ts`, already proven for
+ * `splitScriptRuns` (`usfm/splitScriptRuns.ts`, already proven for
  * WEB's own bare-Greek footnote content) separates the leading Hebrew
  * letter from its trailing transliterated name, matching the already-
  * established `{heading: [{text, script: "H"}, " <NAME>"], type:
