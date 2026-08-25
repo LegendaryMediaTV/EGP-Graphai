@@ -91,12 +91,18 @@ npm run audit-links
 # Audit one version, or add --fix to write the splits
 npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix
 
-# Audit Strong's-node placement conventions (all versions, read-only);
+# Audit node placement, heading paragraphs, and fraction formatting (all versions, read-only);
 # also runs as part of `npm run validate` for whichever version(s) it scopes to
 npm run audit-nodes
 
 # Audit one version and list every finding
 npx ts-node utils/auditNodes.ts WEBUS2020 --verbose
+
+# Fix unmerged connector nodes (audit-nodes check 1); add --fix to write
+npx ts-node utils/fixUnmergedNodes.ts YLT1898 --fix
+
+# Fix headings/subtitles missing their paragraph flag (audit-nodes check 6); add --fix to write
+npx ts-node utils/fixHeadingParagraphs.ts WEBUS2020 --fix
 
 # Run tests
 npm run test

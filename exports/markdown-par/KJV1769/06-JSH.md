@@ -61,7 +61,7 @@
 
 > - <sup>a</sup> 1. Heb. _lay_
 > - <sup>b</sup> 9. Heb. _melt_
-> - <sup>c</sup> 11. _rose up_
+> - <sup>c</sup> 11. _Rose up_
 > - <sup>d</sup> 18. Heb. _gather_
 > - <sup>e</sup> 24. Heb. _melt_
 
@@ -152,7 +152,7 @@
 > - <sup>a</sup> 2. Or, _knives of flints_
 > - <sup>b</sup> 3. Or, _Gibeahharaloth_
 > - <sup>c</sup> 8. Heb. _when the people had made an end to be circumcised_
-> - <sup>d</sup> 9. _i. rolling_
+> - <sup>d</sup> 9. _I. rolling_
 > - <sup>e</sup> 14. Or, _Prince_
 
 ## Chapter 6

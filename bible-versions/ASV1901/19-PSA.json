@@ -6,6 +6,7 @@
     "content": [
       { "heading": "The righteous and the wicked contrasted." },
       {
+        "paragraph": true,
         "text": "Blessed is the man that walketh not in the counse",
         "foot": {
           "type": "trn",
@@ -101,7 +102,7 @@
     "verse": 1,
     "content": [
       { "heading": "The reign of Jehovah’s anointed." },
-      { "text": "Why do the nations rage,", "break": true },
+      { "paragraph": true, "text": "Why do the nations rage,", "break": true },
       {
         "text": "And the peoples meditate a v",
         "foot": {
@@ -258,7 +259,11 @@
     "content": [
       { "heading": "Morning prayer of trust in God." },
       { "subtitle": "A Psalm of David, when he fled from Absalom his son." },
-      { "text": "Jehovah, how are mine adversaries increased!", "break": true },
+      {
+        "paragraph": true,
+        "text": "Jehovah, how are mine adversaries increased!",
+        "break": true
+      },
       { "text": "Many are they that rise up against me.", "break": true }
     ]
   },
@@ -368,6 +373,7 @@
         "subtitle": "For the Chief Musician; on stringed instruments. A Psalm of David."
       },
       {
+        "paragraph": true,
         "text": "Answer me when I call, O God of my righteousness;",
         "break": true
       },
@@ -495,7 +501,11 @@
       {
         "subtitle": "For the Chief Musician; with the Nehiloth. A Psalm of David."
       },
-      { "text": "Give ear to my words, O Jehovah,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Give ear to my words, O Jehovah,",
+        "break": true
+      },
       {
         "text": "Consider my meditation.",
         "break": true,
@@ -726,7 +736,11 @@
       {
         "subtitle": "For the Chief Musician; on stringed instruments, set to the Sheminith. A Psalm of David."
       },
-      { "text": "O Jehovah, rebuke me not in thine anger,", "break": true },
+      {
+        "paragraph": true,
+        "text": "O Jehovah, rebuke me not in thine anger,",
+        "break": true
+      },
       {
         "text": "Neither chasten me in thy hot displeasure.",
         "break": true,
@@ -851,7 +865,11 @@
       {
         "subtitle": "Shiggaion of David, which he sang unto Jehovah, concerning the words of Cush a Benjamite."
       },
-      { "text": "O Jehovah my God, in thee do I take refuge:", "break": true },
+      {
+        "paragraph": true,
+        "text": "O Jehovah my God, in thee do I take refuge:",
+        "break": true
+      },
       {
         "text": "Save me from all them that pursue me, and deliver me,",
         "break": true
@@ -1087,7 +1105,7 @@
       {
         "subtitle": "For the Chief Musician; set to the Gittith. A Psalm of David."
       },
-      { "text": "O Jehovah, our Lord,", "break": true },
+      { "paragraph": true, "text": "O Jehovah, our Lord,", "break": true },
       { "text": "How excellent is thy name in all the earth,", "break": true },
       {
         "text": "Who hast set thy glory upon the heavens!",
@@ -1216,6 +1234,7 @@
         "subtitle": "For the Chief Musician; set to Muth-labben. A Psalm of David."
       },
       {
+        "paragraph": true,
         "text": "I will give thanks unto Jehovah with my whole heart;",
         "break": true
       },
@@ -1549,7 +1568,11 @@
     "verse": 1,
     "content": [
       { "heading": "A prayer for the overthrow of the wicked." },
-      { "text": "Why standest thou afar off, O Jehovah?", "break": true },
+      {
+        "paragraph": true,
+        "text": "Why standest thou afar off, O Jehovah?",
+        "break": true
+      },
       { "text": "Why hidest thou thyself in times of trouble?", "break": true }
     ]
   },
@@ -1904,7 +1927,11 @@
           " of David."
         ]
       },
-      { "text": "In Jehovah do I take refuge:", "break": true },
+      {
+        "paragraph": true,
+        "text": "In Jehovah do I take refuge:",
+        "break": true
+      },
       { "text": "How say ye to my soul,", "break": true },
       "Flee ",
       { "text": "as", "marks": ["i"] },
@@ -2027,7 +2054,11 @@
       {
         "subtitle": "For the Chief Musician; set to the Sheminith. A Psalm of David."
       },
-      { "text": "Help, Jehovah; for the godly man ceaseth;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Help, Jehovah; for the godly man ceaseth;",
+        "break": true
+      },
       {
         "text": "For the faithful fail from ",
         "foot": {
@@ -2146,6 +2177,7 @@
       { "heading": "Prayer for help in affliction." },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
       {
+        "paragraph": true,
         "text": "How long, O Jehovah? wilt thou forget me for ever?",
         "break": true
       },
@@ -2220,6 +2252,7 @@
         ]
       },
       {
+        "paragraph": true,
         "text": "The fool hath said in his heart, There is no God.",
         "break": true
       },
@@ -2335,6 +2368,7 @@
       { "heading": "Description of a citizen of Zion." },
       { "subtitle": "A Psalm of David." },
       {
+        "paragraph": true,
         "text": "Jehovah, who shall sojourn in thy tabernacle?",
         "break": true
       },
@@ -2445,6 +2479,7 @@
       },
       { "subtitle": "Michtam of David." },
       {
+        "paragraph": true,
         "text": "Preserve me, O God; for in thee do I take refuge.",
         "break": true
       }
@@ -2638,6 +2673,7 @@
       { "heading": "Prayer for protection against oppressors." },
       { "subtitle": "A Prayer of David." },
       {
+        "paragraph": true,
         "text": "Hear the right, O Jehovah, attend unto my cry;",
         "break": true
       },
@@ -2924,6 +2960,7 @@
         ]
       },
       {
+        "paragraph": true,
         "text": "I love thee, O Jehovah, my strength.",
         "break": true,
         "foot": {
@@ -3593,7 +3630,11 @@
     "content": [
       { "heading": "The works and the Word of God." },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
-      { "text": "The heavens declare the glory of God;", "break": true },
+      {
+        "paragraph": true,
+        "text": "The heavens declare the glory of God;",
+        "break": true
+      },
       { "text": "And the firmament showeth his handiwork.", "break": true }
     ]
   },
@@ -3790,7 +3831,11 @@
     "content": [
       { "heading": "Prayer for victory over enemies." },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
-      { "text": "Jehovah answer thee in the day of trouble;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Jehovah answer thee in the day of trouble;",
+        "break": true
+      },
       {
         "text": "The name of the God of Jacob set thee up on high;",
         "break": true
@@ -3920,6 +3965,7 @@
       { "heading": "Praise for deliverance." },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
       {
+        "paragraph": true,
         "text": "The king shall joy in thy strength, O Jehovah;",
         "break": true
       },
@@ -4105,7 +4151,11 @@
       {
         "subtitle": "For the Chief Musician; set to Aijeleth hash-Shahar. A Psalm of David."
       },
-      { "text": "My God, my God, why hast thou forsaken me?", "break": true },
+      {
+        "paragraph": true,
+        "text": "My God, my God, why hast thou forsaken me?",
+        "break": true
+      },
       { "text": "Why art thou so", "marks": ["i"] },
       {
         "text": " far from hel",
@@ -4547,7 +4597,11 @@
     "content": [
       { "heading": "Jehovah the psalmist’s shepherd." },
       { "subtitle": "A Psalm of David." },
-      { "text": "Jehovah is my shepherd; I shall not want.", "break": true }
+      {
+        "paragraph": true,
+        "text": "Jehovah is my shepherd; I shall not want.",
+        "break": true
+      }
     ]
   },
   {
@@ -4653,6 +4707,7 @@
       { "heading": "The King of Glory entering Zion." },
       { "subtitle": "A Psalm of David." },
       {
+        "paragraph": true,
         "text": "The earth is Jehovah’s, and the fulness thereof;",
         "break": true
       },
@@ -4779,7 +4834,11 @@
     "content": [
       { "heading": "Prayer for protection, guidance, and pardon." },
       { "subtitle": [{ "text": "A Psalm", "marks": ["i"] }, " of David."] },
-      { "text": "Unto thee, O Jehovah, do I lift up my soul.", "break": true }
+      {
+        "paragraph": true,
+        "text": "Unto thee, O Jehovah, do I lift up my soul.",
+        "break": true
+      }
     ]
   },
   {
@@ -5044,6 +5103,7 @@
       { "heading": "Protestation of integrity, and prayer for protection." },
       { "subtitle": [{ "text": "A Psalm", "marks": ["i"] }, " of David."] },
       {
+        "paragraph": true,
         "text": "Judge me, O Jehovah, for I have walked in mine integrity:",
         "break": true
       },
@@ -5200,7 +5260,11 @@
     "content": [
       { "heading": "A psalm of fearless trust in God." },
       { "subtitle": [{ "text": "A Psalm", "marks": ["i"] }, " of David."] },
-      { "text": "Jehovah is my light and my salvation;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Jehovah is my light and my salvation;",
+        "break": true
+      },
       { "text": "Whom shall I fear?", "break": true },
       { "text": "Jehovah is the strength of my life;", "break": true },
       {
@@ -5450,7 +5514,11 @@
     "content": [
       { "heading": "A prayer for help, and praise for its answer." },
       { "subtitle": [{ "text": "A Psalm", "marks": ["i"] }, " of David."] },
-      { "text": "Unto thee, O Jehovah, will I call:", "break": true },
+      {
+        "paragraph": true,
+        "text": "Unto thee, O Jehovah, will I call:",
+        "break": true
+      },
       { "text": "My rock, be not thou deaf unto me;", "break": true },
       { "text": "Lest, if thou be silent unto me,", "break": true },
       { "text": "I become like them that go down into the pit.", "break": true }
@@ -5585,6 +5653,7 @@
       { "heading": "The voice of Jehovah in the storm." },
       { "subtitle": "A Psalm of David." },
       {
+        "paragraph": true,
         "text": "Ascribe unto Jehovah, O ye sons of the mighty,",
         "break": true
       },
@@ -5754,6 +5823,7 @@
         ]
       },
       {
+        "paragraph": true,
         "text": "I will extol thee, O Jehovah; for thou hast raised me up,",
         "break": true
       },
@@ -5943,7 +6013,11 @@
     "content": [
       { "heading": "A psalm of complaint and of praise." },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
-      { "text": "In thee, O Jehovah, do I take refuge;", "break": true },
+      {
+        "paragraph": true,
+        "text": "In thee, O Jehovah, do I take refuge;",
+        "break": true
+      },
       { "text": "Let me never be put to shame:", "break": true },
       { "text": "Deliver me in thy righteousness.", "break": true }
     ]
@@ -6282,6 +6356,7 @@
         ]
       },
       {
+        "paragraph": true,
         "text": "Blessed is he whose transgression is forgiven,",
         "break": true
       },
@@ -6457,7 +6532,11 @@
     "verse": 1,
     "content": [
       { "heading": "Praise to the Creator and Preserver." },
-      { "text": "Rejoice in Jehovah, O ye righteous:", "break": true },
+      {
+        "paragraph": true,
+        "text": "Rejoice in Jehovah, O ye righteous:",
+        "break": true
+      },
       { "text": "Praise is comely for the upright.", "break": true }
     ]
   },
@@ -6730,7 +6809,11 @@
           " of David; when he changed his behavior before Abimelech, who drove him away, and he departed."
         ]
       },
-      { "text": "I will bless Jehovah at all times:", "break": true },
+      {
+        "paragraph": true,
+        "text": "I will bless Jehovah at all times:",
+        "break": true
+      },
       {
         "text": "His praise shall c",
         "foot": {
@@ -6982,6 +7065,7 @@
       { "heading": "Prayer for rescue from enemies." },
       { "subtitle": [{ "text": "A Psalm", "marks": ["i"] }, " of David."] },
       {
+        "paragraph": true,
         "text": "Strive thou, O Jehovah, with them that strive with me:",
         "break": true
       },
@@ -7472,6 +7556,7 @@
         ]
       },
       {
+        "paragraph": true,
         "text": "The transgression of the wicked saith within my heart,",
         "break": true
       },
@@ -7684,7 +7769,11 @@
         "heading": "Security of those who trust in Jehovah, and insecurity of the wicked."
       },
       { "subtitle": [{ "text": "A Psalm", "marks": ["i"] }, " of David."] },
-      { "text": "Fret not thyself because of evil-doers,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Fret not thyself because of evil-doers,",
+        "break": true
+      },
       {
         "text": "Neither be thou envious against them that work unrighteousness.",
         "break": true
@@ -8253,7 +8342,11 @@
     "content": [
       { "heading": "Prayer of a suffering penitent." },
       { "subtitle": "A Psalm of David, to bring to remembrance." },
-      { "text": "O Jehovah, rebuke me not in thy wrath;", "break": true },
+      {
+        "paragraph": true,
+        "text": "O Jehovah, rebuke me not in thy wrath;",
+        "break": true
+      },
       {
         "text": "Neither cha",
         "foot": {
@@ -8546,7 +8639,11 @@
     "content": [
       { "heading": "The vanity of life." },
       { "subtitle": "For the Chief Musician, for Jeduthun. A Psalm of David." },
-      { "text": "I said, I will take heed to my ways,", "break": true },
+      {
+        "paragraph": true,
+        "text": "I said, I will take heed to my ways,",
+        "break": true
+      },
       {
         "text": "That I sin not ",
         "foot": {
@@ -8804,7 +8901,11 @@
     "content": [
       { "heading": "A sacrifice of praise, and prayer for help." },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
-      { "text": "I waited patiently for Jehovah;", "break": true },
+      {
+        "paragraph": true,
+        "text": "I waited patiently for Jehovah;",
+        "break": true
+      },
       { "text": "And he inclined unto me, and heard my cry.", "break": true }
     ]
   },
@@ -9110,7 +9211,11 @@
         "heading": "The psalmist in sickness complains of enemies and false friends."
       },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
-      { "text": "Blessed is he that considereth the poor:", "break": true },
+      {
+        "paragraph": true,
+        "text": "Blessed is he that considereth the poor:",
+        "break": true
+      },
       {
         "text": "Jehovah will deliver him in the day of evil.",
         "break": true,
@@ -9306,7 +9411,11 @@
     "content": [
       { "heading": "Thirsting for God in trouble and exile." },
       { "subtitle": "For the Chief Musician. Maschil of the sons of Korah." },
-      { "text": "As the hart panteth after the water brooks,", "break": true },
+      {
+        "paragraph": true,
+        "text": "As the hart panteth after the water brooks,",
+        "break": true
+      },
       { "text": "So panteth my soul after thee, O God.", "break": true }
     ]
   },
@@ -9505,6 +9614,7 @@
     "content": [
       { "heading": "Prayer for deliverance." },
       {
+        "paragraph": true,
         "text": "Judge me, O God, and plead my cause against an ungodly nation:",
         "break": true
       },
@@ -9601,7 +9711,11 @@
           " of the sons of Korah. Maschil."
         ]
       },
-      { "text": "We have heard with our ears, O God,", "break": true },
+      {
+        "paragraph": true,
+        "text": "We have heard with our ears, O God,",
+        "break": true
+      },
       { "text": "Our fathers have told us,", "break": true },
       { "text": "What work thou didst in their days,", "break": true },
       { "text": "In the days of old.", "break": true }
@@ -9916,7 +10030,11 @@
           " of the sons of Korah. Maschil. A Song of loves."
         ]
       },
-      { "text": "My heart overfloweth with a goodly matter;", "break": true },
+      {
+        "paragraph": true,
+        "text": "My heart overfloweth with a goodly matter;",
+        "break": true
+      },
       {
         "text": "I speak the things which I ha",
         "foot": {
@@ -10206,7 +10324,11 @@
           " of the sons of Korah; set to Alamoth. A Song."
         ]
       },
-      { "text": "God is our refuge and strength,", "break": true },
+      {
+        "paragraph": true,
+        "text": "God is our refuge and strength,",
+        "break": true
+      },
       { "text": "A very present help in trouble.", "break": true }
     ]
   },
@@ -10386,7 +10508,11 @@
     "content": [
       { "heading": "God the King of the Earth." },
       { "subtitle": "For the Chief Musician. A Psalm of the sons of Korah." },
-      { "text": "Oh clap your hands, all ye peoples;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Oh clap your hands, all ye peoples;",
+        "break": true
+      },
       { "text": "Shout unto God with the voice of triumph.", "break": true }
     ]
   },
@@ -10515,7 +10641,11 @@
     "content": [
       { "heading": "The beauty and glory of Zion." },
       { "subtitle": "A Song; a Psalm of the sons of Korah." },
-      { "text": "Great is Jehovah, and greatly to be praised,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Great is Jehovah, and greatly to be praised,",
+        "break": true
+      },
       { "text": "In the city of our God, in his holy mountain.", "break": true }
     ]
   },
@@ -10704,7 +10834,11 @@
     "content": [
       { "heading": "The folly of trusting in riches." },
       { "subtitle": "For the Chief Musician. A Psalm of the sons of Korah." },
-      { "text": "Hear this, all ye peoples;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Hear this, all ye peoples;",
+        "break": true
+      },
       { "text": "Give ear, all ye inhabitants of the world,", "break": true }
     ]
   },
@@ -11007,7 +11141,11 @@
     "content": [
       { "heading": "God the judge of the righteous and the wicked." },
       { "subtitle": "A Psalm of Asaph." },
-      { "text": "The Mighty One, God, Jehovah, hath spoken,", "break": true },
+      {
+        "paragraph": true,
+        "text": "The Mighty One, God, Jehovah, hath spoken,",
+        "break": true
+      },
       {
         "text": "And called the earth from the rising of the sun unto the going down thereof.",
         "break": true
@@ -11361,6 +11499,7 @@
         "subtitle": "For the Chief Musician. A Psalm of David; when Nathan the prophet came unto him, after he had gone in to Bath-sheba."
       },
       {
+        "paragraph": true,
         "text": "Have mercy upon me, O God, according to thy lovingkindness:",
         "break": true
       },
@@ -11604,6 +11743,7 @@
         "subtitle": "For the Chief Musician. Maschil of David; when Doeg the Edomite came and told Saul, and said unto him, David is come to the house of Ahimelech."
       },
       {
+        "paragraph": true,
         "text": "Why boastest thou thyself in mischief, O mighty man?",
         "break": true
       },
@@ -11741,6 +11881,7 @@
         "subtitle": "For the Chief Musician; set to Mahalath. Maschil of David."
       },
       {
+        "paragraph": true,
         "text": "The fool hath said in his heart, There is no God.",
         "break": true
       },
@@ -11845,7 +11986,11 @@
       {
         "subtitle": "For the Chief Musician; on stringed instruments. Maschil of David; when the Ziphites came and said to Saul, Doth not David hide himself with us?"
       },
-      { "text": "Save me, O God, by thy name,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Save me, O God, by thy name,",
+        "break": true
+      },
       { "text": "And judge me in thy might.", "break": true }
     ]
   },
@@ -11949,7 +12094,11 @@
       {
         "subtitle": "For the Chief Musician; on stringed instruments. Maschil of David."
       },
-      { "text": "Give ear to my prayer, O God;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Give ear to my prayer, O God;",
+        "break": true
+      },
       { "text": "And hide not thyself from my supplication.", "break": true }
     ]
   },
@@ -12281,6 +12430,7 @@
         ]
       },
       {
+        "paragraph": true,
         "text": "Be merciful unto me, O God; for man would swallow me up:",
         "break": true
       },
@@ -12503,6 +12653,7 @@
         ]
       },
       {
+        "paragraph": true,
         "text": "Be merciful unto me, O God, be merciful unto me;",
         "break": true
       },
@@ -12676,7 +12827,11 @@
           " of David. Michtam."
         ]
       },
-      { "text": "Do ye indeed in silence speak righteousness?", "break": true },
+      {
+        "paragraph": true,
+        "text": "Do ye indeed in silence speak righteousness?",
+        "break": true
+      },
       {
         "text": "Do ye judge uprightly, O ye sons of men?",
         "foot": {
@@ -12888,7 +13043,11 @@
           " of David. Michtam; when Saul sent, and they watched the house to kill him."
         ]
       },
-      { "text": "Deliver me from mine enemies, O my God:", "break": true },
+      {
+        "paragraph": true,
+        "text": "Deliver me from mine enemies, O my God:",
+        "break": true
+      },
       {
         "text": "Set me on high from them that rise up against me.",
         "break": true
@@ -13136,6 +13295,7 @@
         "subtitle": "For the Chief Musician; set to Shushan Eduth. Michtam of David, to teach; when he strove with Aram-naharaim and with Aram-zobah, and Joab returned, and smote of Edom in the Valley of Salt twelve thousand."
       },
       {
+        "paragraph": true,
         "text": "O God thou hast cast us off, thou hast broken us down;",
         "break": true
       },
@@ -13343,7 +13503,7 @@
           " of David."
         ]
       },
-      { "text": "Hear my cry, O God;", "break": true },
+      { "paragraph": true, "text": "Hear my cry, O God;", "break": true },
       { "text": "Attend unto my prayer.", "break": true }
     ]
   },
@@ -13462,7 +13622,11 @@
       {
         "subtitle": "For the Chief Musician; after the manner of Jeduthun. A Psalm of David."
       },
-      { "text": "My soul waiteth in silence for God only:", "break": true },
+      {
+        "paragraph": true,
+        "text": "My soul waiteth in silence for God only:",
+        "break": true
+      },
       "From him ",
       { "text": "cometh", "marks": ["i"] },
       {
@@ -13642,6 +13806,7 @@
         "subtitle": "A Psalm of David, when he was in the wilderness of Judah."
       },
       {
+        "paragraph": true,
         "text": "O God, thou art my God; earnestly will I seek thee:",
         "break": true
       },
@@ -13801,7 +13966,11 @@
     "content": [
       { "heading": "Prayer for deliverance from secret enemies." },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
-      { "text": "Hear my voice, O God, in my complaint:", "break": true },
+      {
+        "paragraph": true,
+        "text": "Hear my voice, O God, in my complaint:",
+        "break": true
+      },
       { "text": "Preserve my life from fear of the enemy.", "break": true }
     ]
   },
@@ -13959,7 +14128,11 @@
     "content": [
       { "heading": "God’s abundant favor to earth and man." },
       { "subtitle": "For the Chief Musician. A Psalm. A Song of David." },
-      { "text": "Praise waiteth for thee, O God, in Zion;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Praise waiteth for thee, O God, in Zion;",
+        "break": true
+      },
       {
         "text": "And unto thee shall the vow be performed.",
         "break": true,
@@ -14203,7 +14376,11 @@
         "heading": "Praise for God’s mighty deeds and for his answer to prayer."
       },
       { "subtitle": "For the Chief Musician. A Song, a Psalm." },
-      { "text": "Make a joyful noise unto God, all the earth:", "break": true }
+      {
+        "paragraph": true,
+        "text": "Make a joyful noise unto God, all the earth:",
+        "break": true
+      }
     ]
   },
   {
@@ -14466,7 +14643,11 @@
       {
         "subtitle": "For the Chief Musician; on stringed instruments. A Psalm, a Song."
       },
-      { "text": "God be merciful unto us, and bless us,", "break": true },
+      {
+        "paragraph": true,
+        "text": "God be merciful unto us, and bless us,",
+        "break": true
+      },
       { "text": "And", "marks": ["i"] },
       " cause his face to shine upon us; ",
       {
@@ -14557,7 +14738,11 @@
     "content": [
       { "heading": "Jehovah the God of Sinai and of the sanctuary." },
       { "subtitle": "For the Chief Musician; A Psalm of David, a Song." },
-      { "text": "Let God arise, let his enemies be scattered;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Let God arise, let his enemies be scattered;",
+        "break": true
+      },
       {
         "text": "Let them also that hate him flee before him.",
         "break": true,
@@ -15184,7 +15369,7 @@
           " of David."
         ]
       },
-      { "text": "Save me, O God;", "break": true },
+      { "paragraph": true, "text": "Save me, O God;", "break": true },
       {
         "text": "For the waters are come in unto my soul.",
         "break": true,
@@ -15659,7 +15844,7 @@
           " of David; to bring to remembrance."
         ]
       },
-      { "text": "Make haste", "marks": ["i"] },
+      { "paragraph": true, "text": "Make haste", "marks": ["i"] },
       { "text": ", O God, to deliver me;", "break": true },
       {
         "text": "Make haste to help me, O Jehovah.",
@@ -15734,7 +15919,11 @@
     "verse": 1,
     "content": [
       { "heading": "Prayer of an old man for deliverance." },
-      { "text": "In thee, O Jehovah, do I take refuge:", "break": true },
+      {
+        "paragraph": true,
+        "text": "In thee, O Jehovah, do I take refuge:",
+        "break": true
+      },
       { "text": "Let me never be put to shame.", "break": true }
     ]
   },
@@ -16081,7 +16270,11 @@
     "content": [
       { "heading": "The reign of the righteous king." },
       { "subtitle": [{ "text": "A Psalm", "marks": ["i"] }, " of Solomon."] },
-      { "text": "Give the king thy judgments, O God,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Give the king thy judgments, O God,",
+        "break": true
+      },
       { "text": "And thy righteousness unto the king’s son.", "break": true }
     ]
   },
@@ -16398,7 +16591,11 @@
         "heading": "The end of the wicked contrasted with that of the righteous."
       },
       { "subtitle": "A Psalm of Asaph." },
-      { "text": "Surely God is good to Israel,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Surely God is good to Israel,",
+        "break": true
+      },
       { "text": "Even", "marks": ["i"] },
       {
         "text": " to such as are pure in heart.",
@@ -16842,7 +17039,7 @@
         "heading": "A complaint over the devastation of the land by the enemy."
       },
       { "subtitle": "Maschil of Asaph." },
-      "O God, why hast thou cast ",
+      { "paragraph": true, "text": "O God, why hast thou cast " },
       { "text": "us", "marks": ["i"] },
       { "text": " off for ever?", "break": true },
       {
@@ -17209,7 +17406,11 @@
           " Al-tashheth. A Psalm of Asaph, a Song."
         ]
       },
-      { "text": "We give thanks unto thee, O God;", "break": true },
+      {
+        "paragraph": true,
+        "text": "We give thanks unto thee, O God;",
+        "break": true
+      },
       { "text": "We give thanks, for thy name is near:", "break": true },
       {
         "text": "Men tell of thy wondrous works.",
@@ -17412,7 +17613,7 @@
       {
         "subtitle": "For the Chief Musician; on stringed instruments. A Psalm of Asaph, a Song."
       },
-      { "text": "In Judah is God known:", "break": true },
+      { "paragraph": true, "text": "In Judah is God known:", "break": true },
       { "text": "His name is great in Israel.", "break": true }
     ]
   },
@@ -17584,7 +17785,11 @@
       {
         "subtitle": "For the Chief Musician; after the manner of Jeduthun. A Psalm of Asaph."
       },
-      { "text": "I will cry unto God with my voice,", "break": true },
+      {
+        "paragraph": true,
+        "text": "I will cry unto God with my voice,",
+        "break": true
+      },
       {
         "text": "Even unto God with my voice; and he will give ear unto me.",
         "break": true
@@ -17837,7 +18042,11 @@
         "heading": "God’s guidance of his people in spite of their unfaithfulness."
       },
       { "subtitle": "Maschil of Asaph." },
-      { "text": "Give ear, O my people, to my law:", "break": true },
+      {
+        "paragraph": true,
+        "text": "Give ear, O my people, to my law:",
+        "break": true
+      },
       {
         "text": "Incline your ears to the words of my mouth.",
         "break": true,
@@ -18756,6 +18965,7 @@
       },
       { "subtitle": "A Psalm of Asaph." },
       {
+        "paragraph": true,
         "text": "O God, the nations are come into thine inheritance;",
         "break": true
       },
@@ -18960,7 +19170,11 @@
       {
         "subtitle": "For the Chief Musician; set to Shoshannim Eduth. A Psalm of Asaph."
       },
-      { "text": "Give ear, O Shepherd of Israel,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Give ear, O Shepherd of Israel,",
+        "break": true
+      },
       { "text": "Thou that leadest Joseph like a flock;", "break": true },
       {
         "text": "Thou that sittest ",
@@ -19274,7 +19488,11 @@
           " of Asaph."
         ]
       },
-      { "text": "Sing aloud unto God our strength:", "break": true },
+      {
+        "paragraph": true,
+        "text": "Sing aloud unto God our strength:",
+        "break": true
+      },
       { "text": "Make a joyful noise unto the God of Jacob.", "break": true }
     ]
   },
@@ -19491,7 +19709,11 @@
     "content": [
       { "heading": "Unjust judgments rebuked." },
       { "subtitle": "A Psalm of Asaph." },
-      { "text": "God standeth in the congregation of God;", "break": true },
+      {
+        "paragraph": true,
+        "text": "God standeth in the congregation of God;",
+        "break": true
+      },
       { "text": "He judgeth among the gods.", "break": true }
     ]
   },
@@ -19581,7 +19803,11 @@
     "content": [
       { "heading": "God implored to confound his enemies." },
       { "subtitle": "A Song, a Psalm of Asaph." },
-      { "text": "O God, keep not thou silence:", "break": true },
+      {
+        "paragraph": true,
+        "text": "O God, keep not thou silence:",
+        "break": true
+      },
       { "text": "Hold not thy peace, and be not still, O God.", "break": true }
     ]
   },
@@ -19819,7 +20045,11 @@
       {
         "subtitle": "For the Chief Musician; set to the Gittith. A Psalm of the sons of Korah."
       },
-      { "text": "How amiable are thy tabernacles,", "break": true },
+      {
+        "paragraph": true,
+        "text": "How amiable are thy tabernacles,",
+        "break": true
+      },
       {
         "text": "O Jehovah of hosts!",
         "break": true,
@@ -20007,6 +20237,7 @@
       { "heading": "Prayer for God’s mercy upon the nation." },
       { "subtitle": "For the Chief Musician. A Psalm of the sons of Korah." },
       {
+        "paragraph": true,
         "text": "Jehovah, thou hast been favorable unto thy land;",
         "break": true
       },
@@ -20181,6 +20412,7 @@
       { "heading": "A psalm of supplication and trust." },
       { "subtitle": "A Prayer of David." },
       {
+        "paragraph": true,
         "text": "Bow down thine ear, O Jehovah, and answer me;",
         "break": true
       },
@@ -20399,6 +20631,7 @@
       { "heading": "The privileges of citizenship in Zion." },
       { "subtitle": "A Psalm of the sons of Korah; a Song." },
       {
+        "paragraph": true,
         "text": "His foundation is in the holy mountains.",
         "break": true,
         "foot": {
@@ -20516,7 +20749,11 @@
       {
         "subtitle": "A Song, a Psalm of the sons of Korah; for the Chief Musician; set to Mahalath Leannoth. Maschil of Heman the Ezrahite."
       },
-      { "text": "O Jehovah, the God of my salvation,", "break": true },
+      {
+        "paragraph": true,
+        "text": "O Jehovah, the God of my salvation,",
+        "break": true
+      },
       {
         "text": "I have cried day and night before thee.",
         "break": true,
@@ -20755,6 +20992,7 @@
       { "heading": "Jehovah’s covenant with David, and Israel’s afflictions." },
       { "subtitle": "Maschil of Ethan the Ezrahite." },
       {
+        "paragraph": true,
         "text": "I will sing of the lovingkindness of Jehovah for ever:",
         "break": true
       },
@@ -21500,7 +21738,11 @@
     "content": [
       { "heading": "God’s eternity and man’s transitoriness." },
       { "subtitle": "A Prayer of Moses the man of God." },
-      { "text": "Lord, thou hast been our dwelling-place", "break": true },
+      {
+        "paragraph": true,
+        "text": "Lord, thou hast been our dwelling-place",
+        "break": true
+      },
       { "text": "In all generations.", "break": true }
     ]
   },
@@ -21744,6 +21986,7 @@
     "content": [
       { "heading": "Security of him who trusts in Jehovah." },
       {
+        "paragraph": true,
         "text": "He that dwelleth in the secret place of the Most High",
         "break": true
       },
@@ -21949,6 +22192,7 @@
       { "heading": "Praise for Jehovah’s goodness." },
       { "subtitle": "A Psalm, a Song for the sabbath day." },
       {
+        "paragraph": true,
         "text": "It is a good thing to give thanks unto Jehovah,",
         "break": true
       },
@@ -22133,6 +22377,7 @@
     "content": [
       { "heading": "The majesty of Jehovah." },
       {
+        "paragraph": true,
         "text": "Jehovah reigneth; he is clothed with majesty;",
         "break": true
       },
@@ -22199,6 +22444,7 @@
     "content": [
       { "heading": "Jehovah implored to avenge his people." },
       {
+        "paragraph": true,
         "text": "O Jehovah, thou God to whom vengeance belongeth,",
         "break": true
       },
@@ -22492,7 +22738,11 @@
     "verse": 1,
     "content": [
       { "heading": "Praise to Jehovah, and warning against unbelief." },
-      { "text": "Oh come, let us sing unto Jehovah;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Oh come, let us sing unto Jehovah;",
+        "break": true
+      },
       {
         "text": "Let us make a joyful noise to the rock of our salvation.",
         "break": true
@@ -22649,7 +22899,11 @@
     "verse": 1,
     "content": [
       { "heading": "A call to worship Jehovah the Righteous Judge." },
-      { "text": "Oh sing unto Jehovah a new song:", "break": true },
+      {
+        "paragraph": true,
+        "text": "Oh sing unto Jehovah a new song:",
+        "break": true
+      },
       { "text": "Sing unto Jehovah, all the earth.", "break": true }
     ]
   },
@@ -22815,7 +23069,11 @@
     "verse": 1,
     "content": [
       { "heading": "Jehovah’s power and dominion." },
-      { "text": "Jehovah reigneth; let the earth rejoice;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Jehovah reigneth; let the earth rejoice;",
+        "break": true
+      },
       { "text": "Let the multitude of isles be glad.", "break": true }
     ]
   },
@@ -22948,7 +23206,11 @@
     "content": [
       { "heading": "A call to praise Jehovah for his righteousness." },
       { "subtitle": "A Psalm." },
-      { "text": "Oh sing unto Jehovah a new song;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Oh sing unto Jehovah a new song;",
+        "break": true
+      },
       { "text": "For he hath done marvellous things:", "break": true },
       {
         "text": "His right hand, and his holy arm, hath wrought salvation for him.",
@@ -23053,7 +23315,11 @@
     "verse": 1,
     "content": [
       { "heading": "Praise to Jehovah for his fidelity to Israel." },
-      { "text": "Jehovah reigneth; let the peoples tremble:", "break": true },
+      {
+        "paragraph": true,
+        "text": "Jehovah reigneth; let the peoples tremble:",
+        "break": true
+      },
       "He sitteth ",
       { "text": "above", "marks": ["i"] },
       {
@@ -23164,6 +23430,7 @@
       { "heading": "All men exhorted to praise God." },
       { "subtitle": "A Psalm of thanksgiving." },
       {
+        "paragraph": true,
         "text": "Make a joyful noise unto Jehovah, all y",
         "foot": {
           "type": "trn",
@@ -23255,7 +23522,11 @@
     "content": [
       { "heading": "The psalmist’s profession of uprightness." },
       { "subtitle": "A Psalm of David." },
-      { "text": "I will sing of lovingkindness and justice:", "break": true },
+      {
+        "paragraph": true,
+        "text": "I will sing of lovingkindness and justice:",
+        "break": true
+      },
       { "text": "Unto thee, O Jehovah, will I sing praises.", "break": true }
     ]
   },
@@ -23396,7 +23667,11 @@
       {
         "subtitle": "A Prayer of the afflicted, when he is overwhelmed, and poureth out his complaint before Jehovah."
       },
-      { "text": "Hear my prayer, O Jehovah,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Hear my prayer, O Jehovah,",
+        "break": true
+      },
       {
         "text": "And let my cry come unto thee.",
         "break": true,
@@ -23759,7 +24034,7 @@
     "content": [
       { "heading": "Praise for Jehovah’s mercies." },
       { "subtitle": [{ "text": "A Psalm", "marks": ["i"] }, " of David."] },
-      { "text": "Bless Jehovah, O my soul;", "break": true },
+      { "paragraph": true, "text": "Bless Jehovah, O my soul;", "break": true },
       "And all that is within me, ",
       { "text": "bless", "marks": ["i"] },
       { "text": " his holy name.", "break": true }
@@ -24017,7 +24292,7 @@
     "verse": 1,
     "content": [
       { "heading": "Jehovah’s care over all his works." },
-      { "text": "Bless Jehovah, O my soul.", "break": true },
+      { "paragraph": true, "text": "Bless Jehovah, O my soul.", "break": true },
       { "text": "O Jehovah my God, thou art very great;", "break": true },
       { "text": "Thou art clothed with honor and majesty:", "break": true }
     ]
@@ -24487,6 +24762,7 @@
     "content": [
       { "heading": "Jehovah’s wonderful works in behalf of Israel." },
       {
+        "paragraph": true,
         "text": "Oh give thanks unto Jehovah, call upon his name;",
         "break": true
       },
@@ -25008,7 +25284,7 @@
     "verse": 1,
     "content": [
       { "heading": "Israel’s rebelliousness and Jehovah’s deliverances." },
-      { "text": "Praise ye Jehovah.", "break": true },
+      { "paragraph": true, "text": "Praise ye Jehovah.", "break": true },
       {
         "text": "Oh give thanks unto Jehovah; for he is ",
         "foot": {
@@ -25587,7 +25863,11 @@
     "verse": 1,
     "content": [
       { "heading": "Jehovah delivers men from manifold troubles." },
-      { "text": "O give thanks unto Jehovah; for he is good;", "break": true },
+      {
+        "paragraph": true,
+        "text": "O give thanks unto Jehovah; for he is good;",
+        "break": true
+      },
       "For his lovingkindness ",
       { "text": "endureth", "marks": ["i"] },
       { "text": " for ever.", "break": true }
@@ -26118,7 +26398,7 @@
     "content": [
       { "heading": "God praised, and supplicated to give victory." },
       { "subtitle": "A Song, a Psalm of David." },
-      { "text": "My heart is fixed, O God;", "break": true },
+      { "paragraph": true, "text": "My heart is fixed, O God;", "break": true },
       {
         "text": "I will sing, yea, I will sing praises, even with my glory.",
         "break": true
@@ -26319,7 +26599,11 @@
     "content": [
       { "heading": "Vengeance invoked upon adversaries." },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
-      { "text": "Hold not thy peace, O God of my praise;", "break": true }
+      {
+        "paragraph": true,
+        "text": "Hold not thy peace, O God of my praise;",
+        "break": true
+      }
     ]
   },
   {
@@ -26755,6 +27039,7 @@
       { "heading": "Jehovah gives dominion to the king." },
       { "subtitle": "A Psalm of David." },
       {
+        "paragraph": true,
         "text": "Jehovah saith unto my Lord, Sit thou at my right hand,",
         "break": true
       },
@@ -26929,7 +27214,7 @@
     "verse": 1,
     "content": [
       { "heading": "Jehovah praised for his goodness." },
-      { "text": "Praise ye Jehovah.", "break": true },
+      { "paragraph": true, "text": "Praise ye Jehovah.", "break": true },
       {
         "text": "I will give than",
         "foot": {
@@ -27074,7 +27359,7 @@
     "verse": 1,
     "content": [
       { "heading": "Prosperity of him that fears Jehovah." },
-      { "text": "Praise ye Jehovah.", "break": true },
+      { "paragraph": true, "text": "Praise ye Jehovah.", "break": true },
       {
         "text": "Blessed is the man t",
         "foot": {
@@ -27199,7 +27484,7 @@
     "verse": 1,
     "content": [
       { "heading": "Jehovah praised for exalting the humble." },
-      { "text": "Praise ye Jehovah.", "break": true },
+      { "paragraph": true, "text": "Praise ye Jehovah.", "break": true },
       {
         "text": "Praise, O ye servants o",
         "foot": {
@@ -27312,7 +27597,11 @@
     "verse": 1,
     "content": [
       { "heading": "God’s deliverance of Israel from Egypt." },
-      { "text": "When Israel went forth out of Egypt,", "break": true },
+      {
+        "paragraph": true,
+        "text": "When Israel went forth out of Egypt,",
+        "break": true
+      },
       {
         "text": "The house of Jacob from a people of strange language;",
         "break": true
@@ -27394,7 +27683,11 @@
     "verse": 1,
     "content": [
       { "heading": "Heathen idols contrasted with Jehovah." },
-      { "text": "Not unto us, O Jehovah, not unto us,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Not unto us, O Jehovah, not unto us,",
+        "break": true
+      },
       { "text": "But unto thy name give glory,", "break": true },
       {
         "text": "For thy lovingkindness, and for thy truth’s sake.",
@@ -27590,7 +27883,11 @@
     "verse": 1,
     "content": [
       { "heading": "Thanksgiving for deliverance from death." },
-      { "text": "I love Jehovah, because he heareth", "break": true },
+      {
+        "paragraph": true,
+        "text": "I love Jehovah, because he heareth",
+        "break": true
+      },
       { "text": "My voice and my supplications.", "break": true }
     ]
   },
@@ -27811,7 +28108,11 @@
     "verse": 1,
     "content": [
       { "heading": "A psalm of praise." },
-      { "text": "O praise Jehovah, all ye nations;", "break": true },
+      {
+        "paragraph": true,
+        "text": "O praise Jehovah, all ye nations;",
+        "break": true
+      },
       { "text": "Laud him, all ye peoples.", "break": true }
     ]
   },
@@ -27840,7 +28141,11 @@
     "verse": 1,
     "content": [
       { "heading": "Thanksgiving for Jehovah’s saving goodness." },
-      { "text": "Oh give thanks unto Jehovah; for he is good;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Oh give thanks unto Jehovah; for he is good;",
+        "break": true
+      },
       "For his lovingkindness ",
       { "text": "endureth", "marks": ["i"] },
       { "text": " for ever.", "break": true }
@@ -28209,6 +28514,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Blessed are they that are perfect in the way,",
         "break": true
       },
@@ -28302,7 +28608,11 @@
         "heading": [{ "text": "ב", "script": "H" }, " BETH."],
         "type": "acrostic"
       },
-      { "text": "Wherewith shall a young man cleanse his way?", "break": true },
+      {
+        "paragraph": true,
+        "text": "Wherewith shall a young man cleanse his way?",
+        "break": true
+      },
       "By taking heed ",
       { "text": "thereto", "marks": ["i"] },
       { "text": " according to thy word.", "break": true }
@@ -28384,6 +28694,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Deal bountifully with thy servant, that I may live;",
         "break": true
       },
@@ -28488,7 +28799,11 @@
         "heading": [{ "text": "ד", "script": "H" }, " DALETH."],
         "type": "acrostic"
       },
-      { "text": "My soul cleaveth unto the dust:", "break": true },
+      {
+        "paragraph": true,
+        "text": "My soul cleaveth unto the dust:",
+        "break": true
+      },
       { "text": "Quicken thou me according to thy word.", "break": true }
     ]
   },
@@ -28577,6 +28892,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Teach me, O Jehovah, the way of thy statutes;",
         "break": true
       },
@@ -28676,6 +28992,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Let thy lovingkindnesses also come unto me, O Jehovah,",
         "break": true
       },
@@ -28769,7 +29086,11 @@
         "heading": [{ "text": "ז", "script": "H" }, " ZAYIN."],
         "type": "acrostic"
       },
-      { "text": "Remember the word unto thy servant,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Remember the word unto thy servant,",
+        "break": true
+      },
       {
         "text": "Because ",
         "foot": {
@@ -28880,6 +29201,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Jehovah ",
         "foot": {
           "type": "trn",
@@ -28978,7 +29300,11 @@
         "heading": [{ "text": "ט", "script": "H" }, " TETH."],
         "type": "acrostic"
       },
-      { "text": "Thou hast dealt well with thy servant,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Thou hast dealt well with thy servant,",
+        "break": true
+      },
       { "text": "O Jehovah, according unto thy word.", "break": true }
     ]
   },
@@ -29058,6 +29384,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Thy hands have made me and fashio",
         "foot": {
           "type": "trn",
@@ -29177,7 +29504,11 @@
         "heading": [{ "text": "כ", "script": "H" }, " KAPH."],
         "type": "acrostic"
       },
-      { "text": "My soul fainteth for thy salvation;", "break": true },
+      {
+        "paragraph": true,
+        "text": "My soul fainteth for thy salvation;",
+        "break": true
+      },
       { "text": "But", "marks": ["i"] },
       { "text": " I hope in thy word.", "break": true }
     ]
@@ -29270,7 +29601,7 @@
         "heading": [{ "text": "ל", "script": "H" }, " LAMEDH."],
         "type": "acrostic"
       },
-      { "text": "For ever, O Jehovah,", "break": true },
+      { "paragraph": true, "text": "For ever, O Jehovah,", "break": true },
       { "text": "Thy word is settled in heaven.", "break": true }
     ]
   },
@@ -29372,7 +29703,7 @@
         "heading": [{ "text": "מ", "script": "H" }, " MEM."],
         "type": "acrostic"
       },
-      { "text": "Oh how love I thy law!", "break": true },
+      { "paragraph": true, "text": "Oh how love I thy law!", "break": true },
       { "text": "It is my meditation all the day.", "break": true }
     ]
   },
@@ -29477,7 +29808,11 @@
         "heading": [{ "text": "נ", "script": "H" }, " NUN."],
         "type": "acrostic"
       },
-      { "text": "Thy word is a lamp unto my feet,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Thy word is a lamp unto my feet,",
+        "break": true
+      },
       { "text": "And light unto my path.", "break": true }
     ]
   },
@@ -29565,7 +29900,11 @@
         "heading": [{ "text": "ס", "script": "H" }, " SAMEKH."],
         "type": "acrostic"
       },
-      { "text": "I hate them that are of a double mind;", "break": true },
+      {
+        "paragraph": true,
+        "text": "I hate them that are of a double mind;",
+        "break": true
+      },
       { "text": "But thy law do I love.", "break": true }
     ]
   },
@@ -29671,7 +30010,11 @@
         "heading": [{ "text": "ע", "script": "H" }, " AYIN."],
         "type": "acrostic"
       },
-      { "text": "I have done justice and righteousness:", "break": true },
+      {
+        "paragraph": true,
+        "text": "I have done justice and righteousness:",
+        "break": true
+      },
       { "text": "Leave me not to mine oppressors.", "break": true }
     ]
   },
@@ -29756,7 +30099,11 @@
         "heading": [{ "text": "פ", "script": "H" }, " PE."],
         "type": "acrostic"
       },
-      { "text": "Thy testimonies are wonderful;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Thy testimonies are wonderful;",
+        "break": true
+      },
       { "text": "Therefore doth my soul keep them.", "break": true }
     ]
   },
@@ -29838,7 +30185,11 @@
         "heading": [{ "text": "צ", "script": "H" }, " TSADHE."],
         "type": "acrostic"
       },
-      { "text": "Righteous art thou, O Jehovah,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Righteous art thou, O Jehovah,",
+        "break": true
+      },
       {
         "text": "And upright are thy ju",
         "foot": {
@@ -29960,6 +30311,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "I have called with my whole heart; answer me, O Jehovah:",
         "break": true
       },
@@ -30063,7 +30415,11 @@
         "heading": [{ "text": "ר", "script": "H" }, " RESH."],
         "type": "acrostic"
       },
-      { "text": "Consider mine affliction, and deliver me;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Consider mine affliction, and deliver me;",
+        "break": true
+      },
       { "text": "For I do not forget thy law.", "break": true }
     ]
   },
@@ -30155,7 +30511,11 @@
         "heading": [{ "text": "ש", "script": "H" }, " SHIN."],
         "type": "acrostic"
       },
-      { "text": "Princes have persecuted me without a cause;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Princes have persecuted me without a cause;",
+        "break": true
+      },
       { "text": "But my heart standeth in awe of thy words.", "break": true }
     ]
   },
@@ -30235,7 +30595,11 @@
         "heading": [{ "text": "ת", "script": "H" }, " TAV."],
         "type": "acrostic"
       },
-      { "text": "Let my cry come near before thee, O Jehovah:", "break": true },
+      {
+        "paragraph": true,
+        "text": "Let my cry come near before thee, O Jehovah:",
+        "break": true
+      },
       { "text": "Give me understanding according to thy word.", "break": true }
     ]
   },
@@ -30312,7 +30676,11 @@
     "content": [
       { "heading": "Prayer for deliverance from the treacherous." },
       { "subtitle": "A Song of Ascents." },
-      { "text": "In my distress I cried unto Jehovah,", "break": true },
+      {
+        "paragraph": true,
+        "text": "In my distress I cried unto Jehovah,",
+        "break": true
+      },
       { "text": "And he answered me.", "break": true }
     ]
   },
@@ -30400,7 +30768,11 @@
     "content": [
       { "heading": "Jehovah the keeper of his people." },
       { "subtitle": "A Song of Ascents." },
-      { "text": "I will lift up mine eyes unto the mountains:", "break": true },
+      {
+        "paragraph": true,
+        "text": "I will lift up mine eyes unto the mountains:",
+        "break": true
+      },
       { "text": "From whence shall my help come?", "break": true }
     ]
   },
@@ -30491,7 +30863,11 @@
     "content": [
       { "heading": "Prayer for the peace of Jerusalem." },
       { "subtitle": "A Song of Ascents; of David." },
-      { "text": "I was glad when they said unto me,", "break": true },
+      {
+        "paragraph": true,
+        "text": "I was glad when they said unto me,",
+        "break": true
+      },
       { "text": "Let us go unto the house of Jehovah.", "break": true }
     ]
   },
@@ -30627,7 +31003,11 @@
     "content": [
       { "heading": "An expectant prayer for Jehovah’s help." },
       { "subtitle": "A Song of Ascents." },
-      { "text": "Unto thee do I lift up mine eyes,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Unto thee do I lift up mine eyes,",
+        "break": true
+      },
       { "text": "O thou that sittest in the heavens.", "break": true }
     ]
   },
@@ -30679,6 +31059,7 @@
       { "heading": "Praise for rescue from enemies." },
       { "subtitle": "A Song of Ascents; of David." },
       {
+        "paragraph": true,
         "text": "If it had not been Jehovah who was on our side,",
         "break": true
       },
@@ -30764,7 +31145,11 @@
     "content": [
       { "heading": "Jehovah round about his people." },
       { "subtitle": "A Song of Ascents." },
-      { "text": "They that trust in Jehovah", "break": true },
+      {
+        "paragraph": true,
+        "text": "They that trust in Jehovah",
+        "break": true
+      },
       {
         "text": "Are as mount Zion, which cannot be moved, but abideth for ever.",
         "break": true
@@ -30832,6 +31217,7 @@
       { "heading": "Thanksgiving for return from captivity." },
       { "subtitle": "A Song of Ascents." },
       {
+        "paragraph": true,
         "text": "When Jehovah brought back those that returned to Zion,",
         "break": true
       },
@@ -30905,7 +31291,11 @@
     "content": [
       { "heading": "Prosperity comes from Jehovah." },
       { "subtitle": "A Song of Ascents; of Solomon." },
-      { "text": "Except Jehovah build the house,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Except Jehovah build the house,",
+        "break": true
+      },
       { "text": "They labor in vain that build it:", "break": true },
       { "text": "Except Jehovah keep the city,", "break": true },
       { "text": "The watchman waketh but in vain.", "break": true }
@@ -30974,7 +31364,11 @@
     "content": [
       { "heading": "Blessedness of the fear of Jehovah." },
       { "subtitle": "A Song of Ascents." },
-      { "text": "Blessed is every one that feareth Jehovah,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Blessed is every one that feareth Jehovah,",
+        "break": true
+      },
       { "text": "That walketh in his ways.", "break": true }
     ]
   },
@@ -31049,6 +31443,7 @@
       { "heading": "Prayer for the overthrow of Zion’s enemies." },
       { "subtitle": "A Song of Ascents." },
       {
+        "paragraph": true,
         "text": "Many a time have they afflicted me from my youth up,",
         "break": true
       },
@@ -31153,6 +31548,7 @@
       { "heading": "Hope in the Lord’s forgiving love." },
       { "subtitle": "A Song of Ascents." },
       {
+        "paragraph": true,
         "text": "Out of the depths have I cried unto thee, O Jehovah.",
         "break": true
       }
@@ -31244,6 +31640,7 @@
       { "heading": "Childlike trust in Jehovah." },
       { "subtitle": "A Song of Ascents; of David." },
       {
+        "paragraph": true,
         "text": "Jehovah, my heart is not haughty, nor mine eyes lofty;",
         "break": true
       },
@@ -31287,7 +31684,11 @@
     "content": [
       { "heading": "Prayer for Jehovah’s blessing upon the sanctuary." },
       { "subtitle": "A Song of Ascents." },
-      { "text": "Jehovah, remember for David", "break": true },
+      {
+        "paragraph": true,
+        "text": "Jehovah, remember for David",
+        "break": true
+      },
       { "text": "All his affliction;", "break": true }
     ]
   },
@@ -31534,7 +31935,11 @@
     "content": [
       { "heading": "The excellency of brotherly unity." },
       { "subtitle": "A Song of Ascents; of David." },
-      { "text": "Behold, how good and how pleasant it is", "break": true },
+      {
+        "paragraph": true,
+        "text": "Behold, how good and how pleasant it is",
+        "break": true
+      },
       { "text": "For brethren to dwell together in unity!", "break": true }
     ]
   },
@@ -31575,6 +31980,7 @@
       { "heading": "Greetings of night-watchers." },
       { "subtitle": "A Song of Ascents." },
       {
+        "paragraph": true,
         "text": "Behold, bless ye Jehovah, all ye servants of Jehovah,",
         "break": true
       },
@@ -31612,7 +32018,7 @@
     "verse": 1,
     "content": [
       { "heading": "Praise for Jehovah’s wonderful works. Vanity of idols." },
-      { "text": "Praise ye Jehovah.", "break": true },
+      { "paragraph": true, "text": "Praise ye Jehovah.", "break": true },
       { "text": "Praise ye the name of Jehovah;", "break": true },
       {
         "text": "Praise ",
@@ -31861,7 +32267,11 @@
     "verse": 1,
     "content": [
       { "heading": "Thanks for Jehovah’s goodness to Israel." },
-      { "text": "Oh give thanks unto Jehovah; for he is good;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Oh give thanks unto Jehovah; for he is good;",
+        "break": true
+      },
       "For his lovingkindness ",
       { "text": "endureth", "marks": ["i"] },
       { "text": " for ever.", "break": true }
@@ -32173,7 +32583,7 @@
     "verse": 1,
     "content": [
       { "heading": "Sorrows of the exiles in Babylon." },
-      { "text": "By the rivers of Babylon,", "break": true },
+      { "paragraph": true, "text": "By the rivers of Babylon,", "break": true },
       { "text": "There we sat down, yea, we wept,", "break": true },
       { "text": "When we remembered Zion.", "break": true }
     ]
@@ -32303,7 +32713,11 @@
     "content": [
       { "heading": "Thanksgiving for Jehovah’s favor." },
       { "subtitle": [{ "text": "A Psalm", "marks": ["i"] }, " of David."] },
-      { "text": "I will give thee thanks with my whole heart:", "break": true },
+      {
+        "paragraph": true,
+        "text": "I will give thee thanks with my whole heart:",
+        "break": true
+      },
       {
         "text": "Before the gods will I sing praises unto thee.",
         "break": true
@@ -32409,7 +32823,10 @@
     "content": [
       { "heading": "God’s omnipresence and omniscience." },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
-      "O Jehovah, thou hast searched me, and known ",
+      {
+        "paragraph": true,
+        "text": "O Jehovah, thou hast searched me, and known "
+      },
       { "text": "me", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
@@ -32759,7 +33176,11 @@
     "content": [
       { "heading": "Prayer for protection against persecutors." },
       { "subtitle": "For the Chief Musician. A Psalm of David." },
-      { "text": "Deliver me, O Jehovah, from the evil man;", "break": true },
+      {
+        "paragraph": true,
+        "text": "Deliver me, O Jehovah, from the evil man;",
+        "break": true
+      },
       { "text": "Preserve me from the violent man:", "break": true }
     ]
   },
@@ -32950,6 +33371,7 @@
       { "heading": "An evening prayer for sanctification and protection." },
       { "subtitle": "A Psalm of David." },
       {
+        "paragraph": true,
         "text": "Jehovah, I have called upon thee; make haste unto me:",
         "break": true
       },
@@ -33117,7 +33539,11 @@
     "content": [
       { "heading": "Prayer for help in trouble." },
       { "subtitle": "Maschil of David, when he was in the cave; a Prayer." },
-      { "text": "I cry with my voice unto Jehovah;", "break": true },
+      {
+        "paragraph": true,
+        "text": "I cry with my voice unto Jehovah;",
+        "break": true
+      },
       {
         "text": "With my voice unto Jehovah do I make supplication.",
         "break": true
@@ -33214,6 +33640,7 @@
       { "heading": "Prayer for deliverance and guidance." },
       { "subtitle": "A Psalm of David." },
       {
+        "paragraph": true,
         "text": "Hear my prayer, O Jehovah; give ear to my supplications:",
         "break": true
       },
@@ -33398,7 +33825,11 @@
     "content": [
       { "heading": "Prayer for rescue. A happy people described." },
       { "subtitle": [{ "text": "A Psalm", "marks": ["i"] }, " of David."] },
-      { "text": "Blessed be Jehovah my rock,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Blessed be Jehovah my rock,",
+        "break": true
+      },
       { "text": "Who teacheth my hands to war,", "break": true },
       { "text": "And", "marks": ["i"] },
       { "text": " my fingers to fight:", "break": true }
@@ -33605,7 +34036,11 @@
           " praise; of David."
         ]
       },
-      { "text": "I will extol thee, my God, O King;", "break": true },
+      {
+        "paragraph": true,
+        "text": "I will extol thee, my God, O King;",
+        "break": true
+      },
       { "text": "And I will bless thy name for ever and ever.", "break": true }
     ]
   },
@@ -33846,7 +34281,7 @@
     "verse": 1,
     "content": [
       { "heading": "Praise to Jehovah the abundant Helper." },
-      { "text": "Praise ye Jehovah.", "break": true },
+      { "paragraph": true, "text": "Praise ye Jehovah.", "break": true },
       {
         "text": "Praise Jehovah, O my ",
         "foot": {
@@ -33984,7 +34419,7 @@
     "verse": 1,
     "content": [
       { "heading": "Praise for Jerusalem’s restoration and prosperity." },
-      { "text": "Praise ye Jehovah;", "break": true },
+      { "paragraph": true, "text": "Praise ye Jehovah;", "break": true },
       {
         "text": "For it is good to sing praises unto o",
         "foot": {
@@ -34241,7 +34676,7 @@
     "verse": 1,
     "content": [
       { "heading": "The whole Creation invoked to praise Jehovah." },
-      { "text": "Praise ye Jehovah.", "break": true },
+      { "paragraph": true, "text": "Praise ye Jehovah.", "break": true },
       {
         "text": "Praise ye Jehovah from the h",
         "foot": {
@@ -34412,7 +34847,7 @@
     "verse": 1,
     "content": [
       { "heading": "Israel invoked to praise Jehovah." },
-      { "text": "Praise ye Jehovah.", "break": true },
+      { "paragraph": true, "text": "Praise ye Jehovah.", "break": true },
       {
         "text": "Sing unto Jehov",
         "foot": {
@@ -34543,7 +34978,7 @@
     "verse": 1,
     "content": [
       { "heading": "Call to praise God with musical instruments." },
-      { "text": "Praise ye Jehovah.", "break": true },
+      { "paragraph": true, "text": "Praise ye Jehovah.", "break": true },
       {
         "text": "Praise God in his sanctuar",
         "foot": {

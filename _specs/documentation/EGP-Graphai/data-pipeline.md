@@ -118,7 +118,14 @@ npm run audit-nodes                                 # audit every version, read-
 npx ts-node utils/auditNodes.ts WEBUS2020 --verbose   # audit one version, list every finding
 ```
 
-Unlike the cross-chapter link auditor above, this one never writes. Every invocation, `validate.ts`'s own included, is a read-only report, findings and all. Fixing what it surfaces is a manual pass over the corpus, not a flag away.
+Unlike the cross-chapter link auditor above, `auditNodes.ts` itself never writes — every invocation, `validate.ts`'s own included, is a read-only report, findings and all. Two of the seven checks have a separate fixer script that reuses the audit's own eligibility logic instead of re-deriving it:
+
+```bash
+npx ts-node utils/fixUnmergedNodes.ts YLT1898 --fix        # check 1: fold eligible connectors forward
+npx ts-node utils/fixHeadingParagraphs.ts WEBUS2020 --fix  # check 6: add the missing paragraph flag
+```
+
+The remaining five checks stay a manual pass over the corpus. See the [Strong's-node audit domain](../../ai-context/4-domains/strongs-node-audit.md) for which checks those are.
 
 ## Writing files
 

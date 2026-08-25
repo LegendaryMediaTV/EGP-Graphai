@@ -28,9 +28,10 @@
  *    checkVerseInitialSpace}.
  * 6. **Heading/subtitle not followed by a paragraph** — a heading- or
  *    subtitle-type node (any consecutive run of the two collapsed into one)
- *    whose own real next node fails to carry `paragraph: true`, in a book
- *    whose own real content elsewhere does pair the two. See {@link
- *    findHeadingParagraphMismatches}.
+ *    whose own real next node fails to carry `paragraph: true`. Flat and
+ *    corpus-wide: every heading or subtitle followed by anything that is
+ *    not itself a heading or subtitle opens a paragraph, in every version
+ *    and every book. See {@link findHeadingParagraphMismatches}.
  * 7. **Un-normalized fraction** — a node's own `text` still carrying a real
  *    fraction shape (an ASCII `N/M` slash, a precomposed vulgar-fraction
  *    glyph, or plain digits already separated by U+2044 but not yet
@@ -627,94 +628,7 @@ function skipsPastHeadingRun(node: unknown): boolean {
   return !shape.isBoundary && shape.text === undefined && !shape.hasNestedContent && !shape.opensParagraph;
 }
 
-/**
- * One heading/subtitle run collapsed out of a single verse's own outermost
- * content, paired with whatever node immediately follows the whole run —
- * before book-wide filtering (see {@link findHeadingParagraphMismatches})
- * decides whether it is a real finding.
- */
-interface HeadingParagraphCandidate {
-  /** The book id this run belongs to (e.g. `PSA`). */
-  book: string;
-  /** The chapter this run belongs to. */
-  chapter: number;
-  /** The verse this run belongs to. */
-  verse: number;
-  /** The collapsed run of one or more consecutive heading/subtitle nodes. */
-  run: readonly unknown[];
-  /** The node immediately after the whole run. */
-  next: unknown;
-  /**
-   * Whether this run's own verse is its chapter's own first verse,
-   * positionally — the first record with that chapter number in the book's
-   * own verse order, never assumed to be verse number 1. Excluded from
-   * counting as *evidence* the book pairs headings with paragraphs: real
-   * WEBUS2020 Song of Solomon 4:1 carries `{heading: "Lover"}` immediately
-   * followed by `paragraph: true`, but 3:1/7:1/8:1 — none of them carrying
-   * a heading at all — carry the identical `paragraph: true` too, purely
-   * because each one opens its own chapter, not because of any heading.
-   */
-  isChapterFirstVerse: boolean;
-  /** Whether the node right after the run actually opens a paragraph. */
-  nextOpensParagraph: boolean;
-}
-
-/**
- * Collapse every run of consecutive heading/subtitle nodes in one verse's
- * own outermost content into a single candidate, paired with whatever real
- * node follows the whole run — real WEBUS2020 Psalm 90:1 shape (`heading` →
- * `subtitle` → real content) needs both boundary nodes treated as one run:
- * checking each one's own literal next sibling separately would treat the
- * subtitle itself as the heading's own "next node" (never `paragraph:
- * true`) and produce a spurious finding, instead of judging the run as a
- * whole against the one real node that actually follows it.
- *
- * Never recurses past a verse's own outermost array: a heading/subtitle
- * never occurs nested inside a `ContentNested` wrapper's own content or a
- * footnote body in this corpus, and never sits as the very last node of a
- * verse either, so "the node right after the run" always exists for every
- * run this function sees.
- *
- * "The node right after the run" skips forward past any {@link
- * skipsPastHeadingRun} node before landing on `next` — real YLT1898 1
- * Corinthians 7:1 puts a footnote-only chapter-summary node between the
- * heading and the real, correctly-flagged paragraph text, and that
- * in-between node renders nothing a reader would ever see.
- */
-function collapseHeadingRuns(
-  verse: VerseRecord,
-  isChapterFirstVerse: boolean,
-): HeadingParagraphCandidate[] {
-  const nodes = asArray(verse.content);
-  const candidates: HeadingParagraphCandidate[] = [];
-
-  let at = 0;
-  while (at < nodes.length) {
-    if (!isHeadingOrSubtitle(nodes[at])) {
-      at++;
-      continue;
-    }
-    let end = at;
-    while (end < nodes.length && isHeadingOrSubtitle(nodes[end])) end++;
-    let nextIndex = end;
-    while (nextIndex < nodes.length && skipsPastHeadingRun(nodes[nextIndex])) nextIndex++;
-    const next = nodes[nextIndex];
-    candidates.push({
-      book: verse.book,
-      chapter: verse.chapter,
-      verse: verse.verse,
-      run: nodes.slice(at, end),
-      next,
-      isChapterFirstVerse,
-      nextOpensParagraph: describeNode(next).opensParagraph,
-    });
-    at = nextIndex + 1;
-  }
-
-  return candidates;
-}
-
-/** One heading/subtitle run whose own real next node fails to open a paragraph, in a book whose own real content elsewhere does pair the two. */
+/** One heading/subtitle run whose own real next node fails to open a paragraph. */
 export interface HeadingParagraphFinding {
   /** The book id this finding belongs to (e.g. `AMS`). */
   book: string;
@@ -726,55 +640,78 @@ export interface HeadingParagraphFinding {
   run: readonly unknown[];
   /** The node immediately after the run — the one that should have carried `paragraph: true` and didn't. */
   next: unknown;
+  /** Where the offending node sits in the verse's own outermost content, so a fixer can reach it without rediscovering the run. */
+  nextIndex: number;
 }
 
 /**
- * Resolve every heading/subtitle-run finding across one whole book's own
- * verses at once. Unlike checks 1-5, this one cannot decide anything from a
- * single verse in isolation: whether a given run is a real anomaly depends
- * on whether *this book* ever pairs a heading/subtitle with a following
- * paragraph at all. WEBUS2020's own poetry books — Psalms, Song of Solomon,
- * Psalm 151 — genuinely never do: WEB's own translators never place a
- * paragraph marker inside sustained poetry, headings or not, so flagging
- * every one of their real headings would fail a correct import for no
- * defect at all.
+ * Every heading/subtitle run in one verse's own outermost content whose own
+ * real next node fails to open a paragraph.
  *
- * A book is judged to use the convention only once real evidence exists: a
- * heading/subtitle run, sitting anywhere other than its own chapter's first
- * verse, whose real next node does open a paragraph (a chapter-opening
- * heading paired with a real paragraph start, or a later mid-book
- * heading+subtitle run doing the same, both supply this, among others). The
- * chapter-first exclusion exists only for *this* evidence-gathering step —
- * see {@link HeadingParagraphCandidate.isChapterFirstVerse}'s own doc
- * comment for why Song of Solomon 4:1 cannot be trusted as real evidence.
- * Once real evidence exists anywhere in the book, every run in the book —
- * chapter-first or not — is held to that same convention; a book with no real
- * evidence at all reports nothing, by construction, rather than an
- * allowlist of accepted findings living beside a check that still nominally
- * disagrees with the real corpus.
+ * Consecutive heading/subtitle nodes collapse into a single run before the
+ * node after them is judged — real WEBUS2020 Psalm 90:1 shape (`heading` →
+ * `subtitle` → real content) needs both boundary nodes treated as one:
+ * checking each one's own literal next sibling separately would treat the
+ * subtitle itself as the heading's own "next node" (never `paragraph:
+ * true`) and produce a spurious finding, instead of judging the run as a
+ * whole against the one real node that actually follows it.
+ *
+ * "The node right after the run" skips forward past any {@link
+ * skipsPastHeadingRun} node before landing on `next` — real YLT1898 1
+ * Corinthians 7:1 puts a footnote-only chapter-summary node between the
+ * heading and the real, correctly-flagged paragraph text, and that
+ * in-between node renders nothing a reader would ever see.
+ *
+ * Never recurses past a verse's own outermost array: a heading/subtitle
+ * never occurs nested inside a `ContentNested` wrapper's own content or a
+ * footnote body in this corpus. A run with nothing after it at all reports
+ * nothing — there is no node for the convention to apply to.
+ */
+function findVerseHeadingParagraphMismatches(verse: VerseRecord): HeadingParagraphFinding[] {
+  const nodes = asArray(verse.content);
+  const findings: HeadingParagraphFinding[] = [];
+
+  let at = 0;
+  while (at < nodes.length) {
+    if (!isHeadingOrSubtitle(nodes[at])) {
+      at++;
+      continue;
+    }
+    let end = at;
+    while (end < nodes.length && isHeadingOrSubtitle(nodes[end])) end++;
+    let nextIndex = end;
+    while (nextIndex < nodes.length && skipsPastHeadingRun(nodes[nextIndex])) nextIndex++;
+
+    if (nextIndex < nodes.length && !describeNode(nodes[nextIndex]).opensParagraph) {
+      findings.push({
+        book: verse.book,
+        chapter: verse.chapter,
+        verse: verse.verse,
+        run: nodes.slice(at, end),
+        next: nodes[nextIndex],
+        nextIndex,
+      });
+    }
+    at = nextIndex + 1;
+  }
+
+  return findings;
+}
+
+/**
+ * Every heading/subtitle-run finding across one whole book's own verses.
+ *
+ * The convention is flat and corpus-wide: a heading or subtitle followed by
+ * anything that is not itself a heading or subtitle opens a paragraph, in
+ * every version and every book. No per-book judgment, no evidence
+ * gathering, no allowlist — a run either pairs or it is a finding.
  *
  * @param verses - One whole book's own verses, in their real on-disk order (matches {@link auditVersion}'s own per-file loop).
  */
 export function findHeadingParagraphMismatches(
   verses: readonly VerseRecord[],
 ): HeadingParagraphFinding[] {
-  const seenChapters = new Set<number>();
-  const candidates: HeadingParagraphCandidate[] = [];
-
-  for (const verse of verses) {
-    const isChapterFirstVerse = !seenChapters.has(verse.chapter);
-    seenChapters.add(verse.chapter);
-    candidates.push(...collapseHeadingRuns(verse, isChapterFirstVerse));
-  }
-
-  const usesConvention = candidates.some(
-    (candidate) => !candidate.isChapterFirstVerse && candidate.nextOpensParagraph,
-  );
-  if (!usesConvention) return [];
-
-  return candidates
-    .filter((candidate) => !candidate.nextOpensParagraph)
-    .map(({ book, chapter, verse, run, next }) => ({ book, chapter, verse, run, next }));
+  return verses.flatMap(findVerseHeadingParagraphMismatches);
 }
 
 // ---------------------------------------------------------------------------
@@ -998,7 +935,7 @@ export interface VersionAudit {
   markBoundarySpaces: readonly MarkBoundarySpaceFileFinding[];
   /** Check 5's findings, corpus-wide for this version. */
   verseInitialSpaces: readonly VerseInitialSpaceFileFinding[];
-  /** Check 6's findings, corpus-wide for this version — a heading/subtitle run not immediately followed by a real paragraph start, in a book that otherwise pairs the two. */
+  /** Check 6's findings, corpus-wide for this version — a heading/subtitle run not immediately followed by a real paragraph start. */
   headingParagraphMismatches: readonly HeadingParagraphFileFinding[];
   /** Check 7's findings, corpus-wide for this version — a node whose own text still carries a fraction shape not yet normalized to this repo's own convention. */
   fractionFindings: readonly FractionFinding[];
@@ -1170,7 +1107,7 @@ export function printFindingLines(summary: VersionAudit, verbose: boolean): void
     );
 
   console.log(
-    `  ${summary.headingParagraphMismatches.length} heading/subtitle run(s) not immediately followed by a real paragraph start, in a book that otherwise pairs the two`,
+    `  ${summary.headingParagraphMismatches.length} heading/subtitle run(s) not immediately followed by a real paragraph start`,
   );
   for (const finding of summary.headingParagraphMismatches.slice(0, cap)) {
     console.log(

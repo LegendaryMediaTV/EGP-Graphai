@@ -169,11 +169,9 @@ describe("buildFootnoteContent — fraction normalization", () => {
 /**
  * `capitalizeFootnoteOpening` (this module) runs on `pieces[0]` right
  * after the token walk builds it, so a footnote's own displayed text
- * starts with a capital letter — matching upstream `HEAD`'s real,
- * measured convention (27 real regressions plus a 42-case unnormalized
- * backlog, both capitalized alike), except WEB's own `or, <alternate>`
- * house style, which stays lowercase by design. Every fixture below is
- * real, verbatim raw USFM, read directly off
+ * starts with a capital letter — see that function's own doc comment for
+ * the measured upstream convention and the `or,` exception. Every fixture
+ * below is real, verbatim raw USFM, read directly off
  * `imports/webus2020/ebible-usfm/*.usfm`, matching this file's own
  * established discipline against hand-invented fixtures.
  */
@@ -320,12 +318,9 @@ describe("buildFootnoteContent — zero \\w/\\+w tags ever occur inside a footno
 });
 
 /**
- * `\fl` — a footnote sub-marker Esther-Greek carries 33 times, in no
- * 66-book canonical file at all. An unrecognized `\fl` falls through to
- * the generic "skip and keep walking" branch without updating
- * `currentSubMarker`, so its own text — and the text of whatever sub-marker
- * follows it — would silently drop or misattach if it were not a member of
- * `KEPT_SUB_MARKERS`. Every fixture below is real, verbatim
+ * `\fl` — a footnote sub-marker Esther-Greek carries 33 times, absent from
+ * every 66-book canonical file (`KEPT_SUB_MARKERS`'s own doc comment
+ * explains why it must stay kept). Every fixture below is real, verbatim
  * `43-ESGeng-web.usfm` text.
  */
 describe("buildFootnoteContent — \\fl (Esther-Greek's own footnote label sub-marker)", () => {
@@ -495,17 +490,11 @@ describe("buildFootnoteContent — an \\f body that is nothing but a reference r
 });
 
 /**
- * Every one of the 16 real `\ip` blocks (14 files, Esther-Greek and
- * Sirach carrying two apiece) becomes a footnote on that book's own verse
- * 1:1. `\ip` is unpaired (no `\ip*`) and, like `\d`/`\sp`/`\s1`, its own
- * span ends at the next marker of any kind — but unlike those constructs,
- * `\ip` bodies carry no `\fr`/`\ft`/`\fq` sub-marker grammar of their own
- * at all (every one of the 16 is bare prose, occasionally wrapping a `\bk`
- * book-title citation), so `buildFootnoteContent`'s own sub-marker-aware
- * walk has nothing to key `currentSubMarker` off unless this wraps the
- * span in a synthetic `\ft` marker first — literal reuse of that
- * function's own body-building and classification logic, rather than a
- * second, parallel body-builder.
+ * Every one of the 16 real `\ip` blocks (14 files, Esther-Greek and Sirach
+ * carrying two apiece) becomes a footnote on that book's own verse 1:1,
+ * built by wrapping the span in a synthetic `\ft` marker and reusing
+ * `buildFootnoteContent` unchanged — see that function's own doc comment
+ * for why `\ip` needs this treatment.
  */
 describe("buildIntroParagraphFootnote — \\ip", () => {
   /** Finds the first `\ip` marker in `raw` and builds its footnote, mirroring `footnoteFrom`'s own shape for `\f`. */

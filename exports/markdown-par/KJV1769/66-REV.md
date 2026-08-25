@@ -238,7 +238,7 @@
 <sup>20</sup> And the rest of the men which were not killed by these plagues yet repented not of the works of their hands, that they should not worship devils, and idols of gold, and silver, and brass, and stone, and of wood: which neither can see, nor hear, nor walk:
 <sup>21</sup> neither repented they of their murders, nor of their sorceries, nor of their fornication, nor of their thefts.
 
-> - <sup>a</sup> 11. that is _to say, A destroyer_
+> - <sup>a</sup> 11. That is _to say, A destroyer_
 > - <sup>b</sup> 15. Or, _at_
 
 ## Chapter 10

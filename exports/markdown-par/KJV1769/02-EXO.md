@@ -62,7 +62,7 @@
 <sup>24</sup> And God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob.
 <sup>25</sup> And God looked upon the children of Israel, and God had respect<sup>d</sup> unto _them_.
 
-> - <sup>a</sup> 10. that is, _Drawn out_
+> - <sup>a</sup> 10. That is, _Drawn out_
 > - <sup>b</sup> 14. Heb. _A man a Prince_
 > - <sup>c</sup> 16. Or, _Prince_
 > - <sup>d</sup> 25. Heb. _knew_
@@ -619,7 +619,7 @@
 
 > - <sup>a</sup> 9. Or, _repossess_
 > - <sup>b</sup> 11. Or, _mighty ones?_
-> - <sup>c</sup> 23. that is, _Bitterness_
+> - <sup>c</sup> 23. That is, _Bitterness_
 
 ## Chapter 16
 
@@ -694,9 +694,9 @@
 <sup>15</sup> And Moses built an altar, and called the name of it Jehovah-nissi:
 <sup>16</sup> for he said, Because the LORD hath sworn _that_ the LORD _will have_ war with Amalek<sup>d</sup> from generation to generation.
 
-> - <sup>a</sup> 7. that is, _Temptation_
+> - <sup>a</sup> 7. That is, _Temptation_
 > - <sup>b</sup> 7. That is, _Chiding_, or, _strife_
-> - <sup>c</sup> 9. called _Jesus, Acts. 7.45_
+> - <sup>c</sup> 9. Called _Jesus,_ _Acts. 7.45_
 > - <sup>d</sup> 16. Or, _because the hand of Amalek is against the throne of the LORD, therefore etc_. Heb. _The hand upon the throne of the Lord_
 
 ## Chapter 18
@@ -735,8 +735,8 @@
 <sup>26</sup> And they judged the people at all seasons: the hard causes they brought unto Moses, but every small matter they judged themselves.
 <sup>27</sup> And Moses let his father in law depart; and he went his way into his own land.
 
-> - <sup>a</sup> 3. that is, _A stranger there_
-> - <sup>b</sup> 4. that is, _my God is an help_
+> - <sup>a</sup> 3. That is, _A stranger there_
+> - <sup>b</sup> 4. That is, _my God is an help_
 > - <sup>c</sup> 7. Heb. _peace_
 > - <sup>d</sup> 8. Heb. _found them_
 > - <sup>e</sup> 16. Heb. _a man and his fellow_
@@ -885,7 +885,7 @@ And the LORD said unto Moses, Thus thou shalt say unto the children of Israel, Y
 > - <sup>c</sup> 8. Heb. _be evil in the eyes of_, etc
 > - <sup>d</sup> 17. Or, _revileth_
 > - <sup>e</sup> 18. Or, _his neighbour_
-> - <sup>f</sup> 19. _ceasing_
+> - <sup>f</sup> 19. _Ceasing_
 > - <sup>g</sup> 20. Heb. _avenged_
 
 ## Chapter 22
@@ -1283,7 +1283,7 @@ And the LORD said unto Moses, Thus thou shalt say unto the children of Israel, Y
 
 > - <sup>a</sup> 9. Heb. _bind_
 > - <sup>b</sup> 9. Heb. _fill the hand of_
-> - <sup>c</sup> 13. _it seemeth by anatomy, and the Hebrew doctors, to be the midriff_
+> - <sup>c</sup> 13. _It seemeth by anatomy, and the Hebrew doctors, to be the midriff_
 > - <sup>d</sup> 17. Or, _upon_
 > - <sup>e</sup> 24. Or, _shake to and fro_
 > - <sup>f</sup> 30. Heb. _he of his sons_

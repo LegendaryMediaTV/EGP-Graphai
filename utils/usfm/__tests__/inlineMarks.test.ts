@@ -156,13 +156,9 @@ describe("buildRunNodes — the leading-space convention, whitespace folding, an
   });
 
   it("should fold a marks-less joining space (John 14:16's own footnote-interrupted gap between two \\wj spans) onto its next neighbor unconditionally, letting the untagged word before it then find a real forward target across what was the gap", () => {
-    // This models a real WEBUS2020 shape: a footnote sits between two \wj
-    // spans, leaving one leftover space token with no marks of its own
-    // between them. Folding it forward unconditionally lets "that" become
-    // the marks-matching neighbor "Counselor," needs —
-    // content-schema.json can't record "these two woc-marked nodes came
-    // from separate \wj pairs" anyway, so marks continuity, not
-    // marker-pair identity, is the only meaning "same span" can have here.
+    // content-schema.json has no way to record which \wj pair a woc-marked
+    // node came from, so marks continuity — not marker-pair identity — is
+    // the only signal "same span" can rely on here.
     const nodes = buildRunNodes([
       { text: "another", strong: "G3588", marks: ["woc"] },
       { text: " Counselor,", marks: ["woc"] },

@@ -2509,6 +2509,7 @@
 <sup>8</sup> Thy statutes I keep, leave me not utterly!<br>
 
 #### ב Beth
+
 <sup>9</sup> With what doth a young man purify his path? To observe—according to Thy word.<br>
 <sup>10</sup> With all my heart I have sought Thee, Let me not err from Thy commands.<br>
 <sup>11</sup> In my heart I have hid Thy saying, That I sin not before Thee.<br>
@@ -2519,6 +2520,7 @@
 <sup>16</sup> In Thy statutes I delight myself, I do not forget Thy word.<br>
 
 #### ג Gimel
+
 <sup>17</sup> Confer benefits on Thy servant, I live, and I keep Thy word.<br>
 <sup>18</sup> Uncover mine eyes, and I behold wonders out of Thy law.<br>
 <sup>19</sup> A sojourner I _am_ on earth, Hide not from me Thy commands.<br>
@@ -2529,6 +2531,7 @@
 <sup>24</sup> Thy testimonies also _are_ my delight, The men of my counsel!<br>
 
 #### ד Daleth
+
 <sup>25</sup> Cleaved to the dust hath my soul, Quicken me according to Thy word.<br>
 <sup>26</sup> My ways I have recounted, And Thou answerest me, teach me Thy statutes,<br>
 <sup>27</sup> The way of Thy precepts cause me to understand, And I meditate in Thy wonders.<br>
@@ -2539,6 +2542,7 @@
 <sup>32</sup> The way of Thy commands I run, For Thou dost enlarge my heart!<br>
 
 #### ה He
+
 <sup>33</sup> Show me, O Jehovah, the way of Thy statutes, And I keep it—_to_ the end.<br>
 <sup>34</sup> Cause me to understand, and I keep Thy law, And observe it with the whole heart.<br>
 <sup>35</sup> Cause me to tread in the path of Thy commands, For in it I have delighted.<br>
@@ -2549,6 +2553,7 @@
 <sup>40</sup> Lo, I have longed for Thy precepts, In Thy righteousness quicken Thou me,<br>
 
 #### ו Waw
+
 <sup>41</sup> And meet me doth Thy kindness, O Jehovah, Thy salvation according to Thy saying.<br>
 <sup>42</sup> And I answer him who is reproaching me a word, For I have trusted in Thy word.<br>
 <sup>43</sup> And Thou takest not utterly away From my mouth the word of truth, Because for Thy judgment I have hoped.<br>
@@ -2559,6 +2564,7 @@
 <sup>48</sup> And I lift up my hands unto Thy commands, That I have loved, And I do meditate on Thy statutes!<br>
 
 #### ז Zain
+
 <sup>49</sup> Remember the word to Thy servant, On which Thou hast caused me to hope.<br>
 <sup>50</sup> This _is_ my comfort in mine affliction, That Thy saying hath quickened me.<br>
 <sup>51</sup> The proud have utterly scorned me, From Thy law I have not turned aside.<br>
@@ -2569,6 +2575,7 @@
 <sup>56</sup> This hath been to me, That Thy precepts I have kept!<br>
 
 #### ח Cheth
+
 <sup>57</sup> My portion _is_ Jehovah; I have said—to keep Thy words,<br>
 <sup>58</sup> I appeased Thy face with the whole heart, Favour me according to Thy saying.<br>
 <sup>59</sup> I have reckoned my ways, And turn back my feet unto Thy testimonies.<br>
@@ -2579,6 +2586,7 @@
 <sup>64</sup> Of Thy kindness, O Jehovah, the earth is full, Thy statutes teach Thou me!<br>
 
 #### ט Teth
+
 <sup>65</sup> Good Thou didst with Thy servant, O Jehovah, According to Thy word.<br>
 <sup>66</sup> The goodness of reason and knowledge teach me, For in Thy commands I have believed.<br>
 <sup>67</sup> Before I am afflicted, I—I am erring, And now Thy saying I have kept.<br>
@@ -2589,6 +2597,7 @@
 <sup>72</sup> Better to me _is_ the law of Thy mouth Than thousands of gold and silver!<br>
 
 #### י Yod
+
 <sup>73</sup> Thy hands made me and establish me, Cause me to understand, and I learn Thy commands.<br>
 <sup>74</sup> Those fearing Thee see me and rejoice, Because for Thy word I have hoped.<br>
 <sup>75</sup> I have known, O Jehovah, That righteous _are_ Thy judgments, And _in_ faithfulness Thou hast afflicted me.<br>
@@ -2599,6 +2608,7 @@
 <sup>80</sup> My heart is perfect in Thy statutes, So that I am not ashamed.<br>
 
 #### כ Kaph
+
 <sup>81</sup> Consumed for Thy salvation hath been my soul, For Thy word I have hoped.<br>
 <sup>82</sup> Consumed have been mine eyes for Thy word, Saying, “When doth it comfort me?”<br>
 <sup>83</sup> For I have been as a bottle in smoke, Thy statutes I have not forgotten.<br>
@@ -2609,6 +2619,7 @@
 <sup>88</sup> According to Thy kindness quicken Thou me, And I keep the testimony of Thy mouth!<br>
 
 #### ל Lamed
+
 <sup>89</sup> To the age, O Jehovah, Thy word is set up in the heavens.<br>
 <sup>90</sup> To all generations Thy faithfulness, Thou didst establish earth, and it standeth.<br>
 <sup>91</sup> According to Thine ordinances They have stood this day, for the whole _are_ Thy servants.<br>
@@ -2619,6 +2630,7 @@
 <sup>96</sup> Of all perfection I have seen an end, Broad _is_ Thy command—exceedingly!<br>
 
 #### מ Mem
+
 <sup>97</sup> O how I have loved Thy law! All the day it _is_ my meditation.<br>
 <sup>98</sup> Than mine enemies Thy command maketh me wiser, For it _is_ before me to the age.<br>
 <sup>99</sup> Above all my teachers I have acted wisely. For Thy testimonies _are_ my meditation.<br>
@@ -2629,6 +2641,7 @@
 <sup>104</sup> From Thy precepts I have understanding, Therefore I have hated every false path!<br>
 
 #### נ Nun
+
 <sup>105</sup> A lamp to my foot _is_ Thy word, And a light to my path.<br>
 <sup>106</sup> I have sworn, and I confirm _it_, To keep the judgments of Thy righteousness.<br>
 <sup>107</sup> I have been afflicted very much, O Jehovah, quicken me, according to Thy word.<br>
@@ -2639,6 +2652,7 @@
 <sup>112</sup> I have inclined my heart To do Thy statutes, to the age—_to_ the end!<br>
 
 #### ס Samech
+
 <sup>113</sup> Doubting ones I have hated, And Thy law I have loved.<br>
 <sup>114</sup> My hiding place and my shield _art_ Thou, For Thy word I have hoped.<br>
 <sup>115</sup> Turn aside from me, ye evil-doers, And I keep the commands of my God.<br>
@@ -2649,6 +2663,7 @@
 <sup>120</sup> Trembled from Thy fear hath my flesh, And from Thy judgments I have been afraid!<br>
 
 #### ע Ain
+
 <sup>121</sup> I have done judgment and righteousness, Leave me not to mine oppressors.<br>
 <sup>122</sup> Make sure Thy servant for good, Let not the proud oppress me.<br>
 <sup>123</sup> Mine eyes have been consumed for Thy salvation. And for the saying of Thy righteousness.<br>
@@ -2659,6 +2674,7 @@
 <sup>128</sup> Therefore all my appointments I have declared wholly right, Every path of falsehood I have hated!<br>
 
 #### פ Pe
+
 <sup>129</sup> Wonderful _are_ Thy testimonies, Therefore hath my soul kept them.<br>
 <sup>130</sup> The opening of Thy words enlighteneth, Instructing the simple.<br>
 <sup>131</sup> My mouth I have opened, yea, I pant, For, for Thy commands I have longed.<br>
@@ -2669,6 +2685,7 @@
 <sup>136</sup> Rivulets of waters have come down mine eyes, Because they have not kept Thy law!<br>
 
 #### צ Tzade
+
 <sup>137</sup> Righteous _art_ Thou, O Jehovah, And upright _are_ Thy judgments.<br>
 <sup>138</sup> Thou hast appointed Thy testimonies, Righteous and exceeding faithful,<br>
 <sup>139</sup> Cut me off hath my zeal, For mine adversaries forgot Thy words.<br>
@@ -2679,6 +2696,7 @@
 <sup>144</sup> The righteousness of Thy testimonies _is_ to Cause me to understand, and I live!<br>
 
 #### ק Koph
+
 <sup>145</sup> I have called with the whole heart, Answer me, O Jehovah, Thy statutes I keep,<br>
 <sup>146</sup> I have called Thee, save Thou me, And I do keep Thy testimonies.<br>
 <sup>147</sup> I have gone forward in the dawn, and I cry, For Thy word I have hoped.<br>
@@ -2689,6 +2707,7 @@
 <sup>152</sup> Of old I have known Thy testimonies, That to the age Thou hast founded them!<br>
 
 #### ר Resh
+
 <sup>153</sup> See my affliction, and deliver Thou me, For Thy law I have not forgotten.<br>
 <sup>154</sup> Plead my plea, and redeem me, According to Thy saying quicken me.<br>
 <sup>155</sup> Far from the wicked _is_ salvation, For Thy statutes they have not sought.<br>
@@ -2699,6 +2718,7 @@
 <sup>160</sup> The sum of Thy word _is_ truth, And to the age _is_ every judgment of Thy righteousness!<br>
 
 #### ש Shin
+
 <sup>161</sup> Princes have pursued me without cause, And because of Thy words was my heart afraid.<br>
 <sup>162</sup> I do rejoice concerning Thy saying, As one finding abundant spoil.<br>
 <sup>163</sup> Falsehood I have hated, yea I abominate _it_, Thy law I have loved.<br>
@@ -2709,6 +2729,7 @@
 <sup>168</sup> I have kept Thy precepts and Thy testimonies, For all my ways are before Thee!<br>
 
 #### ת Taw
+
 <sup>169</sup> My loud cry cometh near before Thee, O Jehovah; According to Thy word cause me to understand.<br>
 <sup>170</sup> My supplication cometh in before Thee, According to Thy saying deliver Thou me.<br>
 <sup>171</sup> My lips do utter praise, For Thou dost teach me Thy statutes.<br>

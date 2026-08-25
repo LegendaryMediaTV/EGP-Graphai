@@ -146,9 +146,8 @@ export function buildHeadingSpanContent(tokens: readonly Token[], startIndex: nu
 
     // A marker, or any other open/close pair — never observed inside a
     // \d/\sp span in the in-scope corpus beyond the cases above, but this
-    // is the correct, general stopping condition either way: nothing here
-    // assumes one of those other shapes exists, and the caller resumes its
-    // own dispatch from this exact, unconsumed token.
+    // is the correct, general stopping condition regardless: nothing here
+    // assumes one of those other shapes actually exists.
     break;
   }
 

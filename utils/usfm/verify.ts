@@ -914,24 +914,16 @@ const FOOTNOTE_SPAN_PATTERN = /\\f\s?\+?\s*(.*?)\\f\*/gs;
 
 /**
  * Splits a footnote span's own inner text at each `\fr`/`\ft`/`\fq`/`\fqa`/
- * `\fl` sub-marker boundary. `fqa` must be tried before `fq` in the
- * alternation — regex alternation matches the first alternative that
- * succeeds at a given position, so `fq|fqa` would match the 2-character
- * `fq` prefix of every real `\fqa` occurrence and leave its own trailing `a`
- * behind as a stray, spurious plain-text character (this bug produced a
- * real, wrong extra "a" in this verifier's own raw-body extraction for
- * every footnote using `\fqa` — e.g. 2 Chronicles 36:2, 1 Timothy 1:1 —
- * caught by this verifier's own character-reconciliation check disagreeing
- * with the importer's real, correctly-tokenized output, exactly the kind of
- * independent-mechanism bug guide §5 says this comparison exists to catch).
+ * `\fl` sub-marker boundary. `fqa` must be tried before `fq` — regex
+ * alternation matches the first alternative that succeeds at a given
+ * position, so `fq|fqa` would match `\fqa`'s own `fq` prefix and leave its
+ * trailing `a` behind as spurious plain text (a real bug this verifier's
+ * own character-reconciliation check caught, e.g. 2 Chronicles 36:2).
  *
- * `fl` — Esther-Greek's own footnote-label sub-marker, occurring
- * zero times in the 66-book canonical corpus — joined the alternation for
- * the identical reason `usfm/footnotes.ts`'s own `KEPT_SUB_MARKERS` did:
- * without it, this verifier's own independent extraction would disagree
- * with the real, corrected importer output the same way the pre-fix
- * importer itself once did, defeating the character-reconciliation check's
- * whole purpose for every Esther-Greek footnote.
+ * `fl` — Esther-Greek's own footnote-label sub-marker — joined the
+ * alternation for the identical reason `usfm/footnotes.ts`'s own
+ * `KEPT_SUB_MARKERS` did: without it, every Esther-Greek footnote would
+ * fail character-reconciliation the same way the pre-fix importer once did.
  */
 const FOOTNOTE_SUB_MARKER_PATTERN = /\\(fr|ft|fqa|fq|fl)\s*/;
 
@@ -957,27 +949,21 @@ export function extractFootnoteBodiesIn(source: string): ExtractedFootnote[] {
       if (parts[index] === "fr") continue;
       body += parts[index + 1] ?? "";
     }
-    // The close form (`\+wh*`) has nothing trailing it to consume — strip
-    // it first. The open form (`\+wh`) is always followed by exactly one
+    // Strip the close form (`\+wh*`) first — it has nothing trailing to
+    // consume. The open form (`\+wh`) is always followed by exactly one
     // mandatory marker-to-content separator space (`tokenize.ts`'s own
     // `skipSeparator()` convention), which is syntax, not content — strip
-    // it together with the marker itself, in that order, or the separator
-    // space is left behind as a stray leading space on the Hebrew word it
-    // introduces (a second real bug this verifier's own character-
-    // reconciliation check caught: Genesis 1:1's own "\+wh אֱלֹהִ֑ים\+wh*"
-    // was coming out as "“ אֱלֹהִ֑ים”" with a phantom space, not "“אֱלֹהִ֑ים”").
+    // marker and separator together, in that order, or the space is left
+    // behind on the Hebrew word it introduces (a real bug this verifier's
+    // own character-reconciliation check caught, on Genesis 1:1's own
+    // `\+wh`-tagged word).
     //
-    // `\+bk`/`\+bk*` (a nested-form book-title citation, real only inside
-    // Daniel-Greek's own 3 real footnotes) strips the same way, for a
-    // related but no longer identical reason: `usfm/footnotes.ts`'s own
-    // `buildFootnoteContent` does now dispatch specially on `\bk`/`\+bk`
-    // (Finding 6 — the enclosed text gets `marks: ["i"]`, the same mark
-    // `\fq`/`\fqa` already use), but the delimiters themselves are still
-    // markup, never content — the mark lands on the emitted node as a
-    // property, not as literal characters, so this verifier's own
-    // character-only comparison strips them exactly as it always did.
-    // {@link countNestedBkPairsIn} counts these same raw markers
-    // independently, for a different purpose (its own doc comment).
+    // `\+bk`/`\+bk*` (Daniel-Greek's own nested-form book-title citation)
+    // strips the same way: `usfm/footnotes.ts`'s `buildFootnoteContent` now
+    // tags this text `marks: ["i"]` (Finding 6), but the delimiters are
+    // still markup, not content, so this verifier's plain-text comparison
+    // strips them exactly as before. {@link countNestedBkPairsIn} counts
+    // these same raw markers independently, for a different purpose.
     results.push({
       plainText: body
         .replace(/\\\+wh\*/g, "")
@@ -1748,45 +1734,33 @@ function main(): void {
       strongAttributeTotal += countStrongAttributeNodes(verse.content);
     }
 
-    // Footnotes. Raw bodies are extracted in source order; every raw
-    // footnote participates in the position-paired comparison below,
-    // including the 3 that sit inside a `\d` superscription's own
-    // subtitle ({@link SUPERSCRIPTION_FOOTNOTES_IN_CORPUS}) — none
-    // excluded. Emitted footnotes are collected in the emitted JSON's own
-    // verse order — since the importer's own walk and this verifier's own
-    // regex both read the book strictly front to back, the Nth raw span
-    // and the Nth emitted `foot` object are the same footnote, letting
-    // this check compare them directly rather than only totalling each
-    // side.
+    // Footnotes are compared position-paired below, not just totalled:
+    // since both the importer's own walk and this verifier's own regex
+    // read the book strictly front to back, the Nth raw span and the Nth
+    // emitted `foot` object are the same footnote — including the 3 that
+    // sit inside a `\d` superscription's own subtitle (see
+    // {@link SUPERSCRIPTION_FOOTNOTES_IN_CORPUS}), none excluded.
     const rawFootnotes = extractFootnoteBodiesIn(source);
     const superscriptionFootnoteCount = rawFootnotes.filter((footnote) => footnote.precededByUnclosedHeading).length;
 
-    // 9 real `\f` bodies, corpus-wide, independently re-classify
-    // `xrf` (guide §6's own "nothing but a reference" test — real only in
-    // the deuterocanon corpus, see {@link REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS})
-    // and land in the emitted corpus's own `xrf` bucket, not the plain
-    // `foot` bucket a `\f`-derived body normally lands in. Excluded here so
-    // the position-paired walk below compares like with like; `\ip`-derived
-    // pseudo-footnotes (see {@link extractIntroParagraphsIn}) are prepended
-    // instead, since they
-    // always precede a book's own real `\f` spans in source order and
-    // always land in the same plain `foot` bucket.
+    // Reference-only bodies (see
+    // {@link REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS}) are excluded here
+    // so the position-paired walk below compares like with like;
+    // `\ip`-derived pseudo-footnotes (see {@link extractIntroParagraphsIn})
+    // are prepended instead, since they always precede a book's real `\f`
+    // spans in source order and land in the same plain `foot` bucket.
     const referenceOnlyRawFootnotes = rawFootnotes.filter((footnote) => classifyFootnote(footnote.plainText) === "xrf");
     const nonXrfRawFootnotes = rawFootnotes.filter((footnote) => classifyFootnote(footnote.plainText) !== "xrf");
     const rawIntroParagraphs = extractIntroParagraphsIn(source);
     const pairableRawFootnotes = [...rawIntroParagraphs, ...nonXrfRawFootnotes];
 
-    // Every `foot` object the emitted JSON carries, of *any* type — `\f`-
-    // derived and `\x`-derived alike, since `collectFootnotes`'s own
-    // recursive walk has no way to know which marker produced a given
-    // `foot` object, only what it looks like once built. Split by type
-    // immediately: every real `\x`-derived footnote always classifies
-    // `xrf` (`usfm/references.ts`'s own `buildCrossReferenceContent` —
-    // unconditionally), and so does a `\f`-derived one whose
-    // own body is nothing but a reference — `type === "xrf"` still cleanly
-    // separates the two buckets this verifier checks, just no longer
-    // exactly along marker-provenance lines the way it does in the 66-book
-    // canonical corpus alone.
+    // Every `foot` object is collected regardless of source marker
+    // (`collectFootnotes` has no way to know which produced it), then
+    // split on `type === "xrf"`: every `\x`-derived footnote and every
+    // reference-only `\f` body both classify `xrf` unconditionally, so
+    // this split still cleanly separates the two buckets even though
+    // marker provenance no longer maps to them 1:1 in the deuterocanon
+    // corpus.
     const allEmittedFootnotes: { type: unknown; content: unknown }[] = [];
     for (const verse of emitted) collectFootnotes(verse.content, allEmittedFootnotes);
     const emittedFootnotes = allEmittedFootnotes.filter((footnote) => footnote.type !== "xrf");
@@ -1799,12 +1773,11 @@ function main(): void {
     introParagraphTotal += rawIntroParagraphs.length;
     referenceOnlyFootnoteTotal += referenceOnlyRawFootnotes.length;
 
-    // Cross-references. Every real in-scope `\x` span attaches to an
-    // already-open verse (checked directly, corpus-wide: zero sit inside
-    // an unclosed `\d` heading the way 3 real `\f` spans do), so — unlike
-    // footnotes — there is no deferred count to subtract here. The emitted
-    // `xrf` bucket's own real source is two markers: every
-    // raw `\x` span, plus every reference-only `\f` body this book carries.
+    // Cross-references need no deferred count the way footnotes do: every
+    // real `\x` span attaches to an already-open verse (checked directly,
+    // corpus-wide — none sit inside an unclosed `\d` heading). The emitted
+    // `xrf` bucket's own source is two markers: every raw `\x` span, plus
+    // every reference-only `\f` body this book carries.
     const rawXrefs = extractCrossReferencesIn(source);
     xrefSpanTotal += rawXrefs.length;
     emittedXrefFootnoteTotal += emittedXrefFootnotes.length;
@@ -1857,21 +1830,18 @@ function main(): void {
 
     // Headings/subtitles. Raw counts, independent of
     // `usfm/headings.ts`'s own token-walking `buildHeadingSpanContent` —
-    // {@link extractHeadingMarkersIn} for the three marker names, and
-    // {@link extractSuperscriptionsIn} plus the shared, static
-    // `isAcrosticLetterName` table for the ordinary/acrostic split (the
-    // identical "small shared reference table, not a parsing mechanism"
-    // relationship this file's own `resolveBookId`/`classifyFootnote`
-    // imports already have — this module's own doc comment).
+    // {@link extractHeadingMarkersIn} for the three marker names,
+    // {@link extractSuperscriptionsIn} plus the shared `isAcrosticLetterName`
+    // table for the ordinary/acrostic split (see this file's own top doc
+    // comment for why sharing that table isn't a mechanism-sharing risk).
     const headingMarkers = extractHeadingMarkersIn(source);
     rawSuperscriptionTotal += headingMarkers.superscriptions;
     rawBookDivisionTotal += headingMarkers.bookDivisions;
     rawSpeakerLabelTotal += headingMarkers.speakerLabels;
-    // `\s1` dispatches through the identical `buildSpeakerHeading`
-    // function `\sp` itself uses, so its own raw count is tracked
-    // separately from `\sp`'s (see {@link SECTION_HEADINGS_IN_CORPUS}) even
-    // though the two share one emitted total (see
-    // {@link SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS}).
+    // `\s1` dispatches through the same `buildSpeakerHeading` function
+    // `\sp` uses, so it's tracked separately here (see
+    // {@link SECTION_HEADINGS_IN_CORPUS}) even though the two share one
+    // emitted total (see {@link SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS}).
     rawSectionHeadingTotal += extractSectionHeadingsIn(source).length;
 
     const rawSuperscriptions = extractSuperscriptionsIn(source);
@@ -1896,31 +1866,20 @@ function main(): void {
       else emittedSpeakerHeadingTotal++;
     }
 
-    // Numbers 21:14's own \bk/\bk* book-title citation — `usfm/
-    // segmentVerses.ts`'s own dedicated `insideBk` dispatch now tags its
-    // enclosed text `marks: ["i"]` (Finding 6), the same mark `\qs`/`\add`
-    // already use; the delimiters themselves still never appear in the
-    // emitted text, exactly as before. Verified here, not merely assumed:
-    // the raw corpus carries exactly 1 `\bk`/`\bk*` pair, and the one
-    // verse that carries it emits at least one `marks: ["i"]` node in its
-    // own content — no longer plain text, correcting this verifier's own
-    // prior Q4 finding, which held only until Finding 6 landed.
+    // Numbers 21:14's own \bk/\bk* citation now gets `marks: ["i"]`
+    // (Finding 6, correcting this verifier's own prior Q4 finding) — the
+    // same mark `\qs`/`\add` already use, with the delimiters still never
+    // appearing in the emitted text. Verified below, not assumed: exactly
+    // 1 `\bk`/`\bk*` pair exists, and that verse's content is no longer
+    // plain text.
     //
-    // The identical `insideBk`/`marks: ["i"]` dispatch also now governs
-    // every `\bk` citation inside a deuterocanon `\ip` block (17 pairs
-    // across the 16 real `\ip` blocks, unevenly spread — Baruch and
-    // Sirach's own first block each carry two, 2 Esdras carries three,
-    // the rest one apiece) and every `\+bk` (nested-form) citation inside
-    // Daniel-Greek's own 3 real footnotes (11 more pairs, real only
-    // there) — but every one of those 28 more real spans lives inside a
-    // `foot.content`, never at the top level of ordinary verse content,
-    // so none of them is reachable from `hasAnyMark(numbers21_14.content)`
-    // below or from {@link VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS}'s own
-    // verse-level scan — this verifier has no dedicated check confirming
-    // their own marks land correctly, a real gap named rather than
-    // silently left; `utils/usfm/__tests__/footnotes.test.ts` and
-    // `utils/usfm/__tests__/segmentVerses.test.ts` cover them directly,
-    // at the unit level, instead.
+    // The same dispatch also marks 28 more `\bk`/`\+bk` citations
+    // elsewhere in the corpus (inside deuterocanon `\ip` blocks and
+    // Daniel-Greek's own footnotes), but every one lives inside a
+    // `foot.content`, unreachable from this verse-level check or from
+    // {@link VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS}'s own scan — a real gap
+    // this verifier doesn't cover directly; `footnotes.test.ts` and
+    // `segmentVerses.test.ts` cover them at the unit level instead.
     bkMarkerTotal += (source.match(/\\bk\b/g) ?? []).length;
     if (book._id === "NUM") {
       const numbers21_14 = emitted.find((verse) => verse.chapter === 21 && verse.verse === 14);
@@ -1952,10 +1911,8 @@ function main(): void {
     // wider-corpus recon.
     tableMarkerTotal += countTableMarkersIn(source);
 
-    // Every marker name this book's own raw source carries must be
-    // accounted for — content-handled, chrome-dropped, or confirmed to
-    // occur zero times. Anything else is named directly, never silently
-    // absorbed.
+    // Every marker name here must land in one of the three buckets above
+    // — see this file's own top doc comment for the rule.
     for (const name of markerNamesIn(source)) {
       if (!CONTENT_HANDLED_MARKER_NAMES.has(name) && !CHROME_MARKER_NAMES.has(name) && !CONFIRMED_ZERO_MARKER_NAMES.has(name)) {
         unknownMarkerNames.add(`${name} (${book._id})`);
@@ -2031,12 +1988,10 @@ function main(): void {
       `${referenceOnlyFootnoteTotal} raw \\f body(ies) independently re-classify xrf ("nothing but a reference"); ${REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} are fixed in advance`,
     );
   }
-  // FOOTNOTES_DEFERRED_TO_PHASE_6 is permanently 0 — every raw \f body
-  // still attaches somewhere. Two more real adjustments apply to this
-  // relation: REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS's own 9 raw \f
-  // bodies move *out* of this bucket (into the xrf one, asserted below),
-  // and INTRO_PARAGRAPHS_IN_CORPUS's own 16 \ip-derived pseudo-footnotes
-  // move *in* (they carry no raw \f span of their own at all).
+  // FOOTNOTES_DEFERRED_TO_PHASE_6 is permanently 0 (see its own doc
+  // comment); the message below spells out the two further adjustments
+  // this relation makes for REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS and
+  // INTRO_PARAGRAPHS_IN_CORPUS.
   if (
     emittedFootnoteTotal !==
     FOOTNOTES_IN_CORPUS - FOOTNOTES_DEFERRED_TO_PHASE_6 - REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS + INTRO_PARAGRAPHS_IN_CORPUS
@@ -2055,10 +2010,9 @@ function main(): void {
       `${hebrewPairTotal} raw \\+wh...\\+wh* pair(s) across the corpus; ${HEBREW_SCRIPT_RUNS_IN_CORPUS} are fixed in advance`,
     );
   }
-  // HEBREW_SCRIPT_RUNS_DEFERRED_TO_PHASE_6 is permanently 0 — Psalm 90:0's
-  // own \+wh-tagged Hebrew word attaches inside its superscription's
-  // subtitle, so this equals HEBREW_SCRIPT_RUNS_IN_CORPUS exactly, no
-  // subtraction, still the same relation as before.
+  // HEBREW_SCRIPT_RUNS_DEFERRED_TO_PHASE_6 is permanently 0 (see its own
+  // doc comment) — this equals HEBREW_SCRIPT_RUNS_IN_CORPUS exactly, no
+  // subtraction.
   if (hebrewNodeTotal !== HEBREW_SCRIPT_RUNS_IN_CORPUS - HEBREW_SCRIPT_RUNS_DEFERRED_TO_PHASE_6) {
     mismatches.push(
       `${hebrewNodeTotal} emitted script:"H" node(s) across the corpus; ${HEBREW_SCRIPT_RUNS_IN_CORPUS} raw minus ${HEBREW_SCRIPT_RUNS_DEFERRED_TO_PHASE_6} deferred to Phase 6 = ${HEBREW_SCRIPT_RUNS_IN_CORPUS - HEBREW_SCRIPT_RUNS_DEFERRED_TO_PHASE_6} are fixed in advance`,
@@ -2077,9 +2031,9 @@ function main(): void {
   if (xrefSpanTotal !== XREF_SPANS_IN_CORPUS) {
     mismatches.push(`${xrefSpanTotal} raw \\x...\\x* span(s) across the corpus; ${XREF_SPANS_IN_CORPUS} are fixed in advance`);
   }
-  // The emitted xrf bucket's own real source is two markers — every raw
-  // \x span (no footnote-style deferral applies here) plus
-  // REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS's own 9 real \f bodies.
+  // Same two-marker source as the per-book check above: every raw \x
+  // span plus REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS's own real \f
+  // bodies.
   if (emittedXrefFootnoteTotal !== XREF_SPANS_IN_CORPUS + REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS) {
     mismatches.push(
       `${emittedXrefFootnoteTotal} emitted xrf foot object(s) across the corpus; ${XREF_SPANS_IN_CORPUS} raw \\x spans plus ${REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} reference-only \\f bodies = ${XREF_SPANS_IN_CORPUS + REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} are fixed in advance`,
@@ -2090,14 +2044,10 @@ function main(): void {
       `${unresolvedXrefTargetTotal} cross-reference target(s) left as plain text across the corpus; ${UNRESOLVED_XREF_TARGETS_IN_CORPUS} are fixed in advance (Hebrews 1:6's own siglum-suffixed "Deuteronomy 32:43 LXX")`,
     );
   }
-  // Asserted as a relation (guide §6), never a bare figure: a real run's
-  // own `regenerateDownstream` always calls `npm run audit-links <version>
-  // -- --fix` before `npm run validate`, so this verifier — run against
-  // whatever a real run actually left on disk — never finds the corpus
-  // resting in its pre-split state. The bare pre-split figure
-  // (`BIBLE_LINKS_IN_CORPUS`) and the number of splits that run performs
-  // (`CROSS_CHAPTER_RANGES`) are each fixed and named individually above;
-  // only their sum is a property this verifier can ever actually observe.
+  // Asserted as a relation, never a bare figure (see CROSS_CHAPTER_RANGES's
+  // own doc comment): a real run's `regenerateDownstream` always calls
+  // `npm run audit-links <version> -- --fix` before `npm run validate`, so
+  // this verifier never finds the corpus resting in its pre-split state.
   if (bibleLinkNodeTotal !== BIBLE_LINKS_IN_CORPUS + CROSS_CHAPTER_RANGES) {
     mismatches.push(
       `${bibleLinkNodeTotal} emitted bibleLink node(s) across the corpus; ${BIBLE_LINKS_IN_CORPUS} pre-split plus ${CROSS_CHAPTER_RANGES} cross-chapter split(s) = ${BIBLE_LINKS_IN_CORPUS + CROSS_CHAPTER_RANGES} are fixed in advance`,
@@ -2142,12 +2092,10 @@ function main(): void {
       `${emittedBookDivisionTotal} emitted book-division heading node(s) across the corpus; ${BOOK_DIVISION_HEADINGS_IN_CORPUS} are fixed in advance`,
     );
   }
-  // \sp and \s1 both dispatch through buildSpeakerHeading and are
-  // indistinguishable in the emitted JSON (see SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS's
-  // own doc comment) — this is the one combined figure the emitted corpus
-  // can actually be checked against, even though the raw side tracks the
-  // two markers separately (rawSpeakerLabelTotal/rawSectionHeadingTotal,
-  // asserted above).
+  // \sp and \s1 are indistinguishable once emitted (see
+  // SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS's own doc comment) — this is the
+  // one combined figure to check, even though the raw counts above are
+  // tracked separately.
   if (emittedSpeakerHeadingTotal !== SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS) {
     mismatches.push(
       `${emittedSpeakerHeadingTotal} emitted speaker/section heading node(s) across the corpus; ${SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS} are fixed in advance`,
@@ -2174,20 +2122,17 @@ function main(): void {
     );
   }
 
-  // The Strong's-tagging follow-up's own locking check (see
-  // STRONGS_ATTRIBUTES_IN_CORPUS's own doc comment): this corpus was
-  // deliberately regenerated with strongs: false, so zero emitted nodes
-  // should ever carry a real strong attribute again.
+  // The Strong's-tagging follow-up's own locking check — see
+  // STRONGS_ATTRIBUTES_IN_CORPUS's own doc comment for why this is
+  // permanently 0.
   if (strongAttributeTotal !== STRONGS_ATTRIBUTES_IN_CORPUS) {
     mismatches.push(
       `${strongAttributeTotal} emitted node(s) carry a "strong" attribute across the corpus; ${STRONGS_ATTRIBUTES_IN_CORPUS} are fixed in advance — this corpus was deliberately regenerated with strongs: false (see STRONGS_ATTRIBUTES_IN_CORPUS's own doc comment)`,
     );
   }
 
-  // The whole-corpus character-reconciliation sweep. Every marker name
-  // found anywhere in the 81 in-scope books must be content-handled,
-  // chrome-dropped, or confirmed to occur zero times — an unknown name is
-  // a bug to name here, not to silently absorb.
+  // Whole-corpus marker-inventory sweep — see this file's own top doc
+  // comment for the three-bucket rule every marker name must satisfy.
   if (unknownMarkerNames.size > 0) {
     mismatches.push(`${unknownMarkerNames.size} unaccounted-for marker name(s) found: ${[...unknownMarkerNames].join(", ")}`);
   }
@@ -2207,13 +2152,6 @@ function main(): void {
     `Words-of-Christ markers: ${wocMarkerTotal} raw (${WOC_SPANS_IN_CORPUS} source spans fixed in advance), ${wocRunTotal} emitted marks:["woc"] run(s) (${WOC_RUNS_IN_CORPUS} fixed in advance)`,
   );
   console.log(
-    // The console-only "fixed in advance" figure on the raw side was
-    // SELAH_MARKS_IN_CORPUS (74, half the real pair count) before this
-    // phase — the wrong constant for a raw marker total, though never a
-    // real mismatch risk, since only the `if` check above (correctly
-    // compared against SELAH_MARKERS_IN_CORPUS) can ever fail the run.
-    // Fixed here while already touching this line for Finding 6's own
-    // verse-level-run figure, below.
     `Selah markers: ${selahMarkerTotal} raw (${SELAH_MARKERS_IN_CORPUS} fixed in advance), ${selahRunTotal} emitted marks:["i"] run(s) at the top level of verse content (${VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS} fixed in advance — ${SELAH_MARKS_IN_CORPUS} real Selah instances plus 1 from Numbers 21:14's own \\bk citation, Finding 6)`,
   );
   console.log(

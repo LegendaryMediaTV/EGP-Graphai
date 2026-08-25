@@ -199,7 +199,7 @@
 <sup>30</sup> And no sin offering, whereof _any_ of the blood is brought into the tabernacle of the congregation to reconcile _withal_ in the holy _place_, shall be eaten: it shall be burnt in the fire.
 
 > - <sup>a</sup> 2. Or, _in dealing_
-> - <sup>b</sup> 2. _putting of the hand_
+> - <sup>b</sup> 2. _Putting of the hand_
 > - <sup>c</sup> 5. Or, _in the day of his being found guilty_: Heb. _in the day of his trespass_
 > - <sup>d</sup> 9. Or, _for the burning_
 
@@ -695,6 +695,7 @@
 <sup>1</sup> And the LORD spake unto Moses, saying,
 
 ### Sacrifices
+
 <sup>2</sup> Speak unto Aaron, and unto his sons, and unto all the children of Israel, and say unto them;
 
 This _is_ the thing which the LORD hath commanded, saying,

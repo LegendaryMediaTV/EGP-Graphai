@@ -222,6 +222,11 @@ export function segmentVerses(
   let pieces: string[] = [];
   let asidePieces: string[] = [];
   let started = false;
+  /**
+   * `true` from a {@link CHROME_DROPPED_MARKER_NAMES} marker until the next
+   * marker of any kind clears it — suppresses that span's own plain text
+   * and `\w`-wrapped words from joining the verse's content.
+   */
   let skipToNextMarker = false;
 
   // Block-tracking state, layered onto the `pieces` walk above without
@@ -496,6 +501,15 @@ export function segmentVerses(
     }
   };
 
+  /**
+   * Finalizes whatever has accumulated for the current verse into a
+   * {@link VerseRecord} and pushes it onto `records` — called at every
+   * `\v`/`\c` boundary, and once more after the last token. A no-op before
+   * the book's first `\v` (`started` still `false`). The two real edge
+   * cases it handles are documented at their own branches below: a verse
+   * whose entire content is a textual-variant footnote, and a verse with no
+   * fallback content at all.
+   */
   const flush = (): void => {
     if (!started) return;
     const rawContent = pieces.join("").replace(/\s+/g, " ").trim();
@@ -523,10 +537,8 @@ export function segmentVerses(
     // end of `currentVerseBlocks` belongs to *this* verse only if real
     // content actually followed it. When it is still sitting at the very
     // end with nothing real after it, that drain happened one verse too
-    // early (another real source's Song of Solomon 1:2 precedent: `\sp Beloved`
-    // between v1 and v2 belongs to v2, never v1) — reclaim it, in original
-    // order, back into the pending queue so the *next* verse's own first
-    // real push picks it up instead.
+    // early — reclaim it, in original order, back into the pending queue so
+    // the *next* verse's own first real push picks it up instead.
     let trailingHeadingCount = 0;
     while (
       trailingHeadingCount < currentVerseBlocks.length &&
@@ -676,20 +688,16 @@ export function segmentVerses(
     }
 
     if (token.type === "marker" && token.name === "ms1") {
-      // The chapter number alone is enough — the raw "BOOK 1" text itself
-      // is never read (see {@link bookDivisionBoundaryChapters}). `started`
-      // is always `false` here (every real in-scope `\ms1` sits directly
-      // after `\c N`, before any `\v`), so there is nothing else for this
-      // marker to disturb. `buildHeadingSpanContent`'s own `pieces` are
-      // discarded — only `nextIndex` matters — but reusing it to find the
-      // real boundary (rather than just `index++`) matters for real: this
-      // marker's own trailing text ("BOOK 2", real, non-whitespace
-      // content) would otherwise reach
-      // {@link suppressNextBareBreakAfterCleanBoundary}'s own guard as its
-      // own standalone text token and clear it, since that guard only
-      // ever whitelists whitespace-only text and specific marker names,
-      // never text content — Psalm 41:13→42:1's own real shape caught
-      // this directly (Finding 7).
+      // Only the chapter number matters (see {@link bookDivisionBoundaryChapters}
+      // for why). `buildHeadingSpanContent`'s own `pieces` are discarded —
+      // only `nextIndex` matters — but reusing it to find the real boundary
+      // (rather than just `index++`) matters for real: this marker's own
+      // trailing text ("BOOK 2", real, non-whitespace content) would
+      // otherwise reach {@link suppressNextBareBreakAfterCleanBoundary}'s
+      // own guard as its own standalone text token and clear it, since that
+      // guard only ever whitelists whitespace-only text and specific marker
+      // names, never text content — Psalm 41:13→42:1's own real shape
+      // caught this directly (Finding 7).
       bookDivisionBoundaryChapters.push(chapter);
       const { nextIndex } = buildHeadingSpanContent(tokens, index + 1);
       skipToNextMarker = false;
@@ -698,16 +706,13 @@ export function segmentVerses(
     }
 
     if (token.type === "marker" && token.name === "ip") {
-      // Every `\ip` block becomes a footnote on the book's own verse
-      // 1:1, attached to a textless leading node — resolved in the same
-      // end-of-book post-pass {@link bookDivisionBoundaryChapters} already
-      // uses, since a real in-scope `\ip` always sits in front matter,
-      // before `started` is ever `true`. `buildIntroParagraphFootnote` (not
-      // `buildFootnoteContent` directly — an `\ip` block carries no
-      // `\f`...`\f*` markers of its own) finds this span's own real
-      // boundary and hands it back unconsumed, the identical "next marker
-      // of any kind, never consumed" contract `usfm/headings.ts`'s
-      // `buildHeadingSpanContent` already establishes for `\d`/`\sp`/`\s1`.
+      // `buildIntroParagraphFootnote` (not `buildFootnoteContent` directly —
+      // an `\ip` block carries no `\f`...`\f*` markers of its own) finds
+      // this span's own real boundary and hands it back unconsumed, the
+      // identical "next marker of any kind, never consumed" contract
+      // `usfm/headings.ts`'s `buildHeadingSpanContent` already establishes
+      // for `\d`/`\sp`/`\s1`. See {@link introParagraphFootnotes} for how
+      // this resolves at end of book.
       const { footnote, nextIndex } = buildIntroParagraphFootnote(tokens, index + 1, canonBookIds);
       introParagraphFootnotes.push(footnote);
       skipToNextMarker = false;
@@ -722,20 +727,19 @@ export function segmentVerses(
       // when nothing has accumulated (the ordinary Psalm-superscription
       // case, chapter start, before any verse has opened).
       flushBlock(false);
-      // A speaker label opens the speech that follows it. Song of
-      // Solomon's own `\sp` marks a change of voice in a dialogue, and the
-      // line after it begins a new paragraph whether or not a `\b` or `\c`
-      // happens to sit beside the same boundary — which is why five of the
-      // book's own 33 labels already carried `paragraph: true` from a
-      // neighboring marker while the other 28 did not. Set here, after
-      // `flushBlock` has consumed any flag belonging to the block *before*
-      // the label, so it lands on the block after it instead.
+      // A heading opens whatever follows it. This repo's convention is
+      // flat and corpus-wide (`utils/auditNodes.ts`, check 6): a heading or
+      // subtitle followed by anything that is not itself a heading or
+      // subtitle carries `paragraph: true` on that next node, in every
+      // version and every book. The raw sources rarely write it — a `\sp`
+      // or `\d` is normally followed by a bare `\q1`, never a `\p` — so
+      // this dispatch supplies it rather than leaving the flag to whatever
+      // `\b` or `\c` happens to share the boundary.
       //
-      // The other three markers in this set are not speech boundaries and
-      // set nothing: a `\d` superscription sits above a psalm rather than
-      // opening it, and a `\qc` acrostic letter sits inside continuous
-      // poetry.
-      if (token.name === "sp") pendingParagraph = true;
+      // Set after `flushBlock`, which has already consumed any flag
+      // belonging to the block *before* the heading, so this one lands on
+      // the block after it instead.
+      pendingParagraph = true;
       skipToNextMarker = false;
       const { pieces: headingPieces, nextIndex } = buildHeadingSpanContent(tokens, index + 1);
       const headingContent =
@@ -952,17 +956,15 @@ export function segmentVerses(
     });
   }
 
-  // The `\ip` post-pass mirrors the `\ms1` post-pass above
-  // exactly: every real in-scope `\ip` sits in front matter, always destined
-  // for the book's own *lowest*-numbered chapter's verse 1 (never resolved
-  // during the walk itself, since `records` may not yet hold that verse).
-  // Each footnote becomes its own textless `{foot}`-only node — the same
-  // "textless sibling node" shape a bare Strong's tag with nothing of its
-  // own to attach text to already uses (guide §6), here standing as a whole
-  // block of its own rather than mid-run — unshifted in source order ahead
-  // of anything a `\d`/`\ms1` may have already placed there, so an `\ip`
-  // block (the outermost editorial framing around the whole book) always
-  // reads first.
+  // The `\ip` post-pass mirrors the `\ms1` post-pass above — see
+  // {@link introParagraphFootnotes} for why this waits until the whole book
+  // is walked. Each footnote becomes its own textless `{foot}`-only node —
+  // the same "textless sibling node" shape a bare Strong's tag with nothing
+  // of its own to attach text to already uses (guide §6), here standing as
+  // a whole block of its own rather than mid-run — unshifted in source
+  // order ahead of anything a `\d`/`\ms1` may have already placed there, so
+  // an `\ip` block (the outermost editorial framing around the whole book)
+  // always reads first.
   //
   // Verse 1 already carries `paragraph: true` on whichever of its own
   // blocks the real `\p` marker opened — normally its first block, before

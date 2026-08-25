@@ -98,6 +98,7 @@ interface BookRegistry {
   readonly canonicalNameById: ReadonlyMap<string, string>;
 }
 
+/** Absolute path to the bible-books registry, read once by {@link registry}. */
 const BIBLE_BOOKS_FILE = path.resolve(__dirname, "../../bible-books/bible-books.json");
 
 /**
@@ -156,22 +157,6 @@ const REFERENCE_LEAD_IN = /^(?:See|Compare)\s+/;
 const DASH_CLASS = "\\u2010-\\u2015\\u2212-";
 
 /**
- * The full shape a reference's text (everything after the book name) must
- * match, start to end: a chapter, an optional verse, an optional
- * dash-joined range endpoint, any number of comma-joined additional
- * verses/ranges, and an optional trailing tradition siglon
- * (`LXX`/`MT`/`TR`/`NU`).
- *
- * Trailing text that doesn't fit this shape fails the match and is left as
- * plain text — a wrong link is worse than a missing one. The siglon
- * exception exists because those four are WEB's own standing abbreviations
- * for a textual tradition (see `usfm/footnoteTypeRules.ts`), not a guess;
- * matching is case-sensitive here, deliberately narrower than that module's
- * `WITNESS_SIGLA`, which also tolerates a lower-case `nu` for a different
- * purpose (naming a witness inside ordinary prose, not a trailing
- * citation).
- */
-/**
  * The regex source both {@link REFERENCE_SUFFIX} (a full match, for an
  * already-isolated `\xt`/`\f`-list target) and {@link
  * EMBEDDED_REFERENCE_SUFFIX} (a greedy *prefix* match, for Finding 9's
@@ -215,6 +200,22 @@ function referenceSuffixPattern(requireVerse = false): string {
   return `${chapterAndVerse}(?:[${DASH_CLASS}]\\d+(?::\\d+)?)?(?:,\\s?\\d+(?:[${DASH_CLASS}]\\d+)?)*(?:\\s(?:LXX|MT|TR|NU))?(?!\\s?[A-Z])`;
 }
 
+/**
+ * The full shape a reference's text (everything after the book name) must
+ * match, start to end: a chapter, an optional verse, an optional
+ * dash-joined range endpoint, any number of comma-joined additional
+ * verses/ranges, and an optional trailing tradition siglon
+ * (`LXX`/`MT`/`TR`/`NU`).
+ *
+ * Trailing text that doesn't fit this shape fails the match and is left as
+ * plain text — a wrong link is worse than a missing one. The siglon
+ * exception exists because those four are WEB's own standing abbreviations
+ * for a textual tradition (see `usfm/footnoteTypeRules.ts`), not a guess;
+ * matching is case-sensitive here, deliberately narrower than that module's
+ * `WITNESS_SIGLA`, which also tolerates a lower-case `nu` for a different
+ * purpose (naming a witness inside ordinary prose, not a trailing
+ * citation).
+ */
 const REFERENCE_SUFFIX = new RegExp(`^${referenceSuffixPattern()}$`);
 
 /**
@@ -504,20 +505,13 @@ interface EmbeddedReferenceMatch {
  * pass (Phase 15): a book name (canon-restricted the same way {@link
  * resolveTarget} is) immediately followed by an explicit chapter *and*
  * verse ({@link EMBEDDED_REFERENCE_SUFFIX}), found *anywhere* in the text
- * rather than only right after a cue word.
+ * rather than only right after a cue word — see {@link
+ * linkEmbeddedReferences}'s own doc comment for why the cue-word gate this
+ * replaced was dropped.
  *
- * This is the phase's own real correction of Finding 9's first attempt: a
- * reference that names its own book explicitly is exactly as unambiguous as
- * any already-linked `\x`/`\+xt` reference, whether or not a directive word
- * happens to sit next to it. Mark 16:9's real footnote ("...the translators
- * of the World English Bible regard Mark 16:9-20 as reliable...") and Psalm
- * 8:5's real footnote ("...See also the quote from the Septuagint in
- * Hebrews 2:7.", where "See" sits nowhere near "Hebrews") are both exactly
- * this shape — the book name itself is the safety net, not whatever word
- * happens to stand next to it. Uses the same {@link matchBookPrefix} and
- * {@link buildLinkTarget} {@link resolveTarget}'s own direct branch does, so
- * a reference resolves to the identical target string no matter which of
- * the two ever finds it.
+ * Uses the same {@link matchBookPrefix} and {@link buildLinkTarget} that
+ * {@link resolveTarget}'s own direct branch does, so a reference resolves to
+ * the identical target string no matter which of the two ever finds it.
  *
  * @returns `undefined` when no real, resolvable reference remains anywhere
  *   in `text` from `from` onward — an out-of-canon book name, a chapter with
@@ -603,8 +597,8 @@ function splitEmbeddedReferences(
  * explicit `\x`/`\+xt` span already becomes one, reusing {@link
  * resolveTarget}'s own book-registry-and-grammar validation ({@link
  * findNextEmbeddedReference} calls the same {@link matchBookPrefix} and
- * {@link buildLinkTarget} `resolveTarget`'s own direct branch does) as the
- * whole safety net against a false positive: a book name has to be real, in
+ * {@link buildLinkTarget} that `resolveTarget`'s own direct branch does) as
+ * the whole safety net against a false positive: a book name has to be real, in
  * canon, and followed by a real chapter *and* verse before this ever links
  * anything — no directive cue word required, and none checked.
  *

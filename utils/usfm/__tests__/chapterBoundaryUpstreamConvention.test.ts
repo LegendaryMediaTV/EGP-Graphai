@@ -45,6 +45,7 @@ const PARAGRAPH_OPENING_MARKER_NAMES = new Set(["p", "m", "nb", "li1", "pi1", "m
 /** `\q1`/`\q2`/`\q3` — the bare poetry-line markers this finding's own fix is about. */
 const BARE_BREAK_MARKER_NAMES = new Set(["q1", "q2", "q3"]);
 
+/** One classified `\c` chapter boundary — {@link ParagraphBreakBoundary}'s own before/after verse-position fields, plus what precedes and what opens this `\c` marker. */
 interface ChapterBoundary extends ParagraphBreakBoundary {
   /** Whether a real `\b` sits directly in front of this `\c`, skipping only whitespace-only text — Phase 5's own already-fixed shape. */
   readonly bAdjacent: boolean;
@@ -116,17 +117,12 @@ function classifyChapterBoundaries(source: string): ChapterBoundary[] {
   return boundaries;
 }
 
-// Report-only, corpus-wide measurement: needs WEBUS2020's own real raw USFM
-// locally at `SOURCE_DIR` (gitignored, never committed), and it has to be
-// the exact revision `HEAD`'s own `bible-versions/WEBUS2020/*.json` was
-// actually built from, since every assertion below compares the two
-// directly. A present-but-different revision doesn't fail loud and clear
-// here — it silently produces wrong counts that look like real
-// regressions — so this only runs when a developer has deliberately placed
-// the matching corpus there; skipped otherwise. Guarded with a plain `if`,
-// not `describe.skipIf`: vitest still runs a skipped describe's own
-// callback body to collect its child tests, so `skipIf` alone would not
-// stop the corpus read below from ever executing.
+// Report-only, corpus-wide measurement: needs the exact WEBUS2020 revision
+// `HEAD`'s own committed JSON was built from, locally at `SOURCE_DIR`
+// (gitignored) — a mismatched revision fails silently with wrong counts,
+// not loudly. Guarded with a plain `if`, not `describe.skipIf`: vitest
+// still runs a skipped describe's own callback body, which would run the
+// corpus read regardless.
 if (!fs.existsSync(SOURCE_DIR)) {
   describe.skip(
     "Finding 7's own \\b-less chapter-boundary fix, measured corpus-wide against WEBUS2020's own real upstream HEAD",
@@ -202,21 +198,18 @@ describe(
   });
 
   it("should reproduce the two-part convention at 196/197 for every real \\b-less chapter boundary that opens directly with a bare \\qN — this finding's own real bug, now fixed, including every real \\ms1 book-division boundary (Psalm 41:13→42:1, 72:20→73:1, 89:52→90:1, 106:48→107:1) and Deuteronomy 31:30→32:1/Psalm 90:17→91:1's own real, no-heading-at-all shape — with the one real, named exception explained rather than chased", () => {
-    // Psalm 33:22→34:1 is the one real exception: HEAD splits verse 1's
-    // own acrostic footnote onto its own textless `{paragraph: true,
-    // foot: {...}}` node, ahead of the real text as a separate, unflagged
-    // third node — a tree-shape choice from whatever earlier, now-
-    // superseded pipeline built HEAD, the same kind of artifact Phase 7's
-    // own report already named for Exodus 3:14/John 8:58 (a real,
-    // upstream-confirmed footnote placed differently, not a wrong flag).
-    // Confirmed directly: this walk's own `upstreamMatchesRule` treats
-    // that textless anchor node as a heading (it has no `text` key,
-    // `upstreamBlocks`'s own `isHeading` heuristic's one known blind
-    // spot), so it reports `upstreamMatch: false` here even though HEAD's
-    // own real intent — paragraph starts at verse 1 — is the same thing
-    // this fix produces, just as one merged block (`{text: "I will bless
-    // Yahweh at all times.", paragraph: true, break: true}`, the footnote
-    // anchored to the same block) rather than HEAD's own three-way split.
+    // Psalm 33:22→34:1 is the one real exception: HEAD anchors verse 1's
+    // own acrostic footnote to its own textless node ahead of the real
+    // text, a tree-shape choice from whatever earlier, now-superseded
+    // pipeline built HEAD — the same kind of artifact Phase 7's own report
+    // already named for Exodus 3:14/John 8:58 (a footnote placed
+    // differently, not a wrong flag). `upstreamMatchesRule` mistakes that
+    // textless node for a heading (`upstreamBlocks`'s own `isHeading`
+    // heuristic has nothing else to go on without a `text` key) and skips
+    // it, so it reports `upstreamMatch: false` here even though HEAD's own
+    // real intent — paragraph starts at verse 1 — is the same thing this
+    // fix produces, just merged into one block instead of HEAD's own
+    // three-way split.
     const knownException = "PSA 33:22->34:1";
     const [exceptionRow, ...rest] = [
       bareBreakResults.find((r) => r.key === knownException),

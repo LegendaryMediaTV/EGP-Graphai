@@ -296,7 +296,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 > - <sup>e</sup> 25. Or, _Gibbar_
 > - <sup>f</sup> 28. Or, _Azmaveth_
 > - <sup>g</sup> 29. Or, _Kirjatharim_
-> - <sup>h</sup> 43. Or, _Hodaviah, Ezra 2.4._ Or, _Judah, Ezra. 3.9_
+> - <sup>h</sup> 43. Or, _Hodaviah,_ _Ezra 2.4__._ Or, _Judah,_ _Ezra. 3.9_
 > - <sup>i</sup> 59. Or, _Ami_
 > - <sup>j</sup> 61. Or, _pedigree_
 > - <sup>k</sup> 65. Or, _the governor_
@@ -582,10 +582,10 @@ The number, _I say_, of the men of the people of Israel _was this_;
 > - <sup>g</sup> 8. That is, _the Psalms of thanksgiving_
 > - <sup>h</sup> 25. Or, _treasuries_, or _assemblies_
 > - <sup>i</sup> 42. Heb. _made their voice to be heard_
-> - <sup>j</sup> 44. that is, _appointed by the law_
+> - <sup>j</sup> 44. That is, _appointed by the law_
 > - <sup>k</sup> 44. Heb. _for the joy of Judah_
 > - <sup>l</sup> 44. Heb. _that stood_
-> - <sup>m</sup> 47. that is, _set apart_
+> - <sup>m</sup> 47. That is, _set apart_
 
 ## Chapter 13
 

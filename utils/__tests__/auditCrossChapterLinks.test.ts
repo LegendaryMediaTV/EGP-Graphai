@@ -29,12 +29,8 @@ describe("auditVersions — corpus-wide sweep", () => {
   it("should scan 550 bibleLink nodes in WEBUS2020, the full 81-book corpus with usfm/references.ts's own trailing-tradition-siglon fix applied", () => {
     // WEBUS2020 currently carries 550 real bibleLink nodes — see the
     // `findCrossChapterLinks` scanned-count test in crossChapterLinks.test.ts
-    // for what's included (524 -> 550, Phase 15's own redesign of Finding 9:
-    // 99 corpus-wide embedded links, up from Phase 14's own cue-word-gated
-    // 72, with Deuteronomy 33:16's own link now produced by that same
-    // generic mechanism directly rather than a separate import.ts override).
-    // This count drifts as the corpus changes; update it here too rather
-    // than treating a mismatch as a bug.
+    // for what makes up this count. It drifts as the corpus changes; update
+    // it here too rather than treating a mismatch as a bug.
     const [summary] = auditVersions(["WEBUS2020"]);
     expect(summary.scanned).toBe(550);
   });

@@ -19448,6 +19448,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "With what doth a young man purify his path? To observe—according to Thy word.",
         "break": true
       }
@@ -19527,6 +19528,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Confer benefits on Thy servant, I live, and I keep Thy word.",
         "break": true
       }
@@ -19607,6 +19609,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Cleaved to the dust hath my soul, Quicken me according to Thy word.",
         "break": true
       }
@@ -19684,7 +19687,10 @@
         "heading": [{ "text": "ה", "script": "H" }, " He"],
         "type": "acrostic"
       },
-      "Show me, O Jehovah, the way of Thy statutes, And I keep it—",
+      {
+        "paragraph": true,
+        "text": "Show me, O Jehovah, the way of Thy statutes, And I keep it—"
+      },
       { "text": "to", "marks": ["i"] },
       { "text": " the end.", "break": true }
     ]
@@ -19764,6 +19770,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "And meet me doth Thy kindness, O Jehovah, Thy salvation according to Thy saying.",
         "break": true
       }
@@ -19842,6 +19849,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Remember the word to Thy servant, On which Thou hast caused me to hope.",
         "break": true
       }
@@ -19923,7 +19931,7 @@
         "heading": [{ "text": "ח", "script": "H" }, " Cheth"],
         "type": "acrostic"
       },
-      "My portion ",
+      { "paragraph": true, "text": "My portion " },
       { "text": "is", "marks": ["i"] },
       { "text": " Jehovah; I have said—to keep Thy words,", "break": true }
     ]
@@ -20005,6 +20013,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Good Thou didst with Thy servant, O Jehovah, According to Thy word.",
         "break": true
       }
@@ -20088,6 +20097,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Thy hands made me and establish me, Cause me to understand, and I learn Thy commands.",
         "break": true
       }
@@ -20174,6 +20184,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Consumed for Thy salvation hath been my soul, For Thy word I have hoped.",
         "break": true
       }
@@ -20263,6 +20274,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "To the age, O Jehovah, Thy word is set up in the heavens.",
         "break": true
       }
@@ -20350,7 +20362,10 @@
         "heading": [{ "text": "מ", "script": "H" }, " Mem"],
         "type": "acrostic"
       },
-      "O how I have loved Thy law! All the day it ",
+      {
+        "paragraph": true,
+        "text": "O how I have loved Thy law! All the day it "
+      },
       { "text": "is", "marks": ["i"] },
       { "text": " my meditation.", "break": true }
     ]
@@ -20429,7 +20444,7 @@
         "heading": [{ "text": "נ", "script": "H" }, " Nun"],
         "type": "acrostic"
       },
-      "A lamp to my foot ",
+      { "paragraph": true, "text": "A lamp to my foot " },
       { "text": "is", "marks": ["i"] },
       { "text": " Thy word, And a light to my path.", "break": true }
     ]
@@ -20514,6 +20529,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Doubting ones I have hated, And Thy law I have loved.",
         "break": true
       }
@@ -20594,6 +20610,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "I have done judgment and righteousness, Leave me not to mine oppressors.",
         "break": true
       }
@@ -20675,7 +20692,7 @@
         "heading": [{ "text": "פ", "script": "H" }, " Pe"],
         "type": "acrostic"
       },
-      "Wonderful ",
+      { "paragraph": true, "text": "Wonderful " },
       { "text": "are", "marks": ["i"] },
       {
         "text": " Thy testimonies, Therefore hath my soul kept them.",
@@ -20755,7 +20772,7 @@
         "heading": [{ "text": "צ", "script": "H" }, " Tzade"],
         "type": "acrostic"
       },
-      "Righteous ",
+      { "paragraph": true, "text": "Righteous " },
       { "text": "art", "marks": ["i"] },
       " Thou, O Jehovah, And upright ",
       { "text": "are", "marks": ["i"] },
@@ -20848,6 +20865,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "I have called with the whole heart, Answer me, O Jehovah, Thy statutes I keep,",
         "break": true
       }
@@ -20929,6 +20947,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "See my affliction, and deliver Thou me, For Thy law I have not forgotten.",
         "break": true
       }
@@ -21022,6 +21041,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "Princes have pursued me without cause, And because of Thy words was my heart afraid.",
         "break": true
       }
@@ -21105,6 +21125,7 @@
         "type": "acrostic"
       },
       {
+        "paragraph": true,
         "text": "My loud cry cometh near before Thee, O Jehovah; According to Thy word cause me to understand.",
         "break": true
       }

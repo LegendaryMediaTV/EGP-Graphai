@@ -314,10 +314,9 @@ export async function runImport(
     const records = segmentVerses(source, book._id, canonBookIds, options.strongs !== false);
 
     if (preview) {
-      // Not run through suppressUniformParagraphNoise: that function needs
-      // a whole book to tell whether paragraph:true covers 100% of it, and
-      // a preview only builds one chapter. Preview output stays raw,
-      // unsuppressed (see utils/usfm/paragraphNoise.ts's doc comment).
+      // Skipped: suppressUniformParagraphNoise needs a whole book to tell
+      // whether paragraph:true covers 100% of it, but a preview only builds
+      // one chapter (see utils/usfm/paragraphNoise.ts's doc comment).
       const chapterRecords = records
         .filter((record) => record.chapter === chapterArgument)
         .map((record) =>
@@ -360,9 +359,7 @@ export async function runImport(
     `\nDone! ${totalChapters} chapters, ${totalVerses} verses${preview ? " (preview only, nothing written)" : ""}`,
   );
 
-  // audit-links/validate are hardwired to the real bible-versions tree, so
-  // this must never fire when outputDir redirected the write elsewhere
-  // (see ImportOptions.outputDir's doc comment).
+  // See ImportOptions.outputDir's doc comment for why this guard exists.
   if (!preview && versionDir === defaultVersionDir) {
     console.log(`\nRegenerating downstream: npm run audit-links ${versionId} -- --fix, npm run validate...`);
     regenerateDownstream(versionId);

@@ -16,7 +16,9 @@ import { VerseBlock, VerseRecord } from "../segmentVerses";
  * `uniformFraction` and Phase 6's own `contentWalk.ts` already made.
  */
 
+/** Repo root, resolved from this file's own location three levels down from it. */
 export const REPO_ROOT = path.resolve(__dirname, "../../..");
+/** WEBUS2020's real, gitignored raw-USFM source directory this comparison reads against. */
 export const SOURCE_DIR = path.join(REPO_ROOT, "imports", "webus2020", "ebible-usfm");
 
 /**
@@ -28,9 +30,13 @@ export const SOURCE_DIR = path.join(REPO_ROOT, "imports", "webus2020", "ebible-u
  * shape, since both make the identical two-part promise.
  */
 export interface ParagraphBreakBoundary {
+  /** Chapter of the verse immediately before the boundary. */
   readonly beforeChapter: number;
+  /** Verse immediately before the boundary. */
   readonly beforeVerse: number;
+  /** Chapter of the verse immediately after the boundary. */
   readonly afterChapter: number;
+  /** Verse immediately after the boundary. */
   readonly afterVerse: number;
 }
 
@@ -47,7 +53,9 @@ export function usfmFilesByRegistryId(): Map<string, string> {
   return files;
 }
 
+/** One of the 66 canonical books `HEAD` carries, as {@link readCanonicalBooks} reads it. */
 export interface CanonicalBook {
+  /** This repo's own registry book id. */
   readonly id: string;
   /** The exact `NN-XXX.json` filename this book has in `HEAD`, read from `git ls-tree` rather than the working tree's own `_version.json` — that registry interleaves deuterocanon books into canonical order (e.g. Tobit at `order: 40`), which no longer matches `HEAD`'s real 66-file `01`-`66` numbering. */
   readonly filename: string;

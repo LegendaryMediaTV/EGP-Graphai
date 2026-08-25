@@ -56,8 +56,8 @@ describe("tokenize — Genesis 1:1 (verse/chapter markers, a footnote aside carr
 
   it("should preserve the real inter-word space between two Strong's-tagged words as its own text token, never stripped as marker syntax", () => {
     const openIndex = tokens.findIndex((token) => token.type === "open" && token.name === "w");
-    // tokens[openIndex]=open "In", +1 text "In", +2 close "In" — the very
-    // next token is the real space before "the", not marker delimiter noise.
+    // +3 lands right after the closing \w — the real space before "the",
+    // not stripped marker syntax.
     expect(tokens[openIndex + 3]).toEqual({ type: "text", text: " " });
   });
 });
@@ -96,20 +96,12 @@ describe("tokenize — Numbers 21:14 (\\+w nested inside \\bk, the same marker f
 });
 
 /**
- * Phase 1 of the USFM-importer-generality-test objective: a real, measured
- * gap, not a hypothetical one. ASV1901's own Genesis 1:11 ("`...seed,
- * \add and\add* fruit-trees...`") is the first `\add` occurrence in canon
- * order, and `\add`/`\add*` (USFM's own standard "translator-supplied
- * words" character marker, 4,316 pairs corpus-wide) is not yet a member of
- * `PAIRED_MARKER_NAMES`. The test below states the correct, desired
- * behavior directly — `\add`/`\add*` tokenizing as an ordinary paired
- * marker, the identical shape `\w`/`\w*` already gets — which is RED today:
- * calling `tokenize()` on this real fixture throws before ever returning a
- * token list, since "add" is not yet a registered pair (confirmed
- * separately, directly: `Unexpected closing marker \add* — \add is not a
- * registered paired marker.`). The fix (Phase 3.1) is one new entry in that
- * existing `Set`; this test only proves the gap is real before that fix
- * exists.
+ * ASV1901's own Genesis 1:11 ("`...seed, \add and\add* fruit-trees...`") is
+ * the first `\add` occurrence in canon order — `\add`/`\add*` (USFM's own
+ * standard "translator-supplied words" character marker, 4,316 pairs
+ * corpus-wide) is a member of `PAIRED_MARKER_NAMES`, and this exercises it
+ * against real corpus data rather than a synthetic fixture, tokenizing the
+ * same open/text/close shape `\w`/`\w*` already gets.
  */
 describe("tokenize — ASV1901's real \\add (translator-supplied words), a construct WEB's own corpus never carries", () => {
   it("should tokenize \\add/\\add* as an ordinary paired marker around ASV1901 Genesis 1:11's own \"and\", the same open/text/close shape \\w already gets", () => {

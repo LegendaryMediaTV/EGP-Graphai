@@ -40,13 +40,12 @@ import { readFixture } from "./fixtures";
 /**
  * Every real corpus this file scans lives at a gitignored, never-committed
  * local path — a fresh clone has none of them. Each constant below is safe
- * against absence (`undefined`/`[]` rather than a thrown `ENOENT`), and
- * every describe block that actually needs one is guarded with a plain
- * `if`/`else` around its own `describe(...)` call, skipping with a named
- * placeholder when its corpus is missing. Not `describe.skipIf`: vitest
- * still runs a skipped describe's own callback body to collect its child
- * tests, so `skipIf` alone would not stop a corpus read inside that body
- * from executing.
+ * against absence (`undefined`/`[]`, not a thrown `ENOENT`), and every
+ * describe block that needs one guards itself with a plain `if`/`else`,
+ * skipping with a named placeholder when its corpus is missing — not
+ * `describe.skipIf`, since vitest still runs a skipped describe's own
+ * callback body to collect its child tests, which would let a corpus read
+ * inside it run anyway.
  */
 const WEBUS2020_SOURCE_DIR = path.join(__dirname, "../../../imports/webus2020/ebible-usfm");
 const WEBUS2020_SOURCE_AVAILABLE = fs.existsSync(WEBUS2020_SOURCE_DIR);
@@ -74,10 +73,10 @@ const WEB_IN_SCOPE_FILES = WEBUS2020_SOURCE_AVAILABLE
 /**
  * Registers `name`/`fn` as a real `describe` block when `available`, or as a
  * single named `describe.skip` placeholder otherwise — the shared shape
- * every corpus-gated describe block below uses. Never `describe.skipIf`:
- * vitest still runs a skipped describe's own callback body to collect its
- * child tests, so `skipIf` alone would not stop a corpus read inside `fn`
- * from executing when the corpus is actually missing.
+ * every corpus-gated describe block below uses. Never `describe.skipIf`,
+ * for the reason noted above: a skipped describe's own callback body still
+ * runs to collect its child tests, which would let a corpus read inside
+ * `fn` execute anyway.
  */
 function describeIfAvailable(available: boolean, reason: string, name: string, fn: () => void): void {
   if (available) {
@@ -815,14 +814,11 @@ describeIfAvailable(
 
   /**
    * A real before/after comparison, not an inference from the zero-match
-   * check above alone. `WITNESS_PHRASES`/`WITNESS_SIGLA` aren't exported
-   * (`footnoteTypeRules.ts` keeps its vocabulary table private — only
-   * {@link classifyFootnote}'s final verdict is public), so the "before"
-   * snapshot below reconstructs the prior witness check by hand: the eleven
-   * entries `WITNESS_PHRASES` carried before these additions, plus the
-   * unchanged `WITNESS_SIGLA` regex, copied verbatim from
-   * `footnoteTypeRules.ts`. Everything else in `classifyFootnote` (the
-   * `xrf`→`var`→`trn`→`stu` ordering, and the `xrf`/`trn` rules themselves)
+   * check above alone. `WITNESS_PHRASES`/`WITNESS_SIGLA` aren't exported, so
+   * the "before" snapshot below reconstructs the prior witness check by
+   * hand: the eleven entries `WITNESS_PHRASES` carried before these
+   * additions, plus the unchanged `WITNESS_SIGLA` regex, copied verbatim
+   * from `footnoteTypeRules.ts`. Everything else in {@link classifyFootnote}
    * is unchanged, so a body's own witness-vocabulary match is the only
    * thing that could possibly move.
    */
@@ -855,13 +851,11 @@ describeIfAvailable(
         const wasWitnessBefore = namesAWitnessBeforePhase3(plainText);
         const isVarAfter = classifyFootnote(plainText) === "var";
         if (isVarAfter) varAfter++;
-        // A disagreement can only mean the witness match flipped
-        // false -> true (`WITNESS_PHRASES` only grew), and only counts when
-        // the body isn't already claimed by `xrf` upstream of `var` — an
-        // `xrf` body was never a `var` candidate either way. `regressions`
-        // is the one direction that would actually matter (a body the
-        // reconstructed check recognized as a witness note, that current
-        // `classifyFootnote` no longer does) — confirmed zero.
+        // A disagreement can only mean the match flipped false -> true
+        // (`WITNESS_PHRASES` only grew), excluding bodies already claimed
+        // by `xrf` upstream of `var`. `regressions` — the reverse
+        // direction, a body the reconstructed check called a witness note
+        // that `classifyFootnote` no longer does — is confirmed zero.
         if (isVarAfter !== wasWitnessBefore && classifyFootnote(plainText) !== "xrf") {
           disagreements++;
           if (wasWitnessBefore && !isVarAfter) regressions++;
@@ -871,15 +865,12 @@ describeIfAvailable(
     expect(bodyCount).toBe(FOOTNOTES_IN_CORPUS);
     expect(varAfter).toBeGreaterThan(0);
     expect(regressions).toBe(0);
-    // `phrasesBeforePhase3` is a plain string-contains reconstruction;
-    // `classifyFootnote`'s own real witness-vocabulary check has always been
-    // a grammar rule (a strong witness noun near a reading verb — see
-    // `footnoteTypeRules.ts`'s own `STRONG_WITNESS_NOUN`), which recognizes
-    // real constructs no fixed phrase list ever could ("omitted by the best
-    // authorities" and its many real variants). The 138 real bodies below
-    // are exactly that gap, not a Phase 3 regression or a later one — every
-    // one of them is a body the grammar rule was already, correctly, always
-    // going to catch.
+    // `phrasesBeforePhase3` is a plain string-contains reconstruction; the
+    // real check has always been a grammar rule (a strong witness noun near
+    // a reading verb — see `footnoteTypeRules.ts`'s own `STRONG_WITNESS_NOUN`),
+    // which catches real constructs no fixed phrase list could ("omitted by
+    // the best authorities" and its variants). The 138 bodies below are
+    // exactly that pre-existing gap, not a Phase 3 regression.
     expect(disagreements).toBe(138);
   });
   },
@@ -963,23 +954,21 @@ describeIfAvailable(
     }
 
     expect(fBodyCount).toBe(FOOTNOTES_IN_CORPUS);
-    // Not this fix's own effect — `referencePatternBeforePhase5` never
-    // stripped a "See "/"Compare " lead-in word before checking for an
-    // empty residue, a separate, independently real improvement this
-    // reconstruction doesn't model. Every one of the 42 real bodies below
-    // is exactly that shape (1/2 Maccabees' own recurring "See 2 Maccabees
-    // 4:9, 12." cross-references), confirmed to carry zero regressions in
-    // the other direction.
+    // Not this fix's own effect: `referencePatternBeforePhase5` never
+    // stripped a "See "/"Compare " lead-in before checking for an empty
+    // residue — a separate improvement this reconstruction doesn't model.
+    // All 42 bodies below are that shape (1/2 Maccabees' recurring "See 2
+    // Maccabees 4:9, 12." cross-references), with zero regressions
+    // elsewhere.
     expect(fChanges).toBe(42);
     expect(xSpanCount).toBe(XREF_SPANS_IN_CORPUS);
-    // Also not this fix's own effect — `referencePatternBeforePhase5`
+    // Also not this fix's own effect: `referencePatternBeforePhase5`
     // requires a book name directly before every `\d+:\d+`, so it never
-    // recognized a same-book shorthand continuation ("Ezra 4:24; 5:1"'s own
-    // bare "5:1") as part of the reference grammar, a separate,
-    // independently real improvement (elided-book-name verse-list support)
-    // this reconstruction doesn't model. Hebrews 1:6's own real "Deuteronomy
-    // 32:43 LXX" is still exactly one of the 22, confirmed to carry zero
-    // regressions in the other direction.
+    // recognized a same-book shorthand continuation (bare "5:1" in "Ezra
+    // 4:24; 5:1") — a separate improvement (elided-book-name verse-list
+    // support) this reconstruction doesn't model. Hebrews 1:6's own
+    // "Deuteronomy 32:43 LXX" is still one of the 22, with zero
+    // regressions elsewhere.
     expect(xChanges).toBe(22);
     expect(xChangedTargetLists).toContain("Deuteronomy 32:43 LXX");
   });
@@ -1096,20 +1085,17 @@ describe("Follow-up — Strong's tagging suppressed from the real, shipped WEBUS
 });
 
 /**
- * A before/after comparison of the full xrf/var/trn/stu classification
- * distribution across WEBUS2020's own real 1,854 footnote bodies —
- * stronger evidence than a per-body "did the `var` verdict flip" check
- * alone. `namesAWitness`'s own `WITNESS_PHRASES` list is the only thing
- * that changed inside {@link classifyFootnote}, so xrf and trn/stu both
- * reuse `classifyFootnote`'s own real, current verdict directly — the same
- * "reconstruct only the axis under test" shape {@link classifyBeforePhase7}
- * below uses. (An earlier version of this block reconstructed the trn axis
- * by hand instead, and that copy drifted from the real
- * `footnoteTypeRules.ts`: two of its patterns — a "Behold" interjection
- * gloss, and Aleph-Tav's "not as a word, but as a grammatical marker" —
- * were never actually part of the shipped implementation, so the copy
- * over-matched relative to real `classifyFootnote` for a reason with
- * nothing to do with WITNESS_PHRASES.)
+ * A before/after comparison of the full xrf/var/trn/stu distribution
+ * across WEBUS2020's own real 1,854 footnote bodies — stronger evidence
+ * than a per-body "did the `var` verdict flip" check alone.
+ * `WITNESS_PHRASES` is the only thing that changed inside
+ * {@link classifyFootnote}, so xrf and trn/stu both reuse its current
+ * verdict directly, the same "reconstruct only the axis under test" shape
+ * {@link classifyBeforePhase7} below uses. (An earlier version of this
+ * block hand-reconstructed the trn axis instead and drifted from the real
+ * `footnoteTypeRules.ts`: a "Behold" gloss and an Aleph-Tav pattern that
+ * were never actually shipped, so the copy over-matched for reasons
+ * unrelated to `WITNESS_PHRASES`.)
  */
 describeIfAvailable(
   WEBUS2020_SOURCE_AVAILABLE,
@@ -1214,16 +1200,15 @@ describeIfAvailable(
     return offersATranslationAlternativeBeforePhase7(body) ? "trn" : "stu";
   }
 
-  // Frozen snapshot of the array as it stood before the next, unrelated
-  // trn pattern was added — one entry short of today's real array. This
-  // block's job is to prove exactly what these four additions changed, in
-  // isolation; comparing directly against the ever-current
-  // `classifyFootnote` would let a later, unrelated trn-axis change
-  // silently inflate this block's own counts — which is exactly what
-  // happened once, caught only because the counts stopped matching.
-  // Freezing both sides of the comparison (the same technique
-  // {@link TRANSLATION_ALTERNATIVE_PATTERNS_BEFORE_PHASE_7} uses) keeps
-  // this block inert to any later trn-axis change.
+  // Frozen snapshot of the array as it stood before the next, unrelated trn
+  // pattern was added — one entry short of today's real array, so this
+  // block proves exactly what these four additions changed, in isolation.
+  // Comparing directly against the ever-current `classifyFootnote` would
+  // let a later, unrelated trn-axis change silently inflate this block's
+  // own counts — which happened once, caught only because the counts
+  // stopped matching. Freezing both sides (the same technique
+  // {@link TRANSLATION_ALTERNATIVE_PATTERNS_BEFORE_PHASE_7} uses) keeps this
+  // block inert to any later trn-axis change.
   const TRANSLATION_ALTERNATIVE_PATTERNS_AFTER_PHASE_7 = [
     /^Or,?\s/i,
     /^Hebrew[:\s]/i,
@@ -1372,13 +1357,11 @@ describe("The \\balso means?\\b broadening's own real, cross-corpus disagreement
 
     expect(beholdCollisions).toBe(0);
     expect(mayBeAlsoCollisions).toBe(0);
-    // This report's own original 27-body, seven-"OTH*"-version count was
-    // measured against other shipped versions this checkout doesn't carry
-    // at all — `bible-versions/` here holds only ASV1901, BYZ2018,
-    // CLV1880, KJV1769, and YLT1898, none of which collide with the bare-
-    // infinitive broadening. Zero collisions is the real, current
-    // measurement against what this repo actually ships, not evidence the
-    // original finding was wrong.
+    // The original report counted 27 bodies across seven other versions
+    // this checkout doesn't carry — only ASV1901, BYZ2018, CLV1880,
+    // KJV1769, and YLT1898 ship here, none colliding with the bare-
+    // infinitive broadening. Zero collisions reflects what this repo
+    // actually ships, not a reversal of the original finding.
     expect(alsoMeanDisagreements).toEqual([]);
   });
 });
@@ -1416,27 +1399,24 @@ describeIfAvailable(
   function offersATranslationAlternativeBeforePhase8(body: string): boolean {
     return TRANSLATION_ALTERNATIVE_PATTERNS_BEFORE_PHASE_8.some((pattern) => pattern.test(body));
   }
-  // xrf/var are untouched by this change, so reusing classifyFootnote's
-  // current verdict for those two is exactly as faithful to "before" as
-  // reconstructing them by hand.
+  // xrf/var are untouched by this change too — same reasoning as
+  // classifyBeforePhase7 above: a trn-only change can never reach a body
+  // already claimed by an earlier check.
   function classifyBeforePhase8(body: string): string {
     const real = classifyFootnote(body);
     if (real === "xrf" || real === "var") return real;
     return offersATranslationAlternativeBeforePhase8(body) ? "trn" : "stu";
   }
 
-  // Frozen snapshot of the array as it stood right after the
-  // rendered/translated pattern was added — one entry short of today's
-  // real array (objective 2026-08-22-001's own comma-opener and Aleph-Tav
-  // additions land after this snapshot). This block's own two tests
-  // originally compared `classifyBeforePhase8` directly against the
-  // ever-current `classifyFootnote`, which is exactly the trap this same
-  // file's own "four safe trn-recovery additions" block above already
-  // named and avoided by freezing both sides: a later, unrelated trn-axis
-  // addition inflated this block's own counts by 4 the moment it shipped,
-  // caught only because the counts stopped matching. Freezing "after" too,
-  // the same technique that block already uses, keeps this block inert to
-  // any later trn-axis change.
+  // Frozen snapshot from right after the rendered/translated pattern was
+  // added — one entry short of today's array (the comma-opener/Aleph-Tav
+  // additions land after this snapshot). This block's tests once compared
+  // `classifyBeforePhase8` directly against the ever-current
+  // `classifyFootnote` — the same trap the "four safe trn-recovery
+  // additions" block above already named — and a later, unrelated trn-axis
+  // addition inflated these counts by 4 before the mismatch caught it.
+  // Freezing "after" too, the same technique that block uses, keeps this
+  // block inert to future trn-axis changes.
   const TRANSLATION_ALTERNATIVE_PATTERNS_AFTER_PHASE_8 = [
     ...TRANSLATION_ALTERNATIVE_PATTERNS_BEFORE_PHASE_8,
     /\bword\s+(?:rendered|translated)\b/i,
@@ -1555,13 +1535,11 @@ describe("The rendered/translated pattern's own real, cross-corpus disagreement 
       }
     }
 
-    // This report's own original 82-body, four-"OTH*"-version count was
-    // measured against other shipped versions this checkout doesn't carry
-    // at all — `bible-versions/` here holds only ASV1901, BYZ2018,
-    // CLV1880, KJV1769, and YLT1898, none of which collide with the
-    // general rendered/translated pattern. Zero collisions is the real,
-    // current measurement against what this repo actually ships, not
-    // evidence the original finding was wrong.
+    // Same caveat as the \balso means?\b report above: the original
+    // 82-body, four-version count was measured against versions this
+    // checkout doesn't ship (only ASV1901, BYZ2018, CLV1880, KJV1769, and
+    // YLT1898 are here). Zero collisions reflects what's actually shipped,
+    // not a reversal of the original finding.
     expect(disagreements).toEqual([]);
   });
 });
@@ -1586,24 +1564,16 @@ describeIfAvailable(
   "requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm",
   "The comma-opener addition, proven inert against WEBUS2020's own real 82-file corpus except 2 real fixtures",
   () => {
-  // A hand-copied `TRANSLATION_ALTERNATIVE_PATTERNS`-style array (the shape
-  // every earlier Phase reconstruction in this file used) drifts the
-  // moment any *other*, unrelated trn-axis pattern moves — three real,
-  // independent gaps turned up measuring this one: a since-removed
-  // Behold-gloss pattern never actually shipped; the real `can|could|may`
-  // construct now tolerates "more literally"/"correctly"/"accurately"
-  // between "be" and "translated" where this reconstruction only knew
-  // three fixed phrasings; and the real "word(s) rendered/translated"
-  // construct now matches the plural too. None of those three has anything
-  // to do with this Phase's own comma-opener addition. Isolating the
-  // comma-opener's own real effect directly — does this body classify
-  // `trn` right now, and specifically *because* a language-opener word is
-  // followed by a comma rather than a colon or space — sidesteps every one
-  // of those unrelated gaps instead of chasing each by hand. (The
-  // "Aleph-Tav… grammatical marker" construct this Phase's own name also
-  // claims was never actually shipped either — confirmed directly, no such
-  // pattern exists in `footnoteTypeRules.ts` — so it contributes zero real
-  // changes here, correctly.)
+  // A hand-copied pattern array drifts the moment any other trn-axis
+  // pattern changes — measuring this one turned up three unrelated gaps: a
+  // since-removed Behold-gloss pattern, `can|could|may...translated` now
+  // tolerating more phrasings, and `word(s) rendered/translated` now
+  // matching the plural. Isolating the comma-opener's own effect directly —
+  // does this body classify `trn` now, specifically because a language
+  // opener is followed by a comma rather than a colon or space — sidesteps
+  // all three instead of chasing them by hand. (The Aleph-Tav "grammatical
+  // marker" construct this Phase's name also references was never actually
+  // shipped, so it contributes zero changes here.)
   const COMMA_LANGUAGE_OPENER = /^\s*["'“(]?\s*(?:Hebrew|Greek|Aramaic),/i;
   const COLON_OR_SPACE_LANGUAGE_OPENER = /^\s*["'“(]?\s*(?:Hebrew|Greek|Aramaic)[:\s]/i;
   function classifyBeforePhase10(body: string): string {
@@ -1634,12 +1604,10 @@ describeIfAvailable(
 
     expect(bodyCount).toBe(FOOTNOTES_IN_CORPUS);
     expect(nonStuToTrnChanges).toEqual([]);
-    // Only the comma-opener's own real two instances — Exodus 17:15 and
-    // 1 Corinthians 10:4's own "Greek, petra" note. The Aleph-Tav
-    // construct was never actually shipped (see the comment above), so
-    // Exodus 20:1 and Zechariah 12:10 both stay `stu` in both `before` and
-    // `after`, contributing zero changes here — correctly, not a gap in
-    // this comparison.
+    // Only the two real comma-opener instances: Exodus 17:15 and
+    // 1 Corinthians 10:4's "Greek, petra" note. The Aleph-Tav construct was
+    // never shipped (see above), so Exodus 20:1 and Zechariah 12:10 stay
+    // `stu` in both `before` and `after` — correctly, not a gap here.
     expect(totalChanges).toBe(2);
     expect(changedBodies.sort()).toEqual(["Hebrew, Yahweh Nissi", "Greek, petra, a rock mass or bedrock."].sort());
   });

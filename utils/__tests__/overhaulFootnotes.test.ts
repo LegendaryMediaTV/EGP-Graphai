@@ -166,11 +166,9 @@ describe("computeFootnoteOverhaul — the no-downgrade rule (stu is a default, n
         book: "NEH",
         chapter: 9,
         verse: 6,
-        // A bare gloss with no witness/citation/translation-opener construct at all —
-        // classifyFootnote's own default. Some corpora carry many real notes shaped
-        // exactly like this, already typed trn from a human's own reading of context
-        // this tool cannot see; downgrading them to stu on no evidence would erase
-        // that judgment.
+        // A bare gloss with no classification signal of its own — classifyFootnote's
+        // default. See overhaulFootnotes.ts's own header comment for why this must
+        // not downgrade to stu.
         content: [{ text: "the sky", foot: { type: "trn", content: "expanse" } }],
       },
     ]);
@@ -309,9 +307,10 @@ describe("parseOverhaulArgs — the --fix-requires-a-version guard, matching aud
 });
 
 /**
- * `npm run <script> --fix` never reaches the script: npm reads the flag as
- * one of its own config settings and runs the script without it, leaving
- * only an `npm_config_*` environment variable behind as evidence.
+ * The env vars below (`npm_config_fix`, `npm_config_hard_reset`) are the
+ * evidence npm leaves behind when it swallows a flag instead of forwarding
+ * it — see overhaulFootnotes.ts's own findSwallowedFlags header comment for
+ * the mechanism.
  */
 describe("findSwallowedFlags — npm eats a flag unless a bare -- precedes it", () => {
   it("should report a flag npm consumed instead of forwarding", () => {

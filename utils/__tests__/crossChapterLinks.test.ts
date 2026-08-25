@@ -1,12 +1,11 @@
 import { describe, it, expect } from "vitest";
 import { classifyBibleLink, findCrossChapterLinks, fixCrossChapterLinks, splitCrossChapterLink, splitCrossChapterLinksInContent } from "../crossChapterLinks";
 
-// Target strings are drawn from this repo's own six versions (ASV1901,
-// BYZ2018, CLV1880, KJV1769, WEBUS2020, YLT1898) wherever a real example
-// exists — WEBUS2020 and YLT1898 are the only ones with any `bibleLink` at
-// all, so most fixtures are theirs. One shape absent from this repo's data (a
-// bare chapter reference) is marked below as a grammar illustration, not a
-// real occurrence.
+// Target strings are drawn from this repo's own versions wherever a real
+// example exists — WEBUS2020 and YLT1898 are the only ones carrying any
+// `bibleLink` at all, so most fixtures are theirs. One shape absent from real
+// data (a bare chapter reference) is marked below as a grammar illustration,
+// not an occurrence.
 
 describe("classifyBibleLink — target shape", () => {
   it("should classify an em-dash cross-chapter target as crossChapterRange (the real WEBUS2020 Hebrews 11:34 finding)", () => {
@@ -124,14 +123,11 @@ describe("findCrossChapterLinks", () => {
 
   it("should count every bibleLink node scanned, not just the ones that turn out to be findings", () => {
     // WEBUS2020 currently carries 550 real bibleLink nodes: canonical
-    // Strong's/cross-reference targets plus deuterocanon and \f-derived
-    // reference nodes (see `utils/usfm/verify.ts`'s BIBLE_LINKS_IN_CORPUS),
-    // plus Finding 9's own real, generic linkEmbeddedReferences population
-    // in usfm/references.ts — 99 corpus-wide as of Phase 15's redesign (up
-    // from Phase 14's own cue-word-gated 72; Deuteronomy 33:16's own link
-    // now comes from this same generic mechanism directly, no separate
-    // import.ts override needed any more). This count drifts as the corpus
-    // changes — update it here rather than treating a mismatch as a bug in
+    // Strong's/cross-reference targets, deuterocanon and \f-derived reference
+    // nodes (see `utils/usfm/verify.ts`'s BIBLE_LINKS_IN_CORPUS), and generic
+    // embedded-reference links from `usfm/references.ts`'s
+    // linkEmbeddedReferences. This count drifts as the corpus changes —
+    // update it here rather than treating a mismatch as a bug in
     // findCrossChapterLinks.
     const { scanned, findings } = findCrossChapterLinks("WEBUS2020");
     expect(scanned).toBe(550);

@@ -622,7 +622,7 @@ Then was Saul certain days with the disciples which were at Damascus.
 > - <sup>b</sup> 5. Or, _instant and earnest prayer was made_
 > - <sup>c</sup> 13. Or, _to ask who was there_
 > - <sup>d</sup> 20. Or, _bare an hostile mind intending war_
-> - <sup>e</sup> 25. Or, _charge, chap. 11.29, 30_
+> - <sup>e</sup> 25. Or, _charge,_ _chap. 11.29, 30_
 
 ## Chapter 13
 
@@ -697,7 +697,7 @@ Then was Saul certain days with the disciples which were at Damascus.
 <sup>52</sup> And the disciples were filled with joy, and with the Holy Ghost.
 
 > - <sup>a</sup> 1. Or, _Herods foster brother_
-> - <sup>b</sup> 18. Gr. _[Greek characters] as a nurse beareth_ or _feedeth her child, Deut. 1.31. 2. Macc 7.27. according to the Sept. and so Chrysost._
+> - <sup>b</sup> 18. Gr. _[Greek characters] as a nurse beareth_ or _feedeth her child,_ _Deut. 1.31__. 2. Macc 7.27. according to the Sept. and so Chrysost._
 > - <sup>c</sup> 34. Gr. _[Greek characters] holy_ or _just things, which word the Sept. both in the place of Esai 55.3. and in many others, use for that which is in the Hebrew, Mercies_
 > - <sup>d</sup> 36. Or, _after he had in his own age served the will of God_
 > - <sup>e</sup> 42. Or, _in the week between_, or _in the Sabbath between_
@@ -919,7 +919,7 @@ _Ye_ men of Athens, I perceive that in all things ye are too superstitious.
 > - <sup>a</sup> 16. Or, _full of idols_
 > - <sup>b</sup> 18. Or, _base fellow_
 > - <sup>c</sup> 19. Or, _Mars hill. It was the highest court in Athens_
-> - <sup>d</sup> 23. Or, _gods that you worship, 2 Thess. 2.4_
+> - <sup>d</sup> 23. Or, _gods that you worship,_ _2 Thess. 2.4_
 > - <sup>e</sup> 31. Or, _offered faith_
 
 ## Chapter 18

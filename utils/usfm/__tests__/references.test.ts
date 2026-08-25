@@ -6,10 +6,10 @@ import { Token, tokenize } from "../tokenize";
  * Every raw USFM snippet below is copied verbatim from the WEBUS2020 source
  * (guide §6's discipline against hand-invented fixtures) — cited by
  * book/verse in each test's title, the same convention `footnotes.test.ts`
- * already established. `xrefFrom`'s default `canonBookIds` is the 66-book
- * in-scope canon, resolved once here rather than per test.
+ * already established.
  */
 
+/** The 66-book in-scope canon, resolved once here and used as {@link xrefFrom}'s own default `canonBookIds`. */
 const IN_SCOPE_CANON = new Set([
   "GEN", "EXO", "LEV", "NUM", "DEU", "JSH", "JDG", "RTH", "1SM", "2SM", "1KG", "2KG",
   "1CH", "2CH", "EZR", "NEH", "EST", "JOB", "PSA", "PRV", "ECC", "SOS", "ISA", "JER",
@@ -19,6 +19,11 @@ const IN_SCOPE_CANON = new Set([
   "2PT", "1JN", "2JN", "3JN", "JUD", "REV",
 ]);
 
+/**
+ * @param raw - A real, verbatim USFM snippet containing exactly one
+ *   `\x`...`\x*` span, with nothing but the span itself (or the span
+ *   preceded by other tokens this helper skips past to find it).
+ */
 function xrefFrom(raw: string, canonBookIds: ReadonlySet<string> | undefined = IN_SCOPE_CANON): ReturnType<typeof buildCrossReferenceContent> {
   const tokens: Token[] = tokenize(raw);
   const openIndex = tokens.findIndex((token) => token.type === "open" && token.name === "x");
@@ -87,10 +92,10 @@ describe("buildCrossReferenceContent — a book outside the target version's own
     const raw = "\\x + \\xo 14:27 \\xt Wisdom 14:21\\x*";
     const tokens = tokenize(raw);
     const openIndex = tokens.findIndex((token) => token.type === "open" && token.name === "x");
-    // Calls buildCrossReferenceContent directly rather than through
-    // xrefFrom — a default parameter doesn't apply when `undefined` is
-    // passed explicitly, so xrefFrom's default could never exercise the
-    // truly-omitted-argument case.
+    // Calls buildCrossReferenceContent directly, not through xrefFrom — a
+    // default parameter never applies to an explicitly-passed `undefined`,
+    // so xrefFrom's default could never exercise the truly-omitted-argument
+    // case.
     const { footnote } = buildCrossReferenceContent(tokens, openIndex + 1);
     expect(footnote.content).toEqual({ bibleLink: "Wisdom of Solomon 14:21", content: "Wisdom 14:21" });
   });
@@ -133,9 +138,6 @@ describe("buildCrossReferenceContent — Finding 8c: a verse list inside a targe
 
   it('should leave an already-spaced verse-list comma untouched, adding a display override for Finding 8b\'s book-name fix alone (1 Maccabees 7:17\'s real note, "Psalms 79:2, 3.", already spaced in the source)', () => {
     const content = buildReferenceOnlyContent("Psalms 79:2, 3.", IN_SCOPE_CANON);
-    // Finding 8b still overrides the book name, but the comma spacing is
-    // already correct in the source — proof this fix never re-spaces text
-    // that already matches the convention.
     expect(content).toEqual({ bibleLink: "Psalm 79:2, 3", content: "Psalms 79:2, 3" });
   });
 });

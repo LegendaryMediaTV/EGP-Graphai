@@ -88,7 +88,7 @@
 <sup>23</sup> Therefore the LORD left<sup>g</sup> those nations, without driving them out hastily; neither delivered he them into the hand of Joshua.
 
 > - <sup>a</sup> 1. Or, _messenger_
-> - <sup>b</sup> 5. that is, _Weepers_
+> - <sup>b</sup> 5. That is, _Weepers_
 > - <sup>c</sup> 7. Heb. _prolonged days after Joshua_
 > - <sup>d</sup> 16. Heb. _saved_
 > - <sup>e</sup> 19. Or, _were corrupt_
@@ -308,7 +308,7 @@ And the land had rest forty years.
 > - <sup>e</sup> 15. Heb. _my thousand is the meanest_
 > - <sup>f</sup> 18. Or, _meat offering_
 > - <sup>g</sup> 19. Heb. _a kid of the goats_
-> - <sup>h</sup> 24. that is, _The LORD send peace_
+> - <sup>h</sup> 24. That is, _The LORD send peace_
 > - <sup>i</sup> 26. Heb. _strong place_
 > - <sup>j</sup> 26. Or, _in an orderly manner_
 > - <sup>k</sup> 34. Heb. _clothed_
@@ -488,7 +488,7 @@ And the land had rest forty years.
 <sup>57</sup> and all the evil of the men of Shechem did God render upon their heads: and upon them came the curse of Jotham the son of Jerubbaal.
 
 > - <sup>a</sup> 3. Heb. _after_
-> - <sup>b</sup> 6. Or, _by the oak of the pillar. See Josh. 24.26_
+> - <sup>b</sup> 6. Or, _by the oak of the pillar. See_ _Josh. 24.26_
 > - <sup>c</sup> 9. Or, _go up and down for other trees_
 > - <sup>d</sup> 14. Or, _thistle_
 > - <sup>e</sup> 17. Heb. _cast his life_
@@ -741,9 +741,9 @@ And they could not in three days expound the riddle.
 > - <sup>d</sup> 11. Heb. _went down_
 > - <sup>e</sup> 14. Heb. _were melted_
 > - <sup>f</sup> 15. Heb. _moist_
-> - <sup>g</sup> 17. that is, _the lifting up of the jawbone_, or, _casting away of the jawbone_
+> - <sup>g</sup> 17. That is, _the lifting up of the jawbone_, or, _casting away of the jawbone_
 > - <sup>h</sup> 19. Or, _Lehi_
-> - <sup>i</sup> 19. that is, _the well of him that called_ or _cried_
+> - <sup>i</sup> 19. That is, _the well of him that called_ or _cried_
 
 ## Chapter 16
 

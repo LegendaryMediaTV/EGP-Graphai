@@ -31,11 +31,15 @@ const CANON_BOOK_IDS = new Set((version.books ?? []).map((book) => book._id));
 
 /** One real, resolved `bibleLink` node found anywhere in the corpus, plus where it came from — only for this test's own error messages. */
 interface CorpusLink {
+  /** The `.usfm` filename this link was found in. */
   readonly file: string;
+  /** The resolved `bibleLink` target string. */
   readonly target: string;
+  /** The link's own display override, or `undefined` when the target and the source's own raw text are identical. */
   readonly content: string | undefined;
 }
 
+/** Recursively collects every `bibleLink` node found anywhere in `content` into `out`, tagging each with `file` for this test's own error messages. */
 function collectLinks(content: unknown, file: string, out: CorpusLink[]): void {
   if (content === null || content === undefined || typeof content !== "object") return;
   if (Array.isArray(content)) {
@@ -88,11 +92,10 @@ function scanCorpus(): readonly CorpusLink[] {
   return links;
 }
 
-// Report-only, corpus-wide measurement: needs WEBUS2020's own real raw USFM
-// locally (gitignored, never committed — a fresh clone doesn't have it).
-// Guarded before `scanCorpus()` ever runs, not with `describe.skipIf`:
-// vitest still runs a skipped describe's own callback body to collect its
-// child tests, and the real crash site here (`const links = scanCorpus()`)
+// Report-only, corpus-wide measurement: needs the real WEBUS2020 raw USFM
+// locally (gitignored). Guarded with a plain `if` before `scanCorpus()`
+// ever runs, not `describe.skipIf`: vitest still runs a skipped describe's
+// own callback body, and the real crash site (`const links = scanCorpus()`)
 // sits at module scope, outside any describe at all.
 const SOURCE_AVAILABLE = fs.existsSync(path.join(REPO_ROOT, "imports", "webus2020", "ebible-usfm"));
 const links = SOURCE_AVAILABLE ? scanCorpus() : [];

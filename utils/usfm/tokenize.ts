@@ -65,6 +65,7 @@ export interface CloseToken {
   readonly attributes?: Readonly<Record<string, string>>;
 }
 
+/** Any token {@link tokenize} emits, in source order. */
 export type Token = TextToken | MarkerToken | OpenToken | CloseToken;
 
 /**

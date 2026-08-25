@@ -46,14 +46,23 @@ import { sortVerseKeys } from "../functions/sortContentKeys";
 import { writeJsonFile } from "../functions/writeJsonFile";
 import { canJoinForward, describeNode, findStrongsNodeIssues, isMergeableConnector, NodeShape } from "./auditNodes";
 
+/** Root directory holding one subfolder per Bible version. */
 const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
+
+/** A verse-file's own name: two-digit book order + book id (e.g. `01-GEN.json`) — never `_version.json` or a schema file. */
 const VERSE_FILE_NAME = /^\d{2}-[A-Z0-9]+\.json$/;
 
+/** One verse record as read from a `bible-versions/<version>/*.json` file. */
 interface VerseRecord {
+  /** The verse's own book id (e.g. `GEN`, `MAT`). */
   book: string;
+  /** The verse's own chapter number. */
   chapter: number;
+  /** The verse's own verse number. */
   verse: number;
+  /** The verse's own content tree, read and possibly rewritten by {@link rewriteLevel}. */
   content: unknown;
+  /** Every other field this script doesn't inspect, carried through unchanged. */
   [key: string]: unknown;
 }
 
@@ -157,6 +166,12 @@ function rewriteLevel(content: unknown): unknown {
   return rewriteNode(content);
 }
 
+/**
+ * CLI entry point: `--fix` writes changes to disk, otherwise previews them.
+ * The first non-flag argument names a single version; omitted, every
+ * version directory on disk is processed (this module's own top doc
+ * comment explains why there's no curated list).
+ */
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
   const write = args.includes("--fix");

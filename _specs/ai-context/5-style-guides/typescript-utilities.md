@@ -34,7 +34,7 @@ if (require.main === module) {
 }
 ```
 
-CLI entry points are `async` even when nothing in the script's own logic requires it, because every script that writes output (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts`, `auditCrossChapterLinks.ts`, `importUsfm.ts`, `overhaulFootnotes.ts`) `await`s a call into [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts). `exportContent.ts`'s `main()` also wraps its `require.main === module` call in `.catch()` to report failures with a non-zero exit rather than an unhandled rejection; `auditCrossChapterLinks.ts` and `importUsfm.ts` do the same.
+CLI entry points are `async` even when nothing in the script's own logic requires it, because every script that writes output (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts`, `auditCrossChapterLinks.ts`, `importUsfm.ts`, `overhaulFootnotes.ts`, `fixUnmergedNodes.ts`, `fixHeadingParagraphs.ts`) `await`s a call into [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts). `exportContent.ts`'s `main()` also wraps its `require.main === module` call in `.catch()` to report failures with a non-zero exit rather than an unhandled rejection; `auditCrossChapterLinks.ts` and `importUsfm.ts` do the same. `fixUnmergedNodes.ts` and `fixHeadingParagraphs.ts` skip the `require.main === module` guard entirely and call `main().catch(...)` unconditionally — safe because nothing else imports them, unlike `auditNodes.ts`, which both of them (and `validate.ts`) import directly and which therefore needs the guard to avoid running its CLI as a side effect of that import.
 
 ## Naming and Organization
 

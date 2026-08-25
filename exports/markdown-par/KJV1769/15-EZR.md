@@ -14,7 +14,7 @@
 <sup>11</sup> All the vessels of gold and of silver _were_ five thousand and four hundred. All _these_ did Sheshbazzar bring up with _them of_ the captivity<sup>c</sup> that were brought up from Babylon unto Jerusalem.
 
 > - <sup>a</sup> 4. Heb. _lift him up_
-> - <sup>b</sup> 6. that is, _helped them_
+> - <sup>b</sup> 6. That is, _helped them_
 > - <sup>c</sup> 11. Heb. _the transportation_
 
 ## Chapter 2
@@ -108,7 +108,7 @@ The number of the men of the people of Israel:
 > - <sup>d</sup> 20. Or, _Gibeon_
 > - <sup>e</sup> 24. Or, _Bethazmaveth_
 > - <sup>f</sup> 33. Or, _Harid, as it is in some copies_
-> - <sup>g</sup> 40. Or, _Judah, chap. 3.9. called also Hodevah_
+> - <sup>g</sup> 40. Or, _Judah,_ _chap. 3.9__. called also Hodevah_
 > - <sup>h</sup> 46. Or, _Shamlai_
 > - <sup>i</sup> 52. Or, _Bazlith, in Nehem_
 > - <sup>j</sup> 55. Or, _Perida, in Nehem._

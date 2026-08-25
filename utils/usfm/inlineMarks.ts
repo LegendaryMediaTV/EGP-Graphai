@@ -333,8 +333,7 @@ export function mergeConnectors(nodes: readonly ContentObject[]): ContentObject[
         working.splice(index, 1);
         continue;
       }
-      // Real node ahead, just disqualified — stays split; the backward
-      // fallback below is only for when nothing follows at all.
+      // Disqualified, not absent — stays split.
       index++;
       continue;
     }

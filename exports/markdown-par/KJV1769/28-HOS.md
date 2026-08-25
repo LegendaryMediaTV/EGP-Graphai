@@ -63,7 +63,7 @@
 > - <sup>h</sup> 10. Heb. _folly_ or _villany_
 > - <sup>i</sup> 12. Heb. _make desolate_
 > - <sup>j</sup> 14. Or, _friendly_. Heb. _to her heart_
-> - <sup>k</sup> 16. that is, _my husband_
+> - <sup>k</sup> 16. That is, _my husband_
 > - <sup>l</sup> 16. That is, _my Lord_
 
 ## Chapter 3

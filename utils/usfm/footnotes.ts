@@ -108,20 +108,17 @@ const QUOTED_SUB_MARKERS = new Set(["fq", "fqa"]);
  * Sub-markers whose own text becomes part of the footnote's real body. `\fr`
  * is deliberately absent — its text is dropped, never accumulated.
  *
- * `\fl` — a footnote label (`Greek`, `Hebrew`, `Or,`, `Note:`,
- * `i.e.`), absent from the 66-book canonical corpus but present 33 times in
- * Esther-Greek — belongs in this set: without it, an unrecognized `\fl`
- * token falls through to the generic "skip and keep walking" branch below
- * *without* updating {@link buildFootnoteContent}'s own `currentSubMarker`,
- * so the label's own text (and whatever `\ft`/`\fq` follows it, if `\fl`
- * sits directly after `\fr`) gets evaluated against whichever sub-marker
- * was active *before* `\fl` — usually `"fr"`, so it's dropped as if part of
- * the already-discarded reference label. Concretely: `\f + \fr 1:11 \fl
+ * `\fl` — a footnote label (`Greek`, `Hebrew`, `Or,`, `Note:`, `i.e.`),
+ * absent from the 66-book canonical corpus but present 33 times in
+ * Esther-Greek — must stay in this set: an unrecognized `\fl` falls through
+ * without updating {@link buildFootnoteContent}'s own `currentSubMarker`,
+ * so its text silently attaches to whichever sub-marker was active before
+ * it instead — usually `"fr"`, discarding it as if it were part of the
+ * already-dropped reference label. Esther-Greek 1:11's `\f + \fr 1:11 \fl
  * Greek \ft to make her queen.\f*` would lose the word "Greek" entirely,
- * and `footnoteTypeRules.ts`'s own `TRANSLATION_ALTERNATIVE_PATTERNS` —
- * already anchored at the body's own start for the spelled-out
- * `Greek:`/`Greek ` opener — would have nothing to anchor to, wrongly
- * falling to the default `stu` instead of the correct `trn`.
+ * starving `footnoteTypeRules.ts`'s own `TRANSLATION_OPENER` check of the
+ * anchor it needs and wrongly falling to the default `stu` instead of the
+ * correct `trn`.
  */
 const KEPT_SUB_MARKERS = new Set(["ft", "fq", "fqa", "fl"]);
 

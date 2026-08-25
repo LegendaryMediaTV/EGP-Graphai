@@ -21,17 +21,15 @@
  * being re-derived from each one's house style.
  *
  * **Order is load-bearing**, and each rule's own doc comment below explains
- * why it sits where it does. In short: `xrf` runs first because it is a
- * whole-body test that a mixed note can never satisfy, so it is safe to try
- * before anything else, and it must resolve a body like `"Heb. 6:10"` (the
+ * why it sits where it does. `xrf` runs first because it is a whole-body
+ * test that a mixed note can never satisfy, so it is safe to try before
+ * anything else, and it must resolve a body like `"Heb. 6:10"` (the
  * epistle) before any translation-opener rule gets a chance to misread
- * `Heb.` as Hebrew. Symbolic apparatus notation is checked next, since a
- * Greek or Hebrew critical edition prints operators rather than prose and
- * no vocabulary rule can see it. `var` then runs before `trn` so a witness
- * note that happens to use the word "reads" is not caught by the
- * translation-alternative rule instead. The weaker language-comparison
- * signal for `var` runs last, after `trn` has already had its chance to
- * claim an opening language name as a translation marker instead.
+ * `Heb.` as Hebrew. Symbolic apparatus notation runs next (see
+ * {@link APPARATUS_NOTATION}), then `var`'s named-witness checks ahead of
+ * `trn` (see {@link namesAWitness}), then `trn` itself, then the weaker
+ * language-comparison `var` signal last (see
+ * {@link LANGUAGE_AFTER_SEMICOLON}).
  */
 
 import Footnote from "../../types/Footnote";
@@ -211,6 +209,7 @@ const STRONG_WITNESS_NOUN = "(?:manuscripts?|MSS?|mss?|authorities|copies|scroll
  * {@link WITNESS_PHRASE}.
  */
 const VERB_BOUND_WITNESS_NOUN = "(?:witnesses)\\b";
+/** Witness nouns valid in a claim shape (near a reading verb) — the union of {@link STRONG_WITNESS_NOUN} and {@link VERB_BOUND_WITNESS_NOUN}, used by {@link WITNESS_CLAIM} and {@link WITNESS_CLAIM_REVERSE}. */
 const CLAIM_WITNESS_NOUN = `(?:${STRONG_WITNESS_NOUN}|${VERB_BOUND_WITNESS_NOUN})`;
 
 /**
@@ -221,6 +220,7 @@ const CLAIM_WITNESS_NOUN = `(?:${STRONG_WITNESS_NOUN}|${VERB_BOUND_WITNESS_NOUN}
  * claim about a manuscript tradition, and that note is `stu`, not `var`.
  */
 const WEAK_WITNESS_NOUN = "(?:texts?|versions?|traditions?|readings?|editions?)\\b";
+/** Witness nouns valid once quantified — the union of {@link STRONG_WITNESS_NOUN} and {@link WEAK_WITNESS_NOUN}, used by {@link WITNESS_PHRASE}. */
 const WITNESS_NOUN = `(?:${STRONG_WITNESS_NOUN}|${WEAK_WITNESS_NOUN})`;
 
 /** Determiners that turn a witness noun into a claim about a body of manuscripts, rather than a bare mention of "the text" or "a manuscript." */
@@ -232,6 +232,7 @@ const WITNESS_PHRASE = new RegExp(`\\b${QUANTIFIER}(?:\\s+\\S+){0,2}\\s+${WITNES
 
 /** A strong witness noun near a reading verb, either order — `"authorities insert"` (ASV1901's own "Many ancient authorities insert...", John 5:4) and its reverse, `"omitted by the best ancient authorities"` (ASV1901's Mark 9:44/9:46). Deliberately restricted to {@link STRONG_WITNESS_NOUN}: a weak noun near a verb is still not enough on its own (see {@link WEAK_WITNESS_NOUN}'s own doc comment). */
 const WITNESS_CLAIM = new RegExp(`\\b${CLAIM_WITNESS_NOUN}[^.]{0,40}?\\b${WITNESS_VERB_SOURCE}\\b`, "i");
+/** The reverse word order of {@link WITNESS_CLAIM} — verb before noun, e.g. `"omitted by the best ancient authorities"` (see that constant's own doc comment). */
 const WITNESS_CLAIM_REVERSE = new RegExp(`\\b${WITNESS_VERB_SOURCE}\\b[^.]{0,40}?\\b${CLAIM_WITNESS_NOUN}`, "i");
 
 /** ASV1901's own real `"Another reading is, Ai."` phrasing — a witness claim with no named witness, no siglon, and no witness noun at all, just this fixed idiom. */
@@ -361,23 +362,6 @@ function namesAWitness(body: string): boolean {
 }
 
 /**
- * An *anchored* opener naming a live English alternative or the original-
- * language reading behind the current one: `Or`, `Lit`/`Lit.`/`Literally,`,
- * `Heb`/`Heb.`/`Hebrew`/`Hb`, `Gr`/`Gr.`/`Greek`, `Aram`/`Aramaic`, in any of
- * their real punctuation variants (a trailing period, comma, colon, or
- * semicolon, in any combination — `Lit.,`, `Hebrew:`, `Hebrew,`). Anchoring
- * to the body's own start, rather than matching these words anywhere, is
- * what keeps a bare in-sentence mention of "Hebrew" or "Greek" from
- * claiming `trn` on its own — ASV1901's `"The Greek word denotes an act of
- * reverence..."` is `stu`, and would not be if this matched anywhere.
- * (What keeps `"Or, Jeshimon. See 23:19."` off `xrf` is {@link REFERENCE}'s
- * own one-book-word cap, not this anchoring: `xrf` is settled before this
- * rule ever runs.) This single construct covers KJV's 2,146 `Heb.` notes,
- * YLT's 216 `Lit.,` notes, and ASV1901's 4,500 `Or,` notes — one shape,
- * re-derived per edition only in which punctuation variant each one
- * happens to prefer.
- */
-/**
  * Every spelling of an original-language name a real edition opens with,
  * written as a stem with optional tails rather than a list, because the
  * abbreviations vary by edition and by printing. KJV1769 alone spells
@@ -398,6 +382,23 @@ const LANGUAGE_OPENER = "or|lit(?:erally)?|heb(?:r(?:ew)?)?|hb|gr(?:eek)?|aram(?
  */
 const SHORT_LANGUAGE_OPENER = "he";
 
+/**
+ * An *anchored* opener naming a live English alternative or the original-
+ * language reading behind the current one: `Or`, `Lit`/`Lit.`/`Literally,`,
+ * `Heb`/`Heb.`/`Hebrew`/`Hb`, `Gr`/`Gr.`/`Greek`, `Aram`/`Aramaic`, in any of
+ * their real punctuation variants (a trailing period, comma, colon, or
+ * semicolon, in any combination — `Lit.,`, `Hebrew:`, `Hebrew,`). Anchoring
+ * to the body's own start, rather than matching these words anywhere, is
+ * what keeps a bare in-sentence mention of "Hebrew" or "Greek" from
+ * claiming `trn` on its own — ASV1901's `"The Greek word denotes an act of
+ * reverence..."` is `stu`, and would not be if this matched anywhere.
+ * (What keeps `"Or, Jeshimon. See 23:19."` off `xrf` is {@link REFERENCE}'s
+ * own one-book-word cap, not this anchoring: `xrf` is settled before this
+ * rule ever runs.) This single construct covers KJV's 2,146 `Heb.` notes,
+ * YLT's 216 `Lit.,` notes, and ASV1901's 4,500 `Or,` notes — one shape,
+ * re-derived per edition only in which punctuation variant each one
+ * happens to prefer.
+ */
 const TRANSLATION_OPENER = new RegExp(
   `^\\s*["'“(]?\\s*(?:(?:${LANGUAGE_OPENER})\\b[.,:;]*|(?:${SHORT_LANGUAGE_OPENER})[.,])(?:[\\s“"']|$)`,
   "i",

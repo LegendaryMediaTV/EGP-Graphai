@@ -265,11 +265,9 @@ describe("segmentVerses — the real \\b-then-bare-\\qN idiom itself (Genesis 49
     const verseTwo = records.find((record) => record.verse === 2);
     const lastBlock = last(verseTwo?.blocks ?? []);
 
-    // The precise shape a resurrected break would take: `break: true`
-    // reappearing on the exact block the fix just cleared. Asserted
-    // directly, not just implied by the block-boundary tests above, so a
+    // Asserted directly, not just implied by the shape check below, so a
     // regression here fails with an unambiguous message rather than a
-    // generic shape mismatch.
+    // generic mismatch.
     expect(lastBlock?.break).toBeUndefined();
     expect(blockFlags(verseTwo?.blocks ?? [])).toEqual([
       { text: "Assemble yourselves, and hear, you sons of Jacob.", break: true },
@@ -404,10 +402,9 @@ describe("segmentVerses — Deuteronomy 31:28-32:2 (Finding 7's own real report:
   const records = segmentVerses(readFixture("deuteronomy-31-28-32-2.usfm"), "DEU");
 
   it("should leave 31:30's own single block clean, with no break: true reach-back from chapter 32's own bare \\q1", () => {
-    // This fixture, like job-16-22-17-1-chapter-b.usfm's own established
-    // precedent, carries no leading \c 31 marker, so verse 30 lands under
-    // this walk's own default chapter, 0 — matched by verse number alone,
-    // unambiguous since this fixture has exactly one verse 30.
+    // No leading \c 31 marker in this fixture either — matched by verse
+    // number alone, unambiguous since this fixture has exactly one verse
+    // 30 (see the identical note on the Job 5:26-6:2 fixture above).
     const verseThirty = records.find((record) => record.verse === 30);
     expect(blockFlags(verseThirty?.blocks ?? [])).toEqual([
       {
@@ -453,12 +450,9 @@ describe("segmentVerses — Psalm 41:11-42:2 (Finding 7's own \\ms1-adjacent sha
   const records = segmentVerses(readFixture("psalm-41-11-42-2-ms1-d.usfm"), "PSA");
 
   it("should leave Psalm 41:13's own last block clean, with no break: true reach-back through \\ms1 and \\d from chapter 42's own bare \\q1", () => {
-    // This fixture, like the project's own established convention for an
-    // isolated mid-chapter extract (job-16-22-17-1-chapter-b.usfm's own
-    // verse-22 lookup is the direct precedent), carries no leading \c 41
-    // marker of its own, so verse 13 here lands under this walk's own
-    // default chapter, 0 — matched by verse number alone, unambiguous
-    // since this fixture has exactly one verse 13.
+    // No leading \c 41 marker in this fixture either — matched by verse
+    // number alone, unambiguous since this fixture has exactly one verse
+    // 13 (see the identical note on the Job 5:26-6:2 fixture above).
     const verseThirteen = records.find((record) => record.verse === 13);
     expect(last(blockFlags(verseThirteen?.blocks ?? []))).toEqual({
       text: "Amen and amen.",
@@ -481,23 +475,19 @@ describe("segmentVerses — Psalm 41:11-42:2 (Finding 7's own \\ms1-adjacent sha
 describe("segmentVerses — Psalm 1 into Psalm 2 (corrected by Finding 7: this chapter boundary gets the same clean-cut, chapter-paragraph-start convention as every other one, not the \"same rule, two sides\" cross-chapter reach this describe block used to assert)", () => {
   const records = segmentVerses(readFixture("psalm-1-2-boundary.usfm"), "PSA");
 
-  // This block's own two tests used to assert the opposite of what's
-  // below: that Psalm 2's own opening bare \q1 reaches backward across
-  // the chapter boundary to retroactively mark Psalm 1:6's own last line
-  // break: true, leaving Psalm 2:1 itself unflagged — cited against
-  // bible-versions/ASV1901/19-PSA.json's own Psalm 22/23 boundary as
-  // precedent. Checked directly against WEBUS2020's own real upstream
-  // HEAD (git show HEAD:bible-versions/WEBUS2020/19-PSA.json), that
-  // precedent turns out to describe the same bug this whole finding is
-  // about, not the real convention: HEAD leaves Psalm 1:6 clean and gives
-  // Psalm 2:1 paragraph: true, the identical shape as every other real
-  // \b-less chapter boundary this phase measured (Deuteronomy 31:30→32:1,
-  // Psalm 90:17→91:1, the four \ms1 book-division boundaries). ASV1901's
-  // own already-shipped file was never reimported after Phase 5's or this
-  // phase's own segmentVerses.ts fixes landed, so it still reflects the
-  // old, unfixed behavior at its own analogous boundary — a real,
-  // accepted staleness (ASV1901 reimport is out of scope for this
-  // objective), not evidence for a second, real convention.
+  // These two tests used to assert the opposite: that Psalm 2's own
+  // opening bare \q1 reaches backward across the chapter boundary to mark
+  // Psalm 1:6 break: true, leaving Psalm 2:1 itself unflagged —
+  // cited against bible-versions/ASV1901/19-PSA.json's own Psalm 22/23
+  // boundary as precedent. Checked against WEBUS2020's real upstream HEAD
+  // (git show HEAD:bible-versions/WEBUS2020/19-PSA.json), that precedent
+  // turns out to be the same bug Finding 7 fixes, not the real convention:
+  // HEAD leaves Psalm 1:6 clean and gives Psalm 2:1 paragraph: true, the
+  // identical shape as every other \b-less chapter boundary Finding 7
+  // covers (Deuteronomy 31:30→32:1, Psalm 90:17→91:1, the four \ms1
+  // book-division boundaries). ASV1901's own shipped file predates
+  // Finding 7's fix and was never reimported, so its own analogous
+  // boundary is stale, not evidence of a second real convention.
   it("should leave Psalm 1:6's own last block clean, with no break: true reach-back from Psalm 2's own opening \\q1 — matching WEBUS2020's own real upstream HEAD", () => {
     const blocks =
       records.find((record) => record.chapter === 1 && record.verse === 6)?.blocks ?? [];
@@ -973,13 +963,11 @@ describe("segmentVerses — \\s1 (Baruch 6, a chapter-start pericope heading wit
 });
 
 describe("segmentVerses — \\s1 (Daniel 3:23/24, mid-chapter, with an embedded footnote in the \\s1 span itself)", () => {
-  // The footnote's own trailing "...inserted between Daniel 3:23 and Daniel
-  // 3:24..." also links both references independently — a real, unrelated
-  // side effect of Finding 9's redesigned scan (Phase 15), which finds any
-  // fully-qualified reference in a footnote body regardless of what word
-  // (if any) sits next to it. This test's own real point is still \+bk's
-  // marks: ["i"] tagging (Finding 6); the two bibleLink nodes below are the
-  // fixture's own real, current shape, not this test's own subject.
+  // The two bibleLink nodes below are a real side effect of Finding 9's
+  // reference scan, which links any fully-qualified reference in a
+  // footnote body regardless of what word (if any) sits next to it — not
+  // this test's own subject, which is still \+bk's marks: ["i"] tagging
+  // (Finding 6).
   it("should insert the heading between verse 23 and verse 24, with the embedded \\f...\\f* footnote (including its own 3 \\+bk citations, each tagged marks: [\"i\"] per Finding 6) attached to the heading's own text — the same embedded-footnote mechanism a Psalm superscription already proves, exercised for the first time on a non-Psalm \\s1", () => {
     const records = segmentVerses(readFixture("daniel-3-23-24-s1.usfm"), "DAG");
     const verseTwentyThree = records.find((record) => record.verse === 23);

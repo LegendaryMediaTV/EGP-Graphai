@@ -19,6 +19,8 @@
     "utils/convertToSmallCaps.ts",
     "utils/crossChapterLinks.ts",
     "utils/exportContent.ts",
+    "utils/fixHeadingParagraphs.ts",
+    "utils/fixUnmergedNodes.ts",
     "utils/importUsfm.ts",
     "utils/overhaulFootnotes.ts",
     "utils/sortBibleKeys.ts",
@@ -33,6 +35,7 @@
     "utils/usfm/paragraphNoise.ts",
     "utils/usfm/references.ts",
     "utils/usfm/segmentVerses.ts",
+    "utils/usfm/splitScriptRuns.ts",
     "utils/usfm/tokenize.ts",
     "utils/usfm/verify.ts",
     "web/public/js/footnoteText.js"
@@ -53,7 +56,11 @@
     "utils/usfm/__tests__/*.test.ts",
     "web/public/js/__tests__/footnoteText.test.ts"
   ],
-  "test-fixtures": ["utils/usfm/__tests__/fixtures/*.usfm"],
+  "test-fixtures": [
+    "utils/usfm/__tests__/fixtures/*.usfm",
+    "utils/usfm/__tests__/fixtures.ts",
+    "utils/usfm/__tests__/upstreamHeadConvention.ts"
+  ],
   "database-schema": [
     "content-schema.json",
     "bible-books/bible-books-schema.json",

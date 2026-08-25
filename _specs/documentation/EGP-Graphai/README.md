@@ -54,7 +54,7 @@ A single recursive content shape (defined in [content-schema.json](../../../cont
 | Strong's link points to a 404                        | Strong's number doesn't match `^[GH][0-9]{1,4}$` or starts with the wrong testament prefix |
 | `Failed to write … after N attempts`                 | Something is holding that file open past the retry budget; see [Writing files](./data-pipeline.md#writing-files) |
 | `auditCrossChapterLinks` reports an unsplit finding   | Run it with `--fix` for that version; see [Cross-chapter link audit](./data-pipeline.md#cross-chapter-link-audit) |
-| `auditNodes` reports a finding                | Read-only: no `--fix`. Fix the flagged node(s) by hand; see [Strong's-node audit](./data-pipeline.md#strongs-node-audit) |
+| `auditNodes` reports a finding                | `auditNodes.ts` itself is read-only. Checks 1 and 6 have a fixer script (`fixUnmergedNodes.ts`, `fixHeadingParagraphs.ts`); the rest need a hand edit. See [Strong's-node audit](./data-pipeline.md#strongs-node-audit) |
 | A validate run reformats far more of a file than expected | The file was carrying stale formatting from before a write went through the canonical path; see [Writing files](./data-pipeline.md#writing-files) |
 | USFM import or its tests throw `Cannot find module '.../imports/_lib/...'` | Expected local scaffolding is missing, not a broken commit; see [usfm-import.md operational tips](./usfm-import.md#operational-tips) |
 

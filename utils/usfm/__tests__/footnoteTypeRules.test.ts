@@ -367,9 +367,9 @@ describe("flattenContentText — a bare bibleLink node's own implied display tex
 });
 
 /**
- * A trailing `\b` can never match after a period, so every period-terminated
- * alternative inside a `\b(?:...)\b` wrapper is silently unreachable. One
- * case per pattern that carried the flaw.
+ * One regression case per pattern that dropped a period-terminated
+ * abbreviation (`WITNESS_ABBREVIATIONS`'s own doc comment has the `\b`
+ * mechanics behind why).
  */
 describe("classifyFootnote — abbreviations that end in a period still name a witness", () => {
   it("should classify a bare MSS. claim as var (YLT1898's own textual notes, which carry no quantifier the phrase rule could use)", () => {
@@ -399,9 +399,9 @@ describe("classifyFootnote — abbreviations that end in a period still name a w
 });
 
 /**
- * `witnesses` is apparatus jargon and ordinary scripture vocabulary at once,
- * and the scripture sense is far commoner across the real corpora, so a
- * quantifier alone must not make it a witness claim.
+ * `witnesses` reads as ordinary scripture vocabulary far more often than
+ * apparatus jargon (`VERB_BOUND_WITNESS_NOUN`'s own doc comment has the
+ * real corpus split), so a bare quantifier must not be enough on its own.
  */
 describe("classifyFootnote — witnesses needs a reading verb, not just a quantifier", () => {
   it("should classify KJV1769's own quoted-scripture body as trn on its Or opener, not var on “two witnesses”", () => {
@@ -441,10 +441,9 @@ describe("classifyFootnote — symbolic apparatus notation is var", () => {
 });
 
 /**
- * The 2026 Byzantine edition carries longer publisher notes as the second
- * of two back-to-back footnotes on one word. Almost all of them still use
- * the `¦` separator, but two in the whole edition do not, and neither opens
- * with a Greek character, so each needs a signal read off the note itself.
+ * The two real 2026-edition publisher notes that carry no `¦` separator at
+ * all — `APPARATUS_NOTATION`'s own doc comment explains why each still
+ * needs its own signal rather than falling through to `stu`.
  */
 describe("classifyFootnote — a critical edition's longer publisher notes", () => {
   it("should classify a prose note about how comparison editions differ as var, on its quantified “editions” (the 2026 edition's own Matthew 23:13-14 note, which carries no apparatus separator at all)", () => {
@@ -465,9 +464,9 @@ describe("classifyFootnote — a critical edition's longer publisher notes", () 
 });
 
 /**
- * A 17th-century edition abbreviates its original-language names many ways,
- * and inconsistently. KJV1769 spells Chaldee seven ways across 136 real
- * bodies and Hebrew three, none of which a fixed list of full names catches.
+ * KJV1769's own real spread of original-language abbreviations
+ * (`LANGUAGE_OPENER`'s own doc comment has the full count) — a fixed list
+ * of full names would not catch any of these.
  */
 describe("classifyFootnote — every spelling of an original-language opener is trn", () => {
   describe("KJV1769's own Hebrew abbreviations", () => {

@@ -16,22 +16,22 @@ import {
 import { BookMetadata, mergeBookMetadata } from "../usfm/metadata";
 import BibleVersion, { VersionBook } from "../../types/Version";
 
-// Phase 2's own downstream-regeneration guard (subtask 2.3) needs to prove
-// the real subprocess boundary is never crossed when outputDir diverges —
-// mocking "child_process" (an external module boundary Vitest's module
-// registry can genuinely intercept) rather than trying to spy on this
-// file's own `regenerateDownstream` export, which — being called directly
-// by name from inside the same module, not through the export object —
-// would not observe a spy at all. Scoped to this one test file only
-// (Vitest isolates module registries per file); the two `regenerateDownstream`
-// describe block's own tests below never touch this mock, since each
-// already injects its own fake `run` collaborator instead of the default.
+// The downstream-regeneration guard below needs to prove the real subprocess
+// boundary is never crossed when outputDir diverges — mocking "child_process"
+// (an external module boundary Vitest's module registry can genuinely
+// intercept) rather than trying to spy on this file's own
+// `regenerateDownstream` export, which — being called directly by name from
+// inside the same module, not through the export object — would not observe
+// a spy at all. Scoped to this one test file only (Vitest isolates module
+// registries per file); the `regenerateDownstream` describe block's two tests
+// below never touch this mock, since each already injects its own fake `run`
+// collaborator instead of the default.
 vi.mock("child_process", () => ({ execSync: vi.fn() }));
 
 /** Repo root, computed the same way `importUsfm.ts`'s own `REPO_ROOT` is, from this test file's own location (`utils/__tests__/` → repo root is two levels up). */
 const repoRoot = path.resolve(__dirname, "..", "..");
 
-/** One book's own minimal, throwaway `_version.json` — Phase 2's own fake/temp fixture shape, reused by every outputDir-related test below. */
+/** One book's own minimal, throwaway `_version.json` fixture shape, reused by every outputDir-related test below. */
 function fakeVersionJson(versionId: string): string {
   const version: BibleVersion = {
     _id: versionId,
@@ -223,11 +223,10 @@ describe("runImport, output-path hardwiring (Phase 2.1 — the real gap ImportOp
 
     const expectedHardwiredPath = path.join(repoRoot, "bible-versions", fakeVersionId, "_version.json");
 
-    // options: {} carries no redirect at all today (Phase 2.1's own scope —
-    // no outputDir field exists on ImportOptions yet at this point in the
-    // phase), so the only path this can possibly read from is the
-    // hardwired one, and that path does not exist for this fake id — the
-    // real, valid fixture sitting in tempDir is never even looked at.
+    // options: {} carries no redirect, so the only path this can possibly
+    // read from is the hardwired default — and that path does not exist for
+    // this fake id, so the real, valid fixture sitting in tempDir is never
+    // even looked at.
     await expect(runImport(fixturesDir, fakeVersionId, {})).rejects.toMatchObject({
       code: "ENOENT",
       path: expectedHardwiredPath,
@@ -249,8 +248,7 @@ describe("runImport, ImportOptions.outputDir (Phase 2.2 — the redirect itself)
     // bible-versions/ itself (not any one version's own subdirectory) is
     // the check: creating a new subdirectory inside it would bump its own
     // mtime, so an unchanged mtime here is real, filesystem-level proof
-    // that this run created nothing anywhere under it — the same kind of
-    // check subtask 5.2 will later need for real against ASV1901.
+    // that this run created nothing anywhere under it.
     const beforeMtimeMs = fs.statSync(bibleVersionsDir).mtimeMs;
 
     await runImport(fixturesDir, fakeVersionId, { outputDir: tempDir });
@@ -270,10 +268,10 @@ describe("runImport, ImportOptions.outputDir (Phase 2.2 — the redirect itself)
 
   // "Absent reproduces today's exact default path" is proven three other
   // ways already, so it is not re-proven a fourth time here: the
-  // Phase 2.1 test above (same formula, options: {}); the pre-existing
-  // preview-mode tests above (unaffected by this option's addition); and
-  // Phase 2.4's own real, full, byte-for-byte WEBUS2020 regression run —
-  // the strongest evidence available, since it is a real run, not a mock.
+  // hardwiring test above (same formula, options: {}); the pre-existing
+  // preview-mode tests above (unaffected by this option's addition); and a
+  // real, full, byte-for-byte WEBUS2020 regression run elsewhere — the
+  // strongest evidence available, since it is a real run, not a mock.
 });
 
 describe("runImport, downstream-regeneration guard (Phase 2.3 — regenerateDownstream must never fire when outputDir diverges, since npm run audit-links/npm run validate are both hardwired to the real bible-versions/<versionId> tree)", () => {
@@ -305,8 +303,8 @@ describe("runImport, downstream-regeneration guard (Phase 2.3 — regenerateDown
   // into bible-versions/<fakeVersionId>, a real subdirectory of the one
   // real tree this whole objective treats as sensitive, purely to satisfy
   // a test, or (b) mocking around that constraint in a way that no longer
-  // proves anything real. Phase 2.4's own full, real, non-mocked WEBUS2020
-  // run already exercises this exact branch for real (regenerateDownstream
-  // firing, npm run audit-links/npm run validate both actually running),
-  // which is strictly stronger evidence than a mocked unit test would be.
+  // proves anything real. A full, real, non-mocked WEBUS2020 run already
+  // exercises this exact branch for real (regenerateDownstream firing, npm
+  // run audit-links/npm run validate both actually running), which is
+  // strictly stronger evidence than a mocked unit test would be.
 });

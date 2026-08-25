@@ -1699,7 +1699,7 @@
 <sup>28</sup> then shall they know that I _am_ the LORD their God, which caused them<sup>p</sup> to be led into captivity among the heathen: but I have gathered them unto their own land, and have left none of them any more there.
 <sup>29</sup> Neither will I hide my face any more from them: for I have poured out my spirit upon the house of Israel, saith the Lord GOD.
 
-> - <sup>a</sup> 2. Or, _strike thee with six plagues_, or, _draw thee back, with an hook of six teeth, as chap. 38.4_
+> - <sup>a</sup> 2. Or, _strike thee with six plagues_, or, _draw thee back, with an hook of six teeth, as_ _chap. 38.4_
 > - <sup>b</sup> 2. Heb. _the sides of the North_
 > - <sup>c</sup> 4. Heb. _wing_
 > - <sup>d</sup> 4. Heb. _to devour_
@@ -1799,7 +1799,7 @@
 > - <sup>j</sup> 30. Heb. _breadth_
 > - <sup>k</sup> 40. Or, _at the step_
 > - <sup>l</sup> 43. Or, _and irons_ or _the two hearthstones_
-> - <sup>m</sup> 45. Or, _ward_, or, _ordinance, and so ver. 46_
+> - <sup>m</sup> 45. Or, _ward_, or, _ordinance, and so_ _ver. 46_
 
 ## Chapter 41
 

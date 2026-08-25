@@ -60,7 +60,9 @@ const PASS_THROUGH_MARKER_NAMES = new Set([
 /** `\d`/`\sp`/`\s1`/`\qc` — the heading/subtitle markers a `\b` can sit in front of (e.g. a Psalm's own closing line before the next Psalm's own subtitle). */
 const HEADING_MARKER_NAMES = new Set(["d", "sp", "s1", "qc"]);
 
+/** One classified `\b` marker boundary — {@link ParagraphBreakBoundary}'s own before/after verse-position fields, plus what real content this `\b` actually sits between. */
 interface BMarkerBoundary extends ParagraphBreakBoundary {
+  /** What real content this `\b` sits between — a verse boundary, a chapter boundary, a heading/subtitle span, or (mid-verse content, or the end of the book) `other`, counted but never scored against `HEAD`. */
   readonly kind: "verse" | "chapter" | "heading" | "other";
 }
 
@@ -151,21 +153,17 @@ const KNOWN_UPSTREAM_EDITION_DRIFT = new Set([
   "HAB 3:3->4",
 ]);
 
+/** This boundary's own `"BOOK before:before->after"` identifier — the same key shape {@link KNOWN_UPSTREAM_EDITION_DRIFT}'s own named exceptions use. */
 function boundaryKey(bookId: string, boundary: BMarkerBoundary): string {
   return `${bookId} ${boundary.beforeChapter}:${boundary.beforeVerse}->${boundary.afterVerse}`;
 }
 
-// Report-only, corpus-wide measurement: needs WEBUS2020's own real raw USFM
-// locally at `SOURCE_DIR` (gitignored, never committed — a fresh clone
-// doesn't have it), and it has to be the exact revision `HEAD`'s own
-// `bible-versions/WEBUS2020/*.json` was actually built from, since every
-// assertion below compares the two directly. A present-but-different
-// revision doesn't fail loud and clear here — it silently produces wrong
-// counts that look like real regressions — so this only runs at all when a
-// developer has deliberately placed the matching corpus there; skipped
-// otherwise. Guarded with a plain `if`, not `describe.skipIf`: vitest still
-// runs a skipped describe's own callback body to collect its child tests, so
-// `skipIf` alone would not stop the corpus read below from ever executing.
+// Report-only, corpus-wide measurement: needs the exact WEBUS2020 revision
+// `HEAD`'s own committed JSON was built from, locally at `SOURCE_DIR`
+// (gitignored) — a mismatched revision fails silently with wrong counts,
+// not loudly. Guarded with a plain `if`, not `describe.skipIf`: vitest
+// still runs a skipped describe's own callback body, which would run the
+// corpus read regardless.
 if (!fs.existsSync(SOURCE_DIR)) {
   describe.skip("the \\b stanza-break fix, measured corpus-wide against WEBUS2020's own real upstream HEAD", () => {
     it("requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm", () => {});

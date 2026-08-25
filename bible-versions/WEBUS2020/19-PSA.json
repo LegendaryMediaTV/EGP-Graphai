@@ -22323,7 +22323,11 @@
     "verse": 9,
     "content": [
       { "heading": "BETH", "type": "acrostic" },
-      { "text": "How can a young man keep his way pure?", "break": true },
+      {
+        "paragraph": true,
+        "text": "How can a young man keep his way pure?",
+        "break": true
+      },
       { "text": "By living according to your word.", "break": true }
     ]
   },
@@ -22402,7 +22406,7 @@
     "verse": 17,
     "content": [
       { "heading": "GIMEL", "type": "acrostic" },
-      { "text": "Do good to your servant.", "break": true },
+      { "paragraph": true, "text": "Do good to your servant.", "break": true },
       { "text": "I will live and I will obey your word.", "break": true }
     ]
   },
@@ -22478,7 +22482,11 @@
     "verse": 25,
     "content": [
       { "heading": "DALETH", "type": "acrostic" },
-      { "text": "My soul is laid low in the dust.", "break": true },
+      {
+        "paragraph": true,
+        "text": "My soul is laid low in the dust.",
+        "break": true
+      },
       { "text": "Revive me according to your word!", "break": true }
     ]
   },
@@ -22554,7 +22562,11 @@
     "verse": 33,
     "content": [
       { "heading": "HE", "type": "acrostic" },
-      { "text": "Teach me, Yahweh, the way of your statutes.", "break": true },
+      {
+        "paragraph": true,
+        "text": "Teach me, Yahweh, the way of your statutes.",
+        "break": true
+      },
       { "text": "I will keep them to the end.", "break": true }
     ]
   },
@@ -22634,6 +22646,7 @@
     "content": [
       { "heading": "VAV", "type": "acrostic" },
       {
+        "paragraph": true,
         "text": "Let your loving kindness also come to me, Yahweh,",
         "break": true
       },
@@ -22721,7 +22734,11 @@
     "verse": 49,
     "content": [
       { "heading": "ZAYIN", "type": "acrostic" },
-      { "text": "Remember your word to your servant,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Remember your word to your servant,",
+        "break": true
+      },
       { "text": "because you gave me hope.", "break": true }
     ]
   },
@@ -22797,7 +22814,7 @@
     "verse": 57,
     "content": [
       { "heading": "HETH", "type": "acrostic" },
-      { "text": "Yahweh is my portion.", "break": true },
+      { "paragraph": true, "text": "Yahweh is my portion.", "break": true },
       { "text": "I promised to obey your words.", "break": true }
     ]
   },
@@ -22876,7 +22893,11 @@
     "verse": 65,
     "content": [
       { "heading": "TETH", "type": "acrostic" },
-      { "text": "You have treated your servant well,", "break": true },
+      {
+        "paragraph": true,
+        "text": "You have treated your servant well,",
+        "break": true
+      },
       { "text": "according to your word, Yahweh.", "break": true }
     ]
   },
@@ -22955,7 +22976,11 @@
     "verse": 73,
     "content": [
       { "heading": "YODH", "type": "acrostic" },
-      { "text": "Your hands have made me and formed me.", "break": true },
+      {
+        "paragraph": true,
+        "text": "Your hands have made me and formed me.",
+        "break": true
+      },
       {
         "text": "Give me understanding, that I may learn your commandments.",
         "break": true
@@ -23046,7 +23071,11 @@
     "verse": 81,
     "content": [
       { "heading": "KAPF", "type": "acrostic" },
-      { "text": "My soul faints for your salvation.", "break": true },
+      {
+        "paragraph": true,
+        "text": "My soul faints for your salvation.",
+        "break": true
+      },
       { "text": "I hope in your word.", "break": true }
     ]
   },
@@ -23130,6 +23159,7 @@
     "content": [
       { "heading": "LAMEDH", "type": "acrostic" },
       {
+        "paragraph": true,
         "text": "Yahweh, your word is settled in heaven forever.",
         "break": true
       }
@@ -23210,7 +23240,7 @@
     "verse": 97,
     "content": [
       { "heading": "MEM", "type": "acrostic" },
-      { "text": "How I love your law!", "break": true },
+      { "paragraph": true, "text": "How I love your law!", "break": true },
       { "text": "It is my meditation all day.", "break": true }
     ]
   },
@@ -23289,7 +23319,11 @@
     "verse": 105,
     "content": [
       { "heading": "NUN", "type": "acrostic" },
-      { "text": "Your word is a lamp to my feet,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Your word is a lamp to my feet,",
+        "break": true
+      },
       { "text": "and a light for my path.", "break": true }
     ]
   },
@@ -23371,7 +23405,7 @@
     "verse": 113,
     "content": [
       { "heading": "SAMEKH", "type": "acrostic" },
-      { "text": "I hate double-minded men,", "break": true },
+      { "paragraph": true, "text": "I hate double-minded men,", "break": true },
       { "text": "but I love your law.", "break": true }
     ]
   },
@@ -23456,7 +23490,11 @@
     "verse": 121,
     "content": [
       { "heading": "AYIN", "type": "acrostic" },
-      { "text": "I have done what is just and righteous.", "break": true },
+      {
+        "paragraph": true,
+        "text": "I have done what is just and righteous.",
+        "break": true
+      },
       { "text": "Don’t leave me to my oppressors.", "break": true }
     ]
   },
@@ -23538,7 +23576,11 @@
     "verse": 129,
     "content": [
       { "heading": "PE", "type": "acrostic" },
-      { "text": "Your testimonies are wonderful,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Your testimonies are wonderful,",
+        "break": true
+      },
       { "text": "therefore my soul keeps them.", "break": true }
     ]
   },
@@ -23611,7 +23653,11 @@
     "verse": 137,
     "content": [
       { "heading": "TZADHE", "type": "acrostic" },
-      { "text": "You are righteous, Yahweh.", "break": true },
+      {
+        "paragraph": true,
+        "text": "You are righteous, Yahweh.",
+        "break": true
+      },
       { "text": "Your judgments are upright.", "break": true }
     ]
   },
@@ -23690,7 +23736,11 @@
     "verse": 145,
     "content": [
       { "heading": "QOPH", "type": "acrostic" },
-      { "text": "I have called with my whole heart.", "break": true },
+      {
+        "paragraph": true,
+        "text": "I have called with my whole heart.",
+        "break": true
+      },
       { "text": "Answer me, Yahweh!", "break": true },
       { "text": "I will keep your statutes.", "break": true }
     ]
@@ -23770,7 +23820,11 @@
     "verse": 153,
     "content": [
       { "heading": "RESH", "type": "acrostic" },
-      { "text": "Consider my affliction, and deliver me,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Consider my affliction, and deliver me,",
+        "break": true
+      },
       { "text": "for I don’t forget your law.", "break": true }
     ]
   },
@@ -23849,7 +23903,11 @@
     "verse": 161,
     "content": [
       { "heading": "SIN AND SHIN", "type": "acrostic" },
-      { "text": "Princes have persecuted me without a cause,", "break": true },
+      {
+        "paragraph": true,
+        "text": "Princes have persecuted me without a cause,",
+        "break": true
+      },
       { "text": "but my heart stands in awe of your words.", "break": true }
     ]
   },
@@ -23925,7 +23983,11 @@
     "verse": 169,
     "content": [
       { "heading": "TAV", "type": "acrostic" },
-      { "text": "Let my cry come before you, Yahweh.", "break": true },
+      {
+        "paragraph": true,
+        "text": "Let my cry come before you, Yahweh.",
+        "break": true
+      },
       { "text": "Give me understanding according to your word.", "break": true }
     ]
   },

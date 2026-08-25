@@ -304,6 +304,11 @@ export function findSwallowedFlags(args: readonly string[], env: NodeJS.ProcessE
   return FLAG_ENV_NAMES.filter(([flag, envName]) => env[envName] !== undefined && !args.includes(flag)).map(([flag]) => flag);
 }
 
+/**
+ * CLI entry point: guards against an npm-swallowed flag and a missing
+ * version, then previews or writes the reclassification via
+ * {@link computeFootnoteOverhaul}/{@link applyFootnoteOverhaul}.
+ */
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
 

@@ -296,7 +296,7 @@
 > - <sup>k</sup> 12. _Cald. knots_
 > - <sup>l</sup> 13. Or, _grandfather_
 > - <sup>m</sup> 16. _Cald. interpret_
-> - <sup>n</sup> 17. Or, _fee, as chap. 2.6_
+> - <sup>n</sup> 17. Or, _fee, as_ _chap. 2.6_
 > - <sup>o</sup> 20. Or, _to deal proudly_
 > - <sup>p</sup> 20. _Cald. made to come down_
 > - <sup>q</sup> 21. Or, _he made his heart equal_, etc.
@@ -541,7 +541,7 @@
 <sup>20</sup> Then said he, Knowest thou wherefore I come unto thee? and now will I return to fight with the prince of Persia: and when I am gone forth, lo, the prince of Grecia shall come.
 <sup>21</sup> But I will shew thee that which is noted in the scripture of truth: and _there is_ none that holdeth<sup>k</sup> with me in these things, but Michael your prince.
 
-> - <sup>a</sup> 1. _great_
+> - <sup>a</sup> 1. _Great_
 > - <sup>b</sup> 2. Heb. _weeks of days_
 > - <sup>c</sup> 3. Heb. _bread of desires_
 > - <sup>d</sup> 5. Heb. _one man_

@@ -189,6 +189,7 @@
     "content": [
       { "heading": "The Cry of Wisdom" },
       {
+        "paragraph": true,
         "text": "Wisdom in an out-place crieth aloud, In broad places she giveth forth her voice,",
         "break": true
       }
@@ -6416,6 +6417,7 @@
     "content": [
       { "heading": "Words of the Wise" },
       {
+        "paragraph": true,
         "text": "Incline thine ear, and hear words of the wise, And thy heart set to my knowledge,",
         "break": true
       }
@@ -9027,7 +9029,10 @@
     "verse": 10,
     "content": [
       { "heading": "The Good Wife" },
-      "A woman of worth who doth find? Yea, far above rubies ",
+      {
+        "paragraph": true,
+        "text": "A woman of worth who doth find? Yea, far above rubies "
+      },
       { "text": "is", "marks": ["i"] },
       { "text": " her price.", "break": true }
     ]

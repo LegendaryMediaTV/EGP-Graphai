@@ -33,7 +33,7 @@ which being interpreted is, God with us.
 <sup>24</sup> Then Joseph being raised from sleep did as the angel of the Lord had bidden him, and took unto him his wife:
 <sup>25</sup> and knew her not till she had brought forth her firstborn son: and he called his name JESUS.
 
-> - <sup>a</sup> 11. _some read, Josias begat Jakim, and Jakim begat Jechonias_
+> - <sup>a</sup> 11. _Some read, Josias begat Jakim, and Jakim begat Jechonias_
 > - <sup>b</sup> 23. Or, _his name shall be called_
 
 ## Chapter 2
@@ -705,7 +705,7 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 <sup>57</sup> And they were offended in him. But Jesus said unto them, A prophet is not without honour, save in his own country, and in his own house.
 <sup>58</sup> And he did not many mighty works there because of their unbelief.
 
-> - <sup>a</sup> 33. _the word in the Greek is a measure containing about a peck and an half, wanting little more then a pint_
+> - <sup>a</sup> 33. _The word in the Greek is a measure containing about a peck and an half, wanting little more then a pint_
 > - <sup>b</sup> 41. Or, _scandals_
 
 ## Chapter 14
@@ -897,7 +897,7 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 <sup>26</sup> Peter saith unto him, Of strangers. Jesus saith unto him, Then are the children free.
 <sup>27</sup> Notwithstanding, lest we should offend them, go thou to the sea, and cast an hook, and take up the fish that first cometh up; and when thou hast opened his mouth, thou shalt find a piece of money:<sup>b</sup> that take, and give unto them for me and thee.
 
-> - <sup>a</sup> 24. called _in the original Didrachma, being in value fifteen pence_
+> - <sup>a</sup> 24. Called _in the original Didrachma, being in value fifteen pence_
 > - <sup>b</sup> 27. Or, _a stater. It is half an ounce of silver, in value two shillings six pence, after five shillings the ounce is 7.d. ob._
 
 ## Chapter 18
@@ -943,9 +943,9 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 <sup>34</sup> And his lord was wroth, and delivered him to the tormentors, till he should pay all that was due unto him.
 <sup>35</sup> So likewise shall my heavenly Father do also unto you, if ye from your hearts forgive not every one his brother their trespasses.
 
-> - <sup>a</sup> 24. _a talent is 750 ounces of silver, which after five shillings the ounce is 187.li 10.s._
+> - <sup>a</sup> 24. _A talent is 750 ounces of silver, which after five shillings the ounce is 187.li 10.s._
 > - <sup>b</sup> 26. Or, _besought him_
-> - <sup>c</sup> 28. _the Roman penny is the eighth part of an ounce, which after 5. shillings the ounce is 7.d. ob._
+> - <sup>c</sup> 28. _The Roman penny is the eighth part of an ounce, which after 5. shillings the ounce is 7.d. ob._
 
 ## Chapter 19
 
@@ -1035,7 +1035,7 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 <sup>33</sup> They say unto him, Lord, that our eyes may be opened.
 <sup>34</sup> So Jesus had compassion _on them_, and touched their eyes: and immediately their eyes received sight, and they followed him.
 
-> - <sup>a</sup> 2. _the Roman penny is the eighth part of an ounce, which after five shillings the ounce, is seven pence halfpenny_
+> - <sup>a</sup> 2. _The Roman penny is the eighth part of an ounce, which after five shillings the ounce, is seven pence halfpenny_
 > - <sup>b</sup> 12. Or, _have continued one hour only_
 
 ## Chapter 21
@@ -1168,7 +1168,7 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 <sup>45</sup> If David then call him Lord, how is he his son?
 <sup>46</sup> And no man was able to answer him a word, neither durst any _man_ from that day forth ask him any more _questions_.
 
-> - <sup>a</sup> 19. _in value seven pence halfpenny, chap. 20.2_
+> - <sup>a</sup> 19. _In value seven pence halfpenny,_ _chap. 20.2_
 > - <sup>b</sup> 20. Or, _inscription_
 
 ## Chapter 23
@@ -1349,7 +1349,7 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 <sup>46</sup> And these shall go away into everlasting punishment: but the righteous into life eternal.
 
 > - <sup>a</sup> 8. Or, _going out_
-> - <sup>b</sup> 15. _a talent is 187. pound 10. Shillings, chap. 18.24_
+> - <sup>b</sup> 15. _A talent is 187. pound 10. Shillings,_ _chap. 18.24_
 
 ## Chapter 26
 

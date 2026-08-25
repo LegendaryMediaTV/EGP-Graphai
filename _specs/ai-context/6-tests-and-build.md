@@ -130,12 +130,9 @@
 ### USFM Import Pipeline Domain
 
 - **Existing tests** – 18 files: `utils/__tests__/importUsfm.test.ts`, `utils/__tests__/overhaulFootnotes.test.ts`, and 16 files under `utils/usfm/__tests__/`
-- **Current status: 10 of these 18 files fail to load**, not because of failing assertions but because of a missing local, gitignored dependency. Running `npx vitest run` from a clean checkout reports:
-  - **Fail to load** (`Cannot find module '../../imports/_lib/splitScriptRuns'`, imported by `headings.ts`, `footnotes.ts`, or `verify.ts`): `utils/__tests__/importUsfm.test.ts`, `utils/usfm/__tests__/bMarkerUpstreamConvention.test.ts`, `bibleLinkTargetConventions.test.ts`, `chapterBoundaryUpstreamConvention.test.ts`, `embeddedReferenceConventions.test.ts`, `footnotes.test.ts`, `headings.test.ts`, `segmentVerses.test.ts`, `verify.test.ts`
-  - **Fail for a different reason**: `utils/usfm/__tests__/metadata.test.ts` throws `ENOENT` looking for a fixture at `imports/webus2020/ebible-usfm/02-GENeng-web.usfm`, which also doesn't exist in this checkout
-  - **Load and pass**: `utils/__tests__/overhaulFootnotes.test.ts` and 7 of the 16 `utils/usfm/__tests__/` files: `blockStructure.test.ts`, `footnoteTypeRules.test.ts`, `fractions.test.ts`, `inlineMarks.test.ts`, `paragraphNoise.test.ts`, `references.test.ts`, `tokenize.test.ts`
-  - This isn't a regression in committed code. `imports/` is intentionally gitignored, and in this checkout it holds only a handful of unrelated one-off correction scripts, not the `_lib/` helper or per-version USFM source the pipeline's own doc comments assume is there. See [usfm-import.md](../4-domains/usfm-import.md#key-business-rules) for detail.
-- **Covered scenarios (in the files that do load):**
+- **Current status: all 18 files load and pass in this checkout.** `npx vitest run` reports 29 of 29 test files and 925 of 925 tests passing repo-wide. This checkout carries the WEBUS2020 raw USFM corpus at the gitignored `imports/webus2020/ebible-usfm/`, and `utils/usfm/headings.ts`, `footnotes.ts`, and `verify.ts` now import their Hebrew/Greek run-splitting helper from the tracked `utils/usfm/splitScriptRuns.ts` rather than a missing `imports/_lib/` path. See [usfm-import.md](../4-domains/usfm-import.md#key-business-rules) for detail.
+- **One dependency stays gitignored, not committed.** Because `imports/webus2020/ebible-usfm/` isn't tracked, a checkout without it would still fail the 7 files that read it directly: `utils/usfm/__tests__/metadata.test.ts`, `footnotes.test.ts`, `verify.test.ts`, `bMarkerUpstreamConvention.test.ts`, `bibleLinkTargetConventions.test.ts`, `chapterBoundaryUpstreamConvention.test.ts`, and `embeddedReferenceConventions.test.ts` (the last four via `upstreamHeadConvention.ts`'s `usfmFilesByRegistryId()`/`SOURCE_DIR`). The other 11 — `tokenize.test.ts`, `blockStructure.test.ts`, `footnoteTypeRules.test.ts`, `fractions.test.ts`, `headings.test.ts`, `inlineMarks.test.ts`, `paragraphNoise.test.ts`, `references.test.ts`, `segmentVerses.test.ts`, `importUsfm.test.ts`, and `overhaulFootnotes.test.ts` — never touch that corpus and pass regardless of whether it's present.
+- **Covered scenarios:**
   - Lexing raw USFM into a flat token stream, including paired vs. unpaired marker interleaving (`tokenize.ts`)
   - Footnote type classification by construct (citation-only, names a witness, opens with a translation marker, compares languages across a semicolon) rather than by memorized phrases, plus the never-downgrade-to-`stu` rule and its `--hard-reset` counterpart (`footnoteTypeRules.ts`, `overhaulFootnotes.ts`)
   - Fraction notation normalization across its several raw input shapes (`fractions.ts`)
@@ -143,7 +140,7 @@
   - The whole-book paragraph-noise suppression pass (`paragraphNoise.ts`)
   - Cross-reference resolution against the book registry, including embedded (unmarked) references in footnote prose (`references.ts`)
   - Retroactive footnote re-classification against content already on disk, including `--fix` write-back (`overhaulFootnotes.ts`)
-- **What can't be verified without the missing scaffold:** the full import CLI, acrostic heading detection, footnote assembly, chapter-boundary and stanza-break handling, embedded/bracketed reference conventions, and book-metadata extraction. The independent `verify.ts` cross-check is in the same boat. All of it is exercised only by the 10 files that currently fail to load.
+  - The full import CLI, acrostic heading detection, footnote assembly, chapter-boundary and stanza-break handling, embedded/bracketed reference conventions, book-metadata extraction, and the independent `verify.ts` cross-check — all exercised now that the corpus and `splitScriptRuns` are both available
 
 ### Web Reader Domain
 

@@ -2678,6 +2678,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>8</sup> I will observe your statutes.<br>Don’t utterly forsake me.<br>
 
 #### BETH
+
 <sup>9</sup> How can a young man keep his way pure?<br>By living according to your word.<br>
 <sup>10</sup> With my whole heart I have sought you.<br>Don’t let me wander from your commandments.<br>
 <sup>11</sup> I have hidden your word in my heart,<br>that I might not sin against you.<br>
@@ -2688,6 +2689,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>16</sup> I will delight myself in your statutes.<br>I will not forget your word.<br>
 
 #### GIMEL
+
 <sup>17</sup> Do good to your servant.<br>I will live and I will obey your word.<br>
 <sup>18</sup> Open my eyes,<br>that I may see wondrous things out of your law.<br>
 <sup>19</sup> I am a stranger on the earth.<br>Don’t hide your commandments from me.<br>
@@ -2698,6 +2700,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>24</sup> Indeed your statutes are my delight,<br>and my counselors.<br>
 
 #### DALETH
+
 <sup>25</sup> My soul is laid low in the dust.<br>Revive me according to your word!<br>
 <sup>26</sup> I declared my ways, and you answered me.<br>Teach me your statutes.<br>
 <sup>27</sup> Let me understand the teaching of your precepts!<br>Then I will meditate on your wondrous works.<br>
@@ -2708,6 +2711,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>32</sup> I run in the path of your commandments,<br>for you have set my heart free.<br>
 
 #### HE
+
 <sup>33</sup> Teach me, Yahweh, the way of your statutes.<br>I will keep them to the end.<br>
 <sup>34</sup> Give me understanding, and I will keep your law.<br>Yes, I will obey it with my whole heart.<br>
 <sup>35</sup> Direct me in the path of your commandments,<br>for I delight in them.<br>
@@ -2718,6 +2722,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>40</sup> Behold, I long for your precepts!<br>Revive me in your righteousness.<br>
 
 #### VAV
+
 <sup>41</sup> Let your loving kindness also come to me, Yahweh,<br>your salvation, according to your word.<br>
 <sup>42</sup> So I will have an answer for him who reproaches me,<br>for I trust in your word.<br>
 <sup>43</sup> Don’t snatch the word of truth out of my mouth,<br>for I put my hope in your ordinances.<br>
@@ -2728,6 +2733,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>48</sup> I reach out my hands for your commandments, which I love.<br>I will meditate on your statutes.<br>
 
 #### ZAYIN
+
 <sup>49</sup> Remember your word to your servant,<br>because you gave me hope.<br>
 <sup>50</sup> This is my comfort in my affliction,<br>for your word has revived me.<br>
 <sup>51</sup> The arrogant mock me excessively,<br>but I don’t swerve from your law.<br>
@@ -2738,6 +2744,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>56</sup> This is my way,<br>that I keep your precepts.<br>
 
 #### HETH
+
 <sup>57</sup> Yahweh is my portion.<br>I promised to obey your words.<br>
 <sup>58</sup> I sought your favor with my whole heart.<br>Be merciful to me according to your word.<br>
 <sup>59</sup> I considered my ways,<br>and turned my steps to your statutes.<br>
@@ -2748,6 +2755,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>64</sup> The earth is full of your loving kindness, Yahweh.<br>Teach me your statutes.<br>
 
 #### TETH
+
 <sup>65</sup> You have treated your servant well,<br>according to your word, Yahweh.<br>
 <sup>66</sup> Teach me good judgment and knowledge,<br>for I believe in your commandments.<br>
 <sup>67</sup> Before I was afflicted, I went astray;<br>but now I observe your word.<br>
@@ -2758,6 +2766,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>72</sup> The law of your mouth is better to me than thousands of pieces of gold and silver.<br>
 
 #### YODH
+
 <sup>73</sup> Your hands have made me and formed me.<br>Give me understanding, that I may learn your commandments.<br>
 <sup>74</sup> Those who fear you will see me and be glad,<br>because I have put my hope in your word.<br>
 <sup>75</sup> Yahweh, I know that your judgments are righteous,<br>that in faithfulness you have afflicted me.<br>
@@ -2768,6 +2777,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>80</sup> Let my heart be blameless toward your decrees,<br>that I may not be disappointed.<br>
 
 #### KAPF
+
 <sup>81</sup> My soul faints for your salvation.<br>I hope in your word.<br>
 <sup>82</sup> My eyes fail for your word.<br>I say, “When will you comfort me?”<br>
 <sup>83</sup> For I have become like a wineskin in the smoke.<br>I don’t forget your statutes.<br>
@@ -2778,6 +2788,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>88</sup> Preserve my life according to your loving kindness,<br>so I will obey the statutes of your mouth.<br>
 
 #### LAMEDH
+
 <sup>89</sup> Yahweh, your word is settled in heaven forever.<br>
 <sup>90</sup> Your faithfulness is to all generations.<br>You have established the earth, and it remains.<br>
 <sup>91</sup> Your laws remain to this day,<br>for all things serve you.<br>
@@ -2788,6 +2799,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>96</sup> I have seen a limit to all perfection,<br>but your commands are boundless.<br>
 
 #### MEM
+
 <sup>97</sup> How I love your law!<br>It is my meditation all day.<br>
 <sup>98</sup> Your commandments make me wiser than my enemies,<br>for your commandments are always with me.<br>
 <sup>99</sup> I have more understanding than all my teachers,<br>for your testimonies are my meditation.<br>
@@ -2798,6 +2810,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>104</sup> Through your precepts, I get understanding;<br>therefore I hate every false way.<br>
 
 #### NUN
+
 <sup>105</sup> Your word is a lamp to my feet,<br>and a light for my path.<br>
 <sup>106</sup> I have sworn, and have confirmed it,<br>that I will obey your righteous ordinances.<br>
 <sup>107</sup> I am afflicted very much.<br>Revive me, Yahweh, according to your word.<br>
@@ -2808,6 +2821,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>112</sup> I have set my heart to perform your statutes forever,<br>even to the end.<br>
 
 #### SAMEKH
+
 <sup>113</sup> I hate double-minded men,<br>but I love your law.<br>
 <sup>114</sup> You are my hiding place and my shield.<br>I hope in your word.<br>
 <sup>115</sup> Depart from me, you evildoers,<br>that I may keep the commandments of my God.<br>
@@ -2818,6 +2832,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>120</sup> My flesh trembles for fear of you.<br>I am afraid of your judgments.<br>
 
 #### AYIN
+
 <sup>121</sup> I have done what is just and righteous.<br>Don’t leave me to my oppressors.<br>
 <sup>122</sup> Ensure your servant’s well-being.<br>Don’t let the proud oppress me.<br>
 <sup>123</sup> My eyes fail looking for your salvation,<br>for your righteous word.<br>
@@ -2828,6 +2843,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>128</sup> Therefore I consider all of your precepts to be right.<br>I hate every false way.<br>
 
 #### PE
+
 <sup>129</sup> Your testimonies are wonderful,<br>therefore my soul keeps them.<br>
 <sup>130</sup> The entrance of your words gives light.<br>It gives understanding to the simple.<br>
 <sup>131</sup> I opened my mouth wide and panted,<br>for I longed for your commandments.<br>
@@ -2838,6 +2854,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>136</sup> Streams of tears run down my eyes,<br>because they don’t observe your law.<br>
 
 #### TZADHE
+
 <sup>137</sup> You are righteous, Yahweh.<br>Your judgments are upright.<br>
 <sup>138</sup> You have commanded your statutes in righteousness.<br>They are fully trustworthy.<br>
 <sup>139</sup> My zeal wears me out,<br>because my enemies ignore your words.<br>
@@ -2848,6 +2865,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>144</sup> Your testimonies are righteous forever.<br>Give me understanding, that I may live.<br>
 
 #### QOPH
+
 <sup>145</sup> I have called with my whole heart.<br>Answer me, Yahweh!<br>I will keep your statutes.<br>
 <sup>146</sup> I have called to you. Save me!<br>I will obey your statutes.<br>
 <sup>147</sup> I rise before dawn and cry for help.<br>I put my hope in your words.<br>
@@ -2858,6 +2876,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>152</sup> Of old I have known from your testimonies,<br>that you have founded them forever.<br>
 
 #### RESH
+
 <sup>153</sup> Consider my affliction, and deliver me,<br>for I don’t forget your law.<br>
 <sup>154</sup> Plead my cause, and redeem me!<br>Revive me according to your promise.<br>
 <sup>155</sup> Salvation is far from the wicked,<br>for they don’t seek your statutes.<br>
@@ -2868,6 +2887,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>160</sup> All of your words are truth.<br>Every one of your righteous ordinances endures forever.<br>
 
 #### SIN AND SHIN
+
 <sup>161</sup> Princes have persecuted me without a cause,<br>but my heart stands in awe of your words.<br>
 <sup>162</sup> I rejoice at your word,<br>as one who finds great plunder.<br>
 <sup>163</sup> I hate and abhor falsehood.<br>I love your law.<br>
@@ -2878,6 +2898,7 @@ Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>168</sup> I have obeyed your precepts and your testimonies,<br>for all my ways are before you.<br>
 
 #### TAV
+
 <sup>169</sup> Let my cry come before you, Yahweh.<br>Give me understanding according to your word.<br>
 <sup>170</sup> Let my supplication come before you.<br>Deliver me according to your word.<br>
 <sup>171</sup> Let my lips utter praise,<br>for you teach me your statutes.<br>

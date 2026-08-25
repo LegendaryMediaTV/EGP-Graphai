@@ -84,7 +84,7 @@
 > - <sup>b</sup> 10. Or, _over to_
 > - <sup>c</sup> 14. Heb. _become a spoil_
 > - <sup>d</sup> 15. Heb. _gave out their voice_
-> - <sup>e</sup> 16. Or, _feed on thy crown, deut. 33.12 Isai. 8.8_
+> - <sup>e</sup> 16. Or, _feed on thy crown,_ _deut. 33.12_ _Isai. 8.8_
 > - <sup>f</sup> 20. Or, _serve_
 > - <sup>g</sup> 24. Or, _O wild ass_ etc.
 > - <sup>h</sup> 24. Heb. _taught_
@@ -611,7 +611,7 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 > - <sup>a</sup> 10. Or, _stubbornness_
 > - <sup>b</sup> 14. Heb. _a man against his brother_
 > - <sup>c</sup> 14. Heb. _from destroying them_
-> - <sup>d</sup> 18. or, _head tires_
+> - <sup>d</sup> 18. Or, _head tires_
 > - <sup>e</sup> 18. Or, _head tires_
 > - <sup>f</sup> 21. _Heb visit upon’_
 > - <sup>g</sup> 23. Heb. _taught_
@@ -651,7 +651,7 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 
 > - <sup>a</sup> 1. Heb. _the words of the dearths_ or _restraints_
 > - <sup>b</sup> 13. Heb. _peace of truth_
-> - <sup>c</sup> 18. Or, _make merchandise against a land, and men acknowledge it not, Chap. 5.31_
+> - <sup>c</sup> 18. Or, _make merchandise against a land, and men acknowledge it not,_ _Chap. 5.31_
 
 ## Chapter 15
 
@@ -721,7 +721,7 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 <sup>21</sup> Therefore, behold, I will this once cause them to know, I will cause them to know mine hand and my might; and they shall know that my name _is_ The LORD.<sup>d</sup>
 
 > - <sup>a</sup> 5. Or, _mourning feast_
-> - <sup>b</sup> 7. Or, _break bread for them, as Ezek. 24.17_
+> - <sup>b</sup> 7. Or, _break bread for them, as_ _Ezek. 24.17_
 > - <sup>c</sup> 12. Or, _stubbornness_
 > - <sup>d</sup> 21. Or, _JEHOVAH_
 
@@ -1083,7 +1083,7 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 > - <sup>a</sup> 10. Heb. _I will cause to perish from them_
 > - <sup>b</sup> 12. Heb. _visit upon_
 > - <sup>c</sup> 22. Or, _region by the Sea side_
-> - <sup>d</sup> 23. Heb. _cut off into corners_, or _having the corners of the hair polled, chap. 9.28_
+> - <sup>d</sup> 23. Heb. _cut off into corners_, or _having the corners of the hair polled,_ _chap. 9.26_
 > - <sup>e</sup> 29. Heb. _upon which my Name is called_
 > - <sup>f</sup> 34. Heb. _your days for slaughter_
 > - <sup>g</sup> 34. Heb. _a vessel of desire_

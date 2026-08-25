@@ -19,7 +19,15 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Strong's-Node Placement Audit** – Read-only sweep for seven ways a node's text-flow placement can drift from this repo's own conventions
 - **USFM Import** – Converts USFM translation source files directly into verse JSON (`utils/importUsfm.ts`, `utils/usfm/`), with an independent post-import checker (`usfm/verify.ts`) and a retroactive footnote re-classification tool (`overhaulFootnotes.ts`)
 
-## Recent Changes (Footnote Classifier Redesign)
+## Recent Changes (Heading-Paragraph Convention Enforced on Import; USFM Scaffold Resolved)
+
+- **Heading Dispatch Now Opens a Paragraph Unconditionally** – `segmentVerses.ts`'s handling of `\d`/`\sp`/`\s1`/`\qc` used to set `pendingParagraph = true` only for `\sp` (Song of Solomon's speaker labels). It now sets it for all four, matching `auditNodes.ts` check 6's own corpus-wide convention (a heading or subtitle run is always followed by a node carrying `paragraph: true`) instead of leaving the other three markers to whatever `\b`/`\c` happened to share the boundary
+- **New Fixer for Check 6** – `utils/fixHeadingParagraphs.ts` retrofits the flag onto already-imported content for the versions with no USFM source to reimport from (KJV1769, YLT1898, CLV1880, BYZ2018), reusing `auditNodes.ts`'s own `findHeadingParagraphMismatches` rather than re-deriving the judgment. `utils/fixUnmergedNodes.ts` does the same for check 1. Both are `npx ts-node` scripts, not npm scripts, matching `importUsfm.ts`'s pattern
+- **`splitScriptRuns` No Longer an External Scaffold** – The Hebrew/Greek run-splitting helper `headings.ts`, `footnotes.ts`, and `verify.ts` depend on now lives at the tracked `utils/usfm/splitScriptRuns.ts`, not a gitignored `imports/_lib/` path
+- **Full Suite Passes** – With the WEBUS2020 raw USFM corpus present in this checkout and `splitScriptRuns` now tracked, all 29 test files and 925 tests pass; see [Test Status](#test-status) below
+- See [4-domains/usfm-import.md](4-domains/usfm-import.md#key-business-rules), [4-domains/strongs-node-audit.md](4-domains/strongs-node-audit.md#key-business-rules), and [6-tests-and-build.md](6-tests-and-build.md#usfm-import-pipeline-domain) for full detail
+
+## Previous Changes (Footnote Classifier Redesign)
 
 - **Construct-Based Classification, Not Memorized Phrases** – `utils/usfm/footnoteTypeRules.ts` no longer sorts footnote types by matching literal phrases lifted from WEBUS2020's own house style (down to a source-side typo, `"authorites insert"`). It now asks structural questions of a footnote body: is it nothing but citations, does it name a manuscript witness, does it open with a translation marker, does it weigh one language's reading against another. The same rules hold across editions without a fresh pass of new literals per translation
 - **Priority Is No Longer a Flat Four-Step Order** – `classifyFootnote()` now checks, in order: nothing-but-citations (`xrf`), a strong witness signal (`var`), a translation-alternative signal (`trn`), a weaker witness signal comparing a language name across a semicolon (`var` again), then falls back to `stu`. The weak `var` check runs last specifically because a bare language name is at least as often background etymology as a real textual claim
@@ -352,23 +360,20 @@ window.ComponentName = ComponentName;
 
 ## Test Status
 
-⚠️ **540 tests passing, 1 skipped, 10 of 29 test files fail to load** (Vitest):
-
-Pre-existing suite, all passing:
+✅ **925 tests passing, 0 skipped, across all 29 test files** (Vitest):
 
 - `functions/__tests__/contentSchema.test.ts` – 4 tests for the heading `type` schema addition
 - `functions/__tests__/convertToSmallCaps.test.ts` – 40 tests for small caps conversion
 - `functions/__tests__/sortContentKeys.test.ts` – 27 tests for key ordering
 - `functions/__tests__/getBibleVersions.test.ts` – 23 tests for version discovery and duplicate-name disambiguation
 - `functions/__tests__/writeJsonFile.test.ts` – 10 tests for atomic file writes and JSON canonicalization
-- `utils/__tests__/exportContent.test.ts` – 80 tests for export functionality, including bold/italic and footnote/spacing fixes
-- `utils/__tests__/crossChapterLinks.test.ts` – 36 tests for cross-chapter target classification and splitting, including whole-chapter ranges
-- `utils/__tests__/auditCrossChapterLinks.test.ts` – 8 tests for the corpus-wide sweep and CLI
-- `utils/__tests__/validate.test.ts` – 36 tests for the meaningless-content-node and Strong's-trailing-whitespace checks
-- `utils/__tests__/auditNodes.test.ts` – 72 tests for all seven Strong's-node placement checks
 - `web/public/js/__tests__/footnoteText.test.ts` – 7 tests for shared footnote-text extraction
-
-USFM import pipeline (18 new files): `utils/__tests__/overhaulFootnotes.test.ts` and 7 of the 16 `utils/usfm/__tests__/` files load and pass. `utils/__tests__/importUsfm.test.ts` and the other 9 `utils/usfm/__tests__/` files fail to load, blocked by missing local scaffolding, not by a code defect. See [6-tests-and-build.md](6-tests-and-build.md#usfm-import-pipeline-domain) for the exact file-by-file breakdown.
+- `utils/__tests__/exportContent.test.ts` – 80 tests for export functionality, including bold/italic and footnote/spacing fixes
+- `utils/__tests__/crossChapterLinks.test.ts` – 40 tests for cross-chapter target classification and splitting, including whole-chapter ranges
+- `utils/__tests__/auditCrossChapterLinks.test.ts` – 8 tests for the corpus-wide sweep and CLI
+- `utils/__tests__/validate.test.ts` – 49 tests for the meaningless-content-node and Strong's-trailing-whitespace checks
+- `utils/__tests__/auditNodes.test.ts` – 71 tests for all seven Strong's-node placement checks
+- USFM import pipeline (18 files, 566 tests): `importUsfm.test.ts` (20) and `overhaulFootnotes.test.ts` (22), plus 16 files under `utils/usfm/__tests__/` — `segmentVerses.test.ts` (117), `verify.test.ts` (98), `footnoteTypeRules.test.ts` (93), `footnotes.test.ts` (55), `references.test.ts` (37), `inlineMarks.test.ts` (28), `metadata.test.ts` (14), `embeddedReferenceConventions.test.ts` (14), `blockStructure.test.ts` (14), `headings.test.ts` (13), `fractions.test.ts` (11), `tokenize.test.ts` (10), `paragraphNoise.test.ts` (7), `bibleLinkTargetConventions.test.ts` (6), `chapterBoundaryUpstreamConvention.test.ts` (4), `bMarkerUpstreamConvention.test.ts` (3). All 18 now load and pass, now that the WEBUS2020 raw USFM corpus is present in this checkout and `splitScriptRuns` is a tracked module rather than a missing external one — 7 of the 18 still depend on that corpus directly and aren't guaranteed to pass in a checkout without it; see [6-tests-and-build.md](6-tests-and-build.md#usfm-import-pipeline-domain) for which
 
 See [6-tests-and-build.md](6-tests-and-build.md) for test details and coverage.
 

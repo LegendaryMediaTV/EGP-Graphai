@@ -45,7 +45,7 @@
 > - <sup>f</sup> 16. Heb. _for the rule of the day_, etc.
 > - <sup>g</sup> 20. Or, _creeping_
 > - <sup>h</sup> 20. Heb. _soul_
-> - <sup>i</sup> 20. _face of the firmament of heaven_
+> - <sup>i</sup> 20. _Face of the firmament of heaven_
 > - <sup>j</sup> 28. Heb. _creepeth_
 > - <sup>k</sup> 29. Heb. _seeding seed_
 > - <sup>l</sup> 30. Heb. _a living soul_
@@ -480,7 +480,7 @@
 > - <sup>b</sup> 1. Heb. _words_
 > - <sup>c</sup> 3. Heb. _a man said to his neighbor_
 > - <sup>d</sup> 3. Heb. _burn them to a burning_
-> - <sup>e</sup> 9. that is, _Confusion_
+> - <sup>e</sup> 9. That is, _Confusion_
 > - <sup>f</sup> 16. _Phalec_
 > - <sup>g</sup> 20. _Saruch_
 > - <sup>h</sup> 24. _Thara_
@@ -629,10 +629,10 @@
 <sup>15</sup> And Hagar bare Abram a son: and Abram called his son’s name, which Hagar bare, Ishmael.
 <sup>16</sup> And Abram _was_ fourscore and six years old, when Hagar bare Ishmael to Abram.
 
-> - <sup>a</sup> 2. _be built by her_
-> - <sup>b</sup> 6. _that which is good in thy eyes_
-> - <sup>c</sup> 6. _afflicted her_
-> - <sup>d</sup> 11. that is, _God shall hear_
+> - <sup>a</sup> 2. _Be built by her_
+> - <sup>b</sup> 6. _That which is good in thy eyes_
+> - <sup>c</sup> 6. _Afflicted her_
+> - <sup>d</sup> 11. That is, _God shall hear_
 > - <sup>e</sup> 14. That is, _the well of him that liveth and seeth me_
 
 ## Chapter 17
@@ -844,7 +844,7 @@
 <sup>34</sup> And Abraham sojourned in the Philistines’ land many days.
 
 > - <sup>a</sup> 23. Heb. _if thou shalt lie unto me_
-> - <sup>b</sup> 31. that is, _The well of the oath_
+> - <sup>b</sup> 31. That is, _The well of the oath_
 > - <sup>c</sup> 33. Or, _Tree_
 
 ## Chapter 22
@@ -883,7 +883,7 @@
 > - <sup>a</sup> 1. Heb. _Behold me_
 > - <sup>b</sup> 7. Heb. _behold me_
 > - <sup>c</sup> 7. Or, _kid_
-> - <sup>d</sup> 14. that is, _The Lord will see_, or, _provide_
+> - <sup>d</sup> 14. That is, _The Lord will see_, or, _provide_
 > - <sup>e</sup> 17. Heb. _lip_
 
 ## Chapter 23
@@ -1101,8 +1101,8 @@
 > - <sup>b</sup> 13. Heb. _went going_
 > - <sup>c</sup> 14. Or, _husbandry_
 > - <sup>d</sup> 19. Heb. _living_
-> - <sup>e</sup> 20. that is, _Contention_
-> - <sup>f</sup> 21. that is, _Hatred_
+> - <sup>e</sup> 20. That is, _Contention_
+> - <sup>f</sup> 21. That is, _Hatred_
 > - <sup>g</sup> 22. That is, _room_
 > - <sup>h</sup> 28. Heb. _seeing we saw_
 > - <sup>i</sup> 29. Heb. _if thou shalt_ etc.
@@ -1210,7 +1210,7 @@
 > - <sup>a</sup> 3. Heb. _an assembly of people_
 > - <sup>b</sup> 8. Heb. _were evil in the eyes_, etc
 > - <sup>c</sup> 14. Heb. _break forth_
-> - <sup>d</sup> 19. that is, _the house of God_
+> - <sup>d</sup> 19. That is, _the house of God_
 
 ## Chapter 29
 
@@ -1263,10 +1263,10 @@
 > - <sup>e</sup> 13. Heb. _hearing_
 > - <sup>f</sup> 14. Heb. _a month of days_
 > - <sup>g</sup> 26. Heb. _place_
-> - <sup>h</sup> 32. that is, _See a son_
-> - <sup>i</sup> 33. that is, _Hearing_
-> - <sup>j</sup> 34. that is, _joined_
-> - <sup>k</sup> 35. that is, _Praise_
+> - <sup>h</sup> 32. That is, _See a son_
+> - <sup>i</sup> 33. That is, _Hearing_
+> - <sup>j</sup> 34. That is, _joined_
+> - <sup>k</sup> 35. That is, _Praise_
 > - <sup>l</sup> 35. Heb. _stood from bearing_
 
 ## Chapter 30
@@ -1323,9 +1323,9 @@
 <sup>43</sup> And the man increased exceedingly, and had much cattle, and maidservants, and menservants, and camels, and asses.
 
 > - <sup>a</sup> 3. Heb. _be built by her_
-> - <sup>b</sup> 6. that is, _Judging_
+> - <sup>b</sup> 6. That is, _Judging_
 > - <sup>c</sup> 8. Heb. _wrestlings of God_
-> - <sup>d</sup> 11. that is, _A troop_, or _company_
+> - <sup>d</sup> 11. That is, _A troop_, or _company_
 > - <sup>e</sup> 13. Heb. _in my happiness_
 > - <sup>f</sup> 13. That is, _Happy_
 > - <sup>g</sup> 18. That is, _An hire_
@@ -1411,8 +1411,8 @@
 > - <sup>f</sup> 27. Heb. _hast stolen me_
 > - <sup>g</sup> 34. Heb. _felt_
 > - <sup>h</sup> 37. Heb. _felt_
-> - <sup>i</sup> 47. that is, _The heap of witness_
-> - <sup>j</sup> 49. that is, _A beacon_, or, _watchtower_
+> - <sup>i</sup> 47. That is, _The heap of witness_
+> - <sup>j</sup> 49. That is, _A beacon_, or, _watchtower_
 > - <sup>k</sup> 54. Or, _killed beasts_
 
 ## Chapter 32
@@ -1457,14 +1457,14 @@
 <sup>31</sup> And as he passed over Penuel the sun rose upon him, and he halted upon his thigh.
 <sup>32</sup> Therefore the children of Israel eat not _of_ the sinew which shrank, which _is_ upon the hollow of the thigh, unto this day: because he touched the hollow of Jacob’s thigh in the sinew that shrank.
 
-> - <sup>a</sup> 2. that is, _Two hosts_ or _camps_
+> - <sup>a</sup> 2. That is, _Two hosts_ or _camps_
 > - <sup>b</sup> 3. Heb. _Field_
 > - <sup>c</sup> 10. Heb. _I am less then all_ etc.
 > - <sup>d</sup> 11. Heb. _upon_
 > - <sup>e</sup> 20. Heb. _my face_
 > - <sup>f</sup> 23. Heb. _caused to pass_
 > - <sup>g</sup> 24. Heb. _Ascending of the morning_
-> - <sup>h</sup> 30. that is, _The face of God_
+> - <sup>h</sup> 30. That is, _The face of God_
 
 ## Chapter 33
 
@@ -1497,9 +1497,9 @@
 > - <sup>d</sup> 14. Heb. _According to the foot of the work_, etc.
 > - <sup>e</sup> 15. Heb. _set_, or _place_
 > - <sup>f</sup> 15. Heb. _wherefore is this?_
-> - <sup>g</sup> 17. that is, _booths_
+> - <sup>g</sup> 17. That is, _booths_
 > - <sup>h</sup> 19. Or, _lambs_
-> - <sup>i</sup> 20. that is, _God, the God of Israel_
+> - <sup>i</sup> 20. That is, _God, the God of Israel_
 
 ## Chapter 34
 
@@ -1583,10 +1583,10 @@
 <sup>28</sup> And the days of Isaac were an hundred and fourscore years.
 <sup>29</sup> And Isaac gave up the ghost, and died, and was gathered unto his people, _being_ old and full of days: and his sons Esau and Jacob buried him.
 
-> - <sup>a</sup> 7. that is, _The God of Bethel_
-> - <sup>b</sup> 8. that is, _The oak of weeping_
+> - <sup>a</sup> 7. That is, _The God of Bethel_
+> - <sup>b</sup> 8. That is, _The oak of weeping_
 > - <sup>c</sup> 16. Heb. _a little piece of ground_
-> - <sup>d</sup> 18. that is, _The son of my sorrow_
+> - <sup>d</sup> 18. That is, _The son of my sorrow_
 > - <sup>e</sup> 18. That is, _The son of the right hand_
 
 ## Chapter 36
@@ -2303,6 +2303,6 @@
 <sup>26</sup> So Joseph died, _being_ an hundred and ten years old: and they embalmed him, and he was put in a coffin in Egypt.
 
 > - <sup>a</sup> 3. Heb. _wept_
-> - <sup>b</sup> 11. that is, _the mourning of the Egyptians_
+> - <sup>b</sup> 11. That is, _the mourning of the Egyptians_
 > - <sup>c</sup> 16. Heb. _charged_
 > - <sup>d</sup> 21. Heb. _to their hearts_
