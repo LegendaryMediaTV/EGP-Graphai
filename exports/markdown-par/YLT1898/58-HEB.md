@@ -35,7 +35,7 @@
 > - <sup>m</sup> 7. Lit., _Who is making his messengers (as) winds, and his public workers (as) a flame of fire_
 > - <sup>n</sup> 8. This is a clear instance where Christ is called “God,” but as v. 9 speaks of God as his “God,” we cannot lay stress upon it here as proving the supreme divinity of the Saviour, besides it may be justly rendered, “God is thy throne—to the ages of the ages;” in either case it is applicable to the mediatorial throne only.
 > - <sup>o</sup> 9. Lit., _those “having along with” him_
-> - <sup>p</sup> 11. Lit., _loose themselves away, but thou remainest thoroughly..become old as a garment (does)_
+> - <sup>p</sup> 11. Lit., _loose themselves away, but thou remainest thoroughly…become old as a garment (does)_
 > - <sup>q</sup> 12. Or, _wrapper, lit. a thing “cast around” one_
 > - <sup>r</sup> 14. Lit., _public-working spirits, sent forth with a view to deaconship, because (or on account) of those about to inherit salvation_
 
@@ -110,7 +110,7 @@ Wherefore, holy brethren, partakers<sup>b</sup> of a heavenly calling, consider 
 > - <sup>c</sup> 1. one “sent forth,”
 > - <sup>d</sup> 5. Lit., _a nourisher (curer or healer,)_
 > - <sup>e</sup> 6. his (i.e. God’s) household
-> - <sup>f</sup> 8. Lit., _may ye not dry up..in the great bitterness, according to the day of the trial_
+> - <sup>f</sup> 8. Lit., _may ye not dry up…in the great bitterness, according to the day of the trial_
 > - <sup>g</sup> 10. Lit., _very vexed_
 > - <sup>h</sup> 14. Lit., _a thing “standing or set under” one_
 > - <sup>i</sup> 17. Lit., _whose limbs_
@@ -282,7 +282,7 @@ And the sum concerning the things spoken of _is_: we have such a chief priest, w
 > - <sup>a</sup> 1. Chapter VIII. May be divided into two parts; v. 1–6 position and duties of our chief priest; v. 7–13 the New Covenant contrasted with the Old.
 > - <sup>b</sup> 2. Lit., _public worker of the hallowed things_
 > - <sup>c</sup> 5. Lit., _who tremble (or go tremblingly)_
-> - <sup>d</sup> 6. Or, _thoroughly different public work..he is middle-man..one which has been legalized (or made law) upon_
+> - <sup>d</sup> 6. Or, _thoroughly different public work…he is middle-man…one which has been legalized (or made law) upon_
 
 ## Chapter 9
 

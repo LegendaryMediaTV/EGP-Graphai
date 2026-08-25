@@ -272,10 +272,7 @@
         "text": "house are ",
         "foot": {
           "type": "trn",
-          "content": [
-            "Or, ",
-            { "text": "of cedar . . . of fir", "marks": ["i"] }
-          ]
+          "content": ["Or, ", { "text": "of cedar … of fir", "marks": ["i"] }]
         }
       },
       { "text": "cedars,", "break": true },

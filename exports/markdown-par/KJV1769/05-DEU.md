@@ -645,7 +645,7 @@
 <sup>8</sup> Six days thou shalt eat unleavened bread: and on the seventh day _shall be_ a solemn assembly<sup>b</sup> to the LORD thy God: thou shalt do no work _therein_.
 
 <sup>9</sup> Seven weeks shalt thou number unto thee: begin to number the seven weeks from _such time as_ thou beginnest _to put_ the sickle to the corn.
-<sup>10</sup> And thou shalt keep the feast of weeks unto the LORD thy God with a tribute<sup>c</sup> of a freewill offering of thine hand, which thou shalt give _unto the_ _LORD_ _thy God_, according as the LORD thy God hath blessed thee:
+<sup>10</sup> And thou shalt keep the feast of weeks unto the LORD thy God with a tribute<sup>c</sup> of a freewill offering of thine hand, which thou shalt give _unto the LORD thy God_, according as the LORD thy God hath blessed thee:
 <sup>11</sup> and thou shalt rejoice before the LORD thy God, thou, and thy son, and thy daughter, and thy manservant, and thy maidservant, and the Levite that _is_ within thy gates, and the stranger, and the fatherless, and the widow, that _are_ among you, in the place which the LORD thy God hath chosen to place his name there.
 <sup>12</sup> And thou shalt remember that thou wast a bondman in Egypt: and thou shalt observe and do these statutes.
 
@@ -1390,7 +1390,7 @@
 <sup>10</sup> They shall teach<sup>b</sup> Jacob thy judgments,<br>And Israel thy law:<br>They shall put incense<sup>c</sup> before thee,<sup>d</sup><br>And whole burnt sacrifice upon thine altar.<br>
 <sup>11</sup> Bless, LORD, his substance,<br>And accept the work of his hands:<br>Smite through the loins of them that rise against him,<br>And of them that hate him, that they rise not again.<br>
 
-<sup>12</sup> _And_ of Benjamin he said,<br>The beloved of the LORD shall dwell in safety by him;<br>_And the_ _LORD_ shall cover him all the day long,<br>And he shall dwell between his shoulders.<br>
+<sup>12</sup> _And_ of Benjamin he said,<br>The beloved of the LORD shall dwell in safety by him;<br>_And the LORD_ shall cover him all the day long,<br>And he shall dwell between his shoulders.<br>
 
 <sup>13</sup> And of Joseph he said,<br>Blessed of the LORD _be_ his land,<br>For the precious things of heaven, for the dew,<br>And for the deep that coucheth beneath,<br>
 <sup>14</sup> And for the precious fruits _brought forth_ by the sun,<br>And for the precious things put forth<sup>e</sup> by the moon,<sup>f</sup><br>

@@ -12,6 +12,7 @@ import {
 } from "../functions/writeJsonFile";
 import Content, { ContentBibleLink } from "../types/Content";
 import { normalizeFractionsInContent } from "../functions/normalizeFractions";
+import { normalizeEllipsesInContent } from "../functions/normalizeEllipses";
 import BibleVersion from "../types/Version";
 import { findCrossChapterLinks } from "./crossChapterLinks";
 import { formatCrossChapterFinding } from "./auditCrossChapterLinks";
@@ -134,6 +135,40 @@ async function normalizeFractionsInFile(filePath: string): Promise<boolean> {
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
     const rewritten = normalizeFractionsInContent(verse.content as Content);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return { ...verse, content: rewritten.content };
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+    return true;
+  }
+  return false;
+}
+
+/**
+ * Normalize every un-normalized ellipsis in one verse file and write it back
+ * if anything changed.
+ *
+ * Uses {@link normalizeEllipsesInContent}'s own per-verse `changed` flag
+ * directly, the same pattern {@link normalizeFractionsInFile} uses. No
+ * `sortVerseKeys` call is needed here, for the identical reason: this step
+ * only ever mutates an existing `text` string's value in place.
+ *
+ * Deliberately narrower than `auditNodes.ts`'s check 10: this only ever
+ * rewrites the unambiguous three-plus-dot and spaced-dot shapes
+ * {@link normalizeEllipsisText} converts, never the two-period shape check
+ * 10 also reports. See `functions/normalizeEllipses.ts`'s own top doc
+ * comment for why that refusal is deliberate and permanent.
+ */
+async function normalizeEllipsesInFile(filePath: string): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = normalizeEllipsesInContent(verse.content as Content);
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return { ...verse, content: rewritten.content };
@@ -437,9 +472,10 @@ export function normalizeBibleLinkDashesInContent(
 /**
  * Validates (and normalizes) one version, or every version when none is
  * requested: sorts verse keys, formats JSON files, normalizes `bibleLink`
- * dashes, normalizes fractions, then checks bible-books, each version's
- * `_version.json`, book ordering, and every verse file's schema and
- * content. Exits non-zero on the first validation phase that fails.
+ * dashes, normalizes fractions, normalizes ellipses, then checks
+ * bible-books, each version's `_version.json`, book ordering, and every
+ * verse file's schema and content. Exits non-zero on the first validation
+ * phase that fails.
  *
  * The schema/structure phases are hierarchical — each assumes the earlier
  * ones held, so a failure exits immediately. The two corpus-wide audits
@@ -538,6 +574,26 @@ async function main(requestedVersion?: string) {
     console.log(`\n✅ Normalized fractions in ${fractionsNormalizedCount} file(s)\n`);
   } else {
     console.log("✅ All fractions already normalized\n");
+  }
+
+  console.log("🔤 Normalizing ellipses...\n");
+
+  let ellipsesNormalizedCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasNormalized = await normalizeEllipsesInFile(file);
+      if (wasNormalized) {
+        ellipsesNormalizedCount++;
+        console.log(`  🔄 Normalized ellipses: ${file}`);
+      }
+    }
+  }
+
+  if (ellipsesNormalizedCount > 0) {
+    console.log(`\n✅ Normalized ellipses in ${ellipsesNormalizedCount} file(s)\n`);
+  } else {
+    console.log("✅ All ellipses already normalized\n");
   }
 
   const result = validateJsonAgainstSchema(schemaPath, jsonPath);
@@ -833,7 +889,7 @@ async function main(requestedVersion?: string) {
     crossChapterLinksPassed = false;
   }
 
-  // Node-placement and content-convention audit: the nine checks
+  // Node-placement and content-convention audit: the eleven checks
   // auditNodes.ts owns. Also report-only here.
   console.log("\n🧩 Auditing node-placement and content conventions...");
   let nodeConventionsPassed = true;

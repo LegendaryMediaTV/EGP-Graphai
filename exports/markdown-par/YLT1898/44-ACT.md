@@ -38,8 +38,8 @@
 
 > - <sup>a</sup> 1. THIS account of the “DEEDS OF (some of) THE APOSTLES,” is professedly a continuation of the “GOSPEL” according to LUKE, and by the same writer. Its genuineness and authenticity are unquestionable; it is quoted by the Church of Lyons (A.D. 177), by Irenaeus, (A.D. 167), Clement of Alexandria (A.D. 192), and Tertullian (A.D. 192). It was rejected by the Marcionites in the 3d, and by the Manichaeans in the 4th, century. It comprises a period of thirty years, being written about A.D. 63, when Paul was a prisoner in Rome, see 28.30. The Various Readings of the Greek MSS. are more numerous in this than in any other of the New Testament Books.<br>It may be divided as follows:—<br>- **I.** From the Ascension of Jesus till the Conversion of Saul, ch. 1.1–8.40.<br>- **II.** From the Conversion of Saul till his return to Antioch, ch. 9.1–12.25.<br>- **III.** Paul’s First Journey, ch. 13.1–15.35.<br>- **IV.** His Second Journey, ch. 15.36–18.22.<br>- **V.** His Third Journey, ch. 18.23–26.32.<br>- **VI.** His Voyage to Rome, ch. 27.1–28.31.<br>The following are the chief allusions to the Old Testament found in this book: De. 18.15–18; 2 Sa. 7.12,13; 2 Ch. 36.16; Ps. 2.1; 16.8,10; 41.9; 109.8; 110.1; Isa. 6.9; 29.14; 55.5; Joel 2.28,29; Amos 5.25; 9.11,12, &c.
 > - <sup>b</sup> 1. Chapter I may be divided into six parts; v.1–5 Luke’s introduction, and Jesus’ promise; v.6–8 the apostles’ question and Jesus’ answer; v.9–11 Jesus taken up and two messengers appear; v.12–14 a prayer meeting; v.15–22 Peter’s proposal to supply the place of Judas; v.23–26 Matthias chosen by lot.
-> - <sup>c</sup> 14. Lit., _were strong with the same mind, as to the pouring forth before (God), and the supplication, with women,..brothers_
-> - <sup>d</sup> 17. Lit., _fully numbered..and obtained the lot of this deaconship._
+> - <sup>c</sup> 14. Lit., _were strong with the same mind, as to the pouring forth before (God), and the supplication, with women,…brothers_
+> - <sup>d</sup> 17. Lit., _fully numbered…and obtained the lot of this deaconship._
 > - <sup>e</sup> 24. Lit., _poured forth before (God)._
 
 ## Chapter 2
@@ -106,7 +106,7 @@
 > - <sup>b</sup> 10. Lit., _comers to_
 > - <sup>c</sup> 35. Lit., _set or place._
 > - <sup>d</sup> 36. Lit., _un-thrown-down_
-> - <sup>e</sup> 39. Lit., _may (himself) call forward for himself.._
+> - <sup>e</sup> 39. Lit., _may (himself) call forward for himself…_
 
 ## Chapter 3
 
@@ -207,8 +207,8 @@ And as they are speaking unto the people, there came to them the priests, and th
 > - <sup>a</sup> 1. Chapter IV may be divided into five parts; v.1–4 the apostles seized, many believe; v.5–12 the apostles interrogated; v.13–22 and threatened; v.23–30 their prayer to God; v.31–37 out-pouring of the Spirit, and brotherly love abounding.
 > - <sup>b</sup> 5. Lit., _brought together to._
 > - <sup>c</sup> 5. Lit., _foremost-men, and presbyters._
-> - <sup>d</sup> 8. Lit., _full of holy spirit..Ye foremost-ones..and presbyters._
-> - <sup>e</sup> 23. Lit., _loosed away (or thoroughly)..own (friends), and told fully as many things to them as the foremost-priests and the presbyters said._
+> - <sup>d</sup> 8. Lit., _full of holy spirit…Ye foremost-ones…and presbyters._
+> - <sup>e</sup> 23. Lit., _loosed away (or thoroughly)…own (friends), and told fully as many things to them as the foremost-priests and the presbyters said._
 > - <sup>f</sup> 36. Lit., _calling long-side of_
 
 ## Chapter 5
@@ -272,10 +272,10 @@ And a certain man, Ananias by name, with Sapphira his wife, sold a possession,
 <sup>42</sup> every day also in the temple, and in every house, they were not ceasing teaching and proclaiming good news—Jesus the Christ.
 
 > - <sup>a</sup> 1. Chapter V may be divided into five parts; v.1–11 Ananias and Sapphira; v.12–16 many signs and conversions; v.17–21 imprisonment and deliverance of the apostles; v.22–32 their appearance before the sanhedrim; v.33–42 delivered by the counsel of Gamaliel.
-> - <sup>b</sup> 2. Lit., _set apart for themselves from the weight (of money), his wife also having fully known..and put (it)._
+> - <sup>b</sup> 2. Lit., _set apart for themselves from the weight (of money), his wife also having fully known…and put (it)._
 > - <sup>c</sup> 8. Lit., _gave away the space (of ground)._
 > - <sup>d</sup> 18. Lit., _a common watch-house._
-> - <sup>e</sup> 22. Lit., _under-servants came along..the guard-house, they turned round again, and told fully._
+> - <sup>e</sup> 22. Lit., _under-servants came along…the guard-house, they turned round again, and told fully._
 > - <sup>f</sup> 30. Lit., _handled thoroughly, and suspended upon wood._
 
 ## Chapter 6
@@ -303,8 +303,8 @@ And in these days, the disciples multiplying, there came a murmuring of the Hell
 
 > - <sup>a</sup> 1. Chapter VI may be divided into two parts; v.1–6 election of seven almoners; v.7–15 Stephen, one of them, accused before the sanhedrim.
 > - <sup>b</sup> 3. Lit., _look ye yourselves out thoroughly (as “overseers or bishops”)._
-> - <sup>c</sup> 9. Lit., _stood up..from Cilicia..seeking-together (questions) with Stephen._
-> - <sup>d</sup> 12. Lit., _moved together..presbyters..stood over (him), and seized him at once, and led him to the sanhedrim._
+> - <sup>c</sup> 9. Lit., _stood up…from Cilicia…seeking-together (questions) with Stephen._
+> - <sup>d</sup> 12. Lit., _moved together…presbyters…stood over (him), and seized him at once, and led him to the sanhedrim._
 
 ## Chapter 7
 
@@ -385,12 +385,12 @@ And the chief priest said, “Are then these things so?”<sup>b</sup>
 > - <sup>a</sup> 1. Chapter VII may be divided into six parts; v.1–7 Stephen’s narrative of the calling of Abraham and promised inheritance; v.8–16 of the covenant of circumcision and the descent into Egypt; v.17–34 of the sufferings in Egypt and the call of Moses; v.35–43 of signs in Egypt and the wilderness, with the idolatry of the people; v.44–53 of the tabernacle, the temple, their continual resistance of the Spirit, and murder of the Son; v.54–60 the Jews’ fury and Stephen’s death.
 > - <sup>b</sup> 1. Lit., _Have then these things such (a bearing or application)._
 > - <sup>c</sup> 9. Lit., _zeal, gave away Joseph to._
-> - <sup>d</sup> 10. Lit., _himself lifted him up out..set him down leader._
+> - <sup>d</sup> 10. Lit., _himself lifted him up out…set him down leader._
 > - <sup>e</sup> 15. Lit., _ended (his life)._
 > - <sup>f</sup> 31. Or, _vision,_
 > - <sup>g</sup> 31. Lit., _went forward to consider it thoroughly, a voice._
 > - <sup>h</sup> 32. Lit., _became very tremulous, and was not daring to consider (it) thoroughly._
-> - <sup>i</sup> 41. Lit., _led up a..and were rejoicing (lit. having a good mind)._
+> - <sup>i</sup> 41. Lit., _led up a…and were rejoicing (lit. having a good mind)._
 > - <sup>j</sup> 48. Lit., _habitations._
 > - <sup>k</sup> 51. Lit., _fall against._
 
@@ -580,8 +580,8 @@ And there was a certain man in Caesarea, by name Cornelius, a centurion from a b
 
 > - <sup>a</sup> 1. Chapter X may be divided into six parts; v.1–8 a messenger appears to Cornelius; v.9–16 Peter’s vision; v.17–22 he receives Cornelius’ messengers; v.23–33 and Cornelius’ explanations; v.34–43 proclaims Jesus to him and his friends; v.44–48 who are baptized with the Holy Spirit and water.
 > - <sup>b</sup> 25. Lit., _upon or over his feet, and kissed forward (the hand)._
-> - <sup>c</sup> 30. Lit., _pouring forth before (God)..white clothing._
-> - <sup>d</sup> 39. Or, _space, region..they lifted up, hanging upon wood._
+> - <sup>c</sup> 30. Lit., _pouring forth before (God)…white clothing._
+> - <sup>d</sup> 39. Or, _space, region…they lifted up, hanging upon wood._
 
 ## Chapter 11
 
@@ -673,7 +673,7 @@ And about that time, Herod the king put forth his hands, to do evil to certain o
 > - <sup>a</sup> 1. Chapter XII may be divided into four parts; v.1–4 Herod slays James and imprisons Peter; v.5–17 the assembly praying Peter is delivered; v.18–23 Herod punishes the guards, and is himself eaten by worms; v.24, 25 increase of the word and safe return of Saul and Barnabas.
 > - <sup>b</sup> 2. Lit., _lifted up or took away;_
 > - <sup>c</sup> 13. Lit., _come near to hearken secretly._
-> - <sup>d</sup> 16. Lit., _remained still..were startled._
+> - <sup>d</sup> 16. Lit., _remained still…were startled._
 > - <sup>e</sup> 19. Or, _brought them forward to the leaders of the force._
 > - <sup>f</sup> 19. Lit., _rubbed or wore away (the time)._
 
@@ -757,7 +757,7 @@ And about that time, Herod the king put forth his hands, to do evil to certain o
 > - <sup>f</sup> 19. Lit., _lifted down (or lifted away thoroughly),_
 > - <sup>g</sup> 28. Lit., _they asked Pilate for themselves his being lifted up._
 > - <sup>h</sup> 48. Or, _set themselves in array with a view to eternal life._
-> - <sup>i</sup> 50. Lit., _well-conditioned.._
+> - <sup>i</sup> 50. Lit., _well-conditioned…_
 
 ## Chapter 14
 
@@ -873,7 +873,7 @@ And certain having come down from Judea, were teaching the brethren—“If ye b
 <sup>41</sup> and he went through Syria and Cilicia, confirming<sup>d</sup> the assemblies.
 
 > - <sup>a</sup> 1. Chapter XV may be divided into five parts; v.1–5 dispute regarding circumcision and appeal to Jerusalem; v.6–21 opinions of Peter and James; v.22–29 decision of the assembly; v.30–34 its reception in Antioch and the work there; v.35–41 missionary labours and contention.
-> - <sup>b</sup> 15. Lit., _sound-together.._
+> - <sup>b</sup> 15. Lit., _sound-together…_
 > - <sup>c</sup> 31. Lit., _upon the exhortation._
 > - <sup>d</sup> 41. Lit., _strengthening fully_
 
@@ -982,7 +982,7 @@ And having passed through Amphipolis, and Apollonia, they came to Thessalonica, 
 <sup>34</sup> and certain men having cleaved to him, did believe, among whom _is_ also Dionysius the Areopagite, and a woman, by name Damaris, and others with them.
 
 > - <sup>a</sup> 1. Chapter XVII may be divided into six parts; v.1–4 progress of the good-news in Thessalonica; v.5–9 uproar of the Jews there; v.10–14 progress in Berea and uproar; v.15–21 Paul disputes with some philosophers in Athens; v.22–31 his address on Areopagus; v.32–34 progress and rejection.
-> - <sup>b</sup> 4. Lit., _cast in their lot with.._
+> - <sup>b</sup> 4. Lit., _cast in their lot with…_
 > - <sup>c</sup> 6. Lit., _upon (or before) the city chiefs, crying,_
 > - <sup>d</sup> 11. Lit., _of better birth,_
 > - <sup>e</sup> 16. Or, _sharpened in him,_
@@ -1033,7 +1033,7 @@ And after these things, Paul having departed out of Athens, came to Corinth,
 
 > - <sup>a</sup> 1. Chapter XVIII may be divided into six parts; v.1–6 Paul reasoning with the Jews at Corinth; v.7–11 his success and vision; v.12–17 Gallio’s indifference; v.18–22 Paul leaves Corinth and returns to Antioch; v.23 Paul’s travels in Galatia and Phrygia; v.24–28 Apollos labours in Ephesus.
 > - <sup>b</sup> 11. Lit., _sat,_
-> - <sup>c</sup> 19. Lit., _came thoroughly..left them entirely there..reasoned fully._
+> - <sup>c</sup> 19. Lit., _came thoroughly…left them entirely there…reasoned fully._
 
 ## Chapter 19
 
@@ -1094,7 +1094,7 @@ And it came to pass, in Apollos’ being in Corinth, Paul having gone through th
 <sup>41</sup> and these things having said, he dismissed<sup>v</sup> the assembly.
 
 > - <sup>a</sup> 1. Chapter XIX may be divided into five parts; v.1–7 Paul in Ephesus and some of John’s disciples; v.8–12 he preaches, cures and casts out demons; v.13–20 which certain Jews tried and were punished, so that the Gospel prospered more; v.21–23 Paul sends to Macedonia; v.24–41 great uproar in Ephesus.
-> - <sup>b</sup> 4. Lit., _a new mind.._
+> - <sup>b</sup> 4. Lit., _a new mind…_
 > - <sup>c</sup> 9. Or, _place of ease_
 > - <sup>d</sup> 12. Lit., _handkerchiefs (for removing sweat), or aprons (lit. half girdles),_
 > - <sup>e</sup> 15. Lit., _Paul I know fully;_

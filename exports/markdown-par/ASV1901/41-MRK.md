@@ -127,7 +127,7 @@
 > - <sup>h</sup> 15. That is, _collectors or renters of Roman taxes_.
 > - <sup>i</sup> 16. Some ancient authorities read _and the Pharisees_.
 > - <sup>j</sup> 16. That is, _collectors or renters of Roman taxes_.
-> - <sup>k</sup> 16. Or, _He eateth . . . sinners_
+> - <sup>k</sup> 16. Or, _He eateth … sinners_
 > - <sup>l</sup> 16. Some ancient authorities omit _and drinketh_.
 > - <sup>m</sup> 16. That is, _collectors or renters of Roman taxes_.
 > - <sup>n</sup> 17. Greek _strong_.
@@ -569,7 +569,7 @@ And he went round about the villages teaching.
 
 > - <sup>a</sup> 2. Or, _Jacob_
 > - <sup>b</sup> 5. Or, _booths_
-> - <sup>c</sup> 11. Or, _The scribes say . . . come_
+> - <sup>c</sup> 11. Or, _The scribes say … come_
 > - <sup>d</sup> 18. Or, _rendeth him_. See Mt. 7:6.
 > - <sup>e</sup> 20. Or, _convulsed_. See 1:26.
 > - <sup>f</sup> 24. Many ancient authorities add _with tears_.

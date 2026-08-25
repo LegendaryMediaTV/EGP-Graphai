@@ -870,7 +870,7 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "a man; for . . . the man", "marks": ["i"] },
+            { "text": "a man; for … the man", "marks": ["i"] },
             "."
           ]
         }
@@ -6414,10 +6414,7 @@
           "type": "trn",
           "content": [
             "Or, ",
-            {
-              "text": "in me. But that etc. . . . I do, arise etc.",
-              "marks": ["i"]
-            }
+            { "text": "in me. But that etc…. I do, arise etc.", "marks": ["i"] }
           ]
         }
       },

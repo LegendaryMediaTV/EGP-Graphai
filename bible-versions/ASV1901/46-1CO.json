@@ -1232,7 +1232,7 @@
           "type": "trn",
           "content": [
             "Or, ",
-            { "text": "did ye not rather mourn, . . . you?", "marks": ["i"] }
+            { "text": "did ye not rather mourn, … you?", "marks": ["i"] }
           ]
         }
       },
@@ -1430,10 +1430,7 @@
         "text": "to judge things pertaining to this life, ",
         "foot": {
           "type": "trn",
-          "content": [
-            "Or, ",
-            { "text": "set them . . . church", "marks": ["i"] }
-          ]
+          "content": ["Or, ", { "text": "set them … church", "marks": ["i"] }]
         }
       },
       "do ye set them to judge who are of no account in the church?"

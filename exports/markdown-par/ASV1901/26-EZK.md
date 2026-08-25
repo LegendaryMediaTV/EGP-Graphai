@@ -446,7 +446,7 @@
 > - <sup>f</sup> 10. Or, _a slight wall_
 > - <sup>g</sup> 10. Or, _whitewash_. So in verses 11, 14, 15
 > - <sup>h</sup> 18. Hebrew _joints of the hands_.
-> - <sup>i</sup> 18. Or, _Ye hunt . . . and ye save etc._
+> - <sup>i</sup> 18. Or, _Ye hunt … and ye save etc._
 > - <sup>j</sup> 18. Or, _that are yours_
 > - <sup>k</sup> 20. Or, _where ye hunt_
 > - <sup>l</sup> 20. Or, _as birds_
@@ -788,7 +788,7 @@
 > - <sup>l</sup> 26. Or, _set apart all_. See Ex. 13:12.
 > - <sup>m</sup> 28. Hebrew _lifted up my hand_.
 > - <sup>n</sup> 28. Or, _looked out for_
-> - <sup>o</sup> 29. Or, _whereunto you go, and the name whereof . . . day?_
+> - <sup>o</sup> 29. Or, _whereunto you go, and the name whereof … day?_
 > - <sup>p</sup> 29. That is, _High place_.
 > - <sup>q</sup> 39. Or, _but hereafter surely ye shall hearken unto me and etc._
 > - <sup>r</sup> 40. Or, _chief_

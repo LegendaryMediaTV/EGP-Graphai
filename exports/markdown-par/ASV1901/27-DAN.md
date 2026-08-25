@@ -147,7 +147,7 @@
 > - <sup>d</sup> 3. Or, _lawyers_
 > - <sup>e</sup> 5. Or, _bagpipe_
 > - <sup>f</sup> 16. Or, _we are not careful_
-> - <sup>g</sup> 17. Or, _Behold, our God etc._ Or, _If our God whom we serve be able to deliver us, he will deliver us from . . . and out of thy hand, O king_
+> - <sup>g</sup> 17. Or, _Behold, our God etc._ Or, _If our God whom we serve be able to deliver us, he will deliver us from … and out of thy hand, O king_
 > - <sup>h</sup> 21. Or, _turbans_
 > - <sup>i</sup> 26. Aramaic _door_.
 

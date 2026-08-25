@@ -488,7 +488,7 @@ And the land had rest forty years.
 <sup>57</sup> and all the evil of the men of Shechem did God render upon their heads: and upon them came the curse of Jotham the son of Jerubbaal.
 
 > - <sup>a</sup> 3. Heb. _after_
-> - <sup>b</sup> 6. Or, _by the oak of the pillar. See_ _Josh. 24.26_
+> - <sup>b</sup> 6. Or, _by the oak of the pillar. See Josh. 24.26_
 > - <sup>c</sup> 9. Or, _go up and down for other trees_
 > - <sup>d</sup> 14. Or, _thistle_
 > - <sup>e</sup> 17. Heb. _cast his life_

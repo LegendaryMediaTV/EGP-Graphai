@@ -876,9 +876,9 @@ He who does these things shall never be shaken.
 
 ### BOOK TWO (Psalms 42–72)
 
-<sup>1</sup> > _For the Chief Musician. A contemplation by the sons of Korah._
+> _For the Chief Musician. A contemplation by the sons of Korah._
 
-As the deer pants for the water brooks,<br>so my soul pants after you, God.<sup>a</sup><br>
+<sup>1</sup> As the deer pants for the water brooks,<br>so my soul pants after you, God.<sup>a</sup><br>
 <sup>2</sup> My soul thirsts for God, for the living God.<br>When shall I come and appear before God?<br>
 <sup>3</sup> My tears have been my food day and night,<br>while they continually ask me, “Where is your God?”<br>
 <sup>4</sup> These things I remember, and pour out my soul within me,<br>how I used to go with the crowd, and led them to God’s house,<br>with the voice of joy and praise, a multitude keeping a holy day.<br>
@@ -1387,7 +1387,7 @@ They never change<br>and don’t fear God.<br>
 <sup>5</sup> A father of the fatherless, and a defender of the widows,<br>is God in his holy habitation.<br>
 <sup>6</sup> God sets the lonely in families.<br>He brings out the prisoners with singing,<br>but the rebellious dwell in a sun-scorched land.
 
-<sup>7</sup> God, when you went out before your people,<br>when you marched through the wilderness... _Selah._<br>
+<sup>7</sup> God, when you went out before your people,<br>when you marched through the wilderness… _Selah._<br>
 <sup>8</sup> The earth trembled.<br>The sky also poured down rain at the presence of the God of Sinai—<br>at the presence of God, the God of Israel.<br>
 <sup>9</sup> You, God, sent a plentiful rain.<br>You confirmed your inheritance when it was weary.<br>
 <sup>10</sup> Your congregation lived therein.<br>You, God, prepared your goodness for the poor.<br>
@@ -1528,9 +1528,9 @@ They never change<br>and don’t fear God.<br>
 
 ### BOOK THREE (Psalms 73–89)
 
-<sup>1</sup> > _A Psalm by Asaph._
+> _A Psalm by Asaph._
 
-Surely God<sup>a</sup> is good to Israel,<br>to those who are pure in heart.<br>
+<sup>1</sup> Surely God<sup>a</sup> is good to Israel,<br>to those who are pure in heart.<br>
 <sup>2</sup> But as for me, my feet were almost gone.<br>My steps had nearly slipped.<br>
 <sup>3</sup> For I was envious of the arrogant,<br>when I saw the prosperity of the wicked.<br>
 <sup>4</sup> For there are no struggles in their death,<br>but their strength is firm.<br>
@@ -1998,9 +1998,9 @@ Surely God<sup>a</sup> is good to Israel,<br>to those who are pure in heart.<br>
 
 ### BOOK FOUR (Psalms 90–106)
 
-<sup>1</sup> > _A Prayer by Moses, the man of God.<sup>a</sup>_
+> _A Prayer by Moses, the man of God.<sup>a</sup>_
 
-Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
+<sup>1</sup> Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>2</sup> Before the mountains were born,<br>before you had formed the earth and the world,<br>even from everlasting to everlasting, you are God.<br>
 <sup>3</sup> You turn man to destruction, saying,<br>“Return, you children of men.”<br>
 <sup>4</sup> For a thousand years in your sight are just like yesterday when it is past,<br>like a watch in the night.<br>

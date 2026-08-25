@@ -456,9 +456,9 @@ And I saw a beast coming up out of the sea, having ten horns and seven heads, an
 > - <sup>d</sup> 4. See marginal note on 3:9.
 > - <sup>e</sup> 5. Or, _to do_ his works _during_. See Dan. 11:28.
 > - <sup>f</sup> 6. Greek _tabernacle_.
-> - <sup>g</sup> 7. Some ancient authorities omit _And it was given . . . overcome them_.
+> - <sup>g</sup> 7. Some ancient authorities omit _And it was given … overcome them_.
 > - <sup>h</sup> 8. See marginal note on 3:9.
-> - <sup>i</sup> 8. Or, _written in the book . . . slain from the foundation of the world_
+> - <sup>i</sup> 8. Or, _written in the book … slain from the foundation of the world_
 > - <sup>j</sup> 10. The Greek text in this verse is somewhat uncertain.
 > - <sup>k</sup> 10. Or, leadeth _into captivity_
 > - <sup>l</sup> 10. Or, _stedfastness_
@@ -576,7 +576,7 @@ Great and marvellous are thy works, O Lord God, the Almighty; righteous and true
 > - <sup>e</sup> 3. Greek _soul of life_.
 > - <sup>f</sup> 4. Some ancient authorities read _and they became_.
 > - <sup>g</sup> 4. Or, _there came_
-> - <sup>h</sup> 5. Or, _judge. Because they . . . prophets, thou hast given them blood also to drink_
+> - <sup>h</sup> 5. Or, _judge. Because they … prophets, thou hast given them blood also to drink_
 > - <sup>i</sup> 8. Or, _him_
 > - <sup>j</sup> 14. Or, _upon_
 > - <sup>k</sup> 14. Greek _inhabited earth_.
@@ -649,7 +649,7 @@ Great and marvellous are thy works, O Lord God, the Almighty; righteous and true
 
 > - <sup>a</sup> 2. Or, _prison_
 > - <sup>b</sup> 2. Or, _prison_
-> - <sup>c</sup> 3. Some authorities read _of the wine . . . have drunk_.
+> - <sup>c</sup> 3. Some authorities read _of the wine … have drunk_.
 > - <sup>d</sup> 3. Some ancient authorities omit _the wine of_.
 > - <sup>e</sup> 3. Or, _luxury_
 > - <sup>f</sup> 5. Or, _clave together_

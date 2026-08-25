@@ -23,8 +23,8 @@
 
 > - <sup>a</sup> 1. TITUS was a Gentile by birth (Gal. 2. 1, 3), an uncircumcised convert (1. 4) and beloved fellow-worker with Paul, who took him to the Jerusalem assembly (Acts 15. 2), and to Ephesus, and then sent him to Corinth (2 Cor. 7. 6–9; 8. 6; 12. 18), and called him to Troas in Macedon (2 Cor. 2. 12, 13; 7. 6), and thereafter sent him to Corinth (2 Cor. 6. 16, 17, 23), and to Crete (1. 5), where he received this Letter about A.D. 65–6, but others date it as early as A.D. 52.<br>This Letter is designed to oppose Judaism, false science, and wickedness, to state the qualifications and graces of presbyters and others, young and old, male and female. It is quoted or referred to by Clement of Rome (A.D. 108), Irenaeus (A.D. 178), Theophilus (A.D. 177), Clement of Alexandria (A.D. 194), Tertullian (A.D. 200), &c., and resembles 1st Timothy in many phrases, comp. 1. 4, 5 with 1 Tim. 1. 1–3; 1. 14 with 1 Tim. 1. 4; 2. 7, 15 with 1 Tim. 4. 12; 1. 6–8 with 1 Tim. 3. 2–4.
 > - <sup>b</sup> 1. Chapter I. may be divided into three parts; v. 1–4 address and salutation; v. 5–9 qualifications of presbyters; v. 10–16 character of Jewish teachers.
-> - <sup>c</sup> 11. Lit., _whom it behoves to muzzle, who turn upside down whole houses..because of shameful gain._
-> - <sup>d</sup> 14. Lit., _not holding-towards Jewish myths..turning round._
+> - <sup>c</sup> 11. Lit., _whom it behoves to muzzle, who turn upside down whole houses…because of shameful gain._
+> - <sup>d</sup> 14. Lit., _not holding-towards Jewish myths…turning round._
 > - <sup>e</sup> 16. Lit., _say the same thing or speak together._
 
 ## Chapter 2
@@ -79,4 +79,4 @@ Remind them to be subject to principalities and authorities, to obey rule, unto 
 > - <sup>a</sup> 1. Chapter III. may be divided into three parts; v. 1–9 present duty, past state, and future hopes of Christians; v. 10 to reject a sectarian man; v. 12–15 closing commands and salutations.
 > - <sup>b</sup> 2. Or, _injuriously (lit. blasphemously) of no one, to be unwarlike (or without fighting), very-yielding, shewing inwardly all._
 > - <sup>c</sup> 3. Lit., _then thoughtless, untrusting, deceived (or deceiving ourselves), being in bondage to manifold over-desires and pleasures, leading (ourselves) thoroughly in badness, and envy._
-> - <sup>d</sup> 9. Lit., _be setting away foolish (or rebellious) searchings..law fightings._
+> - <sup>d</sup> 9. Lit., _be setting away foolish (or rebellious) searchings…law fightings._

@@ -333,7 +333,7 @@
 > - <sup>n</sup> 20. Or, _roll_
 > - <sup>o</sup> 26. Greek _Sarepta_.
 > - <sup>p</sup> 34. Or, _Let alone_
-> - <sup>q</sup> 36. Or, _this word, that with authority . . . come out?_
+> - <sup>q</sup> 36. Or, _this word, that with authority … come out?_
 > - <sup>r</sup> 43. Or, _the gospel_
 > - <sup>s</sup> 44. Very many ancient authorities read _Judaea_.
 
@@ -1241,7 +1241,7 @@ But while all were marvelling at all the things which he did, he said unto his d
 > - <sup>c</sup> 10. Greek _bondservants_.
 > - <sup>d</sup> 11. Or, _as he was_
 > - <sup>e</sup> 11. Or, _through the midst of etc._
-> - <sup>f</sup> 18. Or, _There were none found . . . save this stranger_.
+> - <sup>f</sup> 18. Or, _There were none found … save this stranger_.
 > - <sup>g</sup> 18. Or, _alien_
 > - <sup>h</sup> 19. Or, _saved thee_
 > - <sup>i</sup> 21. Or, _in the midst of you_
@@ -1511,7 +1511,7 @@ But while all were marvelling at all the things which he did, he said unto his d
 <sup>37</sup> And every day he was teaching in the temple; and every night he went out, and lodged in the mount that is called Olivet.
 <sup>38</sup> And all the people came early in the morning to him in the temple, to hear him.
 
-> - <sup>a</sup> 1. Or, _and saw them that . . . treasury, and they were rich_.
+> - <sup>a</sup> 1. Or, _and saw them that … treasury, and they were rich_.
 > - <sup>b</sup> 12. Greek _you being brought_.
 > - <sup>c</sup> 16. Or, _betrayed_
 > - <sup>d</sup> 16. Or, _shall they put to death_
@@ -1610,7 +1610,7 @@ But while all were marvelling at all the things which he did, he said unto his d
 > - <sup>b</sup> 6. Or, _betray_
 > - <sup>c</sup> 6. Or, _without tumult_
 > - <sup>d</sup> 19. Or, _a loaf_
-> - <sup>e</sup> 19. Some ancient authorities omit _which is given for you . . . which is poured out for you_.
+> - <sup>e</sup> 19. Some ancient authorities omit _which is given for you … which is poured out for you_.
 > - <sup>f</sup> 21. See verse 4.
 > - <sup>g</sup> 22. See verse 4.
 > - <sup>h</sup> 24. Greek _greater_.

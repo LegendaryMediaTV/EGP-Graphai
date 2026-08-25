@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Content, {
+  ContentBibleLink,
   ContentHeading,
   ContentNested,
   ContentObject,
@@ -67,6 +68,30 @@ function footnoteLabel(index: number): string {
  */
 function markdownHeadingMarker(type?: "standard" | "acrostic"): string {
   return type === "acrostic" ? "####" : "###";
+}
+
+/**
+ * `RenderOptions` for rendering a subtitle's own inner content, with the
+ * italic wrapper suppressed. Every subtitle wrapper (`> _..._` in markdown)
+ * already italicizes the whole rendered line, so an inner "i" mark on the
+ * subtitle's own content is redundant by construction and its own
+ * delimiters would only collide with the wrapper's — real corpus case:
+ * ASV1901 Psalm 25:1's subtitle content carries `{text:"A Psalm",
+ * marks:["i"]}` followed by plain " of David.", which rendered as
+ * `> __A Psalm_ of David._` before this fix (a broken `__` where the two
+ * delimiters meet). No information is lost by suppressing it — the
+ * wrapper's own italic already covers the whole line regardless — and bold
+ * is unaffected, still nesting normally inside the wrapper. For the
+ * plain-text export this is a no-op (`TEXT_OPTIONS.italicWrapper` is
+ * already the identity function), so applying it unconditionally is safe.
+ * Shared by every place a subtitle's inner content gets its own render:
+ * `renderContent`'s own "subtitle" branch, `convertBibleVersionToMarkdown`'s
+ * chapter-hoist duplicate of the same wrapping, and
+ * `convertVerseToMarkdown`'s own verse-level fallback for a non-chapter-
+ * opening leading subtitle.
+ */
+function subtitleInnerOptions(options: RenderOptions): RenderOptions {
+  return { ...options, italicWrapper: (text) => text };
 }
 
 /** Rendering configuration for the markdown export (`exports/markdown-par`). */
@@ -140,17 +165,51 @@ function isTextlessFootnoteSibling(item: Content): boolean {
 }
 
 /**
+ * A `bibleLink` node's own display override, when — and only when — that
+ * override is a single mark-bearing object: the one shape (84 nodes, all
+ * KJV1769) where the override's marks should be judged against a
+ * surrounding emphasis run rather than rendering as an opaque,
+ * self-contained span (see `isMarkRunCandidate`, `renderBibleLinkParts`).
+ * Every other override shape falls through unchanged to the existing
+ * opaque `"bibleLink" in content` render (line ~490): a plain-string
+ * override (3068 nodes corpus-wide), no override at all (536), or a
+ * single-element array override (148, all YLT1898, none carrying marks).
+ * This predicate's whole job is telling those four shapes apart, so keep
+ * its scope exactly this narrow — do not widen it to an array override
+ * without re-measuring the corpus, since today's 148 array overrides all
+ * carry no marks and an untested widening could self-wrap in a way this
+ * fix never verified.
+ */
+function markedBibleLinkOverride(item: Content): ContentObject | undefined {
+  if (typeof item !== "object" || item === null || Array.isArray(item)) return undefined;
+  if (!("bibleLink" in item)) return undefined;
+  const override = (item as ContentBibleLink).content;
+  if (override === undefined || typeof override === "string" || Array.isArray(override)) return undefined;
+  if (typeof override !== "object" || override === null) return undefined;
+  if ("heading" in override || "subtitle" in override || "bibleLink" in override || "content" in override) {
+    return undefined;
+  }
+  const obj = override as ContentObject;
+  return obj.marks && obj.marks.length > 0 ? obj : undefined;
+}
+
+/**
  * Whether `item` is a plain mark-bearing renderable — a `ContentObject` or
- * `ContentNested` — rather than one of the array's other legal shapes: a
- * bare string, a `heading`/`subtitle`/`bibleLink` item (each renders in its
- * own context and must never be treated as sharing the surrounding items'
- * open "b"/"i" state), or the `paragraph`-wrapper object (`content.paragraph`
- * holding nested content, not the boolean start-of-paragraph flag). Only
- * `ContentObject` and `ContentNested` ever carry a `marks` array, so only
- * these two shapes ever participate in the array branch's emphasis-state
- * walk (see `emphasisTransition`).
+ * `ContentNested`, or a `bibleLink` node whose display override qualifies
+ * per `markedBibleLinkOverride` — rather than one of the array's other
+ * legal shapes: a bare string, a `heading`/`subtitle`/an unqualified
+ * `bibleLink` item (each renders in its own context and must never be
+ * treated as sharing the surrounding items' open "b"/"i" state), or the
+ * `paragraph`-wrapper object (`content.paragraph` holding nested content,
+ * not the boolean start-of-paragraph flag). Only `ContentObject` and
+ * `ContentNested` ever carry a `marks` array outright, so only these two
+ * shapes (plus the one qualifying `bibleLink` shape, whose marks live on
+ * its override instead — see the array branch's own handling of
+ * `markedBibleLinkOverride`) ever participate in the array branch's
+ * emphasis-state walk (see `emphasisTransition`).
  */
 function isMarkRunCandidate(item: Content): item is ContentObject | ContentNested {
+  if (markedBibleLinkOverride(item) !== undefined) return true;
   if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
   if ("heading" in item || "subtitle" in item || "bibleLink" in item) return false;
   if ("paragraph" in item && item.paragraph !== undefined && typeof item.paragraph !== "boolean") return false;
@@ -372,6 +431,25 @@ function renderContent(content: Content, ctx: RenderContext): string {
       const item = content[index];
 
       if (!isMarkRunCandidate(item)) {
+        // A whitespace-only bare string is transparent to the open "b"/"i"
+        // state, the same treatment a whitespace-only *object* core already
+        // gets below (`isBlank`) — a same-marked node on either side of it
+        // still merges into one continuous span. Held in `pendingWhitespace`
+        // rather than emitted straight into `result`, so a later closing
+        // delimiter still lands before it instead of after (see
+        // `pendingWhitespace`'s own declaration comment above) — emitting it
+        // immediately here would produce "_the _foo" once a following node's
+        // marks differ, a delimiter run CommonMark won't parse as closing
+        // emphasis at all. Real corpus shape: KJV1769 Exodus 33:9's
+        // content[9], a lone " " between "the" (marks=["i"]) and "LORD"
+        // (marks=["i","sc"]) — two *different* mark sets, so this space
+        // cannot be rolled into either neighbor's own leading/trailing edge
+        // at the JSON level (auditNodes.ts checks 4 and 9 both correctly
+        // leave it alone there); it has to be handled here instead.
+        if (typeof item === "string" && item !== "" && item.trim() === "") {
+          pendingWhitespace += item;
+          continue;
+        }
         // A bare string, heading/subtitle/bibleLink, or paragraph-wrapper —
         // each renders in its own context, so any open marks close first.
         closeOpenMarks();
@@ -384,9 +462,24 @@ function renderContent(content: Content, ctx: RenderContext): string {
         continue;
       }
 
-      let parts = "content" in item
-        ? renderNestedContentParts(item, ctx)
-        : renderTextObjectParts(item, ctx);
+      // A qualifying bibleLink's own display override supplies both the
+      // rendered core and the marks driving this run's open/close state
+      // (see `markedBibleLinkOverride`/`renderBibleLinkParts`); every other
+      // shape renders and reports marks from `item` itself, unchanged. Item
+      // is re-checked here (rather than threading `isMarkRunCandidate`'s own
+      // internal check through as a value) because `isMarkRunCandidate`'s
+      // type predicate already narrowed `item` to `ContentObject |
+      // ContentNested` for everything below — a controlled fiction for the
+      // bibleLink case, safe because every other `item`-typed access left
+      // below (`.strong`, `.paragraph`) degrades to a harmless `undefined`
+      // read on a real bibleLink node, and `markedBibleLinkOverride` itself
+      // is cheap and pure.
+      const override = markedBibleLinkOverride(item);
+      let parts = override
+        ? renderBibleLinkParts(override, ctx)
+        : "content" in item
+          ? renderNestedContentParts(item, ctx)
+          : renderTextObjectParts(item, ctx);
       const spliced = spliceTrailingFootnoteSiblings(item, parts, content, index, ctx);
       parts = { ...parts, suffix: spliced.suffix };
       index = spliced.lastIndex;
@@ -402,9 +495,17 @@ function renderContent(content: Content, ctx: RenderContext): string {
       // `wrapEmphasisMarks`'s own "meaningless ****" avoidance) and is
       // transparent to the open/close state — it neither opens nor closes a
       // mark, so a same-marked node on either side of it still merges into
-      // one continuous span.
+      // one continuous span. (A whitespace-only *object* core reaching this
+      // path unmodified, rather than deferring through `pendingWhitespace`
+      // the way the bare-string case above now does, was checked against
+      // Cause A' — KJV1769 JER 2:16's real `{"text":" ","marks":["i"]}`
+      // between two same-marked bibleLink overrides — and the existing test
+      // suite proves it is not a problem there: this path only skips
+      // straight to `result += parts.core` when `desired` equals `openMarks`
+      // exactly, i.e. nothing is transitioning at this node at all, so there
+      // is no close/open ordering for the immediate write to get wrong.)
       const isBlank = parts.core.trim() === "";
-      const desired = isBlank ? openMarks : emphasisStateOf(item.marks);
+      const desired = isBlank ? openMarks : emphasisStateOf(override ? override.marks : item.marks);
       const transition = emphasisTransition(openMarks, desired, bold, italic);
 
       result += transition.close + pendingWhitespace;
@@ -461,8 +562,12 @@ function renderContent(content: Content, ctx: RenderContext): string {
   }
 
   if ("subtitle" in content) {
+    // The wrapper (`ctx.options.subtitleWrapper`, applied below) already
+    // italicizes the whole line, so the inner render is suppressed to match
+    // — see `subtitleInnerOptions`.
     const inner = renderContent(content.subtitle, {
       ...ctx,
+      options: subtitleInnerOptions(ctx.options),
       footnotePrefix: "Subtitle.",
     });
     return ctx.options.subtitleWrapper(inner);
@@ -573,6 +678,27 @@ function renderTextObjectParts(obj: ContentObject, ctx: RenderContext): Rendered
 function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
   const { prefix, core, suffix } = renderTextObjectParts(obj, ctx);
   return prefix + wrapEmphasisMarks(core, obj.marks, ctx.options) + suffix;
+}
+
+/**
+ * `RenderedParts` for a `bibleLink` node whose display override qualifies
+ * per `markedBibleLinkOverride` — the override IS already a `ContentObject`
+ * (a single mark-bearing object), so this reuses `renderTextObjectParts`
+ * directly rather than duplicating its logic. The point of routing through
+ * here, instead of the opaque `"bibleLink" in content` branch that
+ * self-wraps a display override independently (line ~490), is that the
+ * override's own "b"/"i" wrapping stays deferred to the caller: the array
+ * branch's `emphasisTransition` machinery then supplies shared delimiters
+ * across this node and its same-marked neighbors exactly as it does for a
+ * plain `ContentObject`. Real corpus case: KJV1769 2 Samuel 7:7's footnote,
+ * where `{bibleLink:"1 Chronicles 17:6", content:{text:"1. Chro. 17.6",
+ * marks:["i"]}}` sits between two other `marks:["i"]` nodes — self-wrapping
+ * it produced `_In the_ _1. Chro. 17.6__. any of the judges_` (a redundant
+ * `_ _` and a broken `__`); merging it into the run instead produces one
+ * continuous `_In the 1. Chro. 17.6. any of the judges_`.
+ */
+function renderBibleLinkParts(override: ContentObject, ctx: RenderContext): RenderedParts {
+  return renderTextObjectParts(override, ctx);
 }
 
 /**
@@ -697,10 +823,23 @@ function convertVerseToMarkdown(
     verseNum: verse.verse,
   };
 
-  let headingPrefix = "";
+  let leadingPrefix = "";
   let processedContent = verse.content;
 
-  // A leading heading renders above the verse number rather than inline with the verse text
+  // A leading heading or subtitle renders above the verse number rather
+  // than inline with the verse text. A leading heading here is what
+  // actually hoists the *second* heading of a chapter-opening
+  // [heading, heading] run (real corpus case: ASV1901 Psalm 119's acrostic
+  // marker) — `convertBibleVersionToMarkdown`'s own chapter-level hoist
+  // only ever consumes one heading, by design, leaving any further one for
+  // this fallback, which is why zero mid-line "###" artifacts exist
+  // anywhere in the corpus. A leading subtitle had no equivalent until this
+  // fix, so a non-chapter-opening subtitle rendered stranded inside the
+  // verse line after the <sup>N</sup> marker, with a stray mid-line "> "
+  // blockquote marker that meant nothing there (real corpus case: CLV1880
+  // Psalm 147:12 and 116:10's own "alleluia" subtitles — the entire
+  // corpus-wide population of non-chapter-opening subtitles, since every
+  // chapter-opening one is caught by the chapter-level hoist instead).
   if (Array.isArray(verse.content) && verse.content.length > 0) {
     const firstItem = verse.content[0];
     if (typeof firstItem === "object" && "heading" in firstItem) {
@@ -709,7 +848,15 @@ function convertVerseToMarkdown(
         footnotePrefix: "Heading.",
       });
       const marker = markdownHeadingMarker((firstItem as ContentHeading).type);
-      headingPrefix = `\n${marker} ${headingText}\n`;
+      leadingPrefix = `\n${marker} ${headingText}\n`;
+      processedContent = verse.content.slice(1);
+    } else if (typeof firstItem === "object" && "subtitle" in firstItem) {
+      const subtitleText = renderContent(firstItem.subtitle, {
+        ...ctx,
+        options: subtitleInnerOptions(ctx.options),
+        footnotePrefix: "Subtitle.",
+      });
+      leadingPrefix = `\n${ctx.options.subtitleWrapper(subtitleText)}\n`;
       processedContent = verse.content.slice(1);
     }
   }
@@ -749,7 +896,7 @@ function convertVerseToMarkdown(
 
   const paragraphPrefix = hasLeadingParagraph ? "\n" : "";
 
-  return `${headingPrefix}${paragraphPrefix}<sup>${verse.verse}</sup> ${text}`;
+  return `${leadingPrefix}${paragraphPrefix}<sup>${verse.verse}</sup> ${text}`;
 }
 
 // ============================================================================
@@ -865,46 +1012,67 @@ async function convertBibleVersionToMarkdown(
 
       const chapterFootnotes: string[] = [];
 
-      // A leading subtitle prints above the chapter rather than inside verse 1
-      if (chapterVerses.length > 0) {
+      // A leading run of heading/subtitle wrappers prints above the chapter
+      // rather than inside verse 1, hoisted in the order they actually
+      // appear rather than by a fixed subtitle-then-heading check order.
+      // Two independent single-slot checks (subtitle, then heading) used to
+      // look at content[0] twice with no regard for the real content order
+      // — which happened to work for a [subtitle, heading] leading run
+      // (subtitle really is first, so the subtitle check's own slice
+      // exposed the heading to the heading check right after) but silently
+      // missed the subtitle in a [heading, subtitle] leading run (ASV1901
+      // 116 chapters, WEBUS2020 3): the heading check hoisted the heading
+      // and re-sliced content, but the subtitle check had already run and
+      // never looked again, so the subtitle fell through to inline
+      // rendering inside verse 1, leaving a stray mid-line "> " blockquote
+      // marker where it meant nothing. At most one heading and one subtitle
+      // are consumed here — never a second of the same kind — so a
+      // [heading, heading] leading run (ASV1901 Psalm 119's acrostic
+      // opening, 34 chapters corpus-wide) still hoists only its first
+      // heading here and leaves the second for `convertVerseToMarkdown`'s
+      // own verse-level leading-heading fallback below, exactly as before
+      // this fix.
+      let hoistedHeading = false;
+      let hoistedSubtitle = false;
+      while (chapterVerses.length > 0) {
         const firstContent = chapterVerses[0].content;
-        if (Array.isArray(firstContent) && firstContent.length > 0) {
-          const firstItem = firstContent[0];
-          if (typeof firstItem === "object" && "subtitle" in firstItem) {
-            const ctx: RenderContext = {
-              options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
-              footnotes: chapterFootnotes,
-              verseNum: chapterVerses[0].verse,
-              footnotePrefix: "Subtitle.",
-            };
-            const subtitleText = renderContent(firstItem.subtitle, ctx);
-            markdownLines.push("");
-            markdownLines.push(`> _${subtitleText}_`);
-            chapterVerses[0].content = firstContent.slice(1);
-          }
-        }
-      }
+        if (!Array.isArray(firstContent) || firstContent.length === 0) break;
+        const firstItem = firstContent[0];
+        if (typeof firstItem !== "object") break;
 
-      // A leading heading prints above the chapter rather than inside verse 1
-      if (chapterVerses.length > 0) {
-        const firstContent = chapterVerses[0].content;
-        if (Array.isArray(firstContent) && firstContent.length > 0) {
-          const firstItem = firstContent[0];
-          if (typeof firstItem === "object" && "heading" in firstItem) {
-            const ctx: RenderContext = {
-              options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
-              footnotes: chapterFootnotes,
-              footnotePrefix: "Heading.",
-            };
-            const headingText = renderContent(firstItem.heading, ctx);
-            const marker = markdownHeadingMarker(
-              (firstItem as ContentHeading).type
-            );
-            markdownLines.push("");
-            markdownLines.push(`${marker} ${headingText}`);
-            chapterVerses[0].content = firstContent.slice(1);
-          }
+        if (!hoistedSubtitle && "subtitle" in firstItem) {
+          const ctx: RenderContext = {
+            options: subtitleInnerOptions({ ...MARKDOWN_OPTIONS, includeFootnotes: true }),
+            footnotes: chapterFootnotes,
+            verseNum: chapterVerses[0].verse,
+            footnotePrefix: "Subtitle.",
+          };
+          const subtitleText = renderContent(firstItem.subtitle, ctx);
+          markdownLines.push("");
+          markdownLines.push(`> _${subtitleText}_`);
+          chapterVerses[0].content = firstContent.slice(1);
+          hoistedSubtitle = true;
+          continue;
         }
+
+        if (!hoistedHeading && "heading" in firstItem) {
+          const ctx: RenderContext = {
+            options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
+            footnotes: chapterFootnotes,
+            footnotePrefix: "Heading.",
+          };
+          const headingText = renderContent(firstItem.heading, ctx);
+          const marker = markdownHeadingMarker(
+            (firstItem as ContentHeading).type
+          );
+          markdownLines.push("");
+          markdownLines.push(`${marker} ${headingText}`);
+          chapterVerses[0].content = firstContent.slice(1);
+          hoistedHeading = true;
+          continue;
+        }
+
+        break;
       }
 
       // Whether verse 1 opens its own paragraph, which decides the blank line

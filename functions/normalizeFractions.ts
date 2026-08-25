@@ -1,4 +1,5 @@
 import Content from "../types/Content";
+import { mapContentText } from "./mapContentText";
 
 /**
  * Write every fraction in raw source text the one way this repo writes
@@ -12,9 +13,11 @@ import Content from "../types/Content";
  * importer, a corpus-wide validation check, and the gitignored one-time
  * correction scripts under `imports/corrections/` all import from here
  * rather than redefining any part of it. {@link normalizeFractionsInContent},
- * further down, is the content-tree walker built on top of it — matching
- * `functions/convertToSmallCaps.ts`'s own precedent of one file owning both
- * a string-level transform and the tree-walker built on it.
+ * further down, applies this convention across a whole content tree via
+ * {@link mapContentText} (`functions/mapContentText.ts`) — the traversal
+ * itself lives there now, shared with `functions/normalizeEllipses.ts`,
+ * since the only thing that differs between the two is which string
+ * function runs at the leaves.
  */
 
 // ---------------------------------------------------------------------------
@@ -207,14 +210,12 @@ export function normalizeFractionText(text: string): FractionNormalization {
  * importer applies on the way in and `auditNodes.ts`'s check 7 checks
  * against.
  *
- * Recurses exactly the way `auditNodes.ts`'s own `walkLevel`/`describeNode`
- * do: a bare string array element counts as text in its own right, and
- * `heading`, `subtitle`, a `ContentNested` wrapper's own `content`, and a
- * footnote body's own `foot.content` are all followed. A `bibleLink` node's
- * own `content` display override is deliberately excluded from that walk —
- * it's display text tied to a reference target, not nested content — the
- * same exclusion `normalizeBibleLinkDashesInContent` (`utils/validate.ts`)
- * makes for the reverse reason.
+ * The traversal itself — which branches of a node hold rewritable text —
+ * lives in {@link mapContentText} (`functions/mapContentText.ts`), the one
+ * shared walker this module and `functions/normalizeEllipses.ts` both build
+ * on; this function supplies only the leaf-level rewrite. See that module's
+ * own doc comment for exactly which branches it follows and why a
+ * `bibleLink`'s own display-content override is excluded from the walk.
  *
  * Only ever rewrites an existing `text` string's value in place; never
  * restructures a node the way a merge or a split would, so a verse's own
@@ -228,92 +229,10 @@ export function normalizeFractionText(text: string): FractionNormalization {
 export function normalizeFractionsInContent(
   content: Content
 ): { content: Content; changed: boolean } {
-  const rewritten = rewrite(content);
-  return { content: rewritten.value as Content, changed: rewritten.changed };
-}
-
-/**
- * The actual traversal, working over `unknown` rather than {@link Content}
- * itself: a real node commonly combines fields no single `Content` union
- * member declares together — `text` alongside `foot` is the ordinary shape
- * for a footed word — because the strict union names each field's own
- * shape without forbidding a node from carrying several fields at once.
- * Not exported: {@link normalizeFractionsInContent} is the only typed
- * entry point a caller needs.
- */
-function rewrite(value: unknown): { value: unknown; changed: boolean } {
-  if (typeof value === "string") {
-    const result = normalizeFractionText(value);
-    return result.changes > 0
-      ? { value: result.value, changed: true }
-      : { value, changed: false };
-  }
-
-  if (Array.isArray(value)) {
-    let changed = false;
-    const items = value.map((item) => {
-      const rewritten = rewrite(item);
-      changed = changed || rewritten.changed;
-      return rewritten.value;
-    });
-    return changed ? { value: items, changed: true } : { value, changed: false };
-  }
-
-  if (value === null || typeof value !== "object") {
-    return { value, changed: false };
-  }
-
-  const record = value as Record<string, unknown>;
-  let result = record;
-  let changed = false;
-
-  if (typeof record.text === "string") {
-    const rewritten = normalizeFractionText(record.text);
-    if (rewritten.changes > 0) {
-      result = { ...result, text: rewritten.value };
-      changed = true;
-    }
-  }
-
-  if (record.heading !== undefined) {
-    const rewritten = rewrite(record.heading);
-    if (rewritten.changed) {
-      result = { ...result, heading: rewritten.value };
-      changed = true;
-    }
-  }
-
-  if (record.subtitle !== undefined) {
-    const rewritten = rewrite(record.subtitle);
-    if (rewritten.changed) {
-      result = { ...result, subtitle: rewritten.value };
-      changed = true;
-    }
-  }
-
-  if (
-    record.heading === undefined &&
-    record.subtitle === undefined &&
-    record.bibleLink === undefined &&
-    record.content !== undefined
-  ) {
-    const rewritten = rewrite(record.content);
-    if (rewritten.changed) {
-      result = { ...result, content: rewritten.value };
-      changed = true;
-    }
-  }
-
-  const foot = record.foot as { content?: unknown } | undefined;
-  if (foot?.content !== undefined) {
-    const rewritten = rewrite(foot.content);
-    if (rewritten.changed) {
-      result = { ...result, foot: { ...foot, content: rewritten.value } };
-      changed = true;
-    }
-  }
-
-  return { value: changed ? result : record, changed };
+  return mapContentText(content, (text) => {
+    const rewritten = normalizeFractionText(text);
+    return rewritten.changes > 0 ? rewritten.value : undefined;
+  });
 }
 
 export default normalizeFractionsInContent;

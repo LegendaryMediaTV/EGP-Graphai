@@ -217,4 +217,4 @@
 > - <sup>b</sup> 10. Or, _hot_
 > - <sup>c</sup> 18. Or, _jackals_
 > - <sup>d</sup> 19. Or, _sittest_ as King
-> - <sup>e</sup> 22. Or, _Unless thou . . ._ and _art etc._
+> - <sup>e</sup> 22. Or, _Unless thou …_ and _art etc._

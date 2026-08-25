@@ -27,7 +27,7 @@
 > - <sup>g</sup> 14. Hebrew _copher_.
 > - <sup>h</sup> 15. Or, _Thou hast doves’ eyes_
 > - <sup>i</sup> 17. Or, _houses_
-> - <sup>j</sup> 17. Or, _of cedar . . . of fir_
+> - <sup>j</sup> 17. Or, _of cedar … of fir_
 > - <sup>k</sup> 17. Or, _cypresses_
 
 ## Chapter 2

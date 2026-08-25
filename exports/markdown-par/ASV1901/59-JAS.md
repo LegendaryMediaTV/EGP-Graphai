@@ -81,7 +81,7 @@
 <sup>25</sup> And in like manner was not also Rahab the harlot justified by works, in that she received the messengers, and sent them out another way?
 <sup>26</sup> For as the body apart from the spirit is dead, even so faith apart from works is dead.
 
-> - <sup>a</sup> 1. Or, _do ye, in accepting persons, hold the faith . . . glory?_
+> - <sup>a</sup> 1. Or, _do ye, in accepting persons, hold the faith … glory?_
 > - <sup>b</sup> 2. Or, _assembly_. Compare Heb. 10:25 (Greek).
 > - <sup>c</sup> 4. Or, _are ye not divided_
 > - <sup>d</sup> 4. Or, _in your own mind_
@@ -90,7 +90,7 @@
 > - <sup>g</sup> 11. Ex. 20:13f; Dt. 5:17f.
 > - <sup>h</sup> 18. Or, _But some one will say_
 > - <sup>i</sup> 19. Some ancient authorities read _there is one God_.
-> - <sup>j</sup> 22. Or, _Seest thou . . . perfect?_
+> - <sup>j</sup> 22. Or, _Seest thou … perfect?_
 > - <sup>k</sup> 23. Gen. 15:6.
 > - <sup>l</sup> 23. Isa. 41:8; 2 Chr. 20:7.
 

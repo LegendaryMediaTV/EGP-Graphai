@@ -67,7 +67,7 @@ For in that he subjected all things unto him, he left nothing that is not subjec
 > - <sup>b</sup> 5. Greek _the inhabited earth_.
 > - <sup>c</sup> 6. Ps. 8:4ff.
 > - <sup>d</sup> 7. Or, _for a little while lower_
-> - <sup>e</sup> 7. Many authorities omit _And didst . . . hands_
+> - <sup>e</sup> 7. Many authorities omit _And didst … hands_
 > - <sup>f</sup> 9. Or, _for a little while lower_
 > - <sup>g</sup> 10. Or, _having brought_
 > - <sup>h</sup> 10. Or, _captain_
@@ -218,7 +218,7 @@ although the works were finished from the foundation of the world.
 > - <sup>b</sup> 1. Or, _full growth_
 > - <sup>c</sup> 2. Some ancient authorities read, even _the teaching of_
 > - <sup>d</sup> 2. Or, _washings_
-> - <sup>e</sup> 4. Or, _having both tasted of . . . and being made . . . and having tasted etc._
+> - <sup>e</sup> 4. Or, _having both tasted of … and being made … and having tasted etc._
 > - <sup>f</sup> 5. Or, _tasted the word of God that it is good_
 > - <sup>g</sup> 6. Or, _the while_
 > - <sup>h</sup> 9. Or, _belong to_
@@ -347,7 +347,7 @@ although the works were finished from the foundation of the world.
 > - <sup>m</sup> 16. Greek _be brought_.
 > - <sup>n</sup> 17. The Greek word here used signifies both _covenant_ and _testament_.
 > - <sup>o</sup> 17. Greek _over the dead_.
-> - <sup>p</sup> 17. Or, _for doth it ever . . . liveth?_
+> - <sup>p</sup> 17. Or, _for doth it ever … liveth?_
 > - <sup>q</sup> 20. Ex. 24:8.
 > - <sup>r</sup> 20. The Greek word here used signifies both _covenant_ and _testament_.
 > - <sup>s</sup> 26. Or, _consummation_
@@ -421,7 +421,7 @@ _then saith he_,<br>
 > - <sup>o</sup> 36. Or, _stedfastness_
 > - <sup>p</sup> 37. Hab. 2:3f.
 > - <sup>q</sup> 38. Some ancient authorities read _the righteous one_.
-> - <sup>r</sup> 39. Greek _of shrinking back . . . but of faith_.
+> - <sup>r</sup> 39. Greek _of shrinking back … but of faith_.
 > - <sup>s</sup> 39. Or, _gaining_
 
 ## Chapter 11
@@ -536,7 +536,7 @@ _then saith he_,<br>
 > - <sup>k</sup> 15. Or, _whether_
 > - <sup>l</sup> 15. Or, _falleth back from_
 > - <sup>m</sup> 16. Or, _whether_
-> - <sup>n</sup> 17. Or, _rejected (for he found no place of repentance), etc._ Or, _rejected; for . . . of repentance etc._ Compare 6:6; 2 Esdr. 9:11; Wisd. 12:10.
+> - <sup>n</sup> 17. Or, _rejected (for he found no place of repentance), etc._ Or, _rejected; for … of repentance etc._ Compare 6:6; 2 Esdr. 9:11; Wisd. 12:10.
 > - <sup>o</sup> 18. Or, _a palpable and kindled fire_
 > - <sup>p</sup> 20. Ex. 19:12f.
 > - <sup>q</sup> 21. Dt. 9:19.

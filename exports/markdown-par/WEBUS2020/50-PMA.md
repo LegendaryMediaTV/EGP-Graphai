@@ -17,7 +17,7 @@
 <sup>15</sup> Then I will praise you forever all the days of my life; for all the army of heaven sings your praise, and yours is the glory forever and ever. Amen.
 
 > - <sup>a</sup> 1. _The Prayer of Manasses_ is recognized as Deuterocanonical Scripture by the Greek Orthodox and Russian Orthodox Churches. It is included in an appendix to the Latin Vulgate Bible.
-> - <sup>b</sup> 8. The Alex. MS. omits _You... saved._
-> - <sup>c</sup> 9. The Alex. MS. omits _O Lord... multiplied._
+> - <sup>b</sup> 8. The Alex. MS. omits _You… saved._
+> - <sup>c</sup> 9. The Alex. MS. omits _O Lord… multiplied._
 > - <sup>d</sup> 10. Some authorities omit _by reason of my sins._
-> - <sup>e</sup> 10. The Alex. MS. omits _I did... commandments._
+> - <sup>e</sup> 10. The Alex. MS. omits _I did… commandments._

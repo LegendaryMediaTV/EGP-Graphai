@@ -2325,7 +2325,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 <sup>19</sup> We are _thine:_ thou never barest rule over them; they were not called by thy name.<sup>d</sup>
 
 > - <sup>a</sup> 1. Heb. _decked_
-> - <sup>b</sup> 11. Or, _shepherds, as_ _Psal. 77.20_
+> - <sup>b</sup> 11. Or, _shepherds, as Psal. 77.20_
 > - <sup>c</sup> 15. Or, _the multitude_
 > - <sup>d</sup> 19. Heb. _thy name was not called upon them_
 

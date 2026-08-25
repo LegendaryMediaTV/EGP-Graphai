@@ -164,7 +164,7 @@
 <sup>13</sup> And it is come to pass that, as he cried, and they would not hear, so they shall cry, and I will not hear, said Jehovah of hosts;
 <sup>14</sup> but I will scatter them with a whirlwind among all the nations which they have not known. Thus the land was desolate after them, so that no man passed through nor returned: for they laid the <sup>e</sup>pleasant land desolate.
 
-> - <sup>a</sup> 2. Or, _Now_ they of _Beth-el, even Sharezer . . . had sent_
+> - <sup>a</sup> 2. Or, _Now_ they of _Beth-el, even Sharezer … had sent_
 > - <sup>b</sup> 6. Or, _are not ye they that eat etc._
 > - <sup>c</sup> 11. Or, _turned a stubborn shoulder_
 > - <sup>d</sup> 11. Or, _made their ears heavy_. See Isa. 6:10.
@@ -263,7 +263,7 @@
 > - <sup>a</sup> 2. Or, _the dreamers speak falsely_
 > - <sup>b</sup> 4. Or, _exactor_
 > - <sup>c</sup> 6. Or, _cause them to dwell_
-> - <sup>d</sup> 9. Or, _And though I sow them . . . they shall remember etc._
+> - <sup>d</sup> 9. Or, _And though I sow them … they shall remember etc._
 > - <sup>e</sup> 11. Or, _the sea of waves_
 
 ## Chapter 11
@@ -296,7 +296,7 @@
 > - <sup>f</sup> 7. Or, _Graciousness_
 > - <sup>g</sup> 7. Or, _Binders_. Or, _Union_
 > - <sup>h</sup> 9. Or, _that which is lost, let it be lost_
-> - <sup>i</sup> 11. Or, _the poor of the flock . . . knew of a truth_
+> - <sup>i</sup> 11. Or, _the poor of the flock … knew of a truth_
 > - <sup>j</sup> 11. Or, _the most miserable of sheep_
 > - <sup>k</sup> 16. Or, _miss_
 > - <sup>l</sup> 16. Or, _lost_

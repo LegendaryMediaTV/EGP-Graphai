@@ -56,7 +56,7 @@
 
 <sup>28</sup> And the fear and the dread of him fell upon those who lived on the sea coast, upon those who were in Sidon and Tyre, those who lived in Sur and Ocina, and all who lived in Jemnaan. Those who lived in Azotus and Ascalon feared him exceedingly.
 
-> - <sup>a</sup> 10. Gr. _they will yield...and you shall reserve._
+> - <sup>a</sup> 10. Gr. _they will yield…and you shall reserve._
 
 ## Chapter 3
 

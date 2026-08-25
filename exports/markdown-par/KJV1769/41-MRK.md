@@ -223,7 +223,7 @@
 <sup>40</sup> And he said unto them, Why are ye so fearful? how is it that ye have no faith?
 <sup>41</sup> And they feared exceedingly, and said one to another, What manner of man is this, that even the wind and the sea obey him?
 
-> - <sup>a</sup> 21. _The word, in the original, signifieth a less measure as_ _Mat. 5.15_
+> - <sup>a</sup> 21. _The word, in the original, signifieth a less measure as Mat. 5.15_
 > - <sup>b</sup> 29. Or, _ripe_
 
 ## Chapter 5
@@ -357,11 +357,11 @@
 <sup>55</sup> and ran through that whole region round about, and began to carry about in beds those that were sick, where they heard he was.
 <sup>56</sup> And whithersoever he entered, into villages, or cities, or country, they laid the sick in the streets, and besought him<sup>g</sup> that they might touch if it were but the border of his garment: and as many as touched him were made whole.
 
-> - <sup>a</sup> 8. _The word signifieth a piece of brass money, in value somewhat less than a farthing,_ _mat. 10.9_ _but here it is taken in general for money_
+> - <sup>a</sup> 8. _The word signifieth a piece of brass money, in value somewhat less than a farthing, mat. 10.9 but here it is taken in general for money_
 > - <sup>b</sup> 19. Or, _an inward grudge_
 > - <sup>c</sup> 20. Or, _kept him_ or _saved him_
 > - <sup>d</sup> 27. Or, _one of his guard_
-> - <sup>e</sup> 37. _The Rom. penny is sevenpence halfpenny as_ _Mat. 18.28_
+> - <sup>e</sup> 37. _The Rom. penny is sevenpence halfpenny as Mat. 18.28_
 > - <sup>f</sup> 45. Or, _over against Bethsaida_
 > - <sup>g</sup> 56. Or, _it_
 
@@ -730,8 +730,8 @@
 <sup>43</sup> And he called _unto him_ his disciples, and saith unto them, Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury:
 <sup>44</sup> for all _they_ did cast in of their abundance; but she of her want did cast in all that she had, _even_ all her living.
 
-> - <sup>a</sup> 15. _Valuing of our money seven pence halfpenny, as_ _Mat. 18.28_
-> - <sup>b</sup> 41. _A piece of brass money, see_ _Matth. 10.9_
+> - <sup>a</sup> 15. _Valuing of our money seven pence halfpenny, as Mat. 18.28_
+> - <sup>b</sup> 41. _A piece of brass money, see Matth. 10.9_
 > - <sup>c</sup> 42. _It is the seventh part of one piece of that brass money_
 
 ## Chapter 13
@@ -878,7 +878,7 @@
 <sup>72</sup> And the second time the cock crew. And Peter called to mind the word that Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. And when he thought thereon, he wept.<sup>e</sup>
 
 > - <sup>a</sup> 3. Or, _pure nard_, or _liquid nard_
-> - <sup>b</sup> 5. _See_ _Matt. 18.28_
+> - <sup>b</sup> 5. _See Matt. 18.28_
 > - <sup>c</sup> 12. Or, _sacrificed_
 > - <sup>d</sup> 26. Or, _psalm_
 > - <sup>e</sup> 72. Or, _he wept abundantly_, or _he began to wept [sic]_

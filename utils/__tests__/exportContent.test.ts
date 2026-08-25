@@ -1456,6 +1456,186 @@ describe("exportContent", () => {
       );
       expect(result).not.toMatch(/H5848from/);
     });
+
+    describe("Cause A — a whitespace-only bare string no longer hard-closes an open emphasis run (KJV1769 Exodus 33:9's real content[9])", () => {
+      const exodus339Excerpt: VerseSchema["content"] = [
+        " and ",
+        { text: "the", marks: ["i"] },
+        " ",
+        { text: "Lord", marks: ["i", "sc"] },
+        " talked",
+      ];
+
+      it("should merge 'the' and 'LORD' into one continuous italic span across the lone blank between them, in markdown, even though the two nodes disagree in marks (['i'] vs ['i','sc']) — auditNodes.ts checks 4 and 9 both correctly leave this source shape alone, so the fix belongs here in the renderer", () => {
+        const verse: VerseSchema = { book: "EXO", chapter: 33, verse: 9, content: exodus339Excerpt };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("<sup>9</sup> and _the LORD_ talked");
+        expect(result).not.toContain("_ _");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should leave convertVerseToText's output byte-identical to today's, since TEXT_OPTIONS's italicWrapper is the identity function and this fix only changes markdown's visible delimiters", () => {
+        const verse: VerseSchema = { book: "EXO", chapter: 33, verse: 9, content: exodus339Excerpt };
+        expect(convertVerseToText(verse)).toBe("033:009 and the LORD talked");
+      });
+
+      it("should still close the delimiter before the blank rather than after it when the node AFTER the blank carries no marks at all — the blank must land outside the closing '_' ('_the_ Lord'), never inside it ('_the _Lord'), which is what proves the blank is routed through pendingWhitespace rather than emitted immediately", () => {
+        const verse: VerseSchema = {
+          book: "EXO",
+          chapter: 33,
+          verse: 9,
+          content: [" and ", { text: "the", marks: ["i"] }, " ", { text: "Lord" }, " talked"],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("<sup>9</sup> and _the_ Lord talked");
+        expectWellFormedEmphasis(result);
+      });
+    });
+
+    describe("Cause A' — a blank object node carrying marks stays transparent to the surrounding run when its neighbors agree in marks (KJV1769 JER 2:16's real footnote shape)", () => {
+      it("should merge both bibleLink overrides into one continuous italic span across the marked blank between them, in markdown", () => {
+        const verse: VerseSchema = {
+          book: "JER",
+          chapter: 2,
+          verse: 16,
+          content: [
+            { bibleLink: "Deuteronomy 33:12", content: { text: "deut. 33.12", marks: ["i"] } },
+            { text: " ", marks: ["i"] },
+            { bibleLink: "Isaiah 8:8", content: { text: "Isai. 8.8", marks: ["i"] } },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("<sup>16</sup> _deut. 33.12 Isai. 8.8_");
+        expect(result).not.toContain("__");
+        expect(result).not.toContain("_ _");
+        expectWellFormedEmphasis(result);
+      });
+    });
+
+    describe("Cause B — a bibleLink node whose display override is a single mark-bearing object participates in the surrounding emphasis run (KJV1769 2 Samuel 7:7's real footnote)", () => {
+      const samuel77Footnote: VerseSchema["content"] = [
+        { text: "In the ", marks: ["i"] },
+        { bibleLink: "1 Chronicles 17:6", content: { text: "1. Chro. 17.6", marks: ["i"] } },
+        { text: ". any of the judges", marks: ["i"] },
+      ];
+
+      it("should render one continuous italic span with no redundant '_ _' and no broken '__', in markdown", () => {
+        const verse: VerseSchema = { book: "2SM", chapter: 7, verse: 7, content: samuel77Footnote };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("<sup>7</sup> _In the 1. Chro. 17.6. any of the judges_");
+        expect(result).not.toContain("__");
+        expect(result).not.toContain("_ _");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should leave convertVerseToText's output byte-identical to today's", () => {
+        const verse: VerseSchema = { book: "2SM", chapter: 7, verse: 7, content: samuel77Footnote };
+        expect(convertVerseToText(verse)).toBe(
+          "007:007 In the 1. Chro. 17.6. any of the judges"
+        );
+      });
+
+      it("should keep today's exact opaque rendering for the other three bibleLink override shapes — a plain string override, no override at all, and a single-element array override (YLT1898's own no-marks shape) — none of which qualify for this fix (3,752 of the corpus's 3,836 bibleLink nodes)", () => {
+        const footnotes: string[] = [];
+        const stringOverride: VerseSchema = {
+          book: "PSA",
+          chapter: 1,
+          verse: 1,
+          content: [
+            { text: "before ", marks: ["i"] },
+            { bibleLink: "Psalm 1", content: "Ps 1" },
+            { text: " after", marks: ["i"] },
+          ],
+        };
+        const noOverride: VerseSchema = {
+          book: "PSA",
+          chapter: 1,
+          verse: 1,
+          content: [
+            { text: "before ", marks: ["i"] },
+            { bibleLink: "Psalm 1" },
+            { text: " after", marks: ["i"] },
+          ],
+        };
+        const arrayOverride: VerseSchema = {
+          book: "PSA",
+          chapter: 1,
+          verse: 1,
+          content: [
+            { text: "before ", marks: ["i"] },
+            { bibleLink: "Psalm 1", content: ["Ps. 1"] },
+            { text: " after", marks: ["i"] },
+          ],
+        };
+        expect(convertVerseToMarkdown(stringOverride, footnotes)).toBe(
+          "<sup>1</sup> _before_ Ps 1 _after_"
+        );
+        expect(convertVerseToMarkdown(noOverride, footnotes)).toBe(
+          "<sup>1</sup> _before_ Psalm 1 _after_"
+        );
+        expect(convertVerseToMarkdown(arrayOverride, footnotes)).toBe(
+          "<sup>1</sup> _before_ Ps. 1 _after_"
+        );
+      });
+    });
+
+    describe("Cause C — the markdown subtitle wrapper no longer double-wraps an inner italic mark (ASV1901 Psalm 25:1's real subtitle, minus its leading heading — see the Cause D describe block below for the [heading, subtitle] chapter-opening combination, which the real verse carries and which the Cause D fix's own chapter-level hoist covers)", () => {
+      it("should render one italic wrapper around the whole subtitle instead of a broken '__' where the inner and outer delimiters collide — hoisted above the verse line, since a lone leading subtitle also qualifies for Cause D's verse-level fallback", () => {
+        const verse: VerseSchema = {
+          book: "PSA",
+          chapter: 25,
+          verse: 1,
+          content: [
+            { subtitle: [{ text: "A Psalm", marks: ["i"] }, " of David."] },
+            { paragraph: true, text: "Unto thee, O Jehovah, do I lift up my soul.", break: true },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "\n> _A Psalm of David._\n\n<sup>1</sup> Unto thee, O Jehovah, do I lift up my soul.<br>"
+        );
+        expect(result).not.toContain("__");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should still render an inner bold mark inside the subtitle's own italic wrapper — only italic is suppressed on the inner render, never bold", () => {
+        const verse: VerseSchema = {
+          book: "PSA",
+          chapter: 25,
+          verse: 1,
+          content: [
+            { subtitle: [{ text: "A Psalm", marks: ["b"] }, " of David."] },
+            { paragraph: true, text: "Unto thee.", break: true },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _**A Psalm** of David._\n\n<sup>1</sup> Unto thee.<br>");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should render a subtitle with no inner marks completely unaffected by the italic suppression, since there was never anything to suppress", () => {
+        const verse: VerseSchema = {
+          book: "PSA",
+          chapter: 3,
+          verse: 1,
+          content: [
+            { subtitle: "A Psalm of David, when he fled from Absalom his son." },
+            { paragraph: true, text: "Lord, how are they increased that trouble me!", break: true },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "\n> _A Psalm of David, when he fled from Absalom his son._\n\n<sup>1</sup> Lord, how are they increased that trouble me!<br>"
+        );
+      });
+    });
   });
 
   describe("a shared mark stays open across a neighbor that only drops the OTHER mark (independent nested 'b'/'i' delimiters, not whole-mark-set equality)", () => {
@@ -1564,6 +1744,68 @@ describe("exportContent", () => {
         expect(result).not.toContain("*");
         expect(result).not.toContain("_");
       });
+    });
+  });
+
+  describe("Cause D — a leading subtitle no longer strands a stray mid-line '> ' blockquote marker inside a verse line", () => {
+    it("should hoist a lone leading subtitle above the <sup>N</sup> line, mirroring the existing leading-heading treatment, for a non-chapter-opening verse (real CLV1880 Psalm 147:12 shape — the subtitle opens verse 12, not verse 1, so no chapter-level hoist can ever reach it)", () => {
+      const verse: VerseSchema = {
+        book: "PSA",
+        chapter: 147,
+        verse: 12,
+        content: [
+          { subtitle: "alleluia" },
+          { paragraph: true, text: "lauda Hierusalem Dominum lauda Deum tuum Sion" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe(
+        "\n> _alleluia_\n\n<sup>12</sup> lauda Hierusalem Dominum lauda Deum tuum Sion"
+      );
+      expect(result).not.toMatch(/^<sup>\d+<\/sup> > /);
+    });
+
+    it("regression: a lone leading heading at the verse level still hoists exactly as today, unaffected by the new subtitle mirror", () => {
+      const verse: VerseSchema = {
+        book: "PSA",
+        chapter: 3,
+        verse: 1,
+        content: [
+          { heading: "A Psalm of David." },
+          { paragraph: true, text: "Lord, how are they increased that trouble me!", break: true },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe(
+        "\n### A Psalm of David.\n\n<sup>1</sup> Lord, how are they increased that trouble me!<br>"
+      );
+      expect(result).not.toMatch(/^<sup>\d+<\/sup> > /);
+    });
+
+    it("regression: the acrostic marker in a [heading, heading] chapter opening (real ASV1901 Psalm 119:1, content shown here as convertVerseToMarkdown receives it once the chapter-level hoist has already consumed the first heading) still hoists via the pre-existing verse-level heading fallback exactly as today", () => {
+      const verse: VerseSchema = {
+        book: "PSA",
+        chapter: 119,
+        verse: 1,
+        content: [
+          { heading: [{ text: "א", script: "H" }, " ALEPH."], type: "acrostic" },
+          { paragraph: true, text: "Blessed are they that are perfect in the way,", break: true },
+          {
+            text: "Who walk in the law of Jehovah.",
+            break: true,
+            foot: { type: "trn", content: ["Or, ", { text: "upright in way", marks: ["i"] }] },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe(
+        "\n#### א ALEPH.\n\n<sup>1</sup> Blessed are they that are perfect in the way,<br>Who walk in the law of Jehovah.<sup>a</sup><br>"
+      );
+      expect(footnotes).toEqual(["- <sup>a</sup> 1. Or, _upright in way_"]);
+      expect(result).not.toMatch(/^<sup>\d+<\/sup> > /);
     });
   });
 });

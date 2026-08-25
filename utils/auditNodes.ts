@@ -55,6 +55,26 @@
  *    across that boundary. Asymmetric by design: only the side that itself
  *    carries the formatting can be the offender. See {@link
  *    carriesFormatting} and {@link scanArrayForMarkBoundaryEmbeddedSpaces}.
+ * 10. **Un-normalized ellipsis** — a node's own `text` still carrying a dot
+ *    run this repo's own ellipsis convention would rewrite to U+2026, or the
+ *    one two-period shape that convention deliberately never rewrites on its
+ *    own. Like check 7, this is a project-wide content standard, not a
+ *    node's own placement relative to its neighbors
+ *    ({@link normalizeEllipsisText}/{@link hasEllipsisIndicator},
+ *    `functions/normalizeEllipses.ts`). Deliberately broader than the
+ *    auto-fix it mirrors: it also reports a bare two-period run, which the
+ *    shipped rewriter refuses forever as a standing rule (see that module's
+ *    own doc comment for why), so a future import carrying that shape gets a
+ *    person's decision instead of a silent skip. See {@link
+ *    hasUnnormalizedEllipsis}.
+ * 11. **ASCII straight quote, apostrophe, or backtick** — a node's own `text`
+ *    still carrying an ASCII `'`, `"`, or backtick, none of which this
+ *    repo's own punctuation convention ever writes in prose content. Unlike
+ *    checks 7 and 10, this one has **no auto-fix and never will**: deciding
+ *    whether a straight `'` is an apostrophe, an opening quote, or a closing
+ *    quote needs context a character-level rule cannot supply, so this check
+ *    exists to report the finding with enough detail to act on, not to
+ *    silently rewrite it. See {@link hasStraightQuote}.
  *
  * A general-purpose, version-controlled tool any future import can reach
  * for, rather than a one-off diagnostic scoped to whichever translation
@@ -79,6 +99,7 @@ import * as path from "path";
 import { getVersionDirectories } from "../functions/getBibleVersions";
 import Content from "../types/Content";
 import { normalizeFractionText } from "../functions/normalizeFractions";
+import { hasEllipsisIndicator } from "../functions/normalizeEllipses";
 
 /** Root directory holding one subfolder per Bible version. */
 const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
@@ -444,6 +465,89 @@ function hasTrailingWhitespace(shape: NodeShape): boolean {
  */
 function hasUnnormalizedFraction(shape: NodeShape): boolean {
   return shape.text !== undefined && normalizeFractionText(shape.text).changes > 0;
+}
+
+// ---------------------------------------------------------------------------
+// Check 10 — a node's own text still carrying an un-normalized ellipsis
+// ---------------------------------------------------------------------------
+
+/**
+ * True when a node's own `text` still carries a dot run
+ * {@link hasEllipsisIndicator} flags — everything the shipped ellipsis
+ * auto-fix rewrites (`functions/normalizeEllipses.ts`), plus the one
+ * two-period shape that rewriter deliberately never touches. Built on the
+ * detector, not on `normalizeEllipsisText(shape.text).changes > 0`: the
+ * rewriter reports no change for a two-period run by design, so a check
+ * built on it could never report one either. This check reporting more than
+ * the auto-fix rewrites is requirement 4's own detect/auto-fix/report
+ * contract working as intended — a future reader must not "align" the two
+ * by narrowing this check to match the rewriter.
+ */
+function hasUnnormalizedEllipsis(shape: NodeShape): boolean {
+  return shape.text !== undefined && hasEllipsisIndicator(shape.text);
+}
+
+// ---------------------------------------------------------------------------
+// Check 11 — an ASCII straight quote, apostrophe, or backtick in content text
+// ---------------------------------------------------------------------------
+
+/** The three ASCII characters this repo's own punctuation convention never writes into prose content — a straight apostrophe, a straight double quote, and a backtick. Each has a real curly counterpart already in use corpus-wide (an apostrophe or a closing single quote is always U+2019, an opening single quote is U+2018, an opening/closing double quote is U+201C/U+201D), and a backtick has no legitimate prose use here at all. */
+const STRAIGHT_QUOTE = /['"`]/;
+
+/** How many characters of context this check prints on each side of the offending character in a finding's own excerpt — enough to see whether it opens a word, closes one, or sits mid-word, without dumping a node's entire text into a report line. */
+const EXCERPT_RADIUS = 20;
+
+/** One un-normalized ASCII straight-quote/apostrophe/backtick found within a single array level. */
+interface StraightQuoteFinding {
+  /** The offending node's own path within its verse (e.g. `content[3]`, `content.foot.content[1]`). */
+  path: string;
+  /** The single offending character — `'`, `"`, or a backtick. */
+  character: string;
+  /** A short excerpt of the node's own text centered on the offending character, marked with a leading and/or trailing `…` where it was truncated, so a reader can tell an apostrophe from an opening or closing quote without opening the file. */
+  excerpt: string;
+}
+
+/**
+ * True when a node's own `text` carries an ASCII `'`, `"`, or backtick.
+ *
+ * **Report-only, deliberately, and this is the clearest illustration in this
+ * whole module of why.** Converting a straight `'` requires first deciding
+ * whether it is an apostrophe, an opening single quote, or a closing single
+ * quote — a judgment that depends on the characters around it and sometimes
+ * the whole sentence, not on the character itself. No rule applied one
+ * character at a time can make that call safely. The retired
+ * `imports/fixStraightQuotes.ts` only got away with an unconditional `'` →
+ * `’` substitution because a full manual survey first proved its one target
+ * version carried no quote-shaped usage at all — every straight apostrophe
+ * in it was a possessive or an elision, never a quotation mark — and that is
+ * a per-edition finding, true of one translation's own punctuation habits,
+ * not a rule this check could apply to every future import regardless of
+ * source. The corpus holds zero offending characters today, confirmed by a
+ * structural scan of every `text` value and bare string during planning, so
+ * this check's job is to catch the next import before it lands, not to
+ * describe a present defect. Contrast checks 7 and 10, both of which pair a
+ * report with a safe auto-fix: this one has no fixer and never will, because
+ * the judgment it asks for cannot be automated away, only surfaced.
+ */
+function hasStraightQuote(shape: NodeShape): boolean {
+  return shape.text !== undefined && STRAIGHT_QUOTE.test(shape.text);
+}
+
+/**
+ * Builds the report detail behind one straight-quote finding — which
+ * character it was, and a short excerpt of the surrounding text — for a
+ * node's own `text` already known to satisfy {@link hasStraightQuote}. Kept
+ * separate from the predicate so the per-node loop below can test cheaply
+ * with a boolean first, matching every other check in this module, and only
+ * pay for building the excerpt on an actual finding.
+ */
+function describeStraightQuoteFinding(text: string, path: string): StraightQuoteFinding {
+  const at = text.search(STRAIGHT_QUOTE);
+  const character = text[at];
+  const start = Math.max(0, at - EXCERPT_RADIUS);
+  const end = Math.min(text.length, at + EXCERPT_RADIUS + 1);
+  const excerpt = `${start > 0 ? "…" : ""}${text.slice(start, end)}${end < text.length ? "…" : ""}`;
+  return { path, character, excerpt };
 }
 
 // ---------------------------------------------------------------------------
@@ -931,7 +1035,7 @@ function asArray(content: unknown): unknown[] {
   return Array.isArray(content) ? content : [content];
 }
 
-/** All eight checks' findings for one array level (and everything nested beneath it) — the shape {@link findStrongsNodeIssues} returns. */
+/** All ten checks' findings for one array level (and everything nested beneath it) — the shape {@link findStrongsNodeIssues} returns. */
 interface LevelFindings {
   /** Check 1's findings. */
   unmergedPairs: PairFinding[];
@@ -949,12 +1053,16 @@ interface LevelFindings {
   footnotePunctuationOrder: FootnotePunctuationOrderFinding[];
   /** Check 9's findings. */
   markBoundaryEmbeddedSpaces: MarkBoundaryEmbeddedSpaceFinding[];
+  /** Check 10's findings — each entry is the offending node's own path (e.g. `content[3]`), not a full finding object, matching Checks 2 and 7's own shape. */
+  ellipsisFindings: string[];
+  /** Check 11's findings. */
+  straightQuoteFindings: StraightQuoteFinding[];
 }
 
 /**
  * Walk one array level and every node's own nested levels — `heading`,
  * `subtitle`, a `ContentNested` wrapper's own `content`, and a footnote
- * body's own `foot.content` — collecting all seven per-node checks' findings
+ * body's own `foot.content` — collecting all nine per-node checks' findings
  * into `sink` as it goes.
  */
 function walkLevel(
@@ -975,6 +1083,12 @@ function walkLevel(
       sink.trailingWhitespace.push(`${where}[${i}]`);
     if (hasUnnormalizedFraction(shape))
       sink.fractionFindings.push(`${where}[${i}]`);
+    if (hasUnnormalizedEllipsis(shape))
+      sink.ellipsisFindings.push(`${where}[${i}]`);
+    if (shape.text !== undefined && hasStraightQuote(shape))
+      sink.straightQuoteFindings.push(
+        describeStraightQuoteFinding(shape.text, `${where}[${i}]`),
+      );
 
     if (node === null || typeof node !== "object" || Array.isArray(node))
       continue;
@@ -999,10 +1113,10 @@ function walkLevel(
 }
 
 /**
- * Walk one verse's whole content tree for checks 1-5 and 7-9 at once (eight
+ * Walk one verse's whole content tree for checks 1-5 and 7-11 at once (ten
  * checks total).
  *
- * Check 5 is not recursive like the other seven — it only ever looks at this
+ * Check 5 is not recursive like the other nine — it only ever looks at this
  * verse's own outermost content, so it runs once here rather than inside
  * {@link walkLevel}. Check 6 ({@link findHeadingParagraphMismatches}) is not
  * included here at all — it needs a whole book's own verse sequence to
@@ -1024,6 +1138,8 @@ export function findStrongsNodeIssues(
     fractionFindings: [],
     footnotePunctuationOrder: [],
     markBoundaryEmbeddedSpaces: [],
+    ellipsisFindings: [],
+    straightQuoteFindings: [],
   };
   walkLevel(asArray(content), where, sink);
   return sink;
@@ -1076,6 +1192,22 @@ export interface FractionFinding {
   /** The verse number this finding belongs to. */
   verse: number;
   /** The offending node's own path within the verse's content tree (e.g. `content[3]`). */
+  path: string;
+}
+
+/** One node whose own text still carries an un-normalized ellipsis, with its file/verse identity attached. */
+export interface EllipsisFinding {
+  /** The version id this finding belongs to (e.g. `WEBUS2020`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `53-2ES.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `2ES`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+  /** The offending node's own path within the verse's content tree (e.g. `content[0].foot.content[1]`). */
   path: string;
 }
 
@@ -1149,6 +1281,20 @@ export interface MarkBoundaryEmbeddedSpaceFileFinding extends MarkBoundaryEmbedd
   verse: number;
 }
 
+/** One straight-quote/apostrophe/backtick finding, with its file/verse identity attached. */
+export interface StraightQuoteFileFinding extends StraightQuoteFinding {
+  /** The version id this finding belongs to (e.g. `YLT1898`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `01-GEN.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `GEN`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+}
+
 /** Every verse-JSON file for one version id, sorted, excluding `_version.json` and any schema file. */
 function verseFiles(version: string): string[] {
   return fs
@@ -1165,7 +1311,7 @@ export interface HeadingParagraphFileFinding extends HeadingParagraphFinding {
   file: string;
 }
 
-/** One version's own audit: its id, and every finding {@link auditVersion} found, across all nine checks. */
+/** One version's own audit: its id, and every finding {@link auditVersion} found, across all eleven checks. */
 export interface VersionAudit {
   /** The version id audited (e.g. `KJV1769`). */
   version: string;
@@ -1187,6 +1333,10 @@ export interface VersionAudit {
   footnotePunctuationOrder: readonly FootnotePunctuationOrderFileFinding[];
   /** Check 9's findings, corpus-wide for this version — a mark-boundary space embedded inside a node's own text at a boundary where the two real sides disagree. */
   markBoundaryEmbeddedSpaces: readonly MarkBoundaryEmbeddedSpaceFileFinding[];
+  /** Check 10's findings, corpus-wide for this version — a node whose own text still carries a dot run this repo's own ellipsis convention would rewrite, or the one two-period shape it deliberately never rewrites on its own. */
+  ellipsisFindings: readonly EllipsisFinding[];
+  /** Check 11's findings, corpus-wide for this version — a node whose own text still carries an ASCII straight quote, apostrophe, or backtick. Report-only; there is no auto-fix for this one (see {@link hasStraightQuote}'s own doc comment for why). */
+  straightQuoteFindings: readonly StraightQuoteFileFinding[];
 }
 
 /**
@@ -1205,6 +1355,8 @@ export function auditVersion(version: string): VersionAudit {
   const fractionFindings: FractionFinding[] = [];
   const footnotePunctuationOrder: FootnotePunctuationOrderFileFinding[] = [];
   const markBoundaryEmbeddedSpaces: MarkBoundaryEmbeddedSpaceFileFinding[] = [];
+  const ellipsisFindings: EllipsisFinding[] = [];
+  const straightQuoteFindings: StraightQuoteFileFinding[] = [];
 
   for (const file of verseFiles(version)) {
     const verses = JSON.parse(
@@ -1236,6 +1388,10 @@ export function auditVersion(version: string): VersionAudit {
         footnotePunctuationOrder.push({ ...identity, ...finding });
       for (const finding of findings.markBoundaryEmbeddedSpaces)
         markBoundaryEmbeddedSpaces.push({ ...identity, ...finding });
+      for (const at of findings.ellipsisFindings)
+        ellipsisFindings.push({ ...identity, path: at });
+      for (const finding of findings.straightQuoteFindings)
+        straightQuoteFindings.push({ ...identity, ...finding });
     }
 
     for (const finding of findHeadingParagraphMismatches(verses))
@@ -1253,6 +1409,8 @@ export function auditVersion(version: string): VersionAudit {
     fractionFindings,
     footnotePunctuationOrder,
     markBoundaryEmbeddedSpaces,
+    ellipsisFindings,
+    straightQuoteFindings,
   };
 }
 
@@ -1260,8 +1418,8 @@ export function auditVersion(version: string): VersionAudit {
  * Audit each named version, or every version directory under
  * `bible-versions/` when none are named — deliberately not a curated list
  * (see this module's own top doc comment): a version with no `strong`
- * values and no un-normalized fraction at all just reports zero findings
- * across all nine checks.
+ * values and no un-normalized fraction, ellipsis, or straight quote at all
+ * just reports zero findings across all eleven checks.
  *
  * @param versionIds - Versions to audit; defaults to {@link getVersionDirectories}.
  */
@@ -1271,7 +1429,7 @@ export function auditVersions(
   return versionIds.map((version) => auditVersion(version));
 }
 
-/** The exit code this check should report — non-zero when any version carries any finding across any of the nine checks. */
+/** The exit code this check should report — non-zero when any version carries any finding across any of the eleven checks. */
 export function exitCodeFor(summaries: readonly VersionAudit[]): number {
   return summaries.some(
     (summary) =>
@@ -1283,14 +1441,16 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
       summary.headingParagraphMismatches.length > 0 ||
       summary.fractionFindings.length > 0 ||
       summary.footnotePunctuationOrder.length > 0 ||
-      summary.markBoundaryEmbeddedSpaces.length > 0,
+      summary.markBoundaryEmbeddedSpaces.length > 0 ||
+      summary.ellipsisFindings.length > 0 ||
+      summary.straightQuoteFindings.length > 0,
   )
     ? 1
     : 0;
 }
 
 /**
- * Prints one version's own findings across all nine checks — the first `cap`
+ * Prints one version's own findings across all eleven checks — the first `cap`
  * per check, or every one when `verbose`.
  *
  * Exported so `validate.ts` can render the same per-check breakdown inline in
@@ -1415,15 +1575,41 @@ export function printFindingLines(summary: VersionAudit, verbose: boolean): void
     console.log(
       `    … ${summary.markBoundaryEmbeddedSpaces.length - cap} more (--verbose to list all)`,
     );
+
+  console.log(
+    `  ${summary.ellipsisFindings.length} node(s) whose own text still carries an un-normalized ellipsis`,
+  );
+  for (const finding of summary.ellipsisFindings.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+    );
+  }
+  if (!verbose && summary.ellipsisFindings.length > cap)
+    console.log(
+      `    … ${summary.ellipsisFindings.length - cap} more (--verbose to list all)`,
+    );
+
+  console.log(
+    `  ${summary.straightQuoteFindings.length} node(s) whose own text still carries an ASCII straight quote, apostrophe, or backtick`,
+  );
+  for (const finding of summary.straightQuoteFindings.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path} character=${JSON.stringify(finding.character)} excerpt=${JSON.stringify(finding.excerpt)}`,
+    );
+  }
+  if (!verbose && summary.straightQuoteFindings.length > cap)
+    console.log(
+      `    … ${summary.straightQuoteFindings.length - cap} more (--verbose to list all)`,
+    );
 }
 
 /**
- * True when a version's audit found nothing across any of the nine checks —
- * printed as a single skipped line rather than an empty block, so a report
+ * True when a version's audit found nothing across any of the eleven checks
+ * — printed as a single skipped line rather than an empty block, so a report
  * over every version on disk stays readable.
  *
  * Exported so `validate.ts` can reuse this same clean/dirty test rather than
- * re-deriving it from `VersionAudit`'s nine finding arrays itself.
+ * re-deriving it from `VersionAudit`'s eleven finding arrays itself.
  */
 export function isClean(summary: VersionAudit): boolean {
   return (
@@ -1435,7 +1621,9 @@ export function isClean(summary: VersionAudit): boolean {
     summary.headingParagraphMismatches.length === 0 &&
     summary.fractionFindings.length === 0 &&
     summary.footnotePunctuationOrder.length === 0 &&
-    summary.markBoundaryEmbeddedSpaces.length === 0
+    summary.markBoundaryEmbeddedSpaces.length === 0 &&
+    summary.ellipsisFindings.length === 0 &&
+    summary.straightQuoteFindings.length === 0
   );
 }
 

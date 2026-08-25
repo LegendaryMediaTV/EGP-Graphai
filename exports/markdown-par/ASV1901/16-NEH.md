@@ -100,8 +100,8 @@ Now I was cupbearer to the king.
 > - <sup>h</sup> 22. Or, _Circuit_
 > - <sup>i</sup> 23. Hebrew _him_.
 > - <sup>j</sup> 23. Hebrew _him_.
-> - <sup>k</sup> 25. Or, _the upper tower . . . from the house of the king_
-> - <sup>l</sup> 25. Or, _Pedaiah the son of Parosh_ (_now . . . Ophel_) repaired _unto etc._
+> - <sup>k</sup> 25. Or, _the upper tower … from the house of the king_
+> - <sup>l</sup> 25. Or, _Pedaiah the son of Parosh_ (_now … Ophel_) repaired _unto etc._
 > - <sup>m</sup> 31. Or, _upper chamber_
 > - <sup>n</sup> 32. Or, _upper chamber_
 

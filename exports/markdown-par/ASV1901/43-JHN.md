@@ -119,7 +119,7 @@
 > - <sup>d</sup> 19. Or, _sanctuary_
 > - <sup>e</sup> 20. Or, _sanctuary_
 > - <sup>f</sup> 21. Or, _sanctuary_
-> - <sup>g</sup> 25. Or, _a man; for . . . the man_.
+> - <sup>g</sup> 25. Or, _a man; for … the man_.
 
 ## Chapter 3
 
@@ -952,7 +952,7 @@ These things spake Jesus, and he departed and <sup>r</sup>hid himself from them.
 > - <sup>h</sup> 18. Or, _orphans_
 > - <sup>i</sup> 19. Or, _and ye shall live_.
 > - <sup>j</sup> 26. Or, _Advocate_. Or, _Helper_. Greek _Paraclete_.
-> - <sup>k</sup> 30. Or, _in me. But that etc. . . . I do, arise etc._
+> - <sup>k</sup> 30. Or, _in me. But that etc…. I do, arise etc._
 
 ## Chapter 15
 

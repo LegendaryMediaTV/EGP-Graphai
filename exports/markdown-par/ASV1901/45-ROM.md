@@ -290,7 +290,7 @@
 <sup>22</sup> But now being made free from sin and become servants to God, ye have your fruit unto sanctification, and the end eternal life.
 <sup>23</sup> For the wages of sin is death; but the free gift of God is eternal life in Christ Jesus our Lord.
 
-> - <sup>a</sup> 5. Or, _united with the likeness_ . . . with the likeness
+> - <sup>a</sup> 5. Or, _united with the likeness_ … with the likeness
 > - <sup>b</sup> 7. Or, _released_. Compare Ecclus. 26:29 (Greek); 7:1.
 > - <sup>c</sup> 10. Or, _in that_
 > - <sup>d</sup> 10. Greek _once for all_. Heb. 7:27.
@@ -298,7 +298,7 @@
 > - <sup>f</sup> 13. Or, _weapons_. Compare 2 Cor. 10:4.
 > - <sup>g</sup> 16. Greek _bondservants_.
 > - <sup>h</sup> 16. Greek _bondservants_.
-> - <sup>i</sup> 17. Or, _that ye were . . . but ye became_
+> - <sup>i</sup> 17. Or, _that ye were … but ye became_
 > - <sup>j</sup> 17. Greek _bondservants_.
 > - <sup>k</sup> 17. Or, _pattern_
 > - <sup>l</sup> 18. Greek _bondservents_.
@@ -414,7 +414,7 @@
 > - <sup>m</sup> 27. Or, _that_
 > - <sup>n</sup> 28. Some ancient authorities read _God worketh all things with them for good_.
 > - <sup>o</sup> 33. Or, _Shall God that justifieth?_
-> - <sup>p</sup> 34. Or, _Shall Christ Jesus that died, . . . us?_
+> - <sup>p</sup> 34. Or, _Shall Christ Jesus that died, … us?_
 > - <sup>q</sup> 35. Some ancient authorities read _of God_.
 > - <sup>r</sup> 36. Ps. 44:22.
 > - <sup>s</sup> 39. Or, _creation_

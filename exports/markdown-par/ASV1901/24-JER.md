@@ -136,9 +136,9 @@ Behold, we are come unto thee; for thou art Jehovah our God.
 > - <sup>j</sup> 16. Or, _visit_
 > - <sup>k</sup> 16. Or, _shall_ that _be done any more_
 > - <sup>l</sup> 18. Or, _to_
-> - <sup>m</sup> 19. Or, _shall I . . . nations?_
+> - <sup>m</sup> 19. Or, _shall I … nations?_
 > - <sup>n</sup> 19. Or, _the goodliest heritage of the nations_
-> - <sup>o</sup> 19. Another reading is, _Thou shalt . . . and shalt not etc._
+> - <sup>o</sup> 19. Another reading is, _Thou shalt … and shalt not etc._
 > - <sup>p</sup> 23. Or, _noisy throng_
 > - <sup>q</sup> 24. Hebrew _shame_. See 11:13; Hos. 9:10.
 
@@ -183,7 +183,7 @@ Behold, we are come unto thee; for thou art Jehovah our God.
 <sup>30</sup> And thou, when thou art made desolate, what wilt thou do? Though thou clothest thyself with scarlet, though thou deckest thee with ornaments of gold, though thou <sup>k</sup>enlargest thine eyes with paint, in vain dost thou make thyself fair; _thy_ lovers despise thee, they seek thy life.
 <sup>31</sup> For I have heard a voice as of a woman in travail, the anguish as of her that bringeth forth her first child, the voice of the daughter of Zion, that gaspeth for breath, that spreadeth her hands, _saying_, Woe is me now! for my soul fainteth before the murderers.
 
-> - <sup>a</sup> 1. Or, _if thou wilt put . . . and will not wander, and wilt swear . . . then shall the nations etc._; or _then shalt thou swear . . . and the nations etc._
+> - <sup>a</sup> 1. Or, _if thou wilt put … and will not wander, and wilt swear … then shall the nations etc._; or _then shalt thou swear … and the nations etc._
 > - <sup>b</sup> 12. Or, _a wind too strong for this_
 > - <sup>c</sup> 15. Or, _there is a voice of one that declareth etc._
 > - <sup>d</sup> 18. Or, _surely_
@@ -473,8 +473,8 @@ Behold, we are come unto thee; for thou art Jehovah our God.
 > - <sup>f</sup> 8. Or, _the stock_ is _a doctrine of vanities_
 > - <sup>g</sup> 10. Or, _God in truth_
 > - <sup>h</sup> 11. This verse is in Aramaic.
-> - <sup>i</sup> 11. Or, _they shall . . . under these heavens_
-> - <sup>j</sup> 13. Or, _at the sound of his giving an abundance of waters . . . when he causeth etc._ (or _he causeth etc._)
+> - <sup>i</sup> 11. Or, _they shall … under these heavens_
+> - <sup>j</sup> 13. Or, _at the sound of his giving an abundance of waters … when he causeth etc._ (or _he causeth etc._)
 > - <sup>k</sup> 14. Or, _is too brutish to know_
 > - <sup>l</sup> 15. Or, _mockery_
 > - <sup>m</sup> 17. Or, _thy bundle from the ground_
@@ -1293,7 +1293,7 @@ Behold, we are come unto thee; for thou art Jehovah our God.
 <sup>39</sup> And the measuring line shall go out further straight onward unto the hill Gareb, and shall turn about unto Goah.
 <sup>40</sup> And the whole valley of the dead bodies and of the ashes, and all the fields unto the brook Kidron, unto the corner of the horse gate toward the east, shall be holy unto Jehovah; it shall not be plucked up, nor thrown down any more for ever.<br>
 
-> - <sup>a</sup> 2. Or, _have found . . . when I go_
+> - <sup>a</sup> 2. Or, _have found … when I go_
 > - <sup>b</sup> 2. Or, _when he went to find him rest_
 > - <sup>c</sup> 3. Or, _from afar_
 > - <sup>d</sup> 3. Or, _have I continued lovingkindness unto thee_
@@ -2169,7 +2169,7 @@ Thus far are the words of Jeremiah.
 > - <sup>af</sup> 58. Or, _made bare_
 > - <sup>ag</sup> 59. Or, _quartermaster_
 > - <sup>ah</sup> 60. Or, _one book_
-> - <sup>ai</sup> 61. Or, _and shalt see, and read . . . then shalt thou say etc._
+> - <sup>ai</sup> 61. Or, _and shalt see, and read … then shalt thou say etc._
 
 ## Chapter 52
 

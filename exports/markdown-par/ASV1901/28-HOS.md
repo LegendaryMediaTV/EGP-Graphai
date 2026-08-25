@@ -295,7 +295,7 @@
 > - <sup>k</sup> 7. Or, _twigs_
 > - <sup>l</sup> 9. Or, _more than in the days_
 > - <sup>m</sup> 9. Or, _there have they continued_
-> - <sup>n</sup> 9. Or, _shall not the battle . . . Gibeah?_
+> - <sup>n</sup> 9. Or, _shall not the battle … Gibeah?_
 > - <sup>o</sup> 10. Or, _yoked_
 > - <sup>p</sup> 10. Or, _for_
 > - <sup>q</sup> 12. Or, _teach you righteousness_

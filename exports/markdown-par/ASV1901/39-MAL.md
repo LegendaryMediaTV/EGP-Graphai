@@ -19,7 +19,7 @@
 
 > - <sup>a</sup> 1. Or, _oracle_
 > - <sup>b</sup> 1. Or, _my messenger_
-> - <sup>c</sup> 2. Or, _Is not Esau . . . yet I have loved etc._
+> - <sup>c</sup> 2. Or, _Is not Esau … yet I have loved etc._
 > - <sup>d</sup> 4. Or, _Though Edom say_
 > - <sup>e</sup> 4. Or, as otherwise read, _impoverished_
 > - <sup>f</sup> 5. Or, _is great_

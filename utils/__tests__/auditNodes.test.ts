@@ -353,6 +353,111 @@ describe("findStrongsNodeIssues — fraction convention", () => {
   });
 });
 
+describe("findStrongsNodeIssues — ellipsis convention", () => {
+  it("should flag a footnote node whose text still carries three ASCII periods — real WEBUS2020 2ES 9:13 shape, the reported bug", () => {
+    const content: Content = [
+      { text: "word", foot: { type: "trn", content: [{ text: "and whose...", marks: ["i"] }] } },
+    ];
+    expect(findStrongsNodeIssues(content).ellipsisFindings).toEqual(["content.foot.content[0]"]);
+  });
+
+  it("should flag a node whose text carries a spaced dot run — real ASV1901 shape", () => {
+    const content: Content = [{ text: "I was restored . . . and he was hanged", marks: ["i"] }];
+    expect(findStrongsNodeIssues(content).ellipsisFindings).toEqual(["content[0]"]);
+  });
+
+  it("should flag a two-period node — deliberately broader than the auto-fix, which never rewrites this shape — real YLT1898 shape", () => {
+    const content: Content = [{ text: "fully numbered..and obtained the lot", marks: ["i"] }];
+    expect(findStrongsNodeIssues(content).ellipsisFindings).toEqual(["content[0]"]);
+  });
+
+  it("should stay silent on text already normalized to U+2026", () => {
+    const content: Content = [{ text: "be asking…be seeking (or desiring)", marks: ["i"] }];
+    expect(findStrongsNodeIssues(content).ellipsisFindings).toEqual([]);
+  });
+
+  it("should stay silent on a single period", () => {
+    const content: Content = [{ text: "and when.", marks: ["i"] }];
+    expect(findStrongsNodeIssues(content).ellipsisFindings).toEqual([]);
+  });
+
+  it("should report each offending node's own path when more than one node in the same array carries an ellipsis indicator", () => {
+    const content: Content = [{ text: "and whose..." }, "plain text", { text: "and when..." }];
+    expect(findStrongsNodeIssues(content).ellipsisFindings).toEqual(["content[0]", "content[2]"]);
+  });
+});
+
+describe("findStrongsNodeIssues — straight quotes", () => {
+  it("should flag a node whose text carries an ASCII apostrophe, naming the offending character", () => {
+    const content: Content = [{ text: "the servant's word", marks: ["i"] }];
+    const findings = findStrongsNodeIssues(content).straightQuoteFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].path).toBe("content[0]");
+    expect(findings[0].character).toBe("'");
+  });
+
+  it("should flag a node whose text carries an ASCII double quote", () => {
+    const content: Content = [{ text: 'he said, "come"', marks: ["i"] }];
+    const findings = findStrongsNodeIssues(content).straightQuoteFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].character).toBe('"');
+  });
+
+  it("should flag a node whose text carries a backtick", () => {
+    const content: Content = [{ text: "the word `logos`" }];
+    const findings = findStrongsNodeIssues(content).straightQuoteFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].character).toBe("`");
+  });
+
+  it("should stay silent on text already using this repo's own curly quote forms", () => {
+    const content: Content = [{ text: "the servant’s word: “come,” he said ‘now’", marks: ["i"] }];
+    expect(findStrongsNodeIssues(content).straightQuoteFindings).toEqual([]);
+  });
+
+  it("should flag a bare string carrying an apostrophe — bare strings are real content here, not just object nodes", () => {
+    const content: Content = ["the LORD's anointed"];
+    const findings = findStrongsNodeIssues(content).straightQuoteFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].path).toBe("content[0]");
+  });
+
+  it("should stay silent on a bibleLink node's own target, even one carrying a straight quote — targets are machine identifiers, not prose, and walkLevel never descends into a bibleLink's own display override as nested content", () => {
+    const content: Content = [
+      { bibleLink: "Exodus 12:3'", content: "Ex. 12:3" } as unknown as Content,
+    ];
+    expect(findStrongsNodeIssues(content).straightQuoteFindings).toEqual([]);
+  });
+
+  it("should include a short excerpt of the surrounding text, truncated with an ellipsis marker, so a reader can tell an apostrophe from a quote without opening the file", () => {
+    const prefix = "word ".repeat(10);
+    const suffix = " word".repeat(10);
+    const text = `${prefix}servant's${suffix}`;
+    const content: Content = [{ text }];
+    const findings = findStrongsNodeIssues(content).straightQuoteFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].excerpt).toContain("servant");
+    expect(findings[0].excerpt.length).toBeLessThan(text.length);
+    expect(findings[0].excerpt.startsWith("…")).toBe(true);
+    expect(findings[0].excerpt.endsWith("…")).toBe(true);
+  });
+
+  it("should report each offending node's own path when more than one node in the same array carries a straight quote", () => {
+    const content: Content = [{ text: "the LORD's" }, "plain text", { text: "Amen,' he said" }];
+    const findings = findStrongsNodeIssues(content).straightQuoteFindings;
+    expect(findings.map((finding) => finding.path)).toEqual(["content[0]", "content[2]"]);
+  });
+
+  it("should descend into a footnote body's own content, the same as every other check in this recursion", () => {
+    const content: Content = [
+      { text: "word", foot: { type: "trn", content: [{ text: "the servant's word" }] } },
+    ];
+    expect(
+      findStrongsNodeIssues(content).straightQuoteFindings.map((finding) => finding.path),
+    ).toEqual(["content.foot.content[0]"]);
+  });
+});
+
 describe("findHeadingParagraphMismatches", () => {
   // Fixtures combine real verse shapes with invented ones into small
   // synthetic "books"; production always passes exactly one real book's own
@@ -899,6 +1004,8 @@ describe("exitCodeFor", () => {
       fractionFindings: [],
       footnotePunctuationOrder: [],
       markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -917,6 +1024,8 @@ describe("exitCodeFor", () => {
       fractionFindings: [],
       footnotePunctuationOrder: [],
       markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -935,6 +1044,8 @@ describe("exitCodeFor", () => {
       fractionFindings: [],
       footnotePunctuationOrder: [],
       markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -953,6 +1064,8 @@ describe("exitCodeFor", () => {
       fractionFindings: [],
       footnotePunctuationOrder: [],
       markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -971,6 +1084,8 @@ describe("exitCodeFor", () => {
       ],
       footnotePunctuationOrder: [],
       markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -989,6 +1104,8 @@ describe("exitCodeFor", () => {
         { version: "X", file: "81-REV.json", book: "REV", chapter: 1, verse: 8, where: "content", node: {}, leading: "”", next: {} },
       ],
       markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -1007,11 +1124,13 @@ describe("exitCodeFor", () => {
       markBoundaryEmbeddedSpaces: [
         { version: "X", file: "81-REV.json", book: "REV", chapter: 1, verse: 8, where: "content", side: "leading" as const, node: {}, neighbor: {} },
       ],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
 
-  it("should exit zero when a version carries no finding across all nine checks", () => {
+  it("should exit non-zero when a version carries only an ellipsis finding", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
@@ -1023,6 +1142,48 @@ describe("exitCodeFor", () => {
       fractionFindings: [],
       footnotePunctuationOrder: [],
       markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [
+        { version: "X", file: "53-2ES.json", book: "2ES", chapter: 9, verse: 13, path: "content[0].foot.content[1]" },
+      ],
+      straightQuoteFindings: [],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit non-zero when a version carries only a straight-quote finding", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
+      footnotePunctuationOrder: [],
+      markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [
+        { version: "X", file: "01-GEN.json", book: "GEN", chapter: 1, verse: 1, path: "content[0]", character: "'", excerpt: "servant's" },
+      ],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit zero when a version carries no finding across all eleven checks", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
+      footnotePunctuationOrder: [],
+      markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
     } as const;
     expect(exitCodeFor([summary])).toBe(0);
   });

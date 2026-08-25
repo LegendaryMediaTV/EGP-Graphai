@@ -23,7 +23,7 @@
 
 <sup>17</sup> Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly<sup>j</sup> of the fish three days and three nights.
 
-> - <sup>a</sup> 1. Called _Matth. 12.39_ _Jonas_
+> - <sup>a</sup> 1. Called _Matth. 12.39 Jonas_
 > - <sup>b</sup> 4. Heb. _cast forth_
 > - <sup>c</sup> 4. Heb. _thought to be broken_
 > - <sup>d</sup> 9. Or, _JEHOVAH_

@@ -1779,7 +1779,7 @@ Now the sons of Jacob were twelve:
 > - <sup>b</sup> 5. Hebrew _fat_.
 > - <sup>c</sup> 8. Or, _sacred scribes_
 > - <sup>d</sup> 9. Or, _will make mention of_
-> - <sup>e</sup> 13. Or, _I was restored . . . and he was hanged_
+> - <sup>e</sup> 13. Or, _I was restored … and he was hanged_
 > - <sup>f</sup> 40. Or, _order themselves_. Or, _do homage_
 > - <sup>g</sup> 42. Or, _cotton_
 > - <sup>h</sup> 43. _Abrech_, probably an Egyptian word, similar in sound to the Hebrew word meaning _to kneel_.

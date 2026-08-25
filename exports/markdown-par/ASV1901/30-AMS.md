@@ -158,7 +158,7 @@
 > - <sup>i</sup> 22. Or, _thank-offerings_
 > - <sup>j</sup> 24. Or, _ever-flowing_
 > - <sup>k</sup> 25. Or, _meal-offerings_
-> - <sup>l</sup> 26. Or, _shall take up . . . And I will cause etc._
+> - <sup>l</sup> 26. Or, _shall take up … And I will cause etc._
 
 ## Chapter 6
 
