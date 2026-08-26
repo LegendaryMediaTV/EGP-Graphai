@@ -1310,10 +1310,8 @@
         "paragraph": true,
         "foot": { "type": "var", "content": "Originally verse 12:17." }
       },
-      {
-        "text": "et stetit super harenam maris ",
-        "foot": { "type": "var", "content": "Originally verse 13:1." }
-      },
+      "et stetit super harenam maris ",
+      { "foot": { "type": "var", "content": "Originally verse 13:1." } },
       "et vidi de mare bestiam ascendentem habentem capita septem et cornua decem et super cornua eius decem diademata et super capita eius nomina blasphemiae"
     ]
   },
