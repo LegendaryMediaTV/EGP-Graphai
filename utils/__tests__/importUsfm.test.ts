@@ -31,6 +31,27 @@ vi.mock("child_process", () => ({ execSync: vi.fn() }));
 /** Repo root, computed the same way `importUsfm.ts`'s own `REPO_ROOT` is, from this test file's own location (`utils/__tests__/` → repo root is two levels up). */
 const repoRoot = path.resolve(__dirname, "..", "..");
 
+/**
+ * An isolated source directory holding a copy of the real `genesis-1-2.usfm`
+ * fixture, built once at load time.
+ *
+ * The shared `utils/usfm/__tests__/fixtures/` directory used to work here
+ * only by coincidence: `usfmFilesByRegistryId` resolves a book to whichever
+ * file's own `\id` line names it last, and that directory happened to hold
+ * only one `\id GEN` file. Nothing stops another test's fixture from adding
+ * a second one, silently swapping the source these tests import with no
+ * error to catch it — which happened once already. A dedicated single-file
+ * copy removes that cross-file coupling instead of just documenting it.
+ */
+const SINGLE_BOOK_SOURCE_DIR = (() => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "importUsfm-test-single-book-"));
+  fs.copyFileSync(
+    path.join(__dirname, "..", "usfm", "__tests__", "fixtures", "genesis-1-2.usfm"),
+    path.join(dir, "genesis-1-2.usfm"),
+  );
+  return dir;
+})();
+
 /** One book's own minimal, throwaway `_version.json` fixture shape, reused by every outputDir-related test below. */
 function fakeVersionJson(versionId: string): string {
   const version: BibleVersion = {
@@ -167,12 +188,9 @@ describe("applyVersionOverrides (copyright/license override point)", () => {
 });
 
 describe("runImport, preview mode (disk-safe — never calls writeJsonFile; reads the real, already-shipped WEBUS2020 _version.json read-only)", () => {
-  // Only utils/usfm/__tests__/fixtures/genesis-1-2.usfm starts with a real
-  // \id line among this directory's fixtures (confirmed directly — every
-  // sibling fixture is a bare chapter/verse excerpt with no front matter),
-  // so pointing sourceDir here resolves exactly one book, Genesis, with no
-  // risk of a second fixture also claiming the GEN id.
-  const fixturesDir = path.join(__dirname, "..", "usfm", "__tests__", "fixtures");
+  // See SINGLE_BOOK_SOURCE_DIR's own doc comment for why this points at an
+  // isolated single-file copy rather than the shared fixtures directory.
+  const fixturesDir = SINGLE_BOOK_SOURCE_DIR;
 
   afterEach(() => {
     vi.restoreAllMocks();
@@ -203,10 +221,8 @@ describe("runImport, preview mode (disk-safe — never calls writeJsonFile; read
 });
 
 describe("runImport, output-path hardwiring (the real gap ImportOptions.outputDir exists to close)", () => {
-  // Same disk-safe fixture directory as the preview-mode describe block
-  // above, and the identical reasoning for why it resolves to exactly one
-  // book (GEN) with no risk of a second fixture also claiming that id.
-  const fixturesDir = path.join(__dirname, "..", "usfm", "__tests__", "fixtures");
+  // Same isolated single-book source as the preview-mode describe block above.
+  const fixturesDir = SINGLE_BOOK_SOURCE_DIR;
 
   it("should read bible-versions/<versionId>/_version.json unconditionally, ignoring a real, valid _version.json fixture that already exists in a temp directory with no way to point runImport at it yet", async () => {
     const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "phase2-hardwiring-"));
@@ -218,9 +234,8 @@ describe("runImport, output-path hardwiring (the real gap ImportOptions.outputDi
     const expectedHardwiredPath = path.join(repoRoot, "bible-versions", fakeVersionId, "_version.json");
 
     // options: {} carries no redirect, so the only path this can possibly
-    // read from is the hardwired default — and that path does not exist for
-    // this fake id, so the real, valid fixture sitting in tempDir is never
-    // even looked at.
+    // read from is the hardwired default, which does not exist for this
+    // fake id.
     await expect(runImport(fixturesDir, fakeVersionId, {})).rejects.toMatchObject({
       code: "ENOENT",
       path: expectedHardwiredPath,
@@ -231,7 +246,7 @@ describe("runImport, output-path hardwiring (the real gap ImportOptions.outputDi
 });
 
 describe("runImport, ImportOptions.outputDir (the redirect itself)", () => {
-  const fixturesDir = path.join(__dirname, "..", "usfm", "__tests__", "fixtures");
+  const fixturesDir = SINGLE_BOOK_SOURCE_DIR;
   const bibleVersionsDir = path.join(repoRoot, "bible-versions");
 
   it("should read/write entirely under outputDir when given, touching nothing under the real bible-versions/ directory", async () => {
@@ -260,16 +275,15 @@ describe("runImport, ImportOptions.outputDir (the redirect itself)", () => {
     fs.rmSync(tempDir, { recursive: true, force: true });
   });
 
-  // "Absent reproduces today's exact default path" is proven three other
-  // ways already, so it is not re-proven a fourth time here: the
-  // hardwiring test above (same formula, options: {}); the pre-existing
-  // preview-mode tests above (unaffected by this option's addition); and a
-  // real, full, byte-for-byte WEBUS2020 regression run elsewhere — the
-  // strongest evidence available, since it is a real run, not a mock.
+  // "Absent reproduces today's exact default path" isn't re-proven here —
+  // it's already covered by the hardwiring test above (same options: {}
+  // formula), the pre-existing preview-mode tests (unaffected by this
+  // option's addition), and a real, full WEBUS2020 regression run
+  // elsewhere, the strongest evidence available since it's an actual run.
 });
 
 describe("runImport, downstream-regeneration guard (regenerateDownstream must never fire when outputDir diverges, since npm run validate is hardwired to the real bible-versions/<versionId> tree)", () => {
-  const fixturesDir = path.join(__dirname, "..", "usfm", "__tests__", "fixtures");
+  const fixturesDir = SINGLE_BOOK_SOURCE_DIR;
 
   afterEach(() => {
     vi.mocked(execSync).mockClear();
@@ -285,20 +299,18 @@ describe("runImport, downstream-regeneration guard (regenerateDownstream must ne
     // execSync is the real subprocess boundary regenerateDownstream's own
     // default `run` collaborator calls — proving it was never invoked
     // proves regenerateDownstream itself was never invoked, without ever
-    // running (or risking) a real npm command against a fake version id.
+    // risking a real npm command against a fake version id.
     expect(execSync).not.toHaveBeenCalled();
 
     fs.rmSync(tempDir, { recursive: true, force: true });
   });
 
-  // The positive case — "still fires when outputDir is absent or equals
-  // the default" — is deliberately not exercised here at the mocked-unit
-  // level: doing so would require either (a) letting a real run write
-  // into bible-versions/<fakeVersionId>, a real subdirectory of the one
-  // real tree this test suite treats as sensitive, purely to satisfy
-  // a test, or (b) mocking around that constraint in a way that no longer
-  // proves anything real. A full, real, non-mocked WEBUS2020 run already
+  // The positive case — outputDir absent or equal to the default — isn't
+  // exercised here at the mocked-unit level: doing so would need either a
+  // real run writing into bible-versions/<fakeVersionId>, the one real tree
+  // this suite treats as sensitive, or mocking around that constraint in a
+  // way that proves nothing real. A full, non-mocked WEBUS2020 run already
   // exercises this exact branch for real (regenerateDownstream firing, npm
-  // run validate actually running), which is strictly stronger evidence than
-  // a mocked unit test would be.
+  // run validate actually running) — strictly stronger evidence than a
+  // mocked unit test.
 });

@@ -1,4 +1,7 @@
-import { describe, it, expect } from "vitest";
+import * as fs from "fs";
+import * as os from "os";
+import * as path from "path";
+import { afterAll, beforeAll, describe, it, expect } from "vitest";
 import {
   collectJsonFiles,
   dropEmptyTextKeysInContent,
@@ -8,29 +11,40 @@ import {
   findStrongTrailingWhitespaceNodes,
   normalizeBibleLinkDashesInContent,
 } from "../validate";
-import { getVersionDirectories } from "../../functions/getBibleVersions";
 import Content from "../../types/Content";
 import { VerseRecord } from "../auditNodes";
 import { VersionBook } from "../../types/Version";
 
-describe("collectJsonFiles — real, on-disk corpus", () => {
-  // Version-agnostic, like the auditNodes on-disk-corpus tests: assumes
-  // nothing beyond YLT1898 and KJV1769 existing, used only to prove an
-  // unrequested version's files are excluded/included correctly.
+describe("collectJsonFiles — mock version directories, not the real corpus", () => {
+  const versionsRoot = fs.mkdtempSync(path.join(os.tmpdir(), "collectJsonFiles-test-"));
+  const versionIds = ["FAKE_A", "FAKE_B"];
+
+  beforeAll(() => {
+    for (const id of versionIds) {
+      const dir = path.join(versionsRoot, id);
+      fs.mkdirSync(dir, { recursive: true });
+      fs.writeFileSync(path.join(dir, "_version.json"), JSON.stringify({ _id: id }));
+      fs.writeFileSync(path.join(dir, "01-GEN.json"), "[]");
+    }
+  });
+
+  afterAll(() => {
+    fs.rmSync(versionsRoot, { recursive: true, force: true });
+  });
 
   it("should scope every bible-versions-scoped file to the requested version and none other", () => {
-    const files = collectJsonFiles(["YLT1898"]);
-    const versionScoped = files.filter((file) => file.includes("bible-versions") && !file.includes("schema"));
+    const files = collectJsonFiles(["FAKE_A"], versionsRoot);
+    const versionScoped = files.filter((file) => file.startsWith(versionsRoot));
 
     expect(versionScoped.length).toBeGreaterThan(0);
     for (const file of versionScoped) {
-      expect(file).toContain("YLT1898");
+      expect(file).toContain("FAKE_A");
     }
-    expect(files.some((file) => file.includes("KJV1769"))).toBe(false);
+    expect(files.some((file) => file.includes("FAKE_B"))).toBe(false);
   });
 
   it("should always include the shared root-level and registry files regardless of scope", () => {
-    const files = collectJsonFiles(["YLT1898"]);
+    const files = collectJsonFiles(["FAKE_A"], versionsRoot);
 
     expect(files).toContain("content-schema.json");
     expect(files).toContain("./bible-books/bible-books.json");
@@ -39,11 +53,11 @@ describe("collectJsonFiles — real, on-disk corpus", () => {
     expect(files).toContain("./bible-versions/bible-verses-schema.json");
   });
 
-  it("should span every version's files when passed the full directory list — the preserved no-argument default", () => {
-    const files = collectJsonFiles(getVersionDirectories());
+  it("should span every version's files when passed the full directory list", () => {
+    const files = collectJsonFiles(versionIds, versionsRoot);
 
-    expect(files.some((file) => file.includes("YLT1898"))).toBe(true);
-    expect(files.some((file) => file.includes("KJV1769"))).toBe(true);
+    expect(files.some((file) => file.includes("FAKE_A"))).toBe(true);
+    expect(files.some((file) => file.includes("FAKE_B"))).toBe(true);
   });
 });
 
@@ -205,11 +219,10 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should report an empty text alongside a foot, whatever else the node carries — real KJV1769 Psalm 80:4 shape", () => {
-      // The footnote's own text moved onto the Strong's-tagged node before
-      // it (the footnote-marker-spacing check's own relocation), leaving this repeated anchor with
-      // an empty text key and nothing left to render — a husk this
-      // function's own "sole key is text" check used to miss, since `foot`
-      // is a second key.
+      // The footnote-marker-spacing check's relocation moves the footnote's
+      // text onto the Strong's-tagged node before it, leaving this repeated
+      // anchor with an empty text key and nothing to render — a husk the
+      // old "sole key is text" check missed, since `foot` is a second key.
       expect(
         findMeaninglessContentNodes([
           {
@@ -775,10 +788,9 @@ describe("normalizeBibleLinkDashesInContent", () => {
 });
 
 describe("findResidualContentChanges — the idempotence guard's own per-verse re-check (G10)", () => {
-  // The guard's whole job is to catch two of the pass's own steps quietly
-  // undoing each other's work, so a genuinely settled verse must come back
-  // silent — the guard costs nothing on a corpus that's already a fixed
-  // point of the pass.
+  // The guard's job is to catch two of the pass's own steps quietly undoing
+  // each other's work — a genuinely settled verse must come back silent,
+  // costing nothing on a corpus that's already a fixed point of the pass.
   it("should report nothing for a genuinely settled verse", () => {
     const verse: VerseRecord = {
       book: "GEN",
@@ -789,25 +801,23 @@ describe("findResidualContentChanges — the idempotence guard's own per-verse r
     expect(findResidualContentChanges("YLT1898", verse)).toEqual([]);
   });
 
-  // Real, verified interaction: two adjacent nodes whose own marks
-  // genuinely disagree, joined by a boundary space the mark-boundary-embedded-space
-  // check already relocated once. Re-running that check's own detector
-  // against that already-relocated state finds a *new*, equally-disagreeing
-  // space on the boundary's other side — its single left-to-right pass
-  // doesn't revisit the node it just rewrote — so it fires again and flips
-  // the boundary straight back. This is exactly the class of step
-  // interaction the idempotence guard exists to catch automatically, in the
-  // run that produces it, rather than needing a second manual `npm run
-  // validate` to notice.
+  // Real, verified interaction: two adjacent nodes whose marks disagree,
+  // joined by a boundary space the mark-boundary-embedded-space check
+  // already relocated once. Re-running that check's detector against the
+  // relocated state finds a *new*, equally-disagreeing space on the
+  // boundary's other side — its single left-to-right pass never revisits
+  // the node it just rewrote, so it fires again and flips the boundary
+  // straight back. This is exactly the interaction the idempotence guard
+  // exists to catch automatically, rather than needing a second manual
+  // `npm run validate` to notice.
   it("should report a residual mark-boundary-space finding when a relocated space leaves a new, equally-disagreeing space on the other side of the same boundary", () => {
     const verse: VerseRecord = {
       book: "REV",
       chapter: 3,
       verse: 1,
-      // Already-relocated shape: the mark-boundary-embedded-space check's
-      // leading-space branch already moved the joining space onto the
-      // predecessor's own trailing edge once (the state right after that
-      // check's own fix runs).
+      // Already-relocated shape: the leading-space branch already moved the
+      // joining space onto the predecessor's own trailing edge (the state
+      // right after that check's own fix runs).
       content: [
         { text: "Sardis ", marks: ["sc"] },
         { text: "write", marks: ["woc"] },
@@ -831,10 +841,9 @@ describe("findResidualContentChanges — the idempotence guard's own per-verse r
 });
 
 // A version's declared chapter count must match the chapters its own verse
-// file actually carries — corpus completeness, not merely validity. Real,
+// file actually carries — corpus completeness, not validity. Real,
 // permanent corpus findings exist for this (see bible-versions.md);
-// fixtures below are synthetic since this pure comparator needs no file I/O
-// to test.
+// fixtures below are synthetic since this pure comparator needs no file I/O.
 describe("findDeclaredChapterMismatches", () => {
   const book = (overrides: Partial<VersionBook>): VersionBook => ({
     _id: "GEN",

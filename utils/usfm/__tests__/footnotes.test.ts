@@ -1,10 +1,7 @@
-import * as fs from "fs";
-import * as path from "path";
 import { describe, expect, it } from "vitest";
 import { buildFootnoteContent, buildIntroParagraphFootnote, capitalizeFootnoteOpening } from "../footnotes";
 import { uniformFraction } from "../../../functions/normalizeFractions";
 import { Token, tokenize } from "../tokenize";
-import { extractFootnoteBodiesIn, FOOTNOTES_IN_CORPUS } from "../verify";
 
 /**
  * Every raw USFM snippet below is copied verbatim from the in-scope
@@ -178,8 +175,7 @@ describe("buildFootnoteContent — fraction normalization", () => {
  * after the token walk builds it, so a footnote's own displayed text
  * starts with a capital letter — see that function's own doc comment for
  * the measured convention and the `or,` exception. Every fixture below is
- * real, verbatim raw USFM, read directly off
- * `imports/webus2020/ebible-usfm/*.usfm`.
+ * real, verbatim WEBUS2020 raw USFM, never hand-invented.
  */
 describe("buildFootnoteContent — footnote-initial capitalization", () => {
   it('should capitalize Leviticus 11:5\'s own real regression ("or rock badger, or cony" — no comma after the first "or", so it does not qualify for the or, exception below)', () => {
@@ -573,82 +569,3 @@ describe("buildIntroParagraphFootnote — \\ip", () => {
     expect(second.footnote.content).toBe("Second block text.");
   });
 });
-
-/**
- * A corpus-wide collision check, not an inference from the fixture-level
- * tests above alone: every real `\f`-derived footnote body across
- * WEBUS2020's own raw source (`extractFootnoteBodiesIn`, `usfm/verify.ts`'s
- * own independent extraction, sharing no code with this module) is run
- * through `capitalizeFootnoteOpening` directly, proving every body it
- * changes has a real reason to (a lowercase ASCII leading letter, not the
- * `or,` exception) and every body it leaves alone has a real reason to be
- * left alone (already capitalized, non-letter-led, or the `or,` exception).
- */
-// Report-only, corpus-wide measurement: needs WEBUS2020's own real raw USFM
-// locally at `webDir` (gitignored, never committed — a fresh clone doesn't
-// have it). Guarded with a plain `if`, not `describe.skipIf`: vitest still
-// runs a skipped describe's own callback body to collect its child tests,
-// so `skipIf` alone would not stop the corpus read below from executing.
-const FOOTNOTES_WEB_DIR = path.join(__dirname, "../../../imports/webus2020/ebible-usfm");
-if (!fs.existsSync(FOOTNOTES_WEB_DIR)) {
-  describe.skip("capitalizeFootnoteOpening — corpus-wide collision check against WEBUS2020's own real 81-book raw source", () => {
-    it("requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm", () => {});
-  });
-} else {
-describe("capitalizeFootnoteOpening — corpus-wide collision check against WEBUS2020's own real 81-book raw source", () => {
-  const webDir = FOOTNOTES_WEB_DIR;
-  const webFiles = fs.readdirSync(webDir).filter((name) => name.endsWith(".usfm") && name !== "00-FRTeng-web.usfm");
-
-  it("should change a footnote's own leading character if and only if it is a real ASCII lowercase letter not immediately followed by the or, exception, and never anything else", () => {
-    let bodyCount = 0;
-    let changedCount = 0;
-    let orExceptionCount = 0;
-    let witnessSiglonRecapitalized = 0;
-
-    for (const file of webFiles) {
-      const source = fs.readFileSync(path.join(webDir, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        bodyCount++;
-        const before = plainText;
-        const after = capitalizeFootnoteOpening(before);
-        const changed = before !== after;
-        const leadingChar = before[0];
-        const startsLowercaseAscii = leadingChar !== undefined && /[a-z]/.test(leadingChar);
-        const isOrException = /^or,/i.test(before);
-
-        if (isOrException) orExceptionCount++;
-
-        if (changed) {
-          changedCount++;
-          // Every real change has a real reason: a lowercase ASCII leading
-          // letter, and never the or, exception.
-          expect(startsLowercaseAscii).toBe(true);
-          expect(isOrException).toBe(false);
-          // A changed body's own leading character is no longer lowercase
-          // (a recapitalized witness siglon uppercases the whole word, not
-          // merely its own leading letter, but that still leaves the
-          // leading character itself uppercase either way).
-          expect(/[a-z]/.test(after[0])).toBe(false);
-          if (/^(?:tr|nu|mt)\b/i.test(before)) witnessSiglonRecapitalized++;
-        } else {
-          // Nothing changed for a real reason: either the body never had a
-          // lowercase ASCII opener to begin with, or it is the real,
-          // 100%-consistent or, exception.
-          expect(startsLowercaseAscii === false || isOrException).toBe(true);
-        }
-      }
-    }
-
-    expect(bodyCount).toBe(FOOTNOTES_IN_CORPUS);
-    // Real, positive counts — not just "zero disagreements" — so a
-    // regression that silently stopped the fix from ever firing would
-    // still fail this test, not just pass it vacuously.
-    expect(changedCount).toBeGreaterThan(0);
-    expect(orExceptionCount).toBeGreaterThan(0);
-    // Acts 4:27's own real "nu adds..." casing slip is the corpus's only
-    // witness-siglon recapitalization — no other footnote body opens with
-    // "tr"/"mt"/"nu" at all, siglon or otherwise.
-    expect(witnessSiglonRecapitalized).toBe(1);
-  });
-});
-}

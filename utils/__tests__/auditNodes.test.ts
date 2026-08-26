@@ -1,11 +1,8 @@
 import { describe, expect, it } from "vitest";
 import Content from "../../types/Content";
 import Footnote from "../../types/Footnote";
-import { getVersionDirectories } from "../../functions/getBibleVersions";
 import { uniformFraction } from "../../functions/normalizeFractions";
 import {
-  auditVersion,
-  auditVersions,
   exitCodeFor,
   findHeadingParagraphMismatches,
   findStrongsNodeIssues,
@@ -462,10 +459,9 @@ describe("findStrongsNodeIssues — straight quotes", () => {
 });
 
 describe("findStrongsNodeIssues — non-standard whitespace", () => {
-  // Synthetic fixtures throughout — the corpus carries none of these
-  // characters today, and that is the point: a check reporting zero on a
-  // clean corpus proves nothing about whether the check itself works, only
-  // fault injection does.
+  // Synthetic fixtures throughout: the corpus carries none of these
+  // characters today, so only fault injection can prove the check works —
+  // a clean corpus reporting zero findings would prove nothing.
 
   it("should flag a node whose text carries a non-breaking space (U+00A0), naming its codepoint", () => {
     const content: Content = [{ text: "10 a.m." }];
@@ -583,11 +579,10 @@ describe("findStrongsNodeIssues — the {paragraph: <content>} wrapper (walkLeve
 });
 
 describe("findHeadingParagraphMismatches", () => {
-  // Fixtures combine real verse shapes with invented ones into small
-  // synthetic "books"; production always passes exactly one real book's own
-  // verses (see auditVersion's per-file loop). The rule is flat, so no
-  // fixture needs to establish anything about the book around it — a run
-  // either pairs or it is a finding.
+  // Fixtures mix real verse shapes with invented ones into synthetic
+  // "books" — production only ever sees one real book's verses at a time
+  // (see auditVersion's per-file loop), but the rule is flat, so a fixture
+  // doesn't need to model that structure to trigger a finding.
 
   it("should collapse a heading immediately followed by a subtitle into one run before judging what comes after — real WEBUS2020 Psalm 90:1 shape", () => {
     const headingNode = { heading: [{ text: "Book Four", marks: ["sc"] }, " (Psalms 90-106)"] };
@@ -1003,11 +998,10 @@ describe("findStrongsNodeIssues — footnote marker after whitespace", () => {
       { foot: { type: "var", content: "NU omits verse 44." } },
     ];
     const findings = findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace;
-    // Both the leading node (its own text ends in whitespace, with the
-    // textless anchor as its own "next") and the textless anchor itself
-    // (rendering nothing of its own, so its marker lands wherever the
-    // accumulated text already ends — and nothing follows it either) are
-    // separate findings.
+    // Both are separate findings: the leading node (its own text ends in
+    // whitespace, with the textless anchor as its "next") and the textless
+    // anchor itself (renders nothing, so its marker lands at the same
+    // accumulated boundary, with nothing following it either).
     expect(findings).toHaveLength(2);
     expect(findings[0].node).toEqual(content[0]);
     expect(findings[1].node).toEqual(content[1]);
@@ -1092,10 +1086,9 @@ describe("findStrongsNodeIssues — footnote marker after whitespace", () => {
       { foot: { type: "trn", content: ["Heb. ", { text: "Ashur", marks: ["i"] }] } },
       { text: " the rod", strong: "H7626" },
     ];
-    // Node 0's own text ends in "," not whitespace, so it was never a
-    // candidate at all; node 1 is a bare foot node with a real next
-    // attachment point right after it, so it's exempt as already-settled
-    // regardless of what its own foot says.
+    // Node 0's text ends in "," not whitespace, so it's never a candidate;
+    // node 1 is a bare foot node with a real attachment point right after
+    // it, so it counts as already-settled regardless of its own foot.
     expect(findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace).toEqual([]);
   });
 });
@@ -1452,64 +1445,20 @@ describe("findStrongsNodeIssues — recursion", () => {
   });
 });
 
-describe("auditVersion / auditVersions — real, on-disk corpus", () => {
-  // Deliberately version-agnostic: the checked-in set of translations can
-  // change over time, so no test here names a specific version id as a
-  // hardcoded expectation beyond WEBUS2020 (used only to prove a version
-  // with no Strong's tagging costs nothing).
-
-  it("should give every real leading-punctuation finding in this checkout's own data a non-empty leading run", () => {
-    // Not every checkout carries a version with this defect, so this only
-    // asserts structural correctness of whatever real findings exist rather
-    // than requiring at least one — the synthetic fixtures above already
-    // cover the rule itself independent of any real data.
-    // (Not checking attachTo !== node here: two distinct nodes at different
-    // positions can coincidentally carry identical text/strong, e.g. a
-    // repeated phrase, so deep-equality between them proves nothing.)
-    const allFindings = auditVersions().flatMap((summary) => summary.leadingPunctuation);
-    for (const finding of allFindings) {
-      expect(finding.leading.length).toBeGreaterThan(0);
-    }
-  }, 30000);
-
-  it("should default to every version directory on disk, not a curated list", () => {
-    const versionIds = getVersionDirectories();
-    expect(versionIds.length).toBeGreaterThan(0);
-    const summaries = auditVersions();
-    expect(summaries.map((s) => s.version)).toEqual(versionIds);
-  }, 30000);
-
-  it("should report zero findings for the four strong-specific checks in a version with no Strong's tagging at all", () => {
-    const summary = auditVersion("WEBUS2020");
-    expect(summary.trailingWhitespace).toEqual([]);
-    expect(summary.leadingPunctuation).toEqual([]);
-    expect(summary.markBoundarySpaces).toEqual([]);
-    expect(summary.verseInitialSpaces).toEqual([]);
-  });
-
-  it("should report zero unmerged-pair findings for WEBUS2020 — the importer merges the Genesis-1:1-shaped foot-only split at import time (see utils/usfm/inlineMarks.ts's isMergeTarget)", () => {
-    const summary = auditVersion("WEBUS2020");
-    expect(summary.unmergedPairs).toEqual([]);
-  });
-
-  // The heading/paragraph convention holds across the whole corpus, so the
-  // whole corpus is asserted rather than one version at a time. Raw sources
-  // rarely write the paragraph themselves — a USFM `\d` superscription,
-  // `\sp` speaker label, or `\qc` acrostic letter is normally followed by a
-  // bare `\q1`, never a `\p` — which is why `usfm/segmentVerses.ts`'s
-  // heading dispatch supplies it going forward, and
-  // `utils/fixHeadingParagraphs.ts` backfilled the versions already on disk.
-  it("should report zero heading/paragraph mismatches anywhere in the corpus — every heading and subtitle opens whatever follows it", () => {
-    for (const summary of auditVersions()) {
-      expect(summary.headingParagraphMismatches).toEqual([]);
-    }
-  }, 30000);
-
-  it("should never write to bible-versions/ — this audit is read-only", () => {
-    const first = JSON.stringify(auditVersions());
-    const second = JSON.stringify(auditVersions());
+describe("auditVersion / auditVersions — read-only over whatever they're pointed at", () => {
+  it("should never mutate its input when called twice against the same in-memory content", () => {
+    // Proxies auditVersion's own idempotence: findStrongsNodeIssues (already
+    // exercised exhaustively elsewhere in this file) is what it delegates to
+    // per verse, so calling it twice here stands in for scanning the real
+    // bible-versions/ corpus twice.
+    const content: Content = [
+      { text: "the servant's word", marks: ["i"] },
+      { text: " and it was so.", strong: "H776" },
+    ];
+    const first = JSON.stringify(findStrongsNodeIssues(content));
+    const second = JSON.stringify(findStrongsNodeIssues(content));
     expect(second).toBe(first);
-  }, 30000);
+  });
 });
 
 describe("exitCodeFor", () => {

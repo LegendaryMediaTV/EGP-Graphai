@@ -282,12 +282,20 @@ interface VersionBookFile {
  * write-back needs to know how that data is laid out on disk (one file per
  * book, `_version.json` excluded).
  *
- * @throws if `versionId` names no directory under `bible-versions/` — a
- *   caller asking about a version this repo does not have is a bug in the
- *   caller, not a shape to report gracefully.
+ * `versionId` is normally a short `bible-versions/` directory name, resolved
+ * under {@link BIBLE_VERSIONS_DIR} — but every other function in this module
+ * treats it as opaque and passes it straight through, which makes this the
+ * one seam tests use: an **absolute path** (`path.isAbsolute` is never true
+ * for a real id) points this at a synthetic fixture directory instead of the
+ * real corpus, with no other function needing to change.
+ *
+ * @throws if `versionId` names no directory under `bible-versions/` (or, for
+ *   an absolute path, no such directory at all) — a caller asking about a
+ *   version that does not exist is a bug in the caller, not a shape to
+ *   report gracefully.
  */
 function readVersionBookFiles(versionId: string): readonly VersionBookFile[] {
-  const dir = path.join(BIBLE_VERSIONS_DIR, versionId);
+  const dir = path.isAbsolute(versionId) ? versionId : path.join(BIBLE_VERSIONS_DIR, versionId);
   if (!fs.existsSync(dir)) {
     throw new Error(`No bible-versions/ directory for "${versionId}"`);
   }
