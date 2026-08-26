@@ -1,6 +1,6 @@
 /**
- * Applies `utils/auditNodes.ts`'s own check 15: normalizes a `{text}`-only
- * object into the bare string the schema already treats it as equivalent to,
+ * Applies `utils/auditNodes.ts`'s own mergeable-sibling check: normalizes a
+ * `{text}`-only object into the bare string the schema already treats it as equivalent to,
  * then merges adjacent siblings that agree in every property but `text` into
  * one node — real YLT1898 shape, a heading's own `"The Angel of the "`
  * immediately followed by `{text: "Jehovah"}`, structural residue rather than

@@ -979,7 +979,7 @@ describe("exportContent", () => {
         expect(result).not.toMatch(/°\{Originally verse 20:29\.\} illo/);
       });
 
-      it("should render the identical standalone-node shape correctly for a non-CLV, non-versification footnote too — real ASV1901 Genesis 1:2 shape, once check 12's own fixer extracts it (proves the render path is general, not tied to CLV1880's own content signature)", () => {
+      it("should render the identical standalone-node shape correctly for a non-CLV, non-versification footnote too — real ASV1901 Genesis 1:2 shape, once the footnote-marker-spacing check's own fixer extracts it (proves the render path is general, not tied to CLV1880's own content signature)", () => {
         const verse: VerseSchema = {
           book: "GEN",
           chapter: 1,
@@ -1509,7 +1509,7 @@ describe("exportContent", () => {
         " talked",
       ];
 
-      it("should merge 'the' and 'LORD' into one continuous italic span across the lone blank between them, in markdown, even though the two nodes disagree in marks (['i'] vs ['i','sc']) — auditNodes.ts checks 4 and 9 both correctly leave this source shape alone, so the fix belongs here in the renderer", () => {
+      it("should merge 'the' and 'LORD' into one continuous italic span across the lone blank between them, in markdown, even though the two nodes disagree in marks (['i'] vs ['i','sc']) — auditNodes.ts's mark-boundary-space and mark-boundary-embedded-space checks both correctly leave this source shape alone, so the fix belongs here in the renderer", () => {
         const verse: VerseSchema = { book: "EXO", chapter: 33, verse: 9, content: exodus339Excerpt };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);

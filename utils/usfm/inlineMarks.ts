@@ -382,7 +382,8 @@ function isTextlessStrongSibling(node: ContentObject): boolean {
  * fully merged node list: a connector merges as one unit regardless of
  * direction, so nothing in that pass can single out a connector's leading
  * characters for this treatment (the same relationship
- * `utils/auditNodes.ts`'s check 3 has to check 1). Skips over a textless
+ * `utils/auditNodes.ts`'s leading-punctuation check has to the
+ * unmerged-connector check). Skips over a textless
  * Strong's sibling to find the real attachment point behind it, exactly
  * as `auditNodes.ts` does.
  *

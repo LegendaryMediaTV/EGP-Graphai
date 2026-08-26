@@ -9,7 +9,7 @@ describe("relocateMarkBoundarySpacesInContent", () => {
     // inside the woc-marked node's own text reconstructs the pre-fix shape
     // found on disk; this test locks in the same repair as a unit case. The
     // predecessor carries `strong`, so the space can't land on its trailing
-    // edge (check 2 forbids trailing whitespace on a strong-carrying node) —
+    // edge (the trailing-whitespace check forbids trailing whitespace on a strong-carrying node) —
     // it has to become its own node instead.
     const content = [
       { text: " saying,", strong: "G3004", morph: "PresActPtc" },
@@ -31,7 +31,7 @@ describe("relocateMarkBoundarySpacesInContent", () => {
     // WEBUS2020 Matthew 8:26's real, already-fixed shape has no trailing
     // space on the woc-marked node; the unmarked bare-string successor
     // already opens with its own leading space. Reintroducing a trailing
-    // space on the marked node reproduces the shape check 9 flags here:
+    // space on the marked node reproduces the shape the mark-boundary-embedded-space check flags here:
     // relocating it onto the successor would double the whitespace already
     // there, and since the successor is unmarked, the redundant copy is
     // deleted rather than relocated.

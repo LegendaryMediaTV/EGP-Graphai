@@ -1,6 +1,6 @@
 /**
- * Applies `auditNodes.ts`'s own check 1 in the one direction it ever
- * recommends: folds an ordinary, untagged connector forward into the
+ * Applies `auditNodes.ts`'s own unmerged-connector check in the one
+ * direction it ever recommends: folds an ordinary, untagged connector forward into the
  * `strong`-, `foot`-, or `break`-carrying neighbor right after it
  * ({@link canJoinForward}), wherever that neighbor's own eligibility already
  * makes the fold unambiguous.
@@ -110,8 +110,8 @@ function rewriteNode(node: unknown): unknown {
  * Collapses back to a bare node only when *this fixer's own merge* is what
  * brought the array down to one element (`content.length > 1` but
  * `merged.length === 1`) — never when the array already had exactly one
- * element and simply stayed that way, since that shape carries no check-1
- * finding at all and unwrapping it would be a cosmetic change this script
+ * element and simply stayed that way, since that shape carries no
+ * unmerged-connector-check finding at all and unwrapping it would be a cosmetic change this script
  * has no license to make.
  */
 function rewriteLevel(content: unknown): unknown {
@@ -123,7 +123,7 @@ function rewriteLevel(content: unknown): unknown {
 }
 
 /**
- * Merges every check-1-eligible unmerged pair in one verse's `content` tree,
+ * Merges every unmerged pair in one verse's `content` tree,
  * recursively (`heading`, `subtitle`, a `ContentNested` wrapper's own
  * `content`, and a footnote body's own `foot.content`, mirroring
  * `auditNodes.ts`'s own `walkLevel`).

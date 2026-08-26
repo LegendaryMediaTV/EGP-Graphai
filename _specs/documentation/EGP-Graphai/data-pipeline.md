@@ -11,10 +11,10 @@ For the recursive shape they're transforming, see [content-model.md](./content-m
 flowchart TD
     Source[Manuscript / source text] -->|importer or hand edit| Verse[(Verse JSON file<br/>bible-versions/{ver}/{NN}-{book}.json)]
     Verse --> AutoFix{validate.ts<br/>auto-fix pass}
-    AutoFix -->|sixteen steps,<br/>fixed-point checked| Verse
+    AutoFix -->|fixed-point checked| Verse
     Verse --> Checks{validate.ts<br/>hierarchical checks}
     Checks -->|schema, ordering,<br/>naming, structure| ExitErr([Exit code 1])
-    Verse --> Audits{validate.ts<br/>five report-only audits}
+    Verse --> Audits{validate.ts<br/>report-only audits}
     Audits -->|any finding remains?| ExitErr
 
     Verse --> Export[exportContent.ts]
@@ -33,9 +33,9 @@ A verse file is the source of truth. Every script in `utils/` either validates i
 
 `npm run validate` ([utils/validate.ts](../../../utils/validate.ts)) is the one command that runs every normalization and validation rule this repo enforces on verse data — there's no separate audit script anywhere in the tree, and no `--fix` flag on anything it calls into. A run has three stages:
 
-1. **Auto-fix pass** (sixteen steps) — normalizes key order, JSON formatting, `bibleLink` dashes and ranges, fractions, and ellipses; tags an untagged Hebrew or Greek letter run embedded in otherwise-Latin text; repairs several Strong's-node placement conventions (joining-space position for both `strong` and `foot`, footnote-punctuation order, duplicate footnote anchors, mergeable siblings, a missing paragraph flag after a heading); and unlinks a `bibleLink` target the version can't resolve. The pass then re-applies itself once more to every file it just changed, and fails by name if a second application would still find something to change — proof the corpus reached a fixed point, not just that the pass ran.
+1. **Auto-fix pass** — normalizes key order, JSON formatting, `bibleLink` dashes and ranges, fractions, ellipses, and straight-quote direction; tags an untagged Hebrew or Greek letter run embedded in otherwise-Latin text; repairs several Strong's-node placement conventions (joining-space position for both `strong` and `foot`, footnote-punctuation order, duplicate footnote anchors, mergeable siblings, a missing paragraph flag after a heading); and unlinks a `bibleLink` target the version can't resolve. The pass then re-applies itself once more to every file it just changed, and fails by name if a second application would still find something to change — proof the corpus reached a fixed point, not just that the pass ran.
 2. **Hierarchical checks** — schema validity, book ordering, file naming, verse structure, and cross-references between entities. Any failure here exits immediately.
-3. **Five report-only audits**, run as peers so all five always complete even when one already failed — declared chapter counts against the version's own data, cross-chapter links, truncated `bibleLink` ranges, Strong's-node placement, and unresolvable `bibleLink` targets.
+3. **Report-only audits**, run as peers so all of them always complete even when one already failed — declared chapter counts against the version's own data, cross-chapter links, truncated `bibleLink` ranges, Strong's-node placement, and unresolvable `bibleLink` targets.
 
 As a side effect of stage 1, validation rewrites every JSON file with canonical key order, both at the verse level (`book`, `chapter`, `verse`, `content`) and recursively inside every content object. This is intentional. Different authoring tools serialize keys in different orders, and the rewrite gives every commit a clean diff. If a validation run produces only key reorderings, the source data was already correct; the file change is just rehydration.
 
@@ -94,7 +94,7 @@ Each rule is version-scoped: a chapter's last verse, and which verse numbers wit
 
 ## Strong's-node placement audit
 
-Verse content is built one lexical node at a time, each carrying its own `strong` number, `marks`, and joining whitespace. That structure drifts out of alignment with this repo's own text-flow conventions during import or hand-editing. [utils/auditNodes.ts](../../../utils/auditNodes.ts) detects sixteen such drift patterns, corpus-wide; a representative sampling:
+Verse content is built one lexical node at a time, each carrying its own `strong` number, `marks`, and joining whitespace. That structure drifts out of alignment with this repo's own text-flow conventions during import or hand-editing. [utils/auditNodes.ts](../../../utils/auditNodes.ts) detects such drift patterns, corpus-wide; a representative sampling:
 
 | Finding                | What it catches                                                                                            |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -107,7 +107,7 @@ Verse content is built one lexical node at a time, each carrying its own `strong
 
 _A representative sampling — see the [Strong's-node audit domain doc](../../ai-context/4-domains/strongs-node-audit.md) for the full catalog._
 
-`auditNodes.ts` itself only ever detects; it carries no CLI and never writes. Eight of the sixteen checks repair themselves automatically, as their own step in `validate.ts`'s auto-fix pass, through a fixer that reuses this file's own eligibility logic rather than re-deriving it. The rest stay report-only, because deciding what to do needs a judgment call — which direction a word belongs, what a straight quote was meant to be — that a mechanical fix would get wrong on real Bible text.
+`auditNodes.ts` itself only ever detects; it carries no CLI and never writes. Several of the checks below repair themselves automatically, as their own step in `validate.ts`'s auto-fix pass — most through a fixer that reuses this file's own eligibility logic rather than re-deriving it, plus straight-quote direction (the straight-quote check), which resolves the way real typography tools do: from the characters immediately around each quote, not from this file's own node-placement judgment. The rest stay report-only, because deciding what to do needs a judgment call — which direction a word belongs, or whether a non-breaking space was meant to hold two words together — that a mechanical fix would get wrong on real Bible text. See the [Strong's-node audit domain doc](../../ai-context/4-domains/strongs-node-audit.md) for which check falls into which group.
 
 ## Writing files
 
@@ -151,4 +151,4 @@ The export logic in particular has tight test coverage because it's the most fra
 - **A "Failed to write … after N attempts" error names a real holdout.** The retries in [writeJsonFile.ts](../../../functions/writeJsonFile.ts) already absorb the usual transient file lock; if a write still fails after all of them, something (antivirus, an indexer, a sync client) is holding that specific file open longer than the retry budget. Check what's watching the folder rather than re-running the tool.
 - **A file's formatting reflects its data, not its history.** Two writers of identical content always produce identical bytes, because canonicalization starts from parsed data every time rather than from whatever a file already looks like. One translation once drifted into a far more spread-out style than the rest of the corpus this way. Formatting from raw text let a line break baked in by an earlier bug persist across every subsequent validation run instead of being caught and corrected.
 - **`git diff` is the review surface, not a console count.** Nothing this pipeline runs commits itself; every fix from the auto-fix pass sits in the working tree afterward, so reviewing a `npm run validate` run means reading the diff it produced, not trusting a summary line.
-- **One version is expected to fail validation, permanently, until missing content is imported.** CLV1880's Esther and Daniel are short their deuterocanonical additions; `npm run validate` reports exactly those two declared-chapter-count findings on every run. See the [bible-versions domain doc](../../ai-context/4-domains/bible-versions.md) before treating that as a regression to fix by editing `_version.json`.
+- **`npm run validate` is expected to exit clean, always.** A version whose source content is still incomplete (CLV1880's Esther and Daniel are short their deuterocanonical additions) declares only the chapters its own verse files actually carry — the declared count moves up in the same change that imports the rest, so there's never a standing finding to work around. See the [bible-versions domain doc](../../ai-context/4-domains/bible-versions.md).

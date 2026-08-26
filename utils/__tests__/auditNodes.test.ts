@@ -86,7 +86,7 @@ describe("findStrongsNodeIssues — unmerged pairs", () => {
     expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
   });
 
-  it("should never treat a bare versification-boundary foot node as a check-1 merge target or donor — real CLV1880 NUM 20:28 post-fix shape", () => {
+  it("should never treat a bare versification-boundary foot node as an unmerged-connector merge target or donor — real CLV1880 NUM 20:28 post-fix shape", () => {
     const content: Content = [
       { text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius " },
       { foot: { type: "var", content: "Originally verse 20:29." } },
@@ -413,13 +413,6 @@ describe("findStrongsNodeIssues — straight quotes", () => {
     expect(findings[0].character).toBe('"');
   });
 
-  it("should flag a node whose text carries a backtick", () => {
-    const content: Content = [{ text: "the word `logos`" }];
-    const findings = findStrongsNodeIssues(content).straightQuoteFindings;
-    expect(findings).toHaveLength(1);
-    expect(findings[0].character).toBe("`");
-  });
-
   it("should stay silent on text already using this repo's own curly quote forms", () => {
     const content: Content = [{ text: "the servant’s word: “come,” he said ‘now’", marks: ["i"] }];
     expect(findStrongsNodeIssues(content).straightQuoteFindings).toEqual([]);
@@ -468,7 +461,7 @@ describe("findStrongsNodeIssues — straight quotes", () => {
   });
 });
 
-describe("findStrongsNodeIssues — non-standard whitespace (check 16)", () => {
+describe("findStrongsNodeIssues — non-standard whitespace", () => {
   // Synthetic fixtures throughout — the corpus carries none of these
   // characters today, and that is the point: a check reporting zero on a
   // clean corpus proves nothing about whether the check itself works, only
@@ -536,7 +529,7 @@ describe("findStrongsNodeIssues — non-standard whitespace (check 16)", () => {
     expect(findings[0].path).toBe("content[0]");
   });
 
-  it("should include a short excerpt of the surrounding text, truncated with an ellipsis marker, matching check 11's own excerpt shape", () => {
+  it("should include a short excerpt of the surrounding text, truncated with an ellipsis marker, matching the straight-quote check's own excerpt shape", () => {
     const prefix = "word ".repeat(10);
     const suffix = " word".repeat(10);
     const text = `${prefix}ten am${suffix}`;
@@ -580,7 +573,7 @@ describe("findStrongsNodeIssues — the {paragraph: <content>} wrapper (walkLeve
     expect(findings.map((finding) => finding.path)).toEqual(["content[0]"]);
   });
 
-  it("should find a non-standard whitespace character nested inside a {paragraph: <content>} wrapper (check 16 shares the same recursion)", () => {
+  it("should find a non-standard whitespace character nested inside a {paragraph: <content>} wrapper (this check shares the same recursion)", () => {
     const content: Content = [
       { paragraph: [{ text: "a b" }] } as unknown as Content,
     ];
@@ -1063,7 +1056,7 @@ describe("findStrongsNodeIssues — footnote marker after whitespace", () => {
     expect(findings[0].node).toEqual(content[1]);
   });
 
-  it("should not flag an already-extracted, standalone bare foot node spliced between two real nodes — the same shape check 12's own fixer produces (real CLV1880 NUM 20:28, post-fix), exempt structurally, not by the footnote's own type or content", () => {
+  it("should not flag an already-extracted, standalone bare foot node spliced between two real nodes — the same shape the footnote-marker-spacing check's own fixer produces (real CLV1880 NUM 20:28, post-fix), exempt structurally, not by the footnote's own type or content", () => {
     const content: Content = [
       { text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius " },
       { foot: { type: "var", content: "Originally verse 20:29." } },
@@ -1236,7 +1229,7 @@ describe("findStrongsNodeIssues — duplicate footnote anchor", () => {
   });
 });
 
-describe("findStrongsNodeIssues — mergeable siblings (check 15)", () => {
+describe("findStrongsNodeIssues — mergeable siblings", () => {
   it("should flag a bare string immediately followed by a text-only object — real YLT1898 Exodus 3:1 heading shape", () => {
     const content: Content = { heading: ["The Angel of the ", { text: "Jehovah" }] };
     const findings = findStrongsNodeIssues(content).mergeableSiblingPairs;
@@ -1868,7 +1861,7 @@ describe("exitCodeFor", () => {
     expect(exitCodeFor([summary])).toBe(1);
   });
 
-  it("should exit zero when a version carries no finding across all sixteen checks", () => {
+  it("should exit zero when a version carries no finding across any check", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],

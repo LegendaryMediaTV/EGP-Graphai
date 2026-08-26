@@ -28,7 +28,7 @@ import { ScriptRun, splitNonLatinScriptRuns } from "../utils/usfm/splitScriptRun
  * splitting the text those properties describe would be guessing which
  * piece is the "real" bearer. Only a bare string or an object carrying
  * `text` and nothing else is eligible; anything else declines and is
- * reported, the same shape check 13's own report-only audit
+ * reported, the same shape the script-run check's own report-only audit
  * (`utils/auditNodes.ts`) re-finds afterward. `bibleLink` is not a reachable
  * decline reason here: `content-schema.json`'s own `oneOf` enforces schema
  * exclusivity (a `bibleLink` node carries nothing but `bibleLink`/`content`),

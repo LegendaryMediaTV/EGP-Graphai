@@ -679,7 +679,8 @@ export function segmentVerses(
       // case, chapter start, before any verse has opened).
       flushBlock(false);
       // A heading opens whatever follows it. This repo's convention is
-      // flat and corpus-wide (`utils/auditNodes.ts`, check 6): a heading or
+      // flat and corpus-wide (`utils/auditNodes.ts`'s heading-paragraph
+      // check): a heading or
       // subtitle followed by anything that is not itself a heading or
       // subtitle carries `paragraph: true` on that next node, in every
       // version and every book. The raw sources rarely write it — a `\sp`

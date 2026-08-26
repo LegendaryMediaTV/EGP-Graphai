@@ -207,7 +207,7 @@ export function normalizeFractionText(text: string): FractionNormalization {
 /**
  * Walks a content tree and normalizes every fraction it finds, via
  * {@link normalizeFractionText} above — the same conversion the USFM
- * importer applies on the way in and `auditNodes.ts`'s check 7 checks
+ * importer applies on the way in and `auditNodes.ts`'s fraction check checks
  * against.
  *
  * The traversal itself — which branches of a node hold rewritable text —

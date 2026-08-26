@@ -1,9 +1,10 @@
 /**
- * Applies `auditNodes.ts`'s own check 12: resolves every case where a
- * footnote marker renders immediately after whitespace, so a footnote
- * marker hugs the word it annotates instead of floating a space away from
- * it — the same leading-space convention `strong` already gets from check
- * 2, extended here to `foot`. `utils/validate.ts` calls {@link
+ * Applies `auditNodes.ts`'s own footnote-marker-spacing check: resolves
+ * every case where a footnote marker renders immediately after whitespace,
+ * so a footnote marker hugs the word it annotates instead of floating a
+ * space away from it — the same leading-space convention `strong` already
+ * gets from the trailing-whitespace check, extended here to `foot`.
+ * `utils/validate.ts` calls {@link
  * relocateFootnoteMarkerSpacesInContent} on every run, with no flag to opt
  * in or out.
  *
@@ -13,7 +14,7 @@
  * than re-deriving it. Reuses that module's own {@link
  * findWhitespaceSourceIndex} to find *which* node's own trailing run a
  * given footnote marker actually renders after — the same render-order
- * question check 12 itself answers, so the fixer never re-derives it (see
+ * question the footnote-marker-spacing check itself answers, so the fixer never re-derives it (see
  * that function's own doc comment for the real WEBUS2020 Mark 9:44 case
  * where the run doesn't live on the footed node's own text at all).
  *
@@ -60,8 +61,8 @@
  * this same pass just spliced it in a few nodes back or the corpus already
  * carried it that way, so the sole branch is a no-op rather than
  * re-extracting into a garbage husk. This is the identical structural
- * question `auditNodes.ts`'s own check 12 detection asks for its matching
- * exemption, so the two never drift apart on what counts as "already
+ * question `auditNodes.ts`'s own footnote-marker-spacing check detection
+ * asks for its matching exemption, so the two never drift apart on what counts as "already
  * settled." A bare node's own real predecessor can still land in the
  * *redundant* branch instead, when the real next node independently
  * supplies its own leading whitespace — there the predecessor's trailing
@@ -102,7 +103,8 @@ function withText(node: unknown, text: string): unknown {
 }
 
 /**
- * Why this module declined to act on an otherwise-real check-12 finding.
+ * Why this module declined to act on an otherwise-real
+ * footnote-marker-spacing finding.
  * See the top doc comment's own "what still declines" section for the
  * reasoning behind each.
  */
@@ -149,7 +151,8 @@ type EndOfLevelPolicy = boolean;
 /**
  * Scan one array level left to right for a `foot`-carrying, non-`hasNestedContent`
  * node whose marker renders after whitespace (per {@link
- * findWhitespaceSourceIndex} — identical to check 12's own detection, so the
+ * findWhitespaceSourceIndex} — identical to the footnote-marker-spacing
+ * check's own detection, so the
  * two never drift apart in what they consider a finding) and either resolve
  * it (delete, or extract into a standalone node) or decline it (see the top
  * doc comment's own breakdown).
@@ -161,7 +164,8 @@ type EndOfLevelPolicy = boolean;
  * earlier fix in this same pass must be visible before a later node's own
  * eligibility is judged. A standalone-node insertion only ever splices in
  * *after* the node currently being judged (`i`), so `i` itself never needs
- * realigning the way check 9's own leading-direction insertion does.
+ * realigning the way the mark-boundary-embedded-space check's own
+ * leading-direction insertion does.
  */
 function rewriteArrayLevel(
   nodes: readonly unknown[],
@@ -289,7 +293,7 @@ function rewriteLevel(content: unknown, counts: FixCounts, endOfLevelIsSafeToDel
 }
 
 /**
- * Resolves every check-12-eligible footnote-marker-after-whitespace finding
+ * Resolves every footnote-marker-after-whitespace finding
  * in one verse's `content` tree, recursively (`heading`, `subtitle`, a
  * `ContentNested` wrapper's own `content`, and a footnote body's own
  * `foot.content`, mirroring `auditNodes.ts`'s own `walkLevel`) — by deletion

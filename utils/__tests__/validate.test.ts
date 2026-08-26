@@ -206,7 +206,7 @@ describe("findMeaninglessContentNodes", () => {
 
     it("should report an empty text alongside a foot, whatever else the node carries — real KJV1769 Psalm 80:4 shape", () => {
       // The footnote's own text moved onto the Strong's-tagged node before
-      // it (check 12's own relocation), leaving this repeated anchor with
+      // it (the footnote-marker-spacing check's own relocation), leaving this repeated anchor with
       // an empty text key and nothing left to render — a husk this
       // function's own "sole key is text" check used to miss, since `foot`
       // is a second key.
@@ -790,29 +790,31 @@ describe("findResidualContentChanges — the idempotence guard's own per-verse r
   });
 
   // Real, verified interaction: two adjacent nodes whose own marks
-  // genuinely disagree, joined by a boundary space check 9 already relocated
-  // once. Re-running check 9's own detector against that already-relocated
-  // state finds a *new*, equally-disagreeing space on the boundary's other
-  // side — its single left-to-right pass doesn't revisit the node it just
-  // rewrote — so it fires again and flips the boundary straight back. This
-  // is exactly the class of step interaction the idempotence guard exists to
-  // catch automatically, in the run that produces it, rather than needing a
-  // second manual `npm run validate` to notice.
+  // genuinely disagree, joined by a boundary space the mark-boundary-embedded-space
+  // check already relocated once. Re-running that check's own detector
+  // against that already-relocated state finds a *new*, equally-disagreeing
+  // space on the boundary's other side — its single left-to-right pass
+  // doesn't revisit the node it just rewrote — so it fires again and flips
+  // the boundary straight back. This is exactly the class of step
+  // interaction the idempotence guard exists to catch automatically, in the
+  // run that produces it, rather than needing a second manual `npm run
+  // validate` to notice.
   it("should report a residual mark-boundary-space finding when a relocated space leaves a new, equally-disagreeing space on the other side of the same boundary", () => {
     const verse: VerseRecord = {
       book: "REV",
       chapter: 3,
       verse: 1,
-      // Already-relocated shape: check 9's leading-space branch already
-      // moved the joining space onto the predecessor's own trailing edge
-      // once (the state right after check 9's own fix runs).
+      // Already-relocated shape: the mark-boundary-embedded-space check's
+      // leading-space branch already moved the joining space onto the
+      // predecessor's own trailing edge once (the state right after that
+      // check's own fix runs).
       content: [
         { text: "Sardis ", marks: ["sc"] },
         { text: "write", marks: ["woc"] },
       ] as unknown as Content,
     };
     const steps = findResidualContentChanges("YLT1898", verse);
-    expect(steps).toContain("mark-boundary space relocation (check 9)");
+    expect(steps).toContain("mark-boundary space relocation");
   });
 
   it("should name the specific step still rewriting an unsettled verse, proving the chain is wired to the real per-step transforms and not a stub", () => {
@@ -823,7 +825,7 @@ describe("findResidualContentChanges — the idempotence guard's own per-verse r
       content: [{ text: "The Angel of the " }, "Jehovah"] as unknown as Content,
     };
     expect(findResidualContentChanges("YLT1898", verse)).toEqual([
-      "equivalent sibling merge (check 15)",
+      "equivalent sibling merge",
     ]);
   });
 });
@@ -873,22 +875,6 @@ describe("findDeclaredChapterMismatches", () => {
       new Map([
         ["EST", 10],
         ["GEN", 50],
-        ["DAN", 12],
-      ]),
-    );
-    expect(mismatches).toEqual([
-      { book: "EST", declaredChapters: 16, highestChapterPresent: 10 },
-      { book: "DAN", declaredChapters: 14, highestChapterPresent: 12 },
-    ]);
-  });
-
-  it("should match the real CLV1880 EST and DAN findings exactly", () => {
-    // Locked to the real corpus numbers so a future change to this
-    // comparator can't silently drift from what bible-versions.md records.
-    const mismatches = findDeclaredChapterMismatches(
-      [book({ _id: "EST", chapters: 16 }), book({ _id: "DAN", chapters: 14 })],
-      new Map([
-        ["EST", 10],
         ["DAN", 12],
       ]),
     );

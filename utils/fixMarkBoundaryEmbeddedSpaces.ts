@@ -1,9 +1,10 @@
 /**
- * Applies `auditNodes.ts`'s own check 9: relocates a whitespace run embedded
- * inside a formatted node's own `text`, at a boundary where the real
- * neighbor across it disagrees in `marks`/`script`, onto that neighbor's own
- * opposite edge instead — the space's only correct home once the two real
- * sides don't share formatting. Unlike check 8's own fixer, this transform
+ * Applies `auditNodes.ts`'s own mark-boundary-embedded-space check: relocates
+ * a whitespace run embedded inside a formatted node's own `text`, at a
+ * boundary where the real neighbor across it disagrees in `marks`/`script`,
+ * onto that neighbor's own opposite edge instead — the space's only correct
+ * home once the two real sides don't share formatting. Unlike the
+ * footnote-punctuation-order check's own fixer, this transform
  * never merges nodes and never removes one from the array — the scan that
  * finds a candidate already requires `text.trim() !== ""`, so stripping
  * only a node's own leading/trailing whitespace run can never empty it
@@ -20,7 +21,7 @@
  * {@link relocateMarkBoundarySpacesInContent} on every run, with no flag to
  * opt in or out.
  *
- * Corpus-wide, check 9's own detector already excludes one non-defective
+ * Corpus-wide, the mark-boundary-embedded-space check's own detector already excludes one non-defective
  * YLT1898 pattern: a Words-of-Christ node (`marks: ["woc"]`) bordering a
  * translator-supplied word that's also part of Christ's own discourse
  * (`marks: ["i","woc"]`) is a strict formatting *subset*, not a genuine
@@ -30,7 +31,7 @@
  * `auditNodes.ts` only exports `agreesInFormatting` and `carriesFormatting`,
  * not this (unexported) function, so this module keeps its own copy rather
  * than widening that module's exports. Mirroring the detector's guards
- * exactly means a verse whose only check-9-shaped boundary is the excluded
+ * exactly means a verse whose only mark-boundary-embedded-space-shaped boundary is the excluded
  * YLT1898 pattern produces no work here by construction, while a real
  * finding elsewhere in the same array level can't be misjudged by a
  * rewrite that only knows the narrower, pre-narrowing rule.
@@ -39,25 +40,26 @@
  * direction's plain relocation moves a whitespace run onto the predecessor's
  * trailing edge. When that predecessor carries a `strong` number — e.g.
  * `{text: " saying,", strong: "G3004", ...}` immediately before the
- * woc-marked node — that move would violate check 2's own rule that a
- * `strong`-carrying node's text never ends in whitespace. The space then has
- * no legal home in either node's own text: it can't stay embedded in the
- * marked node (that's the finding itself), and it can't relocate onto the
- * predecessor's trailing edge (check 2 forbids it). So it becomes its own
- * standalone node instead — a bare string `" "`
- * inserted between the predecessor and the marked node, matching this
- * corpus's own existing convention for a joining space with nothing to agree
- * with on either side (`auditNodes.ts` check 4's own doc comment; real
- * KJV1769 Matthew 6:32 shape).
+ * woc-marked node — that move would violate the trailing-whitespace check's
+ * own rule that a `strong`-carrying node's text never ends in whitespace.
+ * The space then has no legal home in either node's own text: it can't stay
+ * embedded in the marked node (that's the finding itself), and it can't
+ * relocate onto the predecessor's trailing edge (the trailing-whitespace
+ * check forbids it). So it becomes its own standalone node instead — a bare
+ * string `" "` inserted between the predecessor and the marked node,
+ * matching this corpus's own existing convention for a joining space with
+ * nothing to agree with on either side (`auditNodes.ts`'s own
+ * mark-boundary-space check doc comment; real KJV1769 Matthew 6:32 shape).
  *
  * This is asymmetric by construction and only ever fires for `side:
  * "leading"` against a `strong`-carrying predecessor: leading whitespace on a
- * `strong`-carrying node is already this corpus's norm and never a check-2
- * violation, so the mirror-image "trailing" direction (a move onto a real
- * successor's own leading edge) has no equivalent conflict and keeps using
- * the plain text-relocation path above. The inserted node is never itself a
- * check-4 finding either: check 4 only proposes collapsing a standalone
- * blank connector when its two real neighbors *agree* in marks, and a
+ * `strong`-carrying node is already this corpus's norm and never a
+ * trailing-whitespace-check violation, so the mirror-image "trailing"
+ * direction (a move onto a real successor's own leading edge) has no
+ * equivalent conflict and keeps using the plain text-relocation path above.
+ * The inserted node is never itself a mark-boundary-space-check finding
+ * either: the mark-boundary-space check only proposes collapsing a
+ * standalone blank connector when its two real neighbors *agree* in marks, and a
  * predecessor/marked-node pair that reached this branch disagreed by
  * definition.
  *
@@ -128,7 +130,8 @@ function withText(node: unknown, text: string): unknown {
 }
 
 /**
- * Why this module declined to act on an otherwise-real check-9 finding.
+ * Why this module declined to act on an otherwise-real
+ * mark-boundary-embedded-space finding.
  *
  * `"doubled-whitespace"` — see {@link wouldDoubleWhitespace}.
  */
@@ -156,7 +159,7 @@ function wouldDoubleWhitespace(receiverText: string, mergedText: string): boolea
  * drift apart in what they consider a finding — and resolves it one of four
  * ways: relocate the run onto the neighbor's own opposite edge (the ordinary
  * case), extract it into a brand-new standalone node when the ordinary case
- * would collide with check 2 (see the top doc comment's own "structural fix"
+ * would collide with the trailing-whitespace check (see the top doc comment's own "structural fix"
  * section), delete the run outright when relocating it would double an
  * unmarked neighbor's own matching whitespace (see the top doc comment's own
  * "deletion, not relocation" section), or record why it declined to act at
@@ -316,7 +319,7 @@ function rewriteLevel(content: unknown, counts: FixCounts): unknown {
 }
 
 /**
- * Relocates every check-9-eligible embedded whitespace run in one verse's
+ * Relocates every embedded whitespace run in one verse's
  * `content` tree, recursively (`heading`, `subtitle`, a `ContentNested`
  * wrapper's own `content`, and a footnote body's own `foot.content`,
  * mirroring `auditNodes.ts`'s own `walkLevel`).

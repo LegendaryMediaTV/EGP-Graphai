@@ -109,7 +109,7 @@ describe("mergeConnectors — forward-default, backward-fallback, matching KJV17
     ]);
   });
 
-  it("should leave a foot-only node's own break flag alone (this module's own real call sites never hand it one — break is attached by usfm/blockStructure.ts strictly after buildRunNodes/mergeConnectors have already produced their final nodes, and InlineTextPiece itself has no break field to carry one through pieceToNode in the first place); confirmed empirically too — auditNodes.ts's own Check 1 finds zero \"break present, foot/strong absent\" targets anywhere in the real WEBUS2020 corpus, every finding foot-carrying, none break-only — so this stays a locking test: break needs no entry in isMergeTarget", () => {
+  it("should leave a foot-only node's own break flag alone (this module's own real call sites never hand it one — break is attached by usfm/blockStructure.ts strictly after buildRunNodes/mergeConnectors have already produced their final nodes, and InlineTextPiece itself has no break field to carry one through pieceToNode in the first place); confirmed empirically too — auditNodes.ts's own unmerged-connector check finds zero \"break present, foot/strong absent\" targets anywhere in the real WEBUS2020 corpus, every finding foot-carrying, none break-only — so this stays a locking test: break needs no entry in isMergeTarget", () => {
     const result = mergeConnectors([{ text: "In the beginning, " }, { text: "God", break: true }]);
     expect(result).toEqual([{ text: "In the beginning, " }, { text: "God", break: true }]);
   });

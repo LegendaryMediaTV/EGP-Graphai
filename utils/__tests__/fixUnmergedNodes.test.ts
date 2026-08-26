@@ -30,7 +30,7 @@ describe("mergeUnmergedNodesInContent", () => {
     expect(result.content).toBe(content);
   });
 
-  it("should leave a standalone bare foot node alone — never merges it forward or absorbs it backward (real CLV1880 NUM 20:28 post-fix shape; this shape is no longer versification-specific — check 12's own fixer now produces it for any 'sole' footnote-marker-after-whitespace case)", () => {
+  it("should leave a standalone bare foot node alone — never merges it forward or absorbs it backward (real CLV1880 NUM 20:28 post-fix shape; this shape is no longer versification-specific — the footnote-marker-spacing check's own fixer now produces it for any 'sole' footnote-marker-after-whitespace case)", () => {
     const content = [
       { text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius " },
       { foot: { type: "var", content: "Originally verse 20:29." } },

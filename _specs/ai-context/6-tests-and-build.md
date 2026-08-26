@@ -120,23 +120,23 @@
 
 ### Validation Domain
 
-- **Existing tests** – `utils/__tests__/validate.test.ts` (76 tests)
+- **Existing tests** – `utils/__tests__/validate.test.ts`
 - **Covered scenarios:**
   - `findMeaninglessContentNodes()`: formatting (`marks`/`script`) with no `text`, and an empty `""` husk riding alongside other properties, flagged; `foot`/`strong`/`morph`/`lemma`/`bibleLink`/bare `paragraph`/`break` left alone; descends into `foot.content`, subtitles, and headings, not just the top level
   - `findStrongTrailingWhitespaceNodes()`: a `strong`-carrying node's own `text` ending in whitespace
   - `main()` gated behind `require.main === module`, so importing the module for its exported functions doesn't trigger a full validation run
-  - The full sixteen-step auto-fix pass, in pass order, and the fixed-point re-application check that fails by name — file, verse, step — if a second pass would still find something to change
-  - `main()` also runs all five report-only audits (declared chapter counts, cross-chapter links, truncated ranges, Strong's-node placement, unresolvable `bibleLink` targets) for each version it validates, as peers that all run to completion regardless of one another's outcome. See [validation.md](../4-domains/validation.md), [cross-chapter-links.md](../4-domains/cross-chapter-links.md), and [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for what each one checks
+  - The full auto-fix pass, in pass order, and the fixed-point re-application check that fails by name — file, verse, step — if a second pass would still find something to change
+  - `main()` also runs the report-only audits (declared chapter counts, cross-chapter links, truncated ranges, Strong's-node placement, unresolvable `bibleLink` targets) for each version it validates, as peers that all run to completion regardless of one another's outcome. See [validation.md](../4-domains/validation.md), [cross-chapter-links.md](../4-domains/cross-chapter-links.md), and [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for what each one checks
 
 ### Strong's-Node Audit Domain
 
-- **Existing tests** – `utils/__tests__/auditNodes.test.ts` (173 tests, the largest suite in the repo)
-- **Covered scenarios:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the domain narrative: all sixteen findings' positive/negative cases, `agreesInFormatting` mark/script agreement, textless-Strong's-sibling skip-through (both directions), `break`/`paragraph` boundary guards, verse-initial-space detection scoped to a verse's own outermost content, the flat corpus-wide heading/subtitle-paragraph convention, fraction/ellipsis normalization reuse, the footnote-marker-after-whitespace render-order judgment, mixed-script-run detection, duplicate-footnote-anchor detection tight enough to spare the far more common two-real-occurrences shape, mergeable-sibling detection, and `exitCodeFor()`/`isClean()` across all sixteen checks combined
+- **Existing tests** – `utils/__tests__/auditNodes.test.ts` (the largest test suite in the repo)
+- **Covered scenarios:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the domain narrative: every finding's positive/negative cases, `agreesInFormatting` mark/script agreement, textless-Strong's-sibling skip-through (both directions), `break`/`paragraph` boundary guards, verse-initial-space detection scoped to a verse's own outermost content, the flat corpus-wide heading/subtitle-paragraph convention, fraction/ellipsis normalization reuse, the footnote-marker-after-whitespace render-order judgment, mixed-script-run detection, duplicate-footnote-anchor detection tight enough to spare the far more common two-real-occurrences shape, mergeable-sibling detection, and `exitCodeFor()`/`isClean()` across every check combined
 
 ### Node-Placement Auto-Fix Domain
 
 - **Existing tests** – `utils/__tests__/fixUnmergedNodes.test.ts` (5), `fixHeadingParagraphs.test.ts` (4), `fixFootnotePunctuationOrder.test.ts` (5), `fixMarkBoundaryEmbeddedSpaces.test.ts` (5), `fixFootnoteMarkerSpacing.test.ts` (23), `fixDuplicateFootnoteAnchors.test.ts` (8)
-- **Covered scenarios:** each fixer reuses `auditNodes.ts`'s own eligibility judgment (`canJoinForward`, `findHeadingParagraphMismatches`, `leadingTightPunctuationSplit`/`isRealAttachmentPoint`, `carriesFormatting`/`agreesInFormatting`, `findWhitespaceSourceIndex`, `isDuplicateFootnoteAnchor`) rather than re-deriving it, so these suites are largely regression coverage confirming the fix direction matches the audit's own judgment. `fixFootnoteMarkerSpacing.test.ts` is the largest of the six because check 12 asks a render-order question (accumulated visible text, not just the node's own trailing character) with several declining conditions to cover: no real next node, a `break`/`paragraph` boundary at the join, the next node already starting with whitespace, or a `marks`/`script` disagreement. None of these six files has a CLI or `--fix` flag of its own — `validate.ts` calls each transform unconditionally as one step in its own auto-fix pass. The other two self-repairing checks (13, script-run tagging; 15, sibling merge) are tested under `functions/__tests__/` — see the Shared Content-Normalization Helpers Domain above
+- **Covered scenarios:** each fixer reuses `auditNodes.ts`'s own eligibility judgment (`canJoinForward`, `findHeadingParagraphMismatches`, `leadingTightPunctuationSplit`/`isRealAttachmentPoint`, `carriesFormatting`/`agreesInFormatting`, `findWhitespaceSourceIndex`, `isDuplicateFootnoteAnchor`) rather than re-deriving it, so these suites are largely regression coverage confirming the fix direction matches the audit's own judgment. `fixFootnoteMarkerSpacing.test.ts` is the largest of the six because the footnote-marker-spacing check asks a render-order question (accumulated visible text, not just the node's own trailing character) with several declining conditions to cover: no real next node, a `break`/`paragraph` boundary at the join, the next node already starting with whitespace, or a `marks`/`script` disagreement. None of these six files has a CLI or `--fix` flag of its own — `validate.ts` calls each transform unconditionally as one step in its own auto-fix pass. The other two self-repairing checks (script-run tagging and sibling merge) are tested under `functions/__tests__/` — see the Shared Content-Normalization Helpers Domain above
 
 ### USFM Import Pipeline Domain
 
@@ -185,8 +185,8 @@ npm run dev
 ```bash
 npm run validate
 # The one command that runs every normalization and validation rule this repo
-# enforces: a sixteen-step auto-fix pass, a fixed-point re-check, hierarchical
-# schema/structure checks, then five report-only audits
+# enforces: an auto-fix pass, a fixed-point re-check, hierarchical
+# schema/structure checks, then report-only audits
 # Exit code 0 = success, 1 = failure or a remaining report-only finding
 ```
 
@@ -315,7 +315,7 @@ Any of the callers (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, 
 
 **Relevant tests:** `npx vitest --run utils/__tests__/auditNodes.test.ts`
 
-**Test coverage includes:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the full rule set. `auditNodes.ts` itself has no `--fix` path — it's read-only detection across all sixteen findings. `isClean()` and `printFindingLines()` are exported alongside the audit functions specifically so `validate.ts` can reuse them rather than re-deriving the same clean/dirty check and report formatting. Eight of the sixteen checks each have a separate fixer file that imports this file's own eligibility functions rather than re-deriving them (check 13's fixer runs that dependency in the other direction — see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for why); changing an eligibility function here should trigger a re-run of that check's own fixer suite too — see the Node-Placement Auto-Fix Domain above for which suite that is.
+**Test coverage includes:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the full rule set. `auditNodes.ts` itself has no `--fix` path — it's read-only detection across every finding. `isClean()` and `printFindingLines()` are exported alongside the audit functions specifically so `validate.ts` can reuse them rather than re-deriving the same clean/dirty check and report formatting. Several checks each have a separate fixer file that imports this file's own eligibility functions rather than re-deriving them (the script-run check's fixer runs that dependency in the other direction — see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for why); changing an eligibility function here should trigger a re-run of that check's own fixer suite too — see the Node-Placement Auto-Fix Domain above for which suite that is.
 
 ### When Modifying Footnote Text Extraction (footnoteText.js)
 
@@ -330,7 +330,7 @@ This is a plain, unbundled `.js` file loaded as a `window` global in `index.html
 
 ### When Modifying the USFM Import Pipeline (`utils/importUsfm.ts` / `utils/usfm/*.ts`)
 
-**Relevant tests:** `npx vitest run utils/__tests__/importUsfm.test.ts utils/usfm`, but see the coverage note above first if the WEBUS2020 raw USFM corpus isn't present in this checkout — seven of the fifteen `utils/usfm/__tests__/` files read it directly and won't pass without it.
+**Relevant tests:** `npx vitest run utils/__tests__/importUsfm.test.ts utils/usfm`, but see the coverage note above first if the WEBUS2020 raw USFM corpus isn't present in this checkout — several of the `utils/usfm/__tests__/` files read it directly and report a named skip instead of running without it.
 
 **Test coverage includes:**
 

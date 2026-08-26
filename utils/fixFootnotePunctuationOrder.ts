@@ -1,6 +1,6 @@
 /**
- * Applies `auditNodes.ts`'s own check 8 in the one direction it ever
- * recommends: moves a leading run of tight punctuation off a footed node's
+ * Applies `auditNodes.ts`'s own footnote-punctuation-order check in the one
+ * direction it ever recommends: moves a leading run of tight punctuation off a footed node's
  * next sibling and onto the end of the footed node's own `text` instead,
  * since `utils/exportContent.ts`'s renderer always places a node's footnote
  * marker in its `suffix`, after that node's full `core` text
@@ -12,14 +12,15 @@
  *
  * The transform looks purely mechanical — move some characters from one
  * node's `text` to another's — but still needs the same kind of
- * human-reviewable judgment `fixUnmergedNodes.ts`'s own check-1 fixer
- * applies, for two independent reasons:
+ * human-reviewable judgment `fixUnmergedNodes.ts`'s own
+ * unmerged-connector-check fixer applies, for two independent reasons:
  *
  * 1. **Formatting eligibility.** A footed node and a punctuation-leading
  *    sibling that disagree in `marks`/`script` (Galatians 3:18: `marks:
  *    ["i"]` vs. a bare, unmarked `"."`) may have stayed split on purpose —
  *    absorbing the punctuation without checking would be guessing, the same
- *    bar `canJoinForward` already applies for check 1's own merges.
+ *    bar `canJoinForward` already applies for the unmerged-connector check's
+ *    own merges.
  *    Re-derived locally as `agreesInFormatting` below rather than imported,
  *    since `auditNodes.ts` exports `isRealAttachmentPoint` and
  *    `leadingTightPunctuationSplit` but not this (unexported) function.
@@ -75,7 +76,7 @@ function withText(node: unknown, text: string): unknown {
   return { ...(node as Record<string, unknown>), text };
 }
 
-/** Why this module declined to act on an otherwise-real check-8 finding. */
+/** Why this module declined to act on an otherwise-real footnote-punctuation-order finding. */
 export type SkipReason = "eligibility" | "extra-keys";
 
 /** Running fixed/skipped counts, threaded through recursion and mutated in place — the same sink pattern `auditNodes.ts`'s own `walkLevel` uses for findings. */
@@ -195,7 +196,7 @@ function rewriteLevel(content: unknown, counts: FixCounts): unknown {
 }
 
 /**
- * Reorders every check-8-eligible footnote/punctuation pair in one verse's
+ * Reorders every footnote/punctuation pair in one verse's
  * `content` tree, recursively (`heading`, `subtitle`, a `ContentNested`
  * wrapper's own `content`, and a footnote body's own `foot.content`,
  * mirroring `auditNodes.ts`'s own `walkLevel`).

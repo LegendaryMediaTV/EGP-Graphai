@@ -1,10 +1,11 @@
 /**
- * Applies `auditNodes.ts`'s own check 6: puts `paragraph: true` on the node
- * right after every heading/subtitle run that doesn't already carry it.
+ * Applies `auditNodes.ts`'s own heading-paragraph check: puts
+ * `paragraph: true` on the node right after every heading/subtitle run that
+ * doesn't already carry it.
  *
  * The convention is flat and corpus-wide — a heading or subtitle followed by
  * anything that is not itself a heading or subtitle opens a paragraph, in
- * every version and every book — so unlike check 1's fixer
+ * every version and every book — so unlike the unmerged-connector check's fixer
  * (`fixUnmergedNodes.ts`), there is no judgment call about *whether* to act,
  * only about *which* node to act on. That decision stays in `auditNodes.ts`:
  * this module imports {@link findHeadingParagraphMismatches} and writes to
