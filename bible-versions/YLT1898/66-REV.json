@@ -28,7 +28,7 @@
               ]
             },
             { "text": "lit.", "marks": ["i"] },
-            { "text": " “with haste,” " },
+            " “with haste,” ",
             { "text": "or", "marks": ["i"] },
             {
               "content": [
@@ -104,9 +104,7 @@
               ],
               "break": true
             },
-            {
-              "text": "This book is full of symbols and imagery taken from earthly kingdoms and events to typify the spiritual struggles of the church with the opposing powers of Judaism and Paganism in the first place, and with all contrary principles that may rise hereafter, in any age, or country. It must be interpreted on the same principles as Psalm ii. xvi. xviii. xlv. cx. Song of Songs, Isa. xiii. xiv. and the whole book of Ezekiel, and is thus fitted for all ages alike."
-            }
+            "This book is full of symbols and imagery taken from earthly kingdoms and events to typify the spiritual struggles of the church with the opposing powers of Judaism and Paganism in the first place, and with all contrary principles that may rise hereafter, in any age, or country. It must be interpreted on the same principles as Psalm ii. xvi. xviii. xlv. cx. Song of Songs, Isa. xiii. xiv. and the whole book of Ezekiel, and is thus fitted for all ages alike."
           ]
         }
       },
@@ -299,13 +297,9 @@
         "foot": {
           "type": "stu",
           "content": [
-            {
-              "text": "the first day of the week no doubt, on which the first Christians systematically met together to worship God, and observe divine ordinances, as is everywhere testified to in the New Testament and the writers of the first and second centuries. They never in a single case call it “Sabbath,” but either “Sunday” "
-            },
+            "the first day of the week no doubt, on which the first Christians systematically met together to worship God, and observe divine ordinances, as is everywhere testified to in the New Testament and the writers of the first and second centuries. They never in a single case call it “Sabbath,” but either “Sunday” ",
             { "text": "or", "marks": ["i"] },
-            {
-              "text": " “the Lord’s Day,” and this they did on principle, viewing the name “Sabbath” as applicable only to the Jewish day; while the Lord’s day is emphatically a day of work—spiritual work of course—in commemoration of Christ’s rising from rest to work in a higher sphere, as Intercessor, and King in Zion. Some have weakly confounded this “Lord’s day” with the “day of the Lord,” so often spoken of, but the phrases in Greek are entirely distinct."
-            }
+            " “the Lord’s Day,” and this they did on principle, viewing the name “Sabbath” as applicable only to the Jewish day; while the Lord’s day is emphatically a day of work—spiritual work of course—in commemoration of Christ’s rising from rest to work in a higher sphere, as Intercessor, and King in Zion. Some have weakly confounded this “Lord’s day” with the “day of the Lord,” so often spoken of, but the phrases in Greek are entirely distinct."
           ]
         }
       },
@@ -600,8 +594,9 @@
         "foot": {
           "type": "trn",
           "content": [
-            { "text": "Gr.", "marks": ["i"] },
-            { "text": " Satan, i.e. one who shuts up “the way.”" }
+            "Gr. ",
+            { "text": "Satan", "marks": ["i"] },
+            ", i.e. one who shuts up “the way.”"
           ]
         }
       }
@@ -892,9 +887,8 @@
         "text": "And to the messenger of the assembly in ",
         "marks": ["woc"]
       },
-      { "text": "Sardis", "marks": ["woc"] },
       {
-        "text": " write: These things saith he who is having the Seven Spirits of God, and the seven stars: I have known thy works, and that thou hast the name that thou dost live, and thou art dead;",
+        "text": "Sardis write: These things saith he who is having the Seven Spirits of God, and the seven stars: I have known thy works, and that thou hast the name that thou dost live, and thou art dead;",
         "marks": ["woc"]
       }
     ]
@@ -1151,8 +1145,7 @@
       },
       { "heading": "A Vision of Heaven" },
       { "paragraph": true, "text": "After these things I saw, and lo, a " },
-      { "text": "door" },
-      { "text": " opened in the heaven, and the first voice that I heard " },
+      "door opened in the heaven, and the first voice that I heard ",
       { "text": "is", "marks": ["i"] },
       " as of a trumpet speaking with me, saying, ",
       {
@@ -1283,8 +1276,7 @@
         "paragraph": true,
         "text": "And I saw upon the right hand of Him who is sitting upon the throne a "
       },
-      { "text": "scroll" },
-      ", written within and on the back, sealed with seven seals;"
+      "scroll, written within and on the back, sealed with seven seals;"
     ]
   },
   {
@@ -1408,8 +1400,7 @@
         "paragraph": true,
         "text": "And I saw when the Lamb opened one of the "
       },
-      { "text": "seals" },
-      ", and I heard one of the four living creatures saying, as it were a voice of thunder, “Come and behold!”"
+      "seals, and I heard one of the four living creatures saying, as it were a voice of thunder, “Come and behold!”"
     ]
   },
   {
@@ -1602,8 +1593,7 @@
       },
       { "heading": "Sealing the Servants of God" },
       { "paragraph": true, "text": "And after these things I saw four " },
-      { "text": "messengers" },
-      ", standing upon the four corners of the land, holding the four winds of the land, that the wind may not blow upon the land, nor upon the sea, nor upon any tree;"
+      "messengers, standing upon the four corners of the land, holding the four winds of the land, that the wind may not blow upon the land, nor upon the sea, nor upon any tree;"
     ]
   },
   {
@@ -1778,8 +1768,7 @@
         }
       },
       { "paragraph": true, "text": "And when he openeth the seventh " },
-      { "text": "seal" },
-      ", there came silence in the heaven about half-an-hour,"
+      "seal, there came silence in the heaven about half-an-hour,"
     ]
   },
   {
@@ -2172,8 +2161,7 @@
       },
       { "heading": "The Angel and the Book" },
       { "paragraph": true, "text": "And I saw another strong " },
-      { "text": "messenger" },
-      " coming down out of the heaven, arrayed with a cloud, and a rainbow upon the head, and his face as the sun, and his feet as pillars of fire,"
+      "messenger coming down out of the heaven, arrayed with a cloud, and a rainbow upon the head, and his face as the sun, and his feet as pillars of fire,"
     ]
   },
   {
@@ -2261,8 +2249,7 @@
       },
       { "heading": "The Angel and the Temple" },
       { "paragraph": true, "text": "And there was given to me a " },
-      { "text": "reed" },
-      " like to a rod, and the messenger stood, saying, “Rise, and measure the sanctuary of God, and the altar, and those worshipping in it;"
+      "reed like to a rod, and the messenger stood, saying, “Rise, and measure the sanctuary of God, and the altar, and those worshipping in it;"
     ]
   },
   {
@@ -2464,8 +2451,7 @@
       },
       { "heading": "War in Heaven" },
       { "paragraph": true, "text": "And a great " },
-      { "text": "sign" },
-      " was seen in the heaven, a woman arrayed with the sun, and the moon under her feet, and upon her head a crown of twelve stars,"
+      "sign was seen in the heaven, a woman arrayed with the sun, and the moon under her feet, and upon her head a crown of twelve stars,"
     ]
   },
   {
@@ -2616,8 +2602,7 @@
         "paragraph": true,
         "text": "And I stood upon the sand of the sea, and I saw out of the sea a "
       },
-      { "text": "beast" },
-      " coming up, having seven heads and ten horns, and upon its horns ten diadems, and upon its heads a name of evil speaking,"
+      "beast coming up, having seven heads and ten horns, and upon its horns ten diadems, and upon its heads a name of evil speaking,"
     ]
   },
   {
@@ -2745,7 +2730,9 @@
           "content": [
             "The Greek here (as in ",
             { "bibleLink": "Revelation 7:4–17", "content": "7. 4–18" },
-            ") gives the number not in words but in letters, viz., χξς, i.e. 600 + 60 + 6=666. Another reading mentioned by Irenaeus is 616…it is shown to refer to Nero, whose character is entirely in accordance with the description here given, and whose name, when spelt in the full Hebrew form Neron, yields the number 666, and in the shorter Greek form Nero gives 616, thus, accounting satisfactorily for the variation as noticed by Irenaeus."
+            ") gives the number not in words but in letters, viz., ",
+            { "text": "χξς", "script": "G" },
+            ", i.e. 600 + 60 + 6=666. Another reading mentioned by Irenaeus is 616…it is shown to refer to Nero, whose character is entirely in accordance with the description here given, and whose name, when spelt in the full Hebrew form Neron, yields the number 666, and in the shorter Greek form Nero gives 616, thus, accounting satisfactorily for the variation as noticed by Irenaeus."
           ]
         }
       }
@@ -2965,8 +2952,7 @@
         }
       },
       { "paragraph": true, "text": "And I saw another " },
-      { "text": "sign" },
-      " in the heaven, great and wonderful, seven messengers having the seven last plagues, because in these was completed the wrath of God,"
+      "sign in the heaven, great and wonderful, seven messengers having the seven last plagues, because in these was completed the wrath of God,"
     ]
   },
   {
@@ -3060,8 +3046,7 @@
       },
       { "heading": "Visions of Judgement" },
       { "paragraph": true, "text": "And I heard a great " },
-      { "text": "voice" },
-      " out of the sanctuary saying to the seven messengers, “Go away, and pour out the vials of the wrath of God to the earth;”"
+      "voice out of the sanctuary saying to the seven messengers, “Go away, and pour out the vials of the wrath of God to the earth;”"
     ]
   },
   {
@@ -3274,8 +3259,7 @@
       },
       { "heading": "Visions of Doom" },
       { "paragraph": true, "text": "And there came one of the seven " },
-      { "text": "messengers" },
-      ", who were having the seven vials, and he spake with me, saying to me, “Come, I will shew to thee the judgment of the great whore, who is sitting upon the many waters,"
+      "messengers, who were having the seven vials, and he spake with me, saying to me, “Come, I will shew to thee the judgment of the great whore, who is sitting upon the many waters,"
     ]
   },
   {
@@ -3483,8 +3467,7 @@
         }
       },
       { "paragraph": true, "text": "And after these things I saw another " },
-      { "text": "messenger" },
-      " coming down out of the heaven, having great authority, and the earth was lightened from his glory,"
+      "messenger coming down out of the heaven, having great authority, and the earth was lightened from his glory,"
     ]
   },
   {
@@ -3924,8 +3907,7 @@
         }
       },
       { "paragraph": true, "text": "And I saw a " },
-      { "text": "messenger" },
-      " coming down out of the heaven, having the key of the abyss, and a great chain over his hand,"
+      "messenger coming down out of the heaven, having the key of the abyss, and a great chain over his hand,"
     ]
   },
   {
@@ -4099,8 +4081,7 @@
       },
       { "heading": "A New Heaven and Earth" },
       { "paragraph": true, "text": "And I saw a new " },
-      { "text": "heaven" },
-      " and a new earth, for the first heaven and the first earth did pass away, and the sea is not any more;"
+      "heaven and a new earth, for the first heaven and the first earth did pass away, and the sea is not any more;"
     ]
   },
   {
@@ -4375,8 +4356,7 @@
         }
       },
       { "paragraph": true, "text": "And he shewed me a pure " },
-      { "text": "river" },
-      " of water of life, bright as crystal, going forth out of the throne of God and of the Lamb:"
+      "river of water of life, bright as crystal, going forth out of the throne of God and of the Lamb:"
     ]
   },
   {

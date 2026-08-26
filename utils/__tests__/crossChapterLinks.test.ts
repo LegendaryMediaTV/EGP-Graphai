@@ -1,18 +1,24 @@
 import { describe, it, expect } from "vitest";
 import { getVersionDirectories } from "../../functions/getBibleVersions";
+import Content from "../../types/Content";
 import {
   classifyBibleLink,
   completeTruncatedRange,
   CrossChapterFinding,
   findCrossChapterLinks,
   findTruncatedRanges,
+  findUnresolvableTarget,
+  findUnresolvableTargets,
   fixCrossChapterLinks,
   formatCrossChapterFinding,
   formatTruncatedRangeFinding,
+  formatUnresolvableTargetFinding,
   reconstructTruncatedRangesInContent,
   splitCrossChapterLink,
   splitCrossChapterLinksInContent,
   TruncatedRangeFinding,
+  unlinkUnresolvableTargetsInContent,
+  UnresolvableTargetFinding,
 } from "../crossChapterLinks";
 
 // Target strings are drawn from this repo's own versions wherever a real
@@ -82,8 +88,6 @@ describe("classifyBibleLink — per-version chapter lengths", () => {
   });
 
   it("should read 3 John 1's last verse as 14 from both WEBUS2020 and YLT1898", () => {
-    // YLT1898's 3 John has 14 verses, matching the standard versification and
-    // every other version here — an earlier import miscounted it as 15.
     expect(classifyBibleLink("WEBUS2020", "3 John 1:1").firstChapterLastVerse).toBe(14);
     expect(classifyBibleLink("YLT1898", "3 John 1:1").firstChapterLastVerse).toBe(14);
   });
@@ -115,18 +119,10 @@ describe("classifyBibleLink — book-name resolution restricted to a version's o
 
 describe("findCrossChapterLinks", () => {
   it("should report zero findings for WEBUS2020 now that this repo's own --fix run has split its one Hebrews 11:34 link", () => {
-    // 58-HEB.json's real Hebrews 11:34 link is already split; both halves
-    // classify as singleChapter, so the finding is gone rather than merely
-    // changed.
     expect(findCrossChapterLinks("WEBUS2020").findings).toHaveLength(0);
   });
 
   it("should report zero findings for YLT1898 now that this repo's own --fix run has split its nine whole-chapter-range links", () => {
-    // YLT1898's nine real whole-chapter-range links (45-ROM.json,
-    // 46-1CO.json, 47-2CO.json, and 66-REV.json's own argument-footnote
-    // outline references, e.g. "Romans 1–11") are already split; each half
-    // classifies as singleChapter, so the finding is gone rather than merely
-    // changed.
     expect(findCrossChapterLinks("YLT1898").findings).toHaveLength(0);
   });
 
@@ -136,13 +132,8 @@ describe("findCrossChapterLinks", () => {
   });
 
   it("should count every bibleLink node scanned, not just the ones that turn out to be findings", () => {
-    // A bibleLink node can come from a canonical Strong's/cross-reference
-    // target, a deuterocanon or \f-derived reference node (see
-    // `utils/usfm/verify.ts`'s BIBLE_LINKS_IN_CORPUS), or a generic
-    // embedded-reference link from `usfm/references.ts`'s
-    // linkEmbeddedReferences — this total drifts as the corpus changes;
-    // update it here rather than treating a mismatch as a bug in
-    // findCrossChapterLinks.
+    // This total drifts as the corpus changes — update it here rather than
+    // treating a mismatch as a bug in findCrossChapterLinks.
     const { scanned, findings } = findCrossChapterLinks("WEBUS2020");
     expect(scanned).toBe(550);
     expect(findings.length).toBeLessThan(scanned);
@@ -298,12 +289,10 @@ describe("splitCrossChapterLinksInContent — idempotence", () => {
 
 describe("fixCrossChapterLinks — read-only, whole-version application", () => {
   it("should report nothing left to fix for WEBUS2020, now that this repo's own --fix run has already split 58-HEB.json's Hebrews 11:34 link", () => {
-    // Same real fix as the findCrossChapterLinks suite above — nothing left to do.
     expect(fixCrossChapterLinks("WEBUS2020")).toHaveLength(0);
   });
 
   it("should report nothing left to fix for YLT1898, now that this repo's own --fix run has already split its nine whole-chapter-range links", () => {
-    // Same real fix as the findCrossChapterLinks suite above — nothing left to do.
     expect(fixCrossChapterLinks("YLT1898")).toHaveLength(0);
   });
 
@@ -318,18 +307,14 @@ describe("fixCrossChapterLinks — read-only, whole-version application", () => 
 });
 
 // A bibleLink whose target is truncated short of the range its own display
-// override names — e.g. a target of a single verse while the display spells
-// out a fuller range. This corpus carries zero real instances (the
-// corpus-wide sweep below asserts exactly that), so every fixture here is
-// hand-authored rather than lifted from a real finding — but every version
-// id and every chapter-length fact it depends on (ASV1901's real Romans 14
-// and 2 Samuel 22) is real, checked against that version's own data, the
-// same discipline classifyBibleLink's own per-version tests above use.
+// override names. This corpus carries zero real instances, so every fixture
+// here is hand-authored — but each version's chapter-length fact it depends
+// on (ASV1901's real Romans 14 and 2 Samuel 22) is real, checked against
+// that version's own data.
 describe("completeTruncatedRange — the real ASV1901 PSA 18:1 near-miss (whole-chapter-equivalence gate)", () => {
   it("should NOT be a finding: a bare-chapter target whose display spells out that exact chapter's own verses 1..51 (ASV1901's real 2 Samuel 22 length)", () => {
-    // The real, unedited ASV1901 PSA 18:1 footnote link. Getting this test
-    // right matters more than any other fixture here — a false positive
-    // would flag real, correct content.
+    // The real, unedited ASV1901 PSA 18:1 footnote link — a false positive
+    // here would flag real, correct content.
     expect(
       completeTruncatedRange("ASV1901", { bibleLink: "2 Samuel 22", content: "2 Sam. 22:1–51" })
     ).toBeNull();
@@ -517,5 +502,225 @@ describe("reconstructTruncatedRangesInContent — the content-tree transform", (
     const second = reconstructTruncatedRangesInContent("ASV1901", first.content);
     expect(second.changed).toBe(false);
     expect(second.content).toEqual(first.content);
+  });
+});
+
+// A bibleLink target must resolve to a verse the version actually carries.
+// The real ASV1901 Mark 9:44 case is the shape this exists for: its own
+// footnote explains that verses 44 and 46 "are omitted by the best ancient
+// authorities," and its link to "Mark 9:46" lands nowhere, since ASV1901
+// never recorded that verse. The tests below classify the bare target
+// string directly, so they hold regardless of whether the corpus itself
+// still links to it.
+describe("findUnresolvableTarget — the single-target entry point (G4)", () => {
+  it("should report the real ASV1901 Mark 9:44 finding — a target naming a verse the chapter does not carry (ASV1901's Mark 9 runs to verse 50, but verse 46 itself was never recorded)", () => {
+    const result = findUnresolvableTarget("ASV1901", "Mark 9:46");
+    expect(result).not.toBeNull();
+    expect(result!.reason).toBe("verse-not-carried");
+    expect(result!.book).toBe("MRK");
+    expect(result!.chapter).toBe(9);
+    expect(result!.verse).toBe(46);
+  });
+
+  it("should not flag Mark 9:44 itself, the neighboring target in the same footnote — ASV1901 does carry a record for it", () => {
+    expect(findUnresolvableTarget("ASV1901", "Mark 9:44")).toBeNull();
+  });
+
+  it("should report a target naming a chapter the version does not carry, naming this version's own real last chapter (YLT1898's real Jude has only chapter 1)", () => {
+    const result = findUnresolvableTarget("YLT1898", "Jude 2:1");
+    expect(result).not.toBeNull();
+    expect(result!.reason).toBe("chapter-not-carried");
+    expect(result!.book).toBe("JUD");
+    expect(result!.chapter).toBe(2);
+    expect(result!.lastChapterInVersion).toBe(1);
+  });
+
+  it("should report a target naming a book outside the version's own canon, with its own reason (BYZ2018 carries no Old Testament)", () => {
+    const result = findUnresolvableTarget("BYZ2018", "Genesis 1:1");
+    expect(result).not.toBeNull();
+    expect(result!.reason).toBe("book-not-in-canon");
+    expect(result!.book).toBeNull();
+    expect(result!.bookName).toBe("Genesis");
+  });
+
+  it("should not flag a target that resolves (real WEBUS2020 Exodus 3:3–4 footnote target)", () => {
+    expect(findUnresolvableTarget("WEBUS2020", "Exodus 3:3–4")).toBeNull();
+  });
+
+  it("should read this version's own real last verse rather than a shared table — ASV1901's Romans 14 ends at 23", () => {
+    const result = findUnresolvableTarget("ASV1901", "Romans 14:26");
+    expect(result).not.toBeNull();
+    expect(result!.reason).toBe("verse-not-carried");
+  });
+
+  it("should not flag the identical verse number checked against a version whose chapter really does run that long (WEBUS2020's Romans 14 ends at 26)", () => {
+    expect(findUnresolvableTarget("WEBUS2020", "Romans 14:26")).toBeNull();
+  });
+
+  it("should never flag a target the endpoint grammar cannot parse at all — the real WEBUS2020 Hebrews 1:6 siglum verify.ts already asserts by name", () => {
+    expect(findUnresolvableTarget("WEBUS2020", "Deuteronomy 32:43 LXX")).toBeNull();
+  });
+
+  it("should never flag a comma-merged target — classifyBibleLink never resolves one to a book/chapter/verse to judge (real WEBUS2020 Matthew 5:4 target)", () => {
+    expect(findUnresolvableTarget("WEBUS2020", "Isaiah 66:10, 13")).toBeNull();
+  });
+});
+
+describe("findUnresolvableTargets — corpus-wide sweep (G4)", () => {
+  it("should report zero findings corpus-wide, now that this repo's own --fix run has unlinked its one real ASV1901 Mark 9:44 finding", () => {
+    const allFindings = getVersionDirectories().flatMap((version) => findUnresolvableTargets(version).findings);
+    expect(allFindings).toHaveLength(0);
+  }, 15000);
+
+  it("should never write to bible-versions/ — running the sweep twice must produce byte-identical results", () => {
+    const sweep = () => getVersionDirectories().map((version) => findUnresolvableTargets(version));
+    expect(JSON.stringify(sweep())).toBe(JSON.stringify(sweep()));
+  }, 15000);
+});
+
+describe("formatUnresolvableTargetFinding", () => {
+  it("should format a verse-not-carried finding into the one-line report format", () => {
+    const finding: UnresolvableTargetFinding = {
+      reason: "verse-not-carried",
+      bookName: "Mark",
+      book: "MRK",
+      chapter: 9,
+      verse: 46,
+      lastChapterInVersion: 16,
+      atBook: "MRK",
+      atChapter: 9,
+      atVerse: 44,
+      footnoteType: "var",
+      zone: "verse",
+      target: "Mark 9:46",
+    };
+    expect(formatUnresolvableTargetFinding(finding)).toBe(
+      'MRK 9:44 [var/verse]: "Mark 9:46" does not resolve — Mark 9:46 — this version carries no such verse',
+    );
+  });
+
+  it("should name this version's own real chapter count in a chapter-not-carried finding's message", () => {
+    const finding: UnresolvableTargetFinding = {
+      reason: "chapter-not-carried",
+      bookName: "Jude",
+      book: "JUD",
+      chapter: 2,
+      verse: 1,
+      lastChapterInVersion: 1,
+      atBook: "JUD",
+      atChapter: 1,
+      atVerse: 1,
+      footnoteType: null,
+      zone: "verse",
+      target: "Jude 2:1",
+    };
+    expect(formatUnresolvableTargetFinding(finding)).toContain("1 chapter(s) in Jude");
+  });
+});
+
+// The fixer — unlinkUnresolvableTargetsInContent. Its substitution is
+// exactly what a reader was already seeing: a string override collapses to
+// that override as plain content; no override at all collapses to the
+// target string; an object or array override keeps that value as its own
+// content; a resolvable node is untouched; an unparsed target is never
+// touched; an override present but empty declines with a named reason.
+describe("unlinkUnresolvableTargetsInContent — the fixer (G4)", () => {
+  it("should collapse the real ASV1901 Mark 9:44 shape's string override to plain content", () => {
+    const { content, changed, skipped } = unlinkUnresolvableTargetsInContent("ASV1901", {
+      bibleLink: "Mark 9:46",
+      content: "46",
+    });
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(content).toBe("46");
+  });
+
+  it("should collapse to the target string itself when there is no display override at all — what the reader was already seeing", () => {
+    const { content, changed } = unlinkUnresolvableTargetsInContent("ASV1901", { bibleLink: "Mark 9:46" });
+    expect(changed).toBe(true);
+    expect(content).toBe("Mark 9:46");
+  });
+
+  it("should keep an object override as its own content, not the target string (synthetic — no real corpus case)", () => {
+    const override: Content = { text: "the omitted verse", marks: ["i"] };
+    const { content, changed } = unlinkUnresolvableTargetsInContent("ASV1901", {
+      bibleLink: "Mark 9:46",
+      content: override,
+    });
+    expect(changed).toBe(true);
+    expect(content).toEqual(override);
+  });
+
+  it("should keep an array override as its own content, not the target string (synthetic — no real corpus case)", () => {
+    const override: Content = [{ text: "the " }, { text: "omitted", marks: ["i"] }, { text: " verse" }];
+    const { content, changed } = unlinkUnresolvableTargetsInContent("ASV1901", {
+      bibleLink: "Mark 9:46",
+      content: override,
+    });
+    expect(changed).toBe(true);
+    expect(content).toEqual(override);
+  });
+
+  it("should leave a resolvable bibleLink node untouched", () => {
+    const original = { bibleLink: "Mark 9:44" };
+    const { content, changed, skipped } = unlinkUnresolvableTargetsInContent("ASV1901", original);
+    expect(changed).toBe(false);
+    expect(skipped).toEqual([]);
+    expect(content).toEqual(original);
+  });
+
+  it("should never touch a target the endpoint grammar cannot parse — the real WEBUS2020 Hebrews 1:6 siglum verify.ts already asserts by name", () => {
+    const original = { bibleLink: "Deuteronomy 32:43 LXX" };
+    const { content, changed } = unlinkUnresolvableTargetsInContent("WEBUS2020", original);
+    expect(changed).toBe(false);
+    expect(content).toEqual(original);
+  });
+
+  it("should decline with a named reason, rather than deleting text outright, when the override is present but empty (synthetic)", () => {
+    const original = { bibleLink: "Mark 9:46", content: { text: "" } };
+    const { content, changed, skipped } = unlinkUnresolvableTargetsInContent("ASV1901", original);
+    expect(changed).toBe(false);
+    expect(content).toEqual(original);
+    expect(skipped).toEqual(["empty-override"]);
+  });
+
+  it("should splice the real ASV1901 Mark 9:44 footnote array in place, leaving the resolvable neighbors untouched", () => {
+    const original = [
+      { bibleLink: "Mark 9:44" },
+      " and ",
+      { bibleLink: "Mark 9:46", content: "46" },
+      " (which are identical with ",
+      { bibleLink: "Mark 9:48" },
+      ") are omitted by the best ancient authorities.",
+    ];
+    const { content, changed, skipped } = unlinkUnresolvableTargetsInContent("ASV1901", original);
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(content).toEqual([
+      { bibleLink: "Mark 9:44" },
+      " and ",
+      "46",
+      " (which are identical with ",
+      { bibleLink: "Mark 9:48" },
+      ") are omitted by the best ancient authorities.",
+    ]);
+  });
+
+  it("should be idempotent — running it again on already-unlinked content changes nothing", () => {
+    const first = unlinkUnresolvableTargetsInContent("ASV1901", { bibleLink: "Mark 9:46", content: "46" });
+    expect(first.changed).toBe(true);
+
+    const second = unlinkUnresolvableTargetsInContent("ASV1901", first.content);
+    expect(second.changed).toBe(false);
+    expect(second.content).toEqual(first.content);
+  });
+
+  it("should recurse into heading, subtitle, and foot.content the same way the cross-chapter split does", () => {
+    const { content, changed } = unlinkUnresolvableTargetsInContent("ASV1901", {
+      text: "omitted",
+      foot: { type: "var", content: [{ bibleLink: "Mark 9:46", content: "46" }] },
+    });
+    expect(changed).toBe(true);
+    expect(content).toEqual({ text: "omitted", foot: { type: "var", content: ["46"] } });
   });
 });

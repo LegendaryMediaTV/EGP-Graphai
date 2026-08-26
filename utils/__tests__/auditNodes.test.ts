@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import Content from "../../types/Content";
+import Footnote from "../../types/Footnote";
 import { getVersionDirectories } from "../../functions/getBibleVersions";
 import { uniformFraction } from "../../functions/normalizeFractions";
 import {
@@ -458,6 +459,127 @@ describe("findStrongsNodeIssues — straight quotes", () => {
   });
 });
 
+describe("findStrongsNodeIssues — non-standard whitespace (check 16)", () => {
+  // Synthetic fixtures throughout — the corpus carries none of these
+  // characters today, and that is the point: a check reporting zero on a
+  // clean corpus proves nothing about whether the check itself works, only
+  // fault injection does.
+
+  it("should flag a node whose text carries a non-breaking space (U+00A0), naming its codepoint", () => {
+    const content: Content = [{ text: "10 a.m." }];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].path).toBe("content[0]");
+    expect(findings[0].codePoint).toBe("U+00A0");
+  });
+
+  it("should flag a thin space (U+2009)", () => {
+    const content: Content = [{ text: "a b" }];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].codePoint).toBe("U+2009");
+  });
+
+  it("should flag a zero-width space (U+200B)", () => {
+    const content: Content = [{ text: "a​b" }];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].codePoint).toBe("U+200B");
+  });
+
+  it("should flag a narrow no-break space (U+202F)", () => {
+    const content: Content = [{ text: "a b" }];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].codePoint).toBe("U+202F");
+  });
+
+  it("should flag a zero-width no-break space / byte-order mark (U+FEFF)", () => {
+    const content: Content = [{ text: "﻿a" }];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].codePoint).toBe("U+FEFF");
+  });
+
+  it("should flag a tab", () => {
+    const content: Content = [{ text: "a\tb" }];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].codePoint).toBe("U+0009");
+  });
+
+  it("should flag a bare newline", () => {
+    const content: Content = [{ text: "a\nb" }];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].codePoint).toBe("U+000A");
+  });
+
+  it("should stay silent on an ordinary ASCII space — this corpus's own sanctioned whitespace character", () => {
+    const content: Content = [{ text: "the servant's word", marks: ["i"] }];
+    expect(findStrongsNodeIssues(content).nonStandardWhitespaceFindings).toEqual([]);
+  });
+
+  it("should flag a bare string carrying a non-breaking space — bare strings are real content here, not just object nodes", () => {
+    const content: Content = ["10 a.m."];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].path).toBe("content[0]");
+  });
+
+  it("should include a short excerpt of the surrounding text, truncated with an ellipsis marker, matching check 11's own excerpt shape", () => {
+    const prefix = "word ".repeat(10);
+    const suffix = " word".repeat(10);
+    const text = `${prefix}ten am${suffix}`;
+    const content: Content = [{ text }];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].excerpt).toContain("ten");
+    expect(findings[0].excerpt.length).toBeLessThan(text.length);
+    expect(findings[0].excerpt.startsWith("…")).toBe(true);
+    expect(findings[0].excerpt.endsWith("…")).toBe(true);
+  });
+
+  it("should report each offending node's own path when more than one node in the same array carries a non-standard whitespace character", () => {
+    const content: Content = [{ text: "a b" }, "plain text", { text: "c d" }];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings.map((finding) => finding.path)).toEqual(["content[0]", "content[2]"]);
+  });
+
+  it("should descend into a footnote body's own content, the same as every other check in this recursion", () => {
+    const content: Content = [
+      { text: "word", foot: { type: "trn", content: [{ text: "a b" }] } },
+    ];
+    expect(
+      findStrongsNodeIssues(content).nonStandardWhitespaceFindings.map((finding) => finding.path),
+    ).toEqual(["content.foot.content[0]"]);
+  });
+});
+
+describe("findStrongsNodeIssues — the {paragraph: <content>} wrapper (walkLevel's own blind spot, closed)", () => {
+  it("should descend into a {paragraph: <content>} wrapper — the schema-permitted content-bearing shape, distinct from an ordinary text node's own boolean paragraph flag", () => {
+    const content: Content = [
+      { paragraph: [{ text: "the servant's word" }] } as unknown as Content,
+    ];
+    const findings = findStrongsNodeIssues(content).straightQuoteFindings;
+    expect(findings.map((finding) => finding.path)).toEqual(["content.paragraph[0]"]);
+  });
+
+  it("should still treat an ordinary boolean paragraph flag as a flag, not a wrapper to descend into", () => {
+    const content: Content = [{ paragraph: true, text: "the servant's word" }];
+    const findings = findStrongsNodeIssues(content).straightQuoteFindings;
+    expect(findings.map((finding) => finding.path)).toEqual(["content[0]"]);
+  });
+
+  it("should find a non-standard whitespace character nested inside a {paragraph: <content>} wrapper (check 16 shares the same recursion)", () => {
+    const content: Content = [
+      { paragraph: [{ text: "a b" }] } as unknown as Content,
+    ];
+    const findings = findStrongsNodeIssues(content).nonStandardWhitespaceFindings;
+    expect(findings.map((finding) => finding.path)).toEqual(["content.paragraph[0]"]);
+  });
+});
+
 describe("findHeadingParagraphMismatches", () => {
   // Fixtures combine real verse shapes with invented ones into small
   // synthetic "books"; production always passes exactly one real book's own
@@ -846,6 +968,319 @@ describe("findStrongsNodeIssues — mark-boundary embedded spaces", () => {
   });
 });
 
+describe("findStrongsNodeIssues — footnote marker after whitespace", () => {
+  it("should flag a footed node whose own text ends in whitespace, with a real node after it — real ASV1901 Genesis 1:2 shape", () => {
+    const content: Content = [
+      {
+        text: "And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God ",
+        foot: { type: "trn", content: ["Or, ", { text: "was brooding upon", marks: ["i"] }] },
+      },
+      "moved upon the face of the waters.",
+    ];
+    const findings = findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].node).toEqual(content[0]);
+    expect(findings[0].next).toEqual(content[1]);
+  });
+
+  it("should flag the same own-text-ends-in-whitespace shape at the end of an array, with no real node to relocate onto", () => {
+    const content: Content = [{ text: "the earth ", foot: { type: "trn", content: "note" } }];
+    const findings = findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].node).toEqual(content[0]);
+    expect(findings[0].next).toBeUndefined();
+  });
+
+  it("should flag a textless foot anchor whose predecessor's text ends in whitespace — real WEBUS2020 Mark 9:44 shape", () => {
+    const content: Content = [
+      {
+        text: "‘where their worm doesn’t die, and the fire is not quenched.’ ",
+        marks: ["woc"],
+        foot: { type: "xrf", content: { bibleLink: "Isaiah 66:24" } },
+      },
+      { foot: { type: "var", content: "NU omits verse 44." } },
+    ];
+    const findings = findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace;
+    // Both the leading node (its own text ends in whitespace, with the
+    // textless anchor as its own "next") and the textless anchor itself
+    // (rendering nothing of its own, so its marker lands wherever the
+    // accumulated text already ends — and nothing follows it either) are
+    // separate findings.
+    expect(findings).toHaveLength(2);
+    expect(findings[0].node).toEqual(content[0]);
+    expect(findings[1].node).toEqual(content[1]);
+    expect(findings[1].next).toBeUndefined();
+  });
+
+  it("should not flag a footed node whose own text ends cleanly", () => {
+    const content: Content = [
+      { text: "the earth", foot: { type: "trn", content: "note" } },
+      " was formed.",
+    ];
+    expect(findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace).toEqual([]);
+  });
+
+  it("should not flag a node with no foot at all, even when its own text ends in whitespace", () => {
+    const content: Content = [{ text: "the earth " }, "was formed."];
+    expect(findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace).toEqual([]);
+  });
+
+  it("should skip through a textless Strong's sibling when reporting the real next node", () => {
+    const content: Content = [
+      { text: "the earth ", foot: { type: "trn", content: "note" } },
+      { strong: "H776" },
+      "was formed.",
+    ];
+    const findings = findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].next).toEqual(content[2]);
+  });
+
+  it("should stay silent on a ContentNested wrapper's own foot — this array level can't see its own last rendered character", () => {
+    const content: Content = [
+      { text: "the earth ", strong: "H776" },
+      { content: ["was formed"], strong: "H1961", foot: { type: "trn", content: "note" } } as unknown as Content,
+    ];
+    expect(findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace).toEqual([]);
+  });
+
+  it("should fall through an empty-text husk to the real predecessor's own text", () => {
+    const content: Content = [
+      { text: "the earth ", strong: "H776" },
+      { text: "", foot: { type: "trn", content: "note" } },
+    ];
+    const findings = findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].node).toEqual(content[1]);
+  });
+});
+
+describe("findStrongsNodeIssues — untagged script run", () => {
+  it("should flag a bare footnote-body string mixing Latin text with an untagged Hebrew word — real WEBUS2020 Numbers 15:38 shape", () => {
+    const content: Content = [
+      {
+        text: "make themselves fringes",
+        foot: { type: "trn", content: "or, tassels (Hebrew צִיצִ֛ת)" },
+      },
+    ];
+    const findings = findStrongsNodeIssues(content).untaggedScriptRuns;
+    expect(findings).toEqual(["content.foot.content[0]"]);
+  });
+
+  it("should flag the same shape for an untagged Greek word — real YLT1898 Revelation 13:18 shape", () => {
+    const content: Content = ["gives the number not in words but in letters, viz., χξς, i.e. 600"];
+    expect(findStrongsNodeIssues(content).untaggedScriptRuns).toEqual(["content[0]"]);
+  });
+
+  it("should not flag a node already carrying script — real WEBUS2020 Psalm 3:2 shape", () => {
+    const content: Content = [
+      "The Hebrew word rendered “God” is “",
+      { text: "אֱלֹהִ֑ים", script: "H" },
+      "” (Elohim).",
+    ];
+    expect(findStrongsNodeIssues(content).untaggedScriptRuns).toEqual([]);
+  });
+
+  it("should not flag an all-Greek string on an all-Greek version's node — the rule is about mixing, which is what keeps BYZ2018's 154,305 Greek nodes out of it", () => {
+    const content: Content = ["εἵνεκεν ἕνεκεν"];
+    expect(findStrongsNodeIssues(content).untaggedScriptRuns).toEqual([]);
+  });
+
+  it("should not flag ordinary Latin-only prose", () => {
+    const content: Content = ["A cubit is about 18 inches."];
+    expect(findStrongsNodeIssues(content).untaggedScriptRuns).toEqual([]);
+  });
+
+  it("should flag a synthetic Latin/Hebrew mix outside a footnote or heading", () => {
+    const content: Content = ["the word אמת means truth"];
+    expect(findStrongsNodeIssues(content).untaggedScriptRuns).toEqual(["content[0]"]);
+  });
+});
+
+describe("findStrongsNodeIssues — duplicate footnote anchor", () => {
+  it("should flag a textless node whose foot byte-for-byte repeats its predecessor's — real BYZ2018 2 Corinthians 7:12 shape", () => {
+    const content: Content = [
+      {
+        text: " εἵνεκεν",
+        script: "G",
+        foot: { type: "var", content: ["B ", { text: "εἵνεκεν", script: "G" }, " ⇒ ", { text: "ἕνεκεν", script: "G" }] },
+        strong: "G1752",
+        morph: "PREP",
+      },
+      { foot: { type: "var", content: ["B ", { text: "εἵνεκεν", script: "G" }, " ⇒ ", { text: "ἕνεκεν", script: "G" }] } },
+    ];
+    const findings = findStrongsNodeIssues(content).duplicateFootnoteAnchors;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].target).toEqual(content[0]);
+    expect(findings[0].node).toEqual(content[1]);
+  });
+
+  it("should flag every repeat in a chain of three, not just the one touching the real node — real BYZ2018 2 Corinthians 7:12 shape (three markers share one apparatus note)", () => {
+    const note: Footnote = {
+      type: "var",
+      content: ["B ", { text: "εἵνεκεν", script: "G" }, " ⇒ ", { text: "ἕνεκεν", script: "G" }],
+    };
+    const content: Content = [
+      { text: " εἵνεκεν", script: "G", foot: note, strong: "G1752", morph: "PREP" },
+      { foot: { ...note } },
+      { foot: { ...note } },
+    ];
+    const findings = findStrongsNodeIssues(content).duplicateFootnoteAnchors;
+    expect(findings).toHaveLength(2);
+    expect(findings[0].node).toEqual(content[1]);
+    expect(findings[1].node).toEqual(content[2]);
+    // Both compare against the one real node, not against each other — the
+    // second duplicate is deleted just as surely as the first, per the top
+    // doc comment's "nearest node not itself flagged for deletion" rule.
+    expect(findings[0].target).toEqual(content[0]);
+    expect(findings[1].target).toEqual(content[0]);
+  });
+
+  it("should not flag a byte-identical foot when the later node still renders real text — real ASV1901 Genesis 3:14 shape (183-of-203 case: one note correctly annotating two real word occurrences)", () => {
+    const note: Footnote = { type: "trn", content: ["Or, ", { text: "from among", marks: ["i"] }] };
+    const content: Content = [
+      { text: "cursed art thou", foot: note },
+      { text: " above all cattle, and", foot: { ...note } },
+      " above every beast of the field",
+    ];
+    expect(findStrongsNodeIssues(content).duplicateFootnoteAnchors).toEqual([]);
+  });
+
+  it("should not flag two adjacent textless anchors whose own foot values genuinely differ only in their own manuscript-witness prefix — real BYZ2018 Revelation 7:5 shape (both type \"var\"; \"B \" against a distinct \"N \" variant note immediately after)", () => {
+    const content: Content = [
+      {
+        text: " ἐσφραγισμέναι·",
+        script: "G",
+        foot: { type: "var", content: ["B ", { text: "ἐσφραγισμέναι", script: "G" }, " ⇒ ", { text: "ἐσφραγισμένοι", script: "G" }] },
+        strong: "G4972",
+        morph: "V-RPP-NPF",
+      },
+      {
+        foot: { type: "var", content: ["N ", { text: "ἐσφραγισμέναι", script: "G" }, " ⇒ ", { text: "ἐσφραγισμένοι", script: "G" }] },
+      },
+    ];
+    expect(findStrongsNodeIssues(content).duplicateFootnoteAnchors).toEqual([]);
+  });
+
+  it("should not flag a node with no foot at all, even sitting beside a footed node", () => {
+    const content: Content = [
+      { text: "word", foot: { type: "trn", content: "note" } },
+      { text: "" },
+    ];
+    expect(findStrongsNodeIssues(content).duplicateFootnoteAnchors).toEqual([]);
+  });
+
+  it("should not flag the first node in an array, regardless of its own foot", () => {
+    const content: Content = [{ foot: { type: "trn", content: "note" } }];
+    expect(findStrongsNodeIssues(content).duplicateFootnoteAnchors).toEqual([]);
+  });
+
+  it("should not flag an empty-text husk immediately following a node with no foot at all", () => {
+    const content: Content = [
+      { text: "word" },
+      { text: "", foot: { type: "trn", content: "note" } },
+    ];
+    expect(findStrongsNodeIssues(content).duplicateFootnoteAnchors).toEqual([]);
+  });
+});
+
+describe("findStrongsNodeIssues — mergeable siblings (check 15)", () => {
+  it("should flag a bare string immediately followed by a text-only object — real YLT1898 Exodus 3:1 heading shape", () => {
+    const content: Content = { heading: ["The Angel of the ", { text: "Jehovah" }] };
+    const findings = findStrongsNodeIssues(content).mergeableSiblingPairs;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].where).toBe("content.heading");
+    expect(findings[0].first).toBe("The Angel of the ");
+    expect(findings[0].second).toEqual({ text: "Jehovah" });
+  });
+
+  it("should flag two adjacent bare strings — real YLT1898 John 1:1 shape", () => {
+    const content: Content = [
+      "In the beginning was the Word,",
+      " and the Word was with God, and the Word was God;",
+    ];
+    const findings = findStrongsNodeIssues(content).mergeableSiblingPairs;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].first).toBe("In the beginning was the Word,");
+    expect(findings[0].second).toBe(" and the Word was with God, and the Word was God;");
+  });
+
+  it("should flag two adjacent objects that agree in marks and script — real YLT1898 Revelation 3:1 shape", () => {
+    const content: Content = [
+      { text: "Sardis", marks: ["woc"] },
+      { text: " write: these things", marks: ["woc"] },
+    ];
+    const findings = findStrongsNodeIssues(content).mergeableSiblingPairs;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].first).toEqual({ text: "Sardis", marks: ["woc"] });
+    expect(findings[0].second).toEqual({ text: " write: these things", marks: ["woc"] });
+  });
+
+  it("should not flag two adjacent objects that disagree in marks", () => {
+    const content: Content = [
+      { text: "Sardis", marks: ["woc"] },
+      { text: " write", marks: ["sc"] },
+    ];
+    expect(findStrongsNodeIssues(content).mergeableSiblingPairs).toEqual([]);
+  });
+
+  it("should not flag two adjacent objects that disagree in script", () => {
+    const content: Content = [
+      { text: "אמת", script: "H" },
+      { text: "אחר", script: "G" as unknown as "H" },
+    ];
+    expect(findStrongsNodeIssues(content).mergeableSiblingPairs).toEqual([]);
+  });
+
+  it("should not flag a pair where the earlier node ends with a break", () => {
+    const content: Content = [
+      { text: "foo", break: true },
+      { text: "bar" },
+    ];
+    expect(findStrongsNodeIssues(content).mergeableSiblingPairs).toEqual([]);
+  });
+
+  it("should not flag a pair where the later node opens a paragraph", () => {
+    const content: Content = [
+      { text: "foo" },
+      { paragraph: true, text: "bar" },
+    ];
+    expect(findStrongsNodeIssues(content).mergeableSiblingPairs).toEqual([]);
+  });
+
+  it("should not flag a pair where the earlier node carries a strong number", () => {
+    const content: Content = [
+      { text: "foo", strong: "H1" },
+      { text: "bar" },
+    ];
+    expect(findStrongsNodeIssues(content).mergeableSiblingPairs).toEqual([]);
+  });
+
+  it("should not flag a pair where the later node carries a foot", () => {
+    const content: Content = [
+      { text: "foo" },
+      { text: "bar", foot: { type: "trn", content: "note" } },
+    ];
+    expect(findStrongsNodeIssues(content).mergeableSiblingPairs).toEqual([]);
+  });
+
+  it("should not flag a pair where the later node is a bibleLink", () => {
+    const content: Content = [
+      { text: "See " },
+      { bibleLink: "John 3:16" },
+    ] as unknown as Content;
+    expect(findStrongsNodeIssues(content).mergeableSiblingPairs).toEqual([]);
+  });
+
+  it("should not flag a pair where the earlier node carries nested content", () => {
+    const content: Content = [
+      { content: ["foo"], strong: "H1" } as unknown as Content,
+      "bar",
+    ] as unknown as Content;
+    expect(findStrongsNodeIssues(content).mergeableSiblingPairs).toEqual([]);
+  });
+});
+
 describe("findStrongsNodeIssues — recursion", () => {
   it("should descend into a subtitle node's own inner content", () => {
     const content: Content = { subtitle: ["A ", { text: "! psalm", strong: "H4210" }] };
@@ -911,6 +1346,14 @@ describe("findStrongsNodeIssues — recursion", () => {
     expect(findings[0].where).toBe("content.foot.content");
   });
 
+  it("should find an untagged-script-run finding inside a ContentNested wrapper's own content too", () => {
+    const content: Content = [
+      { content: ["the word אמת means truth"], strong: "H571" } as unknown as Content,
+    ];
+    const findings = findStrongsNodeIssues(content).untaggedScriptRuns;
+    expect(findings).toEqual(["content.content[0]"]);
+  });
+
   it("should find a mark-boundary-embedded-space finding inside a footnote body's own content too", () => {
     const content: Content = [
       {
@@ -925,6 +1368,40 @@ describe("findStrongsNodeIssues — recursion", () => {
       },
     ];
     const findings = findStrongsNodeIssues(content).markBoundaryEmbeddedSpaces;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].where).toBe("content.foot.content");
+  });
+
+  it("should find a duplicate-footnote-anchor finding inside a footnote body's own content too", () => {
+    const note: Footnote = { type: "var", content: "inner note" };
+    const content: Content = [
+      {
+        text: "word",
+        foot: {
+          type: "trn",
+          content: [
+            { text: "inner", foot: note },
+            { foot: { ...note } },
+          ],
+        },
+      },
+    ];
+    const findings = findStrongsNodeIssues(content).duplicateFootnoteAnchors;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].where).toBe("content.foot.content");
+  });
+
+  it("should find a mergeable-sibling-pair finding inside a footnote body's own content too", () => {
+    const content: Content = [
+      {
+        text: "word",
+        foot: {
+          type: "trn",
+          content: ["Or, ", { text: "from among" }],
+        },
+      },
+    ];
+    const findings = findStrongsNodeIssues(content).mergeableSiblingPairs;
     expect(findings).toHaveLength(1);
     expect(findings[0].where).toBe("content.foot.content");
   });
@@ -974,10 +1451,9 @@ describe("auditVersion / auditVersions — real, on-disk corpus", () => {
   // whole corpus is asserted rather than one version at a time. Raw sources
   // rarely write the paragraph themselves — a USFM `\d` superscription,
   // `\sp` speaker label, or `\qc` acrostic letter is normally followed by a
-  // bare `\q1`, never a `\p` — which is why 358 runs across four versions
-  // were missing it until `usfm/segmentVerses.ts`'s heading dispatch started
-  // supplying it and `utils/fixHeadingParagraphs.ts` backfilled the versions
-  // already on disk.
+  // bare `\q1`, never a `\p` — which is why `usfm/segmentVerses.ts`'s
+  // heading dispatch supplies it going forward, and
+  // `utils/fixHeadingParagraphs.ts` backfilled the versions already on disk.
   it("should report zero heading/paragraph mismatches anywhere in the corpus — every heading and subtitle opens whatever follows it", () => {
     for (const summary of auditVersions()) {
       expect(summary.headingParagraphMismatches).toEqual([]);
@@ -996,6 +1472,7 @@ describe("exitCodeFor", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
       trailingWhitespace: [{ version: "X", file: "01-GEN.json", book: "GEN", chapter: 1, verse: 1, path: "content[0]" }],
       leadingPunctuation: [],
       markBoundarySpaces: [],
@@ -1006,6 +1483,35 @@ describe("exitCodeFor", () => {
       markBoundaryEmbeddedSpaces: [],
       ellipsisFindings: [],
       straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit non-zero when a version carries only a duplicate-footnote-anchor finding", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      duplicateFootnoteAnchors: [
+        { version: "X", file: "08-2CO.json", book: "2CO", chapter: 7, verse: 12, where: "content", node: {}, target: {} },
+      ],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
+      footnotePunctuationOrder: [],
+      markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -1014,6 +1520,7 @@ describe("exitCodeFor", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
       trailingWhitespace: [],
       leadingPunctuation: [],
       markBoundarySpaces: [
@@ -1026,6 +1533,10 @@ describe("exitCodeFor", () => {
       markBoundaryEmbeddedSpaces: [],
       ellipsisFindings: [],
       straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -1034,6 +1545,7 @@ describe("exitCodeFor", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
       trailingWhitespace: [],
       leadingPunctuation: [],
       markBoundarySpaces: [],
@@ -1046,6 +1558,10 @@ describe("exitCodeFor", () => {
       markBoundaryEmbeddedSpaces: [],
       ellipsisFindings: [],
       straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -1054,6 +1570,7 @@ describe("exitCodeFor", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
       trailingWhitespace: [],
       leadingPunctuation: [],
       markBoundarySpaces: [],
@@ -1066,6 +1583,10 @@ describe("exitCodeFor", () => {
       markBoundaryEmbeddedSpaces: [],
       ellipsisFindings: [],
       straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -1074,6 +1595,7 @@ describe("exitCodeFor", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
       trailingWhitespace: [],
       leadingPunctuation: [],
       markBoundarySpaces: [],
@@ -1086,6 +1608,10 @@ describe("exitCodeFor", () => {
       markBoundaryEmbeddedSpaces: [],
       ellipsisFindings: [],
       straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -1094,6 +1620,7 @@ describe("exitCodeFor", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
       trailingWhitespace: [],
       leadingPunctuation: [],
       markBoundarySpaces: [],
@@ -1106,6 +1633,10 @@ describe("exitCodeFor", () => {
       markBoundaryEmbeddedSpaces: [],
       ellipsisFindings: [],
       straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -1114,6 +1645,7 @@ describe("exitCodeFor", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
       trailingWhitespace: [],
       leadingPunctuation: [],
       markBoundarySpaces: [],
@@ -1126,6 +1658,10 @@ describe("exitCodeFor", () => {
       ],
       ellipsisFindings: [],
       straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -1134,6 +1670,7 @@ describe("exitCodeFor", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
       trailingWhitespace: [],
       leadingPunctuation: [],
       markBoundarySpaces: [],
@@ -1146,6 +1683,10 @@ describe("exitCodeFor", () => {
         { version: "X", file: "53-2ES.json", book: "2ES", chapter: 9, verse: 13, path: "content[0].foot.content[1]" },
       ],
       straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -1154,6 +1695,7 @@ describe("exitCodeFor", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
       trailingWhitespace: [],
       leadingPunctuation: [],
       markBoundarySpaces: [],
@@ -1166,14 +1708,19 @@ describe("exitCodeFor", () => {
       straightQuoteFindings: [
         { version: "X", file: "01-GEN.json", book: "GEN", chapter: 1, verse: 1, path: "content[0]", character: "'", excerpt: "servant's" },
       ],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
 
-  it("should exit zero when a version carries no finding across all eleven checks", () => {
+  it("should exit non-zero when a version carries only a footnote-marker-after-whitespace finding", () => {
     const summary = {
       version: "X",
       unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
       trailingWhitespace: [],
       leadingPunctuation: [],
       markBoundarySpaces: [],
@@ -1184,6 +1731,110 @@ describe("exitCodeFor", () => {
       markBoundaryEmbeddedSpaces: [],
       ellipsisFindings: [],
       straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [
+        { version: "X", file: "01-GEN.json", book: "GEN", chapter: 1, verse: 2, where: "content", node: {}, next: {} },
+      ],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit non-zero when a version carries only an untagged-script-run finding", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
+      footnotePunctuationOrder: [],
+      markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [
+        { version: "X", file: "04-NUM.json", book: "NUM", chapter: 15, verse: 38, path: "content.foot.content[0]" },
+      ],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit non-zero when a version carries only a mergeable-sibling-pair finding", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
+      footnotePunctuationOrder: [],
+      markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [
+        { version: "X", file: "02-EXO.json", book: "EXO", chapter: 3, verse: 1, where: "content.heading", first: "The Angel of the ", second: { text: "Jehovah" } },
+      ],
+      nonStandardWhitespaceFindings: [],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit non-zero when a version carries only a non-standard-whitespace finding", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
+      footnotePunctuationOrder: [],
+      markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [
+        { version: "X", file: "01-GEN.json", book: "GEN", chapter: 1, verse: 1, path: "content[0]", codePoint: "U+00A0", excerpt: "10 a.m." },
+      ],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit zero when a version carries no finding across all sixteen checks", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
+      footnotePunctuationOrder: [],
+      markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
     } as const;
     expect(exitCodeFor([summary])).toBe(0);
   });

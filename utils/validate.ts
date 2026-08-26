@@ -13,15 +13,24 @@ import {
 import Content, { ContentBibleLink } from "../types/Content";
 import { normalizeFractionsInContent } from "../functions/normalizeFractions";
 import { normalizeEllipsesInContent } from "../functions/normalizeEllipses";
-import BibleVersion from "../types/Version";
+import {
+  tagScriptRunsInContent,
+  SkipReason as UntaggedScriptRunSkipReason,
+} from "../functions/tagScriptRunsInContent";
+import BibleVersion, { VersionBook } from "../types/Version";
 import {
   findCrossChapterLinks,
   findTruncatedRanges,
+  findUnresolvableTargets,
   fixCrossChapterLinks,
   formatCrossChapterFinding,
   formatTruncatedRangeFinding,
+  formatUnresolvableTargetFinding,
   reconstructTruncatedRangesInContent,
+  splitCrossChapterLinksInContent,
+  unlinkUnresolvableTargetsInContent,
   SkipReason as TruncatedRangeSkipReason,
+  UnlinkSkipReason,
 } from "./crossChapterLinks";
 import {
   auditVersion as auditNodeConventions,
@@ -39,6 +48,12 @@ import {
   relocateMarkBoundarySpacesInContent,
   SkipReason as MarkBoundarySpaceSkipReason,
 } from "./fixMarkBoundaryEmbeddedSpaces";
+import {
+  relocateFootnoteMarkerSpacesInContent,
+  SkipReason as FootnoteMarkerSpacingSkipReason,
+} from "./fixFootnoteMarkerSpacing";
+import { removeDuplicateFootnoteAnchorsInContent } from "./fixDuplicateFootnoteAnchors";
+import { mergeEquivalentSiblingsInContent } from "../functions/mergeEquivalentSiblingsInContent";
 
 /** Path to the bible-books registry JSON file. */
 const jsonPath = "./bible-books/bible-books.json";
@@ -254,6 +269,58 @@ async function normalizeEllipsesInFile(filePath: string): Promise<boolean> {
   return false;
 }
 
+/** One check-13 finding {@link tagScriptRunsInFile} declined to fix, with enough identity to report it. */
+interface UntaggedScriptRunSkip {
+  /** Book id the skipped verse belongs to. */
+  book: string;
+  /** Chapter number of the skipped verse. */
+  chapter: number;
+  /** Verse number of the skipped verse. */
+  verse: number;
+  /** Why the split was declined. */
+  reason: UntaggedScriptRunSkipReason;
+}
+
+/**
+ * Tags every check-13-eligible untagged Hebrew or Greek run in one verse
+ * file and writes it back if anything changed — same gate-and-report shape
+ * as {@link reorderFootnotePunctuationInFile}, since {@link
+ * tagScriptRunsInContent} carries an identical contract. Calls
+ * `sortVerseKeys` on every changed verse: unlike the four text-only steps
+ * above it, a split replaces one node with several — new `{text, script}`
+ * nodes the pre-split tree never had — which is exactly the "changes which
+ * keys a node carries" case `mergeUnmergedNodesInFile`'s own doc comment
+ * describes.
+ */
+async function tagScriptRunsInFile(
+  filePath: string,
+): Promise<{ changed: boolean; skipped: UntaggedScriptRunSkip[] }> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const skipped: UntaggedScriptRunSkip[] = [];
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = tagScriptRunsInContent(verse.content as Content);
+    for (const reason of rewritten.skipped) {
+      skipped.push({
+        book: verse.book as string,
+        chapter: verse.chapter as number,
+        verse: verse.verse as number,
+        reason,
+      });
+    }
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+  }
+  return { changed: anyChanged, skipped };
+}
+
 /**
  * Merges every check-1-eligible unmerged node pair in one verse file and
  * writes it back if anything changed.
@@ -383,6 +450,214 @@ async function relocateMarkBoundarySpacesInFile(
   return { changed: anyChanged, skipped };
 }
 
+/** One check-12 finding {@link relocateFootnoteMarkerSpacesInFile} declined to fix, with enough identity to report it. */
+interface FootnoteMarkerSpacingSkip {
+  /** Book id the skipped verse belongs to. */
+  book: string;
+  /** Chapter number of the skipped verse. */
+  chapter: number;
+  /** Verse number of the skipped verse. */
+  verse: number;
+  /** Why the relocation was declined. */
+  reason: FootnoteMarkerSpacingSkipReason;
+}
+
+/**
+ * Relocates every check-12-eligible footnote-marker-after-whitespace run in
+ * one verse file and writes it back if anything changed — same gate-and-report
+ * shape as {@link relocateMarkBoundarySpacesInFile}, since {@link
+ * relocateFootnoteMarkerSpacesInContent} carries an identical contract.
+ *
+ * No `sortVerseKeys` call is needed: this step only ever mutates an existing
+ * `text` string's value in place and never adds or removes a key, same
+ * reason as {@link reconstructTruncatedRangesInFile}.
+ */
+async function relocateFootnoteMarkerSpacesInFile(
+  filePath: string,
+): Promise<{ changed: boolean; skipped: FootnoteMarkerSpacingSkip[] }> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const skipped: FootnoteMarkerSpacingSkip[] = [];
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = relocateFootnoteMarkerSpacesInContent(verse.content as Content);
+    for (const reason of rewritten.skipped) {
+      skipped.push({
+        book: verse.book as string,
+        chapter: verse.chapter as number,
+        verse: verse.verse as number,
+        reason,
+      });
+    }
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return { ...verse, content: rewritten.content };
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+  }
+  return { changed: anyChanged, skipped };
+}
+
+/**
+ * Drops every empty `text: ""` key alongside another property in one verse
+ * file and writes it back if anything changed — same `sortVerseKeys`-on-change
+ * shape as {@link mergeUnmergedNodesInFile}, since dropping a key changes
+ * which keys a node carries.
+ */
+async function dropEmptyTextKeysInFile(filePath: string): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = dropEmptyTextKeysInContent(verse.content as Content);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+    return true;
+  }
+  return false;
+}
+
+/**
+ * Deletes every check-14-eligible duplicate footnote anchor in one verse
+ * file and writes it back if anything changed — same `sortVerseKeys`-on-change
+ * shape as {@link mergeUnmergedNodesInFile}, since deleting a node changes
+ * an array's own length and, downstream, which keys its siblings carry once
+ * `sortContentKeys` re-derives key order for the changed verse.
+ *
+ * Runs after {@link dropEmptyTextKeysInFile} in `main()`'s own pass: real
+ * KJV1769 Psalm 80:4 is both a husk and a duplicate anchor at once, and by
+ * the time this step sees it, the empty `text` key is already gone —
+ * {@link isDuplicateFootnoteAnchor} treats an absent `text` and an empty one
+ * identically, so the ordering doesn't change *whether* the node is
+ * deleted, only that this step always sees the fully-settled key set on
+ * every node it compares.
+ */
+async function removeDuplicateFootnoteAnchorsInFile(filePath: string): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = removeDuplicateFootnoteAnchorsInContent(verse.content as Content);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+    return true;
+  }
+  return false;
+}
+
+/** One unresolvable-target finding {@link unlinkUnresolvableTargetsInFile} declined to fix, with enough identity to report it. */
+interface UnlinkSkip {
+  /** Book id the skipped verse belongs to. */
+  book: string;
+  /** Chapter number of the skipped verse. */
+  chapter: number;
+  /** Verse number of the skipped verse. */
+  verse: number;
+  /** Why the unlink was declined. */
+  reason: UnlinkSkipReason;
+}
+
+/**
+ * Unlinks every eligible unresolvable `bibleLink` in one verse file and
+ * writes it back if anything changed — same gate-and-report shape as
+ * {@link removeDuplicateFootnoteAnchorsInFile}, since
+ * {@link unlinkUnresolvableTargetsInContent} carries the identical
+ * `{content, changed, skipped}` contract.
+ *
+ * **Runs after {@link removeDuplicateFootnoteAnchorsInFile} and before
+ * {@link mergeEquivalentSiblingsInFile} in `main()`'s own pass — both bounds
+ * load-bearing.** It runs after the truncated-range reconstruction and
+ * cross-chapter split (steps 4 and 5 of the pass), so it only ever judges a
+ * target those steps have already settled, never one a later step would
+ * still rewrite. It runs before check 15's merge because unlinking replaces
+ * a `bibleLink` node with plain text and can leave two or three adjacent
+ * bare strings where there was one node — exactly the shape check 15's merge
+ * exists to collapse, in the same pass rather than a hypothetical next run
+ * (which the idempotence guard below would catch as a real interaction).
+ *
+ * Calls `sortVerseKeys` on every changed verse: an unlink can turn a
+ * `{bibleLink, content}` object into a bare string or a different node
+ * shape entirely, changing which keys the node — and, once
+ * `sortContentKeys` re-derives it, the verse — carries.
+ */
+async function unlinkUnresolvableTargetsInFile(
+  filePath: string,
+): Promise<{ changed: boolean; skipped: UnlinkSkip[] }> {
+  const versionId = path.basename(path.dirname(filePath));
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const skipped: UnlinkSkip[] = [];
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = unlinkUnresolvableTargetsInContent(versionId, verse.content as Content);
+    for (const reason of rewritten.skipped) {
+      skipped.push({
+        book: verse.book as string,
+        chapter: verse.chapter as number,
+        verse: verse.verse as number,
+        reason,
+      });
+    }
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+  }
+  return { changed: anyChanged, skipped };
+}
+
+/**
+ * Normalizes every `{text}`-only object into a bare string and merges every
+ * check-15-eligible run of adjacent agreeing siblings into one node, in one
+ * verse file, and writes it back if anything changed — same
+ * `sortVerseKeys`-on-change shape as {@link mergeUnmergedNodesInFile}, since
+ * a merge changes an array's own length and can turn an object into a bare
+ * string, both of which change which keys a node carries.
+ *
+ * Runs after {@link removeDuplicateFootnoteAnchorsInFile} in `main()`'s own
+ * pass, not before it: deleting a duplicate anchor can leave two plain
+ * siblings newly adjacent that weren't before, so this step needs to see the
+ * array in its fully-settled shape rather than merge a run that a later
+ * deletion would have split differently.
+ */
+async function mergeEquivalentSiblingsInFile(filePath: string): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = mergeEquivalentSiblingsInContent(verse.content as Content);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+    return true;
+  }
+  return false;
+}
+
 /**
  * Adds a missing `paragraph: true` flag after every heading/subtitle run in
  * one verse file, and writes the file back if anything changed — same
@@ -410,6 +685,135 @@ async function addMissingHeadingParagraphsInFile(filePath: string): Promise<bool
     return true;
   }
   return false;
+}
+
+// ---------------------------------------------------------------------------
+// Idempotence guard — proving the auto-fix pass is a fixed point of itself
+// ---------------------------------------------------------------------------
+
+/**
+ * Re-applies every per-verse content transform the auto-fix pass runs
+ * above, in the exact same order, chaining each step's own output into the
+ * next — matching how the real pass threads content from file write to
+ * file write, not testing every step against the same stale input. Returns
+ * the name of every step that still reports a change, in the order they
+ * fired; an empty array means this verse really is a fixed point of the
+ * whole pass.
+ *
+ * This is the idempotence guard's own per-verse unit — see {@link
+ * checkAutoFixPassIsFixedPoint}, which calls this against every file the
+ * pass actually touched, after the pass has already run and (presumably)
+ * settled. Factored out so it can be tested directly against a synthetic
+ * verse with no file I/O at all.
+ *
+ * Named per step rather than returning a bare boolean so a failure can
+ * point at exactly which step in the pass is still rewriting something —
+ * the whole reason this guard exists: two steps that quietly undo each
+ * other's work should fail loudly in the run that introduced the
+ * interaction, not need a second, manual `npm run validate` to notice. A
+ * real, verified instance of exactly this class of interaction exists in
+ * check 9's own fixer: relocating a mark-boundary space across a genuine formatting
+ * disagreement can leave a new, equally-disagreeing space on the far side
+ * of the same boundary, which check 9's own next application then flips
+ * straight back (see `fixMarkBoundaryEmbeddedSpaces.ts`'s own doc comment,
+ * and this repo's own test coverage for this function).
+ *
+ * Sort-keys and Prettier formatting are deliberately excluded: neither
+ * touches the content tree, so neither can participate in the kind of
+ * interaction this guard exists to catch.
+ *
+ * @param versionId - The version this verse belongs to — needed by the
+ *   cross-chapter and truncated-range steps, which read a version-wide
+ *   chapter-length index.
+ * @param verse - One already-fixed verse record to re-check.
+ */
+export function findResidualContentChanges(
+  versionId: string,
+  verse: VerseRecord,
+): string[] {
+  const residualSteps: string[] = [];
+  let content = verse.content;
+
+  const applyStep = (
+    name: string,
+    transform: (content: Content) => { content: Content; changed: boolean },
+  ): void => {
+    const result = transform(content);
+    content = result.content;
+    if (result.changed) residualSteps.push(name);
+  };
+
+  applyStep("bibleLink dash normalization", (c) => normalizeBibleLinkDashesInContent(c));
+  applyStep("truncated-range reconstruction", (c) => reconstructTruncatedRangesInContent(versionId, c));
+  applyStep("cross-chapter bibleLink split", (c) => {
+    const result = splitCrossChapterLinksInContent(versionId, c);
+    return { content: result.content, changed: result.splits > 0 };
+  });
+  applyStep("fraction normalization", (c) => normalizeFractionsInContent(c));
+  applyStep("ellipsis normalization", (c) => normalizeEllipsesInContent(c));
+  applyStep("script-run tagging (check 13)", (c) => tagScriptRunsInContent(c));
+  applyStep("unmerged-node merge (check 1)", (c) => mergeUnmergedNodesInContent(c));
+  applyStep("footnote punctuation reorder (check 8)", (c) => reorderFootnotePunctuationInContent(c));
+  applyStep("mark-boundary space relocation (check 9)", (c) => relocateMarkBoundarySpacesInContent(c));
+  applyStep("footnote-marker spacing relocation (check 12)", (c) => relocateFootnoteMarkerSpacesInContent(c));
+  applyStep("empty text key drop", (c) => dropEmptyTextKeysInContent(c));
+  applyStep("duplicate footnote anchor removal (check 14)", (c) => removeDuplicateFootnoteAnchorsInContent(c));
+  applyStep("unresolvable bibleLink target unlink (G4)", (c) => {
+    const result = unlinkUnresolvableTargetsInContent(versionId, c);
+    return { content: result.content, changed: result.changed };
+  });
+  applyStep("equivalent sibling merge (check 15)", (c) => mergeEquivalentSiblingsInContent(c));
+
+  const headingResult = addMissingHeadingParagraphsInVerse({ ...verse, content });
+  if (headingResult.changed) residualSteps.push("heading/subtitle paragraph flag (check 6)");
+
+  return residualSteps;
+}
+
+/** One verse where {@link findResidualContentChanges} still found something to change, with enough identity to report it. */
+interface FixedPointFailure {
+  /** The verse file this failure belongs to (e.g. `bible-versions/YLT1898/66-REV.json`). */
+  file: string;
+  /** The book id this failure belongs to (e.g. `REV`). */
+  book: string;
+  /** The chapter number this failure belongs to. */
+  chapter: number;
+  /** The verse number this failure belongs to. */
+  verse: number;
+  /** Every step name {@link findResidualContentChanges} reported for this verse, in the order they fired. */
+  steps: string[];
+}
+
+/**
+ * After the auto-fix pass finishes, re-runs {@link
+ * findResidualContentChanges} against every verse in every file the pass
+ * actually changed — entirely in memory, nothing here writes to disk. On a
+ * settled corpus this is free: `changedFiles` is empty, so the loop below
+ * never executes and nothing is even re-read.
+ *
+ * @param changedFiles - Every verse-file path the pass wrote to, exactly as
+ *   {@link main} determines it (a before/after snapshot compare, not a
+ *   changed-files set threaded through each of the pass's own fourteen
+ *   loops — see {@link main}'s own doc comment for why).
+ */
+function checkAutoFixPassIsFixedPoint(
+  changedFiles: readonly string[],
+): FixedPointFailure[] {
+  const failures: FixedPointFailure[] = [];
+
+  for (const file of changedFiles) {
+    const versionId = path.basename(path.dirname(file));
+    const verses = JSON.parse(fs.readFileSync(file, "utf-8")) as VerseRecord[];
+
+    for (const verse of verses) {
+      const steps = findResidualContentChanges(versionId, verse);
+      if (steps.length > 0) {
+        failures.push({ file, book: verse.book, chapter: verse.chapter, verse: verse.verse, steps });
+      }
+    }
+  }
+
+  return failures;
 }
 
 /**
@@ -470,14 +874,20 @@ const CONTENT_BRANCHES = ["content", "heading", "subtitle"] as const;
  * puts no `minLength` on `text` — gaps that let two real defects through
  * structural checks: a node with `marks`/`script` but no text (a non-greedy
  * tag-matching renderer can't wrap zero characters, so the opening delimiter
- * leaks into the surrounding text), and an empty husk left behind after its
- * marks were stripped.
+ * leaks into the surrounding text), and an empty `text: ""` husk. The husk
+ * check is not limited to a node whose *sole* key is `text` — real KJV1769
+ * corpus data carries the wider shape too, an empty text riding alongside
+ * whatever else the node still carries: Psalm 80:4's `{text: "", foot:
+ * {...}}` and Proverbs 10:10's `{text: "", break: true, foot: {...}}`. Both
+ * render nothing, `foot`/`break` present or not, so both are flagged the
+ * same way `{text: ""}` alone already was.
  *
- * Everything else a text-less node can carry — `foot`, `strong`, `bibleLink`,
- * bare `paragraph`/`break` flags — is meaningful on its own; whitespace
- * counts as text. Recurses into every content-bearing branch (`foot.content`,
- * subtitles, headings), since either defect shape can appear nested, not
- * just at the top level.
+ * A node with **no `text` key at all** — `foot`, `strong`, `bibleLink`, bare
+ * `paragraph`/`break` flags, any combination of them — is meaningful on its
+ * own and never flagged here; the schema gap this closes is specifically an
+ * empty *string*, not an absent key. Whitespace counts as text. Recurses
+ * into every content-bearing branch (`foot.content`, subtitles, headings),
+ * since either defect shape can appear nested, not just at the top level.
  *
  * @param content - A verse's content tree
  * @returns One message per offending node, each naming its path within the
@@ -521,7 +931,7 @@ export function findMeaninglessContentNodes(content: Content): string[] {
         );
       } else if (
         !hasText &&
-        Object.keys(properties).every((key) => key === "text")
+        (Object.keys(properties).length === 0 || "text" in properties)
       ) {
         problems.push(`${at}: empty node with nothing to render`);
       }
@@ -535,6 +945,88 @@ export function findMeaninglessContentNodes(content: Content): string[] {
 
   walk(content, "content");
   return problems;
+}
+
+/**
+ * Drops an empty `text: ""` key from a node that carries something else
+ * alongside it — the always-safe half of the husk shape {@link
+ * findMeaninglessContentNodes} reports (see its own doc comment for the real
+ * corpus shapes this covers). The node keeps every property it had except
+ * the empty string, which renders nothing and never carried meaning of its
+ * own.
+ *
+ * **Deliberately narrower than the check it mirrors.** A node whose *only*
+ * property is an empty `text` (`{text: ""}`), or that carries no properties
+ * at all (`{}`), is left untouched — dropping the key there would leave
+ * nothing behind to keep, which is a different question (delete the whole
+ * node) than this transform answers. {@link findMeaninglessContentNodes}
+ * still reports either shape if it ever appears, unaffected by this
+ * function.
+ *
+ * Mirrors {@link findMeaninglessContentNodes}'s own recursion exactly —
+ * `content`/`heading`/`subtitle`/a non-boolean `paragraph` are mutually
+ * exclusive branches, and `foot.content` is always walked in addition —
+ * so this fixes a husk everywhere the detector can find one.
+ *
+ * @param content - A verse's content tree
+ * @returns The rewritten tree (the original reference when nothing changed) and whether anything did
+ */
+export function dropEmptyTextKeysInContent(
+  content: Content
+): { content: Content; changed: boolean } {
+  const rewrite = (node: unknown): { node: unknown; changed: boolean } => {
+    if (Array.isArray(node)) {
+      let changed = false;
+      const rewritten = node.map((child) => {
+        const result = rewrite(child);
+        if (result.changed) changed = true;
+        return result.node;
+      });
+      return changed ? { node: rewritten, changed: true } : { node, changed: false };
+    }
+    if (node === null || typeof node !== "object") return { node, changed: false };
+
+    let properties = node as Record<string, unknown>;
+    let changed = false;
+
+    const branch =
+      CONTENT_BRANCHES.find((key) => key in properties) ??
+      ("paragraph" in properties && typeof properties.paragraph !== "boolean"
+        ? "paragraph"
+        : undefined);
+
+    if (branch) {
+      const result = rewrite(properties[branch]);
+      if (result.changed) {
+        properties = { ...properties, [branch]: result.node };
+        changed = true;
+      }
+    } else if (
+      "text" in properties &&
+      properties.text === "" &&
+      Object.keys(properties).length > 1
+    ) {
+      const { text: _text, ...rest } = properties;
+      properties = rest;
+      changed = true;
+    }
+
+    const foot = properties.foot;
+    if (foot && typeof foot === "object") {
+      const result = rewrite((foot as { content?: unknown }).content);
+      if (result.changed) {
+        properties = { ...properties, foot: { ...foot, content: result.node } };
+        changed = true;
+      }
+    }
+
+    return changed ? { node: properties, changed: true } : { node, changed: false };
+  };
+
+  const result = rewrite(content);
+  return result.changed
+    ? { content: result.node as Content, changed: true }
+    : { content, changed: false };
 }
 
 /**
@@ -593,6 +1085,60 @@ export function findStrongTrailingWhitespaceNodes(content: Content): string[] {
 
   walk(content, "content");
   return problems;
+}
+
+/** One book whose `_version.json`-declared chapter count disagrees with the chapters its own verse file actually carries. */
+export interface DeclaredChapterMismatch {
+  /** Repo book id, e.g. `"EST"`. */
+  book: string;
+  /** The chapter count this version's own `_version.json` declares for `book`. */
+  declaredChapters: number;
+  /** The highest chapter number actually present in `book`'s own verse file (`0` when the file is missing or empty — the existing file-existence check already names a missing file separately, but this comparator still reports the mismatch rather than skipping it silently). */
+  highestChapterPresent: number;
+}
+
+/**
+ * Compare each book's declared chapter count against the highest chapter its
+ * own verse file actually carries — corpus *completeness*, not merely
+ * validity. `verify.ts` already asks this question for a USFM import
+ * (`counts.maxChapter !== book.chapters`), but nothing asked it of a version
+ * imported any other way until now.
+ *
+ * Reports a mismatch in **either** direction — the metadata is equally wrong
+ * whether the file falls short of, or exceeds, what it declares. The two real
+ * corpus findings this exists for are both "falls short": CLV1880's `EST`
+ * (highest chapter 10, declares 16) and `DAN` (highest chapter 12, declares
+ * 14), both missing that edition's own deuterocanonical additions. Per this
+ * repo's own settled decision, the declared counts are **not** corrected
+ * downward to match — see `_specs/ai-context/4-domains/bible-versions.md` for
+ * the full reasoning. `npm run validate` is expected to report exactly these
+ * two findings, and only these two, until that content is imported.
+ *
+ * A pure comparison with no file I/O of its own — the caller (`main()`'s own
+ * per-version loop, which already has `books` in scope from validating book
+ * ordering) reads `_version.json` and each book's own verse file and passes
+ * both in, rather than this function re-reading either.
+ *
+ * @param books - One version's own `books` array, exactly as read from its
+ *   `_version.json` — declared chapter counts live here.
+ * @param highestChapterByBook - Repo book id -> highest chapter number found
+ *   in that book's own verse file.
+ * @returns One entry per book whose declared count disagrees with what its
+ *   file carries, in `books`' own order — empty when every declared count
+ *   matches.
+ */
+export function findDeclaredChapterMismatches(
+  books: readonly VersionBook[],
+  highestChapterByBook: ReadonlyMap<string, number>,
+): DeclaredChapterMismatch[] {
+  const mismatches: DeclaredChapterMismatch[] = [];
+  for (const book of books) {
+    const highestChapterPresent = highestChapterByBook.get(book._id) ?? 0;
+    if (highestChapterPresent !== book.chapters) {
+      mismatches.push({ book: book._id, declaredChapters: book.chapters, highestChapterPresent });
+    }
+  }
+  return mismatches;
 }
 
 /**
@@ -710,48 +1256,111 @@ export function normalizeBibleLinkDashesInContent(
 
 /**
  * Validates (and normalizes) one version, or every version when none is
- * requested. The auto-fix pass runs eleven steps, in order: sort verse keys,
- * format JSON files, normalize `bibleLink` dashes, reconstruct truncated
- * `bibleLink` ranges, split cross-chapter `bibleLink` ranges, normalize
- * fractions, normalize ellipses, merge unmerged node pairs (check 1),
- * reorder footnote punctuation (check 8), relocate mark-boundary embedded
- * spaces (check 9), and add missing heading/subtitle paragraph flags
- * (check 6).
+ * requested. The auto-fix pass runs seventeen steps, in order: sort verse
+ * keys, format JSON files, normalize `bibleLink` dashes, reconstruct
+ * truncated `bibleLink` ranges, split cross-chapter `bibleLink` ranges,
+ * normalize fractions, normalize ellipses, tag untagged script runs (check
+ * 13), merge unmerged node pairs (check 1), reorder footnote punctuation
+ * (check 8), relocate mark-boundary embedded spaces (check 9), relocate
+ * footnote-marker spacing (check 12), drop empty text keys, remove
+ * duplicate footnote anchors (check 14), unlink unresolvable `bibleLink`
+ * targets, merge equivalent siblings (check 15), and add missing
+ * heading/subtitle paragraph flags (check 6).
  *
  * The ordering is deliberate. Dashes settle before the truncated-range and
  * cross-chapter steps look for the separator; a reconstructed truncated
  * range runs before the cross-chapter split so a range that turns out to
  * span two chapters gets split on the very next step rather than left for a
- * later run; and both consume a range before the text-only fractions and
- * ellipses steps see the same nodes. Checks 1, 6, 8, and 9 run last, in that
- * order, because check 1's merge is the coarsest structural change (so it
- * precedes the finer-grained checks 8 and 9), and check 6 is additive and
- * touches a node class none of the others do. Those four call
- * `sortVerseKeys` on every changed verse, unlike the steps before them,
- * since merging, reordering, relocating, and flagging can all change which
- * keys a node carries. The truncated-range and cross-chapter steps don't
- * need it either, for the same reason the text-only steps don't — see
- * {@link reconstructTruncatedRangesInFile}.
+ * later run; and both consume a range before the text-only fractions,
+ * ellipses, and script-run steps see the same nodes. Check 13 runs last
+ * among the text-shaped steps and before the structural checks: splitting a
+ * node into several siblings is itself a structural change, so it needs to
+ * see fractions and ellipses already normalized in the text it's about to
+ * split, and the structural checks after it need to see the split nodes it
+ * produces rather than the single pre-split node. Checks 1, 8, 9, and 12 run
+ * next, in that order, because check 1's merge is the coarsest structural
+ * change (so it precedes the finer-grained checks 8 and 9); check 12 runs
+ * immediately after check 9 because check 9's own relocation settles which
+ * node owns a boundary space, and check 12 needs to see that settled state
+ * rather than relocate a space check 9 was about to move a second time.
+ * Dropping empty text keys, check 14's removal, the unresolvable-target
+ * unlink, and check 15's merge run immediately after check 12 and before check 6, in that
+ * order: check 12 must settle every node's own space before either of the
+ * first two can decide whether a node renders anything, since deleting a
+ * node here changes which neighbor a *later* run of check 12 would relocate
+ * a space onto; the empty-text-key drop runs first so check 14 always
+ * compares nodes whose own key set is already fully settled, even though
+ * {@link isDuplicateFootnoteAnchor} treats an absent `text` and an empty one
+ * identically either way (real KJV1769 Psalm 80:4 is both a husk and a
+ * duplicate anchor on the same node, and loses both in this one pass
+ * regardless of which of the two runs first). **The unresolvable-target
+ * unlink runs after check 14's removal and before check 15's merge, and both bounds are
+ * load-bearing.** It must run after the truncated-range reconstruction and
+ * the cross-chapter split (steps 4 and 5, far earlier in this same pass) so
+ * it only ever judges a target those steps have already settled, never one a
+ * later step would still rewrite. It must run before check 15's merge
+ * because unlinking replaces a `bibleLink` node with plain text — the real
+ * ASV1901 Mark 9:44 shape leaves three adjacent bare strings where a
+ * resolvable link, the unlinked link, and more text used to sit — and check
+ * 15's own merge is what collapses that in the same pass rather than a
+ * hypothetical next run, which the idempotence guard below would catch as
+ * a real step interaction if the ordering were wrong. Check
+ * 15 runs after check 14's removal for the identical reason it runs after
+ * the unresolvable-target unlink: either step can leave two plain siblings newly adjacent
+ * that only check 15's own merge should fold together. Check 6 runs last because it's additive
+ * and touches a node class none of the others do. Checks 13, 1, 8, 9, the
+ * empty-text-key drop, check 14, the unresolvable-target unlink, check 15, and check 6 call
+ * `sortVerseKeys` on every changed verse, unlike the steps before check 13,
+ * since splitting, merging, reordering, relocating, dropping a key, deleting
+ * a node, unlinking, and flagging can all change which keys a node carries.
+ * Check 12 doesn't need it either, for the same reason the truncated-range,
+ * cross-chapter, and text-only steps don't — see {@link
+ * reconstructTruncatedRangesInFile}: it only ever mutates an existing `text`
+ * string's value in place.
  *
- * After the auto-fix pass, `main` checks bible-books, each version's
- * `_version.json`, book ordering, and every verse file's schema and content,
- * then runs the report-only cross-chapter, truncated-range, and
- * node-convention audits, exiting non-zero on the first phase that fails.
+ * **Immediately after the auto-fix pass, before any schema/structure check,
+ * `main` proves the pass is a fixed point of itself.** A before/after
+ * byte snapshot of every verse file (taken once, before the sort-keys step)
+ * names exactly which files the seventeen steps above actually touched; only
+ * those files get re-checked, by re-running {@link
+ * findResidualContentChanges}'s own chain of the pass's per-verse content
+ * transforms against their already-fixed content, entirely in memory. On a
+ * settled corpus nothing changed, so nothing is even re-read. The moment two
+ * steps interact — one step's fix recreating a shape an earlier step would
+ * rewrite again — this fails the run that introduced the interaction, naming
+ * the file, the verse, and the step, rather than needing a second, manual
+ * `npm run validate` to notice.
  *
- * **The report-only audits run after the fix pass on purpose.** Checks 8 and
- * 9, and the truncated-range reconstruction, each have a gate that can
- * decline a real finding rather than guess at it. Whatever a gate declines
- * is still on disk when the audit re-reads it, so the run still fails with
- * detail — the "report what it can't fix" half of the contract falls out of
- * the ordering alone, with no extra code needed to enforce it.
+ * After that, `main` checks bible-books, each version's `_version.json`,
+ * book ordering, and every verse file's schema and content, then runs five
+ * report-only audits: declared chapter counts, cross-chapter links,
+ * truncated ranges, node conventions, and unresolvable `bibleLink` targets
+ * — exiting non-zero on the first phase that fails.
+ *
+ * **The report-only audits run after the fix pass on purpose.** Checks 8, 9,
+ * 12, and 13, the truncated-range reconstruction, and the unresolvable-target
+ * unlink each have a gate that can decline a real finding rather than guess at it.
+ * Whatever a gate declines is still on disk when the audit re-reads it, so
+ * the run still fails with detail — the "report what it can't fix" half of
+ * the contract falls out of the ordering alone, with no extra code needed to
+ * enforce it.
  *
  * The schema/structure phases are hierarchical: each assumes the earlier
- * ones held, so a failure exits immediately. The three corpus-wide audits
- * that run last (`crossChapterLinks.ts`'s two checks and `auditNodes.ts`)
- * have no such dependency on each other, so all three always run to
- * completion before `main` exits non-zero — a version failing one still gets
- * audited by the others in the same pass, rather than needing a second run
- * to find out.
+ * ones held, so a failure exits immediately. The five corpus-wide audits
+ * that run last (the declared-chapter check, `crossChapterLinks.ts`'s
+ * three checks, and `auditNodes.ts`) have no such dependency on each other,
+ * so all five always run to completion before `main` exits non-zero — a
+ * version failing one still gets audited by the others in the same pass,
+ * rather than needing a second run to find out. **This is why the
+ * declared-chapter mismatches are collected during the book-ordering loop,
+ * far earlier in this function, but not reported or gated until here**:
+ * those mismatches are a permanently accepted finding (see
+ * bible-versions.md), and gating on them the moment they're found — the way
+ * a duplicate order number or a numbering gap already does, immediately
+ * after that same loop — would exit before the schema/verse checks and the
+ * other four audits ever ran, making it impossible for a later run to tell
+ * the accepted findings apart from a real regression hiding behind an
+ * early exit.
  *
  * @param requestedVersion - A single version id (e.g. `"YLT1898"`, from
  *   `process.argv[2]`). Omitted → every version directory on disk is
@@ -763,9 +1372,21 @@ async function main(requestedVersion?: string) {
     ? [requestedVersion]
     : getVersionDirectories(bibleVersionsDir);
 
+  const jsonFiles = collectJsonFiles(versionDirs);
+
+  // Snapshot every verse file's own raw bytes before the auto-fix pass
+  // touches anything, so the idempotence guard below can tell which files
+  // the pass actually changed without threading a changed-files set through
+  // all fourteen of the pass's own loops — see {@link
+  // checkAutoFixPassIsFixedPoint}'s own doc comment.
+  const verseFilesInScope = jsonFiles.filter((file) => fs.existsSync(file) && isVerseFile(file));
+  const preFixPassSnapshot = new Map<string, string>();
+  for (const file of verseFilesInScope) {
+    preFixPassSnapshot.set(file, fs.readFileSync(file, "utf-8"));
+  }
+
   console.log("🔑 Sorting keys in verse files...\n");
 
-  const jsonFiles = collectJsonFiles(versionDirs);
   let sortedCount = 0;
 
   for (const file of jsonFiles) {
@@ -917,6 +1538,35 @@ async function main(requestedVersion?: string) {
     console.log("✅ All ellipses already normalized\n");
   }
 
+  console.log("🈯 Tagging untagged script runs (check 13)...\n");
+
+  let scriptRunsTaggedCount = 0;
+  const untaggedScriptRunsSkipped: UntaggedScriptRunSkip[] = [];
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const { changed, skipped } = await tagScriptRunsInFile(file);
+      if (changed) {
+        scriptRunsTaggedCount++;
+        console.log(`  🔄 Tagged script runs: ${file}`);
+      }
+      untaggedScriptRunsSkipped.push(...skipped);
+    }
+  }
+
+  if (scriptRunsTaggedCount > 0) {
+    console.log(`\n✅ Tagged script runs in ${scriptRunsTaggedCount} file(s)\n`);
+  } else {
+    console.log("✅ No untagged script runs found\n");
+  }
+  if (untaggedScriptRunsSkipped.length > 0) {
+    console.log(`⚠️  ${untaggedScriptRunsSkipped.length} untagged-script-run finding(s) left for the audit below to report:`);
+    for (const skip of untaggedScriptRunsSkipped) {
+      console.log(`    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`);
+    }
+    console.log("");
+  }
+
   console.log("🧵 Merging unmerged node pairs (check 1)...\n");
 
   let unmergedNodesFixedCount = 0;
@@ -995,6 +1645,124 @@ async function main(requestedVersion?: string) {
     console.log("");
   }
 
+  console.log("🔖 Relocating footnote-marker spacing (check 12)...\n");
+
+  let footnoteMarkerSpacingFixedCount = 0;
+  const footnoteMarkerSpacingSkipped: FootnoteMarkerSpacingSkip[] = [];
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const { changed, skipped } = await relocateFootnoteMarkerSpacesInFile(file);
+      if (changed) {
+        footnoteMarkerSpacingFixedCount++;
+        console.log(`  🔄 Relocated footnote-marker spacing: ${file}`);
+      }
+      footnoteMarkerSpacingSkipped.push(...skipped);
+    }
+  }
+
+  if (footnoteMarkerSpacingFixedCount > 0) {
+    console.log(`\n✅ Relocated footnote-marker spacing in ${footnoteMarkerSpacingFixedCount} file(s)\n`);
+  } else {
+    console.log("✅ No footnote-marker spacing to relocate\n");
+  }
+  if (footnoteMarkerSpacingSkipped.length > 0) {
+    console.log(`⚠️  ${footnoteMarkerSpacingSkipped.length} footnote-marker-spacing finding(s) left for the audit below to report:`);
+    for (const skip of footnoteMarkerSpacingSkipped) {
+      console.log(`    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`);
+    }
+    console.log("");
+  }
+
+  console.log("🗑️  Dropping empty text keys...\n");
+
+  let emptyTextKeysDroppedCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasFixed = await dropEmptyTextKeysInFile(file);
+      if (wasFixed) {
+        emptyTextKeysDroppedCount++;
+        console.log(`  🔄 Dropped empty text key(s): ${file}`);
+      }
+    }
+  }
+
+  if (emptyTextKeysDroppedCount > 0) {
+    console.log(`\n✅ Dropped empty text key(s) in ${emptyTextKeysDroppedCount} file(s)\n`);
+  } else {
+    console.log("✅ No empty text keys to drop\n");
+  }
+
+  console.log("🔖 Removing duplicate footnote anchors (check 14)...\n");
+
+  let duplicateFootnoteAnchorsRemovedCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasFixed = await removeDuplicateFootnoteAnchorsInFile(file);
+      if (wasFixed) {
+        duplicateFootnoteAnchorsRemovedCount++;
+        console.log(`  🔄 Removed duplicate footnote anchor(s): ${file}`);
+      }
+    }
+  }
+
+  if (duplicateFootnoteAnchorsRemovedCount > 0) {
+    console.log(`\n✅ Removed duplicate footnote anchor(s) in ${duplicateFootnoteAnchorsRemovedCount} file(s)\n`);
+  } else {
+    console.log("✅ No duplicate footnote anchors to remove\n");
+  }
+
+  console.log("🔓 Unlinking unresolvable bibleLink targets (G4)...\n");
+
+  let unresolvableTargetsUnlinkedCount = 0;
+  const unlinkSkipped: UnlinkSkip[] = [];
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const { changed, skipped } = await unlinkUnresolvableTargetsInFile(file);
+      if (changed) {
+        unresolvableTargetsUnlinkedCount++;
+        console.log(`  🔄 Unlinked unresolvable bibleLink target(s): ${file}`);
+      }
+      unlinkSkipped.push(...skipped);
+    }
+  }
+
+  if (unresolvableTargetsUnlinkedCount > 0) {
+    console.log(`\n✅ Unlinked unresolvable bibleLink target(s) in ${unresolvableTargetsUnlinkedCount} file(s)\n`);
+  } else {
+    console.log("✅ No unresolvable bibleLink targets found\n");
+  }
+  if (unlinkSkipped.length > 0) {
+    console.log(`⚠️  ${unlinkSkipped.length} unresolvable-target finding(s) left for the audit below to report:`);
+    for (const skip of unlinkSkipped) {
+      console.log(`    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`);
+    }
+    console.log("");
+  }
+
+  console.log("🔗 Merging equivalent siblings (check 15)...\n");
+
+  let mergeEquivalentSiblingsCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasFixed = await mergeEquivalentSiblingsInFile(file);
+      if (wasFixed) {
+        mergeEquivalentSiblingsCount++;
+        console.log(`  🔄 Merged equivalent sibling(s): ${file}`);
+      }
+    }
+  }
+
+  if (mergeEquivalentSiblingsCount > 0) {
+    console.log(`\n✅ Merged equivalent sibling(s) in ${mergeEquivalentSiblingsCount} file(s)\n`);
+  } else {
+    console.log("✅ No equivalent siblings to merge\n");
+  }
+
   console.log("🧱 Adding missing heading/subtitle paragraph flags (check 6)...\n");
 
   let headingParagraphsFixedCount = 0;
@@ -1013,6 +1781,32 @@ async function main(requestedVersion?: string) {
     console.log(`\n✅ Added missing heading/subtitle paragraph flags in ${headingParagraphsFixedCount} file(s)\n`);
   } else {
     console.log("✅ Every heading/subtitle run already opens a paragraph\n");
+  }
+
+  console.log("🪞 Checking the auto-fix pass is a fixed point of itself...\n");
+
+  const changedFiles = verseFilesInScope.filter(
+    (file) => fs.readFileSync(file, "utf-8") !== preFixPassSnapshot.get(file),
+  );
+  const fixedPointFailures = checkAutoFixPassIsFixedPoint(changedFiles);
+
+  if (fixedPointFailures.length > 0) {
+    console.error(
+      `\n❌ Auto-fix pass is not a fixed point of itself — ${fixedPointFailures.length} verse(s) would still change on a second pass:`
+    );
+    for (const failure of fixedPointFailures) {
+      console.error(
+        `  ${failure.book} ${failure.chapter}:${failure.verse} (${failure.file}) — ${failure.steps.join(", ")}`
+      );
+    }
+    console.error(
+      "\nTwo (or more) of the steps above are undoing each other's work. Investigate the interaction named for each verse rather than absorbing it — see findResidualContentChanges's own doc comment."
+    );
+    process.exit(1);
+  } else if (changedFiles.length > 0) {
+    console.log(`✅ Re-checked ${changedFiles.length} changed file(s) — the auto-fix pass is a fixed point of itself\n`);
+  } else {
+    console.log("✅ No files changed in the auto-fix pass — nothing to re-check\n");
   }
 
   const result = validateJsonAgainstSchema(schemaPath, jsonPath);
@@ -1095,12 +1889,38 @@ async function main(requestedVersion?: string) {
   console.log("\n🔍 Validating book ordering...");
   let booksValidationPassed = true;
 
+  // Declared-vs-actual chapter counts — collected here, alongside the
+  // order checks below, because this loop already has each version's own
+  // `books` array (with its declared `chapters` per book) in scope; opening
+  // `_version.json` a second time to get it again would be redundant. Not
+  // printed or gated here: unlike a duplicate/gap/start-at-1 violation, a
+  // declared-chapter mismatch is this repo's one permanently accepted
+  // finding (see bible-versions.md) and must never block the schema/verse
+  // checks or the other trailing audits below from running to completion —
+  // reported and gated as its own trailing audit, further down, alongside
+  // the cross-chapter, truncated-range, node-convention, and
+  // unresolvable-target audits.
+  const declaredChapterMismatchesByVersion = new Map<string, DeclaredChapterMismatch[]>();
+
   for (const version of versions) {
     const versionBooks = version.books || [];
     if (versionBooks.length === 0) {
       console.log(`✅ ${version._id}: no books specified`);
       continue;
     }
+
+    const highestChapterByBook = new Map<string, number>();
+    for (const book of versionBooks) {
+      const bookFilePath = `${bibleVersionsDir}/${version._id}/${book.order.toString().padStart(2, "0")}-${book._id}.json`;
+      if (!fs.existsSync(bookFilePath)) continue; // reported separately by the file-existence check below
+      const bookVerses = JSON.parse(fs.readFileSync(bookFilePath, "utf-8")) as { chapter: number }[];
+      let highestChapter = 0;
+      for (const verse of bookVerses) {
+        if (verse.chapter > highestChapter) highestChapter = verse.chapter;
+      }
+      highestChapterByBook.set(book._id, highestChapter);
+    }
+    declaredChapterMismatchesByVersion.set(version._id, findDeclaredChapterMismatches(versionBooks, highestChapterByBook));
 
     const orderValues = versionBooks.map((item) => item.order);
     const sortedOrders = _.sortBy(orderValues);
@@ -1285,47 +2105,84 @@ async function main(requestedVersion?: string) {
     console.log("\n✅ All verse file validations passed!");
   }
 
-  // Cross-chapter bibleLink audit: every unsplit range still in this
-  // version's content. Report-only — see the auto-fix pass above and
-  // crossChapterLinks.ts for the split rule.
-  console.log("\n🔗 Auditing cross-chapter bibleLink targets...");
-  let crossChapterLinksPassed = true;
+  // Declared-chapter-count audit (report-only): every book whose
+  // `_version.json` declares a chapter count its own verse file does not
+  // actually carry. No check can supply missing chapters, so this only
+  // reports; permanently accepted findings are tracked in
+  // bible-versions.md. Uses the mismatches the book-ordering loop above
+  // already computed, rather than re-reading `_version.json` or any verse
+  // file a second time.
+  console.log("\n📐 Auditing declared chapter counts...");
+  let declaredChapterMismatchesPassed = true;
 
   for (const versionDir of versionDirs) {
-    const { findings } = findCrossChapterLinks(versionDir);
-    if (findings.length === 0) {
-      console.log(`✅ ${versionDir}: no unsplit cross-chapter links`);
+    const mismatches = declaredChapterMismatchesByVersion.get(versionDir) ?? [];
+    if (mismatches.length === 0) {
+      console.log(`✅ ${versionDir}: every declared chapter count matches its file`);
       continue;
     }
 
-    console.error(`❌ ${versionDir}: ${findings.length} unsplit cross-chapter link(s):`);
+    console.error(`❌ ${versionDir}: ${mismatches.length} book(s) whose declared chapter count disagrees with the chapters its file actually carries:`);
+    for (const mismatch of mismatches) {
+      console.error(`  ${versionDir} ${mismatch.book}: highest chapter ${mismatch.highestChapterPresent}, _version.json declares ${mismatch.declaredChapters}`);
+    }
+    declaredChapterMismatchesPassed = false;
+  }
+
+  // Cross-chapter bibleLink audit: every unsplit range still in this
+  // version's content. Report-only — see the auto-fix pass above and
+  // crossChapterLinks.ts for the split rule.
+  //
+  // Prints each version's own `scanned` count — findCrossChapterLinks
+  // already returns it, so a walk that silently stops descending is caught
+  // rather than under-reporting a clean bill of health. A dropped number
+  // here is a real regression to investigate, the same way a third
+  // node-convention finding below would be.
+  console.log("\n🔗 Auditing cross-chapter bibleLink targets...");
+  let crossChapterLinksPassed = true;
+  let crossChapterLinksScanned = 0;
+
+  for (const versionDir of versionDirs) {
+    const { findings, scanned } = findCrossChapterLinks(versionDir);
+    crossChapterLinksScanned += scanned;
+    if (findings.length === 0) {
+      console.log(`✅ ${versionDir}: no unsplit cross-chapter links (${scanned} bibleLink node(s) scanned)`);
+      continue;
+    }
+
+    console.error(`❌ ${versionDir}: ${findings.length} unsplit cross-chapter link(s) (${scanned} bibleLink node(s) scanned):`);
     for (const finding of findings) {
       console.error(`  ${formatCrossChapterFinding(finding)}`);
     }
     crossChapterLinksPassed = false;
   }
+  console.log(`   ${crossChapterLinksScanned} bibleLink node(s) scanned corpus-wide`);
 
   // Truncated-range audit: every bibleLink target still short of the range
   // its own display names — a different finding from the unsplit-range one
-  // above (see crossChapterLinks.ts). Report-only, for the same reason.
+  // above (see crossChapterLinks.ts). Report-only, for the same reason, and
+  // prints its own `scanned` count for the identical reason.
   console.log("\n📏 Auditing truncated bibleLink ranges...");
   let truncatedRangesPassed = true;
+  let truncatedRangesScanned = 0;
 
   for (const versionDir of versionDirs) {
-    const { findings } = findTruncatedRanges(versionDir);
+    const { findings, scanned } = findTruncatedRanges(versionDir);
+    truncatedRangesScanned += scanned;
     if (findings.length === 0) {
-      console.log(`✅ ${versionDir}: no truncated bibleLink ranges`);
+      console.log(`✅ ${versionDir}: no truncated bibleLink ranges (${scanned} bibleLink node(s) scanned)`);
       continue;
     }
 
-    console.error(`❌ ${versionDir}: ${findings.length} truncated bibleLink range(s):`);
+    console.error(`❌ ${versionDir}: ${findings.length} truncated bibleLink range(s) (${scanned} bibleLink node(s) scanned):`);
     for (const finding of findings) {
       console.error(`  ${formatTruncatedRangeFinding(finding)}`);
     }
     truncatedRangesPassed = false;
   }
+  console.log(`   ${truncatedRangesScanned} bibleLink node(s) scanned corpus-wide`);
 
-  // Node-placement and content-convention audit: the eleven checks
+  // Node-placement and content-convention audit: the sixteen checks
   // auditNodes.ts owns. Also report-only here.
   console.log("\n🧩 Auditing node-placement and content conventions...");
   let nodeConventionsPassed = true;
@@ -1342,7 +2199,44 @@ async function main(requestedVersion?: string) {
     nodeConventionsPassed = false;
   }
 
-  if (!crossChapterLinksPassed || !truncatedRangesPassed || !nodeConventionsPassed) {
+  // Unresolvable-target audit: every bibleLink target that does not resolve
+  // against its own version's real chapter/verse data. The gated unlink
+  // step above already ran automatically — a finding surviving here means
+  // it declined (an empty override), which the console output from that
+  // step already named. Fourth peer audit alongside the three above —
+  // depends on neither them nor anything upstream, so it always runs to
+  // completion regardless of their outcome. Prints its own `scanned` count,
+  // matching the cross-chapter and truncated-range audits above.
+  console.log("\n🔓 Auditing unresolvable bibleLink targets...");
+  let unresolvableTargetsPassed = true;
+  let unresolvableTargetsScanned = 0;
+
+  for (const versionDir of versionDirs) {
+    const { findings, scanned } = findUnresolvableTargets(versionDir);
+    unresolvableTargetsScanned += scanned;
+    if (findings.length === 0) {
+      console.log(`✅ ${versionDir}: no unresolvable bibleLink targets (${scanned} bibleLink node(s) scanned)`);
+      continue;
+    }
+
+    console.error(`❌ ${versionDir}: ${findings.length} unresolvable bibleLink target(s) (${scanned} bibleLink node(s) scanned):`);
+    for (const finding of findings) {
+      console.error(`  ${formatUnresolvableTargetFinding(finding)}`);
+    }
+    unresolvableTargetsPassed = false;
+  }
+  console.log(`   ${unresolvableTargetsScanned} bibleLink node(s) scanned corpus-wide`);
+
+  if (
+    !declaredChapterMismatchesPassed ||
+    !crossChapterLinksPassed ||
+    !truncatedRangesPassed ||
+    !nodeConventionsPassed ||
+    !unresolvableTargetsPassed
+  ) {
+    if (!declaredChapterMismatchesPassed) {
+      console.error("\n❌ Declared chapter count audit failed! This repo's own settled decision leaves exactly two CLV1880 findings (EST, DAN) standing until that edition's deuterocanonical additions are imported — see bible-versions.md. A finding for any other book, or any other version, is a real regression, not this accepted state.");
+    }
     if (!crossChapterLinksPassed) {
       console.error("\n❌ Cross-chapter link audit failed! The split step above already ran automatically — a finding surviving here means it genuinely could not be split. See the findings printed above for detail.");
     }
@@ -1350,12 +2244,15 @@ async function main(requestedVersion?: string) {
       console.error("\n❌ Truncated bibleLink range audit failed! The reconstruction step above already ran automatically — a finding surviving here means it declined the completion (a display range spanning two chapters, which the cross-chapter split owns instead). See the findings printed above for detail.");
     }
     if (!nodeConventionsPassed) {
-      console.error("\n❌ Node/content convention audit failed! Checks 1, 6, 8, and 9 already ran their own auto-fix above — see the findings printed above for what's left and why (a gate declined it, or it's one of the report-only checks with no fixer at all).");
+      console.error("\n❌ Node/content convention audit failed! Checks 1, 6, 8, 9, 12, 13, 14, and 15 already ran their own auto-fix above — see the findings printed above for what's left and why (a gate declined it, or it's one of the report-only checks with no fixer at all).");
+    }
+    if (!unresolvableTargetsPassed) {
+      console.error("\n❌ Unresolvable bibleLink target audit failed! The unlink step above already ran automatically — a finding surviving here means it declined (an override present but empty). See the findings printed above for detail.");
     }
     process.exit(1);
   }
 
-  console.log("\n✅ Cross-chapter link, truncated bibleLink range, and node/content convention audits all passed!");
+  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, and unresolvable-target audits all passed!");
 }
 
 // Guard so importing this module (e.g. from tests) doesn't also run main()

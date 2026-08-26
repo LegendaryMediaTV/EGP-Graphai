@@ -17,9 +17,9 @@ import { tokenize } from "./tokenize";
  * One block of a verse's own content, split at a `\p`/`\m`/`\nb`/`\q1`/
  * `\q2`/`\q3`/`\b`/`\c` boundary. `paragraph`/`break` mirror
  * `content-schema.json`'s own flags exactly; a block carrying neither is a
- * plain, unflagged run of text that joins directly onto its neighbor
- * (`imports/guide.md` §6: "two adjacent nodes with no flag between them
- * came from one line and join with nothing"). `\b` and `\c` are both
+ * plain, unflagged run of text that joins directly onto its neighbor —
+ * two blocks with no flag between them came from the same source line and
+ * render with nothing separating them. `\b` and `\c` are both
  * boundaries here too, but unlike the others neither ever sets a flag on
  * the block it closes — each only opens the next block with
  * `paragraph: true` instead (see {@link VerseBlock.break} and the `\c`
@@ -88,12 +88,11 @@ export interface VerseRecord {
 const PARAGRAPH_MARKER_NAMES = new Set(["p", "m", "nb", "li1", "pi1", "mi"]);
 
 /**
- * Unpaired markers that end an ordinary poetry line — `\q3` is included
- * for completeness even though this corpus carries zero in-scope
- * instances. Marks the *last* content-bearing block that precedes it,
- * reaching backward across a verse or chapter boundary when nothing has
- * accumulated since the last one — the KJV1769 "same rule,
- * two sides" convention, not a forward-looking paragraph.
+ * Unpaired markers that end an ordinary poetry line — `\q1`, `\q2`, and
+ * `\q3` all behave identically. Marks the *last* content-bearing block
+ * that precedes it, reaching backward across a verse or chapter boundary
+ * when nothing has accumulated since the last one — the KJV1769
+ * "same rule, two sides" convention, not a forward-looking paragraph.
  *
  * `\b` — the stanza-break marker, USFM's blank-line-between-poem-stanzas
  * convention — does *not* belong here, even though it looks like a fourth
@@ -394,22 +393,18 @@ export function segmentVerses(
    * a lost flag: the very first block-affecting marker in a book, with
    * nothing whatsoever before it (Psalm 1's own opening `\q1`).
    *
-   * WEB's own `\b`-then-`\q1`/`\q2`/`\q3` "stanza break, then resume"
-   * idiom — and the identical idiom at a `\b`-less chapter boundary (a
-   * bare `\qN` sitting directly behind `\c`, with nothing else in between
-   * but whitespace/`\ms1`/a heading marker) — never reaches this
-   * function's own `breakFlag` branch at all. Both `\b`'s and `\c`'s own
-   * dispatch (see the marker-walk loop below) call `flushBlock(false)`, so
-   * the line before the gap never gains `break: true` in the first place.
-   * If the bare `\qN` that almost always immediately follows either one
-   * were left to run its own ordinary `BREAK_MARKER_NAMES` dispatch, this
-   * reach-back's own `if (!last.break)` guard — which can only ever *add*
-   * `break: true`, never remove it — would silently add the very flag the
-   * gap was just left clean of, since it cannot distinguish "never had
-   * one" from "deliberately kept clean." The marker-walk loop's own
-   * {@link suppressNextBareBreakAfterCleanBoundary} guard absorbs that
-   * bare `\qN` before it ever reaches `BREAK_MARKER_NAMES`'s dispatch, so
-   * this function's own reach-back branch never actually sees it.
+   * The `\b`-then-bare-`\qN` "stanza break, then resume" idiom — and the
+   * identical idiom at a chapter boundary — never reaches this function's
+   * own `breakFlag` branch at all: `\b`'s and `\c`'s own dispatch always
+   * call `flushBlock(false)`, so the line before the gap never gains
+   * `break: true` in the first place, and
+   * {@link suppressNextBareBreakAfterCleanBoundary} absorbs the bare
+   * `\qN` that follows before it ever reaches this function's own
+   * reach-back branch below. See that guard's own doc comment for why
+   * this matters: this reach-back's `if (!last.break)` check can only
+   * ever *add* `break: true`, never remove it, so without the guard it
+   * would silently resurrect the very flag the gap was just left clean
+   * of.
    */
   const flushBlock = (breakFlag: boolean): void => {
     const text = blockPieces.join("").replace(/\s+/g, " ").trim();
@@ -521,11 +516,10 @@ export function segmentVerses(
     // A narrower case than the one above: a verse with no fallback at
     // all, not even a footnote — a source with zero \f/\x anywhere in its
     // corpus (MSB2025's own Acts 8:37) can still number a disputed verse
-    // with nothing behind the number. `imports/guide.md`'s own
-    // already-established rule for exactly this shape ("Omitted textual
-    // variants... Emit no verse record at all") applies directly: an
-    // empty placeholder block isn't an option either way, since
-    // `content-schema.json` requires `content` to be a non-empty string.
+    // with nothing behind the number. Emitting no record at all is the
+    // right call here: a placeholder block isn't an option either way,
+    // since `content-schema.json` requires `content` to be a non-empty
+    // string, and this shape has no real content to give it.
     // WEB's own disputed verses never reach this branch — every one keeps
     // at least its own footnote as a real block (see the comment above).
     if (currentVerseBlocks.length === 0 && rawOrFallback.length === 0) {

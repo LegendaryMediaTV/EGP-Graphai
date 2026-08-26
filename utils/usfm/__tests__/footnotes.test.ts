@@ -105,7 +105,7 @@ describe("buildFootnoteContent — original-script tagging", () => {
     expect(footnote.type).toBe("trn");
   });
 
-  it("should tag both a delimited Hebrew word and a bare Greek word inside the same footnote body (1 Peter 2:6's real dual-language gloss — the one real corpus instance quoting both languages side by side)", () => {
+  it("should tag both a delimited Hebrew word and a bare Greek word inside the same footnote body (1 Peter 2:6's real dual-language gloss)", () => {
     const { footnote } = footnoteFrom(
       '\\f + \\fr 2:6 \\ft “Behold”, from “\\+wh הִנֵּה\\+wh*” or “ἰδοὺ”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.\\f*',
     );
@@ -121,6 +121,12 @@ describe("buildFootnoteContent — original-script tagging", () => {
   it('should leave splitScriptRuns\'s own "returns input unchanged when nothing matches" contract exercised for the overwhelming majority of footnote bodies, which carry no non-Latin text at all (a plain measurement note)', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 6:15 \\ft A cubit is about 18 inches or 46 centimeters.\\f*');
     expect(footnote.content).toBe("A cubit is about 18 inches or 46 centimeters.");
+  });
+
+  it("should isolate a bare, undelimited Hebrew word with splitNonLatinScriptRuns, closing the real import-time asymmetry that shipped it untagged (WEBUS2020 Numbers 15:38's real tassels gloss)", () => {
+    const { footnote } = footnoteFrom("\\f + \\fr 15:38 \\ft or, tassels (Hebrew צִיצִ֛ת)\\f*");
+    expect(footnote.content).toEqual(["or, tassels (Hebrew ", { text: "צִיצִ֛ת", script: "H" }, ")"]);
+    expect(footnote.type).toBe("trn");
   });
 });
 
@@ -176,17 +182,17 @@ describe("buildFootnoteContent — fraction normalization", () => {
  * `imports/webus2020/ebible-usfm/*.usfm`.
  */
 describe("buildFootnoteContent — footnote-initial capitalization", () => {
-  it('should capitalize Leviticus 11:5\'s own real regression, the user\'s own named fixture ("or rock badger, or cony" — no comma after the first "or", so it does not qualify for the or, exception below)', () => {
+  it('should capitalize Leviticus 11:5\'s own real regression ("or rock badger, or cony" — no comma after the first "or", so it does not qualify for the or, exception below)', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 11:5 \\ft or rock badger, or cony\\f*');
     expect(footnote.content).toBe("Or rock badger, or cony");
   });
 
-  it('should capitalize Leviticus 19:16\'s own real regression, the user\'s own second named fixture ("literally, “blood”")', () => {
+  it('should capitalize Leviticus 19:16\'s own real regression ("literally, “blood”")', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 19:16 \\ft literally, “blood”\\f*');
     expect(footnote.content).toBe("Literally, “blood”");
   });
 
-  it('should capitalize a second real "literally," regression in a different book (Matthew 6:27\'s "literally, cubit" — 23 of the 27 real regressions share this exact opener)', () => {
+  it('should capitalize a second real "literally," regression in a different book (Matthew 6:27\'s "literally, cubit")', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 6:27 \\ft literally, cubit\\f*');
     expect(footnote.content).toBe("Literally, cubit");
   });
@@ -204,7 +210,7 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
     expect(footnote.content).toBe("Or Gentiles");
   });
 
-  it('should recapitalize the *whole* witness siglon, not just its own leading letter, for Acts 4:27\'s own real regression — a real source-side casing slip ("nu adds...") against 200+ already-upper-case "NU" occurrences elsewhere in the corpus; upstream HEAD carries "NU adds...", not "Nu adds..."', () => {
+  it('should recapitalize the *whole* witness siglon, not just its own leading letter, for Acts 4:27\'s own real regression — a real source-side casing slip ("nu adds...") that upstream HEAD carries as "NU adds...", not "Nu adds..."', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 4:27 \\ft nu adds “in this city,”\\f*');
     expect(footnote.content).toBe("NU adds “in this city,”");
     expect(footnote.type).toBe("var");
@@ -285,7 +291,7 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
     expect(footnote.type).toBe("stu");
   });
 
-  it('should link Matthew 23:5\'s real embedded "See Deuteronomy 6:8." to a real bibleLink, now matching upstream HEAD\'s own exact content shape — the capitalized "Phylacteries..." opening is a real, already-accepted, intentional divergence from upstream\'s own lowercase wording (a transliterated term, backlog-shaped, capitalized anyway under this importer\'s general "capitalize all of them" rule), unrelated to and unaffected by Finding 9\'s own separate fix', () => {
+  it('should link Matthew 23:5\'s real embedded "See Deuteronomy 6:8." to a real bibleLink, matching upstream HEAD\'s own content shape — the capitalized "Phylacteries..." opening is an intentional divergence from upstream\'s own lowercase wording (a transliterated term, backlog-shaped, capitalized anyway under this importer\'s general "capitalize all of them" rule)', () => {
     const { footnote } = footnoteFrom(
       '\\f + \\fr 23:5 \\ft phylacteries (tefillin in Hebrew) are small leather pouches that some Jewish men wear on their forehead and arm in prayer. They are used to carry a small scroll with some Scripture in it. See Deuteronomy 6:8.\\f*',
     );
@@ -306,9 +312,9 @@ describe("buildFootnoteContent — zero \\w/\\+w tags ever occur inside a footno
 });
 
 /**
- * `\fl` — a footnote sub-marker Esther-Greek carries 33 times, absent from
- * every 66-book canonical file (`KEPT_SUB_MARKERS`'s own doc comment
- * explains why it must stay kept). Every fixture below is real, verbatim
+ * `\fl` — a footnote sub-marker Esther-Greek carries, absent from every
+ * 66-book canonical file (`KEPT_SUB_MARKERS`'s own doc comment explains why
+ * it must stay kept). Every fixture below is real, verbatim
  * `43-ESGeng-web.usfm` text.
  */
 describe("buildFootnoteContent — \\fl (Esther-Greek's own footnote label sub-marker)", () => {
@@ -346,7 +352,7 @@ describe("buildFootnoteContent — \\fl (Esther-Greek's own footnote label sub-m
  * doc-comment claim.
  */
 describe("buildFootnoteContent — deuterocanon regressions for already-established mechanisms", () => {
-  it("should tag each of \\+bk/\\+bk*'s 3 real book-title citations marks: [\"i\"], even inside a footnote that itself sits inside an \\s1 span (Daniel 3:24's real footnote, Finding 6) — its own trailing \"between Daniel 3:23 and Daniel 3:24\" also links both, a real, independent side effect of Finding 9's redesigned scan (Phase 15) finding two fully-qualified references with nothing but a bare book-name repeat sitting between them", () => {
+  it("should tag each of \\+bk/\\+bk*'s 3 real book-title citations marks: [\"i\"], even inside a footnote that itself sits inside an \\s1 span (Daniel 3:24's real footnote) — its own trailing \"between Daniel 3:23 and Daniel 3:24\" also links both, finding two fully-qualified references with nothing but a bare book-name repeat sitting between them", () => {
     const { footnote } = footnoteFrom(
       '\\f + \\fr 3:24 \\ft \\+bk The Song of the Three Holy Children\\+bk* is an addition to \\+bk Daniel\\+bk* found in the Greek Septuagint but not found in the traditional Hebrew text of \\+bk Daniel\\+bk*. This portion is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches. It is found inserted between Daniel 3:23 and Daniel 3:24 of the traditional Hebrew Bible. Here, the verses after 23 from the Hebrew Bible are numbered starting at 91 to make room for these verses.\\f*',
     );
@@ -448,13 +454,13 @@ describe("buildFootnoteContent — an \\f body that is nothing but a reference r
     expect(footnote.content).toEqual({ bibleLink: "Numbers 31:6", content: "Compare Numbers 31:6" });
   });
 
-  it("should resolve a bare reference-only \\f body with no lead-in word at all, to the canonical singular \"Psalm\" target (1 Maccabees 7:17's real note, Finding 8b)", () => {
+  it("should resolve a bare reference-only \\f body with no lead-in word at all, to the canonical singular \"Psalm\" target (1 Maccabees 7:17's real note)", () => {
     const { footnote } = footnoteFrom('\\f + \\fr 7:17 \\ft Psalms 79:2, 3.\\f*', IN_SCOPE_CANON);
     expect(footnote.type).toBe("xrf");
     expect(footnote.content).toEqual({ bibleLink: "Psalm 79:2, 3", content: "Psalms 79:2, 3" });
   });
 
-  it("should resolve a semicolon-joined multi-target reference-only \\f body the same \"; \"-joining way \\x already does, the Psalms target resolving to canonical singular \"Psalm\" (Wisdom 11:4's real note, Finding 8b)", () => {
+  it("should resolve a semicolon-joined multi-target reference-only \\f body the same \"; \"-joining way \\x already does, the Psalms target resolving to canonical singular \"Psalm\" (Wisdom 11:4's real note)", () => {
     const { footnote } = footnoteFrom('\\f + \\fr 11:4 \\ft See Deuteronomy 8:15; Psalms 114:8.\\f*', IN_SCOPE_CANON);
     expect(footnote.type).toBe("xrf");
     expect(footnote.content).toEqual([
@@ -492,7 +498,7 @@ describe("buildIntroParagraphFootnote — \\ip", () => {
     return buildIntroParagraphFootnote(tokens, ipIndex + 1);
   }
 
-  it("should build a plain-prose \\ip block's own text into a footnote, tagging its single embedded \\bk citation marks: [\"i\"] rather than dropping it as plain text (Tobit's real editorial blurb, Finding 6)", () => {
+  it("should build a plain-prose \\ip block's own text into a footnote, tagging its single embedded \\bk citation marks: [\"i\"] rather than dropping it as plain text (Tobit's real editorial blurb)", () => {
     const { footnote } = introFootnoteFrom(
       "\\ip \\bk Tobit\\bk* is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches.  \n\\c 1",
     );
@@ -569,20 +575,14 @@ describe("buildIntroParagraphFootnote — \\ip", () => {
 });
 
 /**
- * A real, corpus-wide collision check — not an inference from the
- * fixture-level tests above alone. Every real `\f`-derived footnote body
- * across WEBUS2020's own real 81-book raw source
- * (`extractFootnoteBodiesIn`, `usfm/verify.ts`'s own independent
- * extraction, sharing no code with this module) is run through
- * `capitalizeFootnoteOpening` directly, proving the fix changes exactly
- * what it should and nothing else: every body it *does* change has a real
- * reason to (a lowercase ASCII leading letter, not the `or,` exception),
- * and every body it leaves alone has a real reason to be left alone
- * (already capitalized, non-letter-led, or the `or,` exception) — a
- * formal round-trip check across the whole real corpus, not a match
- * against one pre-computed count, since this 81-book, direct-extraction
- * sweep uses a different, broader methodology than a 66-canonical-book,
- * per-footnote match against `HEAD`.
+ * A corpus-wide collision check, not an inference from the fixture-level
+ * tests above alone: every real `\f`-derived footnote body across
+ * WEBUS2020's own raw source (`extractFootnoteBodiesIn`, `usfm/verify.ts`'s
+ * own independent extraction, sharing no code with this module) is run
+ * through `capitalizeFootnoteOpening` directly, proving every body it
+ * changes has a real reason to (a lowercase ASCII leading letter, not the
+ * `or,` exception) and every body it leaves alone has a real reason to be
+ * left alone (already capitalized, non-letter-led, or the `or,` exception).
  */
 // Report-only, corpus-wide measurement: needs WEBUS2020's own real raw USFM
 // locally at `webDir` (gitignored, never committed — a fresh clone doesn't
@@ -646,9 +646,8 @@ describe("capitalizeFootnoteOpening — corpus-wide collision check against WEBU
     expect(changedCount).toBeGreaterThan(0);
     expect(orExceptionCount).toBeGreaterThan(0);
     // Acts 4:27's own real "nu adds..." casing slip is the corpus's only
-    // real witness-siglon recapitalization (confirmed directly: zero other
-    // real footnote body opens with "tr"/"mt"/"nu" at all, siglon or
-    // otherwise).
+    // witness-siglon recapitalization — no other footnote body opens with
+    // "tr"/"mt"/"nu" at all, siglon or otherwise.
     expect(witnessSiglonRecapitalized).toBe(1);
   });
 });

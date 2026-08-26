@@ -3,7 +3,7 @@ import { buildBlockContent } from "../blockStructure";
 import { VerseBlock } from "../segmentVerses";
 
 describe("buildBlockContent — the three shapes content-schema.json's own precedent already establishes", () => {
-  it("should collapse a single unflagged block to a bare string, matching Phase 1's own plain-text verses", () => {
+  it("should collapse a single unflagged block to a bare string, matching plain-text verses", () => {
     const blocks: VerseBlock[] = [{ text: "In the beginning, God created the heavens and the earth." }];
     expect(buildBlockContent(blocks)).toBe("In the beginning, God created the heavens and the earth.");
   });
@@ -46,7 +46,7 @@ describe("buildBlockContent — the three shapes content-schema.json's own prece
   });
 });
 
-describe("buildBlockContent — Phase 3's own `nodes`-aware blocks (Strong's/marks-carrying content, extending the same three shapes)", () => {
+describe("buildBlockContent — blocks carrying Strong's/marks content (extending the same three shapes)", () => {
   it("should attach paragraph to the first node of a multi-node block, sharing it with that node's own strong (KJV1769 01-GEN.json 1:1's real shape)", () => {
     const blocks: VerseBlock[] = [
       {
@@ -78,7 +78,7 @@ describe("buildBlockContent — Phase 3's own `nodes`-aware blocks (Strong's/mar
     ]);
   });
 
-  it("should fall back to the block's own plain text as a single node when it carries no `nodes` of its own, unchanged from Phase 1/2", () => {
+  it("should fall back to the block's own plain text as a single node when it carries no `nodes` of its own", () => {
     const blocks: VerseBlock[] = [{ text: "plain, unmarked verse text", paragraph: true }];
     expect(buildBlockContent(blocks)).toEqual({ text: "plain, unmarked verse text", paragraph: true });
   });
@@ -96,7 +96,7 @@ describe("buildBlockContent — Phase 3's own `nodes`-aware blocks (Strong's/mar
   });
 });
 
-describe("buildBlockContent — Phase 6's own heading-carrying blocks (subtitle/heading, standing alone, never merged or flag-attached)", () => {
+describe("buildBlockContent — heading-carrying blocks (subtitle/heading, standing alone, never merged or flag-attached)", () => {
   it("should render a subtitle block as its own array item before the paragraph content that follows it, matching already-shipped precedent's own shape", () => {
     const blocks: VerseBlock[] = [
       { text: "", headingContent: { subtitle: "A Psalm by David, when he fled from Absalom his son." } },

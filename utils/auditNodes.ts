@@ -74,14 +74,67 @@
  *    quote needs context a character-level rule cannot supply, so this check
  *    exists to report the finding with enough detail to act on, not to
  *    silently rewrite it. See {@link hasStraightQuote}.
+ * 12. **Footnote marker after whitespace** — a `foot`-carrying node whose own
+ *    marker renders immediately after whitespace, the same leading-space
+ *    convention check 2 already enforces for `strong`, extended here to
+ *    `foot`. Asks the render-order question, not just "does this node's own
+ *    text end in whitespace": a node rendering no text of its own (a bare
+ *    `{foot: {...}}` anchor) still renders its marker wherever the
+ *    accumulated visible text before it already ends. See {@link
+ *    findWhitespaceSourceIndex} and {@link
+ *    scanArrayForFootnoteMarkerAfterWhitespace}.
+ * 13. **Untagged script run** — a node's own `text` mixes a Latin letter with
+ *    a Hebrew or Greek letter and carries no `script` tag of its own,
+ *    contradicting this corpus's own settled convention that a non-Latin
+ *    letter embedded in Latin text becomes its own `{text, script}` node.
+ *    Requires the mix, not just the non-Latin character alone — an all-Greek
+ *    string on an all-Greek version's node is ordinary, correct verse text,
+ *    not a finding. See {@link
+ *    hasMixedScriptText} (`functions/tagScriptRunsInContent.ts`).
+ * 14. **Duplicate footnote anchor** — a node rendering no visible text of its
+ *    own whose `foot` is byte-for-byte identical to the nearest node before
+ *    it that wasn't itself already flagged. Tight on purpose: two adjacent
+ *    siblings sharing a byte-identical `foot` are common corpus-wide, and
+ *    the large majority are the same note correctly annotating two real,
+ *    separate word occurrences, each on its own text-bearing node — only
+ *    the shape where the later node renders nothing at all is a defect. See
+ *    {@link isDuplicateFootnoteAnchor} and {@link
+ *    scanArrayForDuplicateFootnoteAnchors}.
+ * 15. **Mergeable siblings** — two adjacent nodes that carry nothing but
+ *    `text` (optionally `marks`/`script`) and agree on both, left split for
+ *    no reason a reader could name. Real YLT1898 shape: a heading's own
+ *    `"The Angel of the "` immediately followed by `{text: "Jehovah"}` —
+ *    structural residue, not a lost mark, confirmed by measuring rather than
+ *    assuming: this version carries 98 nodes whose own text starts
+ *    "Jehovah" and **zero** of them are `sc`-marked, so there is no
+ *    small-caps convention here for a merge to destroy evidence of. A node
+ *    carrying `strong`, `foot`, `bibleLink`, nested `content`, `paragraph`,
+ *    or `break` is never eligible on either side — each of those ties a
+ *    whole different kind of information to one specific tag occurrence, and
+ *    two different tag occurrences that decode to the same value must stay
+ *    split, the same rule check 1's own doc comment already establishes for
+ *    a `target` node's own suffix-carrying properties. See {@link
+ *    isMergeableTextNode} and {@link scanArrayForMergeableSiblings}.
+ * 16. **Non-standard whitespace** — a node's own `text` carries a
+ *    non-breaking space, an exotic Unicode space, a zero-width or
+ *    word-joining control, a tab, or a bare newline: none of these are this
+ *    corpus's own sanctioned whitespace character (an ordinary ASCII
+ *    space). Modeled directly on check 11, down to the excerpt shape:
+ *    **no auto-fix and never will be**, since replacing a non-breaking
+ *    space needs to know whether the source meant it to hold two words
+ *    together, a judgment the character alone cannot supply. The corpus
+ *    carries zero of these today — that says nothing about whether the
+ *    rule is right, the same position check 11 already occupies. See
+ *    {@link hasNonStandardWhitespace}.
  *
  * A general-purpose, version-controlled tool any future import can reach
  * for, rather than a one-off diagnostic scoped to whichever translation
  * happens to be mid-import at the time.
  *
- * Checks 1-4 and 8-9 recurse into `content` (a `ContentNested` wrapper's own
- * inner array) in addition to `heading`/`subtitle`/`foot.content` — a safe
- * default for any future import that tags `strong` inside a footnote.
+ * Checks 1-4, 8-9, 12, 14, and 15 recurse into `content` (a `ContentNested`
+ * wrapper's own inner array) in addition to `heading`/`subtitle`/
+ * `foot.content` — a safe default for any future import that tags `strong`
+ * inside a footnote.
  *
  * **No curated version list.** With no version id passed to
  * {@link auditVersions}, it audits every directory under `bible-versions/` —
@@ -92,21 +145,33 @@
  * `bible-versions/` — every check above only ever reads and reports. This
  * module carries no `main()`, no command-line argument parsing, and no npm
  * script of its own; `utils/validate.ts` is the only thing that calls in.
- * Checks 1, 6, 8, and 9 do get repaired, but not here: their fixes run inside
- * `validate.ts`'s own auto-fix pass, built from four exported transforms
- * (`utils/fixUnmergedNodes.ts`, `fixHeadingParagraphs.ts`,
- * `fixFootnotePunctuationOrder.ts`, `fixMarkBoundaryEmbeddedSpaces.ts`) that
- * reuse this module's own eligibility functions rather than a second copy of
- * the judgment. A reader looking for the fix half of any of those four checks
- * should look there, not here.
+ * Checks 1, 6, 8, 9, 12, 13, 14, and 15 do get repaired, but not here: their
+ * fixes run inside `validate.ts`'s own auto-fix pass, built from six
+ * exported transforms in `utils/` that reuse this module's own eligibility
+ * functions rather than a second copy of the judgment
+ * (`fixUnmergedNodes.ts`, `fixHeadingParagraphs.ts`,
+ * `fixFootnotePunctuationOrder.ts`, `fixMarkBoundaryEmbeddedSpaces.ts`,
+ * `fixFootnoteMarkerSpacing.ts`, `fixDuplicateFootnoteAnchors.ts`, check
+ * 14's own fixer), plus two more in `functions/` (`tagScriptRunsInContent.ts`,
+ * check 13's own fixer, self-contained rather than importing this module's
+ * judgment, since its own eligibility question — does this text mix
+ * scripts, and does the node carry a property a split can't safely assign —
+ * has nothing to do with node placement, the concern every other check here
+ * shares; `mergeEquivalentSiblingsInContent.ts`, check 15's own fixer,
+ * which does import {@link isMergeableTextNode} and {@link
+ * agreesInFormatting} from here, since its own eligibility question is
+ * exactly this module's concern). A reader looking for the fix half of any
+ * of these eight checks should look there, not here.
  */
 
 import * as fs from "fs";
 import * as path from "path";
+import _ from "lodash";
 import { getVersionDirectories } from "../functions/getBibleVersions";
 import Content from "../types/Content";
 import { normalizeFractionText } from "../functions/normalizeFractions";
 import { hasEllipsisIndicator } from "../functions/normalizeEllipses";
+import { hasMixedScriptText } from "../functions/tagScriptRunsInContent";
 
 /** Root directory holding one subfolder per Bible version. */
 const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
@@ -515,8 +580,7 @@ interface StraightQuoteFinding {
 /**
  * True when a node's own `text` carries an ASCII `'`, `"`, or backtick.
  *
- * **Report-only, deliberately, and this is the clearest illustration in this
- * whole module of why.** Converting a straight `'` requires first deciding
+ * **Report-only, deliberately.** Converting a straight `'` requires first deciding
  * whether it is an apostrophe, an opening single quote, or a closing single
  * quote — a judgment that depends on the characters around it and sometimes
  * the whole sentence, not on the character itself. No rule applied one
@@ -1020,6 +1084,387 @@ function scanArrayForMarkBoundaryEmbeddedSpaces(
 }
 
 // ---------------------------------------------------------------------------
+// Check 12 — a footnote marker rendering immediately after whitespace
+// ---------------------------------------------------------------------------
+
+/**
+ * Walks backward from `at` (inclusive) through every node contributing no
+ * rendered characters of its own — an undefined or empty `text` — to find
+ * the node whose own trailing text is what a footnote marker sitting at
+ * index `at` actually renders immediately after. A node's own marker always
+ * renders after that node's own full text (see check 8's own doc comment),
+ * so a node with real text of its own is always its own answer; a node with
+ * none (a bare `{foot: {...}}` anchor, or a `{text: ""}` husk) renders
+ * nothing, so the character its marker actually follows is whatever the
+ * nearest real text before it left behind — real WEBUS2020 Mark 9:44 shape,
+ * where a textless `{foot}` anchor's own predecessor ends in whitespace.
+ *
+ * Returns that node's own index only when its text ends in whitespace —
+ * `undefined` both when nothing between the start of the array and `at`
+ * contributes any text at all, and when the nearest real text found does
+ * *not* end in whitespace (a real word, not a joining space, precedes the
+ * marker). Also `undefined` when a `hasNestedContent` (`ContentNested`)
+ * wrapper blocks the walk: this array level has no visibility into such a
+ * wrapper's own nested content, so it can't say what that wrapper's own
+ * last rendered character is, and no real corpus case combines nested
+ * content with a textless top level and a `foot` — see check 8's own
+ * treatment of a `ContentNested` wrapper (never a real attachment point)
+ * for the same boundary drawn elsewhere in this file.
+ *
+ * Exported so {@link scanArrayForFootnoteMarkerAfterWhitespace} and this
+ * check's own fixer share one answer to "where does this whitespace
+ * actually live" rather than the fixer re-deriving it — the fixer needs the
+ * source node's own index to strip the run from, not just a boolean.
+ */
+export function findWhitespaceSourceIndex(
+  shapes: readonly NodeShape[],
+  at: number,
+): number | undefined {
+  for (let i = at; i >= 0; i--) {
+    const shape = shapes[i];
+    if (shape.hasNestedContent) return undefined;
+    if (shape.text === undefined || shape.text === "") continue;
+    return /\s$/.test(shape.text) ? i : undefined;
+  }
+  return undefined;
+}
+
+/** One footnote-marker-after-whitespace finding within a single array level. */
+interface FootnoteMarkerAfterWhitespaceFinding {
+  /** The array level this was found in. */
+  where: string;
+  /** The `foot`-carrying node whose own marker renders immediately after whitespace — either its own trailing edge, or (for a node rendering no text of its own) an earlier node's trailing edge, per {@link findWhitespaceSourceIndex}. */
+  node: unknown;
+  /** The real node immediately after `node`, skipping any textless Strong's sibling in between, the joining space should relocate onto — `undefined` when `node` sits at the end of its own array level, with nothing to relocate onto. */
+  next: unknown;
+}
+
+/**
+ * Scan one array level for a `foot`-carrying node whose own marker renders
+ * immediately after whitespace — a violation of this corpus's own
+ * leading-space convention (see the top of this file), extended here to
+ * `foot` the same way check 2 already covers `strong`. Real ASV1901 Genesis
+ * 1:2 shape: `{text: "...and the Spirit of God ", foot: {...}}` immediately
+ * followed by `"moved upon the face of the waters."` — rendered, the marker
+ * lands after the space and hard against "moved," instead of hugging "God"
+ * where it belongs.
+ *
+ * A node whose own `text` ends in whitespace is the ordinary case, but a
+ * `foot`-carrying node that renders no text of its own — a bare `{foot:
+ * {...}}` anchor — still renders its marker somewhere, immediately after
+ * whatever the accumulated visible text already ends in. See {@link
+ * findWhitespaceSourceIndex} for the backward
+ * walk that answers this precisely, and its own doc comment for the real
+ * WEBUS2020 Mark 9:44 case this exists for.
+ *
+ * A `hasNestedContent` node is never itself a finding: whether *its* own
+ * marker renders after whitespace depends on its own nested content's last
+ * rendered character, invisible from this array level (see {@link
+ * findWhitespaceSourceIndex}'s own doc comment).
+ */
+function scanArrayForFootnoteMarkerAfterWhitespace(
+  nodes: readonly unknown[],
+  where: string,
+): FootnoteMarkerAfterWhitespaceFinding[] {
+  const shapes = nodes.map(describeNode);
+  const findings: FootnoteMarkerAfterWhitespaceFinding[] = [];
+
+  for (let i = 0; i < nodes.length; i++) {
+    const shape = shapes[i];
+    if (!shape.hasFoot || shape.hasNestedContent) continue;
+    if (findWhitespaceSourceIndex(shapes, i) === undefined) continue;
+
+    let j = i + 1;
+    while (j < nodes.length && shapes[j].isTextlessStrongSibling) j++;
+
+    findings.push({ where, node: nodes[i], next: j < nodes.length ? nodes[j] : undefined });
+  }
+
+  return findings;
+}
+
+// ---------------------------------------------------------------------------
+// Check 13 — a non-Latin letter embedded in Latin text with no script tag
+// ---------------------------------------------------------------------------
+
+/**
+ * True when a node's own `text` mixes a Latin letter with a Hebrew or Greek
+ * letter and the node doesn't yet carry a `script` tag of its own —
+ * real WEBUS2020 `NUM 15:38`'s untagged `"or, tassels (Hebrew צִיצִ֛ת)"`
+ * against real WEBUS2020 `PSA 3:2`'s correctly tagged `{text:
+ * "אֱלֹהִ֑ים", script: "H"}`, three books away in the same version. Built
+ * on {@link hasMixedScriptText} (`functions/tagScriptRunsInContent.ts`)
+ * rather than a second copy of the Unicode-range matching — the same
+ * "one convention, one function" discipline checks 7 and 10 already follow
+ * for `normalizeFractionText`/`hasEllipsisIndicator`.
+ *
+ * **Not about headings, and not about acrostics.** The guarding need that
+ * first motivated tagging a non-Latin letter (Psalm 119's acrostic-stanza
+ * headings) is one instance of a general rule this predicate states plainly:
+ * the rule applies anywhere in the tree a bare string carries mixed script,
+ * a footnote's own prose included — which is exactly where both real corpus
+ * violations live.
+ *
+ * A `script` already present short-circuits the test before it ever looks at
+ * the text — an already-tagged node is correct as it stands, regardless of
+ * what its own text contains, and this check never second-guesses a tag
+ * already applied.
+ */
+function hasUntaggedScriptRun(shape: NodeShape): boolean {
+  return (
+    shape.text !== undefined &&
+    shape.script === undefined &&
+    hasMixedScriptText(shape.text)
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Check 14 — a textless node repeating its predecessor's own footnote
+// ---------------------------------------------------------------------------
+
+/** A node's own raw `foot` value, or `undefined` when it isn't a plain object or carries none — the byte-for-byte comparison check 14 needs, which {@link NodeShape} doesn't carry (it only ever exposes `hasFoot`, a boolean). */
+function footValueOf(node: unknown): unknown {
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return undefined;
+  return (node as Record<string, unknown>).foot;
+}
+
+/**
+ * True when `candidate` renders no visible text of its own and its own
+ * `foot` is byte-for-byte identical to `target`'s — the exact rule check 14
+ * exists to flag. Exported so {@link scanArrayForDuplicateFootnoteAnchors}
+ * and this check's own fixer (`utils/fixDuplicateFootnoteAnchors.ts`) share
+ * one answer rather than the fixer re-deriving it, the same reuse
+ * discipline `findWhitespaceSourceIndex` already established for check 12.
+ *
+ * **"Renders no visible text" means no `text` key at all, or `text: ""`** —
+ * real KJV1769 Psalm 80:4's `{text: "", foot: {...}}` renders exactly as
+ * little as a bare `{foot: {...}}` anchor, so both count. A `hasNestedContent`
+ * node is excluded outright: whether *it* renders anything depends on its
+ * own nested content, invisible from this array level (the same boundary
+ * {@link findWhitespaceSourceIndex} draws for the identical reason).
+ *
+ * Deep-equality (`lodash`'s `isEqual`), not `===`: two `foot` objects built
+ * from the same source apparatus note are equal in value but never the same
+ * object reference once JSON round-trips through `JSON.parse`.
+ */
+export function isDuplicateFootnoteAnchor(
+  candidate: unknown,
+  candidateShape: NodeShape,
+  target: unknown,
+  targetShape: NodeShape,
+): boolean {
+  return (
+    !candidateShape.hasNestedContent &&
+    (candidateShape.text === undefined || candidateShape.text === "") &&
+    candidateShape.hasFoot &&
+    targetShape.hasFoot &&
+    _.isEqual(footValueOf(candidate), footValueOf(target))
+  );
+}
+
+/** One duplicate-footnote-anchor finding within a single array level. */
+interface DuplicateFootnoteAnchorFinding {
+  /** The array level this was found in. */
+  where: string;
+  /** The later, textless node whose own `foot` is pure repetition and should be deleted. */
+  node: unknown;
+  /** The earlier, real node this anchor's own `foot` byte-for-byte repeats. */
+  target: unknown;
+}
+
+/**
+ * Scan one array level for a node that renders no visible text of its own
+ * and whose `foot` byte-for-byte repeats the nearest node before it that
+ * wasn't itself already flagged for deletion — real BYZ2018 2 Corinthians
+ * 7:12 shape: three consecutive nodes share one apparatus note ("B εἵνεκεν
+ * ⇒ ἕνεκεν"), the first attached to real text and eligible as `target`, the
+ * second and third bare `{foot: {...}}` anchors repeating it with nothing
+ * of their own to attach it to — both are findings, the second compared
+ * against the first (its own `target`), not against the first duplicate,
+ * which is itself on its way out.
+ *
+ * **Tight on purpose.** Two adjacent siblings sharing a byte-identical `foot`
+ * are usually the same note correctly annotating two real, separate
+ * occurrences of the same word, each on its own text-bearing node (real
+ * ASV1901 Genesis 3:14: "cursed art thou" and " above all cattle, and" both
+ * carry the identical "Or, from among" note, each legitimately its own
+ * marker on its own word). The rule that tells a genuine duplicate apart
+ * from that is exactly whether the later node renders anything: a node with
+ * real text of its own is never a finding here, no matter how many siblings
+ * share its `foot`. See {@link isDuplicateFootnoteAnchor} for the exact
+ * test.
+ *
+ * A byte-identical `foot` is required, not merely a matching `type` —
+ * real BYZ2018 Revelation 7:5 carries two adjacent textless anchors whose
+ * `foot` values genuinely differ (`"B ... ⇒ _ΙΒ"` against a separate `"N
+ * ..."` variant note immediately after), and neither is a finding: each is
+ * its own distinct apparatus entry, not a repeat of the other.
+ */
+function scanArrayForDuplicateFootnoteAnchors(
+  nodes: readonly unknown[],
+  where: string,
+): DuplicateFootnoteAnchorFinding[] {
+  const shapes = nodes.map(describeNode);
+  const findings: DuplicateFootnoteAnchorFinding[] = [];
+
+  let lastKept = -1;
+  for (let i = 0; i < nodes.length; i++) {
+    if (
+      lastKept >= 0 &&
+      isDuplicateFootnoteAnchor(nodes[i], shapes[i], nodes[lastKept], shapes[lastKept])
+    ) {
+      findings.push({ where, node: nodes[i], target: nodes[lastKept] });
+      continue; // not kept — the next node still compares against lastKept
+    }
+    lastKept = i;
+  }
+
+  return findings;
+}
+
+// ---------------------------------------------------------------------------
+// Check 15 — adjacent siblings that differ in nothing but their own text
+// ---------------------------------------------------------------------------
+
+/** The only two keys, besides `text` itself, check 15's own merge tolerates on either side of a pair. `marks`/`script` describe formatting the merge already requires the two nodes to agree on ({@link agreesInFormatting}); any other key — `strong`, `foot`, `bibleLink`, nested `content`, `paragraph`, `break`, `lemma`, `morph` — ties a whole different kind of information to one specific tag occurrence, and merging the node away would either lose that information or have to guess which side of the pair keeps it. */
+const MERGEABLE_EXTRA_KEYS = new Set(["marks", "script"]);
+
+/**
+ * True when `node` renders real text of its own and carries nothing beyond
+ * that but `marks`/`script` — a bare string trivially qualifies (no keys of
+ * its own beyond its own characters), and a `{text}`-only object qualifies
+ * identically once the schema's own equivalence between the two is taken at
+ * face value. Any other property disqualifies the node outright; see {@link
+ * MERGEABLE_EXTRA_KEYS}'s own doc comment for why.
+ *
+ * Takes both the raw `node` and its already-computed `shape` rather than
+ * `shape` alone: {@link NodeShape} deliberately exposes only a named subset
+ * of a node's own properties (`strong`, `hasFoot`, and so on), not its full
+ * key set, so a node carrying `lemma` or `morph` with no `strong` — legal
+ * per the schema, even though this corpus carries none today (per
+ * `functions/tagScriptRunsInContent.ts`'s own measurement) — still needs a
+ * real answer rather than an assumption. `shape.text` is reused rather than re-derived: a `heading`/
+ * `subtitle`/`bibleLink` wrapper and a `ContentNested` wrapper both already
+ * read as `text: undefined` in {@link describeNode}, so requiring it here
+ * excludes all four boundary shapes for free, with no separate boundary
+ * check of its own needed.
+ */
+export function isMergeableTextNode(node: unknown, shape: NodeShape): boolean {
+  if (shape.text === undefined) return false;
+  if (typeof node === "string") return true;
+  if (node === null || typeof node !== "object" || Array.isArray(node)) return false;
+  return Object.keys(node as Record<string, unknown>).every(
+    (key) => key === "text" || MERGEABLE_EXTRA_KEYS.has(key),
+  );
+}
+
+/** One mergeable-sibling-pair finding within a single array level. */
+interface MergeableSiblingsFinding {
+  /** The array level this pair was found in. */
+  where: string;
+  /** The earlier of the two nodes — the one a fixer's own merge keeps and extends. */
+  first: unknown;
+  /** The later of the two nodes — the one a fixer's own merge folds into `first` and removes. */
+  second: unknown;
+}
+
+/**
+ * Scan one array level for two adjacent nodes that are each {@link
+ * isMergeableTextNode} and agree with each other in `marks`/`script` (see
+ * {@link agreesInFormatting}, reused verbatim rather than re-derived, the
+ * same formatting-agreement question checks 1 and 4 already ask) — left
+ * split for no reason a reader could name, real YLT1898 shape: a heading's
+ * own `"The Angel of the "` immediately followed by `{text: "Jehovah"}`.
+ *
+ * **Distinct from check 1 and check 4, not a re-derivation of either.**
+ * Check 1 covers an untagged connector beside a *tagged* neighbor (`strong`/
+ * `foot`/`break`); check 4 covers a *blank*, whitespace-only node between two
+ * agreeing real nodes. Neither covers two adjacent *plain* nodes that agree
+ * with each other and carry real text on both sides, which is exactly why
+ * these pairs survive corpus-wide today.
+ *
+ * One finding per adjacent pair, not one per run — a real three-node chain
+ * (YLT1898 1 Chronicles 13:1's heading: `"The Ark of the "`, `{text:
+ * "Jehovah"}`, `" is brought to Jerusalem"`) reports two findings here, the
+ * same per-pair convention {@link scanArrayForMarkBoundarySpaces} and {@link
+ * scanArrayForFootnotePunctuationOrder} already use; the fixer is the one
+ * that folds a whole chain into a single node.
+ */
+function scanArrayForMergeableSiblings(
+  nodes: readonly unknown[],
+  where: string,
+): MergeableSiblingsFinding[] {
+  const shapes = nodes.map(describeNode);
+  const findings: MergeableSiblingsFinding[] = [];
+
+  for (let i = 0; i < nodes.length - 1; i++) {
+    if (!isMergeableTextNode(nodes[i], shapes[i])) continue;
+    if (!isMergeableTextNode(nodes[i + 1], shapes[i + 1])) continue;
+    if (!agreesInFormatting(shapes[i], shapes[i + 1])) continue;
+
+    findings.push({ where, first: nodes[i], second: nodes[i + 1] });
+  }
+
+  return findings;
+}
+
+// ---------------------------------------------------------------------------
+// Check 16 — a non-standard whitespace character in content text
+// ---------------------------------------------------------------------------
+
+/** Every whitespace-shaped character this repo's own content convention never writes into prose — a non-breaking space, the Unicode General-Punctuation space-separator run, a narrow/medium-mathematical/ideographic space, a word joiner or zero-width no-break space (byte-order-mark), a tab, or a bare carriage return/line feed. An ordinary ASCII space (U+0020) is deliberately absent — it's this corpus's only sanctioned whitespace character, and the one every other check in this module already reasons about. Written entirely as `\u` escapes rather than the literal (invisible or look-alike) characters themselves, so every codepoint this check targets stays legible and auditable in source. */
+const NON_STANDARD_WHITESPACE =
+  /[\u00A0\u1680\u2000-\u200D\u202F\u205F\u2060\u3000\uFEFF\t\r\n]/;
+
+/** One non-standard whitespace character found within a single array level. */
+interface NonStandardWhitespaceFinding {
+  /** The offending node's own path within its verse (e.g. `content[3]`, `content.foot.content[1]`). */
+  path: string;
+  /** The offending character's own Unicode code point, printed as `U+00A0` rather than the invisible character itself, so a report line stays legible on its own. */
+  codePoint: string;
+  /** A short excerpt of the node's own text centered on the offending character, marked with a leading and/or trailing `…` where it was truncated — same radius and shape as {@link describeStraightQuoteFinding}'s own excerpt, so a reader can tell a genuine word-joining non-breaking space from import noise without opening the file. */
+  excerpt: string;
+}
+
+/**
+ * True when a node's own `text` carries a whitespace character this
+ * corpus's content convention never writes — a non-breaking space, an
+ * exotic Unicode space, a zero-width/joining control, a tab, or a bare
+ * newline.
+ *
+ * **Report-only, permanently, the same reason as {@link hasStraightQuote}.**
+ * Replacing a non-breaking space needs to know whether the source meant it
+ * to hold two words together (an English "10 a.m." or a French guillemet
+ * pairing, where collapsing it to an ordinary space would let the two
+ * halves wrap apart on a narrow screen) or whether it's plain import noise
+ * a plain space should simply replace — a judgment the character alone
+ * cannot supply.
+ */
+function hasNonStandardWhitespace(shape: NodeShape): boolean {
+  return shape.text !== undefined && NON_STANDARD_WHITESPACE.test(shape.text);
+}
+
+/**
+ * Builds the report detail behind one non-standard-whitespace finding —
+ * which code point it was, and a short excerpt of the surrounding text —
+ * for a node's own `text` already known to satisfy {@link
+ * hasNonStandardWhitespace}. Kept separate from the predicate, matching
+ * {@link describeStraightQuoteFinding}'s own reasoning: the per-node loop
+ * below tests cheaply with a boolean first, and only pays for building the
+ * excerpt on an actual finding.
+ */
+function describeNonStandardWhitespaceFinding(text: string, path: string): NonStandardWhitespaceFinding {
+  const at = text.search(NON_STANDARD_WHITESPACE);
+  const character = text[at];
+  const codePoint = `U+${character.codePointAt(0)!.toString(16).toUpperCase().padStart(4, "0")}`;
+  const start = Math.max(0, at - EXCERPT_RADIUS);
+  const end = Math.min(text.length, at + EXCERPT_RADIUS + 1);
+  const excerpt = `${start > 0 ? "…" : ""}${text.slice(start, end)}${end < text.length ? "…" : ""}`;
+  return { path, codePoint, excerpt };
+}
+
+// ---------------------------------------------------------------------------
 // Recursion — one array level, plus every node's own heading/subtitle/content/foot.content
 // ---------------------------------------------------------------------------
 
@@ -1028,10 +1473,12 @@ function asArray(content: unknown): unknown[] {
   return Array.isArray(content) ? content : [content];
 }
 
-/** All ten checks' findings for one array level (and everything nested beneath it) — the shape {@link findStrongsNodeIssues} returns. */
+/** All fifteen of the checks findable within one array level (and everything nested beneath it) — the shape {@link findStrongsNodeIssues} returns. Check 6 needs a whole book's own verse sequence and is never part of this shape; see {@link findStrongsNodeIssues}'s own doc comment. */
 interface LevelFindings {
   /** Check 1's findings. */
   unmergedPairs: PairFinding[];
+  /** Check 14's findings. */
+  duplicateFootnoteAnchors: DuplicateFootnoteAnchorFinding[];
   /** Check 2's findings — each entry is the offending node's own path (e.g. `content[3]`), not a full finding object. */
   trailingWhitespace: string[];
   /** Check 3's findings. */
@@ -1050,13 +1497,23 @@ interface LevelFindings {
   ellipsisFindings: string[];
   /** Check 11's findings. */
   straightQuoteFindings: StraightQuoteFinding[];
+  /** Check 12's findings. */
+  footnoteMarkerAfterWhitespace: FootnoteMarkerAfterWhitespaceFinding[];
+  /** Check 13's findings — each entry is the offending node's own path (e.g. `content[3]`), not a full finding object, matching Checks 2, 7, and 10's own shape. */
+  untaggedScriptRuns: string[];
+  /** Check 15's findings. */
+  mergeableSiblingPairs: MergeableSiblingsFinding[];
+  /** Check 16's findings. */
+  nonStandardWhitespaceFindings: NonStandardWhitespaceFinding[];
 }
 
 /**
  * Walk one array level and every node's own nested levels — `heading`,
- * `subtitle`, a `ContentNested` wrapper's own `content`, and a footnote
- * body's own `foot.content` — collecting all nine per-node checks' findings
- * into `sink` as it goes.
+ * `subtitle`, a `{paragraph: <content>}` wrapper, a `ContentNested`
+ * wrapper's own `content`, and a footnote body's own `foot.content` —
+ * collecting all fourteen of the checks findable this way (every check in
+ * {@link LevelFindings} except check 5, which only ever looks at a verse's
+ * own outermost content) into `sink` as it goes.
  */
 function walkLevel(
   nodes: readonly unknown[],
@@ -1068,6 +1525,9 @@ function walkLevel(
   sink.markBoundarySpaces.push(...scanArrayForMarkBoundarySpaces(nodes, where));
   sink.footnotePunctuationOrder.push(...scanArrayForFootnotePunctuationOrder(nodes, where));
   sink.markBoundaryEmbeddedSpaces.push(...scanArrayForMarkBoundaryEmbeddedSpaces(nodes, where));
+  sink.footnoteMarkerAfterWhitespace.push(...scanArrayForFootnoteMarkerAfterWhitespace(nodes, where));
+  sink.duplicateFootnoteAnchors.push(...scanArrayForDuplicateFootnoteAnchors(nodes, where));
+  sink.mergeableSiblingPairs.push(...scanArrayForMergeableSiblings(nodes, where));
 
   for (let i = 0; i < nodes.length; i++) {
     const node = nodes[i];
@@ -1082,6 +1542,12 @@ function walkLevel(
       sink.straightQuoteFindings.push(
         describeStraightQuoteFinding(shape.text, `${where}[${i}]`),
       );
+    if (hasUntaggedScriptRun(shape))
+      sink.untaggedScriptRuns.push(`${where}[${i}]`);
+    if (shape.text !== undefined && hasNonStandardWhitespace(shape))
+      sink.nonStandardWhitespaceFindings.push(
+        describeNonStandardWhitespaceFinding(shape.text, `${where}[${i}]`),
+      );
 
     if (node === null || typeof node !== "object" || Array.isArray(node))
       continue;
@@ -1091,6 +1557,8 @@ function walkLevel(
       walkLevel(asArray(record.heading), `${where}.heading`, sink);
     if (record.subtitle !== undefined)
       walkLevel(asArray(record.subtitle), `${where}.subtitle`, sink);
+    if (record.paragraph !== undefined && typeof record.paragraph !== "boolean")
+      walkLevel(asArray(record.paragraph), `${where}.paragraph`, sink);
     if (
       record.heading === undefined &&
       record.subtitle === undefined &&
@@ -1106,14 +1574,14 @@ function walkLevel(
 }
 
 /**
- * Walk one verse's whole content tree for checks 1-5 and 7-11 at once (ten
- * checks total).
+ * Walk one verse's whole content tree for checks 1-5 and 7-16 at once
+ * (fifteen checks total).
  *
- * Check 5 is not recursive like the other nine — it only ever looks at this
- * verse's own outermost content, so it runs once here rather than inside
- * {@link walkLevel}. Check 6 ({@link findHeadingParagraphMismatches}) is not
- * included here at all — it needs a whole book's own verse sequence to
- * decide anything, not one verse in isolation, so it runs separately.
+ * Check 5 is not recursive like the other fourteen — it only ever looks at
+ * this verse's own outermost content, so it runs once here rather than
+ * inside {@link walkLevel}. Check 6 ({@link findHeadingParagraphMismatches})
+ * is not included here at all — it needs a whole book's own verse sequence
+ * to decide anything, not one verse in isolation, so it runs separately.
  *
  * @param content - A verse's own `content` value, any shape the schema permits.
  * @param where - The array level's own label, threaded through recursion; callers pass nothing and get `"content"`.
@@ -1124,6 +1592,7 @@ export function findStrongsNodeIssues(
 ): LevelFindings {
   const sink: LevelFindings = {
     unmergedPairs: [],
+    duplicateFootnoteAnchors: [],
     trailingWhitespace: [],
     leadingPunctuation: [],
     markBoundarySpaces: [],
@@ -1133,6 +1602,10 @@ export function findStrongsNodeIssues(
     markBoundaryEmbeddedSpaces: [],
     ellipsisFindings: [],
     straightQuoteFindings: [],
+    footnoteMarkerAfterWhitespace: [],
+    untaggedScriptRuns: [],
+    mergeableSiblingPairs: [],
+    nonStandardWhitespaceFindings: [],
   };
   walkLevel(asArray(content), where, sink);
   return sink;
@@ -1288,6 +1761,64 @@ export interface StraightQuoteFileFinding extends StraightQuoteFinding {
   verse: number;
 }
 
+/** One footnote-marker-after-whitespace finding, with its file/verse identity attached. */
+export interface FootnoteMarkerAfterWhitespaceFileFinding extends FootnoteMarkerAfterWhitespaceFinding {
+  /** The version id this finding belongs to (e.g. `ASV1901`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `01-GEN.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `GEN`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+}
+
+/** One node whose own text mixes a Latin letter with an untagged Hebrew or Greek letter, with its file/verse identity attached. */
+export interface UntaggedScriptRunFinding {
+  /** The version id this finding belongs to (e.g. `WEBUS2020`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `04-NUM.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `NUM`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+  /** The offending node's own path within the verse's content tree (e.g. `content.foot.content[0]`). */
+  path: string;
+}
+
+/** One mergeable-sibling-pair finding, with its file/verse identity attached. */
+export interface MergeableSiblingsFileFinding extends MergeableSiblingsFinding {
+  /** The version id this finding belongs to (e.g. `YLT1898`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `02-EXO.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `EXO`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+}
+
+/** One non-standard-whitespace finding, with its file/verse identity attached. */
+export interface NonStandardWhitespaceFileFinding extends NonStandardWhitespaceFinding {
+  /** The version id this finding belongs to (e.g. `YLT1898`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `01-GEN.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `GEN`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+}
+
 /** Every verse-JSON file for one version id, sorted, excluding `_version.json` and any schema file. */
 function verseFiles(version: string): string[] {
   return fs
@@ -1304,12 +1835,28 @@ export interface HeadingParagraphFileFinding extends HeadingParagraphFinding {
   file: string;
 }
 
-/** One version's own audit: its id, and every finding {@link auditVersion} found, across all eleven checks. */
+/** One duplicate-footnote-anchor finding, with its file/verse identity attached. */
+export interface DuplicateFootnoteAnchorFileFinding extends DuplicateFootnoteAnchorFinding {
+  /** The version id this finding belongs to (e.g. `BYZ2018`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `08-2CO.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `2CO`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+}
+
+/** One version's own audit: its id, and every finding {@link auditVersion} found, across all sixteen checks. */
 export interface VersionAudit {
   /** The version id audited (e.g. `KJV1769`). */
   version: string;
   /** Check 1's findings, corpus-wide for this version. */
   unmergedPairs: readonly UnmergedStrongPairFinding[];
+  /** Check 14's findings, corpus-wide for this version — a textless node whose own `foot` byte-for-byte repeats its immediate predecessor's. */
+  duplicateFootnoteAnchors: readonly DuplicateFootnoteAnchorFileFinding[];
   /** Check 2's findings, corpus-wide for this version. */
   trailingWhitespace: readonly StrongTrailingWhitespaceFinding[];
   /** Check 3's findings, corpus-wide for this version. */
@@ -1330,6 +1877,14 @@ export interface VersionAudit {
   ellipsisFindings: readonly EllipsisFinding[];
   /** Check 11's findings, corpus-wide for this version — a node whose own text still carries an ASCII straight quote, apostrophe, or backtick. Report-only; there is no auto-fix for this one (see {@link hasStraightQuote}'s own doc comment for why). */
   straightQuoteFindings: readonly StraightQuoteFileFinding[];
+  /** Check 12's findings, corpus-wide for this version — a footnote marker rendering immediately after whitespace, extending the leading-space convention check 2 already enforces for `strong` to `foot`. */
+  footnoteMarkerAfterWhitespace: readonly FootnoteMarkerAfterWhitespaceFileFinding[];
+  /** Check 13's findings, corpus-wide for this version — a node whose own text mixes a Latin letter with an untagged Hebrew or Greek letter. */
+  untaggedScriptRuns: readonly UntaggedScriptRunFinding[];
+  /** Check 15's findings, corpus-wide for this version — two adjacent nodes that carry nothing but `text` (optionally agreeing `marks`/`script`) and should have merged into one. */
+  mergeableSiblingPairs: readonly MergeableSiblingsFileFinding[];
+  /** Check 16's findings, corpus-wide for this version — a node whose own text still carries a non-breaking space, an exotic Unicode space, a zero-width/joining control, a tab, or a bare newline. Report-only; there is no auto-fix for this one (see {@link hasNonStandardWhitespace}'s own doc comment for why). */
+  nonStandardWhitespaceFindings: readonly NonStandardWhitespaceFileFinding[];
 }
 
 /**
@@ -1340,6 +1895,7 @@ export interface VersionAudit {
  */
 export function auditVersion(version: string): VersionAudit {
   const unmergedPairs: UnmergedStrongPairFinding[] = [];
+  const duplicateFootnoteAnchors: DuplicateFootnoteAnchorFileFinding[] = [];
   const trailingWhitespace: StrongTrailingWhitespaceFinding[] = [];
   const leadingPunctuation: StrongLeadingPunctuationFinding[] = [];
   const markBoundarySpaces: MarkBoundarySpaceFileFinding[] = [];
@@ -1350,6 +1906,10 @@ export function auditVersion(version: string): VersionAudit {
   const markBoundaryEmbeddedSpaces: MarkBoundaryEmbeddedSpaceFileFinding[] = [];
   const ellipsisFindings: EllipsisFinding[] = [];
   const straightQuoteFindings: StraightQuoteFileFinding[] = [];
+  const footnoteMarkerAfterWhitespace: FootnoteMarkerAfterWhitespaceFileFinding[] = [];
+  const untaggedScriptRuns: UntaggedScriptRunFinding[] = [];
+  const mergeableSiblingPairs: MergeableSiblingsFileFinding[] = [];
+  const nonStandardWhitespaceFindings: NonStandardWhitespaceFileFinding[] = [];
 
   for (const file of verseFiles(version)) {
     const verses = JSON.parse(
@@ -1367,6 +1927,8 @@ export function auditVersion(version: string): VersionAudit {
       const findings = findStrongsNodeIssues(verse.content);
       for (const pair of findings.unmergedPairs)
         unmergedPairs.push({ ...identity, ...pair });
+      for (const finding of findings.duplicateFootnoteAnchors)
+        duplicateFootnoteAnchors.push({ ...identity, ...finding });
       for (const at of findings.trailingWhitespace)
         trailingWhitespace.push({ ...identity, path: at });
       for (const finding of findings.leadingPunctuation)
@@ -1385,6 +1947,14 @@ export function auditVersion(version: string): VersionAudit {
         ellipsisFindings.push({ ...identity, path: at });
       for (const finding of findings.straightQuoteFindings)
         straightQuoteFindings.push({ ...identity, ...finding });
+      for (const finding of findings.footnoteMarkerAfterWhitespace)
+        footnoteMarkerAfterWhitespace.push({ ...identity, ...finding });
+      for (const at of findings.untaggedScriptRuns)
+        untaggedScriptRuns.push({ ...identity, path: at });
+      for (const finding of findings.mergeableSiblingPairs)
+        mergeableSiblingPairs.push({ ...identity, ...finding });
+      for (const finding of findings.nonStandardWhitespaceFindings)
+        nonStandardWhitespaceFindings.push({ ...identity, ...finding });
     }
 
     for (const finding of findHeadingParagraphMismatches(verses))
@@ -1394,6 +1964,7 @@ export function auditVersion(version: string): VersionAudit {
   return {
     version,
     unmergedPairs,
+    duplicateFootnoteAnchors,
     trailingWhitespace,
     leadingPunctuation,
     markBoundarySpaces,
@@ -1404,6 +1975,10 @@ export function auditVersion(version: string): VersionAudit {
     markBoundaryEmbeddedSpaces,
     ellipsisFindings,
     straightQuoteFindings,
+    footnoteMarkerAfterWhitespace,
+    untaggedScriptRuns,
+    mergeableSiblingPairs,
+    nonStandardWhitespaceFindings,
   };
 }
 
@@ -1411,8 +1986,10 @@ export function auditVersion(version: string): VersionAudit {
  * Audit each named version, or every version directory under
  * `bible-versions/` when none are named — deliberately not a curated list
  * (see this module's own top doc comment): a version with no `strong`
- * values and no un-normalized fraction, ellipsis, or straight quote at all
- * just reports zero findings across all eleven checks.
+ * values and no un-normalized fraction, ellipsis, straight quote,
+ * non-standard whitespace character, untagged script run, duplicate
+ * footnote anchor, or mergeable sibling pair at all just reports zero
+ * findings across all sixteen checks.
  *
  * @param versionIds - Versions to audit; defaults to {@link getVersionDirectories}.
  */
@@ -1422,11 +1999,12 @@ export function auditVersions(
   return versionIds.map((version) => auditVersion(version));
 }
 
-/** The exit code this check should report — non-zero when any version carries any finding across any of the eleven checks. */
+/** The exit code this check should report — non-zero when any version carries any finding across any of the sixteen checks. */
 export function exitCodeFor(summaries: readonly VersionAudit[]): number {
   return summaries.some(
     (summary) =>
       summary.unmergedPairs.length > 0 ||
+      summary.duplicateFootnoteAnchors.length > 0 ||
       summary.trailingWhitespace.length > 0 ||
       summary.leadingPunctuation.length > 0 ||
       summary.markBoundarySpaces.length > 0 ||
@@ -1436,14 +2014,18 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
       summary.footnotePunctuationOrder.length > 0 ||
       summary.markBoundaryEmbeddedSpaces.length > 0 ||
       summary.ellipsisFindings.length > 0 ||
-      summary.straightQuoteFindings.length > 0,
+      summary.straightQuoteFindings.length > 0 ||
+      summary.footnoteMarkerAfterWhitespace.length > 0 ||
+      summary.untaggedScriptRuns.length > 0 ||
+      summary.mergeableSiblingPairs.length > 0 ||
+      summary.nonStandardWhitespaceFindings.length > 0,
   )
     ? 1
     : 0;
 }
 
 /**
- * Prints one version's own findings across all eleven checks — the first `cap`
+ * Prints one version's own findings across all sixteen checks — the first `cap`
  * per check, or every one when `verbose`.
  *
  * Exported so `validate.ts` can render the same per-check breakdown inline in
@@ -1463,6 +2045,19 @@ export function printFindingLines(summary: VersionAudit, verbose: boolean): void
   if (!verbose && summary.unmergedPairs.length > cap)
     console.log(
       `    … ${summary.unmergedPairs.length - cap} more (--verbose to list all)`,
+    );
+
+  console.log(
+    `  ${summary.duplicateFootnoteAnchors.length} textless node(s) whose own foot byte-for-byte repeats an earlier node's`,
+  );
+  for (const finding of summary.duplicateFootnoteAnchors.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} node=${JSON.stringify(finding.node)} target=${JSON.stringify(finding.target)}`,
+    );
+  }
+  if (!verbose && summary.duplicateFootnoteAnchors.length > cap)
+    console.log(
+      `    … ${summary.duplicateFootnoteAnchors.length - cap} more (--verbose to list all)`,
     );
 
   console.log(
@@ -1594,19 +2189,72 @@ export function printFindingLines(summary: VersionAudit, verbose: boolean): void
     console.log(
       `    … ${summary.straightQuoteFindings.length - cap} more (--verbose to list all)`,
     );
+
+  console.log(
+    `  ${summary.footnoteMarkerAfterWhitespace.length} footnote marker(s) rendering immediately after whitespace`,
+  );
+  for (const finding of summary.footnoteMarkerAfterWhitespace.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} node=${JSON.stringify(finding.node)} next=${JSON.stringify(finding.next)}`,
+    );
+  }
+  if (!verbose && summary.footnoteMarkerAfterWhitespace.length > cap)
+    console.log(
+      `    … ${summary.footnoteMarkerAfterWhitespace.length - cap} more (--verbose to list all)`,
+    );
+
+  console.log(
+    `  ${summary.untaggedScriptRuns.length} node(s) whose own text mixes a Latin letter with an untagged Hebrew or Greek letter`,
+  );
+  for (const finding of summary.untaggedScriptRuns.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+    );
+  }
+  if (!verbose && summary.untaggedScriptRuns.length > cap)
+    console.log(
+      `    … ${summary.untaggedScriptRuns.length - cap} more (--verbose to list all)`,
+    );
+
+  console.log(
+    `  ${summary.mergeableSiblingPairs.length} adjacent node pair(s) that carry nothing but text (optionally agreeing marks/script) and should have merged into one`,
+  );
+  for (const finding of summary.mergeableSiblingPairs.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} first=${JSON.stringify(finding.first)} second=${JSON.stringify(finding.second)}`,
+    );
+  }
+  if (!verbose && summary.mergeableSiblingPairs.length > cap)
+    console.log(
+      `    … ${summary.mergeableSiblingPairs.length - cap} more (--verbose to list all)`,
+    );
+
+  console.log(
+    `  ${summary.nonStandardWhitespaceFindings.length} node(s) whose own text still carries a non-standard whitespace character`,
+  );
+  for (const finding of summary.nonStandardWhitespaceFindings.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path} codePoint=${finding.codePoint} excerpt=${JSON.stringify(finding.excerpt)}`,
+    );
+  }
+  if (!verbose && summary.nonStandardWhitespaceFindings.length > cap)
+    console.log(
+      `    … ${summary.nonStandardWhitespaceFindings.length - cap} more (--verbose to list all)`,
+    );
 }
 
 /**
- * True when a version's audit found nothing across any of the eleven checks
- * — printed as a single skipped line rather than an empty block, so a report
- * over every version on disk stays readable.
+ * True when a version's audit found nothing across any of the sixteen
+ * checks — printed as a single skipped line rather than an empty block, so a
+ * report over every version on disk stays readable.
  *
  * Exported so `validate.ts` can reuse this same clean/dirty test rather than
- * re-deriving it from `VersionAudit`'s eleven finding arrays itself.
+ * re-deriving it from `VersionAudit`'s sixteen finding arrays itself.
  */
 export function isClean(summary: VersionAudit): boolean {
   return (
     summary.unmergedPairs.length === 0 &&
+    summary.duplicateFootnoteAnchors.length === 0 &&
     summary.trailingWhitespace.length === 0 &&
     summary.leadingPunctuation.length === 0 &&
     summary.markBoundarySpaces.length === 0 &&
@@ -1616,7 +2264,11 @@ export function isClean(summary: VersionAudit): boolean {
     summary.footnotePunctuationOrder.length === 0 &&
     summary.markBoundaryEmbeddedSpaces.length === 0 &&
     summary.ellipsisFindings.length === 0 &&
-    summary.straightQuoteFindings.length === 0
+    summary.straightQuoteFindings.length === 0 &&
+    summary.footnoteMarkerAfterWhitespace.length === 0 &&
+    summary.untaggedScriptRuns.length === 0 &&
+    summary.mergeableSiblingPairs.length === 0 &&
+    summary.nonStandardWhitespaceFindings.length === 0
   );
 }
 

@@ -29,6 +29,7 @@ interface RenderOptions {
   footnoteMarker: (index: number) => string; // Renders the marker for the footnote at the given 0-based index within the current footnotes list
   boldWrapper: (text: string) => string; // Wraps text carrying a "b" mark
   italicWrapper: (text: string) => string; // Wraps text carrying an "i" mark
+  escapeSourceText: (text: string) => string; // Escapes this format's own delimiter characters when they appear in text taken verbatim from content, so a source-written character is never misread as a delimiter this renderer emits (see `escapeMarkdownDelimiters`)
 }
 
 /** Rendering configuration for the plain-text export (`exports/text-vbv-strongs`). */
@@ -45,6 +46,9 @@ const TEXT_OPTIONS: RenderOptions = {
   footnoteMarker: () => "°",
   boldWrapper: (text) => text,
   italicWrapper: (text) => text,
+  // The text export has no delimiter grammar of its own to collide with —
+  // "_"/"*" are ordinary printable characters here, so nothing is escaped.
+  escapeSourceText: (text) => text,
 };
 
 /**
@@ -97,6 +101,7 @@ const MARKDOWN_OPTIONS: RenderOptions = {
   footnoteMarker: (index) => `<sup>${footnoteLabel(index)}</sup>`,
   boldWrapper: (text) => `**${text}**`,
   italicWrapper: (text) => `_${text}_`,
+  escapeSourceText: escapeMarkdownDelimiters,
 };
 
 // ============================================================================
@@ -210,6 +215,22 @@ interface EmphasisState {
 /** Reads which of "b"/"i" `marks` requests — see {@link EmphasisState}. */
 function emphasisStateOf(marks: ContentObject["marks"]): EmphasisState {
   return { b: !!marks?.includes("b"), i: !!marks?.includes("i") };
+}
+
+/**
+ * Escapes a literal `_` or `*` in text taken verbatim from content. The same
+ * character means two different things depending on who wrote it: source
+ * text that happens to contain `_`/`*` (e.g. manuscript sigla in Beta-code,
+ * like "_*M*B") is not this renderer's own emphasis markup, so it must be
+ * escaped before CommonMark can read it — a backslash escape is CommonMark's
+ * standard answer, rendering back to the literal character in any reader.
+ *
+ * Wired in as `RenderOptions.escapeSourceText`, applied only where a node's
+ * own text enters the render — never to a delimiter this renderer emits
+ * itself, so a `**`/`_` it just produced is never re-escaped.
+ */
+function escapeMarkdownDelimiters(text: string): string {
+  return text.replace(/[_*]/g, "\\$&");
 }
 
 /**
@@ -590,7 +611,7 @@ function emphasisRunContinuation(
  */
 function renderContent(content: Content, ctx: RenderContext): string {
   if (typeof content === "string") {
-    return content;
+    return ctx.options.escapeSourceText(content);
   }
 
   if (Array.isArray(content)) {
@@ -675,6 +696,11 @@ function renderTextObjectParts(obj: ContentObject, ctx: RenderContext): Rendered
   if (obj.marks?.includes("sc")) {
     text = text.toUpperCase();
   }
+
+  // Escape source-written "_"/"*" last, so downstream steps
+  // (wrapEmphasisMarks, the array branch's splitWhitespace) operate on text
+  // already safe to emit.
+  text = ctx.options.escapeSourceText(text);
 
   const suffixParts: string[] = [];
 

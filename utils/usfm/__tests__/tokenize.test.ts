@@ -3,9 +3,9 @@ import { tokenize } from "../tokenize";
 import { readFixture } from "./fixtures";
 
 /**
- * Tokenizer tests, fixtures drawn verbatim from the real USFM source
- * (`imports/guide.md` §6 — never hand-written markup). Every expected token
- * below was read directly off the fixture file before being written here.
+ * Tokenizer tests, fixtures drawn verbatim from real USFM source, never
+ * hand-written markup. Every expected token below was read directly off
+ * the fixture file before being written here.
  */
 
 describe("tokenize — Genesis 1:1 (verse/chapter markers, a footnote aside carrying a nested \\+wh Hebrew span)", () => {
@@ -98,10 +98,10 @@ describe("tokenize — Numbers 21:14 (\\+w nested inside \\bk, the same marker f
 /**
  * ASV1901's own Genesis 1:11 ("`...seed, \add and\add* fruit-trees...`") is
  * the first `\add` occurrence in canon order — `\add`/`\add*` (USFM's own
- * standard "translator-supplied words" character marker, 4,316 pairs
- * corpus-wide) is a member of `PAIRED_MARKER_NAMES`, and this exercises it
- * against real corpus data rather than a synthetic fixture, tokenizing the
- * same open/text/close shape `\w`/`\w*` already gets.
+ * standard "translator-supplied words" character marker) is a member of
+ * `PAIRED_MARKER_NAMES`, and this exercises it against real corpus data
+ * rather than a synthetic fixture, tokenizing the same open/text/close
+ * shape `\w`/`\w*` already gets.
  */
 describe("tokenize — ASV1901's real \\add (translator-supplied words), a construct WEB's own corpus never carries", () => {
   it("should tokenize \\add/\\add* as an ordinary paired marker around ASV1901 Genesis 1:11's own \"and\", the same open/text/close shape \\w already gets", () => {

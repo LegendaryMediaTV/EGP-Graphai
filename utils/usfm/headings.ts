@@ -31,7 +31,7 @@
 import Content, { ContentHeading, ContentSubtitle } from "../../types/Content";
 import { buildFootnoteContent } from "./footnotes";
 import { attachFootToPieces, buildRunNodes, collapseContentNodes, InlineTextPiece } from "./inlineMarks";
-import { splitScriptRuns } from "./splitScriptRuns";
+import { splitNonLatinScriptRuns } from "./splitScriptRuns";
 import { Token } from "./tokenize";
 
 /**
@@ -76,10 +76,10 @@ const ACROSTIC_LETTER_NAMES = new Set([
 ]);
 
 /**
- * `true` when `text` (already whitespace-normalized) is exactly one of
- * Psalm 119's own 22 real acrostic letter names — see
- * {@link ACROSTIC_LETTER_NAMES}'s own doc comment. Exported on its own,
- * separate from the token-walking machinery below, so `usfm/verify.ts` can
+ * `true` when `text` (already whitespace-normalized) is one of Psalm 119's
+ * own acrostic letter names — see {@link ACROSTIC_LETTER_NAMES}'s own doc
+ * comment. Exported on its own, separate from the token-walking machinery
+ * below, so `usfm/verify.ts` can
  * import this one static classification rule directly — the same
  * shared-reference-table relationship `resolveBookId`/`classifyFootnote`
  * already have with the verifier: never a parsing/segmentation algorithm
@@ -106,9 +106,9 @@ export interface HeadingSpanResult {
  * forked), stopping at the first token that is none of those.
  *
  * **`\w`/`\+w`'s own `strong` attribute is discarded unconditionally, not
- * merely for the two real cases that need it.** Confirmed directly: no
- * in-scope `\d` line carries a `\w` tag except two of Psalm 119's
- * own acrostic markers (`\d \w HE|strong="H3588"\w*`, `\d SIN \w
+ * merely for the two real cases that need it.** No in-scope `\d` line
+ * carries a `\w` tag except two of Psalm 119's own acrostic markers (`\d \w
+ * HE|strong="H3588"\w*`, and a `\w` sitting mid-string in `\d SIN \w
  * AND|strong="H4941"\w* SHIN`) — WEB's own Strong's tagger ran over the
  * *whole* file without knowing a `\d` line is a heading rather than verse
  * prose, and both "HE" and "AND" happen to also be ordinary English
@@ -203,17 +203,23 @@ export function buildSuperscriptionContent(
  * construct and nothing else, so this builder needs no content-based
  * classification at all; it always produces the acrostic shape.
  *
- * `splitScriptRuns` (`usfm/splitScriptRuns.ts`, already proven for
- * WEB's own bare-Greek footnote content) separates the leading Hebrew
- * letter from its trailing transliterated name, matching the already-
- * established `{heading: [{text, script: "H"}, " <NAME>"], type:
- * "acrostic"}` shape for a source that really prints the glyph. This
- * source's own trailing period (`" ALEPH."`, not `" ALEPH"`) is kept —
- * real source punctuation, not chrome.
+ * {@link splitNonLatinScriptRuns} (`usfm/splitScriptRuns.ts`) separates the
+ * leading glyph from its trailing transliterated name, matching the
+ * established `{heading: [{text, script: "H"}, " <NAME>"], type: "acrostic"}`
+ * shape for a source that really prints the glyph. This source's own
+ * trailing period (`" ALEPH."`, not `" ALEPH"`) is kept — real source
+ * punctuation, not chrome.
+ *
+ * Scans for both Hebrew and Greek, not Hebrew alone — the mirror of the
+ * asymmetry {@link piecesForPlainText} (`usfm/footnotes.ts`) closed. No real
+ * Greek acrostic exists anywhere in this corpus (acrostic Psalms are a
+ * Hebrew construct), but scanning Hebrew only here was the same shape of gap
+ * that let a different call site ship an untagged word, so it closes here
+ * too rather than waiting for a future import to prove it out.
  */
 export function buildAcrosticGlyphHeading(pieces: readonly InlineTextPiece[]): ContentHeading {
   const text = plainTextOf(pieces);
-  return { heading: splitScriptRuns(text, "H"), type: "acrostic" };
+  return { heading: splitNonLatinScriptRuns(text), type: "acrostic" };
 }
 
 /**

@@ -22,11 +22,11 @@
  * - `\+wh`...`\+wh*` (a nested Hebrew-word-quotation marker, always found
  *   inside `\ft`/`\fq` prose) becomes `{text, script: "H"}` directly — the
  *   delimiter already marks the boundary, so no character-range scan is
- *   needed. A bare, undelimited Greek word has no such delimiter to lean
- *   on and is found by `usfm/splitScriptRuns.ts`'s own
- *   character-range scan instead — both call the same underlying
- *   Hebrew/Greek tagging convention, just via two different discovery
- *   mechanisms.
+ *   needed. A bare, undelimited Hebrew or Greek word has no such delimiter to
+ *   lean on and is found by `usfm/splitScriptRuns.ts`'s own
+ *   {@link splitNonLatinScriptRuns} instead, which scans for both scripts
+ *   rather than one (see that module's own doc comment for why, and
+ *   {@link piecesForPlainText} below).
  * - `\bk`...`\bk*` (and its `+`-nested form, `\+bk`...`\+bk*`, required
  *   wherever a citation sits inside an already-open paired marker) — USFM's
  *   own "quoted book title" character style — gets `marks: ["i"]`, the same
@@ -48,7 +48,7 @@ import { classifyFootnote, WITNESS_SIGLA_NAMES } from "./footnoteTypeRules";
 import { normalizeFractionText } from "../../functions/normalizeFractions";
 import { buildRunNodes, collapseContentNodes, InlineTextPiece } from "./inlineMarks";
 import { buildReferenceOnlyContent, linkEmbeddedReferences } from "./references";
-import { splitScriptRuns } from "./splitScriptRuns";
+import { splitNonLatinScriptRuns } from "./splitScriptRuns";
 import { Token } from "./tokenize";
 
 /**
@@ -113,21 +113,26 @@ const QUOTED_SUB_MARKERS = new Set(["fq", "fqa"]);
 const KEPT_SUB_MARKERS = new Set(["ft", "fq", "fqa", "fl"]);
 
 /**
- * Splits `text` for the footnote-body walk's own bare-Greek detection,
- * tagging `marks: ["i"]` too when `italic` is set (an `\fq`/`\fqa` run that
- * also happens to carry a bare Greek word — not observed anywhere in this
- * corpus, but the two concerns are independent, so both apply together
- * without either one silently overriding the other).
+ * Splits `text` for the footnote-body walk's own bare-script detection,
+ * tagging `marks: ["i"]` too when `italic` is set — italic and script
+ * tagging are independent, so both apply together without either one
+ * overriding the other.
+ *
+ * Scans for both Hebrew and Greek ({@link splitNonLatinScriptRuns}), not
+ * Greek alone: this call site used to scan for Greek only, which is exactly
+ * why real WEBUS2020 `NUM 15:38` shipped an untagged Hebrew word — its
+ * source marks the Hebrew with no `\+wh` delimiter, so nothing here ever
+ * looked for it.
  */
 function piecesForPlainText(text: string, italic: boolean): InlineTextPiece[] {
-  const split = splitScriptRuns(text, "G");
+  const split = splitNonLatinScriptRuns(text);
   if (typeof split === "string") {
     return [{ text: split, ...(italic ? { marks: ["i"] } : {}) }];
   }
   return split.map((segment) =>
     typeof segment === "string"
       ? { text: segment, ...(italic ? { marks: ["i"] } : {}) }
-      : { text: segment.text, script: "G" as const, ...(italic ? { marks: ["i"] } : {}) },
+      : { text: segment.text, script: segment.script, ...(italic ? { marks: ["i"] } : {}) },
   );
 }
 
@@ -219,10 +224,8 @@ export function buildFootnoteContent(
         const text = normalizeFractionText(token.text).value;
         classificationText += text;
         // `\bk`'s own italic mark applies independently of which
-        // sub-marker is active — a real `\bk` citation sits inside plain
-        // `\ft` prose in every real in-scope instance (both the
-        // deuterocanon `\ip` wrapping's own synthetic `\ft` and Daniel-
-        // Greek's real `\ft` bodies), never inside `\fq`/`\fqa`, but
+        // sub-marker is active — a real `\bk` citation always sits inside
+        // plain `\ft` prose in this corpus, never inside `\fq`/`\fqa`, but
         // nothing here assumes that stays true.
         const italic = QUOTED_SUB_MARKERS.has(currentSubMarker as string) || insideBk;
         if (insideWh) {

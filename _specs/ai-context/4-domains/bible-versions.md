@@ -67,6 +67,22 @@ interface Testament {
 - **Self-Contained Folders** – Each version folder contains `_version.json` + verse JSON files
 - **Duplicate Display Names Disambiguated** – `getBibleVersions()` groups versions by exact-match `name` and appends each colliding member's own trailing-year suffix parsed from its `_id` (e.g. two versions both named "King James Version" become "King James Version (1611)" and "King James Version (1769)"), so the version picker never shows two identical names. A colliding version whose `_id` has no parseable trailing year is logged and left unmodified rather than throwing
 - **Singular Lookup Skips Disambiguation** – `getBibleVersion(versionId)` deliberately does not disambiguate; doing so would require scanning the whole directory for a single lookup, and no current caller displays its `name` standalone. This is documented in code as an invariant to revisit if that changes
+- **Declared Chapter Count Must Match the File** – `npm run validate` compares each book's declared `chapters` against the highest chapter its own verse file actually carries (`utils/validate.ts`'s `findDeclaredChapterMismatches`, run from the book-ordering loop and reported as its own trailing audit). A version can be schema-valid and internally ordered correctly while still being *incomplete* — this check is what catches that
+
+### CLV1880's Two Standing Findings — Accepted, Not a Bug
+
+`npm run validate` reports exactly two findings for this version, permanently, until someone imports the missing content:
+
+```
+CLV1880 EST: highest chapter 10, _version.json declares 16
+CLV1880 DAN: highest chapter 12, _version.json declares 14
+```
+
+Both gaps are that edition's own deuterocanonical additions to Esther and Daniel — content the Clementine Vulgate is expected to carry, that this copy does not. `_version.json` still declares the full chapter counts (16 and 14) because that is what the edition actually has; the files carry only what has been imported so far (10 and 12).
+
+**The declared counts are deliberately not corrected downward to 10 and 12.** Shrinking what the data claims to be would make the check pass by concealing a real gap, not by closing it — the same move this repo has refused everywhere else a check disagreed with the data. The chapters really are missing; the metadata is the only thing still saying so, and editing it would erase the last trace of that fact.
+
+So `npm run validate` exits non-zero on these two findings, and only these two, until the missing chapters are imported — importing them is a real content addition, out of scope for a validation pass. A future reader who meets a red `npm run validate` for the first time should read this section, not "fix" `_version.json`.
 
 ## Representative Code Examples
 

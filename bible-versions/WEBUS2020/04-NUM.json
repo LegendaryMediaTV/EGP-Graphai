@@ -4587,7 +4587,14 @@
     "content": [
       {
         "text": "“Speak to the children of Israel, and tell them that they should make themselves fringes",
-        "foot": { "type": "trn", "content": "or, tassels (Hebrew צִיצִ֛ת)" }
+        "foot": {
+          "type": "trn",
+          "content": [
+            "or, tassels (Hebrew ",
+            { "text": "צִיצִ֛ת", "script": "H" },
+            ")"
+          ]
+        }
       },
       {
         "text": " on the borders of their garments throughout their generations, and that they put on the fringe",

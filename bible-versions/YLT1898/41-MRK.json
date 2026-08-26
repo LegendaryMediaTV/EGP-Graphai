@@ -23,8 +23,11 @@
             { "bibleLink": "2 Timothy 4:11", "content": "2 Tim. 4:11" },
             ", where Paul speaks of him as having been and still likely to be useful to ",
             { "text": "him", "marks": ["i"] },
-            " as a deacon or ministering servant. Probably there were two of the same name. The style of this Evangelist is altogether that of an eye and ear-witness, and not a mere “interpreter of Peter,” as most of the ancients have it.",
-            " This gospel was probably written about A.D. 50, about ten years after that of Matthew, of which it seems practically an abridgement, but done with the view of bringing out, from personal observation, some peculiar traits of the character of Jesus—especially that of his being the diligent and unwearied “",
+            {
+              "text": " as a deacon or ministering servant. Probably there were two of the same name. The style of this Evangelist is altogether that of an eye and ear-witness, and not a mere “interpreter of Peter,” as most of the ancients have it.",
+              "break": true
+            },
+            "This gospel was probably written about A.D. 50, about ten years after that of Matthew, of which it seems practically an abridgement, but done with the view of bringing out, from personal observation, some peculiar traits of the character of Jesus—especially that of his being the diligent and unwearied “",
             { "text": "servant", "marks": ["i"] },
             { "text": " of God.”", "break": true },
             "Mark only mentions ",

@@ -5,15 +5,11 @@ import { resolveBookId } from "../metadata";
 import { VerseBlock, VerseRecord } from "../segmentVerses";
 
 /**
- * Shared support for a corpus-wide test that checks whether
+ * Shared support for corpus-wide tests that check whether
  * `segmentVerses()`'s own real output reproduces a "clean cut, next block
  * opens a paragraph" convention against WEBUS2020's own real, committed
  * `HEAD` JSON — the identical comparison two separate real markers need:
- * `\b` (a stanza break, Phase 5's own subtask 5.4) and `\c` (a chapter
- * boundary, Finding 7's own real report). Extracted here once `\c`'s own
- * corpus-wide test became this logic's second real caller, the same
- * "shared home once a second real caller appears" move Phase 1's own
- * `uniformFraction` and Phase 6's own `contentWalk.ts` already made.
+ * `\b` (a stanza break) and `\c` (a chapter boundary).
  */
 
 /** Repo root, resolved from this file's own location three levels down from it. */
@@ -62,20 +58,17 @@ export interface CanonicalBook {
 }
 
 /**
- * The 15 real deuterocanon book ids this version carries alongside the 66
+ * The real deuterocanon book ids this version carries alongside the
  * canonical ones — no upstream `HEAD` baseline exists for any of them, so
  * {@link readCanonicalBooks} excludes them by id.
  *
- * Filtering by filename pattern alone (`^\d{2}-[A-Z0-9]+\.json$`) used to be
- * enough to isolate the 66 canonical books from `git ls-tree HEAD`, back
- * when `HEAD` itself had never carried a deuterocanon book and every
- * committed `bible-versions/WEBUS2020/*.json` file matched that pattern by
- * construction. This branch's own apocrypha work has since committed all 15
- * of these to `HEAD` too, under the identical `NN-XXX.json` shape (e.g.
- * `40-TOB.json`) — so the old filename-only filter now returns all 81 books,
- * not 66, silently doubling several corpus-wide counts below. Excluding by
- * id here is the fix; matches `verify.test.ts`'s own `DEUTEROCANON_RAW_FILES`
- * set (resolved from raw-USFM filenames to registry ids).
+ * Filtering by filename pattern alone (`^\d{2}-[A-Z0-9]+\.json$`) is not
+ * enough to isolate the canonical books: deuterocanon books are committed
+ * under the identical `NN-XXX.json` shape (e.g. `40-TOB.json`), so a
+ * filename-only filter would also match them, silently doubling several
+ * corpus-wide counts below. Excluding by id here is the fix; matches
+ * `verify.test.ts`'s own `DEUTEROCANON_RAW_FILES` set (resolved from
+ * raw-USFM filenames to registry ids).
  */
 const DEUTEROCANON_BOOK_IDS = new Set([
   "TOB",
@@ -96,10 +89,11 @@ const DEUTEROCANON_BOOK_IDS = new Set([
 ]);
 
 /**
- * The 66 real books `HEAD` actually carries under `bible-versions/WEBUS2020/`
- * — read directly from git, not filtered out of the current working tree's
- * own registry. Deuterocanon books are excluded by id (see
- * {@link DEUTEROCANON_BOOK_IDS}): no upstream baseline exists for them.
+ * The canonical books `HEAD` actually carries under
+ * `bible-versions/WEBUS2020/` — read directly from git, not filtered out of
+ * the current working tree's own registry. Deuterocanon books are excluded
+ * by id (see {@link DEUTEROCANON_BOOK_IDS}): no upstream baseline exists for
+ * them.
  */
 export function readCanonicalBooks(): CanonicalBook[] {
   const filenames = execFileSync(
@@ -161,7 +155,7 @@ export function upstreamMatchesRule(
   return lastBefore?.break !== true && firstAfter?.paragraph === true;
 }
 
-/** Whether this phase's own fixed `segmentVerses()` output reproduces the two-part convention at this boundary, the same "skip any heading node" rule as {@link upstreamMatchesRule}. */
+/** Whether `segmentVerses()`'s own current output reproduces the two-part convention at this boundary, the same "skip any heading node" rule as {@link upstreamMatchesRule}. */
 export function fixedOutputMatchesRule(
   records: readonly VerseRecord[],
   boundary: ParagraphBreakBoundary,

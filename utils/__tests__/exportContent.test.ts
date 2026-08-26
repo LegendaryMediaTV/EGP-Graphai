@@ -6,7 +6,8 @@ import VerseSchema from "../../types/VerseSchema";
  * Asserts every `**...**`/`_..._` run in `markdown` opens/closes against
  * non-whitespace — CommonMark's flanking rule (e.g. "** foo**" fails it,
  * rendering literal asterisks, not `<strong>`). A plain `toContain("**")`
- * check would pass even when this fails.
+ * check would pass even when this fails. Also asserts every underscore or
+ * asterisk not part of a well-formed run is backslash-escaped.
  */
 function expectWellFormedEmphasis(markdown: string): void {
   for (const match of markdown.matchAll(/\*\*(.*?)\*\*/g)) {
@@ -15,6 +16,17 @@ function expectWellFormedEmphasis(markdown: string): void {
   for (const match of markdown.matchAll(/_(.*?)_/g)) {
     expect(match[1]).not.toMatch(/^\s|\s$|^$/);
   }
+
+  // An unescaped underscore or asterisk here would be read as this format's
+  // own emphasis delimiter rather than the literal character it is. Italic
+  // always emits underscores in matched pairs, so an odd unescaped-underscore
+  // count means one escaped incorrectly; bold always uses "**", never a lone
+  // "*", so any asterisk left after removing real "**...**" spans is
+  // unescaped source text.
+  const unescapedUnderscores = (markdown.match(/(?<!\\)_/g) || []).length;
+  expect(unescapedUnderscores % 2).toBe(0);
+  const withoutBoldSpans = markdown.replace(/\*\*.*?\*\*/g, "");
+  expect(withoutBoldSpans).not.toMatch(/(?<!\\)\*/);
 }
 
 describe("exportContent", () => {
@@ -2296,6 +2308,116 @@ describe("exportContent", () => {
       );
       expect(footnotes).toEqual(["- <sup>a</sup> 1. Or, _upright in way_"]);
       expect(result).not.toMatch(/^<sup>\d+<\/sup> > /);
+    });
+  });
+
+  describe("the markdown export escapes a delimiter that came from source text", () => {
+    it("should escape a literal underscore in content text so markdown never reads it as an emphasis delimiter (real BYZ2018 Revelation 4:4 apparatus shape)", () => {
+      const verse: VerseSchema = {
+        book: "REV",
+        chapter: 4,
+        verse: 4,
+        content: [
+          {
+            text: " εἴκοσι",
+            script: "G",
+            foot: {
+              type: "var",
+              content: [
+                "B ",
+                { text: "εἴκοσι τέσσαρες", script: "G" },
+                " ⇒ _",
+                { text: "ΚΔ", script: "G" },
+              ],
+            },
+            strong: "G1501",
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes);
+      expect(footnotes[0]).toContain("⇒ \\_ΚΔ");
+      expect(footnotes[0]).not.toMatch(/(?<!\\)_ΚΔ/);
+      expectWellFormedEmphasis(footnotes[0]);
+    });
+
+    it("should escape a literal asterisk in content text so markdown never reads it as an emphasis delimiter (real BYZ2018 Romans 6:1 apparatus shape)", () => {
+      const verse: VerseSchema = {
+        book: "ROM",
+        chapter: 6,
+        verse: 1,
+        content: [
+          {
+            text: " Ἐπιμένομεν",
+            script: "G",
+            foot: {
+              type: "var",
+              content: [
+                "B ",
+                { text: "Ἐπιμένομεν", script: "G" },
+                " ⇒ ",
+                { text: "Ἐπιμένωμεν", script: "G" },
+                " = *)EPIMENOU=MEN",
+              ],
+            },
+            strong: "G1961",
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes);
+      expect(footnotes[0]).toContain("= \\*)EPIMENOU=MEN");
+      expect(footnotes[0]).not.toMatch(/(?<!\\)\*\)EPIMENOU/);
+      expectWellFormedEmphasis(footnotes[0]);
+    });
+
+    it("should render the real BYZ2018 Revelation 11:2 manuscript-siglum shape (a literal underscore immediately followed by two literal asterisks) with no emphasis opened at all", () => {
+      const verse: VerseSchema = {
+        book: "REV",
+        chapter: 11,
+        verse: 2,
+        content: [
+          {
+            text: " τεσσαράκοντα",
+            script: "G",
+            foot: {
+              type: "var",
+              content: [
+                "B ",
+                { text: "τεσσαράκοντα καὶ δύο", script: "G" },
+                " ⇒ ",
+                { text: "τεσσαράκοντα δύο", script: "G" },
+                " = _*M*B",
+              ],
+            },
+            strong: "G5062",
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(footnotes[0]).toContain("= \\_\\*M\\*B");
+      expectWellFormedEmphasis(result);
+      expectWellFormedEmphasis(footnotes.join("\n"));
+    });
+
+    it("should leave the plain-text export unescaped, since it has no delimiter grammar to collide with (same real Revelation 11:2 shape, simplified to a single footnote string)", () => {
+      const verse: VerseSchema = {
+        book: "REV",
+        chapter: 11,
+        verse: 2,
+        content: [
+          {
+            text: " τεσσαράκοντα",
+            strong: "G5062",
+            foot: { type: "var", content: "B τεσσαράκοντα καὶ δύο ⇒ τεσσαράκοντα δύο = _*M*B" },
+          },
+        ],
+      };
+      const result = convertVerseToText(verse);
+      expect(result).toContain("= _*M*B");
+      expect(result).not.toContain("\\_");
+      expect(result).not.toContain("\\*");
     });
   });
 });

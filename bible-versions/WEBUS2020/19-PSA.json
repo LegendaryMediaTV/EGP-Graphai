@@ -248,7 +248,7 @@
     "content": [
       { "text": "Many there are who say of my soul,", "break": true },
       {
-        "text": "“There is no help for him in God.” ",
+        "text": "“There is no help for him in God.”",
         "foot": {
           "type": "trn",
           "content": [
@@ -258,6 +258,7 @@
           ]
         }
       },
+      " ",
       { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
@@ -16548,9 +16549,10 @@
         "break": true
       },
       {
-        "text": "who shall deliver his soul from the power of Sheol? ",
+        "text": "who shall deliver his soul from the power of Sheol?",
         "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
+      " ",
       { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },

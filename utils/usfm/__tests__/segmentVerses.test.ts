@@ -4,9 +4,9 @@ import { segmentVerses, VerseBlock } from "../segmentVerses";
 import { readFixture } from "./fixtures";
 
 /**
- * Verse segmentation tests. Fixtures are drawn verbatim from the real USFM
- * source (`imports/guide.md` §6), never hand-written, and every expected
- * value was read directly off the fixture file rather than guessed.
+ * Verse segmentation tests. Fixtures are drawn verbatim from real USFM
+ * source, never hand-written, and every expected value was read directly
+ * off the fixture file rather than guessed.
  */
 
 /**
@@ -258,7 +258,7 @@ describe("segmentVerses — Genesis 49:1-9 (three separate \\b stanza breaks in 
   });
 });
 
-describe("segmentVerses — the real \\b-then-bare-\\qN idiom itself (Genesis 49:2→3: \\q2 ...father. / \\b / \\q1 / \\v 3 \"Reuben...), isolated from the two-block-boundary assertions above — this is the exact trap this phase's own first, wrong mechanical sketch (flushBlock(true) for \\b) would have failed", () => {
+describe("segmentVerses — the real \\b-then-bare-\\qN idiom itself (Genesis 49:2→3: \\q2 ...father. / \\b / \\q1 / \\v 3 \"Reuben...), isolated from the two-block-boundary assertions above — a naive fix that dispatched \\b as flushBlock(true) would fail this exact case", () => {
   const records = segmentVerses(readFixture("genesis-49-1-9.usfm"), "GEN");
 
   it("should not let the bare \\q1 sitting between \\b and \\v 3 resurrect verse 2's own dropped break: true — a naive fix that only stopped \\b itself from setting break: true, without also absorbing this bare \\qN, would fail here: BREAK_MARKER_NAMES's own \"nothing accumulated, reach backward\" rule (flushBlock's own doc comment) would otherwise find verse 2's own now-bare last line and set break: true right back onto it", () => {
@@ -1290,7 +1290,7 @@ describe("segmentVerses — ASV1901's real \\add (translator-supplied words), a 
 });
 
 describe("segmentVerses — MSB2025's real \"LORD\" (Genesis 2:4): no marks: [\"sc\"] is ever synthesized from plain source text", () => {
-  it('should render "LORD" as plain text with its own strong number and no marks at all, per guide.md §6\'s casing-uniformity rule ("a source that hard-codes a whole phrase in full capitals with no size-variation anywhere in it is very likely trying to represent \'print this in plain full capitals,\' not \'print this in small caps\'") — MSB2025 carries zero \\nd/\\sc markup anywhere in its own source, so this needs no code change: `InlineMarkName` (`"woc" | "i"`) has no "sc" member at all, and segmentVerses/inlineMarks.ts never synthesizes one from source content', () => {
+  it('should render "LORD" as plain text with its own strong number and no marks at all — a source that spells a whole phrase in full capitals, with nothing in its own markup to signal a size change, is shouting in caps, not asking for small-caps styling. MSB2025 carries zero \\nd/\\sc markup anywhere in its own source, so this needs no code change: `InlineMarkName` (`"woc" | "i"`) has no "sc" member at all, and segmentVerses/inlineMarks.ts never synthesizes one from source content', () => {
     const records = segmentVerses(readFixture("msb2025-genesis-2-4-lord.usfm"), "GEN");
     const verseFour = records.find((record) => record.verse === 4);
     const nodes = verseFour?.blocks.flatMap((block) => block.nodes ?? []) ?? [];
@@ -1357,7 +1357,7 @@ describe("segmentVerses — MSB2025's real Acts 8:37 (\\v 37 with nothing at all
   // supplying a reading or footnote.
   const records = segmentVerses(readFixture("msb2025-acts-8-37.usfm"), "ACT");
 
-  it("should emit no verse record at all for verse 37 — guide.md's own already-established rule for \"omitted textual variants\" (\"Emit no verse record at all\"), the correct behavior for a verse whose real USFM content is nothing, not an empty stand-in block", () => {
+  it("should emit no verse record at all for verse 37 — the correct behavior for a disputed verse whose real USFM content is nothing at all, not an empty stand-in block", () => {
     expect(records.find((record) => record.verse === 37)).toBeUndefined();
   });
 

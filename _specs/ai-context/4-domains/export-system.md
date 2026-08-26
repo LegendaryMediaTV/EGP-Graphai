@@ -30,6 +30,7 @@ The Export System converts Graphai JSON data into human-readable formats for off
 | `#### Heading` | Section heading (acrostic, one level smaller) | Markdown |
 | `**text**`     | Bold (`b` mark)   | Markdown |
 | `_text_`       | Italic (`i` mark) | Markdown |
+| `\_`, `\*`     | Escaped literal underscore/asterisk from content text | Markdown |
 
 Bold/italic wrapping is a no-op in the text export. The `b`/`i` marks carry no visible rendering there, only in markdown.
 
@@ -55,6 +56,8 @@ Bold/italic wrapping is a no-op in the text export. The `b`/`i` marks carry no v
 - **Second-Footnote Marker Ordering** – The content schema allows only one `foot` per node, so a word's second footnote rides as a textless sibling node immediately after it. That sibling's marker now renders *before* the word's Strong's number, matching where the first footnote's marker sits, rather than trailing after by array order
 - **Synthetic Space Before an Unseparated Tag** – When a Strong's/morph/lemma tag has no line break and nothing else separating it from the word that follows, a space is inserted so text like `H2822was` renders as `H2822 was`
 - **A Leading Subtitle Renders Above the Verse Line, Never Inside It** – `convertBibleVersionToMarkdown` hoists a chapter's whole leading run of headings/subtitles in content order (at most one of each kind), and `convertVerseToMarkdown`'s own `leadingPrefix` mechanism mirrors that for a subtitle opening any other verse, the same way it already lifted a leading heading above the `<sup>N</sup>` line. Together the two cover every leading run the corpus carries — `[heading]`, `[subtitle]`, `[heading, subtitle]`, `[heading, heading]`, and `[subtitle, heading]` — so no subtitle strands inside a verse line behind a stray mid-line `> ` marker
+- **A Literal `_`/`*` From Content Text Is Escaped in Markdown, Never Read as This Renderer's Own Emphasis Delimiter** – The standing convention for the next time source text and this exporter's own markdown grammar collide: a backslash escape (`\_`, `\*`), CommonMark's own standard answer for both characters. Applied only to text taken verbatim from content — a bare string, or a node's own `text` — never to a delimiter this renderer emits itself (`boldWrapper`'s `**`, `italicWrapper`'s `_`), so real emphasis markup is never re-escaped. The real case: BYZ2018's apparatus footnotes cite manuscript sigla in Beta-code, where `_`/`*` are ordinary notation rather than markup (e.g. Revelation 11:2's `= _*M*B`); left unescaped, `*M*` is a matched single-asterisk pair CommonMark reads as italic even though this exporter's own italic wrapper never emits a single `*`. The plain-text export has no delimiter grammar to collide with, so it escapes nothing
+- **A Footnote Marker Always Hugs the Word It Annotates — Enforced in the Data, Not the Renderer** – A footnote attaches to the text run its own marker follows, so the joining space between two words belongs on the *leading* edge of the word after the footnote, never on the trailing edge of the word the footnote itself sits on; a `foot`-carrying node whose own `text` ends in a space puts the exported marker one character away from the word it annotates instead of against it (real ASV1901 shape, before the fix: `<sup>a</sup>` renders as `…the Spirit of God <sup>a</sup>moved…` instead of `…God<sup>a</sup> moved…`). This exporter renders the marker exactly where the source data puts the boundary — `renderTextObjectParts` appends the marker in the node's own suffix, after whatever text and trailing whitespace that node carries — so the fix lives upstream in `npm run validate`'s own auto-fix pass, not in this renderer. Because the pipeline enforces the leading-space convention for every `foot`-carrying node on every run, this exporter carries no compensating logic of its own for the shape and needs none; see [validation.md](./validation.md) and [strongs-node-audit.md](./strongs-node-audit.md), check 12, for where the rule is enforced
 
 ## Architecture
 
@@ -75,6 +78,7 @@ interface RenderOptions {
   footnoteMarker: (index: number) => string;
   boldWrapper: (text: string) => string; // Wraps text carrying a "b" mark
   italicWrapper: (text: string) => string; // Wraps text carrying an "i" mark
+  escapeSourceText: (text: string) => string; // Escapes this format's own delimiter characters when they appear in text taken verbatim from content
 }
 ```
 
@@ -94,6 +98,9 @@ const TEXT_OPTIONS: RenderOptions = {
   footnoteMarker: () => "°",
   boldWrapper: (text) => text,
   italicWrapper: (text) => text,
+  // The text export has no delimiter grammar of its own to collide with —
+  // "_"/"*" are ordinary printable characters here, so nothing is escaped.
+  escapeSourceText: (text) => text,
 };
 
 const MARKDOWN_OPTIONS: RenderOptions = {
@@ -110,6 +117,7 @@ const MARKDOWN_OPTIONS: RenderOptions = {
     `<sup>${String.fromCharCode(97 + (index % 26))}</sup>`,
   boldWrapper: (text) => `**${text}**`,
   italicWrapper: (text) => `_${text}_`,
+  escapeSourceText: escapeMarkdownDelimiters,
 };
 ```
 
