@@ -48,15 +48,16 @@ A single recursive content shape (defined in [content-schema.json](../../../cont
 | Symptom                                              | Likely culprit                                                      |
 | ---------------------------------------------------- | ------------------------------------------------------------------- |
 | `npm run validate` fails with schema error           | Mismatched content shape; diff against [content-model.md](./content-model.md) examples |
-| `npm run validate` fails on cross-chapter links or Strong's-node findings | It also runs both audits below for each version validated; see their rows for what to do |
+| `npm run validate` fails on a cross-chapter link, `bibleLink` target, or Strong's-node finding | These are report-only audits inside the same `npm run validate` run, not separate tools; see their rows below for what to do |
 | Exports look right but markdown drops a piece        | Missing case in `renderContent` dispatch; see [data-pipeline.md](./data-pipeline.md) |
 | Web reader shows raw JSON or blank                   | A new content variant isn't handled in `ContentNode.js`; see [web-reader.md](./web-reader.md) |
 | Strong's link points to a 404                        | Strong's number doesn't match `^[GH][0-9]{1,4}$` or starts with the wrong testament prefix |
 | `Failed to write … after N attempts`                 | Something is holding that file open past the retry budget; see [Writing files](./data-pipeline.md#writing-files) |
-| `auditCrossChapterLinks` reports an unsplit finding   | Run it with `--fix` for that version; see [Cross-chapter link audit](./data-pipeline.md#cross-chapter-link-audit) |
-| `auditNodes` reports a finding                | `auditNodes.ts` itself is read-only. Checks 1 and 6 have a fixer script (`fixUnmergedNodes.ts`, `fixHeadingParagraphs.ts`); the rest need a hand edit. See [Strong's-node audit](./data-pipeline.md#strongs-node-audit) |
+| A cross-chapter link, truncated range, or unresolvable `bibleLink` target finding survives a run | Re-run `npm run validate` — the fix is a step in its own auto-fix pass; a survivor means the case was declined as unsafe. See [Cross-chapter link and bibleLink target conventions](./data-pipeline.md#cross-chapter-link-and-biblelink-target-conventions) |
+| A Strong's-node placement finding survives a run      | Eight of the sixteen checks repair themselves inside `npm run validate`'s own pass; the rest need a hand edit. See [Strong's-node placement audit](./data-pipeline.md#strongs-node-placement-audit) |
 | A validate run reformats far more of a file than expected | The file was carrying stale formatting from before a write went through the canonical path; see [Writing files](./data-pipeline.md#writing-files) |
-| USFM import or its tests throw `Cannot find module '.../imports/_lib/...'` | Expected local scaffolding is missing, not a broken commit; see [usfm-import.md operational tips](./usfm-import.md#operational-tips) |
+| `importUsfm.ts` throws ENOENT on a source directory under `imports/` | The raw USFM corpus is gitignored local scaffolding, not a broken commit; point it at a checkout that has the source, or import from one that does. See [usfm-import.md operational tips](./usfm-import.md#operational-tips) |
+| A USFM test reports a skipped placeholder naming a directory under `imports/` | Expected on a fresh clone. The test guards its own read with `fs.existsSync` and skips by name instead of failing; nothing is broken. See [usfm-import.md operational tips](./usfm-import.md#operational-tips) |
 
 ## License & contribution notes
 

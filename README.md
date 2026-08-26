@@ -65,8 +65,7 @@ npm install
 # Validate JSON schemas and data integrity — the sole entry point for all
 # normalization and validation. Normalizes key order, formatting, bibleLink
 # dashes and ranges, fractions, and ellipses; repairs the node-placement
-# conventions whose fixes are safe; and fails with detail on everything else,
-# across eleven checks
+# conventions whose fixes are safe; and fails with detail on everything else
 npm run validate
 
 # Convert Bible JSON to text/markdown formats (all versions)

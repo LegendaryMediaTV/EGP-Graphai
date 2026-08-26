@@ -18,7 +18,7 @@ flowchart TD
     Headings & Footnotes & References & Marks --> Block[blockStructure.ts]
     Block --> Noise["paragraphNoise.ts<br/>(whole-book pass)"]
     Noise --> Verse[(Verse JSON<br/>bible-versions/&lt;version&gt;/NN-BBB.json)]
-    Verse --> Downstream["audit-links --fix<br/>+ npm run validate"]
+    Verse --> Downstream["npm run validate"]
 ```
 
 `segmentVerses.ts` is the largest and most central module in this pipeline. It walks the full token stream and decides every structural boundary: where a paragraph or stanza break falls, how a chapter cut is treated, which specialized builder a given span belongs to. Everything else either feeds it a decision (headings, footnotes, references, the Strong's-run builder) or renders what it already decided (`blockStructure.ts`).
@@ -35,9 +35,11 @@ flowchart TD
 | `footnoteTypeRules.ts` | The classification table that sorts footnote text into cross-reference, variant, translation, or study. Shared by the importer and by the standalone re-classification tool below |
 | `references.ts` | Resolves `\x` cross-references against the book registry directly, and finds Scripture references sitting in ordinary footnote prose with no marker at all |
 | `inlineMarks.ts` | The shared run-builder that turns Strong's-tagged USFM into joined, readable text, used for both verse content and footnote bodies |
-| `fractions.ts` | Normalizes raw fraction notation into one convention |
+| `splitScriptRuns.ts` | Splits an embedded Hebrew or Greek letter run out into its own `{text, script}` node; the same eligibility judgment `npm run validate`'s own untagged-script-run check reuses |
 | `metadata.ts` | Book-id resolution and version-metadata extraction and merging |
 | `paragraphNoise.ts` | The pipeline's one whole-book pass. Cleans up a source-tool artifact that over-applies paragraph flags |
+
+Fraction normalization isn't a `utils/usfm/` module at all: `segmentVerses.ts` and `footnotes.ts` both call the shared [functions/normalizeFractions.ts](../../../functions/normalizeFractions.ts), the same function `npm run validate`'s own unnormalized-fraction check applies to hand-edited content. One convention, one function, so an imported verse and a hand-edited one are never held to two different rules that could quietly drift apart.
 
 ## Running an import
 
@@ -52,7 +54,7 @@ npx ts-node utils/importUsfm.ts path/to/usfm-files WEBUS2020
 npx ts-node utils/importUsfm.ts path/to/usfm-files WEBUS2020 --no-strongs
 ```
 
-Supplying a chapter number switches the run to preview mode. The resulting JSON prints to stdout and nothing is written. A real import writes each book to `bible-versions/<version>/<order>-<id>.json`, folds extracted metadata (title, chapter count) into `_version.json`, then runs `audit-links --fix` and `validate` for that version as real subprocesses rather than in-process calls, so the cross-chapter-link auditor's own cached book index can't go stale mid-import.
+Supplying a chapter number switches the run to preview mode. The resulting JSON prints to stdout and nothing is written. A real import writes each book to `bible-versions/<version>/<order>-<id>.json`, folds extracted metadata (title, chapter count) into `_version.json`, then runs `npm run validate` for that version as a real subprocess rather than an in-process call — validation owns every normalization and audit rule this repo enforces (see [data-pipeline.md](./data-pipeline.md)), and a fresh process is the only way to guarantee the cross-chapter-link auditor's own cached per-version index can't go stale mid-import.
 
 `importUsfm.ts` is deliberately not wired into `package.json`'s scripts. It's meant to be pointed at whatever local source directory holds the USFM files for a given translation, and its own header comment documents the invocation.
 
@@ -71,7 +73,9 @@ This is a representative sampling. The test fixtures under `utils/usfm/__tests__
 
 ## Footnote classification and cross-references
 
-`footnoteTypeRules.ts` sorts a footnote's plain text into cross-reference, variant, translation, or study. Rather than matching phrases memorized from one translation's own house style, it asks structural questions of the body: is it nothing but citations, does it name a manuscript witness, does it open with a translation marker, does it weigh one language's reading against another. That's what lets the same table hold up across different editions instead of needing a fresh pass of literals re-derived from each one. The priority isn't a flat first-to-last ordering either: a strong witness signal outranks a translation marker, but a weaker one (a language name showing up after a semicolon, comparing two readings) is only checked once translation and the stronger witness signals have both already had their turn. The importer and the retroactive re-classification tool below both import this one table, so the two never disagree about what a given footnote should be.
+`footnoteTypeRules.ts` sorts a footnote's plain text into cross-reference, variant, translation, or study. Rather than matching phrases memorized from one translation's own house style, it asks structural questions of the body: is it nothing but citations, does it name a manuscript witness, does it open with a translation marker, does it weigh one language's reading against another. That's what lets the same table hold up across different editions instead of needing a fresh pass of literals re-derived from each one. The priority isn't a flat first-to-last ordering either: cross-reference is checked first, then the witness/textual-variant signal, then translation, then the weaker witness signal (a language name showing up after a semicolon, comparing two readings), which is only checked once the stronger signals have both already had their turn.
+
+A Greek or Hebrew critical edition often prints its apparatus as operators between competing readings rather than prose — a symbolic notation the witness signal recognizes on its own terms, checked right alongside the prose-based witness rules: `⇒` sets the edition's own reading against a competing one, a standalone `~` marks a verse the compared edition omits outright, and `¦` separates one witness group's reading from the next. Without this, an edition whose apparatus is built entirely from these operators (BYZ2018's, corpus-wide) would fall through every prose-based rule straight to the study default. The importer and the retroactive re-classification tool below both import this one table, so the two never disagree about what a given footnote should be.
 
 `references.ts` handles two distinct cases. An explicit `\x` cross-reference resolves against the book registry directly, rather than through the cached index the cross-chapter-link auditor builds, which may be incomplete mid-import. A reference named in ordinary footnote prose with no marker at all is linked only when the surrounding text actually names a real book, chapter, and verse, not because it follows a cue phrase like "See."
 
@@ -115,4 +119,4 @@ Bringing these books in surfaced structural markers the pipeline hadn't needed b
 - **A chapter preview is the cheapest way to catch a markup edge case.** Passing a chapter number to `importUsfm.ts` prints the resulting JSON without writing anything. Check a tricky chapter before committing a whole book to disk.
 - **Run `verify.ts` before trusting a fresh import.** It's deliberately built not to share code with the importer, so it's the one thing in this pipeline positioned to catch a bug the importer itself couldn't see.
 - **`--no-strongs` exists for a reason, not a shortcut.** WEBUS2020 imports without Strong's tagging because a quality pass found the automatically assigned numbers unreliable across a large share of sampled words for this translation. Don't re-enable it for that version without redoing that review.
-- **A local `imports/` scaffold is expected but not shipped.** Several `utils/usfm/*.ts` modules and `verify.ts` import a Hebrew/Greek run-splitting helper from `imports/_lib/`, and the import pipeline's own doc comments reference a design log and per-version wrapper scripts under the same gitignored folder. None of that ships with the repo, so anyone running the full USFM test suite without that local scaffold will see "Cannot find module" failures on the tests that touch script splitting. That's missing local setup, not a broken commit.
+- **One gitignored dependency remains: the raw source corpora themselves.** `imports/webus2020/ebible-usfm/`, `imports/asv1901/ebible-usfm/`, and `imports/msb2025/ebible-usfm/` hold the USFM files several tests read directly (`metadata.test.ts`, `verify.test.ts`, the upstream-convention specs). They're present in a checkout that already has them, but aren't guaranteed to exist in a fresh one. Every test that reads one guards the read with `fs.existsSync` and falls back to `describe.skip` with a single named placeholder, so a fresh clone reports a skip explaining exactly what's missing, not a thrown error. Only `importUsfm.ts` itself throws when pointed at a source directory that doesn't exist, since a CLI given a bad path is expected to fail loudly rather than silently do nothing.
