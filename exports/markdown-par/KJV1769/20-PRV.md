@@ -365,39 +365,38 @@
 <sup>7</sup> The memory of the just _is_ blessed:<br>But the name of the wicked shall rot.<br>
 <sup>8</sup> The wise in heart will receive commandments:<br>But a prating fool<sup>b</sup> shall fall.<br>
 <sup>9</sup> He that walketh uprightly walketh surely:<br>But he that perverteth his ways shall be known.<br>
-<sup>10</sup> He that winketh with the eye causeth sorrow:<br>But a prating fool shall fall.<sup>c</sup><sup>d</sup><br>
+<sup>10</sup> He that winketh with the eye causeth sorrow:<br>But a prating fool shall fall.<sup>c</sup><br>
 <sup>11</sup> The mouth of a righteous _man is_ a well of life:<br>But violence covereth the mouth of the wicked.<br>
 <sup>12</sup> Hatred stirreth up strifes:<br>But love covereth all sins.<br>
-<sup>13</sup> In the lips of him that hath understanding<sup>e</sup> wisdom is found:<br>But a rod _is_ for the back of him that is void of understanding.<br>
+<sup>13</sup> In the lips of him that hath understanding<sup>d</sup> wisdom is found:<br>But a rod _is_ for the back of him that is void of understanding.<br>
 <sup>14</sup> Wise _men_ lay up knowledge:<br>But the mouth of the foolish _is_ near destruction.<br>
 <sup>15</sup> The rich man’s wealth _is_ his strong city:<br>The destruction of the poor _is_ their poverty.<br>
 <sup>16</sup> The labour of the righteous _tendeth_ to life:<br>The fruit of the wicked to sin.<br>
-<sup>17</sup> He _is in_ the way of life that keepeth instruction:<br>But he that refuseth reproof erreth.<sup>f</sup><br>
+<sup>17</sup> He _is in_ the way of life that keepeth instruction:<br>But he that refuseth reproof erreth.<sup>e</sup><br>
 <sup>18</sup> He that hideth hatred _with_ lying lips,<br>And he that uttereth a slander, _is_ a fool.<br>
 <sup>19</sup> In the multitude of words there wanteth not sin:<br>But he that refraineth his lips _is_ wise.<br>
 <sup>20</sup> The tongue of the just _is as_ choice silver:<br>The heart of the wicked _is_ little worth.<br>
-<sup>21</sup> The lips of the righteous feed many:<br>But fools die for want of wisdom.<sup>g</sup><br>
+<sup>21</sup> The lips of the righteous feed many:<br>But fools die for want of wisdom.<sup>f</sup><br>
 <sup>22</sup> The blessing of the LORD, it maketh rich,<br>And he addeth no sorrow with it.<br>
 <sup>23</sup> _It is_ as sport to a fool to do mischief:<br>But a man of understanding hath wisdom.<br>
 <sup>24</sup> The fear of the wicked, it shall come upon him:<br>But the desire of the righteous shall be granted.<br>
 <sup>25</sup> As the whirlwind passeth, so _is_ the wicked no _more:_<br>But the righteous _is_ an everlasting foundation.<br>
 <sup>26</sup> As vinegar to the teeth, and as smoke to the eyes,<br>So _is_ the sluggard to them that send him.<br>
-<sup>27</sup> The fear of the LORD prolongeth<sup>h</sup> days:<br>But the years of the wicked shall be shortened.<br>
+<sup>27</sup> The fear of the LORD prolongeth<sup>g</sup> days:<br>But the years of the wicked shall be shortened.<br>
 <sup>28</sup> The hope of the righteous _shall be_ gladness:<br>But the expectation of the wicked shall perish.<br>
 <sup>29</sup> The way of the LORD _is_ strength to the upright:<br>But destruction _shall be_ to the workers of iniquity.<br>
 <sup>30</sup> The righteous shall never be removed:<br>But the wicked shall not inhabit the earth.<br>
 <sup>31</sup> The mouth of the just bringeth forth wisdom:<br>But the froward tongue shall be cut out.<br>
-<sup>32</sup> The lips of the righteous know what is acceptable:<br>But the mouth of the wicked _speaketh_ frowardness.<sup>i</sup><br>
+<sup>32</sup> The lips of the righteous know what is acceptable:<br>But the mouth of the wicked _speaketh_ frowardness.<sup>h</sup><br>
 
 > - <sup>a</sup> 3. Or, _the wicked for their wickedness_
 > - <sup>b</sup> 8. Heb. _a fool of lips_
 > - <sup>c</sup> 10. Or, _shall be beaten_
-> - <sup>d</sup> 10. Or, _shall be beaten_
-> - <sup>e</sup> 13. Heb. _heart_
-> - <sup>f</sup> 17. Or, _causeth to err_
-> - <sup>g</sup> 21. Heb. _of heart_
-> - <sup>h</sup> 27. Heb. _addeth_
-> - <sup>i</sup> 32. Heb. _frowardnesses_
+> - <sup>d</sup> 13. Heb. _heart_
+> - <sup>e</sup> 17. Or, _causeth to err_
+> - <sup>f</sup> 21. Heb. _of heart_
+> - <sup>g</sup> 27. Heb. _addeth_
+> - <sup>h</sup> 32. Heb. _frowardnesses_
 
 ## Chapter 11
 

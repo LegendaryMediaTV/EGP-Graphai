@@ -2386,13 +2386,13 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>1</sup> Give ear, O Shepherd of Israel, thou that leadest Joseph like a flock;<br>Thou that dwellest _between_ the cherubims, shine forth.<br>
 <sup>2</sup> Before Ephraim and Benjamin and Manasseh stir up thy strength,<br>And come _and_ save us.<sup>a</sup><br>
 <sup>3</sup> Turn us again, O God,<br>And cause thy face to shine; and we shall be saved.<br>
-<sup>4</sup> O LORD God of hosts,<br>How long wilt thou be angry<sup>b</sup><sup>c</sup> against the prayer of thy people?<br>
+<sup>4</sup> O LORD God of hosts,<br>How long wilt thou be angry<sup>b</sup> against the prayer of thy people?<br>
 <sup>5</sup> Thou feedest them with the bread of tears;<br>And givest them tears to drink in great measure.<br>
 <sup>6</sup> Thou makest us a strife unto our neighbours:<br>And our enemies laugh among themselves.<br>
 <sup>7</sup> Turn us again, O God of hosts,<br>And cause thy face to shine; and we shall be saved.<br>
 <sup>8</sup> Thou hast brought a vine out of Egypt:<br>Thou hast cast out the heathen, and planted it.<br>
 <sup>9</sup> Thou preparedst _room_ before it,<br>And didst cause it to take deep root, and it filled the land.<br>
-<sup>10</sup> The hills were covered with the shadow of it,<br>And the boughs thereof _were like_ the goodly cedars.<sup>d</sup><br>
+<sup>10</sup> The hills were covered with the shadow of it,<br>And the boughs thereof _were like_ the goodly cedars.<sup>c</sup><br>
 <sup>11</sup> She sent out her boughs unto the sea,<br>And her branches unto the river.<br>
 <sup>12</sup> Why hast thou _then_ broken down her hedges,<br>So that all they which pass by the way do pluck her?<br>
 <sup>13</sup> The boar out of the wood doth waste it,<br>And the wild beast of the field doth devour it.<br>
@@ -2405,8 +2405,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 > - <sup>a</sup> 2. Heb. _come for salvation to us_
 > - <sup>b</sup> 4. Heb. _wilt thou smoke?_
-> - <sup>c</sup> 4. Heb. _wilt thou smoke?_
-> - <sup>d</sup> 10. Heb. _the Cedars of God_
+> - <sup>c</sup> 10. Heb. _the Cedars of God_
 
 ## Chapter 81
 

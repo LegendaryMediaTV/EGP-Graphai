@@ -4,9 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "Paul, a " },
       {
-        "paragraph": true,
-        "text": "Paul, a ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
@@ -20,8 +19,8 @@
     "chapter": 1,
     "verse": 2,
     "content": [
+      "in hope of eternal life, which God, who cannot lie, promised ",
       {
-        "text": "in hope of eternal life, which God, who cannot lie, promised ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "long ages ago", "marks": ["i"] }]
@@ -35,15 +34,15 @@
     "chapter": 1,
     "verse": 3,
     "content": [
+      "but in ",
       {
-        "text": "but in ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "its", "marks": ["i"] }]
         }
       },
+      "his own seasons manifested his word in the ",
       {
-        "text": "his own seasons manifested his word in the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "proclamation", "marks": ["i"] }]
@@ -81,15 +80,15 @@
     "chapter": 1,
     "verse": 7,
     "content": [
+      "For the ",
       {
-        "text": "For the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "overseer", "marks": ["i"] }]
         }
       },
+      "bishop must be blameless, as God’s steward; not self-willed, not soon angry, ",
       {
-        "text": "bishop must be blameless, as God’s steward; not self-willed, not soon angry, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -112,15 +111,15 @@
     "chapter": 1,
     "verse": 9,
     "content": [
+      "holding to the faithful word which is according to the teaching, that he may be able both to exhort in the ",
       {
-        "text": "holding to the faithful word which is according to the teaching, that he may be able both to exhort in the ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "healthful", "marks": ["i"] }, "."]
         }
       },
+      "sound ",
       {
-        "text": "sound ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "teaching", "marks": ["i"] }]
@@ -153,8 +152,8 @@
         "text": "One of themselves, a prophet of their own, said,",
         "break": true
       },
+      "Cretans are always liars, evil beasts, idle ",
       {
-        "text": "Cretans are always liars, evil beasts, idle ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "bellies", "marks": ["i"] }, "."]
@@ -170,7 +169,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "This testimony is true. For which cause reprove them sharply, that they may be ",
+        "text": "This testimony is true. For which cause reprove them sharply, that they may be "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "healthy", "marks": ["i"] }, "."]
@@ -204,14 +205,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "But speak thou the things which befit the ",
+        "text": "But speak thou the things which befit the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "healthful", "marks": ["i"] }, "."]
         }
       },
+      "sound ",
       {
-        "text": "sound ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "teaching", "marks": ["i"] }]
@@ -225,15 +228,15 @@
     "chapter": 2,
     "verse": 2,
     "content": [
+      "that aged men be temperate, grave, sober-minded, ",
       {
-        "text": "that aged men be temperate, grave, sober-minded, ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "healthy", "marks": ["i"] }, "."]
         }
       },
+      "sound in faith, in love, in ",
       {
-        "text": "sound in faith, in love, in ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "stedfastness", "marks": ["i"] }]
@@ -316,8 +319,8 @@
     "chapter": 2,
     "verse": 11,
     "content": [
+      "For the grace of God ",
       {
-        "text": "For the grace of God ",
         "foot": {
           "type": "trn",
           "content": [
@@ -337,8 +340,8 @@
     "chapter": 2,
     "verse": 12,
     "content": [
+      "instructing us, to the intent that, denying ungodliness and worldly lusts, we should live soberly and righteously and godly in this present ",
       {
-        "text": "instructing us, to the intent that, denying ungodliness and worldly lusts, we should live soberly and righteously and godly in this present ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "age", "marks": ["i"] }]
@@ -352,8 +355,8 @@
     "chapter": 2,
     "verse": 13,
     "content": [
+      "looking for the blessed hope and appearing of the glory ",
       {
-        "text": "looking for the blessed hope and appearing of the glory ",
         "foot": {
           "type": "trn",
           "content": [
@@ -378,7 +381,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "These things speak and exhort and reprove with all ",
+        "text": "These things speak and exhort and reprove with all "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "commandment", "marks": ["i"] }, "."]
@@ -421,15 +426,15 @@
     "content": [
       "not by works ",
       { "text": "done", "marks": ["i"] },
+      " in righteousness, which we did ourselves, but according to his mercy he saved us, through the ",
       {
-        "text": " in righteousness, which we did ourselves, but according to his mercy he saved us, through the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "laver", "marks": ["i"] }]
         }
       },
+      "washing of regeneration ",
       {
-        "text": "washing of regeneration ",
         "foot": {
           "type": "trn",
           "content": [
@@ -454,8 +459,8 @@
     "chapter": 3,
     "verse": 7,
     "content": [
+      "that, being justified by his grace, we might be made ",
       {
-        "text": "that, being justified by his grace, we might be made ",
         "foot": {
           "type": "trn",
           "content": [
@@ -475,8 +480,8 @@
     "chapter": 3,
     "verse": 8,
     "content": [
+      "Faithful is the saying, and concerning these things I desire that thou affirm confidently, to the end that they who have believed God may be careful to ",
       {
-        "text": "Faithful is the saying, and concerning these things I desire that thou affirm confidently, to the end that they who have believed God may be careful to ",
         "foot": {
           "type": "trn",
           "content": [
@@ -499,8 +504,8 @@
     "chapter": 3,
     "verse": 10,
     "content": [
+      "A factious man after a first and second admonition ",
       {
-        "text": "A factious man after a first and second admonition ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "avoid", "marks": ["i"] }]
@@ -537,8 +542,8 @@
     "content": [
       "And let our ",
       { "text": "people", "marks": ["i"] },
+      " also learn to ",
       {
-        "text": " also learn to ",
         "foot": {
           "type": "trn",
           "content": [
@@ -547,8 +552,8 @@
           ]
         }
       },
+      "maintain good works for necessary ",
       {
-        "text": "maintain good works for necessary ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "wants", "marks": ["i"] }]

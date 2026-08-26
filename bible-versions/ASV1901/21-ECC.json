@@ -4,9 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "The words of " },
       {
-        "paragraph": true,
-        "text": "The words of ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "Koheleth", "marks": ["i"] }, "."]
@@ -53,8 +52,8 @@
     "chapter": 1,
     "verse": 7,
     "content": [
+      "All the ",
       {
-        "text": "All the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "torrents", "marks": ["i"] }]
@@ -126,8 +125,8 @@
     "chapter": 1,
     "verse": 14,
     "content": [
+      "I have seen all the works that are done under the sun; and, behold, all is vanity and ",
       {
-        "text": "I have seen all the works that are done under the sun; and, behold, all is vanity and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -149,8 +148,8 @@
     "chapter": 1,
     "verse": 15,
     "content": [
+      "That which is crooked cannot be made straight; and ",
       {
-        "text": "That which is crooked cannot be made straight; and ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "defect", "marks": ["i"] }, "."]
@@ -164,22 +163,22 @@
     "chapter": 1,
     "verse": 16,
     "content": [
+      "I communed with mine own heart, saying, Lo, I have gotten me great wisdom ",
       {
-        "text": "I communed with mine own heart, saying, Lo, I have gotten me great wisdom ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "yea, more than all", "marks": ["i"] }]
         }
       },
+      "above all that were before me ",
       {
-        "text": "above all that were before me ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "over", "marks": ["i"] }, "."]
         }
       },
+      "in Jerusalem; yea, my heart ",
       {
-        "text": "in Jerusalem; yea, my heart ",
         "foot": {
           "type": "trn",
           "content": [
@@ -211,7 +210,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "I said in my heart, Come now, I will prove thee with mirth; ",
+        "text": "I said in my heart, Come now, I will prove thee with mirth; "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -220,8 +221,8 @@
           ]
         }
       },
+      "therefore enjoy ",
       {
-        "text": "therefore enjoy ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "good", "marks": ["i"] }]
@@ -241,8 +242,8 @@
     "chapter": 2,
     "verse": 3,
     "content": [
+      "I searched in my heart how to cheer my flesh with wine, my heart yet ",
       {
-        "text": "I searched in my heart how to cheer my flesh with wine, my heart yet ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "holding its course", "marks": ["i"] }]
@@ -250,8 +251,8 @@
       },
       "guiding ",
       { "text": "me", "marks": ["i"] },
+      " with wisdom, and how to lay hold on folly, till I might see what it was good for the sons of men that they should do under heaven ",
       {
-        "text": " with wisdom, and how to lay hold on folly, till I might see what it was good for the sons of men that they should do under heaven ",
         "foot": {
           "type": "trn",
           "content": [
@@ -293,8 +294,8 @@
     "chapter": 2,
     "verse": 8,
     "content": [
+      "I gathered me also silver and gold, and the treasure of kings and of the provinces; I gat me men-singers and women-singers, and the delights of the sons of men, ",
       {
-        "text": "I gathered me also silver and gold, and the treasure of kings and of the provinces; I gat me men-singers and women-singers, and the delights of the sons of men, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -312,8 +313,8 @@
     "chapter": 2,
     "verse": 9,
     "content": [
+      "So I was great, and increased more than all that were before me in Jerusalem: also my wisdom ",
       {
-        "text": "So I was great, and increased more than all that were before me in Jerusalem: also my wisdom ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "stood by me", "marks": ["i"] }]
@@ -346,8 +347,8 @@
       { "text": "can", "marks": ["i"] },
       " the man ",
       { "text": "do", "marks": ["i"] },
+      " that cometh ",
       {
-        "text": " that cometh ",
         "foot": {
           "type": "trn",
           "content": [
@@ -425,15 +426,15 @@
     "chapter": 2,
     "verse": 21,
     "content": [
+      "For there is a man whose labor is with wisdom, and with knowledge, and with ",
       {
-        "text": "For there is a man whose labor is with wisdom, and with knowledge, and with ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "success", "marks": ["i"] }]
         }
       },
+      "skilfulness; yet to a man that hath not labored therein shall he ",
       {
-        "text": "skilfulness; yet to a man that hath not labored therein shall he ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "give", "marks": ["i"] }, "."]
@@ -447,8 +448,8 @@
     "chapter": 2,
     "verse": 22,
     "content": [
+      "For what hath a man of all his labor, and of the ",
       {
-        "text": "For what hath a man of all his labor, and of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "vexation", "marks": ["i"] }]
@@ -482,15 +483,15 @@
     "chapter": 2,
     "verse": 25,
     "content": [
+      "For who can eat, or who can ",
       {
-        "text": "For who can eat, or who can ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "hasten", "marks": ["i"] }, " thereto"]
         }
       },
+      "have enjoyment, ",
       {
-        "text": "have enjoyment, ",
         "foot": {
           "type": "var",
           "content": [
@@ -520,7 +521,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "For everything there is a season, and a time for every ",
+        "text": "For everything there is a season, and a time for every "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "matter", "marks": ["i"] }]
@@ -588,8 +591,8 @@
     "chapter": 3,
     "verse": 11,
     "content": [
+      "He hath made everything beautiful in its time: also he hath set ",
       {
-        "text": "He hath made everything beautiful in its time: also he hath set ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the world", "marks": ["i"] }]
@@ -603,8 +606,8 @@
     "chapter": 3,
     "verse": 12,
     "content": [
+      "I know that there is nothing better for them, than to rejoice, and ",
       {
-        "text": "I know that there is nothing better for them, than to rejoice, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "to get good", "marks": ["i"] }]
@@ -639,8 +642,8 @@
           ]
         }
       },
+      "That which is hath been long ago; and that which is to be hath long ago been: and God seeketh again that which is ",
       {
-        "text": "That which is hath been long ago; and that which is to be hath long ago been: and God seeketh again that which is ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "driven away", "marks": ["i"] }, "."]
@@ -663,8 +666,8 @@
     "chapter": 3,
     "verse": 17,
     "content": [
+      "I said in my heart, God will judge the righteous and the wicked; for there is a time there for every ",
       {
-        "text": "I said in my heart, God will judge the righteous and the wicked; for there is a time there for every ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "matter", "marks": ["i"] }]
@@ -704,8 +707,8 @@
     "chapter": 3,
     "verse": 19,
     "content": [
+      "For that which befalleth the sons of men befalleth beasts; even one thing befalleth them: as the one dieth, so dieth the other; yea, they have all one ",
       {
-        "text": "For that which befalleth the sons of men befalleth beasts; even one thing befalleth them: as the one dieth, so dieth the other; yea, they have all one ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "spirit", "marks": ["i"] }]
@@ -725,8 +728,8 @@
     "chapter": 3,
     "verse": 21,
     "content": [
+      "Who knoweth the spirit ",
       {
-        "text": "Who knoweth the spirit ",
         "foot": {
           "type": "trn",
           "content": [
@@ -736,8 +739,8 @@
           ]
         }
       },
+      "of man, ",
       {
-        "text": "of man, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "that goeth", "marks": ["i"] }]
@@ -776,8 +779,8 @@
     "chapter": 4,
     "verse": 3,
     "content": [
+      "yea, ",
       {
-        "text": "yea, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -796,16 +799,15 @@
     "chapter": 4,
     "verse": 4,
     "content": [
+      { "paragraph": true, "text": "Then I saw all labor and every " },
       {
-        "paragraph": true,
-        "text": "Then I saw all labor and every ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "successful", "marks": ["i"] }]
         }
       },
+      "skilful work, that ",
       {
-        "text": "skilful work, that ",
         "foot": {
           "type": "trn",
           "content": [
@@ -831,15 +833,15 @@
     "chapter": 4,
     "verse": 6,
     "content": [
+      "Better is a handful, ",
       {
-        "text": "Better is a handful, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "of", "marks": ["i"] }]
         }
       },
+      "with quietness, than two handfuls ",
       {
-        "text": "with quietness, than two handfuls ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "of", "marks": ["i"] }]
@@ -950,8 +952,8 @@
     "chapter": 5,
     "verse": 2,
     "content": [
+      "Be not rash with thy mouth, and let not thy heart be hasty to utter ",
       {
-        "text": "Be not rash with thy mouth, and let not thy heart be hasty to utter ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a word", "marks": ["i"] }]
@@ -965,8 +967,8 @@
     "chapter": 5,
     "verse": 3,
     "content": [
+      "For a dream cometh with a multitude of ",
       {
-        "text": "For a dream cometh with a multitude of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "travail", "marks": ["i"] }]
@@ -992,8 +994,8 @@
     "chapter": 5,
     "verse": 6,
     "content": [
+      "Suffer not thy mouth to cause thy flesh to sin; neither say thou before the ",
       {
-        "text": "Suffer not thy mouth to cause thy flesh to sin; neither say thou before the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1021,7 +1023,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "If thou seest the oppression of the poor, and the violent taking away of justice and righteousness in ",
+        "text": "If thou seest the oppression of the poor, and the violent taking away of justice and righteousness in "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the state", "marks": ["i"] }]
@@ -1098,8 +1102,8 @@
     "chapter": 5,
     "verse": 14,
     "content": [
+      "and those riches perish by evil ",
       {
-        "text": "and those riches perish by evil ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "travail", "marks": ["i"] }]
@@ -1131,9 +1135,8 @@
     "chapter": 5,
     "verse": 18,
     "content": [
+      { "paragraph": true, "text": "Behold, " },
       {
-        "paragraph": true,
-        "text": "Behold, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1145,8 +1148,8 @@
           ]
         }
       },
+      "that which I have seen to be good and to be comely is for one to eat and to drink, and to enjoy good in all his labor, wherein he laboreth under the sun, ",
       {
-        "text": "that which I have seen to be good and to be comely is for one to eat and to drink, and to enjoy good in all his labor, wherein he laboreth under the sun, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1207,8 +1210,8 @@
     "chapter": 6,
     "verse": 5,
     "content": [
+      "moreover it hath not seen the sun ",
       {
-        "text": "moreover it hath not seen the sun ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1217,8 +1220,8 @@
           ]
         }
       },
+      "nor known it; ",
       {
-        "text": "nor known it; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1253,8 +1256,8 @@
     "chapter": 6,
     "verse": 8,
     "content": [
+      "For what advantage hath the wise more than the fool? ",
       {
-        "text": "For what advantage hath the wise more than the fool? ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1294,8 +1297,8 @@
           ]
         }
       },
+      "Whatsoever hath been, the name thereof was given long ago; and it is known what ",
       {
-        "text": "Whatsoever hath been, the name thereof was given long ago; and it is known what ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1315,8 +1318,8 @@
     "chapter": 6,
     "verse": 11,
     "content": [
+      "Seeing there are many ",
       {
-        "text": "Seeing there are many ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "words", "marks": ["i"] }]
@@ -1332,8 +1335,8 @@
     "content": [
       "For who knoweth what is good for man in ",
       { "text": "his", "marks": ["i"] },
+      " life, ",
       {
-        "text": " life, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1367,8 +1370,8 @@
     "chapter": 7,
     "verse": 3,
     "content": [
+      "Sorrow is better than laughter; for by the sadness of the countenance the heart is made ",
       {
-        "text": "Sorrow is better than laughter; for by the sadness of the countenance the heart is made ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "better", "marks": ["i"] }]
@@ -1430,15 +1433,15 @@
     "chapter": 7,
     "verse": 9,
     "content": [
+      "Be not hasty in thy spirit to be ",
       {
-        "text": "Be not hasty in thy spirit to be ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "vexed", "marks": ["i"] }]
         }
       },
+      "angry; for ",
       {
-        "text": "angry; for ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "vexation", "marks": ["i"] }]
@@ -1452,8 +1455,8 @@
     "chapter": 7,
     "verse": 10,
     "content": [
+      "Say not thou, What is the cause that the former days were better than these? for thou dost not inquire ",
       {
-        "text": "Say not thou, What is the cause that the former days were better than these? for thou dost not inquire ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1471,9 +1474,8 @@
     "chapter": 7,
     "verse": 11,
     "content": [
+      { "paragraph": true, "text": "Wisdom " },
       {
-        "paragraph": true,
-        "text": "Wisdom ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1569,8 +1571,8 @@
     "chapter": 7,
     "verse": 21,
     "content": [
+      "Also ",
       {
-        "text": "Also ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1594,9 +1596,8 @@
     "chapter": 7,
     "verse": 23,
     "content": [
+      { "paragraph": true, "text": "All this have I " },
       {
-        "paragraph": true,
-        "text": "All this have I ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "tried by", "marks": ["i"] }]
@@ -1610,8 +1611,8 @@
     "chapter": 7,
     "verse": 24,
     "content": [
+      "That which ",
       {
-        "text": "That which ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "hath been", "marks": ["i"] }]
@@ -1629,8 +1630,8 @@
       { "text": "was set", "marks": ["i"] },
       " to know and to search out, and to seek wisdom and the reason ",
       { "text": "of things", "marks": ["i"] },
+      ", and to know ",
       {
-        "text": ", and to know ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1652,8 +1653,8 @@
     "chapter": 7,
     "verse": 26,
     "content": [
+      "And I find more bitter than death the woman ",
       {
-        "text": "And I find more bitter than death the woman ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1674,8 +1675,8 @@
     "chapter": 7,
     "verse": 27,
     "content": [
+      "Behold, this have I found, saith the Preacher, ",
       {
-        "text": "Behold, this have I found, saith the Preacher, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1710,7 +1711,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Who is as the wise man? and who knoweth the interpretation of a thing? A man’s wisdom maketh his face to shine, and the ",
+        "text": "Who is as the wise man? and who knoweth the interpretation of a thing? A man’s wisdom maketh his face to shine, and the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "strength", "marks": ["i"] }, "."]
@@ -1756,15 +1759,15 @@
     "chapter": 8,
     "verse": 6,
     "content": [
+      "for to every ",
       {
-        "text": "for to every ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "matter", "marks": ["i"] }]
         }
       },
+      "purpose there is a time and judgment; because the ",
       {
-        "text": "purpose there is a time and judgment; because the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "evil", "marks": ["i"] }]
@@ -1778,8 +1781,8 @@
     "chapter": 8,
     "verse": 7,
     "content": [
+      "for he knoweth not that which shall be; ",
       {
-        "text": "for he knoweth not that which shall be; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1801,22 +1804,22 @@
     "chapter": 8,
     "verse": 8,
     "content": [
+      "There is no man that hath power over the ",
       {
-        "text": "There is no man that hath power over the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "wind", "marks": ["i"] }]
         }
       },
+      "spirit to retain the ",
       {
-        "text": "spirit to retain the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "wind", "marks": ["i"] }]
         }
       },
+      "spirit; neither hath he power over the day of death; and there is no discharge ",
       {
-        "text": "spirit; neither hath he power over the day of death; and there is no discharge ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in battle", "marks": ["i"] }]
@@ -1832,7 +1835,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "All this have I seen, and applied my heart unto every work that is done under the sun: ",
+        "text": "All this have I seen, and applied my heart unto every work that is done under the sun: "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -1842,8 +1847,8 @@
         }
       },
       { "text": "there is", "marks": ["i"] },
+      " a time wherein one man hath power over another ",
       {
-        "text": " a time wherein one man hath power over another ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "to his own hurt", "marks": ["i"] }]
@@ -1857,8 +1862,8 @@
     "chapter": 8,
     "verse": 10,
     "content": [
+      "So I saw the wicked buried, ",
       {
-        "text": "So I saw the wicked buried, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1882,8 +1887,8 @@
     "chapter": 8,
     "verse": 11,
     "content": [
+      "Because sentence against an evil work is not executed speedily, therefore the heart of the sons of men is ",
       {
-        "text": "Because sentence against an evil work is not executed speedily, therefore the heart of the sons of men is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "emboldened", "marks": ["i"] }]
@@ -1928,8 +1933,8 @@
     "chapter": 8,
     "verse": 15,
     "content": [
+      "Then I commended mirth, because a man hath no better thing under the sun, than to eat, and to drink, and to be joyful: ",
       {
-        "text": "Then I commended mirth, because a man hath no better thing under the sun, than to eat, and to drink, and to be joyful: ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1950,14 +1955,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "When I applied my heart to know wisdom, and to see the ",
+        "text": "When I applied my heart to know wisdom, and to see the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "travail", "marks": ["i"] }]
         }
       },
+      "business that is done upon the earth ",
       {
-        "text": "business that is done upon the earth ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2082,8 +2089,8 @@
     "chapter": 9,
     "verse": 10,
     "content": [
+      "Whatsoever thy hand ",
       {
-        "text": "Whatsoever thy hand ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2160,7 +2167,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Dead flies cause the oil of the perfumer ",
+        "text": "Dead flies cause the oil of the perfumer "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -2171,8 +2180,8 @@
       },
       "to send forth an evil odor; ",
       { "text": "so", "marks": ["i"] },
+      " doth a little folly ",
       {
-        "text": " doth a little folly ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2195,15 +2204,15 @@
     "chapter": 10,
     "verse": 3,
     "content": [
+      "Yea also, when the fool walketh by the way, his ",
       {
-        "text": "Yea also, when the fool walketh by the way, his ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "heart", "marks": ["i"] }, "."]
         }
       },
+      "understanding faileth him, and he saith ",
       {
-        "text": "understanding faileth him, and he saith ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "of", "marks": ["i"] }]
@@ -2219,8 +2228,8 @@
     "chapter": 10,
     "verse": 4,
     "content": [
+      "If the spirit of the ruler rise up against thee, leave not thy place; for ",
       {
-        "text": "If the spirit of the ruler rise up against thee, leave not thy place; for ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2246,8 +2255,8 @@
     "chapter": 10,
     "verse": 6,
     "content": [
+      "folly is set in great ",
       {
-        "text": "folly is set in great ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "heights", "marks": ["i"] }, "."]
@@ -2276,8 +2285,8 @@
     "chapter": 10,
     "verse": 9,
     "content": [
+      "Whoso ",
       {
-        "text": "Whoso ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "moveth stones", "marks": ["i"] }]
@@ -2311,8 +2320,8 @@
           ]
         }
       },
+      "If the serpent bite ",
       {
-        "text": "If the serpent bite ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2322,8 +2331,8 @@
           ]
         }
       },
+      "before it is charmed, then is there no advantage in ",
       {
-        "text": "before it is charmed, then is there no advantage in ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2350,8 +2359,8 @@
     "chapter": 10,
     "verse": 13,
     "content": [
+      "The beginning of the words of his mouth is foolishness; and the end of ",
       {
-        "text": "The beginning of the words of his mouth is foolishness; and the end of ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "his mouth", "marks": ["i"] }, "."]
@@ -2381,9 +2390,8 @@
     "chapter": 10,
     "verse": 16,
     "content": [
+      { "paragraph": true, "text": "Woe to thee, O land, when thy king is a " },
       {
-        "paragraph": true,
-        "text": "Woe to thee, O land, when thy king is a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "servant", "marks": ["i"] }]
@@ -2397,8 +2405,8 @@
     "chapter": 10,
     "verse": 17,
     "content": [
+      "Happy art thou, O land, when thy king is ",
       {
-        "text": "Happy art thou, O land, when thy king is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a free man", "marks": ["i"] }]
@@ -2412,8 +2420,8 @@
     "chapter": 10,
     "verse": 18,
     "content": [
+      "By slothfulness the ",
       {
-        "text": "By slothfulness the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "rafters sink", "marks": ["i"] }]
@@ -2446,8 +2454,8 @@
           "content": ["Or, ", { "text": "Send forth", "marks": ["i"] }]
         }
       },
+      "Cast thy bread ",
       {
-        "text": "Cast thy bread ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2485,15 +2493,15 @@
     "chapter": 11,
     "verse": 3,
     "content": [
+      "If the clouds be full of rain, they empty themselves upon the earth; and if a tree fall ",
       {
-        "text": "If the clouds be full of rain, they empty themselves upon the earth; and if a tree fall ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in", "marks": ["i"] }]
         }
       },
+      "toward the south, or ",
       {
-        "text": "toward the south, or ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in", "marks": ["i"] }]
@@ -2513,8 +2521,8 @@
     "chapter": 11,
     "verse": 5,
     "content": [
+      "As thou knowest not what is the way of the ",
       {
-        "text": "As thou knowest not what is the way of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "spirit", "marks": ["i"] }]
@@ -2550,8 +2558,8 @@
           "content": ["Or, ", { "text": "For", "marks": ["i"] }]
         }
       },
+      "Yea, if a man live many years, let him rejoice in them all; ",
       {
-        "text": "Yea, if a man live many years, let him rejoice in them all; ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "and remember", "marks": ["i"] }]
@@ -2574,8 +2582,8 @@
     "chapter": 11,
     "verse": 10,
     "content": [
+      "Therefore remove ",
       {
-        "text": "Therefore remove ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2609,8 +2617,8 @@
     "chapter": 12,
     "verse": 3,
     "content": [
+      "in the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the ",
       {
-        "text": "in the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "grinding women", "marks": ["i"] }]
@@ -2630,8 +2638,8 @@
     "chapter": 12,
     "verse": 5,
     "content": [
+      "yea, they shall be afraid ",
       {
-        "text": "yea, they shall be afraid ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2644,8 +2652,8 @@
       { "text": "that which is", "marks": ["i"] },
       " high, and terrors ",
       { "text": "shall be", "marks": ["i"] },
+      " in the way; and the almond-tree shall blossom, and the grasshopper ",
       {
-        "text": " in the way; and the almond-tree shall blossom, and the grasshopper ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2654,15 +2662,15 @@
           ]
         }
       },
+      "shall be a burden, and ",
       {
-        "text": "shall be a burden, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the caperberry", "marks": ["i"] }]
         }
       },
+      "desire shall ",
       {
-        "text": "desire shall ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "burst", "marks": ["i"] }]
@@ -2676,8 +2684,8 @@
     "chapter": 12,
     "verse": 6,
     "content": [
+      "before the silver cord is ",
       {
-        "text": "before the silver cord is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "snapped asunder", "marks": ["i"] }]
@@ -2705,7 +2713,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And further, because the Preacher was wise, he still taught the people knowledge; yea, he ",
+        "text": "And further, because the Preacher was wise, he still taught the people knowledge; yea, he "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "gave ear", "marks": ["i"] }]
@@ -2721,8 +2731,8 @@
     "chapter": 12,
     "verse": 10,
     "content": [
+      "The Preacher sought to find out ",
       {
-        "text": "The Preacher sought to find out ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2747,8 +2757,8 @@
         "text": "The words of the wise are as goads; and as nails well fastened are "
       },
       { "text": "the words of", "marks": ["i"] },
+      " the ",
       {
-        "text": " the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2801,8 +2811,8 @@
         }
       },
       { "text": "This is", "marks": ["i"] },
+      " the end of the matter; all hath been heard: Fear God, and keep his commandments; for ",
       {
-        "text": " the end of the matter; all hath been heard: Fear God, and keep his commandments; for ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2823,8 +2833,8 @@
     "chapter": 12,
     "verse": 14,
     "content": [
+      "For God will bring every work into judgment, ",
       {
-        "text": "For God will bring every work into judgment, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "concerning", "marks": ["i"] }]

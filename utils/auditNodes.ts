@@ -80,8 +80,17 @@
  *    `foot`. Asks the render-order question, not just "does this node's own
  *    text end in whitespace": a node rendering no text of its own (a bare
  *    `{foot: {...}}` anchor) still renders its marker wherever the
- *    accumulated visible text before it already ends. See {@link
- *    findWhitespaceSourceIndex} and {@link
+ *    accumulated visible text before it already ends. A bare `{foot: {...}}`
+ *    node — no `text` key at all — is exempt once a real next attachment
+ *    point genuinely follows it: that's the deliberately restructured,
+ *    already-fixed shape check 12's own fixer produces
+ *    (`fixFootnoteMarkerSpacing.ts`), not a defect to re-flag. The exemption
+ *    is structural, not content-based — it covers any footnote's own
+ *    `type`/`content`, not only CLV1880's versification markers. When
+ *    nothing real follows a bare node instead, it still counts: real
+ *    WEBUS2020 Mark 9:44's own textless anchor sits at the true end of its
+ *    verse, and its predecessor's dangling trailing whitespace still needs
+ *    catching. See {@link findWhitespaceSourceIndex} and {@link
  *    scanArrayForFootnoteMarkerAfterWhitespace}.
  * 13. **Untagged script run** — a node's own `text` mixes a Latin letter with
  *    a Hebrew or Greek letter and carries no `script` tag of its own,
@@ -1157,6 +1166,20 @@ interface FootnoteMarkerAfterWhitespaceFinding {
  * walk that answers this precisely, and its own doc comment for the real
  * WEBUS2020 Mark 9:44 case this exists for.
  *
+ * **A bare `{foot: {...}}` node — no `text` key at all — is exempt once a
+ * real next attachment point genuinely follows it** (skipping any textless
+ * Strong's sibling in between), regardless of what its own `foot` says: real
+ * KJV1769 Isaiah 10:5 (`{text: " Assyrian,", foot: {...}}`, a bare `{foot:
+ * {...}}`, `{text: " the rod", ...}`) stays silent on its middle node
+ * because that node already sits in its own final, settled shape — the
+ * same shape `fixFootnoteMarkerSpacing.ts`'s own fixer produces once it
+ * splits a combined node apart (real CLV1880 Numbers 20:28, post-fix).
+ * **Not exempt when nothing real follows instead** — real WEBUS2020 Mark
+ * 9:44's own textless anchor sits at the true end of its verse, with
+ * nothing after it to have settled into place alongside, so it stays a
+ * finding and its own predecessor's dangling trailing whitespace still gets
+ * caught.
+ *
  * A `hasNestedContent` node is never itself a finding: whether *its* own
  * marker renders after whitespace depends on its own nested content's last
  * rendered character, invisible from this array level (see {@link
@@ -1172,10 +1195,13 @@ function scanArrayForFootnoteMarkerAfterWhitespace(
   for (let i = 0; i < nodes.length; i++) {
     const shape = shapes[i];
     if (!shape.hasFoot || shape.hasNestedContent) continue;
-    if (findWhitespaceSourceIndex(shapes, i) === undefined) continue;
 
     let j = i + 1;
     while (j < nodes.length && shapes[j].isTextlessStrongSibling) j++;
+    const next = j < nodes.length ? shapes[j] : undefined;
+
+    if (shape.text === undefined && next !== undefined && isRealAttachmentPoint(next)) continue;
+    if (findWhitespaceSourceIndex(shapes, i) === undefined) continue;
 
     findings.push({ where, node: nodes[i], next: j < nodes.length ? nodes[j] : undefined });
   }

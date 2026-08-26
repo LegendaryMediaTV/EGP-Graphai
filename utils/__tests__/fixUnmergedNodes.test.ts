@@ -30,6 +30,19 @@ describe("mergeUnmergedNodesInContent", () => {
     expect(result.content).toBe(content);
   });
 
+  it("should leave a standalone bare foot node alone — never merges it forward or absorbs it backward (real CLV1880 NUM 20:28 post-fix shape; this shape is no longer versification-specific — check 12's own fixer now produces it for any 'sole' footnote-marker-after-whitespace case)", () => {
+    const content = [
+      { text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius " },
+      { foot: { type: "var", content: "Originally verse 20:29." } },
+      "illo mortuo in montis supercilio descendit cum Eleazaro",
+    ];
+
+    const result = mergeUnmergedNodesInContent(content as never);
+
+    expect(result.changed).toBe(false);
+    expect(result.content).toBe(content);
+  });
+
   it("should leave an array already length 1 as an array, never collapsing it to a bare node (the length-1 preservation regression)", () => {
     // A one-element array with nothing to merge into (no strong/foot/break-carrying
     // target after it) must come back exactly as it went in — still an array;

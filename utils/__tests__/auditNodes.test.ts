@@ -85,6 +85,15 @@ describe("findStrongsNodeIssues — unmerged pairs", () => {
     const content: Content = [{ text: "In the beginning, " }, { paragraph: true, text: "God", break: true }];
     expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
   });
+
+  it("should never treat a bare versification-boundary foot node as a check-1 merge target or donor — real CLV1880 NUM 20:28 post-fix shape", () => {
+    const content: Content = [
+      { text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius " },
+      { foot: { type: "var", content: "Originally verse 20:29." } },
+      "illo mortuo in montis supercilio descendit cum Eleazaro",
+    ];
+    expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
+  });
 });
 
 describe("findStrongsNodeIssues — trailing whitespace", () => {
@@ -1052,6 +1061,49 @@ describe("findStrongsNodeIssues — footnote marker after whitespace", () => {
     const findings = findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace;
     expect(findings).toHaveLength(1);
     expect(findings[0].node).toEqual(content[1]);
+  });
+
+  it("should not flag an already-extracted, standalone bare foot node spliced between two real nodes — the same shape check 12's own fixer produces (real CLV1880 NUM 20:28, post-fix), exempt structurally, not by the footnote's own type or content", () => {
+    const content: Content = [
+      { text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius " },
+      { foot: { type: "var", content: "Originally verse 20:29." } },
+      "illo mortuo in montis supercilio descendit cum Eleazaro",
+    ];
+    expect(findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace).toEqual([]);
+  });
+
+  it("should still flag the combined, not-yet-split shape — real CLV1880 NUM 20:28, pre-fix", () => {
+    const content: Content = [
+      {
+        text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius ",
+        foot: { type: "var", content: "Originally verse 20:29." },
+      },
+      "illo mortuo in montis supercilio descendit cum Eleazaro",
+    ];
+    const findings = findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].node).toEqual(content[0]);
+    expect(findings[0].next).toEqual(content[1]);
+  });
+
+  it("should stay silent on a bare foot node already sitting in its own final, settled shape between two real, already-spaced nodes — real KJV1769 Isaiah 10:5 shape", () => {
+    const content: Content = [
+      {
+        text: " Assyrian,",
+        foot: {
+          type: "trn",
+          content: ["Or, ", { text: "woe to the Assyrian", marks: ["i"] }, ": Heb. ", { text: "Asshur", marks: ["i"] }],
+        },
+        strong: "H804",
+      },
+      { foot: { type: "trn", content: ["Heb. ", { text: "Ashur", marks: ["i"] }] } },
+      { text: " the rod", strong: "H7626" },
+    ];
+    // Node 0's own text ends in "," not whitespace, so it was never a
+    // candidate at all; node 1 is a bare foot node with a real next
+    // attachment point right after it, so it's exempt as already-settled
+    // regardless of what its own foot says.
+    expect(findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace).toEqual([]);
   });
 });
 

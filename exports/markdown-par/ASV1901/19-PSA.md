@@ -1875,7 +1875,7 @@
 <sup>11</sup> The Lord giveth the word:<br>The women that publish the tidings are a great host.<br>
 <sup>12</sup> Kings of armies flee, they flee;<br>And she that tarrieth at home divideth the spoil.<br>
 <sup>13</sup> <sup>e</sup>When ye lie among the sheepfolds,<br>_It is as_ the wings of a dove covered with silver,<br>And her pinions with yellow gold.<br>
-<sup>14</sup> When the Almighty scattered kings therein,<br>_It_ <sup>f</sup>_was as when_ it snoweth in Zalmon.<br>
+<sup>14</sup> When the Almighty scattered kings therein,<br>_It _<sup>f</sup>_was as when_ it snoweth in Zalmon.<br>
 <sup>15</sup> A mountain of God is the mountain of Bashan;<br>A <sup>g</sup>high mountain is the mountain of Bashan.<br>
 <sup>16</sup> Why look ye askance, ye high mountains,<br>At the mountain which God hath desired for his abode?<br>Yea, Jehovah will dwell _in it_ for ever.<br>
 <sup>17</sup> The chariots of God are twenty thousand, even thousands upon thousands:<br>The Lord is among them, <sup>h</sup>_as in_ Sinai, in the sanctuary.<br>

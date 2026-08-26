@@ -91,7 +91,7 @@ A revelation<sup>c</sup> of Jesus Christ,<sup>d</sup> that God gave to him, to s
 > - <sup>b</sup> 1. minister whom the assembly in Ephesus had probably sent along with messengers from six other churches to visit John in Patmos, as their representatives, to ask direction in the day of trial.
 > - <sup>c</sup> 1. where Paul laboured three years.
 > - <sup>d</sup> 6. a sect according to Irenaeus and Tertullian, called after Nicolaus, (Acts 6. 3. 5.) Very weak is the idea that Nicolaus (i.e. conqueror of the people) is equal to Balaam (i.e. swallower up of the people), and that the name is symbolic of covetous, unclean persons.
-> - <sup>e</sup> 9. _Gr._ Satan, i.e. one who shuts up “the way.”
+> - <sup>e</sup> 9. Gr. _Satan_, i.e. one who shuts up “the way.”
 > - <sup>f</sup> 10. Lit., _thruster through_
 > - <sup>g</sup> 13. Antipater
 > - <sup>h</sup> 14. Balaam (i.e. swallower up of the people), who was teaching Balak (i.e. a breaker off, destroyer)

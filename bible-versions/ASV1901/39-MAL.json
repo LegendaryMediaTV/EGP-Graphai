@@ -4,16 +4,15 @@
     "chapter": 1,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "The " },
       {
-        "paragraph": true,
-        "text": "The ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "oracle", "marks": ["i"] }]
         }
       },
+      "burden of the word of Jehovah to Israel by ",
       {
-        "text": "burden of the word of Jehovah to Israel by ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "my messenger", "marks": ["i"] }]
@@ -29,7 +28,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "I have loved you, saith Jehovah. Yet ye say, Wherein hast thou loved us? ",
+        "text": "I have loved you, saith Jehovah. Yet ye say, Wherein hast thou loved us? "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -62,8 +63,8 @@
           "content": ["Or, ", { "text": "Though Edom say", "marks": ["i"] }]
         }
       },
+      "Whereas Edom saith, We are ",
       {
-        "text": "Whereas Edom saith, We are ",
         "foot": {
           "type": "trn",
           "content": [
@@ -80,15 +81,15 @@
     "chapter": 1,
     "verse": 5,
     "content": [
+      "And your eyes shall see, and ye shall say, Jehovah ",
       {
-        "text": "And your eyes shall see, and ye shall say, Jehovah ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "is great", "marks": ["i"] }]
         }
       },
+      "be magnified ",
       {
-        "text": "be magnified ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "over", "marks": ["i"] }]
@@ -123,8 +124,8 @@
     "chapter": 1,
     "verse": 9,
     "content": [
+      "And now, I pray you, entreat the favor of God, that he may be gracious unto us: this hath been ",
       {
-        "text": "And now, I pray you, entreat the favor of God, that he may be gracious unto us: this hath been ",
         "foot": {
           "type": "trn",
           "content": [
@@ -134,8 +135,8 @@
           ]
         }
       },
+      "by your means: will he ",
       {
-        "text": "by your means: will he ",
         "foot": {
           "type": "trn",
           "content": [
@@ -162,16 +163,16 @@
     "chapter": 1,
     "verse": 11,
     "content": [
+      "For from the rising of the sun even unto the going down of the same my name ",
       {
-        "text": "For from the rising of the sun even unto the going down of the same my name ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "is", "marks": ["i"] }]
         }
       },
       { "text": "shall be", "marks": ["i"] },
+      " great among the Gentiles; and in every place ",
       {
-        "text": " great among the Gentiles; and in every place ",
         "foot": {
           "type": "trn",
           "content": [
@@ -183,16 +184,16 @@
           ]
         }
       },
+      "incense ",
       {
-        "text": "incense ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "is", "marks": ["i"] }]
         }
       },
       { "text": "shall be", "marks": ["i"] },
+      " offered unto my name, and a pure offering: for my name ",
       {
-        "text": " offered unto my name, and a pure offering: for my name ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "is", "marks": ["i"] }]
@@ -240,8 +241,8 @@
     "chapter": 2,
     "verse": 3,
     "content": [
+      "Behold, I will rebuke ",
       {
-        "text": "Behold, I will rebuke ",
         "foot": {
           "type": "trn",
           "content": [
@@ -250,8 +251,8 @@
           ]
         }
       },
+      "your seed, and will spread dung upon your faces, even the dung of your feasts; and ye shall be taken away ",
       {
-        "text": "your seed, and will spread dung upon your faces, even the dung of your feasts; and ye shall be taken away ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "unto", "marks": ["i"] }]
@@ -310,8 +311,8 @@
     "chapter": 2,
     "verse": 11,
     "content": [
+      "Judah hath dealt treacherously, and an abomination is committed in Israel and in Jerusalem; for Judah hath profaned the ",
       {
-        "text": "Judah hath dealt treacherously, and an abomination is committed in Israel and in Jerusalem; for Judah hath profaned the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
@@ -331,8 +332,8 @@
     "chapter": 2,
     "verse": 13,
     "content": [
+      "And this ",
       {
-        "text": "And this ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a second time", "marks": ["i"] }]
@@ -372,8 +373,8 @@
     "chapter": 2,
     "verse": 16,
     "content": [
+      "For ",
       {
-        "text": "For ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "he hateth", "marks": ["i"] }, "."]
@@ -398,14 +399,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Behold, I send my messenger, and he shall prepare the way before me: and the Lord, whom ye seek, will suddenly come to his temple; ",
+        "text": "Behold, I send my messenger, and he shall prepare the way before me: and the Lord, whom ye seek, will suddenly come to his temple; "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "even", "marks": ["i"] }]
         }
       },
+      "and the ",
       {
-        "text": "and the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "angel", "marks": ["i"] }]
@@ -462,8 +465,8 @@
     "chapter": 3,
     "verse": 8,
     "content": [
+      "Will a man rob God? yet ye rob me. But ye say, Wherein have we robbed thee? In tithes and ",
       {
-        "text": "Will a man rob God? yet ye rob me. But ye say, Wherein have we robbed thee? In tithes and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -518,8 +521,8 @@
     "chapter": 3,
     "verse": 14,
     "content": [
+      "Ye have said, It is vain to serve God; and what profit is it that we have kept his charge, and that we have walked ",
       {
-        "text": "Ye have said, It is vain to serve God; and what profit is it that we have kept his charge, and that we have walked ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in mourning apparel", "marks": ["i"] }]
@@ -550,8 +553,8 @@
     "content": [
       "And they shall be mine, saith Jehovah of hosts, ",
       { "text": "even", "marks": ["i"] },
+      " mine own possession, in the day that I ",
       {
-        "text": " mine own possession, in the day that I ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "do", "marks": ["i"] }, " this"]
@@ -580,8 +583,8 @@
     "chapter": 4,
     "verse": 2,
     "content": [
+      "But unto you that fear my name shall the sun of righteousness arise with healing in its ",
       {
-        "text": "But unto you that fear my name shall the sun of righteousness arise with healing in its ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "beams", "marks": ["i"] }]
@@ -595,8 +598,8 @@
     "chapter": 4,
     "verse": 3,
     "content": [
+      "And ye shall tread down the wicked; for they shall be ashes under the soles of your feet in the day that I ",
       {
-        "text": "And ye shall tread down the wicked; for they shall be ashes under the soles of your feet in the day that I ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "do", "marks": ["i"] }, " this"]
@@ -625,29 +628,29 @@
     "chapter": 4,
     "verse": 6,
     "content": [
+      "And he shall turn the heart of the fathers ",
       {
-        "text": "And he shall turn the heart of the fathers ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "with", "marks": ["i"] }]
         }
       },
+      "to the children, and the heart of the children ",
       {
-        "text": "to the children, and the heart of the children ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "with", "marks": ["i"] }]
         }
       },
+      "to their fathers; lest I come and smite the ",
       {
-        "text": "to their fathers; lest I come and smite the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "land", "marks": ["i"] }]
         }
       },
+      "earth with a ",
       {
-        "text": "earth with a ",
         "foot": {
           "type": "trn",
           "content": [

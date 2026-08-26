@@ -5419,6 +5419,7 @@
       { "text": " fool", "strong": "H191" },
       {
         "text": " shall fall.",
+        "break": true,
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "shall be beaten", "marks": ["i"] }]

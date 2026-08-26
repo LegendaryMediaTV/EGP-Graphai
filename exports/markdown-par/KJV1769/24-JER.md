@@ -594,28 +594,27 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 <sup>16</sup> Give glory to the LORD your God, before he cause darkness, and before your feet stumble upon the dark mountains, and, while ye look for light, he turn it into the shadow of death, _and_ make _it_ gross darkness.
 <sup>17</sup> But if ye will not hear it, my soul shall weep in secret places for _your_ pride; and mine eye shall weep sore, and run down with tears, because the LORD’s flock is carried away captive.
 
-<sup>18</sup> Say unto the king and to the queen, Humble yourselves, sit down: for your principalities<sup>d</sup><sup>e</sup> shall come down, _even_ the crown of your glory.
+<sup>18</sup> Say unto the king and to the queen, Humble yourselves, sit down: for your principalities<sup>d</sup> shall come down, _even_ the crown of your glory.
 <sup>19</sup> The cities of the south shall be shut up, and none shall open _them:_ Judah shall be carried away captive all of it, it shall be wholly carried away captive.
 
 ### The Leopard’s Spots
 
 <sup>20</sup> Lift up your eyes, and behold them that come from the north: where _is_ the flock _that_ was given thee, thy beautiful flock?
-<sup>21</sup> What wilt thou say when he shall punish<sup>f</sup> thee? for thou hast taught them _to be_ captains, _and_ as chief over thee: shall not sorrows take thee, as a woman in travail?
+<sup>21</sup> What wilt thou say when he shall punish<sup>e</sup> thee? for thou hast taught them _to be_ captains, _and_ as chief over thee: shall not sorrows take thee, as a woman in travail?
 <sup>22</sup> And if thou say in thine heart, Wherefore come these things upon me? For the greatness of thine iniquity are thy skirts discovered, _and_ thy heels made bare.
-<sup>23</sup> Can the Ethiopian change his skin, or the leopard his spots? _then_ may ye also do good, that are accustomed<sup>g</sup> to do evil.
+<sup>23</sup> Can the Ethiopian change his skin, or the leopard his spots? _then_ may ye also do good, that are accustomed<sup>f</sup> to do evil.
 <sup>24</sup> Therefore will I scatter them as the stubble that passeth away by the wind of the wilderness.
 <sup>25</sup> This _is_ thy lot, the portion of thy measures from me, saith the LORD; because thou hast forgotten me, and trusted in falsehood.
 <sup>26</sup> Therefore will I discover thy skirts upon thy face, that thy shame may appear.
-<sup>27</sup> I have seen thine adulteries, and thy neighings, the lewdness of thy whoredom, _and_ thine abominations on the hills in the fields. Woe unto thee, O Jerusalem! wilt thou not be made clean? when _shall it_ once _be?_<sup>h</sup>
+<sup>27</sup> I have seen thine adulteries, and thy neighings, the lewdness of thy whoredom, _and_ thine abominations on the hills in the fields. Woe unto thee, O Jerusalem! wilt thou not be made clean? when _shall it_ once _be?_<sup>g</sup>
 
 > - <sup>a</sup> 10. Or, _stubbornness_
 > - <sup>b</sup> 14. Heb. _a man against his brother_
 > - <sup>c</sup> 14. Heb. _from destroying them_
 > - <sup>d</sup> 18. Or, _head tires_
-> - <sup>e</sup> 18. Or, _head tires_
-> - <sup>f</sup> 21. _Heb visit upon’_
-> - <sup>g</sup> 23. Heb. _taught_
-> - <sup>h</sup> 27. Heb. _after when yet?_
+> - <sup>e</sup> 21. _Heb visit upon’_
+> - <sup>f</sup> 23. Heb. _taught_
+> - <sup>g</sup> 27. Heb. _after when yet?_
 
 ## Chapter 14
 

@@ -266,7 +266,7 @@
 Now it was the sabbath on that day.
 <sup>10</sup> So the Jews said unto him that was cured, It is the sabbath, and it is not lawful for thee to take up thy <sup>g</sup>bed.
 <sup>11</sup> But he answered them, He that made me whole, the same said unto me, Take up thy <sup>h</sup>bed, and walk.
-<sup>12</sup> They asked him, Who is the man that said unto thee, Take up _thy_ <sup>i</sup>_bed_, and walk?
+<sup>12</sup> They asked him, Who is the man that said unto thee, Take up _thy _<sup>i</sup>_bed_, and walk?
 <sup>13</sup> But he that was healed knew not who it was; for Jesus had conveyed himself away, a multitude being in the place.
 <sup>14</sup> Afterward Jesus findeth him in the temple, and said unto him, Behold, thou art made whole: sin no more, lest a worse thing befall thee.
 <sup>15</sup> The man went away, and told the Jews that it was Jesus who had made him whole.

@@ -6,7 +6,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Paul, a prisoner of Christ Jesus, and Timothy ",
+        "text": "Paul, a prisoner of Christ Jesus, and Timothy "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "the brother", "marks": ["i"] }, "."]
@@ -20,8 +22,8 @@
     "chapter": 1,
     "verse": 2,
     "content": [
+      "and to Apphia ",
       {
-        "text": "and to Apphia ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "the sister", "marks": ["i"] }, "."]
@@ -53,8 +55,8 @@
     "chapter": 1,
     "verse": 5,
     "content": [
+      "hearing of ",
       {
-        "text": "hearing of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "thy love and faith", "marks": ["i"] }]
@@ -68,8 +70,8 @@
     "chapter": 1,
     "verse": 6,
     "content": [
+      "that the fellowship of thy faith may become effectual, in the knowledge of every good thing which is in ",
       {
-        "text": "that the fellowship of thy faith may become effectual, in the knowledge of every good thing which is in ",
         "foot": {
           "type": "var",
           "content": [
@@ -102,8 +104,8 @@
     "chapter": 1,
     "verse": 9,
     "content": [
+      "yet for love’s sake I rather beseech, being such a one as Paul ",
       {
-        "text": "yet for love’s sake I rather beseech, being such a one as Paul ",
         "foot": {
           "type": "trn",
           "content": [
@@ -120,8 +122,8 @@
     "chapter": 1,
     "verse": 10,
     "content": [
+      "I beseech thee for my child, whom I have begotten in my bonds, ",
       {
-        "text": "I beseech thee for my child, whom I have begotten in my bonds, ",
         "foot": {
           "type": "stu",
           "content": [
@@ -153,8 +155,8 @@
     "chapter": 1,
     "verse": 13,
     "content": [
+      "whom I would fain have kept with me, that in thy behalf he might minister unto me in the bonds of the ",
       {
-        "text": "whom I would fain have kept with me, that in thy behalf he might minister unto me in the bonds of the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -190,15 +192,15 @@
     "chapter": 1,
     "verse": 16,
     "content": [
+      "no longer as a ",
       {
-        "text": "no longer as a ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
         }
       },
+      "servant, but more than a ",
       {
-        "text": "servant, but more than a ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
@@ -234,8 +236,8 @@
     "chapter": 1,
     "verse": 20,
     "content": [
+      "Yea, brother, let me have ",
       {
-        "text": "Yea, brother, let me have ",
         "foot": {
           "type": "trn",
           "content": [
@@ -288,9 +290,8 @@
     "chapter": 1,
     "verse": 25,
     "content": [
+      { "paragraph": true, "text": "The grace of " },
       {
-        "paragraph": true,
-        "text": "The grace of ",
         "foot": {
           "type": "var",
           "content": [
@@ -300,8 +301,8 @@
           ]
         }
       },
+      "our Lord Jesus Christ be with your spirit. ",
       {
-        "text": "our Lord Jesus Christ be with your spirit. ",
         "foot": {
           "type": "var",
           "content": [

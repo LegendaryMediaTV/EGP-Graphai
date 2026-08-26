@@ -17,12 +17,10 @@ function expectWellFormedEmphasis(markdown: string): void {
     expect(match[1]).not.toMatch(/^\s|\s$|^$/);
   }
 
-  // An unescaped underscore or asterisk here would be read as this format's
-  // own emphasis delimiter rather than the literal character it is. Italic
-  // always emits underscores in matched pairs, so an odd unescaped-underscore
-  // count means one escaped incorrectly; bold always uses "**", never a lone
-  // "*", so any asterisk left after removing real "**...**" spans is
-  // unescaped source text.
+  // Italic always emits underscores in matched pairs, so an odd
+  // unescaped-underscore count means one escaped incorrectly; bold always
+  // uses "**", never a lone "*", so any asterisk left after removing real
+  // "**...**" spans is unescaped source text.
   const unescapedUnderscores = (markdown.match(/(?<!\\)_/g) || []).length;
   expect(unescapedUnderscores % 2).toBe(0);
   const withoutBoldSpans = markdown.replace(/\*\*.*?\*\*/g, "");
@@ -961,6 +959,42 @@ describe("exportContent", () => {
         );
         expect(result).not.toMatch(/° \{/);
         expect(result).toMatch(/°\{/);
+      });
+
+      it("should render a standalone bare foot node glued to the next word, matching the combined-shape render exactly (CLV1880 NUM 20:28, post-fix shape)", () => {
+        const verse: VerseSchema = {
+          book: "NUM",
+          chapter: 20,
+          verse: 28,
+          content: [
+            { text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius " },
+            { foot: { type: "var", content: "Originally verse 20:29." } },
+            "illo mortuo in montis supercilio descendit cum Eleazaro",
+          ],
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toBe(
+          "020:028 cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius °{Originally verse 20:29.}illo mortuo in montis supercilio descendit cum Eleazaro"
+        );
+        expect(result).not.toMatch(/°\{Originally verse 20:29\.\} illo/);
+      });
+
+      it("should render the identical standalone-node shape correctly for a non-CLV, non-versification footnote too — real ASV1901 Genesis 1:2 shape, once check 12's own fixer extracts it (proves the render path is general, not tied to CLV1880's own content signature)", () => {
+        const verse: VerseSchema = {
+          book: "GEN",
+          chapter: 1,
+          verse: 2,
+          content: [
+            {
+              text: "And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God ",
+            },
+            { foot: { type: "trn", content: ["Or, ", { text: "was brooding upon", marks: ["i"] }] } },
+            "moved upon the face of the waters.",
+          ],
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toContain("God °{Or, was brooding upon}moved upon the face of the waters.");
+        expect(result).not.toContain("God °{Or, was brooding upon} moved");
       });
 
       it("should have no space between footnote marker and content for textless footnote at start (CLV1880 NUM 20:29 style)", () => {
@@ -2142,11 +2176,8 @@ describe("exportContent", () => {
 
   describe("a shared mark stays open across a neighbor that only drops the OTHER mark (independent nested 'b'/'i' delimiters, not whole-mark-set equality)", () => {
     describe("real Matthew 1:23 shape (Isaiah 7:14 quotation: bold+italic throughout except 'they', a supplied word carrying italic only)", () => {
-      // Representative of a real corpus shape: a Scripture quotation
-      // rendered bold+italic throughout except for one supplied/implied word
-      // carrying italic only; the real footnote's own long body text is
-      // abbreviated here for readability (its length isn't what this
-      // fixture is testing).
+      // The real footnote's own long body text is abbreviated here for
+      // readability — its length isn't what this fixture is testing.
       const matthew123Quotation: VerseSchema["content"] = [
         "“",
         { text: "Look", marks: ["b", "i"], strong: "G2400" },
@@ -2199,10 +2230,8 @@ describe("exportContent", () => {
     });
 
     describe("real Romans 4:9 shape (Genesis 15:6 quotation: bold toggles off only for 'faith' and 'Abraham', italic spans the whole thing)", () => {
-      // Representative of a real corpus shape: a Scripture quotation with
-      // italic spanning the whole thing while bold independently toggles
-      // off for two individual words; the real footnote's own body text is
-      // abbreviated here for readability.
+      // The real footnote's own body text is abbreviated here for
+      // readability.
       const romans49Quotation: VerseSchema["content"] = [
         ", “",
         { text: "faith", marks: ["i"], strong: "G4102" },

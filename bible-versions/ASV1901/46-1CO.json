@@ -6,8 +6,8 @@
     "content": [
       { "paragraph": true, "text": "Paul, called " },
       { "text": "to be", "marks": ["i"] },
+      " an apostle of Jesus Christ through the will of God, and Sosthenes ",
       {
-        "text": " an apostle of Jesus Christ through the will of God, and Sosthenes ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "the brother", "marks": ["i"] }, "."]
@@ -41,9 +41,8 @@
     "chapter": 1,
     "verse": 4,
     "content": [
+      { "paragraph": true, "text": "I thank " },
       {
-        "paragraph": true,
-        "text": "I thank ",
         "foot": {
           "type": "var",
           "content": [
@@ -61,8 +60,8 @@
     "chapter": 1,
     "verse": 5,
     "content": [
+      "that in everything ye were enriched in him, in all ",
       {
-        "text": "that in everything ye were enriched in him, in all ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "word", "marks": ["i"] }, "."]
@@ -112,8 +111,8 @@
         "text": "Now I beseech you, brethren, through the name of our Lord Jesus Christ, that ye all speak the same thing, and "
       },
       { "text": "that", "marks": ["i"] },
+      " there be no ",
       {
-        "text": " there be no ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "schisms", "marks": ["i"] }, "."]
@@ -195,8 +194,8 @@
     "chapter": 1,
     "verse": 17,
     "content": [
+      "For Christ sent me not to baptize, but to ",
       {
-        "text": "For Christ sent me not to baptize, but to ",
         "foot": {
           "type": "trn",
           "content": [
@@ -218,14 +217,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "For the word of the cross is to them that ",
+        "text": "For the word of the cross is to them that "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "are perishing", "marks": ["i"] }]
         }
       },
+      "perish foolishness; but unto us who ",
       {
-        "text": "perish foolishness; but unto us who ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "are being saved", "marks": ["i"] }]
@@ -264,7 +265,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Where is the wise? where is the scribe? where is the disputer of this ",
+        "text": "Where is the wise? where is the scribe? where is the disputer of this "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "age", "marks": ["i"] }]
@@ -278,8 +281,8 @@
     "chapter": 1,
     "verse": 21,
     "content": [
+      "For seeing that in the wisdom of God the world through its wisdom knew not God, it was God’s good pleasure through the foolishness of the ",
       {
-        "text": "For seeing that in the wisdom of God the world through its wisdom knew not God, it was God’s good pleasure through the foolishness of the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -303,8 +306,8 @@
     "chapter": 1,
     "verse": 23,
     "content": [
+      "but we preach ",
       {
-        "text": "but we preach ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a Messiah", "marks": ["i"] }]
@@ -318,8 +321,8 @@
     "chapter": 1,
     "verse": 24,
     "content": [
+      "but unto ",
       {
-        "text": "but unto ",
         "foot": {
           "type": "trn",
           "content": [
@@ -343,9 +346,8 @@
     "chapter": 1,
     "verse": 26,
     "content": [
+      { "paragraph": true, "text": "For " },
       {
-        "paragraph": true,
-        "text": "For ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "ye behold", "marks": ["i"] }]
@@ -394,8 +396,8 @@
     "chapter": 1,
     "verse": 30,
     "content": [
+      "But of him are ye in Christ Jesus, who was made unto us wisdom from God, ",
       {
-        "text": "But of him are ye in Christ Jesus, who was made unto us wisdom from God, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -415,8 +417,8 @@
     "chapter": 1,
     "verse": 31,
     "content": [
+      "that, according as it is written, ",
       {
-        "text": "that, according as it is written, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -435,14 +437,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And I, brethren, when I came unto you, came not with excellency of ",
+        "text": "And I, brethren, when I came unto you, came not with excellency of "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "word", "marks": ["i"] }]
         }
       },
+      "speech or of wisdom, proclaiming to you the ",
       {
-        "text": "speech or of wisdom, proclaiming to you the ",
         "foot": {
           "type": "var",
           "content": [
@@ -472,15 +476,15 @@
     "chapter": 2,
     "verse": 4,
     "content": [
+      "And my ",
       {
-        "text": "And my ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "word", "marks": ["i"] }]
         }
       },
+      "speech and my ",
       {
-        "text": "speech and my ",
         "foot": {
           "type": "trn",
           "content": [
@@ -498,8 +502,8 @@
     "chapter": 2,
     "verse": 5,
     "content": [
+      "that your faith should not ",
       {
-        "text": "that your faith should not ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "be", "marks": ["i"] }, "."]
@@ -515,7 +519,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "We speak wisdom, however, among them that are fullgrown: yet a wisdom not of this ",
+        "text": "We speak wisdom, however, among them that are fullgrown: yet a wisdom not of this "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -531,8 +537,8 @@
           ]
         }
       },
+      "world, nor of the rulers of this ",
       {
-        "text": "world, nor of the rulers of this ",
         "foot": {
           "type": "trn",
           "content": [
@@ -560,8 +566,8 @@
       { "text": "even", "marks": ["i"] },
       " the ",
       { "text": "wisdom", "marks": ["i"] },
+      " that hath been hidden, which God foreordained before the ",
       {
-        "text": " that hath been hidden, which God foreordained before the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "age", "marks": ["i"] }]
@@ -575,8 +581,8 @@
     "chapter": 2,
     "verse": 8,
     "content": [
+      "which none of the rulers of this ",
       {
-        "text": "which none of the rulers of this ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "age", "marks": ["i"] }]
@@ -629,10 +635,8 @@
           ]
         }
       },
-      {
-        "text": "But unto us God revealed ",
-        "foot": { "type": "trn", "content": "Or, it" }
-      },
+      "But unto us God revealed ",
+      { "foot": { "type": "trn", "content": "Or, it" } },
       { "text": "them", "marks": ["i"] },
       " through the Spirit: for the Spirit searcheth all things, yea, the deep things of God."
     ]
@@ -648,8 +652,8 @@
     "chapter": 2,
     "verse": 12,
     "content": [
+      "But we received, not the spirit of the ",
       {
-        "text": "But we received, not the spirit of the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -667,8 +671,8 @@
     "chapter": 2,
     "verse": 13,
     "content": [
+      "Which things also we speak, not in words which man’s wisdom teacheth, but which the Spirit teacheth; ",
       {
-        "text": "Which things also we speak, not in words which man’s wisdom teacheth, but which the Spirit teacheth; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -691,8 +695,8 @@
     "chapter": 2,
     "verse": 14,
     "content": [
+      "Now the ",
       {
-        "text": "Now the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -704,8 +708,8 @@
           ]
         }
       },
+      "natural man receiveth not the things of the Spirit of God: for they are foolishness unto him; and he cannot know them, because they are spiritually ",
       {
-        "text": "natural man receiveth not the things of the Spirit of God: for they are foolishness unto him; and he cannot know them, because they are spiritually ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "examined", "marks": ["i"] }]
@@ -719,15 +723,15 @@
     "chapter": 2,
     "verse": 15,
     "content": [
+      "But he that is spiritual ",
       {
-        "text": "But he that is spiritual ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "examineth", "marks": ["i"] }]
         }
       },
+      "judgeth all things, and he himself is ",
       {
-        "text": "judgeth all things, and he himself is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "examined", "marks": ["i"] }]
@@ -802,8 +806,8 @@
     "chapter": 3,
     "verse": 9,
     "content": [
+      "For we are God’s fellow-workers: ye are God’s ",
       {
-        "text": "For we are God’s fellow-workers: ye are God’s ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "tilled land", "marks": ["i"] }, "."]
@@ -838,8 +842,8 @@
     "chapter": 3,
     "verse": 13,
     "content": [
+      "each man’s work shall be made manifest: for the day shall declare it, because it is revealed in fire; ",
       {
-        "text": "each man’s work shall be made manifest: for the day shall declare it, because it is revealed in fire; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -871,9 +875,8 @@
     "chapter": 3,
     "verse": 16,
     "content": [
+      { "paragraph": true, "text": "Know ye not that ye are a " },
       {
-        "paragraph": true,
-        "text": "Know ye not that ye are a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
@@ -889,22 +892,22 @@
     "chapter": 3,
     "verse": 17,
     "content": [
+      "If any man destroyeth the ",
       {
-        "text": "If any man destroyeth the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
         }
       },
+      "temple of God, him shall God destroy; for the ",
       {
-        "text": "temple of God, him shall God destroy; for the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
         }
       },
+      "temple of God is holy, ",
       {
-        "text": "temple of God is holy, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -925,7 +928,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Let no man deceive himself. If any man thinketh that he is wise among you in this ",
+        "text": "Let no man deceive himself. If any man thinketh that he is wise among you in this "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "age", "marks": ["i"] }]
@@ -939,8 +944,8 @@
     "chapter": 3,
     "verse": 19,
     "content": [
+      "For the wisdom of this world is foolishness with God. For it is written, ",
       {
-        "text": "For the wisdom of this world is foolishness with God. For it is written, ",
         "foot": { "type": "xrf", "content": [{ "bibleLink": "Job 5:13" }, "."] }
       },
       "He that taketh the wise in their craftiness:"
@@ -951,8 +956,8 @@
     "chapter": 3,
     "verse": 20,
     "content": [
+      "and again, ",
       {
-        "text": "and again, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -1002,15 +1007,15 @@
     "chapter": 4,
     "verse": 3,
     "content": [
+      "But with me it is a very small thing that I should be ",
       {
-        "text": "But with me it is a very small thing that I should be ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "examined", "marks": ["i"] }]
         }
       },
+      "judged of you, or of man’s ",
       {
-        "text": "judged of you, or of man’s ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1022,8 +1027,8 @@
           ]
         }
       },
+      "judgment: yea, I ",
       {
-        "text": "judgment: yea, I ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "examine", "marks": ["i"] }]
@@ -1037,8 +1042,8 @@
     "chapter": 4,
     "verse": 4,
     "content": [
+      "For I know nothing against myself; yet am I not hereby justified: but he that ",
       {
-        "text": "For I know nothing against myself; yet am I not hereby justified: but he that ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "examineth", "marks": ["i"] }]
@@ -1083,8 +1088,8 @@
     "chapter": 4,
     "verse": 9,
     "content": [
+      "For, I think, God hath set forth us the apostles last of all, as men doomed to death: for we are made a spectacle unto the world, ",
       {
-        "text": "For, I think, God hath set forth us the apostles last of all, as men doomed to death: for we are made a spectacle unto the world, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1120,8 +1125,8 @@
     "chapter": 4,
     "verse": 13,
     "content": [
+      "being defamed, we entreat: we are made as the ",
       {
-        "text": "being defamed, we entreat: we are made as the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "refuse", "marks": ["i"] }]
@@ -1146,8 +1151,8 @@
     "content": [
       "For though ye have ten thousand tutors in Christ, yet ",
       { "text": "have ye", "marks": ["i"] },
+      " not many fathers; for in Christ Jesus I begat you through the ",
       {
-        "text": " not many fathers; for in Christ Jesus I begat you through the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1219,15 +1224,15 @@
     "chapter": 5,
     "verse": 2,
     "content": [
+      "And ",
       {
-        "text": "And ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "are ye puffed up?", "marks": ["i"] }]
         }
       },
+      "ye are puffed up, and ",
       {
-        "text": "ye are puffed up, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1256,8 +1261,8 @@
     "chapter": 5,
     "verse": 5,
     "content": [
+      "to deliver such a one unto Satan for the destruction of the flesh, that the spirit may be saved in the day of the Lord ",
       {
-        "text": "to deliver such a one unto Satan for the destruction of the flesh, that the spirit may be saved in the day of the Lord ",
         "foot": {
           "type": "var",
           "content": [
@@ -1291,8 +1296,8 @@
     "chapter": 5,
     "verse": 8,
     "content": [
+      "wherefore let us ",
       {
-        "text": "wherefore let us ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1341,8 +1346,8 @@
     "chapter": 5,
     "verse": 11,
     "content": [
+      "but ",
       {
-        "text": "but ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "now I write", "marks": ["i"] }]
@@ -1370,7 +1375,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Dare any of you, having a matter against ",
+        "text": "Dare any of you, having a matter against "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -1390,8 +1397,8 @@
     "chapter": 6,
     "verse": 2,
     "content": [
+      "Or know ye not that the saints shall judge the world? and if the world is judged by you, are ye unworthy ",
       {
-        "text": "Or know ye not that the saints shall judge the world? and if the world is judged by you, are ye unworthy ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1415,8 +1422,8 @@
     "chapter": 6,
     "verse": 4,
     "content": [
+      "If then ye have ",
       {
-        "text": "If then ye have ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1426,8 +1433,8 @@
           ]
         }
       },
+      "to judge things pertaining to this life, ",
       {
-        "text": "to judge things pertaining to this life, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "set them … church", "marks": ["i"] }]
@@ -1443,8 +1450,8 @@
     "content": [
       "I say ",
       { "text": "this", "marks": ["i"] },
+      " to move you to shame. ",
       {
-        "text": " to move you to shame. ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1469,8 +1476,8 @@
     "chapter": 6,
     "verse": 7,
     "content": [
+      "Nay, already it is altogether ",
       {
-        "text": "Nay, already it is altogether ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a loss to you", "marks": ["i"] }]
@@ -1506,8 +1513,8 @@
     "chapter": 6,
     "verse": 11,
     "content": [
+      "And such were some of you: but ye ",
       {
-        "text": "And such were some of you: but ye ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1552,8 +1559,8 @@
     "chapter": 6,
     "verse": 16,
     "content": [
+      "Or know ye not that he that is joined to a harlot is one body? for, ",
       {
-        "text": "Or know ye not that he that is joined to a harlot is one body? for, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -1582,8 +1589,8 @@
     "chapter": 6,
     "verse": 19,
     "content": [
+      "Or know ye not that your body is a ",
       {
-        "text": "Or know ye not that your body is a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
@@ -1714,8 +1721,8 @@
     "content": [
       "Yet if the unbelieving departeth, let him depart: the brother or the sister is not under bondage in such ",
       { "text": "cases", "marks": ["i"] },
+      ": but God hath called ",
       {
-        "text": ": but God hath called ",
         "foot": {
           "type": "var",
           "content": [
@@ -1763,8 +1770,8 @@
     "chapter": 7,
     "verse": 21,
     "content": [
+      "Wast thou called being a bondservant? care not for it: ",
       {
-        "text": "Wast thou called being a bondservant? care not for it: ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "but if", "marks": ["i"] }]
@@ -1809,8 +1816,8 @@
     "content": [
       "I think therefore that this is good by reason of the distress that is upon us, ",
       { "text": "namely", "marks": ["i"] },
+      ", that it is good for a man ",
       {
-        "text": ", that it is good for a man ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "so to be", "marks": ["i"] }, "."]
@@ -1836,8 +1843,8 @@
     "chapter": 7,
     "verse": 29,
     "content": [
+      "But this I say, brethren, the time ",
       {
-        "text": "But this I say, brethren, the time ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1875,8 +1882,8 @@
     "chapter": 7,
     "verse": 33,
     "content": [
+      "but he that is married is careful for the things of the world, how he may please his ",
       {
-        "text": "but he that is married is careful for the things of the world, how he may please his ",
         "foot": {
           "type": "var",
           "content": [
@@ -1906,8 +1913,8 @@
     "chapter": 7,
     "verse": 35,
     "content": [
+      "And this I say for your own profit; not that I may cast a ",
       {
-        "text": "And this I say for your own profit; not that I may cast a ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1927,8 +1934,8 @@
     "chapter": 7,
     "verse": 36,
     "content": [
+      "But if any man thinketh that he behaveth himself unseemly toward his ",
       {
-        "text": "But if any man thinketh that he behaveth himself unseemly toward his ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1948,8 +1955,8 @@
     "chapter": 7,
     "verse": 37,
     "content": [
+      "But he that standeth stedfast in his heart, having no necessity, but hath power as touching his own will, and hath determined this in his own heart, to keep his own ",
       {
-        "text": "But he that standeth stedfast in his heart, having no necessity, but hath power as touching his own will, and hath determined this in his own heart, to keep his own ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1969,8 +1976,8 @@
     "chapter": 7,
     "verse": 38,
     "content": [
+      "So then both he that giveth his own ",
       {
-        "text": "So then both he that giveth his own ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1990,8 +1997,8 @@
     "chapter": 7,
     "verse": 39,
     "content": [
+      "A wife is bound for so long time as her husband liveth; but if the husband be ",
       {
-        "text": "A wife is bound for so long time as her husband liveth; but if the husband be ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2022,7 +2029,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Now concerning things sacrificed to idols: We know that we all have knowledge. Knowledge puffeth up, but love ",
+        "text": "Now concerning things sacrificed to idols: We know that we all have knowledge. Knowledge puffeth up, but love "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "buildeth up", "marks": ["i"] }, "."]
@@ -2080,22 +2089,22 @@
     "chapter": 8,
     "verse": 8,
     "content": [
+      "But food will not ",
       {
-        "text": "But food will not ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "present", "marks": ["i"] }, "."]
         }
       },
+      "commend us to God: neither, if we eat not, ",
       {
-        "text": "commend us to God: neither, if we eat not, ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "do we lack", "marks": ["i"] }, "."]
         }
       },
+      "are we the worse; nor, if we eat, ",
       {
-        "text": "are we the worse; nor, if we eat, ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "do we abound", "marks": ["i"] }, "."]
@@ -2109,8 +2118,8 @@
     "chapter": 8,
     "verse": 9,
     "content": [
+      "But take heed lest by any means this ",
       {
-        "text": "But take heed lest by any means this ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "power", "marks": ["i"] }]
@@ -2124,8 +2133,8 @@
     "chapter": 8,
     "verse": 10,
     "content": [
+      "For if a man see thee who hast knowledge sitting at meat in an idol’s temple, will not his conscience, if he is weak, ",
       {
-        "text": "For if a man see thee who hast knowledge sitting at meat in an idol’s temple, will not his conscience, if he is weak, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2143,8 +2152,8 @@
     "chapter": 8,
     "verse": 11,
     "content": [
+      "For ",
       {
-        "text": "For ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "in", "marks": ["i"] }, "."]
@@ -2197,8 +2206,8 @@
     "chapter": 9,
     "verse": 5,
     "content": [
+      "Have we no right to lead about a wife that is a ",
       {
-        "text": "Have we no right to lead about a wife that is a ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "sister", "marks": ["i"] }, "."]
@@ -2230,8 +2239,8 @@
     "chapter": 9,
     "verse": 9,
     "content": [
+      "For it is written in the law of Moses, ",
       {
-        "text": "For it is written in the law of Moses, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2248,8 +2257,8 @@
     "chapter": 9,
     "verse": 10,
     "content": [
+      "or saith he it ",
       {
-        "text": "or saith he it ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "altogether", "marks": ["i"] }]
@@ -2273,8 +2282,8 @@
     "content": [
       "If others partake of ",
       { "text": "this", "marks": ["i"] },
+      " right over you, do not we yet more? Nevertheless we did not use this right; but we bear all things, that we may cause no hindrance to the ",
       {
-        "text": " right over you, do not we yet more? Nevertheless we did not use this right; but we bear all things, that we may cause no hindrance to the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2304,8 +2313,8 @@
     "chapter": 9,
     "verse": 14,
     "content": [
+      "Even so did the Lord ordain that they that proclaim the ",
       {
-        "text": "Even so did the Lord ordain that they that proclaim the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2315,8 +2324,8 @@
           ]
         }
       },
+      "gospel should live of the ",
       {
-        "text": "gospel should live of the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2344,8 +2353,8 @@
     "chapter": 9,
     "verse": 16,
     "content": [
+      "For if I ",
       {
-        "text": "For if I ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2355,8 +2364,8 @@
           ]
         }
       },
+      "preach the gospel, I have nothing to glory of; for necessity is laid upon me; for woe is unto me, if I ",
       {
-        "text": "preach the gospel, I have nothing to glory of; for necessity is laid upon me; for woe is unto me, if I ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2380,8 +2389,8 @@
     "chapter": 9,
     "verse": 18,
     "content": [
+      "What then is my reward? That, when I ",
       {
-        "text": "What then is my reward? That, when I ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2391,8 +2400,8 @@
           ]
         }
       },
+      "preach the gospel, I may make the ",
       {
-        "text": "preach the gospel, I may make the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2402,8 +2411,8 @@
           ]
         }
       },
+      "gospel without charge, so as not to use to the full my right in the ",
       {
-        "text": "gospel without charge, so as not to use to the full my right in the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2449,8 +2458,8 @@
     "chapter": 9,
     "verse": 23,
     "content": [
+      "And I do all things for the ",
       {
-        "text": "And I do all things for the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2468,8 +2477,8 @@
     "chapter": 9,
     "verse": 24,
     "content": [
+      "Know ye not that they that run in a ",
       {
-        "text": "Know ye not that they that run in a ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "race-course", "marks": ["i"] }, "."]
@@ -2493,8 +2502,8 @@
     "chapter": 9,
     "verse": 26,
     "content": [
+      "I therefore so run, as not uncertainly; so ",
       {
-        "text": "I therefore so run, as not uncertainly; so ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "box", "marks": ["i"] }, "."]
@@ -2508,8 +2517,8 @@
     "chapter": 9,
     "verse": 27,
     "content": [
+      "but I ",
       {
-        "text": "but I ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2521,8 +2530,8 @@
           ]
         }
       },
+      "buffet my body, and bring it into bondage: lest by any means, after that I ",
       {
-        "text": "buffet my body, and bring it into bondage: lest by any means, after that I ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "have been a herald", "marks": ["i"] }]
@@ -2545,8 +2554,8 @@
     "chapter": 10,
     "verse": 2,
     "content": [
+      "and were all baptized ",
       {
-        "text": "and were all baptized ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "into", "marks": ["i"] }, "."]
@@ -2566,8 +2575,8 @@
     "chapter": 10,
     "verse": 4,
     "content": [
+      "and did all drink the same spiritual drink: for they drank of a spiritual rock that followed them: and the rock was ",
       {
-        "text": "and did all drink the same spiritual drink: for they drank of a spiritual rock that followed them: and the rock was ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2593,8 +2602,8 @@
     "chapter": 10,
     "verse": 6,
     "content": [
+      "Now ",
       {
-        "text": "Now ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2614,8 +2623,8 @@
     "chapter": 10,
     "verse": 7,
     "content": [
+      "Neither be ye idolaters, as were some of them; as it is written, ",
       {
-        "text": "Neither be ye idolaters, as were some of them; as it is written, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2638,8 +2647,8 @@
     "chapter": 10,
     "verse": 9,
     "content": [
+      "Neither let us make trial of the ",
       {
-        "text": "Neither let us make trial of the ",
         "foot": {
           "type": "var",
           "content": [
@@ -2663,8 +2672,8 @@
     "chapter": 10,
     "verse": 11,
     "content": [
+      "Now these things happened unto them ",
       {
-        "text": "Now these things happened unto them ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2709,22 +2718,22 @@
     "chapter": 10,
     "verse": 16,
     "content": [
+      "The cup of blessing which we bless, is it not a ",
       {
-        "text": "The cup of blessing which we bless, is it not a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "participation in", "marks": ["i"] }]
         }
       },
+      "communion of the blood of Christ? The ",
       {
-        "text": "communion of the blood of Christ? The ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "loaf", "marks": ["i"] }]
         }
       },
+      "bread which we break, is it not a ",
       {
-        "text": "bread which we break, is it not a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "participation in", "marks": ["i"] }]
@@ -2750,22 +2759,22 @@
           ]
         }
       },
+      "seeing that we, who are many, are one ",
       {
-        "text": "seeing that we, who are many, are one ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "loaf", "marks": ["i"] }]
         }
       },
+      "bread, one body: for we all partake ",
       {
-        "text": "bread, one body: for we all partake ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
         }
       },
+      "of the one ",
       {
-        "text": "of the one ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "loaf", "marks": ["i"] }]
@@ -2815,7 +2824,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "All things are lawful; but not all things are expedient. All things are lawful; but not all things ",
+        "text": "All things are lawful; but not all things are expedient. All things are lawful; but not all things "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "build up", "marks": ["i"] }, "."]
@@ -3010,8 +3021,8 @@
     "chapter": 11,
     "verse": 13,
     "content": [
+      "Judge ye ",
       {
-        "text": "Judge ye ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "among", "marks": ["i"] }]
@@ -3052,15 +3063,15 @@
     "chapter": 11,
     "verse": 18,
     "content": [
+      "For first of all, when ye come together ",
       {
-        "text": "For first of all, when ye come together ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in congregation", "marks": ["i"] }]
         }
       },
+      "in the church, I hear that ",
       {
-        "text": "in the church, I hear that ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "schisms", "marks": ["i"] }, "."]
@@ -3074,8 +3085,8 @@
     "chapter": 11,
     "verse": 19,
     "content": [
+      "For there must be also ",
       {
-        "text": "For there must be also ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "heresies", "marks": ["i"] }, "."]
@@ -3105,22 +3116,22 @@
     "chapter": 11,
     "verse": 22,
     "content": [
+      "What, have ye not houses to eat and to drink in? or despise ye the ",
       {
-        "text": "What, have ye not houses to eat and to drink in? or despise ye the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "congregation", "marks": ["i"] }]
         }
       },
+      "church of God, and put them to shame that ",
       {
-        "text": "church of God, and put them to shame that ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "having nothing", "marks": ["i"] }]
         }
       },
+      "have not? What shall I say to you? ",
       {
-        "text": "have not? What shall I say to you? ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3141,8 +3152,8 @@
     "chapter": 11,
     "verse": 23,
     "content": [
+      "For I received of the Lord that which also I delivered unto you, that the Lord Jesus in the night in which he was ",
       {
-        "text": "For I received of the Lord that which also I delivered unto you, that the Lord Jesus in the night in which he was ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "delivered up", "marks": ["i"] }]
@@ -3156,8 +3167,8 @@
     "chapter": 11,
     "verse": 24,
     "content": [
+      "and when he had given thanks, he brake it, and said, This is my body, which ",
       {
-        "text": "and when he had given thanks, he brake it, and said, This is my body, which ",
         "foot": {
           "type": "var",
           "content": [
@@ -3203,8 +3214,8 @@
     "chapter": 11,
     "verse": 29,
     "content": [
+      "For he that eateth and drinketh, eateth and drinketh judgment unto himself, if he ",
       {
-        "text": "For he that eateth and drinketh, eateth and drinketh judgment unto himself, if he ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "discriminate", "marks": ["i"] }, "."]
@@ -3224,8 +3235,8 @@
     "chapter": 11,
     "verse": 31,
     "content": [
+      "But if we ",
       {
-        "text": "But if we ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3243,8 +3254,8 @@
     "chapter": 11,
     "verse": 32,
     "content": [
+      "But ",
       {
-        "text": "But ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3344,8 +3355,8 @@
     "chapter": 12,
     "verse": 10,
     "content": [
+      "and to another workings of ",
       {
-        "text": "and to another workings of ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "powers", "marks": ["i"] }, "."]
@@ -3438,8 +3449,8 @@
     "content": [
       "and those ",
       { "text": "parts", "marks": ["i"] },
+      " of the body, which we think to be less honorable, upon these we ",
       {
-        "text": " of the body, which we think to be less honorable, upon these we ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "put on", "marks": ["i"] }]
@@ -3479,8 +3490,8 @@
     "content": [
       "And whether one member suffereth, all the members suffer with it; or ",
       { "text": "one", "marks": ["i"] },
+      " member is ",
       {
-        "text": " member is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "glorified", "marks": ["i"] }]
@@ -3494,8 +3505,8 @@
     "chapter": 12,
     "verse": 27,
     "content": [
+      "Now ye are the body of Christ, and ",
       {
-        "text": "Now ye are the body of Christ, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3512,15 +3523,15 @@
     "chapter": 12,
     "verse": 28,
     "content": [
+      "And God hath set some in the church, first apostles, secondly prophets, thirdly teachers, then ",
       {
-        "text": "And God hath set some in the church, first apostles, secondly prophets, thirdly teachers, then ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "powers", "marks": ["i"] }, "."]
         }
       },
+      "miracles, then gifts of healings, helps, ",
       {
-        "text": "miracles, then gifts of healings, helps, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "wise counsels", "marks": ["i"] }]
@@ -3586,8 +3597,8 @@
     "content": [
       "And if I bestow all my goods to feed ",
       { "text": "the poor", "marks": ["i"] },
+      ", and if I give my body ",
       {
-        "text": ", and if I give my body ",
         "foot": {
           "type": "var",
           "content": [
@@ -3679,8 +3690,8 @@
     "chapter": 13,
     "verse": 12,
     "content": [
+      "For now we see in a mirror, ",
       {
-        "text": "For now we see in a mirror, ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "in a riddle", "marks": ["i"] }, "."]
@@ -3694,8 +3705,8 @@
     "chapter": 13,
     "verse": 13,
     "content": [
+      "But now abideth faith, hope, love, these three; and the ",
       {
-        "text": "But now abideth faith, hope, love, these three; and the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3732,8 +3743,8 @@
     "chapter": 14,
     "verse": 2,
     "content": [
+      "For he that speaketh in a tongue speaketh not unto men, but unto God; for no man ",
       {
-        "text": "For he that speaketh in a tongue speaketh not unto men, but unto God; for no man ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "heareth", "marks": ["i"] }, "."]
@@ -3747,8 +3758,8 @@
     "chapter": 14,
     "verse": 3,
     "content": [
+      "But he that prophesieth speaketh unto men edification, and ",
       {
-        "text": "But he that prophesieth speaketh unto men edification, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "comfort", "marks": ["i"] }]
@@ -3762,15 +3773,15 @@
     "chapter": 14,
     "verse": 4,
     "content": [
+      "He that speaketh in a tongue ",
       {
-        "text": "He that speaketh in a tongue ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "buildeth up", "marks": ["i"] }, "."]
         }
       },
+      "edifieth himself; but he that prophesieth ",
       {
-        "text": "edifieth himself; but he that prophesieth ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "buildeth up", "marks": ["i"] }, "."]
@@ -3814,8 +3825,8 @@
     "chapter": 14,
     "verse": 10,
     "content": [
+      "There are, it may be, so many kinds of voices in the world, and ",
       {
-        "text": "There are, it may be, so many kinds of voices in the world, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3834,8 +3845,8 @@
     "chapter": 14,
     "verse": 11,
     "content": [
+      "If then I know not the meaning of the voice, I shall be to him that speaketh a barbarian, and he that speaketh will be a barbarian ",
       {
-        "text": "If then I know not the meaning of the voice, I shall be to him that speaketh a barbarian, and he that speaketh will be a barbarian ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in my case", "marks": ["i"] }]
@@ -3849,8 +3860,8 @@
     "chapter": 14,
     "verse": 12,
     "content": [
+      "So also ye, since ye are zealous of ",
       {
-        "text": "So also ye, since ye are zealous of ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "spirits", "marks": ["i"] }, "."]
@@ -3884,8 +3895,8 @@
     "chapter": 14,
     "verse": 16,
     "content": [
+      "Else if thou bless with the spirit, how shall he that filleth the place of ",
       {
-        "text": "Else if thou bless with the spirit, how shall he that filleth the place of ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3907,8 +3918,8 @@
     "chapter": 14,
     "verse": 17,
     "content": [
+      "For thou verily givest thanks well, but the other is not ",
       {
-        "text": "For thou verily givest thanks well, but the other is not ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "builded up", "marks": ["i"] }, "."]
@@ -3936,7 +3947,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Brethren, be not children in mind: yet in malice be ye babes, but in mind be ",
+        "text": "Brethren, be not children in mind: yet in malice be ye babes, but in mind be "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -3956,8 +3969,8 @@
     "chapter": 14,
     "verse": 21,
     "content": [
+      "In the law it is written, ",
       {
-        "text": "In the law it is written, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -3990,8 +4003,8 @@
     "chapter": 14,
     "verse": 24,
     "content": [
+      "But if all prophesy, and there come in one unbelieving or unlearned, he is ",
       {
-        "text": "But if all prophesy, and there come in one unbelieving or unlearned, he is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "convicted", "marks": ["i"] }]
@@ -4005,8 +4018,8 @@
     "chapter": 14,
     "verse": 25,
     "content": [
+      "the secrets of his heart are made manifest; and so he will fall down on his face and worship God, declaring that God is ",
       {
-        "text": "the secrets of his heart are made manifest; and so he will fall down on his face and worship God, declaring that God is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in", "marks": ["i"] }]
@@ -4049,8 +4062,8 @@
     "content": [
       "And let the prophets speak ",
       { "text": "by", "marks": ["i"] },
+      " two or three, and let the others ",
       {
-        "text": " two or three, and let the others ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "discriminate", "marks": ["i"] }, "."]
@@ -4070,8 +4083,8 @@
     "chapter": 14,
     "verse": 31,
     "content": [
+      "For ye all can prophesy one by one, that all may learn, and all may be ",
       {
-        "text": "For ye all can prophesy one by one, that all may learn, and all may be ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "comforted", "marks": ["i"] }]
@@ -4102,8 +4115,8 @@
     "chapter": 14,
     "verse": 34,
     "content": [
+      "let the women keep silence in the churches: for it is not permitted unto them to speak; but let them be in subjection, as also ",
       {
-        "text": "let the women keep silence in the churches: for it is not permitted unto them to speak; but let them be in subjection, as also ",
         "foot": {
           "type": "stu",
           "content": [
@@ -4182,9 +4195,8 @@
     "chapter": 15,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "Now I make known unto you brethren, the " },
       {
-        "paragraph": true,
-        "text": "Now I make known unto you brethren, the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4194,8 +4206,8 @@
           ]
         }
       },
+      "gospel which I ",
       {
-        "text": "gospel which I ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4213,8 +4225,8 @@
     "chapter": 15,
     "verse": 2,
     "content": [
+      "by which also ye are saved, if ye hold fast ",
       {
-        "text": "by which also ye are saved, if ye hold fast ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4224,8 +4236,8 @@
           ]
         }
       },
+      "the word which I ",
       {
-        "text": "the word which I ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4235,8 +4247,8 @@
           ]
         }
       },
+      "preached unto you, except ye believed ",
       {
-        "text": "preached unto you, except ye believed ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "without cause", "marks": ["i"] }]
@@ -4274,8 +4286,8 @@
     "chapter": 15,
     "verse": 7,
     "content": [
+      "then he appeared to ",
       {
-        "text": "then he appeared to ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -4305,8 +4317,8 @@
     "chapter": 15,
     "verse": 10,
     "content": [
+      "But by the grace of God I am what I am: and his grace which was bestowed upon me was not found ",
       {
-        "text": "But by the grace of God I am what I am: and his grace which was bestowed upon me was not found ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "void", "marks": ["i"] }]
@@ -4345,15 +4357,15 @@
     "chapter": 15,
     "verse": 14,
     "content": [
+      "and if Christ hath not been raised, then is our preaching ",
       {
-        "text": "and if Christ hath not been raised, then is our preaching ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "void", "marks": ["i"] }]
         }
       },
+      "vain, ",
       {
-        "text": "vain, ",
         "foot": {
           "type": "var",
           "content": [
@@ -4363,8 +4375,8 @@
           ]
         }
       },
+      "your faith also is ",
       {
-        "text": "your faith also is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "void", "marks": ["i"] }]
@@ -4378,8 +4390,8 @@
     "chapter": 15,
     "verse": 15,
     "content": [
+      "Yea, and we are found false witnesses of God; because we witnessed of God that he raised up ",
       {
-        "text": "Yea, and we are found false witnesses of God; because we witnessed of God that he raised up ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "the Christ", "marks": ["i"] }, "."]
@@ -4452,8 +4464,8 @@
     "chapter": 15,
     "verse": 22,
     "content": [
+      "For as in Adam all die, so also in ",
       {
-        "text": "For as in Adam all die, so also in ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "the Christ", "marks": ["i"] }, "."]
@@ -4484,8 +4496,8 @@
     "content": [
       "Then ",
       { "text": "cometh", "marks": ["i"] },
+      " the end, when he shall deliver up the kingdom to ",
       {
-        "text": " the end, when he shall deliver up the kingdom to ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4515,8 +4527,8 @@
     "chapter": 15,
     "verse": 27,
     "content": [
+      "For, He put all things in subjection under his feet. ",
       {
-        "text": "For, He put all things in subjection under his feet. ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4530,8 +4542,8 @@
           ]
         }
       },
+      "But when he saith, ",
       {
-        "text": "But when he saith, ",
         "foot": {
           "type": "xrf",
           "content": [{ "bibleLink": "Psalm 8:6", "content": "Ps. 8:6" }, "."]
@@ -4566,8 +4578,8 @@
     "chapter": 15,
     "verse": 31,
     "content": [
+      "I protest by ",
       {
-        "text": "I protest by ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "your glorying", "marks": ["i"] }]
@@ -4581,8 +4593,8 @@
     "chapter": 15,
     "verse": 32,
     "content": [
+      "If after the manner of men I fought with beasts at Ephesus, ",
       {
-        "text": "If after the manner of men I fought with beasts at Ephesus, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4683,15 +4695,15 @@
     "chapter": 15,
     "verse": 44,
     "content": [
+      "it is sown a ",
       {
-        "text": "it is sown a ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "psychical", "marks": ["i"] }, "."]
         }
       },
+      "natural body; it is raised a spiritual body. If there is a ",
       {
-        "text": "natural body; it is raised a spiritual body. If there is a ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "psychical", "marks": ["i"] }, "."]
@@ -4707,8 +4719,8 @@
     "chapter": 15,
     "verse": 45,
     "content": [
+      "So also it is written, ",
       {
-        "text": "So also it is written, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4727,8 +4739,8 @@
     "chapter": 15,
     "verse": 46,
     "content": [
+      "Howbeit that is not first which is spiritual, but that which is ",
       {
-        "text": "Howbeit that is not first which is spiritual, but that which is ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "psychical", "marks": ["i"] }, "."]
@@ -4754,8 +4766,8 @@
     "chapter": 15,
     "verse": 49,
     "content": [
+      "And as we have borne the image of the earthy, ",
       {
-        "text": "And as we have borne the image of the earthy, ",
         "foot": {
           "type": "var",
           "content": [
@@ -4782,8 +4794,8 @@
     "chapter": 15,
     "verse": 51,
     "content": [
+      "Behold, I tell you a mystery: ",
       {
-        "text": "Behold, I tell you a mystery: ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4812,8 +4824,8 @@
     "chapter": 15,
     "verse": 54,
     "content": [
+      "But when ",
       {
-        "text": "But when ",
         "foot": {
           "type": "var",
           "content": [
@@ -4826,8 +4838,8 @@
           ]
         }
       },
+      "this corruptible shall have put on incorruption, and this mortal shall have put on immortality, then shall come to pass the saying that is written, ",
       {
-        "text": "this corruptible shall have put on incorruption, and this mortal shall have put on immortality, then shall come to pass the saying that is written, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4836,8 +4848,8 @@
           ]
         }
       },
+      "Death is swallowed up ",
       {
-        "text": "Death is swallowed up ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "victoriously", "marks": ["i"] }]
@@ -4880,8 +4892,8 @@
     "chapter": 15,
     "verse": 58,
     "content": [
+      "Wherefore, my beloved brethren, be ye stedfast, unmoveable, always abounding in the work of the Lord, forasmuch as ye know that your labor is not ",
       {
-        "text": "Wherefore, my beloved brethren, be ye stedfast, unmoveable, always abounding in the work of the Lord, forasmuch as ye know that your labor is not ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "void", "marks": ["i"] }]
@@ -4910,8 +4922,8 @@
     "chapter": 16,
     "verse": 3,
     "content": [
+      "And when I arrive, ",
       {
-        "text": "And when I arrive, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4982,8 +4994,8 @@
     "chapter": 16,
     "verse": 12,
     "content": [
+      "But as touching Apollos the brother, I besought him much to come unto you with the brethren: and it was not at all ",
       {
-        "text": "But as touching Apollos the brother, I besought him much to come unto you with the brethren: and it was not at all ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5034,8 +5046,8 @@
     "chapter": 16,
     "verse": 17,
     "content": [
+      "And I rejoice at the ",
       {
-        "text": "And I rejoice at the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5085,8 +5097,8 @@
     "chapter": 16,
     "verse": 22,
     "content": [
+      "If any man loveth not the Lord, let him be anathema. ",
       {
-        "text": "If any man loveth not the Lord, let him be anathema. ",
         "foot": {
           "type": "stu",
           "content": [

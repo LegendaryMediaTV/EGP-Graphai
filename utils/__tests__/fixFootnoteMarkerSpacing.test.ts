@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { relocateFootnoteMarkerSpacesInContent } from "../fixFootnoteMarkerSpacing";
 
-describe("relocateFootnoteMarkerSpacesInContent — ordinary relocation", () => {
-  it("should move a footed node's own trailing space onto the next node's leading edge when the two agree in formatting — real ASV1901 Genesis 1:2 shape", () => {
+describe("relocateFootnoteMarkerSpacesInContent — sole (standalone-node extraction)", () => {
+  it("should extract foot into a standalone node, leaving both real text nodes' own text completely untouched — real ASV1901 Genesis 1:2 shape", () => {
     const content = [
       {
         text: "And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God ",
@@ -17,23 +17,37 @@ describe("relocateFootnoteMarkerSpacesInContent — ordinary relocation", () => 
     expect(skipped).toEqual([]);
     expect(result).toEqual([
       {
-        text: "And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God",
-        foot: { type: "trn", content: ["Or, ", { text: "was brooding upon", marks: ["i"] }] },
+        text: "And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God ",
       },
-      " moved upon the face of the waters.",
+      { foot: { type: "trn", content: ["Or, ", { text: "was brooding upon", marks: ["i"] }] } },
+      "moved upon the face of the waters.",
     ]);
   });
 
-  it("should relocate an earlier node's trailing run when the footed node itself renders no text of its own", () => {
-    // Synthetic: no real corpus case combines a textless foot anchor with a
-    // real next node — the one real case (WEBUS2020 Mark 9:44) sits at the
-    // end of its own array and deletes instead (see the "deletion at a
-    // genuine end" describe block below). This proves the fixer strips the
-    // run from the real source node, not from the textless anchor itself.
+  it("should be idempotent — extracting an already-extracted tree reports no further change (real ASV1901 Genesis 1:2 shape)", () => {
     const content = [
-      { text: "quenched.’ ", marks: ["woc"] },
-      { foot: { type: "xrf", content: { bibleLink: "Isaiah 66:24" } } },
-      { text: "next word", marks: ["woc"] },
+      {
+        text: "And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God ",
+        foot: { type: "trn", content: "note" },
+      },
+      "moved upon the face of the waters.",
+    ];
+
+    const first = relocateFootnoteMarkerSpacesInContent(content as never);
+    const second = relocateFootnoteMarkerSpacesInContent(first.content);
+
+    expect(second.changed).toBe(false);
+    expect(second.skipped).toEqual([]);
+    expect(second.content).toEqual(first.content);
+  });
+
+  it("should extract on the identical structural shape regardless of the footnote's own type or content — real CLV1880 Numbers 20:28 shape (no longer content-gated)", () => {
+    const content = [
+      {
+        text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius ",
+        foot: { type: "var", content: "Originally verse 20:29." },
+      },
+      "illo mortuo in montis supercilio descendit cum Eleazaro",
     ];
 
     const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
@@ -41,16 +55,31 @@ describe("relocateFootnoteMarkerSpacesInContent — ordinary relocation", () => 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
     expect(result).toEqual([
-      { text: "quenched.’", marks: ["woc"] },
-      { foot: { type: "xrf", content: { bibleLink: "Isaiah 66:24" } } },
-      { text: " next word", marks: ["woc"] },
+      {
+        text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius ",
+      },
+      { foot: { type: "var", content: "Originally verse 20:29." } },
+      "illo mortuo in montis supercilio descendit cum Eleazaro",
     ]);
   });
 
-  it("should not decline on formatting when the next node itself carries no formatting, regardless of the source's own marks", () => {
-    // check 9's own asymmetric rule, reused here: only the side that itself
-    // carries the formatting can be the offender, so an unmarked receiver
-    // is always safe to relocate onto.
+  it("should be idempotent on the CLV1880 Numbers 20:28 shape too", () => {
+    const content = [
+      {
+        text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius ",
+        foot: { type: "var", content: "Originally verse 20:29." },
+      },
+      "illo mortuo in montis supercilio descendit cum Eleazaro",
+    ];
+
+    const first = relocateFootnoteMarkerSpacesInContent(content as never);
+    const second = relocateFootnoteMarkerSpacesInContent(first.content);
+
+    expect(second.changed).toBe(false);
+    expect(second.skipped).toEqual([]);
+  });
+
+  it("should extract regardless of marks on either side — the redundant/sole decision never consults formatting (both the old relocate-onto-receiver and old insert-bare-whitespace-node paths are gone)", () => {
     const content = [
       { text: "the earth ", foot: { type: "trn", content: "note" }, marks: ["woc"] },
       "was formed.",
@@ -61,25 +90,88 @@ describe("relocateFootnoteMarkerSpacesInContent — ordinary relocation", () => 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
     expect(result).toEqual([
-      { text: "the earth", foot: { type: "trn", content: "note" }, marks: ["woc"] },
-      " was formed.",
+      { text: "the earth ", marks: ["woc"] },
+      { foot: { type: "trn", content: "note" } },
+      "was formed.",
     ]);
+  });
+
+  it("should apply inside a subtitle array exactly as it does inside content, with no extra recursion work needed — real CLV1880 Psalm 51:1 subtitle shape (a verse-initial bare foot node stays exempt, the combined node right after it still extracts)", () => {
+    const content = {
+      subtitle: [
+        { foot: { type: "var", content: "Originally verse 50:1." } },
+        {
+          text: "in finem psalmus David ",
+          foot: { type: "var", content: "Originally verse 50:2." },
+        },
+        "cum venit ad eum Nathan propheta quando intravit ad Bethsabee",
+      ],
+    };
+
+    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual({
+      subtitle: [
+        { foot: { type: "var", content: "Originally verse 50:1." } },
+        { text: "in finem psalmus David " },
+        { foot: { type: "var", content: "Originally verse 50:2." } },
+        "cum venit ad eum Nathan propheta quando intravit ad Bethsabee",
+      ],
+    });
   });
 });
 
-describe("relocateFootnoteMarkerSpacesInContent — deletion (receiver already carries its own leading space)", () => {
-  it("should delete the source's own trailing run rather than double it — real WEBUS2020 Matthew 5:22 shape, both sides woc-marked", () => {
-    // The receiver's own leading space already performs the join, so
-    // relocating would double it rather than fix it — see
-    // fixFootnoteMarkerSpacing.ts's own "deletion" reasoning.
+describe("relocateFootnoteMarkerSpacesInContent — already-settled bare foot nodes are never re-examined", () => {
+  it("should leave a verse-initial bare foot node alone — real CLV1880 Numbers 20:29 shape, nothing precedes it so it's already the exempt, standalone form", () => {
+    const content = [
+      { foot: { type: "var", content: "Originally verse 20:30." } },
+      "omnis autem multitudo videns occubuisse Aaron",
+    ];
+
+    const result = relocateFootnoteMarkerSpacesInContent(content as never);
+
+    expect(result.changed).toBe(false);
+    expect(result.skipped).toEqual([]);
+    expect(result.content).toBe(content);
+  });
+
+  it("should leave a bare foot node alone with a real, already-spaced next node on either side — real KJV1769 Isaiah 10:5 shape", () => {
     const content = [
       {
-        text: "everyone who is angry with his brother without a cause ",
+        text: " Assyrian,",
+        foot: {
+          type: "trn",
+          content: ["Or, ", { text: "woe to the Assyrian", marks: ["i"] }, ": Heb. ", { text: "Asshur", marks: ["i"] }],
+        },
+        strong: "H804",
+      },
+      { foot: { type: "trn", content: ["Heb. ", { text: "Ashur", marks: ["i"] }] } },
+      { text: " the rod", strong: "H7626" },
+    ];
+
+    const result = relocateFootnoteMarkerSpacesInContent(content as never);
+
+    expect(result.changed).toBe(false);
+    expect(result.skipped).toEqual([]);
+    expect(result.content).toBe(content);
+  });
+});
+
+describe("relocateFootnoteMarkerSpacesInContent — redundant (deletion)", () => {
+  it("should delete the source's own trailing run rather than double it — real WEBUS2020 Matthew 11:23 shape (pre-a544b73), both sides woc-marked", () => {
+    // The receiver's own leading space already performs the join, so
+    // deleting the source's own redundant copy is the fix — see
+    // fixFootnoteMarkerSpacing.ts's own "redundant, deletion" reasoning.
+    const content = [
+      {
+        text: "You, Capernaum, who are exalted to heaven, you will go down to Hades. ",
         marks: ["woc"],
-        foot: { type: "var", content: "NU omits “without a cause”." },
+        foot: { type: "trn", content: "or, Hell" },
       },
       {
-        text: " will be in danger of the judgment.",
+        text: " For if the mighty works had been done in Sodom which were done in you, it would have remained until today.",
         marks: ["woc"],
       },
     ];
@@ -90,12 +182,12 @@ describe("relocateFootnoteMarkerSpacesInContent — deletion (receiver already c
     expect(skipped).toEqual([]);
     expect(result).toEqual([
       {
-        text: "everyone who is angry with his brother without a cause",
+        text: "You, Capernaum, who are exalted to heaven, you will go down to Hades.",
         marks: ["woc"],
-        foot: { type: "var", content: "NU omits “without a cause”." },
+        foot: { type: "trn", content: "or, Hell" },
       },
       {
-        text: " will be in danger of the judgment.",
+        text: " For if the mighty works had been done in Sodom which were done in you, it would have remained until today.",
         marks: ["woc"],
       },
     ]);
@@ -133,61 +225,6 @@ describe("relocateFootnoteMarkerSpacesInContent — deletion (receiver already c
       { foot: { type: "xrf", content: { bibleLink: "Isaiah 66:24" } } },
       { text: " next word", marks: ["woc"] },
     ]);
-  });
-});
-
-describe("relocateFootnoteMarkerSpacesInContent — structural insertion (receiver's own formatting disagrees)", () => {
-  it("should extract the run into a standalone node between the two disagreeing real sides — real ASV1901 Exodus 3:14 shape (sc-marked destination)", () => {
-    // A plain relocation into this destination would itself produce a
-    // brand-new check-9 finding, so the run is extracted into a standalone
-    // node instead — see fixFootnoteMarkerSpacing.ts's own "structural
-    // insertion" reasoning.
-    const content = [
-      { text: "And God said unto Moses, ", foot: { type: "trn", content: "Or, ..." } },
-      { text: "I AM THAT I AM", marks: ["sc"] },
-    ];
-
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
-
-    expect(changed).toBe(true);
-    expect(skipped).toEqual([]);
-    expect(result).toEqual([
-      { text: "And God said unto Moses,", foot: { type: "trn", content: "Or, ..." } },
-      " ",
-      { text: "I AM THAT I AM", marks: ["sc"] },
-    ]);
-  });
-
-  it("should relocate ordinarily, not insert a standalone node, when the receiver's marks are a strict formatting subset of the source's own — real YLT1898-shaped case (a woc-marked source bordering a translator-supplied word that is also part of the same discourse)", () => {
-    const content = [
-      { text: "the earth ", foot: { type: "trn", content: "note" }, marks: ["woc"] },
-      { text: "was formed.", marks: ["i", "woc"] },
-    ];
-
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
-
-    expect(changed).toBe(true);
-    expect(skipped).toEqual([]);
-    // A subset relationship is a nesting relationship, not a disagreement
-    // (see isFormattingSubsetOf's own reasoning), so this relocates
-    // ordinarily — no standalone node gets inserted.
-    expect(result).toEqual([
-      { text: "the earth", foot: { type: "trn", content: "note" }, marks: ["woc"] },
-      { text: " was formed.", marks: ["i", "woc"] },
-    ]);
-  });
-
-  it("the inserted standalone node should never itself become a new finding on a second pass", () => {
-    const content = [
-      { text: "And God said unto Moses, ", foot: { type: "trn", content: "Or, ..." } },
-      { text: "I AM THAT I AM", marks: ["sc"] },
-    ];
-
-    const first = relocateFootnoteMarkerSpacesInContent(content as never);
-    const second = relocateFootnoteMarkerSpacesInContent(first.content);
-
-    expect(second.changed).toBe(false);
-    expect(second.skipped).toEqual([]);
   });
 });
 
@@ -349,23 +386,6 @@ describe("relocateFootnoteMarkerSpacesInContent — idempotence and recursion", 
     expect(result.content).toBe(content);
   });
 
-  it("should be idempotent — relocating an already-relocated tree reports no further change", () => {
-    const content = [
-      {
-        text: "And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God ",
-        foot: { type: "trn", content: "note" },
-      },
-      "moved upon the face of the waters.",
-    ];
-
-    const first = relocateFootnoteMarkerSpacesInContent(content as never);
-    const second = relocateFootnoteMarkerSpacesInContent(first.content);
-
-    expect(second.changed).toBe(false);
-    expect(second.skipped).toEqual([]);
-    expect(second.content).toEqual(first.content);
-  });
-
   it("should be idempotent after a deletion too", () => {
     const content = [
       { text: "the earth ", foot: { type: "trn", content: "note" } },
@@ -379,7 +399,7 @@ describe("relocateFootnoteMarkerSpacesInContent — idempotence and recursion", 
     expect(second.skipped).toEqual([]);
   });
 
-  it("should descend into heading, subtitle, and foot.content — each self-contained, so a trailing end there deletes rather than declines", () => {
+  it("should descend into heading, subtitle, and foot.content — a sole-shaped join there extracts exactly as it does inside content", () => {
     const content = {
       heading: [{ text: "the earth ", foot: { type: "trn", content: "note" } }, "was formed."],
     };
@@ -388,7 +408,7 @@ describe("relocateFootnoteMarkerSpacesInContent — idempotence and recursion", 
 
     expect(changed).toBe(true);
     expect(result).toEqual({
-      heading: [{ text: "the earth", foot: { type: "trn", content: "note" } }, " was formed."],
+      heading: [{ text: "the earth " }, { foot: { type: "trn", content: "note" } }, "was formed."],
     });
   });
 

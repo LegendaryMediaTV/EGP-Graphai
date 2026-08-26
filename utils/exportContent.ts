@@ -535,6 +535,21 @@ function emphasisRunContinuation(
       : "content" in item
         ? renderNestedContentParts(item, ctx)
         : renderTextObjectParts(item, ctx);
+
+    if (isTextlessFootnoteSibling(item) && pendingWhitespace !== "" && parts.suffix.endsWith(" ")) {
+      // A real word with its own trailing space already precedes this
+      // textless footnote-only node — that space is about to flush before
+      // `parts.suffix` is appended, so the defensive trailing space this
+      // node's own suffix carries (see `renderTextObjectParts`'s own "next
+      // content item is spaced correctly" comment) would be a second,
+      // redundant space. Real CLV1880 Numbers 20:28 shape, once check 12's
+      // fixer (`fixFootnoteMarkerSpacing.ts`) extracts the marker into its
+      // own node: without this, the marker renders with a stray space before
+      // the next word it's meant to introduce with none. A verse-initial
+      // textless footnote (real NUM 20:29) has no pendingWhitespace queued
+      // here and keeps its own defensive space untouched.
+      parts = { ...parts, suffix: parts.suffix.slice(0, -1) };
+    }
     const spliced = spliceTrailingFootnoteSiblings(item, parts, content, index, ctx);
     parts = { ...parts, suffix: spliced.suffix };
     index = spliced.lastIndex;

@@ -46,8 +46,8 @@
     "chapter": 1,
     "verse": 7,
     "content": [
+      "But Jehovah said unto me, Say not, I am a child; for ",
       {
-        "text": "But Jehovah said unto me, Say not, I am a child; for ",
         "foot": {
           "type": "trn",
           "content": [
@@ -84,7 +84,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Moreover the word of Jehovah came unto me, saying, Jeremiah, what seest thou? And I said, I see a rod of ",
+        "text": "Moreover the word of Jehovah came unto me, saying, Jeremiah, what seest thou? And I said, I see a rod of "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "shaked", "marks": ["i"] }, "."]
@@ -98,8 +100,8 @@
     "chapter": 1,
     "verse": 12,
     "content": [
+      "Then said Jehovah unto me, Thou hast well seen: for I ",
       {
-        "text": "Then said Jehovah unto me, Thou hast well seen: for I ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "shoked", "marks": ["i"] }, "."]
@@ -122,8 +124,8 @@
     "chapter": 1,
     "verse": 14,
     "content": [
+      "Then Jehovah said unto me, Out of the north evil ",
       {
-        "text": "Then Jehovah said unto me, Out of the north evil ",
         "foot": {
           "type": "trn",
           "content": [
@@ -147,8 +149,8 @@
     "chapter": 1,
     "verse": 16,
     "content": [
+      "And I will ",
       {
-        "text": "And I will ",
         "foot": {
           "type": "trn",
           "content": [
@@ -195,8 +197,8 @@
     "chapter": 2,
     "verse": 2,
     "content": [
+      "Go, and cry in the ears of Jerusalem, saying, Thus saith Jehovah, I remember ",
       {
-        "text": "Go, and cry in the ears of Jerusalem, saying, Thus saith Jehovah, I remember ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "concerning", "marks": ["i"] }]
@@ -235,8 +237,8 @@
     "chapter": 2,
     "verse": 6,
     "content": [
+      "Neither said they, Where is Jehovah that brought us up out of the land of Egypt, that led us through the wilderness, through a land of deserts and of pits, through a land of drought and of ",
       {
-        "text": "Neither said they, Where is Jehovah that brought us up out of the land of Egypt, that led us through the wilderness, through a land of deserts and of pits, through a land of drought and of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deep darkness", "marks": ["i"] }]
@@ -256,8 +258,8 @@
     "chapter": 2,
     "verse": 8,
     "content": [
+      "The priests said not, Where is Jehovah? and they that handle the law knew me not: the ",
       {
-        "text": "The priests said not, Where is Jehovah? and they that handle the law knew me not: the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "shepherds", "marks": ["i"] }, "."]
@@ -318,8 +320,8 @@
     "chapter": 2,
     "verse": 15,
     "content": [
+      "The young lions have roared upon him, and ",
       {
-        "text": "The young lions have roared upon him, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -337,8 +339,8 @@
     "chapter": 2,
     "verse": 16,
     "content": [
+      "The children also of Memphis and Tahpanhes have ",
       {
-        "text": "The children also of Memphis and Tahpanhes have ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "fed on", "marks": ["i"] }]
@@ -358,14 +360,10 @@
     "chapter": 2,
     "verse": 18,
     "content": [
-      {
-        "text": "And now what hast thou to do in the way to Egypt, to drink the waters of the ",
-        "foot": { "type": "stu", "content": "That is, the Nile." }
-      },
-      {
-        "text": "Shihor? or what hast thou to do in the way to Assyria, to drink the waters of ",
-        "foot": { "type": "stu", "content": "That is, the Euphrates." }
-      },
+      "And now what hast thou to do in the way to Egypt, to drink the waters of the ",
+      { "foot": { "type": "stu", "content": "That is, the Nile." } },
+      "Shihor? or what hast thou to do in the way to Assyria, to drink the waters of ",
+      { "foot": { "type": "stu", "content": "That is, the Euphrates." } },
       "the River?"
     ]
   },
@@ -380,16 +378,15 @@
     "chapter": 2,
     "verse": 20,
     "content": [
+      { "paragraph": true, "text": "For of old time " },
       {
-        "paragraph": true,
-        "text": "For of old time ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "thou hast", "marks": ["i"] }]
         }
       },
+      "I have broken thy yoke, and burst thy bonds; and thou saidst, I will not ",
       {
-        "text": "I have broken thy yoke, and burst thy bonds; and thou saidst, I will not ",
         "foot": {
           "type": "var",
           "content": [
@@ -420,8 +417,8 @@
     "content": [
       "How canst thou say, I am not defiled, I have not gone after the Baalim? see thy way in the valley, know what thou hast done: ",
       { "text": "thou art", "marks": ["i"] },
+      " a swift ",
       {
-        "text": " a swift ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "young camel", "marks": ["i"] }]
@@ -456,15 +453,15 @@
     "chapter": 2,
     "verse": 27,
     "content": [
+      "who say to a stock, Thou art my father; and to a stone, Thou hast ",
       {
-        "text": "who say to a stock, Thou art my father; and to a stone, Thou hast ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "begotten me", "marks": ["i"] }]
         }
       },
+      "brought ",
       {
-        "text": "brought ",
         "foot": {
           "type": "var",
           "content": [
@@ -497,8 +494,8 @@
     "chapter": 2,
     "verse": 30,
     "content": [
+      "In vain have I smitten your children; they received no ",
       {
-        "text": "In vain have I smitten your children; they received no ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "instruction", "marks": ["i"] }]
@@ -512,8 +509,8 @@
     "chapter": 2,
     "verse": 31,
     "content": [
+      "O generation, see ye the word of Jehovah. Have I been a wilderness unto Israel? or a land of ",
       {
-        "text": "O generation, see ye the word of Jehovah. Have I been a wilderness unto Israel? or a land of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "darkness from Jah", "marks": ["i"] }]
@@ -539,8 +536,8 @@
     "chapter": 2,
     "verse": 34,
     "content": [
+      "Also in thy skirts is found the blood of the souls of the innocent poor: ",
       {
-        "text": "Also in thy skirts is found the blood of the souls of the innocent poor: ",
         "foot": {
           "type": "trn",
           "content": [
@@ -585,8 +582,8 @@
           "content": ["Hebrew ", { "text": "Saying", "marks": ["i"] }, "."]
         }
       },
+      "They say, If a man put away his wife, and she go from him, and become another man’s, will he return unto her again? will not that land be greatly polluted? But thou hast played the harlot with many lovers; ",
       {
-        "text": "They say, If a man put away his wife, and she go from him, and become another man’s, will he return unto her again? will not that land be greatly polluted? But thou hast played the harlot with many lovers; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -617,8 +614,8 @@
     "chapter": 3,
     "verse": 4,
     "content": [
+      "Wilt thou not from this time cry unto me, My Father, thou art the ",
       {
-        "text": "Wilt thou not from this time cry unto me, My Father, thou art the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "companion", "marks": ["i"] }]
@@ -634,8 +631,8 @@
     "content": [
       "Will he retain ",
       { "text": "his anger", "marks": ["i"] },
+      " for ever? will he keep it to the end? Behold, thou ",
       {
-        "text": " for ever? will he keep it to the end? Behold, thou ",
         "foot": {
           "type": "trn",
           "content": [
@@ -646,8 +643,8 @@
           ]
         }
       },
+      "hast spoken and hast done evil things, and hast ",
       {
-        "text": "hast spoken and hast done evil things, and hast ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "been able", "marks": ["i"] }, "."]
@@ -682,8 +679,8 @@
           ]
         }
       },
+      "And I said after she had done all these things, ",
       {
-        "text": "And I said after she had done all these things, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -727,8 +724,8 @@
     "chapter": 3,
     "verse": 12,
     "content": [
+      "Go, and proclaim these words toward the north, and say, Return, thou backsliding Israel, saith Jehovah; I will not ",
       {
-        "text": "Go, and proclaim these words toward the north, and say, Return, thou backsliding Israel, saith Jehovah; I will not ",
         "foot": {
           "type": "trn",
           "content": [
@@ -748,8 +745,8 @@
     "chapter": 3,
     "verse": 13,
     "content": [
+      "Only ",
       {
-        "text": "Only ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "know", "marks": ["i"] }]
@@ -775,15 +772,15 @@
     "chapter": 3,
     "verse": 16,
     "content": [
+      "And it shall come to pass, when ye are multiplied and increased in the land, in those days, saith Jehovah, they shall say no more, The ark of the covenant of Jehovah; neither shall it come to mind; neither shall they remember it; neither shall they ",
       {
-        "text": "And it shall come to pass, when ye are multiplied and increased in the land, in those days, saith Jehovah, they shall say no more, The ark of the covenant of Jehovah; neither shall it come to mind; neither shall they remember it; neither shall they ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "visit", "marks": ["i"] }]
         }
       },
+      "miss it; neither ",
       {
-        "text": "miss it; neither ",
         "foot": {
           "type": "trn",
           "content": [
@@ -808,8 +805,8 @@
     "chapter": 3,
     "verse": 18,
     "content": [
+      "In those days the house of Judah shall walk ",
       {
-        "text": "In those days the house of Judah shall walk ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "to", "marks": ["i"] }]
@@ -823,16 +820,15 @@
     "chapter": 3,
     "verse": 19,
     "content": [
+      { "paragraph": true, "text": "But I said, How " },
       {
-        "paragraph": true,
-        "text": "But I said, How ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "shall I … nations?", "marks": ["i"] }]
         }
       },
+      "I will put thee among the children, and give thee a pleasant land, ",
       {
-        "text": "I will put thee among the children, and give thee a pleasant land, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -841,8 +837,8 @@
           ]
         }
       },
+      "a goodly heritage of the hosts of the nations! and I said, ",
       {
-        "text": "a goodly heritage of the hosts of the nations! and I said, ",
         "foot": {
           "type": "var",
           "content": [
@@ -889,8 +885,8 @@
     "content": [
       "Truly in vain is ",
       { "text": "the help that is looked for", "marks": ["i"] },
+      " from the hills, the ",
       {
-        "text": " from the hills, the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "noisy throng", "marks": ["i"] }]
@@ -904,8 +900,8 @@
     "chapter": 3,
     "verse": 24,
     "content": [
+      "But the ",
       {
-        "text": "But the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -935,7 +931,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "If thou wilt return, O Israel, saith Jehovah, if thou wilt return unto me, and ",
+        "text": "If thou wilt return, O Israel, saith Jehovah, if thou wilt return unto me, and "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -1065,8 +1063,8 @@
     "chapter": 4,
     "verse": 15,
     "content": [
+      "For ",
       {
-        "text": "For ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1102,15 +1100,15 @@
     "chapter": 4,
     "verse": 18,
     "content": [
+      "Thy way and thy doings have procured these things unto thee; this is thy wickedness; ",
       {
-        "text": "Thy way and thy doings have procured these things unto thee; this is thy wickedness; ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "surely", "marks": ["i"] }]
         }
       },
+      "for it is bitter, ",
       {
-        "text": "for it is bitter, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "surely", "marks": ["i"] }]
@@ -1124,9 +1122,8 @@
     "chapter": 4,
     "verse": 19,
     "content": [
+      { "paragraph": true, "text": "My anguish, my anguish! " },
       {
-        "paragraph": true,
-        "text": "My anguish, my anguish! ",
         "foot": {
           "type": "var",
           "content": [
@@ -1135,8 +1132,8 @@
           ]
         }
       },
+      "I am pained at ",
       {
-        "text": "I am pained at ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1146,8 +1143,8 @@
           ]
         }
       },
+      "my very heart; my heart is disquieted in me; I cannot hold my peace; because ",
       {
-        "text": "my very heart; my heart is disquieted in me; I cannot hold my peace; because ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1195,8 +1192,8 @@
     "chapter": 4,
     "verse": 24,
     "content": [
+      "I beheld the mountains, and, lo, they trembled, and all the hills ",
       {
-        "text": "I beheld the mountains, and, lo, they trembled, and all the hills ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "moved lightly", "marks": ["i"] }]
@@ -1216,8 +1213,8 @@
     "chapter": 4,
     "verse": 26,
     "content": [
+      "I beheld, and, lo, ",
       {
-        "text": "I beheld, and, lo, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Carmel", "marks": ["i"] }]
@@ -1254,8 +1251,8 @@
     "chapter": 4,
     "verse": 30,
     "content": [
+      "And thou, when thou art made desolate, what wilt thou do? Though thou clothest thyself with scarlet, though thou deckest thee with ornaments of gold, though thou ",
       {
-        "text": "And thou, when thou art made desolate, what wilt thou do? Though thou clothest thyself with scarlet, though thou deckest thee with ornaments of gold, though thou ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "rendest", "marks": ["i"] }, "."]
@@ -1283,7 +1280,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Run ye to and fro through the streets of Jerusalem, and see now, and know, and seek in the broad places thereof, if ye can find a man, if there be any that doeth justly, that seeketh ",
+        "text": "Run ye to and fro through the streets of Jerusalem, and see now, and know, and seek in the broad places thereof, if ye can find a man, if there be any that doeth justly, that seeketh "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "faithfulness", "marks": ["i"] }]
@@ -1303,8 +1302,8 @@
     "chapter": 5,
     "verse": 3,
     "content": [
+      "O Jehovah, ",
       {
-        "text": "O Jehovah, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1314,15 +1313,15 @@
           ]
         }
       },
+      "do not thine eyes look upon ",
       {
-        "text": "do not thine eyes look upon ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "faithfulness", "marks": ["i"] }]
         }
       },
+      "truth? thou hast stricken them, but they were not grieved; thou hast consumed them, but they have refused to receive ",
       {
-        "text": "truth? thou hast stricken them, but they were not grieved; thou hast consumed them, but they have refused to receive ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "instruction", "marks": ["i"] }]
@@ -1351,8 +1350,8 @@
     "chapter": 5,
     "verse": 6,
     "content": [
+      "Wherefore a lion out of the forest shall slay them, a wolf of the ",
       {
-        "text": "Wherefore a lion out of the forest shall slay them, a wolf of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deserts", "marks": ["i"] }]
@@ -1370,7 +1369,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "How can I pardon thee? thy children have forsaken me, and sworn by them that are no gods. When I had ",
+        "text": "How can I pardon thee? thy children have forsaken me, and sworn by them that are no gods. When I had "
+      },
+      {
         "foot": {
           "type": "var",
           "content": [
@@ -1435,8 +1436,8 @@
     "chapter": 5,
     "verse": 15,
     "content": [
+      "Lo, I will bring a nation upon you from far, O house of Israel, saith Jehovah: it is ",
       {
-        "text": "Lo, I will bring a nation upon you from far, O house of Israel, saith Jehovah: it is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "an enduring nation", "marks": ["i"] }]
@@ -1458,8 +1459,8 @@
     "content": [
       "And they shall eat up thy harvest, and thy bread, ",
       { "text": "which", "marks": ["i"] },
+      " thy sons and thy daughters should eat; they shall eat up thy flocks and thy herds; they shall eat up thy vines and thy fig-trees; they shall ",
       {
-        "text": " thy sons and thy daughters should eat; they shall eat up thy flocks and thy herds; they shall eat up thy vines and thy fig-trees; they shall ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "impoverish", "marks": ["i"] }]
@@ -1497,8 +1498,8 @@
     "chapter": 5,
     "verse": 21,
     "content": [
+      "Hear now this, O foolish people, and without ",
       {
-        "text": "Hear now this, O foolish people, and without ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "heart", "marks": ["i"] }, "."]
@@ -1512,8 +1513,8 @@
     "chapter": 5,
     "verse": 22,
     "content": [
+      "Fear ye not me? saith Jehovah: will ye not tremble at my presence, who have placed the sand for the bound of the sea, ",
       {
-        "text": "Fear ye not me? saith Jehovah: will ye not tremble at my presence, who have placed the sand for the bound of the sea, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1593,8 +1594,8 @@
     "chapter": 5,
     "verse": 31,
     "content": [
+      "the prophets prophesy falsely, and the priests bear rule ",
       {
-        "text": "the prophets prophesy falsely, and the priests bear rule ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "at their hands", "marks": ["i"] }]
@@ -1649,8 +1650,8 @@
     "chapter": 6,
     "verse": 6,
     "content": [
+      "For thus hath Jehovah of hosts said, Hew ye down ",
       {
-        "text": "For thus hath Jehovah of hosts said, Hew ye down ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1667,15 +1668,15 @@
     "chapter": 6,
     "verse": 7,
     "content": [
+      "As a well ",
       {
-        "text": "As a well ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "keepeth fresh", "marks": ["i"] }]
         }
       },
+      "casteth forth its waters, so she ",
       {
-        "text": "casteth forth its waters, so she ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "keepeth fresh", "marks": ["i"] }]
@@ -1697,7 +1698,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Thus saith Jehovah of hosts, They shall thoroughly glean the remnant of Israel as a vine: turn again thy hand as a grape-gatherer ",
+        "text": "Thus saith Jehovah of hosts, They shall thoroughly glean the remnant of Israel as a vine: turn again thy hand as a grape-gatherer "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "upon the shoots", "marks": ["i"] }]
@@ -1735,15 +1738,15 @@
     "chapter": 6,
     "verse": 14,
     "content": [
+      "They have healed also the ",
       {
-        "text": "They have healed also the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "breach", "marks": ["i"] }]
         }
       },
+      "hurt of ",
       {
-        "text": "hurt of ",
         "foot": {
           "type": "var",
           "content": [
@@ -1776,8 +1779,8 @@
           ]
         }
       },
+      "Were they ashamed when they had committed abomination? nay, they were not at all ashamed, neither could they blush: therefore they shall fall among them that fall; at the time that I visit them they shall ",
       {
-        "text": "Were they ashamed when they had committed abomination? nay, they were not at all ashamed, neither could they blush: therefore they shall fall among them that fall; at the time that I visit them they shall ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "stumble", "marks": ["i"] }]
@@ -1826,8 +1829,8 @@
     "chapter": 6,
     "verse": 20,
     "content": [
+      "To what purpose cometh there to me frankincense from Sheba, and the sweet ",
       {
-        "text": "To what purpose cometh there to me frankincense from Sheba, and the sweet ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "calamus", "marks": ["i"] }]
@@ -1888,9 +1891,8 @@
     "chapter": 6,
     "verse": 27,
     "content": [
+      { "paragraph": true, "text": "I have made thee a " },
       {
-        "paragraph": true,
-        "text": "I have made thee a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "tower", "marks": ["i"] }]
@@ -1912,8 +1914,8 @@
     "chapter": 6,
     "verse": 29,
     "content": [
+      "The bellows ",
       {
-        "text": "The bellows ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "are burned", "marks": ["i"] }]
@@ -1996,8 +1998,8 @@
     "chapter": 7,
     "verse": 10,
     "content": [
+      "and come and stand before me in this house, ",
       {
-        "text": "and come and stand before me in this house, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2112,8 +2114,8 @@
       { "text": "their own", "marks": ["i"] },
       " counsels ",
       { "text": "and", "marks": ["i"] },
+      " in the stubbornness of their evil heart, and ",
       {
-        "text": " in the stubbornness of their evil heart, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2151,15 +2153,15 @@
     "chapter": 7,
     "verse": 28,
     "content": [
+      "And thou shalt say unto them, This is the nation that hath not hearkened to the voice of Jehovah their God, nor received ",
       {
-        "text": "And thou shalt say unto them, This is the nation that hath not hearkened to the voice of Jehovah their God, nor received ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "correction", "marks": ["i"] }]
         }
       },
+      "instruction: ",
       {
-        "text": "instruction: ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "faithfulness", "marks": ["i"] }]
@@ -2173,9 +2175,8 @@
     "chapter": 7,
     "verse": 29,
     "content": [
+      { "paragraph": true, "text": "Cut off " },
       {
-        "paragraph": true,
-        "text": "Cut off ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "thy crown", "marks": ["i"] }, "."]
@@ -2197,8 +2198,8 @@
     "chapter": 7,
     "verse": 31,
     "content": [
+      "And they have built the high places of Topheth, which is in the valley of the son of Hinnom, to burn their sons and their daughters in the fire; which I commanded not, neither came it into my ",
       {
-        "text": "And they have built the high places of Topheth, which is in the valley of the son of Hinnom, to burn their sons and their daughters in the fire; which I commanded not, neither came it into my ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "heart", "marks": ["i"] }, "."]
@@ -2212,8 +2213,8 @@
     "chapter": 7,
     "verse": 32,
     "content": [
+      "Therefore, behold, the days come, saith Jehovah, that it shall no more be called Topheth, nor The valley of the son of Hinnom, but The valley of Slaughter: for they shall bury in Topheth, ",
       {
-        "text": "Therefore, behold, the days come, saith Jehovah, that it shall no more be called Topheth, nor The valley of the son of Hinnom, but The valley of Slaughter: for they shall bury in Topheth, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2280,8 +2281,8 @@
     "chapter": 8,
     "verse": 6,
     "content": [
+      "I hearkened and heard, but they spake not aright: no man repenteth him of his wickedness, saying, What have I done? every one ",
       {
-        "text": "I hearkened and heard, but they spake not aright: no man repenteth him of his wickedness, saying, What have I done? every one ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2306,7 +2307,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "How do ye say, We are wise, and the law of Jehovah is with us? But, behold, the false pen of the scribes hath ",
+        "text": "How do ye say, We are wise, and the law of Jehovah is with us? But, behold, the false pen of the scribes hath "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -2349,8 +2352,8 @@
     "chapter": 8,
     "verse": 13,
     "content": [
+      "I will utterly consume them, saith Jehovah: there shall be no grapes on the vine, nor figs on the fig-tree, and the leaf shall fade; and ",
       {
-        "text": "I will utterly consume them, saith Jehovah: there shall be no grapes on the vine, nor figs on the fig-tree, and the leaf shall fade; and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2373,21 +2376,23 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Why do we sit still? assemble yourselves, and let us enter into the fortified cities, and let us ",
+        "text": "Why do we sit still? assemble yourselves, and let us enter into the fortified cities, and let us "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "perish", "marks": ["i"] }]
         }
       },
+      "be silent there; for Jehovah our God hath ",
       {
-        "text": "be silent there; for Jehovah our God hath ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "caused us to perish", "marks": ["i"] }]
         }
       },
+      "put us to silence, and given us water of ",
       {
-        "text": "put us to silence, and given us water of ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2438,8 +2443,8 @@
     "chapter": 8,
     "verse": 19,
     "content": [
+      "Behold, the voice of the cry of the daughter of my people ",
       {
-        "text": "Behold, the voice of the cry of the daughter of my people ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "because of", "marks": ["i"] }]
@@ -2453,8 +2458,8 @@
     "chapter": 8,
     "verse": 20,
     "content": [
+      "The harvest is past, the ",
       {
-        "text": "The harvest is past, the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2477,15 +2482,15 @@
     "chapter": 8,
     "verse": 22,
     "content": [
+      "Is there no balm in Gilead? is there no physician there? why then is not the ",
       {
-        "text": "Is there no balm in Gilead? is there no physician there? why then is not the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "healing", "marks": ["i"] }]
         }
       },
+      "health of the daughter of my people ",
       {
-        "text": "health of the daughter of my people ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2536,8 +2541,8 @@
     "content": [
       "And they bend their tongue, ",
       { "text": "as it were", "marks": ["i"] },
+      " their bow, for falsehood; and they are grown strong in the land, but not for ",
       {
-        "text": " their bow, for falsehood; and they are grown strong in the land, but not for ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "faithfulness", "marks": ["i"] }]
@@ -2557,8 +2562,8 @@
     "chapter": 9,
     "verse": 5,
     "content": [
+      "And they will ",
       {
-        "text": "And they will ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "mock", "marks": ["i"] }]
@@ -2643,8 +2648,8 @@
     "chapter": 9,
     "verse": 15,
     "content": [
+      "therefore thus saith Jehovah of hosts, the God of Israel, Behold, I will feed them, even this people, with wormwood, and give them water of ",
       {
-        "text": "therefore thus saith Jehovah of hosts, the God of Israel, Behold, I will feed them, even this people, with wormwood, and give them water of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "poison", "marks": ["i"] }]
@@ -2679,8 +2684,8 @@
     "chapter": 9,
     "verse": 19,
     "content": [
+      "For a voice of wailing is heard out of Zion, How are we ruined! we are greatly confounded, because we have forsaken the land, because ",
       {
-        "text": "For a voice of wailing is heard out of Zion, How are we ruined! we are greatly confounded, because we have forsaken the land, because ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2778,15 +2783,15 @@
     "chapter": 10,
     "verse": 3,
     "content": [
+      "For the ",
       {
-        "text": "For the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "statutes", "marks": ["i"] }, "."]
         }
       },
+      "customs of the peoples are vanity; for ",
       {
-        "text": "customs of the peoples are vanity; for ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2809,8 +2814,8 @@
     "chapter": 10,
     "verse": 5,
     "content": [
+      "They are like a ",
       {
-        "text": "They are like a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pillar", "marks": ["i"] }]
@@ -2833,8 +2838,8 @@
     "chapter": 10,
     "verse": 7,
     "content": [
+      "Who should not fear thee, O King of the nations? for ",
       {
-        "text": "Who should not fear thee, O King of the nations? for ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "it beseemeth thee", "marks": ["i"] }]
@@ -2848,15 +2853,15 @@
     "chapter": 10,
     "verse": 8,
     "content": [
+      "But they are ",
       {
-        "text": "But they are ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "through one thing", "marks": ["i"] }]
         }
       },
+      "together brutish and foolish: ",
       {
-        "text": "together brutish and foolish: ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2881,8 +2886,8 @@
     "chapter": 10,
     "verse": 10,
     "content": [
+      "But Jehovah is ",
       {
-        "text": "But Jehovah is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "God in truth", "marks": ["i"] }]
@@ -2900,8 +2905,8 @@
         "paragraph": true,
         "foot": { "type": "stu", "content": "This verse is in Aramaic." }
       },
+      "Thus shall ye say unto them, The gods that have not made the heavens and the earth, ",
       {
-        "text": "Thus shall ye say unto them, The gods that have not made the heavens and the earth, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2950,8 +2955,8 @@
     "chapter": 10,
     "verse": 14,
     "content": [
+      "Every man ",
       {
-        "text": "Every man ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2970,8 +2975,8 @@
     "chapter": 10,
     "verse": 15,
     "content": [
+      "They are vanity, a work of ",
       {
-        "text": "They are vanity, a work of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "mockery", "marks": ["i"] }]
@@ -2991,9 +2996,8 @@
     "chapter": 10,
     "verse": 17,
     "content": [
+      { "paragraph": true, "text": "Gather up " },
       {
-        "paragraph": true,
-        "text": "Gather up ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3002,8 +3006,8 @@
           ]
         }
       },
+      "thy wares out of the land, ",
       {
-        "text": "thy wares out of the land, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3024,8 +3028,8 @@
     "chapter": 10,
     "verse": 18,
     "content": [
+      "For thus saith Jehovah, Behold, I will sling out the inhabitants of the land at this time, and will distress them, that they may ",
       {
-        "text": "For thus saith Jehovah, Behold, I will sling out the inhabitants of the land at this time, and will distress them, that they may ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "find", "marks": ["i"] }, "."]
@@ -3067,8 +3071,8 @@
     "chapter": 10,
     "verse": 21,
     "content": [
+      "For the shepherds are become brutish, and have not inquired of Jehovah: therefore they have not ",
       {
-        "text": "For the shepherds are become brutish, and have not inquired of Jehovah: therefore they have not ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "dealt wisely", "marks": ["i"] }]
@@ -3097,15 +3101,15 @@
     "chapter": 10,
     "verse": 24,
     "content": [
+      "O Jehovah, correct me, but in ",
       {
-        "text": "O Jehovah, correct me, but in ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "judgment", "marks": ["i"] }, "."]
         }
       },
+      "measure; not in thine anger, lest thou ",
       {
-        "text": "measure; not in thine anger, lest thou ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "diminish me", "marks": ["i"] }, "."]
@@ -3119,8 +3123,8 @@
     "chapter": 10,
     "verse": 25,
     "content": [
+      "Pour out thy wrath upon the nations that know thee not, and upon the families that call not on thy name; for they have devoured Jacob, yea, they have devoured him and consumed him, and have laid waste his ",
       {
-        "text": "Pour out thy wrath upon the nations that know thee not, and upon the families that call not on thy name; for they have devoured Jacob, yea, they have devoured him and consumed him, and have laid waste his ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pasture", "marks": ["i"] }]
@@ -3209,8 +3213,8 @@
     "chapter": 11,
     "verse": 12,
     "content": [
+      "Then shall the cities of Judah and the inhabitants of Jerusalem go and cry unto the gods unto which they offer incense: but they will not save them at all in the time of their ",
       {
-        "text": "Then shall the cities of Judah and the inhabitants of Jerusalem go and cry unto the gods unto which they offer incense: but they will not save them at all in the time of their ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "evil", "marks": ["i"] }, "."]
@@ -3224,8 +3228,8 @@
     "chapter": 11,
     "verse": 13,
     "content": [
+      "For according to the number of thy cities are thy gods, O Judah; and according to the number of the streets of Jerusalem have ye set up altars to the ",
       {
-        "text": "For according to the number of thy cities are thy gods, O Judah; and according to the number of the streets of Jerusalem have ye set up altars to the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "shame", "marks": ["i"] }, "."]
@@ -3241,7 +3245,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Therefore pray not thou for this people, neither lift up cry nor prayer for them; for I will not hear them in the time that they cry unto me because of their ",
+        "text": "Therefore pray not thou for this people, neither lift up cry nor prayer for them; for I will not hear them in the time that they cry unto me because of their "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "evil", "marks": ["i"] }, "."]
@@ -3255,8 +3261,8 @@
     "chapter": 11,
     "verse": 15,
     "content": [
+      "What hath my beloved to do in my house, seeing she hath wrought lewdness ",
       {
-        "text": "What hath my beloved to do in my house, seeing she hath wrought lewdness ",
         "foot": {
           "type": "var",
           "content": [
@@ -3269,8 +3275,8 @@
         }
       },
       { "text": "with", "marks": ["i"] },
+      " many, and the holy flesh is passed from thee? ",
       {
-        "text": " many, and the holy flesh is passed from thee? ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3311,8 +3317,8 @@
     "content": [
       "But I was like a gentle lamb that is led to the slaughter; and I knew not that they had devised devices against me, ",
       { "text": "saying", "marks": ["i"] },
+      ", Let us destroy the tree with the ",
       {
-        "text": ", Let us destroy the tree with the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "bread", "marks": ["i"] }, "."]
@@ -3326,8 +3332,8 @@
     "chapter": 11,
     "verse": 20,
     "content": [
+      "But, O Jehovah of hosts, who judgest righteously, who triest the ",
       {
-        "text": "But, O Jehovah of hosts, who judgest righteously, who triest the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "reins", "marks": ["i"] }, "."]
@@ -3347,8 +3353,8 @@
     "chapter": 11,
     "verse": 22,
     "content": [
+      "therefore thus saith Jehovah of hosts, Behold, I will ",
       {
-        "text": "therefore thus saith Jehovah of hosts, Behold, I will ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "visit upon", "marks": ["i"] }, "."]
@@ -3362,8 +3368,8 @@
     "chapter": 11,
     "verse": 23,
     "content": [
+      "and there shall be no remnant unto them: for I will bring evil upon the men of Anathoth, ",
       {
-        "text": "and there shall be no remnant unto them: for I will bring evil upon the men of Anathoth, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in the year", "marks": ["i"] }]
@@ -3379,7 +3385,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Righteous art thou, O Jehovah, when I contend with thee; yet would I ",
+        "text": "Righteous art thou, O Jehovah, when I contend with thee; yet would I "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -3397,8 +3405,8 @@
     "chapter": 12,
     "verse": 2,
     "content": [
+      "Thou hast planted them, yea, they have taken root; they grow, yea, they bring forth fruit: thou art near in their mouth, and far from their ",
       {
-        "text": "Thou hast planted them, yea, they have taken root; they grow, yea, they bring forth fruit: thou art near in their mouth, and far from their ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "reins", "marks": ["i"] }, "."]
@@ -3412,8 +3420,8 @@
     "chapter": 12,
     "verse": 3,
     "content": [
+      "But thou, O Jehovah, knowest me; thou seest me, and triest my heart toward thee: pull them out like sheep for the slaughter, and ",
       {
-        "text": "But thou, O Jehovah, knowest me; thou seest me, and triest my heart toward thee: pull them out like sheep for the slaughter, and ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "sanctify", "marks": ["i"] }, "."]
@@ -3435,7 +3443,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "If thou hast run with the footmen, and they have wearied thee, then how canst thou contend with horses? and though in a land of peace thou art secure, yet how wilt thou do in the ",
+        "text": "If thou hast run with the footmen, and they have wearied thee, then how canst thou contend with horses? and though in a land of peace thou art secure, yet how wilt thou do in the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "swelling", "marks": ["i"] }]
@@ -3449,8 +3459,8 @@
     "chapter": 12,
     "verse": 6,
     "content": [
+      "For even thy brethren, and the house of thy father, even they have dealt treacherously with thee; even they have cried aloud after thee: believe them not, though they speak ",
       {
-        "text": "For even thy brethren, and the house of thy father, even they have dealt treacherously with thee; even they have cried aloud after thee: believe them not, though they speak ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "good things", "marks": ["i"] }, "."]
@@ -3503,8 +3513,8 @@
     "chapter": 12,
     "verse": 13,
     "content": [
+      "They have sown wheat, and have reaped thorns; they have put themselves to pain, and profit nothing: and ",
       {
-        "text": "They have sown wheat, and have reaped thorns; they have put themselves to pain, and profit nothing: and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3627,14 +3637,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Therefore thou shalt speak unto them this word: Thus saith Jehovah, the God of Israel, Every ",
+        "text": "Therefore thou shalt speak unto them this word: Thus saith Jehovah, the God of Israel, Every "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "jar", "marks": ["i"] }]
         }
       },
+      "bottle shall be filled with wine: and they shall say unto thee, Do we not certainly know that every ",
       {
-        "text": "bottle shall be filled with wine: and they shall say unto thee, Do we not certainly know that every ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "jar", "marks": ["i"] }]
@@ -3648,8 +3660,8 @@
     "chapter": 13,
     "verse": 13,
     "content": [
+      "Then shalt thou say unto them, Thus saith Jehovah, Behold, I will fill all the inhabitants of this land, even the kings that sit ",
       {
-        "text": "Then shalt thou say unto them, Thus saith Jehovah, Behold, I will fill all the inhabitants of this land, even the kings that sit ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3682,15 +3694,15 @@
     "chapter": 13,
     "verse": 16,
     "content": [
+      "Give glory to Jehovah your God, before ",
       {
-        "text": "Give glory to Jehovah your God, before ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "it grow dark", "marks": ["i"] }]
         }
       },
+      "he cause darkness, and before your feet stumble upon the ",
       {
-        "text": "he cause darkness, and before your feet stumble upon the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3700,8 +3712,8 @@
           ]
         }
       },
+      "dark mountains, and, while ye look for light, he turn it into ",
       {
-        "text": "dark mountains, and, while ye look for light, he turn it into ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deep darkness", "marks": ["i"] }]
@@ -3727,14 +3739,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Say thou unto the king and to the queen-mother, ",
+        "text": "Say thou unto the king and to the queen-mother, "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Sit ye down low", "marks": ["i"] }]
         }
       },
+      "Humble yourselves, sit down; for your headtires are come down, even ",
       {
-        "text": "Humble yourselves, sit down; for your headtires are come down, even ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3789,8 +3803,8 @@
     "chapter": 13,
     "verse": 22,
     "content": [
+      "And if thou say in thy heart, Wherefore are these things come upon me? for the ",
       {
-        "text": "And if thou say in thy heart, Wherefore are these things come upon me? for the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "multitude", "marks": ["i"] }]
@@ -3804,8 +3818,8 @@
     "chapter": 13,
     "verse": 23,
     "content": [
+      "Can the Ethiopian change his skin, or the leopard his spots? then may ye also do good, that are ",
       {
-        "text": "Can the Ethiopian change his skin, or the leopard his spots? then may ye also do good, that are ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "taught", "marks": ["i"] }, "."]
@@ -3819,8 +3833,8 @@
     "chapter": 13,
     "verse": 24,
     "content": [
+      "Therefore will I scatter them, as the stubble that passeth away, ",
       {
-        "text": "Therefore will I scatter them, as the stubble that passeth away, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "unto", "marks": ["i"] }]
@@ -3840,8 +3854,8 @@
     "chapter": 13,
     "verse": 26,
     "content": [
+      "Therefore will I also uncover thy skirts ",
       {
-        "text": "Therefore will I also uncover thy skirts ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "before", "marks": ["i"] }]
@@ -3882,15 +3896,15 @@
     "chapter": 14,
     "verse": 3,
     "content": [
+      "And their nobles send their ",
       {
-        "text": "And their nobles send their ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "inferiors", "marks": ["i"] }]
         }
       },
+      "little ones ",
       {
-        "text": "little ones ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "for water", "marks": ["i"] }]
@@ -3904,8 +3918,8 @@
     "chapter": 14,
     "verse": 4,
     "content": [
+      "Because of the ground which is ",
       {
-        "text": "Because of the ground which is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "dismayed", "marks": ["i"] }]
@@ -3929,8 +3943,8 @@
     "chapter": 14,
     "verse": 6,
     "content": [
+      "And the wild asses stand on the bare heights, they pant for air like ",
       {
-        "text": "And the wild asses stand on the bare heights, they pant for air like ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the crocodile", "marks": ["i"] }]
@@ -3953,8 +3967,8 @@
     "chapter": 14,
     "verse": 8,
     "content": [
+      "O thou hope of Israel, the Saviour thereof in the time of trouble, why shouldest thou be as a sojourner in the land, and as a wayfaring man that ",
       {
-        "text": "O thou hope of Israel, the Saviour thereof in the time of trouble, why shouldest thou be as a sojourner in the land, and as a wayfaring man that ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4005,7 +4019,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Then said I, Ah, Lord Jehovah! behold, the prophets say unto them, Ye shall not see the sword, neither shall ye have famine; but I will give you ",
+        "text": "Then said I, Ah, Lord Jehovah! behold, the prophets say unto them, Ye shall not see the sword, neither shall ye have famine; but I will give you "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -4047,8 +4063,8 @@
     "chapter": 14,
     "verse": 18,
     "content": [
+      "If I go forth into the field, then, behold, the slain with the sword! and if I enter into the city, then, behold, ",
       {
-        "text": "If I go forth into the field, then, behold, the slain with the sword! and if I enter into the city, then, behold, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4058,15 +4074,15 @@
           ]
         }
       },
+      "they that are sick with famine! for both the prophet and the priest ",
       {
-        "text": "they that are sick with famine! for both the prophet and the priest ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "traffic", "marks": ["i"] }]
         }
       },
+      "go about ",
       {
-        "text": "go about ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4092,8 +4108,8 @@
     "chapter": 14,
     "verse": 20,
     "content": [
+      "We ",
       {
-        "text": "We ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "know", "marks": ["i"] }]
@@ -4107,8 +4123,8 @@
     "chapter": 14,
     "verse": 21,
     "content": [
+      "Do not ",
       {
-        "text": "Do not ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "contemn", "marks": ["i"] }]
@@ -4124,8 +4140,8 @@
     "chapter": 14,
     "verse": 22,
     "content": [
+      "Are there any among the vanities of the nations that can cause rain? or can the heavens give showers? art not thou he, O Jehovah our God? therefore we will wait for thee; for thou hast ",
       {
-        "text": "Are there any among the vanities of the nations that can cause rain? or can the heavens give showers? art not thou he, O Jehovah our God? therefore we will wait for thee; for thou hast ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "done", "marks": ["i"] }]
@@ -4154,15 +4170,15 @@
     "chapter": 15,
     "verse": 3,
     "content": [
+      "And I will appoint over them four ",
       {
-        "text": "And I will appoint over them four ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "families", "marks": ["i"] }, "."]
         }
       },
+      "kinds, saith Jehovah: the sword to slay, and the dogs to ",
       {
-        "text": "kinds, saith Jehovah: the sword to slay, and the dogs to ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "drag", "marks": ["i"] }, "."]
@@ -4207,8 +4223,8 @@
     "chapter": 15,
     "verse": 8,
     "content": [
+      "Their widows are increased to me above the sand of the seas; I have brought upon them ",
       {
-        "text": "Their widows are increased to me above the sand of the seas; I have brought upon them ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4246,9 +4262,8 @@
     "chapter": 15,
     "verse": 11,
     "content": [
+      { "paragraph": true, "text": "Jehovah said, Verily I will " },
       {
-        "paragraph": true,
-        "text": "Jehovah said, Verily I will ",
         "foot": {
           "type": "var",
           "content": [
@@ -4257,8 +4272,8 @@
           ]
         }
       },
+      "strengthen thee for good; verily ",
       {
-        "text": "strengthen thee for good; verily ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4301,8 +4316,8 @@
     "chapter": 15,
     "verse": 14,
     "content": [
+      "And ",
       {
-        "text": "And ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4347,8 +4362,8 @@
     "content": [
       "Why is my pain perpetual, and my wound incurable, which refuseth to be healed? wilt thou indeed be unto me as a deceitful ",
       { "text": "brook", "marks": ["i"] },
+      ", as waters that ",
       {
-        "text": ", as waters that ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4411,8 +4426,8 @@
     "chapter": 16,
     "verse": 4,
     "content": [
+      "They shall die ",
       {
-        "text": "They shall die ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4488,8 +4503,8 @@
     "chapter": 16,
     "verse": 13,
     "content": [
+      "therefore will I cast you forth out of this land into the land that ye have not known, neither ye nor your fathers; and there shall ye serve other gods day and night; ",
       {
-        "text": "therefore will I cast you forth out of this land into the land that ye have not known, neither ye nor your fathers; and there shall ye serve other gods day and night; ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "where", "marks": ["i"] }]
@@ -4533,8 +4548,8 @@
     "chapter": 16,
     "verse": 18,
     "content": [
+      "And first I will recompense their iniquity and their sin double, ",
       {
-        "text": "And first I will recompense their iniquity and their sin double, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4587,8 +4602,8 @@
         "text": "The sin of Judah is written with a pen of iron, "
       },
       { "text": "and", "marks": ["i"] },
+      " with the point of a diamond: it is graven upon the tablet of their heart, and upon the horns of ",
       {
-        "text": " with the point of a diamond: it is graven upon the tablet of their heart, and upon the horns of ",
         "foot": {
           "type": "var",
           "content": [
@@ -4637,8 +4652,8 @@
     "chapter": 17,
     "verse": 6,
     "content": [
+      "For he shall be like ",
       {
-        "text": "For he shall be like ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a tamarisk", "marks": ["i"] }]
@@ -4658,8 +4673,8 @@
     "chapter": 17,
     "verse": 8,
     "content": [
+      "For he shall be as a tree planted by the waters, that spreadeth out its roots by the river, and shall not ",
       {
-        "text": "For he shall be as a tree planted by the waters, that spreadeth out its roots by the river, and shall not ",
         "foot": {
           "type": "var",
           "content": [
@@ -4686,8 +4701,8 @@
     "chapter": 17,
     "verse": 10,
     "content": [
+      "I, Jehovah, search the mind, I try the ",
       {
-        "text": "I, Jehovah, search the mind, I try the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "reins", "marks": ["i"] }, "."]
@@ -4701,8 +4716,8 @@
     "chapter": 17,
     "verse": 11,
     "content": [
+      "As the partridge ",
       {
-        "text": "As the partridge ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4715,8 +4730,8 @@
       },
       "that sitteth on ",
       { "text": "eggs", "marks": ["i"] },
+      " which she hath not laid, so is he that getteth riches, and not by right; in the midst of his days ",
       {
-        "text": " which she hath not laid, so is he that getteth riches, and not by right; in the midst of his days ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "he shall leave them", "marks": ["i"] }]
@@ -4758,8 +4773,8 @@
     "chapter": 17,
     "verse": 16,
     "content": [
+      "As for me, I have not hastened from being a shepherd after thee; neither have I desired ",
       {
-        "text": "As for me, I have not hastened from being a shepherd after thee; neither have I desired ",
         "foot": {
           "type": "var",
           "content": [
@@ -4783,8 +4798,8 @@
     "chapter": 17,
     "verse": 18,
     "content": [
+      "Let them be put to shame that persecute me, but let not me be put to shame; let them be dismayed, but let not me be dismayed; bring upon them the day of evil, and ",
       {
-        "text": "Let them be put to shame that persecute me, but let not me be put to shame; let them be dismayed, but let not me be dismayed; bring upon them the day of evil, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4804,7 +4819,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Thus said Jehovah unto me: Go, and stand in the gate of ",
+        "text": "Thus said Jehovah unto me: Go, and stand in the gate of "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -4830,8 +4847,8 @@
     "chapter": 17,
     "verse": 21,
     "content": [
+      "Thus saith Jehovah, Take heed ",
       {
-        "text": "Thus saith Jehovah, Take heed ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4869,8 +4886,8 @@
     "chapter": 17,
     "verse": 25,
     "content": [
+      "then shall there enter in by the gates of this city kings and princes sitting upon the throne of David, riding in chariots and on horses, they, and their princes, the men of Judah, and the inhabitants of Jerusalem; and this city shall ",
       {
-        "text": "then shall there enter in by the gates of this city kings and princes sitting upon the throne of David, riding in chariots and on horses, they, and their princes, the men of Judah, and the inhabitants of Jerusalem; and this city shall ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "be inhabited", "marks": ["i"] }]
@@ -4992,8 +5009,8 @@
     "content": [
       "Shall the snow of Lebanon fail from the rock of the field? ",
       { "text": "or", "marks": ["i"] },
+      " shall the cold waters ",
       {
-        "text": " shall the cold waters ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5005,8 +5022,8 @@
           ]
         }
       },
+      "that flow down from afar be ",
       {
-        "text": "that flow down from afar be ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "plucked up", "marks": ["i"] }]
@@ -5082,8 +5099,8 @@
     "chapter": 18,
     "verse": 23,
     "content": [
+      "Yet, Jehovah, thou knowest all their counsel against me to slay me; forgive not their iniquity, neither blot out their sin from thy sight; but let them be ",
       {
-        "text": "Yet, Jehovah, thou knowest all their counsel against me to slay me; forgive not their iniquity, neither blot out their sin from thy sight; but let them be ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5117,8 +5134,8 @@
     "chapter": 19,
     "verse": 2,
     "content": [
+      "and go forth unto the valley of the son of Hinnom, which is by the entry of ",
       {
-        "text": "and go forth unto the valley of the son of Hinnom, which is by the entry of ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5147,8 +5164,8 @@
     "chapter": 19,
     "verse": 5,
     "content": [
+      "and have built the high places of Baal, to burn their sons in the fire for burnt-offerings unto Baal; which I commanded not, nor spake it, neither came it into my ",
       {
-        "text": "and have built the high places of Baal, to burn their sons in the fire for burnt-offerings unto Baal; which I commanded not, nor spake it, neither came it into my ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "heart", "marks": ["i"] }, "."]
@@ -5168,8 +5185,8 @@
     "chapter": 19,
     "verse": 7,
     "content": [
+      "And I will ",
       {
-        "text": "And I will ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "empty out", "marks": ["i"] }, "."]
@@ -5204,8 +5221,8 @@
     "chapter": 19,
     "verse": 11,
     "content": [
+      "and shalt say unto them, Thus saith Jehovah of hosts: Even so will I break this people and this city, as one breaketh a potter’s vessel, that cannot be made whole again; and they shall bury in Topheth, ",
       {
-        "text": "and shalt say unto them, Thus saith Jehovah of hosts: Even so will I break this people and this city, as one breaketh a potter’s vessel, that cannot be made whole again; and they shall bury in Topheth, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5264,8 +5281,8 @@
     "chapter": 20,
     "verse": 3,
     "content": [
+      "And it came to pass on the morrow, that Pashhur brought forth Jeremiah out of the stocks. Then said Jeremiah unto him, Jehovah hath not called thy name Pashhur, but ",
       {
-        "text": "And it came to pass on the morrow, that Pashhur brought forth Jeremiah out of the stocks. Then said Jeremiah unto him, Jehovah hath not called thy name Pashhur, but ",
         "foot": {
           "type": "stu",
           "content": [
@@ -5301,9 +5318,8 @@
     "chapter": 20,
     "verse": 7,
     "content": [
+      { "paragraph": true, "text": "O Jehovah, thou hast " },
       {
-        "paragraph": true,
-        "text": "O Jehovah, thou hast ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "enticed", "marks": ["i"] }]
@@ -5345,8 +5361,8 @@
     "content": [
       "But Jehovah is with me as a mighty one ",
       { "text": "and", "marks": ["i"] },
+      " a terrible: therefore my persecutors shall stumble, and they shall not prevail; they shall be utterly put to shame, because they have not ",
       {
-        "text": " a terrible: therefore my persecutors shall stumble, and they shall not prevail; they shall be utterly put to shame, because they have not ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "prospered", "marks": ["i"] }]
@@ -5360,8 +5376,8 @@
     "chapter": 20,
     "verse": 12,
     "content": [
+      "But, O Jehovah of hosts, that triest the righteous, that seest the ",
       {
-        "text": "But, O Jehovah of hosts, that triest the righteous, that seest the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "reins", "marks": ["i"] }, "."]
@@ -5396,8 +5412,8 @@
     "chapter": 20,
     "verse": 16,
     "content": [
+      "And let that man be as the cities which Jehovah overthrew, and repented not: and let him hear a cry in the morning, and ",
       {
-        "text": "And let that man be as the cities which Jehovah overthrew, and repented not: and let him hear a cry in the morning, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "an alarm", "marks": ["i"] }]
@@ -5504,8 +5520,8 @@
     "chapter": 21,
     "verse": 12,
     "content": [
+      "O house of David, thus saith Jehovah, Execute justice in the morning, and deliver him that is robbed out of the hand of the oppressor, lest my wrath go forth like fire, and burn so that none can quench it, because of the evil of ",
       {
-        "text": "O house of David, thus saith Jehovah, Execute justice in the morning, and deliver him that is robbed out of the hand of the oppressor, lest my wrath go forth like fire, and burn so that none can quench it, because of the evil of ",
         "foot": {
           "type": "var",
           "content": [
@@ -5522,15 +5538,15 @@
     "chapter": 21,
     "verse": 13,
     "content": [
+      "Behold, I am against thee, O ",
       {
-        "text": "Behold, I am against thee, O ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "inhabitress", "marks": ["i"] }, "."]
         }
       },
+      "inhabitant of the valley, ",
       {
-        "text": "inhabitant of the valley, ",
         "foot": {
           "type": "trn",
           "content": ["Or, and ", { "text": "rock", "marks": ["i"] }]
@@ -5575,8 +5591,8 @@
     "chapter": 22,
     "verse": 4,
     "content": [
+      "For if ye do this thing indeed, then shall there enter in by the gates of this house kings sitting ",
       {
-        "text": "For if ye do this thing indeed, then shall there enter in by the gates of this house kings sitting ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5600,8 +5616,8 @@
     "chapter": 22,
     "verse": 6,
     "content": [
+      "For thus saith Jehovah ",
       {
-        "text": "For thus saith Jehovah ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "unto", "marks": ["i"] }]
@@ -5621,8 +5637,8 @@
     "chapter": 22,
     "verse": 7,
     "content": [
+      "And I will ",
       {
-        "text": "And I will ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "sanctify", "marks": ["i"] }, "."]
@@ -5657,8 +5673,8 @@
     "chapter": 22,
     "verse": 11,
     "content": [
+      "For thus saith Jehovah touching ",
       {
-        "text": "For thus saith Jehovah touching ",
         "foot": {
           "type": "stu",
           "content": [
@@ -5703,8 +5719,8 @@
     "chapter": 22,
     "verse": 15,
     "content": [
+      "Shalt thou reign, because thou ",
       {
-        "text": "Shalt thou reign, because thou ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5727,8 +5743,8 @@
     "chapter": 22,
     "verse": 17,
     "content": [
+      "But thine eyes and thy heart are not but for thy ",
       {
-        "text": "But thine eyes and thy heart are not but for thy ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "dishonest gain", "marks": ["i"] }]
@@ -5775,8 +5791,8 @@
     "chapter": 22,
     "verse": 22,
     "content": [
+      "The wind shall ",
       {
-        "text": "The wind shall ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "feed upon", "marks": ["i"] }]
@@ -5790,8 +5806,8 @@
     "chapter": 22,
     "verse": 23,
     "content": [
+      "O ",
       {
-        "text": "O ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "inhabitress", "marks": ["i"] }, "."]
@@ -5805,9 +5821,8 @@
     "chapter": 22,
     "verse": 24,
     "content": [
+      { "paragraph": true, "text": "As I live, saith Jehovah, though " },
       {
-        "paragraph": true,
-        "text": "As I live, saith Jehovah, though ",
         "foot": {
           "type": "stu",
           "content": [
@@ -5847,8 +5862,8 @@
     "chapter": 22,
     "verse": 27,
     "content": [
+      "But to the land whereunto ",
       {
-        "text": "But to the land whereunto ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5866,8 +5881,8 @@
     "chapter": 22,
     "verse": 28,
     "content": [
+      "Is this man Coniah a despised broken ",
       {
-        "text": "Is this man Coniah a despised broken ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pot", "marks": ["i"] }]
@@ -5881,8 +5896,8 @@
     "chapter": 22,
     "verse": 29,
     "content": [
+      "O ",
       {
-        "text": "O ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "land", "marks": ["i"] }]
@@ -5931,7 +5946,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Behold, the days come, saith Jehovah, that I will raise unto David a righteous ",
+        "text": "Behold, the days come, saith Jehovah, that I will raise unto David a righteous "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -5942,8 +5959,8 @@
           ]
         }
       },
+      "Branch, and he shall reign as king and ",
       {
-        "text": "Branch, and he shall reign as king and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "prosper", "marks": ["i"] }]
@@ -5957,8 +5974,8 @@
     "chapter": 23,
     "verse": 6,
     "content": [
+      "In his days Judah shall be saved, and Israel shall dwell safely; and this is his name whereby he shall be called: ",
       {
-        "text": "In his days Judah shall be saved, and Israel shall dwell safely; and this is his name whereby he shall be called: ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5996,8 +6013,8 @@
     "chapter": 23,
     "verse": 10,
     "content": [
+      "For the land is full of adulterers; for because of ",
       {
-        "text": "For the land is full of adulterers; for because of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the curse", "marks": ["i"] }]
@@ -6017,8 +6034,8 @@
     "chapter": 23,
     "verse": 12,
     "content": [
+      "Wherefore their way shall be unto them as slippery places in the darkness: they shall be driven on, and fall therein; for I will bring evil upon them, ",
       {
-        "text": "Wherefore their way shall be unto them as slippery places in the darkness: they shall be driven on, and fall therein; for I will bring evil upon them, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in the year", "marks": ["i"] }]
@@ -6047,8 +6064,8 @@
     "chapter": 23,
     "verse": 15,
     "content": [
+      "Therefore thus saith Jehovah of hosts concerning the prophets: Behold, I will feed them with wormwood, and make them drink the water of ",
       {
-        "text": "Therefore thus saith Jehovah of hosts concerning the prophets: Behold, I will feed them with wormwood, and make them drink the water of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "poison", "marks": ["i"] }]
@@ -6077,8 +6094,8 @@
     "chapter": 23,
     "verse": 18,
     "content": [
+      "For who hath stood in the council of Jehovah, that he should perceive and hear his word? who hath marked ",
       {
-        "text": "For who hath stood in the council of Jehovah, that he should perceive and hear his word? who hath marked ",
         "foot": {
           "type": "var",
           "content": ["Another reading is, ", { "text": "his", "marks": ["i"] }]
@@ -6102,15 +6119,15 @@
     "chapter": 23,
     "verse": 20,
     "content": [
+      "The anger of Jehovah shall not return, until he have ",
       {
-        "text": "The anger of Jehovah shall not return, until he have ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "done", "marks": ["i"] }, " it"]
         }
       },
+      "executed, and till he have performed the intents of his heart: in the latter days ye shall ",
       {
-        "text": "executed, and till he have performed the intents of his heart: in the latter days ye shall ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "consider", "marks": ["i"] }]
@@ -6187,8 +6204,8 @@
     "chapter": 23,
     "verse": 31,
     "content": [
+      "Behold, I am against the prophets, saith Jehovah, that ",
       {
-        "text": "Behold, I am against the prophets, saith Jehovah, that ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "take", "marks": ["i"] }, "."]
@@ -6210,7 +6227,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And when this people, or the prophet, or a priest, shall ask thee, saying, What is the burden of Jehovah? then shalt thou ",
+        "text": "And when this people, or the prophet, or a priest, shall ask thee, saying, What is the burden of Jehovah? then shalt thou "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -6239,8 +6258,8 @@
     "chapter": 23,
     "verse": 36,
     "content": [
+      "And the burden of Jehovah shall ye mention no more: for every man’s own word ",
       {
-        "text": "And the burden of Jehovah shall ye mention no more: for every man’s own word ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6341,8 +6360,8 @@
     "chapter": 24,
     "verse": 9,
     "content": [
+      "I will even give them up to be ",
       {
-        "text": "I will even give them up to be ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a terror unto", "marks": ["i"] }]
@@ -6418,8 +6437,8 @@
     "content": [
       "behold, I will send and take all the families of the north, saith Jehovah, and ",
       { "text": "I will send", "marks": ["i"] },
+      " unto Nebuchadrezzar the king of Babylon, my servant, and will bring them against this land, and against the inhabitants thereof, and against all these nations round about; and I will ",
       {
-        "text": " unto Nebuchadrezzar the king of Babylon, my servant, and will bring them against this land, and against the inhabitants thereof, and against all these nations round about; and I will ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "devote", "marks": ["i"] }, "."]
@@ -6433,8 +6452,8 @@
     "chapter": 25,
     "verse": 10,
     "content": [
+      "Moreover I will ",
       {
-        "text": "Moreover I will ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6460,7 +6479,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And it shall come to pass, when seventy years are accomplished, that I will punish the king of Babylon, and that nation, saith Jehovah, for their iniquity, and the land of the Chaldeans; and I will make it ",
+        "text": "And it shall come to pass, when seventy years are accomplished, that I will punish the king of Babylon, and that nation, saith Jehovah, for their iniquity, and the land of the Chaldeans; and I will make it "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -6484,8 +6505,8 @@
     "chapter": 25,
     "verse": 14,
     "content": [
+      "For many nations and great kings ",
       {
-        "text": "For many nations and great kings ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "have made", "marks": ["i"] }]
@@ -6547,8 +6568,8 @@
     "chapter": 25,
     "verse": 22,
     "content": [
+      "and all the kings of Tyre, and all the kings of Sidon, and the kings of the ",
       {
-        "text": "and all the kings of Tyre, and all the kings of Sidon, and the kings of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "coast-land", "marks": ["i"] }]
@@ -6613,7 +6634,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Therefore prophesy thou against them all these words, and say unto them, Jehovah will roar from on high, and utter his voice from his holy habitation; he will mightily roar against his ",
+        "text": "Therefore prophesy thou against them all these words, and say unto them, Jehovah will roar from on high, and utter his voice from his holy habitation; he will mightily roar against his "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pasture", "marks": ["i"] }]
@@ -6660,8 +6683,8 @@
     "chapter": 25,
     "verse": 35,
     "content": [
+      "And ",
       {
-        "text": "And ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6866,8 +6889,8 @@
     "chapter": 26,
     "verse": 23,
     "content": [
+      "and they fetched forth Uriah out of Egypt, and brought him unto Jehoiakim the king, who slew him with the sword, and cast his dead body into the graves of the ",
       {
-        "text": "and they fetched forth Uriah out of Egypt, and brought him unto Jehoiakim the king, who slew him with the sword, and cast his dead body into the graves of the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6894,9 +6917,8 @@
     "chapter": 27,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "In the beginning of the reign of " },
       {
-        "paragraph": true,
-        "text": "In the beginning of the reign of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -7111,8 +7133,8 @@
     "chapter": 28,
     "verse": 9,
     "content": [
+      "The prophet that prophesieth of peace, when the word of the prophet shall come to pass, then shall the prophet be known, ",
       {
-        "text": "The prophet that prophesieth of peace, when the word of the prophet shall come to pass, then shall the prophet be known, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7229,8 +7251,8 @@
     "chapter": 29,
     "verse": 8,
     "content": [
+      "For thus saith Jehovah of hosts, the God of Israel: Let not your prophets that are in the midst of you, and your diviners, deceive you; neither hearken ye to your dreams which ye ",
       {
-        "text": "For thus saith Jehovah of hosts, the God of Israel: Let not your prophets that are in the midst of you, and your diviners, deceive you; neither hearken ye to your dreams which ye ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "dream", "marks": ["i"] }]
@@ -7256,8 +7278,8 @@
     "chapter": 29,
     "verse": 11,
     "content": [
+      "For I know the thoughts that I think toward you, saith Jehovah, thoughts of peace, and not of evil, to give you ",
       {
-        "text": "For I know the thoughts that I think toward you, saith Jehovah, thoughts of peace, and not of evil, to give you ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7287,8 +7309,8 @@
     "chapter": 29,
     "verse": 14,
     "content": [
+      "And I will be found of you, saith Jehovah, and I will ",
       {
-        "text": "And I will be found of you, saith Jehovah, and I will ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
@@ -7323,8 +7345,8 @@
     "chapter": 29,
     "verse": 18,
     "content": [
+      "And I will pursue after them with the sword, with the famine, and with the pestilence, and will deliver them to be ",
       {
-        "text": "And I will pursue after them with the sword, with the famine, and with the pestilence, and will deliver them to be ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a terror unto", "marks": ["i"] }]
@@ -7371,9 +7393,8 @@
     "chapter": 29,
     "verse": 24,
     "content": [
+      { "paragraph": true, "text": "And " },
       {
-        "paragraph": true,
-        "text": "And ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "unto", "marks": ["i"] }]
@@ -7393,8 +7414,8 @@
     "chapter": 29,
     "verse": 26,
     "content": [
+      "Jehovah hath made thee priest in the stead of Jehoiada the priest, that there may be officers in the house of Jehovah, for every man that is mad, and maketh himself a prophet, that thou shouldest put him in the stocks and in ",
       {
-        "text": "Jehovah hath made thee priest in the stead of Jehoiada the priest, that there may be officers in the house of Jehovah, for every man that is mad, and maketh himself a prophet, that thou shouldest put him in the stocks and in ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the collar", "marks": ["i"] }]
@@ -7466,8 +7487,8 @@
     "chapter": 30,
     "verse": 3,
     "content": [
+      "For, lo, the days come, saith Jehovah, that I will ",
       {
-        "text": "For, lo, the days come, saith Jehovah, that I will ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
@@ -7490,8 +7511,8 @@
     "chapter": 30,
     "verse": 5,
     "content": [
+      "For thus saith Jehovah: We have heard a voice of trembling, ",
       {
-        "text": "For thus saith Jehovah: We have heard a voice of trembling, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7538,15 +7559,15 @@
     "chapter": 30,
     "verse": 11,
     "content": [
+      "For I am with thee, saith Jehovah, to save thee: for I will make a full end of all the nations whither I have scattered thee, but I will not make a full end of thee; but I will correct thee in ",
       {
-        "text": "For I am with thee, saith Jehovah, to save thee: for I will make a full end of all the nations whither I have scattered thee, but I will not make a full end of thee; but I will correct thee in ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "judgment", "marks": ["i"] }, "."]
         }
       },
+      "measure, and will in no wise ",
       {
-        "text": "measure, and will in no wise ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "hold thee guiltless", "marks": ["i"] }]
@@ -7569,8 +7590,8 @@
     "chapter": 30,
     "verse": 13,
     "content": [
+      "There is none to plead ",
       {
-        "text": "There is none to plead ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7583,8 +7604,8 @@
           ]
         }
       },
+      "thy cause, ",
       {
-        "text": "thy cause, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7604,8 +7625,8 @@
     "chapter": 30,
     "verse": 14,
     "content": [
+      "All thy lovers have forgotten thee; they seek thee not: for I have wounded thee with the wound of an enemy, with the chastisement of a cruel one, for the ",
       {
-        "text": "All thy lovers have forgotten thee; they seek thee not: for I have wounded thee with the wound of an enemy, with the chastisement of a cruel one, for the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "multitude", "marks": ["i"] }]
@@ -7619,8 +7640,8 @@
     "chapter": 30,
     "verse": 15,
     "content": [
+      "Why criest thou ",
       {
-        "text": "Why criest thou ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7632,8 +7653,8 @@
           ]
         }
       },
+      "for thy hurt? thy pain is incurable: for the ",
       {
-        "text": "for thy hurt? thy pain is incurable: for the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "multitude", "marks": ["i"] }]
@@ -7655,8 +7676,8 @@
     "content": [
       "For I will restore health unto thee, and I will heal thee of thy wounds, saith Jehovah; because they have called thee an outcast, ",
       { "text": "saying", "marks": ["i"] },
+      ", It is Zion, whom no man ",
       {
-        "text": ", It is Zion, whom no man ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "careth for", "marks": ["i"] }]
@@ -7670,16 +7691,15 @@
     "chapter": 30,
     "verse": 18,
     "content": [
+      { "paragraph": true, "text": "Thus saith Jehovah: Behold, I will " },
       {
-        "paragraph": true,
-        "text": "Thus saith Jehovah: Behold, I will ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
         }
       },
+      "turn again the captivity of Jacob’s tents, and have compassion on his dwelling-places; and the city shall be builded upon its own ",
       {
-        "text": "turn again the captivity of Jacob’s tents, and have compassion on his dwelling-places; and the city shall be builded upon its own ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7691,8 +7711,8 @@
           ]
         }
       },
+      "hill, and the palace shall ",
       {
-        "text": "hill, and the palace shall ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "remain", "marks": ["i"] }]
@@ -7718,8 +7738,8 @@
     "chapter": 30,
     "verse": 21,
     "content": [
+      "And their prince shall be of themselves, and their ruler shall proceed from the midst of them; and I will cause him to draw near, and he shall approach unto me: for who is he that ",
       {
-        "text": "And their prince shall be of themselves, and their ruler shall proceed from the midst of them; and I will cause him to draw near, and he shall approach unto me: for who is he that ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7745,8 +7765,8 @@
     "content": [
       { "paragraph": true, "text": "Behold, the tempest of Jehovah, " },
       { "text": "even his", "marks": ["i"] },
+      " wrath, is gone forth, a ",
       {
-        "text": " wrath, is gone forth, a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "gathering", "marks": ["i"] }]
@@ -7775,8 +7795,8 @@
     "chapter": 31,
     "verse": 2,
     "content": [
+      "Thus saith Jehovah, The people that were left of the sword ",
       {
-        "text": "Thus saith Jehovah, The people that were left of the sword ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7785,8 +7805,8 @@
           ]
         }
       },
+      "found favor in the wilderness; even Israel, ",
       {
-        "text": "found favor in the wilderness; even Israel, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7803,8 +7823,8 @@
     "chapter": 31,
     "verse": 3,
     "content": [
+      "Jehovah appeared ",
       {
-        "text": "Jehovah appeared ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "from afar", "marks": ["i"] }]
@@ -7812,8 +7832,8 @@
       },
       "of old unto me, ",
       { "text": "saying", "marks": ["i"] },
+      ", Yea, I have loved thee with an everlasting love: therefore ",
       {
-        "text": ", Yea, I have loved thee with an everlasting love: therefore ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7839,8 +7859,8 @@
     "chapter": 31,
     "verse": 5,
     "content": [
+      "Again shalt thou plant vineyards upon the mountains of Samaria; the planters shall plant, and shall ",
       {
-        "text": "Again shalt thou plant vineyards upon the mountains of Samaria; the planters shall plant, and shall ",
         "foot": {
           "type": "trn",
           "content": [
@@ -7876,7 +7896,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "For thus saith Jehovah, Sing with gladness for Jacob, and shout ",
+        "text": "For thus saith Jehovah, Sing with gladness for Jacob, and shout "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "at the head", "marks": ["i"] }]
@@ -7900,8 +7922,8 @@
     "chapter": 31,
     "verse": 9,
     "content": [
+      "They shall come with weeping; and with supplications will I lead them: I will ",
       {
-        "text": "They shall come with weeping; and with supplications will I lead them: I will ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "bring them unto", "marks": ["i"] }]
@@ -7991,8 +8013,8 @@
     "chapter": 31,
     "verse": 20,
     "content": [
+      "Is Ephraim my dear son? is he a darling child? for as often as I speak against him, I do earnestly remember him still: therefore my heart ",
       {
-        "text": "Is Ephraim my dear son? is he a darling child? for as often as I speak against him, I do earnestly remember him still: therefore my heart ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "soundeth", "marks": ["i"] }, "."]
@@ -8023,7 +8045,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Thus saith Jehovah of hosts, the God of Israel, Yet again shall they use this speech in the land of Judah and in the cities thereof, when I shall ",
+        "text": "Thus saith Jehovah of hosts, the God of Israel, Yet again shall they use this speech in the land of Judah and in the cities thereof, when I shall "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
@@ -8091,8 +8115,8 @@
     "chapter": 31,
     "verse": 32,
     "content": [
+      "not according to the covenant that I made with their fathers in the day that I took them by the hand to bring them out of the land of Egypt; ",
       {
-        "text": "not according to the covenant that I made with their fathers in the day that I took them by the hand to bring them out of the land of Egypt; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -8101,8 +8125,8 @@
           ]
         }
       },
+      "which my covenant they brake, although I was ",
       {
-        "text": "which my covenant they brake, although I was ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "lord over them", "marks": ["i"] }]
@@ -8130,7 +8154,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Thus saith Jehovah, who giveth the sun for a light by day, and the ordinances of the moon and of the stars for a light by night, who ",
+        "text": "Thus saith Jehovah, who giveth the sun for a light by day, and the ordinances of the moon and of the stars for a light by night, who "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -8252,8 +8278,8 @@
     "chapter": 32,
     "verse": 11,
     "content": [
+      "So I took the deed of the purchase, both that which was sealed, ",
       {
-        "text": "So I took the deed of the purchase, both that which was sealed, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -8308,8 +8334,8 @@
     "chapter": 32,
     "verse": 17,
     "content": [
+      "Ah Lord Jehovah! behold, thou hast made the heavens and the earth by thy great power and by thine outstretched arm; there is nothing too ",
       {
-        "text": "Ah Lord Jehovah! behold, thou hast made the heavens and the earth by thy great power and by thine outstretched arm; there is nothing too ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "wonderful", "marks": ["i"] }]
@@ -8335,8 +8361,8 @@
     "chapter": 32,
     "verse": 20,
     "content": [
+      "who didst set signs and wonders in the land of Egypt, even unto this day, ",
       {
-        "text": "who didst set signs and wonders in the land of Egypt, even unto this day, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "and", "marks": ["i"] }]
@@ -8441,8 +8467,8 @@
     "content": [
       "And they built the high places of Baal, which are in the valley of the son of Hinnom, to cause their sons and their daughters to pass through ",
       { "text": "the fire", "marks": ["i"] },
+      " unto Molech; which I commanded them not, neither came it into my ",
       {
-        "text": " unto Molech; which I commanded them not, neither came it into my ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "heart", "marks": ["i"] }, "."]
@@ -8489,8 +8515,8 @@
     "chapter": 32,
     "verse": 41,
     "content": [
+      "Yea, I will rejoice over them to do them good, and I will plant them in this land ",
       {
-        "text": "Yea, I will rejoice over them to do them good, and I will plant them in this land ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "in truth", "marks": ["i"] }, "."]
@@ -8537,8 +8563,8 @@
     "chapter": 33,
     "verse": 3,
     "content": [
+      "Call unto me, and I will answer thee, and will show thee great things, and ",
       {
-        "text": "Call unto me, and I will answer thee, and will show thee great things, and ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "fortified", "marks": ["i"] }, "."]
@@ -8572,8 +8598,8 @@
     "chapter": 33,
     "verse": 6,
     "content": [
+      "Behold, I will bring it ",
       {
-        "text": "Behold, I will bring it ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "a bandage", "marks": ["i"] }, "."]
@@ -8672,8 +8698,8 @@
     "chapter": 33,
     "verse": 17,
     "content": [
+      "For thus saith Jehovah: ",
       {
-        "text": "For thus saith Jehovah: ",
         "foot": {
           "type": "trn",
           "content": [
@@ -8749,8 +8775,8 @@
     "chapter": 33,
     "verse": 26,
     "content": [
+      "then will I also cast away the seed of Jacob, and of David my servant, so that I will not take of his seed to be rulers over the seed of Abraham, Isaac, and Jacob: for I will ",
       {
-        "text": "then will I also cast away the seed of Jacob, and of David my servant, so that I will not take of his seed to be rulers over the seed of Abraham, Isaac, and Jacob: for I will ",
         "foot": {
           "type": "trn",
           "content": [
@@ -8868,8 +8894,8 @@
     "chapter": 34,
     "verse": 13,
     "content": [
+      "Thus saith Jehovah, the God of Israel: I made a covenant with your fathers in the day that I brought them forth out of the land of Egypt, out of the house of ",
       {
-        "text": "Thus saith Jehovah, the God of Israel: I made a covenant with your fathers in the day that I brought them forth out of the land of Egypt, out of the house of ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "bondmen", "marks": ["i"] }, "."]
@@ -8883,8 +8909,8 @@
     "chapter": 34,
     "verse": 14,
     "content": [
+      "At the end of seven years ye shall let go every man his brother that is a Hebrew, that ",
       {
-        "text": "At the end of seven years ye shall let go every man his brother that is a Hebrew, that ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "hath sold himself", "marks": ["i"] }]
@@ -8912,7 +8938,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Therefore thus saith Jehovah: Ye have not hearkened unto me, to proclaim liberty, every man to his brother, and every man to his neighbor: behold, I proclaim unto you a liberty, saith Jehovah, to the sword, to the pestilence, and to the famine; and I will make you to be ",
+        "text": "Therefore thus saith Jehovah: Ye have not hearkened unto me, to proclaim liberty, every man to his brother, and every man to his neighbor: behold, I proclaim unto you a liberty, saith Jehovah, to the sword, to the pestilence, and to the famine; and I will make you to be "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a terror unto", "marks": ["i"] }]
@@ -8926,8 +8954,8 @@
     "chapter": 34,
     "verse": 18,
     "content": [
+      "And I will give the men that have transgressed my covenant, that have not performed the words of the covenant which they made before me, ",
       {
-        "text": "And I will give the men that have transgressed my covenant, that have not performed the words of the covenant which they made before me, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -9127,8 +9155,8 @@
     "chapter": 36,
     "verse": 5,
     "content": [
+      "And Jeremiah commanded Baruch, saying, I am ",
       {
-        "text": "And Jeremiah commanded Baruch, saying, I am ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "restrained", "marks": ["i"] }]
@@ -9142,8 +9170,8 @@
     "chapter": 36,
     "verse": 6,
     "content": [
+      "therefore go thou, and read in the roll, which thou hast written from my mouth, the words of Jehovah in the ears of the people in Jehovah’s house upon ",
       {
-        "text": "therefore go thou, and read in the roll, which thou hast written from my mouth, the words of Jehovah in the ears of the people in Jehovah’s house upon ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a fast-day", "marks": ["i"] }]
@@ -9157,8 +9185,8 @@
     "chapter": 36,
     "verse": 7,
     "content": [
+      "It may be ",
       {
-        "text": "It may be ",
         "foot": {
           "type": "trn",
           "content": [
@@ -9283,8 +9311,8 @@
     "chapter": 36,
     "verse": 23,
     "content": [
+      "And it came to pass, when Jehudi had read three or four ",
       {
-        "text": "And it came to pass, when Jehudi had read three or four ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "columns", "marks": ["i"] }]
@@ -9312,8 +9340,8 @@
     "chapter": 36,
     "verse": 26,
     "content": [
+      "And the king commanded Jerahmeel ",
       {
-        "text": "And the king commanded Jerahmeel ",
         "foot": {
           "type": "trn",
           "content": [
@@ -9429,8 +9457,8 @@
     "chapter": 37,
     "verse": 9,
     "content": [
+      "Thus saith Jehovah, Deceive not ",
       {
-        "text": "Thus saith Jehovah, Deceive not ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "your souls", "marks": ["i"] }, "."]
@@ -9444,8 +9472,8 @@
     "chapter": 37,
     "verse": 10,
     "content": [
+      "For though ye had smitten the whole army of the Chaldeans that fight against you, and there remained but ",
       {
-        "text": "For though ye had smitten the whole army of the Chaldeans that fight against you, and there remained but ",
         "foot": {
           "type": "trn",
           "content": [
@@ -9472,8 +9500,8 @@
     "chapter": 37,
     "verse": 12,
     "content": [
+      "then Jeremiah went forth out of Jerusalem to go into the land of Benjamin, to receive his portion ",
       {
-        "text": "then Jeremiah went forth out of Jerusalem to go into the land of Benjamin, to receive his portion ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "from thence", "marks": ["i"] }, "."]
@@ -9505,9 +9533,8 @@
     "chapter": 37,
     "verse": 16,
     "content": [
+      { "paragraph": true, "text": "When Jeremiah was come into the " },
       {
-        "paragraph": true,
-        "text": "When Jeremiah was come into the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "house of the pit", "marks": ["i"] }]
@@ -9539,8 +9566,8 @@
     "chapter": 37,
     "verse": 20,
     "content": [
+      "And now hear, I pray thee, O my lord the king: let my supplication, I pray thee, ",
       {
-        "text": "And now hear, I pray thee, O my lord the king: let my supplication, I pray thee, ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "fall", "marks": ["i"] }, "."]
@@ -9593,15 +9620,15 @@
     "chapter": 38,
     "verse": 6,
     "content": [
+      "Then took they Jeremiah, and cast him into the ",
       {
-        "text": "Then took they Jeremiah, and cast him into the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pit", "marks": ["i"] }]
         }
       },
+      "dungeon of Malchijah ",
       {
-        "text": "dungeon of Malchijah ",
         "foot": {
           "type": "trn",
           "content": [
@@ -9633,8 +9660,8 @@
     "chapter": 38,
     "verse": 9,
     "content": [
+      "My lord the king, these men have done evil in all that they have done to Jeremiah the prophet, whom they have cast into the dungeon; and ",
       {
-        "text": "My lord the king, these men have done evil in all that they have done to Jeremiah the prophet, whom they have cast into the dungeon; and ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "he is dead", "marks": ["i"] }, "."]
@@ -9726,8 +9753,8 @@
     "chapter": 38,
     "verse": 22,
     "content": [
+      "Behold, all the women that are left in the king of Judah’s house shall be brought forth to the king of Babylon’s princes, and those women shall say, ",
       {
-        "text": "Behold, all the women that are left in the king of Judah’s house shall be brought forth to the king of Babylon’s princes, and those women shall say, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -9737,8 +9764,8 @@
           ]
         }
       },
+      "Thy familiar friends have ",
       {
-        "text": "Thy familiar friends have ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deceived thee", "marks": ["i"] }]
@@ -9754,8 +9781,8 @@
     "chapter": 38,
     "verse": 23,
     "content": [
+      "And they shall bring out all thy wives and thy children to the Chaldeans; and thou shalt not escape out of their hand, but shalt be taken by the hand of the king of Babylon: and ",
       {
-        "text": "And they shall bring out all thy wives and thy children to the Chaldeans; and thou shalt not escape out of their hand, but shalt be taken by the hand of the king of Babylon: and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -9787,8 +9814,8 @@
     "chapter": 38,
     "verse": 26,
     "content": [
+      "then thou shalt say unto them, I ",
       {
-        "text": "then thou shalt say unto them, I ",
         "foot": {
           "type": "trn",
           "content": [
@@ -9806,8 +9833,8 @@
     "chapter": 38,
     "verse": 27,
     "content": [
+      "Then came all the princes unto Jeremiah, and asked him; and he told them according to all these words that the king had commanded. So they left off speaking with him; for the matter was not ",
       {
-        "text": "Then came all the princes unto Jeremiah, and asked him; and he told them according to all these words that the king had commanded. So they left off speaking with him; for the matter was not ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "reported", "marks": ["i"] }]
@@ -9850,14 +9877,10 @@
     "content": [
       "that all the princes of the king of Babylon came in, and sat in the middle gate, ",
       { "text": "to wit", "marks": ["i"] },
-      {
-        "text": ", Nergal-sharezer, Samgar-nebo, Sarsechim, ",
-        "foot": { "type": "stu", "content": "Title of an officer." }
-      },
-      {
-        "text": "Rab-saris, Nergal-sharezer, ",
-        "foot": { "type": "stu", "content": "Title of an officer." }
-      },
+      ", Nergal-sharezer, Samgar-nebo, Sarsechim, ",
+      { "foot": { "type": "stu", "content": "Title of an officer." } },
+      "Rab-saris, Nergal-sharezer, ",
+      { "foot": { "type": "stu", "content": "Title of an officer." } },
       "Rab-mag, with all the rest of the princes of the king of Babylon."
     ]
   },
@@ -9875,8 +9898,8 @@
     "chapter": 39,
     "verse": 5,
     "content": [
+      "But the army of the Chaldeans pursued after them, and overtook Zedekiah in the plains of Jericho: and when they had taken him, they brought him up to Nebuchadrezzar king of Babylon to Riblah in the land of Hamath; and he ",
       {
-        "text": "But the army of the Chaldeans pursued after them, and overtook Zedekiah in the plains of Jericho: and when they had taken him, they brought him up to Nebuchadrezzar king of Babylon to Riblah in the land of Hamath; and he ",
         "foot": {
           "type": "trn",
           "content": [
@@ -9962,8 +9985,8 @@
     "chapter": 39,
     "verse": 16,
     "content": [
+      "Go, and speak to Ebed-melech the Ethiopian, saying, Thus saith Jehovah of hosts, the God of Israel: Behold, I will bring my words upon this city for evil, and not for good; and they ",
       {
-        "text": "Go, and speak to Ebed-melech the Ethiopian, saying, Thus saith Jehovah of hosts, the God of Israel: Behold, I will bring my words upon this city for evil, and not for good; and they ",
         "foot": {
           "type": "trn",
           "content": [
@@ -10024,8 +10047,8 @@
     "content": [
       "Now while he was not yet gone back, Go back then, ",
       { "text": "said he", "marks": ["i"] },
+      ", to Gedaliah the son of Ahikam, the son of Shaphan, whom the king of Babylon hath made governor over the cities of Judah, and dwell with him among the people; or go wheresoever it seemeth right unto thee to go. So the captain of the guard gave him ",
       {
-        "text": ", to Gedaliah the son of Ahikam, the son of Shaphan, whom the king of Babylon hath made governor over the cities of Judah, and dwell with him among the people; or go wheresoever it seemeth right unto thee to go. So the captain of the guard gave him ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "an allowance", "marks": ["i"] }]
@@ -10047,7 +10070,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Now when all the captains of the forces that were in the fields, even they and their men, heard that the king of Babylon had made Gedaliah the son of Ahikam governor in the land, and had committed unto him men, and women, and children, ",
+        "text": "Now when all the captains of the forces that were in the fields, even they and their men, heard that the king of Babylon had made Gedaliah the son of Ahikam governor in the land, and had committed unto him men, and women, and children, "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "even", "marks": ["i"] }]
@@ -10243,8 +10268,8 @@
     "chapter": 41,
     "verse": 17,
     "content": [
+      "And they departed, and dwelt in ",
       {
-        "text": "And they departed, and dwelt in ",
         "foot": {
           "type": "trn",
           "content": [
@@ -10269,7 +10294,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Then all the captains of the forces, and Johanan the son of Kareah, and ",
+        "text": "Then all the captains of the forces, and Johanan the son of Kareah, and "
+      },
+      {
         "foot": {
           "type": "stu",
           "content": [
@@ -10291,8 +10318,8 @@
     "chapter": 42,
     "verse": 2,
     "content": [
+      "and said unto Jeremiah the prophet, Let, we pray thee, our supplication ",
       {
-        "text": "and said unto Jeremiah the prophet, Let, we pray thee, our supplication ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "fall", "marks": ["i"] }, "."]
@@ -10318,8 +10345,8 @@
     "chapter": 42,
     "verse": 5,
     "content": [
+      "Then they said to Jeremiah, Jehovah be a true and faithful witness ",
       {
-        "text": "Then they said to Jeremiah, Jehovah be a true and faithful witness ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "against", "marks": ["i"] }]
@@ -10354,8 +10381,8 @@
     "chapter": 42,
     "verse": 9,
     "content": [
+      "and said unto them, Thus saith Jehovah, the God of Israel, unto whom ye sent me to ",
       {
-        "text": "and said unto them, Thus saith Jehovah, the God of Israel, unto whom ye sent me to ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "lay", "marks": ["i"] }]
@@ -10405,8 +10432,8 @@
     "chapter": 42,
     "verse": 16,
     "content": [
+      "then it shall come to pass, that the sword, which ye fear, shall overtake you there in the land of Egypt; and the famine, whereof ye are afraid, ",
       {
-        "text": "then it shall come to pass, that the sword, which ye fear, shall overtake you there in the land of Egypt; and the famine, whereof ye are afraid, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -10445,8 +10472,8 @@
     "chapter": 42,
     "verse": 20,
     "content": [
+      "For ye have dealt deceitfully ",
       {
-        "text": "For ye have dealt deceitfully ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in your souls", "marks": ["i"] }]
@@ -10526,8 +10553,8 @@
     "chapter": 43,
     "verse": 9,
     "content": [
+      "Take great stones in thy hand, and ",
       {
-        "text": "Take great stones in thy hand, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -10547,8 +10574,8 @@
     "chapter": 43,
     "verse": 10,
     "content": [
+      "and say unto them, Thus saith Jehovah of hosts, the God of Israel: Behold, I will send and take Nebuchadrezzar the king of Babylon, my servant, and will set his throne upon these stones that I have hid; and he shall spread his ",
       {
-        "text": "and say unto them, Thus saith Jehovah of hosts, the God of Israel: Behold, I will send and take Nebuchadrezzar the king of Babylon, my servant, and will set his throne upon these stones that I have hid; and he shall spread his ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "glittering", "marks": ["i"] }]
@@ -10578,15 +10605,15 @@
     "chapter": 43,
     "verse": 13,
     "content": [
+      "He shall also break the ",
       {
-        "text": "He shall also break the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "obelisks", "marks": ["i"] }]
         }
       },
+      "pillars of ",
       {
-        "text": "pillars of ",
         "foot": {
           "type": "trn",
           "content": [
@@ -10709,8 +10736,8 @@
     "chapter": 44,
     "verse": 14,
     "content": [
+      "so that none of the remnant of Judah, that are gone into the land of Egypt to sojourn there, shall escape or be left, to return into the land of Judah, to which they ",
       {
-        "text": "so that none of the remnant of Judah, that are gone into the land of Egypt to sojourn there, shall escape or be left, to return into the land of Judah, to which they ",
         "foot": {
           "type": "trn",
           "content": [
@@ -10743,8 +10770,8 @@
     "chapter": 44,
     "verse": 17,
     "content": [
+      "But we will certainly perform every word that is gone forth out of our mouth, to burn incense unto the queen of heaven, and to pour out drink-offerings unto her, as we have done, we and our fathers, our kings and our princes, in the cities of Judah, and in the streets of Jerusalem; for then had we plenty of ",
       {
-        "text": "But we will certainly perform every word that is gone forth out of our mouth, to burn incense unto the queen of heaven, and to pour out drink-offerings unto her, as we have done, we and our fathers, our kings and our princes, in the cities of Judah, and in the streets of Jerusalem; for then had we plenty of ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "bread", "marks": ["i"] }, "."]
@@ -10764,8 +10791,8 @@
     "chapter": 44,
     "verse": 19,
     "content": [
+      "And when we burned incense to the queen of heaven, and poured out drink-offerings unto her, did we make her cakes to ",
       {
-        "text": "And when we burned incense to the queen of heaven, and poured out drink-offerings unto her, did we make her cakes to ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "portray", "marks": ["i"] }]
@@ -10863,8 +10890,8 @@
     "chapter": 45,
     "verse": 2,
     "content": [
+      "Thus saith Jehovah, the God of Israel, ",
       {
-        "text": "Thus saith Jehovah, the God of Israel, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "concerning", "marks": ["i"] }]
@@ -11016,8 +11043,8 @@
     "chapter": 46,
     "verse": 15,
     "content": [
+      "Why are thy strong ones swept away? they stood not, because Jehovah did ",
       {
-        "text": "Why are thy strong ones swept away? they stood not, because Jehovah did ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "thrust them down", "marks": ["i"] }]
@@ -11037,8 +11064,8 @@
     "chapter": 46,
     "verse": 17,
     "content": [
+      "They cried there, Pharaoh king of Egypt is ",
       {
-        "text": "They cried there, Pharaoh king of Egypt is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "destroyed", "marks": ["i"] }]
@@ -11070,8 +11097,8 @@
           ]
         }
       },
+      "O thou daughter that dwellest in Egypt, ",
       {
-        "text": "O thou daughter that dwellest in Egypt, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -11132,8 +11159,8 @@
     "chapter": 46,
     "verse": 23,
     "content": [
+      "They shall cut down her forest, saith Jehovah, ",
       {
-        "text": "They shall cut down her forest, saith Jehovah, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "for", "marks": ["i"] }]
@@ -11174,15 +11201,15 @@
     "chapter": 46,
     "verse": 28,
     "content": [
+      "Fear not thou, O Jacob my servant, saith Jehovah; for I am with thee: for I will make a full end of all the nations whither I have driven thee; but I will not make a full end of thee, but I will correct thee in ",
       {
-        "text": "Fear not thou, O Jacob my servant, saith Jehovah; for I am with thee: for I will make a full end of all the nations whither I have driven thee; but I will not make a full end of thee, but I will correct thee in ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "judgment", "marks": ["i"] }, "."]
         }
       },
+      "measure, and will in no wise ",
       {
-        "text": "measure, and will in no wise ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "hold thee guiltless", "marks": ["i"] }]
@@ -11220,8 +11247,8 @@
     "chapter": 47,
     "verse": 4,
     "content": [
+      "because of the day that cometh to destroy all the Philistines, to cut off from Tyre and Sidon every helper that remaineth: for Jehovah will destroy the Philistines, the remnant of the ",
       {
-        "text": "because of the day that cometh to destroy all the Philistines, to cut off from Tyre and Sidon every helper that remaineth: for Jehovah will destroy the Philistines, the remnant of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sea-coast", "marks": ["i"] }]
@@ -11247,8 +11274,8 @@
     "chapter": 47,
     "verse": 7,
     "content": [
+      "How canst thou be quiet, seeing Jehovah hath given ",
       {
-        "text": "How canst thou be quiet, seeing Jehovah hath given ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "it", "marks": ["i"] }, "."]
@@ -11267,14 +11294,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Of Moab. Thus saith Jehovah of hosts, the God of Israel: Woe unto Nebo! for it is laid waste; Kiriathaim is put to shame, it is taken; ",
+        "text": "Of Moab. Thus saith Jehovah of hosts, the God of Israel: Woe unto Nebo! for it is laid waste; Kiriathaim is put to shame, it is taken; "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the high fort", "marks": ["i"] }]
         }
       },
+      "Misgab is put to shame and ",
       {
-        "text": "Misgab is put to shame and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "dismayed", "marks": ["i"] }]
@@ -11330,8 +11359,8 @@
     "chapter": 48,
     "verse": 9,
     "content": [
+      "Give wings unto Moab, ",
       {
-        "text": "Give wings unto Moab, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -11348,8 +11377,8 @@
     "chapter": 48,
     "verse": 10,
     "content": [
+      "Cursed be he that doeth the work of Jehovah ",
       {
-        "text": "Cursed be he that doeth the work of Jehovah ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deceitfully", "marks": ["i"] }]
@@ -11372,8 +11401,8 @@
     "chapter": 48,
     "verse": 12,
     "content": [
+      "Therefore, behold, the days come, saith Jehovah, that I will send unto him them that ",
       {
-        "text": "Therefore, behold, the days come, saith Jehovah, that I will send unto him them that ",
         "foot": {
           "type": "trn",
           "content": [
@@ -11383,8 +11412,8 @@
           ]
         }
       },
+      "pour off, and they shall ",
       {
-        "text": "pour off, and they shall ",
         "foot": {
           "type": "trn",
           "content": [
@@ -11394,8 +11423,8 @@
           ]
         }
       },
+      "pour him off; and they shall empty his vessels, and break their ",
       {
-        "text": "pour him off; and they shall empty his vessels, and break their ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "jars", "marks": ["i"] }]
@@ -11421,8 +11450,8 @@
     "chapter": 48,
     "verse": 15,
     "content": [
+      "Moab is laid waste, and ",
       {
-        "text": "Moab is laid waste, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -11446,8 +11475,8 @@
     "chapter": 48,
     "verse": 17,
     "content": [
+      "All ye that are round about him, bemoan him, and all ye that know his name; say, How is the strong ",
       {
-        "text": "All ye that are round about him, bemoan him, and all ye that know his name; say, How is the strong ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sceptre", "marks": ["i"] }]
@@ -11461,8 +11490,8 @@
     "chapter": 48,
     "verse": 18,
     "content": [
+      "O thou daughter that ",
       {
-        "text": "O thou daughter that ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "art seated", "marks": ["i"] }]
@@ -11476,8 +11505,8 @@
     "chapter": 48,
     "verse": 19,
     "content": [
+      "O ",
       {
-        "text": "O ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "inhabitress", "marks": ["i"] }, "."]
@@ -11491,8 +11520,8 @@
     "chapter": 48,
     "verse": 20,
     "content": [
+      "Moab is put to shame; for it is ",
       {
-        "text": "Moab is put to shame; for it is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "dismayed", "marks": ["i"] }]
@@ -11591,8 +11620,8 @@
     "chapter": 48,
     "verse": 34,
     "content": [
+      "From the cry of Heshbon even unto Elealeh, even unto Jahaz have they uttered their voice, from Zoar even unto Horonaim, ",
       {
-        "text": "From the cry of Heshbon even unto Elealeh, even unto Jahaz have they uttered their voice, from Zoar even unto Horonaim, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -11601,8 +11630,8 @@
           ]
         }
       },
+      "to Eglath-shelishiyah: for the waters of Nimrim also shall become ",
       {
-        "text": "to Eglath-shelishiyah: for the waters of Nimrim also shall become ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "desolations", "marks": ["i"] }, "."]
@@ -11643,8 +11672,8 @@
     "chapter": 48,
     "verse": 39,
     "content": [
+      "How is it broken down! ",
       {
-        "text": "How is it broken down! ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "wail ye!", "marks": ["i"] }]
@@ -11713,8 +11742,8 @@
           ]
         }
       },
+      "They that fled stand without strength under the shadow of Heshbon; ",
       {
-        "text": "They that fled stand without strength under the shadow of Heshbon; ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "but", "marks": ["i"] }]
@@ -11734,8 +11763,8 @@
     "chapter": 48,
     "verse": 47,
     "content": [
+      "Yet will I ",
       {
-        "text": "Yet will I ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
@@ -11754,14 +11783,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Of the children of Ammon. Thus saith Jehovah: Hath Israel no sons? hath he no heir? why then doth ",
+        "text": "Of the children of Ammon. Thus saith Jehovah: Hath Israel no sons? hath he no heir? why then doth "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "their king", "marks": ["i"] }]
         }
       },
+      "Malcam ",
       {
-        "text": "Malcam ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "inherit", "marks": ["i"] }]
@@ -11775,15 +11806,15 @@
     "chapter": 49,
     "verse": 2,
     "content": [
+      "Therefore, behold, the days come, saith Jehovah, that I will cause an alarm of war to be heard against Rabbah of the children of Ammon; and it shall become a desolate heap, and her daughters shall be burned with fire: then shall Israel ",
       {
-        "text": "Therefore, behold, the days come, saith Jehovah, that I will cause an alarm of war to be heard against Rabbah of the children of Ammon; and it shall become a desolate heap, and her daughters shall be burned with fire: then shall Israel ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "inherit", "marks": ["i"] }]
         }
       },
+      "possess them that did ",
       {
-        "text": "possess them that did ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "inherit", "marks": ["i"] }]
@@ -11797,8 +11828,8 @@
     "chapter": 49,
     "verse": 3,
     "content": [
+      "Wail, O Heshbon, for Ai is laid waste; cry, ye daughters of Rabbah, gird you with sackcloth: lament, and run to and fro among the fences; for ",
       {
-        "text": "Wail, O Heshbon, for Ai is laid waste; cry, ye daughters of Rabbah, gird you with sackcloth: lament, and run to and fro among the fences; for ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "their king", "marks": ["i"] }]
@@ -11864,8 +11895,8 @@
     "chapter": 49,
     "verse": 9,
     "content": [
+      "If grape-gatherers came to thee, ",
       {
-        "text": "If grape-gatherers came to thee, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -11897,8 +11928,8 @@
     "chapter": 49,
     "verse": 12,
     "content": [
+      "For thus saith Jehovah: Behold, they ",
       {
-        "text": "For thus saith Jehovah: Behold, they ",
         "foot": {
           "type": "trn",
           "content": [
@@ -11940,8 +11971,8 @@
     "chapter": 49,
     "verse": 16,
     "content": [
+      "As for thy terribleness, the pride of thy heart hath deceived thee, O thou that dwellest in the clefts of ",
       {
-        "text": "As for thy terribleness, the pride of thy heart hath deceived thee, O thou that dwellest in the clefts of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Sela", "marks": ["i"] }]
@@ -11967,15 +11998,15 @@
     "chapter": 49,
     "verse": 19,
     "content": [
+      "Behold, he shall come up like a lion from the ",
       {
-        "text": "Behold, he shall come up like a lion from the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "swelling", "marks": ["i"] }]
         }
       },
+      "pride of the Jordan ",
       {
-        "text": "pride of the Jordan ",
         "foot": {
           "type": "trn",
           "content": [
@@ -11994,7 +12025,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Therefore hear ye the counsel of Jehovah, that he hath taken against Edom; and his purposes, that he hath purposed against the inhabitants of Teman: Surely ",
+        "text": "Therefore hear ye the counsel of Jehovah, that he hath taken against Edom; and his purposes, that he hath purposed against the inhabitants of Teman: Surely "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -12008,15 +12041,15 @@
       },
       "they shall drag them away, ",
       { "text": "even", "marks": ["i"] },
+      " the little ones of the flock; surely he shall make their ",
       {
-        "text": " the little ones of the flock; surely he shall make their ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pastures", "marks": ["i"] }]
         }
       },
+      "habitation ",
       {
-        "text": "habitation ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "astonished at them", "marks": ["i"] }]
@@ -12047,7 +12080,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Of Damascus. Hamath is confounded, and Arpad; for they have heard evil tidings, they are melted away: there is ",
+        "text": "Of Damascus. Hamath is confounded, and Arpad; for they have heard evil tidings, they are melted away: there is "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "care", "marks": ["i"] }]
@@ -12155,8 +12190,8 @@
     "chapter": 49,
     "verse": 36,
     "content": [
+      "And upon Elam will I bring the four winds from the four quarters of heaven, and will scatter them toward all those winds; and there shall be no nation whither ",
       {
-        "text": "And upon Elam will I bring the four winds from the four quarters of heaven, and will scatter them toward all those winds; and there shall be no nation whither ",
         "foot": {
           "type": "var",
           "content": [
@@ -12186,8 +12221,8 @@
     "chapter": 49,
     "verse": 39,
     "content": [
+      "But it shall come to pass in the latter days, that I will ",
       {
-        "text": "But it shall come to pass in the latter days, that I will ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
@@ -12215,14 +12250,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Declare ye among the nations and publish, and set up a standard; publish, and conceal not: say, Babylon is taken, Bel is put to shame, Merodach is ",
+        "text": "Declare ye among the nations and publish, and set up a standard; publish, and conceal not: say, Babylon is taken, Bel is put to shame, Merodach is "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "broken down", "marks": ["i"] }]
         }
       },
+      "dismayed; her images are put to shame, her idols are ",
       {
-        "text": "dismayed; her images are put to shame, her idols are ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "broken down", "marks": ["i"] }]
@@ -12248,8 +12285,8 @@
     "chapter": 50,
     "verse": 5,
     "content": [
+      "They shall inquire concerning Zion with their faces ",
       {
-        "text": "They shall inquire concerning Zion with their faces ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "hitherward", "marks": ["i"] }, "."]
@@ -12257,8 +12294,8 @@
       },
       "thitherward, ",
       { "text": "saying", "marks": ["i"] },
+      ", Come ye, and ",
       {
-        "text": ", Come ye, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -12296,8 +12333,8 @@
     "chapter": 50,
     "verse": 9,
     "content": [
+      "For, lo, I will stir up and cause to come up against Babylon a company of great nations from the north country; and they shall set themselves in array against her; from thence she shall be taken: their arrows shall be as of ",
       {
-        "text": "For, lo, I will stir up and cause to come up against Babylon a company of great nations from the north country; and they shall set themselves in array against her; from thence she shall be taken: their arrows shall be as of ",
         "foot": {
           "type": "var",
           "content": [
@@ -12306,8 +12343,8 @@
           ]
         }
       },
+      "an expert mighty man; ",
       {
-        "text": "an expert mighty man; ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "that returneth not", "marks": ["i"] }]
@@ -12329,7 +12366,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Because ye are glad, because ye rejoice, O ye that plunder my heritage, because ye are wanton as a heifer ",
+        "text": "Because ye are glad, because ye rejoice, O ye that plunder my heritage, because ye are wanton as a heifer "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "at grass", "marks": ["i"] }]
@@ -12363,8 +12402,8 @@
     "chapter": 50,
     "verse": 15,
     "content": [
+      "Shout against her round about: she hath ",
       {
-        "text": "Shout against her round about: she hath ",
         "foot": {
           "type": "trn",
           "content": [
@@ -12388,9 +12427,8 @@
     "chapter": 50,
     "verse": 17,
     "content": [
+      { "paragraph": true, "text": "Israel is a " },
       {
-        "paragraph": true,
-        "text": "Israel is a ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "scattered", "marks": ["i"] }, "."]
@@ -12410,8 +12448,8 @@
     "chapter": 50,
     "verse": 19,
     "content": [
+      "And I will bring Israel again to his ",
       {
-        "text": "And I will bring Israel again to his ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "fold", "marks": ["i"] }]
@@ -12431,9 +12469,8 @@
     "chapter": 50,
     "verse": 21,
     "content": [
+      { "paragraph": true, "text": "Go up against the land of " },
       {
-        "paragraph": true,
-        "text": "Go up against the land of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -12443,8 +12480,8 @@
           ]
         }
       },
+      "Merathaim, even against it, and against the inhabitants of ",
       {
-        "text": "Merathaim, even against it, and against the inhabitants of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -12454,8 +12491,8 @@
           ]
         }
       },
+      "Pekod: slay and ",
       {
-        "text": "Pekod: slay and ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "devote", "marks": ["i"] }, "."]
@@ -12497,22 +12534,22 @@
     "chapter": 50,
     "verse": 26,
     "content": [
+      "Come against her ",
       {
-        "text": "Come against her ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "from every quarter", "marks": ["i"] }]
         }
       },
+      "from the utmost border; open her ",
       {
-        "text": "from the utmost border; open her ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "granaries", "marks": ["i"] }]
         }
       },
+      "store-houses; cast her up as heaps, and ",
       {
-        "text": "store-houses; cast her up as heaps, and ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "devote", "marks": ["i"] }, "."]
@@ -12538,9 +12575,8 @@
     "chapter": 50,
     "verse": 29,
     "content": [
+      { "paragraph": true, "text": "Call together " },
       {
-        "paragraph": true,
-        "text": "Call together ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "many", "marks": ["i"] }]
@@ -12560,8 +12596,8 @@
     "chapter": 50,
     "verse": 31,
     "content": [
+      "Behold, I am against thee, ",
       {
-        "text": "Behold, I am against thee, ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "O Pride", "marks": ["i"] }, "."]
@@ -12575,8 +12611,8 @@
     "chapter": 50,
     "verse": 32,
     "content": [
+      "And ",
       {
-        "text": "And ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "Pride", "marks": ["i"] }, "."]
@@ -12611,8 +12647,8 @@
     "chapter": 50,
     "verse": 36,
     "content": [
+      "A sword is upon the ",
       {
-        "text": "A sword is upon the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "boastings", "marks": ["i"] }, "."]
@@ -12632,8 +12668,8 @@
     "chapter": 50,
     "verse": 38,
     "content": [
+      "A drought is upon her waters, and they shall be dried up; for it is a land of graven images, and they are mad over ",
       {
-        "text": "A drought is upon her waters, and they shall be dried up; for it is a land of graven images, and they are mad over ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "terrors", "marks": ["i"] }, "."]
@@ -12647,8 +12683,8 @@
     "chapter": 50,
     "verse": 39,
     "content": [
+      "Therefore the wild beasts of the desert with the ",
       {
-        "text": "Therefore the wild beasts of the desert with the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -12728,7 +12764,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Thus saith Jehovah: Behold, I will raise up against Babylon, and against them that dwell in ",
+        "text": "Thus saith Jehovah: Behold, I will raise up against Babylon, and against them that dwell in "
+      },
+      {
         "foot": {
           "type": "stu",
           "content": [
@@ -12749,8 +12787,8 @@
     "chapter": 51,
     "verse": 2,
     "content": [
+      "And I will send unto Babylon ",
       {
-        "text": "And I will send unto Babylon ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "winnowers", "marks": ["i"] }]
@@ -12780,8 +12818,8 @@
       { "text": "him that", "marks": ["i"] },
       " bendeth let the archer bend his bow, and against ",
       { "text": "him that", "marks": ["i"] },
+      " lifteth himself up in his coat of mail: and spare ye not her young men; ",
       {
-        "text": " lifteth himself up in his coat of mail: and spare ye not her young men; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -12804,9 +12842,8 @@
     "chapter": 51,
     "verse": 5,
     "content": [
+      { "paragraph": true, "text": "For Israel is not " },
       {
-        "paragraph": true,
-        "text": "For Israel is not ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "widowed", "marks": ["i"] }]
@@ -12850,9 +12887,8 @@
     "chapter": 51,
     "verse": 11,
     "content": [
+      { "paragraph": true, "text": "Make " },
       {
-        "paragraph": true,
-        "text": "Make ",
         "foot": {
           "type": "trn",
           "content": [
@@ -12864,15 +12900,15 @@
           ]
         }
       },
+      "sharp the arrows; ",
       {
-        "text": "sharp the arrows; ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "fill", "marks": ["i"] }, "."]
         }
       },
+      "hold firm the ",
       {
-        "text": "hold firm the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "suits of armor", "marks": ["i"] }]
@@ -12892,8 +12928,8 @@
     "chapter": 51,
     "verse": 13,
     "content": [
+      "O thou that dwellest upon many waters, abundant in treasures, thine end is come, the measure of thy ",
       {
-        "text": "O thou that dwellest upon many waters, abundant in treasures, thine end is come, the measure of thy ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "dishonest gain", "marks": ["i"] }]
@@ -12909,8 +12945,8 @@
     "content": [
       "Jehovah of hosts hath sworn by himself, ",
       { "text": "saying", "marks": ["i"] },
+      ", ",
       {
-        "text": ", ",
         "foot": {
           "type": "trn",
           "content": [
@@ -12919,8 +12955,8 @@
           ]
         }
       },
+      "Surely I will fill thee with men, as with the canker-worm; ",
       {
-        "text": "Surely I will fill thee with men, as with the canker-worm; ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "yet", "marks": ["i"] }]
@@ -12975,9 +13011,8 @@
     "chapter": 51,
     "verse": 20,
     "content": [
+      { "paragraph": true, "text": "Thou art my " },
       {
-        "paragraph": true,
-        "text": "Thou art my ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "maul", "marks": ["i"] }]
@@ -13005,8 +13040,8 @@
     "content": [
       "and with thee will I break in pieces the shepherd and his flock; and with thee will I break in pieces the husbandman and his yoke ",
       { "text": "of oxen", "marks": ["i"] },
+      "; and with thee will I break in pieces ",
       {
-        "text": "; and with thee will I break in pieces ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "lieutenants", "marks": ["i"] }]
@@ -13043,7 +13078,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Set ye up a standard in the land, blow the trumpet among the nations, ",
+        "text": "Set ye up a standard in the land, blow the trumpet among the nations, "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "sanctify", "marks": ["i"] }, "."]
@@ -13089,15 +13126,15 @@
     "chapter": 51,
     "verse": 32,
     "content": [
+      "and the ",
       {
-        "text": "and the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "fords", "marks": ["i"] }]
         }
       },
+      "passages are seized, and the ",
       {
-        "text": "passages are seized, and the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -13126,8 +13163,8 @@
     "chapter": 51,
     "verse": 34,
     "content": [
+      "Nebuchadrezzar the king of Babylon hath devoured ",
       {
-        "text": "Nebuchadrezzar the king of Babylon hath devoured ",
         "foot": {
           "type": "var",
           "content": [
@@ -13137,8 +13174,8 @@
           ]
         }
       },
+      "me, he hath crushed ",
       {
-        "text": "me, he hath crushed ",
         "foot": {
           "type": "var",
           "content": [
@@ -13148,8 +13185,8 @@
           ]
         }
       },
+      "me, he hath made ",
       {
-        "text": "me, he hath made ",
         "foot": {
           "type": "var",
           "content": [
@@ -13159,8 +13196,8 @@
           ]
         }
       },
+      "me an empty vessel, he hath, like a monster, swallowed ",
       {
-        "text": "me an empty vessel, he hath, like a monster, swallowed ",
         "foot": {
           "type": "var",
           "content": [
@@ -13170,8 +13207,8 @@
           ]
         }
       },
+      "me up, he hath filled his maw with my delicacies; he hath cast ",
       {
-        "text": "me up, he hath filled his maw with my delicacies; he hath cast ",
         "foot": {
           "type": "var",
           "content": [
@@ -13199,8 +13236,8 @@
           ]
         }
       },
+      "The violence done to me and to my flesh be upon Babylon, shall the ",
       {
-        "text": "The violence done to me and to my flesh be upon Babylon, shall the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "inhabitress", "marks": ["i"] }, "."]
@@ -13246,7 +13283,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "How is Sheshach taken! and the praise of the whole earth seized! how is Babylon become ",
+        "text": "How is Sheshach taken! and the praise of the whole earth seized! how is Babylon become "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "an astonishment", "marks": ["i"] }]
@@ -13260,8 +13299,8 @@
     "chapter": 51,
     "verse": 42,
     "content": [
+      "The sea is come up upon Babylon; she is covered with the ",
       {
-        "text": "The sea is come up upon Babylon; she is covered with the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "tumult", "marks": ["i"] }]
@@ -13275,8 +13314,8 @@
     "chapter": 51,
     "verse": 43,
     "content": [
+      "Her cities are become ",
       {
-        "text": "Her cities are become ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "an astonishment", "marks": ["i"] }]
@@ -13290,8 +13329,8 @@
     "chapter": 51,
     "verse": 44,
     "content": [
+      "And I will ",
       {
-        "text": "And I will ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "visit upon", "marks": ["i"] }, "."]
@@ -13348,8 +13387,8 @@
           ]
         }
       },
+      "As Babylon hath caused the slain of Israel to fall, so at Babylon shall fall the slain of all the ",
       {
-        "text": "As Babylon hath caused the slain of Israel to fall, so at Babylon shall fall the slain of all the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "earth", "marks": ["i"] }]
@@ -13417,8 +13456,8 @@
     "chapter": 51,
     "verse": 58,
     "content": [
+      "Thus saith Jehovah of hosts: ",
       {
-        "text": "Thus saith Jehovah of hosts: ",
         "foot": {
           "type": "trn",
           "content": [
@@ -13427,8 +13466,8 @@
           ]
         }
       },
+      "The broad walls of Babylon shall be utterly ",
       {
-        "text": "The broad walls of Babylon shall be utterly ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "made bare", "marks": ["i"] }]
@@ -13447,7 +13486,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "The word which Jeremiah the prophet commanded Seraiah the son of Neriah, the son of Mahseiah, when he went with Zedekiah the king of Judah to Babylon in the fourth year of his reign. Now Seraiah was ",
+        "text": "The word which Jeremiah the prophet commanded Seraiah the son of Neriah, the son of Mahseiah, when he went with Zedekiah the king of Judah to Babylon in the fourth year of his reign. Now Seraiah was "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "quartermaster", "marks": ["i"] }]
@@ -13461,8 +13502,8 @@
     "chapter": 51,
     "verse": 60,
     "content": [
+      "And Jeremiah wrote in ",
       {
-        "text": "And Jeremiah wrote in ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "one book", "marks": ["i"] }]
@@ -13476,8 +13517,8 @@
     "chapter": 51,
     "verse": 61,
     "content": [
+      "And Jeremiah said to Seraiah, When thou comest to Babylon, ",
       {
-        "text": "And Jeremiah said to Seraiah, When thou comest to Babylon, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -13575,8 +13616,8 @@
     "chapter": 52,
     "verse": 9,
     "content": [
+      "Then they took the king, and carried him up unto the king of Babylon to Riblah in the land of Hamath; and he ",
       {
-        "text": "Then they took the king, and carried him up unto the king of Babylon to Riblah in the land of Hamath; and he ",
         "foot": {
           "type": "trn",
           "content": [
@@ -13615,8 +13656,8 @@
     "chapter": 52,
     "verse": 13,
     "content": [
+      "And he burned the house of Jehovah, and the king’s house; and all the houses of Jerusalem, even ",
       {
-        "text": "And he burned the house of Jehovah, and the king’s house; and all the houses of Jerusalem, even ",
         "foot": {
           "type": "trn",
           "content": [
@@ -13639,8 +13680,8 @@
     "chapter": 52,
     "verse": 15,
     "content": [
+      "Then Nebuzaradan the captain of the guard carried away captive of the poorest of the people, and the residue of the people that were left in the city, and those that fell away, that fell to the king of Babylon, and the residue of the ",
       {
-        "text": "Then Nebuzaradan the captain of the guard carried away captive of the poorest of the people, and the residue of the people that were left in the city, and those that fell away, that fell to the king of Babylon, and the residue of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "artificers", "marks": ["i"] }]
@@ -13699,8 +13740,8 @@
     "chapter": 52,
     "verse": 23,
     "content": [
+      "And there were ninety and six pomegranates ",
       {
-        "text": "And there were ninety and six pomegranates ",
         "foot": {
           "type": "trn",
           "content": [
@@ -13729,8 +13770,8 @@
     "chapter": 52,
     "verse": 25,
     "content": [
+      "and out of the city he took an ",
       {
-        "text": "and out of the city he took an ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "eunuch", "marks": ["i"] }]

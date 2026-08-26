@@ -11,11 +11,11 @@
 
 <sup>7</sup> Behold,<sup>d</sup> he is coming with the clouds, and every eye will see him, including those who pierced him. All the tribes of the earth will mourn over him. Even so, Amen.
 
-<sup>8</sup> “I am the Alpha and the Omega,”<sup>e</sup> says the Lord God, <sup>f</sup>“who is and who was and who is to come, the Almighty.”
+<sup>8</sup> “I am the Alpha and the Omega,”<sup>e</sup> says the Lord God,<sup>f</sup> “who is and who was and who is to come, the Almighty.”
 
 <sup>9</sup> I John, your brother and partner with you in the oppression, Kingdom, and perseverance in Christ Jesus, was on the isle that is called Patmos because of God’s Word and the testimony of Jesus Christ.
 <sup>10</sup> I was in the Spirit on the Lord’s day, and I heard behind me a loud voice, like a trumpet
-<sup>11</sup> saying, <sup>g</sup>“What you see, write in a book and send to the seven assemblies:<sup>h</sup> to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and to Laodicea.”
+<sup>11</sup> saying,<sup>g</sup> “What you see, write in a book and send to the seven assemblies:<sup>h</sup> to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and to Laodicea.”
 
 <sup>12</sup> I turned to see the voice that spoke with me. Having turned, I saw seven golden lamp stands.
 <sup>13</sup> And among the lamp stands was one like a son of man,<sup>i</sup> clothed with a robe reaching down to his feet, and with a golden sash around his chest.
@@ -48,7 +48,7 @@ He laid his right hand on me, saying, “Don’t be afraid. I am the first and t
 “He who holds the seven stars in his right hand, he who walks among the seven golden lamp stands says these things:
 
 <sup>2</sup> “I know your works, and your toil and perseverance, and that you can’t tolerate evil men, and have tested those who call themselves apostles, and they are not, and found them false.
-<sup>3</sup> You have perseverance and have endured for my name’s sake, and have <sup>a</sup> not grown weary.
+<sup>3</sup> You have perseverance and have endured for my name’s sake, and have<sup>a</sup> not grown weary.
 <sup>4</sup> But I have this against you, that you left your first love.
 <sup>5</sup> Remember therefore from where you have fallen, and repent and do the first works; or else I am coming to you swiftly, and will move your lamp stand out of its place, unless you repent.
 <sup>6</sup> But this you have, that you hate the works of the Nicolaitans, which I also hate.
@@ -70,7 +70,7 @@ He laid his right hand on me, saying, “Don’t be afraid. I am the first and t
 <sup>14</sup> But I have a few things against you, because you have there some who hold the teaching of Balaam, who taught Balak to throw a stumbling block before the children of Israel, to eat things sacrificed to idols, and to commit sexual immorality.
 <sup>15</sup> So also you likewise have some who hold to the teaching of the Nicolaitans.<sup>b</sup>
 <sup>16</sup> Repent therefore, or else I am coming to you quickly and I will make war against them with the sword of my mouth.
-<sup>17</sup> He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes, to him I will give of the hidden manna, <sup>c</sup> and I will give him a white stone, and on the stone a new name written which no one knows but he who receives it.
+<sup>17</sup> He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes, to him I will give of the hidden manna,<sup>c</sup> and I will give him a white stone, and on the stone a new name written which no one knows but he who receives it.
 
 <sup>18</sup> “To the angel of the assembly in Thyatira write:
 

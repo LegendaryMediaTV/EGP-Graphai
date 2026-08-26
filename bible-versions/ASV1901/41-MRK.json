@@ -4,9 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "The beginning of the " },
       {
-        "paragraph": true,
-        "text": "The beginning of the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -16,8 +15,8 @@
           ]
         }
       },
+      "gospel of Jesus Christ, ",
       {
-        "text": "gospel of Jesus Christ, ",
         "foot": {
           "type": "var",
           "content": [
@@ -35,9 +34,8 @@
     "chapter": 1,
     "verse": 2,
     "content": [
+      { "paragraph": true, "text": "Even as it is written " },
       {
-        "paragraph": true,
-        "text": "Even as it is written ",
         "foot": {
           "type": "var",
           "content": [
@@ -111,8 +109,8 @@
     "chapter": 1,
     "verse": 7,
     "content": [
+      "And he preached, saying, There cometh after me he that is mightier than I, the latchet of whose shoes I am not ",
       {
-        "text": "And he preached, saying, There cometh after me he that is mightier than I, the latchet of whose shoes I am not ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "sufficient", "marks": ["i"] }, "."]
@@ -126,15 +124,15 @@
     "chapter": 1,
     "verse": 8,
     "content": [
+      "I baptized you ",
       {
-        "text": "I baptized you ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "with", "marks": ["i"] }]
         }
       },
+      "in water; but he shall baptize you ",
       {
-        "text": "in water; but he shall baptize you ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "with", "marks": ["i"] }]
@@ -150,7 +148,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized of John ",
+        "text": "And it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized of John "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "into", "marks": ["i"] }, "."]
@@ -193,7 +193,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Now after John was delivered up, Jesus came into Galilee, preaching the ",
+        "text": "Now after John was delivered up, Jesus came into Galilee, preaching the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -211,8 +213,8 @@
     "chapter": 1,
     "verse": 15,
     "content": [
+      "and saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe in the ",
       {
-        "text": "and saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe in the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -251,8 +253,8 @@
     "chapter": 1,
     "verse": 19,
     "content": [
+      "And going on a little further, he saw ",
       {
-        "text": "And going on a little further, he saw ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -301,8 +303,8 @@
     "chapter": 1,
     "verse": 25,
     "content": [
+      "And Jesus rebuked ",
       {
-        "text": "And Jesus rebuked ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "it", "marks": ["i"] }]
@@ -316,8 +318,8 @@
     "chapter": 1,
     "verse": 26,
     "content": [
+      "And the unclean spirit, ",
       {
-        "text": "And the unclean spirit, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "convulsing", "marks": ["i"] }]
@@ -343,9 +345,8 @@
     "chapter": 1,
     "verse": 29,
     "content": [
+      { "paragraph": true, "text": "And straightway, " },
       {
-        "paragraph": true,
-        "text": "And straightway, ",
         "foot": {
           "type": "var",
           "content": [
@@ -357,8 +358,8 @@
           ]
         }
       },
+      "when they were come out of the synagogue, they came into the house of Simon and Andrew, with ",
       {
-        "text": "when they were come out of the synagogue, they came into the house of Simon and Andrew, with ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -386,7 +387,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And at even, when the sun did set, they brought unto him all that were sick, and them that were ",
+        "text": "And at even, when the sun did set, they brought unto him all that were sick, and them that were "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "demoniacs", "marks": ["i"] }]
@@ -461,7 +464,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And there cometh to him a leper, beseeching him, ",
+        "text": "And there cometh to him a leper, beseeching him, "
+      },
+      {
         "foot": {
           "type": "var",
           "content": [
@@ -491,8 +496,8 @@
     "chapter": 1,
     "verse": 43,
     "content": [
+      "And he ",
       {
-        "text": "And he ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sternly", "marks": ["i"] }]
@@ -506,8 +511,8 @@
     "chapter": 1,
     "verse": 44,
     "content": [
+      "and saith unto him, See thou say nothing to any man: but go show thyself to the priest, and offer for thy cleansing the things which Moses ",
       {
-        "text": "and saith unto him, See thou say nothing to any man: but go show thyself to the priest, and offer for thy cleansing the things which Moses ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -526,22 +531,22 @@
     "chapter": 1,
     "verse": 45,
     "content": [
+      "But he went out, and began to publish it much, and to spread abroad the ",
       {
-        "text": "But he went out, and began to publish it much, and to spread abroad the ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "word", "marks": ["i"] }, "."]
         }
       },
+      "matter, insomuch that ",
       {
-        "text": "matter, insomuch that ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "he", "marks": ["i"] }, "."]
         }
       },
+      "Jesus could no more openly enter into ",
       {
-        "text": "Jesus could no more openly enter into ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the city", "marks": ["i"] }]
@@ -557,7 +562,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And when he entered again into Capernaum after some days, it was noised that he was ",
+        "text": "And when he entered again into Capernaum after some days, it was noised that he was "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "at home", "marks": ["i"] }]
@@ -587,8 +594,8 @@
     "chapter": 2,
     "verse": 4,
     "content": [
+      "And when they could not ",
       {
-        "text": "And when they could not ",
         "foot": {
           "type": "var",
           "content": [
@@ -598,8 +605,8 @@
           ]
         }
       },
+      "come nigh unto him for the crowd, they uncovered the roof where he was: and when they had broken it up, they let down the ",
       {
-        "text": "come nigh unto him for the crowd, they uncovered the roof where he was: and when they had broken it up, they let down the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pallet", "marks": ["i"] }]
@@ -613,8 +620,8 @@
     "chapter": 2,
     "verse": 5,
     "content": [
+      "And Jesus seeing their faith saith unto the sick of the palsy, ",
       {
-        "text": "And Jesus seeing their faith saith unto the sick of the palsy, ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "Child", "marks": ["i"] }, "."]
@@ -650,8 +657,8 @@
     "chapter": 2,
     "verse": 9,
     "content": [
+      "Which is easier, to say to the sick of the palsy, Thy sins are forgiven; or to say, Arise, and take up thy ",
       {
-        "text": "Which is easier, to say to the sick of the palsy, Thy sins are forgiven; or to say, Arise, and take up thy ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pallet", "marks": ["i"] }]
@@ -671,8 +678,8 @@
     "chapter": 2,
     "verse": 11,
     "content": [
+      "I say unto thee, Arise, take up thy ",
       {
-        "text": "I say unto thee, Arise, take up thy ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pallet", "marks": ["i"] }]
@@ -686,8 +693,8 @@
     "chapter": 2,
     "verse": 12,
     "content": [
+      "And he arose, and straightway took up the ",
       {
-        "text": "And he arose, and straightway took up the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pallet", "marks": ["i"] }]
@@ -722,7 +729,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And it came to pass, that he was sitting at meat in his house, and many ",
+        "text": "And it came to pass, that he was sitting at meat in his house, and many "
+      },
+      {
         "foot": {
           "type": "stu",
           "content": [
@@ -740,8 +749,8 @@
     "chapter": 2,
     "verse": 16,
     "content": [
+      "And the scribes ",
       {
-        "text": "And the scribes ",
         "foot": {
           "type": "var",
           "content": [
@@ -751,8 +760,8 @@
           ]
         }
       },
+      "of the Pharisees, when they saw that he was eating with the sinners and ",
       {
-        "text": "of the Pharisees, when they saw that he was eating with the sinners and ",
         "foot": {
           "type": "stu",
           "content": [
@@ -762,16 +771,16 @@
           ]
         }
       },
+      "publicans, said unto his disciples, ",
       {
-        "text": "publicans, said unto his disciples, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "He eateth … sinners", "marks": ["i"] }]
         }
       },
       { "text": "How is it", "marks": ["i"] },
+      " that he eateth ",
       {
-        "text": " that he eateth ",
         "foot": {
           "type": "var",
           "content": [
@@ -781,8 +790,8 @@
           ]
         }
       },
+      "and drinketh with ",
       {
-        "text": "and drinketh with ",
         "foot": {
           "type": "stu",
           "content": [
@@ -800,8 +809,8 @@
     "chapter": 2,
     "verse": 17,
     "content": [
+      "And when Jesus heard it, he saith unto them, They that are ",
       {
-        "text": "And when Jesus heard it, he saith unto them, They that are ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "strong", "marks": ["i"] }, "."]
@@ -824,8 +833,8 @@
     "chapter": 2,
     "verse": 19,
     "content": [
+      "And Jesus said unto them, Can the ",
       {
-        "text": "And Jesus said unto them, Can the ",
         "foot": {
           "type": "stu",
           "content": [
@@ -855,8 +864,8 @@
     "chapter": 2,
     "verse": 22,
     "content": [
+      "And no man putteth new wine into old ",
       {
-        "text": "And no man putteth new wine into old ",
         "foot": {
           "type": "stu",
           "content": [
@@ -878,7 +887,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And it came to pass, that he was going on the sabbath day through the grainfields; and his disciples ",
+        "text": "And it came to pass, that he was going on the sabbath day through the grainfields; and his disciples "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -904,8 +915,8 @@
     "chapter": 2,
     "verse": 25,
     "content": [
+      "And he said unto them, ",
       {
-        "text": "And he said unto them, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -922,8 +933,8 @@
     "chapter": 2,
     "verse": 26,
     "content": [
+      "How he entered into the house of God ",
       {
-        "text": "How he entered into the house of God ",
         "foot": {
           "type": "var",
           "content": [
@@ -971,8 +982,8 @@
     "chapter": 3,
     "verse": 3,
     "content": [
+      "And he saith unto the man that had his hand withered, ",
       {
-        "text": "And he saith unto the man that had his hand withered, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1041,15 +1052,15 @@
     "chapter": 3,
     "verse": 10,
     "content": [
+      "for he had healed many; insomuch that as many as had ",
       {
-        "text": "for he had healed many; insomuch that as many as had ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "scourges", "marks": ["i"] }, "."]
         }
       },
+      "plagues ",
       {
-        "text": "plagues ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "fell", "marks": ["i"] }, "."]
@@ -1084,8 +1095,8 @@
     "chapter": 3,
     "verse": 14,
     "content": [
+      "And he appointed twelve, ",
       {
-        "text": "And he appointed twelve, ",
         "foot": {
           "type": "var",
           "content": [
@@ -1131,8 +1142,8 @@
     "chapter": 3,
     "verse": 17,
     "content": [
+      "and ",
       {
-        "text": "and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -1140,8 +1151,8 @@
       },
       "James the ",
       { "text": "son", "marks": ["i"] },
+      " of Zebedee, and John the brother of ",
       {
-        "text": " of Zebedee, and John the brother of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -1155,8 +1166,8 @@
     "chapter": 3,
     "verse": 18,
     "content": [
+      "and Andrew, and Philip, and Bartholomew, and Matthew, and Thomas, and ",
       {
-        "text": "and Andrew, and Philip, and Bartholomew, and Matthew, and Thomas, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -1187,17 +1198,16 @@
     "chapter": 3,
     "verse": 19,
     "content": [
+      "and Judas Iscariot, who also ",
       {
-        "text": "and Judas Iscariot, who also ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "delivered him up", "marks": ["i"] }]
         }
       },
       "betrayed him.",
+      { "paragraph": true, "text": "And he cometh " },
       {
-        "paragraph": true,
-        "text": "And he cometh ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "home", "marks": ["i"] }]
@@ -1223,15 +1233,15 @@
     "chapter": 3,
     "verse": 22,
     "content": [
+      "And the scribes that came down from Jerusalem said, He hath ",
       {
-        "text": "And the scribes that came down from Jerusalem said, He hath ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "Beelzebul", "marks": ["i"] }, "."]
         }
       },
+      "Beelzebub, and, ",
       {
-        "text": "Beelzebub, and, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "In", "marks": ["i"] }]
@@ -1458,8 +1468,8 @@
     "chapter": 4,
     "verse": 19,
     "content": [
+      "and the cares of the ",
       {
-        "text": "and the cares of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "age", "marks": ["i"] }]
@@ -1535,8 +1545,8 @@
     "chapter": 4,
     "verse": 28,
     "content": [
+      "The earth ",
       {
-        "text": "The earth ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "yieldeth", "marks": ["i"] }]
@@ -1550,15 +1560,15 @@
     "chapter": 4,
     "verse": 29,
     "content": [
+      "But when the fruit ",
       {
-        "text": "But when the fruit ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "alloweth", "marks": ["i"] }]
         }
       },
+      "is ripe, straightway he ",
       {
-        "text": "is ripe, straightway he ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sendeth forth", "marks": ["i"] }]
@@ -1694,8 +1704,8 @@
     "chapter": 5,
     "verse": 6,
     "content": [
+      "And when he saw Jesus from afar, he ran and ",
       {
-        "text": "And when he saw Jesus from afar, he ran and ",
         "foot": {
           "type": "stu",
           "content": [
@@ -1769,8 +1779,8 @@
     "chapter": 5,
     "verse": 15,
     "content": [
+      "And they come to Jesus, and behold ",
       {
-        "text": "And they come to Jesus, and behold ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the demoniac", "marks": ["i"] }]
@@ -1786,8 +1796,8 @@
     "chapter": 5,
     "verse": 16,
     "content": [
+      "And they that saw it declared unto them how it befell ",
       {
-        "text": "And they that saw it declared unto them how it befell ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the demoniac", "marks": ["i"] }]
@@ -1807,8 +1817,8 @@
     "chapter": 5,
     "verse": 18,
     "content": [
+      "And as he was entering into the boat, ",
       {
-        "text": "And as he was entering into the boat, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the demoniac", "marks": ["i"] }]
@@ -1855,8 +1865,8 @@
     "content": [
       "and beseecheth him much, saying, My little daughter is at the point of death: ",
       { "text": "I pray thee", "marks": ["i"] },
+      ", that thou come and lay thy hands on her, that she may be ",
       {
-        "text": ", that thou come and lay thy hands on her, that she may be ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "saved", "marks": ["i"] }]
@@ -1897,8 +1907,8 @@
     "chapter": 5,
     "verse": 28,
     "content": [
+      "For she said, If I touch but his garments, I shall be ",
       {
-        "text": "For she said, If I touch but his garments, I shall be ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "saved", "marks": ["i"] }]
@@ -1912,8 +1922,8 @@
     "chapter": 5,
     "verse": 29,
     "content": [
+      "And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of her ",
       {
-        "text": "And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of her ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "scourge", "marks": ["i"] }, "."]
@@ -1955,15 +1965,15 @@
     "chapter": 5,
     "verse": 34,
     "content": [
+      "And he said unto her, Daughter, thy faith hath ",
       {
-        "text": "And he said unto her, Daughter, thy faith hath ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "saved thee", "marks": ["i"] }]
         }
       },
+      "made thee whole; go in peace, and be whole of thy ",
       {
-        "text": "made thee whole; go in peace, and be whole of thy ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "scourge", "marks": ["i"] }, "."]
@@ -1990,8 +2000,8 @@
     "chapter": 5,
     "verse": 36,
     "content": [
+      "But Jesus, ",
       {
-        "text": "But Jesus, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "overhearing", "marks": ["i"] }]
@@ -2005,15 +2015,15 @@
     "chapter": 5,
     "verse": 37,
     "content": [
+      "And he suffered no man to follow with him, save Peter, and ",
       {
-        "text": "And he suffered no man to follow with him, save Peter, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
         }
       },
+      "James, and John the brother of ",
       {
-        "text": "James, and John the brother of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -2080,8 +2090,8 @@
     "chapter": 6,
     "verse": 2,
     "content": [
+      "And when the sabbath was come, he began to teach in the synagogue: and ",
       {
-        "text": "And when the sabbath was come, he began to teach in the synagogue: and ",
         "foot": {
           "type": "var",
           "content": [
@@ -2093,8 +2103,8 @@
       },
       "many hearing him were astonished, saying, Whence hath this man these things? and, What is the wisdom that is given unto this man, and ",
       { "text": "what mean", "marks": ["i"] },
+      " such ",
       {
-        "text": " such ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "powers", "marks": ["i"] }, "."]
@@ -2108,15 +2118,15 @@
     "chapter": 6,
     "verse": 3,
     "content": [
+      "Is not this the carpenter, the son of Mary, and brother of ",
       {
-        "text": "Is not this the carpenter, the son of Mary, and brother of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
         }
       },
+      "James, and Joses, and Judas, and Simon? and are not his sisters here with us? And they were ",
       {
-        "text": "James, and Joses, and Judas, and Simon? and are not his sisters here with us? And they were ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2140,8 +2150,8 @@
     "chapter": 6,
     "verse": 5,
     "content": [
+      "And he could there do no ",
       {
-        "text": "And he could there do no ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "power", "marks": ["i"] }, "."]
@@ -2178,15 +2188,15 @@
     "content": [
       "and he charged them that they should take nothing for ",
       { "text": "their", "marks": ["i"] },
+      " journey, save a staff only; no bread, no wallet, no ",
       {
-        "text": " journey, save a staff only; no bread, no wallet, no ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "brass", "marks": ["i"] }, "."]
         }
       },
+      "money in their ",
       {
-        "text": "money in their ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "girdle", "marks": ["i"] }, "."]
@@ -2242,8 +2252,8 @@
     "content": [
       { "paragraph": true, "text": "And king Herod heard " },
       { "text": "thereof", "marks": ["i"] },
+      "; for his name had become known: and ",
       {
-        "text": "; for his name had become known: and ",
         "foot": {
           "type": "var",
           "content": [
@@ -2301,8 +2311,8 @@
     "chapter": 6,
     "verse": 20,
     "content": [
+      "for Herod feared John, knowing that he was a righteous and holy man, and kept him safe. And when he heard him, he ",
       {
-        "text": "for Herod feared John, knowing that he was a righteous and holy man, and kept him safe. And when he heard him, he ",
         "foot": {
           "type": "var",
           "content": [
@@ -2320,8 +2330,8 @@
     "chapter": 6,
     "verse": 21,
     "content": [
+      "And when a convenient day was come, that Herod on his birthday made a supper to his lords, and the ",
       {
-        "text": "And when a convenient day was come, that Herod on his birthday made a supper to his lords, and the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2341,8 +2351,8 @@
     "chapter": 6,
     "verse": 22,
     "content": [
+      "and when ",
       {
-        "text": "and when ",
         "foot": {
           "type": "var",
           "content": [
@@ -2352,8 +2362,8 @@
           ]
         }
       },
+      "the daughter of Herodias herself came in and danced, ",
       {
-        "text": "the daughter of Herodias herself came in and danced, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "it", "marks": ["i"] }]
@@ -2438,8 +2448,8 @@
       { "text": "the people", "marks": ["i"] },
       " saw them going, and many knew ",
       { "text": "them", "marks": ["i"] },
+      ", and they ran together there ",
       {
-        "text": ", and they ran together there ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "by land", "marks": ["i"] }]
@@ -2471,8 +2481,8 @@
     "chapter": 6,
     "verse": 37,
     "content": [
+      "But he answered and said unto them, Give ye them to eat. And they say unto him, Shall we go and buy two hundred ",
       {
-        "text": "But he answered and said unto them, Give ye them to eat. And they say unto him, Shall we go and buy two hundred ",
         "foot": {
           "type": "stu",
           "content": "The word in the Greek denotes a coin worth about eight pence half-penny, or nearly seventeen cents."
@@ -2496,8 +2506,8 @@
     "chapter": 6,
     "verse": 39,
     "content": [
+      "And he commanded them that all should ",
       {
-        "text": "And he commanded them that all should ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "recline", "marks": ["i"] }, "."]
@@ -2596,9 +2606,8 @@
     "chapter": 6,
     "verse": 53,
     "content": [
+      { "paragraph": true, "text": "And when they had " },
       {
-        "paragraph": true,
-        "text": "And when they had ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2628,8 +2637,8 @@
     "chapter": 6,
     "verse": 55,
     "content": [
+      "and ran round about that whole region, and began to carry about on their ",
       {
-        "text": "and ran round about that whole region, and began to carry about on their ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pallets", "marks": ["i"] }]
@@ -2643,8 +2652,8 @@
     "chapter": 6,
     "verse": 56,
     "content": [
+      "And wheresoever he entered, into villages, or into cities, or into the country, they laid the sick in the marketplaces, and besought him that they might touch if it were but the border of his garment: and as many as touched ",
       {
-        "text": "And wheresoever he entered, into villages, or into cities, or into the country, they laid the sick in the marketplaces, and besought him that they might touch if it were but the border of his garment: and as many as touched ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "it", "marks": ["i"] }]
@@ -2667,8 +2676,8 @@
     "chapter": 7,
     "verse": 2,
     "content": [
+      "and had seen that some of his disciples ate their bread with ",
       {
-        "text": "and had seen that some of his disciples ate their bread with ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "common", "marks": ["i"] }]
@@ -2682,8 +2691,8 @@
     "chapter": 7,
     "verse": 3,
     "content": [
+      "(For the Pharisees, and all the Jews, except they wash their hands ",
       {
-        "text": "(For the Pharisees, and all the Jews, except they wash their hands ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2705,8 +2714,8 @@
     "content": [
       "and ",
       { "text": "when they come", "marks": ["i"] },
+      " from the marketplace, except they ",
       {
-        "text": " from the marketplace, except they ",
         "foot": {
           "type": "var",
           "content": [
@@ -2718,8 +2727,8 @@
           ]
         }
       },
+      "bathe themselves, they eat not; and many other things there are, which they have received to hold, ",
       {
-        "text": "bathe themselves, they eat not; and many other things there are, which they have received to hold, ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "baptizings", "marks": ["i"] }, "."]
@@ -2743,8 +2752,8 @@
     "chapter": 7,
     "verse": 5,
     "content": [
+      "And the Pharisees and the scribes ask him, Why walk not thy disciples according to the tradition of the elders, but eat their bread with ",
       {
-        "text": "And the Pharisees and the scribes ask him, Why walk not thy disciples according to the tradition of the elders, but eat their bread with ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "common", "marks": ["i"] }]
@@ -2804,8 +2813,8 @@
     "chapter": 7,
     "verse": 10,
     "content": [
+      "For Moses said, ",
       {
-        "text": "For Moses said, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2820,8 +2829,8 @@
           ]
         }
       },
+      "Honor thy father and thy mother; and, He that speaketh evil of father or mother, let him ",
       {
-        "text": "Honor thy father and thy mother; and, He that speaketh evil of father or mother, let him ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "surely die", "marks": ["i"] }]
@@ -2923,8 +2932,8 @@
     "chapter": 7,
     "verse": 21,
     "content": [
+      "For from within, out of the heart of men, ",
       {
-        "text": "For from within, out of the heart of men, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2956,7 +2965,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And from thence he arose, and went away into the borders of Tyre ",
+        "text": "And from thence he arose, and went away into the borders of Tyre "
+      },
+      {
         "foot": {
           "type": "var",
           "content": [
@@ -2980,8 +2991,8 @@
     "chapter": 7,
     "verse": 26,
     "content": [
+      "Now the woman was a ",
       {
-        "text": "Now the woman was a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Gentile", "marks": ["i"] }]
@@ -2995,8 +3006,8 @@
     "chapter": 7,
     "verse": 27,
     "content": [
+      "And he said unto her, Let the children first be filled: for it is not meet to take the children’s ",
       {
-        "text": "And he said unto her, Let the children first be filled: for it is not meet to take the children’s ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "loaf", "marks": ["i"] }]
@@ -3094,8 +3105,8 @@
     "chapter": 8,
     "verse": 4,
     "content": [
+      "And his disciples answered him, Whence shall one be able to fill these men with ",
       {
-        "text": "And his disciples answered him, Whence shall one be able to fill these men with ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "loaves", "marks": ["i"] }, "."]
@@ -3185,8 +3196,8 @@
     "chapter": 8,
     "verse": 16,
     "content": [
+      "And they reasoned one with another, ",
       {
-        "text": "And they reasoned one with another, ",
         "foot": {
           "type": "var",
           "content": [
@@ -3196,8 +3207,8 @@
           ]
         }
       },
+      "saying, ",
       {
-        "text": "saying, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3227,8 +3238,8 @@
     "chapter": 8,
     "verse": 19,
     "content": [
+      "When I brake the five loaves among the five thousand, how many ",
       {
-        "text": "When I brake the five loaves among the five thousand, how many ",
         "foot": {
           "type": "stu",
           "content": [
@@ -3249,8 +3260,8 @@
     "chapter": 8,
     "verse": 20,
     "content": [
+      "And when the seven among the four thousand, how many ",
       {
-        "text": "And when the seven among the four thousand, how many ",
         "foot": {
           "type": "stu",
           "content": [
@@ -3368,8 +3379,8 @@
     "chapter": 8,
     "verse": 35,
     "content": [
+      "For whosoever would save his life shall lose it; and whosoever shall lose his life for my sake and the ",
       {
-        "text": "For whosoever would save his life shall lose it; and whosoever shall lose his life for my sake and the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -3420,7 +3431,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And after six days Jesus taketh with him Peter, and ",
+        "text": "And after six days Jesus taketh with him Peter, and "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -3446,8 +3459,8 @@
     "chapter": 9,
     "verse": 5,
     "content": [
+      "And Peter answereth and saith to Jesus, Rabbi, it is good for us to be here: and let us make three ",
       {
-        "text": "And Peter answereth and saith to Jesus, Rabbi, it is good for us to be here: and let us make three ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "booths", "marks": ["i"] }]
@@ -3494,8 +3507,8 @@
     "chapter": 9,
     "verse": 11,
     "content": [
+      "And they asked him, saying, ",
       {
-        "text": "And they asked him, saying, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3552,8 +3565,8 @@
     "chapter": 9,
     "verse": 18,
     "content": [
+      "and wheresoever it taketh him, it ",
       {
-        "text": "and wheresoever it taketh him, it ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3579,8 +3592,8 @@
     "chapter": 9,
     "verse": 20,
     "content": [
+      "And they brought him unto him: and when he saw him, straightway the spirit ",
       {
-        "text": "And they brought him unto him: and when he saw him, straightway the spirit ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3618,8 +3631,8 @@
     "chapter": 9,
     "verse": 24,
     "content": [
+      "Straightway the father of the child cried out, and said, ",
       {
-        "text": "Straightway the father of the child cried out, and said, ",
         "foot": {
           "type": "var",
           "content": [
@@ -3643,8 +3656,8 @@
     "chapter": 9,
     "verse": 26,
     "content": [
+      "And having cried out, and ",
       {
-        "text": "And having cried out, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3672,8 +3685,8 @@
     "chapter": 9,
     "verse": 28,
     "content": [
+      "And when he was come into the house, his disciples asked him privately, ",
       {
-        "text": "And when he was come into the house, his disciples asked him privately, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3718,8 +3731,8 @@
     "chapter": 9,
     "verse": 31,
     "content": [
+      "For he taught his disciples, and said unto them, The Son of man is ",
       {
-        "text": "For he taught his disciples, and said unto them, The Son of man is ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -3754,8 +3767,8 @@
     "content": [
       "But they held their peace: for they had disputed one with another on the way, who ",
       { "text": "was", "marks": ["i"] },
+      " the ",
       {
-        "text": " the ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "greater", "marks": ["i"] }, "."]
@@ -3769,8 +3782,8 @@
     "chapter": 9,
     "verse": 35,
     "content": [
+      "And he sat down, and called the twelve; and he saith unto them, If any man would be first, he shall be last of all, and ",
       {
-        "text": "And he sat down, and called the twelve; and he saith unto them, If any man would be first, he shall be last of all, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "minister", "marks": ["i"] }]
@@ -3805,8 +3818,8 @@
     "chapter": 9,
     "verse": 39,
     "content": [
+      "But Jesus said, Forbid him not: for there is no man who shall do a ",
       {
-        "text": "But Jesus said, Forbid him not: for there is no man who shall do a ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "power", "marks": ["i"] }, "."]
@@ -3826,8 +3839,8 @@
     "chapter": 9,
     "verse": 41,
     "content": [
+      "For whosoever shall give you a cup of water to drink, ",
       {
-        "text": "For whosoever shall give you a cup of water to drink, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3845,8 +3858,8 @@
     "chapter": 9,
     "verse": 42,
     "content": [
+      "And whosoever shall cause one of these little ones that believe ",
       {
-        "text": "And whosoever shall cause one of these little ones that believe ",
         "foot": {
           "type": "var",
           "content": [
@@ -3856,8 +3869,8 @@
           ]
         }
       },
+      "on me to stumble, it were better for him if ",
       {
-        "text": "on me to stumble, it were better for him if ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3875,8 +3888,8 @@
     "chapter": 9,
     "verse": 43,
     "content": [
+      "And if thy hand cause thee to stumble, cut it off: it is good for thee to enter into life maimed, rather than having thy two hands to go into ",
       {
-        "text": "And if thy hand cause thee to stumble, cut it off: it is good for thee to enter into life maimed, rather than having thy two hands to go into ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "Gehenna", "marks": ["i"] }, "."]
@@ -3894,9 +3907,7 @@
         "type": "var",
         "content": [
           { "bibleLink": "Mark 9:44", "content": "Verses 44" },
-          " and ",
-          { "bibleLink": "Mark 9:46", "content": "46" },
-          " (which are identical with ",
+          " and 46 (which are identical with ",
           { "bibleLink": "Mark 9:48", "content": "verse 48" },
           ") are omitted by the best ancient authorities."
         ]
@@ -3908,8 +3919,8 @@
     "chapter": 9,
     "verse": 45,
     "content": [
+      "And if thy foot cause thee to stumble, cut it off: it is good for thee to enter into life halt, rather than having thy two feet to be cast into ",
       {
-        "text": "And if thy foot cause thee to stumble, cut it off: it is good for thee to enter into life halt, rather than having thy two feet to be cast into ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "Gehenna", "marks": ["i"] }, "."]
@@ -3923,8 +3934,8 @@
     "chapter": 9,
     "verse": 47,
     "content": [
+      "And if thine eye cause thee to stumble, cast it out: it is good for thee to enter into the kingdom of God with one eye, rather than having two eyes to be cast into ",
       {
-        "text": "And if thine eye cause thee to stumble, cast it out: it is good for thee to enter into the kingdom of God with one eye, rather than having two eyes to be cast into ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "Gehenna", "marks": ["i"] }, "."]
@@ -3995,8 +4006,8 @@
     "chapter": 10,
     "verse": 3,
     "content": [
+      "And he answered and said unto them, ",
       {
-        "text": "And he answered and said unto them, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4033,8 +4044,8 @@
     "chapter": 10,
     "verse": 7,
     "content": [
+      "For this cause shall a man leave his father and mother, ",
       {
-        "text": "For this cause shall a man leave his father and mother, ",
         "foot": {
           "type": "var",
           "content": [
@@ -4091,8 +4102,8 @@
     "chapter": 10,
     "verse": 14,
     "content": [
+      "But when Jesus saw it, he was moved with indignation, and said unto them, Suffer the little children to come unto me; forbid them not: for ",
       {
-        "text": "But when Jesus saw it, he was moved with indignation, and said unto them, Suffer the little children to come unto me; forbid them not: for ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "of such is", "marks": ["i"] }]
@@ -4118,9 +4129,8 @@
     "chapter": 10,
     "verse": 17,
     "content": [
+      { "paragraph": true, "text": "And as he was going forth " },
       {
-        "paragraph": true,
-        "text": "And as he was going forth ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "on his way", "marks": ["i"] }]
@@ -4144,8 +4154,8 @@
     "chapter": 10,
     "verse": 19,
     "content": [
+      "Thou knowest the commandments, ",
       {
-        "text": "Thou knowest the commandments, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4191,8 +4201,8 @@
     "chapter": 10,
     "verse": 24,
     "content": [
+      "And the disciples were amazed at his words. But Jesus answereth again, and saith unto them, Children, how hard is it ",
       {
-        "text": "And the disciples were amazed at his words. But Jesus answereth again, and saith unto them, Children, how hard is it ",
         "foot": {
           "type": "var",
           "content": [
@@ -4216,8 +4226,8 @@
     "chapter": 10,
     "verse": 26,
     "content": [
+      "And they were astonished exceedingly, saying ",
       {
-        "text": "And they were astonished exceedingly, saying ",
         "foot": {
           "type": "var",
           "content": [
@@ -4247,8 +4257,8 @@
     "chapter": 10,
     "verse": 29,
     "content": [
+      "Jesus said, Verily I say unto you, There is no man that hath left house, or brethren, or sisters, or mother, or father, or children, or lands, for my sake, and for the ",
       {
-        "text": "Jesus said, Verily I say unto you, There is no man that hath left house, or brethren, or sisters, or mother, or father, or children, or lands, for my sake, and for the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4266,8 +4276,8 @@
     "chapter": 10,
     "verse": 30,
     "content": [
+      "but he shall receive a hundredfold now in this time, houses, and brethren, and sisters, and mothers, and children, and lands, with persecutions; and in the ",
       {
-        "text": "but he shall receive a hundredfold now in this time, houses, and brethren, and sisters, and mothers, and children, and lands, with persecutions; and in the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "age", "marks": ["i"] }]
@@ -4315,9 +4325,8 @@
     "chapter": 10,
     "verse": 35,
     "content": [
+      { "paragraph": true, "text": "And there come near unto him " },
       {
-        "paragraph": true,
-        "text": "And there come near unto him ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -4371,8 +4380,8 @@
     "chapter": 10,
     "verse": 41,
     "content": [
+      "And when the ten heard it, they began to be moved with indignation concerning ",
       {
-        "text": "And when the ten heard it, they began to be moved with indignation concerning ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -4392,8 +4401,8 @@
     "chapter": 10,
     "verse": 43,
     "content": [
+      "But it is not so among you: but whosoever would become great among you, shall be your ",
       {
-        "text": "But it is not so among you: but whosoever would become great among you, shall be your ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "servant", "marks": ["i"] }]
@@ -4407,8 +4416,8 @@
     "chapter": 10,
     "verse": 44,
     "content": [
+      "and whosoever would be first among you, shall be ",
       {
-        "text": "and whosoever would be first among you, shall be ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
@@ -4461,8 +4470,8 @@
     "chapter": 10,
     "verse": 51,
     "content": [
+      "And Jesus answered him, and said, What wilt thou that I should do unto thee? And the blind man said unto him, ",
       {
-        "text": "And Jesus answered him, and said, What wilt thou that I should do unto thee? And the blind man said unto him, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4480,8 +4489,8 @@
     "chapter": 10,
     "verse": 52,
     "content": [
+      "And Jesus said unto him, Go thy way; thy faith hath ",
       {
-        "text": "And Jesus said unto him, Go thy way; thy faith hath ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "saved thee", "marks": ["i"] }]
@@ -4510,15 +4519,15 @@
     "chapter": 11,
     "verse": 3,
     "content": [
+      "And if any one say unto you, Why do ye this? say ye, The Lord hath need of him; and straightway he ",
       {
-        "text": "And if any one say unto you, Why do ye this? say ye, The Lord hath need of him; and straightway he ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "sendeth", "marks": ["i"] }, "."]
         }
       },
+      "will send him ",
       {
-        "text": "will send him ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "again", "marks": ["i"] }]
@@ -4556,8 +4565,8 @@
     "chapter": 11,
     "verse": 8,
     "content": [
+      "And many spread their garments upon the way; and others ",
       {
-        "text": "And many spread their garments upon the way; and others ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4642,8 +4651,8 @@
     "chapter": 11,
     "verse": 17,
     "content": [
+      "And he taught, and said unto them, Is it not written, ",
       {
-        "text": "And he taught, and said unto them, Is it not written, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4652,8 +4661,8 @@
           ]
         }
       },
+      "My house shall be called a house of prayer for all the nations? ",
       {
-        "text": "My house shall be called a house of prayer for all the nations? ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -4676,9 +4685,8 @@
     "chapter": 11,
     "verse": 19,
     "content": [
+      { "paragraph": true, "text": "And " },
       {
-        "paragraph": true,
-        "text": "And ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4688,8 +4696,8 @@
           ]
         }
       },
+      "every evening ",
       {
-        "text": "every evening ",
         "foot": {
           "type": "var",
           "content": [
@@ -4734,8 +4742,8 @@
     "chapter": 11,
     "verse": 24,
     "content": [
+      "Therefore I say unto you, All things whatsoever ye pray and ask for, believe that ye ",
       {
-        "text": "Therefore I say unto you, All things whatsoever ye pray and ask for, believe that ye ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "received", "marks": ["i"] }, "."]
@@ -4794,8 +4802,8 @@
     "chapter": 11,
     "verse": 29,
     "content": [
+      "And Jesus said unto them, I will ask of you one ",
       {
-        "text": "And Jesus said unto them, I will ask of you one ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "word", "marks": ["i"] }, "."]
@@ -4830,8 +4838,8 @@
           ]
         }
       },
+      "But should we say, From men—they feared the people: ",
       {
-        "text": "But should we say, From men—they feared the people: ",
         "foot": {
           "type": "trn",
           "content": [
@@ -4866,8 +4874,8 @@
     "chapter": 12,
     "verse": 2,
     "content": [
+      "And at the season he sent to the husbandmen a ",
       {
-        "text": "And at the season he sent to the husbandmen a ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
@@ -4887,8 +4895,8 @@
     "chapter": 12,
     "verse": 4,
     "content": [
+      "And again he sent unto them another ",
       {
-        "text": "And again he sent unto them another ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
@@ -4985,8 +4993,8 @@
     "chapter": 12,
     "verse": 15,
     "content": [
+      "Shall we give, or shall we not give? But he, knowing their hypocrisy, said unto them, Why make ye trial of me? bring me a ",
       {
-        "text": "Shall we give, or shall we not give? But he, knowing their hypocrisy, said unto them, Why make ye trial of me? bring me a ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5025,8 +5033,8 @@
     "chapter": 12,
     "verse": 19,
     "content": [
+      "Teacher, Moses wrote unto us, ",
       {
-        "text": "Teacher, Moses wrote unto us, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5081,8 +5089,8 @@
     "content": [
       "But as touching the dead, that they are raised; have ye not read in the book of Moses, in ",
       { "text": "the place concerning", "marks": ["i"] },
+      " the Bush, how God spake unto him, saying, ",
       {
-        "text": " the Bush, how God spake unto him, saying, ",
         "foot": {
           "type": "xrf",
           "content": [{ "bibleLink": "Exodus 3:6", "content": "Ex. 3:6" }, "."]
@@ -5113,8 +5121,8 @@
     "chapter": 12,
     "verse": 29,
     "content": [
+      "Jesus answered, The first is, ",
       {
-        "text": "Jesus answered, The first is, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5123,8 +5131,8 @@
           ]
         }
       },
+      "Hear, O Israel; ",
       {
-        "text": "Hear, O Israel; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5141,29 +5149,29 @@
     "chapter": 12,
     "verse": 30,
     "content": [
+      "and thou shalt love the Lord thy God ",
       {
-        "text": "and thou shalt love the Lord thy God ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
         }
       },
+      "with all thy heart, and ",
       {
-        "text": "with all thy heart, and ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
         }
       },
+      "with all thy soul, and ",
       {
-        "text": "with all thy soul, and ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
         }
       },
+      "with all thy mind, and ",
       {
-        "text": "with all thy mind, and ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
@@ -5177,8 +5185,8 @@
     "chapter": 12,
     "verse": 31,
     "content": [
+      "The second is this, ",
       {
-        "text": "The second is this, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5235,8 +5243,8 @@
       },
       { "text": "The Lord said unto my Lord,", "break": true },
       { "text": "Sit thou on my right hand,", "break": true },
+      "Till I make thine enemies ",
       {
-        "text": "Till I make thine enemies ",
         "foot": {
           "type": "var",
           "content": [
@@ -5256,7 +5264,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "David himself calleth him Lord; and whence is he his son? And ",
+        "text": "David himself calleth him Lord; and whence is he his son? And "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the great multitude", "marks": ["i"] }]
@@ -5289,8 +5299,8 @@
     "chapter": 12,
     "verse": 40,
     "content": [
+      "they that devour widows’ houses, ",
       {
-        "text": "they that devour widows’ houses, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5309,7 +5319,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And he sat down over against the treasury, and beheld how the multitude cast ",
+        "text": "And he sat down over against the treasury, and beheld how the multitude cast "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "brass", "marks": ["i"] }, "."]
@@ -5323,8 +5335,8 @@
     "chapter": 12,
     "verse": 42,
     "content": [
+      "And there came ",
       {
-        "text": "And there came ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "one", "marks": ["i"] }, "."]
@@ -5371,7 +5383,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And as he sat on the mount of Olives over against the temple, Peter and ",
+        "text": "And as he sat on the mount of Olives over against the temple, Peter and "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -5436,8 +5450,8 @@
     "chapter": 13,
     "verse": 10,
     "content": [
+      "And the ",
       {
-        "text": "And the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5465,8 +5479,8 @@
     "chapter": 13,
     "verse": 12,
     "content": [
+      "And brother shall ",
       {
-        "text": "And brother shall ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5476,8 +5490,8 @@
           ]
         }
       },
+      "deliver up brother to death, and the father his child; and children shall rise up against parents, and ",
       {
-        "text": "deliver up brother to death, and the father his child; and children shall rise up against parents, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "put them to death", "marks": ["i"] }]
@@ -5542,10 +5556,8 @@
     "chapter": 13,
     "verse": 21,
     "content": [
-      {
-        "text": "And then if any man shall say unto you, Lo, here is the Christ; or, Lo, there; believe ",
-        "foot": { "type": "trn", "content": "Or, him" }
-      },
+      "And then if any man shall say unto you, Lo, here is the Christ; or, Lo, there; believe ",
+      { "foot": { "type": "trn", "content": "Or, him" } },
       { "text": "it", "marks": ["i"] },
       " not:"
     ]
@@ -5603,8 +5615,8 @@
     "chapter": 13,
     "verse": 29,
     "content": [
+      "even so ye also, when ye see these things coming to pass, know ye that ",
       {
-        "text": "even so ye also, when ye see these things coming to pass, know ye that ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "it", "marks": ["i"] }]
@@ -5638,9 +5650,8 @@
     "chapter": 13,
     "verse": 33,
     "content": [
+      { "paragraph": true, "text": "Take ye heed, watch " },
       {
-        "paragraph": true,
-        "text": "Take ye heed, watch ",
         "foot": {
           "type": "var",
           "content": [
@@ -5661,8 +5672,8 @@
       { "text": "It is", "marks": ["i"] },
       " as ",
       { "text": "when", "marks": ["i"] },
+      " a man, sojourning in another country, having left his house, and given authority to his ",
       {
-        "text": " a man, sojourning in another country, having left his house, and given authority to his ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "bondservants", "marks": ["i"] }, "."]
@@ -5712,14 +5723,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And while he was in Bethany in the house of Simon the leper, as he sat at meat, there came a woman having ",
+        "text": "And while he was in Bethany in the house of Simon the leper, as he sat at meat, there came a woman having "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a flask", "marks": ["i"] }]
         }
       },
+      "an alabaster cruse of ointment of ",
       {
-        "text": "an alabaster cruse of ointment of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "liquid nard", "marks": ["i"] }]
@@ -5745,8 +5758,8 @@
     "chapter": 14,
     "verse": 5,
     "content": [
+      "For this ointment might have been sold for above three hundred ",
       {
-        "text": "For this ointment might have been sold for above three hundred ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5782,8 +5795,8 @@
     "chapter": 14,
     "verse": 9,
     "content": [
+      "And verily I say unto you, Wheresoever the ",
       {
-        "text": "And verily I say unto you, Wheresoever the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5801,9 +5814,8 @@
     "chapter": 14,
     "verse": 10,
     "content": [
+      { "paragraph": true, "text": "And Judas Iscariot, " },
       {
-        "paragraph": true,
-        "text": "And Judas Iscariot, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5813,8 +5825,8 @@
           ]
         }
       },
+      "he that was one of the twelve, went away unto the chief priests, that he might ",
       {
-        "text": "he that was one of the twelve, went away unto the chief priests, that he might ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5832,8 +5844,8 @@
     "chapter": 14,
     "verse": 11,
     "content": [
+      "And they, when they heard it, were glad, and promised to give him money. And he sought how he might conveniently ",
       {
-        "text": "And they, when they heard it, were glad, and promised to give him money. And he sought how he might conveniently ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5899,15 +5911,15 @@
     "chapter": 14,
     "verse": 18,
     "content": [
+      "And as they ",
       {
-        "text": "And as they ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "reclined", "marks": ["i"] }, "."]
         }
       },
+      "sat and were eating, Jesus said, Verily I say unto you, One of you shall ",
       {
-        "text": "sat and were eating, Jesus said, Verily I say unto you, One of you shall ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5943,8 +5955,8 @@
     "chapter": 14,
     "verse": 21,
     "content": [
+      "For the Son of man goeth, even as it is written of him: but woe unto that man through whom the Son of man is ",
       {
-        "text": "For the Son of man goeth, even as it is written of him: but woe unto that man through whom the Son of man is ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -5954,8 +5966,8 @@
           ]
         }
       },
+      "betrayed! good were it ",
       {
-        "text": "betrayed! good were it ",
         "foot": {
           "type": "trn",
           "content": [
@@ -5973,9 +5985,8 @@
     "chapter": 14,
     "verse": 22,
     "content": [
+      { "paragraph": true, "text": "And as they were eating, he took " },
       {
-        "paragraph": true,
-        "text": "And as they were eating, he took ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a loaf", "marks": ["i"] }]
@@ -5995,8 +6006,8 @@
     "chapter": 14,
     "verse": 24,
     "content": [
+      "And he said unto them, This is my blood of the ",
       {
-        "text": "And he said unto them, This is my blood of the ",
         "foot": {
           "type": "var",
           "content": [
@@ -6031,7 +6042,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And Jesus saith unto them, All ye shall be ",
+        "text": "And Jesus saith unto them, All ye shall be "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -6041,8 +6054,8 @@
           ]
         }
       },
+      "offended: for it is written, ",
       {
-        "text": "offended: for it is written, ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -6065,8 +6078,8 @@
     "chapter": 14,
     "verse": 29,
     "content": [
+      "But Peter said unto him, Although all shall be ",
       {
-        "text": "But Peter said unto him, Although all shall be ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6100,9 +6113,8 @@
     "chapter": 14,
     "verse": 32,
     "content": [
+      { "paragraph": true, "text": "And they come unto " },
       {
-        "paragraph": true,
-        "text": "And they come unto ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6120,8 +6132,8 @@
     "chapter": 14,
     "verse": 33,
     "content": [
+      "And he taketh with him Peter and ",
       {
-        "text": "And he taketh with him Peter and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -6188,8 +6200,8 @@
     "chapter": 14,
     "verse": 41,
     "content": [
+      "And he cometh the third time, and saith unto them, ",
       {
-        "text": "And he cometh the third time, and saith unto them, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6201,8 +6213,8 @@
           ]
         }
       },
+      "Sleep on now, and take your rest: it is enough; the hour is come; behold, the Son of man is ",
       {
-        "text": "Sleep on now, and take your rest: it is enough; the hour is come; behold, the Son of man is ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -6220,8 +6232,8 @@
     "chapter": 14,
     "verse": 42,
     "content": [
+      "Arise, let us be going: behold, he that ",
       {
-        "text": "Arise, let us be going: behold, he that ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -6248,8 +6260,8 @@
     "chapter": 14,
     "verse": 44,
     "content": [
+      "Now he that ",
       {
-        "text": "Now he that ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -6267,8 +6279,8 @@
     "chapter": 14,
     "verse": 45,
     "content": [
+      "And when he was come, straightway he came to him, and saith, Rabbi; and ",
       {
-        "text": "And when he was come, straightway he came to him, and saith, Rabbi; and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6292,8 +6304,8 @@
     "chapter": 14,
     "verse": 47,
     "content": [
+      "But a certain one of them that stood by drew his sword, and smote the ",
       {
-        "text": "But a certain one of them that stood by drew his sword, and smote the ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
@@ -6387,8 +6399,8 @@
     "chapter": 14,
     "verse": 58,
     "content": [
+      "We heard him say, I will destroy this ",
       {
-        "text": "We heard him say, I will destroy this ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
@@ -6432,8 +6444,8 @@
     "chapter": 14,
     "verse": 64,
     "content": [
+      "Ye have heard the blasphemy: what think ye? And they all condemned him to be ",
       {
-        "text": "Ye have heard the blasphemy: what think ye? And they all condemned him to be ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "liable to", "marks": ["i"] }, "."]
@@ -6447,8 +6459,8 @@
     "chapter": 14,
     "verse": 65,
     "content": [
+      "And some began to spit on him, and to cover his face, and to buffet him, and to say unto him, Prophesy: and the officers received him with ",
       {
-        "text": "And some began to spit on him, and to cover his face, and to buffet him, and to say unto him, Prophesy: and the officers received him with ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "strokes of rods", "marks": ["i"] }]
@@ -6481,8 +6493,8 @@
     "chapter": 14,
     "verse": 68,
     "content": [
+      "But he denied, saying, ",
       {
-        "text": "But he denied, saying, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6494,15 +6506,15 @@
           ]
         }
       },
+      "I neither know, nor understand what thou sayest: and he went out into the ",
       {
-        "text": "I neither know, nor understand what thou sayest: and he went out into the ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "forecourt", "marks": ["i"] }, "."]
         }
       },
+      "porch; ",
       {
-        "text": "porch; ",
         "foot": {
           "type": "var",
           "content": [
@@ -6546,8 +6558,8 @@
     "chapter": 14,
     "verse": 72,
     "content": [
+      "And straightway the second time the cock crew. And Peter called to mind the word, how that Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. ",
       {
-        "text": "And straightway the second time the cock crew. And Peter called to mind the word, how that Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6597,9 +6609,8 @@
     "chapter": 15,
     "verse": 6,
     "content": [
+      { "paragraph": true, "text": "Now at " },
       {
-        "paragraph": true,
-        "text": "Now at ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a feast", "marks": ["i"] }]
@@ -6677,7 +6688,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the soldiers led him away within the court, which is the ",
+        "text": "And the soldiers led him away within the court, which is the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "palace", "marks": ["i"] }]
@@ -6710,8 +6723,8 @@
     "chapter": 15,
     "verse": 19,
     "content": [
+      "And they smote his head with a reed, and spat upon him, and bowing their knees ",
       {
-        "text": "And they smote his head with a reed, and spat upon him, and bowing their knees ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -6735,9 +6748,8 @@
     "chapter": 15,
     "verse": 21,
     "content": [
+      { "paragraph": true, "text": "And they " },
       {
-        "paragraph": true,
-        "text": "And they ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "impress", "marks": ["i"] }, "."]
@@ -6814,8 +6826,8 @@
     "chapter": 15,
     "verse": 29,
     "content": [
+      "And they that passed by railed on him, wagging their heads, and saying, Ha! thou that destroyest the ",
       {
-        "text": "And they that passed by railed on him, wagging their heads, and saying, Ha! thou that destroyest the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
@@ -6837,8 +6849,8 @@
     "content": [
       "In like manner also the chief priests mocking ",
       { "text": "him", "marks": ["i"] },
+      " among themselves with the scribes said, He saved others; ",
       {
-        "text": " among themselves with the scribes said, He saved others; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6863,7 +6875,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And when the sixth hour was come, there was darkness over the whole ",
+        "text": "And when the sixth hour was come, there was darkness over the whole "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "earth", "marks": ["i"] }]
@@ -6877,15 +6891,15 @@
     "chapter": 15,
     "verse": 34,
     "content": [
+      "And at the ninth hour Jesus cried with a loud voice, Eloi, Eloi, lama sabachthani? which is, being interpreted, ",
       {
-        "text": "And at the ninth hour Jesus cried with a loud voice, Eloi, Eloi, lama sabachthani? which is, being interpreted, ",
         "foot": {
           "type": "xrf",
           "content": [{ "bibleLink": "Psalm 22:1", "content": "Ps. 22:1" }, "."]
         }
       },
+      "My God, my God, ",
       {
-        "text": "My God, my God, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -6920,8 +6934,8 @@
     "chapter": 15,
     "verse": 38,
     "content": [
+      "And the veil of the ",
       {
-        "text": "And the veil of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
@@ -6935,8 +6949,8 @@
     "chapter": 15,
     "verse": 39,
     "content": [
+      "And when the centurion, who stood by over against him, saw that he ",
       {
-        "text": "And when the centurion, who stood by over against him, saw that he ",
         "foot": {
           "type": "var",
           "content": [
@@ -6946,8 +6960,8 @@
           ]
         }
       },
+      "so gave up the ghost, he said, Truly this man was ",
       {
-        "text": "so gave up the ghost, he said, Truly this man was ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a son of God", "marks": ["i"] }]
@@ -6963,15 +6977,15 @@
     "content": [
       "And there were also women beholding from afar: among whom ",
       { "text": "were", "marks": ["i"] },
+      " both Mary Magdalene, and Mary the mother of ",
       {
-        "text": " both Mary Magdalene, and Mary the mother of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
         }
       },
+      "James the ",
       {
-        "text": "James the ",
         "foot": {
           "type": "trn",
           "content": ["Greek ", { "text": "little", "marks": ["i"] }, "."]
@@ -7006,8 +7020,8 @@
     "chapter": 15,
     "verse": 44,
     "content": [
+      "And Pilate marvelled if he were already dead: and calling unto him the centurion, he asked him whether ",
       {
-        "text": "And Pilate marvelled if he were already dead: and calling unto him the centurion, he asked him whether ",
         "foot": {
           "type": "var",
           "content": [
@@ -7052,8 +7066,8 @@
         "text": "And when the sabbath was past, Mary Magdalene, and Mary the "
       },
       { "text": "mother", "marks": ["i"] },
+      " of ",
       {
-        "text": " of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
@@ -7167,8 +7181,8 @@
     "chapter": 16,
     "verse": 15,
     "content": [
+      "And he said unto them, Go ye into all the world, and preach the ",
       {
-        "text": "And he said unto them, Go ye into all the world, and preach the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -7192,8 +7206,8 @@
     "chapter": 16,
     "verse": 17,
     "content": [
+      "And these signs shall accompany them that believe: in my name shall they cast out demons; they shall speak with ",
       {
-        "text": "And these signs shall accompany them that believe: in my name shall they cast out demons; they shall speak with ",
         "foot": {
           "type": "var",
           "content": [

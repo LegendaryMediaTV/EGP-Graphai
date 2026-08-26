@@ -969,7 +969,7 @@ Then Jesus said to him, “Go and do likewise.”
 <sup>19</sup> It is like a grain of mustard seed which a man took and put in his own garden. It grew and became a large tree, and the birds of the sky live in its branches.”
 
 <sup>20</sup> Again he said, “To what shall I compare God’s Kingdom?
-<sup>21</sup> It is like yeast, which a woman took and hid in three measures <sup>a</sup> of flour, until it was all leavened.”
+<sup>21</sup> It is like yeast, which a woman took and hid in three measures<sup>a</sup> of flour, until it was all leavened.”
 
 <sup>22</sup> He went on his way through cities and villages, teaching, and traveling on to Jerusalem.
 <sup>23</sup> One said to him, “Lord, are they few who are saved?”
@@ -1285,7 +1285,7 @@ He said, “Lord, that I may see again.”
 
 <sup>11</sup> As they heard these things, he went on and told a parable, because he was near Jerusalem, and they supposed that God’s Kingdom would be revealed immediately.
 <sup>12</sup> He said therefore, “A certain nobleman went into a far country to receive for himself a kingdom and to return.
-<sup>13</sup> He called ten servants of his and gave them ten mina coins, <sup>a</sup> and told them, ‘Conduct business until I come.’
+<sup>13</sup> He called ten servants of his and gave them ten mina coins,<sup>a</sup> and told them, ‘Conduct business until I come.’
 <sup>14</sup> But his citizens hated him, and sent an envoy after him, saying, ‘We don’t want this man to reign over us.’
 
 <sup>15</sup> “When he had come back again, having received the kingdom, he commanded these servants, to whom he had given the money, to be called to him, that he might know what they had gained by conducting business.
@@ -1332,7 +1332,7 @@ He said, “Lord, that I may see again.”
 <sup>44</sup> and will dash you and your children within you to the ground. They will not leave in you one stone on another, because you didn’t know the time of your visitation.”
 
 <sup>45</sup> He entered into the temple and began to drive out those who bought and sold in it,
-<sup>46</sup> saying to them, “It is written, ‘My house is a house of prayer,’ <sup>d</sup> but you have made it a ‘den of robbers’!”<sup>e</sup>
+<sup>46</sup> saying to them, “It is written, ‘My house is a house of prayer,’<sup>d</sup> but you have made it a ‘den of robbers’!”<sup>e</sup>
 
 <sup>47</sup> He was teaching daily in the temple, but the chief priests, the scribes, and the leading men among the people sought to destroy him.
 <sup>48</sup> They couldn’t find what they might do, for all the people hung on to every word that he said.
@@ -1357,7 +1357,7 @@ He said, “Lord, that I may see again.”
 
 <sup>8</sup> Jesus said to them, “Neither will I tell you by what authority I do these things.”
 
-<sup>9</sup> He began to tell the people this parable: “A <sup>b</sup> man planted a vineyard and rented it out to some farmers, and went into another country for a long time.
+<sup>9</sup> He began to tell the people this parable: “A<sup>b</sup> man planted a vineyard and rented it out to some farmers, and went into another country for a long time.
 <sup>10</sup> At the proper season, he sent a servant to the farmers to collect his share of the fruit of the vineyard. But the farmers beat him and sent him away empty.
 <sup>11</sup> He sent yet another servant, and they also beat him and treated him shamefully, and sent him away empty.
 <sup>12</sup> He sent yet a third, and they also wounded him and threw him out.

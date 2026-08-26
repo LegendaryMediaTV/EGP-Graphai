@@ -182,14 +182,14 @@
 <sup>20</sup> For I tell you that unless your righteousness exceeds that of the scribes and Pharisees, there is no way you will enter into the Kingdom of Heaven.
 
 <sup>21</sup> “You have heard that it was said to the ancient ones, ‘You shall not murder;’<sup>g</sup> and ‘Whoever murders will be in danger of the judgment.’
-<sup>22</sup> But I tell you that everyone who is angry with his brother without a cause <sup>h</sup> will be in danger of the judgment. Whoever says to his brother, ‘Raca!’ <sup>i</sup> will be in danger of the council. Whoever says, ‘You fool!’ will be in danger of the fire of Gehenna.<sup>j</sup>
+<sup>22</sup> But I tell you that everyone who is angry with his brother without a cause<sup>h</sup> will be in danger of the judgment. Whoever says to his brother, ‘Raca!’<sup>i</sup> will be in danger of the council. Whoever says, ‘You fool!’ will be in danger of the fire of Gehenna.<sup>j</sup>
 
 <sup>23</sup> “If therefore you are offering your gift at the altar, and there remember that your brother has anything against you,
 <sup>24</sup> leave your gift there before the altar, and go your way. First be reconciled to your brother, and then come and offer your gift.
 <sup>25</sup> Agree with your adversary quickly while you are with him on the way; lest perhaps the prosecutor deliver you to the judge, and the judge deliver you to the officer, and you be cast into prison.
 <sup>26</sup> Most certainly I tell you, you shall by no means get out of there until you have paid the last penny.<sup>k</sup>
 
-<sup>27</sup> “You have heard that it was said, <sup>l</sup> ‘You shall not commit adultery;’<sup>m</sup>
+<sup>27</sup> “You have heard that it was said,<sup>l</sup> ‘You shall not commit adultery;’<sup>m</sup>
 <sup>28</sup> but I tell you that everyone who gazes at a woman to lust after her has committed adultery with her already in his heart.
 <sup>29</sup> If your right eye causes you to stumble, pluck it out and throw it away from you. For it is more profitable for you that one of your members should perish than for your whole body to be cast into Gehenna.<sup>n</sup>
 <sup>30</sup> If your right hand causes you to stumble, cut it off, and throw it away from you. For it is more profitable for you that one of your members should perish, than for your whole body to be cast into Gehenna.<sup>o</sup>
@@ -209,7 +209,7 @@
 <sup>41</sup> Whoever compels you to go one mile, go with him two.
 <sup>42</sup> Give to him who asks you, and don’t turn away him who desires to borrow from you.
 
-<sup>43</sup> “You have heard that it was said, ‘You shall love your neighbor <sup>s</sup> and hate your enemy.’<sup>t</sup>
+<sup>43</sup> “You have heard that it was said, ‘You shall love your neighbor<sup>s</sup> and hate your enemy.’<sup>t</sup>
 <sup>44</sup> But I tell you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you,
 <sup>45</sup> that you may be children of your Father who is in heaven. For he makes his sun to rise on the evil and the good, and sends rain on the just and the unjust.
 <sup>46</sup> For if you love those who love you, what reward do you have? Don’t even the tax collectors do the same?
@@ -541,7 +541,7 @@ They told him, “Yes, Lord.”
 <sup>20</sup> Then he began to denounce the cities in which most of his mighty works had been done, because they didn’t repent.
 <sup>21</sup> “Woe to you, Chorazin! Woe to you, Bethsaida! For if the mighty works had been done in Tyre and Sidon which were done in you, they would have repented long ago in sackcloth and ashes.
 <sup>22</sup> But I tell you, it will be more tolerable for Tyre and Sidon on the day of judgment than for you.
-<sup>23</sup> You, Capernaum, who are exalted to heaven, you will go down to Hades. <sup>f</sup> For if the mighty works had been done in Sodom which were done in you, it would have remained until today.
+<sup>23</sup> You, Capernaum, who are exalted to heaven, you will go down to Hades.<sup>f</sup> For if the mighty works had been done in Sodom which were done in you, it would have remained until today.
 <sup>24</sup> But I tell you that it will be more tolerable for the land of Sodom on the day of judgment, than for you.”
 
 <sup>25</sup> At that time, Jesus answered, “I thank you, Father, Lord of heaven and earth, that you hid these things from the wise and understanding, and revealed them to infants.
@@ -755,7 +755,7 @@ But Jesus said to them, “A prophet is not without honor, except in his own cou
 <sup>24</sup> But the boat was now in the middle of the sea, distressed by the waves, for the wind was contrary.
 <sup>25</sup> In the fourth watch of the night,<sup>a</sup> Jesus came to them, walking on the sea.<sup>b</sup>
 <sup>26</sup> When the disciples saw him walking on the sea, they were troubled, saying, “It’s a ghost!” and they cried out for fear.
-<sup>27</sup> But immediately Jesus spoke to them, saying, “Cheer up! It is I! <sup>c</sup> Don’t be afraid.”
+<sup>27</sup> But immediately Jesus spoke to them, saying, “Cheer up! It is I!<sup>c</sup> Don’t be afraid.”
 
 <sup>28</sup> Peter answered him and said, “Lord, if it is you, command me to come to you on the waters.”
 
@@ -874,7 +874,7 @@ He left them and departed.
 <sup>16</sup> Simon Peter answered, “You are the Christ, the Son of the living God.”
 
 <sup>17</sup> Jesus answered him, “Blessed are you, Simon Bar Jonah, for flesh and blood has not revealed this to you, but my Father who is in heaven.
-<sup>18</sup> I also tell you that you are Peter,<sup>a</sup> and on this rock <sup>b</sup> I will build my assembly, and the gates of Hades<sup>c</sup> will not prevail against it.
+<sup>18</sup> I also tell you that you are Peter,<sup>a</sup> and on this rock<sup>b</sup> I will build my assembly, and the gates of Hades<sup>c</sup> will not prevail against it.
 <sup>19</sup> I will give to you the keys of the Kingdom of Heaven, and whatever you bind on earth will have been bound in heaven; and whatever you release on earth will have been released in heaven.”
 <sup>20</sup> Then he commanded the disciples that they should tell no one that he was Jesus the Christ.
 
@@ -1745,7 +1745,7 @@ But they cried out exceedingly, saying, “Let him be crucified!”
 
 They came and took hold of his feet, and worshiped him.
 
-<sup>10</sup> Then Jesus said to them, “Don’t be afraid. Go tell my brothers <sup>a</sup> that they should go into Galilee, and there they will see me.”
+<sup>10</sup> Then Jesus said to them, “Don’t be afraid. Go tell my brothers<sup>a</sup> that they should go into Galilee, and there they will see me.”
 
 <sup>11</sup> Now while they were going, behold, some of the guards came into the city and told the chief priests all the things that had happened.
 <sup>12</sup> When they were assembled with the elders and had taken counsel, they gave a large amount of silver to the soldiers,

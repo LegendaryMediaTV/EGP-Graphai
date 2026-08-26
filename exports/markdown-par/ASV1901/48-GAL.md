@@ -61,7 +61,7 @@
 <sup>4</sup> <sup>c</sup>and that because of the false brethren privily brought in, who came in privily to spy out our liberty which we have in Christ Jesus, that they might bring us into bondage:
 <sup>5</sup> to whom we gave place in the way of subjection, no, not for an hour; that the truth of the <sup>d</sup>gospel might continue with you.
 <sup>6</sup> But from those who <sup>e</sup>were reputed to be somewhat <sup>f</sup>(whatsoever they were, it maketh no matter to me: God accepteth not man’s person)—they, I say, who were of repute imparted nothing to me:
-<sup>7</sup> but contrariwise, when they saw that I had been intrusted with the <sup>g</sup>gospel of the uncircumcision, even as Peter with _the_ <sup>h</sup>_gospel_ of the circumcision
+<sup>7</sup> but contrariwise, when they saw that I had been intrusted with the <sup>g</sup>gospel of the uncircumcision, even as Peter with _the _<sup>h</sup>_gospel_ of the circumcision
 <sup>8</sup> (for he that wrought for Peter unto the apostleship of the circumcision wrought for me also unto the Gentiles);
 <sup>9</sup> and when they perceived the grace that was given unto me, <sup>i</sup>James and Cephas and John, they who <sup>j</sup>were reputed to be pillars, gave to me and Barnabas the right hands of fellowship, that we should go unto the Gentiles, and they unto the circumcision;
 <sup>10</sup> only _they would_ that we should remember the poor; which very thing I was also zealous to do.

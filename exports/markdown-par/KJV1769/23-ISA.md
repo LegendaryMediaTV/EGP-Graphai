@@ -1070,43 +1070,42 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 <sup>1</sup> Woe to Ariel, to Ariel, the city _where_ David dwelt! add ye year to year; let them kill<sup>a</sup> sacrifices.
 <sup>2</sup> Yet I will distress Ariel, and there shall be heaviness and sorrow: and it shall be unto me as Ariel.
 <sup>3</sup> And I will camp against thee round about, and will lay siege against thee with a mount, and I will raise forts against thee.
-<sup>4</sup> And thou shalt be brought down, _and_ shalt speak out of the ground, and thy speech shall be low out of the dust, and thy voice shall be, as of one that hath a familiar spirit, out of the ground, and thy speech shall whisper<sup>b</sup><sup>c</sup> out of the dust.
+<sup>4</sup> And thou shalt be brought down, _and_ shalt speak out of the ground, and thy speech shall be low out of the dust, and thy voice shall be, as of one that hath a familiar spirit, out of the ground, and thy speech shall whisper<sup>b</sup> out of the dust.
 
 <sup>5</sup> Moreover the multitude of thy strangers shall be like small dust, and the multitude of the terrible ones _shall be_ as chaff that passeth away: yea, it shall be at an instant suddenly.
 <sup>6</sup> Thou shalt be visited of the LORD of hosts with thunder, and with earthquake, and great noise, with storm and tempest, and the flame of devouring fire.
 <sup>7</sup> And the multitude of all the nations that fight against Ariel, even all that fight against her and her munition, and that distress her, shall be as a dream of a night vision.
 <sup>8</sup> It shall even be as when an hungry man dreameth, and, behold, he eateth; but he awaketh, and his soul is empty: or as when a thirsty man dreameth, and, behold, he drinketh; but he awaketh, and, behold, _he is_ faint, and his soul hath appetite: so shall the multitude of all the nations be, that fight against mount Zion.
 
-<sup>9</sup> Stay yourselves, and wonder; cry ye out, and cry:<sup>d</sup> they are drunken, but not with wine; they stagger, but not with strong drink.
-<sup>10</sup> For the LORD hath poured out upon you the spirit of deep sleep, and hath closed your eyes: the prophets and your rulers,<sup>e</sup> the seers hath he covered.
-<sup>11</sup> And the vision of all is become unto you as the words of a book<sup>f</sup> that is sealed, which _men_ deliver to one that is learned, saying, Read this, I pray thee: and he saith, I cannot; for it _is_ sealed:
+<sup>9</sup> Stay yourselves, and wonder; cry ye out, and cry:<sup>c</sup> they are drunken, but not with wine; they stagger, but not with strong drink.
+<sup>10</sup> For the LORD hath poured out upon you the spirit of deep sleep, and hath closed your eyes: the prophets and your rulers,<sup>d</sup> the seers hath he covered.
+<sup>11</sup> And the vision of all is become unto you as the words of a book<sup>e</sup> that is sealed, which _men_ deliver to one that is learned, saying, Read this, I pray thee: and he saith, I cannot; for it _is_ sealed:
 <sup>12</sup> and the book is delivered to him that is not learned, saying, Read this, I pray thee: and he saith, I am not learned.
 
 <sup>13</sup> Wherefore the Lord said, Forasmuch as this people draw near _me_ with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear toward me is taught by the precept of men:
-<sup>14</sup> therefore, behold, I will proceed<sup>g</sup> to do a marvellous work among this people, _even_ a marvellous work and a wonder: for the wisdom of their wise _men_ shall perish, and the understanding of their prudent _men_ shall be hid.
+<sup>14</sup> therefore, behold, I will proceed<sup>f</sup> to do a marvellous work among this people, _even_ a marvellous work and a wonder: for the wisdom of their wise _men_ shall perish, and the understanding of their prudent _men_ shall be hid.
 
 <sup>15</sup> Woe unto them that seek deep to hide their counsel from the LORD, and their works are in the dark, and they say, Who seeth us? and who knoweth us?
 <sup>16</sup> Surely your turning of things upside down shall be esteemed as the potter’s clay: for shall the work say of him that made it, He made me not? or shall the thing framed say of him that framed it, He had no understanding?
 
 <sup>17</sup> _Is_ it not yet a very little while, and Lebanon shall be turned into a fruitful field, and the fruitful field shall be esteemed as a forest?
 <sup>18</sup> And in that day shall the deaf hear the words of the book, and the eyes of the blind shall see out of obscurity, and out of darkness.
-<sup>19</sup> The meek also shall increase<sup>h</sup> _their_ joy in the LORD, and the poor among men shall rejoice in the Holy One of Israel.
+<sup>19</sup> The meek also shall increase<sup>g</sup> _their_ joy in the LORD, and the poor among men shall rejoice in the Holy One of Israel.
 <sup>20</sup> For the terrible one is brought to nought, and the scorner is consumed, and all that watch for iniquity are cut off:
 <sup>21</sup> that make a man an offender for a word, and lay a snare for him that reproveth in the gate, and turn aside the just for a thing of nought.
 
 <sup>22</sup> Therefore thus saith the LORD, who redeemed Abraham, concerning the house of Jacob, Jacob shall not now be ashamed, neither shall his face now wax pale.
 <sup>23</sup> But when he seeth his children, the work of mine hands, in the midst of him, they shall sanctify my name, and sanctify the Holy One of Jacob, and shall fear the God of Israel.
-<sup>24</sup> They also that erred in spirit shall come to understanding,<sup>i</sup> and they that murmured shall learn doctrine.
+<sup>24</sup> They also that erred in spirit shall come to understanding,<sup>h</sup> and they that murmured shall learn doctrine.
 
 > - <sup>a</sup> 1. Heb. _out of the heads_
 > - <sup>b</sup> 4. Heb. _peep_ or _chirp_
-> - <sup>c</sup> 4. Heb. _peep_ or _chirp_
-> - <sup>d</sup> 9. Or, _take your pleasure and riot_
-> - <sup>e</sup> 10. Heb. _heads_
-> - <sup>f</sup> 11. Or, _letter_
-> - <sup>g</sup> 14. Heb. _I will add_
-> - <sup>h</sup> 19. Heb. _shall add_
-> - <sup>i</sup> 24. Heb. _shall know understanding_
+> - <sup>c</sup> 9. Or, _take your pleasure and riot_
+> - <sup>d</sup> 10. Heb. _heads_
+> - <sup>e</sup> 11. Or, _letter_
+> - <sup>f</sup> 14. Heb. _I will add_
+> - <sup>g</sup> 19. Heb. _shall add_
+> - <sup>h</sup> 24. Heb. _shall know understanding_
 
 ## Chapter 30
 

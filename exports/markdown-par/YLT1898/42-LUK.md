@@ -1409,7 +1409,7 @@ And having said these things, he went on before, going up to Jerusalem.
 
 ## Chapter 20
 
-<sup>1</sup> <sup>a</sup>And it came to pass, on one of those days, as he is teaching the people in the temple, and proclaiming good news, the chief priests and the scribes, with the elders, came upon <sup>b</sup>_him_,
+<sup>1</sup> <sup>a</sup>And it came to pass, on one of those days, as he is teaching the people in the temple, and proclaiming good news, the chief priests and the scribes, with the elders, came upon _him_,<sup>b</sup>
 <sup>2</sup> and spake unto him, saying, “Tell us by what authority thou dost these things? or who is he that gave to thee this authority?”
 <sup>3</sup> And he answering said unto them, “I will question you—I also—one thing, and tell me:
 <sup>4</sup> the baptism of John, from heaven was it, or from men?”
