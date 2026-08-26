@@ -14,7 +14,6 @@ import {
   countMarkersIn,
   countNestedBkPairsIn,
   countChromeMarkersIn,
-  countScriptNodes,
   countStrongAttributeNodes,
   countTableMarkersIn,
   countXrefLinkNodes,
@@ -113,9 +112,9 @@ describe("countEmittedBlockFlags — an independent recursive walk of emitted co
 });
 
 /**
- * Mirrors {@link countScriptNodes}'s descent shape, checking for `strong`
- * instead of `script` — direct unit tests on synthetic content, matching
- * {@link countEmittedBlockFlags}'s style above.
+ * Mirrors `verify.ts`'s own `countScriptNodes` descent shape, checking for
+ * `strong` instead of `script` — direct unit tests on synthetic content,
+ * matching {@link countEmittedBlockFlags}'s style above.
  */
 describe("countStrongAttributeNodes — an independent recursive walk of emitted content, sharing no code with segmentVerses.ts/inlineMarks.ts", () => {
   it("should count zero on a bare, untagged string", () => {

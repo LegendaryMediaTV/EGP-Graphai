@@ -1,21 +1,12 @@
-import { execFileSync } from "child_process";
-import * as fs from "fs";
-import * as path from "path";
-import { resolveBookId } from "../metadata";
 import { VerseBlock, VerseRecord } from "../segmentVerses";
 
 /**
- * Shared support for corpus-wide tests that check whether
- * `segmentVerses()`'s own real output reproduces a "clean cut, next block
- * opens a paragraph" convention against WEBUS2020's own real, committed
- * `HEAD` JSON — the identical comparison two separate real markers need:
- * `\b` (a stanza break) and `\c` (a chapter boundary).
+ * Shared support for tests that check whether `segmentVerses()`'s own real
+ * output reproduces a "clean cut, next block opens a paragraph" convention
+ * against WEBUS2020's own real, committed `HEAD` content — the identical
+ * comparison two separate real markers need: `\b` (a stanza break) and `\c`
+ * (a chapter boundary).
  */
-
-/** Repo root, resolved from this file's own location three levels down from it. */
-export const REPO_ROOT = path.resolve(__dirname, "../../..");
-/** WEBUS2020's real, gitignored raw-USFM source directory this comparison reads against. */
-export const SOURCE_DIR = path.join(REPO_ROOT, "imports", "webus2020", "ebible-usfm");
 
 /**
  * A verse pair on either side of a real construct this comparison checks:
@@ -34,90 +25,6 @@ export interface ParagraphBreakBoundary {
   readonly afterChapter: number;
   /** Verse immediately after the boundary. */
   readonly afterVerse: number;
-}
-
-/** Every `.usfm` file in the real source directory, keyed by its own resolved registry book id — mirrors `utils/importUsfm.ts`'s own `usfmFilesByRegistryId`, duplicated locally rather than exported from that module since no production caller needs it, only this report-only measurement. */
-export function usfmFilesByRegistryId(): Map<string, string> {
-  const files = new Map<string, string>();
-  for (const file of fs.readdirSync(SOURCE_DIR)) {
-    if (!file.endsWith(".usfm")) continue;
-    const source = fs.readFileSync(path.join(SOURCE_DIR, file), "utf8");
-    const match = /^\\id\s+(\S+)/.exec(source);
-    if (match === null) continue;
-    files.set(resolveBookId(match[1]), file);
-  }
-  return files;
-}
-
-/** One of the 66 canonical books `HEAD` carries, as {@link readCanonicalBooks} reads it. */
-export interface CanonicalBook {
-  /** This repo's own registry book id. */
-  readonly id: string;
-  /** The exact `NN-XXX.json` filename this book has in `HEAD`, read from `git ls-tree` rather than the working tree's own `_version.json` — that registry interleaves deuterocanon books into canonical order (e.g. Tobit at `order: 40`), which no longer matches `HEAD`'s real 66-file `01`-`66` numbering. */
-  readonly filename: string;
-}
-
-/**
- * The real deuterocanon book ids this version carries alongside the
- * canonical ones — no upstream `HEAD` baseline exists for any of them, so
- * {@link readCanonicalBooks} excludes them by id.
- *
- * Filtering by filename pattern alone (`^\d{2}-[A-Z0-9]+\.json$`) is not
- * enough to isolate the canonical books: deuterocanon books are committed
- * under the identical `NN-XXX.json` shape (e.g. `40-TOB.json`), so a
- * filename-only filter would also match them, silently doubling several
- * corpus-wide counts below. Excluding by id here is the fix; matches
- * `verify.test.ts`'s own `DEUTEROCANON_RAW_FILES` set (resolved from
- * raw-USFM filenames to registry ids).
- */
-const DEUTEROCANON_BOOK_IDS = new Set([
-  "TOB",
-  "JDT",
-  "ESG",
-  "DAG",
-  "WIS",
-  "SIR",
-  "BAR",
-  "1MC",
-  "2MC",
-  "1ES",
-  "PMA",
-  "PS2",
-  "3MC",
-  "2ES",
-  "4MC",
-]);
-
-/**
- * The canonical books `HEAD` actually carries under
- * `bible-versions/WEBUS2020/` — read directly from git, not filtered out of
- * the current working tree's own registry. Deuterocanon books are excluded
- * by id (see {@link DEUTEROCANON_BOOK_IDS}): no upstream baseline exists for
- * them.
- */
-export function readCanonicalBooks(): CanonicalBook[] {
-  const filenames = execFileSync(
-    "git",
-    ["ls-tree", "-r", "HEAD", "--name-only", "--", "bible-versions/WEBUS2020/"],
-    { cwd: REPO_ROOT, encoding: "utf8" },
-  )
-    .trim()
-    .split("\n")
-    .map((line) => path.basename(line))
-    .filter((name) => /^\d{2}-[A-Z0-9]+\.json$/.test(name));
-
-  return filenames
-    .map((filename) => ({ id: /^\d{2}-([A-Z0-9]+)\.json$/.exec(filename)![1], filename }))
-    .filter((book) => !DEUTEROCANON_BOOK_IDS.has(book.id));
-}
-
-/** One book's real, upstream-committed content, read directly from git. */
-export function readUpstreamBookJson(book: CanonicalBook): { chapter: number; verse: number; content: unknown }[] {
-  const raw = execFileSync("git", ["show", `HEAD:bible-versions/WEBUS2020/${book.filename}`], {
-    cwd: REPO_ROOT,
-    encoding: "utf8",
-  });
-  return JSON.parse(raw) as { chapter: number; verse: number; content: unknown }[];
 }
 
 /**
