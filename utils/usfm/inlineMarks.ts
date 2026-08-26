@@ -3,8 +3,7 @@
  * already-classified text pieces (a word's own text, its `strong` number if
  * any, and whatever `marks` were active when it was read) into
  * `content-schema.json`-shaped nodes, following three Strong's-attachment
- * conventions (`imports/guide.md` §6, "The Strong's-number spacing
- * convention" and "Node granularity around a Strong's tag"):
+ * conventions:
  *
  *  1. The joining space between two words leads the node after the gap,
  *     never trails the node before it (`{"text": "In the beginning",
@@ -111,8 +110,8 @@ function isConnector(node: ContentObject): boolean {
  * excludes a textless Strong's-only sibling (`{"strong": "H853"}`, no
  * `text` at all — the KJV1769 convention for a tag with nothing
  * of its own to attach text to), which stops a backward scan rather than
- * becoming a home for untagged prose (guide §6), and excludes a node that
- * opens a new paragraph.
+ * becoming a home for untagged prose, and excludes a node that opens a new
+ * paragraph.
  *
  * Deliberately *includes* a `foot`-carrying node as a valid forward
  * target, even though merging into one looks risky (footnote
@@ -187,10 +186,9 @@ function isBackwardMergeTarget(node: ContentObject): boolean {
  * boundary.
  *
  * Kept as a separate, earlier pass from {@link mergeConnectors}: a real,
- * printable connector word (guide §6's Genesis 2:4 example, `"the "`
- * beside a mark-mismatched `"Lord"`) can legitimately stay split from its
- * neighbor; a bare joining space never can, since nothing would then own
- * it.
+ * printable connector word (Genesis 2:4's real `"the "` beside a
+ * mark-mismatched `"Lord"`) can legitimately stay split from its neighbor;
+ * a bare joining space never can, since nothing would then own it.
  */
 function foldWhitespaceIntoNeighbors(pieces: readonly InlineTextPiece[]): InlineTextPiece[] {
   const result: InlineTextPiece[] = pieces.map((piece) => ({ ...piece }));
@@ -289,8 +287,8 @@ export function attachFootToPieces(pieces: InlineTextPiece[], foot: Footnote): v
  * carrying node it belongs to, per this module's doc comment. A pure
  * post-pass over already-built nodes, independent of how those nodes were
  * produced — this is what lets it run again once a `foot` can exist on a
- * node (`imports/guide.md` §6: "a merge rule that needs to know where a
- * footnote will land has to run after footnotes exist").
+ * node: a merge rule that needs to know where a footnote will land has to
+ * run after footnotes exist.
  *
  * The backward fallback only fires when nothing at all follows the
  * connector — never merely because the immediate next node was

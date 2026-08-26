@@ -3,13 +3,10 @@ import { convertVerseToText, convertVerseToMarkdown } from "../exportContent";
 import VerseSchema from "../../types/VerseSchema";
 
 /**
- * Asserts every `**...**`/`_..._` delimiter run in `markdown` opens and
- * closes against non-whitespace — CommonMark's left-/right-flanking rule,
- * which determines whether a delimiter run can open/close emphasis at all
- * (e.g. "** foo**" fails this and a spec-compliant parser renders literal
- * asterisks, not `<strong>`). A plain string-contains check on `**`/`_`
- * passes even when this fails, which is exactly what let the original
- * whitespace-padding defect through an earlier round of tests.
+ * Asserts every `**...**`/`_..._` run in `markdown` opens/closes against
+ * non-whitespace — CommonMark's flanking rule (e.g. "** foo**" fails it,
+ * rendering literal asterisks, not `<strong>`). A plain `toContain("**")`
+ * check would pass even when this fails.
  */
 function expectWellFormedEmphasis(markdown: string): void {
   for (const match of markdown.matchAll(/\*\*(.*?)\*\*/g)) {
@@ -1634,6 +1631,499 @@ describe("exportContent", () => {
         expect(result).toBe(
           "\n> _A Psalm of David, when he fled from Absalom his son._\n\n<sup>1</sup> Lord, how are they increased that trouble me!<br>"
         );
+      });
+    });
+
+    describe("Cause E — a ContentNested node's edges join the surrounding emphasis run (KJV1769's six real remaining '_ _' defects, builds on Cause A landing first)", () => {
+      it("MRK 14:19 (real content) — the second 'Is it I?' occurrence merges with the flat italic 'said,' immediately before it, in markdown", () => {
+        const verse: VerseSchema = {
+          book: "MRK",
+          chapter: 14,
+          verse: 19,
+          content: [
+            { text: "And", strong: "G1161" },
+            { text: " they began", strong: "G756", morph: "AorMidDepInd" },
+            { text: " to be sorrowful,", strong: "G3076", morph: "PresPasInf" },
+            { text: " and to", strong: "G2532" },
+            { text: " say", strong: "G3004", morph: "PresActInf" },
+            { text: " unto him", strong: "G846" },
+            { text: " one by one,", strong: "G1527" },
+            { strong: "G3385" },
+            { content: [" ", { text: "Is", marks: ["i"] }, " it I?"], strong: "G1473" },
+            { text: " and", strong: "G2532" },
+            { text: " another", strong: "G243" },
+            " ",
+            { text: "said,", marks: ["i"], strong: "G3385" },
+            " ",
+            { content: [{ text: "Is", marks: ["i"] }, " it I?"], strong: "G1473" },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>19</sup> And they began to be sorrowful, and to say unto him one by one, _Is_ it I? and another _said, Is_ it I?"
+        );
+        expect(result).not.toContain("_ _");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("MRK 14:19 (real content) — leaves convertVerseToText byte-identical to today's, since TEXT_OPTIONS's italicWrapper is the identity function", () => {
+        const verse: VerseSchema = {
+          book: "MRK",
+          chapter: 14,
+          verse: 19,
+          content: [
+            { text: "And", strong: "G1161" },
+            { text: " they began", strong: "G756", morph: "AorMidDepInd" },
+            { text: " to be sorrowful,", strong: "G3076", morph: "PresPasInf" },
+            { text: " and to", strong: "G2532" },
+            { text: " say", strong: "G3004", morph: "PresActInf" },
+            { text: " unto him", strong: "G846" },
+            { text: " one by one,", strong: "G1527" },
+            { strong: "G3385" },
+            { content: [" ", { text: "Is", marks: ["i"] }, " it I?"], strong: "G1473" },
+            { text: " and", strong: "G2532" },
+            { text: " another", strong: "G243" },
+            " ",
+            { text: "said,", marks: ["i"], strong: "G3385" },
+            " ",
+            { content: [{ text: "Is", marks: ["i"] }, " it I?"], strong: "G1473" },
+          ],
+        };
+        expect(convertVerseToText(verse)).toBe(
+          "014:019 And G1161 they began G756 (AorMidDepInd) to be sorrowful, G3076 (PresPasInf) and to G2532 say G3004 (PresActInf) unto him G846 one by one, G1527 G3385 Is it I? G1473 and G2532 another G243 said, G3385 Is it I? G1473"
+        );
+      });
+
+      it("JHN 8:6 (real content) — a nested node whose sole inner element is marked merges with the flat italic node immediately before it, in markdown", () => {
+        const verse: VerseSchema = {
+          book: "JHN",
+          chapter: 8,
+          verse: 6,
+          content: [
+            { strong: "G1161" },
+            { text: "This", strong: "G5124" },
+            { text: " they said,", strong: "G3004", morph: "ImpfActInd" },
+            { text: " tempting", strong: "G3985", morph: "PresActPtc" },
+            { text: " him,", strong: "G846" },
+            { text: " that", strong: "G2443" },
+            { text: " they might have", strong: "G2192", morph: "PresActSubj" },
+            { text: " to accuse", strong: "G2723", morph: "PresActInf" },
+            { text: " him.", strong: "G846" },
+            { text: " But", strong: "G1161" },
+            { text: " Jesus", strong: "G2424" },
+            { text: " stooped", strong: "G2955", morph: "AorActPtc" },
+            { text: " down,", strong: "G2736" },
+            { content: [" and with ", { text: "his", marks: ["i"] }, " finger"], strong: "G1147" },
+            { text: " wrote", strong: "G1125", morph: "ImpfActInd" },
+            { text: " on", strong: "G1519" },
+            { text: " the ground,", strong: "G1093" },
+            " ",
+            { text: "as though he heard", marks: ["i"], strong: "G4364", morph: "PresMidPasDepPtc" },
+            " ",
+            { content: [{ text: "them not", marks: ["i"] }, "."], strong: "G3361" },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>6</sup> This they said, tempting him, that they might have to accuse him. But Jesus stooped down, and with _his_ finger wrote on the ground, _as though he heard them not_."
+        );
+        expect(result).not.toContain("_ _");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("JHN 8:6 (real content) — leaves convertVerseToText byte-identical to today's", () => {
+        const verse: VerseSchema = {
+          book: "JHN",
+          chapter: 8,
+          verse: 6,
+          content: [
+            { strong: "G1161" },
+            { text: "This", strong: "G5124" },
+            { text: " they said,", strong: "G3004", morph: "ImpfActInd" },
+            { text: " tempting", strong: "G3985", morph: "PresActPtc" },
+            { text: " him,", strong: "G846" },
+            { text: " that", strong: "G2443" },
+            { text: " they might have", strong: "G2192", morph: "PresActSubj" },
+            { text: " to accuse", strong: "G2723", morph: "PresActInf" },
+            { text: " him.", strong: "G846" },
+            { text: " But", strong: "G1161" },
+            { text: " Jesus", strong: "G2424" },
+            { text: " stooped", strong: "G2955", morph: "AorActPtc" },
+            { text: " down,", strong: "G2736" },
+            { content: [" and with ", { text: "his", marks: ["i"] }, " finger"], strong: "G1147" },
+            { text: " wrote", strong: "G1125", morph: "ImpfActInd" },
+            { text: " on", strong: "G1519" },
+            { text: " the ground,", strong: "G1093" },
+            " ",
+            { text: "as though he heard", marks: ["i"], strong: "G4364", morph: "PresMidPasDepPtc" },
+            " ",
+            { content: [{ text: "them not", marks: ["i"] }, "."], strong: "G3361" },
+          ],
+        };
+        expect(convertVerseToText(verse)).toBe(
+          "008:006 G1161 This G5124 they said, G3004 (ImpfActInd) tempting G3985 (PresActPtc) him, G846 that G2443 they might have G2192 (PresActSubj) to accuse G2723 (PresActInf) him. G846 But G1161 Jesus G2424 stooped G2955 (AorActPtc) down, G2736 and with his finger G1147 wrote G1125 (ImpfActInd) on G1519 the ground, G1093 as though he heard G4364 (PresMidPasDepPtc) them not. G3361"
+        );
+      });
+
+      it("COL 1:4 (real content) — a nested node ('ye have to', shared Strong's G1519) merges with the flat italic 'which' immediately before it, in markdown", () => {
+        const verse: VerseSchema = {
+          book: "COL",
+          chapter: 1,
+          verse: 4,
+          content: [
+            { text: "since we heard", strong: "G191", morph: "AorActPtc" },
+            { text: " of your", strong: "G5216" },
+            { text: " faith", strong: "G4102" },
+            { text: " in", strong: "G1722" },
+            { text: " Christ", strong: "G5547" },
+            { text: " Jesus,", strong: "G2424" },
+            { text: " and", strong: "G2532" },
+            { text: " of the love", strong: "G26" },
+            " ",
+            { text: "which", marks: ["i"], strong: "G3588" },
+            " ",
+            { content: [{ text: "ye have", marks: ["i"] }, " to"], strong: "G1519" },
+            { text: " all", strong: "G3956" },
+            { text: " the saints,", strong: "G40" },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>4</sup> since we heard of your faith in Christ Jesus, and of the love _which ye have_ to all the saints,"
+        );
+        expect(result).not.toContain("_ _");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("COL 1:4 (real content) — leaves convertVerseToText byte-identical to today's", () => {
+        const verse: VerseSchema = {
+          book: "COL",
+          chapter: 1,
+          verse: 4,
+          content: [
+            { text: "since we heard", strong: "G191", morph: "AorActPtc" },
+            { text: " of your", strong: "G5216" },
+            { text: " faith", strong: "G4102" },
+            { text: " in", strong: "G1722" },
+            { text: " Christ", strong: "G5547" },
+            { text: " Jesus,", strong: "G2424" },
+            { text: " and", strong: "G2532" },
+            { text: " of the love", strong: "G26" },
+            " ",
+            { text: "which", marks: ["i"], strong: "G3588" },
+            " ",
+            { content: [{ text: "ye have", marks: ["i"] }, " to"], strong: "G1519" },
+            { text: " all", strong: "G3956" },
+            { text: " the saints,", strong: "G40" },
+          ],
+        };
+        expect(convertVerseToText(verse)).toBe(
+          "001:004 since we heard G191 (AorActPtc) of your G5216 faith G4102 in G1722 Christ G5547 Jesus, G2424 and G2532 of the love G26 which G3588 ye have to G1519 all G3956 the saints, G40"
+        );
+      });
+
+      it("1TM 1:1 (real content) — the identical COL 1:4 shape ('is our', shared Strong's G2257) merges with the flat italic 'which' before it, in markdown", () => {
+        const verse: VerseSchema = {
+          book: "1TM",
+          chapter: 1,
+          verse: 1,
+          content: [
+            { paragraph: true, text: "Paul,", strong: "G3972" },
+            { text: " an apostle", strong: "G652" },
+            { text: " of Jesus", strong: "G2424" },
+            { text: " Christ", strong: "G5547" },
+            { text: " by", strong: "G2596" },
+            { text: " the commandment", strong: "G2003" },
+            { text: " of God", strong: "G2316" },
+            { text: " our", strong: "G2257" },
+            { text: " Saviour,", strong: "G4990" },
+            { text: " and", strong: "G2532" },
+            { text: " Lord", strong: "G2962" },
+            { text: " Jesus", strong: "G2424" },
+            { text: " Christ,", strong: "G5547" },
+            " ",
+            { text: "which", marks: ["i"], strong: "G3588" },
+            " ",
+            { content: [{ text: "is", marks: ["i"] }, " our"], strong: "G2257" },
+            { text: " hope;", strong: "G1680" },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "\n<sup>1</sup> Paul, an apostle of Jesus Christ by the commandment of God our Saviour, and Lord Jesus Christ, _which is_ our hope;"
+        );
+        expect(result).not.toContain("_ _");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("1TM 1:1 (real content) — leaves convertVerseToText byte-identical to today's", () => {
+        const verse: VerseSchema = {
+          book: "1TM",
+          chapter: 1,
+          verse: 1,
+          content: [
+            { paragraph: true, text: "Paul,", strong: "G3972" },
+            { text: " an apostle", strong: "G652" },
+            { text: " of Jesus", strong: "G2424" },
+            { text: " Christ", strong: "G5547" },
+            { text: " by", strong: "G2596" },
+            { text: " the commandment", strong: "G2003" },
+            { text: " of God", strong: "G2316" },
+            { text: " our", strong: "G2257" },
+            { text: " Saviour,", strong: "G4990" },
+            { text: " and", strong: "G2532" },
+            { text: " Lord", strong: "G2962" },
+            { text: " Jesus", strong: "G2424" },
+            { text: " Christ,", strong: "G5547" },
+            " ",
+            { text: "which", marks: ["i"], strong: "G3588" },
+            " ",
+            { content: [{ text: "is", marks: ["i"] }, " our"], strong: "G2257" },
+            { text: " hope;", strong: "G1680" },
+          ],
+        };
+        expect(convertVerseToText(verse)).toBe(
+          "001:001 ¶ Paul, G3972 an apostle G652 of Jesus G2424 Christ G5547 by G2596 the commandment G2003 of God G2316 our G2257 Saviour, G4990 and G2532 Lord G2962 Jesus G2424 Christ, G5547 which G3588 is our G2257 hope; G1680"
+        );
+      });
+
+      it("1TM 6:15 (real content) — the same shape again ('is the blessed', shared Strong's G3107) merges with the flat italic 'who' before it, in markdown", () => {
+        const verse: VerseSchema = {
+          book: "1TM",
+          chapter: 6,
+          verse: 15,
+          content: [
+            { text: "which", strong: "G3739" },
+            { text: " in his", strong: "G2398" },
+            { text: " times", strong: "G2540" },
+            { text: " he shall shew,", strong: "G1166", morph: "FutActInd" },
+            " ",
+            { text: "who", marks: ["i"], strong: "G3588" },
+            " ",
+            { content: [{ text: "is", marks: ["i"] }, " the blessed"], strong: "G3107" },
+            { text: " and", strong: "G2532" },
+            { text: " only", strong: "G3441" },
+            { text: " Potentate,", strong: "G1413" },
+            { text: " the King", strong: "G935" },
+            { text: " of kings,", strong: "G936", morph: "PresActPtc" },
+            { text: " and", strong: "G2532" },
+            { text: " Lord", strong: "G2962" },
+            { text: " of lords;", strong: "G2961", morph: "PresActPtc" },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>15</sup> which in his times he shall shew, _who is_ the blessed and only Potentate, the King of kings, and Lord of lords;"
+        );
+        expect(result).not.toContain("_ _");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("1TM 6:15 (real content) — leaves convertVerseToText byte-identical to today's", () => {
+        const verse: VerseSchema = {
+          book: "1TM",
+          chapter: 6,
+          verse: 15,
+          content: [
+            { text: "which", strong: "G3739" },
+            { text: " in his", strong: "G2398" },
+            { text: " times", strong: "G2540" },
+            { text: " he shall shew,", strong: "G1166", morph: "FutActInd" },
+            " ",
+            { text: "who", marks: ["i"], strong: "G3588" },
+            " ",
+            { content: [{ text: "is", marks: ["i"] }, " the blessed"], strong: "G3107" },
+            { text: " and", strong: "G2532" },
+            { text: " only", strong: "G3441" },
+            { text: " Potentate,", strong: "G1413" },
+            { text: " the King", strong: "G935" },
+            { text: " of kings,", strong: "G936", morph: "PresActPtc" },
+            { text: " and", strong: "G2532" },
+            { text: " Lord", strong: "G2962" },
+            { text: " of lords;", strong: "G2961", morph: "PresActPtc" },
+          ],
+        };
+        expect(convertVerseToText(verse)).toBe(
+          "006:015 which G3739 in his G2398 times G2540 he shall shew, G1166 (FutActInd) who G3588 is the blessed G3107 and G2532 only G3441 Potentate, G1413 the King G935 of kings, G936 (PresActPtc) and G2532 Lord G2962 of lords; G2961 (PresActPtc)"
+        );
+      });
+
+      it("1JN 2:23 (real content) — a nested node ('also', shared Strong's G2532) extends a four-node flat italic run that already merges on its own, in markdown", () => {
+        const verse: VerseSchema = {
+          book: "1JN",
+          chapter: 2,
+          verse: 23,
+          content: [
+            { text: "Whosoever", strong: "G3956" },
+            { text: " denieth", strong: "G720", morph: "PresMidPasDepPtc" },
+            { text: " the Son,", strong: "G5207" },
+            { text: " the same hath", strong: "G2192", morph: "PresActInd" },
+            { text: " not", strong: "G3761" },
+            { text: " the Father:", strong: "G3962" },
+            " ",
+            { text: "(but) he that acknowledgeth", marks: ["i"], strong: "G3670", morph: "PresActPtc" },
+            { text: " the Son", marks: ["i"], strong: "G5207" },
+            { text: " hath", marks: ["i"], strong: "G2192", morph: "PresActInd" },
+            { text: " the Father", marks: ["i"], strong: "G3962" },
+            " ",
+            { content: [{ text: "also", marks: ["i"] }, "."], strong: "G2532" },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>23</sup> Whosoever denieth the Son, the same hath not the Father: _(but) he that acknowledgeth the Son hath the Father also_."
+        );
+        expect(result).not.toContain("_ _");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("1JN 2:23 (real content) — leaves convertVerseToText byte-identical to today's", () => {
+        const verse: VerseSchema = {
+          book: "1JN",
+          chapter: 2,
+          verse: 23,
+          content: [
+            { text: "Whosoever", strong: "G3956" },
+            { text: " denieth", strong: "G720", morph: "PresMidPasDepPtc" },
+            { text: " the Son,", strong: "G5207" },
+            { text: " the same hath", strong: "G2192", morph: "PresActInd" },
+            { text: " not", strong: "G3761" },
+            { text: " the Father:", strong: "G3962" },
+            " ",
+            { text: "(but) he that acknowledgeth", marks: ["i"], strong: "G3670", morph: "PresActPtc" },
+            { text: " the Son", marks: ["i"], strong: "G5207" },
+            { text: " hath", marks: ["i"], strong: "G2192", morph: "PresActInd" },
+            { text: " the Father", marks: ["i"], strong: "G3962" },
+            " ",
+            { content: [{ text: "also", marks: ["i"] }, "."], strong: "G2532" },
+          ],
+        };
+        expect(convertVerseToText(verse)).toBe(
+          "002:023 Whosoever G3956 denieth G720 (PresMidPasDepPtc) the Son, G5207 the same hath G2192 (PresActInd) not G3761 the Father: G3962 (but) he that acknowledgeth G3670 (PresActPtc) the Son G5207 hath G2192 (PresActInd) the Father G3962 also. G2532"
+        );
+      });
+
+      describe("regression guards — ~28,000 nested-content nodes render correctly today and must keep doing so untouched", () => {
+        it("should NOT merge when the nested node's leading inner element does not share emphasis with the nearest real flat sibling before it (real KJV1769 Genesis 1:2 shape: an unmarked flat node immediately precedes an italic-leading nested node) — asserted against today's real captured output", () => {
+          const verse: VerseSchema = {
+            book: "GEN",
+            chapter: 1,
+            verse: 2,
+            content: [
+              { text: "And the earth", strong: "H776" },
+              { text: " was", strong: "H1961", morph: "QalPerf" },
+              { text: " without form,", strong: "H8414" },
+              { text: " and void;", strong: "H922" },
+              { text: " and darkness", strong: "H2822" },
+              { content: [" ", { text: "was", marks: ["i"] }, " upon the face"], strong: "H6440" },
+              { text: " of the deep.", strong: "H8415" },
+              { text: " And the Spirit", strong: "H7307" },
+              { text: " of God", strong: "H430" },
+              { text: " moved", strong: "H7363", morph: "PielPtc" },
+              { text: " upon", strong: "H5921" },
+              { text: " the face", strong: "H6440" },
+              { text: " of the waters.", strong: "H4325" },
+            ],
+          };
+          const footnotes: string[] = [];
+          const result = convertVerseToMarkdown(verse, footnotes);
+          expect(result).toBe(
+            "<sup>2</sup> And the earth was without form, and void; and darkness _was_ upon the face of the deep. And the Spirit of God moved upon the face of the waters."
+          );
+          expectWellFormedEmphasis(result);
+        });
+
+        it("should render a woc boundary byte-identically either way — a real KJV1769 Matthew 3:15 shape where the nested node's own inner content mixes 'i' and 'woc' (only the trailing 'woc'-only inner element shares its neighbor's full mark set; the leading 'i'+'woc' element does not, and must not open early) — this is the guard against generalizing the fix from emphasis state to mark-set equality, since 'woc' is not tracked by emphasisStateOf", () => {
+          const verse: VerseSchema = {
+            book: "MAT",
+            chapter: 3,
+            verse: 15,
+            content: [
+              { text: "And", strong: "G1161" },
+              { text: " Jesus", strong: "G2424" },
+              { text: " answering", strong: "G611", morph: "AorPasDepPtc" },
+              { text: " said", strong: "G2036", morph: "Aor2ActInd" },
+              { text: " unto", strong: "G4314" },
+              { text: " him,", strong: "G846" },
+              " ",
+              { text: "Suffer", marks: ["woc"], strong: "G863", morph: "Aor2ActImpr" },
+              " ",
+              {
+                content: [
+                  { text: "it to be so", marks: ["i", "woc"] },
+                  " ",
+                  { text: "now:", marks: ["woc"] },
+                ],
+                strong: "G737",
+              },
+              " ",
+              { text: "for", marks: ["woc"], strong: "G1063" },
+              { text: " thus", marks: ["woc"], strong: "G3779" },
+              { text: " it becometh", marks: ["woc"], strong: "G4241", morph: "PresActPtc" },
+              { strong: "G2076", morph: "PresInd" },
+              { text: " us", marks: ["woc"], strong: "G2254" },
+              { text: " to fulfil", marks: ["woc"], strong: "G4137", morph: "AorActInf" },
+              { text: " all", marks: ["woc"], strong: "G3956" },
+              { text: " righteousness.", marks: ["woc"], strong: "G1343" },
+              { text: " Then", strong: "G5119" },
+              { text: " he suffered", strong: "G863", morph: "PresActInd" },
+              { text: " him.", strong: "G846" },
+            ],
+          };
+          const footnotes: string[] = [];
+          const result = convertVerseToMarkdown(verse, footnotes);
+          expect(result).toBe(
+            "<sup>15</sup> And Jesus answering said unto him, Suffer _it to be so_ now: for thus it becometh us to fulfil all righteousness. Then he suffered him."
+          );
+          expectWellFormedEmphasis(result);
+        });
+
+        it("should still merge a nested node's own interior — two same-italic inner elements with no own top-level marks on the wrapper — into one inner run, exactly as it already does through the recursive call (constructed fixture; representative of a real corpus shape none of the six defects happen to exercise on its own)", () => {
+          const verse: VerseSchema = {
+            book: "GEN",
+            chapter: 1,
+            verse: 1,
+            content: [
+              {
+                content: [
+                  { text: "great", marks: ["i"], strong: "H1419" },
+                  { text: " and", marks: ["i"], strong: "H1571" },
+                  { text: " terrible", marks: ["i"], strong: "H3372" },
+                ],
+                strong: "H8064",
+              },
+            ],
+          };
+          const footnotes: string[] = [];
+          const result = convertVerseToMarkdown(verse, footnotes);
+          expect(result).toBe("<sup>1</sup> _great and terrible_");
+          expectWellFormedEmphasis(result);
+        });
+
+        it("should still let a footnote on the ContentNested node itself interrupt the run — the node's own suffix closes the merged inner core before it renders, and the sibling after it starts fresh (constructed fixture, isolating the interruption itself; every one of the six real defects above also carries a Strong's number on its own nested node, exercised by their own convertVerseToText assertions)", () => {
+          const verse: VerseSchema = {
+            book: "GEN",
+            chapter: 1,
+            verse: 1,
+            content: [
+              {
+                content: [{ text: "middle", marks: ["i"] }],
+                foot: { type: "trn", content: "note" },
+              },
+              { text: "after", marks: ["i"] },
+            ],
+          };
+          const footnotes: string[] = [];
+          const result = convertVerseToMarkdown(verse, footnotes);
+          expect(result).toBe("<sup>1</sup> _middle_<sup>a</sup>_after_");
+          expectWellFormedEmphasis(result);
+        });
       });
     });
   });

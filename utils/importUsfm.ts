@@ -32,9 +32,10 @@
  * exceptions, that's a line-formatting artifact of the source export tool
  * rather than real per-verse structure, so the flag is suppressed down to
  * each chapter's first verse; every other book passes through untouched.
- * `regenerateDownstream` then runs the cross-chapter `bibleLink` split
- * (`npm run audit-links <version-id> -- --fix`) as a subprocess, followed
- * by `npm run validate` — see that function's doc comment.
+ * `regenerateDownstream` then runs `npm run validate` as a subprocess, which
+ * (folded in by this repo's own earlier bibleLink-normalization work) also
+ * performs the cross-chapter `bibleLink` split as part of its own auto-fix
+ * pass — see that function's doc comment.
  *
  * Usage:
  *   npx ts-node utils/importUsfm.ts <source-dir> <version-id>                    # rebuild every book, then regenerate downstream
@@ -118,23 +119,20 @@ function usfmFilesByRegistryId(sourceDir: string): Map<string, string> {
 }
 
 /**
- * Runs the two commands that must follow a real write, in order:
- * `npm run audit-links <versionId> -- --fix` (the cross-chapter `bibleLink`
- * split) and then `npm run validate` (the schema/meaning gate). Runs
- * audit-links as a subprocess rather than in-process because
- * `crossChapterLinks.ts`'s version-index cache is never invalidated and
- * would read stale data right after this write.
+ * Runs `npm run validate` as a subprocess after a real write — the schema/
+ * meaning gate, which also performs the cross-chapter `bibleLink` split as
+ * part of its own auto-fix pass, so no separate command is needed for that.
+ * Runs as a subprocess rather than in-process because `crossChapterLinks.ts`'s
+ * version-index cache is never invalidated and would read stale data right
+ * after this write.
  *
- * @param versionId - A `bible-versions/` directory name, e.g. `"WEBUS2020"`.
  * @param run - Runs one shell command from the repo root; injected so a
  *   test can substitute a fake without invoking npm for real.
  */
 export function regenerateDownstream(
-  versionId: string,
   run: (command: string) => void = (command) =>
     execSync(command, { cwd: REPO_ROOT, stdio: "inherit" }),
 ): void {
-  run(`npm run audit-links ${versionId} -- --fix`);
   run("npm run validate");
 }
 
@@ -186,13 +184,12 @@ export interface ImportOptions {
    * {@link runImport}'s `sourceDir` argument already does — not against
    * the repo root.
    *
-   * `npm run audit-links`/`npm run validate` are both hardwired to the
-   * real `bible-versions/<versionId>` tree, so {@link regenerateDownstream}
-   * is skipped whenever a non-preview run's resolved `outputDir` differs
-   * from that default path. Running either command against a redirected
-   * output would be meaningless at best, and destructive if the version id
-   * also has its own real `bible-versions/` directory under a separate
-   * pipeline.
+   * `npm run validate` is hardwired to the real `bible-versions/<versionId>`
+   * tree, so {@link regenerateDownstream} is skipped whenever a non-preview
+   * run's resolved `outputDir` differs from that default path. Running it
+   * against a redirected output would be meaningless at best, and
+   * destructive if the version id also has its own real `bible-versions/`
+   * directory under a separate pipeline.
    */
   readonly outputDir?: string;
 }
@@ -361,12 +358,12 @@ export async function runImport(
 
   // See ImportOptions.outputDir's doc comment for why this guard exists.
   if (!preview && versionDir === defaultVersionDir) {
-    console.log(`\nRegenerating downstream: npm run audit-links ${versionId} -- --fix, npm run validate...`);
-    regenerateDownstream(versionId);
+    console.log("\nRegenerating downstream: npm run validate...");
+    regenerateDownstream();
     console.log("Downstream regeneration complete.");
   } else if (!preview) {
     console.log(
-      `\nSkipping downstream regeneration: outputDir (${versionDir}) diverges from the real bible-versions/${versionId} — npm run audit-links/npm run validate are both hardwired to that tree.`,
+      `\nSkipping downstream regeneration: outputDir (${versionDir}) diverges from the real bible-versions/${versionId} — npm run validate is hardwired to that tree.`,
     );
   }
 }

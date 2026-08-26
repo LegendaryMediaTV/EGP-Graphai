@@ -4,45 +4,30 @@ import { mapContentText } from "./mapContentText";
 /**
  * Write every elision in raw source text the one way this repo writes one:
  * U+2026 HORIZONTAL ELLIPSIS, whatever ASCII shape the source spelled it in.
- * YLT1898 already writes this convention 244 times in exactly the idiom this
- * module targets — an italic footnote or gloss quoting the source with words
- * elided (`"be asking…be seeking (or desiring), be knocking…opened up;"`) —
- * so this is settled corpus-wide; three other versions simply never got
- * normalized to it (WEBUS2020's `...`, ASV1901's `. . .`).
+ * This matches the character YLT1898's own italic glosses already use for
+ * this idiom; WEBUS2020 (`...`) and ASV1901 (`. . .`) simply hadn't been
+ * normalized to it.
  *
  * This module exports two functions that answer different questions on
  * purpose, and they must not be collapsed into one:
  *
  * - {@link normalizeEllipsisText} is the narrow rewriter. It only ever
  *   converts a run of three or more ASCII periods, or a run of periods
- *   separated by single spaces. **It never converts a two-period run.** As a
- *   standing rule applied to every future import — from any source, not just
- *   this corpus's own history — a bare `..` is genuinely ambiguous: it could
- *   be this same elision idiom, or it could be a doubled-period typo. Three
- *   periods carries no such ambiguity; a real sentence boundary never reads
- *   `"..."`.
+ *   separated by single spaces. **It never converts a two-period run.** A
+ *   bare `..` is genuinely ambiguous — it could be this same elision idiom,
+ *   or a doubled-period typo — while three periods never is; that holds for
+ *   any future import, not just this corpus's own history. A future reader
+ *   must not "finish the job" by widening the pattern to match a two-period
+ *   run — doing so would make every future two-period typo silently
+ *   unrecoverable.
  * - {@link hasEllipsisIndicator} is the broad detector. It flags everything
- *   the rewriter converts, *plus* a two-period run. It exists so
- *   `auditNodes.ts`'s check 10 can report a two-period run for a person to
- *   decide, instead of the pipeline either silently rewriting something
- *   ambiguous or silently ignoring it.
+ *   the rewriter converts, *plus* a two-period run, so `auditNodes.ts` can
+ *   surface one for a person to decide, instead of the pipeline either
+ *   silently rewriting something ambiguous or silently ignoring it.
  *
- * This corpus's own 31 two-period nodes (YLT1898, every one inside
- * `foot.content`, concentrated in Acts) were judged, once, to be Young's own
- * space-constrained inconsistency in his Concise Commentary notes — not a
- * defect this rewriter should treat as a standing rule. They were corrected
- * by a scoped, one-time, throwaway script (kept only as a Phase Results
- * record, not as a git-tracked path), the same shape as this repo's other
- * hand-judged exceptions. That is a decision about *those 31 nodes*, not
- * about the two-period shape in general — which is exactly why
- * {@link normalizeEllipsisText} still refuses it. A future reader must not
- * "finish the job" by widening the rewriter's own pattern to match; doing so
- * would make every future two-period typo silently unrecoverable.
- *
- * {@link normalizeEllipsesInContent}, further down, applies the rewriter
+ * {@link normalizeEllipsesInContent}, further down, wires the rewriter
  * across a whole content tree via {@link mapContentText}
- * (`functions/mapContentText.ts`) — never over the detector, since the
- * detector's whole purpose is to see more than the rewriter acts on.
+ * (`functions/mapContentText.ts`).
  */
 
 /**
@@ -88,17 +73,14 @@ export interface EllipsisNormalization {
  * this module's own top doc comment for why that refusal is permanent, not
  * an oversight.
  *
- * A run's own dot count decides the shape of the replacement, not just
- * whether one happens: the first three periods of any run always become one
- * `…`; any periods beyond the third stay as literal periods, glued directly
- * onto the ellipsis with no space. This is what turns this corpus's one real
- * four-spaced-period run — `". . . ."`, ASV1901 `43-JHN.json`, classic
- * ellipsis-plus-terminal-period — into `"….",` preserving the sentence's own
- * closing period instead of swallowing it, while an ordinary three-period
- * run (the other 118 spaced instances) collapses to a bare `…` with nothing
- * left over. All surrounding whitespace — before the run starts, after it
- * ends — is untouched either way; only the periods and the single spaces
- * between them are ever consumed.
+ * A run's own dot count decides the shape of the replacement: the first
+ * three periods always become one `…`; any beyond the third stay as literal
+ * periods, glued directly onto the ellipsis with no space. This is what
+ * turns the corpus's one four-spaced-period run (`". . . ."`, ASV1901
+ * `43-JHN.json`) into `"….",` — preserving the sentence's closing period
+ * instead of swallowing it — while an ordinary three-period run collapses
+ * to a bare `…`. Surrounding whitespace is always left alone; only the
+ * periods and the single spaces between them are ever consumed.
  *
  * @param text - Raw source text, however it spells an elision, or none at all.
  */
@@ -119,10 +101,9 @@ export function normalizeEllipsisText(text: string): EllipsisNormalization {
  * cares about — everything {@link normalizeEllipsisText} converts, *plus* a
  * bare two-period run it deliberately refuses. See this module's own top
  * doc comment for why the rewriter and the detector disagree on that one
- * shape on purpose. Do not build this from
- * `normalizeEllipsisText(text).changes > 0` — that can never see a
- * two-period run, by the same construction that keeps the rewriter from
- * touching one.
+ * shape. Do not build this from `normalizeEllipsisText(text).changes > 0` —
+ * that can never see a two-period run, by the same construction that keeps
+ * the rewriter from touching one.
  *
  * @param text - Raw source text to check against the convention.
  */

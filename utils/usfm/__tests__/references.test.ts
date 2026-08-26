@@ -3,10 +3,10 @@ import { buildCrossReferenceContent, buildReferenceOnlyContent, linkEmbeddedRefe
 import { Token, tokenize } from "../tokenize";
 
 /**
- * Every raw USFM snippet below is copied verbatim from the WEBUS2020 source
- * (guide §6's discipline against hand-invented fixtures) — cited by
- * book/verse in each test's title, the same convention `footnotes.test.ts`
- * already established.
+ * Every raw USFM snippet below is copied verbatim from the WEBUS2020
+ * source, cited by book/verse in each test's title — the same convention
+ * `footnotes.test.ts` already established. Fixtures test the parser
+ * against the grammar that actually exists, not a hand-invented one.
  */
 
 /** The 66-book in-scope canon, resolved once here and used as {@link xrefFrom}'s own default `canonBookIds`. */
@@ -151,13 +151,12 @@ describe("buildCrossReferenceContent — a parse the resolver is still not confi
 });
 
 /**
- * A `\f`-derived body classified `xrf` (guide §6's "nothing but a
- * reference" test) only occurs once deuterocanon books are in scope — the
- * 66-book canonical corpus never produces this shape. `usfm/footnotes.ts`
- * reuses this function so such a body resolves the same way an
- * `\x`-sourced target does, rather than staying unresolved plain text under
- * an `xrf` tag (every other `xrf` footnote in the corpus carries a
- * `bibleLink`, not a bare string).
+ * A `\f`-derived body classified `xrf` — its content is nothing but
+ * reference-shaped runs — only occurs once deuterocanon books are in
+ * scope; the 66-book canonical corpus never produces this shape.
+ * `usfm/footnotes.ts` reuses this function so such a body resolves the same
+ * way an `\x`-sourced target does, rather than staying unresolved plain
+ * text under an `xrf` tag.
  */
 describe("buildReferenceOnlyContent — a \\f body that is nothing but a reference", () => {
   it('should resolve a "See "-led single reference, stripping the body\'s own trailing sentence period before matching (Baruch 1:11\'s real note, "See Deuteronomy 11:21.")', () => {
@@ -191,24 +190,17 @@ describe("buildReferenceOnlyContent — a \\f body that is nothing but a referen
 });
 
 /**
- * Finding 9: a fully-qualified reference sitting *inside* a larger run of
- * ordinary footnote prose, with no `\x`/`\+xt` marker anywhere near it and
- * no whole-body "nothing but a reference" shape for `buildReferenceOnlyContent`
+ * A fully-qualified reference sitting *inside* a larger run of ordinary
+ * footnote prose, with no `\x`/`\+xt` marker anywhere near it and no
+ * whole-body "nothing but a reference" shape for `buildReferenceOnlyContent`
  * to resolve either. Every fixture below is real, verbatim WEBUS2020 corpus
- * text, cited by book/verse — this project's own established discipline
- * against invented fixtures.
+ * text, cited by book/verse.
  *
- * Redesigned in Phase 15: Phase 14's own first version required a "See "/
- * "Compare " cue word immediately before the reference. The user's own
- * correction (recorded in full in this objective's own Phase 15 report)
- * found that gate was the wrong safeguard — a fully self-naming reference
- * is unambiguous because it names its own book, not because of what word
- * happens to sit next to it — so `linkEmbeddedReferences` now scans an
- * entire body for any real, registry-resolvable, *verse-specific* reference,
- * with no cue word required at all. The tests below exercise that directly:
- * several fixtures that used to prove a cue word's *absence* left a
- * reference unlinked now prove the opposite — the reference links anyway,
- * because it names its own book.
+ * `linkEmbeddedReferences` requires no "See "/"Compare " lead-in word: a
+ * fully self-naming reference is unambiguous because it names its own
+ * book, not because of what word happens to sit next to it. Several
+ * fixtures below deliberately have no cue word anywhere nearby, proving the
+ * reference still links on the strength of its own name alone.
  */
 describe("linkEmbeddedReferences — Finding 9: a fully-qualified reference embedded in ordinary prose becomes a real bibleLink, no cue word required", () => {
   it('should link a single reference sitting inside otherwise-plain prose, leaving everything else untouched (1 Maccabees 1:14\'s real note, "So they built a gymnasium..." — fixture trimmed to its own footnote body, "See 2 Maccabees 4:9, 12.")', () => {
@@ -335,14 +327,14 @@ describe("linkEmbeddedReferences — Finding 9: a fully-qualified reference embe
 });
 
 /**
- * The six real 66-canon verses Phase 14's own cue-word-gated version missed
- * (named as a residual in that phase's own report) — each behind a real
- * cue word too weak to have generalized safely on its own ("in," "regard,"
- * "here and in," "includes," "after," "places"), which is exactly why the
- * redesign stopped requiring a cue word at all. Every fixture is real,
- * verbatim WEBUS2020 corpus text; every expected shape matches upstream
- * `HEAD`'s own exact, real content (dash characters modulo the later,
- * separate, post-write en-dash convention this module never applies).
+ * Six real 66-canon verses where the reference sits behind an ordinary
+ * word — "in," "regard," "here and in," "includes," "after," "places" —
+ * none of them a "See "/"Compare " lead-in. Proof that
+ * `linkEmbeddedReferences` links on the reference's own name alone, with no
+ * dependence on a specific cue word. Every fixture is real, verbatim
+ * WEBUS2020 corpus text; every expected shape matches upstream `HEAD`'s own
+ * exact, real content (dash characters modulo the later, separate,
+ * post-write en-dash convention this module never applies).
  */
 describe("linkEmbeddedReferences — the six real 66-canon residuals Phase 14's cue-word gate missed, now linked", () => {
   it('should link Psalm 8:5\'s real "See also the quote from the Septuagint in Hebrews 2:7." — the cue "See" sits nowhere near "Hebrews"; only the book name itself matters now', () => {

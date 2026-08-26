@@ -404,6 +404,70 @@ describe("normalizeBibleLinkDashesInContent", () => {
         changed: true,
       });
     });
+
+    it("should fix the cross-chapter shorthand's digit-flanked hyphen in a bare bibleLink target", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([{ bibleLink: "2 Kings 6:31-7:20" }])
+      ).toEqual({
+        content: [{ bibleLink: "2 Kings 6:31–7:20" }],
+        changed: true,
+      });
+    });
+
+    it("should fix a digit-flanked hyphen inside dot notation in a string content override, leaving the dots alone", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Exodus 2:9–18", content: "chap. 2.9-18" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Exodus 2:9–18", content: "chap. 2.9–18" }],
+        changed: true,
+      });
+    });
+  });
+
+  describe("the hyphen guard — a hyphen converts only when it sits directly between two digits", () => {
+    it("should leave a hyphenated word inside a string content override untouched", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Joshua 15:9", content: "Beth-el 15:9" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Joshua 15:9", content: "Beth-el 15:9" }],
+        changed: false,
+      });
+    });
+
+    it("should leave a hyphenated word inside a bare bibleLink target untouched", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([{ bibleLink: "Beth-el 15:9" }])
+      ).toEqual({
+        content: [{ bibleLink: "Beth-el 15:9" }],
+        changed: false,
+      });
+    });
+
+    it("should leave a trailing hyphen with no following digit untouched", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Exodus 12:3", content: "Exodus 12:3 -" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Exodus 12:3", content: "Exodus 12:3 -" }],
+        changed: false,
+      });
+    });
+
+    it("should leave a leading hyphen with no preceding digit untouched", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Exodus 12:3", content: "- Exodus 12:3" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Exodus 12:3", content: "- Exodus 12:3" }],
+        changed: false,
+      });
+    });
   });
 
   describe("dropping a content override that becomes redundant", () => {

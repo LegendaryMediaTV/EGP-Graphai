@@ -98,10 +98,9 @@ describe("normalizeEllipsisText — what the rewriter must leave alone", () => {
 });
 
 describe("normalizeEllipsisText / hasEllipsisIndicator — the two-period split", () => {
-  // This pair is the whole point of the two-signal design: the shipped
-  // rewriter refuses a two-period run forever, as a standing rule, while the
-  // detector still surfaces it so a person decides. If a later change makes
-  // both agree on this fixture, one of them is wrong.
+  // The two-signal design is deliberate: the rewriter refuses a two-period
+  // run, the detector still flags it. If a later change makes both agree
+  // here, one of them broke.
   it("should never rewrite a two-period run, but hasEllipsisIndicator must still flag it — real YLT1898 shape", () => {
     const text = "fully numbered..and obtained";
 

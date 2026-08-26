@@ -810,7 +810,7 @@
 
 <sup>17</sup> And in the evening he cometh with the twelve.
 <sup>18</sup> And as they sat and did eat, Jesus said, Verily I say unto you, One of you which eateth with me shall betray me.
-<sup>19</sup> And they began to be sorrowful, and to say unto him one by one, _Is_ it I? and another _said,_ _Is_ it I?
+<sup>19</sup> And they began to be sorrowful, and to say unto him one by one, _Is_ it I? and another _said, Is_ it I?
 <sup>20</sup> And he answered and said unto them, _It is_ one of the twelve, that dippeth with me in the dish.
 <sup>21</sup> The Son of man indeed goeth, as it is written of him: but woe to that man by whom the Son of man is betrayed! good were it for that man if he had never been born.
 

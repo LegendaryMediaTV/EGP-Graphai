@@ -23,8 +23,8 @@ import BibleVersion, { VersionBook } from "../../types/Version";
 // `regenerateDownstream` export, which — being called directly by name from
 // inside the same module, not through the export object — would not observe
 // a spy at all. Scoped to this one test file only (Vitest isolates module
-// registries per file); the `regenerateDownstream` describe block's two tests
-// below never touch this mock, since each already injects its own fake `run`
+// registries per file); the `regenerateDownstream` describe block's own test
+// below never touches this mock, since it already injects its own fake `run`
 // collaborator instead of the default.
 vi.mock("child_process", () => ({ execSync: vi.fn() }));
 
@@ -35,7 +35,7 @@ const repoRoot = path.resolve(__dirname, "..", "..");
 function fakeVersionJson(versionId: string): string {
   const version: BibleVersion = {
     _id: versionId,
-    name: "Phase 2 fake test version",
+    name: "Fake test version",
     license: "CC0-1.0",
     books: [{ _id: "GEN", name: "Genesis", title: "Genesis", order: 1, chapters: 2 }],
   };
@@ -64,20 +64,14 @@ describe("findBook", () => {
 });
 
 describe("regenerateDownstream", () => {
-  it("should run the cross-chapter link split before npm run validate, scoped to the given version id (Phase 5 — imports/kjv/import.ts's own already-shipped precedent)", () => {
+  it("should run npm run validate as its one subprocess — the cross-chapter link split that used to need its own `audit-links --fix` command now runs automatically inside validate itself", () => {
     const calls: string[] = [];
-    regenerateDownstream("WEBUS2020", (command) => calls.push(command));
-    expect(calls).toEqual(["npm run audit-links WEBUS2020 -- --fix", "npm run validate"]);
-  });
-
-  it("should scope the split's own command to whichever version id it is given, never a fixed one (this importer is generic, unlike imports/kjv/import.ts's own version-specific script)", () => {
-    const calls: string[] = [];
-    regenerateDownstream("KJV1769", (command) => calls.push(command));
-    expect(calls[0]).toBe("npm run audit-links KJV1769 -- --fix");
+    regenerateDownstream((command) => calls.push(command));
+    expect(calls).toEqual(["npm run validate"]);
   });
 });
 
-describe("parseArgv (Q23's --no-strongs CLI flag, position-independent)", () => {
+describe("parseArgv (--no-strongs CLI flag, position-independent)", () => {
   it("should read the four positional arguments in order when no flag is present", () => {
     expect(parseArgv(["src", "WEBUS2020", "Genesis", "1"])).toEqual({
       sourceDir: "src",
@@ -114,7 +108,7 @@ describe("parseArgv (Q23's --no-strongs CLI flag, position-independent)", () => 
   });
 });
 
-describe("applyMetadataOverrides (Q23's book name/title override point)", () => {
+describe("applyMetadataOverrides (book name/title override point)", () => {
   const metadata: BookMetadata = {
     _id: "GEN",
     name: "Genesis",
@@ -151,7 +145,7 @@ describe("applyMetadataOverrides (Q23's book name/title override point)", () => 
   });
 });
 
-describe("applyVersionOverrides (Q23's copyright/license override point)", () => {
+describe("applyVersionOverrides (copyright/license override point)", () => {
   const version: BibleVersion = {
     _id: "WEBUS2020",
     name: "World English Bible US 2020",
@@ -208,7 +202,7 @@ describe("runImport, preview mode (disk-safe — never calls writeJsonFile; read
   });
 });
 
-describe("runImport, output-path hardwiring (Phase 2.1 — the real gap ImportOptions.outputDir exists to close)", () => {
+describe("runImport, output-path hardwiring (the real gap ImportOptions.outputDir exists to close)", () => {
   // Same disk-safe fixture directory as the preview-mode describe block
   // above, and the identical reasoning for why it resolves to exactly one
   // book (GEN) with no risk of a second fixture also claiming that id.
@@ -236,7 +230,7 @@ describe("runImport, output-path hardwiring (Phase 2.1 — the real gap ImportOp
   });
 });
 
-describe("runImport, ImportOptions.outputDir (Phase 2.2 — the redirect itself)", () => {
+describe("runImport, ImportOptions.outputDir (the redirect itself)", () => {
   const fixturesDir = path.join(__dirname, "..", "usfm", "__tests__", "fixtures");
   const bibleVersionsDir = path.join(repoRoot, "bible-versions");
 
@@ -274,7 +268,7 @@ describe("runImport, ImportOptions.outputDir (Phase 2.2 — the redirect itself)
   // strongest evidence available, since it is a real run, not a mock.
 });
 
-describe("runImport, downstream-regeneration guard (Phase 2.3 — regenerateDownstream must never fire when outputDir diverges, since npm run audit-links/npm run validate are both hardwired to the real bible-versions/<versionId> tree)", () => {
+describe("runImport, downstream-regeneration guard (regenerateDownstream must never fire when outputDir diverges, since npm run validate is hardwired to the real bible-versions/<versionId> tree)", () => {
   const fixturesDir = path.join(__dirname, "..", "usfm", "__tests__", "fixtures");
 
   afterEach(() => {
@@ -301,10 +295,10 @@ describe("runImport, downstream-regeneration guard (Phase 2.3 — regenerateDown
   // the default" — is deliberately not exercised here at the mocked-unit
   // level: doing so would require either (a) letting a real run write
   // into bible-versions/<fakeVersionId>, a real subdirectory of the one
-  // real tree this whole objective treats as sensitive, purely to satisfy
+  // real tree this test suite treats as sensitive, purely to satisfy
   // a test, or (b) mocking around that constraint in a way that no longer
   // proves anything real. A full, real, non-mocked WEBUS2020 run already
   // exercises this exact branch for real (regenerateDownstream firing, npm
-  // run audit-links/npm run validate both actually running), which is
-  // strictly stronger evidence than a mocked unit test would be.
+  // run validate actually running), which is strictly stronger evidence than
+  // a mocked unit test would be.
 });

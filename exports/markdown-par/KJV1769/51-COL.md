@@ -4,7 +4,7 @@
 <sup>2</sup> to the saints and faithful brethren in Christ which are at Colosse: Grace _be_ unto you, and peace, from God our Father and the Lord Jesus Christ.
 
 <sup>3</sup> We give thanks to God and the Father of our Lord Jesus Christ, praying always for you,
-<sup>4</sup> since we heard of your faith in Christ Jesus, and of the love _which_ _ye have_ to all the saints,
+<sup>4</sup> since we heard of your faith in Christ Jesus, and of the love _which ye have_ to all the saints,
 <sup>5</sup> for the hope which is laid up for you in heaven, whereof ye heard before in the word of the truth of the gospel;
 <sup>6</sup> which is come unto you, as _it is_ in all the world; and bringeth forth fruit, as _it doth_ also in you, since the day ye heard _of it_, and knew the grace of God in truth:
 <sup>7</sup> as ye also learned of Epaphras our dear fellowservant, who is for you a faithful minister of Christ;

@@ -8,11 +8,12 @@ import { extractFootnoteBodiesIn, FOOTNOTES_IN_CORPUS } from "../verify";
 
 /**
  * Every raw USFM snippet below is copied verbatim from the in-scope
- * WEBUS2020 corpus (guide §6's own discipline against hand-invented
- * fixtures) — cited by book/verse in each test's own title rather than
- * saved as a separate `.usfm` fixture file, since `buildFootnoteContent`
- * only ever needs the `\f`...`\f*` span itself, not the surrounding verse
- * context `segmentVerses.test.ts`'s own fixtures already exist to prove.
+ * WEBUS2020 corpus, never hand-written — an invented fixture would test
+ * this against a cleaner grammar than the one that actually exists —
+ * cited by book/verse in each test's own title rather than saved as a
+ * separate `.usfm` fixture file, since `buildFootnoteContent` only ever
+ * needs the `\f`...`\f*` span itself, not the surrounding verse context
+ * `segmentVerses.test.ts`'s own fixtures already exist to prove.
  *
  * @param raw - A real, verbatim USFM snippet containing exactly one
  *   `\f`...`\f*` span, with nothing but the span itself (or the span
@@ -25,7 +26,7 @@ function footnoteFrom(raw: string, canonBookIds?: ReadonlySet<string>): ReturnTy
   return buildFootnoteContent(tokens, openIndex + 1, canonBookIds);
 }
 
-/** The 66-book in-scope canon. Duplicated, not imported, from `references.test.ts`'s identical constant — intentionally, per `imports/guide.md` §5: a verifying test shouldn't share code with the thing it verifies, and that caution extends to fixtures, not just production code. */
+/** The 66-book in-scope canon. Duplicated, not imported, from `references.test.ts`'s identical constant — intentionally: a verifying test shouldn't share code with the thing it verifies, and that caution extends to fixtures, not just production code. */
 const IN_SCOPE_CANON = new Set([
   "GEN", "EXO", "LEV", "NUM", "DEU", "JSH", "JDG", "RTH", "1SM", "2SM", "1KG", "2KG",
   "1CH", "2CH", "EZR", "NEH", "EST", "JOB", "PSA", "PRV", "ECC", "SOS", "ISA", "JER",
@@ -170,10 +171,9 @@ describe("buildFootnoteContent — fraction normalization", () => {
  * `capitalizeFootnoteOpening` (this module) runs on `pieces[0]` right
  * after the token walk builds it, so a footnote's own displayed text
  * starts with a capital letter — see that function's own doc comment for
- * the measured upstream convention and the `or,` exception. Every fixture
- * below is real, verbatim raw USFM, read directly off
- * `imports/webus2020/ebible-usfm/*.usfm`, matching this file's own
- * established discipline against hand-invented fixtures.
+ * the measured convention and the `or,` exception. Every fixture below is
+ * real, verbatim raw USFM, read directly off
+ * `imports/webus2020/ebible-usfm/*.usfm`.
  */
 describe("buildFootnoteContent — footnote-initial capitalization", () => {
   it('should capitalize Leviticus 11:5\'s own real regression, the user\'s own named fixture ("or rock badger, or cony" — no comma after the first "or", so it does not qualify for the or, exception below)', () => {
@@ -273,13 +273,11 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
    * Both footnotes (Deuteronomy 33:16, Matthew 23:5) embed a trailing,
    * in-body scripture reference ("Exodus 3:3–4", "Deuteronomy 6:8") that the
    * raw USFM carries as plain, unmarked prose with no `\+xt`/`\x` structural
-   * marker of its own. `linkEmbeddedReferences` (`usfm/references.ts`,
-   * Finding 9) resolves any real, fully-qualified, registry-resolvable
-   * reference found anywhere in a footnote body, no cue word required —
-   * "Exodus 3:3-4" and "Deuteronomy 6:8" both name their own book
-   * explicitly, so they link through this same generic mechanism, matching
-   * upstream `HEAD` exactly (modulo the intentional, already-accepted
-   * capitalization divergence below).
+   * marker of its own. `linkEmbeddedReferences` (`usfm/references.ts`)
+   * resolves any real, fully-qualified, registry-resolvable reference found
+   * anywhere in a footnote body, no cue word required — "Exodus 3:3-4" and
+   * "Deuteronomy 6:8" both name their own book explicitly, so they link
+   * through this same generic mechanism.
    */
   it('should link Deuteronomy 33:16\'s real "the burning bush of Exodus 3:3-4" through the generic mechanism, no cue word or separate override needed — "Exodus 3:3-4" names its own book explicitly, matching upstream HEAD\'s own exact shape (modulo the dash character, a separate, later, post-write convention this module never applies)', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 33:16 \\ft i.e., the burning bush of Exodus 3:3-4.\\f*');
@@ -342,10 +340,10 @@ describe("buildFootnoteContent — \\fl (Esther-Greek's own footnote label sub-m
 });
 
 /**
- * Confirms already-established footnote-handling mechanisms fire
- * correctly against the deuterocanon corpus's own real fixtures too, with
- * zero code change (guide's own "a real fixture-backed regression test,
- * not resting on an untested doc-comment claim" discipline).
+ * Confirms already-established footnote-handling mechanisms fire correctly
+ * against the deuterocanon corpus's own real fixtures too, with zero code
+ * change — a regression test backed by real fixtures, not an untested
+ * doc-comment claim.
  */
 describe("buildFootnoteContent — deuterocanon regressions for already-established mechanisms", () => {
   it("should tag each of \\+bk/\\+bk*'s 3 real book-title citations marks: [\"i\"], even inside a footnote that itself sits inside an \\s1 span (Daniel 3:24's real footnote, Finding 6) — its own trailing \"between Daniel 3:23 and Daniel 3:24\" also links both, a real, independent side effect of Finding 9's redesigned scan (Phase 15) finding two fully-qualified references with nothing but a bare book-name repeat sitting between them", () => {
@@ -430,10 +428,10 @@ describe("buildFootnoteContent — deuterocanon regressions for already-establis
 });
 
 /**
- * 9 real deuterocanon footnote bodies across 5 books are "nothing but a
- * reference" (guide §6's own `xrf` test) — a shape the 66-book canonical
- * corpus never produces. Reuses `usfm/references.ts`'s own
- * `buildReferenceOnlyContent` (already directly tested in
+ * A deuterocanon footnote body that is "nothing but a reference" (the
+ * `xrf` test — see `classifyFootnote`'s own doc comment) is a shape the
+ * 66-book canonical corpus never produces. Reuses `usfm/references.ts`'s
+ * own `buildReferenceOnlyContent` (already directly tested in
  * `references.test.ts`) rather than leaving the body as unresolved plain
  * text under a `type: "xrf"` tag.
  */
@@ -480,9 +478,8 @@ describe("buildFootnoteContent — an \\f body that is nothing but a reference r
 });
 
 /**
- * Every one of the 16 real `\ip` blocks (14 files, Esther-Greek and Sirach
- * carrying two apiece) becomes a footnote on that book's own verse 1:1,
- * built by wrapping the span in a synthetic `\ft` marker and reusing
+ * Every `\ip` block becomes a footnote on that book's own verse 1:1, built
+ * by wrapping the span in a synthetic `\ft` marker and reusing
  * `buildFootnoteContent` unchanged — see that function's own doc comment
  * for why `\ip` needs this treatment.
  */

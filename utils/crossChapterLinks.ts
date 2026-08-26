@@ -28,13 +28,32 @@
  * absent from BYZ2018's NT-only canon) is reported as unresolvable, never
  * thrown — see {@link classifyBibleLink} for why.
  *
+ * This module also owns a second, related check: whether a bibleLink's own
+ * target stops short of the range its display override names (see
+ * {@link completeTruncatedRange}). It belongs here for the same three
+ * reasons as the cross-chapter check above — the target grammar, the
+ * per-version chapter-length index, and book resolution
+ * are already this module's business — and telling a genuine truncation
+ * apart from a legitimate whole-chapter target needs this module's own
+ * per-version chapter-length answer, not a second copy of it. A truncation
+ * whose display crosses a chapter boundary is declined here rather than
+ * reconstructed, since completing it would produce exactly the
+ * crossChapterRange shape the split machinery above exists to take apart.
+ *
  * Public surface: {@link findCrossChapterLinks} (the whole-version sweep),
  * {@link classifyBibleLink} (the single-link entry point it is built on, also
  * directly callable — "callers pass a version id and a link, and get back
- * findings"), and the {@link CrossChapterFinding} type. Everything else —
- * the dash-class regex, the endpoint grammar, the per-version chapter-length
- * index, the per-version book-alias index — is this module's own business,
- * never a caller's.
+ * findings"), {@link splitCrossChapterLink}/{@link
+ * splitCrossChapterLinksInContent}/{@link fixCrossChapterLinks} (the fix),
+ * the {@link CrossChapterFinding} type, and their truncated-range
+ * counterparts — {@link findTruncatedRanges}, {@link completeTruncatedRange}
+ * (the single-link entry point, directly callable the same way
+ * `classifyBibleLink` is), {@link reconstructTruncatedRangesInContent} (the
+ * fix), and the {@link TruncatedRangeFinding}/{@link TruncatedRangeResult}
+ * types. Everything else — the dash-class regex, the endpoint grammar, the
+ * display-range grammar, the per-version chapter-length index, the
+ * per-version book-alias index — is this module's own business, never a
+ * caller's.
  */
 
 import * as fs from "fs";
@@ -54,12 +73,12 @@ const BIBLE_BOOKS_FILE = path.resolve(__dirname, "../bible-books/bible-books.jso
 // ---------------------------------------------------------------------------
 
 /**
- * Every dash character this repo's `bibleLink` targets are ever found to use
- * — U+2010–U+2015 (hyphen through horizontal bar), U+2212 (minus sign), and
- * the ASCII hyphen. The convention emits only U+2013 (en dash), but detection
- * must not assume the data agrees with the convention: WEBUS2020's
- * `"2 Kings 6:31—7:20"` uses U+2014, measured against that same version's own
- * 77 en-dash ranges.
+ * Every dash character this repo's `bibleLink` targets are known to use —
+ * U+2010–U+2015 (hyphen through horizontal bar), U+2212 (minus sign), and
+ * the ASCII hyphen. The convention emits only U+2013 (en dash), but
+ * detection stays broad rather than assuming a source always agrees with the
+ * convention: the real WEBUS2020 Hebrews 11:34 target once used an em dash
+ * instead, and a future import could just as easily reintroduce one.
  */
 const DASH_CLASS = "\\u2010-\\u2015\\u2212-";
 const DASH = new RegExp(`[${DASH_CLASS}]`);
@@ -375,6 +394,19 @@ export interface CrossChapterFinding {
   toChapter: number;
   /** `fromChapter`'s last verse, read from this version's own records — `null` only when this version's own data does not carry that chapter (never expected for a real finding, but not assumed). */
   firstChapterLastVerse: number | null;
+}
+
+/**
+ * Render one finding as this report's one-line format.
+ *
+ * Exported so `validate.ts` can render the same line inline in its own
+ * report instead of maintaining a second copy of this formatting.
+ */
+export function formatCrossChapterFinding(finding: CrossChapterFinding): string {
+  return (
+    `${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
+    `"${finding.target}" spans ${finding.book ?? finding.target} ${finding.fromChapter}–${finding.toChapter} — unsplit`
+  );
 }
 
 /**
@@ -701,4 +733,319 @@ export function fixCrossChapterLinks(versionId: string): readonly FixedBook[] {
     if (splits > 0) fixed.push({ file, records: rewrittenRecords, splits });
   }
   return fixed;
+}
+
+// ---------------------------------------------------------------------------
+// Truncated-range detection and reconstruction
+// ---------------------------------------------------------------------------
+//
+// A bibleLink whose target is a single verse (or a bare chapter) while its
+// own display override spells out a fuller range — e.g. target
+// "Exodus 12:3", display "Ex. 12.3–20" — is truncated short of what its own
+// display already says. It lives here for the same reasons the cross-chapter
+// check above does (see this file's own top doc comment), and telling a
+// genuine truncation apart from a legitimate whole-chapter target (the real
+// ASV1901 PSA 18:1 bibleLink, "2 Samuel 22" with display "2 Sam. 22:1–51" —
+// not truncated, since ASV1901's own 2 Samuel 22 really is 51 verses) needs
+// this module's own per-version chapter-length answer.
+//
+// A cross-chapter truncation is declined rather than reconstructed here (see
+// the module doc comment for why) — there's no automatic path for it, only a
+// human judgment call.
+
+/**
+ * Reason {@link completeTruncatedRange} declined to complete an otherwise
+ * real truncated-range finding — currently the one case this module names: a
+ * display range that crosses a chapter boundary, which belongs to the
+ * cross-chapter split above, not this reconstruction.
+ */
+export type SkipReason = "cross-chapter";
+
+/**
+ * One bibleLink's truncated-range verdict, from {@link completeTruncatedRange}
+ * — carries no verse-location fields, matching {@link splitCrossChapterLink}'s
+ * own shape; {@link findTruncatedRanges} is what adds location.
+ */
+export interface TruncatedRangeResult {
+  /** Repo book id the target names, resolved within this version's own canon — `null` when unresolvable. */
+  book: string | null;
+  /** The display override's own text, flattened from whichever of its three real shapes it carries (a plain string, a single marked object, or a single-element array). */
+  display: string;
+  /** The completed target, separator U+2013 — `null` when the display range crosses a chapter boundary and this step declines to reconstruct it. */
+  reconstructedTarget: string | null;
+  /** Why {@link reconstructedTarget} is `null` — set exactly when it is, `null` otherwise. */
+  declineReason: SkipReason | null;
+}
+
+/**
+ * Flatten a bibleLink's own display override to plain text, tolerating every
+ * shape this corpus's display override can take: a plain string, a single
+ * object carrying `marks`, or a single-element array (typically a nested
+ * `bibleLink` node of its own). Formatting is discarded; only the rendered
+ * text matters for range detection.
+ *
+ * @returns The flattened text, or `null` when there is no override at all
+ *   (`content` is `undefined`), or its shape carries no plain text to read
+ *   (e.g. an array whose sole element is itself a bare `bibleLink` object
+ *   with no `text` of its own).
+ */
+function flattenDisplayText(content: Content | undefined): string | null {
+  if (content === undefined || content === null) return null;
+  if (typeof content === "string") return content;
+  if (Array.isArray(content)) {
+    const joined = content.map((item) => flattenDisplayText(item) ?? "").join("");
+    return joined === "" ? null : joined;
+  }
+  if ("text" in content && typeof content.text === "string") return content.text;
+  return null;
+}
+
+/** One display range endpoint pair, read off the tail of a flattened display string. */
+interface DisplayRange {
+  /** The chapter named immediately before the dash. */
+  chapter: number;
+  /** The verse named immediately before the dash. */
+  verse: number;
+  /** The chapter named after the dash, when the display repeats one (a cross-chapter display, e.g. `"12.3–13.5"`) — `null` for a bare ending verse (a same-chapter display, e.g. `"12.3–20"`). */
+  toChapter: number | null;
+  /** The verse named after the dash. */
+  toVerse: number;
+}
+
+/**
+ * A display range's own grammar: `<chapter>[:.]<verse>`, a dash from the same
+ * {@link DASH_CLASS} the target grammar accepts, then either a bare ending
+ * verse (same chapter) or another `<chapter>[:.]<verse>` (a cross-chapter
+ * display). Anchored to the end of the string, since a display carries
+ * leading book-abbreviation text (`"Ex. "`, `"2 Sam. "`) this grammar makes
+ * no attempt to parse — only the numbers are the signal.
+ */
+const DISPLAY_RANGE = new RegExp(`(\\d+)[.:](\\d+)\\s*[${DASH_CLASS}]\\s*(?:(\\d+)[.:])?(\\d+)\\s*$`);
+
+/** Parse a flattened display string's own trailing range, or `null` when it names no range this grammar recognizes at all. */
+function parseDisplayRange(display: string): DisplayRange | null {
+  const match = DISPLAY_RANGE.exec(display);
+  if (!match) return null;
+  const [, chapter, verse, toChapter, toVerse] = match;
+  return {
+    chapter: Number(chapter),
+    verse: Number(verse),
+    toChapter: toChapter === undefined ? null : Number(toChapter),
+    toVerse: Number(toVerse),
+  };
+}
+
+/**
+ * Decide whether one bibleLink's target is truncated short of the range its
+ * own display override names — the single place both {@link
+ * findTruncatedRanges} (reporting) and {@link
+ * reconstructTruncatedRangesInContent} (fixing) get their answer from, so
+ * neither can drift from what the other considers a finding.
+ *
+ * @param versionId - A `bible-versions/` directory name, e.g. `"ASV1901"`.
+ * @param link - One bibleLink node exactly as it appears in `versionId`'s own
+ *   data.
+ * @returns `null` when this node is not a finding at all: the target already
+ *   carries its own range (nothing to complete), there's no display
+ *   override, the display names no range, the display's own start disagrees
+ *   with what the target already says, or the whole-chapter-equivalence gate
+ *   holds (the target names a bare chapter and the display spells out that
+ *   exact chapter's own verses 1..last, from this version's own data — the
+ *   real ASV1901 PSA 18:1 shape). Otherwise the verdict: either a completed
+ *   target, or a decline with its own reason.
+ */
+export function completeTruncatedRange(versionId: string, link: ContentBibleLink): TruncatedRangeResult | null {
+  const classification = classifyBibleLink(versionId, link.bibleLink);
+
+  // Only a target carrying no range of its own at all is a candidate.
+  // classifyBibleLink's singleChapter shape also covers a target that
+  // already spells out a same-chapter range (dash !== null); that one needs
+  // no completion.
+  if (classification.shape !== "singleChapter" || classification.dash !== null) return null;
+
+  const display = flattenDisplayText(link.content);
+  if (display === null) return null;
+
+  const range = parseDisplayRange(display);
+  if (!range) return null;
+
+  // The display's own leading endpoint must describe the same starting point
+  // the target already does, or this isn't the target's own range being
+  // spelled out — some other mismatch this check has no business guessing
+  // at.
+  if (range.chapter !== classification.fromChapter) return null;
+  if (classification.fromVerse !== null && range.verse !== classification.fromVerse) return null;
+
+  const fromChapter = classification.fromChapter as number;
+  const isCrossChapter = range.toChapter !== null && range.toChapter !== fromChapter;
+
+  // Whole-chapter-equivalence gate: a target naming only a chapter, whose
+  // display spells out that exact chapter's own verses 1..last (from this
+  // version's own data), names the same thing the target already does — not
+  // a truncation.
+  if (classification.fromVerse === null && !isCrossChapter && range.verse === 1) {
+    const lastVerse = classification.book === null ? undefined : lastVerseOf(versionId, classification.book, fromChapter);
+    if (lastVerse !== undefined && lastVerse === range.toVerse) return null;
+  }
+
+  if (isCrossChapter) {
+    return { book: classification.book, display, reconstructedTarget: null, declineReason: "cross-chapter" };
+  }
+
+  const bookName = classification.bookName as string;
+  const startVerse = classification.fromVerse ?? range.verse;
+  return {
+    book: classification.book,
+    display,
+    reconstructedTarget: `${bookName} ${fromChapter}:${startVerse}${EN_DASH}${range.toVerse}`,
+    declineReason: null,
+  };
+}
+
+/** One genuine truncated-range finding — a bibleLink whose target is truncated short of the range its own display override names. */
+export interface TruncatedRangeFinding extends TruncatedRangeResult {
+  /** Repo book id of the verse this `bibleLink` is attached to. */
+  atBook: string;
+  /** Chapter of the verse this `bibleLink` is attached to. */
+  atChapter: number;
+  /** Verse number this `bibleLink` is attached to. */
+  atVerse: number;
+  /** The enclosing footnote's type (`"stu"`, `"xrf"`, …), or `null` when the `bibleLink` sits directly in content with no footnote wrapper. */
+  footnoteType: string | null;
+  /** Which part of the verse's content tree this finding was found in. */
+  zone: Zone;
+  /** The target exactly as written. */
+  target: string;
+}
+
+/**
+ * Render one truncated-range finding as this report's one-line format,
+ * matching {@link formatCrossChapterFinding}'s own shape.
+ */
+export function formatTruncatedRangeFinding(finding: TruncatedRangeFinding): string {
+  const outcome =
+    finding.reconstructedTarget !== null
+      ? `completes to "${finding.reconstructedTarget}"`
+      : `declined — ${finding.declineReason}`;
+  return (
+    `${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
+    `"${finding.target}" truncated short of display "${finding.display}" — ${outcome}`
+  );
+}
+
+/**
+ * Audit one version for bibleLink targets truncated short of the range their
+ * own display override names.
+ *
+ * @param versionId - A `bible-versions/` directory name, e.g. `"ASV1901"`.
+ * @returns `findings` (empty for a version with none) and `scanned` (every
+ *   `bibleLink` node visited, matching {@link findCrossChapterLinks}'s own
+ *   contract).
+ */
+export function findTruncatedRanges(versionId: string): {
+  findings: readonly TruncatedRangeFinding[];
+  scanned: number;
+} {
+  const findings: TruncatedRangeFinding[] = [];
+  let scanned = 0;
+
+  for (const record of readVersionRecords(versionId)) {
+    walkContent(record.content, "verse", null, (link, zone, footnoteType) => {
+      scanned += 1;
+      const result = completeTruncatedRange(versionId, link);
+      if (!result) return;
+      findings.push({
+        ...result,
+        atBook: record.book,
+        atChapter: record.chapter,
+        atVerse: record.verse,
+        footnoteType,
+        zone,
+        target: link.bibleLink,
+      });
+    });
+  }
+
+  return { findings, scanned };
+}
+
+/**
+ * Apply {@link completeTruncatedRange} to every bibleLink inside one content
+ * subtree, in a single walk covering verse content, headings, subtitles, and
+ * every footnote type — the same traversal shape {@link
+ * splitCrossChapterLinksInContent} uses, except this one replaces a node in
+ * place rather than splicing an array, since completing a range never
+ * changes how many nodes are here. `content` is never touched: the display
+ * override was already correct, which is how the truncation was detected in
+ * the first place.
+ *
+ * @param versionId - A `bible-versions/` directory name, e.g. `"ASV1901"`.
+ * @param content - Any subtree of a verse's `content`.
+ * @returns The subtree's replacement, whether anything changed, and one
+ *   {@link SkipReason} per finding this pass declined to complete (a
+ *   cross-chapter display) — so a caller can report what's still on disk
+ *   after this step runs, the same contract {@link
+ *   reorderFootnotePunctuationInContent} and {@link
+ *   relocateMarkBoundarySpacesInContent} already use.
+ */
+export function reconstructTruncatedRangesInContent(
+  versionId: string,
+  content: Content,
+): { content: Content; changed: boolean; skipped: SkipReason[] } {
+  if (content === null || content === undefined || typeof content !== "object") {
+    return { content, changed: false, skipped: [] };
+  }
+
+  if (Array.isArray(content)) {
+    let changed = false;
+    const skipped: SkipReason[] = [];
+    const items = content.map((item) => {
+      const rewritten = reconstructTruncatedRangesInContent(versionId, item);
+      changed = changed || rewritten.changed;
+      skipped.push(...rewritten.skipped);
+      return rewritten.content;
+    });
+    return { content: items, changed, skipped };
+  }
+
+  if ("bibleLink" in content) {
+    const result = completeTruncatedRange(versionId, content);
+    if (!result) return { content, changed: false, skipped: [] };
+    if (result.reconstructedTarget === null) {
+      return { content, changed: false, skipped: [result.declineReason as SkipReason] };
+    }
+    return { content: { ...content, bibleLink: result.reconstructedTarget }, changed: true, skipped: [] };
+  }
+
+  if ("heading" in content) {
+    const rewritten = reconstructTruncatedRangesInContent(versionId, content.heading);
+    return { content: { ...content, heading: rewritten.content }, changed: rewritten.changed, skipped: rewritten.skipped };
+  }
+
+  if ("subtitle" in content) {
+    const rewritten = reconstructTruncatedRangesInContent(versionId, content.subtitle);
+    return { content: { ...content, subtitle: rewritten.content }, changed: rewritten.changed, skipped: rewritten.skipped };
+  }
+
+  if ("paragraph" in content && content.paragraph !== undefined && typeof content.paragraph !== "boolean") {
+    const rewritten = reconstructTruncatedRangesInContent(versionId, content.paragraph);
+    return { content: { ...content, paragraph: rewritten.content }, changed: rewritten.changed, skipped: rewritten.skipped };
+  }
+
+  let result: Content = content;
+  let changed = false;
+  let skipped: SkipReason[] = [];
+  if ("content" in content) {
+    const rewritten = reconstructTruncatedRangesInContent(versionId, content.content);
+    result = { ...content, content: rewritten.content };
+    changed = rewritten.changed;
+    skipped = rewritten.skipped;
+  }
+  if (content.foot) {
+    const rewritten = reconstructTruncatedRangesInContent(versionId, content.foot.content);
+    result = { ...(result as typeof content), foot: { ...content.foot, content: rewritten.content } };
+    changed = changed || rewritten.changed;
+    skipped = skipped.concat(rewritten.skipped);
+  }
+  return { content: result, changed, skipped };
 }

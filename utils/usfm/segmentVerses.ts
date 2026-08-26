@@ -20,13 +20,10 @@ import { tokenize } from "./tokenize";
  * plain, unflagged run of text that joins directly onto its neighbor
  * (`imports/guide.md` §6: "two adjacent nodes with no flag between them
  * came from one line and join with nothing"). `\b` and `\c` are both
- * boundaries in this split the same way the others are, but — unlike
- * every other marker named here — neither ever sets a flag on the block
- * it closes; each only ever opens the next one with `paragraph: true`
- * (see {@link VerseBlock.break}) — `\b` because WEBUS2020's own upstream
- * confirms a real stanza gap, `\c` because upstream gives every chapter
- * boundary the identical clean-cut treatment regardless of whether a
- * `\b` precedes it (Finding 7).
+ * boundaries here too, but unlike the others neither ever sets a flag on
+ * the block it closes — each only opens the next block with
+ * `paragraph: true` instead (see {@link VerseBlock.break} and the `\c`
+ * dispatch below for why both get this treatment).
  */
 export interface VerseBlock {
   /** The block's own plain text, with every mark/footnote/heading stripped — the fallback rendering when {@link nodes} is absent. */
@@ -41,18 +38,16 @@ export interface VerseBlock {
    */
   readonly nodes?: readonly ContentObject[];
   /**
-   * Whether a `\p`-family marker opened this block — or `\b` (a real
-   * stanza break) or `\c` (a real chapter boundary, Finding 7) did, both
-   * of which give the block they open the identical signal a `\p`-family
-   * marker would.
+   * Whether a `\p`-family marker opened this block — or `\b` (a stanza
+   * break) or `\c` (a chapter boundary) did, both of which give the block
+   * they open the identical signal a `\p`-family marker would.
    */
   readonly paragraph?: boolean;
   /**
    * Whether a `\q1`/`\q2`/`\q3` ordinary poetry-line marker closed this
-   * block. `\b` (the real stanza break) and `\c` (a real chapter
-   * boundary, Finding 7) deliberately never set this — each leaves the
-   * block it closes clean instead, then opens the next real block with
-   * {@link paragraph} in its place.
+   * block. `\b` (a stanza break) and `\c` (a chapter boundary) deliberately
+   * never set this — each leaves the block it closes clean instead, then
+   * opens the next real block with {@link paragraph} in its place.
    */
   readonly break?: boolean;
   /**
@@ -85,13 +80,10 @@ export interface VerseRecord {
  * `\pi1`/`\mi` all behave identically to `\p` for this purpose (no indent
  * concept in the schema). Marks the *first* content-bearing block that
  * follows, wherever it falls (chapter start, mid-chapter, or immediately
- * before a verse boundary) — confirmed directly against
- * `bible-versions/KJV1769/01-GEN.json` chapter 1, whose own `paragraph:
- * true` flags land exactly on WEBUS2020's own raw `\p` positions in the
- * same chapter. A marker outside this set has zero effect on block
- * boundaries at all — without `\li1`/`\pi1`/`\mi` included here, Ezra 8:2's
- * own three `\li1`-tagged list items merge into one run-on block with no
- * separation.
+ * before a verse boundary). A marker outside this set has zero effect on
+ * block boundaries at all — without `\li1`/`\pi1`/`\mi` included here,
+ * Ezra 8:2's own three `\li1`-tagged list items would merge into one
+ * run-on block with no separation.
  */
 const PARAGRAPH_MARKER_NAMES = new Set(["p", "m", "nb", "li1", "pi1", "mi"]);
 
@@ -103,77 +95,67 @@ const PARAGRAPH_MARKER_NAMES = new Set(["p", "m", "nb", "li1", "pi1", "mi"]);
  * accumulated since the last one — the KJV1769 "same rule,
  * two sides" convention, not a forward-looking paragraph.
  *
- * `\b` — the real stanza-break marker, USFM's own blank-line-between-poem-
- * stanzas convention — does *not* belong here, even though it looks like a
- * fourth poetry-line-ending marker at a glance. WEBUS2020's own upstream
- * `HEAD` confirms `\b` marks the opposite boundary: the line it closes
- * loses `break: true` entirely (an
- * ordinary line-wrap never happened here — a real stanza gap did), and the
- * next real block opens `paragraph: true` instead, the identical signal
- * {@link PARAGRAPH_MARKER_NAMES} already gives. `\b` gets its own dispatch
- * branch below rather than sharing either set — and, per Finding 7, `\c`
- * (the chapter marker) makes the identical `paragraph: true` promise on
- * its own, since upstream gives every chapter boundary this treatment,
- * `\b` or no `\b`. See {@link suppressNextBareBreakAfterCleanBoundary} for
- * the one real interaction this creates with the set below.
+ * `\b` — the stanza-break marker, USFM's blank-line-between-poem-stanzas
+ * convention — does *not* belong here, even though it looks like a fourth
+ * poetry-line-ending marker. `\b` marks the opposite boundary: the line it
+ * closes loses `break: true` entirely, and the next real block opens
+ * `paragraph: true` instead, the identical signal
+ * {@link PARAGRAPH_MARKER_NAMES} already gives — so it gets its own
+ * dispatch branch below rather than sharing either set. `\c` (the chapter
+ * marker) makes the identical `paragraph: true` promise on its own; see
+ * its dispatch below for why. See
+ * {@link suppressNextBareBreakAfterCleanBoundary} for the one real
+ * interaction this creates with the set below.
  */
 const BREAK_MARKER_NAMES = new Set(["q1", "q2", "q3"]);
 
 /**
  * Unpaired markers whose own trailing text is pure chrome — a front-matter
  * or display convention with nothing hosted inside it that dropping would
- * silently lose (checked directly: `\cl`'s own single in-scope instance
- * carries nothing but the plain word "Psalm," no footnote). Dropped
- * entirely, the same way front matter (`\toc1`-`\toc3`, `\id`, `\ide`, `\h`,
- * `\mt1`-`\mt3`) already is by the `started` guard below.
+ * silently lose. Dropped entirely, the same way front matter (`\toc1`-
+ * `\toc3`, `\id`, `\ide`, `\h`, `\mt1`-`\mt3`) already is by the `started`
+ * guard below.
  *
- * `\pc` (2 Maccabees' own decorative dash divider), `\cp` (Psalm 151's own
- * chapter-number override, already harmless by position — `started` is
- * always `false` where it sits — added anyway for the same
- * explicit-accounting reason `\cl` is here), and `\is1` (Sirach's
- * and Esther-Greek's own bare section-title labels for the `\ip` prose that
+ * `\pc` (a decorative dash divider), `\cp` (a chapter-number override,
+ * already harmless by position since `started` is always `false` where it
+ * sits), and `\is1` (a bare section-title label for the `\ip` prose that
  * follows — `\ip` itself is real content, handled separately below, never
- * chrome) join this set for the identical reason `\cl` already does: a
- * marker with real, measured, in-scope text that carries nothing worth
- * keeping. `\s1` (a real per-pericope section heading, 5 real deuterocanon
- * instances) has *moved out* of this set into
- * {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES} below — the 66-book scope's
- * own zero-instance finding no longer holds once the deuterocanon corpus is
- * in view.
+ * chrome) join `\cl` here for the same reason: each carries only measured,
+ * in-scope text with nothing worth keeping. `\s1` looks like it belongs
+ * here too, but it is a real per-pericope section heading in the
+ * deuterocanon corpus, so it lives in
+ * {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES} below instead.
  */
 const CHROME_DROPPED_MARKER_NAMES = new Set(["cl", "pc", "cp", "is1"]);
 
 /**
- * `\d` — a Psalm superscription (116 of 138 in-scope canonical instances,
- * plus Psalm 151's own) or one of Psalm 119's own 22 acrostic letter-name
- * markers (the identical USFM tag; `usfm/headings.ts`'s
+ * `\d` — a Psalm superscription, or one of Psalm 119's own acrostic
+ * letter-name markers (the identical USFM tag; `usfm/headings.ts`'s
  * `buildSuperscriptionContent` classifies by content, never by position).
- * `\sp` — a Song of Solomon speaker label. `\s1` — a real
- * per-pericope section heading, 5 real deuterocanon instances (Baruch 6,
- * Daniel 13/14's own chapter-start pericope titles, Daniel 3:23/24 and
- * 3:90/91's own mid-chapter insertion titles), dispatched through the
+ * `\sp` — a Song of Solomon speaker label. `\s1` — a real per-pericope
+ * section heading in the deuterocanon corpus, dispatched through the
  * identical plain-`heading` path `\sp` already uses (`usfm/headings.ts`'s
- * `buildSpeakerHeading`, reused directly rather than a second, parallel
- * function — see the dispatch below). `\qc` — ASV1901's own Psalm 119
- * acrostic letter heading (22 real instances, `20-PSAeng-asv.usfm`), on a
- * different marker than `\d` and carrying the real Hebrew glyph inline
- * rather than a bare transliteration (`usfm/headings.ts`'s
- * `buildAcrosticGlyphHeading`, joined here rather than forked into a
- * parallel walk, since it needs the identical "span to the next marker"
- * shape the other three already have). All four are unpaired markers whose
- * own trailing text ends wherever the *next* marker of any kind begins
+ * `buildSpeakerHeading`, reused directly rather than forked into a second,
+ * parallel function — see the dispatch below). `\qc` — ASV1901's own
+ * Psalm 119 acrostic letter heading, on a different marker than `\d` and
+ * carrying the real Hebrew glyph inline rather than a bare
+ * transliteration (`usfm/headings.ts`'s `buildAcrosticGlyphHeading`,
+ * joined here rather than forked into a parallel walk, since it needs the
+ * identical "span to the next marker" shape the other three already
+ * have). All four are unpaired markers whose own trailing text ends
+ * wherever the *next* marker of any kind begins
  * (`usfm/headings.ts`'s own `buildHeadingSpanContent`) and all four attach
  * to whatever real content comes next in source order — see
  * {@link pendingHeadingBlocks}'s own doc comment below for exactly how
  * "next" is determined, including across a verse boundary. This is also
- * what fixes ASV1901's own real `\qc` gap for its first, chapter-opening
- * occurrence (Psalm 119's own `\qc א ALEPH.`, sitting before `\v 1` ever
- * opens): unlike the generic "text" branch, which the `started` guard
- * excludes at true chapter start (losing the text outright), this
- * dispatch queues the heading into {@link pendingHeadingBlocks}
- * unconditionally, with no dependency on `started` at all — the identical
- * mechanism that already lets an ordinary `\d` Psalm superscription attach
- * correctly at chapter start.
+ * what lets ASV1901's own `\qc` attach correctly for its first,
+ * chapter-opening occurrence (Psalm 119's own `\qc א ALEPH.`, sitting
+ * before `\v 1` ever opens): unlike the generic "text" branch, which the
+ * `started` guard excludes at true chapter start (losing the text
+ * outright), this dispatch queues the heading into
+ * {@link pendingHeadingBlocks} unconditionally, with no dependency on
+ * `started` at all — the identical mechanism that already lets an
+ * ordinary `\d` Psalm superscription attach correctly at chapter start.
  */
 const SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES = new Set(["d", "sp", "s1", "qc"]);
 
@@ -239,47 +221,39 @@ export function segmentVerses(
   let pendingParagraph = false;
 
   /**
-   * Set the moment a real `\b` stanza break *or* a real `\c` chapter
-   * marker is dispatched; consulted, and always cleared, on the very next
-   * token that isn't part of the gap itself. This is the guard that keeps
-   * WEB's own bare-`\q1`/`\q2`/`\q3` "stanza break, then resume" idiom
-   * (764 real `\b` instances) — and, per Finding 7, the identical idiom at
-   * a `\b`-less chapter boundary (178 real chapters open directly with a
-   * bare `\qN`, most with no `\b` anywhere near `\c`) — from undoing the
+   * Set the moment a `\b` stanza break or a `\c` chapter marker is
+   * dispatched; consulted, and always cleared, on the very next token that
+   * isn't part of the gap itself. Without this guard, WEB's own bare-
+   * `\q1`/`\q2`/`\q3` "stanza break, then resume" idiom would undo the
    * clean cut either marker just made: both `\b` and `\c` drop (or, for
    * `\c`, simply never carry forward) `break: true` from the line before
-   * the gap, but that bare `\qN` — carrying no text of its own before the
-   * next real content — would otherwise run its own ordinary
+   * the gap, but a bare `\qN` with nothing of its own before the next real
+   * content would otherwise run its own ordinary
    * {@link BREAK_MARKER_NAMES} dispatch and reach backward onto that same
-   * line, adding a flag neither marker's own convention wants there
+   * line — adding a flag neither marker's own convention wants there
    * (`flushBlock`'s own doc comment: the reach-back's `if (!last.break)`
    * guard only ever adds the flag, never removes it, so it cannot tell
    * "never had one" apart from "deliberately cleared").
    *
-   * Survives a whitespace-only text token in the gap (real in this
-   * corpus's own raw USFM — `tokenize()` never merges a marker's own
-   * trailing newline away, it becomes a genuine, if content-free, text
-   * token); survives a `\c` marker itself, the real chapter-boundary shape
-   * of the `\b`-adjacent idiom, `\b \c N \q1 \v M...` (Job 16:22→17:1's own
-   * real shape, and — per Finding 7 — Deuteronomy 31:30→32:1's and Psalm
-   * 90:17→91:1's own real `\b`-less shape, nothing at all between `\c` and
-   * the bare `\qN`); survives `\ms1`, a Psalms book-division marker that
-   * always sits directly after `\c` (Psalm 41:13→42:1, 72:20→73:1,
-   * 89:52→90:1, 106:48→107:1's own real shape, `\c N \ms1 BOOK M \d ...
-   * \q1 \v 1...` — `\ms1`'s own dispatch consumes its own trailing text in
-   * the same jump, exactly the way {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES}
-   * markers already do, so that real, non-whitespace text ("BOOK 2") never
-   * reaches this guard as its own standalone token and clears it — Psalm
-   * 41:13→42:1's own real shape caught this directly, the one real gap
-   * simply adding `\ms1` to this survivor list alone would have left
-   * open); and survives a {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES}
-   * marker (`\d`/`\sp`/`\s1`/`\qc`) the same way, a Psalm superscription
-   * routinely sitting between the gap's own start and the bare `\qN` that
-   * follows it (Psalm 46:11→47:1's own real shape, `\b`-adjacent). Cleared
-   * by anything else: real text, or any marker outside that survivor
-   * list. This is deliberately narrower than "the next break-type marker,
-   * whenever it comes" — it only ever catches the *immediately* following
-   * one, matching how the idiom actually sits in the raw source.
+   * Survives a whitespace-only text token in the gap (`tokenize()` never
+   * merges a marker's own trailing newline away, so it becomes a genuine,
+   * if content-free, text token); survives a `\c` marker itself, whether
+   * or not a `\b` precedes it — the real shape this idiom takes at a
+   * chapter boundary is `\b \c N \q1 \v M...`, or, with no `\b` at all,
+   * just `\c N \q1 \v M...`; survives `\ms1`, a Psalms book-division
+   * marker that always sits directly after `\c` — its own dispatch
+   * consumes its own trailing text in the same jump, exactly the way
+   * {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES} markers already do, so
+   * that real, non-whitespace text never reaches this guard as its own
+   * standalone token and clears it; and survives a
+   * {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES} marker (`\d`/`\sp`/
+   * `\s1`/`\qc`) the same way, since a Psalm superscription routinely sits
+   * between the gap's own start and the bare `\qN` that follows it.
+   * Cleared by anything else: real text, or any marker outside that
+   * survivor list — deliberately narrower than "the next break-type
+   * marker, whenever it comes," since it only ever catches the
+   * *immediately* following one, matching how the idiom actually sits in
+   * the raw source.
    */
   let suppressNextBareBreakAfterCleanBoundary = false;
 
@@ -293,7 +267,7 @@ export function segmentVerses(
   // state above. `insideAdd` (ASV1901's real `\add`/`\add*` — translator-
   // supplied words, USFM's own standard italics convention) mirrors
   // `insideQs`'s own shape exactly, mapping to the identical `marks:
-  // ["i"]` — the same mark `imports/kjv/kjvContent.ts:195` already gives
+  // ["i"]` — the same mark `imports/kjv/kjvContent.ts` already gives
   // KJV1769's own HTML-sourced equivalent construct. `insideBk` (USFM's
   // own standard "quoted book title" character style, real at Numbers
   // 21:14) maps to the identical `marks: ["i"]` for the same reason: the
@@ -388,17 +362,15 @@ export function segmentVerses(
    * all in this block (Mark 16:9's own footnote opens its verse with
    * nothing before it), the note stands on its own —
    * `content-schema.json`'s own `minProperties: 1` allows a content object
-   * whose only property is `foot` (matching ASV1901's own shape
-   * for Luke 17:36).
+   * whose only property is `foot`.
    *
    * When the last piece already carries a `foot` of its own, a second,
    * textless `{foot}` piece is pushed instead of overwriting it — a real
-   * in-scope shape (Acts 7:37's own footnote and cross-reference, both
-   * anchored to the same preceding word, with nothing at all between
-   * them). A single `ContentObject` can carry only one `foot`, so the
-   * second note needs its own node; overwriting silently discarded a real
-   * footnote in exactly this shape (3 instances in Acts, 1 in Hebrews)
-   * until a full-corpus verify run caught it.
+   * in-scope shape (a footnote and a cross-reference both anchored to the
+   * same preceding word, with nothing at all between them, as in Acts
+   * 7:37). A single `ContentObject` can carry only one `foot`, so the
+   * second note needs its own node; overwriting would silently discard
+   * one of the two.
    */
   const attachFoot = (foot: Footnote): void => attachFootToPieces(blockInline, foot);
 
@@ -419,26 +391,22 @@ export function segmentVerses(
    * the real block behind it — never a candidate for `break: true` itself.
    *
    * One case falls out of this reach-back as a harmless no-op rather than
-   * a lost flag: the one truly first block-affecting marker of a whole
-   * book with nothing whatsoever before it (exactly one instance in this
-   * corpus, Psalm 1's own opening `\q1`).
+   * a lost flag: the very first block-affecting marker in a book, with
+   * nothing whatsoever before it (Psalm 1's own opening `\q1`).
    *
    * WEB's own `\b`-then-`\q1`/`\q2`/`\q3` "stanza break, then resume"
-   * idiom (764 times), and, per Finding 7, the identical idiom at a
-   * `\b`-less chapter boundary (a bare `\qN` sitting directly behind `\c`,
-   * with nothing else in between but whitespace/`\ms1`/a heading marker),
-   * never reach this function's own `breakFlag` branch at all. Both `\b`'s
-   * and `\c`'s own dispatch (see the marker-walk loop below) call
-   * `flushBlock(false)`, so the line before the gap never gains
-   * `break: true` in the first place — WEBUS2020's own upstream `HEAD`
-   * confirms this is the real convention at every one of these boundaries,
-   * with or without a `\b`. If the bare `\qN` that almost always
-   * immediately follows either one were left to run its own ordinary
-   * `BREAK_MARKER_NAMES` dispatch, this reach-back's own `if (!last.break)`
-   * guard — which can only ever *add* `break: true`, never remove it —
-   * would silently add the very flag the gap was just left clean of, since
-   * it cannot distinguish "never had one" from "deliberately kept clean."
-   * The marker-walk loop's own
+   * idiom — and the identical idiom at a `\b`-less chapter boundary (a
+   * bare `\qN` sitting directly behind `\c`, with nothing else in between
+   * but whitespace/`\ms1`/a heading marker) — never reaches this
+   * function's own `breakFlag` branch at all. Both `\b`'s and `\c`'s own
+   * dispatch (see the marker-walk loop below) call `flushBlock(false)`, so
+   * the line before the gap never gains `break: true` in the first place.
+   * If the bare `\qN` that almost always immediately follows either one
+   * were left to run its own ordinary `BREAK_MARKER_NAMES` dispatch, this
+   * reach-back's own `if (!last.break)` guard — which can only ever *add*
+   * `break: true`, never remove it — would silently add the very flag the
+   * gap was just left clean of, since it cannot distinguish "never had
+   * one" from "deliberately kept clean." The marker-walk loop's own
    * {@link suppressNextBareBreakAfterCleanBoundary} guard absorbs that
    * bare `\qN` before it ever reaches `BREAK_MARKER_NAMES`'s dispatch, so
    * this function's own reach-back branch never actually sees it.
@@ -451,11 +419,11 @@ export function segmentVerses(
     const nodes = inline.length > 0 ? buildRunNodes(inline) : undefined;
 
     // `inline` mirrors `text` piece by piece for every ordinary word/prose
-    // piece, but a standalone footnote piece (a `\f` marker with nothing
-    // preceding it to attach to, e.g. Mark 16:9's own footnote opening its
-    // verse with nothing before it) contributes to `inline` alone, never to
-    // `blockPieces`/`text` — a footnote is not running verse prose.
-    // Checking `nodes` here rather than raw `inline.length` matters: a
+    // piece, but a standalone footnote piece — nothing preceding it to
+    // attach to (see `attachFoot`'s own doc comment above) — contributes to
+    // `inline` alone, never to `blockPieces`/`text`, since a footnote is
+    // not running verse prose. Checking `nodes` here rather than raw
+    // `inline.length` matters: a
     // trailing whitespace-only piece (real at the piece level, gone once
     // `buildRunNodes`'s own edge-trim runs) must not, by itself, manufacture
     // a spurious empty block. Without this check, a block that is *only* a
@@ -496,8 +464,8 @@ export function segmentVerses(
         if (!last.break) blocks[blocks.length - 1] = { ...last, break: true };
         return;
       }
-      // Nothing anywhere earlier in this book — the one confirmed,
-      // harmless no-op case.
+      // Nothing anywhere earlier in this book — a harmless no-op; see
+      // this function's own doc comment above.
     }
   };
 
@@ -513,15 +481,14 @@ export function segmentVerses(
   const flush = (): void => {
     if (!started) return;
     const rawContent = pieces.join("").replace(/\s+/g, " ").trim();
-    // A handful of verses (Luke 17:36, Acts 8:37/15:34/24:7, Romans 16:25)
-    // carry a textual-variant footnote as their *entire* USFM content,
-    // with no surrounding verse text — WEB omits the disputed reading and
-    // only notes it. The `open "f"` branch above pushes a standalone
-    // `{foot: ...}` piece into `blockInline` even with nothing preceding
-    // it, and `flushBlock`'s own `nodes`-based check (see its own doc
-    // comment) lets that survive into a real block — `blocks` below then
-    // carries these verses as a content object whose only property is
-    // `foot`, matching ASV1901's own shape for Luke 17:36.
+    // A textual-variant footnote can be a verse's *entire* USFM content,
+    // with no surrounding verse text (Luke 17:36 is one real example) —
+    // WEB omits the disputed reading and only notes it. The `open "f"`
+    // branch above pushes a standalone `{foot: ...}` piece into
+    // `blockInline` even with nothing preceding it, and `flushBlock`'s own
+    // `nodes`-based check (see its own doc comment) lets that survive into
+    // a real block — `blocks` below then carries these verses as a content
+    // object whose only property is `foot`.
     //
     // `rawOrFallback`/`asidePieces` keep `rawContent` — a diagnostic field
     // only, never written to disk — populated with real text even for
@@ -551,22 +518,16 @@ export function segmentVerses(
       pendingHeadingBlocks = [...reclaimed, ...pendingHeadingBlocks];
     }
 
-    // A real, narrower case than the one the comment above describes: a
-    // verse with *no* fallback either, not even a footnote to fall back
-    // to — MSB2025's own real Luke 17:36/Acts 8:37/15:34/24:7, a source
-    // with zero \f/\x anywhere in its corpus, so a disputed verse it
-    // still numbers is left with
-    // nothing behind the number at all. `imports/guide.md`'s own
+    // A narrower case than the one above: a verse with no fallback at
+    // all, not even a footnote — a source with zero \f/\x anywhere in its
+    // corpus (MSB2025's own Acts 8:37) can still number a disputed verse
+    // with nothing behind the number. `imports/guide.md`'s own
     // already-established rule for exactly this shape ("Omitted textual
-    // variants... Emit no verse record at all") applies directly: this is
-    // not a defect to paper over with an empty placeholder block (which a
-    // real run of this corpus proved schema-invalid — `content` cannot be
-    // an empty string), it is the correct, if unusual, verse-level
-    // fallback for a verse with truly nothing to carry. WEB's own
-    // disputed verses never reach this branch — every one keeps at least
-    // its own footnote as a real block (see the comment above) — so this
-    // is dead code for that corpus, exercised for the first time by a
-    // source with none.
+    // variants... Emit no verse record at all") applies directly: an
+    // empty placeholder block isn't an option either way, since
+    // `content-schema.json` requires `content` to be a non-empty string.
+    // WEB's own disputed verses never reach this branch — every one keeps
+    // at least its own footnote as a real block (see the comment above).
     if (currentVerseBlocks.length === 0 && rawOrFallback.length === 0) {
       pieces = [];
       asidePieces = [];
@@ -628,17 +589,14 @@ export function segmentVerses(
       started = false;
       skipToNextMarker = false;
       chapter = Number(token.value);
-      // Finding 7: every real chapter boundary gets the identical clean
-      // cut and chapter-paragraph-start guarantee `\b` already gives
-      // (see {@link suppressNextBareBreakAfterCleanBoundary}), regardless
-      // of what marker, if any, follows `\c` — WEBUS2020's own upstream
-      // `HEAD` confirms this holds even with no `\b` anywhere near the
-      // boundary (Deuteronomy 31:30→32:1, Psalm 90:17→91:1, and the four
-      // `\ms1` book-division boundaries). Setting both here is a no-op
-      // when `\b` already set them moments earlier (Job 16:22→17:1's own
-      // shape survives `\c` in the guard's own survivor list above, so
-      // this line finds them already `true`) — it only changes behavior
-      // for the `\b`-less case this finding is about.
+      // Every chapter boundary gets the identical clean cut and
+      // chapter-paragraph-start guarantee `\b` gives (see
+      // {@link suppressNextBareBreakAfterCleanBoundary}), regardless of
+      // whether a `\b` precedes it — upstream treats every chapter start
+      // this way, `\b` or no `\b`. Setting both here is a no-op when `\b`
+      // already set them moments earlier (its own shape survives `\c` in
+      // the guard's own survivor list above, so this line finds them
+      // already `true`); it only changes behavior for the `\b`-less case.
       pendingParagraph = true;
       suppressNextBareBreakAfterCleanBoundary = true;
       index++;
@@ -696,8 +654,7 @@ export function segmentVerses(
       // otherwise reach {@link suppressNextBareBreakAfterCleanBoundary}'s
       // own guard as its own standalone text token and clear it, since that
       // guard only ever whitelists whitespace-only text and specific marker
-      // names, never text content — Psalm 41:13→42:1's own real shape
-      // caught this directly (Finding 7).
+      // names, never text content.
       bookDivisionBoundaryChapters.push(chapter);
       const { nextIndex } = buildHeadingSpanContent(tokens, index + 1);
       skipToNextMarker = false;
@@ -763,16 +720,16 @@ export function segmentVerses(
       skipToNextMarker = false;
       const { footnote, plainText, nextIndex } = buildFootnoteContent(tokens, index + 1, canonBookIds);
       index = nextIndex;
-      // A footnote embedded inside a `\d` Psalm superscription (Psalm
-      // 46:0/90:0/145:0) never reaches this branch at all — the
+      // A footnote embedded inside a `\d` Psalm superscription (e.g. Psalm
+      // 46:0) never reaches this branch at all — the
       // `SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES` branch above consumes it
       // directly, inside `usfm/headings.ts`'s own
       // `buildHeadingSpanContent` (which reuses this exact same
       // `buildFootnoteContent` function for that purpose). This `started`
-      // guard protects against a case this corpus is not known to
-      // ever exercise for real — every real `\f` this branch actually
-      // sees sits inside an already-open verse — kept as a defensive
-      // no-op rather than an assumption this walk relies on, the same
+      // guard protects against a case this corpus is not known to ever
+      // exercise for real — every real `\f` this branch actually sees
+      // sits inside an already-open verse — kept as a defensive no-op
+      // rather than an assumption this walk relies on, the same
       // discipline the sibling `open "x"` branch below already applies to
       // its own identical guard.
       if (started) {
@@ -790,11 +747,10 @@ export function segmentVerses(
       skipToNextMarker = false;
       const { footnote, nextIndex } = buildCrossReferenceContent(tokens, index + 1, canonBookIds);
       index = nextIndex;
-      // No real in-scope `\x` span sits inside an unclosed `\d` heading
-      // (checked directly, corpus-wide — unlike the 3 real `\f` cases
-      // above, zero for `\x`), so the `started` guard here is a defensive
-      // mirror of the footnote branch's own rule, not a gap this corpus
-      // ever actually exercises.
+      // No real in-scope `\x` span sits inside an unclosed `\d` heading,
+      // so the `started` guard here is a defensive mirror of the
+      // footnote branch's own rule, not a gap this corpus ever actually
+      // exercises.
       if (started) attachFoot(footnote);
       continue;
     }

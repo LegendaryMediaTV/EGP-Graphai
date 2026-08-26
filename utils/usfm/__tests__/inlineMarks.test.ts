@@ -3,15 +3,15 @@ import { buildRunNodes, collapseContentNodes, mergeConnectors, moveTrailingPunct
 
 /**
  * `mergeConnectors` is tested directly against synthetic `ContentObject[]`
- * input: the rule it implements (guide §6's "Node granularity around a
- * Strong's tag") is a property of the schema-level nodes themselves,
- * independent of how they were produced, so these tests don't need a real
- * USFM fixture to be meaningful — some cases below (the mark-mismatch
- * split, the textless-sibling stop) never occur in the WEBUS2020 corpus,
- * but are general rules guide §6 documents from other sources, and this
- * module must hold to them regardless. `buildRunNodes` is then tested
- * against pieces shaped the way `segmentVerses.ts` actually produces them,
- * closing the loop.
+ * input: the rule it implements — how an untagged connector attaches to a
+ * `strong`- or `foot`-carrying neighbor — is a property of the
+ * schema-level nodes themselves, independent of how they were produced, so
+ * these tests don't need a real USFM fixture to be meaningful. Some cases
+ * below (the mark-mismatch split, the textless-sibling stop) never occur
+ * in the WEBUS2020 corpus, but are general rules established from other
+ * sources (KJV1769, NASB1995) that this module must hold to regardless.
+ * `buildRunNodes` is then tested against pieces shaped the way
+ * `segmentVerses.ts` actually produces them, closing the loop.
  */
 
 describe("mergeConnectors — forward-default, backward-fallback, matching KJV1769 Genesis 1:1 exactly", () => {

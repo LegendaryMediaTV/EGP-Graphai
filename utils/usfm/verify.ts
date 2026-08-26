@@ -2,9 +2,8 @@
  * Independent verifier for `utils/importUsfm.ts` — reads whatever is really
  * on disk and re-derives its own counts from the raw USFM source with its
  * own regexes, sharing no parsing/segmentation code with `tokenize.ts` or
- * `segmentVerses.ts` (`imports/guide.md` §5: "the verifier must not share
- * the importer's mechanisms" — a bug shared between the two sides would
- * cancel out and never be caught). Reusing `usfm/metadata.ts`'s
+ * `segmentVerses.ts`: a bug shared between the importer and its verifier
+ * would cancel out and never be caught. Reusing `usfm/metadata.ts`'s
  * `resolveBookId`, `usfm/footnoteTypeRules.ts`'s `classifyFootnote`, and
  * `usfm/headings.ts`'s `isAcrosticLetterName` is not a mechanism-sharing
  * risk in that sense: each is a static, individually-checkable reference
@@ -17,9 +16,9 @@
  *   Verses/chapters — per book, the emitted JSON's own record count equals
  *   that book's own `\v` marker count in the raw source, and the source's
  *   own highest `\c` number equals `_version.json`'s own declared
- *   `chapters`; whole-corpus totals are fixed in advance (38,058 verses,
- *   1,402 chapters — re-measured directly against the real 81 in-scope
- *   files, never trusted from a single run's own output).
+ *   `chapters`; whole-corpus totals are fixed in advance and re-measured
+ *   directly against every real in-scope file, never trusted from a single
+ *   run's own output.
  *
  *   Block structure (`\p`/`\m`/`\nb` → `paragraph`, `\q1`/`\q2`/`\q3`/`\b`
  *   → `break`) — see {@link countBlockMarkersIn} and
@@ -33,39 +32,35 @@
  *   raw-count-vs-emitted-count split, and {@link WOC_RUNS_IN_CORPUS}'s own
  *   doc comment for why the two numbers do not agree here either.
  *
- *   Footnotes — four checks, per guide §5's own "the verifier must not
- *   share the importer's mechanisms" and "character reconciliation"
- *   sections:
- *     (a) the whole-corpus footnote total — 1,854 `\f`...`\f*` spans, fixed
- *         in advance — and, per book, that count (plus every real `\ip`
- *         block, minus every raw body that independently re-classifies as
- *         a real reference, see
+ *   Footnotes — four checks:
+ *     (a) the whole-corpus footnote total, fixed in advance — and, per
+ *         book, that count (plus every real `\ip` block, minus every raw
+ *         body that independently re-classifies as a real reference, see
  *         {@link INTRO_PARAGRAPHS_IN_CORPUS}/
  *         {@link REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS}) equals the
  *         emitted `foot`-node count exactly (see {@link FOOTNOTES_IN_CORPUS}).
  *     (b) the per-type distribution ({@link classifyFootnote} applied to
  *         each independently-extracted body) is computed and printed, not
- *         fixed — "resulting distribution" is reported after the
- *         classifier runs over the real corpus, not predicted in advance
- *         (guide §6) — except that `map` must be exactly zero (this corpus
- *         carries no source signal for it), and each raw body's own
- *         re-derived type must match what the importer actually emitted
- *         for the *same*, position-paired footnote (guide §5: "have the
- *         verifier re-derive the type from the source body and compare, so
- *         a body paired with the wrong marker is caught even when both
- *         bodies exist").
+ *         fixed — the resulting distribution is reported after the
+ *         classifier runs over the real corpus, not predicted in advance —
+ *         except that `map` must be exactly zero (this corpus carries no
+ *         source signal for it), and each raw body's own re-derived type
+ *         must match what the importer actually emitted for the *same*,
+ *         position-paired footnote: the verifier re-derives the type from
+ *         the source body and compares, so a body paired with the wrong
+ *         marker is caught even when both bodies exist.
  *     (c) original-script run counts — {@link HEBREW_SCRIPT_RUNS_IN_CORPUS}
  *         (from the `\+wh`...`\+wh*` pair count) and
  *         {@link GREEK_SCRIPT_RUNS_IN_CORPUS} (from `splitScriptRuns`'s own
  *         character-range scan over every independently-extracted body) —
  *         against the emitted `script: "H"`/`script: "G"` node counts.
- *     (d) character reconciliation (guide §5's second harness leg): every
- *         character inside every `\f`...`\f*` span lands somewhere in the
- *         emitted `foot.content`, checked position-paired per book, not
+ *     (d) character reconciliation, the independence check's second leg:
+ *         every character inside every `\f`...`\f*` span lands somewhere in
+ *         the emitted `foot.content`, checked position-paired per book, not
  *         just totalled — see {@link extractFootnoteBodiesIn}'s own doc
  *         comment for exactly what counts as "every character" here (the
  *         `\fr` label is excluded by name, matching this repo's own
- *         already-established, deliberate drop of it, not a silent gap).
+ *         deliberate drop of it, not a silent gap).
  *
  *   Cross-references (`\x`...`\x*`, always `xrf`-typed, plus any real `\f`
  *   body that independently re-classifies `xrf`) — the
@@ -79,26 +74,24 @@
  *   (Hebrews 1:6's siglum-suffixed target) is asserted by name.
  *
  *   Headings/subtitles/chrome — Psalm superscriptions (`\d` → `subtitle`,
- *   or `heading`/`type: "acrostic"` for Psalm 119's own 22 letter names),
- *   the five Psalter book-division headings (`\ms1`), Song of Solomon's
+ *   or `heading`/`type: "acrostic"` for Psalm 119's own letter names), the
+ *   Psalter's own book-division headings (`\ms1`), Song of Solomon's
  *   speaker labels and the deuterocanon corpus's own per-pericope section
  *   headings (`\sp`/`\s1`, indistinguishable once emitted, see
  *   {@link SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS}), Numbers 21:14's and
  *   every real `\ip`/deuterocanon-footnote `\bk` book-title citation
  *   (delimiters dropped, `marks: ["i"]` added — the same mark `\qs`/`\add`
- *   already use, per Finding 6; checked for presence at Numbers 21:14,
+ *   already use; checked for presence at Numbers 21:14,
  *   this verifier's one dedicated per-verse mark check), and Psalms' own
  *   `\cl` chapter-label override (dropped as chrome, checked to host
- *   nothing).
- *   The 5 real footnotes that sit inside a `\d`/`\s1` superscription
- *   or section heading (Psalm 46:0/90:0/145:0/151:1, Daniel-Greek 3:24) are
- *   asserted as a positive, structural check
- *   ({@link SUPERSCRIPTION_FOOTNOTES_IN_CORPUS}), not an exclusion from
- *   pairing — every raw footnote participates in the footnote
- *   position-paired comparison above, none excluded.
+ *   nothing). The real footnotes that sit inside a `\d`/`\s1` superscription
+ *   or section heading (e.g. Psalm 46:0's own) are asserted as a positive,
+ *   structural check ({@link SUPERSCRIPTION_FOOTNOTES_IN_CORPUS}), not an
+ *   exclusion from pairing — every raw footnote participates in the
+ *   footnote position-paired comparison above, none excluded.
  *
  *   Marker inventory — every backslash-escaped marker name found anywhere
- *   in the 81 in-scope books falls into one of three named buckets
+ *   in the in-scope books falls into one of three named buckets
  *   (content-handled, chrome-dropped, or confirmed to occur zero times);
  *   anything else is reported by name as a real bug, never silently
  *   absorbed (see {@link markerNamesIn}). USFM's own table markers
@@ -112,8 +105,8 @@
  *   {@link STRONGS_ATTRIBUTES_IN_CORPUS}'s own doc comment for the full
  *   reasoning and {@link countStrongAttributeNodes} for the check itself.
  *
- * What stays independent throughout, per guide §5: every extraction
- * function above ({@link countMarkersIn}, {@link countBlockMarkersIn},
+ * What stays independent throughout: every extraction function above
+ * ({@link countMarkersIn}, {@link countBlockMarkersIn},
  * {@link countInlineMarkersIn}, {@link extractFootnoteBodiesIn},
  * {@link extractIntroParagraphsIn}, {@link extractCrossReferencesIn},
  * {@link extractHeadingMarkersIn}, {@link extractSuperscriptionsIn},
@@ -137,30 +130,26 @@ import { resolveBookId } from "./metadata";
 import { splitScriptRuns } from "./splitScriptRuns";
 
 /**
- * How many verses the whole in-scope WEBUS2020 corpus declares — every `\v`
- * marker across every in-scope USFM file, counted directly and
- * independently of `tokenize.ts`/`segmentVerses.ts`. **38,058, not 31,103**
- * — the 66-book canonical figure plus 6,955 real verses across the 15
- * deuterocanon books, re-measured against the full 81-book corpus.
+ * How many verses the whole in-scope corpus declares — every `\v` marker
+ * across every in-scope USFM file, counted directly and independently of
+ * `tokenize.ts`/`segmentVerses.ts`.
  */
 export const VERSES_IN_CORPUS = 38058;
 
 /**
- * How many chapters the whole in-scope WEBUS2020 corpus declares — every
- * `\c` marker, counted the same independent way. **1,402, not 1,189** —
- * plus 213 real deuterocanon chapters.
+ * How many chapters the whole in-scope corpus declares — every `\c`
+ * marker, counted the same independent way.
  */
 export const CHAPTERS_IN_CORPUS = 1402;
 
 /**
  * How many `\p`/`\m`/`\nb`/`\li1`/`\pi1`/`\mi` (paragraph-opening) markers
- * the whole in-scope corpus declares — **9,486**: the 66-book canonical
- * figure (8,372) plus 1,114 more across the 15 deuterocanon books, the
- * identical marker names. `\li1`/`\pi1`/`\mi` (Ezra/Nehemiah/Jeremiah/
- * Daniel's own letter-quoting sections) matter here because a marker
- * outside `PARAGRAPH_MARKER_NAMES` has zero effect on block boundaries —
- * before they joined that set, Ezra 8:2's own three `\li1`-tagged list
- * items would merge into one run-on block with no separation at all.
+ * the whole in-scope corpus declares. `\li1`/`\pi1`/`\mi` (Ezra/Nehemiah/
+ * Jeremiah/Daniel's own letter-quoting sections) matter here because a
+ * marker outside `PARAGRAPH_MARKER_NAMES` has zero effect on block
+ * boundaries — before they joined that set, Ezra 8:2's own three
+ * `\li1`-tagged list items would merge into one run-on block with no
+ * separation at all.
  *
  * **This is the raw source count only — see {@link EMITTED_PARAGRAPH_FLAGS_IN_CORPUS}
  * for the emitted `paragraph: true` count.** The two differ: `\b` (the
@@ -180,27 +169,22 @@ export const PARAGRAPH_MARKERS_IN_CORPUS = 9486;
 /**
  * How many real `paragraph: true` flags the corpus actually emits —
  * measured directly against the real, full-corpus reimport, not derived
- * from {@link PARAGRAPH_MARKERS_IN_CORPUS}. **10,701** — 992 more than the
- * 9,486 raw `\p`/`\m`/`\nb`/`\li1`/`\pi1`/`\mi` markers from `\b`'s own
- * real stanza-break convention (Phase 5), plus 223 more again from
- * Finding 7's own real report: every chapter boundary that opens directly
- * with a bare `\q1`/`\q2`/`\q3` — no `\p`/`\m`, and no `\b` either — now
- * correctly opens its own first real block with `paragraph: true` too,
- * the identical signal Phase 5 already gave the `\b`-adjacent case, via
- * `\c`'s own dispatch rather than `\b`'s — see
- * {@link BREAK_FLAGS_IN_CORPUS}'s own doc comment for the matching drop
- * on the break side of both fixes.
+ * from {@link PARAGRAPH_MARKERS_IN_CORPUS}. Higher than the raw marker
+ * count for two reasons: every real `\b` opens its own following block
+ * with `paragraph: true` (WEB's own real, upstream-confirmed stanza-break
+ * convention — see {@link BREAK_FLAGS_IN_CORPUS} for the matching drop this
+ * causes on the break side), and every chapter boundary that opens directly
+ * with a bare `\q1`/`\q2`/`\q3` — no `\p`/`\m`, and no `\b` either — also
+ * opens its own first real block with `paragraph: true`, the same signal
+ * already given the `\b`-adjacent case, via `\c`'s own dispatch rather than
+ * `\b`'s.
  */
 export const EMITTED_PARAGRAPH_FLAGS_IN_CORPUS = 10701;
 
 /**
  * How many `\q1`/`\q2`/`\q3`/`\b` (poetry-line/stanza-break) markers the
- * whole in-scope corpus declares — **24,408**: the 66-book canonical
- * figure (19,616, with zero real `\q3`) plus 4,792 more across the 15
- * deuterocanon books — including this corpus's own first real `\q3` (7
- * instances), already a member of `BREAK_MARKER_NAMES`, needing no new
- * code. This is the *raw source* count, not the emitted flag count — see
- * {@link BREAK_FLAGS_IN_CORPUS}.
+ * whole in-scope corpus declares. This is the *raw source* count, not the
+ * emitted flag count — see {@link BREAK_FLAGS_IN_CORPUS}.
  */
 export const BREAK_MARKERS_IN_CORPUS = 24408;
 
@@ -212,12 +196,12 @@ export const BREAK_MARKERS_IN_CORPUS = 24408;
  * dropped text, or a verse/chapter number between them describe one
  * physical line boundary, and `content-schema.json`'s own `break` flag is
  * a boolean — it can hold that boundary exactly once, never twice. WEB's
- * own `\b`-then-`\q1` "stanza break, then resume" idiom (almost every one
- * of 764 `\b` markers immediately followed by a `\q1`) is the dominant
- * real example; Psalm 1's own opening `\q1`, with no earlier line in the
- * whole book to reach for at all, is the one true no-op. None of this is a
- * lost distinction the schema could otherwise express — poetry's own
- * indent level is already flattened away by this repo's own established
+ * own `\b`-then-`\q1` "stanza break, then resume" idiom — almost every `\b`
+ * marker immediately followed by a `\q1` — is the dominant real example;
+ * Psalm 1's own opening `\q1`, with no earlier line in the whole book to
+ * reach for at all, is the one true no-op. None of this is a lost
+ * distinction the schema could otherwise express — poetry's own indent
+ * level is already flattened away by this repo's own established
  * convention, and "how many consecutive line-marker events fired" was
  * never something `break: true` could carry either.
  *
@@ -229,32 +213,28 @@ export const BREAK_MARKERS_IN_CORPUS = 24408;
  * `break: true` flag than an ordinary poetry-line marker would, on top of
  * the "two markers, one boundary" collapsing described above.
  *
- * A third reason, per Finding 7: at every real chapter boundary that
+ * A third reason: at every real chapter boundary that
  * opens directly with a bare `\q1`/`\q2`/`\q3` — with or without a `\b`
  * — the *previous* chapter's own last real block no longer gains a
  * spurious `break: true` from the corpus's own bare-`\qN`-reaches-
  * backward idiom crossing the chapter boundary, the identical clean cut
  * `\b` already gave that same line where a real `\b` happens to precede
  * `\c`.
- *
- * **22,123**, re-measured directly against a real, full-corpus reimport
- * — 220 fewer than the prior 22,343, the matching drop on the break side
- * of Finding 7's own fix.
  */
 export const BREAK_FLAGS_IN_CORPUS = 22123;
 
 /**
  * How many `\wj`/`\wj*` markers the whole in-scope corpus declares — both
  * halves of every pair, measured directly, independently of
- * `tokenize.ts`/`segmentVerses.ts` — **4,580**, unchanged at the 81-book
- * scope: zero `\wj` markers occur anywhere in the 15 deuterocanon books
- * (confirmed directly, not assumed), since Words of Christ is a New
- * Testament, Gospel-quotation-specific construct and every deuterocanon
- * book is Old Testament apocrypha or intertestamental narrative.
+ * `tokenize.ts`/`segmentVerses.ts`. Zero `\wj` markers occur anywhere in
+ * the deuterocanon books (confirmed directly, not assumed), since Words of
+ * Christ is a New Testament, Gospel-quotation-specific construct and every
+ * deuterocanon book is Old Testament apocrypha or intertestamental
+ * narrative.
  */
 export const WOC_MARKERS_IN_CORPUS = 4580;
 
-/** How many source `\wj`...`\wj*` pairs the whole in-scope corpus declares — half of {@link WOC_MARKERS_IN_CORPUS}, i.e. **2,290**. This is *not* the number of `marks: ["woc"]` runs the emitted corpus ends up with — see {@link countEmittedMarkRuns}'s own doc comment and {@link WOC_RUNS_IN_CORPUS} for the reason the two differ. */
+/** How many source `\wj`...`\wj*` pairs the whole in-scope corpus declares — half of {@link WOC_MARKERS_IN_CORPUS}. This is *not* the number of `marks: ["woc"]` runs the emitted corpus ends up with — see {@link countEmittedMarkRuns}'s own doc comment and {@link WOC_RUNS_IN_CORPUS} for the reason the two differ. */
 export const WOC_SPANS_IN_CORPUS = 2290;
 
 /**
@@ -275,14 +255,14 @@ export const WOC_RUNS_IN_CORPUS = 2077;
 /**
  * How many `\qs`/`\qs*` markers the whole in-scope corpus declares — both
  * halves of every pair, measured directly, independently of
- * `tokenize.ts`/`segmentVerses.ts` — **148**, unchanged at the 81-book
- * scope: zero `\qs` markers occur anywhere in the 15 deuterocanon books
- * (confirmed directly), since Selah is a Psalms-specific liturgical marker
- * and the one deuterocanon psalm (Psalm 151, `PS2`) carries none.
+ * `tokenize.ts`/`segmentVerses.ts`. Zero `\qs` markers occur anywhere in
+ * the deuterocanon books (confirmed directly), since Selah is a
+ * Psalms-specific liturgical marker and the one deuterocanon psalm (Psalm
+ * 151, `PS2`) carries none.
  */
 export const SELAH_MARKERS_IN_CORPUS = 148;
 
-/** How many Selah instances (`\qs`...`\qs*`) the whole in-scope corpus declares — half of {@link SELAH_MARKERS_IN_CORPUS}, i.e. **74**. Every one is its own short, self-contained "Selah." aside with no footnote ever interrupting it, so — unlike {@link WOC_SPANS_IN_CORPUS} — this figure equals the emitted run count exactly: 74 raw instances, 74 emitted `marks: ["i"]` runs. This counts `\qs` alone — see {@link VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS} for the figure {@link countEmittedMarkRuns}'s own blanket, source-agnostic scan is actually checked against. */
+/** How many Selah instances (`\qs`...`\qs*`) the whole in-scope corpus declares — half of {@link SELAH_MARKERS_IN_CORPUS}. Every one is its own short, self-contained "Selah." aside with no footnote ever interrupting it, so — unlike {@link WOC_SPANS_IN_CORPUS} — this figure equals the emitted run count exactly. This counts `\qs` alone — see {@link VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS} for the figure {@link countEmittedMarkRuns}'s own blanket, source-agnostic scan is actually checked against. */
 export const SELAH_MARKS_IN_CORPUS = 74;
 
 /**
@@ -290,24 +270,22 @@ export const SELAH_MARKS_IN_CORPUS = 74;
  * level of ordinary verse content — {@link countEmittedMarkRuns}'s own
  * scan has no way to distinguish which construct produced a given run, so
  * this is the sum of every real source for one, not {@link
- * SELAH_MARKS_IN_CORPUS} alone: 74 from real `\qs` Selah instances, plus 1
- * more from Numbers 21:14's own real `\bk` book-title citation (Finding
- * 6) — **75**. `\add` contributes zero (WEBUS2020's own raw source never
- * carries one), and every deuterocanon `\ip`/Daniel-Greek `\bk` citation
- * lives inside a footnote body, never at this top level, so none of those
- * 28 more real spans (Numbers 21:14 aside) reach this count either — the
- * dedicated Numbers 21:14 check below (using {@link hasAnyMark}) is where
- * that one real verse-level instance is actually verified.
+ * SELAH_MARKS_IN_CORPUS} alone: real `\qs` Selah instances, plus one more
+ * from Numbers 21:14's own real `\bk` book-title citation. `\add`
+ * contributes zero (this corpus's own raw source never carries one), and
+ * every deuterocanon `\ip`/Daniel-Greek `\bk` citation lives inside a
+ * footnote body, never at this top level, so none of those real spans
+ * (Numbers 21:14 aside) reach this count either — the dedicated Numbers
+ * 21:14 check below (using {@link hasAnyMark}) is where that one real
+ * verse-level instance is actually verified.
  */
 export const VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS = SELAH_MARKS_IN_CORPUS + 1;
 
 /**
  * How many `\f`...`\f*` footnote spans the whole in-scope corpus declares —
- * counted directly, independently of `tokenize.ts`/`segmentVerses.ts` —
- * **1,854**: the 66-book canonical figure (1,130) plus 724 real `\f` spans
- * across the 15 deuterocanon books. Of those 724, 9 independently
- * re-classify `xrf` ("nothing but a reference", guide §6) — a shape the
- * canonical corpus never produces — see
+ * counted directly, independently of `tokenize.ts`/`segmentVerses.ts`. Some
+ * of these independently re-classify `xrf` ("nothing but a reference") — a
+ * shape the canonical corpus never produces — see
  * {@link REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} for the count and the
  * fix it required.
  */
@@ -315,26 +293,20 @@ export const FOOTNOTES_IN_CORPUS = 1854;
 
 /**
  * How many raw `\f`-derived footnote bodies, out of {@link FOOTNOTES_IN_CORPUS}'s
- * 1,854, independently re-classify `xrf` — guide §6's "nothing but a
- * reference" test, re-derived here from each raw body via
- * {@link classifyFootnote}. **9**, all in the deuterocanon corpus (zero of
- * the 66 canonical books' 1,127 ever do): Baruch 1:11 ("See Deuteronomy
- * 11:21."), Baruch 2:25 ("See Jeremiah 32:36."), Wisdom 5:7 ("See Proverbs
- * 14:14."), Wisdom 11:4 ("See Deuteronomy 8:15; Psalms 114:8." — two
- * semicolon-joined targets), Sirach 24:15 ("See Exodus 30:34."), Sirach
- * 46:6 ("See Joshua 10:11"), 1 Maccabees 4:40 ("Compare Numbers 31:6."),
- * 1 Maccabees 7:17 ("Psalms 79:2, 3." — no lead-in word at all), 2
- * Maccabees 10:26 ("See Exodus 23:22."). Each resolves to a real
- * `bibleLink` via `usfm/references.ts`'s own `buildReferenceOnlyContent`
- * (every other `xrf` foot in the corpus, save the one
- * deliberately-unresolved Hebrews 1:6 case, carries a `bibleLink`).
+ * total, independently re-classify `xrf` — the "nothing but a reference"
+ * test, re-derived here from each raw body via {@link classifyFootnote}.
+ * Every instance is in the deuterocanon corpus (the canonical books never
+ * produce this shape): e.g. Baruch 1:11's own body, "See Deuteronomy
+ * 11:21.", resolves to a real `bibleLink` via `usfm/references.ts`'s own
+ * `buildReferenceOnlyContent` — every other `xrf` foot in the corpus, save
+ * the one deliberately-unresolved Hebrews 1:6 case, carries a `bibleLink`.
  *
- * These 9 land in the emitted corpus's own `xrf` bucket, not the plain
+ * These land in the emitted corpus's own `xrf` bucket, not the plain
  * `foot` bucket a `\f`-derived body normally lands in, so `main()` below
  * excludes them from the position-paired
  * {@link extractFootnoteBodiesIn}-vs-emitted-`foot`-object comparison —
  * the same adjustment that keeps that walk's two sides the same length,
- * book by book, that {@link INTRO_PARAGRAPHS_IN_CORPUS}'s own 16
+ * book by book, that {@link INTRO_PARAGRAPHS_IN_CORPUS}'s own
  * `\ip`-derived pseudo-footnotes address from the other direction
  * (included rather than excluded).
  */
@@ -342,22 +314,20 @@ export const REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS = 9;
 
 /**
  * How many real `\ip` ("introductory paragraph") blocks the whole in-scope
- * corpus declares — 16, all in the 15 deuterocanon books (Esther-Greek and
- * Sirach each carry two), wired into this whole-corpus loop only once
- * `_version.json` listed these books. Each becomes a real `foot` object on
- * that book's own verse 1:1 — see {@link extractIntroParagraphsIn}.
+ * corpus declares — all in the deuterocanon books, wired into this
+ * whole-corpus loop only once `_version.json` listed these books. Each
+ * becomes a real `foot` object on that book's own verse 1:1 — see
+ * {@link extractIntroParagraphsIn}.
  */
 export const INTRO_PARAGRAPHS_IN_CORPUS = 16;
 
 /**
  * How many real `\+wh`...`\+wh*` pairs (a nested Hebrew-word-quotation
  * marker, always found inside a footnote's own `\ft`/`\fq` prose) the whole
- * in-scope corpus declares — **80**: the 66-book canonical figure (78)
- * plus 2 real pairs in the deuterocanon corpus, both in Daniel-Greek (1:2,
- * 2:31). Every pair produces exactly one emitted `{text, script: "H"}`
- * node (a `\+wh` span is always one contiguous Hebrew word in this corpus,
- * never split by anything else nested inside it), so this is also the
- * real, fixed-in-advance emitted `script: "H"` node count.
+ * in-scope corpus declares. Every pair produces exactly one emitted `{text,
+ * script: "H"}` node (a `\+wh` span is always one contiguous Hebrew word in
+ * this corpus, never split by anything else nested inside it), so this is
+ * also the real, fixed-in-advance emitted `script: "H"` node count.
  */
 export const HEBREW_SCRIPT_RUNS_IN_CORPUS = 80;
 
@@ -365,15 +335,13 @@ export const HEBREW_SCRIPT_RUNS_IN_CORPUS = 80;
  * How many real, contiguous Greek-script runs `splitScriptRuns(body, "G")`
  * finds across every independently-extracted footnote body in the whole
  * in-scope corpus — measured directly against the real corpus, not
- * predicted: **36** — the 66-book canonical figure (35, across 33 distinct
- * footnote bodies; two bodies each carry two separate Greek runs) plus 1
- * real bare-Greek run in the deuterocanon corpus (2 Maccabees 5:24's own
- * "Μυσάρχην" gloss, already tested by `footnotes.test.ts`'s own fixture).
+ * predicted (e.g. 2 Maccabees 5:24's own "Μυσάρχην" gloss, already tested
+ * by `footnotes.test.ts`'s own fixture).
  */
 export const GREEK_SCRIPT_RUNS_IN_CORPUS = 36;
 
 /**
- * How many real footnotes (Psalm 46:0, 90:0, 145:0 — confirmed by direct
+ * How many real footnotes (e.g. Psalm 46:0's own — confirmed by direct
  * measurement, not assumed) sit inside a `\d` Psalm superscription
  * preceding the chapter's own `\v 1`. Each is identified structurally by
  * {@link ExtractedFootnote.precededByUnclosedHeading}, never by matching
@@ -382,62 +350,52 @@ export const GREEK_SCRIPT_RUNS_IN_CORPUS = 36;
  * (Psalm 90:0's own "The Hebrew word rendered 'God' is 'Elohim'" is the
  * exact same wording this book also carries attached normally elsewhere).
  *
- * **Permanently 0, kept rather than deleted so the history stays
- * visible.** All three attach to their own superscription's `subtitle`
+ * Permanently 0: every one attaches to its own superscription's `subtitle`
  * for real (`usfm/headings.ts`'s `buildSuperscriptionContent`/
  * `buildHeadingSpanContent`, reusing `buildFootnoteContent` directly), so
- * every raw `\f` body attaches somewhere and this constant never needs to
- * be subtracted from the position-paired comparison below —
- * {@link SUPERSCRIPTION_FOOTNOTES_IN_CORPUS} backs a positive assertion of
- * the same footnotes instead.
+ * every raw `\f` body attaches somewhere and none needs to be subtracted
+ * from the position-paired comparison below — {@link
+ * SUPERSCRIPTION_FOOTNOTES_IN_CORPUS} backs a positive assertion of the
+ * same footnotes instead.
  */
-export const FOOTNOTES_DEFERRED_TO_PHASE_6 = 0;
+export const FOOTNOTES_EXCLUDED_FROM_CORPUS = 0;
 
 /**
- * Exactly 3 real footnotes (Psalm 46:0/90:0/145:0) sit inside a `\d` Psalm
- * superscription that precedes the chapter's own `\v 1` — confirmed by
- * {@link ExtractedFootnote.precededByUnclosedHeading}'s own structural
- * detection, never by matching fixed body text (see
- * {@link FOOTNOTES_DEFERRED_TO_PHASE_6}'s own doc comment). A plain,
- * positive structural check: these 3 specific footnotes really do sit
- * inside an unclosed heading, and they participate fully in the
- * position-paired comparison below — character-reconciling and
- * classifying correctly like every other footnote in the corpus, not
- * excluded from it.
- *
- * **5**: the 66-book canonical figure (3 — Psalm 46:0/90:0/145:0) plus 2
- * more once the deuterocanon corpus is in view — Psalm 151's own `\d`
- * superscription (`PS2` 1:1, an embedded "or, supernumerary" footnote) and
- * Daniel-Greek's own `\s1` section heading (`DAG` 3:24, "THE SONG OF THE
- * THREE HOLY CHILDREN"). `\s1` dispatches through the identical
- * `buildSpeakerHeading`/`buildHeadingSpanContent` path `\d` itself uses, so
- * the same embedded-footnote handling applies with zero code change —
- * confirmed by reading the real emitted JSON directly, not assumed from
- * the shared code path alone.
+ * How many real footnotes (e.g. Psalm 46:0's own) sit inside a `\d`/`\s1`
+ * Psalm superscription or section heading that precedes the chapter's own
+ * `\v 1` — confirmed by {@link ExtractedFootnote.precededByUnclosedHeading}'s
+ * own structural detection, never by matching fixed body text (see
+ * {@link FOOTNOTES_EXCLUDED_FROM_CORPUS}'s own doc comment). A plain,
+ * positive structural check: these footnotes really do sit inside an
+ * unclosed heading, and they participate fully in the position-paired
+ * comparison below — character-reconciling and classifying correctly like
+ * every other footnote in the corpus, not excluded from it. `\s1`
+ * dispatches through the identical `buildSpeakerHeading`/
+ * `buildHeadingSpanContent` path `\d` itself uses, so the same
+ * embedded-footnote handling applies with zero code change — confirmed by
+ * reading the real emitted JSON directly, not assumed from the shared code
+ * path alone.
  */
 export const SUPERSCRIPTION_FOOTNOTES_IN_CORPUS = 5;
 
 /**
- * Of the 3 footnotes {@link SUPERSCRIPTION_FOOTNOTES_IN_CORPUS} names,
+ * Of the footnotes {@link SUPERSCRIPTION_FOOTNOTES_IN_CORPUS} names,
  * exactly one (Psalm 90:0's own "The Hebrew word rendered 'God' is
  * 'Elohim'") contains a `\+wh`-delimited Hebrew word.
  *
- * **Permanently 0, kept rather than deleted.** Psalm 90:0's own Hebrew
- * word attaches inside its own superscription's `subtitle`, the identical
- * `{text, script: "H"}` shape every other real instance gets — the
- * emitted total equals {@link HEBREW_SCRIPT_RUNS_IN_CORPUS} exactly, with
- * nothing left to subtract.
+ * Permanently 0: that Hebrew word attaches inside its own superscription's
+ * `subtitle`, the identical `{text, script: "H"}` shape every other real
+ * instance gets — the emitted total equals {@link HEBREW_SCRIPT_RUNS_IN_CORPUS}
+ * exactly, with nothing left to subtract.
  */
-export const HEBREW_SCRIPT_RUNS_DEFERRED_TO_PHASE_6 = 0;
+export const HEBREW_SCRIPT_RUNS_EXCLUDED_FROM_CORPUS = 0;
 
 /**
  * How many `\x`...`\x*` cross-reference spans the whole in-scope corpus
  * declares — counted directly by this verifier's own
  * {@link extractCrossReferencesIn}, independent of `tokenize.ts`/
- * `segmentVerses.ts`/`usfm/references.ts`'s own token-walking builder —
- * **363**: the 66-book canonical figure (340) plus 23 real `\x` spans
- * across the deuterocanon corpus (Tobit/Wisdom/1 Esdras/2 Esdras),
- * targeting real canonical books almost exclusively. The sole exception,
+ * `segmentVerses.ts`/`usfm/references.ts`'s own token-walking builder.
+ * Targets real canonical books almost exclusively; the sole exception,
  * Wisdom 14:27's own self-reference to Wisdom 14:21, is resolvable now
  * that Wisdom itself is in-canon (`references.test.ts`'s own out-of-canon
  * fixture for this exact target still tests the rejection path directly,
@@ -447,24 +405,20 @@ export const XREF_SPANS_IN_CORPUS = 363;
 
 /**
  * How many real `bibleLink` nodes the whole in-scope corpus emits *before*
- * the cross-chapter split runs — **449**: the 66-book canonical figure
- * (409, of {@link XREF_SPANS_IN_CORPUS}'s own 340 spans' 410
- * semicolon-split targets, minus {@link UNRESOLVED_XREF_TARGETS_IN_CORPUS}'s
- * 1) plus 30 more from the deuterocanon corpus — 23 raw `\x` spans' worth
- * of targets (several multi-target, all resolving including Wisdom's own
- * now-in-canon self-reference) plus 10 from
- * {@link REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS}'s 9 real `\f`-derived
- * bodies (one, Wisdom 11:4, carries two semicolon-joined targets).
+ * the cross-chapter split runs — every semicolon-split target from every
+ * span {@link XREF_SPANS_IN_CORPUS} counts, plus every real target
+ * {@link REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS}'s bodies resolve to,
+ * minus {@link UNRESOLVED_XREF_TARGETS_IN_CORPUS}'s one unresolved target.
  */
 export const BIBLE_LINKS_IN_CORPUS = 449;
 
 /**
  * How many real `bibleLink` targets a real full import resolves to plain
- * text rather than a link — 1, Hebrews 1:6's own `"Deuteronomy 32:43 LXX"`,
- * a Septuagint-versification siglum suffix `usfm/references.ts`'s own
- * grammar is not confident about (guide §6/§8: "a wrong link is worse than
- * a missing one" — never guessed at). Zero real in-scope targets name a
- * book outside the 81-book canon (checked directly — see
+ * text rather than a link — Hebrews 1:6's own `"Deuteronomy 32:43 LXX"`, a
+ * Septuagint-versification siglum suffix `usfm/references.ts`'s own
+ * grammar is not confident about: a wrong link is worse than a missing one,
+ * so it is never guessed at. Zero real in-scope targets name a book
+ * outside the corpus's own canon (checked directly — see
  * `utils/usfm/__tests__/references.test.ts`'s own real, verbatim,
  * out-of-scope-book sourced fixture for the code path that handles this
  * case when it does occur elsewhere in the wider USFM corpus).
@@ -472,63 +426,53 @@ export const BIBLE_LINKS_IN_CORPUS = 449;
 export const UNRESOLVED_XREF_TARGETS_IN_CORPUS = 1;
 
 /**
- * How many of this corpus's own `bibleLink`s the cross-chapter split
- * (`npm run audit-links <version> -- --fix`) turns into two — exactly 1,
- * the real WEBUS2020 Hebrews 11:34 finding (`"2 Kings 6:31—7:20"`, an
- * em-dash-joined range spanning 2 Kings 6 into 2 Kings 7, normalized to the
- * convention's en dash on split). Checked directly against every one of
- * the 410 real in-scope targets for a genuine `chapter:verse`-to-
- * `chapter:verse` dash shape — this is the only one. A real full import's
- * own final, post-split `bibleLink` node total is this plus
+ * How many of this corpus's own `bibleLink`s the cross-chapter split (part
+ * of `npm run validate`'s own auto-fix pass) turns into two — the real
+ * WEBUS2020 Hebrews 11:34 finding (`"2 Kings 6:31—7:20"`, an em-dash-joined
+ * range spanning 2 Kings 6 into 2 Kings 7, normalized to the convention's
+ * en dash on split) is the only one this corpus carries. A real full
+ * import's own final, post-split `bibleLink` node total is this plus
  * {@link BIBLE_LINKS_IN_CORPUS} — asserted as a relation, never a bare
- * figure (guide §6: a real run never rests in the pre-split state, so a
- * bare figure would break the moment the split actually runs).
+ * figure: a real run never rests in the pre-split state, so a bare figure
+ * would break the moment the split actually runs.
  */
 export const CROSS_CHAPTER_RANGES = 1;
 
 /**
- * How many `\d` markers the whole in-scope corpus declares — 138 of them in
- * `20-PSAeng-web.usfm`, confirmed directly. Splits into
- * {@link ORDINARY_SUPERSCRIPTIONS_IN_CORPUS}
- * (117, → `subtitle`) and {@link ACROSTIC_HEADINGS_IN_CORPUS} (22, → Psalm
- * 119's own letter-name `heading`s) — the identical USFM tag for both, so
+ * How many `\d` markers the whole in-scope corpus declares, confirmed
+ * directly. Splits into {@link ORDINARY_SUPERSCRIPTIONS_IN_CORPUS}
+ * (→ `subtitle`) and {@link ACROSTIC_HEADINGS_IN_CORPUS} (→ Psalm 119's own
+ * letter-name `heading`s) — the identical USFM tag for both, so
  * `usfm/headings.ts`'s `isAcrosticLetterName` is what actually tells them
  * apart, on both the importer's and this verifier's own side.
- *
- * **139, not 138** — plus 1 real `\d` superscription in the
- * deuterocanon corpus, Psalm 151's own (`PS2` 1:1) — the only deuterocanon
- * book with any Psalm-shaped superscription at all.
  */
 export const SUPERSCRIPTIONS_IN_CORPUS = 139;
 
 /**
- * {@link SUPERSCRIPTIONS_IN_CORPUS} minus the 22 real acrostic letter-name
- * markers — 117 ordinary Psalm superscriptions (116 canonical plus Psalm
- * 151's own), each landing as a real `subtitle` on its own psalm's verse 1.
+ * {@link SUPERSCRIPTIONS_IN_CORPUS} minus the real acrostic letter-name
+ * markers — ordinary Psalm superscriptions, each landing as a real
+ * `subtitle` on its own psalm's verse 1.
  */
 export const ORDINARY_SUPERSCRIPTIONS_IN_CORPUS = 117;
 
-/** Psalm 119's own 22 real acrostic letter-name `\d` markers (ALEPH through TAV, including the combined "SIN AND SHIN" entry) — see `usfm/headings.ts`'s own `ACROSTIC_LETTER_NAMES` for the exact, measured list. Unchanged at the 81-book scope: the deuterocanon corpus carries no acrostic Psalm. */
+/** Psalm 119's own real acrostic letter-name `\d` markers (ALEPH through TAV, including the combined "SIN AND SHIN" entry) — see `usfm/headings.ts`'s own `ACROSTIC_LETTER_NAMES` for the exact, measured list. */
 export const ACROSTIC_HEADINGS_IN_CORPUS = 22;
 
-/** The five Psalter book-division `\ms1` markers (BOOK 1 through BOOK 5), confirmed directly, all in `20-PSAeng-web.usfm`. Unchanged at the 81-book scope: the deuterocanon corpus carries no `\ms1` at all. */
+/** The Psalter's own book-division `\ms1` markers (BOOK 1 through BOOK 5), confirmed directly. */
 export const BOOK_DIVISION_HEADINGS_IN_CORPUS = 5;
 
 /**
- * Song of Solomon's own `\sp` speaker labels, confirmed directly, all 33 in
- * `23-SNGeng-web.usfm`. Unchanged at the 81-book scope: the deuterocanon
- * corpus carries no `\sp` at all — {@link SECTION_HEADINGS_IN_CORPUS} is
- * the deuterocanon corpus's own analogous construct (`\s1`), a different
- * raw marker sharing the same emitted `heading` shape (see
- * {@link SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS}).
+ * Song of Solomon's own `\sp` speaker labels, confirmed directly —
+ * {@link SECTION_HEADINGS_IN_CORPUS} is the deuterocanon corpus's own
+ * analogous construct (`\s1`), a different raw marker sharing the same
+ * emitted `heading` shape (see {@link SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS}).
  */
 export const SPEAKER_HEADINGS_IN_CORPUS = 33;
 
 /**
- * Baruch's and Daniel-Greek's own 5 real `\s1` per-pericope section
- * headings (3 in Baruch, 2 in Daniel-Greek) — dispatches through
- * `usfm/headings.ts`'s `buildSpeakerHeading`, the identical function `\sp`
- * itself uses (`usfm/segmentVerses.ts`'s own
+ * Baruch's and Daniel-Greek's own real `\s1` per-pericope section headings
+ * — dispatches through `usfm/headings.ts`'s `buildSpeakerHeading`, the
+ * identical function `\sp` itself uses (`usfm/segmentVerses.ts`'s own
  * `SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES` ternary), so its own emitted
  * `heading` node is indistinguishable in shape from a real `\sp` one — see
  * {@link SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS} for the combined emitted
@@ -537,38 +481,37 @@ export const SPEAKER_HEADINGS_IN_CORPUS = 33;
 export const SECTION_HEADINGS_IN_CORPUS = 5;
 
 /**
- * How many `heading`-shaped nodes (excluding the five `bookDivision`
- * headings, which carry their own distinct shape) the whole in-scope corpus
- * emits — {@link SPEAKER_HEADINGS_IN_CORPUS} (33, from `\sp`) plus
- * {@link SECTION_HEADINGS_IN_CORPUS} (5, from `\s1`) = 38. `\sp` and `\s1`
- * both dispatch through the identical `buildSpeakerHeading` function, and
+ * How many `heading`-shaped nodes (excluding the `bookDivision` headings,
+ * which carry their own distinct shape) the whole in-scope corpus emits —
+ * {@link SPEAKER_HEADINGS_IN_CORPUS} (from `\sp`) plus
+ * {@link SECTION_HEADINGS_IN_CORPUS} (from `\s1`). `\sp` and `\s1` both
+ * dispatch through the identical `buildSpeakerHeading` function, and
  * `content-schema.json` itself has no way to record which raw marker
  * produced a given `heading` node — this verifier's own
  * {@link classifyHeadingNode} correctly buckets both as `"speaker"` (see
- * its own doc comment), so 38 is the only combined figure the emitted JSON
- * can actually be checked against; the two real markers' own separate raw
- * counts above are what distinguish them on the *source* side.
+ * its own doc comment), so this combined figure is the only one the
+ * emitted JSON can actually be checked against; the two real markers' own
+ * separate raw counts above are what distinguish them on the *source*
+ * side.
  */
 export const SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS = 38;
 
 /**
- * Asserted in code rather than left resting on an unverified claim (guide
- * §8: "a full-corpus run reads what the code actually does"): USFM's
+ * Asserted in code rather than left resting on an unverified claim: USFM's
  * table markers (`\tr` table row; `\tc1`-`\tc9`/`\tcr1`-`\tcr9` table
  * cell/right-aligned cell; `\th1`-`\th9`/`\thr1`-`\thr9` table header
- * cell/right-aligned header cell) occur zero times across the 81 in-scope
+ * cell/right-aligned header cell) occur zero times across the in-scope
  * books — confirmed directly by {@link countTableMarkersIn}, not merely
- * assumed from an earlier, wider-corpus recon over the full 83-file
- * source.
+ * assumed from an earlier recon.
  */
 export const TABLE_MARKERS_IN_CORPUS = 0;
 
 /**
  * How many emitted content-tree nodes anywhere in the corpus carry a real
- * `strong` attribute — **0**, a deliberate content decision, not a defect
- * this verifier caught. The importer can still attach every Strong's
- * number a USFM source carries (`strongs: false` only turns that off for
- * this corpus); a quality assessment found 44-56% of this corpus's (and
+ * `strong` attribute — 0, a deliberate content decision, not a defect this
+ * verifier caught. The importer can still attach every Strong's number a
+ * USFM source carries (`strongs: false` only turns that off for this
+ * corpus); a quality assessment found 44-56% of this corpus's (and
  * MSB2025's/ASV1901's) eBible-sourced Strong's tagging semantically
  * implausible — one Strong's number routinely smeared across several
  * unrelated English words in a verse — against under 1% for STEPBible's
@@ -603,27 +546,23 @@ export const STRONGS_ATTRIBUTES_IN_CORPUS = 0;
 
 /**
  * How many verses the whole in-scope MSB2025 corpus's raw source declares —
- * every `\v` marker across all 66 real canonical files, independent of
- * `tokenize.ts`/`segmentVerses.ts`. **31,102** — one fewer than WEB's own
- * 81-book total's unrelated figure. The coincidence with ASV1901's own
- * 31,102 raw `\v` count is real but incidental — the two corpora do not
- * share a versification scheme, they simply agree at this one summary
- * digit.
+ * every `\v` marker across all real canonical files, independent of
+ * `tokenize.ts`/`segmentVerses.ts`. The coincidence with ASV1901's own raw
+ * `\v` count is real but incidental — the two corpora do not share a
+ * versification scheme, they simply agree at this one summary digit.
  */
 export const MSB2025_RAW_VERSES_IN_CORPUS = 31102;
 
 /**
- * How many verse *records* the real importer emits for MSB2025 — 4 fewer
- * than {@link MSB2025_RAW_VERSES_IN_CORPUS}. Luke 17:36 and Acts 8:37/15:34/
- * 24:7 are real, traditionally-numbered, textually-disputed verses this
- * source still declares (a bare `\v N` with nothing at all following it,
- * not even a footnote — MSB2025 carries zero `\f`/`\x` anywhere) but
- * supplies no content for. `imports/guide.md`'s own already-established
- * rule for exactly this shape ("Omitted textual variants... Emit no verse
- * record at all") applies: `segmentVerses.ts`'s own `flush()` now skips
+ * How many verse *records* the real importer emits for MSB2025 — fewer
+ * than {@link MSB2025_RAW_VERSES_IN_CORPUS}. A real, traditionally-numbered,
+ * textually-disputed verse this source still declares (e.g. Luke 17:36 — a
+ * bare `\v N` with nothing at all following it, not even a footnote —
+ * MSB2025 carries zero `\f`/`\x` anywhere) but supplies no content for
+ * gets no verse record at all: `segmentVerses.ts`'s own `flush()` skips
  * pushing a record when a verse's real content is nothing at all, rather
  * than falling back to a schema-invalid empty block — a real, generic gap
- * this phase's own full-corpus run surfaced for the first time (WEB's own
+ * this corpus's own full-corpus run surfaced for the first time (WEB's own
  * disputed verses always carry at least a footnote explaining the
  * omission, so this branch was dead code for that corpus until now).
  */
@@ -634,11 +573,11 @@ export const MSB2025_CHAPTERS_IN_CORPUS = 1189;
 
 /**
  * How many raw `\m` markers the whole in-scope MSB2025 corpus declares —
- * **exactly equal to {@link MSB2025_RAW_VERSES_IN_CORPUS}**, not merely
- * close to it: every single `\v` in this corpus is immediately preceded by
- * its own bare `\m`, corpus-wide, with zero `\p`/`\nb`/`\q1`-`\q3`/`\b`
- * anywhere. This constant is about the *raw source* only — it no longer
- * implies the emitted `paragraph: true` count matches it too, now that
+ * exactly equal to {@link MSB2025_RAW_VERSES_IN_CORPUS}, not merely close
+ * to it: every single `\v` in this corpus is immediately preceded by its
+ * own bare `\m`, corpus-wide, with zero `\p`/`\nb`/`\q1`-`\q3`/`\b`
+ * anywhere. This constant is about the *raw source* only — it does not
+ * imply the emitted `paragraph: true` count matches it too, now that
  * `usfm/paragraphNoise.ts` suppresses the emitted flag down to each
  * chapter's own first verse (see
  * {@link MSB2025_EMITTED_PARAGRAPH_FLAGS_IN_CORPUS}).
@@ -647,14 +586,13 @@ export const MSB2025_RAW_PARAGRAPH_MARKERS_IN_CORPUS = 31102;
 
 /**
  * How many emitted `paragraph: true` flags the real MSB2025 corpus
- * carries — **exactly equal to {@link MSB2025_CHAPTERS_IN_CORPUS}**, one
- * per chapter, not an incidental near-match. This corpus's real shape —
- * one bare `\m` before every surviving verse, never rare — meant the
- * plain paragraph-marker rule (`PARAGRAPH_MARKER_NAMES` already includes
- * `"m"`, added for WEB's own 80 rare instances) would otherwise put
- * `paragraph: true` on literally every verse's sole block: source noise
- * from the eBible export's own line-formatting tool, not real per-verse
- * paragraph structure. `usfm/paragraphNoise.ts`'s own
+ * carries — exactly equal to {@link MSB2025_CHAPTERS_IN_CORPUS}, one per
+ * chapter, not an incidental near-match. This corpus's real shape — one
+ * bare `\m` before every surviving verse, never rare — meant the plain
+ * paragraph-marker rule (`PARAGRAPH_MARKER_NAMES` already includes `"m"`)
+ * would otherwise put `paragraph: true` on literally every verse's sole
+ * block: source noise from the eBible export's own line-formatting tool,
+ * not real per-verse paragraph structure. `usfm/paragraphNoise.ts`'s own
  * `suppressUniformParagraphNoise`, wired into `utils/importUsfm.ts`'s real
  * write path, detects this exact 100%-uniform, zero-exception shape and
  * strips the flag down to each chapter's own first verse — which is what
@@ -668,12 +606,12 @@ export const MSB2025_EMITTED_BREAK_FLAGS_IN_CORPUS = 0;
 
 /**
  * How many emitted content-tree nodes anywhere in the real MSB2025 corpus
- * carry a real `strong` attribute — **0**, the identical deliberate content
+ * carry a real `strong` attribute — 0, the identical deliberate content
  * decision {@link STRONGS_ATTRIBUTES_IN_CORPUS}'s own doc comment explains
- * in full for WEBUS2020. MSB2025 previously carried 648,488 such nodes (one
- * per raw `\w` span — this source's own Strong's tagging never merges
- * adjacent words the way WEBUS2020's does) before being regenerated with
- * `strongs: false` for the identical reason.
+ * in full for WEBUS2020. MSB2025 previously carried one such node per raw
+ * `\w` span (this source's own Strong's tagging never merges adjacent
+ * words the way WEBUS2020's does) before being regenerated with `strongs:
+ * false` for the identical reason.
  */
 export const MSB2025_EMITTED_STRONG_ATTRIBUTES_IN_CORPUS = 0;
 
@@ -733,13 +671,9 @@ export interface BlockMarkerCounts {
  * this file. `\li1`/`\pi1`/`\mi` (Ezra/Nehemiah's own embedded-letter
  * formatting) join this count — see
  * {@link PARAGRAPH_MARKERS_IN_CORPUS}'s own doc comment for the real gap
- * this closes. Naming them as whole alternatives, each still anchored by
- * the trailing `\b`, is what keeps `\p`'s own alternative from
- * accidentally matching just the leading "p" of "pi1" — a letter-to-letter
- * boundary is never a word boundary, so `\p\b` alone already cannot match
- * mid-word there either way, but spelling out `pi1` as its own full
- * alternative is the direct, unambiguous way to count it, not an
- * incidental side effect of the anchor.
+ * this closes. Each is spelled out as its own alternative, not folded into
+ * a broader pattern, for direct and unambiguous counting — the trailing
+ * `\b` alone already rules out a partial match like `\p` inside `pi1`.
  */
 export function countBlockMarkersIn(source: string): BlockMarkerCounts {
   const paragraphMarkers = (source.match(/\\(?:p|m|nb|li1|pi1|mi)\b/g) ?? []).length;
@@ -874,7 +808,7 @@ export interface ExtractedFootnote {
    * that precedes the chapter's own `\v 1`, where it attaches to that
    * superscription's own `subtitle` rather than to any verse (see
    * `usfm/headings.ts`'s own `buildHeadingSpanContent`, and
-   * {@link FOOTNOTES_DEFERRED_TO_PHASE_6} for why this needed its own
+   * {@link FOOTNOTES_EXCLUDED_FROM_CORPUS} for why this needed its own
    * detection in the first place). Detected structurally (a backward scan
    * for the nearest marker), never by matching this span's own text
    * against a fixed list — a list of known *bodies* would risk excluding
@@ -930,11 +864,10 @@ const FOOTNOTE_SUB_MARKER_PATTERN = /\\(fr|ft|fqa|fq|fl)\s*/;
 /**
  * Independently extracts every `\f`...`\f*` span in `source`, in source
  * order — a regex of this verifier's own, never `tokenize.ts`/
- * `segmentVerses.ts`/`usfm/footnotes.ts`'s own token-walking builder (guide
- * §5). `\fr`'s own label is dropped (this repo's own already-established
- * convention — a print-pagination artifact, not content the
- * character-reconciliation check should expect
- * to find anywhere in the emitted JSON), and `\+wh`/`\+wh*`'s own delimiter
+ * `segmentVerses.ts`/`usfm/footnotes.ts`'s own token-walking builder.
+ * `\fr`'s own label is dropped (a print-pagination artifact, not content
+ * the character-reconciliation check should expect to find anywhere in the
+ * emitted JSON), and `\+wh`/`\+wh*`'s own delimiter
  * syntax is stripped, keeping the Hebrew characters it wraps (the
  * delimiter itself is markup, not content — the character-reconciliation
  * check cares about the letters, not the backslash-escaped marker name
@@ -960,7 +893,7 @@ export function extractFootnoteBodiesIn(source: string): ExtractedFootnote[] {
     //
     // `\+bk`/`\+bk*` (Daniel-Greek's own nested-form book-title citation)
     // strips the same way: `usfm/footnotes.ts`'s `buildFootnoteContent` now
-    // tags this text `marks: ["i"]` (Finding 6), but the delimiters are
+    // tags this text `marks: ["i"]`, but the delimiters are
     // still markup, not content, so this verifier's plain-text comparison
     // strips them exactly as before. {@link countNestedBkPairsIn} counts
     // these same raw markers independently, for a different purpose.
@@ -996,9 +929,9 @@ export interface ExtractedCrossReference {
 /**
  * Independently extracts every `\x`...`\x*` span in `source`, in source
  * order — a regex of this verifier's own, never `tokenize.ts`/
- * `segmentVerses.ts`/`usfm/references.ts`'s own token-walking builder
- * (guide §5), the identical relationship {@link extractFootnoteBodiesIn}
- * already has to `usfm/footnotes.ts`.
+ * `segmentVerses.ts`/`usfm/references.ts`'s own token-walking builder, the
+ * identical relationship {@link extractFootnoteBodiesIn} already has to
+ * `usfm/footnotes.ts`.
  */
 export function extractCrossReferencesIn(source: string): ExtractedCrossReference[] {
   const results: ExtractedCrossReference[] = [];
@@ -1021,8 +954,8 @@ export function extractCrossReferencesIn(source: string): ExtractedCrossReferenc
  * inserts between a cross-chapter range's own two split halves (that
  * module's own `EN_DASH` — duplicated here as a literal rather than
  * imported, since importing it would mean importing that module's own
- * split-performing code, which this verifier must never call — guide §5).
- * Measured directly against the real corpus after a real `--fix` run: the
+ * split-performing code, which this verifier must never call. Measured
+ * directly against the real corpus after a real `--fix` run: the
  * genuine Hebrews 11:34 split leaves exactly this separator behind.
  */
 const XREF_SEPARATOR_STRINGS = new Set(["; ", "–"]);
@@ -1052,8 +985,8 @@ export function countXrefLinkNodes(content: unknown): { links: number; unresolve
  * Recursively collects every `foot` object across one verse's own emitted
  * `content` tree, in document order — descends into a `ContentNested`
  * wrapper's own `content` property, and a `subtitle`/`heading` wrapper's
- * own value too. This is what lets the 3 real footnotes embedded inside a
- * Psalm superscription (Psalm 46:0/90:0/145:0) be found at all: each one
+ * own value too. This is what lets the real footnotes embedded inside a
+ * Psalm superscription (e.g. Psalm 46:0's own) be found at all: each one
  * sits inside a `{subtitle: [...]}` node's own array.
  */
 function collectFootnotes(content: unknown, sink: { type: unknown; content: unknown }[]): void {
@@ -1184,11 +1117,11 @@ export interface ExtractedSuperscription {
 }
 
 /**
- * Matches one whole `\d`...`\q1` span — every one of the 139 real in-scope
- * `\d` markers is followed by `\q1`, confirmed directly (not assumed) by
- * walking the raw source past every embedded `\w`/`\+w`/`\f` sub-span to
- * find each one's own real terminating marker. A regex of this verifier's
- * own, never `tokenize.ts`/`usfm/headings.ts`'s own token-walking
+ * Matches one whole `\d`...`\q1` span — every real in-scope `\d` marker is
+ * followed by `\q1`, confirmed directly (not assumed) by walking the raw
+ * source past every embedded `\w`/`\+w`/`\f` sub-span to find each one's
+ * own real terminating marker. A regex of this verifier's own, never
+ * `tokenize.ts`/`usfm/headings.ts`'s own token-walking
  * `buildHeadingSpanContent` (which stops at *any* marker, not just `\q1` —
  * the more general rule the importer needs since `\sp` can also end at
  * `\p`; this verifier only ever needs the one real shape `\d` itself
@@ -1199,7 +1132,7 @@ const SUPERSCRIPTION_SPAN_PATTERN = /\\d[ \t]+(.*?)\\q1\b/gs;
 /**
  * Independently extracts every `\d` span's own plain text, in source order
  * — a regex of this verifier's own, never `usfm/headings.ts`'s
- * `buildHeadingSpanContent` (guide §5).
+ * `buildHeadingSpanContent`.
  */
 export function extractSuperscriptionsIn(source: string): ExtractedSuperscription[] {
   const results: ExtractedSuperscription[] = [];
@@ -1217,9 +1150,9 @@ export function extractSuperscriptionsIn(source: string): ExtractedSuperscriptio
 }
 
 /**
- * Matches one whole `\s1`...`\p` span — every one of the 5 real
- * in-scope `\s1` markers is followed by `\p`, confirmed directly against the
- * real `47-BAReng-web.usfm`/`66-DAGeng-web.usfm` source, the identical
+ * Matches one whole `\s1`...`\p` span — every real in-scope `\s1` marker is
+ * followed by `\p`, confirmed directly against the real
+ * `47-BAReng-web.usfm`/`66-DAGeng-web.usfm` source, the identical
  * "confirmed directly, not assumed" discipline {@link SUPERSCRIPTION_SPAN_PATTERN}'s
  * own `\d`...`\q1` shape already established for its own construct.
  */
@@ -1228,7 +1161,7 @@ const SECTION_HEADING_SPAN_PATTERN = /\\s1[ \t]+(.*?)\\p\b/gs;
 /**
  * Independently extracts every `\s1` span's own plain text, in source order
  * — a regex of this verifier's own, never `usfm/headings.ts`'s
- * `buildHeadingSpanContent` (guide §5). Reuses {@link ExtractedSuperscription}
+ * `buildHeadingSpanContent`. Reuses {@link ExtractedSuperscription}
  * rather than a second, near-identical interface — the shape ("this span's
  * own plain text, embedded footnote already stripped") is exactly the same
  * one `\d` already needed; only the `\w`-tag-stripping step is dropped, since
@@ -1258,7 +1191,7 @@ export function countNestedBkPairsIn(source: string): number {
 }
 
 /** Raw `\pc`/`\cp`/`\is1` marker counts for one book — real, in-scope, single-instance constructs each needing its own explicit chrome-drop accounting (`usfm/segmentVerses.ts`'s own `CHROME_DROPPED_MARKER_NAMES`), distinct from `\cl`'s own already-established count above. `\ide` joins none of these: it is already a member of {@link CHROME_MARKER_NAMES} (a front-matter marker every book in this corpus carries once), needing no new count of its own. */
-export interface Phase9ChromeMarkerCounts {
+export interface ChromeMarkerCounts {
   /** Raw `\pc` occurrences (2 Maccabees' own decorative dash divider). */
   readonly pc: number;
   /** Raw `\cp` occurrences (Psalm 151's own chapter-number override). */
@@ -1275,7 +1208,7 @@ export interface Phase9ChromeMarkerCounts {
  * word boundary either way, but the two marker names share no common prefix
  * at all, so this is stated for completeness rather than a real risk).
  */
-export function countPhase9ChromeMarkersIn(source: string): Phase9ChromeMarkerCounts {
+export function countChromeMarkersIn(source: string): ChromeMarkerCounts {
   return {
     pc: (source.match(/\\pc\b/g) ?? []).length,
     cp: (source.match(/\\cp\b/g) ?? []).length,
@@ -1289,8 +1222,8 @@ export function countPhase9ChromeMarkersIn(source: string): Phase9ChromeMarkerCo
  * marker names `tokenize.ts`'s own `PAIRED_MARKER_NAMES` treats as inline
  * (`usfm/footnotes.ts`'s own `buildIntroParagraphFootnote` stops at the
  * next `"marker"`-type token, which a paired marker's own open/close token
- * never is). Restated here as this verifier's own independent fact (guide
- * §5 — a small, individually-checkable name list, not a parsing mechanism)
+ * never is). Restated here as this verifier's own independent fact — a
+ * small, individually-checkable name list, not a parsing mechanism —
  * rather than imported from `tokenize.ts` itself.
  */
 const IP_INLINE_MARKER_NAMES = new Set(["w", "wh", "wj", "f", "x", "bk", "qs"]);
@@ -1301,11 +1234,10 @@ const IP_INLINE_MARKER_NAMES = new Set(["w", "wh", "wj", "f", "x", "bk", "qs"]);
  * `usfm/footnotes.ts`'s token-walking `buildIntroParagraphFootnote`. An
  * `\ip` block's own real boundary is the next marker that is *not* one of
  * {@link IP_INLINE_MARKER_NAMES}'s own paired inline forms — confirmed
- * against all 16 real in-scope instances (14 end at `\c`, Esther-Greek's
- * own first block ends at its own second `\ip`, Sirach's own first block
- * ends at `\is1`); inline delimiters (`\bk`/`\bk*` and their `+`-nested
- * forms) are stripped, matching the emitted footnote's own plain-text
- * shape.
+ * against every real in-scope instance (most end at `\c`; a couple of
+ * deuterocanon exceptions end at a second `\ip` or `\is1` instead); inline
+ * delimiters (`\bk`/`\bk*` and their `+`-nested forms) are stripped,
+ * matching the emitted footnote's own plain-text shape.
  *
  * Returned as {@link ExtractedFootnote}s (`precededByUnclosedHeading`
  * always `false` — a real `\ip` block always sits in front matter, before
@@ -1405,12 +1337,12 @@ export function collectHeadingBlocks(content: unknown, sink: HeadingKind[]): voi
 
 /**
  * `true` when the real, single in-scope `\cl` span — everything between
- * `\cl` and the next `\c` marker — carries nothing but plain chrome text
- * (guide §6: "deleting a container deletes its contents," checked
- * directly rather than assumed). Any backslash anywhere in that whole
- * span (a footnote, a Strong's tag, anything else USFM might have hidden
- * inside it) fails this check outright — the span is required to be
- * nothing but plain prose, not merely to start with some.
+ * `\cl` and the next `\c` marker — carries nothing but plain chrome text.
+ * Dropping a container as chrome must not silently discard whatever it
+ * hosts, so this is checked directly rather than assumed. Any backslash
+ * anywhere in that whole span (a footnote, a Strong's tag, anything else
+ * USFM might have hidden inside it) fails this check outright — the span
+ * is required to be nothing but plain prose, not merely to start with some.
  */
 export function clSpanHostsNothingButChrome(source: string): boolean {
   const match = /\\cl\b([\s\S]*?)\\c\b/.exec(source);
@@ -1463,21 +1395,6 @@ interface EmittedVerse {
 }
 
 /**
- * The whole-corpus marker-inventory sweep (guide §5's character-
- * reconciliation harness applied one level up — not to a footnote's own
- * body, but to the *whole marker inventory*): every backslash-escaped
- * marker name this verifier finds anywhere in the 81 in-scope books must
- * fall into one of three named buckets, or be reported by name as a real
- * bug, never silently absorbed.
- *
- * `\+w`/`\+wh`'s own `+`-nested form is folded into `w`/`wh` here (the
- * identical equivalence `tokenize.ts`'s own `MARKER_PATTERN` already
- * establishes for the importer — this is the one static grammar fact, not
- * a parsing mechanism, both sides are supposed to agree on) — see
- * {@link markerNamesIn}.
- */
-
-/**
  * Every marker name this importer's own token dispatch gives real content
  * handling to — verse/chapter boundaries, every paired marker
  * `tokenize.ts` itself recognizes, every paragraph-opening and
@@ -1486,14 +1403,14 @@ interface EmittedVerse {
  * `usfm/references.ts` each consume directly.
  *
  * Exported so a test can assert bucket membership directly — this file's
- * own design principle (guide §5) is full independent testability, not just
- * exercise via the `main()` CLI, the same reason {@link extractHeadingMarkersIn}
+ * own design principle is full independent testability, not just exercise
+ * via the `main()` CLI, the same reason {@link extractHeadingMarkersIn}
  * and every other extraction function here is already exported.
  *
  * A few names belong here for less obvious reasons: `s1` is a real
- * per-pericope section heading once the deuterocanon corpus is in view,
- * not the zero-occurrence marker it is in the 66-book canon alone (see
- * {@link CONFIRMED_ZERO_MARKER_NAMES}); `fl` is a footnote sub-marker,
+ * per-pericope section heading in the deuterocanon corpus, not a
+ * zero-occurrence marker (see {@link CONFIRMED_ZERO_MARKER_NAMES}); `fl` is
+ * a footnote sub-marker,
  * joining `fr`/`ft`/`fq`/`fqa` in the same bucket for the identical
  * reason; `ip` is the textless-leading-footnote construct (see
  * {@link extractIntroParagraphsIn}), a real content handler in its own
@@ -1550,10 +1467,9 @@ export const CONTENT_HANDLED_MARKER_NAMES = new Set([
  * `pc` (2 Maccabees' own decorative dash divider), `cp` (Psalm 151's own
  * chapter-number override), and `is1` (Sirach's/Esther-Greek's own bare
  * section-title labels for the `\ip` prose that follows) are real,
- * in-scope, chrome-worthy markers only once the deuterocanon corpus is in
- * view — none occur in the 66-book canon alone. `s1`, despite looking like
- * a similar chrome-only heading label, is content-handled instead (see
- * {@link CONTENT_HANDLED_MARKER_NAMES}).
+ * in-scope, chrome-worthy markers confined to the deuterocanon corpus.
+ * `s1`, despite looking like a similar chrome-only heading label, is
+ * content-handled instead (see {@link CONTENT_HANDLED_MARKER_NAMES}).
  */
 export const CHROME_MARKER_NAMES = new Set([
   "cl",
@@ -1573,18 +1489,16 @@ export const CHROME_MARKER_NAMES = new Set([
 
 /**
  * Markers confirmed, by direct corpus measurement, to occur zero times
- * across the 81 in-scope books — asserted as a real, executed check below
- * (guide §8: "a full-corpus run reads what the code actually does," not
- * recon trusted blindly).
+ * across the in-scope books — asserted as a real, executed check below,
+ * not recon trusted blindly.
  *
  * Exported for the same test-visibility reason
  * {@link CONTENT_HANDLED_MARKER_NAMES} is.
  *
  * Only `ili`/`k` remain here — both real USFM markers this tokenizer's own
- * supported grammar could in principle carry, confirmed zero across all 15
- * deuterocanon files too, not just the 66 canonical ones. `fl`/`ip`/`s1`/
- * `pc`/`cp`/`is1` look like similarly rare candidates but are not zero once
- * the deuterocanon corpus is in view — see
+ * supported grammar could in principle carry, confirmed zero across every
+ * in-scope file. `fl`/`ip`/`s1`/`pc`/`cp`/`is1` look like similarly rare
+ * candidates but are not actually zero — see
  * {@link CONTENT_HANDLED_MARKER_NAMES}/{@link CHROME_MARKER_NAMES} for
  * where each is actually handled.
  */
@@ -1737,9 +1651,10 @@ function main(): void {
     // Footnotes are compared position-paired below, not just totalled:
     // since both the importer's own walk and this verifier's own regex
     // read the book strictly front to back, the Nth raw span and the Nth
-    // emitted `foot` object are the same footnote — including the 3 that
-    // sit inside a `\d` superscription's own subtitle (see
-    // {@link SUPERSCRIPTION_FOOTNOTES_IN_CORPUS}), none excluded.
+    // emitted `foot` object are the same footnote — including the ones
+    // that sit inside a `\d`/`\s1` superscription or section heading's own
+    // subtitle/heading (see {@link SUPERSCRIPTION_FOOTNOTES_IN_CORPUS}),
+    // none excluded.
     const rawFootnotes = extractFootnoteBodiesIn(source);
     const superscriptionFootnoteCount = rawFootnotes.filter((footnote) => footnote.precededByUnclosedHeading).length;
 
@@ -1856,7 +1771,7 @@ function main(): void {
     }
 
     // Emitted counts — classified from the already-built JSON, never from
-    // `usfm/blockStructure.ts`'s own construction code (guide §5).
+    // `usfm/blockStructure.ts`'s own construction code.
     const headingKinds: HeadingKind[] = [];
     for (const verse of emitted) collectHeadingBlocks(verse.content, headingKinds);
     for (const kind of headingKinds) {
@@ -1866,17 +1781,16 @@ function main(): void {
       else emittedSpeakerHeadingTotal++;
     }
 
-    // Numbers 21:14's own \bk/\bk* citation now gets `marks: ["i"]`
-    // (Finding 6, correcting this verifier's own prior Q4 finding) — the
-    // same mark `\qs`/`\add` already use, with the delimiters still never
+    // Numbers 21:14's own \bk/\bk* citation gets `marks: ["i"]` — the same
+    // mark `\qs`/`\add` already use, with the delimiters still never
     // appearing in the emitted text. Verified below, not assumed: exactly
     // 1 `\bk`/`\bk*` pair exists, and that verse's content is no longer
     // plain text.
     //
-    // The same dispatch also marks 28 more `\bk`/`\+bk` citations
-    // elsewhere in the corpus (inside deuterocanon `\ip` blocks and
-    // Daniel-Greek's own footnotes), but every one lives inside a
-    // `foot.content`, unreachable from this verse-level check or from
+    // The same dispatch also marks other `\bk`/`\+bk` citations elsewhere
+    // in the corpus (inside deuterocanon `\ip` blocks and Daniel-Greek's
+    // own footnotes), but every one lives inside a `foot.content`,
+    // unreachable from this verse-level check or from
     // {@link VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS}'s own scan — a real gap
     // this verifier doesn't cover directly; `footnotes.test.ts` and
     // `segmentVerses.test.ts` cover them at the unit level instead.
@@ -1892,7 +1806,7 @@ function main(): void {
         }
         if (!hasAnyMark(numbers21_14.content)) {
           mismatches.push(
-            "NUM 21:14: expected the \\bk book title's own text to carry marks: [\"i\"] (Finding 6), found none",
+            "NUM 21:14: expected the \\bk book title's own text to carry marks: [\"i\"], found none",
           );
         }
       }
@@ -1969,7 +1883,7 @@ function main(): void {
   }
   if (selahRunTotal !== VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS) {
     mismatches.push(
-      `${selahRunTotal} emitted marks:["i"] run(s) at the top level of verse content across the corpus; ${VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS} are fixed in advance (${SELAH_MARKS_IN_CORPUS} real \\qs Selah instances plus 1 from Numbers 21:14's own \\bk citation, Finding 6)`,
+      `${selahRunTotal} emitted marks:["i"] run(s) at the top level of verse content across the corpus; ${VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS} are fixed in advance (${SELAH_MARKS_IN_CORPUS} real \\qs Selah instances plus 1 from Numbers 21:14's own \\bk citation)`,
     );
   }
   if (footnoteTotal !== FOOTNOTES_IN_CORPUS) {
@@ -1977,7 +1891,7 @@ function main(): void {
   }
   if (deferredFootnoteTotal !== SUPERSCRIPTION_FOOTNOTES_IN_CORPUS) {
     mismatches.push(
-      `${deferredFootnoteTotal} footnote(s) structurally detected inside a \\d/\\s1 superscription/section heading; ${SUPERSCRIPTION_FOOTNOTES_IN_CORPUS} are fixed in advance (Psalm 46:0/90:0/145:0/151:1, Daniel-Greek 3:24) — still a real, positive structural check even though Phase 6 no longer excludes them from pairing`,
+      `${deferredFootnoteTotal} footnote(s) structurally detected inside a \\d/\\s1 superscription/section heading; ${SUPERSCRIPTION_FOOTNOTES_IN_CORPUS} are fixed in advance (Psalm 46:0/90:0/145:0/151:1, Daniel-Greek 3:24) — still a real, positive structural check even though these footnotes are no longer excluded from pairing`,
     );
   }
   if (introParagraphTotal !== INTRO_PARAGRAPHS_IN_CORPUS) {
@@ -1988,21 +1902,21 @@ function main(): void {
       `${referenceOnlyFootnoteTotal} raw \\f body(ies) independently re-classify xrf ("nothing but a reference"); ${REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} are fixed in advance`,
     );
   }
-  // FOOTNOTES_DEFERRED_TO_PHASE_6 is permanently 0 (see its own doc
+  // FOOTNOTES_EXCLUDED_FROM_CORPUS is permanently 0 (see its own doc
   // comment); the message below spells out the two further adjustments
   // this relation makes for REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS and
   // INTRO_PARAGRAPHS_IN_CORPUS.
   if (
     emittedFootnoteTotal !==
-    FOOTNOTES_IN_CORPUS - FOOTNOTES_DEFERRED_TO_PHASE_6 - REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS + INTRO_PARAGRAPHS_IN_CORPUS
+    FOOTNOTES_IN_CORPUS - FOOTNOTES_EXCLUDED_FROM_CORPUS - REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS + INTRO_PARAGRAPHS_IN_CORPUS
   ) {
     mismatches.push(
-      `${emittedFootnoteTotal} emitted foot object(s) across the corpus; ${FOOTNOTES_IN_CORPUS} raw minus ${FOOTNOTES_DEFERRED_TO_PHASE_6} deferred to Phase 6 minus ${REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} reference-only (moved to the xrf bucket) plus ${INTRO_PARAGRAPHS_IN_CORPUS} \\ip-derived = ${FOOTNOTES_IN_CORPUS - FOOTNOTES_DEFERRED_TO_PHASE_6 - REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS + INTRO_PARAGRAPHS_IN_CORPUS} are fixed in advance`,
+      `${emittedFootnoteTotal} emitted foot object(s) across the corpus; ${FOOTNOTES_IN_CORPUS} raw minus ${FOOTNOTES_EXCLUDED_FROM_CORPUS} excluded minus ${REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} reference-only (moved to the xrf bucket) plus ${INTRO_PARAGRAPHS_IN_CORPUS} \\ip-derived = ${FOOTNOTES_IN_CORPUS - FOOTNOTES_EXCLUDED_FROM_CORPUS - REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS + INTRO_PARAGRAPHS_IN_CORPUS} are fixed in advance`,
     );
   }
   if (mapTypeTotal !== 0) {
     mismatches.push(
-      `${mapTypeTotal} emitted foot(s) carry type "map"; this corpus has no source signal for it — 0 are fixed in advance (guide §6: never stretch a guess into existence)`,
+      `${mapTypeTotal} emitted foot(s) carry type "map"; this corpus has no source signal that justifies one — 0 are fixed in advance`,
     );
   }
   if (hebrewPairTotal !== HEBREW_SCRIPT_RUNS_IN_CORPUS) {
@@ -2010,12 +1924,12 @@ function main(): void {
       `${hebrewPairTotal} raw \\+wh...\\+wh* pair(s) across the corpus; ${HEBREW_SCRIPT_RUNS_IN_CORPUS} are fixed in advance`,
     );
   }
-  // HEBREW_SCRIPT_RUNS_DEFERRED_TO_PHASE_6 is permanently 0 (see its own
+  // HEBREW_SCRIPT_RUNS_EXCLUDED_FROM_CORPUS is permanently 0 (see its own
   // doc comment) — this equals HEBREW_SCRIPT_RUNS_IN_CORPUS exactly, no
   // subtraction.
-  if (hebrewNodeTotal !== HEBREW_SCRIPT_RUNS_IN_CORPUS - HEBREW_SCRIPT_RUNS_DEFERRED_TO_PHASE_6) {
+  if (hebrewNodeTotal !== HEBREW_SCRIPT_RUNS_IN_CORPUS - HEBREW_SCRIPT_RUNS_EXCLUDED_FROM_CORPUS) {
     mismatches.push(
-      `${hebrewNodeTotal} emitted script:"H" node(s) across the corpus; ${HEBREW_SCRIPT_RUNS_IN_CORPUS} raw minus ${HEBREW_SCRIPT_RUNS_DEFERRED_TO_PHASE_6} deferred to Phase 6 = ${HEBREW_SCRIPT_RUNS_IN_CORPUS - HEBREW_SCRIPT_RUNS_DEFERRED_TO_PHASE_6} are fixed in advance`,
+      `${hebrewNodeTotal} emitted script:"H" node(s) across the corpus; ${HEBREW_SCRIPT_RUNS_IN_CORPUS} raw minus ${HEBREW_SCRIPT_RUNS_EXCLUDED_FROM_CORPUS} excluded = ${HEBREW_SCRIPT_RUNS_IN_CORPUS - HEBREW_SCRIPT_RUNS_EXCLUDED_FROM_CORPUS} are fixed in advance`,
     );
   }
   if (greekRunTotal !== GREEK_SCRIPT_RUNS_IN_CORPUS) {
@@ -2046,8 +1960,9 @@ function main(): void {
   }
   // Asserted as a relation, never a bare figure (see CROSS_CHAPTER_RANGES's
   // own doc comment): a real run's `regenerateDownstream` always calls
-  // `npm run audit-links <version> -- --fix` before `npm run validate`, so
-  // this verifier never finds the corpus resting in its pre-split state.
+  // `npm run validate`, whose own auto-fix pass performs the cross-chapter
+  // split automatically, so this verifier never finds the corpus resting in
+  // its pre-split state.
   if (bibleLinkNodeTotal !== BIBLE_LINKS_IN_CORPUS + CROSS_CHAPTER_RANGES) {
     mismatches.push(
       `${bibleLinkNodeTotal} emitted bibleLink node(s) across the corpus; ${BIBLE_LINKS_IN_CORPUS} pre-split plus ${CROSS_CHAPTER_RANGES} cross-chapter split(s) = ${BIBLE_LINKS_IN_CORPUS + CROSS_CHAPTER_RANGES} are fixed in advance`,
@@ -2152,10 +2067,10 @@ function main(): void {
     `Words-of-Christ markers: ${wocMarkerTotal} raw (${WOC_SPANS_IN_CORPUS} source spans fixed in advance), ${wocRunTotal} emitted marks:["woc"] run(s) (${WOC_RUNS_IN_CORPUS} fixed in advance)`,
   );
   console.log(
-    `Selah markers: ${selahMarkerTotal} raw (${SELAH_MARKERS_IN_CORPUS} fixed in advance), ${selahRunTotal} emitted marks:["i"] run(s) at the top level of verse content (${VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS} fixed in advance — ${SELAH_MARKS_IN_CORPUS} real Selah instances plus 1 from Numbers 21:14's own \\bk citation, Finding 6)`,
+    `Selah markers: ${selahMarkerTotal} raw (${SELAH_MARKERS_IN_CORPUS} fixed in advance), ${selahRunTotal} emitted marks:["i"] run(s) at the top level of verse content (${VERSE_LEVEL_ITALIC_RUNS_IN_CORPUS} fixed in advance — ${SELAH_MARKS_IN_CORPUS} real Selah instances plus 1 from Numbers 21:14's own \\bk citation)`,
   );
   console.log(
-    `Footnotes: ${footnoteTotal} raw \\f...\\f* span(s) (${FOOTNOTES_IN_CORPUS} fixed in advance) + ${introParagraphTotal} raw \\ip block(s) (${INTRO_PARAGRAPHS_IN_CORPUS} fixed in advance), ${emittedFootnoteTotal} emitted non-xrf foot object(s) — all attached, including ${deferredFootnoteTotal} inside a \\d/\\s1 superscription/section heading (${SUPERSCRIPTION_FOOTNOTES_IN_CORPUS} fixed in advance); ${referenceOnlyFootnoteTotal} raw \\f body(ies) resolve as real references instead (${REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} fixed in advance, Phase 10)`,
+    `Footnotes: ${footnoteTotal} raw \\f...\\f* span(s) (${FOOTNOTES_IN_CORPUS} fixed in advance) + ${introParagraphTotal} raw \\ip block(s) (${INTRO_PARAGRAPHS_IN_CORPUS} fixed in advance), ${emittedFootnoteTotal} emitted non-xrf foot object(s) — all attached, including ${deferredFootnoteTotal} inside a \\d/\\s1 superscription/section heading (${SUPERSCRIPTION_FOOTNOTES_IN_CORPUS} fixed in advance); ${referenceOnlyFootnoteTotal} raw \\f body(ies) resolve as real references instead (${REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} fixed in advance)`,
   );
   console.log(
     `  Type distribution (computed from the real corpus, not fixed in advance): xrf ${typeDistribution.xrf}, var ${typeDistribution.var}, trn ${typeDistribution.trn}, stu ${typeDistribution.stu}, map ${typeDistribution.map} (map is fixed at 0)`,
@@ -2178,7 +2093,7 @@ function main(): void {
     `Speaker/section labels: ${rawSpeakerLabelTotal} raw \\sp marker(s) (${SPEAKER_HEADINGS_IN_CORPUS} fixed in advance) + ${rawSectionHeadingTotal} raw \\s1 marker(s) (${SECTION_HEADINGS_IN_CORPUS} fixed in advance), ${emittedSpeakerHeadingTotal} combined emitted heading node(s) (${SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS} fixed in advance)`,
   );
   console.log(
-    `\\bk citations (Numbers 21:14 plus every deuterocanon \\ip block's own, non-nested form; Finding 6 — now tagged marks: ["i"], not plain text): ${bkMarkerTotal} raw marker(s) (36 fixed in advance); Psalms' own \\cl: ${clMarkerTotal} raw marker(s) (1 fixed in advance)`,
+    `\\bk citations (Numbers 21:14 plus every deuterocanon \\ip block's own, non-nested form; tagged marks: ["i"], not plain text): ${bkMarkerTotal} raw marker(s) (36 fixed in advance); Psalms' own \\cl: ${clMarkerTotal} raw marker(s) (1 fixed in advance)`,
   );
   console.log(
     `Marker-inventory sweep: ${unknownMarkerNames.size} unaccounted-for marker name(s), ${confirmedZeroViolations.length} confirmed-zero marker(s) that turned out not to be zero`,
@@ -2197,7 +2112,7 @@ function main(): void {
   }
 
   console.log(
-    "\nAll checks clean, at the real 81-book scope for the first time (Phase 10): every book's own verse/chapter count round-trips, every paragraph/break flag is accounted for, every Words-of-Christ/Selah run is accounted for, every footnote (including the 5 that sit inside a \\d/\\s1 superscription/section heading, and the 9 that independently re-classify as a real cross-reference instead) character-reconciles with its own real, typed foot object, every \\ip block resolves to a real footnote on its own book's verse 1:1, every cross-reference resolves to a real bibleLink or is accounted for as an explicitly left plain-text target, every heading/subtitle/book-division/speaker-or-section-label construct lands in its own real, classified shape, Numbers 21:14's \\bk citation now carries marks: [\"i\"] rather than plain text (Finding 6), and Psalms' own \\cl is verified rather than assumed, the whole-corpus marker inventory has nothing left unaccounted for, the corpus carries zero USFM table markers, and (the Strong's-tagging follow-up) zero emitted nodes carry a \"strong\" attribute.",
+    "\nAll checks clean, at the real 81-book scope: every book's own verse/chapter count round-trips, every paragraph/break flag is accounted for, every Words-of-Christ/Selah run is accounted for, every footnote (including the 5 that sit inside a \\d/\\s1 superscription/section heading, and the 9 that independently re-classify as a real cross-reference instead) character-reconciles with its own real, typed foot object, every \\ip block resolves to a real footnote on its own book's verse 1:1, every cross-reference resolves to a real bibleLink or is accounted for as an explicitly left plain-text target, every heading/subtitle/book-division/speaker-or-section-label construct lands in its own real, classified shape, Numbers 21:14's \\bk citation carries marks: [\"i\"] rather than plain text, and Psalms' own \\cl is verified rather than assumed, the whole-corpus marker inventory has nothing left unaccounted for, the corpus carries zero USFM table markers, and (the Strong's-tagging follow-up) zero emitted nodes carry a \"strong\" attribute.",
   );
 }
 

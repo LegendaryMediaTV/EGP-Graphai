@@ -15,7 +15,7 @@ import {
   countInlineMarkersIn,
   countMarkersIn,
   countNestedBkPairsIn,
-  countPhase9ChromeMarkersIn,
+  countChromeMarkersIn,
   countScriptNodes,
   countStrongAttributeNodes,
   countTableMarkersIn,
@@ -502,17 +502,17 @@ describe("countNestedBkPairsIn — \\+bk/\\+bk*, an independent regex count of t
   });
 });
 
-describe("countPhase9ChromeMarkersIn — \\pc/\\cp/\\is1, an independent regex count sharing no code with tokenize.ts/segmentVerses.ts", () => {
+describe("countChromeMarkersIn — \\pc/\\cp/\\is1, an independent regex count sharing no code with tokenize.ts/segmentVerses.ts", () => {
   it("should count 2 Maccabees' own real \\pc divider", () => {
-    expect(countPhase9ChromeMarkersIn(readFixture("2-maccabees-1-16-19-pc.usfm"))).toEqual({ pc: 1, cp: 0, is1: 0 });
+    expect(countChromeMarkersIn(readFixture("2-maccabees-1-16-19-pc.usfm"))).toEqual({ pc: 1, cp: 0, is1: 0 });
   });
 
   it("should count Psalm 151's own real \\cp chapter-number override", () => {
-    expect(countPhase9ChromeMarkersIn(readFixture("psalm-151-opening.usfm"))).toEqual({ pc: 0, cp: 1, is1: 0 });
+    expect(countChromeMarkersIn(readFixture("psalm-151-opening.usfm"))).toEqual({ pc: 0, cp: 1, is1: 0 });
   });
 
   it("should count Esther-Greek's own real \\is1, without matching \\ip (a different marker name entirely, not a prefix match)", () => {
-    expect(countPhase9ChromeMarkersIn(readFixture("esther-greek-opening.usfm"))).toEqual({ pc: 0, cp: 0, is1: 1 });
+    expect(countChromeMarkersIn(readFixture("esther-greek-opening.usfm"))).toEqual({ pc: 0, cp: 0, is1: 1 });
   });
 });
 

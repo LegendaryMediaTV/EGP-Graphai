@@ -1,4 +1,3 @@
-#!/usr/bin/env ts-node
 /**
  * Corpus-wide sweep for ways a node's own placement can drift from this
  * repo's leading-vs-trailing-space convention (see `utils/validate.ts`'s
@@ -81,17 +80,25 @@
  * happens to be mid-import at the time.
  *
  * Checks 1-4 and 8-9 recurse into `content` (a `ContentNested` wrapper's own
- * inner array) in addition to `heading`/`subtitle`/`foot.content` —
- * recursing into `foot.content` costs nothing today (no version currently
- * tags `strong` inside a footnote) and is a safe default if a future import
- * ever does.
+ * inner array) in addition to `heading`/`subtitle`/`foot.content` — a safe
+ * default for any future import that tags `strong` inside a footnote.
  *
- * **No curated version list.** With no version named on the command line,
- * this audits every directory under `bible-versions/` — whatever this repo
- * happens to carry, not a hardcoded set. A version with no `strong` values
- * at all (most of them) simply reports zero findings, cheaply.
+ * **No curated version list.** With no version id passed to
+ * {@link auditVersions}, it audits every directory under `bible-versions/` —
+ * whatever this repo happens to carry, not a hardcoded set. A version with no
+ * `strong` values at all simply reports zero findings, cheaply.
  *
- * Read-only. Detects; does not fix.
+ * A detection library, with one caller. Nothing here writes to
+ * `bible-versions/` — every check above only ever reads and reports. This
+ * module carries no `main()`, no command-line argument parsing, and no npm
+ * script of its own; `utils/validate.ts` is the only thing that calls in.
+ * Checks 1, 6, 8, and 9 do get repaired, but not here: their fixes run inside
+ * `validate.ts`'s own auto-fix pass, built from four exported transforms
+ * (`utils/fixUnmergedNodes.ts`, `fixHeadingParagraphs.ts`,
+ * `fixFootnotePunctuationOrder.ts`, `fixMarkBoundaryEmbeddedSpaces.ts`) that
+ * reuse this module's own eligibility functions rather than a second copy of
+ * the judgment. A reader looking for the fix half of any of those four checks
+ * should look there, not here.
  */
 
 import * as fs from "fs";
@@ -123,6 +130,7 @@ export interface VerseRecord {
 // One node's own shape, read once and shared by every check below
 // ---------------------------------------------------------------------------
 
+/** The normalized shape every check in this module reads instead of a raw content-tree node — produced once per node by {@link describeNode} and passed to every predicate/scanner below. */
 export interface NodeShape {
   /** This node's own text, or `undefined` when it has no `text` key at all — a `{heading}`/`{subtitle}`/`{bibleLink}` wrapper, a `ContentNested` wrapper, or a multi-number tag's own textless sibling. */
   text: string | undefined;
@@ -257,8 +265,7 @@ interface PairFinding {
  * with no top-level `text` of its own, so "merging" a connector's text into
  * it would have nowhere to actually land. The run's own first member may
  * carry `opensParagraph`; no later member may — a `paragraph: true` on any
- * member after the first marks a piece boundary strictly inside the run
- * (Genesis 13:11's real corpus case).
+ * member after the first marks a piece boundary strictly inside the run.
  *
  * Concrete case: `{ paragraph: true, text: "In the beginning, " }, { text:
  * "God", foot: {...} }` should merge into one node — the paragraph-opening
@@ -290,16 +297,14 @@ export function canJoinForward(run: readonly NodeShape[], target: NodeShape): bo
  * Deliberately one-directional: a run of untagged connectors with no
  * suffix-carrying node following it — the tail end of a span, or of the
  * verse — is never a finding, no matter how well it agrees in formatting
- * with what precedes it. There's nothing tagged for it to fold into, so
- * it's simply untagged text, not an unmerged pair. A corpus case that looks
- * identical either direction makes the asymmetry concrete: Genesis 1:15
- * KJV1769 ends `{ text: " upon the earth:", strong: "H776" }, " and it was
- * so."` — untagged, trailing, nothing suffix-carrying after it. Folding it
- * backward into `H776` would claim that Strong's number covers "and it was
- * so," which it does not; the identical phrase in Genesis 1:7 carries its
- * own tag (`strong: "H3651"`) — the real defect, when there is one, is a
- * missing tag on the connector, never something this check could recommend
- * merging away.
+ * with what precedes it. There's nothing tagged for it to fold into, so it's
+ * simply untagged text, not an unmerged pair. Real KJV1769 Genesis 1:15
+ * makes the asymmetry concrete: `{ text: " upon the earth:", strong: "H776"
+ * }, " and it was so."` ends untagged and trailing, with nothing
+ * suffix-carrying after it. Folding it backward into `H776` would claim that
+ * Strong's number covers "and it was so," which it does not — the real
+ * defect, when there is one, is a missing tag on the connector, never
+ * something this check could recommend merging away.
  */
 function scanArrayForUnmergedPairs(
   nodes: readonly unknown[],
@@ -479,9 +484,9 @@ function hasUnnormalizedFraction(shape: NodeShape): boolean {
  * detector, not on `normalizeEllipsisText(shape.text).changes > 0`: the
  * rewriter reports no change for a two-period run by design, so a check
  * built on it could never report one either. This check reporting more than
- * the auto-fix rewrites is requirement 4's own detect/auto-fix/report
- * contract working as intended — a future reader must not "align" the two
- * by narrowing this check to match the rewriter.
+ * the auto-fix rewrites is the detect/auto-fix/report split working as
+ * intended, not a bug to reconcile — a future reader must not "align" the
+ * two by narrowing this check to match the rewriter.
  */
 function hasUnnormalizedEllipsis(shape: NodeShape): boolean {
   return shape.text !== undefined && hasEllipsisIndicator(shape.text);
@@ -518,16 +523,10 @@ interface StraightQuoteFinding {
  * character at a time can make that call safely. The retired
  * `imports/fixStraightQuotes.ts` only got away with an unconditional `'` →
  * `’` substitution because a full manual survey first proved its one target
- * version carried no quote-shaped usage at all — every straight apostrophe
- * in it was a possessive or an elision, never a quotation mark — and that is
- * a per-edition finding, true of one translation's own punctuation habits,
- * not a rule this check could apply to every future import regardless of
- * source. The corpus holds zero offending characters today, confirmed by a
- * structural scan of every `text` value and bare string during planning, so
- * this check's job is to catch the next import before it lands, not to
- * describe a present defect. Contrast checks 7 and 10, both of which pair a
- * report with a safe auto-fix: this one has no fixer and never will, because
- * the judgment it asks for cannot be automated away, only surfaced.
+ * version carried no quote-shaped usage at all — a per-edition finding, true
+ * of one translation's own punctuation habits, not a rule this check could
+ * apply to every future import regardless of source. This check exists to
+ * catch the next import before it lands, not to describe a present defect.
  */
 function hasStraightQuote(shape: NodeShape): boolean {
   return shape.text !== undefined && STRAIGHT_QUOTE.test(shape.text);
@@ -674,15 +673,13 @@ interface VerseInitialSpaceFinding {
  * array — never a `ContentNested` wrapper's inner array (an expected shape
  * there: `{content: [" ", {text: "is", marks: ["i"]}, " precious,"],
  * strong: "..."}` is an ordinary mid-sentence insertion) and never past a
- * `heading`/`subtitle` boundary — no heading-prefixed verse in this corpus
- * needs that today.
+ * `heading`/`subtitle` boundary.
  *
- * Two distinct shapes, both WEBUS2020-only in this corpus's current state: a
- * first node that is *entirely* whitespace (a bare `" "`, or Revelation's own
- * recurring `{paragraph: true, text: " "}`, one per chapter-opening verse)
- * and a first node whose own text merely *starts* with whitespace before real
- * content continues (`{paragraph: true, text: " Jesus went out from the
- * temple..."}`, Matthew 24:1).
+ * Two distinct shapes: a first node that is *entirely* whitespace (a bare
+ * `" "`, or `{paragraph: true, text: " "}`) and a first node whose own text
+ * merely *starts* with whitespace before real content continues
+ * (`{paragraph: true, text: " Jesus went out from the temple..."}`, Matthew
+ * 24:1).
  */
 function checkVerseInitialSpace(
   content: unknown,
@@ -713,9 +710,9 @@ function isHeadingOrSubtitle(node: unknown): boolean {
  * through a textless Strong's sibling (`isTextlessStrongSibling`): a node
  * rendering zero characters isn't really "the thing after the heading" from
  * a reader's standpoint, so testing *it* for `paragraph: true` tests the
- * wrong node. Real YLT1898 case: 1 Corinthians 7:1's heading is immediately
- * followed by a textless chapter-summary `{foot: {...}}` node, and only
- * *after* that does the verse's real `{paragraph: true, text: "And
+ * wrong node. Real YLT1898 1 Corinthians 7:1 shows why: its heading is
+ * immediately followed by a textless chapter-summary `{foot: {...}}` node,
+ * and only *after* that does the verse's real `{paragraph: true, text: "And
  * concerning…"}` appear — without this skip, `next` would be the
  * footnote-only node itself, never `paragraph: true` by construction,
  * producing a false finding on a run that is correctly flagged.
@@ -725,10 +722,7 @@ function isHeadingOrSubtitle(node: unknown): boolean {
  * "G1161"}` — a textless connector — directly after its heading, with the
  * real visible text only on the node *after* that. The flag genuinely lives
  * on the textless node here; skipping past it because it renders nothing
- * would silently lose the very signal this check exists to find. A node
- * with no visible text can still be the real paragraph boundary, so this
- * only ever skips a node that is both textless *and* not the boundary
- * itself.
+ * would silently lose the very signal this check exists to find.
  */
 function skipsPastHeadingRun(node: unknown): boolean {
   const shape = describeNode(node);
@@ -767,10 +761,10 @@ export interface HeadingParagraphFinding {
  * skipsPastHeadingRun} node before landing on `next` — see that function's
  * own doc comment for the real corpus case this exists for.
  *
- * Never recurses past a verse's own outermost array: a heading/subtitle
- * never occurs nested inside a `ContentNested` wrapper's own content or a
- * footnote body in this corpus. A run with nothing after it at all reports
- * nothing — there is no node for the convention to apply to.
+ * Never recurses past a verse's own outermost array — check 6 is defined as
+ * a verse-level heading/subtitle convention, not one that reaches into
+ * nested content. A run with nothing after it at all reports nothing —
+ * there is no node for the convention to apply to.
  */
 function findVerseHeadingParagraphMismatches(verse: VerseRecord): HeadingParagraphFinding[] {
   const nodes = asArray(verse.content);
@@ -919,9 +913,8 @@ export function carriesFormatting(shape: NodeShape): boolean {
  * a non-empty subset of the other's, meaning the smaller side is a strict
  * formatting subset of the larger, not a disagreement. Scoped to check 9
  * only, not folded into {@link agreesInFormatting} itself, since checks 1/3/4
- * use that function's exact-equality test and are currently clean
- * corpus-wide; changing its meaning there is a bigger, unjustified blast
- * radius than this one check needs.
+ * use that function's exact-equality test; changing its meaning there is a
+ * bigger, unjustified blast radius than this one check needs.
  *
  * Real YLT1898 case this exists for: a Words-of-Christ node (marks:
  * ["woc"]) bordering a translator-supplied word that is *also* part of
@@ -1146,7 +1139,7 @@ export function findStrongsNodeIssues(
 }
 
 // ---------------------------------------------------------------------------
-// Disk scanning and CLI
+// Disk scanning
 // ---------------------------------------------------------------------------
 
 /** One offending unmerged pair, with its file/verse identity attached. */
@@ -1627,46 +1620,3 @@ export function isClean(summary: VersionAudit): boolean {
   );
 }
 
-/** Prints the whole report: every clean version collapsed into one line, then each version carrying any finding in full via {@link printFindingLines}. */
-function printReport(
-  summaries: readonly VersionAudit[],
-  verbose: boolean,
-): void {
-  const clean = summaries.filter(isClean).map((summary) => summary.version);
-  if (clean.length > 0)
-    console.log(`Clean (no findings): ${clean.join(", ")}\n`);
-
-  for (const summary of summaries) {
-    if (isClean(summary)) continue;
-    console.log(`${summary.version}:`);
-    printFindingLines(summary, verbose);
-    console.log("");
-  }
-}
-
-/**
- * `npm run audit-nodes KJV1769 --verbose` (no `--` before the script's own
- * args) never reaches here as `--verbose` at all: npm's own CLI consumes
- * any `--flag` before a literal `--` separator as its *own* config (here,
- * `--loglevel verbose`) and forwards only `KJV1769` to `process.argv`. npm
- * does expose that consumed setting as the `npm_config_loglevel` env var,
- * so that's checked as a fallback alongside a literal `--verbose` (present
- * when run directly, via `ts-node`, or via `npm run ... -- --verbose`).
- */
-function main(): void {
-  const args = process.argv.slice(2);
-  const verbose =
-    args.includes("--verbose") ||
-    /^(verbose|silly)$/.test(process.env.npm_config_loglevel ?? "");
-  const versionIds = args.filter((arg) => arg !== "--verbose");
-
-  const summaries = auditVersions(
-    versionIds.length > 0 ? versionIds : undefined,
-  );
-  printReport(summaries, verbose);
-  process.exit(exitCodeFor(summaries));
-}
-
-if (require.main === module) {
-  main();
-}

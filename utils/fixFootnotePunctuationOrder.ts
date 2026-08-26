@@ -1,75 +1,44 @@
-#!/usr/bin/env ts-node
 /**
  * Applies `auditNodes.ts`'s own check 8 in the one direction it ever
  * recommends: moves a leading run of tight punctuation off a footed node's
- * real next sibling and onto the end of the footed node's own `text`
- * instead, since `utils/exportContent.ts`'s renderer always places a node's
- * footnote marker in its `suffix`, after that node's own full `core` text
+ * next sibling and onto the end of the footed node's own `text` instead,
+ * since `utils/exportContent.ts`'s renderer always places a node's footnote
+ * marker in its `suffix`, after that node's full `core` text
  * (`RenderedParts` there) — a footnote marker between a word and the
  * punctuation that belongs to the same clause is always wrong; the marker
- * has to render after the punctuation, not before it.
+ * has to render after the punctuation, not before it. `utils/validate.ts`
+ * calls {@link reorderFootnotePunctuationInContent} on every run, with no
+ * flag to opt in or out.
  *
  * The transform looks purely mechanical — move some characters from one
  * node's `text` to another's — but still needs the same kind of
  * human-reviewable judgment `fixUnmergedNodes.ts`'s own check-1 fixer
  * applies, for two independent reasons:
  *
- * 1. **Formatting eligibility.** A footed node and its punctuation-leading
+ * 1. **Formatting eligibility.** A footed node and a punctuation-leading
  *    sibling that disagree in `marks`/`script` (Galatians 3:18: `marks:
- *    ["i"]` vs. a bare, unmarked `"."`) might have stayed split on purpose;
+ *    ["i"]` vs. a bare, unmarked `"."`) may have stayed split on purpose —
  *    absorbing the punctuation without checking would be guessing, the same
- *    bar `canJoinForward` already applies for check 1's own merges. This
- *    script re-derives that exact two-field comparison locally (see
- *    `agreesInFormatting` below) rather than importing `auditNodes.ts`'s own
- *    private function of the same name — only `isRealAttachmentPoint` and
- *    `leadingTightPunctuationSplit` are exported from that module;
- *    `agreesInFormatting` stays private there, so this script keeps its own
- *    copy.
+ *    bar `canJoinForward` already applies for check 1's own merges.
+ *    Re-derived locally as `agreesInFormatting` below rather than imported,
+ *    since `auditNodes.ts` exports `isRealAttachmentPoint` and
+ *    `leadingTightPunctuationSplit` but not this (unexported) function.
  * 2. **Silent data loss.** When the sibling's *entire* text is the
  *    punctuation run, removing the now-empty sibling is only safe when it
  *    carries nothing beyond `text`/`marks`/`script`. A sibling carrying a
  *    real property beyond those three (Matthew 13:35's `break: true`) would
  *    have that property silently discarded by an unconditional delete; this
- *    script refuses and reports the finding as skipped instead.
- *
- * Usage:
- *   npx ts-node utils/fixFootnotePunctuationOrder.ts                 # preview, every version
- *   npx ts-node utils/fixFootnotePunctuationOrder.ts YLT1898         # preview, one version
- *   npx ts-node utils/fixFootnotePunctuationOrder.ts YLT1898 --fix   # write
+ *    module refuses and reports the finding as skipped instead, via its own
+ *    {@link SkipReason}.
  */
 
-import * as fs from "fs";
-import * as path from "path";
-import { getVersionDirectories } from "../functions/getBibleVersions";
-import { sortVerseKeys } from "../functions/sortContentKeys";
-import { writeJsonFile } from "../functions/writeJsonFile";
+import Content from "../types/Content";
 import {
   describeNode,
-  findStrongsNodeIssues,
   isRealAttachmentPoint,
   leadingTightPunctuationSplit,
   NodeShape,
 } from "./auditNodes";
-
-/** Root directory holding one subfolder per Bible version. */
-const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
-
-/** A verse-file's own name: two-digit book order + book id (e.g. `01-GEN.json`) — never `_version.json` or a schema file. */
-const VERSE_FILE_NAME = /^\d{2}-[A-Z0-9]+\.json$/;
-
-/** One verse record as read from a `bible-versions/<version>/*.json` file. */
-interface VerseRecord {
-  /** The verse's own book id (e.g. `GEN`, `MAT`). */
-  book: string;
-  /** The verse's own chapter number. */
-  chapter: number;
-  /** The verse's own verse number. */
-  verse: number;
-  /** The verse's own content tree, read and possibly rewritten by {@link rewriteLevel}. */
-  content: unknown;
-  /** Every other field this script doesn't inspect, carried through unchanged. */
-  [key: string]: unknown;
-}
 
 /**
  * True when two nodes agree closely enough on `marks`/`script` that a
@@ -106,12 +75,12 @@ function withText(node: unknown, text: string): unknown {
   return { ...(node as Record<string, unknown>), text };
 }
 
-/** Why this script declined to act on an otherwise-real check-8 finding. */
-type SkipReason = "eligibility" | "extra-keys";
+/** Why this module declined to act on an otherwise-real check-8 finding. */
+export type SkipReason = "eligibility" | "extra-keys";
 
 /** Running fixed/skipped counts, threaded through recursion and mutated in place — the same sink pattern `auditNodes.ts`'s own `walkLevel` uses for findings. */
 interface FixCounts {
-  /** How many findings this run has fixed (or would fix, in preview mode). */
+  /** How many findings this run has fixed. */
   fixed: number;
   /** One entry per finding this run declined to act on, naming why. */
   skipped: SkipReason[];
@@ -129,15 +98,12 @@ interface FixCounts {
  * consecutive footed/text nodes where the *middle* one is simultaneously the
  * punctuation-leading sibling of the node before it and its own footed node
  * with a punctuation-leading sibling after it. Both hops are genuine,
- * independently-reported findings (the read-only detector never mutates, so
- * it finds each hop against the original array regardless of the other), and
- * fixing them out of order matters: this scan walks over one mutable working
- * copy, left to right, so a node already trimmed of its own leading
- * punctuation (as someone else's sibling, earlier in this same pass) is
- * examined in *that* trimmed state once the loop reaches it as its own `i` —
- * never the other way around, where a later overwrite could silently discard
- * an earlier trim and leave a duplicated punctuation mark on both sides of a
- * boundary.
+ * independently-reported findings, and fixing them out of order matters:
+ * this scan walks one mutable working copy left to right, so a node already
+ * trimmed of its own leading punctuation earlier in the same pass is
+ * examined in that trimmed state — never the other way around, where a
+ * later overwrite could discard an earlier trim and leave a duplicated
+ * punctuation mark on both sides of a boundary.
  */
 function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknown[] {
   const working: unknown[] = [...nodes];
@@ -229,81 +195,28 @@ function rewriteLevel(content: unknown, counts: FixCounts): unknown {
 }
 
 /**
- * CLI entry point: `--fix` writes changes to disk, otherwise previews them.
- * The first non-flag argument names a single version; omitted, every
- * version directory on disk is processed (this module's own top doc
- * comment explains why there's no curated list).
+ * Reorders every check-8-eligible footnote/punctuation pair in one verse's
+ * `content` tree, recursively (`heading`, `subtitle`, a `ContentNested`
+ * wrapper's own `content`, and a footnote body's own `foot.content`,
+ * mirroring `auditNodes.ts`'s own `walkLevel`).
+ *
+ * `changed` reflects `counts.fixed`, not a `JSON.stringify` comparison — a
+ * skip never rewrites anything, so counting the fixes themselves is exact
+ * and cheaper than serializing the tree twice. `skipped` is always returned,
+ * changed or not, so a caller can report what this run declined to act on
+ * even when it fixed nothing else in the same verse.
+ *
+ * @param content - A verse's own `content` value, or any subtree of it
+ * @returns The rewritten tree (the original reference when nothing was
+ *   fixed), whether anything changed, and every finding this run declined to
+ *   act on, with its own {@link SkipReason}
  */
-async function main(): Promise<void> {
-  const args = process.argv.slice(2);
-  const write = args.includes("--fix");
-  const requestedVersion = args.find((arg) => !arg.startsWith("--"));
-  const versions = requestedVersion ? [requestedVersion] : getVersionDirectories();
-
-  let totalFixed = 0;
-  let totalSkipped = 0;
-  let totalVerses = 0;
-
-  for (const version of versions) {
-    const versionDir = path.join(BIBLE_VERSIONS_DIR, version);
-    const files = fs.readdirSync(versionDir).filter((file) => VERSE_FILE_NAME.test(file));
-
-    let versionFixed = 0;
-    let versionSkipped = 0;
-    let versionVerses = 0;
-    const skippedLines: string[] = [];
-
-    for (const file of files) {
-      const filePath = path.join(versionDir, file);
-      const records: VerseRecord[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-      let fileChanged = false;
-
-      for (let i = 0; i < records.length; i++) {
-        const record = records[i];
-        const findingCount = findStrongsNodeIssues(record.content as never).footnotePunctuationOrder.length;
-        if (findingCount === 0) continue;
-
-        const counts: FixCounts = { fixed: 0, skipped: [] };
-        const rewritten = rewriteLevel(record.content, counts);
-
-        if (counts.fixed > 0) {
-          records[i] = sortVerseKeys({ ...record, content: rewritten });
-          versionFixed += counts.fixed;
-          versionVerses++;
-          fileChanged = true;
-        }
-        for (const reason of counts.skipped) {
-          versionSkipped++;
-          skippedLines.push(`    ${record.book} ${record.chapter}:${record.verse} (${file}) skipped — ${reason}`);
-        }
-      }
-
-      if (write && fileChanged) await writeJsonFile(filePath, records);
-    }
-
-    if (versionFixed > 0 || versionSkipped > 0) {
-      const skippedSuffix = versionSkipped > 0 ? `, ${versionSkipped} skipped` : "";
-      console.log(
-        `${version}: ${versionFixed} finding(s) across ${versionVerses} verse(s) ${write ? "fixed" : "would be fixed"}${skippedSuffix}`,
-      );
-      for (const line of skippedLines) console.log(line);
-    }
-
-    totalFixed += versionFixed;
-    totalSkipped += versionSkipped;
-    totalVerses += versionVerses;
-  }
-
-  if (totalFixed === 0 && totalSkipped === 0) {
-    console.log("No footnote-punctuation-order findings found.");
-    return;
-  }
-
-  console.log(`\n${totalFixed} finding(s) across ${totalVerses} verse(s) total, ${totalSkipped} skipped.`);
-  if (!write) console.log("Re-run with --fix to write.");
+export function reorderFootnotePunctuationInContent(
+  content: Content,
+): { content: Content; changed: boolean; skipped: SkipReason[] } {
+  const counts: FixCounts = { fixed: 0, skipped: [] };
+  const rewritten = rewriteLevel(content, counts) as Content;
+  return counts.fixed > 0
+    ? { content: rewritten, changed: true, skipped: counts.skipped }
+    : { content, changed: false, skipped: counts.skipped };
 }
-
-main().catch((error: unknown) => {
-  console.error(error instanceof Error ? error.message : String(error));
-  process.exit(1);
-});
