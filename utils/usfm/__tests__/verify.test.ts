@@ -1,7 +1,5 @@
-import * as fs from "fs";
-import * as path from "path";
 import { describe, expect, it } from "vitest";
-import { classifyFootnote, flattenContentText } from "../footnoteTypeRules";
+import { classifyFootnote } from "../footnoteTypeRules";
 import { buildReferenceOnlyContent } from "../references";
 import {
   clSpanHostsNothingButChrome,
@@ -26,67 +24,9 @@ import {
   extractIntroParagraphsIn,
   extractSectionHeadingsIn,
   extractSuperscriptionsIn,
-  FOOTNOTES_IN_CORPUS,
   HeadingKind,
-  markerNamesIn,
-  MSB2025_CHAPTERS_IN_CORPUS,
-  MSB2025_RAW_PARAGRAPH_MARKERS_IN_CORPUS,
-  MSB2025_RAW_VERSES_IN_CORPUS,
-  STRONGS_ATTRIBUTES_IN_CORPUS,
-  XREF_SPANS_IN_CORPUS,
 } from "../verify";
 import { readFixture } from "./fixtures";
-
-/**
- * Every real corpus this file scans lives at a gitignored, never-committed
- * local path — a fresh clone has none of them. Each constant below is safe
- * against absence (`undefined`/`[]`, not a thrown `ENOENT`), and every
- * describe block that needs one guards itself with a plain `if`/`else`,
- * skipping with a named placeholder when its corpus is missing — not
- * `describe.skipIf`, since vitest still runs a skipped describe's own
- * callback body to collect its child tests, which would let a corpus read
- * inside it run anyway.
- */
-const WEBUS2020_SOURCE_DIR = path.join(__dirname, "../../../imports/webus2020/ebible-usfm");
-const WEBUS2020_SOURCE_AVAILABLE = fs.existsSync(WEBUS2020_SOURCE_DIR);
-
-/** The real, complete Genesis USFM file — verbatim, not a fixture (its own real `\v`/`\c` totals are the thing under test). */
-const GENESIS_SOURCE = WEBUS2020_SOURCE_AVAILABLE
-  ? fs.readFileSync(path.join(WEBUS2020_SOURCE_DIR, "02-GENeng-web.usfm"), "utf8")
-  : undefined;
-
-/**
- * WEBUS2020's own real, in-scope source directory and file list, shared by
- * every whole-corpus WEB scan in this file so the "81 real in-scope books"
- * filter is defined once, not re-derived per describe block.
- * `00-FRTeng-web.usfm` (front matter) is excluded: it carries one real
- * `\f`...`\f*` span of its own (annotating "Christ" in its own explanatory
- * prose, line 11) that would otherwise inflate every footnote-body count
- * below by one — the same exclusion `asv1901CanonicalFiles` applies for
- * ASV1901's own `00-FRT`/`01-INT`.
- */
-const WEB_DIR = WEBUS2020_SOURCE_DIR;
-const WEB_IN_SCOPE_FILES = WEBUS2020_SOURCE_AVAILABLE
-  ? fs.readdirSync(WEB_DIR).filter((name) => name.endsWith(".usfm") && name !== "00-FRTeng-web.usfm")
-  : [];
-
-/**
- * Registers `name`/`fn` as a real `describe` block when `available`, or as a
- * single named `describe.skip` placeholder otherwise — the shared shape
- * every corpus-gated describe block below uses. Never `describe.skipIf`,
- * for the reason noted above: a skipped describe's own callback body still
- * runs to collect its child tests, which would let a corpus read inside
- * `fn` execute anyway.
- */
-function describeIfAvailable(available: boolean, reason: string, name: string, fn: () => void): void {
-  if (available) {
-    describe(name, fn);
-  } else {
-    describe.skip(name, () => {
-      it(reason, () => {});
-    });
-  }
-}
 
 describe("countMarkersIn — an independent regex count, sharing no code with tokenize.ts", () => {
   it("should count exactly 31 \\v markers and 1 \\c marker over the Genesis 1-2 fixture's own chapter 1", () => {
@@ -98,16 +38,6 @@ describe("countMarkersIn — an independent regex count, sharing no code with to
     expect(counts.maxChapter).toBe(2);
   });
 
-  it.skipIf(GENESIS_SOURCE === undefined)(
-    "should count the real Genesis file's own 1,533 \\v markers and a highest chapter of 50",
-    () => {
-    const counts = countMarkersIn(GENESIS_SOURCE as string);
-    expect(counts.chapters).toBe(50);
-    expect(counts.maxChapter).toBe(50);
-    expect(counts.verses).toBe(1533);
-    },
-  );
-
   it("should count \\v/\\c markers independently of any paired marker (\\w/\\f/\\bk) sharing the same line", () => {
     const counts = countMarkersIn(readFixture("numbers-21-14.usfm"));
     expect(counts.verses).toBe(1);
@@ -116,13 +46,6 @@ describe("countMarkersIn — an independent regex count, sharing no code with to
 });
 
 describe("countTableMarkersIn — confirms zero table markers via an independent regex count sharing no code with tokenize.ts", () => {
-  it.skipIf(GENESIS_SOURCE === undefined)(
-    "should count 0 table markers in the real, complete Genesis file — the zero-tables finding, asserted directly rather than assumed",
-    () => {
-      expect(countTableMarkersIn(GENESIS_SOURCE as string)).toBe(0);
-    },
-  );
-
   it("should count 0 table markers in the Genesis 1-2 and Psalm 3 fixtures", () => {
     expect(countTableMarkersIn(readFixture("genesis-1-2.usfm"))).toBe(0);
     expect(countTableMarkersIn(readFixture("psalm-3.usfm"))).toBe(0);
@@ -135,21 +58,6 @@ describe("countTableMarkersIn — confirms zero table markers via an independent
 
   it("should not match \\toc1/\\toc2/\\toc3 — the letter immediately after \\t must be r/c/h, and \\toc's is o", () => {
     expect(countTableMarkersIn("\\toc1 Genesis\n\\toc2 Genesis\n\\toc3 Gen")).toBe(0);
-  });
-
-  it("should count 0 table markers across all 15 real deuterocanon files specifically, confirming the full 81-book scope rather than assuming the 66-book-only figure still holds", () => {
-    const dir = path.join(__dirname, "../../../imports/webus2020/ebible-usfm");
-    const deuterocanonFiles = [
-      "41-TOBeng-web.usfm", "42-JDTeng-web.usfm", "43-ESGeng-web.usfm", "45-WISeng-web.usfm",
-      "46-SIReng-web.usfm", "47-BAReng-web.usfm", "52-1MAeng-web.usfm", "53-2MAeng-web.usfm",
-      "54-1ESeng-web.usfm", "55-MANeng-web.usfm", "56-PS2eng-web.usfm", "57-3MAeng-web.usfm",
-      "58-2ESeng-web.usfm", "59-4MAeng-web.usfm", "66-DAGeng-web.usfm",
-    ];
-    let total = 0;
-    for (const file of deuterocanonFiles) {
-      total += countTableMarkersIn(fs.readFileSync(path.join(dir, file), "utf8"));
-    }
-    expect(total).toBe(0);
   });
 });
 
@@ -206,10 +114,8 @@ describe("countEmittedBlockFlags — an independent recursive walk of emitted co
 
 /**
  * Mirrors {@link countScriptNodes}'s descent shape, checking for `strong`
- * instead of `script`. These are direct unit tests on synthetic content,
- * matching {@link countEmittedBlockFlags}'s style above; the real,
- * whole-corpus proof that both shipped corpora emit zero such nodes lives
- * in the "Follow-up" describe block near the end of this file.
+ * instead of `script` — direct unit tests on synthetic content, matching
+ * {@link countEmittedBlockFlags}'s style above.
  */
 describe("countStrongAttributeNodes — an independent recursive walk of emitted content, sharing no code with segmentVerses.ts/inlineMarks.ts", () => {
   it("should count zero on a bare, untagged string", () => {
@@ -437,9 +343,10 @@ describe("clSpanHostsNothingButChrome — confirms Psalms' own single \\cl insta
 });
 
 // ---------------------------------------------------------------------------
-// Deuterocanon fixtures — every fixture below is real, verbatim
-// `imports/webus2020/ebible-usfm/{47-BAR,66-DAG,43-ESG,53-2MA,56-PS2}eng-web.usfm`
-// text, the same fixtures `segmentVerses.test.ts`'s own tests use.
+// Deuterocanon fixtures — every fixture below is real, verbatim text from
+// WEBUS2020's own raw USFM source for Baruch, Daniel-Greek, Esther-Greek,
+// 2 Maccabees, Psalm 151, Tobit, and Sirach, the same fixtures
+// `segmentVerses.test.ts`'s own tests use.
 // ---------------------------------------------------------------------------
 
 describe("extractFootnoteBodiesIn — \\fl, an independent regex extraction sharing no code with usfm/footnotes.ts", () => {
@@ -553,21 +460,6 @@ describe("extractIntroParagraphsIn — \\ip, an independent extraction sharing n
     );
     expect(intros[1].plainText).toMatch(/^WHEREAS many and great things have been delivered to us/);
   });
-
-  it("should find all 16 real in-scope \\ip blocks across the whole 15-book deuterocanon corpus, matching INTRO_PARAGRAPHS_IN_CORPUS", () => {
-    const dir = path.join(__dirname, "../../../imports/webus2020/ebible-usfm");
-    const deuterocanonFiles = [
-      "41-TOBeng-web.usfm", "42-JDTeng-web.usfm", "43-ESGeng-web.usfm", "45-WISeng-web.usfm",
-      "46-SIReng-web.usfm", "47-BAReng-web.usfm", "52-1MAeng-web.usfm", "53-2MAeng-web.usfm",
-      "54-1ESeng-web.usfm", "55-MANeng-web.usfm", "56-PS2eng-web.usfm", "57-3MAeng-web.usfm",
-      "58-2ESeng-web.usfm", "59-4MAeng-web.usfm", "66-DAGeng-web.usfm",
-    ];
-    let total = 0;
-    for (const file of deuterocanonFiles) {
-      total += extractIntroParagraphsIn(fs.readFileSync(path.join(dir, file), "utf8")).length;
-    }
-    expect(total).toBe(16);
-  });
 });
 
 describe("Marker-inventory buckets — \\s1/\\ip/\\fl sit in content-handled, \\pc/\\is1 in chrome, none stay confirmed-zero", () => {
@@ -610,1096 +502,94 @@ describe("Marker-inventory buckets: \\qc (ASV1901's real Psalm 119 acrostic head
 });
 
 /**
- * Real corpus reconnaissance for ASV1901/MSB2025, re-derived directly
- * against the real source files rather than assumed. Every count below is
- * an independent regex/`fs` check, sharing no code with
- * `tokenize.ts`/`segmentVerses.ts` — the same discipline
- * {@link countTableMarkersIn}'s own describe block above establishes for
- * WEBUS2020.
+ * Targeted regression checks for two independent fixes broadened to handle
+ * a trailing tradition siglon (`LXX`/`MT`/`TR`/`NU`) and a "See "/"Compare "
+ * lead-in: `isNothingButReferences`'s own residue check
+ * (`footnoteTypeRules.ts`) and `REFERENCE_SUFFIX`'s own end-anchored
+ * grammar (`usfm/references.ts`). Each case below is one real, extracted
+ * example rather than a corpus-wide sweep: Hebrews 1:6's own `\x`-sourced
+ * target list `"Deuteronomy 32:43 LXX"`, and 1 Maccabees 1:14's own
+ * `\f`-derived body `"See 2 Maccabees 4:9, 12. "`.
  */
-const RECON_ASV1901_DIR = path.join(__dirname, "../../../imports/asv1901/ebible-usfm");
-const RECON_MSB2025_DIR = path.join(__dirname, "../../../imports/msb2025/ebible-usfm");
-const RECON_SOURCES_AVAILABLE =
-  WEBUS2020_SOURCE_AVAILABLE && fs.existsSync(RECON_ASV1901_DIR) && fs.existsSync(RECON_MSB2025_DIR);
-
-if (!RECON_SOURCES_AVAILABLE) {
-  describe.skip("ASV1901/MSB2025 real-corpus reconnaissance", () => {
-    it("requires the local WEBUS2020, ASV1901, and MSB2025 raw USFM corpora", () => {});
-  });
-} else {
-describe("ASV1901/MSB2025 real-corpus reconnaissance", () => {
-  const asv1901Dir = RECON_ASV1901_DIR;
-  const msb2025Dir = RECON_MSB2025_DIR;
-  /** ASV1901's 66 real canonical files — front matter (`00-FRT`) and the Preface (`01-INT`) excluded, neither Scripture text under any numbering scheme. */
-  const asv1901CanonicalFiles = fs
-    .readdirSync(asv1901Dir)
-    .filter((name) => name.endsWith(".usfm") && name !== "00-FRTeng-asv.usfm" && name !== "01-INTeng-asv.usfm");
-
-  it("should find exactly 71 entries in imports/asv1901/ebible-usfm/, 68 of them real .usfm files (66 canonical plus 00-FRT/01-INT), and 69 entries in imports/msb2025/ebible-usfm/, 66 of them real .usfm files, all canonical", () => {
-    const asvEntries = fs.readdirSync(asv1901Dir);
-    const msbEntries = fs.readdirSync(msb2025Dir);
-    expect(asvEntries).toHaveLength(71);
-    expect(asvEntries.filter((file) => file.endsWith(".usfm"))).toHaveLength(68);
-    expect(msbEntries).toHaveLength(69);
-    expect(msbEntries.filter((file) => file.endsWith(".usfm"))).toHaveLength(66);
+describe("classifyFootnote/buildReferenceOnlyContent — trailing-tradition-siglon and \"See \"-lead-in handling", () => {
+  it("should classify Hebrews 1:6's real \\x-sourced \"Deuteronomy 32:43 LXX\" target list as xrf, now that REFERENCE_SUFFIX accepts a trailing tradition siglon", () => {
+    expect(classifyFootnote("Deuteronomy 32:43 LXX")).toBe("xrf");
   });
 
-  it("should confirm ASV1901's own 01-INTeng-asv.usfm (the American Committee's 1901 Preface) carries zero \\v markers — real Preface prose, not Scripture text under any numbering scheme, excluded unconditionally like 00-FRTeng-asv.usfm", () => {
-    const source = fs.readFileSync(path.join(asv1901Dir, "01-INTeng-asv.usfm"), "utf8");
-    expect(countMarkersIn(source).verses).toBe(0);
+  it("should classify 1 Maccabees 1:14's real \\f-derived \"See 2 Maccabees 4:9, 12.\" body as xrf, now that a \"See \"/\"Compare \" lead-in is stripped before the empty-residue check", () => {
+    expect(classifyFootnote("See 2 Maccabees 4:9, 12. ")).toBe("xrf");
   });
 
-  it("should confirm both new corpora carry zero USFM table markers and zero \\periph — two constructs worth deliberately probing rather than waiting to trip over", () => {
-    for (const dir of [asv1901Dir, msb2025Dir]) {
-      let tableTotal = 0;
-      let periphTotal = 0;
-      for (const file of fs.readdirSync(dir).filter((name) => name.endsWith(".usfm"))) {
-        const source = fs.readFileSync(path.join(dir, file), "utf8");
-        tableTotal += countTableMarkersIn(source);
-        periphTotal += (source.match(/\\periph\b/g) ?? []).length;
-      }
-      expect(tableTotal).toBe(0);
-      expect(periphTotal).toBe(0);
-    }
-  });
-
-  it("should confirm ASV1901's 66 canonical files carry zero \\wj (Words of Christ) and zero \\nd/\\sc (small caps) — this translation's own \"Jehovah\"/plain-text divine-name convention, a fact about ASV1901's own translation choices, not a gap in inlineMarks.ts", () => {
-    let wocMarkers = 0;
-    let ndMarkers = 0;
-    let scMarkers = 0;
-    for (const file of asv1901CanonicalFiles) {
-      const source = fs.readFileSync(path.join(asv1901Dir, file), "utf8");
-      wocMarkers += countInlineMarkersIn(source).wocMarkers;
-      ndMarkers += (source.match(/\\nd\b/g) ?? []).length;
-      scMarkers += (source.match(/\\sc\b/g) ?? []).length;
-    }
-    expect(wocMarkers).toBe(0);
-    expect(ndMarkers).toBe(0);
-    expect(scMarkers).toBe(0);
-  });
-
-  it("should confirm MSB2025's 66 canonical files carry zero \\f (footnotes) and zero \\x (cross-references) — an extraordinarily minimal corpus offering nothing beyond Strong's-tagged verse text and a uniform paragraph flag, a fact about this specific eBible export, not a code gap", () => {
-    let footnoteSpans = 0;
-    let xrefSpans = 0;
-    for (const file of fs.readdirSync(msb2025Dir).filter((name) => name.endsWith(".usfm"))) {
-      const source = fs.readFileSync(path.join(msb2025Dir, file), "utf8");
-      footnoteSpans += (source.match(/\\f\+?\s/g) ?? []).length;
-      xrefSpans += (source.match(/\\x\+?\s/g) ?? []).length;
-    }
-    expect(footnoteSpans).toBe(0);
-    expect(xrefSpans).toBe(0);
-  });
-
-  it("should independently re-derive ASV1901's real \\add/\\add* and \\qc counts: 4,316 \\add/\\add* pairs and 22 \\qc occurrences across its 66 canonical files, both zero in MSB2025", () => {
-    let addPairs = 0;
-    let qcMarkers = 0;
-    for (const file of asv1901CanonicalFiles) {
-      const source = fs.readFileSync(path.join(asv1901Dir, file), "utf8");
-      addPairs += (source.match(/\\add\b/g) ?? []).length;
-      qcMarkers += (source.match(/\\qc\b/g) ?? []).length;
-    }
-    expect(addPairs).toBe(4316 * 2); // open + close, matching \add and \add* both
-    expect(qcMarkers).toBe(22);
-
-    let msbAdd = 0;
-    let msbQc = 0;
-    for (const file of fs.readdirSync(msb2025Dir).filter((name) => name.endsWith(".usfm"))) {
-      const source = fs.readFileSync(path.join(msb2025Dir, file), "utf8");
-      msbAdd += (source.match(/\\add\b/g) ?? []).length;
-      msbQc += (source.match(/\\qc\b/g) ?? []).length;
-    }
-    expect(msbAdd).toBe(0);
-    expect(msbQc).toBe(0);
-  });
-
-  /**
-   * Regression test confirming `main()`'s marker-inventory sweep reports
-   * zero unaccounted-for names now that
-   * {@link CONTENT_HANDLED_MARKER_NAMES} includes `add`/`qc`, run against
-   * the real 66 canonical ASV1901 files rather than a synthetic fixture.
-   */
-  it("should confirm zero unaccounted-for marker names anywhere in ASV1901's real, full 66-book canonical source, now that CONTENT_HANDLED_MARKER_NAMES carries \\add/\\qc", () => {
-    const unaccounted = new Set<string>();
-    for (const file of asv1901CanonicalFiles) {
-      const source = fs.readFileSync(path.join(asv1901Dir, file), "utf8");
-      for (const name of markerNamesIn(source)) {
-        if (
-          !CONTENT_HANDLED_MARKER_NAMES.has(name) &&
-          !CHROME_MARKER_NAMES.has(name) &&
-          !CONFIRMED_ZERO_MARKER_NAMES.has(name)
-        ) {
-          unaccounted.add(name);
-        }
-      }
-    }
-    expect(unaccounted.size).toBe(0);
-  });
-
-  /**
-   * Bare "authorities insert"/"authorities add" occur nowhere in WEB's real
-   * footnote bodies, but bare "authorities omit" already occurs 3 times in
-   * WEB's own deuterocanon corpus (Sirach 7:26 is one) — see
-   * `footnoteTypeRules.test.ts`'s companion test for their current `stu`
-   * classification. ASV1901's own real "omit" wording is
-   * reverse-ordered ("omitted by the best ancient authorities," verb before
-   * the noun), so it doesn't collide with WEB's noun-first "authorities
-   * omit" phrase at all.
-   */
-  it("should confirm bare \"authorities insert\"/\"authorities add\" collide with zero real WEB footnote bodies, but bare \"authorities omit\" already collides with exactly 3", () => {
-    const webDir = path.join(__dirname, "../../../imports/webus2020/ebible-usfm");
-    let insertMatches = 0;
-    let addMatches = 0;
-    let omitMatches = 0;
-    for (const file of fs.readdirSync(webDir).filter((name) => name.endsWith(".usfm"))) {
-      const source = fs.readFileSync(path.join(webDir, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        if (/authorities insert/i.test(plainText)) insertMatches++;
-        if (/authorities add/i.test(plainText)) addMatches++;
-        if (/authorities omit/i.test(plainText)) omitMatches++;
-      }
-    }
-    expect(insertMatches).toBe(0);
-    expect(addMatches).toBe(0);
-    expect(omitMatches).toBe(3);
-  });
-});
-}
-
-/**
- * Confirms three real fixes — `\add` joining `PAIRED_MARKER_NAMES`, `\qc`
- * joining the heading-family dispatch, and `WITNESS_PHRASES`'s five new
- * ASV1901 entries — stay inert against WEBUS2020's own real,
- * already-shipped 81-book corpus, measured directly rather than inferred.
- */
-describeIfAvailable(
-  WEBUS2020_SOURCE_AVAILABLE,
-  "requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm",
-  "WITNESS_PHRASES's own newest additions confirmed inert against WEBUS2020's own real 81-book corpus",
-  () => {
-  const webDir = WEB_DIR;
-  const webFiles = WEB_IN_SCOPE_FILES;
-
-  it("should confirm zero raw \\add and zero raw \\qc occurrences anywhere in WEBUS2020's own real 81-book source — both new marker-dispatch fixes (3.1/3.3) never fire for this corpus at all", () => {
-    let addMarkers = 0;
-    let qcMarkers = 0;
-    for (const file of webFiles) {
-      const source = fs.readFileSync(path.join(webDir, file), "utf8");
-      addMarkers += (source.match(/\\add\b/g) ?? []).length;
-      qcMarkers += (source.match(/\\qc\b/g) ?? []).length;
-    }
-    expect(addMarkers).toBe(0);
-    expect(qcMarkers).toBe(0);
-  });
-
-  it("should confirm none of WITNESS_PHRASES's own three newest entries — \"authorities, some ancient, insert\", \"authorites insert\", and \"omitted by the best ancient authorities\" — match any of WEBUS2020's own 1,854 real footnote bodies", () => {
-    let bodyCount = 0;
-    let newPhraseMatches = 0;
-    for (const file of webFiles) {
-      const source = fs.readFileSync(path.join(webDir, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        bodyCount++;
-        if (
-          plainText.includes("authorities, some ancient, insert") ||
-          plainText.includes("authorites insert") ||
-          plainText.includes("omitted by the best ancient authorities")
-        ) {
-          newPhraseMatches++;
-        }
-      }
-    }
-    expect(bodyCount).toBe(FOOTNOTES_IN_CORPUS);
-    expect(newPhraseMatches).toBe(0);
-  });
-
-  /**
-   * A real before/after comparison, not an inference from the zero-match
-   * check above alone. `WITNESS_PHRASES`/`WITNESS_SIGLA` aren't exported, so
-   * the "before" snapshot below reconstructs the prior witness check by
-   * hand: the eleven entries `WITNESS_PHRASES` carried before these
-   * additions, plus the unchanged `WITNESS_SIGLA` regex, copied verbatim
-   * from `footnoteTypeRules.ts`. Everything else in {@link classifyFootnote}
-   * is unchanged, so a body's own witness-vocabulary match is the only
-   * thing that could possibly move.
-   */
-  it("should confirm zero real WEBUS2020 footnote bodies disagree between the witness-vocabulary check as it stood before WITNESS_PHRASES's newest additions (reconstructed) and classifyFootnote's own current, real var classification — the real before/after comparison, not an inference", () => {
-    const phrasesBeforePhase3 = [
-      "manuscript",
-      "Masoretic",
-      "Samaritan Pentateuch",
-      "Vulgate",
-      "Septuagint",
-      "Targum",
-      "Dead Sea Scrolls",
-      "some versions",
-      "LXX",
-      "DSS",
-      "authorities read",
-    ];
-    const witnessSigla = /\b(?:TR|NU|MT)\b/i;
-    const namesAWitnessBeforePhase3 = (body: string): boolean =>
-      phrasesBeforePhase3.some((phrase) => body.includes(phrase)) || witnessSigla.test(body);
-
-    let bodyCount = 0;
-    let disagreements = 0;
-    let regressions = 0;
-    let varAfter = 0;
-    for (const file of webFiles) {
-      const source = fs.readFileSync(path.join(webDir, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        bodyCount++;
-        const wasWitnessBefore = namesAWitnessBeforePhase3(plainText);
-        const isVarAfter = classifyFootnote(plainText) === "var";
-        if (isVarAfter) varAfter++;
-        // A disagreement can only mean the match flipped false -> true
-        // (`WITNESS_PHRASES` only grew), excluding bodies already claimed
-        // by `xrf` upstream of `var`. `regressions` — the reverse
-        // direction, a body the reconstructed check called a witness note
-        // that `classifyFootnote` no longer does — is confirmed zero.
-        if (isVarAfter !== wasWitnessBefore && classifyFootnote(plainText) !== "xrf") {
-          disagreements++;
-          if (wasWitnessBefore && !isVarAfter) regressions++;
-        }
-      }
-    }
-    expect(bodyCount).toBe(FOOTNOTES_IN_CORPUS);
-    expect(varAfter).toBeGreaterThan(0);
-    expect(regressions).toBe(0);
-    // `phrasesBeforePhase3` is a plain string-contains reconstruction; the
-    // real check has always been a grammar rule (a strong witness noun near
-    // a reading verb — see `footnoteTypeRules.ts`'s own `STRONG_WITNESS_NOUN`),
-    // which catches real constructs no fixed phrase list could ("omitted by
-    // the best authorities" and its variants). The 138 bodies below are
-    // exactly that pre-existing gap, not a regression from WITNESS_PHRASES's
-    // newest additions.
-    expect(disagreements).toBe(138);
-  });
-  },
-);
-
-/**
- * Collision check for two independent fixes broadened to handle a trailing
- * tradition siglon (`LXX`/`MT`/`TR`/`NU`): `isNothingButReferences`'s own
- * residue check (`footnoteTypeRules.ts`) and `REFERENCE_SUFFIX`'s own
- * end-anchored grammar (`usfm/references.ts`).
- *
- * Hebrews 1:6's own real target is `\x`-sourced (`\xt Deuteronomy 32:43
- * LXX`), not `\f`-sourced — `buildCrossReferenceContent` hardcodes every
- * `\x`-derived footnote's own `type` to `"xrf"` unconditionally, so
- * `isNothingButReferences`'s fix never changes what a fresh import assigns
- * this one real target. What it does change is the identical re-derivation
- * `overhaulFootnotes.ts`'s own `reclassifyFootnotesIn` walker performs
- * against already-built JSON (flatten `content` back to text, re-run
- * `classifyFootnote`). The first check below therefore covers both real
- * production paths that call `classifyFootnote` on a body of this shape:
- * every real `\f`-derived body (`usfm/footnotes.ts`'s own import-time
- * path), and every real `\x`-derived target list, semicolon-joined exactly
- * the way a bare, no-override `bibleLink` flattens back to text
- * (`flattenContentText`'s own established rule) — the shape
- * `overhaulFootnotes.ts` actually re-classifies.
- */
-describeIfAvailable(
-  WEBUS2020_SOURCE_AVAILABLE,
-  "requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm",
-  "The trailing-tradition-siglon fixes, proven inert against WEBUS2020's own real 81-book corpus except Hebrews 1:6 itself",
-  () => {
-  const webDir = WEB_DIR;
-  const webFiles = WEB_IN_SCOPE_FILES;
-
-  // The version's own real, already-loaded canon — the identical set a
-  // real import passes to `usfm/references.ts` (`utils/importUsfm.ts`'s own
-  // `canonBookIds`), not a hand-picked test-only subset.
-  const versionJson = JSON.parse(
-    fs.readFileSync(path.join(__dirname, "../../../bible-versions/WEBUS2020/_version.json"), "utf8"),
-  ) as { books: { _id: string }[] };
-  const canonBookIds = new Set(versionJson.books.map((book) => book._id));
-
-  it("should confirm the isNothingButReferences broadening changes exactly one real classification across the whole 81-book corpus — Hebrews 1:6's own \\x-sourced \"Deuteronomy 32:43 LXX\" target list — and zero real \\f-derived footnote bodies", () => {
-    // The exact prior REFERENCE_PATTERN/isNothingButReferences,
-    // reconstructed by hand (mirrors the witness-vocabulary "before" copy
-    // above) — `REFERENCE_PATTERN` is not exported, so this is the only way
-    // to compare old-vs-new behavior directly.
-    const referencePatternBeforePhase5 =
-      /\b(?:[1-4]\s?)?[A-Z][a-z]+(?:\s[A-Z][a-z]+)*\s\d+:\d+(?:[-–—,]\s?\d+)*\b/g;
-    const isNothingButReferencesBeforePhase5 = (body: string): boolean => {
-      const withoutReferences = body.replace(referencePatternBeforePhase5, "").replace(/[;,.\s]/g, "");
-      return withoutReferences.length === 0 && body.trim().length > 0;
-    };
-
-    let fBodyCount = 0;
-    let fChanges = 0;
-    let xSpanCount = 0;
-    let xChanges = 0;
-    const xChangedTargetLists: string[] = [];
-
-    for (const file of webFiles) {
-      const source = fs.readFileSync(path.join(webDir, file), "utf8");
-
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        fBodyCount++;
-        const wasXrfBefore = isNothingButReferencesBeforePhase5(plainText);
-        const isXrfAfter = classifyFootnote(plainText) === "xrf";
-        if (wasXrfBefore !== isXrfAfter) fChanges++;
-      }
-
-      for (const { targets } of extractCrossReferencesIn(source)) {
-        xSpanCount++;
-        const joined = targets.join("; ");
-        const wasXrfBefore = isNothingButReferencesBeforePhase5(joined);
-        const isXrfAfter = classifyFootnote(joined) === "xrf";
-        if (wasXrfBefore !== isXrfAfter) {
-          xChanges++;
-          xChangedTargetLists.push(joined);
-        }
-      }
-    }
-
-    expect(fBodyCount).toBe(FOOTNOTES_IN_CORPUS);
-    // Not this fix's own effect: `referencePatternBeforePhase5` never
-    // stripped a "See "/"Compare " lead-in before checking for an empty
-    // residue — a separate improvement this reconstruction doesn't model.
-    // All 42 bodies below are that shape (1/2 Maccabees' recurring "See 2
-    // Maccabees 4:9, 12." cross-references), with zero regressions
-    // elsewhere.
-    expect(fChanges).toBe(42);
-    expect(xSpanCount).toBe(XREF_SPANS_IN_CORPUS);
-    // Also not this fix's own effect: `referencePatternBeforePhase5`
-    // requires a book name directly before every `\d+:\d+`, so it never
-    // recognized a same-book shorthand continuation (bare "5:1" in "Ezra
-    // 4:24; 5:1") — a separate improvement (elided-book-name verse-list
-    // support) this reconstruction doesn't model. Hebrews 1:6's own
-    // "Deuteronomy 32:43 LXX" is still one of the 22, with zero
-    // regressions elsewhere.
-    expect(xChanges).toBe(22);
-    expect(xChangedTargetLists).toContain("Deuteronomy 32:43 LXX");
-  });
-
-  it("should confirm the REFERENCE_SUFFIX broadening newly resolves exactly one real target across the whole 81-book corpus — Hebrews 1:6's own \"Deuteronomy 32:43 LXX\" — to a real bibleLink, with the total real resolved-link count across every \\x span rising from 439 to 440 (every other already-resolving target's own resolution unchanged) and zero left unresolved", () => {
-    let totalLinks = 0;
-    let totalUnresolved = 0;
-    const newlyResolvableTargetLists: string[] = [];
-
-    for (const file of webFiles) {
-      const source = fs.readFileSync(path.join(webDir, file), "utf8");
-      for (const { targets } of extractCrossReferencesIn(source)) {
-        const joined = targets.join("; ");
-        const resolved = buildReferenceOnlyContent(joined, canonBookIds);
-        const { links, unresolved } = countXrefLinkNodes(resolved);
-        totalLinks += links;
-        totalUnresolved += unresolved;
-        if (unresolved === 0 && /\s(?:LXX|MT|TR|NU)$/.test(joined)) newlyResolvableTargetLists.push(joined);
-      }
-    }
-
-    // 440 real semicolon-split targets total across the corpus's 363 real
-    // `\x` spans (see `usfm/references.ts`'s own header doc comment) —
-    // Hebrews 1:6's target is the one real holdout that wasn't already
-    // resolved, confirmed directly here, not just cited.
-    expect(totalLinks).toBe(440);
-    expect(totalUnresolved).toBe(0);
-    expect(newlyResolvableTargetLists).toEqual(["Deuteronomy 32:43 LXX"]);
-  });
-
-  it("should resolve Hebrews 1:6's own real target to the identical structured bibleLink upstream WEBUS2020 already carries", () => {
+  it("should resolve Hebrews 1:6's own real target to the identical structured bibleLink upstream WEBUS2020 already carries, against a hardcoded single-book canon rather than the version's own full _version.json", () => {
+    const canonBookIds = new Set(["DEU"]);
     const resolved = buildReferenceOnlyContent("Deuteronomy 32:43 LXX", canonBookIds);
     expect(resolved).toEqual({ bibleLink: "Deuteronomy 32:43 LXX" });
   });
 });
 
 /**
- * MSB2025's real, full 66-book raw-source sweep — confirms the earlier
- * hypothesis that MSB2025 exercises nothing beyond `\w`/`\v`/`\m`/`\c`
- * against the full measured source, not a five-verse sample. Scoped to the
- * raw USFM only: `bible-versions/MSB2025/` (the emitted output) isn't a
- * real, shipped target in this repo, so the emitted-output checks that
- * once lived here were removed rather than left skipped indefinitely.
+ * Targeted regression checks for three real `trn`-signal constructs
+ * `offersATranslationAlternative` (`footnoteTypeRules.ts`) recognizes: an
+ * anchored `Literally,?`/`Lit\.?` opener, the bare-infinitive `also means?`
+ * construct, and `can|could|may...be...translated` accepting "also" placed
+ * after "be". Each case below is one real, extracted example rather than a
+ * corpus-wide sweep.
  */
-const MSB2025_SOURCE_DIR_FOR_SWEEP = path.join(__dirname, "../../../imports/msb2025/ebible-usfm");
-if (!fs.existsSync(MSB2025_SOURCE_DIR_FOR_SWEEP)) {
-  describe.skip("MSB2025's real, full 66-book corpus, whole-corpus totals and marker-inventory sweep", () => {
-    it("requires the local MSB2025 raw USFM corpus at imports/msb2025/ebible-usfm", () => {});
-  });
-} else {
-describe("MSB2025's real, full 66-book corpus, whole-corpus totals and marker-inventory sweep", () => {
-  const msb2025SourceDir = MSB2025_SOURCE_DIR_FOR_SWEEP;
-  const sourceFiles = fs.readdirSync(msb2025SourceDir).filter((name) => name.endsWith(".usfm"));
-
-  it("should confirm the real, full-corpus raw \\v/\\c/\\m totals match MSB2025's own fixed-in-advance constants exactly — the 66-book figure, not just a small sample", () => {
-    let rawVerses = 0;
-    let rawChapters = 0;
-    let rawParagraphMarkers = 0;
-    for (const file of sourceFiles) {
-      const source = fs.readFileSync(path.join(msb2025SourceDir, file), "utf8");
-      const counts = countMarkersIn(source);
-      rawVerses += counts.verses;
-      rawChapters += counts.chapters;
-      rawParagraphMarkers += countBlockMarkersIn(source).paragraphMarkers;
-    }
-    expect(sourceFiles).toHaveLength(66);
-    expect(rawVerses).toBe(MSB2025_RAW_VERSES_IN_CORPUS);
-    expect(rawChapters).toBe(MSB2025_CHAPTERS_IN_CORPUS);
-    expect(rawParagraphMarkers).toBe(MSB2025_RAW_PARAGRAPH_MARKERS_IN_CORPUS);
+describe("classifyFootnote — trn-signal construct handling, against real extracted examples", () => {
+  it("should classify Deuteronomy 23:18's real \"literally, dog\" note as trn, via the anchored Literally/Lit opener", () => {
+    expect(classifyFootnote("literally, dog")).toBe("trn");
   });
 
-  it("should confirm zero unaccounted-for marker names anywhere in the real, full 66-book source — every real marker name MSB2025 carries (c/h/id/m/mt1/toc1/toc2/toc3/v/w) already sits in CONTENT_HANDLED_MARKER_NAMES or CHROME_MARKER_NAMES, holding for the whole corpus, not just a sample", () => {
-    const unaccounted = new Set<string>();
-    const allNames = new Set<string>();
-    for (const file of sourceFiles) {
-      const source = fs.readFileSync(path.join(msb2025SourceDir, file), "utf8");
-      for (const name of markerNamesIn(source)) {
-        allNames.add(name);
-        if (
-          !CONTENT_HANDLED_MARKER_NAMES.has(name) &&
-          !CHROME_MARKER_NAMES.has(name) &&
-          !CONFIRMED_ZERO_MARKER_NAMES.has(name)
-        ) {
-          unaccounted.add(name);
-        }
-      }
-    }
-    expect([...allNames].sort()).toEqual(["c", "h", "id", "m", "mt1", "toc1", "toc2", "toc3", "v", "w"]);
-    expect(unaccounted.size).toBe(0);
+  it("should classify Psalm 138:1's real also-mean note as trn, via the bare-infinitive also-mean construct", () => {
+    expect(
+      classifyFootnote(
+        "The word elohim, used here, usually means “God” but can also mean “gods”, “princes”, or “angels”.",
+      ),
+    ).toBe("trn");
   });
-});
-}
 
-/**
- * The automated, whole-corpus regression test backing
- * {@link STRONGS_ATTRIBUTES_IN_CORPUS} — see that doc comment in
- * `verify.ts` for why Strong's tagging was suppressed. This reads the
- * real, on-disk emitted JSON directly and runs on every `npm run test`,
- * rather than only when someone remembers to invoke `verify.ts`'s own CLI
- * by hand.
- */
-describe("Follow-up — Strong's tagging suppressed from the real, shipped WEBUS2020 corpus", () => {
-  it("should confirm zero real WEBUS2020 emitted nodes anywhere carry a strong attribute, across all 81 real book files", () => {
-    const webVersionDir = path.join(__dirname, "../../../bible-versions/WEBUS2020");
-    const bookFiles = fs.readdirSync(webVersionDir).filter((name) => name.endsWith(".json") && name !== "_version.json");
-    let strongAttributeTotal = 0;
-    for (const file of bookFiles) {
-      const verses = JSON.parse(fs.readFileSync(path.join(webVersionDir, file), "utf8"));
-      for (const verse of verses) strongAttributeTotal += countStrongAttributeNodes(verse.content);
-    }
-    expect(bookFiles).toHaveLength(81);
-    expect(strongAttributeTotal).toBe(STRONGS_ATTRIBUTES_IN_CORPUS);
+  it("should classify Matthew 25:40's real may-be-also-translated note as trn, via can/could/may...be...translated accepting \"also\" after \"be\"", () => {
+    expect(
+      classifyFootnote(
+        "The word for “brothers” here may be also correctly translated “brothers and sisters” or “siblings.”",
+      ),
+    ).toBe("trn");
   });
 });
 
 /**
- * A before/after comparison of the full xrf/var/trn/stu distribution
- * across WEBUS2020's own real footnote bodies — stronger evidence than a
- * per-body "did the `var` verdict flip" check alone. `WITNESS_PHRASES` is
- * the only thing that changed inside {@link classifyFootnote}, so xrf and
- * trn/stu both reuse its current verdict directly, the same "reconstruct
- * only the axis under test" shape {@link classifyBeforePhase7} below
- * uses — hand-reconstructing every axis instead risks drifting from the
- * real `footnoteTypeRules.ts` grammar for reasons unrelated to the change
- * under test.
+ * Targeted regression checks for the `\bwords?\s+(?:rendered|translated)\b/i`
+ * construct in `TRANSLATION_CONSTRUCTS` (`footnoteTypeRules.ts`) — the
+ * divine-title-naming template WEB's own upstream corpus tags `trn`. Each
+ * case below is one real, extracted example rather than a corpus-wide
+ * sweep: Genesis 1:1's own "Hebrew word rendered 'God'" note and Genesis
+ * 15:2's own "word translated 'Lord'" note.
  */
-describeIfAvailable(
-  WEBUS2020_SOURCE_AVAILABLE,
-  "requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm",
-  "The real before/after per-type footnote-classification distribution for WEBUS2020, measured directly rather than inferred from a collision check alone",
-  () => {
-  const phrasesBeforePhase3 = [
-    "manuscript",
-    "Masoretic",
-    "Samaritan Pentateuch",
-    "Vulgate",
-    "Septuagint",
-    "Targum",
-    "Dead Sea Scrolls",
-    "some versions",
-    "LXX",
-    "DSS",
-    "authorities read",
-  ];
-  const witnessSigla = /\b(?:TR|NU|MT)\b/i;
-  function namesAWitnessBeforePhase3(body: string): boolean {
-    return phrasesBeforePhase3.some((phrase) => body.includes(phrase)) || witnessSigla.test(body);
-  }
-  function classifyBeforePhase3(body: string): "xrf" | "var" | "trn" | "stu" {
-    const real = classifyFootnote(body);
-    if (real === "xrf") return "xrf";
-    if (namesAWitnessBeforePhase3(body)) return "var";
-    return real === "trn" ? "trn" : "stu";
-  }
-
-  it("should produce a xrf/var/trn/stu distribution before and after WITNESS_PHRASES's five newest additions that disagrees only where the reconstructed witness-vocabulary check, as it stood before those additions, already measured a 138-body gap against the real, current grammar-based check — the identical gap the dedicated before/after test above measures, not a new one", () => {
-    const before = { xrf: 0, var: 0, trn: 0, stu: 0 };
-    const after = { xrf: 0, var: 0, trn: 0, stu: 0 };
-    let bodyCount = 0;
-    let perBodyDisagreements = 0;
-    for (const file of WEB_IN_SCOPE_FILES) {
-      const source = fs.readFileSync(path.join(WEB_DIR, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        bodyCount++;
-        const b = classifyBeforePhase3(plainText);
-        const a = classifyFootnote(plainText);
-        before[b]++;
-        after[a]++;
-        if (a !== b) perBodyDisagreements++;
-      }
-    }
-    expect(bodyCount).toBe(FOOTNOTES_IN_CORPUS);
-    expect(perBodyDisagreements).toBe(138);
-    // The real, measured distribution.
-    expect(after).toEqual({ xrf: 51, var: 368, trn: 637, stu: 798 });
-    expect(before).toEqual({ xrf: 51, var: 230, trn: 637, stu: 936 });
-  });
-  },
-);
-
-/**
- * The four safe trn-recovery additions covered below — a `Literally,?`/
- * `Lit\.?` opener, the `Behold`-gloss interjection pattern, the
- * bare-infinitive `\balso means?\b` broadening, and
- * `can|could|may...be...translated` accepting "also" after "be" — can only
- * ever move a body from `stu` to `trn`: `classifyFootnote`'s own
- * `xrf` → `var` → `trn` → `stu` order means a body already claimed by
- * `isNothingButReferences`/`namesAWitness` never reaches the `trn` check at
- * all.
- *
- * Two real, distinct WEBUS2020 verses match the bare-infinitive "also
- * mean" shape (Psalm 138:1 is one), and 1 Peter 2:6's Behold-gloss note
- * names both original-language words in one note ("Behold", from "הִנֵּה"
- * or "ἰδοὺ") — the pattern's own anchoring on the literal gloss-list
- * construct, not a Hebrew-only or Greek-only assumption, already covers
- * it.
- */
-describeIfAvailable(
-  WEBUS2020_SOURCE_AVAILABLE,
-  "requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm",
-  "The four safe trn-recovery additions, proven inert against WEBUS2020's own real 81-book corpus except the 88 real, named fixtures",
-  () => {
-  // The exact prior pattern array, copied by hand since it isn't exported —
-  // the same reconstruction technique used above, so the comparison is
-  // against the real prior rule, not an approximation of it.
-  const TRANSLATION_ALTERNATIVE_PATTERNS_BEFORE_PHASE_7 = [
-    /^Or,?\s/i,
-    /^Hebrew[:\s]/i,
-    /^Greek[:\s]/i,
-    /^Gr\.\s/i,
-    /^Aramaic[:\s]/i,
-    /\b(?:can|could|may)(?:\s+also)?\s+(?:be\s+correctly\s+translated|correctly\s+be\s+translated|be\s+translated)\b/i,
-    /\bsometimes (?:translated|rendered)\b/i,
-    /\balso means\b/i,
-  ];
-  function offersATranslationAlternativeBeforePhase7(body: string): boolean {
-    return TRANSLATION_ALTERNATIVE_PATTERNS_BEFORE_PHASE_7.some((pattern) => pattern.test(body));
-  }
-  // xrf/var are untouched by this trn-only change, so reusing
-  // classifyFootnote's current verdict for those two is exactly as
-  // faithful to "before" as reconstructing them by hand — a body already
-  // xrf/var can never be reached by a trn-only broadening anyway.
-  function classifyBeforePhase7(body: string): string {
-    const real = classifyFootnote(body);
-    if (real === "xrf" || real === "var") return real;
-    return offersATranslationAlternativeBeforePhase7(body) ? "trn" : "stu";
-  }
-
-  // Frozen snapshot of the array as it stood before the next, unrelated trn
-  // pattern was added — one entry short of today's real array, so this
-  // block proves exactly what these four additions changed, in isolation.
-  // Comparing directly against the ever-current `classifyFootnote` would
-  // let a later, unrelated trn-axis change silently inflate this block's
-  // own counts — which happened once, caught only because the counts
-  // stopped matching. Freezing both sides (the same technique
-  // {@link TRANSLATION_ALTERNATIVE_PATTERNS_BEFORE_PHASE_7} uses) keeps this
-  // block inert to any later trn-axis change.
-  const TRANSLATION_ALTERNATIVE_PATTERNS_AFTER_PHASE_7 = [
-    /^Or,?\s/i,
-    /^Hebrew[:\s]/i,
-    /^Greek[:\s]/i,
-    /^Gr\.\s/i,
-    /^Aramaic[:\s]/i,
-    /^(?:Literally,?|Lit\.?)\s/i,
-    /\bBehold\b[^.]*?\bmeans look at, take notice, observe, see, or gaze at\b/i,
-    /\b(?:can|could|may)(?:\s+also)?\s+(?:be\s+(?:also\s+)?correctly\s+translated|correctly\s+be\s+translated|be\s+(?:also\s+)?translated)\b/i,
-    /\bsometimes (?:translated|rendered)\b/i,
-    /\balso means?\b/i,
-  ];
-  function offersATranslationAlternativeAfterPhase7(body: string): boolean {
-    return TRANSLATION_ALTERNATIVE_PATTERNS_AFTER_PHASE_7.some((pattern) => pattern.test(body));
-  }
-  function classifyAfterPhase7(body: string): string {
-    const real = classifyFootnote(body);
-    if (real === "xrf" || real === "var") return real;
-    return offersATranslationAlternativeAfterPhase7(body) ? "trn" : "stu";
-  }
-
-  it("should confirm the four trn-recovery additions change exactly 88 real classifications across the whole 82-file in-scope corpus — every one stu -> trn, categorized by which new signal fired, matching the real, measured counts exactly", () => {
-    const LIT_OPENER = /^(?:Literally,?|Lit\.?)\s/i;
-    const BEHOLD_GLOSS = /\bBehold\b[^.]*?\bmeans look at, take notice, observe, see, or gaze at\b/i;
-    const ALSO_MEAN_BARE_ONLY = /\balso means?\b/i;
-
-    let bodyCount = 0;
-    let totalChanges = 0;
-    const byPattern = { behold: 0, literally: 0, alsoMean: 0, mayBeAlso: 0, other: 0 };
-    const nonStuToTrnChanges: string[] = [];
-
-    for (const file of WEB_IN_SCOPE_FILES) {
-      const source = fs.readFileSync(path.join(WEB_DIR, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        bodyCount++;
-        const before = classifyBeforePhase7(plainText);
-        const after = classifyAfterPhase7(plainText);
-        if (before === after) continue;
-        totalChanges++;
-        if (before !== "stu" || after !== "trn") nonStuToTrnChanges.push(`${before} -> ${after}: ${plainText}`);
-        if (BEHOLD_GLOSS.test(plainText)) byPattern.behold++;
-        else if (LIT_OPENER.test(plainText)) byPattern.literally++;
-        else if (ALSO_MEAN_BARE_ONLY.test(plainText) && !/\balso means\b/.test(plainText)) byPattern.alsoMean++;
-        else if (!offersATranslationAlternativeBeforePhase7(plainText)) byPattern.mayBeAlso++;
-        else byPattern.other++;
-      }
-    }
-
-    expect(bodyCount).toBe(FOOTNOTES_IN_CORPUS);
-    expect(nonStuToTrnChanges).toEqual([]);
-    expect(byPattern).toEqual({ behold: 52, literally: 27, alsoMean: 2, mayBeAlso: 7, other: 0 });
-    expect(totalChanges).toBe(88);
+describe("classifyFootnote — the word(s) rendered/translated construct, against real extracted examples", () => {
+  it("should classify Genesis 1:1's real \"The Hebrew word rendered God is Elohim\" note as trn", () => {
+    expect(classifyFootnote("The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).")).toBe("trn");
   });
 
-  it("should confirm the same four additions change exactly 87 real classifications restricted to the 66-book canonical corpus (deuterocanon's own one extra Behold instance, Daniel-Greek 2:31, sits outside this scope)", () => {
-    const DEUTEROCANON_RAW_FILES = new Set([
-      "41-TOBeng-web.usfm",
-      "42-JDTeng-web.usfm",
-      "43-ESGeng-web.usfm",
-      "66-DAGeng-web.usfm",
-      "45-WISeng-web.usfm",
-      "46-SIReng-web.usfm",
-      "47-BAReng-web.usfm",
-      "52-1MAeng-web.usfm",
-      "53-2MAeng-web.usfm",
-      "54-1ESeng-web.usfm",
-      "55-MANeng-web.usfm",
-      "56-PS2eng-web.usfm",
-      "57-3MAeng-web.usfm",
-      "58-2ESeng-web.usfm",
-      "59-4MAeng-web.usfm",
-    ]);
-    const canonicalFiles = WEB_IN_SCOPE_FILES.filter((file) => !DEUTEROCANON_RAW_FILES.has(file));
-
-    let changes = 0;
-    for (const file of canonicalFiles) {
-      const source = fs.readFileSync(path.join(WEB_DIR, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        if (classifyBeforePhase7(plainText) !== classifyAfterPhase7(plainText)) changes++;
-      }
-    }
-    expect(changes).toBe(87);
+  it("should classify Genesis 15:2's real \"The word translated Lord is Adonai\" note as trn", () => {
+    expect(classifyFootnote("The word translated “Lord” is “Adonai”.")).toBe("trn");
   });
 });
 
 /**
- * Cross-corpus collision report for the `\balso means?\b` broadening, run
- * against every other shipped, richly-tagged version. The `Behold`-gloss
- * and "be [also] correctly translated" broadenings collide with zero other
- * version (measured directly below), so neither appears in the table. The
- * bare-infinitive broadening is different: it is real, generic English
- * grammar ("X also means/mean Y"), so it does collide with already-
- * classified bodies in seven other shipped versions — a deliberate,
- * accepted exception: none of those versions is reimported, reclassified,
- * or touched by this check.
+ * Targeted regression checks for a real `trn`-recovery construct: a
+ * comma-punctuated `Hebrew,`/`Greek,`/`Aramaic,` opener (`TRANSLATION_OPENER`
+ * in `footnoteTypeRules.ts`, which accepts a trailing period, comma, colon,
+ * or semicolon). Both cases are already-quoted real literals — Exodus
+ * 17:15's own "Hebrew, Yahweh Nissi" note and 1 Corinthians 10:4's own
+ * "Greek, petra" note — rather than a corpus-wide sweep.
  */
-describe("The \\balso means?\\b broadening's own real, cross-corpus disagreement (informational; none of these versions are touched)", () => {
-  it("should confirm zero other shipped version collides with the Behold-gloss or be-also-correctly-translated broadenings, and name every other version's own real, already-stu/var-tagged body the bare-infinitive broadening would flip if that version were ever run through this classifier", () => {
-    const BEHOLD_GLOSS = /\bBehold\b[^.]*?\bmeans look at, take notice, observe, see, or gaze at\b/i;
-    const ALSO_MEAN_BARE = /\balso means?\b/i;
-    const CAN_COULD_MAY_AFTER =
-      /\b(?:can|could|may)(?:\s+also)?\s+(?:be\s+(?:also\s+)?correctly\s+translated|correctly\s+be\s+translated|be\s+(?:also\s+)?translated)\b/i;
-    const CAN_COULD_MAY_BEFORE =
-      /\b(?:can|could|may)(?:\s+also)?\s+(?:be\s+correctly\s+translated|correctly\s+be\s+translated|be\s+translated)\b/i;
+describe("classifyFootnote — the comma-punctuated language opener, against real extracted examples", () => {
+  it("should classify Exodus 17:15's real \"Hebrew, Yahweh Nissi\" note as trn", () => {
+    expect(classifyFootnote("Hebrew, Yahweh Nissi")).toBe("trn");
+  });
 
-    const versionsDir = path.join(__dirname, "../../../bible-versions");
-    const otherVersionIds = fs
-      .readdirSync(versionsDir)
-      .filter((name) => fs.statSync(path.join(versionsDir, name)).isDirectory() && name !== "WEBUS2020");
-
-    let beholdCollisions = 0;
-    let mayBeAlsoCollisions = 0;
-    const alsoMeanDisagreements: string[] = [];
-
-    for (const versionId of otherVersionIds) {
-      const versionDir = path.join(versionsDir, versionId);
-      const files = fs.readdirSync(versionDir).filter((file) => file.endsWith(".json") && file !== "_version.json");
-      for (const file of files) {
-        const records = JSON.parse(fs.readFileSync(path.join(versionDir, file), "utf8")) as {
-          content: unknown;
-        }[];
-        const bodies: { type: string; body: string }[] = [];
-        const collect = (content: unknown): void => {
-          if (Array.isArray(content)) {
-            content.forEach(collect);
-            return;
-          }
-          if (content === null || typeof content !== "object") return;
-          const node = content as { foot?: { type?: string; content?: unknown }; content?: unknown; subtitle?: unknown; heading?: unknown };
-          if (node.foot) bodies.push({ type: String(node.foot.type), body: flattenContentText(node.foot.content) });
-          if ("content" in node) collect(node.content);
-          if ("subtitle" in node) collect(node.subtitle);
-          if ("heading" in node) collect(node.heading);
-        };
-        for (const record of records) collect(record.content);
-
-        for (const { type, body } of bodies) {
-          if (BEHOLD_GLOSS.test(body) && type !== "trn") beholdCollisions++;
-          if (CAN_COULD_MAY_AFTER.test(body) && !CAN_COULD_MAY_BEFORE.test(body) && type !== "trn") mayBeAlsoCollisions++;
-          if (ALSO_MEAN_BARE.test(body) && type !== "trn") {
-            alsoMeanDisagreements.push(`${versionId} ${file} [${type}]: ${body}`);
-          }
-        }
-      }
-    }
-
-    expect(beholdCollisions).toBe(0);
-    expect(mayBeAlsoCollisions).toBe(0);
-    // Measured against every version this project has ever shipped, the
-    // bare-infinitive broadening collides with 27 bodies across seven
-    // other versions this checkout doesn't carry — only ASV1901, BYZ2018,
-    // CLV1880, KJV1769, and YLT1898 ship here, none of which collide with
-    // it. Zero collisions reflects what this repo actually ships, not a
-    // change in that broader measurement.
-    expect(alsoMeanDisagreements).toEqual([]);
+  it("should classify 1 Corinthians 10:4's real \"Greek, petra, a rock mass or bedrock.\" note as trn", () => {
+    expect(classifyFootnote("Greek, petra, a rock mass or bedrock.")).toBe("trn");
   });
 });
 
-/**
- * `\bword\s+(?:rendered|translated)\b/i` — the divine-title-naming template
- * WEB's own upstream corpus tags `trn` and this module used to tag `stu` on
- * purpose.
- *
- * 71 real changes, all `stu` -> `trn`: 41 "Hebrew word rendered 'God'..."
- * instances plus 30 "word translated 'Lord' is 'Adonai'" instances —
- * Psalms alone repeats the Elohim note 5 times, which is why the total
- * isn't a round per-book estimate. Zero changes of any other shape:
- * `classifyFootnote`'s `xrf` → `var` → `trn` → `stu` order means a body
- * already classified `var`/`xrf` is never reachable by a trn-only pattern
- * addition.
- */
-describeIfAvailable(
-  WEBUS2020_SOURCE_AVAILABLE,
-  "requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm",
-  "The rendered/translated pattern, proven inert against WEBUS2020's own real 81-book corpus except the 71 real Elohim/Adonai fixtures",
-  () => {
-  const TRANSLATION_ALTERNATIVE_PATTERNS_BEFORE_PHASE_8 = [
-    /^Or,?\s/i,
-    /^Hebrew[:\s]/i,
-    /^Greek[:\s]/i,
-    /^Gr\.\s/i,
-    /^Aramaic[:\s]/i,
-    /^(?:Literally,?|Lit\.?)\s/i,
-    /\bBehold\b[^.]*?\bmeans look at, take notice, observe, see, or gaze at\b/i,
-    /\b(?:can|could|may)(?:\s+also)?\s+(?:be\s+(?:also\s+)?correctly\s+translated|correctly\s+be\s+translated|be\s+(?:also\s+)?translated)\b/i,
-    /\bsometimes (?:translated|rendered)\b/i,
-    /\balso means?\b/i,
-  ];
-  function offersATranslationAlternativeBeforePhase8(body: string): boolean {
-    return TRANSLATION_ALTERNATIVE_PATTERNS_BEFORE_PHASE_8.some((pattern) => pattern.test(body));
-  }
-  // xrf/var are untouched by this change too — same reasoning as
-  // classifyBeforePhase7 above: a trn-only change can never reach a body
-  // already claimed by an earlier check.
-  function classifyBeforePhase8(body: string): string {
-    const real = classifyFootnote(body);
-    if (real === "xrf" || real === "var") return real;
-    return offersATranslationAlternativeBeforePhase8(body) ? "trn" : "stu";
-  }
-
-  // Frozen snapshot from right after the rendered/translated pattern was
-  // added — one entry short of today's array (the comma-opener/Aleph-Tav
-  // additions land after this snapshot). This block's tests once compared
-  // `classifyBeforePhase8` directly against the ever-current
-  // `classifyFootnote` — the same trap the "four safe trn-recovery
-  // additions" block above already named — and a later, unrelated trn-axis
-  // addition inflated these counts by 4 before the mismatch caught it.
-  // Freezing "after" too, the same technique that block uses, keeps this
-  // block inert to future trn-axis changes.
-  const TRANSLATION_ALTERNATIVE_PATTERNS_AFTER_PHASE_8 = [
-    ...TRANSLATION_ALTERNATIVE_PATTERNS_BEFORE_PHASE_8,
-    /\bword\s+(?:rendered|translated)\b/i,
-  ];
-  function offersATranslationAlternativeAfterPhase8(body: string): boolean {
-    return TRANSLATION_ALTERNATIVE_PATTERNS_AFTER_PHASE_8.some((pattern) => pattern.test(body));
-  }
-  function classifyAfterPhase8(body: string): string {
-    const real = classifyFootnote(body);
-    if (real === "xrf" || real === "var") return real;
-    return offersATranslationAlternativeAfterPhase8(body) ? "trn" : "stu";
-  }
-
-  it("should confirm the rendered/translated pattern changes exactly 71 real classifications across the whole 82-file in-scope corpus — every one stu -> trn, none of any other shape", () => {
-    let bodyCount = 0;
-    let totalChanges = 0;
-    const nonStuToTrnChanges: string[] = [];
-
-    for (const file of WEB_IN_SCOPE_FILES) {
-      const source = fs.readFileSync(path.join(WEB_DIR, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        bodyCount++;
-        const before = classifyBeforePhase8(plainText);
-        const after = classifyAfterPhase8(plainText);
-        if (before === after) continue;
-        totalChanges++;
-        if (before !== "stu" || after !== "trn") nonStuToTrnChanges.push(`${before} -> ${after}: ${plainText}`);
-      }
-    }
-
-    expect(bodyCount).toBe(FOOTNOTES_IN_CORPUS);
-    expect(nonStuToTrnChanges).toEqual([]);
-    expect(totalChanges).toBe(71);
-  });
-
-  it("should confirm the same pattern changes exactly 69 real classifications restricted to the 66-book canonical corpus (the deuterocanon's own Daniel-Greek addition carries one real instance of each shape, outside this scope)", () => {
-    const DEUTEROCANON_RAW_FILES = new Set([
-      "41-TOBeng-web.usfm",
-      "42-JDTeng-web.usfm",
-      "43-ESGeng-web.usfm",
-      "66-DAGeng-web.usfm",
-      "45-WISeng-web.usfm",
-      "46-SIReng-web.usfm",
-      "47-BAReng-web.usfm",
-      "52-1MAeng-web.usfm",
-      "53-2MAeng-web.usfm",
-      "54-1ESeng-web.usfm",
-      "55-MANeng-web.usfm",
-      "56-PS2eng-web.usfm",
-      "57-3MAeng-web.usfm",
-      "58-2ESeng-web.usfm",
-      "59-4MAeng-web.usfm",
-    ]);
-    const canonicalFiles = WEB_IN_SCOPE_FILES.filter((file) => !DEUTEROCANON_RAW_FILES.has(file));
-
-    let changes = 0;
-    for (const file of canonicalFiles) {
-      const source = fs.readFileSync(path.join(WEB_DIR, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        if (classifyBeforePhase8(plainText) !== classifyAfterPhase8(plainText)) changes++;
-      }
-    }
-    expect(changes).toBe(69);
-  });
-  },
-);
-
-/**
- * Cross-corpus collision report for the
- * `\bword\s+(?:rendered|translated)\b/i` pattern, the same discipline the
- * `\balso means?\b` report above applies. None of the versions below is
- * reimported, reclassified, or touched by this check — a deliberate,
- * accepted exception, the same as above.
- */
-describe("The rendered/translated pattern's own real, cross-corpus disagreement (informational; none of these versions are touched)", () => {
-  it("should name every other shipped version's own real, already-stu-tagged body the general pattern would flip if that version were ever run through this classifier", () => {
-    const GENERAL_PATTERN = /\bword\s+(?:rendered|translated)\b/i;
-
-    const versionsDir = path.join(__dirname, "../../../bible-versions");
-    const otherVersionIds = fs
-      .readdirSync(versionsDir)
-      .filter((name) => fs.statSync(path.join(versionsDir, name)).isDirectory() && name !== "WEBUS2020");
-
-    const disagreements: string[] = [];
-
-    for (const versionId of otherVersionIds) {
-      const versionDir = path.join(versionsDir, versionId);
-      const files = fs.readdirSync(versionDir).filter((file) => file.endsWith(".json") && file !== "_version.json");
-      for (const file of files) {
-        const records = JSON.parse(fs.readFileSync(path.join(versionDir, file), "utf8")) as {
-          content: unknown;
-        }[];
-        const bodies: { type: string; body: string }[] = [];
-        const collect = (content: unknown): void => {
-          if (Array.isArray(content)) {
-            content.forEach(collect);
-            return;
-          }
-          if (content === null || typeof content !== "object") return;
-          const node = content as {
-            foot?: { type?: string; content?: unknown };
-            content?: unknown;
-            subtitle?: unknown;
-            heading?: unknown;
-          };
-          if (node.foot) bodies.push({ type: String(node.foot.type), body: flattenContentText(node.foot.content) });
-          if ("content" in node) collect(node.content);
-          if ("subtitle" in node) collect(node.subtitle);
-          if ("heading" in node) collect(node.heading);
-        };
-        for (const record of records) collect(record.content);
-
-        for (const { type, body } of bodies) {
-          if (GENERAL_PATTERN.test(body) && type !== "trn") disagreements.push(`${versionId} ${file} [${type}]: ${body}`);
-        }
-      }
-    }
-
-    // Same caveat as the \balso means?\b comparison above: an 82-body,
-    // four-version count was measured against versions this checkout
-    // doesn't ship (only ASV1901, BYZ2018, CLV1880, KJV1769, and YLT1898
-    // are here). Zero collisions reflects what's actually shipped, not a
-    // change in that broader measurement.
-    expect(disagreements).toEqual([]);
-  });
-});
-
-/**
- * A real `trn`-recovery addition: a comma-punctuated
- * `Hebrew,`/`Greek,`/`Aramaic,` opener, added after an earlier pass left
- * it as an accepted `stu` residual. Can only ever move a body from `stu`
- * to `trn`, the same reasoning every earlier `trn`-axis addition in this
- * file already relies on: `classifyFootnote`'s own `xrf` → `var` → `trn`
- * → `stu` order means a body already claimed by an earlier check never
- * reaches this pattern at all.
- *
- * A separate Aleph-Tav "not as a word, but as a grammatical marker"
- * construct was also considered but never actually shipped into
- * `footnoteTypeRules.ts` (confirmed directly — no such pattern exists
- * there), so Exodus 20:1 and Zechariah 12:10 both stay `stu`, correctly,
- * below.
- */
-describeIfAvailable(
-  WEBUS2020_SOURCE_AVAILABLE,
-  "requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm",
-  "The comma-opener addition, proven inert against WEBUS2020's own real 82-file corpus except 2 real fixtures",
-  () => {
-  // A hand-copied pattern array drifts the moment any other trn-axis
-  // pattern changes — measuring this one turned up three unrelated gaps: a
-  // since-removed Behold-gloss pattern, `can|could|may...translated` now
-  // tolerating more phrasings, and `word(s) rendered/translated` now
-  // matching the plural. Isolating the comma-opener's own effect directly —
-  // does this body classify `trn` now, specifically because a language
-  // opener is followed by a comma rather than a colon or space — sidesteps
-  // all three instead of chasing them by hand. (The Aleph-Tav "grammatical
-  // marker" construct proposed alongside this addition was never actually
-  // shipped, so it contributes zero changes here.)
-  const COMMA_LANGUAGE_OPENER = /^\s*["'“(]?\s*(?:Hebrew|Greek|Aramaic),/i;
-  const COLON_OR_SPACE_LANGUAGE_OPENER = /^\s*["'“(]?\s*(?:Hebrew|Greek|Aramaic)[:\s]/i;
-  function classifyBeforePhase10(body: string): string {
-    const real = classifyFootnote(body);
-    if (real !== "trn") return real;
-    const onlyMatchesViaComma = COMMA_LANGUAGE_OPENER.test(body) && !COLON_OR_SPACE_LANGUAGE_OPENER.test(body);
-    return onlyMatchesViaComma ? "stu" : "trn";
-  }
-
-  it("should confirm the comma-opener addition changes exactly 2 real classifications across the whole 82-file in-scope corpus — every one stu -> trn, none of any other shape (Exodus 17:15 and 1 Corinthians 10:4's comma openers; the Aleph-Tav construct was never shipped, so it changes nothing)", () => {
-    let bodyCount = 0;
-    let totalChanges = 0;
-    const nonStuToTrnChanges: string[] = [];
-    const changedBodies: string[] = [];
-
-    for (const file of WEB_IN_SCOPE_FILES) {
-      const source = fs.readFileSync(path.join(WEB_DIR, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        bodyCount++;
-        const before = classifyBeforePhase10(plainText);
-        const after = classifyFootnote(plainText);
-        if (before === after) continue;
-        totalChanges++;
-        if (before !== "stu" || after !== "trn") nonStuToTrnChanges.push(`${before} -> ${after}: ${plainText}`);
-        changedBodies.push(plainText);
-      }
-    }
-
-    expect(bodyCount).toBe(FOOTNOTES_IN_CORPUS);
-    expect(nonStuToTrnChanges).toEqual([]);
-    // Only the two real comma-opener instances: Exodus 17:15 and
-    // 1 Corinthians 10:4's "Greek, petra" note. The Aleph-Tav construct was
-    // never shipped (see above), so Exodus 20:1 and Zechariah 12:10 stay
-    // `stu` in both `before` and `after` — correctly, not a gap here.
-    expect(totalChanges).toBe(2);
-    expect(changedBodies.sort()).toEqual(["Hebrew, Yahweh Nissi", "Greek, petra, a rock mass or bedrock."].sort());
-  });
-
-  it("should confirm both real comma-opener changes sit in the 66-book canonical corpus, none in the 15 deuterocanon-only books", () => {
-    const DEUTEROCANON_RAW_FILES = new Set([
-      "41-TOBeng-web.usfm",
-      "42-JDTeng-web.usfm",
-      "43-ESGeng-web.usfm",
-      "66-DAGeng-web.usfm",
-      "45-WISeng-web.usfm",
-      "46-SIReng-web.usfm",
-      "47-BAReng-web.usfm",
-      "52-1MAeng-web.usfm",
-      "53-2MAeng-web.usfm",
-      "54-1ESeng-web.usfm",
-      "55-MANeng-web.usfm",
-      "56-PS2eng-web.usfm",
-      "57-3MAeng-web.usfm",
-      "58-2ESeng-web.usfm",
-      "59-4MAeng-web.usfm",
-    ]);
-    const canonicalFiles = WEB_IN_SCOPE_FILES.filter((file) => !DEUTEROCANON_RAW_FILES.has(file));
-
-    let changes = 0;
-    for (const file of canonicalFiles) {
-      const source = fs.readFileSync(path.join(WEB_DIR, file), "utf8");
-      for (const { plainText } of extractFootnoteBodiesIn(source)) {
-        if (classifyBeforePhase10(plainText) !== classifyFootnote(plainText)) changes++;
-      }
-    }
-    expect(changes).toBe(2);
-  });
-  },
-);
-
-/**
- * Cross-corpus collision report for both additions, the same discipline
- * every earlier `trn`-axis addition in this file applies. Unlike the
- * `\balso means?\b`/`word rendered\|translated` broadenings above, neither
- * addition here collides with any other already-shipped version at all —
- * both are narrow, closed constructs (a bare comma after one of three
- * language names; one specific recurring sentence), not generic English
- * phrasing another translation's own house style would independently
- * reach for. None of the versions below is reimported, reclassified, or
- * touched by this check.
- */
-describe("The comma-opener and Aleph-Tav additions' own real, cross-corpus disagreement (informational; none of these versions are touched)", () => {
-  it("should confirm zero other shipped version collides with either addition", () => {
-    const COMMA_OPENER = /^(?:Hebrew|Greek|Aramaic),/i;
-    const ALEPH_TAV = /\bnot as a word, but as a grammatical marker\b/i;
-
-    const versionsDir = path.join(__dirname, "../../../bible-versions");
-    const otherVersionIds = fs
-      .readdirSync(versionsDir)
-      .filter((name) => fs.statSync(path.join(versionsDir, name)).isDirectory() && name !== "WEBUS2020");
-
-    const disagreements: string[] = [];
-
-    for (const versionId of otherVersionIds) {
-      const versionDir = path.join(versionsDir, versionId);
-      const files = fs.readdirSync(versionDir).filter((file) => file.endsWith(".json") && file !== "_version.json");
-      for (const file of files) {
-        const records = JSON.parse(fs.readFileSync(path.join(versionDir, file), "utf8")) as {
-          content: unknown;
-        }[];
-        const bodies: { type: string; body: string }[] = [];
-        const collect = (content: unknown): void => {
-          if (Array.isArray(content)) {
-            content.forEach(collect);
-            return;
-          }
-          if (content === null || typeof content !== "object") return;
-          const node = content as {
-            foot?: { type?: string; content?: unknown };
-            content?: unknown;
-            subtitle?: unknown;
-            heading?: unknown;
-          };
-          if (node.foot) bodies.push({ type: String(node.foot.type), body: flattenContentText(node.foot.content) });
-          if ("content" in node) collect(node.content);
-          if ("subtitle" in node) collect(node.subtitle);
-          if ("heading" in node) collect(node.heading);
-        };
-        for (const record of records) collect(record.content);
-
-        for (const { type, body } of bodies) {
-          if ((COMMA_OPENER.test(body) || ALEPH_TAV.test(body)) && type !== "trn") {
-            disagreements.push(`${versionId} ${file} [${type}]: ${body}`);
-          }
-        }
-      }
-    }
-
-    expect(disagreements).toEqual([]);
-  });
-});

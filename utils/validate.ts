@@ -863,8 +863,12 @@ function checkAutoFixPassIsFixedPoint(
  * @param versionDirs - Version folder names to scope collection to — e.g.
  *   `["YLT1898"]` for one requested version, or `getVersionDirectories()`'s
  *   full result to collect every version's files
+ * @param versionsRoot - Root directory holding one subfolder per version;
+ *   defaults to the real `bible-versions/` this repo ships. Overridable so a
+ *   test can point this at a small fixture directory instead of scanning the
+ *   real corpus.
  */
-export function collectJsonFiles(versionDirs: string[]): string[] {
+export function collectJsonFiles(versionDirs: string[], versionsRoot: string = bibleVersionsDir): string[] {
   const files: string[] = [];
 
   // Root-level schema
@@ -880,7 +884,7 @@ export function collectJsonFiles(versionDirs: string[]): string[] {
 
   // Version folders and their files
   for (const versionDir of versionDirs) {
-    const versionPath = path.join(bibleVersionsDir, versionDir);
+    const versionPath = path.join(versionsRoot, versionDir);
     const jsonFiles = fs
       .readdirSync(versionPath)
       .filter((file) => file.endsWith(".json"));

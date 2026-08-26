@@ -57,7 +57,6 @@ A single recursive content shape (defined in [content-schema.json](../../../cont
 | A Strong's-node placement finding survives a run      | Several checks repair themselves inside `npm run validate`'s own pass; the rest need a hand edit. See [Strong's-node placement audit](./data-pipeline.md#strongs-node-placement-audit) |
 | A validate run reformats far more of a file than expected | The file was carrying stale formatting from before a write went through the canonical path; see [Writing files](./data-pipeline.md#writing-files) |
 | `importUsfm.ts` throws ENOENT on a source directory under `imports/` | The raw USFM corpus is gitignored local scaffolding, not a broken commit; point it at a checkout that has the source, or import from one that does. See [usfm-import.md operational tips](./usfm-import.md#operational-tips) |
-| A USFM test reports a skipped placeholder naming a directory under `imports/` | Expected on a fresh clone. The test guards its own read with `fs.existsSync` and skips by name instead of failing; nothing is broken. See [usfm-import.md operational tips](./usfm-import.md#operational-tips) |
 
 ## License & contribution notes
 
