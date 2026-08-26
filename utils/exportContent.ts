@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Content, {
+  ContentBibleLink,
   ContentHeading,
   ContentNested,
   ContentObject,
@@ -28,6 +29,7 @@ interface RenderOptions {
   footnoteMarker: (index: number) => string; // Renders the marker for the footnote at the given 0-based index within the current footnotes list
   boldWrapper: (text: string) => string; // Wraps text carrying a "b" mark
   italicWrapper: (text: string) => string; // Wraps text carrying an "i" mark
+  escapeSourceText: (text: string) => string; // Escapes this format's own delimiter characters when they appear in text taken verbatim from content, so a source-written character is never misread as a delimiter this renderer emits (see `escapeMarkdownDelimiters`)
 }
 
 /** Rendering configuration for the plain-text export (`exports/text-vbv-strongs`). */
@@ -44,12 +46,15 @@ const TEXT_OPTIONS: RenderOptions = {
   footnoteMarker: () => "°",
   boldWrapper: (text) => text,
   italicWrapper: (text) => text,
+  // The text export has no delimiter grammar of its own to collide with —
+  // "_"/"*" are ordinary printable characters here, so nothing is escaped.
+  escapeSourceText: (text) => text,
 };
 
 /**
  * Letter label for the nth footnote (0-based) in a chapter: a, b, ... z, aa,
- * ab, ... Chapters routinely carry more than 26 footnotes: CLV1880 PSA 119
- * has 176, reaching "ft".
+ * ab, ... Chapters routinely carry more than 26 footnotes, so the label must
+ * keep extending rather than wrapping back to "a".
  */
 function footnoteLabel(index: number): string {
   let remaining = index;
@@ -69,6 +74,20 @@ function markdownHeadingMarker(type?: "standard" | "acrostic"): string {
   return type === "acrostic" ? "####" : "###";
 }
 
+/**
+ * `RenderOptions` for a subtitle's own inner content, with the italic
+ * wrapper suppressed — the subtitle wrapper (`> _..._`) already italicizes
+ * the whole line, so an inner "i" mark would nest a redundant, colliding
+ * delimiter. A no-op for plain text, since `TEXT_OPTIONS.italicWrapper` is
+ * already the identity function. Shared by every place a subtitle renders
+ * its own content: `renderContent`'s "subtitle" branch, the chapter-hoist
+ * duplicate in `convertBibleVersionToMarkdown`, and the verse-level fallback
+ * in `convertVerseToMarkdown`.
+ */
+function subtitleInnerOptions(options: RenderOptions): RenderOptions {
+  return { ...options, italicWrapper: (text) => text };
+}
+
 /** Rendering configuration for the markdown export (`exports/markdown-par`). */
 const MARKDOWN_OPTIONS: RenderOptions = {
   includeStrongs: false,
@@ -82,6 +101,7 @@ const MARKDOWN_OPTIONS: RenderOptions = {
   footnoteMarker: (index) => `<sup>${footnoteLabel(index)}</sup>`,
   boldWrapper: (text) => `**${text}**`,
   italicWrapper: (text) => `_${text}_`,
+  escapeSourceText: escapeMarkdownDelimiters,
 };
 
 // ============================================================================
@@ -119,11 +139,11 @@ function startsWithLetter(text: string): boolean {
 }
 
 /**
- * A node carrying only a footnote of its own — no text, no Strong's number,
- * no nested content. The shape a *second* footnote on one word takes:
- * `content-schema.json` allows only one `foot` per node, so it rides as a
- * textless sibling immediately after the word it annotates rather than
- * living on that word's own node.
+ * A node carrying only a footnote — no text, Strong's number, or nested
+ * content. Two real corpus shapes take this form: a *second* footnote on
+ * one word, riding as a textless sibling right after it since
+ * `content-schema.json` allows only one `foot` per node; or a `{foot}` that
+ * is the *sole* note on a phrase, sitting before it instead of after.
  */
 function isTextlessFootnoteSibling(item: Content): boolean {
   if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
@@ -135,17 +155,43 @@ function isTextlessFootnoteSibling(item: Content): boolean {
 }
 
 /**
- * Whether `item` is a plain mark-bearing renderable — a `ContentObject` or
- * `ContentNested` — rather than one of the array's other legal shapes: a
- * bare string, a `heading`/`subtitle`/`bibleLink` item (each renders in its
- * own context and must never be treated as sharing the surrounding items'
- * open "b"/"i" state), or the `paragraph`-wrapper object (`content.paragraph`
- * holding nested content, not the boolean start-of-paragraph flag). Only
- * `ContentObject` and `ContentNested` ever carry a `marks` array, so only
- * these two shapes ever participate in the array branch's emphasis-state
- * walk (see `emphasisTransition`).
+ * A `bibleLink` node's own display override, when it's a single mark-bearing
+ * object — this shape's marks should be judged against the surrounding
+ * emphasis run rather than rendered as an opaque span (see
+ * `isMarkRunCandidate`, `renderBibleLinkParts`). Every other override shape
+ * — a plain string, none at all, or a single-element array — falls through
+ * unchanged to the existing opaque `"bibleLink" in content` render further
+ * below. Keep this predicate's scope exactly this narrow: an array override
+ * carrying marks is untested, and widening to include it could self-wrap in
+ * a way this fix never checked for.
+ */
+function markedBibleLinkOverride(item: Content): ContentObject | undefined {
+  if (typeof item !== "object" || item === null || Array.isArray(item)) return undefined;
+  if (!("bibleLink" in item)) return undefined;
+  const override = (item as ContentBibleLink).content;
+  if (override === undefined || typeof override === "string" || Array.isArray(override)) return undefined;
+  if (typeof override !== "object" || override === null) return undefined;
+  if ("heading" in override || "subtitle" in override || "bibleLink" in override || "content" in override) {
+    return undefined;
+  }
+  const obj = override as ContentObject;
+  return obj.marks && obj.marks.length > 0 ? obj : undefined;
+}
+
+/**
+ * Whether `item` is a plain mark-bearing renderable — `ContentObject`/
+ * `ContentNested`, or a `bibleLink` whose override qualifies per
+ * `markedBibleLinkOverride` — rather than one of the array's other legal
+ * shapes: a bare string, a `heading`/`subtitle`/an unqualified `bibleLink`
+ * (each renders in its own context and must never share the surrounding
+ * items' open "b"/"i" state), or the `paragraph`-wrapper object
+ * (`content.paragraph` holding nested content, not the boolean
+ * start-of-paragraph flag). Only these ever carry a `marks` array, so only
+ * they participate in the array branch's emphasis-state walk (see
+ * `emphasisTransition`).
  */
 function isMarkRunCandidate(item: Content): item is ContentObject | ContentNested {
+  if (markedBibleLinkOverride(item) !== undefined) return true;
   if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
   if ("heading" in item || "subtitle" in item || "bibleLink" in item) return false;
   if ("paragraph" in item && item.paragraph !== undefined && typeof item.paragraph !== "boolean") return false;
@@ -153,33 +199,47 @@ function isMarkRunCandidate(item: Content): item is ContentObject | ContentNeste
 }
 
 /**
- * Which of "b"/"i" a node's own `marks` array requests, as two independent
- * booleans rather than one combined key — see `emphasisTransition`, which is
- * what actually needs them independent (a shared mark can stay open across a
- * neighbor that only changes the other one; e.g. italic staying open while
- * bold alone drops for just a supplied/implied word in the middle of an
- * otherwise bold+italic quotation). Ignores any other mark (e.g. "sc" doesn't
- * affect emphasis wrapping, only whether the text is uppercased).
+ * Which of "b"/"i" a node's own `marks` array requests, kept as two
+ * independent booleans — `emphasisTransition` needs them independent so a
+ * shared mark (e.g. italic) can stay open across a neighbor that only
+ * toggles the other (bold), as in a supplied word mid-quotation. Other marks
+ * like "sc" are ignored here; they don't affect emphasis wrapping.
  */
 interface EmphasisState {
+  /** Whether "b" (bold) is currently open. */
   b: boolean;
+  /** Whether "i" (italic) is currently open. */
   i: boolean;
 }
 
+/** Reads which of "b"/"i" `marks` requests — see {@link EmphasisState}. */
 function emphasisStateOf(marks: ContentObject["marks"]): EmphasisState {
   return { b: !!marks?.includes("b"), i: !!marks?.includes("i") };
 }
 
 /**
- * Splits `text` into its leading whitespace, trimmed core, and trailing
- * whitespace. Shared by `wrapEmphasisMarks` (wraps a single node's whole
- * text at once) and the array branch's per-transition emission (wraps only
- * the piece between two adjacent nodes' emphasis-state changes) — both need
- * to keep a delimiter off of adjacent whitespace, since CommonMark won't
- * parse a delimiter run immediately touching whitespace as opening/closing
- * emphasis (e.g. "** foo**" renders as literal asterisks, not bold), and
- * real corpus text items routinely carry a leading or trailing join-space
- * (e.g. KJV1769 JUD 1:1's " the servant").
+ * Escapes a literal `_` or `*` in text taken verbatim from content. The same
+ * character means two different things depending on who wrote it: source
+ * text that happens to contain `_`/`*` (e.g. manuscript sigla in Beta-code,
+ * like "_*M*B") is not this renderer's own emphasis markup, so it must be
+ * escaped before CommonMark can read it — a backslash escape is CommonMark's
+ * standard answer, rendering back to the literal character in any reader.
+ *
+ * Wired in as `RenderOptions.escapeSourceText`, applied only where a node's
+ * own text enters the render — never to a delimiter this renderer emits
+ * itself, so a `**`/`_` it just produced is never re-escaped.
+ */
+function escapeMarkdownDelimiters(text: string): string {
+  return text.replace(/[_*]/g, "\\$&");
+}
+
+/**
+ * Splits `text` into leading whitespace, trimmed core, and trailing
+ * whitespace. Shared by `wrapEmphasisMarks` and the array branch's
+ * per-transition emission, both of which must keep a delimiter off adjacent
+ * whitespace — CommonMark won't parse "** foo**" as bold — and real text
+ * items routinely carry a leading or trailing join-space (e.g. KJV1769 JUD
+ * 1:1's " the servant").
  */
 function splitWhitespace(text: string): { leading: string; core: string; trailing: string } {
   const leading = text.length - text.trimStart().length;
@@ -192,13 +252,12 @@ function splitWhitespace(text: string): { leading: string; core: string; trailin
 }
 
 /**
- * Applies "b"/"i" mark wrapping to `text`, bold innermost then italic
- * outermost (matching web/public/js/ContentNode.js — `emphasisTransition`
- * below relies on this same order for its own close/open sequencing). Only
- * the trimmed core is wrapped, with the original leading/trailing whitespace
- * reattached outside the delimiters (see `splitWhitespace`). A core that's
- * empty (whitespace-only or absent `text`) is left unwrapped rather than
- * producing a meaningless "****".
+ * Applies "b"/"i" wrapping to `text`, bold innermost then italic outermost —
+ * matching `web/public/js/ContentNode.js`, which `emphasisTransition` below
+ * also relies on for its own close/open order. Only the trimmed core is
+ * wrapped, with whitespace reattached outside the delimiters (see
+ * `splitWhitespace`); an empty core is left unwrapped rather than producing
+ * a meaningless "****".
  */
 function wrapEmphasisMarks(
   text: string,
@@ -218,13 +277,12 @@ function wrapEmphasisMarks(
 }
 
 /**
- * The opening and closing strings a wrapper function emits, recovered by
- * wrapping a sentinel no real content ever contains and splitting on it.
- * Lets `emphasisTransition` open/close "b"/"i" independently — closing only
- * the mark that's leaving and opening only the mark that's arriving at a
- * transition, rather than always wrapping a whole string at once — while
- * `RenderOptions` stays a pair of plain text-wrapping functions rather than
- * needing separate open/close string fields of its own.
+ * The opening/closing strings a wrapper emits, recovered by wrapping a
+ * sentinel no real content contains and splitting on it. Lets
+ * `emphasisTransition` open/close "b"/"i" independently at a transition,
+ * rather than always wrapping a whole string at once — so `RenderOptions`
+ * can stay plain text-wrapping functions, with no separate open/close
+ * fields needed.
  */
 function delimitersOf(wrapper: (text: string) => string): { open: string; close: string } {
   const SENTINEL = "\u0000";
@@ -235,20 +293,12 @@ function delimitersOf(wrapper: (text: string) => string): { open: string; close:
 
 /**
  * The close/open delimiters for moving the array branch's running "b"/"i"
- * open-state from `from` to `to` — closing only marks present in `from` but
- * absent from `to` (innermost first: "b" before "i", since bold nests inside
- * italic — see `wrapEmphasisMarks`'s own doc comment for that order), opening
- * only marks present in `to` but absent from `from` (outermost first: "i"
- * before "b"), and leaving a mark present in both completely alone (no
- * close/reopen). This is the whole fix for a real corpus shape: a
- * Scripture-quotation passage carrying almost every node as `["b","i"]`
- * except one or two nodes marked `["i"]` only (a supplied/implied word,
- * italicized as part of the continuous quotation but not bolded like the
- * rest of it). Comparing whole mark sets for exact equality sees those as a
- * full mismatch and closes/reopens *both* delimiters there; tracking "b" and
- * "i" independently keeps italic open continuously across the whole
- * quotation while bold alone toggles off and back on for just the supplied
- * word.
+ * open-state from `from` to `to` — closing marks present in `from` but not
+ * `to` (innermost first: "b" before "i", matching `wrapEmphasisMarks`'s own
+ * nesting order), opening marks present in `to` but not `from` (outermost
+ * first: "i" before "b"), and leaving a mark present in both untouched. See
+ * {@link EmphasisState} for why "b"/"i" must be tracked independently rather
+ * than compared as a whole set.
  */
 function emphasisTransition(
   from: EmphasisState,
@@ -272,36 +322,27 @@ function emphasisTransition(
  * kept apart rather than joined into a single string so that `renderContent`
  * (the array branch) can track adjacent same-marked nodes' own open "b"/"i"
  * state and emit a shared delimiter across several of them instead of one
- * pair per node — see `emphasisTransition`. `prefix` is the paragraph marker
- * when the node opens a new paragraph (rendered before its own text, so it
- * never falls inside the wrapper); `core` is the node's own text (or, for
- * `ContentNested`, its already-rendered nested content) before any "b"/"i"
- * wrapping is applied; `suffix` is everything that renders after the node's
- * own text and is never wrapped — footnote marker (+ inline body), Strong's
- * number, morph code, lemma, line break. A lone node (the overwhelming
- * majority) still renders as `prefix + wrap(core) + suffix`, identical to
- * before this split existed.
+ * pair per node — see `emphasisTransition`. A lone node still renders as
+ * `prefix + wrap(core) + suffix`.
  */
 interface RenderedParts {
+  /** The paragraph marker when the node opens a new paragraph — rendered before `core`, so it never falls inside the "b"/"i" wrapper. */
   prefix: string;
+  /** The node's own text (or, for `ContentNested`, its already-rendered nested content), before any "b"/"i" wrapping. */
   core: string;
+  /** Everything that renders after `core` and is never wrapped — footnote marker (+ inline body), Strong's number, morph code, lemma, line break. */
   suffix: string;
 }
 
 /**
- * Splices any trailing textless-footnote-only siblings' own markers into
+ * Splices trailing textless-footnote-only siblings' markers into
  * `parts.suffix`, right before `item`'s own Strong's tag, consuming those
- * sibling array elements as it goes. A second footnote on the same word
- * can't live on that word's own node (`content-schema.json` allows only one
- * `foot` per node — see `isTextlessFootnoteSibling`), so it rides as a
- * textless sibling immediately after; rendered in plain array order, that
- * sibling's own marker would land after this node's Strong's number purely
- * because it comes later in the array, not because that is where it
- * belongs (a real corpus case: a word carrying two footnotes).
- * Splicing every such sibling's own marker+body in before the number keeps
- * every footnote on a word reading before its Strong's number, never after.
- * Returns the updated suffix and the true last array index consumed
- * (`startIndex` itself when there was nothing to splice).
+ * array elements as it goes — see `isTextlessFootnoteSibling` for why a
+ * second footnote on one word rides as a separate sibling instead of a
+ * second `foot` on the same node. Left in array order, that sibling's
+ * marker would land after the Strong's number simply by array position, not
+ * because that's where it belongs. Returns the updated suffix and the last
+ * index consumed (`startIndex` when nothing was spliced).
  */
 function spliceTrailingFootnoteSiblings(
   item: ContentObject | ContentNested,
@@ -343,6 +384,241 @@ function spliceTrailingFootnoteSiblings(
 }
 
 /**
+ * The live state an emphasis run carries across loop iterations —
+ * `openMarks` (see `EmphasisState`) plus `pendingWhitespace`, the last
+ * core's trailing whitespace held back so a close delimiter can land before
+ * it, not after (producing "to** Abraham", not the CommonMark-breaking
+ * "to **Abraham"). Threaded through `emphasisRunContinuation` as both seed
+ * and result, which is what lets a `ContentNested` node's own inner array
+ * continue the SAME run its outer siblings are part of — see that
+ * function's own doc comment.
+ */
+interface EmphasisRunState {
+  openMarks: EmphasisState; // "b"/"i" marks currently open in this run
+  pendingWhitespace: string; // trailing whitespace held back from the last-rendered core (see above)
+}
+
+/**
+ * Renders `content` as a continuation of an already-open emphasis run:
+ * `seed` is the live open-mark/whitespace state when `content` begins, and
+ * the returned state is what's left open for the caller to carry forward.
+ * Used by `renderContent`'s array branch (seeded closed, sealed after) and
+ * by a `ContentNested` node's own inner array when that node carries no
+ * top-level "b"/"i" marks (see `nestedArrayCandidate` below) — seeding the
+ * recursive call with the outer array's live state lets the nested
+ * content's leading edge merge with a same-marked sibling right before it,
+ * instead of forcing a close+reopen at the boundary (e.g. `_which_
+ * _ye have_ to` becomes `_which ye have_ to`).
+ *
+ * A `ContentNested` node that DOES carry its own top-level marks is
+ * untouched by this: its marks wrap the whole self-contained inner render
+ * from outside (e.g. `**_great joy_**`), so `renderNestedContentParts`'s
+ * existing `core = renderContent(obj.content, ctx)` still runs for that
+ * shape, exactly as it always has.
+ *
+ * Every other branch mirrors `renderContent`'s own array-branch handling
+ * below, parameterized by `seed` and its returned state so a continuation
+ * can pick up and leave off mid-run.
+ */
+function emphasisRunContinuation(
+  content: Content,
+  ctx: RenderContext,
+  seed: EmphasisRunState
+): { text: string; state: EmphasisRunState } {
+  const bold = delimitersOf(ctx.options.boldWrapper);
+  const italic = delimitersOf(ctx.options.italicWrapper);
+
+  if (!Array.isArray(content)) {
+    // No internal run to continue — seal the seed state (matching the array
+    // branch's own hard-boundary handling) and render independently.
+    const { close } = emphasisTransition(seed.openMarks, { b: false, i: false }, bold, italic);
+    return {
+      text: close + seed.pendingWhitespace + renderContent(content, ctx),
+      state: { openMarks: { b: false, i: false }, pendingWhitespace: "" },
+    };
+  }
+
+  let result = "";
+  let openMarks = seed.openMarks;
+  let pendingWhitespace = seed.pendingWhitespace;
+
+  const closeOpenMarks = () => {
+    const { close } = emphasisTransition(openMarks, { b: false, i: false }, bold, italic);
+    result += close + pendingWhitespace;
+    pendingWhitespace = "";
+    openMarks = { b: false, i: false };
+  };
+
+  for (let index = 0; index < content.length; index++) {
+    const item = content[index];
+
+    if (!isMarkRunCandidate(item)) {
+      // A whitespace-only bare string is transparent to the open "b"/"i"
+      // state, same as a whitespace-only object core below (`isBlank`) — a
+      // same-marked node on either side still merges into one span. Held in
+      // `pendingWhitespace` rather than emitted immediately (see
+      // `EmphasisRunState`'s doc comment): emitting it here would produce
+      // "_the _foo" once the next node's marks differ, which CommonMark
+      // won't parse as closing emphasis. This can happen even when the two
+      // neighboring nodes disagree in mark sets (e.g. `["i"]` next to
+      // `["i","sc"]`) — `auditNodes.ts` deliberately leaves such a gap alone
+      // at the JSON level, so it has to be handled here instead.
+      if (typeof item === "string" && item !== "" && item.trim() === "") {
+        pendingWhitespace += item;
+        continue;
+      }
+      // A bare string, heading/subtitle/bibleLink, or paragraph-wrapper —
+      // each renders in its own context, so any open marks close first.
+      closeOpenMarks();
+      let rendered = renderContent(item, ctx);
+      const next = content[index + 1];
+      if (next !== undefined && endsWithUnseparatedTag(item, ctx) && startsWithLetter(renderContent(next, ctx))) {
+        rendered += " ";
+      }
+      result += rendered;
+      continue;
+    }
+
+    // A ContentNested item with no top-level "b"/"i" marks has no separate
+    // outer wrap to apply — its leading/trailing emphasis state comes from
+    // its own inner content's edges instead, joining this run exactly as a
+    // flat node's marks would (see this function's doc comment).
+    // `emphasisStateOf`, not a raw `marks?.length` check, decides
+    // eligibility, so a node marked only `["woc"]` or `["sc"]` is just as
+    // eligible as one with no marks — consistent with `desired` below
+    // treating those marks as inert.
+    const override = markedBibleLinkOverride(item);
+    const ownMarks = !override && "content" in item ? emphasisStateOf(item.marks) : undefined;
+    const nestedArrayCandidate =
+      ownMarks !== undefined && !ownMarks.b && !ownMarks.i && Array.isArray((item as ContentNested).content);
+
+    if (nestedArrayCandidate) {
+      const nested = item as ContentNested;
+      if (nested.paragraph) closeOpenMarks();
+      result += renderNestedPrefix(nested, ctx);
+
+      const continuation = emphasisRunContinuation(nested.content, ctx, { openMarks, pendingWhitespace });
+      result += continuation.text;
+      openMarks = continuation.state.openMarks;
+      pendingWhitespace = continuation.state.pendingWhitespace;
+
+      const parts: RenderedParts = {
+        prefix: "",
+        core: continuation.text,
+        suffix: renderNestedSuffix(nested, ctx, continuation.text),
+      };
+      const spliced = spliceTrailingFootnoteSiblings(nested, parts, content, index, ctx);
+      index = spliced.lastIndex;
+      if (spliced.suffix !== "") {
+        closeOpenMarks();
+        result += spliced.suffix;
+      }
+
+      const next = content[index + 1];
+      if (next !== undefined && endsWithUnseparatedTag(nested, ctx) && startsWithLetter(renderContent(next, ctx))) {
+        result += " ";
+      }
+      continue;
+    }
+
+    // A qualifying bibleLink's own display override supplies both the
+    // rendered core and the marks driving this run's open/close state (see
+    // `markedBibleLinkOverride`/`renderBibleLinkParts`); every other shape
+    // reports marks from `item` itself. Re-checked here rather than
+    // threading `isMarkRunCandidate`'s internal check through as a value,
+    // because its type predicate already narrowed `item` to `ContentObject
+    // | ContentNested` — safe since every other `item`-typed access below
+    // (`.strong`, `.paragraph`) degrades to a harmless `undefined` read on a
+    // real bibleLink node, and `markedBibleLinkOverride` is cheap and pure.
+    let parts = override
+      ? renderBibleLinkParts(override, ctx)
+      : "content" in item
+        ? renderNestedContentParts(item, ctx)
+        : renderTextObjectParts(item, ctx);
+
+    if (isTextlessFootnoteSibling(item) && pendingWhitespace !== "" && parts.suffix.endsWith(" ")) {
+      // A real word with its own trailing space already precedes this
+      // textless footnote-only node — that space is about to flush before
+      // `parts.suffix` is appended, so the defensive trailing space this
+      // node's own suffix carries (see `renderTextObjectParts`'s own "next
+      // content item is spaced correctly" comment) would be a second,
+      // redundant space. Real CLV1880 Numbers 20:28 shape, once the
+      // footnote-marker-spacing check's fixer (`fixFootnoteMarkerSpacing.ts`) extracts the marker into its
+      // own node: without this, the marker renders with a stray space before
+      // the next word it's meant to introduce with none. A verse-initial
+      // textless footnote (real NUM 20:29) has no pendingWhitespace queued
+      // here and keeps its own defensive space untouched.
+      parts = { ...parts, suffix: parts.suffix.slice(0, -1) };
+    }
+    const spliced = spliceTrailingFootnoteSiblings(item, parts, content, index, ctx);
+    parts = { ...parts, suffix: spliced.suffix };
+    index = spliced.lastIndex;
+
+    // A node opening a new paragraph is a hard boundary too: its own
+    // marker renders before its text, so whatever was open before it must
+    // already be closed, and it never inherits the previous paragraph's
+    // open marks.
+    if (item.paragraph) closeOpenMarks();
+    result += parts.prefix;
+
+    // A whitespace-only or absent core is never wrapped (matching
+    // `wrapEmphasisMarks`'s own "meaningless ****" avoidance) and is
+    // transparent to the open/close state — it neither opens nor closes a
+    // mark, so a same-marked node on either side of it still merges into
+    // one continuous span. This holds even for a whitespace-only *object*
+    // core that carries its own marks: this path only writes `parts.core`
+    // directly when `desired` equals `openMarks` exactly, i.e. nothing is
+    // transitioning at this node at all, so there is no close/open ordering
+    // for the write to get wrong.
+    const isBlank = parts.core.trim() === "";
+    const desired = isBlank ? openMarks : emphasisStateOf(override ? override.marks : item.marks);
+    const transition = emphasisTransition(openMarks, desired, bold, italic);
+
+    result += transition.close + pendingWhitespace;
+    pendingWhitespace = "";
+
+    if (isBlank) {
+      result += parts.core;
+    } else {
+      const { leading, core, trailing } = splitWhitespace(parts.core);
+      result += leading + transition.open + core;
+      pendingWhitespace = trailing;
+    }
+    openMarks = desired;
+
+    // Interruption: a footnote marker, Strong's number, morph code, or
+    // line break renders next, so nothing can legitimately still be open
+    // once we cross it — the render-time mirror of the "does this boundary
+    // carry a flag" test `contentFromPieces` already uses at the
+    // JSON-node-merging layer.
+    if (parts.suffix !== "") {
+      closeOpenMarks();
+      result += parts.suffix;
+    }
+
+    // A tagged node's text can legitimately end mid-word-space — an attach
+    // pass folds a leaf's trailing join-space backward into the tagged node
+    // when the following text is marked, leaving the *next* sibling
+    // without its usual leading space and fusing words in the plain-text
+    // export ("darkness H2822was"). Testing the next sibling's own
+    // rendered text, rather than guessing from this item alone, keeps the
+    // end of an array correct and leaves a textless footnote-only sibling
+    // alone (its render opens with "°", which must stay unspaced for
+    // °{...} to remain a clean search/replace target). Checked against
+    // `item` itself, never `content[index]` after splicing, since a
+    // trailing textless-footnote sibling consumed by
+    // `spliceTrailingFootnoteSiblings` never carries the tag this check
+    // looks for.
+    const next = content[index + 1];
+    if (next !== undefined && endsWithUnseparatedTag(item, ctx) && startsWithLetter(renderContent(next, ctx))) {
+      result += " ";
+    }
+  }
+
+  return { text: result, state: { openMarks, pendingWhitespace } };
+}
+
+/**
  * Render any Content to a string based on options. Shape checks run from
  * most specific (heading, subtitle, bibleLink, paragraph wrapper) to most
  * generic (nested content, then a bare text object), returning at the
@@ -350,118 +626,18 @@ function spliceTrailingFootnoteSiblings(
  */
 function renderContent(content: Content, ctx: RenderContext): string {
   if (typeof content === "string") {
-    return content;
+    return ctx.options.escapeSourceText(content);
   }
 
   if (Array.isArray(content)) {
-    let result = "";
-
-    // The running "b"/"i" open state, carried across loop iterations rather
-    // than collected into a run ahead of time — see `emphasisTransition`.
-    // `pendingWhitespace` is the last-rendered core's own trailing whitespace,
-    // held back rather than emitted immediately so a close delimiter that
-    // belongs at THIS transition can land before it instead of after (e.g.
-    // closing bold right after "to", not after its trailing space, is what
-    // produces "to** Abraham" rather than the CommonMark-breaking
-    // "to **Abraham" with the close delimiter preceded by whitespace).
-    let openMarks: EmphasisState = { b: false, i: false };
-    let pendingWhitespace = "";
     const bold = delimitersOf(ctx.options.boldWrapper);
     const italic = delimitersOf(ctx.options.italicWrapper);
-
-    const closeOpenMarks = () => {
-      const { close } = emphasisTransition(openMarks, { b: false, i: false }, bold, italic);
-      result += close + pendingWhitespace;
-      pendingWhitespace = "";
-      openMarks = { b: false, i: false };
-    };
-
-    for (let index = 0; index < content.length; index++) {
-      const item = content[index];
-
-      if (!isMarkRunCandidate(item)) {
-        // A bare string, heading/subtitle/bibleLink, or paragraph-wrapper —
-        // each renders in its own context, so any open marks close first.
-        closeOpenMarks();
-        let rendered = renderContent(item, ctx);
-        const next = content[index + 1];
-        if (next !== undefined && endsWithUnseparatedTag(item, ctx) && startsWithLetter(renderContent(next, ctx))) {
-          rendered += " ";
-        }
-        result += rendered;
-        continue;
-      }
-
-      let parts = "content" in item
-        ? renderNestedContentParts(item, ctx)
-        : renderTextObjectParts(item, ctx);
-      const spliced = spliceTrailingFootnoteSiblings(item, parts, content, index, ctx);
-      parts = { ...parts, suffix: spliced.suffix };
-      index = spliced.lastIndex;
-
-      // A node opening a new paragraph is a hard boundary too: its own
-      // marker renders before its text, so whatever was open before it must
-      // already be closed, and it never inherits the previous paragraph's
-      // open marks.
-      if (item.paragraph) closeOpenMarks();
-      result += parts.prefix;
-
-      // A whitespace-only or absent core is never wrapped (matching
-      // `wrapEmphasisMarks`'s own "meaningless ****" avoidance) and is
-      // transparent to the open/close state — it neither opens nor closes a
-      // mark, so a same-marked node on either side of it still merges into
-      // one continuous span.
-      const isBlank = parts.core.trim() === "";
-      const desired = isBlank ? openMarks : emphasisStateOf(item.marks);
-      const transition = emphasisTransition(openMarks, desired, bold, italic);
-
-      result += transition.close + pendingWhitespace;
-      pendingWhitespace = "";
-
-      if (isBlank) {
-        result += parts.core;
-      } else {
-        const { leading, core, trailing } = splitWhitespace(parts.core);
-        result += leading + transition.open + core;
-        pendingWhitespace = trailing;
-      }
-      openMarks = desired;
-
-      // Interruption: a footnote marker, Strong's number, morph code, or
-      // line break renders next, so nothing can legitimately still be open
-      // once we cross it — the render-time mirror of the "does this boundary
-      // carry a flag" test `contentFromPieces` already uses at the
-      // JSON-node-merging layer.
-      if (parts.suffix !== "") {
-        closeOpenMarks();
-        result += parts.suffix;
-      }
-
-      // A tagged node's text can legitimately end mid-word-space — an attach
-      // pass folds a leaf's trailing join-space backward into the tagged node
-      // when the following text is marked — leaving the *next* sibling
-      // without the leading space every other node in the array relies on,
-      // which fuses the words in the plain-text export ("darkness H2822was").
-      // Testing the next sibling's own rendered text rather than guessing
-      // from this item alone is what keeps the end of an array correct
-      // (nothing follows, so nothing needs separating) and leaves a textless
-      // footnote-only sibling alone: its render opens with "°", which must
-      // stay unspaced for °{...} to remain a clean search/replace target.
-      // Checked against `item` itself, never whatever sits at `content[index]`
-      // after splicing, since a trailing textless-footnote sibling consumed by
-      // `spliceTrailingFootnoteSiblings` never itself carries the
-      // Strong's/morph tag this check looks for (a real corpus case: a word
-      // carrying the tag plus two footnotes, one riding as a consumed
-      // textless sibling; the sibling slot spliced in after it carries no
-      // tag of its own).
-      const next = content[index + 1];
-      if (next !== undefined && endsWithUnseparatedTag(item, ctx) && startsWithLetter(renderContent(next, ctx))) {
-        result += " ";
-      }
-    }
-
-    closeOpenMarks();
-    return result;
+    const { text, state } = emphasisRunContinuation(content, ctx, {
+      openMarks: { b: false, i: false },
+      pendingWhitespace: "",
+    });
+    const { close } = emphasisTransition(state.openMarks, { b: false, i: false }, bold, italic);
+    return text + close + state.pendingWhitespace;
   }
 
   if ("heading" in content) {
@@ -473,8 +649,10 @@ function renderContent(content: Content, ctx: RenderContext): string {
   }
 
   if ("subtitle" in content) {
+    // Suppress the inner italic wrap — see `subtitleInnerOptions`.
     const inner = renderContent(content.subtitle, {
       ...ctx,
+      options: subtitleInnerOptions(ctx.options),
       footnotePrefix: "Subtitle.",
     });
     return ctx.options.subtitleWrapper(inner);
@@ -534,6 +712,11 @@ function renderTextObjectParts(obj: ContentObject, ctx: RenderContext): Rendered
     text = text.toUpperCase();
   }
 
+  // Escape source-written "_"/"*" last, so downstream steps
+  // (wrapEmphasisMarks, the array branch's splitWhitespace) operate on text
+  // already safe to emit.
+  text = ctx.options.escapeSourceText(text);
+
   const suffixParts: string[] = [];
 
   // Footnote marker and content come before Strong's/morph so users can
@@ -588,31 +771,52 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
 }
 
 /**
- * Computes a ContentNested's three `RenderedParts` — like
- * `renderTextObjectParts`, but the core is the nested content's own
- * recursive render rather than a `text` property. Recursing through
- * `renderContent` here is what makes the array branch's emphasis-state
- * tracking apply automatically inside a `ContentNested`'s own inner array
- * too: the recursive call hits the array branch again and merges
- * same-marked siblings there before this node's own "b"/"i" wrap (applied by
- * the caller) ever sees the result.
+ * `RenderedParts` for a `bibleLink` node whose display override qualifies
+ * per `markedBibleLinkOverride` — the override is already a `ContentObject`,
+ * so this reuses `renderTextObjectParts` directly instead of duplicating its
+ * logic. Routing through here rather than the opaque `"bibleLink" in
+ * content` branch defers the override's "b"/"i" wrap to the caller, so
+ * `emphasisTransition` can supply shared delimiters across this node and
+ * its same-marked neighbors, exactly as for a plain `ContentObject`.
+ * Self-wrapping would instead produce `_In the_ _1. Chro. 17.6__. any of the
+ * judges_` (redundant `_ _`, broken `__`); merging it into the run produces
+ * one continuous span.
  */
-function renderNestedContentParts(obj: ContentNested, ctx: RenderContext): RenderedParts {
-  let prefix = "";
-  if (obj.paragraph) {
-    // Text format needs a space before the marker to separate it from the
-    // previous word's Strong's/morph
-    prefix = ctx.options.footnoteStyle === "inline"
-      ? " " + ctx.options.paragraphMarker
-      : ctx.options.paragraphMarker;
-  }
+function renderBibleLinkParts(override: ContentObject, ctx: RenderContext): RenderedParts {
+  return renderTextObjectParts(override, ctx);
+}
 
-  const core = renderContent(obj.content, ctx);
+/**
+ * A ContentNested's own paragraph-marker prefix — independent of its
+ * `content`, so `emphasisRunContinuation`'s merge-eligible branch can reuse
+ * it without rendering `obj.content` a second time (which would double-fire
+ * any footnote a node inside it carries — see `renderNestedSuffix`'s own
+ * doc comment for why the ordering there matters for the same reason).
+ */
+function renderNestedPrefix(obj: ContentNested, ctx: RenderContext): string {
+  if (!obj.paragraph) return "";
+  // Same paragraph-prefix rationale as `renderTextObjectParts`.
+  return ctx.options.footnoteStyle === "inline"
+    ? " " + ctx.options.paragraphMarker
+    : ctx.options.paragraphMarker;
+}
 
+/**
+ * A ContentNested's own footnote/Strong's/morph/lemma/break suffix —
+ * independent of `obj.content` except for the inline-footnote-style check,
+ * which needs to know whether the already-rendered `core` came out empty,
+ * so the caller passes it in rather than this function rendering
+ * `obj.content` itself. Kept separate from `renderNestedContentParts` so
+ * `emphasisRunContinuation`'s merge-eligible branch can call it too, after
+ * computing `core` its own way — both callers must push `obj.foot`'s
+ * reference-style line into `ctx.footnotes` in the same relative order,
+ * which is why each computes `core` first and calls this function after.
+ */
+function renderNestedSuffix(obj: ContentNested, ctx: RenderContext, core: string): string {
   const suffixParts: string[] = [];
 
-  // Footnote marker and content come before Strong's/morph so °{...} stays a
-  // clean search/replace target
+  // Same footnote/Strong's ordering rationale as `renderTextObjectParts`'s
+  // own suffix (kept in one place there).
   if (obj.foot && ctx.options.includeFootnotes) {
     const footIndex = ctx.footnotes.length;
     suffixParts.push(ctx.options.footnoteMarker(footIndex));
@@ -624,10 +828,7 @@ function renderNestedContentParts(obj: ContentNested, ctx: RenderContext): Rende
     });
 
     if (ctx.options.footnoteStyle === "inline") {
-      // No space before { so °{...} stays a clean search/replace target
       suffixParts.push(`{${footnoteContent}}`);
-      // A textless footnote-only element needs a trailing space so the next
-      // content item is spaced correctly
       if (!core && !obj.strong) {
         suffixParts.push(" ");
       }
@@ -656,7 +857,28 @@ function renderNestedContentParts(obj: ContentNested, ctx: RenderContext): Rende
     suffixParts.push(ctx.options.lineBreakMarker);
   }
 
-  return { prefix, core, suffix: suffixParts.join("") };
+  return suffixParts.join("");
+}
+
+/**
+ * Computes a ContentNested's three `RenderedParts` — like
+ * `renderTextObjectParts`, but the core is the nested content's own
+ * recursive render rather than a `text` property. Recursing through
+ * `renderContent` lets the array branch's emphasis-state tracking apply
+ * automatically inside the inner array too, merging same-marked siblings
+ * before this node's own "b"/"i" wrap is applied by the caller. Used for the
+ * lone-node path (`renderNestedContent`) and for any nested node
+ * `emphasisRunContinuation` doesn't treat as merge-eligible (own top-level
+ * marks, or non-array content) — both render `obj.content` self-contained
+ * and sealed.
+ */
+function renderNestedContentParts(obj: ContentNested, ctx: RenderContext): RenderedParts {
+  const core = renderContent(obj.content, ctx);
+  return {
+    prefix: renderNestedPrefix(obj, ctx),
+    core,
+    suffix: renderNestedSuffix(obj, ctx, core),
+  };
 }
 
 /**
@@ -709,10 +931,16 @@ function convertVerseToMarkdown(
     verseNum: verse.verse,
   };
 
-  let headingPrefix = "";
+  let leadingPrefix = "";
   let processedContent = verse.content;
 
-  // A leading heading renders above the verse number rather than inline with the verse text
+  // A leading heading or subtitle renders above the verse number rather
+  // than inline — the fallback for whatever
+  // `convertBibleVersionToMarkdown`'s chapter-level hoist didn't already
+  // consume: the second heading of a chapter-opening [heading, heading]
+  // run, or any subtitle that doesn't open a chapter. Previously a leading
+  // subtitle rendered stranded inside the verse line with a meaningless
+  // mid-line "> " marker; hoisting it here avoids that.
   if (Array.isArray(verse.content) && verse.content.length > 0) {
     const firstItem = verse.content[0];
     if (typeof firstItem === "object" && "heading" in firstItem) {
@@ -721,7 +949,15 @@ function convertVerseToMarkdown(
         footnotePrefix: "Heading.",
       });
       const marker = markdownHeadingMarker((firstItem as ContentHeading).type);
-      headingPrefix = `\n${marker} ${headingText}\n`;
+      leadingPrefix = `\n${marker} ${headingText}\n`;
+      processedContent = verse.content.slice(1);
+    } else if (typeof firstItem === "object" && "subtitle" in firstItem) {
+      const subtitleText = renderContent(firstItem.subtitle, {
+        ...ctx,
+        options: subtitleInnerOptions(ctx.options),
+        footnotePrefix: "Subtitle.",
+      });
+      leadingPrefix = `\n${ctx.options.subtitleWrapper(subtitleText)}\n`;
       processedContent = verse.content.slice(1);
     }
   }
@@ -761,7 +997,7 @@ function convertVerseToMarkdown(
 
   const paragraphPrefix = hasLeadingParagraph ? "\n" : "";
 
-  return `${headingPrefix}${paragraphPrefix}<sup>${verse.verse}</sup> ${text}`;
+  return `${leadingPrefix}${paragraphPrefix}<sup>${verse.verse}</sup> ${text}`;
 }
 
 // ============================================================================
@@ -877,46 +1113,57 @@ async function convertBibleVersionToMarkdown(
 
       const chapterFootnotes: string[] = [];
 
-      // A leading subtitle prints above the chapter rather than inside verse 1
-      if (chapterVerses.length > 0) {
+      // A leading run of heading/subtitle wrappers prints above the chapter
+      // rather than inside verse 1, hoisted in the order they actually
+      // appear rather than a fixed subtitle-then-heading order — a fixed
+      // order would silently miss a [heading, subtitle] leading run and
+      // leave a stray mid-line "> " blockquote marker in verse 1. At most
+      // one heading and one subtitle are consumed here, never a second of
+      // the same kind, so a [heading, heading] chapter opening (e.g. an
+      // acrostic Psalm's stanza headings) still hoists only its first
+      // heading and leaves the second for `convertVerseToMarkdown`'s own
+      // verse-level fallback.
+      let hoistedHeading = false;
+      let hoistedSubtitle = false;
+      while (chapterVerses.length > 0) {
         const firstContent = chapterVerses[0].content;
-        if (Array.isArray(firstContent) && firstContent.length > 0) {
-          const firstItem = firstContent[0];
-          if (typeof firstItem === "object" && "subtitle" in firstItem) {
-            const ctx: RenderContext = {
-              options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
-              footnotes: chapterFootnotes,
-              verseNum: chapterVerses[0].verse,
-              footnotePrefix: "Subtitle.",
-            };
-            const subtitleText = renderContent(firstItem.subtitle, ctx);
-            markdownLines.push("");
-            markdownLines.push(`> _${subtitleText}_`);
-            chapterVerses[0].content = firstContent.slice(1);
-          }
-        }
-      }
+        if (!Array.isArray(firstContent) || firstContent.length === 0) break;
+        const firstItem = firstContent[0];
+        if (typeof firstItem !== "object") break;
 
-      // A leading heading prints above the chapter rather than inside verse 1
-      if (chapterVerses.length > 0) {
-        const firstContent = chapterVerses[0].content;
-        if (Array.isArray(firstContent) && firstContent.length > 0) {
-          const firstItem = firstContent[0];
-          if (typeof firstItem === "object" && "heading" in firstItem) {
-            const ctx: RenderContext = {
-              options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
-              footnotes: chapterFootnotes,
-              footnotePrefix: "Heading.",
-            };
-            const headingText = renderContent(firstItem.heading, ctx);
-            const marker = markdownHeadingMarker(
-              (firstItem as ContentHeading).type
-            );
-            markdownLines.push("");
-            markdownLines.push(`${marker} ${headingText}`);
-            chapterVerses[0].content = firstContent.slice(1);
-          }
+        if (!hoistedSubtitle && "subtitle" in firstItem) {
+          const ctx: RenderContext = {
+            options: subtitleInnerOptions({ ...MARKDOWN_OPTIONS, includeFootnotes: true }),
+            footnotes: chapterFootnotes,
+            verseNum: chapterVerses[0].verse,
+            footnotePrefix: "Subtitle.",
+          };
+          const subtitleText = renderContent(firstItem.subtitle, ctx);
+          markdownLines.push("");
+          markdownLines.push(`> _${subtitleText}_`);
+          chapterVerses[0].content = firstContent.slice(1);
+          hoistedSubtitle = true;
+          continue;
         }
+
+        if (!hoistedHeading && "heading" in firstItem) {
+          const ctx: RenderContext = {
+            options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
+            footnotes: chapterFootnotes,
+            footnotePrefix: "Heading.",
+          };
+          const headingText = renderContent(firstItem.heading, ctx);
+          const marker = markdownHeadingMarker(
+            (firstItem as ContentHeading).type
+          );
+          markdownLines.push("");
+          markdownLines.push(`${marker} ${headingText}`);
+          chapterVerses[0].content = firstContent.slice(1);
+          hoistedHeading = true;
+          continue;
+        }
+
+        break;
       }
 
       // Whether verse 1 opens its own paragraph, which decides the blank line

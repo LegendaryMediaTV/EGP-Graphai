@@ -31,7 +31,7 @@
 
 <sup>26</sup> Now in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth,
 <sup>27</sup> to a virgin betrothed to a man whose name was Joseph, of the house of David; and the virgin’s name was Mary.
-<sup>28</sup> And he came in unto her, and said, Hail, thou that art <sup>l</sup>highly favored, the Lord _is_ with thee<sup>m</sup>.
+<sup>28</sup> And he came in unto her, and said, Hail, thou that art <sup>l</sup>highly favored, the Lord _is_ with thee.<sup>m</sup>
 <sup>29</sup> But she was greatly troubled at the saying, and cast in her mind what manner of salutation this might be.
 <sup>30</sup> And the angel said unto her, Fear not, Mary: for thou hast found <sup>n</sup>favor with God.
 <sup>31</sup> And behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS.
@@ -333,7 +333,7 @@
 > - <sup>n</sup> 20. Or, _roll_
 > - <sup>o</sup> 26. Greek _Sarepta_.
 > - <sup>p</sup> 34. Or, _Let alone_
-> - <sup>q</sup> 36. Or, _this word, that with authority . . . come out?_
+> - <sup>q</sup> 36. Or, _this word, that with authority … come out?_
 > - <sup>r</sup> 43. Or, _the gospel_
 > - <sup>s</sup> 44. Very many ancient authorities read _Judaea_.
 
@@ -418,7 +418,7 @@
 <sup>13</sup> And when it was day, he called his disciples; and he chose from them twelve, whom also he named apostles:
 <sup>14</sup> Simon, whom he also named Peter, and Andrew his brother, and <sup>d</sup>James and John, and Philip and Bartholomew,
 <sup>15</sup> and Matthew and Thomas, and <sup>e</sup>James _the son_ of Alphæus, and Simon who was called the Zealot,
-<sup>16</sup> and Judas _the_ <sup>f</sup>_son_ of <sup>g</sup>James, and Judas Iscariot, who became a traitor;
+<sup>16</sup> and Judas _the _<sup>f</sup>_son_ of <sup>g</sup>James, and Judas Iscariot, who became a traitor;
 <sup>17</sup> and he came down with them, and stood on a level place, and a great multitude of his disciples, and a great number of the people from all Judæa and Jerusalem, and the sea coast of Tyre and Sidon, who came to hear him, and to be healed of their diseases;
 <sup>18</sup> and they that were troubled with unclean spirits were healed.
 <sup>19</sup> And all the multitude sought to touch him; for power came forth from him, and healed _them_ all.
@@ -702,8 +702,8 @@ But while all were marvelling at all the things which he did, he said unto his d
 <sup>51</sup> And it came to pass, when the days <sup>q</sup>were well-nigh come that he should be received up, he stedfastly set his face to go to Jerusalem,
 <sup>52</sup> and sent messengers before his face: and they went, and entered into a village of the Samaritans, to make ready for him.
 <sup>53</sup> And they did not receive him, because his face was _as though he were_ going to Jerusalem.
-<sup>54</sup> And when his disciples James and John saw _this_, they said, Lord, wilt thou that we bid fire to come down from heaven, and consume them<sup>r</sup>?
-<sup>55</sup> But he turned, and rebuked them<sup>s</sup>.
+<sup>54</sup> And when his disciples James and John saw _this_, they said, Lord, wilt thou that we bid fire to come down from heaven, and consume them?<sup>r</sup>
+<sup>55</sup> But he turned, and rebuked them.<sup>s</sup>
 <sup>56</sup> And they went to another village.
 
 <sup>57</sup> And as they went on the way, a certain man said unto him, I will follow thee whithersoever thou goest.
@@ -803,7 +803,7 @@ But while all were marvelling at all the things which he did, he said unto his d
 <sup>1</sup> And it came to pass, as he was praying in a certain place, that when he ceased, one of his disciples said unto him, Lord, teach us to pray, even as John also taught his disciples.
 <sup>2</sup> And he said unto them, When ye pray, say, <sup>a</sup>Father, Hallowed be thy name. Thy kingdom come.<sup>b</sup>
 <sup>3</sup> Give us day by day <sup>c</sup>our daily bread.
-<sup>4</sup> And forgive us our sins; for we ourselves also forgive every one that is indebted to us. And bring us not into temptation<sup>d</sup>.
+<sup>4</sup> And forgive us our sins; for we ourselves also forgive every one that is indebted to us. And bring us not into temptation.<sup>d</sup>
 
 <sup>5</sup> And he said unto them, Which of you shall have a friend, and shall go unto him at midnight, and say to him, Friend, lend me three loaves;
 <sup>6</sup> for a friend of mine is come to me from a journey, and I have nothing to set before him;
@@ -1118,7 +1118,7 @@ But while all were marvelling at all the things which he did, he said unto his d
 <sup>18</sup> I will arise and go to my father, and will say unto him, Father, I have sinned against heaven, and in thy sight:
 <sup>19</sup> I am no more worthy to be called thy son: make me as one of thy hired servants.
 <sup>20</sup> And he arose, and came to his father. But while he was yet afar off, his father saw him, and was moved with compassion, and ran, and fell on his neck, and <sup>f</sup>kissed him.
-<sup>21</sup> And the son said unto him, Father, I have sinned against heaven, and in thy sight: I am no more worthy to be called thy son<sup>g</sup>.
+<sup>21</sup> And the son said unto him, Father, I have sinned against heaven, and in thy sight: I am no more worthy to be called thy son.<sup>g</sup>
 <sup>22</sup> But the father said to his <sup>h</sup>servants, Bring forth quickly the best robe, and put it on him; and put a ring on his hand, and shoes on his feet:
 <sup>23</sup> and bring the fatted calf, _and_ kill it, and let us eat, and make merry:
 <sup>24</sup> for this my son was dead, and is alive again; he was lost, and is found. And they began to be merry.
@@ -1241,7 +1241,7 @@ But while all were marvelling at all the things which he did, he said unto his d
 > - <sup>c</sup> 10. Greek _bondservants_.
 > - <sup>d</sup> 11. Or, _as he was_
 > - <sup>e</sup> 11. Or, _through the midst of etc._
-> - <sup>f</sup> 18. Or, _There were none found . . . save this stranger_.
+> - <sup>f</sup> 18. Or, _There were none found … save this stranger_.
 > - <sup>g</sup> 18. Or, _alien_
 > - <sup>h</sup> 19. Or, _saved thee_
 > - <sup>i</sup> 21. Or, _in the midst of you_
@@ -1511,7 +1511,7 @@ But while all were marvelling at all the things which he did, he said unto his d
 <sup>37</sup> And every day he was teaching in the temple; and every night he went out, and lodged in the mount that is called Olivet.
 <sup>38</sup> And all the people came early in the morning to him in the temple, to hear him.
 
-> - <sup>a</sup> 1. Or, _and saw them that . . . treasury, and they were rich_.
+> - <sup>a</sup> 1. Or, _and saw them that … treasury, and they were rich_.
 > - <sup>b</sup> 12. Greek _you being brought_.
 > - <sup>c</sup> 16. Or, _betrayed_
 > - <sup>d</sup> 16. Or, _shall they put to death_
@@ -1610,7 +1610,7 @@ But while all were marvelling at all the things which he did, he said unto his d
 > - <sup>b</sup> 6. Or, _betray_
 > - <sup>c</sup> 6. Or, _without tumult_
 > - <sup>d</sup> 19. Or, _a loaf_
-> - <sup>e</sup> 19. Some ancient authorities omit _which is given for you . . . which is poured out for you_.
+> - <sup>e</sup> 19. Some ancient authorities omit _which is given for you … which is poured out for you_.
 > - <sup>f</sup> 21. See verse 4.
 > - <sup>g</sup> 22. See verse 4.
 > - <sup>h</sup> 24. Greek _greater_.
@@ -1754,7 +1754,7 @@ And on the sabbath they rested according to the commandment.
 <sup>39</sup> See my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye behold me having.
 <sup>40</sup> <sup>l</sup>And when he had said this, he showed them his hands and his feet.
 <sup>41</sup> And while they still disbelieved for joy, and wondered, he said unto them, Have ye here anything to eat?
-<sup>42</sup> And they gave him a piece of a broiled fish<sup>m</sup>.
+<sup>42</sup> And they gave him a piece of a broiled fish.<sup>m</sup>
 <sup>43</sup> And he took it, and ate before them.
 
 <sup>44</sup> And he said unto them, These are my words which I spake unto you, while I was yet with you, that all things must needs be fulfilled, which are written in the law of Moses, and the prophets, and the psalms, concerning me.

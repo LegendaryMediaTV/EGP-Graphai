@@ -67,6 +67,13 @@ interface Testament {
 - **Self-Contained Folders** – Each version folder contains `_version.json` + verse JSON files
 - **Duplicate Display Names Disambiguated** – `getBibleVersions()` groups versions by exact-match `name` and appends each colliding member's own trailing-year suffix parsed from its `_id` (e.g. two versions both named "King James Version" become "King James Version (1611)" and "King James Version (1769)"), so the version picker never shows two identical names. A colliding version whose `_id` has no parseable trailing year is logged and left unmodified rather than throwing
 - **Singular Lookup Skips Disambiguation** – `getBibleVersion(versionId)` deliberately does not disambiguate; doing so would require scanning the whole directory for a single lookup, and no current caller displays its `name` standalone. This is documented in code as an invariant to revisit if that changes
+- **Declared Chapter Count Must Match the File** – `npm run validate` compares each book's declared `chapters` against the highest chapter its own verse file actually carries (`utils/validate.ts`'s `findDeclaredChapterMismatches`, run from the book-ordering loop and reported as its own trailing audit). A version can be schema-valid and internally ordered correctly while still being *incomplete* — this check is what catches that. `npm run validate` is expected to report zero findings here at all times; there is no accepted or tolerated exception, for any version.
+
+### Declared Counts Track What's Actually Imported
+
+CLV1880's Esther and Daniel are missing that edition's own deuterocanonical additions — content the Clementine Vulgate is expected to carry, that this copy doesn't yet. `_version.json` declares each book's *actual* chapter count (10 for Esther, 12 for Daniel), matching the verse files as they stand today, not the full count the printed edition eventually has.
+
+**When that content gets imported, the declared count goes up in the same change that adds the chapters** — never before, and never left pointing at a target the file hasn't reached yet. A declared count that outruns its own file is exactly the defect this audit exists to catch; using it to "flag" missing content by deliberately mismatching the two would just be that same defect on purpose.
 
 ## Representative Code Examples
 

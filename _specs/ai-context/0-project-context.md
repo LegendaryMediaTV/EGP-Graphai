@@ -1,6 +1,6 @@
 # EGP Graphai - Project Context
 
-> **Updated:** August 24, 2026  
+> **Updated:** August 26, 2026  
 > **Repository:** [LegendaryMediaTV/EGP-Graphai](https://github.com/LegendaryMediaTV/EGP-Graphai)
 
 ## Project Summary
@@ -14,15 +14,26 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Flexible Content Model** – Recursive structure supporting paragraphs, headings, subtitles, footnotes
 - **Export Formats** – Text with Strong's annotations, paragraph-formatted Markdown, with bold/italic rendering
 - **Web Reader** – React-based SPA for reading and studying with toggleable tools
-- **Validation** – JSON Schema validation ensuring data integrity, automatic key sorting, and structural sanity checks (meaningless nodes, trailing whitespace); also runs the two audits below for each version it validates
-- **Cross-Chapter Link Audit** – Detects and fixes `bibleLink` targets that span two chapters of the same book, whether both ends name a verse or only a chapter
-- **Strong's-Node Placement Audit** – Read-only sweep for seven ways a node's text-flow placement can drift from this repo's own conventions
+- **Validation** – `npm run validate` is the one command that runs every normalization and validation rule this repo enforces: an auto-fix pass (key order, JSON formatting, `bibleLink` dash/range normalization and unresolvable-target unlinking, fraction/ellipsis/straight-quote normalization, script-run tagging, and several Strong's-node placement repairs), checked against itself for a fixed point, then schema/structure checks, then report-only audits (declared chapter counts, cross-chapter links, truncated `bibleLink` ranges, Strong's-node placement, unresolvable `bibleLink` targets). No separate audit script or `--fix` flag exists anywhere else in the tree
+- **Strong's-Node Placement Audit** – Detects many ways a node's text-flow placement can drift from this repo's own conventions; several of them repair themselves inside the auto-fix pass above — see [strongs-node-audit.md](4-domains/strongs-node-audit.md) for which
 - **USFM Import** – Converts USFM translation source files directly into verse JSON (`utils/importUsfm.ts`, `utils/usfm/`), with an independent post-import checker (`usfm/verify.ts`) and a retroactive footnote re-classification tool (`overhaulFootnotes.ts`)
 
-## Recent Changes (Heading-Paragraph Convention Enforced on Import; USFM Scaffold Resolved)
+## Recent Changes (Audit/Fix Tooling Consolidated into `npm run validate`)
 
-- **Heading Dispatch Now Opens a Paragraph Unconditionally** – `segmentVerses.ts`'s handling of `\d`/`\sp`/`\s1`/`\qc` used to set `pendingParagraph = true` only for `\sp` (Song of Solomon's speaker labels). It now sets it for all four, matching `auditNodes.ts` check 6's own corpus-wide convention (a heading or subtitle run is always followed by a node carrying `paragraph: true`) instead of leaving the other three markers to whatever `\b`/`\c` happened to share the boundary
-- **New Fixer for Check 6** – `utils/fixHeadingParagraphs.ts` retrofits the flag onto already-imported content for the versions with no USFM source to reimport from (KJV1769, YLT1898, CLV1880, BYZ2018), reusing `auditNodes.ts`'s own `findHeadingParagraphMismatches` rather than re-deriving the judgment. `utils/fixUnmergedNodes.ts` does the same for check 1. Both are `npx ts-node` scripts, not npm scripts, matching `importUsfm.ts`'s pattern
+- **One Entry Point for Every Normalization and Validation Rule** – Every standalone audit CLI and `--fix` flag this repo ever shipped (`auditCrossChapterLinks.ts`, `auditStrongsNodes.ts`/`auditNodes.ts`'s own CLI, the `audit-links` and `audit-nodes` npm scripts) is gone. `crossChapterLinks.ts` and `auditNodes.ts` are now pure library modules with no `main()`; `utils/validate.ts` is their only caller. Eleven one-off scripts under `imports/` (edition-specific fixers, an OT morphology migration, a small-caps casing pass) were retired outright rather than promoted, since each encoded a rule that either already lives here or belonged one time, at import, and never again. `utils/overhaulFootnotes.ts` is the one deliberate exception, staying a standalone opt-in CLI because its safe default depends on preserving a stored human judgment it can't re-derive
+- **Auto-Fix Pass Grew from Eight to Sixteen Steps** – New: `bibleLink` truncated-range reconstruction and unresolvable-target unlinking, untagged non-Latin script-run tagging (corpus-wide, not just headings), footnote-marker leading-space relocation (`foot`'s own mirror of the `strong` convention the trailing-whitespace check already enforced), duplicate-footnote-anchor removal, empty-text-key dropping widened to a husk riding alongside other properties, and equivalent-sibling merging. A new fixed-point step re-applies the whole pass to every changed file and fails by name if a second application would still find something to change
+- **Strong's-Node Audit Grew from Seven to Sixteen Checks** – New: unnormalized-ellipsis detection, ASCII straight-quote/apostrophe detection, footnote-marker-after-whitespace detection, untagged script-run detection, duplicate-footnote-anchor detection, mergeable-sibling detection, and non-standard-whitespace detection (report-only, permanently)
+- **Straight-Quote Direction Auto-Fixes** – The straight-quote check's straight quote/apostrophe finding now repairs itself in the same pass, via `functions/normalizeStraightQuotes.ts`: direction resolves from the character immediately before each quote, with an adjacent already-resolved quote character propagating its own direction so a bunched-up run (`"'"`) nests correctly. Backtick was dropped from the check entirely — it carries no direction to resolve, so it belongs in whichever import introduced it, not this corpus-wide convention
+- **BYZ2018 Apparatus Notation Recognized** – `footnoteTypeRules.ts` gained a symbolic-notation signal (`⇒`, standalone `~`, `¦`) checked alongside the prose-based witness signal, right after cross-reference. Without it, an edition whose apparatus is built entirely from these operators fell through every prose rule straight to the `stu` default
+- **Report-Only Audits Run as Peers, Not a Pipeline** – The trailing audits (declared chapter counts, cross-chapter links, truncated ranges, Strong's-node placement, unresolvable `bibleLink` targets) depend on none of each other, so all of them always run to completion and report in full even after one fails
+- **No Standing Exceptions — `npm run validate` Is Expected to Exit Clean** – A version whose source content is still incomplete (CLV1880's Esther and Daniel are short their deuterocanonical additions) declares only the chapters its own verse files actually carry; the declared count moves up in the same change that imports the rest. There is no version and no finding this repo treats as a permanently accepted exception
+- **Markdown Export Escapes Literal `_`/`*`** – BYZ2018's Beta-code apparatus notes cite manuscript sigla using `_`/`*` as ordinary notation; the markdown exporter now backslash-escapes both when they come from content text verbatim, so CommonMark doesn't misread them as emphasis markup. The text export has no delimiter grammar to collide with, so it escapes nothing
+- **Version 1.20.0** – See [4-domains/validation.md](4-domains/validation.md), [4-domains/strongs-node-audit.md](4-domains/strongs-node-audit.md), [4-domains/cross-chapter-links.md](4-domains/cross-chapter-links.md), [4-domains/usfm-import.md](4-domains/usfm-import.md), and [4-domains/bible-versions.md](4-domains/bible-versions.md) for full detail
+
+## Previous Changes (Heading-Paragraph Convention Enforced on Import; USFM Scaffold Resolved)
+
+- **Heading Dispatch Now Opens a Paragraph Unconditionally** – `segmentVerses.ts`'s handling of `\d`/`\sp`/`\s1`/`\qc` used to set `pendingParagraph = true` only for `\sp` (Song of Solomon's speaker labels). It now sets it for all four, matching `auditNodes.ts`'s own heading-paragraph check's corpus-wide convention (a heading or subtitle run is always followed by a node carrying `paragraph: true`) instead of leaving the other three markers to whatever `\b`/`\c` happened to share the boundary
+- **New Fixer for the Heading-Paragraph Check** – `utils/fixHeadingParagraphs.ts` retrofits the flag onto already-imported content for the versions with no USFM source to reimport from (KJV1769, YLT1898, CLV1880, BYZ2018), reusing `auditNodes.ts`'s own `findHeadingParagraphMismatches` rather than re-deriving the judgment. `utils/fixUnmergedNodes.ts` does the same for the unmerged-connector check. Both are `npx ts-node` scripts, not npm scripts, matching `importUsfm.ts`'s pattern
 - **`splitScriptRuns` No Longer an External Scaffold** – The Hebrew/Greek run-splitting helper `headings.ts`, `footnotes.ts`, and `verify.ts` depend on now lives at the tracked `utils/usfm/splitScriptRuns.ts`, not a gitignored `imports/_lib/` path
 - **Full Suite Passes** – With the WEBUS2020 raw USFM corpus present in this checkout and `splitScriptRuns` now tracked, all 29 test files and 925 tests pass; see [Test Status](#test-status) below
 - See [4-domains/usfm-import.md](4-domains/usfm-import.md#key-business-rules), [4-domains/strongs-node-audit.md](4-domains/strongs-node-audit.md#key-business-rules), and [6-tests-and-build.md](6-tests-and-build.md#usfm-import-pipeline-domain) for full detail
@@ -146,8 +157,6 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 | `npm run validate` | Validate all JSON data             |
 | `npm run export`   | Export to text/markdown            |
 | `npm run test`     | Run Vitest tests                   |
-| `npm run audit-links` | Audit all versions for unsplit cross-chapter `bibleLink`s |
-| `npm run audit-nodes` | Audit all versions for Strong's-node placement drift (read-only) |
 | `npm run overhaul-footnotes <version>` | Re-classify a version's on-disk footnotes against the current rules (add `-- --fix` to write; the bare `--` is required or npm eats the flag) |
 
 ## Context Documents
@@ -268,22 +277,20 @@ graph TB
     EXP --> TXT
     EXP --> MD
 
-    VF --> CCL
-    VF --> ASN
-    VAL -->|"read-only, per version"| CCL
-    VAL -->|"read-only, per version"| ASN
+    VAL -->|"auto-fix pass +<br/>report-only audit"| CCL
+    VAL -->|"auto-fix pass +<br/>report-only audit"| ASN
+    CCL -.->|"reads"| VF
+    ASN -.->|"reads"| VF
 
     VAL --> WJF
     EXP --> WJF
     CSC --> WJF
     SCK --> WJF
-    CCL -->|--fix| WJF
 
     USF --> IMP
     IMP --> VF
     IMP --> WJF
     IMP --> VJ
-    IMP -->|"subprocess, --fix"| CCL
     IMP -->|"subprocess"| VAL
     USF -.->|"independent check"| VFY
     VF --> OHF
@@ -354,26 +361,21 @@ window.ComponentName = ComponentName;
 5. **Strong's Number Format** – Must match `^[GH][0-9]{1,4}$`
 6. **Verse File Naming** – Must follow `{order}-{bookId}.json` pattern
 7. **Exit on Validation Failure** – Scripts exit with code 1 on any error
-8. **Leading-Space Convention** – A joining space belongs on the leading edge of the node it joins, never the trailing edge of the node before it, and never as a verse's own opening character. This convention is audited (read-only) by `auditNodes.ts`
+8. **Leading-Space Convention** – A joining space belongs on the leading edge of the node it joins, never the trailing edge of the node before it, and never as a verse's own opening character. Applies to every attribute that can own that boundary, not just the first one that got a check: enforced for `strong` and, as of the footnote-marker-spacing check, for `foot` too. `auditNodes.ts` detects every violation; `npm run validate`'s own auto-fix pass repairs the `strong` and `foot` cases automatically
 9. **USFM Verifier Independence** – `usfm/verify.ts` must never import `tokenize.ts`, `segmentVerses.ts`, or anything that imports them; it exists to catch a bug the importer itself can't see by re-deriving its checks straight from raw USFM
 10. **Footnote Classification Has One Source of Truth** – `usfm/footnoteTypeRules.ts`'s `classifyFootnote()` is called by both the importer and `overhaulFootnotes.ts`; don't duplicate its logic elsewhere
+11. **One Entry Point for Normalization and Validation** – Every rule this repo enforces on `bible-versions/**` lives inside `npm run validate`, either as an automatic repair or a report. There is no separate audit script anywhere in the tree and no `--fix` flag on anything `validate.ts` calls into
 
 ## Test Status
 
-✅ **925 tests passing, 0 skipped, across all 29 test files** (Vitest):
+✅ **1,265 tests passing, across all 38 test files** (Vitest):
 
-- `functions/__tests__/contentSchema.test.ts` – 4 tests for the heading `type` schema addition
-- `functions/__tests__/convertToSmallCaps.test.ts` – 40 tests for small caps conversion
-- `functions/__tests__/sortContentKeys.test.ts` – 27 tests for key ordering
-- `functions/__tests__/getBibleVersions.test.ts` – 23 tests for version discovery and duplicate-name disambiguation
-- `functions/__tests__/writeJsonFile.test.ts` – 10 tests for atomic file writes and JSON canonicalization
+- `functions/__tests__/` (10 files): `contentSchema.test.ts` (4), `convertToSmallCaps.test.ts` (40), `getBibleVersions.test.ts` (23), `mapContentText.test.ts` (14), `mergeEquivalentSiblingsInContent.test.ts` (18), `normalizeEllipses.test.ts` (19), `normalizeFractions.test.ts` (24), `sortContentKeys.test.ts` (27), `tagScriptRunsInContent.test.ts` (19), `writeJsonFile.test.ts` (10)
+- `utils/__tests__/` (12 files): `auditNodes.test.ts` (173, the largest suite in the repo), `crossChapterLinks.test.ts` (89), `exportContent.test.ts` (115), `fixDuplicateFootnoteAnchors.test.ts` (8), `fixFootnoteMarkerSpacing.test.ts` (23), `fixFootnotePunctuationOrder.test.ts` (5), `fixHeadingParagraphs.test.ts` (4), `fixMarkBoundaryEmbeddedSpaces.test.ts` (5), `fixUnmergedNodes.test.ts` (5), `importUsfm.test.ts` (19), `overhaulFootnotes.test.ts` (22), `validate.test.ts` (76)
+- `utils/usfm/__tests__/` (15 files, the USFM import pipeline): `segmentVerses.test.ts` (117), `verify.test.ts` (98), `footnoteTypeRules.test.ts` (93), `footnotes.test.ts` (56), `references.test.ts` (37), `inlineMarks.test.ts` (28), `headings.test.ts` (15), `metadata.test.ts` (14), `embeddedReferenceConventions.test.ts` (14), `blockStructure.test.ts` (14), `tokenize.test.ts` (10), `paragraphNoise.test.ts` (7), `bibleLinkTargetConventions.test.ts` (6), `chapterBoundaryUpstreamConvention.test.ts` (4), `bMarkerUpstreamConvention.test.ts` (3)
 - `web/public/js/__tests__/footnoteText.test.ts` – 7 tests for shared footnote-text extraction
-- `utils/__tests__/exportContent.test.ts` – 80 tests for export functionality, including bold/italic and footnote/spacing fixes
-- `utils/__tests__/crossChapterLinks.test.ts` – 40 tests for cross-chapter target classification and splitting, including whole-chapter ranges
-- `utils/__tests__/auditCrossChapterLinks.test.ts` – 8 tests for the corpus-wide sweep and CLI
-- `utils/__tests__/validate.test.ts` – 49 tests for the meaningless-content-node and Strong's-trailing-whitespace checks
-- `utils/__tests__/auditNodes.test.ts` – 71 tests for all seven Strong's-node placement checks
-- USFM import pipeline (18 files, 566 tests): `importUsfm.test.ts` (20) and `overhaulFootnotes.test.ts` (22), plus 16 files under `utils/usfm/__tests__/` — `segmentVerses.test.ts` (117), `verify.test.ts` (98), `footnoteTypeRules.test.ts` (93), `footnotes.test.ts` (55), `references.test.ts` (37), `inlineMarks.test.ts` (28), `metadata.test.ts` (14), `embeddedReferenceConventions.test.ts` (14), `blockStructure.test.ts` (14), `headings.test.ts` (13), `fractions.test.ts` (11), `tokenize.test.ts` (10), `paragraphNoise.test.ts` (7), `bibleLinkTargetConventions.test.ts` (6), `chapterBoundaryUpstreamConvention.test.ts` (4), `bMarkerUpstreamConvention.test.ts` (3). All 18 now load and pass, now that the WEBUS2020 raw USFM corpus is present in this checkout and `splitScriptRuns` is a tracked module rather than a missing external one — 7 of the 18 still depend on that corpus directly and aren't guaranteed to pass in a checkout without it; see [6-tests-and-build.md](6-tests-and-build.md#usfm-import-pipeline-domain) for which
+
+All 38 files load and pass in this checkout, which carries the gitignored WEBUS2020 raw USFM corpus several `utils/usfm/__tests__/` specs read directly; see [6-tests-and-build.md](6-tests-and-build.md#usfm-import-pipeline-domain) for which ones and what a checkout without it would still be missing.
 
 See [6-tests-and-build.md](6-tests-and-build.md) for test details and coverage.
 

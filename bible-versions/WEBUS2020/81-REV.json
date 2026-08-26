@@ -95,20 +95,20 @@
     "content": [
       {
         "paragraph": true,
-        "text": "“I am the Alpha and the Omega,",
+        "text": "“I am the Alpha and the Omega,”",
         "marks": ["woc"],
         "foot": {
           "type": "var",
           "content": "TR adds “the Beginning and the End”"
         }
       },
-      { "text": "”", "marks": ["woc"] },
       {
         "text": " says the Lord God,",
         "foot": { "type": "var", "content": "TR omits “God”" }
       },
+      " ",
       {
-        "text": " “who is and who was and who is to come, the Almighty.”",
+        "text": "“who is and who was and who is to come, the Almighty.”",
         "marks": ["woc"]
       }
     ]
@@ -140,8 +140,9 @@
           "content": "TR adds “I am the Alpha and the Omega, the First and the Last.”"
         }
       },
+      " ",
       {
-        "text": " “What you see, write in a book and send to the seven assemblies:",
+        "text": "“What you see, write in a book and send to the seven assemblies:",
         "marks": ["woc"],
         "foot": { "type": "var", "content": "TR adds “which are in Asia”" }
       },
@@ -274,7 +275,7 @@
     "verse": 3,
     "content": [
       {
-        "text": "You have perseverance and have endured for my name’s sake, and have ",
+        "text": "You have perseverance and have endured for my name’s sake, and have",
         "marks": ["woc"],
         "foot": { "type": "var", "content": "TR adds “have labored and”" }
       },
@@ -426,7 +427,7 @@
     "verse": 17,
     "content": [
       {
-        "text": "He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes, to him I will give of the hidden manna, ",
+        "text": "He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes, to him I will give of the hidden manna,",
         "marks": ["woc"],
         "foot": {
           "type": "stu",

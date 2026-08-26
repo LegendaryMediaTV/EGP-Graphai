@@ -147,7 +147,7 @@
 > - <sup>d</sup> 3. Or, _lawyers_
 > - <sup>e</sup> 5. Or, _bagpipe_
 > - <sup>f</sup> 16. Or, _we are not careful_
-> - <sup>g</sup> 17. Or, _Behold, our God etc._ Or, _If our God whom we serve be able to deliver us, he will deliver us from . . . and out of thy hand, O king_
+> - <sup>g</sup> 17. Or, _Behold, our God etc._ Or, _If our God whom we serve be able to deliver us, he will deliver us from … and out of thy hand, O king_
 > - <sup>h</sup> 21. Or, _turbans_
 > - <sup>i</sup> 26. Aramaic _door_.
 
@@ -492,7 +492,7 @@
 <sup>10</sup> And his sons shall war, and shall assemble a multitude of great forces, <sup>i</sup>which shall come on, and overflow, and pass through; and <sup>j</sup>they shall return and war, even to his fortress.
 <sup>11</sup> And the king of the south shall be moved with anger, and shall come forth and fight with him, even with the king of the north; and he shall set forth a great multitude, and the multitude shall be given into his hand.
 <sup>12</sup> And the multitude shall <sup>k</sup>be lifted up, and his heart shall be exalted; and he shall cast down tens of thousands, but he shall not prevail.
-<sup>13</sup> And the king of the north shall return, and shall set forth a multitude greater than the former; and he shall come on at the end of the times, _even_ <sup>l</sup>_of_ years, with a great army and with much substance.
+<sup>13</sup> And the king of the north shall return, and shall set forth a multitude greater than the former; and he shall come on at the end of the times, _even _<sup>l</sup>_of_ years, with a great army and with much substance.
 <sup>14</sup> And in those times there shall many stand up against the king of the south: also the children of the violent among thy people shall lift themselves up to establish the vision; but they shall fall.
 <sup>15</sup> So the king of the north shall come, and cast up a mound, and take <sup>m</sup>a well-fortified city: and the forces of the south shall not stand, neither his chosen people, neither shall there be any strength to stand.
 <sup>16</sup> But he that cometh against him shall do according to his own will, and none shall stand before him; and he shall stand in the glorious land, and in his hand shall be destruction.

@@ -216,9 +216,9 @@ And the land had rest forty years.
 > - <sup>c</sup> 6. Hebrew _crooked ways_.
 > - <sup>d</sup> 7. Or, _The villages were unoccupied_
 > - <sup>e</sup> 9. Or, _Ye that offered yourselves willingly among the people, bless etc._
-> - <sup>f</sup> 11. Or, _Because of the voice of the archers . . . there let them rehearse_
+> - <sup>f</sup> 11. Or, _Because of the voice of the archers … there let them rehearse_
 > - <sup>g</sup> 11. Or, _toward his villages_
-> - <sup>h</sup> 13. Or, _Then go down, O remnant, for the nobles . . . O Jehovah, go down for me against the mighty_. Or, _Then made he a remnant to have dominion over the nobles_ and _the people; Jehovah made me have dominion over the mighty_
+> - <sup>h</sup> 13. Or, _Then go down, O remnant, for the nobles … O Jehovah, go down for me against the mighty_. Or, _Then made he a remnant to have dominion over the nobles_ and _the people; Jehovah made me have dominion over the mighty_
 > - <sup>i</sup> 13. Or, as otherwise read, _the people of Jehovah came down for me against_ (or _among_) _the mighty_
 > - <sup>j</sup> 13. Or, _among_
 > - <sup>k</sup> 14. Or, _lawgivers_
@@ -745,7 +745,7 @@ And they could not in three days declare the riddle.
 > - <sup>e</sup> 9. Hebrew _smelleth_.
 > - <sup>f</sup> 18. Or, according to another reading, _he had told her_
 > - <sup>g</sup> 19. Or, _the men_
-> - <sup>h</sup> 28. Or, _be avenged . . . for one of my two eyes_
+> - <sup>h</sup> 28. Or, _be avenged … for one of my two eyes_
 
 ## Chapter 17
 
@@ -921,8 +921,8 @@ And they could not in three days declare the riddle.
 > - <sup>e</sup> 13. Another reading is, _the children of Benjamin_.
 > - <sup>f</sup> 33. Or, _the meadow of Geba_ (or _Gibeah_. See verse 10).
 > - <sup>g</sup> 34. Hebrew _touching_.
-> - <sup>h</sup> 39. Or, _And the men . . . battle: (now Benjamin . . . heaven:) and the men etc._
-> - <sup>i</sup> 42. Or, _them that came . . . they destroyed_
+> - <sup>h</sup> 39. Or, _And the men … battle: (now Benjamin … heaven:) and the men etc._
+> - <sup>i</sup> 42. Or, _them that came … they destroyed_
 > - <sup>j</sup> 43. Or, _overtook them_
 > - <sup>k</sup> 43. Or, _at Menuhah_
 > - <sup>l</sup> 48. Or, as otherwise read, _the inhabited city_. See Dt. 2:34.

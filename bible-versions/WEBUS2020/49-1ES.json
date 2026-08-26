@@ -38,10 +38,8 @@
     "chapter": 1,
     "verse": 3,
     "content": [
-      {
-        "text": "He spoke to the Levites, ",
-        "foot": { "type": "xrf", "content": { "bibleLink": "Numbers 3:9" } }
-      },
+      "He spoke to the Levites, ",
+      { "foot": { "type": "xrf", "content": { "bibleLink": "Numbers 3:9" } } },
       "the temple servants of Israel, that they should make themselves holy to the Lord, to set the holy ark of the Lord in the house that King Solomon the son of David had built."
     ]
   },
@@ -77,8 +75,8 @@
     "chapter": 1,
     "verse": 8,
     "content": [
+      "Helkias, Zacharias, and ",
       {
-        "text": "Helkias, Zacharias, and ",
         "foot": {
           "type": "stu",
           "content": [
@@ -192,8 +190,8 @@
     "chapter": 1,
     "verse": 24,
     "content": [
+      "Moreover the things that came to pass in his days have been written in times past, concerning those who sinned and did wickedly against the Lord more than any other people or kingdom, and how they grieved him ",
       {
-        "text": "Moreover the things that came to pass in his days have been written in times past, concerning those who sinned and did wickedly against the Lord more than any other people or kingdom, and how they grieved him ",
         "foot": {
           "type": "trn",
           "content": [
@@ -289,8 +287,8 @@
           ]
         }
       },
+      "The people took ",
       {
-        "text": "The people took ",
         "foot": {
           "type": "stu",
           "content": [
@@ -463,9 +461,8 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "In the " },
       {
-        "paragraph": true,
-        "text": "In the ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -552,8 +549,8 @@
     "chapter": 2,
     "verse": 12,
     "content": [
+      "and by him they were delivered to ",
       {
-        "text": "and by him they were delivered to ",
         "foot": {
           "type": "stu",
           "content": [
@@ -592,15 +589,15 @@
         "paragraph": true,
         "foot": { "type": "xrf", "content": { "bibleLink": "Ezra 4:7" } }
       },
+      "In the time of King Artaxerxes of the Persians, Belemus, Mithradates, Tabellius, ",
       {
-        "text": "In the time of King Artaxerxes of the Persians, Belemus, Mithradates, Tabellius, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Rehum,", "marks": ["i"] }
         }
       },
+      "Rathumus, Beeltethmus, and ",
       {
-        "text": "Rathumus, Beeltethmus, and ",
         "foot": {
           "type": "stu",
           "content": { "text": "Shimshai.", "marks": ["i"] }
@@ -1325,8 +1322,8 @@
     "chapter": 5,
     "verse": 8,
     "content": [
+      "They returned to Jerusalem and to the other parts of Judea, every man to his own city, who came with Zorobabel, with Jesus, Nehemias, ",
       {
-        "text": "They returned to Jerusalem and to the other parts of Judea, every man to his own city, who came with Zorobabel, with Jesus, Nehemias, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Seralah.", "marks": ["i"] }
@@ -1553,13 +1550,13 @@
     "chapter": 5,
     "verse": 19,
     "content": [
+      "those from ",
       {
-        "text": "those from ",
         "foot": {
           "type": "stu",
           "content": [
-            { "text": "Kiriath-arim ", "marks": ["i"] },
-            "or ",
+            { "text": "Kiriath-arim", "marks": ["i"] },
+            " or ",
             { "text": "Kiriath-jearim.", "marks": ["i"] }
           ]
         }
@@ -1572,15 +1569,15 @@
     "chapter": 5,
     "verse": 20,
     "content": [
+      "the Chadiasai and Ammidioi, four hundred twenty two; those from ",
       {
-        "text": "the Chadiasai and Ammidioi, four hundred twenty two; those from ",
         "foot": {
           "type": "stu",
           "content": { "text": "Rumah.", "marks": ["i"] }
         }
       },
+      "Kirama and ",
       {
-        "text": "Kirama and ",
         "foot": {
           "type": "stu",
           "content": { "text": "Geba.", "marks": ["i"] }
@@ -1594,22 +1591,22 @@
     "chapter": 5,
     "verse": 21,
     "content": [
+      "those from ",
       {
-        "text": "those from ",
         "foot": {
           "type": "stu",
           "content": { "text": "Michmas.", "marks": ["i"] }
         }
       },
+      "Macalon, one hundred twenty two; those from ",
       {
-        "text": "Macalon, one hundred twenty two; those from ",
         "foot": {
           "type": "stu",
           "content": { "text": "Bethel.", "marks": ["i"] }
         }
       },
+      "Betolion, fifty two; the sons of ",
       {
-        "text": "Betolion, fifty two; the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Magbish", "marks": ["i"] }
@@ -1623,26 +1620,26 @@
     "chapter": 5,
     "verse": 22,
     "content": [
+      "the sons of ",
       {
-        "text": "the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Lod, Hadid.", "marks": ["i"] }
         }
       },
+      "Calamolalus and ",
       {
-        "text": "Calamolalus and ",
         "foot": { "type": "stu", "content": { "text": "Ono.", "marks": ["i"] } }
       },
+      "Onus, seven hundred twenty five; the sons of ",
       {
-        "text": "Onus, seven hundred twenty five; the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Jericho.", "marks": ["i"] }
         }
       },
+      "Jerechu, ",
       {
-        "text": "Jerechu, ",
         "foot": {
           "type": "stu",
           "content": ["Another reading is, ", { "text": "two", "marks": ["i"] }]
@@ -1656,8 +1653,8 @@
     "chapter": 5,
     "verse": 23,
     "content": [
+      "and the sons of ",
       {
-        "text": "and the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Senaah.", "marks": ["i"] }
@@ -1671,16 +1668,15 @@
     "chapter": 5,
     "verse": 24,
     "content": [
+      { "paragraph": true, "text": "The priests: the sons of " },
       {
-        "paragraph": true,
-        "text": "The priests: the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Jedaiah.", "marks": ["i"] }
         }
       },
+      "Jeddu, the son of Jesus, among the sons of Sanasib, nine hundred seventy two; the sons of ",
       {
-        "text": "Jeddu, the son of Jesus, among the sons of Sanasib, nine hundred seventy two; the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Immer.", "marks": ["i"] }
@@ -1694,15 +1690,15 @@
     "chapter": 5,
     "verse": 25,
     "content": [
+      "the sons of ",
       {
-        "text": "the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Pashhur.", "marks": ["i"] }
         }
       },
+      "Phassurus, one thousand two hundred forty seven; and the sons of ",
       {
-        "text": "Phassurus, one thousand two hundred forty seven; and the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Harim.", "marks": ["i"] }
@@ -1947,10 +1943,10 @@
         "foot": {
           "type": "stu",
           "content": [
-            { "text": "Bakbuk. ", "marks": ["i"] },
-            "According to other readings, ",
-            { "text": "Acum, ", "marks": ["i"] },
-            "or ",
+            { "text": "Bakbuk.", "marks": ["i"] },
+            " According to other readings, ",
+            { "text": "Acum,", "marks": ["i"] },
+            " or ",
             { "text": "Acuph.", "marks": ["i"] }
           ]
         }
@@ -2024,8 +2020,8 @@
         "foot": {
           "type": "stu",
           "content": [
-            { "text": "Neziah. ", "marks": ["i"] },
-            "Another reading is, ",
+            { "text": "Neziah.", "marks": ["i"] },
+            " Another reading is, ",
             { "text": "Nasith.", "marks": ["i"] }
           ]
         }
@@ -2168,8 +2164,8 @@
         "foot": {
           "type": "stu",
           "content": [
-            { "text": "Delaiah. ", "marks": ["i"] },
-            "Another reading is, ",
+            { "text": "Delaiah.", "marks": ["i"] },
+            " Another reading is, ",
             { "text": "Asan.", "marks": ["i"] }
           ]
         }
@@ -2179,8 +2175,8 @@
         "foot": {
           "type": "stu",
           "content": [
-            { "text": "Tobiah ", "marks": ["i"] },
-            "Another reading is, ",
+            { "text": "Tobiah", "marks": ["i"] },
+            " Another reading is, ",
             { "text": "Baenan.", "marks": ["i"] }
           ]
         }
@@ -2206,8 +2202,8 @@
         "foot": {
           "type": "stu",
           "content": [
-            { "text": "Habaiah, ", "marks": ["i"] },
-            "or ",
+            { "text": "Habaiah,", "marks": ["i"] },
+            " or ",
             { "text": "Hobaiah.", "marks": ["i"] }
           ]
         }
@@ -2224,8 +2220,8 @@
         "foot": {
           "type": "stu",
           "content": [
-            { "text": "Barzillai. ", "marks": ["i"] },
-            "Another reading is, ",
+            { "text": "Barzillai.", "marks": ["i"] },
+            " Another reading is, ",
             { "text": "Phaezeldaeus.", "marks": ["i"] }
           ]
         }
@@ -2469,8 +2465,8 @@
     "chapter": 5,
     "verse": 69,
     "content": [
+      "For we, just like you, obey your Lord, and sacrifice to him from the days of King ",
       {
-        "text": "For we, just like you, obey your Lord, and sacrifice to him from the days of King ",
         "foot": {
           "type": "stu",
           "content": [
@@ -2514,9 +2510,8 @@
     "chapter": 6,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "Now " },
       {
-        "paragraph": true,
-        "text": "Now ",
         "foot": {
           "type": "xrf",
           "content": [
@@ -2531,8 +2526,8 @@
         "foot": {
           "type": "stu",
           "content": [
-            { "text": "Iddo. ", "marks": ["i"] },
-            "Another reading is, ",
+            { "text": "Iddo.", "marks": ["i"] },
+            " Another reading is, ",
             { "text": "Eddin", "marks": ["i"] }
           ]
         }
@@ -2555,15 +2550,15 @@
         "paragraph": true,
         "foot": { "type": "xrf", "content": { "bibleLink": "Ezra 5:3" } }
       },
+      "At the same time ",
       {
-        "text": "At the same time ",
         "foot": {
           "type": "stu",
           "content": { "text": "Tattenai.", "marks": ["i"] }
         }
       },
+      "Sisinnes the governor of Syria and Phoenicia came to them, with ",
       {
-        "text": "Sisinnes the governor of Syria and Phoenicia came to them, with ",
         "foot": {
           "type": "stu",
           "content": { "text": "Shetharbozenai", "marks": ["i"] }
@@ -2667,8 +2662,8 @@
     "chapter": 6,
     "verse": 18,
     "content": [
+      "The holy vessels of gold and of silver that Nabuchodonosor had carried away out of the house at Jerusalem and had set up in his own temple, those King Cyrus brought out of the temple in Babylonia, and they were delivered to Zorobabel and to ",
       {
-        "text": "The holy vessels of gold and of silver that Nabuchodonosor had carried away out of the house at Jerusalem and had set up in his own temple, those King Cyrus brought out of the temple in Babylonia, and they were delivered to Zorobabel and to ",
         "foot": {
           "type": "stu",
           "content": [
@@ -2787,11 +2782,8 @@
     "chapter": 7,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Then ",
-        "foot": { "type": "xrf", "content": { "bibleLink": "Ezra 6:13" } }
-      },
+      { "paragraph": true, "text": "Then " },
+      { "foot": { "type": "xrf", "content": { "bibleLink": "Ezra 6:13" } } },
       "Sisinnes the governor of Coelesyria and Phoenicia, and Sathrabuzanes, with their companions, following the commandments of King Darius,"
     ]
   },
@@ -3041,14 +3033,14 @@
     "verse": 20,
     "content": [
       {
-        "text": "to the sum of one hundred talents of silver, likewise also of wheat even to one hundred cors",
+        "text": "to the sum of one hundred talents of silver, likewise also of wheat even to one hundred cors,",
         "foot": {
           "type": "stu",
           "content": "A cor is about 230 liters, so 100 cors is about 23 kiloliters or 652 bushels"
         }
       },
       {
-        "text": ", and one hundred firkins",
+        "text": " and one hundred firkins",
         "foot": {
           "type": "stu",
           "content": "A firkin is about 41 liters or 11 gallons."
@@ -3856,29 +3848,29 @@
     "chapter": 9,
     "verse": 21,
     "content": [
+      "Of the sons of Emmer: Ananias, Zabdeus, ",
       {
-        "text": "Of the sons of Emmer: Ananias, Zabdeus, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Harim", "marks": ["i"] }
         }
       },
+      "Manes, ",
       {
-        "text": "Manes, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Maaseiah.", "marks": ["i"] }
         }
       },
+      "Sameus, ",
       {
-        "text": "Sameus, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Jehiel.", "marks": ["i"] }
         }
       },
+      "Hiereel, and ",
       {
-        "text": "Hiereel, and ",
         "foot": {
           "type": "stu",
           "content": { "text": "Uzziah.", "marks": ["i"] }
@@ -3892,22 +3884,22 @@
     "chapter": 9,
     "verse": 22,
     "content": [
+      "Of the sons of ",
       {
-        "text": "Of the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Pashhur.", "marks": ["i"] }
         }
       },
+      "Phaisur: Elionas, Massias, Ishmael, Nathanael, ",
       {
-        "text": "Phaisur: Elionas, Massias, Ishmael, Nathanael, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Jozabad.", "marks": ["i"] }
         }
       },
+      "Ocidelus, and ",
       {
-        "text": "Ocidelus, and ",
         "foot": {
           "type": "stu",
           "content": { "text": "Elasah.", "marks": ["i"] }
@@ -3921,23 +3913,22 @@
     "chapter": 9,
     "verse": 23,
     "content": [
+      { "paragraph": true, "text": "Of the Levites: Jozabdus, Semeis, " },
       {
-        "paragraph": true,
-        "text": "Of the Levites: Jozabdus, Semeis, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Kelaiah.", "marks": ["i"] }
         }
       },
+      "Colius who was called ",
       {
-        "text": "Colius who was called ",
         "foot": {
           "type": "stu",
           "content": { "text": "Kelita.", "marks": ["i"] }
         }
       },
+      "Calitas, ",
       {
-        "text": "Calitas, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Pethahiah.", "marks": ["i"] }
@@ -3951,8 +3942,8 @@
     "chapter": 9,
     "verse": 24,
     "content": [
+      "Of the holy singers: ",
       {
-        "text": "Of the holy singers: ",
         "foot": {
           "type": "stu",
           "content": { "text": "Eliashib.", "marks": ["i"] }
@@ -4001,8 +3992,8 @@
         "foot": {
           "type": "stu",
           "content": [
-            { "text": "Izziah. ", "marks": ["i"] },
-            "Another reading is, ",
+            { "text": "Izziah.", "marks": ["i"] },
+            " Another reading is, ",
             { "text": "Iezias", "marks": ["i"] }
           ]
         }
@@ -4014,8 +4005,8 @@
           "content": { "text": "Mijamin.", "marks": ["i"] }
         }
       },
+      " Eleazar, Asibas, ",
       {
-        "text": " Eleazar, Asibas, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Malchijah.", "marks": ["i"] }
@@ -4029,8 +4020,8 @@
     "chapter": 9,
     "verse": 27,
     "content": [
+      "Of the sons of Ela: Matthanias, Zacharias, ",
       {
-        "text": "Of the sons of Ela: Matthanias, Zacharias, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Jehiel.", "marks": ["i"] }
@@ -4051,43 +4042,43 @@
     "chapter": 9,
     "verse": 28,
     "content": [
+      "Of the sons of ",
       {
-        "text": "Of the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Zattu.", "marks": ["i"] }
         }
       },
+      "Zamoth: ",
       {
-        "text": "Zamoth: ",
         "foot": {
           "type": "stu",
           "content": { "text": "Elioenai.", "marks": ["i"] }
         }
       },
+      "Eliadas, ",
       {
-        "text": "Eliadas, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Eliashib.", "marks": ["i"] }
         }
       },
+      "Eliasimus, ",
       {
-        "text": "Eliasimus, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Mattaniah.", "marks": ["i"] }
         }
       },
+      "Othonias, Jarimoth, ",
       {
-        "text": "Othonias, Jarimoth, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Zabad.", "marks": ["i"] }
         }
       },
+      "Sabathus, and ",
       {
-        "text": "Sabathus, and ",
         "foot": {
           "type": "stu",
           "content": { "text": "Aziza.", "marks": ["i"] }
@@ -4101,15 +4092,15 @@
     "chapter": 9,
     "verse": 29,
     "content": [
+      "Of the sons of Bebai: Joannes, Ananias, ",
       {
-        "text": "Of the sons of Bebai: Joannes, Ananias, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Zabbai.", "marks": ["i"] }
         }
       },
+      "Jozabdus, and ",
       {
-        "text": "Jozabdus, and ",
         "foot": {
           "type": "stu",
           "content": { "text": "Athlai.", "marks": ["i"] }
@@ -4123,36 +4114,36 @@
     "chapter": 9,
     "verse": 30,
     "content": [
+      "Of the sons of ",
       {
-        "text": "Of the sons of ",
         "foot": {
           "type": "stu",
           "content": { "text": "Bani.", "marks": ["i"] }
         }
       },
+      "Mani: ",
       {
-        "text": "Mani: ",
         "foot": {
           "type": "stu",
           "content": { "text": "Meshullam.", "marks": ["i"] }
         }
       },
+      "Olamus, ",
       {
-        "text": "Olamus, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Malluch.", "marks": ["i"] }
         }
       },
+      "Mamuchus, ",
       {
-        "text": "Mamuchus, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Adaiah.", "marks": ["i"] }
         }
       },
+      "Jedeus, Jasubas, ",
       {
-        "text": "Jedeus, Jasubas, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Sheal.", "marks": ["i"] }
@@ -4178,22 +4169,22 @@
     "chapter": 9,
     "verse": 33,
     "content": [
+      "Of the sons of Asom: ",
       {
-        "text": "Of the sons of Asom: ",
         "foot": {
           "type": "stu",
           "content": { "text": "Mattenai.", "marks": ["i"] }
         }
       },
+      "Maltanneus, ",
       {
-        "text": "Maltanneus, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Mattattah.", "marks": ["i"] }
         }
       },
+      "Mattathias, ",
       {
-        "text": "Mattathias, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Zabad.", "marks": ["i"] }
@@ -4273,8 +4264,8 @@
     "chapter": 9,
     "verse": 43,
     "content": [
+      "Beside him stood Mattathias, Sammus, Ananias, Azarias, Urias, ",
       {
-        "text": "Beside him stood Mattathias, Sammus, Ananias, Azarias, Urias, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Hilkiah.", "marks": ["i"] }
@@ -4288,15 +4279,15 @@
     "chapter": 9,
     "verse": 44,
     "content": [
+      "and on his left hand, ",
       {
-        "text": "and on his left hand, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Pedaiah.", "marks": ["i"] }
         }
       },
+      "Phaldeus, Misael, Melchias, ",
       {
-        "text": "Phaldeus, Misael, Melchias, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Hashuin.", "marks": ["i"] }
@@ -4328,20 +4319,20 @@
     "chapter": 9,
     "verse": 48,
     "content": [
+      "Also Jesus, Annus, Sarabias, Iadinus, Jacubus, Sabateus, ",
       {
-        "text": "Also Jesus, Annus, Sarabias, Iadinus, Jacubus, Sabateus, ",
         "foot": {
           "type": "stu",
           "content": { "text": "Hodiah.", "marks": ["i"] }
         }
       },
+      "Auteas, Maiannas, Calitas, Azarias, Jozabdus, Ananias, and Phalias, the Levites, taught the law of the Lord, ",
       {
-        "text": "Auteas, Maiannas, Calitas, Azarias, Jozabdus, Ananias, and Phalias, the Levites, taught the law of the Lord, ",
         "foot": {
           "type": "stu",
           "content": [
             "Some authorities omit ",
-            { "text": "and read...Lord.", "marks": ["i"] }
+            { "text": "and read…Lord.", "marks": ["i"] }
           ]
         }
       },
@@ -4392,8 +4383,8 @@
     "chapter": 9,
     "verse": 55,
     "content": [
+      "because they ",
       {
-        "text": "because they ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "were inspired by", "marks": ["i"] }]

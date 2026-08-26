@@ -10,12 +10,12 @@ For the recursive shape they're transforming, see [content-model.md](./content-m
 %%{init: {'theme': 'dark'}}%%
 flowchart TD
     Source[Manuscript / source text] -->|importer or hand edit| Verse[(Verse JSON file<br/>bible-versions/{ver}/{NN}-{book}.json)]
-    Verse --> Validate{validate.ts}
-    Validate -->|schema check| Verse
-    Validate -->|reorder keys| Verse
-    Validate -->|per version, read-only| Audit[auditCrossChapterLinks.ts]
-    Validate -->|per version, read-only| StrongsAudit[auditNodes.ts]
-    Validate -->|fails?| ExitErr([Exit code 1])
+    Verse --> AutoFix{validate.ts<br/>auto-fix pass}
+    AutoFix -->|fixed-point checked| Verse
+    Verse --> Checks{validate.ts<br/>hierarchical checks}
+    Checks -->|schema, ordering,<br/>naming, structure| ExitErr([Exit code 1])
+    Verse --> Audits{validate.ts<br/>report-only audits}
+    Audits -->|any finding remains?| ExitErr
 
     Verse --> Export[exportContent.ts]
     Export --> Markdown[/exports/markdown-par/]
@@ -25,24 +25,21 @@ flowchart TD
     SmallCaps --> Verse
     Verse --> SortKeys[sortBibleKeys.ts]
     SortKeys --> Verse
-    Audit -->|--fix, standalone only| Verse
 ```
 
 A verse file is the source of truth. Every script in `utils/` either validates it, transforms it in place (with the canonical key order preserved), or reads it to produce a downstream artifact.
 
 ## Validation
 
-`npm run validate` (which runs [utils/validate.ts](../../../utils/validate.ts)) walks every translation folder and checks that:
+`npm run validate` ([utils/validate.ts](../../../utils/validate.ts)) is the one command that runs every normalization and validation rule this repo enforces on verse data — there's no separate audit script anywhere in the tree, and no `--fix` flag on anything it calls into. A run has three stages:
 
-- The folder's `_version.json` matches the version schema
-- The book registry referenced by each version exists in `bible-books.json`
-- Each verse file matches the verse schema, which recursively defers to the content schema
-- File names follow the `{order}-{bookId}.json` pattern matching the version's declared book order
-- The version carries no unsplit cross-chapter `bibleLink` and no Strong's-node placement drift. See the two audits below, both of which `validate.ts` runs read-only for each version it validates
+1. **Auto-fix pass** — normalizes key order, JSON formatting, `bibleLink` dashes and ranges, fractions, ellipses, and straight-quote direction; tags an untagged Hebrew or Greek letter run embedded in otherwise-Latin text; repairs several Strong's-node placement conventions (joining-space position for both `strong` and `foot`, footnote-punctuation order, duplicate footnote anchors, mergeable siblings, a missing paragraph flag after a heading); and unlinks a `bibleLink` target the version can't resolve. The pass then re-applies itself once more to every file it just changed, and fails by name if a second application would still find something to change — proof the corpus reached a fixed point, not just that the pass ran.
+2. **Hierarchical checks** — schema validity, book ordering, file naming, verse structure, and cross-references between entities. Any failure here exits immediately.
+3. **Report-only audits**, run as peers so all of them always complete even when one already failed — declared chapter counts against the version's own data, cross-chapter links, truncated `bibleLink` ranges, Strong's-node placement, and unresolvable `bibleLink` targets.
 
-As a side effect, validation rewrites every JSON file with canonical key order, both at the verse level (`book`, `chapter`, `verse`, `content`) and recursively inside every content object. This is intentional. Different authoring tools serialize keys in different orders, and the rewrite gives every commit a clean diff. If a validation run produces only key reorderings, the source data was already correct; the file change is just rehydration.
+As a side effect of stage 1, validation rewrites every JSON file with canonical key order, both at the verse level (`book`, `chapter`, `verse`, `content`) and recursively inside every content object. This is intentional. Different authoring tools serialize keys in different orders, and the rewrite gives every commit a clean diff. If a validation run produces only key reorderings, the source data was already correct; the file change is just rehydration.
 
-The validator exits non-zero on any error. This is deliberate so it can gate CI.
+The validator exits non-zero on any remaining error or finding. This is deliberate so it can gate CI. Because it owns every normalization rule, a per-source importer no longer needs to enforce any of them itself — it only needs to produce content that a subsequent `npm run validate` can normalize and check like anything else.
 
 ## Schema chain
 
@@ -85,47 +82,32 @@ A few one-shot tools live alongside validation and export:
 
 These exist for migrations and corrections. Once a translation is clean, they shouldn't need to run again.
 
-## Cross-chapter link audit
+## Cross-chapter link and bibleLink target conventions
 
-A `bibleLink` cross-reference that spans two chapters of the same book (e.g. a footnote pointing to `2 Kings 6:31–7:20`) resolves inside neither chapter. This repo's convention requires splitting it into two chapter-scoped links joined by an en dash instead. The same convention covers a range naming only whole chapters, with no verse on either end (e.g. an outline reference like `Romans 1–11`): split the same way, just with no verse anchor to carry on either half. [utils/auditCrossChapterLinks.ts](../../../utils/auditCrossChapterLinks.ts) sweeps every version (or one named on the command line) for both shapes, built on the classification logic in [utils/crossChapterLinks.ts](../../../utils/crossChapterLinks.ts):
+A `bibleLink` cross-reference must resolve inside a single chapter, and must name content the version being read actually carries. [utils/crossChapterLinks.ts](../../../utils/crossChapterLinks.ts) owns three related rules, each a step inside `npm run validate`'s own pass rather than a tool of its own:
 
-```bash
-npm run audit-links                                         # audit every version, dry-run
-npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020       # audit one version
-npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix # split findings and write them
-```
+- **Truncated-range reconstruction** completes a target cut off short of the multi-verse range its own display text already names.
+- **Cross-chapter split** cuts a target spanning two chapters of the same book (e.g. a footnote pointing to `2 Kings 6:31–7:20`) into two chapter-scoped links joined by an en dash, since a cross-chapter target resolves inside neither chapter on its own. A range naming only whole chapters, with no verse on either end (an outline reference like `Romans 1–11`), splits the same way, just with no verse anchor to carry on either half.
+- **Unresolvable-target unlink** strips the `bibleLink` wrapper from a target that parses but names a book, chapter, or verse the version doesn't carry, keeping its display text as plain content — a wrong link is worse than no link, since it reads correctly right up until someone clicks it.
 
-Unlike `convertToSmallCaps` and `sortBibleKeys` above, this one is meant to run repeatedly rather than once per migration. It exits non-zero when any version still carries an unsplit finding, so it can gate CI the same way `validate.ts` does. `--fix` is the only path that writes; every other invocation, including the one `validate.ts` runs on your behalf for each version it validates, is a read-only report.
+Each rule is version-scoped: a chapter's last verse, and which verse numbers within it actually exist, come from that version's own verse records, since translations disagree on where a chapter ends (Romans 14 runs to verse 23 in some editions, verse 26 in others). Book-name resolution is likewise restricted to that version's own canon. Detection treats the en dash, em dash, and ASCII hyphen as equivalent targets, since real data doesn't always use the convention's own en dash, though splitting always emits an en dash. A version still carrying an unsplit range, a truncated range, or an unresolvable target after the auto-fix pass fails validation on the matching report-only audit.
 
-The classification is deliberately version-aware, not corpus-wide: a chapter's last verse is read from each version's own verse records, since translations disagree on where a chapter ends (Romans 14 runs to verse 23 in some, verse 26 in others), and book-name resolution is restricted to that version's own canon (a name valid in one translation may not exist in an NT-only one like BYZ2018). Detection also treats the en dash, em dash, and ASCII hyphen as equivalent targets, since real data doesn't always use the convention's own en dash.
+## Strong's-node placement audit
 
-## Strong's-node audit
-
-Verse content is built up node by node, one per lexical unit, each carrying its own Strong's number. This can drift out of alignment with this repo's own text-flow conventions during import or hand-editing: a connector word left unmerged next to the Strong's-tagged neighbor it belongs with, a joining space sitting on the wrong side of a boundary, or a verse that simply shouldn't open with whitespace at all. [utils/auditNodes.ts](../../../utils/auditNodes.ts) sweeps every version (or one named on the command line) for seven such drift patterns:
+Verse content is built one lexical node at a time, each carrying its own `strong` number, `marks`, and joining whitespace. That structure drifts out of alignment with this repo's own text-flow conventions during import or hand-editing. [utils/auditNodes.ts](../../../utils/auditNodes.ts) detects such drift patterns, corpus-wide; a representative sampling:
 
 | Finding                | What it catches                                                                                            |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Unmerged node pairs     | An untagged connector word left split from the Strong's-carrying neighbor it should have folded into        |
 | Trailing whitespace     | A Strong's node's own text ending in a space, when the convention keeps joining spaces on the leading edge of what follows |
-| Leading punctuation     | Tight punctuation (a comma, a closing quote, …) glued to the front of the wrong node instead of the word before it |
-| Mark-boundary spaces    | A bare joining space stranded between two nodes that share the same formatting, most visibly in a Words-of-Christ or italics span built one word at a time |
-| Verse-initial spaces    | A verse's own content opening with a space, paragraph marker or not                                          |
-| Heading/subtitle paragraph mismatch | A heading or subtitle run missing the paragraph break that should follow it, judged per book since some poetry books never pair the two at all |
-| Unnormalized fraction   | A fraction still written in a raw shape instead of this repo's one normalized form, the same rule the USFM import pipeline applies on the way in |
+| Footnote marker after whitespace | A footnote marker rendering a space away from the word it annotates instead of hugging it — the same leading-space convention applied to `foot`, not just `strong` |
+| Untagged script run     | A Hebrew or Greek letter run embedded in otherwise-Latin text with no `script` tag                            |
+| Duplicate footnote anchor | A textless node repeating the identical footnote already carried by the node right before it                |
+| Mergeable siblings      | Two adjacent nodes differing in nothing but `text`                                                            |
 
-```bash
-npm run audit-nodes                                 # audit every version, read-only
-npx ts-node utils/auditNodes.ts WEBUS2020 --verbose   # audit one version, list every finding
-```
+_A representative sampling — see the [Strong's-node audit domain doc](../../ai-context/4-domains/strongs-node-audit.md) for the full catalog._
 
-Unlike the cross-chapter link auditor above, `auditNodes.ts` itself never writes — every invocation, `validate.ts`'s own included, is a read-only report, findings and all. Two of the seven checks have a separate fixer script that reuses the audit's own eligibility logic instead of re-deriving it:
-
-```bash
-npx ts-node utils/fixUnmergedNodes.ts YLT1898 --fix        # check 1: fold eligible connectors forward
-npx ts-node utils/fixHeadingParagraphs.ts WEBUS2020 --fix  # check 6: add the missing paragraph flag
-```
-
-The remaining five checks stay a manual pass over the corpus. See the [Strong's-node audit domain](../../ai-context/4-domains/strongs-node-audit.md) for which checks those are.
+`auditNodes.ts` itself only ever detects; it carries no CLI and never writes. Several of the checks below repair themselves automatically, as their own step in `validate.ts`'s auto-fix pass — most through a fixer that reuses this file's own eligibility logic rather than re-deriving it, plus straight-quote direction (the straight-quote check), which resolves the way real typography tools do: from the characters immediately around each quote, not from this file's own node-placement judgment. The rest stay report-only, because deciding what to do needs a judgment call — which direction a word belongs, or whether a non-breaking space was meant to hold two words together — that a mechanical fix would get wrong on real Bible text. See the [Strong's-node audit domain doc](../../ai-context/4-domains/strongs-node-audit.md) for which check falls into which group.
 
 ## Writing files
 
@@ -168,4 +150,5 @@ The export logic in particular has tight test coverage because it's the most fra
 - **Footnote letters are not stable across edits.** Inserting a footnote earlier in a chapter relabels every subsequent footnote in the export. Don't treat the letters as IDs.
 - **A "Failed to write … after N attempts" error names a real holdout.** The retries in [writeJsonFile.ts](../../../functions/writeJsonFile.ts) already absorb the usual transient file lock; if a write still fails after all of them, something (antivirus, an indexer, a sync client) is holding that specific file open longer than the retry budget. Check what's watching the folder rather than re-running the tool.
 - **A file's formatting reflects its data, not its history.** Two writers of identical content always produce identical bytes, because canonicalization starts from parsed data every time rather than from whatever a file already looks like. One translation once drifted into a far more spread-out style than the rest of the corpus this way. Formatting from raw text let a line break baked in by an earlier bug persist across every subsequent validation run instead of being caught and corrected.
-- **`auditNodes`'s `--verbose` works even without npm's own `--` separator.** Normally `npm run <script> --flag` lets npm's CLI parsing swallow the flag before the script ever sees it; this tool also checks the `npm_config_loglevel` environment variable npm leaves behind either way, so `npm run audit-nodes KJV1769 --verbose` lists every finding as typed.
+- **`git diff` is the review surface, not a console count.** Nothing this pipeline runs commits itself; every fix from the auto-fix pass sits in the working tree afterward, so reviewing a `npm run validate` run means reading the diff it produced, not trusting a summary line.
+- **`npm run validate` is expected to exit clean, always.** A version whose source content is still incomplete (CLV1880's Esther and Daniel are short their deuterocanonical additions) declares only the chapters its own verse files actually carry — the declared count moves up in the same change that imports the rest, so there's never a standing finding to work around. See the [bible-versions domain doc](../../ai-context/4-domains/bible-versions.md).

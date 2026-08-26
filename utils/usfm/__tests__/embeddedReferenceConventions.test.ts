@@ -9,37 +9,24 @@ import { ContentBibleLink } from "../../../types/Content";
 import Footnote from "../../../types/Footnote";
 
 /**
- * Corpus-wide collision test for Finding 9 (resolving 8a): a fully-qualified
- * reference sitting *inside* a larger run of ordinary footnote prose, with
- * no `\x`/`\+xt` marker anywhere near it. Walks every real `\f`...`\f*`
- * footnote in the whole 81-book WEBUS2020 corpus through the same
- * production function `segmentVerses.ts` itself calls, and measures the
- * exact real population `linkEmbeddedReferences` (`../references.ts`)
- * touches.
+ * Corpus-wide test: a fully-qualified reference sitting *inside* a larger
+ * run of ordinary footnote prose, with no `\x`/`\+xt` marker anywhere near
+ * it, still becomes a real bibleLink — on the strength of naming its own
+ * book and verse, with no "See "/"Compare " cue word required. Walks every
+ * real `\f`...`\f*` footnote in the whole 81-book WEBUS2020 corpus through
+ * the same production function `segmentVerses.ts` itself calls, and
+ * measures the exact population `linkEmbeddedReferences`
+ * (`../references.ts`) touches.
  *
- * Phase 14's own first version gated detection on a "See "/"Compare " cue
- * word and measured 72 real links this way. Phase 15 redesigned
- * `linkEmbeddedReferences` after the user's own correction: the cue-word
- * gate was the wrong safeguard, and the real one — registry-and-grammar
- * validation, with an explicit verse required — already existed
- * independently. That redesign measured 99 real embedded references at the
- * time (a 27-instance gain over the cue-word version, for a real,
- * documented reason — see each `it` below).
+ * A footnote body that is nothing but a reference is classified `xrf` and
+ * resolved by `buildReferenceOnlyContent` instead, never reaching
+ * `linkEmbeddedReferences` at all — this measurement's own filter
+ * (`if (footnote.type === "xrf") continue`) excludes those bodies so they
+ * are never double-counted here.
  *
- * Measured directly against the real, current corpus, the population is now
- * **53**, concentrated entirely in 1 Maccabees (52 → 19) and 2 Maccabees
- * (20 → 8); 1 Esdras and 2 Esdras hold at their own original 7 and 3. Later
- * classification-accuracy work elsewhere in this pipeline (`stu`/`var`/`trn`
- * vs. `xrf` — a body that is *nothing but* a reference belongs in the
- * `xrf` bucket, resolved by `buildReferenceOnlyContent` instead, and never
- * reaches `linkEmbeddedReferences` at all) moved a real share of 1/2
- * Maccabees' own reference-only footnote bodies out of this count — this
- * measurement's own filter (`if (footnote.type === "xrf") continue`)
- * excludes them by design, the same rule it always has.
- *
- * Deliberately corpus-wide, not limited to the 66 canonical books: most of
- * the 53 real instances live in the deuterocanon (19 in 1 Maccabees alone),
- * which carries no upstream `HEAD` baseline at all.
+ * Deliberately corpus-wide, not limited to the 66 canonical books: most
+ * embedded references live in the deuterocanon, which carries no upstream
+ * `HEAD` baseline at all.
  */
 
 const versionFile = path.join(REPO_ROOT, "bible-versions", "WEBUS2020", "_version.json");
@@ -84,8 +71,9 @@ interface CorpusFootnote {
  * Every real `\f`-derived footnote this corpus's raw USFM produces, walked
  * exactly the way `segmentVerses.ts` does in production — restricted to the
  * version's own real 81-book canon exactly as `utils/importUsfm.ts`
- * computes it, `\x`...`\x*` spans skipped entirely (Finding 9 only ever
- * concerns a `\f` body; an `\x` target is already fully marker-based).
+ * computes it, `\x`...`\x*` spans skipped entirely (an `\x` target is
+ * already fully marker-based, not a candidate for embedded-reference
+ * detection).
  */
 function scanFootnotes(): readonly CorpusFootnote[] {
   const footnotes: CorpusFootnote[] = [];
@@ -129,7 +117,7 @@ function scanFootnotes(): readonly CorpusFootnote[] {
 const SOURCE_AVAILABLE = fs.existsSync(SOURCE_DIR);
 const footnotes = SOURCE_AVAILABLE ? scanFootnotes() : [];
 
-/** Every embedded link found inside a non-`xrf` footnote — Finding 9's own real, new population; an `xrf`-typed footnote's own link(s) are the pre-existing `buildReferenceOnlyContent` path, unrelated to this fix. */
+/** Every embedded link found inside a non-`xrf` footnote; an `xrf`-typed footnote's own link(s) come from the separate `buildReferenceOnlyContent` path instead. */
 const embeddedLinks: EmbeddedLink[] = [];
 for (const { file, footnote } of footnotes) {
   if (footnote.type === "xrf") continue;
@@ -138,18 +126,18 @@ for (const { file, footnote } of footnotes) {
 
 if (!SOURCE_AVAILABLE) {
   describe.skip(
-    "Finding 9 — a fully-qualified reference embedded in ordinary footnote prose, measured against the whole real 81-book WEBUS2020 corpus",
+    "a fully-qualified reference embedded in ordinary footnote prose, measured against the whole real 81-book WEBUS2020 corpus",
     () => {
       it("requires the local WEBUS2020 raw USFM corpus at imports/webus2020/ebible-usfm", () => {});
     },
   );
 } else {
-describe("Finding 9 — a fully-qualified reference embedded in ordinary footnote prose, measured against the whole real 81-book WEBUS2020 corpus", () => {
+describe("a fully-qualified reference embedded in ordinary footnote prose, measured against the whole real 81-book WEBUS2020 corpus", () => {
   it("should link exactly 53 real embedded references corpus-wide, none of them from an already-xrf-typed footnote", () => {
     expect(embeddedLinks).toHaveLength(53);
   });
 
-  it('should link both of Matthew 27:35\'s real "and"-joined references, matching upstream HEAD\'s own exact shape ("[see Psalms 22:18 and John 19:24]" — Psalms 22:18 also carries Finding 8b\'s own book-name override) — each found and resolved independently now, with no dedicated "and"-chain rule needed', () => {
+  it('should link both of Matthew 27:35\'s real "and"-joined references, matching upstream HEAD\'s own exact shape ("[see Psalms 22:18 and John 19:24]" — Psalms 22:18 also gets its own singular "Psalm" book-name override) — each found and resolved independently now, with no dedicated "and"-chain rule needed', () => {
     const matthew2735 = footnotes.find((f) => f.plainText.includes("[see Psalms 22:18 and John 19:24]"));
     expect(matthew2735?.footnote.content).toEqual([
       "TR adds “that it might be fulfilled which was spoken by the prophet: ‘They divided my garments among them, and for my clothing they cast lots;’” [see ",
@@ -178,7 +166,7 @@ describe("Finding 9 — a fully-qualified reference embedded in ordinary footnot
     ]);
   });
 
-  it('should now link Deuteronomy 33:16\'s own real "the burning bush of Exodus 3:3-4" through this generic mechanism directly — "of" is not a cue word, but Phase 15\'s redesign never checks for one; "Exodus 3:3-4" names its own book explicitly, superseding the separate verse-specific override this used to need in imports/webus2020/import.ts', () => {
+  it('should now link Deuteronomy 33:16\'s own real "the burning bush of Exodus 3:3-4" through this generic mechanism directly — "of" is not a cue word, but this redesign never checks for one; "Exodus 3:3-4" names its own book explicitly, superseding the separate verse-specific override this used to need in imports/webus2020/import.ts', () => {
     const deuteronomy3316 = footnotes.find((f) => f.plainText.includes("the burning bush of Exodus 3:3-4"));
     expect(deuteronomy3316?.footnote.content).toEqual([
       "I.e., the burning bush of ",
@@ -187,7 +175,7 @@ describe("Finding 9 — a fully-qualified reference embedded in ordinary footnot
     ]);
   });
 
-  it("should now link Proverbs 31:10-31's own real, self-referential acrostic note, matching upstream HEAD's own real, already-linked shape exactly — Phase 14's cue-word gate wrongly left this unlinked, guessing a bare, cue-less, body-initial reference was unsafe; upstream HEAD's own real link proves naming a specific verse is what makes it safe, not a cue word", () => {
+  it("should now link Proverbs 31:10-31's own real, self-referential acrostic note, matching upstream HEAD's own real, already-linked shape exactly — naming a specific verse is what makes a bare, cue-less, body-initial reference safe to link, not a cue word", () => {
     const proverbs3110 = footnotes.find((f) => f.plainText.startsWith("Proverbs 31:10-31"));
     expect(proverbs3110).toBeDefined();
     expect(proverbs3110?.footnote.content).toEqual([
@@ -209,7 +197,7 @@ describe("Finding 9 — a fully-qualified reference embedded in ordinary footnot
     }
   });
 
-  it('should now link both of John 8:11\'s real, dash-joined "NU includes John 7:53–John 8:11, but puts brackets around it..." independently, matching upstream HEAD\'s own real two-bibleLink shape exactly — one of the six real 66-canon residuals Phase 14\'s cue-word gate missed ("includes" is a verb, never a cue word)', () => {
+  it('should now link both of John 8:11\'s real, dash-joined "NU includes John 7:53–John 8:11, but puts brackets around it..." independently, matching upstream HEAD\'s own real two-bibleLink shape exactly — one of six real 66-canon references linked with no cue word nearby ("includes" is a verb, never a cue word)', () => {
     const john811 = footnotes.find((f) => f.plainText.includes("NU includes John 7:53–John 8:11"));
     expect(john811?.footnote.content).toEqual([
       "NU includes ",
@@ -229,7 +217,7 @@ describe("Finding 9 — a fully-qualified reference embedded in ordinary footnot
     ]);
   });
 
-  it("should never link a bare chapter-only mention with no verse, even when a real cue word introduces it — Genesis 3:24's real \"See Ezekiel 10.\" no longer links (a chapter-only mention Phase 14's own cue-word-gated version wrongly linked; upstream HEAD carries no baseline for this verse either way, but the corpus-wide 0-out-of-330 evidence — see EMBEDDED_REFERENCE_SUFFIX's own doc comment — says a chapter-only mention should never link)", () => {
+  it("should never link a bare chapter-only mention with no verse, even when a real cue word introduces it — Genesis 3:24's real \"See Ezekiel 10.\" no longer links (upstream HEAD carries no baseline for this verse either way, but the corpus-wide 0-out-of-330 evidence — see EMBEDDED_REFERENCE_SUFFIX's own doc comment — says a chapter-only mention should never link)", () => {
     const genesis324 = footnotes.find((f) => f.plainText.includes("See Ezekiel 10"));
     expect(genesis324?.footnote.content).toBe(
       "Cherubim are powerful angelic creatures, messengers of God with wings. See Ezekiel 10.",
@@ -258,7 +246,7 @@ describe("Finding 9 — a fully-qualified reference embedded in ordinary footnot
     expect(byFile.get("58-2ESeng-web.usfm")).toBe(3);
   });
 
-  it('should now link both of Daniel-Greek 3:24\'s real "...inserted between Daniel 3:23 and Daniel 3:24 of the traditional Hebrew Bible" references, independently — a real, new addition beyond Phase 14\'s own cue-word-gated scope (this sentence carries no cue word at all)', () => {
+  it('should now link both of Daniel-Greek 3:24\'s real "...inserted between Daniel 3:23 and Daniel 3:24 of the traditional Hebrew Bible" references, independently — this sentence carries no cue word at all', () => {
     const danielGreek324 = footnotes.find((f) => f.plainText.includes("inserted between Daniel 3:23 and Daniel 3:24"));
     const links: EmbeddedLink[] = [];
     if (danielGreek324 !== undefined) collectLinks(danielGreek324.footnote.content, danielGreek324.file, links);

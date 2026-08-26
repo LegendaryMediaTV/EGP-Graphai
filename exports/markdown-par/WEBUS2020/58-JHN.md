@@ -63,7 +63,7 @@ They said to him, “Rabbi” (which is to say, being interpreted, Teacher), “
 
 They came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.<sup>h</sup>
 <sup>40</sup> One of the two who heard John and followed him was Andrew, Simon Peter’s brother.
-<sup>41</sup> He first found his own brother, Simon, and said to him, “We have found the Messiah!” (which is, being interpreted, Christ<sup>i</sup>).
+<sup>41</sup> He first found his own brother, Simon, and said to him, “We have found the Messiah!” (which is, being interpreted, Christ).<sup>i</sup>
 <sup>42</sup> He brought him to Jesus. Jesus looked at him and said, “You are Simon the son of Jonah. You shall be called Cephas” (which is by interpretation, Peter).<sup>j</sup>
 
 <sup>43</sup> On the next day, he was determined to go out into Galilee, and he found Philip. Jesus said to him, “Follow me.”
@@ -141,7 +141,7 @@ Jesus answered him, “Before Philip called you, when you were under the fig tre
 <sup>1</sup> Now there was a man of the Pharisees named Nicodemus, a ruler of the Jews.
 <sup>2</sup> He came to Jesus by night and said to him, “Rabbi, we know that you are a teacher come from God, for no one can do these signs that you do, unless God is with him.”
 
-<sup>3</sup> Jesus answered him, “Most certainly I tell you, unless one is born anew, <sup>a</sup> he can’t see God’s Kingdom.”
+<sup>3</sup> Jesus answered him, “Most certainly I tell you, unless one is born anew,<sup>a</sup> he can’t see God’s Kingdom.”
 
 <sup>4</sup> Nicodemus said to him, “How can a man be born when he is old? Can he enter a second time into his mother’s womb and be born?”
 
@@ -399,7 +399,7 @@ Now that day was a Sabbath.
 
 <sup>43</sup> Therefore Jesus answered them, “Don’t murmur among yourselves.
 <sup>44</sup> No one can come to me unless the Father who sent me draws him; and I will raise him up in the last day.
-<sup>45</sup> It is written in the prophets, ‘They will all be taught by God.’ <sup>g</sup> Therefore everyone who hears from the Father and has learned, comes to me.
+<sup>45</sup> It is written in the prophets, ‘They will all be taught by God.’<sup>g</sup> Therefore everyone who hears from the Father and has learned, comes to me.
 <sup>46</sup> Not that anyone has seen the Father, except he who is from God. He has seen the Father.
 <sup>47</sup> Most certainly, I tell you, he who believes in me has eternal life.
 <sup>48</sup> I am the bread of life.
@@ -723,7 +723,7 @@ He said, “He is a prophet.”
 <sup>14</sup> I am the good shepherd. I know my own, and I’m known by my own;
 <sup>15</sup> even as the Father knows me, and I know the Father. I lay down my life for the sheep.
 <sup>16</sup> I have other sheep which are not of this fold.<sup>b</sup> I must bring them also, and they will hear my voice. They will become one flock with one shepherd.
-<sup>17</sup> Therefore the Father loves me, because I lay down my life, <sup>c</sup> that I may take it again.
+<sup>17</sup> Therefore the Father loves me, because I lay down my life,<sup>c</sup> that I may take it again.
 <sup>18</sup> No one takes it away from me, but I lay it down by myself. I have power to lay it down, and I have power to take it again. I received this commandment from my Father.”
 
 <sup>19</sup> Therefore a division arose again among the Jews because of these words.
@@ -1021,7 +1021,7 @@ Jesus answered, “Where I am going, you can’t follow now, but you will follow
 <sup>13</sup> Whatever you will ask in my name, I will do it, that the Father may be glorified in the Son.
 <sup>14</sup> If you will ask anything in my name, I will do it.
 <sup>15</sup> If you love me, keep my commandments.
-<sup>16</sup> I will pray to the Father, and he will give you another Counselor, <sup>a</sup> that he may be with you forever:
+<sup>16</sup> I will pray to the Father, and he will give you another Counselor,<sup>a</sup> that he may be with you forever:
 <sup>17</sup> the Spirit of truth, whom the world can’t receive, for it doesn’t see him and doesn’t know him. You know him, for he lives with you and will be in you.
 <sup>18</sup> I will not leave you orphans. I will come to you.
 <sup>19</sup> Yet a little while, and the world will see me no more; but you will see me. Because I live, you will live also.

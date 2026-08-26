@@ -38,9 +38,9 @@
 
 ### Morning prayer of trust in God.
 
-<sup>1</sup> > _A Psalm of David, when he fled from Absalom his son._
+> _A Psalm of David, when he fled from Absalom his son._
 
-Jehovah, how are mine adversaries increased!<br>Many are they that rise up against me.<br>
+<sup>1</sup> Jehovah, how are mine adversaries increased!<br>Many are they that rise up against me.<br>
 <sup>2</sup> Many there are that say <sup>a</sup>of my soul,<br>There is no <sup>b</sup>help for him in God. _[Selah_<br>
 <sup>3</sup> But thou, O Jehovah, art a shield about me;<br>My glory, and the lifter up of my head.<br>
 <sup>4</sup> I cry unto Jehovah with my voice,<br>And he answereth me out of his holy hill. _[Selah_<br>
@@ -57,9 +57,9 @@ Jehovah, how are mine adversaries increased!<br>Many are they that rise up again
 
 ### Evening prayer of trust in God.
 
-<sup>1</sup> > _For the Chief Musician; on stringed instruments. A Psalm of David._
+> _For the Chief Musician; on stringed instruments. A Psalm of David._
 
-Answer me when I call, O God of my righteousness;<br>Thou hast set me at large _when I was_ in distress:<br>Have mercy upon me, and hear my prayer.<sup>a</sup><br>
+<sup>1</sup> Answer me when I call, O God of my righteousness;<br>Thou hast set me at large _when I was_ in distress:<br>Have mercy upon me, and hear my prayer.<sup>a</sup><br>
 <sup>2</sup> O ye sons of men, how long shall my glory be turned into dishonor?<br>_How long_ will ye love vanity, and seek after falsehood? _[Selah_<br>
 <sup>3</sup> But know that Jehovah hath set apart for himself <sup>b</sup>him that is godly:<br>Jehovah will hear when I call unto him.<br>
 <sup>4</sup> <sup>c</sup>Stand in awe, and sin not:<br>Commune with your own heart upon your bed, and be still. _[Selah_<br>
@@ -77,9 +77,9 @@ Answer me when I call, O God of my righteousness;<br>Thou hast set me at large _
 
 ### Prayer for protection from the wicked.
 
-<sup>1</sup> > _For the Chief Musician; with the Nehiloth. A Psalm of David._
+> _For the Chief Musician; with the Nehiloth. A Psalm of David._
 
-Give ear to my words, O Jehovah,<br>Consider my meditation.<sup>a</sup><br>
+<sup>1</sup> Give ear to my words, O Jehovah,<br>Consider my meditation.<sup>a</sup><br>
 <sup>2</sup> Hearken unto the voice of my cry, my King, and my God;<br>For unto thee do I pray.<br>
 <sup>3</sup> O Jehovah, in the morning shalt thou hear my voice;<br>In the morning will I order _my prayer_ unto thee, and will keep watch.<br>
 <sup>4</sup> For thou art not a God that hath pleasure in wickedness:<sup>b</sup><br>Evil shall not sojourn with thee.<br>
@@ -101,15 +101,15 @@ Give ear to my words, O Jehovah,<br>Consider my meditation.<sup>a</sup><br>
 > - <sup>g</sup> 9. Or, _a yawning gulf_
 > - <sup>h</sup> 9. Hebrew _make smooth their tongue_.
 > - <sup>i</sup> 10. Or, _from their counsels_
-> - <sup>j</sup> 11. Or, _So shall all those . . . rejoice, They shall ever shout . . . and thou shalt defend them: They also . . . shall be joyful in thee_.
+> - <sup>j</sup> 11. Or, _So shall all those … rejoice, They shall ever shout … and thou shalt defend them: They also … shall be joyful in thee_.
 
 ## Chapter 6
 
 ### Prayer for mercy in time of trouble.
 
-<sup>1</sup> > _For the Chief Musician; on stringed instruments, set to the Sheminith. A Psalm of David._
+> _For the Chief Musician; on stringed instruments, set to the Sheminith. A Psalm of David._
 
-O Jehovah, rebuke me not in thine anger,<br>Neither chasten me in thy hot displeasure.<sup>a</sup><br>
+<sup>1</sup> O Jehovah, rebuke me not in thine anger,<br>Neither chasten me in thy hot displeasure.<sup>a</sup><br>
 <sup>2</sup> Have mercy upon me, O Jehovah; for I am withered away:<br>O Jehovah, heal me; for my bones are troubled.<br>
 <sup>3</sup> My soul also is sore troubled:<br>And thou, O Jehovah, how long?<br>
 <sup>4</sup> Return, O Jehovah, deliver my soul:<br>Save me for thy lovingkindness’ sake.<br>
@@ -126,9 +126,9 @@ O Jehovah, rebuke me not in thine anger,<br>Neither chasten me in thy hot disple
 
 ### Jehovah implored to defend the psalmist against the wicked.
 
-<sup>1</sup> > _Shiggaion of David, which he sang unto Jehovah, concerning the words of Cush a Benjamite._
+> _Shiggaion of David, which he sang unto Jehovah, concerning the words of Cush a Benjamite._
 
-O Jehovah my God, in thee do I take refuge:<br>Save me from all them that pursue me, and deliver me,<br>
+<sup>1</sup> O Jehovah my God, in thee do I take refuge:<br>Save me from all them that pursue me, and deliver me,<br>
 <sup>2</sup> Lest they tear my soul like a lion,<br>Rending it in pieces, while there is none to deliver.<br>
 <sup>3</sup> O Jehovah my God, if I have done this;<br>If there be iniquity in my hands;<br>
 <sup>4</sup> If I have rewarded evil unto him that was at peace with me<br>(Yea, I have delivered him that without cause was mine adversary);<br>
@@ -155,9 +155,9 @@ O Jehovah my God, in thee do I take refuge:<br>Save me from all them that pursue
 
 ### Jehovah’s glory and man’s dignity.
 
-<sup>1</sup> > _For the Chief Musician; set to the Gittith. A Psalm of David._
+> _For the Chief Musician; set to the Gittith. A Psalm of David._
 
-O Jehovah, our Lord,<br>How excellent is thy name in all the earth,<br>Who hast set thy glory upon the heavens!<sup>a</sup><br>
+<sup>1</sup> O Jehovah, our Lord,<br>How excellent is thy name in all the earth,<br>Who hast set thy glory upon the heavens!<sup>a</sup><br>
 <sup>2</sup> Out of the mouth of babes and sucklings hast thou established strength,<br>Because of thine adversaries,<br>That thou mightest still the enemy and the avenger.<br>
 <sup>3</sup> When I consider thy heavens, the work of thy fingers,<br>The moon and the stars, which thou hast ordained;<br>
 <sup>4</sup> What is man, that thou art mindful of him?<br>And the son of man, that thou visitest him?<br>
@@ -174,9 +174,9 @@ O Jehovah, our Lord,<br>How excellent is thy name in all the earth,<br>Who hast 
 
 ### A psalm of thanksgiving for God’s justice.
 
-<sup>1</sup> > _For the Chief Musician; set to Muth-labben. A Psalm of David._
+> _For the Chief Musician; set to Muth-labben. A Psalm of David._
 
-I will give thanks unto Jehovah with my whole heart;<br>I will show forth all thy marvellous works.<br>
+<sup>1</sup> I will give thanks unto Jehovah with my whole heart;<br>I will show forth all thy marvellous works.<br>
 <sup>2</sup> I will be glad and exult in thee;<br>I will sing praise to thy name, O thou <sup>a</sup>Most High.<br>
 <sup>3</sup> When mine enemies turn back,<br>They stumble and perish at thy presence.<br>
 <sup>4</sup> For thou hast maintained my right and my cause;<br>Thou sittest in the throne judging righteously.<br>
@@ -204,7 +204,7 @@ I will give thanks unto Jehovah with my whole heart;<br>I will show forth all th
 > - <sup>e</sup> 6. Hebrew _plucked up_.
 > - <sup>f</sup> 8. Or, _people_
 > - <sup>g</sup> 11. Or, _peoples_
-> - <sup>h</sup> 12. Or, _For when he maketh . . . he remembereth_
+> - <sup>h</sup> 12. Or, _For when he maketh … he remembereth_
 > - <sup>i</sup> 12. Or, _meek_
 > - <sup>j</sup> 14. Or, _saving help_
 > - <sup>k</sup> 16. Or, _He snareth the wicked_
@@ -254,9 +254,9 @@ I will give thanks unto Jehovah with my whole heart;<br>I will show forth all th
 
 ### Jehovah a refuge and defence.
 
-<sup>1</sup> > _For the Chief Musician. _A Psalm_ of David._
+> _For the Chief Musician. A Psalm of David._
 
-In Jehovah do I take refuge:<br>How say ye to my soul,<br>Flee _as_ a bird to your mountain;<sup>a</sup><br>
+<sup>1</sup> In Jehovah do I take refuge:<br>How say ye to my soul,<br>Flee _as_ a bird to your mountain;<sup>a</sup><br>
 <sup>2</sup> For, lo, the wicked bend the bow,<br>They make ready their arrow upon the string,<br>That they may shoot in darkness at the upright in heart;<br>
 <sup>3</sup> <sup>b</sup>If the foundations be destroyed,<br>What can the righteous do?<br>
 <sup>4</sup> Jehovah is in his holy temple;<br>Jehovah, his throne is in heaven;<br>His eyes behold, his eyelids try, the children of men.<br>
@@ -273,9 +273,9 @@ In Jehovah do I take refuge:<br>How say ye to my soul,<br>Flee _as_ a bird to yo
 
 ### God a helper against the treacherous.
 
-<sup>1</sup> > _For the Chief Musician; set to the Sheminith. A Psalm of David._
+> _For the Chief Musician; set to the Sheminith. A Psalm of David._
 
-Help, Jehovah; for the godly man ceaseth;<br>For the faithful fail from <sup>a</sup>among the children of men.<sup>b</sup><br>
+<sup>1</sup> Help, Jehovah; for the godly man ceaseth;<br>For the faithful fail from <sup>a</sup>among the children of men.<sup>b</sup><br>
 <sup>2</sup> They speak falsehood every one with his neighbor:<br>With flattering lip, and with a double heart, do they speak.<br>
 <sup>3</sup> Jehovah will cut off all flattering lips,<br>The tongue that speaketh great things;<br>
 <sup>4</sup> Who have said, With our tongue will we prevail;<br>Our lips are <sup>c</sup>our own: who is lord over us?<br>
@@ -292,9 +292,9 @@ Help, Jehovah; for the godly man ceaseth;<br>For the faithful fail from <sup>a</
 
 ### Prayer for help in affliction.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-How long, O Jehovah? wilt thou forget me for ever?<br>How long wilt thou hide thy face from me?<br>
+<sup>1</sup> How long, O Jehovah? wilt thou forget me for ever?<br>How long wilt thou hide thy face from me?<br>
 <sup>2</sup> How long shall I take counsel in my soul,<br>Having sorrow in my heart all the day?<br>How long shall mine enemy be exalted over me?<br>
 <sup>3</sup> Consider _and_ answer me, O Jehovah my God:<br>Lighten mine eyes, lest I sleep the _sleep of_ death;<br>
 <sup>4</sup> Lest mine enemy say, I have prevailed against him;<br>_Lest_ mine adversaries rejoice when I am moved.<br>
@@ -305,9 +305,9 @@ How long, O Jehovah? wilt thou forget me for ever?<br>How long wilt thou hide th
 
 ### The folly and wickedness of men.
 
-<sup>1</sup> > _For the Chief Musician. _A Psalm_ of David._
+> _For the Chief Musician. A Psalm of David._
 
-The fool hath said in his heart, There is no God.<br>They are corrupt, they have done abominable works;<br>There is none that doeth good.<br>
+<sup>1</sup> The fool hath said in his heart, There is no God.<br>They are corrupt, they have done abominable works;<br>There is none that doeth good.<br>
 <sup>2</sup> Jehovah looked down from heaven upon the children of men,<br>To see if there were any that did <sup>a</sup>understand,<br>That did seek after God.<br>
 <sup>3</sup> They are all gone aside; they are together become filthy;<br>There is none that doeth good, no, not one.<br>
 <sup>4</sup> Have all the workers of iniquity no knowledge,<br>Who eat up my people _as_ they eat bread,<br>And call not upon Jehovah?<br>
@@ -323,9 +323,9 @@ The fool hath said in his heart, There is no God.<br>They are corrupt, they have
 
 ### Description of a citizen of Zion.
 
-<sup>1</sup> > _A Psalm of David._
+> _A Psalm of David._
 
-Jehovah, who shall sojourn in thy tabernacle?<br>Who shall dwell in thy holy hill?<sup>a</sup><br>
+<sup>1</sup> Jehovah, who shall sojourn in thy tabernacle?<br>Who shall dwell in thy holy hill?<sup>a</sup><br>
 <sup>2</sup> He that walketh uprightly, and worketh righteousness,<br>And speaketh truth in his heart;<br>
 <sup>3</sup> <sup>b</sup>He that slandereth not with his tongue,<br>Nor doeth evil to his friend,<br>Nor taketh up a reproach against his neighbor;<br>
 <sup>4</sup> In <sup>c</sup>whose eyes a reprobate is despised,<br>But <sup>d</sup>who honoreth them that fear Jehovah;<sup>e</sup><br>He that sweareth to his own hurt, and changeth not;<br>
@@ -333,8 +333,8 @@ Jehovah, who shall sojourn in thy tabernacle?<br>Who shall dwell in thy holy hil
 
 > - <sup>a</sup> 1. Hebrew _tent_.
 > - <sup>b</sup> 3. Or, _He slandereth_
-> - <sup>c</sup> 4. Or, _his . . . he_
-> - <sup>d</sup> 4. Or, _his . . . he_
+> - <sup>c</sup> 4. Or, _his … he_
+> - <sup>d</sup> 4. Or, _his … he_
 > - <sup>e</sup> 4. Or, _He sweareth_
 > - <sup>f</sup> 5. Or, _He putteth_
 
@@ -342,9 +342,9 @@ Jehovah, who shall sojourn in thy tabernacle?<br>Who shall dwell in thy holy hil
 
 ### Jehovah the psalmist’s portion in life and deliverer in death.
 
-<sup>1</sup> > _Michtam of David._
+> _Michtam of David._
 
-Preserve me, O God; for in thee do I take refuge.<br>
+<sup>1</sup> Preserve me, O God; for in thee do I take refuge.<br>
 <sup>2</sup> _O my soul_, thou hast said unto Jehovah, Thou art <sup>a</sup>my Lord:<br>I have no good beyond thee.<br>
 <sup>3</sup> <sup>b</sup>As for the saints that are in the earth,<sup>c</sup><br>They are the excellent in whom is all my delight.<br>
 <sup>4</sup> Their sorrows shall be multiplied that give gifts for another _god_:<br>Their drink-offerings of blood will I not offer,<br>Nor take their names upon my lips.<br>
@@ -358,7 +358,7 @@ Preserve me, O God; for in thee do I take refuge.<br>
 
 > - <sup>a</sup> 2. Or, _the Lord_
 > - <sup>b</sup> 3. Or, _Unto_
-> - <sup>c</sup> 3. Or, _And the excellent . . . delight; Their etc._
+> - <sup>c</sup> 3. Or, _And the excellent … delight; Their etc._
 > - <sup>d</sup> 7. Hebrew _reins_.
 > - <sup>e</sup> 9. Or, _confidently_
 > - <sup>f</sup> 10. Or, _godly_. Or, _beloved_. Another reading is, _holy ones_
@@ -368,9 +368,9 @@ Preserve me, O God; for in thee do I take refuge.<br>
 
 ### Prayer for protection against oppressors.
 
-<sup>1</sup> > _A Prayer of David._
+> _A Prayer of David._
 
-Hear the right, O Jehovah, attend unto my cry;<br>Give ear unto my prayer, that goeth not out of feigned lips.<br>
+<sup>1</sup> Hear the right, O Jehovah, attend unto my cry;<br>Give ear unto my prayer, that goeth not out of feigned lips.<br>
 <sup>2</sup> Let my sentence come forth from thy presence;<sup>a</sup><br>Let thine eyes look upon equity.<br>
 <sup>3</sup> Thou hast proved my heart; thou hast visited me in the night;<br>Thou hast tried me, and <sup>b</sup>findest nothing;<br>I am purposed that my mouth shall not transgress.<br>
 <sup>4</sup> As for the works of men, by the word of thy lips<br>I have kept me from the ways of the violent.<br>
@@ -388,7 +388,7 @@ Hear the right, O Jehovah, attend unto my cry;<br>Give ear unto my prayer, that 
 
 > - <sup>a</sup> 2. Or, _Thine eyes behold with equity_
 > - <sup>b</sup> 3. Or, _findest no evil purpose in me; My mouth etc._
-> - <sup>c</sup> 7. Or, _them that take refuge . . . rise up against thy right hand_
+> - <sup>c</sup> 7. Or, _them that take refuge … rise up against thy right hand_
 > - <sup>d</sup> 10. Or, _They have shut up their heart_
 > - <sup>e</sup> 13. Or, _Forestall_
 > - <sup>f</sup> 13. Or, _the wicked, who is thy sword_
@@ -401,9 +401,9 @@ Hear the right, O Jehovah, attend unto my cry;<br>Give ear unto my prayer, that 
 
 ### Jehovah praised for giving victory and dominion.
 
-<sup>1</sup> > _For the Chief Musician. _A Psalm_ of David the servant of Jehovah, who spake unto Jehovah the words of this song in the day that Jehovah delivered him from the hand of all his enemies, and from the hand of Saul: and he said,_
+> _For the Chief Musician. A Psalm of David the servant of Jehovah, who spake unto Jehovah the words of this song in the day that Jehovah delivered him from the hand of all his enemies, and from the hand of Saul: and he said,_
 
-I love thee, O Jehovah, my strength.<sup>a</sup><br>
+<sup>1</sup> I love thee, O Jehovah, my strength.<sup>a</sup><br>
 <sup>2</sup> Jehovah is my rock, and my fortress, and my deliverer;<br>My God, my rock, in whom I will take refuge;<br>My shield, and the horn of my salvation, my high tower.<br>
 <sup>3</sup> I will call upon Jehovah, who is worthy to be praised:<br>So shall I be saved from mine enemies.<br>
 <sup>4</sup> The cords of death compassed me,<br>And the floods of <sup>b</sup>ungodliness made me afraid.<br>
@@ -472,9 +472,9 @@ I love thee, O Jehovah, my strength.<sup>a</sup><br>
 
 ### The works and the Word of God.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-The heavens declare the glory of God;<br>And the firmament showeth his handiwork.<br>
+<sup>1</sup> The heavens declare the glory of God;<br>And the firmament showeth his handiwork.<br>
 <sup>2</sup> Day unto day uttereth speech,<br>And night unto night showeth knowledge.<br>
 <sup>3</sup> There is no speech nor language;<br>Their voice is not heard.<br>
 <sup>4</sup> Their line is gone out through all the earth,<br>And their words to the end of the world.<br>In them hath he set a <sup>a</sup>tabernacle for the sun,<br>
@@ -496,9 +496,9 @@ The heavens declare the glory of God;<br>And the firmament showeth his handiwork
 
 ### Prayer for victory over enemies.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-Jehovah answer thee in the day of trouble;<br>The name of the God of Jacob set thee up on high;<br>
+<sup>1</sup> Jehovah answer thee in the day of trouble;<br>The name of the God of Jacob set thee up on high;<br>
 <sup>2</sup> Send thee help from the sanctuary,<br>And <sup>a</sup>strengthen thee out of Zion;<br>
 <sup>3</sup> Remember all thy <sup>b</sup>offerings,<br>And <sup>c</sup>accept thy burnt-sacrifice; _[Selah_<br>
 <sup>4</sup> Grant thee thy heart’s desire,<br>And fulfil all thy counsel.<br>
@@ -517,9 +517,9 @@ Jehovah answer thee in the day of trouble;<br>The name of the God of Jacob set t
 
 ### Praise for deliverance.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-The king shall joy in thy strength, O Jehovah;<br>And in thy salvation how greatly shall he rejoice!<br>
+<sup>1</sup> The king shall joy in thy strength, O Jehovah;<br>And in thy salvation how greatly shall he rejoice!<br>
 <sup>2</sup> Thou hast given him his heart’s desire,<br>And hast not withholden the request of his lips. _[Selah_<br>
 <sup>3</sup> For thou meetest him with the blessings of <sup>a</sup>goodness:<br>Thou settest a crown of fine gold on his head.<br>
 <sup>4</sup> He asked life of thee, thou gavest it him,<br>Even length of days for ever and ever.<br>
@@ -541,9 +541,9 @@ The king shall joy in thy strength, O Jehovah;<br>And in thy salvation how great
 
 ### A cry of anguish, and a song of praise.
 
-<sup>1</sup> > _For the Chief Musician; set to Aijeleth hash-Shahar. A Psalm of David._
+> _For the Chief Musician; set to Aijeleth hash-Shahar. A Psalm of David._
 
-My God, my God, why hast thou forsaken me?<br>_Why art thou so_ far from hel<sup>a</sup>ping me, _and from_ the words of my groaning?<sup>b</sup><br>
+<sup>1</sup> My God, my God, why hast thou forsaken me?<br>_Why art thou so_ far from hel<sup>a</sup>ping me, _and from_ the words of my groaning?<sup>b</sup><br>
 <sup>2</sup> O my God, I cry in the daytime, but thou answerest not;<br>And in the night season, <sup>c</sup>and am not silent.<br>
 <sup>3</sup> But thou art holy,<br>O thou that <sup>d</sup>inhabitest the praises of Israel.<br>
 <sup>4</sup> Our fathers trusted in thee:<br>They trusted, and thou didst deliver them.<br>
@@ -588,9 +588,9 @@ My God, my God, why hast thou forsaken me?<br>_Why art thou so_ far from hel<sup
 
 ### Jehovah the psalmist’s shepherd.
 
-<sup>1</sup> > _A Psalm of David._
+> _A Psalm of David._
 
-Jehovah is my shepherd; I shall not want.<br>
+<sup>1</sup> Jehovah is my shepherd; I shall not want.<br>
 <sup>2</sup> He maketh me to lie down in green pastures;<br>He leadeth me beside <sup>a</sup>still waters.<br>
 <sup>3</sup> He restoreth my soul:<br>He guideth me in the paths of righteousness for his name’s sake.<br>
 <sup>4</sup> Yea, though I walk through the valley of <sup>b</sup>the shadow of death,<br>I will fear no evil; for thou art with me;<br>Thy rod and thy staff, they comfort me.<br>
@@ -606,9 +606,9 @@ Jehovah is my shepherd; I shall not want.<br>
 
 ### The King of Glory entering Zion.
 
-<sup>1</sup> > _A Psalm of David._
+> _A Psalm of David._
 
-The earth is Jehovah’s, and the fulness thereof;<br>The world, and they that dwell therein.<br>
+<sup>1</sup> The earth is Jehovah’s, and the fulness thereof;<br>The world, and they that dwell therein.<br>
 <sup>2</sup> For he hath founded it upon the seas,<br>And established it upon the floods.<br>
 <sup>3</sup> Who shall ascend into the hill of Jehovah?<br>And who shall stand in his holy place?<br>
 <sup>4</sup> He that hath clean hands, and a pure heart;<br>Who hath not lifted up his soul unto falsehood,<br>And hath not sworn deceitfully.<br>
@@ -626,9 +626,9 @@ The earth is Jehovah’s, and the fulness thereof;<br>The world, and they that d
 
 ### Prayer for protection, guidance, and pardon.
 
-<sup>1</sup> > __A Psalm_ of David._
+> _A Psalm of David._
 
-Unto thee, O Jehovah, do I lift up my soul.<br>
+<sup>1</sup> Unto thee, O Jehovah, do I lift up my soul.<br>
 <sup>2</sup> O my God, in thee have I trusted,<br>Let me not be put to shame;<br>Let not mine enemies triumph over me.<br>
 <sup>3</sup> Yea, none that wait for thee shall be put to shame:<br>They shall be put to shame that deal treacherously without cause.<br>
 <sup>4</sup> Show me thy ways, O Jehovah;<br>Teach me thy paths.<br>
@@ -659,9 +659,9 @@ Unto thee, O Jehovah, do I lift up my soul.<br>
 
 ### Protestation of integrity, and prayer for protection.
 
-<sup>1</sup> > __A Psalm_ of David._
+> _A Psalm of David._
 
-Judge me, O Jehovah, for I have walked in mine integrity:<br>I have trusted also in Jehovah without wavering.<sup>a</sup><br>
+<sup>1</sup> Judge me, O Jehovah, for I have walked in mine integrity:<br>I have trusted also in Jehovah without wavering.<sup>a</sup><br>
 <sup>2</sup> Examine me, O Jehovah, and prove me;<br>Try my <sup>b</sup>heart and my mind.<br>
 <sup>3</sup> For thy lovingkindness is before mine eyes;<br>And I have walked in thy truth.<br>
 <sup>4</sup> I have not sat with men of falsehood;<br>Neither will I go in with dissemblers.<br>
@@ -684,9 +684,9 @@ Judge me, O Jehovah, for I have walked in mine integrity:<br>I have trusted also
 
 ### A psalm of fearless trust in God.
 
-<sup>1</sup> > __A Psalm_ of David._
+> _A Psalm of David._
 
-Jehovah is my light and my salvation;<br>Whom shall I fear?<br>Jehovah is the strength of my life;<br>Of whom shall I be afraid?<sup>a</sup><br>
+<sup>1</sup> Jehovah is my light and my salvation;<br>Whom shall I fear?<br>Jehovah is the strength of my life;<br>Of whom shall I be afraid?<sup>a</sup><br>
 <sup>2</sup> When evil-doers came upon me to eat up my flesh,<br>_Even_ mine adversaries and my foes, they stumbled and fell.<br>
 <sup>3</sup> Though a host should encamp against me,<br>My heart shall not fear:<br>Though war should rise against me,<sup>b</sup><br>Even then will I be confident.<br>
 <sup>4</sup> One thing have I asked of Jehovah, that will I seek after:<br>That I may dwell in the house of Jehovah all the days of my life,<br>To behold <sup>c</sup>the beauty of Jehovah,<br>And to <sup>d</sup>inquire in his temple.<br>
@@ -715,9 +715,9 @@ Jehovah is my light and my salvation;<br>Whom shall I fear?<br>Jehovah is the st
 
 ### A prayer for help, and praise for its answer.
 
-<sup>1</sup> > __A Psalm_ of David._
+> _A Psalm of David._
 
-Unto thee, O Jehovah, will I call:<br>My rock, be not thou deaf unto me;<br>Lest, if thou be silent unto me,<br>I become like them that go down into the pit.<br>
+<sup>1</sup> Unto thee, O Jehovah, will I call:<br>My rock, be not thou deaf unto me;<br>Lest, if thou be silent unto me,<br>I become like them that go down into the pit.<br>
 <sup>2</sup> Hear the voice of my supplications, when I cry unto thee,<br>When I lift up my hands <sup>a</sup>toward thy holy oracle.<br>
 <sup>3</sup> Draw me not away with the wicked,<br>And with the workers of iniquity;<br>That speak peace with their neighbors,<br>But mischief is in their hearts.<br>
 <sup>4</sup> Give them according to their work, and according to the wickedness of their doings:<br>Give them after the operation of their hands;<br>Render to them their desert.<br>
@@ -733,9 +733,9 @@ Unto thee, O Jehovah, will I call:<br>My rock, be not thou deaf unto me;<br>Lest
 
 ### The voice of Jehovah in the storm.
 
-<sup>1</sup> > _A Psalm of David._
+> _A Psalm of David._
 
-Ascribe unto Jehovah, O ye sons of the mighty,<br>Ascribe unto Jehovah glory and <sup>a</sup>strength.<sup>b</sup><br>
+<sup>1</sup> Ascribe unto Jehovah, O ye sons of the mighty,<br>Ascribe unto Jehovah glory and <sup>a</sup>strength.<sup>b</sup><br>
 <sup>2</sup> Ascribe unto Jehovah the glory due unto his name;<br>Worship Jehovah <sup>c</sup>in holy array.<br>
 <sup>3</sup> The voice of Jehovah is upon the waters:<br>The God of glory thundereth,<br>Even Jehovah upon <sup>d</sup>many waters.<br>
 <sup>4</sup> The voice of Jehovah is powerful;<br>The voice of Jehovah is full of majesty.<br>
@@ -757,9 +757,9 @@ Ascribe unto Jehovah, O ye sons of the mighty,<br>Ascribe unto Jehovah glory and
 
 ### Thanksgiving for deliverance from death.
 
-<sup>1</sup> > _A Psalm; a Song at the Dedication of the House. _A Psalm_ of David._
+> _A Psalm; a Song at the Dedication of the House. A Psalm of David._
 
-I will extol thee, O Jehovah; for thou hast raised me up,<br>And hast not made my foes to rejoice over me.<sup>a</sup><br>
+<sup>1</sup> I will extol thee, O Jehovah; for thou hast raised me up,<br>And hast not made my foes to rejoice over me.<sup>a</sup><br>
 <sup>2</sup> O Jehovah my God,<br>I cried unto thee, and thou hast healed me.<br>
 <sup>3</sup> O Jehovah, thou hast brought up my soul from Sheol;<br>Thou hast kept me alive, <sup>b</sup>that I should not go down to the pit.<br>
 <sup>4</sup> Sing praise unto Jehovah, O ye saints of his,<br>And give thanks to his holy memorial _name_.<br>
@@ -781,9 +781,9 @@ I will extol thee, O Jehovah; for thou hast raised me up,<br>And hast not made m
 
 ### A psalm of complaint and of praise.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-In thee, O Jehovah, do I take refuge;<br>Let me never be put to shame:<br>Deliver me in thy righteousness.<br>
+<sup>1</sup> In thee, O Jehovah, do I take refuge;<br>Let me never be put to shame:<br>Deliver me in thy righteousness.<br>
 <sup>2</sup> Bow down thine ear unto me; deliver me speedily:<br>Be thou to me a strong rock,<br>A house of <sup>a</sup>defence to save me.<br>
 <sup>3</sup> For thou art my rock and my fortress;<br>Therefore for thy name’s sake lead me and guide me.<br>
 <sup>4</sup> Pluck me out of the net that they have laid privily for me;<br>For thou art my stronghold.<br>
@@ -818,9 +818,9 @@ In thee, O Jehovah, do I take refuge;<br>Let me never be put to shame:<br>Delive
 
 ### Blessedness of forgiveness and of trust in God.
 
-<sup>1</sup> > __A Psalm_ of David. Maschil._
+> _A Psalm of David. Maschil._
 
-Blessed is he whose transgression is forgiven,<br>Whose sin is covered.<br>
+<sup>1</sup> Blessed is he whose transgression is forgiven,<br>Whose sin is covered.<br>
 <sup>2</sup> Blessed is the man unto whom Jehovah imputeth not iniquity,<br>And in whose spirit there is no guile.<br>
 <sup>3</sup> When I kept silence, my bones wasted away<br>Through my <sup>a</sup>groaning all the day long.<br>
 <sup>4</sup> For day and night thy hand was heavy upon me:<br>My moisture was changed <sup>b</sup>_as_ with the drought of summer. _[Selah_<br>
@@ -872,9 +872,9 @@ Blessed is he whose transgression is forgiven,<br>Whose sin is covered.<br>
 
 ### Jehovah a provider and deliverer.
 
-<sup>1</sup> > __A Psalm_ of David; when he changed his behavior before Abimelech, who drove him away, and he departed._
+> _A Psalm of David; when he changed his behavior before Abimelech, who drove him away, and he departed._
 
-I will bless Jehovah at all times:<br>His praise shall c<sup>a</sup>ontinu<sup>b</sup>ally be in my mouth.<br>
+<sup>1</sup> I will bless Jehovah at all times:<br>His praise shall c<sup>a</sup>ontinu<sup>b</sup>ally be in my mouth.<br>
 <sup>2</sup> My soul shall make her boast in Jehovah:<br>The meek shall hear thereof, and be glad.<br>
 <sup>3</sup> Oh magnify Jehovah with me,<br>And let us exalt his name together.<br>
 <sup>4</sup> I sought Jehovah, and he answered me,<br>And delivered me from all my fears.<br>
@@ -905,9 +905,9 @@ I will bless Jehovah at all times:<br>His praise shall c<sup>a</sup>ontinu<sup>b
 
 ### Prayer for rescue from enemies.
 
-<sup>1</sup> > __A Psalm_ of David._
+> _A Psalm of David._
 
-Strive thou, O Jehovah, with them that strive with me:<br>Fight thou against them that fight against me.<br>
+<sup>1</sup> Strive thou, O Jehovah, with them that strive with me:<br>Fight thou against them that fight against me.<br>
 <sup>2</sup> Take hold of shield and buckler,<br>And stand up for my help.<br>
 <sup>3</sup> Draw out also the spear, <sup>a</sup>and stop the way against them that pursue me:<br>Say unto my soul, I am thy salvation.<br>
 <sup>4</sup> Let them be put to shame and brought to dishonor that seek after my soul:<br>Let them be turned back and confounded that devise my hurt.<br>
@@ -956,9 +956,9 @@ Strive thou, O Jehovah, with them that strive with me:<br>Fight thou against the
 
 ### Wickedness of men and lovingkindness of God.
 
-<sup>1</sup> > _For the Chief Musician. _A Psalm_ of David the servant of Jehovah._
+> _For the Chief Musician. A Psalm of David the servant of Jehovah._
 
-The transgression of the wicked saith within my heart,<br>There is no fear of God before his eyes.<sup>a</sup><sup>b</sup><br>
+<sup>1</sup> The transgression of the wicked saith within my heart,<br>There is no fear of God before his eyes.<sup>a</sup><sup>b</sup><br>
 <sup>2</sup> For <sup>c</sup>he flattereth himself in his own eyes,<sup>d</sup><br>That his iniquity will not be found out and be hated.<br>
 <sup>3</sup> The words of his mouth are iniquity and deceit:<br>He hath ceased to be wise _and_ to do good.<br>
 <sup>4</sup> He deviseth iniquity upon his bed;<br>He setteth himself in a way that is not good;<br>He abhorreth not evil.<br>
@@ -981,9 +981,9 @@ The transgression of the wicked saith within my heart,<br>There is no fear of Go
 
 ### Security of those who trust in Jehovah, and insecurity of the wicked.
 
-<sup>1</sup> > __A Psalm_ of David._
+> _A Psalm of David._
 
-Fret not thyself because of evil-doers,<br>Neither be thou envious against them that work unrighteousness.<br>
+<sup>1</sup> Fret not thyself because of evil-doers,<br>Neither be thou envious against them that work unrighteousness.<br>
 <sup>2</sup> For they shall soon be cut down like the grass,<br>And wither as the green herb.<br>
 <sup>3</sup> Trust in Jehovah, and do good;<sup>a</sup><br>Dwell in the land, and <sup>b</sup>feed on _his_ faithfulness.<br>
 <sup>4</sup> <sup>c</sup>Delight thyself also in Jehovah;<br>And he will give thee the <sup>d</sup>desires of thy heart.<br>
@@ -1041,9 +1041,9 @@ Fret not thyself because of evil-doers,<br>Neither be thou envious against them 
 
 ### Prayer of a suffering penitent.
 
-<sup>1</sup> > _A Psalm of David, to bring to remembrance._
+> _A Psalm of David, to bring to remembrance._
 
-O Jehovah, rebuke me not in thy wrath;<br>Neither cha<sup>a</sup>sten me in thy hot displeasure.<br>
+<sup>1</sup> O Jehovah, rebuke me not in thy wrath;<br>Neither cha<sup>a</sup>sten me in thy hot displeasure.<br>
 <sup>2</sup> For thine arrows <sup>b</sup>stick fast in me,<br>And thy hand <sup>c</sup>presseth me sore.<br>
 <sup>3</sup> There is no soundness in my flesh because of thine indignation;<br>Neither is there any <sup>d</sup>health in my bones because of my sin.<br>
 <sup>4</sup> For mine iniquities are gone over my head:<br>As a heavy burden they are too heavy for me.<br>
@@ -1079,9 +1079,9 @@ O Jehovah, rebuke me not in thy wrath;<br>Neither cha<sup>a</sup>sten me in thy 
 
 ### The vanity of life.
 
-<sup>1</sup> > _For the Chief Musician, for Jeduthun. A Psalm of David._
+> _For the Chief Musician, for Jeduthun. A Psalm of David._
 
-I said, I will take heed to my ways,<br>That I sin not <sup>a</sup>with my tongue:<br>I will keep my mouth with a bridle,<br>While the wicked is before me.<sup>b</sup><br>
+<sup>1</sup> I said, I will take heed to my ways,<br>That I sin not <sup>a</sup>with my tongue:<br>I will keep my mouth with a bridle,<br>While the wicked is before me.<sup>b</sup><br>
 <sup>2</sup> I was dumb with silence, I held my peace, <sup>c</sup>even from good;<br>And my sorrow was stirred.<br>
 <sup>3</sup> My heart was hot within me;<br>While I was musing the fire burned;<br>_Then_ spake I with my tongue:<br>
 <sup>4</sup> Jehovah, make me to know mine end,<br>And the measure of my days, what it is;<br>Let me know how frail I am.<br>
@@ -1112,9 +1112,9 @@ I said, I will take heed to my ways,<br>That I sin not <sup>a</sup>with my tongu
 
 ### A sacrifice of praise, and prayer for help.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-I waited patiently for Jehovah;<br>And he inclined unto me, and heard my cry.<br>
+<sup>1</sup> I waited patiently for Jehovah;<br>And he inclined unto me, and heard my cry.<br>
 <sup>2</sup> He brought me up also out of <sup>a</sup>a horrible pit, out of the miry clay;<br>And he set my feet upon a rock, and established my goings.<br>
 <sup>3</sup> And he hath put a new song in my mouth, even praise unto our God:<br>Many shall see it, and fear,<br>And shall trust in Jehovah.<br>
 <sup>4</sup> Blessed is the man that maketh Jehovah his trust,<br>And respecteth not the proud, nor such as <sup>b</sup>turn aside to lies.<br>
@@ -1146,9 +1146,9 @@ I waited patiently for Jehovah;<br>And he inclined unto me, and heard my cry.<br
 
 ### The psalmist in sickness complains of enemies and false friends.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-Blessed is he that considereth the poor:<br>Jehovah will deliver him in the day of evil.<sup>a</sup><br>
+<sup>1</sup> Blessed is he that considereth the poor:<br>Jehovah will deliver him in the day of evil.<sup>a</sup><br>
 <sup>2</sup> Jehovah will preserve him, and keep him alive,<br>And he shall be blessed <sup>b</sup>upon the earth;<br>And deliver not thou him unto the will of his enemies.<br>
 <sup>3</sup> Jehovah will support him upon the couch of languishing:<br>Thou <sup>c</sup>makest all his bed in his sickness.<br>
 <sup>4</sup> I said, O Jehovah, have mercy upon me:<br>Heal my soul; for I have sinned against thee.<br>
@@ -1172,9 +1172,9 @@ Blessed is he that considereth the poor:<br>Jehovah will deliver him in the day 
 
 ### Thirsting for God in trouble and exile.
 
-<sup>1</sup> > _For the Chief Musician. Maschil of the sons of Korah._
+> _For the Chief Musician. Maschil of the sons of Korah._
 
-As the hart panteth after the water brooks,<br>So panteth my soul after thee, O God.<br>
+<sup>1</sup> As the hart panteth after the water brooks,<br>So panteth my soul after thee, O God.<br>
 <sup>2</sup> My soul thirsteth for God, for the living God:<br>When shall I come and appear before God?<br>
 <sup>3</sup> My tears have been my food day and night,<br>While they <sup>a</sup>continually say unto me, Where is thy God?<br>
 <sup>4</sup> These things I remember, and pour out my soul <sup>b</sup>within me,<br>How I went with the throng, and <sup>c</sup>led them to the house of God,<br>With the voice of joy and praise, a multitude keeping holyday.<br>
@@ -1211,9 +1211,9 @@ As the hart panteth after the water brooks,<br>So panteth my soul after thee, O 
 
 ### Former deliverances and present troubles.
 
-<sup>1</sup> > _For the Chief Musician. _A Psalm_ of the sons of Korah. Maschil._
+> _For the Chief Musician. A Psalm of the sons of Korah. Maschil._
 
-We have heard with our ears, O God,<br>Our fathers have told us,<br>What work thou didst in their days,<br>In the days of old.<br>
+<sup>1</sup> We have heard with our ears, O God,<br>Our fathers have told us,<br>What work thou didst in their days,<br>In the days of old.<br>
 <sup>2</sup> Thou didst drive out the nations with thy hand;<br>But them thou didst plant:<br>Thou didst afflict the peoples;<br>But them thou didst spread abroad.<br>
 <sup>3</sup> For they gat not the land in possession by their own sword,<br>Neither did their own arm save them;<br>But thy right hand, and thine arm, and the light of thy countenance,<br>Because thou wast favorable unto them.<br>
 <sup>4</sup> Thou art my King, O God:<br>Command <sup>a</sup>deliverance for Jacob.<br>
@@ -1247,9 +1247,9 @@ We have heard with our ears, O God,<br>Our fathers have told us,<br>What work th
 
 ### A song celebrating the king’s marriage.
 
-<sup>1</sup> > _For the Chief Musician; set to Shoshannim. _A Psalm_ of the sons of Korah. Maschil. A Song of loves._
+> _For the Chief Musician; set to Shoshannim. A Psalm of the sons of Korah. Maschil. A Song of loves._
 
-My heart overfloweth with a goodly matter;<br>I speak the things which I ha<sup>a</sup>ve made touching the king:<br>My tongue is the pen of a ready writer.<sup>b</sup><br>
+<sup>1</sup> My heart overfloweth with a goodly matter;<br>I speak the things which I ha<sup>a</sup>ve made touching the king:<br>My tongue is the pen of a ready writer.<sup>b</sup><br>
 <sup>2</sup> Thou art fairer than the children of men;<br>Grace is poured <sup>c</sup>into thy lips:<br>Therefore God hath blessed thee for ever.<br>
 <sup>3</sup> Gird thy sword upon thy thigh, O mighty one,<br>Thy glory and thy majesty.<br>
 <sup>4</sup> And in thy majesty ride on prosperously,<sup>d</sup><br>Because of truth and meekness _and_ righteousness:<br>And <sup>e</sup>thy right hand shall teach thee terrible things.<br>
@@ -1280,9 +1280,9 @@ My heart overfloweth with a goodly matter;<br>I speak the things which I ha<sup>
 
 ### God the refuge of his people.
 
-<sup>1</sup> > _For the Chief Musician. _A Psalm_ of the sons of Korah; set to Alamoth. A Song._
+> _For the Chief Musician. A Psalm of the sons of Korah; set to Alamoth. A Song._
 
-God is our refuge and strength,<br>A very present help in trouble.<br>
+<sup>1</sup> God is our refuge and strength,<br>A very present help in trouble.<br>
 <sup>2</sup> Therefore will we not fear, though the earth do change,<br>And though the mountains be shaken into the heart of the seas;<br>
 <sup>3</sup> Though the waters thereof roar and be troubled,<br>Though the mountains tremble with the <sup>a</sup>swelling thereof. _[Selah_<br>
 <sup>4</sup> There is a river, the streams whereof make glad the city of God,<br>The holy place of the tabernacles of the Most High.<br>
@@ -1305,9 +1305,9 @@ God is our refuge and strength,<br>A very present help in trouble.<br>
 
 ### God the King of the Earth.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of the sons of Korah._
+> _For the Chief Musician. A Psalm of the sons of Korah._
 
-Oh clap your hands, all ye peoples;<br>Shout unto God with the voice of triumph.<br>
+<sup>1</sup> Oh clap your hands, all ye peoples;<br>Shout unto God with the voice of triumph.<br>
 <sup>2</sup> For <sup>a</sup>Jehovah Most High is terrible;<br>He is a great King over all the earth.<br>
 <sup>3</sup> He subdueth peoples under us,<br>And nations under our feet.<br>
 <sup>4</sup> He chooseth our inheritance for us,<br>The glory of Jacob whom he <sup>b</sup>loved. _[Selah_<br>
@@ -1326,9 +1326,9 @@ Oh clap your hands, all ye peoples;<br>Shout unto God with the voice of triumph.
 
 ### The beauty and glory of Zion.
 
-<sup>1</sup> > _A Song; a Psalm of the sons of Korah._
+> _A Song; a Psalm of the sons of Korah._
 
-Great is Jehovah, and greatly to be praised,<br>In the city of our God, in his holy mountain.<br>
+<sup>1</sup> Great is Jehovah, and greatly to be praised,<br>In the city of our God, in his holy mountain.<br>
 <sup>2</sup> Beautiful in elevation, the joy of the whole earth,<br>Is mount Zion, _on_ the sides of the north,<br>The city of the great King.<br>
 <sup>3</sup> God hath made himself known in her palaces for a <sup>a</sup>refuge.<br>
 <sup>4</sup> For, lo, the kings assembled themselves,<br>They <sup>b</sup>passed by together.<br>
@@ -1353,9 +1353,9 @@ Great is Jehovah, and greatly to be praised,<br>In the city of our God, in his h
 
 ### The folly of trusting in riches.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of the sons of Korah._
+> _For the Chief Musician. A Psalm of the sons of Korah._
 
-Hear this, all ye peoples;<br>Give ear, all ye inhabitants of the world,<br>
+<sup>1</sup> Hear this, all ye peoples;<br>Give ear, all ye inhabitants of the world,<br>
 <sup>2</sup> Both low and high,<br>Rich and poor together.<br>
 <sup>3</sup> My mouth shall speak wisdom;<br>And the meditation of my heart shall be of understanding.<br>
 <sup>4</sup> I will incline mine ear to a parable:<br>I will open my dark saying upon the harp.<br>
@@ -1376,7 +1376,7 @@ Hear this, all ye peoples;<br>Give ear, all ye inhabitants of the world,<br>
 <sup>19</sup> <sup>i</sup>He shall go to the generation of his fathers;<sup>j</sup><br>They shall never see the light.<br>
 <sup>20</sup> Man that is in honor, and understandeth not,<br>Is like the beasts that perish.<br>
 
-> - <sup>a</sup> 5. Or, _the iniquity of them that would supplant me compasseth me about, Even of them that trust . . . riches?_
+> - <sup>a</sup> 5. Or, _the iniquity of them that would supplant me compasseth me about, Even of them that trust … riches?_
 > - <sup>b</sup> 9. Or, _the pit_
 > - <sup>c</sup> 10. Or, _he seeth that wise men etc._
 > - <sup>d</sup> 13. Or, _is the way of them that are foolish_
@@ -1391,9 +1391,9 @@ Hear this, all ye peoples;<br>Give ear, all ye inhabitants of the world,<br>
 
 ### God the judge of the righteous and the wicked.
 
-<sup>1</sup> > _A Psalm of Asaph._
+> _A Psalm of Asaph._
 
-The Mighty One, God, Jehovah, hath spoken,<br>And called the earth from the rising of the sun unto the going down thereof.<br>
+<sup>1</sup> The Mighty One, God, Jehovah, hath spoken,<br>And called the earth from the rising of the sun unto the going down thereof.<br>
 <sup>2</sup> Out of Zion, the perfection of beauty,<br>God hath shined forth.<br>
 <sup>3</sup> Our God cometh, and doth not keep silence:<br>A fire devoureth before him,<br>And it is very tempestuous round about him.<br>
 <sup>4</sup> He calleth to the heavens above,<br>And to the earth, that he may judge his people:<br>
@@ -1431,9 +1431,9 @@ The Mighty One, God, Jehovah, hath spoken,<br>And called the earth from the risi
 
 ### A contrite sinner’s prayer for pardon.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David; when Nathan the prophet came unto him, after he had gone in to Bath-sheba._
+> _For the Chief Musician. A Psalm of David; when Nathan the prophet came unto him, after he had gone in to Bath-sheba._
 
-Have mercy upon me, O God, according to thy lovingkindness:<br>According to the multitude of thy tender mercies blot out my transgressions.<br>
+<sup>1</sup> Have mercy upon me, O God, according to thy lovingkindness:<br>According to the multitude of thy tender mercies blot out my transgressions.<br>
 <sup>2</sup> Wash me thoroughly from mine iniquity,<br>And cleanse me from my sin.<br>
 <sup>3</sup> For I know my transgressions;<br>And my sin is ever before me.<br>
 <sup>4</sup> Against thee, thee only, have I sinned,<br>And done that which is evil in thy sight;<br>That thou mayest be justified when thou speakest,<br>And be clear when thou judgest.<br>
@@ -1462,9 +1462,9 @@ Have mercy upon me, O God, according to thy lovingkindness:<br>According to the 
 
 ### Futility of boastful wickedness.
 
-<sup>1</sup> > _For the Chief Musician. Maschil of David; when Doeg the Edomite came and told Saul, and said unto him, David is come to the house of Ahimelech._
+> _For the Chief Musician. Maschil of David; when Doeg the Edomite came and told Saul, and said unto him, David is come to the house of Ahimelech._
 
-Why boastest thou thyself in mischief, O mighty man?<br>The lovingkindness of God _endureth_ continually.<br>
+<sup>1</sup> Why boastest thou thyself in mischief, O mighty man?<br>The lovingkindness of God _endureth_ continually.<br>
 <sup>2</sup> Thy tongue deviseth very wickedness,<br>Like a sharp razor, working deceitfully.<br>
 <sup>3</sup> Thou lovest evil more than good,<br>And lying rather than to speak righteousness. _[Selah_<br>
 <sup>4</sup> Thou lovest all devouring words,<sup>a</sup><br>O thou deceitful tongue.<br>
@@ -1482,9 +1482,9 @@ Why boastest thou thyself in mischief, O mighty man?<br>The lovingkindness of Go
 
 ### The folly and wickedness of men.
 
-<sup>1</sup> > _For the Chief Musician; set to Mahalath. Maschil of David._
+> _For the Chief Musician; set to Mahalath. Maschil of David._
 
-The fool hath said in his heart, There is no God.<br>Corrupt are they, and have done abominable iniquity;<br>There is none that doeth good.<br>
+<sup>1</sup> The fool hath said in his heart, There is no God.<br>Corrupt are they, and have done abominable iniquity;<br>There is none that doeth good.<br>
 <sup>2</sup> God looked down from heaven upon the children of men,<br>To see if there were any that did <sup>a</sup>understand,<br>That did seek after God.<br>
 <sup>3</sup> Every one of them is gone back; they are together become filthy;<br>There is none that doeth good, no, not one.<br>
 <sup>4</sup> Have the workers of iniquity no knowledge,<br>Who eat up my people _as_ they eat bread,<br>And call not upon God?<br>
@@ -1498,9 +1498,9 @@ The fool hath said in his heart, There is no God.<br>Corrupt are they, and have 
 
 ### Prayer for defence against enemies.
 
-<sup>1</sup> > _For the Chief Musician; on stringed instruments. Maschil of David; when the Ziphites came and said to Saul, Doth not David hide himself with us?_
+> _For the Chief Musician; on stringed instruments. Maschil of David; when the Ziphites came and said to Saul, Doth not David hide himself with us?_
 
-Save me, O God, by thy name,<br>And judge me in thy might.<br>
+<sup>1</sup> Save me, O God, by thy name,<br>And judge me in thy might.<br>
 <sup>2</sup> Hear my prayer, O God;<br>Give ear to the words of my mouth.<br>
 <sup>3</sup> For strangers are risen up against me,<br>And violent men have sought after my soul:<br>They have not set God before them. _[Selah_<br>
 <sup>4</sup> Behold, God is my helper:<br>The Lord is <sup>a</sup>of them that uphold my soul.<br>
@@ -1516,9 +1516,9 @@ Save me, O God, by thy name,<br>And judge me in thy might.<br>
 
 ### Prayer for the destruction of the treacherous.
 
-<sup>1</sup> > _For the Chief Musician; on stringed instruments. Maschil of David._
+> _For the Chief Musician; on stringed instruments. Maschil of David._
 
-Give ear to my prayer, O God;<br>And hide not thyself from my supplication.<br>
+<sup>1</sup> Give ear to my prayer, O God;<br>And hide not thyself from my supplication.<br>
 <sup>2</sup> Attend unto me, and answer me:<br>I am restless in my complaint, and moan,<br>
 <sup>3</sup> Because of the voice of the enemy,<br>Because of the oppression of the wicked;<br>For they cast iniquity upon me,<br>And in anger they persecute me.<br>
 <sup>4</sup> My heart is sore pained within me:<br>And the terrors of death are fallen upon me.<br>
@@ -1555,9 +1555,9 @@ Give ear to my prayer, O God;<br>And hide not thyself from my supplication.<br>
 
 ### Supplication for deliverance, and grateful trust in God.
 
-<sup>1</sup> > _For the Chief Musician; set to Jonath elem rehokim. _A Psalm_ of David. Michtam; when the Philistines took him in Gath._
+> _For the Chief Musician; set to Jonath elem rehokim. A Psalm of David. Michtam; when the Philistines took him in Gath._
 
-Be merciful unto me, O God; for man would swallow me up:<br>All the day long he fighting oppres<sup>a</sup>seth me.<br>
+<sup>1</sup> Be merciful unto me, O God; for man would swallow me up:<br>All the day long he fighting oppres<sup>a</sup>seth me.<br>
 <sup>2</sup> <sup>b</sup>Mine enemies would swallow me up all the day long;<br>For they are many that fight proudly against me.<br>
 <sup>3</sup> What time I am afraid,<br>I will put my trust in thee.<br>
 <sup>4</sup> In God (I will praise his word),<br>In God have I put my trust, I will not be afraid;<br>What can flesh do unto me?<br>
@@ -1583,9 +1583,9 @@ Be merciful unto me, O God; for man would swallow me up:<br>All the day long he 
 
 ### Prayer for rescue from persecutors.
 
-<sup>1</sup> > _For the Chief Musician; _set to_ Al-tashheth. _A Psalm_ of David. Michtam; when he fled from Saul, in the cave._
+> _For the Chief Musician; set to Al-tashheth. A Psalm of David. Michtam; when he fled from Saul, in the cave._
 
-Be merciful unto me, O God, be merciful unto me;<br>For my soul taketh refuge in thee:<br>Yea, in the shadow of thy wings will I take refuge,<br>Until _these_ calamities be overpast.<sup>a</sup><br>
+<sup>1</sup> Be merciful unto me, O God, be merciful unto me;<br>For my soul taketh refuge in thee:<br>Yea, in the shadow of thy wings will I take refuge,<br>Until _these_ calamities be overpast.<sup>a</sup><br>
 <sup>2</sup> I will cry unto God Most High,<br>Unto God that performeth _all things_ for me.<br>
 <sup>3</sup> He will send from heaven, and save me,<br>_When_ he that would swallow me up reproacheth; _[Selah_<br>God will send forth his lovingkindness and his truth.<br>
 <sup>4</sup> My soul is among lions;<br>I <sup>b</sup>lie among them that are set on fire,<br>Even the sons of men, whose teeth are spears and arrows,<br>And their tongue a sharp sword.<br>
@@ -1605,9 +1605,9 @@ Be merciful unto me, O God, be merciful unto me;<br>For my soul taketh refuge in
 
 ### Prayer for the punishment of the wicked.
 
-<sup>1</sup> > _For the Chief Musician; _set to_ Al-tashheth. _A Psalm_ of David. Michtam._
+> _For the Chief Musician; set to Al-tashheth. A Psalm of David. Michtam._
 
-Do ye indeed in silence speak righteousness?<br>Do ye judge uprightly, O ye sons of men?<sup>a</sup><sup>b</sup><sup>c</sup><br>
+<sup>1</sup> Do ye indeed in silence speak righteousness?<br>Do ye judge uprightly, O ye sons of men?<sup>a</sup><sup>b</sup><sup>c</sup><br>
 <sup>2</sup> Nay, in heart ye work wickedness;<br>Ye weigh out the violence of your hands in the earth.<br>
 <sup>3</sup> The wicked are estranged from the womb:<br>They go astray as soon as they are born, speaking lies.<br>
 <sup>4</sup> Their poison is like the poison of a serpent:<br>_They are_ like the deaf adder that stoppeth her ear,<br>
@@ -1631,9 +1631,9 @@ Do ye indeed in silence speak righteousness?<br>Do ye judge uprightly, O ye sons
 
 ### Prayer for deliverance from enemies.
 
-<sup>1</sup> > _For the Chief Musician; _set to_ Al-tashheth. _A Psalm_ of David. Michtam; when Saul sent, and they watched the house to kill him._
+> _For the Chief Musician; set to Al-tashheth. A Psalm of David. Michtam; when Saul sent, and they watched the house to kill him._
 
-Deliver me from mine enemies, O my God:<br>Set me on high from them that rise up against me.<br>
+<sup>1</sup> Deliver me from mine enemies, O my God:<br>Set me on high from them that rise up against me.<br>
 <sup>2</sup> Deliver me from the workers of iniquity,<br>And save me from the bloodthirsty men.<br>
 <sup>3</sup> For, lo, they lie in wait for my soul;<br>The mighty gather themselves together against me:<br>Not for my transgression, nor for my sin, O Jehovah.<br>
 <sup>4</sup> They run and prepare themselves without _my_ fault:<br>Awake thou to <sup>a</sup>help me, and behold.<br>
@@ -1660,9 +1660,9 @@ Deliver me from mine enemies, O my God:<br>Set me on high from them that rise up
 
 ### Lament over defeat in battle, and prayer for help.
 
-<sup>1</sup> > _For the Chief Musician; set to Shushan Eduth. Michtam of David, to teach; when he strove with Aram-naharaim and with Aram-zobah, and Joab returned, and smote of Edom in the Valley of Salt twelve thousand._
+> _For the Chief Musician; set to Shushan Eduth. Michtam of David, to teach; when he strove with Aram-naharaim and with Aram-zobah, and Joab returned, and smote of Edom in the Valley of Salt twelve thousand._
 
-O God thou hast cast us off, thou hast broken us down;<br>Thou hast been angry; oh rest<sup>a</sup>ore us again.<br>
+<sup>1</sup> O God thou hast cast us off, thou hast broken us down;<br>Thou hast been angry; oh rest<sup>a</sup>ore us again.<br>
 <sup>2</sup> Thou hast made the land to tremble; thou hast rent it:<br>Heal the breaches thereof; for it shaketh.<br>
 <sup>3</sup> Thou hast showed thy people hard things:<br>Thou hast made us to drink the wine of staggering.<br>
 <sup>4</sup> Thou hast given a banner to them that fear thee,<br>That it may be displayed because of the truth. _[Selah_<br>
@@ -1680,16 +1680,16 @@ O God thou hast cast us off, thou hast broken us down;<br>Thou hast been angry; 
 > - <sup>c</sup> 7. Or, _lawgiver_
 > - <sup>d</sup> 8. Or, _Unto_
 > - <sup>e</sup> 9. Or, _Who will lead me etc._
-> - <sup>f</sup> 10. Or, _Wilt not thou, O God, who hast cast us off, And goest . . . hosts?_
+> - <sup>f</sup> 10. Or, _Wilt not thou, O God, who hast cast us off, And goest … hosts?_
 > - <sup>g</sup> 11. Hebrew _salvation_.
 
 ## Chapter 61
 
 ### Confidence in God’s protection.
 
-<sup>1</sup> > _For the Chief Musician; on a stringed instrument. _A Psalm_ of David._
+> _For the Chief Musician; on a stringed instrument. A Psalm of David._
 
-Hear my cry, O God;<br>Attend unto my prayer.<br>
+<sup>1</sup> Hear my cry, O God;<br>Attend unto my prayer.<br>
 <sup>2</sup> From the end of the earth will I call unto thee, when my heart <sup>a</sup>is overwhelmed:<br>Lead me to <sup>b</sup>the rock that is higher than I.<br>
 <sup>3</sup> For thou hast been a refuge for me,<br>A strong tower from the enemy.<br>
 <sup>4</sup> I will dwell in thy <sup>c</sup>tabernacle for ever:<br>I will take refuge in the covert of thy wings. _[Selah_<br>
@@ -1707,9 +1707,9 @@ Hear my cry, O God;<br>Attend unto my prayer.<br>
 
 ### God alone a refuge from treachery and oppression.
 
-<sup>1</sup> > _For the Chief Musician; after the manner of Jeduthun. A Psalm of David._
+> _For the Chief Musician; after the manner of Jeduthun. A Psalm of David._
 
-My soul waiteth in silence for God only:<br>From him _cometh_ my salvation.<sup>a</sup><br>
+<sup>1</sup> My soul waiteth in silence for God only:<br>From him _cometh_ my salvation.<sup>a</sup><br>
 <sup>2</sup> He only is my rock and my salvation:<br>_He is_ my high tower; I shall not be greatly moved.<br>
 <sup>3</sup> How long will ye set upon a man,<sup>b</sup><br>That ye may slay _him_, all of you,<br>Like a leaning wall, like a tottering fence?<br>
 <sup>4</sup> They only consult to thrust him down from his dignity;<br>They delight in lies;<br>They bless with their mouth, but they curse inwardly. _[Selah_<br>
@@ -1731,9 +1731,9 @@ My soul waiteth in silence for God only:<br>From him _cometh_ my salvation.<sup>
 
 ### The thirsting soul satisfied in God.
 
-<sup>1</sup> > _A Psalm of David, when he was in the wilderness of Judah._
+> _A Psalm of David, when he was in the wilderness of Judah._
 
-O God, thou art my God; earnestly will I seek thee:<br>My soul thirsteth for thee, my flesh longeth for thee,<br>In a dry and weary land, where no water is.<br>
+<sup>1</sup> O God, thou art my God; earnestly will I seek thee:<br>My soul thirsteth for thee, my flesh longeth for thee,<br>In a dry and weary land, where no water is.<br>
 <sup>2</sup> So have I looked upon thee in the sanctuary,<br>To see thy power and thy glory.<br>
 <sup>3</sup> Because thy lovingkindness is better than life,<br>My lips shall praise thee.<br>
 <sup>4</sup> So will I bless thee while I live:<br>I will lift up my hands in thy name.<br>
@@ -1755,9 +1755,9 @@ O God, thou art my God; earnestly will I seek thee:<br>My soul thirsteth for the
 
 ### Prayer for deliverance from secret enemies.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-Hear my voice, O God, in my complaint:<br>Preserve my life from fear of the enemy.<br>
+<sup>1</sup> Hear my voice, O God, in my complaint:<br>Preserve my life from fear of the enemy.<br>
 <sup>2</sup> Hide me from the secret counsel of evil-doers,<br>From the <sup>a</sup>tumult of the workers of iniquity;<br>
 <sup>3</sup> Who have whet their tongue like a sword,<br>And have aimed their arrows, even bitter words,<br>
 <sup>4</sup> That they may shoot in secret places at the perfect:<br>Suddenly do they shoot at him, and fear not.<br>
@@ -1777,9 +1777,9 @@ Hear my voice, O God, in my complaint:<br>Preserve my life from fear of the enem
 
 ### God’s abundant favor to earth and man.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm. A Song of David._
+> _For the Chief Musician. A Psalm. A Song of David._
 
-Praise waiteth for thee, O God, in Zion;<br>And unto thee shall the vow be performed.<sup>a</sup><br>
+<sup>1</sup> Praise waiteth for thee, O God, in Zion;<br>And unto thee shall the vow be performed.<sup>a</sup><br>
 <sup>2</sup> O thou that hearest prayer,<br>Unto thee shall all flesh come.<br>
 <sup>3</sup> <sup>b</sup>Iniquities prevail against me:<br>As for our transgressions, thou wilt <sup>c</sup>forgive them.<br>
 <sup>4</sup> Blessed is the man whom thou choosest, and causest to approach _unto thee_,<br>That he may dwell in thy courts:<br>We shall be satisfied with the goodness of thy house,<br>Thy holy temple.<br>
@@ -1801,15 +1801,15 @@ Praise waiteth for thee, O God, in Zion;<br>And unto thee shall the vow be perfo
 > - <sup>f</sup> 9. Hebrew _it_.
 > - <sup>g</sup> 10. Hebrew _lowerest_.
 > - <sup>h</sup> 11. Hebrew _the year of thy goodness_.
-> - <sup>i</sup> 12. Or, _The pastures . . . do drop_
+> - <sup>i</sup> 12. Or, _The pastures … do drop_
 
 ## Chapter 66
 
 ### Praise for God’s mighty deeds and for his answer to prayer.
 
-<sup>1</sup> > _For the Chief Musician. A Song, a Psalm._
+> _For the Chief Musician. A Song, a Psalm._
 
-Make a joyful noise unto God, all the earth:<br>
+<sup>1</sup> Make a joyful noise unto God, all the earth:<br>
 <sup>2</sup> Sing forth the glory of his name:<br>Make his praise glorious.<br>
 <sup>3</sup> Say unto God, How terrible are thy works!<br>Through the greatness of thy power shall thine enemies <sup>a</sup>submit themselves unto thee.<br>
 <sup>4</sup> All the earth shall worship thee,<br>And shall sing unto thee;<br>They shall sing to thy name. _[Selah_<br>
@@ -1842,9 +1842,9 @@ Make a joyful noise unto God, all the earth:<br>
 
 ### The nations exhorted to praise God.
 
-<sup>1</sup> > _For the Chief Musician; on stringed instruments. A Psalm, a Song._
+> _For the Chief Musician; on stringed instruments. A Psalm, a Song._
 
-God be merciful unto us, and bless us,<br>_And_ cause his face to shine upon us; _[Selah_<sup>a</sup><br>
+<sup>1</sup> God be merciful unto us, and bless us,<br>_And_ cause his face to shine upon us; _[Selah_<sup>a</sup><br>
 <sup>2</sup> That thy way may be known upon earth,<br>Thy salvation among all nations.<br>
 <sup>3</sup> Let the peoples <sup>b</sup>praise thee, O God;<br>Let all the peoples praise thee.<br>
 <sup>4</sup> Oh let the nations be glad and sing for joy;<br>For thou wilt judge the peoples with equity,<br>And <sup>c</sup>govern the nations upon earth. _[Selah_<br>
@@ -1860,9 +1860,9 @@ God be merciful unto us, and bless us,<br>_And_ cause his face to shine upon us;
 
 ### Jehovah the God of Sinai and of the sanctuary.
 
-<sup>1</sup> > _For the Chief Musician; A Psalm of David, a Song._
+> _For the Chief Musician; A Psalm of David, a Song._
 
-Let God arise, let his enemies be scattered;<br>Let them also that hate him flee before him.<sup>a</sup><br>
+<sup>1</sup> Let God arise, let his enemies be scattered;<br>Let them also that hate him flee before him.<sup>a</sup><br>
 <sup>2</sup> As smoke is driven away, so drive them away:<br>As wax melteth before the fire,<br>So let the wicked perish at the presence of God.<br>
 <sup>3</sup> But let the righteous be glad; let them exult before God:<br>Yea, let them rejoice with gladness.<br>
 <sup>4</sup> Sing unto God, sing praises to his name:<br>Cast up a highway for him that rideth through the deserts;<br>His name is <sup>b</sup>Jehovah; and exult ye before him.<br>
@@ -1875,7 +1875,7 @@ Let God arise, let his enemies be scattered;<br>Let them also that hate him flee
 <sup>11</sup> The Lord giveth the word:<br>The women that publish the tidings are a great host.<br>
 <sup>12</sup> Kings of armies flee, they flee;<br>And she that tarrieth at home divideth the spoil.<br>
 <sup>13</sup> <sup>e</sup>When ye lie among the sheepfolds,<br>_It is as_ the wings of a dove covered with silver,<br>And her pinions with yellow gold.<br>
-<sup>14</sup> When the Almighty scattered kings therein,<br>_It_ <sup>f</sup>_was as when_ it snoweth in Zalmon.<br>
+<sup>14</sup> When the Almighty scattered kings therein,<br>_It _<sup>f</sup>_was as when_ it snoweth in Zalmon.<br>
 <sup>15</sup> A mountain of God is the mountain of Bashan;<br>A <sup>g</sup>high mountain is the mountain of Bashan.<br>
 <sup>16</sup> Why look ye askance, ye high mountains,<br>At the mountain which God hath desired for his abode?<br>Yea, Jehovah will dwell _in it_ for ever.<br>
 <sup>17</sup> The chariots of God are twenty thousand, even thousands upon thousands:<br>The Lord is among them, <sup>h</sup>_as in_ Sinai, in the sanctuary.<br>
@@ -1902,7 +1902,7 @@ Let God arise, let his enemies be scattered;<br>Let them also that hate him flee
 > - <sup>b</sup> 4. Hebrew _Jah_.
 > - <sup>c</sup> 6. Hebrew _maketh the solitary to dwell in a house_.
 > - <sup>d</sup> 10. Or, _troop_
-> - <sup>e</sup> 13. Or, _Will ye lie among the sheepfolds_, as _the wings . . . gold?_
+> - <sup>e</sup> 13. Or, _Will ye lie among the sheepfolds_, as _the wings … gold?_
 > - <sup>f</sup> 14. Or, _snowed_
 > - <sup>g</sup> 15. Hebrew _mountain of summits_.
 > - <sup>h</sup> 17. Or, _Sinai_ is _in the sanctuary_
@@ -1922,9 +1922,9 @@ Let God arise, let his enemies be scattered;<br>Let them also that hate him flee
 
 ### A cry of distress, and imprecation on adversaries.
 
-<sup>1</sup> > _For the Chief Musician; set to Shoshannim. _A Psalm_ of David._
+> _For the Chief Musician; set to Shoshannim. A Psalm of David._
 
-Save me, O God;<br>For the waters are come in unto my soul.<sup>a</sup><br>
+<sup>1</sup> Save me, O God;<br>For the waters are come in unto my soul.<sup>a</sup><br>
 <sup>2</sup> I sink in deep mire, where there is no standing:<br>I am come into deep waters, where the floods overflow me.<br>
 <sup>3</sup> I am weary with my crying; my throat is dried:<br>Mine eyes fail while I wait for my God.<br>
 <sup>4</sup> They that hate me without a cause are more than the hairs of my head:<br>They that would cut me off, being mine enemies <sup>b</sup>wrongfully, are mighty:<br>That which I took not away I have to restore.<br>
@@ -1974,9 +1974,9 @@ Save me, O God;<br>For the waters are come in unto my soul.<sup>a</sup><br>
 
 ### Prayer for help against persecutors.
 
-<sup>1</sup> > _For the Chief Musician. _A Psalm_ of David; to bring to remembrance._
+> _For the Chief Musician. A Psalm of David; to bring to remembrance._
 
-_Make haste_, O God, to deliver me;<br>Make haste to help me, O Jehovah.<sup>a</sup><br>
+<sup>1</sup> _Make haste_, O God, to deliver me;<br>Make haste to help me, O Jehovah.<sup>a</sup><br>
 <sup>2</sup> Let them be put to shame and confounded<br>That seek after my soul:<br>Let them be turned backward and brought to dishonor<br>That delight in my hurt.<br>
 <sup>3</sup> Let them be turned back <sup>b</sup>by reason of their shame<br>That say, Aha, aha.<br>
 <sup>4</sup> Let all those that seek thee rejoice and be glad in thee;<br>And let such as love thy salvation say continually,<br>Let God be magnified.<br>
@@ -2026,9 +2026,9 @@ _Make haste_, O God, to deliver me;<br>Make haste to help me, O Jehovah.<sup>a</
 
 ### The reign of the righteous king.
 
-<sup>1</sup> > __A Psalm_ of Solomon._
+> _A Psalm of Solomon._
 
-Give the king thy judgments, O God,<br>And thy righteousness unto the king’s son.<br>
+<sup>1</sup> Give the king thy judgments, O God,<br>And thy righteousness unto the king’s son.<br>
 <sup>2</sup> <sup>a</sup>He will judge thy people with righteousness,<br>And thy poor with justice.<br>
 <sup>3</sup> The mountains shall bring peace to the people,<br>And the hills, in righteousness.<br>
 <sup>4</sup> He will judge the poor of the people,<br>He will save the children of the needy,<br>And will break in pieces the oppressor.<br>
@@ -2065,9 +2065,9 @@ Give the king thy judgments, O God,<br>And thy righteousness unto the king’s s
 
 ### The end of the wicked contrasted with that of the righteous.
 
-<sup>1</sup> > _A Psalm of Asaph._
+> _A Psalm of Asaph._
 
-Surely God is good to Israel,<br>_Even_ to such as are pure in heart.<sup>a</sup><br>
+<sup>1</sup> Surely God is good to Israel,<br>_Even_ to such as are pure in heart.<sup>a</sup><br>
 <sup>2</sup> But as for me, my feet were almost gone;<br>My steps had well nigh slipped.<br>
 <sup>3</sup> For I was envious at the <sup>b</sup>arrogant,<br>When I saw the prosperity of the wicked.<br>
 <sup>4</sup> For there are no pangs in their death;<br>But their strength is firm.<br>
@@ -2119,9 +2119,9 @@ Surely God is good to Israel,<br>_Even_ to such as are pure in heart.<sup>a</sup
 
 ### A complaint over the devastation of the land by the enemy.
 
-<sup>1</sup> > _Maschil of Asaph._
+> _Maschil of Asaph._
 
-O God, why hast thou cast _us_ off for ever?<br>Why doth thine anger smoke against the sheep of thy pasture?<br>
+<sup>1</sup> O God, why hast thou cast _us_ off for ever?<br>Why doth thine anger smoke against the sheep of thy pasture?<br>
 <sup>2</sup> Remember thy congregation, which thou hast gotten of old,<br>Which thou hast redeemed to be the tribe of thine inheritance;<br>_And_ mount Zion, wherein thou hast dwelt.<br>
 <sup>3</sup> Lift up thy feet unto the perpetual ruins,<sup>a</sup><br>All the evil that the enemy hath done in the sanctuary.<br>
 <sup>4</sup> Thine adversaries have roared in the midst of thine assembly;<br>They have set up their ensigns for signs.<br>
@@ -2161,9 +2161,9 @@ O God, why hast thou cast _us_ off for ever?<br>Why doth thine anger smoke again
 
 ### God abases the proud, but exalts the righteous.
 
-<sup>1</sup> > _For the Chief Musician; _set to_ Al-tashheth. A Psalm of Asaph, a Song._
+> _For the Chief Musician; set to Al-tashheth. A Psalm of Asaph, a Song._
 
-We give thanks unto thee, O God;<br>We give thanks, for thy name is near:<br>Men tell of thy wondrous works.<sup>a</sup><br>
+<sup>1</sup> We give thanks unto thee, O God;<br>We give thanks, for thy name is near:<br>Men tell of thy wondrous works.<sup>a</sup><br>
 <sup>2</sup> When I shall <sup>b</sup>find the set time,<br>I will judge uprightly.<br>
 <sup>3</sup> <sup>c</sup>The earth and all the inhabitants thereof are dissolved:<br>I have <sup>d</sup>set up the pillars of it. _[Selah_<br>
 <sup>4</sup> I said unto the <sup>e</sup>arrogant, Deal not arrogantly;<br>And to the wicked, Lift not up the horn:<br>
@@ -2176,7 +2176,7 @@ We give thanks unto thee, O God;<br>We give thanks, for thy name is near:<br>Men
 
 > - <sup>a</sup> 1. Or, _for_ that _thy name is near Thy wondrous works declare_
 > - <sup>b</sup> 2. Hebrew _take_.
-> - <sup>c</sup> 3. Or, _When the earth . . . I set up_
+> - <sup>c</sup> 3. Or, _When the earth … I set up_
 > - <sup>d</sup> 3. Hebrew _proportioned_.
 > - <sup>e</sup> 4. Or, _fools_
 > - <sup>f</sup> 5. Or, _insolently with a_ haughty _neck_
@@ -2188,9 +2188,9 @@ We give thanks unto thee, O God;<br>We give thanks, for thy name is near:<br>Men
 
 ### The victorious power of the God of Jacob.
 
-<sup>1</sup> > _For the Chief Musician; on stringed instruments. A Psalm of Asaph, a Song._
+> _For the Chief Musician; on stringed instruments. A Psalm of Asaph, a Song._
 
-In Judah is God known:<br>His name is great in Israel.<br>
+<sup>1</sup> In Judah is God known:<br>His name is great in Israel.<br>
 <sup>2</sup> In Salem also is his <sup>a</sup>tabernacle,<br>And his <sup>b</sup>dwelling-place in Zion.<br>
 <sup>3</sup> There he brake the <sup>c</sup>arrows of the bow;<br>The shield, and the sword, and the battle. _[Selah_<br>
 <sup>4</sup> Glorious art thou _and_ excellent,<sup>d</sup><br>From the mountains of prey.<br>
@@ -2213,9 +2213,9 @@ In Judah is God known:<br>His name is great in Israel.<br>
 
 ### Comfort in trouble from recalling God’s mighty deeds.
 
-<sup>1</sup> > _For the Chief Musician; after the manner of Jeduthun. A Psalm of Asaph._
+> _For the Chief Musician; after the manner of Jeduthun. A Psalm of Asaph._
 
-I will cry unto God with my voice,<br>Even unto God with my voice; and he will give ear unto me.<br>
+<sup>1</sup> I will cry unto God with my voice,<br>Even unto God with my voice; and he will give ear unto me.<br>
 <sup>2</sup> In the day of my trouble I sought the Lord:<br>My hand was stretched out in the night, and slacked not;<br>My soul refused to be comforted.<br>
 <sup>3</sup> I remember God, and am disquieted:<br>I complain, and my spirit <sup>a</sup>is overwhelmed. _[Selah_<br>
 <sup>4</sup> Thou holdest mine eyes watching:<br>I am so troubled that I cannot speak.<br>
@@ -2246,9 +2246,9 @@ I will cry unto God with my voice,<br>Even unto God with my voice; and he will g
 
 ### God’s guidance of his people in spite of their unfaithfulness.
 
-<sup>1</sup> > _Maschil of Asaph._
+> _Maschil of Asaph._
 
-Give ear, O my people, to my law:<br>Incline your ears to the words of my mouth.<sup>a</sup><br>
+<sup>1</sup> Give ear, O my people, to my law:<br>Incline your ears to the words of my mouth.<sup>a</sup><br>
 <sup>2</sup> I will open my mouth in a parable;<br>I will utter dark sayings of old,<br>
 <sup>3</sup> Which we have heard and known,<br>And our fathers have told us.<br>
 <sup>4</sup> We will not hide them from their children,<br>Telling to the generation to come the praises of Jehovah,<br>And his strength, and his wondrous works that he hath done.<br>
@@ -2343,9 +2343,9 @@ Give ear, O my people, to my law:<br>Incline your ears to the words of my mouth.
 
 ### A lament over the destruction of Jerusalem, and prayer for help.
 
-<sup>1</sup> > _A Psalm of Asaph._
+> _A Psalm of Asaph._
 
-O God, the nations are come into thine inheritance;<br>Thy holy temple have they defiled;<br>They have laid Jerusalem in heaps.<br>
+<sup>1</sup> O God, the nations are come into thine inheritance;<br>Thy holy temple have they defiled;<br>They have laid Jerusalem in heaps.<br>
 <sup>2</sup> The dead bodies of thy servants have they given to be food unto the birds of the heavens,<br>The flesh of thy saints unto the beasts of the earth.<br>
 <sup>3</sup> Their blood have they shed like water round about Jerusalem;<br>And there was none to bury them.<br>
 <sup>4</sup> We are become a reproach to our neighbors,<br>A scoffing and derision to them that are round about us.<br>
@@ -2368,9 +2368,9 @@ O God, the nations are come into thine inheritance;<br>Thy holy temple have they
 
 ### God implored to rescue his people from their calamities.
 
-<sup>1</sup> > _For the Chief Musician; set to Shoshannim Eduth. A Psalm of Asaph._
+> _For the Chief Musician; set to Shoshannim Eduth. A Psalm of Asaph._
 
-Give ear, O Shepherd of Israel,<br>Thou that leadest Joseph like a flock;<br>Thou that sittest <sup>a</sup>_above_ the cherubim, shine forth.<sup>b</sup><br>
+<sup>1</sup> Give ear, O Shepherd of Israel,<br>Thou that leadest Joseph like a flock;<br>Thou that sittest <sup>a</sup>_above_ the cherubim, shine forth.<sup>b</sup><br>
 <sup>2</sup> Before Ephraim and Benjamin and Manasseh, stir up thy might,<br>And come to save us.<br>
 <sup>3</sup> <sup>c</sup>Turn us again, O God;<br>And cause thy face to shine, and we shall be saved.<br>
 <sup>4</sup> O Jehovah God of hosts,<br>How long <sup>d</sup>wilt thou be angry against the prayer of thy people?<br>
@@ -2405,9 +2405,9 @@ Give ear, O Shepherd of Israel,<br>Thou that leadest Joseph like a flock;<br>Tho
 
 ### God’s goodness and Israel’s waywardness.
 
-<sup>1</sup> > _For the Chief Musician; set to the Gittith. _A Psalm_ of Asaph._
+> _For the Chief Musician; set to the Gittith. A Psalm of Asaph._
 
-Sing aloud unto God our strength:<br>Make a joyful noise unto the God of Jacob.<br>
+<sup>1</sup> Sing aloud unto God our strength:<br>Make a joyful noise unto the God of Jacob.<br>
 <sup>2</sup> Raise a song, and <sup>a</sup>bring hither the timbrel,<br>The pleasant harp with the psaltery.<br>
 <sup>3</sup> Blow the trumpet at the new moon,<br>At the full moon, on our feast-day.<br>
 <sup>4</sup> For it is a statute for Israel,<br>An ordinance of the God of Jacob.<br>
@@ -2434,9 +2434,9 @@ Sing aloud unto God our strength:<br>Make a joyful noise unto the God of Jacob.<
 
 ### Unjust judgments rebuked.
 
-<sup>1</sup> > _A Psalm of Asaph._
+> _A Psalm of Asaph._
 
-God standeth in the congregation of God;<br>He judgeth among the gods.<br>
+<sup>1</sup> God standeth in the congregation of God;<br>He judgeth among the gods.<br>
 <sup>2</sup> How long will ye judge unjustly,<br>And respect the persons of the wicked? _[Selah_<br>
 <sup>3</sup> Judge the <sup>a</sup>poor and fatherless:<br>Do justice to the afflicted and destitute.<br>
 <sup>4</sup> Rescue the <sup>b</sup>poor and needy:<br>Deliver them out of the hand of the wicked.<br>
@@ -2452,9 +2452,9 @@ God standeth in the congregation of God;<br>He judgeth among the gods.<br>
 
 ### God implored to confound his enemies.
 
-<sup>1</sup> > _A Song, a Psalm of Asaph._
+> _A Song, a Psalm of Asaph._
 
-O God, keep not thou silence:<br>Hold not thy peace, and be not still, O God.<br>
+<sup>1</sup> O God, keep not thou silence:<br>Hold not thy peace, and be not still, O God.<br>
 <sup>2</sup> For, lo, thine enemies make a tumult;<br>And they that hate thee have lifted up the head.<br>
 <sup>3</sup> They take crafty counsel against thy people,<br>And consult together against thy hidden ones.<br>
 <sup>4</sup> They have said, Come, and let us cut them off from being a nation;<br>That the name of Israel may be no more in remembrance.<br>
@@ -2482,9 +2482,9 @@ O God, keep not thou silence:<br>Hold not thy peace, and be not still, O God.<br
 
 ### Longing for the Temple worship.
 
-<sup>1</sup> > _For the Chief Musician; set to the Gittith. A Psalm of the sons of Korah._
+> _For the Chief Musician; set to the Gittith. A Psalm of the sons of Korah._
 
-How amiable are thy tabernacles,<br>O Jehovah of hosts!<sup>a</sup><br>
+<sup>1</sup> How amiable are thy tabernacles,<br>O Jehovah of hosts!<sup>a</sup><br>
 <sup>2</sup> My soul longeth, yea, even fainteth for the courts of Jehovah;<br>My heart and my flesh <sup>b</sup>cry out unto the living God.<br>
 <sup>3</sup> Yea, the sparrow hath found her a house,<br>And the swallow a nest for herself, where she may lay her young,<br>Even thine altars, O Jehovah of hosts,<br>My King, and my God.<br>
 <sup>4</sup> Blessed are they that dwell in thy house:<br>They will be still praising thee. _[Selah_<br>
@@ -2507,9 +2507,9 @@ How amiable are thy tabernacles,<br>O Jehovah of hosts!<sup>a</sup><br>
 
 ### Prayer for God’s mercy upon the nation.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of the sons of Korah._
+> _For the Chief Musician. A Psalm of the sons of Korah._
 
-Jehovah, thou hast been favorable unto thy land;<br>Thou hast brought back the captivity of Jacob.<sup>a</sup><br>
+<sup>1</sup> Jehovah, thou hast been favorable unto thy land;<br>Thou hast brought back the captivity of Jacob.<sup>a</sup><br>
 <sup>2</sup> Thou hast forgiven the iniquity of thy people;<br>Thou hast covered all their sin. _[Selah_<br>
 <sup>3</sup> Thou hast taken away all thy wrath;<br>Thou hast turned _thyself_ from the fierceness of thine anger.<br>
 <sup>4</sup> <sup>b</sup>Turn us, O God of our salvation,<br>And cause thine indignation toward us to cease.<br>
@@ -2531,9 +2531,9 @@ Jehovah, thou hast been favorable unto thy land;<br>Thou hast brought back the c
 
 ### A psalm of supplication and trust.
 
-<sup>1</sup> > _A Prayer of David._
+> _A Prayer of David._
 
-Bow down thine ear, O Jehovah, and answer me;<br>For I am poor and needy.<br>
+<sup>1</sup> Bow down thine ear, O Jehovah, and answer me;<br>For I am poor and needy.<br>
 <sup>2</sup> Preserve my soul; for I am godly:<br>O thou my God, save thy servant that trusteth in thee.<br>
 <sup>3</sup> Be merciful unto me, O Lord;<br>For unto thee do I cry all the day long.<br>
 <sup>4</sup> Rejoice the soul of thy servant;<br>For unto thee, O Lord, do I lift up my soul.<br>
@@ -2557,9 +2557,9 @@ Bow down thine ear, O Jehovah, and answer me;<br>For I am poor and needy.<br>
 
 ### The privileges of citizenship in Zion.
 
-<sup>1</sup> > _A Psalm of the sons of Korah; a Song._
+> _A Psalm of the sons of Korah; a Song._
 
-His foundation is in the holy mountains.<sup>a</sup><br>
+<sup>1</sup> His foundation is in the holy mountains.<sup>a</sup><br>
 <sup>2</sup> Jehovah loveth the gates of Zion<br>More than all the dwellings of Jacob.<br>
 <sup>3</sup> Glorious things are spoken of thee,<br>O city of God. _[Selah_<br>
 <sup>4</sup> I will make mention of <sup>b</sup>Rahab and Babylon as among them that know me:<br>Behold, Philistia, and Tyre, with <sup>c</sup>Ethiopia:<br>This one was born there.<br>
@@ -2576,9 +2576,9 @@ His foundation is in the holy mountains.<sup>a</sup><br>
 
 ### A petition to be saved from death.
 
-<sup>1</sup> > _A Song, a Psalm of the sons of Korah; for the Chief Musician; set to Mahalath Leannoth. Maschil of Heman the Ezrahite._
+> _A Song, a Psalm of the sons of Korah; for the Chief Musician; set to Mahalath Leannoth. Maschil of Heman the Ezrahite._
 
-O Jehovah, the God of my salvation,<br>I have cried day and night before thee.<sup>a</sup><br>
+<sup>1</sup> O Jehovah, the God of my salvation,<br>I have cried day and night before thee.<sup>a</sup><br>
 <sup>2</sup> Let my prayer enter into thy presence;<br>Incline thine ear unto my cry.<br>
 <sup>3</sup> For my soul is full of troubles,<br>And my life draweth nigh unto Sheol.<br>
 <sup>4</sup> I am reckoned with them that go down into the pit;<br>I am as a man that hath no help,<br>
@@ -2607,9 +2607,9 @@ O Jehovah, the God of my salvation,<br>I have cried day and night before thee.<s
 
 ### Jehovah’s covenant with David, and Israel’s afflictions.
 
-<sup>1</sup> > _Maschil of Ethan the Ezrahite._
+> _Maschil of Ethan the Ezrahite._
 
-I will sing of the lovingkindness of Jehovah for ever:<br>With my mouth will I make known thy faithfulness to all generations.<br>
+<sup>1</sup> I will sing of the lovingkindness of Jehovah for ever:<br>With my mouth will I make known thy faithfulness to all generations.<br>
 <sup>2</sup> For I have said, Mercy shall be built up for ever;<br>Thy faithfulness wilt thou establish in the very heavens.<br>
 <sup>3</sup> I have made a covenant with my chosen,<br>I have sworn unto David my servant:<br>
 <sup>4</sup> Thy seed will I establish for ever,<br>And build up thy throne to all generations. _[Selah_<br>
@@ -2685,9 +2685,9 @@ I will sing of the lovingkindness of Jehovah for ever:<br>With my mouth will I m
 
 ### God’s eternity and man’s transitoriness.
 
-<sup>1</sup> > _A Prayer of Moses the man of God._
+> _A Prayer of Moses the man of God._
 
-Lord, thou hast been our dwelling-place<br>In all generations.<br>
+<sup>1</sup> Lord, thou hast been our dwelling-place<br>In all generations.<br>
 <sup>2</sup> Before the mountains were brought forth,<br>Or ever thou <sup>a</sup>hadst formed the earth and the world,<br>Even from everlasting to everlasting, thou art God.<br>
 <sup>3</sup> Thou turnest man to <sup>b</sup>destruction,<br>And sayest, Return, ye children of men.<br>
 <sup>4</sup> For a thousand years in thy sight<br>Are but as yesterday <sup>c</sup>when it is past,<br>And as a watch in the night.<br>
@@ -2732,16 +2732,16 @@ Lord, thou hast been our dwelling-place<br>In all generations.<br>
 <sup>15</sup> He shall call upon me, and I will answer him;<br>I will be with him in trouble:<br>I will deliver him, and honor him.<br>
 <sup>16</sup> With long life will I satisfy him,<br>And show him my salvation.<br>
 
-> - <sup>a</sup> 1. Or, _That abideth . . . Almighty; Even I etc._
+> - <sup>a</sup> 1. Or, _That abideth … Almighty; Even I etc._
 > - <sup>b</sup> 9. Or, _Because thou_ hast said, _Jehovah is my refuge_.
 
 ## Chapter 92
 
 ### Praise for Jehovah’s goodness.
 
-<sup>1</sup> > _A Psalm, a Song for the sabbath day._
+> _A Psalm, a Song for the sabbath day._
 
-It is a good thing to give thanks unto Jehovah,<br>And to sing praises unto thy name, O Most High;<br>
+<sup>1</sup> It is a good thing to give thanks unto Jehovah,<br>And to sing praises unto thy name, O Most High;<br>
 <sup>2</sup> To show forth thy lovingkindness in the morning,<br>And thy faithfulness every night,<br>
 <sup>3</sup> With an instrument of ten strings, and with the psaltery;<br>With a solemn sound upon the harp.<br>
 <sup>4</sup> For thou, Jehovah, hast made me glad through thy work:<br>I will triumph in the works of thy hands.<br>
@@ -2871,9 +2871,9 @@ It is a good thing to give thanks unto Jehovah,<br>And to sing praises unto thy 
 
 ### A call to praise Jehovah for his righteousness.
 
-<sup>1</sup> > _A Psalm._
+> _A Psalm._
 
-Oh sing unto Jehovah a new song;<br>For he hath done marvellous things:<br>His right hand, and his holy arm, hath wrought salvation for him.<br>
+<sup>1</sup> Oh sing unto Jehovah a new song;<br>For he hath done marvellous things:<br>His right hand, and his holy arm, hath wrought salvation for him.<br>
 <sup>2</sup> Jehovah hath made known his salvation:<br>His righteousness hath he openly showed in the sight of the nations.<br>
 <sup>3</sup> He hath remembered his lovingkindness and his faithfulness toward the house of Israel:<br>All the ends of the earth have seen the salvation of our God.<br>
 <sup>4</sup> Make a joyful noise unto Jehovah, all the earth:<br>Break forth and sing for joy, yea, sing praises.<br>
@@ -2903,9 +2903,9 @@ Oh sing unto Jehovah a new song;<br>For he hath done marvellous things:<br>His r
 
 ### All men exhorted to praise God.
 
-<sup>1</sup> > _A Psalm of thanksgiving._
+> _A Psalm of thanksgiving._
 
-Make a joyful noise unto Jehovah, all y<sup>a</sup>e lands.<sup>b</sup><br>
+<sup>1</sup> Make a joyful noise unto Jehovah, all y<sup>a</sup>e lands.<sup>b</sup><br>
 <sup>2</sup> Serve Jehovah with gladness:<br>Come before his presence with singing.<br>
 <sup>3</sup> Know ye that Jehovah, he is God:<br>It is he that hath made us, <sup>c</sup>and we are his;<br>We are his people, and the sheep of his pasture.<br>
 <sup>4</sup> Enter into his gates with <sup>d</sup>thanksgiving,<br>And into his courts with praise:<br>Give thanks unto him, and bless his name.<br>
@@ -2920,9 +2920,9 @@ Make a joyful noise unto Jehovah, all y<sup>a</sup>e lands.<sup>b</sup><br>
 
 ### The psalmist’s profession of uprightness.
 
-<sup>1</sup> > _A Psalm of David._
+> _A Psalm of David._
 
-I will sing of lovingkindness and justice:<br>Unto thee, O Jehovah, will I sing praises.<br>
+<sup>1</sup> I will sing of lovingkindness and justice:<br>Unto thee, O Jehovah, will I sing praises.<br>
 <sup>2</sup> I will <sup>a</sup>behave myself wisely in a perfect way:<br>Oh when wilt thou come unto me?<br>I will walk within my house <sup>b</sup>with a perfect heart.<br>
 <sup>3</sup> I will set no base thing before mine eyes:<br>I hate <sup>c</sup>the work of them that turn aside;<br>It shall not cleave unto me.<br>
 <sup>4</sup> A perverse heart shall depart from me:<br>I will know no <sup>d</sup>evil thing.<br>
@@ -2940,9 +2940,9 @@ I will sing of lovingkindness and justice:<br>Unto thee, O Jehovah, will I sing 
 
 ### Prayer of an afflicted one for mercy on himself and on Zion.
 
-<sup>1</sup> > _A Prayer of the afflicted, when he is overwhelmed, and poureth out his complaint before Jehovah._
+> _A Prayer of the afflicted, when he is overwhelmed, and poureth out his complaint before Jehovah._
 
-Hear my prayer, O Jehovah,<br>And let my cry come unto thee.<sup>a</sup><br>
+<sup>1</sup> Hear my prayer, O Jehovah,<br>And let my cry come unto thee.<sup>a</sup><br>
 <sup>2</sup> Hide not thy face from me in the day of my distress:<br>Incline thine ear unto me;<br>In the day when I call answer me speedily.<br>
 <sup>3</sup> For my days consume away <sup>b</sup>like smoke,<br>And my bones are burned <sup>c</sup>as a firebrand.<br>
 <sup>4</sup> My heart is smitten like grass, and withered;<br>For I forget to eat my bread.<br>
@@ -2984,9 +2984,9 @@ Hear my prayer, O Jehovah,<br>And let my cry come unto thee.<sup>a</sup><br>
 
 ### Praise for Jehovah’s mercies.
 
-<sup>1</sup> > __A Psalm_ of David._
+> _A Psalm of David._
 
-Bless Jehovah, O my soul;<br>And all that is within me, _bless_ his holy name.<br>
+<sup>1</sup> Bless Jehovah, O my soul;<br>And all that is within me, _bless_ his holy name.<br>
 <sup>2</sup> Bless Jehovah, O my soul,<br>And forget not all his benefits:<br>
 <sup>3</sup> Who forgiveth all thine iniquities;<br>Who healeth all thy diseases;<br>
 <sup>4</sup> Who redeemeth thy life from <sup>a</sup>destruction;<br>Who crowneth thee with lovingkindness and tender mercies;<br>
@@ -3240,9 +3240,9 @@ Bless Jehovah, O my soul;<br>And all that is within me, _bless_ his holy name.<b
 
 ### God praised, and supplicated to give victory.
 
-<sup>1</sup> > _A Song, a Psalm of David._
+> _A Song, a Psalm of David._
 
-My heart is fixed, O God;<br>I will sing, yea, I will sing praises, even with my glory.<br>
+<sup>1</sup> My heart is fixed, O God;<br>I will sing, yea, I will sing praises, even with my glory.<br>
 <sup>2</sup> Awake, psaltery and harp:<br>I myself will <sup>a</sup>awake right early.<br>
 <sup>3</sup> I will give thanks unto thee, O Jehovah, among the peoples;<br>And I will sing praises unto thee among the nations.<br>
 <sup>4</sup> For thy lovingkindness is great above the heavens;<br>And thy truth _reacheth_ unto the skies.<br>
@@ -3261,16 +3261,16 @@ My heart is fixed, O God;<br>I will sing, yea, I will sing praises, even with my
 > - <sup>c</sup> 8. Or, _lawgiver_
 > - <sup>d</sup> 9. Or, _Unto_
 > - <sup>e</sup> 10. Or, _will lead me etc._
-> - <sup>f</sup> 11. Or, _Wilt not thou, O God, who hast cast us off, And goest . . . hosts?_
+> - <sup>f</sup> 11. Or, _Wilt not thou, O God, who hast cast us off, And goest … hosts?_
 > - <sup>g</sup> 12. Hebrew _salvation_.
 
 ## Chapter 109
 
 ### Vengeance invoked upon adversaries.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-Hold not thy peace, O God of my praise;<br>
+<sup>1</sup> Hold not thy peace, O God of my praise;<br>
 <sup>2</sup> For the mouth of the wicked and the mouth of deceit have they opened against me:<br>They have spoken <sup>a</sup>unto me with a lying tongue.<br>
 <sup>3</sup> They have compassed me about also with words of hatred,<br>And fought against me without a cause.<br>
 <sup>4</sup> For my love they are my adversaries:<br>But I _give myself unto_ prayer.<br>
@@ -3311,15 +3311,15 @@ Hold not thy peace, O God of my praise;<br>
 > - <sup>g</sup> 12. Or, _continue_
 > - <sup>h</sup> 23. Or, _is stretched out_
 > - <sup>i</sup> 24. Or, _totter_
-> - <sup>j</sup> 29. Or, _Mine adversaries shall be clothed . . . And they shall cover etc._
+> - <sup>j</sup> 29. Or, _Mine adversaries shall be clothed … And they shall cover etc._
 
 ## Chapter 110
 
 ### Jehovah gives dominion to the king.
 
-<sup>1</sup> > _A Psalm of David._
+> _A Psalm of David._
 
-Jehovah saith unto my Lord, Sit thou at my right hand,<br>Until I make thine enemies thy footstool.<br>
+<sup>1</sup> Jehovah saith unto my Lord, Sit thou at my right hand,<br>Until I make thine enemies thy footstool.<br>
 <sup>2</sup> Jehovah will <sup>a</sup>send forth the <sup>b</sup>rod of thy strength out of Zion:<br>Rule thou in the midst of thine enemies.<br>
 <sup>3</sup> Thy people <sup>c</sup>offer themselves willingly<br>In the day of thy <sup>d</sup>power, <sup>e</sup>in holy array:<br>Out of the womb of the morning<sup>f</sup><br>Thou hast the dew of thy youth.<br>
 <sup>4</sup> Jehovah hath sworn, and will not repent:<br>Thou art a priest for ever<br>After the <sup>g</sup>order of Melchizedek.<br>
@@ -3796,9 +3796,9 @@ Jehovah saith unto my Lord, Sit thou at my right hand,<br>Until I make thine ene
 
 ### Prayer for deliverance from the treacherous.
 
-<sup>1</sup> > _A Song of Ascents._
+> _A Song of Ascents._
 
-In my distress I cried unto Jehovah,<br>And he answered me.<br>
+<sup>1</sup> In my distress I cried unto Jehovah,<br>And he answered me.<br>
 <sup>2</sup> Deliver my soul, O Jehovah, from lying lips,<br>_And_ from a deceitful tongue.<br>
 <sup>3</sup> What shall be given unto thee, and what shall be done more unto thee,<br>Thou deceitful tongue?<br>
 <sup>4</sup> <sup>a</sup>Sharp arrows of the mighty,<br>With coals of <sup>b</sup>juniper.<br>
@@ -3813,9 +3813,9 @@ In my distress I cried unto Jehovah,<br>And he answered me.<br>
 
 ### Jehovah the keeper of his people.
 
-<sup>1</sup> > _A Song of Ascents._
+> _A Song of Ascents._
 
-I will lift up mine eyes unto the mountains:<br>From whence shall my help come?<br>
+<sup>1</sup> I will lift up mine eyes unto the mountains:<br>From whence shall my help come?<br>
 <sup>2</sup> My help _cometh_ from Jehovah,<br>Who made heaven and earth.<br>
 <sup>3</sup> <sup>a</sup>He will not suffer thy foot to be moved:<br>He that keepeth thee will not slumber.<br>
 <sup>4</sup> Behold, he that keepeth Israel<br>Will neither slumber nor sleep.<br>
@@ -3824,15 +3824,15 @@ I will lift up mine eyes unto the mountains:<br>From whence shall my help come?<
 <sup>7</sup> Jehovah will keep thee from all evil;<br>He will keep thy soul.<br>
 <sup>8</sup> Jehovah will keep thy going out and thy coming in<br>From this time forth and for evermore.<br>
 
-> - <sup>a</sup> 3. Or, _Let him not suffer . . . Let him not slumber that etc._
+> - <sup>a</sup> 3. Or, _Let him not suffer … Let him not slumber that etc._
 
 ## Chapter 122
 
 ### Prayer for the peace of Jerusalem.
 
-<sup>1</sup> > _A Song of Ascents; of David._
+> _A Song of Ascents; of David._
 
-I was glad when they said unto me,<br>Let us go unto the house of Jehovah.<br>
+<sup>1</sup> I was glad when they said unto me,<br>Let us go unto the house of Jehovah.<br>
 <sup>2</sup> Our feet <sup>a</sup>are standing<br>Within thy gates, O Jerusalem,<br>
 <sup>3</sup> Jerusalem, that art builded<br>As a city that is compact together;<br>
 <sup>4</sup> Whither the tribes go up, even the tribes of <sup>b</sup>Jehovah,<br>_For_<sup>c</sup> an ordinance for Israel,<br>To give thanks unto the name of Jehovah.<br>
@@ -3854,9 +3854,9 @@ I was glad when they said unto me,<br>Let us go unto the house of Jehovah.<br>
 
 ### An expectant prayer for Jehovah’s help.
 
-<sup>1</sup> > _A Song of Ascents._
+> _A Song of Ascents._
 
-Unto thee do I lift up mine eyes,<br>O thou that sittest in the heavens.<br>
+<sup>1</sup> Unto thee do I lift up mine eyes,<br>O thou that sittest in the heavens.<br>
 <sup>2</sup> Behold, as the eyes of servants _look_ unto the hand of their master,<br>As the eyes of a maid unto the hand of her mistress;<br>So our eyes _look_ unto Jehovah our God,<br>Until he have mercy upon us.<br>
 <sup>3</sup> Have mercy upon us, O Jehovah, have mercy upon us;<br>For we are exceedingly filled with contempt.<br>
 <sup>4</sup> Our soul is exceedingly filled<br>With the scoffing of those that are at ease,<br>And with the contempt of the proud.<br>
@@ -3865,9 +3865,9 @@ Unto thee do I lift up mine eyes,<br>O thou that sittest in the heavens.<br>
 
 ### Praise for rescue from enemies.
 
-<sup>1</sup> > _A Song of Ascents; of David._
+> _A Song of Ascents; of David._
 
-If it had not been Jehovah who was on our side,<br>Let Israel now say,<br>
+<sup>1</sup> If it had not been Jehovah who was on our side,<br>Let Israel now say,<br>
 <sup>2</sup> If it had not been Jehovah who was on our side,<br>When men rose up against us;<br>
 <sup>3</sup> Then they had swallowed us up alive,<br>When their wrath was kindled against us:<br>
 <sup>4</sup> Then the waters had overwhelmed us,<br>The stream had gone over our soul;<br>
@@ -3880,9 +3880,9 @@ If it had not been Jehovah who was on our side,<br>Let Israel now say,<br>
 
 ### Jehovah round about his people.
 
-<sup>1</sup> > _A Song of Ascents._
+> _A Song of Ascents._
 
-They that trust in Jehovah<br>Are as mount Zion, which cannot be moved, but abideth for ever.<br>
+<sup>1</sup> They that trust in Jehovah<br>Are as mount Zion, which cannot be moved, but abideth for ever.<br>
 <sup>2</sup> As the mountains are round about Jerusalem,<br>So Jehovah is round about his people<br>From this time forth and for evermore.<br>
 <sup>3</sup> For the sceptre of wickedness shall not rest upon the lot of the righteous;<br>That the righteous put not forth their hands unto iniquity.<br>
 <sup>4</sup> Do good, O Jehovah, unto those that are good,<br>And to them that are upright in their hearts.<br>
@@ -3892,9 +3892,9 @@ They that trust in Jehovah<br>Are as mount Zion, which cannot be moved, but abid
 
 ### Thanksgiving for return from captivity.
 
-<sup>1</sup> > _A Song of Ascents._
+> _A Song of Ascents._
 
-When Jehovah brought back those that returned to Zion,<br>We were like unto them that dream.<br>
+<sup>1</sup> When Jehovah brought back those that returned to Zion,<br>We were like unto them that dream.<br>
 <sup>2</sup> Then was our mouth filled with laughter,<br>And our tongue with singing:<br>Then said they among the nations,<br>Jehovah hath done great things for them.<br>
 <sup>3</sup> Jehovah hath done great things for us,<br>_Whereof_ we are glad.<br>
 <sup>4</sup> Turn again our captivity, O Jehovah,<br>As the streams in the South.<br>
@@ -3907,9 +3907,9 @@ When Jehovah brought back those that returned to Zion,<br>We were like unto them
 
 ### Prosperity comes from Jehovah.
 
-<sup>1</sup> > _A Song of Ascents; of Solomon._
+> _A Song of Ascents; of Solomon._
 
-Except Jehovah build the house,<br>They labor in vain that build it:<br>Except Jehovah keep the city,<br>The watchman waketh but in vain.<br>
+<sup>1</sup> Except Jehovah build the house,<br>They labor in vain that build it:<br>Except Jehovah keep the city,<br>The watchman waketh but in vain.<br>
 <sup>2</sup> It is vain for you to rise up early,<br>To take rest late,<br>To eat the bread of toil;<br>_For_ so he giveth unto his beloved <sup>a</sup>sleep.<br>
 <sup>3</sup> Lo, children are a heritage of Jehovah;<br>_And_ the fruit of the womb is _his_ reward.<br>
 <sup>4</sup> As arrows in the hand of a mighty man,<br>So are the children of youth.<br>
@@ -3921,9 +3921,9 @@ Except Jehovah build the house,<br>They labor in vain that build it:<br>Except J
 
 ### Blessedness of the fear of Jehovah.
 
-<sup>1</sup> > _A Song of Ascents._
+> _A Song of Ascents._
 
-Blessed is every one that feareth Jehovah,<br>That walketh in his ways.<br>
+<sup>1</sup> Blessed is every one that feareth Jehovah,<br>That walketh in his ways.<br>
 <sup>2</sup> For thou shalt eat the labor of thy hands:<br>Happy shalt thou be, and it shall be well with thee.<br>
 <sup>3</sup> Thy wife shall be as a fruitful vine,<br>In the innermost parts of thy house;<br>Thy children like olive plants,<br>Round about thy table.<br>
 <sup>4</sup> Behold, thus shall the man be blessed<br>That feareth Jehovah.<br>
@@ -3936,9 +3936,9 @@ Blessed is every one that feareth Jehovah,<br>That walketh in his ways.<br>
 
 ### Prayer for the overthrow of Zion’s enemies.
 
-<sup>1</sup> > _A Song of Ascents._
+> _A Song of Ascents._
 
-Many a time have they afflicted me from my youth up,<br>Let Israel n<sup>a</sup>ow say,<br>
+<sup>1</sup> Many a time have they afflicted me from my youth up,<br>Let Israel n<sup>a</sup>ow say,<br>
 <sup>2</sup> <sup>b</sup>Many a time have they afflicted me from my youth up:<br>Yet they have not prevailed against me.<br>
 <sup>3</sup> The plowers plowed upon my back;<br>They made long their furrows.<br>
 <sup>4</sup> Jehovah is righteous:<br>He hath cut asunder the cords of the wicked.<br>
@@ -3955,9 +3955,9 @@ Many a time have they afflicted me from my youth up,<br>Let Israel n<sup>a</sup>
 
 ### Hope in the Lord’s forgiving love.
 
-<sup>1</sup> > _A Song of Ascents._
+> _A Song of Ascents._
 
-Out of the depths have I cried unto thee, O Jehovah.<br>
+<sup>1</sup> Out of the depths have I cried unto thee, O Jehovah.<br>
 <sup>2</sup> Lord, hear my voice:<br>Let thine ears be attentive<br>To the voice of my supplications.<br>
 <sup>3</sup> If thou, <sup>a</sup>Jehovah, shouldest mark iniquities,<br>O Lord, who could stand?<br>
 <sup>4</sup> But there is forgiveness with thee,<br>That thou mayest be feared.<br>
@@ -3972,9 +3972,9 @@ Out of the depths have I cried unto thee, O Jehovah.<br>
 
 ### Childlike trust in Jehovah.
 
-<sup>1</sup> > _A Song of Ascents; of David._
+> _A Song of Ascents; of David._
 
-Jehovah, my heart is not haughty, nor mine eyes lofty;<br>Neither do I exercise myself in great matters,<br>Or in things too wonde<sup>a</sup>rful for me.<br>
+<sup>1</sup> Jehovah, my heart is not haughty, nor mine eyes lofty;<br>Neither do I exercise myself in great matters,<br>Or in things too wonde<sup>a</sup>rful for me.<br>
 <sup>2</sup> Surely I have stilled and quieted my soul;<br>Like a weaned child with his mother,<br>Like a weaned child is my soul within me.<br>
 <sup>3</sup> O Israel, hope in Jehovah<br>From this time forth and for evermore.<br>
 
@@ -3984,9 +3984,9 @@ Jehovah, my heart is not haughty, nor mine eyes lofty;<br>Neither do I exercise 
 
 ### Prayer for Jehovah’s blessing upon the sanctuary.
 
-<sup>1</sup> > _A Song of Ascents._
+> _A Song of Ascents._
 
-Jehovah, remember for David<br>All his affliction;<br>
+<sup>1</sup> Jehovah, remember for David<br>All his affliction;<br>
 <sup>2</sup> How he sware unto Jehovah,<br>And vowed unto the Mighty One of Jacob:<br>
 <sup>3</sup> Surely I will not come into the <sup>a</sup>tabernacle of my house,<br>Nor go up into <sup>b</sup>my bed;<br>
 <sup>4</sup> I will not give sleep to mine eyes,<br>Or slumber to mine eyelids;<br>
@@ -4018,9 +4018,9 @@ Jehovah, remember for David<br>All his affliction;<br>
 
 ### The excellency of brotherly unity.
 
-<sup>1</sup> > _A Song of Ascents; of David._
+> _A Song of Ascents; of David._
 
-Behold, how good and how pleasant it is<br>For brethren to dwell together in unity!<br>
+<sup>1</sup> Behold, how good and how pleasant it is<br>For brethren to dwell together in unity!<br>
 <sup>2</sup> It is like the precious oil upon the head,<br>That ran down upon the beard,<br>Even Aaron’s beard;<br>That came down upon the <sup>a</sup>skirt of his garments;<br>
 <sup>3</sup> Like the dew of Hermon,<br>That cometh down upon the mountains of Zion:<br>For there Jehovah commanded the blessing,<br>Even life for evermore.<br>
 
@@ -4030,9 +4030,9 @@ Behold, how good and how pleasant it is<br>For brethren to dwell together in uni
 
 ### Greetings of night-watchers.
 
-<sup>1</sup> > _A Song of Ascents._
+> _A Song of Ascents._
 
-Behold, bless ye Jehovah, all ye servants of Jehovah,<br>That by night stand in the house of Jehovah.<br>
+<sup>1</sup> Behold, bless ye Jehovah, all ye servants of Jehovah,<br>That by night stand in the house of Jehovah.<br>
 <sup>2</sup> Lift up your hands <sup>a</sup>to the sanctuary,<br>And bless ye Jehovah.<br>
 <sup>3</sup> Jehovah bless thee out of Zion;<br>Even he that made heaven and earth.<br>
 
@@ -4124,9 +4124,9 @@ Behold, bless ye Jehovah, all ye servants of Jehovah,<br>That by night stand in 
 
 ### Thanksgiving for Jehovah’s favor.
 
-<sup>1</sup> > __A Psalm_ of David._
+> _A Psalm of David._
 
-I will give thee thanks with my whole heart:<br>Before the gods will I sing praises unto thee.<br>
+<sup>1</sup> I will give thee thanks with my whole heart:<br>Before the gods will I sing praises unto thee.<br>
 <sup>2</sup> I will worship toward thy holy temple,<br>And give thanks unto thy name for thy lovingkindness and for thy truth:<br>For thou hast magnified thy word above all thy name.<br>
 <sup>3</sup> In the day that I called thou answeredst me,<br>Thou didst encourage me with strength in my soul.<br>
 <sup>4</sup> All the kings of the earth shall give thee thanks, O Jehovah,<br>For they have heard the words of thy mouth.<br>
@@ -4139,9 +4139,9 @@ I will give thee thanks with my whole heart:<br>Before the gods will I sing prai
 
 ### God’s omnipresence and omniscience.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-O Jehovah, thou hast searched me, and known _me_.<br>
+<sup>1</sup> O Jehovah, thou hast searched me, and known _me_.<br>
 <sup>2</sup> Thou knowest my downsitting and mine uprising;<br>Thou understandest my thought afar off.<br>
 <sup>3</sup> Thou <sup>a</sup>searchest out my path and my lying down,<br>And art acquainted with all my ways.<br>
 <sup>4</sup> For there is not a word in my tongue,<br>But, lo, O Jehovah, thou knowest it altogether.<br>
@@ -4181,9 +4181,9 @@ O Jehovah, thou hast searched me, and known _me_.<br>
 
 ### Prayer for protection against persecutors.
 
-<sup>1</sup> > _For the Chief Musician. A Psalm of David._
+> _For the Chief Musician. A Psalm of David._
 
-Deliver me, O Jehovah, from the evil man;<br>Preserve me from the violent man:<br>
+<sup>1</sup> Deliver me, O Jehovah, from the evil man;<br>Preserve me from the violent man:<br>
 <sup>2</sup> Who devise mischiefs in their heart;<br>Continually do they <sup>a</sup>gather themselves together for war.<br>
 <sup>3</sup> They have sharpened their tongue like a serpent;<br>Adders’ poison is under their lips. _[Selah_<br>
 <sup>4</sup> Keep me, O Jehovah, from the hands of the wicked;<br>Preserve me from the violent man:<br>Who have purposed to thrust aside my steps.<br>
@@ -4205,9 +4205,9 @@ Deliver me, O Jehovah, from the evil man;<br>Preserve me from the violent man:<b
 
 ### An evening prayer for sanctification and protection.
 
-<sup>1</sup> > _A Psalm of David._
+> _A Psalm of David._
 
-Jehovah, I have called upon thee; make haste unto me:<br>Give ear unto my voice, when I call unto thee.<br>
+<sup>1</sup> Jehovah, I have called upon thee; make haste unto me:<br>Give ear unto my voice, when I call unto thee.<br>
 <sup>2</sup> Let my prayer be set forth as incense before thee;<br>The lifting up of my hands as the evening <sup>a</sup>sacrifice.<br>
 <sup>3</sup> Set a watch, O Jehovah, before my mouth;<br>Keep the door of my lips.<br>
 <sup>4</sup> Incline not my heart to any evil thing,<br>To practise deeds of wickedness<br>With men that work iniquity:<br>And let me not eat of their dainties.<br>
@@ -4228,9 +4228,9 @@ Jehovah, I have called upon thee; make haste unto me:<br>Give ear unto my voice,
 
 ### Prayer for help in trouble.
 
-<sup>1</sup> > _Maschil of David, when he was in the cave; a Prayer._
+> _Maschil of David, when he was in the cave; a Prayer._
 
-I cry with my voice unto Jehovah;<br>With my voice unto Jehovah do I make supplication.<br>
+<sup>1</sup> I cry with my voice unto Jehovah;<br>With my voice unto Jehovah do I make supplication.<br>
 <sup>2</sup> I pour out my complaint before him;<br>I show before him my trouble.<br>
 <sup>3</sup> When my spirit <sup>a</sup>was overwhelmed within me,<br>Thou knewest my path.<br>In the way wherein I walk<br>Have they hidden a snare for me.<br>
 <sup>4</sup> Look on _my_ right hand, and see;<br>For there is no man that knoweth me:<br>Refuge hath failed me;<br>No man careth for my soul.<br>
@@ -4245,9 +4245,9 @@ I cry with my voice unto Jehovah;<br>With my voice unto Jehovah do I make suppli
 
 ### Prayer for deliverance and guidance.
 
-<sup>1</sup> > _A Psalm of David._
+> _A Psalm of David._
 
-Hear my prayer, O Jehovah; give ear to my supplications:<br>In thy faithfulness answer me, _and_ in thy righteousness.<br>
+<sup>1</sup> Hear my prayer, O Jehovah; give ear to my supplications:<br>In thy faithfulness answer me, _and_ in thy righteousness.<br>
 <sup>2</sup> And enter not into judgment with thy servant;<br>For in thy sight no man living is righteous.<br>
 <sup>3</sup> For the enemy hath persecuted my soul;<br>He hath smitten my life down to the ground:<br>He hath made me to dwell in dark places, as those that have been long dead.<br>
 <sup>4</sup> Therefore <sup>a</sup>is my spirit overwhelmed within me;<br>My heart within me is desolate.<br>
@@ -4269,9 +4269,9 @@ Hear my prayer, O Jehovah; give ear to my supplications:<br>In thy faithfulness 
 
 ### Prayer for rescue. A happy people described.
 
-<sup>1</sup> > __A Psalm_ of David._
+> _A Psalm of David._
 
-Blessed be Jehovah my rock,<br>Who teacheth my hands to war,<br>_And_ my fingers to fight:<br>
+<sup>1</sup> Blessed be Jehovah my rock,<br>Who teacheth my hands to war,<br>_And_ my fingers to fight:<br>
 <sup>2</sup> My lovingkindness, and my fortress,<br>My high tower, and my deliverer;<br>My shield, and he in whom I take refuge;<br>Who subdueth my people under me.<br>
 <sup>3</sup> Jehovah, what is man, that thou takest knowledge of him?<br>Or the son of man, that thou makest account of him?<br>
 <sup>4</sup> Man is like to <sup>a</sup>vanity:<br>His days are as a shadow that passeth away.<br>
@@ -4294,9 +4294,9 @@ Blessed be Jehovah my rock,<br>Who teacheth my hands to war,<br>_And_ my fingers
 
 ### Jehovah extolled for his goodness and power.
 
-<sup>1</sup> > __A Psalm of_ praise; of David._
+> _A Psalm of praise; of David._
 
-I will extol thee, my God, O King;<br>And I will bless thy name for ever and ever.<br>
+<sup>1</sup> I will extol thee, my God, O King;<br>And I will bless thy name for ever and ever.<br>
 <sup>2</sup> Every day will I bless thee;<br>And I will praise thy name for ever and ever.<br>
 <sup>3</sup> Great is Jehovah, and greatly to be praised;<br>And his greatness is unsearchable.<br>
 <sup>4</sup> One generation shall laud thy works to another,<br>And shall declare thy mighty acts.<br>

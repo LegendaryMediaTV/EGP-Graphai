@@ -1189,7 +1189,7 @@ And from the wilderness _they journeyed_ to Mattanah;
 > - <sup>g</sup> 23. Or, _against_
 > - <sup>h</sup> 23. Or, _against_
 > - <sup>i</sup> 23. Or, _At the due season_
-> - <sup>j</sup> 23. Or, _told to . . . what God hath wrought_
+> - <sup>j</sup> 23. Or, _told to … what God hath wrought_
 > - <sup>k</sup> 28. Or, _Jeshimon_
 
 ## Chapter 24

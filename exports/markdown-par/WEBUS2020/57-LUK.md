@@ -865,7 +865,7 @@ Then Jesus said to him, “Go and do likewise.”
 <sup>4</sup> “I tell you, my friends, don’t be afraid of those who kill the body, and after that have no more that they can do.
 <sup>5</sup> But I will warn you whom you should fear. Fear him who after he has killed, has power to cast into Gehenna.<sup>a</sup> Yes, I tell you, fear him.
 
-<sup>6</sup> “Aren’t five sparrows sold for two assaria coins<sup>b</sup>? Not one of them is forgotten by God.
+<sup>6</sup> “Aren’t five sparrows sold for two assaria coins?<sup>b</sup> Not one of them is forgotten by God.
 <sup>7</sup> But the very hairs of your head are all counted. Therefore don’t be afraid. You are of more value than many sparrows.
 
 <sup>8</sup> “I tell you, everyone who confesses me before men, the Son of Man will also confess before the angels of God;
@@ -932,7 +932,7 @@ Then Jesus said to him, “Go and do likewise.”
 
 <sup>57</sup> “Why don’t you judge for yourselves what is right?
 <sup>58</sup> For when you are going with your adversary before the magistrate, try diligently on the way to be released from him, lest perhaps he drag you to the judge, and the judge deliver you to the officer, and the officer throw you into prison.
-<sup>59</sup> I tell you, you will by no means get out of there until you have paid the very last penny.<sup>e</sup>”
+<sup>59</sup> I tell you, you will by no means get out of there until you have paid the very last penny.”<sup>e</sup>
 
 > - <sup>a</sup> 5. or, Hell
 > - <sup>b</sup> 6. An assarion was a small copper coin worth about an hour’s wages for an agricultural laborer.
@@ -969,7 +969,7 @@ Then Jesus said to him, “Go and do likewise.”
 <sup>19</sup> It is like a grain of mustard seed which a man took and put in his own garden. It grew and became a large tree, and the birds of the sky live in its branches.”
 
 <sup>20</sup> Again he said, “To what shall I compare God’s Kingdom?
-<sup>21</sup> It is like yeast, which a woman took and hid in three measures <sup>a</sup> of flour, until it was all leavened.”
+<sup>21</sup> It is like yeast, which a woman took and hid in three measures<sup>a</sup> of flour, until it was all leavened.”
 
 <sup>22</sup> He went on his way through cities and villages, teaching, and traveling on to Jerusalem.
 <sup>23</sup> One said to him, “Lord, are they few who are saved?”
@@ -1034,7 +1034,7 @@ He took him, and healed him, and let him go.
 <sup>22</sup> “The servant said, ‘Lord, it is done as you commanded, and there is still room.’
 
 <sup>23</sup> “The lord said to the servant, ‘Go out into the highways and hedges, and compel them to come in, that my house may be filled.
-<sup>24</sup> For I tell you that none of those men who were invited will taste of my supper. For many are called, but few are chosen.<sup>b</sup>’”
+<sup>24</sup> For I tell you that none of those men who were invited will taste of my supper. For many are called, but few are chosen.’”<sup>b</sup>
 
 <sup>25</sup> Now great multitudes were going with him. He turned and said to them,
 <sup>26</sup> “If anyone comes to me, and doesn’t disregard<sup>c</sup> his own father, mother, wife, children, brothers, and sisters, yes, and his own life also, he can’t be my disciple.
@@ -1285,7 +1285,7 @@ He said, “Lord, that I may see again.”
 
 <sup>11</sup> As they heard these things, he went on and told a parable, because he was near Jerusalem, and they supposed that God’s Kingdom would be revealed immediately.
 <sup>12</sup> He said therefore, “A certain nobleman went into a far country to receive for himself a kingdom and to return.
-<sup>13</sup> He called ten servants of his and gave them ten mina coins, <sup>a</sup> and told them, ‘Conduct business until I come.’
+<sup>13</sup> He called ten servants of his and gave them ten mina coins,<sup>a</sup> and told them, ‘Conduct business until I come.’
 <sup>14</sup> But his citizens hated him, and sent an envoy after him, saying, ‘We don’t want this man to reign over us.’
 
 <sup>15</sup> “When he had come back again, having received the kingdom, he commanded these servants, to whom he had given the money, to be called to him, that he might know what they had gained by conducting business.
@@ -1332,7 +1332,7 @@ He said, “Lord, that I may see again.”
 <sup>44</sup> and will dash you and your children within you to the ground. They will not leave in you one stone on another, because you didn’t know the time of your visitation.”
 
 <sup>45</sup> He entered into the temple and began to drive out those who bought and sold in it,
-<sup>46</sup> saying to them, “It is written, ‘My house is a house of prayer,’ <sup>d</sup> but you have made it a ‘den of robbers’!”<sup>e</sup>
+<sup>46</sup> saying to them, “It is written, ‘My house is a house of prayer,’<sup>d</sup> but you have made it a ‘den of robbers’!”<sup>e</sup>
 
 <sup>47</sup> He was teaching daily in the temple, but the chief priests, the scribes, and the leading men among the people sought to destroy him.
 <sup>48</sup> They couldn’t find what they might do, for all the people hung on to every word that he said.
@@ -1357,7 +1357,7 @@ He said, “Lord, that I may see again.”
 
 <sup>8</sup> Jesus said to them, “Neither will I tell you by what authority I do these things.”
 
-<sup>9</sup> He began to tell the people this parable: “A <sup>b</sup> man planted a vineyard and rented it out to some farmers, and went into another country for a long time.
+<sup>9</sup> He began to tell the people this parable: “A<sup>b</sup> man planted a vineyard and rented it out to some farmers, and went into another country for a long time.
 <sup>10</sup> At the proper season, he sent a servant to the farmers to collect his share of the fruit of the vineyard. But the farmers beat him and sent him away empty.
 <sup>11</sup> He sent yet another servant, and they also beat him and treated him shamefully, and sent him away empty.
 <sup>12</sup> He sent yet a third, and they also wounded him and threw him out.
@@ -1430,7 +1430,7 @@ They answered, “Caesar’s.”
 
 <sup>7</sup> They asked him, “Teacher, so when will these things be? What is the sign that these things are about to happen?”
 
-<sup>8</sup> He said, “Watch out that you don’t get led astray, for many will come in my name, saying, ‘I am he<sup>b</sup>,’ and, ‘The time is at hand.’ Therefore don’t follow them.
+<sup>8</sup> He said, “Watch out that you don’t get led astray, for many will come in my name, saying, ‘I am he,’<sup>b</sup> and, ‘The time is at hand.’ Therefore don’t follow them.
 <sup>9</sup> When you hear of wars and disturbances, don’t be terrified, for these things must happen first, but the end won’t come immediately.”
 
 <sup>10</sup> Then he said to them, “Nation will rise against nation, and kingdom against kingdom.

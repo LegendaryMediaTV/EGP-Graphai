@@ -459,7 +459,7 @@
 <sup>3</sup> And the scribes and Pharisees brought unto him a woman taken in adultery; and when they had set her in the midst,
 <sup>4</sup> they say unto him, Master, this woman was taken in adultery, in the very act.
 <sup>5</sup> Now Moses in the law commanded us, that such should be stoned: but what sayest thou?
-<sup>6</sup> This they said, tempting him, that they might have to accuse him. But Jesus stooped down, and with _his_ finger wrote on the ground, _as though he heard_ _them not_.
+<sup>6</sup> This they said, tempting him, that they might have to accuse him. But Jesus stooped down, and with _his_ finger wrote on the ground, _as though he heard them not_.
 <sup>7</sup> So when they continued asking him, he lifted up himself, and said unto them, He that is without sin among you, let him first cast a stone at her.
 <sup>8</sup> And again he stooped down, and wrote on the ground.
 <sup>9</sup> And they which heard _it_, being convicted by _their own_ conscience, went out one by one, beginning at the eldest, _even_ unto the last: and Jesus was left alone, and the woman standing in the midst.
@@ -1031,7 +1031,7 @@ And when he had said this, he went out again unto the Jews, and saith unto them,
 <sup>39</sup> But ye have a custom, that I should release unto you one at the passover: will ye therefore that I release unto you the King of the Jews?
 <sup>40</sup> Then cried they all again, saying, Not this man, but Barabbas. Now Barabbas was a robber.
 
-> - <sup>a</sup> 13. _And Annas sent Christ bound unto Caiaphas the high priest,_ _ver. 24_
+> - <sup>a</sup> 13. _And Annas sent Christ bound unto Caiaphas the high priest, ver. 24_
 > - <sup>b</sup> 22. Or, _with a rod_
 > - <sup>c</sup> 28. Or, _Pilats house_
 

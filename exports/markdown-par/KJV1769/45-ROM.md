@@ -587,7 +587,7 @@
 > - <sup>b</sup> 5. Or, _fully assured_
 > - <sup>c</sup> 6. Or, _observeth_
 > - <sup>d</sup> 14. Gr. _common_
-> - <sup>e</sup> 15. Gr. _according to charity_ _1. Cor. 8.11_
+> - <sup>e</sup> 15. Gr. _according to charity 1. Cor. 8.11_
 > - <sup>f</sup> 23. Or, _discerneth, and putteth a difference between meats_
 
 ## Chapter 15
@@ -641,7 +641,7 @@
 > - <sup>a</sup> 5. Or, _after the example of_
 > - <sup>b</sup> 16. Or, _sacrificing_
 > - <sup>c</sup> 22. Or, _many ways_, or _oftentimes_
-> - <sup>d</sup> 24. Gr. _with you._ _Ver. 32_
+> - <sup>d</sup> 24. Gr. _with you. Ver. 32_
 > - <sup>e</sup> 31. Or, _are disobedient_
 
 ## Chapter 16

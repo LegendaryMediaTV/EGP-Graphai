@@ -296,7 +296,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 > - <sup>e</sup> 25. Or, _Gibbar_
 > - <sup>f</sup> 28. Or, _Azmaveth_
 > - <sup>g</sup> 29. Or, _Kirjatharim_
-> - <sup>h</sup> 43. Or, _Hodaviah,_ _Ezra 2.4__._ Or, _Judah,_ _Ezra. 3.9_
+> - <sup>h</sup> 43. Or, _Hodaviah, Ezra 2.4._ Or, _Judah, Ezra. 3.9_
 > - <sup>i</sup> 59. Or, _Ami_
 > - <sup>j</sup> 61. Or, _pedigree_
 > - <sup>k</sup> 65. Or, _the governor_
@@ -347,7 +347,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 ### The Confession
 
 <sup>5</sup> Then the Levites, Jeshua, and Kadmiel, Bani, Hashabniah, Sherebiah, Hodijah, Shebaniah, _and_ Pethahiah, said, Stand up _and_ bless the LORD your God for ever and ever: and blessed be thy glorious name, which is exalted above all blessing and praise.
-<sup>6</sup> Thou, _even_ thou, _art_ _LORD_ alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all _things_ that _are_ therein, the seas, and all that _is_ therein, and thou preservest them all; and the host of heaven worshippeth thee.
+<sup>6</sup> Thou, _even_ thou, _art LORD_ alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all _things_ that _are_ therein, the seas, and all that _is_ therein, and thou preservest them all; and the host of heaven worshippeth thee.
 <sup>7</sup> Thou _art_ the LORD the God, who didst choose Abram, and broughtest him forth out of Ur of the Chaldees, and gavest him the name of Abraham;
 <sup>8</sup> and foundest his heart faithful before thee, and madest a covenant with him to give the land of the Canaanites, the Hittites, the Amorites, and the Perizzites, and the Jebusites, and the Girgashites, to give _it, I say_, to his seed, and hast performed thy words; for thou _art_ righteous:
 <sup>9</sup> and didst see the affliction of our fathers in Egypt, and heardest their cry by the Red sea;

@@ -35,7 +35,7 @@
 <sup>26</sup> that your boasting may abound in Christ Jesus in me through my presence again to you.
 
 <sup>27</sup> Only worthily of the good news of the Christ conduct ye yourselves, that, whether having come and seen you, whether being absent I may hear of the things concerning you, that ye stand fast in one spirit, with one soul, striving together for the faith of the good news,
-<sup>28</sup> and not terrified in anything by those opposing<sup>e</sup>, which to them indeed is a token of destruction, and to you of salvation, and that from God;
+<sup>28</sup> and not terrified in anything by those opposing,<sup>e</sup> which to them indeed is a token of destruction, and to you of salvation, and that from God;
 <sup>29</sup> because to you it was granted, on behalf of Christ, not only to believe in him, but also on behalf of him to suffer;
 <sup>30</sup> the same conflict having, such as ye saw in me, and now hear of in me.
 
@@ -123,12 +123,12 @@
 
 <sup>1</sup> <sup>a</sup>So then, my brethren, beloved and longed for, my joy and crown, so stand ye in the Lord, beloved.
 
-<sup>2</sup> Euodia I exhort<sup>b</sup>, and Syntyche I exhort, to be of the same mind in the Lord;
+<sup>2</sup> Euodia I exhort,<sup>b</sup> and Syntyche I exhort, to be of the same mind in the Lord;
 <sup>3</sup> and I ask also thee, genuine yoke-fellow, be assisting those women who in the good news did strive along with me, with Clement also, and the others, my fellow-workers, whose names _are_ in the book of life.
 
 <sup>4</sup> Rejoice in the Lord always; again I will say, rejoice;
 <sup>5</sup> let your forbearance<sup>c</sup> be known to all men; the Lord _is_ near;
-<sup>6</sup> for nothing be anxious<sup>d</sup>, but in everything by prayer, and by supplication, with thanksgiving, let your requests be made known unto God;
+<sup>6</sup> for nothing be anxious,<sup>d</sup> but in everything by prayer, and by supplication, with thanksgiving, let your requests be made known unto God;
 <sup>7</sup> and the peace of God, that is surpassing all understanding, shall guard your hearts and your thoughts in Christ Jesus.
 
 ### Think on These Things
@@ -149,7 +149,7 @@
 <sup>20</sup> and to God, even our Father, _is_ the glory—to the ages of the ages. Amen.
 
 <sup>21</sup> Salute<sup>e</sup> ye every saint in Christ Jesus; there salute<sup>f</sup> you the brethren with me;
-<sup>22</sup> there salute you all the saints<sup>g</sup>, and specially those of Caesar’s house;
+<sup>22</sup> there salute you all the saints,<sup>g</sup> and specially those of Caesar’s house;
 
 <sup>23</sup> the grace of our Lord Jesus Christ _is_ with you all. Amen.
 

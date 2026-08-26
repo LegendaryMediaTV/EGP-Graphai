@@ -1210,7 +1210,7 @@ And from the wilderness _they went_ to Mattanah:
 
 <sup>13</sup> And Balak said unto him, Come, I pray thee, with me unto another place, from whence thou mayest see them: thou shalt see but the utmost part of them, and shalt not see them all: and curse me them from thence.
 <sup>14</sup> And he brought him into the field of Zophim, to the top of Pisgah,<sup>c</sup> and built seven altars, and offered a bullock and a ram on _every_ altar.
-<sup>15</sup> And he said unto Balak, Stand here by thy burnt offering, while I meet _the_ _LORD_ yonder.
+<sup>15</sup> And he said unto Balak, Stand here by thy burnt offering, while I meet _the LORD_ yonder.
 <sup>16</sup> And the LORD met Balaam, and put a word in his mouth, and said, Go again unto Balak, and say thus.
 <sup>17</sup> And when he came to him, behold, he stood by his burnt offering, and the princes of Moab with him. And Balak said unto him, What hath the LORD spoken?
 <sup>18</sup> And he took up his parable, and said,<br>Rise up, Balak, and hear;<br>Hearken unto me, thou son of Zippor:<br>

@@ -258,7 +258,8 @@
           ]
         }
       },
-      { "text": " Selah.", "marks": ["i"], "break": true }
+      " ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -11272,7 +11273,7 @@
         "text": "God, when you went out before your people,",
         "break": true
       },
-      "when you marched through the wilderness... ",
+      "when you marched through the wilderness… ",
       { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
@@ -16551,7 +16552,8 @@
         "text": "who shall deliver his soul from the power of Sheol?",
         "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
-      { "text": " Selah.", "marks": ["i"], "break": true }
+      " ",
+      { "text": "Selah.", "marks": ["i"], "break": true }
     ]
   },
   {

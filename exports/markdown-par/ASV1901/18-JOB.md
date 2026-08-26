@@ -103,7 +103,7 @@
 > - <sup>h</sup> 24. Or, _like my food_
 > - <sup>i</sup> 24. Hebrew _roarings_.
 > - <sup>j</sup> 25. Or, _the thing which I feared is come etc._
-> - <sup>k</sup> 26. Or, _was not at ease . . . yet trouble came_
+> - <sup>k</sup> 26. Or, _was not at ease … yet trouble came_
 
 ## Chapter 4
 
@@ -287,7 +287,7 @@
 <sup>21</sup> <sup>h</sup>He will yet fill thy mouth with laughter,<br>And thy lips with shouting.<br>
 <sup>22</sup> They that hate thee shall be clothed with shame;<br>And the tent of the wicked shall be no more.<br>
 
-> - <sup>a</sup> 4. Or, _If thy children sinned . . . he delivered etc._
+> - <sup>a</sup> 4. Or, _If thy children sinned … he delivered etc._
 > - <sup>b</sup> 11. Or, _papyrus_
 > - <sup>c</sup> 11. Or, _reed-grass_
 > - <sup>d</sup> 14. Or, _be cut off_
@@ -336,7 +336,7 @@
 
 > - <sup>a</sup> 2. Or, _For_
 > - <sup>b</sup> 2. Or, _before_
-> - <sup>c</sup> 3. Or, _If one should desire . . . He could not etc._
+> - <sup>c</sup> 3. Or, _If one should desire … He could not etc._
 > - <sup>d</sup> 8. Hebrew _high places_.
 > - <sup>e</sup> 12. Or, _turn him back_
 > - <sup>f</sup> 13. Or, _arrogancy_. See Isa. 30:7.
@@ -379,7 +379,7 @@
 
 > - <sup>a</sup> 3. Hebrew _labor_.
 > - <sup>b</sup> 12. Or, _care_
-> - <sup>c</sup> 15. Or, _I am filled with ignominy, but look thou . . . for it increaseth: thou etc._
+> - <sup>c</sup> 15. Or, _I am filled with ignominy, but look thou … for it increaseth: thou etc._
 > - <sup>d</sup> 17. Or, _Host after host is against me_.
 > - <sup>e</sup> 20. Another reading is, _let him cease, and leave me alone_.
 > - <sup>f</sup> 20. Hebrew _brighten up_.
@@ -524,7 +524,7 @@
 > - <sup>c</sup> 6. Hebrew _cease_.
 > - <sup>d</sup> 6. Or, _have pleasure in_
 > - <sup>e</sup> 11. Hebrew _are gone_.
-> - <sup>f</sup> 14. Or, _will . . . shall come_
+> - <sup>f</sup> 14. Or, _will … shall come_
 > - <sup>g</sup> 14. Or, _change_
 > - <sup>h</sup> 15. Or, _shalt call, and I will etc._
 > - <sup>i</sup> 18. Hebrew _fadeth away_.
@@ -644,7 +644,7 @@
 > - <sup>c</sup> 10. Or, _For I find not_
 > - <sup>d</sup> 11. Hebrew _possessions_.
 > - <sup>e</sup> 12. Or, _because of_
-> - <sup>f</sup> 13. Or, _hope, Sheol is my house; I have spread . . . I have said . . . And where now is my hope?_
+> - <sup>f</sup> 13. Or, _hope, Sheol is my house; I have spread … I have said … And where now is my hope?_
 > - <sup>g</sup> 14. Or, _the pit_
 
 ## Chapter 18
@@ -678,7 +678,7 @@
 > - <sup>e</sup> 14. Hebrew _it shall_ (or _thou shalt_) _bring him_.
 > - <sup>f</sup> 15. Or, _It shall dwell in his tent, that it be no more his_ (or, _because it is none of his_)
 > - <sup>g</sup> 16. Or, _wither_
-> - <sup>h</sup> 20. Or, _They that dwell in the west are . . . as they that well in the east are etc._
+> - <sup>h</sup> 20. Or, _They that dwell in the west are … as they that well in the east are etc._
 > - <sup>i</sup> 20. Hebrew _laid hold on horror_.
 
 ## Chapter 19
@@ -713,7 +713,7 @@
 <sup>28</sup> If ye say, How we will persecute him!<br>And that the root of the matter is found in me;<br>
 <sup>29</sup> Be ye afraid of the sword:<br>For <sup>n</sup>wrath _bringeth_ the punishments of the sword,<br>That ye may know there is a judgment.<br>
 
-> - <sup>a</sup> 5. Or, _Will ye indeed . . . reproach?_
+> - <sup>a</sup> 5. Or, _Will ye indeed … reproach?_
 > - <sup>b</sup> 6. Or, _overthrown me_
 > - <sup>c</sup> 7. Or, _cry out, Violence!_
 > - <sup>d</sup> 15. Or, _sojourn_
@@ -813,7 +813,7 @@
 > - <sup>d</sup> 9. Or, _in peace, without fear_
 > - <sup>e</sup> 12. Hebrew _lift up_ the voice.
 > - <sup>f</sup> 16. Or, Ye say, _Lo etc._
-> - <sup>g</sup> 17. Or, _How oft is the lamp of the wicked put out, And_ how oft _cometh their calamity upon them!_ God _distributeth sorrows in his anger. They are as stubble . . . away_.
+> - <sup>g</sup> 17. Or, _How oft is the lamp of the wicked put out, And_ how oft _cometh their calamity upon them!_ God _distributeth sorrows in his anger. They are as stubble … away_.
 > - <sup>h</sup> 19. Or, _God layeth up his iniquity for his children: He rewardeth him, and he shall know it. His eyes shall see his destruction, and he shall drink etc._
 > - <sup>i</sup> 30. Or, _spared in etc._
 > - <sup>j</sup> 30. Or, _led away in etc._
@@ -866,7 +866,7 @@
 > - <sup>j</sup> 20. Or, _that which remained to them_. Or, _their abundance_
 > - <sup>k</sup> 21. Or, as otherwise read, _Thereby shall thine increase be good_.
 > - <sup>l</sup> 22. Or, _instruction_
-> - <sup>m</sup> 23. Or, _Thou shalt put away . . . And shalt lay up_
+> - <sup>m</sup> 23. Or, _Thou shalt put away … And shalt lay up_
 > - <sup>n</sup> 24. Hebrew _ore_.
 > - <sup>o</sup> 24. Or, _on the earth_
 > - <sup>p</sup> 25. Hebrew _ore_.
@@ -896,7 +896,7 @@
 
 > - <sup>a</sup> 2. Or, _bitter_. Or, accounted _rebellion_
 > - <sup>b</sup> 6. Or, _he would only give heed_
-> - <sup>c</sup> 9. Or, _turneth himself to . . . him, but_
+> - <sup>c</sup> 9. Or, _turneth himself to … him, but_
 > - <sup>d</sup> 10. Or, _For_
 > - <sup>e</sup> 10. Hebrew _the way_ that is _with me_.
 > - <sup>f</sup> 12. Or, _more than my own law_
@@ -1015,7 +1015,7 @@
 <sup>23</sup> Men shall clap their hands at him,<br>And shall hiss him out of his place.<br>
 
 > - <sup>a</sup> 2. Hebrew _made my soul bitter_.
-> - <sup>b</sup> 3. Or, _All the while my breath is in me . . . nostrils; surely_
+> - <sup>b</sup> 3. Or, _All the while my breath is in me … nostrils; surely_
 > - <sup>c</sup> 4. Or, _do_
 > - <sup>d</sup> 4. Or, _doth_
 > - <sup>e</sup> 6. Or, _doth not reproach_ me for _any of my days_
@@ -1211,7 +1211,7 @@
 
 The words of Job are ended.<br>
 
-> - <sup>a</sup> 2. Or, _For what portion_ should I have _of God . . . And what heritage etc.? Is there not calamity etc.?_
+> - <sup>a</sup> 2. Or, _For what portion_ should I have _of God … And what heritage etc.? Is there not calamity etc.?_
 > - <sup>b</sup> 8. Or, _my offspring_. Hebrew _my produce_.
 > - <sup>c</sup> 12. Hebrew _Abaddon_. See 26:6.
 > - <sup>d</sup> 16. Or, _aught that the poor desired_
@@ -1308,7 +1308,7 @@ The words of Job are ended.<br>
 > - <sup>k</sup> 23. Or, _a messenger_
 > - <sup>l</sup> 23. Or, _of the thousand_
 > - <sup>m</sup> 23. Or, _his uprightness_
-> - <sup>n</sup> 24. Or, _And he be gracious . . . and say . . . ransom: his flesh etc._
+> - <sup>n</sup> 24. Or, _And he be gracious … and say … ransom: his flesh etc._
 > - <sup>o</sup> 27. Or, _looketh upon men_
 > - <sup>p</sup> 27. Or, _it was not requited unto me_. Or, _it was not meet for me_
 > - <sup>q</sup> 30. Or, _life_
@@ -1365,7 +1365,7 @@ The words of Job are ended.<br>
 > - <sup>j</sup> 24. Or, _without inquisition_
 > - <sup>k</sup> 25. Hebrew _crushed_.
 > - <sup>l</sup> 26. Hebrew _In the place of beholders_.
-> - <sup>m</sup> 28. Or, _That they might cause . . . And that he might hear_
+> - <sup>m</sup> 28. Or, _That they might cause … And that he might hear_
 > - <sup>n</sup> 31. Or, _though I offend not_
 
 ## Chapter 35
@@ -1491,7 +1491,7 @@ The words of Job are ended.<br>
 > - <sup>l</sup> 20. Or, _If a man speak, surely he shall be swallowed up_
 > - <sup>m</sup> 21. Or, _cannot look on the light when it is bright in the skies, When the wind hath passed, and cleared them_
 > - <sup>n</sup> 22. Hebrew _gold_.
-> - <sup>o</sup> 23. Or, _to justice . . . he doeth no violence_
+> - <sup>o</sup> 23. Or, _to justice … he doeth no violence_
 
 ## Chapter 38
 

@@ -1168,7 +1168,7 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 <sup>45</sup> If David then call him Lord, how is he his son?
 <sup>46</sup> And no man was able to answer him a word, neither durst any _man_ from that day forth ask him any more _questions_.
 
-> - <sup>a</sup> 19. _In value seven pence halfpenny,_ _chap. 20.2_
+> - <sup>a</sup> 19. _In value seven pence halfpenny, chap. 20.2_
 > - <sup>b</sup> 20. Or, _inscription_
 
 ## Chapter 23
@@ -1349,7 +1349,7 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 <sup>46</sup> And these shall go away into everlasting punishment: but the righteous into life eternal.
 
 > - <sup>a</sup> 8. Or, _going out_
-> - <sup>b</sup> 15. _A talent is 187. pound 10. Shillings,_ _chap. 18.24_
+> - <sup>b</sup> 15. _A talent is 187. pound 10. Shillings, chap. 18.24_
 
 ## Chapter 26
 

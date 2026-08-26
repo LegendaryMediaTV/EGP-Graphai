@@ -1,19 +1,19 @@
 ## Chapter 1
 
 <sup>1</sup> <sup>a</sup><sup>b</sup>In many parts, and many ways, God of old having spoken to the fathers in the prophets,<sup>c</sup>
-<sup>2</sup> in these last days did speak to us in a Son, whom He appointed heir of all things, through whom also He did make the ages<sup>d</sup>;
-<sup>3</sup> who being the brightness of the glory, and the impress of His subsistence<sup>e</sup>, bearing up also the all things by the saying of his might—through himself having made a cleansing of our sins<sup>f</sup>, sat down at the right hand of the greatness in the highest,
+<sup>2</sup> in these last days did speak to us in a Son, whom He appointed heir of all things, through whom also He did make the ages;<sup>d</sup>
+<sup>3</sup> who being the brightness of the glory, and the impress of His subsistence,<sup>e</sup> bearing up also the all things by the saying of his might—through himself having made a cleansing of our sins,<sup>f</sup> sat down at the right hand of the greatness in the highest,
 <sup>4</sup> having become so much better<sup>g</sup> than the messengers, as he did inherit a more excellent name<sup>h</sup> than they.
-<sup>5</sup> For to which of the messengers<sup>i</sup> said He ever, “My Son thou art—I to-day have begotten thee?” and again, “I will be to him for a father<sup>j</sup>, and he shall be to Me for a son<sup>k</sup>?”<br>
+<sup>5</sup> For to which of the messengers<sup>i</sup> said He ever, “My Son thou art—I to-day have begotten thee?” and again, “I will be to him for a father,<sup>j</sup> and he shall be to Me for a son?”<sup>k</sup><br>
 
 <sup>6</sup> and when again He may bring in the first-born to the world, He saith, “And let them bow before him<sup>l</sup>—all messengers of God;”
-<sup>7</sup> and unto the messengers, indeed, He saith, “Who is making His messengers spirits, and His ministers a flame of fire<sup>m</sup>;”<br>
+<sup>7</sup> and unto the messengers, indeed, He saith, “Who is making His messengers spirits, and His ministers a flame of fire;”<sup>m</sup><br>
 
-<sup>8</sup> and unto the Son: “Thy throne, O God<sup>n</sup>, _is_ to the age of the age; a sceptre of righteousness _is_ the sceptre of thy reign;<br>
-<sup>9</sup> thou didst love righteousness, and didst hate lawlessness; because of this did He anoint thee—God, thy God—with oil of gladness above thy partners<sup>o</sup>;”<br>
+<sup>8</sup> and unto the Son: “Thy throne, O God,<sup>n</sup> _is_ to the age of the age; a sceptre of righteousness _is_ the sceptre of thy reign;<br>
+<sup>9</sup> thou didst love righteousness, and didst hate lawlessness; because of this did He anoint thee—God, thy God—with oil of gladness above thy partners;”<sup>o</sup><br>
 
 <sup>10</sup> and, “Thou, at the beginning, Lord, the earth didst found, and a work of thy hands are the heavens;<br>
-<sup>11</sup> these shall perish<sup>p</sup>, and Thou dost remain, and all, as a garment, shall become old,<br>
+<sup>11</sup> these shall perish,<sup>p</sup> and Thou dost remain, and all, as a garment, shall become old,<br>
 <sup>12</sup> and as a mantle<sup>q</sup> Thou shall roll them together, and they shall be changed, and Thou art the same, and Thy years shall not fail.”<br>
 
 <sup>13</sup> And unto which of the messengers said He ever, “Sit at My right hand, till I may make thine enemies thy footstool?”<br>
@@ -35,7 +35,7 @@
 > - <sup>m</sup> 7. Lit., _Who is making his messengers (as) winds, and his public workers (as) a flame of fire_
 > - <sup>n</sup> 8. This is a clear instance where Christ is called “God,” but as v. 9 speaks of God as his “God,” we cannot lay stress upon it here as proving the supreme divinity of the Saviour, besides it may be justly rendered, “God is thy throne—to the ages of the ages;” in either case it is applicable to the mediatorial throne only.
 > - <sup>o</sup> 9. Lit., _those “having along with” him_
-> - <sup>p</sup> 11. Lit., _loose themselves away, but thou remainest thoroughly..become old as a garment (does)_
+> - <sup>p</sup> 11. Lit., _loose themselves away, but thou remainest thoroughly…become old as a garment (does)_
 > - <sup>q</sup> 12. Or, _wrapper, lit. a thing “cast around” one_
 > - <sup>r</sup> 14. Lit., _public-working spirits, sent forth with a view to deaconship, because (or on account) of those about to inherit salvation_
 
@@ -46,11 +46,11 @@
 Because of this it behoveth _us_ more abundantly to take heed to the things heard, lest we may glide aside,
 <sup>2</sup> for if the word being spoken through messengers<sup>b</sup> did become stedfast, and every transgression and disobedience did receive a just recompense,
 <sup>3</sup> how shall we escape, having neglected so great salvation? which a beginning receiving—to be spoken through the Lord—by those having heard was confirmed to us,
-<sup>4</sup> God also bearing joint-witness both with signs and wonders<sup>c</sup>, and manifold powers, and distributions of the Holy Spirit, according to His will.
+<sup>4</sup> God also bearing joint-witness both with signs and wonders,<sup>c</sup> and manifold powers, and distributions of the Holy Spirit, according to His will.
 
 <sup>5</sup> For not to messengers did He subject the coming world, concerning which we speak,
-<sup>6</sup> and one in a certain place did testify fully, saying, “What is man<sup>d</sup>, that Thou art mindful of him, or a son of man<sup>e</sup>, that Thou dost look after him?<br>
-<sup>7</sup> Thou didst make him some little less than messengers<sup>f</sup>, with glory and honour Thou didst crown him, and didst set him over the works of Thy hands,<br>
+<sup>6</sup> and one in a certain place did testify fully, saying, “What is man,<sup>d</sup> that Thou art mindful of him, or a son of man,<sup>e</sup> that Thou dost look after him?<br>
+<sup>7</sup> Thou didst make him some little less than messengers,<sup>f</sup> with glory and honour Thou didst crown him, and didst set him over the works of Thy hands,<br>
 <sup>8</sup> all things Thou didst put in subjection under his feet,” for in the subjecting to him the all things, nothing did He leave to him unsubjected, and now not yet do we see the all things subjected to him,
 <sup>9</sup> and him who was made some little less than messengers we see—Jesus—because of the suffering of the death, with glory and honour having been crowned, that by the grace of God for every one he might taste of death.
 <sup>10</sup> For it was becoming to Him, because of whom _are_ the all things, and through whom _are_ the all things, many sons to glory bringing, the author<sup>g</sup> of their salvation through sufferings to make perfect,
@@ -88,10 +88,10 @@ Wherefore, holy brethren, partakers<sup>b</sup> of a heavenly calling, consider 
 <sup>2</sup> being stedfast to Him who did appoint him, as also Moses in all his house,
 <sup>3</sup> for of more glory than Moses hath this one been counted worthy, inasmuch as more honour than the house hath he who doth build it,
 <sup>4</sup> for every house is builded by some one, and He who the all things did build _is_ God,
-<sup>5</sup> and Moses indeed _was_ stedfast in all his house, as an attendant<sup>d</sup>, for a testimony of those things that were to be spoken,
-<sup>6</sup> and Christ, as a Son over his house<sup>e</sup>, whose house are we, if the boldness and the rejoicing of the hope unto the end we hold fast.
+<sup>5</sup> and Moses indeed _was_ stedfast in all his house, as an attendant,<sup>d</sup> for a testimony of those things that were to be spoken,
+<sup>6</sup> and Christ, as a Son over his house,<sup>e</sup> whose house are we, if the boldness and the rejoicing of the hope unto the end we hold fast.
 <sup>7</sup> Wherefore, (as the Holy Spirit saith, “To-day, if His voice ye may hear—<br>
-<sup>8</sup> ye may not harden your hearts, as in the provocation<sup>f</sup>, in the day of the temptation in the wilderness,<br>
+<sup>8</sup> ye may not harden your hearts, as in the provocation,<sup>f</sup> in the day of the temptation in the wilderness,<br>
 <sup>9</sup> in which tempt Me did your fathers, they did prove Me, and saw My works forty years;<br>
 <sup>10</sup> wherefore I was grieved<sup>g</sup> with that generation, and said, Always do they go astray in heart, and these have not known My ways;<br>
 <sup>11</sup> so I sware in My anger, If they shall enter into My rest—!”)<br>
@@ -102,15 +102,15 @@ Wherefore, holy brethren, partakers<sup>b</sup> of a heavenly calling, consider 
 <sup>15</sup> in its being said, “To-day, if His voice ye may hear, ye may not harden your hearts, as in the provocation,”
 <sup>16</sup> for certain having heard did provoke, but not all who did come out of Egypt through Moses;
 <sup>17</sup> but with whom was He grieved forty years? was it not with those who did sin, whose carcasses<sup>i</sup> fell in the wilderness?
-<sup>18</sup> and to whom did He swear that they shall not enter into His rest, except to those who did not believe<sup>j</sup>?—
-<sup>19</sup> and we see that they were not able to enter in because of unbelief<sup>k</sup>.
+<sup>18</sup> and to whom did He swear that they shall not enter into His rest, except to those who did not believe?<sup>j</sup>—
+<sup>19</sup> and we see that they were not able to enter in because of unbelief.<sup>k</sup>
 
 > - <sup>a</sup> 1. Chapter III. May be divided into two parts; v. 1–6 superiority of Christ to Moses; v. 7–19 and the greater sin of those who reject him.
 > - <sup>b</sup> 1. Lit., _holders together of_
 > - <sup>c</sup> 1. one “sent forth,”
 > - <sup>d</sup> 5. Lit., _a nourisher (curer or healer,)_
 > - <sup>e</sup> 6. his (i.e. God’s) household
-> - <sup>f</sup> 8. Lit., _may ye not dry up..in the great bitterness, according to the day of the trial_
+> - <sup>f</sup> 8. Lit., _may ye not dry up…in the great bitterness, according to the day of the trial_
 > - <sup>g</sup> 10. Lit., _very vexed_
 > - <sup>h</sup> 14. Lit., _a thing “standing or set under” one_
 > - <sup>i</sup> 17. Lit., _whose limbs_
@@ -137,9 +137,9 @@ Wherefore, holy brethren, partakers<sup>b</sup> of a heavenly calling, consider 
 
 ### Jesus our Great High Priest
 
-<sup>14</sup> Having, then, a great chief priest passed through the heavens—Jesus the Son of God—may we hold fast the profession<sup>e</sup>,
+<sup>14</sup> Having, then, a great chief priest passed through the heavens—Jesus the Son of God—may we hold fast the profession,<sup>e</sup>
 <sup>15</sup> for we have not a chief priest unable to sympathise with our infirmities, but _one_ tempted in all things in like manner—apart from sin;
-<sup>16</sup> we may come near, then, with freedom<sup>f</sup>, to the throne of the grace, that we may receive kindness, and find grace—for seasonable help.
+<sup>16</sup> we may come near, then, with freedom,<sup>f</sup> to the throne of the grace, that we may receive kindness, and find grace—for seasonable help.
 
 > - <sup>a</sup> 1. Chapter IV. May be divided into four parts; v. 1–5 fear of coming short of the promised rest; v. 6–10 a sabbatic rest; v. 11–13 diligence because of God’s reckoning; v. 14–16 confidence because of our high priest.
 > - <sup>b</sup> 9. after death, as in Rev. 14. 13
@@ -158,9 +158,9 @@ For every chief priest—out of men taken—in behalf of men is set in things _p
 <sup>4</sup> and no one to himself doth take the honour, but he who is called by God, as also Aaron:
 <sup>5</sup> so also the Christ did not glorify himself to become chief priest, but He who spake unto him: “My Son thou art, I to-day have begotten thee;”<br>
 
-<sup>6</sup> as also in another _place_ He saith, “Thou _art_ a priest—to the age, according to the order<sup>b</sup> of Melchisedek<sup>c</sup>;”<br>
+<sup>6</sup> as also in another _place_ He saith, “Thou _art_ a priest—to the age, according to the order<sup>b</sup> of Melchisedek;”<sup>c</sup><br>
 
-<sup>7</sup> who in the days of his flesh both prayers and supplications unto Him who was able to save him from death—with strong crying and tears—having offered up, and having been heard in respect to that which he feared<sup>d</sup>,
+<sup>7</sup> who in the days of his flesh both prayers and supplications unto Him who was able to save him from death—with strong crying and tears—having offered up, and having been heard in respect to that which he feared,<sup>d</sup>
 <sup>8</sup> through being a Son, did learn by the things which he suffered—the obedience,
 <sup>9</sup> and having been made perfect, he did become to all those obeying him a cause of salvation age-during,
 <sup>10</sup> having been addressed by God a chief priest, according to the order of Melchisedek,
@@ -168,7 +168,7 @@ For every chief priest—out of men taken—in behalf of men is set in things _p
 <sup>11</sup> concerning whom we have much discourse and of hard explanation to say, since ye have become dull of hearing,
 <sup>12</sup> for even owing to be teachers, because of the time, again ye have need that one teach you what _are_ the elements<sup>e</sup> of the beginning of the oracles of God, and ye have become having need of milk, and not of strong food,
 <sup>13</sup> for every one who is partaking of milk _is_ unskilled in the word of righteousness—for he is an infant,
-<sup>14</sup> and of perfect men is the strong food, who because of the use are having the senses exercised<sup>f</sup>, unto the discernment both of good and of evil.
+<sup>14</sup> and of perfect men is the strong food, who because of the use are having the senses exercised,<sup>f</sup> unto the discernment both of good and of evil.
 
 > - <sup>a</sup> 1. Chapter V. May be divided into three parts; v. 1–4 character and qualifications of a priest like Aaron; v. 5–9 and of the Christ; v. 10–14 called after Melchisedec, whom the Hebrews could not appreciate.
 > - <sup>b</sup> 6. by which he was appointed, viz. God’s will, not by hereditary descent
@@ -180,11 +180,11 @@ For every chief priest—out of men taken—in behalf of men is set in things _p
 ## Chapter 6
 
 <sup>1</sup> <sup>a</sup>Wherefore, having left the word of the beginning of the Christ, unto the perfection we may advance, not again a foundation laying of reformation<sup>b</sup> from dead works, and of faith on God,
-<sup>2</sup> of the teaching of baptisms<sup>c</sup>, of laying on also of hands, of rising again also of the dead, and of judgment age-during,
+<sup>2</sup> of the teaching of baptisms,<sup>c</sup> of laying on also of hands, of rising again also of the dead, and of judgment age-during,
 <sup>3</sup> and this we will do, if God may permit,
 <sup>4</sup> for _it is_ impossible<sup>d</sup> for those once enlightened, having tasted also of the heavenly gift, and partakers having became of the Holy Spirit,
 <sup>5</sup> and did taste the good saying of God, the powers also of the coming age,
-<sup>6</sup> and having fallen away, again to renew _them_ to reformation, having crucified again to themselves the Son of God, and exposed to public shame<sup>e</sup>.
+<sup>6</sup> and having fallen away, again to renew _them_ to reformation, having crucified again to themselves the Son of God, and exposed to public shame.<sup>e</sup>
 <sup>7</sup> For earth, that is drinking in the rain many times coming upon it, and is bringing forth herbs fit for those because of whom also it is dressed, doth partake of blessing<sup>f</sup> from God,
 <sup>8</sup> and that which is bearing thorns and briers _is_ disapproved of, and nigh to cursing, whose end _is_ for burning;
 
@@ -194,7 +194,7 @@ For every chief priest—out of men taken—in behalf of men is set in things _p
 <sup>12</sup> that ye may not become slothful, but followers of those who through faith and patient endurance are inheriting the promises.
 
 <sup>13</sup> For to Abraham God, having made promise, seeing He was able to swear by no greater, did swear by Himself,
-<sup>14</sup> saying, “Blessing indeed I will bless thee<sup>h</sup>, and multiplying I will multiply thee;”
+<sup>14</sup> saying, “Blessing indeed I will bless thee,<sup>h</sup> and multiplying I will multiply thee;”
 <sup>15</sup> and so, having patiently endured, he did obtain the promise;
 <sup>16</sup> for men indeed do swear by the greater, and an end of all controversy to them for confirmation _is_ the oath,
 <sup>17</sup> in which God, more abundantly willing to shew to the heirs of the promise the immutability of his counsel, did interpose by an oath,
@@ -215,9 +215,9 @@ For every chief priest—out of men taken—in behalf of men is set in things _p
 
 ### Melchisedec
 
-<sup>1</sup> <sup>a</sup>For this Melchisedek, king of Salem<sup>b</sup>, priest of God Most High, who did meet Abraham turning back from the smiting of the kings, and did bless him,
+<sup>1</sup> <sup>a</sup>For this Melchisedek, king of Salem,<sup>b</sup> priest of God Most High, who did meet Abraham turning back from the smiting of the kings, and did bless him,
 <sup>2</sup> to whom also a tenth of all did Abraham divide, (first, indeed, being interpreted, “King of righteousness,” and then also, King of Salem, which is, King of Peace,)
-<sup>3</sup> without father, without mother, without genealogy<sup>c</sup>, having neither beginning of days nor end of life, and being made like to the Son of God, doth remain a priest continually.
+<sup>3</sup> without father, without mother, without genealogy,<sup>c</sup> having neither beginning of days nor end of life, and being made like to the Son of God, doth remain a priest continually.
 
 <sup>4</sup> And see how great this one _is_, to whom also a tenth Abraham the patriarch did give out of the best<sup>d</sup> of the spoils,
 <sup>5</sup> and those, indeed, out of the sons of Levi receiving the priesthood, a command have to take tithes from the people according to the law, that is, their brethren, even though they came forth out of the loins of Abraham;
@@ -229,7 +229,7 @@ For every chief priest—out of men taken—in behalf of men is set in things _p
 
 <sup>11</sup> If indeed, then, perfection were through the Levitical priesthood—for the people under it had received law—what further need, according to the order of Melchisedek, for another priest to arise, and not to be called according to the order of Aaron?
 <sup>12</sup> for the priesthood being changed, of necessity also, of the law a change doth come,
-<sup>13</sup> for he of whom these things are said in another tribe hath had part, of whom no one gave attendance at the altar<sup>e</sup>,
+<sup>13</sup> for he of whom these things are said in another tribe hath had part, of whom no one gave attendance at the altar,<sup>e</sup>
 <sup>14</sup> for _it is_ evident that out of Judah hath arisen our Lord, in regard to which tribe Moses spake nothing concerning priesthood.
 <sup>15</sup> And it is yet more abundantly most evident, if according to the similitude of Melchisedek there doth arise another priest,
 <sup>16</sup> who came not according to the law of a fleshly command, but according to the power of an endless life,
@@ -238,12 +238,12 @@ For every chief priest—out of men taken—in behalf of men is set in things _p
 <sup>18</sup> for a disannulling indeed doth come of the command going before because of its weakness, and unprofitableness,
 <sup>19</sup> (for nothing did the law perfect) and the bringing in of a better hope, through which we draw nigh to God.
 <sup>20</sup> And inasmuch as _it is_ not apart from oath, (for those indeed apart from oath are become priests,
-<sup>21</sup> and he with an oath through Him who is saying unto him, “The Lord sware, and will not repent<sup>f</sup>, Thou _art_ a priest—to the age, according to the order of Melchisedek;”)<br>
+<sup>21</sup> and he with an oath through Him who is saying unto him, “The Lord sware, and will not repent,<sup>f</sup> Thou _art_ a priest—to the age, according to the order of Melchisedek;”)<br>
 
 <sup>22</sup> by so much of a better covenant hath Jesus become surety,
 <sup>23</sup> and those indeed are many who have become priests, because by death they are hindered from remaining;
-<sup>24</sup> and he, because of his remaining—to the age, hath the priesthood not transient<sup>g</sup>,
-<sup>25</sup> whence also he is able to save to the very end, those coming through him unto God—ever living to make intercession for them<sup>h</sup>.
+<sup>24</sup> and he, because of his remaining—to the age, hath the priesthood not transient,<sup>g</sup>
+<sup>25</sup> whence also he is able to save to the very end, those coming through him unto God—ever living to make intercession for them.<sup>h</sup>
 
 <sup>26</sup> For such a chief priest did become us—kind, harmless, undefiled, separate from the sinners, and become higher than the heavens,
 <sup>27</sup> who hath no necessity daily, as the chief priests, first for his own sins to offer up sacrifice, then for those of the people; for this he did once, having offered up himself;
@@ -265,11 +265,11 @@ For every chief priest—out of men taken—in behalf of men is set in things _p
 <sup>1</sup> <sup>a</sup>
 
 And the sum concerning the things spoken of _is_: we have such a chief priest, who did sit down at the right hand of the throne of the greatness in the heavens,
-<sup>2</sup> of the holy places a servant<sup>b</sup>, and of the true tabernacle, which the Lord did set up, and not man,
+<sup>2</sup> of the holy places a servant,<sup>b</sup> and of the true tabernacle, which the Lord did set up, and not man,
 <sup>3</sup> for every chief priest to offer both gifts and sacrifices is appointed, whence _it is_ necessary for this one to have also something that he may offer;
 <sup>4</sup> for if, indeed, he were upon earth, he would not be a priest—(there being the priests who are offering according to the law, the gifts,
 <sup>5</sup> who unto an example and shadow do serve<sup>c</sup> of the heavenly things, as Moses hath been divinely warned, being about to construct the tabernacle, for “See (saith He) thou mayest make all things according to the pattern that was shewn to thee in the mount;”)—
-<sup>6</sup> and now he hath obtained a more excellent service, how much also of a better covenant is he mediator<sup>d</sup>, which on better promises hath been sanctioned,
+<sup>6</sup> and now he hath obtained a more excellent service, how much also of a better covenant is he mediator,<sup>d</sup> which on better promises hath been sanctioned,
 <sup>7</sup> for if that first were faultless, a place would not have been sought for a second.
 <sup>8</sup> For finding fault, He saith to them, “Lo, days come, saith the Lord, and I will complete with the house of Israel, and with the house of Judah, a new covenant,<br>
 <sup>9</sup> not according to the covenant that I made with their fathers, in the day of My taking _them_ by their hand, to bring them out of the land of Egypt—because they did not remain in My covenant, and I did not regard them, saith the Lord,—<br>
@@ -282,30 +282,30 @@ And the sum concerning the things spoken of _is_: we have such a chief priest, w
 > - <sup>a</sup> 1. Chapter VIII. May be divided into two parts; v. 1–6 position and duties of our chief priest; v. 7–13 the New Covenant contrasted with the Old.
 > - <sup>b</sup> 2. Lit., _public worker of the hallowed things_
 > - <sup>c</sup> 5. Lit., _who tremble (or go tremblingly)_
-> - <sup>d</sup> 6. Or, _thoroughly different public work..he is middle-man..one which has been legalized (or made law) upon_
+> - <sup>d</sup> 6. Or, _thoroughly different public work…he is middle-man…one which has been legalized (or made law) upon_
 
 ## Chapter 9
 
-<sup>1</sup> <sup>a</sup>It had, indeed, then (even the first tabernacle) ordinances of service<sup>b</sup>, also a worldly sanctuary,
+<sup>1</sup> <sup>a</sup>It had, indeed, then (even the first tabernacle) ordinances of service,<sup>b</sup> also a worldly sanctuary,
 <sup>2</sup> for a tabernacle was prepared, the first, in which was both the lamp-stand, and the table, and the bread of the presence—which is called “Holy;”
 <sup>3</sup> and after the second vail a tabernacle that is called “Holy of holies,”
 <sup>4</sup> having a golden censer, and the ark of the covenant overlaid all round about with gold, in which _is_ the golden pot having the manna, and the rod of Aaron that budded, and the tables of the covenant,
-<sup>5</sup> and over it cherubim of the glory, overshadowing the mercy-seat<sup>c</sup>, concerning which we are not now to speak particularly.
+<sup>5</sup> and over it cherubim of the glory, overshadowing the mercy-seat,<sup>c</sup> concerning which we are not now to speak particularly.
 <sup>6</sup> And these things having been thus prepared, into the first tabernacle, indeed, at all times the priests do go in, performing the services,
-<sup>7</sup> and into the second, once in the year<sup>d</sup>, only the chief priest, not apart from blood, which he doth offer for himself and the errors of the people,
+<sup>7</sup> and into the second, once in the year,<sup>d</sup> only the chief priest, not apart from blood, which he doth offer for himself and the errors of the people,
 <sup>8</sup> the Holy Spirit this evidencing that not yet hath been manifested the way of the holy _places_, the first tabernacle having yet a standing;
 <sup>9</sup> which _is_ a simile<sup>e</sup> in regard to the present time, in which both gifts and sacrifices are offered, which are not able, in regard to conscience, to make perfect him who is serving,
-<sup>10</sup> only in victuals<sup>f</sup>, and drinks<sup>g</sup>, and different baptisms, and fleshly ordinances—till the time of reformation imposed upon _them_.
+<sup>10</sup> only in victuals,<sup>f</sup> and drinks,<sup>g</sup> and different baptisms, and fleshly ordinances—till the time of reformation imposed upon _them_.
 
 <sup>11</sup> And Christ being come, chief priest of the coming good things, through the greater and more perfect tabernacle not made with hands—that is, not of this creation—
 <sup>12</sup> neither through blood of goats and calves, but through his own blood, did enter in once into the holy places, age-during redemption<sup>h</sup> having obtained;
-<sup>13</sup> for if the blood of bulls, and goats, and ashes of an heifer, sprinkling those defiled<sup>i</sup>, doth sanctify to the purifying of the flesh,
+<sup>13</sup> for if the blood of bulls, and goats, and ashes of an heifer, sprinkling those defiled,<sup>i</sup> doth sanctify to the purifying of the flesh,
 <sup>14</sup> how much more shall the blood of the Christ (who through the age-during Spirit did offer himself unblemished to God) purify your conscience from dead works to serve the living God?
 
-<sup>15</sup> And because of this, of a new covenant he is mediator, that, death having come, for redemption of the transgressions under the first covenant, those called may receive the promise of the age-during inheritance<sup>j</sup>,
+<sup>15</sup> And because of this, of a new covenant he is mediator, that, death having come, for redemption of the transgressions under the first covenant, those called may receive the promise of the age-during inheritance,<sup>j</sup>
 <sup>16</sup> for where a covenant _is_, the death of the covenant-victim to come in is necessary,
 <sup>17</sup> for a covenant over dead victims _is_ stedfast, since it is no force at all when the covenant-victim liveth,
-<sup>18</sup> whence not even the first apart from blood hath been initiated<sup>k</sup>,
+<sup>18</sup> whence not even the first apart from blood hath been initiated,<sup>k</sup>
 <sup>19</sup> for every command having been spoken, according to law, by Moses, to all the people, having taken the blood of the calves and goats, with water, and scarlet wool, and hyssop, he both the book itself and all the people did sprinkle,
 <sup>20</sup> saying, “This _is_ the blood of the covenant that God enjoined unto you,”
 <sup>21</sup> and both the tabernacle and all the vessels of the service with blood in like manner he did sprinkle,
@@ -337,7 +337,7 @@ And the sum concerning the things spoken of _is_: we have such a chief priest, w
 <sup>2</sup> since, would they not have ceased to be offered, because of those serving having no more conscience of sins, having once been purified?
 <sup>3</sup> but in those _sacrifices_ is a remembrance of sins every year,
 <sup>4</sup> for it is impossible for blood of bulls and goats to take away sins.
-<sup>5</sup> Wherefore, coming into the world, he saith, “Sacrifice and offering Thou didst not will, and a body Thou didst prepare for me<sup>b</sup>,<br>
+<sup>5</sup> Wherefore, coming into the world, he saith, “Sacrifice and offering Thou didst not will, and a body Thou didst prepare for me,<sup>b</sup><br>
 <sup>6</sup> in burnt-offerings, and concerning sin-offerings, Thou didst not delight,<br>
 <sup>7</sup> then I said, Lo, I come, (in a volume of the book<sup>c</sup> it hath been written concerning me,) to do, O God, Thy will;”<br>
 
@@ -362,7 +362,7 @@ And the sum concerning the things spoken of _is_: we have such a chief priest, w
 <sup>22</sup> may we draw near with a true heart, in full assurance of faith, having the hearts sprinkled from an evil conscience, and having the body bathed with pure water;
 <sup>23</sup> may we hold fast the unwavering profession of the hope, (for faithful _is_ He who did promise),
 <sup>24</sup> and may we consider one another to provoke<sup>f</sup> to love and to good works,
-<sup>25</sup> not forsaking the assembling of ourselves together, as a custom of certain _is_, but exhorting, and so much the more as ye see the day coming nigh<sup>g</sup>.
+<sup>25</sup> not forsaking the assembling of ourselves together, as a custom of certain _is_, but exhorting, and so much the more as ye see the day coming nigh.<sup>g</sup>
 
 <sup>26</sup> For we—wilfully sinning after the receiving the full knowledge of the truth—no more for sins doth there remain a sacrifice,
 <sup>27</sup> but a certain fearful looking for of judgment, and fiery zeal, about to devour the opposers;
@@ -372,7 +372,7 @@ And the sum concerning the things spoken of _is_: we have such a chief priest, w
 <sup>31</sup> fearful _is_ the falling into the hands of a living God.
 
 <sup>32</sup> And call to your remembrance the former days, in which, having been enlightened, ye did endure much conflict of sufferings,
-<sup>33</sup> partly both with reproaches and tribulations being made spectacles<sup>i</sup>, and partly having become partners of those so living,
+<sup>33</sup> partly both with reproaches and tribulations being made spectacles,<sup>i</sup> and partly having become partners of those so living,
 <sup>34</sup> for also with my bonds ye sympathised, and the robbery of your goods with joy ye did receive, knowing that ye have in yourselves a better substance in the heavens, and an enduring one.
 <sup>35</sup> Ye may not cast away, then, your boldness, which hath great recompense of reward,
 <sup>36</sup> for of patience ye have need, that the will of God having done, ye may receive the promise,<br>
@@ -393,11 +393,11 @@ And the sum concerning the things spoken of _is_: we have such a chief priest, w
 
 ## Chapter 11
 
-<sup>1</sup> <sup>a</sup>And faith is of things hoped for a confidence<sup>b</sup>, of matters not seen a conviction,
+<sup>1</sup> <sup>a</sup>And faith is of things hoped for a confidence,<sup>b</sup> of matters not seen a conviction,
 <sup>2</sup> for in this were the elders testified of;
 
 <sup>3</sup> by faith we understand the ages to have been prepared by a saying of God, in regard to the things seen not having come out of things appearing;
-<sup>4</sup> by faith a better sacrifice did Abel<sup>c</sup> offer to God than Cain<sup>d</sup>, through which he was testified to be righteous, God testifying of his gifts, and through it, he being dead, doth yet speak.
+<sup>4</sup> by faith a better sacrifice did Abel<sup>c</sup> offer to God than Cain,<sup>d</sup> through which he was testified to be righteous, God testifying of his gifts, and through it, he being dead, doth yet speak.
 <sup>5</sup> By faith Enoch<sup>e</sup> was translated—not to see death, and was not found, because God did translate him; for before his translation he had been testified to—that he had pleased God well,
 <sup>6</sup> and apart from faith it is impossible to please well, for it behoveth him who is coming to God to believe that He is, and to those seeking Him He becometh a rewarder.
 <sup>7</sup> By faith Noah, having been divinely warned concerning the things not yet seen, having feared, did prepare an ark to the salvation of his house, through which he did condemn the world, and of the righteousness according to faith he became heir.
@@ -429,12 +429,12 @@ And the sum concerning the things spoken of _is_: we have such a chief priest, w
 <sup>31</sup> by faith Rahab the harlot<sup>j</sup> did not perish with those who disbelieved, having received the spies with peace.
 
 <sup>32</sup> And what shall I yet say? for the time will fail me recounting about Gideon, Barak also, and Samson, and Jephthah, David also, and Samuel, and the prophets,
-<sup>33</sup> who through faith did subdue kingdoms<sup>k</sup>, wrought righteousness, obtained promises, stopped<sup>l</sup> mouths of lions,
+<sup>33</sup> who through faith did subdue kingdoms,<sup>k</sup> wrought righteousness, obtained promises, stopped<sup>l</sup> mouths of lions,
 <sup>34</sup> quenched the power of fire, escaped the mouth of the sword, were made powerful out of infirmities, became strong in battle, caused to give way camps of the aliens.
-<sup>35</sup> Women received by a rising again their dead, and others were tortured<sup>m</sup>, not accepting the redemption, that a better rising again they might receive,
+<sup>35</sup> Women received by a rising again their dead, and others were tortured,<sup>m</sup> not accepting the redemption, that a better rising again they might receive,
 <sup>36</sup> and others of mockings and scourgings did receive trial, and yet of bonds and imprisonment;
 <sup>37</sup> they were stoned, they were sawn asunder, they were tried; in the killing of the sword they died; they went about in sheepskins, in goatskins—being destitute, afflicted, injuriously treated,
-<sup>38</sup> of whom the world was not worthy; in deserts wandering<sup>n</sup>, and _in_ mountains, and _in_ caves, and _in_ the holes of the earth;
+<sup>38</sup> of whom the world was not worthy; in deserts wandering,<sup>n</sup> and _in_ mountains, and _in_ caves, and _in_ the holes of the earth;
 
 <sup>39</sup> and these all, having been testified to through the faith, did not receive the promise,
 <sup>40</sup> God for us something better having provided, that apart from us they might not be made perfect.
@@ -463,7 +463,7 @@ And the sum concerning the things spoken of _is_: we have such a chief priest, w
 <sup>3</sup> for consider again him who endured such gainsaying from the sinners to himself, that ye may not be wearied in your souls—being faint.
 <sup>4</sup> Not yet unto blood did ye resist—with the sin<sup>c</sup> striving;
 <sup>5</sup> and ye have forgotten the exhortation<sup>d</sup> that doth speak fully with you as with sons, “My son, be not despising chastening of the Lord, nor be faint, being reproved by Him,<br>
-<sup>6</sup> for whom the Lord doth love He doth chasten, and He scourgeth every son whom He receiveth<sup>e</sup>;”<br>
+<sup>6</sup> for whom the Lord doth love He doth chasten, and He scourgeth every son whom He receiveth;”<sup>e</sup><br>
 
 <sup>7</sup> if chastening ye endure, as to sons God beareth Himself to you, for who is a son whom a father doth not chasten?
 <sup>8</sup> and if ye are apart from chastening, of which all have become partakers, then bastards are ye, and not sons.
@@ -483,13 +483,13 @@ And the sum concerning the things spoken of _is_: we have such a chief priest, w
 <sup>20</sup> for they were not bearing that which is commanded, “And if a beast may touch the mountain, it shall be stoned, or with an arrow shot through,”
 <sup>21</sup> and, (so terrible was the sight,) Moses said, “I am fearful exceedingly, and trembling.”
 <sup>22</sup> But, ye came to Mount Zion, and to a city of the living God, to the heavenly Jerusalem, and to myriads of messengers,
-<sup>23</sup> to the company and assembly of the first-born in heaven enrolled, and to God the judge of all, and to spirits of righteous men made perfect<sup>i</sup>,
+<sup>23</sup> to the company and assembly of the first-born in heaven enrolled, and to God the judge of all, and to spirits of righteous men made perfect,<sup>i</sup>
 <sup>24</sup> and to a mediator of a new covenant—Jesus, and to blood of sprinkling, speaking better things than that of Abel!
 <sup>25</sup> See, may ye not refuse him who is speaking, for if those did not escape who refused him who upon earth was divinely speaking—much less we who do turn away from him who _speaketh_ from heaven,
 <sup>26</sup> whose voice the earth shook then, and now hath he promised, saying, “Yet once—I shake not only the earth, but also the heaven;”
 <sup>27</sup> and this—“Yet once”—doth make evident the removal of the things shaken, as of things having been made, that the things not shaken may remain;
 <sup>28</sup> wherefore, a kingdom that cannot be shaken receiving, may we have grace, through which we may serve God well-pleasingly, with reverence<sup>j</sup> and religious fear;
-<sup>29</sup> for also our God _is_ a consuming fire<sup>k</sup>.
+<sup>29</sup> for also our God _is_ a consuming fire.<sup>k</sup>
 
 > - <sup>a</sup> 1. Chapter XII. May be divided into six parts; v. 1–3 exhortation to run the contest from the sight and consideration of Jesus; v. 4–11 the loving chastisement of God; v. 12–17 renewed exhortations to perseverance, peace, separation, watchfulness; v. 18–21 terrors of the old-law-giving; v. 22–24 happiness of the new; v. 25–29 prayer for grace not to refuse to hear the voice from heaven.
 > - <sup>b</sup> 1. Lit., _the contest (Gr. agony)_
@@ -518,7 +518,7 @@ Let brotherly love remain;
 
 <sup>7</sup> Be mindful of those leading you, who did speak to you the word of God, whose faith—considering the issue of the behaviour—be imitating,
 
-<sup>8</sup> Jesus Christ yesterday and to-day the same<sup>f</sup>, and to the ages;
+<sup>8</sup> Jesus Christ yesterday and to-day the same,<sup>f</sup> and to the ages;
 <sup>9</sup> with teachings manifold and strange be not carried about, for _it is_ good that by grace the heart be confirmed, not with meats, in which they who were occupied were not profited;
 <sup>10</sup> we have an altar, of which to eat they have no authority who the tabernacle are serving,
 <sup>11</sup> for of those beasts whose blood is brought for sin into the holy places through the chief priest—of these the bodies are burned without the camp.

@@ -3,10 +3,10 @@ import { buildCrossReferenceContent, buildReferenceOnlyContent, linkEmbeddedRefe
 import { Token, tokenize } from "../tokenize";
 
 /**
- * Every raw USFM snippet below is copied verbatim from the WEBUS2020 source
- * (guide §6's discipline against hand-invented fixtures) — cited by
- * book/verse in each test's title, the same convention `footnotes.test.ts`
- * already established.
+ * Every raw USFM snippet below is copied verbatim from the WEBUS2020
+ * source, cited by book/verse in each test's title — the same convention
+ * `footnotes.test.ts` already established. Fixtures test the parser
+ * against the grammar that actually exists, not a hand-invented one.
  */
 
 /** The 66-book in-scope canon, resolved once here and used as {@link xrefFrom}'s own default `canonBookIds`. */
@@ -57,7 +57,7 @@ describe("buildCrossReferenceContent — multiple targets join with a literal \"
     ]);
   });
 
-  it("should resolve a bare \"C:V\" continuation with no book name by inheriting the previous target's own book, and space the target's own unspaced verse-list comma (Matthew 5:4's real shape — \"66:10,13\" inherits \"Isaiah\" and targets \"66:10, 13\", Finding 8c, while still displaying the source's own unspaced \"66:10,13\")", () => {
+  it("should resolve a bare \"C:V\" continuation with no book name by inheriting the previous target's own book, and space the target's own unspaced verse-list comma (Matthew 5:4's real shape — \"66:10,13\" inherits \"Isaiah\" and targets \"66:10, 13\", while still displaying the source's own unspaced \"66:10,13\")", () => {
     const { footnote } = xrefFrom("\\x + \\xo 5:4 \\xt Isaiah 61:2; 66:10,13\\x*");
     expect(footnote.content).toEqual([
       { bibleLink: "Isaiah 61:2" },
@@ -75,7 +75,7 @@ describe("buildCrossReferenceContent — a \"See \" lead-in still resolves, keep
 });
 
 describe("buildCrossReferenceContent — a book outside the target version's own canon is left as plain text, never a bibleLink", () => {
-  it('should leave a deuterocanon-book target as its own raw plain text rather than link it, and resolve the Psalms target to the canonical singular "Psalm" target while keeping the source\'s own plural display (Wisdom\'s own real, verbatim in-source multi-target list, "...Wisdom 14:21" as its own last target — real corpus text, even though Wisdom itself is out of scope for this import; Finding 8b)', () => {
+  it('should leave a deuterocanon-book target as its own raw plain text rather than link it, and resolve the Psalms target to the canonical singular "Psalm" target while keeping the source\'s own plural display (Wisdom\'s own real, verbatim in-source multi-target list, "...Wisdom 14:21" as its own last target — real corpus text, even though Wisdom itself is out of scope for this import)', () => {
     const { footnote } = xrefFrom("\\x + \\xo 14:27 \\xt Exodus 23:13; Psalms 16:4; Hosea 2:17; Wisdom 14:21\\x*");
     expect(footnote.content).toEqual([
       { bibleLink: "Exodus 23:13" },
@@ -109,7 +109,7 @@ describe("buildCrossReferenceContent — a trailing tradition siglon (LXX/MT/TR/
   });
 });
 
-describe("buildCrossReferenceContent — Finding 8b: a Psalms cross-reference targets the canonical singular \"Psalm\", never the source's own plural \"Psalms\"", () => {
+describe("buildCrossReferenceContent — a Psalms cross-reference targets the canonical singular \"Psalm\", never the source's own plural \"Psalms\"", () => {
   it('should resolve "Psalms 91:11-12" to a "Psalm 91:11-12" target while keeping the source\'s own plural, unspaced-dash text as the display override (Matthew 4:6\'s real shape, matching upstream WEBUS2020\'s own real target exactly modulo the dash character, which is a separate, later, post-write convention this module never applies)', () => {
     const { footnote } = xrefFrom("\\x + \\xo 4:6 \\xt Psalms 91:11-12\\x*");
     expect(footnote.content).toEqual({ bibleLink: "Psalm 91:11-12", content: "Psalms 91:11-12" });
@@ -125,18 +125,18 @@ describe("buildCrossReferenceContent — Finding 8b: a Psalms cross-reference ta
   });
 });
 
-describe("buildCrossReferenceContent — Finding 8c: a verse list inside a target gets the space its own comma is missing", () => {
+describe("buildCrossReferenceContent — a verse list inside a target gets the space its own comma is missing", () => {
   it('should resolve "Isaiah 53:7,8" to a "53:7, 8" target while keeping the source\'s own unspaced text as the display override (Acts 8:33\'s real shape, a directly-named target rather than a bare continuation — Matthew 5:4\'s own real continuation shape is covered above, "should resolve a bare \\"C:V\\" continuation…")', () => {
     const { footnote } = xrefFrom("\\x + \\xo 8:33 \\xt Isaiah 53:7,8\\x*");
     expect(footnote.content).toEqual({ bibleLink: "Isaiah 53:7, 8", content: "Isaiah 53:7,8" });
   });
 
-  it('should apply both Finding 8b and 8c together on the one real target that needs both — a Psalms book-name fix and a verse-list comma space in the same target (Romans 11:10\'s real shape, "Psalms 69:22,23")', () => {
+  it('should apply both fixes together on the one real target that needs both — a Psalms book-name fix and a verse-list comma space in the same target (Romans 11:10\'s real shape, "Psalms 69:22,23")', () => {
     const { footnote } = xrefFrom("\\x + \\xo 11:10 \\xt Psalms 69:22,23\\x*");
     expect(footnote.content).toEqual({ bibleLink: "Psalm 69:22, 23", content: "Psalms 69:22,23" });
   });
 
-  it('should leave an already-spaced verse-list comma untouched, adding a display override for Finding 8b\'s book-name fix alone (1 Maccabees 7:17\'s real note, "Psalms 79:2, 3.", already spaced in the source)', () => {
+  it('should leave an already-spaced verse-list comma untouched, adding a display override for the book-name fix alone (1 Maccabees 7:17\'s real note, "Psalms 79:2, 3.", already spaced in the source)', () => {
     const content = buildReferenceOnlyContent("Psalms 79:2, 3.", IN_SCOPE_CANON);
     expect(content).toEqual({ bibleLink: "Psalm 79:2, 3", content: "Psalms 79:2, 3" });
   });
@@ -151,13 +151,12 @@ describe("buildCrossReferenceContent — a parse the resolver is still not confi
 });
 
 /**
- * A `\f`-derived body classified `xrf` (guide §6's "nothing but a
- * reference" test) only occurs once deuterocanon books are in scope — the
- * 66-book canonical corpus never produces this shape. `usfm/footnotes.ts`
- * reuses this function so such a body resolves the same way an
- * `\x`-sourced target does, rather than staying unresolved plain text under
- * an `xrf` tag (every other `xrf` footnote in the corpus carries a
- * `bibleLink`, not a bare string).
+ * A `\f`-derived body classified `xrf` — its content is nothing but
+ * reference-shaped runs — only occurs once deuterocanon books are in
+ * scope; the 66-book canonical corpus never produces this shape.
+ * `usfm/footnotes.ts` reuses this function so such a body resolves the same
+ * way an `\x`-sourced target does, rather than staying unresolved plain
+ * text under an `xrf` tag.
  */
 describe("buildReferenceOnlyContent — a \\f body that is nothing but a reference", () => {
   it('should resolve a "See "-led single reference, stripping the body\'s own trailing sentence period before matching (Baruch 1:11\'s real note, "See Deuteronomy 11:21.")', () => {
@@ -170,7 +169,7 @@ describe("buildReferenceOnlyContent — a \\f body that is nothing but a referen
     expect(content).toEqual({ bibleLink: "Numbers 31:6", content: "Compare Numbers 31:6" });
   });
 
-  it('should resolve a bare reference with no lead-in word at all, to the canonical singular "Psalm" target (1 Maccabees 7:17\'s real note, "Psalms 79:2, 3." — the comma-joined verse list already matches the body\'s own real spelling exactly, so the only override needed is the book name itself, Finding 8b)', () => {
+  it('should resolve a bare reference with no lead-in word at all, to the canonical singular "Psalm" target (1 Maccabees 7:17\'s real note, "Psalms 79:2, 3." — the comma-joined verse list already matches the body\'s own real spelling exactly, so the only override needed is the book name itself)', () => {
     const content = buildReferenceOnlyContent("Psalms 79:2, 3.", IN_SCOPE_CANON);
     expect(content).toEqual({ bibleLink: "Psalm 79:2, 3", content: "Psalms 79:2, 3" });
   });
@@ -191,26 +190,19 @@ describe("buildReferenceOnlyContent — a \\f body that is nothing but a referen
 });
 
 /**
- * Finding 9: a fully-qualified reference sitting *inside* a larger run of
- * ordinary footnote prose, with no `\x`/`\+xt` marker anywhere near it and
- * no whole-body "nothing but a reference" shape for `buildReferenceOnlyContent`
+ * A fully-qualified reference sitting *inside* a larger run of ordinary
+ * footnote prose, with no `\x`/`\+xt` marker anywhere near it and no
+ * whole-body "nothing but a reference" shape for `buildReferenceOnlyContent`
  * to resolve either. Every fixture below is real, verbatim WEBUS2020 corpus
- * text, cited by book/verse — this project's own established discipline
- * against invented fixtures.
+ * text, cited by book/verse.
  *
- * Redesigned in Phase 15: Phase 14's own first version required a "See "/
- * "Compare " cue word immediately before the reference. The user's own
- * correction (recorded in full in this objective's own Phase 15 report)
- * found that gate was the wrong safeguard — a fully self-naming reference
- * is unambiguous because it names its own book, not because of what word
- * happens to sit next to it — so `linkEmbeddedReferences` now scans an
- * entire body for any real, registry-resolvable, *verse-specific* reference,
- * with no cue word required at all. The tests below exercise that directly:
- * several fixtures that used to prove a cue word's *absence* left a
- * reference unlinked now prove the opposite — the reference links anyway,
- * because it names its own book.
+ * `linkEmbeddedReferences` requires no "See "/"Compare " lead-in word: a
+ * fully self-naming reference is unambiguous because it names its own
+ * book, not because of what word happens to sit next to it. Several
+ * fixtures below deliberately have no cue word anywhere nearby, proving the
+ * reference still links on the strength of its own name alone.
  */
-describe("linkEmbeddedReferences — Finding 9: a fully-qualified reference embedded in ordinary prose becomes a real bibleLink, no cue word required", () => {
+describe("linkEmbeddedReferences — a fully-qualified reference embedded in ordinary prose becomes a real bibleLink, no cue word required", () => {
   it('should link a single reference sitting inside otherwise-plain prose, leaving everything else untouched (1 Maccabees 1:14\'s real note, "So they built a gymnasium..." — fixture trimmed to its own footnote body, "See 2 Maccabees 4:9, 12.")', () => {
     const content = linkEmbeddedReferences("See 2 Maccabees 4:9, 12. ");
     expect(content).toEqual(["See ", { bibleLink: "2 Maccabees 4:9, 12" }, ". "]);
@@ -272,7 +264,7 @@ describe("linkEmbeddedReferences — Finding 9: a fully-qualified reference embe
     ]);
   });
 
-  it('should link a reference with no cue word anywhere near it — not even a non-adjacent one — since naming its own book is what makes it unambiguous, not the word beside it (2 Maccabees 4:21\'s real note, "Compare 2 Maccabees 4:21. See also 2 Maccabees 3:5." — Phase 14\'s own first version left "2 Maccabees 3:5" unlinked because "also" broke its cue-adjacency check; Phase 15\'s redesign has no such check to break)', () => {
+  it('should link a reference with no cue word anywhere near it — not even a non-adjacent one — since naming its own book is what makes it unambiguous, not the word beside it (2 Maccabees 4:21\'s real note, "Compare 2 Maccabees 4:21. See also 2 Maccabees 3:5.")', () => {
     const content = linkEmbeddedReferences(
       "Compare 2 Maccabees 4:21. See also 2 Maccabees 3:5. The Greek as commonly read means Apollonius.",
     );
@@ -295,7 +287,7 @@ describe("linkEmbeddedReferences — Finding 9: a fully-qualified reference embe
     expect(content).toBe("Compare 1 Maccabees 10:65. ");
   });
 
-  it('should now link a bare reference sitting at a footnote body\'s own start with no cue word at all — Proverbs 31:10-31\'s own real, self-referential acrostic note, matching upstream HEAD\'s own real, already-linked shape exactly, and three real 1 Esdras instances sharing the identical shape (Ezra 8:3\'s real note) — Phase 14\'s first version left both unlinked, guessing this "no cue" shape was unsafe; upstream HEAD\'s own real Proverbs link proves it is not', () => {
+  it('should now link a bare reference sitting at a footnote body\'s own start with no cue word at all — Proverbs 31:10-31\'s own real, self-referential acrostic note, matching upstream HEAD\'s own real, already-linked shape exactly, and three real 1 Esdras instances sharing the identical shape (Ezra 8:3\'s real note)', () => {
     const proverbs =
       "Proverbs 31:10-31 form an acrostic, with each verse starting with each letter of the Hebrew alphabet, in order.";
     expect(linkEmbeddedReferences(proverbs, IN_SCOPE_CANON)).toEqual([
@@ -335,16 +327,16 @@ describe("linkEmbeddedReferences — Finding 9: a fully-qualified reference embe
 });
 
 /**
- * The six real 66-canon verses Phase 14's own cue-word-gated version missed
- * (named as a residual in that phase's own report) — each behind a real
- * cue word too weak to have generalized safely on its own ("in," "regard,"
- * "here and in," "includes," "after," "places"), which is exactly why the
- * redesign stopped requiring a cue word at all. Every fixture is real,
- * verbatim WEBUS2020 corpus text; every expected shape matches upstream
- * `HEAD`'s own exact, real content (dash characters modulo the later,
- * separate, post-write en-dash convention this module never applies).
+ * Six real 66-canon verses where the reference sits behind an ordinary
+ * word — "in," "regard," "here and in," "includes," "after," "places" —
+ * none of them a "See "/"Compare " lead-in. Proof that
+ * `linkEmbeddedReferences` links on the reference's own name alone, with no
+ * dependence on a specific cue word. Every fixture is real, verbatim
+ * WEBUS2020 corpus text; every expected shape matches upstream `HEAD`'s own
+ * exact, real content (dash characters modulo the later, separate,
+ * post-write en-dash convention this module never applies).
  */
-describe("linkEmbeddedReferences — the six real 66-canon residuals Phase 14's cue-word gate missed, now linked", () => {
+describe("linkEmbeddedReferences — six real 66-canon references linked with no cue word anywhere nearby", () => {
   it('should link Psalm 8:5\'s real "See also the quote from the Septuagint in Hebrews 2:7." — the cue "See" sits nowhere near "Hebrews"; only the book name itself matters now', () => {
     const content = linkEmbeddedReferences(
       "Hebrew: Elohim. The word Elohim, used here, usually means “God”, but can also mean “gods”, “princes”, or “angels”. The Septuagint reads “angels” here. See also the quote from the Septuagint in Hebrews 2:7.",

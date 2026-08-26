@@ -696,7 +696,7 @@
 
 > - <sup>a</sup> 7. That is, _Temptation_
 > - <sup>b</sup> 7. That is, _Chiding_, or, _strife_
-> - <sup>c</sup> 9. Called _Jesus,_ _Acts. 7.45_
+> - <sup>c</sup> 9. Called _Jesus, Acts. 7.45_
 > - <sup>d</sup> 16. Or, _because the hand of Amalek is against the throne of the LORD, therefore etc_. Heb. _The hand upon the throne of the Lord_
 
 ## Chapter 18
@@ -1404,7 +1404,7 @@ And the LORD said unto Moses, Thus thou shalt say unto the children of Israel, Y
 <sup>23</sup> For they said unto me, Make us gods, which shall go before us: for _as for_ this Moses, the man that brought us up out of the land of Egypt, we wot not what is become of him.
 <sup>24</sup> And I said unto them, Whosoever hath any gold, let them break _it_ off. So they gave _it_ me: then I cast it into the fire, and there came out this calf.
 
-<sup>25</sup> And when Moses saw that the people _were_ naked; (for Aaron had made them naked unto _their_ shame among their enemies:<sup>c</sup>)
+<sup>25</sup> And when Moses saw that the people _were_ naked; (for Aaron had made them naked unto _their_ shame among their enemies:)<sup>c</sup>
 <sup>26</sup> then Moses stood in the gate of the camp, and said, Who _is_ on the LORD’s side? _let him come_ unto me. And all the sons of Levi gathered themselves together unto him.
 <sup>27</sup> And he said unto them, Thus saith the LORD God of Israel, Put every man his sword by his side, _and_ go in and out from gate to gate throughout the camp, and slay every man his brother, and every man his companion, and every man his neighbour.
 <sup>28</sup> And the children of Levi did according to the word of Moses: and there fell of the people that day about three thousand men.
@@ -1436,7 +1436,7 @@ And the LORD said unto Moses, Thus thou shalt say unto the children of Israel, Y
 
 <sup>7</sup> And Moses took the tabernacle, and pitched it without the camp, afar off from the camp, and called it the Tabernacle of the congregation. And it came to pass, _that_ every one which sought the LORD went out unto the tabernacle of the congregation, which _was_ without the camp.
 <sup>8</sup> And it came to pass, when Moses went out unto the tabernacle, _that_ all the people rose up, and stood every man _at_ his tent door, and looked after Moses, until he was gone into the tabernacle.
-<sup>9</sup> And it came to pass, as Moses entered into the tabernacle, the cloudy pillar descended, and stood _at_ the door of the tabernacle, and _the_ _LORD_ talked with Moses.
+<sup>9</sup> And it came to pass, as Moses entered into the tabernacle, the cloudy pillar descended, and stood _at_ the door of the tabernacle, and _the LORD_ talked with Moses.
 <sup>10</sup> And all the people saw the cloudy pillar stand _at_ the tabernacle door: and all the people rose up and worshipped, every man _in_ his tent door.
 <sup>11</sup> And the LORD spake unto Moses face to face, as a man speaketh unto his friend. And he turned again into the camp: but his servant Joshua, the son of Nun, a young man, departed not out of the tabernacle.
 

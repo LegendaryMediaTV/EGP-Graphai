@@ -27,7 +27,7 @@ describe("resolveBookId", () => {
     expect(resolveBookId("2KI")).toBe("2KG");
   });
 
-  it("should translate a deuterocanon USFM id to the existing registry entry Q24 found already matches it by name, rather than duplicate that entry (Phase 10, Q24)", () => {
+  it("should translate a deuterocanon USFM id to the existing registry entry that already matches it by name, rather than duplicate that entry", () => {
     expect(resolveBookId("1MA")).toBe("1MC");
     expect(resolveBookId("2MA")).toBe("2MC");
     expect(resolveBookId("3MA")).toBe("3MC");
@@ -86,14 +86,14 @@ const MSB2025_CANONICAL_FILES = NEW_SOURCES_AVAILABLE
 
 if (!NEW_SOURCES_AVAILABLE) {
   describe.skip(
-    "resolveBookId — ASV1901/MSB2025's own real \\id sets need zero new crosswalk rows (Phase 1 of the generality-test objective)",
+    "resolveBookId — ASV1901/MSB2025's own real \\id sets need zero new crosswalk rows",
     () => {
       it("requires the local ASV1901 and MSB2025 raw USFM corpora at imports/asv1901/ebible-usfm and imports/msb2025/ebible-usfm", () => {});
     },
   );
 } else {
-describe("resolveBookId — ASV1901/MSB2025's own real \\id sets need zero new crosswalk rows (Phase 1 of the generality-test objective)", () => {
-  it("should find exactly 66 real canonical .usfm files in each new source, matching this planning pass's own direct count", () => {
+describe("resolveBookId — ASV1901/MSB2025's own real \\id sets need zero new crosswalk rows", () => {
+  it("should find exactly 66 real canonical .usfm files in each new source", () => {
     expect(ASV1901_CANONICAL_FILES).toHaveLength(66);
     expect(MSB2025_CANONICAL_FILES).toHaveLength(66);
   });

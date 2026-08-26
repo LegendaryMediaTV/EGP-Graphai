@@ -119,7 +119,7 @@
 > - <sup>d</sup> 19. Or, _sanctuary_
 > - <sup>e</sup> 20. Or, _sanctuary_
 > - <sup>f</sup> 21. Or, _sanctuary_
-> - <sup>g</sup> 25. Or, _a man; for . . . the man_.
+> - <sup>g</sup> 25. Or, _a man; for … the man_.
 
 ## Chapter 3
 
@@ -266,7 +266,7 @@
 Now it was the sabbath on that day.
 <sup>10</sup> So the Jews said unto him that was cured, It is the sabbath, and it is not lawful for thee to take up thy <sup>g</sup>bed.
 <sup>11</sup> But he answered them, He that made me whole, the same said unto me, Take up thy <sup>h</sup>bed, and walk.
-<sup>12</sup> They asked him, Who is the man that said unto thee, Take up _thy_ <sup>i</sup>_bed_, and walk?
+<sup>12</sup> They asked him, Who is the man that said unto thee, Take up _thy _<sup>i</sup>_bed_, and walk?
 <sup>13</sup> But he that was healed knew not who it was; for Jesus had conveyed himself away, a multitude being in the place.
 <sup>14</sup> Afterward Jesus findeth him in the temple, and said unto him, Behold, thou art made whole: sin no more, lest a worse thing befall thee.
 <sup>15</sup> The man went away, and told the Jews that it was Jesus who had made him whole.
@@ -554,7 +554,7 @@ Now it was the sabbath on that day.
 <sup>56</sup> Your father Abraham rejoiced <sup>k</sup>to see my day; and he saw it, and was glad.
 <sup>57</sup> The Jews therefore said unto him, Thou art not yet fifty years old, and hast thou seen Abraham?
 <sup>58</sup> Jesus said unto them, Verily, verily, I say unto you, Before Abraham was born, I am.
-<sup>59</sup> They took up stones therefore to cast at him: but Jesus <sup>l</sup>hid himself, and went out of the temple<sup>m</sup>.
+<sup>59</sup> They took up stones therefore to cast at him: but Jesus <sup>l</sup>hid himself, and went out of the temple.<sup>m</sup>
 
 > - <sup>a</sup> 5. Lev. 20:10; Dt. 22:22f.
 > - <sup>b</sup> 17. Compare Dt. 19:15; 17:6.
@@ -952,7 +952,7 @@ These things spake Jesus, and he departed and <sup>r</sup>hid himself from them.
 > - <sup>h</sup> 18. Or, _orphans_
 > - <sup>i</sup> 19. Or, _and ye shall live_.
 > - <sup>j</sup> 26. Or, _Advocate_. Or, _Helper_. Greek _Paraclete_.
-> - <sup>k</sup> 30. Or, _in me. But that etc. . . . I do, arise etc._
+> - <sup>k</sup> 30. Or, _in me. But that etc…. I do, arise etc._
 
 ## Chapter 15
 

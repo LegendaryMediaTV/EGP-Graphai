@@ -630,7 +630,7 @@
 
 > - <sup>a</sup> 1. Hebrew _folly_.
 > - <sup>b</sup> 5. Hebrew _breatheth out_.
-> - <sup>c</sup> 7. Or, _Go from . . . For thou wilt not etc._
+> - <sup>c</sup> 7. Or, _Go from … For thou wilt not etc._
 > - <sup>d</sup> 9. Or, _Fools make a mock at sin_
 > - <sup>e</sup> 9. Or, _the favor_ of God
 > - <sup>f</sup> 12. Or, _is straight before_
@@ -955,7 +955,7 @@
 > - <sup>b</sup> 8. Or, _straight_
 > - <sup>c</sup> 9. Or, _a house in common_. Hebrew _a house of society_.
 > - <sup>d</sup> 11. Or, _when one considereth the wise_
-> - <sup>e</sup> 12. Or, _One that is righteous . . . he overthroweth the wicked etc._
+> - <sup>e</sup> 12. Or, _One that is righteous … he overthroweth the wicked etc._
 > - <sup>f</sup> 14. Hebrew _bendeth_.
 > - <sup>g</sup> 15. Or, _But destruction_ shall be _to etc._
 > - <sup>h</sup> 16. Or, _the shades_. Hebrew _Rephaim_.
@@ -1203,7 +1203,7 @@
 > - <sup>d</sup> 12. Hebrew _his own eyes_.
 > - <sup>e</sup> 16. Hebrew _his own eyes_.
 > - <sup>f</sup> 16. Or, _answer discreetly_
-> - <sup>g</sup> 17. Or, _He that vexeth himself . . . Is_ like _one that taketh a passing dog etc._
+> - <sup>g</sup> 17. Or, _He that vexeth himself … Is_ like _one that taketh a passing dog etc._
 > - <sup>h</sup> 28. Hebrew _crushed_.
 
 ## Chapter 27

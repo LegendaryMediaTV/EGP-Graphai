@@ -1,12 +1,17 @@
 import { describe, it, expect } from "vitest";
 import {
   collectJsonFiles,
+  dropEmptyTextKeysInContent,
+  findDeclaredChapterMismatches,
   findMeaninglessContentNodes,
+  findResidualContentChanges,
   findStrongTrailingWhitespaceNodes,
   normalizeBibleLinkDashesInContent,
 } from "../validate";
 import { getVersionDirectories } from "../../functions/getBibleVersions";
 import Content from "../../types/Content";
+import { VerseRecord } from "../auditNodes";
+import { VersionBook } from "../../types/Version";
 
 describe("collectJsonFiles — real, on-disk corpus", () => {
   // Version-agnostic, like the auditNodes on-disk-corpus tests: assumes
@@ -198,6 +203,59 @@ describe("findMeaninglessContentNodes", () => {
         "content[0]: empty node with nothing to render",
       ]);
     });
+
+    it("should report an empty text alongside a foot, whatever else the node carries — real KJV1769 Psalm 80:4 shape", () => {
+      // The footnote's own text moved onto the Strong's-tagged node before
+      // it (the footnote-marker-spacing check's own relocation), leaving this repeated anchor with
+      // an empty text key and nothing left to render — a husk this
+      // function's own "sole key is text" check used to miss, since `foot`
+      // is a second key.
+      expect(
+        findMeaninglessContentNodes([
+          {
+            text: "How long wilt thou be angry",
+            foot: {
+              type: "trn",
+              content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }],
+            },
+            strong: "H6225",
+          },
+          {
+            text: "",
+            foot: {
+              type: "trn",
+              content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }],
+            },
+          },
+        ])
+      ).toEqual(["content[1]: empty node with nothing to render"]);
+    });
+
+    it("should report an empty text alongside both break and foot — real KJV1769 Proverbs 10:10 shape", () => {
+      expect(
+        findMeaninglessContentNodes([
+          {
+            text: "",
+            break: true,
+            foot: {
+              type: "trn",
+              content: ["Or, ", { text: "shall be beaten", marks: ["i"] }],
+            },
+          },
+        ])
+      ).toEqual(["content[0]: empty node with nothing to render"]);
+    });
+
+    it("should still accept a foot-carrying node with no text key at all, break or not", () => {
+      // The husk rule turns on an empty *string*, never an absent key — a
+      // bare anchor stays legal regardless of what else rides along with it.
+      expect(
+        findMeaninglessContentNodes([
+          { foot: { type: "xrf", content: "Gen 1:1" } },
+          { foot: { type: "xrf", content: "Gen 1:1" }, break: true },
+        ])
+      ).toEqual([]);
+    });
   });
 
   describe("nodes that are meaningful without text", () => {
@@ -282,6 +340,123 @@ describe("findMeaninglessContentNodes", () => {
       expect(
         findMeaninglessContentNodes([{ text: "λόγος", script: "G" }])
       ).toEqual([]);
+    });
+  });
+});
+
+describe("dropEmptyTextKeysInContent", () => {
+  it("should drop an empty text key alongside a foot — real KJV1769 Psalm 80:4 shape", () => {
+    expect(
+      dropEmptyTextKeysInContent([
+        {
+          text: "How long wilt thou be angry",
+          foot: { type: "trn", content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }] },
+          strong: "H6225",
+        },
+        {
+          text: "",
+          foot: { type: "trn", content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }] },
+        },
+      ])
+    ).toEqual({
+      content: [
+        {
+          text: "How long wilt thou be angry",
+          foot: { type: "trn", content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }] },
+          strong: "H6225",
+        },
+        {
+          foot: { type: "trn", content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }] },
+        },
+      ],
+      changed: true,
+    });
+  });
+
+  it("should drop an empty text key alongside both break and foot — real KJV1769 Proverbs 10:10 shape", () => {
+    expect(
+      dropEmptyTextKeysInContent([
+        {
+          text: "",
+          break: true,
+          foot: { type: "trn", content: ["Or, ", { text: "shall be beaten", marks: ["i"] }] },
+        },
+      ])
+    ).toEqual({
+      content: [
+        {
+          break: true,
+          foot: { type: "trn", content: ["Or, ", { text: "shall be beaten", marks: ["i"] }] },
+        },
+      ],
+      changed: true,
+    });
+  });
+
+  it("should leave a node whose only property is an empty text untouched — dropping it would leave a bare {} with nothing left to keep", () => {
+    const content: Content = [{ text: "" }, "text"];
+    expect(dropEmptyTextKeysInContent(content)).toEqual({ content, changed: false });
+  });
+
+  it("should leave a node with no properties at all untouched", () => {
+    const content: Content = [{}, "text"];
+    expect(dropEmptyTextKeysInContent(content)).toEqual({ content, changed: false });
+  });
+
+  it("should leave a node with real text untouched", () => {
+    const content: Content = [{ text: "Jesus wept", foot: { type: "trn", content: "note" } }];
+    expect(dropEmptyTextKeysInContent(content)).toEqual({ content, changed: false });
+  });
+
+  it("should leave a foot-carrying node with no text key at all untouched", () => {
+    const content: Content = [{ foot: { type: "xrf", content: "Gen 1:1" }, break: true }];
+    expect(dropEmptyTextKeysInContent(content)).toEqual({ content, changed: false });
+  });
+
+  it("should report no change and return the original reference when nothing needs fixing", () => {
+    const content: Content = ["In the beginning God created"];
+    const result = dropEmptyTextKeysInContent(content);
+    expect(result.changed).toBe(false);
+    expect(result.content).toBe(content);
+  });
+
+  it("should drop an empty text key nested inside footnote content — the same husk shape, one level down", () => {
+    expect(
+      dropEmptyTextKeysInContent([
+        {
+          text: "To",
+          foot: {
+            type: "stu",
+            content: ["This", { text: "", strong: "H1" }, " psalm is an acrostic poem."],
+          },
+        },
+      ])
+    ).toEqual({
+      content: [
+        {
+          text: "To",
+          foot: {
+            type: "stu",
+            content: ["This", { strong: "H1" }, " psalm is an acrostic poem."],
+          },
+        },
+      ],
+      changed: true,
+    });
+  });
+
+  it("should drop an empty text key nested inside a heading", () => {
+    expect(
+      dropEmptyTextKeysInContent([
+        { heading: ["A ", { text: "", marks: ["i"], strong: "H1" }, " Prayer"] },
+        "Body",
+      ])
+    ).toEqual({
+      content: [
+        { heading: ["A ", { marks: ["i"], strong: "H1" }, " Prayer"] },
+        "Body",
+      ],
+      changed: true,
     });
   });
 });
@@ -402,6 +577,70 @@ describe("normalizeBibleLinkDashesInContent", () => {
       ).toEqual({
         content: [{ bibleLink: "Psalm 53:1–3", content: "53:1–3" }],
         changed: true,
+      });
+    });
+
+    it("should fix the cross-chapter shorthand's digit-flanked hyphen in a bare bibleLink target", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([{ bibleLink: "2 Kings 6:31-7:20" }])
+      ).toEqual({
+        content: [{ bibleLink: "2 Kings 6:31–7:20" }],
+        changed: true,
+      });
+    });
+
+    it("should fix a digit-flanked hyphen inside dot notation in a string content override, leaving the dots alone", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Exodus 2:9–18", content: "chap. 2.9-18" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Exodus 2:9–18", content: "chap. 2.9–18" }],
+        changed: true,
+      });
+    });
+  });
+
+  describe("the hyphen guard — a hyphen converts only when it sits directly between two digits", () => {
+    it("should leave a hyphenated word inside a string content override untouched", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Joshua 15:9", content: "Beth-el 15:9" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Joshua 15:9", content: "Beth-el 15:9" }],
+        changed: false,
+      });
+    });
+
+    it("should leave a hyphenated word inside a bare bibleLink target untouched", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([{ bibleLink: "Beth-el 15:9" }])
+      ).toEqual({
+        content: [{ bibleLink: "Beth-el 15:9" }],
+        changed: false,
+      });
+    });
+
+    it("should leave a trailing hyphen with no following digit untouched", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Exodus 12:3", content: "Exodus 12:3 -" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Exodus 12:3", content: "Exodus 12:3 -" }],
+        changed: false,
+      });
+    });
+
+    it("should leave a leading hyphen with no preceding digit untouched", () => {
+      expect(
+        normalizeBibleLinkDashesInContent([
+          { bibleLink: "Exodus 12:3", content: "- Exodus 12:3" },
+        ])
+      ).toEqual({
+        content: [{ bibleLink: "Exodus 12:3", content: "- Exodus 12:3" }],
+        changed: false,
       });
     });
   });
@@ -532,5 +771,124 @@ describe("normalizeBibleLinkDashesInContent", () => {
         changed: true,
       });
     });
+  });
+});
+
+describe("findResidualContentChanges — the idempotence guard's own per-verse re-check (G10)", () => {
+  // The guard's whole job is to catch two of the pass's own steps quietly
+  // undoing each other's work, so a genuinely settled verse must come back
+  // silent — the guard costs nothing on a corpus that's already a fixed
+  // point of the pass.
+  it("should report nothing for a genuinely settled verse", () => {
+    const verse: VerseRecord = {
+      book: "GEN",
+      chapter: 1,
+      verse: 1,
+      content: ["In the beginning God created the heavens and the earth."] as unknown as Content,
+    };
+    expect(findResidualContentChanges("YLT1898", verse)).toEqual([]);
+  });
+
+  // Real, verified interaction: two adjacent nodes whose own marks
+  // genuinely disagree, joined by a boundary space the mark-boundary-embedded-space
+  // check already relocated once. Re-running that check's own detector
+  // against that already-relocated state finds a *new*, equally-disagreeing
+  // space on the boundary's other side — its single left-to-right pass
+  // doesn't revisit the node it just rewrote — so it fires again and flips
+  // the boundary straight back. This is exactly the class of step
+  // interaction the idempotence guard exists to catch automatically, in the
+  // run that produces it, rather than needing a second manual `npm run
+  // validate` to notice.
+  it("should report a residual mark-boundary-space finding when a relocated space leaves a new, equally-disagreeing space on the other side of the same boundary", () => {
+    const verse: VerseRecord = {
+      book: "REV",
+      chapter: 3,
+      verse: 1,
+      // Already-relocated shape: the mark-boundary-embedded-space check's
+      // leading-space branch already moved the joining space onto the
+      // predecessor's own trailing edge once (the state right after that
+      // check's own fix runs).
+      content: [
+        { text: "Sardis ", marks: ["sc"] },
+        { text: "write", marks: ["woc"] },
+      ] as unknown as Content,
+    };
+    const steps = findResidualContentChanges("YLT1898", verse);
+    expect(steps).toContain("mark-boundary space relocation");
+  });
+
+  it("should name the specific step still rewriting an unsettled verse, proving the chain is wired to the real per-step transforms and not a stub", () => {
+    const verse: VerseRecord = {
+      book: "YLT",
+      chapter: 1,
+      verse: 1,
+      content: [{ text: "The Angel of the " }, "Jehovah"] as unknown as Content,
+    };
+    expect(findResidualContentChanges("YLT1898", verse)).toEqual([
+      "equivalent sibling merge",
+    ]);
+  });
+});
+
+// A version's declared chapter count must match the chapters its own verse
+// file actually carries — corpus completeness, not merely validity. Real,
+// permanent corpus findings exist for this (see bible-versions.md);
+// fixtures below are synthetic since this pure comparator needs no file I/O
+// to test.
+describe("findDeclaredChapterMismatches", () => {
+  const book = (overrides: Partial<VersionBook>): VersionBook => ({
+    _id: "GEN",
+    name: "Genesis",
+    title: "Genesis",
+    order: 1,
+    chapters: 50,
+    ...overrides,
+  });
+
+  it("should report a finding, naming both numbers, when the file's highest chapter is below the declared count", () => {
+    const mismatches = findDeclaredChapterMismatches(
+      [book({ _id: "EST", chapters: 16 })],
+      new Map([["EST", 10]]),
+    );
+    expect(mismatches).toEqual([{ book: "EST", declaredChapters: 16, highestChapterPresent: 10 }]);
+  });
+
+  it("should report a finding, naming both numbers, when the file's highest chapter is above the declared count — the metadata is equally wrong in that direction", () => {
+    const mismatches = findDeclaredChapterMismatches(
+      [book({ _id: "DAN", chapters: 10 })],
+      new Map([["DAN", 12]]),
+    );
+    expect(mismatches).toEqual([{ book: "DAN", declaredChapters: 10, highestChapterPresent: 12 }]);
+  });
+
+  it("should not report a finding when the declared count and the file's highest chapter agree", () => {
+    const mismatches = findDeclaredChapterMismatches(
+      [book({ _id: "GEN", chapters: 50 })],
+      new Map([["GEN", 50]]),
+    );
+    expect(mismatches).toEqual([]);
+  });
+
+  it("should check every book independently, reporting only the ones that disagree", () => {
+    const mismatches = findDeclaredChapterMismatches(
+      [book({ _id: "EST", chapters: 16 }), book({ _id: "GEN", chapters: 50 }), book({ _id: "DAN", chapters: 14 })],
+      new Map([
+        ["EST", 10],
+        ["GEN", 50],
+        ["DAN", 12],
+      ]),
+    );
+    expect(mismatches).toEqual([
+      { book: "EST", declaredChapters: 16, highestChapterPresent: 10 },
+      { book: "DAN", declaredChapters: 14, highestChapterPresent: 12 },
+    ]);
+  });
+
+  it("should treat a book with no entry in the highest-chapter map as carrying zero chapters, a finding rather than a silent pass", () => {
+    // A book declared in _version.json whose own verse file is missing
+    // entirely is already reported by the existing file-existence check;
+    // this comparator still names it rather than skipping it quietly.
+    const mismatches = findDeclaredChapterMismatches([book({ _id: "OBD", chapters: 1 })], new Map());
+    expect(mismatches).toEqual([{ book: "OBD", declaredChapters: 1, highestChapterPresent: 0 }]);
   });
 });

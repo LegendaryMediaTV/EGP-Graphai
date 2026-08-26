@@ -79,7 +79,7 @@ For in that he put all in subjection under him, he left nothing _that is_ not pu
 <sup>18</sup> And to whom sware he that they should not enter into his rest, but to them that believed not?
 <sup>19</sup> So we see that they could not enter in because of unbelief.
 
-> - <sup>a</sup> 2. Gr. _made,_ _1 Sam. 12.6_
+> - <sup>a</sup> 2. Gr. _made, 1 Sam. 12.6_
 > - <sup>b</sup> 11. Gr. _if they shall enter_
 
 ## Chapter 4

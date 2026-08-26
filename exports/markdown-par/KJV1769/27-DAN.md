@@ -296,7 +296,7 @@
 > - <sup>k</sup> 12. _Cald. knots_
 > - <sup>l</sup> 13. Or, _grandfather_
 > - <sup>m</sup> 16. _Cald. interpret_
-> - <sup>n</sup> 17. Or, _fee, as_ _chap. 2.6_
+> - <sup>n</sup> 17. Or, _fee, as chap. 2.6_
 > - <sup>o</sup> 20. Or, _to deal proudly_
 > - <sup>p</sup> 20. _Cald. made to come down_
 > - <sup>q</sup> 21. Or, _he made his heart equal_, etc.

@@ -75,7 +75,7 @@
 <sup>23</sup> And when inquisition was made of the matter, it was found out; therefore they were both hanged on a tree: and it was written in the book of the chronicles before the king.
 
 > - <sup>a</sup> 3. Heb. _unto the hand_
-> - <sup>b</sup> 3. Or, _Hegai,_ _ver. 8_
+> - <sup>b</sup> 3. Or, _Hegai, ver. 8_
 > - <sup>c</sup> 7. Heb. _nourished_
 > - <sup>d</sup> 7. Heb. _fair of form, and good of countenance_
 > - <sup>e</sup> 9. Heb. _her portions_

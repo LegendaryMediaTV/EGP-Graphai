@@ -284,7 +284,7 @@
 > - <sup>h</sup> 15. Or, _that he may know_. Or, _till he know_
 > - <sup>i</sup> 19. Or, _rugged_
 > - <sup>j</sup> 19. Or, _bushes_
-> - <sup>k</sup> 25. Or, _where never came the fear of briers and thorns, shall be etc._ Or, _there shall not come thither the fear . . . but it shall be etc._
+> - <sup>k</sup> 25. Or, _where never came the fear of briers and thorns, shall be etc._ Or, _there shall not come thither the fear … but it shall be etc._
 
 ## Chapter 8
 
@@ -565,7 +565,7 @@
 <sup>32</sup> What then shall one answer the messengers of the nation? That Jehovah hath founded Zion, and in her shall the afflicted of his people take refuge.<br>
 
 > - <sup>a</sup> 4. Or, _exactress_
-> - <sup>b</sup> 6. Or, _he that smote . . . is persecuted, and none hindereth_
+> - <sup>b</sup> 6. Or, _he that smote … is persecuted, and none hindereth_
 > - <sup>c</sup> 9. Or, _the shades_. Hebrew _Rephaim_.
 > - <sup>d</sup> 9. Hebrew _he-goats_.
 > - <sup>e</sup> 19. Or, as _the raiment of those that are slain_
@@ -778,7 +778,7 @@ In the <sup>v</sup>forest in Arabia shall ye lodge, O ye caravans of Dedanites.
 > - <sup>d</sup> 3. Hebrew _bent_.
 > - <sup>e</sup> 4. Hebrew _wandereth_.
 > - <sup>f</sup> 5. Or, _spread the carpets_
-> - <sup>g</sup> 7. Or, _and he saw . . . and he hearkened_
+> - <sup>g</sup> 7. Or, _and he saw … and he hearkened_
 > - <sup>h</sup> 7. Or, _a chariot_. Or, _chariots_
 > - <sup>i</sup> 7. Or, _a pair of horsemen_
 > - <sup>j</sup> 7. Or, _a chariot_. Or, _chariots_
@@ -1068,7 +1068,7 @@ But I said, <sup>g</sup>I pine away, I pine away, woe is me! the treacherous hav
 > - <sup>a</sup> 1. Hebrew _smitten down_.
 > - <sup>b</sup> 2. Or, _with violence_
 > - <sup>c</sup> 6. Or, _to_
-> - <sup>d</sup> 9. Or, _Whom shall he teach . . . and whom shall he make . . . breasts. For etc._
+> - <sup>d</sup> 9. Or, _Whom shall he teach … and whom shall he make … breasts. For etc._
 > - <sup>e</sup> 9. Or, _report_
 > - <sup>f</sup> 10. Or, _rule_
 > - <sup>g</sup> 11. Or, _For with stammering lips_
@@ -1290,7 +1290,7 @@ Through the land of trouble and anguish, from whence come the lioness and the li
 > - <sup>h</sup> 18. Or, _the scribe_
 > - <sup>i</sup> 19. Or, _stammering_
 > - <sup>j</sup> 20. Or, _set feasts_
-> - <sup>k</sup> 21. Or, _but in the place . . . streams there shall go etc._
+> - <sup>k</sup> 21. Or, _but in the place … streams there shall go etc._
 
 ## Chapter 34
 
@@ -1433,7 +1433,7 @@ Through the land of trouble and anguish, from whence come the lioness and the li
 <sup>37</sup> So Sennacherib king of Assyria departed, and went and returned, and dwelt at Nineveh.
 <sup>38</sup> And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer his sons smote him with the sword; and they escaped into the land of Ararat. And Esar-haddon his son reigned in his stead.
 
-> - <sup>a</sup> 4. Or, _wherewith the king of Assyria . . . hath sent him_
+> - <sup>a</sup> 4. Or, _wherewith the king of Assyria … hath sent him_
 > - <sup>b</sup> 11. Hebrew _devoting them_.
 > - <sup>c</sup> 13. In 2 Kin. 17:24, _Avva_.
 > - <sup>d</sup> 16. Or, _art enthroned_
@@ -1555,7 +1555,7 @@ Through the land of trouble and anguish, from whence come the lioness and the li
 > - <sup>n</sup> 23. Or, _confusion_
 > - <sup>o</sup> 24. Or, _Scarce are they planted, scarce are they sown, scarce hath their stock taken root in the earth, when he bloweth upon them etc._
 > - <sup>p</sup> 26. Or, _and see: who hath created these? he that etc._
-> - <sup>q</sup> 28. Or, _Jehovah is an everlasting God, the Creator . . . he fainteth not etc._
+> - <sup>q</sup> 28. Or, _Jehovah is an everlasting God, the Creator … he fainteth not etc._
 
 ## Chapter 41
 
@@ -1687,7 +1687,7 @@ Through the land of trouble and anguish, from whence come the lioness and the li
 > - <sup>c</sup> 9. Or, _and that they may hear_
 > - <sup>d</sup> 13. Or, _from_ this _day forth I etc._
 > - <sup>e</sup> 14. Or, as otherwise read, _all their nobles, even etc._
-> - <sup>f</sup> 17. Or, _who . . . the power: They shall lie etc._
+> - <sup>f</sup> 17. Or, _who … the power: They shall lie etc._
 > - <sup>g</sup> 21. Or, _they shall set forth_
 > - <sup>h</sup> 23. Or, _a meal-offering_
 > - <sup>i</sup> 24. Or, _calamus_
@@ -1876,7 +1876,7 @@ Through the land of trouble and anguish, from whence come the lioness and the li
 > - <sup>a</sup> 6. Or, _I show_
 > - <sup>b</sup> 10. Or, _tried_
 > - <sup>c</sup> 14. Or, _Jehovah hath loved him: he shall etc._
-> - <sup>d</sup> 18. Or, _Oh that thou wouldest hearken . . . then would thy peace be etc._
+> - <sup>d</sup> 18. Or, _Oh that thou wouldest hearken … then would thy peace be etc._
 > - <sup>e</sup> 19. Or, that of _the bowels thereof_
 
 ## Chapter 49
@@ -2340,13 +2340,13 @@ And Jehovah saw it, and it displeased him that there was no justice.
 <sup>19</sup> We are become as they over whom thou never barest rule, as they that were not called by thy name.
 
 > - <sup>a</sup> 1. Or, _crimsoned_
-> - <sup>b</sup> 3. Or, _will tread . . . and trample_
+> - <sup>b</sup> 3. Or, _will tread … and trample_
 > - <sup>c</sup> 3. Or, _strength_
 > - <sup>d</sup> 3. Or, _shall be_
 > - <sup>e</sup> 3. Or, _will stain_
 > - <sup>f</sup> 4. Or, _is_
 > - <sup>g</sup> 4. Or, _my year of redemption_
-> - <sup>h</sup> 6. Or, _I will tread . . . and make . . . and I will pour out_
+> - <sup>h</sup> 6. Or, _I will tread … and make … and I will pour out_
 > - <sup>i</sup> 6. Or, according to another reading, _brake them in pieces_
 > - <sup>j</sup> 6. Or, _brought down their strength to the earth_
 > - <sup>k</sup> 9. Another reading is, _In all their adversity he was no adversary_

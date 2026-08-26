@@ -2,17 +2,18 @@ import * as fs from "fs";
 import * as path from "path";
 import { describe, expect, it } from "vitest";
 import { buildFootnoteContent, buildIntroParagraphFootnote, capitalizeFootnoteOpening } from "../footnotes";
-import { uniformFraction } from "../fractions";
+import { uniformFraction } from "../../../functions/normalizeFractions";
 import { Token, tokenize } from "../tokenize";
 import { extractFootnoteBodiesIn, FOOTNOTES_IN_CORPUS } from "../verify";
 
 /**
  * Every raw USFM snippet below is copied verbatim from the in-scope
- * WEBUS2020 corpus (guide §6's own discipline against hand-invented
- * fixtures) — cited by book/verse in each test's own title rather than
- * saved as a separate `.usfm` fixture file, since `buildFootnoteContent`
- * only ever needs the `\f`...`\f*` span itself, not the surrounding verse
- * context `segmentVerses.test.ts`'s own fixtures already exist to prove.
+ * WEBUS2020 corpus, never hand-written — an invented fixture would test
+ * this against a cleaner grammar than the one that actually exists —
+ * cited by book/verse in each test's own title rather than saved as a
+ * separate `.usfm` fixture file, since `buildFootnoteContent` only ever
+ * needs the `\f`...`\f*` span itself, not the surrounding verse context
+ * `segmentVerses.test.ts`'s own fixtures already exist to prove.
  *
  * @param raw - A real, verbatim USFM snippet containing exactly one
  *   `\f`...`\f*` span, with nothing but the span itself (or the span
@@ -25,7 +26,7 @@ function footnoteFrom(raw: string, canonBookIds?: ReadonlySet<string>): ReturnTy
   return buildFootnoteContent(tokens, openIndex + 1, canonBookIds);
 }
 
-/** The 66-book in-scope canon. Duplicated, not imported, from `references.test.ts`'s identical constant — intentionally, per `imports/guide.md` §5: a verifying test shouldn't share code with the thing it verifies, and that caution extends to fixtures, not just production code. */
+/** The 66-book in-scope canon. Duplicated, not imported, from `references.test.ts`'s identical constant — intentionally: a verifying test shouldn't share code with the thing it verifies, and that caution extends to fixtures, not just production code. */
 const IN_SCOPE_CANON = new Set([
   "GEN", "EXO", "LEV", "NUM", "DEU", "JSH", "JDG", "RTH", "1SM", "2SM", "1KG", "2KG",
   "1CH", "2CH", "EZR", "NEH", "EST", "JOB", "PSA", "PRV", "ECC", "SOS", "ISA", "JER",
@@ -104,7 +105,7 @@ describe("buildFootnoteContent — original-script tagging", () => {
     expect(footnote.type).toBe("trn");
   });
 
-  it("should tag both a delimited Hebrew word and a bare Greek word inside the same footnote body (1 Peter 2:6's real dual-language gloss — the one real corpus instance quoting both languages side by side)", () => {
+  it("should tag both a delimited Hebrew word and a bare Greek word inside the same footnote body (1 Peter 2:6's real dual-language gloss)", () => {
     const { footnote } = footnoteFrom(
       '\\f + \\fr 2:6 \\ft “Behold”, from “\\+wh הִנֵּה\\+wh*” or “ἰδοὺ”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.\\f*',
     );
@@ -121,6 +122,12 @@ describe("buildFootnoteContent — original-script tagging", () => {
     const { footnote } = footnoteFrom('\\f + \\fr 6:15 \\ft A cubit is about 18 inches or 46 centimeters.\\f*');
     expect(footnote.content).toBe("A cubit is about 18 inches or 46 centimeters.");
   });
+
+  it("should isolate a bare, undelimited Hebrew word with splitNonLatinScriptRuns, closing the real import-time asymmetry that shipped it untagged (WEBUS2020 Numbers 15:38's real tassels gloss)", () => {
+    const { footnote } = footnoteFrom("\\f + \\fr 15:38 \\ft or, tassels (Hebrew צִיצִ֛ת)\\f*");
+    expect(footnote.content).toEqual(["or, tassels (Hebrew ", { text: "צִיצִ֛ת", script: "H" }, ")"]);
+    expect(footnote.type).toBe("trn");
+  });
 });
 
 describe("buildFootnoteContent — classification reaches the built footnote's own type", () => {
@@ -136,7 +143,7 @@ describe("buildFootnoteContent — classification reaches the built footnote's o
 });
 
 /**
- * `normalizeFractionText` (`utils/usfm/fractions.ts`) is wired into the
+ * `normalizeFractionText` (`functions/normalizeFractions.ts`) is wired into the
  * `token.type === "text"` branch above so a raw fraction, however the
  * source spells it, comes out the far side already in this repo's own
  * convention — both in the footnote's own displayed `content` and in
@@ -170,23 +177,22 @@ describe("buildFootnoteContent — fraction normalization", () => {
  * `capitalizeFootnoteOpening` (this module) runs on `pieces[0]` right
  * after the token walk builds it, so a footnote's own displayed text
  * starts with a capital letter — see that function's own doc comment for
- * the measured upstream convention and the `or,` exception. Every fixture
- * below is real, verbatim raw USFM, read directly off
- * `imports/webus2020/ebible-usfm/*.usfm`, matching this file's own
- * established discipline against hand-invented fixtures.
+ * the measured convention and the `or,` exception. Every fixture below is
+ * real, verbatim raw USFM, read directly off
+ * `imports/webus2020/ebible-usfm/*.usfm`.
  */
 describe("buildFootnoteContent — footnote-initial capitalization", () => {
-  it('should capitalize Leviticus 11:5\'s own real regression, the user\'s own named fixture ("or rock badger, or cony" — no comma after the first "or", so it does not qualify for the or, exception below)', () => {
+  it('should capitalize Leviticus 11:5\'s own real regression ("or rock badger, or cony" — no comma after the first "or", so it does not qualify for the or, exception below)', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 11:5 \\ft or rock badger, or cony\\f*');
     expect(footnote.content).toBe("Or rock badger, or cony");
   });
 
-  it('should capitalize Leviticus 19:16\'s own real regression, the user\'s own second named fixture ("literally, “blood”")', () => {
+  it('should capitalize Leviticus 19:16\'s own real regression ("literally, “blood”")', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 19:16 \\ft literally, “blood”\\f*');
     expect(footnote.content).toBe("Literally, “blood”");
   });
 
-  it('should capitalize a second real "literally," regression in a different book (Matthew 6:27\'s "literally, cubit" — 23 of the 27 real regressions share this exact opener)', () => {
+  it('should capitalize a second real "literally," regression in a different book (Matthew 6:27\'s "literally, cubit")', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 6:27 \\ft literally, cubit\\f*');
     expect(footnote.content).toBe("Literally, cubit");
   });
@@ -204,7 +210,7 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
     expect(footnote.content).toBe("Or Gentiles");
   });
 
-  it('should recapitalize the *whole* witness siglon, not just its own leading letter, for Acts 4:27\'s own real regression — a real source-side casing slip ("nu adds...") against 200+ already-upper-case "NU" occurrences elsewhere in the corpus; upstream HEAD carries "NU adds...", not "Nu adds..."', () => {
+  it('should recapitalize the *whole* witness siglon, not just its own leading letter, for Acts 4:27\'s own real regression — a real source-side casing slip ("nu adds...") that upstream HEAD carries as "NU adds...", not "Nu adds..."', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 4:27 \\ft nu adds “in this city,”\\f*');
     expect(footnote.content).toBe("NU adds “in this city,”");
     expect(footnote.type).toBe("var");
@@ -270,26 +276,14 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
   });
 
   /**
-   * Two real footnotes (Deuteronomy 33:16, Matthew 23:5) never matched a
-   * `HEAD` counterpart by a per-footnote, book/chapter/verse/text sweep, both
-   * for the identical real reason: upstream `HEAD` embeds a real `bibleLink`
-   * node for a trailing in-body scripture reference ("Exodus 3:3–4",
-   * "Deuteronomy 6:8") that the raw USFM carries as plain, unmarked prose
-   * with no `\+xt`/`\x` structural marker of its own. Finding 9's own
-   * `linkEmbeddedReferences` (`usfm/references.ts`) now closes this gap
-   * generically — Matthew 23:5's own "...See Deuteronomy 6:8." matches
-   * upstream `HEAD` exactly (modulo the intentional, already-accepted
-   * capitalization divergence below). Deuteronomy 33:16 used to be treated
-   * as a separate, harder exception (Phase 14: its own cue is "of," a
-   * single, unevidenced instance too common to safely generalize into a
-   * third cue word) with its own verse-specific override applied later in
-   * `imports/webus2020/import.ts`. Phase 15 found the cue-word requirement
-   * itself was the wrong safeguard and redesigned `linkEmbeddedReferences`
-   * to link any real, fully-qualified, registry-resolvable reference found
-   * anywhere in the body, no cue word required — "Exodus 3:3-4" names its
-   * own book explicitly, so it now links right here, through the same
-   * generic mechanism as everything else, with no separate override needed
-   * at all.
+   * Both footnotes (Deuteronomy 33:16, Matthew 23:5) embed a trailing,
+   * in-body scripture reference ("Exodus 3:3–4", "Deuteronomy 6:8") that the
+   * raw USFM carries as plain, unmarked prose with no `\+xt`/`\x` structural
+   * marker of its own. `linkEmbeddedReferences` (`usfm/references.ts`)
+   * resolves any real, fully-qualified, registry-resolvable reference found
+   * anywhere in a footnote body, no cue word required — "Exodus 3:3-4" and
+   * "Deuteronomy 6:8" both name their own book explicitly, so they link
+   * through this same generic mechanism.
    */
   it('should link Deuteronomy 33:16\'s real "the burning bush of Exodus 3:3-4" through the generic mechanism, no cue word or separate override needed — "Exodus 3:3-4" names its own book explicitly, matching upstream HEAD\'s own exact shape (modulo the dash character, a separate, later, post-write convention this module never applies)', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 33:16 \\ft i.e., the burning bush of Exodus 3:3-4.\\f*');
@@ -297,7 +291,7 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
     expect(footnote.type).toBe("stu");
   });
 
-  it('should link Matthew 23:5\'s real embedded "See Deuteronomy 6:8." to a real bibleLink, now matching upstream HEAD\'s own exact content shape — the capitalized "Phylacteries..." opening is a real, already-accepted, intentional divergence from upstream\'s own lowercase wording (a transliterated term, backlog-shaped, capitalized anyway under this importer\'s general "capitalize all of them" rule), unrelated to and unaffected by Finding 9\'s own separate fix', () => {
+  it('should link Matthew 23:5\'s real embedded "See Deuteronomy 6:8." to a real bibleLink, matching upstream HEAD\'s own content shape — the capitalized "Phylacteries..." opening is an intentional divergence from upstream\'s own lowercase wording (a transliterated term, backlog-shaped, capitalized anyway under this importer\'s general "capitalize all of them" rule)', () => {
     const { footnote } = footnoteFrom(
       '\\f + \\fr 23:5 \\ft phylacteries (tefillin in Hebrew) are small leather pouches that some Jewish men wear on their forehead and arm in prayer. They are used to carry a small scroll with some Scripture in it. See Deuteronomy 6:8.\\f*',
     );
@@ -318,9 +312,9 @@ describe("buildFootnoteContent — zero \\w/\\+w tags ever occur inside a footno
 });
 
 /**
- * `\fl` — a footnote sub-marker Esther-Greek carries 33 times, absent from
- * every 66-book canonical file (`KEPT_SUB_MARKERS`'s own doc comment
- * explains why it must stay kept). Every fixture below is real, verbatim
+ * `\fl` — a footnote sub-marker Esther-Greek carries, absent from every
+ * 66-book canonical file (`KEPT_SUB_MARKERS`'s own doc comment explains why
+ * it must stay kept). Every fixture below is real, verbatim
  * `43-ESGeng-web.usfm` text.
  */
 describe("buildFootnoteContent — \\fl (Esther-Greek's own footnote label sub-marker)", () => {
@@ -352,13 +346,13 @@ describe("buildFootnoteContent — \\fl (Esther-Greek's own footnote label sub-m
 });
 
 /**
- * Confirms already-established footnote-handling mechanisms fire
- * correctly against the deuterocanon corpus's own real fixtures too, with
- * zero code change (guide's own "a real fixture-backed regression test,
- * not resting on an untested doc-comment claim" discipline).
+ * Confirms already-established footnote-handling mechanisms fire correctly
+ * against the deuterocanon corpus's own real fixtures too, with zero code
+ * change — a regression test backed by real fixtures, not an untested
+ * doc-comment claim.
  */
 describe("buildFootnoteContent — deuterocanon regressions for already-established mechanisms", () => {
-  it("should tag each of \\+bk/\\+bk*'s 3 real book-title citations marks: [\"i\"], even inside a footnote that itself sits inside an \\s1 span (Daniel 3:24's real footnote, Finding 6) — its own trailing \"between Daniel 3:23 and Daniel 3:24\" also links both, a real, independent side effect of Finding 9's redesigned scan (Phase 15) finding two fully-qualified references with nothing but a bare book-name repeat sitting between them", () => {
+  it("should tag each of \\+bk/\\+bk*'s 3 real book-title citations marks: [\"i\"], even inside a footnote that itself sits inside an \\s1 span (Daniel 3:24's real footnote) — its own trailing \"between Daniel 3:23 and Daniel 3:24\" also links both, finding two fully-qualified references with nothing but a bare book-name repeat sitting between them", () => {
     const { footnote } = footnoteFrom(
       '\\f + \\fr 3:24 \\ft \\+bk The Song of the Three Holy Children\\+bk* is an addition to \\+bk Daniel\\+bk* found in the Greek Septuagint but not found in the traditional Hebrew text of \\+bk Daniel\\+bk*. This portion is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches. It is found inserted between Daniel 3:23 and Daniel 3:24 of the traditional Hebrew Bible. Here, the verses after 23 from the Hebrew Bible are numbered starting at 91 to make room for these verses.\\f*',
     );
@@ -440,10 +434,10 @@ describe("buildFootnoteContent — deuterocanon regressions for already-establis
 });
 
 /**
- * 9 real deuterocanon footnote bodies across 5 books are "nothing but a
- * reference" (guide §6's own `xrf` test) — a shape the 66-book canonical
- * corpus never produces. Reuses `usfm/references.ts`'s own
- * `buildReferenceOnlyContent` (already directly tested in
+ * A deuterocanon footnote body that is "nothing but a reference" (the
+ * `xrf` test — see `classifyFootnote`'s own doc comment) is a shape the
+ * 66-book canonical corpus never produces. Reuses `usfm/references.ts`'s
+ * own `buildReferenceOnlyContent` (already directly tested in
  * `references.test.ts`) rather than leaving the body as unresolved plain
  * text under a `type: "xrf"` tag.
  */
@@ -460,13 +454,13 @@ describe("buildFootnoteContent — an \\f body that is nothing but a reference r
     expect(footnote.content).toEqual({ bibleLink: "Numbers 31:6", content: "Compare Numbers 31:6" });
   });
 
-  it("should resolve a bare reference-only \\f body with no lead-in word at all, to the canonical singular \"Psalm\" target (1 Maccabees 7:17's real note, Finding 8b)", () => {
+  it("should resolve a bare reference-only \\f body with no lead-in word at all, to the canonical singular \"Psalm\" target (1 Maccabees 7:17's real note)", () => {
     const { footnote } = footnoteFrom('\\f + \\fr 7:17 \\ft Psalms 79:2, 3.\\f*', IN_SCOPE_CANON);
     expect(footnote.type).toBe("xrf");
     expect(footnote.content).toEqual({ bibleLink: "Psalm 79:2, 3", content: "Psalms 79:2, 3" });
   });
 
-  it("should resolve a semicolon-joined multi-target reference-only \\f body the same \"; \"-joining way \\x already does, the Psalms target resolving to canonical singular \"Psalm\" (Wisdom 11:4's real note, Finding 8b)", () => {
+  it("should resolve a semicolon-joined multi-target reference-only \\f body the same \"; \"-joining way \\x already does, the Psalms target resolving to canonical singular \"Psalm\" (Wisdom 11:4's real note)", () => {
     const { footnote } = footnoteFrom('\\f + \\fr 11:4 \\ft See Deuteronomy 8:15; Psalms 114:8.\\f*', IN_SCOPE_CANON);
     expect(footnote.type).toBe("xrf");
     expect(footnote.content).toEqual([
@@ -490,9 +484,8 @@ describe("buildFootnoteContent — an \\f body that is nothing but a reference r
 });
 
 /**
- * Every one of the 16 real `\ip` blocks (14 files, Esther-Greek and Sirach
- * carrying two apiece) becomes a footnote on that book's own verse 1:1,
- * built by wrapping the span in a synthetic `\ft` marker and reusing
+ * Every `\ip` block becomes a footnote on that book's own verse 1:1, built
+ * by wrapping the span in a synthetic `\ft` marker and reusing
  * `buildFootnoteContent` unchanged — see that function's own doc comment
  * for why `\ip` needs this treatment.
  */
@@ -505,7 +498,7 @@ describe("buildIntroParagraphFootnote — \\ip", () => {
     return buildIntroParagraphFootnote(tokens, ipIndex + 1);
   }
 
-  it("should build a plain-prose \\ip block's own text into a footnote, tagging its single embedded \\bk citation marks: [\"i\"] rather than dropping it as plain text (Tobit's real editorial blurb, Finding 6)", () => {
+  it("should build a plain-prose \\ip block's own text into a footnote, tagging its single embedded \\bk citation marks: [\"i\"] rather than dropping it as plain text (Tobit's real editorial blurb)", () => {
     const { footnote } = introFootnoteFrom(
       "\\ip \\bk Tobit\\bk* is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches.  \n\\c 1",
     );
@@ -582,20 +575,14 @@ describe("buildIntroParagraphFootnote — \\ip", () => {
 });
 
 /**
- * A real, corpus-wide collision check — not an inference from the
- * fixture-level tests above alone. Every real `\f`-derived footnote body
- * across WEBUS2020's own real 81-book raw source
- * (`extractFootnoteBodiesIn`, `usfm/verify.ts`'s own independent
- * extraction, sharing no code with this module) is run through
- * `capitalizeFootnoteOpening` directly, proving the fix changes exactly
- * what it should and nothing else: every body it *does* change has a real
- * reason to (a lowercase ASCII leading letter, not the `or,` exception),
- * and every body it leaves alone has a real reason to be left alone
- * (already capitalized, non-letter-led, or the `or,` exception) — a
- * formal round-trip check across the whole real corpus, not a match
- * against one pre-computed count, since this 81-book, direct-extraction
- * sweep uses a different, broader methodology than a 66-canonical-book,
- * per-footnote match against `HEAD`.
+ * A corpus-wide collision check, not an inference from the fixture-level
+ * tests above alone: every real `\f`-derived footnote body across
+ * WEBUS2020's own raw source (`extractFootnoteBodiesIn`, `usfm/verify.ts`'s
+ * own independent extraction, sharing no code with this module) is run
+ * through `capitalizeFootnoteOpening` directly, proving every body it
+ * changes has a real reason to (a lowercase ASCII leading letter, not the
+ * `or,` exception) and every body it leaves alone has a real reason to be
+ * left alone (already capitalized, non-letter-led, or the `or,` exception).
  */
 // Report-only, corpus-wide measurement: needs WEBUS2020's own real raw USFM
 // locally at `webDir` (gitignored, never committed — a fresh clone doesn't
@@ -659,9 +646,8 @@ describe("capitalizeFootnoteOpening — corpus-wide collision check against WEBU
     expect(changedCount).toBeGreaterThan(0);
     expect(orExceptionCount).toBeGreaterThan(0);
     // Acts 4:27's own real "nu adds..." casing slip is the corpus's only
-    // real witness-siglon recapitalization (confirmed directly: zero other
-    // real footnote body opens with "tr"/"mt"/"nu" at all, siglon or
-    // otherwise).
+    // witness-siglon recapitalization — no other footnote body opens with
+    // "tr"/"mt"/"nu" at all, siglon or otherwise.
     expect(witnessSiglonRecapitalized).toBe(1);
   });
 });

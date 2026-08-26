@@ -4,9 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "The " },
       {
-        "paragraph": true,
-        "text": "The ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "history", "marks": ["i"] }]
@@ -15,7 +14,9 @@
       "words of Nehemiah the son of Hacaliah.",
       {
         "paragraph": true,
-        "text": "Now it came to pass in the month Chislev, in the twentieth year, as I was in Shushan the ",
+        "text": "Now it came to pass in the month Chislev, in the twentieth year, as I was in Shushan the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "castle", "marks": ["i"] }]
@@ -144,8 +145,8 @@
     "chapter": 2,
     "verse": 8,
     "content": [
+      "and a letter unto Asaph the keeper of the king’s ",
       {
-        "text": "and a letter unto Asaph the keeper of the king’s ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "park", "marks": ["i"] }]
@@ -204,15 +205,15 @@
     "chapter": 2,
     "verse": 16,
     "content": [
+      "And the ",
       {
-        "text": "And the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
         }
       },
+      "rulers knew not whither I went, or what I did; neither had I as yet told it to the Jews, nor to the priests, nor to the nobles, nor to the ",
       {
-        "text": "rulers knew not whither I went, or what I did; neither had I as yet told it to the Jews, nor to the priests, nor to the nobles, nor to the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
@@ -259,7 +260,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Then Eliashib the high priest rose up with his brethren the priests, and they builded the sheep gate; they sanctified it, and set up the doors of it; even unto the tower of ",
+        "text": "Then Eliashib the high priest rose up with his brethren the priests, and they builded the sheep gate; they sanctified it, and set up the doors of it; even unto the tower of "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "The hundred", "marks": ["i"] }]
@@ -273,8 +276,8 @@
     "chapter": 3,
     "verse": 2,
     "content": [
+      "And next unto him builded the men of Jericho. And next to ",
       {
-        "text": "And next unto him builded the men of Jericho. And next to ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "him", "marks": ["i"] }, "."]
@@ -303,8 +306,8 @@
     "chapter": 3,
     "verse": 5,
     "content": [
+      "And next unto them the Tekoites repaired; but their nobles put not their necks to the work of their ",
       {
-        "text": "And next unto them the Tekoites repaired; but their nobles put not their necks to the work of their ",
         "foot": {
           "type": "trn",
           "content": [
@@ -323,9 +326,8 @@
     "chapter": 3,
     "verse": 6,
     "content": [
+      { "paragraph": true, "text": "And " },
       {
-        "paragraph": true,
-        "text": "And ",
         "foot": {
           "type": "trn",
           "content": [
@@ -355,8 +357,8 @@
     "chapter": 3,
     "verse": 8,
     "content": [
+      "Next unto him repaired Uzziel the son of Harhaiah, goldsmiths. And next unto him repaired Hananiah one of the perfumers, and they ",
       {
-        "text": "Next unto him repaired Uzziel the son of Harhaiah, goldsmiths. And next unto him repaired Hananiah one of the perfumers, and they ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "left", "marks": ["i"] }]
@@ -414,7 +416,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the fountain gate repaired Shallun the son of Col-hozeh, the ruler of the district of Mizpah; he built it, and covered it, and set up the doors thereof, the bolts thereof, and the bars thereof, and the wall of the pool of ",
+        "text": "And the fountain gate repaired Shallun the son of Col-hozeh, the ruler of the district of Mizpah; he built it, and covered it, and set up the doors thereof, the bolts thereof, and the bars thereof, and the wall of the pool of "
+      },
+      {
         "foot": {
           "type": "stu",
           "content": [
@@ -462,8 +466,8 @@
     "chapter": 3,
     "verse": 20,
     "content": [
+      "After him Baruch the son of ",
       {
-        "text": "After him Baruch the son of ",
         "foot": {
           "type": "var",
           "content": [
@@ -489,8 +493,8 @@
     "chapter": 3,
     "verse": 22,
     "content": [
+      "And after him repaired the priests, the men of the ",
       {
-        "text": "And after him repaired the priests, the men of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Circuit", "marks": ["i"] }]
@@ -504,15 +508,15 @@
     "chapter": 3,
     "verse": 23,
     "content": [
+      "After ",
       {
-        "text": "After ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "him", "marks": ["i"] }, "."]
         }
       },
+      "them repaired Benjamin and Hasshub over against their house. After ",
       {
-        "text": "them repaired Benjamin and Hasshub over against their house. After ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "him", "marks": ["i"] }, "."]
@@ -540,28 +544,28 @@
       { "text": "repaired", "marks": ["i"] },
       " over against the turning ",
       { "text": "of the wall", "marks": ["i"] },
+      ", and ",
       {
-        "text": ", and ",
         "foot": {
           "type": "trn",
           "content": [
             "Or, ",
             {
-              "text": "the upper tower . . . from the house of the king",
+              "text": "the upper tower … from the house of the king",
               "marks": ["i"]
             }
           ]
         }
       },
+      "the tower that standeth out from the upper house of the king, which is by the court of the guard. After him ",
       {
-        "text": "the tower that standeth out from the upper house of the king, which is by the court of the guard. After him ",
         "foot": {
           "type": "trn",
           "content": [
             "Or, ",
             { "text": "Pedaiah the son of Parosh", "marks": ["i"] },
             " (",
-            { "text": "now . . . Ophel", "marks": ["i"] },
+            { "text": "now … Ophel", "marks": ["i"] },
             ") repaired ",
             { "text": "unto etc.", "marks": ["i"] }
           ]
@@ -610,8 +614,8 @@
     "chapter": 3,
     "verse": 31,
     "content": [
+      "After him repaired Malchijah one of the goldsmiths unto the house of the Nethinim, and of the merchants, over against the gate of Hammiphkad, and to the ",
       {
-        "text": "After him repaired Malchijah one of the goldsmiths unto the house of the Nethinim, and of the merchants, over against the gate of Hammiphkad, and to the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "upper chamber", "marks": ["i"] }]
@@ -625,8 +629,8 @@
     "chapter": 3,
     "verse": 32,
     "content": [
+      "And between the ",
       {
-        "text": "And between the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "upper chamber", "marks": ["i"] }]
@@ -649,8 +653,8 @@
     "chapter": 4,
     "verse": 2,
     "content": [
+      "And he spake before his brethren and the army of Samaria, and said, What are these feeble Jews doing? ",
       {
-        "text": "And he spake before his brethren and the army of Samaria, and said, What are these feeble Jews doing? ",
         "foot": {
           "type": "trn",
           "content": [
@@ -669,8 +673,8 @@
     "chapter": 4,
     "verse": 3,
     "content": [
+      "Now Tobiah the Ammonite was by him, and he said, Even that which they are building, if a ",
       {
-        "text": "Now Tobiah the Ammonite was by him, and he said, Even that which they are building, if a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "jackal", "marks": ["i"] }]
@@ -712,7 +716,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "But it came to pass that, when Sanballat, and Tobiah, and the Arabians, and the Ammonites, and the Ashdodites, heard that ",
+        "text": "But it came to pass that, when Sanballat, and Tobiah, and the Arabians, and the Ammonites, and the Ashdodites, heard that "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -756,8 +762,8 @@
     "chapter": 4,
     "verse": 12,
     "content": [
+      "And it came to pass that, when the Jews that dwelt by them came, they said unto us ten times ",
       {
-        "text": "And it came to pass that, when the Jews that dwelt by them came, they said unto us ten times ",
         "foot": {
           "type": "trn",
           "content": [
@@ -789,8 +795,8 @@
     "chapter": 4,
     "verse": 14,
     "content": [
+      "And I looked, and rose up, and said unto the nobles, and to the ",
       {
-        "text": "And I looked, and rose up, and said unto the nobles, and to the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
@@ -813,8 +819,8 @@
     "chapter": 4,
     "verse": 16,
     "content": [
+      "And it came to pass from that time forth, that half of my servants wrought in the work, and half of them held the spears, the shields, and the bows, and the coats of mail; and the rulers were behind ",
       {
-        "text": "And it came to pass from that time forth, that half of my servants wrought in the work, and half of them held the spears, the shields, and the bows, and the coats of mail; and the rulers were behind ",
         "foot": {
           "type": "trn",
           "content": [
@@ -846,8 +852,8 @@
     "chapter": 4,
     "verse": 19,
     "content": [
+      "And I said unto the nobles, and to the ",
       {
-        "text": "And I said unto the nobles, and to the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
@@ -882,10 +888,8 @@
     "chapter": 4,
     "verse": 23,
     "content": [
-      {
-        "text": "So neither I, nor my brethren, nor my servants, nor the men of the guard that followed me, none of us put off our clothes, ",
-        "foot": { "type": "stu", "content": "The text is obscure." }
-      },
+      "So neither I, nor my brethren, nor my servants, nor the men of the guard that followed me, none of us put off our clothes, ",
+      { "foot": { "type": "stu", "content": "The text is obscure." } },
       "every one ",
       { "text": "went with", "marks": ["i"] },
       " his weapon ",
@@ -948,8 +952,8 @@
     "chapter": 5,
     "verse": 7,
     "content": [
+      "Then I consulted with myself, and contended with the nobles and the ",
       {
-        "text": "Then I consulted with myself, and contended with the nobles and the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
@@ -963,8 +967,8 @@
     "chapter": 5,
     "verse": 8,
     "content": [
+      "And I said unto them, We after our ability have ",
       {
-        "text": "And I said unto them, We after our ability have ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "bought", "marks": ["i"] }, "."]
@@ -1021,15 +1025,15 @@
     "chapter": 5,
     "verse": 15,
     "content": [
+      "But the former governors that were before me ",
       {
-        "text": "But the former governors that were before me ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "laid burdens upon", "marks": ["i"] }]
         }
       },
+      "were chargeable unto the people, and took of them bread and wine, ",
       {
-        "text": "were chargeable unto the people, and took of them bread and wine, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1040,8 +1044,8 @@
           ]
         }
       },
+      "besides forty shekels of silver; yea, even their servants ",
       {
-        "text": "besides forty shekels of silver; yea, even their servants ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "lorded over", "marks": ["i"] }]
@@ -1055,8 +1059,8 @@
     "chapter": 5,
     "verse": 16,
     "content": [
+      "Yea, also I ",
       {
-        "text": "Yea, also I ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1074,8 +1078,8 @@
     "chapter": 5,
     "verse": 17,
     "content": [
+      "Moreover there were at my table, of the Jews and the ",
       {
-        "text": "Moreover there were at my table, of the Jews and the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
@@ -1138,8 +1142,8 @@
     "chapter": 6,
     "verse": 6,
     "content": [
+      "wherein was written, It is reported among the nations, and ",
       {
-        "text": "wherein was written, It is reported among the nations, and ",
         "foot": {
           "type": "stu",
           "content": [
@@ -1171,8 +1175,8 @@
     "chapter": 6,
     "verse": 9,
     "content": [
+      "For they all would have made us afraid, saying, Their hands shall be weakened from the work, that it be not done. But now, ",
       {
-        "text": "For they all would have made us afraid, saying, Their hands shall be weakened from the work, that it be not done. But now, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1199,8 +1203,8 @@
     "chapter": 6,
     "verse": 11,
     "content": [
+      "And I said, Should such a man as I flee? and who is there, that, being such as I, ",
       {
-        "text": "And I said, Should such a man as I flee? and who is there, that, being such as I, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1252,8 +1256,8 @@
     "content": [
       "And it came to pass, when all our enemies heard ",
       { "text": "thereof", "marks": ["i"] },
+      ", that all the nations that were about us ",
       {
-        "text": ", that all the nations that were about us ",
         "foot": {
           "type": "var",
           "content": [
@@ -1332,7 +1336,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And my God put into my heart to gather together the nobles, and the ",
+        "text": "And my God put into my heart to gather together the nobles, and the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
@@ -1587,7 +1593,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "The Levites: the children of Jeshua, of Kadmiel, of the children of ",
+        "text": "The Levites: the children of Jeshua, of Kadmiel, of the children of "
+      },
+      {
         "foot": {
           "type": "var",
           "content": [
@@ -1656,8 +1664,8 @@
     "chapter": 7,
     "verse": 52,
     "content": [
+      "The children of Besai, the children of Meunim, the children of ",
       {
-        "text": "The children of Besai, the children of Meunim, the children of ",
         "foot": {
           "type": "var",
           "content": [
@@ -1749,8 +1757,8 @@
     "content": [
       "These sought their register ",
       { "text": "among", "marks": ["i"] },
+      " those that were reckoned by genealogy, but it was not found: therefore ",
       {
-        "text": " those that were reckoned by genealogy, but it was not found: therefore ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1824,8 +1832,8 @@
     "content": [
       "And some of the heads of fathers’ ",
       { "text": "houses", "marks": ["i"] },
+      " gave into the treasury of the work twenty thousand darics of gold, and two thousand and two hundred ",
       {
-        "text": " gave into the treasury of the work twenty thousand darics of gold, and two thousand and two hundred ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "maneh", "marks": ["i"] }, "."]
@@ -1875,8 +1883,8 @@
     "chapter": 8,
     "verse": 3,
     "content": [
+      "And he read therein before the broad place that was before the water gate ",
       {
-        "text": "And he read therein before the broad place that was before the water gate ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1896,8 +1904,8 @@
     "chapter": 8,
     "verse": 4,
     "content": [
+      "And Ezra the scribe stood upon a ",
       {
-        "text": "And Ezra the scribe stood upon a ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "tower", "marks": ["i"] }, "."]
@@ -1935,8 +1943,8 @@
     "chapter": 8,
     "verse": 8,
     "content": [
+      "And they read in the book, in the law of God, ",
       {
-        "text": "And they read in the book, in the law of God, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1945,8 +1953,8 @@
           ]
         }
       },
+      "distinctly; and they gave the sense, ",
       {
-        "text": "distinctly; and they gave the sense, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1974,8 +1982,8 @@
     "chapter": 8,
     "verse": 10,
     "content": [
+      "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto him for whom nothing is prepared; for this day is holy unto our Lord: neither be ye grieved; for the joy of Jehovah is your ",
       {
-        "text": "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto him for whom nothing is prepared; for this day is holy unto our Lord: neither be ye grieved; for the joy of Jehovah is your ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "stronghold", "marks": ["i"] }]
@@ -2038,8 +2046,8 @@
     "chapter": 8,
     "verse": 18,
     "content": [
+      "Also day by day, from the first day unto the last day, he read in the book of the law of God. And they kept the feast seven days; and on the eighth day was a ",
       {
-        "text": "Also day by day, from the first day unto the last day, he read in the book of the law of God. And they kept the feast seven days; and on the eighth day was a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "closing festival", "marks": ["i"] }]
@@ -2093,8 +2101,8 @@
         "text": "Then the Levites, Jeshua, and Kadmiel, Bani, Hashabneiah, Sherebiah, Hodiah, Shebaniah, "
       },
       { "text": "and", "marks": ["i"] },
+      " Pethahiah, said, Stand up and bless Jehovah your God from everlasting to everlasting; and ",
       {
-        "text": " Pethahiah, said, Stand up and bless Jehovah your God from everlasting to everlasting; and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "let them bless", "marks": ["i"] }]
@@ -2114,8 +2122,8 @@
     "chapter": 9,
     "verse": 7,
     "content": [
+      "Thou art ",
       {
-        "text": "Thou art ",
         "foot": {
           "type": "trn",
           "content": ["Or, O ", { "text": "Jehovah", "marks": ["i"] }]
@@ -2174,8 +2182,8 @@
     "chapter": 9,
     "verse": 15,
     "content": [
+      "and gavest them bread from heaven for their hunger, and broughtest forth water for them out of the rock for their thirst, and commandedst them that they should go in to possess the land which thou hadst ",
       {
-        "text": "and gavest them bread from heaven for their hunger, and broughtest forth water for them out of the rock for their thirst, and commandedst them that they should go in to possess the land which thou hadst ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2202,8 +2210,8 @@
     "chapter": 9,
     "verse": 17,
     "content": [
+      "and refused to obey, neither were mindful of thy wonders that thou didst among them, but hardened their neck, and in their rebellion appointed a captain to return to their bondage. But thou art ",
       {
-        "text": "and refused to obey, neither were mindful of thy wonders that thou didst among them, but hardened their neck, and in their rebellion appointed a captain to return to their bondage. But thou art ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2249,8 +2257,8 @@
     "chapter": 9,
     "verse": 22,
     "content": [
+      "Moreover thou gavest them kingdoms and peoples, ",
       {
-        "text": "Moreover thou gavest them kingdoms and peoples, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2308,8 +2316,8 @@
     "chapter": 9,
     "verse": 29,
     "content": [
+      "and testifiedst against them, that thou mightest bring them again unto thy law. Yet they dealt proudly, and hearkened not unto thy commandments, but sinned against thine ordinances (which if a man do, he shall live in them), and ",
       {
-        "text": "and testifiedst against them, that thou mightest bring them again unto thy law. Yet they dealt proudly, and hearkened not unto thy commandments, but sinned against thine ordinances (which if a man do, he shall live in them), and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2378,15 +2386,15 @@
     "chapter": 9,
     "verse": 38,
     "content": [
+      "And ",
       {
-        "text": "And ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "because of", "marks": ["i"] }]
         }
       },
+      "yet for all this we make a ",
       {
-        "text": "yet for all this we make a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "faithful", "marks": ["i"] }]
@@ -2394,8 +2402,8 @@
       },
       "sure covenant, and write it; and our princes, our Levites, ",
       { "text": "and", "marks": ["i"] },
+      " our priests, ",
       {
-        "text": " our priests, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2524,8 +2532,8 @@
     "chapter": 10,
     "verse": 19,
     "content": [
+      "Hariph, Anathoth, ",
       {
-        "text": "Hariph, Anathoth, ",
         "foot": {
           "type": "var",
           "content": [
@@ -2651,15 +2659,15 @@
     "chapter": 10,
     "verse": 37,
     "content": [
+      "and that we should bring the first-fruits of our ",
       {
-        "text": "and that we should bring the first-fruits of our ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "coarse meal", "marks": ["i"] }]
         }
       },
+      "dough, and our heave-offerings, and the fruit of all manner of trees, ",
       {
-        "text": "dough, and our heave-offerings, and the fruit of all manner of trees, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the vintage", "marks": ["i"] }]
@@ -2679,8 +2687,8 @@
     "chapter": 10,
     "verse": 39,
     "content": [
+      "For the children of Israel and the children of Levi shall bring the heave-offering of the grain, of ",
       {
-        "text": "For the children of Israel and the children of Levi shall bring the heave-offering of the grain, of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the vintage", "marks": ["i"] }]
@@ -2796,8 +2804,8 @@
     "chapter": 11,
     "verse": 14,
     "content": [
+      "and their brethren, mighty men of valor, a hundred twenty and eight; and their overseer was Zabdiel, ",
       {
-        "text": "and their brethren, mighty men of valor, a hundred twenty and eight; and their overseer was Zabdiel, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2871,8 +2879,8 @@
     "chapter": 11,
     "verse": 23,
     "content": [
+      "For there was a commandment from the king concerning them, and ",
       {
-        "text": "For there was a commandment from the king concerning them, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2897,14 +2905,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And as for the villages, with their fields, some of the children of Judah dwelt in Kiriath-arba and the ",
+        "text": "And as for the villages, with their fields, some of the children of Judah dwelt in Kiriath-arba and the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
         }
       },
+      "towns thereof, and in Dibon and the ",
       {
-        "text": "towns thereof, and in Dibon and the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
@@ -2924,8 +2934,8 @@
     "chapter": 11,
     "verse": 27,
     "content": [
+      "and in Hazar-shual, and in Beer-sheba and the ",
       {
-        "text": "and in Hazar-shual, and in Beer-sheba and the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
@@ -2939,8 +2949,8 @@
     "chapter": 11,
     "verse": 28,
     "content": [
+      "and in Ziklag, and in Meconah and in the ",
       {
-        "text": "and in Ziklag, and in Meconah and in the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
@@ -2960,8 +2970,8 @@
     "chapter": 11,
     "verse": 30,
     "content": [
+      "Zanoah, Adullam, and their villages, Lachish and the fields thereof, Azekah and the ",
       {
-        "text": "Zanoah, Adullam, and their villages, Lachish and the fields thereof, Azekah and the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
@@ -2979,8 +2989,8 @@
       { "text": "dwelt", "marks": ["i"] },
       " from Geba ",
       { "text": "onward", "marks": ["i"] },
+      ", at Michmash and Aija, and at Beth-el and the ",
       {
-        "text": ", at Michmash and Aija, and at Beth-el and the ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
@@ -3012,8 +3022,8 @@
     "chapter": 11,
     "verse": 35,
     "content": [
+      "Lod, and Ono, ",
       {
-        "text": "Lod, and Ono, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3093,8 +3103,8 @@
         "text": "Moreover the Levites: Jeshua, Binnui, Kadmiel, Sherebiah, Judah, "
       },
       { "text": "and", "marks": ["i"] },
+      " Mattaniah, who was over ",
       {
-        "text": " Mattaniah, who was over ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the choirs", "marks": ["i"] }]
@@ -3145,8 +3155,8 @@
     "chapter": 12,
     "verse": 14,
     "content": [
+      "of ",
       {
-        "text": "of ",
         "foot": {
           "type": "var",
           "content": [
@@ -3211,8 +3221,8 @@
         "text": "As for the Levites, in the days of Eliashib, Joiada, and Johanan, and Jaddua, there were recorded the heads of fathers’ "
       },
       { "text": "houses", "marks": ["i"] },
+      "; also the priests, ",
       {
-        "text": "; also the priests, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "to", "marks": ["i"] }]
@@ -3263,8 +3273,8 @@
     "chapter": 12,
     "verse": 28,
     "content": [
+      "And the sons of the singers gathered themselves together, both out of the ",
       {
-        "text": "And the sons of the singers gathered themselves together, both out of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Circuit", "marks": ["i"] }]
@@ -3348,8 +3358,8 @@
     "chapter": 12,
     "verse": 39,
     "content": [
+      "and above the gate of Ephraim, and by the old gate, and by the fish gate, and the tower of Hananel, and the tower of ",
       {
-        "text": "and above the gate of Ephraim, and by the old gate, and by the fish gate, and the tower of Hananel, and the tower of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "The hundred", "marks": ["i"] }]
@@ -3363,8 +3373,8 @@
     "chapter": 12,
     "verse": 40,
     "content": [
+      "So stood the two companies of them that gave thanks in the house of God, and I, and the half of the ",
       {
-        "text": "So stood the two companies of them that gave thanks in the house of God, and I, and the half of the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
@@ -3398,14 +3408,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And on that day were men appointed over the chambers for the treasures, for the heave-offerings, for the first-fruits, and for the tithes, to gather into them, according to the fields of the cities, the portions ",
+        "text": "And on that day were men appointed over the chambers for the treasures, for the heave-offerings, for the first-fruits, and for the tithes, to gather into them, according to the fields of the cities, the portions "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "of the law", "marks": ["i"] }, "."]
         }
       },
+      "appointed by the law for the priests and Levites: for Judah rejoiced for the priests and for the Levites that ",
       {
-        "text": "appointed by the law for the priests and Levites: for Judah rejoiced for the priests and for the Levites that ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "stood", "marks": ["i"] }, "."]
@@ -3429,8 +3441,8 @@
     "chapter": 12,
     "verse": 46,
     "content": [
+      "For in the days of David and Asaph of old ",
       {
-        "text": "For in the days of David and Asaph of old ",
         "foot": {
           "type": "var",
           "content": [
@@ -3483,7 +3495,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Now before this, Eliashib the priest, who was appointed over the ",
+        "text": "Now before this, Eliashib the priest, who was appointed over the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "chamber", "marks": ["i"] }, "."]
@@ -3540,8 +3554,8 @@
     "chapter": 13,
     "verse": 11,
     "content": [
+      "Then contended I with the ",
       {
-        "text": "Then contended I with the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
@@ -3575,7 +3589,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "In those days saw I in Judah some men treading winepresses on the sabbath, and bringing in ",
+        "text": "In those days saw I in Judah some men treading winepresses on the sabbath, and bringing in "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "heaps of grain", "marks": ["i"] }]
@@ -3626,8 +3642,8 @@
     "chapter": 13,
     "verse": 21,
     "content": [
+      "Then I testified against them, and said unto them, Why lodge ye ",
       {
-        "text": "Then I testified against them, and said unto them, Why lodge ye ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "before", "marks": ["i"] }, "."]
@@ -3647,9 +3663,8 @@
     "chapter": 13,
     "verse": 23,
     "content": [
+      { "paragraph": true, "text": "In those days also saw I the Jews that " },
       {
-        "paragraph": true,
-        "text": "In those days also saw I the Jews that ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3675,8 +3690,8 @@
     "chapter": 13,
     "verse": 25,
     "content": [
+      "And I contended with them, and ",
       {
-        "text": "And I contended with them, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "reviled", "marks": ["i"] }]
@@ -3713,8 +3728,8 @@
     "chapter": 13,
     "verse": 29,
     "content": [
+      "Remember them, O my God, ",
       {
-        "text": "Remember them, O my God, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -3731,9 +3746,8 @@
     "chapter": 13,
     "verse": 30,
     "content": [
+      { "paragraph": true, "text": "Thus cleansed I them from " },
       {
-        "paragraph": true,
-        "text": "Thus cleansed I them from ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "everything foreign", "marks": ["i"] }]

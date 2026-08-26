@@ -31,7 +31,7 @@
 import Content, { ContentHeading, ContentSubtitle } from "../../types/Content";
 import { buildFootnoteContent } from "./footnotes";
 import { attachFootToPieces, buildRunNodes, collapseContentNodes, InlineTextPiece } from "./inlineMarks";
-import { splitScriptRuns } from "./splitScriptRuns";
+import { splitNonLatinScriptRuns } from "./splitScriptRuns";
 import { Token } from "./tokenize";
 
 /**
@@ -43,8 +43,8 @@ import { Token } from "./tokenize";
  * names — see {@link buildHeadingSpanContent}'s own doc comment for why
  * that stripping happens unconditionally, not just for these two). This is
  * WEB's own real spelling, typo and all ("KAPF", not the more standard
- * "KAPH") — faithful transcription of the source, the same principle Q2/Q7
- * already established, not a corrected list. A membership check against
+ * "KAPH") — a faithful transcription of the source, not a corrected list.
+ * A membership check against
  * this exact set — "does this heading's text reduce to nothing but a
  * canonical letter name" — is how `\d` classification tells an acrostic
  * marker apart from an ordinary superscription; both use the identical
@@ -76,10 +76,10 @@ const ACROSTIC_LETTER_NAMES = new Set([
 ]);
 
 /**
- * `true` when `text` (already whitespace-normalized) is exactly one of
- * Psalm 119's own 22 real acrostic letter names — see
- * {@link ACROSTIC_LETTER_NAMES}'s own doc comment. Exported on its own,
- * separate from the token-walking machinery below, so `usfm/verify.ts` can
+ * `true` when `text` (already whitespace-normalized) is one of Psalm 119's
+ * own acrostic letter names — see {@link ACROSTIC_LETTER_NAMES}'s own doc
+ * comment. Exported on its own, separate from the token-walking machinery
+ * below, so `usfm/verify.ts` can
  * import this one static classification rule directly — the same
  * shared-reference-table relationship `resolveBookId`/`classifyFootnote`
  * already have with the verifier: never a parsing/segmentation algorithm
@@ -106,9 +106,9 @@ export interface HeadingSpanResult {
  * forked), stopping at the first token that is none of those.
  *
  * **`\w`/`\+w`'s own `strong` attribute is discarded unconditionally, not
- * merely for the two real cases that need it.** Confirmed directly: zero
- * of the 138 in-scope `\d` lines carry a `\w` tag except two of Psalm 119's
- * own acrostic markers (`\d \w HE|strong="H3588"\w*`, `\d SIN \w
+ * merely for the two real cases that need it.** No in-scope `\d` line
+ * carries a `\w` tag except two of Psalm 119's own acrostic markers (`\d \w
+ * HE|strong="H3588"\w*`, and a `\w` sitting mid-string in `\d SIN \w
  * AND|strong="H4941"\w* SHIN`) — WEB's own Strong's tagger ran over the
  * *whole* file without knowing a `\d` line is a heading rather than verse
  * prose, and both "HE" and "AND" happen to also be ordinary English
@@ -167,18 +167,18 @@ function plainTextOf(pieces: readonly InlineTextPiece[]): string {
  * Classifies and builds one `\d` span's own final content: "does this
  * heading's text reduce to nothing but a canonical letter name," checked
  * against the piece's own plain text, not its position in the book (both
- * the 116 ordinary superscriptions and the 22 acrostic markers use the
- * identical `\d` tag).
+ * the ordinary superscriptions and the acrostic markers use the identical
+ * `\d` tag).
  *
- * An acrostic marker never carries an embedded footnote in this corpus
- * (checked directly — none of the 22 real instances do), so classification
- * only ever needs the plain text; an ordinary superscription's own
- * `pieces` are run through the same `buildRunNodes`/`collapseContentNodes`
- * pipeline `usfm/footnotes.ts` already uses for a footnote's own body,
- * matching the same footnote-in-run shape already established elsewhere in
- * this pipeline — so the 3 real footnote-bearing superscriptions (Psalm
- * 46:0/90:0/145:0, Q14) land inside the subtitle's own content the same
- * way a footnote lands inside any other run.
+ * An acrostic marker never carries an embedded footnote in this corpus, so
+ * classification only ever needs the plain text; an ordinary
+ * superscription's own `pieces` are run through the same
+ * `buildRunNodes`/`collapseContentNodes` pipeline `usfm/footnotes.ts`
+ * already uses for a footnote's own body, matching the same
+ * footnote-in-run shape already established elsewhere in this pipeline —
+ * so a footnote-bearing superscription (e.g. Psalm 46:0) lands inside the
+ * subtitle's own content the same way a footnote lands inside any other
+ * run.
  */
 export function buildSuperscriptionContent(
   pieces: readonly InlineTextPiece[],
@@ -197,38 +197,41 @@ export function buildSuperscriptionContent(
  * Builds one `\qc` span's own final content — Psalm 119's real acrostic
  * letter heading, on a different USFM marker than `\d`, carrying the real
  * Hebrew glyph inline rather than `\d`'s bare transliteration (`\qc א
- * ALEPH.`, confirmed directly against all 22 real in-scope instances,
- * `20-PSAeng-asv.usfm`). Unlike `\d`, which shares its tag with 116
+ * ALEPH.`, `20-PSAeng-asv.usfm`). Unlike `\d`, which shares its tag with
  * ordinary Psalm superscriptions and needs {@link isAcrosticLetterName} to
- * tell the two apart, every one of `\qc`'s own 22 real instances is this
- * exact construct and nothing else — confirmed corpus-wide — so this
- * builder needs no content-based classification at all; it always
- * produces the acrostic shape.
+ * tell the two apart, every `\qc` instance in this corpus is this exact
+ * construct and nothing else, so this builder needs no content-based
+ * classification at all; it always produces the acrostic shape.
  *
- * `splitScriptRuns` (`usfm/splitScriptRuns.ts`, already proven for
- * WEB's own bare-Greek footnote content) separates the leading Hebrew
- * letter from its trailing transliterated name, matching the already-
- * established `{heading: [{text, script: "H"}, " <NAME>"], type:
- * "acrostic"}` shape for a source that really prints the glyph. This
- * source's own trailing period (`"
- * ALEPH."`, not `" ALEPH"`) is kept — real source punctuation, not chrome
- * (confirmed against all 22 real fixtures, every one ending in a literal
- * period).
+ * {@link splitNonLatinScriptRuns} (`usfm/splitScriptRuns.ts`) separates the
+ * leading glyph from its trailing transliterated name, matching the
+ * established `{heading: [{text, script: "H"}, " <NAME>"], type: "acrostic"}`
+ * shape for a source that really prints the glyph. This source's own
+ * trailing period (`" ALEPH."`, not `" ALEPH"`) is kept — real source
+ * punctuation, not chrome.
+ *
+ * Scans for both Hebrew and Greek, not Hebrew alone — the mirror of the
+ * asymmetry {@link piecesForPlainText} (`usfm/footnotes.ts`) closed. No real
+ * Greek acrostic exists anywhere in this corpus (acrostic Psalms are a
+ * Hebrew construct), but scanning Hebrew only here was the same shape of gap
+ * that let a different call site ship an untagged word, so it closes here
+ * too rather than waiting for a future import to prove it out.
  */
 export function buildAcrosticGlyphHeading(pieces: readonly InlineTextPiece[]): ContentHeading {
   const text = plainTextOf(pieces);
-  return { heading: splitScriptRuns(text, "H"), type: "acrostic" };
+  return { heading: splitNonLatinScriptRuns(text), type: "acrostic" };
 }
 
 /**
  * Builds one `\sp` speaker label's own final content — always a plain
- * `heading`, per this project's own decision log (guide §7). Every one of
- * the 33 real in-scope instances is a bare name with no embedded footnote
- * or Strong's tag (confirmed directly), so this never needs anything
- * beyond the same run-building pipeline {@link buildSuperscriptionContent}
- * already uses for its own subtitle case — reused here rather than
- * forked, even though this corpus's own real data never exercises the
- * footnote path for `\sp`.
+ * `heading`, never inline italic text: the source marks a speaker label
+ * with the same construct it uses for section headings, and encoding it as
+ * structure is stronger than folding it into the verse text as a styled
+ * run. Every in-scope instance is a bare name with no embedded footnote or
+ * Strong's tag, so this never needs anything beyond the same run-building
+ * pipeline {@link buildSuperscriptionContent} already uses for its own
+ * subtitle case — reused here rather than forked, even though this
+ * corpus's own real data never exercises the footnote path for `\sp`.
  */
 export function buildSpeakerHeading(pieces: readonly InlineTextPiece[]): ContentHeading {
   const nodes = buildRunNodes(pieces);
@@ -238,10 +241,10 @@ export function buildSpeakerHeading(pieces: readonly InlineTextPiece[]): Content
 
 /**
  * The five Psalter book divisions' own spelled-out ordinal words, in the
- * order WEB's own five `\ms1` markers occur — this is not derived from the
- * source's own raw "BOOK 1".."BOOK 5" text (Q3: matching the repo's own
- * already-shipped convention deliberately departs from WEB's own literal
- * wording), so a boundary's own *position* in the book (first, second,
+ * order WEB's own five `\ms1` markers occur — not derived from the
+ * source's own raw "BOOK 1".."BOOK 5" text, since this deliberately departs
+ * from WEB's own literal wording to match this repo's already-shipped
+ * convention, so a boundary's own *position* in the book (first, second,
  * ...), not any digit parsed out of the source, is what selects a word
  * here.
  */
@@ -250,8 +253,8 @@ const ORDINAL_WORDS = ["One", "Two", "Three", "Four", "Five"];
 /**
  * Builds one Psalter book-division heading — `[{text: "Book <Word>", marks:
  * ["sc"]}, " (Psalms <start>–<end>)"]`, matching the already-established
- * output shape exactly (Q3). `start`/`end` are plain numbers the caller
- * must compute from its own already-segmented verse data
+ * output shape exactly. `start`/`end` are plain numbers the caller must
+ * compute from its own already-segmented verse data
  * (`usfm/segmentVerses.ts`'s own post-pass, once every `\ms1` boundary's
  * own chapter is known and the book's own highest chapter is known too) —
  * never hand-typed, and never recomputed here, since this function has no
@@ -261,8 +264,8 @@ const ORDINAL_WORDS = ["One", "Two", "Three", "Four", "Five"];
  *   second, and so on — selects {@link ORDINAL_WORDS}.
  * @throws When `index` names a boundary beyond the five WEB's own Psalter
  *   ever produces — a genuinely new construct a future source might need,
- *   not something to guess a sixth word for (guide §3: an unrepresented
- *   case is a question for a human, not a silent extrapolation).
+ *   not something to guess a sixth word for. An unrepresented case belongs
+ *   to a human decision, not a silent extrapolation.
  */
 export function buildBookDivisionHeading(index: number, start: number, end: number): ContentHeading {
   const word = ORDINAL_WORDS[index];

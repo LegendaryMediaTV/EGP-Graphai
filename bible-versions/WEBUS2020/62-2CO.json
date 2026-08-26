@@ -526,8 +526,8 @@
           "type": "var",
           "content": [
             "NU reads ",
-            { "text": "with ", "marks": ["i"] },
-            "instead of ",
+            { "text": "with", "marks": ["i"] },
+            " instead of ",
             { "text": "through", "marks": ["i"] },
             "."
           ]

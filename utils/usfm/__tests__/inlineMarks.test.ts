@@ -3,15 +3,15 @@ import { buildRunNodes, collapseContentNodes, mergeConnectors, moveTrailingPunct
 
 /**
  * `mergeConnectors` is tested directly against synthetic `ContentObject[]`
- * input: the rule it implements (guide §6's "Node granularity around a
- * Strong's tag") is a property of the schema-level nodes themselves,
- * independent of how they were produced, so these tests don't need a real
- * USFM fixture to be meaningful — some cases below (the mark-mismatch
- * split, the textless-sibling stop) never occur in the WEBUS2020 corpus,
- * but are general rules guide §6 documents from other sources, and this
- * module must hold to them regardless. `buildRunNodes` is then tested
- * against pieces shaped the way `segmentVerses.ts` actually produces them,
- * closing the loop.
+ * input: the rule it implements — how an untagged connector attaches to a
+ * `strong`- or `foot`-carrying neighbor — is a property of the
+ * schema-level nodes themselves, independent of how they were produced, so
+ * these tests don't need a real USFM fixture to be meaningful. Some cases
+ * below (the mark-mismatch split, the textless-sibling stop) never occur
+ * in the WEBUS2020 corpus, but are general rules established from other
+ * sources (KJV1769, NASB1995) that this module must hold to regardless.
+ * `buildRunNodes` is then tested against pieces shaped the way
+ * `segmentVerses.ts` actually produces them, closing the loop.
  */
 
 describe("mergeConnectors — forward-default, backward-fallback, matching KJV1769 Genesis 1:1 exactly", () => {
@@ -109,7 +109,7 @@ describe("mergeConnectors — forward-default, backward-fallback, matching KJV17
     ]);
   });
 
-  it("should leave a foot-only node's own break flag alone (this module's own real call sites never hand it one — break is attached by usfm/blockStructure.ts strictly after buildRunNodes/mergeConnectors have already produced their final nodes, and InlineTextPiece itself has no break field to carry one through pieceToNode in the first place); confirmed empirically too — auditNodes.ts's own Check 1 finds zero \"break present, foot/strong absent\" targets anywhere in the real WEBUS2020 corpus, every finding foot-carrying, none break-only — so this stays a locking test: break needs no entry in isMergeTarget", () => {
+  it("should leave a foot-only node's own break flag alone (this module's own real call sites never hand it one — break is attached by usfm/blockStructure.ts strictly after buildRunNodes/mergeConnectors have already produced their final nodes, and InlineTextPiece itself has no break field to carry one through pieceToNode in the first place); confirmed empirically too — auditNodes.ts's own unmerged-connector check finds zero \"break present, foot/strong absent\" targets anywhere in the real WEBUS2020 corpus, every finding foot-carrying, none break-only — so this stays a locking test: break needs no entry in isMergeTarget", () => {
     const result = mergeConnectors([{ text: "In the beginning, " }, { text: "God", break: true }]);
     expect(result).toEqual([{ text: "In the beginning, " }, { text: "God", break: true }]);
   });

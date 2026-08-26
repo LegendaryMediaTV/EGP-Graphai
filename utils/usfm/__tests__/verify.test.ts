@@ -15,7 +15,7 @@ import {
   countInlineMarkersIn,
   countMarkersIn,
   countNestedBkPairsIn,
-  countPhase9ChromeMarkersIn,
+  countChromeMarkersIn,
   countScriptNodes,
   countStrongAttributeNodes,
   countTableMarkersIn,
@@ -502,17 +502,17 @@ describe("countNestedBkPairsIn — \\+bk/\\+bk*, an independent regex count of t
   });
 });
 
-describe("countPhase9ChromeMarkersIn — \\pc/\\cp/\\is1, an independent regex count sharing no code with tokenize.ts/segmentVerses.ts", () => {
+describe("countChromeMarkersIn — \\pc/\\cp/\\is1, an independent regex count sharing no code with tokenize.ts/segmentVerses.ts", () => {
   it("should count 2 Maccabees' own real \\pc divider", () => {
-    expect(countPhase9ChromeMarkersIn(readFixture("2-maccabees-1-16-19-pc.usfm"))).toEqual({ pc: 1, cp: 0, is1: 0 });
+    expect(countChromeMarkersIn(readFixture("2-maccabees-1-16-19-pc.usfm"))).toEqual({ pc: 1, cp: 0, is1: 0 });
   });
 
   it("should count Psalm 151's own real \\cp chapter-number override", () => {
-    expect(countPhase9ChromeMarkersIn(readFixture("psalm-151-opening.usfm"))).toEqual({ pc: 0, cp: 1, is1: 0 });
+    expect(countChromeMarkersIn(readFixture("psalm-151-opening.usfm"))).toEqual({ pc: 0, cp: 1, is1: 0 });
   });
 
   it("should count Esther-Greek's own real \\is1, without matching \\ip (a different marker name entirely, not a prefix match)", () => {
-    expect(countPhase9ChromeMarkersIn(readFixture("esther-greek-opening.usfm"))).toEqual({ pc: 0, cp: 0, is1: 1 });
+    expect(countChromeMarkersIn(readFixture("esther-greek-opening.usfm"))).toEqual({ pc: 0, cp: 0, is1: 1 });
   });
 });
 
@@ -578,7 +578,7 @@ describe("Marker-inventory buckets — \\s1/\\ip/\\fl sit in content-handled, \\
     }
   });
 
-  it("should classify \\pc and \\is1 as chrome, no longer confirmed-zero — \\cp/\\ide were already chrome before this phase and stay so", () => {
+  it("should classify \\pc and \\is1 as chrome, no longer confirmed-zero — \\cp/\\ide were already chrome and stay so", () => {
     for (const name of ["pc", "is1"]) {
       expect(CHROME_MARKER_NAMES.has(name)).toBe(true);
       expect(CONFIRMED_ZERO_MARKER_NAMES.has(name)).toBe(false);
@@ -611,9 +611,8 @@ describe("Marker-inventory buckets: \\qc (ASV1901's real Psalm 119 acrostic head
 
 /**
  * Real corpus reconnaissance for ASV1901/MSB2025, re-derived directly
- * against the real source files rather than assumed
- * (`imports/guide.md`'s own standing discipline). Every count below is an
- * independent regex/`fs` check, sharing no code with
+ * against the real source files rather than assumed. Every count below is
+ * an independent regex/`fs` check, sharing no code with
  * `tokenize.ts`/`segmentVerses.ts` — the same discipline
  * {@link countTableMarkersIn}'s own describe block above establishes for
  * WEBUS2020.
@@ -738,10 +737,10 @@ describe("ASV1901/MSB2025 real-corpus reconnaissance", () => {
 
   /**
    * Bare "authorities insert"/"authorities add" occur nowhere in WEB's real
-   * footnote bodies, but bare "authorities omit" already occurs 3 times, in
-   * WEB's own deuterocanon corpus (Sirach 7:26, 1 Esdras 9:48, Manasses
-   * 1:10) — see `footnoteTypeRules.test.ts`'s companion test for their
-   * current `stu` classification. ASV1901's own real "omit" wording is
+   * footnote bodies, but bare "authorities omit" already occurs 3 times in
+   * WEB's own deuterocanon corpus (Sirach 7:26 is one) — see
+   * `footnoteTypeRules.test.ts`'s companion test for their current `stu`
+   * classification. ASV1901's own real "omit" wording is
    * reverse-ordered ("omitted by the best ancient authorities," verb before
    * the noun), so it doesn't collide with WEB's noun-first "authorities
    * omit" phrase at all.
@@ -822,7 +821,7 @@ describeIfAvailable(
    * is unchanged, so a body's own witness-vocabulary match is the only
    * thing that could possibly move.
    */
-  it("should confirm zero real WEBUS2020 footnote bodies disagree between the pre-Phase-3 witness-vocabulary check (reconstructed) and classifyFootnote's own current, real var classification — the real before/after comparison, not an inference", () => {
+  it("should confirm zero real WEBUS2020 footnote bodies disagree between the witness-vocabulary check as it stood before WITNESS_PHRASES's newest additions (reconstructed) and classifyFootnote's own current, real var classification — the real before/after comparison, not an inference", () => {
     const phrasesBeforePhase3 = [
       "manuscript",
       "Masoretic",
@@ -870,7 +869,8 @@ describeIfAvailable(
     // a reading verb — see `footnoteTypeRules.ts`'s own `STRONG_WITNESS_NOUN`),
     // which catches real constructs no fixed phrase list could ("omitted by
     // the best authorities" and its variants). The 138 bodies below are
-    // exactly that pre-existing gap, not a Phase 3 regression.
+    // exactly that pre-existing gap, not a regression from WITNESS_PHRASES's
+    // newest additions.
     expect(disagreements).toBe(138);
   });
   },
@@ -1086,16 +1086,14 @@ describe("Follow-up — Strong's tagging suppressed from the real, shipped WEBUS
 
 /**
  * A before/after comparison of the full xrf/var/trn/stu distribution
- * across WEBUS2020's own real 1,854 footnote bodies — stronger evidence
- * than a per-body "did the `var` verdict flip" check alone.
- * `WITNESS_PHRASES` is the only thing that changed inside
- * {@link classifyFootnote}, so xrf and trn/stu both reuse its current
- * verdict directly, the same "reconstruct only the axis under test" shape
- * {@link classifyBeforePhase7} below uses. (An earlier version of this
- * block hand-reconstructed the trn axis instead and drifted from the real
- * `footnoteTypeRules.ts`: a "Behold" gloss and an Aleph-Tav pattern that
- * were never actually shipped, so the copy over-matched for reasons
- * unrelated to `WITNESS_PHRASES`.)
+ * across WEBUS2020's own real footnote bodies — stronger evidence than a
+ * per-body "did the `var` verdict flip" check alone. `WITNESS_PHRASES` is
+ * the only thing that changed inside {@link classifyFootnote}, so xrf and
+ * trn/stu both reuse its current verdict directly, the same "reconstruct
+ * only the axis under test" shape {@link classifyBeforePhase7} below
+ * uses — hand-reconstructing every axis instead risks drifting from the
+ * real `footnoteTypeRules.ts` grammar for reasons unrelated to the change
+ * under test.
  */
 describeIfAvailable(
   WEBUS2020_SOURCE_AVAILABLE,
@@ -1126,7 +1124,7 @@ describeIfAvailable(
     return real === "trn" ? "trn" : "stu";
   }
 
-  it("should produce a xrf/var/trn/stu distribution before and after WITNESS_PHRASES's five newest additions that disagrees only where the pre-Phase-3 witness-vocabulary check (reconstructed) already measured a 138-body gap against the real, current grammar-based check — the identical gap the dedicated before/after test above measures, not a new one", () => {
+  it("should produce a xrf/var/trn/stu distribution before and after WITNESS_PHRASES's five newest additions that disagrees only where the reconstructed witness-vocabulary check, as it stood before those additions, already measured a 138-body gap against the real, current grammar-based check — the identical gap the dedicated before/after test above measures, not a new one", () => {
     const before = { xrf: 0, var: 0, trn: 0, stu: 0 };
     const after = { xrf: 0, var: 0, trn: 0, stu: 0 };
     let bodyCount = 0;
@@ -1162,12 +1160,11 @@ describeIfAvailable(
  * all.
  *
  * Two real, distinct WEBUS2020 verses match the bare-infinitive "also
- * mean" shape (Psalm 138:1 and Matthew 2:1's "the word for 'wise men'
- * (magoi) can also mean teachers, scientists..."), and 1 Peter 2:6's
- * Behold-gloss note names both original-language words in one note
- * ("Behold", from "הִנֵּה" or "ἰδοὺ") — the pattern's own anchoring on the
- * literal gloss-list construct, not a Hebrew-only or Greek-only assumption,
- * already covers it.
+ * mean" shape (Psalm 138:1 is one), and 1 Peter 2:6's Behold-gloss note
+ * names both original-language words in one note ("Behold", from "הִנֵּה"
+ * or "ἰδοὺ") — the pattern's own anchoring on the literal gloss-list
+ * construct, not a Hebrew-only or Greek-only assumption, already covers
+ * it.
  */
 describeIfAvailable(
   WEBUS2020_SOURCE_AVAILABLE,
@@ -1357,11 +1354,12 @@ describe("The \\balso means?\\b broadening's own real, cross-corpus disagreement
 
     expect(beholdCollisions).toBe(0);
     expect(mayBeAlsoCollisions).toBe(0);
-    // The original report counted 27 bodies across seven other versions
-    // this checkout doesn't carry — only ASV1901, BYZ2018, CLV1880,
-    // KJV1769, and YLT1898 ship here, none colliding with the bare-
-    // infinitive broadening. Zero collisions reflects what this repo
-    // actually ships, not a reversal of the original finding.
+    // Measured against every version this project has ever shipped, the
+    // bare-infinitive broadening collides with 27 bodies across seven
+    // other versions this checkout doesn't carry — only ASV1901, BYZ2018,
+    // CLV1880, KJV1769, and YLT1898 ship here, none of which collide with
+    // it. Zero collisions reflects what this repo actually ships, not a
+    // change in that broader measurement.
     expect(alsoMeanDisagreements).toEqual([]);
   });
 });
@@ -1535,26 +1533,26 @@ describe("The rendered/translated pattern's own real, cross-corpus disagreement 
       }
     }
 
-    // Same caveat as the \balso means?\b report above: the original
-    // 82-body, four-version count was measured against versions this
-    // checkout doesn't ship (only ASV1901, BYZ2018, CLV1880, KJV1769, and
-    // YLT1898 are here). Zero collisions reflects what's actually shipped,
-    // not a reversal of the original finding.
+    // Same caveat as the \balso means?\b comparison above: an 82-body,
+    // four-version count was measured against versions this checkout
+    // doesn't ship (only ASV1901, BYZ2018, CLV1880, KJV1769, and YLT1898
+    // are here). Zero collisions reflects what's actually shipped, not a
+    // change in that broader measurement.
     expect(disagreements).toEqual([]);
   });
 });
 
 /**
- * A real `trn`-recovery addition (objective 2026-08-22-001's own Finding 5,
- * reopening a call objective 002 originally left as an accepted `stu`
- * residual): a comma-punctuated `Hebrew,`/`Greek,`/`Aramaic,` opener. Can
- * only ever move a body from `stu` to `trn`, the same reasoning every
- * earlier `trn`-axis addition in this file already relies on:
- * `classifyFootnote`'s own `xrf` → `var` → `trn` → `stu` order means a body
- * already claimed by an earlier check never reaches this pattern at all.
+ * A real `trn`-recovery addition: a comma-punctuated
+ * `Hebrew,`/`Greek,`/`Aramaic,` opener, added after an earlier pass left
+ * it as an accepted `stu` residual. Can only ever move a body from `stu`
+ * to `trn`, the same reasoning every earlier `trn`-axis addition in this
+ * file already relies on: `classifyFootnote`'s own `xrf` → `var` → `trn`
+ * → `stu` order means a body already claimed by an earlier check never
+ * reaches this pattern at all.
  *
- * The Aleph-Tav "not as a word, but as a grammatical marker" construct this
- * objective also proposed was never actually shipped into
+ * A separate Aleph-Tav "not as a word, but as a grammatical marker"
+ * construct was also considered but never actually shipped into
  * `footnoteTypeRules.ts` (confirmed directly — no such pattern exists
  * there), so Exodus 20:1 and Zechariah 12:10 both stay `stu`, correctly,
  * below.
@@ -1572,7 +1570,7 @@ describeIfAvailable(
   // does this body classify `trn` now, specifically because a language
   // opener is followed by a comma rather than a colon or space — sidesteps
   // all three instead of chasing them by hand. (The Aleph-Tav "grammatical
-  // marker" construct this Phase's name also references was never actually
+  // marker" construct proposed alongside this addition was never actually
   // shipped, so it contributes zero changes here.)
   const COMMA_LANGUAGE_OPENER = /^\s*["'“(]?\s*(?:Hebrew|Greek|Aramaic),/i;
   const COLON_OR_SPACE_LANGUAGE_OPENER = /^\s*["'“(]?\s*(?:Hebrew|Greek|Aramaic)[:\s]/i;
@@ -1583,7 +1581,7 @@ describeIfAvailable(
     return onlyMatchesViaComma ? "stu" : "trn";
   }
 
-  it("should confirm the two additions change exactly 4 real classifications across the whole 82-file in-scope corpus — every one stu -> trn, none of any other shape (Exodus 17:15, Matthew 16:18's comma openers; Exodus 20:1, Zechariah 12:10's Aleph-Tav note)", () => {
+  it("should confirm the comma-opener addition changes exactly 2 real classifications across the whole 82-file in-scope corpus — every one stu -> trn, none of any other shape (Exodus 17:15 and 1 Corinthians 10:4's comma openers; the Aleph-Tav construct was never shipped, so it changes nothing)", () => {
     let bodyCount = 0;
     let totalChanges = 0;
     const nonStuToTrnChanges: string[] = [];

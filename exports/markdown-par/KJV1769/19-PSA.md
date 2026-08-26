@@ -277,7 +277,7 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 
 ## Chapter 11
 
-> _To the chief Musician, _A Psalm_ of David._
+> _To the chief Musician, A Psalm of David._
 
 <sup>1</sup> In the LORD put I my trust:<br>How say ye to my soul, flee _as_ a bird to your mountain?<br>
 <sup>2</sup> For, lo, the wicked bend _their_ bow, they make ready their arrow upon the string,<br>That they may privily<sup>a</sup> shoot at the upright in heart.<br>
@@ -324,7 +324,7 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 
 ## Chapter 14
 
-> _To the chief Musician, _A Psalm_ of David._
+> _To the chief Musician, A Psalm of David._
 
 <sup>1</sup> The fool hath said in his heart, _there is_ no God.<br>They are corrupt, they have done abominable works,<br>_There is_ none that doeth good.<br>
 <sup>2</sup> The LORD looked down from heaven upon the children of men,<br>To see if there were any that did understand, _And_ seek God.<br>
@@ -403,7 +403,7 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 
 ## Chapter 18
 
-> _To the chief Musician, _A Psalm_ of David, the servant of the LORD, who spake unto the LORD the words of this song in the day _that_ the LORD delivered him from the hand of all his enemies, and from the hand of Saul: And he said,_
+> _To the chief Musician, A Psalm of David, the servant of the LORD, who spake unto the LORD the words of this song in the day that the LORD delivered him from the hand of all his enemies, and from the hand of Saul: And he said,_
 
 <sup>1</sup> I will love thee, O LORD, my strength.<br>
 <sup>2</sup> The LORD _is_ my rock, and my fortress, and my deliverer;<br>My God, my strength,<sup>a</sup> in whom I will trust;<br>My buckler, and the horn of my salvation, _and_ my high tower.<br>
@@ -632,7 +632,7 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 
 ## Chapter 25
 
-> __A Psalm_ of David._
+> _A Psalm of David._
 
 #### א Aleph
 
@@ -727,7 +727,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 26
 
-> __A Psalm_ of David._
+> _A Psalm of David._
 
 <sup>1</sup> Judge me, O LORD; for I have walked in mine integrity:<br>I have trusted also in the LORD; _therefore_ I shall not slide.<br>
 <sup>2</sup> Examine me, O LORD, and prove me;<br>Try my reins and my heart.<br>
@@ -748,7 +748,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 27
 
-> __A Psalm_ of David._
+> _A Psalm of David._
 
 <sup>1</sup> The LORD _is_ my light and my salvation; whom shall I fear?<br>The LORD _is_ the strength of my life; of whom shall I be afraid?<br>
 <sup>2</sup> When the wicked, _even_ mine enemies and my foes, came upon me<sup>a</sup> to eat up my flesh,<br>They stumbled and fell.<br>
@@ -775,7 +775,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 28
 
-> __A Psalm_ of David._
+> _A Psalm of David._
 
 <sup>1</sup> Unto thee will I cry, O LORD my rock; be not silent to me:<sup>a</sup><br>Lest, _if_ thou be silent to me, I become like them that go down into the pit.<br>
 <sup>2</sup> Hear the voice of my supplications, when I cry unto thee,<br>When I lift up my hands toward thy holy oracle.<sup>b</sup><br>
@@ -821,7 +821,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 30
 
-> _A Psalm _and_ Song _at_ the dedication of the house of David._
+> _A Psalm and Song at the dedication of the house of David._
 
 <sup>1</sup> I will extol thee, O LORD; for thou hast lifted me up,<br>And hast not made my foes to rejoice over me.<br>
 <sup>2</sup> O LORD my God,<br>I cried unto thee, and thou hast healed me.<br>
@@ -880,7 +880,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 32
 
-> __A Psalm_ of David, Maschil._
+> _A Psalm of David, Maschil._
 
 <sup>1</sup> Blessed _is he whose_ transgression _is_ forgiven,<br>_Whose_ sin _is_ covered.<br>
 <sup>2</sup> Blessed _is_ the man unto whom the LORD imputeth not iniquity,<br>And in whose spirit _there is_ no guile.<br>
@@ -928,7 +928,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 34
 
-> __A Psalm_ of David, when he changed his behaviour before Abimelech; who drove him away, and he departed._
+> _A Psalm of David, when he changed his behaviour before Abimelech; who drove him away, and he departed._
 
 #### א Aleph
 
@@ -1022,7 +1022,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 35
 
-> __A Psalm_ of David._
+> _A Psalm of David._
 
 <sup>1</sup> Plead _my cause_, O LORD, with them that strive with me:<br>Fight against them that fight against me.<br>
 <sup>2</sup> Take hold of shield and buckler,<br>And stand up for mine help.<br>
@@ -1069,7 +1069,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 36
 
-> _To the chief Musician, _A Psalm_ of David the servant of the LORD._
+> _To the chief Musician, A Psalm of David the servant of the LORD._
 
 <sup>1</sup> The transgression of the wicked saith within my heart,<br>_That there is_ no fear of God before his eyes.<br>
 <sup>2</sup> For he flattereth himself in his own eyes, until his iniquity be found to be hateful.<sup>a</sup><br>
@@ -1093,7 +1093,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 37
 
-> __A Psalm_ of David._
+> _A Psalm of David._
 
 #### א Aleph
 
@@ -1251,7 +1251,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 39
 
-> _To the chief Musician, _even_ to Jeduthun, A Psalm of David._
+> _To the chief Musician, even to Jeduthun, A Psalm of David._
 
 <sup>1</sup> I said, I will take heed to my ways,<br>That I sin not with my tongue:<br>I will keep my mouth with a bridle,<sup>a</sup><br>While the wicked is before me.<br>
 <sup>2</sup> I was dumb with silence, I held my peace, _even_ from good;<br>And my sorrow was stirred.<sup>b</sup><br>
@@ -1463,7 +1463,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 48
 
-> _A Song _and_ Psalm for the sons of Korah._
+> _A Song and Psalm for the sons of Korah._
 
 <sup>1</sup> Great _is_ the LORD, and greatly to be praised<br>In the city of our God, _in_ the mountain of his holiness.<br>
 <sup>2</sup> Beautiful for situation, the joy of the whole earth,<br>_Is_ mount Zion, _on_ the sides of the north,<br>The city of the great King.
@@ -1579,7 +1579,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 52
 
-> _To the chief Musician, Maschil, _A Psalm_ of David, when Doeg the Edomite came and told Saul, and said unto him, David is come to the house of Ahimelech._
+> _To the chief Musician, Maschil, A Psalm of David, when Doeg the Edomite came and told Saul, and said unto him, David is come to the house of Ahimelech._
 
 <sup>1</sup> Why boastest thou thyself in mischief, O mighty man?<br>The goodness of God _endureth_ continually.<br>
 <sup>2</sup> Thy tongue deviseth mischiefs;<br>Like a sharp razor, working deceitfully.<br>
@@ -1597,7 +1597,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 53
 
-> _To the chief Musician upon Mahalath, Maschil, _A Psalm_ of David._
+> _To the chief Musician upon Mahalath, Maschil, A Psalm of David._
 
 <sup>1</sup> The fool hath said in his heart,<br>_There is_ no God.<br>Corrupt are they, and have done abominable iniquity:<br>_There is_ none that doeth good.<br>
 <sup>2</sup> God looked down from heaven upon the children of men,<br>To see if there were _any_ that did understand, that did seek God.<br>
@@ -1611,7 +1611,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 54
 
-> _To the chief Musician on Neginoth, Maschil, _A Psalm_ of David, when the Ziphim came and said to Saul, Doth not David hide himself with us?_
+> _To the chief Musician on Neginoth, Maschil, A Psalm of David, when the Ziphim came and said to Saul, Doth not David hide himself with us?_
 
 <sup>1</sup> Save me, O God, by thy name,<br>And judge me by thy strength.<br>
 <sup>2</sup> Hear my prayer, O God;<br>Give ear to the words of my mouth.<br>
@@ -1625,7 +1625,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 55
 
-> _To the chief Musician on Neginoth, Maschil, _A Psalm_ of David._
+> _To the chief Musician on Neginoth, Maschil, A Psalm of David._
 
 <sup>1</sup> Give ear to my prayer, O God;<br>And hide not thyself from my supplication.<br>
 <sup>2</sup> Attend unto me, and hear me:<br>I mourn in my complaint, and make a noise;<br>
@@ -1774,7 +1774,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 61
 
-> _To the chief Musician upon Neginah, _A Psalm_ of David._
+> _To the chief Musician upon Neginah, A Psalm of David._
 
 <sup>1</sup> Hear my cry, O God;<br>Attend unto my prayer.<br>
 <sup>2</sup> From the end of the earth will I cry unto thee,<br>When my heart is overwhelmed:<br>Lead me to the rock _that_ is higher than I.<br>
@@ -1855,7 +1855,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 65
 
-> _To the chief Musician, A Psalm _and_ Song of David._
+> _To the chief Musician, A Psalm and Song of David._
 
 <sup>1</sup> Praise waiteth<sup>a</sup> for thee, O God, in Zion:<br>And unto thee shall the vow be performed.<br>
 <sup>2</sup> O thou that hearest prayer,<br>Unto thee shall all flesh come.<br>
@@ -1882,7 +1882,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 66
 
-> _To the chief Musician, A Song _or_ Psalm._
+> _To the chief Musician, A Song or Psalm._
 
 <sup>1</sup> Make a joyful noise unto God, all ye lands:<sup>a</sup><br>
 <sup>2</sup> Sing forth the honour of his name: Make his praise glorious.<br>
@@ -1914,7 +1914,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 67
 
-> _To the chief Musician on Neginoth, A Psalm _or_ Song._
+> _To the chief Musician on Neginoth, A Psalm or Song._
 
 <sup>1</sup> God be merciful unto us, and bless us;<br>_And_ cause his face to shine upon us;<sup>a</sup> _Selah._<br>
 <sup>2</sup> That thy way may be known upon earth,<br>Thy saving health among all nations.<br>
@@ -1929,7 +1929,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 68
 
-> _To the chief Musician, A Psalm _or_ Song of David._
+> _To the chief Musician, A Psalm or Song of David._
 
 <sup>1</sup> Let God arise, let his enemies be scattered:<br>Let them also that hate him flee before him.<sup>a</sup><br>
 <sup>2</sup> As smoke is driven away, _so_ drive _them_ away:<br>As wax melteth before the fire, _so_ let the wicked perish at the presence of God.<br>
@@ -1987,7 +1987,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 69
 
-> _To the chief Musician upon Shoshannim, _A Psalm_ of David._
+> _To the chief Musician upon Shoshannim, A Psalm of David._
 
 <sup>1</sup> Save me, O God;<br>For the waters are come in unto _my_ soul.<br>
 <sup>2</sup> I sink in deep mire,<sup>a</sup> where _there is_ no standing:<br>I am come into deep waters,<sup>b</sup> where the floods overflow me.<br>
@@ -2041,7 +2041,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 70
 
-> _To the chief Musician, _A Psalm_ of David, to bring to remembrance._
+> _To the chief Musician, A Psalm of David, to bring to remembrance._
 
 <sup>1</sup> _Make haste_, O God, to deliver me;<br>Make haste to help me,<sup>a</sup> O LORD.<br>
 <sup>2</sup> Let them be ashamed and confounded that seek after my soul:<br>Let them be turned backward, and put to confusion, that desire my hurt.<br>
@@ -2085,7 +2085,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 72
 
-> __A Psalm_ for Solomon._
+> _A Psalm for Solomon._
 
 <sup>1</sup> Give the king thy judgments, O God,<br>And thy righteousness unto the king’s son.<br>
 <sup>2</sup> He shall judge thy people with righteousness,<br>And thy poor with judgment.<br>
@@ -2195,7 +2195,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 75
 
-> _To the chief Musician, Al-taschith, A Psalm _or_ Song of Asaph._
+> _To the chief Musician, Al-taschith, A Psalm or Song of Asaph._
 
 <sup>1</sup> Unto thee, O God, do we give thanks,<br>_Unto thee_ do we give thanks:<br>For _that_ thy name is near<br>Thy wondrous works declare.<br>
 <sup>2</sup> When I shall receive<sup>a</sup> the congregation<br>I will judge uprightly.<br>
@@ -2213,7 +2213,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 76
 
-> _To the chief Musician on Neginoth, A Psalm _or_ Song of Asaph._
+> _To the chief Musician on Neginoth, A Psalm or Song of Asaph._
 
 <sup>1</sup> In Judah _is_ God known:<br>His name _is_ great in Israel.<br>
 <sup>2</sup> In Salem also is his tabernacle,<br>And his dwelling place in Zion.<br>
@@ -2386,13 +2386,13 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>1</sup> Give ear, O Shepherd of Israel, thou that leadest Joseph like a flock;<br>Thou that dwellest _between_ the cherubims, shine forth.<br>
 <sup>2</sup> Before Ephraim and Benjamin and Manasseh stir up thy strength,<br>And come _and_ save us.<sup>a</sup><br>
 <sup>3</sup> Turn us again, O God,<br>And cause thy face to shine; and we shall be saved.<br>
-<sup>4</sup> O LORD God of hosts,<br>How long wilt thou be angry<sup>b</sup><sup>c</sup> against the prayer of thy people?<br>
+<sup>4</sup> O LORD God of hosts,<br>How long wilt thou be angry<sup>b</sup> against the prayer of thy people?<br>
 <sup>5</sup> Thou feedest them with the bread of tears;<br>And givest them tears to drink in great measure.<br>
 <sup>6</sup> Thou makest us a strife unto our neighbours:<br>And our enemies laugh among themselves.<br>
 <sup>7</sup> Turn us again, O God of hosts,<br>And cause thy face to shine; and we shall be saved.<br>
 <sup>8</sup> Thou hast brought a vine out of Egypt:<br>Thou hast cast out the heathen, and planted it.<br>
 <sup>9</sup> Thou preparedst _room_ before it,<br>And didst cause it to take deep root, and it filled the land.<br>
-<sup>10</sup> The hills were covered with the shadow of it,<br>And the boughs thereof _were like_ the goodly cedars.<sup>d</sup><br>
+<sup>10</sup> The hills were covered with the shadow of it,<br>And the boughs thereof _were like_ the goodly cedars.<sup>c</sup><br>
 <sup>11</sup> She sent out her boughs unto the sea,<br>And her branches unto the river.<br>
 <sup>12</sup> Why hast thou _then_ broken down her hedges,<br>So that all they which pass by the way do pluck her?<br>
 <sup>13</sup> The boar out of the wood doth waste it,<br>And the wild beast of the field doth devour it.<br>
@@ -2405,12 +2405,11 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 > - <sup>a</sup> 2. Heb. _come for salvation to us_
 > - <sup>b</sup> 4. Heb. _wilt thou smoke?_
-> - <sup>c</sup> 4. Heb. _wilt thou smoke?_
-> - <sup>d</sup> 10. Heb. _the Cedars of God_
+> - <sup>c</sup> 10. Heb. _the Cedars of God_
 
 ## Chapter 81
 
-> _To the chief Musician upon Gittith, _A Psalm_ of Asaph._
+> _To the chief Musician upon Gittith, A Psalm of Asaph._
 
 <sup>1</sup> Sing aloud unto God our strength:<br>Make a joyful noise unto the God of Jacob.<br>
 <sup>2</sup> Take a psalm, and bring hither the timbrel,<br>The pleasant harp with the psaltery.<br>
@@ -2453,7 +2452,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 83
 
-> _A Song _or_ Psalm of Asaph._
+> _A Song or Psalm of Asaph._
 
 <sup>1</sup> Keep not thou silence, O God:<br>Hold not thy peace, and be not still, O God.<br>
 <sup>2</sup> For, lo, thine enemies make a tumult:<br>And they that hate thee have lifted up the head.<br>
@@ -2547,7 +2546,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 87
 
-> _A Psalm _or_ Song for the sons of Korah._
+> _A Psalm or Song for the sons of Korah._
 
 <sup>1</sup> His foundation _is_ in the holy mountains.<br>
 <sup>2</sup> The LORD loveth the gates of Zion more than all the dwellings of Jacob.<br>
@@ -2559,7 +2558,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 88
 
-> _A Song _or_ Psalm for the sons of Korah, to the chief Musician upon Mahalath Leannoth, Maschil of Heman the Ezrahite._
+> _A Song or Psalm for the sons of Korah, to the chief Musician upon Mahalath Leannoth, Maschil of Heman the Ezrahite._
 
 <sup>1</sup> O LORD God of my salvation, I have cried day _and_ night before thee:<br>
 <sup>2</sup> Let my prayer come before thee: Incline thine ear unto my cry;<br>
@@ -2706,7 +2705,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 92
 
-> _A Psalm _or_ Song for the sabbath day._
+> _A Psalm or Song for the sabbath day._
 
 <sup>1</sup> _It is_ a good thing to give thanks unto the LORD,<br>And to sing praises unto thy name, O most High:<br>
 <sup>2</sup> To shew forth thy lovingkindness in the morning,<br>And thy faithfulness every night,<sup>a</sup><br>
@@ -2928,7 +2927,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 103
 
-> __A Psalm_ of David._
+> _A Psalm of David._
 
 <sup>1</sup> Bless the LORD, O my soul:<br>And all that is within me, _bless_ his holy name.<br>
 <sup>2</sup> Bless the LORD, O my soul,<br>And forget not all his benefits:<br>
@@ -3175,7 +3174,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 ## Chapter 108
 
-> _A Song _or_ Psalm of David._
+> _A Song or Psalm of David._
 
 <sup>1</sup> O God, my heart is fixed;<br>I will sing and give praise, even with my glory.<br>
 <sup>2</sup> Awake, psaltery and harp:<br>I _myself_ will awake early.<br>
@@ -3702,7 +3701,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>123</sup> Mine eyes fail for thy salvation,<br>And for the word of thy righteousness.<br>
 <sup>124</sup> Deal with thy servant according unto thy mercy,<br>And teach me thy statutes.<br>
 <sup>125</sup> I _am_ thy servant; give me understanding,<br>That I may know thy testimonies.<br>
-<sup>126</sup> _It is_ time for _thee,_ _LORD_, to work:<br>_For_ they have made void thy law.<br>
+<sup>126</sup> _It is_ time for _thee, LORD_, to work:<br>_For_ they have made void thy law.<br>
 <sup>127</sup> Therefore I love thy commandments<br>Above gold; yea, above fine gold.<br>
 <sup>128</sup> Therefore I esteem all _thy_ precepts _concerning_ all _things to be_ right;<br>_And_ I hate every false way.<br>
 
@@ -4094,7 +4093,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 
 ## Chapter 138
 
-> __A Psalm_ of David._
+> _A Psalm of David._
 
 <sup>1</sup> I will praise thee with my whole heart:<br>Before the gods will I sing praise unto thee.<br>
 <sup>2</sup> I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy truth:<br>For thou hast magnified thy word above all thy name.<br>
@@ -4219,7 +4218,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 
 ## Chapter 144
 
-> __A Psalm_ of David._
+> _A Psalm of David._
 
 <sup>1</sup> Blessed _be_ the LORD my strength,<sup>a</sup><br>Which teacheth my hands to war,<sup>b</sup> _and_ my fingers to fight:<br>
 <sup>2</sup> My goodness,<sup>c</sup> and my fortress; My high tower, and my deliverer; My shield, and _he_ in whom I trust;<br>Who subdueth my people under me.<br>
@@ -4248,7 +4247,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 
 ## Chapter 145
 
-> _David’s _Psalm_ of praise._
+> _David’s Psalm of praise._
 
 #### א Aleph
 

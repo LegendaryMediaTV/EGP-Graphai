@@ -84,7 +84,7 @@
 > - <sup>b</sup> 10. Or, _over to_
 > - <sup>c</sup> 14. Heb. _become a spoil_
 > - <sup>d</sup> 15. Heb. _gave out their voice_
-> - <sup>e</sup> 16. Or, _feed on thy crown,_ _deut. 33.12_ _Isai. 8.8_
+> - <sup>e</sup> 16. Or, _feed on thy crown, deut. 33.12 Isai. 8.8_
 > - <sup>f</sup> 20. Or, _serve_
 > - <sup>g</sup> 24. Or, _O wild ass_ etc.
 > - <sup>h</sup> 24. Heb. _taught_
@@ -594,28 +594,27 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 <sup>16</sup> Give glory to the LORD your God, before he cause darkness, and before your feet stumble upon the dark mountains, and, while ye look for light, he turn it into the shadow of death, _and_ make _it_ gross darkness.
 <sup>17</sup> But if ye will not hear it, my soul shall weep in secret places for _your_ pride; and mine eye shall weep sore, and run down with tears, because the LORD’s flock is carried away captive.
 
-<sup>18</sup> Say unto the king and to the queen, Humble yourselves, sit down: for your principalities<sup>d</sup><sup>e</sup> shall come down, _even_ the crown of your glory.
+<sup>18</sup> Say unto the king and to the queen, Humble yourselves, sit down: for your principalities<sup>d</sup> shall come down, _even_ the crown of your glory.
 <sup>19</sup> The cities of the south shall be shut up, and none shall open _them:_ Judah shall be carried away captive all of it, it shall be wholly carried away captive.
 
 ### The Leopard’s Spots
 
 <sup>20</sup> Lift up your eyes, and behold them that come from the north: where _is_ the flock _that_ was given thee, thy beautiful flock?
-<sup>21</sup> What wilt thou say when he shall punish<sup>f</sup> thee? for thou hast taught them _to be_ captains, _and_ as chief over thee: shall not sorrows take thee, as a woman in travail?
+<sup>21</sup> What wilt thou say when he shall punish<sup>e</sup> thee? for thou hast taught them _to be_ captains, _and_ as chief over thee: shall not sorrows take thee, as a woman in travail?
 <sup>22</sup> And if thou say in thine heart, Wherefore come these things upon me? For the greatness of thine iniquity are thy skirts discovered, _and_ thy heels made bare.
-<sup>23</sup> Can the Ethiopian change his skin, or the leopard his spots? _then_ may ye also do good, that are accustomed<sup>g</sup> to do evil.
+<sup>23</sup> Can the Ethiopian change his skin, or the leopard his spots? _then_ may ye also do good, that are accustomed<sup>f</sup> to do evil.
 <sup>24</sup> Therefore will I scatter them as the stubble that passeth away by the wind of the wilderness.
 <sup>25</sup> This _is_ thy lot, the portion of thy measures from me, saith the LORD; because thou hast forgotten me, and trusted in falsehood.
 <sup>26</sup> Therefore will I discover thy skirts upon thy face, that thy shame may appear.
-<sup>27</sup> I have seen thine adulteries, and thy neighings, the lewdness of thy whoredom, _and_ thine abominations on the hills in the fields. Woe unto thee, O Jerusalem! wilt thou not be made clean? when _shall it_ once _be?_<sup>h</sup>
+<sup>27</sup> I have seen thine adulteries, and thy neighings, the lewdness of thy whoredom, _and_ thine abominations on the hills in the fields. Woe unto thee, O Jerusalem! wilt thou not be made clean? when _shall it_ once _be?_<sup>g</sup>
 
 > - <sup>a</sup> 10. Or, _stubbornness_
 > - <sup>b</sup> 14. Heb. _a man against his brother_
 > - <sup>c</sup> 14. Heb. _from destroying them_
 > - <sup>d</sup> 18. Or, _head tires_
-> - <sup>e</sup> 18. Or, _head tires_
-> - <sup>f</sup> 21. _Heb visit upon’_
-> - <sup>g</sup> 23. Heb. _taught_
-> - <sup>h</sup> 27. Heb. _after when yet?_
+> - <sup>e</sup> 21. _Heb visit upon’_
+> - <sup>f</sup> 23. Heb. _taught_
+> - <sup>g</sup> 27. Heb. _after when yet?_
 
 ## Chapter 14
 
@@ -651,7 +650,7 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 
 > - <sup>a</sup> 1. Heb. _the words of the dearths_ or _restraints_
 > - <sup>b</sup> 13. Heb. _peace of truth_
-> - <sup>c</sup> 18. Or, _make merchandise against a land, and men acknowledge it not,_ _Chap. 5.31_
+> - <sup>c</sup> 18. Or, _make merchandise against a land, and men acknowledge it not, Chap. 5.31_
 
 ## Chapter 15
 
@@ -721,7 +720,7 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 <sup>21</sup> Therefore, behold, I will this once cause them to know, I will cause them to know mine hand and my might; and they shall know that my name _is_ The LORD.<sup>d</sup>
 
 > - <sup>a</sup> 5. Or, _mourning feast_
-> - <sup>b</sup> 7. Or, _break bread for them, as_ _Ezek. 24.17_
+> - <sup>b</sup> 7. Or, _break bread for them, as Ezek. 24.17_
 > - <sup>c</sup> 12. Or, _stubbornness_
 > - <sup>d</sup> 21. Or, _JEHOVAH_
 
@@ -1083,7 +1082,7 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 > - <sup>a</sup> 10. Heb. _I will cause to perish from them_
 > - <sup>b</sup> 12. Heb. _visit upon_
 > - <sup>c</sup> 22. Or, _region by the Sea side_
-> - <sup>d</sup> 23. Heb. _cut off into corners_, or _having the corners of the hair polled,_ _chap. 9.26_
+> - <sup>d</sup> 23. Heb. _cut off into corners_, or _having the corners of the hair polled, chap. 9.26_
 > - <sup>e</sup> 29. Heb. _upon which my Name is called_
 > - <sup>f</sup> 34. Heb. _your days for slaughter_
 > - <sup>g</sup> 34. Heb. _a vessel of desire_

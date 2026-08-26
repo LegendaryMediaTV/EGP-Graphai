@@ -507,7 +507,7 @@ And when he was now not far from the house, the centurion sent friends to him, s
 > - <sup>a</sup> 14. Or, _coffin_
 > - <sup>b</sup> 30. Or, _frustrated_
 > - <sup>c</sup> 30. Or, _within themselves_
-> - <sup>d</sup> 41. _See_ _Mat. 18.28_
+> - <sup>d</sup> 41. _See Mat. 18.28_
 
 ## Chapter 8
 
@@ -743,7 +743,7 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>41</sup> And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things:
 <sup>42</sup> but one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her.
 
-> - <sup>a</sup> 35. _See_ _Matt. 20.2_
+> - <sup>a</sup> 35. _See Matt. 20.2_
 
 ## Chapter 11
 
@@ -900,12 +900,12 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>58</sup> When thou goest with thine adversary to the magistrate, _as thou art_ in the way, give diligence that thou mayest be delivered from him; lest he hale thee to the judge, and the judge deliver thee to the officer, and the officer cast thee into prison.
 <sup>59</sup> I tell thee, thou shalt not depart thence, till thou hast paid the very last mite.<sup>f</sup>
 
-> - <sup>a</sup> 6. _See_ _Matt. 10.29_
+> - <sup>a</sup> 6. _See Matt. 10.29_
 > - <sup>b</sup> 20. Gr. _do they require thy soul_
 > - <sup>c</sup> 29. Or, _live not in careful suspense_
 > - <sup>d</sup> 46. Or, _cut him off_
 > - <sup>e</sup> 50. Or, _pained_
-> - <sup>f</sup> 59. _See_ _Mar. 12.42_
+> - <sup>f</sup> 59. _See Mar. 12.42_
 
 ## Chapter 13
 
@@ -958,7 +958,7 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>35</sup> Behold, your house is left unto you desolate: and verily I say unto you, Ye shall not see me, until _the time_ come when ye shall say, Blessed _is_ he that cometh in the name of the Lord.
 
 > - <sup>a</sup> 4. Or, _debtors_
-> - <sup>b</sup> 21. _See_ _Mat. 13.33_
+> - <sup>b</sup> 21. _See Mat. 13.33_
 
 ## Chapter 14
 
@@ -1051,7 +1051,7 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>31</sup> And he said unto him, Son, thou art ever with me, and all that I have is thine.
 <sup>32</sup> It was meet that we should make merry, and be glad: for this thy brother was dead, and is alive again; and was lost, and is found.
 
-> - <sup>a</sup> 8. _Drachma here translated a piece of silver, is the eighth part of an ounce, which cometh to seven pence half penny, and is equal to the Roman penny,_ _Mat. 18.28_
+> - <sup>a</sup> 8. _Drachma here translated a piece of silver, is the eighth part of an ounce, which cometh to seven pence half penny, and is equal to the Roman penny, Mat. 18.28_
 
 ## Chapter 16
 
@@ -1357,7 +1357,7 @@ And when he had thus spoken, he went before, ascending up to Jerusalem.
 <sup>47</sup> which devour widows’ houses, and for a shew make long prayers: the same shall receive greater damnation.
 
 > - <sup>a</sup> 21. Or, _of a truth_
-> - <sup>b</sup> 24. _See_ _Matt. 18.28_
+> - <sup>b</sup> 24. _See Matt. 18.28_
 
 ## Chapter 21
 

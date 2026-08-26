@@ -96,7 +96,7 @@ describe("isUniformParagraphNoise / suppressUniformParagraphNoise — the 100%-w
 describe("suppressUniformParagraphNoise — heading/subtitle interaction (synthetic fixture — no real book exercises this today)", () => {
   it("should keep paragraph: true on a node immediately following a heading/subtitle run, even though it is neither the verse's content's first node nor its own chapter's first verse", () => {
     // A synthetic, 100%-uniform book where chapter 1 verse 3 also carries a
-    // heading run — per auditNodes.ts's Check 6 rule, the node right after
+    // heading run — per auditNodes.ts's heading-paragraph check rule, the node right after
     // that run must keep paragraph: true even under book-wide suppression,
     // since verse 3 isn't chapter 1's first verse.
     const headingNode = { heading: "A Heading" };

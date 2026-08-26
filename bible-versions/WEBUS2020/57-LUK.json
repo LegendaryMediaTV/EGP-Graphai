@@ -1721,7 +1721,7 @@
     "verse": 35,
     "content": [
       { "paragraph": true, "text": "Jesus rebuked him, saying, " },
-      { "text": "“Be silent and come out of him!” ", "marks": ["woc"] },
+      { "text": "“Be silent and come out of him!”", "marks": ["woc"] },
       " When the demon had thrown him down in the middle of them, he came out of him, having done him no harm."
     ]
   },
@@ -5214,14 +5214,14 @@
     "content": [
       {
         "paragraph": true,
-        "text": "“Aren’t five sparrows sold for two assaria coins",
+        "text": "“Aren’t five sparrows sold for two assaria coins?",
         "marks": ["woc"],
         "foot": {
           "type": "stu",
           "content": "An assarion was a small copper coin worth about an hour’s wages for an agricultural laborer."
         }
       },
-      { "text": "? Not one of them is forgotten by God.", "marks": ["woc"] }
+      { "text": " Not one of them is forgotten by God.", "marks": ["woc"] }
     ]
   },
   {
@@ -5731,14 +5731,13 @@
     "verse": 59,
     "content": [
       {
-        "text": "I tell you, you will by no means get out of there until you have paid the very last penny.",
+        "text": "I tell you, you will by no means get out of there until you have paid the very last penny.”",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
           "content": "Literally, lepton. A lepton is a very small brass Jewish coin worth half a Roman quadrans each, which is worth a quarter of the copper assarion. Lepta are worth less than 1% of an agricultural worker’s daily wages."
         }
-      },
-      { "text": "”", "marks": ["woc"] }
+      }
     ]
   },
   {
@@ -5936,7 +5935,7 @@
     "verse": 21,
     "content": [
       {
-        "text": "It is like yeast, which a woman took and hid in three measures ",
+        "text": "It is like yeast, which a woman took and hid in three measures",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -6322,14 +6321,13 @@
     "verse": 24,
     "content": [
       {
-        "text": "For I tell you that none of those men who were invited will taste of my supper. For many are called, but few are chosen.",
+        "text": "For I tell you that none of those men who were invited will taste of my supper. For many are called, but few are chosen.’”",
         "marks": ["woc"],
         "foot": {
           "type": "var",
           "content": "RP MT includes the last sentence. TR, NU, and FH MT omit: For many are called, but few are chosen."
         }
-      },
-      { "text": "’”", "marks": ["woc"] }
+      }
     ]
   },
   {
@@ -7941,7 +7939,7 @@
     "verse": 13,
     "content": [
       {
-        "text": "He called ten servants of his and gave them ten mina coins, ",
+        "text": "He called ten servants of his and gave them ten mina coins,",
         "marks": ["woc"],
         "foot": {
           "type": "stu",
@@ -8263,7 +8261,7 @@
     "content": [
       "saying to them, ",
       {
-        "text": "“It is written, ‘My house is a house of prayer,’ ",
+        "text": "“It is written, ‘My house is a house of prayer,’",
         "marks": ["woc"],
         "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 56:7" } }
       },
@@ -8372,7 +8370,7 @@
         "text": "He began to tell the people this parable: "
       },
       {
-        "text": "“A ",
+        "text": "“A",
         "marks": ["woc"],
         "foot": {
           "type": "var",
@@ -8832,7 +8830,7 @@
     "content": [
       { "paragraph": true, "text": "He said, " },
       {
-        "text": "“Watch out that you don’t get led astray, for many will come in my name, saying, ‘I am he",
+        "text": "“Watch out that you don’t get led astray, for many will come in my name, saying, ‘I am he,’",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -8840,7 +8838,7 @@
         }
       },
       {
-        "text": ",’ and, ‘The time is at hand.’ Therefore don’t follow them.",
+        "text": " and, ‘The time is at hand.’ Therefore don’t follow them.",
         "marks": ["woc"]
       }
     ]

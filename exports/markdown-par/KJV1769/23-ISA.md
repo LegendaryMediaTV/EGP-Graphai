@@ -453,7 +453,7 @@
 
 <sup>6</sup> The wolf also shall dwell with the lamb, and the leopard shall lie down with the kid; and the calf and the young lion and the fatling together; and a little child shall lead them.
 <sup>7</sup> And the cow and the bear shall feed; their young ones shall lie down together: and the lion shall eat straw like the ox.
-<sup>8</sup> And the sucking child shall play on the hole of the asp, and the weaned child shall put his hand on the cockatrice<sup>c</sup>’ den.
+<sup>8</sup> And the sucking child shall play on the hole of the asp, and the weaned child shall put his hand on the cockatrice’<sup>c</sup> den.
 <sup>9</sup> They shall not hurt nor destroy in all my holy mountain: for the earth shall be full of the knowledge of the LORD, as the waters cover the sea.
 
 <sup>10</sup> And in that day there shall be a root of Jesse, which shall stand for an ensign of the people; to it shall the Gentiles seek: and his rest shall be glorious.<sup>d</sup>
@@ -1070,43 +1070,42 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 <sup>1</sup> Woe to Ariel, to Ariel, the city _where_ David dwelt! add ye year to year; let them kill<sup>a</sup> sacrifices.
 <sup>2</sup> Yet I will distress Ariel, and there shall be heaviness and sorrow: and it shall be unto me as Ariel.
 <sup>3</sup> And I will camp against thee round about, and will lay siege against thee with a mount, and I will raise forts against thee.
-<sup>4</sup> And thou shalt be brought down, _and_ shalt speak out of the ground, and thy speech shall be low out of the dust, and thy voice shall be, as of one that hath a familiar spirit, out of the ground, and thy speech shall whisper<sup>b</sup><sup>c</sup> out of the dust.
+<sup>4</sup> And thou shalt be brought down, _and_ shalt speak out of the ground, and thy speech shall be low out of the dust, and thy voice shall be, as of one that hath a familiar spirit, out of the ground, and thy speech shall whisper<sup>b</sup> out of the dust.
 
 <sup>5</sup> Moreover the multitude of thy strangers shall be like small dust, and the multitude of the terrible ones _shall be_ as chaff that passeth away: yea, it shall be at an instant suddenly.
 <sup>6</sup> Thou shalt be visited of the LORD of hosts with thunder, and with earthquake, and great noise, with storm and tempest, and the flame of devouring fire.
 <sup>7</sup> And the multitude of all the nations that fight against Ariel, even all that fight against her and her munition, and that distress her, shall be as a dream of a night vision.
 <sup>8</sup> It shall even be as when an hungry man dreameth, and, behold, he eateth; but he awaketh, and his soul is empty: or as when a thirsty man dreameth, and, behold, he drinketh; but he awaketh, and, behold, _he is_ faint, and his soul hath appetite: so shall the multitude of all the nations be, that fight against mount Zion.
 
-<sup>9</sup> Stay yourselves, and wonder; cry ye out, and cry:<sup>d</sup> they are drunken, but not with wine; they stagger, but not with strong drink.
-<sup>10</sup> For the LORD hath poured out upon you the spirit of deep sleep, and hath closed your eyes: the prophets and your rulers,<sup>e</sup> the seers hath he covered.
-<sup>11</sup> And the vision of all is become unto you as the words of a book<sup>f</sup> that is sealed, which _men_ deliver to one that is learned, saying, Read this, I pray thee: and he saith, I cannot; for it _is_ sealed:
+<sup>9</sup> Stay yourselves, and wonder; cry ye out, and cry:<sup>c</sup> they are drunken, but not with wine; they stagger, but not with strong drink.
+<sup>10</sup> For the LORD hath poured out upon you the spirit of deep sleep, and hath closed your eyes: the prophets and your rulers,<sup>d</sup> the seers hath he covered.
+<sup>11</sup> And the vision of all is become unto you as the words of a book<sup>e</sup> that is sealed, which _men_ deliver to one that is learned, saying, Read this, I pray thee: and he saith, I cannot; for it _is_ sealed:
 <sup>12</sup> and the book is delivered to him that is not learned, saying, Read this, I pray thee: and he saith, I am not learned.
 
 <sup>13</sup> Wherefore the Lord said, Forasmuch as this people draw near _me_ with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear toward me is taught by the precept of men:
-<sup>14</sup> therefore, behold, I will proceed<sup>g</sup> to do a marvellous work among this people, _even_ a marvellous work and a wonder: for the wisdom of their wise _men_ shall perish, and the understanding of their prudent _men_ shall be hid.
+<sup>14</sup> therefore, behold, I will proceed<sup>f</sup> to do a marvellous work among this people, _even_ a marvellous work and a wonder: for the wisdom of their wise _men_ shall perish, and the understanding of their prudent _men_ shall be hid.
 
 <sup>15</sup> Woe unto them that seek deep to hide their counsel from the LORD, and their works are in the dark, and they say, Who seeth us? and who knoweth us?
 <sup>16</sup> Surely your turning of things upside down shall be esteemed as the potter’s clay: for shall the work say of him that made it, He made me not? or shall the thing framed say of him that framed it, He had no understanding?
 
 <sup>17</sup> _Is_ it not yet a very little while, and Lebanon shall be turned into a fruitful field, and the fruitful field shall be esteemed as a forest?
 <sup>18</sup> And in that day shall the deaf hear the words of the book, and the eyes of the blind shall see out of obscurity, and out of darkness.
-<sup>19</sup> The meek also shall increase<sup>h</sup> _their_ joy in the LORD, and the poor among men shall rejoice in the Holy One of Israel.
+<sup>19</sup> The meek also shall increase<sup>g</sup> _their_ joy in the LORD, and the poor among men shall rejoice in the Holy One of Israel.
 <sup>20</sup> For the terrible one is brought to nought, and the scorner is consumed, and all that watch for iniquity are cut off:
 <sup>21</sup> that make a man an offender for a word, and lay a snare for him that reproveth in the gate, and turn aside the just for a thing of nought.
 
 <sup>22</sup> Therefore thus saith the LORD, who redeemed Abraham, concerning the house of Jacob, Jacob shall not now be ashamed, neither shall his face now wax pale.
 <sup>23</sup> But when he seeth his children, the work of mine hands, in the midst of him, they shall sanctify my name, and sanctify the Holy One of Jacob, and shall fear the God of Israel.
-<sup>24</sup> They also that erred in spirit shall come to understanding,<sup>i</sup> and they that murmured shall learn doctrine.
+<sup>24</sup> They also that erred in spirit shall come to understanding,<sup>h</sup> and they that murmured shall learn doctrine.
 
 > - <sup>a</sup> 1. Heb. _out of the heads_
 > - <sup>b</sup> 4. Heb. _peep_ or _chirp_
-> - <sup>c</sup> 4. Heb. _peep_ or _chirp_
-> - <sup>d</sup> 9. Or, _take your pleasure and riot_
-> - <sup>e</sup> 10. Heb. _heads_
-> - <sup>f</sup> 11. Or, _letter_
-> - <sup>g</sup> 14. Heb. _I will add_
-> - <sup>h</sup> 19. Heb. _shall add_
-> - <sup>i</sup> 24. Heb. _shall know understanding_
+> - <sup>c</sup> 9. Or, _take your pleasure and riot_
+> - <sup>d</sup> 10. Heb. _heads_
+> - <sup>e</sup> 11. Or, _letter_
+> - <sup>f</sup> 14. Heb. _I will add_
+> - <sup>g</sup> 19. Heb. _shall add_
+> - <sup>h</sup> 24. Heb. _shall know understanding_
 
 ## Chapter 30
 
@@ -1342,7 +1341,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 ### The Assyrian Threat
 
 <sup>4</sup> And Rabshakeh said unto them, Say ye now to Hezekiah, Thus saith the great king, the king of Assyria, What confidence _is_ this wherein thou trustest?
-<sup>5</sup> I say, _sayest thou_, (but _they are but_ vain words<sup>b</sup>) _I have_ counsel and strength for war: now on whom dost thou trust, that thou rebellest against me?
+<sup>5</sup> I say, _sayest thou_, (but _they are but_ vain words)<sup>b</sup> _I have_ counsel and strength for war: now on whom dost thou trust, that thou rebellest against me?
 <sup>6</sup> Lo, thou trustest in the staff of this broken reed, on Egypt; whereon if a man lean, it will go into his hand, and pierce it: so _is_ Pharaoh king of Egypt to all that trust in him.
 <sup>7</sup> But if thou say to me, We trust in the LORD our God: _is it_ not he, whose high places and whose altars Hezekiah hath taken away, and said to Judah and to Jerusalem, Ye shall worship before this altar?
 <sup>8</sup> Now therefore give pledges,<sup>c</sup> I pray thee, to my master the king of Assyria, and I will give thee two thousand horses, if thou be able on thy part to set riders upon them.
@@ -2184,7 +2183,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 <sup>2</sup> but your iniquities have separated between you and your God, and your sins have hid<sup>a</sup> _his_ face from you, that he will not hear.
 <sup>3</sup> For your hands are defiled with blood, and your fingers with iniquity; your lips have spoken lies, your tongue hath muttered perverseness.
 <sup>4</sup> None calleth for justice, nor _any_ pleadeth for truth: they trust in vanity, and speak lies; they conceive mischief, and bring forth iniquity.
-<sup>5</sup> They hatch cockatrice<sup>b</sup>’ eggs, and weave the spider’s web: he that eateth of their eggs dieth, and that which is crushed breaketh out into a viper.<sup>c</sup>
+<sup>5</sup> They hatch cockatrice’<sup>b</sup> eggs, and weave the spider’s web: he that eateth of their eggs dieth, and that which is crushed breaketh out into a viper.<sup>c</sup>
 <sup>6</sup> Their webs shall not become garments, neither shall they cover themselves with their works: their works _are_ works of iniquity, and the act of violence _is_ in their hands.
 <sup>7</sup> Their feet run to evil, and they make haste to shed innocent blood: their thoughts _are_ thoughts of iniquity; wasting and destruction<sup>d</sup> _are_ in their paths.
 <sup>8</sup> The way of peace they know not; and _there is_ no judgment<sup>e</sup> in their goings: they have made them crooked paths: whosoever goeth therein shall not know peace.
@@ -2325,7 +2324,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 <sup>19</sup> We are _thine:_ thou never barest rule over them; they were not called by thy name.<sup>d</sup>
 
 > - <sup>a</sup> 1. Heb. _decked_
-> - <sup>b</sup> 11. Or, _shepherds, as_ _Psal. 77.20_
+> - <sup>b</sup> 11. Or, _shepherds, as Psal. 77.20_
 > - <sup>c</sup> 15. Or, _the multitude_
 > - <sup>d</sup> 19. Heb. _thy name was not called upon them_
 

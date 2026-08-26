@@ -3,7 +3,7 @@
 <sup>1</sup> <sup>a</sup><sup>b</sup>Paul, an apostle—not from men, nor through man, but through Jesus Christ, and God the Father, who did raise him out of the dead—
 <sup>2</sup> and all the brethren with me, to the assemblies of Galatia:
 <sup>3</sup> Grace<sup>c</sup> to you, and peace from God the Father, and our Lord Jesus Christ,
-<sup>4</sup> who did give himself for our sins<sup>d</sup>, that he might deliver us out of the present evil age, according to the will of God even our Father,
+<sup>4</sup> who did give himself for our sins,<sup>d</sup> that he might deliver us out of the present evil age, according to the will of God even our Father,
 <sup>5</sup> to whom _is_ the glory to the ages of the ages. Amen.
 
 ### Paul Defends His Authority
@@ -13,7 +13,7 @@
 <sup>8</sup> but even if we or a messenger out of heaven may proclaim good news to you different from what we did proclaim to you—anathema let him be!
 <sup>9</sup> as we have said before, and now say again, If any one to you may proclaim good news different from what ye did receive—anathema let him be!
 
-<sup>10</sup> for now men do I persuade, or God? or do I seek to please men? for if yet men I did please—Christ’s servant I should not be<sup>e</sup>.
+<sup>10</sup> for now men do I persuade, or God? or do I seek to please men? for if yet men I did please—Christ’s servant I should not be.<sup>e</sup>
 <sup>11</sup> And I make known to you, brethren, the good news that were proclaimed by me, that it is not according to man,
 <sup>12</sup> for neither did I from man receive it, nor was I taught _it_, but through a revelation of Jesus Christ,
 
@@ -40,8 +40,8 @@
 ## Chapter 2
 
 <sup>1</sup> <sup>a</sup>Then, after fourteen years again I went up to Jerusalem with Barnabas, having taken with me also Titus;
-<sup>2</sup> and I went up by revelation<sup>b</sup>, and did submit to them the good news that I preach among the nations, and privately to those esteemed, lest in vain I might run or did run;
-<sup>3</sup> but not even Titus, who _is_ with me, being a Greek<sup>c</sup>, was compelled to be circumcised—
+<sup>2</sup> and I went up by revelation,<sup>b</sup> and did submit to them the good news that I preach among the nations, and privately to those esteemed, lest in vain I might run or did run;
+<sup>3</sup> but not even Titus, who _is_ with me, being a Greek,<sup>c</sup> was compelled to be circumcised—
 <sup>4</sup> and _that_ because of the false brethren brought in unawares, who did come in privily to spy out our liberty that we have in Christ Jesus, that us they might bring under bondage,
 <sup>5</sup> to whom not even for an hour we gave place<sup>d</sup> by subjection, that the truth of the good news might remain to you.
 <sup>6</sup> And from those who were esteemed to be something—whatever they were then, it maketh no difference to me—the face of man God accepteth not, for—to me those esteemed did add nothing,
@@ -94,7 +94,7 @@ O thoughtless Galatians, who did bewitch you, not to obey the truth—before who
 <sup>15</sup> Brethren, as a man I say _it_, even of man a confirmed covenant no one doth make void or doth add to,
 <sup>16</sup> and to Abraham were the promises spoken, and to his seed; He doth not say, “And to seeds,” as of many, but as of one, “And to thy seed,” which is Christ;
 <sup>17</sup> and this I say, A covenant confirmed before by God to Christ, the law, that came four hundred and thirty years after, doth not set aside, to make void the promise,
-<sup>18</sup> for if by law _be_ the inheritance, _it is_ no more by promise, but to Abraham through promise did God grant _it_<sup>b</sup>.
+<sup>18</sup> for if by law _be_ the inheritance, _it is_ no more by promise, but to Abraham through promise did God grant _it._<sup>b</sup>
 
 <sup>19</sup> Why, then, the law? on account of the transgressions it was added, till the seed might come to which the promise hath been made, having been set in order through messengers in the hand of a mediator—
 <sup>20</sup> and the mediator is not of one, and God is one—
@@ -183,14 +183,14 @@ In the freedom, then, with which Christ did make you free—stand ye, and be not
 <sup>17</sup> for the flesh doth desire contrary to the Spirit, and the Spirit contrary to the flesh, and these are opposed one to another, that the things that ye may will—these ye may not do;
 <sup>18</sup> and if by the Spirit ye are led, ye are not under law.
 <sup>19</sup> And manifest also are the works of the flesh, which are: Adultery, whoredom, uncleanness, lasciviousness,
-<sup>20</sup> idolatry, witchcraft<sup>b</sup>, hatred, strifes, emulations, wraths, rivalries, dissensions, sects,
+<sup>20</sup> idolatry, witchcraft,<sup>b</sup> hatred, strifes, emulations, wraths, rivalries, dissensions, sects,
 <sup>21</sup> envyings, murders, drunkennesses, revellings, and such like, of which I tell you before, as I also said before, that those doing such things the reign of God shall not inherit.
 <sup>22</sup> And the fruit of the Spirit is: Love, joy, peace, long-suffering, kindness, goodness, faith,
-<sup>23</sup> meekness, temperance<sup>c</sup>: against such there is no law;
+<sup>23</sup> meekness, temperance:<sup>c</sup> against such there is no law;
 <sup>24</sup> and those who are Christ’s, the flesh did crucify with the affections, and the desires;
 
 <sup>25</sup> if we may live in the Spirit, in the Spirit also we may walk;
-<sup>26</sup> let us not become vain-glorious—one another provoking<sup>d</sup>, one another envying!
+<sup>26</sup> let us not become vain-glorious—one another provoking,<sup>d</sup> one another envying!
 
 > - <sup>a</sup> 1. Chapter V. May be divided into six parts; v. 1–6 warning against circumcision; v. 7–12 against leavening the whole lump; v. 13–15 call to freedom and love; v. 16–18 to oppose the flesh; v. 19–21 works of the flesh; v. 22–26 and of the spirit.
 > - <sup>b</sup> 20. Lit., _pharmacy, enmity, strifes, zeals, desires, strivings, dissensions, opinions (or sects)_
@@ -203,14 +203,14 @@ In the freedom, then, with which Christ did make you free—stand ye, and be not
 
 Brethren, if a man also may be overtaken in any trespass, ye who _are_ spiritual restore such a one in a spirit of meekness, considering thyself—lest thou also may be tempted;
 <sup>2</sup> of one another the burdens<sup>b</sup> bear ye, and so fill up the law of the Christ,
-<sup>3</sup> for if any one doth think _himself_ to be something—being nothing—himself he doth deceive<sup>c</sup>;
+<sup>3</sup> for if any one doth think _himself_ to be something—being nothing—himself he doth deceive;<sup>c</sup>
 <sup>4</sup> and his own work let each one prove, and then in regard to himself alone the glorying he shall have, and not in regard to the other,
 <sup>5</sup> for each one his own burden shall bear.
 
 <sup>6</sup> And let him who is instructed in the word share with him who is instructing—in all good things.
 <sup>7</sup> Be not led astray; God is not mocked; for what a man may sow—that also he shall reap,
 <sup>8</sup> because he who is sowing to his own flesh, of the flesh shall reap corruption; and he who is sowing to the Spirit, of the Spirit shall reap life age-during;
-<sup>9</sup> and in the doing good we may not be faint-hearted<sup>d</sup>, for at the proper time we shall reap—not desponding;
+<sup>9</sup> and in the doing good we may not be faint-hearted,<sup>d</sup> for at the proper time we shall reap—not desponding;
 <sup>10</sup> therefore, then, as we have opportunity, may we work the good to all, and especially unto those of the household of the faith.
 
 <sup>11</sup> Ye see in how large letters I have written to you with my own hand;

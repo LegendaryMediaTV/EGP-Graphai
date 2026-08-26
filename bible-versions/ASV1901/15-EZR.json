@@ -4,9 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "Now in the first year of " },
       {
-        "paragraph": true,
-        "text": "Now in the first year of ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "Coresh", "marks": ["i"] }, "."]
@@ -28,8 +27,8 @@
     "chapter": 1,
     "verse": 3,
     "content": [
+      "Whosoever there is among you of all his people, his God be with him, and let him go up to Jerusalem, which is in Judah, and build the house of Jehovah, the God of Israel ",
       {
-        "text": "Whosoever there is among you of all his people, his God be with him, and let him go up to Jerusalem, which is in Judah, and build the house of Jehovah, the God of Israel ",
         "foot": {
           "type": "trn",
           "content": [
@@ -100,7 +99,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Now these are the children of the province, that went up out of the captivity of those that had been carried away, whom ",
+        "text": "Now these are the children of the province, that went up out of the captivity of those that had been carried away, whom "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -118,8 +119,8 @@
     "chapter": 2,
     "verse": 2,
     "content": [
+      "who came with Zerubbabel, Jeshua, Nehemiah, ",
       {
-        "text": "who came with Zerubbabel, Jeshua, Nehemiah, ",
         "foot": {
           "type": "stu",
           "content": [
@@ -131,8 +132,8 @@
           ]
         }
       },
+      "Seraiah, ",
       {
-        "text": "Seraiah, ",
         "foot": {
           "type": "stu",
           "content": [
@@ -144,8 +145,8 @@
           ]
         }
       },
+      "Reelaiah, Mordecai, Bilshan, ",
       {
-        "text": "Reelaiah, Mordecai, Bilshan, ",
         "foot": {
           "type": "stu",
           "content": [
@@ -157,8 +158,8 @@
           ]
         }
       },
+      "Mispar, Bigvai, ",
       {
-        "text": "Mispar, Bigvai, ",
         "foot": {
           "type": "stu",
           "content": [
@@ -228,8 +229,8 @@
     "chapter": 2,
     "verse": 10,
     "content": [
+      "The children of ",
       {
-        "text": "The children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -291,8 +292,8 @@
     "chapter": 2,
     "verse": 18,
     "content": [
+      "The children of ",
       {
-        "text": "The children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -318,8 +319,8 @@
     "chapter": 2,
     "verse": 20,
     "content": [
+      "The children of ",
       {
-        "text": "The children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -357,8 +358,8 @@
     "chapter": 2,
     "verse": 24,
     "content": [
+      "The children of ",
       {
-        "text": "The children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -378,8 +379,8 @@
     "chapter": 2,
     "verse": 25,
     "content": [
+      "The children of ",
       {
-        "text": "The children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -488,7 +489,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "The Levites: the children of Jeshua and Kadmiel, of the children of ",
+        "text": "The Levites: the children of Jeshua and Kadmiel, of the children of "
+      },
+      {
         "foot": {
           "type": "stu",
           "content": [
@@ -533,8 +536,8 @@
     "chapter": 2,
     "verse": 44,
     "content": [
+      "the children of Keros, the children of ",
       {
-        "text": "the children of Keros, the children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -560,8 +563,8 @@
     "chapter": 2,
     "verse": 46,
     "content": [
+      "the children of Hagab, the children of ",
       {
-        "text": "the children of Hagab, the children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -599,8 +602,8 @@
     "chapter": 2,
     "verse": 50,
     "content": [
+      "the children of Asnah, the children of Meunim, the children of ",
       {
-        "text": "the children of Asnah, the children of Meunim, the children of ",
         "foot": {
           "type": "var",
           "content": [
@@ -628,8 +631,8 @@
     "chapter": 2,
     "verse": 52,
     "content": [
+      "the children of ",
       {
-        "text": "the children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -663,7 +666,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "The children of Solomon’s servants: the children of Sotai, the children of ",
+        "text": "The children of Solomon’s servants: the children of Sotai, the children of "
+      },
+      {
         "foot": {
           "type": "stu",
           "content": [
@@ -675,8 +680,8 @@
           ]
         }
       },
+      "Hassophereth, the children of ",
       {
-        "text": "Hassophereth, the children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -702,8 +707,8 @@
     "chapter": 2,
     "verse": 57,
     "content": [
+      "the children of Shephatiah, the children of Hattil, the children of Pochereth-hazzebaim, the children of ",
       {
-        "text": "the children of Shephatiah, the children of Hattil, the children of Pochereth-hazzebaim, the children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -731,7 +736,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And these were they that went up from Tel-melah, Tel-harsha, Cherub, ",
+        "text": "And these were they that went up from Tel-melah, Tel-harsha, Cherub, "
+      },
+      {
         "foot": {
           "type": "stu",
           "content": [
@@ -759,8 +766,8 @@
     "chapter": 2,
     "verse": 61,
     "content": [
+      "And of the children of the priests: the children of ",
       {
-        "text": "And of the children of the priests: the children of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -782,8 +789,8 @@
     "content": [
       "These sought their register ",
       { "text": "among", "marks": ["i"] },
+      " those that were reckoned by genealogy, but they were not found: therefore ",
       {
-        "text": " those that were reckoned by genealogy, but they were not found: therefore ",
         "foot": {
           "type": "trn",
           "content": [
@@ -851,8 +858,8 @@
     "chapter": 2,
     "verse": 69,
     "content": [
+      "they gave after their ability into the treasury of the work threescore and one thousand darics of gold, and five thousand ",
       {
-        "text": "they gave after their ability into the treasury of the work threescore and one thousand darics of gold, and five thousand ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "maneh", "marks": ["i"] }, "."]
@@ -890,8 +897,8 @@
     "chapter": 3,
     "verse": 3,
     "content": [
+      "And they set the altar ",
       {
-        "text": "And they set the altar ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in its place", "marks": ["i"] }]
@@ -931,8 +938,8 @@
     "chapter": 3,
     "verse": 7,
     "content": [
+      "They gave money also unto the ",
       {
-        "text": "They gave money also unto the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "hewers", "marks": ["i"] }]
@@ -948,7 +955,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Now in the second year of their coming unto the house of God at Jerusalem, in the second month, began Zerubbabel the son of Shealtiel, and Jeshua the son of Jozadak, and the rest of their brethren the priests and the Levites, and all they that were come out of the captivity unto Jerusalem, and appointed the Levites, from twenty years old and upward, to ",
+        "text": "Now in the second year of their coming unto the house of God at Jerusalem, in the second month, began Zerubbabel the son of Shealtiel, and Jeshua the son of Jozadak, and the rest of their brethren the priests and the Levites, and all they that were come out of the captivity unto Jerusalem, and appointed the Levites, from twenty years old and upward, to "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -965,8 +974,8 @@
     "chapter": 3,
     "verse": 9,
     "content": [
+      "Then stood Jeshua with his sons and his brethren, Kadmiel and his sons, the sons of ",
       {
-        "text": "Then stood Jeshua with his sons and his brethren, Kadmiel and his sons, the sons of ",
         "foot": {
           "type": "stu",
           "content": [
@@ -978,8 +987,8 @@
           ]
         }
       },
+      "Judah, ",
       {
-        "text": "Judah, ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "as one", "marks": ["i"] }, "."]
@@ -993,8 +1002,8 @@
     "chapter": 3,
     "verse": 10,
     "content": [
+      "And when the builders laid the foundation of the temple of Jehovah, ",
       {
-        "text": "And when the builders laid the foundation of the temple of Jehovah, ",
         "foot": {
           "type": "var",
           "content": [
@@ -1026,8 +1035,8 @@
     "content": [
       "But many of the priests and Levites and heads of fathers’ ",
       { "text": "houses", "marks": ["i"] },
+      ", the old men that had seen ",
       {
-        "text": ", the old men that had seen ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1066,8 +1075,8 @@
     "content": [
       "then they drew near to Zerubbabel, and to the heads of fathers’ ",
       { "text": "houses", "marks": ["i"] },
+      ", and said unto them, Let us build with you; for we seek your God, as ye do; ",
       {
-        "text": ", and said unto them, Let us build with you; for we seek your God, as ye do; ",
         "foot": {
           "type": "var",
           "content": [
@@ -1094,8 +1103,8 @@
     "chapter": 4,
     "verse": 4,
     "content": [
+      "Then the people of the land weakened the hands of the people of Judah, and ",
       {
-        "text": "Then the people of the land weakened the hands of the people of Judah, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "terrified", "marks": ["i"] }]
@@ -1115,8 +1124,8 @@
     "chapter": 4,
     "verse": 6,
     "content": [
+      "And in the reign of ",
       {
-        "text": "And in the reign of ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1136,9 +1145,8 @@
     "chapter": 4,
     "verse": 7,
     "content": [
+      { "paragraph": true, "text": "And in the days of " },
       {
-        "paragraph": true,
-        "text": "And in the days of ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1148,8 +1156,8 @@
           ]
         }
       },
+      "Artaxerxes wrote Bishlam, Mithredath, Tabeel, and the rest of his companions, unto Artaxerxes king of Persia; and the writing of the letter was written in the ",
       {
-        "text": "Artaxerxes wrote Bishlam, Mithredath, Tabeel, and the rest of his companions, unto Artaxerxes king of Persia; and the writing of the letter was written in the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Aramaic", "marks": ["i"] }]
@@ -1157,8 +1165,8 @@
       },
       "Syrian ",
       { "text": "character", "marks": ["i"] },
+      ", and set forth in the ",
       {
-        "text": ", and set forth in the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Aramaic", "marks": ["i"] }]
@@ -1253,8 +1261,8 @@
     "verse": 17,
     "content": [
       { "paragraph": true, "text": "Then", "marks": ["i"] },
+      " sent the king an answer unto Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions that dwell in Samaria, and ",
       {
-        "text": " sent the king an answer unto Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions that dwell in Samaria, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1273,8 +1281,8 @@
     "chapter": 4,
     "verse": 18,
     "content": [
+      "The letter which ye sent unto us hath been ",
       {
-        "text": "The letter which ye sent unto us hath been ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "translated", "marks": ["i"] }]
@@ -1333,7 +1341,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Now the prophets, Haggai the prophet, and Zechariah the son of Iddo, prophesied unto the Jews that were in Judah and Jerusalem; in the name of the God of Israel ",
+        "text": "Now the prophets, Haggai the prophet, and Zechariah the son of Iddo, prophesied unto the Jews that were in Judah and Jerusalem; in the name of the God of Israel "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, which was ", { "text": "upon them", "marks": ["i"] }]
@@ -1366,8 +1376,8 @@
     "chapter": 5,
     "verse": 5,
     "content": [
+      "But the eye of their God was upon the elders of the Jews, and they did not make them cease, till the matter should come to Darius, and then ",
       {
-        "text": "But the eye of their God was upon the elders of the Jews, and they did not make them cease, till the matter should come to Darius, and then ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1423,8 +1433,8 @@
     "chapter": 5,
     "verse": 12,
     "content": [
+      "But ",
       {
-        "text": "But ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "because that", "marks": ["i"] }]
@@ -1470,7 +1480,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Then Darius the king made a decree, and search was made in the house of the ",
+        "text": "Then Darius the king made a decree, and search was made in the house of the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Aramaic ", { "text": "books", "marks": ["i"] }, "."]
@@ -1484,8 +1496,8 @@
     "chapter": 6,
     "verse": 2,
     "content": [
+      "And there was found at ",
       {
-        "text": "And there was found at ",
         "foot": {
           "type": "stu",
           "content": ["That is, ", { "text": "Ecbatana", "marks": ["i"] }, "."]
@@ -1519,7 +1531,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Now therefore, Tattenai, governor beyond the River, Shethar-bozenai, and ",
+        "text": "Now therefore, Tattenai, governor beyond the River, Shethar-bozenai, and "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Aramaic ", { "text": "their", "marks": ["i"] }, "."]
@@ -1579,7 +1593,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Then Tattenai, the governor beyond the River, Shethar-bozenai, and their companions, ",
+        "text": "Then Tattenai, the governor beyond the River, Shethar-bozenai, and their companions, "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -1642,8 +1658,8 @@
     "chapter": 6,
     "verse": 20,
     "content": [
+      "For the priests and the Levites had purified themselves ",
       {
-        "text": "For the priests and the Levites had purified themselves ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "as one", "marks": ["i"] }, "."]
@@ -1722,8 +1738,8 @@
     "content": [
       "For upon the first ",
       { "text": "day", "marks": ["i"] },
+      " of the first month ",
       {
-        "text": " of the first month ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1784,8 +1800,8 @@
     "chapter": 7,
     "verse": 14,
     "content": [
+      "Forasmuch as thou art sent ",
       {
-        "text": "Forasmuch as thou art sent ",
         "foot": {
           "type": "trn",
           "content": [
@@ -1845,8 +1861,8 @@
     "chapter": 7,
     "verse": 22,
     "content": [
+      "unto a hundred talents of silver, and to a hundred ",
       {
-        "text": "unto a hundred talents of silver, and to a hundred ",
         "foot": {
           "type": "trn",
           "content": ["Aramaic ", { "text": "cors", "marks": ["i"] }, "."]
@@ -1878,8 +1894,8 @@
     "chapter": 7,
     "verse": 26,
     "content": [
+      "And whosoever will not do the law of thy God, and the law of the king, let judgment be executed upon him with all diligence, whether it be unto death, or to ",
       {
-        "text": "And whosoever will not do the law of thy God, and the law of the king, let judgment be executed upon him with all diligence, whether it be unto death, or to ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2001,8 +2017,8 @@
     "chapter": 8,
     "verse": 14,
     "content": [
+      "And of the sons of Bigvai, Uthai and ",
       {
-        "text": "And of the sons of Bigvai, Uthai and ",
         "foot": {
           "type": "var",
           "content": [
@@ -2029,8 +2045,8 @@
     "chapter": 8,
     "verse": 16,
     "content": [
+      "Then sent I for Eliezer, for Ariel, for Shemaiah, and for Elnathan, and for Jarib, and for Elnathan, and for Nathan, and for Zechariah, and for Meshullam, chief men; also for Joiarib, and for Elnathan, ",
       {
-        "text": "Then sent I for Eliezer, for Ariel, for Shemaiah, and for Elnathan, and for Jarib, and for Elnathan, and for Nathan, and for Zechariah, and for Meshullam, chief men; also for Joiarib, and for Elnathan, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2047,8 +2063,8 @@
     "chapter": 8,
     "verse": 17,
     "content": [
+      "And ",
       {
-        "text": "And ",
         "foot": {
           "type": "var",
           "content": [
@@ -2058,8 +2074,8 @@
           ]
         }
       },
+      "I sent them forth unto Iddo the chief at the place Casiphia; and I told them what they should say unto ",
       {
-        "text": "I sent them forth unto Iddo the chief at the place Casiphia; and I told them what they should say unto ",
         "foot": {
           "type": "stu",
           "content": [
@@ -2079,8 +2095,8 @@
     "chapter": 8,
     "verse": 18,
     "content": [
+      "And according to the good hand of our God upon us they brought us ",
       {
-        "text": "And according to the good hand of our God upon us they brought us ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Ish-sechel", "marks": ["i"] }]
@@ -2129,7 +2145,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Then I set apart twelve of the chiefs of the ",
+        "text": "Then I set apart twelve of the chiefs of the "
+      },
+      {
         "foot": {
           "type": "stu",
           "content": [
@@ -2141,8 +2159,8 @@
           ]
         }
       },
+      "priests, ",
       {
-        "text": "priests, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "besides", "marks": ["i"] }]
@@ -2215,8 +2233,8 @@
     "chapter": 8,
     "verse": 33,
     "content": [
+      "And on the fourth day the silver and the gold and the vessels were weighed in the house of our God ",
       {
-        "text": "And on the fourth day the silver and the gold and the vessels were weighed in the house of our God ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "by", "marks": ["i"] }]
@@ -2264,15 +2282,15 @@
     "chapter": 9,
     "verse": 2,
     "content": [
+      "For they have taken of their daughters for themselves and for their sons, so that the holy seed have mingled themselves with the peoples of the lands: yea, the hand of the princes and ",
       {
-        "text": "For they have taken of their daughters for themselves and for their sons, so that the holy seed have mingled themselves with the peoples of the lands: yea, the hand of the princes and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
         }
       },
+      "rulers hath been ",
       {
-        "text": "rulers hath been ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "first", "marks": ["i"] }]
@@ -2300,7 +2318,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And at the evening oblation I arose up from my ",
+        "text": "And at the evening oblation I arose up from my "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "fasting", "marks": ["i"] }]
@@ -2320,8 +2340,8 @@
     "chapter": 9,
     "verse": 7,
     "content": [
+      "Since the days of our fathers we have been ",
       {
-        "text": "Since the days of our fathers we have been ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2345,15 +2365,15 @@
     "chapter": 9,
     "verse": 9,
     "content": [
+      "For we are bondmen; yet our God hath not forsaken us in our bondage, but hath extended lovingkindness unto us in the sight of the kings of Persia, to give us a reviving, to set up the house of our God, and to repair the ",
       {
-        "text": "For we are bondmen; yet our God hath not forsaken us in our bondage, but hath extended lovingkindness unto us in the sight of the kings of Persia, to give us a reviving, to set up the house of our God, and to repair the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "waste places", "marks": ["i"] }]
         }
       },
+      "ruins thereof, and to give us a ",
       {
-        "text": "ruins thereof, and to give us a ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "fence", "marks": ["i"] }]
@@ -2418,8 +2438,8 @@
     "chapter": 10,
     "verse": 3,
     "content": [
+      "Now therefore let us make a covenant with our God to put away all the wives, and such as are born of them, according to the counsel of ",
       {
-        "text": "Now therefore let us make a covenant with our God to put away all the wives, and such as are born of them, according to the counsel of ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "the Lord", "marks": ["i"] }]
@@ -2464,8 +2484,8 @@
     "chapter": 10,
     "verse": 8,
     "content": [
+      "and that whosoever came not within three days, according to the counsel of the princes and the elders, all his substance should be ",
       {
-        "text": "and that whosoever came not within three days, according to the counsel of the princes and the elders, all his substance should be ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "devoted", "marks": ["i"] }, "."]
@@ -2484,8 +2504,8 @@
         "text": "Then all the men of Judah and Benjamin gathered themselves together unto Jerusalem within the three days (it was the ninth month, on the twentieth "
       },
       { "text": "day", "marks": ["i"] },
+      " of the month); and all the people sat in the broad place before the house of God, trembling because of this matter, and for ",
       {
-        "text": " of the month); and all the people sat in the broad place before the house of God, trembling because of this matter, and for ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "the rains", "marks": ["i"] }, "."]
@@ -2505,8 +2525,8 @@
     "chapter": 10,
     "verse": 11,
     "content": [
+      "Now therefore ",
       {
-        "text": "Now therefore ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "give thanks", "marks": ["i"] }]
@@ -2520,8 +2540,8 @@
     "chapter": 10,
     "verse": 12,
     "content": [
+      "Then all the assembly answered and said with a loud voice, ",
       {
-        "text": "Then all the assembly answered and said with a loud voice, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2547,15 +2567,15 @@
     "chapter": 10,
     "verse": 14,
     "content": [
+      "Let now our princes ",
       {
-        "text": "Let now our princes ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "stand", "marks": ["i"] }, "."]
         }
       },
+      "be appointed for all the assembly, and let all them that are in our cities that have married foreign women come at appointed times, and with them the elders of every city, and the judges thereof, until the fierce wrath of our God be turned from us, ",
       {
-        "text": "be appointed for all the assembly, and let all them that are in our cities that have married foreign women come at appointed times, and with them the elders of every city, and the judges thereof, until the fierce wrath of our God be turned from us, ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2572,8 +2592,8 @@
     "chapter": 10,
     "verse": 15,
     "content": [
+      "Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah ",
       {
-        "text": "Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah ",
         "foot": {
           "type": "trn",
           "content": [
@@ -2699,8 +2719,8 @@
     "chapter": 10,
     "verse": 29,
     "content": [
+      "And of the sons of Bani: Meshullam, Malluch, and Adaiah, Jashub, and Sheal, ",
       {
-        "text": "And of the sons of Bani: Meshullam, Malluch, and Adaiah, Jashub, and Sheal, ",
         "foot": {
           "type": "var",
           "content": [
@@ -2751,8 +2771,8 @@
     "chapter": 10,
     "verse": 35,
     "content": [
+      "Benaiah, Bedeiah, ",
       {
-        "text": "Benaiah, Bedeiah, ",
         "foot": {
           "type": "var",
           "content": [
@@ -2775,8 +2795,8 @@
     "chapter": 10,
     "verse": 37,
     "content": [
+      "Mattaniah, Mattenai, and ",
       {
-        "text": "Mattaniah, Mattenai, and ",
         "foot": {
           "type": "var",
           "content": [
@@ -2823,8 +2843,8 @@
     "chapter": 10,
     "verse": 43,
     "content": [
+      "Of the sons of Nebo: Jeiel, Mattithiah, Zabad, Zebina, ",
       {
-        "text": "Of the sons of Nebo: Jeiel, Mattithiah, Zabad, Zebina, ",
         "foot": {
           "type": "var",
           "content": [
@@ -2841,8 +2861,8 @@
     "chapter": 10,
     "verse": 44,
     "content": [
+      "All these had taken foreign wives; and ",
       {
-        "text": "All these had taken foreign wives; and ",
         "foot": {
           "type": "trn",
           "content": [

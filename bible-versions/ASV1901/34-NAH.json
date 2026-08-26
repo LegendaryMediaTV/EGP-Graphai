@@ -4,9 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "The " },
       {
-        "paragraph": true,
-        "text": "The ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "oracle concerning", "marks": ["i"] }]
@@ -82,8 +81,8 @@
     "chapter": 1,
     "verse": 10,
     "content": [
+      "For entangled like thorns, and drunken as with their drink, they are consumed ",
       {
-        "text": "For entangled like thorns, and drunken as with their drink, they are consumed ",
         "foot": {
           "type": "trn",
           "content": [
@@ -100,15 +99,15 @@
     "chapter": 1,
     "verse": 11,
     "content": [
+      "There is one gone forth out of thee, that deviseth evil against Jehovah, ",
       {
-        "text": "There is one gone forth out of thee, that deviseth evil against Jehovah, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a wicked counsellor", "marks": ["i"] }]
         }
       },
+      "that counselleth ",
       {
-        "text": "that counselleth ",
         "foot": {
           "type": "trn",
           "content": [
@@ -128,8 +127,8 @@
     "chapter": 1,
     "verse": 12,
     "content": [
+      "Thus saith Jehovah: Though they be in full strength, and likewise many, even so shall they be cut down, and he shall pass away. ",
       {
-        "text": "Thus saith Jehovah: Though they be in full strength, and likewise many, even so shall they be cut down, and he shall pass away. ",
         "foot": {
           "type": "trn",
           "content": [
@@ -166,7 +165,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Behold, upon the mountains the feet of him that bringeth good tidings, that publisheth peace! Keep thy feasts, O Judah, perform thy vows; for ",
+        "text": "Behold, upon the mountains the feet of him that bringeth good tidings, that publisheth peace! Keep thy feasts, O Judah, perform thy vows; for "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -201,8 +202,8 @@
     "chapter": 2,
     "verse": 3,
     "content": [
+      "The shield of his mighty men is made red, the valiant men are in scarlet: the chariots ",
       {
-        "text": "The shield of his mighty men is made red, the valiant men are in scarlet: the chariots ",
         "foot": {
           "type": "trn",
           "content": [
@@ -212,8 +213,8 @@
           ]
         }
       },
+      "flash with steel in the day of his preparation, and the ",
       {
-        "text": "flash with steel in the day of his preparation, and the ",
         "foot": {
           "type": "trn",
           "content": [
@@ -260,15 +261,15 @@
           ]
         }
       },
+      "And it is decreed: she is uncovered, she is carried away; and her handmaids ",
       {
-        "text": "And it is decreed: she is uncovered, she is carried away; and her handmaids ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "lead", "marks": ["i"] }, " her"]
         }
       },
+      "moan as with the voice of doves, beating upon their ",
       {
-        "text": "moan as with the voice of doves, beating upon their ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "hearts", "marks": ["i"] }, "."]
@@ -282,9 +283,8 @@
     "chapter": 2,
     "verse": 8,
     "content": [
+      { "paragraph": true, "text": "But Nineveh hath been " },
       {
-        "paragraph": true,
-        "text": "But Nineveh hath been ",
         "foot": {
           "type": "trn",
           "content": [
@@ -298,8 +298,8 @@
       },
       "from of old like a pool of water: yet they flee away. Stand, stand, ",
       { "text": "they cry", "marks": ["i"] },
+      "; but none ",
       {
-        "text": "; but none ",
         "foot": {
           "type": "trn",
           "content": [
@@ -318,8 +318,8 @@
     "chapter": 2,
     "verse": 9,
     "content": [
+      "Take ye the spoil of silver, take the spoil of gold; for there is no end of the store, the ",
       {
-        "text": "Take ye the spoil of silver, take the spoil of gold; for there is no end of the store, the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "wealth", "marks": ["i"] }]
@@ -376,8 +376,8 @@
     "chapter": 3,
     "verse": 3,
     "content": [
+      "the horseman ",
       {
-        "text": "the horseman ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "charging", "marks": ["i"] }]
@@ -397,8 +397,8 @@
     "chapter": 3,
     "verse": 5,
     "content": [
+      "Behold, I am against thee, saith Jehovah of hosts, and I will uncover thy skirts ",
       {
-        "text": "Behold, I am against thee, saith Jehovah of hosts, and I will uncover thy skirts ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "before", "marks": ["i"] }]
@@ -426,7 +426,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Art thou better than No-amon, that was situate among the ",
+        "text": "Art thou better than No-amon, that was situate among the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": [
@@ -438,10 +440,8 @@
           ]
         }
       },
-      {
-        "text": "rivers, that had the waters round about her; whose rampart was ",
-        "foot": { "type": "stu", "content": "That is, the Nile" }
-      },
+      "rivers, that had the waters round about her; whose rampart was ",
+      { "foot": { "type": "stu", "content": "That is, the Nile" } },
       "the sea, ",
       { "text": "and", "marks": ["i"] },
       " her wall was of the sea?"
@@ -464,8 +464,8 @@
     "chapter": 3,
     "verse": 11,
     "content": [
+      "Thou also shalt be drunken; thou shalt be hid; thou also shalt seek ",
       {
-        "text": "Thou also shalt be drunken; thou shalt be hid; thou also shalt seek ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "a defence against", "marks": ["i"] }]
@@ -495,8 +495,8 @@
     "chapter": 3,
     "verse": 14,
     "content": [
+      "Draw thee water for the siege; strengthen thy fortresses; go into the clay, and tread the mortar; ",
       {
-        "text": "Draw thee water for the siege; strengthen thy fortresses; go into the clay, and tread the mortar; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -519,8 +519,8 @@
     "chapter": 3,
     "verse": 16,
     "content": [
+      "Thou hast multiplied thy merchants above the stars of heaven: the canker-worm ",
       {
-        "text": "Thou hast multiplied thy merchants above the stars of heaven: the canker-worm ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "spreadeth himself", "marks": ["i"] }]
@@ -534,15 +534,15 @@
     "chapter": 3,
     "verse": 17,
     "content": [
+      "Thy princes are as the locusts, and thy ",
       {
-        "text": "Thy princes are as the locusts, and thy ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "scribes", "marks": ["i"] }]
         }
       },
+      "marshals as the swarms of grasshoppers, which encamp in the ",
       {
-        "text": "marshals as the swarms of grasshoppers, which encamp in the ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "walls", "marks": ["i"] }]

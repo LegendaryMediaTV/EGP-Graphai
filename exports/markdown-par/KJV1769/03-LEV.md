@@ -1027,12 +1027,12 @@ This _is_ the thing which the LORD hath commanded, saying,
 <sup>9</sup> And it shall be Aaron’s and his sons’; and they shall eat it in the holy place: for it _is_ most holy unto him of the offerings of the LORD made by fire by a perpetual statute.
 
 <sup>10</sup> And the son of an Israelitish woman, whose father _was_ an Egyptian, went out among the children of Israel: and this son of the Israelitish _woman_ and a man of Israel strove together in the camp;
-<sup>11</sup> and the Israelitish woman’s son blasphemed the name _of the_ _LORD_, and cursed. And they brought him unto Moses: (and his mother’s name _was_ Shelomith, the daughter of Dibri, of the tribe of Dan:)
+<sup>11</sup> and the Israelitish woman’s son blasphemed the name _of the LORD_, and cursed. And they brought him unto Moses: (and his mother’s name _was_ Shelomith, the daughter of Dibri, of the tribe of Dan:)
 <sup>12</sup> and they put him in ward, that the mind of the LORD might be shewed them.<sup>a</sup>
 <sup>13</sup> And the LORD spake unto Moses, saying,
 <sup>14</sup> Bring forth him that hath cursed without the camp; and let all that heard _him_ lay their hands upon his head, and let all the congregation stone him.
 <sup>15</sup> And thou shalt speak unto the children of Israel, saying, Whosoever curseth his God shall bear his sin.
-<sup>16</sup> And he that blasphemeth the name of the LORD, he shall surely be put to death, _and_ all the congregation shall certainly stone him: as well the stranger, as he that is born in the land, when he blasphemeth the name _of the_ _LORD_, shall be put to death.
+<sup>16</sup> And he that blasphemeth the name of the LORD, he shall surely be put to death, _and_ all the congregation shall certainly stone him: as well the stranger, as he that is born in the land, when he blasphemeth the name _of the LORD_, shall be put to death.
 
 <sup>17</sup> And he that killeth any man<sup>b</sup> shall surely be put to death.
 <sup>18</sup> And he that killeth a beast shall make it good; beast for beast.<sup>c</sup>

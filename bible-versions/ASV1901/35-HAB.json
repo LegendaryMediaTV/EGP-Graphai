@@ -4,9 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "The " },
       {
-        "paragraph": true,
-        "text": "The ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "oracle", "marks": ["i"] }]
@@ -29,8 +28,8 @@
     "chapter": 1,
     "verse": 3,
     "content": [
+      "Why dost thou show me iniquity, and ",
       {
-        "text": "Why dost thou show me iniquity, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -49,8 +48,8 @@
     "chapter": 1,
     "verse": 4,
     "content": [
+      "Therefore the law is slacked, and justice ",
       {
-        "text": "Therefore the law is slacked, and justice ",
         "foot": {
           "type": "trn",
           "content": [
@@ -69,7 +68,9 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Behold ye among the nations, and look, and wonder marvellously; for ",
+        "text": "Behold ye among the nations, and look, and wonder marvellously; for "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "one worketh", "marks": ["i"] }]
@@ -111,8 +112,8 @@
     "chapter": 1,
     "verse": 8,
     "content": [
+      "Their horses also are swifter than leopards, and are more fierce than the evening wolves; and their horsemen ",
       {
-        "text": "Their horses also are swifter than leopards, and are more fierce than the evening wolves; and their horsemen ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "spread themselves", "marks": ["i"] }]
@@ -126,8 +127,8 @@
     "chapter": 1,
     "verse": 9,
     "content": [
+      "They come all of them for violence; ",
       {
-        "text": "They come all of them for violence; ",
         "foot": {
           "type": "trn",
           "content": [
@@ -140,8 +141,8 @@
           ]
         }
       },
+      "the set of their faces is ",
       {
-        "text": "the set of their faces is ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "towards the east", "marks": ["i"] }]
@@ -183,8 +184,8 @@
       },
       "Then shall he sweep by ",
       { "text": "as", "marks": ["i"] },
+      " a wind, and shall ",
       {
-        "text": " a wind, and shall ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "transgress", "marks": ["i"] }]
@@ -227,8 +228,8 @@
     "chapter": 1,
     "verse": 16,
     "content": [
+      "Therefore he sacrificeth unto his net, and burneth incense unto his drag; because by them his portion is fat, and his food ",
       {
-        "text": "Therefore he sacrificeth unto his net, and burneth incense unto his drag; because by them his portion is fat, and his food ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "fat", "marks": ["i"] }, "."]
@@ -250,14 +251,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "I will stand upon my watch, and set me upon the ",
+        "text": "I will stand upon my watch, and set me upon the "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "fortress", "marks": ["i"] }]
         }
       },
+      "tower, and will look forth to see what he will speak ",
       {
-        "text": "tower, and will look forth to see what he will speak ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "by", "marks": ["i"] }]
@@ -277,8 +280,8 @@
     "chapter": 2,
     "verse": 3,
     "content": [
+      "For the vision is yet for the appointed time, and it ",
       {
-        "text": "For the vision is yet for the appointed time, and it ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "panteth", "marks": ["i"] }, "."]
@@ -294,14 +297,16 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Behold, his soul is puffed up, it is not ",
+        "text": "Behold, his soul is puffed up, it is not "
+      },
+      {
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "straight", "marks": ["i"] }]
         }
       },
+      "upright in him; but the righteous shall live ",
       {
-        "text": "upright in him; but the righteous shall live ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "in his faithfulness", "marks": ["i"] }]
@@ -321,14 +326,14 @@
           "content": [
             "Or, ",
             {
-              "text": "And also because his wine . . . he is a haughty man",
+              "text": "And also because his wine … he is a haughty man",
               "marks": ["i"]
             }
           ]
         }
       },
+      "Yea, moreover, wine is treacherous, a haughty man, ",
       {
-        "text": "Yea, moreover, wine is treacherous, a haughty man, ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "he shall not abide", "marks": ["i"] }]
@@ -342,8 +347,8 @@
     "chapter": 2,
     "verse": 6,
     "content": [
+      "Shall not all these take up a parable against him, and a taunting ",
       {
-        "text": "Shall not all these take up a parable against him, and a taunting ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "riddle", "marks": ["i"] }]
@@ -357,15 +362,15 @@
     "chapter": 2,
     "verse": 7,
     "content": [
+      "Shall they not rise up suddenly that shall ",
       {
-        "text": "Shall they not rise up suddenly that shall ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "exact usury of thee", "marks": ["i"] }]
         }
       },
+      "bite thee, and awake that shall ",
       {
-        "text": "bite thee, and awake that shall ",
         "foot": {
           "type": "trn",
           "content": [
@@ -435,15 +440,15 @@
         "text": "Woe unto him that giveth his neighbor drink, "
       },
       { "text": "to thee", "marks": ["i"] },
+      " that ",
       {
-        "text": " that ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "pourest", "marks": ["i"] }]
         }
       },
+      "addest thy ",
       {
-        "text": "addest thy ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "fury", "marks": ["i"] }]
@@ -457,8 +462,8 @@
     "chapter": 2,
     "verse": 16,
     "content": [
+      "Thou art filled with shame, and not glory: drink thou also, and ",
       {
-        "text": "Thou art filled with shame, and not glory: drink thou also, and ",
         "foot": {
           "type": "trn",
           "content": [
@@ -496,8 +501,8 @@
     "chapter": 2,
     "verse": 20,
     "content": [
+      "But Jehovah is in his holy temple: ",
       {
-        "text": "But Jehovah is in his holy temple: ",
         "foot": {
           "type": "trn",
           "content": [
@@ -525,15 +530,15 @@
     "chapter": 3,
     "verse": 2,
     "content": [
+      "O Jehovah, I have heard ",
       {
-        "text": "O Jehovah, I have heard ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "thy fame", "marks": ["i"] }]
         }
       },
+      "the report of thee, and ",
       {
-        "text": "the report of thee, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "was", "marks": ["i"] }]
@@ -553,8 +558,8 @@
     "chapter": 3,
     "verse": 3,
     "content": [
+      "God ",
       {
-        "text": "God ",
         "foot": {
           "type": "trn",
           "content": [
@@ -581,8 +586,8 @@
       "And ",
       { "text": "his", "marks": ["i"] },
       { "text": " brightness was as the light;", "break": true },
+      "He had ",
       {
-        "text": "He had ",
         "foot": {
           "type": "trn",
           "content": ["Hebrew ", { "text": "horns", "marks": ["i"] }, "."]
@@ -607,8 +612,8 @@
     "verse": 5,
     "content": [
       { "text": "Before him went the pestilence,", "break": true },
+      "And ",
       {
-        "text": "And ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "burning coals", "marks": ["i"] }]
@@ -622,8 +627,8 @@
     "chapter": 3,
     "verse": 6,
     "content": [
+      "He stood, and ",
       {
-        "text": "He stood, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "shook", "marks": ["i"] }]
@@ -706,8 +711,8 @@
     "chapter": 3,
     "verse": 10,
     "content": [
+      "The mountains saw thee, and ",
       {
-        "text": "The mountains saw thee, and ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "were in pain", "marks": ["i"] }]
@@ -749,8 +754,8 @@
     "chapter": 3,
     "verse": 13,
     "content": [
+      "Thou ",
       {
-        "text": "Thou ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "art come", "marks": ["i"] }]
@@ -785,8 +790,8 @@
           ]
         }
       },
+      "Thou ",
       {
-        "text": "Thou ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "hast wounded", "marks": ["i"] }]
@@ -805,15 +810,15 @@
     "chapter": 3,
     "verse": 14,
     "content": [
+      "Thou ",
       {
-        "text": "Thou ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "hast pierced", "marks": ["i"] }]
         }
       },
+      "didst pierce with his own staves the head of his ",
       {
-        "text": "didst pierce with his own staves the head of his ",
         "foot": {
           "type": "trn",
           "content": [
@@ -837,16 +842,16 @@
     "chapter": 3,
     "verse": 15,
     "content": [
+      "Thou ",
       {
-        "text": "Thou ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "hast trodden", "marks": ["i"] }]
         }
       },
       { "text": "didst tread the sea with thy horses,", "break": true },
+      "The ",
       {
-        "text": "The ",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "surge", "marks": ["i"] }]

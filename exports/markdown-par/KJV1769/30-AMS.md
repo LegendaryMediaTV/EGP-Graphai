@@ -34,7 +34,7 @@
 <sup>15</sup> and their king shall go into captivity, he and his princes together, saith the LORD.
 
 > - <sup>a</sup> 3. Or, _he for four_
-> - <sup>b</sup> 3. Or, _convert it_, or _let it be quiet. And so_ _ver. 6_
+> - <sup>b</sup> 3. Or, _convert it_, or _let it be quiet. And so ver. 6_
 > - <sup>c</sup> 5. Or, _Bikathaven_
 > - <sup>d</sup> 5. Or, _Betheden_
 > - <sup>e</sup> 6. Or, _carried them away with an entire captivity_

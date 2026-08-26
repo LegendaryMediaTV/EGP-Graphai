@@ -5419,20 +5419,13 @@
       { "text": " fool", "strong": "H191" },
       {
         "text": " shall fall.",
+        "break": true,
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "shall be beaten", "marks": ["i"] }]
         },
         "strong": "H3832",
         "morph": "NiphImpf"
-      },
-      {
-        "text": "",
-        "break": true,
-        "foot": {
-          "type": "trn",
-          "content": ["Or, ", { "text": "shall be beaten", "marks": ["i"] }]
-        }
       }
     ]
   },

@@ -67,7 +67,7 @@
 > - <sup>c</sup> 3. Hebrew _panteth_.
 > - <sup>d</sup> 4. Or, _straight_
 > - <sup>e</sup> 4. Or, _in his faithfulness_
-> - <sup>f</sup> 5. Or, _And also because his wine . . . he is a haughty man_
+> - <sup>f</sup> 5. Or, _And also because his wine … he is a haughty man_
 > - <sup>g</sup> 5. Or, _he shall not abide_
 > - <sup>h</sup> 6. Or, _riddle_
 > - <sup>i</sup> 7. Or, _exact usury of thee_

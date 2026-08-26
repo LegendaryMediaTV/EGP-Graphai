@@ -187,7 +187,7 @@ Then he came into a house.
 <sup>19</sup> and the cares of this age, and the deceitfulness of riches, and the lusts of other things entering in choke the word, and it becomes unfruitful.
 <sup>20</sup> Those which were sown on the good ground are those who hear the word, accept it, and bear fruit, some thirty times, some sixty times, and some one hundred times.”
 
-<sup>21</sup> He said to them, “Is a lamp brought to be put under a basket <sup>c</sup> or under a bed? Isn’t it put on a stand?
+<sup>21</sup> He said to them, “Is a lamp brought to be put under a basket<sup>c</sup> or under a bed? Isn’t it put on a stand?
 <sup>22</sup> For there is nothing hidden except that it should be made known, neither was anything made secret but that it should come to light.
 <sup>23</sup> If any man has ears to hear, let him hear.”
 
@@ -567,9 +567,9 @@ He said, “From childhood.
 <sup>41</sup> For whoever will give you a cup of water to drink in my name because you are Christ’s, most certainly I tell you, he will in no way lose his reward.
 
 <sup>42</sup> “Whoever will cause one of these little ones who believe in me to stumble, it would be better for him if he were thrown into the sea with a millstone hung around his neck.
-<sup>43</sup> If your hand causes you to stumble, cut it off. It is better for you to enter into life maimed, rather than having your two hands to go into Gehenna, <sup>a</sup> into the unquenchable fire,
-<sup>44</sup> ‘where their worm doesn’t die, and the fire is not quenched.’ <sup>b</sup><sup>c</sup>
-<sup>45</sup> If your foot causes you to stumble, cut it off. It is better for you to enter into life lame, rather than having your two feet to be cast into Gehenna, <sup>d</sup> into the fire that will never be quenched—
+<sup>43</sup> If your hand causes you to stumble, cut it off. It is better for you to enter into life maimed, rather than having your two hands to go into Gehenna,<sup>a</sup> into the unquenchable fire,
+<sup>44</sup> ‘where their worm doesn’t die, and the fire is not quenched.’<sup>b</sup><sup>c</sup>
+<sup>45</sup> If your foot causes you to stumble, cut it off. It is better for you to enter into life lame, rather than having your two feet to be cast into Gehenna,<sup>d</sup> into the fire that will never be quenched—
 <sup>46</sup> ‘where their worm doesn’t die, and the fire is not quenched.’<sup>e</sup>
 <sup>47</sup> If your eye causes you to stumble, throw it out. It is better for you to enter into God’s Kingdom with one eye, rather than having two eyes to be cast into the Gehenna<sup>f</sup> of fire,
 <sup>48</sup> ‘where their worm doesn’t die, and the fire is not quenched.’<sup>g</sup>

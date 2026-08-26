@@ -1,3 +1,6 @@
+import Content from "../types/Content";
+import { mapContentText } from "./mapContentText";
+
 /**
  * Write every fraction in raw source text the one way this repo writes
  * fractions: superscript numerator, U+2044 FRACTION SLASH, subscript
@@ -9,7 +12,12 @@
  * This module is the one git-tracked home for the convention. The USFM
  * importer, a corpus-wide validation check, and the gitignored one-time
  * correction scripts under `imports/corrections/` all import from here
- * rather than redefining any part of it.
+ * rather than redefining any part of it. {@link normalizeFractionsInContent},
+ * further down, applies this convention across a whole content tree via
+ * {@link mapContentText} (`functions/mapContentText.ts`) — the traversal
+ * itself lives there now, shared with `functions/normalizeEllipses.ts`,
+ * since the only thing that differs between the two is which string
+ * function runs at the leaves.
  */
 
 // ---------------------------------------------------------------------------
@@ -191,3 +199,40 @@ export function normalizeFractionText(text: string): FractionNormalization {
 
   return { changes, value };
 }
+
+// ---------------------------------------------------------------------------
+// The content-tree walker
+// ---------------------------------------------------------------------------
+
+/**
+ * Walks a content tree and normalizes every fraction it finds, via
+ * {@link normalizeFractionText} above — the same conversion the USFM
+ * importer applies on the way in and `auditNodes.ts`'s fraction check checks
+ * against.
+ *
+ * The traversal itself — which branches of a node hold rewritable text —
+ * lives in {@link mapContentText} (`functions/mapContentText.ts`), the one
+ * shared walker this module and `functions/normalizeEllipses.ts` both build
+ * on; this function supplies only the leaf-level rewrite. See that module's
+ * own doc comment for exactly which branches it follows and why a
+ * `bibleLink`'s own display-content override is excluded from the walk.
+ *
+ * Only ever rewrites an existing `text` string's value in place; never
+ * restructures a node the way a merge or a split would, so a verse's own
+ * shape survives byte-identical apart from the fraction glyphs themselves.
+ *
+ * @param content - A verse's content tree, or any subtree of it
+ * @returns The rewritten tree (structurally new only where something
+ *   changed, otherwise the original reference) and whether anything changed
+ *   at all
+ */
+export function normalizeFractionsInContent(
+  content: Content
+): { content: Content; changed: boolean } {
+  return mapContentText(content, (text) => {
+    const rewritten = normalizeFractionText(text);
+    return rewritten.changes > 0 ? rewritten.value : undefined;
+  });
+}
+
+export default normalizeFractionsInContent;

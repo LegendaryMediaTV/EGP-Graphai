@@ -1,22 +1,22 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup><sup>b</sup>James, of God and of the Lord Jesus Christ a servant<sup>c</sup>, to the Twelve Tribes who are in the dispersion: Hail<sup>d</sup>!
+<sup>1</sup> <sup>a</sup><sup>b</sup>James, of God and of the Lord Jesus Christ a servant,<sup>c</sup> to the Twelve Tribes who are in the dispersion: Hail!<sup>d</sup>
 
 <sup>2</sup> All joy count _it_, my brethren, when ye may fall into temptations manifold;
-<sup>3</sup> knowing that the proof of your faith doth work endurance<sup>e</sup>,
+<sup>3</sup> knowing that the proof of your faith doth work endurance,<sup>e</sup>
 <sup>4</sup> and let the endurance have a perfect work, that ye may be perfect and entire—in nothing lacking;
 
-<sup>5</sup> and if any of you do lack wisdom, let him ask from God, who is giving to all liberally<sup>f</sup>, and not reproaching, and it shall be given to him;
+<sup>5</sup> and if any of you do lack wisdom, let him ask from God, who is giving to all liberally,<sup>f</sup> and not reproaching, and it shall be given to him;
 <sup>6</sup> and let him ask in faith, nothing doubting, for he who is doubting hath been like a wave<sup>g</sup> of the sea, driven by wind and tossed,
 <sup>7</sup> for let not that man suppose that he shall receive anything from the Lord—
 <sup>8</sup> a two-souled man _is_ unstable in all his ways.
 <sup>9</sup> And let the brother who is low rejoice in his exaltation,
 <sup>10</sup> and the rich in his becoming low, because as a flower of grass he shall pass away;
-<sup>11</sup> for the sun did rise with the burning heat<sup>h</sup>, and did wither the grass, and the flower of it fell, and the grace of its appearance<sup>i</sup> did perish, so also the rich in his way shall fade away!
+<sup>11</sup> for the sun did rise with the burning heat,<sup>h</sup> and did wither the grass, and the flower of it fell, and the grace of its appearance<sup>i</sup> did perish, so also the rich in his way shall fade away!
 
 <sup>12</sup> Happy the man who doth endure temptation, because, becoming approved, he shall receive the crown of the life, which the Lord did promise to those loving Him.
 <sup>13</sup> Let no one say, being tempted<sup>j</sup>—“From God I am tempted,” for God is not tempted of evil, and Himself doth tempt no one,
-<sup>14</sup> and each one is tempted, by his own desires being led away and enticed<sup>k</sup>,
+<sup>14</sup> and each one is tempted, by his own desires being led away and enticed,<sup>k</sup>
 <sup>15</sup> afterward the desire having conceived, doth give birth to sin, and the sin having been perfected, doth bring forth death.
 <sup>16</sup> Be not led astray, my brethren beloved;
 <sup>17</sup> every good giving, and every perfect gift is from above, coming down from the Father of the lights, with whom is no variation, or shadow of turning;
@@ -46,7 +46,7 @@
 
 ## Chapter 2
 
-<sup>1</sup> <sup>a</sup>My brethren, hold not, in respect of persons<sup>b</sup>, the faith of the glory of our Lord Jesus Christ,
+<sup>1</sup> <sup>a</sup>My brethren, hold not, in respect of persons,<sup>b</sup> the faith of the glory of our Lord Jesus Christ,
 <sup>2</sup> for if there may come into your synagogue a man with gold ring, in gay raiment, and there may come in also a poor man in vile raiment,
 <sup>3</sup> and ye may look upon him bearing the gay raiment, and may say to him, “Thou—sit thou here well,” and to the poor man may say, “Thou—stand thou there, or, Sit thou here under my footstool,”—
 <sup>4</sup> ye did not judge fully<sup>c</sup> in yourselves, and did become ill-reasoning judges.
@@ -62,7 +62,7 @@
 
 <sup>14</sup> What _is_ the profit, my brethren, if faith, any one may speak of having, and works he may not have? is that faith able to save him?
 <sup>15</sup> and if a brother or sister may be naked, and may be destitute of the daily food,
-<sup>16</sup> and any one of you may say to them, “Depart ye in peace, be warmed, and be filled,” and may not give to them the things needful for the body<sup>d</sup>, what _is_ the profit?
+<sup>16</sup> and any one of you may say to them, “Depart ye in peace, be warmed, and be filled,” and may not give to them the things needful for the body,<sup>d</sup> what _is_ the profit?
 <sup>17</sup> so also the faith, if it may not have works, is dead by itself.
 <sup>18</sup> But say may some one, Thou hast faith, and I have works, shew me thy faith out of thy works, and I will shew thee out of my works my faith:
 <sup>19</sup> thou—thou dost believe that God is one; thou dost well, and the demons believe, and they shudder!
@@ -87,7 +87,7 @@
 <sup>3</sup> lo, the bits we put into the mouths of the horses for their obeying us, and their whole body we turn about;
 <sup>4</sup> lo, also the ships, being so great, and by fierce winds being driven, are led about by a very small helm, whithersoever the impulse of the helmsman<sup>b</sup> doth counsel,
 <sup>5</sup> so also the tongue is a little member, and doth boast greatly; lo, a little fire how much wood it doth kindle!
-<sup>6</sup> and the tongue _is_ a fire, the world of the unrighteousness, so the tongue is set in our members, which is spotting our whole body, and is setting on fire the course of nature<sup>c</sup>, and is set on fire by the gehenna.
+<sup>6</sup> and the tongue _is_ a fire, the world of the unrighteousness, so the tongue is set in our members, which is spotting our whole body, and is setting on fire the course of nature,<sup>c</sup> and is set on fire by the gehenna.
 <sup>7</sup> For every nature, both of beasts and of fowls, both of creeping things and things of the sea, is subdued, and hath been subdued, by the human nature,
 <sup>8</sup> and the tongue no one of men is able to subdue, _it is_ an unruly evil, full of deadly poison,
 <sup>9</sup> with it we do bless<sup>d</sup> the God and Father, and with it we do curse the men made according to the similitude of God;
@@ -113,14 +113,14 @@
 <sup>1</sup> <sup>a</sup>
 
 Whence _are_ wars and fightings among you? not thence—out of your passions, that are as soldiers in your members?
-<sup>2</sup> ye desire, and ye have not; ye murder<sup>b</sup>, and are zealous, and are not able to attain; ye fight and war, and ye have not, because of your not asking;
+<sup>2</sup> ye desire, and ye have not; ye murder,<sup>b</sup> and are zealous, and are not able to attain; ye fight and war, and ye have not, because of your not asking;
 <sup>3</sup> ye ask, and ye receive not, because evilly ye ask, that in your pleasures ye may spend _it_.
 <sup>4</sup> Adulterers and adulteresses! have ye not known that friendship of the world is enmity with God? whoever, then, may counsel to be a friend of the world, an enemy of God he is set.
 <sup>5</sup> Do ye think that emptily the Writing saith, “To envy<sup>c</sup> earnestly desireth the spirit that did dwell in us,”
 <sup>6</sup> and greater grace<sup>d</sup> he doth give, wherefore he saith, “God against proud ones doth set Himself up, and to lowly ones He doth give grace?”
 <sup>7</sup> be subject, then, to God; stand up against the devil, and he will flee from you;
 <sup>8</sup> draw nigh to God, and He will draw nigh to you; cleanse hands, ye sinners! and purify hearts, ye two-souled!
-<sup>9</sup> be exceeding afflicted, and mourn, and weep, let your laughter to mourning be turned, and the joy to heaviness<sup>e</sup>;
+<sup>9</sup> be exceeding afflicted, and mourn, and weep, let your laughter to mourning be turned, and the joy to heaviness;<sup>e</sup>
 <sup>10</sup> be made low before the Lord, and He shall exalt you.
 
 <sup>11</sup> Speak not one against another, brethren; he who is speaking against a brother, and is judging his brother, doth speak against law, and doth judge law, and if law thou dost judge, thou art not a doer of law but a judge;
@@ -129,7 +129,7 @@ Whence _are_ wars and fightings among you? not thence—out of your passions, th
 <sup>13</sup> Go, now, ye who are saying, “To-day and to-morrow we will go on to such a city, and will pass there one year, and traffic, and make gain;”
 <sup>14</sup> who do not know the thing of the morrow; for what is your life? for it is a vapour that is appearing for a little, and then is vanishing;
 <sup>15</sup> instead of your saying, “If the Lord may will, we shall live, and do this or that;”
-<sup>16</sup> and now ye glory in your pride<sup>f</sup>; all such glorying is evil;
+<sup>16</sup> and now ye glory in your pride;<sup>f</sup> all such glorying is evil;
 <sup>17</sup> to him, then, knowing to do good, and not doing, sin it is to him.
 
 > - <sup>a</sup> 1. Chapter IV. may be divided into four parts; v. 1–5 warning against wars and worldly friendship; v. 6–10 pride and impurity; v. 11, 12 judging a brother; v. 13–16 reckoning on the future.
@@ -145,27 +145,27 @@ Whence _are_ wars and fightings among you? not thence—out of your passions, th
 
 Go, now, ye rich! weep, howling over your miseries that are coming upon _you_;
 <sup>2</sup> your riches have rotted, and your garments have become moth-eaten;
-<sup>3</sup> your gold and silver have rotted, and the rust of them for a testimony shall be to you, and shall eat your flesh as fire. Ye made treasure in the last days<sup>b</sup>!
+<sup>3</sup> your gold and silver have rotted, and the rust of them for a testimony shall be to you, and shall eat your flesh as fire. Ye made treasure in the last days!<sup>b</sup>
 <sup>4</sup> lo, the reward of the workmen, of those who in-gathered your fields, which hath been fraudulently kept back<sup>c</sup> by you—doth cry out, and the exclamations of those who did reap into the ears of the Lord of Sabaoth have entered;
-<sup>5</sup> ye did live in luxury upon the earth, and were wanton<sup>d</sup>; ye did nourish your hearts, as in a day of slaughter;
+<sup>5</sup> ye did live in luxury upon the earth, and were wanton;<sup>d</sup> ye did nourish your hearts, as in a day of slaughter;
 <sup>6</sup> ye did condemn—ye did murder the righteous one, he doth not resist you.
 
 <sup>7</sup> Be patient, then, brethren, till the presence of the Lord; lo, the husbandman doth expect the precious fruit of the earth, being patient for it, till he may receive rain—early and latter;
-<sup>8</sup> be patient, ye also; establish your hearts, because the presence of the Lord hath drawn nigh<sup>e</sup>;
+<sup>8</sup> be patient, ye also; establish your hearts, because the presence of the Lord hath drawn nigh;<sup>e</sup>
 <sup>9</sup> murmur not against<sup>f</sup> one another, brethren, that ye may not be condemned; lo, the Judge before the door hath stood.
 <sup>10</sup> An example take ye of the suffering of evil, my brethren, and of the patience, the prophets who did speak in the name of the Lord;
 <sup>11</sup> lo, we call happy those who are enduring; the endurance of Job ye heard of, and the end of the Lord ye have seen, that very compassionate<sup>g</sup> is the Lord, and pitying.
 
 <sup>12</sup> And before all things, my brethren, do not swear, neither by the heaven, neither by the earth, neither by any other oath, and let your Yes be Yes, and the No, No; that under judgment ye may not fall.
 
-<sup>13</sup> Doth any one suffer evil among you? let him pray; is any of good cheer? let him sing psalms<sup>h</sup>;
+<sup>13</sup> Doth any one suffer evil among you? let him pray; is any of good cheer? let him sing psalms;<sup>h</sup>
 <sup>14</sup> is any infirm among you? let him call for the elders of the assembly, and let them pray over him, having anointed him with oil, in the name of the Lord,
 <sup>15</sup> and the prayer of the faith shall save the distressed one, and the Lord shall raise him up, and if sins he may have committed, they shall be forgiven to him.
-<sup>16</sup> Be confessing to one another the trespasses<sup>i</sup>, and be praying for one another, that ye may be healed; very strong is a working supplication of a righteous man;
+<sup>16</sup> Be confessing to one another the trespasses,<sup>i</sup> and be praying for one another, that ye may be healed; very strong is a working supplication of a righteous man;
 <sup>17</sup> Elijah was a man like affected as we, and with prayer he did pray—not to rain, and it did not rain upon the land three years and six months;
 <sup>18</sup> and again he did pray, and the heaven did give rain, and the land did bring forth her fruit.
 <sup>19</sup> Brethren, if any among you may go astray from the truth, and any one may turn him back,
-<sup>20</sup> let him know that he who did turn back a sinner from the straying of his way shall save a soul from death, and shall cover a multitude of sins<sup>j</sup>.
+<sup>20</sup> let him know that he who did turn back a sinner from the straying of his way shall save a soul from death, and shall cover a multitude of sins.<sup>j</sup>
 
 > - <sup>a</sup> 1. Chapter V. may be divided into seven parts; v. 1–6 warnings for the rich; v. 7–9 exhortation to patience; v. 10, 11 from the example of Job; v. 12 against swearing; v. 13–15 directions for the suffering and the joyful; v. 16–18 mutual confessions and power of prayer; v. 19, 20 value of a straying one.
 > - <sup>b</sup> 3. of Judaism

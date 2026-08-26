@@ -600,7 +600,7 @@ He said, “I am.”
 
 <sup>17</sup> Manoah said to Yahweh’s angel, “What is your name, that when your words happen, we may honor you?”
 
-<sup>18</sup> Yahweh’s angel said to him, “Why do you ask about my name, since it is incomprehensible<sup>a</sup>?”
+<sup>18</sup> Yahweh’s angel said to him, “Why do you ask about my name, since it is incomprehensible?”<sup>a</sup>
 
 <sup>19</sup> So Manoah took the young goat with the meal offering, and offered it on the rock to Yahweh. Then the angel did an amazing thing as Manoah and his wife watched.
 <sup>20</sup> For when the flame went up toward the sky from off the altar, Yahweh’s angel ascended in the flame of the altar. Manoah and his wife watched; and they fell on their faces to the ground.

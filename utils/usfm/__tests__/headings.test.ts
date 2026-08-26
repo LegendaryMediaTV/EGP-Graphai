@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { tokenize } from "../tokenize";
 import {
+  buildAcrosticGlyphHeading,
   buildBookDivisionHeading,
   buildHeadingSpanContent,
   buildSpeakerHeading,
@@ -110,6 +111,18 @@ describe("buildSuperscriptionContent", () => {
     expect("subtitle" in result).toBe(true);
     const content = (result as { subtitle: unknown }).subtitle;
     expect(Array.isArray(content) || typeof content === "object").toBe(true);
+  });
+});
+
+describe("buildAcrosticGlyphHeading", () => {
+  it("should isolate a real \\qc source's own leading Hebrew glyph from its trailing transliterated name", () => {
+    const result = buildAcrosticGlyphHeading([{ text: "א ALEPH." }]);
+    expect(result).toEqual({ heading: [{ text: "א", script: "H" }, " ALEPH."], type: "acrostic" });
+  });
+
+  it("should isolate an undelimited Greek glyph too, closing the import-time asymmetry that used to scan this call site for Hebrew only — no real Greek acrostic exists in this corpus, so this guards the next import that might carry one", () => {
+    const result = buildAcrosticGlyphHeading([{ text: "Α ALPHA." }]);
+    expect(result).toEqual({ heading: [{ text: "Α", script: "G" }, " ALPHA."], type: "acrostic" });
   });
 });
 

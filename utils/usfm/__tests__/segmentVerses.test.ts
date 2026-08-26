@@ -1,12 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { uniformFraction } from "../fractions";
+import { uniformFraction } from "../../../functions/normalizeFractions";
 import { segmentVerses, VerseBlock } from "../segmentVerses";
 import { readFixture } from "./fixtures";
 
 /**
- * Verse segmentation tests. Fixtures are drawn verbatim from the real USFM
- * source (`imports/guide.md` §6), never hand-written, and every expected
- * value was read directly off the fixture file rather than guessed.
+ * Verse segmentation tests. Fixtures are drawn verbatim from real USFM
+ * source, never hand-written, and every expected value was read directly
+ * off the fixture file rather than guessed.
  */
 
 /**
@@ -155,10 +155,10 @@ describe("segmentVerses — Genesis 50:1 (\\nb behaves exactly like \\p)", () =>
   });
 });
 
-describe("segmentVerses — Psalm 3 (\\q1/\\q2 end a poetry line with break: true on the block that precedes; the psalm's own opening \\q1, with nothing before it in this isolated fixture, never reaches back onto anything — but Finding 7's own \\c-level fix still gives the real first line its own paragraph: true, through \\c's own dispatch rather than through that reach-back)", () => {
+describe("segmentVerses — Psalm 3 (\\q1/\\q2 end a poetry line with break: true on the block that precedes; the psalm's own opening \\q1, with nothing before it in this isolated fixture, never reaches back onto anything — paragraph: true on the real first line comes from \\c's own dispatch instead)", () => {
   const records = segmentVerses(readFixture("psalm-3.usfm"), "PSA");
 
-  it("should split verse 1 into its own two poetry lines, the first carrying paragraph: true from \\c 3's own dispatch (Finding 7), both ending break: true, after the subtitle block that attaches ahead of them", () => {
+  it("should split verse 1 into its own two poetry lines, the first carrying paragraph: true from \\c 3's own dispatch, both ending break: true, after the subtitle block that attaches ahead of them", () => {
     const verseOne = records.find((record) => record.verse === 1);
     expect(blockFlags((verseOne?.blocks ?? []).slice(1))).toEqual([
       { text: "Yahweh, how my adversaries have increased!", paragraph: true, break: true },
@@ -202,7 +202,7 @@ describe("segmentVerses — Psalm 10:11-13 (\\b, a real stanza break — the ups
   });
 });
 
-describe("segmentVerses — Genesis 49:1-9 (three real \\b stanza breaks at 2→3, 4→5, and 7→8, alongside a same-verse \\q1/\\q2 pair with no \\b between them — the upstream-confirmed two-part rule, verified directly against bible-versions/WEBUS2020/01-GEN.json@HEAD)", () => {
+describe("segmentVerses — Genesis 49:1-9 (three separate \\b stanza breaks in one chapter — 2→3, 4→5, and 7→8 — alongside a same-verse \\q1/\\q2 pair with no \\b between them, exercising the two-part \\b rule multiple times over)", () => {
   const records = segmentVerses(readFixture("genesis-49-1-9.usfm"), "GEN");
 
   it("should drop break: true entirely from verse 2's own last line (the \\b immediately following it) and from verse 4's and verse 7's own last lines the same way — three independent real \\b instances, same real fix", () => {
@@ -258,7 +258,7 @@ describe("segmentVerses — Genesis 49:1-9 (three real \\b stanza breaks at 2→
   });
 });
 
-describe("segmentVerses — the real \\b-then-bare-\\qN idiom itself (Genesis 49:2→3: \\q2 ...father. / \\b / \\q1 / \\v 3 \"Reuben...), isolated from the two-block-boundary assertions above — this is the exact trap this phase's own first, wrong mechanical sketch (flushBlock(true) for \\b) would have failed", () => {
+describe("segmentVerses — the real \\b-then-bare-\\qN idiom itself (Genesis 49:2→3: \\q2 ...father. / \\b / \\q1 / \\v 3 \"Reuben...), isolated from the two-block-boundary assertions above — a naive fix that dispatched \\b as flushBlock(true) would fail this exact case", () => {
   const records = segmentVerses(readFixture("genesis-49-1-9.usfm"), "GEN");
 
   it("should not let the bare \\q1 sitting between \\b and \\v 3 resurrect verse 2's own dropped break: true — a naive fix that only stopped \\b itself from setting break: true, without also absorbing this bare \\qN, would fail here: BREAK_MARKER_NAMES's own \"nothing accumulated, reach backward\" rule (flushBlock's own doc comment) would otherwise find verse 2's own now-bare last line and set break: true right back onto it", () => {
@@ -281,7 +281,7 @@ describe("segmentVerses — the real \\b-then-bare-\\qN idiom itself (Genesis 49
   });
 });
 
-describe("segmentVerses — 1 Samuel 2:1-5 (two real \\b stanza breaks, at 2→3 and 3→4, alternating with two ordinary bare-\\q1 verse boundaries with no \\b at all, at 1→2 and 4→5 — proving the fix touches only the \\b-adjacent boundaries and leaves the ordinary ones untouched, verified directly against bible-versions/WEBUS2020/09-1SM.json@HEAD)", () => {
+describe("segmentVerses — 1 Samuel 2:1-5 (two real \\b stanza breaks, at 2→3 and 3→4, alternating with two ordinary bare-\\q1 verse boundaries with no \\b at all, at 1→2 and 4→5 — confirms the \\b handling touches only the \\b-adjacent boundaries and leaves the ordinary ones untouched)", () => {
   const records = segmentVerses(readFixture("1-samuel-2-1-5.usfm"), "1SM");
 
   it("should still flag verse 1's own last line break: true from the ordinary bare \\q1 that opens verse 2 — no \\b sits at this boundary, so the reach-back this corpus has always used here is untouched", () => {
@@ -335,7 +335,7 @@ describe("segmentVerses — 1 Samuel 2:1-5 (two real \\b stanza breaks, at 2→3
   });
 });
 
-describe("segmentVerses — Job 5:26-6:2 (a real \\b stanza break sitting directly on a chapter boundary — Job 5's own last verse into chapter 6's own first, one of 59 real chapter-boundary matches confirmed corpus-wide)", () => {
+describe("segmentVerses — Job 5:26-6:2 (a real \\b stanza break sitting directly on a chapter boundary — Job 5's own last verse into chapter 6's own first)", () => {
   const records = segmentVerses(readFixture("job-5-26-6-2.usfm"), "JOB");
 
   it("should drop break: true entirely from Job 5:27's own last line — the real \\b sits between the chapter's own last verse and the \\c 6 boundary that follows it", () => {
@@ -358,7 +358,7 @@ describe("segmentVerses — Job 5:26-6:2 (a real \\b stanza break sitting direct
   });
 });
 
-describe("segmentVerses — Job 16:22-17:1 (the real chapter-boundary shape of the \\b-then-bare-\\qN idiom itself: \\b \\c 17 \\q1 \\v 1... — a real bug a corpus-wide measurement caught: the suppression guard originally cleared on \\c, since \\c is neither whitespace nor a break marker, letting the bare \\q1 behind it run its own ordinary dispatch and re-add the break \\b had just dropped)", () => {
+describe("segmentVerses — Job 16:22-17:1 (the real chapter-boundary shape of the \\b-then-bare-\\qN idiom: \\b \\c 17 \\q1 \\v 1... — the suppression guard must survive \\c itself, since \\c is neither whitespace nor a break marker and would otherwise let the bare \\q1 behind it resurrect the break \\b just dropped)", () => {
   const records = segmentVerses(readFixture("job-16-22-17-1-chapter-b.usfm"), "JOB");
 
   it("should drop break: true entirely from verse 22's own last line and not let the bare \\q1 sitting between \\c 17 and \\v 1 resurrect it — the guard must survive \\c itself, not just whitespace", () => {
@@ -378,7 +378,7 @@ describe("segmentVerses — Job 16:22-17:1 (the real chapter-boundary shape of t
   });
 });
 
-describe("segmentVerses — Psalm 46:11-47:1 (the real heading-adjacent shape of the same idiom: \\b \\c 47 \\d ... \\q1 \\v 1... — a second real bug the same corpus-wide measurement caught: the guard also needs to survive a \\d/\\sp/\\s1/\\qc heading marker, not just \\c, since a Psalm superscription routinely sits between a chapter-ending \\b and its own bare \\qN)", () => {
+describe("segmentVerses — Psalm 46:11-47:1 (the heading-adjacent shape of the same idiom: \\b \\c 47 \\d ... \\q1 \\v 1... — the guard must also survive a \\d/\\sp/\\s1/\\qc heading marker, not just \\c, since a Psalm superscription routinely sits between a chapter-ending \\b and its own bare \\qN)", () => {
   const records = segmentVerses(readFixture("psalm-46-11-47-1-heading-b.usfm"), "PSA");
 
   it("should drop break: true entirely from Psalm 46:11's own last line and not let the bare \\q1 sitting behind \\c 47's own \\d superscription resurrect it", () => {
@@ -398,7 +398,7 @@ describe("segmentVerses — Psalm 46:11-47:1 (the real heading-adjacent shape of
   });
 });
 
-describe("segmentVerses — Deuteronomy 31:28-32:2 (Finding 7's own real report: a \\b-less chapter boundary — \\p \\v 30 ... \\c 32 \\q1 \\v 1..., no \\b anywhere near it — gets the identical clean-cut, chapter-paragraph-start convention Phase 5 only gave the \\b-adjacent case)", () => {
+describe("segmentVerses — Deuteronomy 31:28-32:2 (a \\b-less chapter boundary — \\p \\v 30 ... \\c 32 \\q1 \\v 1..., no \\b anywhere near it — gets the identical clean-cut, chapter-paragraph-start convention as a \\b-adjacent chapter boundary)", () => {
   const records = segmentVerses(readFixture("deuteronomy-31-28-32-2.usfm"), "DEU");
 
   it("should leave 31:30's own single block clean, with no break: true reach-back from chapter 32's own bare \\q1", () => {
@@ -423,7 +423,7 @@ describe("segmentVerses — Deuteronomy 31:28-32:2 (Finding 7's own real report:
   });
 });
 
-describe("segmentVerses — Psalm 90:16-91:2 (Finding 7's own second real book: the same \\b-less chapter-boundary convention with no \\d superscription in the gap at all — Psalm 91 carries none)", () => {
+describe("segmentVerses — Psalm 90:16-91:2 (the same \\b-less chapter-boundary convention, with no \\d superscription in the gap at all — Psalm 91 carries none)", () => {
   const records = segmentVerses(readFixture("psalm-90-16-91-2.usfm"), "PSA");
 
   it("should leave Psalm 90:17's own last block clean, with no break: true reach-back from chapter 91's own bare \\q1", () => {
@@ -446,7 +446,7 @@ describe("segmentVerses — Psalm 90:16-91:2 (Finding 7's own second real book: 
   });
 });
 
-describe("segmentVerses — Psalm 41:11-42:2 (Finding 7's own \\ms1-adjacent shape: \\c 42 \\ms1 BOOK 2 \\d ... \\q1 \\v 1..., no \\b at all — the guard must survive \\ms1 too, not only \\c and the heading markers, or the bare \\q1 sitting behind all three still reaches back across the boundary)", () => {
+describe("segmentVerses — Psalm 41:11-42:2 (the \\ms1-adjacent shape: \\c 42 \\ms1 BOOK 2 \\d ... \\q1 \\v 1..., no \\b at all — the guard must survive \\ms1 too, not only \\c and the heading markers, or the bare \\q1 sitting behind all three still reaches back across the boundary)", () => {
   const records = segmentVerses(readFixture("psalm-41-11-42-2-ms1-d.usfm"), "PSA");
 
   it("should leave Psalm 41:13's own last block clean, with no break: true reach-back through \\ms1 and \\d from chapter 42's own bare \\q1", () => {
@@ -472,22 +472,14 @@ describe("segmentVerses — Psalm 41:11-42:2 (Finding 7's own \\ms1-adjacent sha
   });
 });
 
-describe("segmentVerses — Psalm 1 into Psalm 2 (corrected by Finding 7: this chapter boundary gets the same clean-cut, chapter-paragraph-start convention as every other one, not the \"same rule, two sides\" cross-chapter reach this describe block used to assert)", () => {
+describe("segmentVerses — Psalm 1 into Psalm 2 (this chapter boundary gets the same clean-cut, chapter-paragraph-start convention as every other one, not a cross-chapter \"same rule, two sides\" reach)", () => {
   const records = segmentVerses(readFixture("psalm-1-2-boundary.usfm"), "PSA");
 
-  // These two tests used to assert the opposite: that Psalm 2's own
-  // opening bare \q1 reaches backward across the chapter boundary to mark
-  // Psalm 1:6 break: true, leaving Psalm 2:1 itself unflagged —
-  // cited against bible-versions/ASV1901/19-PSA.json's own Psalm 22/23
-  // boundary as precedent. Checked against WEBUS2020's real upstream HEAD
-  // (git show HEAD:bible-versions/WEBUS2020/19-PSA.json), that precedent
-  // turns out to be the same bug Finding 7 fixes, not the real convention:
-  // HEAD leaves Psalm 1:6 clean and gives Psalm 2:1 paragraph: true, the
-  // identical shape as every other \b-less chapter boundary Finding 7
-  // covers (Deuteronomy 31:30→32:1, Psalm 90:17→91:1, the four \ms1
-  // book-division boundaries). ASV1901's own shipped file predates
-  // Finding 7's fix and was never reimported, so its own analogous
-  // boundary is stale, not evidence of a second real convention.
+  // Psalm 1:6 stays clean and Psalm 2:1 gets paragraph: true — the same
+  // \b-less chapter-boundary convention applies here too. ASV1901's own
+  // shipped file has an analogous boundary (Psalm 22/23) that reaches
+  // backward instead, but that file is stale and predates this
+  // convention — not evidence of a second real one.
   it("should leave Psalm 1:6's own last block clean, with no break: true reach-back from Psalm 2's own opening \\q1 — matching WEBUS2020's own real upstream HEAD", () => {
     const blocks =
       records.find((record) => record.chapter === 1 && record.verse === 6)?.blocks ?? [];
@@ -745,7 +737,7 @@ describe("segmentVerses — Psalm 46's own \\d superscription carries a real, at
 });
 
 describe("segmentVerses — Psalm 119's acrostic \\d markers, including the two real \\w-tagging artifacts on \"HE\" and \"SIN AND SHIN\"", () => {
-  it("should attach ALEPH as verse 1's own first block and BETH as verse 9's, with verse 8's own last real block still carrying break: true unaffected (matching the already-shipped WEBUS2020 corpus's own real shape)", () => {
+  it("should attach ALEPH as verse 1's own first block and BETH as verse 9's, with verse 8's own last real block still carrying break: true unaffected", () => {
     const records = segmentVerses(readFixture("psalm-119-aleph-beth.usfm"), "PSA");
     const verseOne = records.find((record) => record.verse === 1);
     const verseEight = records.find((record) => record.verse === 8);
@@ -781,9 +773,9 @@ describe("segmentVerses — Psalm 1's own \\ms1 BOOK 1 (no \\d superscription on
       text: "",
       headingContent: { heading: [{ text: "Book One", marks: ["sc"] }, " (Psalms 1–1)"] },
     });
-    // Finding 7: \c 1's own dispatch sets paragraph: true through \ms1
-    // regardless of the heading in front of it — the real first content
-    // block still carries it, matching WEBUS2020's own real upstream HEAD.
+    // \c 1's own dispatch sets paragraph: true through \ms1 regardless of
+    // the heading in front of it — the real first content block still
+    // carries it.
     expect(verseOne?.blocks[1]).toMatchObject({ paragraph: true });
   });
 
@@ -804,11 +796,10 @@ describe("segmentVerses — Psalm 1's own \\ms1 BOOK 1 (no \\d superscription on
     expect(verseOne?.blocks[1].headingContent).toEqual({
       subtitle: "For the Chief Musician. A contemplation by the sons of Korah.",
     });
-    // Finding 7: the guard set by \c 42 must survive both \ms1 and \d to
-    // still be standing when the bare \q1 behind them arrives — proven
-    // here by the real first content block (blocks[2]) carrying
-    // paragraph: true even in this isolated fixture, with nothing at all
-    // preceding \c 42.
+    // The guard set by \c 42 must survive both \ms1 and \d to still be
+    // standing when the bare \q1 behind them arrives — proven here by the
+    // real first content block (blocks[2]) carrying paragraph: true even
+    // in this isolated fixture, with nothing at all preceding \c 42.
     expect(verseOne?.blocks[2]).toMatchObject({ paragraph: true });
   });
 });
@@ -883,7 +874,7 @@ describe("segmentVerses — Song of Solomon's \\sp speaker labels, both across a
   });
 });
 
-describe("segmentVerses — Numbers 21:14's \\bk/\\bk* book-title citation (Finding 6: tagged marks: [\"i\"] on each of its own real Strong's-tagged words, no longer dropped as plain text)", () => {
+describe("segmentVerses — Numbers 21:14's \\bk/\\bk* book-title citation (tagged marks: [\"i\"] on each of its own real Strong's-tagged words, not dropped as plain text)", () => {
   it("should tag every one of the citation's own 7 \\+w-tagged words marks: [\"i\"] individually — each keeps its own Strong's number, since a marks mismatch against its plain-text neighbors on both sides stops any of them from coalescing into the surrounding text", () => {
     const records = segmentVerses(readFixture("numbers-21-14.usfm"), "NUM");
     const verse = records.find((record) => record.verse === 14);
@@ -963,12 +954,11 @@ describe("segmentVerses — \\s1 (Baruch 6, a chapter-start pericope heading wit
 });
 
 describe("segmentVerses — \\s1 (Daniel 3:23/24, mid-chapter, with an embedded footnote in the \\s1 span itself)", () => {
-  // The two bibleLink nodes below are a real side effect of Finding 9's
-  // reference scan, which links any fully-qualified reference in a
-  // footnote body regardless of what word (if any) sits next to it — not
-  // this test's own subject, which is still \+bk's marks: ["i"] tagging
-  // (Finding 6).
-  it("should insert the heading between verse 23 and verse 24, with the embedded \\f...\\f* footnote (including its own 3 \\+bk citations, each tagged marks: [\"i\"] per Finding 6) attached to the heading's own text — the same embedded-footnote mechanism a Psalm superscription already proves, exercised for the first time on a non-Psalm \\s1", () => {
+  // The two bibleLink nodes below are a side effect of the footnote body's
+  // own reference scan, which links any fully-qualified reference
+  // regardless of what word (if any) sits next to it — not this test's
+  // own subject, which is still \+bk's marks: ["i"] tagging.
+  it("should insert the heading between verse 23 and verse 24, with the embedded \\f...\\f* footnote (including its own 3 \\+bk citations, each tagged marks: [\"i\"]) attached to the heading's own text — the same embedded-footnote mechanism a Psalm superscription already proves, exercised for the first time on a non-Psalm \\s1", () => {
     const records = segmentVerses(readFixture("daniel-3-23-24-s1.usfm"), "DAG");
     const verseTwentyThree = records.find((record) => record.verse === 23);
     const verseTwentyFour = records.find((record) => record.verse === 24);
@@ -1024,7 +1014,7 @@ describe("segmentVerses — \\s1 (Daniel 13 and 14, chapter-start pericope headi
     expect(chapterThirteenVerseOne?.blocks[1]).toMatchObject({ paragraph: true });
   });
 
-  it("should tag all 4 of the verse-1 footnote's own real \\+bk citations marks: [\"i\"] (Finding 6), on the verse content's own footnote, not the heading (Daniel 13:1)", () => {
+  it("should tag all 4 of the verse-1 footnote's own real \\+bk citations marks: [\"i\"] on the verse content's own footnote, not the heading (Daniel 13:1)", () => {
     const records = segmentVerses(readFixture("daniel-13-s1-opening.usfm"), "DAG");
     const chapterThirteenVerseOne = records.find((record) => record.chapter === 13 && record.verse === 1);
     const foot = chapterThirteenVerseOne?.blocks[1]?.nodes?.[0]?.foot;
@@ -1039,7 +1029,7 @@ describe("segmentVerses — \\s1 (Daniel 13 and 14, chapter-start pericope headi
     expect(chapterFourteenVerseOne?.blocks[1]).toMatchObject({ paragraph: true });
   });
 
-  it("should tag all 4 of the verse-1 footnote's own real \\+bk citations marks: [\"i\"] (Finding 6), on the verse content's own footnote, not the heading (Daniel 14:1)", () => {
+  it("should tag all 4 of the verse-1 footnote's own real \\+bk citations marks: [\"i\"] on the verse content's own footnote, not the heading (Daniel 14:1)", () => {
     const records = segmentVerses(readFixture("daniel-14-s1-opening.usfm"), "DAG");
     const chapterFourteenVerseOne = records.find((record) => record.chapter === 14 && record.verse === 1);
     const foot = chapterFourteenVerseOne?.blocks[1]?.nodes?.[0]?.foot;
@@ -1048,7 +1038,7 @@ describe("segmentVerses — \\s1 (Daniel 13 and 14, chapter-start pericope headi
   });
 });
 
-describe("segmentVerses — \\pc (2 Maccabees 1:18-19, a decorative divider sandwiched between two real \\b stanza breaks, mid-verse-boundary, with real text on both sides — the one real live bug this construct's own chrome-drop fixes)", () => {
+describe("segmentVerses — \\pc (2 Maccabees 1:18-19, a decorative divider sandwiched between two real \\b stanza breaks, mid-verse-boundary, with real text on both sides)", () => {
   it("should drop the dash-divider's own text entirely, leaking into neither verse 18 nor verse 19, and should drop break: true from verse 18's own last line entirely (the first \\b) rather than keep it — the second \\b (after the dropped \\pc text) is a harmless no-op, since nothing accumulated for it to close, and \\p already guarantees verse 19's own paragraph: true independent of either \\b", () => {
     const records = segmentVerses(readFixture("2-maccabees-1-16-19-pc.usfm"), "2MA");
     const verseEighteen = records.find((record) => record.verse === 18);
@@ -1087,7 +1077,7 @@ describe("segmentVerses — \\cp/\\d (Psalm 151's own front matter — \\cp sits
     });
   });
 
-  it("should tag this fixture's own real \\ip block's single \\bk citation marks: [\"i\"] (Finding 6, Psalm 151's own \"Psalm 151\" self-citation)", () => {
+  it("should tag this fixture's own real \\ip block's single \\bk citation marks: [\"i\"] (Psalm 151's own \"Psalm 151\" self-citation)", () => {
     const records = segmentVerses(readFixture("psalm-151-opening.usfm"), "PS2");
     const verseOne = records.find((record) => record.verse === 1);
     const introBlock = verseOne?.blocks.find(
@@ -1101,7 +1091,7 @@ describe("segmentVerses — \\cp/\\d (Psalm 151's own front matter — \\cp sits
 });
 
 describe("segmentVerses — \\ip (every \\ip block becomes a footnote on a textless leading node, attached to the book's own verse 1:1)", () => {
-  it("should attach Tobit's own single \\ip block (one embedded \\bk citation, tagged marks: [\"i\"] per Finding 6) as a textless leading node ahead of verse 1's own real content, carrying the verse's own paragraph: true along with it", () => {
+  it("should attach Tobit's own single \\ip block (one embedded \\bk citation, tagged marks: [\"i\"]) as a textless leading node ahead of verse 1's own real content, carrying the verse's own paragraph: true along with it", () => {
     const records = segmentVerses(readFixture("tobit-opening-ip.usfm"), "TOB");
     const verseOne = records.find((record) => record.verse === 1);
     expect(verseOne?.blocks[0]).toEqual({
@@ -1165,10 +1155,10 @@ describe("segmentVerses — \\ip (every \\ip block becomes a footnote on a textl
     const introBlocks = introFootnoteBlocks(verseOne?.blocks ?? []);
 
     expect(introBlocks).toHaveLength(2);
-    // The first block's own two \bk citations (Finding 6) are each tagged
-    // marks: ["i"], so its foot.content is an array now, not a bare
-    // string — the second block (the real, ancient Prologue) carries no
-    // \bk citation at all and keeps its own plain-string shape unchanged.
+    // The first block's own two \bk citations are each tagged marks: ["i"],
+    // so its foot.content is an array, not a bare string — the second
+    // block (the real, ancient Prologue) carries no \bk citation at all
+    // and keeps its own plain-string shape.
     expect(introBlocks[0].nodes?.[0].foot?.content).toContainEqual({
       text: "The Wisdom of Jesus the Son of Sirach",
       marks: ["i"],
@@ -1272,9 +1262,9 @@ describe("segmentVerses — ASV1901's real \\qc, the mid-corpus case (Psalm 119:
 /**
  * ASV1901's real `\add` (translator-supplied words, USFM's standard
  * italics convention) mirrors `\qs`'s own `insideQs`/`marks: ["i"]` shape
- * exactly — `imports/kjv/kjvContent.ts:195`'s own already-shipped
- * `add: "i"` mapping for KJV1769's HTML-sourced equivalent construct is
- * the cross-version confirmation this mapping is correct USFM/repo
+ * exactly — `imports/kjv/kjvContent.ts`'s own already-shipped `add: "i"`
+ * mapping for KJV1769's HTML-sourced equivalent construct is the
+ * cross-version confirmation this mapping is correct USFM/repo
  * convention.
  */
 describe("segmentVerses — ASV1901's real \\add (translator-supplied words), a construct WEB's own corpus never carries", () => {
@@ -1299,8 +1289,8 @@ describe("segmentVerses — ASV1901's real \\add (translator-supplied words), a 
   });
 });
 
-describe("segmentVerses — MSB2025's real \"LORD\" (Genesis 2:4) — GREEN, locking: no marks: [\"sc\"] is ever synthesized from plain source text", () => {
-  it('should render "LORD" as plain text with its own strong number and no marks at all, per guide.md §6\'s casing-uniformity rule ("a source that hard-codes a whole phrase in full capitals with no size-variation anywhere in it is very likely trying to represent \'print this in plain full capitals,\' not \'print this in small caps\'") — MSB2025 carries zero \\nd/\\sc markup anywhere in its own source, so this needs no code change: `InlineMarkName` (`"woc" | "i"`) has no "sc" member at all, and segmentVerses/inlineMarks.ts never synthesizes one from source content', () => {
+describe("segmentVerses — MSB2025's real \"LORD\" (Genesis 2:4): no marks: [\"sc\"] is ever synthesized from plain source text", () => {
+  it('should render "LORD" as plain text with its own strong number and no marks at all — a source that spells a whole phrase in full capitals, with nothing in its own markup to signal a size change, is shouting in caps, not asking for small-caps styling. MSB2025 carries zero \\nd/\\sc markup anywhere in its own source, so this needs no code change: `InlineMarkName` (`"woc" | "i"`) has no "sc" member at all, and segmentVerses/inlineMarks.ts never synthesizes one from source content', () => {
     const records = segmentVerses(readFixture("msb2025-genesis-2-4-lord.usfm"), "GEN");
     const verseFour = records.find((record) => record.verse === 4);
     const nodes = verseFour?.blocks.flatMap((block) => block.nodes ?? []) ?? [];
@@ -1311,17 +1301,17 @@ describe("segmentVerses — MSB2025's real \"LORD\" (Genesis 2:4) — GREEN, loc
   });
 });
 
-describe("segmentVerses — MSB2025's real Genesis 1:1-5 — GREEN, locking: \\m immediately before every single \\v already produces paragraph: true on every verse's own first block, the existing marker-type rule applied to a corpus where \\m is not rare but exclusive", () => {
+describe("segmentVerses — MSB2025's real Genesis 1:1-5: \\m immediately before every single \\v produces paragraph: true on every verse's own first block, the existing marker-type rule applied to a corpus where \\m is not rare but exclusive", () => {
   const records = segmentVerses(readFixture("msb2025-genesis-1-1-5.usfm"), "GEN");
 
-  it("should flag every one of verses 1-5's own first block paragraph: true — PARAGRAPH_MARKER_NAMES already includes \"m\" (added for WEB's own 80 rare instances), and this corpus's own real shape (bare \\m before every \\v, zero \\p anywhere) needs no new rule, only this explicit, named confirmation", () => {
+  it("should flag every one of verses 1-5's own first block paragraph: true — PARAGRAPH_MARKER_NAMES already includes \"m\", and this corpus's own real shape (bare \\m before every \\v, zero \\p anywhere) needs no new rule, only this explicit, named confirmation", () => {
     for (let verse = 1; verse <= 5; verse++) {
       const record = records.find((r) => r.verse === verse);
       expect(record?.blocks[0]).toMatchObject({ paragraph: true });
     }
   });
 
-  it("should carry no \\p-family marker anywhere in this corpus's own real shape — zero \\p, confirmed directly against the fixture, not merely assumed", () => {
+  it("should carry no \\p-family marker anywhere in this corpus's own real shape — zero \\p in the fixture itself", () => {
     // A structural fact about this fixture, and the whole 66-book MSB2025
     // canon: every verse here has exactly one block, since nothing besides
     // \m ever opens or breaks a line.
@@ -1329,7 +1319,7 @@ describe("segmentVerses — MSB2025's real Genesis 1:1-5 — GREEN, locking: \\m
   });
 });
 
-describe("segmentVerses — ASV1901's real Job 4:8-12 poetry (\\q1 lines, a real \\b stanza break, then \\q2) — GREEN, locking: the upstream-confirmed two-part \\b rule produces correct output for this source's own real poetry density too, not just WEB's own", () => {
+describe("segmentVerses — ASV1901's real Job 4:8-12 poetry (\\q1 lines, a real \\b stanza break, then \\q2): the two-part \\b rule produces correct output for this source's own real poetry density too, not just WEB's own", () => {
   const records = segmentVerses(readFixture("asv1901-job-4-8-12.usfm"), "JOB");
 
   it("should flag both of verse 9's own lines break: true, with no paragraph flag anywhere — no \\b sits near verse 9, so its own \\q1/\\q2 lines behave exactly like ordinary poetry line-wraps always have", () => {
@@ -1367,7 +1357,7 @@ describe("segmentVerses — MSB2025's real Acts 8:37 (\\v 37 with nothing at all
   // supplying a reading or footnote.
   const records = segmentVerses(readFixture("msb2025-acts-8-37.usfm"), "ACT");
 
-  it("should emit no verse record at all for verse 37 — guide.md's own already-established rule for \"omitted textual variants\" (\"Emit no verse record at all\"), the correct behavior for a verse whose real USFM content is nothing, not an empty stand-in block", () => {
+  it("should emit no verse record at all for verse 37 — the correct behavior for a disputed verse whose real USFM content is nothing at all, not an empty stand-in block", () => {
     expect(records.find((record) => record.verse === 37)).toBeUndefined();
   });
 
@@ -1382,7 +1372,7 @@ describe("segmentVerses — MSB2025's real Acts 8:37 (\\v 37 with nothing at all
 });
 
 /**
- * `normalizeFractionText` (`utils/usfm/fractions.ts`) is wired into this
+ * `normalizeFractionText` (`functions/normalizeFractions.ts`) is wired into this
  * file's own per-token `text` handling too (the same fix already proven
  * from the footnote side in `footnotes.test.ts`), so a raw fraction
  * converts regardless of which of the two real ingestion points first

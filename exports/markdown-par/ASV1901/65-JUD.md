@@ -47,6 +47,6 @@
 > - <sup>o</sup> 14. Greek _his holy myriads_.
 > - <sup>p</sup> 18. Greek _their own lusts of ungodlinesses_.
 > - <sup>q</sup> 19. Or, _natural_. Or, _animal_
-> - <sup>r</sup> 22. The Greek text in this passage (_And . . . fire_) is somewhat uncertain. Some ancient authorities read _And some refute while they dispute_ with you. Compare 1 Tim. 5:20; Titus 1:9.
+> - <sup>r</sup> 22. The Greek text in this passage (_And … fire_) is somewhat uncertain. Some ancient authorities read _And some refute while they dispute_ with you. Compare 1 Tim. 5:20; Titus 1:9.
 > - <sup>s</sup> 22. Or, _while they dispute_ with you
 > - <sup>t</sup> 25. Greek _unto all the ages_.

@@ -108,7 +108,7 @@ The number of the men of the people of Israel:
 > - <sup>d</sup> 20. Or, _Gibeon_
 > - <sup>e</sup> 24. Or, _Bethazmaveth_
 > - <sup>f</sup> 33. Or, _Harid, as it is in some copies_
-> - <sup>g</sup> 40. Or, _Judah,_ _chap. 3.9__. called also Hodevah_
+> - <sup>g</sup> 40. Or, _Judah, chap. 3.9. called also Hodevah_
 > - <sup>h</sup> 46. Or, _Shamlai_
 > - <sup>i</sup> 52. Or, _Bazlith, in Nehem_
 > - <sup>j</sup> 55. Or, _Perida, in Nehem._

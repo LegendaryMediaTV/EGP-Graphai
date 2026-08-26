@@ -25,7 +25,7 @@
  * structurally, so a caller passes its own records straight through with
  * no conversion.
  *
- * Must still honor `utils/auditNodes.ts`'s Check 6 rule (a heading/subtitle
+ * Must still honor `utils/auditNodes.ts`'s heading-paragraph check rule (a heading/subtitle
  * run's own real next node keeps `paragraph: true`) even though no real
  * book from the triggering source exercises that interaction today — that
  * source carries zero headings/subtitles. The rule below is written
@@ -61,7 +61,7 @@ function opensParagraph(node: unknown): boolean {
   return typeof node === "object" && node !== null && !Array.isArray(node) && (node as Record<string, unknown>).paragraph === true;
 }
 
-/** `true` for a `{heading: ...}` or `{subtitle: ...}` wrapper — the identical predicate `utils/auditNodes.ts`'s own Check 6 already uses, reimplemented locally rather than imported: that module's own version is not exported, and this one is too small to warrant becoming a new shared export for a second caller. */
+/** `true` for a `{heading: ...}` or `{subtitle: ...}` wrapper — the identical predicate `utils/auditNodes.ts`'s own heading-paragraph check already uses, reimplemented locally rather than imported: that module's own version is not exported, and this one is too small to warrant becoming a new shared export for a second caller. */
 function isHeadingOrSubtitle(node: unknown): boolean {
   if (node === null || typeof node !== "object" || Array.isArray(node)) return false;
   const record = node as Record<string, unknown>;
@@ -92,10 +92,11 @@ export function isUniformParagraphNoise(verses: readonly ParagraphNoiseVerse[]):
 /**
  * The top-level positions, within one verse's own content nodes, that sit
  * immediately after a run of one or more consecutive heading/subtitle
- * nodes — `utils/auditNodes.ts`'s own Check 6 rule (a heading/subtitle
- * run's own real next node), reapplied here at the single-verse level this
- * module operates on. Never recurses past the verse's own outermost array,
- * matching Check 6's own established scope (a heading/subtitle never
+ * nodes — `utils/auditNodes.ts`'s own heading-paragraph check rule (a
+ * heading/subtitle run's own real next node), reapplied here at the
+ * single-verse level this module operates on. Never recurses past the
+ * verse's own outermost array, matching the heading-paragraph check's own
+ * established scope (a heading/subtitle never
  * occurs nested inside a `ContentNested` wrapper or a footnote body
  * anywhere in this repo's real corpus, and never sits as the very last
  * node of a verse's own content either).
@@ -145,12 +146,13 @@ function stripParagraphExcept(content: Content, keepPositions: ReadonlySet<numbe
  * `verses` must be in the
  * book's real, on-disk order: chapter-first detection is positional (the
  * first record encountered with a given chapter number, never assumed to
- * be verse 1), matching `utils/auditNodes.ts`'s own Check 6 convention.
+ * be verse 1), matching `utils/auditNodes.ts`'s own heading-paragraph check convention.
  *
  * When {@link isUniformParagraphNoise} is `false`, `verses` passes through
  * unchanged. When `true`, every verse's own top-level `paragraph: true` is
  * stripped except on each chapter's own first verse, and on any node
- * immediately following a heading/subtitle run (Check 6's own rule).
+ * immediately following a heading/subtitle run (the heading-paragraph
+ * check's own rule).
  *
  * Generic over `V` so a caller's own real verse record (`book`, an index
  * signature, or anything else beyond the three fields this module reads)

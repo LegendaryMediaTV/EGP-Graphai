@@ -1054,13 +1054,12 @@
         }
       },
       {
-        "text": " of the sanctuary you shall take them (the shekel is twenty gerahs",
+        "text": " of the sanctuary you shall take them (the shekel is twenty gerahs);",
         "foot": {
           "type": "stu",
           "content": "A gerah is about 0.5 grams or about 7.7 grains."
         }
-      },
-      ");"
+      }
     ]
   },
   {
@@ -4588,7 +4587,14 @@
     "content": [
       {
         "text": "“Speak to the children of Israel, and tell them that they should make themselves fringes",
-        "foot": { "type": "trn", "content": "or, tassels (Hebrew צִיצִ֛ת)" }
+        "foot": {
+          "type": "trn",
+          "content": [
+            "or, tassels (Hebrew ",
+            { "text": "צִיצִ֛ת", "script": "H" },
+            ")"
+          ]
+        }
       },
       {
         "text": " on the borders of their garments throughout their generations, and that they put on the fringe",
@@ -5791,8 +5797,8 @@
     "chapter": 21,
     "verse": 14,
     "content": [
-      "Therefore it is said in",
-      { "text": " The Book of the Wars of Yahweh", "marks": ["i"] },
+      "Therefore it is said in ",
+      { "text": "The Book of the Wars of Yahweh", "marks": ["i"] },
       ", “Vaheb in Suphah, the valleys of the Arnon,"
     ]
   },
