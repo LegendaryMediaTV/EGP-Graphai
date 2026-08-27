@@ -55,6 +55,7 @@ import {
 } from "./fixFootnoteMarkerSpacing";
 import { removeDuplicateFootnoteAnchorsInContent } from "./fixDuplicateFootnoteAnchors";
 import { mergeEquivalentSiblingsInContent } from "../functions/mergeEquivalentSiblingsInContent";
+import { mergeMarkBoundarySpacesInContent } from "./fixMarkBoundarySpaces";
 
 /** Path to the bible-books registry JSON file. */
 const jsonPath = "./bible-books/bible-books.json";
@@ -694,6 +695,40 @@ async function mergeEquivalentSiblingsInFile(filePath: string): Promise<boolean>
 }
 
 /**
+ * Removes every bare, untagged whitespace-only node eligible for the
+ * mark-boundary-space check in one verse file, rolling each one onto
+ * whichever real side is the smaller mark set, and writes the file back if
+ * anything changed — same shape as {@link mergeEquivalentSiblingsInFile},
+ * since {@link mergeMarkBoundarySpacesInContent} never reports a decline
+ * (the one shape it leaves alone is already correct, not a residual
+ * problem — see that module's own top doc comment).
+ *
+ * Runs after {@link mergeEquivalentSiblingsInFile} in `main()`'s own pass:
+ * that step can itself leave a bare space newly adjacent to a node it just
+ * merged two other siblings around, so this step needs to see the array in
+ * its fully-settled shape rather than resolve a boundary a later merge
+ * would still touch.
+ */
+async function mergeMarkBoundarySpacesInFile(filePath: string): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = mergeMarkBoundarySpacesInContent(verse.content as Content);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+    return true;
+  }
+  return false;
+}
+
+/**
  * Adds a missing `paragraph: true` flag after every heading/subtitle run in
  * one verse file, and writes the file back if anything changed — same
  * `sortVerseKeys`-on-change shape as this pass's other structural steps.
@@ -800,6 +835,7 @@ export function findResidualContentChanges(
     return { content: result.content, changed: result.changed };
   });
   applyStep("equivalent sibling merge", (c) => mergeEquivalentSiblingsInContent(c));
+  applyStep("mark-boundary space merge", (c) => mergeMarkBoundarySpacesInContent(c));
 
   const headingResult = addMissingHeadingParagraphsInVerse({ ...verse, content });
   if (headingResult.changed) residualSteps.push("heading/subtitle paragraph flag");
@@ -1305,7 +1341,8 @@ export function normalizeBibleLinkDashesInContent(
  * punctuation, relocate mark-boundary embedded spaces, relocate
  * footnote-marker spacing, drop empty text keys, remove duplicate footnote
  * anchors, unlink unresolvable `bibleLink` targets, merge equivalent
- * siblings, and add missing heading/subtitle paragraph flags.
+ * siblings, merge mark-boundary spaces, and add missing heading/subtitle
+ * paragraph flags.
  *
  * The ordering is deliberate. Dashes settle before the truncated-range and
  * cross-chapter steps look for the separator; a reconstructed truncated
@@ -1363,20 +1400,33 @@ export function normalizeBibleLinkDashesInContent(
  * duplicate-footnote-anchor check's removal for the identical reason it
  * runs after the unresolvable-target unlink: either step can leave two
  * plain siblings newly adjacent that only the mergeable-sibling check's
- * own merge should fold together. The heading-paragraph check runs last
- * because it's additive and touches a node class none of the others do.
+ * own merge should fold together. **The mark-boundary-space check's own
+ * merge runs after the mergeable-sibling check and before the
+ * heading-paragraph check.** After the mergeable-sibling check: that
+ * step's own merge can leave a bare whitespace-only node newly adjacent to
+ * a node it just folded two other siblings around, so the mark-boundary-space
+ * check needs to see the array in its fully-settled shape rather than roll
+ * a boundary space forward onto a node a later merge would still touch.
+ * Before the heading-paragraph check: a heading/subtitle run is never
+ * itself a `isBlankConnector` candidate, so nothing about that check's own
+ * additive flag could feed back into a boundary this one is still
+ * deciding — the two never interact, so this step's own position relative
+ * to it is a matter of grouping with the rest of the space-boundary
+ * cluster, not a load-bearing ordering constraint. The heading-paragraph
+ * check runs last because it's additive and touches a node class none of
+ * the others do.
  * The script-run check, the unmerged-connector check, the
  * footnote-punctuation-order check, the mark-boundary-embedded-space
  * check, the empty-text-key drop, the duplicate-footnote-anchor check, the
- * unresolvable-target unlink, the mergeable-sibling check, and the
- * heading-paragraph check call `sortVerseKeys` on every changed verse,
- * unlike the steps before the script-run check, since splitting, merging,
- * reordering, relocating, dropping a key, deleting a node, unlinking, and
- * flagging can all change which keys a node carries. The
- * footnote-marker-spacing check doesn't need it either, for the same
- * reason the truncated-range, cross-chapter, and text-only steps don't —
- * see {@link reconstructTruncatedRangesInFile}: it only ever mutates an
- * existing `text` string's value in place.
+ * unresolvable-target unlink, the mergeable-sibling check, the
+ * mark-boundary-space check, and the heading-paragraph check call
+ * `sortVerseKeys` on every changed verse, unlike the steps before the
+ * script-run check, since splitting, merging, reordering, relocating,
+ * dropping a key, deleting a node, unlinking, and flagging can all change
+ * which keys a node carries. The footnote-marker-spacing check doesn't
+ * need it either, for the same reason the truncated-range, cross-chapter,
+ * and text-only steps don't — see {@link reconstructTruncatedRangesInFile}:
+ * it only ever mutates an existing `text` string's value in place.
  *
  * **Immediately after the auto-fix pass, before any schema/structure check,
  * `main` proves the pass is a fixed point of itself.** A before/after
@@ -1841,6 +1891,26 @@ async function main(requestedVersion?: string) {
     console.log(`\n✅ Merged equivalent sibling(s) in ${mergeEquivalentSiblingsCount} file(s)\n`);
   } else {
     console.log("✅ No equivalent siblings to merge\n");
+  }
+
+  console.log("␣ Merging mark-boundary spaces...\n");
+
+  let markBoundarySpaceMergeCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasFixed = await mergeMarkBoundarySpacesInFile(file);
+      if (wasFixed) {
+        markBoundarySpaceMergeCount++;
+        console.log(`  🔄 Merged mark-boundary space(s): ${file}`);
+      }
+    }
+  }
+
+  if (markBoundarySpaceMergeCount > 0) {
+    console.log(`\n✅ Merged mark-boundary space(s) in ${markBoundarySpaceMergeCount} file(s)\n`);
+  } else {
+    console.log("✅ No mark-boundary spaces to merge\n");
   }
 
   console.log("🧱 Adding missing heading/subtitle paragraph flags...\n");

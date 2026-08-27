@@ -2407,8 +2407,7 @@
       {
         "content": [
           " that ",
-          { "text": "the", "marks": ["i"] },
-          " ",
+          { "text": "the ", "marks": ["i"] },
           { "text": "Lord", "marks": ["i", "sc"] },
           " hath said"
         ],
@@ -11852,11 +11851,9 @@
       {
         "content": [
           " him: for ",
-          { "text": "the", "marks": ["i"] },
-          " ",
+          { "text": "the ", "marks": ["i"] },
           { "text": "Lord", "marks": ["i", "sc"] },
-          " ",
-          { "text": "seeth", "marks": ["i"] },
+          { "text": " seeth", "marks": ["i"] },
           " not as man"
         ],
         "strong": "H120"

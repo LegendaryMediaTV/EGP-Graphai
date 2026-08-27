@@ -237,11 +237,30 @@ describe("findStrongsNodeIssues — mark-boundary spaces", () => {
     expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
   });
 
-  it("should not be blocked by a footnote on either real neighbor — the footnote stays put; only the space moves", () => {
+  it("should not be blocked by a footnote on either real neighbor when the two sides agree exactly — the footnote stays put; only the space moves", () => {
     const content: Content = [
       { text: "have", marks: ["woc"], foot: { type: "var", content: "x" } },
       " ",
       { text: "not grown weary.", marks: ["woc"] },
+    ];
+    const findings = findStrongsNodeIssues(content).markBoundarySpaces;
+    expect(findings).toHaveLength(1);
+  });
+
+  it("should stay silent when a subset boundary's own smaller (wrapper) side carries a foot — real YLT1898 Revelation 2:13 shape: neither direction is safe, so an already-correctly-tagged blank is the settled shape, not a finding", () => {
+    const content: Content = [
+      { text: "...Antipas", marks: ["woc"], foot: { type: "stu", content: "Antipater" } },
+      { text: " ", marks: ["woc"] },
+      { text: "was", marks: ["i", "woc"] },
+    ];
+    expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should still flag a subset boundary when the smaller (wrapper) side carries no strong/foot of its own — real KJV1769 1 Samuel 16:7 shape, backward direction", () => {
+    const content: Content = [
+      { text: "the", marks: ["i"] },
+      " ",
+      { text: "Lord", marks: ["i", "sc"] },
     ];
     const findings = findStrongsNodeIssues(content).markBoundarySpaces;
     expect(findings).toHaveLength(1);

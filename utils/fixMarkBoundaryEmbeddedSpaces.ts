@@ -38,28 +38,45 @@
  *
  * **A second shape needs a structural fix, not a text move**: the "leading"
  * direction's plain relocation moves a whitespace run onto the predecessor's
- * trailing edge. When that predecessor carries a `strong` number — e.g.
- * `{text: " saying,", strong: "G3004", ...}` immediately before the
- * woc-marked node — that move would violate the trailing-whitespace check's
- * own rule that a `strong`-carrying node's text never ends in whitespace.
- * The space then has no legal home in either node's own text: it can't stay
- * embedded in the marked node (that's the finding itself), and it can't
- * relocate onto the predecessor's trailing edge (the trailing-whitespace
- * check forbids it). So it becomes its own standalone node instead — a bare
- * string `" "` inserted between the predecessor and the marked node,
- * matching this corpus's own existing convention for a joining space with
- * nothing to agree with on either side (`auditNodes.ts`'s own
- * mark-boundary-space check doc comment; real KJV1769 Matthew 6:32 shape).
+ * trailing edge. Two independent predecessor shapes forbid that move, each
+ * for its own reason:
+ *
+ * - A `strong` number — e.g. `{text: " saying,", strong: "G3004", ...}`
+ *   immediately before the woc-marked node — that move would violate the
+ *   trailing-whitespace check's own rule that a `strong`-carrying node's
+ *   text never ends in whitespace.
+ * - A `foot` — real CSB2017 1 Chronicles 17:17: `{text: "...as a man of
+ *   distinction,", foot: {type: "trn", content: "Hb obscure"}}` immediately
+ *   before a small-caps `{text: " Lord", marks: ["sc"]}` — landing the
+ *   space there would give this predecessor's own trailing text a
+ *   whitespace run it never had, which is exactly the shape
+ *   `fixFootnoteMarkerSpacing.ts`'s own "footnote marker renders after
+ *   whitespace" check looks for. That check has no way to tell this
+ *   manufactured run apart from a genuine one, so it would go on to
+ *   "repair" an already-correctly-placed marker right off the word it
+ *   actually annotates — the predecessor's `foot` was never floating away
+ *   from anything until this module's own relocation put a false trailing
+ *   space under it.
+ *
+ * Either way the space then has no legal home in either node's own text: it
+ * can't stay embedded in the marked node (that's the finding itself), and
+ * it can't relocate onto the predecessor's trailing edge. So it becomes its
+ * own standalone node instead — a bare string `" "` inserted between the
+ * predecessor and the marked node, matching this corpus's own existing
+ * convention for a joining space with nothing to agree with on either side
+ * (`auditNodes.ts`'s own mark-boundary-space check doc comment; real
+ * KJV1769 Matthew 6:32 shape for the `strong` case).
  *
  * This is asymmetric by construction and only ever fires for `side:
- * "leading"` against a `strong`-carrying predecessor: leading whitespace on a
- * `strong`-carrying node is already this corpus's norm and never a
- * trailing-whitespace-check violation, so the mirror-image "trailing"
- * direction (a move onto a real successor's own leading edge) has no
- * equivalent conflict and keeps using the plain text-relocation path above.
- * The inserted node is never itself a mark-boundary-space-check finding
- * either: the mark-boundary-space check only proposes collapsing a
- * standalone blank connector when its two real neighbors *agree* in marks, and a
+ * "leading"` against a `strong`- or `foot`-carrying predecessor: leading
+ * whitespace on a marked node is already this corpus's norm and never a
+ * trailing-whitespace-check or footnote-marker-spacing-check violation on
+ * *its own* trailing edge, so the mirror-image "trailing" direction (a move
+ * onto a real successor's own leading edge) has no equivalent conflict for
+ * either shape and keeps using the plain text-relocation path above. The
+ * inserted node is never itself a mark-boundary-space-check finding either:
+ * the mark-boundary-space check only proposes collapsing a standalone blank
+ * connector when its two real neighbors *agree* in marks, and a
  * predecessor/marked-node pair that reached this branch disagreed by
  * definition.
  *
@@ -197,7 +214,7 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
           !agreesInFormatting(shape, predecessor) &&
           !isFormattingSubsetOf(shape, predecessor)
         ) {
-          if (predecessor.strong !== undefined) {
+          if (predecessor.strong !== undefined || predecessor.hasFoot) {
             // Structural fix, not a text move (top doc comment's "second
             // shape" section): neither home for the space is legal here, so
             // it becomes its own standalone node; the predecessor's own text

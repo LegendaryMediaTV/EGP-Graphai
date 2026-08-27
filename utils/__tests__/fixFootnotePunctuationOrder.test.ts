@@ -54,13 +54,39 @@ describe("reorderFootnotePunctuationInContent", () => {
     expect(result).toEqual(content);
   });
 
-  it("should decline a footed node and its punctuation-leading sibling that disagree in formatting, reporting eligibility", () => {
+  it("should extract a footed node's own foot onto a new node after a pure-punctuation sibling that disagrees in formatting (real CSB2017 John 7:36/8:22/16:17 shape)", () => {
     // A footed, italic-marked node immediately followed by bare, unmarked
     // punctuation — the same marks mismatch the fixer's own top doc comment
-    // names as a real corpus shape it must not guess across.
+    // names as a real corpus shape it must not guess across by merging. But
+    // since the sibling is nothing but punctuation, the marker's own
+    // position still has one correct answer: after the punctuation. `foot`
+    // moves there instead of the punctuation moving onto the footed node.
     const content = [
       { text: "some clause", marks: ["i"], foot: { type: "expl", content: "note" } },
       ".",
+    ];
+
+    const { content: result, changed, skipped } = reorderFootnotePunctuationInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual([
+      { text: "some clause", marks: ["i"] },
+      ".",
+      { foot: { type: "expl", content: "note" } },
+    ]);
+  });
+
+  it("should decline a footed node and a formatting-disagreeing sibling whose punctuation is only a leading run with real text of its own after it, reporting eligibility", () => {
+    // Same marks mismatch as the pure-punctuation case above, but the
+    // sibling has real text of its own after the punctuation run — moving
+    // the punctuation still isn't safe (formatting disagrees), and unlike
+    // the pure-punctuation shape there's no clean place to splice an
+    // extracted `foot` without splitting this sibling in two, which no real
+    // corpus case has needed yet.
+    const content = [
+      { text: "some clause", marks: ["i"], foot: { type: "expl", content: "note" } },
+      ". Then something else",
     ];
 
     const { content: result, changed, skipped } = reorderFootnotePunctuationInContent(content as never);

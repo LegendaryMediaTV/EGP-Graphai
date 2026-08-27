@@ -27,6 +27,39 @@ describe("relocateMarkBoundarySpacesInContent", () => {
     ]);
   });
 
+  it("should extract a leading space into its own standalone node when the predecessor carries foot, instead of manufacturing trailing whitespace under an already-correctly-placed marker (CSB2017 1 Chronicles 17:17's own real shape)", () => {
+    // A footed predecessor's own text already ends flush against its own
+    // last real character ("distinction,") with the marker already hugging
+    // it correctly. Relocating the small-caps node's own leading space onto
+    // that predecessor's trailing edge would give it a trailing whitespace
+    // run it never had — exactly the shape
+    // fixFootnoteMarkerSpacing.ts's own "footnote marker renders after
+    // whitespace" check looks for, which would then misread it as a marker
+    // floating away from its word and wrongly re-extract an already-settled
+    // foot. The space has to become its own standalone node instead, same
+    // as the strong case above.
+    const content = [
+      {
+        text: "...as a man of distinction,",
+        foot: { type: "trn", content: "Hb obscure" },
+      },
+      { text: " Lord", marks: ["sc"] },
+    ];
+
+    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual([
+      {
+        text: "...as a man of distinction,",
+        foot: { type: "trn", content: "Hb obscure" },
+      },
+      " ",
+      { text: "Lord", marks: ["sc"] },
+    ]);
+  });
+
   it("should delete a marked node's own trailing space when relocating it would double a whitespace run the unmarked neighbor already carries (WEBUS2020 Matthew 8:26's own real shape, with the defect reintroduced)", () => {
     // WEBUS2020 Matthew 8:26's real, already-fixed shape has no trailing
     // space on the woc-marked node; the unmarked bare-string successor

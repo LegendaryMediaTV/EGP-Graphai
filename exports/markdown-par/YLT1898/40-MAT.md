@@ -587,7 +587,7 @@ And it came to pass, when Jesus ended directing his twelve disciples, he departe
 
 <sup>28</sup> “Come unto me, all ye labouring<sup>g</sup> and burdened ones, and I will give you rest,
 <sup>29</sup> take up my yoke upon you, and learn from me, because I am meek and humble in heart, and ye shall find rest to your souls,
-<sup>30</sup> for my yoke _is _easy,<sup>h</sup> and my burden is light.”
+<sup>30</sup> for my yoke _is_ easy,<sup>h</sup> and my burden is light.”
 
 > - <sup>a</sup> 1. Chapter XI. may be divided into five parts; v. 1–6 John’s enquiry at Jesus and the answer; v. 7–15 Jesus’ testimony to John; v. 16–19 His simile about that generation; v. 20–24 His reproof of three cities; v. 25–30 His thanksgiving and his invitation to men.
 > - <sup>b</sup> 4. Lit., _tell thoroughly_

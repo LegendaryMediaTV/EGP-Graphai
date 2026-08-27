@@ -795,7 +795,7 @@ describe("exportContent", () => {
         expect(result).not.toContain("  "); // No double spaces
       });
 
-      it("should add space after textless footnote at verse start in text export (CLV1880 GEN 50:23 style)", () => {
+      it("should glue a textless footnote at verse start directly onto the phrase it introduces, in text export (CLV1880 GEN 50:23 style)", () => {
         const verse: VerseSchema = {
           book: "GEN",
           chapter: 50,
@@ -806,11 +806,12 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // No space between ° and {, but a space after }
+        // No space between ° and {, and none after } either — the footnote
+        // introduces the phrase that follows it with no gap.
         expect(result).toBe(
-          "050:023 °{Originally verse 50:22.} et vidit Ephraim filios"
+          "050:023 °{Originally verse 50:22.}et vidit Ephraim filios"
         );
-        expect(result).toContain("} et vidit");
+        expect(result).toContain("}et vidit");
       });
     });
 
@@ -997,7 +998,7 @@ describe("exportContent", () => {
         expect(result).not.toContain("God °{Or, was brooding upon} moved");
       });
 
-      it("should have no space between footnote marker and content for textless footnote at start (CLV1880 NUM 20:29 style)", () => {
+      it("should have no space between footnote marker and content, nor between the footnote and the phrase it introduces, for a textless footnote at start (CLV1880 NUM 20:29 style)", () => {
         const verse: VerseSchema = {
           book: "NUM",
           chapter: 20,
@@ -1008,12 +1009,13 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Expected shape: °{content} text
+        // Expected shape: °{content}text — glued on both sides
         expect(result).toBe(
-          "020:029 °{Originally verse 20:30.} omnis autem multitudo videns occubuisse Aaron"
+          "020:029 °{Originally verse 20:30.}omnis autem multitudo videns occubuisse Aaron"
         );
         expect(result).not.toMatch(/° \{/);
         expect(result).toMatch(/°\{/);
+        expect(result).not.toMatch(/\} /);
       });
 
       it("should allow clean removal of footnotes via search/replace", () => {
