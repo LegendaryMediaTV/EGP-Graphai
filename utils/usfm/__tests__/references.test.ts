@@ -234,7 +234,7 @@ describe("linkEmbeddedReferences — a fully-qualified reference embedded in ord
     ]);
   });
 
-  it('should link every fully-qualified reference in a semicolon-joined run, including one with no cue word anywhere near it, while a bare, book-less "15:28; 16:1" continuation stays unlinked prose — the one real, named residual this mechanism still leaves alone (1 Maccabees 13:53\'s real note, "See 1 Maccabees 13:53 (compare 1 Maccabees 13:48); 1 Maccabees 14:7, 34; 15:28; 16:1: also Josephus...")', () => {
+  it('should link every fully-qualified reference in a semicolon-joined run, including one with no cue word anywhere near it, and chain each bare, book-less "C:V" continuation onto the reference it follows, inheriting its book (1 Maccabees 13:53\'s real note, "See 1 Maccabees 13:53 (compare 1 Maccabees 13:48); 1 Maccabees 14:7, 34; 15:28; 16:1: also Josephus...")', () => {
     const content = linkEmbeddedReferences(
       "See 1 Maccabees 13:53 (compare 1 Maccabees 13:48); 1 Maccabees 14:7, 34; 15:28; 16:1: also Josephus. All the authorities read Gaza in this verse.",
     );
@@ -245,20 +245,28 @@ describe("linkEmbeddedReferences — a fully-qualified reference embedded in ord
       { bibleLink: "1 Maccabees 13:48" },
       "); ",
       { bibleLink: "1 Maccabees 14:7, 34" },
-      "; 15:28; 16:1: also Josephus. All the authorities read Gaza in this verse.",
+      "; ",
+      { bibleLink: "1 Maccabees 15:28", content: "15:28" },
+      "; ",
+      { bibleLink: "1 Maccabees 16:1", content: "16:1" },
+      ": also Josephus. All the authorities read Gaza in this verse.",
     ]);
   });
 
-  it('should link only the fully-qualified references, never a bare "C:V"-only continuation with no book name of its own — 1 Maccabees 3:38\'s real "10:10" and "11:27" stay unlinked prose, a real, named residual, while "2 Maccabees 8:9" — fully named — links even with no cue word right before it (1 Maccabees 3:38\'s real note, "See 1 Maccabees 3:38; 10:10, etc.; Compare 1 Maccabees 10:65; 11:27; 2 Maccabees 8:9.")', () => {
+  it('should chain a bare "C:V"-only continuation onto the reference immediately before it, inheriting its book, while a fully-named reference right after the same semicolon is left for its own separate match instead (1 Maccabees 3:38\'s real note, "See 1 Maccabees 3:38; 10:10, etc.; Compare 1 Maccabees 10:65; 11:27; 2 Maccabees 8:9.")', () => {
     const content = linkEmbeddedReferences(
       "See 1 Maccabees 3:38; 10:10, etc.; Compare 1 Maccabees 10:65; 11:27; 2 Maccabees 8:9.",
     );
     expect(content).toEqual([
       "See ",
       { bibleLink: "1 Maccabees 3:38" },
-      "; 10:10, etc.; Compare ",
+      "; ",
+      { bibleLink: "1 Maccabees 10:10", content: "10:10" },
+      ", etc.; Compare ",
       { bibleLink: "1 Maccabees 10:65" },
-      "; 11:27; ",
+      "; ",
+      { bibleLink: "1 Maccabees 11:27", content: "11:27" },
+      "; ",
       { bibleLink: "2 Maccabees 8:9" },
       ".",
     ]);
@@ -282,35 +290,73 @@ describe("linkEmbeddedReferences — a fully-qualified reference embedded in ord
     expect(content).toEqual(["Compare Girzites (or Gizrites), ", { bibleLink: "1 Samuel 27:8" }, ". "]);
   });
 
-  it("should leave a reference to a book outside canonBookIds unlinked, matching every other resolver in this module (1 Maccabees 10:65's real note, \"Compare 1 Maccabees 10:65.\" — 1 Maccabees is out of IN_SCOPE_CANON's own 66-book canon)", () => {
-    const content = linkEmbeddedReferences("Compare 1 Maccabees 10:65. ", IN_SCOPE_CANON);
-    expect(content).toBe("Compare 1 Maccabees 10:65. ");
+  it("should link a reference to a book outside canonBookIds the same as any other — unlike resolveTarget's own direct branch, this resolver is never canon-restricted (1 Maccabees 10:65's real note, \"Compare 1 Maccabees 10:65.\" — 1 Maccabees is out of IN_SCOPE_CANON's own 66-book canon)", () => {
+    const content = linkEmbeddedReferences("Compare 1 Maccabees 10:65. ");
+    expect(content).toEqual(["Compare ", { bibleLink: "1 Maccabees 10:65" }, ". "]);
   });
 
   it('should now link a bare reference sitting at a footnote body\'s own start with no cue word at all — Proverbs 31:10-31\'s own real, self-referential acrostic note, matching upstream HEAD\'s own real, already-linked shape exactly, and three real 1 Esdras instances sharing the identical shape (Ezra 8:3\'s real note)', () => {
     const proverbs =
       "Proverbs 31:10-31 form an acrostic, with each verse starting with each letter of the Hebrew alphabet, in order.";
-    expect(linkEmbeddedReferences(proverbs, IN_SCOPE_CANON)).toEqual([
+    expect(linkEmbeddedReferences(proverbs)).toEqual([
       { bibleLink: "Proverbs 31:10-31" },
       " form an acrostic, with each verse starting with each letter of the Hebrew alphabet, in order.",
     ]);
 
     const firstEsdras = "Ezra 8:3, of the sons of Shecaniah; of the sons of Parosh.";
-    expect(linkEmbeddedReferences(firstEsdras, IN_SCOPE_CANON)).toEqual([
+    expect(linkEmbeddedReferences(firstEsdras)).toEqual([
       { bibleLink: "Ezra 8:3" },
       ", of the sons of Shecaniah; of the sons of Parosh.",
     ]);
   });
 
-  it('should never link a bare chapter-only mention with no verse — Psalm 34:1\'s own real, self-referential acrostic note ("Psalm 34 is an acrostic poem...") is otherwise structurally identical to the now-linked Proverbs note above, except it names no specific verse, and upstream HEAD itself never links a chapter-only reference anywhere in this corpus (zero exceptions across 330 distinct, real, committed bibleLink targets — see EMBEDDED_REFERENCE_SUFFIX\'s own doc comment)', () => {
-    const psalm34 =
-      "Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav).";
-    expect(linkEmbeddedReferences(psalm34, IN_SCOPE_CANON)).toBe(psalm34);
+  it('should now link a bare chapter-only mention with no verse too — Psalm 34:1\'s own real, self-referential acrostic note ("Psalm 34 is an acrostic poem...") names a real, specific chapter even with no verse of its own, and a chapter-only mention now links the same as any other, reversing this module\'s own earlier verse-mandatory rule', () => {
+    const content = linkEmbeddedReferences(
+      "Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav).",
+    );
+    expect(content).toEqual([
+      { bibleLink: "Psalm 34" },
+      " is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav).",
+    ]);
+  });
+
+  it('should link a period-abbreviated, chapter-only reference the same way (Numbers 8:6\'s real "he sees here the importance of each member of God\'s family having his own particular task (I Cor. 12)")', () => {
+    const content = linkEmbeddedReferences(
+      "He sees here the importance of each member of God's family having his own particular task (I Cor. 12).",
+    );
+    expect(content).toEqual([
+      "He sees here the importance of each member of God's family having his own particular task (",
+      { bibleLink: "1 Corinthians 12", content: "I Cor. 12" },
+      ").",
+    ]);
+  });
+
+  it('should decline a chain continuation that really is a different book\'s own leading digit, even when that digit alone would now satisfy the relaxed, chapter-only head (1 Maccabees 3:38\'s real "...Compare 1 Maccabees 10:65; 11:27; 2 Maccabees 8:9." — proving the chain steal-guard, not just the comma-list one, catches "2 Maccabees" rather than reading its own leading "2" as a bare chapter continuation)', () => {
+    const content = linkEmbeddedReferences("Compare 1 Maccabees 10:65; 11:27; 2 Maccabees 8:9.");
+    expect(content).toEqual([
+      "Compare ",
+      { bibleLink: "1 Maccabees 10:65" },
+      "; ",
+      { bibleLink: "1 Maccabees 11:27", content: "11:27" },
+      "; ",
+      { bibleLink: "2 Maccabees 8:9" },
+      ".",
+    ]);
+  });
+
+  it('should insert the implied chapter 1 for a single-chapter book\'s bare verse range, never reading it as a chapter-to-chapter range (Ezekiel 26:14\'s real "...he refers his readers to Obad. 11-14 (or 11-16 in some numbering systems)")', () => {
+    const content = linkEmbeddedReferences("...he refers his readers to Obad. 11-14.");
+    expect(content).toEqual(["...he refers his readers to ", { bibleLink: "Obadiah 1:11-14", content: "Obad. 11-14" }, "."]);
+  });
+
+  it("should leave a single-chapter book's own already-explicit chapter 1 alone, never doubling it", () => {
+    const content = linkEmbeddedReferences("See Jude 1:14, 15.");
+    expect(content).toEqual(["See ", { bibleLink: "Jude 1:14, 15" }, "."]);
   });
 
   it('should now link Deuteronomy 33:16\'s own real "the burning bush of Exodus 3:3-4" through the generic mechanism directly — "of" is not a cue word, but this redesign never checks for one; "Exodus 3:3-4" names its own book explicitly, which is all that matters now, superseding the separate verse-specific override this used to need in imports/webus2020/import.ts', () => {
     const deuteronomy = "i.e., the burning bush of Exodus 3:3-4.";
-    expect(linkEmbeddedReferences(deuteronomy, IN_SCOPE_CANON)).toEqual([
+    expect(linkEmbeddedReferences(deuteronomy)).toEqual([
       "i.e., the burning bush of ",
       { bibleLink: "Exodus 3:3-4" },
       ".",
@@ -340,7 +386,6 @@ describe("linkEmbeddedReferences — six real 66-canon references linked with no
   it('should link Psalm 8:5\'s real "See also the quote from the Septuagint in Hebrews 2:7." — the cue "See" sits nowhere near "Hebrews"; only the book name itself matters now', () => {
     const content = linkEmbeddedReferences(
       "Hebrew: Elohim. The word Elohim, used here, usually means “God”, but can also mean “gods”, “princes”, or “angels”. The Septuagint reads “angels” here. See also the quote from the Septuagint in Hebrews 2:7.",
-      IN_SCOPE_CANON,
     );
     expect(content).toEqual([
       "Hebrew: Elohim. The word Elohim, used here, usually means “God”, but can also mean “gods”, “princes”, or “angels”. The Septuagint reads “angels” here. See also the quote from the Septuagint in ",
@@ -352,7 +397,6 @@ describe("linkEmbeddedReferences — six real 66-canon references linked with no
   it('should link Mark 16:9\'s real self-referential "...the translators of the World English Bible regard Mark 16:9-20 as reliable..." — "regard" is a verb, never a cue word, but "Mark 16:9-20" names its own book and verse range explicitly', () => {
     const content = linkEmbeddedReferences(
       "NU includes the text of verses 9-20, but mentions in a footnote that a few manuscripts omitted it. The translators of the World English Bible regard Mark 16:9-20 as reliable based on an overwhelming majority of textual evidence, including not only the authoritative Greek Majority Text New Testament, but also the TR and many of the manuscripts cited in the NU text.",
-      IN_SCOPE_CANON,
     );
     expect(content).toEqual([
       "NU includes the text of verses 9-20, but mentions in a footnote that a few manuscripts omitted it. The translators of the World English Bible regard ",
@@ -362,7 +406,7 @@ describe("linkEmbeddedReferences — six real 66-canon references linked with no
   });
 
   it('should link John 3:3\'s real "The word translated “anew” here and in John 3:7 (ἄνωθεν) also means..." — "here and in" is no cue word at all', () => {
-    const content = linkEmbeddedReferences('The word translated “anew” here and in John 3:7 also means “again” and “from above”.', IN_SCOPE_CANON);
+    const content = linkEmbeddedReferences('The word translated “anew” here and in John 3:7 also means “again” and “from above”.');
     expect(content).toEqual([
       'The word translated “anew” here and in ',
       { bibleLink: "John 3:7" },
@@ -373,7 +417,6 @@ describe("linkEmbeddedReferences — six real 66-canon references linked with no
   it('should link both halves of John 8:11\'s real "NU includes John 7:53–John 8:11, but puts brackets around it..." independently, with the em dash between them left as plain text — "includes" is a verb, never a cue word, and matches upstream HEAD\'s own real two-bibleLink shape exactly', () => {
     const content = linkEmbeddedReferences(
       "NU includes John 7:53–John 8:11, but puts brackets around it to indicate that the textual critics had less confidence that this was original.",
-      IN_SCOPE_CANON,
     );
     expect(content).toEqual([
       "NU includes ",
@@ -385,19 +428,347 @@ describe("linkEmbeddedReferences — six real 66-canon references linked with no
   });
 
   it('should link Romans 14:26\'s real "TR places verses 24-26 after Romans 16:24 as verses 25-27." — "after" is a preposition, never a cue word', () => {
-    const content = linkEmbeddedReferences("TR places verses 24-26 after Romans 16:24 as verses 25-27. ", IN_SCOPE_CANON);
+    const content = linkEmbeddedReferences("TR places verses 24-26 after Romans 16:24 as verses 25-27. ");
     expect(content).toEqual(["TR places verses 24-26 after ", { bibleLink: "Romans 16:24" }, " as verses 25-27. "]);
   });
 
   it('should link Romans 16:25\'s real "TR places Romans 14:24-26 at the end of Romans instead of..." — "places" is a verb, never a cue word', () => {
     const content = linkEmbeddedReferences(
       "TR places Romans 14:24-26 at the end of Romans instead of at the end of chapter 14, and numbers these verses 16:25-27.",
-      IN_SCOPE_CANON,
     );
     expect(content).toEqual([
       "TR places ",
       { bibleLink: "Romans 14:24-26" },
       " at the end of Romans instead of at the end of chapter 14, and numbers these verses 16:25-27.",
+    ]);
+  });
+});
+
+/**
+ * A source that abbreviates a book name with a trailing period ("Isa. 9:6"
+ * rather than "Isaiah 9:6" or the registry's own period-free alias "Isa
+ * 9:6") still names a real, registry-resolvable reference — the period is
+ * punctuation on the abbreviation, not part of the book name, and
+ * {@link matchBookPrefix}'s own period tolerance consumes it rather than
+ * leaving it attached to `rest`, where it would break the digit-immediately-
+ * after-the-space check every other fixture in this file relies on.
+ */
+describe("linkEmbeddedReferences — a period-abbreviated book name links the same as its period-free alias", () => {
+  it("should link a period-abbreviated short alias immediately followed by chapter and verse", () => {
+    expect(linkEmbeddedReferences("This is quoted as a messianic prophecy in Isa. 9:6.")).toEqual([
+      "This is quoted as a messianic prophecy in ",
+      { bibleLink: "Isaiah 9:6", content: "Isa. 9:6" },
+      ".",
+    ]);
+  });
+
+  it("should link a period-abbreviated alias followed by a verse range, still resolving to the canonical name", () => {
+    expect(linkEmbeddedReferences("The genealogy in Matt. 1:1-17 omits several generations.")).toEqual([
+      "The genealogy in ",
+      { bibleLink: "Matthew 1:1-17", content: "Matt. 1:1-17" },
+      " omits several generations.",
+    ]);
+  });
+
+  it("should not treat a period ending an ordinary sentence as an abbreviation's own period when no digit immediately follows it", () => {
+    const unchanged = "The prophecy appears in Isaiah. Chapter 9 continues the theme.";
+    expect(linkEmbeddedReferences(unchanged)).toBe(unchanged);
+  });
+});
+
+/**
+ * A source that spells a numbered book's own ordinal as a Roman numeral
+ * ("I Kings", "II Chronicles") rather than the registry's own Arabic-digit
+ * form ("1 Kings", "1Kg") still names the same book —
+ * {@link romanNumeralVariant} derives the Roman spelling of every numbered
+ * book's own name and aliases once, at registry build time, rather than the
+ * registry needing to carry both spellings of every one by hand.
+ */
+describe("linkEmbeddedReferences — a Roman-numeral ordinal prefix links the same as its Arabic-digit counterpart", () => {
+  it("should link a Roman-numeral-prefixed full name", () => {
+    expect(linkEmbeddedReferences("The dedication prayer is recorded in I Kings 8:33.")).toEqual([
+      "The dedication prayer is recorded in ",
+      { bibleLink: "1 Kings 8:33", content: "I Kings 8:33" },
+      ".",
+    ]);
+  });
+
+  it("should link a Roman-numeral-prefixed short alias, period-abbreviated, composing both extensions on one reference", () => {
+    expect(linkEmbeddedReferences("See especially I Kgs. 8:33 for the fuller context.")).toEqual([
+      "See especially ",
+      { bibleLink: "1 Kings 8:33", content: "I Kgs. 8:33" },
+      " for the fuller context.",
+    ]);
+  });
+
+  it("should link two independent Roman-numeral-prefixed references chained by a cue word between them, each resolving to its own book", () => {
+    expect(
+      linkEmbeddedReferences("He was also a father figure, cf. I Kings 14:21 and II Chr. 9:30."),
+    ).toEqual([
+      "He was also a father figure, cf. ",
+      { bibleLink: "1 Kings 14:21", content: "I Kings 14:21" },
+      " and ",
+      { bibleLink: "2 Chronicles 9:30", content: "II Chr. 9:30" },
+      ".",
+    ]);
+  });
+
+  it("should link a Roman-numeral-prefixed reference the same as any other, regardless of canon", () => {
+    const content = linkEmbeddedReferences("Compare I Kings 8:33 for the parallel account.");
+    expect(content).toEqual(["Compare ", { bibleLink: "1 Kings 8:33", content: "I Kings 8:33" }, " for the parallel account."]);
+  });
+});
+
+/**
+ * A multi-digit verse number immediately followed by an unrecognized
+ * trailing word — a translation-edition abbreviation like "KJV"/"NIV", or
+ * any other capitalized word — must never make the engine backtrack
+ * *inside* that digit run the way an unguarded `\d+` once did (see {@link
+ * DIGITS}'s own doc comment), and must never decline a real reference
+ * outright just because a merely-capitalized word happens to follow it (see
+ * {@link wouldStealBookOrdinal}'s own doc comment): "KJV" is capitalized the
+ * same way a real book name is, but it isn't one, so it no longer blocks
+ * anything.
+ */
+describe("linkEmbeddedReferences — a multi-digit verse number is never truncated, and a trailing non-reference word never blocks linking", () => {
+  it('should link a comma-listed multi-digit verse\'s own continuation in full, even with a trailing translation-edition abbreviation right after it ("(Num. 12:11, 12 KJV)"\'s own real shape)', () => {
+    const content = linkEmbeddedReferences("Let her not be as one dead (Num. 12:11, 12 KJV).");
+    expect(content).toEqual([
+      "Let her not be as one dead (",
+      { bibleLink: "Numbers 12:11, 12", content: "Num. 12:11, 12" },
+      " KJV).",
+    ]);
+  });
+
+  it("should link a bare reference in full, with no comma-list at all, even with a trailing translation-edition abbreviation right after it (Psalm 119's real 176 verses make a three-digit verse number ordinary, not a synthetic edge case)", () => {
+    const content = linkEmbeddedReferences("the longest acrostic closes at Psalm 119:176 KJV.");
+    expect(content).toEqual(["the longest acrostic closes at ", { bibleLink: "Psalm 119:176" }, " KJV."]);
+  });
+
+  it('should still decline a comma-list continuation that really is a different book\'s own leading digit, leaving the reference at its own unambiguous first verse (2 Maccabees 5:13\'s real "...see Judges 11:3, 2 Samuel 10:6..." — proving the fix trades a false decline for correctness, not for a wrong link)', () => {
+    const content = linkEmbeddedReferences("...see Judges 11:3, 2 Samuel 10:6, and compare...");
+    expect(content).toEqual([
+      "...see ",
+      { bibleLink: "Judges 11:3" },
+      ", ",
+      { bibleLink: "2 Samuel 10:6" },
+      ", and compare...",
+    ]);
+  });
+
+});
+
+/**
+ * A written-out list's own Oxford comma ("2, 3, 7, 8, 15, and 17") is a real
+ * English-prose convention this corpus's own footnotes use, not a synthetic
+ * edge case — Genesis 14:2's real note names six verses this way, and only
+ * the comma-joined grammar without "and" tolerance was ever tested before.
+ */
+describe("linkEmbeddedReferences — a written-out list's own trailing \"and N\" still continues the same reference's verse list", () => {
+  it('should link every verse in a written-out list through its own trailing "and N" item (Genesis 14:2\'s real note, "Chapter 14 alone contains six such explanatory notes (Gen. 14:2, 3, 7, 8, 15, and 17)")', () => {
+    const content = linkEmbeddedReferences(
+      "Chapter 14 alone contains six such explanatory notes (Gen. 14:2, 3, 7, 8, 15, and 17).",
+    );
+    expect(content).toEqual([
+      "Chapter 14 alone contains six such explanatory notes (",
+      { bibleLink: "Genesis 14:2, 3, 7, 8, 15, 17", content: "Gen. 14:2, 3, 7, 8, 15, and 17" },
+      ").",
+    ]);
+  });
+});
+
+/**
+ * A bare "C:V" reference naming a different chapter of the same book, joined
+ * by a semicolon to the reference right before it, inherits that reference's
+ * own book the same way an already-isolated `\xt` target's own bare
+ * continuation already does — Genesis 23:19's real note is this shape
+ * exactly, not a synthetic edge case.
+ */
+describe('linkEmbeddedReferences — a semicolon-joined bare "C:V" continuation inherits the book of the reference right before it', () => {
+  it('should link "50:13" to Genesis after "Gen. 49:31" (Genesis 23:19\'s real note, "Here were buried Abraham and Sarah, Isaac and Rebekah, and Jacob and Leah (Gen. 49:31; 50:13)")', () => {
+    const content = linkEmbeddedReferences(
+      "Here were buried Abraham and Sarah, Isaac and Rebekah, and Jacob and Leah (Gen. 49:31; 50:13).",
+    );
+    expect(content).toEqual([
+      "Here were buried Abraham and Sarah, Isaac and Rebekah, and Jacob and Leah (",
+      { bibleLink: "Genesis 49:31", content: "Gen. 49:31" },
+      "; ",
+      { bibleLink: "Genesis 50:13", content: "50:13" },
+      ").",
+    ]);
+  });
+
+  it("should chain three or more semicolon-joined bare continuations onto the same inherited book, not just one", () => {
+    const content = linkEmbeddedReferences("See Genesis 1:1; 2:2; 3:3; 4:4.");
+    expect(content).toEqual([
+      "See ",
+      { bibleLink: "Genesis 1:1" },
+      "; ",
+      { bibleLink: "Genesis 2:2", content: "2:2" },
+      "; ",
+      { bibleLink: "Genesis 3:3", content: "3:3" },
+      "; ",
+      { bibleLink: "Genesis 4:4", content: "4:4" },
+      ".",
+    ]);
+  });
+
+  it("should stop the chain the moment a semicolon is followed by a real, named book instead of a bare continuation, leaving that name for its own separate match", () => {
+    const content = linkEmbeddedReferences("See Genesis 1:1; Exodus 2:2.");
+    expect(content).toEqual(["See ", { bibleLink: "Genesis 1:1" }, "; ", { bibleLink: "Exodus 2:2" }, "."]);
+  });
+
+  it("should chain a bare continuation regardless of canon — nothing in this mechanism is canon-restricted", () => {
+    const content = linkEmbeddedReferences("See Genesis 1:1; 2:2.");
+    expect(content).toEqual(["See ", { bibleLink: "Genesis 1:1" }, "; ", { bibleLink: "Genesis 2:2", content: "2:2" }, "."]);
+  });
+});
+
+/**
+ * A bare "C:V" continuation can also be joined by a bare "and" instead of a
+ * semicolon, with no comma anywhere near it — a second real connector this
+ * corpus's own footnote prose uses for the identical "different chapter,
+ * same book" shape, not a synthetic edge case.
+ */
+describe('linkEmbeddedReferences — a bare "and" also chains a "C:V" continuation onto the reference right before it, inheriting its book', () => {
+  it('should link "14:17" to 2 Kings after "II Kings 13:10" (2 Kings 12:1\'s real note, "...as the Hebrew does in II Kings 13:10 and 14:17)...")', () => {
+    const content = linkEmbeddedReferences(
+      "...as the Hebrew does in II Kings 13:10 and 14:17), referring to the king of Israel...",
+    );
+    expect(content).toEqual([
+      "...as the Hebrew does in ",
+      { bibleLink: "2 Kings 13:10", content: "II Kings 13:10" },
+      " and ",
+      { bibleLink: "2 Kings 14:17", content: "14:17" },
+      "), referring to the king of Israel...",
+    ]);
+  });
+
+  it('should link "1:20" to Proverbs after "Prov. 1:2" — same chapter, different verse (Proverbs 1:23\'s real note, "See footnotes on Prov. 1:2 and 1:20.")', () => {
+    const content = linkEmbeddedReferences("See footnotes on Prov. 1:2 and 1:20.");
+    expect(content).toEqual([
+      "See footnotes on ",
+      { bibleLink: "Proverbs 1:2", content: "Prov. 1:2" },
+      " and ",
+      { bibleLink: "Proverbs 1:20", content: "1:20" },
+      ".",
+    ]);
+  });
+
+  it('should not treat an ordinary "and" followed by prose (not a reference) as a continuation, leaving it untouched', () => {
+    const content = linkEmbeddedReferences("This happened in Genesis 3:15 and the woman said nothing.");
+    expect(content).toEqual([
+      "This happened in ",
+      { bibleLink: "Genesis 3:15" },
+      " and the woman said nothing.",
+    ]);
+  });
+});
+
+/**
+ * A book name immediately followed by a parenthetical citation, with an
+ * open paren sitting between the book name's own space and its chapter,
+ * is a real corpus convention (Ezekiel 26:14's real "Jeremiah (27:2-7;
+ * 47:4) and Ezekiel (26:3-21; 28:6-10)"), not a synthetic edge case — the
+ * open paren is consumed the same way an abbreviation's own trailing
+ * period is, leaving only the closing paren for ordinary trailing prose to
+ * carry, unchanged from how every other trailing punctuation already works.
+ */
+describe("linkEmbeddedReferences — a book name followed by an open-paren-led citation still links, chaining through it the same as any other", () => {
+  it('should link "Daniel (5:1-30)" as "Daniel 5:1-30", leaving only the closing paren as trailing text', () => {
+    const content = linkEmbeddedReferences("as recorded by Daniel (5:1-30), and becomes more urgent.");
+    expect(content).toEqual([
+      "as recorded by ",
+      { bibleLink: "Daniel 5:1-30", content: "Daniel (5:1-30" },
+      "), and becomes more urgent.",
+    ]);
+  });
+
+  it('should chain semicolon-joined bare continuations through an open-paren-led primary reference the same as any other (Ezekiel 26:14\'s real "Jeremiah (27:2-7; 47:4) and Ezekiel (26:3-21; 28:6-10)")', () => {
+    const content = linkEmbeddedReferences(
+      "Yet Jeremiah (27:2-7; 47:4) and Ezekiel (26:3-21; 28:6-10) foretold utter destruction for Tyre.",
+    );
+    expect(content).toEqual([
+      "Yet ",
+      { bibleLink: "Jeremiah 27:2-7", content: "Jeremiah (27:2-7" },
+      "; ",
+      { bibleLink: "Jeremiah 47:4", content: "47:4" },
+      ") and ",
+      { bibleLink: "Ezekiel 26:3-21", content: "Ezekiel (26:3-21" },
+      "; ",
+      { bibleLink: "Ezekiel 28:6-10", content: "28:6-10" },
+      ") foretold utter destruction for Tyre.",
+    ]);
+  });
+});
+
+/**
+ * A bare, parenthesized "(C:V...)" citation with no book name of its own,
+ * sitting elsewhere in the same footnote body with real prose in between —
+ * not immediately chained onto anything — still inherits the last book that
+ * actually resolved anywhere earlier in the body, tracked by AmbientBook.
+ * Real 2 Samuel 12:11's own note is this shape exactly: it names "2 Samuel
+ * 13:14" once, in its own already-tagged bibleLink, and then cites four more
+ * passages this way, each several sentences after the last thing named.
+ */
+describe('linkEmbeddedReferences — a bare parenthetical "(C:V...)" citation elsewhere in the same footnote body inherits the last book actually resolved', () => {
+  it('should inherit the book from an already-tagged bibleLink sibling earlier in the same content array, across intervening prose (2 Samuel 12:11\'s real shape)', () => {
+    const content = linkEmbeddedReferences(
+      [
+        "Amnon’s scandalous behavior with his half sister Tamar (",
+        { bibleLink: "2 Samuel 13:14", content: "13:14" },
+        ") and his consequent murder by his brother Absalom (13:28, 29); Absalom’s escape to a foreign land (",
+        { bibleLink: "2 Samuel 13:38", content: "13:38" },
+        ") and his return after three years; Absalom without recognition by David for two more years (",
+        { bibleLink: "2 Samuel 14:28", content: "14:28" },
+        "); David’s flight from Jerusalem, with the mass of the people against him (",
+        { bibleLink: "2 Samuel 15:14", content: "15:14" },
+        "), the terrible battle in the forest of Ephraim, won by David’s forces, with Absalom killed in flight (18:6ff.).",
+      ],
+    );
+    expect(content).toEqual([
+      "Amnon’s scandalous behavior with his half sister Tamar (",
+      { bibleLink: "2 Samuel 13:14", content: "13:14" },
+      ") and his consequent murder by his brother Absalom ",
+      { bibleLink: "2 Samuel 13:28, 29", content: "(13:28, 29" },
+      "); Absalom’s escape to a foreign land (",
+      { bibleLink: "2 Samuel 13:38", content: "13:38" },
+      ") and his return after three years; Absalom without recognition by David for two more years (",
+      { bibleLink: "2 Samuel 14:28", content: "14:28" },
+      "); David’s flight from Jerusalem, with the mass of the people against him (",
+      { bibleLink: "2 Samuel 15:14", content: "15:14" },
+      "), the terrible battle in the forest of Ephraim, won by David’s forces, with Absalom killed in flight ",
+      { bibleLink: "2 Samuel 18:6", content: "(18:6" },
+      "ff.).",
+    ]);
+  });
+
+  it("should inherit the book from a reference resolved earlier in the very same string, not just from an already-tagged sibling", () => {
+    const content = linkEmbeddedReferences(
+      "He prayed (2 Kings 19:15), and God performed a miracle, one He had foretold (19:20, 32-37).",
+    );
+    expect(content).toEqual([
+      "He prayed (",
+      { bibleLink: "2 Kings 19:15" },
+      "), and God performed a miracle, one He had foretold ",
+      { bibleLink: "2 Kings 19:20, 32-37", content: "(19:20, 32-37" },
+      ").",
+    ]);
+  });
+
+  it("should never inherit a book before any reference has resolved yet, even inside parentheses", () => {
+    const unchanged = "This happened (18:6ff.) long before anything else.";
+    expect(linkEmbeddedReferences(unchanged)).toBe(unchanged);
+  });
+
+  it("should inherit an ambient book regardless of canon — nothing in this mechanism is canon-restricted", () => {
+    const content = linkEmbeddedReferences(["See ", { bibleLink: "Judges 11:3" }, " for context (12:1) as well."]);
+    expect(content).toEqual([
+      "See ",
+      { bibleLink: "Judges 11:3" },
+      " for context ",
+      { bibleLink: "Judges 12:1", content: "(12:1" },
+      ") as well.",
     ]);
   });
 });
