@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { relocateFootnoteMarkerSpacesInContent } from "../fixFootnoteMarkerSpacing";
 import { relocateMarkBoundarySpacesInContent } from "../fixMarkBoundaryEmbeddedSpaces";
 
 describe("relocateMarkBoundarySpacesInContent", () => {
@@ -130,5 +131,110 @@ describe("relocateMarkBoundarySpacesInContent", () => {
 
     expect(second.changed).toBe(false);
     expect(second.content).toEqual(first.content);
+  });
+
+  it("should carry a marked node's own foot along with its relocated trailing space into a brand-new unformatted node, when the merge target is a genuinely safe (non-doubling) landing spot", () => {
+    // A marked, footed node's own trailing run has a safe home on the real
+    // successor's own leading edge (no doubled-whitespace collision), but the
+    // successor is unmarked while this node carries "sc" — so plain
+    // relocation isn't legal either, the same disagreement the ordinary case
+    // resolves by moving the run alone. The run can't leave `foot` behind on
+    // the shortened node (that strands the marker one character early), and
+    // it can't carry `foot` onto the real successor's own text (that node's
+    // marker never belonged to it). Both travel together into a new,
+    // unformatted node inserted between the two.
+    const content = [
+      { paragraph: true, text: "Then he " },
+      { text: "kept ", marks: ["sc"], foot: { type: "xrf", content: "see note" } },
+      "moving forward.",
+    ];
+
+    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual([
+      { paragraph: true, text: "Then he " },
+      { text: "kept", marks: ["sc"] },
+      { text: " ", foot: { type: "xrf", content: "see note" } },
+      "moving forward.",
+    ]);
+  });
+
+  it("should drop a marked node's own redundant trailing space and leave its foot hugging the word, when relocating would double an unmarked successor's own leading whitespace", () => {
+    // Locks in the doubling-collision branch's own unchanged behavior when a
+    // `foot` is present: the successor already carries its own independent
+    // leading space, so relocating this node's own run there would double
+    // it. Since the successor is unmarked, the redundant run is deleted
+    // outright rather than relocated — exactly today's existing path, with
+    // no new node spliced in. An earlier draft of this fix would have
+    // spliced a run-plus-foot node here regardless of the doubling
+    // collision; this test is the one that catches that mistake, since
+    // `wouldDoubleWhitespace` has to keep gating the new branch, not just
+    // the old one.
+    const content = [
+      { paragraph: true, text: "Then he " },
+      { text: "kept ", marks: ["sc"], foot: { type: "xrf", content: "see note" } },
+      " moving forward.",
+    ];
+
+    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual([
+      { paragraph: true, text: "Then he " },
+      { text: "kept", marks: ["sc"], foot: { type: "xrf", content: "see note" } },
+      " moving forward.",
+    ]);
+  });
+
+  it("should keep merging a marked node's own trailing space straight onto the successor's leading edge, unchanged, when no foot is involved", () => {
+    // Same safe-merge-target shape as the new foot-carrying test above, minus
+    // the `foot` — the pre-existing ordinary-merge path this fix must not
+    // disturb. If the new `hasFoot` branch were written broadly enough to
+    // swallow this case too, this test is what would catch it.
+    const content = [
+      { paragraph: true, text: "Then he " },
+      { text: "kept ", marks: ["sc"] },
+      "moving forward.",
+    ];
+
+    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual([
+      { paragraph: true, text: "Then he " },
+      { text: "kept", marks: ["sc"] },
+      " moving forward.",
+    ]);
+  });
+
+  it("should hand off cleanly to the footnote-marker-spacing fixer, which finishes splitting the run-plus-foot node into a bare space node and a bare foot node", () => {
+    // Requirement 5's composed-unit proof: running the safe-merge-target
+    // fixture through this module first, then through the (unmodified)
+    // footnote-marker-spacing fixer, must reach the fully-settled shape on
+    // its own — a bare whitespace-only node followed by a bare foot-only
+    // node, both immediately before the untouched real successor — with no
+    // further change needed from either fixer after that.
+    const content = [
+      { paragraph: true, text: "Then he " },
+      { text: "kept ", marks: ["sc"], foot: { type: "xrf", content: "see note" } },
+      "moving forward.",
+    ];
+
+    const afterMarkBoundary = relocateMarkBoundarySpacesInContent(content as never);
+    const afterFootnoteSpacing = relocateFootnoteMarkerSpacesInContent(afterMarkBoundary.content);
+
+    expect(afterFootnoteSpacing.changed).toBe(true);
+    expect(afterFootnoteSpacing.skipped).toEqual([]);
+    expect(afterFootnoteSpacing.content).toEqual([
+      { paragraph: true, text: "Then he " },
+      { text: "kept", marks: ["sc"] },
+      { text: " " },
+      { foot: { type: "xrf", content: "see note" } },
+      "moving forward.",
+    ]);
   });
 });

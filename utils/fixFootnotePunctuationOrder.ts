@@ -20,12 +20,15 @@
  *   imported, since `auditNodes.ts` exports `isRealAttachmentPoint` and
  *   `leadingTightPunctuationSplit` but not this unexported function). When
  *   the sibling's entire text is the punctuation run, the now-empty sibling
- *   is removed too — but only when it carries nothing beyond
- *   `text`/`marks`/`script`; a sibling carrying a real property beyond
- *   those three (Matthew 13:35's `break: true`) would have that property
- *   silently discarded by an unconditional delete, so this module refuses
- *   and reports the finding as skipped instead, via its own {@link
- *   SkipReason}.
+ *   is removed too — but only when doing so can't silently lose anything
+ *   real. That's true when it carries nothing beyond `text`/`marks`/
+ *   `script`, and also when its only extra property is `break: true`
+ *   (Matthew 13:35's own shape) — that `break: true` rides forward onto the
+ *   merged node instead of vanishing with the sibling. Any other extra
+ *   property (a different key, or `break` paired with something else) has
+ *   no real corpus case proving it's safe to fold in, so this module
+ *   refuses the whole merge and reports the finding as skipped instead, via
+ *   its own {@link SkipReason}.
  * - **Extract** (formatting disagrees, sibling is pure punctuation): moving
  *   the punctuation is off the table (real CSB2017 John 7:36, 8:22, 16:17:
  *   a `marks: ["woc"]` quotation's own footnote, followed by the
@@ -65,7 +68,7 @@ function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
   );
 }
 
-/** A node's own real property keys beyond `text`/`marks`/`script` — `[]` for a bare string (which has none) or a node carrying nothing else. Used to decide whether removing an emptied sibling would silently lose something real (a real corpus case: `break: true`). */
+/** A node's own real property keys beyond `text`/`marks`/`script` — `[]` for a bare string (which has none) or a node carrying nothing else. Used to decide whether removing an emptied sibling would silently lose something real. A result of exactly `["break"]` is handled by carrying `break: true` forward onto the merged node rather than losing it (a real corpus case); any other non-empty result still blocks the merge, since no other shape has a known-safe way to carry forward. */
 function extraKeysBeyondTextMarksScript(node: unknown): string[] {
   if (node === null || typeof node !== "object" || Array.isArray(node)) return [];
   return Object.keys(node).filter((key) => key !== "text" && key !== "marks" && key !== "script");
@@ -171,7 +174,14 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
       continue;
     }
 
-    if (extraKeysBeyondTextMarksScript(working[j]).length > 0) {
+    const extraKeys = extraKeysBeyondTextMarksScript(working[j]);
+    if (extraKeys.length > 0) {
+      if (extraKeys.length === 1 && extraKeys[0] === "break" && next.endsBreak) {
+        working[i] = { ...(withText(working[i], mergedText) as Record<string, unknown>), break: true };
+        removed.add(j);
+        counts.fixed++;
+        continue;
+      }
       counts.skipped.push("extra-keys");
       continue;
     }

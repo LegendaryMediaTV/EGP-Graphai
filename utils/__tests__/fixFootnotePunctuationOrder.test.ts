@@ -32,11 +32,11 @@ describe("reorderFootnotePunctuationInContent", () => {
     ]);
   });
 
-  it("should decline to remove a punctuation-only sibling carrying a property beyond text/marks/script, reporting extra-keys", () => {
+  it("should carry a punctuation-only sibling's own break: true forward onto the merged node instead of declining", () => {
     // Same shape as the repair case, but the sibling also carries
-    // break: true (real Matthew 13:35) — the silent-data-loss shape the
-    // fixer's own top doc comment names as why an unconditional delete
-    // isn't safe.
+    // break: true (real Matthew 13:35). Removing the sibling outright would
+    // once have silently discarded that property, so break: true now rides
+    // forward onto the merged node instead of blocking the merge.
     const content = [
       {
         paragraph: true,
@@ -45,6 +45,36 @@ describe("reorderFootnotePunctuationInContent", () => {
         foot: { type: "var", content: "TR adds “the Beginning and the End”" },
       },
       { text: "”", marks: ["woc"], break: true },
+    ];
+
+    const { content: result, changed, skipped } = reorderFootnotePunctuationInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual([
+      {
+        paragraph: true,
+        text: "“I am the Alpha and the Omega,”",
+        marks: ["woc"],
+        foot: { type: "var", content: "TR adds “the Beginning and the End”" },
+        break: true,
+      },
+    ]);
+  });
+
+  it("should still decline to remove a punctuation-only sibling carrying its own unrecognized extra property, reporting extra-keys", () => {
+    // Same shape again, but the punctuation-only sibling carries its own
+    // separate foot instead of break. There is no corpus evidence that any
+    // extra-key shape besides break is safe to merge, so this one still
+    // declines and reports the sibling untouched.
+    const content = [
+      {
+        paragraph: true,
+        text: "“I am the Alpha and the Omega,",
+        marks: ["woc"],
+        foot: { type: "var", content: "TR adds “the Beginning and the End”" },
+      },
+      { text: "”", marks: ["woc"], foot: { type: "expl", content: "a second, unrelated note" } },
     ];
 
     const { content: result, changed, skipped } = reorderFootnotePunctuationInContent(content as never);
