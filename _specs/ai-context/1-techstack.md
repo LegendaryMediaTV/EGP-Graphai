@@ -21,7 +21,7 @@
 - **Font Awesome (CDN)** – Icon library for UI icons in the web reader.
 - **Lodash** – Utility library used in validation scripts for data manipulation (grouping, sorting, difference operations).
 - **ts-node** – TypeScript execution engine for running `.ts` files directly without compilation.
-- **Vitest** – Modern test runner used for all unit tests. 1,213 tests pass across all 39 suites, with no local setup or gitignored corpus required — every suite runs clean on a fresh clone (see [6-tests-and-build.md](./6-tests-and-build.md#usfm-import-pipeline-domain) for how the USFM pipeline specs achieve that). Runs via `npm test` or `npx vitest --run`.
+- **Vitest** – Modern test runner used for all unit tests. 1,324 tests pass across all 41 suites, with no local setup or gitignored corpus required — every suite runs clean on a fresh clone (see [6-tests-and-build.md](./6-tests-and-build.md#usfm-import-pipeline-domain) for how the USFM pipeline specs achieve that). Runs via `npm test` or `npx vitest --run`.
 
 ### State Management Approach
 

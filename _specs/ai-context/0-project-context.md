@@ -1,6 +1,6 @@
 # EGP Graphai - Project Context
 
-> **Updated:** August 26, 2026  
+> **Updated:** August 28, 2026  
 > **Repository:** [LegendaryMediaTV/EGP-Graphai](https://github.com/LegendaryMediaTV/EGP-Graphai)
 
 ## Project Summary
@@ -16,9 +16,16 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Web Reader** – React-based SPA for reading and studying with toggleable tools
 - **Validation** – `npm run validate` is the one command that runs every normalization and validation rule this repo enforces: an auto-fix pass (key order, JSON formatting, `bibleLink` dash/range normalization and unresolvable-target unlinking, fraction/ellipsis/straight-quote normalization, script-run tagging, and several Strong's-node placement repairs), checked against itself for a fixed point, then schema/structure checks, then report-only audits (declared chapter counts, cross-chapter links, truncated `bibleLink` ranges, Strong's-node placement, unresolvable `bibleLink` targets). No separate audit script or `--fix` flag exists anywhere else in the tree
 - **Strong's-Node Placement Audit** – Detects many ways a node's text-flow placement can drift from this repo's own conventions; several of them repair themselves inside the auto-fix pass above — see [strongs-node-audit.md](4-domains/strongs-node-audit.md) for which
-- **USFM Import** – Converts USFM translation source files directly into verse JSON (`utils/importUsfm.ts`, `utils/usfm/`), with an independent post-import checker (`usfm/verify.ts`) and a retroactive footnote re-classification tool (`overhaulFootnotes.ts`)
+- **USFM Import** – Converts USFM translation source files directly into verse JSON (`utils/importUsfm.ts`, `utils/usfm/`), with an independent post-import checker (`usfm/verify.ts`), a retroactive footnote re-classification tool (`overhaulFootnotes.ts`), and a retroactive embedded-reference re-linking tool (`overhaulReferences.ts`)
 
-## Recent Changes (Test Suite No Longer Depends on a Local Raw-USFM Corpus)
+## Recent Changes (Mark-Boundary Spacing, Embedded-Reference Linking, and Footnote-Type Fixes)
+
+- **Mark-Boundary Space Merge Joins the Auto-Fix Pass** – The mark-boundary-space check (a bare whitespace-only sibling node between two real, similarly-marked nodes) used to be report-only. `utils/fixMarkBoundarySpaces.ts` now repairs it as a step in `npm run validate`'s own pass, rolling the blank onto whichever real side is the *smaller* mark set — exact `marks`/`script` agreement still defaults forward, but a subset match (one side's marks a non-empty subset of the other's) can now roll the space *backward* instead, and a blocked-both-directions case (the smaller side already carries `strong`/`foot`) is left untouched rather than forced. `auditNodes.ts` gained a matching `isTextlessFootSibling` flag so both this check and the footnote-marker-spacing check skip through a run of textless foot siblings, not just textless Strong's ones, the same way. See [strongs-node-audit.md](4-domains/strongs-node-audit.md) and [validation.md](4-domains/validation.md)
+- **Embedded Reference Linking Overhauled** – `utils/usfm/references.ts`'s embedded-reference scanner was rewritten to fix a regex-backtracking bug that truncated multi-digit verse numbers, and now recognizes Roman-numeral book ordinals, period-abbreviated names, parenthetical book names, a single-chapter book's own bare "C:V" shorthand, Oxford-comma verse lists, and a bare "C:V" continuation chained onto a prior reference. A named-book chapter-only mention (no verse) now links too — a genuine reversal of the scanner's own earlier verse-mandatory rule, though a bare ambient "(C:V)" parenthetical with no book name of its own still requires one. Embedded-reference matching, and `crossChapterLinks.ts`'s own unresolvable-`bibleLink`-target check, both stopped treating a book outside the version's own canon as an error — a footnote can legitimately cite a book its version doesn't carry. New `npm run overhaul-references <version> [<book>] [-- --fix]` (`utils/overhaulReferences.ts`) retroactively re-scans already-built `bible-versions/**/*.json` the same way `overhaul-footnotes` does for footnote types, purely additive with no `--hard-reset`. See [usfm-import.md](4-domains/usfm-import.md) and [cross-chapter-links.md](4-domains/cross-chapter-links.md)
+- **Footnote-Type Classification Gained Several Constructs** – `footnoteTypeRules.ts` now recognizes a versification-variant note (CLV1880's "Originally verse C:V."), a sub-verse lettered citation, Song of Solomon's own three-token abbreviation, and Obadiah's bare book-name citation; strips a "Fulfilled in"/"Foretold in" lead-in before the citation check; and closed two named-witness false positives (`Aquila` dropped as an ordinary New Testament person's name, "(the) Latin" scoped to a real reading-claim verb instead of matching as a bare word)
+- **A Stale Defensive Workaround Removed from Export Rendering** – `exportContent.ts` no longer adds a compensating trailing space around a textless footnote-only node; that was papering over a spacing bug now fixed upstream in the data itself, and the extra space was producing a duplicate
+
+## Previous Changes (Test Suite No Longer Depends on a Local Raw-USFM Corpus)
 
 - **Every Corpus-Reading Test Rewritten Against Tracked Data** – The suite's last dependency on the gitignored `imports/webus2020/ebible-usfm/`, `imports/asv1901/ebible-usfm/`, and `imports/msb2025/ebible-usfm/` directories is gone. A check that used to read one of them directly now runs against a tracked `.usfm` fixture under `utils/usfm/__tests__/fixtures/` (three are new: `ezra-4-16-17-b-p.usfm`, `genesis-front-matter-and-chapter-markers.usfm`, `psalm-33-22-34-1-textless-footnote-node.usfm`), an inline verbatim USFM or footnote-body literal quoted straight in the test, or a byte-exact snippet of this repo's own committed `HEAD` content pinned as a literal and compared through `utils/usfm/__tests__/upstreamHeadConvention.ts`'s `upstreamMatchesRule`/`fixedOutputMatchesRule` helpers. That module's own `git show`/`git ls-tree` reads (`readCanonicalBooks`, `readUpstreamBookJson`) and its `SOURCE_DIR`/`usfmFilesByRegistryId` pair were dead code once both convention specs moved to pinned literals, so they were deleted along with the unused `countScriptNodes` import left behind in `verify.test.ts`
 - **The `describe.skip`-With-Placeholder Pattern Is Gone** – Every test file that guarded a corpus read with a plain `if (!fs.existsSync(...))` check, falling back to one named `describe.skip` placeholder so a fresh clone reported a skip instead of a pass, has both the guard and the read it protected removed. Nothing is left to skip
@@ -166,6 +173,7 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 | `npm run export`   | Export to text/markdown            |
 | `npm run test`     | Run Vitest tests                   |
 | `npm run overhaul-footnotes <version>` | Re-classify a version's on-disk footnotes against the current rules (add `-- --fix` to write; the bare `--` is required or npm eats the flag) |
+| `npm run overhaul-references <version> [<book>]` | Re-scan a version's on-disk footnotes for embedded references the current grammar would now catch (add `-- --fix` to write; same bare `--` requirement) |
 
 ## Context Documents
 
@@ -271,6 +279,7 @@ graph TB
         IMP[importUsfm.ts]
         VFY[usfm/verify.ts]
         OHF[overhaulFootnotes.ts]
+        OHR[overhaulReferences.ts]
     end
 
     BS --> VAL
@@ -303,6 +312,8 @@ graph TB
     USF -.->|"independent check"| VFY
     VF --> OHF
     OHF -->|"--fix"| WJF
+    VF --> OHR
+    OHR -->|"--fix"| WJF
 
     TC --> EXP
     TV --> EXP
@@ -373,17 +384,18 @@ window.ComponentName = ComponentName;
 9. **USFM Verifier Independence** – `usfm/verify.ts` must never import `tokenize.ts`, `segmentVerses.ts`, or anything that imports them; it exists to catch a bug the importer itself can't see by re-deriving its checks straight from raw USFM
 10. **Footnote Classification Has One Source of Truth** – `usfm/footnoteTypeRules.ts`'s `classifyFootnote()` is called by both the importer and `overhaulFootnotes.ts`; don't duplicate its logic elsewhere
 11. **One Entry Point for Normalization and Validation** – Every rule this repo enforces on `bible-versions/**` lives inside `npm run validate`, either as an automatic repair or a report. There is no separate audit script anywhere in the tree and no `--fix` flag on anything `validate.ts` calls into
+12. **Embedded Reference Linking Has One Source of Truth** – `usfm/references.ts`'s `linkEmbeddedReferences()` is called by both the importer (at parse time) and `overhaulReferences.ts` (retroactively, against already-built version files); don't duplicate its logic elsewhere. Unlike an explicit `\x` cross-reference or a direct-branch prose match, this scan is deliberately never canon-restricted — a footnote can legitimately name a book its own version doesn't carry
 
 ## Test Status
 
-✅ **1,213 tests passing, across all 39 test files** (Vitest):
+✅ **1,324 tests passing, across all 41 test files** (Vitest):
 
 - `functions/__tests__/` (11 files): `contentSchema.test.ts` (4), `convertToSmallCaps.test.ts` (40), `getBibleVersions.test.ts` (17), `mapContentText.test.ts` (14), `mergeEquivalentSiblingsInContent.test.ts` (18), `normalizeEllipses.test.ts` (19), `normalizeFractions.test.ts` (24), `normalizeStraightQuotes.test.ts` (14), `sortContentKeys.test.ts` (27), `tagScriptRunsInContent.test.ts` (19), `writeJsonFile.test.ts` (10)
-- `utils/__tests__/` (12 files): `auditNodes.test.ts` (167, the largest suite in the repo), `crossChapterLinks.test.ts` (74), `exportContent.test.ts` (115), `fixDuplicateFootnoteAnchors.test.ts` (8), `fixFootnoteMarkerSpacing.test.ts` (23), `fixFootnotePunctuationOrder.test.ts` (5), `fixHeadingParagraphs.test.ts` (4), `fixMarkBoundaryEmbeddedSpaces.test.ts` (5), `fixUnmergedNodes.test.ts` (5), `importUsfm.test.ts` (19), `overhaulFootnotes.test.ts` (22), `validate.test.ts` (75)
-- `utils/usfm/__tests__/` (15 files, the USFM import pipeline): `bibleLinkTargetConventions.test.ts` (1), `blockStructure.test.ts` (14), `bMarkerUpstreamConvention.test.ts` (1), `chapterBoundaryUpstreamConvention.test.ts` (1), `embeddedReferenceConventions.test.ts` (12), `footnotes.test.ts` (55), `footnoteTypeRules.test.ts` (93), `headings.test.ts` (15), `inlineMarks.test.ts` (28), `metadata.test.ts` (10), `paragraphNoise.test.ts` (7), `references.test.ts` (37), `segmentVerses.test.ts` (117), `tokenize.test.ts` (10), `verify.test.ts` (77)
+- `utils/__tests__/` (14 files): `auditNodes.test.ts` (169, the largest suite in the repo), `crossChapterLinks.test.ts` (74), `exportContent.test.ts` (115), `fixDuplicateFootnoteAnchors.test.ts` (8), `fixFootnoteMarkerSpacing.test.ts` (25), `fixFootnotePunctuationOrder.test.ts` (7), `fixHeadingParagraphs.test.ts` (4), `fixMarkBoundaryEmbeddedSpaces.test.ts` (10), `fixMarkBoundarySpaces.test.ts` (13), `fixUnmergedNodes.test.ts` (5), `importUsfm.test.ts` (19), `overhaulFootnotes.test.ts` (22), `overhaulReferences.test.ts` (20), `validate.test.ts` (75)
+- `utils/usfm/__tests__/` (15 files, the USFM import pipeline): `bibleLinkTargetConventions.test.ts` (1), `blockStructure.test.ts` (14), `bMarkerUpstreamConvention.test.ts` (1), `chapterBoundaryUpstreamConvention.test.ts` (1), `embeddedReferenceConventions.test.ts` (12), `footnotes.test.ts` (55), `footnoteTypeRules.test.ts` (132), `headings.test.ts` (15), `inlineMarks.test.ts` (28), `metadata.test.ts` (10), `paragraphNoise.test.ts` (7), `references.test.ts` (65), `segmentVerses.test.ts` (117), `tokenize.test.ts` (10), `verify.test.ts` (77)
 - `web/public/js/__tests__/footnoteText.test.ts` – 7 tests for shared footnote-text extraction
 
-All 39 files load and pass on a fresh clone with no local setup. The USFM-pipeline specs that used to need the gitignored WEBUS2020/ASV1901/MSB2025 raw USFM corpora were rewritten against tracked fixtures or this repo's own committed content instead; see [Recent Changes](#recent-changes-test-suite-no-longer-depends-on-a-local-raw-usfm-corpus) above and [6-tests-and-build.md](6-tests-and-build.md#usfm-import-pipeline-domain) for detail.
+All 41 files load and pass on a fresh clone with no local setup. The USFM-pipeline specs that used to need the gitignored WEBUS2020/ASV1901/MSB2025 raw USFM corpora were rewritten against tracked fixtures or this repo's own committed content instead; see [Previous Changes](#previous-changes-test-suite-no-longer-depends-on-a-local-raw-usfm-corpus) above and [6-tests-and-build.md](6-tests-and-build.md#usfm-import-pipeline-domain) for detail.
 
 See [6-tests-and-build.md](6-tests-and-build.md) for test details and coverage.
 

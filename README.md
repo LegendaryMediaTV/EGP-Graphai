@@ -83,6 +83,9 @@ npx ts-node utils/convertToSmallCaps.ts WEBUS2020
 # Re-classify footnote types already on disk against the latest rules (add --fix to write)
 npm run overhaul-footnotes WEBUS2020
 
+# Re-scan already-built files for embedded references the importer missed (add --fix to write)
+npm run overhaul-references WEBUS2020
+
 # Standardize content key order
 npx ts-node utils/sortBibleKeys.ts WEBUS2020
 
