@@ -85,10 +85,28 @@
 
 import Content from "../types/Content";
 import {
+  agreesInFormatting,
   describeNode,
   findWhitespaceSourceIndex,
   isRealAttachmentPoint,
+  NodeShape,
 } from "./auditNodes";
+
+/**
+ * True when two nodes agree closely enough on `marks`/`script` that a
+ * mismatch could not be the reason they stayed split — the identical test
+ * `auditNodes.ts`'s own private `isFormattingSubsetOf` applies (real
+ * YLT1898 `["woc"]`-vs-`["i","woc"]` nesting case), re-derived here rather
+ * than imported since `auditNodes.ts` only exports `agreesInFormatting` and
+ * `carriesFormatting`, not this one — the same reuse-by-copy
+ * `fixMarkBoundaryEmbeddedSpaces.ts` and `fixFootnotePunctuationOrder.ts`
+ * already apply for their own local copies of this exact function.
+ */
+function isFormattingSubsetOf(a: NodeShape, b: NodeShape): boolean {
+  if (a.script !== b.script) return false;
+  const [smaller, larger] = a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
+  return smaller.length > 0 && smaller.every((mark) => larger.includes(mark));
+}
 
 /**
  * Rebuilds `node` with its own `text` replaced by `text` — a bare string *is*
@@ -188,7 +206,7 @@ function rewriteArrayLevel(
     const stripped = sourceText.slice(0, -run.length);
 
     let j = i + 1;
-    while (j < working.length && shapes[j].isTextlessStrongSibling) j++;
+    while (j < working.length && (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)) j++;
 
     if (j >= working.length || !isRealAttachmentPoint(shapes[j])) {
       if (endOfLevelIsSafeToDelete) {
@@ -223,16 +241,58 @@ function rewriteArrayLevel(
     // `foot` instead, leaving both real text nodes' own text completely
     // untouched (top doc comment's own "sole, standalone-node extraction"
     // section).
-    if (shape.text === undefined) {
-      // Node `i` is already a bare `{foot: {...}}` node — the trailing run
-      // lives on an earlier real predecessor (`source`), not on node `i`
-      // itself, and node `i` already sits immediately before the real next
-      // node (mod any skipped textless Strong's sibling). That's already
-      // the settled, extracted shape — whether this same pass just spliced
-      // it in a few nodes back, or the corpus already carried it that way
-      // — so there's nothing left to do. Continuing here rather than
-      // re-extracting is what keeps a freshly-spliced (or already-on-disk)
-      // standalone node from being "fixed" again into a garbage `{}` husk.
+    if (shape.text === undefined || shape.text === "") {
+      if (j === i + 1) {
+        // Node `i` already renders no text of its own — either a bare
+        // `{foot: {...}}` node, or the `{text: "", foot: {...}}` husk shape
+        // that renders identically to one — and already sits immediately
+        // before the real next node, nothing textless in between. That's
+        // already the settled, extracted shape — whether this same pass
+        // just spliced it in a few nodes back, or the corpus already
+        // carried it that way — so there's nothing left to do. Continuing
+        // here rather than re-extracting is what keeps a freshly-spliced
+        // (or already-on-disk) standalone node from being "fixed" again
+        // into a garbage `{text: ""}` husk with its own `foot` stripped
+        // away and nowhere left to go.
+        continue;
+      }
+      // A run of two or more textless foot (or Strong's) siblings sits
+      // between node `i` and the real next node — real CSB2017 Matthew
+      // 15:4: two textless foot siblings ride one after another on "your
+      // mother;", both annotating that same word. Node `i`'s own `foot` is
+      // already correctly positioned right where it structurally
+      // belongs — there's nothing to extract from a node with no text of
+      // its own. But the source's trailing run still has to move past the
+      // *whole* run, not just past node `i`, to reach its correct home
+      // right before the real next node ("and,"), same as the plain
+      // relocation case just above. Only the first sibling in the run ever
+      // reaches here: by the time a later sibling's own iteration runs,
+      // `source`'s trailing run is already gone, so
+      // `findWhitespaceSourceIndex` returns `undefined` for it and the
+      // early check above skips it before this branch is ever reached
+      // again.
+      working[sourceIndex] = withText(working[sourceIndex], stripped);
+      if (agreesInFormatting(source, next) || isFormattingSubsetOf(source, next)) {
+        // `source` and the real next node aren't a genuine formatting
+        // disagreement — real CSB2017 Matthew 15:4: `source` carries
+        // `["b","woc"]`, "and," carries `["woc"]` alone, a strict subset
+        // (the identical nesting relationship `isFormattingSubsetOf`'s own
+        // doc comment names for YLT1898 `["woc"]`-vs-`["i","woc"]`). A
+        // standalone space node would be manufacturing a boundary that
+        // doesn't need one: the run absorbs straight onto the real next
+        // node's own leading edge instead, matching
+        // `fixMarkBoundaryEmbeddedSpaces.ts`'s own ordinary relocation path
+        // for exactly this formatting relationship.
+        working[j] = withText(working[j], run + nextText);
+      } else {
+        // Genuine disagreement (real KJV1769 shape: an unmarked footed
+        // predecessor before a small-caps successor) — neither real
+        // node's own text is a legal home for the run, so it becomes its
+        // own standalone node instead, the identical structural fix
+        // `fixMarkBoundaryEmbeddedSpaces.ts` applies for the same reason.
+        working.splice(j, 0, " ");
+      }
+      counts.fixed++;
       continue;
     }
 

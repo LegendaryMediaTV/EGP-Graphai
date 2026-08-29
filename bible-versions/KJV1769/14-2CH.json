@@ -1101,8 +1101,7 @@
       {
         "content": [
           " where ",
-          { "text": "the", "marks": ["i"] },
-          " ",
+          { "text": "the ", "marks": ["i"] },
           { "text": "Lord", "marks": ["i", "sc"] },
           " appeared"
         ],
@@ -10520,8 +10519,7 @@
       {
         "content": [
           " And ",
-          { "text": "the", "marks": ["i"] },
-          " ",
+          { "text": "the ", "marks": ["i"] },
           { "text": "Lord", "marks": ["i", "sc"] },
           " said,"
         ],

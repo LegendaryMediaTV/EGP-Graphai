@@ -267,7 +267,7 @@ export function buildFootnoteContent(
   const content: Content =
     type === "xrf"
       ? buildReferenceOnlyContent(classificationText, canonBookIds)
-      : linkEmbeddedReferences(collapseContentNodes(buildRunNodes(pieces)), canonBookIds);
+      : linkEmbeddedReferences(collapseContentNodes(buildRunNodes(pieces)));
 
   return { footnote: { type, content }, plainText: classificationText, nextIndex: index };
 }

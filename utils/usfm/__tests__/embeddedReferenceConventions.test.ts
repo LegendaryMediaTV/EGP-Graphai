@@ -140,34 +140,38 @@ describe("a fully-qualified reference embedded in ordinary footnote prose, check
     ]);
   });
 
-  it("should never link a bare chapter-only mention with no verse, even when a real cue word introduces it — Genesis 3:24's real \"See Ezekiel 10.\" no longer links (upstream HEAD carries no baseline for this verse either way, but the corpus-wide 0-out-of-330 evidence — see EMBEDDED_REFERENCE_SUFFIX's own doc comment — says a chapter-only mention should never link)", () => {
+  it("should now link a bare chapter-only mention with no verse too — Genesis 3:24's real \"See Ezekiel 10.\" links the whole chapter, reversing this module's own earlier verse-mandatory rule", () => {
     const { footnote } = footnoteFrom(
       '\\f + \\fr 3:24 \\ft cherubim are powerful angelic creatures, messengers of God with wings. See Ezekiel 10.\\f*',
     );
-    expect(footnote.content).toBe(
-      "Cherubim are powerful angelic creatures, messengers of God with wings. See Ezekiel 10.",
-    );
+    expect(footnote.content).toEqual([
+      "Cherubim are powerful angelic creatures, messengers of God with wings. See ",
+      { bibleLink: "Ezekiel 10" },
+      ".",
+    ]);
   });
 
-  it('should never link Esther-Greek 8:13\'s own real, malformed "perhaps rulers, see Luke 22. 25." — the source itself has no colon between chapter and verse, so this is correctly left alone rather than guessed at (also, chapter-only "Luke 22" alone would fail the verse-mandatory rule regardless)', () => {
+  it('should link the chapter-only prefix of Esther-Greek 8:13\'s own real, malformed "perhaps rulers, see Luke 22. 25." even though the source itself has no colon joining a verse — "Luke 22" resolves as a real chapter-only mention, leaving the malformed ". 25." as ordinary trailing text rather than guessed into a verse it never named', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 8:13 \\ft perhaps rulers, see Luke 22. 25. \\f*');
-    expect(footnote.content).toBe("Perhaps rulers, see Luke 22. 25.");
+    expect(footnote.content).toEqual(["Perhaps rulers, see ", { bibleLink: "Luke 22" }, ". 25."]);
   });
 
-  it('should never link any of Psalm 34:1, 111:1, or 112:1\'s own real, self-referential "Psalm NN is an acrostic poem..." notes — each names a real, registry-resolvable chapter with no verse, and upstream HEAD itself never links any of the three (unlike Proverbs 31:10-31 and Mark 16:9-20 above, both of which name a specific verse)', () => {
+  it('should now link each of Psalm 34:1, 111:1, and 112:1\'s own real, self-referential "Psalm NN is an acrostic poem..." notes — each names a real, registry-resolvable chapter, and a chapter-only mention now links the same as any other', () => {
     const psalmAcrostics = [
-      footnoteFrom(
+      { footnote: footnoteFrom(
         '\\f + \\fr 34:1 \\ft Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav).\\f*',
-      ),
-      footnoteFrom(
+      ).footnote, book: "Psalm 34" },
+      { footnote: footnoteFrom(
         '\\f + \\fr 111:1 \\ft Psalm 111 is an acrostic poem, with each verse after the initial “Praise Yah!” starting with a letter of the alphabet (ordered from Alef to Tav).\\f*',
-      ),
-      footnoteFrom(
+      ).footnote, book: "Psalm 111" },
+      { footnote: footnoteFrom(
         '\\f + \\fr 112:1 \\ft Psalm 112 is an acrostic poem, with each verse after the initial “Praise Yah!” starting with a letter of the alphabet (ordered from Alef to Tav).\\f*',
-      ),
+      ).footnote, book: "Psalm 112" },
     ];
-    for (const { footnote } of psalmAcrostics) {
-      expect(typeof footnote.content).toBe("string");
+    for (const { footnote, book } of psalmAcrostics) {
+      const links: EmbeddedLink[] = [];
+      collectLinks(footnote.content, links);
+      expect(links).toEqual([{ target: book, content: undefined }]);
     }
   });
 

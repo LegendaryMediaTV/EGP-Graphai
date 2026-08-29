@@ -77,7 +77,7 @@ This is a representative sampling. The test fixtures under `utils/usfm/__tests__
 
 A Greek or Hebrew critical edition often prints its apparatus as operators between competing readings rather than prose — a symbolic notation the witness signal recognizes on its own terms, checked right alongside the prose-based witness rules: `⇒` sets the edition's own reading against a competing one, a standalone `~` marks a verse the compared edition omits outright, and `¦` separates one witness group's reading from the next. Without this, an edition whose apparatus is built entirely from these operators (BYZ2018's, corpus-wide) would fall through every prose-based rule straight to the study default. The importer and the retroactive re-classification tool below both import this one table, so the two never disagree about what a given footnote should be.
 
-`references.ts` handles two distinct cases. An explicit `\x` cross-reference resolves against the book registry directly, rather than through the cached index the cross-chapter-link auditor builds, which may be incomplete mid-import. A reference named in ordinary footnote prose with no marker at all is linked only when the surrounding text actually names a real book, chapter, and verse, not because it follows a cue phrase like "See."
+`references.ts` handles two distinct cases. An explicit `\x` cross-reference resolves against the book registry directly, rather than through the cached index the cross-chapter-link auditor builds, which may be incomplete mid-import. A reference named in ordinary footnote prose with no marker at all is linked whenever the surrounding text actually names a real book and chapter, not because it follows a cue phrase like "See" — a verse is no longer required, so a bare chapter mention like Genesis 3:24's real "See Ezekiel 10." now links the whole chapter, reversing this scanner's own earlier verse-mandatory rule (a bare parenthetical citation with no book name of its own, like "(12)" floating with nothing anchoring it, still requires a verse — weaker evidence needs the extra anchor a named verse gives it). The book name itself can take several real-world forms — a Roman-numeral ordinal ("I Kings"), a period-abbreviated name ("Isa."), a parenthetical aside, or a single-chapter book's own bare "C:V" shorthand — and a bare "C:V" continuation chains onto whichever reference came right before it in the same footnote, the same way a later bare parenthetical citation resolves against the last book that footnote already named. Resolution isn't limited to the version's own canon either: a footnote can legitimately name a book the version being read doesn't carry, so a reference links whenever it names a real book, chapter, and verse anywhere in the registry, not just this version's own.
 
 ## Verifying an import
 
@@ -107,6 +107,21 @@ This tool works on JSON already committed to `bible-versions/`, independent of i
 One case is deliberately excluded from that rewrite: a recomputed result of study never overwrites a stored type that's something else. Study is the table's own fallback for a body with no matching construct, not a considered judgment that the note carries no real signal, and some editions carry thousands of real translation-note footnotes that are bare glosses with no textual marker at all. Overwriting a human's stored judgment on no evidence would discard it rather than correct it, so only genuine upgrades out of study into a specific type stay unconditional.
 
 `--hard-reset` is the escape hatch from that rule. It gives the stored type no weight at all and takes whatever the classifier derives, study included. Reach for it when the existing types aren't worth keeping: a version bulk-typed to a single value as a placeholder, or an earlier machine pass whose output has since proven unreliable. Without it a stored non-study type is unreachable by study, so re-deriving a version cleanly would otherwise mean blanking every type by hand first. It composes with `--fix` and previews the same way on its own.
+
+## Retroactively re-linking embedded references
+
+```bash
+# Report references the current grammar would now catch
+npm run overhaul-references WEBUS2020
+
+# Rewrite them
+npm run overhaul-references WEBUS2020 -- --fix
+
+# Preview or apply to one book only
+npm run overhaul-references WEBUS2020 GEN -- --fix
+```
+
+Same shape as the footnote re-classification tool above: it works on JSON already committed to `bible-versions/`, independent of import, and exists for the same reason — most versions in the corpus predate a grammar improvement, or were imported before one landed, so an upgrade to the shared scanner could otherwise never reach content that was never (re-)imported through USFM. Unlike footnote reclassification, this transform is purely additive. It only ever turns a plain string into a `bibleLink`; an already-tagged reference is left untouched rather than re-targeted or second-guessed. There's no `--hard-reset` escape hatch here, because nothing this tool writes is worth discarding wholesale rather than simply re-finding.
 
 ## The apocrypha addition
 

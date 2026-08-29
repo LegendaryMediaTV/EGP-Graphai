@@ -12793,11 +12793,9 @@
       {
         "content": [
           " ",
-          { "text": "unto the", "marks": ["i"] },
-          " ",
+          { "text": "unto the ", "marks": ["i"] },
           { "text": "Lord", "marks": ["i", "sc"] },
-          " ",
-          { "text": "thy God", "marks": ["i"] },
+          { "text": " thy God", "marks": ["i"] },
           ", according as the ",
           { "text": "Lord", "marks": ["sc"] }
         ],
@@ -26593,8 +26591,7 @@
       {
         "content": [
           { "text": " by him;", "break": true },
-          { "text": "And the", "marks": ["i"] },
-          " ",
+          { "text": "And the ", "marks": ["i"] },
           { "text": "Lord", "marks": ["i", "sc"] },
           " shall cover"
         ],

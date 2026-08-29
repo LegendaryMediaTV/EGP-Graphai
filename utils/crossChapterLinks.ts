@@ -1132,8 +1132,16 @@ export function reconstructTruncatedRangesInContent(
 /**
  * Why {@link findUnresolvableTarget} judged one endpoint of a bibleLink
  * target unresolvable against `versionId`'s own data.
+ *
+ * Deliberately never "the book isn't in this version's own canon": an
+ * embedded reference can name a real book regardless of whether the version
+ * being read happens to carry it (an NT-only version's own footnote can
+ * still say "see Isaiah 7:14" without contradiction — `utils/usfm/references.ts`'s
+ * own embedded scanner resolves this kind of mention un-restricted by canon
+ * for exactly that reason), so canon membership alone is never treated as a
+ * reason to unlink a target here either.
  */
-export type UnresolvableTargetReason = "book-not-in-canon" | "chapter-not-carried" | "verse-not-carried";
+export type UnresolvableTargetReason = "chapter-not-carried" | "verse-not-carried";
 
 /**
  * One bibleLink target's unresolvable verdict against one version's own
@@ -1147,13 +1155,13 @@ export interface UnresolvableTargetResult {
   reason: UnresolvableTargetReason;
   /** The book name exactly as written at the unresolvable endpoint. */
   bookName: string;
-  /** The repo book id, when resolved — `null` when `reason` is `"book-not-in-canon"`. */
-  book: string | null;
+  /** The repo book id this endpoint's own book name resolved to. */
+  book: string;
   /** The chapter number the unresolvable endpoint named. */
   chapter: number;
   /** The verse number the unresolvable endpoint named, or `null` for a bare-chapter endpoint. */
   verse: number | null;
-  /** This version's own real highest chapter number for `book`, read from its own data — `null` when `book` did not resolve. Reported so a `"chapter-not-carried"` finding's own message names the version's real chapter count rather than leaving a reader to look it up. */
+  /** This version's own real highest chapter number for `book`, read from its own data. Reported so a `"chapter-not-carried"` finding's own message names the version's real chapter count rather than leaving a reader to look it up. */
   lastChapterInVersion: number | null;
 }
 
@@ -1162,6 +1170,13 @@ export interface UnresolvableTargetResult {
  * data — the shared per-endpoint judgment {@link findUnresolvableTarget}
  * applies to both ends of a range, so a range unresolvable at either end is
  * still one finding rather than two separate code paths.
+ *
+ * @param book - `null` when the endpoint's own book name didn't resolve
+ *   against this version's canon — never itself a finding (see {@link
+ *   UnresolvableTargetReason}'s own doc comment for why); there is simply
+ *   nothing left to judge without a resolved book to look chapter/verse data
+ *   up against, so this returns `null` (not unresolvable) the same as a
+ *   genuinely resolvable target does.
  */
 function unresolvableEndpoint(
   versionId: string,
@@ -1170,9 +1185,7 @@ function unresolvableEndpoint(
   chapter: number,
   verse: number | null,
 ): UnresolvableTargetResult | null {
-  if (book === null) {
-    return { reason: "book-not-in-canon", bookName, book: null, chapter, verse, lastChapterInVersion: null };
-  }
+  if (book === null) return null;
   if (lastVerseOf(versionId, book, chapter) === undefined) {
     return { reason: "chapter-not-carried", bookName, book, chapter, verse, lastChapterInVersion: lastChapterOf(versionId, book) ?? null };
   }
@@ -1246,11 +1259,9 @@ export interface UnresolvableTargetFinding extends UnresolvableTargetResult {
  */
 export function formatUnresolvableTargetFinding(finding: UnresolvableTargetFinding): string {
   const detail =
-    finding.reason === "book-not-in-canon"
-      ? `"${finding.bookName}" is not in this version's own canon`
-      : finding.reason === "chapter-not-carried"
-        ? `${finding.bookName} ${finding.chapter} — this version carries only ${finding.lastChapterInVersion ?? 0} chapter(s) in ${finding.bookName}`
-        : `${finding.bookName} ${finding.chapter}:${finding.verse} — this version carries no such verse`;
+    finding.reason === "chapter-not-carried"
+      ? `${finding.bookName} ${finding.chapter} — this version carries only ${finding.lastChapterInVersion ?? 0} chapter(s) in ${finding.bookName}`
+      : `${finding.bookName} ${finding.chapter}:${finding.verse} — this version carries no such verse`;
   return (
     `${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
     `"${finding.target}" does not resolve — ${detail}`

@@ -38,30 +38,69 @@
  *
  * **A second shape needs a structural fix, not a text move**: the "leading"
  * direction's plain relocation moves a whitespace run onto the predecessor's
- * trailing edge. When that predecessor carries a `strong` number — e.g.
- * `{text: " saying,", strong: "G3004", ...}` immediately before the
- * woc-marked node — that move would violate the trailing-whitespace check's
- * own rule that a `strong`-carrying node's text never ends in whitespace.
- * The space then has no legal home in either node's own text: it can't stay
- * embedded in the marked node (that's the finding itself), and it can't
- * relocate onto the predecessor's trailing edge (the trailing-whitespace
- * check forbids it). So it becomes its own standalone node instead — a bare
- * string `" "` inserted between the predecessor and the marked node,
- * matching this corpus's own existing convention for a joining space with
- * nothing to agree with on either side (`auditNodes.ts`'s own
- * mark-boundary-space check doc comment; real KJV1769 Matthew 6:32 shape).
+ * trailing edge. Two independent predecessor shapes forbid that move, each
+ * for its own reason:
  *
- * This is asymmetric by construction and only ever fires for `side:
- * "leading"` against a `strong`-carrying predecessor: leading whitespace on a
- * `strong`-carrying node is already this corpus's norm and never a
- * trailing-whitespace-check violation, so the mirror-image "trailing"
- * direction (a move onto a real successor's own leading edge) has no
- * equivalent conflict and keeps using the plain text-relocation path above.
- * The inserted node is never itself a mark-boundary-space-check finding
- * either: the mark-boundary-space check only proposes collapsing a
- * standalone blank connector when its two real neighbors *agree* in marks, and a
- * predecessor/marked-node pair that reached this branch disagreed by
- * definition.
+ * - A `strong` number — e.g. `{text: " saying,", strong: "G3004", ...}`
+ *   immediately before the woc-marked node — that move would violate the
+ *   trailing-whitespace check's own rule that a `strong`-carrying node's
+ *   text never ends in whitespace.
+ * - A `foot` — real CSB2017 1 Chronicles 17:17: `{text: "...as a man of
+ *   distinction,", foot: {type: "trn", content: "Hb obscure"}}` immediately
+ *   before a small-caps `{text: " Lord", marks: ["sc"]}` — landing the
+ *   space there would give this predecessor's own trailing text a
+ *   whitespace run it never had, which is exactly the shape
+ *   `fixFootnoteMarkerSpacing.ts`'s own "footnote marker renders after
+ *   whitespace" check looks for. That check has no way to tell this
+ *   manufactured run apart from a genuine one, so it would go on to
+ *   "repair" an already-correctly-placed marker right off the word it
+ *   actually annotates — the predecessor's `foot` was never floating away
+ *   from anything until this module's own relocation put a false trailing
+ *   space under it.
+ *
+ * Either way the space then has no legal home in either node's own text: it
+ * can't stay embedded in the marked node (that's the finding itself), and
+ * it can't relocate onto the predecessor's trailing edge. So it becomes its
+ * own standalone node instead — a bare string `" "` inserted between the
+ * predecessor and the marked node, matching this corpus's own existing
+ * convention for a joining space with nothing to agree with on either side
+ * (`auditNodes.ts`'s own mark-boundary-space check doc comment; real
+ * KJV1769 Matthew 6:32 shape for the `strong` case).
+ *
+ * The `strong` half of this stays leading-only, with no trailing
+ * counterpart: leading whitespace on a marked node is already this corpus's
+ * norm and never a trailing-whitespace-check violation on *its own* trailing
+ * edge, and no real corpus case combines `strong` with trailing whitespace on
+ * a node's own text. The `foot` half is not so one-sided, though: a marked
+ * node's own trailing whitespace run can carry a `foot` too, and relocating
+ * that run across a boundary raises a differently-shaped version of the same
+ * problem — see "A fourth shape carries a foot across a safe relocation"
+ * below for how the trailing direction resolves it. The inserted node from
+ * either direction is never itself a mark-boundary-space-check finding: that
+ * check only proposes collapsing a standalone blank connector when its two
+ * real neighbors *agree* in marks, and a pair that reached any of these
+ * branches disagreed by definition.
+ *
+ * **A fourth shape carries a foot across a safe relocation**: a marked
+ * node whose own trailing whitespace run carries a footnote marker can't
+ * use the ordinary relocation path even when the successor is a genuinely
+ * safe, non-doubling landing spot. Moving the run alone would leave `foot`
+ * behind on the shortened node, stranding its marker one character early;
+ * merging the run onto the successor's own text would attach that `foot` to
+ * a word it never annotated. Neither is legal, so the run and the `foot`
+ * travel together into a brand-new, unformatted node spliced in between the
+ * marked node and the real successor — the marked node keeps every other
+ * property of its own (in particular, its own `marks`), and the successor's
+ * own text is never touched.
+ *
+ * This is scoped to a genuinely safe merge target only. When the successor
+ * already independently opens with its own leading whitespace, relocating
+ * here would double that whitespace instead, and the existing
+ * doubling-collision handling below (delete the redundant run when the
+ * successor is unmarked, decline otherwise) already produces the correct
+ * result whether or not the marked node carries a `foot` — dropping the run
+ * there leaves `foot` already hugging the word the instant the run is gone,
+ * with no new node needed.
  *
  * **A third shape needs deletion, not relocation**: the ordinary relocation
  * path assumes the run is landing on a genuinely blank spot at the
@@ -197,7 +236,7 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
           !agreesInFormatting(shape, predecessor) &&
           !isFormattingSubsetOf(shape, predecessor)
         ) {
-          if (predecessor.strong !== undefined) {
+          if (predecessor.strong !== undefined || predecessor.hasFoot) {
             // Structural fix, not a text move (top doc comment's "second
             // shape" section): neither home for the space is legal here, so
             // it becomes its own standalone node; the predecessor's own text
@@ -256,12 +295,29 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
             if (!carriesFormatting(successor)) {
               // Deletion path — mirrors the leading branch's comment above;
               // see the top doc comment's "third shape" section for the
-              // real corpus case this covers.
+              // real corpus case this covers. Unchanged when `current`
+              // carries a `foot`: dropping the redundant run leaves `foot`
+              // exactly where it is, already hugging the word the instant
+              // the run is gone, so there's nothing left for it to be
+              // stranded away from.
               working[i] = withText(working[i], rest);
               counts.fixed++;
             } else {
               counts.skipped.push("doubled-whitespace");
             }
+          } else if (current.hasFoot) {
+            // Structural fix (top doc comment's new trailing-side section):
+            // the successor is a genuinely safe, non-doubling landing spot
+            // for the run, but plain relocation would leave `foot` behind on
+            // the shortened node — today's bug. `foot` can't merge onto the
+            // successor's own text either (that node's marker never
+            // belonged to it), so the run and `foot` become a brand-new,
+            // unformatted node instead, spliced in between the two; the
+            // successor's own text is never touched.
+            const { foot, ...withoutFoot } = working[i] as Record<string, unknown>;
+            working[i] = withText(withoutFoot, rest);
+            working.splice(i + 1, 0, { text: run, foot });
+            counts.fixed++;
           } else {
             working[j] = withText(working[j], merged);
             working[i] = withText(working[i], rest);

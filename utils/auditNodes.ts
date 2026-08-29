@@ -161,14 +161,16 @@
  * script of its own; `utils/validate.ts` is the only thing that calls in.
  * The unmerged-connector, heading-paragraph, footnote-punctuation-order,
  * mark-boundary-embedded-space, footnote-marker-spacing, script-run,
- * duplicate-footnote-anchor, and mergeable-sibling checks do get repaired, but not here: their
- * fixes run inside `validate.ts`'s own auto-fix pass, built from six
+ * duplicate-footnote-anchor, mergeable-sibling, and mark-boundary-space
+ * checks do get repaired, but not here: their
+ * fixes run inside `validate.ts`'s own auto-fix pass, built from seven
  * exported transforms in `utils/` that reuse this module's own eligibility
  * functions rather than a second copy of the judgment
  * (`fixUnmergedNodes.ts`, `fixHeadingParagraphs.ts`,
  * `fixFootnotePunctuationOrder.ts`, `fixMarkBoundaryEmbeddedSpaces.ts`,
  * `fixFootnoteMarkerSpacing.ts`, `fixDuplicateFootnoteAnchors.ts`, the
- * duplicate-footnote-anchor check's own fixer), plus two more in `functions/` (`tagScriptRunsInContent.ts`,
+ * duplicate-footnote-anchor check's own fixer, `fixMarkBoundarySpaces.ts`),
+ * plus two more in `functions/` (`tagScriptRunsInContent.ts`,
  * the script-run check's own fixer, self-contained rather than importing this module's
  * judgment, since its own eligibility question — does this text mix
  * scripts, and does the node carry a property a split can't safely assign —
@@ -177,7 +179,7 @@
  * which does import {@link isMergeableTextNode} and {@link
  * agreesInFormatting} from here, since its own eligibility question is
  * exactly this module's concern). A reader looking for the fix half of any
- * of these eight checks should look there, not here.
+ * of these nine checks should look there, not here.
  */
 
 import * as fs from "fs";
@@ -227,6 +229,8 @@ export interface NodeShape {
   hasNestedContent: boolean;
   /** A multi-number `<st>` tag's own textless sibling (`{strong: "H853"}`, no `text`, no nested `content` either) — renders nothing at all, so a backward scan for an attachment point passes straight through it rather than stopping there. Distinct from `hasNestedContent`: both lack top-level `text`, but only one of them is actually invisible. */
   isTextlessStrongSibling: boolean;
+  /** A footnote-only sibling that renders no visible text of its own — either a bare `{foot: {...}}` node or a not-yet-normalized `{text: "", foot: {...}}` husk (`utils/exportContent.ts`'s own `isTextlessFootnoteSibling`, the real corpus shape this mirrors — real CSB2017 Matthew 15:4 carries two of these back to back on one word). Renders nothing at all, same as {@link isTextlessStrongSibling}, so a forward scan for the next real attachment point has to pass through a whole run of these, not just one, before concluding nothing real follows. */
+  isTextlessFootSibling: boolean;
   /** Whether this node's own `paragraph` is `true`. */
   opensParagraph: boolean;
   /** Whether this node's own `break` is `true`. */
@@ -250,6 +254,7 @@ export function describeNode(node: unknown): NodeShape {
     hasFoot: false,
     hasNestedContent: false,
     isTextlessStrongSibling: false,
+    isTextlessFootSibling: false,
     opensParagraph: false,
     endsBreak: false,
   };
@@ -269,16 +274,19 @@ export function describeNode(node: unknown): NodeShape {
   const text = typeof record.text === "string" ? record.text : undefined;
   const strong = typeof record.strong === "string" ? record.strong : undefined;
   const hasNestedContent = "content" in record;
+  const hasFoot = record.foot !== undefined && record.foot !== null;
 
   return {
     text,
     marks: Array.isArray(record.marks) ? record.marks : [],
     script: record.script,
     strong,
-    hasFoot: record.foot !== undefined && record.foot !== null,
+    hasFoot,
     hasNestedContent,
     isTextlessStrongSibling:
       text === undefined && strong !== undefined && !hasNestedContent,
+    isTextlessFootSibling:
+      (text === undefined || text === "") && hasFoot && !hasNestedContent,
     opensParagraph: record.paragraph === true,
     endsBreak: record.break === true,
     isBoundary: false,
@@ -667,28 +675,42 @@ interface MarkBoundarySpaceFinding {
 
 /**
  * Scan one array level for a bare, untagged whitespace-only node sandwiched
- * between two real, non-blank nodes that agree in `marks`/`script` with each
- * other — the one condition that makes rolling the space forward safe: with
- * identical formatting on both sides, the space carries no boundary meaning
- * of its own, so its only correct home is the leading edge of the node after
- * it.
+ * between two real, non-blank nodes that agree in `marks`/`script`, or where
+ * one side's marks are a non-empty subset of the other's ({@link
+ * isFormattingSubsetOf}) — either way not a genuine disagreement, so the
+ * space carries no boundary meaning of its own. Its correct home is
+ * whichever real side is the *smaller* mark set: exact agreement has no
+ * smaller side, so it defaults to the node after the space, but a subset
+ * boundary sends it to whichever side is the continuous wrapper the space
+ * is genuinely part of — real KJV1769 1 Samuel 16:7 (`{text: "the", marks:
+ * ["i"]}, " ", {text: "Lord", marks: ["i","sc"]}`) sends it *backward*,
+ * onto `"the"`, since `["i"]` is the wrapper and `"sc"` (the divine name's
+ * own small-caps) is `"Lord"`'s own local addition. See
+ * `fixMarkBoundarySpaces.ts`'s own top doc comment for the full direction
+ * rule and its fixer half.
  *
- * A run of textless Strong's siblings immediately after the space is
- * skipped through to find that real node (the same skip-through the leading-punctuation check
- * uses for its own backward attachment point) — a textless sibling renders
- * zero characters, so it isn't a visual boundary the formatting-agreement
- * check needs to cross. Real Matthew 3:15 KJV1769 shape: `{text: " it
- * becometh", marks: ["woc"]}, " ", {strong: "G2076"}, {text: "us", marks:
- * ["woc"]}` — the textless `G2076` sibling carries no `marks` at all (moot,
- * since it renders nothing) and would otherwise cause a false `marks`
- * mismatch.
+ * A run of textless Strong's or textless foot siblings immediately after
+ * the space is skipped through to find that real node (the same
+ * skip-through the leading-punctuation check uses for its own backward
+ * attachment point) — a textless sibling renders zero characters, so it
+ * isn't a visual boundary the formatting-agreement check needs to cross.
+ * Real Matthew 3:15 KJV1769 shape: `{text: " it becometh", marks: ["woc"]},
+ * " ", {strong: "G2076"}, {text: "us", marks: ["woc"]}` — the textless
+ * `G2076` sibling carries no `marks` at all (moot, since it renders
+ * nothing) and would otherwise cause a false `marks` mismatch.
  *
  * `endsBreak`/`opensParagraph` guard the same way they do in the unmerged-connector check: a break
  * on the space itself or a paragraph opening on the target both mark a real
  * piece boundary that a bare space's own formatting agreement cannot paper
- * over. A footnote on either real neighbor does not block the finding — the
- * footnote stays attached to whichever node already carries it; only the
- * space itself moves.
+ * over. A footnote on the real *target* doesn't block the finding — the
+ * footnote stays attached to whichever node already carries it, and the
+ * space always has a safe home on its own leading edge regardless. A
+ * footnote (or `strong`) on the real *source*, when the subset relationship
+ * would otherwise send the space backward onto it, does block the finding
+ * instead: neither direction is safe there, so an already-correctly-tagged
+ * blank (real YLT1898 Revelation 2:13: `{text: " ", marks: ["woc"]}`
+ * between a footed `["woc"]` predecessor and an `["i","woc"]` successor)
+ * stays exactly where it is, unflagged.
  */
 function scanArrayForMarkBoundarySpaces(
   nodes: readonly unknown[],
@@ -705,12 +727,33 @@ function scanArrayForMarkBoundarySpaces(
     if (!isRealAttachmentPoint(left)) continue;
 
     let j = i + 1;
-    while (j < nodes.length && shapes[j].isTextlessStrongSibling) j++;
+    while (j < nodes.length && (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)) j++;
     if (j >= nodes.length) continue;
 
     const target = shapes[j];
     if (!isRealAttachmentPoint(target) || target.opensParagraph) continue;
-    if (!agreesInFormatting(left, target)) continue;
+
+    const exact = agreesInFormatting(left, target);
+    if (!exact && !isFormattingSubsetOf(left, target)) continue;
+
+    // A subset boundary where `left` is the smaller (wrapper) side, but
+    // `left` carries `strong` or `foot`, is already the correct, settled
+    // shape — not a finding. Real YLT1898 Revelation 2:13: `{text:
+    // "...Antipas", marks: ["woc"], foot: {...}}, {text: " ", marks:
+    // ["woc"]}, {text: "was", marks: ["i","woc"]}` — the blank is already
+    // tagged with the wrapper's own `["woc"]`, exactly right; rolling it
+    // onto `left`'s trailing edge would violate the trailing-whitespace
+    // check's own rule (`strong`) or manufacture a footnote-marker-spacing
+    // finding (`foot`), and rolling it onto `target` instead would bundle
+    // it into `target`'s own *larger* mark set — misrepresenting a plain
+    // joining space as part of the local addition (`"i"` here) it was
+    // never inside. Neither direction is safe, so a correctly-tagged blank
+    // left exactly where it is stays unflagged, the same "already settled,
+    // don't re-flag" exemption `scanArrayForFootnoteMarkerAfterWhitespace`
+    // applies for its own already-extracted shape.
+    if (!exact && left.marks.length < target.marks.length && (left.strong !== undefined || left.hasFoot)) {
+      continue;
+    }
 
     findings.push({
       where,
@@ -992,18 +1035,24 @@ export function carriesFormatting(shape: NodeShape): boolean {
  * True when two nodes' own marks share the same script and one's marks are
  * a non-empty subset of the other's, meaning the smaller side is a strict
  * formatting subset of the larger, not a disagreement. Scoped to the
- * mark-boundary-embedded-space check
- * only, not folded into {@link agreesInFormatting} itself, since the unmerged-connector,
- * leading-punctuation, and mark-boundary-space checks
- * use that function's exact-equality test; changing its meaning there is a
- * bigger, unjustified blast radius than this one check needs.
+ * mark-boundary-embedded-space and mark-boundary-space checks, not folded
+ * into {@link agreesInFormatting} itself, since the unmerged-connector and
+ * leading-punctuation checks use that function's exact-equality test on
+ * purpose — a strong-carrying connector or leading-punctuation attachment
+ * needing this same subset leniency has no real corpus case yet, so
+ * widening `agreesInFormatting` itself for those checks too would be a
+ * bigger, unjustified blast radius than either has actually asked for.
  *
  * Real YLT1898 case this exists for: a Words-of-Christ node (marks:
  * ["woc"]) bordering a translator-supplied word that is *also* part of
  * Christ's own discourse (marks: ["i","woc"]). The supplied word correctly
  * carries `woc` plus one more mark, not a genuine boundary — `exportContent.ts`
  * renders both orderings identically, so nothing hinges on which side is
- * "outer." Do not generalize this into `agreesInFormatting` itself.
+ * "outer." The mark-boundary-space check's own real KJV1769 1 Samuel 16:7
+ * case is the identical relationship one level up: a whole *standalone*
+ * space node, not one embedded in either real node's own text, caught
+ * between the same kind of italic/small-caps nesting. Do not generalize
+ * this into `agreesInFormatting` itself.
  */
 function isFormattingSubsetOf(a: NodeShape, b: NodeShape): boolean {
   if (a.script !== b.script) return false;
@@ -1156,7 +1205,7 @@ interface FootnoteMarkerAfterWhitespaceFinding {
   where: string;
   /** The `foot`-carrying node whose own marker renders immediately after whitespace — either its own trailing edge, or (for a node rendering no text of its own) an earlier node's trailing edge, per {@link findWhitespaceSourceIndex}. */
   node: unknown;
-  /** The real node immediately after `node`, skipping any textless Strong's sibling in between, the joining space should relocate onto — `undefined` when `node` sits at the end of its own array level, with nothing to relocate onto. */
+  /** The real node immediately after `node`, skipping any textless Strong's or textless foot sibling in between, the joining space should relocate onto — `undefined` when `node` sits at the end of its own array level, with nothing to relocate onto. */
   next: unknown;
 }
 
@@ -1179,8 +1228,11 @@ interface FootnoteMarkerAfterWhitespaceFinding {
  * WEBUS2020 Mark 9:44 case this exists for.
  *
  * **A bare `{foot: {...}}` node — no `text` key at all — is exempt once a
- * real next attachment point genuinely follows it** (skipping any textless
- * Strong's sibling in between), regardless of what its own `foot` says: real
+ * real next attachment point genuinely follows it** (skipping any run of
+ * textless Strong's or textless foot siblings in between — real CSB2017
+ * Matthew 15:4 carries two textless foot siblings back to back on the same
+ * word, both of which have to be walked past before "and," is recognized as
+ * the real next node), regardless of what its own `foot` says: real
  * KJV1769 Isaiah 10:5 (`{text: " Assyrian,", foot: {...}}`, a bare `{foot:
  * {...}}`, `{text: " the rod", ...}`) stays silent on its middle node
  * because that node already sits in its own final, settled shape — the
@@ -1209,7 +1261,7 @@ function scanArrayForFootnoteMarkerAfterWhitespace(
     if (!shape.hasFoot || shape.hasNestedContent) continue;
 
     let j = i + 1;
-    while (j < nodes.length && shapes[j].isTextlessStrongSibling) j++;
+    while (j < nodes.length && (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)) j++;
     const next = j < nodes.length ? shapes[j] : undefined;
 
     if (shape.text === undefined && next !== undefined && isRealAttachmentPoint(next)) continue;

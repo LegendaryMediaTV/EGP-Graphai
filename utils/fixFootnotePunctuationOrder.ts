@@ -1,36 +1,49 @@
 /**
- * Applies `auditNodes.ts`'s own footnote-punctuation-order check in the one
- * direction it ever recommends: moves a leading run of tight punctuation off a footed node's
- * next sibling and onto the end of the footed node's own `text` instead,
- * since `utils/exportContent.ts`'s renderer always places a node's footnote
- * marker in its `suffix`, after that node's full `core` text
- * (`RenderedParts` there) — a footnote marker between a word and the
- * punctuation that belongs to the same clause is always wrong; the marker
- * has to render after the punctuation, not before it. `utils/validate.ts`
+ * Applies `auditNodes.ts`'s own footnote-punctuation-order check: a
+ * footnote marker always has to render after the punctuation that belongs
+ * to its own clause, never before it, since `utils/exportContent.ts`'s
+ * renderer always places a node's footnote marker in its `suffix`, after
+ * that node's full `core` text (`RenderedParts` there). `utils/validate.ts`
  * calls {@link reorderFootnotePunctuationInContent} on every run, with no
  * flag to opt in or out.
  *
- * The transform looks purely mechanical — move some characters from one
- * node's `text` to another's — but still needs the same kind of
- * human-reviewable judgment `fixUnmergedNodes.ts`'s own
- * unmerged-connector-check fixer applies, for two independent reasons:
+ * **Two independent resolutions**, chosen by whether absorbing the
+ * punctuation into the footed node's own text would be guessing:
  *
- * 1. **Formatting eligibility.** A footed node and a punctuation-leading
- *    sibling that disagree in `marks`/`script` (Galatians 3:18: `marks:
- *    ["i"]` vs. a bare, unmarked `"."`) may have stayed split on purpose —
- *    absorbing the punctuation without checking would be guessing, the same
- *    bar `canJoinForward` already applies for the unmerged-connector check's
- *    own merges.
- *    Re-derived locally as `agreesInFormatting` below rather than imported,
- *    since `auditNodes.ts` exports `isRealAttachmentPoint` and
- *    `leadingTightPunctuationSplit` but not this (unexported) function.
- * 2. **Silent data loss.** When the sibling's *entire* text is the
- *    punctuation run, removing the now-empty sibling is only safe when it
- *    carries nothing beyond `text`/`marks`/`script`. A sibling carrying a
- *    real property beyond those three (Matthew 13:35's `break: true`) would
- *    have that property silently discarded by an unconditional delete; this
- *    module refuses and reports the finding as skipped instead, via its own
- *    {@link SkipReason}.
+ * - **Merge** (the ordinary case): move the leading run of tight punctuation
+ *   off the footed node's next sibling and onto the end of the footed
+ *   node's own `text` instead. Requires the two nodes to agree in
+ *   `marks`/`script` first (Galatians 3:18: `marks: ["i"]` vs. a bare,
+ *   unmarked `"."` — they may have stayed split on purpose, the same bar
+ *   `canJoinForward` already applies for the unmerged-connector check's own
+ *   merges; re-derived locally as `agreesInFormatting` below rather than
+ *   imported, since `auditNodes.ts` exports `isRealAttachmentPoint` and
+ *   `leadingTightPunctuationSplit` but not this unexported function). When
+ *   the sibling's entire text is the punctuation run, the now-empty sibling
+ *   is removed too — but only when doing so can't silently lose anything
+ *   real. That's true when it carries nothing beyond `text`/`marks`/
+ *   `script`, and also when its only extra property is `break: true`
+ *   (Matthew 13:35's own shape) — that `break: true` rides forward onto the
+ *   merged node instead of vanishing with the sibling. Any other extra
+ *   property (a different key, or `break` paired with something else) has
+ *   no real corpus case proving it's safe to fold in, so this module
+ *   refuses the whole merge and reports the finding as skipped instead, via
+ *   its own {@link SkipReason}.
+ * - **Extract** (formatting disagrees, sibling is pure punctuation): moving
+ *   the punctuation is off the table (real CSB2017 John 7:36, 8:22, 16:17:
+ *   a `marks: ["woc"]` quotation's own footnote, followed by the
+ *   narrator's unmarked closing `"?”"` — absorbing that into the quotation
+ *   would misattribute the narrator's own punctuation as part of what was
+ *   quoted). But the marker's *position* is a separate, purely mechanical
+ *   question with the same one answer regardless of marks: `foot` moves
+ *   instead, onto a new bare `{foot: {...}}` node spliced in right after
+ *   the untouched punctuation sibling — the identical "sole" extraction
+ *   `fixFootnoteMarkerSpacing.ts` already applies for the same shaped
+ *   problem. Neither real node's own `text`/`marks` changes at all. Still
+ *   left as an `"eligibility"` skip when the punctuation is only a
+ *   *leading* run of a sibling that has real text of its own after it —
+ *   splitting that sibling in two to extract into is a different, more
+ *   invasive shape no real corpus case has needed yet.
  */
 
 import Content from "../types/Content";
@@ -55,7 +68,7 @@ function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
   );
 }
 
-/** A node's own real property keys beyond `text`/`marks`/`script` — `[]` for a bare string (which has none) or a node carrying nothing else. Used to decide whether removing an emptied sibling would silently lose something real (a real corpus case: `break: true`). */
+/** A node's own real property keys beyond `text`/`marks`/`script` — `[]` for a bare string (which has none) or a node carrying nothing else. Used to decide whether removing an emptied sibling would silently lose something real. A result of exactly `["break"]` is handled by carrying `break: true` forward onto the merged node rather than losing it (a real corpus case); any other non-empty result still blocks the merge, since no other shape has a known-safe way to carry forward. */
 function extraKeysBeyondTextMarksScript(node: unknown): string[] {
   if (node === null || typeof node !== "object" || Array.isArray(node)) return [];
   return Object.keys(node).filter((key) => key !== "text" && key !== "marks" && key !== "script");
@@ -126,6 +139,28 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
     if (split === undefined) continue;
 
     if (!agreesInFormatting(shape, next)) {
+      if (split.after === "") {
+        // The sibling is nothing but punctuation that disagrees in
+        // `marks`/`script` with the footed node — real CSB2017 John 7:36,
+        // 8:22, 16:17: a `marks: ["woc"]` quotation followed by the
+        // narrator's own unmarked closing `"?”"`. Absorbing that
+        // punctuation into the footed node (this function's only other
+        // move) would misattribute it as part of the quoted words, which is
+        // exactly the guess the top doc comment's own "formatting
+        // eligibility" reasoning refuses to make. But the marker's own
+        // position is a separate, purely mechanical question with one
+        // answer regardless: it has to render after the punctuation, not
+        // wedged before it — so `foot` moves instead, onto a new bare
+        // `{foot: {...}}` node spliced in right after the untouched
+        // punctuation sibling, the identical "sole" extraction
+        // `fixFootnoteMarkerSpacing.ts` already applies for the same
+        // shaped problem. Neither node's own `text`/`marks` changes at all.
+        const { foot, ...rest } = working[i] as Record<string, unknown>;
+        working[i] = rest;
+        working.splice(j + 1, 0, { foot });
+        counts.fixed++;
+        continue;
+      }
       counts.skipped.push("eligibility");
       continue;
     }
@@ -139,7 +174,14 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
       continue;
     }
 
-    if (extraKeysBeyondTextMarksScript(working[j]).length > 0) {
+    const extraKeys = extraKeysBeyondTextMarksScript(working[j]);
+    if (extraKeys.length > 0) {
+      if (extraKeys.length === 1 && extraKeys[0] === "break" && next.endsBreak) {
+        working[i] = { ...(withText(working[i], mergedText) as Record<string, unknown>), break: true };
+        removed.add(j);
+        counts.fixed++;
+        continue;
+      }
       counts.skipped.push("extra-keys");
       continue;
     }

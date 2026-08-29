@@ -123,6 +123,62 @@ describe("relocateFootnoteMarkerSpacesInContent — sole (standalone-node extrac
   });
 });
 
+describe("relocateFootnoteMarkerSpacesInContent — a run of two or more textless foot siblings", () => {
+  it("should absorb the source's trailing run onto the real next node's own leading edge when the two real sides are a formatting subset, not a standalone space node — real CSB2017 Matthew 15:4 shape", () => {
+    // "Honor your father and your mother;" carries marks: ["b","woc"]; two
+    // stacked cross-reference footnotes ride after it as textless
+    // siblings; "and," carries marks: ["woc"] alone — a strict subset of
+    // the predecessor's marks, the identical nesting relationship
+    // isFormattingSubsetOf's own doc comment names for the YLT1898
+    // ["woc"]-vs-["i","woc"] case. Not a genuine disagreement, so the run
+    // absorbs directly onto "and,"'s own leading edge.
+    const content = [
+      { text: "Honor your father and your mother; ", marks: ["b", "woc"] },
+      { foot: { type: "xrf", content: "Ex 20:12; Dt 5:16" } },
+      { foot: { type: "xrf", content: "Ex 20:12; Dt 5:16; Eph 6:2" } },
+      { text: "and,", marks: ["woc"] },
+    ];
+
+    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual([
+      { text: "Honor your father and your mother;", marks: ["b", "woc"] },
+      { foot: { type: "xrf", content: "Ex 20:12; Dt 5:16" } },
+      { foot: { type: "xrf", content: "Ex 20:12; Dt 5:16; Eph 6:2" } },
+      { text: " and,", marks: ["woc"] },
+    ]);
+  });
+
+  it("should fall back to a standalone space node when the two real sides genuinely disagree in formatting, not merge onto either one", () => {
+    // Same run-of-two-footnotes shape as above, but the real next node
+    // carries marks the predecessor doesn't share at all (no subset
+    // relationship either way) — neither real node's own text is a legal
+    // home for the run, so it becomes its own node instead, the identical
+    // structural fix fixMarkBoundaryEmbeddedSpaces.ts applies for the same
+    // reason.
+    const content = [
+      { text: "some text ", marks: ["b", "woc"] },
+      { foot: { type: "trn", content: "note one" } },
+      { foot: { type: "trn", content: "note two" } },
+      { text: "Lord", marks: ["sc"] },
+    ];
+
+    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual([
+      { text: "some text", marks: ["b", "woc"] },
+      { foot: { type: "trn", content: "note one" } },
+      { foot: { type: "trn", content: "note two" } },
+      " ",
+      { text: "Lord", marks: ["sc"] },
+    ]);
+  });
+});
+
 describe("relocateFootnoteMarkerSpacesInContent — already-settled bare foot nodes are never re-examined", () => {
   it("should leave a verse-initial bare foot node alone — real CLV1880 Numbers 20:29 shape, nothing precedes it so it's already the exempt, standalone form", () => {
     const content = [

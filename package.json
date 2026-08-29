@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "ts-node web/server.ts",
     "export": "ts-node utils/exportContent",
+    "overhaul-references": "ts-node utils/overhaulReferences",
     "overhaul-footnotes": "ts-node utils/overhaulFootnotes",
     "test": "vitest --run",
     "validate": "ts-node utils/validate"

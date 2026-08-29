@@ -35,11 +35,23 @@
 import Content from "../types/Content";
 import { agreesInFormatting, describeNode, isMergeableTextNode } from "../utils/auditNodes";
 
-/** True when `node` is an object carrying nothing but a `text` key — the exact shape a bare string already represents, per the schema's own equivalence between the two. */
+/**
+ * True when `node` is an object carrying nothing but a `text` key — the
+ * exact shape a bare string already represents, per the schema's own
+ * equivalence between the two. Excludes an *empty* `text: ""`: the schema's
+ * equivalence breaks down there — a bare string requires `minLength: 1`
+ * while the object form carries no such floor — so normalizing `{text: ""}`
+ * would produce an invalid `""` array element (real CSB2017 Matthew 18:16,
+ * once `fixFootnoteMarkerSpacing.ts`'s own bug in the "already-settled"
+ * guard is fixed, still leaves this shape reachable from elsewhere). Left as
+ * `{text: ""}`, `utils/validate.ts`'s own `findMeaninglessContentNodes`
+ * check still reports it as a husk for a person to resolve, exactly as it
+ * already does for one this transform never touches.
+ */
 function isTextOnlyObject(node: unknown): node is { text: string } {
   if (node === null || typeof node !== "object" || Array.isArray(node)) return false;
   const record = node as Record<string, unknown>;
-  return typeof record.text === "string" && Object.keys(record).length === 1;
+  return typeof record.text === "string" && record.text !== "" && Object.keys(record).length === 1;
 }
 
 /**

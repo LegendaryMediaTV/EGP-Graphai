@@ -496,12 +496,8 @@ describe("findUnresolvableTarget — the single-target entry point (G4)", () => 
     expect(result!.lastChapterInVersion).toBe(1);
   });
 
-  it("should report a target naming a book outside the version's own canon, with its own reason", () => {
-    const result = findUnresolvableTarget(FAKE_B, "Genesis 1:1");
-    expect(result).not.toBeNull();
-    expect(result!.reason).toBe("book-not-in-canon");
-    expect(result!.book).toBeNull();
-    expect(result!.bookName).toBe("Genesis");
+  it("should never flag a target naming a book outside the version's own canon — canon membership alone is never a reason to unlink", () => {
+    expect(findUnresolvableTarget(FAKE_B, "Genesis 1:1")).toBeNull();
   });
 
   it("should not flag a target that resolves", () => {
