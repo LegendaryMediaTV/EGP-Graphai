@@ -36,6 +36,53 @@ describe("mergeMarkBoundarySpacesInContent", () => {
     ]);
   });
 
+  it("should leave a stranded space exactly where it is when a textless footnote sibling sits between it and the real next node — merging it forward would carry it past a marker that renders, changing which word that marker hugs", () => {
+    const content = [
+      { text: "walked with God, and he was not,", foot: { type: "trn", content: "x" } },
+      { text: " " },
+      { foot: { type: "trn", content: "y" } },
+      "for God took him.",
+    ];
+
+    const result = mergeMarkBoundarySpacesInContent(content as never);
+
+    expect(result.changed).toBe(false);
+    expect(result.content).toBe(content);
+  });
+
+  it("should leave a stranded space exactly where it is when a run of two textless footnote siblings sits between it and the real next node", () => {
+    const content = [
+      { text: "the first word,", marks: ["woc"] },
+      " ",
+      { foot: { type: "trn", content: "x" } },
+      { text: "", foot: { type: "var", content: "y" } },
+      { text: "the second word.", marks: ["woc"] },
+    ];
+
+    const result = mergeMarkBoundarySpacesInContent(content as never);
+
+    expect(result.changed).toBe(false);
+    expect(result.content).toBe(content);
+  });
+
+  it("should still delete a redundant stranded space across a textless footnote sibling, since dropping the space before a marker is the resolution for a marker with whitespace on both sides", () => {
+    const content = [
+      { text: "the first word,", marks: ["woc"] },
+      " ",
+      { foot: { type: "trn", content: "x" } },
+      { text: " the second word.", marks: ["woc"] },
+    ];
+
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(result).toEqual([
+      { text: "the first word,", marks: ["woc"] },
+      { foot: { type: "trn", content: "x" } },
+      { text: " the second word.", marks: ["woc"] },
+    ]);
+  });
+
   it("should leave an already-tagged blank exactly where it is when the smaller (wrapper) side would otherwise be backward but the real previous node carries its own foot, real YLT1898 Revelation 2:13 shape — neither direction is safe: backward would manufacture a footnote-marker-spacing finding fixFootnoteMarkerSpacing.ts would re-extract on the next pass, and forward would bundle the blank into target's own larger, unrelated mark set", () => {
     const content = [
       { text: "...Antipas", marks: ["woc"], foot: { type: "stu", content: "Antipater" } },
