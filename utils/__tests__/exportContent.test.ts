@@ -2,29 +2,122 @@ import { describe, it, expect } from "vitest";
 import { convertVerseToText, convertVerseToMarkdown } from "../exportContent";
 import VerseSchema from "../../types/VerseSchema";
 
+/** Unicode whitespace, as CommonMark defines it for the flanking rules. */
+const FLANKING_WHITESPACE = /[\t\n\f\r \p{Zs}]/u;
+/** Unicode punctuation, as CommonMark defines it for the flanking rules. */
+const FLANKING_PUNCTUATION =
+  /[\p{Pc}\p{Pd}\p{Pe}\p{Pf}\p{Pi}\p{Po}\p{Ps}\p{Sc}\p{Sk}\p{Sm}\p{So}]/u;
+
 /**
- * Asserts every `**...**`/`_..._` run in `markdown` opens/closes against
- * non-whitespace — CommonMark's flanking rule (e.g. "** foo**" fails it,
- * rendering literal asterisks, not `<strong>`). A plain `toContain("**")`
- * check would pass even when this fails. Also asserts every underscore or
- * asterisk not part of a well-formed run is backslash-escaped.
+ * Whether the delimiter run of `character` at `at` in `line` may open and may
+ * close a span, transcribed from CommonMark's left-/right-flanking
+ * definitions and Rules 1 to 8. An out-of-range neighbor is `undefined`,
+ * which the spec counts as whitespace.
+ *
+ * Deliberately a second, independent copy of the rules the exporter applies:
+ * importing the exporter's copy would make every assertion below agree with
+ * whatever that copy says, including a mis-transcription — the one class of
+ * defect this helper exists to catch.
+ */
+function flankingRoles(
+  line: string,
+  at: number,
+  length: number,
+  character: string
+): { opens: boolean; closes: boolean } {
+  const before: string | undefined = line[at - 1];
+  const after: string | undefined = line[at + length];
+  const beforeIsSpace = before === undefined || FLANKING_WHITESPACE.test(before);
+  const afterIsSpace = after === undefined || FLANKING_WHITESPACE.test(after);
+  const beforeIsPunctuation =
+    before !== undefined && FLANKING_PUNCTUATION.test(before);
+  const afterIsPunctuation =
+    after !== undefined && FLANKING_PUNCTUATION.test(after);
+
+  const left =
+    !afterIsSpace &&
+    (!afterIsPunctuation || beforeIsSpace || beforeIsPunctuation);
+  const right =
+    !beforeIsSpace &&
+    (!beforeIsPunctuation || afterIsSpace || afterIsPunctuation);
+
+  // Rules 1, 3, 5 and 7: a "*" run opens iff left-flanking and closes iff
+  // right-flanking. Rules 2, 4, 6 and 8 add a clause to "_" that "*" does not
+  // carry.
+  if (character === "*") return { opens: left, closes: right };
+  return {
+    opens: left && (!right || beforeIsPunctuation),
+    closes: right && (!left || afterIsPunctuation),
+  };
+}
+
+/**
+ * Asserts every emphasis delimiter run in `markdown` is one CommonMark will
+ * actually parse. Whitespace against a delimiter's inner side is only one of
+ * the two ways a run fails; the other is flanking against punctuation and
+ * word characters, so this applies the whole flanking test. Also asserts the
+ * exporter's own delimiter vocabulary: "_" singly, "*" only in pairs,
+ * everything else backslash-escaped, and no empty span.
+ *
+ * Runs are found by scanning rather than by regex, which cannot skip a
+ * backslash-escaped delimiter and so would pair a real closing "_" against
+ * an escaped one.
  */
 function expectWellFormedEmphasis(markdown: string): void {
-  for (const match of markdown.matchAll(/\*\*(.*?)\*\*/g)) {
-    expect(match[1]).not.toMatch(/^\s|\s$|^$/);
-  }
-  for (const match of markdown.matchAll(/_(.*?)_/g)) {
-    expect(match[1]).not.toMatch(/^\s|\s$|^$/);
+  const failures: string[] = [];
+
+  // The spec counts the beginning and the end of a line as whitespace, so
+  // neighbors are line-local and a multi-line render is scanned per line.
+  for (const line of markdown.split("\n")) {
+    for (const character of ["*", "_"]) {
+      const runs: Array<{ at: number; length: number }> = [];
+      for (let index = 0; index < line.length; index++) {
+        if (line[index] === "\\") {
+          index++;
+          continue;
+        }
+        if (line[index] !== character) continue;
+        let end = index;
+        while (end < line.length && line[end] === character) end++;
+        runs.push({ at: index, length: end - index });
+        index = end - 1;
+      }
+
+      const runLength = character === "*" ? 2 : 1;
+      for (const run of runs) {
+        if (run.length !== runLength) {
+          failures.push(
+            `run of ${run.length} "${character}" at ${run.at} in ${JSON.stringify(line)}`
+          );
+        }
+      }
+      if (runs.length % 2 !== 0) {
+        failures.push(
+          `odd number of "${character}" runs in ${JSON.stringify(line)}`
+        );
+      }
+
+      for (let index = 0; index + 1 < runs.length; index += 2) {
+        const open = runs[index];
+        const close = runs[index + 1];
+        if (close.at === open.at + open.length) {
+          failures.push(`empty "${character}" span in ${JSON.stringify(line)}`);
+        }
+        if (!flankingRoles(line, open.at, open.length, character).opens) {
+          failures.push(
+            `"${character}" at ${open.at} cannot open a span in ${JSON.stringify(line)}`
+          );
+        }
+        if (!flankingRoles(line, close.at, close.length, character).closes) {
+          failures.push(
+            `"${character}" at ${close.at} cannot close a span in ${JSON.stringify(line)}`
+          );
+        }
+      }
+    }
   }
 
-  // Italic always emits underscores in matched pairs, so an odd
-  // unescaped-underscore count means one escaped incorrectly; bold always
-  // uses "**", never a lone "*", so any asterisk left after removing real
-  // "**...**" spans is unescaped source text.
-  const unescapedUnderscores = (markdown.match(/(?<!\\)_/g) || []).length;
-  expect(unescapedUnderscores % 2).toBe(0);
-  const withoutBoldSpans = markdown.replace(/\*\*.*?\*\*/g, "");
-  expect(withoutBoldSpans).not.toMatch(/(?<!\\)\*/);
+  expect(failures).toEqual([]);
 }
 
 describe("exportContent", () => {
@@ -792,7 +885,7 @@ describe("exportContent", () => {
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe("\n<sup>1</sup> In those days");
-        expect(result).not.toContain("  "); // No double spaces
+        expect(result).not.toContain("  ");
       });
 
       it("should glue a textless footnote at verse start directly onto the phrase it introduces, in text export (CLV1880 GEN 50:23 style)", () => {
@@ -806,8 +899,8 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // No space between ° and {, and none after } either — the footnote
-        // introduces the phrase that follows it with no gap.
+        // The footnote introduces the phrase that follows it, with no gap on
+        // either side of the marker.
         expect(result).toBe(
           "050:023 °{Originally verse 50:22.}et vidit Ephraim filios"
         );
@@ -835,8 +928,8 @@ describe("exportContent", () => {
         expect(result).toBe(
           "003:014 ¶ Yahweh God said to the serpent,␤\u201CBecause you have done this,␤you are cursed above all livestock,␤"
         );
-        expect(result).not.toMatch(/, ␤/); // No space before break marker
-        expect(result).not.toMatch(/␤ \u201C/); // No space after break marker before quote
+        expect(result).not.toMatch(/, ␤/);
+        expect(result).not.toMatch(/␤ \u201C/);
       });
 
       it("should handle line breaks without extra spaces in markdown", () => {
@@ -863,7 +956,7 @@ describe("exportContent", () => {
     });
 
     describe("trailing footnotes", () => {
-      it("should place a trailing textless footnote sibling's marker before the Strong's/morph tag, not after (BYZ2018 MRK 3:27 style — corrected: this shape used to encode the bug as expected behavior)", () => {
+      it("should place a trailing textless footnote sibling's marker before the Strong's/morph tag, not after (BYZ2018 MRK 3:27 style)", () => {
         const verse: VerseSchema = {
           book: "MRK",
           chapter: 3,
@@ -882,7 +975,7 @@ describe("exportContent", () => {
         expect(result).toBe(
           "003:027 διαρπάσῃ.°{B διαρπάσῃ ⇒ διαρπάσει}°{N διαρπάσῃ ⇒ διαρπάσει} G1283 (V-AAS-3S)"
         );
-        expect(result).not.toMatch(/ $/); // No trailing space
+        expect(result).not.toMatch(/ $/);
       });
 
       it("should place every marker in a chain of trailing textless footnote siblings before the Strong's number, in order (a real corpus shape: 'beginning' carries two footnotes)", () => {
@@ -940,7 +1033,6 @@ describe("exportContent", () => {
 
     describe("footnote spacing consistency", () => {
       it("should have no space between footnote marker and content (CLV1880 NUM 20:28 style)", () => {
-        // A footnoted text item with a trailing space, followed by a plain string item
         const verse: VerseSchema = {
           book: "NUM",
           chapter: 20,
@@ -954,7 +1046,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // text°{content}nexttext — no space between ° and {
         expect(result).toBe(
           "020:028 cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius °{Originally verse 20:29.}illo mortuo in montis supercilio descendit cum Eleazaro"
         );
@@ -962,7 +1053,7 @@ describe("exportContent", () => {
         expect(result).toMatch(/°\{/);
       });
 
-      it("should render a standalone bare foot node glued to the next word, matching the combined-shape render exactly (CLV1880 NUM 20:28, post-fix shape)", () => {
+      it("should render a standalone bare foot node glued to the next word, matching the combined-shape render exactly (CLV1880 NUM 20:28 shape)", () => {
         const verse: VerseSchema = {
           book: "NUM",
           chapter: 20,
@@ -1009,7 +1100,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Expected shape: °{content}text — glued on both sides
         expect(result).toBe(
           "020:029 °{Originally verse 20:30.}omnis autem multitudo videns occubuisse Aaron"
         );
@@ -1075,7 +1165,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // The nested content should render with Strong's after the full content
         expect(result).toBe(
           "049:018 I have waited for H6960 (8765) thy salvation, H3444 O LORD. H3068"
         );
@@ -1240,7 +1329,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Inner nested content has H3068, outer has H430
         expect(result).toBe("001:001 O LORD H3068 God H430");
       });
     });
@@ -1502,7 +1590,7 @@ describe("exportContent", () => {
       expect(result).not.toMatch(/H5848from/);
     });
 
-    describe("Cause A — a whitespace-only bare string no longer hard-closes an open emphasis run (KJV1769 Exodus 33:9's real content[9])", () => {
+    describe("a whitespace-only bare string does not hard-close an open emphasis run (KJV1769 Exodus 33:9's real content[9])", () => {
       const exodus339Excerpt: VerseSchema["content"] = [
         " and ",
         { text: "the", marks: ["i"] },
@@ -1520,7 +1608,7 @@ describe("exportContent", () => {
         expectWellFormedEmphasis(result);
       });
 
-      it("should leave convertVerseToText's output byte-identical to today's, since TEXT_OPTIONS's italicWrapper is the identity function and this fix only changes markdown's visible delimiters", () => {
+      it("should leave convertVerseToText's output byte-identical, since TEXT_OPTIONS's italicWrapper is the identity function and only markdown's visible delimiters move", () => {
         const verse: VerseSchema = { book: "EXO", chapter: 33, verse: 9, content: exodus339Excerpt };
         expect(convertVerseToText(verse)).toBe("033:009 and the LORD talked");
       });
@@ -1539,7 +1627,7 @@ describe("exportContent", () => {
       });
     });
 
-    describe("Cause A' — a blank object node carrying marks stays transparent to the surrounding run when its neighbors agree in marks (KJV1769 JER 2:16's real footnote shape)", () => {
+    describe("a blank object node carrying marks stays transparent to the surrounding run when its neighbors agree in marks (KJV1769 JER 2:16's real footnote shape)", () => {
       it("should merge both bibleLink overrides into one continuous italic span across the marked blank between them, in markdown", () => {
         const verse: VerseSchema = {
           book: "JER",
@@ -1560,7 +1648,7 @@ describe("exportContent", () => {
       });
     });
 
-    describe("Cause B — a bibleLink node whose display override is a single mark-bearing object participates in the surrounding emphasis run (KJV1769 2 Samuel 7:7's real footnote)", () => {
+    describe("a bibleLink node whose display override is a single mark-bearing object participates in the surrounding emphasis run (KJV1769 2 Samuel 7:7's real footnote)", () => {
       const samuel77Footnote: VerseSchema["content"] = [
         { text: "In the ", marks: ["i"] },
         { bibleLink: "1 Chronicles 17:6", content: { text: "1. Chro. 17.6", marks: ["i"] } },
@@ -1584,7 +1672,7 @@ describe("exportContent", () => {
         );
       });
 
-      it("should keep today's exact opaque rendering for the other three bibleLink override shapes — a plain string override, no override at all, and a single-element array override (YLT1898's own no-marks shape) — none of which qualify for this fix (3,752 of the corpus's 3,836 bibleLink nodes)", () => {
+      it("should keep the opaque rendering for the other three bibleLink override shapes — a plain string override, no override at all, and a single-element array override (YLT1898's own no-marks shape) — none of which qualify (3,752 of the corpus's 3,836 bibleLink nodes)", () => {
         const footnotes: string[] = [];
         const stringOverride: VerseSchema = {
           book: "PSA",
@@ -1628,8 +1716,8 @@ describe("exportContent", () => {
       });
     });
 
-    describe("Cause C — the markdown subtitle wrapper no longer double-wraps an inner italic mark (ASV1901 Psalm 25:1's real subtitle, minus its leading heading — see the Cause D describe block below for the [heading, subtitle] chapter-opening combination, which the real verse carries and which the Cause D fix's own chapter-level hoist covers)", () => {
-      it("should render one italic wrapper around the whole subtitle instead of a broken '__' where the inner and outer delimiters collide — hoisted above the verse line, since a lone leading subtitle also qualifies for Cause D's verse-level fallback", () => {
+    describe("the markdown subtitle wrapper does not double-wrap an inner italic mark (ASV1901 Psalm 25:1's real subtitle, minus its leading heading — the leading-subtitle describe block below covers the [heading, subtitle] chapter-opening combination the real verse carries, which the chapter-level hoist handles)", () => {
+      it("should render one italic wrapper around the whole subtitle instead of a broken '__' where the inner and outer delimiters collide — hoisted above the verse line, since a lone leading subtitle also qualifies for the verse-level subtitle fallback", () => {
         const verse: VerseSchema = {
           book: "PSA",
           chapter: 25,
@@ -1682,7 +1770,7 @@ describe("exportContent", () => {
       });
     });
 
-    describe("Cause E — a ContentNested node's edges join the surrounding emphasis run (KJV1769's six real remaining '_ _' defects, builds on Cause A landing first)", () => {
+    describe("a ContentNested node's edges join the surrounding emphasis run (KJV1769's six real remaining '_ _' defects)", () => {
       it("MRK 14:19 (real content) — the second 'Is it I?' occurrence merges with the flat italic 'said,' immediately before it, in markdown", () => {
         const verse: VerseSchema = {
           book: "MRK",
@@ -2176,10 +2264,610 @@ describe("exportContent", () => {
     });
   });
 
+  describe("held whitespace stays outside a closing emphasis delimiter when the node after it renders a marker but no text of its own", () => {
+    // The shape under test throughout: a marked node, a whitespace-only
+    // sibling, then a node that renders a marker but contributes no text of
+    // its own. The held whitespace must land after the closing delimiter,
+    // never inside it — CommonMark requires a closing "_"/"**" to be
+    // right-flanking.
+    const footnote = { type: "xrf" as const, content: "note" };
+
+    it("should close the italic delimiter before the held whitespace when a whitespace-only bare string separates a marked node from a node that renders only a marker", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, " ", { foot: footnote }, "c"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ <sup>a</sup>c");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should close the bold delimiter before the held whitespace in that same shape, since the rule is about the delimiter's flanking, not about which mark produced it", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["b"] }, " ", { foot: footnote }, "c"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a **b** <sup>a</sup>c");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should behave identically when the whitespace-only sibling is a marked object rather than a bare string, since a blank core is transparent to the run either way", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, { text: " ", marks: ["i"] }, { foot: footnote }, "c"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ <sup>a</sup>c");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should behave identically when the marked node carries the trailing space in its own text and the marker-only node follows immediately, since that whitespace is held by the same mechanism", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b ", marks: ["i"] }, { foot: footnote }, "c"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ <sup>a</sup>c");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should close the delimiter before the held whitespace with no marker node involved at all, when the node after the whitespace simply carries different marks — proving the defect is about whitespace and delimiters, not about footnotes", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, { text: " ", marks: ["i"] }, { text: "c", marks: ["b"] }, " d"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ **c** d");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should close both nested delimiters before the held whitespace when the marked node carries bold and italic at once", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i", "b"] }, " ", { foot: footnote }, "c"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _**b**_ <sup>a</sup>c");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should keep leading whitespace inside a marked node's own text outside the opening delimiter — the leading edge was already correct and must stay that way", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a", { text: " b", marks: ["i"] }, " c"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ c");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should emit no delimiters at all for a marked node whose text is entirely whitespace, and emit that whitespace exactly once", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a", { text: " ", marks: ["i"] }, "b"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a b");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should emit no delimiters for a marked node whose text is whitespace-only and which also carries a footnote, with the marker landing after that whitespace", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: " ", marks: ["i"], foot: footnote }, "b"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a <sup>a</sup>b");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should close the delimiter before trailing whitespace when the marked node ends the array, so the sealing close still precedes the held whitespace", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b ", marks: ["i"] }],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ ");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should close the delimiter before the held whitespace when the marker-only node also carries a line break", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, " ", { foot: footnote, break: true }, "c"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ <sup>a</sup><br>c");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should close the delimiter before the held whitespace when the marker-only node opens a new paragraph, keeping the paragraph marker after the whitespace", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, " ", { paragraph: true, foot: footnote }, "c"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ \n\n<sup>a</sup>c");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should close the delimiter before the held whitespace when two marker-only siblings follow the marked node in a row", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          " ",
+          { foot: { type: "xrf" as const, content: "one" } },
+          { foot: { type: "xrf" as const, content: "two" } },
+          "c",
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ <sup>a</sup><sup>b</sup>c");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should still merge two same-marked nodes separated by whitespace into one span, since held whitespace releases into an open run rather than closing it", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, " ", { text: "c", marks: ["i"] }, " d"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b c_ d");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should still merge across whitespace when the second node is a nested-content node carrying no top-level marks, whose inner edge supplies the mark instead", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, " ", { content: [{ text: "c", marks: ["i"] }] }, " d"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b c_ d");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should leave the plain-text export byte-identical for these shapes, since TEXT_OPTIONS supplies identity wrappers and both delimiter orderings emit the same characters", () => {
+      const italicVerse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, " ", { foot: footnote }, "c"],
+      };
+      const boldVerse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["b"] }, " ", { foot: footnote }, "c"],
+      };
+      expect(convertVerseToText(italicVerse)).toBe("001:001 a b °{note}c");
+      expect(convertVerseToText(boldVerse)).toBe("001:001 a b °{note}c");
+    });
+  });
+
+  describe("every paired markdown delimiter the exporter emits keeps whitespace outside the span", () => {
+    it("should keep the subtitle's own italic delimiters against the text when the subtitle renders mid-array with edge whitespace, leaving the blockquote marker outside", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["x ", { subtitle: " a b " }, " y"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> x > _a b_ y");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should keep the subtitle's own italic delimiters against the text when a leading subtitle hoists above the verse line with edge whitespace", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: [{ subtitle: " a b " }, { paragraph: true, text: "x" }],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("\n>  _a b_ \n\n<sup>1</sup> x");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should keep the subtitle's own italic delimiters against the text when the subtitle's inner content opens with a bold span and carries edge whitespace", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { subtitle: [{ text: " a ", marks: ["b"] }, "b "] },
+          { paragraph: true, text: "x" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("\n>  _**a** b_ \n\n<sup>1</sup> x");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should emit no delimiters at all, and the whitespace exactly once, when a subtitle's whole inner content is whitespace", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: [{ subtitle: " " }, { paragraph: true, text: "x" }],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("\n>  \n\n<sup>1</sup> x");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should keep a marked node's own delimiters against its text when the node stands alone with edge whitespace, on a line no space-collapsing pass rewrites", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "a", foot: { type: "trn", content: { text: " x ", marks: ["i"] } } },
+          " b",
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a<sup>a</sup> b");
+      expect(footnotes).toEqual(["- <sup>a</sup> 1.  _x_ "]);
+      expectWellFormedEmphasis(footnotes[0]);
+    });
+
+    it("should render the whitespace exactly once, and emit no delimiters, when a lone marked node's whole text is whitespace", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "a", foot: { type: "trn", content: { text: " ", marks: ["i"] } } },
+          " b",
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes);
+      expect(footnotes).toEqual(["- <sup>a</sup> 1.  "]);
+      expectWellFormedEmphasis(footnotes[0]);
+    });
+
+    it("should nest bold innermost and italic outermost, both delimiters against the text, when a lone marked node carries both marks and edge whitespace", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "a", foot: { type: "trn", content: { text: " x ", marks: ["b", "i"] } } },
+          " b",
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes);
+      expect(footnotes).toEqual(["- <sup>a</sup> 1.  _**x**_ "]);
+      expectWellFormedEmphasis(footnotes[0]);
+    });
+
+    it("should still recover both delimiter strings on the array path, where each mark opens and closes independently rather than wrapping a whole string", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, " c ", { text: "d", marks: ["b"] }, " e"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ c **d** e");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should leave the plain-text export unchanged for every subtitle shape above, since its wrappers emit no delimiters", () => {
+      const midArray: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["x ", { subtitle: " a b " }, " y"],
+      };
+      const leading: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: [{ subtitle: " a b " }, { paragraph: true, text: "x" }],
+      };
+      const whitespaceOnly: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: [{ subtitle: " " }, { paragraph: true, text: "x" }],
+      };
+      expect(convertVerseToText(midArray)).toBe("001:001 x « a b » y");
+      expect(convertVerseToText(leading)).toBe("001:001 « a b » ¶ x");
+      expect(convertVerseToText(whitespaceOnly)).toBe("001:001 « » ¶ x");
+    });
+  });
+
+  describe("a span CommonMark would not parse is re-expressed as a tag instead of shipping as literal delimiters", () => {
+    it("should re-express an italic span whose opening delimiter follows a word character", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["e.g. Hallelu", { text: "jah", marks: ["i"] }, ")"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> e.g. Hallelu<i>jah</i>)");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should re-express an italic span whose closing delimiter precedes a word character", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["ref ", { text: "l", marks: ["i"] }, "2211 more"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> ref <i>l</i>2211 more");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should re-express an italic span that sits inside a word at both ends", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["Piel", { text: "/", marks: ["i"] }, "Pual stem"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> Piel<i>/</i>Pual stem");
+      expectWellFormedEmphasis(result);
+    });
+
+    // Worth keeping distinct from the intraword shapes above: the opening run
+    // is not left-flanking at all, which fails the same test for "*" as for
+    // "_", so switching the delimiter character would not rescue this one.
+    it("should re-express an italic span whose core opens with punctuation and follows a word character, which no delimiter character can fix", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["aposiopesis", { text: ",", marks: ["i"] }, " a silence"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> aposiopesis<i>,</i> a silence");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should re-express an italic span whose core ends with punctuation and precedes a word character", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["see ", { text: "gloss “", marks: ["i"] }, "to her wall"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> see <i>gloss “</i>to her wall");
+      expectWellFormedEmphasis(result);
+    });
+
+    // "**" carries no intraword restriction, but it still has to flank, and a
+    // lone punctuation core preceded by a word character leaves the opening
+    // run neither followed by a word character nor preceded by whitespace.
+    it("should re-express a bold span whose core is a lone punctuation mark following a word character", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["note on item 4", { text: ".", marks: ["b"] }],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> note on item 4<b>.</b>");
+      expectWellFormedEmphasis(result);
+    });
+
+    // Footnote bodies never pass through the verse string, so a rule applied
+    // only to the return value would miss them — and they are where most of
+    // these spans live.
+    it("should re-express a span inside a footnote body, which never passes through the verse line", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: [
+          "word",
+          {
+            foot: {
+              type: "trn",
+              content: ["e.g. Hallelu", { text: "jah", marks: ["i"] }, ")"],
+            },
+          },
+          " rest",
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes);
+      expect(footnotes).toEqual(["- <sup>a</sup> 1. e.g. Hallelu<i>jah</i>)"]);
+      expectWellFormedEmphasis(footnotes[0]);
+    });
+
+    it("should leave an ordinary italic or bold span exactly as it is", () => {
+      const italic: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, " c"],
+      };
+      const bold: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["b"] }, " c"],
+      };
+      const footnotes: string[] = [];
+      expect(convertVerseToMarkdown(italic, footnotes)).toBe("<sup>1</sup> a _b_ c");
+      expect(convertVerseToMarkdown(bold, footnotes)).toBe("<sup>1</sup> a **b** c");
+    });
+
+    // The inner bold survives because a tag's angle brackets are punctuation
+    // exactly as the underscores they replace were.
+    it("should re-express only the broken outer italic span when a valid bold span is nested inside it", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["Hallelu", { text: "jah", marks: ["i", "b"] }, ")"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> Hallelu<i>**jah**</i>)");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should never mistake an escaped delimiter from source text for one of its own", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a_b ", { text: "c", marks: ["i"] }, " d"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a\\_b _c_ d");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should re-express only the broken span when a valid one shares the line", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, " Hallelu", { text: "jah", marks: ["i"] }, ")"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ Hallelu<i>jah</i>)");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should leave a valid span's delimiters alone even when the span immediately beside it is rewritten", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["Hallelu", { text: "jah", marks: ["i"] }, ", ", { text: "z", marks: ["i"] }, " y"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> Hallelu<i>jah</i>, _z_ y");
+      expectWellFormedEmphasis(result);
+    });
+
+    // Angle brackets in source text are not escaped, so this line reaches the
+    // rule already carrying a tag — the same input a second pass over an
+    // already-resolved line sees.
+    it("should leave a tag that is already in the line untouched while still re-expressing a broken span beside it", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["<i>already</i> Hallelu", { text: "jah", marks: ["i"] }, ")"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> <i>already</i> Hallelu<i>jah</i>)");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should keep the delimiters a whitespace-boundary shape already earned, since that span parses", () => {
+      const verse: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["a ", { text: "b", marks: ["i"] }, " ", { foot: { type: "xrf", content: "n" } }, "c"],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> a _b_ <sup>a</sup>c");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should leave the plain-text export free of any tag, since it emits no delimiters to repair", () => {
+      const italic: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["e.g. Hallelu", { text: "jah", marks: ["i"] }, ")"],
+      };
+      const bold: VerseSchema = {
+        book: "XXX",
+        chapter: 1,
+        verse: 1,
+        content: ["note on item 4", { text: ".", marks: ["b"] }],
+      };
+      expect(convertVerseToText(italic)).toBe("001:001 e.g. Hallelujah)");
+      expect(convertVerseToText(bold)).toBe("001:001 note on item 4.");
+    });
+  });
+
   describe("a shared mark stays open across a neighbor that only drops the OTHER mark (independent nested 'b'/'i' delimiters, not whole-mark-set equality)", () => {
     describe("real Matthew 1:23 shape (Isaiah 7:14 quotation: bold+italic throughout except 'they', a supplied word carrying italic only)", () => {
       // The real footnote's own long body text is abbreviated here for
-      // readability — its length isn't what this fixture is testing.
+      // readability.
       const matthew123Quotation: VerseSchema["content"] = [
         "“",
         { text: "Look", marks: ["b", "i"], strong: "G2400" },
@@ -2280,7 +2968,7 @@ describe("exportContent", () => {
     });
   });
 
-  describe("Cause D — a leading subtitle no longer strands a stray mid-line '> ' blockquote marker inside a verse line", () => {
+  describe("a leading subtitle does not strand a stray mid-line '> ' blockquote marker inside a verse line", () => {
     it("should hoist a lone leading subtitle above the <sup>N</sup> line, mirroring the existing leading-heading treatment, for a non-chapter-opening verse (real CLV1880 Psalm 147:12 shape — the subtitle opens verse 12, not verse 1, so no chapter-level hoist can ever reach it)", () => {
       const verse: VerseSchema = {
         book: "PSA",
