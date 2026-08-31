@@ -237,4 +237,104 @@ describe("relocateMarkBoundarySpacesInContent", () => {
       "moving forward.",
     ]);
   });
+
+  // Both real sides formatted and disagreeing: the run belongs to neither,
+  // so it stands on its own. Before this, the trailing branch handed the run
+  // to the formatted neighbor and the leading branch handed it straight
+  // back, inside the same left-to-right walk.
+  it("should stand a trailing run on its own node when the successor carries formatting of its own", () => {
+    const content = [
+      "It makes allusion to ",
+      { text: "the garden of the ", marks: ["i"] },
+      { text: "Lord", marks: ["sc"] },
+      " and to the land.",
+    ];
+
+    const result = relocateMarkBoundarySpacesInContent(content as never);
+
+    expect(result.changed).toBe(true);
+    expect(result.skipped).toEqual([]);
+    expect(result.content).toEqual([
+      "It makes allusion to ",
+      { text: "the garden of the", marks: ["i"] },
+      " ",
+      { text: "Lord", marks: ["sc"] },
+      " and to the land.",
+    ]);
+  });
+
+  it("should stand a leading run on its own node when the predecessor carries formatting of its own", () => {
+    const content = [
+      { text: "the word", marks: ["i"] },
+      { text: " καί", script: "G" },
+      " follows.",
+    ];
+
+    const result = relocateMarkBoundarySpacesInContent(content as never);
+
+    expect(result.changed).toBe(true);
+    expect(result.skipped).toEqual([]);
+    expect(result.content).toEqual([
+      { text: "the word", marks: ["i"] },
+      " ",
+      { text: "καί", script: "G" },
+      " follows.",
+    ]);
+  });
+
+  it("should reach a fixed point in one pass — a second run finds nothing left to do", () => {
+    const content = [
+      "It makes allusion to ",
+      { text: "the garden of the ", marks: ["i"] },
+      { text: "Lord", marks: ["sc"] },
+      " and to the land.",
+    ];
+
+    const first = relocateMarkBoundarySpacesInContent(content as never);
+    const second = relocateMarkBoundarySpacesInContent(first.content);
+
+    expect(second.changed).toBe(false);
+    expect(second.content).toEqual(first.content);
+  });
+
+  it("should never report a change it did not make — the shape that used to count two fixes and rewrite nothing", () => {
+    const content = [
+      { text: "May the ", marks: ["i"] },
+      { text: "Lord ", marks: ["sc"] },
+      { text: "judge between us", marks: ["i"] },
+    ];
+
+    const result = relocateMarkBoundarySpacesInContent(content as never);
+
+    expect(result.changed).toBe(true);
+    expect(JSON.stringify(result.content)).not.toBe(JSON.stringify(content));
+    expect(result.content).toEqual([
+      { text: "May the", marks: ["i"] },
+      " ",
+      { text: "Lord", marks: ["sc"] },
+      " ",
+      { text: "judge between us", marks: ["i"] },
+    ]);
+  });
+
+  it("should still relocate onto an unformatted neighbor rather than standing the run on its own", () => {
+    const content = [{ text: "Lord ", marks: ["sc"] }, { text: "said,", strong: "H559" }];
+
+    const result = relocateMarkBoundarySpacesInContent(content as never);
+
+    expect(result.changed).toBe(true);
+    expect(result.content).toEqual([{ text: "Lord", marks: ["sc"] }, { text: " said,", strong: "H559" }]);
+  });
+
+  it("should decline both edges rather than double the whitespace when two formatted nodes each already carry a space", () => {
+    const content = [{ text: "the word ", marks: ["i"] }, { text: " καί", script: "G" }];
+
+    const result = relocateMarkBoundarySpacesInContent(content as never);
+
+    // One decline per edge: the first node's trailing run has nowhere to go,
+    // and neither does the second node's leading run.
+    expect(result.skipped).toEqual(["doubled-whitespace", "doubled-whitespace"]);
+    expect(result.changed).toBe(false);
+    expect(result.content).toEqual(content);
+  });
 });

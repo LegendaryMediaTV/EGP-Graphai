@@ -10,10 +10,12 @@
  * only a node's own leading/trailing whitespace run can never empty it
  * out. The ordinary case moves a whitespace *run* (`/^\s+/` or
  * `/\s+$/`, not just the first character) from one node's own `text` onto
- * the end or front of another node's own `text`. Two narrower exceptions
+ * the end or front of another node's own `text`. Three narrower exceptions
  * apply instead, each documented in its own section below: "A second shape
  * needs a structural fix" (the run's only legal home is a brand-new
- * standalone node) and "A third shape needs deletion, not relocation" (the
+ * standalone node), "Both sides formatted" (the neighbor across the boundary
+ * carries formatting of its own, so it can hold the run no more than this
+ * node can), and "A third shape needs deletion, not relocation" (the
  * run has no legal home anywhere else, because the neighbor it would
  * relocate onto already carries its own independent, matching run of its
  * own — the marked node's own copy is simply redundant, so it's deleted
@@ -22,7 +24,7 @@
  * opt in or out.
  *
  * Corpus-wide, the mark-boundary-embedded-space check's own detector already excludes one non-defective
- * YLT1898 pattern: a Words-of-Christ node (`marks: ["woc"]`) bordering a
+ * pattern: a Words-of-Christ node (`marks: ["woc"]`) bordering a
  * translator-supplied word that's also part of Christ's own discourse
  * (`marks: ["i","woc"]`) is a strict formatting *subset*, not a genuine
  * disagreement (see `isFormattingSubsetOf` in `auditNodes.ts`).
@@ -31,8 +33,8 @@
  * `auditNodes.ts` only exports `agreesInFormatting` and `carriesFormatting`,
  * not this (unexported) function, so this module keeps its own copy rather
  * than widening that module's exports. Mirroring the detector's guards
- * exactly means a verse whose only mark-boundary-embedded-space-shaped boundary is the excluded
- * YLT1898 pattern produces no work here by construction, while a real
+ * exactly means a verse whose only mark-boundary-embedded-space-shaped boundary is that excluded
+ * pattern produces no work here by construction, while a real
  * finding elsewhere in the same array level can't be misjudged by a
  * rewrite that only knows the narrower, pre-narrowing rule.
  *
@@ -42,12 +44,12 @@
  * for its own reason:
  *
  * - A `strong` number — e.g. `{text: " saying,", strong: "G3004", ...}`
- *   immediately before the woc-marked node — that move would violate the
+ *   immediately before the marked node — that move would violate the
  *   trailing-whitespace check's own rule that a `strong`-carrying node's
  *   text never ends in whitespace.
- * - A `foot` — real CSB2017 1 Chronicles 17:17: `{text: "...as a man of
- *   distinction,", foot: {type: "trn", content: "Hb obscure"}}` immediately
- *   before a small-caps `{text: " Lord", marks: ["sc"]}` — landing the
+ * - A `foot` — `{text: "...as a man of distinction,", foot: {type: "trn",
+ *   content: "Hb obscure"}}` immediately before a small-caps
+ *   `{text: " Lord", marks: ["sc"]}` — landing the
  *   space there would give this predecessor's own trailing text a
  *   whitespace run it never had, which is exactly the shape
  *   `fixFootnoteMarkerSpacing.ts`'s own "footnote marker renders after
@@ -61,11 +63,32 @@
  * Either way the space then has no legal home in either node's own text: it
  * can't stay embedded in the marked node (that's the finding itself), and
  * it can't relocate onto the predecessor's trailing edge. So it becomes its
- * own standalone node instead — a bare string `" "` inserted between the
- * predecessor and the marked node, matching this corpus's own existing
- * convention for a joining space with nothing to agree with on either side
- * (`auditNodes.ts`'s own mark-boundary-space check doc comment; real
- * KJV1769 Matthew 6:32 shape for the `strong` case).
+ * own standalone node instead — a bare string carrying the run, inserted
+ * between the predecessor and the marked node, matching this corpus's own
+ * existing convention for a joining space with nothing to agree with on
+ * either side (`auditNodes.ts`'s own mark-boundary-space check doc comment).
+ * The one shape that blocks even this is a predecessor whose own text
+ * already ends in whitespace: standing the run beside it would render two
+ * spaces, so the finding is declined as `"doubled-whitespace"` rather than
+ * traded for a worse defect.
+ *
+ * **Both sides formatted: the run belongs to neither.** A predecessor
+ * carrying `marks`/`script` of its own blocks the move for a third reason.
+ * When both real sides are formatted and disagree, folding the run into
+ * either one would claim a joining space as part of one side's formatting,
+ * so the same standalone node resolves it — and the trailing direction
+ * needs the identical resolution, for the identical reason.
+ *
+ * That case is not a refinement; without it this module fights itself. The
+ * trailing direction's plain relocation used to hand such a run to the
+ * formatted node across the boundary, and the left-to-right walk then
+ * reached that node, read the run it had just received as a leading-side
+ * finding of its own, and handed it straight back. Both moves counted as
+ * fixes, the array came out byte-for-byte unchanged, and `validate.ts`'s own
+ * fixed-point guard reported the verse as one two steps were undoing each
+ * other on — with no second step to find. A corpus whose imports never
+ * produced the shape never triggered it; one that did could not get past
+ * the guard at all.
  *
  * The `strong` half of this stays leading-only, with no trailing
  * counterpart: leading whitespace on a marked node is already this corpus's
@@ -119,7 +142,7 @@
  *   untouched, including whatever whitespace it already had. The unmarked
  *   neighbor already carries its own independent whitespace performing the
  *   same join, so the marked node's own copy is simply redundant, not
- *   relocatable (real case: WEBUS2020 Matthew 8:26, where a `["woc"]`-marked
+ *   relocatable (a `["woc"]`-marked
  *   node's own trailing space would land on a bare-string successor that
  *   already opens with its own separate leading space).
  * - **The receiving node itself carries formatting** — a marks-to-marks
@@ -147,7 +170,7 @@ import {
  * non-empty subset of the other's — the identical test `auditNodes.ts`'s own
  * (unexported) `isFormattingSubsetOf` applies, re-derived here rather than
  * imported (see the top doc comment's reasoning). See that function's own doc
- * comment for the real YLT1898 case this exists for.
+ * comment for the real case this exists for.
  */
 function isFormattingSubsetOf(a: NodeShape, b: NodeShape): boolean {
   if (a.script !== b.script) return false;
@@ -236,16 +259,25 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
           !agreesInFormatting(shape, predecessor) &&
           !isFormattingSubsetOf(shape, predecessor)
         ) {
-          if (predecessor.strong !== undefined || predecessor.hasFoot) {
+          if (predecessor.strong !== undefined || predecessor.hasFoot || carriesFormatting(predecessor)) {
             // Structural fix, not a text move (top doc comment's "second
-            // shape" section): neither home for the space is legal here, so
-            // it becomes its own standalone node; the predecessor's own text
-            // stays untouched.
-            const rest = shape.text.slice(shape.text.match(/^\s+/)![0].length);
-            working[i] = withText(working[i], rest);
-            working.splice(i, 0, " ");
-            i++; // realign on the marked node, now shifted one slot right by the insert
-            counts.fixed++;
+            // shape" and "both sides formatted" sections): neither home for
+            // the space is legal here, so it becomes its own standalone
+            // node; the predecessor's own text stays untouched.
+            const run = shape.text.match(/^\s+/)![0];
+            if (/\s$/.test(predecessor.text ?? "")) {
+              // The predecessor already ends in whitespace of its own, so
+              // standing this run beside it would render two spaces where
+              // one belongs — the same doubling guard the merge path below
+              // applies, in the one form available to a node that stands on
+              // its own rather than merging into anything.
+              counts.skipped.push("doubled-whitespace");
+            } else {
+              working[i] = withText(working[i], shape.text.slice(run.length));
+              working.splice(i, 0, run);
+              i++; // realign on the marked node, now shifted one slot right by the insert
+              counts.fixed++;
+            }
           } else {
             const run = shape.text.match(/^\s+/)![0];
             const rest = shape.text.slice(run.length);
@@ -317,6 +349,17 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
             const { foot, ...withoutFoot } = working[i] as Record<string, unknown>;
             working[i] = withText(withoutFoot, rest);
             working.splice(i + 1, 0, { text: run, foot });
+            counts.fixed++;
+          } else if (carriesFormatting(successor)) {
+            // Both sides carry formatting and disagree, so the run belongs
+            // to neither and becomes its own standalone node — the same
+            // structural fix the leading branch makes, and the only
+            // resolution the two branches can agree on. Merging it onto the
+            // successor instead is what makes this shape oscillate: the walk
+            // reaches that node next, reads the run it just received as a
+            // leading-side finding of its own, and hands it straight back.
+            working[i] = withText(working[i], rest);
+            working.splice(i + 1, 0, run);
             counts.fixed++;
           } else {
             working[j] = withText(working[j], merged);

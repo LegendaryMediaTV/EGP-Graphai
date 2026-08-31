@@ -15,7 +15,8 @@ import {
   splitCrossChapterLink,
   splitCrossChapterLinksInContent,
   TruncatedRangeFinding,
-  unlinkUnresolvableTargetsInContent,
+  findSingleChapterShorthand,
+  normalizeSingleChapterShorthandInContent,
   UnresolvableTargetFinding,
 } from "../crossChapterLinks";
 
@@ -54,7 +55,7 @@ beforeAll(() => {
     JUD: { 1: range(1, 5) }, // single-chapter book — no chapter 2 at all
     EZR: { 4: range(1, 15) },
     "3JN": { 1: range(1, 8) },
-    GEN: { 1: [1] },
+    GEN: { 1: [1], 2: [1] },
     "2SM": { 22: range(1, 12) },
     REV: { 4: [1, 2, 3], 20: [1, 2, 3] },
     "2CO": { 10: [1, 2], 12: [1, 2] },
@@ -62,6 +63,7 @@ beforeAll(() => {
   });
   writeFixtureVersion(FAKE_B, {
     ROM: { 14: range(1, 9) }, // deliberately longer than FAKE_A's, and no GEN at all (mirrors an NT-only canon)
+    MRK: { 9: [7] }, // the one verse FAKE_A omits — pooled, the corpus carries it
   });
 });
 
@@ -469,13 +471,14 @@ describe("reconstructTruncatedRangesInContent — the content-tree transform", (
   });
 });
 
-// A bibleLink target must resolve to a verse the version actually carries.
-// FAKE_A's Mark 9 omits verse 7 — a genuine gap, the same shape as the real
-// ASV1901 Mark 9:44/46 textual-variant case, distinct from a verse number
-// simply past the chapter's last recorded verse.
+// A bibleLink names a location in Scripture, so it is judged against every
+// version pooled together, never against the one version it is written in.
+// FAKE_A's Mark 9 omits verse 7 — the shape a textual-variant footnote is
+// written about — and FAKE_B carries it, so the pooled corpus resolves a
+// link FAKE_A alone cannot.
 describe("findUnresolvableTarget — the single-target entry point (G4)", () => {
-  it("should report a target naming a verse the chapter does not carry, even though it sits well within the chapter's own recorded range", () => {
-    const result = findUnresolvableTarget(FAKE_A, "Mark 9:7");
+  it("should report a verse no pooled version carries", () => {
+    const result = findUnresolvableTarget("Mark 9:7", [FAKE_A]);
     expect(result).not.toBeNull();
     expect(result!.reason).toBe("verse-not-carried");
     expect(result!.book).toBe("MRK");
@@ -483,43 +486,42 @@ describe("findUnresolvableTarget — the single-target entry point (G4)", () => 
     expect(result!.verse).toBe(7);
   });
 
-  it("should not flag a neighboring verse in the same chapter that this fixture does carry", () => {
-    expect(findUnresolvableTarget(FAKE_A, "Mark 9:6")).toBeNull();
+  it("should not flag that same verse once a version carrying it joins the pool — a link is not scoped to the version it sits in", () => {
+    expect(findUnresolvableTarget("Mark 9:7", [FAKE_A, FAKE_B])).toBeNull();
   });
 
-  it("should report a target naming a chapter the version does not carry, naming this version's own real last chapter", () => {
-    const result = findUnresolvableTarget(FAKE_A, "Jude 2:1");
+  it("should not flag a neighboring verse in the same chapter that the pool does carry", () => {
+    expect(findUnresolvableTarget("Mark 9:6", [FAKE_A])).toBeNull();
+  });
+
+  it("should report a chapter no pooled version carries, naming the highest chapter one of them does", () => {
+    const result = findUnresolvableTarget("Jude 2:1", [FAKE_A]);
     expect(result).not.toBeNull();
     expect(result!.reason).toBe("chapter-not-carried");
     expect(result!.book).toBe("JUD");
     expect(result!.chapter).toBe(2);
-    expect(result!.lastChapterInVersion).toBe(1);
+    expect(result!.lastChapterAnywhere).toBe(1);
   });
 
-  it("should never flag a target naming a book outside the version's own canon — canon membership alone is never a reason to unlink", () => {
-    expect(findUnresolvableTarget(FAKE_B, "Genesis 1:1")).toBeNull();
+  it("should never flag a target naming a book no pooled version carries — book membership alone is never a finding", () => {
+    expect(findUnresolvableTarget("Genesis 1:1", [FAKE_B])).toBeNull();
   });
 
   it("should not flag a target that resolves", () => {
-    expect(findUnresolvableTarget(FAKE_A, "Exodus 3:3–4")).toBeNull();
+    expect(findUnresolvableTarget("Exodus 3:3–4", [FAKE_A])).toBeNull();
   });
 
-  it("should read this version's own real last verse rather than a shared table — FAKE_A's Romans 14 ends at 6", () => {
-    const result = findUnresolvableTarget(FAKE_A, "Romans 14:8");
-    expect(result).not.toBeNull();
-    expect(result!.reason).toBe("verse-not-carried");
-  });
-
-  it("should not flag the identical verse number checked against a version whose chapter really does run that long (FAKE_B's Romans 14 ends at 9)", () => {
-    expect(findUnresolvableTarget(FAKE_B, "Romans 14:8")).toBeNull();
+  it("should pool chapter lengths rather than take one version's — FAKE_A's Romans 14 ends at 6, FAKE_B's at 9", () => {
+    expect(findUnresolvableTarget("Romans 14:8", [FAKE_A])).not.toBeNull();
+    expect(findUnresolvableTarget("Romans 14:8", [FAKE_A, FAKE_B])).toBeNull();
   });
 
   it("should never flag a target the endpoint grammar cannot parse at all", () => {
-    expect(findUnresolvableTarget(FAKE_A, "Deuteronomy 32:43 LXX")).toBeNull();
+    expect(findUnresolvableTarget("Deuteronomy 32:43 LXX", [FAKE_A])).toBeNull();
   });
 
-  it("should never flag a comma-merged target — classifyBibleLink never resolves one to a book/chapter/verse to judge", () => {
-    expect(findUnresolvableTarget(FAKE_A, "Isaiah 66:10, 13")).toBeNull();
+  it("should never flag a comma-merged target — one never resolves to a book/chapter/verse to judge", () => {
+    expect(findUnresolvableTarget("Isaiah 66:10, 13", [FAKE_A])).toBeNull();
   });
 });
 
@@ -531,7 +533,7 @@ describe("formatUnresolvableTargetFinding", () => {
       book: "MRK",
       chapter: 9,
       verse: 46,
-      lastChapterInVersion: 16,
+      lastChapterAnywhere: 16,
       atBook: "MRK",
       atChapter: 9,
       atVerse: 44,
@@ -540,18 +542,18 @@ describe("formatUnresolvableTargetFinding", () => {
       target: "Mark 9:46",
     };
     expect(formatUnresolvableTargetFinding(finding)).toBe(
-      'MRK 9:44 [var/verse]: "Mark 9:46" does not resolve — Mark 9:46 — this version carries no such verse',
+      'MRK 9:44 [var/verse]: "Mark 9:46" does not resolve — Mark 9:46 — no version carries that verse',
     );
   });
 
-  it("should name this version's own real chapter count in a chapter-not-carried finding's message", () => {
+  it("should name the highest chapter any version records in a chapter-not-carried finding's message", () => {
     const finding: UnresolvableTargetFinding = {
       reason: "chapter-not-carried",
       bookName: "Jude",
       book: "JUD",
       chapter: 2,
       verse: 1,
-      lastChapterInVersion: 1,
+      lastChapterAnywhere: 1,
       atBook: "JUD",
       atChapter: 1,
       atVerse: 1,
@@ -563,106 +565,136 @@ describe("formatUnresolvableTargetFinding", () => {
   });
 });
 
-// The fixer — unlinkUnresolvableTargetsInContent. It always keeps whatever
-// a reader was already seeing as plain content rather than deleting text
-// outright; resolvable and unparsed targets are left untouched.
-describe("unlinkUnresolvableTargetsInContent — the fixer (G4)", () => {
-  it("should collapse an unresolvable target's string override to plain content", () => {
-    const { content, changed, skipped } = unlinkUnresolvableTargetsInContent(FAKE_A, {
-      bibleLink: "Mark 9:7",
-      content: "7",
+// A one-chapter book is cited by verse alone. That shorthand looks exactly
+// like a chapter number, so the target needs the chapter written in while
+// the display keeps the shorthand a reader expects to see.
+describe("findSingleChapterShorthand — the single-target entry point", () => {
+  it("should read a bare number after a one-chapter book as the verse it is", () => {
+    expect(findSingleChapterShorthand("Jude 3", undefined, [FAKE_A])).toEqual({
+      target: "Jude 1:3",
+      display: "Jude 3",
     });
-    expect(changed).toBe(true);
-    expect(skipped).toEqual([]);
-    expect(content).toBe("7");
   });
 
-  it("should collapse to the target string itself when there is no display override at all — what the reader was already seeing", () => {
-    const { content, changed } = unlinkUnresolvableTargetsInContent(FAKE_A, { bibleLink: "Mark 9:7" });
-    expect(changed).toBe(true);
-    expect(content).toBe("Mark 9:7");
-  });
-
-  it("should keep an object override as its own content, not the target string (synthetic)", () => {
-    const override: Content = { text: "the omitted verse", marks: ["i"] };
-    const { content, changed } = unlinkUnresolvableTargetsInContent(FAKE_A, {
-      bibleLink: "Mark 9:7",
-      content: override,
+  it("should read the ambiguous `Book 1` as verse one when nothing displays over the target", () => {
+    expect(findSingleChapterShorthand("Jude 1", undefined, [FAKE_A])).toEqual({
+      target: "Jude 1:1",
+      display: "Jude 1",
     });
-    expect(changed).toBe(true);
-    expect(content).toEqual(override);
   });
 
-  it("should keep an array override as its own content, not the target string (synthetic)", () => {
-    const override: Content = [{ text: "the " }, { text: "omitted", marks: ["i"] }, { text: " verse" }];
-    const { content, changed } = unlinkUnresolvableTargetsInContent(FAKE_A, {
-      bibleLink: "Mark 9:7",
-      content: override,
+  it("should read the ambiguous `Book 1` as verse one when the display names a number", () => {
+    expect(findSingleChapterShorthand("Jude 1", "1", [FAKE_A])).toEqual({
+      target: "Jude 1:1",
+      display: "Jude 1",
     });
-    expect(changed).toBe(true);
-    expect(content).toEqual(override);
   });
 
-  it("should leave a resolvable bibleLink node untouched", () => {
-    const original = { bibleLink: "Mark 9:6" };
-    const { content, changed, skipped } = unlinkUnresolvableTargetsInContent(FAKE_A, original);
-    expect(changed).toBe(false);
-    expect(skipped).toEqual([]);
-    expect(content).toEqual(original);
+  it("should leave the ambiguous `Book 1` alone when the display is a bare book name — a cross-reference pointing at the book", () => {
+    expect(findSingleChapterShorthand("Jude 1", "Jude", [FAKE_A])).toBeNull();
+  });
+
+  it("should still rewrite any other number regardless of the display — a one-chapter book has no chapter two to mean", () => {
+    expect(findSingleChapterShorthand("Jude 3", "Jude", [FAKE_A])).toEqual({
+      target: "Jude 1:3",
+      display: "Jude 3",
+    });
+  });
+
+  it("should carry a range across, since only the first endpoint names the book", () => {
+    expect(findSingleChapterShorthand("Jude 3–5", undefined, [FAKE_A])).toEqual({
+      target: "Jude 1:3–5",
+      display: "Jude 3–5",
+    });
+  });
+
+  it("should leave a target that already spells its chapter out alone — the rewrite is idempotent", () => {
+    expect(findSingleChapterShorthand("Jude 1:3", undefined, [FAKE_A])).toBeNull();
+    expect(findSingleChapterShorthand("Jude 1:3–5", undefined, [FAKE_A])).toBeNull();
+  });
+
+  it("should leave a multi-chapter book's bare chapter alone — that target means the chapter", () => {
+    expect(findSingleChapterShorthand("Genesis 2", undefined, [FAKE_A])).toBeNull();
+  });
+
+  it("should leave a book no pooled version carries alone — nothing says how many chapters it has", () => {
+    expect(findSingleChapterShorthand("Jude 3", undefined, [FAKE_B])).toBeNull();
   });
 
   it("should never touch a target the endpoint grammar cannot parse", () => {
-    const original = { bibleLink: "Deuteronomy 32:43 LXX" };
-    const { content, changed } = unlinkUnresolvableTargetsInContent(FAKE_A, original);
-    expect(changed).toBe(false);
-    expect(content).toEqual(original);
+    expect(findSingleChapterShorthand("Deuteronomy 32:43 LXX", undefined, [FAKE_A])).toBeNull();
   });
+});
 
-  it("should decline with a named reason, rather than deleting text outright, when the override is present but empty (synthetic)", () => {
-    const original = { bibleLink: "Mark 9:7", content: { text: "" } };
-    const { content, changed, skipped } = unlinkUnresolvableTargetsInContent(FAKE_A, original);
-    expect(changed).toBe(false);
-    expect(content).toEqual(original);
-    expect(skipped).toEqual(["empty-override"]);
-  });
-
-  it("should splice an unresolvable-target footnote array in place, leaving the resolvable neighbors untouched", () => {
-    const original = [
-      { bibleLink: "Mark 9:6" },
-      " and ",
-      { bibleLink: "Mark 9:7", content: "7" },
-      " (which are identical with ",
-      { bibleLink: "Mark 9:8" },
-      ") are omitted by the best ancient authorities.",
-    ];
-    const { content, changed, skipped } = unlinkUnresolvableTargetsInContent(FAKE_A, original);
+// The fixer — normalizeSingleChapterShorthandInContent. What a reader sees
+// never changes: a node with no display override of its own gains the
+// shorthand it was already showing.
+describe("normalizeSingleChapterShorthandInContent — the fixer", () => {
+  it("should write the chapter into the target and leave an existing display override untouched", () => {
+    const { content, changed } = normalizeSingleChapterShorthandInContent(
+      { bibleLink: "Jude 3", content: "3" },
+      [FAKE_A],
+    );
     expect(changed).toBe(true);
-    expect(skipped).toEqual([]);
-    expect(content).toEqual([
-      { bibleLink: "Mark 9:6" },
-      " and ",
-      "7",
-      " (which are identical with ",
-      { bibleLink: "Mark 9:8" },
-      ") are omitted by the best ancient authorities.",
-    ]);
+    expect(content).toEqual({ bibleLink: "Jude 1:3", content: "3" });
   });
 
-  it("should be idempotent — running it again on already-unlinked content changes nothing", () => {
-    const first = unlinkUnresolvableTargetsInContent(FAKE_A, { bibleLink: "Mark 9:7", content: "7" });
-    expect(first.changed).toBe(true);
+  it("should give a node with no display override the shorthand it was already rendering", () => {
+    const { content, changed } = normalizeSingleChapterShorthandInContent({ bibleLink: "Jude 3" }, [FAKE_A]);
+    expect(changed).toBe(true);
+    expect(content).toEqual({ bibleLink: "Jude 1:3", content: "Jude 3" });
+  });
 
-    const second = unlinkUnresolvableTargetsInContent(FAKE_A, first.content);
+  it("should leave a resolvable multi-chapter target untouched", () => {
+    const original = { bibleLink: "Genesis 2" };
+    const { content, changed } = normalizeSingleChapterShorthandInContent(original, [FAKE_A]);
+    expect(changed).toBe(false);
+    expect(content).toEqual(original);
+  });
+
+  it("should leave a whole-book cross-reference alone, reading its own display override to tell", () => {
+    const original = { bibleLink: "Jude 1", content: "Jude" };
+    const { content, changed } = normalizeSingleChapterShorthandInContent(original, [FAKE_A]);
+    expect(changed).toBe(false);
+    expect(content).toEqual(original);
+  });
+
+  it("should be idempotent — running it again on already-rewritten content changes nothing", () => {
+    const first = normalizeSingleChapterShorthandInContent({ bibleLink: "Jude 3" }, [FAKE_A]);
+    expect(first.changed).toBe(true);
+    const second = normalizeSingleChapterShorthandInContent(first.content, [FAKE_A]);
     expect(second.changed).toBe(false);
     expect(second.content).toEqual(first.content);
   });
 
-  it("should recurse into heading, subtitle, and foot.content the same way the cross-chapter split does", () => {
-    const { content, changed } = unlinkUnresolvableTargetsInContent(FAKE_A, {
-      text: "omitted",
-      foot: { type: "var", content: [{ bibleLink: "Mark 9:7", content: "7" }] },
-    });
+  it("should rewrite inside an array without disturbing its neighbors", () => {
+    const original: Content = [
+      "see v. ",
+      { bibleLink: "Jude 3", content: "3" },
+      " and ",
+      { bibleLink: "Exodus 3:2" },
+      ".",
+    ];
+    const { content, changed } = normalizeSingleChapterShorthandInContent(original, [FAKE_A]);
     expect(changed).toBe(true);
-    expect(content).toEqual({ text: "omitted", foot: { type: "var", content: ["7"] } });
+    expect(content).toEqual([
+      "see v. ",
+      { bibleLink: "Jude 1:3", content: "3" },
+      " and ",
+      { bibleLink: "Exodus 3:2" },
+      ".",
+    ]);
+  });
+
+  it("should recurse into heading, subtitle, and foot.content the same way the cross-chapter split does", () => {
+    const { content, changed } = normalizeSingleChapterShorthandInContent(
+      { text: "a word", foot: { type: "trn", content: [{ bibleLink: "Jude 3", content: "3" }] } },
+      [FAKE_A],
+    );
+    expect(changed).toBe(true);
+    expect(content).toEqual({
+      text: "a word",
+      foot: { type: "trn", content: [{ bibleLink: "Jude 1:3", content: "3" }] },
+    });
   });
 });
