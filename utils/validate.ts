@@ -27,11 +27,10 @@ import {
   formatCrossChapterFinding,
   formatTruncatedRangeFinding,
   formatUnresolvableTargetFinding,
+  normalizeSingleChapterShorthandInContent,
   reconstructTruncatedRangesInContent,
   splitCrossChapterLinksInContent,
-  unlinkUnresolvableTargetsInContent,
   SkipReason as TruncatedRangeSkipReason,
-  UnlinkSkipReason,
 } from "./crossChapterLinks";
 import {
   auditVersion as auditNodeConventions,
@@ -595,61 +594,27 @@ async function removeDuplicateFootnoteAnchorsInFile(filePath: string): Promise<b
   return false;
 }
 
-/** One unresolvable-target finding {@link unlinkUnresolvableTargetsInFile} declined to fix, with enough identity to report it. */
-interface UnlinkSkip {
-  /** Book id the skipped verse belongs to. */
-  book: string;
-  /** Chapter number of the skipped verse. */
-  chapter: number;
-  /** Verse number of the skipped verse. */
-  verse: number;
-  /** Why the unlink was declined. */
-  reason: UnlinkSkipReason;
-}
-
 /**
- * Unlinks every eligible unresolvable `bibleLink` in one verse file and
- * writes it back if anything changed — same gate-and-report shape as
- * {@link removeDuplicateFootnoteAnchorsInFile}, since
- * {@link unlinkUnresolvableTargetsInContent} carries the identical
- * `{content, changed, skipped}` contract.
+ * Writes the implied chapter into every single-chapter shorthand
+ * `bibleLink` target in one verse file and writes it back if anything
+ * changed — same `sortVerseKeys`-on-change shape as
+ * {@link normalizeBibleLinkDashesInFile}, since a node carrying no display
+ * override of its own gains one.
  *
- * **Runs after {@link removeDuplicateFootnoteAnchorsInFile} and before
- * {@link mergeEquivalentSiblingsInFile} in `main()`'s own pass — both bounds
- * load-bearing.** It runs after the truncated-range reconstruction and
- * cross-chapter split (steps 4 and 5 of the pass), so it only ever judges a
- * target those steps have already settled, never one a later step would
- * still rewrite. It runs before the mergeable-sibling check's merge because
- * unlinking replaces a `bibleLink` node with plain text and can leave two or
- * three adjacent bare strings where there was one node — exactly the shape
- * the mergeable-sibling check's merge exists to collapse, in the same pass
- * rather than a hypothetical next run
- * (which the idempotence guard below would catch as a real interaction).
- *
- * Calls `sortVerseKeys` on every changed verse: an unlink can turn a
- * `{bibleLink, content}` object into a bare string or a different node
- * shape entirely, changing which keys the node — and, once
- * `sortContentKeys` re-derives it, the verse — carries.
+ * **Runs before the truncated-range and cross-chapter steps in `main()`'s
+ * own pass, and the order is load-bearing.** A shorthand range reads to the
+ * endpoint grammar as a range spanning chapters that do not exist, so both
+ * of those steps would be judging a target nothing has settled yet. Writing
+ * the chapter in first leaves them an ordinary same-chapter verse range to
+ * look at.
  */
-async function unlinkUnresolvableTargetsInFile(
-  filePath: string,
-): Promise<{ changed: boolean; skipped: UnlinkSkip[] }> {
-  const versionId = path.basename(path.dirname(filePath));
+async function normalizeSingleChapterShorthandInFile(filePath: string): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
   let anyChanged = false;
-  const skipped: UnlinkSkip[] = [];
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = unlinkUnresolvableTargetsInContent(versionId, verse.content as Content);
-    for (const reason of rewritten.skipped) {
-      skipped.push({
-        book: verse.book as string,
-        chapter: verse.chapter as number,
-        verse: verse.verse as number,
-        reason,
-      });
-    }
+    const rewritten = normalizeSingleChapterShorthandInContent(verse.content as Content);
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return sortVerseKeys({ ...verse, content: rewritten.content });
@@ -658,7 +623,7 @@ async function unlinkUnresolvableTargetsInFile(
   if (anyChanged) {
     await writeJsonFile(filePath, rewrittenVerses);
   }
-  return { changed: anyChanged, skipped };
+  return anyChanged;
 }
 
 /**
@@ -815,6 +780,7 @@ export function findResidualContentChanges(
   };
 
   applyStep("bibleLink dash normalization", (c) => normalizeBibleLinkDashesInContent(c));
+  applyStep("single-chapter shorthand rewrite", (c) => normalizeSingleChapterShorthandInContent(c));
   applyStep("truncated-range reconstruction", (c) => reconstructTruncatedRangesInContent(versionId, c));
   applyStep("cross-chapter bibleLink split", (c) => {
     const result = splitCrossChapterLinksInContent(versionId, c);
@@ -830,10 +796,6 @@ export function findResidualContentChanges(
   applyStep("footnote-marker spacing relocation", (c) => relocateFootnoteMarkerSpacesInContent(c));
   applyStep("empty text key drop", (c) => dropEmptyTextKeysInContent(c));
   applyStep("duplicate footnote anchor removal", (c) => removeDuplicateFootnoteAnchorsInContent(c));
-  applyStep("unresolvable bibleLink target unlink (G4)", (c) => {
-    const result = unlinkUnresolvableTargetsInContent(versionId, c);
-    return { content: result.content, changed: result.changed };
-  });
   applyStep("equivalent sibling merge", (c) => mergeEquivalentSiblingsInContent(c));
   applyStep("mark-boundary space merge", (c) => mergeMarkBoundarySpacesInContent(c));
 
@@ -1340,9 +1302,9 @@ export function normalizeBibleLinkDashesInContent(
  * untagged script runs, merge unmerged node pairs, reorder footnote
  * punctuation, relocate mark-boundary embedded spaces, relocate
  * footnote-marker spacing, drop empty text keys, remove duplicate footnote
- * anchors, unlink unresolvable `bibleLink` targets, merge equivalent
- * siblings, merge mark-boundary spaces, and add missing heading/subtitle
- * paragraph flags.
+ * anchors, merge equivalent siblings, merge mark-boundary spaces, and add
+ * missing heading/subtitle paragraph flags. Single-chapter shorthand
+ * targets gain their implied chapter near the front, right after dashes.
  *
  * The ordering is deliberate. Dashes settle before the truncated-range and
  * cross-chapter steps look for the separator; a reconstructed truncated
@@ -1371,8 +1333,8 @@ export function normalizeBibleLinkDashesInContent(
  * to see that settled state rather than relocate a space the
  * mark-boundary-embedded-space check was about to move a second time.
  * Dropping empty text keys, the duplicate-footnote-anchor check's removal,
- * the unresolvable-target unlink, and the mergeable-sibling check's merge
- * run immediately after the footnote-marker-spacing check and before the
+ * and the mergeable-sibling check's merge run immediately after the
+ * footnote-marker-spacing check and before the
  * heading-paragraph check, in that order: the footnote-marker-spacing
  * check must settle every node's own space before either of the first two
  * can decide whether a node renders anything, since deleting a node here
@@ -1381,26 +1343,12 @@ export function normalizeBibleLinkDashesInContent(
  * the duplicate-footnote-anchor check always compares nodes whose own key
  * set is already fully settled, even though {@link
  * isDuplicateFootnoteAnchor} treats an absent `text` and an empty one
- * identically either way (real KJV1769 Psalm 80:4 is both a husk and a
- * duplicate anchor on the same node, and loses both in this one pass
- * regardless of which of the two runs first). **The unresolvable-target
- * unlink runs after the duplicate-footnote-anchor check's removal and
- * before the mergeable-sibling check's merge, and both bounds are
- * load-bearing.** It must run after the truncated-range reconstruction and
- * the cross-chapter split (far earlier in this same pass) so
- * it only ever judges a target those steps have already settled, never one a
- * later step would still rewrite. It must run before the mergeable-sibling
- * check's merge because unlinking replaces a `bibleLink` node with plain
- * text — the real ASV1901 Mark 9:44 shape leaves three adjacent bare
- * strings where a resolvable link, the unlinked link, and more text used
- * to sit — and the mergeable-sibling check's own merge is what collapses
- * that in the same pass rather than a hypothetical next run, which the
- * idempotence guard below would catch as a real step interaction if the
- * ordering were wrong. The mergeable-sibling check runs after the
- * duplicate-footnote-anchor check's removal for the identical reason it
- * runs after the unresolvable-target unlink: either step can leave two
- * plain siblings newly adjacent that only the mergeable-sibling check's
- * own merge should fold together. **The mark-boundary-space check's own
+ * identically either way (a node can be both a husk and a duplicate anchor
+ * at once, and loses both in this one pass regardless of which of the two
+ * runs first). The mergeable-sibling check runs after the
+ * duplicate-footnote-anchor check's removal because deleting a node can
+ * leave two plain siblings newly adjacent that only the mergeable-sibling
+ * check's own merge should fold together. **The mark-boundary-space check's own
  * merge runs after the mergeable-sibling check and before the
  * heading-paragraph check.** After the mergeable-sibling check: that
  * step's own merge can leave a bare whitespace-only node newly adjacent to
@@ -1418,12 +1366,13 @@ export function normalizeBibleLinkDashesInContent(
  * The script-run check, the unmerged-connector check, the
  * footnote-punctuation-order check, the mark-boundary-embedded-space
  * check, the empty-text-key drop, the duplicate-footnote-anchor check, the
- * unresolvable-target unlink, the mergeable-sibling check, the
- * mark-boundary-space check, and the heading-paragraph check call
- * `sortVerseKeys` on every changed verse, unlike the steps before the
- * script-run check, since splitting, merging, reordering, relocating,
- * dropping a key, deleting a node, unlinking, and flagging can all change
- * which keys a node carries. The footnote-marker-spacing check doesn't
+ * mergeable-sibling check, the mark-boundary-space check, and the
+ * heading-paragraph check call `sortVerseKeys` on every changed verse,
+ * unlike most steps before the script-run check, since splitting, merging,
+ * reordering, relocating, dropping a key, deleting a node, and flagging can
+ * all change which keys a node carries. The single-chapter shorthand
+ * rewrite calls it too, for the same reason: a link with no display
+ * override of its own gains one. The footnote-marker-spacing check doesn't
  * need it either, for the same reason the truncated-range, cross-chapter,
  * and text-only steps don't — see {@link reconstructTruncatedRangesInFile}:
  * it only ever mutates an existing `text` string's value in place.
@@ -1449,8 +1398,8 @@ export function normalizeBibleLinkDashesInContent(
  *
  * **The report-only audits run after the fix pass on purpose.** The
  * footnote-punctuation-order check, the mark-boundary-embedded-space
- * check, the footnote-marker-spacing check, and the script-run check, the
- * truncated-range reconstruction, and the unresolvable-target unlink each
+ * check, the footnote-marker-spacing check, and the script-run check, and
+ * the truncated-range reconstruction each
  * have a gate that can decline a real finding rather than guess at it.
  * Whatever a gate declines is still on disk when the audit re-reads it, so
  * the run still fails with detail — the "report what it can't fix" half of
@@ -1553,6 +1502,25 @@ async function main(requestedVersion?: string) {
     console.log(`\n✅ Normalized bibleLink dashes in ${dashNormalizedCount} file(s)\n`);
   } else {
     console.log("✅ All bibleLink dashes already normalized\n");
+  }
+
+  console.log("1️⃣  Writing the implied chapter into single-chapter shorthand targets...\n");
+
+  let singleChapterShorthandCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      if (await normalizeSingleChapterShorthandInFile(file)) {
+        singleChapterShorthandCount++;
+        console.log(`  🔄 Wrote implied chapter into single-chapter shorthand target(s): ${file}`);
+      }
+    }
+  }
+
+  if (singleChapterShorthandCount > 0) {
+    console.log(`\n✅ Wrote implied chapter into single-chapter shorthand targets in ${singleChapterShorthandCount} file(s)\n`);
+  } else {
+    console.log("✅ No single-chapter shorthand targets to rewrite\n");
   }
 
   console.log("📏 Reconstructing truncated bibleLink ranges...\n");
@@ -1844,34 +1812,6 @@ async function main(requestedVersion?: string) {
     console.log("✅ No duplicate footnote anchors to remove\n");
   }
 
-  console.log("🔓 Unlinking unresolvable bibleLink targets (G4)...\n");
-
-  let unresolvableTargetsUnlinkedCount = 0;
-  const unlinkSkipped: UnlinkSkip[] = [];
-
-  for (const file of jsonFiles) {
-    if (fs.existsSync(file) && isVerseFile(file)) {
-      const { changed, skipped } = await unlinkUnresolvableTargetsInFile(file);
-      if (changed) {
-        unresolvableTargetsUnlinkedCount++;
-        console.log(`  🔄 Unlinked unresolvable bibleLink target(s): ${file}`);
-      }
-      unlinkSkipped.push(...skipped);
-    }
-  }
-
-  if (unresolvableTargetsUnlinkedCount > 0) {
-    console.log(`\n✅ Unlinked unresolvable bibleLink target(s) in ${unresolvableTargetsUnlinkedCount} file(s)\n`);
-  } else {
-    console.log("✅ No unresolvable bibleLink targets found\n");
-  }
-  if (unlinkSkipped.length > 0) {
-    console.log(`⚠️  ${unlinkSkipped.length} unresolvable-target finding(s) left for the audit below to report:`);
-    for (const skip of unlinkSkipped) {
-      console.log(`    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`);
-    }
-    console.log("");
-  }
 
   console.log("🔗 Merging equivalent siblings...\n");
 
@@ -2347,11 +2287,11 @@ async function main(requestedVersion?: string) {
     nodeConventionsPassed = false;
   }
 
-  // Unresolvable-target audit: every bibleLink target that does not resolve
-  // against its own version's real chapter/verse data. The gated unlink
-  // step above already ran automatically — a finding surviving here means
-  // it declined (an empty override), which the console output from that
-  // step already named. Fourth peer audit alongside the three above —
+  // Unresolvable-target audit: every bibleLink target naming a location no
+  // version on disk records. Report-only on purpose — a link is written
+  // wrong or it isn't, and both a mis-imported shorthand and a plain
+  // mistake want a person's attention rather than a quiet rewrite.
+  // Fourth peer audit alongside the three above —
   // depends on neither them nor anything upstream, so it always runs to
   // completion regardless of their outcome. Prints its own `scanned` count,
   // matching the cross-chapter and truncated-range audits above.
@@ -2395,7 +2335,7 @@ async function main(requestedVersion?: string) {
       console.error("\n❌ Node/content convention audit failed! The unmerged-connector check, the heading-paragraph check, the footnote-punctuation-order check, the mark-boundary-embedded-space check, the footnote-marker-spacing check, the script-run check, the duplicate-footnote-anchor check, and the mergeable-sibling check already ran their own auto-fix above — see the findings printed above for what's left and why (a gate declined it, or it's one of the report-only checks with no fixer at all).");
     }
     if (!unresolvableTargetsPassed) {
-      console.error("\n❌ Unresolvable bibleLink target audit failed! The unlink step above already ran automatically — a finding surviving here means it declined (an override present but empty). See the findings printed above for detail.");
+      console.error("\n❌ Unresolvable bibleLink target audit failed! Each target above names a chapter or verse no version on disk records, so nothing can open it. This check has no auto-fix: correct the target, or add the version that carries it.");
     }
     process.exit(1);
   }

@@ -1,91 +1,79 @@
 /**
  * Applies `auditNodes.ts`'s own mark-boundary-space check: removes a bare,
- * untagged whitespace-only node sandwiched between two real, non-blank
- * nodes that agree in `marks`/`script`, or where one side's marks are a
- * non-empty subset of the other's ({@link isFormattingSubsetOf}), rolling
- * the blank's own text onto whichever real side is the *smaller* mark set
- * instead. `utils/validate.ts` calls {@link mergeMarkBoundarySpacesInContent}
- * on every run, with no flag to opt in or out.
+ * untagged whitespace-only node sandwiched between two real, non-blank nodes
+ * that agree in `marks`/`script`, or where one side's marks are a non-empty
+ * subset of the other's ({@link isFormattingSubsetOf}), rolling the blank's
+ * own text onto whichever real side is the *smaller* mark set instead.
+ * `utils/validate.ts` calls {@link mergeMarkBoundarySpacesInContent} on every
+ * run, with no flag to opt in or out.
  *
- * Until this module existed, `scanArrayForMarkBoundarySpaces` was a
- * report-only check with no fixer at all — real CSB2017 Matthew 15:4:
- * `{text: "and,", marks: ["woc"]}, " ", {text: "Whoever speaks evil...",
- * marks: ["b","woc"]}` sat unabsorbed corpus-wide (622 occurrences in
- * KJV1769 alone once the subset relationship is counted, not just exact
- * agreement) with nothing ever resolving the space.
- *
- * **Direction is not always forward.** When the two real sides merely agree
- * exactly, direction is immaterial (both marks sets are identical, so
- * nothing hinges on which side absorbs the blank) and this module keeps the
- * simpler forward convention. But when it's a *subset* match, the two sides
- * play different roles: the smaller side is the continuous wrapper the
- * space is genuinely part of, and the larger side carries a local addition
- * (an extra mark layered onto one specific word) the space was never inside
- * — so the blank has to move toward the smaller side, whichever direction
- * that happens to be. Real KJV1769 Exodus 33:9 (`{text: "the", marks:
- * ["i"]}, " ", {text: "Lord", marks: ["i","sc"]}`) and 1 Samuel 16:7 pick
- * *backward* — `"i"` is the wrapper, `"sc"` (the divine name's own
- * small-caps) is what's added, and the smaller `["i"]` side sits first.
- * The mirror-image YLT1898 Matthew 11:30 (`{text: "is", marks:
- * ["i","woc"]}, " ", {text: "easy,", marks: ["woc"]}`) picks *forward*
- * instead, on the identical relationship, because there the smaller
- * `["woc"]`-only side happens to sit second. Getting this backwards
- * doesn't just misplace a data node — for CSB2017 Matthew 15:4 specifically,
- * both of "and,"'s own neighbors turn out to be the *larger* side of a
- * subset pair with it, so both of its own stranded spaces belong absorbed
- * onto "and," itself, one on each edge (`{text: " and, ", marks:
- * ["woc"]}`), not scattered onto whichever neighbor happens to sit on the
- * far side of each one.
+ * **Direction is not always forward.** On exact agreement the two mark sets
+ * are identical, nothing hinges on which side absorbs the blank, and this
+ * module keeps the simpler forward convention. On a *subset* match the two
+ * sides play different roles: the smaller side is the continuous wrapper the
+ * space is genuinely part of, and the larger side carries a local addition —
+ * an extra mark layered onto one specific word — the space was never inside.
+ * So the blank moves toward the smaller side, in whichever direction that
+ * happens to sit. Getting this backwards is a data-modeling error, not a
+ * cosmetic one: a node can be the smaller side of a subset pair with *both*
+ * its neighbors, in which case both stranded spaces belong on that node
+ * itself, one per edge, rather than scattered outward.
  *
  * **A blocked backward direction is left alone, never forced forward
- * instead.** When the smaller side is `left` but `left` carries `strong`
- * or `foot`, appending the blank there would violate the
- * trailing-whitespace check's own rule (`strong`) or manufacture a new
- * footnote-marker-spacing finding `fixFootnoteMarkerSpacing.ts` would
- * re-extract on the next pass (`foot`) — real YLT1898 Revelation 2:13:
- * `{text: "...Antipas", marks: ["woc"], foot: {...}}, {text: " ", marks:
- * ["woc"]}, {text: "was", marks: ["i","woc"]}`. Rolling the blank *forward*
- * onto `target` instead isn't a safe fallback either, even though it
- * renders identically today: `target` is the *larger* side of the pair,
- * so bundling the blank into its own text would misrepresent an ordinary
- * joining space as part of the local addition (the `"i"` here) it was
- * never inside — a data-modeling error, not just a cosmetic one. Since the
- * real corpus shape already carries the blank tagged with the wrapper's
- * own marks (`["woc"]`, not bare, untagged whitespace), leaving it exactly
- * where it is *is* the correct, final shape — not a residual problem for a
- * person to look at, so this isn't tracked as a decline at all, the
- * identical "already settled, nothing to report" treatment
- * `fixFootnoteMarkerSpacing.ts` gives its own already-extracted bare
- * `{foot: {...}}` shape. `scanArrayForMarkBoundarySpaces` carries the
- * matching exemption so the audit never flags it as a finding to begin
- * with either — the two have to agree on this or the fixer would spend
- * every run "fixing" a struct that was never broken.
+ * instead.** When the smaller side is `left` but `left` carries `strong` or
+ * `foot`, appending there would violate the trailing-whitespace rule
+ * (`strong`) or manufacture a footnote-marker-spacing finding
+ * `fixFootnoteMarkerSpacing.ts` would re-extract next pass (`foot`). Rolling
+ * forward onto `target` is no safe fallback either, even though it renders
+ * identically: `target` is the larger side, so bundling the blank into its
+ * text would misrepresent an ordinary joining space as part of a local
+ * addition it was never inside. The real corpus shape already carries the
+ * blank tagged with the wrapper's own marks, so leaving it exactly where it
+ * is *is* the final shape — settled, not a decline, so nothing is counted or
+ * reported. `scanArrayForMarkBoundarySpaces` carries the matching exemption;
+ * the two have to agree, or the fixer spends every run "fixing" a struct that
+ * was never broken.
  *
- * **Local `isFormattingSubsetOf` and `isBlankConnector`.** Re-derived here
- * rather than imported: `auditNodes.ts` only exports `agreesInFormatting`,
- * not either of these, so this module keeps its own copies rather than
- * widening that module's exports — the same reuse-by-copy
- * `fixMarkBoundaryEmbeddedSpaces.ts` and `fixFootnoteMarkerSpacing.ts`
- * already apply for their own local copies of `isFormattingSubsetOf`.
+ * **A blank never crosses something that renders.** The forward walk that
+ * finds the merge target steps over any textless sibling, which is right for
+ * the question it asks — such a sibling shows no marks of its own, so it
+ * cannot be why two nodes disagree — and wrong for the separate question of
+ * where the blank's characters may land. A bare `{foot: {...}}` node renders
+ * its marker, and a marker's rendered position is decided by which side of it
+ * the whitespace sits on, so carrying the blank past one changes which word
+ * that marker annotates. With a marker in between, neither resolution is
+ * available — deleting the blank would fuse the two real words together — so
+ * it stays where it is, which is already what should render: a marker with a
+ * word glued to each side. Settled, not a decline. {@link
+ * findFirstRenderedIndex} in `auditNodes.ts` owns the distinction the two
+ * questions turn on. The redundant case below still resolves with a marker in
+ * between, since a deletion moves nothing across it.
  *
- * **A redundant blank is deleted, not merged.** If the real side it would
- * land on already carries its own independent whitespace on that same edge
- * (unusual, no real corpus case yet, but a merge would silently double it
- * into `"  "`), the blank is simply removed instead of having its own text
- * prepended or appended — mirroring `fixMarkBoundaryEmbeddedSpaces.ts`'s
- * own "third shape" doubling guard for the identical failure mode, checked
- * on whichever edge this particular blank is about to land on.
+ * **A redundant blank is deleted, not merged.** When the side it would land
+ * on already carries its own whitespace on that edge, merging would silently
+ * double it into `"  "`, so the blank is removed instead — the doubling guard
+ * `fixMarkBoundaryEmbeddedSpaces.ts` applies for the identical failure mode,
+ * checked on whichever edge this blank is about to land on.
+ *
+ * `isFormattingSubsetOf` and `isBlankConnector` are re-derived here rather
+ * than imported, since `auditNodes.ts` exports neither; keeping local copies
+ * beats widening that module's exports, the same reuse-by-copy the sibling
+ * fixers already apply.
  */
 
 import Content from "../types/Content";
-import { agreesInFormatting, describeNode, isRealAttachmentPoint, NodeShape } from "./auditNodes";
+import {
+  agreesInFormatting,
+  describeNode,
+  findFirstRenderedIndex,
+  isRealAttachmentPoint,
+  NodeShape,
+} from "./auditNodes";
 
 /**
  * True when two nodes agree closely enough on `marks`/`script` that a
- * mismatch could not be the reason they stayed split — the identical test
- * `auditNodes.ts`'s own private `isFormattingSubsetOf` applies (real
- * KJV1769 1 Samuel 16:7 nesting case), re-derived here per this file's own
- * top doc comment.
+ * mismatch could not be why they stayed split — the identical test
+ * `auditNodes.ts`'s own private `isFormattingSubsetOf` applies.
  */
 function isFormattingSubsetOf(a: NodeShape, b: NodeShape): boolean {
   if (a.script !== b.script) return false;
@@ -109,17 +97,16 @@ function isBlankConnector(shape: NodeShape): boolean {
 }
 
 /**
- * Rebuilds `node` with its own `text` replaced by `text` — a bare string
- * *is* its own text, so it's replaced outright; an object node keeps every
- * other property via a shallow spread. Matches `fixMarkBoundaryEmbeddedSpaces.ts`'s
- * own identical `withText` helper and doc comment.
+ * Rebuilds `node` with its own `text` replaced by `text` — a bare string *is*
+ * its own text, so it's replaced outright; an object node keeps every other
+ * property via a shallow spread.
  */
 function withText(node: unknown, text: string): unknown {
   if (typeof node === "string") return text;
   return { ...(node as Record<string, unknown>), text };
 }
 
-/** Running fixed count, threaded through recursion and mutated in place — this module never reports a decline (see the top doc comment's own "blocked backward direction" section for why the one case that declines isn't tracked as one), so there's no `SkipReason` to carry alongside it. */
+/** Running fixed count, threaded through recursion and mutated in place. This module never reports a decline — the shapes it leaves alone are already correct — so there is no `SkipReason` to carry alongside it. */
 interface FixCounts {
   /** How many findings this run has fixed. */
   fixed: number;
@@ -128,26 +115,20 @@ interface FixCounts {
 /**
  * Scan one array level left to right for a blank node eligible per {@link
  * scanArrayForMarkBoundarySpaces}'s own detection (mirrored here so the two
- * never drift apart in what they consider a finding) and remove it, rolling
- * its own text onto whichever real side is the smaller mark set — forward
- * onto the real next node's leading edge when the two sides agree exactly
- * or the next node is the smaller side of a subset pair, backward onto the
- * real previous node's trailing edge when that side is the smaller one
- * instead (see the top doc comment's own direction rule) — or, when the
- * receiver it would land on already carries its own independent whitespace
- * on that same edge, simply deleting the now-redundant blank instead. When
- * the smaller side is `left` but `left` carries `strong`/`foot`, neither
- * direction is safe (top doc comment's own "blocked backward direction"
- * section) and the blank is left exactly as it is — already the correct,
- * settled shape, matching `scanArrayForMarkBoundarySpaces`'s own identical
- * exemption from ever calling it a finding.
+ * never drift on what counts as a finding) and resolve it one of three ways:
+ * merge it onto whichever real side is the smaller mark set, delete it when
+ * that side already carries its own whitespace on the landing edge, or leave
+ * it exactly as it is. The third outcome is neither a fix nor a decline — see
+ * the top doc comment's "blocked backward direction" and "never crosses
+ * something that renders" sections for the two shapes that reach it, and the
+ * matching audit exemptions that keep them from being reported.
  *
- * Re-describes every node fresh from the current (possibly already-rewritten)
- * working copy on each iteration and tracks removals in a `Set` rather than
- * splicing immediately, the same chain-safety discipline every other fixer
- * in this repo uses: an earlier deletion in this same pass must be visible
- * before a later node's own `left`/`target` lookup is judged, without the
- * index arithmetic of an in-place splice.
+ * Re-describes every node fresh from the current working copy on each
+ * iteration and tracks removals in a `Set` rather than splicing immediately,
+ * the chain-safety discipline every fixer in this repo uses: an earlier
+ * deletion in the same pass must be visible before a later node's
+ * `left`/`target` lookup is judged, without the index arithmetic of an
+ * in-place splice.
  */
 function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknown[] {
   const working: unknown[] = [...nodes];
@@ -184,39 +165,25 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
     const leftText = left.text as string;
     const targetText = target.text as string;
 
-    // Which real side absorbs the blank: real KJV1769 Exodus 33:9 ({text:
-    // "the", marks: ["i"]}, " ", {text: "Lord", marks: ["i","sc"]}) and
-    // 1 Samuel 16:7 pick opposite directions on the very same subset
-    // relationship shape, because the *smaller* marks array is the side
-    // that's the continuous wrapper the space genuinely belongs to — the
-    // larger side carries a local addition ("sc" for the divine name here,
-    // "i" for a translator-supplied word in the mirror-image YLT1898
-    // Matthew 11:30 case) the blank was never part of. `subset` already
-    // guarantees the two lengths differ (a non-empty subset of equal
-    // length would already have matched `exact` instead), so comparing
-    // lengths is enough to know which side is smaller — no need to also
-    // inspect which specific marks differ. Exact agreement has no
-    // wrapper/addition distinction at all, so it keeps the simpler forward
-    // direction this check has always used.
+    // Which real side absorbs the blank (top doc comment's direction rule).
+    // Comparing lengths is enough to find the smaller side: `subset` already
+    // guarantees the two differ, since a non-empty subset of equal length
+    // would have matched `exact` instead. Exact agreement has no
+    // wrapper/addition distinction at all, so it keeps the forward direction.
     const wantsBackward = subset && left.marks.length < target.marks.length;
 
     if (wantsBackward) {
       if (left.strong !== undefined || left.hasFoot) {
-        // Left alone, not forced forward instead (top doc comment's own
-        // "blocked backward direction" section): real YLT1898 Revelation
-        // 2:13's `["woc"]`-tagged blank already carries the wrapper's own
-        // marks, exactly right, and neither direction has a safe home for
-        // it — backward would corrupt a strong/foot invariant, forward
-        // would bundle it into target's own larger, unrelated mark set.
-        // Already the correct, settled shape, so this isn't counted as a
-        // fix and isn't tracked as a decline either.
+        // Left alone, not forced forward instead: backward would corrupt a
+        // strong/foot invariant, forward would bundle the blank into
+        // `target`'s larger, unrelated mark set. Already the settled shape,
+        // so this is neither counted as a fix nor tracked as a decline (top
+        // doc comment's "blocked backward direction" section).
         continue;
       }
       if (/\s$/.test(leftText)) {
-        // Redundant: the source already carries its own independent
-        // trailing space, so the blank's own copy is dropped rather than
-        // doubled (mirrors the forward direction's own doubling guard
-        // below).
+        // Redundant: the source already carries its own trailing space, so
+        // the blank is dropped rather than doubled.
         removed.add(i);
         counts.fixed++;
         continue;
@@ -228,13 +195,23 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
     }
 
     if (/^\s/.test(targetText)) {
-      // Redundant: the receiver already carries its own independent
-      // leading space, so the blank's own copy is dropped rather than
-      // doubled (top doc comment's own doubling guard).
+      // Redundant: the receiver already carries its own leading space, so
+      // the blank is dropped rather than doubled. Reached before the
+      // crossing guard below on purpose — a deletion moves nothing across
+      // whatever sits in between, and when that is a marker, this *is* the
+      // resolution for a marker with whitespace on both sides.
       removed.add(i);
       counts.fixed++;
       continue;
     }
+
+    // A footnote marker renders between the blank and `target`, so the blank
+    // has nowhere to go and stays put — settled, not a decline (top doc
+    // comment's "never crosses something that renders" section). Describing
+    // the working copy straight through is safe: every slot `removed` holds
+    // is a blank this same pass already merged away, all of them behind the
+    // blank being judged, so a forward walk from `i` never meets one.
+    if (findFirstRenderedIndex(working.map(describeNode), i + 1) !== j) continue;
 
     working[j] = withText(working[j], blankText + targetText);
     removed.add(i);
@@ -288,13 +265,12 @@ function rewriteLevel(content: unknown, counts: FixCounts): unknown {
  * Resolves every mark-boundary-space finding in one verse's `content` tree,
  * recursively (`heading`, `subtitle`, a `ContentNested` wrapper's own
  * `content`, and a footnote body's own `foot.content`, mirroring
- * `auditNodes.ts`'s own `walkLevel`). The one shape this module leaves
- * alone (top doc comment's own "blocked backward direction" section) is
- * already correct, not a decline, so there's nothing to report for it.
+ * `auditNodes.ts`'s own `walkLevel`). The shapes this module leaves alone are
+ * already correct rather than declined, so there is nothing to report for
+ * them and no `skipped` in the return.
  *
  * `changed` reflects `counts.fixed`, not a `JSON.stringify` comparison —
- * nothing here is ever left half-changed, so counting the fixes themselves
- * is exact.
+ * nothing here is ever left half-changed, so counting the fixes is exact.
  *
  * @param content - A verse's own `content` value, or any subtree of it
  * @returns The rewritten tree (the original reference when nothing was

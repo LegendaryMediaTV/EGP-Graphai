@@ -3,7 +3,9 @@ import Content from "../../types/Content";
 import Footnote from "../../types/Footnote";
 import { uniformFraction } from "../../functions/normalizeFractions";
 import {
+  describeNode,
   exitCodeFor,
+  findFirstRenderedIndex,
   findHeadingParagraphMismatches,
   findStrongsNodeIssues,
   VerseRecord,
@@ -172,6 +174,44 @@ describe("findStrongsNodeIssues — leading punctuation", () => {
   });
 });
 
+describe("findFirstRenderedIndex", () => {
+  it("should stop in front of a textless node carrying both a Strong's number and a foot, because it still renders its marker", () => {
+    const shapes = [
+      { text: "the first words " },
+      { strong: "H853", foot: { type: "trn", content: "note" } },
+      "and then more.",
+    ].map(describeNode);
+
+    expect(findFirstRenderedIndex(shapes, 1)).toBe(1);
+  });
+
+  it("should walk through a textless Strong's anchor carrying nothing else, which renders no characters at all", () => {
+    const shapes = [
+      { text: "the first words " },
+      { strong: "H853" },
+      "and then more.",
+    ].map(describeNode);
+
+    expect(findFirstRenderedIndex(shapes, 1)).toBe(2);
+  });
+
+  it("should stop in front of a bare foot node, which renders its own marker", () => {
+    const shapes = [
+      { text: "the first words " },
+      { foot: { type: "trn", content: "note" } },
+      "and then more.",
+    ].map(describeNode);
+
+    expect(findFirstRenderedIndex(shapes, 1)).toBe(1);
+  });
+
+  it("should return undefined when nothing at or after the starting slot renders anything", () => {
+    const shapes = [{ text: "the first words " }, { strong: "H853" }].map(describeNode);
+
+    expect(findFirstRenderedIndex(shapes, 1)).toBeUndefined();
+  });
+});
+
 describe("findStrongsNodeIssues — mark-boundary spaces", () => {
   it("should report no findings for a clean tree with no blank connector at all", () => {
     const content: Content = [
@@ -281,6 +321,38 @@ describe("findStrongsNodeIssues — mark-boundary spaces", () => {
   it("should stay silent when a run of textless Strong's siblings leads straight into a boundary/end with no real target", () => {
     const content: Content = [{ text: "it becometh", marks: ["woc"] }, " ", { strong: "G2076" }];
     expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should stay silent when a textless footnote sibling sits between the blank and the real next node — that marker renders, so the blank has no way to reach the target and is already in its settled shape", () => {
+    const content: Content = [
+      { text: "walked with God, and he was not,", foot: { type: "trn", content: "x" } },
+      { text: " " },
+      { foot: { type: "trn", content: "y" } },
+      "for God took him.",
+    ];
+    expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should stay silent across a run of two textless footnote siblings between the blank and the real next node", () => {
+    const content: Content = [
+      { text: "the first word,", marks: ["woc"] },
+      " ",
+      { foot: { type: "trn", content: "x" } },
+      { text: "", foot: { type: "var", content: "y" } },
+      { text: "the second word.", marks: ["woc"] },
+    ];
+    expect(findStrongsNodeIssues(content).markBoundarySpaces).toEqual([]);
+  });
+
+  it("should still flag a blank separated from its target by a textless footnote sibling when that target carries its own leading whitespace — the resolution there is dropping the blank, not carrying it across the marker", () => {
+    const content: Content = [
+      { text: "the first word,", marks: ["woc"] },
+      " ",
+      { foot: { type: "trn", content: "x" } },
+      { text: " the second word.", marks: ["woc"] },
+    ];
+    const findings = findStrongsNodeIssues(content).markBoundarySpaces;
+    expect(findings).toHaveLength(1);
   });
 
   it("should still require the real target past the textless sibling to agree in marks", () => {
@@ -479,8 +551,7 @@ describe("findStrongsNodeIssues — straight quotes", () => {
 
 describe("findStrongsNodeIssues — non-standard whitespace", () => {
   // Synthetic fixtures throughout: the corpus carries none of these
-  // characters today, so only fault injection can prove the check works —
-  // a clean corpus reporting zero findings would prove nothing.
+  // characters today, so only fault injection can prove the check works.
 
   it("should flag a node whose text carries a non-breaking space (U+00A0), naming its codepoint", () => {
     const content: Content = [{ text: "10 a.m." }];
@@ -598,10 +669,9 @@ describe("findStrongsNodeIssues — the {paragraph: <content>} wrapper (walkLeve
 });
 
 describe("findHeadingParagraphMismatches", () => {
-  // Fixtures mix real verse shapes with invented ones into synthetic
-  // "books" — production only ever sees one real book's verses at a time
-  // (see auditVersion's per-file loop), but the rule is flat, so a fixture
-  // doesn't need to model that structure to trigger a finding.
+  // Fixtures are synthetic "books" mixing real shapes with invented ones.
+  // Production only ever sees one real book's verses at a time, but the rule
+  // is flat, so a fixture needn't model that structure to trigger a finding.
 
   it("should collapse a heading immediately followed by a subtitle into one run before judging what comes after — real WEBUS2020 Psalm 90:1 shape", () => {
     const headingNode = { heading: [{ text: "Book Four", marks: ["sc"] }, " (Psalms 90-106)"] };
@@ -1017,10 +1087,9 @@ describe("findStrongsNodeIssues — footnote marker after whitespace", () => {
       { foot: { type: "var", content: "NU omits verse 44." } },
     ];
     const findings = findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace;
-    // Both are separate findings: the leading node (its own text ends in
-    // whitespace, with the textless anchor as its "next") and the textless
-    // anchor itself (renders nothing, so its marker lands at the same
-    // accumulated boundary, with nothing following it either).
+    // Two findings, not one: the leading node's own text ends in whitespace,
+    // and the anchor renders nothing, so its marker lands at that same
+    // accumulated boundary with nothing following it either.
     expect(findings).toHaveLength(2);
     expect(findings[0].node).toEqual(content[0]);
     expect(findings[1].node).toEqual(content[1]);
@@ -1105,9 +1174,9 @@ describe("findStrongsNodeIssues — footnote marker after whitespace", () => {
       { foot: { type: "trn", content: ["Heb. ", { text: "Ashur", marks: ["i"] }] } },
       { text: " the rod", strong: "H7626" },
     ];
-    // Node 0's text ends in "," not whitespace, so it's never a candidate;
-    // node 1 is a bare foot node with a real attachment point right after
-    // it, so it counts as already-settled regardless of its own foot.
+    // Node 0's text ends in "," not whitespace, so it is never a candidate;
+    // node 1 is a bare foot node with a real attachment point right after it,
+    // so it is already settled regardless of what its own foot says.
     expect(findStrongsNodeIssues(content).footnoteMarkerAfterWhitespace).toEqual([]);
   });
 });
@@ -1186,9 +1255,8 @@ describe("findStrongsNodeIssues — duplicate footnote anchor", () => {
     expect(findings).toHaveLength(2);
     expect(findings[0].node).toEqual(content[1]);
     expect(findings[1].node).toEqual(content[2]);
-    // Both compare against the one real node, not against each other — the
-    // second duplicate is deleted just as surely as the first, per the top
-    // doc comment's "nearest node not itself flagged for deletion" rule.
+    // Both compare against the one real node, not against each other, since
+    // a node already flagged for deletion is never anyone's target.
     expect(findings[0].target).toEqual(content[0]);
     expect(findings[1].target).toEqual(content[0]);
   });
@@ -1466,10 +1534,9 @@ describe("findStrongsNodeIssues — recursion", () => {
 
 describe("auditVersion / auditVersions — read-only over whatever they're pointed at", () => {
   it("should never mutate its input when called twice against the same in-memory content", () => {
-    // Proxies auditVersion's own idempotence: findStrongsNodeIssues (already
-    // exercised exhaustively elsewhere in this file) is what it delegates to
-    // per verse, so calling it twice here stands in for scanning the real
-    // bible-versions/ corpus twice.
+    // Proxies auditVersion's own idempotence: it delegates to
+    // findStrongsNodeIssues per verse, so calling that twice here stands in
+    // for scanning the real corpus twice, without touching disk.
     const content: Content = [
       { text: "the servant's word", marks: ["i"] },
       { text: " and it was so.", strong: "H776" },

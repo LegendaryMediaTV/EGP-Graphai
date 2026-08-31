@@ -11,121 +11,84 @@
  * Copies `fixMarkBoundaryEmbeddedSpaces.ts`'s own shape: a gated
  * `xInContent(content) => {content, changed, skipped}` transform with a
  * `SkipReason` union, importing its eligibility from `auditNodes.ts` rather
- * than re-deriving it. Reuses that module's own {@link
- * findWhitespaceSourceIndex} to find *which* node's own trailing run a
- * given footnote marker actually renders after — the same render-order
- * question the footnote-marker-spacing check itself answers, so the fixer never re-derives it (see
- * that function's own doc comment for the real WEBUS2020 Mark 9:44 case
- * where the run doesn't live on the footed node's own text at all).
+ * than re-deriving it. Reuses {@link findWhitespaceSourceIndex} to find
+ * *which* node's trailing run a given marker actually renders after, since
+ * that run need not live on the footed node's own text.
  *
  * **Two resolutions, decided by one question: does the real next node's own
  * text already start with whitespace?**
  *
- * - **Redundant, deletion.** Yes — the receiver already carries its own
- *   independent joining space, so two sources of separation exist where one
- *   would do (real WEBUS2020 Matthew 11:23 shape, pre-`a544b73`: `{text:
- *   "...you will go down to Hades. ", marks: ["woc"], foot: {type: "trn",
- *   content: "or, Hell"}}` immediately followed by `{text: " For if the
- *   mighty works...", marks: ["woc"]}`). The source's own trailing run is
- *   dropped; the receiver's own text, leading whitespace included, is never
- *   touched. This also covers the case where nothing real follows
- *   *anywhere*, not just within this array level (real WEBUS2020 Mark 9:44
- *   shape: a `woc`-marked node followed only by a textless `{foot}` anchor
- *   that is itself the verse's own final element) — with no receiver to be
- *   redundant against, the source's own copy is dropped all the same.
- * - **Sole, standalone-node extraction.** No — the source's own trailing
- *   run is the only thing separating the two real words (real ASV1901
- *   Genesis 1:2 shape: `{text: "...and the Spirit of God ", foot: {...}}`
- *   immediately followed by `"moved upon the face of the waters."`, no
- *   leading space of its own). It cannot simply be dropped (that fuses the
- *   two words together) or reassigned onto the receiver's own leading edge
- *   or spliced in as its own bare-whitespace node — both of those were
- *   tried and rejected: relocating still lands the marker a rendered space
- *   away from the word it annotates whenever the receiver's own marks
- *   disagree with the source's, and inserting a whitespace-only node
- *   invents a node with no lexical content of its own to justify existing.
- *   The fix moves `foot` instead: the footed node's own `text` — trailing
- *   whitespace included — stays completely untouched, and a new bare
- *   `{foot: {...}}` node is spliced in immediately before the real next
- *   node, whose own text stays completely untouched too. Applied
- *   structurally, never by content: real CLV1880 Numbers 20:28 (`{text:
- *   "...filium eius ", foot: {type: "var", content: "Originally verse
- *   20:29."}}` immediately followed by `"illo mortuo..."`) hits this same
- *   shape and gets the identical fix, with nothing here reading what its
- *   own `foot` says.
+ * - **Redundant, deletion.** Yes — the receiver already supplies the join, so
+ *   two sources of separation exist where one would do. The source's trailing
+ *   run is dropped and the receiver's text is never touched. This also covers
+ *   the case where nothing real follows *anywhere*, not just within this
+ *   array level: with no receiver to be redundant against, the source's copy
+ *   goes all the same.
+ * - **Sole, standalone-node extraction.** No — the source's trailing run is
+ *   the only thing separating the two real words. It cannot be dropped, which
+ *   fuses the words together, and two alternatives were tried and rejected:
+ *   reassigning it onto the receiver's leading edge still leaves the marker a
+ *   rendered space from the word it annotates whenever the two sides' marks
+ *   disagree, and splicing in a whitespace-only node invents a node with no
+ *   lexical content to justify existing. The fix moves `foot` instead. Both
+ *   real nodes' text stays untouched, trailing whitespace included, and a new
+ *   bare `{foot: {...}}` node is spliced in immediately after its source,
+ *   walking forward only through siblings that render nothing at all ({@link
+ *   findFirstRenderedIndex}) — never landed beside the real next node, since
+ *   a bare foot node in between renders its own marker and landing past one
+ *   swaps the two markers and reassigns the letters they export under, while
+ *   a Strong's anchor renders no characters and may be walked past freely.
+ *   Applied structurally: nothing here reads what a footnote says.
  *
  * **A bare `{foot: {...}}` node already sitting in the sole shape is never
- * re-extracted** — when node `i` itself carries no `text` (the trailing run
- * lives on an earlier real predecessor instead) and the sole branch above
- * is reached, node `i` is already the settled, extracted shape, whether
- * this same pass just spliced it in a few nodes back or the corpus already
- * carried it that way, so the sole branch is a no-op rather than
- * re-extracting into a garbage husk. This is the identical structural
- * question `auditNodes.ts`'s own footnote-marker-spacing check detection
- * asks for its matching exemption, so the two never drift apart on what counts as "already
- * settled." A bare node's own real predecessor can still land in the
- * *redundant* branch instead, when the real next node independently
- * supplies its own leading whitespace — there the predecessor's trailing
- * run is genuine surplus and still gets dropped. When nothing real follows
- * a bare node at all, it's the real WEBUS2020 Mark 9:44 shape, caught
- * earlier by the generic "no real next node" resolution below, which finds
- * that node's own real predecessor and trims its now-orphaned trailing
- * whitespace, exactly as it always has.
+ * re-extracted.** When node `i` carries no `text` of its own, its `foot`
+ * already sits where it structurally belongs, whether this same pass spliced
+ * it in a few nodes back or the corpus already carried it that way, so the
+ * sole branch is a no-op rather than an extraction into a husk. That is the
+ * identical structural question the audit's matching exemption asks, so the
+ * two never drift on what counts as settled. Such a node's real predecessor
+ * can still land in the *redundant* branch, where its trailing run is genuine
+ * surplus; and when nothing real follows the bare node at all, the "no real
+ * next node" resolution below trims that predecessor's orphaned whitespace.
  *
- * **What still declines.** `"block-boundary"` — a `break`/`paragraph`
- * boundary sits at the join — stays a hard stop: this repo treats a break
- * or a paragraph opening as a real piece boundary everywhere else in this
- * file, and neither resolution above changes that. `"no-next-node"`
- * declines only when nothing real follows within a `ContentNested`
- * wrapper's own inner content, where a real successor could genuinely exist
- * just outside what this module can see; see {@link EndOfLevelPolicy}'s own
- * doc comment for why, and for the one real case this leaves for a hand
- * fix.
+ * **A run of further textless siblings between that node and the real next
+ * node changes none of the above.** Neither side of the exemption asks
+ * whether the real next node is *immediately* adjacent, and neither should:
+ * every bare foot node in such a run renders its own marker, and whitespace
+ * carried to the far side of a rendered marker re-points it at the word after
+ * it. The run cannot be dropped either, being the only thing separating the
+ * two real words, so it stays where it is, which is already how it renders
+ * correctly. Nothing is fixed and nothing is declined — a shape that is
+ * already right is a settled state, not a finding.
+ *
+ * **What still declines.** `"block-boundary"` stays a hard stop: this repo
+ * treats a `break` or a paragraph opening as a real piece boundary
+ * everywhere, and neither resolution above changes that. `"no-next-node"`
+ * declines only inside a `ContentNested` wrapper, where a real successor
+ * could exist just outside what this module can see — see {@link
+ * EndOfLevelPolicy}.
  */
 
 import Content from "../types/Content";
 import {
-  agreesInFormatting,
   describeNode,
+  findFirstRenderedIndex,
   findWhitespaceSourceIndex,
   isRealAttachmentPoint,
-  NodeShape,
 } from "./auditNodes";
-
-/**
- * True when two nodes agree closely enough on `marks`/`script` that a
- * mismatch could not be the reason they stayed split — the identical test
- * `auditNodes.ts`'s own private `isFormattingSubsetOf` applies (real
- * YLT1898 `["woc"]`-vs-`["i","woc"]` nesting case), re-derived here rather
- * than imported since `auditNodes.ts` only exports `agreesInFormatting` and
- * `carriesFormatting`, not this one — the same reuse-by-copy
- * `fixMarkBoundaryEmbeddedSpaces.ts` and `fixFootnotePunctuationOrder.ts`
- * already apply for their own local copies of this exact function.
- */
-function isFormattingSubsetOf(a: NodeShape, b: NodeShape): boolean {
-  if (a.script !== b.script) return false;
-  const [smaller, larger] = a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
-  return smaller.length > 0 && smaller.every((mark) => larger.includes(mark));
-}
 
 /**
  * Rebuilds `node` with its own `text` replaced by `text` — a bare string *is*
  * its own text, so it's replaced outright; an object node keeps every other
  * property via a shallow spread. Needed because a real node can be either
- * shape (see `fixMarkBoundaryEmbeddedSpaces.ts`'s own identical helper and
- * doc comment for the real corpus case this guards against).
+ * shape.
  */
 function withText(node: unknown, text: string): unknown {
   if (typeof node === "string") return text;
   return { ...(node as Record<string, unknown>), text };
 }
 
-/**
- * Why this module declined to act on an otherwise-real
- * footnote-marker-spacing finding.
- * See the top doc comment's own "what still declines" section for the
- * reasoning behind each.
- */
+/** Why this module declined to act on an otherwise-real footnote-marker-spacing finding; see the top doc comment's "what still declines" section. */
 export type SkipReason = "no-next-node" | "block-boundary";
 
 /** Running fixed/skipped counts, threaded through recursion and mutated in place — the same sink pattern `fixMarkBoundaryEmbeddedSpaces.ts`'s own `FixCounts` uses. */
@@ -141,49 +104,36 @@ interface FixCounts {
  * real node follows anywhere" — `true` for every context this module
  * recurses into *except* a `ContentNested` wrapper's own inner `content`.
  *
- * A `ContentNested` wrapper's own content is rendered woven directly into
- * the surrounding array's own text flow (`exportContent.ts`'s
- * `emphasisRunContinuation`, the `nestedArrayCandidate` branch) — reaching
- * the wrapper's own end does not mean reaching the end of anything real; a
- * genuine successor can sit just outside the wrapper (real YLT1898 Luke
- * 20:1: `{paragraph: true, content: [...]}` ends with the footed node, and
- * `{text: "him", marks: ["i"]}` follows immediately outside the wrapper).
+ * A `ContentNested` wrapper's content is woven directly into the surrounding
+ * array's text flow (`exportContent.ts`'s `emphasisRunContinuation`), so
+ * reaching the wrapper's end does not mean reaching the end of anything real
+ * — a genuine successor can sit just outside it. `heading`, `subtitle`, and a
+ * footnote's own `foot.content` are self-contained the opposite way: each
+ * renders as an isolated block, never weaving its trailing edge into a
+ * successor's leading edge, so for all three "the end of this level" really
+ * is the end of anything the run could join with.
  *
- * `heading`, `subtitle`, and a footnote's own `foot.content` are each
- * self-contained the opposite way: a heading/subtitle renders through its
- * own wrapper (`headingWrapper`/`subtitleWrapper`) as an isolated block, and
- * a footnote body renders as its own separate annotation — neither ever
- * weaves its own trailing edge into a real successor's leading edge the way
- * `ContentNested` does, so "the end of this level" genuinely means "the end
- * of anything this run could join with" for all three, same as a verse's
- * own outermost content.
- *
- * Resolving the `ContentNested` case correctly would mean looking past the
- * wrapper into whatever array actually contains it — context a single
- * array-level scan doesn't carry, and isn't worth carrying for the one real
- * shape it would resolve. Rather than guess, the fixer declines; the
- * YLT1898 Luke 20:1 shape above is that one case, left for a hand fix.
+ * Resolving the `ContentNested` case would mean looking past the wrapper into
+ * whatever array contains it — context a single array-level scan doesn't
+ * carry, and isn't worth carrying for the one real shape it would resolve.
+ * Rather than guess, the fixer declines and leaves that shape for a hand fix.
  */
 type EndOfLevelPolicy = boolean;
 
 /**
- * Scan one array level left to right for a `foot`-carrying, non-`hasNestedContent`
- * node whose marker renders after whitespace (per {@link
- * findWhitespaceSourceIndex} — identical to the footnote-marker-spacing
- * check's own detection, so the
- * two never drift apart in what they consider a finding) and either resolve
- * it (delete, or extract into a standalone node) or decline it (see the top
- * doc comment's own breakdown).
+ * Scan one array level left to right for a `foot`-carrying,
+ * non-`hasNestedContent` node whose marker renders after whitespace (per
+ * {@link findWhitespaceSourceIndex}, identical to the audit's own detection,
+ * so the two never drift on what counts as a finding) and either resolve it,
+ * decline it, or recognize it as already settled — the last being neither
+ * fixed nor declined, since there was never anything wrong with it.
  *
- * Re-describes every node fresh from the current (possibly already-rewritten)
- * working copy on each iteration, the same chain-safety discipline
- * `fixMarkBoundaryEmbeddedSpaces.ts`'s own `rewriteArrayLevel` uses: a
- * textless anchor's own source node may sit several slots behind it, and an
- * earlier fix in this same pass must be visible before a later node's own
- * eligibility is judged. A standalone-node insertion only ever splices in
- * *after* the node currently being judged (`i`), so `i` itself never needs
- * realigning the way the mark-boundary-embedded-space check's own
- * leading-direction insertion does.
+ * Re-describes every node fresh from the current working copy on each
+ * iteration, the chain-safety discipline the sibling fixers use: a textless
+ * anchor's source node may sit several slots behind it, and an earlier fix in
+ * the same pass must be visible before a later node's eligibility is judged.
+ * A standalone-node insertion only ever splices in *after* the node being
+ * judged, so `i` itself never needs realigning.
  */
 function rewriteArrayLevel(
   nodes: readonly unknown[],
@@ -228,77 +178,36 @@ function rewriteArrayLevel(
     const nextText = next.text as string;
 
     if (/^\s/.test(nextText)) {
-      // Redundant: the receiver already carries its own independent
-      // joining space, so the source's own copy is dropped rather than
-      // doubled (top doc comment's own "redundant, deletion" section).
+      // Redundant: the receiver already supplies the join, so the source's
+      // own copy is dropped rather than doubled.
       working[sourceIndex] = withText(working[sourceIndex], stripped);
       counts.fixed++;
       continue;
     }
 
-    // Sole: the source's own trailing run is the only thing separating the
-    // two real words, so it stays exactly where it is — the fix moves
-    // `foot` instead, leaving both real text nodes' own text completely
-    // untouched (top doc comment's own "sole, standalone-node extraction"
-    // section).
+    // Sole: the source's trailing run is the only thing separating the two
+    // real words, so it stays put and the fix moves `foot` instead (top doc
+    // comment's "sole, standalone-node extraction" section).
     if (shape.text === undefined || shape.text === "") {
-      if (j === i + 1) {
-        // Node `i` already renders no text of its own — either a bare
-        // `{foot: {...}}` node, or the `{text: "", foot: {...}}` husk shape
-        // that renders identically to one — and already sits immediately
-        // before the real next node, nothing textless in between. That's
-        // already the settled, extracted shape — whether this same pass
-        // just spliced it in a few nodes back, or the corpus already
-        // carried it that way — so there's nothing left to do. Continuing
-        // here rather than re-extracting is what keeps a freshly-spliced
-        // (or already-on-disk) standalone node from being "fixed" again
-        // into a garbage `{text: ""}` husk with its own `foot` stripped
-        // away and nowhere left to go.
-        continue;
-      }
-      // A run of two or more textless foot (or Strong's) siblings sits
-      // between node `i` and the real next node — real CSB2017 Matthew
-      // 15:4: two textless foot siblings ride one after another on "your
-      // mother;", both annotating that same word. Node `i`'s own `foot` is
-      // already correctly positioned right where it structurally
-      // belongs — there's nothing to extract from a node with no text of
-      // its own. But the source's trailing run still has to move past the
-      // *whole* run, not just past node `i`, to reach its correct home
-      // right before the real next node ("and,"), same as the plain
-      // relocation case just above. Only the first sibling in the run ever
-      // reaches here: by the time a later sibling's own iteration runs,
-      // `source`'s trailing run is already gone, so
-      // `findWhitespaceSourceIndex` returns `undefined` for it and the
-      // early check above skips it before this branch is ever reached
-      // again.
-      working[sourceIndex] = withText(working[sourceIndex], stripped);
-      if (agreesInFormatting(source, next) || isFormattingSubsetOf(source, next)) {
-        // `source` and the real next node aren't a genuine formatting
-        // disagreement — real CSB2017 Matthew 15:4: `source` carries
-        // `["b","woc"]`, "and," carries `["woc"]` alone, a strict subset
-        // (the identical nesting relationship `isFormattingSubsetOf`'s own
-        // doc comment names for YLT1898 `["woc"]`-vs-`["i","woc"]`). A
-        // standalone space node would be manufacturing a boundary that
-        // doesn't need one: the run absorbs straight onto the real next
-        // node's own leading edge instead, matching
-        // `fixMarkBoundaryEmbeddedSpaces.ts`'s own ordinary relocation path
-        // for exactly this formatting relationship.
-        working[j] = withText(working[j], run + nextText);
-      } else {
-        // Genuine disagreement (real KJV1769 shape: an unmarked footed
-        // predecessor before a small-caps successor) — neither real
-        // node's own text is a legal home for the run, so it becomes its
-        // own standalone node instead, the identical structural fix
-        // `fixMarkBoundaryEmbeddedSpaces.ts` applies for the same reason.
-        working.splice(j, 0, " ");
-      }
-      counts.fixed++;
+      // Node `i` renders no text of its own, so its `foot` already sits
+      // where it structurally belongs and there is nothing to extract — the
+      // same condition, with the same absence of any adjacency requirement,
+      // as the audit's matching exemption, so the two never drift.
       continue;
     }
+
+    // The extracted node lands at the first slot after `i` that renders
+    // anything, which is not the formatting-agreement target `j`: landing
+    // beyond a bare foot node would swap the two markers and reassign the
+    // letters they export under. The walk can't run off the end, since `j`
+    // renders and at worst stops it there, and `shapes` still describes
+    // every slot from `i + 1` on, since stripping `foot` off node `i` shifts
+    // nothing after it.
+    const landing = findFirstRenderedIndex(shapes, i + 1) ?? j;
 
     const { foot, ...rest } = working[i] as Record<string, unknown>;
     working[i] = rest;
-    working.splice(j, 0, { foot });
+    working.splice(landing, 0, { foot });
     counts.fixed++;
   }
 
@@ -337,12 +246,11 @@ function rewriteNode(node: unknown, counts: FixCounts): unknown {
 }
 
 /**
- * Rewrites one `Content` value, single node or array alike — the same
- * `asArray`-then-scan shape `fixMarkBoundaryEmbeddedSpaces.ts`'s own {@link
- * rewriteLevel} uses. A single node has no siblings to relocate whitespace
- * across, so only its own nested levels change (via {@link rewriteNode}); an
- * array first rewrites every child's own nested levels, then resolves
- * whitespace at this level via {@link rewriteArrayLevel}.
+ * Rewrites one `Content` value, single node or array alike. A single node has
+ * no siblings to relocate whitespace across, so only its own nested levels
+ * change (via {@link rewriteNode}); an array first rewrites every child's own
+ * nested levels, then resolves whitespace at this level via {@link
+ * rewriteArrayLevel}.
  */
 function rewriteLevel(content: unknown, counts: FixCounts, endOfLevelIsSafeToDelete: EndOfLevelPolicy): unknown {
   if (Array.isArray(content)) {
@@ -360,14 +268,11 @@ function rewriteLevel(content: unknown, counts: FixCounts, endOfLevelIsSafeToDel
  * or standalone-node extraction (see the top doc comment's own breakdown),
  * declining only the two shapes named there.
  *
- * `changed` reflects `counts.fixed`, not a `JSON.stringify` comparison,
- * matching {@link relocateMarkBoundarySpacesInContent}'s own reasoning in
- * `fixMarkBoundaryEmbeddedSpaces.ts`: a skip never rewrites anything, so
- * counting the fixes themselves is exact. `skipped` is always returned,
- * changed or not. The verse's own outermost content is always {@link
- * EndOfLevelPolicy} `true` — nothing sits outside a verse's own content for
- * a trailing run to join with, the same reasoning `heading`/`subtitle`/
- * `foot.content` get from {@link rewriteNode}.
+ * `changed` reflects `counts.fixed`, not a `JSON.stringify` comparison: a
+ * skip never rewrites anything, so counting the fixes is exact. `skipped` is
+ * always returned, changed or not. The verse's own outermost content is
+ * always {@link EndOfLevelPolicy} `true` — nothing sits outside a verse's
+ * content for a trailing run to join with.
  *
  * @param content - A verse's own `content` value, or any subtree of it
  * @returns The rewritten tree (the original reference when nothing was

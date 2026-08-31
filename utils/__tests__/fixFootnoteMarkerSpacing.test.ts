@@ -121,22 +121,12 @@ describe("relocateFootnoteMarkerSpacesInContent — sole (standalone-node extrac
       ],
     });
   });
-});
 
-describe("relocateFootnoteMarkerSpacesInContent — a run of two or more textless foot siblings", () => {
-  it("should absorb the source's trailing run onto the real next node's own leading edge when the two real sides are a formatting subset, not a standalone space node — real CSB2017 Matthew 15:4 shape", () => {
-    // "Honor your father and your mother;" carries marks: ["b","woc"]; two
-    // stacked cross-reference footnotes ride after it as textless
-    // siblings; "and," carries marks: ["woc"] alone — a strict subset of
-    // the predecessor's marks, the identical nesting relationship
-    // isFormattingSubsetOf's own doc comment names for the YLT1898
-    // ["woc"]-vs-["i","woc"] case. Not a genuine disagreement, so the run
-    // absorbs directly onto "and,"'s own leading edge.
+  it("should splice the extracted node immediately after its source when a textless foot sibling follows, so the two markers keep the order they were written in", () => {
     const content = [
-      { text: "Honor your father and your mother; ", marks: ["b", "woc"] },
-      { foot: { type: "xrf", content: "Ex 20:12; Dt 5:16" } },
-      { foot: { type: "xrf", content: "Ex 20:12; Dt 5:16; Eph 6:2" } },
-      { text: "and,", marks: ["woc"] },
+      { text: "the first words ", foot: { type: "trn", content: "note one" } },
+      { foot: { type: "xrf", content: "note two" } },
+      "and then more.",
     ];
 
     const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
@@ -144,20 +134,73 @@ describe("relocateFootnoteMarkerSpacesInContent — a run of two or more textles
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
     expect(result).toEqual([
-      { text: "Honor your father and your mother;", marks: ["b", "woc"] },
-      { foot: { type: "xrf", content: "Ex 20:12; Dt 5:16" } },
-      { foot: { type: "xrf", content: "Ex 20:12; Dt 5:16; Eph 6:2" } },
-      { text: " and,", marks: ["woc"] },
+      { text: "the first words " },
+      { foot: { type: "trn", content: "note one" } },
+      { foot: { type: "xrf", content: "note two" } },
+      "and then more.",
     ]);
   });
 
-  it("should fall back to a standalone space node when the two real sides genuinely disagree in formatting, not merge onto either one", () => {
-    // Same run-of-two-footnotes shape as above, but the real next node
-    // carries marks the predecessor doesn't share at all (no subset
-    // relationship either way) — neither real node's own text is a legal
-    // home for the run, so it becomes its own node instead, the identical
-    // structural fix fixMarkBoundaryEmbeddedSpaces.ts applies for the same
-    // reason.
+  it("should walk past a textless Strong's anchor when placing the extracted node, since that anchor renders nothing", () => {
+    // The boundary the landing rule turns on — the slot is unchanged from
+    // what it was before the rule existed, so this pins a narrowing rather
+    // than driving it.
+    const content = [
+      { text: "the first words ", foot: { type: "trn", content: "note" }, strong: "H1234" },
+      { strong: "H853" },
+      "and then more.",
+    ];
+
+    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual([
+      { text: "the first words ", strong: "H1234" },
+      { strong: "H853" },
+      { foot: { type: "trn", content: "note" } },
+      "and then more.",
+    ]);
+  });
+
+  it("should be idempotent across a textless foot sibling — the extracted node is already settled on the second pass", () => {
+    const content = [
+      { text: "the first words ", foot: { type: "trn", content: "note one" } },
+      { foot: { type: "xrf", content: "note two" } },
+      "and then more.",
+    ];
+
+    const first = relocateFootnoteMarkerSpacesInContent(content as never);
+    const second = relocateFootnoteMarkerSpacesInContent(first.content);
+
+    expect(second.changed).toBe(false);
+    expect(second.skipped).toEqual([]);
+    expect(second.content).toEqual(first.content);
+  });
+});
+
+describe("relocateFootnoteMarkerSpacesInContent — a run of two or more textless foot siblings is already settled", () => {
+  it("should leave the run exactly where it is when the two real sides are a formatting subset of each other", () => {
+    // A formatting subset buys the run no way across: the obstacle is a
+    // rendered marker, not a formatting boundary.
+    const content = [
+      { text: "the first words ", marks: ["b", "woc"] },
+      { foot: { type: "xrf", content: "note one" } },
+      { foot: { type: "xrf", content: "note two" } },
+      { text: "and then more,", marks: ["woc"] },
+    ];
+
+    const result = relocateFootnoteMarkerSpacesInContent(content as never);
+
+    expect(result.changed).toBe(false);
+    expect(result.skipped).toEqual([]);
+    expect(result.content).toBe(content);
+  });
+
+  it("should leave the run exactly where it is when the two real sides genuinely disagree in formatting", () => {
+    // The mirror of the subset case above: a genuine disagreement buys the
+    // run no way across either. Neither formatting relationship gets special
+    // treatment, because formatting was never the question.
     const content = [
       { text: "some text ", marks: ["b", "woc"] },
       { foot: { type: "trn", content: "note one" } },
@@ -165,17 +208,11 @@ describe("relocateFootnoteMarkerSpacesInContent — a run of two or more textles
       { text: "Lord", marks: ["sc"] },
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const result = relocateFootnoteMarkerSpacesInContent(content as never);
 
-    expect(changed).toBe(true);
-    expect(skipped).toEqual([]);
-    expect(result).toEqual([
-      { text: "some text", marks: ["b", "woc"] },
-      { foot: { type: "trn", content: "note one" } },
-      { foot: { type: "trn", content: "note two" } },
-      " ",
-      { text: "Lord", marks: ["sc"] },
-    ]);
+    expect(result.changed).toBe(false);
+    expect(result.skipped).toEqual([]);
+    expect(result.content).toBe(content);
   });
 });
 
@@ -216,10 +253,7 @@ describe("relocateFootnoteMarkerSpacesInContent — already-settled bare foot no
 });
 
 describe("relocateFootnoteMarkerSpacesInContent — redundant (deletion)", () => {
-  it("should delete the source's own trailing run rather than double it — real WEBUS2020 Matthew 11:23 shape (pre-a544b73), both sides woc-marked", () => {
-    // The receiver's own leading space already performs the join, so
-    // deleting the source's own redundant copy is the fix — see
-    // fixFootnoteMarkerSpacing.ts's own "redundant, deletion" reasoning.
+  it("should delete the source's own trailing run rather than double it, both sides woc-marked", () => {
     const content = [
       {
         text: "You, Capernaum, who are exalted to heaven, you will go down to Hades. ",
@@ -262,6 +296,29 @@ describe("relocateFootnoteMarkerSpacesInContent — redundant (deletion)", () =>
     expect(result).toEqual([
       { text: "the earth", foot: { type: "trn", content: "note" } },
       " was formed.",
+    ]);
+  });
+
+  it("should still resolve a marker with whitespace on both sides by deleting the leading whitespace, never relocating it, when a run of textless siblings separates the two real nodes", () => {
+    // Pins the branch ordering this rule depends on: the redundant deletion
+    // has to be reached before the run case, which otherwise leaves this
+    // exact shape alone.
+    const content = [
+      { text: "the earth ", marks: ["woc"] },
+      { foot: { type: "trn", content: "note one" } },
+      { foot: { type: "trn", content: "note two" } },
+      { text: " was formed.", marks: ["woc"] },
+    ];
+
+    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(skipped).toEqual([]);
+    expect(result).toEqual([
+      { text: "the earth", marks: ["woc"] },
+      { foot: { type: "trn", content: "note one" } },
+      { foot: { type: "trn", content: "note two" } },
+      { text: " was formed.", marks: ["woc"] },
     ]);
   });
 

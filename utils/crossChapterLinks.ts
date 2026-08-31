@@ -197,23 +197,58 @@ const UNRESOLVED: BibleLinkClassification = {
  * @param target - A `bibleLink` target string, exactly as written.
  */
 export function classifyBibleLink(versionId: string, target: string): BibleLinkClassification {
+  const grammar = parseTarget(target);
+  if (grammar.bookName === null) return { ...grammar, book: null, firstChapterLastVerse: null };
+
+  const book = resolveBookName(versionId, grammar.bookName);
+  const firstChapterLastVerse =
+    book === null ? null : (lastVerseOf(versionId, book, grammar.fromChapter as number) ?? null);
+  return { ...grammar, book, firstChapterLastVerse };
+}
+
+/**
+ * Everything {@link classifyBibleLink} reports except the two fields that
+ * need a version's own data to answer — the target's own grammar, which no
+ * version has any say in.
+ */
+type TargetGrammar = Omit<BibleLinkClassification, "book" | "firstChapterLastVerse">;
+
+const UNPARSED_GRAMMAR: TargetGrammar = {
+  shape: "unparsed",
+  bookName: null,
+  fromChapter: null,
+  fromVerse: null,
+  toChapter: null,
+  toVerse: null,
+  dash: null,
+};
+
+/**
+ * Read one target's grammar, with no version involved — which book name it
+ * writes, which endpoints it names, and which shape it is. Split out from
+ * {@link classifyBibleLink} because the checks that judge a target against
+ * real chapter/verse data disagree about *whose* data to judge it against,
+ * and none of them disagree about the grammar.
+ *
+ * Never throws. A target this repo's grammar does not describe comes back as
+ * `"unparsed"` rather than raising.
+ */
+function parseTarget(target: string): TargetGrammar {
   // A comma-merged target is excluded before the dash grammar is even
   // attempted — see the `mergedTarget` case in TargetShape's doc comment.
-  if (target.includes(",")) return { ...UNRESOLVED, shape: "mergedTarget" };
+  if (target.includes(",")) return { ...UNPARSED_GRAMMAR, shape: "mergedTarget" };
 
   const dashMatch = DASH.exec(target);
   const firstText = dashMatch ? target.slice(0, dashMatch.index) : target;
   const secondText = dashMatch ? target.slice(dashMatch.index + 1) : undefined;
 
   const from = parseEndpoint(firstText);
-  if (!from) return UNRESOLVED; // does not match `Book C[:V]` at all
+  if (!from) return UNPARSED_GRAMMAR; // does not match `Book C[:V]` at all
 
-  const book = resolveBookName(versionId, from.bookName);
-  const firstChapterLastVerse = book === null ? null : (lastVerseOf(versionId, book, from.chapter) ?? null);
-  const base = { bookName: from.bookName, book, fromChapter: from.chapter, fromVerse: from.verse, firstChapterLastVerse };
+  const base = { bookName: from.bookName, fromChapter: from.chapter, fromVerse: from.verse };
 
   if (secondText === undefined) {
-    return { ...UNRESOLVED, ...base, shape: "singleChapter", dash: null };
+    return { ...UNPARSED_GRAMMAR, ...base, shape: "singleChapter", dash: null };
   }
   const dash = dashMatch![0];
 
@@ -224,21 +259,21 @@ export function classifyBibleLink(versionId: string, target: string): BibleLinkC
   // assumed absent).
   const shorthand = /^(\d+):(\d+)$/.exec(secondText);
   if (shorthand) {
-    if (from.verse === null) return { ...UNRESOLVED, ...base, shape: "unparsed", dash };
+    if (from.verse === null) return { ...UNPARSED_GRAMMAR, ...base, shape: "unparsed", dash };
     const toChapter = Number(shorthand[1]);
     const toVerse = Number(shorthand[2]);
-    return { ...UNRESOLVED, ...base, shape: toChapter === from.chapter ? "singleChapter" : "crossChapterRange", toChapter, toVerse, dash };
+    return { ...UNPARSED_GRAMMAR, ...base, shape: toChapter === from.chapter ? "singleChapter" : "crossChapterRange", toChapter, toVerse, dash };
   }
 
   if (/^\d+$/.test(secondText)) {
     const bare = Number(secondText);
-    if (from.verse === null) return { ...UNRESOLVED, ...base, shape: "wholeChapterRange", toChapter: bare, dash };
-    return { ...UNRESOLVED, ...base, shape: "singleChapter", toChapter: from.chapter, toVerse: bare, dash };
+    if (from.verse === null) return { ...UNPARSED_GRAMMAR, ...base, shape: "wholeChapterRange", toChapter: bare, dash };
+    return { ...UNPARSED_GRAMMAR, ...base, shape: "singleChapter", toChapter: from.chapter, toVerse: bare, dash };
   }
 
   const to = parseEndpoint(secondText);
-  if (!to) return { ...UNRESOLVED, ...base, shape: "unparsed", dash };
-  return { ...UNRESOLVED, ...base, shape: to.verse === null ? "wholeChapterRange" : "crossChapterRange", toChapter: to.chapter, toVerse: to.verse, dash };
+  if (!to) return { ...UNPARSED_GRAMMAR, ...base, shape: "unparsed", dash };
+  return { ...UNPARSED_GRAMMAR, ...base, shape: to.verse === null ? "wholeChapterRange" : "crossChapterRange", toChapter: to.chapter, toVerse: to.verse, dash };
 }
 
 // ---------------------------------------------------------------------------
@@ -414,6 +449,121 @@ function verseExistsIn(versionId: string, book: string, chapter: number, verse: 
  */
 function lastChapterOf(versionId: string, book: string): number | undefined {
   return indexFor(versionId).lastChapterByBook.get(book);
+}
+
+// ---------------------------------------------------------------------------
+// Corpus-wide chapter and verse extents
+// ---------------------------------------------------------------------------
+//
+// A bibleLink names a location in Scripture. It does not name a row in the
+// file it happens to be written in, so whether the version being read
+// carries that location has no bearing on whether the link is right. A
+// footnote explaining that a verse is a textual-variant omission is the
+// clearest case: the whole point of the note is that this version lacks the
+// verse, and its link to that verse is correct precisely because the verse
+// is real elsewhere.
+//
+// So the extents below are the union across every version on disk, not one
+// version's own. That makes the corpus its own versification table, which is
+// worth naming plainly: remove the only version carrying some chapter and a
+// link to it starts failing. Nothing here is a canonical reference; it is
+// the best evidence this repo actually holds.
+
+/** Chapter and verse extents pooled across a set of versions — the union, so a location any one of them records counts as real. */
+interface CorpusIndex {
+  /** `"BOOK C"` -> every verse number recorded for that book+chapter by any version in the set. */
+  versesInChapter: ReadonlyMap<string, ReadonlySet<number>>;
+  /** Repo book id -> the highest chapter number recorded for that book by any version in the set. */
+  lastChapterByBook: ReadonlyMap<string, number>;
+  /** Folded name -> repo book id, restricted to books at least one version in the set carries. */
+  bookIdByFoldedName: ReadonlyMap<string, string>;
+}
+
+const corpusIndexCache = new Map<string, CorpusIndex>();
+
+/**
+ * The default version set, read from disk once. Every helper below is called
+ * per link endpoint — hundreds of thousands of times across a corpus — so
+ * re-listing the directory on each one turns a lookup into a syscall storm.
+ * A version directory appearing mid-process is not a case this repo has:
+ * `bibleBooksCache` and `versionIndexCache` already read once and reuse.
+ */
+let versionsOnDiskCache: readonly string[] | undefined;
+
+/** The pooled index over {@link everyVersionOnDisk}, kept aside from the keyed cache so the common call skips building a key at all. */
+let defaultCorpusIndex: CorpusIndex | undefined;
+
+/** Every version directory on disk — the default set the corpus extents pool over. */
+function everyVersionOnDisk(): readonly string[] {
+  if (versionsOnDiskCache) return versionsOnDiskCache;
+  versionsOnDiskCache = !fs.existsSync(BIBLE_VERSIONS_DIR)
+    ? []
+    : fs
+        .readdirSync(BIBLE_VERSIONS_DIR)
+        .filter((entry) => fs.existsSync(path.join(BIBLE_VERSIONS_DIR, entry, "_version.json")));
+  return versionsOnDiskCache;
+}
+
+/**
+ * Build (or return the cached) pooled index for a set of versions, keyed by
+ * that set so an injected set never collides with the default one. Reuses
+ * each version's own {@link indexFor} rather than re-reading any file.
+ *
+ * @param versions - Which versions to pool. Defaults to every version
+ *   directory on disk; tests inject their own set instead.
+ */
+function corpusIndexFor(versions?: readonly string[]): CorpusIndex {
+  if (versions === undefined && defaultCorpusIndex) return defaultCorpusIndex;
+
+  const set = versions ?? everyVersionOnDisk();
+  const cacheKey = [...set].sort().join(" ");
+  const cached = corpusIndexCache.get(cacheKey);
+  if (cached) {
+    if (versions === undefined) defaultCorpusIndex = cached;
+    return cached;
+  }
+
+  const versesInChapter = new Map<string, Set<number>>();
+  const lastChapterByBook = new Map<string, number>();
+  const bookIdByFoldedName = new Map<string, string>();
+
+  for (const versionId of set) {
+    const versionIndex = indexFor(versionId);
+    for (const [key, verses] of versionIndex.versesInChapter) {
+      if (!versesInChapter.has(key)) versesInChapter.set(key, new Set());
+      const pooled = versesInChapter.get(key)!;
+      for (const verse of verses) pooled.add(verse);
+    }
+    for (const [book, chapter] of versionIndex.lastChapterByBook) {
+      if (chapter > (lastChapterByBook.get(book) ?? 0)) lastChapterByBook.set(book, chapter);
+    }
+    for (const [folded, book] of versionIndex.bookIdByFoldedName) bookIdByFoldedName.set(folded, book);
+  }
+
+  const index: CorpusIndex = { versesInChapter, lastChapterByBook, bookIdByFoldedName };
+  corpusIndexCache.set(cacheKey, index);
+  if (versions === undefined) defaultCorpusIndex = index;
+  return index;
+}
+
+/** Resolve a book name to a repo book id against the pooled corpus, so a book absent from the version being read still resolves. */
+function resolveBookNameAnywhere(name: string, versions?: readonly string[]): string | null {
+  return corpusIndexFor(versions).bookIdByFoldedName.get(foldName(name)) ?? null;
+}
+
+/** Whether any pooled version records a given chapter at all. */
+function chapterExistsAnywhere(book: string, chapter: number, versions?: readonly string[]): boolean {
+  return corpusIndexFor(versions).versesInChapter.has(`${book} ${chapter}`);
+}
+
+/** Whether any pooled version records a specific verse — a genuine gap in one version is not a gap if another version fills it. */
+function verseExistsAnywhere(book: string, chapter: number, verse: number, versions?: readonly string[]): boolean {
+  return corpusIndexFor(versions).versesInChapter.get(`${book} ${chapter}`)?.has(verse) ?? false;
+}
+
+/** The highest chapter number any pooled version records for a book, or `undefined` when none carries it. */
+function lastChapterAnywhere(book: string, versions?: readonly string[]): number | undefined {
+  return corpusIndexFor(versions).lastChapterByBook.get(book);
 }
 
 // ---------------------------------------------------------------------------
@@ -1112,43 +1262,51 @@ export function reconstructTruncatedRangesInContent(
 }
 
 // ---------------------------------------------------------------------------
-// Unresolvable-target detection and unlinking
+// Unresolvable-target detection
 // ---------------------------------------------------------------------------
 //
 // A bibleLink target can parse (see classifyBibleLink) and still name a
-// book outside this version's own canon, a chapter it lacks, or a verse the
-// chapter lacks. The real ASV1901 MRK 9:44 case is exactly this shape: its
-// own footnote is the note explaining that verse 46 is a textual-variant
-// omission, and its link to "Mark 9:46" lands nowhere, because ASV1901
-// never recorded that verse.
+// chapter or verse that exists nowhere in this repo at all. That is a
+// defect worth reporting: a link nothing can ever open is a link written
+// wrong.
+//
+// A location the version being read happens to lack is a different thing
+// entirely, and is never a finding. A footnote saying a verse was omitted
+// here is *about* a verse this version does not carry, and its link to that
+// verse is correct for exactly that reason. Canon membership is excluded
+// the same way, and always was: an NT-only version's own footnote can say
+// "see Isaiah 7:14" without contradiction. All three cases collapse into
+// one rule — judge a target against every version on disk, never against
+// the one it is written in.
+//
+// Reporting is the whole of it. Nothing here rewrites a link, because the
+// two things a bad target can be — a mis-imported shorthand, or a genuine
+// mistake — both want a person's attention, and silently dropping the link
+// buys quiet at the cost of hiding whichever one it was.
 //
 // An unparsed target (classifyBibleLink's "unparsed" shape) is a different
-// question and never a finding here — WEBUS2020's real
-// "Deuteronomy 32:43 LXX" is a deliberate versification siglum verify.ts
-// already asserts by name. A comma-merged target ("mergedTarget") is
-// excluded the same way: neither shape ever resolves to a single
-// book/chapter/verse to judge in the first place.
+// question and never a finding here — a deliberate versification siglum
+// trailing the endpoint reads as unparsed rather than wrong. A comma-merged
+// target ("mergedTarget") is excluded the same way: neither shape ever
+// resolves to a single book/chapter/verse to judge in the first place.
 
 /**
  * Why {@link findUnresolvableTarget} judged one endpoint of a bibleLink
- * target unresolvable against `versionId`'s own data.
+ * target unresolvable — meaning no version in this repo records the
+ * location it names, not that the version being read happens to lack it.
  *
- * Deliberately never "the book isn't in this version's own canon": an
- * embedded reference can name a real book regardless of whether the version
- * being read happens to carry it (an NT-only version's own footnote can
- * still say "see Isaiah 7:14" without contradiction — `utils/usfm/references.ts`'s
- * own embedded scanner resolves this kind of mention un-restricted by canon
- * for exactly that reason), so canon membership alone is never treated as a
- * reason to unlink a target here either.
+ * Deliberately never "the book isn't in some version's canon": an embedded
+ * reference can name a real book regardless of which version is being read
+ * (`utils/usfm/references.ts`'s own embedded scanner resolves this kind of
+ * mention un-restricted by canon for exactly that reason).
  */
 export type UnresolvableTargetReason = "chapter-not-carried" | "verse-not-carried";
 
 /**
- * One bibleLink target's unresolvable verdict against one version's own
- * data — the single place both {@link findUnresolvableTargets} (reporting)
- * and {@link unlinkUnresolvableTargetsInContent} (fixing) get their answer
- * from, matching {@link TruncatedRangeResult}'s own role for the
- * truncated-range check.
+ * One bibleLink target's unresolvable verdict against the pooled corpus —
+ * the single place {@link findUnresolvableTargets} gets its answer from,
+ * matching {@link TruncatedRangeResult}'s own role for the truncated-range
+ * check.
  */
 export interface UnresolvableTargetResult {
   /** Why this endpoint is unresolvable. */
@@ -1161,80 +1319,84 @@ export interface UnresolvableTargetResult {
   chapter: number;
   /** The verse number the unresolvable endpoint named, or `null` for a bare-chapter endpoint. */
   verse: number | null;
-  /** This version's own real highest chapter number for `book`, read from its own data. Reported so a `"chapter-not-carried"` finding's own message names the version's real chapter count rather than leaving a reader to look it up. */
-  lastChapterInVersion: number | null;
+  /** The highest chapter number any version on disk records for `book`. Reported so a `"chapter-not-carried"` finding's own message names a real chapter count rather than leaving a reader to look it up. */
+  lastChapterAnywhere: number | null;
 }
 
 /**
- * Judge one endpoint (`from` or `to`) of a target against `versionId`'s own
- * data — the shared per-endpoint judgment {@link findUnresolvableTarget}
+ * Judge one endpoint (`from` or `to`) of a target against the pooled
+ * corpus — the shared per-endpoint judgment {@link findUnresolvableTarget}
  * applies to both ends of a range, so a range unresolvable at either end is
  * still one finding rather than two separate code paths.
  *
- * @param book - `null` when the endpoint's own book name didn't resolve
- *   against this version's canon — never itself a finding (see {@link
+ * @param book - `null` when the endpoint's own book name resolved to no book
+ *   any version carries — never itself a finding (see {@link
  *   UnresolvableTargetReason}'s own doc comment for why); there is simply
  *   nothing left to judge without a resolved book to look chapter/verse data
  *   up against, so this returns `null` (not unresolvable) the same as a
  *   genuinely resolvable target does.
+ * @param versions - Which versions to pool. Defaults to every version on disk.
  */
 function unresolvableEndpoint(
-  versionId: string,
   bookName: string,
   book: string | null,
   chapter: number,
   verse: number | null,
+  versions?: readonly string[],
 ): UnresolvableTargetResult | null {
   if (book === null) return null;
-  if (lastVerseOf(versionId, book, chapter) === undefined) {
-    return { reason: "chapter-not-carried", bookName, book, chapter, verse, lastChapterInVersion: lastChapterOf(versionId, book) ?? null };
+  const lastChapter = lastChapterAnywhere(book, versions) ?? null;
+  if (!chapterExistsAnywhere(book, chapter, versions)) {
+    return { reason: "chapter-not-carried", bookName, book, chapter, verse, lastChapterAnywhere: lastChapter };
   }
-  if (verse !== null && !verseExistsIn(versionId, book, chapter, verse)) {
-    return { reason: "verse-not-carried", bookName, book, chapter, verse, lastChapterInVersion: lastChapterOf(versionId, book) ?? null };
+  if (verse !== null && !verseExistsAnywhere(book, chapter, verse, versions)) {
+    return { reason: "verse-not-carried", bookName, book, chapter, verse, lastChapterAnywhere: lastChapter };
   }
   return null;
 }
 
 /**
- * Decide whether one bibleLink target is unresolvable against `versionId`'s
- * own real chapter/verse data — the single-target entry point both
- * {@link findUnresolvableTargets} and
- * {@link unlinkUnresolvableTargetsInContent} are built on, directly callable
- * the same way {@link classifyBibleLink} is.
+ * Decide whether one bibleLink target names a location no version on disk
+ * records — the single-target entry point {@link findUnresolvableTargets} is
+ * built on, directly callable the same way {@link classifyBibleLink} is.
+ *
+ * **Takes no version id.** A link names a location in Scripture, so the
+ * version it happens to be written in has no say in whether it is right;
+ * see this section's own header comment.
  *
  * **A target the endpoint grammar cannot parse at all, or a comma-merged
- * target, is never a finding here** — {@link classifyBibleLink}'s
- * `"unparsed"` and `"mergedTarget"` shapes both mean no book/chapter/verse
- * was ever resolved to judge, not that a resolved location turned out to be
- * missing.
+ * target, is never a finding here** — the `"unparsed"` and `"mergedTarget"`
+ * shapes both mean no book/chapter/verse was ever resolved to judge, not
+ * that a resolved location turned out to be missing.
  *
  * Checks the first (`from`) endpoint before the second (`to`) endpoint of a
  * range, returning on the first unresolvable one found — a range
  * unresolvable at both ends is still one finding, not two.
  *
- * @param versionId - A `bible-versions/` directory name, e.g. `"ASV1901"`.
  * @param target - A `bibleLink` target string, exactly as written.
+ * @param versions - Which versions to pool extents from. Defaults to every
+ *   version directory on disk; tests inject their own set instead.
  * @returns `null` when the target resolves, or wasn't attempted (unparsed,
- *   merged). Otherwise the verdict, with enough detail for both a report line
- *   and a fixer decision.
+ *   merged). Otherwise the verdict, with enough detail for a report line.
  */
-export function findUnresolvableTarget(versionId: string, target: string): UnresolvableTargetResult | null {
-  const classification = classifyBibleLink(versionId, target);
-  if (classification.shape === "unparsed" || classification.shape === "mergedTarget") return null;
+export function findUnresolvableTarget(target: string, versions?: readonly string[]): UnresolvableTargetResult | null {
+  const grammar = parseTarget(target);
+  if (grammar.shape === "unparsed" || grammar.shape === "mergedTarget") return null;
 
-  const bookName = classification.bookName as string;
-  const fromResult = unresolvableEndpoint(versionId, bookName, classification.book, classification.fromChapter as number, classification.fromVerse);
+  const bookName = grammar.bookName as string;
+  const book = resolveBookNameAnywhere(bookName, versions);
+  const fromResult = unresolvableEndpoint(bookName, book, grammar.fromChapter as number, grammar.fromVerse, versions);
   if (fromResult) return fromResult;
 
-  if (classification.toChapter !== null) {
-    const toResult = unresolvableEndpoint(versionId, bookName, classification.book, classification.toChapter, classification.toVerse);
+  if (grammar.toChapter !== null) {
+    const toResult = unresolvableEndpoint(bookName, book, grammar.toChapter, grammar.toVerse, versions);
     if (toResult) return toResult;
   }
 
   return null;
 }
 
-/** One genuine unresolvable-target finding — a bibleLink whose target does not resolve against its own version's real chapter/verse data. */
+/** One genuine unresolvable-target finding — a bibleLink whose target names a location no version on disk records. */
 export interface UnresolvableTargetFinding extends UnresolvableTargetResult {
   /** Repo book id of the verse this `bibleLink` is attached to. */
   atBook: string;
@@ -1252,16 +1414,16 @@ export interface UnresolvableTargetFinding extends UnresolvableTargetResult {
 
 /**
  * Render one unresolvable-target finding as this report's one-line format,
- * matching {@link formatCrossChapterFinding}'s own shape. Names this
- * version's own real chapter count for a `"chapter-not-carried"` finding, so
- * a reader can tell this expected, permanent state apart from a genuine
- * regression without looking anything up.
+ * matching {@link formatCrossChapterFinding}'s own shape. Names the highest
+ * chapter any version records for a `"chapter-not-carried"` finding, so a
+ * reader can tell a target that overshoots a short book apart from one that
+ * names a plausible chapter without looking anything up.
  */
 export function formatUnresolvableTargetFinding(finding: UnresolvableTargetFinding): string {
   const detail =
     finding.reason === "chapter-not-carried"
-      ? `${finding.bookName} ${finding.chapter} — this version carries only ${finding.lastChapterInVersion ?? 0} chapter(s) in ${finding.bookName}`
-      : `${finding.bookName} ${finding.chapter}:${finding.verse} — this version carries no such verse`;
+      ? `${finding.bookName} ${finding.chapter} — no version carries more than ${finding.lastChapterAnywhere ?? 0} chapter(s) in ${finding.bookName}`
+      : `${finding.bookName} ${finding.chapter}:${finding.verse} — no version carries that verse`;
   return (
     `${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
     `"${finding.target}" does not resolve — ${detail}`
@@ -1269,15 +1431,21 @@ export function formatUnresolvableTargetFinding(finding: UnresolvableTargetFindi
 }
 
 /**
- * Audit one version for `bibleLink` targets that do not resolve against its
- * own real chapter/verse data.
+ * Audit one version's own `bibleLink` targets for locations no version on
+ * disk records. The version named here decides which links are *read*, never
+ * which locations count as real.
  *
  * @param versionId - A `bible-versions/` directory name, e.g. `"ASV1901"`.
+ * @param versions - Which versions to pool extents from. Defaults to every
+ *   version directory on disk; tests inject their own set instead.
  * @returns `findings` (empty for a version with none) and `scanned` (every
  *   `bibleLink` node visited, matching {@link findCrossChapterLinks}'s own
  *   contract).
  */
-export function findUnresolvableTargets(versionId: string): {
+export function findUnresolvableTargets(
+  versionId: string,
+  versions?: readonly string[],
+): {
   findings: readonly UnresolvableTargetFinding[];
   scanned: number;
 } {
@@ -1287,7 +1455,7 @@ export function findUnresolvableTargets(versionId: string): {
   for (const record of readVersionRecords(versionId)) {
     walkContent(record.content, "verse", null, (link, zone, footnoteType) => {
       scanned += 1;
-      const result = findUnresolvableTarget(versionId, link.bibleLink);
+      const result = findUnresolvableTarget(link.bibleLink, versions);
       if (!result) return;
       findings.push({
         ...result,
@@ -1304,103 +1472,154 @@ export function findUnresolvableTargets(versionId: string): {
   return { findings, scanned };
 }
 
-/** Why {@link unlinkUnresolvableTargetsInContent} declined to unlink an otherwise-unresolvable target. */
-export type UnlinkSkipReason = "empty-override";
+// ---------------------------------------------------------------------------
+// Single-chapter shorthand
+// ---------------------------------------------------------------------------
+//
+// A book with one chapter is cited by verse alone. Written out, that
+// shorthand looks exactly like a chapter number, so a target carrying it
+// reads as naming a chapter the book does not have — and an importer that
+// expands a source's own abbreviated reference without knowing the book is
+// one chapter long writes that shape by the hundred.
+//
+// The shorthand itself is correct and worth keeping in front of a reader.
+// Only the target needs the chapter spelled out, so the fix moves the
+// chapter into the target and leaves the shorthand as the display override.
+
+/** One single-chapter shorthand target, with the target and display text it should become. */
+export interface SingleChapterShorthand {
+  /** The target with its implied chapter written out. */
+  target: string;
+  /** The shorthand as written, which becomes the display override when the node carries none of its own. */
+  display: string;
+}
 
 /**
- * Unlink every unresolvable `bibleLink` inside one content subtree, in a
- * single walk covering verse content, headings, subtitles, and every
- * footnote type — the same traversal shape
- * {@link reconstructTruncatedRangesInContent} uses, since replacing one node
- * with its own display content (or its bare target) never changes how many
- * nodes are here.
+ * Read one bibleLink target as single-chapter shorthand, or decide it isn't.
  *
- * **The substitution is exactly what a reader was already seeing.**
- * `exportContent.ts`'s own render of a `bibleLink` node returns `content`'s
- * own override when present, and the bare target string otherwise — so this
- * transform's replacement value is always `link.content ?? link.bibleLink`,
- * spliced into the node's own place, which is rendering-neutral by
- * construction. A string override collapses to that override as plain
- * content (the real ASV1901 MRK 9:44 shape); a node with no override at all
- * collapses to its own target string; an object or array override keeps that
- * value as its own content, exactly as it stood.
+ * The shape is a book that no version on disk records more than one chapter
+ * of, cited with an endpoint that names a chapter and no verse. A range is
+ * the same shorthand twice over, and only its first endpoint carries the
+ * book name, so writing the chapter into that endpoint settles the second
+ * one too: a bare second number already reads as a verse in the first
+ * endpoint's own chapter.
  *
- * **Declines rather than deletes** when an override is present but renders no
- * visible text at all (`"empty-override"`) — a node whose display was already
- * meaningless is a different, pre-existing problem this step has no business
- * guessing at by discarding text.
+ * **`Book 1` is the one genuinely ambiguous target**, since chapter one of
+ * a one-chapter book and verse one of it are written identically. Every
+ * other number is unambiguous — the book has no chapter two to mean. What
+ * settles the ambiguous one is the display, because a link is written to be
+ * read: a cross-reference showing a bare book name is pointing at the book,
+ * while a display carrying a number is pointing at the verse that number
+ * names. So a display with no digit in it at all is left alone, and
+ * anything else — a numbered display, or no display, where the target's own
+ * shorthand is what a reader sees — reads as verse one.
  *
- * @param versionId - A `bible-versions/` directory name, e.g. `"ASV1901"`.
- * @param content - Any subtree of a verse's `content`.
- * @returns The subtree's replacement, whether anything changed, and one
- *   {@link UnlinkSkipReason} per finding this pass declined to act on — the
- *   same `{content, changed, skipped}` contract every other gated fixer in
- *   this file already uses.
+ * @param target - A `bibleLink` target string, exactly as written.
+ * @param display - The node's own display override flattened to text, or
+ *   `undefined` when it carries none. Only consulted for `Book 1`.
+ * @param versions - Which versions to pool chapter counts from. Defaults to
+ *   every version directory on disk.
+ * @returns The rewrite, or `null` when this target is not the shorthand
+ *   shape — already carrying a verse included.
  */
-export function unlinkUnresolvableTargetsInContent(
-  versionId: string,
+export function findSingleChapterShorthand(
+  target: string,
+  display?: string,
+  versions?: readonly string[],
+): SingleChapterShorthand | null {
+  const grammar = parseTarget(target);
+  if (grammar.shape === "unparsed" || grammar.shape === "mergedTarget") return null;
+  if (grammar.fromVerse !== null) return null; // already spells its chapter out
+
+  const book = resolveBookNameAnywhere(grammar.bookName as string, versions);
+  if (book === null || lastChapterAnywhere(book, versions) !== 1) return null;
+
+  if (grammar.fromChapter === 1 && grammar.dash === null) {
+    if (display !== undefined && !/\d/.test(display)) return null; // displayed as the whole book
+    return { target: `${grammar.bookName} 1:1`, display: target };
+  }
+
+  const rest = target.slice(String(grammar.bookName).length).trimStart();
+  return { target: `${grammar.bookName} 1:${rest}`, display: target };
+}
+
+/**
+ * Write the implied chapter into every single-chapter shorthand target
+ * inside one content subtree, in a single walk covering verse content,
+ * headings, subtitles, and every footnote type — the same traversal shape
+ * {@link reconstructTruncatedRangesInContent} uses, since rewriting a
+ * target in place never changes how many nodes are here.
+ *
+ * **What a reader sees never changes.** `exportContent.ts` renders a
+ * `bibleLink` node's own `content` override when it has one and the bare
+ * target otherwise, so a node with no override gets the shorthand it was
+ * already displaying written in as its override, and a node that already
+ * has one keeps it untouched.
+ *
+ * @param content - Any subtree of a verse's `content`.
+ * @param versions - Which versions to pool chapter counts from. Defaults to
+ *   every version directory on disk.
+ * @returns The subtree's replacement and whether anything changed. This
+ *   transform never declines, so it reports no skips.
+ */
+export function normalizeSingleChapterShorthandInContent(
   content: Content,
-): { content: Content; changed: boolean; skipped: UnlinkSkipReason[] } {
+  versions?: readonly string[],
+): { content: Content; changed: boolean } {
   if (content === null || content === undefined || typeof content !== "object") {
-    return { content, changed: false, skipped: [] };
+    return { content, changed: false };
   }
 
   if (Array.isArray(content)) {
     let changed = false;
-    const skipped: UnlinkSkipReason[] = [];
     const items = content.map((item) => {
-      const rewritten = unlinkUnresolvableTargetsInContent(versionId, item);
+      const rewritten = normalizeSingleChapterShorthandInContent(item, versions);
       changed = changed || rewritten.changed;
-      skipped.push(...rewritten.skipped);
       return rewritten.content;
     });
-    return { content: items, changed, skipped };
+    return { content: items, changed };
   }
 
   if ("bibleLink" in content) {
-    const result = findUnresolvableTarget(versionId, content.bibleLink);
-    if (!result) return { content, changed: false, skipped: [] };
-
-    const override = content.content;
-    if (override === undefined) {
-      return { content: content.bibleLink, changed: true, skipped: [] };
-    }
-    const flattened = flattenDisplayText(override);
-    if (flattened === null || flattened === "") {
-      return { content, changed: false, skipped: ["empty-override"] };
-    }
-    return { content: override, changed: true, skipped: [] };
+    const shorthand = findSingleChapterShorthand(
+      content.bibleLink,
+      flattenDisplayText(content.content) ?? undefined,
+      versions,
+    );
+    if (!shorthand) return { content, changed: false };
+    const rewritten: ContentBibleLink =
+      content.content === undefined
+        ? { ...content, bibleLink: shorthand.target, content: shorthand.display }
+        : { ...content, bibleLink: shorthand.target };
+    return { content: rewritten, changed: true };
   }
 
   if ("heading" in content) {
-    const rewritten = unlinkUnresolvableTargetsInContent(versionId, content.heading);
-    return { content: { ...content, heading: rewritten.content }, changed: rewritten.changed, skipped: rewritten.skipped };
+    const rewritten = normalizeSingleChapterShorthandInContent(content.heading, versions);
+    return { content: { ...content, heading: rewritten.content }, changed: rewritten.changed };
   }
 
   if ("subtitle" in content) {
-    const rewritten = unlinkUnresolvableTargetsInContent(versionId, content.subtitle);
-    return { content: { ...content, subtitle: rewritten.content }, changed: rewritten.changed, skipped: rewritten.skipped };
+    const rewritten = normalizeSingleChapterShorthandInContent(content.subtitle, versions);
+    return { content: { ...content, subtitle: rewritten.content }, changed: rewritten.changed };
   }
 
   if ("paragraph" in content && content.paragraph !== undefined && typeof content.paragraph !== "boolean") {
-    const rewritten = unlinkUnresolvableTargetsInContent(versionId, content.paragraph);
-    return { content: { ...content, paragraph: rewritten.content }, changed: rewritten.changed, skipped: rewritten.skipped };
+    const rewritten = normalizeSingleChapterShorthandInContent(content.paragraph, versions);
+    return { content: { ...content, paragraph: rewritten.content }, changed: rewritten.changed };
   }
 
   let result: Content = content;
   let changed = false;
-  let skipped: UnlinkSkipReason[] = [];
   if ("content" in content) {
-    const rewritten = unlinkUnresolvableTargetsInContent(versionId, content.content);
+    const rewritten = normalizeSingleChapterShorthandInContent(content.content, versions);
     result = { ...content, content: rewritten.content };
     changed = rewritten.changed;
-    skipped = rewritten.skipped;
   }
   if (content.foot) {
-    const rewritten = unlinkUnresolvableTargetsInContent(versionId, content.foot.content);
+    const rewritten = normalizeSingleChapterShorthandInContent(content.foot.content, versions);
     result = { ...(result as typeof content), foot: { ...content.foot, content: rewritten.content } };
     changed = changed || rewritten.changed;
-    skipped = skipped.concat(rewritten.skipped);
   }
-  return { content: result, changed, skipped };
+  return { content: result, changed };
 }
