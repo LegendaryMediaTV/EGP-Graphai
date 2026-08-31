@@ -1103,7 +1103,7 @@
 <sup>17</sup> And he cometh unto him, and lo, he is standing by his burnt-offering, and the princes of Moab with him, and Balak saith to him: “What hath Jehovah spoken?”
 <sup>18</sup> And he taketh up his simile, and saith: “Rise, Balak, and hear; Give ear unto me, son of Zippor!<br>
 <sup>19</sup> God _is_ not a man—and lieth, And a son of man—and repenteth! Hath He said—and doth He not do _it_? And spoken—and doth He not confirm it?<br>
-<sup>20</sup> Lo, to bless I have received: Yea, He blesseth, and I _can_not reverse it.<br>
+<sup>20</sup> Lo, to bless I have received: Yea, He blesseth, and I <i>can</i>not reverse it.<br>
 <sup>21</sup> He hath not beheld iniquity in Jacob, Nor hath He seen perverseness in Israel; Jehovah his God _is_ with him, And a shout of a king _is_ in him.<br>
 <sup>22</sup> God is bringing them out from Egypt, As the swiftness of a Reem is to him;<br>
 <sup>23</sup> For no enchantment _is_ against Jacob, Nor divination against Israel, At the time it is said of Jacob and Israel, What hath God wrought!<br>

@@ -418,7 +418,7 @@
 <sup>13</sup> And when it was day, he called his disciples; and he chose from them twelve, whom also he named apostles:
 <sup>14</sup> Simon, whom he also named Peter, and Andrew his brother, and <sup>d</sup>James and John, and Philip and Bartholomew,
 <sup>15</sup> and Matthew and Thomas, and <sup>e</sup>James _the son_ of Alphæus, and Simon who was called the Zealot,
-<sup>16</sup> and Judas _the _<sup>f</sup>_son_ of <sup>g</sup>James, and Judas Iscariot, who became a traitor;
+<sup>16</sup> and Judas _the_ <sup>f</sup>_son_ of <sup>g</sup>James, and Judas Iscariot, who became a traitor;
 <sup>17</sup> and he came down with them, and stood on a level place, and a great multitude of his disciples, and a great number of the people from all Judæa and Jerusalem, and the sea coast of Tyre and Sidon, who came to hear him, and to be healed of their diseases;
 <sup>18</sup> and they that were troubled with unclean spirits were healed.
 <sup>19</sup> And all the multitude sought to touch him; for power came forth from him, and healed _them_ all.
