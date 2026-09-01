@@ -840,8 +840,7 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Footnote content sits before Strong's/morph, so removing °{...}
-        // leaves "Βοὸζ G1003 (N-PRI)"
+        // Footnote content sits before Strong's/morph.
         expect(result).toMatch(/Βοὸζ°\{N Βοὸζ ἐκ ⇒ Βόες ἐκ\} G1003 \(N-PRI\)/);
       });
 
@@ -1143,7 +1142,6 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toContain("Βοὸζ°{N Βοὸζ ⇒ Βόες} G1003 (N-PRI)");
-        // Removing °{...} should give correct spacing
         const withoutFootnote = result.replace(/°\{[^}]*\}/g, "");
         expect(withoutFootnote).toContain("Βοὸζ G1003 (N-PRI)");
       });
@@ -1269,7 +1267,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Footnote should appear after the nested content, before Strong's
         expect(result).toContain("the LORD°{Hebrew: YHWH} H3068 God H430");
       });
 
@@ -1766,6 +1763,282 @@ describe("exportContent", () => {
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
           "\n> _A Psalm of David, when he fled from Absalom his son._\n\n<sup>1</sup> Lord, how are they increased that trouble me!<br>"
+        );
+      });
+    });
+
+    describe("the subtitle's italic suppression stops at the footnote boundary", () => {
+      it("should keep the italic mark on a marked text node inside a footnote body collected from a subtitle", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              subtitle: [
+                "a ",
+                { foot: { type: "trn", content: ["b ", { text: "c", marks: ["i"] }] } },
+                " d",
+              ],
+            },
+            "verse text",
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. b _c_"]);
+        expectWellFormedEmphasis(footnotes[0]);
+      });
+
+      it("should keep a whole-body italic mark carried by a nested node inside a footnote body collected from a subtitle", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              subtitle: [
+                "a ",
+                { foot: { type: "trn", content: [{ content: ["b c"], marks: ["i"] }] } },
+                " d",
+              ],
+            },
+            "verse text",
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. _b c_"]);
+        expectWellFormedEmphasis(footnotes[0]);
+      });
+
+      it("should keep the italic mark when a subtitle's footnote body is a lone marked text object rather than an array", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              subtitle: [
+                "a ",
+                { foot: { type: "trn", content: { text: "c", marks: ["i"] } } },
+                " d",
+              ],
+            },
+            "verse text",
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. _c_"]);
+        expectWellFormedEmphasis(footnotes[0]);
+      });
+
+      it("should keep the italic mark when a subtitle's footnote body is a lone marked nested object rather than an array", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              subtitle: [
+                "a ",
+                { foot: { type: "trn", content: { content: ["b c"], marks: ["i"] } } },
+                " d",
+              ],
+            },
+            "verse text",
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. _b c_"]);
+        expectWellFormedEmphasis(footnotes[0]);
+      });
+
+      it("should still suppress the italic on the subtitle's own inline text, which the outer wrapper already italicizes", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            { subtitle: ["a ", { text: "c", marks: ["i"] }, " d"] },
+            "verse text",
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _a c d_\n<sup>1</sup> verse text");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should still suppress the italic when the subtitle's own content is a lone marked text object", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [{ subtitle: { text: "c", marks: ["i"] } }, "verse text"],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _c_\n<sup>1</sup> verse text");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should still suppress the italic when the subtitle's own content is a lone marked nested object", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [{ subtitle: { content: ["b c"], marks: ["i"] } }, "verse text"],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _b c_\n<sup>1</sup> verse text");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should emit nothing at all for two adjacent italic-marked inline nodes in a subtitle, rather than a pair of empty spans", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              subtitle: [
+                "a ",
+                { text: "c", marks: ["i"] },
+                " ",
+                { text: "e", marks: ["i"] },
+                " d",
+              ],
+            },
+            "verse text",
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _a c e d_\n<sup>1</sup> verse text");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should leave a bold mark on the subtitle's own inline text alone, since only the italic was ever suppressed", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            { subtitle: ["a ", { text: "c", marks: ["b"] }, " d"] },
+            "verse text",
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _a **c** d_\n<sup>1</sup> verse text");
+        expectWellFormedEmphasis(result);
+      });
+
+      it("should leave a bold mark in a subtitle's footnote body alone, since only the italic was ever suppressed", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              subtitle: [
+                "a ",
+                { foot: { type: "trn", content: ["b ", { text: "c", marks: ["b"] }] } },
+                " d",
+              ],
+            },
+            "verse text",
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. b **c**"]);
+        expectWellFormedEmphasis(footnotes[0]);
+      });
+
+      it("should render a heading's footnote body with its italic mark, since a heading never suppressed anything", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              heading: [
+                "a ",
+                { foot: { type: "trn", content: ["b ", { text: "c", marks: ["i"] }] } },
+                " d",
+              ],
+            },
+            "verse text",
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("\n### a <sup>a</sup> d\n<sup>1</sup> verse text");
+        expect(footnotes).toEqual(["- <sup>a</sup> Heading. b _c_"]);
+        expectWellFormedEmphasis(footnotes[0]);
+      });
+
+      it("should render an ordinary verse footnote body with its italic mark, outside any subtitle", () => {
+        const verse: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            "a ",
+            {
+              text: "x",
+              foot: { type: "trn", content: ["b ", { text: "c", marks: ["i"] }] },
+            },
+            " d",
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe("<sup>1</sup> a x<sup>a</sup> d");
+        expect(footnotes).toEqual(["- <sup>a</sup> 1. b _c_"]);
+        expectWellFormedEmphasis(footnotes[0]);
+      });
+
+      it("should render plain text with no delimiter anywhere for either direction, since that format's emphasis wrappers are the identity", () => {
+        const footnoteCase: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              subtitle: [
+                "a ",
+                { foot: { type: "trn", content: ["b ", { text: "c", marks: ["i"] }] } },
+                " d",
+              ],
+            },
+            "verse text",
+          ],
+        };
+        const suppressionCase: VerseSchema = {
+          book: "Bk",
+          chapter: 1,
+          verse: 1,
+          content: [
+            { subtitle: ["a ", { text: "c", marks: ["i"] }, " d"] },
+            "verse text",
+          ],
+        };
+        expect(convertVerseToText(footnoteCase)).toBe(
+          "001:001 «a °{b c} d» verse text"
+        );
+        expect(convertVerseToText(suppressionCase)).toBe(
+          "001:001 «a c d» verse text"
         );
       });
     });

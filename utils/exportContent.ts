@@ -73,17 +73,6 @@ function markdownHeadingMarker(type?: "standard" | "acrostic"): string {
   return type === "acrostic" ? "####" : "###";
 }
 
-/**
- * `RenderOptions` for a subtitle's own inner content, with the italic
- * wrapper suppressed — the subtitle wrapper (`> _..._`) already italicizes
- * the whole line, so an inner "i" mark would nest a redundant, colliding
- * delimiter. A no-op for plain text, whose italic wrapper is already the
- * identity function.
- */
-function subtitleInnerOptions(options: RenderOptions): RenderOptions {
-  return { ...options, italicWrapper: (text) => text };
-}
-
 /** Rendering configuration for the markdown export (`exports/markdown-par`). */
 const MARKDOWN_OPTIONS: RenderOptions = {
   includeStrongs: false,
@@ -112,6 +101,25 @@ interface RenderContext {
   footnotes: string[]; // Reference-style footnote lines collected during the render (populated only when footnoteStyle is "reference")
   verseNum?: number; // Current verse number; falls back to this as the footnote prefix ("N.") when footnotePrefix isn't set
   footnotePrefix?: string; // "Subtitle." or "Heading." for special contexts
+  withinItalicWrapper?: boolean; // Whether the text this render returns lands inside an italic wrapper its caller applies (see `italicWrapperFor`)
+}
+
+/** Wraps nothing, for a mark whose delimiters would be redundant where the text lands. */
+const NO_EMPHASIS_WRAP = (text: string) => text;
+
+/**
+ * The italic wrapper to apply to text rendered under `ctx` — the format's own
+ * wrapper, unless the text lands inside an italic wrapper the caller applies
+ * anyway, in which case a second "i" mark would nest a redundant, colliding
+ * delimiter.
+ *
+ * The subtitle path is the only caller that sets the flag: `subtitleWrapper`
+ * italicizes the whole line (`> _..._`). It is a fact about where the text
+ * lands, not about the output format, which is why it lives on the context
+ * beside `footnotePrefix` rather than in `RenderOptions`.
+ */
+function italicWrapperFor(ctx: RenderContext): (text: string) => string {
+  return ctx.withinItalicWrapper ? NO_EMPHASIS_WRAP : ctx.options.italicWrapper;
 }
 
 /**
@@ -397,16 +405,17 @@ function resolveUnparsableEmphasisSpans(markdown: string): string {
  * also relies on for its close/open order. Where the delimiters land
  * relative to whitespace is each wrapper's own business; applying italic to
  * the already-bolded string re-reads the same edges, since bold left the
- * whitespace outside itself.
+ * whitespace outside itself. Only italic routes through `italicWrapperFor`:
+ * it is the one mark whose delimiters can be redundant where the text lands.
  */
 function wrapEmphasisMarks(
   text: string,
   marks: ContentObject["marks"],
-  options: RenderOptions
+  ctx: RenderContext
 ): string {
   let wrapped = text;
-  if (marks?.includes("b")) wrapped = options.boldWrapper(wrapped);
-  if (marks?.includes("i")) wrapped = options.italicWrapper(wrapped);
+  if (marks?.includes("b")) wrapped = ctx.options.boldWrapper(wrapped);
+  if (marks?.includes("i")) wrapped = italicWrapperFor(ctx)(wrapped);
   return wrapped;
 }
 
@@ -554,7 +563,7 @@ function emphasisRunContinuation(
   seed: EmphasisRunState
 ): { text: string; state: EmphasisRunState } {
   const bold = delimitersOf(ctx.options.boldWrapper);
-  const italic = delimitersOf(ctx.options.italicWrapper);
+  const italic = delimitersOf(italicWrapperFor(ctx));
 
   if (!Array.isArray(content)) {
     // No internal run to continue — seal the seed state and render
@@ -730,7 +739,7 @@ function renderContent(content: Content, ctx: RenderContext): string {
 
   if (Array.isArray(content)) {
     const bold = delimitersOf(ctx.options.boldWrapper);
-    const italic = delimitersOf(ctx.options.italicWrapper);
+    const italic = delimitersOf(italicWrapperFor(ctx));
     const { text, state } = emphasisRunContinuation(content, ctx, {
       openMarks: { b: false, i: false },
       pendingWhitespace: "",
@@ -748,16 +757,15 @@ function renderContent(content: Content, ctx: RenderContext): string {
   }
 
   if ("subtitle" in content) {
-    // Suppress the inner italic wrap — see `subtitleInnerOptions`.
     const inner = renderContent(content.subtitle, {
       ...ctx,
-      options: subtitleInnerOptions(ctx.options),
+      withinItalicWrapper: true,
       footnotePrefix: "Subtitle.",
     });
     return ctx.options.subtitleWrapper(inner);
   }
 
-  // Bible reference link - render content override when provided, else the reference text
+  // A bibleLink's own `content` is a display override for the reference text.
   if ("bibleLink" in content) {
     if (content.content !== undefined) {
       return renderContent(content.content, ctx);
@@ -785,6 +793,24 @@ function renderContent(content: Content, ctx: RenderContext): string {
 
   // Text object (may have paragraph flag, strong, morph, etc.)
   return renderTextObject(content as ContentObject, ctx);
+}
+
+/**
+ * The context a footnote body renders under. A body is its own piece of prose
+ * rather than a continuation of the text carrying the marker, so it inherits
+ * none of that text's destination facts. The italic wrapper is the conditional
+ * one: a reference-style body is emitted later on its own line, outside the
+ * caller's wrapper, while an inline body (`°{...}`) is spliced back into the
+ * very text it came from and stays inside it.
+ */
+function footnoteBodyContext(ctx: RenderContext): RenderContext {
+  return {
+    ...ctx,
+    options: { ...ctx.options, includeStrongs: false, includeMorph: false },
+    footnotePrefix: undefined,
+    withinItalicWrapper:
+      ctx.options.footnoteStyle === "inline" && ctx.withinItalicWrapper,
+  };
 }
 
 /**
@@ -824,11 +850,7 @@ function renderTextObjectParts(obj: ContentObject, ctx: RenderContext): Rendered
     const footIndex = ctx.footnotes.length;
     suffixParts.push(ctx.options.footnoteMarker(footIndex));
 
-    const footnoteContent = renderContent(obj.foot.content, {
-      ...ctx,
-      options: { ...ctx.options, includeStrongs: false, includeMorph: false },
-      footnotePrefix: undefined, // Don't propagate prefix to footnote content
-    });
+    const footnoteContent = renderContent(obj.foot.content, footnoteBodyContext(ctx));
 
     if (ctx.options.footnoteStyle === "inline") {
       // No space before { so °{...} stays a clean search/replace target
@@ -861,7 +883,7 @@ function renderTextObjectParts(obj: ContentObject, ctx: RenderContext): Rendered
  */
 function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
   const { prefix, core, suffix } = renderTextObjectParts(obj, ctx);
-  return prefix + wrapEmphasisMarks(core, obj.marks, ctx.options) + suffix;
+  return prefix + wrapEmphasisMarks(core, obj.marks, ctx) + suffix;
 }
 
 /**
@@ -908,11 +930,7 @@ function renderNestedSuffix(obj: ContentNested, ctx: RenderContext, core: string
     const footIndex = ctx.footnotes.length;
     suffixParts.push(ctx.options.footnoteMarker(footIndex));
 
-    const footnoteContent = renderContent(obj.foot.content, {
-      ...ctx,
-      options: { ...ctx.options, includeStrongs: false, includeMorph: false },
-      footnotePrefix: undefined,
-    });
+    const footnoteContent = renderContent(obj.foot.content, footnoteBodyContext(ctx));
 
     if (ctx.options.footnoteStyle === "inline") {
       suffixParts.push(`{${footnoteContent}}`);
@@ -968,7 +986,7 @@ function renderNestedContentParts(obj: ContentNested, ctx: RenderContext): Rende
  */
 function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
   const { prefix, core, suffix } = renderNestedContentParts(obj, ctx);
-  return prefix + wrapEmphasisMarks(core, obj.marks, ctx.options) + suffix;
+  return prefix + wrapEmphasisMarks(core, obj.marks, ctx) + suffix;
 }
 
 // ============================================================================
@@ -1038,7 +1056,7 @@ function convertVerseToMarkdown(
     } else if (typeof firstItem === "object" && "subtitle" in firstItem) {
       const subtitleText = renderContent(firstItem.subtitle, {
         ...ctx,
-        options: subtitleInnerOptions(ctx.options),
+        withinItalicWrapper: true,
         footnotePrefix: "Subtitle.",
       });
       leadingPrefix = `\n${ctx.options.subtitleWrapper(subtitleText)}\n`;
@@ -1227,9 +1245,10 @@ async function convertBibleVersionToMarkdown(
 
         if (!hoistedSubtitle && "subtitle" in firstItem) {
           const ctx: RenderContext = {
-            options: subtitleInnerOptions({ ...MARKDOWN_OPTIONS, includeFootnotes: true }),
+            options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
             footnotes: chapterFootnotes,
             verseNum: chapterVerses[0].verse,
+            withinItalicWrapper: true,
             footnotePrefix: "Subtitle.",
           };
           const subtitleText = renderContent(firstItem.subtitle, ctx);
