@@ -49,7 +49,10 @@
     "content": [
       {
         "text": "Jesse became the father of King David. David the king",
-        "foot": { "type": "var", "content": "NU omits “the king”." }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " omits “the king”."]
+        }
       },
       " became the father of Solomon by her who had been Uriah’s wife."
     ]
@@ -502,7 +505,15 @@
     "content": {
       "paragraph": true,
       "text": "“I indeed baptize you in water for repentance, but he who comes after me is mightier than I, whose sandals I am not worthy to carry. He will baptize you in the Holy Spirit.",
-      "foot": { "type": "var", "content": "TR and NU add “and with fire”" }
+      "foot": {
+        "type": "var",
+        "content": [
+          { "abbr": "TR" },
+          " and ",
+          { "abbr": "NU" },
+          " add “and with fire”"
+        ]
+      }
     }
   },
   {
@@ -669,7 +680,12 @@
         "marks": ["woc"],
         "foot": {
           "type": "var",
-          "content": "TR and NU read “Go away” instead of “Get behind me”"
+          "content": [
+            { "abbr": "TR" },
+            " and ",
+            { "abbr": "NU" },
+            " read “Go away” instead of “Get behind me”"
+          ]
         }
       },
       {
@@ -772,7 +788,10 @@
       {
         "paragraph": true,
         "text": "Walking by the sea of Galilee, he",
-        "foot": { "type": "var", "content": "TR reads “Jesus” instead of “he”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " reads “Jesus” instead of “he”"]
+        }
       },
       " saw two brothers: Simon, who is called Peter, and Andrew, his brother, casting a net into the sea; for they were fishermen."
     ]
@@ -1119,7 +1138,10 @@
       {
         "text": "But I tell you that everyone who is angry with his brother without a cause",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "NU omits “without a cause”." }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " omits “without a cause”."]
+        }
       },
       {
         "text": " will be in danger of the judgment. Whoever says to his brother, ‘Raca!’",
@@ -1186,7 +1208,10 @@
         "paragraph": true,
         "text": "“You have heard that it was said,",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "TR adds “to the ancients”." }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “to the ancients”."]
+        }
       },
       {
         "text": " ‘You shall not commit adultery;’",
@@ -1414,7 +1439,10 @@
         "marks": ["woc"],
         "foot": {
           "type": "var",
-          "content": "NU reads “Gentiles” instead of “tax collectors”."
+          "content": [
+            { "abbr": "NU" },
+            " reads “Gentiles” instead of “tax collectors”."
+          ]
         }
       },
       { "text": " do the same?", "marks": ["woc"] }
@@ -1440,7 +1468,10 @@
         "marks": ["woc"],
         "foot": {
           "type": "var",
-          "content": "NU reads “acts of righteousness” instead of “charitable giving”"
+          "content": [
+            { "abbr": "NU" },
+            " reads “acts of righteousness” instead of “charitable giving”"
+          ]
         }
       },
       {
@@ -1582,7 +1613,10 @@
         "marks": ["woc"],
         "foot": {
           "type": "var",
-          "content": "NU omits “For yours is the Kingdom, the power, and the glory forever. Amen.”"
+          "content": [
+            { "abbr": "NU" },
+            " omits “For yours is the Kingdom, the power, and the glory forever. Amen.”"
+          ]
         }
       }
     ]
@@ -1918,7 +1952,7 @@
         "marks": ["woc"],
         "foot": {
           "type": "var",
-          "content": "TR reads “Because” instead of “How”"
+          "content": [{ "abbr": "TR" }, " reads “Because” instead of “How”"]
         }
       },
       {
@@ -2202,7 +2236,10 @@
     "verse": 15,
     "content": {
       "text": "He touched her hand, and the fever left her. So she got up and served him.",
-      "foot": { "type": "var", "content": "TR reads “them” instead of “him”" }
+      "foot": {
+        "type": "var",
+        "content": [{ "abbr": "TR" }, " reads “them” instead of “him”"]
+      }
     }
   },
   {
@@ -2322,7 +2359,10 @@
       {
         "paragraph": true,
         "text": "When he came to the other side, into the country of the Gergesenes,",
-        "foot": { "type": "var", "content": "NU reads “Gadarenes”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " reads “Gadarenes”"]
+        }
       },
       " two people possessed by demons met him there, coming out of the tombs, exceedingly fierce, so that nobody could pass that way."
     ]
@@ -2499,7 +2539,10 @@
       {
         "text": " for I came not to call the righteous, but sinners to repentance.”",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "NU omits “to repentance”." }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " omits “to repentance”."]
+        }
       }
     ]
   },
@@ -2719,7 +2762,7 @@
         "text": "But when he saw the multitudes, he was moved with compassion for them because they were harassed",
         "foot": {
           "type": "var",
-          "content": "TR reads “weary” instead of “harassed”"
+          "content": [{ "abbr": "TR" }, " reads “weary” instead of “harassed”"]
         }
       },
       " and scattered, like sheep without a shepherd."
@@ -2770,7 +2813,10 @@
         "text": "Philip; Bartholomew; Thomas; Matthew the tax collector; James the son of Alphaeus; Lebbaeus, who was also called",
         "foot": {
           "type": "var",
-          "content": "NU omits “Lebbaeus, who was also called”"
+          "content": [
+            { "abbr": "NU" },
+            " omits “Lebbaeus, who was also called”"
+          ]
         }
       },
       " Thaddaeus;"
@@ -2823,7 +2869,10 @@
       {
         "text": "Heal the sick, cleanse the lepers,",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "TR adds “raise the dead,”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “raise the dead,”"]
+        }
       },
       {
         "text": " and cast out demons. Freely you received, so freely give.",
@@ -3350,7 +3399,7 @@
       "marks": ["woc"],
       "foot": {
         "type": "var",
-        "content": "NU reads “actions” instead of “children”"
+        "content": [{ "abbr": "NU" }, " reads “actions” instead of “children”"]
       }
     }
   },
@@ -3789,7 +3838,10 @@
       {
         "text": "The good man out of his good treasure",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "TR adds “of the heart”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “of the heart”"]
+        }
       },
       {
         "text": " brings out good things, and the evil man out of his evil treasure brings out evil things.",
@@ -5728,7 +5780,10 @@
     "content": {
       "text": "But this kind doesn’t go out except by prayer and fasting.”",
       "marks": ["woc"],
-      "foot": { "type": "var", "content": "NU omits verse 21." }
+      "foot": {
+        "type": "var",
+        "content": [{ "abbr": "NU" }, " omits verse 21."]
+      }
     }
   },
   {
@@ -5924,7 +5979,10 @@
     "content": {
       "text": "For the Son of Man came to save that which was lost.",
       "marks": ["woc"],
-      "foot": { "type": "var", "content": "NU omits verse 11." }
+      "foot": {
+        "type": "var",
+        "content": [{ "abbr": "NU" }, " omits verse 11."]
+      }
     }
   },
   {
@@ -6328,7 +6386,15 @@
         "marks": ["woc"],
         "foot": {
           "type": "var",
-          "content": "So MT and TR. NU reads “Why do you ask me about what is good?”"
+          "content": [
+            "So ",
+            { "abbr": "MT" },
+            " and ",
+            { "abbr": "TR" },
+            ". ",
+            { "abbr": "NU" },
+            " reads “Why do you ask me about what is good?”"
+          ]
         }
       },
       {
@@ -6770,7 +6836,10 @@
         "marks": ["woc"],
         "foot": {
           "type": "var",
-          "content": "TR reads “let him be” instead of “shall be”"
+          "content": [
+            { "abbr": "TR" },
+            " reads “let him be” instead of “shall be”"
+          ]
         }
       },
       { "text": " your servant.", "marks": ["woc"] }
@@ -6855,7 +6924,12 @@
         "text": "When they came near to Jerusalem and came to Bethsphage,",
         "foot": {
           "type": "var",
-          "content": "TR & NU read “Bethphage” instead of “Bethsphage”"
+          "content": [
+            { "abbr": "TR" },
+            " & ",
+            { "abbr": "NU" },
+            " read “Bethphage” instead of “Bethsphage”"
+          ]
         }
       },
       " to the Mount of Olives, then Jesus sent two disciples,"
@@ -7857,7 +7931,10 @@
       {
         "text": "the salutations in the marketplaces, and to be called ‘Rabbi, Rabbi’",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "NU omits the second “Rabbi”." }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " omits the second “Rabbi”."]
+        }
       },
       { "text": " by men.", "marks": ["woc"] }
     ]
@@ -7927,7 +8004,11 @@
       "marks": ["woc"],
       "foot": {
         "type": "var",
-        "content": "Some Greek texts reverse the order of verses 13 and 14, and some omit verse 13, numbering verse 14 as 13. NU omits verse 14."
+        "content": [
+          "Some Greek texts reverse the order of verses 13 and 14, and some omit verse 13, numbering verse 14 as 13. ",
+          { "abbr": "NU" },
+          " omits verse 14."
+        ]
       }
     }
   },
@@ -7998,7 +8079,10 @@
       {
         "text": "He who swears by the temple, swears by it and by him who has been living",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "NU reads “lives”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " reads “lives”"]
+        }
       },
       { "text": " in it.", "marks": ["woc"] }
     ]
@@ -8051,7 +8135,10 @@
       "marks": ["woc"],
       "foot": {
         "type": "var",
-        "content": "TR reads “self-indulgence” instead of “unrighteousness”"
+        "content": [
+          { "abbr": "TR" },
+          " reads “self-indulgence” instead of “unrighteousness”"
+        ]
       }
     }
   },
@@ -8575,7 +8662,10 @@
         "paragraph": true,
         "text": "“But no one knows of that day and hour, not even the angels of heaven,",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "NU adds “nor the son”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " adds “nor the son”"]
+        }
       },
       { "text": " but my Father only.", "marks": ["woc"] }
     ]
@@ -9397,7 +9487,10 @@
         "text": "As they were eating, Jesus took bread, gave thanks for",
         "foot": {
           "type": "var",
-          "content": "TR reads “blessed” instead of “gave thanks for”"
+          "content": [
+            { "abbr": "TR" },
+            " reads “blessed” instead of “gave thanks for”"
+          ]
         }
       },
       " it, and broke it. He gave to the disciples and said, ",
@@ -10201,7 +10294,8 @@
       "foot": {
         "type": "var",
         "content": [
-          "TR adds “that it might be fulfilled which was spoken by the prophet: ‘They divided my garments among them, and for my clothing they cast lots;’” [see ",
+          { "abbr": "TR" },
+          " adds “that it might be fulfilled which was spoken by the prophet: ‘They divided my garments among them, and for my clothing they cast lots;’” [see ",
           { "bibleLink": "Psalm 22:18", "content": "Psalms 22:18" },
           " and ",
           { "bibleLink": "John 19:24" },
@@ -10254,7 +10348,10 @@
       {
         "paragraph": true,
         "text": "Likewise the chief priests also mocking with the scribes, the Pharisees,",
-        "foot": { "type": "var", "content": "TR omits “the Pharisees”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " omits “the Pharisees”"]
+        }
       },
       " and the elders, said,"
     ]
@@ -10304,7 +10401,7 @@
         "marks": ["woc"],
         "foot": {
           "type": "var",
-          "content": "TR reads “lama” instead of “lima”"
+          "content": [{ "abbr": "TR" }, " reads “lama” instead of “lima”"]
         }
       },
       { "text": " sabachthani?”", "marks": ["woc"] },
@@ -10621,7 +10718,15 @@
       {
         "text": "Go",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "TR and NU add “therefore”" }
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "TR" },
+            " and ",
+            { "abbr": "NU" },
+            " add “therefore”"
+          ]
+        }
       },
       {
         "text": " and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,",

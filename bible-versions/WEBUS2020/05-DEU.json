@@ -6402,7 +6402,11 @@
         "text": "and will make atonement for his land and for his people.",
         "foot": {
           "type": "var",
-          "content": "For this verse, LXX reads: Rejoice, you heavens, with him, and let all the angels of God worship him; rejoice you Gentiles, with his people, and let all the sons of God strengthen themselves in him; for he will avenge the blood of his sons, and he will give vengeance, and recompense justice to his enemies, and will reward them that hate him; and the Lord shall purge the land of his people."
+          "content": [
+            "For this verse, ",
+            { "abbr": "LXX" },
+            " reads: Rejoice, you heavens, with him, and let all the angels of God worship him; rejoice you Gentiles, with his people, and let all the sons of God strengthen themselves in him; for he will avenge the blood of his sons, and he will give vengeance, and recompense justice to his enemies, and will reward them that hate him; and the Lord shall purge the land of his people."
+          ]
         }
       }
     ]

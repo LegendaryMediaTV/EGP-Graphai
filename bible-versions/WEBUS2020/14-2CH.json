@@ -3005,7 +3005,9 @@
         "foot": {
           "type": "var",
           "content": [
-            "The LXX reads ",
+            "The ",
+            { "abbr": "LXX" },
+            " reads ",
             { "text": "Meunites", "marks": ["i"] },
             ". Heb. reads ",
             { "text": "Ammonites", "marks": ["i"] },

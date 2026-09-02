@@ -88,7 +88,10 @@
     "content": [
       {
         "text": "that the name of our Lord Jesus",
-        "foot": { "type": "var", "content": "TR adds “Christ”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “Christ”"]
+        }
       },
       " may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ."
     ]

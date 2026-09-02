@@ -3,6 +3,39 @@
   "name": "World English Bible Classic",
   "copyright": "Scripture quotations are taken from The World English Bible™ of eBible.org, 2020 stable text edition. It is in the public domain.",
   "license": "CC0-1.0",
+  "abbr": [
+    { "_id": "DSS", "name": "DSS", "description": "The Dead Sea Scrolls." },
+    {
+      "_id": "FH",
+      "name": "FH",
+      "description": "The Hodges and Farstad edition of the Majority Text, which this edition also cites as Hodges/Farstad."
+    },
+    {
+      "_id": "LXX",
+      "name": "LXX",
+      "description": "The Septuagint, the ancient Greek translation of the Old Testament."
+    },
+    {
+      "_id": "MT",
+      "name": "MT",
+      "description": "The Byzantine Greek Majority Text New Testament, which is usually in the main text."
+    },
+    {
+      "_id": "NU",
+      "name": "NU",
+      "description": "The Nestle-Aland/UBS critical text of the Greek New Testament, which is used as a basis for some other Bible translations."
+    },
+    {
+      "_id": "RP",
+      "name": "RP",
+      "description": "The Robinson-Pierpont edition of the Majority Text."
+    },
+    {
+      "_id": "TR",
+      "name": "TR",
+      "description": "The Textus Receptus, the Greek text from which the King James Version New Testament was translated."
+    }
+  ],
   "books": [
     {
       "_id": "GEN",

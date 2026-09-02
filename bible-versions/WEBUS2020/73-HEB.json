@@ -246,7 +246,10 @@
         "break": true,
         "foot": {
           "type": "var",
-          "content": "TR adds “and set him over the works of your hands”"
+          "content": [
+            { "abbr": "TR" },
+            " adds “and set him over the works of your hands”"
+          ]
         }
       }
     ]
@@ -1253,7 +1256,10 @@
         "break": true,
         "foot": {
           "type": "var",
-          "content": "TR reads “neighbor” instead of “fellow citizen”"
+          "content": [
+            { "abbr": "TR" },
+            " reads “neighbor” instead of “fellow citizen”"
+          ]
         }
       },
       {
@@ -1299,7 +1305,10 @@
       {
         "paragraph": true,
         "text": "Now indeed even the first",
-        "foot": { "type": "var", "content": "TR adds “tabernacle”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “tabernacle”"]
+        }
       },
       " covenant had ordinances of divine service and an earthly sanctuary."
     ]
@@ -1915,7 +1924,10 @@
       {
         "paragraph": true,
         "text": "These all died in faith, not having received the promises, but having seen",
-        "foot": { "type": "var", "content": "TR adds “and being convinced of”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “and being convinced of”"]
+        }
       },
       " them and embraced them from afar, and having confessed that they were strangers and pilgrims on the earth."
     ]
@@ -2348,7 +2360,10 @@
     "content": [
       {
         "text": "for they could not stand that which was commanded, “If even an animal touches the mountain, it shall be stoned”.",
-        "foot": { "type": "var", "content": "TR adds “or shot with an arrow”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “or shot with an arrow”"]
+        }
       },
       {
         "foot": { "type": "xrf", "content": { "bibleLink": "Exodus 19:12–13" } }

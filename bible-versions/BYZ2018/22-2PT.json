@@ -159,7 +159,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "διὰ δόξης καὶ ἀρετῆς", "script": "G" },
             " ⇒ ",
             { "text": "ἰδίᾳ δόξῃ καὶ ἀρετῇ", "script": "G" }
@@ -188,7 +189,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ἡμῖν καὶ μέγιστα", "script": "G" },
             " ⇒ ",
             { "text": "καὶ μέγιστα ἡμῖν", "script": "G" }
@@ -252,7 +254,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "κόσμῳ", "script": "G" },
             " ⇒ ",
             { "text": "τῷ κόσμῳ", "script": "G" }
@@ -624,7 +627,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "οὐκ ἀμελήσω", "script": "G" },
             " ⇒ ",
             { "text": "μελλήσω", "script": "G" }
@@ -937,7 +941,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "Οὗτός ἐστιν ὁ υἱός", "script": "G" },
             " ⇒ ",
             { "text": "Ὁ υἱός", "script": "G" }
@@ -962,7 +967,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ἀγαπητός", "script": "G" },
             " ⇒ ",
             { "text": "ἀγαπητός μου οὗτός ἐστιν", "script": "G" }
@@ -1027,7 +1033,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ὄρει τῷ ἁγίῳ", "script": "G" },
             " ⇒ ",
             { "text": "ἁγίῳ ὄρει", "script": "G" }
@@ -1193,7 +1200,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ποτὲ προφητεία ἀλλ’", "script": "G" },
             " ⇒ ",
             { "text": "προφητεία ποτέ ἀλλὰ", "script": "G" }
@@ -1235,7 +1243,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ἅγιοι", "script": "G" },
             " ⇒ ",
             { "text": "ἀπὸ", "script": "G" }
@@ -1452,7 +1461,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "νυστάξει", "script": "G" },
             " ⇒ ",
             { "text": "νυστάζει", "script": "G" }
@@ -1537,7 +1547,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "B ",
+            { "abbr": "B" },
+            " ",
             { "text": "ἀλλὰ", "script": "G" },
             " ⇒ ",
             { "text": "ἀλλ’", "script": "G" }
@@ -1609,7 +1620,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "S ",
+            { "abbr": "S" },
+            " ",
             { "text": "καταστροφῇ", "script": "G" },
             " ⇒ [",
             { "text": "καταστροφῇ", "script": "G" },
@@ -1643,7 +1655,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "S ",
+            { "abbr": "S" },
+            " ",
             { "text": "ἀσεβεῖν", "script": "G" },
             " ⇒ ",
             { "text": "ἀσεβέ", "script": "G" },
@@ -1915,7 +1928,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "S ",
+            { "abbr": "S" },
+            " ",
             { "text": "κυρίῳ", "script": "G" },
             " ⇒ ",
             { "text": "κυρίου", "script": "G" }
@@ -1949,7 +1963,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "φυσικὰ γεγενημένα", "script": "G" },
             " ⇒ ",
             { "text": "γεγεννημένα φυσικὰ", "script": "G" }
@@ -1997,7 +2012,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "καταφθαρήσονται", "script": "G" },
             " ⇒ ",
             { "text": "καὶ φθαρήσονται", "script": "G" }
@@ -2019,7 +2035,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "κομιούμενοι", "script": "G" },
             " ⇒ ",
             { "text": "ἀδικούμενοι", "script": "G" }
@@ -2167,7 +2184,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "S ",
+            { "abbr": "S" },
+            " ",
             { "text": "καταλιπόντες", "script": "G" },
             " ⇒ ",
             { "text": "καταλείποντες", "script": "G" }
@@ -2300,7 +2318,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "νεφέλαι", "script": "G" },
             " ⇒ ",
             { "text": "καὶ ὁμίχλαι", "script": "G" }
@@ -2337,7 +2356,12 @@
         "script": "G",
         "foot": {
           "type": "var",
-          "content": ["N ", { "text": "εἰς αἰῶνα", "script": "G" }, " ⇒ -"]
+          "content": [
+            { "abbr": "N" },
+            " ",
+            { "text": "εἰς αἰῶνα", "script": "G" },
+            " ⇒ -"
+          ]
         },
         "strong": "G1519",
         "morph": "PREP"
@@ -2407,7 +2431,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "S ",
+            { "abbr": "S" },
+            " ",
             { "text": "ὄντως", "script": "G" },
             " ⇒ ",
             { "text": "ὀλίγως", "script": "G" }
@@ -2422,7 +2447,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ἀποφυγόντας", "script": "G" },
             " ⇒ ",
             { "text": "ἀποφεύγοντας", "script": "G" }
@@ -2492,7 +2518,12 @@
         "script": "G",
         "foot": {
           "type": "var",
-          "content": ["N ", { "text": "καὶ", "script": "G" }, " ⇒ -"]
+          "content": [
+            { "abbr": "N" },
+            " ",
+            { "text": "καὶ", "script": "G" },
+            " ⇒ -"
+          ]
         },
         "strong": "G2532",
         "morph": "CONJ"
@@ -2541,7 +2572,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "S ",
+            { "abbr": "S" },
+            " ",
             { "text": "κυρίου", "script": "G" },
             " ⇒ ",
             { "text": "κυρίου", "script": "G" },
@@ -2659,7 +2691,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ἐπιστρέψαι", "script": "G" },
             " ⇒ ",
             { "text": "ὑποστρέψαι", "script": "G" }
@@ -2702,7 +2735,12 @@
         "script": "G",
         "foot": {
           "type": "var",
-          "content": ["N ", { "text": "δὲ", "script": "G" }, " ⇒ -"]
+          "content": [
+            { "abbr": "N" },
+            " ",
+            { "text": "δὲ", "script": "G" },
+            " ⇒ -"
+          ]
         },
         "strong": "G1161",
         "morph": "CONJ"
@@ -2748,7 +2786,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "κύλισμα", "script": "G" },
             " ⇒ ",
             { "text": "κυλισμὸν", "script": "G" }
@@ -2921,7 +2960,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ἐσχάτου", "script": "G" },
             " ⇒ ",
             { "text": "ἐσχάτων", "script": "G" }
@@ -2937,7 +2977,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ἡμερῶν", "script": "G" },
             " ⇒ ",
             { "text": "ἡμερῶν", "script": "G" },
@@ -3107,7 +3148,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "E ",
+            { "abbr": "E" },
+            " ",
             { "text": "ὧν", "script": "G" },
             " ⇒ ",
             { "text": "ὃν", "script": "G" }
@@ -3158,7 +3200,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "αὐτοῦ", "script": "G" },
             " ⇒ ",
             { "text": "αὐτῷ", "script": "G" }
@@ -3273,7 +3316,12 @@
         "script": "G",
         "foot": {
           "type": "var",
-          "content": ["N ", { "text": "ὁ", "script": "G" }, " ⇒ -"]
+          "content": [
+            { "abbr": "N" },
+            " ",
+            { "text": "ὁ", "script": "G" },
+            " ⇒ -"
+          ]
         },
         "strong": "G3588",
         "morph": "T-NSM"
@@ -3314,7 +3362,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ἡμᾶς", "script": "G" },
             " ⇒ ",
             { "text": "ὑμᾶς", "script": "G" }
@@ -3367,7 +3416,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ἡ ἡμέρα", "script": "G" },
             " ⇒ ",
             { "text": "ἡμέρα", "script": "G" }
@@ -3390,7 +3440,12 @@
         "script": "G",
         "foot": {
           "type": "var",
-          "content": ["N ", { "text": "ἐν νυκτί", "script": "G" }, " ⇒ -"]
+          "content": [
+            { "abbr": "N" },
+            " ",
+            { "text": "ἐν νυκτί", "script": "G" },
+            " ⇒ -"
+          ]
         },
         "strong": "G1722",
         "morph": "PREP"
@@ -3431,7 +3486,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "λυθήσονται", "script": "G" },
             " ⇒ ",
             { "text": "λυθήσεται", "script": "G" }
@@ -3453,7 +3509,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "S ",
+            { "abbr": "S" },
+            " ",
             { "text": "κατακαήσεται", "script": "G" },
             " ⇒ ",
             { "text": "εὑρεθήσεται", "script": "G" }
@@ -3466,7 +3523,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "E ",
+            { "abbr": "E" },
+            " ",
             { "text": "κατακαήσεται", "script": "G" },
             " ⇒ ",
             { "text": "οὐχ εὑρεθήσεται", "script": "G" },
@@ -3488,7 +3546,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "οὖν", "script": "G" },
             " ⇒ ",
             { "text": "οὕτως", "script": "G" }
@@ -3523,7 +3582,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "ὑμᾶς", "script": "G" },
             " ⇒ [",
             { "text": "ὑμᾶς", "script": "G" },
@@ -3765,7 +3825,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "αὐτῷ δοθεῖσαν", "script": "G" },
             " ⇒ ",
             { "text": "δοθεῖσαν αὐτῷ", "script": "G" }
@@ -3804,7 +3865,12 @@
         "script": "G",
         "foot": {
           "type": "var",
-          "content": ["S ", { "text": "ταῖς", "script": "G" }, " ⇒ -"]
+          "content": [
+            { "abbr": "S" },
+            " ",
+            { "text": "ταῖς", "script": "G" },
+            " ⇒ -"
+          ]
         },
         "strong": "G3588",
         "morph": "T-DPF"
@@ -3837,7 +3903,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            { "abbr": "N" },
+            " ",
             { "text": "οἷς", "script": "G" },
             " ⇒ ",
             { "text": "αἷς", "script": "G" }
@@ -3875,7 +3942,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "E ",
+            { "abbr": "E" },
+            " ",
             { "text": "στρεβλοῦσιν", "script": "G" },
             " ⇒ ",
             { "text": "στρεβλώσουσιν", "script": "G" }
@@ -4007,7 +4075,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "S ",
+            { "abbr": "S" },
+            " ",
             { "text": "Ἀμήν", "script": "G" },
             " ⇒ [",
             { "text": "Ἀμήν", "script": "G" },
@@ -4020,7 +4089,12 @@
       {
         "foot": {
           "type": "var",
-          "content": ["E ", { "text": "Ἀμήν", "script": "G" }, " ⇒ -"]
+          "content": [
+            { "abbr": "E" },
+            " ",
+            { "text": "Ἀμήν", "script": "G" },
+            " ⇒ -"
+          ]
         }
       }
     ]

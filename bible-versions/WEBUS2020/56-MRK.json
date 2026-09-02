@@ -277,7 +277,10 @@
     "content": [
       {
         "text": "He came and took her by the hand and raised her up. The fever left her immediately,",
-        "foot": { "type": "var", "content": "NU omits “immediately”." }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " omits “immediately”."]
+        }
       },
       " and she served them."
     ]
@@ -877,7 +880,7 @@
       "marks": ["woc"],
       "foot": {
         "type": "var",
-        "content": "NU reads, guilty of an eternal sin."
+        "content": [{ "abbr": "NU" }, " reads, guilty of an eternal sin."]
       }
     }
   },
@@ -903,7 +906,10 @@
     "content": [
       {
         "text": "A multitude was sitting around him, and they told him, “Behold, your mother, your brothers, and your sisters",
-        "foot": { "type": "var", "content": "TR omits “your sisters”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " omits “your sisters”"]
+        }
       },
       " are outside looking for you.”"
     ]
@@ -967,7 +973,10 @@
       {
         "text": "As he sowed, some seed fell by the road, and the birds",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "TR adds “of the air”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “of the air”"]
+        }
       },
       { "text": " came and devoured it.", "marks": ["woc"] }
     ]
@@ -1919,7 +1928,10 @@
         "text": "They",
         "foot": {
           "type": "var",
-          "content": "TR reads “The multitudes” instead of “They”"
+          "content": [
+            { "abbr": "TR" },
+            " reads “The multitudes” instead of “They”"
+          ]
         }
       },
       " saw them going, and many recognized him and ran there on foot from all the cities. They arrived before them and came together to him."
@@ -2014,7 +2026,10 @@
     "content": [
       {
         "text": "Those who ate the loaves were",
-        "foot": { "type": "var", "content": "TR adds “about”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “about”"]
+        }
       },
       " five thousand men."
     ]
@@ -2310,7 +2325,10 @@
     "content": {
       "text": "If anyone has ears to hear, let him hear!”",
       "marks": ["woc"],
-      "foot": { "type": "var", "content": "NU omits verse 16." }
+      "foot": {
+        "type": "var",
+        "content": [{ "abbr": "NU" }, " omits verse 16."]
+      }
     }
   },
   {
@@ -2343,7 +2361,10 @@
       "marks": ["woc"],
       "foot": {
         "type": "var",
-        "content": "NU ends Jesus’ direct quote and question after “latrine”, ending the verse with “Thus he declared all foods clean."
+        "content": [
+          { "abbr": "NU" },
+          " ends Jesus’ direct quote and question after “latrine”, ending the verse with “Thus he declared all foods clean."
+        ]
       }
     }
   },
@@ -3276,7 +3297,12 @@
         "marks": ["woc"],
         "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 66:24" } }
       },
-      { "foot": { "type": "var", "content": "NU omits verse 44." } }
+      {
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " omits verse 44."]
+        }
+      }
     ]
   },
   {
@@ -3302,7 +3328,10 @@
     "content": {
       "text": "‘where their worm doesn’t die, and the fire is not quenched.’",
       "marks": ["woc"],
-      "foot": { "type": "var", "content": "NU omits verse 46." }
+      "foot": {
+        "type": "var",
+        "content": [{ "abbr": "NU" }, " omits verse 46."]
+      }
     }
   },
   {
@@ -3894,7 +3923,12 @@
         "text": "When they came near to Jerusalem, to Bethsphage",
         "foot": {
           "type": "var",
-          "content": "TR & NU read “Bethphage” instead of “Bethsphage”"
+          "content": [
+            { "abbr": "TR" },
+            " & ",
+            { "abbr": "NU" },
+            " read “Bethphage” instead of “Bethsphage”"
+          ]
         }
       },
       " and Bethany, at the Mount of Olives, he sent two of his disciples"
@@ -4130,7 +4164,10 @@
     "content": {
       "text": "But if you do not forgive, neither will your Father in heaven forgive your transgressions.”",
       "marks": ["woc"],
-      "foot": { "type": "var", "content": "NU omits verse 26." }
+      "foot": {
+        "type": "var",
+        "content": [{ "abbr": "NU" }, " omits verse 26."]
+      }
     }
   },
   {
@@ -5924,7 +5961,10 @@
     "verse": 28,
     "content": {
       "text": "The Scripture was fulfilled which says, “He was counted with transgressors.”",
-      "foot": { "type": "var", "content": "NU omits verse 28." }
+      "foot": {
+        "type": "var",
+        "content": [{ "abbr": "NU" }, " omits verse 28."]
+      }
     }
   },
   {
@@ -5958,7 +5998,7 @@
     "content": [
       {
         "text": "Let the Christ, the King of Israel, now come down from the cross, that we may see and believe him.”",
-        "foot": { "type": "var", "content": "TR omits “him”" }
+        "foot": { "type": "var", "content": [{ "abbr": "TR" }, " omits “him”"] }
       },
       " Those who were crucified with him also insulted him."
     ]
@@ -6148,7 +6188,10 @@
       {
         "paragraph": true,
         "text": "They went out,",
-        "foot": { "type": "var", "content": "TR adds “quickly”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “quickly”"]
+        }
       },
       {
         "text": " and fled from the tomb, for trembling and astonishment had come on them. They said nothing to anyone; for they were afraid.",
@@ -6175,9 +6218,14 @@
         "foot": {
           "type": "var",
           "content": [
-            "NU includes the text of verses 9-20, but mentions in a footnote that a few manuscripts omitted it. The translators of the World English Bible regard ",
+            { "abbr": "NU" },
+            " includes the text of verses 9-20, but mentions in a footnote that a few manuscripts omitted it. The translators of the World English Bible regard ",
             { "bibleLink": "Mark 16:9–20" },
-            " as reliable based on an overwhelming majority of textual evidence, including not only the authoritative Greek Majority Text New Testament, but also the TR and many of the manuscripts cited in the NU text."
+            " as reliable based on an overwhelming majority of textual evidence, including not only the authoritative Greek Majority Text New Testament, but also the ",
+            { "abbr": "TR" },
+            " and many of the manuscripts cited in the ",
+            { "abbr": "NU" },
+            " text."
           ]
         }
       },
@@ -6267,7 +6315,10 @@
       {
         "paragraph": true,
         "text": "So then the Lord,",
-        "foot": { "type": "var", "content": "NU adds “Jesus”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " adds “Jesus”"]
+        }
       },
       " after he had spoken to them, was received up into heaven and sat down at the right hand of God."
     ]

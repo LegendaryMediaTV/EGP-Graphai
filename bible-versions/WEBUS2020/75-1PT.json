@@ -390,7 +390,10 @@
     "content": [
       {
         "text": "For you were called to this, because Christ also suffered for us, leaving you",
-        "foot": { "type": "var", "content": "TR reads “us” instead of “you”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " reads “us” instead of “you”"]
+        }
       },
       " an example, that you should follow his steps,"
     ]

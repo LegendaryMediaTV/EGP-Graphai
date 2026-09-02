@@ -10,7 +10,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "NU reads ",
+            { "abbr": "NU" },
+            " reads ",
             { "text": "Christ Jesus", "marks": ["i"] },
             " and omits ",
             { "text": "the Lord.", "marks": ["i"] }
@@ -395,7 +396,10 @@
       },
       {
         "text": "God",
-        "foot": { "type": "var", "content": "NU replaces “God” with “who”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " replaces “God” with “who”"]
+        }
       },
       { "text": " was revealed in the flesh,", "break": true },
       { "text": "justified in the spirit,", "break": true },
@@ -541,7 +545,10 @@
     "content": [
       {
         "text": "But if any widow has children or grandchildren, let them learn first to show piety toward their own family and to repay their parents, for this is",
-        "foot": { "type": "var", "content": "TR adds “good and”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “good and”"]
+        }
       },
       " acceptable in the sight of God."
     ]
@@ -749,7 +756,7 @@
       "text": "constant friction of people of corrupt minds and destitute of the truth, who suppose that godliness is a means of gain. Withdraw yourself from such.",
       "foot": {
         "type": "var",
-        "content": "NU omits “Withdraw yourself from such.”"
+        "content": [{ "abbr": "NU" }, " omits “Withdraw yourself from such.”"]
       }
     }
   },

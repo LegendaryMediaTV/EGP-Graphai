@@ -180,7 +180,10 @@
         "text": "Many will follow their immoral",
         "foot": {
           "type": "var",
-          "content": "TR reads “destructive” instead of “immoral”"
+          "content": [
+            { "abbr": "TR" },
+            " reads “destructive” instead of “immoral”"
+          ]
         }
       },
       " ways, and as a result, the way of the truth will be maligned."

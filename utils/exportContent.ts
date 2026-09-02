@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Content, {
+  ContentAbbreviation,
   ContentBibleLink,
   ContentHeading,
   ContentNested,
@@ -207,18 +208,47 @@ function markedBibleLinkOverride(item: Content): ContentObject | undefined {
 }
 
 /**
- * Whether `item` is a plain mark-bearing renderable — `ContentObject`/
- * `ContentNested`, or a `bibleLink` whose override qualifies per
- * `markedBibleLinkOverride`. The array's other legal shapes are excluded: a
- * bare string, a `heading`/`subtitle`/unqualified `bibleLink` (each renders
- * in its own context and must never share the surrounding items' open
- * "b"/"i" state), and the `paragraph`-wrapper object (`content.paragraph`
- * holding nested content, not the boolean start-of-paragraph flag). Only
- * candidates carry a `marks` array, so only they take part in the array
- * branch's emphasis-state walk (see `emphasisTransition`).
+ * An `abbr` node's registry name, when that name is a single mark-bearing
+ * object — the one name shape whose marks are judged against the surrounding
+ * emphasis run rather than rendered as an opaque span (see
+ * `isMarkRunCandidate`, `renderAbbreviationParts`). BYZ2026's registry has
+ * two such entries, the italic `om.` and `txt`; every other name is a bare
+ * string (`CT`) or an array (`NA` plus a superscript `27`), carries no
+ * "b"/"i" to share, and keeps falling through to the opaque `"abbr" in
+ * content` render below.
+ *
+ * Narrow for the same reason `markedBibleLinkOverride` is: an array name
+ * mixing marks across its elements has no single state to hand the run.
  */
-function isMarkRunCandidate(item: Content): item is ContentObject | ContentNested {
+function markedAbbreviationName(item: Content, ctx: RenderContext): ContentObject | undefined {
+  if (typeof item !== "object" || item === null || Array.isArray(item)) return undefined;
+  if (!("abbr" in item)) return undefined;
+  const name = ctx.abbreviations?.get((item as ContentAbbreviation).abbr);
+  if (name === undefined || typeof name === "string" || Array.isArray(name)) return undefined;
+  if (typeof name !== "object" || name === null) return undefined;
+  if ("heading" in name || "subtitle" in name || "bibleLink" in name || "abbr" in name || "content" in name) {
+    return undefined;
+  }
+  const obj = name as ContentObject;
+  return obj.marks && obj.marks.length > 0 ? obj : undefined;
+}
+
+/**
+ * Whether `item` is a plain mark-bearing renderable — `ContentObject`/
+ * `ContentNested`, a `bibleLink` whose override qualifies per
+ * `markedBibleLinkOverride`, or an `abbr` whose registry name qualifies per
+ * `markedAbbreviationName`. The array's other legal shapes are excluded: a
+ * bare string, a `heading`/`subtitle`/unqualified `bibleLink`/unqualified
+ * `abbr` (each renders in its own context and must never share the
+ * surrounding items' open "b"/"i" state), and the `paragraph`-wrapper object
+ * (`content.paragraph` holding nested content, not the boolean
+ * start-of-paragraph flag). Only candidates carry a `marks` array, so only
+ * they take part in the array branch's emphasis-state walk (see
+ * `emphasisTransition`).
+ */
+function isMarkRunCandidate(item: Content, ctx: RenderContext): item is ContentObject | ContentNested {
   if (markedBibleLinkOverride(item) !== undefined) return true;
+  if (markedAbbreviationName(item, ctx) !== undefined) return true;
   if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
   if ("heading" in item || "subtitle" in item || "bibleLink" in item || "abbr" in item) return false;
   if ("paragraph" in item && item.paragraph !== undefined && typeof item.paragraph !== "boolean") return false;
@@ -613,7 +643,7 @@ function emphasisRunContinuation(
   for (let index = 0; index < content.length; index++) {
     const item = content[index];
 
-    if (!isMarkRunCandidate(item)) {
+    if (!isMarkRunCandidate(item, ctx)) {
       // A whitespace-only bare string is transparent to the open "b"/"i"
       // state, same as a whitespace-only object core below (`isBlank`) — a
       // same-marked node on either side still merges into one span, held per
@@ -625,8 +655,8 @@ function emphasisRunContinuation(
         pendingWhitespace += item;
         continue;
       }
-      // A bare string, heading/subtitle/bibleLink, or paragraph-wrapper —
-      // each renders in its own context, so any open marks close first.
+      // A bare string, heading/subtitle/bibleLink/abbr, or paragraph-wrapper
+      // — each renders in its own context, so any open marks close first.
       closeOpenMarks();
       let rendered = renderContent(item, ctx);
       const next = content[index + 1];
@@ -643,7 +673,12 @@ function emphasisRunContinuation(
     // check, decides eligibility, so a node marked only `["woc"]` or `["sc"]`
     // is as eligible as one with no marks.
     const override = markedBibleLinkOverride(item);
-    const ownMarks = !override && "content" in item ? emphasisStateOf(item.marks) : undefined;
+    const abbreviationName = override ? undefined : markedAbbreviationName(item, ctx);
+    // The object supplying this item's core text and its marks when the item
+    // is not itself a text object: a qualifying bibleLink display override,
+    // or a qualifying abbreviation name.
+    const resolved = override ?? abbreviationName;
+    const ownMarks = !resolved && "content" in item ? emphasisStateOf(item.marks) : undefined;
     // A "sup" mark disqualifies the node the same way "b"/"i" do: this
     // branch builds its own core out of the continuation text and never
     // reaches `renderNestedContentParts`, where the superscript wrap lives.
@@ -683,18 +718,19 @@ function emphasisRunContinuation(
       continue;
     }
 
-    // A qualifying bibleLink's display override supplies both the rendered
-    // core and the marks driving this run's open/close state; every other
-    // shape reports marks from `item` itself. Re-checked here rather than
-    // threaded through from `isMarkRunCandidate`, whose type predicate has
-    // already narrowed `item` — safe because the other `item` accesses below
-    // (`.strong`, `.paragraph`) read a harmless `undefined` on a real
-    // bibleLink node, and `markedBibleLinkOverride` is cheap and pure.
-    let parts = override
-      ? renderBibleLinkParts(override, ctx)
-      : "content" in item
-        ? renderNestedContentParts(item, ctx)
-        : renderTextObjectParts(item, ctx);
+    // A qualifying bibleLink's display override, or a qualifying
+    // abbreviation name, supplies both the rendered core and the marks
+    // driving this run's open/close state; every other shape reports marks
+    // from `item` itself. Re-checked here rather than threaded through from
+    // `isMarkRunCandidate`, whose type predicate has already narrowed
+    // `item` — safe because the other `item` accesses below (`.strong`,
+    // `.paragraph`) read a harmless `undefined` on a real bibleLink or abbr
+    // node, and both resolvers are cheap and pure.
+    let parts: RenderedParts;
+    if (override) parts = renderBibleLinkParts(override, ctx);
+    else if (abbreviationName) parts = renderAbbreviationParts(abbreviationName, ctx);
+    else if ("content" in item) parts = renderNestedContentParts(item, ctx);
+    else parts = renderTextObjectParts(item, ctx);
 
     const spliced = spliceTrailingFootnoteSiblings(item, parts, content, index, ctx);
     parts = { ...parts, suffix: spliced.suffix };
@@ -717,7 +753,7 @@ function emphasisRunContinuation(
     // is forced to `openMarks` whenever the core is blank, so the transition
     // is empty on it.
     const isBlank = parts.core.trim() === "";
-    const desired = isBlank ? openMarks : emphasisStateOf(override ? override.marks : item.marks);
+    const desired = isBlank ? openMarks : emphasisStateOf(resolved ? resolved.marks : item.marks);
     const transition = emphasisTransition(openMarks, desired, bold, italic);
 
     if (isBlank) {
@@ -939,6 +975,18 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
  */
 function renderBibleLinkParts(override: ContentObject, ctx: RenderContext): RenderedParts {
   return renderTextObjectParts(override, ctx);
+}
+
+/**
+ * `RenderedParts` for an `abbr` node whose registry name qualifies per
+ * `markedAbbreviationName`. Same routing and same reason as
+ * `renderBibleLinkParts` above: the name's "b"/"i" wrap is deferred to the
+ * caller so the siglum shares delimiters with the prose beside it. The
+ * source edition prints one italic run, `_om. here but add at 16:25–27_`,
+ * and self-wrapping would split it into `_om._ _here but add at 16:25–27_`.
+ */
+function renderAbbreviationParts(name: ContentObject, ctx: RenderContext): RenderedParts {
+  return renderTextObjectParts(name, ctx);
 }
 
 /**

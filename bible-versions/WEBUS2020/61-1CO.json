@@ -902,7 +902,12 @@
         "text": "Let the husband give his wife the affection owed her,",
         "foot": {
           "type": "var",
-          "content": "NU and TR have “what is owed her” instead of “the affection owed her”."
+          "content": [
+            { "abbr": "NU" },
+            " and ",
+            { "abbr": "TR" },
+            " have “what is owed her” instead of “the affection owed her”."
+          ]
         }
       },
       " and likewise also the wife her husband."
@@ -1394,7 +1399,10 @@
         "text": "To the Jews I became as a Jew, that I might gain Jews; to those who are under the law, as under the law,",
         "foot": {
           "type": "var",
-          "content": "NU adds: though I myself am not under the law"
+          "content": [
+            { "abbr": "NU" },
+            " adds: though I myself am not under the law"
+          ]
         }
       },
       " that I might gain those who are under the law;"
@@ -1508,7 +1516,10 @@
         "text": "Let’s not test Christ,",
         "foot": {
           "type": "var",
-          "content": "NU reads “the Lord” instead of “Christ”."
+          "content": [
+            { "abbr": "NU" },
+            " reads “the Lord” instead of “Christ”."
+          ]
         }
       },
       " as some of them tested, and perished by the serpents."
@@ -2835,7 +2846,12 @@
         "text": "As we have borne the image of those made of dust, let’s",
         "foot": {
           "type": "var",
-          "content": "NU, TR read “we will” instead of “let’s”"
+          "content": [
+            { "abbr": "NU" },
+            ", ",
+            { "abbr": "TR" },
+            " read “we will” instead of “let’s”"
+          ]
         }
       },
       " also bear the image of the heavenly."

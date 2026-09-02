@@ -17785,7 +17785,7 @@
         "break": true,
         "foot": {
           "type": "var",
-          "content": "LXX reads “angels” instead of “gods”."
+          "content": [{ "abbr": "LXX" }, " reads “angels” instead of “gods”."]
         }
       }
     ]
