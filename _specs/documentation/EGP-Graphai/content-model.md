@@ -50,6 +50,8 @@ Each shape exists because flat alternatives were tried and found wanting.
 
 Every version has its own registry and there is no shared fallback. The same short code means different things in different editions. One version's `MT` is the Masoretic Text, another's is the Majority Text, and BYZ2018's bare `M` is neither. An id resolved outside its own version would pick up the wrong meaning, so `validate` reports an unresolved id as an error instead of looking elsewhere for it.
 
+A registry entry decides its own typography, and the markdown exporter honors it. When a `name` is a single object carrying `i` or `b`, the siglum joins the emphasis run around it rather than opening a span of its own, so a siglum followed by an editorial remark prints as one italic run the way the source edition sets it. A name that is a bare string or an array renders opaquely, since the first has no emphasis to share and the second can vary its marks element by element.
+
 ## Annotations: Strong's, morphology, lemmas
 
 Three lexical pointers can attach to any text object or nested wrapper:
@@ -110,3 +112,5 @@ Forgetting any one of these produces silently-broken output: validation passes b
 Two more surfaces matter if your shape is a *leaf* that renders text of its own, the way `abbr` and `bibleLink` do. `describeNode` in [utils/auditNodes.ts](../../../utils/auditNodes.ts) and `isBoundary` in [functions/tagScriptRunsInContent.ts](../../../functions/tagScriptRunsInContent.ts) both classify siblings in an array to decide what may merge or split. A leaf that neither one recognizes looks like a text node with no text, so the merge and script-tagging passes draw conclusions about its neighbors that its rendered output contradicts. Add it to both boundary checks.
 
 The exporter needs one more thing from a new *mark*. Its array branch shares emphasis delimiters across adjacent siblings carrying the same marks, and it builds each node's `core` in `renderTextObjectParts` and `renderNestedContentParts`, never through `wrapEmphasisMarks`. A mark applied anywhere but where the core is built works on a lone node and vanishes inside an array. That is where `sup` is applied.
+
+A leaf can still take part in that emphasis run when the marks it renders with come from somewhere else. Both `abbr` and `bibleLink` do, one from its registry entry's `name` and the other from its display override, and each has a resolver naming the one shape allowed in: a single object carrying marks, never an array. Keep any future case that narrow. An array can change marks between its elements, leaving the run no single state to carry forward.

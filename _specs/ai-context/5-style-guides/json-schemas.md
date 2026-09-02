@@ -140,7 +140,7 @@ JSON Schemas in this project use JSON Schema Draft-07 to define the structure of
         "script": { "enum": ["G", "H"] },
         "marks": {
           "type": "array",
-          "items": { "enum": ["i", "b", "woc", "sc"] },
+          "items": { "enum": ["i", "b", "woc", "sc", "sup"] },
           "uniqueItems": true
         },
         "strong": { "pattern": "^[GH][0-9]{1,4}$" },

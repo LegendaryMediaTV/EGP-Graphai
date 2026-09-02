@@ -19,12 +19,19 @@ interface BibleVersion {
   license: string; // License identifier (e.g., "CC0-1.0", "public-domain")
   copyright?: Content; // Copyright statement
   script?: "G" | "H"; // Default script (Greek/Hebrew), Latin if unset
+  abbr?: Abbreviation[]; // Sigla this version's content cites by id
   testaments?: {
     // Per-testament overrides
     OT?: Testament;
     NT?: Testament;
   };
   books?: VersionBook[]; // Books included in this version
+}
+
+interface Abbreviation {
+  _id: string; // Identifier an { abbr } content node points at (e.g., "NA27", "OM")
+  name: Content; // How the abbreviation prints; content, so parts can carry marks
+  description?: Content; // What it stands for; exports drop it, the reader shows it
 }
 
 interface VersionBook {
@@ -42,14 +49,17 @@ interface Testament {
 
 ### Available Versions
 
-| Version ID | Name                          | Script | Books        |
-| ---------- | ----------------------------- | ------ | ------------ |
-| ASV1901    | American Standard Version     | Latin  | 66 (OT+NT)   |
-| BYZ2018    | Byzantine Greek New Testament | Greek  | 27 (NT only) |
-| CLV1880    | Clementine Latin Vulgate      | Latin  | 66 (OT+NT)   |
-| KJV1769    | King James Version            | Latin  | 66 (OT+NT)   |
-| WEBUS2020  | World English Bible (US)      | Latin  | 66 (OT+NT)   |
-| YLT1898    | Young's Literal Translation   | Latin  | 66 (OT+NT)   |
+| Version ID | Name                                 | Script | Books                     | Abbreviation registry |
+| ---------- | ------------------------------------ | ------ | ------------------------- | --------------------- |
+| ASV1901    | American Standard Version            | Latin  | 66 (OT+NT)                | none                  |
+| BYZ2018    | Byzantine Greek New Testament        | Greek  | 27 (NT only)              | edition sigla         |
+| BYZ2026    | Byzantine Greek New Testament (2026) | Greek  | 27 (NT only)              | editions, manuscripts |
+| CLV1880    | Clementine Latin Vulgate             | Latin  | 66 (OT+NT)                | none                  |
+| KJV1769    | King James Version                   | Latin  | 66 (OT+NT)                | none                  |
+| WEBUS2020  | World English Bible Classic          | Latin  | 81 (OT+NT+deuterocanon)   | witness sigla         |
+| YLT1898    | Young's Literal Translation          | Latin  | 66 (OT+NT)                | none                  |
+
+A version carries a registry only when its own footnotes cite witnesses by siglum. The four with none name theirs in prose instead ("Some ancient authorities read…", "According to Septuagint and Vulgate…"), so there is no short code for a reader to resolve.
 
 ## User Workflows
 
@@ -67,6 +77,7 @@ interface Testament {
 - **Self-Contained Folders** – Each version folder contains `_version.json` + verse JSON files
 - **Duplicate Display Names Disambiguated** – `getBibleVersions()` groups versions by exact-match `name` and appends each colliding member's own trailing-year suffix parsed from its `_id` (e.g. two versions both named "King James Version" become "King James Version (1611)" and "King James Version (1769)"), so the version picker never shows two identical names. A colliding version whose `_id` has no parseable trailing year is logged and left unmodified rather than throwing
 - **Singular Lookup Skips Disambiguation** – `getBibleVersion(versionId)` deliberately does not disambiguate; doing so would require scanning the whole directory for a single lookup, and no current caller displays its `name` standalone. This is documented in code as an invariant to revisit if that changes
+- **An Abbreviation Registry Belongs to One Version and Never Falls Through** – Every `{ abbr }` id in a version's content must name an entry in that same version's own `abbr` array, and no array may define an id twice. Sharing a registry across versions, or falling back to another version's when a lookup misses, would silently attach the wrong meaning: the same short code means different things in different editions. `utils/abbreviations.ts` audits this as a report-only peer inside `npm run validate`, with no auto-fix, since an unresolved id is either a typo in the content or a missing registry entry and only a person can say which
 - **Declared Chapter Count Must Match the File** – `npm run validate` compares each book's declared `chapters` against the highest chapter its own verse file actually carries (`utils/validate.ts`'s `findDeclaredChapterMismatches`, run from the book-ordering loop and reported as its own trailing audit). A version can be schema-valid and internally ordered correctly while still being *incomplete* — this check is what catches that. `npm run validate` is expected to report zero findings here at all times; there is no accepted or tolerated exception, for any version.
 
 ### Declared Counts Track What's Actually Imported

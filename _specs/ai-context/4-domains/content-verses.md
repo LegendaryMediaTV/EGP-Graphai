@@ -28,12 +28,13 @@ type Content =
   | ContentParagraph // Paragraph wrapper
   | ContentSubtitle // Subtitle/superscription
   | ContentBibleLink // Bible reference link
+  | ContentAbbreviation // Abbreviation reference into the version registry
   | Content[]; // Array of content items
 
 interface ContentObject {
   text?: string; // The actual text (optional - can have Strong's-only elements)
   script?: "G" | "H"; // Greek or Hebrew (Latin if omitted)
-  marks?: ("i" | "b" | "woc" | "sc")[]; // Formatting marks
+  marks?: ("i" | "b" | "woc" | "sc" | "sup")[]; // Formatting marks
   foot?: Footnote; // Attached footnote
   strong?: string; // Strong's number (G/H + digits)
   lemma?: string; // Lexical lemma
@@ -56,6 +57,10 @@ interface ContentBibleLink {
   bibleLink: string; // Scriptural reference target (e.g., "Hebrews 11:3"); also the default display text
   content?: Content; // Optional display override (falls back to the reference)
 }
+
+interface ContentAbbreviation {
+  abbr: string; // Matches an _id in the version’s own abbr array (e.g., "NA27", "OM")
+}
 ```
 
 ### Formatting Marks
@@ -66,6 +71,7 @@ interface ContentBibleLink {
 | `b`   | Bold            | Strong emphasis            |
 | `woc` | Words of Christ | Red letter text            |
 | `sc`  | Small Caps      | Divine names (LORD)        |
+| `sup` | Superscript     | Edition numbers and siglum modifiers (NA27, D2, 1143vid) |
 
 ### Footnote Types
 
@@ -123,7 +129,7 @@ _From [content-schema.json](../content-schema.json)_
         "strong": { "pattern": "^[GH][0-9]{1,4}$" },
         "marks": {
           "type": "array",
-          "items": { "enum": ["i", "b", "woc", "sc"] }
+          "items": { "enum": ["i", "b", "woc", "sc", "sup"] }
         },
         "foot": { "$ref": "#" }
       }
@@ -286,7 +292,7 @@ type Content =
 interface ContentObject {
   text?: string;
   script?: "G" | "H";
-  marks?: ("i" | "b" | "woc" | "sc")[];
+  marks?: ("i" | "b" | "woc" | "sc" | "sup")[];
   foot?: Footnote;
   strong?: string;
   lemma?: string;

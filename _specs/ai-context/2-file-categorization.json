@@ -15,10 +15,13 @@
     "functions/mergeEquivalentSiblingsInContent.ts",
     "functions/normalizeEllipses.ts",
     "functions/normalizeFractions.ts",
+    "functions/normalizeGreekDiacritics.ts",
+    "functions/normalizeStraightQuotes.ts",
     "functions/sortContentKeys.ts",
     "functions/tagScriptRunsInContent.ts",
     "functions/validateJsonAgainstSchema.ts",
     "functions/writeJsonFile.ts",
+    "utils/abbreviations.ts",
     "utils/auditNodes.ts",
     "utils/convertToSmallCaps.ts",
     "utils/crossChapterLinks.ts",
@@ -34,10 +37,9 @@
     "utils/overhaulFootnotes.ts",
     "utils/overhaulReferences.ts",
     "utils/sortBibleKeys.ts",
-    "utils/validate.ts",
     "utils/usfm/blockStructure.ts",
-    "utils/usfm/footnotes.ts",
     "utils/usfm/footnoteTypeRules.ts",
+    "utils/usfm/footnotes.ts",
     "utils/usfm/headings.ts",
     "utils/usfm/inlineMarks.ts",
     "utils/usfm/metadata.ts",
@@ -47,6 +49,7 @@
     "utils/usfm/splitScriptRuns.ts",
     "utils/usfm/tokenize.ts",
     "utils/usfm/verify.ts",
+    "utils/validate.ts",
     "web/public/js/footnoteText.js"
   ],
   "test-files": [
@@ -57,6 +60,8 @@
     "functions/__tests__/mergeEquivalentSiblingsInContent.test.ts",
     "functions/__tests__/normalizeEllipses.test.ts",
     "functions/__tests__/normalizeFractions.test.ts",
+    "functions/__tests__/normalizeGreekDiacritics.test.ts",
+    "functions/__tests__/normalizeStraightQuotes.test.ts",
     "functions/__tests__/sortContentKeys.test.ts",
     "functions/__tests__/tagScriptRunsInContent.test.ts",
     "functions/__tests__/writeJsonFile.test.ts",
@@ -75,6 +80,23 @@
     "utils/__tests__/overhaulReferences.test.ts",
     "utils/__tests__/validate.test.ts",
     "utils/usfm/__tests__/*.test.ts",
+    "utils/usfm/__tests__/bMarkerUpstreamConvention.test.ts",
+    "utils/usfm/__tests__/bibleLinkTargetConventions.test.ts",
+    "utils/usfm/__tests__/blockStructure.test.ts",
+    "utils/usfm/__tests__/chapterBoundaryUpstreamConvention.test.ts",
+    "utils/usfm/__tests__/embeddedReferenceConventions.test.ts",
+    "utils/usfm/__tests__/fixtures.ts",
+    "utils/usfm/__tests__/footnoteTypeRules.test.ts",
+    "utils/usfm/__tests__/footnotes.test.ts",
+    "utils/usfm/__tests__/headings.test.ts",
+    "utils/usfm/__tests__/inlineMarks.test.ts",
+    "utils/usfm/__tests__/metadata.test.ts",
+    "utils/usfm/__tests__/paragraphNoise.test.ts",
+    "utils/usfm/__tests__/references.test.ts",
+    "utils/usfm/__tests__/segmentVerses.test.ts",
+    "utils/usfm/__tests__/tokenize.test.ts",
+    "utils/usfm/__tests__/upstreamHeadConvention.ts",
+    "utils/usfm/__tests__/verify.test.ts",
     "web/public/js/__tests__/footnoteText.test.ts"
   ],
   "test-fixtures": [
@@ -88,8 +110,12 @@
     "bible-versions/bible-verses-schema.json",
     "bible-versions/bible-versions-schema.json"
   ],
-  "database-data": ["bible-books/bible-books.json"],
-  "bible-version-metadata": ["bible-versions/*/_version.json"],
+  "database-data": [
+    "bible-books/bible-books.json"
+  ],
+  "bible-version-metadata": [
+    "bible-versions/*/_version.json"
+  ],
   "bible-verse-data": [
     "bible-versions/ASV1901/*.json",
     "bible-versions/BYZ2018/*.json",
@@ -98,8 +124,12 @@
     "bible-versions/WEBUS2020/*.json",
     "bible-versions/YLT1898/*.json"
   ],
-  "web-server": ["web/server.ts"],
-  "web-frontend-entry": ["web/public/index.html"],
+  "web-server": [
+    "web/server.ts"
+  ],
+  "web-frontend-entry": [
+    "web/public/index.html"
+  ],
   "react-components": [
     "web/public/js/App.js",
     "web/public/js/BibleContent.js",
@@ -117,8 +147,14 @@
     "web/public/js/components/Sidebar.js",
     "web/public/js/components/Toggle.js"
   ],
-  "export-outputs": ["exports/markdown-par/", "exports/text-vbv-strongs/"],
-  "configuration": ["package.json", "tsconfig.json"],
+  "export-outputs": [
+    "exports/markdown-par/",
+    "exports/text-vbv-strongs/"
+  ],
+  "configuration": [
+    "package.json",
+    "tsconfig.json"
+  ],
   "documentation": [
     "README.md",
     "AGENTS.md",
