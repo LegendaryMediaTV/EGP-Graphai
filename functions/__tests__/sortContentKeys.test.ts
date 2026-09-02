@@ -341,4 +341,31 @@ describe("sortVerseKeys", () => {
     const result = sortVerseKeys(input);
     expect(Object.keys(result.content[0])).toEqual(["text", "strong"]);
   });
+
+  it("should sort abbr ahead of an accompanying paragraph flag, matching bibleLink's slot as a self-contained discriminator", () => {
+    const input = { paragraph: true, abbr: "NA27" };
+    expect(Object.keys(sortContentKeys(input))).toEqual(["abbr", "paragraph"]);
+  });
+
+  it("should reach an abbr node nested inside a footnote body", () => {
+    const input = {
+      book: "MAT",
+      chapter: 1,
+      verse: 25,
+      content: [
+        {
+          strong: "G5207",
+          text: " υἱὸν",
+          foot: { content: [{ paragraph: false, abbr: "CT" }], type: "var" },
+        },
+      ],
+    };
+    const result = sortVerseKeys(input) as any;
+    expect(Object.keys(result.content[0])).toEqual(["text", "foot", "strong"]);
+    expect(Object.keys(result.content[0].foot)).toEqual(["type", "content"]);
+    expect(Object.keys(result.content[0].foot.content[0])).toEqual([
+      "abbr",
+      "paragraph",
+    ]);
+  });
 });

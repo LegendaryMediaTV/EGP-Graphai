@@ -5,17 +5,18 @@
  * 1. subtitle
  * 2. heading
  * 3. bibleLink
- * 4. paragraph (object or boolean)
- * 5. type (footnote kind or heading kind)
- * 6. text
- * 7. content
- * 8. script
- * 9. marks (alphabetized)
- * 10. break
- * 11. foot
- * 12. strong
- * 13. morph
- * 14. lemma
+ * 4. abbr
+ * 5. paragraph (object or boolean)
+ * 6. type (footnote kind or heading kind)
+ * 7. text
+ * 8. content
+ * 9. script
+ * 10. marks (alphabetized)
+ * 11. break
+ * 12. foot
+ * 13. strong
+ * 14. morph
+ * 15. lemma
  *
  * Unknown keys are appended alphabetically at the end (never dropped).
  */
@@ -23,6 +24,7 @@ const CONTENT_KEY_ORDER: string[] = [
   "subtitle",
   "heading",
   "bibleLink",
+  "abbr",
   "paragraph",
   "type",
   "text",

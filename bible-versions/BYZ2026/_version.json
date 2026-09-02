@@ -1,0 +1,989 @@
+{
+  "_id": "BYZ2026",
+  "name": "Byzantine Greek New Testament (2026)",
+  "copyright": "The Greek New Testament According to the Byzantine Text (Guardian Press, Inc., Robinson-Pierpont Byzantine Textform, 2026). Dedicated to the public domain by Guardian Press, Inc. and J. Jeffrey Dodson.",
+  "license": "CC0-1.0",
+  "script": "G",
+  "abbr": [
+    {
+      "_id": "CT",
+      "name": "CT",
+      "description": "Denotes agreement between all critical text editions (i.e., ECM, NA, SBL, TH, WH)."
+    },
+    {
+      "_id": "CT-SPLIT",
+      "name": ["CT", { "text": "†", "marks": ["sup"] }],
+      "description": "Denotes an ECM “split guiding line” reading that is in agreement with NA, SBL, TH, and WH."
+    },
+    {
+      "_id": "ECM",
+      "name": "ECM",
+      "description": [
+        "Barbara Aland, et al., eds. ",
+        {
+          "text": "Novum Testamentum Graecum: Editio Critica Maior",
+          "marks": ["i"]
+        },
+        ". Stuttgart: Deutsche Bibelgesellschaft, 1997–2024."
+      ]
+    },
+    {
+      "_id": "ECM-SPLIT",
+      "name": ["ECM", { "text": "†", "marks": ["sup"] }],
+      "description": "Denotes an ECM “split guiding line” reading that is not in agreement with all of NA, SBL, TH, and WH."
+    },
+    {
+      "_id": "HF",
+      "name": "HF",
+      "description": [
+        {
+          "text": "The Greek New Testament According to the Majority Text. 2",
+          "marks": ["i"]
+        },
+        { "text": "nd", "marks": ["i", "sup"] },
+        { "text": " ed.", "marks": ["i"] },
+        " Zane C. Hodges and Arthur L. Farstad, eds. Nashville: Thomas Nelson, 1985."
+      ]
+    },
+    {
+      "_id": "NA",
+      "name": "NA",
+      "description": [
+        "Denotes agreement between the NA",
+        { "text": "27", "marks": ["sup"] },
+        " and NA",
+        { "text": "28", "marks": ["sup"] },
+        " editions."
+      ]
+    },
+    {
+      "_id": "NA27",
+      "name": ["NA", { "text": "27", "marks": ["sup"] }],
+      "description": [
+        { "text": "Nestle-Aland Novum Testamentum Graece. 27", "marks": ["i"] },
+        { "text": "th", "marks": ["i", "sup"] },
+        { "text": " ed.", "marks": ["i"] },
+        " Kurt Aland et al., eds. Stuttgart: Deutsche Bibelgesellschaft, 1993."
+      ]
+    },
+    {
+      "_id": "NA28",
+      "name": ["NA", { "text": "28", "marks": ["sup"] }],
+      "description": [
+        { "text": "Nestle-Aland Novum Testamentum Graece. 28", "marks": ["i"] },
+        { "text": "th", "marks": ["i", "sup"] },
+        { "text": " ed.", "marks": ["i"] },
+        " Barbara Aland et al., eds. Stuttgart: Deutsche Bibelgesellschaft, 2012."
+      ]
+    },
+    {
+      "_id": "PCK",
+      "name": "PCK",
+      "description": [
+        {
+          "text": "The Greek New Testament According to Family 35. 3",
+          "marks": ["i"]
+        },
+        { "text": "rd", "marks": ["i", "sup"] },
+        { "text": " ed.", "marks": ["i"] },
+        " Wilbur N. Pickering, ed. 2020."
+      ]
+    },
+    {
+      "_id": "PT",
+      "name": "PT",
+      "description": [
+        {
+          "text": "Ἡ Καινὴ Διαθήϰη ἐγϰϱίσει τῆς Μεγάλης τοῦ Χϱιστοῦ Ἐϰϰλησίας.",
+          "script": "G",
+          "marks": ["i"]
+        },
+        " (The Ecumenical Patriarchal Text of the New Testament). Vasileios Antoniades, ed. Constantinople: Patriarchal Press, 1904–1912."
+      ]
+    },
+    {
+      "_id": "RP-MG",
+      "name": ["RP", { "text": "mg", "marks": ["sup"] }],
+      "description": "Robinson and Pierpont’s alternate Byzantine readings as of April 26, 2026."
+    },
+    {
+      "_id": "SBL",
+      "name": "SBL",
+      "description": [
+        { "text": "The Greek New Testament: SBL Edition.", "marks": ["i"] },
+        " Michael W. Holmes, ed. Atlanta: Society of Biblical Literature, 2010."
+      ]
+    },
+    {
+      "_id": "SCR",
+      "name": "SCR",
+      "description": [
+        {
+          "text": "The New Testament in the Original Greek according to the Text Followed in the Authorized Version.",
+          "marks": ["i"]
+        },
+        " F.H.A. Scrivener, ed. Cambridge: University Press, 1894."
+      ]
+    },
+    {
+      "_id": "ST",
+      "name": "ST",
+      "description": [
+        { "text": "Novum Iesu Christi D.N. Testamentum.", "marks": ["i"] },
+        " Robert Stephanus, ed. Lutetiae: Ex officina Roberti Stephani typographi regii, 1550."
+      ]
+    },
+    {
+      "_id": "TH",
+      "name": "TH",
+      "description": [
+        {
+          "text": "The Greek New Testament: Produced at Tyndale House, Cambridge.",
+          "marks": ["i"]
+        },
+        " Dirk Jongkind and Peter Williams, eds. Wheaton, IL: Crossway, 2017."
+      ]
+    },
+    {
+      "_id": "TR",
+      "name": "TR",
+      "description": "Denotes agreement between the Scrivener (SCR) and Stephanus (ST) Textus Receptus editions."
+    },
+    {
+      "_id": "WH",
+      "name": "WH",
+      "description": [
+        {
+          "text": "The New Testament in the Original Greek. American ed.",
+          "marks": ["i"]
+        },
+        " B.F. Westcott and F.J.A. Hort, eds. New York: Harper & Brothers, 1881."
+      ]
+    },
+    {
+      "_id": "OM",
+      "name": { "text": "om.", "marks": ["i"] },
+      "description": [
+        "Indicates that an edition or editions ",
+        { "text": "omit", "marks": ["i"] },
+        " the text found in the main text."
+      ]
+    },
+    {
+      "_id": "TXT",
+      "name": { "text": "txt", "marks": ["i"] },
+      "description": "Indicates that an edition or editions agree with the text found in the main text."
+    },
+    {
+      "_id": "MS-0102",
+      "name": "0102",
+      "description": "Gregory-Aland 0102. Contents: Gospels. Date: VII."
+    },
+    {
+      "_id": "MS-0104",
+      "name": "0104",
+      "description": "Gregory-Aland 0104. Contents: Gospels. Date: VII."
+    },
+    {
+      "_id": "MS-0107",
+      "name": "0107",
+      "description": "Gregory-Aland 0107. Contents: Gospels. Date: VII."
+    },
+    {
+      "_id": "MS-0116",
+      "name": "0116",
+      "description": "Gregory-Aland 0116. Contents: Gospels. Date: VIII."
+    },
+    {
+      "_id": "MS-0133",
+      "name": "0133",
+      "description": "Gregory-Aland 0133. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-0136",
+      "name": "0136",
+      "description": "Gregory-Aland 0136. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-0141",
+      "name": "0141",
+      "description": "Gregory-Aland 0141. Contents: Gospels. Date: X."
+    },
+    {
+      "_id": "MS-0142",
+      "name": "0142",
+      "description": "Gregory-Aland 0142. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: X."
+    },
+    {
+      "_id": "MS-0148",
+      "name": "0148",
+      "description": "Gregory-Aland 0148. Contents: Gospels. Date: VIII."
+    },
+    {
+      "_id": "MS-0150",
+      "name": "0150",
+      "description": "Gregory-Aland 0150. Contents: Pauline Epistles (including Hebrews). Date: IX."
+    },
+    {
+      "_id": "MS-0151",
+      "name": "0151",
+      "description": "Gregory-Aland 0151. Contents: Pauline Epistles (including Hebrews). Date: IX."
+    },
+    {
+      "_id": "MS-0154",
+      "name": "0154",
+      "description": "Gregory-Aland 0154. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-0170",
+      "name": "0170",
+      "description": "Gregory-Aland 0170. Contents: Gospels. Date: V/VI."
+    },
+    {
+      "_id": "MS-0209",
+      "name": "0209",
+      "description": "Gregory-Aland 0209. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: VII."
+    },
+    {
+      "_id": "MS-0211",
+      "name": "0211",
+      "description": "Gregory-Aland 0211. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-0217",
+      "name": "0217",
+      "description": "Gregory-Aland 0217. Contents: Gospels. Date: V."
+    },
+    {
+      "_id": "MS-0233",
+      "name": "0233",
+      "description": "Gregory-Aland 0233. Contents: Gospels. Date: VIII."
+    },
+    {
+      "_id": "MS-0243",
+      "name": "0243",
+      "description": "Gregory-Aland 0243. Contents: Pauline Epistles (including Hebrews). Date: X."
+    },
+    {
+      "_id": "MS-0250",
+      "name": "0250",
+      "description": "Gregory-Aland 0250. Contents: Gospels. Date: VIII."
+    },
+    {
+      "_id": "MS-0257",
+      "name": "0257",
+      "description": "Gregory-Aland 0257. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-0274",
+      "name": "0274",
+      "description": "Gregory-Aland 0274. Contents: Gospels. Date: V."
+    },
+    {
+      "_id": "MS-0278",
+      "name": "0278",
+      "description": "Gregory-Aland 0278. Contents: Pauline Epistles (including Hebrews). Date: IX."
+    },
+    {
+      "_id": "MS-0281",
+      "name": "0281",
+      "description": "Gregory-Aland 0281. Contents: Gospels. Date: VII/VIII."
+    },
+    {
+      "_id": "MS-0285",
+      "name": "0285",
+      "description": "Gregory-Aland 0285. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: VI."
+    },
+    {
+      "_id": "MS-0287",
+      "name": "0287",
+      "description": "Gregory-Aland 0287. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-0296",
+      "name": "0296",
+      "description": "Gregory-Aland 0296. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: VI."
+    },
+    {
+      "_id": "MS-0307",
+      "name": "0307",
+      "description": "Gregory-Aland 0307. Contents: Gospels. Date: VII."
+    },
+    {
+      "_id": "MS-0311",
+      "name": "0311",
+      "description": "Gregory-Aland 0311. Contents: Pauline Epistles (including Hebrews). Date: VIII-IX."
+    },
+    {
+      "_id": "MS-0318",
+      "name": "0318",
+      "description": "Gregory-Aland 0318. Contents: Gospels. Date: VII/VIII."
+    },
+    {
+      "_id": "MS-0319",
+      "name": "0319",
+      "description": "Gregory-Aland 0319. Contents: Pauline Epistles (including Hebrews). Date: IX."
+    },
+    {
+      "_id": "MS-046",
+      "name": "046",
+      "description": "Gregory-Aland 046. Contents: Revelation. Date: X."
+    },
+    {
+      "_id": "MS-047",
+      "name": "047",
+      "description": "Gregory-Aland 047. Contents: Gospels. Date: VIII."
+    },
+    {
+      "_id": "MS-048",
+      "name": "048",
+      "description": "Gregory-Aland 048. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: V."
+    },
+    {
+      "_id": "MS-049",
+      "name": "049",
+      "description": "Gregory-Aland 049. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: X."
+    },
+    {
+      "_id": "MS-051",
+      "name": "051",
+      "description": "Gregory-Aland 051. Contents: Revelation. Date: X."
+    },
+    {
+      "_id": "MS-055",
+      "name": "055",
+      "description": "Gregory-Aland 055. Contents: Gospels. Date: XI."
+    },
+    {
+      "_id": "MS-056",
+      "name": "056",
+      "description": "Gregory-Aland 056. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: X."
+    },
+    {
+      "_id": "MS-061",
+      "name": "061",
+      "description": "Gregory-Aland 061. Contents: Pauline Epistles (including Hebrews). Date: V."
+    },
+    {
+      "_id": "MS-063",
+      "name": "063",
+      "description": "Gregory-Aland 063. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-070",
+      "name": "070",
+      "description": "Gregory-Aland 070. Contents: Gospels. Date: VI."
+    },
+    {
+      "_id": "MS-075",
+      "name": "075",
+      "description": "Gregory-Aland 075. Contents: Pauline Epistles (including Hebrews). Date: X."
+    },
+    {
+      "_id": "MS-078",
+      "name": "078",
+      "description": "Gregory-Aland 078. Contents: Gospels. Date: VI."
+    },
+    {
+      "_id": "MS-083",
+      "name": "083",
+      "description": "Gregory-Aland 083. Contents: Gospels. Date: VI/VII."
+    },
+    {
+      "_id": "MS-087",
+      "name": "087",
+      "description": "Gregory-Aland 087. Contents: Gospels. Date: VI."
+    },
+    {
+      "_id": "MS-099",
+      "name": "099",
+      "description": "Gregory-Aland 099. Contents: Gospels. Date: VII."
+    },
+    {
+      "_id": "MS-1080",
+      "name": "1080",
+      "description": "Gregory-Aland 1080. Contents: Gospels. Date: X."
+    },
+    {
+      "_id": "MS-1143",
+      "name": "1143",
+      "description": "Gregory-Aland 1143. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-1295",
+      "name": "1295",
+      "description": "Gregory-Aland 1295. Contents: Gospels. Date: X."
+    },
+    {
+      "_id": "MS-1424",
+      "name": "1424",
+      "description": "Gregory-Aland 1424. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: IX/X."
+    },
+    {
+      "_id": "MS-1500",
+      "name": "1500",
+      "description": "Gregory-Aland 1500. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-1841",
+      "name": "1841",
+      "description": "Gregory-Aland 1841. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: IX/X."
+    },
+    {
+      "_id": "MS-1862",
+      "name": "1862",
+      "description": "Gregory-Aland 1862. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: XI."
+    },
+    {
+      "_id": "MS-1900",
+      "name": "1900",
+      "description": "Gregory-Aland 1900. Contents: Pauline Epistles (including Hebrews). Date: X."
+    },
+    {
+      "_id": "MS-2224",
+      "name": "2224",
+      "description": "Gregory-Aland 2224. Contents: Gospels. Date: X."
+    },
+    {
+      "_id": "MS-2464",
+      "name": "2464",
+      "description": "Gregory-Aland 2464. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: IX."
+    },
+    {
+      "_id": "MS-2500",
+      "name": "2500",
+      "description": "Gregory-Aland 2500. Contents: Gospels. Date: 891."
+    },
+    {
+      "_id": "MS-2811",
+      "name": "2811",
+      "description": "Gregory-Aland 2811. Contents: Gospels. Date: X."
+    },
+    {
+      "_id": "MS-33",
+      "name": "33",
+      "description": "Gregory-Aland 33. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: X."
+    },
+    {
+      "_id": "MS-399",
+      "name": "399",
+      "description": "Gregory-Aland 399. Contents: Gospels. Date: IX/X."
+    },
+    {
+      "_id": "MS-461",
+      "name": "461",
+      "description": "Gregory-Aland 461. Contents: Gospels. Date: 835."
+    },
+    {
+      "_id": "MS-565",
+      "name": "565",
+      "description": "Gregory-Aland 565. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-566",
+      "name": "566",
+      "description": "Gregory-Aland 566. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-892",
+      "name": "892",
+      "description": "Gregory-Aland 892. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-A",
+      "name": "A",
+      "description": "Gregory-Aland 02. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: V."
+    },
+    {
+      "_id": "MS-ALEPH",
+      "name": "ℵ",
+      "description": "Gregory-Aland 01. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: IV."
+    },
+    {
+      "_id": "MS-B",
+      "name": "B",
+      "description": "Gregory-Aland 03. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: IV."
+    },
+    {
+      "_id": "MS-C",
+      "name": "C",
+      "description": "Gregory-Aland 04. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: V."
+    },
+    {
+      "_id": "MS-D",
+      "name": "D",
+      "description": "Gregory-Aland 05. Contents: Gospels, Acts and/or Catholic Epistles. Date: V. Gregory-Aland 06. Contents: Pauline Epistles (including Hebrews). Date: VI."
+    },
+    {
+      "_id": "MS-D-S",
+      "name": ["D", { "text": "s", "marks": ["sup"] }],
+      "description": "Gregory-Aland 05s. Contents: Gospels, Acts and/or Catholic Epistles. Date: IX."
+    },
+    {
+      "_id": "MS-DELTA",
+      "name": "Δ",
+      "description": "Gregory-Aland 037. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-E",
+      "name": "E",
+      "description": "Gregory-Aland 07. Contents: Gospels. Date: VIII. Gregory-Aland 08. Contents: Acts and/or Catholic Epistles. Date: VI."
+    },
+    {
+      "_id": "MS-F",
+      "name": "F",
+      "description": "Gregory-Aland 09. Contents: Gospels. Date: IX. Gregory-Aland 010. Contents: Pauline Epistles (including Hebrews). Date: IX."
+    },
+    {
+      "_id": "MS-G",
+      "name": "G",
+      "description": "Gregory-Aland 011. Contents: Gospels. Date: IX. Gregory-Aland 012. Contents: Pauline Epistles (including Hebrews). Date: IX."
+    },
+    {
+      "_id": "MS-GAMMA",
+      "name": "Γ",
+      "description": "Gregory-Aland 036. Contents: Gospels. Date: X."
+    },
+    {
+      "_id": "MS-H",
+      "name": "H",
+      "description": "Gregory-Aland 013. Contents: Gospels. Date: IX. Gregory-Aland 014. Contents: Acts and/or Catholic Epistles. Date: IX. Gregory-Aland 015. Contents: Pauline Epistles (including Hebrews). Date: VI."
+    },
+    {
+      "_id": "MS-I",
+      "name": "I",
+      "description": "Gregory-Aland 016. Contents: Pauline Epistles (including Hebrews). Date: V."
+    },
+    {
+      "_id": "MS-K",
+      "name": "K",
+      "description": "Gregory-Aland 017. Contents: Gospels. Date: IX. Gregory-Aland 018. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: IX."
+    },
+    {
+      "_id": "MS-L",
+      "name": "L",
+      "description": "Gregory-Aland 019. Contents: Gospels. Date: VIII. Gregory-Aland 020. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: IX."
+    },
+    {
+      "_id": "MS-LAMBDA",
+      "name": "Λ",
+      "description": "Gregory-Aland 039. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-M",
+      "name": "M",
+      "description": "Gregory-Aland 021. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-N",
+      "name": "N",
+      "description": "Gregory-Aland 022. Contents: Gospels. Date: VI."
+    },
+    {
+      "_id": "MS-O",
+      "name": "O",
+      "description": "Gregory-Aland 023. Contents: Gospels. Date: VI."
+    },
+    {
+      "_id": "MS-OMEGA",
+      "name": "Ω",
+      "description": "Gregory-Aland 045. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-P",
+      "name": "P",
+      "description": "Gregory-Aland 024. Contents: Gospels. Date: VI. Gregory-Aland 025. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: IX."
+    },
+    {
+      "_id": "MS-P100",
+      "name": ["𝔓", { "text": "100", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓100. Contents: Acts and/or Catholic Epistles. Date: III/IV."
+    },
+    {
+      "_id": "MS-P101",
+      "name": ["𝔓", { "text": "101", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓101. Contents: Gospels. Date: III."
+    },
+    {
+      "_id": "MS-P127",
+      "name": ["𝔓", { "text": "127", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓127. Contents: Acts and/or Catholic Epistles. Date: V."
+    },
+    {
+      "_id": "MS-P13",
+      "name": ["𝔓", { "text": "13", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓13. Contents: Pauline Epistles (including Hebrews). Date: III/IV."
+    },
+    {
+      "_id": "MS-P16",
+      "name": ["𝔓", { "text": "16", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓16. Contents: Pauline Epistles (including Hebrews). Date: IV."
+    },
+    {
+      "_id": "MS-P35",
+      "name": ["𝔓", { "text": "35", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓35. Contents: Gospels. Date: V."
+    },
+    {
+      "_id": "MS-P45",
+      "name": ["𝔓", { "text": "45", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓45. Contents: Gospels, Acts and/or Catholic Epistles. Date: III."
+    },
+    {
+      "_id": "MS-P46",
+      "name": ["𝔓", { "text": "46", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓46. Contents: Pauline Epistles (including Hebrews). Date: III."
+    },
+    {
+      "_id": "MS-P61",
+      "name": ["𝔓", { "text": "61", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓61. Contents: Pauline Epistles (including Hebrews). Date: VIII."
+    },
+    {
+      "_id": "MS-P66",
+      "name": ["𝔓", { "text": "66", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓66. Contents: Gospels. Date: III."
+    },
+    {
+      "_id": "MS-P72",
+      "name": ["𝔓", { "text": "72", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓72. Contents: Acts and/or Catholic Epistles. Date: III/IV."
+    },
+    {
+      "_id": "MS-P74",
+      "name": ["𝔓", { "text": "74", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓74. Contents: Acts and/or Catholic Epistles. Date: VII."
+    },
+    {
+      "_id": "MS-P75",
+      "name": ["𝔓", { "text": "75", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓75. Contents: Gospels. Date: III."
+    },
+    {
+      "_id": "MS-P88",
+      "name": ["𝔓", { "text": "88", "marks": ["sup"] }],
+      "description": "Gregory-Aland 𝔓88. Contents: Gospels. Date: IV."
+    },
+    {
+      "_id": "MS-PHI",
+      "name": "Φ",
+      "description": "Gregory-Aland 043. Contents: Gospels. Date: VI."
+    },
+    {
+      "_id": "MS-PI",
+      "name": "Π",
+      "description": "Gregory-Aland 041. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-PSI",
+      "name": "Ψ",
+      "description": "Gregory-Aland 044. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: IX/X."
+    },
+    {
+      "_id": "MS-Q",
+      "name": "Q",
+      "description": "Gregory-Aland 026. Contents: Gospels. Date: V."
+    },
+    {
+      "_id": "MS-R",
+      "name": "R",
+      "description": "Gregory-Aland 027. Contents: Gospels. Date: VII."
+    },
+    {
+      "_id": "MS-S",
+      "name": "S",
+      "description": "Gregory-Aland 028. Contents: Gospels. Date: X."
+    },
+    {
+      "_id": "MS-SIGMA",
+      "name": "Σ",
+      "description": "Gregory-Aland 042. Contents: Gospels. Date: VI."
+    },
+    {
+      "_id": "MS-T",
+      "name": "T",
+      "description": "Gregory-Aland 029. Contents: Gospels. Date: V."
+    },
+    {
+      "_id": "MS-THETA",
+      "name": "Θ",
+      "description": "Gregory-Aland 038. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-U",
+      "name": "U",
+      "description": "Gregory-Aland 030. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-V",
+      "name": "V",
+      "description": "Gregory-Aland 031. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-W",
+      "name": "W",
+      "description": "Gregory-Aland 032. Contents: Gospels. Date: V."
+    },
+    {
+      "_id": "MS-W-S",
+      "name": ["W", { "text": "s", "marks": ["sup"] }],
+      "description": "Gregory-Aland 032s. Contents: Gospels. Date: VII."
+    },
+    {
+      "_id": "MS-X",
+      "name": "X",
+      "description": "Gregory-Aland 033. Contents: Gospels. Date: X."
+    },
+    {
+      "_id": "MS-XI",
+      "name": "Ξ",
+      "description": "Gregory-Aland 040. Contents: Gospels. Date: VIII."
+    },
+    {
+      "_id": "MS-Y",
+      "name": "Y",
+      "description": "Gregory-Aland 034. Contents: Gospels. Date: IX."
+    },
+    {
+      "_id": "MS-Z",
+      "name": "Z",
+      "description": "Gregory-Aland 035. Contents: Gospels. Date: VI."
+    }
+  ],
+  "books": [
+    {
+      "_id": "MAT",
+      "name": { "text": "Κατὰ Ματθαῖον", "script": "G" },
+      "title": { "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΜΑΤΘΑΙΟΝ", "script": "G" },
+      "order": 1,
+      "chapters": 28
+    },
+    {
+      "_id": "MRK",
+      "name": { "text": "Κατὰ Μάρκον", "script": "G" },
+      "title": { "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΜΑΡΚΟΝ", "script": "G" },
+      "order": 2,
+      "chapters": 16
+    },
+    {
+      "_id": "LUK",
+      "name": { "text": "Κατὰ Λουκᾶν", "script": "G" },
+      "title": { "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΛΟΥΚΑΝ", "script": "G" },
+      "order": 3,
+      "chapters": 24
+    },
+    {
+      "_id": "JHN",
+      "name": { "text": "Κατὰ Ἰωάννην", "script": "G" },
+      "title": { "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΙΩΑΝΝΗΝ", "script": "G" },
+      "order": 4,
+      "chapters": 21
+    },
+    {
+      "_id": "ACT",
+      "name": { "text": "Πράξεις Ἀποστόλων", "script": "G" },
+      "title": { "text": "ΠΡΑΞΕΙΣ ΤΩΝ ΑΠΟΣΤΟΛΩΝ", "script": "G" },
+      "order": 5,
+      "chapters": 28
+    },
+    {
+      "_id": "ROM",
+      "name": { "text": "Πρὸς Ῥωμαίους", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΠΡΟΣ ΡΩΜΑΙΟΥΣ",
+        "script": "G"
+      },
+      "order": 6,
+      "chapters": 16
+    },
+    {
+      "_id": "1CO",
+      "name": { "text": "Πρὸς Κορινθίους Αʹ", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ ΕΠΙΣΤΟΛΗ ΠΡΩΤΗ",
+        "script": "G"
+      },
+      "order": 7,
+      "chapters": 16
+    },
+    {
+      "_id": "2CO",
+      "name": { "text": "Πρὸς Κορινθίους Bʹ", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
+        "script": "G"
+      },
+      "order": 8,
+      "chapters": 13
+    },
+    {
+      "_id": "GAL",
+      "name": { "text": "Πρὸς Γαλάτας", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΓΑΛΑΤΑΣ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 9,
+      "chapters": 6
+    },
+    {
+      "_id": "EPH",
+      "name": { "text": "Πρὸς Ἐφεσίους", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΕΦΕΣΙΟΥΣ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 10,
+      "chapters": 6
+    },
+    {
+      "_id": "PHP",
+      "name": { "text": "Πρὸς Φιλιππησίους", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΦΙΛΙΠΠΗΣΙΟΥΣ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 11,
+      "chapters": 4
+    },
+    {
+      "_id": "COL",
+      "name": { "text": "Πρὸς Κολοσσαεῖς", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΛΟΣΣΑΕΙΣ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 12,
+      "chapters": 4
+    },
+    {
+      "_id": "1TH",
+      "name": { "text": "Πρὸς Θεσσαλονικεῖς Αʹ", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ ΕΠΙΣΤΟΛΗ ΠΡΩΤΗ",
+        "script": "G"
+      },
+      "order": 13,
+      "chapters": 5
+    },
+    {
+      "_id": "2TH",
+      "name": { "text": "Πρὸς Θεσσαλονικεῖς Βʹ", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
+        "script": "G"
+      },
+      "order": 14,
+      "chapters": 3
+    },
+    {
+      "_id": "1TM",
+      "name": { "text": "Πρὸς Τιμόθεον Αʹ", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΤΙΜΟΘΕΟΝ ΕΠΙΣΤΟΛΗ ΠΡΩΤΗ",
+        "script": "G"
+      },
+      "order": 15,
+      "chapters": 6
+    },
+    {
+      "_id": "2TM",
+      "name": { "text": "Πρὸς Τιμόθεον Βʹ", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΤΙΜΟΘΕΟΝ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
+        "script": "G"
+      },
+      "order": 16,
+      "chapters": 4
+    },
+    {
+      "_id": "TIT",
+      "name": { "text": "Πρὸς Τίτον", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΤΙΤΟΝ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 17,
+      "chapters": 3
+    },
+    {
+      "_id": "PHM",
+      "name": { "text": "Πρὸς Φιλήμονα", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΦΙΛΗΜΟΝΑ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 18,
+      "chapters": 1
+    },
+    {
+      "_id": "HEB",
+      "name": { "text": "Πρὸς Ἑβραίους", "script": "G" },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΕΒΡΑΙΟΥΣ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 19,
+      "chapters": 13
+    },
+    {
+      "_id": "JAS",
+      "name": { "text": "Ἰακώβου", "script": "G" },
+      "title": { "text": "ΙΑΚΩΒΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ", "script": "G" },
+      "order": 20,
+      "chapters": 5
+    },
+    {
+      "_id": "1PT",
+      "name": { "text": "Πέτρου Αʹ", "script": "G" },
+      "title": { "text": "ΠΕΤΡΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΠΡΩΤΗ", "script": "G" },
+      "order": 21,
+      "chapters": 5
+    },
+    {
+      "_id": "2PT",
+      "name": { "text": "Πέτρου Βʹ", "script": "G" },
+      "title": { "text": "ΠΕΤΡΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΔΕΥΤΕΡΑ", "script": "G" },
+      "order": 22,
+      "chapters": 3
+    },
+    {
+      "_id": "1JN",
+      "name": { "text": "Ἰωάννου Αʹ", "script": "G" },
+      "title": { "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΠΡΩΤΗ", "script": "G" },
+      "order": 23,
+      "chapters": 5
+    },
+    {
+      "_id": "2JN",
+      "name": { "text": "Ἰωάννου Βʹ", "script": "G" },
+      "title": { "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ", "script": "G" },
+      "order": 24,
+      "chapters": 1
+    },
+    {
+      "_id": "3JN",
+      "name": { "text": "Ἰωάννου Γʹ", "script": "G" },
+      "title": { "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΤΡΙΤΗ", "script": "G" },
+      "order": 25,
+      "chapters": 1
+    },
+    {
+      "_id": "JUD",
+      "name": { "text": "Ἰούδα", "script": "G" },
+      "title": { "text": "ΙΟΥΔΑ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ", "script": "G" },
+      "order": 26,
+      "chapters": 1
+    },
+    {
+      "_id": "REV",
+      "name": { "text": "Ἀποκάλυψις Ἰωάννου", "script": "G" },
+      "title": {
+        "text": "ΑΠΟΚΑΛΥΨΙΣ ΤΟΥ ΑΓΙΟΥ ΙΩΑΝΝΟΥ ΤΟΥ ΘΕΟΛΟΓΟΥ",
+        "script": "G"
+      },
+      "order": 27,
+      "chapters": 22
+    }
+  ]
+}

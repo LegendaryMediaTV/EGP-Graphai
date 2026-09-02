@@ -18,6 +18,21 @@ export interface VersionBook {
 }
 
 /**
+ * One entry in a version's abbreviation registry: what a short code prints
+ * as, and what it stands for. Registries are per-version because the same
+ * code means different things in different editions (one version's `MT` is
+ * the Masoretic Text, another's the Majority Text).
+ */
+export interface Abbreviation {
+  /** Identifier an `{ abbr }` content node points at (e.g. 'NA27', 'OM', 'MS-ALEPH') */
+  _id: string;
+  /** How the abbreviation prints, as content so it can carry markup */
+  name: Content;
+  /** What the abbreviation stands for; shown on hover or in a modal, dropped by the text and markdown exports */
+  description?: Content;
+}
+
+/**
  * Testament-specific overrides for script and morphology.
  */
 export interface Testament {
@@ -40,6 +55,8 @@ export default interface BibleVersion {
   copyright?: Content;
   /** Default script for this version ('G' for Greek, 'H' for Hebrew). If unset, assume Latin. */
   script?: "G" | "H";
+  /** Abbreviations this version's content refers to by id */
+  abbr?: Abbreviation[];
   /** Optional per-testament overrides for script and morphology */
   testaments?: {
     OT?: Testament;

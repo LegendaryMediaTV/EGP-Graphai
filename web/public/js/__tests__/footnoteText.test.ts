@@ -48,4 +48,21 @@ describe("getFootnoteText", () => {
     expect(getFootnoteText(undefined)).toBe("");
     expect(getFootnoteText(null)).toBe("");
   });
+
+  it("resolves an abbr node to its registry entry's display name", () => {
+    const registry = new Map([
+      ["NA27", { _id: "NA27", name: [{ text: "NA" }, { text: "27", marks: ["sup"] }] }],
+    ]);
+    expect(
+      getFootnoteText([{ abbr: "NA27" }, " ", { text: "αλλα" }] as any, registry as any)
+    ).toBe("NA27 αλλα");
+  });
+
+  it("falls back to the bare id when the registry has no such entry, so the note still reads", () => {
+    expect(getFootnoteText({ abbr: "NA27" } as any, new Map() as any)).toBe("NA27");
+  });
+
+  it("falls back to the bare id when no registry is supplied at all", () => {
+    expect(getFootnoteText({ abbr: "OM" } as any)).toBe("OM");
+  });
 });

@@ -6,9 +6,9 @@
   "$defs": {
     "marks": {
       "type": "array",
-      "items": { "type": "string", "enum": ["i", "b", "woc", "sc"] },
+      "items": { "type": "string", "enum": ["i", "b", "woc", "sc", "sup"] },
       "uniqueItems": true,
-      "description": "Formatting marks: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps"
+      "description": "Formatting marks: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps, sup = superscript"
     },
     "footnote": {
       "type": "object",
@@ -151,6 +151,19 @@
         }
       },
       "required": ["bibleLink"],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "description": "Reference to an abbreviation defined in the version's `abbr` registry (see bible-versions-schema.json). Consumers render the entry's `name`. Its `description` is optional detail for a tooltip or modal.",
+      "properties": {
+        "abbr": {
+          "type": "string",
+          "pattern": "^[A-Z0-9-]+$",
+          "description": "Identifier matching an `_id` in the version's `abbr` array, e.g., NA27, OM, MS-ALEPH."
+        }
+      },
+      "required": ["abbr"],
       "additionalProperties": false
     },
     {

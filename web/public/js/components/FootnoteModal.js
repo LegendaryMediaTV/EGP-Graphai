@@ -1,6 +1,13 @@
 const { useEffect, useRef } = React;
 
-function FootnoteModal({ content, onClose, settings, onBibleLinkClick }) {
+function FootnoteModal({
+  content,
+  onClose,
+  settings,
+  heading = "Footnote",
+  onBibleLinkClick,
+  onAbbrClick,
+}) {
   const modalRef = useRef(null);
 
   useEffect(() => {
@@ -30,7 +37,7 @@ function FootnoteModal({ content, onClose, settings, onBibleLinkClick }) {
           <Icons.Times />
         </button>
         <h3 className="text-lg font-bold mb-4 text-gray-900 dark:text-gray-100">
-          Footnote
+          {heading}
         </h3>
         <div className="text-gray-700 dark:text-gray-300 leading-relaxed">
           <ContentNode
@@ -40,6 +47,7 @@ function FootnoteModal({ content, onClose, settings, onBibleLinkClick }) {
               onClose();
               if (onBibleLinkClick) onBibleLinkClick(ref);
             }}
+            onAbbrClick={onAbbrClick}
           />
         </div>
       </div>

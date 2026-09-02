@@ -660,6 +660,9 @@ function walkContent(
     walkContent(content.paragraph, zone, footnoteType, visit);
     return;
   }
+  // An abbreviation node is a leaf: its display name and description live in
+  // the version's registry, not here, so there is nothing to walk into.
+  if ("abbr" in content) return;
   if ("content" in content) walkContent(content.content, zone, footnoteType, visit);
   if (content.foot) walkContent(content.foot.content, zone, content.foot.type ?? null, visit);
 }
@@ -892,6 +895,9 @@ export function splitCrossChapterLinksInContent(versionId: string, content: Cont
     const rewritten = splitCrossChapterLinksInContent(versionId, content.paragraph);
     return { content: { ...content, paragraph: rewritten.content }, splits: rewritten.splits };
   }
+
+  // Leaf: an abbreviation node holds only an id — see `walkContent`.
+  if ("abbr" in content) return { content, splits: 0 };
 
   let result: Content = content;
   let splits = 0;
@@ -1242,6 +1248,9 @@ export function reconstructTruncatedRangesInContent(
     const rewritten = reconstructTruncatedRangesInContent(versionId, content.paragraph);
     return { content: { ...content, paragraph: rewritten.content }, changed: rewritten.changed, skipped: rewritten.skipped };
   }
+
+  // Leaf: an abbreviation node holds only an id — see `walkContent`.
+  if ("abbr" in content) return { content, changed: false, skipped: [] };
 
   let result: Content = content;
   let changed = false;
@@ -1608,6 +1617,9 @@ export function normalizeSingleChapterShorthandInContent(
     const rewritten = normalizeSingleChapterShorthandInContent(content.paragraph, versions);
     return { content: { ...content, paragraph: rewritten.content }, changed: rewritten.changed };
   }
+
+  // Leaf: an abbreviation node holds only an id — see `walkContent`.
+  if ("abbr" in content) return { content, changed: false };
 
   let result: Content = content;
   let changed = false;

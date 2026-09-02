@@ -8,6 +8,7 @@ import Content, {
 } from "../types/Content";
 import { writeFileAtomic } from "../functions/writeJsonFile";
 import VerseSchema from "../types/VerseSchema";
+import BibleVersion from "../types/Version";
 
 // ============================================================================
 // Core Content Rendering Options
@@ -29,6 +30,7 @@ interface RenderOptions {
   footnoteMarker: (index: number) => string; // Renders the marker for the footnote at the given 0-based index within the current footnotes list
   boldWrapper: (text: string) => string; // Wraps text carrying a "b" mark
   italicWrapper: (text: string) => string; // Wraps text carrying an "i" mark
+  superscriptWrapper: (text: string) => string; // Wraps text carrying a "sup" mark
   escapeSourceText: (text: string) => string; // Escapes this format's own delimiter characters when they appear in text taken verbatim from content (see `escapeMarkdownDelimiters`)
 }
 
@@ -46,6 +48,10 @@ const TEXT_OPTIONS: RenderOptions = {
   footnoteMarker: () => "°",
   boldWrapper: (text) => text,
   italicWrapper: (text) => text,
+  // Plain text has no way to raise a baseline, so a superscript siglum
+  // modifier prints inline: "NA27", "1143vid". Losing the distinction beats
+  // inventing a caret notation this format's readers would have to learn.
+  superscriptWrapper: (text) => text,
   // The text export has no delimiter grammar of its own to collide with.
   escapeSourceText: (text) => text,
 };
@@ -88,6 +94,7 @@ const MARKDOWN_OPTIONS: RenderOptions = {
   footnoteMarker: (index) => `<sup>${footnoteLabel(index)}</sup>`,
   boldWrapper: (text) => wrapDelimitersOffWhitespace(text, "**"),
   italicWrapper: (text) => wrapDelimitersOffWhitespace(text, "_"),
+  superscriptWrapper: (text) => `<sup>${text}</sup>`,
   escapeSourceText: escapeMarkdownDelimiters,
 };
 
@@ -102,6 +109,23 @@ interface RenderContext {
   verseNum?: number; // Current verse number; falls back to this as the footnote prefix ("N.") when footnotePrefix isn't set
   footnotePrefix?: string; // "Subtitle." or "Heading." for special contexts
   withinItalicWrapper?: boolean; // Whether the text this render returns lands inside an italic wrapper its caller applies (see `italicWrapperFor`)
+  abbreviations?: ReadonlyMap<string, Content>; // Display names from the version's `abbr` registry, keyed by id, resolving `{ abbr }` nodes
+}
+
+/**
+ * Applies a "sup" mark, leaving any whitespace on either side outside the
+ * wrapper. The array branch reads a core's leading and trailing whitespace
+ * to decide spacing between siblings, so burying a space inside `<sup>`
+ * would hide it from that logic and fuse two words.
+ */
+function wrapSuperscript(
+  text: string,
+  marks: ContentObject["marks"],
+  ctx: RenderContext
+): string {
+  if (!marks?.includes("sup") || text.trim() === "") return text;
+  const [, leading, core, trailing] = text.match(/^(\s*)([\s\S]*?)(\s*)$/)!;
+  return leading + ctx.options.superscriptWrapper(core) + trailing;
 }
 
 /** Wraps nothing, for a mark whose delimiters would be redundant where the text lands. */
@@ -196,7 +220,7 @@ function markedBibleLinkOverride(item: Content): ContentObject | undefined {
 function isMarkRunCandidate(item: Content): item is ContentObject | ContentNested {
   if (markedBibleLinkOverride(item) !== undefined) return true;
   if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
-  if ("heading" in item || "subtitle" in item || "bibleLink" in item) return false;
+  if ("heading" in item || "subtitle" in item || "bibleLink" in item || "abbr" in item) return false;
   if ("paragraph" in item && item.paragraph !== undefined && typeof item.paragraph !== "boolean") return false;
   return true;
 }
@@ -620,8 +644,15 @@ function emphasisRunContinuation(
     // is as eligible as one with no marks.
     const override = markedBibleLinkOverride(item);
     const ownMarks = !override && "content" in item ? emphasisStateOf(item.marks) : undefined;
+    // A "sup" mark disqualifies the node the same way "b"/"i" do: this
+    // branch builds its own core out of the continuation text and never
+    // reaches `renderNestedContentParts`, where the superscript wrap lives.
     const nestedArrayCandidate =
-      ownMarks !== undefined && !ownMarks.b && !ownMarks.i && Array.isArray((item as ContentNested).content);
+      ownMarks !== undefined &&
+      !ownMarks.b &&
+      !ownMarks.i &&
+      !item.marks?.includes("sup") &&
+      Array.isArray((item as ContentNested).content);
 
     if (nestedArrayCandidate) {
       const nested = item as ContentNested;
@@ -773,6 +804,14 @@ function renderContent(content: Content, ctx: RenderContext): string {
     return content.bibleLink;
   }
 
+  // An abbreviation renders as its registry entry's display name. Falling
+  // back to the bare id keeps an export readable when the registry is
+  // missing or incomplete; `validate` is what reports the unknown id.
+  if ("abbr" in content) {
+    const name = ctx.abbreviations?.get(content.abbr);
+    return name === undefined ? content.abbr : renderContent(name, ctx);
+  }
+
   // Paragraph wrapper object - contains nested paragraph content (not a flag)
   if (
     "paragraph" in content &&
@@ -841,6 +880,10 @@ function renderTextObjectParts(obj: ContentObject, ctx: RenderContext): Rendered
   // (wrapEmphasisMarks, the array branch's splitWhitespace) operate on text
   // already safe to emit.
   text = ctx.options.escapeSourceText(text);
+
+  // Superscript wraps here rather than in `wrapEmphasisMarks`, because the
+  // array branch takes this function's `core` and never calls that one.
+  text = wrapSuperscript(text, obj.marks, ctx);
 
   const suffixParts: string[] = [];
 
@@ -972,7 +1015,7 @@ function renderNestedSuffix(obj: ContentNested, ctx: RenderContext, core: string
  * of which render `obj.content` self-contained and sealed.
  */
 function renderNestedContentParts(obj: ContentNested, ctx: RenderContext): RenderedParts {
-  const core = renderContent(obj.content, ctx);
+  const core = wrapSuperscript(renderContent(obj.content, ctx), obj.marks, ctx);
   return {
     prefix: renderNestedPrefix(obj, ctx),
     core,
@@ -994,9 +1037,28 @@ function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
 // ============================================================================
 
 /**
+ * Display names from a version's `abbr` registry, keyed by id, or undefined
+ * when the version declares none. Read once per version rather than per
+ * verse: a 10,000-footnote book would otherwise re-parse `_version.json`
+ * for every siglum it prints.
+ */
+function readAbbreviations(
+  versionDir: string
+): ReadonlyMap<string, Content> | undefined {
+  const versionPath = path.join(versionDir, "_version.json");
+  if (!fs.existsSync(versionPath)) return undefined;
+  const version: BibleVersion = JSON.parse(fs.readFileSync(versionPath, "utf-8"));
+  if (!version.abbr?.length) return undefined;
+  return new Map(version.abbr.map((entry) => [entry._id, entry.name]));
+}
+
+/**
  * Convert a verse to plain text with Strong's numbers and morph codes.
  */
-function convertVerseToText(verse: VerseSchema): string {
+function convertVerseToText(
+  verse: VerseSchema,
+  abbreviations?: ReadonlyMap<string, Content>
+): string {
   const chapter = verse.chapter.toString().padStart(3, "0");
   const verseNum = verse.verse.toString().padStart(3, "0");
 
@@ -1004,6 +1066,7 @@ function convertVerseToText(verse: VerseSchema): string {
     options: TEXT_OPTIONS,
     footnotes: [],
     verseNum: verse.verse,
+    abbreviations,
   };
 
   let text = renderContent(verse.content, ctx);
@@ -1022,12 +1085,14 @@ function convertVerseToText(verse: VerseSchema): string {
  */
 function convertVerseToMarkdown(
   verse: VerseSchema,
-  chapterFootnotes: string[]
+  chapterFootnotes: string[],
+  abbreviations?: ReadonlyMap<string, Content>
 ): string {
   const ctx: RenderContext = {
     options: MARKDOWN_OPTIONS,
     footnotes: chapterFootnotes,
     verseNum: verse.verse,
+    abbreviations,
   };
 
   // Footnote bodies this call is about to append. They never appear in the
@@ -1143,6 +1208,8 @@ async function convertBibleVersion(
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
+  const abbreviations = readAbbreviations(inputDir);
+
   const files = fs
     .readdirSync(inputDir)
     .filter(
@@ -1157,7 +1224,7 @@ async function convertBibleVersion(
     console.log(`Converting ${inputPath} to ${outputPath}`);
 
     const data: VerseSchema[] = JSON.parse(fs.readFileSync(inputPath, "utf-8"));
-    const textLines = data.map((verse) => convertVerseToText(verse));
+    const textLines = data.map((verse) => convertVerseToText(verse, abbreviations));
 
     await writeFileAtomic(outputPath, textLines.join("\n"));
   }
@@ -1190,6 +1257,8 @@ async function convertBibleVersionToMarkdown(
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
+
+  const abbreviations = readAbbreviations(inputDir);
 
   const files = fs
     .readdirSync(inputDir)
@@ -1300,7 +1369,11 @@ async function convertBibleVersionToMarkdown(
       }
 
       for (const verse of chapterVerses) {
-        const verseText = convertVerseToMarkdown(verse, chapterFootnotes);
+        const verseText = convertVerseToMarkdown(
+          verse,
+          chapterFootnotes,
+          abbreviations
+        );
         markdownLines.push(verseText);
       }
 

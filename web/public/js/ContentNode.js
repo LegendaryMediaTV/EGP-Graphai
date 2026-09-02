@@ -11,8 +11,18 @@ const { useState, useEffect, useMemo, useRef } = React;
  * @param {object} props.settings - Display settings controlling which parts render (dark mode, show* toggles)
  * @param {(content: *) => void} [props.onFootnoteClick] - Called with the footnote's raw content on click; falls back to `alert()` when omitted
  * @param {(bibleLink: string) => void} [props.onBibleLinkClick] - Called with the raw `bibleLink` reference on click
+ * @param {(abbr: object) => void} [props.onAbbrClick] - Called with the resolved `{ _id, name, description }` registry entry when an abbreviation is clicked
  */
-function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
+function ContentNode({
+  node,
+  settings,
+  onFootnoteClick,
+  onBibleLinkClick,
+  onAbbrClick,
+}) {
+  // Read before any early return: a hook may not sit behind a condition.
+  const abbreviations = React.useContext(AbbreviationContext);
+
   // Handle null/undefined
   if (!node) return null;
 
@@ -25,6 +35,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
         settings={settings}
         onFootnoteClick={onFootnoteClick}
         onBibleLinkClick={onBibleLinkClick}
+        onAbbrClick={onAbbrClick}
       />
     ));
   }
@@ -44,6 +55,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
             settings={settings}
             onFootnoteClick={onFootnoteClick}
             onBibleLinkClick={onBibleLinkClick}
+            onAbbrClick={onAbbrClick}
           />
         ) : (
           node.bibleLink
@@ -63,6 +75,40 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
       );
     }
 
+    // --- Abbreviation Reference ---
+    // The id is all the content carries; what prints and what it means come
+    // from the version registry, so an unknown id degrades to the bare id
+    // rather than rendering nothing. `validate` is what reports it.
+    if (node.abbr) {
+      const entry = abbreviations && abbreviations.get(node.abbr);
+      if (!entry) return <span>{node.abbr}</span>;
+
+      const description = entry.description
+        ? getFootnoteText(entry.description, abbreviations)
+        : "";
+      const display = (
+        <ContentNode
+          node={entry.name}
+          settings={settings}
+          onFootnoteClick={onFootnoteClick}
+          onBibleLinkClick={onBibleLinkClick}
+          onAbbrClick={onAbbrClick}
+        />
+      );
+
+      if (!description) return <span>{display}</span>;
+
+      return (
+        <abbr
+          title={description}
+          onClick={() => onAbbrClick && onAbbrClick(entry)}
+          className="cursor-help no-underline decoration-dotted underline-offset-2 hover:underline"
+        >
+          {display}
+        </abbr>
+      );
+    }
+
     // --- Structural Wrappers ---
 
     if (node.paragraph) {
@@ -79,6 +125,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
               settings={settings}
               onFootnoteClick={onFootnoteClick}
               onBibleLinkClick={onBibleLinkClick}
+              onAbbrClick={onAbbrClick}
             />
           </p>
         );
@@ -96,6 +143,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
               settings={settings}
               onFootnoteClick={onFootnoteClick}
               onBibleLinkClick={onBibleLinkClick}
+              onAbbrClick={onAbbrClick}
             />
           </h4>
         );
@@ -107,6 +155,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
             settings={settings}
             onFootnoteClick={onFootnoteClick}
             onBibleLinkClick={onBibleLinkClick}
+            onAbbrClick={onAbbrClick}
           />
         </h3>
       );
@@ -121,6 +170,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
             settings={settings}
             onFootnoteClick={onFootnoteClick}
             onBibleLinkClick={onBibleLinkClick}
+            onAbbrClick={onAbbrClick}
           />
         </h4>
       );
@@ -139,6 +189,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
           settings={settings}
           onFootnoteClick={onFootnoteClick}
           onBibleLinkClick={onBibleLinkClick}
+          onAbbrClick={onAbbrClick}
         />
       );
 
@@ -161,6 +212,8 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
         }
         if (node.marks.includes("sc"))
           nestedContent = <span className="sc">{nestedContent}</span>;
+        if (node.marks.includes("sup"))
+          nestedContent = <sup>{nestedContent}</sup>;
       }
 
       // Handle parsing info for the nested content
@@ -179,7 +232,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
             className="font-mono font-bold text-gray-500 dark:text-gray-400 hover:underline"
           >
             {node.strong}
-          </a>
+          </a>,
         );
       }
       if (settings.showLemma && node.lemma) {
@@ -189,7 +242,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
             className={`italic text-gray-400 ${parsingInfo.length > 0 ? "ml-1" : ""}`}
           >
             {node.lemma}
-          </span>
+          </span>,
         );
       }
       if (settings.showMorph && node.morph) {
@@ -199,7 +252,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
             className={`text-gray-500 dark:text-gray-400 ${parsingInfo.length > 0 ? "ml-1" : ""}`}
           >
             {node.morph}
-          </span>
+          </span>,
         );
       }
 
@@ -215,12 +268,12 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
         settings.showFootnotes && node.foot ? (
           <span
             className="text-blue-600 dark:text-blue-400 text-[0.6em] align-top cursor-pointer ml-0.5 hover:underline"
-            title={getFootnoteText(node.foot.content)}
+            title={getFootnoteText(node.foot.content, abbreviations)}
             onClick={() => {
               if (onFootnoteClick) {
                 onFootnoteClick(node.foot.content);
               } else {
-                alert(getFootnoteText(node.foot.content));
+                alert(getFootnoteText(node.foot.content, abbreviations));
               }
             }}
           >
@@ -272,6 +325,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
       }
       if (node.marks.includes("sc"))
         content = <span className="sc">{content}</span>;
+      if (node.marks.includes("sup")) content = <sup>{content}</sup>;
     }
 
     // Paragraph break (boolean flag on text node)
@@ -282,12 +336,12 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
       settings.showFootnotes && node.foot ? (
         <span
           className="text-blue-600 dark:text-blue-400 text-[0.6em] align-top cursor-pointer ml-0.5 hover:underline"
-          title={getFootnoteText(node.foot.content)}
+          title={getFootnoteText(node.foot.content, abbreviations)}
           onClick={() => {
             if (onFootnoteClick) {
               onFootnoteClick(node.foot.content);
             } else {
-              alert(getFootnoteText(node.foot.content));
+              alert(getFootnoteText(node.foot.content, abbreviations));
             }
           }}
         >
@@ -311,7 +365,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
           className="font-mono font-bold text-gray-500 dark:text-gray-400 hover:underline"
         >
           {node.strong}
-        </a>
+        </a>,
       );
     }
     if (settings.showLemma && node.lemma) {
@@ -323,7 +377,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
           }`}
         >
           {node.lemma}
-        </span>
+        </span>,
       );
     }
     if (settings.showMorph && node.morph) {
@@ -335,7 +389,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
           }`}
         >
           {node.morph}
-        </span>
+        </span>,
       );
     }
 

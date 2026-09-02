@@ -1,6 +1,13 @@
 const { useState, useEffect, useMemo, useRef } = React;
 
-function VerseRenderer({ verse, mode, settings, onFootnoteClick, onBibleLinkClick }) {
+function VerseRenderer({
+  verse,
+  mode,
+  settings,
+  onFootnoteClick,
+  onBibleLinkClick,
+  onAbbrClick,
+}) {
   const contentArray = Array.isArray(verse.content)
     ? verse.content
     : [verse.content];
@@ -34,6 +41,7 @@ function VerseRenderer({ verse, mode, settings, onFootnoteClick, onBibleLinkClic
         settings={settings}
         onFootnoteClick={onFootnoteClick}
         onBibleLinkClick={onBibleLinkClick}
+        onAbbrClick={onAbbrClick}
       />
       {settings.paragraphMode && isParagraphStart && (
         <span className="block mt-4 w-full"></span>
@@ -54,6 +62,7 @@ function VerseRenderer({ verse, mode, settings, onFootnoteClick, onBibleLinkClic
         settings={settings}
         onFootnoteClick={onFootnoteClick}
         onBibleLinkClick={onBibleLinkClick}
+        onAbbrClick={onAbbrClick}
       />
       {mode === "paragraph" && " "}
     </React.Fragment>

@@ -86,9 +86,14 @@ function isPlainObject(node: unknown): node is Record<string, unknown> {
   return node !== null && typeof node === "object" && !Array.isArray(node);
 }
 
-/** A `{heading}`/`{subtitle}`/`{bibleLink}` wrapper — a hard boundary this transform never treats as a split candidate, matching `utils/auditNodes.ts`'s own `describeNode` classification of the identical shapes. */
+/** A `{heading}`/`{subtitle}`/`{bibleLink}`/`{abbr}` wrapper — a hard boundary this transform never treats as a split candidate, matching `utils/auditNodes.ts`'s own `describeNode` classification of the identical shapes. */
 function isBoundary(record: Record<string, unknown>): boolean {
-  return "heading" in record || "subtitle" in record || "bibleLink" in record;
+  return (
+    "heading" in record ||
+    "subtitle" in record ||
+    "bibleLink" in record ||
+    "abbr" in record
+  );
 }
 
 /**

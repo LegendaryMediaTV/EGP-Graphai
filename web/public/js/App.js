@@ -11,6 +11,7 @@ function App() {
   const [bookContent, setBookContent] = useState([]);
   const [loading, setLoading] = useState(false);
   const [activeFootnote, setActiveFootnote] = useState(null);
+  const [activeAbbr, setActiveAbbr] = useState(null);
 
   // UI State
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
@@ -34,19 +35,27 @@ function App() {
   }); // Derived Data
   const currentVersion = useMemo(
     () => versions.find((v) => v._id === selectedVersionId),
-    [versions, selectedVersionId]
+    [versions, selectedVersionId],
   );
   const availableBooks = useMemo(
     () => (currentVersion ? currentVersion.books : []),
-    [currentVersion]
+    [currentVersion],
   );
   const currentBook = useMemo(
     () => availableBooks.find((b) => b._id === selectedBookId),
-    [availableBooks, selectedBookId]
+    [availableBooks, selectedBookId],
   );
   const maxChapters = useMemo(
     () => (currentBook ? currentBook.chapters : 1),
-    [currentBook]
+    [currentBook],
+  );
+  // Registries are per-version, so this map is rebuilt whenever the reader
+  // switches versions — the same short code can mean something else in the
+  // next one.
+  const abbreviations = useMemo(
+    () =>
+      new Map((currentVersion?.abbr || []).map((entry) => [entry._id, entry])),
+    [currentVersion],
   );
 
   // --- Effects ---
@@ -123,7 +132,7 @@ function App() {
     } else if (newChapter < 1) {
       // Go to previous book
       const currentBookIndex = availableBooks.findIndex(
-        (b) => b._id === selectedBookId
+        (b) => b._id === selectedBookId,
       );
       if (currentBookIndex > 0) {
         const prevBook = availableBooks[currentBookIndex - 1];
@@ -134,7 +143,7 @@ function App() {
     } else if (newChapter > maxChapters) {
       // Go to next book
       const currentBookIndex = availableBooks.findIndex(
-        (b) => b._id === selectedBookId
+        (b) => b._id === selectedBookId,
       );
       if (currentBookIndex < availableBooks.length - 1) {
         const nextBook = availableBooks[currentBookIndex + 1];
@@ -162,7 +171,7 @@ function App() {
     const book = bookRegistry.find(
       (b) =>
         b.name.toLowerCase() === normalized ||
-        (b.alt && b.alt.some((a) => a.toLowerCase() === normalized))
+        (b.alt && b.alt.some((a) => a.toLowerCase() === normalized)),
     );
 
     if (!book) {
@@ -172,7 +181,7 @@ function App() {
 
     if (!availableBooks.some((b) => b._id === book._id)) {
       console.warn(
-        `Book "${book.name}" is not available in version "${selectedVersionId}".`
+        `Book "${book.name}" is not available in version "${selectedVersionId}".`,
       );
       return;
     }
@@ -186,7 +195,7 @@ function App() {
     requestAnimationFrame(() => {
       const tryScroll = () => {
         const el = document.getElementById(
-          `verse-${book._id}-${chapterStr}-${targetVerse}`
+          `verse-${book._id}-${chapterStr}-${targetVerse}`,
         );
         if (el) {
           el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -203,102 +212,114 @@ function App() {
   };
 
   return (
-    <div
-      className={`flex flex-col h-screen ${
-        settings.darkMode
-          ? "bg-gray-900 text-gray-100"
-          : "bg-gray-50 text-gray-900"
-      } transition-colors duration-300`}
-    >
-      <Header
-        settings={settings}
-        versions={versions}
-        selectedVersionId={selectedVersionId}
-        setSelectedVersionId={setSelectedVersionId}
-        selectedBookId={selectedBookId}
-        setSelectedBookId={setSelectedBookId}
-        setIsNavOpen={setIsNavOpen}
-        setIsSettingsOpen={setIsSettingsOpen}
-      />
-
-      {/* --- Main Layout --- */}
-      <div className="flex flex-1 overflow-hidden relative">
-        <Sidebar
-          settings={settings}
-          availableBooks={availableBooks}
-          selectedBookId={selectedBookId}
-          setSelectedBookId={setSelectedBookId}
-          setSelectedChapter={setSelectedChapter}
-        />
-
-        <MobileNav
-          isOpen={isNavOpen}
-          onClose={() => setIsNavOpen(false)}
+    <AbbreviationContext.Provider value={abbreviations}>
+      <div
+        className={`flex flex-col h-screen ${
+          settings.darkMode
+            ? "bg-gray-900 text-gray-100"
+            : "bg-gray-50 text-gray-900"
+        } transition-colors duration-300`}
+      >
+        <Header
           settings={settings}
           versions={versions}
           selectedVersionId={selectedVersionId}
           setSelectedVersionId={setSelectedVersionId}
-          availableBooks={availableBooks}
           selectedBookId={selectedBookId}
           setSelectedBookId={setSelectedBookId}
-          setSelectedChapter={setSelectedChapter}
+          setIsNavOpen={setIsNavOpen}
+          setIsSettingsOpen={setIsSettingsOpen}
         />
 
-        {/* --- Content Area --- */}
-        <main className="flex-1 flex flex-col overflow-hidden relative">
-          <ChapterNav
+        {/* --- Main Layout --- */}
+        <div className="flex flex-1 overflow-hidden relative">
+          <Sidebar
             settings={settings}
-            currentBook={currentBook}
-            selectedChapter={selectedChapter}
-            handleChapterChange={handleChapterChange}
-            maxChapters={maxChapters}
             availableBooks={availableBooks}
             selectedBookId={selectedBookId}
+            setSelectedBookId={setSelectedBookId}
+            setSelectedChapter={setSelectedChapter}
           />
 
-          {/* Scrollable Text Area */}
-          <div
-            className="flex-1 overflow-y-auto p-4 md:p-8 scroll-smooth"
-            id="content-scroll-container"
-          >
+          <MobileNav
+            isOpen={isNavOpen}
+            onClose={() => setIsNavOpen(false)}
+            settings={settings}
+            versions={versions}
+            selectedVersionId={selectedVersionId}
+            setSelectedVersionId={setSelectedVersionId}
+            availableBooks={availableBooks}
+            selectedBookId={selectedBookId}
+            setSelectedBookId={setSelectedBookId}
+            setSelectedChapter={setSelectedChapter}
+          />
+
+          {/* --- Content Area --- */}
+          <main className="flex-1 flex flex-col overflow-hidden relative">
+            <ChapterNav
+              settings={settings}
+              currentBook={currentBook}
+              selectedChapter={selectedChapter}
+              handleChapterChange={handleChapterChange}
+              maxChapters={maxChapters}
+              availableBooks={availableBooks}
+              selectedBookId={selectedBookId}
+            />
+
+            {/* Scrollable Text Area */}
             <div
-              className="mx-auto pb-20"
-              style={{
-                maxWidth: `${768 * (settings.fontSize / 16)}px`,
-              }}
+              className="flex-1 overflow-y-auto p-4 md:p-8 scroll-smooth"
+              id="content-scroll-container"
             >
-              {loading ? (
-                <div className="flex justify-center items-center h-64">
-                  <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
-                </div>
-              ) : (
-                <BibleContent
-                  content={chapterContent}
-                  settings={settings}
-                  onFootnoteClick={setActiveFootnote}
-                  onBibleLinkClick={handleBibleLink}
-                />
-              )}
+              <div
+                className="mx-auto pb-20"
+                style={{
+                  maxWidth: `${768 * (settings.fontSize / 16)}px`,
+                }}
+              >
+                {loading ? (
+                  <div className="flex justify-center items-center h-64">
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
+                  </div>
+                ) : (
+                  <BibleContent
+                    content={chapterContent}
+                    settings={settings}
+                    onFootnoteClick={setActiveFootnote}
+                    onBibleLinkClick={handleBibleLink}
+                    onAbbrClick={setActiveAbbr}
+                  />
+                )}
+              </div>
             </div>
-          </div>
-        </main>
+          </main>
 
-        <SettingsDrawer
-          isOpen={isSettingsOpen}
-          onClose={() => setIsSettingsOpen(false)}
-          settings={settings}
-          setSettings={setSettings}
-          toggleSetting={toggleSetting}
-        />
+          <SettingsDrawer
+            isOpen={isSettingsOpen}
+            onClose={() => setIsSettingsOpen(false)}
+            settings={settings}
+            setSettings={setSettings}
+            toggleSetting={toggleSetting}
+          />
 
-        <FootnoteModal
-          content={activeFootnote}
-          onClose={() => setActiveFootnote(null)}
-          settings={settings}
-          onBibleLinkClick={handleBibleLink}
-        />
+          <FootnoteModal
+            content={activeFootnote}
+            onClose={() => setActiveFootnote(null)}
+            settings={settings}
+            onBibleLinkClick={handleBibleLink}
+            onAbbrClick={setActiveAbbr}
+          />
+
+          <FootnoteModal
+            content={activeAbbr?.description}
+            heading={getFootnoteText(activeAbbr?.name, abbreviations)}
+            onClose={() => setActiveAbbr(null)}
+            settings={settings}
+            onBibleLinkClick={handleBibleLink}
+          />
+        </div>
       </div>
-    </div>
+    </AbbreviationContext.Provider>
   );
 }
 

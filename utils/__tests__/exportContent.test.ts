@@ -3412,4 +3412,86 @@ describe("exportContent", () => {
       expect(result).not.toContain("\\*");
     });
   });
+
+  describe("superscript marks and abbreviation references", () => {
+    /** The registry BYZ2026 declares, trimmed to the entries these tests reference. */
+    const REGISTRY = new Map<string, any>([
+      ["NA27", [{ text: "NA" }, { text: "27", marks: ["sup"] }]],
+      ["OM", { text: "om.", marks: ["i"] }],
+      ["CT", "CT"],
+    ]);
+
+    it("should render a sup mark as a <sup> tag in markdown and inline in plain text", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 25,
+        content: [
+          {
+            text: "υἱὸν",
+            script: "G",
+            foot: {
+              type: "var",
+              content: [{ text: "1143" }, { text: "vid", marks: ["sup"] }],
+            },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes);
+      expect(footnotes[0]).toContain("1143<sup>vid</sup>");
+      expect(convertVerseToText(verse)).toContain("1143vid");
+    });
+
+    it("should resolve an abbr node through the version registry, markup and all", () => {
+      const verse: VerseSchema = {
+        book: "ROM",
+        chapter: 3,
+        verse: 25,
+        content: [
+          {
+            text: "αλλα",
+            script: "G",
+            foot: {
+              type: "var",
+              content: [{ abbr: "NA27" }, " ", { abbr: "OM" }],
+            },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes, REGISTRY);
+      expect(footnotes[0]).toContain("NA<sup>27</sup> _om._");
+      expect(convertVerseToText(verse, REGISTRY)).toContain("NA27 om.");
+    });
+
+    it("should fall back to the bare id when the registry does not define it, leaving the export readable", () => {
+      const verse: VerseSchema = {
+        book: "ROM",
+        chapter: 3,
+        verse: 25,
+        content: [{ text: "αλλα", script: "G", foot: { type: "var", content: [{ abbr: "SBL" }] } }],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes, REGISTRY);
+      expect(footnotes[0]).toContain("SBL");
+    });
+
+    it("should keep a sup-marked node from fusing with its neighbors, since the whitespace stays outside the tag", () => {
+      const verse: VerseSchema = {
+        book: "MRK",
+        chapter: 1,
+        verse: 2,
+        content: [
+          { text: "τοις" },
+          { text: " D" },
+          { text: "2", marks: ["sup"] },
+          { text: " E" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toContain("τοις D<sup>2</sup> E");
+    });
+  });
 });
