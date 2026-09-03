@@ -11,46 +11,34 @@
  * references joined by a literal `"; "` — each resolved independently by
  * {@link resolveTarget}.
  *
- * Book-name resolution goes through `bible-books/bible-books.json`
- * directly, never through `utils/crossChapterLinks.ts`'s `resolveBookName`:
- * that resolver's canon/alias index is built by reading whatever is already
- * on disk under `bible-versions/<version>/`, which can be empty or
- * partially written mid-import (a later book, or the current book's own
- * later chapters, may not be written yet). {@link resolveTarget} instead
- * takes `canonBookIds` as a caller-supplied parameter — the target
- * version's already-loaded book list — so resolution never depends on
- * partial disk state.
+ * Book-name resolution goes through `bible-books/bible-books.json` directly,
+ * never through `utils/crossChapterLinks.ts`'s `resolveBookName`: that
+ * resolver's canon/alias index is built by reading whatever is already on disk
+ * under `bible-versions/<version>/`, which can be empty or partially written
+ * mid-import. {@link resolveTarget} takes `canonBookIds` as a caller-supplied
+ * parameter — the target version's already-loaded book list — so resolution
+ * never depends on partial disk state.
  *
  * A resolved target string is not always the raw text as-is: a book-name
  * override ({@link BIBLE_LINK_BOOK_NAME_OVERRIDES}) and a verse-list
- * comma-spacing rule ({@link addSpaceAfterVerseListComma}) both apply only
- * to the target string, never to what {@link withDisplay} shows, which
- * stays the source's own raw spelling exactly. An ASCII-hyphen-to-en-dash
- * normalization is a third, separate `bibleLink` convention this module
- * deliberately leaves alone: it runs post-write, in `utils/validate.ts`'s
- * `normalizeBibleLinkDashesInContent`, against whatever character the dash
- * class ended up being.
+ * comma-spacing rule ({@link addSpaceAfterVerseListComma}) both apply only to
+ * the target string, never to what {@link withDisplay} shows, which stays the
+ * source's raw spelling exactly. ASCII-hyphen-to-en-dash normalization is a
+ * third `bibleLink` convention this module leaves alone: it runs post-write, in
+ * `utils/validate.ts`'s `normalizeBibleLinkDashesInContent`.
  *
  * A second, orthogonal capability lives here too: {@link
- * linkEmbeddedReferences} finds a reference sitting *inside* a larger run
- * of ordinary footnote prose, with no `\x`/`\+xt` marker anywhere near it,
- * and turns just that part into a real `bibleLink`. Every function above
- * this point resolves a target that is already isolated (a whole `\xt`
- * list, or a `\f` body that is nothing but references); {@link
- * linkEmbeddedReferences} is the one place this module goes looking for a
- * reference embedded in text that is mostly something else.
+ * linkEmbeddedReferences} finds a reference sitting *inside* a larger run of
+ * ordinary footnote prose, with no `\x`/`\+xt` marker anywhere near it, and
+ * turns just that part into a real `bibleLink`. Everything above it resolves a
+ * target that is already isolated (a whole `\xt` list, or a `\f` body that is
+ * nothing but references).
  *
- * Detection requires no "See "/"Compare " lead-in word: this module's own
- * registry-and-grammar validation — a candidate must name a real, in-canon
- * book with a real chapter and verse — is already the actual defense
- * against a false link. A fully self-naming reference (e.g. "Mark
- * 16:9-20") is exactly as unambiguous as any already-linked `\x`/`\+xt`
- * reference, whether or not a directive word happens to sit next to it, so
- * {@link linkEmbeddedReferences} scans an entire footnote body for any such
- * reference with no lead-in word required. The one exception: a bare
- * chapter-only mention (no verse) never links, because upstream `HEAD`
- * itself never does either — see {@link EMBEDDED_HEAD}'s own doc comment
- * for why.
+ * Detection requires no "See "/"Compare " lead-in word. Registry-and-grammar
+ * validation — a candidate must name a real book with a real chapter — is the
+ * actual defense against a false link, so a self-naming reference like
+ * "Mark 16:9-20" is exactly as unambiguous as an already-linked `\x` one
+ * whether or not a directive word sits next to it.
  */
 
 import * as fs from "fs";
@@ -142,14 +130,13 @@ const BIBLE_LINK_BOOK_NAME_OVERRIDES: ReadonlyMap<string, string> = new Map([["P
 
 /**
  * Book ids that carry exactly one chapter in every edition this repo has
- * ever recorded one in — fixed by the book's own canonical structure, not by
- * any one translation's choices, the same kind of fact {@link
- * ORDINAL_TO_ROMAN_NUMERAL} already hardcodes. A `\xt`-derived target always
- * spells one of these out with its chapter anyway ("Jude 1:14, 15"), since
- * the raw USFM cross-reference already encodes it — but ordinary prose
- * naturally drops a chapter nobody needs to name ("Obad. 11–14"), leaving a
- * bare digit run {@link buildLinkTarget} would otherwise read as a chapter
- * number instead of the verse it actually is.
+ * recorded one in — fixed by the book's canonical structure, not by any one
+ * translation's choices, the same kind of fact
+ * {@link ORDINAL_TO_ROMAN_NUMERAL} hardcodes. A `\xt`-derived target spells the
+ * chapter out anyway ("Jude 1:14, 15"), since the raw USFM encodes it, but
+ * ordinary prose drops a chapter nobody needs to name ("Obad. 11–14"), leaving
+ * a bare digit run {@link buildLinkTarget} would otherwise read as a chapter
+ * number rather than the verse it is.
  */
 const SINGLE_CHAPTER_BOOK_IDS: ReadonlySet<string> = new Set(["OBD", "PHM", "2JN", "3JN", "JUD", "PMA", "PS2"]);
 
@@ -194,17 +181,15 @@ const REFERENCE_LEAD_IN = /^(?:See|Compare)\s+/;
 const DASH_CLASS = "\\u2010-\\u2015\\u2212-";
 
 /**
- * One digit run, guarded on its own trailing edge against a subtler
- * backtracking failure: without `(?!\d)`, a later constraint failing further
- * down the pattern can make the engine retry this same digit run *shorter*
- * rather than reject the group it belongs to — e.g. real "(Num. 12:11, 12
- * KJV)" would otherwise resolve "12" down to "1" (leaving a dangling "2")
- * purely because a shorter digit run happens to satisfy whatever comes next
- * where the full one doesn't, producing the nonsense target "Numbers 12:11,
- * 1". `(?!\d)` forbids the engine from ever treating a digit run as complete
- * while another digit still follows it, so the *only* backtrack left when
- * something later fails is dropping the whole group that failure sits in —
- * a verse number is kept whole, or dropped entirely, never truncated.
+ * One digit run, guarded on its trailing edge against a backtracking failure:
+ * without `(?!\d)`, a later constraint failing further down the pattern can
+ * make the engine retry this same digit run *shorter* rather than reject the
+ * group it belongs to. "(Num. 12:11, 12 KJV)" would resolve "12" down to "1",
+ * leaving a dangling "2", purely because the shorter run satisfies what comes
+ * next where the full one does not — the nonsense target "Numbers 12:11, 1".
+ * `(?!\d)` forbids treating a digit run as complete while another digit
+ * follows, so the only backtrack left is dropping the whole group the failure
+ * sits in: a verse number is kept whole or dropped entirely, never truncated.
  */
 const DIGITS = "\\d+(?!\\d)";
 
@@ -239,48 +224,39 @@ const SIGLON_SOURCE = "\\s(?:LXX|MT|TR|NU)";
  * purpose (naming a witness inside ordinary prose, not a trailing
  * citation).
  *
- * Never needs a guard against swallowing a different book's own leading
- * digit the way {@link findNextEmbeddedReference} does (see {@link
- * wouldStealBookOrdinal}): an already-isolated target's own "; " already
- * separates distinct book references, so a bare comma inside one target is
- * always more of *that same* target's own verse list, and this pattern's
- * own trailing `$` already demands nothing else follow at all.
+ * Needs no guard against swallowing a different book's leading digit the way
+ * {@link findNextEmbeddedReference} does (see {@link wouldStealBookOrdinal}):
+ * an already-isolated target's `"; "` has separated the distinct book
+ * references, so a bare comma inside one target is always more of *that same*
+ * target's verse list, and the trailing `$` demands nothing else follow.
  */
 const REFERENCE_SUFFIX = new RegExp(`^${DIGITS}(?::${DIGITS})?(?:${DASH_RANGE_SOURCE})?(?:${COMMA_SEGMENT_SOURCE})*(?:${SIGLON_SOURCE})?$`);
 
 /**
- * The mandatory core of a named embedded reference: a chapter, with an
- * optional colon-joined verse — the same shape {@link REFERENCE_SUFFIX}'s
- * own head allows, chapter-only included. A chapter-only mention like
- * Numbers 8:6's real "(I Cor. 12)" still names a real, specific passage
- * (the whole chapter, not one verse of it) and links the same as any other
- * reference this module resolves — explicitly requested, reversing this
- * corpus's own earlier, narrower convention of declining one.
+ * The mandatory core of a named embedded reference: a chapter, with an optional
+ * colon-joined verse — the same shape {@link REFERENCE_SUFFIX}'s head allows,
+ * chapter-only included. A chapter-only mention like "(I Cor. 12)" names a real,
+ * specific passage — the whole chapter — and links like any other reference
+ * here, reversing this corpus's earlier, narrower convention of declining one.
  *
- * Not used by {@link AMBIENT_HEAD}, which stays verse-mandatory: an already
- * bare `"(C:V...)"` citation with no book name of its own carries much
- * weaker evidence than a chapter-only mention that already *names its own
- * book*, or chains directly onto one that just resolved — a bare `"(12)"`
- * floating in prose with nothing anchoring it is far more likely to be an
- * unrelated number (a footnote index, a list item) than a citation, so that
- * one mechanism alone keeps the stricter, verse-required rule.
+ * {@link AMBIENT_HEAD} stays verse-mandatory instead: a bare `"(12)"` floating
+ * in prose with nothing anchoring it is far more likely an unrelated number — a
+ * footnote index, a list item — than a citation, where a chapter-only mention
+ * has already named its own book.
  *
- * Anchored only at the start: {@link findSafeReferenceLength} extends past
- * this core through an optional dash-range and any number of comma-list
- * segments itself, checking each extension against {@link
- * wouldStealBookOrdinal} before accepting it, rather than one static regex
- * accepting or rejecting the whole shape at once the way {@link
- * REFERENCE_SUFFIX} does for an already-isolated target.
+ * Anchored only at the start. {@link findSafeReferenceLength} extends past this
+ * core through an optional dash-range and any number of comma-list segments,
+ * checking each extension against {@link wouldStealBookOrdinal} first, rather
+ * than one static regex accepting or rejecting the whole shape at once the way
+ * {@link REFERENCE_SUFFIX} does for an already-isolated target.
  */
 const EMBEDDED_HEAD = new RegExp(`^${DIGITS}(?::${DIGITS})?`);
 
 /**
- * {@link EMBEDDED_HEAD}'s own stricter sibling, verse-mandatory — the one
- * head {@link findNextEmbeddedReference}'s own ambient-parenthetical branch
- * uses instead of the shared default, since a bare `"(C:V...)"` citation
- * with no book name of its own needs the extra evidence a named verse gives
- * it; see {@link EMBEDDED_HEAD}'s own doc comment for why a chapter alone
- * isn't enough there specifically.
+ * {@link EMBEDDED_HEAD}'s stricter sibling, verse-mandatory — the head
+ * {@link findNextEmbeddedReference}'s ambient-parenthetical branch uses instead
+ * of the shared default. See {@link EMBEDDED_HEAD} for why a chapter alone
+ * isn't enough there.
  */
 const AMBIENT_HEAD = new RegExp(`^${DIGITS}:${DIGITS}`);
 
@@ -291,25 +267,21 @@ const LEADING_SIGLON = new RegExp(`^${SIGLON_SOURCE}`);
 const LEADING_COMMA_SPACE = /^,\s?(?:and\s+)?/;
 
 /**
- * Whether `text` itself begins with a real, chapter-bearing reference — the
- * question {@link findSafeReferenceLength} asks at each dash-range and
- * comma-list boundary in place of the old blunt "is the next character
- * capitalized" rule. Reuses the exact same {@link matchBookPrefix} and
- * {@link EMBEDDED_HEAD} that resolve any other embedded reference in this
- * module, so "a real reference starts here" means the same thing everywhere
- * it's asked — a translation-edition abbreviation ("KJV") is capitalized the
- * same way a real book name is, but never resolves to one, so it no longer
- * reads as dangerous the way it used to under the old capital-letter check.
+ * Whether `text` begins with a real, chapter-bearing reference — the question
+ * {@link findSafeReferenceLength} asks at each dash-range and comma-list
+ * boundary, in place of the blunter "is the next character capitalized" rule it
+ * replaced. Reuses the same {@link matchBookPrefix} and {@link EMBEDDED_HEAD}
+ * that resolve any other embedded reference here, so "a real reference starts
+ * here" means the same thing everywhere it is asked: a translation-edition
+ * abbreviation ("KJV") is capitalized like a book name but never resolves to
+ * one, and no longer reads as dangerous.
  *
- * Deliberately never canon-restricted, unlike every other book match in this
- * module: the question here is "does this look like a different book's own
- * citation," not "could this resolve to a link" — an out-of-canon book gets
- * named in ordinary prose all the time (an NT-only version's own footnote
- * saying "see Isaiah 7:14" is unremarkable even though Isaiah is nowhere in
- * that version's own book list), and a comma-list sitting next to one is
- * exactly as much a *different* reference as a comma-list sitting next to an
- * in-canon one is. Canon-restricting this check would let the old failure
- * mode back in for exactly the books a version doesn't carry.
+ * Deliberately never canon-restricted. The question here is "does this look
+ * like a *different* book's citation", not "could this resolve to a link", and
+ * a comma list sitting next to an out-of-canon book is exactly as much a
+ * separate reference as one sitting next to an in-canon book. Canon-restricting
+ * this check would reopen the old failure mode for precisely the books a
+ * version does not carry.
  */
 function wouldStealBookOrdinal(text: string): boolean {
   const direct = matchBookPrefix(text, registry().candidates);
@@ -318,39 +290,48 @@ function wouldStealBookOrdinal(text: string): boolean {
 }
 
 /**
- * Finds the longest prefix of `rest` (the text immediately after a matched
- * book name, or after the open paren of a bare ambient citation) that is
- * both a valid embedded-reference shape and never mistakes a *different*
- * book's own leading digit for one of this reference's own verses or
- * verse-list continuations.
+ * Finds the longest prefix of `rest` (the text immediately after a matched book
+ * name, or after the open paren of a bare ambient citation) that is a valid
+ * embedded-reference shape and never mistakes a *different* book's leading digit
+ * for one of this reference's own verses.
  *
  * Walks the shape left to right — the mandatory `head` (defaulting to
- * {@link EMBEDDED_HEAD}; {@link findNextEmbeddedReference}'s own
- * ambient-parenthetical branch passes {@link AMBIENT_HEAD} instead), an
- * optional dash-range, then each comma-list segment in turn — extending past
- * each optional piece only after {@link wouldStealBookOrdinal} says no real
- * reference starts right where that piece's own digit run begins. The first
- * piece that would steal a real reference's leading digit stops the walk
- * there: 2 Maccabees 5:13's real "...see Judges 11:3, 2 Samuel 10:6..."
- * stops right after "Judges 11:3", leaving ", 2 Samuel 10:6" for the rest of
- * the scan to find as its own, separate reference instead of the nonsense
- * target "Judges 11:3, 2".
+ * {@link EMBEDDED_HEAD}; the ambient-parenthetical branch passes
+ * {@link AMBIENT_HEAD}), an optional dash-range, then each comma-list segment —
+ * extending past each optional piece only once {@link wouldStealBookOrdinal}
+ * says no real reference starts where that piece's digit run begins. The first
+ * piece that would steal one stops the walk: "...see Judges 11:3, 2 Samuel
+ * 10:6..." stops after "Judges 11:3", leaving ", 2 Samuel 10:6" for the rest of
+ * the scan rather than producing the nonsense target "Judges 11:3, 2".
  *
- * @returns `undefined` when `rest` doesn't even carry the mandatory head —
- *   the caller declines the candidate entirely, same as `head` failing to
- *   match ever did.
+ * A comma list continues a verse list, so a chapter-only head has none to
+ * continue. `EMBEDDED_HEAD` admits a chapter with no verse, a real reference in
+ * its own right, but a comma after one is the prose the reference sits in:
+ * MSB2025's Maskil note prints `used for Psalms 32, 42, 44–45, 52–55, 74, 78,
+ * 88–89, and 142.`, a list of thirteen *psalms*, which the comma walk read as
+ * Psalm 32 verses 42 and 44–45 — and Psalm 32 has eleven verses. A dash range is
+ * still allowed after a chapter-only head, because `Genesis 4–9` names one
+ * continuous span rather than a list, and `utils/crossChapterLinks.ts` exists to
+ * split exactly that target. Measured over all 322,565 footnote bodies on disk,
+ * 27 links take the comma-list shape — 13 in MSB2025, 13 continental-style
+ * bibliographic citations in NET2019 (`Gen 3, 16`), and AMP1987's `I Sam. 21,
+ * 22` — every one a chapter list, none a verse list.
+ *
+ * @returns `undefined` when `rest` does not carry the mandatory head, which the
+ *   caller treats as declining the candidate entirely.
  */
 function findSafeReferenceLength(rest: string, head: RegExp = EMBEDDED_HEAD): number | undefined {
   const headMatch = head.exec(rest);
   if (headMatch === null) return undefined;
   let length = headMatch[0].length;
+  const headNamesAVerse = headMatch[0].includes(":");
 
   const dashMatch = LEADING_DASH_RANGE.exec(rest.slice(length));
   if (dashMatch !== null && !wouldStealBookOrdinal(rest.slice(length + 1))) {
     length += dashMatch[0].length;
   }
 
-  while (true) {
+  while (headNamesAVerse) {
     const remaining = rest.slice(length);
     const commaSpaceMatch = LEADING_COMMA_SPACE.exec(remaining);
     if (commaSpaceMatch === null) break;
@@ -382,16 +363,14 @@ function addSpaceAfterVerseListComma(text: string): string {
 }
 
 /**
- * Drops a written-out list's own Oxford-comma "and" from a `bibleLink`
- * target string — real "Gen. 14:2, 3, 7, 8, 15, and 17" targets "Genesis
- * 14:2, 3, 7, 8, 15, 17", never "...15, and 17". {@link
- * COMMA_SEGMENT_SOURCE}'s own "and" tolerance exists so the *raw* source
- * text still matches through to a real verse number; the target itself is a
- * plain, parseable "Book C:V, V, V" citation with no English word mixed in,
- * the same shape every other target in this corpus already has, so this
- * runs only on the string {@link buildLinkTarget} builds a target from,
- * never on `raw`, which {@link withDisplay} still shows exactly as the
- * source wrote it, "and" included.
+ * Drops a written-out list's Oxford-comma "and" from a `bibleLink` target
+ * string — "Gen. 14:2, 3, 7, 8, 15, and 17" targets "Genesis 14:2, 3, 7, 8, 15,
+ * 17". {@link COMMA_SEGMENT_SOURCE}'s "and" tolerance exists so the *raw*
+ * source text still matches through to a real verse number; a target itself is
+ * a plain, parseable "Book C:V, V, V" citation with no English word in it. So
+ * this runs only on the string {@link buildLinkTarget} builds a target from,
+ * never on `raw`, which {@link withDisplay} shows as the source wrote it, "and"
+ * included.
  */
 function stripAndFromVerseList(text: string): string {
   return text.replace(/,\s*and\s+/g, ", ");
@@ -407,16 +386,12 @@ function stripAndFromVerseList(text: string): string {
  * open paren consumed the same way the period is). Returns `undefined` when
  * nothing matches.
  *
- * The period and the open paren are each optional rather than required so
- * the same candidate list matches a source that always writes one, one that
- * never does, and everything between, with no separate copy of every alias
- * needed in the registry for either. The open paren is never required back
- * on the closing side: `raw` simply ends wherever the reference's own
- * suffix grammar stops matching, same as any other trailing punctuation
- * this module already leaves for ordinary prose to carry — the reference
- * still reads correctly with only its own closing paren left outside the
- * link, the same way `withDisplay`'s own raw text already does for
- * unrelated trailing punctuation elsewhere.
+ * The period and the open paren are each optional rather than required, so one
+ * candidate list matches a source that always writes them, one that never does,
+ * and everything between, with no duplicate aliases in the registry. The open
+ * paren is never matched back on the closing side: `raw` simply ends wherever
+ * the suffix grammar stops matching, leaving the closing paren outside the link
+ * like any other trailing punctuation this module leaves to prose.
  */
 function matchBookPrefix(text: string, candidates: readonly BookNameCandidate[]): { id: string; rest: string } | undefined {
   for (const candidate of candidates) {
@@ -439,14 +414,14 @@ function withDisplay(target: string, raw: string): ContentBibleLink {
 }
 
 /**
- * Builds the resolved target string and canonical book name for a matched
- * book id plus its own already-validated rest-of-reference text, applying
- * the book-name override, the verse-list comma spacing, and (for a book in
- * {@link SINGLE_CHAPTER_BOOK_IDS}, when `rest` does not already spell one
- * out) an inserted `1:` — the one place any of the three is applied, shared
- * by {@link resolveTarget}'s own direct-book-name branch and {@link
- * findNextEmbeddedReference}, so a reference resolves to the identical
- * target string regardless of which of the two ever finds it.
+ * Builds the resolved target string and canonical book name for a matched book
+ * id plus its already-validated rest-of-reference text, applying the book-name
+ * override, the verse-list comma spacing, and — for a book in
+ * {@link SINGLE_CHAPTER_BOOK_IDS} whose `rest` does not already spell one out —
+ * an inserted `1:`. The one place any of the three is applied, shared by
+ * {@link resolveTarget}'s direct-book-name branch and
+ * {@link findNextEmbeddedReference}, so a reference resolves identically
+ * whichever of the two finds it.
  */
 function buildLinkTarget(bookId: string, rest: string): { target: string; bookName: string } {
   const { canonicalNameById } = registry();
@@ -469,20 +444,20 @@ interface ResolvedTarget {
  *
  * Three shapes, tried in order:
  *
- * 1. **A leading book name** (optionally behind a `"See "` lead-in) —
+ * 1. A leading book name (optionally behind a `"See "` lead-in) —
  *    resolved only when the book is inside `canonBookIds` *and* the
  *    remaining text matches {@link REFERENCE_SUFFIX} in full. Either
  *    failure — an out-of-canon book, or trailing text the grammar doesn't
  *    describe — produces the same outcome: the raw text, unresolved, never
  *    guessed into a link.
- * 2. **A bare `"C:V"`-shaped continuation with no book name** — WEB's
+ * 2. A bare `"C:V"`-shaped continuation with no book name — WEB's
  *    shorthand for "same book as the previous target in this `\xt` list"
  *    (e.g. Matthew 5:4's `\xt Isaiah 61:2; 66:10,13`, where `"66:10,13"`
  *    inherits `"Isaiah"`). Only fires when `priorBookName` is set — the
  *    last *successfully resolved* target's book. An unresolved target
  *    never updates it, so a later shorthand reaches past it to whichever
  *    resolved book came before.
- * 3. **Anything else** — left as plain text, unresolved.
+ * 3. Anything else — left as plain text, unresolved.
  *
  * @param canonBookIds - The target version's book ids, or `undefined` to
  *   accept every book the registry knows (no canon restriction — the
@@ -541,13 +516,11 @@ function resolveTargetList(rawTargets: readonly string[], canonBookIds: Readonly
  * relevant once deuterocanon books are in scope — the 66-book canonical
  * corpus never produces this shape.
  *
- * Unlike an `\xt` target, a `\f` body is written as a complete sentence, so
- * its trailing period is punctuation rather than part of a reference and is
- * stripped before resolution. Everything else — multi-target lists, the
- * lead-in strip, book-prefix matching, canon restriction, and the
- * unresolvable fallback to plain text — reuses {@link resolveTarget}'s
- * grammar exactly, through {@link resolveTargetList}, rather than
- * reimplementing it.
+ * Unlike an `\xt` target, a `\f` body is written as a complete sentence, so its
+ * trailing period is punctuation rather than part of a reference and is
+ * stripped before resolution. Everything else goes through
+ * {@link resolveTargetList} and so shares {@link resolveTarget}'s grammar
+ * exactly.
  *
  * @param body - The footnote's already-extracted, `\fr`-excluded plain text
  *   (`usfm/footnotes.ts`'s `classificationText`).
@@ -624,14 +597,11 @@ export function buildCrossReferenceContent(
 
 /**
  * Whether `character` could be the tail end of a word — a letter or digit.
- * {@link findNextEmbeddedReference} refuses to start matching a book name at
- * a position where the character right before it is one of these, so a book
- * name can never be "found" as a literal substring sitting inside some
- * larger word. Never observed to matter anywhere in the real corpus (no
- * real book name ever sits that way immediately before a chapter:verse-
- * shaped run), but cheap, and it keeps that failure mode impossible by
- * construction rather than merely absent because the corpus happens not to
- * exercise it.
+ * {@link findNextEmbeddedReference} will not start matching a book name where
+ * one of these sits immediately before it, so a book name can never be found as
+ * a substring inside some larger word. Never observed to matter in the real
+ * corpus, but cheap enough to rule out by construction rather than leaving it
+ * absent only because nothing exercises it.
  */
 function isWordCharacter(character: string | undefined): boolean {
   return character !== undefined && /[A-Za-z0-9]/.test(character);
@@ -648,18 +618,16 @@ interface EmbeddedReferenceMatch {
 }
 
 /**
- * Mutable box carrying the book id the *last* reference actually resolved
- * to, threaded across an entire footnote body — every sibling item in a
- * `content` array, and every successive match within one string of it —
- * never across two different footnotes. What a later bare, parenthesized
- * `"(C:V...)"` citation with no book name of its own, and no direct {@link
- * LEADING_CONTINUATION_CONNECTOR} chaining it onto anything, still inherits
- * from (real 2 Samuel 12:11's own note names its book once and then cites
- * five more passages this way: "(13:28, 29)", "(18:6ff.)", each sitting in
- * its own parenthetical several sentences after the last thing actually
- * named). A single mutable box, not a return value threaded by hand,
- * because {@link linkEmbeddedReferences}'s own array walk needs to update it
- * from an already-tagged sibling node it otherwise never touches at all.
+ * Mutable box carrying the book id the *last* reference resolved to, threaded
+ * across one whole footnote body — every sibling item in a `content` array, and
+ * every successive match within one string of it — and never across two
+ * footnotes. It is what a later bare, parenthesized `"(C:V...)"` citation with
+ * no book name and no {@link LEADING_CONTINUATION_CONNECTOR} chaining it onto
+ * anything inherits from: 2 Samuel 12:11's note names its book once and then
+ * cites five more passages this way, each in its own parenthetical several
+ * sentences later. A mutable box rather than a threaded return value, because
+ * {@link linkEmbeddedReferences}'s array walk has to update it from an
+ * already-tagged sibling node it otherwise never touches.
  */
 interface AmbientBook {
   /** The last resolved book id, or `undefined` before anything in this footnote has resolved yet. */
@@ -667,12 +635,11 @@ interface AmbientBook {
 }
 
 /**
- * Extracts the book id a `bibleLink` node's own target already starts with,
- * by re-matching it against the same registry every target is ever built
- * from. Lets {@link linkEmbeddedReferences}'s own array walk update {@link
- * AmbientBook} from an already-tagged sibling node — an existing `\x`-sourced
- * cross-reference, or a reference an earlier pass already linked — without
- * otherwise touching that node at all.
+ * Extracts the book id a `bibleLink` node's target already starts with, by
+ * re-matching it against the same registry every target is built from. Lets
+ * {@link linkEmbeddedReferences} update {@link AmbientBook} from an
+ * already-tagged sibling node — an existing `\x`-sourced cross-reference, or a
+ * reference an earlier pass linked — without otherwise touching that node.
  */
 function extractBibleLinkBookId(item: unknown): string | undefined {
   if (item === null || typeof item !== "object" || !("bibleLink" in item)) return undefined;
@@ -681,66 +648,47 @@ function extractBibleLinkBookId(item: unknown): string | undefined {
 }
 
 /**
- * Either a semicolon (plus its own optional following space) or a bare
- * "and" — the two real ways this corpus's own footnote prose joins a bare,
- * book-less `"C:V"` continuation onto the reference right before it. A
- * semicolon needs no surrounding word ("Gen. 49:31; 50:13"); a bare "and"
- * needs no comma or semicolon of its own at all (real "II Kings 13:10 and
- * 14:17" and "Isa. 13:22 and 14:23" — a different chapter each time, joined
- * by "and" alone). Never confused with the *other* "and" this grammar
- * already recognizes, {@link COMMA_SEGMENT_SOURCE}'s own Oxford-comma
- * tolerance ("14:2, 3, ..., and 17"): that one requires a leading comma and
- * never itself carries a colon, so the two can never both match the same
- * position in the same text.
+ * Either a semicolon (plus an optional following space) or a bare "and" — the
+ * two ways this corpus's footnote prose joins a bare, book-less `"C:V"`
+ * continuation onto the reference before it. A semicolon needs no surrounding
+ * word ("Gen. 49:31; 50:13"); a bare "and" needs no punctuation of its own
+ * ("II Kings 13:10 and 14:17", a different chapter each time). Never confused
+ * with the *other* "and" this grammar recognizes,
+ * {@link COMMA_SEGMENT_SOURCE}'s Oxford-comma tolerance: that one requires a
+ * leading comma and never carries a colon, so the two cannot both match the
+ * same position.
  */
 const LEADING_CONTINUATION_CONNECTOR = /^(?:;\s?|\s+and\s+)/;
 
 /**
- * Finds the next real, registry-resolvable reference in `text` starting at
- * or after `from`: a book name immediately followed by an explicit chapter
- * *and* verse ({@link findSafeReferenceLength}), found *anywhere* in the
- * text rather than only right after a lead-in word — see this module's own
- * header doc comment for why no lead-in word is required. Unlike {@link
- * resolveTarget}'s own direct branch, never canon-restricted: an embedded
- * mention names a real book regardless of whether the version being read
- * carries it (an NT-only version's own footnote can still say "see Isaiah
- * 7:14" without contradiction), so nothing here ever declines a match on
- * canon grounds.
+ * Finds the next real, registry-resolvable reference in `text` at or after
+ * `from`, anywhere in the text rather than only right after a lead-in word.
+ * Uses the same {@link matchBookPrefix} and {@link buildLinkTarget} as
+ * {@link resolveTarget}'s direct branch, so a reference resolves to the
+ * identical target string whichever of the two finds it — but never
+ * canon-restricted the way that branch is, since an embedded mention names a
+ * real book whether or not the version being read carries it (an NT-only
+ * version's footnote can still say "see Isaiah 7:14").
  *
- * Uses the same {@link matchBookPrefix} and {@link buildLinkTarget} that
- * {@link resolveTarget}'s own direct branch does, so a reference resolves to
- * the identical target string no matter which of the two ever finds it.
- *
- * Once the primary reference itself resolves, also chains onto it every
+ * Once the primary reference resolves, every
  * {@link LEADING_CONTINUATION_CONNECTOR}-joined bare `"C:V"` continuation
- * that immediately follows — Genesis 23:19's real "(Gen. 49:31; 50:13)"
- * names two different chapters of the same book, "50:13" inheriting
- * "Genesis" the same way a bare continuation in an already-isolated `\xt`
- * list inherits its own prior target's book (`resolveTarget`'s own
- * `priorBookName`); real "II Kings 13:10 and 14:17" does the same thing with
- * a bare "and" instead of a semicolon. A continuation that isn't bare —
- * `EMBEDDED_HEAD` failing to match right after the connector, because a real
- * book name sits there instead (2 Maccabees 5:13's own "Judges 11:3, 2
- * Samuel 10:6" shape, had it used "; " instead of ", ") —
- * stops the chain immediately, leaving it for this function's own next call
- * to find as its own, separately-named reference.
+ * immediately after it chains on — "(Gen. 49:31; 50:13)" names two chapters of
+ * one book, "50:13" inheriting "Genesis" the way a bare continuation in an
+ * `\xt` list inherits `resolveTarget`'s `priorBookName`; "II Kings 13:10 and
+ * 14:17" does the same with a bare "and". A continuation that is not bare,
+ * because a real book name sits after the connector, stops the chain, leaving
+ * that reference for the next call to find and name for itself.
  *
- * The primary reference itself is either a named book (the common case,
- * `matchBookPrefix`), or — only when {@link AmbientBook} already carries a
- * book from earlier in the same footnote body — a bare, parenthesized
- * `"(C:V...)"` citation with no book name of its own at all, immediately
- * after an open paren with nothing else between. Real 2 Samuel 12:11's own
- * note names "2 Samuel 13:14" once, in its own `bibleLink`, and then cites
- * four more passages this way several sentences later — "(13:28, 29)",
- * "(18:6ff.)" — each still meaning 2 Samuel. Deliberately narrower than the
- * semicolon/"and" chain above: it only fires immediately after an open
- * paren, not at any bare digit anywhere, so an ordinary sentence that merely
- * mentions a number is never mistaken for a citation.
+ * The primary reference is either a named book, the common case, or — only when
+ * {@link AmbientBook} already carries a book from earlier in the same body — a
+ * bare `"(C:V...)"` citation immediately after an open paren. That branch is
+ * deliberately narrower than the connector chain: firing only against an open
+ * paren, never at a bare digit anywhere, keeps a sentence that merely mentions a
+ * number from reading as a citation.
  *
- * @returns `undefined` when no real, resolvable reference remains anywhere
- *   in `text` from `from` onward — a chapter with no verse ({@link
- *   findSafeReferenceLength}), or plain prose that never names a real book
- *   at all, is left as ordinary, unlinked text rather than guessed at.
+ * @returns `undefined` when no resolvable reference remains from `from` onward.
+ *   A chapter with no verse, or prose that never names a real book, is left as
+ *   ordinary unlinked text rather than guessed at.
  */
 function findNextEmbeddedReference(text: string, from: number, ambient: AmbientBook): EmbeddedReferenceMatch | undefined {
   const { candidates } = registry();
@@ -771,13 +719,11 @@ function findNextEmbeddedReference(text: string, from: number, ambient: AmbientB
 /**
  * Builds one {@link EmbeddedReferenceMatch} from a primary reference already
  * found at `position` — either a named book (`prefixLength` covers the book
- * name) or a bare parenthetical citation (`prefixLength` is `1`, just the
- * open paren) — then chases every {@link LEADING_CONTINUATION_CONNECTOR}
- * onto it exactly the same way regardless of which kind of primary match it
- * extends, since a chained continuation is always bare either way. Updates
- * `ambient.id` to `bookId` before returning: the next call to {@link
- * findNextEmbeddedReference} — whether for a later chain continuation or a
- * later bare parenthetical — inherits from *this* match, not a stale one.
+ * name) or a bare parenthetical citation (`prefixLength` is `1`, just the open
+ * paren) — then chases every {@link LEADING_CONTINUATION_CONNECTOR} onto it the
+ * same way for both, since a chained continuation is always bare either way.
+ * Updates `ambient.id` before returning, so the next call to
+ * {@link findNextEmbeddedReference} inherits from *this* match, not a stale one.
  */
 function buildReferenceMatch(
   text: string,
@@ -813,27 +759,21 @@ function buildReferenceMatch(
 }
 
 /**
- * Splits every real, fully-qualified reference out of `text`, left to
- * right, replacing each with its own resolved `bibleLink` node — the same
+ * Splits every real, fully-qualified reference out of `text`, left to right,
+ * replacing each with its resolved `bibleLink` node — the same
  * alternating-array shape `imports/webus2020/divineNameCasing.ts`'s
- * `splitDivineNameCasing` already established for a closed phrase table,
- * applied here to a registry-validated reference instead of a literal
- * string. Two references found back to back (John 8:11's real "NU includes
- * John 7:53–John 8:11") both link independently; whatever text joins them
- * — an en dash, "and", nothing at all — is left exactly as it was, since
- * each reference is found and resolved on its own, with no chaining rule
- * needed to reach the second one.
+ * `splitDivineNameCasing` established for a closed phrase table, applied here
+ * to a registry-validated reference. Two references back to back ("NU includes
+ * John 7:53–John 8:11") link independently, and whatever joins them is left
+ * exactly as it was, since each is found and resolved on its own.
  *
- * A reference sitting at `text`'s own very start (Proverbs 31:10-31's own
- * real self-referential acrostic note, "Proverbs 31:10-31 form an
- * acrostic...") or immediately after the one just linked leaves no plain
- * text at all in the gap between them — that gap is skipped rather than
- * pushed as an empty string, which `content-schema.json`'s own plain-string
- * branch (`minLength: 1`) would reject outright.
+ * A reference at `text`'s very start, or immediately after the one just linked,
+ * leaves no plain text in the gap between them. That gap is skipped rather than
+ * pushed as an empty string, which `content-schema.json`'s plain-string branch
+ * (`minLength: 1`) would reject.
  *
- * @returns `text` itself, unchanged, when no reference resolves anywhere in
- *   it — every caller may compare the result to the input with `===` to
- *   detect "nothing to do."
+ * @returns `text` itself, unchanged, when no reference resolves anywhere in it,
+ *   so a caller can compare the result with `===` to detect "nothing to do".
  */
 function splitEmbeddedReferences(text: string, ambient: AmbientBook): string | (string | ContentBibleLink)[] {
   const segments: (string | ContentBibleLink)[] = [];
@@ -853,48 +793,32 @@ function splitEmbeddedReferences(text: string, ambient: AmbientBook): string | (
 }
 
 /**
- * Finds every real, fully-qualified reference sitting inside an
- * already-built footnote body and replaces each with a real `bibleLink`
- * node the same way an explicit `\x`/`\+xt` span already becomes one,
- * reusing {@link resolveTarget}'s own book-registry-and-grammar validation
- * ({@link findNextEmbeddedReference} calls the same {@link matchBookPrefix}
- * and {@link buildLinkTarget} that `resolveTarget`'s own direct branch
- * does) as the whole safety net against a false positive: a book name has
- * to be real and followed by a real chapter *and* verse before this ever
- * links anything — deliberately never canon-restricted the way {@link
- * resolveTarget}'s own direct branch is, since an embedded mention names a
- * real book regardless of whether the version being read happens to carry
- * it. No lead-in word is required or checked — see this module's own header
- * doc comment for why a self-naming reference needs none. The one shape
- * that still never links is a chapter with no verse; see {@link
- * EMBEDDED_HEAD}'s own doc comment for why.
+ * Finds every real, fully-qualified reference sitting inside an already-built
+ * footnote body and replaces each with a `bibleLink` node, the same way an
+ * explicit `\x`/`\+xt` span becomes one. The book-registry-and-grammar
+ * validation {@link findNextEmbeddedReference} performs is the whole safety net
+ * against a false positive: a book name has to be real and followed by a real
+ * chapter before anything links. The one shape that still never links is a
+ * chapter with no verse — see {@link EMBEDDED_HEAD}.
  *
- * Only ever meant to run on a non-`xrf` footnote body (`usfm/footnotes.ts`):
- * a body that is *nothing but* references already takes the {@link
- * buildReferenceOnlyContent} path instead. This function's job is the
- * opposite shape — a reference that merely *sits inside* a larger run of
- * ordinary prose, anywhere in it, not only right after a particular word.
+ * Only meant to run on a non-`xrf` footnote body (`usfm/footnotes.ts`): a body
+ * that is *nothing but* references takes the {@link buildReferenceOnlyContent}
+ * path instead. This function's job is the opposite shape, a reference that
+ * merely sits inside a larger run of ordinary prose.
  *
- * A bare `"C:V"`-shaped continuation with no book name of its own (1
- * Maccabees 3:38's real "See 1 Maccabees 3:38; 10:10, etc." links both "1
- * Maccabees 3:38" and "10:10") *does* still resolve, the same way it does
- * for an already-isolated `\xt` target's own bare continuation
- * (`resolveTargetList`'s `priorBookName`) — either immediately after a
- * {@link LEADING_CONTINUATION_CONNECTOR} chained directly onto the reference
- * it inherits its book from (a semicolon, or a bare "and"), or, sitting
- * further off in the same footnote body with real prose in between, as its
- * own bare parenthetical citation (2 Samuel 12:11's real "(13:28, 29)",
- * several sentences after the reference it still means); see {@link
- * findNextEmbeddedReference}'s own doc comment for both mechanisms, tracked
- * across the whole body by one shared {@link AmbientBook}. Never a bare
- * comma with nothing else around it, which already means something else:
- * *this same reference's* own verse list.
+ * A bare `"C:V"` continuation with no book name of its own still resolves, the
+ * way an `\xt` target's bare continuation does — either chained onto the
+ * reference it inherits its book from through a
+ * {@link LEADING_CONTINUATION_CONNECTOR}, or further off in the same body as its
+ * own bare parenthetical citation, both tracked by one shared
+ * {@link AmbientBook}. Never a bare comma on its own, which already means
+ * something else: *this same reference's* verse list.
  *
- * @param content - A footnote body's own already-built, non-`xrf` content —
- *   a bare string, or an array that may contain one. An already-tagged node
- *   (e.g. an `\fq` italic span) is left untouched apart from updating {@link
- *   AmbientBook} when it is itself a `bibleLink` — a real reference has
- *   never been observed sitting *embedded inside* an already-tagged node.
+ * @param content - A footnote body's already-built, non-`xrf` content: a bare
+ *   string, or an array that may contain one. An already-tagged node (e.g. an
+ *   `\fq` italic span) is left untouched apart from updating
+ *   {@link AmbientBook} when it is itself a `bibleLink` — a reference has never
+ *   been observed sitting embedded *inside* an already-tagged node.
  */
 export function linkEmbeddedReferences(content: Content): Content {
   const ambient: AmbientBook = { id: undefined };

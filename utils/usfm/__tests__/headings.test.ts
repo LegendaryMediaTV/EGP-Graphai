@@ -6,12 +6,14 @@ import {
   buildHeadingSpanContent,
   buildSpeakerHeading,
   buildSuperscriptionContent,
+  isAcrosticGlyphHeading,
   isAcrosticLetterName,
+  psalterBookDivisionNumber,
 } from "../headings";
 import { readFixture } from "./fixtures";
 
 describe("isAcrosticLetterName", () => {
-  it("should recognize every one of Psalm 119's 22 real transliterated letter names", () => {
+  it("should recognize every one of Psalm 119's 22 real transliterated letter names as WEBUS2020's own 20-PSAeng-web.usfm spells them, KAPF's own source typo included", () => {
     for (const name of [
       "ALEPH", "BETH", "GIMEL", "DALETH", "HE", "VAV", "ZAYIN", "HETH", "TETH", "YODH",
       "KAPF", "LAMEDH", "MEM", "NUN", "SAMEKH", "AYIN", "PE", "TZADHE", "QOPH", "RESH",
@@ -21,9 +23,99 @@ describe("isAcrosticLetterName", () => {
     }
   });
 
+  it("should recognize the canonical 22 as this repo's own already-shipped tagged data spells them (bible-versions/NKJV1982/19-PSA.json), which KAPF alone used to stand in for", () => {
+    for (const name of [
+      "ALEPH", "BETH", "GIMEL", "DALETH", "HE", "WAW", "ZAYIN", "HETH", "TETH", "YOD",
+      "KAPH", "LAMED", "MEM", "NUN", "SAMEK", "AYIN", "PE", "TSADDE", "QOPH", "RESH",
+      "SHIN", "TAU",
+    ]) {
+      expect(isAcrosticLetterName(name)).toBe(true);
+    }
+  });
+
+  it("should recognize each letter's own common transliteration variants, every one of them attested in another shipped version's acrostic headings", () => {
+    for (const name of [
+      "ALEF", "BET", "DALET", "ZAIN", "HET", "CHETH", "KHET", "HHETH", "TET", "IOTH",
+      "KAF", "CAPH", "CAF", "LAMEDH", "SAMEKH", "SAMECH", "AIN", "TSADHE", "TSADE", "TZADE",
+      "TSADI", "TZADI", "SADHE", "ZADE", "QOF", "KOPH", "SIN", "TAV", "TAW", "THAV",
+    ]) {
+      expect(isAcrosticLetterName(name)).toBe(true);
+    }
+  });
+
+  it("should ignore letter case, so a source that prints Psalm 119's letter names in title case classifies the same way WEBUS2020's all-caps ones do", () => {
+    expect(isAcrosticLetterName("Aleph")).toBe(true);
+    expect(isAcrosticLetterName("Tsadhe")).toBe(true);
+    expect(isAcrosticLetterName("qoph")).toBe(true);
+  });
+
+  it("should ignore display punctuation a source prints around the name, as ASV1901's trailing period and NET2019's parentheses both do", () => {
+    expect(isAcrosticLetterName("ALEPH.")).toBe(true);
+    expect(isAcrosticLetterName("(Alef)")).toBe(true);
+  });
+
+  it("should recognize a combined two-letter stanza heading in each joiner style the repo's own versions use", () => {
+    expect(isAcrosticLetterName("SIN AND SHIN")).toBe(true);
+    expect(isAcrosticLetterName("SIN and SHIN")).toBe(true);
+    expect(isAcrosticLetterName("Sin/Shin")).toBe(true);
+    expect(isAcrosticLetterName("Sin – Shin")).toBe(true);
+    expect(isAcrosticLetterName("He - Vav")).toBe(true);
+  });
+
   it("should reject an ordinary Psalm superscription's own real text", () => {
     expect(isAcrosticLetterName("A Psalm by David, when he fled from Absalom his son.")).toBe(false);
     expect(isAcrosticLetterName("For the Chief Musician. A contemplation by the sons of Korah.")).toBe(false);
+  });
+
+  it("should reject a joined pair when either half is not a letter name, rather than accepting anything a joiner happens to sit in", () => {
+    expect(isAcrosticLetterName("Sin and David")).toBe(false);
+    expect(isAcrosticLetterName("A Song - By David")).toBe(false);
+  });
+});
+
+describe("isAcrosticGlyphHeading", () => {
+  it("should accept ASV1901's real Psalm 119 \\qc text, glyph and trailing period and all", () => {
+    expect(isAcrosticGlyphHeading([{ text: "א ALEPH." }])).toBe(true);
+  });
+
+  it("should accept ASV1901's real Psalm 119:57 \\qc HHETH, whose spelling no standard transliteration table carries", () => {
+    expect(isAcrosticGlyphHeading([{ text: "ח HHETH." }])).toBe(true);
+  });
+
+  it("should accept a letter name with no glyph in front of it at all", () => {
+    expect(isAcrosticGlyphHeading([{ text: "ALEPH" }])).toBe(true);
+  });
+
+  it("should accept a shin written as U+FB2A, the presentation form CSB2017's own shipped acrostic headings use, with no dependence on splitScriptRuns' Hebrew range covering it", () => {
+    expect(isAcrosticGlyphHeading([{ text: "שׁ Shin" }])).toBe(true);
+  });
+
+  it("should reject the centered poetic line \\qc means in USFM generally — synthetic, since no source on disk uses \\qc for anything but a letter heading", () => {
+    expect(isAcrosticGlyphHeading([{ text: "Blessed be the name of Yahweh forever." }])).toBe(false);
+    expect(isAcrosticGlyphHeading([{ text: "A Song of Ascents." }])).toBe(false);
+  });
+});
+
+describe("psalterBookDivisionNumber", () => {
+  it("should read the division's own number off the Arabic label WEBUS2020's Psalms prints (\\ms1 BOOK 1, 20-PSAeng-web.usfm)", () => {
+    expect(psalterBookDivisionNumber("PSA", [{ text: "BOOK 1" }])).toBe(1);
+    expect(psalterBookDivisionNumber("PSA", [{ text: "BOOK 5" }])).toBe(5);
+  });
+
+  it("should read the same number off the Roman label ASV1901's Psalms prints (\\ms1 BOOK I, 20-PSAeng-asv.usfm), IV subtractively rather than as 6", () => {
+    expect(psalterBookDivisionNumber("PSA", [{ text: "BOOK I" }])).toBe(1);
+    expect(psalterBookDivisionNumber("PSA", [{ text: "BOOK IV" }])).toBe(4);
+    expect(psalterBookDivisionNumber("PSA", [{ text: "BOOK V" }])).toBe(5);
+  });
+
+  it("should reject a book-division label outside Psalms, since the heading it would build names Psalms in its own text — synthetic, no source on disk carries a major-section heading outside Psalms", () => {
+    expect(psalterBookDivisionNumber("ISA", [{ text: "BOOK 1" }])).toBeUndefined();
+    expect(psalterBookDivisionNumber("1EN", [{ text: "BOOK II" }])).toBeUndefined();
+  });
+
+  it("should reject an ordinary major-section heading inside Psalms, the generic construct \\ms marks in USFM — synthetic", () => {
+    expect(psalterBookDivisionNumber("PSA", [{ text: "The Songs of Ascent" }])).toBeUndefined();
+    expect(psalterBookDivisionNumber("PSA", [{ text: "BOOK" }])).toBeUndefined();
   });
 });
 
@@ -143,7 +235,7 @@ describe("buildBookDivisionHeading", () => {
     });
   });
 
-  it("should build the second and third boundaries with their own ordinals and ranges", () => {
+  it("should build the second and third divisions with their own ordinals and ranges", () => {
     expect(buildBookDivisionHeading(1, 42, 72)).toEqual({
       heading: [{ text: "Book Two", marks: ["sc"] }, " (Psalms 42–72)"],
     });

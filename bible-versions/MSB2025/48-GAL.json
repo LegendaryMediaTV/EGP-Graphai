@@ -1,0 +1,1690 @@
+[
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 1,
+    "content": [
+      { "heading": "Paul’s Greeting to the Galatians" },
+      {
+        "paragraph": true,
+        "text": "Paul, an apostle—sent not from men nor by man, but by Jesus Christ and God the Father, who raised Him from the dead—"
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 2,
+    "content": [
+      "and all the brothers with me,",
+      { "paragraph": true, "text": "To the churches of Galatia:" }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 3,
+    "content": {
+      "paragraph": true,
+      "text": "Grace and peace to you from God the Father and our Lord Jesus Christ,",
+      "foot": {
+        "type": "var",
+        "content": [
+          { "abbr": "SBL" },
+          ", ",
+          { "abbr": "MT" },
+          ", and ",
+          { "abbr": "TR" },
+          "; ",
+          { "abbr": "NA" },
+          " and ",
+          { "abbr": "WH" },
+          " ",
+          { "text": "God our Father and the Lord Jesus Christ", "marks": ["i"] }
+        ]
+      }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 4,
+    "content": "who gave Himself for our sins to rescue us from the present evil age, according to the will of our God and Father,"
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 5,
+    "content": "to whom be glory forever and ever. Amen."
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 6,
+    "content": [
+      { "heading": "No Other Gospel" },
+      {
+        "paragraph": true,
+        "text": "I am amazed how quickly you are deserting the One who called you by the grace of Christ and are turning to a different gospel—"
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 7,
+    "content": "which is not even a gospel. Evidently some people are troubling you and trying to distort the gospel of Christ."
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 8,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But even if we or an angel from heaven should preach a gospel",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "ALT" },
+            " and ",
+            { "abbr": "HF" },
+            " ",
+            { "text": "heaven preach a gospel", "marks": ["i"] }
+          ]
+        }
+      },
+      " contrary to the one we preached to you, let him be under a curse!"
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 9,
+    "content": "As we have said before, so now I say again: If anyone is preaching to you a gospel contrary to the one you received, let him be under a curse!"
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 10,
+    "content": [
+      { "heading": "Paul Preaches the Gospel" },
+      {
+        "paragraph": true,
+        "text": "Am I now seeking the approval of men, or of God? Or am I striving to please men? For",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " does not include ",
+            { "text": "For", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " if I were still trying to please men, I would not be a servant of Christ."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 11,
+    "content": [
+      {
+        "text": "But",
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "CT" }, " ", { "text": "For", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " I want you to know, brothers, that the gospel I preached was not devised by man.",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Literally ",
+            { "text": "not according to man", "marks": ["i"] }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 12,
+    "content": {
+      "text": "I did not receive it from any man, nor was I taught it; rather, I received it by revelation from Jesus Christ.",
+      "foot": {
+        "type": "var",
+        "content": [
+          { "abbr": "F35" },
+          " ",
+          { "text": "from Christ", "marks": ["i"] }
+        ]
+      }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 13,
+    "content": {
+      "paragraph": true,
+      "text": "For you have heard of my former way of life in Judaism, how severely I persecuted the church of God and tried to destroy it."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 14,
+    "content": "I was advancing in Judaism beyond many of my contemporaries and was extremely zealous for the traditions of my fathers."
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 15,
+    "content": {
+      "paragraph": true,
+      "text": "But when God, who set me apart from my mother’s womb and called me by His grace, was pleased"
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 16,
+    "content": "to reveal His Son in me so that I might preach Him among the Gentiles, I did not rush to consult with flesh and blood,"
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 17,
+    "content": "nor did I go up to Jerusalem to the apostles who came before me, but I went into Arabia and later returned to Damascus."
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 18,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Only after three years did I go up to Jerusalem to confer with Peter,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "Cephas", "marks": ["i"] }
+          ]
+        }
+      },
+      " and I stayed with him fifteen days."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 19,
+    "content": "But I saw none of the other apostles except James, the Lord’s brother."
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 20,
+    "content": "I assure you before God that what I am writing to you is no lie."
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 21,
+    "content": {
+      "paragraph": true,
+      "text": "Later I went to the regions of Syria and Cilicia."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 22,
+    "content": "I was personally unknown, however, to the churches of Judea that are in Christ."
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 23,
+    "content": "They only heard the account: “The man who formerly persecuted us is now preaching the faith he once tried to destroy.”"
+  },
+  {
+    "book": "GAL",
+    "chapter": 1,
+    "verse": 24,
+    "content": "And they glorified God because of me."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 1,
+    "content": [
+      {
+        "heading": {
+          "text": "The Council at Jerusalem",
+          "foot": { "type": "xrf", "content": { "bibleLink": "Acts 15:5–21" } }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Fourteen years later I went up again to Jerusalem, accompanied by Barnabas. I took Titus along also."
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 2,
+    "content": "I went in response to a revelation and set before them the gospel that I preach among the Gentiles. But I spoke privately to those recognized as leaders, for fear that I was running or had already run in vain."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 3,
+    "content": "Yet not even Titus, who was with me, was compelled to be circumcised, even though he was a Greek."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 4,
+    "content": {
+      "paragraph": true,
+      "text": "This issue arose because some false brothers had come in under false pretenses to spy on our freedom in Christ Jesus, in order to enslave us."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 5,
+    "content": "We did not give in to them for a moment, so that the truth of the gospel would remain with you."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 6,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But as for the highly esteemed—whatever they were makes no difference to me; God does not show favoritism",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Literally ",
+            { "text": "God does not accept the face of man", "marks": ["i"] }
+          ]
+        }
+      },
+      "—those leaders added nothing to me."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 7,
+    "content": "On the contrary, they saw that I had been entrusted to preach the gospel to the uncircumcised, just as Peter had been to the circumcised."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 8,
+    "content": "For the One who was at work in Peter’s apostleship to the circumcised was also at work in my apostleship to the Gentiles."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 9,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And recognizing the grace that I had been given, James, Cephas,",
+        "foot": { "type": "stu", "content": "That is, Peter" }
+      },
+      " and John—those reputed to be pillars—gave me and Barnabas the right hand of fellowship, so that we should go to the Gentiles, and they to the circumcised."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 10,
+    "content": "They only asked us to remember the poor, the very thing I was eager to do."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 11,
+    "content": [
+      { "heading": "Paul Confronts Cephas" },
+      {
+        "paragraph": true,
+        "text": "When Peter",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "Cephas", "marks": ["i"] },
+            "; also in verse 14"
+          ]
+        }
+      },
+      " came to Antioch, however, I opposed him to his face, because he stood condemned."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 12,
+    "content": "For before certain men came from James, he used to eat with the Gentiles. But when they arrived, he began to draw back and separate himself, for fear of those in the circumcision group."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 13,
+    "content": "The other Jews joined him in his hypocrisy, so that by their hypocrisy even Barnabas was led astray."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 14,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "When I saw that they were not walking in line with the truth of the gospel, I said to Peter",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " literal ",
+            { "text": "Cephas", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " in front of them all, “If you, who are a Jew, live like a Gentile and not like a Jew, how can you compel the Gentiles to live like Jews?”",
+        "foot": {
+          "type": "stu",
+          "content": "Some translators close this quotation after verse 16 or 21."
+        }
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 15,
+    "content": {
+      "paragraph": true,
+      "text": "We who are Jews by birth and not Gentile “sinners”"
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 16,
+    "content": [
+      {
+        "text": "know that a man is not justified by works of the law, but by faith in Jesus Christ.",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "WH" },
+            " ",
+            { "text": "Christ Jesus", "marks": ["i"] }
+          ]
+        }
+      },
+      " So we, too, have believed in Christ Jesus, that we may be justified by faith in Christ and not by works of the law, because by works of the law no one will be justified."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 17,
+    "content": {
+      "paragraph": true,
+      "text": "But if, while we seek to be justified in Christ, we ourselves are found to be sinners, does that make Christ a minister of sin? Certainly not!"
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 18,
+    "content": "If I rebuild what I have already torn down, I prove myself to be a lawbreaker."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 19,
+    "content": {
+      "paragraph": true,
+      "text": "For through the law I died to the law so that I might live to God."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 20,
+    "content": "I have been crucified with Christ, and I no longer live, but Christ lives in me. The life I live in the body, I live by faith in the Son of God, who loved me and gave Himself up for me."
+  },
+  {
+    "book": "GAL",
+    "chapter": 2,
+    "verse": 21,
+    "content": "I do not set aside the grace of God. For if righteousness comes through the law, then Christ died for nothing."
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 1,
+    "content": [
+      {
+        "heading": {
+          "text": "Faith and Belief",
+          "foot": { "type": "xrf", "content": { "bibleLink": "James 2:14–26" } }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "O foolish Galatians! Who has bewitched you not to obey the truth?",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " does not include ",
+            { "text": "not to obey the truth", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": " Before your very eyes Jesus Christ was clearly portrayed among you",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " does not include ",
+            { "text": "among you", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " as crucified."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 2,
+    "content": "I would like to learn just one thing from you: Did you receive the Spirit by works of the law, or by hearing with faith?"
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 3,
+    "content": {
+      "paragraph": true,
+      "text": "Are you so foolish? After starting in the Spirit, are you now finishing in the flesh?"
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 4,
+    "content": "Have you suffered so much for nothing, if it really was for nothing?"
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 5,
+    "content": "Does God lavish His Spirit on you and work miracles among you because you practice the law, or because you hear and believe?"
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 6,
+    "content": {
+      "paragraph": true,
+      "text": "So also, “Abraham believed God, and it was credited to him as righteousness.”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 15:6" } }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 7,
+    "content": "Understand, then, that those who have faith are sons of Abraham."
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 8,
+    "content": {
+      "text": "The Scripture foresaw that God would justify the Gentiles by faith, and foretold the gospel to Abraham: “All nations will be blessed through you.”",
+      "foot": {
+        "type": "xrf",
+        "content": [
+          "See ",
+          { "bibleLink": "Genesis 12:3" },
+          ", ",
+          { "bibleLink": "Genesis 18:18" },
+          ", and ",
+          { "bibleLink": "Genesis 22:18" },
+          "."
+        ]
+      }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 9,
+    "content": "So those who have faith are blessed along with Abraham, the man of faith."
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 10,
+    "content": [
+      { "heading": "Christ Has Redeemed Us" },
+      {
+        "paragraph": true,
+        "text": "All who rely on works of the law are under a curse. For it is written: “Cursed is everyone who does not continue to do everything written in the Book of the Law.”",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "bibleLink": "Deuteronomy 27:26" },
+            " (see also ",
+            { "abbr": "LXX" },
+            ")"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 11,
+    "content": {
+      "text": "Now it is clear that no one is justified before God by the law, because, “The righteous will live by faith.”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Habakkuk 2:4" } }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 12,
+    "content": [
+      {
+        "text": "The law, however, is not based on faith; on the contrary, “The man who",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " literal ",
+            { "text": "He who", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " does these things will live by them.”",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Leviticus 18:5" },
+            "; see also ",
+            {
+              "bibleLink": "Ezekiel 20:11, 13, 21",
+              "content": "Ezekiel 20:11, 13, and 21"
+            },
+            "."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 13,
+    "content": {
+      "paragraph": true,
+      "text": "Christ redeemed us from the curse of the law by becoming a curse for us. For it is written: “Cursed is everyone who is hung on a tree.”",
+      "foot": {
+        "type": "var",
+        "content": [
+          { "bibleLink": "Deuteronomy 21:23" },
+          " (see also ",
+          { "abbr": "LXX" },
+          ")"
+        ]
+      }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 14,
+    "content": [
+      {
+        "text": "He redeemed us in order that the blessing promised to Abraham",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Literally ",
+            { "text": "the blessing of Abraham", "marks": ["i"] }
+          ]
+        }
+      },
+      " would come to the Gentiles in Christ Jesus, so that by faith we might receive the promise of the Spirit."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 15,
+    "content": [
+      {
+        "heading": {
+          "text": "The Purpose of the Law",
+          "foot": { "type": "xrf", "content": { "bibleLink": "Romans 7:1–6" } }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Brothers, let me put this in human terms. Even a human covenant, once it is ratified, cannot be canceled or amended."
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 16,
+    "content": [
+      {
+        "text": "The promises were spoken to Abraham and to his seed. The Scripture does not say, “and to seeds,” meaning many, but “and to your seed,”",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Genesis 12:7" },
+            "; ",
+            { "bibleLink": "Genesis 13:15" }
+          ]
+        }
+      },
+      " meaning One, who is Christ."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 17,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "What I mean is this: The law that came 430 years later does not revoke the covenant previously established by God in Christ,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " does not include ",
+            { "text": "in Christ", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " so as to nullify the promise."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 18,
+    "content": "For if the inheritance depends on the law, then it no longer depends on a promise; but God freely granted it to Abraham through a promise."
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 19,
+    "content": {
+      "paragraph": true,
+      "text": "Why then was the law given? It was added because of transgressions, until the arrival of the seed to whom the promise referred. It was administered through angels by a mediator."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 20,
+    "content": "A mediator is unnecessary, however, for only one party; but God is one."
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 21,
+    "content": {
+      "paragraph": true,
+      "text": "Is the law, then, opposed to the promises of God? Certainly not! For if a law had been given that could impart life, then righteousness would certainly have come from the law."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 22,
+    "content": "But the Scripture pronounces all things confined by sin, so that by faith in Jesus Christ the promise might be given to those who believe."
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 23,
+    "content": {
+      "paragraph": true,
+      "text": "Before this faith came, we were held in custody under the law, locked up until faith should be revealed."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 24,
+    "content": "So the law became our guardian to lead us to Christ, that we might be justified by faith."
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 25,
+    "content": "Now that faith has come, we are no longer under a guardian."
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 26,
+    "content": [
+      { "heading": "Sons through Faith in Christ" },
+      {
+        "paragraph": true,
+        "text": "You are all sons of God through faith in Christ Jesus."
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 27,
+    "content": "For all of you who were baptized into Christ have clothed yourselves with Christ."
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 28,
+    "content": "There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus."
+  },
+  {
+    "book": "GAL",
+    "chapter": 3,
+    "verse": 29,
+    "content": "And if you belong to Christ, then you are Abraham’s seed and heirs according to the promise."
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 1,
+    "content": [
+      { "heading": "Sons and Heirs" },
+      {
+        "paragraph": true,
+        "text": "What I am saying is that as long as the heir is a child, he is no different from a slave, although he is the owner of everything."
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 2,
+    "content": "He is subject to guardians and trustees until the date set by his father."
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 3,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "So also, when we were children, we were enslaved under the basic principles",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or ",
+            { "text": "elemental forces", "marks": ["i"] },
+            "; similarly in verse 9"
+          ]
+        }
+      },
+      " of the world."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 4,
+    "content": "But when the time had fully come, God sent His Son, born of a woman, born under the law,"
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 5,
+    "content": "to redeem those under the law, that we might receive our adoption as sons."
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 6,
+    "content": [
+      {
+        "text": "And because you are sons, God sent the Spirit of His Son into your",
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "CT" }, " ", { "text": "our", "marks": ["i"] }]
+        }
+      },
+      " hearts, crying out, “Abba, Father!”"
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 7,
+    "content": {
+      "text": "So you are no longer a slave, but a son; and since you are a son, you are also an heir of God through Christ.",
+      "foot": {
+        "type": "var",
+        "content": [
+          { "abbr": "CT" },
+          " ",
+          { "text": "an heir through God", "marks": ["i"] }
+        ]
+      }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 8,
+    "content": [
+      { "heading": "Paul’s Concern for the Galatians" },
+      {
+        "paragraph": true,
+        "text": "Formerly, when you did not know God, you were slaves to those who by nature are not gods."
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 9,
+    "content": "But now that you know God, or rather are known by God, how is it that you are turning back to those weak and worthless principles? Do you wish to be enslaved by them all over again?"
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 10,
+    "content": "You are observing special days and months and seasons and years!"
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 11,
+    "content": "I fear for you, that my efforts for you may have been in vain."
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 12,
+    "content": "I beg you, brothers, become like me, for I became like you. You have done me no wrong."
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 13,
+    "content": {
+      "paragraph": true,
+      "text": "You know that it was because of an illness that I first preached the gospel to you."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 14,
+    "content": [
+      {
+        "text": "And although my illness was a trial to me,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "to you", "marks": ["i"] }
+          ]
+        }
+      },
+      " you did not despise or reject me. Instead, you welcomed me as if I were an angel of God, as if I were Christ Jesus Himself."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 15,
+    "content": "What then has become of your blessing? For I can testify that, if it were possible, you would have torn out your eyes and given them to me."
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 16,
+    "content": "Have I now become your enemy by telling you the truth?"
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 17,
+    "content": {
+      "paragraph": true,
+      "text": "Those people are zealous for you, but not in a good way. Instead, they want to isolate you from us, so that you may be zealous for them."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 18,
+    "content": "Nevertheless, it is good to be zealous if it serves a noble purpose—at any time, and not only when I am with you."
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 19,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "My little children,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "NA" },
+            " and ",
+            { "abbr": "SBL" },
+            " ",
+            { "text": "My children", "marks": ["i"] }
+          ]
+        }
+      },
+      " for whom I am again in the pains of childbirth until Christ is formed in you,"
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 20,
+    "content": "how I wish I could be with you now and change my tone, because I am perplexed about you."
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 21,
+    "content": [
+      {
+        "heading": {
+          "text": "Hagar and Sarah",
+          "foot": {
+            "type": "xrf",
+            "content": { "bibleLink": "Genesis 21:9–21" }
+          }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Tell me, you who want to be under the law, do you not understand what the law says?"
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 22,
+    "content": {
+      "text": "For it is written that Abraham had two sons, one by the slave woman and the other by the free woman.",
+      "foot": {
+        "type": "xrf",
+        "content": [
+          "See ",
+          { "bibleLink": "Genesis 16:15" },
+          " and ",
+          { "bibleLink": "Genesis 21:2–3" },
+          "."
+        ]
+      }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 23,
+    "content": "His son by the slave woman was born according to the flesh, but his son by the free woman was born through the promise."
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 24,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "These things serve as illustrations, for the women represent two",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "TR" },
+            " ",
+            { "text": "the two", "marks": ["i"] }
+          ]
+        }
+      },
+      " covenants. One covenant is from Mount Sinai and bears children into slavery: This is Hagar."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 25,
+    "content": [
+      {
+        "text": "For",
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "CT" }, " ", { "text": "Now", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " Hagar stands for Mount Sinai in Arabia and corresponds to the present-day Jerusalem, and",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "because", "marks": ["i"] }
+          ]
+        }
+      },
+      " she is in slavery with her children."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 26,
+    "content": {
+      "text": "But the Jerusalem above is free, and she is the mother of us all.",
+      "foot": {
+        "type": "var",
+        "content": [
+          { "abbr": "CT" },
+          " ",
+          { "text": "and she is our mother", "marks": ["i"] }
+        ]
+      }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 27,
+    "content": [
+      "For it is written:",
+      { "paragraph": true, "text": "“Rejoice, O barren woman,", "break": true },
+      { "text": "who bears no children;", "break": true },
+      { "text": "break forth and cry aloud,", "break": true },
+      { "text": "you who have never travailed;", "break": true },
+      {
+        "text": "because more are the children of the desolate woman",
+        "break": true
+      },
+      {
+        "text": "than of her who has a husband.”",
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 54:1" } }
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 28,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now we,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "NA" },
+            ", ",
+            { "abbr": "SBL" },
+            ", and ",
+            { "abbr": "TH" },
+            " ",
+            { "text": "you", "marks": ["i"] }
+          ]
+        }
+      },
+      " brothers, like Isaac, are children of promise."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 29,
+    "content": "At that time, however, the son born by the flesh persecuted the son born by the Spirit. It is the same now."
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 30,
+    "content": {
+      "paragraph": true,
+      "text": "But what does the Scripture say? “Expel the slave woman and her son, for the slave woman’s son will never share in the inheritance with the free woman’s son.”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 21:10" } }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 4,
+    "verse": 31,
+    "content": "Therefore, brothers, we are not children of the slave woman, but of the free woman."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 1,
+    "content": [
+      { "heading": "Freedom in Christ" },
+      {
+        "paragraph": true,
+        "text": "In the freedom with which Christ has set us free,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            {
+              "text": "It is for freedom that Christ has set us free.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " stand firm, then, and do not be encumbered once more by a yoke of slavery."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 2,
+    "content": {
+      "paragraph": true,
+      "text": "Take notice: I, Paul, tell you that if you let yourselves be circumcised, Christ will be of no value to you at all."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 3,
+    "content": "Again I testify to every man who gets himself circumcised that he is obligated to obey the whole law."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 4,
+    "content": "You who are trying to be justified by the law have been severed from Christ; you have fallen away from grace."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 5,
+    "content": {
+      "paragraph": true,
+      "text": "But by faith we eagerly await through the Spirit the hope of righteousness."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 6,
+    "content": "For in Christ Jesus neither circumcision nor uncircumcision has any value. All that matters is faith expressing itself through love."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 7,
+    "content": {
+      "paragraph": true,
+      "text": "You were running so well. Who has obstructed you from obeying the truth?"
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 8,
+    "content": "Such persuasion does not come from the One who calls you."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 9,
+    "content": "A little leaven works through the whole batch of dough."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 10,
+    "content": "I am confident in the Lord that you will take no other view. The one who is troubling you will bear the judgment, whoever he may be."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 11,
+    "content": {
+      "paragraph": true,
+      "text": "Now, brothers, if I am still preaching circumcision, why am I still being persecuted? In that case the offense of the cross has been abolished."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 12,
+    "content": "As for those who are agitating you, I wish they would proceed to emasculate themselves!"
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 13,
+    "content": {
+      "paragraph": true,
+      "text": "For you, brothers, were called to freedom; but do not use your freedom as an opportunity for the flesh. Rather, serve one another in love."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 14,
+    "content": {
+      "text": "The entire law is fulfilled in a single decree: “Love your neighbor as yourself.”",
+      "foot": { "type": "xrf", "content": { "bibleLink": "Leviticus 19:18" } }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 15,
+    "content": "But if you keep on biting and devouring one another, watch out, or you will be consumed by one another."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 16,
+    "content": [
+      {
+        "heading": {
+          "text": "Walking by the Spirit",
+          "foot": {
+            "type": "xrf",
+            "content": [
+              { "bibleLink": "Ezekiel 36:16–38" },
+              "; ",
+              { "bibleLink": "Romans 8:9–11" }
+            ]
+          }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "So I say, walk by the Spirit, and you will not gratify the desires of the flesh."
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 17,
+    "content": "For the flesh craves what is contrary to the Spirit, and the Spirit what is contrary to the flesh. They are opposed to each other, so that you do not do what you want."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 18,
+    "content": "But if you are led by the Spirit, you are not under the law."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 19,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The acts of the flesh are obvious: adultery,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " does not include ",
+            { "text": "adultery", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " sexual immorality, impurity, and debauchery;"
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 20,
+    "content": [
+      {
+        "text": "idolatry and sorcery; hostilities,",
+        "foot": {
+          "type": "trn",
+          "content": ["Or ", { "text": "hatred", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " quarrels,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " and ",
+            { "abbr": "F35" },
+            " ",
+            { "text": "quarreling", "marks": ["i"] },
+            " or ",
+            { "text": "discord", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " jealousies,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "jealousy", "marks": ["i"] }
+          ]
+        }
+      },
+      " and rage; rivalries, divisions, factions,"
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 21,
+    "content": [
+      {
+        "text": "envy, and murders;",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "NA" },
+            ", ",
+            { "abbr": "SBL" },
+            ", and ",
+            { "abbr": "WH" },
+            " do not include ",
+            { "text": "murders", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " drunkenness, orgies, and the like. I warn you, as I did before, that those who practice such things will not inherit the kingdom of God."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 22,
+    "content": {
+      "paragraph": true,
+      "text": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness,"
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 23,
+    "content": "gentleness, and self-control. Against such things there is no law."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 24,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Those who belong to Christ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "NA" },
+            ", ",
+            { "abbr": "TH" },
+            ", and ",
+            { "abbr": "WH" },
+            " ",
+            { "text": "Christ Jesus", "marks": ["i"] }
+          ]
+        }
+      },
+      " have crucified the flesh with its passions and desires."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 25,
+    "content": "Since we live by the Spirit, let us walk in step with the Spirit."
+  },
+  {
+    "book": "GAL",
+    "chapter": 5,
+    "verse": 26,
+    "content": "Let us not become conceited, provoking and envying one another."
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 1,
+    "content": [
+      { "heading": "Carry One Another’s Burdens" },
+      {
+        "paragraph": true,
+        "text": "Brothers, if someone is caught in a trespass, you who are spiritual should restore him with a spirit of gentleness. But watch yourself, or you also may be tempted."
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 2,
+    "content": "Carry one another’s burdens, and in this way you will fulfill the law of Christ."
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 3,
+    "content": {
+      "paragraph": true,
+      "text": "If anyone thinks he is something when he is nothing, he deceives himself."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 4,
+    "content": {
+      "paragraph": true,
+      "text": "Each one should test his own work. Then he will have reason to boast in himself alone, and not in someone else."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 5,
+    "content": "For each one should carry his own load."
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 6,
+    "content": "Nevertheless, the one who receives instruction in the word must share in all good things with his instructor."
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 7,
+    "content": {
+      "paragraph": true,
+      "text": "Do not be deceived: God is not to be mocked. Whatever a man sows, he will reap in return."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 8,
+    "content": "The one who sows to please his flesh, from the flesh will reap destruction; but the one who sows to please the Spirit, from the Spirit will reap eternal life."
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 9,
+    "content": {
+      "paragraph": true,
+      "text": "Let us not grow weary in well-doing, for in due time we will reap a harvest if we do not give up."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 10,
+    "content": "Therefore, as we have opportunity, let us do good to everyone, and especially to the family of faith."
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 11,
+    "content": [
+      { "heading": "Final Warnings and Blessings" },
+      {
+        "paragraph": true,
+        "text": "See what large letters I am using to write to you with my own hand!"
+      }
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 12,
+    "content": {
+      "paragraph": true,
+      "text": "Those who want to make a good impression outwardly are trying to compel you to be circumcised. They only do this to avoid persecution for the cross of Christ.",
+      "foot": {
+        "type": "var",
+        "content": [
+          { "abbr": "WH" },
+          " ",
+          { "text": "Christ Jesus", "marks": ["i"] }
+        ]
+      }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 13,
+    "content": "For the circumcised do not even keep the law themselves, yet they want you to be circumcised that they may boast in your flesh."
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 14,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But as for me, may I never boast, except in the cross of our Lord Jesus Christ, through which",
+        "foot": {
+          "type": "trn",
+          "content": ["Or ", { "text": "through whom", "marks": ["i"] }]
+        }
+      },
+      " the world has been crucified to me, and I to the world."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 15,
+    "content": [
+      {
+        "text": "For in Christ Jesus",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " does not include ",
+            { "text": "in Christ Jesus", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " neither circumcision nor uncircumcision means anything. What counts is a new creation."
+    ]
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 16,
+    "content": {
+      "paragraph": true,
+      "text": "Peace and mercy to all who walk by this rule, even to the Israel of God."
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 17,
+    "content": {
+      "paragraph": true,
+      "text": "From now on let no one cause me trouble, for I bear on my body the marks of the Lord Jesus.",
+      "foot": {
+        "type": "var",
+        "content": [
+          { "abbr": "CT" },
+          " ",
+          { "text": "the marks of Jesus", "marks": ["i"] }
+        ]
+      }
+    }
+  },
+  {
+    "book": "GAL",
+    "chapter": 6,
+    "verse": 18,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The grace of our Lord Jesus Christ be with your spirit, brothers."
+      },
+      { "paragraph": true, "text": "Amen." }
+    ]
+  }
+]

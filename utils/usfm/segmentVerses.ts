@@ -7,10 +7,14 @@ import {
   buildHeadingSpanContent,
   buildSpeakerHeading,
   buildSuperscriptionContent,
+  headingSpanText,
+  HeadingSpanResult,
+  isAcrosticGlyphHeading,
+  psalterBookDivisionNumber,
 } from "./headings";
 import { normalizeFractionText } from "../../functions/normalizeFractions";
 import { attachFootToPieces, buildRunNodes, InlineMarkName, InlineTextPiece } from "./inlineMarks";
-import { buildCrossReferenceContent } from "./references";
+import { buildCrossReferenceContent, buildReferenceOnlyContent } from "./references";
 import { tokenize } from "./tokenize";
 
 /**
@@ -135,13 +139,17 @@ const CHROME_DROPPED_MARKER_NAMES = new Set(["cl", "pc", "cp", "is1"]);
  * section heading in the deuterocanon corpus, dispatched through the
  * identical plain-`heading` path `\sp` already uses (`usfm/headings.ts`'s
  * `buildSpeakerHeading`, reused directly rather than forked into a second,
- * parallel function — see the dispatch below). `\qc` — ASV1901's own
- * Psalm 119 acrostic letter heading, on a different marker than `\d` and
- * carrying the real Hebrew glyph inline rather than a bare
- * transliteration (`usfm/headings.ts`'s `buildAcrosticGlyphHeading`,
- * joined here rather than forked into a parallel walk, since it needs the
- * identical "span to the next marker" shape the other three already
- * have). All four are unpaired markers whose own trailing text ends
+ * parallel function — see the dispatch below). `\qc` — an acrostic letter
+ * heading *when its own text is a letter name* (ASV1901's own Psalm 119
+ * `\qc א ALEPH.`, carrying the real Hebrew glyph inline rather than a bare
+ * transliteration: `usfm/headings.ts`'s `buildAcrosticGlyphHeading`, joined
+ * here rather than forked into a parallel walk, since it needs the
+ * identical "span to the next marker" shape the other three already have).
+ * A `\qc` that is *not* a letter name is USFM's ordinary centered poetic
+ * line — its own text is verse content, not a heading span — so it is
+ * dispatched with `\q1`/`\q2`/`\q3` instead; `acrosticGlyphSpanAt` in the
+ * walk below is the one place that decides which of the two a given `\qc`
+ * is. All four are unpaired markers whose own trailing text ends
  * wherever the *next* marker of any kind begins
  * (`usfm/headings.ts`'s own `buildHeadingSpanContent`) and all four attach
  * to whatever real content comes next in source order — see
@@ -157,6 +165,32 @@ const CHROME_DROPPED_MARKER_NAMES = new Set(["cl", "pc", "cp", "is1"]);
  * ordinary `\d` Psalm superscription attach correctly at chapter start.
  */
 const SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES = new Set(["d", "sp", "s1", "qc"]);
+
+/**
+ * USFM's major-section heading and its three deeper levels. Graphai's own
+ * content schema has no heading level, so all four reduce to one ordinary
+ * `heading` built from the marker's own printed text — and any of the four
+ * whose text is a Psalter book-division label (`usfm/headings.ts`'s
+ * `psalterBookDivisionNumber`) becomes the computed `Book <Ordinal>
+ * (Psalms <start>–<end>)` heading instead.
+ *
+ * Only `\ms1` is attested on disk (ten markers, all Psalter divisions).
+ * The other three are here because the alternative is silent corruption
+ * rather than a missing feature: a marker that reaches the generic branch
+ * below keeps `skipToNextMarker` false, so its heading text is swept into
+ * the surrounding verse's own prose, where nothing downstream can see that
+ * a heading was ever lost.
+ */
+const MAJOR_SECTION_MARKER_NAMES = new Set(["ms", "ms1", "ms2", "ms3"]);
+
+/**
+ * The parentheses a source prints around an `\mr` reference range —
+ * display convention, never part of a reference — dropped before the text
+ * is resolved into `bibleLink` targets, the same way `usfm/headings.ts`'s
+ * `LETTER_NAME_PUNCTUATION` drops an acrostic heading's own display
+ * punctuation before classifying it.
+ */
+const MAJOR_SECTION_REFERENCE_PARENTHESES = /^\s*\(|\)\s*$/g;
 
 /**
  * Segments one book's raw USFM source into one verse record per `\v`
@@ -239,15 +273,18 @@ export function segmentVerses(
    * if content-free, text token); survives a `\c` marker itself, whether
    * or not a `\b` precedes it — the real shape this idiom takes at a
    * chapter boundary is `\b \c N \q1 \v M...`, or, with no `\b` at all,
-   * just `\c N \q1 \v M...`; survives `\ms1`, a Psalms book-division
-   * marker that always sits directly after `\c` — its own dispatch
+   * just `\c N \q1 \v M...`; survives a
+   * {@link MAJOR_SECTION_MARKER_NAMES} marker, which a Psalms book
+   * division sits on — its own dispatch
    * consumes its own trailing text in the same jump, exactly the way
    * {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES} markers already do, so
    * that real, non-whitespace text never reaches this guard as its own
    * standalone token and clears it; and survives a
    * {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES} marker (`\d`/`\sp`/
-   * `\s1`/`\qc`) the same way, since a Psalm superscription routinely sits
-   * between the gap's own start and the bare `\qN` that follows it.
+   * `\s1`, and a `\qc` that really is a letter heading) the same way,
+   * since a Psalm superscription routinely sits between the gap's own
+   * start and the bare `\qN` that follows it — a `\qc` carrying a poetic
+   * line instead is absorbed here exactly as a bare `\qN` is.
    * Cleared by anything else: real text, or any marker outside that
    * survivor list — deliberately narrower than "the next break-type
    * marker, whenever it comes," since it only ever catches the
@@ -320,25 +357,31 @@ export function segmentVerses(
   let pendingHeadingBlocks: VerseBlock[] = [];
 
   /**
-   * The chapter number of every `\ms1` marker this book carries, in
-   * source order — the raw text following `\ms1` is never read: the
-   * repo's own already-shipped convention replaces WEB's own literal
-   * "BOOK 1".."BOOK 5" wording wholesale with a computed word + range, so
-   * nothing in the source is worth capturing beyond *which* chapter the
-   * marker sits on. Unlike {@link pendingHeadingBlocks}, this never needs
-   * same-verse-vs-next-verse resolution — every real in-scope instance
-   * sits directly after `\c N` and before any `\v`, always destined for
-   * that same chapter's own verse 1 — so it is resolved separately, in
-   * one post-pass once every boundary and the book's own highest chapter
+   * Every *Psalter book division* this book carries, in source order —
+   * every {@link MAJOR_SECTION_MARKER_NAMES} marker `usfm/headings.ts`'s
+   * `psalterBookDivisionNumber` accepts, and no other; every one it
+   * rejects keeps its own printed text and goes through
+   * {@link pendingHeadingBlocks} like any other heading instead.
+   *
+   * The repo's shipped convention replaces the source's literal "BOOK
+   * 1"/"BOOK I" wording wholesale with a spelled-out ordinal plus a
+   * computed chapter range, so the two numbers here are all the source has
+   * to say: `ordinal`, the division's own printed numeral, and
+   * `startChapter`, the chapter its range opens on.
+   *
+   * Unlike {@link pendingHeadingBlocks}, this never needs
+   * same-verse-vs-next-verse resolution — a division heading always
+   * belongs to its own chapter's verse 1 — so it resolves separately, in
+   * one post-pass once every division and the book's own highest chapter
    * are known (see the end of this function).
    */
-  const bookDivisionBoundaryChapters: number[] = [];
+  const bookDivisions: { readonly ordinal: number; readonly startChapter: number }[] = [];
 
   /**
    * Every `\ip` block's own built footnote, in source order. Real
    * in-scope `\ip` blocks sit entirely in front matter, before `\c 1`
    * ever opens — `chapter` is still `0` and `started` still `false` the
-   * whole time one is being read — so, like {@link bookDivisionBoundaryChapters},
+   * whole time one is being read — so, like {@link bookDivisions},
    * this never needs same-verse-vs-next-verse resolution: every one is
    * always destined for the book's own lowest-numbered chapter's verse 1,
    * resolved in one post-pass once that chapter is known (see the end of
@@ -372,6 +415,49 @@ export function segmentVerses(
    * one of the two.
    */
   const attachFoot = (foot: Footnote): void => attachFootToPieces(blockInline, foot);
+
+  /**
+   * The span belonging to the `\qc` marker at `markerIndex`, but only when
+   * that `\qc` really is an acrostic letter heading
+   * (`usfm/headings.ts`'s `isAcrosticGlyphHeading`) — `undefined` for a
+   * `\qc` that is USFM's ordinary centered poetic line, whose trailing text
+   * is verse content the main walk must read for itself.
+   *
+   * A pure lookahead: `buildHeadingSpanContent` consumes nothing and
+   * mutates nothing, so a rejected peek is thrown away and the same tokens
+   * are walked again as ordinary text.
+   */
+  const acrosticGlyphSpanAt = (markerIndex: number): HeadingSpanResult | undefined => {
+    const span = buildHeadingSpanContent(tokens, markerIndex + 1);
+    return isAcrosticGlyphHeading(span.pieces) ? span : undefined;
+  };
+
+  /**
+   * The chapter a heading ending at `spanEndIndex` actually opens — the
+   * one the *next* `\c` names when the heading is written ahead of it, and
+   * the one already in scope otherwise.
+   *
+   * Both layouts are legal USFM and both are real: WEBUS2020 writes `\c 42
+   * \ms1 BOOK 2`, ASV1901 writes `\ms1 BOOK II \c 42`. Reading the chapter
+   * counter alone would make the second layout name the chapter *before*
+   * the one the division opens, so the two layouts would print different
+   * ranges for the identical construct.
+   *
+   * The scan stops at the first `\c` or `\v`, whichever comes first: a
+   * heading with a verse between it and the next chapter marker belongs to
+   * the chapter it is already in. Everything else in between is stepped
+   * over, so an `\mr` sitting between the heading and its `\c` changes
+   * nothing.
+   */
+  const chapterOpenedAfter = (spanEndIndex: number): number => {
+    for (let at = spanEndIndex; at < tokens.length; at++) {
+      const ahead = tokens[at];
+      if (ahead.type !== "marker") continue;
+      if (ahead.name === "c") return Number(ahead.value);
+      if (ahead.name === "v") break;
+    }
+    return chapter;
+  };
 
   /**
    * Finalizes whatever text has accumulated since the last block boundary
@@ -541,13 +627,25 @@ export function segmentVerses(
   while (index < tokens.length) {
     const token = tokens[index];
 
+    // Which of `\qc`'s two USFM readings this token is, decided once
+    // because the guard and the dispatch below both act on the answer and
+    // must not disagree. `undefined` for any token that isn't an
+    // acrostic-heading `\qc` — see {@link acrosticGlyphSpanAt}.
+    const acrosticGlyphSpan =
+      token.type === "marker" && token.name === "qc" ? acrosticGlyphSpanAt(index) : undefined;
+    /** This token is a `\qc` in its ordinary USFM reading: a centered poetic line, belonging with `\q1`/`\q2`/`\q3` rather than with the heading markers. */
+    const isPoeticLineQc = token.type === "marker" && token.name === "qc" && acrosticGlyphSpan === undefined;
+
     // See {@link suppressNextBareBreakAfterCleanBoundary}'s own doc
     // comment for the full real-shape inventory this survivor list is
-    // built from. A whitespace-only text token, `\c`, `\ms1`, and a
-    // {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES} marker all leave the
+    // built from. A whitespace-only text token, `\c`, a
+    // {@link MAJOR_SECTION_MARKER_NAMES} marker, and a
+    // {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES} marker other than a
+    // poetic-line `\qc` all leave the
     // guard standing — none of them carries "real accumulated content"
     // for this guard's purposes, whether because they're content-free
-    // (`\c`/`\ms1`) or because their own text lands in
+    // (`\c`, or a major-section marker opening a book division) or
+    // because their own text lands in
     // {@link pendingHeadingBlocks}, a channel `flushBlock`'s own reach-back
     // already looks straight past. The bare `\qN` itself is absorbed here,
     // before `BREAK_MARKER_NAMES`'s own dispatch ever sees it; anything
@@ -560,15 +658,18 @@ export function segmentVerses(
         // trim runs), it just must not clear the guard.
       } else if (
         token.type === "marker" &&
-        (token.name === "c" || token.name === "ms1" || SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES.has(token.name))
+        !isPoeticLineQc &&
+        (token.name === "c" ||
+          MAJOR_SECTION_MARKER_NAMES.has(token.name) ||
+          SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES.has(token.name))
       ) {
         // Fall through below unchanged — `\c`'s own ordinary handling
         // (flush the (already-empty) accumulator, advance the chapter
-        // number), `\ms1`'s own ordinary handling (record the boundary
-        // chapter), or the heading/speaker branch's own ordinary handling
+        // number), a major-section marker's own ordinary handling (record
+        // the book division, or queue its heading), or the heading/speaker branch's own ordinary handling
         // (force-flush the same already-empty accumulator, queue the
         // heading) still needs to run; the guard just must not clear here.
-      } else if (token.type === "marker" && BREAK_MARKER_NAMES.has(token.name)) {
+      } else if (token.type === "marker" && (BREAK_MARKER_NAMES.has(token.name) || isPoeticLineQc)) {
         suppressNextBareBreakAfterCleanBoundary = false;
         skipToNextMarker = false;
         index++;
@@ -632,28 +733,86 @@ export function segmentVerses(
       continue;
     }
 
-    if (token.type === "marker" && BREAK_MARKER_NAMES.has(token.name)) {
+    // `\q1`/`\q2`/`\q3`, and a `\qc` in its ordinary USFM reading: a
+    // centered poetic line ends the line before it exactly as the numbered
+    // poetry markers do. `index++` here — never the peeked span's own
+    // `nextIndex` — leaves its trailing text to the walk below as verse
+    // content.
+    if ((token.type === "marker" && BREAK_MARKER_NAMES.has(token.name)) || isPoeticLineQc) {
       flushBlock(true);
       skipToNextMarker = false;
       index++;
       continue;
     }
 
-    if (token.type === "marker" && token.name === "ms1") {
-      // Only the chapter number matters (see {@link bookDivisionBoundaryChapters}
-      // for why). `buildHeadingSpanContent`'s own `pieces` are discarded —
-      // only `nextIndex` matters — but reusing it to find the real boundary
-      // (rather than just `index++`) matters for real: this marker's own
-      // trailing text ("BOOK 2", real, non-whitespace content) would
+    if (token.type === "marker" && MAJOR_SECTION_MARKER_NAMES.has(token.name)) {
+      // Walking the span before deciding anything is what makes the
+      // book-division test possible, and matters either way: this marker's
+      // own trailing text ("BOOK 2", real, non-whitespace content) would
       // otherwise reach {@link suppressNextBareBreakAfterCleanBoundary}'s
-      // own guard as its own standalone text token and clear it, since that
-      // guard only ever whitelists whitespace-only text and specific marker
+      // own guard as a standalone text token and clear it, since that
+      // guard whitelists only whitespace-only text and specific marker
       // names, never text content.
-      bookDivisionBoundaryChapters.push(chapter);
-      const { nextIndex } = buildHeadingSpanContent(tokens, index + 1);
+      const { pieces: headingPieces, nextIndex } = buildHeadingSpanContent(tokens, index + 1);
+      // `\mr` is defined by its position: it follows the heading it is the
+      // reference range of. Consuming it from here rather than from a
+      // dispatch of its own makes "the heading it belongs to" a fact of
+      // this iteration instead of a pointer left standing for a later one.
+      const reference = tokens[nextIndex];
+      const referenceSpan =
+        reference?.type === "marker" && reference.name === "mr"
+          ? buildHeadingSpanContent(tokens, nextIndex + 1)
+          : undefined;
+
+      const divisionNumber = psalterBookDivisionNumber(book, headingPieces);
+      if (divisionNumber !== undefined) {
+        // The heading itself is built in the post-pass at the end of this
+        // function, once the range it prints is knowable. An `\mr` on a
+        // division is dropped along with the division's own printed label:
+        // it prints the very range this run recomputes from the book's own
+        // chapters, so nothing it carries is lost by recomputing it.
+        bookDivisions.push({ ordinal: divisionNumber, startChapter: chapterOpenedAfter(nextIndex) });
+      } else {
+        // Every other major-section heading keeps the text it actually
+        // prints and takes the identical path `\s1` already takes — see
+        // the {@link SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES} dispatch
+        // below, whose own doc comment covers all three steps.
+        // A heading's own reference range is encoded as an `xrf` footnote
+        // on the heading's text node — the shape already shipped
+        // corpus-wide (NKJV1982 807 of them, MSB2025 1,325, CSB2017 5) —
+        // reached through the same `attachFootToPieces` + `buildRunNodes`
+        // pipeline every other footnote-in-a-run goes through, so `\mr`
+        // lands as `{heading: {text, foot}}` rather than as a second shape
+        // meaning the same thing.
+        if (referenceSpan !== undefined) {
+          attachFootToPieces(headingPieces, {
+            type: "xrf",
+            content: buildReferenceOnlyContent(
+              headingSpanText(referenceSpan.pieces).replace(MAJOR_SECTION_REFERENCE_PARENTHESES, ""),
+              canonBookIds,
+            ),
+          });
+        }
+        flushBlock(false);
+        pendingParagraph = true;
+        pendingHeadingBlocks.push({ text: "", headingContent: buildSpeakerHeading(headingPieces) });
+      }
       skipToNextMarker = false;
-      index = nextIndex;
+      index = referenceSpan?.nextIndex ?? nextIndex;
       continue;
+    }
+
+    if (token.type === "marker" && token.name === "mr") {
+      // Every `\mr` belonging to a heading was consumed by the branch
+      // above, so one reaching here has no heading to be the reference
+      // range *of*. The established encoding hangs the range on its
+      // heading's own text node and there is no such node here — the same
+      // stance the book-division post-pass below takes for a division
+      // naming a chapter with no verse 1.
+      const { pieces } = buildHeadingSpanContent(tokens, index + 1);
+      throw new Error(
+        `segmentVerses: \\mr ${JSON.stringify(headingSpanText(pieces))} follows no major-section heading, so there is no heading text to hang its reference range on`,
+      );
     }
 
     if (token.type === "marker" && token.name === "ip") {
@@ -693,7 +852,10 @@ export function segmentVerses(
       // the block after it instead.
       pendingParagraph = true;
       skipToNextMarker = false;
-      const { pieces: headingPieces, nextIndex } = buildHeadingSpanContent(tokens, index + 1);
+      // A `\qc` reaching this branch was already walked by the peek that
+      // classified it; reusing that span keeps the classification and the
+      // content built from it from being two reads that could disagree.
+      const { pieces: headingPieces, nextIndex } = acrosticGlyphSpan ?? buildHeadingSpanContent(tokens, index + 1);
       const headingContent =
         token.name === "d"
           ? buildSuperscriptionContent(headingPieces)
@@ -877,43 +1039,40 @@ export function segmentVerses(
   }
   flush();
 
-  // The `\ms1` post-pass — see {@link bookDivisionBoundaryChapters} for why
-  // this waits until every verse record exists: a boundary's own real
-  // range end (a computed en-dash verse range derived from this run's own
-  // emitted verse data, never hand-typed) is only knowable once
-  // either the *next* boundary's own start chapter is known, or — for the
-  // last boundary — the book's own highest chapter is known, both
-  // requiring the whole book to already be walked. Each heading is
-  // unshifted onto its own boundary chapter's verse 1, ahead of whatever a
-  // `\d` subtitle may have already placed there via
-  // {@link pendingHeadingBlocks}'s own drain, matching
-  // a real source's own Psalm 42:1 ordering (the book-division heading
+  // The book-division post-pass — see {@link bookDivisions} for why this
+  // waits until every verse record exists: a division's own real range end
+  // (a computed en-dash chapter range derived from this run's own emitted
+  // verse data, never hand-typed) is only knowable once either the *next*
+  // division's own start chapter is known, or — for the last division —
+  // the book's own highest chapter is known, both requiring the whole book
+  // to already be walked. Each heading is unshifted onto its own start
+  // chapter's verse 1, ahead of whatever a `\d` subtitle may have already
+  // placed there via {@link pendingHeadingBlocks}'s own drain, matching a
+  // real source's own Psalm 42:1 ordering (the book-division heading
   // always comes first).
-  if (bookDivisionBoundaryChapters.length > 0) {
+  if (bookDivisions.length > 0) {
     const maxChapter = records.reduce((max, record) => Math.max(max, record.chapter), 0);
-    bookDivisionBoundaryChapters.forEach((startChapter, boundaryIndex) => {
-      const endChapter =
-        boundaryIndex + 1 < bookDivisionBoundaryChapters.length
-          ? bookDivisionBoundaryChapters[boundaryIndex + 1] - 1
-          : maxChapter;
-      const heading = buildBookDivisionHeading(boundaryIndex, startChapter, endChapter);
+    bookDivisions.forEach(({ ordinal, startChapter }, at) => {
+      const endChapter = at + 1 < bookDivisions.length ? bookDivisions[at + 1].startChapter - 1 : maxChapter;
+      const heading = buildBookDivisionHeading(ordinal - 1, startChapter, endChapter);
       const verseOne = records.find((record) => record.chapter === startChapter && record.verse === 1);
       if (verseOne === undefined) {
         throw new Error(
-          `segmentVerses: \\ms1 boundary #${boundaryIndex + 1} names chapter ${startChapter}, but this book has no verse 1 there to attach its own book-division heading to`,
+          `segmentVerses: book division "BOOK ${ordinal}" opens on chapter ${startChapter}, but this book has no verse 1 there to attach its own division heading to`,
         );
       }
       verseOne.blocks.unshift({ text: "", headingContent: heading });
     });
   }
 
-  // The `\ip` post-pass mirrors the `\ms1` post-pass above — see
+  // The `\ip` post-pass mirrors the book-division post-pass above — see
   // {@link introParagraphFootnotes} for why this waits until the whole book
   // is walked. Each footnote becomes its own textless `{foot}`-only node —
   // the same "textless sibling node" shape a bare Strong's tag with nothing
   // of its own to attach text to already uses (guide §6), here standing as
   // a whole block of its own rather than mid-run — unshifted in source
-  // order ahead of anything a `\d`/`\ms1` may have already placed there, so
+  // order ahead of anything a `\d` or a major-section heading may have
+  // already placed there, so
   // an `\ip` block (the outermost editorial framing around the whole book)
   // always reads first.
   //

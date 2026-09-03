@@ -484,15 +484,11 @@ export const SECTION_HEADINGS_IN_CORPUS = 5;
  * How many `heading`-shaped nodes (excluding the `bookDivision` headings,
  * which carry their own distinct shape) the whole in-scope corpus emits —
  * {@link SPEAKER_HEADINGS_IN_CORPUS} (from `\sp`) plus
- * {@link SECTION_HEADINGS_IN_CORPUS} (from `\s1`). `\sp` and `\s1` both
- * dispatch through the identical `buildSpeakerHeading` function, and
- * `content-schema.json` itself has no way to record which raw marker
- * produced a given `heading` node — this verifier's own
- * {@link classifyHeadingNode} correctly buckets both as `"speaker"` (see
- * its own doc comment), so this combined figure is the only one the
- * emitted JSON can actually be checked against; the two real markers' own
- * separate raw counts above are what distinguish them on the *source*
- * side.
+ * {@link SECTION_HEADINGS_IN_CORPUS} (from `\s1`). Both markers dispatch
+ * through the identical `buildSpeakerHeading`, and `content-schema.json`
+ * records nothing about which one produced a given node, so this combined
+ * figure is the only one the emitted JSON can be checked against; the two
+ * raw counts above are what distinguish the markers on the source side.
  */
 export const SPEAKER_OR_SECTION_HEADINGS_IN_CORPUS = 38;
 
@@ -508,113 +504,22 @@ export const TABLE_MARKERS_IN_CORPUS = 0;
 
 /**
  * How many emitted content-tree nodes anywhere in the corpus carry a real
- * `strong` attribute — 0, a deliberate content decision, not a defect this
- * verifier caught. The importer can still attach every Strong's number a
- * USFM source carries (`strongs: false` only turns that off for this
- * corpus); a quality assessment found 44-56% of this corpus's (and
- * MSB2025's/ASV1901's) eBible-sourced Strong's tagging semantically
- * implausible — one Strong's number routinely smeared across several
- * unrelated English words in a verse — against under 1% for STEPBible's
- * own independently-tagged WEB edition. Both WEBUS2020 and MSB2025 (see
- * {@link MSB2025_EMITTED_STRONG_ATTRIBUTES_IN_CORPUS}) were regenerated
- * with `strongs: false` for that reason; this constant and
- * {@link countStrongAttributeNodes} lock that in as the permanent
- * expectation, not a temporary suppression to reverse later.
+ * `strong` attribute — 0 by decision, not a defect this verifier caught. The
+ * importer still attaches every Strong's number a USFM source carries;
+ * `strongs: false` turns that off for this corpus alone, because a quality
+ * assessment found 44-56% of eBible-sourced Strong's tagging semantically
+ * implausible — one number smeared across several unrelated English words in
+ * a verse — against under 1% for STEPBible's own independently-tagged WEB
+ * edition. This constant and {@link countStrongAttributeNodes} make that the
+ * permanent expectation, not a suppression to reverse later.
  */
 export const STRONGS_ATTRIBUTES_IN_CORPUS = 0;
 
-/**
- * Every constant above this point is WEBUS2020-specific — each one's own
- * doc comment says so, and `main()`'s own mismatch checks below are
- * written against them unconditionally. MSB2025 is a second real, shipped
- * version with its own, entirely different real totals, so its own
- * whole-corpus facts get their own, separately-named constants here rather
- * than overloading the WEBUS2020 ones or adding a version-id branch to
- * `main()` — this file's own `MSB2025_`-prefixed group, checked by
- * `verify.test.ts` directly against the real corpus, extends the same
- * pattern of a version-specific number in its own doc-commented constant to
- * a second version. `main()` itself is left untouched: retrofitting it to
- * compare against either version's own constants depending on which
- * `versionId` it was given would be exactly the kind of
- * per-version-conditional construct-handling this codebase avoids, and —
- * with MSB2025 exercising nothing beyond `\w`/`\v`/`\m`/`\c` (no footnotes,
- * no cross-references, no headings, no poetry) against `main()`'s own
- * dozens of WEBUS2020-shaped checks for constructs this corpus never
- * carries — would buy far more interface than these constants need to
- * prove.
- */
+// Every constant above this point is WEBUS2020-specific — each one's own doc
+// comment says so, and `main()`'s mismatch checks below are written against
+// them unconditionally.
 
-/**
- * How many verses the whole in-scope MSB2025 corpus's raw source declares —
- * every `\v` marker across all real canonical files, independent of
- * `tokenize.ts`/`segmentVerses.ts`. The coincidence with ASV1901's own raw
- * `\v` count is real but incidental — the two corpora do not share a
- * versification scheme, they simply agree at this one summary digit.
- */
-export const MSB2025_RAW_VERSES_IN_CORPUS = 31102;
-
-/**
- * How many verse *records* the real importer emits for MSB2025 — fewer
- * than {@link MSB2025_RAW_VERSES_IN_CORPUS}. A real, traditionally-numbered,
- * textually-disputed verse this source still declares (e.g. Luke 17:36 — a
- * bare `\v N` with nothing at all following it, not even a footnote —
- * MSB2025 carries zero `\f`/`\x` anywhere) but supplies no content for
- * gets no verse record at all: `segmentVerses.ts`'s own `flush()` skips
- * pushing a record when a verse's real content is nothing at all, rather
- * than falling back to a schema-invalid empty block — a real, generic gap
- * this corpus's own full-corpus run surfaced for the first time (WEB's own
- * disputed verses always carry at least a footnote explaining the
- * omission, so this branch was dead code for that corpus until now).
- */
-export const MSB2025_EMITTED_VERSES_IN_CORPUS = 31098;
-
-/** How many chapters the whole in-scope MSB2025 corpus declares — every `\c` marker, summed across all 66 books' own `_version.json` entries. */
-export const MSB2025_CHAPTERS_IN_CORPUS = 1189;
-
-/**
- * How many raw `\m` markers the whole in-scope MSB2025 corpus declares —
- * exactly equal to {@link MSB2025_RAW_VERSES_IN_CORPUS}, not merely close
- * to it: every single `\v` in this corpus is immediately preceded by its
- * own bare `\m`, corpus-wide, with zero `\p`/`\nb`/`\q1`-`\q3`/`\b`
- * anywhere. This constant is about the *raw source* only — it does not
- * imply the emitted `paragraph: true` count matches it too, now that
- * `usfm/paragraphNoise.ts` suppresses the emitted flag down to each
- * chapter's own first verse (see
- * {@link MSB2025_EMITTED_PARAGRAPH_FLAGS_IN_CORPUS}).
- */
-export const MSB2025_RAW_PARAGRAPH_MARKERS_IN_CORPUS = 31102;
-
-/**
- * How many emitted `paragraph: true` flags the real MSB2025 corpus
- * carries — exactly equal to {@link MSB2025_CHAPTERS_IN_CORPUS}, one per
- * chapter, not an incidental near-match. This corpus's real shape — one
- * bare `\m` before every surviving verse, never rare — meant the plain
- * paragraph-marker rule (`PARAGRAPH_MARKER_NAMES` already includes `"m"`)
- * would otherwise put `paragraph: true` on literally every verse's sole
- * block: source noise from the eBible export's own line-formatting tool,
- * not real per-verse paragraph structure. `usfm/paragraphNoise.ts`'s own
- * `suppressUniformParagraphNoise`, wired into `utils/importUsfm.ts`'s real
- * write path, detects this exact 100%-uniform, zero-exception shape and
- * strips the flag down to each chapter's own first verse — which is what
- * this constant, unlike {@link MSB2025_RAW_PARAGRAPH_MARKERS_IN_CORPUS},
- * actually measures.
- */
-export const MSB2025_EMITTED_PARAGRAPH_FLAGS_IN_CORPUS = 1189;
-
-/** How many emitted `break: true` flags the real MSB2025 corpus carries — zero, confirmed against the real, full emitted output: this corpus has no `\q1`-`\q3`/`\b` anywhere to produce one. */
-export const MSB2025_EMITTED_BREAK_FLAGS_IN_CORPUS = 0;
-
-/**
- * How many emitted content-tree nodes anywhere in the real MSB2025 corpus
- * carry a real `strong` attribute — 0, the identical deliberate content
- * decision {@link STRONGS_ATTRIBUTES_IN_CORPUS}'s own doc comment explains
- * in full for WEBUS2020. MSB2025 previously carried one such node per raw
- * `\w` span (this source's own Strong's tagging never merges adjacent
- * words the way WEBUS2020's does) before being regenerated with `strongs:
- * false` for the identical reason.
- */
-export const MSB2025_EMITTED_STRONG_ATTRIBUTES_IN_CORPUS = 0;
-
+/** One book's own raw marker tallies, as {@link countMarkersIn} reads them straight out of the USFM text. */
 export interface BookCounts {
   /** How many `\v` markers the raw source carries. */
   readonly verses: number;
@@ -641,18 +546,17 @@ export function countMarkersIn(source: string): BookCounts {
  * `\tr`, `\tc1`-`\tc9`/`\tcr1`-`\tcr9`, `\th1`-`\th9`/`\thr1`-`\thr9` — with
  * a regex of its own, never `tokenize.ts`. The trailing `\b` anchor is load-
  * bearing for the same reason {@link countBlockMarkersIn}'s own anchor is:
- * without it, the bare `tr`/`tc`/`th` branch would also match inside an
- * unrelated marker name that merely starts with those letters. Spelling out
- * the numbered cell/header alternatives directly (rather than a bare
- * `\d+`-suffixed `tc`/`th`) keeps this from ever matching `\toc1`-`\toc3`
- * (front-matter table-of-contents entries, a real and frequent marker in
- * this corpus) — `toc1` starts with `t`, `o`, `c`, `1`; the letter right
- * after `\t` is `o`, which none of this pattern's alternatives permit.
+ * without it, the bare `tr`/`tc`/`th` branch would also match inside a longer
+ * marker name that merely starts with those letters. Spelling the numbered
+ * cell/header alternatives out, rather than suffixing `tc`/`th` with `\d+`,
+ * is what keeps this off `\toc1`-`\toc3` — front-matter table-of-contents
+ * entries, frequent in this corpus.
  */
 export function countTableMarkersIn(source: string): number {
   return (source.match(/\\t(?:r|cr?[1-9]|hr?[1-9])\b/g) ?? []).length;
 }
 
+/** One book's own raw block-marker tallies, split the way the emitted `paragraph`/`break` flags are — see {@link countBlockMarkersIn}. */
 export interface BlockMarkerCounts {
   /** Raw `\p`/`\m`/`\nb`/`\li1`/`\pi1`/`\mi` occurrences. */
   readonly paragraphMarkers: number;
@@ -1060,10 +964,9 @@ export function countScriptNodes(content: unknown, script: "H" | "G"): number {
  * Recursively counts leaf nodes carrying a real `strong` attribute across
  * one verse's own emitted `content` tree — the identical descent shape as
  * {@link countScriptNodes}, checking `strong` instead of `script`. Backs
- * {@link STRONGS_ATTRIBUTES_IN_CORPUS}/{@link MSB2025_EMITTED_STRONG_ATTRIBUTES_IN_CORPUS},
- * both fixed at 0 — the Strong's-tagging follow-up's own locking check that
- * neither shipped corpus's real, regenerated (`strongs: false`) output ever
- * quietly regains a `strong` value.
+ * {@link STRONGS_ATTRIBUTES_IN_CORPUS}, fixed at 0 — the locking check that
+ * this corpus's real, regenerated (`strongs: false`) output never quietly
+ * regains a `strong` value.
  */
 export function countStrongAttributeNodes(content: unknown): number {
   if (Array.isArray(content)) return content.reduce((total, item) => total + countStrongAttributeNodes(item), 0);

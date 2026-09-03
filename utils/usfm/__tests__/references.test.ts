@@ -9,7 +9,7 @@ import { Token, tokenize } from "../tokenize";
  * against the grammar that actually exists, not a hand-invented one.
  */
 
-/** The 66-book in-scope canon, resolved once here and used as {@link xrefFrom}'s own default `canonBookIds`. */
+/** The 66-book in-scope canon, resolved once here and used as {@link xrefFrom}'s default `canonBookIds`. */
 const IN_SCOPE_CANON = new Set([
   "GEN", "EXO", "LEV", "NUM", "DEU", "JSH", "JDG", "RTH", "1SM", "2SM", "1KG", "2KG",
   "1CH", "2CH", "EZR", "NEH", "EST", "JOB", "PSA", "PRV", "ECC", "SOS", "ISA", "JER",
@@ -197,10 +197,9 @@ describe("buildReferenceOnlyContent — a \\f body that is nothing but a referen
  * text, cited by book/verse.
  *
  * `linkEmbeddedReferences` requires no "See "/"Compare " lead-in word: a
- * fully self-naming reference is unambiguous because it names its own
- * book, not because of what word happens to sit next to it. Several
- * fixtures below deliberately have no cue word anywhere nearby, proving the
- * reference still links on the strength of its own name alone.
+ * self-naming reference is unambiguous because it names its own book, not
+ * because of what word sits next to it. Several fixtures below deliberately
+ * have no cue word nearby.
  */
 describe("linkEmbeddedReferences — a fully-qualified reference embedded in ordinary prose becomes a real bibleLink, no cue word required", () => {
   it('should link a single reference sitting inside otherwise-plain prose, leaving everything else untouched (1 Maccabees 1:14\'s real note, "So they built a gymnasium..." — fixture trimmed to its own footnote body, "See 2 Maccabees 4:9, 12.")', () => {
@@ -373,14 +372,12 @@ describe("linkEmbeddedReferences — a fully-qualified reference embedded in ord
 });
 
 /**
- * Six real 66-canon verses where the reference sits behind an ordinary
- * word — "in," "regard," "here and in," "includes," "after," "places" —
- * none of them a "See "/"Compare " lead-in. Proof that
- * `linkEmbeddedReferences` links on the reference's own name alone, with no
- * dependence on a specific cue word. Every fixture is real, verbatim
- * WEBUS2020 corpus text; every expected shape matches upstream `HEAD`'s own
- * exact, real content (dash characters modulo the later, separate,
- * post-write en-dash convention this module never applies).
+ * Six real 66-canon verses where the reference sits behind an ordinary word —
+ * "in", "regard", "here and in", "includes", "after", "places" — none of them a
+ * "See "/"Compare " lead-in, so a link here depends on no specific cue word.
+ * Every fixture is verbatim WEBUS2020 text, and every expected shape matches
+ * upstream `HEAD`'s real content, dash characters aside: the en-dash convention
+ * is a separate post-write pass this module never applies.
  */
 describe("linkEmbeddedReferences — six real 66-canon references linked with no cue word anywhere nearby", () => {
   it('should link Psalm 8:5\'s real "See also the quote from the Septuagint in Hebrews 2:7." — the cue "See" sits nowhere near "Hebrews"; only the book name itself matters now', () => {
@@ -446,12 +443,11 @@ describe("linkEmbeddedReferences — six real 66-canon references linked with no
 
 /**
  * A source that abbreviates a book name with a trailing period ("Isa. 9:6"
- * rather than "Isaiah 9:6" or the registry's own period-free alias "Isa
- * 9:6") still names a real, registry-resolvable reference — the period is
- * punctuation on the abbreviation, not part of the book name, and
- * {@link matchBookPrefix}'s own period tolerance consumes it rather than
- * leaving it attached to `rest`, where it would break the digit-immediately-
- * after-the-space check every other fixture in this file relies on.
+ * rather than the registry's period-free alias "Isa 9:6") still names a real,
+ * resolvable reference. The period is punctuation on the abbreviation, not part
+ * of the book name, and {@link matchBookPrefix} consumes it rather than leaving
+ * it on `rest`, where it would break the digit-immediately-after-the-space
+ * check every other fixture here relies on.
  */
 describe("linkEmbeddedReferences — a period-abbreviated book name links the same as its period-free alias", () => {
   it("should link a period-abbreviated short alias immediately followed by chapter and verse", () => {
@@ -477,12 +473,11 @@ describe("linkEmbeddedReferences — a period-abbreviated book name links the sa
 });
 
 /**
- * A source that spells a numbered book's own ordinal as a Roman numeral
- * ("I Kings", "II Chronicles") rather than the registry's own Arabic-digit
- * form ("1 Kings", "1Kg") still names the same book —
- * {@link romanNumeralVariant} derives the Roman spelling of every numbered
- * book's own name and aliases once, at registry build time, rather than the
- * registry needing to carry both spellings of every one by hand.
+ * A source that spells a numbered book's ordinal as a Roman numeral ("I Kings",
+ * "II Chronicles") rather than the registry's Arabic-digit form ("1 Kings",
+ * "1Kg") still names the same book: {@link romanNumeralVariant} derives the
+ * Roman spelling of every numbered book's names and aliases once, at registry
+ * build time, so the registry need not carry both by hand.
  */
 describe("linkEmbeddedReferences — a Roman-numeral ordinal prefix links the same as its Arabic-digit counterpart", () => {
   it("should link a Roman-numeral-prefixed full name", () => {
@@ -520,15 +515,12 @@ describe("linkEmbeddedReferences — a Roman-numeral ordinal prefix links the sa
 });
 
 /**
- * A multi-digit verse number immediately followed by an unrecognized
- * trailing word — a translation-edition abbreviation like "KJV"/"NIV", or
- * any other capitalized word — must never make the engine backtrack
- * *inside* that digit run the way an unguarded `\d+` once did (see {@link
- * DIGITS}'s own doc comment), and must never decline a real reference
- * outright just because a merely-capitalized word happens to follow it (see
- * {@link wouldStealBookOrdinal}'s own doc comment): "KJV" is capitalized the
- * same way a real book name is, but it isn't one, so it no longer blocks
- * anything.
+ * A multi-digit verse number immediately followed by an unrecognized trailing
+ * word — a translation-edition abbreviation like "KJV", or any other
+ * capitalized word — must neither make the engine backtrack *inside* that digit
+ * run the way an unguarded `\d+` once did ({@link DIGITS}), nor decline a real
+ * reference just because a capitalized word follows it
+ * ({@link wouldStealBookOrdinal}).
  */
 describe("linkEmbeddedReferences — a multi-digit verse number is never truncated, and a trailing non-reference word never blocks linking", () => {
   it('should link a comma-listed multi-digit verse\'s own continuation in full, even with a trailing translation-edition abbreviation right after it ("(Num. 12:11, 12 KJV)"\'s own real shape)', () => {
@@ -559,10 +551,10 @@ describe("linkEmbeddedReferences — a multi-digit verse number is never truncat
 });
 
 /**
- * A written-out list's own Oxford comma ("2, 3, 7, 8, 15, and 17") is a real
- * English-prose convention this corpus's own footnotes use, not a synthetic
- * edge case — Genesis 14:2's real note names six verses this way, and only
- * the comma-joined grammar without "and" tolerance was ever tested before.
+ * A written-out list's Oxford comma ("2, 3, 7, 8, 15, and 17") is a real
+ * prose convention this corpus's footnotes use: Genesis 14:2's note names six
+ * verses this way, and only the comma-joined grammar without "and" tolerance
+ * was tested before.
  */
 describe("linkEmbeddedReferences — a written-out list's own trailing \"and N\" still continues the same reference's verse list", () => {
   it('should link every verse in a written-out list through its own trailing "and N" item (Genesis 14:2\'s real note, "Chapter 14 alone contains six such explanatory notes (Gen. 14:2, 3, 7, 8, 15, and 17)")', () => {
@@ -578,11 +570,10 @@ describe("linkEmbeddedReferences — a written-out list's own trailing \"and N\"
 });
 
 /**
- * A bare "C:V" reference naming a different chapter of the same book, joined
- * by a semicolon to the reference right before it, inherits that reference's
- * own book the same way an already-isolated `\xt` target's own bare
- * continuation already does — Genesis 23:19's real note is this shape
- * exactly, not a synthetic edge case.
+ * A bare "C:V" reference naming a different chapter of the same book, joined by
+ * a semicolon to the reference before it, inherits that reference's book the way
+ * an already-isolated `\xt` target's bare continuation does. Genesis 23:19's
+ * real note is this shape exactly.
  */
 describe('linkEmbeddedReferences — a semicolon-joined bare "C:V" continuation inherits the book of the reference right before it', () => {
   it('should link "50:13" to Genesis after "Gen. 49:31" (Genesis 23:19\'s real note, "Here were buried Abraham and Sarah, Isaac and Rebekah, and Jacob and Leah (Gen. 49:31; 50:13)")', () => {
@@ -626,9 +617,8 @@ describe('linkEmbeddedReferences — a semicolon-joined bare "C:V" continuation 
 
 /**
  * A bare "C:V" continuation can also be joined by a bare "and" instead of a
- * semicolon, with no comma anywhere near it — a second real connector this
- * corpus's own footnote prose uses for the identical "different chapter,
- * same book" shape, not a synthetic edge case.
+ * semicolon, with no comma near it — a second real connector this corpus's
+ * footnote prose uses for the identical "different chapter, same book" shape.
  */
 describe('linkEmbeddedReferences — a bare "and" also chains a "C:V" continuation onto the reference right before it, inheriting its book', () => {
   it('should link "14:17" to 2 Kings after "II Kings 13:10" (2 Kings 12:1\'s real note, "...as the Hebrew does in II Kings 13:10 and 14:17)...")', () => {
@@ -666,13 +656,11 @@ describe('linkEmbeddedReferences — a bare "and" also chains a "C:V" continuati
 });
 
 /**
- * A book name immediately followed by a parenthetical citation, with an
- * open paren sitting between the book name's own space and its chapter,
- * is a real corpus convention (Ezekiel 26:14's real "Jeremiah (27:2-7;
- * 47:4) and Ezekiel (26:3-21; 28:6-10)"), not a synthetic edge case — the
- * open paren is consumed the same way an abbreviation's own trailing
- * period is, leaving only the closing paren for ordinary trailing prose to
- * carry, unchanged from how every other trailing punctuation already works.
+ * A book name immediately followed by a parenthetical citation, with an open
+ * paren between the book name's space and its chapter, is a real corpus
+ * convention (Ezekiel 26:14's "Jeremiah (27:2-7; 47:4) and Ezekiel (26:3-21;
+ * 28:6-10)"). The open paren is consumed the way an abbreviation's trailing
+ * period is, leaving the closing paren for ordinary trailing prose to carry.
  */
 describe("linkEmbeddedReferences — a book name followed by an open-paren-led citation still links, chaining through it the same as any other", () => {
   it('should link "Daniel (5:1-30)" as "Daniel 5:1-30", leaving only the closing paren as trailing text', () => {
@@ -703,12 +691,11 @@ describe("linkEmbeddedReferences — a book name followed by an open-paren-led c
 });
 
 /**
- * A bare, parenthesized "(C:V...)" citation with no book name of its own,
- * sitting elsewhere in the same footnote body with real prose in between —
- * not immediately chained onto anything — still inherits the last book that
- * actually resolved anywhere earlier in the body, tracked by AmbientBook.
- * Real 2 Samuel 12:11's own note is this shape exactly: it names "2 Samuel
- * 13:14" once, in its own already-tagged bibleLink, and then cites four more
+ * A bare, parenthesized "(C:V...)" citation with no book name, sitting
+ * elsewhere in the same footnote body with real prose in between and chained
+ * onto nothing, still inherits the last book that resolved earlier in the body,
+ * tracked by AmbientBook. 2 Samuel 12:11's note is this shape exactly: it names
+ * "2 Samuel 13:14" once, in an already-tagged bibleLink, then cites four more
  * passages this way, each several sentences after the last thing named.
  */
 describe('linkEmbeddedReferences — a bare parenthetical "(C:V...)" citation elsewhere in the same footnote body inherits the last book actually resolved', () => {
@@ -770,5 +757,45 @@ describe('linkEmbeddedReferences — a bare parenthetical "(C:V...)" citation el
       { bibleLink: "Judges 12:1", content: "(12:1" },
       ") as well.",
     ]);
+  });
+});
+
+/**
+ * A comma list continues a *verse* list, so after a chapter-only head there is
+ * none for it to continue and the comma belongs to the surrounding prose.
+ * MSB2025's Maskil note is the shape — a printed list of thirteen psalms the
+ * target grammar read as Psalm 32 verses 42 and 44 through 45, where Psalm 32
+ * has eleven verses. `findSafeReferenceLength`'s doc comment has the corpus-wide
+ * measurement and the other two versions carrying the same defect on disk.
+ */
+describe("linkEmbeddedReferences — a comma list after a chapter-only head is prose, not a verse list", () => {
+  it("should link only the first psalm of a printed chapter list (MSB2025's Maskil note, Psalm 32:1)", () => {
+    const content = linkEmbeddedReferences(
+      "Maskil is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142.",
+    );
+    expect(content).toEqual([
+      "Maskil is probably a musical or liturgical term; used for ",
+      { bibleLink: "Psalm 32", content: "Psalms 32" },
+      ", 42, 44–45, 52–55, 74, 78, 88–89, and 142.",
+    ]);
+  });
+
+  it("should link only the first chapter of a continental bibliographic citation (NET2019's Genesis 3:16 note, \"Gen 3, 16\")", () => {
+    const content = linkEmbeddedReferences("See the discussion in Gen 3, 16 below.");
+    expect(content).toEqual(["See the discussion in ", { bibleLink: "Genesis 3", content: "Gen 3" }, ", 16 below."]);
+  });
+
+  it("should still extend a verse-bearing head through its own comma list (Genesis 14:2's real note)", () => {
+    const content = linkEmbeddedReferences("six such explanatory notes (Gen. 14:2, 3, 7, 8, 15, and 17).");
+    expect(content).toEqual([
+      "six such explanatory notes (",
+      { bibleLink: "Genesis 14:2, 3, 7, 8, 15, 17", content: "Gen. 14:2, 3, 7, 8, 15, and 17" },
+      ").",
+    ]);
+  });
+
+  it("should still extend a chapter-only head through a dash range, which names one span rather than a list", () => {
+    const content = linkEmbeddedReferences("By faith Noah (Genesis 4–9) built an ark.");
+    expect(content).toEqual(["By faith Noah (", { bibleLink: "Genesis 4–9" }, ") built an ark."]);
   });
 });

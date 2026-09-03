@@ -1,0 +1,411 @@
+[
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 1,
+    "content": [
+      {
+        "heading": {
+          "text": "A Greeting from Jude",
+          "foot": { "type": "xrf", "content": { "bibleLink": "James 1:1" } }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Jude, a servant of Jesus Christ and a brother of James,"
+      },
+      {
+        "paragraph": true,
+        "text": "To those who are called, sanctified",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "loved", "marks": ["i"] }
+          ]
+        }
+      },
+      " by God the Father, and kept in Jesus Christ:"
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 2,
+    "content": {
+      "paragraph": true,
+      "text": "Mercy, peace, and love be multiplied to you."
+    }
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 3,
+    "content": [
+      {
+        "heading": {
+          "text": "God’s Judgment on the Ungodly",
+          "foot": { "type": "xrf", "content": { "bibleLink": "2 Peter 3:1–7" } }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Beloved, although I made every effort to write to you about the salvation we share, I felt it necessary to write and urge you to contend earnestly for the faith entrusted once for all to the saints."
+      }
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 4,
+    "content": [
+      {
+        "text": "For certain men have crept in among you unnoticed—ungodly ones who were designated long ago for condemnation. They turn the grace of our God into a license for immorality, and they deny God",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " and ",
+            { "abbr": "GOC" },
+            " do not include ",
+            { "text": "God", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " our only Master and the Lord Jesus Christ."
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 5,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Although you are fully aware of this, I want to remind you that after the Lord",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "SBL" },
+            " and NA28 ",
+            { "text": "after Jesus", "marks": ["i"] }
+          ]
+        }
+      },
+      " had delivered His people out of the land of Egypt, He destroyed those who did not believe."
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 6,
+    "content": "And the angels who did not stay within their own domain but abandoned their proper dwelling—these He has kept in eternal chains under darkness, bound for judgment on that great day."
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 7,
+    "content": "In like manner, Sodom and Gomorrah and the cities around them, who indulged in sexual immorality and pursued strange flesh, are on display as an example of those who sustain the punishment of eternal fire."
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 8,
+    "content": {
+      "paragraph": true,
+      "text": "Yet in the same way these dreamers defile their bodies, reject authority, and slander glorious beings."
+    }
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 9,
+    "content": {
+      "text": "But even the archangel Michael, when he disputed with the devil over the body of Moses, did not presume to bring a slanderous charge against him, but said, “The Lord rebuke you!”",
+      "foot": {
+        "type": "stu",
+        "content": "This account is attributed by Origen to the Testament of Moses, also called the Assumption of Moses."
+      }
+    }
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 10,
+    "content": "These men, however, slander what they do not understand, and like irrational animals, they will be destroyed by the things they do instinctively."
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 11,
+    "content": "Woe to them! They have traveled the path of Cain; they have rushed for profit into the error of Balaam; they have perished in Korah’s rebellion."
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 12,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "These men are hidden reefs",
+        "foot": {
+          "type": "trn",
+          "content": ["Or ", { "text": "are blemishes", "marks": ["i"] }]
+        }
+      },
+      " in your love feasts, shamelessly feasting with you but shepherding only themselves. They are clouds without water, carried along by the wind; fruitless trees in autumn, twice dead after being uprooted."
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 13,
+    "content": "They are wild waves of the sea, foaming up their own shame; wandering stars, for whom blackest darkness has been reserved forever."
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 14,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Enoch, the seventh from Adam, also prophesied about them:"
+      },
+      {
+        "paragraph": true,
+        "text": "“Behold, the Lord is coming",
+        "break": true
+      },
+      { "text": "with myriads of His holy ones", "break": true }
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 15,
+    "content": [
+      { "text": "to execute judgment on everyone,", "break": true },
+      {
+        "text": "and to convict all the ungodly among them",
+        "break": true,
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " does not include ",
+            { "text": "among them", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "of every ungodly act of wickedness", "break": true },
+      {
+        "text": "and every harsh word spoken against Him by ungodly sinners.”",
+        "foot": {
+          "type": "stu",
+          "content": "See the First Book of Enoch (1 Enoch 1:9)."
+        }
+      }
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 16,
+    "content": {
+      "paragraph": true,
+      "text": "These men are discontented grumblers, following after their own lusts; their mouths spew arrogance; they flatter others for their own advantage."
+    }
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 17,
+    "content": [
+      {
+        "heading": {
+          "text": "A Call to Persevere",
+          "foot": {
+            "type": "xrf",
+            "content": [
+              { "bibleLink": "Hebrews 10:19–39" },
+              "; ",
+              { "bibleLink": "2 Peter 3:1–7" }
+            ]
+          }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "But you, beloved, remember what was foretold by the apostles of our Lord Jesus Christ"
+      }
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 18,
+    "content": {
+      "text": "when they said to you, “In the last times there will be scoffers who will follow after their own ungodly desires.”",
+      "foot": {
+        "type": "xrf",
+        "content": ["See ", { "bibleLink": "2 Peter 3:3" }, "."]
+      }
+    }
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 19,
+    "content": [
+      {
+        "text": "These are the ones who cause divisions,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "TR-SCRIVENER" },
+            " ",
+            { "text": "who separate themselves", "marks": ["i"] }
+          ]
+        }
+      },
+      " who are worldly and devoid of the Spirit."
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 20,
+    "content": {
+      "paragraph": true,
+      "text": "But you, beloved, by building yourselves up in your most holy faith and praying in the Holy Spirit,"
+    }
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 21,
+    "content": "keep yourselves in the love of God as you await the mercy of our Lord Jesus Christ to bring you eternal life."
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 22,
+    "content": {
+      "paragraph": true,
+      "text": "And indeed, have mercy on some, making a distinction;",
+      "foot": {
+        "type": "var",
+        "content": [
+          { "abbr": "CT" },
+          " ",
+          { "text": "have mercy on those who doubt", "marks": ["i"] }
+        ]
+      }
+    }
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 23,
+    "content": [
+      {
+        "text": "save others with fear",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " does not include ",
+            { "text": "with fear", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": " by snatching them from the fire,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " includes ",
+            {
+              "text": "and to still others show mercy tempered with fear",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      " hating even the clothing stained by the flesh."
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 24,
+    "content": [
+      {
+        "heading": {
+          "text": "Doxology",
+          "foot": {
+            "type": "xrf",
+            "content": { "bibleLink": "Romans 16:25–27" }
+          }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Now to Him who is able to keep them from stumbling and to present them",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " and ",
+            { "abbr": "TR-SCRIVENER" },
+            " ",
+            { "text": "you from stumbling and present (you)", "marks": ["i"] }
+          ]
+        }
+      },
+      " unblemished in His glorious presence, with great joy—"
+    ]
+  },
+  {
+    "book": "JUD",
+    "chapter": 1,
+    "verse": 25,
+    "content": [
+      {
+        "text": "to the only wise",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " does not include ",
+            { "text": "wise", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": " God our Savior be glory, majesty, dominion and authority",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " includes ",
+            {
+              "text": "through Jesus Christ our Lord before all time",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      " both now and for all eternity.",
+      { "paragraph": true, "text": "Amen." }
+    ]
+  }
+]

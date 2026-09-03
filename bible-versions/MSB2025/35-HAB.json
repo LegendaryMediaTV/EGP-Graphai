@@ -1,0 +1,874 @@
+[
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 1,
+    "content": [
+      { "heading": "Habakkuk’s First Complaint" },
+      {
+        "paragraph": true,
+        "text": "This is the burden that Habakkuk the prophet received in a vision:"
+      }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 2,
+    "content": [
+      { "paragraph": true, "text": "How long, O " },
+      { "text": "Lord", "marks": ["sc"] },
+      { "text": ", must I call for help", "break": true },
+      { "text": "but You do not hear,", "break": true },
+      { "text": "or cry out to You, “Violence!”", "break": true },
+      { "text": "but You do not save?", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 3,
+    "content": [
+      { "text": "Why do You make me see iniquity?", "break": true },
+      { "text": "Why do You tolerate wrongdoing?", "break": true },
+      { "text": "Destruction and violence are before me.", "break": true },
+      { "text": "Strife is ongoing, and conflict abounds.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 4,
+    "content": [
+      { "text": "Therefore the law is paralyzed,", "break": true },
+      { "text": "and justice never goes forth.", "break": true },
+      { "text": "For the wicked hem in the righteous,", "break": true },
+      "so that justice is perverted."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 5,
+    "content": [
+      { "heading": ["The ", { "text": "Lord", "marks": ["sc"] }, "’s Answer"] },
+      {
+        "paragraph": true,
+        "text": "“Look at the nations and observe—",
+        "break": true
+      },
+      {
+        "text": "be utterly astounded!",
+        "break": true,
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "LXX" },
+            " ",
+            { "text": "Look, you scoffers, wonder and perish!", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "For I am doing a work in your days", "break": true },
+      { "text": "that you would never believe", "break": true },
+      {
+        "text": "even if someone told you.",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": ["Cited in ", { "bibleLink": "Acts 13:41" }]
+        }
+      }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 6,
+    "content": [
+      {
+        "text": "For behold, I am raising up the Chaldeans",
+        "foot": { "type": "stu", "content": "That is, the Babylonians" }
+      },
+      { "text": "—", "break": true },
+      { "text": "that ruthless and impetuous nation", "break": true },
+      {
+        "text": "which marches through the breadth of the earth",
+        "break": true
+      },
+      { "text": "to seize dwellings not their own.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 7,
+    "content": [
+      { "text": "They are dreaded and feared;", "break": true },
+      {
+        "text": "from themselves they derive justice and sovereignty.",
+        "break": true
+      }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 8,
+    "content": [
+      { "text": "Their horses are swifter than leopards,", "break": true },
+      { "text": "fiercer than wolves of the night.", "break": true },
+      { "text": "Their horsemen charge ahead,", "break": true },
+      { "text": "and their cavalry comes from afar.", "break": true },
+      { "text": "They fly like a vulture,", "break": true },
+      { "text": "swooping down to devour.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 9,
+    "content": [
+      { "text": "All of them come bent on violence;", "break": true },
+      { "text": "their hordes advance like the east wind;", "break": true },
+      { "text": "they gather prisoners like sand.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 10,
+    "content": [
+      { "text": "They scoff at kings", "break": true },
+      { "text": "and make rulers an object of scorn.", "break": true },
+      { "text": "They laugh at every fortress", "break": true },
+      { "text": "and build up siege ramps to seize it.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 11,
+    "content": [
+      { "text": "Then they sweep by like the wind", "break": true },
+      { "text": "and pass through.", "break": true },
+      { "text": "They are guilty;", "break": true },
+      "their own strength is their god.”"
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 12,
+    "content": [
+      {
+        "heading": {
+          "text": "Habakkuk’s Second Complaint",
+          "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 11:1–7" } }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Are You not from everlasting,",
+        "break": true
+      },
+      "O ",
+      { "text": "Lord", "marks": ["sc"] },
+      { "text": ", my God, my Holy One?", "break": true },
+      { "text": "We will not die.", "break": true },
+      "O ",
+      { "text": "Lord", "marks": ["sc"] },
+      { "text": ", You have appointed them", "break": true },
+      { "text": "to execute judgment;", "break": true },
+      { "text": "O Rock, You have established them", "break": true },
+      { "text": "for correction.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 13,
+    "content": [
+      { "text": "Your eyes are too pure to look upon evil,", "break": true },
+      { "text": "and You cannot tolerate wrongdoing.", "break": true },
+      { "text": "So why do You tolerate the faithless?", "break": true },
+      { "text": "Why are You silent", "break": true },
+      { "text": "while the wicked swallow up", "break": true },
+      { "text": "those more righteous than themselves?", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 14,
+    "content": [
+      { "text": "You have made men like the fish of the sea,", "break": true },
+      { "text": "like creeping things that have no ruler.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 15,
+    "content": [
+      {
+        "text": "The foe pulls all of them up",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Literally ",
+            { "text": "He pulls all of them up", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " with a hook;", "break": true },
+      { "text": "he catches them in his dragnet,", "break": true },
+      { "text": "and gathers them in his fishing net;", "break": true },
+      { "text": "so he rejoices gladly.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 16,
+    "content": [
+      { "text": "Therefore he sacrifices to his dragnet", "break": true },
+      { "text": "and burns incense to his fishing net,", "break": true },
+      { "text": "for by these things his portion is sumptuous", "break": true },
+      { "text": "and his food is rich.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 1,
+    "verse": 17,
+    "content": [
+      { "text": "Will he, therefore, empty his net", "break": true },
+      "and continue to slay nations without mercy?"
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 1,
+    "content": [
+      {
+        "heading": [
+          "The ",
+          { "text": "Lord", "marks": ["sc"] },
+          " Answers Again"
+        ]
+      },
+      {
+        "paragraph": true,
+        "text": "I will stand at my guard post",
+        "break": true
+      },
+      { "text": "and station myself on the ramparts.", "break": true },
+      { "text": "I will watch to see what He will say to me,", "break": true },
+      "and how I should answer when corrected."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 2,
+    "content": [
+      { "paragraph": true, "text": "Then the " },
+      { "text": "Lord", "marks": ["sc"] },
+      " answered me:",
+      { "paragraph": true, "text": "“Write down this vision", "break": true },
+      { "text": "and clearly inscribe it on tablets,", "break": true },
+      { "text": "so that a herald may run with it.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 3,
+    "content": [
+      { "text": "For the vision awaits an appointed time;", "break": true },
+      { "text": "it testifies of the end and does not lie.", "break": true },
+      { "text": "Though it lingers, wait for it,", "break": true },
+      {
+        "text": "since it will surely come and will not delay.",
+        "break": true,
+        "foot": {
+          "type": "var",
+          "content": [
+            "Or ",
+            {
+              "text": "Though He lingers, wait for Him, since He will surely come and will not delay",
+              "marks": ["i"]
+            },
+            "; see also ",
+            { "abbr": "LXX" },
+            "; cited in ",
+            { "bibleLink": "Hebrews 10:37" },
+            "."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 4,
+    "content": [
+      {
+        "text": "Look at the proud one; his soul is not upright",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "LXX" },
+            " ",
+            {
+              "text": "If he should draw back, My soul has no pleasure in him",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      { "text": "—", "break": true },
+      {
+        "text": "but the righteous will live by faith",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or ",
+            { "text": "faithfulness", "marks": ["i"] },
+            "; cited in ",
+            { "bibleLink": "Romans 1:17" },
+            ", ",
+            { "bibleLink": "Galatians 3:11" },
+            ", and ",
+            { "bibleLink": "Hebrews 10:38" }
+          ]
+        }
+      },
+      { "text": "—", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 5,
+    "content": [
+      {
+        "text": "and wealth",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "DSS" },
+            "; ",
+            { "abbr": "MT" },
+            " ",
+            { "text": "wine", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " indeed betrays him.", "break": true },
+      { "text": "He is an arrogant man never at rest.", "break": true },
+      { "text": "He enlarges his appetite like Sheol,", "break": true },
+      { "text": "and like Death, he is never satisfied.", "break": true },
+      { "text": "He gathers all the nations to himself", "break": true },
+      "and collects all the peoples as his own."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 6,
+    "content": [
+      { "heading": "Woe to the Chaldeans" },
+      {
+        "paragraph": true,
+        "text": "Will not all of these take up a taunt against him,",
+        "break": true
+      },
+      "speaking with mockery and derision:",
+      {
+        "paragraph": true,
+        "text": "‘Woe to him who amasses what is not his",
+        "break": true
+      },
+      { "text": "and makes himself rich with many loans!", "break": true },
+      { "text": "How long will this go on?’", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 7,
+    "content": [
+      { "text": "Will not your creditors suddenly arise", "break": true },
+      { "text": "and those who disturb you awaken?", "break": true },
+      { "text": "Then you will become their prey.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 8,
+    "content": [
+      { "text": "Because you have plundered many nations,", "break": true },
+      { "text": "the remnant of the people will plunder you—", "break": true },
+      { "text": "because of your bloodshed against man", "break": true },
+      {
+        "text": "and your violence against the land, the city,",
+        "break": true
+      },
+      "and all their dwellers."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 9,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Woe to him who builds his house",
+        "break": true
+      },
+      { "text": "by unjust gain,", "break": true },
+      { "text": "to place his nest on high", "break": true },
+      { "text": "and escape the hand of disaster!", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 10,
+    "content": [
+      { "text": "You have plotted shame for your house", "break": true },
+      { "text": "by cutting off many peoples", "break": true },
+      {
+        "text": "and forfeiting your life.",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Literally ",
+            { "text": "sinning against your soul", "marks": ["i"] }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 11,
+    "content": [
+      { "text": "For the stones will cry out from the wall,", "break": true },
+      "and the rafters will echo it from the woodwork."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 12,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Woe to him who builds a city with bloodshed",
+        "break": true
+      },
+      { "text": "and establishes a town by iniquity!", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 13,
+    "content": [
+      "Is it not indeed from the ",
+      { "text": "Lord", "marks": ["sc"] },
+      { "text": " of Hosts", "break": true },
+      {
+        "text": "that the labor of the people only feeds the fire,",
+        "break": true
+      },
+      { "text": "and the nations weary themselves in vain?", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 14,
+    "content": [
+      { "text": "For the earth will be filled", "break": true },
+      "with the knowledge of the glory of the ",
+      { "text": "Lord", "marks": ["sc"], "break": true },
+      "as the waters cover the sea."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 15,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Woe to him who gives drink to his neighbors,",
+        "break": true
+      },
+      {
+        "text": "pouring it from the wineskin until they are drunk,",
+        "break": true
+      },
+      { "text": "in order to gaze at their nakedness!", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 16,
+    "content": [
+      {
+        "text": "You will be filled with shame instead of glory.",
+        "break": true
+      },
+      { "text": "You too must drink", "break": true },
+      {
+        "text": "and expose your uncircumcision!",
+        "break": true,
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "DSS" },
+            ", ",
+            { "abbr": "LXX" },
+            ", and Syriac ",
+            { "text": "and stagger", "marks": ["i"] }
+          ]
+        }
+      },
+      "The cup in the ",
+      { "text": "Lord", "marks": ["sc"] },
+      { "text": "’s right hand", "break": true },
+      { "text": "will come around to you,", "break": true },
+      { "text": "and utter disgrace will cover your glory.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 17,
+    "content": [
+      {
+        "text": "For your violence against Lebanon will overwhelm you,",
+        "break": true
+      },
+      {
+        "text": "and the destruction of animals will terrify you,",
+        "break": true
+      },
+      { "text": "because of your bloodshed against men", "break": true },
+      {
+        "text": "and your violence against the land, the city,",
+        "break": true
+      },
+      "and all their dwellers."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 18,
+    "content": [
+      { "paragraph": true, "text": "What use is an idol,", "break": true },
+      { "text": "that a craftsman should carve it—", "break": true },
+      { "text": "or an image,", "break": true },
+      { "text": "a teacher of lies?", "break": true },
+      { "text": "For its maker trusts in his own creation;", "break": true },
+      { "text": "he makes idols that cannot speak.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 19,
+    "content": [
+      { "text": "Woe to him who says to wood, ‘Awake!’", "break": true },
+      { "text": "or to silent stone, ‘Arise!’", "break": true },
+      { "text": "Can it give guidance?", "break": true },
+      { "text": "Behold, it is overlaid with gold and silver,", "break": true },
+      "yet there is no breath in it at all.”"
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 2,
+    "verse": 20,
+    "content": [
+      { "paragraph": true, "text": "But the " },
+      { "text": "Lord", "marks": ["sc"] },
+      { "text": " is in His holy temple;", "break": true },
+      "let all the earth be silent before Him."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 1,
+    "content": [
+      { "heading": "Habakkuk’s Prayer" },
+      {
+        "paragraph": true,
+        "text": "This is a prayer of Habakkuk the prophet, according to Shigionoth:",
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "text": "Shigionoth", "marks": ["i"] },
+            " is probably a musical term indicating the setting for the prayer."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 2,
+    "content": [
+      { "paragraph": true, "text": "O " },
+      { "text": "Lord", "marks": ["sc"] },
+      { "text": ", I have heard the report of You;", "break": true },
+      "I stand in awe, O ",
+      { "text": "Lord", "marks": ["sc"] },
+      { "text": ", of Your deeds.", "break": true },
+      { "text": "Revive them in these years;", "break": true },
+      { "text": "make them known in these years.", "break": true },
+      "In Your wrath, remember mercy!"
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 3,
+    "content": [
+      { "paragraph": true, "text": "God came from Teman,", "break": true },
+      "and the Holy One from Mount Paran. ",
+      {
+        "text": "Selah",
+        "marks": ["i"],
+        "break": true,
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "text": "Selah", "marks": ["i"] },
+            " or ",
+            { "text": "Interlude", "marks": ["i"] },
+            " is probably a musical or literary term; also in verses 9 and 13."
+          ]
+        }
+      },
+      { "text": "His glory covered the heavens,", "break": true },
+      { "text": "and His praise filled the earth.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 4,
+    "content": [
+      { "text": "His radiance was like the sunlight;", "break": true },
+      { "text": "rays flashed from His hand,", "break": true },
+      { "text": "where His power is hidden.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 5,
+    "content": [
+      { "text": "Plague went before Him,", "break": true },
+      { "text": "and fever followed in His steps.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 6,
+    "content": [
+      { "text": "He stood and measured the earth;", "break": true },
+      { "text": "He looked and startled the nations;", "break": true },
+      { "text": "the ancient mountains crumbled;", "break": true },
+      { "text": "the perpetual hills collapsed.", "break": true },
+      "His ways are everlasting."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 7,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I saw the tents of Cushan in distress;",
+        "break": true
+      },
+      { "text": "the curtains of Midian were trembling.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 8,
+    "content": [
+      "Were You angry at the rivers, O ",
+      { "text": "Lord", "marks": ["sc"] },
+      { "text": "?", "break": true },
+      { "text": "Was Your wrath against the streams?", "break": true },
+      { "text": "Did You rage against the sea", "break": true },
+      { "text": "when You rode on Your horses,", "break": true },
+      { "text": "on Your chariots of salvation?", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 9,
+    "content": [
+      { "text": "You brandished Your bow;", "break": true },
+      "You called for many arrows. ",
+      { "text": "Selah", "marks": ["i"], "break": true },
+      { "text": "You split the earth with rivers.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 10,
+    "content": [
+      { "text": "The mountains saw You and quaked;", "break": true },
+      { "text": "torrents of water swept by.", "break": true },
+      { "text": "The deep roared with its voice", "break": true },
+      { "text": "and lifted its hands on high.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 11,
+    "content": [
+      { "text": "Sun and moon stood still", "break": true },
+      { "text": "in their places", "break": true },
+      { "text": "at the flash of Your flying arrows,", "break": true },
+      { "text": "at the brightness of Your shining spear.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 12,
+    "content": [
+      { "text": "You marched across the earth with fury;", "break": true },
+      { "text": "You threshed the nations in wrath.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 13,
+    "content": [
+      {
+        "text": "You went forth for the salvation of Your people,",
+        "break": true
+      },
+      { "text": "to save Your anointed.", "break": true },
+      {
+        "text": "You crushed the head of the house of the wicked",
+        "break": true
+      },
+      "and stripped him from head to toe. ",
+      { "text": "Selah", "marks": ["i"], "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 14,
+    "content": [
+      { "text": "With his own spear You pierced his head,", "break": true },
+      { "text": "when his warriors stormed out to scatter us,", "break": true },
+      { "text": "gloating as though ready", "break": true },
+      { "text": "to secretly devour the weak.", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 15,
+    "content": [
+      { "text": "You trampled the sea with Your horses,", "break": true },
+      "churning the great waters."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 16,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I heard and trembled within;",
+        "break": true
+      },
+      { "text": "my lips quivered at the sound.", "break": true },
+      { "text": "Decay entered my bones;", "break": true },
+      { "text": "I trembled where I stood.", "break": true },
+      {
+        "text": "Yet I must wait patiently for the day of distress",
+        "break": true
+      },
+      "to come upon the people who invade us."
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 17,
+    "content": [
+      { "heading": "Habakkuk Rejoices" },
+      {
+        "paragraph": true,
+        "text": "Though the fig tree does not bud",
+        "break": true
+      },
+      { "text": "and no fruit is on the vines,", "break": true },
+      { "text": "though the olive crop fails", "break": true },
+      { "text": "and the fields produce no food,", "break": true },
+      { "text": "though the sheep are cut off from the fold", "break": true },
+      { "text": "and no cattle are in the stalls,", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 18,
+    "content": [
+      "yet I will exult in the ",
+      { "text": "Lord", "marks": ["sc"] },
+      { "text": ";", "break": true },
+      { "text": "I will rejoice in the God of my salvation!", "break": true }
+    ]
+  },
+  {
+    "book": "HAB",
+    "chapter": 3,
+    "verse": 19,
+    "content": [
+      { "text": "GOD the Lord is my strength;", "break": true },
+      { "text": "He makes my feet like those of a deer;", "break": true },
+      "He makes me walk upon the heights!",
+      {
+        "paragraph": true,
+        "text": "For the choirmaster. With stringed instruments."
+      }
+    ]
+  }
+]

@@ -45,7 +45,7 @@ EGP Graphai is a **Bible resource data management and display system**. It provi
 
 ### Core Business Concepts
 
-- **Bible Versions** – Registry of Bible translations/editions with metadata (ASV1901, KJV1769, WEBUS2020, BYZ2018, BYZ2026, etc.), each optionally carrying its own abbreviation registry
+- **Bible Versions** – Registry of Bible translations/editions with metadata (ASV1901, KJV1769, WEBUS2020, BYZ2026, MSB2025, etc.), each optionally carrying its own abbreviation registry
 - **Books** – Canonical Bible books with identifiers, names, titles, testament classification (OT/NT), and alternate abbreviations
 - **Verses** – Individual verse records with chapter, verse number, and structured content
 - **Content** – Flexible nested structure supporting plain text, formatted text, headings, paragraphs, subtitles, Bible reference links, and abbreviation references

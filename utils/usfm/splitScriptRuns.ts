@@ -38,8 +38,8 @@
  *
  * Both scripts' ranges are confirmed directly against this repo's own
  * already-tagged data, each built on the same organizing principle — base
- * letters plus the diacritics that ride on them (see {@link SCRIPT_RANGES}
- * for the exact codepoint blocks).
+ * letters, the diacritics that ride on them, and the precomposed forms that
+ * fuse the two (see {@link SCRIPT_RANGES} for the exact codepoint blocks).
  */
 
 import type { ContentObject } from "../../types/Content";
@@ -74,8 +74,11 @@ function rangeClass(pairs: ReadonlyArray<readonly [string, string]>): string {
 /**
  * One character-class fragment (the inside of `[...]`) per script.
  *
- * Hebrew: accents/points/diacritics (U+0591-U+05C7), then the base-letter
- * block (U+05D0-U+05EA).
+ * Hebrew: accents/points/diacritics (U+0591-U+05C7), the base-letter block
+ * (U+05D0-U+05EA), and Alphabetic Presentation Forms (U+FB1D-U+FB4F) —
+ * precomposed letter+point glyphs, indistinguishable on screen from their
+ * two-codepoint base-block spellings, which CSB2017's own shipped acrostic
+ * headings really use (shin U+FB2A, sin U+FB2B).
  *
  * Greek: Combining Diacritical Marks (U+0300-U+036F, a bare accent arriving
  * decomposed), Greek and Coptic (U+0370-U+03FF, base letters and
@@ -86,6 +89,7 @@ const SCRIPT_RANGES: Readonly<Record<"H" | "G", string>> = {
   H: rangeClass([
     ["0591", "05C7"],
     ["05D0", "05EA"],
+    ["FB1D", "FB4F"],
   ]),
   G: rangeClass([
     ["0300", "036F"],

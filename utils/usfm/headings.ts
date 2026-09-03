@@ -3,9 +3,19 @@
  * Psalm 119 acrostic letter markers (also `\d` in WEBUS2020's own corpus —
  * the identical USFM tag, only distinguishable by what its own text
  * actually is — or `\qc` in ASV1901's, a different marker carrying the
- * real Hebrew glyph rather than a bare transliteration), the five Psalter
- * book-division headings (`\ms1`), and Song of Solomon's speaker labels
- * (`\sp`).
+ * real Hebrew glyph rather than a bare transliteration), the Psalter's
+ * five book-division headings (`\ms`/`\ms1`/`\ms2`/`\ms3`), and Song of
+ * Solomon's speaker labels (`\sp`).
+ *
+ * Three of those four markers mean something more general in USFM than the
+ * construct this module builds from them: `\d` is any Psalm
+ * superscription, `\qc` any centered poetic line, `\ms` and its numbered
+ * levels any major-section heading. So each of the three is recognized by
+ * what it actually prints — {@link isAcrosticLetterName},
+ * {@link isAcrosticGlyphHeading}, {@link psalterBookDivisionNumber} —
+ * never by which marker it is or where in the book it sits, which for
+ * `\qc` and `\ms1` would encode the single use their one source on disk
+ * happens to make of them.
  *
  * `\d`/`\sp`/`\qc` share the same real shape a footnote or cross-reference
  * already has — a run of text (and, for `\d`, occasionally an embedded
@@ -20,9 +30,9 @@
  * plain text, an embedded `\w`/`+w` wrapper (discarded — see below), or an
  * embedded footnote" rather than a specific close-tag name.
  *
- * `\ms1`'s own computed verse range needs to see every boundary in the book
- * before it can know where any one of them ends — a genuine lookahead this
- * module's own {@link buildBookDivisionHeading} takes as plain numbers,
+ * A book division's own computed verse range needs to see every division
+ * in the book before it can know where any one of them ends — a genuine
+ * lookahead this module's own {@link buildBookDivisionHeading} takes as plain numbers,
  * leaving the lookahead itself to whichever caller already knows the whole
  * book (`usfm/segmentVerses.ts`'s own post-pass, once the token walk is
  * done and every verse record already exists).
@@ -35,62 +45,86 @@ import { splitNonLatinScriptRuns } from "./splitScriptRuns";
 import { Token } from "./tokenize";
 
 /**
- * Psalm 119's own 22 real, transliterated acrostic letter-name headings,
- * measured directly against the raw source (`\d ALEPH` through `\d TAV`,
- * `20-PSAeng-web.usfm`), after stripping the two real `\w`-tag artifacts
- * WEB's own Strong's tagger left on "HE" and "AND" (both plain English
- * dictionary words that happen to also be transliterated Hebrew letter
- * names — see {@link buildHeadingSpanContent}'s own doc comment for why
- * that stripping happens unconditionally, not just for these two). This is
- * WEB's own real spelling, typo and all ("KAPF", not the more standard
- * "KAPH") — a faithful transcription of the source, not a corrected list.
- * A membership check against
- * this exact set — "does this heading's text reduce to nothing but a
- * canonical letter name" — is how `\d` classification tells an acrostic
- * marker apart from an ordinary superscription; both use the identical
- * USFM tag, so position can never be the signal.
+ * Every transliterated name the 22 Hebrew letters go by in an acrostic
+ * heading, one group per letter, uppercased for the case-insensitive
+ * lookup {@link isAcrosticLetterName} does.
+ *
+ * The canonical 22 are read from this repo's own already-shipped tagged
+ * acrostic data (`bible-versions/NKJV1982/19-PSA.json`) rather than typed
+ * out from memory; every variant beside them is attested in another
+ * shipped version's own acrostic headings (named per group) or is a
+ * standard transliteration of the same letter. The breadth is deliberate:
+ * the question asked here is "is this text nothing but a letter name," and
+ * a source spelling Ṣade "Tsade" means the same construct WEB spells
+ * "TZADHE".
+ *
+ * "KAPF" (WEBUS2020) and "HHETH" (ASV1901) are their own sources'
+ * misspellings, kept rather than corrected so already-imported data still
+ * classifies — the standard spellings sit beside them.
  */
 const ACROSTIC_LETTER_NAMES = new Set([
-  "ALEPH",
-  "BETH",
+  "ALEPH", "ALEF", // NET2019: "Alef"
+  "BETH", "BET", // KJV1769: "Bet"
   "GIMEL",
-  "DALETH",
+  "DALETH", "DALET", "DELETH", // KJV1769/NET2019: "Dalet"; CLV1880: "deleth"
   "HE",
-  "VAV",
-  "ZAYIN",
-  "HETH",
-  "TETH",
-  "YODH",
-  "KAPF",
-  "LAMEDH",
-  "MEM",
+  "WAW", "VAV", // WEBUS2020/ASV1901/LSB2021/NASB1995: "VAV"
+  "ZAYIN", "ZAIN", "ZAI", // KJV1769/YLT1898: "Zain"; CLV1880: "zai"
+  "HETH", "HET", "CHETH", "KHET", "HHETH", // KJV1769: "Het"; CSB2017/YLT1898: "Cheth"; NET2019: "Khet"; ASV1901: "HHETH"
+  "TETH", "TET", // KJV1769/NET2019: "Tet"
+  "YOD", "YODH", "IOTH", // WEBUS2020/ESV2025/LSB2021: "YODH"; CLV1880: "ioth"
+  "KAPH", "KAF", "CAPH", "CAF", "KAPF", // NET2019: "Kaf"; CLV1880: "caf"; WEBUS2020: "KAPF"
+  "LAMED", "LAMEDH", // WEBUS2020/ESV2025/LSB2021: "LAMEDH"
+  "MEM", "ME", // CLV1880: "me"
   "NUN",
-  "SAMEKH",
-  "AYIN",
-  "PE",
-  "TZADHE",
-  "QOPH",
-  "RESH",
-  "SIN AND SHIN",
-  "TAV",
+  "SAMEK", "SAMEKH", "SAMECH", // WEBUS2020/LSB2021: "SAMEKH"; CLV1880/YLT1898: "Samech"
+  "AYIN", "AIN", // KJV1769/CLV1880: "Ain"
+  "PE", "FE", // CLV1880: "fe"
+  // CSB2017/NET2019: "Tsade"; MSB2025: "TZADE"; WEBUS2020: "TZADHE"; KJV1769: "Zade"; CLV1880: "sade"
+  "TSADDE", "TSADHE", "TSADE", "TSADI", "TZADE", "TZADHE", "TZADI", "SADHE", "SADE", "ZADE",
+  "QOPH", "QOF", "KOPH", "COF", // NET2019: "Qof"; MSB2025/YLT1898: "KOPH"; CLV1880: "cof"
+  "RESH", "RES", // CLV1880: "res"
+  "SIN", "SHIN", "SEN", // CLV1880: "sen"; the combined "SIN AND SHIN" form is LETTER_NAME_JOINERS' job, never an entry here
+  "TAU", "TAV", "TAW", "THAV", "THAU", // WEBUS2020/ASV1901: "TAV"; ESV2025/NIV1984: "Taw"; CLV1880: "thau"
 ]);
 
 /**
- * `true` when `text` (already whitespace-normalized) is one of Psalm 119's
- * own acrostic letter names — see {@link ACROSTIC_LETTER_NAMES}'s own doc
- * comment. Exported on its own, separate from the token-walking machinery
- * below, so `usfm/verify.ts` can
- * import this one static classification rule directly — the same
- * shared-reference-table relationship `resolveBookId`/`classifyFootnote`
- * already have with the verifier: never a parsing/segmentation algorithm
- * with room for a symmetric bug, just the one small table both sides are
- * *supposed* to agree on.
+ * How a source joins two letter names into one combined acrostic stanza
+ * heading — "SIN AND SHIN" (WEBUS2020), "SIN and SHIN" (MSB2025),
+ * "Sin/Shin" (NET2019), "Sin – Shin" and "He – Vav" (LSB2021). Splitting
+ * on the joiner and requiring *every* part to be a letter name covers all
+ * five with one rule, rather than a table entry per joiner style per pair.
+ */
+const LETTER_NAME_JOINERS = /\s+(?:AND|&)\s+|\s*[/\-–—]\s*/;
+
+/** Punctuation a source prints around a letter name that is display convention rather than part of the name — ASV1901's own trailing period (`\qc א ALEPH.`) and NET2019's own parentheses ("(Alef)"). */
+const LETTER_NAME_PUNCTUATION = /^[\s.,;:()[\]"'“”‘’]+|[\s.,;:()[\]"'“”‘’]+$/g;
+
+/**
+ * `true` when `text` (already whitespace-normalized) is nothing but an
+ * acrostic letter name — one of {@link ACROSTIC_LETTER_NAMES}, or two of
+ * them joined into a combined stanza heading (see
+ * {@link LETTER_NAME_JOINERS}), with display punctuation and letter case
+ * both ignored.
+ *
+ * Exported on its own, separate from the token-walking machinery below, so
+ * `usfm/verify.ts` can import this one static classification rule directly
+ * — the same shared-reference-table relationship
+ * `resolveBookId`/`classifyFootnote` already have with the verifier: never
+ * a parsing/segmentation algorithm with room for a symmetric bug, just the
+ * one small table both sides are *supposed* to agree on.
  */
 export function isAcrosticLetterName(text: string): boolean {
-  return ACROSTIC_LETTER_NAMES.has(text);
+  const parts = text
+    .toUpperCase()
+    .split(LETTER_NAME_JOINERS)
+    .map((part) => part.replace(LETTER_NAME_PUNCTUATION, ""))
+    .filter((part) => part.length > 0);
+
+  return parts.length > 0 && parts.every((part) => ACROSTIC_LETTER_NAMES.has(part));
 }
 
-/** The result of walking one `\d`/`\sp` span's own text. */
+/** The result of walking one heading span's own text (`\d`/`\sp`/`\s1`, the `\ms` family and the `\mr` after one, and a `\qc` the caller has yet to classify). */
 export interface HeadingSpanResult {
   /** The span's own already-classified text pieces, ready for `buildRunNodes`/`collapseContentNodes` or a plain-text classification check. */
   readonly pieces: InlineTextPiece[];
@@ -100,7 +134,9 @@ export interface HeadingSpanResult {
 
 /**
  * Walks the token stream from `startIndex` (the token immediately after a
- * `\d` or `\sp` marker) through plain text, an embedded `\w`/`+w` wrapper
+ * heading-span marker — `\d`/`\sp`/`\s1`/`\qc`, any of the `\ms` family,
+ * or the `\mr` reference range after one) through plain text,
+ * an embedded `\w`/`+w` wrapper
  * (discarded — see below), and an embedded `\f`...`\f*` footnote (reused
  * from `usfm/footnotes.ts`'s `buildFootnoteContent` directly, never
  * forked), stopping at the first token that is none of those.
@@ -154,8 +190,18 @@ export function buildHeadingSpanContent(tokens: readonly Token[], startIndex: nu
   return { pieces, nextIndex: index };
 }
 
-/** Collapses `pieces` into plain text the way {@link ACROSTIC_LETTER_NAMES} membership is checked against — whitespace-normalized, trimmed, `strong`/`marks`/`foot` all irrelevant since a heading-span piece never carries them (see {@link buildHeadingSpanContent}'s own doc comment). */
-function plainTextOf(pieces: readonly InlineTextPiece[]): string {
+/**
+ * Collapses `pieces` into the plain text the span actually prints —
+ * whitespace-normalized, trimmed, `strong`/`marks`/`foot` all irrelevant
+ * since a heading-span piece never carries them (see
+ * {@link buildHeadingSpanContent}'s own doc comment).
+ *
+ * Exported so `usfm/segmentVerses.ts` reads an `\mr` reference range's own
+ * text by the same rule every classification here is checked against,
+ * rather than keeping a second, quietly divergent notion of what a span
+ * prints.
+ */
+export function headingSpanText(pieces: readonly InlineTextPiece[]): string {
   return pieces
     .map((piece) => piece.text ?? "")
     .join("")
@@ -183,7 +229,7 @@ function plainTextOf(pieces: readonly InlineTextPiece[]): string {
 export function buildSuperscriptionContent(
   pieces: readonly InlineTextPiece[],
 ): ContentHeading | ContentSubtitle {
-  const plainText = plainTextOf(pieces);
+  const plainText = headingSpanText(pieces);
   if (isAcrosticLetterName(plainText)) {
     return { heading: plainText, type: "acrostic" };
   }
@@ -194,14 +240,44 @@ export function buildSuperscriptionContent(
 }
 
 /**
- * Builds one `\qc` span's own final content — Psalm 119's real acrostic
- * letter heading, on a different USFM marker than `\d`, carrying the real
- * Hebrew glyph inline rather than `\d`'s bare transliteration (`\qc א
- * ALEPH.`, `20-PSAeng-asv.usfm`). Unlike `\d`, which shares its tag with
- * ordinary Psalm superscriptions and needs {@link isAcrosticLetterName} to
- * tell the two apart, every `\qc` instance in this corpus is this exact
- * construct and nothing else, so this builder needs no content-based
- * classification at all; it always produces the acrostic shape.
+ * Anything in a heading's text that is not part of a transliterated letter
+ * name: the Hebrew glyph a source prints ahead of the name, and the
+ * combining points that ride on it.
+ *
+ * Written as "everything that is not Latin, punctuation, a digit, or
+ * whitespace" rather than by naming Hebrew's own codepoint ranges, so no
+ * range table has to be right for this classifier to be. A list of blocks can
+ * be short by one — `usfm/splitScriptRuns.ts`'s Hebrew range really was,
+ * missing the presentation-form shin CSB2017 ships, until that block was
+ * added — and needs extending again for every script a future source prints
+ * ahead of a letter name. The complement of Latin already covers Greek and
+ * Syriac too. Missing a glyph here would demote a real letter heading to a
+ * poetic line.
+ */
+const NON_LATIN_GLYPHS = /[^\p{Script=Latin}\p{White_Space}\p{Punctuation}\p{Number}]+/gu;
+
+/**
+ * `true` when one `\qc` span's own text is an acrostic letter heading —
+ * the construct ASV1901 writes as `\qc א ALEPH.` — rather than the
+ * centered poetic line `\qc` means in USFM generally.
+ *
+ * The glyph a source prints ahead of the name is dropped before the test
+ * rather than spelled into {@link ACROSTIC_LETTER_NAMES} 22 times over
+ * (see {@link NON_LATIN_GLYPHS}). A source printing no glyph at all (`\qc
+ * ALEPH`) classifies the same way — there is simply nothing to drop.
+ */
+export function isAcrosticGlyphHeading(pieces: readonly InlineTextPiece[]): boolean {
+  return isAcrosticLetterName(headingSpanText(pieces).replace(NON_LATIN_GLYPHS, " "));
+}
+
+/**
+ * Builds one `\qc` acrostic letter heading's own final content — Psalm
+ * 119's letter heading on a different USFM marker than `\d`, carrying the
+ * real Hebrew glyph inline rather than `\d`'s bare transliteration (`\qc א
+ * ALEPH.`, `20-PSAeng-asv.usfm`). Only for a span
+ * {@link isAcrosticGlyphHeading} has already accepted; a `\qc` that is
+ * USFM's ordinary centered poetic line is verse content, never a heading,
+ * and never reaches this builder (`usfm/segmentVerses.ts`'s own dispatch).
  *
  * {@link splitNonLatinScriptRuns} (`usfm/splitScriptRuns.ts`) separates the
  * leading glyph from its trailing transliterated name, matching the
@@ -218,7 +294,7 @@ export function buildSuperscriptionContent(
  * too rather than waiting for a future import to prove it out.
  */
 export function buildAcrosticGlyphHeading(pieces: readonly InlineTextPiece[]): ContentHeading {
-  const text = plainTextOf(pieces);
+  const text = headingSpanText(pieces);
   return { heading: splitNonLatinScriptRuns(text), type: "acrostic" };
 }
 
@@ -239,33 +315,100 @@ export function buildSpeakerHeading(pieces: readonly InlineTextPiece[]): Content
   return { heading: content };
 }
 
+/** The registry book id (`usfm/metadata.ts`'s `resolveBookId`) of the one book a Psalter book division can possibly belong to — {@link buildBookDivisionHeading} writes the word "Psalms" into its own output, so a division heading in any other book would be a contradiction in terms. */
+const PSALMS_BOOK_ID = "PSA";
+
 /**
- * The five Psalter book divisions' own spelled-out ordinal words, in the
- * order WEB's own five `\ms1` markers occur — not derived from the
- * source's own raw "BOOK 1".."BOOK 5" text, since this deliberately departs
- * from WEB's own literal wording to match this repo's already-shipped
- * convention, so a boundary's own *position* in the book (first, second,
- * ...), not any digit parsed out of the source, is what selects a word
- * here.
+ * A Psalter book-division label as the two sources on disk print it:
+ * WEBUS2020's Arabic "BOOK 1".."BOOK 5" and ASV1901's Roman "BOOK
+ * I".."BOOK V", with or without trailing punctuation. The numeral is
+ * required — it is what makes the text a *division* label rather than one
+ * of the countless ordinary major-section headings the `\ms` family also
+ * marks — and captured, since the division's own number is read off it.
+ */
+const BOOK_DIVISION_LABEL = /^BOOK\s+(\d+|[IVXLCDM]+)[.:]?$/i;
+
+/** Each Roman digit {@link BOOK_DIVISION_LABEL} admits, and what it is worth. */
+const ROMAN_DIGIT_VALUES: ReadonlyMap<string, number> = new Map([
+  ["I", 1],
+  ["V", 5],
+  ["X", 10],
+  ["L", 50],
+  ["C", 100],
+  ["D", 500],
+  ["M", 1000],
+]);
+
+/**
+ * What a {@link BOOK_DIVISION_LABEL} numeral is worth — Arabic read
+ * directly, Roman by the subtractive rule (`IV` is 4, not 6). Both
+ * spellings are real on disk (WEBUS2020 Arabic, ASV1901 Roman) and mean
+ * the same thing, so reading them apart here lets everything downstream
+ * deal in one plain number.
+ */
+function numeralValue(numeral: string): number {
+  if (/^\d+$/.test(numeral)) return Number(numeral);
+
+  const digits = [...numeral.toUpperCase()].map((digit) => ROMAN_DIGIT_VALUES.get(digit) as number);
+  return digits.reduce((total, value, at) => total + (value < (digits[at + 1] ?? 0) ? -value : value), 0);
+}
+
+/**
+ * Which Psalter book division one major-section span names — 1 for "BOOK
+ * 1"/"BOOK I", 5 for "BOOK 5"/"BOOK V" — or `undefined` when the span is
+ * not a division label at all, the ordinary major-section heading `\ms`
+ * and friends mean in USFM generally.
+ *
+ * Answering "is it" and "which one" in one call keeps a caller from
+ * recognizing the construct by one reading of the label and then naming it
+ * by a second reading that disagrees.
+ *
+ * Both halves of the recognition are load-bearing:
+ * {@link buildBookDivisionHeading} discards the marker's own text and
+ * writes the word "Psalms" into a computed range, so a division heading in
+ * another book would contradict itself, and a major-section heading inside
+ * Psalms can still be an ordinary section title.
+ *
+ * @param book - The registry book id the caller is segmenting, as handed to
+ *   `segmentVerses` — never read from the source's own `\id`.
+ * @param pieces - The major-section span's own already-walked pieces
+ *   ({@link buildHeadingSpanContent}).
+ */
+export function psalterBookDivisionNumber(
+  book: string,
+  pieces: readonly InlineTextPiece[],
+): number | undefined {
+  if (book !== PSALMS_BOOK_ID) return undefined;
+
+  const label = BOOK_DIVISION_LABEL.exec(headingSpanText(pieces));
+  return label === null ? undefined : numeralValue(label[1]);
+}
+
+/**
+ * The five Psalter book divisions' own spelled-out ordinal words. This
+ * repo's shipped convention departs from the source's literal "BOOK
+ * 1"/"BOOK I" wording, but the *numeral* the source prints is what selects
+ * a word here — a file whose first division reads "BOOK 2" says "Book
+ * Two", not "Book One" for being first.
  */
 const ORDINAL_WORDS = ["One", "Two", "Three", "Four", "Five"];
 
 /**
  * Builds one Psalter book-division heading — `[{text: "Book <Word>", marks:
  * ["sc"]}, " (Psalms <start>–<end>)"]`, matching the already-established
- * output shape exactly. `start`/`end` are plain numbers the caller must
- * compute from its own already-segmented verse data
- * (`usfm/segmentVerses.ts`'s own post-pass, once every `\ms1` boundary's
- * own chapter is known and the book's own highest chapter is known too) —
- * never hand-typed, and never recomputed here, since this function has no
- * access to "the rest of the book" on its own.
+ * output shape exactly. `start`/`end` are plain numbers the caller computes
+ * from its own already-segmented verse data, never recomputed here: this
+ * function has no access to "the rest of the book" on its own.
  *
- * @param index - 0 for the first `\ms1` this book carries, 1 for the
- *   second, and so on — selects {@link ORDINAL_WORDS}.
- * @throws When `index` names a boundary beyond the five WEB's own Psalter
- *   ever produces — a genuinely new construct a future source might need,
- *   not something to guess a sixth word for. An unrepresented case belongs
- *   to a human decision, not a silent extrapolation.
+ * @param index - Which of the five divisions this is, zero-based: 0 for
+ *   "BOOK 1"/"BOOK I", 4 for "BOOK 5"/"BOOK V" — selects
+ *   {@link ORDINAL_WORDS}. Where that number comes from is the caller's own
+ *   decision: `usfm/segmentVerses.ts` reads it off the label
+ *   ({@link psalterBookDivisionNumber}), while a source with no numeral to
+ *   read has only the division's position to go on.
+ * @throws When `index` names a division beyond the five the Psalter has —
+ *   an unrepresented case belongs to a human decision, not a guessed sixth
+ *   word.
  */
 export function buildBookDivisionHeading(index: number, start: number, end: number): ContentHeading {
   const word = ORDINAL_WORDS[index];

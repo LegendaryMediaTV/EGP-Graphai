@@ -1,6 +1,6 @@
 # EGP Graphai - Project Context
 
-> **Updated:** September 2, 2026  
+> **Updated:** September 3, 2026  
 > **Repository:** [LegendaryMediaTV/EGP-Graphai](https://github.com/LegendaryMediaTV/EGP-Graphai)
 
 ## Project Summary
@@ -9,7 +9,7 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 
 ### Key Capabilities
 
-- **Multi-Version Support** – Stores and serves multiple Bible translations (ASV, KJV, WEB, BYZ Greek 2018 and 2026, YLT, CLV)
+- **Multi-Version Support** – Stores and serves multiple Bible translations (ASV, KJV, WEB, MSB, BYZ Greek 2026, YLT, CLV)
 - **Rich Annotations** – Strong's numbers, morphological parsing, lexical lemmas per word
 - **Flexible Content Model** – Recursive structure supporting paragraphs, headings, subtitles, footnotes, Bible reference links, and abbreviation references resolved against the version's own registry
 - **Export Formats** – Text with Strong's annotations, paragraph-formatted Markdown, with bold/italic rendering
@@ -18,7 +18,21 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Strong's-Node Placement Audit** – Detects many ways a node's text-flow placement can drift from this repo's own conventions; several of them repair themselves inside the auto-fix pass above — see [strongs-node-audit.md](4-domains/strongs-node-audit.md) for which
 - **USFM Import** – Converts USFM translation source files directly into verse JSON (`utils/importUsfm.ts`, `utils/usfm/`), with an independent post-import checker (`usfm/verify.ts`), a retroactive footnote re-classification tool (`overhaulFootnotes.ts`), and a retroactive embedded-reference re-linking tool (`overhaulReferences.ts`)
 
-## Recent Changes (BYZ2026, Per-Version Abbreviation Registries, Superscript Mark, Dialytika Repair)
+## Recent Changes (MSB2025 Added, BYZ2018 Retired, Footnote Classifier and Acrostic-Heading Fixes)
+
+- **MSB2025 Added** – The Majority Standard Bible, all 66 Old and New Testament books, with its own 19-entry abbreviation registry spanning critical-text editions, the Majority/Byzantine tradition, and named textual witnesses (Dead Sea Scrolls, Samaritan Pentateuch, both major Textus Receptus editions)
+- **BYZ2018 Retired in Favor of BYZ2026** – The Guardian Press / Robinson-Pierpont 2026 Byzantine Textform is now the corpus's only Byzantine Greek New Testament; BYZ2018's version folder and exports are removed from the tree. Its own edition sigla and real footnote/text shapes are still cited by name in source comments and test descriptions as the historical origin of the rules they justify, even though the data itself no longer ships — the same convention this doc's own "Previous Changes" entries below follow
+- **Footnote Classifier's Book-Name Slot Now Reads the Registry** – A citation-only test that used to cap a book name at one plain ASCII word now also recognizes any full spelling in `bible-books/bible-books.json`, so a spelled-out `1 Thessalonians 5:1–11` or `Song of Solomon` list stops falling through to `stu` for not fitting the one-word slot
+- **Edition-Siglon Guard Closes a Citation Misread** – The same book-name slot is now barred from matching a printed-edition or manuscript siglon (`LXX`, `TR`, `WH`, and others), fixing a real MSB2025 case where a variant reading `WH 76` (the number 276) was read as chapter 76 of an invented book called `WH`
+- **Comma-Separated Reference Lists No Longer Overrun Their Chapter** – A chapter-only embedded reference followed by a comma list is now read as more chapters, not a verse list of the one chapter already named; a real MSB2025 note citing `Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142` no longer misreads the numbers past the first as impossible verses of Psalm 32
+- **Acrostic Letter-Name Table Widened Across Editions, Gains Combined Stanzas** – `headings.ts`'s Psalm 119 letter-name table, previously WEB's own spellings only (misspelling "KAPF" included, kept so already-imported data still classifies), now recognizes every transliteration a shipped or attested edition uses for the same Hebrew letter, plus any two of them joined into one combined-stanza heading in any of several real joiner styles (`AND`, `&`, `/`, a dash)
+- **Book-Division and Acrostic-Glyph Headings No Longer Assume One Specific Marker** – A Psalter book-division heading used to be recognized only on `\ms1`, so a division heading on any other marker of the `\ms` family silently leaked into the surrounding verse's own prose instead of becoming a heading; all four now classify by their own printed "BOOK n" text. A `\qc` span used to be assumed to always be Psalm 119's acrostic glyph heading; it is now classified by its own text, so an edition using `\qc` for an ordinary centered poetic line is no longer misread as an acrostic marker
+- **Hebrew Script Range Extended for Presentation Forms** – The non-Latin glyph range `splitScriptRuns.ts` and the acrostic-glyph-heading classifier both rely on was missing the Hebrew presentation-form block a shipped acrostic heading needed; both are corrected by the same range now covering it
+- **Web Reader Script Styling Scoped to the Text Node** – `ContentNode.js` now applies the Hebrew/Greek script class and `dir="rtl"` directly to the span wrapping a node's own text, rather than the wrapper span around the whole node (text, footnote marker, and parsing overlay together)
+- **Test Coverage** – The USFM pipeline suite gained a dedicated `splitScriptRuns.test.ts` and grew substantially in `footnoteTypeRules.test.ts` (132 → 231 tests) and `headings.test.ts` (15 → 30); total suite: 1,571 tests across 43 files. See [Test Status](#test-status) below
+- See [4-domains/bible-versions.md](4-domains/bible-versions.md), [4-domains/usfm-import.md](4-domains/usfm-import.md#key-business-rules), and [documentation/EGP-Graphai/usfm-import.md](../documentation/EGP-Graphai/usfm-import.md#footnote-classification-and-cross-references) for full detail
+
+## Previous Changes (BYZ2026, Per-Version Abbreviation Registries, Superscript Mark, Dialytika Repair)
 
 - **BYZ2026 Added** – The Guardian Press / Robinson-Pierpont 2026 Byzantine Textform, all 27 New Testament books with text and markdown exports. Its apparatus is the densest in the corpus and is what motivated the abbreviation registry below
 - **Abbreviation Registry, Per Version and Never Shared** – A new `{ abbr: "<id> }` content node carries only an id; `_version.json` gained an `abbr` array of `{ _id, name, description }` entries where `name` is itself content (so `NA27` prints as `NA` plus a `sup`-marked `27`) and `description` is what the siglum stands for. Registries are per-version by design, because the same short code means different things in different editions: one version's `MT` is the Masoretic Text, another's the Majority Text, and BYZ2018's bare `M` is neither. `utils/abbreviations.ts` audits every id against its own version's registry as a fifth report-only peer in `validate.ts`, reporting both unresolved ids and ids the registry defines twice; there is no auto-fix, since only a person can say whether the content or the registry is wrong. Populated for BYZ2026, then backfilled for BYZ2018 (six edition sigla, N/B/C/S/M/E, whose definitions come from the byztxt source repo) and WEBUS2020 (seven witness sigla, whose definitions come from the translation's own front matter). ASV1901, CLV1880, KJV1769, and YLT1898 carry no registry because they name their witnesses in prose rather than by siglum. See [content-verses.md](4-domains/content-verses.md) and [bible-versions.md](4-domains/bible-versions.md)
@@ -181,6 +195,7 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 | `npm run validate` | Validate all JSON data             |
 | `npm run export`   | Export to text/markdown            |
 | `npm run test`     | Run Vitest tests                   |
+| `npm run type-check` | Type-check the whole tree with `tsc --noEmit`, no output written |
 | `npm run overhaul-footnotes <version>` | Re-classify a version's on-disk footnotes against the current rules (add `-- --fix` to write; the bare `--` is required or npm eats the flag) |
 | `npm run overhaul-references <version> [<book>]` | Re-scan a version's on-disk footnotes for embedded references the current grammar would now catch (add `-- --fix` to write; same bare `--` requirement) |
 
@@ -385,7 +400,7 @@ window.ComponentName = ComponentName;
 1. **No Build Step for Frontend** – JSX transpiled at runtime via Babel
 2. **No Database** – All data as flat JSON files
 3. **Sequential Book Ordering** – Orders must be 1-indexed, sequential, no gaps
-4. **Canonical Key Order** – Content keys must follow specific order (subtitle → heading → bibleLink → paragraph → type → text → content → script → marks → break → foot → strong → morph → lemma)
+4. **Canonical Key Order** – Content keys must follow specific order (subtitle → heading → bibleLink → abbr → paragraph → type → text → content → script → marks → break → foot → strong → morph → lemma)
 5. **Strong's Number Format** – Must match `^[GH][0-9]{1,4}$`
 6. **Verse File Naming** – Must follow `{order}-{bookId}.json` pattern
 7. **Exit on Validation Failure** – Scripts exit with code 1 on any error
@@ -397,14 +412,14 @@ window.ComponentName = ComponentName;
 
 ## Test Status
 
-✅ **1,324 tests passing, across all 41 test files** (Vitest):
+✅ **1,571 tests passing, across all 43 test files** (Vitest):
 
-- `functions/__tests__/` (11 files): `contentSchema.test.ts` (4), `convertToSmallCaps.test.ts` (40), `getBibleVersions.test.ts` (17), `mapContentText.test.ts` (14), `mergeEquivalentSiblingsInContent.test.ts` (18), `normalizeEllipses.test.ts` (19), `normalizeFractions.test.ts` (24), `normalizeStraightQuotes.test.ts` (14), `sortContentKeys.test.ts` (27), `tagScriptRunsInContent.test.ts` (19), `writeJsonFile.test.ts` (10)
-- `utils/__tests__/` (14 files): `auditNodes.test.ts` (169, the largest suite in the repo), `crossChapterLinks.test.ts` (74), `exportContent.test.ts` (115), `fixDuplicateFootnoteAnchors.test.ts` (8), `fixFootnoteMarkerSpacing.test.ts` (25), `fixFootnotePunctuationOrder.test.ts` (7), `fixHeadingParagraphs.test.ts` (4), `fixMarkBoundaryEmbeddedSpaces.test.ts` (10), `fixMarkBoundarySpaces.test.ts` (13), `fixUnmergedNodes.test.ts` (5), `importUsfm.test.ts` (19), `overhaulFootnotes.test.ts` (22), `overhaulReferences.test.ts` (20), `validate.test.ts` (75)
-- `utils/usfm/__tests__/` (15 files, the USFM import pipeline): `bibleLinkTargetConventions.test.ts` (1), `blockStructure.test.ts` (14), `bMarkerUpstreamConvention.test.ts` (1), `chapterBoundaryUpstreamConvention.test.ts` (1), `embeddedReferenceConventions.test.ts` (12), `footnotes.test.ts` (55), `footnoteTypeRules.test.ts` (132), `headings.test.ts` (15), `inlineMarks.test.ts` (28), `metadata.test.ts` (10), `paragraphNoise.test.ts` (7), `references.test.ts` (65), `segmentVerses.test.ts` (117), `tokenize.test.ts` (10), `verify.test.ts` (77)
-- `web/public/js/__tests__/footnoteText.test.ts` – 7 tests for shared footnote-text extraction
+- `functions/__tests__/` (12 files): `contentSchema.test.ts` (4), `convertToSmallCaps.test.ts` (40), `getBibleVersions.test.ts` (17), `mapContentText.test.ts` (14), `mergeEquivalentSiblingsInContent.test.ts` (18), `normalizeEllipses.test.ts` (19), `normalizeFractions.test.ts` (24), `normalizeGreekDiacritics.test.ts` (11), `normalizeStraightQuotes.test.ts` (14), `sortContentKeys.test.ts` (29), `tagScriptRunsInContent.test.ts` (19), `writeJsonFile.test.ts` (10)
+- `utils/__tests__/` (14 files): `auditNodes.test.ts` (176), `crossChapterLinks.test.ts` (81), `exportContent.test.ts` (175), `fixDuplicateFootnoteAnchors.test.ts` (8), `fixFootnoteMarkerSpacing.test.ts` (29), `fixFootnotePunctuationOrder.test.ts` (7), `fixHeadingParagraphs.test.ts` (4), `fixMarkBoundaryEmbeddedSpaces.test.ts` (16), `fixMarkBoundarySpaces.test.ts` (16), `fixUnmergedNodes.test.ts` (5), `importUsfm.test.ts` (19), `overhaulFootnotes.test.ts` (22), `overhaulReferences.test.ts` (20), `validate.test.ts` (75)
+- `utils/usfm/__tests__/` (16 files, the USFM import pipeline): `bibleLinkTargetConventions.test.ts` (1), `blockStructure.test.ts` (14), `bMarkerUpstreamConvention.test.ts` (1), `chapterBoundaryUpstreamConvention.test.ts` (1), `embeddedReferenceConventions.test.ts` (12), `footnotes.test.ts` (55), `footnoteTypeRules.test.ts` (231, the largest suite in the repo), `headings.test.ts` (30), `inlineMarks.test.ts` (28), `metadata.test.ts` (10), `paragraphNoise.test.ts` (7), `references.test.ts` (69), `segmentVerses.test.ts` (141), `splitScriptRuns.test.ts` (2), `tokenize.test.ts` (10), `verify.test.ts` (77)
+- `web/public/js/__tests__/footnoteText.test.ts` – 10 tests for shared footnote-text extraction
 
-All 41 files load and pass on a fresh clone with no local setup. The USFM-pipeline specs that used to need the gitignored WEBUS2020/ASV1901/MSB2025 raw USFM corpora were rewritten against tracked fixtures or this repo's own committed content instead; see [Previous Changes](#previous-changes-test-suite-no-longer-depends-on-a-local-raw-usfm-corpus) above and [6-tests-and-build.md](6-tests-and-build.md#usfm-import-pipeline-domain) for detail.
+All 43 files load and pass on a fresh clone with no local setup. The USFM-pipeline specs that used to need the gitignored WEBUS2020/ASV1901/MSB2025 raw USFM corpora were rewritten against tracked fixtures or this repo's own committed content instead; see [Previous Changes](#previous-changes-test-suite-no-longer-depends-on-a-local-raw-usfm-corpus) above and [6-tests-and-build.md](6-tests-and-build.md#usfm-import-pipeline-domain) for detail.
 
 See [6-tests-and-build.md](6-tests-and-build.md) for test details and coverage.
 
