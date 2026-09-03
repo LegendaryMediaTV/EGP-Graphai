@@ -1,5 +1,22 @@
+import * as fs from "fs";
+import * as path from "path";
 import { describe, expect, it } from "vitest";
 import { classifyFootnote, flattenContentText } from "../footnoteTypeRules";
+
+/**
+ * Every spelling `bible-books/bible-books.json` carries for a book, canonical
+ * name and alias alike. Read here rather than transcribed so the sweep below
+ * asks the same registry the citation grammar itself resolves from — a book
+ * added to the registry has to answer for itself, and a transcribed list would
+ * quietly stop covering it.
+ */
+function registryBookNames(): string[] {
+  const file = path.resolve(__dirname, "../../../bible-books/bible-books.json");
+  const entries: { name: string; alt?: string[] }[] = JSON.parse(fs.readFileSync(file, "utf8"));
+  const spellings = new Set<string>();
+  for (const entry of entries) for (const spelling of [entry.name, ...(entry.alt ?? [])]) spellings.add(spelling);
+  return [...spellings];
+}
 
 /**
  * Most bodies below are real, extracted verbatim from an in-scope corpus; a
@@ -254,6 +271,118 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
       expect(classifyFootnote("S. of Sol. 5:1")).toBe("xrf");
     });
   });
+
+  describe("an edition's own siglum is not a book name either", () => {
+    it("should classify MSB2025's Acts 27:37 as var, not xrf — a variant reading of the number 276, whose siglum was being read as the book and whose number as that book's chapter", () => {
+      expect(classifyFootnote("WH 76")).toBe("var");
+    });
+
+    /**
+     * `F35` is deliberately not in this list, and its absence is a finding
+     * rather than an oversight. The bar below is on the book *slot*, and a
+     * siglum carrying its own digit never reaches that slot: `F 76` alone
+     * already classifies `xrf` today, because `76` matches as a bare
+     * citation and a lone `f` is deletable filler (the `7f.`/`7ff.` shape
+     * `CONNECTIVES` exists for). So does `35 76`. That is a different
+     * mechanism from the one this bar fixes, it predates it, and no body on
+     * disk takes the shape — measured over all 321,204 — so nothing here
+     * pretends to have addressed it.
+     */
+    it("should reach the same answer for every edition-only siglum spelled with letters alone, the whole class rather than the one body that exposed it", () => {
+      for (const siglum of ["LXX", "DSS", "TR", "RP", "FH", "CT", "GOC", "WH", "ALT", "ECM", "SBL", "Scrivener"]) {
+        expect(classifyFootnote(`${siglum} 76`)).toBe("var");
+      }
+    });
+
+    it("should still read a siglum that doubles as a book abbreviation as the book, since barring those would stop ordinary citations of them matching at all", () => {
+      expect(classifyFootnote("MT 4:6")).toBe("xrf");
+      expect(classifyFootnote("NE 4:6")).toBe("xrf");
+      expect(classifyFootnote("NA 1:7")).toBe("xrf");
+      expect(classifyFootnote("NU 5:6")).toBe("xrf");
+      expect(classifyFootnote("TH 2:13")).toBe("xrf");
+    });
+
+    it("should still match an ordinary one-word book abbreviation standing in the same slot", () => {
+      expect(classifyFootnote("Alpha 76")).toBe("xrf");
+      expect(classifyFootnote("Beta 4:6–8")).toBe("xrf");
+    });
+
+    it("should leave a genuine citation carrying its own trailing tradition siglon as xrf, the slot the siglum legitimately occupies (Hebrews 1:6)", () => {
+      expect(classifyFootnote("Deuteronomy 32:43 LXX")).toBe("xrf");
+    });
+  });
+
+  describe("a book named in full, however long or however many words, resolved from the repo's own registry", () => {
+    /**
+     * Real MSB2025 heading cross-references, the edition that exposed this:
+     * it spells its references out where every other version on disk
+     * abbreviates them, so it is the first corpus to meet the one-word
+     * slot's own twelve-character cap and its one-word count. Every one of
+     * these classified `stu` before the registry drove the book slot, on
+     * the strength of the unmatched book name surviving the residue strip
+     * as prose.
+     */
+    const spelledOutCitations = [
+      "Malachi 4:1–6; 1 Thessalonians 5:1–11; 2 Peter 3:8–13", // Zephaniah 1:7 — thirteen letters, against a twelve-character cap
+      "2 Thessalonians 1:1–4", // 1 Thessalonians 1:1 — the same name standing alone
+      "1 Thessalonians 1:1–10", // 2 Thessalonians 1:1
+      "Colossians 4:15–18; 2 Thessalonians 3:16–18", // 1 Corinthians 16:19
+      "Song of Solomon 1:1–17; 1 Peter 3:1–7", // Ephesians 5:21 — three words, against a one-word slot
+      "Song of Solomon 1:1–17; Ephesians 5:22–33", // 1 Peter 3:1
+    ];
+    it.each(spelledOutCitations)("should classify %j as xrf", (body) => {
+      expect(classifyFootnote(body)).toBe("xrf");
+    });
+
+    it("should accept the Roman-numeral ordinal prose substitutes for the digit, without the registry carrying that spelling", () => {
+      expect(classifyFootnote("II Thessalonians 1:1")).toBe("xrf");
+      expect(classifyFootnote("I Thessalonians 5:1–11")).toBe("xrf");
+    });
+
+    /**
+     * The point of resolving from `bible-books/bible-books.json` rather than
+     * naming the two spellings one edition happened to expose: a book this
+     * repo already knows about is a book this grammar already knows about.
+     * None of these appears in any footnote on disk today, and that is the
+     * claim — the next edition to spell one out needs no change here.
+     */
+    it("should resolve every canonical book name the registry carries, not only the two an edition exposed", () => {
+      const failed = registryBookNames()
+        .map((name) => ({ name, type: classifyFootnote(`${name} 1:1`) }))
+        .filter((probe) => probe.type !== "xrf");
+      expect(failed.map((probe) => `${probe.name} -> ${probe.type}`)).toEqual([
+        // A parenthesized name is destroyed before the citation pattern ever
+        // sees it: the residue pass strips a parenthesized language tag first
+        // (`PARENTHETICAL_LANGUAGE_TAG`), which is the rule that lets
+        // `Alpha 2:1 (Gk.)` read as one citation, and `(Greek)` inside a book
+        // name is indistinguishable from that tag. Three registry spellings
+        // collide with it, no footnote body anywhere on disk carries one, and
+        // reordering the two strips would cost the tag rule the citation-
+        // carrying form it exists for. Recorded rather than worked around.
+        "Esther (Greek) -> stu",
+        "Daniel (Old Greek) -> stu",
+        "Daniel (Greek) -> stu",
+      ]);
+    });
+
+    it("should not admit two arbitrary capitalized words in a row, which is the collision the one-word cap exists to prevent", () => {
+      expect(classifyFootnote("Alpha Beta 4:6")).toBe("stu");
+      expect(classifyFootnote("Or, Jeshimon. See 23:19.")).toBe("trn");
+    });
+
+    /**
+     * A range of whole books names no chapter, so there is nothing for it to
+     * resolve to. Measured over all 322,529 footnote bodies on disk, exactly
+     * one is a whole-book range and nothing else (MSB2025's Hebrews 11:30);
+     * what the same scan turns up in quantity is the collision a rule for it
+     * would walk into, two book names hyphenated into an ordinary compound
+     * noun (`Luke-Acts`, `Ezra-Nehemiah`, `Bar-Jonah`). One body is not a
+     * population, so the construct stays prose.
+     */
+    it("should leave a range of whole books as prose, since it names no chapter to resolve", () => {
+      expect(classifyFootnote("Joshua–Malachi")).toBe("stu");
+    });
+  });
 });
 
 describe("classifyFootnote — var (names a manuscript witness or text-tradition), ordered before trn", () => {
@@ -449,15 +578,15 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
 
   describe("an abbreviated language name followed by a number is a cited book, not a language", () => {
     /**
-     * 16 bodies across 4 versions take this shape, none of them carrying a
-     * textual claim anywhere in it — `LANGUAGE_AFTER_SEMICOLON`'s own doc
-     * comment has the collision behind it. The numbers below are the real
-     * forms the citation takes, since the rule turns on the numeral.
+     * 16 bodies across 4 versions take this shape, none carrying a textual
+     * claim; `LANGUAGE_AFTER_SEMICOLON`'s doc comment has the collision behind
+     * it. The numbers below are the real forms the citation takes, since the
+     * rule turns on the numeral.
      *
-     * What every case here proves is that the body is not `var`: the
-     * abbreviation is read as the book it names rather than the language it
-     * is spelled like. Which of the other three types a body lands on
-     * afterwards is a separate question, decided by whatever else is in it.
+     * What each case proves is that the body is not `var` — the abbreviation
+     * reads as the book it names rather than the language it is spelled like.
+     * Which of the other three types it lands on is decided by whatever else is
+     * in it.
      */
     const citedBookAbbreviations = [
       "The note runs on for a while and then points elsewhere (Alpha 110; Beta 6:13; Heb. 7).", // period, bare chapter
@@ -480,6 +609,37 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
     it("should still read an abbreviated language name after a semicolon as a language when a word rather than a number follows it", () => {
       expect(classifyFootnote("As the versions have it; Heb. lacks this word")).toBe("var");
       expect(classifyFootnote("As the versions have it; Heb omits the clause")).toBe("var");
+    });
+  });
+
+  describe("an abbreviated language name hyphenated into a longer word is part of that word, not a language", () => {
+    /**
+     * MSB2025 prints this body verbatim at Genesis 24:10, Deuteronomy 23:4,
+     * Judges 3:8, 1 Chronicles 19:6, and Psalm 60:1 — a place
+     * identification with no textual claim anywhere in it. The hyphen in
+     * *Aram-naharaim* gives a word boundary, so the first half of the place
+     * name was reading as the Aramaic language on the far side of a
+     * semicolon.
+     */
+    const aramNaharaim =
+      "That is, Mesopotamia; Aram-naharaim means Aram of the two rivers, likely the region between the Euphrates and Balih Rivers in northwestern Mesopotamia.";
+
+    it("should classify MSB2025's Aram-naharaim note as stu, not var", () => {
+      expect(classifyFootnote(aramNaharaim)).toBe("stu");
+    });
+
+    it("should refuse the abbreviation wherever a hyphen carries it into more letters, not only in this one place name", () => {
+      expect(classifyFootnote("As in the parallel passage; Heb-something the rest of the note")).toBe("stu");
+      expect(classifyFootnote("As in the parallel passage; Gr-something the rest of the note")).toBe("stu");
+    });
+
+    it("should still read the abbreviation as a language when the hyphen belongs to what follows it rather than to the abbreviation itself", () => {
+      expect(classifyFootnote("As the versions have it; Heb well-watered land")).toBe("var");
+      expect(classifyFootnote("As the versions have it; Aram. well-watered land")).toBe("var");
+    });
+
+    it("should not extend the refusal to a spelled-out language name, which collides with no place name in the canon", () => {
+      expect(classifyFootnote("As in the parallel passage; Hebrew-something the rest of the note")).toBe("var");
     });
   });
 });
@@ -788,11 +948,11 @@ describe("classifyFootnote — the divine-title-naming template (word rendered/t
 });
 
 /**
- * Proves {@link flattenContentText}'s own bare-`bibleLink`-defaults-to-
- * reference behavior (see that function's doc comment for why it matters)
- * against real corpus shapes.
+ * Proves {@link flattenContentText}'s bare-`bibleLink`-defaults-to-reference
+ * behavior against real corpus shapes; that function's doc comment has why it
+ * matters.
  */
-describe("flattenContentText — a bare bibleLink node's own implied display text", () => {
+describe("flattenContentText — a bare bibleLink node's implied display text", () => {
   it("should flatten a bare {bibleLink} node with no override to the reference itself (2 Kings 12:4's real Exodus 30:12 cross-reference)", () => {
     expect(flattenContentText({ bibleLink: "Exodus 30:12" })).toBe("Exodus 30:12");
   });
@@ -809,9 +969,49 @@ describe("flattenContentText — a bare bibleLink node's own implied display tex
 });
 
 /**
+ * Proves {@link flattenContentText} reads an `{ abbr }` node as its registry
+ * id. Without it, a registry-referencing corpus hides every siglum from
+ * {@link classifyFootnote}, which is how a body naming a printed edition
+ * becomes `var`.
+ */
+describe("flattenContentText — an abbr node's registry id", () => {
+  it("should flatten a bare {abbr} node to its id (MSB2025's Revelation 22:21, whose whole witness list is registry references)", () => {
+    expect(flattenContentText({ abbr: "CT" })).toBe("CT");
+  });
+
+  it("should flatten a real MSB2025 note body's mixed abbr-and-text shape to what it prints (Revelation 22:21)", () => {
+    expect(
+      flattenContentText([
+        { abbr: "CT" },
+        ", ",
+        { abbr: "SBL" },
+        ", ",
+        { abbr: "NE" },
+        ", and ",
+        { abbr: "WH" },
+        " do not include Amen.",
+      ]),
+    ).toBe("CT, SBL, NE, and WH do not include Amen.");
+  });
+
+  it("should classify a witness-naming body whose sigla are abbr nodes as var, exactly as it would if they were plain text (MSB2025's Revelation 22:21)", () => {
+    const body: unknown = [{ abbr: "CT" }, ", ", { abbr: "SBL" }, " do not include Amen."];
+    expect(classifyFootnote(flattenContentText(body))).toBe("var");
+    expect(classifyFootnote("CT, SBL do not include Amen.")).toBe("var");
+  });
+
+  it("should read TR out of the qualified TR-SCRIVENER id, since a hyphen is a word boundary (MSB2025's own qualified registry entry)", () => {
+    expect(flattenContentText({ abbr: "TR-SCRIVENER" })).toBe("TR-SCRIVENER");
+    expect(classifyFootnote(flattenContentText([{ abbr: "TR-SCRIVENER" }, " includes a longer reading here."]))).toBe(
+      "var",
+    );
+  });
+});
+
+/**
  * One regression case per pattern that dropped a period-terminated
- * abbreviation (`WITNESS_ABBREVIATIONS`'s own doc comment has the `\b`
- * mechanics behind why).
+ * abbreviation. `WITNESS_ABBREVIATIONS`'s doc comment has the `\b` mechanics
+ * behind why they dropped.
  */
 describe("classifyFootnote — abbreviations that end in a period still name a witness", () => {
   it("should classify a bare MSS. claim as var (YLT1898's own textual notes, which carry no quantifier the phrase rule could use)", () => {
@@ -847,8 +1047,8 @@ describe("classifyFootnote — abbreviations that end in a period still name a w
 
 /**
  * `witnesses` reads as ordinary scripture vocabulary far more often than
- * apparatus jargon (`VERB_BOUND_WITNESS_NOUN`'s own doc comment has the
- * real corpus split), so a bare quantifier must not be enough on its own.
+ * apparatus jargon, so a bare quantifier must not be enough on its own.
+ * `VERB_BOUND_WITNESS_NOUN`'s doc comment has the real corpus split.
  */
 describe("classifyFootnote — witnesses needs a reading verb, not just a quantifier", () => {
   it("should classify KJV1769's own quoted-scripture body as trn on its Or opener, not var on “two witnesses”", () => {
@@ -888,9 +1088,9 @@ describe("classifyFootnote — symbolic apparatus notation is var", () => {
 });
 
 /**
- * The two real 2026-edition publisher notes that carry no `¦` separator at
- * all — `APPARATUS_NOTATION`'s own doc comment explains why each still
- * needs its own signal rather than falling through to `stu`.
+ * The two real 2026-edition publisher notes that carry no `¦` separator at all.
+ * `APPARATUS_NOTATION`'s doc comment has why each needs a signal of its own
+ * rather than falling through to `stu`.
  */
 describe("classifyFootnote — a critical edition's longer publisher notes", () => {
   it("should classify a prose note about how comparison editions differ as var, on its quantified “editions” (the 2026 edition's own Matthew 23:13-14 note, which carries no apparatus separator at all)", () => {
@@ -911,9 +1111,9 @@ describe("classifyFootnote — a critical edition's longer publisher notes", () 
 });
 
 /**
- * KJV1769's own real spread of original-language abbreviations
- * (`LANGUAGE_OPENER`'s own doc comment has the full count) — a fixed list
- * of full names would not catch any of these.
+ * KJV1769's real spread of original-language abbreviations — a fixed list of
+ * full names would not catch any of these. `LANGUAGE_OPENER`'s doc comment has
+ * the full count.
  */
 describe("classifyFootnote — every spelling of an original-language opener is trn", () => {
   describe("KJV1769's own Hebrew abbreviations", () => {
@@ -1008,5 +1208,127 @@ describe("classifyFootnote — Sam. is a witness only at the start of a note", (
   it("should read a trailing “in Sam.” as the book of Samuel instead (KJV1769's own cross-reference wording)", () => {
     expect(classifyFootnote("Called Ahimelech in Sam.")).toBe("stu");
     expect(classifyFootnote("Or, Hadadezer in Sam")).toBe("trn");
+  });
+});
+
+/**
+ * The MSB's critical-edition apparatus. Every body below is verbatim from
+ * BibleHub's MSB pages, which the publisher has dedicated to the public domain,
+ * and each is cited by book, chapter, and verse.
+ *
+ * The MSB names eleven printed editions the older siglum list had never met,
+ * and 1,764 of its 6,644 notes name one with no already-known siglum beside it.
+ * Three of the eleven need a guard; `WITNESS_SIGLA`'s doc comment has what each
+ * guard is and what it was measured against.
+ */
+describe("classifyFootnote — the MSB's printed-edition sigla", () => {
+  describe("a siglum with no collision anywhere in the corpus", () => {
+    const bodies: readonly [string, string][] = [
+      ["CT (Matthew 1:6)", "CT David"],
+      ["GOC (Matthew 11:21)", "GOC sitting in"],
+      ["F35 (Matthew 7:19)", "F35 Every tree, then,"],
+      ["WH (Matthew 6:8)", "WH God your Father"],
+      ["ALT (Matthew 11:16)", "ALT, F35 marketplace"],
+      ["ECM (Revelation 9:17)", "ECM does not include In a vision."],
+      ["Scrivener (Luke 2:22)", "Literally their purification; Scrivener TR her purification"],
+    ];
+    it.each(bodies)("should classify a body naming %s as var", (_where, body) => {
+      expect(classifyFootnote(body)).toBe("var");
+    });
+  });
+
+  describe("a siglum a critical edition also prints with its own edition number", () => {
+    it("should classify a bare NA as var (Matthew 26:63)", () => {
+      expect(classifyFootnote("NA does not include and dish.")).toBe("var");
+    });
+
+    it("should classify a bare NE as var (Luke 12:27)", () => {
+      expect(classifyFootnote("NE and Tischendorf Consider the lilies: They do not spin or weave.")).toBe("var");
+    });
+
+    it("should classify a bare TH as var (Mark 4:21)", () => {
+      expect(classifyFootnote("TH does not include or under a basket.")).toBe("var");
+    });
+
+    it("should not read a numbered printing of one of those editions as a bare siglum (NET2019's own NA²⁸ shape, whose notes are about where that edition sets a verse division)", () => {
+      expect(
+        classifyFootnote(
+          "The versification of vv. 12 and 13 in the NET (so also NRSV, NLT) is according to the versification in the NA²⁸ and UBS⁵ editions of the Greek text.",
+        ),
+      ).toBe("stu");
+    });
+
+    it("should not read a two-letter siglum standing before a chapter and verse as a siglum at all", () => {
+      expect(classifyFootnote("Cited in NE 4:6")).toBe("xrf");
+    });
+  });
+
+  describe("SBL abbreviates both a printed Greek edition and the society that publishes a journal", () => {
+    it("should classify a bare SBL as var (Mark 1:41)", () => {
+      expect(classifyFootnote("SBL Moved with indignation")).toBe("var");
+    });
+
+    it("should classify SBL beside a proper-noun reading as var (Luke 3:26)", () => {
+      expect(classifyFootnote("NA and SBL Semein; TH and WH Semeein; ALT and HF Semeei; GOC Semeu")).toBe("var");
+    });
+
+    it("should leave a bibliographic citation of that society's own journal alone (NET2019's real Romans 3:22 note, a translation note whose only SBL is in a title)", () => {
+      expect(
+        classifyFootnote(
+          'Or "faith in Christ." Though traditionally translated "faith in Jesus Christ," an increasing number of NT scholars are arguing that this is a subjective genitive; see J. D. G. Dunn, "Once More, ΠΙΣΤΙΣ ΧΡΙΣΤΟΥ," SBL Seminar Papers, 1991, 730-44.',
+        ),
+      ).toBe("trn");
+    });
+  });
+});
+
+/**
+ * `Cited in ‹citation›` is the MSB's lead-in where the other editions in this
+ * corpus write `Fulfilled in` or `Foretold in` — the same construct, naming
+ * where the verse is quoted rather than claiming anything about its wording.
+ * 184 MSB bodies open this way and no body in any other version on disk does.
+ */
+describe("classifyFootnote — a Cited in lead-in is a citation, not a study note", () => {
+  it("should classify a single citation behind the lead-in as xrf (Genesis 1:3)", () => {
+    expect(classifyFootnote("Cited in 2 Corinthians 4:6")).toBe("xrf");
+  });
+
+  it("should classify a two-citation list behind the lead-in as xrf (Genesis 1:27)", () => {
+    expect(classifyFootnote("Cited in Matthew 19:4 and Mark 10:6")).toBe("xrf");
+  });
+
+  it("should keep a body that only mentions being cited, without opening on the lead-in, as stu", () => {
+    expect(classifyFootnote("This verse is cited in the New Testament at Matthew 19:4, where the wording differs.")).toBe(
+      "stu",
+    );
+  });
+});
+
+/**
+ * `Forms of the ‹language› ‹term› … are translated as ‹rendering›` is the MSB's
+ * template for a recurring lexical decision, and a rendering claim in the same
+ * sense `words rendered`/`words translated` already is. The same opener with no
+ * rendering verb behind it is not, since it describes what the term covers and
+ * offers no alternative. 33 of the MSB's 70 `Forms of` bodies carry the verb.
+ */
+describe("classifyFootnote — Forms of the <language> <term> ... are translated", () => {
+  it("should classify the rendering claim as trn (Genesis 14:13)", () => {
+    expect(classifyFootnote("Forms of the Hebrew berit are translated in most passages as covenant.")).toBe("trn");
+  });
+
+  it("should classify the rendering claim with a clause between the term and the verb as trn (Leviticus 13:47)", () => {
+    expect(
+      classifyFootnote(
+        "Forms of the Hebrew tzaraath, traditionally translated as leprosy regarding skin diseases, are translated as mildew regarding blemishes in fabric or leather.",
+      ),
+    ).toBe("trn");
+  });
+
+  it("should leave the same opener with no rendering verb as stu (Exodus 22:20)", () => {
+    expect(
+      classifyFootnote(
+        "Forms of the Hebrew cherem refer to the giving over of things or persons to the LORD, either by destroying them or by giving them as an offering.",
+      ),
+    ).toBe("stu");
   });
 });

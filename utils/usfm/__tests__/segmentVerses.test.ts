@@ -779,19 +779,20 @@ describe("segmentVerses — Psalm 1's own \\ms1 BOOK 1 (no \\d superscription on
     expect(verseOne?.blocks[1]).toMatchObject({ paragraph: true });
   });
 
-  it("should stack the book-division heading before the subtitle before the paragraph content, in that order, on Psalm 42:1", () => {
+  it("should take the ordinal word from the label's own printed numeral, so this fixture's opening BOOK 2 says \"Book Two\" even though it is the first division in the file", () => {
     const records = segmentVerses(readFixture("psalm-42-opening.usfm"), "PSA");
     const verseOne = records.find((record) => record.verse === 1);
     // Verse 1 has two poetry lines (\q1 + \q2), so the block list is
     // heading, heading, content, content.
     const kinds = verseOne?.blocks.map((block) => (block.headingContent === undefined ? "content" : "heading"));
     expect(kinds).toEqual(["heading", "heading", "content", "content"]);
-    // This isolated fixture only sees the first (and only) \ms1 boundary,
-    // so the ordinal is genuinely "Book One" here — a real full-Psalms run
-    // produces "Book Two" for Psalm 42's actual position (see the
-    // whole-corpus verify.ts check).
+    // The range is still computed from this run's own chapters — the
+    // isolated fixture holds only Psalm 42, so it reads 42–42 — but the
+    // *word* comes from "BOOK 2", not from this being the first \ms1 the
+    // file carries. The two numbers answer different questions and the
+    // fixture is what separates them: position alone would say "Book One".
     expect(verseOne?.blocks[0].headingContent).toEqual({
-      heading: [{ text: "Book One", marks: ["sc"] }, " (Psalms 42–42)"],
+      heading: [{ text: "Book Two", marks: ["sc"] }, " (Psalms 42–42)"],
     });
     expect(verseOne?.blocks[1].headingContent).toEqual({
       subtitle: "For the Chief Musician. A contemplation by the sons of Korah.",
@@ -1399,5 +1400,237 @@ describe("segmentVerses — fraction normalization reaches the empty-verse fallb
   it("should normalize the fraction in rawContent's own empty-verse fallback, proving plainText (not just the footnote's displayed content) reaches this path already normalized", () => {
     const verseOne = records.find((record) => record.verse === 1);
     expect(verseOne?.rawContent).toBe(`It was about ${uniformFraction("2", "3")} of a bushel.`);
+  });
+});
+
+/**
+ * All ten `\ms1` markers on disk are Psalter book divisions (WEBUS2020's
+ * "BOOK 1".."BOOK 5", ASV1901's "BOOK I".."BOOK V", every one in Psalms),
+ * so the two directions below are what a content-based recognition has to
+ * hold: the real division labels still land, and an `\ms1` that is not one
+ * keeps the text it actually prints.
+ */
+describe("segmentVerses — ASV1901's real \\ms1 BOOK I (Psalm 1:1, the Roman-numeral spelling of the division label)", () => {
+  const records = segmentVerses(readFixture("asv1901-psalm-1-1-ms1-book-i.usfm"), "PSA");
+
+  it("should still build the book-division heading from a Roman-numeral label, ahead of verse 1's own first line", () => {
+    const verseOne = records.find((record) => record.verse === 1);
+    expect(verseOne?.blocks[0]).toEqual({
+      text: "",
+      headingContent: { heading: [{ text: "Book One", marks: ["sc"] }, " (Psalms 1–1)"] },
+    });
+  });
+});
+
+/**
+ * ASV1901 writes four of its own five divisions *ahead* of the `\c` that
+ * opens them, where WEBUS2020 writes all five after it. Both layouts are
+ * on disk and mean the identical thing, so what has to hold is that the
+ * division lands on the chapter it announces and nowhere else.
+ */
+describe("segmentVerses — ASV1901's \\ms1 BOOK II written ahead of its own \\c 42 (Psalm 41:1-42:2, 20-PSAeng-asv.usfm)", () => {
+  const records = segmentVerses(readFixture("asv1901-psalm-41-42-2-ms1-book-ii.usfm"), "PSA");
+
+  it("should open the division on Psalm 42, the chapter the marker is announcing, never on Psalm 41, the chapter still in scope where it sits", () => {
+    const chapterFortyTwoVerseOne = records.find((record) => record.chapter === 42 && record.verse === 1);
+    expect(chapterFortyTwoVerseOne?.blocks[0]).toEqual({
+      text: "",
+      headingContent: { heading: [{ text: "Book Two", marks: ["sc"] }, " (Psalms 42–42)"] },
+    });
+  });
+
+  it("should leave Psalm 41:1 carrying only its own \\d superscription, never the division heading the chapter-counter reading would have attached there", () => {
+    const chapterFortyOneVerseOne = records.find((record) => record.chapter === 41 && record.verse === 1);
+    expect(chapterFortyOneVerseOne?.blocks[0]?.headingContent).toEqual({
+      subtitle: "For the Chief Musician. A Psalm of David.",
+    });
+    expect(JSON.stringify(chapterFortyOneVerseOne)).not.toContain("Book Two");
+  });
+
+  it("should leave Psalm 41:13's own last block clean, since a division written between two chapters is not content of the one it closes", () => {
+    const chapterFortyOneVerseThirteen = records.find((record) => record.chapter === 41 && record.verse === 13);
+    expect(last(blockFlags(chapterFortyOneVerseThirteen?.blocks ?? []))).toEqual({ text: "Amen, and Amen." });
+    expect(JSON.stringify(chapterFortyOneVerseThirteen)).not.toContain("BOOK");
+  });
+});
+
+describe("segmentVerses — ASV1901's \\ms1 BOOK IV ahead of \\c 90 (Psalm 90:1, 20-PSAeng-asv.usfm)", () => {
+  const records = segmentVerses(readFixture("asv1901-psalm-90-opening-ms1-book-iv.usfm"), "PSA");
+
+  it("should say \"Book Four\" from the Roman numeral the label prints, and open on Psalm 90, even though this is the only division the fixture carries", () => {
+    const verseOne = records.find((record) => record.verse === 1);
+    expect(verseOne?.blocks[0]).toEqual({
+      text: "",
+      headingContent: { heading: [{ text: "Book Four", marks: ["sc"] }, " (Psalms 90–90)"] },
+    });
+  });
+});
+
+/**
+ * Only `\ms1` is on disk, so `\ms`/`\ms2`/`\ms3` are synthetic here — but
+ * the failure they rule out is silent, so both directions need holding:
+ * each level builds the same heading, and none of them leaves its text in
+ * the surrounding verse's prose.
+ */
+describe("segmentVerses — \\ms, \\ms2 and \\ms3, the major-section levels no source on disk carries (synthetic)", () => {
+  // Mid-chapter on purpose: a heading standing between two open verses is
+  // where an unrecognized marker does its damage, since the `started`
+  // guard is no longer there to drop its text at chapter start.
+  const segmentedWith = (marker: string) =>
+    segmentVerses(
+      `\\c 7\n\\p\n\\v 1 It happened in the days of Ahaz.\n\\${marker} The Book of Immanuel\n\\p\n\\v 2 It was told the house of David.\n`,
+      "ISA",
+    );
+
+  it.each(["ms", "ms1", "ms2", "ms3"])(
+    "should build \\%s's own printed text into an ordinary heading opening the verse that follows it, the same one every level reduces to",
+    (marker) => {
+      const verseTwo = segmentedWith(marker).find((record) => record.verse === 2);
+      expect(verseTwo?.blocks[0]).toEqual({ text: "", headingContent: { heading: "The Book of Immanuel" } });
+    },
+  );
+
+  it.each(["ms", "ms2", "ms3"])(
+    "should never sweep \\%s's own heading text into the preceding verse's prose, the silent shape a marker this walk does not know produces",
+    (marker) => {
+      const verseOne = segmentedWith(marker).find((record) => record.verse === 1);
+      expect(verseOne?.rawContent).toBe("It happened in the days of Ahaz.");
+      expect(JSON.stringify(verseOne)).not.toContain("Immanuel");
+    },
+  );
+
+  it("should still recognize a Psalter book division on a level other than \\ms1, since the label's own text is what makes it one", () => {
+    const records = segmentVerses("\\c 42\n\\ms BOOK 2\n\\q1\n\\v 1 As the hart panteth.\n", "PSA");
+    const verseOne = records.find((record) => record.verse === 1);
+    expect(verseOne?.blocks[0].headingContent).toEqual({
+      heading: [{ text: "Book Two", marks: ["sc"] }, " (Psalms 42–42)"],
+    });
+  });
+});
+
+/**
+ * Synthetic — no source on disk carries `\mr` at all. Same three
+ * directions as the `\ms` levels above, plus the one shape this construct
+ * has no answer for: an `\mr` with no heading in front of it.
+ */
+describe("segmentVerses — \\mr, the reference range under a major-section heading (synthetic)", () => {
+  // Mid-chapter for the same reason the `\ms` fixture above is: this is
+  // where an unrecognized marker's text lands inside verse prose instead
+  // of being dropped by the chapter-start `started` guard.
+  const records = segmentVerses(
+    "\\c 1\n\\p\n\\v 1 Solomon was strengthened in his kingdom.\n\\ms1 The Reign of Solomon\n\\mr (1 Kings 1–11)\n\\p\n\\v 2 Solomon spoke to all Israel.\n",
+    "2CH",
+  );
+
+  it("should hang the range on its own heading's text node as an xrf footnote, with the display parentheses dropped and the target resolved to a bibleLink", () => {
+    const verseTwo = records.find((record) => record.verse === 2);
+    expect(verseTwo?.blocks[0]).toEqual({
+      text: "",
+      headingContent: {
+        heading: { text: "The Reign of Solomon", foot: { type: "xrf", content: { bibleLink: "1 Kings 1–11" } } },
+      },
+    });
+  });
+
+  it("should never sweep the range into the preceding verse's prose, the silent shape a marker this walk does not know produces", () => {
+    const verseOne = records.find((record) => record.verse === 1);
+    expect(verseOne?.rawContent).toBe("Solomon was strengthened in his kingdom.");
+    expect(JSON.stringify(verseOne)).not.toContain("1 Kings");
+  });
+
+  it("should throw rather than guess when an \\mr follows no major-section heading, since there is then no heading text to hang it on", () => {
+    expect(() => segmentVerses("\\c 1\n\\p\n\\v 1 Solomon reigned.\n\\mr (1 Kings 1–11)\n", "2CH")).toThrow(
+      /follows no major-section heading/,
+    );
+  });
+});
+
+describe("segmentVerses — an \\ms1 outside Psalms (synthetic — no source on disk carries \\ms1 anywhere but Psalms)", () => {
+  const records = segmentVerses(
+    "\\c 7\n\\ms1 The Book of Immanuel\n\\p\n\\v 1 It happened in the days of Ahaz.\n",
+    "ISA",
+  );
+
+  it("should keep the marker's own printed text as an ordinary heading, never a Psalter book division", () => {
+    const verseOne = records.find((record) => record.verse === 1);
+    expect(verseOne?.blocks[0]).toEqual({ text: "", headingContent: { heading: "The Book of Immanuel" } });
+  });
+
+  it("should never name Psalms in a heading built for another book, the shape this used to emit", () => {
+    expect(JSON.stringify(records)).not.toContain("Psalms");
+    expect(JSON.stringify(records)).not.toContain("Book One");
+  });
+
+  it("should open the content after the heading with paragraph: true, the same promise \\d/\\sp/\\s1 already make", () => {
+    const verseOne = records.find((record) => record.verse === 1);
+    expect(blockFlags(verseOne?.blocks.slice(1) ?? [])).toEqual([
+      { text: "It happened in the days of Ahaz.", paragraph: true, break: undefined },
+    ]);
+  });
+});
+
+describe("segmentVerses — an \\ms1 inside Psalms that is not a book-division label (synthetic)", () => {
+  const records = segmentVerses(
+    "\\c 120\n\\ms1 The Songs of Ascent\n\\q1\n\\v 1 In my distress I cried to Yahweh.\n",
+    "PSA",
+  );
+
+  it("should treat it as an ordinary heading on its own printed text, since being in Psalms is not by itself a book division", () => {
+    const verseOne = records.find((record) => record.verse === 1);
+    expect(verseOne?.blocks[0]).toEqual({ text: "", headingContent: { heading: "The Songs of Ascent" } });
+    expect(JSON.stringify(records)).not.toContain("(Psalms");
+  });
+});
+
+/**
+ * `\qc` is USFM's centered poetic line, and all 22 on disk are Psalm 119
+ * letter headings — so, as with `\ms1` above, both directions need
+ * holding: ASV1901's real letter headings still land, and a `\qc` carrying
+ * an actual poetic line is dispatched with `\q1`/`\q2`/`\q3`.
+ */
+describe("segmentVerses — ASV1901's real \\qc ח HHETH. (Psalm 119:56-57), a spelling no standard transliteration table carries", () => {
+  const records = segmentVerses(readFixture("asv1901-psalm-119-hheth.usfm"), "PSA");
+
+  it("should still attach HHETH as verse 57's own acrostic heading block, never demote it to a poetic line for being misspelled", () => {
+    const verseFiftySeven = records.find((record) => record.verse === 57);
+    expect(verseFiftySeven?.blocks[0]).toEqual({
+      text: "",
+      headingContent: { heading: [{ text: "ח", script: "H" }, " HHETH."], type: "acrostic" },
+    });
+  });
+});
+
+describe("segmentVerses — a \\qc carrying a real centered poetic line (synthetic — every \\qc on disk is a letter heading)", () => {
+  const records = segmentVerses(
+    "\\c 1\n\\q1\n\\v 1 Praise Yahweh, all you nations!\n\\qc Extol him, all you peoples!\n\\q1\n\\v 2 For his loving kindness is great.\n",
+    "PSA",
+  );
+
+  it("should keep the line's own text as verse content rather than building a heading block out of it", () => {
+    const verseOne = records.find((record) => record.verse === 1);
+    expect(verseOne?.blocks.some((block) => block.headingContent !== undefined)).toBe(false);
+    expect(verseOne?.rawContent).toContain("Extol him, all you peoples!");
+  });
+
+  it("should end the line before it with break: true, exactly as \\q1/\\q2/\\q3 do", () => {
+    const verseOne = records.find((record) => record.verse === 1);
+    expect(blockFlags(verseOne?.blocks ?? [])).toEqual([
+      { text: "Praise Yahweh, all you nations!", paragraph: true, break: true },
+      { text: "Extol him, all you peoples!", paragraph: undefined, break: true },
+    ]);
+  });
+});
+
+describe("segmentVerses — a poetic \\qc immediately after a chapter boundary (synthetic — the clean-cut guard must absorb it the way it absorbs a bare \\qN)", () => {
+  const records = segmentVerses(
+    "\\c 1\n\\q1\n\\v 1 The first psalm's last line.\n\\b\n\\c 2\n\\qc Why do the nations rage?\n\\v 1 Why do the nations rage?\n",
+    "PSA",
+  );
+
+  it("should leave chapter 1's own last block clean, with no break: true reaching back across the boundary", () => {
+    const chapterOne = records.filter((record) => record.chapter === 1);
+    expect(blockFlags(last(chapterOne)?.blocks ?? [])).toEqual([
+      { text: "The first psalm's last line.", paragraph: true, break: undefined },
+    ]);
   });
 });
