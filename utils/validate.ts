@@ -14,6 +14,7 @@ import Content, { ContentBibleLink } from "../types/Content";
 import { normalizeFractionsInContent } from "../functions/normalizeFractions";
 import { normalizeEllipsesInContent } from "../functions/normalizeEllipses";
 import { normalizeQuotesInContent } from "../functions/normalizeStraightQuotes";
+import { normalizeDiacriticsInContent } from "../functions/normalizeGreekDiacritics";
 import {
   tagScriptRunsInContent,
   SkipReason as UntaggedScriptRunSkipReason,
@@ -54,6 +55,10 @@ import {
 } from "./fixFootnoteMarkerSpacing";
 import { removeDuplicateFootnoteAnchorsInContent } from "./fixDuplicateFootnoteAnchors";
 import { mergeEquivalentSiblingsInContent } from "../functions/mergeEquivalentSiblingsInContent";
+import {
+  findUnknownAbbreviations,
+  formatUnknownAbbreviation,
+} from "./abbreviations";
 import { mergeMarkBoundarySpacesInContent } from "./fixMarkBoundarySpaces";
 
 /** Path to the bible-books registry JSON file. */
@@ -280,6 +285,34 @@ async function normalizeEllipsesInFile(filePath: string): Promise<boolean> {
  * same reason as those two: this step only mutates an existing `text`
  * string's value in place.
  */
+/**
+ * Repairs every misplaced Greek dialytika in one verse file and writes it
+ * back if anything changed.
+ *
+ * Uses {@link normalizeDiacriticsInContent} own per-verse `changed` flag, the
+ * same pattern the fraction, ellipsis and quote steps use. No
+ * `sortVerseKeys` call is needed, same reason as those three: this step only
+ * mutates an existing `text` string value in place.
+ */
+async function normalizeDiacriticsInFile(filePath: string): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = normalizeDiacriticsInContent(verse.content as Content);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return { ...verse, content: rewritten.content };
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+    return true;
+  }
+  return false;
+}
+
 async function normalizeQuotesInFile(filePath: string): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
@@ -789,6 +822,7 @@ export function findResidualContentChanges(
   applyStep("fraction normalization", (c) => normalizeFractionsInContent(c));
   applyStep("ellipsis normalization", (c) => normalizeEllipsesInContent(c));
   applyStep("straight-quote normalization", (c) => normalizeQuotesInContent(c));
+  applyStep("dialytika repair", (c) => normalizeDiacriticsInContent(c));
   applyStep("script-run tagging", (c) => tagScriptRunsInContent(c));
   applyStep("unmerged-node merge", (c) => mergeUnmergedNodesInContent(c));
   applyStep("footnote punctuation reorder", (c) => reorderFootnotePunctuationInContent(c));
@@ -1278,6 +1312,9 @@ export function normalizeBibleLinkDashesInContent(
     return { content: { ...content, paragraph: rewritten.content }, changed: rewritten.changed };
   }
 
+  // An abbreviation node is a leaf: it holds an id, never text or a link.
+  if ("abbr" in content) return { content, changed: false };
+
   let result: Content = content;
   let changed = false;
   if ("content" in content) {
@@ -1634,6 +1671,26 @@ async function main(requestedVersion?: string) {
     console.log(`\n✅ Normalized straight quotes in ${quotesNormalizedCount} file(s)\n`);
   } else {
     console.log("✅ All quotes already normalized\n");
+  }
+
+  console.log("◌̈  Repairing misplaced Greek dialytika...\n");
+
+  let dialytikaRepairedCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasRepaired = await normalizeDiacriticsInFile(file);
+      if (wasRepaired) {
+        dialytikaRepairedCount++;
+        console.log(`  🔄 Repaired misplaced dialytika: ${file}`);
+      }
+    }
+  }
+
+  if (dialytikaRepairedCount > 0) {
+    console.log(`\n✅ Repaired misplaced dialytika in ${dialytikaRepairedCount} file(s)\n`);
+  } else {
+    console.log("✅ All Greek dialytika already well-formed\n");
   }
 
   console.log("🈯 Tagging untagged script runs...\n");
@@ -2315,12 +2372,48 @@ async function main(requestedVersion?: string) {
   }
   console.log(`   ${unresolvableTargetsScanned} bibleLink node(s) scanned corpus-wide`);
 
+  // Abbreviation audit: every `{ abbr }` node naming an id its own version
+  // registry defines, and no registry defining an id twice. Fifth peer audit,
+  // report-only for the same reason as the four above: a bad id is either a
+  // typo in the content or a missing registry entry, and only a person can
+  // say which. Prints its own `scanned` count, matching them.
+  console.log("\n🔤 Auditing abbreviation references...");
+  let abbreviationsPassed = true;
+  let abbreviationsScanned = 0;
+
+  for (const versionDir of versionDirs) {
+    const { findings, duplicates, scanned } = findUnknownAbbreviations(
+      `${bibleVersionsDir}/${versionDir}`
+    );
+    abbreviationsScanned += scanned;
+    if (findings.length === 0 && duplicates.length === 0) {
+      console.log(`✅ ${versionDir}: every abbreviation resolves (${scanned} abbr node(s) scanned)`);
+      continue;
+    }
+
+    if (duplicates.length > 0) {
+      console.error(`❌ ${versionDir}: ${duplicates.length} duplicate registry id(s):`);
+      for (const duplicate of duplicates) {
+        console.error(`  "${duplicate.id}" defined ${duplicate.count} times in _version.json`);
+      }
+    }
+    if (findings.length > 0) {
+      console.error(`❌ ${versionDir}: ${findings.length} unresolved abbreviation(s) (${scanned} abbr node(s) scanned):`);
+      for (const finding of findings) {
+        console.error(`  ${formatUnknownAbbreviation(finding)}`);
+      }
+    }
+    abbreviationsPassed = false;
+  }
+  console.log(`   ${abbreviationsScanned} abbr node(s) scanned corpus-wide`);
+
   if (
     !declaredChapterMismatchesPassed ||
     !crossChapterLinksPassed ||
     !truncatedRangesPassed ||
     !nodeConventionsPassed ||
-    !unresolvableTargetsPassed
+    !unresolvableTargetsPassed ||
+    !abbreviationsPassed
   ) {
     if (!declaredChapterMismatchesPassed) {
       console.error("\n❌ Declared chapter count audit failed! A book's chapters count in _version.json must match the highest chapter its own verse file actually carries. See the findings printed above for detail — fix by completing the verse file or correcting the declared count to what the file actually has.");
@@ -2337,10 +2430,13 @@ async function main(requestedVersion?: string) {
     if (!unresolvableTargetsPassed) {
       console.error("\n❌ Unresolvable bibleLink target audit failed! Each target above names a chapter or verse no version on disk records, so nothing can open it. This check has no auto-fix: correct the target, or add the version that carries it.");
     }
+    if (!abbreviationsPassed) {
+      console.error("\n❌ Abbreviation audit failed! Each id above is written in content but missing from its own version’s `abbr` registry, or defined there twice. Registries are per-version on purpose — the same short code means different things in different editions — so there is nowhere for a lookup to fall through to. No auto-fix: add the registry entry, or correct the id in the content.");
+    }
     process.exit(1);
   }
 
-  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, and unresolvable-target audits all passed!");
+  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, and abbreviation audits all passed!");
 }
 
 // Guard so importing this module (e.g. from tests) doesn't also run main()

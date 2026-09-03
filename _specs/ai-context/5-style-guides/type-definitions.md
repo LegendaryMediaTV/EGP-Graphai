@@ -46,7 +46,7 @@ interface Example {
   _id: string; // Unique 3-character identifier
   script?: "G" | "H"; // Greek or Hebrew; Latin if omitted
   strong?: string; // Pattern: ^[GH][0-9]{1,4}$
-  marks?: ("i" | "b" | "woc" | "sc")[]; // Formatting: italic, bold, words of Christ, small caps
+  marks?: ("i" | "b" | "woc" | "sc" | "sup")[]; // Formatting: italic, bold, words of Christ, small caps, superscript
 }
 ```
 
@@ -103,7 +103,7 @@ type Content =
 interface ContentObject {
   text: string;
   script?: "G" | "H"; // Greek or Hebrew script
-  marks?: ("i" | "b" | "woc" | "sc")[]; // Formatting marks
+  marks?: ("i" | "b" | "woc" | "sc" | "sup")[]; // Formatting marks
   foot?: Footnote; // Attached footnote
   strong?: string; // Strong's number (G/H + digits)
   lemma?: string; // Lexical lemma

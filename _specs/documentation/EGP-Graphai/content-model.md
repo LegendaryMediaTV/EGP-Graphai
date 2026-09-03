@@ -10,7 +10,7 @@ Scripture is uneven. One verse is a single sentence; the next is a poem with lin
 
 The trade-off: every consumer must dispatch on the shape of each node and recurse. The payoff: any new presentation primitive (subtitles, Bible links, future additions) is just one more discriminated case, with no schema migrations for existing data.
 
-## The seven shapes
+## The eight shapes
 
 A `Content` value is always one of these:
 
@@ -23,6 +23,7 @@ A `Content` value is always one of these:
 | Subtitle       | `{ subtitle: ... }`                         | Psalm superscriptions, ascription lines                   |
 | Paragraph wrap | `{ paragraph: <Content> }`                  | Explicit paragraph grouping (rare, usually a flag)       |
 | Bible link     | `{ bibleLink: "Hebrews 11:3", content? }`   | Cross-reference target, with optional display override    |
+| Abbreviation   | `{ abbr: "NA27" }`                          | Reference to the version's abbreviation registry         |
 | Array          | `[ ...Content ]`                            | Sequence of any of the above                              |
 
 Most verses are an array of text objects with interspersed strings. The other shapes appear where they're needed.
@@ -45,6 +46,12 @@ Each shape exists because flat alternatives were tried and found wanting.
 
 **Bible link with display override.** A footnote that says "see also Exodus 3:3–4" should show "Exodus 3:3–4" by default. But in formatted text where the book is already named ("the burning bush of Exodus 3:3–4"), you might want the displayed text to be just "3:3–4" while the link still targets the full reference. The optional `content` carries that override.
 
+**Abbreviation as a reference, not text.** A critical apparatus repeats the same few sigla thousands of times. BYZ2026 writes `CT` in 5,005 footnotes and `WH` in 2,496. Spelling each one out inline would mean 10,000 copies of the same bibliographic entry, and correcting one entry would mean 10,000 edits. So content carries only the id. `_version.json` carries an `abbr` array of `{ _id, name, description }`, where `name` is how the code prints and `description` is what it stands for. `name` is itself content, so `NA27` prints as `NA` plus a `27` carrying the `sup` mark. The text and markdown exports render the name and drop the description. The web reader shows the name, with the description on hover and in a modal.
+
+Every version has its own registry and there is no shared fallback. The same short code means different things in different editions. One version's `MT` is the Masoretic Text, another's is the Majority Text, and BYZ2018's bare `M` is neither. An id resolved outside its own version would pick up the wrong meaning, so `validate` reports an unresolved id as an error instead of looking elsewhere for it.
+
+A registry entry decides its own typography, and the markdown exporter honors it. When a `name` is a single object carrying `i` or `b`, the siglum joins the emphasis run around it rather than opening a span of its own, so a siglum followed by an editorial remark prints as one italic run the way the source edition sets it. A name that is a bare string or an array renders opaquely, since the first has no emphasis to share and the second can vary its marks element by element.
+
 ## Annotations: Strong's, morphology, lemmas
 
 Three lexical pointers can attach to any text object or nested wrapper:
@@ -65,6 +72,7 @@ A `marks` array carries presentation choices:
 | `b`   | Bold: strong emphasis                                        |
 | `woc` | Words of Christ: rendered in the user's chosen accent color  |
 | `sc`  | Small caps: divine names (LORD, GOD) in OT translations      |
+| `sup` | Superscript: edition numbers (NA27), manuscript corrector and legibility modifiers (D2, 1143vid) |
 
 Marks are validated against a fixed enum; arrays are sorted alphabetically during canonical key ordering so diffs stay stable across edits.
 
@@ -100,3 +108,9 @@ If you're extending the content model with a new variant, all of the following m
 6. Add tests in [functions/__tests__/sortContentKeys.test.ts](../../../functions/__tests__/sortContentKeys.test.ts) and [utils/__tests__/exportContent.test.ts](../../../utils/__tests__/exportContent.test.ts)
 
 Forgetting any one of these produces silently-broken output: validation passes but the variant doesn't render, or renders in the wrong slot. The recurring lesson is that all five surfaces must agree: schema, types, sorter, exporter, reader.
+
+Two more surfaces matter if your shape is a *leaf* that renders text of its own, the way `abbr` and `bibleLink` do. `describeNode` in [utils/auditNodes.ts](../../../utils/auditNodes.ts) and `isBoundary` in [functions/tagScriptRunsInContent.ts](../../../functions/tagScriptRunsInContent.ts) both classify siblings in an array to decide what may merge or split. A leaf that neither one recognizes looks like a text node with no text, so the merge and script-tagging passes draw conclusions about its neighbors that its rendered output contradicts. Add it to both boundary checks.
+
+The exporter needs one more thing from a new *mark*. Its array branch shares emphasis delimiters across adjacent siblings carrying the same marks, and it builds each node's `core` in `renderTextObjectParts` and `renderNestedContentParts`, never through `wrapEmphasisMarks`. A mark applied anywhere but where the core is built works on a lone node and vanishes inside an array. That is where `sup` is applied.
+
+A leaf can still take part in that emphasis run when the marks it renders with come from somewhere else. Both `abbr` and `bibleLink` do, one from its registry entry's `name` and the other from its display override, and each has a resolver naming the one shape allowed in: a single object carrying marks, never an array. Keep any future case that narrow. An array can change marks between its elements, leaving the run no single state to carry forward.

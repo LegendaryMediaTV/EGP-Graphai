@@ -1392,7 +1392,10 @@
       "text": "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit.",
       "foot": {
         "type": "var",
-        "content": "NU omits “who don’t walk according to the flesh, but according to the Spirit”"
+        "content": [
+          { "abbr": "NU" },
+          " omits “who don’t walk according to the flesh, but according to the Spirit”"
+        ]
       }
     }
   },
@@ -1762,7 +1765,10 @@
       "text": "For being not yet born, neither having done anything good or bad, that the purpose of God according to election might stand, not of works, but of him who calls,",
       "foot": {
         "type": "var",
-        "content": "NU puts the phrase “not of works, but of him who calls” at the beginning of verse 12 instead of the end of verse 11."
+        "content": [
+          { "abbr": "NU" },
+          " puts the phrase “not of works, but of him who calls” at the beginning of verse 12 instead of the end of verse 11."
+        ]
       }
     }
   },
@@ -2798,7 +2804,10 @@
         "text": "For the commandments, “You shall not commit adultery,” “You shall not murder,” “You shall not steal,”",
         "foot": {
           "type": "var",
-          "content": "TR adds “You shall not give false testimony,”"
+          "content": [
+            { "abbr": "TR" },
+            " adds “You shall not give false testimony,”"
+          ]
         }
       },
       {
@@ -3047,7 +3056,8 @@
       "foot": {
         "type": "var",
         "content": [
-          "TR places verses 24-26 after ",
+          { "abbr": "TR" },
+          " places verses 24-26 after ",
           { "bibleLink": "Romans 16:24" },
           " as verses 25-27."
         ]
@@ -3107,7 +3117,10 @@
       {
         "paragraph": true,
         "text": "Therefore accept one another, even as Christ also accepted you,",
-        "foot": { "type": "var", "content": "TR reads “us” instead of “you”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " reads “us” instead of “you”"]
+        }
       },
       " to the glory of God."
     ]
@@ -3524,7 +3537,8 @@
       "foot": {
         "type": "var",
         "content": [
-          "TR places ",
+          { "abbr": "TR" },
+          " places ",
           { "bibleLink": "Romans 14:24–26" },
           " at the end of Romans instead of at the end of chapter 14, and numbers these verses 16:25-27."
         ]

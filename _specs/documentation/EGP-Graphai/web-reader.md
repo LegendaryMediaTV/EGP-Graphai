@@ -104,6 +104,12 @@ A `bibleLink` node renders as an anchor. Clicking it calls an `onBibleLinkClick`
 
 If you implement navigation, the parser needs to handle the canonical formats (`"Hebrews 11:3"`, `"Psalm 104:30"`, `"John 3:15–18"`, comma-separated lists like `"Isaiah 66:10, 13"`). The en-dash (not hyphen) is the canonical range separator.
 
+## Abbreviation references
+
+An `abbr` node carries only an id, so the reader needs the current version's registry to render it at all (see [content-model.md](./content-model.md)). That registry arrives with the version metadata the app already loads, and a React context carries it down. The prop-threading alternative would have to pass it through every component between the app and the leaf that needs it, none of which has any use for it.
+
+The rendered siglum is an `<abbr>` element with the registry entry's description as its tooltip, and clicking it opens the same modal the footnotes use. An id the registry doesn't define falls back to printing the bare id rather than rendering nothing, which keeps a chapter readable while `npm run validate` is what actually reports the missing entry. Registries are per-version, so the map rebuilds whenever the reader switches versions.
+
 ## Operational tips
 
 - **The server reads files synchronously on each request.** Fine for local dev; if you ever expose this beyond localhost, add caching.

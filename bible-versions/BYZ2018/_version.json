@@ -4,6 +4,42 @@
   "copyright": "Scripture quotations from the 2018 Robinson-Pierpont edition of the Greek New Testament in the Original Greek, Byzantine Majority Text. It is in the public domain.",
   "license": "CC0-1.0",
   "script": "G",
+  "abbr": [
+    {
+      "_id": "B",
+      "name": "B",
+      "description": "Denotes a variant reading within the Byzantine tradition."
+    },
+    {
+      "_id": "C",
+      "name": "C",
+      "description": "Denotes an NA27 and NA28 variant reading."
+    },
+    {
+      "_id": "E",
+      "name": "E",
+      "description": "Denotes an NA28 variant reading."
+    },
+    {
+      "_id": "M",
+      "name": "M",
+      "description": [
+        "Denotes a variant reading in the ",
+        { "text": "Editio Critica Maior", "marks": ["i"] },
+        "."
+      ]
+    },
+    {
+      "_id": "N",
+      "name": "N",
+      "description": "Denotes a Nestle-Aland variant reading."
+    },
+    {
+      "_id": "S",
+      "name": "S",
+      "description": "Denotes an NA27 variant reading."
+    }
+  ],
   "books": [
     {
       "_id": "MAT",

@@ -6,12 +6,12 @@
 
 - **Vitest** – Modern test runner configured via `npm run test` (executes `vitest --run`)
 - **Configuration** – No `vitest.config.ts` file present; uses default configuration
-- **Suite size** – 41 test files, 1,324 tests, all passing. Every test reads only tracked files: a `.usfm` fixture, content this repo ships under `bible-versions/`, or a temp directory it writes itself. A fresh clone runs the whole suite with nothing beyond `npm install`, and nothing is skipped — the `fs.existsSync` guards and `describe.skip` placeholders that once stood in for specs needing a local raw-USFM corpus are gone
+- **Suite size** – 42 test files, 1,482 tests, all passing. Every test reads only tracked files: a `.usfm` fixture, content this repo ships under `bible-versions/`, or a temp directory it writes itself. A fresh clone runs the whole suite with nothing beyond `npm install`, and nothing is skipped — the `fs.existsSync` guards and `describe.skip` placeholders that once stood in for specs needing a local raw-USFM corpus are gone
 
 ### Test Locations
 
 - **Test directories** – Tests are in `__tests__/` folders alongside source files:
-  - `functions/__tests__/*.test.ts` (11 files): schema, small-caps conversion, version discovery, key sorting, atomic writes, and the six shared text-normalization helpers `validate.ts`'s auto-fix pass calls into (`normalizeFractions.test.ts`, `normalizeEllipses.test.ts`, `normalizeStraightQuotes.test.ts`, `mapContentText.test.ts`, `tagScriptRunsInContent.test.ts`, `mergeEquivalentSiblingsInContent.test.ts`), of which the USFM importer also uses `normalizeFractions.ts`
+  - `functions/__tests__/*.test.ts` (12 files): schema, small-caps conversion, version discovery, key sorting, atomic writes, and the seven shared text-normalization helpers `validate.ts`'s auto-fix pass calls into (`normalizeFractions.test.ts`, `normalizeEllipses.test.ts`, `normalizeStraightQuotes.test.ts`, `normalizeGreekDiacritics.test.ts`, `mapContentText.test.ts`, `tagScriptRunsInContent.test.ts`, `mergeEquivalentSiblingsInContent.test.ts`), of which the USFM importer also uses `normalizeFractions.ts`
   - `utils/__tests__/*.test.ts` (14 files): export, cross-chapter links, validation, the Strong's-node audit, USFM import, footnote re-classification, embedded-reference re-linking, and seven of the nine node-placement auto-fixers' own suites (`fixUnmergedNodes.test.ts`, `fixHeadingParagraphs.test.ts`, `fixFootnotePunctuationOrder.test.ts`, `fixMarkBoundaryEmbeddedSpaces.test.ts`, `fixMarkBoundarySpaces.test.ts`, `fixFootnoteMarkerSpacing.test.ts`, `fixDuplicateFootnoteAnchors.test.ts`)
   - `utils/usfm/__tests__/*.test.ts` (15 files: tokenizer, per-construct builders, and USFM-convention regression specs for the import pipeline)
   - `web/public/js/__tests__/footnoteText.test.ts`
@@ -44,7 +44,7 @@
 
 ### Content Processing / Export Domain
 
-- **Existing tests** – `utils/__tests__/exportContent.test.ts` (115 tests)
+- **Existing tests** – `utils/__tests__/exportContent.test.ts` (118 tests)
 - **Covered scenarios:**
   - Plain text conversion with Strong's numbers and morphology
   - Markdown conversion with paragraph markers, footnotes, line breaks
@@ -52,6 +52,9 @@
   - Standard vs. acrostic heading rendering: triple-bracket marker in text, one-heading-level-smaller in markdown, across both the generic dispatch and the chapter/verse-leading special cases
   - Footnote marker placement and ordering, including a second footnote on the same word (textless-sibling shape) landing its marker before the Strong's number, matching the first footnote's position
   - Small caps rendering in text and markdown exports
+  - Abbreviation resolution through a version registry, markup and all, plus the bare-id fallback when the registry does not define it
+  - Superscript rendering: a `<sup>` tag in markdown, inline in plain text, with whitespace kept outside the tag so neighbors do not fuse
+  - A mark-bearing registry name sharing one emphasis span with the prose beside it, and the two guard cases (a bare-string name, an array name) staying opaque
   - Bold/italic rendering: markdown-only wrapping, and the shared-delimiter-span merge across adjacent same-marked siblings (regression coverage for the `**word****word**` bug)
   - Synthetic space insertion between an unseparated Strong's/morph/lemma tag and the word that follows
   - Markdown escaping of a literal `_`/`*` in content text (BYZ2018 Beta-code apparatus sigla), never applied to a delimiter the renderer emits itself; the text export escapes nothing
@@ -97,11 +100,12 @@
 
 ### Shared Content-Normalization Helpers Domain
 
-- **Existing tests** – `functions/__tests__/normalizeFractions.test.ts` (24), `functions/__tests__/normalizeEllipses.test.ts` (19), `functions/__tests__/normalizeStraightQuotes.test.ts` (14), `functions/__tests__/mapContentText.test.ts` (14), `functions/__tests__/tagScriptRunsInContent.test.ts` (19), `functions/__tests__/mergeEquivalentSiblingsInContent.test.ts` (18)
+- **Existing tests** – `functions/__tests__/normalizeFractions.test.ts` (24), `functions/__tests__/normalizeEllipses.test.ts` (19), `functions/__tests__/normalizeStraightQuotes.test.ts` (14), `functions/__tests__/normalizeGreekDiacritics.test.ts` (11), `functions/__tests__/mapContentText.test.ts` (14), `functions/__tests__/tagScriptRunsInContent.test.ts` (19), `functions/__tests__/mergeEquivalentSiblingsInContent.test.ts` (18)
 - **Covered scenarios:**
   - Fraction normalization across raw ASCII `N/M`, precomposed vulgar-fraction glyphs, and digits already split by U+2044 but not yet raised/lowered — the one function both `validate.ts`'s auto-fix pass and the USFM importer call
   - Ellipsis normalization to U+2026, including the deliberate standing exception (a bare two-period run is reported but never auto-rewritten)
   - Straight-quote normalization: directing each `'`/`"` by what precedes it — start of string, whitespace, or an opening bracket opens, anything else closes, which makes a mid-word or possessive apostrophe U+2019 for free; a run of adjacent quote characters inheriting one direction rather than each character being judged alone; re-running the function on its own output changing nothing; `'80s` covered as the one known miss, where a leading elision opens instead of closing; and `normalizeQuotesInContent()` reaching `foot.content` through the same `mapContentText()` walk
+  - Greek dialytika repair: composing a dialytika written after its accent, or left uncomposed, into the letter it belongs to, one base-plus-marks cluster at a time; the Greek ano teleia and question mark that a whole-string NFC pass would fold are left untouched
   - `mapContentText()`: the shared tree-walk all three normalizers above use to rewrite every text-bearing node's own text without duplicating recursion logic per rule
   - Script-run tagging: splitting a node's own text at a Hebrew or Greek letter run embedded in otherwise-Latin prose into alternating plain-text and `{text, script}` nodes; declining and reporting when the node also carries `strong`, `foot`, `marks`, or anything beyond bare text
   - Equivalent-sibling merging: normalizing a `{text}`-only object to a bare string, then folding a maximal run of adjacent siblings agreeing in `marks`/`script` into one node; a node carrying `strong`, `foot`, `bibleLink`, nested `content`, `paragraph`, or `break` is never eligible on either side

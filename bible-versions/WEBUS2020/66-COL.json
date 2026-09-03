@@ -63,7 +63,11 @@
         "text": "even as you learned from Epaphras our beloved fellow servant, who is a faithful servant of Christ on your",
         "foot": {
           "type": "var",
-          "content": ["NU reads ", { "text": "our", "marks": ["i"] }]
+          "content": [
+            { "abbr": "NU" },
+            " reads ",
+            { "text": "our", "marks": ["i"] }
+          ]
         }
       },
       " behalf,"
@@ -115,7 +119,10 @@
     "content": [
       {
         "text": "in whom we have our redemption,",
-        "foot": { "type": "var", "content": "TR adds “through his blood,”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “through his blood,”"]
+        }
       },
       " the forgiveness of our sins."
     ]

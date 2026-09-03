@@ -3412,4 +3412,159 @@ describe("exportContent", () => {
       expect(result).not.toContain("\\*");
     });
   });
+
+  describe("superscript marks and abbreviation references", () => {
+    /** The registry BYZ2026 declares, trimmed to the entries these tests reference. */
+    const REGISTRY = new Map<string, any>([
+      ["NA27", [{ text: "NA" }, { text: "27", marks: ["sup"] }]],
+      ["OM", { text: "om.", marks: ["i"] }],
+      ["CT", "CT"],
+    ]);
+
+    it("should render a sup mark as a <sup> tag in markdown and inline in plain text", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 25,
+        content: [
+          {
+            text: "υἱὸν",
+            script: "G",
+            foot: {
+              type: "var",
+              content: [{ text: "1143" }, { text: "vid", marks: ["sup"] }],
+            },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes);
+      expect(footnotes[0]).toContain("1143<sup>vid</sup>");
+      expect(convertVerseToText(verse)).toContain("1143vid");
+    });
+
+    it("should resolve an abbr node through the version registry, markup and all", () => {
+      const verse: VerseSchema = {
+        book: "ROM",
+        chapter: 3,
+        verse: 25,
+        content: [
+          {
+            text: "αλλα",
+            script: "G",
+            foot: {
+              type: "var",
+              content: [{ abbr: "NA27" }, " ", { abbr: "OM" }],
+            },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes, REGISTRY);
+      expect(footnotes[0]).toContain("NA<sup>27</sup> _om._");
+      expect(convertVerseToText(verse, REGISTRY)).toContain("NA27 om.");
+    });
+
+    it("should fall back to the bare id when the registry does not define it, leaving the export readable", () => {
+      const verse: VerseSchema = {
+        book: "ROM",
+        chapter: 3,
+        verse: 25,
+        content: [{ text: "αλλα", script: "G", foot: { type: "var", content: [{ abbr: "SBL" }] } }],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes, REGISTRY);
+      expect(footnotes[0]).toContain("SBL");
+    });
+
+    it("should keep a sup-marked node from fusing with its neighbors, since the whitespace stays outside the tag", () => {
+      const verse: VerseSchema = {
+        book: "MRK",
+        chapter: 1,
+        verse: 2,
+        content: [
+          { text: "τοις" },
+          { text: " D" },
+          { text: "2", marks: ["sup"] },
+          { text: " E" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toContain("τοις D<sup>2</sup> E");
+    });
+
+    it("should share one italic span between an italic registry name and the prose beside it", () => {
+      // Romans 14:24's own apparatus shape: the "om." siglum, then the
+      // editorial remark qualifying it. The printed edition sets both in one
+      // italic run.
+      const verse: VerseSchema = {
+        book: "ROM",
+        chapter: 14,
+        verse: 24,
+        content: [
+          {
+            text: "μυστηριου",
+            script: "G",
+            foot: {
+              type: "var",
+              content: [
+                { abbr: "OM" },
+                " ",
+                { text: "here but add at 16:25–27", marks: ["i"] },
+              ],
+            },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes, REGISTRY);
+      expect(footnotes[0]).toContain("_om. here but add at 16:25–27_");
+      expect(footnotes[0]).not.toContain("_om._ _here");
+      // The text export carries no delimiters either way.
+      expect(convertVerseToText(verse, REGISTRY)).toContain("om. here but add at 16:25–27");
+    });
+
+    it("should leave a bare-string registry name outside the run, opening no span of its own", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 6,
+        content: [
+          {
+            text: "βασιλευς",
+            script: "G",
+            foot: {
+              type: "var",
+              content: [{ abbr: "CT" }, " ", { text: "adds", marks: ["i"] }],
+            },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes, REGISTRY);
+      expect(footnotes[0]).toContain("CT _adds_");
+    });
+
+    it("should leave an array registry name opaque, since its marks vary across elements", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 6,
+        content: [
+          {
+            text: "βασιλευς",
+            script: "G",
+            foot: {
+              type: "var",
+              content: [{ abbr: "NA27" }, " ", { text: "adds", marks: ["i"] }],
+            },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(verse, footnotes, REGISTRY);
+      expect(footnotes[0]).toContain("NA<sup>27</sup> _adds_");
+    });
+  });
 });

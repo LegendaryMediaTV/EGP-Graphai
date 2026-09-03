@@ -123,7 +123,10 @@
         "text": "having the eyes of your hearts",
         "foot": {
           "type": "var",
-          "content": "TR reads “understanding” instead of “hearts”"
+          "content": [
+            { "abbr": "TR" },
+            " reads “understanding” instead of “hearts”"
+          ]
         }
       },
       " enlightened, that you may know what is the hope of his calling, and what are the riches of the glory of his inheritance in the saints,"
@@ -357,7 +360,10 @@
         "text": "and to make all men see what is the administration",
         "foot": {
           "type": "var",
-          "content": "TR reads “fellowship” instead of “administration”"
+          "content": [
+            { "abbr": "TR" },
+            " reads “fellowship” instead of “administration”"
+          ]
         }
       },
       " of the mystery which for ages has been hidden in God, who created all things through Jesus Christ,"

@@ -17,6 +17,7 @@
  * 9. Mark-boundary embedded spaces — {@link scanArrayForMarkBoundaryEmbeddedSpaces}
  * 10. Un-normalized ellipsis — {@link hasUnnormalizedEllipsis}
  * 11. ASCII straight quote or apostrophe — {@link hasStraightQuote}
+ * 11a. Misplaced Greek dialytika — {@link hasMisplacedDialytikaText}
  * 12. Footnote marker after whitespace — {@link scanArrayForFootnoteMarkerAfterWhitespace}
  * 13. Untagged script run — {@link hasUntaggedScriptRun}
  * 14. Duplicate footnote anchor — {@link scanArrayForDuplicateFootnoteAnchors}
@@ -51,6 +52,7 @@ import Content from "../types/Content";
 import { normalizeFractionText } from "../functions/normalizeFractions";
 import { hasEllipsisIndicator } from "../functions/normalizeEllipses";
 import { hasMixedScriptText } from "../functions/tagScriptRunsInContent";
+import { hasMisplacedDialytika } from "../functions/normalizeGreekDiacritics";
 
 /** Root directory holding one subfolder per Bible version. */
 const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
@@ -76,7 +78,7 @@ export interface VerseRecord {
 
 /** The normalized shape every check in this module reads instead of a raw content-tree node — produced once per node by {@link describeNode} and passed to every predicate/scanner below. */
 export interface NodeShape {
-  /** This node's own text, or `undefined` when it has no `text` key at all — a `{heading}`/`{subtitle}`/`{bibleLink}` wrapper, a `ContentNested` wrapper, or a multi-number tag's own textless sibling. */
+  /** This node's own text, or `undefined` when it has no `text` key at all — a `{heading}`/`{subtitle}`/`{bibleLink}`/`{abbr}` wrapper, a `ContentNested` wrapper, or a multi-number tag's own textless sibling. */
   text: string | undefined;
   /** This node's own `marks` array, normalized to `[]` when absent so two nodes can be compared for formatting agreement without null-checking first. */
   marks: readonly unknown[];
@@ -96,7 +98,7 @@ export interface NodeShape {
   opensParagraph: boolean;
   /** Whether this node's own `break` is `true`. */
   endsBreak: boolean;
-  /** A `{heading}`/`{subtitle}`/`{bibleLink}` wrapper, or any other non-plain-object shape — opaque to every check here, a hard boundary none of them cross. */
+  /** A `{heading}`/`{subtitle}`/`{bibleLink}`/`{abbr}` wrapper, or any other non-plain-object shape — opaque to every check here, a hard boundary none of them cross. */
   isBoundary: boolean;
 }
 
@@ -128,7 +130,12 @@ export function describeNode(node: unknown): NodeShape {
   }
 
   const record = node as Record<string, unknown>;
-  if ("heading" in record || "subtitle" in record || "bibleLink" in record) {
+  if (
+    "heading" in record ||
+    "subtitle" in record ||
+    "bibleLink" in record ||
+    "abbr" in record
+  ) {
     return { ...empty, text: undefined, isBoundary: true };
   }
 
@@ -492,6 +499,21 @@ interface StraightQuoteFinding {
  */
 function hasStraightQuote(shape: NodeShape): boolean {
   return shape.text !== undefined && STRAIGHT_QUOTE.test(shape.text);
+}
+
+/**
+ * True when a node own text carries a Greek dialytika written after the
+ * accent it belongs before, or left uncomposed.
+ *
+ * Both spellings look right on screen and neither matches the properly
+ * spelled word, so a search, a diff, or a word alignment against another
+ * edition treats the two as unrelated. Auto-fixed as its own step in
+ * validate.ts pass, via functions/normalizeGreekDiacritics.ts; this detector
+ * stays on for the same reason the fraction, ellipsis and straight-quote
+ * checks keep theirs.
+ */
+function hasMisplacedDialytikaText(shape: NodeShape): boolean {
+  return shape.text !== undefined && hasMisplacedDialytika(shape.text);
 }
 
 /**
@@ -1342,6 +1364,7 @@ interface LevelFindings {
   ellipsisFindings: string[];
   /** The straight-quote check's findings. */
   straightQuoteFindings: StraightQuoteFinding[];
+  dialytikaFindings: string[];
   /** The footnote-marker-spacing check's findings. */
   footnoteMarkerAfterWhitespace: FootnoteMarkerAfterWhitespaceFinding[];
   /** The script-run check's findings — each entry is the offending node's own path, not a full finding object. */
@@ -1387,6 +1410,8 @@ function walkLevel(
       sink.straightQuoteFindings.push(
         describeStraightQuoteFinding(shape.text, `${where}[${i}]`),
       );
+    if (hasMisplacedDialytikaText(shape))
+      sink.dialytikaFindings.push(`${where}[${i}]`);
     if (hasUntaggedScriptRun(shape))
       sink.untaggedScriptRuns.push(`${where}[${i}]`);
     if (shape.text !== undefined && hasNonStandardWhitespace(shape))
@@ -1445,6 +1470,7 @@ export function findStrongsNodeIssues(
     markBoundaryEmbeddedSpaces: [],
     ellipsisFindings: [],
     straightQuoteFindings: [],
+    dialytikaFindings: [],
     footnoteMarkerAfterWhitespace: [],
     untaggedScriptRuns: [],
     mergeableSiblingPairs: [],
@@ -1591,6 +1617,22 @@ export interface MarkBoundaryEmbeddedSpaceFileFinding extends MarkBoundaryEmbedd
 }
 
 /** One straight-quote/apostrophe finding, with its file/verse identity attached. */
+/** One node whose own text still carries a misplaced Greek dialytika, with its file/verse identity attached. */
+export interface DialytikaFinding {
+  /** The version id this finding belongs to (e.g. `BYZ2018`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `01-MAT.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `MAT`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+  /** The offending node own path within the verse content tree (e.g. `content[3]`). */
+  path: string;
+}
+
 export interface StraightQuoteFileFinding extends StraightQuoteFinding {
   /** The version id this finding belongs to (e.g. `YLT1898`). */
   version: string;
@@ -1720,6 +1762,8 @@ export interface VersionAudit {
   ellipsisFindings: readonly EllipsisFinding[];
   /** The straight-quote check's findings, corpus-wide for this version — a node whose own text still carries an ASCII straight quote or apostrophe. Auto-fixed as its own step in `validate.ts`'s pass; a survivor here means that step hasn't run yet or the corpus regressed (see {@link hasStraightQuote}'s own doc comment). */
   straightQuoteFindings: readonly StraightQuoteFileFinding[];
+  /** The dialytika check findings, corpus-wide for this version — a node whose own text carries a Greek dialytika written after its accent, or left uncomposed. Auto-fixed as its own step in `validate.ts`, so a survivor here means that step has not run yet or the corpus regressed. */
+  dialytikaFindings: readonly DialytikaFinding[];
   /** The footnote-marker-spacing check's findings, corpus-wide for this version — a footnote marker rendering immediately after whitespace, extending the leading-space convention the trailing-whitespace check already enforces for `strong` to `foot`. */
   footnoteMarkerAfterWhitespace: readonly FootnoteMarkerAfterWhitespaceFileFinding[];
   /** The script-run check's findings, corpus-wide for this version — a node whose own text mixes a Latin letter with an untagged Hebrew or Greek letter. */
@@ -1749,6 +1793,7 @@ export function auditVersion(version: string): VersionAudit {
   const markBoundaryEmbeddedSpaces: MarkBoundaryEmbeddedSpaceFileFinding[] = [];
   const ellipsisFindings: EllipsisFinding[] = [];
   const straightQuoteFindings: StraightQuoteFileFinding[] = [];
+  const dialytikaFindings: DialytikaFinding[] = [];
   const footnoteMarkerAfterWhitespace: FootnoteMarkerAfterWhitespaceFileFinding[] = [];
   const untaggedScriptRuns: UntaggedScriptRunFinding[] = [];
   const mergeableSiblingPairs: MergeableSiblingsFileFinding[] = [];
@@ -1790,6 +1835,8 @@ export function auditVersion(version: string): VersionAudit {
         ellipsisFindings.push({ ...identity, path: at });
       for (const finding of findings.straightQuoteFindings)
         straightQuoteFindings.push({ ...identity, ...finding });
+      for (const at of findings.dialytikaFindings)
+        dialytikaFindings.push({ ...identity, path: at });
       for (const finding of findings.footnoteMarkerAfterWhitespace)
         footnoteMarkerAfterWhitespace.push({ ...identity, ...finding });
       for (const at of findings.untaggedScriptRuns)
@@ -1818,6 +1865,7 @@ export function auditVersion(version: string): VersionAudit {
     markBoundaryEmbeddedSpaces,
     ellipsisFindings,
     straightQuoteFindings,
+    dialytikaFindings,
     footnoteMarkerAfterWhitespace,
     untaggedScriptRuns,
     mergeableSiblingPairs,
@@ -1855,6 +1903,7 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
       summary.markBoundaryEmbeddedSpaces.length > 0 ||
       summary.ellipsisFindings.length > 0 ||
       summary.straightQuoteFindings.length > 0 ||
+      summary.dialytikaFindings.length > 0 ||
       summary.footnoteMarkerAfterWhitespace.length > 0 ||
       summary.untaggedScriptRuns.length > 0 ||
       summary.mergeableSiblingPairs.length > 0 ||
@@ -2031,6 +2080,19 @@ export function printFindingLines(summary: VersionAudit, verbose: boolean): void
     );
 
   console.log(
+    `  ${summary.dialytikaFindings.length} node(s) whose own text carries a Greek dialytika written after its accent, or left uncomposed`,
+  );
+  for (const finding of summary.dialytikaFindings.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+    );
+  }
+  if (!verbose && summary.dialytikaFindings.length > cap)
+    console.log(
+      `    … ${summary.dialytikaFindings.length - cap} more (--verbose to list all)`,
+    );
+
+  console.log(
     `  ${summary.footnoteMarkerAfterWhitespace.length} footnote marker(s) rendering immediately after whitespace`,
   );
   for (const finding of summary.footnoteMarkerAfterWhitespace.slice(0, cap)) {
@@ -2105,6 +2167,7 @@ export function isClean(summary: VersionAudit): boolean {
     summary.markBoundaryEmbeddedSpaces.length === 0 &&
     summary.ellipsisFindings.length === 0 &&
     summary.straightQuoteFindings.length === 0 &&
+    summary.dialytikaFindings.length === 0 &&
     summary.footnoteMarkerAfterWhitespace.length === 0 &&
     summary.untaggedScriptRuns.length === 0 &&
     summary.mergeableSiblingPairs.length === 0 &&

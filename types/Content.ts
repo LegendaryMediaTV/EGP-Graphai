@@ -12,6 +12,7 @@ type Content =
   | ContentParagraph
   | ContentSubtitle
   | ContentBibleLink
+  | ContentAbbreviation
   | Content[];
 
 /**
@@ -21,7 +22,7 @@ type Content =
 interface ContentObject {
   text?: string; // Plain text content (optional - can have Strong's-only elements)
   script?: "G" | "H"; // Specifies the script of the text. If not specified, Latin script is assumed.
-  marks?: ("i" | "b" | "woc" | "sc")[]; // Formatting marks: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps
+  marks?: ("i" | "b" | "woc" | "sc" | "sup")[]; // Formatting marks: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps, sup = superscript
   foot?: Footnote; // Optional footnote attached to the text
   strong?: string; // Strong's number in format G/H + 1-4 digits
   lemma?: string; // Lexical lemma in original script
@@ -36,7 +37,7 @@ interface ContentObject {
  */
 interface ContentNested {
   content: Content; // Nested content array or element
-  marks?: ("i" | "b" | "woc" | "sc")[]; // Formatting marks applying to the entire nested content: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps
+  marks?: ("i" | "b" | "woc" | "sc" | "sup")[]; // Formatting marks applying to the entire nested content: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps, sup = superscript
   strong?: string; // Strong's number applying to the entire nested content
   lemma?: string; // Lexical lemma in original script
   morph?: string; // Morphological code (i.e., Robinson or Packard format)
@@ -75,8 +76,18 @@ interface ContentBibleLink {
   content?: Content; // Optional display override (defaults to the reference)
 }
 
+/**
+ * Reference to an entry in the version's own `abbr` registry. Carries only
+ * the id: what prints, and what it stands for, live in `_version.json`, so a
+ * bibliographic correction is one edit rather than thousands.
+ */
+interface ContentAbbreviation {
+  abbr: string; // Identifier matching an `_id` in the version's `abbr` array (e.g. "NA27", "OM", "MS-ALEPH")
+}
+
 export default Content;
 export type {
+  ContentAbbreviation,
   ContentBibleLink,
   ContentHeading,
   ContentNested,

@@ -158,7 +158,7 @@
       },
       {
         "text": " Son,",
-        "foot": { "type": "var", "content": "NU reads “God”" }
+        "foot": { "type": "var", "content": [{ "abbr": "NU" }, " reads “God”"] }
       },
       " who is in the bosom of the Father, has declared him."
     ]
@@ -1540,7 +1540,10 @@
       "text": "for an angel went down at certain times into the pool and stirred up the water. Whoever stepped in first after the stirring of the water was healed of whatever disease he had.",
       "foot": {
         "type": "var",
-        "content": "NU omits from “waiting” in verse 3 to the end of verse 4."
+        "content": [
+          { "abbr": "NU" },
+          " omits from “waiting” in verse 3 to the end of verse 4."
+        ]
       }
     }
   },
@@ -3188,7 +3191,8 @@
         "foot": {
           "type": "var",
           "content": [
-            "NU includes ",
+            { "abbr": "NU" },
+            " includes ",
             { "bibleLink": "John 7:53" },
             "–",
             { "bibleLink": "John 8:11" },
@@ -4873,7 +4877,10 @@
         "text": "So they took away the stone from the place where the dead man was lying.",
         "foot": {
           "type": "var",
-          "content": "NU omits “from the place where the dead man was lying.”"
+          "content": [
+            { "abbr": "NU" },
+            " omits “from the place where the dead man was lying.”"
+          ]
         }
       },
       " Jesus lifted up his eyes and said, ",
@@ -6449,7 +6456,10 @@
       {
         "text": "They will do these things",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "TR adds “to you”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “to you”"]
+        }
       },
       {
         "text": " because they have not known the Father nor me.",
@@ -6567,7 +6577,7 @@
         "marks": ["woc"],
         "foot": {
           "type": "var",
-          "content": "TR reads “will take” instead of “takes”"
+          "content": [{ "abbr": "TR" }, " reads “will take” instead of “takes”"]
         }
       },
       { "text": " of mine and will declare it to you.", "marks": ["woc"] }
@@ -7644,7 +7654,12 @@
         "text": "After this, Jesus, seeing",
         "foot": {
           "type": "var",
-          "content": "NU, TR read “knowing” instead of “seeing”"
+          "content": [
+            { "abbr": "NU" },
+            ", ",
+            { "abbr": "TR" },
+            " read “knowing” instead of “seeing”"
+          ]
         }
       },
       " that all things were now finished, that the Scripture might be fulfilled, said, ",
@@ -8038,7 +8053,10 @@
       {
         "text": "“Because you have seen me,",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "TR adds “Thomas,”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “Thomas,”"]
+        }
       },
       {
         "text": " you have believed. Blessed are those who have not seen and have believed.”",

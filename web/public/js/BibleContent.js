@@ -1,6 +1,12 @@
 const { useState, useEffect, useMemo, useRef } = React;
 
-function BibleContent({ content, settings, onFootnoteClick, onBibleLinkClick }) {
+function BibleContent({
+  content,
+  settings,
+  onFootnoteClick,
+  onBibleLinkClick,
+  onAbbrClick,
+}) {
   if (!content || content.length === 0)
     return (
       <div className="text-center text-gray-400 mt-10">
@@ -53,6 +59,7 @@ function BibleContent({ content, settings, onFootnoteClick, onBibleLinkClick }) 
               settings={settings}
               onFootnoteClick={onFootnoteClick}
               onBibleLinkClick={onBibleLinkClick}
+              onAbbrClick={onAbbrClick}
             />
           ))}
         </div>
@@ -76,6 +83,7 @@ function BibleContent({ content, settings, onFootnoteClick, onBibleLinkClick }) 
                   settings={settings}
                   onFootnoteClick={onFootnoteClick}
                   onBibleLinkClick={onBibleLinkClick}
+                  onAbbrClick={onAbbrClick}
                 />
               </div>
             </div>
@@ -93,6 +101,7 @@ function BibleContent({ content, settings, onFootnoteClick, onBibleLinkClick }) 
                   node={note.content}
                   settings={{ ...settings, showFootnotes: false }}
                   onBibleLinkClick={onBibleLinkClick}
+                  onAbbrClick={onAbbrClick}
                 />
               </li>
             ))}

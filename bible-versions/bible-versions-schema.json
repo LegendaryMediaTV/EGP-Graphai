@@ -32,6 +32,12 @@
           "enum": ["G", "H"],
           "description": "Default script for this version (Greek or Hebrew). If unset, assume Latin."
         },
+        "abbr": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/abbreviation" },
+          "uniqueItems": true,
+          "description": "Abbreviations this version’s content cites by id, such as critical-edition and manuscript sigla. Each version defines its own, and an id resolves only within its own version, since the same code can mean different things in different editions."
+        },
         "testaments": {
           "type": "object",
           "additionalProperties": false,
@@ -74,6 +80,26 @@
           },
           "uniqueItems": true,
           "description": "List of books included in this version with their order."
+        }
+      }
+    },
+    "abbreviation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["_id", "name"],
+      "properties": {
+        "_id": {
+          "type": "string",
+          "pattern": "^[A-Z0-9-]+$",
+          "description": "Identifier that an `abbr` content node points at, e.g., NA27, OM, MS-ALEPH."
+        },
+        "name": {
+          "$ref": "../content-schema.json",
+          "description": "How the abbreviation prints. Content rather than plain text, so its parts can carry marks, e.g., NA followed by a superscript 27."
+        },
+        "description": {
+          "$ref": "../content-schema.json",
+          "description": "What the abbreviation stands for. Text and markdown exports omit it. The web reader shows it on hover or in a modal."
         }
       }
     },

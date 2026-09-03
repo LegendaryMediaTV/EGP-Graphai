@@ -1045,7 +1045,10 @@
       {
         "paragraph": true,
         "text": "“For truly,",
-        "foot": { "type": "var", "content": "NU adds “in this city,”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "NU" }, " adds “in this city,”"]
+        }
       },
       " both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,"
     ]
@@ -1801,7 +1804,7 @@
         "text": "This is that Moses who said to the children of Israel, ‘The Lord our God will raise up a prophet for you from among your brothers, like me.’",
         "foot": {
           "type": "var",
-          "content": "TR adds “You shall listen to him.”"
+          "content": [{ "abbr": "TR" }, " adds “You shall listen to him.”"]
         }
       },
       {
@@ -2293,7 +2296,8 @@
       "foot": {
         "type": "var",
         "content": [
-          "TR adds ",
+          { "abbr": "TR" },
+          " adds ",
           {
             "text": "Philip said, “If you believe with all your heart, you may.” He answered, “I believe that Jesus Christ is the Son of God.”",
             "marks": ["i"]
@@ -2365,7 +2369,10 @@
         "marks": ["woc"],
         "foot": {
           "type": "var",
-          "content": "TR adds “It’s hard for you to kick against the cattle prods.”"
+          "content": [
+            { "abbr": "TR" },
+            " adds “It’s hard for you to kick against the cattle prods.”"
+          ]
         }
       }
     ]
@@ -2378,7 +2385,7 @@
       {
         "text": "But",
         "marks": ["woc"],
-        "foot": { "type": "var", "content": "TR omits “But”" }
+        "foot": { "type": "var", "content": [{ "abbr": "TR" }, " omits “But”"] }
       },
       {
         "text": " rise up and enter into the city, then you will be told what you must do.”",
@@ -2570,7 +2577,15 @@
     "content": [
       {
         "text": "He was with them entering into",
-        "foot": { "type": "var", "content": "TR and NU add “and going out”" }
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "TR" },
+            " and ",
+            { "abbr": "NU" },
+            " add “and going out”"
+          ]
+        }
       },
       " Jerusalem,"
     ]
@@ -2584,7 +2599,12 @@
         "text": "preaching boldly in the name of the Lord Jesus.",
         "foot": {
           "type": "var",
-          "content": "TR and NU omit “Jesus” and reverse the order of verses 28 & 29."
+          "content": [
+            { "abbr": "TR" },
+            " and ",
+            { "abbr": "NU" },
+            " omit “Jesus” and reverse the order of verses 28 & 29."
+          ]
         }
       },
       {
@@ -2676,7 +2696,15 @@
         "text": "As Lydda was near Joppa, the disciples, hearing that Peter was there, sent two men",
         "foot": {
           "type": "var",
-          "content": "Reading from NU, TR; MT omits “two men”"
+          "content": [
+            "Reading from ",
+            { "abbr": "NU" },
+            ", ",
+            { "abbr": "TR" },
+            "; ",
+            { "abbr": "MT" },
+            " omits “two men”"
+          ]
         }
       },
       " to him, imploring him not to delay in coming to them."
@@ -2768,7 +2796,10 @@
       "text": "He is staying with a tanner named Simon, whose house is by the seaside.",
       "foot": {
         "type": "var",
-        "content": "TR adds “This one will tell you what it is necessary for you to do.”"
+        "content": [
+          { "abbr": "TR" },
+          " adds “This one will tell you what it is necessary for you to do.”"
+        ]
       }
     }
   },
@@ -2877,7 +2908,15 @@
         "text": "While Peter was pondering the vision, the Spirit said to him, “Behold, three",
         "foot": {
           "type": "var",
-          "content": "Reading from TR and NU. MT omits “three”"
+          "content": [
+            "Reading from ",
+            { "abbr": "TR" },
+            " and ",
+            { "abbr": "NU" },
+            ". ",
+            { "abbr": "MT" },
+            " omits “three”"
+          ]
         }
       },
       " men seek you."
@@ -3026,7 +3065,10 @@
     "content": [
       {
         "text": "We are witnesses of everything he did both in the country of the Jews and in Jerusalem; whom they also",
-        "foot": { "type": "var", "content": "TR omits “also”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " omits “also”"]
+        }
       },
       " killed, hanging him on a tree."
     ]
@@ -3492,7 +3534,10 @@
     "content": [
       {
         "text": "Barnabas and Saul returned to",
-        "foot": { "type": "var", "content": "TR reads “from” instead of “to”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " reads “from” instead of “to”"]
+        }
       },
       " Jerusalem when they had fulfilled their service, also taking with them John who was called Mark."
     ]
@@ -3618,7 +3663,10 @@
     "content": [
       {
         "text": "The God of this people",
-        "foot": { "type": "var", "content": "TR, NU add “Israel”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, ", ", { "abbr": "NU" }, " add “Israel”"]
+        }
       },
       " chose our fathers, and exalted the people when they stayed as aliens in the land of Egypt, and with an uplifted arm, he led them out of it."
     ]
@@ -3662,7 +3710,12 @@
         "text": "From this man’s offspring, God has brought salvation",
         "foot": {
           "type": "var",
-          "content": "TR, NU read “a Savior, Jesus” instead of “salvation”"
+          "content": [
+            { "abbr": "TR" },
+            ", ",
+            { "abbr": "NU" },
+            " read “a Savior, Jesus” instead of “salvation”"
+          ]
         }
       },
       " to Israel according to his promise,"
@@ -3676,7 +3729,12 @@
       "text": "before his coming, when John had first preached the baptism of repentance to Israel.",
       "foot": {
         "type": "var",
-        "content": "TR, NU read “to all the people of Israel” instead of “to Israel”"
+        "content": [
+          { "abbr": "TR" },
+          ", ",
+          { "abbr": "NU" },
+          " read “to all the people of Israel” instead of “to Israel”"
+        ]
       }
     }
   },
@@ -4031,7 +4089,10 @@
     "content": [
       {
         "text": "Yet he didn’t leave himself without witness, in that he did good and gave you",
-        "foot": { "type": "var", "content": "TR reads “us” instead of “you”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " reads “us” instead of “you”"]
+        }
       },
       " rains from the sky and fruitful seasons, filling our hearts with food and gladness.”"
     ]
@@ -4197,7 +4258,10 @@
     "content": [
       {
         "text": "But we believe that we are saved through the grace of the Lord Jesus,",
-        "foot": { "type": "var", "content": "TR adds “Christ”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " adds “Christ”"]
+        }
       },
       " just as they are.”"
     ]
@@ -4763,7 +4827,10 @@
         "text": "But the unpersuaded Jews took along",
         "foot": {
           "type": "var",
-          "content": "TR reads “And the Jews who were unpersuaded, becoming envious and taking along” instead of “But the unpersuaded Jews took along”"
+          "content": [
+            { "abbr": "TR" },
+            " reads “And the Jews who were unpersuaded, becoming envious and taking along” instead of “But the unpersuaded Jews took along”"
+          ]
         }
       },
       " some wicked men from the marketplace and gathering a crowd, set the city in an uproar. Assaulting the house of Jason, they sought to bring them out to the people."
@@ -4866,7 +4933,10 @@
     "content": [
       {
         "text": "Some of the Epicurean and Stoic philosophers also",
-        "foot": { "type": "var", "content": "TR omits “also”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " omits “also”"]
+        }
       },
       " were conversing with him. Some said, “What does this babbler want to say?”",
       {
@@ -5234,7 +5304,7 @@
     "content": {
       "paragraph": true,
       "text": "Paul said, “John indeed baptized with the baptism of repentance, saying to the people that they should believe in the one who would come after him, that is, in Christ Jesus.”",
-      "foot": { "type": "var", "content": "NU omits Christ." }
+      "foot": { "type": "var", "content": [{ "abbr": "NU" }, " omits Christ."] }
     }
   },
   {
@@ -5547,7 +5617,10 @@
     "content": [
       {
         "text": "There were many lights in the upper room where we",
-        "foot": { "type": "var", "content": "TR reads “they” instead of “we”" }
+        "foot": {
+          "type": "var",
+          "content": [{ "abbr": "TR" }, " reads “they” instead of “we”"]
+        }
       },
       " were gathered together."
     ]
@@ -5639,7 +5712,7 @@
     "verse": 21,
     "content": {
       "text": "testifying both to Jews and to Greeks repentance toward God and faith toward our Lord Jesus.",
-      "foot": { "type": "var", "content": "TR adds “Christ”" }
+      "foot": { "type": "var", "content": [{ "abbr": "TR" }, " adds “Christ”"] }
     }
   },
   {
@@ -5688,7 +5761,15 @@
     "content": [
       {
         "text": "Take heed, therefore, to yourselves and to all the flock, in which the Holy Spirit has made you overseers, to shepherd the assembly of the Lord and",
-        "foot": { "type": "var", "content": "TR, NU omit “the Lord and”" }
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "TR" },
+            ", ",
+            { "abbr": "NU" },
+            " omit “the Lord and”"
+          ]
+        }
       },
       " God which he purchased with his own blood."
     ]
@@ -6623,7 +6704,10 @@
       "text": "He even tried to profane the temple, and we arrested him.",
       "foot": {
         "type": "var",
-        "content": "TR adds “We wanted to judge him according to our law,”"
+        "content": [
+          { "abbr": "TR" },
+          " adds “We wanted to judge him according to our law,”"
+        ]
       }
     }
   },
@@ -6634,7 +6718,10 @@
     "content": {
       "foot": {
         "type": "var",
-        "content": "TR adds “but the commanding officer, Lysias, came by and with great violence took him out of our hands,”"
+        "content": [
+          { "abbr": "TR" },
+          " adds “but the commanding officer, Lysias, came by and with great violence took him out of our hands,”"
+        ]
       }
     }
   },
@@ -6646,7 +6733,10 @@
       {
         "foot": {
           "type": "var",
-          "content": "TR adds “commanding his accusers to come to you.”"
+          "content": [
+            { "abbr": "TR" },
+            " adds “commanding his accusers to come to you.”"
+          ]
         }
       },
       "By examining him yourself you may ascertain all these things of which we accuse him.”"
@@ -7531,7 +7621,7 @@
       {
         "paragraph": true,
         "text": "When we had escaped, then they",
-        "foot": { "type": "var", "content": "NU reads “we”" }
+        "foot": { "type": "var", "content": [{ "abbr": "NU" }, " reads “we”"] }
       },
       " learned that the island was called Malta."
     ]
@@ -7751,7 +7841,10 @@
     "content": {
       "paragraph": true,
       "text": "When he had said these words, the Jews departed, having a great dispute among themselves.",
-      "foot": { "type": "var", "content": "NU omits verse 29." }
+      "foot": {
+        "type": "var",
+        "content": [{ "abbr": "NU" }, " omits verse 29."]
+      }
     }
   },
   {

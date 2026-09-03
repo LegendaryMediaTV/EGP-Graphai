@@ -13008,7 +13008,12 @@
         "break": true,
         "foot": {
           "type": "var",
-          "content": "LXX and DSS add: recovery of sight to the blind"
+          "content": [
+            { "abbr": "LXX" },
+            " and ",
+            { "abbr": "DSS" },
+            " add: recovery of sight to the blind"
+          ]
         }
       }
     ]

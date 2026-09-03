@@ -30,7 +30,11 @@
         "paragraph": true,
         "foot": {
           "type": "var",
-          "content": "Note: In the Hebrew and some copies of LXX, Esther begins here."
+          "content": [
+            "Note: In the Hebrew and some copies of ",
+            { "abbr": "LXX" },
+            ", Esther begins here."
+          ]
         }
       },
       {

@@ -181,7 +181,15 @@
       {
         "paragraph": true,
         "text": "Now to him who is able to keep them",
-        "foot": { "type": "var", "content": "TR and NU read “you”" }
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "TR" },
+            " and ",
+            { "abbr": "NU" },
+            " read “you”"
+          ]
+        }
       },
       " from stumbling, and to present you faultless before the presence of his glory in great joy,"
     ]
