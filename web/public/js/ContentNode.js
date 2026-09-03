@@ -300,10 +300,24 @@ function ContentNode({
     }
 
     // --- Text Node ---
+    const scriptClass =
+      node.script === "H"
+        ? "script-hebrew"
+        : node.script === "G"
+          ? "script-greek"
+          : "";
+
     let content = null;
 
     if (node.text) {
-      content = <span>{node.text}</span>;
+      content = (
+        <span
+          className={scriptClass}
+          {...(node.script === "H" ? { dir: "rtl" } : {})}
+        >
+          {node.text}
+        </span>
+      );
     }
 
     // Formatting Marks
@@ -400,22 +414,12 @@ function ContentNode({
         </span>
       ) : null;
 
-    const scriptClass =
-      node.script === "H"
-        ? "script-hebrew"
-        : node.script === "G"
-          ? "script-greek"
-          : "";
-
     return (
       <React.Fragment>
         {settings.paragraphMode && isBlock && (
           <span className="block mt-4 w-full"></span>
         )}
-        <span
-          className={`inline ${scriptClass}`}
-          {...(node.script === "H" ? { dir: "rtl" } : {})}
-        >
+        <span className="inline">
           {content}
           {parsingSpan}
           {footnote}
