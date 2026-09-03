@@ -2,7 +2,7 @@
 
 ## Overview
 
-Bible Versions represent distinct translations, editions, or manuscripts of the Bible. Each version has metadata, licensing information, and a customized book ordering. The system supports multiple versions ranging from ancient Greek manuscripts (BYZ2018) to modern English translations (WEBUS2020).
+Bible Versions represent distinct translations, editions, or manuscripts of the Bible. Each version has metadata, licensing information, and a customized book ordering. The system supports multiple versions ranging from a Greek New Testament textform (BYZ2026) to modern English translations (WEBUS2020, MSB2025).
 
 **Architecture Change:** Version metadata is now stored in per-folder `_version.json` files (e.g., `bible-versions/KJV1769/_version.json`) rather than a single `bible-versions.json` registry. This enables self-contained version folders and simplifies adding new versions.
 
@@ -52,14 +52,14 @@ interface Testament {
 | Version ID | Name                                 | Script | Books                     | Abbreviation registry |
 | ---------- | ------------------------------------ | ------ | ------------------------- | --------------------- |
 | ASV1901    | American Standard Version            | Latin  | 66 (OT+NT)                | none                  |
-| BYZ2018    | Byzantine Greek New Testament        | Greek  | 27 (NT only)              | edition sigla         |
-| BYZ2026    | Byzantine Greek New Testament (2026) | Greek  | 27 (NT only)              | editions, manuscripts |
+| BYZ2026    | Byzantine Greek New Testament        | Greek  | 27 (NT only)              | editions, manuscripts |
 | CLV1880    | Clementine Latin Vulgate             | Latin  | 66 (OT+NT)                | none                  |
 | KJV1769    | King James Version                   | Latin  | 66 (OT+NT)                | none                  |
+| MSB2025    | Majority Standard Bible              | Latin  | 66 (OT+NT)                | editions, manuscripts |
 | WEBUS2020  | World English Bible Classic          | Latin  | 81 (OT+NT+deuterocanon)   | witness sigla         |
 | YLT1898    | Young's Literal Translation          | Latin  | 66 (OT+NT)                | none                  |
 
-A version carries a registry only when its own footnotes cite witnesses by siglum. The four with none name theirs in prose instead ("Some ancient authorities read…", "According to Septuagint and Vulgate…"), so there is no short code for a reader to resolve.
+A version carries a registry only when its own footnotes cite witnesses by siglum. The versions with none name theirs in prose instead ("Some ancient authorities read…", "According to Septuagint and Vulgate…"), so there is no short code for a reader to resolve. BYZ2026, the edition succeeding this repo's now-retired BYZ2018, and MSB2025 both cite a wide spread of critical-text editions and individual manuscripts by siglum, so both carry the corpus's largest registries.
 
 ## User Workflows
 

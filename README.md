@@ -93,6 +93,9 @@ npx ts-node utils/sortBibleKeys.ts WEBUS2020
 # Run tests
 npm run test
 
+# Type-check the codebase with no emit
+npm run type-check
+
 # Start the Graphai Reader (web interface)
 npm run dev
 ```
