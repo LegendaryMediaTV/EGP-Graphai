@@ -102,6 +102,18 @@
       ]
     },
     {
+      "_id": "RP",
+      "name": "RP",
+      "description": [
+        "Robinson-Pierpont 2026, the main text of this edition. ",
+        {
+          "text": "The New Testament in the Original Greek: Byzantine Textform",
+          "marks": ["i"]
+        },
+        ". Maurice A. Robinson and William G. Pierpont, eds."
+      ]
+    },
+    {
       "_id": "RP-MG",
       "name": ["RP", { "text": "mg", "marks": ["sup"] }],
       "description": "Robinson and Pierpont’s alternate Byzantine readings as of April 26, 2026."
@@ -177,577 +189,577 @@
     {
       "_id": "MS-0102",
       "name": "0102",
-      "description": "Gregory-Aland 0102. Contents: Gospels. Date: VII."
+      "description": "Gregory-Aland 0102. Contents: Gospels. Century: VII."
     },
     {
       "_id": "MS-0104",
       "name": "0104",
-      "description": "Gregory-Aland 0104. Contents: Gospels. Date: VII."
+      "description": "Gregory-Aland 0104. Contents: Gospels. Century: VII."
     },
     {
       "_id": "MS-0107",
       "name": "0107",
-      "description": "Gregory-Aland 0107. Contents: Gospels. Date: VII."
+      "description": "Gregory-Aland 0107. Contents: Gospels. Century: VII."
     },
     {
       "_id": "MS-0116",
       "name": "0116",
-      "description": "Gregory-Aland 0116. Contents: Gospels. Date: VIII."
+      "description": "Gregory-Aland 0116. Contents: Gospels. Century: VIII."
     },
     {
       "_id": "MS-0133",
       "name": "0133",
-      "description": "Gregory-Aland 0133. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 0133. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-0136",
       "name": "0136",
-      "description": "Gregory-Aland 0136. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 0136. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-0141",
       "name": "0141",
-      "description": "Gregory-Aland 0141. Contents: Gospels. Date: X."
+      "description": "Gregory-Aland 0141. Contents: Gospels. Century: X."
     },
     {
       "_id": "MS-0142",
       "name": "0142",
-      "description": "Gregory-Aland 0142. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: X."
+      "description": "Gregory-Aland 0142. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: X."
     },
     {
       "_id": "MS-0148",
       "name": "0148",
-      "description": "Gregory-Aland 0148. Contents: Gospels. Date: VIII."
+      "description": "Gregory-Aland 0148. Contents: Gospels. Century: VIII."
     },
     {
       "_id": "MS-0150",
       "name": "0150",
-      "description": "Gregory-Aland 0150. Contents: Pauline Epistles (including Hebrews). Date: IX."
+      "description": "Gregory-Aland 0150. Contents: Pauline Epistles (including Hebrews). Century: IX."
     },
     {
       "_id": "MS-0151",
       "name": "0151",
-      "description": "Gregory-Aland 0151. Contents: Pauline Epistles (including Hebrews). Date: IX."
+      "description": "Gregory-Aland 0151. Contents: Pauline Epistles (including Hebrews). Century: IX."
     },
     {
       "_id": "MS-0154",
       "name": "0154",
-      "description": "Gregory-Aland 0154. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 0154. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-0170",
       "name": "0170",
-      "description": "Gregory-Aland 0170. Contents: Gospels. Date: V/VI."
+      "description": "Gregory-Aland 0170. Contents: Gospels. Century: V/VI."
     },
     {
       "_id": "MS-0209",
       "name": "0209",
-      "description": "Gregory-Aland 0209. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: VII."
+      "description": "Gregory-Aland 0209. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: VII."
     },
     {
       "_id": "MS-0211",
       "name": "0211",
-      "description": "Gregory-Aland 0211. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 0211. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-0217",
       "name": "0217",
-      "description": "Gregory-Aland 0217. Contents: Gospels. Date: V."
+      "description": "Gregory-Aland 0217. Contents: Gospels. Century: V."
     },
     {
       "_id": "MS-0233",
       "name": "0233",
-      "description": "Gregory-Aland 0233. Contents: Gospels. Date: VIII."
+      "description": "Gregory-Aland 0233. Contents: Gospels. Century: VIII."
     },
     {
       "_id": "MS-0243",
       "name": "0243",
-      "description": "Gregory-Aland 0243. Contents: Pauline Epistles (including Hebrews). Date: X."
+      "description": "Gregory-Aland 0243. Contents: Pauline Epistles (including Hebrews). Century: X."
     },
     {
       "_id": "MS-0250",
       "name": "0250",
-      "description": "Gregory-Aland 0250. Contents: Gospels. Date: VIII."
+      "description": "Gregory-Aland 0250. Contents: Gospels. Century: VIII."
     },
     {
       "_id": "MS-0257",
       "name": "0257",
-      "description": "Gregory-Aland 0257. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 0257. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-0274",
       "name": "0274",
-      "description": "Gregory-Aland 0274. Contents: Gospels. Date: V."
+      "description": "Gregory-Aland 0274. Contents: Gospels. Century: V."
     },
     {
       "_id": "MS-0278",
       "name": "0278",
-      "description": "Gregory-Aland 0278. Contents: Pauline Epistles (including Hebrews). Date: IX."
+      "description": "Gregory-Aland 0278. Contents: Pauline Epistles (including Hebrews). Century: IX."
     },
     {
       "_id": "MS-0281",
       "name": "0281",
-      "description": "Gregory-Aland 0281. Contents: Gospels. Date: VII/VIII."
+      "description": "Gregory-Aland 0281. Contents: Gospels. Century: VII/VIII."
     },
     {
       "_id": "MS-0285",
       "name": "0285",
-      "description": "Gregory-Aland 0285. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: VI."
+      "description": "Gregory-Aland 0285. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: VI."
     },
     {
       "_id": "MS-0287",
       "name": "0287",
-      "description": "Gregory-Aland 0287. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 0287. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-0296",
       "name": "0296",
-      "description": "Gregory-Aland 0296. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: VI."
+      "description": "Gregory-Aland 0296. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: VI."
     },
     {
       "_id": "MS-0307",
       "name": "0307",
-      "description": "Gregory-Aland 0307. Contents: Gospels. Date: VII."
+      "description": "Gregory-Aland 0307. Contents: Gospels. Century: VII."
     },
     {
       "_id": "MS-0311",
       "name": "0311",
-      "description": "Gregory-Aland 0311. Contents: Pauline Epistles (including Hebrews). Date: VIII-IX."
+      "description": "Gregory-Aland 0311. Contents: Pauline Epistles (including Hebrews). Century: VIII-IX."
     },
     {
       "_id": "MS-0318",
       "name": "0318",
-      "description": "Gregory-Aland 0318. Contents: Gospels. Date: VII/VIII."
+      "description": "Gregory-Aland 0318. Contents: Gospels. Century: VII/VIII."
     },
     {
       "_id": "MS-0319",
       "name": "0319",
-      "description": "Gregory-Aland 0319. Contents: Pauline Epistles (including Hebrews). Date: IX."
+      "description": "Gregory-Aland 0319. Contents: Pauline Epistles (including Hebrews). Century: IX."
     },
     {
       "_id": "MS-046",
       "name": "046",
-      "description": "Gregory-Aland 046. Contents: Revelation. Date: X."
+      "description": "Gregory-Aland 046. Contents: Revelation. Century: X."
     },
     {
       "_id": "MS-047",
       "name": "047",
-      "description": "Gregory-Aland 047. Contents: Gospels. Date: VIII."
+      "description": "Gregory-Aland 047. Contents: Gospels. Century: VIII."
     },
     {
       "_id": "MS-048",
       "name": "048",
-      "description": "Gregory-Aland 048. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: V."
+      "description": "Gregory-Aland 048. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: V."
     },
     {
       "_id": "MS-049",
       "name": "049",
-      "description": "Gregory-Aland 049. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: X."
+      "description": "Gregory-Aland 049. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: X."
     },
     {
       "_id": "MS-051",
       "name": "051",
-      "description": "Gregory-Aland 051. Contents: Revelation. Date: X."
+      "description": "Gregory-Aland 051. Contents: Revelation. Century: X."
     },
     {
       "_id": "MS-055",
       "name": "055",
-      "description": "Gregory-Aland 055. Contents: Gospels. Date: XI."
+      "description": "Gregory-Aland 055. Contents: Gospels. Century: XI."
     },
     {
       "_id": "MS-056",
       "name": "056",
-      "description": "Gregory-Aland 056. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: X."
+      "description": "Gregory-Aland 056. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: X."
     },
     {
       "_id": "MS-061",
       "name": "061",
-      "description": "Gregory-Aland 061. Contents: Pauline Epistles (including Hebrews). Date: V."
+      "description": "Gregory-Aland 061. Contents: Pauline Epistles (including Hebrews). Century: V."
     },
     {
       "_id": "MS-063",
       "name": "063",
-      "description": "Gregory-Aland 063. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 063. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-070",
       "name": "070",
-      "description": "Gregory-Aland 070. Contents: Gospels. Date: VI."
+      "description": "Gregory-Aland 070. Contents: Gospels. Century: VI."
     },
     {
       "_id": "MS-075",
       "name": "075",
-      "description": "Gregory-Aland 075. Contents: Pauline Epistles (including Hebrews). Date: X."
+      "description": "Gregory-Aland 075. Contents: Pauline Epistles (including Hebrews). Century: X."
     },
     {
       "_id": "MS-078",
       "name": "078",
-      "description": "Gregory-Aland 078. Contents: Gospels. Date: VI."
+      "description": "Gregory-Aland 078. Contents: Gospels. Century: VI."
     },
     {
       "_id": "MS-083",
       "name": "083",
-      "description": "Gregory-Aland 083. Contents: Gospels. Date: VI/VII."
+      "description": "Gregory-Aland 083. Contents: Gospels. Century: VI/VII."
     },
     {
       "_id": "MS-087",
       "name": "087",
-      "description": "Gregory-Aland 087. Contents: Gospels. Date: VI."
+      "description": "Gregory-Aland 087. Contents: Gospels. Century: VI."
     },
     {
       "_id": "MS-099",
       "name": "099",
-      "description": "Gregory-Aland 099. Contents: Gospels. Date: VII."
+      "description": "Gregory-Aland 099. Contents: Gospels. Century: VII."
     },
     {
       "_id": "MS-1080",
       "name": "1080",
-      "description": "Gregory-Aland 1080. Contents: Gospels. Date: X."
+      "description": "Gregory-Aland 1080. Contents: Gospels. Century: X."
     },
     {
       "_id": "MS-1143",
       "name": "1143",
-      "description": "Gregory-Aland 1143. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 1143. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-1295",
       "name": "1295",
-      "description": "Gregory-Aland 1295. Contents: Gospels. Date: X."
+      "description": "Gregory-Aland 1295. Contents: Gospels. Century: X."
     },
     {
       "_id": "MS-1424",
       "name": "1424",
-      "description": "Gregory-Aland 1424. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: IX/X."
+      "description": "Gregory-Aland 1424. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Century: IX/X."
     },
     {
       "_id": "MS-1500",
       "name": "1500",
-      "description": "Gregory-Aland 1500. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 1500. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-1841",
       "name": "1841",
-      "description": "Gregory-Aland 1841. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: IX/X."
+      "description": "Gregory-Aland 1841. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Century: IX/X."
     },
     {
       "_id": "MS-1862",
       "name": "1862",
-      "description": "Gregory-Aland 1862. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: XI."
+      "description": "Gregory-Aland 1862. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Century: XI."
     },
     {
       "_id": "MS-1900",
       "name": "1900",
-      "description": "Gregory-Aland 1900. Contents: Pauline Epistles (including Hebrews). Date: X."
+      "description": "Gregory-Aland 1900. Contents: Pauline Epistles (including Hebrews). Century: X."
     },
     {
       "_id": "MS-2224",
       "name": "2224",
-      "description": "Gregory-Aland 2224. Contents: Gospels. Date: X."
+      "description": "Gregory-Aland 2224. Contents: Gospels. Century: X."
     },
     {
       "_id": "MS-2464",
       "name": "2464",
-      "description": "Gregory-Aland 2464. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: IX."
+      "description": "Gregory-Aland 2464. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: IX."
     },
     {
       "_id": "MS-2500",
       "name": "2500",
-      "description": "Gregory-Aland 2500. Contents: Gospels. Date: 891."
+      "description": "Gregory-Aland 2500. Contents: Gospels. Century: 891."
     },
     {
       "_id": "MS-2811",
       "name": "2811",
-      "description": "Gregory-Aland 2811. Contents: Gospels. Date: X."
+      "description": "Gregory-Aland 2811. Contents: Gospels. Century: X."
     },
     {
       "_id": "MS-33",
       "name": "33",
-      "description": "Gregory-Aland 33. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: X."
+      "description": "Gregory-Aland 33. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: X."
     },
     {
       "_id": "MS-399",
       "name": "399",
-      "description": "Gregory-Aland 399. Contents: Gospels. Date: IX/X."
+      "description": "Gregory-Aland 399. Contents: Gospels. Century: IX/X."
     },
     {
       "_id": "MS-461",
       "name": "461",
-      "description": "Gregory-Aland 461. Contents: Gospels. Date: 835."
+      "description": "Gregory-Aland 461. Contents: Gospels. Century: 835."
     },
     {
       "_id": "MS-565",
       "name": "565",
-      "description": "Gregory-Aland 565. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 565. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-566",
       "name": "566",
-      "description": "Gregory-Aland 566. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 566. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-892",
       "name": "892",
-      "description": "Gregory-Aland 892. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 892. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-A",
       "name": "A",
-      "description": "Gregory-Aland 02. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: V."
+      "description": "Gregory-Aland 02. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Century: V."
     },
     {
       "_id": "MS-ALEPH",
       "name": "ℵ",
-      "description": "Gregory-Aland 01. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: IV."
+      "description": "Gregory-Aland 01. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Century: IV."
     },
     {
       "_id": "MS-B",
       "name": "B",
-      "description": "Gregory-Aland 03. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: IV."
+      "description": "Gregory-Aland 03. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: IV."
     },
     {
       "_id": "MS-C",
       "name": "C",
-      "description": "Gregory-Aland 04. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: V."
+      "description": "Gregory-Aland 04. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Century: V."
     },
     {
       "_id": "MS-D",
       "name": "D",
-      "description": "Gregory-Aland 05. Contents: Gospels, Acts and/or Catholic Epistles. Date: V. Gregory-Aland 06. Contents: Pauline Epistles (including Hebrews). Date: VI."
+      "description": "Gregory-Aland 05. Contents: Gospels, Acts and/or Catholic Epistles. Century: V. Gregory-Aland 06. Contents: Pauline Epistles (including Hebrews). Century: VI."
     },
     {
       "_id": "MS-D-S",
       "name": ["D", { "text": "s", "marks": ["sup"] }],
-      "description": "Gregory-Aland 05s. Contents: Gospels, Acts and/or Catholic Epistles. Date: IX."
+      "description": "Gregory-Aland 05s. Contents: Gospels, Acts and/or Catholic Epistles. Century: IX."
     },
     {
       "_id": "MS-DELTA",
       "name": "Δ",
-      "description": "Gregory-Aland 037. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 037. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-E",
       "name": "E",
-      "description": "Gregory-Aland 07. Contents: Gospels. Date: VIII. Gregory-Aland 08. Contents: Acts and/or Catholic Epistles. Date: VI."
+      "description": "Gregory-Aland 07. Contents: Gospels. Century: VIII. Gregory-Aland 08. Contents: Acts and/or Catholic Epistles. Century: VI."
     },
     {
       "_id": "MS-F",
       "name": "F",
-      "description": "Gregory-Aland 09. Contents: Gospels. Date: IX. Gregory-Aland 010. Contents: Pauline Epistles (including Hebrews). Date: IX."
+      "description": "Gregory-Aland 09. Contents: Gospels. Century: IX. Gregory-Aland 010. Contents: Pauline Epistles (including Hebrews). Century: IX."
     },
     {
       "_id": "MS-G",
       "name": "G",
-      "description": "Gregory-Aland 011. Contents: Gospels. Date: IX. Gregory-Aland 012. Contents: Pauline Epistles (including Hebrews). Date: IX."
+      "description": "Gregory-Aland 011. Contents: Gospels. Century: IX. Gregory-Aland 012. Contents: Pauline Epistles (including Hebrews). Century: IX."
     },
     {
       "_id": "MS-GAMMA",
       "name": "Γ",
-      "description": "Gregory-Aland 036. Contents: Gospels. Date: X."
+      "description": "Gregory-Aland 036. Contents: Gospels. Century: X."
     },
     {
       "_id": "MS-H",
       "name": "H",
-      "description": "Gregory-Aland 013. Contents: Gospels. Date: IX. Gregory-Aland 014. Contents: Acts and/or Catholic Epistles. Date: IX. Gregory-Aland 015. Contents: Pauline Epistles (including Hebrews). Date: VI."
+      "description": "Gregory-Aland 013. Contents: Gospels. Century: IX. Gregory-Aland 014. Contents: Acts and/or Catholic Epistles. Century: IX. Gregory-Aland 015. Contents: Pauline Epistles (including Hebrews). Century: VI."
     },
     {
       "_id": "MS-I",
       "name": "I",
-      "description": "Gregory-Aland 016. Contents: Pauline Epistles (including Hebrews). Date: V."
+      "description": "Gregory-Aland 016. Contents: Pauline Epistles (including Hebrews). Century: V."
     },
     {
       "_id": "MS-K",
       "name": "K",
-      "description": "Gregory-Aland 017. Contents: Gospels. Date: IX. Gregory-Aland 018. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: IX."
+      "description": "Gregory-Aland 017. Contents: Gospels. Century: IX. Gregory-Aland 018. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: IX."
     },
     {
       "_id": "MS-L",
       "name": "L",
-      "description": "Gregory-Aland 019. Contents: Gospels. Date: VIII. Gregory-Aland 020. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: IX."
+      "description": "Gregory-Aland 019. Contents: Gospels. Century: VIII. Gregory-Aland 020. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: IX."
     },
     {
       "_id": "MS-LAMBDA",
       "name": "Λ",
-      "description": "Gregory-Aland 039. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 039. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-M",
       "name": "M",
-      "description": "Gregory-Aland 021. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 021. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-N",
       "name": "N",
-      "description": "Gregory-Aland 022. Contents: Gospels. Date: VI."
+      "description": "Gregory-Aland 022. Contents: Gospels. Century: VI."
     },
     {
       "_id": "MS-O",
       "name": "O",
-      "description": "Gregory-Aland 023. Contents: Gospels. Date: VI."
+      "description": "Gregory-Aland 023. Contents: Gospels. Century: VI."
     },
     {
       "_id": "MS-OMEGA",
       "name": "Ω",
-      "description": "Gregory-Aland 045. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 045. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-P",
       "name": "P",
-      "description": "Gregory-Aland 024. Contents: Gospels. Date: VI. Gregory-Aland 025. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Date: IX."
+      "description": "Gregory-Aland 024. Contents: Gospels. Century: VI. Gregory-Aland 025. Contents: Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews), Revelation. Century: IX."
     },
     {
       "_id": "MS-P100",
       "name": ["𝔓", { "text": "100", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓100. Contents: Acts and/or Catholic Epistles. Date: III/IV."
+      "description": "Gregory-Aland 𝔓100. Contents: Acts and/or Catholic Epistles. Century: III/IV."
     },
     {
       "_id": "MS-P101",
       "name": ["𝔓", { "text": "101", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓101. Contents: Gospels. Date: III."
+      "description": "Gregory-Aland 𝔓101. Contents: Gospels. Century: III."
     },
     {
       "_id": "MS-P127",
       "name": ["𝔓", { "text": "127", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓127. Contents: Acts and/or Catholic Epistles. Date: V."
+      "description": "Gregory-Aland 𝔓127. Contents: Acts and/or Catholic Epistles. Century: V."
     },
     {
       "_id": "MS-P13",
       "name": ["𝔓", { "text": "13", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓13. Contents: Pauline Epistles (including Hebrews). Date: III/IV."
+      "description": "Gregory-Aland 𝔓13. Contents: Pauline Epistles (including Hebrews). Century: III/IV."
     },
     {
       "_id": "MS-P16",
       "name": ["𝔓", { "text": "16", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓16. Contents: Pauline Epistles (including Hebrews). Date: IV."
+      "description": "Gregory-Aland 𝔓16. Contents: Pauline Epistles (including Hebrews). Century: IV."
     },
     {
       "_id": "MS-P35",
       "name": ["𝔓", { "text": "35", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓35. Contents: Gospels. Date: V."
+      "description": "Gregory-Aland 𝔓35. Contents: Gospels. Century: V."
     },
     {
       "_id": "MS-P45",
       "name": ["𝔓", { "text": "45", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓45. Contents: Gospels, Acts and/or Catholic Epistles. Date: III."
+      "description": "Gregory-Aland 𝔓45. Contents: Gospels, Acts and/or Catholic Epistles. Century: III."
     },
     {
       "_id": "MS-P46",
       "name": ["𝔓", { "text": "46", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓46. Contents: Pauline Epistles (including Hebrews). Date: III."
+      "description": "Gregory-Aland 𝔓46. Contents: Pauline Epistles (including Hebrews). Century: III."
     },
     {
       "_id": "MS-P61",
       "name": ["𝔓", { "text": "61", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓61. Contents: Pauline Epistles (including Hebrews). Date: VIII."
+      "description": "Gregory-Aland 𝔓61. Contents: Pauline Epistles (including Hebrews). Century: VIII."
     },
     {
       "_id": "MS-P66",
       "name": ["𝔓", { "text": "66", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓66. Contents: Gospels. Date: III."
+      "description": "Gregory-Aland 𝔓66. Contents: Gospels. Century: III."
     },
     {
       "_id": "MS-P72",
       "name": ["𝔓", { "text": "72", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓72. Contents: Acts and/or Catholic Epistles. Date: III/IV."
+      "description": "Gregory-Aland 𝔓72. Contents: Acts and/or Catholic Epistles. Century: III/IV."
     },
     {
       "_id": "MS-P74",
       "name": ["𝔓", { "text": "74", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓74. Contents: Acts and/or Catholic Epistles. Date: VII."
+      "description": "Gregory-Aland 𝔓74. Contents: Acts and/or Catholic Epistles. Century: VII."
     },
     {
       "_id": "MS-P75",
       "name": ["𝔓", { "text": "75", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓75. Contents: Gospels. Date: III."
+      "description": "Gregory-Aland 𝔓75. Contents: Gospels. Century: III."
     },
     {
       "_id": "MS-P88",
       "name": ["𝔓", { "text": "88", "marks": ["sup"] }],
-      "description": "Gregory-Aland 𝔓88. Contents: Gospels. Date: IV."
+      "description": "Gregory-Aland 𝔓88. Contents: Gospels. Century: IV."
     },
     {
       "_id": "MS-PHI",
       "name": "Φ",
-      "description": "Gregory-Aland 043. Contents: Gospels. Date: VI."
+      "description": "Gregory-Aland 043. Contents: Gospels. Century: VI."
     },
     {
       "_id": "MS-PI",
       "name": "Π",
-      "description": "Gregory-Aland 041. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 041. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-PSI",
       "name": "Ψ",
-      "description": "Gregory-Aland 044. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Date: IX/X."
+      "description": "Gregory-Aland 044. Contents: Gospels, Acts and/or Catholic Epistles, Pauline Epistles (including Hebrews). Century: IX/X."
     },
     {
       "_id": "MS-Q",
       "name": "Q",
-      "description": "Gregory-Aland 026. Contents: Gospels. Date: V."
+      "description": "Gregory-Aland 026. Contents: Gospels. Century: V."
     },
     {
       "_id": "MS-R",
       "name": "R",
-      "description": "Gregory-Aland 027. Contents: Gospels. Date: VII."
+      "description": "Gregory-Aland 027. Contents: Gospels. Century: VII."
     },
     {
       "_id": "MS-S",
       "name": "S",
-      "description": "Gregory-Aland 028. Contents: Gospels. Date: X."
+      "description": "Gregory-Aland 028. Contents: Gospels. Century: X."
     },
     {
       "_id": "MS-SIGMA",
       "name": "Σ",
-      "description": "Gregory-Aland 042. Contents: Gospels. Date: VI."
+      "description": "Gregory-Aland 042. Contents: Gospels. Century: VI."
     },
     {
       "_id": "MS-T",
       "name": "T",
-      "description": "Gregory-Aland 029. Contents: Gospels. Date: V."
+      "description": "Gregory-Aland 029. Contents: Gospels. Century: V."
     },
     {
       "_id": "MS-THETA",
       "name": "Θ",
-      "description": "Gregory-Aland 038. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 038. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-U",
       "name": "U",
-      "description": "Gregory-Aland 030. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 030. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-V",
       "name": "V",
-      "description": "Gregory-Aland 031. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 031. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-W",
       "name": "W",
-      "description": "Gregory-Aland 032. Contents: Gospels. Date: V."
+      "description": "Gregory-Aland 032. Contents: Gospels. Century: V."
     },
     {
       "_id": "MS-W-S",
       "name": ["W", { "text": "s", "marks": ["sup"] }],
-      "description": "Gregory-Aland 032s. Contents: Gospels. Date: VII."
+      "description": "Gregory-Aland 032s. Contents: Gospels. Century: VII."
     },
     {
       "_id": "MS-X",
       "name": "X",
-      "description": "Gregory-Aland 033. Contents: Gospels. Date: X."
+      "description": "Gregory-Aland 033. Contents: Gospels. Century: X."
     },
     {
       "_id": "MS-XI",
       "name": "Ξ",
-      "description": "Gregory-Aland 040. Contents: Gospels. Date: VIII."
+      "description": "Gregory-Aland 040. Contents: Gospels. Century: VIII."
     },
     {
       "_id": "MS-Y",
       "name": "Y",
-      "description": "Gregory-Aland 034. Contents: Gospels. Date: IX."
+      "description": "Gregory-Aland 034. Contents: Gospels. Century: IX."
     },
     {
       "_id": "MS-Z",
       "name": "Z",
-      "description": "Gregory-Aland 035. Contents: Gospels. Date: VI."
+      "description": "Gregory-Aland 035. Contents: Gospels. Century: VI."
     }
   ],
   "books": [

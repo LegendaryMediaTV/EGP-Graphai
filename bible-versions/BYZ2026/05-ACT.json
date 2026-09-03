@@ -67030,6 +67030,60 @@
             }
           ]
         }
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "Appendix C: Alternate Readings & Lengthy Variants",
+              "marks": ["b"],
+              "break": true
+            },
+            { "break": true },
+            {
+              "text": "Presented here are alternate Byzantine readings in Acts 24:6–8. These variants are presented in full here for ease of reference.",
+              "break": true
+            },
+            { "break": true },
+            {
+              "text": "A Byzantine alternative to Acts 24:6–8:",
+              "marks": ["b", "i"],
+              "break": true
+            },
+            { "break": true },
+            { "text": "6", "marks": ["b", "sup"] },
+            " ",
+            {
+              "text": "ὃς καὶ τὸ ἱερὸν ἐπείρασεν βεβηλῶσαι· ὃν καὶ ἐκρατήσαμεν· καὶ κατὰ τὸν ἡμέτερον νόμον ἠθελήσαμεν κρῖναι",
+              "script": "G"
+            },
+            ". ",
+            { "text": "7", "marks": ["b", "sup"] },
+            " ",
+            {
+              "text": "Παρελθὼν δὲ Λυσίας ὁ χιλίαρχος μετὰ πολλῆς βίας ἐκ τῶν χειρῶν ἡμῶν ἀπήγαγεν",
+              "script": "G"
+            },
+            ", ",
+            { "text": "8", "marks": ["b", "sup"] },
+            " ",
+            {
+              "text": "κελεύσας τοὺς κατηγόρους αὐτοῦ ἔρχεσθαι ἐπὶ",
+              "script": "G"
+            },
+            " ",
+            { "text": "a", "marks": ["sup"] },
+            {
+              "text": "σοῦ· παρ’ οὗ δυνήσῃ, αὐτὸς ἀνακρίνας, περὶ πάντων τούτων ἐπιγνῶναι ὧν ἡμεῖς κατηγοροῦμεν αὐτοῦ",
+              "script": "G"
+            },
+            { "text": ".", "break": true },
+            { "break": true },
+            { "text": "a", "marks": ["sup"] },
+            { "text": "σου ¦ σε", "script": "G" }
+          ]
+        }
       }
     ]
   },

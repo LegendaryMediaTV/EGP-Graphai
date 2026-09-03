@@ -56369,6 +56369,104 @@
           ]
         }
       },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "Appendix C: Alternate Readings & Lengthy Variants",
+              "marks": ["b"],
+              "break": true
+            },
+            { "break": true },
+            "Five editions (",
+            { "abbr": "NA" },
+            " ",
+            { "abbr": "SBL" },
+            " ",
+            { "abbr": "SCR" },
+            " ",
+            { "abbr": "TH" },
+            " ",
+            { "abbr": "WH" },
+            {
+              "text": ") contain lengthy variant units for Matthew 23:13–14. These variants are presented in full here for ease of reference.",
+              "break": true
+            },
+            { "break": true },
+            {
+              "text": "Variant in Matthew 23:13–14",
+              "marks": ["b", "i"],
+              "break": true
+            },
+            { "break": true },
+            "Variations are presented here in full for each comparison edition. Robinson-Pierpont 2026 (",
+            { "abbr": "RP" },
+            { "text": ") is given for reference.", "break": true },
+            { "break": true },
+            { "content": [{ "abbr": "RP" }], "marks": ["b"] },
+            { "text": ": ", "marks": ["b"] },
+            { "text": "13", "marks": ["b", "sup"] },
+            " ",
+            {
+              "text": "ουαι δε υμιν γραμματεις και φαρισαιοι υποκριται οτι κατεσθιετε τας οικιας των χηρων και προφασει μακρα προσευχομενοι δια τουτο ληψεσθε περισσοτερον κριμα",
+              "script": "G"
+            },
+            " ",
+            { "text": "14", "marks": ["b", "sup"] },
+            " ",
+            {
+              "text": "ουαι υμιν γραμματεις και φαρισαιοι υποκριται οτι κλειετε την βασιλειαν των ουρανων εμπροσθεν των ανθρωπων υμεις γαρ ουκ εισερχεσθε ουδε τους εισερχομενους αφιετε εισελθειν",
+              "script": "G",
+              "break": true
+            },
+            { "content": [{ "abbr": "SCR" }], "marks": ["b"] },
+            { "text": ": ", "marks": ["b"] },
+            { "text": "13", "marks": ["b", "sup"] },
+            " ",
+            {
+              "text": "ουαι δε υμιν γραμματεις και φαρισαιοι υποκριται οτι κλειετε την βασιλειαν των ουρανων εμπροσθεν των ανθρωπων υμεις γαρ ουκ εισερχεσθε ουδε τους εισερχομενους αφιετε εισελθειν",
+              "script": "G"
+            },
+            " ",
+            { "text": "14", "marks": ["b", "sup"] },
+            " ",
+            {
+              "text": "ουαι υμιν γραμματεις και φαρισαιοι υποκριται οτι κατεσθιετε τας οικιας των χηρων και προφασει μακρα προσευχομενοι δια τουτο ληψεσθε περισσοτερον κριμα",
+              "script": "G",
+              "break": true
+            },
+            { "content": [{ "abbr": "NA" }], "marks": ["b"] },
+            { "text": " ", "marks": ["b"] },
+            { "content": [{ "abbr": "SBL" }], "marks": ["b"] },
+            { "text": " ", "marks": ["b"] },
+            { "content": [{ "abbr": "TH" }], "marks": ["b"] },
+            { "text": ": ", "marks": ["b"] },
+            { "text": "13", "marks": ["b", "sup"] },
+            " ",
+            {
+              "text": "ουαι δε υμιν γραμματεις και φαρισαιοι υποκριται οτι κλειετε την βασιλειαν των ουρανων εμπροσθεν των ανθρωπων υμεις γαρ ουκ εισερχεσθε ουδε τους εισερχομενους αφιετε εισελθειν",
+              "script": "G"
+            },
+            " ",
+            { "text": "14", "marks": ["b", "sup"] },
+            " ",
+            { "content": [{ "abbr": "OM" }], "break": true },
+            { "content": [{ "abbr": "WH" }], "marks": ["b"] },
+            { "text": ": ", "marks": ["b"] },
+            { "text": "13", "marks": ["b", "sup"] },
+            " ",
+            { "abbr": "OM" },
+            " ",
+            { "text": "14", "marks": ["b", "sup"] },
+            " ",
+            {
+              "text": "ουαι δε υμιν γραμματεις και φαρισαιοι υποκριται οτι κλειετε την βασιλειαν των ουρανων εμπροσθεν των ανθρωπων υμεις γαρ ουκ εισερχεσθε ουδε τους εισερχομενους αφιετε εισελθειν",
+              "script": "G"
+            }
+          ]
+        }
+      },
       { "text": " δὲ", "script": "G", "strong": "G1161", "morph": "CONJ" },
       { "text": " ὑμῖν,", "script": "G", "strong": "G4771", "morph": "P-2DP" },
       {
