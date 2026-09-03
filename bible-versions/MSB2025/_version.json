@@ -1,0 +1,574 @@
+{
+  "_id": "MSB2025",
+  "name": "Majority Standard Bible",
+  "copyright": "Scripture quotations are taken from the 2025 Majority Standard Bible (MSB), produced in cooperation with Bible Hub, Discovery Bible, unfoldingWord, Bible Aquifer, OpenBible.com, and the Berean Bible Translation Committee. It is in the public domain. Free resources and databases are available at MajorityBible.com.",
+  "license": "CC0-1.0",
+  "books": [
+    {
+      "_id": "GEN",
+      "name": "Genesis",
+      "title": "Genesis",
+      "order": 1,
+      "chapters": 50
+    },
+    {
+      "_id": "EXO",
+      "name": "Exodus",
+      "title": "Exodus",
+      "order": 2,
+      "chapters": 40
+    },
+    {
+      "_id": "LEV",
+      "name": "Leviticus",
+      "title": "Leviticus",
+      "order": 3,
+      "chapters": 27
+    },
+    {
+      "_id": "NUM",
+      "name": "Numbers",
+      "title": "Numbers",
+      "order": 4,
+      "chapters": 36
+    },
+    {
+      "_id": "DEU",
+      "name": "Deuteronomy",
+      "title": "Deuteronomy",
+      "order": 5,
+      "chapters": 34
+    },
+    {
+      "_id": "JSH",
+      "name": "Joshua",
+      "title": "Joshua",
+      "order": 6,
+      "chapters": 24
+    },
+    {
+      "_id": "JDG",
+      "name": "Judges",
+      "title": "Judges",
+      "order": 7,
+      "chapters": 21
+    },
+    {
+      "_id": "RTH",
+      "name": "Ruth",
+      "title": "Ruth",
+      "order": 8,
+      "chapters": 4
+    },
+    {
+      "_id": "1SM",
+      "name": "1 Samuel",
+      "title": "1 Samuel",
+      "order": 9,
+      "chapters": 31
+    },
+    {
+      "_id": "2SM",
+      "name": "2 Samuel",
+      "title": "2 Samuel",
+      "order": 10,
+      "chapters": 24
+    },
+    {
+      "_id": "1KG",
+      "name": "1 Kings",
+      "title": "1 Kings",
+      "order": 11,
+      "chapters": 22
+    },
+    {
+      "_id": "2KG",
+      "name": "2 Kings",
+      "title": "2 Kings",
+      "order": 12,
+      "chapters": 25
+    },
+    {
+      "_id": "1CH",
+      "name": "1 Chronicles",
+      "title": "1 Chronicles",
+      "order": 13,
+      "chapters": 29
+    },
+    {
+      "_id": "2CH",
+      "name": "2 Chronicles",
+      "title": "2 Chronicles",
+      "order": 14,
+      "chapters": 36
+    },
+    {
+      "_id": "EZR",
+      "name": "Ezra",
+      "title": "Ezra",
+      "order": 15,
+      "chapters": 10
+    },
+    {
+      "_id": "NEH",
+      "name": "Nehemiah",
+      "title": "Nehemiah",
+      "order": 16,
+      "chapters": 13
+    },
+    {
+      "_id": "EST",
+      "name": "Esther",
+      "title": "Esther",
+      "order": 17,
+      "chapters": 10
+    },
+    {
+      "_id": "JOB",
+      "name": "Job",
+      "title": "Job",
+      "order": 18,
+      "chapters": 42
+    },
+    {
+      "_id": "PSA",
+      "name": "Psalm",
+      "title": "Psalm",
+      "order": 19,
+      "chapters": 150
+    },
+    {
+      "_id": "PRV",
+      "name": "Proverbs",
+      "title": "Proverbs",
+      "order": 20,
+      "chapters": 31
+    },
+    {
+      "_id": "ECC",
+      "name": "Ecclesiastes",
+      "title": "Ecclesiastes",
+      "order": 21,
+      "chapters": 12
+    },
+    {
+      "_id": "SOS",
+      "name": "Song of Solomon",
+      "title": "Song of Solomon",
+      "order": 22,
+      "chapters": 8
+    },
+    {
+      "_id": "ISA",
+      "name": "Isaiah",
+      "title": "Isaiah",
+      "order": 23,
+      "chapters": 66
+    },
+    {
+      "_id": "JER",
+      "name": "Jeremiah",
+      "title": "Jeremiah",
+      "order": 24,
+      "chapters": 52
+    },
+    {
+      "_id": "LAM",
+      "name": "Lamentations",
+      "title": "Lamentations",
+      "order": 25,
+      "chapters": 5
+    },
+    {
+      "_id": "EZK",
+      "name": "Ezekiel",
+      "title": "Ezekiel",
+      "order": 26,
+      "chapters": 48
+    },
+    {
+      "_id": "DAN",
+      "name": "Daniel",
+      "title": "Daniel",
+      "order": 27,
+      "chapters": 12
+    },
+    {
+      "_id": "HOS",
+      "name": "Hosea",
+      "title": "Hosea",
+      "order": 28,
+      "chapters": 14
+    },
+    {
+      "_id": "JOL",
+      "name": "Joel",
+      "title": "Joel",
+      "order": 29,
+      "chapters": 3
+    },
+    {
+      "_id": "AMS",
+      "name": "Amos",
+      "title": "Amos",
+      "order": 30,
+      "chapters": 9
+    },
+    {
+      "_id": "OBD",
+      "name": "Obadiah",
+      "title": "Obadiah",
+      "order": 31,
+      "chapters": 1
+    },
+    {
+      "_id": "JNA",
+      "name": "Jonah",
+      "title": "Jonah",
+      "order": 32,
+      "chapters": 4
+    },
+    {
+      "_id": "MIC",
+      "name": "Micah",
+      "title": "Micah",
+      "order": 33,
+      "chapters": 7
+    },
+    {
+      "_id": "NAH",
+      "name": "Nahum",
+      "title": "Nahum",
+      "order": 34,
+      "chapters": 3
+    },
+    {
+      "_id": "HAB",
+      "name": "Habakkuk",
+      "title": "Habakkuk",
+      "order": 35,
+      "chapters": 3
+    },
+    {
+      "_id": "ZPH",
+      "name": "Zephaniah",
+      "title": "Zephaniah",
+      "order": 36,
+      "chapters": 3
+    },
+    {
+      "_id": "HAG",
+      "name": "Haggai",
+      "title": "Haggai",
+      "order": 37,
+      "chapters": 2
+    },
+    {
+      "_id": "ZEC",
+      "name": "Zechariah",
+      "title": "Zechariah",
+      "order": 38,
+      "chapters": 14
+    },
+    {
+      "_id": "MAL",
+      "name": "Malachi",
+      "title": "Malachi",
+      "order": 39,
+      "chapters": 4
+    },
+    {
+      "_id": "MAT",
+      "name": "Matthew",
+      "title": "Matthew",
+      "order": 40,
+      "chapters": 28
+    },
+    {
+      "_id": "MRK",
+      "name": "Mark",
+      "title": "Mark",
+      "order": 41,
+      "chapters": 16
+    },
+    {
+      "_id": "LUK",
+      "name": "Luke",
+      "title": "Luke",
+      "order": 42,
+      "chapters": 24
+    },
+    {
+      "_id": "JHN",
+      "name": "John",
+      "title": "John",
+      "order": 43,
+      "chapters": 21
+    },
+    {
+      "_id": "ACT",
+      "name": "Acts",
+      "title": "Acts",
+      "order": 44,
+      "chapters": 28
+    },
+    {
+      "_id": "ROM",
+      "name": "Romans",
+      "title": "Romans",
+      "order": 45,
+      "chapters": 16
+    },
+    {
+      "_id": "1CO",
+      "name": "1 Corinthians",
+      "title": "1 Corinthians",
+      "order": 46,
+      "chapters": 16
+    },
+    {
+      "_id": "2CO",
+      "name": "2 Corinthians",
+      "title": "2 Corinthians",
+      "order": 47,
+      "chapters": 13
+    },
+    {
+      "_id": "GAL",
+      "name": "Galatians",
+      "title": "Galatians",
+      "order": 48,
+      "chapters": 6
+    },
+    {
+      "_id": "EPH",
+      "name": "Ephesians",
+      "title": "Ephesians",
+      "order": 49,
+      "chapters": 6
+    },
+    {
+      "_id": "PHP",
+      "name": "Philippians",
+      "title": "Philippians",
+      "order": 50,
+      "chapters": 4
+    },
+    {
+      "_id": "COL",
+      "name": "Colossians",
+      "title": "Colossians",
+      "order": 51,
+      "chapters": 4
+    },
+    {
+      "_id": "1TH",
+      "name": "1 Thessalonians",
+      "title": "1 Thessalonians",
+      "order": 52,
+      "chapters": 5
+    },
+    {
+      "_id": "2TH",
+      "name": "2 Thessalonians",
+      "title": "2 Thessalonians",
+      "order": 53,
+      "chapters": 3
+    },
+    {
+      "_id": "1TM",
+      "name": "1 Timothy",
+      "title": "1 Timothy",
+      "order": 54,
+      "chapters": 6
+    },
+    {
+      "_id": "2TM",
+      "name": "2 Timothy",
+      "title": "2 Timothy",
+      "order": 55,
+      "chapters": 4
+    },
+    {
+      "_id": "TIT",
+      "name": "Titus",
+      "title": "Titus",
+      "order": 56,
+      "chapters": 3
+    },
+    {
+      "_id": "PHM",
+      "name": "Philemon",
+      "title": "Philemon",
+      "order": 57,
+      "chapters": 1
+    },
+    {
+      "_id": "HEB",
+      "name": "Hebrews",
+      "title": "Hebrews",
+      "order": 58,
+      "chapters": 13
+    },
+    {
+      "_id": "JAS",
+      "name": "James",
+      "title": "James",
+      "order": 59,
+      "chapters": 5
+    },
+    {
+      "_id": "1PT",
+      "name": "1 Peter",
+      "title": "1 Peter",
+      "order": 60,
+      "chapters": 5
+    },
+    {
+      "_id": "2PT",
+      "name": "2 Peter",
+      "title": "2 Peter",
+      "order": 61,
+      "chapters": 3
+    },
+    {
+      "_id": "1JN",
+      "name": "1 John",
+      "title": "1 John",
+      "order": 62,
+      "chapters": 5
+    },
+    {
+      "_id": "2JN",
+      "name": "2 John",
+      "title": "2 John",
+      "order": 63,
+      "chapters": 1
+    },
+    {
+      "_id": "3JN",
+      "name": "3 John",
+      "title": "3 John",
+      "order": 64,
+      "chapters": 1
+    },
+    {
+      "_id": "JUD",
+      "name": "Jude",
+      "title": "Jude",
+      "order": 65,
+      "chapters": 1
+    },
+    {
+      "_id": "REV",
+      "name": "Revelation",
+      "title": "Revelation",
+      "order": 66,
+      "chapters": 22
+    }
+  ],
+  "abbr": [
+    {
+      "_id": "NA",
+      "name": "NA",
+      "description": "Nestle Aland, Novum Testamentum Graece"
+    },
+    {
+      "_id": "SBL",
+      "name": "SBL",
+      "description": "Society of Biblical Literature, Greek New Testament"
+    },
+    {
+      "_id": "ECM",
+      "name": "ECM",
+      "description": "Editio Critica Maior, Novum Testamentum Graecum"
+    },
+    {
+      "_id": "NE",
+      "name": "NE",
+      "description": "Eberhard Nestle, Novum Testamentum Graece"
+    },
+    {
+      "_id": "WH",
+      "name": "WH",
+      "description": "Westcott and Hort, New Testament in the Original Greek"
+    },
+    {
+      "_id": "TH",
+      "name": "TH",
+      "description": "The Greek New Testament, Produced at Tyndale House, Cambridge"
+    },
+    {
+      "_id": "CT",
+      "name": "CT",
+      "description": "Critical Text, a generalization used when the above sources agree"
+    },
+    {
+      "_id": "HF",
+      "name": "HF",
+      "description": "Hodges and Farstad, The Greek New Testament According to the Majority Text"
+    },
+    {
+      "_id": "F35",
+      "name": "F35",
+      "description": "The Greek New Testament According to Family 35"
+    },
+    {
+      "_id": "BYZ",
+      "name": "BYZ",
+      "description": "The New Testament in the Original Greek: Byzantine Textform, Robinson, Pierpont"
+    },
+    {
+      "_id": "ALT",
+      "name": "ALT",
+      "description": "Robinson and Pierpont, Alternate Byzantine Readings"
+    },
+    {
+      "_id": "GOC",
+      "name": "GOC",
+      "description": "Greek Orthodox Church, New Testament (Patriarchal Text)"
+    },
+    {
+      "_id": "TR",
+      "name": "TR",
+      "description": [
+        { "text": "Scrivener Textus Receptus", "break": true },
+        "Stephanus Textus Receptus"
+      ]
+    },
+    { "_id": "DSS", "name": "DSS", "description": "Dead Sea Scrolls" },
+    {
+      "_id": "MT",
+      "name": "MT",
+      "description": [
+        {
+          "text": "Hebrew Masoretic Text: Westminster Leningrad Codex",
+          "break": true
+        },
+        "Hebrew Masoretic Text: Biblia Hebraica Stuttgartensia"
+      ]
+    },
+    {
+      "_id": "LXX",
+      "name": "LXX",
+      "description": [
+        {
+          "text": "Greek OT Septuagint: Rahlfs-Hanhart Septuaginta",
+          "break": true
+        },
+        "Greek OT Septuagint: Swete’s Septuagint"
+      ]
+    },
+    { "_id": "SP", "name": "SP", "description": "Samaritan Pentateuch" },
+    {
+      "_id": "TR-SCRIVENER",
+      "name": "Scrivener TR",
+      "description": "Scrivener Textus Receptus"
+    },
+    {
+      "_id": "TR-STEPHANUS",
+      "name": "Stephanus TR",
+      "description": "Stephanus Textus Receptus"
+    }
+  ]
+}

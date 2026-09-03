@@ -1,0 +1,987 @@
+[
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 1,
+    "content": [
+      {
+        "heading": {
+          "text": "Paul’s Greeting to Timothy",
+          "foot": {
+            "type": "xrf",
+            "content": { "bibleLink": "1 Timothy 1:1–2" }
+          }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Paul, an apostle of Jesus Christ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "GOC" },
+            ", ",
+            { "abbr": "CT" },
+            ", and ",
+            { "abbr": "HF" },
+            " ",
+            { "text": "of Christ Jesus", "marks": ["i"] }
+          ]
+        }
+      },
+      " by the will of God, according to the promise of life in Christ Jesus,"
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 2,
+    "content": [
+      { "paragraph": true, "text": "To Timothy, my beloved child:" },
+      {
+        "paragraph": true,
+        "text": "Grace, mercy, and peace from God the Father and Christ Jesus our Lord."
+      }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 3,
+    "content": [
+      {
+        "heading": {
+          "text": "Faithfulness under Persecution",
+          "foot": {
+            "type": "xrf",
+            "content": { "bibleLink": "Matthew 10:16–25" }
+          }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "I thank God, whom I serve with a clear conscience as did my forefathers, as I constantly remember you night and day in my prayers."
+      }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 4,
+    "content": "Recalling your tears, I long to see you so that I may be filled with joy."
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 5,
+    "content": {
+      "paragraph": true,
+      "text": "I am reminded of your sincere faith, which first dwelt in your grandmother Lois and your mother Eunice, and I am convinced is in you as well."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 6,
+    "content": {
+      "paragraph": true,
+      "text": "For this reason I remind you to fan into flame the gift of God, which is in you through the laying on of my hands."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 7,
+    "content": [
+      {
+        "text": "For God has not given us a spirit of fear,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or ",
+            { "text": "timidity", "marks": ["i"] },
+            " or ",
+            { "text": "cowardice", "marks": ["i"] }
+          ]
+        }
+      },
+      " but of power, love, and self-control."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 8,
+    "content": {
+      "paragraph": true,
+      "text": "So do not be ashamed of the testimony of our Lord, or of me, His prisoner. Instead, join me in suffering for the gospel by the power of God."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 9,
+    "content": {
+      "text": "He has saved us and called us to a holy calling, not because of our works, but by His own purpose and by the grace He granted us in Christ Jesus before time began.",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "Literally ",
+          { "text": "before times eternal", "marks": ["i"] }
+        ]
+      }
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 10,
+    "content": [
+      {
+        "text": "And now He has revealed this grace through the appearing of our Savior, Jesus Christ,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "NA" },
+            " and ",
+            { "abbr": "WH" },
+            " ",
+            { "text": "Christ Jesus", "marks": ["i"] }
+          ]
+        }
+      },
+      " who has abolished death and illuminated the way to life and immortality through the gospel,"
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 11,
+    "content": {
+      "text": "to which I was appointed as a preacher, an apostle, and a teacher of the Gentiles.",
+      "foot": {
+        "type": "var",
+        "content": [
+          { "abbr": "CT" },
+          " does not include ",
+          { "text": "of the Gentiles", "marks": ["i"] },
+          "."
+        ]
+      }
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 12,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For this reason, even though I suffer as I do, I am not ashamed; for I know whom I have believed, and I am convinced that He is able to guard what I have entrusted to Him",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or ",
+            { "text": "what He has entrusted to me", "marks": ["i"] }
+          ]
+        }
+      },
+      " for that day."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 13,
+    "content": [
+      { "heading": "Holding to Sound Teaching" },
+      {
+        "paragraph": true,
+        "text": "Hold on to the pattern of sound teaching",
+        "foot": {
+          "type": "trn",
+          "content": ["Literally ", { "text": "sound words", "marks": ["i"] }]
+        }
+      },
+      " you have heard from me, with the faith and love that are in Christ Jesus."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 14,
+    "content": [
+      {
+        "text": "Guard the treasure entrusted to you,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or ",
+            { "text": "the good deposit entrusted to you", "marks": ["i"] }
+          ]
+        }
+      },
+      " with the help of the Holy Spirit who dwells in us."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 15,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "You know that everyone in the Province of Asia",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Literally ",
+            { "text": "in Asia", "marks": ["i"] },
+            "; Asia was a Roman province in what is now western Turkey."
+          ]
+        }
+      },
+      " has deserted me, including Phygelus and Hermogenes."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 16,
+    "content": {
+      "paragraph": true,
+      "text": "May the Lord grant mercy to the household of Onesiphorus, because he has often refreshed me and was unashamed of my chains."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 17,
+    "content": [
+      {
+        "text": "Indeed, when he arrived in Rome, he searched very diligently",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "he searched diligently", "marks": ["i"] }
+          ]
+        }
+      },
+      " until he found me."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 1,
+    "verse": 18,
+    "content": {
+      "paragraph": true,
+      "text": "May the Lord grant Onesiphorus His mercy on that day. You know very well how much he ministered to me in Ephesus."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 1,
+    "content": [
+      {
+        "heading": {
+          "text": "Grace and Perseverance",
+          "foot": {
+            "type": "xrf",
+            "content": { "bibleLink": "Hebrews 12:1–3" }
+          }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "You therefore, my child, be strong in the grace that is in Christ Jesus."
+      }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 2,
+    "content": "And the things that you have heard me say among many witnesses, entrust these to faithful men who will be qualified to teach others as well."
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 3,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Endure hardship, therefore,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "Join me in suffering", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " like a good soldier of Jesus Christ.",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "of Christ Jesus", "marks": ["i"] }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 4,
+    "content": "A soldier refrains from entangling himself in civilian affairs, in order to please the one who enlisted him."
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 5,
+    "content": "Likewise, a competitor does not receive the crown unless he competes according to the rules."
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 6,
+    "content": "The hardworking farmer should be the first to partake of the crops."
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 7,
+    "content": "Consider what I am saying, for the Lord will give you insight into all things."
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 8,
+    "content": {
+      "paragraph": true,
+      "text": "Remember Jesus Christ, raised from the dead, descended from David, as proclaimed by my gospel,"
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 9,
+    "content": "for which I suffer to the extent of being chained like a criminal. But the word of God cannot be chained!"
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 10,
+    "content": "For this reason I endure all things for the sake of the elect, so that they too may obtain the salvation that is in Christ Jesus, with eternal glory."
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 11,
+    "content": [
+      { "paragraph": true, "text": "This is a trustworthy saying:" },
+      { "paragraph": true, "text": "If we died with Him,", "break": true },
+      { "text": "we will also live with Him;", "break": true }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 12,
+    "content": [
+      { "text": "if we endure,", "break": true },
+      { "text": "we will also reign with Him;", "break": true },
+      { "text": "if we deny Him,", "break": true },
+      { "text": "He will also deny us;", "break": true }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 13,
+    "content": [
+      { "text": "if we are faithless,", "break": true },
+      { "text": "He remains faithful;", "break": true },
+      {
+        "text": "He cannot",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "NA" },
+            ", ",
+            { "abbr": "TH" },
+            ", and ",
+            { "abbr": "WH" },
+            " ",
+            { "text": "for He cannot", "marks": ["i"] }
+          ]
+        }
+      },
+      " deny Himself."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 14,
+    "content": [
+      { "heading": "The Lord’s Approved Workman" },
+      {
+        "paragraph": true,
+        "text": "Remind the believers of these things, charging them before the Lord",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "SBL" },
+            ", ",
+            { "abbr": "MT" },
+            ", and ",
+            { "abbr": "TR" },
+            "; ",
+            { "abbr": "NA" },
+            " and ",
+            { "abbr": "WH" },
+            " ",
+            { "text": "before God", "marks": ["i"] }
+          ]
+        }
+      },
+      " to avoid quarreling over words, which succeeds only in leading the listeners to ruin."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 15,
+    "content": {
+      "paragraph": true,
+      "text": "Make every effort to present yourself approved to God, an unashamed workman who accurately handles the word of truth."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 16,
+    "content": {
+      "paragraph": true,
+      "text": "But avoid irreverent, empty chatter, which will only lead to more ungodliness,"
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 17,
+    "content": "and the talk of such men will spread like gangrene. Among them are Hymenaeus and Philetus,"
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 18,
+    "content": "who have deviated from the truth. They say that the resurrection has already occurred, and they undermine the faith of some."
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 19,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Nevertheless, God’s firm foundation stands, bearing this seal: “The Lord knows those who are His,”",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "bibleLink": "Numbers 16:5" },
+            " (see also ",
+            { "abbr": "LXX" },
+            ")"
+          ]
+        }
+      },
+      {
+        "text": " and, “Everyone who calls on the name of the Lord",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "TR" },
+            " ",
+            { "text": "of Christ", "marks": ["i"] }
+          ]
+        }
+      },
+      " must turn away from iniquity.”"
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 20,
+    "content": {
+      "paragraph": true,
+      "text": "A large house contains not only vessels of gold and silver, but also of wood and clay. Some indeed are for honorable use, but others are for common use."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 21,
+    "content": [
+      {
+        "text": "So if anyone cleanses himself of what is unfit,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Literally ",
+            { "text": "cleanses himself of these", "marks": ["i"] }
+          ]
+        }
+      },
+      " he will be a vessel for honor: sanctified, useful to the Master, and prepared for every good work."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 22,
+    "content": {
+      "paragraph": true,
+      "text": "Flee from youthful passions and pursue righteousness, faith, love, and peace, together with those who call on the Lord out of a pure heart."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 23,
+    "content": {
+      "paragraph": true,
+      "text": "But reject foolish and ignorant speculation, for you know that it breeds quarreling."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 24,
+    "content": "And a servant of the Lord must not be quarrelsome, but must be kind to everyone, able to teach, and forbearing."
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 25,
+    "content": "He must gently reprove those who oppose him, in the hope that God may grant them repentance leading to a knowledge of the truth."
+  },
+  {
+    "book": "2TM",
+    "chapter": 2,
+    "verse": 26,
+    "content": "Then they will come to their senses and escape the snare of the devil, who has taken them captive to his will."
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 1,
+    "content": [
+      { "heading": "Evil in the Last Days" },
+      {
+        "paragraph": true,
+        "text": "But understand this: In the last days terrible times will come."
+      }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 2,
+    "content": "For men will be lovers of themselves, lovers of money, boastful, arrogant, abusive, disobedient to their parents, ungrateful, unholy,"
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 3,
+    "content": "unloving, unforgiving, slanderous, without self-control, brutal, without love of good,"
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 4,
+    "content": "traitorous, reckless, conceited, lovers of pleasure rather than lovers of God,"
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 5,
+    "content": "having a form of godliness but denying its power. Turn away from such as these!"
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 6,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "They are the kind who worm their way",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "F35" },
+            " ",
+            { "text": "who press", "marks": ["i"] }
+          ]
+        }
+      },
+      " into households and captivate vulnerable women who are weighed down with sins and led astray by various passions,"
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 7,
+    "content": "who are always learning but never able to come to a knowledge of the truth."
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 8,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Just as Jannes and Jambres opposed Moses,",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "See Jasher 79:27. ",
+            { "text": "The Book of Jashar", "marks": ["i"] },
+            " or ",
+            { "text": "the Book of the Upright One", "marks": ["i"] },
+            " is often cited as ",
+            { "text": "Jasher", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      " so also these men oppose the truth. They are depraved in mind and disqualified from the faith."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 9,
+    "content": "But they will not advance much further. For just like Jannes and Jambres, their folly will be plain to everyone."
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 10,
+    "content": [
+      {
+        "heading": {
+          "text": "All Scripture Is God-Breathed",
+          "foot": {
+            "type": "xrf",
+            "content": { "bibleLink": "Hebrews 4:12–16" }
+          }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "You, however, have observed my teaching, my conduct, my purpose, my faith, my patience, my love, my perseverance,"
+      }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 11,
+    "content": "my persecutions, and the sufferings that came upon me in Antioch, Iconium, and Lystra. What persecutions I endured! Yet the Lord rescued me from all of them."
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 12,
+    "content": "Indeed, all who desire to live godly lives in Christ Jesus will be persecuted,"
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 13,
+    "content": "while evil men and imposters go from bad to worse, deceiving and being deceived."
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 14,
+    "content": {
+      "paragraph": true,
+      "text": "But as for you, continue in the things you have learned and firmly believed, since you know from whom you have learned them."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 15,
+    "content": "From infancy you have known the Holy Scriptures, which are able to make you wise for salvation through faith in Christ Jesus."
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 16,
+    "content": "All Scripture is God-breathed and is useful for instruction, for conviction, for correction, and for training in righteousness,"
+  },
+  {
+    "book": "2TM",
+    "chapter": 3,
+    "verse": 17,
+    "content": "so that the man of God may be complete, fully equipped for every good work."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 1,
+    "content": [
+      { "heading": "Preach the Word" },
+      {
+        "paragraph": true,
+        "text": "I charge you, therefore, in the presence of God and of the Lord Jesus Christ,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            {
+              "text": "I charge you in the presence of God and of Christ Jesus",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      " who will judge the living and the dead, and in view of His appearing and His kingdom:"
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 2,
+    "content": "Preach the word; be prepared in season and out of season; reprove, rebuke, and encourage with every form of patient instruction."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 3,
+    "content": {
+      "paragraph": true,
+      "text": "For the time will come when men will not tolerate sound doctrine, but with itching ears they will gather around themselves teachers to suit their own desires."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 4,
+    "content": "So they will turn their ears away from the truth and turn aside to myths."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 5,
+    "content": {
+      "paragraph": true,
+      "text": "But you, be sober in all things, endure hardship, do the work of an evangelist, fulfill your ministry."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 6,
+    "content": "For I am already being poured out like a drink offering, and the time of my departure is at hand."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 7,
+    "content": "I have fought the good fight, I have finished the race, I have kept the faith."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 8,
+    "content": "From now on there is laid up for me the crown of righteousness, which the Lord, the righteous Judge, will award to me on that day—and not only to me, but to all who crave His appearing."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 9,
+    "content": [
+      { "heading": "Personal Concerns" },
+      { "paragraph": true, "text": "Make every effort to come to me quickly," }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 10,
+    "content": "because Demas, in his love of this world, has deserted me and gone to Thessalonica. Crescens has gone to Galatia, and Titus to Dalmatia."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 11,
+    "content": "Only Luke is with me. Get Mark and bring him with you, because he is useful to me in the ministry."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 12,
+    "content": "Tychicus, however, I have sent to Ephesus."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 13,
+    "content": "When you come, bring the cloak that I left with Carpus at Troas, and my scrolls, especially the parchments."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 14,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Alexander the coppersmith did great harm to me. May the Lord repay",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "The Lord will repay", "marks": ["i"] }
+          ]
+        }
+      },
+      " him according to his deeds."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 15,
+    "content": "You too should beware of him, for he has vigorously opposed our message."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 16,
+    "content": [
+      { "heading": "The Lord Remains Faithful" },
+      {
+        "paragraph": true,
+        "text": "At my first defense, no one stood with me, but everyone deserted me. May it not be charged against them."
+      }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 17,
+    "content": "But the Lord stood by me and strengthened me, so that through me the message would be fully proclaimed, and all the Gentiles would hear it. So I was delivered from the mouth of the lion."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 18,
+    "content": "And the Lord will rescue me from every evil action and bring me safely into His heavenly kingdom. To Him be the glory forever and ever. Amen."
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 19,
+    "content": [
+      {
+        "heading": {
+          "text": "Final Greetings",
+          "foot": {
+            "type": "xrf",
+            "content": [
+              { "bibleLink": "Ephesians 6:21–24" },
+              "; ",
+              { "bibleLink": "Philippians 4:21–23" }
+            ]
+          }
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Greet Prisca",
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "text": "Prisca", "marks": ["i"] },
+            " is a variant of ",
+            { "text": "Priscilla", "marks": ["i"] },
+            "; see ",
+            { "bibleLink": "Acts 18:2" },
+            "."
+          ]
+        }
+      },
+      " and Aquila, as well as the household of Onesiphorus."
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 20,
+    "content": {
+      "paragraph": true,
+      "text": "Erastus has remained at Corinth, and Trophimus I left sick in Miletus."
+    }
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 21,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Make every effort to come to me before winter."
+      },
+      {
+        "paragraph": true,
+        "text": "Eubulus sends you greetings, as do Pudens, Linus, Claudia, and all the brothers."
+      }
+    ]
+  },
+  {
+    "book": "2TM",
+    "chapter": 4,
+    "verse": 22,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The Lord Jesus Christ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " ",
+            { "text": "The Lord", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": " be with your spirit. Grace be with you all. Amen.",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "abbr": "CT" },
+            " does not include ",
+            { "text": "Amen.", "marks": ["i"] }
+          ]
+        }
+      }
+    ]
+  }
+]
