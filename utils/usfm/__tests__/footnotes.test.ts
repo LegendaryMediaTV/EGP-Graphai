@@ -441,13 +441,13 @@ describe("buildFootnoteContent — an \\f body that is nothing but a reference r
   it('should resolve a "See "-led reference-only \\f body to a real bibleLink, not leave it as unresolved plain text (Baruch 1:11\'s real note)', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 1:11 \\ft See Deuteronomy 11:21. \\f*', IN_SCOPE_CANON);
     expect(footnote.type).toBe("xrf");
-    expect(footnote.content).toEqual({ bibleLink: "Deuteronomy 11:21", content: "See Deuteronomy 11:21" });
+    expect(footnote.content).toEqual(["See ", { bibleLink: "Deuteronomy 11:21" }]);
   });
 
   it('should resolve a "Compare "-led reference-only \\f body the same way (1 Maccabees 4:40\'s real note — "Compare " never occurs in a real \\xt target, only here)', () => {
     const { footnote } = footnoteFrom('\\f + \\fr 4:40 \\ft Compare Numbers 31:6.\\f*', IN_SCOPE_CANON);
     expect(footnote.type).toBe("xrf");
-    expect(footnote.content).toEqual({ bibleLink: "Numbers 31:6", content: "Compare Numbers 31:6" });
+    expect(footnote.content).toEqual(["Compare ", { bibleLink: "Numbers 31:6" }]);
   });
 
   it("should resolve a bare reference-only \\f body with no lead-in word at all, to the canonical singular \"Psalm\" target (1 Maccabees 7:17's real note)", () => {
@@ -460,7 +460,8 @@ describe("buildFootnoteContent — an \\f body that is nothing but a reference r
     const { footnote } = footnoteFrom('\\f + \\fr 11:4 \\ft See Deuteronomy 8:15; Psalms 114:8.\\f*', IN_SCOPE_CANON);
     expect(footnote.type).toBe("xrf");
     expect(footnote.content).toEqual([
-      { bibleLink: "Deuteronomy 8:15", content: "See Deuteronomy 8:15" },
+      "See ",
+      { bibleLink: "Deuteronomy 8:15" },
       "; ",
       { bibleLink: "Psalm 114:8", content: "Psalms 114:8" },
     ]);
@@ -469,7 +470,7 @@ describe("buildFootnoteContent — an \\f body that is nothing but a reference r
   it("should still classify and resolve correctly when canonBookIds is omitted entirely (no canon restriction), matching buildReferenceOnlyContent's own default", () => {
     const { footnote } = footnoteFrom('\\f + \\fr 10:26 \\ft See Exodus 23:22.\\f*');
     expect(footnote.type).toBe("xrf");
-    expect(footnote.content).toEqual({ bibleLink: "Exodus 23:22", content: "See Exodus 23:22" });
+    expect(footnote.content).toEqual(["See ", { bibleLink: "Exodus 23:22" }]);
   });
 
   it("should leave an ordinary, non-reference-only \\f body exactly as before — this fix only ever changes an xrf-classified body's own content (2 Kings 17:27's real \\fq-shaped note, already covered above, re-asserted here to prove no cross-talk between the two code paths)", () => {

@@ -57,10 +57,10 @@
   - A mark-bearing registry name sharing one emphasis span with the prose beside it, and the two guard cases (a bare-string name, an array name) staying opaque
   - Bold/italic rendering: markdown-only wrapping, and the shared-delimiter-span merge across adjacent same-marked siblings (regression coverage for the `**word****word**` bug)
   - Synthetic space insertion between an unseparated Strong's/morph/lemma tag and the word that follows
-  - Markdown escaping of a literal `_`/`*` in content text (BYZ2018 Beta-code apparatus sigla), never applied to a delimiter the renderer emits itself; the text export escapes nothing
+  - Markdown escaping of a literal `_`/`*` in content text (the retired BYZ2018's Beta-code apparatus sigla), never applied to a delimiter the renderer emits itself; the text export escapes nothing
   - A leading subtitle rendering above the verse line, mirroring the existing leading-heading hoist, across every leading-run shape the corpus carries
   - Edge cases: mid-verse paragraphs, textless elements, trailing footnotes
-  - Real-world verse tests from KJV1769 and BYZ2018
+  - Real-world verse tests from KJV1769 and BYZ2026
 
 ### Small Caps Conversion Domain
 
@@ -390,7 +390,7 @@ Fraction normalization is shared with `validate.ts` via `functions/normalizeFrac
 
 - Fixture files in `functions/__tests__/fixtures/versions/` for version discovery tests
 - Inline verse data in `utils/__tests__/exportContent.test.ts` for export tests
-- Real-world samples from KJV1769 and BYZ2018 for integration-style tests
+- Real-world samples from KJV1769 and BYZ2026 for integration-style tests
 - Scratch directories via `fs.mkdtempSync(os.tmpdir())` in `writeJsonFile.test.ts`, torn down in `afterAll`; failure-path tests use Vitest fake timers to collapse the retry backoff instead of waiting on it
 - Synthetic input directories in place of the real corpus, wherever a module's real input is a folder it reads off disk: `crossChapterLinks.test.ts`'s `FAKE_A`/`FAKE_B` version directories (real book ids, so name resolution still hits the real `bible-books.json`, but invented chapter/verse records), `validate.test.ts`'s two-version `versionsRoot`, `getBibleVersions.test.ts`'s fixture directories, and `importUsfm.test.ts`'s single-book `.usfm` source copy. Two seams in production code make the first two possible — `readVersionBookFiles` treats an absolute `versionId` as a directory to read directly, and `collectJsonFiles` takes an optional `versionsRoot` — both defaulting to `bible-versions/`, so no production caller changed. A test written this way keeps passing when a translation is added, removed, or re-imported
 - Target strings in `crossChapterLinks.test.ts` keep the shape real translations actually write, even where the version data behind them is synthetic, and are marked as grammar illustrations in the small number of cases where no such target exists in the corpus

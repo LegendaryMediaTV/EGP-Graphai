@@ -2,7 +2,7 @@
  * Applies `auditNodes.ts`'s own duplicate-footnote-anchor check: deletes a
  * node that renders no visible text of its own and whose `foot` is byte-for-byte identical to
  * the nearest node before it that wasn't itself already deleted — real
- * BYZ2018 2 Corinthians 7:12 shape, three consecutive nodes sharing one
+ * shape from the since-retired BYZ2018's 2 Corinthians 7:12, three consecutive nodes sharing one
  * apparatus note, the first attached to real text and the second and third
  * bare `{foot: {...}}` anchors repeating it with nothing of their own to
  * attach it to.
@@ -36,8 +36,8 @@ import {
  * left to right. Tracks the last node actually kept (not simply the
  * previous array index), the same "nearest node not itself flagged for
  * deletion" rule `scanArrayForDuplicateFootnoteAnchors` uses in
- * `auditNodes.ts` — a chain of two or more repeats (the real BYZ2018 2
- * Corinthians 7:12 shape) all compare against the one real node, so all of
+ * `auditNodes.ts` — a chain of two or more repeats (the retired BYZ2018's
+ * real 2 Corinthians 7:12 shape) all compare against the one real node, so all of
  * them fall, not just the one immediately touching it.
  */
 function rewriteArrayLevel(nodes: readonly unknown[]): { nodes: unknown[]; changed: boolean } {

@@ -54,10 +54,16 @@ import {
   SkipReason as FootnoteMarkerSpacingSkipReason,
 } from "./fixFootnoteMarkerSpacing";
 import { removeDuplicateFootnoteAnchorsInContent } from "./fixDuplicateFootnoteAnchors";
+import {
+  findBibleLinkDisplayProse,
+  formatBibleLinkDisplayProseFinding,
+  hoistBibleLinkDisplayProseInContent,
+} from "./fixBibleLinkDisplayProse";
 import { mergeEquivalentSiblingsInContent } from "../functions/mergeEquivalentSiblingsInContent";
 import {
   findUnknownAbbreviations,
   formatUnknownAbbreviation,
+  registeredAbbreviationIds,
 } from "./abbreviations";
 import { mergeMarkBoundarySpacesInContent } from "./fixMarkBoundarySpaces";
 
@@ -126,6 +132,51 @@ async function formatJsonFile(filePath: string): Promise<boolean> {
     return true;
   }
   return false;
+}
+
+/**
+ * Move every recognized piece of non-reference prose out of the `bibleLink`
+ * node linking it in one verse file, writing it back if anything changed —
+ * see `fixBibleLinkDisplayProse.ts` for what counts as prose and why the
+ * table is closed.
+ *
+ * **First of the content steps in `main()`'s own pass, and the order matters
+ * for one of them.** This is the step that takes a trailing tradition siglon
+ * off a *target* ("Deuteronomy 32:43 LXX"), which is the difference between
+ * a target naming a real verse and one naming nothing at all. Every later
+ * step that reads a target — the shorthand rewrite, the truncated-range
+ * reconstruction, the cross-chapter split — is then looking at a reference
+ * rather than a reference with an edition note stuck to it.
+ *
+ * Calls `sortVerseKeys` on every changed verse: hoisting prose can turn a
+ * lone link into an array, and can drop a display override the prose was the
+ * only reason for, both of which change which keys a node carries.
+ *
+ * Reads the version id off the file's own directory name to look up that
+ * version's abbreviation registry, the same per-file resolution {@link
+ * reconstructTruncatedRangesInFile} uses for its chapter-length index and for
+ * the same reason: the lookup is memoized for the whole run, so nothing is
+ * lost by asking once per file. A hoisted tradition siglon needs it to know
+ * whether the version defines that siglum, and so whether the siglon prints
+ * as an `{ abbr }` node or as plain text.
+ */
+async function hoistBibleLinkDisplayProseInFile(filePath: string): Promise<boolean> {
+  const versionDir = path.dirname(filePath);
+  const registeredAbbreviations = registeredAbbreviationIds(versionDir);
+  const verses = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = hoistBibleLinkDisplayProseInContent(verse.content as Content, registeredAbbreviations);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+  }
+  return anyChanged;
 }
 
 /**
@@ -793,7 +844,8 @@ async function addMissingHeadingParagraphsInFile(filePath: string): Promise<bool
  *
  * @param versionId - The version this verse belongs to — needed by the
  *   cross-chapter and truncated-range steps, which read a version-wide
- *   chapter-length index.
+ *   chapter-length index, and by the display-prose hoist, which reads that
+ *   version's own abbreviation registry.
  * @param verse - One already-fixed verse record to re-check.
  */
 export function findResidualContentChanges(
@@ -812,6 +864,9 @@ export function findResidualContentChanges(
     if (result.changed) residualSteps.push(name);
   };
 
+  applyStep("bibleLink display prose hoist", (c) =>
+    hoistBibleLinkDisplayProseInContent(c, registeredAbbreviationIds(path.join(bibleVersionsDir, versionId))),
+  );
   applyStep("bibleLink dash normalization", (c) => normalizeBibleLinkDashesInContent(c));
   applyStep("single-chapter shorthand rewrite", (c) => normalizeSingleChapterShorthandInContent(c));
   applyStep("truncated-range reconstruction", (c) => reconstructTruncatedRangesInContent(versionId, c));
@@ -1333,7 +1388,8 @@ export function normalizeBibleLinkDashesInContent(
 /**
  * Validates (and normalizes) one version, or every version when none is
  * requested. The auto-fix pass runs the following steps, in order: sort verse
- * keys, format JSON files, normalize `bibleLink` dashes, reconstruct
+ * keys, format JSON files, hoist non-reference prose out of `bibleLink`
+ * nodes, normalize `bibleLink` dashes, reconstruct
  * truncated `bibleLink` ranges, split cross-chapter `bibleLink` ranges,
  * normalize fractions, normalize ellipses, normalize straight quotes, tag
  * untagged script runs, merge unmerged node pairs, reorder footnote
@@ -1343,7 +1399,11 @@ export function normalizeBibleLinkDashesInContent(
  * missing heading/subtitle paragraph flags. Single-chapter shorthand
  * targets gain their implied chapter near the front, right after dashes.
  *
- * The ordering is deliberate. Dashes settle before the truncated-range and
+ * The ordering is deliberate. The display-prose hoist goes first because it
+ * is the step that takes a tradition siglon off a *target*, the difference
+ * between a target naming a real verse and one naming nothing, so every
+ * later target-reading step sees a settled reference. Dashes settle before
+ * the truncated-range and
  * cross-chapter steps look for the separator; a reconstructed truncated
  * range runs before the cross-chapter split so a range that turns out to
  * span two chapters gets split on the very next step rather than left for a
@@ -1430,7 +1490,8 @@ export function normalizeBibleLinkDashesInContent(
  * After that, `main` checks bible-books, each version's `_version.json`,
  * book ordering, and every verse file's schema and content, then runs the
  * report-only audits: declared chapter counts, cross-chapter links,
- * truncated ranges, node conventions, and unresolvable `bibleLink` targets
+ * truncated ranges, node conventions, unresolvable `bibleLink` targets, and
+ * `bibleLink` display prose
  * — exiting non-zero on the first phase that fails.
  *
  * **The report-only audits run after the fix pass on purpose.** The
@@ -1519,6 +1580,26 @@ async function main(requestedVersion?: string) {
     console.log(`\n✅ Formatted ${formattedCount} file(s)\n`);
   } else {
     console.log("✅ All JSON files already formatted\n");
+  }
+
+  console.log("✂️  Hoisting non-reference prose out of bibleLink nodes...\n");
+
+  let displayProseHoistedCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasHoisted = await hoistBibleLinkDisplayProseInFile(file);
+      if (wasHoisted) {
+        displayProseHoistedCount++;
+        console.log(`  🔄 Hoisted bibleLink display prose: ${file}`);
+      }
+    }
+  }
+
+  if (displayProseHoistedCount > 0) {
+    console.log(`\n✅ Hoisted bibleLink display prose in ${displayProseHoistedCount} file(s)\n`);
+  } else {
+    console.log("✅ Every bibleLink already links its reference and nothing else\n");
   }
 
   console.log("🔧 Normalizing bibleLink dashes...\n");
@@ -2372,8 +2453,41 @@ async function main(requestedVersion?: string) {
   }
   console.log(`   ${unresolvableTargetsScanned} bibleLink node(s) scanned corpus-wide`);
 
+  // Display-prose audit: every bibleLink still linking text that is not part
+  // of its own reference. Report-only, like its peers — the hoist step above
+  // already ran, so anything surviving here is the one shape it declines (a
+  // display override that isn't a plain string), which needs a person to say
+  // how the prose half should be marked. Prints its own `scanned` count for
+  // the same reason the audits above do.
+  console.log("\n✂️  Auditing bibleLink display prose...");
+  let displayProsePassed = true;
+  let displayProseScanned = 0;
+
+  for (const versionDir of versionDirs) {
+    let findings: ReturnType<typeof findBibleLinkDisplayProse>["findings"] = [];
+    let scanned = 0;
+    for (const file of collectJsonFiles([versionDir]).filter((f) => fs.existsSync(f) && isVerseFile(f))) {
+      const result = findBibleLinkDisplayProse(JSON.parse(fs.readFileSync(file, "utf-8")) as VerseRecord[]);
+      findings = findings.concat(result.findings);
+      scanned += result.scanned;
+    }
+    displayProseScanned += scanned;
+
+    if (findings.length === 0) {
+      console.log(`✅ ${versionDir}: every bibleLink links its reference and nothing else (${scanned} bibleLink node(s) scanned)`);
+      continue;
+    }
+
+    console.error(`❌ ${versionDir}: ${findings.length} bibleLink(s) linking non-reference text (${scanned} bibleLink node(s) scanned):`);
+    for (const finding of findings) {
+      console.error(`  ${formatBibleLinkDisplayProseFinding(finding)}`);
+    }
+    displayProsePassed = false;
+  }
+  console.log(`   ${displayProseScanned} bibleLink node(s) scanned corpus-wide`);
+
   // Abbreviation audit: every `{ abbr }` node naming an id its own version
-  // registry defines, and no registry defining an id twice. Fifth peer audit,
+  // registry defines, and no registry defining an id twice. Sixth peer audit,
   // report-only for the same reason as the four above: a bad id is either a
   // typo in the content or a missing registry entry, and only a person can
   // say which. Prints its own `scanned` count, matching them.
@@ -2413,6 +2527,7 @@ async function main(requestedVersion?: string) {
     !truncatedRangesPassed ||
     !nodeConventionsPassed ||
     !unresolvableTargetsPassed ||
+    !displayProsePassed ||
     !abbreviationsPassed
   ) {
     if (!declaredChapterMismatchesPassed) {
@@ -2430,13 +2545,16 @@ async function main(requestedVersion?: string) {
     if (!unresolvableTargetsPassed) {
       console.error("\n❌ Unresolvable bibleLink target audit failed! Each target above names a chapter or verse no version on disk records, so nothing can open it. This check has no auto-fix: correct the target, or add the version that carries it.");
     }
+    if (!displayProsePassed) {
+      console.error("\n❌ bibleLink display prose audit failed! Each link above still has non-reference text inside it — a lead-in word, a locator, an edition note, or a stray paren. The hoist step above already ran automatically, so a finding surviving here is a display override that is not a plain string: splitting it would have to decide how the prose half is marked. Fix by hand, or by making the override plain text so the hoist step can take it.");
+    }
     if (!abbreviationsPassed) {
       console.error("\n❌ Abbreviation audit failed! Each id above is written in content but missing from its own version’s `abbr` registry, or defined there twice. Registries are per-version on purpose — the same short code means different things in different editions — so there is nowhere for a lookup to fall through to. No auto-fix: add the registry entry, or correct the id in the content.");
     }
     process.exit(1);
   }
 
-  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, and abbreviation audits all passed!");
+  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, display-prose, and abbreviation audits all passed!");
 }
 
 // Guard so importing this module (e.g. from tests) doesn't also run main()

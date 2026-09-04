@@ -126,7 +126,7 @@ The mechanical steps live in the [project README](../../../README.md#adding-new-
 | Book ordering          | The `books` array in `_version.json`            | Determines filename prefixes and reader nav order  |
 | Default script         | Optional `script` field on the version          | Greek/Hebrew text without explicit `script` inherits it |
 | License & attribution  | `copyright` and `license` fields                | The reader displays these; respect source terms    |
-| Canon scope            | Include or omit books from the registry         | A NT-only version like BYZ2018 lists only NT books |
+| Canon scope            | Include or omit books from the registry         | A NT-only version like BYZ2026 lists only NT books |
 
 The exporter and reader are version-agnostic. They read whatever the version declares. No code changes are needed for a new translation if it follows the schema.
 

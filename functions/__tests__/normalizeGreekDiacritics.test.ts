@@ -12,7 +12,7 @@ const points = (text: string): string =>
     .join(" ");
 
 describe("normalizeDiacriticsText", () => {
-  it("moves a dialytika ahead of a combining accent and composes the letter (BYZ2018 Ἠσαΐου)", () => {
+  it("moves a dialytika ahead of a combining accent and composes the letter (BYZ2026 Ἠσαΐου)", () => {
     const result = normalizeDiacriticsText("Ἠσαί̈ου");
     expect(points(result.value)).toBe("U+0397 U+0313 U+03C3 U+03B1 U+0390 U+03BF U+03C5");
     expect(result.changes).toBe(1);
@@ -29,7 +29,7 @@ describe("normalizeDiacriticsText", () => {
     expect(points(result.value)).toBe("U+03C0 U+03C1 U+03C9 U+1FD2");
   });
 
-  it("composes a bare vowel and dialytika that carry no accent at all (BYZ2018 Λεϋί)", () => {
+  it("composes a bare vowel and dialytika that carry no accent at all (Λεϋί, from the retired BYZ2018 — a form BYZ2026 does not carry)", () => {
     const result = normalizeDiacriticsText("Λεϋὶ");
     expect(points(result.value)).toBe("U+039B U+03B5 U+03CB U+1F76");
     expect(result.changes).toBe(1);

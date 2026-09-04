@@ -7965,10 +7965,7 @@
         "text": "like",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Exodus 30:34",
-            "content": "See Exodus 30:34"
-          }
+          "content": ["See ", { "bibleLink": "Exodus 30:34" }]
         }
       },
       { "text": " galbanum, onycha, stacte,", "break": true },
@@ -15528,10 +15525,7 @@
         "text": "and",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Joshua 10:11",
-            "content": "See Joshua 10:11"
-          }
+          "content": ["See ", { "bibleLink": "Joshua 10:11" }]
         }
       },
       {

@@ -1850,10 +1850,7 @@
       {
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Numbers 31:6",
-            "content": "Compare Numbers 31:6"
-          }
+          "content": ["Compare ", { "bibleLink": "Numbers 31:6" }]
         }
       },
       {

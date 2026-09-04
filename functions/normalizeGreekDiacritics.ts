@@ -15,15 +15,17 @@ import { mapContentText } from "./mapContentText";
  * different strings, so a search, a diff, or a word alignment against another
  * edition sees two unrelated words.
  *
- * BYZ2018 carries 88 of these across 48 word forms (Ἠσαΐου, πρωΐ, Λευΐ,
- * Νινευΐ and the rest), plus 6 places where a plain υ + dialytika sits
+ * BYZ2026 carries 372 dialytika-bearing nodes across 121 word forms
+ * (Ἠσαΐου, πρωΐ, Λευΐ, Νινευΐ and the rest), every one of them composed —
+ * which is what this keeps true. The since-retired BYZ2018 arrived with 88
+ * of them misordered, plus 6 places where a plain υ + dialytika sat
  * uncomposed. Both shapes are the same defect and this fixes both.
  *
  * The repair is deliberately confined to the affected letter. Normalizing a
  * whole string to NFC would be simpler and wrong: NFC folds the Greek ano
  * teleia (U+0387) to a middle dot and the Greek question mark (U+037E) to a
- * semicolon, and BYZ2018 and BYZ2026 use the Greek codepoints in 3,400 and
- * 1,000 places respectively. Rebuilding one base-plus-marks cluster at a time
+ * semicolon, and BYZ2026 alone uses the Greek ano teleia in 3,417 places
+ * and the Greek question mark in 1,034. Rebuilding one base-plus-marks cluster at a time
  * leaves every other character in the string untouched.
  */
 

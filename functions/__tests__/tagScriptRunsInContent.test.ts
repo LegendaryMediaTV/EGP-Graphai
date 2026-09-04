@@ -10,7 +10,7 @@ describe("hasMixedScriptText", () => {
     expect(hasMixedScriptText("in letters, viz., χξς, i.e. 600")).toBe(true);
   });
 
-  it("should be false for an all-Greek string with no Latin letter at all — the shape BYZ2018's own ordinary Greek verse text carries", () => {
+  it("should be false for an all-Greek string with no Latin letter at all — the shape BYZ2026's own ordinary Greek verse text carries", () => {
     expect(hasMixedScriptText("εἵνεκεν")).toBe(false);
   });
 
@@ -88,7 +88,7 @@ describe("tagScriptRunsInContent — nodes needing no action", () => {
     expect(result).toBe(content);
   });
 
-  it("should leave an all-Greek string with no Latin mixed in untouched, matching BYZ2018's own ordinary verse text", () => {
+  it("should leave an all-Greek string with no Latin mixed in untouched, matching BYZ2026's own ordinary verse text", () => {
     const content = ["εἵνεκεν ἕνεκεν"];
 
     const { content: result, changed, skipped } = tagScriptRunsInContent(content as never);

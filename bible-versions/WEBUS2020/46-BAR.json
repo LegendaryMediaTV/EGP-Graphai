@@ -98,10 +98,7 @@
         "text": "and pray for the life of Nabuchodonosor king of Babylon, and for the life of Baltasar his son, that their days may be",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Deuteronomy 11:21",
-            "content": "See Deuteronomy 11:21"
-          }
+          "content": ["See ", { "bibleLink": "Deuteronomy 11:21" }]
         }
       },
       " as the days of heaven above the earth."
@@ -350,10 +347,7 @@
         "text": "Behold, they are cast out to the heat by day and to the frost by night. They died in great miseries by famine, by sword, and by",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Jeremiah 32:36",
-            "content": "See Jeremiah 32:36"
-          }
+          "content": ["See ", { "bibleLink": "Jeremiah 32:36" }]
         }
       },
       " pestilence."

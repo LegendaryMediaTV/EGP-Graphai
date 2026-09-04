@@ -244,13 +244,13 @@ describe("applyReferenceOverhaul — --fix, writes changed books only", () => {
 
     const result = await applyReferenceOverhaul(versionDir);
 
-    expect(result.changes).toEqual([{ book: "2SM", chapter: 12, verse: 11, raw: "(18:6", target: "2 Samuel 18:6" }]);
+    expect(result.changes).toEqual([{ book: "2SM", chapter: 12, verse: 11, raw: "18:6", target: "2 Samuel 18:6" }]);
     const written = JSON.parse(fs.readFileSync(path.join(versionDir, "10-2SM.json"), "utf-8"));
     expect(written[0].content[0].foot.content).toEqual([
       "Amnon’s scandal with Tamar (",
       { bibleLink: "2 Samuel 13:14", content: "13:14" },
-      ") and his murder by Absalom ",
-      { bibleLink: "2 Samuel 18:6", content: "(18:6" },
+      ") and his murder by Absalom (",
+      { bibleLink: "2 Samuel 18:6", content: "18:6" },
       "ff.).",
     ]);
   });
