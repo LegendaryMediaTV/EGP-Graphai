@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { removeDuplicateFootnoteAnchorsInContent } from "../fixDuplicateFootnoteAnchors";
 
 describe("removeDuplicateFootnoteAnchorsInContent", () => {
-  it("should delete a textless node whose foot byte-for-byte repeats its predecessor's — real BYZ2018 2 Corinthians 7:12 shape", () => {
+  it("should delete a textless node whose foot byte-for-byte repeats its predecessor's — real shape from the retired BYZ2018's 2 Corinthians 7:12", () => {
     const content = [
       {
         text: " εἵνεκεν",
@@ -30,7 +30,7 @@ describe("removeDuplicateFootnoteAnchorsInContent", () => {
     ]);
   });
 
-  it("should delete every repeat in a chain of three, not just the one touching the real node — real BYZ2018 2 Corinthians 7:12 shape (three markers share one apparatus note)", () => {
+  it("should delete every repeat in a chain of three, not just the one touching the real node — real shape from the retired BYZ2018's 2 Corinthians 7:12 (three markers share one apparatus note)", () => {
     const note = { type: "var", content: ["B ", { text: "εἵνεκεν", script: "G" }, " ⇒ ", { text: "ἕνεκεν", script: "G" }] };
     const content = [
       { text: " εἵνεκεν", script: "G", foot: note, strong: "G1752", morph: "PREP" },
@@ -77,7 +77,7 @@ describe("removeDuplicateFootnoteAnchorsInContent", () => {
     expect(result.content).toBe(content);
   });
 
-  it("should not delete two adjacent textless anchors whose own foot values genuinely differ — real BYZ2018 Revelation 7:5 shape", () => {
+  it("should not delete two adjacent textless anchors whose own foot values genuinely differ — real shape from the retired BYZ2018's Revelation 7:5", () => {
     const content = [
       {
         text: " ἐσφραγισμέναι·",

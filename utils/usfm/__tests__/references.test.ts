@@ -67,10 +67,20 @@ describe("buildCrossReferenceContent — multiple targets join with a literal \"
   });
 });
 
-describe("buildCrossReferenceContent — a \"See \" lead-in still resolves, keeping the full source text as the display override", () => {
-  it('should resolve "See Job 9:8" to a real bibleLink targeting "Job 9:8" while displaying the source\'s own full "See Job 9:8" text (Matthew 14:25\'s real shape)', () => {
+describe("buildCrossReferenceContent — a \"See \" lead-in still resolves, printed ahead of the link rather than inside it", () => {
+  it('should resolve "See Job 9:8" to a real bibleLink targeting "Job 9:8", leaving the lead-in word as its own plain text so only the reference is linked (Matthew 14:25\'s real shape)', () => {
     const { footnote } = xrefFrom("\\x + \\xo 14:25 \\xt See Job 9:8\\x*");
-    expect(footnote.content).toEqual({ bibleLink: "Job 9:8", content: "See Job 9:8" });
+    expect(footnote.content).toEqual(["See ", { bibleLink: "Job 9:8" }]);
+  });
+
+  it('should still keep the display override a normalized book name needs, now covering the reference alone rather than the lead-in with it (Luke 8:24\'s real shape, "See Psalms 107:29")', () => {
+    const { footnote } = xrefFrom("\\x + \\xo 8:24 \\xt See Psalms 107:29\\x*");
+    expect(footnote.content).toEqual(["See ", { bibleLink: "Psalm 107:29", content: "Psalms 107:29" }]);
+  });
+
+  it("should attach the lead-in to the list's own \"; \" joiner rather than pushing a second string beside it, when a later target in the same list carries one", () => {
+    const { footnote } = xrefFrom("\\x + \\xo 1:1 \\xt Job 9:8; See Hosea 13:14\\x*");
+    expect(footnote.content).toEqual([{ bibleLink: "Job 9:8" }, "; See ", { bibleLink: "Hosea 13:14" }]);
   });
 });
 
@@ -101,11 +111,21 @@ describe("buildCrossReferenceContent — a book outside the target version's own
   });
 });
 
-describe("buildCrossReferenceContent — a trailing tradition siglon (LXX/MT/TR/NU) after a reference still resolves to a real bibleLink", () => {
-  it('should resolve "Deuteronomy 32:43 LXX" to a real bibleLink whose own target text carries the siglon too, matching upstream WEBUS2020\'s own real Hebrews 1:6 shape exactly, dropping only \\xo', () => {
+describe("buildCrossReferenceContent — a trailing tradition siglon (LXX/MT/TR/NU) after a reference resolves the reference and keeps the siglon out of the target", () => {
+  it('should resolve "Deuteronomy 32:43 LXX" to a bibleLink targeting the verse alone, the siglon following as plain text — it names which text the verse is read in, and no edition has a "Deuteronomy 32:43 LXX" to navigate to (Hebrews 1:6\'s real shape)', () => {
     const { footnote } = xrefFrom("\\x + \\xo 1:6 \\xt Deuteronomy 32:43 LXX\\x*");
     expect(footnote.type).toBe("xrf");
-    expect(footnote.content).toEqual({ bibleLink: "Deuteronomy 32:43 LXX" });
+    expect(footnote.content).toEqual([{ bibleLink: "Deuteronomy 32:43" }, " LXX"]);
+  });
+
+  it("should keep a siglon off a bare, book-less continuation's own inherited target too, not only off a named target's", () => {
+    const { footnote } = xrefFrom("\\x + \\xo 1:6 \\xt Deuteronomy 32:43; 32:8 LXX\\x*");
+    expect(footnote.content).toEqual([
+      { bibleLink: "Deuteronomy 32:43" },
+      "; ",
+      { bibleLink: "Deuteronomy 32:8", content: "32:8" },
+      " LXX",
+    ]);
   });
 });
 
@@ -159,14 +179,14 @@ describe("buildCrossReferenceContent — a parse the resolver is still not confi
  * text under an `xrf` tag.
  */
 describe("buildReferenceOnlyContent — a \\f body that is nothing but a reference", () => {
-  it('should resolve a "See "-led single reference, stripping the body\'s own trailing sentence period before matching (Baruch 1:11\'s real note, "See Deuteronomy 11:21.")', () => {
+  it('should resolve a "See "-led single reference, stripping the body\'s own trailing sentence period before matching and leaving the lead-in word outside the link (Baruch 1:11\'s real note, "See Deuteronomy 11:21.")', () => {
     const content = buildReferenceOnlyContent("See Deuteronomy 11:21.", IN_SCOPE_CANON);
-    expect(content).toEqual({ bibleLink: "Deuteronomy 11:21", content: "See Deuteronomy 11:21" });
+    expect(content).toEqual(["See ", { bibleLink: "Deuteronomy 11:21" }]);
   });
 
   it('should resolve a "Compare "-led reference the same way "See " already resolves (1 Maccabees 4:40\'s real note, "Compare Numbers 31:6." — never observed in any \\x target, only here)', () => {
     const content = buildReferenceOnlyContent("Compare Numbers 31:6.", IN_SCOPE_CANON);
-    expect(content).toEqual({ bibleLink: "Numbers 31:6", content: "Compare Numbers 31:6" });
+    expect(content).toEqual(["Compare ", { bibleLink: "Numbers 31:6" }]);
   });
 
   it('should resolve a bare reference with no lead-in word at all, to the canonical singular "Psalm" target (1 Maccabees 7:17\'s real note, "Psalms 79:2, 3." — the comma-joined verse list already matches the body\'s own real spelling exactly, so the only override needed is the book name itself)', () => {
@@ -177,7 +197,8 @@ describe("buildReferenceOnlyContent — a \\f body that is nothing but a referen
   it('should resolve a semicolon-joined multi-target body the same "; "-joining way \\x already does, the "See " lead-in applying only to the first target, and the Psalms target resolving to canonical singular "Psalm" (Wisdom 11:4\'s real note, "See Deuteronomy 8:15; Psalms 114:8.")', () => {
     const content = buildReferenceOnlyContent("See Deuteronomy 8:15; Psalms 114:8.", IN_SCOPE_CANON);
     expect(content).toEqual([
-      { bibleLink: "Deuteronomy 8:15", content: "See Deuteronomy 8:15" },
+      "See ",
+      { bibleLink: "Deuteronomy 8:15" },
       "; ",
       { bibleLink: "Psalm 114:8", content: "Psalms 114:8" },
     ]);
@@ -697,6 +718,13 @@ describe("linkEmbeddedReferences — a book name followed by an open-paren-led c
  * tracked by AmbientBook. 2 Samuel 12:11's note is this shape exactly: it names
  * "2 Samuel 13:14" once, in an already-tagged bibleLink, then cites four more
  * passages this way, each several sentences after the last thing named.
+ *
+ * The paren that triggers this branch stays outside the link. It is the note's
+ * own punctuation, not part of the citation, and its closing partner is already
+ * outside — the AMP1987 shape below is what the alternative produced: the
+ * already-tagged nodes carry a bare "13:14" with the paren in the prose, while
+ * the newly-found ones carried "(13:28, 29", the same footnote punctuating two
+ * identical citations two different ways.
  */
 describe('linkEmbeddedReferences — a bare parenthetical "(C:V...)" citation elsewhere in the same footnote body inherits the last book actually resolved', () => {
   it('should inherit the book from an already-tagged bibleLink sibling earlier in the same content array, across intervening prose (2 Samuel 12:11\'s real shape)', () => {
@@ -716,16 +744,16 @@ describe('linkEmbeddedReferences — a bare parenthetical "(C:V...)" citation el
     expect(content).toEqual([
       "Amnon’s scandalous behavior with his half sister Tamar (",
       { bibleLink: "2 Samuel 13:14", content: "13:14" },
-      ") and his consequent murder by his brother Absalom ",
-      { bibleLink: "2 Samuel 13:28, 29", content: "(13:28, 29" },
+      ") and his consequent murder by his brother Absalom (",
+      { bibleLink: "2 Samuel 13:28, 29", content: "13:28, 29" },
       "); Absalom’s escape to a foreign land (",
       { bibleLink: "2 Samuel 13:38", content: "13:38" },
       ") and his return after three years; Absalom without recognition by David for two more years (",
       { bibleLink: "2 Samuel 14:28", content: "14:28" },
       "); David’s flight from Jerusalem, with the mass of the people against him (",
       { bibleLink: "2 Samuel 15:14", content: "15:14" },
-      "), the terrible battle in the forest of Ephraim, won by David’s forces, with Absalom killed in flight ",
-      { bibleLink: "2 Samuel 18:6", content: "(18:6" },
+      "), the terrible battle in the forest of Ephraim, won by David’s forces, with Absalom killed in flight (",
+      { bibleLink: "2 Samuel 18:6", content: "18:6" },
       "ff.).",
     ]);
   });
@@ -737,8 +765,8 @@ describe('linkEmbeddedReferences — a bare parenthetical "(C:V...)" citation el
     expect(content).toEqual([
       "He prayed (",
       { bibleLink: "2 Kings 19:15" },
-      "), and God performed a miracle, one He had foretold ",
-      { bibleLink: "2 Kings 19:20, 32-37", content: "(19:20, 32-37" },
+      "), and God performed a miracle, one He had foretold (",
+      { bibleLink: "2 Kings 19:20, 32-37", content: "19:20, 32-37" },
       ").",
     ]);
   });
@@ -753,8 +781,8 @@ describe('linkEmbeddedReferences — a bare parenthetical "(C:V...)" citation el
     expect(content).toEqual([
       "See ",
       { bibleLink: "Judges 11:3" },
-      " for context ",
-      { bibleLink: "Judges 12:1", content: "(12:1" },
+      " for context (",
+      { bibleLink: "Judges 12:1", content: "12:1" },
       ") as well.",
     ]);
   });

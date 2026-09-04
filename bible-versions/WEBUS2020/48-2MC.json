@@ -3076,10 +3076,7 @@
       {
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Exodus 23:22",
-            "content": "See Exodus 23:22"
-          }
+          "content": ["See ", { "bibleLink": "Exodus 23:22" }]
         }
       },
       "be an enemy to their enemies and an adversary to their adversaries, as the law declares."

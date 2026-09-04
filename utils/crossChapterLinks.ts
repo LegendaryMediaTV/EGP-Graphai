@@ -25,7 +25,7 @@
  *   mis-split a range in some of them.
  *
  * A `bibleLink` naming a book outside a version's own canon (e.g. any name
- * absent from BYZ2018's NT-only canon) is reported as unresolvable, never
+ * absent from BYZ2026's NT-only canon) is reported as unresolvable, never
  * thrown — see {@link classifyBibleLink} for why.
  *
  * This module also owns a second, related check: whether a bibleLink's own
@@ -404,7 +404,7 @@ function indexFor(versionId: string): VersionIndex {
  *
  * @returns The repo book id, or `null` when this version carries no such
  *   book (e.g. `"1 Esdras"`, absent from every version's canon here, or any
- *   name valid elsewhere but outside BYZ2018's NT-only canon). Never throws.
+ *   name valid elsewhere but outside BYZ2026's NT-only canon). Never throws.
  */
 function resolveBookName(versionId: string, name: string): string | null {
   return indexFor(versionId).bookIdByFoldedName.get(foldName(name)) ?? null;
@@ -417,7 +417,7 @@ function resolveBookName(versionId: string, name: string): string | null {
  *
  * @returns The last verse number, or `undefined` when this version's own
  *   data carries no such chapter at all (e.g. any Old Testament book+chapter
- *   asked of BYZ2018, which is NT-only) — never defaulted to 0.
+ *   asked of BYZ2026, which is NT-only) — never defaulted to 0.
  */
 function lastVerseOf(versionId: string, book: string, chapter: number): number | undefined {
   return indexFor(versionId).lastVerseByChapter.get(`${book} ${chapter}`);

@@ -1063,17 +1063,17 @@ describe("classifyFootnote — witnesses needs a reading verb, not just a quanti
 /**
  * A Greek or Hebrew critical edition prints its apparatus as operators
  * between competing readings, never as the prose the vocabulary rules look
- * for, so without this construct every one of BYZ2018's 7,522 real bodies
+ * for, so without this construct every one of the retired BYZ2018's 7,522 real bodies
  * falls through to `stu`.
  */
 describe("classifyFootnote — symbolic apparatus notation is var", () => {
-  it("should classify the ⇒ operator separating two readings as var (BYZ2018's own 2018 apparatus)", () => {
+  it("should classify the ⇒ operator separating two readings as var (the retired BYZ2018's own apparatus, the only edition here that used it)", () => {
     expect(classifyFootnote("N Οἱ δὲ ⇒ -")).toBe("var");
     expect(classifyFootnote("B ὁ βασιλεὺς ⇒ βασιλεῦ")).toBe("var");
     expect(classifyFootnote("N αὐτῷ ὁ Ἰωάννης ⇒ ὁ Ἰωάννης αὐτῷ")).toBe("var");
   });
 
-  it("should classify a standalone ~ as var — BYZ2018's own mark for a verse the compared edition omits, used for exactly the eleven verses from Matthew 17:21 to Romans 16:24", () => {
+  it("should classify a standalone ~ as var — the retired BYZ2018's own mark for a verse the compared edition omits, used for exactly the eleven verses from Matthew 17:21 to Romans 16:24", () => {
     expect(classifyFootnote("N ~")).toBe("var");
   });
 

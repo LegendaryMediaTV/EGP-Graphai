@@ -519,10 +519,10 @@ describe("classifyFootnote/buildReferenceOnlyContent — trailing-tradition-sigl
     expect(classifyFootnote("See 2 Maccabees 4:9, 12. ")).toBe("xrf");
   });
 
-  it("should resolve Hebrews 1:6's own real target to the identical structured bibleLink upstream WEBUS2020 already carries, against a hardcoded single-book canon rather than the version's own full _version.json", () => {
+  it("should resolve Hebrews 1:6's own real target to a bibleLink naming the verse alone, the siglon following as plain text, against a hardcoded single-book canon rather than the version's own full _version.json", () => {
     const canonBookIds = new Set(["DEU"]);
     const resolved = buildReferenceOnlyContent("Deuteronomy 32:43 LXX", canonBookIds);
-    expect(resolved).toEqual({ bibleLink: "Deuteronomy 32:43 LXX" });
+    expect(resolved).toEqual([{ bibleLink: "Deuteronomy 32:43" }, " LXX"]);
   });
 });
 

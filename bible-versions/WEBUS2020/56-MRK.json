@@ -2067,7 +2067,7 @@
         "text": "Seeing them distressed in rowing, for the wind was contrary to them, about the fourth watch of the night he came to them, walking on the sea;",
         "foot": {
           "type": "xrf",
-          "content": { "bibleLink": "Job 9:8", "content": "See Job 9:8" }
+          "content": ["See ", { "bibleLink": "Job 9:8" }]
         }
       },
       " and he would have passed by them,"

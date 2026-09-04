@@ -167,9 +167,10 @@ function registry(): BookRegistry {
 /**
  * A "See "/"Compare " lead-in — WEB's house style for a reference written
  * as a directive rather than a bare citation. Stripped before book-name
- * matching; the original text is kept as the display override (see
- * {@link withDisplay}), so "See Job 9:8" still reads that way while linking
- * to "Job 9:8".
+ * matching and emitted as plain text ahead of the link, so "See Job 9:8"
+ * still reads that way while only "Job 9:8" — the reference itself — is
+ * clickable. The lead-in word is prose about the reference, not part of it,
+ * and a reader who clicks "See" expects nothing.
  *
  * "Compare " has only been observed in `\f`-derived bodies (resolved
  * through {@link buildReferenceOnlyContent}), never in an `\xt` target, but
@@ -207,6 +208,28 @@ const DASH_RANGE_SOURCE = `[${DASH_CLASS}]${DIGITS}(?::${DIGITS})?`;
 const COMMA_SEGMENT_SOURCE = `,\\s?(?:and\\s+)?${DIGITS}(?:[${DASH_CLASS}]${DIGITS})?`;
 /** A trailing tradition siglon — see {@link REFERENCE_SUFFIX}'s own doc comment for why only these four. */
 const SIGLON_SOURCE = "\\s(?:LXX|MT|TR|NU)";
+
+/**
+ * {@link SIGLON_SOURCE} anchored at the end, for splitting a matched
+ * siglon back off the suffix text {@link REFERENCE_SUFFIX} accepted it as
+ * part of.
+ *
+ * The siglon has to be *recognized* by the suffix grammar — otherwise
+ * "Deuteronomy 32:43 LXX" would fail the match whole and stay unlinked
+ * prose — but it must not survive into the resolved target, which names a
+ * verse: no edition of anything has a "Deuteronomy 32:43 LXX". It names
+ * *which text* the reference is being read in, so it belongs outside the
+ * link entirely, the same as a {@link REFERENCE_LEAD_IN} on the other end.
+ *
+ * Emitted as plain text here, never as an `{ abbr }` node, even though a
+ * version whose registry defines the siglum wants one: this module knows the
+ * book registry, not the version's abbreviation registry, and nothing at
+ * parse time can say whether "LXX" resolves for the version being imported.
+ * `utils/fixBibleLinkDisplayProse.ts` converts it once `validate.ts` can read
+ * that registry, the same post-write division the dash convention already
+ * follows (this module emits the source's own hyphen; validate normalizes it).
+ */
+const TRAILING_SIGLON = new RegExp(`${SIGLON_SOURCE}$`);
 
 /**
  * The full shape a reference's text (everything after the book name) must
@@ -433,10 +456,25 @@ function buildLinkTarget(bookId: string, rest: string): { target: string; bookNa
 
 /** One target's resolution — either a real `{bibleLink}` or, for a shape the grammar does not describe, a plain string — plus, when it resolved, the canonical book name a later same-list target might need to inherit. */
 interface ResolvedTarget {
+  /** The {@link REFERENCE_LEAD_IN} this target was written behind ("See ", "Compare "), to print ahead of the link rather than inside it. Empty when there was none, and always empty when resolution failed, since the unresolved text is returned whole. */
+  readonly leadIn: string;
   /** The resolved `bibleLink` node, or the raw text unchanged when resolution failed. */
   readonly node: ContentBibleLink | string;
+  /** The {@link TRAILING_SIGLON} this target was written with (" LXX"), to print after the link rather than inside it. Empty in the same two cases `leadIn` is. */
+  readonly siglon: string;
   /** The canonical book name this target resolved to, or `undefined` when it did not resolve — what a later same-list shorthand continuation would inherit. */
   readonly bookName: string | undefined;
+}
+
+/** An unresolved target: the raw text, returned whole, with nothing split off either end. */
+function unresolved(raw: string): ResolvedTarget {
+  return { leadIn: "", node: raw, siglon: "", bookName: undefined };
+}
+
+/** Splits a {@link TRAILING_SIGLON} off already-suffix-validated reference text, so {@link buildLinkTarget} never sees it. */
+function splitTrailingSiglon(rest: string): { rest: string; siglon: string } {
+  const match = TRAILING_SIGLON.exec(rest);
+  return match === null ? { rest, siglon: "" } : { rest: rest.slice(0, match.index), siglon: match[0] };
 }
 
 /**
@@ -450,6 +488,13 @@ interface ResolvedTarget {
  *    failure — an out-of-canon book, or trailing text the grammar doesn't
  *    describe — produces the same outcome: the raw text, unresolved, never
  *    guessed into a link.
+ *
+ *    Whatever brackets the reference on either end — a
+ *    {@link REFERENCE_LEAD_IN} ahead of it, a {@link TRAILING_SIGLON} after
+ *    it — comes back beside the link rather than inside it, so the linked
+ *    text is the reference and nothing else. Both are still recognized
+ *    here, since the target has to be matched whole before any of it can be
+ *    split off.
  * 2. A bare `"C:V"`-shaped continuation with no book name — WEB's
  *    shorthand for "same book as the previous target in this `\xt` list"
  *    (e.g. Matthew 5:4's `\xt Isaiah 61:2; 66:10,13`, where `"66:10,13"`
@@ -468,24 +513,27 @@ function resolveTarget(raw: string, canonBookIds: ReadonlySet<string> | undefine
   const { candidates } = registry();
 
   const leadInMatch = REFERENCE_LEAD_IN.exec(raw);
-  const withoutLeadIn = leadInMatch ? raw.slice(leadInMatch[0].length) : raw;
+  const leadIn = leadInMatch === null ? "" : leadInMatch[0];
+  const withoutLeadIn = raw.slice(leadIn.length);
 
   const direct = matchBookPrefix(withoutLeadIn, candidates);
   if (direct !== undefined) {
     const inCanon = canonBookIds === undefined || canonBookIds.has(direct.id);
-    if (inCanon && REFERENCE_SUFFIX.test(direct.rest)) {
-      const { target, bookName } = buildLinkTarget(direct.id, direct.rest);
-      return { node: withDisplay(target, raw), bookName };
-    }
-    return { node: raw, bookName: undefined };
+    if (!inCanon || !REFERENCE_SUFFIX.test(direct.rest)) return unresolved(raw);
+
+    const { rest, siglon } = splitTrailingSiglon(direct.rest);
+    const { target, bookName } = buildLinkTarget(direct.id, rest);
+    const display = withoutLeadIn.slice(0, withoutLeadIn.length - siglon.length);
+    return { leadIn, node: withDisplay(target, display), siglon, bookName };
   }
 
   if (priorBookName !== undefined && /^\d/.test(withoutLeadIn) && REFERENCE_SUFFIX.test(withoutLeadIn)) {
-    const rest = stripAndFromVerseList(addSpaceAfterVerseListComma(withoutLeadIn));
-    return { node: withDisplay(`${priorBookName} ${rest}`, raw), bookName: priorBookName };
+    const { rest: bare, siglon } = splitTrailingSiglon(withoutLeadIn);
+    const rest = stripAndFromVerseList(addSpaceAfterVerseListComma(bare));
+    return { leadIn, node: withDisplay(`${priorBookName} ${rest}`, bare), siglon, bookName: priorBookName };
   }
 
-  return { node: raw, bookName: undefined };
+  return unresolved(raw);
 }
 
 /**
@@ -501,12 +549,28 @@ function resolveTargetList(rawTargets: readonly string[], canonBookIds: Readonly
   const nodes: (ContentBibleLink | string)[] = [];
   let priorBookName: string | undefined;
   for (let targetIndex = 0; targetIndex < rawTargets.length; targetIndex++) {
-    if (targetIndex > 0) nodes.push("; ");
+    if (targetIndex > 0) pushText(nodes, "; ");
     const resolved = resolveTarget(rawTargets[targetIndex], canonBookIds, priorBookName);
+    if (resolved.leadIn !== "") pushText(nodes, resolved.leadIn);
     nodes.push(resolved.node);
+    if (resolved.siglon !== "") pushText(nodes, resolved.siglon);
     if (resolved.bookName !== undefined) priorBookName = resolved.bookName;
   }
   return nodes.length === 1 ? nodes[0] : nodes;
+}
+
+/**
+ * Appends plain text to a node list, concatenating onto a trailing string
+ * item rather than pushing a second one beside it. A lead-in immediately
+ * after this list's own `"; "` joiner, or a siglon immediately before the
+ * next one, would otherwise leave two adjacent strings — a shape
+ * `utils/fixUnmergedNodes.ts` exists to clean up after, and one nothing here
+ * has any reason to create.
+ */
+function pushText(nodes: (ContentBibleLink | string)[], text: string): void {
+  const last = nodes[nodes.length - 1];
+  if (typeof last === "string") nodes[nodes.length - 1] = last + text;
+  else nodes.push(text);
 }
 
 /**
@@ -684,7 +748,12 @@ const LEADING_CONTINUATION_CONNECTOR = /^(?:;\s?|\s+and\s+)/;
  * bare `"(C:V...)"` citation immediately after an open paren. That branch is
  * deliberately narrower than the connector chain: firing only against an open
  * paren, never at a bare digit anywhere, keeps a sentence that merely mentions a
- * number from reading as a citation.
+ * number from reading as a citation. The paren it fires against is the *trigger*
+ * only, not part of what gets linked — the match starts just past it, leaving
+ * the paren to the surrounding prose that carries its closing partner. A real
+ * AMP1987 2 Samuel 12:11 footnote shows what the alternative looked like: one
+ * bare citation in the sentence with the paren outside its link and the next
+ * with it inside, purely because an earlier pass had already linked the first.
  *
  * @returns `undefined` when no resolvable reference remains from `from` onward.
  *   A chapter with no verse, or prose that never names a real book, is left as
@@ -709,7 +778,7 @@ function findNextEmbeddedReference(text: string, from: number, ambient: AmbientB
       const afterParen = text.slice(position + 1);
       const bareLength = findSafeReferenceLength(afterParen, AMBIENT_HEAD);
       if (bareLength === undefined) continue;
-      return buildReferenceMatch(text, position, 1, afterParen.slice(0, bareLength), ambient.id, ambient);
+      return buildReferenceMatch(text, position + 1, 0, afterParen.slice(0, bareLength), ambient.id, ambient);
     }
   }
 
@@ -719,9 +788,10 @@ function findNextEmbeddedReference(text: string, from: number, ambient: AmbientB
 /**
  * Builds one {@link EmbeddedReferenceMatch} from a primary reference already
  * found at `position` — either a named book (`prefixLength` covers the book
- * name) or a bare parenthetical citation (`prefixLength` is `1`, just the open
- * paren) — then chases every {@link LEADING_CONTINUATION_CONNECTOR} onto it the
- * same way for both, since a chained continuation is always bare either way.
+ * name) or a bare parenthetical citation (`prefixLength` is `0`, the paren
+ * having been left behind at `position - 1`) — then chases every
+ * {@link LEADING_CONTINUATION_CONNECTOR} onto it the same way for both, since a
+ * chained continuation is always bare either way.
  * Updates `ambient.id` before returning, so the next call to
  * {@link findNextEmbeddedReference} inherits from *this* match, not a stale one.
  */

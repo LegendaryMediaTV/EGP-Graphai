@@ -2108,7 +2108,7 @@
         "text": " they saw Jesus walking on the sea",
         "foot": {
           "type": "xrf",
-          "content": { "bibleLink": "Job 9:8", "content": "See Job 9:8" }
+          "content": ["See ", { "bibleLink": "Job 9:8" }]
         }
       },
       " and drawing near to the boat; and they were afraid."
@@ -3065,7 +3065,8 @@
       "foot": {
         "type": "xrf",
         "content": [
-          { "bibleLink": "Isaiah 9:1", "content": "See Isaiah 9:1" },
+          "See ",
+          { "bibleLink": "Isaiah 9:1" },
           "; ",
           { "bibleLink": "Matthew 4:13–16" }
         ]
@@ -5327,8 +5328,8 @@
             { "bibleLink": "Isaiah 9:7" },
             "; ",
             { "bibleLink": "Daniel 2:44" },
-            "; ",
-            { "bibleLink": "Isaiah 53:8", "content": "See Isaiah 53:8" }
+            "; See ",
+            { "bibleLink": "Isaiah 53:8" }
           ]
         }
       },

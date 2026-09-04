@@ -67,7 +67,11 @@
       "text": "When he again brings in the firstborn into the world he says, “Let all the angels of God worship him.”",
       "foot": {
         "type": "xrf",
-        "content": { "bibleLink": "Deuteronomy 32:43 LXX" }
+        "content": [
+          { "bibleLink": "Deuteronomy 32:43" },
+          " ",
+          { "abbr": "LXX" }
+        ]
       }
     }
   },

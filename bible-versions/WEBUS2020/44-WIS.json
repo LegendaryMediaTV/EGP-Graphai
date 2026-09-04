@@ -1199,10 +1199,7 @@
         "text": "We",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Proverbs 14:14",
-            "content": "See Proverbs 14:14"
-          }
+          "content": ["See ", { "bibleLink": "Proverbs 14:14" }]
         }
       },
       {
@@ -3137,10 +3134,8 @@
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "Deuteronomy 8:15",
-              "content": "See Deuteronomy 8:15"
-            },
+            "See ",
+            { "bibleLink": "Deuteronomy 8:15" },
             "; ",
             { "bibleLink": "Psalm 114:8", "content": "Psalms 114:8" }
           ]

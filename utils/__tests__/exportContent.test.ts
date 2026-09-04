@@ -726,7 +726,7 @@ describe("exportContent", () => {
 
   describe("edge cases - bug fixes", () => {
     describe("mid-verse paragraph breaks in markdown", () => {
-      it("should insert paragraph break mid-verse (BYZ2018 MAT 1:6 style)", () => {
+      it("should insert paragraph break mid-verse (BYZ2026 MAT 1:6 style)", () => {
         const verse: VerseSchema = {
           book: "MAT",
           chapter: 1,
@@ -817,7 +817,7 @@ describe("exportContent", () => {
     });
 
     describe("footnote order with Strong's in text export", () => {
-      it("should place footnote content BEFORE Strong's number (BYZ2018 MAT 1:8 style)", () => {
+      it("should place footnote content BEFORE Strong's number (retired BYZ2018 MAT 1:8 style)", () => {
         const verse: VerseSchema = {
           book: "MAT",
           chapter: 1,
@@ -955,7 +955,7 @@ describe("exportContent", () => {
     });
 
     describe("trailing footnotes", () => {
-      it("should place a trailing textless footnote sibling's marker before the Strong's/morph tag, not after (BYZ2018 MRK 3:27 style)", () => {
+      it("should place a trailing textless footnote sibling's marker before the Strong's/morph tag, not after (retired BYZ2018 MRK 3:27 style)", () => {
         const verse: VerseSchema = {
           book: "MRK",
           chapter: 3,
@@ -3304,7 +3304,7 @@ describe("exportContent", () => {
   });
 
   describe("the markdown export escapes a delimiter that came from source text", () => {
-    it("should escape a literal underscore in content text so markdown never reads it as an emphasis delimiter (real BYZ2018 Revelation 4:4 apparatus shape)", () => {
+    it("should escape a literal underscore in content text so markdown never reads it as an emphasis delimiter (real apparatus shape from the retired BYZ2018's Revelation 4:4)", () => {
       const verse: VerseSchema = {
         book: "REV",
         chapter: 4,
@@ -3333,7 +3333,7 @@ describe("exportContent", () => {
       expectWellFormedEmphasis(footnotes[0]);
     });
 
-    it("should escape a literal asterisk in content text so markdown never reads it as an emphasis delimiter (real BYZ2018 Romans 6:1 apparatus shape)", () => {
+    it("should escape a literal asterisk in content text so markdown never reads it as an emphasis delimiter (real apparatus shape from the retired BYZ2018's Romans 6:1)", () => {
       const verse: VerseSchema = {
         book: "ROM",
         chapter: 6,
@@ -3363,7 +3363,7 @@ describe("exportContent", () => {
       expectWellFormedEmphasis(footnotes[0]);
     });
 
-    it("should render the real BYZ2018 Revelation 11:2 manuscript-siglum shape (a literal underscore immediately followed by two literal asterisks) with no emphasis opened at all", () => {
+    it("should render the retired BYZ2018's real Revelation 11:2 manuscript-siglum shape (a literal underscore immediately followed by two literal asterisks) with no emphasis opened at all", () => {
       const verse: VerseSchema = {
         book: "REV",
         chapter: 11,

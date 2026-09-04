@@ -136,3 +136,34 @@ export function findUnknownAbbreviations(versionDir: string): AbbreviationAudit 
 export function formatUnknownAbbreviation(finding: UnknownAbbreviationFinding): string {
   return `${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}): no registry entry for "${finding.id}"`;
 }
+
+/**
+ * Registry ids by version directory, memoized for a whole run the same way
+ * `crossChapterLinks.ts` memoizes its per-version chapter index: a caller
+ * asking once per verse should not re-read and re-parse `_version.json`
+ * thousands of times. Nothing in this repo writes `_version.json` while
+ * content is being rewritten, so a cached answer cannot go stale mid-run.
+ */
+const registeredIdCache = new Map<string, ReadonlySet<string>>();
+
+/**
+ * Every abbreviation id one version's own registry defines, for a caller
+ * that needs to know whether a short code resolves in this version before
+ * writing an `{ abbr }` node that cites it.
+ *
+ * The registry lives here rather than in each caller because an id resolves
+ * only within its own version — see this module's own doc comment — so
+ * "is this a real siglum?" is never a question a version-agnostic caller can
+ * answer for itself.
+ *
+ * @param versionDir - Absolute or repo-relative path to a `bible-versions/<VERSION>` folder
+ * @returns The ids defined, or an empty set for a version declaring no registry
+ */
+export function registeredAbbreviationIds(versionDir: string): ReadonlySet<string> {
+  const cached = registeredIdCache.get(versionDir);
+  if (cached !== undefined) return cached;
+
+  const { ids } = readRegistry(versionDir);
+  registeredIdCache.set(versionDir, ids);
+  return ids;
+}

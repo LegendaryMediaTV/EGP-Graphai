@@ -64,7 +64,7 @@ export type SkipReason = "strong" | "foot" | "marks" | "other-properties";
  * "H"}` against real `NUM 15:38`'s untagged violation of the identical
  * rule). **Requiring both is load-bearing**, not an arbitrary tightening of
  * {@link splitNonLatinScriptRuns}'s own broader "any non-Latin run at all"
- * behavior: an all-Greek string with no Latin letter mixed in is BYZ2018's
+ * behavior: an all-Greek string with no Latin letter mixed in is BYZ2026's
  * own ordinary, correct verse text, not a defect, and dropping this guard
  * would mean tagging every one of them.
  *

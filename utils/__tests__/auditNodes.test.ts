@@ -1549,7 +1549,7 @@ describe("findStrongsNodeIssues — untagged script run", () => {
     expect(findStrongsNodeIssues(content).untaggedScriptRuns).toEqual([]);
   });
 
-  it("should not flag an all-Greek string on an all-Greek version's node — the rule is about mixing, which is what keeps BYZ2018's 154,305 Greek nodes out of it", () => {
+  it("should not flag an all-Greek string on an all-Greek version's node — the rule is about mixing, which is what keeps BYZ2026's 159,960 Greek nodes out of it", () => {
     const content: Content = ["εἵνεκεν ἕνεκεν"];
     expect(findStrongsNodeIssues(content).untaggedScriptRuns).toEqual([]);
   });
@@ -1568,7 +1568,7 @@ describe("findStrongsNodeIssues — untagged script run", () => {
 });
 
 describe("findStrongsNodeIssues — duplicate footnote anchor", () => {
-  it("should flag a textless node whose foot byte-for-byte repeats its predecessor's — real BYZ2018 2 Corinthians 7:12 shape", () => {
+  it("should flag a textless node whose foot byte-for-byte repeats its predecessor's — real shape from the retired BYZ2018's 2 Corinthians 7:12", () => {
     const content: Content = [
       {
         text: " εἵνεκεν",
@@ -1603,7 +1603,7 @@ describe("findStrongsNodeIssues — duplicate footnote anchor", () => {
     expect(findings[0].node).toEqual(content[1]);
   });
 
-  it("should flag every repeat in a chain of three, not just the one touching the real node — real BYZ2018 2 Corinthians 7:12 shape (three markers share one apparatus note)", () => {
+  it("should flag every repeat in a chain of three, not just the one touching the real node — real shape from the retired BYZ2018's 2 Corinthians 7:12 (three markers share one apparatus note)", () => {
     const note: Footnote = {
       type: "var",
       content: [
@@ -1647,7 +1647,7 @@ describe("findStrongsNodeIssues — duplicate footnote anchor", () => {
     expect(findStrongsNodeIssues(content).duplicateFootnoteAnchors).toEqual([]);
   });
 
-  it('should not flag two adjacent textless anchors whose own foot values genuinely differ only in their own manuscript-witness prefix — real BYZ2018 Revelation 7:5 shape (both type "var"; "B " against a distinct "N " variant note immediately after)', () => {
+  it('should not flag two adjacent textless anchors whose own foot values genuinely differ only in their own manuscript-witness prefix — real shape from the retired BYZ2018 Revelation 7:5 (both type "var"; "B " against a distinct "N " variant note immediately after)', () => {
     const content: Content = [
       {
         text: " ἐσφραγισμέναι·",

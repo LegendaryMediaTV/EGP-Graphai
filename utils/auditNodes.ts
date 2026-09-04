@@ -1619,7 +1619,7 @@ export interface MarkBoundaryEmbeddedSpaceFileFinding extends MarkBoundaryEmbedd
 /** One straight-quote/apostrophe finding, with its file/verse identity attached. */
 /** One node whose own text still carries a misplaced Greek dialytika, with its file/verse identity attached. */
 export interface DialytikaFinding {
-  /** The version id this finding belongs to (e.g. `BYZ2018`). */
+  /** The version id this finding belongs to (e.g. `BYZ2026`). */
   version: string;
   /** The verse file this finding belongs to (e.g. `01-MAT.json`). */
   file: string;
@@ -1722,7 +1722,7 @@ export interface HeadingParagraphFileFinding extends HeadingParagraphFinding {
 
 /** One duplicate-footnote-anchor finding, with its file/verse identity attached. */
 export interface DuplicateFootnoteAnchorFileFinding extends DuplicateFootnoteAnchorFinding {
-  /** The version id this finding belongs to (e.g. `BYZ2018`). */
+  /** The version id this finding belongs to (e.g. `BYZ2026`). */
   version: string;
   /** The verse file this finding belongs to (e.g. `08-2CO.json`). */
   file: string;

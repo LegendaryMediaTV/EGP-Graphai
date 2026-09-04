@@ -2925,10 +2925,7 @@
         "text": " where is your victory?”",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Hosea 13:14",
-            "content": "See Hosea 13:14"
-          }
+          "content": ["See ", { "bibleLink": "Hosea 13:14" }]
         }
       }
     ]

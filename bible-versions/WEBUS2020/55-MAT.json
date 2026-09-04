@@ -4796,7 +4796,7 @@
         "text": " Jesus came to them, walking on the sea.",
         "foot": {
           "type": "xrf",
-          "content": { "bibleLink": "Job 9:8", "content": "See Job 9:8" }
+          "content": ["See ", { "bibleLink": "Job 9:8" }]
         }
       }
     ]
