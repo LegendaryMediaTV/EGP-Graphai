@@ -24,52 +24,52 @@
 <sup>19</sup> Γράψον οὖν<sup>aq</sup> ἃ εἶδες, καὶ ἅ εἰσιν, καὶ ἃ μέλλει γίνεσθαι<sup>ar</sup> μετὰ ταῦτα·
 <sup>20</sup> τὸ μυστήριον τῶν ἑπτὰ ἀστέρων ὧν<sup>as</sup> εἶδες ἐπὶ τῆς δεξιᾶς μου, καὶ τὰς ἑπτὰ λυχνίας τὰς χρυσᾶς. Οἱ ἑπτὰ ἀστέρες ἄγγελοι τῶν ἑπτὰ ἐκκλησιῶν εἰσίν· καὶ αἱ λυχνίαι<sup>at</sup> αἱ ἑπτὰ ἑπτὰ ἐκκλησίαι εἰσίν.
 
-> - <sup>a</sup> 1. ιωαννη ¦ WH ιωανει
-> - <sup>b</sup> 2. οσα ¦ TR οσα τε
-> - <sup>c</sup> 2. ειδεν ¦ PCK ειδεν και ατινα εισιν και α χρη γενεσθαι μετα ταυτα ¦ RP<sup>mg</sup> ειδεν και ατινα εισιν και ατινα χρη γενεσθαι μετα ταυτα
-> - <sup>d</sup> 4. ιωαννης ¦ WH ιωανης
-> - <sup>e</sup> 4. θεου ¦ [PT] ¦ TR του ¦ CT PCK RP<sup>mg</sup> _om._
-> - <sup>f</sup> 4. α ¦ PCK RP<sup>mg</sup> TR α εστιν
-> - <sup>g</sup> 5. των ¦ PCK TR εκ των
-> - <sup>h</sup> 5. αγαπωντι ¦ PCK RP<sup>mg</sup> TR αγαπησαντι
-> - <sup>i</sup> 5. λουσαντι ημας απο ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> λυσαντι ημας εκ
-> - <sup>j</sup> 5. ημων ¦ [WH]
-> - <sup>k</sup> 6. βασιλειαν ¦ TR βασιλεις και
-> - <sup>l</sup> 6. των αιωνων ¦ [NA] ¦ WH _om._
-> - <sup>m</sup> 8. αλφα ¦ PT TR α
-> - <sup>n</sup> 8. ω ¦ TR ω αρχη και τελος
-> - <sup>o</sup> 8. κυριος ο θεος ¦ TR ο κυριος
-> - <sup>p</sup> 9. ιωαννης ¦ WH ιωανης
-> - <sup>q</sup> 9. αδελφος ¦ TR και αδελφος
-> - <sup>r</sup> 9. κοινωνος ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA PT RP<sup>mg</sup> SBL TR συγκοινωνος ¦ TH WH συνκοινωνος
-> - <sup>s</sup> 9. βασιλεια ¦ TR εν τη βασιλεια
-> - <sup>t</sup> 9. εν χριστω ιησου ¦ PT εν ιησου [χριστω] ¦ CT εν ιησου ¦ TR ιησου χριστου
-> - <sup>u</sup> 9. δια ¦ NA SBL TH WH _om._
-> - <sup>v</sup> 9. χριστου ¦ CT _om._
-> - <sup>w</sup> 10. φωνην οπισω μου ¦ CT TR οπισω μου φωνην
-> - <sup>x</sup> 11. λεγουσης ¦ TR λεγουσης εγω ειμι το α και το ω ο πρωτος και ο εσχατος και
-> - <sup>y</sup> 11. επτα ¦ ST _om._
-> - <sup>z</sup> 11. εκκλησιαις ¦ TR εκκλησιαις ταις εν ασια
-> - <sup>aa</sup> 11. φιλαδελφειαν ¦ ECM TH WH φιλαδελφιαν
-> - <sup>ab</sup> 11. λαοδικειαν ¦ TH WH λαοδικιαν
-> - <sup>ac</sup> 12. εκει ¦ [PT] ¦ CT RP<sup>mg</sup> TR _om._
-> - <sup>ad</sup> 12. ελαλει ¦ TR ελαλησε
-> - <sup>ae</sup> 13. επτα ¦ ECM NA SBL WH _om._
-> - <sup>af</sup> 13. υιω ¦ HF NA RP<sup>mg</sup> SBL WH υιον
-> - <sup>ag</sup> 13. μαστοις ¦ PCK μαζοις
-> - <sup>ah</sup> 13. χρυσην ¦ NA SBL TH WH χρυσαν
-> - <sup>ai</sup> 14. ως ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR ωσει ¦ HF και ως
-> - <sup>aj</sup> 15. πεπυρωμενοι ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> πεπυρωμενης
-> - <sup>ak</sup> 16. αυτου χειρι ¦ CT PCK PT RP<sup>mg</sup> χειρι αυτου
-> - <sup>al</sup> 17. εθηκεν την δεξιαν αυτου ¦ PCK RP<sup>mg</sup> TR επεθηκε(ν) την δεξιαν αυτου χειρα ¦ PT εθηκε την δεξιαν αυτου [χειρα]
-> - <sup>am</sup> 17. λεγων ¦ TR λεγων μοι
-> - <sup>an</sup> 18. αμην ¦ CT PT _om._
-> - <sup>ao</sup> 18. κλεις ¦ HF RP<sup>mg</sup> κλειδας
-> - <sup>ap</sup> 18. θανατου και του αδου ¦ TR αδου και του θανατου
-> - <sup>aq</sup> 19. ουν ¦ TR _om._
-> - <sup>ar</sup> 19. γινεσθαι ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA PCK TH γενεσθαι
-> - <sup>as</sup> 20. ων ¦ CT ους
-> - <sup>at</sup> 20. λυχνιαι αι επτα ¦ PCK RP<sup>mg</sup> TR επτα λυχνιαι ας ειδες
+> - <sup>a</sup> 1. Ἰωάννῃ ¦ WH Ἰωάνει
+> - <sup>b</sup> 2. ὅσα ¦ TR ὅσα τε
+> - <sup>c</sup> 2. εἶδεν ¦ PCK εἶδεν καὶ ἅτινά εἰσιν καὶ ἃ χρὴ γενέσθαι μετὰ ταῦτα ¦ RP<sup>mg</sup> εἶδεν καὶ ἅτινά εἰσιν καὶ ἅτινα χρὴ γενέσθαι μετὰ ταῦτα
+> - <sup>d</sup> 4. Ἰωάννης ¦ WH Ἰωάνης
+> - <sup>e</sup> 4. θεοῦ ¦ [PT] ¦ TR τοῦ ¦ CT PCK RP<sup>mg</sup> _om._
+> - <sup>f</sup> 4. ἃ ¦ PCK RP<sup>mg</sup> TR ἅ ἐστιν
+> - <sup>g</sup> 5. τῶν ¦ PCK TR ἐκ τῶν
+> - <sup>h</sup> 5. ἀγαπῶντι ¦ PCK RP<sup>mg</sup> TR ἀγαπήσαντι
+> - <sup>i</sup> 5. λούσαντι ἡμᾶς ἀπὸ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> λύσαντι ἡμᾶς ἐκ
+> - <sup>j</sup> 5. ἡμῶν ¦ [WH]
+> - <sup>k</sup> 6. βασιλείαν ¦ TR βασιλεῖς καί
+> - <sup>l</sup> 6. τῶν αἰώνων ¦ [NA] ¦ WH _om._
+> - <sup>m</sup> 8. Ἄλφα ¦ PT TR ἃ
+> - <sup>n</sup> 8. Ὦ ¦ TR Ὦ ἀρχῇ καὶ τέλος
+> - <sup>o</sup> 8. κύριος ὁ θεός ¦ TR ὁ κύριος
+> - <sup>p</sup> 9. Ἰωάννης ¦ WH Ἰωάνης
+> - <sup>q</sup> 9. ἀδελφὸς ¦ TR καὶ ἀδελφὸς
+> - <sup>r</sup> 9. κοινωνὸς ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA PT RP<sup>mg</sup> SBL TR συγκοινωνὸς ¦ TH WH συνκοινωνὸς
+> - <sup>s</sup> 9. βασιλείᾳ ¦ TR ἐν τῇ βασιλείᾳ
+> - <sup>t</sup> 9. ἐν χριστῷ Ἰησοῦ ¦ PT ἐν Ἰησοῦ [χριστῷ] ¦ CT ἐν Ἰησοῦ ¦ TR Ἰησοῦ χριστοῦ
+> - <sup>u</sup> 9. διὰ ¦ NA SBL TH WH _om._
+> - <sup>v</sup> 9. χριστοῦ ¦ CT _om._
+> - <sup>w</sup> 10. φωνὴν ὀπίσω μου ¦ CT TR ὀπίσω μου φωνὴν
+> - <sup>x</sup> 11. λεγούσης ¦ TR λεγούσης ἐγώ εἰμι τὸ ἃ καὶ τὸ ᾧ ὃ πρῶτος καὶ ὃ ἔσχατος καί
+> - <sup>y</sup> 11. ἑπτὰ ¦ ST _om._
+> - <sup>z</sup> 11. ἐκκλησίαις ¦ TR ἐκκλησίαις ταῖς ἐν Ἀσίᾳ
+> - <sup>aa</sup> 11. Φιλαδέλφειαν ¦ ECM TH WH φιλαδελφίαν
+> - <sup>ab</sup> 11. Λαοδίκειαν ¦ TH WH Λαοδίκιαν
+> - <sup>ac</sup> 12. ἐκεῖ ¦ [PT] ¦ CT RP<sup>mg</sup> TR _om._
+> - <sup>ad</sup> 12. ἐλάλει ¦ TR ἐλάλησε
+> - <sup>ae</sup> 13. ἑπτὰ ¦ ECM NA SBL WH _om._
+> - <sup>af</sup> 13. υἱῷ ¦ HF NA RP<sup>mg</sup> SBL WH υἱὸν
+> - <sup>ag</sup> 13. μαστοῖς ¦ PCK μαζοῖς
+> - <sup>ah</sup> 13. χρυσῆν ¦ NA SBL TH WH χρυσᾶν
+> - <sup>ai</sup> 14. ὡς ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR ὡσεὶ ¦ HF καὶ ὡς
+> - <sup>aj</sup> 15. πεπυρωμένοι ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> πεπυρωμένης
+> - <sup>ak</sup> 16. αὐτοῦ χειρὶ ¦ CT PCK PT RP<sup>mg</sup> χειρὶ αὐτοῦ
+> - <sup>al</sup> 17. ἔθηκεν τὴν δεξιὰν αὐτοῦ ¦ PCK RP<sup>mg</sup> TR επεθηκε(ν) τὴν δεξιὰν αὐτοῦ χεῖρα ¦ PT ἔθηκε τὴν δεξιὰν αὐτοῦ [χεῖρα]
+> - <sup>am</sup> 17. λέγων ¦ TR λέγων μοί
+> - <sup>an</sup> 18. ἀμήν ¦ CT PT _om._
+> - <sup>ao</sup> 18. κλεῖς ¦ HF RP<sup>mg</sup> κλεῖδας
+> - <sup>ap</sup> 18. θανάτου καὶ τοῦ ᾅδου ¦ TR ᾅδου καὶ τοῦ θανάτου
+> - <sup>aq</sup> 19. οὖν ¦ TR _om._
+> - <sup>ar</sup> 19. γίνεσθαι ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA PCK TH γενέσθαι
+> - <sup>as</sup> 20. ὧν ¦ CT οὓς
+> - <sup>at</sup> 20. λυχνίαι αἱ ἑπτὰ ¦ PCK RP<sup>mg</sup> TR ἑπτὰ λυχνίαι ἃς εἶδες
 
 ## Chapter 2
 
@@ -106,70 +106,70 @@
 <sup>28</sup> καὶ δώσω αὐτῷ τὸν ἀστέρα τὸν πρωϊνόν.
 <sup>29</sup> Ὁ ἔχων οὖς ἀκουσάτω τί τὸ πνεῦμα λέγει ταῖς ἐκκλησίαις.
 
-> - <sup>a</sup> 1. της εν εφεσω ¦ WH τω εν εφεσω ¦ TR της εφεσινης
-> - <sup>b</sup> 1. χρυσων ¦ TH χρυσεων
+> - <sup>a</sup> 1. τῆς ἐν Ἐφέσῳ ¦ WH τῷ ἐν Ἐφέσῳ ¦ TR τῆς Ἐφεσίνης
+> - <sup>b</sup> 1. χρυσῶν ¦ TH χρυσέων
 > - <sup>c</sup> 2. σου ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK _om._
-> - <sup>d</sup> 2. επειρασας τους λεγοντας εαυτους ¦ TR επειρασω τους φασκοντας
-> - <sup>e</sup> 2. αποστολους ειναι ¦ TR ειναι αποστολους ¦ CT αποστολους
-> - <sup>f</sup> 3. υπομονην εχεις και εβαστασας ¦ PCK RP<sup>mg</sup> TR εβαστασας και υπομονην εχεις
-> - <sup>g</sup> 3. δια ¦ TR και δια
-> - <sup>h</sup> 3. και ουκ εκοπιασας ¦ PT και ου κεκοπιακας ¦ NA SBL TH WH και ου κεκοπιακες ¦ TR κεκοπιακας και ου κεκμηκας
-> - <sup>i</sup> 4. αλλα ¦ ECM NA<sup>28</sup> RP<sup>mg</sup> TR αλλ
-> - <sup>j</sup> 4. αφηκας ¦ NA SBL TH WH αφηκες
-> - <sup>k</sup> 5. πεπτωκας ¦ PCK RP<sup>mg</sup> TR εκπεπτωκας ¦ WH πεπτωκες
-> - <sup>l</sup> 5. ταχυ ¦ ST ταχει ¦ CT _om._
-> - <sup>m</sup> 7. αυτω ¦ PCK _om._
-> - <sup>n</sup> 7. τω παραδεισω ¦ ECM τω παραδισω ¦ PCK RP<sup>mg</sup> TR μεσω του παραδεισου
+> - <sup>d</sup> 2. ἐπείρασας τοὺς λέγοντας ἑαυτοὺς ¦ TR ἐπειράσω τοὺς φάσκοντας
+> - <sup>e</sup> 2. ἀποστόλους εἶναι ¦ TR εἶναι ἀποστόλους ¦ CT ἀποστόλους
+> - <sup>f</sup> 3. ὑπομονὴν ἔχεις καὶ ἐβάστασας ¦ PCK RP<sup>mg</sup> TR ἐβάστασας καὶ ὑπομονὴν ἔχεις
+> - <sup>g</sup> 3. διὰ ¦ TR καὶ διὰ
+> - <sup>h</sup> 3. καὶ οὐκ ἐκοπίασας ¦ PT καὶ οὐ κεκοπίακας ¦ NA SBL TH WH καὶ οὐ κεκοπίακες ¦ TR κεκοπίακας καὶ οὐ κέκμηκας
+> - <sup>i</sup> 4. Ἀλλὰ ¦ ECM NA<sup>28</sup> RP<sup>mg</sup> TR Ἀλλ
+> - <sup>j</sup> 4. ἀφῆκας ¦ NA SBL TH WH ἀφῆκες
+> - <sup>k</sup> 5. πέπτωκας ¦ PCK RP<sup>mg</sup> TR ἐκπέπτωκας ¦ WH πέπτωκες
+> - <sup>l</sup> 5. ταχύ ¦ ST τάχει ¦ CT _om._
+> - <sup>m</sup> 7. αὐτῷ ¦ PCK _om._
+> - <sup>n</sup> 7. τῷ παραδείσῳ ¦ ECM τῷ παραδίσῳ ¦ PCK RP<sup>mg</sup> TR μέσῳ τοῦ παραδείσου
 > - <sup>o</sup> 7. μου ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR _om._
-> - <sup>p</sup> 8. της ¦ WH τω
-> - <sup>q</sup> 8. εν σμυρνη εκκλησιας ¦ TR εκκλησιας σμυρναιων
-> - <sup>r</sup> 9. τα εργα και ¦ CT _om._
-> - <sup>s</sup> 9. αλλα πλουσιος ¦ TR πλουσιος δε
-> - <sup>t</sup> 9. εκ ¦ PCK RP<sup>mg</sup> TR _om._
-> - <sup>u</sup> 10. μηδεν ¦ WH μη
-> - <sup>v</sup> 10. παθειν ¦ CT PCK RP<sup>mg</sup> TR πασχειν
-> - <sup>w</sup> 10. δη ¦ [PT] ¦ CT RP<sup>mg</sup> TR _om._
-> - <sup>x</sup> 10. βαλειν ¦ CT βαλλειν
-> - <sup>y</sup> 10. ο διαβολος εξ υμων ¦ TR εξ υμων ο διαβολος
-> - <sup>z</sup> 10. εξετε ¦ WH εχητε
-> - <sup>aa</sup> 10. ημερων ¦ HF PT RP<sup>mg</sup> ημερας
-> - <sup>ab</sup> 13. τα εργα σου και ¦ CT _om._
-> - <sup>ac</sup> 13. εν ¦ CT TR και εν ¦ PT [και] εν
-> - <sup>ad</sup> 13. εν αις ¦ ECM<sup>†</sup> _txt_ ¦ HF PT RP<sup>mg</sup> αις ¦ CT<sup>†</sup> _om._
-> - <sup>ae</sup> 13. αντιπας ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> αντειπας
-> - <sup>af</sup> 13. πιστος ¦ NA SBL πιστος μου ¦ WH πιστος [μου]
-> - <sup>ag</sup> 13. ο σατανας κατοικει ¦ TR κατοικει ο σατανας
-> - <sup>ah</sup> 14. αλλ ¦ HF PT RP<sup>mg</sup> SBL WH αλλα
-> - <sup>ai</sup> 14. εδιδαξεν ¦ CT TR εδιδασκε(ν)
-> - <sup>aj</sup> 14. τον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> τω ¦ ST εν τω
-> - <sup>ak</sup> 14. και ¦ CT PCK RP<sup>mg</sup> TR _om._
-> - <sup>al</sup> 15. των ¦ ECM<sup>†</sup> _txt_ ¦ [NA] ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> SBL WH _om._
-> - <sup>am</sup> 15. ομοιως ¦ TR ο μισω
-> - <sup>an</sup> 16. ουν ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TH TR _om._
-> - <sup>ao</sup> 17. του ¦ PCK RP<sup>mg</sup> TR φαγειν απο του
-> - <sup>ap</sup> 17. οιδεν ¦ TR εγνω
-> - <sup>aq</sup> 18. της ¦ WH τω
-> - <sup>ar</sup> 18. αυτου ¦ [WH]
-> - <sup>as</sup> 19. πιστιν και την διακονιαν ¦ TR διακονιαν και την πιστιν
-> - <sup>at</sup> 19. τα ¦ TR και τα
-> - <sup>au</sup> 20. αλλ ¦ HF NA<sup>27</sup> PT RP<sup>mg</sup> SBL WH αλλα
-> - <sup>av</sup> 20. οτι αφεις ¦ PT ολιγα οτι αφεις ¦ TR ολιγα οτι εας
+> - <sup>p</sup> 8. τῆς ¦ WH τῷ
+> - <sup>q</sup> 8. ἐν Σμύρνῃ ἐκκλησίας ¦ TR ἐκκλησίας Σμυρναίων
+> - <sup>r</sup> 9. τὰ ἔργα καὶ ¦ CT _om._
+> - <sup>s</sup> 9. ἀλλὰ πλούσιος ¦ TR πλούσιος δὲ
+> - <sup>t</sup> 9. ἐκ ¦ PCK RP<sup>mg</sup> TR _om._
+> - <sup>u</sup> 10. Μηδὲν ¦ WH Μὴ
+> - <sup>v</sup> 10. παθεῖν ¦ CT PCK RP<sup>mg</sup> TR πάσχειν
+> - <sup>w</sup> 10. δή ¦ [PT] ¦ CT RP<sup>mg</sup> TR _om._
+> - <sup>x</sup> 10. βαλεῖν ¦ CT βάλλειν
+> - <sup>y</sup> 10. ὁ διάβολος ἐξ ὑμῶν ¦ TR ἐξ ὑμῶν ὁ διάβολος
+> - <sup>z</sup> 10. ἕξετε ¦ WH ἔχητε
+> - <sup>aa</sup> 10. ἡμερῶν ¦ HF PT RP<sup>mg</sup> ἡμέρας
+> - <sup>ab</sup> 13. τὰ ἔργα σου καὶ ¦ CT _om._
+> - <sup>ac</sup> 13. ἐν ¦ CT TR καὶ ἐν ¦ PT [καὶ] ἐν
+> - <sup>ad</sup> 13. ἐν αἷς ¦ ECM<sup>†</sup> _txt_ ¦ HF PT RP<sup>mg</sup> αἷς ¦ CT<sup>†</sup> _om._
+> - <sup>ae</sup> 13. Ἀντίπας ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> Ἀντείπας
+> - <sup>af</sup> 13. πιστός ¦ NA SBL πιστός μου ¦ WH πιστός [μου]
+> - <sup>ag</sup> 13. ὁ Σατανᾶς κατοικεῖ ¦ TR κατοικεῖ ὁ Σατανᾶς
+> - <sup>ah</sup> 14. Ἀλλ ¦ HF PT RP<sup>mg</sup> SBL WH Ἀλλὰ
+> - <sup>ai</sup> 14. ἐδίδαξεν ¦ CT TR εδιδασκε(ν)
+> - <sup>aj</sup> 14. τὸν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> τῷ ¦ ST ἐν τῷ
+> - <sup>ak</sup> 14. καὶ ¦ CT PCK RP<sup>mg</sup> TR _om._
+> - <sup>al</sup> 15. τῶν ¦ ECM<sup>†</sup> _txt_ ¦ [NA] ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> SBL WH _om._
+> - <sup>am</sup> 15. ὁμοίως ¦ TR ὁ μισῶ
+> - <sup>an</sup> 16. οὖν ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TH TR _om._
+> - <sup>ao</sup> 17. τοῦ ¦ PCK RP<sup>mg</sup> TR φαγεῖν ἀπὸ τοῦ
+> - <sup>ap</sup> 17. οἶδεν ¦ TR ἔγνω
+> - <sup>aq</sup> 18. τῆς ¦ WH τῷ
+> - <sup>ar</sup> 18. αὐτοῦ ¦ [WH]
+> - <sup>as</sup> 19. πίστιν καὶ τὴν διακονίαν ¦ TR διακονίαν καὶ τὴν πίστιν
+> - <sup>at</sup> 19. τὰ ¦ TR καὶ τὰ
+> - <sup>au</sup> 20. Ἀλλ ¦ HF NA<sup>27</sup> PT RP<sup>mg</sup> SBL WH Ἀλλὰ
+> - <sup>av</sup> 20. ὅτι ἀφεῖς ¦ PT ὀλίγα ὅτι ἀφεῖς ¦ TR ὀλίγα ὅτι ἐᾷς
 > - <sup>aw</sup> 20. σου ¦ CT TR _om._
-> - <sup>ax</sup> 20. Guardian Press: σου (A) 046 1841 1862 (A: _adds_ την _after_ σου) ¦ _om._ ℵ C P
-> - <sup>ay</sup> 20. ιεζαβελ η λεγει ¦ CT ιεζαβελ η λεγουσα ¦ TR ιεζαβηλ την λεγουσαν
-> - <sup>az</sup> 20. και διδασκει και πλανα τους ¦ TR διδασκειν και πλανασθαι
-> - <sup>ba</sup> 20. φαγειν ειδωλοθυτα ¦ TR ειδωλοθυτα φαγειν
-> - <sup>bb</sup> 21. και ου θελει μετανοησαι εκ της πορνειας αυτης ¦ TR εκ της πορνειας αυτης και ου μετενοησεν
-> - <sup>bc</sup> 22. βαλλω ¦ TR εγω βαλλω
-> - <sup>bd</sup> 22. μετανοησωσιν ¦ WH μετανοησουσιν
-> - <sup>be</sup> 22. αυτης ¦ TR αυτων
-> - <sup>bf</sup> 23. ερευνων ¦ NA SBL TH WH εραυνων
-> - <sup>bg</sup> 24. τοις ¦ TR και
-> - <sup>bh</sup> 24. οιτινες ¦ TR και οιτινες
-> - <sup>bi</sup> 24. βαθεα ¦ TR βαθη
-> - <sup>bj</sup> 24. βαλλω ¦ PCK TR βαλω
-> - <sup>bk</sup> 25. αν ηξω ¦ RP<sup>mg</sup> ανοιξω _(via itacism)_
-> - <sup>bl</sup> 27. συντριβησεται ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR συντριβεται
+> - <sup>ax</sup> 20. Guardian Press: σοῦ (A) 046 1841 1862 (A: _adds_ τήν _after_ σοῦ) ¦ _om._ ℵ C P
+> - <sup>ay</sup> 20. Ἰεζάβελ ἣ λέγει ¦ CT Ἰεζάβελ ἡ λέγουσα ¦ TR Ἰεζάβηλ τὴν λέγουσαν
+> - <sup>az</sup> 20. καὶ διδάσκει καὶ πλανᾷ τοὺς ¦ TR διδάσκειν καὶ πλανᾶσθαι
+> - <sup>ba</sup> 20. φαγεῖν εἰδωλόθυτα ¦ TR εἰδωλόθυτα φαγεῖν
+> - <sup>bb</sup> 21. καὶ οὐ θέλει μετανοῆσαι ἐκ τῆς πορνείας αὐτῆς ¦ TR ἐκ τῆς πορνείας αὐτῆς καὶ οὐ μετενόησεν
+> - <sup>bc</sup> 22. βάλλω ¦ TR ἐγὼ βάλλω
+> - <sup>bd</sup> 22. μετανοήσωσιν ¦ WH μετανοήσουσιν
+> - <sup>be</sup> 22. αὐτῆς ¦ TR αὐτῶν
+> - <sup>bf</sup> 23. ἐρευνῶν ¦ NA SBL TH WH ἐραυνῶν
+> - <sup>bg</sup> 24. τοῖς ¦ TR καὶ
+> - <sup>bh</sup> 24. οἵτινες ¦ TR καὶ οἵτινες
+> - <sup>bi</sup> 24. βαθέα ¦ TR βάθη
+> - <sup>bj</sup> 24. βάλλω ¦ PCK TR βάλω
+> - <sup>bk</sup> 25. ἂν ἥξω ¦ RP<sup>mg</sup> Ἀνοίξω _(via itacism)_
+> - <sup>bl</sup> 27. συντριβήσεται ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR συντρίβεται
 
 ## Chapter 3
 
@@ -198,47 +198,47 @@
 <sup>21</sup> Ὁ νικῶν, δώσω αὐτῷ καθίσαι μετ’ ἐμοῦ ἐν τῷ θρόνῳ μου, ὡς κἀγὼ ἐνίκησα, καὶ ἐκάθισα μετὰ τοῦ πατρός μου ἐν τῷ θρόνῳ αὐτοῦ.
 <sup>22</sup> Ὁ ἔχων οὖς ἀκουσάτω τί τὸ πνεῦμα λέγει ταῖς ἐκκλησίαις.
 
-> - <sup>a</sup> 1. επτα ¦ ST _om._
-> - <sup>b</sup> 1. ονομα ¦ TR το ονομα
-> - <sup>c</sup> 1. οτι ¦ HF RP<sup>mg</sup> και
-> - <sup>d</sup> 2. στηρισον ¦ RP<sup>mg</sup> TR στηριξον ¦ HF RP<sup>mg</sup> τηρησον
-> - <sup>e</sup> 2. εμελλες αποβαλλειν ¦ CT RP<sup>mg</sup> εμελλον αποθανειν ¦ RP<sup>mg</sup> ημελλες αποβαλλειν ¦ PCK εμελλες αποβαλειν ¦ TR μελλει αποθανειν ¦ PT εμελλον αποθνησκειν
-> - <sup>f</sup> 2. τα ¦ WH _om._
+> - <sup>a</sup> 1. ἑπτὰ ¦ ST _om._
+> - <sup>b</sup> 1. ὄνομα ¦ TR τὸ ὄνομα
+> - <sup>c</sup> 1. ὅτι ¦ HF RP<sup>mg</sup> καὶ
+> - <sup>d</sup> 2. στήρισον ¦ RP<sup>mg</sup> TR στήριξον ¦ HF RP<sup>mg</sup> τήρησον
+> - <sup>e</sup> 2. ἔμελλες ἀποβάλλειν ¦ CT RP<sup>mg</sup> ἔμελλον ἀποθανεῖν ¦ RP<sup>mg</sup> ἠμελλες ἀποβάλλειν ¦ PCK ἔμελλες ἀποβάλειν ¦ TR μέλλει ἀποθανεῖν ¦ PT ἔμελλον ἀποθνῄσκειν
+> - <sup>f</sup> 2. τὰ ¦ WH _om._
 > - <sup>g</sup> 2. μου ¦ TR _om._
-> - <sup>h</sup> 3. και ηκουσας και τηρει ¦ [PT] ¦ RP<sup>mg</sup> _om._
-> - <sup>i</sup> 3. επι σε ¦ [PT] ¦ CT _om._
-> - <sup>j</sup> 3. γνως ¦ HF PT RP<sup>mg</sup> γνωση
-> - <sup>k</sup> 4. αλλ ολιγα εχεις ¦ NA<sup>28</sup> αλλ εχεις ολιγα ¦ ECM NA<sup>27</sup> PT SBL TH WH αλλα εχεις ολιγα ¦ TR εχεις ολιγα
-> - <sup>l</sup> 4. εν ¦ TR και εν
-> - <sup>m</sup> 5. ουτος ¦ CT PCK PT ουτως
-> - <sup>n</sup> 5. ομολογησω ¦ TR εξομολογησομαι
-> - <sup>o</sup> 7. φιλαδελφεια ¦ ECM TH WH φιλαδελφια
-> - <sup>p</sup> 7. κλειν του ¦ TR κλειδα του ¦ NA SBL TH WH κλειν
-> - <sup>q</sup> 7. δαυιδ ¦ WH δαυειδ ¦ HF TR δαβιδ
-> - <sup>r</sup> 7. κλεισει αυτην ει μη ο ανοιγων ¦ CT PT RP<sup>mg</sup> κλεισει και κλειων ¦ TR κλειει και κλειει
-> - <sup>s</sup> 7. ανοιξει ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR ανοιγει
-> - <sup>t</sup> 8. ανεωγμενην ην ¦ NA SBL WH ηνεωγμενην ην ¦ TR ανεωγμενην και
-> - <sup>u</sup> 9. διδωμι ¦ NA SBL TH WH διδω
-> - <sup>v</sup> 9. ηξωσιν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK PT ηξουσι(ν)
-> - <sup>w</sup> 9. προσκυνησωσιν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT προσκυνησουσιν
-> - <sup>x</sup> 9. οτι ¦ CT RP<sup>mg</sup> TR οτι εγω ¦ PT οτι [εγω]
-> - <sup>y</sup> 11. ερχομαι ¦ TR ιδου ερχομαι
+> - <sup>h</sup> 3. καὶ ἤκουσας καὶ τήρει ¦ [PT] ¦ RP<sup>mg</sup> _om._
+> - <sup>i</sup> 3. ἐπί σε ¦ [PT] ¦ CT _om._
+> - <sup>j</sup> 3. γνῷς ¦ HF PT RP<sup>mg</sup> γνώσῃ
+> - <sup>k</sup> 4. Ἀλλ ὀλίγα ἔχεις ¦ NA<sup>28</sup> Ἀλλ ἔχεις ὀλίγα ¦ ECM NA<sup>27</sup> PT SBL TH WH Ἀλλὰ ἔχεις ὀλίγα ¦ TR Ἔχεις ὀλίγα
+> - <sup>l</sup> 4. ἐν ¦ TR καὶ ἐν
+> - <sup>m</sup> 5. οὗτος ¦ CT PCK PT οὕτως
+> - <sup>n</sup> 5. ὁμολογήσω ¦ TR ἐξομολογήσομαι
+> - <sup>o</sup> 7. Φιλαδελφείᾳ ¦ ECM TH WH φιλαδελφίᾳ
+> - <sup>p</sup> 7. κλεῖν τοῦ ¦ TR κλεῖδα τοῦ ¦ NA SBL TH WH κλεῖν
+> - <sup>q</sup> 7. Δαυίδ ¦ WH Δαυείδ ¦ HF TR Δαβίδ
+> - <sup>r</sup> 7. κλείσει αὐτὴν εἰ μὴ ὁ ἀνοίγων ¦ CT PT RP<sup>mg</sup> κλείσει καὶ κλείων ¦ TR κλείει καὶ κλείει
+> - <sup>s</sup> 7. ἀνοίξει ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR ἀνοίγει
+> - <sup>t</sup> 8. ἀνεῳγμένην ἣν ¦ NA SBL WH ἠνεῳγμένην ἣν ¦ TR ἀνεῳγμένην καὶ
+> - <sup>u</sup> 9. δίδωμι ¦ NA SBL TH WH διδῶ
+> - <sup>v</sup> 9. ἥξωσιν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK PT ηξουσι(ν)
+> - <sup>w</sup> 9. προσκυνήσωσιν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT προσκυνήσουσιν
+> - <sup>x</sup> 9. ὅτι ¦ CT RP<sup>mg</sup> TR ὅτι ἐγὼ ¦ PT ὅτι [ἐγὼ]
+> - <sup>y</sup> 11. Ἔρχομαι ¦ TR Ἰδοὺ ἔρχομαι
 > - <sup>z</sup> 12. ἣ καταβαινει ¦ CT ST ἡ καταβαινουσα
-> - <sup>aa</sup> 12. εκ ¦ HF RP<sup>mg</sup> απο
+> - <sup>aa</sup> 12. ἐκ ¦ HF RP<sup>mg</sup> ἀπὸ
 > - <sup>ab</sup> 12. μου ¦ RP<sup>mg</sup> _om._
-> - <sup>ac</sup> 14. εν λαοδικεια εκκλησιας ¦ TH WH εν λαοδικια εκκλησιας ¦ TR εκκλησιας λαοδικεων
-> - <sup>ad</sup> 14. αληθινος ¦ WH [ο] αληθινος
-> - <sup>ae</sup> 15. ης ¦ TR ειης
-> - <sup>af</sup> 16. ου ζεστος ουτε ψυχρος ¦ CT PT ουτε ζεστος ουτε ψυχρος ¦ TR ουτε ψυχρος ουτε ζεστος
-> - <sup>ag</sup> 17. λεγεις ¦ NA PT SBL TH TR WH λεγεις οτι
-> - <sup>ah</sup> 17. ουδενος ¦ NA SBL TH WH ουδεν
-> - <sup>ai</sup> 17. ο ¦ [PT] ¦ NA SBL TH TR WH _om._
-> - <sup>aj</sup> 17. ελεεινος ¦ WH ελεινος
-> - <sup>ak</sup> 18. χρυσιον παρ εμου ¦ CT PT TR παρ εμου χρυσιον
-> - <sup>al</sup> 18. κολλυριον ¦ PCK RP<sup>mg</sup> SBL TR WH κολλουριον ¦ NA κολλ[ο]υριον
-> - <sup>am</sup> 18. ινα εγχριση ¦ ECM<sup>†</sup> RP<sup>mg</sup> TR εγχρισον ¦ CT<sup>†</sup> εγχρισαι ¦ PCK εγχρισον επι
-> - <sup>an</sup> 19. ζηλωσον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF PT RP<sup>mg</sup> ζηλευε
-> - <sup>ao</sup> 20. και ¦ ECM<sup>†</sup> _txt_ ¦ [NA] ¦ ECM<sup>†</sup> TR WH _om._
+> - <sup>ac</sup> 14. ἐν Λαοδικείᾳ ἐκκλησίας ¦ TH WH ἐν Λαοδικίᾳ ἐκκλησίας ¦ TR ἐκκλησίας Λαοδικέων
+> - <sup>ad</sup> 14. ἀληθινός ¦ WH [ὁ] ἀληθινός
+> - <sup>ae</sup> 15. ἦς ¦ TR εἰῆς
+> - <sup>af</sup> 16. οὐ ζεστὸς οὔτε ψυχρός ¦ CT PT οὔτε ζεστὸς οὔτε ψυχρός ¦ TR οὔτε ψυχρὸς οὔτε ζεστός
+> - <sup>ag</sup> 17. λέγεις ¦ NA PT SBL TH TR WH λέγεις ὅτι
+> - <sup>ah</sup> 17. οὐδενὸς ¦ NA SBL TH WH οὐδὲν
+> - <sup>ai</sup> 17. ὁ ¦ [PT] ¦ NA SBL TH TR WH _om._
+> - <sup>aj</sup> 17. ἐλεεινὸς ¦ WH Ἔλεινος
+> - <sup>ak</sup> 18. χρυσίον παρ ἐμοῦ ¦ CT PT TR παρ ἐμοῦ χρυσίον
+> - <sup>al</sup> 18. κολλύριον ¦ PCK RP<sup>mg</sup> SBL TR WH κολλούριον ¦ NA κολλ[ο]υριον
+> - <sup>am</sup> 18. ἵνα ἐγχρίσῃ ¦ ECM<sup>†</sup> RP<sup>mg</sup> TR ἔγχρισον ¦ CT<sup>†</sup> ἐγχρῖσαι ¦ PCK ἔγχρισον ἐπὶ
+> - <sup>an</sup> 19. ζήλωσον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF PT RP<sup>mg</sup> ζήλευε
+> - <sup>ao</sup> 20. καὶ ¦ ECM<sup>†</sup> _txt_ ¦ [NA] ¦ ECM<sup>†</sup> TR WH _om._
 
 ## Chapter 4
 
@@ -254,46 +254,46 @@
 <sup>10</sup> πεσοῦνται οἱ εἴκοσι<sup>aj</sup> τέσσαρες πρεσβύτεροι ἐνώπιον τοῦ καθημένου ἐπὶ τοῦ θρόνου, καὶ προσκυνήσουσιν<sup>ak</sup> τῷ ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων, καὶ βαλοῦσιν τοὺς στεφάνους αὐτῶν ἐνώπιον τοῦ θρόνου, λέγοντες,
 <sup>11</sup> Ἄξιος εἶ, ὁ<sup>al</sup> κύριος καὶ ὁ θεὸς ἡμῶν, ὁ ἅγιος, λαβεῖν τὴν δόξαν καὶ τὴν τιμὴν καὶ τὴν δύναμιν· ὅτι σὺ ἔκτισας πάντα,<sup>am</sup> καὶ διὰ τὸ θέλημά σου ἦσαν<sup>an</sup> καὶ ἐκτίσθησαν.
 
-> - <sup>a</sup> 1. ειδον ¦ ECM ιδον
-> - <sup>b</sup> 1. ανεωγμενη ¦ NA SBL TH TR WH ηνεωγμενη
-> - <sup>c</sup> 1. λεγων ¦ PCK RP<sup>mg</sup> TR λεγουσα
-> - <sup>d</sup> 2. και ¦ [PT] ¦ CT HF RP<sup>mg</sup> _om._
-> - <sup>e</sup> 2. τον θρονον ¦ PCK RP<sup>mg</sup> TR του θρονου
-> - <sup>f</sup> 3. ομοιος ¦ CT και ο καθημενος ομοιος ¦ TR και ο καθημενος ην ομοιος
-> - <sup>g</sup> 3. σαρδιω ¦ TR σαρδινω
-> - <sup>h</sup> 3. ομοιως ¦ PCK RP<sup>mg</sup> SCR ομοια ¦ CT RP<sup>mg</sup> ST ομοιος
-> - <sup>i</sup> 3. ορασις σμαραγδινων ¦ CT PCK RP<sup>mg</sup> TR ορασει σμαραγδινω
-> - <sup>j</sup> 4. και ¦ [PT] ¦ HF _om._
-> - <sup>k</sup> 4. θρονοι ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA TH θρονους
-> - <sup>l</sup> 4. εικοσι τεσσαρες ¦ TR εικοσι και τεσσαρες
-> - <sup>m</sup> 4. τους ¦ ECM<sup>†</sup> _txt_ ¦ PCK TR ειδον τους ¦ CT<sup>†</sup> _om._
-> - <sup>n</sup> 4. εικοσι τεσσαρας ¦ TR εικοσι και τεσσαρας
-> - <sup>o</sup> 4. εν ¦ WH _om._
-> - <sup>p</sup> 4. και ¦ TR και εσχον
-> - <sup>q</sup> 5. φωναι και βρονται ¦ TR βρονται και φωναι
-> - <sup>r</sup> 5. αυτου ¦ CT PT TR _om._
-> - <sup>s</sup> 5. αι εισιν ¦ PT TR αι εισι(ν) τα ¦ CT α εισιν τα
-> - <sup>t</sup> 6. ως ¦ TR _om._
-> - <sup>u</sup> 6. κρυσταλλω ¦ PCK κρυσταλω
-> - <sup>v</sup> 6. τεσσαρα ¦ WH τεσσερα
-> - <sup>w</sup> 7. εχον ¦ NA SBL TH WH εχων
-> - <sup>x</sup> 7. προσωπον ανθρωπου ¦ CT<sup>†</sup> PT το προσωπον ως ανθρωπου ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR το προσωπον ως ανθρωπος
-> - <sup>y</sup> 7. ζωον ¦ HF RP<sup>mg</sup> _om._
-> - <sup>z</sup> 7. πετομενω ¦ TR πετωμενω
-> - <sup>aa</sup> 8. τα ¦ RP<sup>mg</sup> TR _om._
-> - <sup>ab</sup> 8. τεσσαρα ¦ WH τεσσερα
-> - <sup>ac</sup> 8. εν ¦ TR εαυτο ¦ CT PCK PT RP<sup>mg</sup> εν αυτων
-> - <sup>ad</sup> 8. εχον ¦ TR ειχον ¦ NA SBL TH WH εχων
-> - <sup>ae</sup> 8. γεμουσιν ¦ TR γεμοντα
-> - <sup>af</sup> 8. λεγοντες ¦ PCK TR λεγοντα
-> - <sup>ag</sup> 8. αγιος (3x) ¦ HF PCK RP<sup>mg</sup> αγιος (9x)
-> - <sup>ah</sup> 9. δωσιν ¦ ECM<sup>†</sup> δωσωσιν ¦ CT<sup>†</sup> TR δωσουσι(ν)
-> - <sup>ai</sup> 9. του θρονου ¦ NA SBL TH τω θρονω
-> - <sup>aj</sup> 10. εικοσι τεσσαρες ¦ TR εικοσι και τεσσαρες
-> - <sup>ak</sup> 10. προσκυνησουσιν … βαλουσιν ¦ TR προσκυνουσι(ν) … βαλλουσι(ν)
-> - <sup>al</sup> 11. ο κυριος και ο θεος ημων ο αγιος ¦ CT ο κυριος και ο θεος ημων ¦ PT ο κυριος και θεος ημων ¦ TR κυριε
-> - <sup>am</sup> 11. παντα ¦ CT PCK PT RP<sup>mg</sup> TR τα παντα
-> - <sup>an</sup> 11. ησαν ¦ PCK RP<sup>mg</sup> TR εισι(ν)
+> - <sup>a</sup> 1. εἶδον ¦ ECM ἴδον
+> - <sup>b</sup> 1. ἀνεῳγμένη ¦ NA SBL TH TR WH ἠνεῳγμένη
+> - <sup>c</sup> 1. λέγων ¦ PCK RP<sup>mg</sup> TR λέγουσα
+> - <sup>d</sup> 2. Καὶ ¦ [PT] ¦ CT HF RP<sup>mg</sup> _om._
+> - <sup>e</sup> 2. τὸν θρόνον ¦ PCK RP<sup>mg</sup> TR τοῦ θρόνου
+> - <sup>f</sup> 3. ὅμοιος ¦ CT καὶ ὁ καθήμενος ὅμοιος ¦ TR καὶ ὁ καθήμενος ἦν ὅμοιος
+> - <sup>g</sup> 3. σαρδίῳ ¦ TR σαρδίνῳ
+> - <sup>h</sup> 3. ὁμοίως ¦ PCK RP<sup>mg</sup> SCR ὁμοία ¦ CT RP<sup>mg</sup> ST ὅμοιος
+> - <sup>i</sup> 3. ὅρασις σμαραγδίνων ¦ CT PCK RP<sup>mg</sup> TR ὁράσει σμαραγδίνῳ
+> - <sup>j</sup> 4. Καὶ ¦ [PT] ¦ HF _om._
+> - <sup>k</sup> 4. θρόνοι ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA TH θρόνους
+> - <sup>l</sup> 4. εἴκοσι τέσσαρες ¦ TR εἴκοσι καὶ τέσσαρες
+> - <sup>m</sup> 4. τοὺς ¦ ECM<sup>†</sup> _txt_ ¦ PCK TR εἶδον τοὺς ¦ CT<sup>†</sup> _om._
+> - <sup>n</sup> 4. εἴκοσι τέσσαρας ¦ TR εἴκοσι καὶ τέσσαρας
+> - <sup>o</sup> 4. ἐν ¦ WH _om._
+> - <sup>p</sup> 4. καὶ ¦ TR καὶ ἔσχον
+> - <sup>q</sup> 5. φωναὶ καὶ βρονταί ¦ TR βρονταὶ καὶ φωναί
+> - <sup>r</sup> 5. αὐτοῦ ¦ CT PT TR _om._
+> - <sup>s</sup> 5. αἵ εἰσιν ¦ PT TR αἳ εισι(ν) τὰ ¦ CT ἅ εἰσιν τὰ
+> - <sup>t</sup> 6. ὡς ¦ TR _om._
+> - <sup>u</sup> 6. κρυστάλλῳ ¦ PCK κρυστάλῳ
+> - <sup>v</sup> 6. τέσσαρα ¦ WH τέσσερα
+> - <sup>w</sup> 7. ἔχον ¦ NA SBL TH WH ἔχων
+> - <sup>x</sup> 7. πρόσωπον ἀνθρώπου ¦ CT<sup>†</sup> PT τὸ πρόσωπον ὡς ἀνθρώπου ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR τὸ πρόσωπον ὡς ἄνθρωπος
+> - <sup>y</sup> 7. ζῷον ¦ HF RP<sup>mg</sup> _om._
+> - <sup>z</sup> 7. πετομένῳ ¦ TR πετωμένῳ
+> - <sup>aa</sup> 8. τὰ ¦ RP<sup>mg</sup> TR _om._
+> - <sup>ab</sup> 8. τέσσαρα ¦ WH τέσσερα
+> - <sup>ac</sup> 8. ἓν ¦ TR ἑαυτό ¦ CT PCK PT RP<sup>mg</sup> ἓν αὐτῶν
+> - <sup>ad</sup> 8. ἔχον ¦ TR εἶχον ¦ NA SBL TH WH ἔχων
+> - <sup>ae</sup> 8. γέμουσιν ¦ TR γέμοντα
+> - <sup>af</sup> 8. λέγοντες ¦ PCK TR λέγοντα
+> - <sup>ag</sup> 8. Ἅγιος (3x) ¦ HF PCK RP<sup>mg</sup> Ἅγιος (9x)
+> - <sup>ah</sup> 9. δῶσιν ¦ ECM<sup>†</sup> δώσωσιν ¦ CT<sup>†</sup> TR δωσουσι(ν)
+> - <sup>ai</sup> 9. τοῦ θρόνου ¦ NA SBL TH τῷ θρόνῳ
+> - <sup>aj</sup> 10. εἴκοσι τέσσαρες ¦ TR εἴκοσι καὶ τέσσαρες
+> - <sup>ak</sup> 10. προσκυνήσουσιν … βαλοῦσιν ¦ TR προσκυνουσι(ν) … βαλλουσι(ν)
+> - <sup>al</sup> 11. ὁ κύριος καὶ ὁ θεὸς ἡμῶν ὁ ἅγιος ¦ CT ὁ κύριος καὶ ὁ θεὸς ἡμῶν ¦ PT ὁ κύριος καὶ θεὸς ἡμῶν ¦ TR κύριε
+> - <sup>am</sup> 11. πάντα ¦ CT PCK PT RP<sup>mg</sup> TR τὰ πάντα
+> - <sup>an</sup> 11. ἦσαν ¦ PCK RP<sup>mg</sup> TR εισι(ν)
 
 ## Chapter 5
 
@@ -312,49 +312,49 @@
 <sup>13</sup> Καὶ πᾶν κτίσμα ὃ<sup>ag</sup> ἐν τῷ οὐρανῷ, καὶ ἐπὶ<sup>ah</sup> τῆς γῆς, καὶ ὑποκάτω τῆς γῆς, καὶ ἐπὶ τῆς θαλάσσης ἐστίν,<sup>ai</sup> καὶ τὰ ἐν αὐτοῖς, πάντας<sup>aj</sup> ἤκουσα λέγοντας, Τῷ καθημένῳ ἐπὶ τοῦ<sup>ak</sup> θρόνου καὶ τῷ ἀρνίῳ ἡ εὐλογία καὶ ἡ τιμὴ καὶ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.<sup>al</sup>
 <sup>14</sup> Καὶ τὰ τέσσαρα<sup>am</sup> ζῷα λέγοντα<sup>an</sup> τὸ Ἀμήν. Καὶ οἱ πρεσβύτεροι<sup>ao</sup> ἔπεσον,<sup>ap</sup> καὶ προσεκύνησαν.<sup>aq</sup>
 
-> - <sup>a</sup> 1. εξωθεν ¦ NA SBL TH TR WH οπισθεν
-> - <sup>b</sup> 2. εν ¦ PCK TR _om._
-> - <sup>c</sup> 2. αξιος εστιν ¦ TR εστιν αξιος ¦ CT PCK αξιος
-> - <sup>d</sup> 3. εδυνατο ¦ ECM TR ηδυνατο
-> - <sup>e</sup> 3. ανω ¦ CT PCK PT RP<sup>mg</sup> TR _om._
-> - <sup>f</sup> 3. ουτε … ουτε … ουτε ¦ CT ουδε … ουδε … ουτε ¦ PCK RP<sup>mg</sup> TR ουδε … ουδε … ουδε
-> - <sup>g</sup> 4. εγω ¦ [WH] ¦ ECM NA TH _om._
-> - <sup>h</sup> 4. πολυ ¦ TR πολλα
-> - <sup>i</sup> 4. ανοιξαι ¦ PCK TR ανοιξαι και αναγνωναι
-> - <sup>j</sup> 5. ο ¦ TR ο ων
-> - <sup>k</sup> 5. δαυιδ ¦ WH δαυειδ ¦ HF TR δαβιδ
-> - <sup>l</sup> 5. ο ανοιγων ¦ CT PCK PT RP<sup>mg</sup> TR ανοιξαι
-> - <sup>m</sup> 5. και ¦ TR και λυσαι
-> - <sup>n</sup> 6. ειδον ¦ TR ειδον και ιδου
-> - <sup>o</sup> 6. εχον ¦ NA SBL TH WH εχων
-> - <sup>p</sup> 6. α ¦ CT TR οι
-> - <sup>q</sup> 6. επτα ¦ ECM<sup>†</sup> _txt_ ¦ [NA WH] ¦ ECM<sup>†</sup> _om._
-> - <sup>r</sup> 6. πνευματα του θεου ¦ TR του θεου πνευματα
-> - <sup>s</sup> 6. αποστελλομενα ¦ NA SBL TH WH απεσταλμενοι ¦ TR τα απεσταλμενα
-> - <sup>t</sup> 7. ειληφεν ¦ TR ειληφε(ν) το βιβλιον
-> - <sup>u</sup> 8. τεσσαρα ¦ WH τεσσερα
-> - <sup>v</sup> 8. επεσον ¦ CT PT επεσαν
-> - <sup>w</sup> 8. κιθαραν ¦ PCK RP<sup>mg</sup> TR κιθαρας
-> - <sup>x</sup> 8. προσευχαι ¦ CT PCK PT RP<sup>mg</sup> TR αι προσευχαι
-> - <sup>y</sup> 9. ημας ¦ NA SBL WH _om._
-> - <sup>z</sup> 10. αυτους ¦ TR ημας
-> - <sup>aa</sup> 10. βασιλεις ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> βασιλειαν
-> - <sup>ab</sup> 10. βασιλευσουσιν ¦ RP<sup>mg</sup> SBL WH βασιλευουσιν ¦ TR βασιλευσομεν
-> - <sup>ac</sup> 11. ως ¦ ECM<sup>†</sup> _txt_ ¦ [PT] ¦ CT<sup>†</sup> TR _om._
-> - <sup>ad</sup> 11. κυκλω ¦ TR κυκλοθεν
-> - <sup>ae</sup> 11. και ην ο αριθμος αυτων μυριαδες μυριαδων ¦ ST _om._
-> - <sup>af</sup> 12. τον ¦ [PT] ¦ CT PCK RP<sup>mg</sup> TR _om._
-> - <sup>ag</sup> 13. ο ¦ PCK RP<sup>mg</sup> TR ο εστιν
-> - <sup>ah</sup> 13. επι της γης ¦ TR εν τη γη
-> - <sup>ai</sup> 13. εστιν ¦ ECM<sup>†</sup> _txt_ ¦ [WH] ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR α εστι(ν) ¦ NA SBL _om._
-> - <sup>aj</sup> 13. παντας ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT TR παντα
-> - <sup>ak</sup> 13. του θρονου ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF NA SBL TH τω θρονω
-> - <sup>al</sup> 13. αμην ¦ CT PT TR _om._
-> - <sup>am</sup> 14. τεσσαρα ¦ WH τεσσερα
-> - <sup>an</sup> 14. λεγοντα το ¦ RP<sup>mg</sup> ελεγον το ¦ CT PT TR ελεγον
-> - <sup>ao</sup> 14. πρεσβυτεροι ¦ TR εικοσιτεσσαρες πρεσβυτεροι
-> - <sup>ap</sup> 14. επεσον ¦ CT PT TR επεσαν
-> - <sup>aq</sup> 14. προσεκυνησαν ¦ TR προσεκυνησαν ζωντι εις τους αιωνας των αιωνων
+> - <sup>a</sup> 1. ἔξωθεν ¦ NA SBL TH TR WH ὄπισθεν
+> - <sup>b</sup> 2. ἐν ¦ PCK TR _om._
+> - <sup>c</sup> 2. ἄξιός ἐστιν ¦ TR ἐστιν ἄξιος ¦ CT PCK ἄξιος
+> - <sup>d</sup> 3. ἐδύνατο ¦ ECM TR ἠδύνατο
+> - <sup>e</sup> 3. ἄνω ¦ CT PCK PT RP<sup>mg</sup> TR _om._
+> - <sup>f</sup> 3. οὔτε … οὔτε … οὔτε ¦ CT οὐδὲ … οὐδὲ … οὔτε ¦ PCK RP<sup>mg</sup> TR οὐδὲ … οὐδὲ … οὐδὲ
+> - <sup>g</sup> 4. ἐγὼ ¦ [WH] ¦ ECM NA TH _om._
+> - <sup>h</sup> 4. πολύ ¦ TR πολλά
+> - <sup>i</sup> 4. ἀνοῖξαι ¦ PCK TR ἀνοῖξαι καὶ ἀναγνῶναι
+> - <sup>j</sup> 5. ὁ ¦ TR ὁ ὧν
+> - <sup>k</sup> 5. Δαυίδ ¦ WH Δαυείδ ¦ HF TR Δαβίδ
+> - <sup>l</sup> 5. ὁ ἀνοίγων ¦ CT PCK PT RP<sup>mg</sup> TR ἀνοῖξαι
+> - <sup>m</sup> 5. καὶ ¦ TR καὶ λῦσαι
+> - <sup>n</sup> 6. εἶδον ¦ TR εἶδον καὶ ἰδοὺ
+> - <sup>o</sup> 6. ἔχον ¦ NA SBL TH WH ἔχων
+> - <sup>p</sup> 6. ἃ ¦ CT TR οἳ
+> - <sup>q</sup> 6. ἑπτὰ ¦ ECM<sup>†</sup> _txt_ ¦ [NA WH] ¦ ECM<sup>†</sup> _om._
+> - <sup>r</sup> 6. πνεύματα τοῦ θεοῦ ¦ TR τοῦ θεοῦ πνεύματα
+> - <sup>s</sup> 6. ἀποστελλόμενα ¦ NA SBL TH WH ἀπεσταλμένοι ¦ TR τὰ ἀπεσταλμένα
+> - <sup>t</sup> 7. εἴληφεν ¦ TR ειληφε(ν) τὸ βιβλίον
+> - <sup>u</sup> 8. τέσσαρα ¦ WH τέσσερα
+> - <sup>v</sup> 8. ἔπεσον ¦ CT PT ἔπεσαν
+> - <sup>w</sup> 8. κιθάραν ¦ PCK RP<sup>mg</sup> TR κιθάρας
+> - <sup>x</sup> 8. προσευχαὶ ¦ CT PCK PT RP<sup>mg</sup> TR αἱ προσευχαὶ
+> - <sup>y</sup> 9. ἡμᾶς ¦ NA SBL WH _om._
+> - <sup>z</sup> 10. αὐτοὺς ¦ TR ἡμᾶς
+> - <sup>aa</sup> 10. βασιλεῖς ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> βασιλείαν
+> - <sup>ab</sup> 10. βασιλεύσουσιν ¦ RP<sup>mg</sup> SBL WH βασιλεύουσιν ¦ TR βασιλεύσομεν
+> - <sup>ac</sup> 11. ὡς ¦ ECM<sup>†</sup> _txt_ ¦ [PT] ¦ CT<sup>†</sup> TR _om._
+> - <sup>ad</sup> 11. κύκλῳ ¦ TR κυκλόθεν
+> - <sup>ae</sup> 11. καὶ ἦν ὁ ἀριθμὸς αὐτῶν μυριάδες μυριάδων ¦ ST _om._
+> - <sup>af</sup> 12. τὸν ¦ [PT] ¦ CT PCK RP<sup>mg</sup> TR _om._
+> - <sup>ag</sup> 13. ὃ ¦ PCK RP<sup>mg</sup> TR ὅ ἐστιν
+> - <sup>ah</sup> 13. ἐπὶ τῆς γῆς ¦ TR ἐν τῇ γῆ
+> - <sup>ai</sup> 13. ἐστίν ¦ ECM<sup>†</sup> _txt_ ¦ [WH] ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR ἅ εστι(ν) ¦ NA SBL _om._
+> - <sup>aj</sup> 13. πάντας ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT TR πάντα
+> - <sup>ak</sup> 13. τοῦ θρόνου ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF NA SBL TH τῷ θρόνῳ
+> - <sup>al</sup> 13. Ἀμήν ¦ CT PT TR _om._
+> - <sup>am</sup> 14. τέσσαρα ¦ WH τέσσερα
+> - <sup>an</sup> 14. λέγοντα τὸ ¦ RP<sup>mg</sup> ἔλεγον τὸ ¦ CT PT TR ἔλεγον
+> - <sup>ao</sup> 14. πρεσβύτεροι ¦ TR εἰκοσιτέσσαρες πρεσβύτεροι
+> - <sup>ap</sup> 14. ἔπεσον ¦ CT PT TR ἔπεσαν
+> - <sup>aq</sup> 14. προσεκύνησαν ¦ TR προσεκύνησαν ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων
 
 ## Chapter 6
 
@@ -381,61 +381,61 @@
 <sup>16</sup> καὶ λέγουσιν τοῖς ὄρεσιν καὶ ταῖς πέτραις, Πέσετε<sup>ba</sup> ἐφ’ ἡμᾶς, καὶ κρύψατε ἡμᾶς ἀπὸ προσώπου τοῦ καθημένου ἐπὶ τοῦ<sup>bb</sup> θρόνου, καὶ ἀπὸ τῆς ὀργῆς τοῦ ἀρνίου·
 <sup>17</sup> ὅτι ἦλθεν ἡ ἡμέρα ἡ μεγάλη τῆς ὀργῆς αὐτοῦ,<sup>bc</sup> καὶ τίς δύναται σταθῆναι;
 
-> - <sup>a</sup> 1. οτι ¦ CT TR οτε
-> - <sup>b</sup> 1. επτα ¦ TR _om._
-> - <sup>c</sup> 1. φωνη ¦ TR φωνης
-> - <sup>d</sup> 1. ιδε ¦ CT PCK PT RP<sup>mg</sup> ειδον ¦ TR βλεπε και ειδον
-> - <sup>e</sup> 2. αυτον ¦ TR αυτω
-> - <sup>f</sup> 3. δευτεραν σφραγιδα ¦ CT PT σφραγιδα την δευτεραν
-> - <sup>g</sup> 3. ερχου ¦ TR ερχου και βλεπε
-> - <sup>h</sup> 4. πυρος ¦ CT PCK PT RP<sup>mg</sup> TR πυρρος
-> - <sup>i</sup> 4. αυτον ¦ TR αυτω
-> - <sup>j</sup> 4. αυτω ¦ [WH]
-> - <sup>k</sup> 4. εκ ¦ [WH] ¦ TR απο
-> - <sup>l</sup> 4. ινα ¦ CT PT TR και ινα
-> - <sup>m</sup> 4. σφαξωσιν ¦ NA SBL TH WH σφαξουσιν
-> - <sup>n</sup> 5. σφραγιδα την τριτην ¦ TR τριτην σφραγιδα
-> - <sup>o</sup> 5. ιδε ¦ CT PCK PT RP<sup>mg</sup> ειδον ¦ TR βλεπε και ειδον
-> - <sup>p</sup> 5. αυτον ¦ TR αυτω
-> - <sup>q</sup> 6. φωνην ¦ CT ως φωνην ¦ PT [ως] φωνην
-> - <sup>r</sup> 6. κριθης ¦ CT κριθων
-> - <sup>s</sup> 7. ηκουσα ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK TR ηκουσα φωνην ¦ PT ηκουσα [φωνην]
-> - <sup>t</sup> 7. λεγοντος ¦ TR λεγουσαν
-> - <sup>u</sup> 7. ιδε ¦ ECM ιδον ¦ NA PCK PT RP<sup>mg</sup> SBL TH WH ειδον ¦ TR βλεπε και ειδον
-> - <sup>v</sup> 8. αυτου ¦ ECM<sup>†</sup> _txt_ ¦ [WH] ¦ ECM<sup>†</sup> _om._
-> - <sup>w</sup> 8. ο ¦ [NA WH] ¦ PCK _om._
-> - <sup>x</sup> 8. ηκολουθει αυτω ¦ CT PT RP<sup>mg</sup> ηκολουθει μετ αυτου ¦ PCK TR ακολουθει μετ αυτου
-> - <sup>y</sup> 8. αυτω ¦ CT TR αυτοις
-> - <sup>z</sup> 8. επι το τεταρτον της γης αποκτειναι ¦ TR αποκτειναι επι το τεταρτον της γης
-> - <sup>aa</sup> 9. των ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> των ανθρωπων των
-> - <sup>ab</sup> 9. του αρνιου ¦ CT TR _om._
-> - <sup>ac</sup> 10. εκραξαν ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> RP<sup>mg</sup> TR εκραζον
-> - <sup>ad</sup> 10. φωνη μεγαλη ¦ HF RP<sup>mg</sup> φωνην μεγαλην
-> - <sup>ae</sup> 10. αληθινος ¦ PT TR ο αληθινος
-> - <sup>af</sup> 10. εκ ¦ TR απο
-> - <sup>ag</sup> 11. εδοθη αυτοις εκαστω ¦ PT εδοθη αυτοις [εκαστω] ¦ HF RP<sup>mg</sup> εδοθη αυτοις ¦ TR εδοθησαν εκαστοις
-> - <sup>ah</sup> 11. στολη λευκη ¦ TR στολαι λευκαι
-> - <sup>ai</sup> 11. αναπαυσωνται ¦ NA SBL TH WH αναπαυσονται
-> - <sup>aj</sup> 11. ετι χρονον ¦ CT<sup>†</sup> TR ετι χρονον μικρον ¦ PT ετι χρονον [μικρον] ¦ ECM<sup>†</sup> χρονον ετι μικρον
-> - <sup>ak</sup> 11. εως ¦ PCK RP<sup>mg</sup> TR εως ου
-> - <sup>al</sup> 11. πληρωσωσιν ¦ NA SBL WH πληρωθωσιν ¦ TR πληρωσονται
-> - <sup>am</sup> 11. και ¦ CT PCK PT RP<sup>mg</sup> TR _om._
-> - <sup>an</sup> 11. αποκτενεσθαι ¦ CT PT αποκτεννεσθαι ¦ TR αποκτεινεσθαι
-> - <sup>ao</sup> 12. οτε ¦ PCK και οτε
-> - <sup>ap</sup> 12. και ¦ TR και ιδου
-> - <sup>aq</sup> 12. μελας εγενετο ¦ CT TR εγενετο μελας
-> - <sup>ar</sup> 12. ολη ¦ PCK RP<sup>mg</sup> TR _om._
-> - <sup>as</sup> 13. επεσον ¦ CT PT TR επεσαν
-> - <sup>at</sup> 13. βαλουσα ¦ PT βαλλουσα ¦ CT PCK RP<sup>mg</sup> TR βαλλει
-> - <sup>au</sup> 13. ανεμου μεγαλου ¦ PCK TR μεγαλου ανεμου
-> - <sup>av</sup> 14. ο ¦ TR _om._
-> - <sup>aw</sup> 14. ελισσομενον ¦ HF RP<sup>mg</sup> ελισσομενος ¦ TR ειλισσομενον
-> - <sup>ax</sup> 15. χιλιαρχοι και οι πλουσιοι ¦ TR πλουσιοι και οι χιλιαρχοι
-> - <sup>ay</sup> 15. ισχυροι ¦ TR δυνατοι
-> - <sup>az</sup> 15. και ¦ PCK RP<sup>mg</sup> TR και πας
-> - <sup>ba</sup> 16. πεσετε ¦ PT WH πεσατε
-> - <sup>bb</sup> 16. του θρονου ¦ HF RP<sup>mg</sup> τω θρονω
-> - <sup>bc</sup> 17. αυτου ¦ NA SBL TH WH αυτων
+> - <sup>a</sup> 1. ὅτι ¦ CT TR ὅτε
+> - <sup>b</sup> 1. ἑπτὰ ¦ TR _om._
+> - <sup>c</sup> 1. φωνὴ ¦ TR φωνῆς
+> - <sup>d</sup> 1. ἴδε ¦ CT PCK PT RP<sup>mg</sup> εἶδον ¦ TR Βλέπε καὶ εἶδον
+> - <sup>e</sup> 2. αὐτὸν ¦ TR αὐτῷ
+> - <sup>f</sup> 3. δευτέραν σφραγῖδα ¦ CT PT σφραγῖδα τὴν δευτέραν
+> - <sup>g</sup> 3. Ἔρχου ¦ TR Ἔρχου καὶ Βλέπε
+> - <sup>h</sup> 4. πυρός ¦ CT PCK PT RP<sup>mg</sup> TR πυρρός
+> - <sup>i</sup> 4. αὐτὸν ¦ TR αὐτῷ
+> - <sup>j</sup> 4. αὐτῷ ¦ [WH]
+> - <sup>k</sup> 4. ἐκ ¦ [WH] ¦ TR ἀπὸ
+> - <sup>l</sup> 4. ἵνα ¦ CT PT TR καὶ ἵνα
+> - <sup>m</sup> 4. σφάξωσιν ¦ NA SBL TH WH σφάξουσιν
+> - <sup>n</sup> 5. σφραγῖδα τὴν τρίτην ¦ TR τρίτην σφραγῖδα
+> - <sup>o</sup> 5. ἴδε ¦ CT PCK PT RP<sup>mg</sup> εἶδον ¦ TR Βλέπε καὶ εἶδον
+> - <sup>p</sup> 5. αὐτὸν ¦ TR αὐτῷ
+> - <sup>q</sup> 6. φωνὴν ¦ CT ὡς φωνὴν ¦ PT [ὡς] φωνὴν
+> - <sup>r</sup> 6. κριθῆς ¦ CT κριθῶν
+> - <sup>s</sup> 7. ἤκουσα ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK TR ἤκουσα φωνὴν ¦ PT ἤκουσα [φωνὴν]
+> - <sup>t</sup> 7. λέγοντος ¦ TR λέγουσαν
+> - <sup>u</sup> 7. ἴδε ¦ ECM ἴδον ¦ NA PCK PT RP<sup>mg</sup> SBL TH WH εἶδον ¦ TR Βλέπε καὶ εἶδον
+> - <sup>v</sup> 8. αὐτοῦ ¦ ECM<sup>†</sup> _txt_ ¦ [WH] ¦ ECM<sup>†</sup> _om._
+> - <sup>w</sup> 8. ὁ ¦ [NA WH] ¦ PCK _om._
+> - <sup>x</sup> 8. ἠκολούθει αὐτῷ ¦ CT PT RP<sup>mg</sup> ἠκολούθει μετ αὐτοῦ ¦ PCK TR ἀκολούθει μετ αὐτοῦ
+> - <sup>y</sup> 8. αὐτῷ ¦ CT TR αὐτοῖς
+> - <sup>z</sup> 8. ἐπὶ τὸ τέταρτον τῆς γῆς ἀποκτεῖναι ¦ TR ἀποκτεῖναι ἐπὶ τὸ τέταρτον τῆς γῆς
+> - <sup>aa</sup> 9. τῶν ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> τῶν ἀνθρώπων τῶν
+> - <sup>ab</sup> 9. τοῦ ἀρνίου ¦ CT TR _om._
+> - <sup>ac</sup> 10. ἔκραξαν ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> RP<sup>mg</sup> TR ἔκραζον
+> - <sup>ad</sup> 10. φωνῇ μεγάλῃ ¦ HF RP<sup>mg</sup> φωνὴν μεγάλην
+> - <sup>ae</sup> 10. ἀληθινός ¦ PT TR ὁ ἀληθινός
+> - <sup>af</sup> 10. ἐκ ¦ TR ἀπὸ
+> - <sup>ag</sup> 11. ἐδόθη αὐτοῖς ἑκάστῳ ¦ PT ἐδόθη αὐτοῖς [ἑκάστῳ] ¦ HF RP<sup>mg</sup> ἐδόθη αὐτοῖς ¦ TR ἐδόθησαν ἑκάστοις
+> - <sup>ah</sup> 11. στολὴ λευκή ¦ TR στολαί λευκαί
+> - <sup>ai</sup> 11. ἀναπαύσωνται ¦ NA SBL TH WH ἀναπαύσονται
+> - <sup>aj</sup> 11. ἔτι χρόνον ¦ CT<sup>†</sup> TR ἔτι χρόνον μικρόν ¦ PT ἔτι χρόνον [μικρόν] ¦ ECM<sup>†</sup> χρόνον ἔτι μικρόν
+> - <sup>ak</sup> 11. ἕως ¦ PCK RP<sup>mg</sup> TR ἕως οὗ
+> - <sup>al</sup> 11. πληρώσωσιν ¦ NA SBL WH πληρωθῶσιν ¦ TR πληρώσονται
+> - <sup>am</sup> 11. καὶ ¦ CT PCK PT RP<sup>mg</sup> TR _om._
+> - <sup>an</sup> 11. ἀποκτένεσθαι ¦ CT PT ἀποκτέννεσθαι ¦ TR ἀποκτείνεσθαι
+> - <sup>ao</sup> 12. ὅτε ¦ PCK καὶ ὅτε
+> - <sup>ap</sup> 12. καὶ ¦ TR καὶ ἰδοὺ
+> - <sup>aq</sup> 12. μέλας ἐγένετο ¦ CT TR ἐγένετο μέλας
+> - <sup>ar</sup> 12. ὅλη ¦ PCK RP<sup>mg</sup> TR _om._
+> - <sup>as</sup> 13. ἔπεσον ¦ CT PT TR ἔπεσαν
+> - <sup>at</sup> 13. βαλοῦσα ¦ PT βαλλοῦσα ¦ CT PCK RP<sup>mg</sup> TR βάλλει
+> - <sup>au</sup> 13. ἀνέμου μεγάλου ¦ PCK TR μεγάλου ἀνέμου
+> - <sup>av</sup> 14. ὁ ¦ TR _om._
+> - <sup>aw</sup> 14. ἑλισσόμενον ¦ HF RP<sup>mg</sup> ἑλισσόμενος ¦ TR εἰλισσόμενον
+> - <sup>ax</sup> 15. χιλίαρχοι καὶ οἱ πλούσιοι ¦ TR πλούσιοι καὶ οἱ χιλίαρχοι
+> - <sup>ay</sup> 15. ἰσχυροί ¦ TR δυνατοί
+> - <sup>az</sup> 15. καὶ ¦ PCK RP<sup>mg</sup> TR καὶ πᾶς
+> - <sup>ba</sup> 16. Πέσετε ¦ PT WH Πέσατε
+> - <sup>bb</sup> 16. τοῦ θρόνου ¦ HF RP<sup>mg</sup> τῷ θρόνῳ
+> - <sup>bc</sup> 17. αὐτοῦ ¦ NA SBL TH WH αὐτῶν
 
 ## Chapter 7
 
@@ -477,44 +477,44 @@
 <sup>16</sup> Οὐ πεινάσουσιν ἔτι, οὐδὲ διψήσουσιν ἔτι, οὐδ’<sup>ah</sup> οὐ μὴ πέσῃ ἐπ’ αὐτοὺς ὁ ἥλιος, οὐδὲ πᾶν καῦμα·
 <sup>17</sup> ὅτι τὸ ἀρνίον τὸ ἀνὰ μέσον τοῦ θρόνου ποιμαίνει<sup>ai</sup> αὐτούς, καὶ ὁδηγεῖ<sup>aj</sup> αὐτοὺς ἐπὶ ζωῆς<sup>ak</sup> πηγὰς ὑδάτων, καὶ ἐξαλείψει ὁ θεὸς πᾶν δάκρυον ἐκ<sup>al</sup> τῶν ὀφθαλμῶν αὐτῶν.
 
-> - <sup>a</sup> 1. και ¦ NA SBL TH WH _om._
-> - <sup>b</sup> 1. τουτο ¦ TR ταυτα
-> - <sup>c</sup> 1. τι ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK PT RP<sup>mg</sup> TR παν
-> - <sup>d</sup> 2. αναβαινοντα ¦ ST αναβαντα
-> - <sup>e</sup> 3. ου ¦ CT _om._
-> - <sup>f</sup> 3. σφραγισωμεν ¦ ST σφραγιζωμεν
-> - <sup>g</sup> 4. εκατον και τεσσαρακοντα τεσσαρες ¦ PT εκατον τεσσαρακοντα τεσσαρες ¦ NA SBL TH WH εκατον τεσσερακοντα τεσσαρες ¦ ECM TR ρμδʹ
-> - <sup>h</sup> 4. εσφραγισμενων ¦ CT PCK PT RP<sup>mg</sup> TR εσφραγισμενοι
-> - <sup>i</sup> 5. εσφραγισμεναι ¦ CT PCK PT RP<sup>mg</sup> TR εσφραγισμενοι
-> - <sup>j</sup> 5. ρουβιμ ¦ CT PT TR ρουβην
-> - <sup>k</sup> 5. χιλιαδες ¦ TR χιλιαδες εσφραγισμενοι
-> - <sup>l</sup> 6. νεφθαλειμ ¦ CT νεφθαλιμ
-> - <sup>m</sup> 7. λευι ¦ WH λευει
-> - <sup>n</sup> 7. ισαχαρ ¦ NA PT SBL TH WH ισσαχαρ
-> - <sup>o</sup> 8. βενιαμιν ¦ TH WH βενιαμειν
-> - <sup>p</sup> 8. εσφραγισμεναι ¦ CT PCK PT RP<sup>mg</sup> TR εσφραγισμενοι
-> - <sup>q</sup> 9. ειδον ¦ ECM ιδον
-> - <sup>r</sup> 9. αριθμησαι ¦ CT PT TR αριθμησαι αυτον
-> - <sup>s</sup> 9. εδυνατο ¦ RP<sup>mg</sup> TR ηδυνατο
-> - <sup>t</sup> 9. εστωτας ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK RP<sup>mg</sup> TR εστωτες
-> - <sup>u</sup> 9. περιβεβλημενους ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR περιβεβλημενοι
-> - <sup>v</sup> 9. φοινικας ¦ CT PT TR φοινικες
-> - <sup>w</sup> 10. κραζουσιν ¦ TR κραζοντες
-> - <sup>x</sup> 10. τω θεω ημων τω καθημενω επι τω θρονω ¦ PT SCR τω θεω ημων τω καθημενω επι του θρονου ¦ ST τω καθημενω επι του θρονου του θεου ημων
-> - <sup>y</sup> 11. ειστηκεισαν ¦ TH WH ιστηκεισαν ¦ TR εστηκεσαν
-> - <sup>z</sup> 11. επεσον ¦ CT PT επεσαν
-> - <sup>aa</sup> 11. θρονου ¦ HF RP<sup>mg</sup> θρονου αυτου
-> - <sup>ab</sup> 11. τα προσωπα ¦ TR προσωπον
-> - <sup>ac</sup> 12. αμην ¦ [WH]
-> - <sup>ad</sup> 14. ειπον ¦ CT PT TR ειρηκα
+> - <sup>a</sup> 1. Καὶ ¦ NA SBL TH WH _om._
+> - <sup>b</sup> 1. τοῦτο ¦ TR ταῦτα
+> - <sup>c</sup> 1. τι ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK PT RP<sup>mg</sup> TR πᾶν
+> - <sup>d</sup> 2. ἀναβαίνοντα ¦ ST ἀναβάντα
+> - <sup>e</sup> 3. οὗ ¦ CT _om._
+> - <sup>f</sup> 3. σφραγίσωμεν ¦ ST σφραγίζωμεν
+> - <sup>g</sup> 4. ἑκατὸν καὶ τεσσαράκοντα τέσσαρες ¦ PT ἑκατὸν τεσσαράκοντα τέσσαρες ¦ NA SBL TH WH ἑκατὸν τεσσεράκοντα τέσσαρες ¦ ECM TR ρμδʹ
+> - <sup>h</sup> 4. ἐσφραγισμένων ¦ CT PCK PT RP<sup>mg</sup> TR ἐσφραγισμένοι
+> - <sup>i</sup> 5. ἐσφραγισμέναι ¦ CT PCK PT RP<sup>mg</sup> TR ἐσφραγισμένοι
+> - <sup>j</sup> 5. Ῥουβίμ ¦ CT PT TR Ῥουβήν
+> - <sup>k</sup> 5. χιλιάδες ¦ TR χιλιάδες ἐσφραγισμένοι
+> - <sup>l</sup> 6. Νεφθαλείμ ¦ CT Νεφθαλίμ
+> - <sup>m</sup> 7. Λευΐ ¦ WH Λευεί
+> - <sup>n</sup> 7. Ἰσαχάρ ¦ NA PT SBL TH WH Ἰσσαχάρ
+> - <sup>o</sup> 8. Βενιαμίν ¦ TH WH Βενιαμείν
+> - <sup>p</sup> 8. ἐσφραγισμέναι ¦ CT PCK PT RP<sup>mg</sup> TR ἐσφραγισμένοι
+> - <sup>q</sup> 9. εἶδον ¦ ECM ἴδον
+> - <sup>r</sup> 9. ἀριθμῆσαι ¦ CT PT TR ἀριθμῆσαι αὐτὸν
+> - <sup>s</sup> 9. ἐδύνατο ¦ RP<sup>mg</sup> TR ἠδύνατο
+> - <sup>t</sup> 9. ἑστῶτας ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK RP<sup>mg</sup> TR ἑστῶτες
+> - <sup>u</sup> 9. περιβεβλημένους ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR περιβεβλημένοι
+> - <sup>v</sup> 9. φοίνικας ¦ CT PT TR φοίνικες
+> - <sup>w</sup> 10. κράζουσιν ¦ TR κράζοντες
+> - <sup>x</sup> 10. τῷ θεῷ ἡμῶν τῷ καθημένῳ ἐπὶ τῷ θρόνῳ ¦ PT SCR τῷ θεῷ ἡμῶν τῷ καθημένῳ ἐπὶ τοῦ θρόνου ¦ ST τῷ καθημένῳ ἐπὶ τοῦ θρόνου τοῦ θεοῦ ἡμῶν
+> - <sup>y</sup> 11. εἱστήκεισαν ¦ TH WH ἱστήκεισαν ¦ TR ἑστήκεσαν
+> - <sup>z</sup> 11. ἔπεσον ¦ CT PT ἔπεσαν
+> - <sup>aa</sup> 11. θρόνου ¦ HF RP<sup>mg</sup> θρόνου αὐτοῦ
+> - <sup>ab</sup> 11. τὰ πρόσωπα ¦ TR πρόσωπον
+> - <sup>ac</sup> 12. Ἀμήν ¦ [WH]
+> - <sup>ad</sup> 14. εἶπον ¦ CT PT TR εἴρηκα
 > - <sup>ae</sup> 14. μου ¦ TR _om._
-> - <sup>af</sup> 14. ελευκαναν ¦ CT PCK PT RP<sup>mg</sup> SCR ελευκαναν αυτας ¦ ST ελευκαναν στολας αυτων
-> - <sup>ag</sup> 15. τω θρονω ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT RP<sup>mg</sup> TR του θρονου
-> - <sup>ah</sup> 16. ουδ ου ¦ CT TR ουδε
-> - <sup>ai</sup> 17. ποιμαινει ¦ CT RP<sup>mg</sup> TR ποιμανει
-> - <sup>aj</sup> 17. οδηγει ¦ CT PT RP<sup>mg</sup> TR οδηγησει
-> - <sup>ak</sup> 17. ζωης ¦ TR ζωσας
-> - <sup>al</sup> 17. εκ ¦ TR απο
+> - <sup>af</sup> 14. ἐλεύκαναν ¦ CT PCK PT RP<sup>mg</sup> SCR ἐλεύκαναν αὐτὰς ¦ ST ἐλεύκαναν στολὰς αὐτῶν
+> - <sup>ag</sup> 15. τῷ θρόνῳ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT RP<sup>mg</sup> TR τοῦ θρόνου
+> - <sup>ah</sup> 16. οὐδ οὐ ¦ CT TR οὐδὲ
+> - <sup>ai</sup> 17. ποιμαίνει ¦ CT RP<sup>mg</sup> TR ποιμανεῖ
+> - <sup>aj</sup> 17. ὁδηγεῖ ¦ CT PT RP<sup>mg</sup> TR ὁδηγήσει
+> - <sup>ak</sup> 17. ζωῆς ¦ TR ζώσας
+> - <sup>al</sup> 17. ἐκ ¦ TR ἀπὸ
 
 ## Chapter 8
 
@@ -539,31 +539,31 @@
 
 <sup>13</sup> Καὶ εἶδον, καὶ ἤκουσα ἑνὸς ἀετοῦ<sup>w</sup> πετομένου ἐν μεσουρανήματι, λέγοντος φωνῇ μεγάλῃ,<sup>x</sup> Οὐαί, οὐαί, οὐαὶ τοῖς<sup>y</sup> κατοικοῦσιν ἐπὶ τῆς γῆς, ἐκ τῶν λοιπῶν φωνῶν τῆς σάλπιγγος τῶν τριῶν ἀγγέλων τῶν μελλόντων σαλπίζειν.
 
-> - <sup>a</sup> 1. οτε ¦ NA SBL TH WH οταν
-> - <sup>b</sup> 1. ημιωριον ¦ TH WH ημιωρον
-> - <sup>c</sup> 2. ειδον ¦ ECM ιδον
-> - <sup>d</sup> 3. του θυσιαστηριου ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> TR το θυσιαστηριον
-> - <sup>e</sup> 3. δωση ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF PCK PT RP<sup>mg</sup> δωσει
-> - <sup>f</sup> 5. τον … αυτον ¦ TR το … αυτο
-> - <sup>g</sup> 5. βρονται και φωναι ¦ PCK RP<sup>mg</sup> TR φωναι και βρονται
-> - <sup>h</sup> 6. οι ¦ ST _om._
-> - <sup>i</sup> 6. εαυτους ¦ NA TH αυτους ¦ SBL WH αὑτούς
-> - <sup>j</sup> 7. πρωτος ¦ TR πρωτος αγγελος
-> - <sup>k</sup> 7. μεμιγμενα ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> μεμιγμενον
-> - <sup>l</sup> 7. εν ¦ TR _om._
-> - <sup>m</sup> 7. και το τριτον της γης κατεκαη ¦ TR _om._
-> - <sup>n</sup> 8. καιομενον ¦ CT TR πυρι καιομενον ¦ PT [πυρι] καιομενον
-> - <sup>o</sup> 9. εν ¦ CT PT TR των εν
-> - <sup>p</sup> 9. διεφθαρη ¦ CT PCK διεφθαρησαν
-> - <sup>q</sup> 10. των ¦ TR _om._
-> - <sup>r</sup> 11. ο ¦ TR _om._
-> - <sup>s</sup> 11. εγενετο ¦ TR γινεται
-> - <sup>t</sup> 11. των υδατων ¦ ST _om._
-> - <sup>u</sup> 11. των ¦ TR _om._
-> - <sup>v</sup> 12. το τριτον αυτης μη φανη η ημερα ¦ CT η ημερα μη φανη το τριτον αυτης ¦ PCK RP<sup>mg</sup> TR η ημερα μη φαινη το τριτον αυτης
-> - <sup>w</sup> 13. αετου πετομενου ¦ TR αγγελου πετωμενου
-> - <sup>x</sup> 13. μεγαλη ¦ PCK μεγαλη τρις
-> - <sup>y</sup> 13. τοις κατοικουσιν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF PT RP<sup>mg</sup> τους κατοικουντας
+> - <sup>a</sup> 1. ὅτε ¦ NA SBL TH WH ὅταν
+> - <sup>b</sup> 1. ἡμιώριον ¦ TH WH ἡμίωρον
+> - <sup>c</sup> 2. εἶδον ¦ ECM ἴδον
+> - <sup>d</sup> 3. τοῦ θυσιαστηρίου ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> TR τὸ θυσιαστήριον
+> - <sup>e</sup> 3. δώσῃ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF PCK PT RP<sup>mg</sup> δώσει
+> - <sup>f</sup> 5. τὸν … αὐτὸν ¦ TR τὸ … αὐτὸ
+> - <sup>g</sup> 5. βρονταὶ καὶ φωναὶ ¦ PCK RP<sup>mg</sup> TR φωναὶ καὶ βρονταὶ
+> - <sup>h</sup> 6. οἱ ¦ ST _om._
+> - <sup>i</sup> 6. ἑαυτοὺς ¦ NA TH αὐτοὺς ¦ SBL WH αὑτούς
+> - <sup>j</sup> 7. πρῶτος ¦ TR πρῶτος ἄγγελος
+> - <sup>k</sup> 7. μεμιγμένα ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> μεμιγμένον
+> - <sup>l</sup> 7. ἐν ¦ TR _om._
+> - <sup>m</sup> 7. καὶ τὸ τρίτον τῆς γῆς κατεκάη ¦ TR _om._
+> - <sup>n</sup> 8. καιόμενον ¦ CT TR πυρὶ καιόμενον ¦ PT [πυρὶ] καιόμενον
+> - <sup>o</sup> 9. ἐν ¦ CT PT TR τῶν ἐν
+> - <sup>p</sup> 9. διεφθάρη ¦ CT PCK διεφθάρησαν
+> - <sup>q</sup> 10. τῶν ¦ TR _om._
+> - <sup>r</sup> 11. ὁ ¦ TR _om._
+> - <sup>s</sup> 11. ἐγένετο ¦ TR γίνεται
+> - <sup>t</sup> 11. τῶν ὑδάτων ¦ ST _om._
+> - <sup>u</sup> 11. τῶν ¦ TR _om._
+> - <sup>v</sup> 12. τὸ τρίτον αὐτῆς μὴ φάνῃ ἡ ἡμέρα ¦ CT ἡ ἡμέρα μὴ φάνῃ τὸ τρίτον αὐτῆς ¦ PCK RP<sup>mg</sup> TR ἡ ἡμέρα μὴ φαίνῃ τὸ τρίτον αὐτῆς
+> - <sup>w</sup> 13. ἀετοῦ πετομένου ¦ TR ἀγγέλου πετωμένου
+> - <sup>x</sup> 13. μεγάλῃ ¦ PCK μεγάλῃ τρίς
+> - <sup>y</sup> 13. τοῖς κατοικοῦσιν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF PT RP<sup>mg</sup> τοὺς κατοικοῦντας
 
 ## Chapter 9
 
@@ -590,51 +590,51 @@
 <sup>20</sup> Καὶ οἱ λοιποὶ τῶν ἀνθρώπων, οἳ οὐκ ἀπεκτάνθησαν ἐν ταῖς πληγαῖς ταύταις, οὐ<sup>an</sup> μετενόησαν ἐκ τῶν ἔργων τῶν χειρῶν αὐτῶν, ἵνα μὴ προσκυνήσωσιν<sup>ao</sup> τὰ δαιμόνια, καὶ τὰ<sup>ap</sup> εἴδωλα τὰ χρυσᾶ καὶ τὰ ἀργυρᾶ καὶ<sup>aq</sup> τὰ χαλκᾶ καὶ τὰ λίθινα καὶ τὰ ξύλινα, ἃ οὔτε βλέπειν δύναται,<sup>ar</sup> οὔτε ἀκούειν, οὔτε περιπατεῖν·
 <sup>21</sup> καὶ οὐ μετενόησαν ἐκ τῶν φόνων αὐτῶν, οὔτε ἐκ τῶν φαρμακειῶν<sup>as</sup> αὐτῶν, οὔτε ἐκ τῆς πορνείας αὐτῶν, οὔτε ἐκ τῶν κλεμμάτων αὐτῶν.
 
-> - <sup>a</sup> 2. και ηνοιξεν το φρεαρ της αβυσσου ¦ [PT] ¦ RP<sup>mg</sup> _om._
-> - <sup>b</sup> 2. καιομενης ¦ CT TR μεγαλης
-> - <sup>c</sup> 2. εσκοτισθη ¦ NA SBL TH WH εσκοτωθη
-> - <sup>d</sup> 4. αδικησωσιν ¦ NA SBL WH αδικησουσιν
-> - <sup>e</sup> 4. ανθρωπους ¦ PCK TR ανθρωπους μονους
-> - <sup>f</sup> 4. αυτων ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
-> - <sup>g</sup> 5. αυταις ¦ NA SBL TH αυτοις
-> - <sup>h</sup> 5. βασανισθωσιν ¦ CT βασανισθησονται
-> - <sup>i</sup> 5. παιση ¦ PCK πληξη
-> - <sup>j</sup> 6. ζητησουσιν ¦ PCK ζητουσιν
-> - <sup>k</sup> 6. ου μη ¦ TR ουχ
-> - <sup>l</sup> 6. ευρησουσιν ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> ευρωσιν
-> - <sup>m</sup> 6. φευξεται ¦ CT φευγει
-> - <sup>n</sup> 6. απ αυτων ο θανατος ¦ CT TR ο θανατος απ αυτων
-> - <sup>o</sup> 7. χρυσοι ¦ CT TR ομοιοι χρυσω ¦ PT ομοιοι χρυσιω
-> - <sup>p</sup> 8. ειχον ¦ TH WH ειχαν
-> - <sup>q</sup> 9. ειχον ¦ WH ειχαν
-> - <sup>r</sup> 10. και ¦ TR ην ¦ RP<sup>mg</sup> _om._
-> - <sup>s</sup> 10. εξουσιαν εχουσιν του ¦ PT εξουσιαν [εχουσι] του ¦ CT RP<sup>mg</sup> η εξουσια αυτων ¦ TR και η εξουσια αυτων
-> - <sup>t</sup> 11. εχουσαι βασιλεα επ αυτων ¦ PT εχουσι βασιλεα επ αυτων ¦ CT εχουσιν επ αυτων βασιλεα ¦ SCR και εχουσιν επ αυτων βασιλεα ¦ ST και εχουσιν εφ αυτων βασιλεα
-> - <sup>u</sup> 11. αγγελον ¦ CT TR τον αγγελον ¦ PT [τον] αγγελον
-> - <sup>v</sup> 11. αββαδων ¦ PCK αββαδδων ¦ CT PT TR αβαδδων
-> - <sup>w</sup> 11. εν δε ¦ CT TR και εν
-> - <sup>x</sup> 12. ερχεται ¦ PT TR ερχονται
-> - <sup>y</sup> 13. τεσσαρων ¦ [NA] ¦ SBL TH WH _om._
-> - <sup>z</sup> 14. λεγουσαν ¦ NA SBL TH WH λεγοντα ¦ HF PT RP<sup>mg</sup> λεγοντος
-> - <sup>aa</sup> 14. ο εχων ¦ TR ος ειχε
-> - <sup>ab</sup> 15. εις την ¦ PT [εις] την ¦ PCK RP<sup>mg</sup> την ¦ CT TR _om._
-> - <sup>ac</sup> 16. των ¦ TR _om._
-> - <sup>ad</sup> 16. ιππου ¦ CT RP<sup>mg</sup> TR ιππικου
-> - <sup>ae</sup> 16. μυριαδες ¦ TR δυο μυριαδες ¦ PT [δυο] μυριαδες ¦ CT δισμυριαδες
-> - <sup>af</sup> 16. ηκουσα ¦ TR και ηκουσα
-> - <sup>ag</sup> 17. και ¦ [PT]
-> - <sup>ah</sup> 18. απο των τριων πληγων ¦ TR υπο των τριων
-> - <sup>ai</sup> 18. απο ¦ CT PCK PT RP<sup>mg</sup> TR εκ
-> - <sup>aj</sup> 18. του καπνου και ¦ TR εκ του καπνου και εκ
-> - <sup>ak</sup> 19. η γαρ εξουσια των ιππων … εστιν ¦ SCR η γαρ εξουσια αυτων … εστι ¦ ST αι γαρ εξουσιαι αυτων … εισιν
-> - <sup>al</sup> 19. και εν ταις ουραις αυτων ¦ ST _om._
-> - <sup>am</sup> 19. οφεων ¦ CT PCK PT RP<sup>mg</sup> TR οφεσιν
-> - <sup>an</sup> 20. ου ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> ST ουτε ¦ NA SBL TH ουδε
-> - <sup>ao</sup> 20. προσκυνησωσιν ¦ NA SBL TH WH προσκυνησουσιν
-> - <sup>ap</sup> 20. τα ¦ TR _om._
-> - <sup>aq</sup> 20. και τα χαλκα ¦ RP<sup>mg</sup> _om._
-> - <sup>ar</sup> 20. δυναται ¦ CT RP<sup>mg</sup> δυνανται
-> - <sup>as</sup> 21. φαρμακειων ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF RP<sup>mg</sup> φαρμακων
+> - <sup>a</sup> 2. Καὶ ἤνοιξεν τὸ φρέαρ τῆς ἀβύσσου ¦ [PT] ¦ RP<sup>mg</sup> _om._
+> - <sup>b</sup> 2. καιομένης ¦ CT TR μεγάλης
+> - <sup>c</sup> 2. ἐσκοτίσθη ¦ NA SBL TH WH ἐσκοτώθη
+> - <sup>d</sup> 4. ἀδικήσωσιν ¦ NA SBL WH ἀδικήσουσιν
+> - <sup>e</sup> 4. ἀνθρώπους ¦ PCK TR ἀνθρώπους μόνους
+> - <sup>f</sup> 4. αὐτῶν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
+> - <sup>g</sup> 5. αὐταῖς ¦ NA SBL TH αὐτοῖς
+> - <sup>h</sup> 5. βασανισθῶσιν ¦ CT βασανισθήσονται
+> - <sup>i</sup> 5. παίσῃ ¦ PCK πλήξη
+> - <sup>j</sup> 6. ζητήσουσιν ¦ PCK ζητοῦσιν
+> - <sup>k</sup> 6. οὐ μὴ ¦ TR οὐχ
+> - <sup>l</sup> 6. εὑρήσουσιν ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> εὕρωσιν
+> - <sup>m</sup> 6. φεύξεται ¦ CT φεύγει
+> - <sup>n</sup> 6. ἀπ αὐτῶν ὁ θάνατος ¦ CT TR ὁ θάνατος ἀπ αὐτῶν
+> - <sup>o</sup> 7. χρυσοῖ ¦ CT TR ὅμοιοι χρυσῷ ¦ PT ὅμοιοι χρυσίῳ
+> - <sup>p</sup> 8. εἶχον ¦ TH WH εἶχαν
+> - <sup>q</sup> 9. εἶχον ¦ WH εἶχαν
+> - <sup>r</sup> 10. Καὶ ¦ TR Ἦν ¦ RP<sup>mg</sup> _om._
+> - <sup>s</sup> 10. ἐξουσίαν ἔχουσιν τοῦ ¦ PT ἐξουσίαν [ἐχούσι] τοῦ ¦ CT RP<sup>mg</sup> ἡ ἐξουσία αὐτῶν ¦ TR καὶ ἡ ἐξουσία αὐτῶν
+> - <sup>t</sup> 11. Ἔχουσαι βασιλέα ἐπ αὐτῶν ¦ PT Ἐχούσι βασιλέα ἐπ αὐτῶν ¦ CT Ἔχουσιν ἐπ αὐτῶν βασιλέα ¦ SCR Καὶ ἔχουσιν ἐπ αὐτῶν βασιλέα ¦ ST Καὶ ἔχουσιν ἐφ αὐτῶν βασιλέα
+> - <sup>u</sup> 11. ἄγγελον ¦ CT TR τὸν ἄγγελον ¦ PT [τὸν] ἄγγελον
+> - <sup>v</sup> 11. Ἀββαδών ¦ PCK Ἀββαδδών ¦ CT PT TR Ἀβαδδών
+> - <sup>w</sup> 11. ἐν δὲ ¦ CT TR καὶ ἐν
+> - <sup>x</sup> 12. ἔρχεται ¦ PT TR ἔρχονται
+> - <sup>y</sup> 13. τεσσάρων ¦ [NA] ¦ SBL TH WH _om._
+> - <sup>z</sup> 14. λέγουσαν ¦ NA SBL TH WH λέγοντα ¦ HF PT RP<sup>mg</sup> λέγοντος
+> - <sup>aa</sup> 14. ὁ ἔχων ¦ TR ὃς εἶχε
+> - <sup>ab</sup> 15. εἰς τὴν ¦ PT [εἰς] τὴν ¦ PCK RP<sup>mg</sup> τὴν ¦ CT TR _om._
+> - <sup>ac</sup> 16. τῶν ¦ TR _om._
+> - <sup>ad</sup> 16. ἵππου ¦ CT RP<sup>mg</sup> TR ἱππικοῦ
+> - <sup>ae</sup> 16. μυριάδες ¦ TR δύο μυριάδες ¦ PT [δύο] μυριάδες ¦ CT δισμυριάδες
+> - <sup>af</sup> 16. ἤκουσα ¦ TR καὶ ἤκουσα
+> - <sup>ag</sup> 17. Καὶ ¦ [PT]
+> - <sup>ah</sup> 18. Ἀπὸ τῶν τριῶν πληγῶν ¦ TR Ὑπὸ τῶν τριῶν
+> - <sup>ai</sup> 18. ἀπὸ ¦ CT PCK PT RP<sup>mg</sup> TR ἐκ
+> - <sup>aj</sup> 18. τοῦ καπνοῦ καὶ ¦ TR ἐκ τοῦ καπνοῦ καὶ ἐκ
+> - <sup>ak</sup> 19. Ἡ γὰρ ἐξουσία τῶν ἵππων … ἐστίν ¦ SCR ἡ γὰρ ἐξουσία αὐτῶν … ἔστι ¦ ST αἱ γὰρ ἐξουσίαι αὐτῶν … εἰσιν
+> - <sup>al</sup> 19. καὶ ἐν ταῖς οὐραῖς αὐτῶν ¦ ST _om._
+> - <sup>am</sup> 19. ὄφεων ¦ CT PCK PT RP<sup>mg</sup> TR ὄφεσιν
+> - <sup>an</sup> 20. οὐ ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> ST οὔτε ¦ NA SBL TH οὐδὲ
+> - <sup>ao</sup> 20. προσκυνήσωσιν ¦ NA SBL TH WH προσκυνήσουσιν
+> - <sup>ap</sup> 20. τὰ ¦ TR _om._
+> - <sup>aq</sup> 20. καὶ τὰ χαλκᾶ ¦ RP<sup>mg</sup> _om._
+> - <sup>ar</sup> 20. δύναται ¦ CT RP<sup>mg</sup> δύνανται
+> - <sup>as</sup> 21. φαρμακειῶν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF RP<sup>mg</sup> φαρμάκων
 
 ## Chapter 10
 
@@ -650,37 +650,37 @@
 <sup>10</sup> Καὶ ἔλαβον τὸ βιβλίον<sup>ac</sup> ἐκ τῆς χειρὸς τοῦ ἀγγέλου, καὶ κατέφαγον αὐτό, καὶ ἦν ἐν τῷ στόματί μου ὡς μέλι, γλυκύ· καὶ ὅτε ἔφαγον αὐτό, ἐπικράνθη ἡ κοιλία μου.
 <sup>11</sup> Καὶ λέγουσίν<sup>ad</sup> μοι, Δεῖ σε πάλιν προφητεῦσαι ἐπὶ λαοῖς καὶ ἐπὶ<sup>ae</sup> ἔθνεσιν καὶ γλώσσαις καὶ βασιλεῦσιν πολλοῖς.
 
-> - <sup>a</sup> 1. αγγελον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR αλλον αγγελον ¦ PT [αλλον] αγγελον
-> - <sup>b</sup> 1. η ¦ TR _om._
-> - <sup>c</sup> 1. της κεφαλης ¦ SBL WH την κεφαλην
-> - <sup>d</sup> 1. αυτου ¦ TR _om._
-> - <sup>e</sup> 2. εχων ¦ PCK RP<sup>mg</sup> TR ειχεν
-> - <sup>f</sup> 2. βιβλιον ¦ PCK RP<sup>mg</sup> βιβλιδαριον ¦ CT TR βιβλαριδιον
-> - <sup>g</sup> 2. ανεωγμενον ¦ CT ηνεωγμενον
-> - <sup>h</sup> 2. της θαλασσης ¦ TR την θαλασσαν
-> - <sup>i</sup> 2. της γης ¦ TR την γην
-> - <sup>j</sup> 4. βρονται ¦ TR βρονται τας φωνας εαυτων
-> - <sup>k</sup> 4. εμελλον ¦ CT ημελλον
-> - <sup>l</sup> 4. λεγουσαν ¦ TR λεγουσαν μοι
-> - <sup>m</sup> 4. μη αυτα γραψης ¦ TR μη ταυτα γραψης ¦ PCK μετα ταυτα γραφεις
-> - <sup>n</sup> 5. την δεξιαν ¦ TR _om._
-> - <sup>o</sup> 6. τω ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA PCK PT RP<sup>mg</sup> TH TR WH εν τω
-> - <sup>p</sup> 6. και την θαλασσαν και τα εν αυτη ¦ [WH]
-> - <sup>q</sup> 6. ουκετι εσται ¦ TR ουκ εσται ετι
-> - <sup>r</sup> 7. αλλ ¦ TR αλλα
-> - <sup>s</sup> 7. και ετελεσθη ¦ RP<sup>mg</sup> TR και τελεσθη ¦ PCK τελεσθη
-> - <sup>t</sup> 7. ως ευηγγελισεν ¦ PCK ο ευηγγελισατο
-> - <sup>u</sup> 7. τους δουλους αυτου τους προφητας ¦ CT τους εαυτου δουλους τους προφητας ¦ TR τοις εαυτου δουλοις τοις προφηταις
-> - <sup>v</sup> 8. λαλουσα … λεγουσα ¦ CT λαλουσαν … λεγουσαν
-> - <sup>w</sup> 8. βιβλιδαριον ¦ CT<sup>†</sup> βιβλιον ¦ ECM<sup>†</sup> TR βιβλαριδιον
-> - <sup>x</sup> 8. ανεωγμενον ¦ CT TR ηνεωγμενον
-> - <sup>y</sup> 8. του ¦ TR _om._
-> - <sup>z</sup> 9. απηλθον ¦ NA PT SBL TH WH απηλθα
-> - <sup>aa</sup> 9. δουναι ¦ PCK RP<sup>mg</sup> TR δος
-> - <sup>ab</sup> 9. βιβλιδαριον ¦ CT TR βιβλαριδιον
-> - <sup>ac</sup> 10. βιβλιον ¦ PCK RP<sup>mg</sup> βιβλιδαριον ¦ CT TR βιβλαριδιον
-> - <sup>ad</sup> 11. λεγουσιν ¦ PCK RP<sup>mg</sup> TR λεγει
-> - <sup>ae</sup> 11. επι ¦ CT PT TR _om._
+> - <sup>a</sup> 1. ἄγγελον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR ἄλλον ἄγγελον ¦ PT [ἄλλον] ἄγγελον
+> - <sup>b</sup> 1. ἡ ¦ TR _om._
+> - <sup>c</sup> 1. τῆς κεφαλῆς ¦ SBL WH τὴν κεφαλὴν
+> - <sup>d</sup> 1. αὐτοῦ ¦ TR _om._
+> - <sup>e</sup> 2. ἔχων ¦ PCK RP<sup>mg</sup> TR εἶχεν
+> - <sup>f</sup> 2. βιβλίον ¦ PCK RP<sup>mg</sup> βιβλιδάριον ¦ CT TR βιβλαρίδιον
+> - <sup>g</sup> 2. ἀνεῳγμένον ¦ CT ἠνεῳγμένον
+> - <sup>h</sup> 2. τῆς θαλάσσης ¦ TR τὴν θάλασσαν
+> - <sup>i</sup> 2. τῆς γῆς ¦ TR τὴν γῆν
+> - <sup>j</sup> 4. βρονταί ¦ TR βρονταὶ τὰς φωνὰς ἑαυτῶν
+> - <sup>k</sup> 4. ἔμελλον ¦ CT ἤμελλον
+> - <sup>l</sup> 4. λέγουσαν ¦ TR λέγουσάν μοί
+> - <sup>m</sup> 4. μὴ αὐτὰ γράψῃς ¦ TR μὴ ταῦτα γράψῃς ¦ PCK μετὰ ταῦτα γραφεῖς
+> - <sup>n</sup> 5. τὴν δεξιὰν ¦ TR _om._
+> - <sup>o</sup> 6. τῷ ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA PCK PT RP<sup>mg</sup> TH TR WH ἐν τῷ
+> - <sup>p</sup> 6. καὶ τὴν θάλασσαν καὶ τὰ ἐν αὐτῇ ¦ [WH]
+> - <sup>q</sup> 6. οὐκέτι ἔσται ¦ TR οὐκ ἔσται ἔτι
+> - <sup>r</sup> 7. ἀλλ ¦ TR ἀλλὰ
+> - <sup>s</sup> 7. καὶ ἐτελέσθη ¦ RP<sup>mg</sup> TR καὶ τελεσθῇ ¦ PCK τελεσθῇ
+> - <sup>t</sup> 7. ὡς εὐηγγέλισεν ¦ PCK ὁ εὐηγγελίσατο
+> - <sup>u</sup> 7. τοὺς δούλους αὐτοῦ τοὺς προφήτας ¦ CT τοὺς ἑαυτοῦ δούλους τοὺς προφήτας ¦ TR τοῖς ἑαυτοῦ δούλοις τοῖς προφήταις
+> - <sup>v</sup> 8. λαλοῦσα … λέγουσα ¦ CT λαλοῦσαν … λέγουσαν
+> - <sup>w</sup> 8. βιβλιδάριον ¦ CT<sup>†</sup> βιβλίον ¦ ECM<sup>†</sup> TR βιβλαρίδιον
+> - <sup>x</sup> 8. ἀνεῳγμένον ¦ CT TR ἠνεῳγμένον
+> - <sup>y</sup> 8. τοῦ ¦ TR _om._
+> - <sup>z</sup> 9. ἀπῆλθον ¦ NA PT SBL TH WH ἀπῆλθα
+> - <sup>aa</sup> 9. δοῦναί ¦ PCK RP<sup>mg</sup> TR δὸς
+> - <sup>ab</sup> 9. βιβλιδάριον ¦ CT TR βιβλαρίδιον
+> - <sup>ac</sup> 10. βιβλίον ¦ PCK RP<sup>mg</sup> βιβλιδάριον ¦ CT TR βιβλαρίδιον
+> - <sup>ad</sup> 11. λέγουσίν ¦ PCK RP<sup>mg</sup> TR λέγει
+> - <sup>ae</sup> 11. ἐπὶ ¦ CT PT TR _om._
 
 ## Chapter 11
 
@@ -707,59 +707,59 @@
 
 <sup>19</sup> Καὶ ἠνοίγη<sup>ax</sup> ὁ ναὸς τοῦ θεοῦ ἐν<sup>ay</sup> τῷ οὐρανῷ, καὶ ὤφθη ἡ κιβωτὸς τῆς διαθήκης τοῦ<sup>az</sup> κυρίου ἐν τῷ ναῷ αὐτοῦ· καὶ ἐγένοντο ἀστραπαὶ καὶ φωναὶ καὶ βρονταὶ καὶ<sup>ba</sup> χάλαζα μεγάλη.
 
-> - <sup>a</sup> 1. λεγων ¦ PCK και ειστηκει ο αγγελος λεγων ¦ SCR και ο αγγελος ειστηκει λεγων
-> - <sup>b</sup> 1. εγειραι ¦ CT HF PT RP<sup>mg</sup> εγειρε
-> - <sup>c</sup> 2. εξωθεν ¦ ST εσωθεν
-> - <sup>d</sup> 2. εξω ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK RP<sup>mg</sup> εξωθεν
-> - <sup>e</sup> 2. τεσσαρακοντα και δυο ¦ NA WH τεσσερακοντα [και] δυο ¦ PCK PT RP<sup>mg</sup> TR τεσσαρακοντα δυο ¦ SBL TH τεσσερακοντα δυο ¦ ECM RP<sup>mg</sup> μβʹ
-> - <sup>f</sup> 3. περιβεβλημενοι ¦ TH WH περιβεβλημενους
-> - <sup>g</sup> 4. αι ¦ ST _om._
-> - <sup>h</sup> 4. αι ¦ [WH]
-> - <sup>i</sup> 4. κυριου ¦ TR θεου
-> - <sup>j</sup> 4. εστωσαι ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF RP<sup>mg</sup> εστωτες
-> - <sup>k</sup> 5. θελει ¦ TR θελη
-> - <sup>l</sup> 5. θελει αυτους ¦ TR αυτους θελη ¦ NA SBL TH WH θεληση αυτους
-> - <sup>m</sup> 6. τον ουρανον εξουσιαν κλεισαι ¦ PT εξουσιαν τον ουρανον κλεισαι ¦ CT την εξουσιαν κλεισαι τον ουρανον ¦ PCK RP<sup>mg</sup> TR εξουσιαν κλεισαι τον ουρανον
-> - <sup>n</sup> 6. υετος βρεχη τας ημερας της προφητειας αυτων ¦ TR βρεχη υετος εν ημεραις αυτων της προφητειας
-> - <sup>o</sup> 6. οσακις εαν θελησωσιν εν παση πληγη ¦ CT PCK PT RP<sup>mg</sup> εν παση πληγη οσακις εαν θελησωσι(ν) ¦ TR παση πληγη οσακις εαν θελησωσι(ν)
-> - <sup>p</sup> 7. μετ αυτων πολεμον ¦ TR πολεμον μετ αυτων
-> - <sup>q</sup> 8. το πτωμα ¦ PCK RP<sup>mg</sup> TR τα πτωματα
-> - <sup>r</sup> 8. της ¦ TR _om._
-> - <sup>s</sup> 8. αυτων ¦ TR ημων
-> - <sup>t</sup> 9. βλεπουσιν ¦ TR βλεψουσιν
-> - <sup>u</sup> 9. το πτωμα ¦ PCK RP<sup>mg</sup> TR τα πτωματα
-> - <sup>v</sup> 9. ημισυ ¦ CT PT TR και ημισυ
-> - <sup>w</sup> 9. αφησουσιν ¦ CT αφιουσιν
-> - <sup>x</sup> 9. μνημα ¦ TR μνηματα
-> - <sup>y</sup> 10. χαιρουσιν ¦ TR χαρουσιν
-> - <sup>z</sup> 10. ευφρανθησονται ¦ CT ευφραινονται
-> - <sup>aa</sup> 10. δωσουσιν ¦ CT PCK PT RP<sup>mg</sup> TR πεμψουσιν
-> - <sup>ab</sup> 11. τας ¦ ECM<sup>†</sup> _txt_ ¦ [WH] ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> _om._
-> - <sup>ac</sup> 11. εις αυτους ¦ PCK TR επ αυτους ¦ NA SBL TH εν αυτοις ¦ WH [εν] αυτοις ¦ ECM αυτοις
-> - <sup>ad</sup> 11. επεσεν ¦ CT PCK PT RP<sup>mg</sup> επεπεσεν
-> - <sup>ae</sup> 12. ηκουσα ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR ηκουσαν
-> - <sup>af</sup> 12. φωνην μεγαλην ¦ CT PCK RP<sup>mg</sup> φωνης μεγαλης
-> - <sup>ag</sup> 12. λεγουσαν ¦ CT PCK RP<sup>mg</sup> λεγουσης
-> - <sup>ah</sup> 12. αναβητε ¦ CT αναβατε
-> - <sup>ai</sup> 13. και ¦ HF RP<sup>mg</sup> _om._
-> - <sup>aj</sup> 13. ημερα ¦ CT TR ωρα
-> - <sup>ak</sup> 14. η ουαι η τριτη ιδου ¦ CT ST ιδου η ουαι η τριτη ¦ SCR και ιδου η ουαι η τριτη
-> - <sup>al</sup> 15. λεγουσαι ¦ HF NA SBL WH λεγοντες
-> - <sup>am</sup> 15. εγενετο η βασιλεια ¦ TR εγενοντο αι βασιλειαι
-> - <sup>an</sup> 16. εικοσι τεσσαρες ¦ TR εικοσι και τεσσαρες
+> - <sup>a</sup> 1. λέγων ¦ PCK καὶ εἱστήκει ὁ ἄγγελος λέγων ¦ SCR καὶ ὁ ἄγγελος εἱστήκει λέγων
+> - <sup>b</sup> 1. Ἔγειραι ¦ CT HF PT RP<sup>mg</sup> Ἔγειρε
+> - <sup>c</sup> 2. ἔξωθεν ¦ ST ἔσωθεν
+> - <sup>d</sup> 2. ἔξω ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK RP<sup>mg</sup> ἔξωθεν
+> - <sup>e</sup> 2. τεσσαράκοντα καὶ δύο ¦ NA WH τεσσεράκοντα [καὶ] δύο ¦ PCK PT RP<sup>mg</sup> TR τεσσαράκοντα δύο ¦ SBL TH τεσσεράκοντα δύο ¦ ECM RP<sup>mg</sup> μβʹ
+> - <sup>f</sup> 3. περιβεβλημένοι ¦ TH WH περιβεβλημένους
+> - <sup>g</sup> 4. αἱ ¦ ST _om._
+> - <sup>h</sup> 4. αἱ ¦ [WH]
+> - <sup>i</sup> 4. κυρίου ¦ TR θεοῦ
+> - <sup>j</sup> 4. ἑστῶσαι ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF RP<sup>mg</sup> ἑστῶτες
+> - <sup>k</sup> 5. θέλει ¦ TR θέλῃ
+> - <sup>l</sup> 5. θέλει αὐτοὺς ¦ TR αὐτοὺς θέλῃ ¦ NA SBL TH WH θελήσῃ αὐτοὺς
+> - <sup>m</sup> 6. τὸν οὐρανὸν ἐξουσίαν κλεῖσαι ¦ PT ἐξουσίαν τὸν οὐρανὸν κλεῖσαι ¦ CT τὴν ἐξουσίαν κλεῖσαι τὸν οὐρανόν ¦ PCK RP<sup>mg</sup> TR ἐξουσίαν κλεῖσαι τὸν οὐρανόν
+> - <sup>n</sup> 6. ὑετὸς βρέχῃ τὰς ἡμέρας τῆς προφητείας αὐτῶν ¦ TR βρέχῃ ὑετὸς ἐν ἡμέραις αὐτῶν τῆς προφητείας
+> - <sup>o</sup> 6. ὁσάκις ἐὰν θελήσωσιν ἐν πάσῃ πληγῇ ¦ CT PCK PT RP<sup>mg</sup> ἐν πάσῃ πληγῇ ὁσάκις ἐάν θελησωσι(ν) ¦ TR πάσῃ πληγῇ ὁσάκις ἐάν θελησωσι(ν)
+> - <sup>p</sup> 7. μετ αὐτῶν πόλεμον ¦ TR πόλεμον μετ αὐτῶν
+> - <sup>q</sup> 8. τὸ πτῶμα ¦ PCK RP<sup>mg</sup> TR τὰ πτώματα
+> - <sup>r</sup> 8. τῆς ¦ TR _om._
+> - <sup>s</sup> 8. αὐτῶν ¦ TR ἡμῶν
+> - <sup>t</sup> 9. βλέπουσιν ¦ TR βλέψουσιν
+> - <sup>u</sup> 9. τὸ πτῶμα ¦ PCK RP<sup>mg</sup> TR τὰ πτώματα
+> - <sup>v</sup> 9. ἥμισυ ¦ CT PT TR καὶ ἥμισυ
+> - <sup>w</sup> 9. ἀφήσουσιν ¦ CT ἀφίουσιν
+> - <sup>x</sup> 9. μνῆμα ¦ TR μνήματα
+> - <sup>y</sup> 10. χαίρουσιν ¦ TR χαροῦσιν
+> - <sup>z</sup> 10. εὐφρανθήσονται ¦ CT εὐφραίνονται
+> - <sup>aa</sup> 10. δώσουσιν ¦ CT PCK PT RP<sup>mg</sup> TR πέμψουσιν
+> - <sup>ab</sup> 11. τὰς ¦ ECM<sup>†</sup> _txt_ ¦ [WH] ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> _om._
+> - <sup>ac</sup> 11. εἰς αὐτούς ¦ PCK TR ἐπ αὐτούς ¦ NA SBL TH ἐν αὐτοῖς ¦ WH [ἐν] αὐτοῖς ¦ ECM αὐτοῖς
+> - <sup>ad</sup> 11. ἔπεσεν ¦ CT PCK PT RP<sup>mg</sup> ἐπέπεσεν
+> - <sup>ae</sup> 12. ἤκουσα ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR ἤκουσαν
+> - <sup>af</sup> 12. φωνὴν μεγάλην ¦ CT PCK RP<sup>mg</sup> φωνῆς μεγάλης
+> - <sup>ag</sup> 12. λέγουσαν ¦ CT PCK RP<sup>mg</sup> λεγούσης
+> - <sup>ah</sup> 12. Ἀνάβητε ¦ CT Ἀνάβατε
+> - <sup>ai</sup> 13. Καὶ ¦ HF RP<sup>mg</sup> _om._
+> - <sup>aj</sup> 13. ἡμέρᾳ ¦ CT TR ὥρᾳ
+> - <sup>ak</sup> 14. ἡ οὐαὶ ἡ τρίτη ἰδού ¦ CT ST ἰδοὺ ἡ οὐαὶ ἡ τρίτη ¦ SCR καὶ ἰδοὺ ἡ οὐαὶ ἡ τρίτη
+> - <sup>al</sup> 15. λέγουσαι ¦ HF NA SBL WH λέγοντες
+> - <sup>am</sup> 15. Ἐγένετο ἡ βασιλεία ¦ TR Ἐγένοντο αἱ βασιλείαι
+> - <sup>an</sup> 16. εἴκοσι τέσσαρες ¦ TR εἴκοσι καὶ τέσσαρες
 > - <sup>ao</sup> 16. οἱ ¦ ECM<sup>†</sup> _txt_ ¦ [NA WH] ¦ ECM<sup>†</sup> οἵ
-> - <sup>ap</sup> 16. ενωπιον του θεου καθημενοι ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> ενωπιον του θεου καθηνται ¦ TH ενωπιον του θεου οι καθηνται ¦ HF RP<sup>mg</sup> ενωπιον του θρονου του θεου οι καθηνται ¦ PT ενωπιον [του θρονου] του θεου οι καθηνται
-> - <sup>aq</sup> 16. επεσον ¦ CT PT TR επεσαν
-> - <sup>ar</sup> 17. ην ¦ PCK TR ην και ο ερχομενος ¦ PT ην [και ο ερχομενος]
-> - <sup>as</sup> 17. ειληφας ¦ WH ειληφες
-> - <sup>at</sup> 18. νεκρων ¦ PT εθνων
-> - <sup>au</sup> 18. και ¦ PT _om._
-> - <sup>av</sup> 18. τοις μικροις και τοις μεγαλοις ¦ NA SBL TH WH τους μικρους και τους μεγαλους
-> - <sup>aw</sup> 18. διαφθειροντας ¦ PCK PT διαφθειραντας
-> - <sup>ax</sup> 19. ηνοιγη ¦ HF RP<sup>mg</sup> ηνοιχθη
-> - <sup>ay</sup> 19. εν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT ο εν
-> - <sup>az</sup> 19. του κυριου ¦ PT κυριου ¦ CT RP<sup>mg</sup> TR αυτου
-> - <sup>ba</sup> 19. και ¦ CT PT RP<sup>mg</sup> TR και σεισμος και
+> - <sup>ap</sup> 16. ἐνώπιον τοῦ θεοῦ καθήμενοι ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> ἐνώπιον τοῦ θεοῦ κάθηνται ¦ TH ἐνώπιον τοῦ θεοῦ οἱ κάθηνται ¦ HF RP<sup>mg</sup> ἐνώπιον τοῦ θρόνου τοῦ θεοῦ οἱ κάθηνται ¦ PT ἐνώπιον [τοῦ θρόνου] τοῦ θεοῦ οἱ κάθηνται
+> - <sup>aq</sup> 16. ἔπεσον ¦ CT PT TR ἔπεσαν
+> - <sup>ar</sup> 17. ἦν ¦ PCK TR ἦν καὶ ὁ ἐρχόμενος ¦ PT ἦν [καὶ ὁ ἐρχόμενος]
+> - <sup>as</sup> 17. εἴληφας ¦ WH εἴληφες
+> - <sup>at</sup> 18. νεκρῶν ¦ PT ἐθνῶν
+> - <sup>au</sup> 18. καὶ ¦ PT _om._
+> - <sup>av</sup> 18. τοῖς μικροῖς καὶ τοῖς μεγάλοις ¦ NA SBL TH WH τοὺς μικροὺς καὶ τοὺς μεγάλους
+> - <sup>aw</sup> 18. διαφθείροντας ¦ PCK PT διαφθείραντας
+> - <sup>ax</sup> 19. ἠνοίγη ¦ HF RP<sup>mg</sup> ἠνοίχθη
+> - <sup>ay</sup> 19. ἐν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT ὁ ἐν
+> - <sup>az</sup> 19. τοῦ κυρίου ¦ PT κυρίου ¦ CT RP<sup>mg</sup> TR αὐτοῦ
+> - <sup>ba</sup> 19. καὶ ¦ CT PT RP<sup>mg</sup> TR καὶ σεισμὸς καὶ
 
 ## Chapter 12
 
@@ -783,36 +783,36 @@
 <sup>16</sup> Καὶ ἐβοήθησεν ἡ γῆ τῇ γυναικί, καὶ ἤνοιξεν ἡ γῆ τὸ στόμα αὐτῆς, καὶ κατέπιεν τὸν ποταμὸν ὃν ἔβαλεν ὁ δράκων ἐκ τοῦ στόματος αὐτοῦ.
 <sup>17</sup> Καὶ ὠργίσθη ὁ δράκων ἐπὶ τῇ γυναικί, καὶ ἀπῆλθεν ποιῆσαι πόλεμον μετὰ τῶν λοιπῶν τοῦ σπέρματος αὐτῆς, τῶν τηρούντων τὰς ἐντολὰς τοῦ θεοῦ καὶ ἐχόντων τὴν μαρτυρίαν Ἰησοῦ.<sup>ad</sup>
 
-> - <sup>a</sup> 2. εκραζεν ¦ ECM TR κραζει ¦ NA SBL TH WH και κραζει
-> - <sup>b</sup> 3. πυρος μεγας ¦ PT RP<sup>mg</sup> TH πυρρος μεγας ¦ RP<sup>mg</sup> μεγας πυρος ¦ ECM NA PCK RP<sup>mg</sup> SBL TR WH μεγας πυρρος
-> - <sup>c</sup> 3. επτα διαδηματα ¦ TR διαδηματα επτα
+> - <sup>a</sup> 2. ἔκραζεν ¦ ECM TR κράζει ¦ NA SBL TH WH καὶ κράζει
+> - <sup>b</sup> 3. πυρὸς μέγας ¦ PT RP<sup>mg</sup> TH πυρρὸς μέγας ¦ RP<sup>mg</sup> μέγας πυρός ¦ ECM NA PCK RP<sup>mg</sup> SBL TR WH μέγας πυρρός
+> - <sup>c</sup> 3. ἑπτὰ διαδήματα ¦ TR διαδήματα ἑπτά
 > - <sup>d</sup> 4. ἕστηκεν ¦ WH ἔστηκεν
-> - <sup>e</sup> 4. τεκειν ¦ PCK τικτειν
-> - <sup>f</sup> 5. αρρενα ¦ NA SBL TH WH αρσεν
-> - <sup>g</sup> 5. εν ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> _om._
-> - <sup>h</sup> 5. ηρπασθη ¦ PCK ηρπαγη
-> - <sup>i</sup> 5. προς ¦ TR _om._
-> - <sup>j</sup> 6. εκει ¦ TR _om._
-> - <sup>k</sup> 6. υπο ¦ CT PCK PT RP<sup>mg</sup> TR απο
-> - <sup>l</sup> 6. εκτρεφωσιν ¦ ECM NA PT RP<sup>mg</sup> SBL TR WH τρεφωσιν ¦ TH τρεφουσιν
-> - <sup>m</sup> 7. πολεμησαι μετα ¦ CT PCK του πολεμησαι μετα ¦ PT [του] πολεμησαι μετα ¦ TR επολεμησαν κατα
-> - <sup>n</sup> 8. ισχυσεν ¦ ECM RP<sup>mg</sup> TH TR ισχυσαν
-> - <sup>o</sup> 8. ουδε ¦ TR ουτε
-> - <sup>p</sup> 8. αυτω ¦ CT TR αυτων
-> - <sup>q</sup> 9. μεγας ο οφις ¦ PT οφις ο μεγας
-> - <sup>r</sup> 9. και ¦ CT TR και ο ¦ PT και [ο]
-> - <sup>s</sup> 10. εν τω ουρανω λεγουσαν ¦ TR λεγουσαν εν τω ουρανω
-> - <sup>t</sup> 10. εβληθη ¦ PCK TR κατεβληθη
-> - <sup>u</sup> 10. κατηγορος ¦ NA SBL WH κατηγωρ
-> - <sup>v</sup> 10. αυτων ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> αυτους
-> - <sup>w</sup> 12. ουρανοι ¦ PCK RP<sup>mg</sup> SBL TR οι ουρανοι ¦ NA [οι] ουρανοι
-> - <sup>x</sup> 12. τη γη και τη θαλασση ¦ CT PT την γην και την θαλασσαν ¦ TR τοις κατοικουσι(ν) την γην και την θαλασσαν
-> - <sup>y</sup> 13. αρρενα ¦ NA SBL TH WH αρσενα
-> - <sup>z</sup> 14. δυο ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> αι δυο
-> - <sup>aa</sup> 14. οπως τρεφηται ¦ CT TR οπου τρεφεται
-> - <sup>ab</sup> 15. εκ του στοματος αυτου οπισω της γυναικος ¦ TR οπισω της γυναικος εκ του στοματος αυτου
-> - <sup>ac</sup> 15. αυτην ¦ TR ταυτην
-> - <sup>ad</sup> 17. ιησου ¦ TR του ιησου χριστου
+> - <sup>e</sup> 4. τεκεῖν ¦ PCK τίκτειν
+> - <sup>f</sup> 5. ἄρρενα ¦ NA SBL TH WH ἄρσεν
+> - <sup>g</sup> 5. ἐν ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> _om._
+> - <sup>h</sup> 5. ἡρπάσθη ¦ PCK ἡρπάγη
+> - <sup>i</sup> 5. πρὸς ¦ TR _om._
+> - <sup>j</sup> 6. ἐκεῖ ¦ TR _om._
+> - <sup>k</sup> 6. ὑπὸ ¦ CT PCK PT RP<sup>mg</sup> TR ἀπὸ
+> - <sup>l</sup> 6. ἐκτρέφωσιν ¦ ECM NA PT RP<sup>mg</sup> SBL TR WH τρέφωσιν ¦ TH τρέφουσιν
+> - <sup>m</sup> 7. πολεμῆσαι μετὰ ¦ CT PCK τοῦ πολεμῆσαι μετὰ ¦ PT [τοῦ] πολεμῆσαι μετὰ ¦ TR ἐπολέμησαν κατὰ
+> - <sup>n</sup> 8. ἴσχυσεν ¦ ECM RP<sup>mg</sup> TH TR ἴσχυσαν
+> - <sup>o</sup> 8. οὐδὲ ¦ TR οὔτε
+> - <sup>p</sup> 8. αὐτῷ ¦ CT TR αὐτῶν
+> - <sup>q</sup> 9. μέγας ὁ ὄφις ¦ PT ὄφις ὁ μέγας
+> - <sup>r</sup> 9. καὶ ¦ CT TR καὶ ὁ ¦ PT καὶ [ὁ]
+> - <sup>s</sup> 10. ἐν τῷ οὐρανῷ λέγουσαν ¦ TR λέγουσαν ἐν τῷ οὐρανῷ
+> - <sup>t</sup> 10. ἐβλήθη ¦ PCK TR κατεβλήθη
+> - <sup>u</sup> 10. κατήγορος ¦ NA SBL WH κατήγωρ
+> - <sup>v</sup> 10. αὐτῶν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> αὐτοὺς
+> - <sup>w</sup> 12. οὐρανοὶ ¦ PCK RP<sup>mg</sup> SBL TR οἱ οὐρανοὶ ¦ NA [οἱ] οὐρανοὶ
+> - <sup>x</sup> 12. τῇ γῇ καὶ τῇ θαλάσσῃ ¦ CT PT τὴν γῆν καὶ τὴν θάλασσαν ¦ TR τοῖς κατοικουσι(ν) τὴν γῆν καὶ τὴν θάλασσαν
+> - <sup>y</sup> 13. ἄρρενα ¦ NA SBL TH WH ἄρσενα
+> - <sup>z</sup> 14. δύο ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> αἱ δύο
+> - <sup>aa</sup> 14. ὅπως τρέφηται ¦ CT TR ὅπου τρέφεται
+> - <sup>ab</sup> 15. ἐκ τοῦ στόματος αὐτοῦ ὀπίσω τῆς γυναικὸς ¦ TR ὀπίσω τῆς γυναικὸς ἐκ τοῦ στόματος αὐτοῦ
+> - <sup>ac</sup> 15. αὐτὴν ¦ TR ταύτην
+> - <sup>ad</sup> 17. Ἰησοῦ ¦ TR τοῦ Ἰησοῦ χριστοῦ
 
 ## Chapter 13
 
@@ -836,59 +836,59 @@
 <sup>17</sup> καὶ<sup>au</sup> ἵνα μή τις δύναται<sup>av</sup> ἀγοράσαι ἢ πωλῆσαι, εἰ μὴ ὁ ἔχων τὸ χάραγμα, τὸ<sup>aw</sup> ὄνομα τοῦ θηρίου ἢ τὸν ἀριθμὸν τοῦ ὀνόματος αὐτοῦ.
 <sup>18</sup> Ὧδε ἡ σοφία ἐστίν. Ὁ ἔχων νοῦν<sup>ax</sup> ψηφισάτω τὸν ἀριθμὸν τοῦ θηρίου· ἀριθμὸς γὰρ ἀνθρώπου ἐστίν, καὶ<sup>ay</sup> ὁ ἀριθμὸς αὐτοῦ ἐστὶν<sup>az</sup> ἑξακόσια<sup>ba</sup> ἑξήκοντα ἕξ.
 
-> - <sup>a</sup> 1. και εσταθην επι την αμμον της θαλασσης ¦ ECM<sup>†</sup> [12:18] _txt_ ¦ CT<sup>†</sup> [12:18] και εσταθη επι την αμμον της θαλασσης
-> - <sup>b</sup> 1. κερατα δεκα και κεφαλας επτα ¦ TR κεφαλας επτα και κερατα δεκα
-> - <sup>c</sup> 1. ονοματα ¦ NA ονομα[τα] ¦ ECM TH TR ονομα
-> - <sup>d</sup> 2. αρκου ¦ PCK TR αρκτου
-> - <sup>e</sup> 3. μιαν εκ ¦ TR ειδον μιαν
-> - <sup>f</sup> 3. ωσει ¦ CT PT RP<sup>mg</sup> TR ως
-> - <sup>g</sup> 3. εθαυμασεν ¦ NA SBL ST TH WH εθαυμασθη
-> - <sup>h</sup> 3. ολη η γη ¦ ST εν ολη τη γη
-> - <sup>i</sup> 4. τω δρακοντι ¦ TR τον δρακοντα
-> - <sup>j</sup> 4. τω δεδωκοτι την ¦ CT οτι εδωκεν την ¦ TR ος εδωκεν
-> - <sup>k</sup> 4. τω θηριω ¦ TR το θηριον
-> - <sup>l</sup> 4. και ¦ HF PT RP<sup>mg</sup> TR _om._
-> - <sup>m</sup> 4. δυνατος ¦ CT PT RP<sup>mg</sup> TR δυναται
-> - <sup>n</sup> 5. βλασφημιαν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR βλασφημιας
-> - <sup>o</sup> 5. πολεμον ¦ CT TR _om._
-> - <sup>p</sup> 5. τεσσαρακοντα δυο ¦ SBL TH τεσσερακοντα δυο ¦ NA WH τεσσερακοντα [και] δυο
-> - <sup>q</sup> 6. βλασφημιαν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> βλασφημιας
-> - <sup>r</sup> 6. τους ¦ TR και τους
-> - <sup>s</sup> 7. και … αυτους ¦ [WH]
-> - <sup>t</sup> 7. ποιησαι πολεμον ¦ PT TR πολεμον ποιησαι
-> - <sup>u</sup> 7. και λαον ¦ PCK TR _om._
-> - <sup>v</sup> 8. αυτω ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF PT RP<sup>mg</sup> αυτον
-> - <sup>w</sup> 8. ων ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> ου
-> - <sup>x</sup> 8. το ονομα ¦ TR τα ονοματα ¦ CT<sup>†</sup> το ονομα αυτου ¦ ECM<sup>†</sup> τα ονοματα αυτων
-> - <sup>y</sup> 8. εν τω βιβλιω ¦ TR εν τη βιβλω
-> - <sup>z</sup> 8. του ¦ TR _om._
-> - <sup>aa</sup> 10. εχει ¦ ECM RP<sup>mg</sup> TH εις ¦ NA SBL WH εις αιχμαλωσιαν εις ¦ TR αιχμαλωσιαν συναγει εις ¦ PT εις αιχμαλωσιαν [απαγει] εις
-> - <sup>ab</sup> 10. μαχαιρα ¦ NA SBL TH WH μαχαιρη
-> - <sup>ac</sup> 10. ἀποκτενεῖ δει αυτον εν μαχαιρα ¦ TH WH ἀποκτενεῖ δει αυτον εν μαχαιρη ¦ PCK ἀποκτένει δει αυτον εν μαχαιρα ¦ PT [ἀποκτέννει] δει αυτον εν μαχαιρα ¦ NA SBL αποκτανθηναι αυτον εν μαχαιρη ¦ HF RP<sup>mg</sup> δει αυτον
-> - <sup>ad</sup> 11. δυο ¦ [PT]
-> - <sup>ae</sup> 12. εποιει ¦ CT PT TR ποιει
-> - <sup>af</sup> 12. εν αυτη κατοικουντας ¦ TR κατοικουντας εν αυτη
-> - <sup>ag</sup> 12. προσκυνησωσιν ¦ NA SBL TH WH προσκυνησουσιν
-> - <sup>ah</sup> 13. και πυρ ινα εκ του ουρανου καταβαινη ¦ CT<sup>†</sup> ινα και πυρ ποιη εκ του ουρανου καταβαινειν ¦ RP<sup>mg</sup> TR ινα και πυρ ποιη καταβαινειν εκ του ουρανου ¦ ECM<sup>†</sup> ινα και πυρ ποιει καταβαινειν εκ του ουρανου
-> - <sup>ai</sup> 13. επι ¦ CT PT RP<sup>mg</sup> TR εις
-> - <sup>aj</sup> 14. τους εμους ¦ CT PT RP<sup>mg</sup> TR _om._
-> - <sup>ak</sup> 14. ο ειχεν ¦ PCK RP<sup>mg</sup> ο ειχεν την ¦ PT ος ειχε την ¦ ECM<sup>†</sup> TR ο εχει την ¦ CT<sup>†</sup> ος εχει την
-> - <sup>al</sup> 14. και εζησεν απο της μαχαιρας ¦ PCK PT RP<sup>mg</sup> TR της μαχαιρας και εζησε(ν) ¦ CT της μαχαιρης και εζησεν
-> - <sup>am</sup> 15. αυτω ¦ WH αυτη
-> - <sup>an</sup> 15. πνευμα δουναι ¦ CT TR δουναι πνευμα
-> - <sup>ao</sup> 15. οσοι εαν ¦ ECM<sup>†</sup> _txt_ ¦ TR οσοι αν ¦ ECM<sup>†</sup> SBL TH ινα οσοι εαν ¦ NA WH [ινα] οσοι εαν
-> - <sup>ap</sup> 15. τη εικονι ¦ TR την εικονα
-> - <sup>aq</sup> 15. θηριου ¦ PCK TR θηριου ινα ¦ PT θηριου [ινα]
-> - <sup>ar</sup> 16. δωσωσιν ¦ CT PCK RP<sup>mg</sup> δωσιν ¦ TR δωση ¦ PT δωσουσιν
-> - <sup>as</sup> 16. χαραγματα ¦ CT PT RP<sup>mg</sup> TR χαραγμα
-> - <sup>at</sup> 16. το μετωπον ¦ PCK PT RP<sup>mg</sup> TR των μετωπων
-> - <sup>au</sup> 17. και ¦ [WH]
-> - <sup>av</sup> 17. δυναται ¦ CT PCK PT RP<sup>mg</sup> TR δυνηται
-> - <sup>aw</sup> 17. το ¦ TR η το
-> - <sup>ax</sup> 18. νουν ¦ TR τον νουν
-> - <sup>ay</sup> 18. και ¦ HF RP<sup>mg</sup> _om._
-> - <sup>az</sup> 18. εστιν ¦ HF NA PT RP<sup>mg</sup> SBL TH TR WH _om._
-> - <sup>ba</sup> 18. εξακοσια εξηκοντα εξ ¦ NA SBL WH εξακοσιοι εξηκοντα εξ ¦ ECM HF PCK PT RP<sup>mg</sup> TH TR χξςʹ
+> - <sup>a</sup> 1. Καὶ ἐστάθην ἐπὶ τὴν ἄμμον τῆς θαλάσσης ¦ ECM<sup>†</sup> [12:18] _txt_ ¦ CT<sup>†</sup> [12:18] Καὶ ἐστάθη ἐπὶ τὴν ἄμμον τῆς θαλάσσης
+> - <sup>b</sup> 1. κέρατα δέκα καὶ κεφαλὰς ἑπτά ¦ TR κεφαλὰς ἑπτὰ καὶ κέρατα δέκα
+> - <sup>c</sup> 1. ὀνόματα ¦ NA ονομα[τα] ¦ ECM TH TR ὀνόμα
+> - <sup>d</sup> 2. ἄρκου ¦ PCK TR ἄρκτου
+> - <sup>e</sup> 3. μίαν ἐκ ¦ TR εἶδον μίαν
+> - <sup>f</sup> 3. ὡσεὶ ¦ CT PT RP<sup>mg</sup> TR ὡς
+> - <sup>g</sup> 3. ἐθαύμασεν ¦ NA SBL ST TH WH ἐθαυμάσθη
+> - <sup>h</sup> 3. ὅλη ἡ γῆ ¦ ST ἐν ὅλη τῇ γῆ
+> - <sup>i</sup> 4. τῷ δράκοντι ¦ TR τὸν δράκοντα
+> - <sup>j</sup> 4. τῷ δεδωκότι τὴν ¦ CT ὅτι ἔδωκεν τὴν ¦ TR ὃς ἔδωκεν
+> - <sup>k</sup> 4. τῷ θηρίῳ ¦ TR τὸ θηρίον
+> - <sup>l</sup> 4. Καὶ ¦ HF PT RP<sup>mg</sup> TR _om._
+> - <sup>m</sup> 4. δυνατὸς ¦ CT PT RP<sup>mg</sup> TR δύναται
+> - <sup>n</sup> 5. βλασφημίαν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR βλασφημίας
+> - <sup>o</sup> 5. πόλεμον ¦ CT TR _om._
+> - <sup>p</sup> 5. τεσσαράκοντα δύο ¦ SBL TH τεσσεράκοντα δύο ¦ NA WH τεσσεράκοντα [καὶ] δύο
+> - <sup>q</sup> 6. βλασφημίαν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> βλασφημίας
+> - <sup>r</sup> 6. τοὺς ¦ TR καὶ τοὺς
+> - <sup>s</sup> 7. Καὶ … αὐτούς ¦ [WH]
+> - <sup>t</sup> 7. ποιῆσαι πόλεμον ¦ PT TR πόλεμον ποιῆσαι
+> - <sup>u</sup> 7. καὶ λαὸν ¦ PCK TR _om._
+> - <sup>v</sup> 8. αὐτῷ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF PT RP<sup>mg</sup> αὐτὸν
+> - <sup>w</sup> 8. ὧν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> οὗ
+> - <sup>x</sup> 8. τὸ ὄνομα ¦ TR τὰ ὀνόματα ¦ CT<sup>†</sup> τὸ ὄνομα αὐτοῦ ¦ ECM<sup>†</sup> τὰ ὀνόματα αὐτῶν
+> - <sup>y</sup> 8. ἐν τῷ βιβλίῳ ¦ TR ἐν τῇ βίβλῳ
+> - <sup>z</sup> 8. τοῦ ¦ TR _om._
+> - <sup>aa</sup> 10. ἔχει ¦ ECM RP<sup>mg</sup> TH εἰς ¦ NA SBL WH εἰς αἰχμαλωσίαν εἰς ¦ TR αἰχμαλωσίαν συνάγει εἰς ¦ PT εἰς αἰχμαλωσίαν [ἀπάγει] εἰς
+> - <sup>ab</sup> 10. μαχαίρᾳ ¦ NA SBL TH WH μαχαίρῃ
+> - <sup>ac</sup> 10. ἀποκτενεῖ δει αυτον εν μαχαιρα ¦ TH WH ἀποκτενεῖ δει αυτον εν μαχαιρη ¦ PCK ἀποκτένει δει αυτον εν μαχαιρα ¦ PT [ἀποκτέννει] δει αυτον εν μαχαιρα ¦ NA SBL ἀποκτανθῆναι αὐτὸν ἐν μαχαίρῃ ¦ HF RP<sup>mg</sup> δεῖ αὐτὸν
+> - <sup>ad</sup> 11. δύο ¦ [PT]
+> - <sup>ae</sup> 12. ἐποίει ¦ CT PT TR ποιεῖ
+> - <sup>af</sup> 12. ἐν αὐτῇ κατοικοῦντας ¦ TR κατοικοῦντας ἐν αὐτῇ
+> - <sup>ag</sup> 12. προσκυνήσωσιν ¦ NA SBL TH WH προσκυνήσουσιν
+> - <sup>ah</sup> 13. καὶ πῦρ ἵνα ἐκ τοῦ οὐρανοῦ καταβαίνῃ ¦ CT<sup>†</sup> ἵνα καὶ πῦρ ποιῇ ἐκ τοῦ οὐρανοῦ καταβαίνειν ¦ RP<sup>mg</sup> TR ἵνα καὶ πῦρ ποιῇ καταβαίνειν ἐκ τοῦ οὐρανοῦ ¦ ECM<sup>†</sup> ἵνα καὶ πῦρ ποιεῖ καταβαίνειν ἐκ τοῦ οὐρανοῦ
+> - <sup>ai</sup> 13. ἐπὶ ¦ CT PT RP<sup>mg</sup> TR εἰς
+> - <sup>aj</sup> 14. τοὺς ἐμοὺς ¦ CT PT RP<sup>mg</sup> TR _om._
+> - <sup>ak</sup> 14. ὃ εἶχεν ¦ PCK RP<sup>mg</sup> ὃ εἶχεν τὴν ¦ PT ὃς εἶχε τὴν ¦ ECM<sup>†</sup> TR ὃ ἔχει τὴν ¦ CT<sup>†</sup> ὃς ἔχει τὴν
+> - <sup>al</sup> 14. καὶ ἔζησεν ἀπὸ τῆς μαχαίρας ¦ PCK PT RP<sup>mg</sup> TR τῆς μαχαίρας καί εζησε(ν) ¦ CT τῆς μαχαίρης καὶ ἔζησεν
+> - <sup>am</sup> 15. αὐτῷ ¦ WH αὐτῇ
+> - <sup>an</sup> 15. πνεῦμα δοῦναι ¦ CT TR δοῦναι πνεῦμα
+> - <sup>ao</sup> 15. ὅσοι ἐὰν ¦ ECM<sup>†</sup> _txt_ ¦ TR ὅσοι ἂν ¦ ECM<sup>†</sup> SBL TH ἵνα ὅσοι ἐὰν ¦ NA WH [ἵνα] ὅσοι ἐὰν
+> - <sup>ap</sup> 15. τῇ εἰκόνι ¦ TR τὴν εἰκόνα
+> - <sup>aq</sup> 15. θηρίου ¦ PCK TR θηρίου ἵνα ¦ PT θηρίου [ἵνα]
+> - <sup>ar</sup> 16. δώσωσιν ¦ CT PCK RP<sup>mg</sup> δῶσιν ¦ TR δώσῃ ¦ PT δώσουσιν
+> - <sup>as</sup> 16. χαράγματα ¦ CT PT RP<sup>mg</sup> TR χάραγμα
+> - <sup>at</sup> 16. τὸ μέτωπον ¦ PCK PT RP<sup>mg</sup> TR τῶν μετώπων
+> - <sup>au</sup> 17. καὶ ¦ [WH]
+> - <sup>av</sup> 17. δύναται ¦ CT PCK PT RP<sup>mg</sup> TR δύνηται
+> - <sup>aw</sup> 17. τὸ ¦ TR ἢ τὸ
+> - <sup>ax</sup> 18. νοῦν ¦ TR τὸν νοῦν
+> - <sup>ay</sup> 18. καὶ ¦ HF RP<sup>mg</sup> _om._
+> - <sup>az</sup> 18. ἐστὶν ¦ HF NA PT RP<sup>mg</sup> SBL TH TR WH _om._
+> - <sup>ba</sup> 18. ἑξακόσια ἑξήκοντα ἕξ ¦ NA SBL WH ἑξακόσιοι ἑξήκοντα ἕξ ¦ ECM HF PCK PT RP<sup>mg</sup> TH TR χξςʹ
 
 ## Chapter 14
 
@@ -919,63 +919,63 @@
 <sup>19</sup> Καὶ ἔβαλεν<sup>bc</sup> ὁ ἄγγελος τὸ δρέπανον αὐτοῦ εἰς τὴν γῆν, καὶ ἐτρύγησεν τὴν ἄμπελον τῆς γῆς, καὶ ἔβαλεν εἰς τὴν ληνὸν τοῦ θυμοῦ τοῦ θεοῦ τὸν<sup>bd</sup> μέγαν.
 <sup>20</sup> Καὶ ἐπατήθη ἡ ληνὸς ἔξωθεν<sup>be</sup> τῆς πόλεως, καὶ ἐξῆλθεν αἷμα ἐκ τῆς ληνοῦ ἄχρι τῶν χαλινῶν τῶν ἵππων, ἀπὸ σταδίων χιλίων ἑξακοσίων.
 
-> - <sup>a</sup> 1. το ¦ PCK RP<sup>mg</sup> TR _om._
-> - <sup>b</sup> 1. εστηκος ¦ RP<sup>mg</sup> εστως ¦ CT εστος
-> - <sup>c</sup> 1. αριθμος ¦ CT PCK PT RP<sup>mg</sup> TR _om._
-> - <sup>d</sup> 1. τεσσαρακοντα ¦ NA SBL TH WH τεσσερακοντα
-> - <sup>e</sup> 1. το ονομα αυτου και ¦ TR _om._
-> - <sup>f</sup> 2. φωνην ¦ [PT]
-> - <sup>g</sup> 2. η φωνη ην ηκουσα ως ¦ TR φωνην ηκουσα
-> - <sup>h</sup> 3. αδουσιν ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> SBL TH TR WH αδουσιν ως ¦ NA αδουσιν [ως]
-> - <sup>i</sup> 3. εδυνατο ¦ RP<sup>mg</sup> TR ηδυνατο
-> - <sup>j</sup> 3. τεσσαρακοντα ¦ NA SBL TH WH τεσσερακοντα
-> - <sup>k</sup> 4. εισιν ¦ CT _om._
-> - <sup>l</sup> 4. αν υπαγη ¦ HF RP<sup>mg</sup> εαν υπαγη ¦ TH WH αν υπαγει
-> - <sup>m</sup> 4. υπο ιησου ¦ CT PT RP<sup>mg</sup> TR _om._
-> - <sup>n</sup> 5. ουχ ευρεθη εν τω στοματι αυτων ψευδος ¦ PT ουχ ευρεθη ψευδος εν τω στοματι αυτων ¦ CT PCK RP<sup>mg</sup> εν τω στοματι αυτων ουχ ευρεθη ψευδος ¦ TR εν τω στοματι αυτων ουχ ευρεθη δολος
-> - <sup>o</sup> 5. γαρ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
-> - <sup>p</sup> 5. εισιν ¦ TR εισιν ενωπιον του θρονου του θεου
-> - <sup>q</sup> 6. αγγελον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK PT RP<sup>mg</sup> TR αλλον αγγελον
-> - <sup>r</sup> 6. πετομενον ¦ TR πετωμενον
-> - <sup>s</sup> 6. ευαγγελισαι ¦ PCK ευαγγελισασθαι
-> - <sup>t</sup> 6. τους ¦ CT PT επι τους
-> - <sup>u</sup> 6. καθημενους ¦ TR κατοικουντας
-> - <sup>v</sup> 6. επι ¦ TR _om._
-> - <sup>w</sup> 7. λεγων ¦ TR λεγοντα
-> - <sup>x</sup> 7. κυριον ¦ CT PCK RP<sup>mg</sup> TR θεον
-> - <sup>y</sup> 7. αυτον τον ποιησαντα ¦ CT PCK PT RP<sup>mg</sup> TR τω ποιησαντι
-> - <sup>z</sup> 7. την ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> ST _om._
-> - <sup>aa</sup> 8. δευτερος αγγελος ¦ WH δευτερος [αγγελος] ¦ ECM<sup>†</sup> NA PCK RP<sup>mg</sup> αγγελος δευτερος ¦ ECM<sup>†</sup> δευτερος ¦ TR αγγελος
-> - <sup>ab</sup> 8. επεσεν ¦ CT PCK PT RP<sup>mg</sup> TR επεσεν επεσε(ν)
-> - <sup>ac</sup> 8. η ¦ TR η πολις η
-> - <sup>ad</sup> 8. εκ ¦ NA PT SBL TH WH η εκ ¦ TR οτι εκ
-> - <sup>ae</sup> 8. τα ¦ PT TR _om._
-> - <sup>af</sup> 9. αλλος αγγελος τριτος ¦ TR τριτος αγγελος
-> - <sup>ag</sup> 9. προσκυνει το θηριον ¦ TR το θηριον προσκυνει
-> - <sup>ah</sup> 9. χαραγμα ¦ PT το χαραγμα
-> - <sup>ai</sup> 10. των αγιων αγγελων ¦ CT αγγελων αγιων
-> - <sup>aj</sup> 11. εις αιωνας αιωνων αναβαινει ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> εις αιωνα αιωνων αναβαινει ¦ TR αναβαινει εις αιωνας αιωνων
-> - <sup>ak</sup> 12. η ¦ TR _om._
-> - <sup>al</sup> 12. οι ¦ PCK RP<sup>mg</sup> TR ωδε οι
-> - <sup>am</sup> 12. ιησου ¦ PCK του ιησου
-> - <sup>an</sup> 13. λεγουσης ¦ PCK RP<sup>mg</sup> TR λεγουσης μοι
-> - <sup>ao</sup> 13. λεγει ναι ¦ CT PT RP<sup>mg</sup> TR ναι λεγει
-> - <sup>ap</sup> 13. αναπαυσωνται ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> αναπαησονται
-> - <sup>aq</sup> 13. δε ¦ CT γαρ
-> - <sup>ar</sup> 14. καθημενον ομοιον ¦ PCK PT TR καθημενος ομοιος
-> - <sup>as</sup> 14. υιω ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF NA SBL WH υιον
-> - <sup>at</sup> 15. φωνη μεγαλη ¦ TR μεγαλη φωνη
-> - <sup>au</sup> 15. ηλθεν ¦ TR ηλθε(ν) σοι
-> - <sup>av</sup> 15. θερισαι ¦ PCK RP<sup>mg</sup> TR του θερισαι ¦ PT [του] θερισαι
-> - <sup>aw</sup> 16. την νεφελην ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> της νεφελης
-> - <sup>ax</sup> 18. εξηλθεν ¦ [NA WH] ¦ SBL _om._
-> - <sup>ay</sup> 18. εχων ¦ SBL ο εχων ¦ NA WH [ο] εχων
-> - <sup>az</sup> 18. κραυγη ¦ HF RP<sup>mg</sup> εν κραυγη ¦ NA SBL WH φωνη
-> - <sup>ba</sup> 18. της αμπελου ¦ ST _om._
-> - <sup>bb</sup> 18. ηκμασαν αι σταφυλαι αυτης ¦ HF PT RP<sup>mg</sup> ηκμασεν η σταφυλη της γης
-> - <sup>bc</sup> 19. εβαλεν ¦ HF RP<sup>mg</sup> εξεβαλεν
-> - <sup>bd</sup> 19. τον μεγαν ¦ PT RP<sup>mg</sup> TR την μεγαλην
-> - <sup>be</sup> 20. εξωθεν ¦ PT TR εξω
+> - <sup>a</sup> 1. τὸ ¦ PCK RP<sup>mg</sup> TR _om._
+> - <sup>b</sup> 1. ἑστηκὸς ¦ RP<sup>mg</sup> ἑστὼς ¦ CT ἑστὸς
+> - <sup>c</sup> 1. ἀριθμὸς ¦ CT PCK PT RP<sup>mg</sup> TR _om._
+> - <sup>d</sup> 1. τεσσαράκοντα ¦ NA SBL TH WH τεσσεράκοντα
+> - <sup>e</sup> 1. τὸ ὄνομα αὐτοῦ καὶ ¦ TR _om._
+> - <sup>f</sup> 2. φωνὴν ¦ [PT]
+> - <sup>g</sup> 2. ἡ φωνὴ ἣν ἤκουσα ὡς ¦ TR φωνὴν ἤκουσα
+> - <sup>h</sup> 3. ᾄδουσιν ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> SBL TH TR WH ᾄδουσιν ὡς ¦ NA ᾄδουσιν [ὡς]
+> - <sup>i</sup> 3. ἐδύνατο ¦ RP<sup>mg</sup> TR ἠδύνατο
+> - <sup>j</sup> 3. τεσσαράκοντα ¦ NA SBL TH WH τεσσεράκοντα
+> - <sup>k</sup> 4. εἰσιν ¦ CT _om._
+> - <sup>l</sup> 4. ἂν ὑπάγῃ ¦ HF RP<sup>mg</sup> ἐὰν ὑπάγῃ ¦ TH WH ἂν ὑπάγει
+> - <sup>m</sup> 4. ὑπὸ Ἰησοῦ ¦ CT PT RP<sup>mg</sup> TR _om._
+> - <sup>n</sup> 5. οὐχ εὑρέθη ἐν τῷ στόματι αὐτῶν ψεῦδος ¦ PT οὐχ εὑρέθη ψεῦδος ἐν τῷ στόματι αὐτῶν ¦ CT PCK RP<sup>mg</sup> ἐν τῷ στόματι αὐτῶν οὐχ εὑρέθη ψεῦδος ¦ TR ἐν τῷ στόματι αὐτῶν οὐχ εὑρέθη δόλος
+> - <sup>o</sup> 5. γὰρ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
+> - <sup>p</sup> 5. εἰσιν ¦ TR εἰσιν ἐνώπιον τοῦ θρόνου τοῦ θεοῦ
+> - <sup>q</sup> 6. ἄγγελον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK PT RP<sup>mg</sup> TR ἄλλον ἄγγελον
+> - <sup>r</sup> 6. πετόμενον ¦ TR πετώμενον
+> - <sup>s</sup> 6. εὐαγγελίσαι ¦ PCK εὐαγγελίσασθαι
+> - <sup>t</sup> 6. τοὺς ¦ CT PT ἐπὶ τοὺς
+> - <sup>u</sup> 6. καθημένους ¦ TR κατοικοῦντας
+> - <sup>v</sup> 6. ἐπὶ ¦ TR _om._
+> - <sup>w</sup> 7. λέγων ¦ TR λέγοντα
+> - <sup>x</sup> 7. κύριον ¦ CT PCK RP<sup>mg</sup> TR θεόν
+> - <sup>y</sup> 7. αὐτὸν τὸν ποιήσαντα ¦ CT PCK PT RP<sup>mg</sup> TR τῷ ποιήσαντι
+> - <sup>z</sup> 7. τὴν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> ST _om._
+> - <sup>aa</sup> 8. δεύτερος ἄγγελος ¦ WH δεύτερος [ἄγγελος] ¦ ECM<sup>†</sup> NA PCK RP<sup>mg</sup> ἄγγελος δεύτερος ¦ ECM<sup>†</sup> δεύτερος ¦ TR ἄγγελος
+> - <sup>ab</sup> 8. Ἔπεσεν ¦ CT PCK PT RP<sup>mg</sup> TR Ἔπεσεν επεσε(ν)
+> - <sup>ac</sup> 8. ἡ ¦ TR ἣ πόλις ἣ
+> - <sup>ad</sup> 8. ἐκ ¦ NA PT SBL TH WH ἣ ἐκ ¦ TR ὅτι ἐκ
+> - <sup>ae</sup> 8. τὰ ¦ PT TR _om._
+> - <sup>af</sup> 9. ἄλλος ἄγγελος τρίτος ¦ TR τρίτος ἄγγελος
+> - <sup>ag</sup> 9. προσκυνεῖ τὸ θηρίον ¦ TR τὸ θηρίον προσκυνεῖ
+> - <sup>ah</sup> 9. χάραγμα ¦ PT τὸ χάραγμα
+> - <sup>ai</sup> 10. τῶν ἁγίων ἀγγέλων ¦ CT ἀγγέλων ἁγίων
+> - <sup>aj</sup> 11. εἰς αἰῶνας αἰώνων ἀναβαίνει ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> εἰς αἰῶνα αἰώνων ἀναβαίνει ¦ TR ἀναβαίνει εἰς αἰῶνας αἰώνων
+> - <sup>ak</sup> 12. ἡ ¦ TR _om._
+> - <sup>al</sup> 12. οἱ ¦ PCK RP<sup>mg</sup> TR ὧδε οἱ
+> - <sup>am</sup> 12. Ἰησοῦ ¦ PCK τοῦ Ἰησοῦ
+> - <sup>an</sup> 13. λεγούσης ¦ PCK RP<sup>mg</sup> TR λεγούσης μοι
+> - <sup>ao</sup> 13. λέγει ναὶ ¦ CT PT RP<sup>mg</sup> TR ναὶ λέγει
+> - <sup>ap</sup> 13. ἀναπαύσωνται ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> ἀναπαήσονται
+> - <sup>aq</sup> 13. δὲ ¦ CT γὰρ
+> - <sup>ar</sup> 14. καθήμενον ὅμοιον ¦ PCK PT TR καθήμενος ὅμοιος
+> - <sup>as</sup> 14. υἱῷ ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF NA SBL WH υἱὸν
+> - <sup>at</sup> 15. φωνῇ μεγάλῃ ¦ TR μεγάλῃ φωνῇ
+> - <sup>au</sup> 15. ἦλθεν ¦ TR ηλθε(ν) σοὶ
+> - <sup>av</sup> 15. θερίσαι ¦ PCK RP<sup>mg</sup> TR τοῦ θερίσαι ¦ PT [τοῦ] θερίσαι
+> - <sup>aw</sup> 16. τὴν νεφέλην ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> τῆς νεφέλης
+> - <sup>ax</sup> 18. ἐξῆλθεν ¦ [NA WH] ¦ SBL _om._
+> - <sup>ay</sup> 18. ἔχων ¦ SBL ὁ ἔχων ¦ NA WH [ὁ] ἔχων
+> - <sup>az</sup> 18. κραυγῇ ¦ HF RP<sup>mg</sup> ἐν κραυγῇ ¦ NA SBL WH φωνῇ
+> - <sup>ba</sup> 18. τῆς ἀμπέλου ¦ ST _om._
+> - <sup>bb</sup> 18. ἤκμασαν αἱ σταφυλαὶ αὐτῆς ¦ HF PT RP<sup>mg</sup> ἤκμασεν ἡ σταφυλὴ τῆς γῆς
+> - <sup>bc</sup> 19. ἔβαλεν ¦ HF RP<sup>mg</sup> ἐξέβαλεν
+> - <sup>bd</sup> 19. τὸν μέγαν ¦ PT RP<sup>mg</sup> TR τὴν μεγάλην
+> - <sup>be</sup> 20. ἔξωθεν ¦ PT TR ἔξω
 
 ## Chapter 15
 
@@ -990,28 +990,28 @@
 <sup>7</sup> καὶ ἓν ἐκ τῶν τεσσάρων ζῴων ἔδωκεν τοῖς ἑπτὰ ἀγγέλοις ἑπτὰ φιάλας χρυσᾶς γεμούσας τοῦ θυμοῦ τοῦ θεοῦ τοῦ ζῶντος εἰς τοὺς αἰῶνας τῶν αἰώνων.
 <sup>8</sup> Καὶ ἐγεμίσθη ὁ ναὸς<sup>t</sup> καπνοῦ ἐκ τῆς δόξης τοῦ θεοῦ, καὶ ἐκ τῆς δυνάμεως αὐτοῦ· καὶ οὐδεὶς ἐδύνατο<sup>u</sup> εἰσελθεῖν εἰς τὸν ναόν, ἄχρι τελεσθῶσιν αἱ ἑπτὰ πληγαὶ τῶν ἑπτὰ<sup>v</sup> ἀγγέλων.
 
-> - <sup>a</sup> 2. υαλινην ¦ PCK υελινην
-> - <sup>b</sup> 2. του θηριου και εκ της εικονος ¦ RP<sup>mg</sup> της εικονος και εκ του θηριου
-> - <sup>c</sup> 2. και ¦ TR και εκ του χαραγματος αυτου
-> - <sup>d</sup> 2. υαλινην ¦ PCK υελινην
-> - <sup>e</sup> 2. κιθαρας ¦ HF RP<sup>mg</sup> τας κιθαρας ¦ PT [τας] κιθαρας
-> - <sup>f</sup> 3. μωυσεως ¦ PCK μωυσεος ¦ TR μωσεως
-> - <sup>g</sup> 3. του ¦ RP<sup>mg</sup> ST _om._
-> - <sup>h</sup> 3. εθνων ¦ SBL WH αιωνων ¦ TR αγιων
+> - <sup>a</sup> 2. ὑαλίνην ¦ PCK ὑελίνην
+> - <sup>b</sup> 2. τοῦ θηρίου καὶ ἐκ τῆς εἰκόνος ¦ RP<sup>mg</sup> τῆς εἰκόνος καὶ ἐκ τοῦ θηρίου
+> - <sup>c</sup> 2. καὶ ¦ TR καὶ ἐκ τοῦ χαράγματος αὐτοῦ
+> - <sup>d</sup> 2. ὑαλίνην ¦ PCK ὑελίνην
+> - <sup>e</sup> 2. κιθάρας ¦ HF RP<sup>mg</sup> τὰς κιθάρας ¦ PT [τὰς] κιθάρας
+> - <sup>f</sup> 3. Μωϋσέως ¦ PCK Μωϋσέος ¦ TR Μωσέως
+> - <sup>g</sup> 3. τοῦ ¦ RP<sup>mg</sup> ST _om._
+> - <sup>h</sup> 3. ἐθνῶν ¦ SBL WH αἰώνων ¦ TR ἁγίων
 > - <sup>i</sup> 4. σε ¦ CT PT _om._
-> - <sup>j</sup> 4. δοξαση ¦ CT RP<sup>mg</sup> δοξασει
-> - <sup>k</sup> 4. αγιος ¦ PCK αγιος ει ¦ CT PT TR οσιος
-> - <sup>l</sup> 4. παντα τα εθνη ¦ HF RP<sup>mg</sup> παντες
-> - <sup>m</sup> 5. και ¦ TR και ιδου
-> - <sup>n</sup> 6. εξηλθον ¦ WH εξηλθαν
-> - <sup>o</sup> 6. οι ¦ [NA WH] ¦ TR _om._
-> - <sup>p</sup> 6. εκ του ναου ¦ PCK εκ του ουρανου ¦ HF RP<sup>mg</sup> _om._
-> - <sup>q</sup> 6. οι ησαν ¦ CT TR _om._
-> - <sup>r</sup> 6. λινον ¦ WH λιθον
-> - <sup>s</sup> 6. καθαρον ¦ TR καθαρον και
-> - <sup>t</sup> 8. ναος ¦ HF PT RP<sup>mg</sup> ναος εκ του
-> - <sup>u</sup> 8. εδυνατο ¦ PCK RP<sup>mg</sup> TR ηδυνατο
-> - <sup>v</sup> 8. επτα ¦ PCK _om._
+> - <sup>j</sup> 4. δοξάσῃ ¦ CT RP<sup>mg</sup> δοξάσει
+> - <sup>k</sup> 4. ἅγιος ¦ PCK ἅγιος εἰ ¦ CT PT TR ὅσιος
+> - <sup>l</sup> 4. πάντα τὰ ἔθνη ¦ HF RP<sup>mg</sup> πάντες
+> - <sup>m</sup> 5. καὶ ¦ TR καὶ ἰδοὺ
+> - <sup>n</sup> 6. ἐξῆλθον ¦ WH ἐξῆλθαν
+> - <sup>o</sup> 6. οἱ ¦ [NA WH] ¦ TR _om._
+> - <sup>p</sup> 6. ἐκ τοῦ ναοῦ ¦ PCK ἐκ τοῦ οὐρανοῦ ¦ HF RP<sup>mg</sup> _om._
+> - <sup>q</sup> 6. οἳ ἦσαν ¦ CT TR _om._
+> - <sup>r</sup> 6. λίνον ¦ WH λίθον
+> - <sup>s</sup> 6. καθαρὸν ¦ TR καθαρὸν καὶ
+> - <sup>t</sup> 8. ναὸς ¦ HF PT RP<sup>mg</sup> ναὸς ἐκ τοῦ
+> - <sup>u</sup> 8. ἐδύνατο ¦ PCK RP<sup>mg</sup> TR ἠδύνατο
+> - <sup>v</sup> 8. ἑπτὰ ¦ PCK _om._
 
 ## Chapter 16
 
@@ -1044,53 +1044,53 @@
 <sup>20</sup> Καὶ πᾶσα νῆσος ἔφυγεν, καὶ ὄρη οὐχ εὑρέθησαν.
 <sup>21</sup> Καὶ χάλαζα μεγάλη, ὡς ταλαντιαία, καταβαίνει ἐκ τοῦ οὐρανοῦ ἐπὶ τοὺς ἀνθρώπους· καὶ ἐβλασφήμησαν οἱ ἄνθρωποι τὸν θεὸν ἐκ τῆς πληγῆς τῆς χαλάζης· ὅτι μεγάλη ἐστὶν ἡ πληγὴ αὐτῆς<sup>au</sup> σφόδρα.
 
-> - <sup>a</sup> 1. φωνης μεγαλης ¦ NA PT SBL TH WH μεγαλης φωνης
-> - <sup>b</sup> 1. εκ του ναου ¦ RP<sup>mg</sup> _om._
-> - <sup>c</sup> 1. και ¦ PCK RP<sup>mg</sup> _om._
-> - <sup>d</sup> 1. εκχεατε ¦ CT εκχεετε
-> - <sup>e</sup> 1. επτα ¦ PCK TR _om._
-> - <sup>f</sup> 2. εις ¦ PCK RP<sup>mg</sup> TR επι
-> - <sup>g</sup> 2. επι ¦ PCK TR εις
-> - <sup>h</sup> 2. προσκυνουντας τη εικονι αυτου ¦ TR τη εικονι αυτου προσκυνουντας
-> - <sup>i</sup> 3. αγγελος ¦ [PT] ¦ CT _om._
-> - <sup>j</sup> 3. ζωσα ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> ζωης ¦ HF RP<sup>mg</sup> _om._
-> - <sup>k</sup> 3. εν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> τα εν
-> - <sup>l</sup> 4. τριτος ¦ PCK RP<sup>mg</sup> TR τριτος αγγελος
-> - <sup>m</sup> 4. εις ¦ CT PCK _om._
-> - <sup>n</sup> 4. εγενετο ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> εγενοντο
-> - <sup>o</sup> 5. ει ¦ TR κυριε ει
-> - <sup>p</sup> 5. ο οσιος ¦ ECM<sup>†</sup> _txt_ ¦ WH [ο] οσιος ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> TH οσιος ¦ ST και ο οσιος ¦ SCR και ο εσομενος
-> - <sup>q</sup> 6. εδωκας ¦ SBL TH WH δεδωκας ¦ NA [δ]εδωκας
-> - <sup>r</sup> 6. πιειν ¦ WH πειν
-> - <sup>s</sup> 6. αξιοι ¦ TR αξιοι γαρ
-> - <sup>t</sup> 7. ηκουσα ¦ TR ηκουσα αλλου εκ
-> - <sup>u</sup> 8. αγγελος ¦ CT HF PT RP<sup>mg</sup> _om._
-> - <sup>v</sup> 8. εν πυρι τους ανθρωπους ¦ CT PCK RP<sup>mg</sup> TR τους ανθρωπους εν πυρι
-> - <sup>w</sup> 9. οι ανθρωποι ¦ CT TR _om._
-> - <sup>x</sup> 9. Guardian Press: οι ανθρωποι 046 051 1862 ¦ _om._ ℵ A C P 1841
-> - <sup>y</sup> 9. εξουσιαν ¦ CT PCK την εξουσιαν
-> - <sup>z</sup> 10. πεμπτος ¦ PCK RP<sup>mg</sup> TR πεμπτος αγγελος
-> - <sup>aa</sup> 10. εμασωντο ¦ RP<sup>mg</sup> TR εμασσωντο
-> - <sup>ab</sup> 12. εκτος ¦ PCK RP<sup>mg</sup> TR εκτος αγγελος
-> - <sup>ac</sup> 12. ευφρατην ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA SBL TR τον ευφρατην ¦ PT WH [τον] ευφρατην
-> - <sup>ad</sup> 12. ανατολης ¦ PCK RP<sup>mg</sup> TR ανατολων
-> - <sup>ae</sup> 13. ακαθαρτα τρια ¦ CT PCK PT RP<sup>mg</sup> TR τρια ακαθαρτα
-> - <sup>af</sup> 13. ως βατραχοι ¦ TR ομοια βατραχοις
-> - <sup>ag</sup> 14. δαιμονιων ¦ PCK RP<sup>mg</sup> TR δαιμονων
-> - <sup>ah</sup> 14. α εκπορευεται ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> ST εκπορευεσθαι
-> - <sup>ai</sup> 14. της ¦ TR της γης και της
-> - <sup>aj</sup> 14. τον ¦ ST _om._
-> - <sup>ak</sup> 14. ημερας εκεινης της μεγαλης ¦ CT<sup>†</sup> ημερας της μεγαλης ¦ ECM<sup>†</sup> μεγαλης ημερας
-> - <sup>al</sup> 16. αρμαγεδων ¦ HF RP<sup>mg</sup> μαγεδων ¦ TR αρμαγεδδων
-> - <sup>am</sup> 17. εβδομος ¦ PCK RP<sup>mg</sup> TR εβδομος αγγελος
-> - <sup>an</sup> 17. επι ¦ PCK RP<sup>mg</sup> TR εις
-> - <sup>ao</sup> 17. απο ¦ CT PT εκ
-> - <sup>ap</sup> 17. του ουρανου ¦ CT _om._
-> - <sup>aq</sup> 18. αστραπαι και βρονται και φωναι ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT αστραπαι και φωναι και βρονται ¦ TR φωναι και βρονται και αστραπαι
-> - <sup>ar</sup> 18. σεισμος ¦ CT PCK PT RP<sup>mg</sup> TR σεισμος εγενετο
-> - <sup>as</sup> 18. οι ανθρωποι εγενοντο ¦ ECM SBL TH WH ανθρωποι εγενοντο ¦ NA ανθρωπος εγενετο
-> - <sup>at</sup> 19. επεσον ¦ CT PT επεσαν
-> - <sup>au</sup> 21. αυτης ¦ HF PT RP<sup>mg</sup> αυτη
+> - <sup>a</sup> 1. φωνῆς μεγάλης ¦ NA PT SBL TH WH μεγάλης φωνῆς
+> - <sup>b</sup> 1. ἐκ τοῦ ναοῦ ¦ RP<sup>mg</sup> _om._
+> - <sup>c</sup> 1. καὶ ¦ PCK RP<sup>mg</sup> _om._
+> - <sup>d</sup> 1. ἐκχέατε ¦ CT ἐκχέετε
+> - <sup>e</sup> 1. ἑπτὰ ¦ PCK TR _om._
+> - <sup>f</sup> 2. εἰς ¦ PCK RP<sup>mg</sup> TR ἐπὶ
+> - <sup>g</sup> 2. ἐπὶ ¦ PCK TR εἰς
+> - <sup>h</sup> 2. προσκυνοῦντας τῇ εἰκόνι αὐτοῦ ¦ TR τῇ εἰκόνι αὐτοῦ προσκυνοῦντας
+> - <sup>i</sup> 3. ἄγγελος ¦ [PT] ¦ CT _om._
+> - <sup>j</sup> 3. ζῶσα ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> ζωῆς ¦ HF RP<sup>mg</sup> _om._
+> - <sup>k</sup> 3. ἐν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> τὰ ἐν
+> - <sup>l</sup> 4. τρίτος ¦ PCK RP<sup>mg</sup> TR τρίτος ἄγγελος
+> - <sup>m</sup> 4. εἰς ¦ CT PCK _om._
+> - <sup>n</sup> 4. ἐγένετο ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> ἐγένοντο
+> - <sup>o</sup> 5. εἶ ¦ TR κύριε εἶ
+> - <sup>p</sup> 5. ὁ ὅσιος ¦ ECM<sup>†</sup> _txt_ ¦ WH [ὁ] ὅσιος ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> TH ὅσιος ¦ ST καὶ ὁ ὅσιος ¦ SCR καὶ ὁ ἐσόμενος
+> - <sup>q</sup> 6. ἔδωκας ¦ SBL TH WH δέδωκας ¦ NA [δ]εδωκας
+> - <sup>r</sup> 6. πιεῖν ¦ WH πεῖν
+> - <sup>s</sup> 6. ἄξιοί ¦ TR ἄξιοι γὰρ
+> - <sup>t</sup> 7. ἤκουσα ¦ TR ἤκουσα ἄλλου ἐκ
+> - <sup>u</sup> 8. ἄγγελος ¦ CT HF PT RP<sup>mg</sup> _om._
+> - <sup>v</sup> 8. ἐν πυρὶ τοὺς ἀνθρώπους ¦ CT PCK RP<sup>mg</sup> TR τοὺς ἀνθρώπους ἐν πυρί
+> - <sup>w</sup> 9. οἱ ἄνθρωποι ¦ CT TR _om._
+> - <sup>x</sup> 9. Guardian Press: οἱ ἄνθρωποι 046 051 1862 ¦ _om._ ℵ A C P 1841
+> - <sup>y</sup> 9. ἐξουσίαν ¦ CT PCK τὴν ἐξουσίαν
+> - <sup>z</sup> 10. πέμπτος ¦ PCK RP<sup>mg</sup> TR πέμπτος ἄγγελος
+> - <sup>aa</sup> 10. ἐμασῶντο ¦ RP<sup>mg</sup> TR ἐμασσῶντο
+> - <sup>ab</sup> 12. ἕκτος ¦ PCK RP<sup>mg</sup> TR ἕκτος ἄγγελος
+> - <sup>ac</sup> 12. Εὐφράτην ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA SBL TR τὸν Εὐφράτην ¦ PT WH [τὸν] Εὐφράτην
+> - <sup>ad</sup> 12. ἀνατολῆς ¦ PCK RP<sup>mg</sup> TR ἀνατολῶν
+> - <sup>ae</sup> 13. ἀκάθαρτα τρία ¦ CT PCK PT RP<sup>mg</sup> TR τρία ἀκάθαρτα
+> - <sup>af</sup> 13. ὡς βάτραχοι ¦ TR ὁμοία βατράχοις
+> - <sup>ag</sup> 14. δαιμονίων ¦ PCK RP<sup>mg</sup> TR δαιμόνων
+> - <sup>ah</sup> 14. ἃ ἐκπορεύεται ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> ST ἐκπορεύεσθαι
+> - <sup>ai</sup> 14. τῆς ¦ TR τῆς γῆς καὶ τῆς
+> - <sup>aj</sup> 14. τὸν ¦ ST _om._
+> - <sup>ak</sup> 14. ἡμέρας ἐκείνης τῆς μεγάλης ¦ CT<sup>†</sup> ἡμέρας τῆς μεγάλης ¦ ECM<sup>†</sup> μεγάλης ἡμέρας
+> - <sup>al</sup> 16. Ἁρμαγεδών ¦ HF RP<sup>mg</sup> Μαγεδών ¦ TR Ἁρμαγεδδών
+> - <sup>am</sup> 17. ἕβδομος ¦ PCK RP<sup>mg</sup> TR ἕβδομος ἄγγελος
+> - <sup>an</sup> 17. ἐπὶ ¦ PCK RP<sup>mg</sup> TR εἰς
+> - <sup>ao</sup> 17. ἀπὸ ¦ CT PT ἐκ
+> - <sup>ap</sup> 17. τοῦ οὐρανοῦ ¦ CT _om._
+> - <sup>aq</sup> 18. ἀστραπαὶ καὶ βρονταὶ καὶ φωναί ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT ἀστραπαὶ καὶ φωναὶ καὶ βρονταί ¦ TR φωναὶ καὶ βρονταὶ καὶ ἀστραπαί
+> - <sup>ar</sup> 18. σεισμὸς ¦ CT PCK PT RP<sup>mg</sup> TR σεισμὸς ἐγένετο
+> - <sup>as</sup> 18. οἱ ἄνθρωποι ἐγένοντο ¦ ECM SBL TH WH ἄνθρωποι ἐγένοντο ¦ NA ἄνθρωπος ἐγένετο
+> - <sup>at</sup> 19. ἔπεσον ¦ CT PT ἔπεσαν
+> - <sup>au</sup> 21. αὐτῆς ¦ HF PT RP<sup>mg</sup> αὕτη
 
 ## Chapter 17
 
@@ -1113,48 +1113,48 @@
 <sup>17</sup> Ὁ γὰρ θεὸς ἔδωκεν εἰς τὰς καρδίας αὐτῶν ποιῆσαι τὴν γνώμην αὐτοῦ, καὶ ποιῆσαι γνώμην<sup>an</sup> μίαν, καὶ δοῦναι τὴν βασιλείαν αὐτῶν τῷ θηρίῳ, ἄχρι τελεσθῶσιν<sup>ao</sup> οἱ λόγοι τοῦ θεοῦ.
 <sup>18</sup> Καὶ ἡ γυνή, ἣν εἶδες, ἐστὶν ἡ πόλις ἡ μεγάλη, ἡ ἔχουσα βασιλείαν ἐπὶ τῶν βασιλέων τῆς<sup>ap</sup> γῆς.
 
-> - <sup>a</sup> 1. λεγων ¦ TR λεγων μοι
-> - <sup>b</sup> 1. των υδατων των ¦ CT PT υδατων
-> - <sup>c</sup> 2. οι κατοικουντες την γην εκ του οινου της πορνειας αυτης ¦ TR εκ του οινου της πορνειας αυτης οι κατοικουντες την γην
-> - <sup>d</sup> 3. θηριον ¦ HF θηριον το ¦ PT [το] θηριον [το]
-> - <sup>e</sup> 3. γεμον ¦ SBL TH WH γεμοντα ¦ NA γεμον[τα]
-> - <sup>f</sup> 3. ονοματα ¦ PCK RP<sup>mg</sup> TR ονοματων
-> - <sup>g</sup> 3. εχον ¦ NA SBL TH WH εχων
-> - <sup>h</sup> 4. ην ¦ ST η
-> - <sup>i</sup> 4. πορφυρουν ¦ TR πορφυρα ¦ PCK RP<sup>mg</sup> πορφυραν
-> - <sup>j</sup> 4. κοκκινον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT κοκκινον και ¦ TR κοκκινω και
-> - <sup>k</sup> 4. χρυσιω ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR χρυσω
-> - <sup>l</sup> 4. ποτηριον χρυσουν ¦ PCK RP<sup>mg</sup> TR χρυσουν ποτηριον
-> - <sup>m</sup> 4. τα ακαθαρτα της ¦ TR ακαθαρτητος
-> - <sup>n</sup> 4. αυτης ¦ HF PT RP<sup>mg</sup> της γης
-> - <sup>o</sup> 6. ειδον ¦ ECM TH ειδα
-> - <sup>p</sup> 6. εκ ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> _om._
-> - <sup>q</sup> 6. εκ ¦ CT PCK PT RP<sup>mg</sup> TR και εκ
-> - <sup>r</sup> 7. ερω σοι ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR σοι ερω
-> - <sup>s</sup> 8. το ¦ ST _om._
-> - <sup>t</sup> 8. υπαγειν ¦ NA SBL TH WH υπαγει
-> - <sup>u</sup> 8. θαυμασονται ¦ NA SBL WH θαυμασθησονται
-> - <sup>v</sup> 8. επι της γης ¦ HF RP<sup>mg</sup> την γην
-> - <sup>w</sup> 8. τα ονοματα επι το βιβλιον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT το ονομα επι το βιβλιον ¦ HF RP<sup>mg</sup> το ονομα επι του βιβλιου
-> - <sup>x</sup> 8. βλεποντων ¦ PCK TR βλεποντες
-> - <sup>y</sup> 8. οτι ην το θηριον ¦ CT PCK PT RP<sup>mg</sup> το θηριον οτι ην ¦ TR το θηριον ο τι ην
-> - <sup>z</sup> 8. και παρεσται ¦ TR καιπερ εστιν
-> - <sup>aa</sup> 9. επτα ορη εισιν ¦ PT ορη επτα εισιν ¦ TR ορη εισιν επτα
-> - <sup>ab</sup> 10. εισιν επτα ¦ CT PCK PT RP<sup>mg</sup> TR επτα εισιν
-> - <sup>ac</sup> 10. επεσον ¦ CT PT RP<sup>mg</sup> TR επεσαν
-> - <sup>ad</sup> 10. ο ¦ TR και ο
-> - <sup>ae</sup> 10. δει αυτον ¦ CT PCK PT RP<sup>mg</sup> TR αυτον δει
-> - <sup>af</sup> 11. αυτος ¦ HF RP<sup>mg</sup> ουτος
-> - <sup>ag</sup> 12. αλλ ¦ NA<sup>27</sup> SBL TH WH αλλα
-> - <sup>ah</sup> 13. εχουσιν γνωμην ¦ CT PCK PT RP<sup>mg</sup> TR γνωμην εχουσι(ν)
-> - <sup>ai</sup> 13. την ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF RP<sup>mg</sup> _om._
-> - <sup>aj</sup> 13. αυτων τω θηριω διδοασιν ¦ TR εαυτων τω θηριω διαδιδωσουσιν
-> - <sup>ak</sup> 16. και ¦ TR επι
-> - <sup>al</sup> 16. ποιησουσιν αυτην ¦ CT PT RP<sup>mg</sup> TR _om._
-> - <sup>am</sup> 16. εν ¦ [WH]
-> - <sup>an</sup> 17. γνωμην μιαν ¦ CT PT TR μιαν γνωμην
-> - <sup>ao</sup> 17. τελεσθωσιν οι λογοι ¦ CT PCK RP<sup>mg</sup> τελεσθησονται οι λογοι ¦ TR τελεσθη τα ρηματα
-> - <sup>ap</sup> 18. της ¦ HF επι της
+> - <sup>a</sup> 1. λέγων ¦ TR λέγων μοί
+> - <sup>b</sup> 1. τῶν ὑδάτων τῶν ¦ CT PT ὑδάτων
+> - <sup>c</sup> 2. οἱ κατοικοῦντες τὴν γῆν ἐκ τοῦ οἴνου τῆς πορνείας αὐτῆς ¦ TR ἐκ τοῦ οἴνου τῆς πορνείας αὐτῆς οἱ κατοικοῦντες τὴν γῆν
+> - <sup>d</sup> 3. θηρίον ¦ HF θηρίον τὸ ¦ PT [τὸ] θηρίον [τὸ]
+> - <sup>e</sup> 3. γέμον ¦ SBL TH WH γέμοντα ¦ NA γεμον[τα]
+> - <sup>f</sup> 3. ὀνόματα ¦ PCK RP<sup>mg</sup> TR ὀνομάτων
+> - <sup>g</sup> 3. ἔχον ¦ NA SBL TH WH ἔχων
+> - <sup>h</sup> 4. ἦν ¦ ST ἡ
+> - <sup>i</sup> 4. πορφυροῦν ¦ TR πορφύρα ¦ PCK RP<sup>mg</sup> πορφύραν
+> - <sup>j</sup> 4. κόκκινον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT κόκκινον καί ¦ TR κοκκίνῳ καί
+> - <sup>k</sup> 4. χρυσίῳ ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR χρυσῷ
+> - <sup>l</sup> 4. ποτήριον χρυσοῦν ¦ PCK RP<sup>mg</sup> TR χρυσοῦν ποτήριον
+> - <sup>m</sup> 4. τὰ ἀκάθαρτα τῆς ¦ TR ἀκαθάρτητος
+> - <sup>n</sup> 4. αὐτῆς ¦ HF PT RP<sup>mg</sup> τῆς γῆς
+> - <sup>o</sup> 6. εἶδον ¦ ECM TH εἶδα
+> - <sup>p</sup> 6. ἐκ ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> _om._
+> - <sup>q</sup> 6. ἐκ ¦ CT PCK PT RP<sup>mg</sup> TR καὶ ἐκ
+> - <sup>r</sup> 7. ἐρῶ σοι ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PCK RP<sup>mg</sup> TR σοι ἐρῶ
+> - <sup>s</sup> 8. Τὸ ¦ ST _om._
+> - <sup>t</sup> 8. ὑπάγειν ¦ NA SBL TH WH ὑπάγει
+> - <sup>u</sup> 8. θαυμάσονται ¦ NA SBL WH θαυμασθήσονται
+> - <sup>v</sup> 8. ἐπὶ τῆς γῆς ¦ HF RP<sup>mg</sup> τὴν γῆν
+> - <sup>w</sup> 8. τὰ ὀνόματα ἐπὶ τὸ βιβλίον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT τὸ ὄνομα ἐπὶ τὸ βιβλίον ¦ HF RP<sup>mg</sup> τὸ ὄνομα ἐπὶ τοῦ βιβλίου
+> - <sup>x</sup> 8. βλεπόντων ¦ PCK TR βλέποντες
+> - <sup>y</sup> 8. ὅτι ἦν τὸ θηρίον ¦ CT PCK PT RP<sup>mg</sup> τὸ θηρίον ὅτι ἦν ¦ TR τὸ θηρίον ὅ τὶ ἦν
+> - <sup>z</sup> 8. καὶ παρέσται ¦ TR καίπερ ἔστιν
+> - <sup>aa</sup> 9. ἑπτὰ ὄρη εἰσίν ¦ PT ὄρη ἑπτά εἰσίν ¦ TR ὄρη εἰσὶν ἑπτά
+> - <sup>ab</sup> 10. εἰσιν ἑπτά ¦ CT PCK PT RP<sup>mg</sup> TR ἑπτά εἰσιν
+> - <sup>ac</sup> 10. ἔπεσον ¦ CT PT RP<sup>mg</sup> TR ἔπεσαν
+> - <sup>ad</sup> 10. ὁ ¦ TR καὶ ὁ
+> - <sup>ae</sup> 10. δεῖ αὐτὸν ¦ CT PCK PT RP<sup>mg</sup> TR αὐτὸν δεῖ
+> - <sup>af</sup> 11. αὐτὸς ¦ HF RP<sup>mg</sup> οὗτος
+> - <sup>ag</sup> 12. ἀλλ ¦ NA<sup>27</sup> SBL TH WH ἀλλὰ
+> - <sup>ah</sup> 13. ἔχουσιν γνώμην ¦ CT PCK PT RP<sup>mg</sup> TR γνώμην εχουσι(ν)
+> - <sup>ai</sup> 13. τὴν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF RP<sup>mg</sup> _om._
+> - <sup>aj</sup> 13. αὐτῶν τῷ θηρίῳ διδόασιν ¦ TR ἑαυτῶν τῷ θηρίῳ διαδιδώσουσιν
+> - <sup>ak</sup> 16. καὶ ¦ TR ἐπὶ
+> - <sup>al</sup> 16. ποιήσουσιν αὐτήν ¦ CT PT RP<sup>mg</sup> TR _om._
+> - <sup>am</sup> 16. ἐν ¦ [WH]
+> - <sup>an</sup> 17. γνώμην μίαν ¦ CT PT TR μίαν γνώμην
+> - <sup>ao</sup> 17. τελεσθῶσιν οἱ λόγοι ¦ CT PCK RP<sup>mg</sup> τελεσθήσονται οἱ λόγοι ¦ TR τελεσθῇ τὰ ῥήματα
+> - <sup>ap</sup> 18. τῆς ¦ HF ἐπὶ τῆς
 
 ## Chapter 18
 
@@ -1185,66 +1185,66 @@
 <sup>23</sup> καὶ φῶς λύχνου οὐ μὴ φανῇ ἐν σοὶ ἔτι, καὶ φωνὴ νυμφίου καὶ νύμφης οὐ μὴ ἀκουσθῇ ἐν σοὶ ἔτι· ὅτι<sup>bf</sup> οἱ ἔμποροί σου ἦσαν οἱ μεγιστᾶνες τῆς γῆς· ὅτι ἐν τῇ φαρμακείᾳ<sup>bg</sup> σου ἐπλανήθησαν πάντα τὰ ἔθνη.
 <sup>24</sup> Καὶ ἐν αὐτῇ αἵματα<sup>bh</sup> προφητῶν καὶ ἁγίων εὑρέθη, καὶ πάντων τῶν ἐσφαγμένων ἐπὶ τῆς γῆς.
 
-> - <sup>a</sup> 1. μετα ¦ PCK RP<sup>mg</sup> TR και μετα
-> - <sup>b</sup> 1. αλλον ¦ ST _om._
-> - <sup>c</sup> 2. ισχυρα φωνη ¦ CT PCK PT RP<sup>mg</sup> εν ισχυρα φωνη ¦ TR εν ισχυι φωνη μεγαλη
-> - <sup>d</sup> 2. επεσεν ¦ CT PCK PT RP<sup>mg</sup> TR επεσεν επεσε(ν)
-> - <sup>e</sup> 2. δαιμονων ¦ NA PT SBL TH WH δαιμονιων
-> - <sup>f</sup> 2. ακαθαρτου ¦ SBL ακαθαρτου και φυλακη παντος θηριου ακαθαρτου ¦ NA ακαθαρτου [και φυλακη παντος θηριου ακαθαρτου]
-> - <sup>g</sup> 3. του οινου του θυμου ¦ WH [του οινου] του θυμου ¦ PCK RP<sup>mg</sup> του θυμου του οινου
-> - <sup>h</sup> 3. πεπτωκασιν ¦ SBL TH WH πεπτωκαν ¦ HF RP<sup>mg</sup> πεπωκασι(ν) ¦ NA PT πεπωκαν ¦ PCK RP<sup>mg</sup> TR πεπωκε(ν)
-> - <sup>i</sup> 4. εξελθε ¦ PCK RP<sup>mg</sup> TR εξελθετε ¦ CT εξελθατε
-> - <sup>j</sup> 4. εξ αυτης ο λαος μου ¦ NA SBL TH WH ο λαος μου εξ αυτης
-> - <sup>k</sup> 4. συγκοινωνησητε ¦ ECM TH WH συνκοινωνησητε
-> - <sup>l</sup> 4. εκ των πληγων αυτης ινα μη λαβητε ¦ TR ινα μη λαβητε εκ των πληγων αυτης ¦ PT ινα εκ των πληγων αυτης μη λαβητε
-> - <sup>m</sup> 5. εκολληθησαν ¦ ST ηκολουθησαν
-> - <sup>n</sup> 5. εμνημονευσεν ¦ HF PCK RP<sup>mg</sup> εμνημονευσεν αυτης
-> - <sup>o</sup> 6. απεδωκεν ¦ PCK RP<sup>mg</sup> TR απεδωκεν υμιν
-> - <sup>p</sup> 6. αυτη διπλα ¦ PT [αυτη] διπλα ¦ ECM διπλα ¦ NA SBL TH τα διπλα ¦ WH [τα] διπλα ¦ HF RP<sup>mg</sup> τα διπλα ως και αυτη και
-> - <sup>q</sup> 6. ω ¦ HF RP<sup>mg</sup> αυτης ω
-> - <sup>r</sup> 7. αυτην ¦ ECM PCK PT RP<sup>mg</sup> TR εαυτην ¦ SBL WH αὑτὴν
-> - <sup>s</sup> 7. και πενθος ¦ PCK _om._
-> - <sup>t</sup> 7. οτι καθημαι ¦ TR καθημαι ¦ PT οτι καθημαι [καθως]
-> - <sup>u</sup> 8. και ¦ HF RP<sup>mg</sup> _om._
-> - <sup>v</sup> 8. κυριος ¦ [WH]
-> - <sup>w</sup> 8. κρινας ¦ TR κρινων
-> - <sup>x</sup> 9. κλαυσουσιν ¦ PT κλαυσουσιν αυτην ¦ TR κλαυσονται αυτην
-> - <sup>y</sup> 9. αυτην ¦ PT TR αυτη
-> - <sup>z</sup> 10. μια ¦ TR εν μια
-> - <sup>aa</sup> 11. κλαυσουσιν και πενθησουσιν ¦ CT PCK RP<sup>mg</sup> TR κλαιουσι(ν) και πενθουσιν
-> - <sup>ab</sup> 11. αυτη ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> αυτην
-> - <sup>ac</sup> 12. μαργαριτου ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> μαργαριτων
-> - <sup>ad</sup> 12. βυσσινου ¦ PCK RP<sup>mg</sup> TR βυσσου
-> - <sup>ae</sup> 12. πορφυρου ¦ CT PT TR πορφυρας
-> - <sup>af</sup> 12. σηρικου ¦ CT σιρικου
-> - <sup>ag</sup> 13. κιναμωμον ¦ RP<sup>mg</sup> κιν[ν]αμωμου ¦ PT κιναμωμον και αμωμον ¦ CT κινναμωμον και αμωμον
-> - <sup>ah</sup> 13. οινον και ¦ RP<sup>mg</sup> _om._
-> - <sup>ai</sup> 13. προβατα και κτηνη ¦ CT PCK PT RP<sup>mg</sup> TR κτηνη και προβατα
-> - <sup>aj</sup> 13. ραιδων ¦ CT PT RP<sup>mg</sup> TR ρεδων
-> - <sup>ak</sup> 14. της επιθυμιας της ψυχης σου ¦ CT σου της επιθυμιας της ψυχης
-> - <sup>al</sup> 14. απηλθεν ¦ PT απωλετο
-> - <sup>am</sup> 14. απωλετο ¦ PCK απωλοντο ¦ PT RP<sup>mg</sup> TR απηλθεν
-> - <sup>an</sup> 14. αυτα ου μη ευρης ¦ ECM αυτα ου μη ευρησουσιν ¦ TR ου μη ευρησης αυτα ¦ PCK RP<sup>mg</sup> ου μη ευρησεις αυτα ¦ PT ου μη αυτα ευρησεις ¦ NA SBL TH WH ου μη αυτα ευρησουσιν
-> - <sup>ao</sup> 15. κλαιοντες ¦ HF και κλαιοντες
-> - <sup>ap</sup> 16. και ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT RP<sup>mg</sup> _om._
-> - <sup>aq</sup> 16. ουαι ¦ RP<sup>mg</sup> _om._
-> - <sup>ar</sup> 16. βυσσινον ¦ HF βυσσον
-> - <sup>as</sup> 16. χρυσιω ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PT εν χρυσιω ¦ NA WH [εν] χρυσιω ¦ PCK RP<sup>mg</sup> TR εν χρυσω
-> - <sup>at</sup> 16. μαργαριταις ¦ CT μαργαριτη
-> - <sup>au</sup> 17. ο επι τοπον πλεων ¦ PCK ο επι των πλοιων πλεων ¦ RP<sup>mg</sup> [ο] επι των πλοιων πλεων ¦ TR επι των πλοιων ο ομιλος
-> - <sup>av</sup> 18. εκραζον ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> SBL TH WH εκραξαν
-> - <sup>aw</sup> 18. βλεποντες ¦ TR ορωντες
-> - <sup>ax</sup> 19. εκραζον ¦ SBL TH WH εκραξαν
-> - <sup>ay</sup> 19. και ¦ NA PT SBL TH TR WH _om._
-> - <sup>az</sup> 19. τα ¦ TR _om._
-> - <sup>ba</sup> 20. αυτη ¦ TR αυτην
-> - <sup>bb</sup> 20. και οι ¦ TR _om._
-> - <sup>bc</sup> 21. μυλον ¦ NA SBL TH WH μυλινον
-> - <sup>bd</sup> 21. ουτως ¦ PCK _om._
-> - <sup>be</sup> 22. πασης τεχνης ¦ [WH]
-> - <sup>bf</sup> 23. οτι οι ¦ WH οτι [οι] ¦ HF οι
-> - <sup>bg</sup> 23. φαρμακεια ¦ ECM TH WH φαρμακια
-> - <sup>bh</sup> 24. αιματα ¦ CT TR αιμα
+> - <sup>a</sup> 1. Μετὰ ¦ PCK RP<sup>mg</sup> TR Καὶ μετὰ
+> - <sup>b</sup> 1. ἄλλον ¦ ST _om._
+> - <sup>c</sup> 2. ἰσχυρᾷ φωνῇ ¦ CT PCK PT RP<sup>mg</sup> ἐν ἰσχυρᾷ φωνῇ ¦ TR ἐν ἰσχύϊ φωνῇ μεγάλη
+> - <sup>d</sup> 2. Ἔπεσεν ¦ CT PCK PT RP<sup>mg</sup> TR Ἔπεσεν επεσε(ν)
+> - <sup>e</sup> 2. δαιμόνων ¦ NA PT SBL TH WH δαιμονίων
+> - <sup>f</sup> 2. ἀκαθάρτου ¦ SBL ἀκαθάρτου καὶ φυλακὴ παντὸς θηρίου ἀκαθάρτου ¦ NA ἀκαθάρτου [καὶ φυλακὴ παντὸς θηρίου ἀκαθάρτου]
+> - <sup>g</sup> 3. τοῦ οἴνου τοῦ θυμοῦ ¦ WH [τοῦ οἴνου] τοῦ θυμοῦ ¦ PCK RP<sup>mg</sup> τοῦ θυμοῦ τοῦ οἴνου
+> - <sup>h</sup> 3. πεπτώκασιν ¦ SBL TH WH πέπτωκαν ¦ HF RP<sup>mg</sup> πεπωκασι(ν) ¦ NA PT πέπωκαν ¦ PCK RP<sup>mg</sup> TR πεπωκε(ν)
+> - <sup>i</sup> 4. Ἔξελθε ¦ PCK RP<sup>mg</sup> TR Ἐξέλθετε ¦ CT Ἐξέλθατε
+> - <sup>j</sup> 4. ἐξ αὐτῆς ὁ λαός μου ¦ NA SBL TH WH ὁ λαός μου ἐξ αὐτῆς
+> - <sup>k</sup> 4. συγκοινωνήσητε ¦ ECM TH WH συνκοινωνήσητε
+> - <sup>l</sup> 4. ἐκ τῶν πληγῶν αὐτῆς ἵνα μὴ λάβητε ¦ TR ἵνα μὴ λάβητε ἐκ τῶν πληγῶν αὐτῆς ¦ PT ἵνα ἐκ τῶν πληγῶν αὐτῆς μὴ λάβητε
+> - <sup>m</sup> 5. ἐκολλήθησαν ¦ ST ἠκολούθησαν
+> - <sup>n</sup> 5. ἐμνημόνευσεν ¦ HF PCK RP<sup>mg</sup> ἐμνημόνευσεν αὐτῆς
+> - <sup>o</sup> 6. ἀπέδωκεν ¦ PCK RP<sup>mg</sup> TR ἀπέδωκεν ὑμῖν
+> - <sup>p</sup> 6. αὐτῇ διπλᾶ ¦ PT [αὐτῇ] διπλᾶ ¦ ECM διπλᾶ ¦ NA SBL TH τὰ διπλᾶ ¦ WH [τὰ] διπλᾶ ¦ HF RP<sup>mg</sup> τὰ διπλᾶ ὡς καὶ αὐτῇ καὶ
+> - <sup>q</sup> 6. ᾧ ¦ HF RP<sup>mg</sup> αὐτῆς ᾧ
+> - <sup>r</sup> 7. αὐτὴν ¦ ECM PCK PT RP<sup>mg</sup> TR ἑαυτὴν ¦ SBL WH αὑτὴν
+> - <sup>s</sup> 7. καὶ πένθος ¦ PCK _om._
+> - <sup>t</sup> 7. ὅτι Κάθημαι ¦ TR Κάθημαι ¦ PT ὅτι Κάθημαι [καθὼς]
+> - <sup>u</sup> 8. καὶ ¦ HF RP<sup>mg</sup> _om._
+> - <sup>v</sup> 8. κύριος ¦ [WH]
+> - <sup>w</sup> 8. κρίνας ¦ TR κρίνων
+> - <sup>x</sup> 9. κλαύσουσιν ¦ PT κλαύσουσιν αὐτὴν ¦ TR κλαύσονται αὐτὴν
+> - <sup>y</sup> 9. αὐτὴν ¦ PT TR αὐτῇ
+> - <sup>z</sup> 10. μιᾷ ¦ TR ἐν μιᾷ
+> - <sup>aa</sup> 11. κλαύσουσιν καὶ πενθήσουσιν ¦ CT PCK RP<sup>mg</sup> TR κλαιουσι(ν) καὶ πενθοῦσιν
+> - <sup>ab</sup> 11. αὐτῇ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> αὐτήν
+> - <sup>ac</sup> 12. μαργαρίτου ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> μαργαριτῶν
+> - <sup>ad</sup> 12. βυσσίνου ¦ PCK RP<sup>mg</sup> TR βύσσου
+> - <sup>ae</sup> 12. πορφυροῦ ¦ CT PT TR πορφύρας
+> - <sup>af</sup> 12. σηρικοῦ ¦ CT σιρικοῦ
+> - <sup>ag</sup> 13. κινάμωμον ¦ RP<sup>mg</sup> κιν[ν]αμωμου ¦ PT κινάμωμον καὶ ἄμωμον ¦ CT κιννάμωμον καὶ ἄμωμον
+> - <sup>ah</sup> 13. οἶνον καὶ ¦ RP<sup>mg</sup> _om._
+> - <sup>ai</sup> 13. πρόβατα καὶ κτήνη ¦ CT PCK PT RP<sup>mg</sup> TR κτήνη καὶ πρόβατα
+> - <sup>aj</sup> 13. ῥαιδῶν ¦ CT PT RP<sup>mg</sup> TR ῥεδῶν
+> - <sup>ak</sup> 14. τῆς ἐπιθυμίας τῆς ψυχῆς σου ¦ CT σου τῆς ἐπιθυμίας τῆς ψυχῆς
+> - <sup>al</sup> 14. ἀπῆλθεν ¦ PT ἀπώλετο
+> - <sup>am</sup> 14. ἀπώλετο ¦ PCK ἀπώλοντο ¦ PT RP<sup>mg</sup> TR ἀπῆλθεν
+> - <sup>an</sup> 14. αὐτὰ οὐ μὴ εὕρῃς ¦ ECM αὐτὰ οὐ μὴ εὑρήσουσιν ¦ TR οὐ μὴ εὑρήσης αὐτά ¦ PCK RP<sup>mg</sup> οὐ μὴ εὑρήσεις αὐτά ¦ PT οὐ μὴ αὐτὰ εὑρήσεις ¦ NA SBL TH WH οὐ μὴ αὐτὰ εὑρήσουσιν
+> - <sup>ao</sup> 15. κλαίοντες ¦ HF καὶ κλαίοντες
+> - <sup>ap</sup> 16. καὶ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PT RP<sup>mg</sup> _om._
+> - <sup>aq</sup> 16. οὐαί ¦ RP<sup>mg</sup> _om._
+> - <sup>ar</sup> 16. βύσσινον ¦ HF βύσσον
+> - <sup>as</sup> 16. χρυσίῳ ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PT ἐν χρυσίῳ ¦ NA WH [ἐν] χρυσίῳ ¦ PCK RP<sup>mg</sup> TR ἐν χρυσῷ
+> - <sup>at</sup> 16. μαργαρίταις ¦ CT μαργαρίτῃ
+> - <sup>au</sup> 17. ὁ ἐπὶ τόπον πλέων ¦ PCK ὁ ἐπὶ τῶν πλοίων πλέων ¦ RP<sup>mg</sup> [ὁ] ἐπὶ τῶν πλοίων πλέων ¦ TR ἐπὶ τῶν πλοίων ὁ ὅμιλος
+> - <sup>av</sup> 18. ἔκραζον ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> SBL TH WH ἔκραξαν
+> - <sup>aw</sup> 18. βλέποντες ¦ TR ὁρῶντες
+> - <sup>ax</sup> 19. ἔκραζον ¦ SBL TH WH ἔκραξαν
+> - <sup>ay</sup> 19. καὶ ¦ NA PT SBL TH TR WH _om._
+> - <sup>az</sup> 19. τὰ ¦ TR _om._
+> - <sup>ba</sup> 20. αὐτῇ ¦ TR αὐτήν
+> - <sup>bb</sup> 20. καὶ οἱ ¦ TR _om._
+> - <sup>bc</sup> 21. μύλον ¦ NA SBL TH WH μύλινον
+> - <sup>bd</sup> 21. Οὕτως ¦ PCK _om._
+> - <sup>be</sup> 22. πάσης τέχνης ¦ [WH]
+> - <sup>bf</sup> 23. ὅτι οἱ ¦ WH ὅτι [οἱ] ¦ HF οἱ
+> - <sup>bg</sup> 23. φαρμακείᾳ ¦ ECM TH WH φαρμακία
+> - <sup>bh</sup> 24. αἵματα ¦ CT TR αἷμα
 
 ## Chapter 19
 
@@ -1273,60 +1273,60 @@
 <sup>20</sup> Καὶ ἐπιάσθη τὸ θηρίον, καὶ ὁ<sup>ay</sup> μετ’ αὐτοῦ ψευδοπροφήτης ὁ ποιήσας τὰ σημεῖα ἐνώπιον αὐτοῦ, ἐν οἷς ἐπλάνησεν τοὺς λαβόντας τὸ χάραγμα τοῦ θηρίου, καὶ τοὺς προσκυνοῦντας τῇ εἰκόνι αὐτοῦ· ζῶντες ἐβλήθησαν οἱ δύο εἰς τὴν λίμνην τοῦ πυρὸς τὴν<sup>az</sup> καιομένην ἐν θείῳ·<sup>ba</sup>
 <sup>21</sup> καὶ οἱ λοιποὶ ἀπεκτάνθησαν ἐν τῇ ῥομφαίᾳ τοῦ καθημένου ἐπὶ τοῦ ἵππου, τῇ ἐξελθούσῃ<sup>bb</sup> ἐκ τοῦ στόματος αὐτοῦ· καὶ πάντα τὰ ὄρνεα ἐχορτάσθησαν ἐκ τῶν σαρκῶν αὐτῶν.
 
-> - <sup>a</sup> 1. μετα ¦ PCK RP<sup>mg</sup> TR και μετα
-> - <sup>b</sup> 1. ως ¦ TR _om._
-> - <sup>c</sup> 1. μεγαλην οχλου πολλου ¦ PCK TR οχλου πολλου μεγαλην
-> - <sup>d</sup> 1. λεγοντων ¦ TR λεγοντος
-> - <sup>e</sup> 1. δυναμις και η δοξα του θεου ημων ¦ CT PT δοξα και η δυναμις του θεου ημων ¦ TR δοξα και η τιμη και η δυναμις κυριω τω θεω ημων
-> - <sup>f</sup> 2. διεφθειρεν ¦ CT TR εφθειρε(ν)
-> - <sup>g</sup> 2. χειρος ¦ RP<sup>mg</sup> TR της χειρος
-> - <sup>h</sup> 3. ειρηκεν ¦ CT PT TR ειρηκαν
-> - <sup>i</sup> 4. επεσον ¦ CT PCK PT RP<sup>mg</sup> TR επεσαν
-> - <sup>j</sup> 4. πρεσβυτεροι οι εικοσι τεσσαρες ¦ TR πρεσβυτεροι οι εικοσι και τεσσαρες ¦ PT εικοσι και τεσσαρες πρεσβυτεροι
-> - <sup>k</sup> 4. τεσσαρα ¦ TH WH τεσσερα
-> - <sup>l</sup> 4. του θρονου ¦ CT HF PT RP<sup>mg</sup> τω θρονω
-> - <sup>m</sup> 5. απο ¦ PCK RP<sup>mg</sup> TR εκ
-> - <sup>n</sup> 5. τον θεον ¦ CT τω θεω
-> - <sup>o</sup> 5. και ¦ [NA] ¦ WH _om._
-> - <sup>p</sup> 5. οι ¦ TR και οι
-> - <sup>q</sup> 6. λεγοντες ¦ CT PT RP<sup>mg</sup> λεγοντων ¦ PCK RP<sup>mg</sup> TR λεγοντας
-> - <sup>r</sup> 6. ημων ¦ [NA WH] ¦ PT SBL TR _om._
-> - <sup>s</sup> 7. αγαλλιωμεθα ¦ CT αγαλλιωμεν
-> - <sup>t</sup> 7. δωμεν ¦ NA δωσωμεν ¦ SBL WH δωσομεν
-> - <sup>u</sup> 8. λαμπρον και καθαρον ¦ TR καθαρον και λαμπρον ¦ CT PT λαμπρον καθαρον
-> - <sup>v</sup> 8. των αγιων εστιν ¦ TR εστι(ν) των αγιων
-> - <sup>w</sup> 9. το ¦ HF τον
-> - <sup>x</sup> 9. του θεου εισιν ¦ PCK RP<sup>mg</sup> TR εισι(ν) του θεου
-> - <sup>y</sup> 10. επεσα ¦ PCK RP<sup>mg</sup> TR επεσον
-> - <sup>z</sup> 10. ιησου ¦ TR του ιησου
-> - <sup>aa</sup> 10. του ¦ CT _om._
-> - <sup>ab</sup> 11. ανεωγμενον ¦ NA SBL TH WH ηνεωγμενον
-> - <sup>ac</sup> 11. καλουμενος πιστος ¦ ECM<sup>†</sup> _txt_ ¦ NA [καλουμενος] πιστος ¦ SBL πιστος καλουμενος ¦ WH πιστος [καλουμενος] ¦ ECM<sup>†</sup> πιστος
-> - <sup>ad</sup> 12. φλοξ ¦ PT TR ως φλοξ ¦ NA [ως] φλοξ
-> - <sup>ae</sup> 12. ονοματα γεγραμμενα και ¦ [PT] ¦ CT TR _om._
-> - <sup>af</sup> 13. βεβαμμενον ¦ PT βεβαμμενον [εν] ¦ WH ρεραντισμενον
-> - <sup>ag</sup> 13. καλειται ¦ CT HF PT RP<sup>mg</sup> κεκληται
-> - <sup>ah</sup> 14. τα ¦ [NA PT] ¦ RP<sup>mg</sup> ST TH _om._
-> - <sup>ai</sup> 14. επι ¦ CT TR εφ
-> - <sup>aj</sup> 14. καθαρον ¦ TR και καθαρον
-> - <sup>ak</sup> 15. διστομος οξεια ¦ PT οξεια [διστομος] ¦ CT TR οξεια
-> - <sup>al</sup> 15. παταξη ¦ PT TR πατασση
-> - <sup>am</sup> 15. της ¦ TR και της
-> - <sup>an</sup> 16. ονομα ¦ ST το ονομα
-> - <sup>ao</sup> 17. αγγελον ¦ CT PCK PT RP<sup>mg</sup> TR ενα αγγελον
-> - <sup>ap</sup> 17. φωνη ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF εν φωνη ¦ NA PT WH [εν] φωνη
-> - <sup>aq</sup> 17. πετομενοις ¦ TR πετωμενοις
-> - <sup>ar</sup> 17. συναχθητε ¦ TR και συναγεσθε
-> - <sup>as</sup> 17. το δειπνον το μεγα του ¦ RP<sup>mg</sup> TR το δειπνον του μεγαλου ¦ HF RP<sup>mg</sup> τον δειπνον τον μεγαν του
-> - <sup>at</sup> 18. αυτων ¦ WH αυτους
+> - <sup>a</sup> 1. Μετὰ ¦ PCK RP<sup>mg</sup> TR Καὶ μετὰ
+> - <sup>b</sup> 1. ὡς ¦ TR _om._
+> - <sup>c</sup> 1. μεγάλην ὄχλου πολλοῦ ¦ PCK TR ὄχλου πολλοῦ μεγάλην
+> - <sup>d</sup> 1. λεγόντων ¦ TR λέγοντος
+> - <sup>e</sup> 1. δύναμις καὶ ἡ δόξα τοῦ θεοῦ ἡμῶν ¦ CT PT δόξα καὶ ἡ δύναμις τοῦ θεοῦ ἡμῶν ¦ TR δόξα καὶ ἡ τιμὴ καὶ ἡ δύναμις κυρίῳ τῷ θεῷ ἡμῶν
+> - <sup>f</sup> 2. διέφθειρεν ¦ CT TR εφθειρε(ν)
+> - <sup>g</sup> 2. χειρὸς ¦ RP<sup>mg</sup> TR τῆς χειρὸς
+> - <sup>h</sup> 3. εἴρηκεν ¦ CT PT TR εἴρηκαν
+> - <sup>i</sup> 4. ἔπεσον ¦ CT PCK PT RP<sup>mg</sup> TR ἔπεσαν
+> - <sup>j</sup> 4. πρεσβύτεροι οἱ εἴκοσι τέσσαρες ¦ TR πρεσβύτεροι οἱ εἴκοσι καὶ τέσσαρες ¦ PT εἴκοσι καὶ τέσσαρες πρεσβύτεροι
+> - <sup>k</sup> 4. τέσσαρα ¦ TH WH τέσσερα
+> - <sup>l</sup> 4. τοῦ θρόνου ¦ CT HF PT RP<sup>mg</sup> τῷ θρόνῳ
+> - <sup>m</sup> 5. ἀπὸ ¦ PCK RP<sup>mg</sup> TR ἐκ
+> - <sup>n</sup> 5. τὸν θεὸν ¦ CT τῷ θεῷ
+> - <sup>o</sup> 5. καὶ ¦ [NA] ¦ WH _om._
+> - <sup>p</sup> 5. οἱ ¦ TR καὶ οἱ
+> - <sup>q</sup> 6. λέγοντες ¦ CT PT RP<sup>mg</sup> λεγόντων ¦ PCK RP<sup>mg</sup> TR λέγοντας
+> - <sup>r</sup> 6. ἡμῶν ¦ [NA WH] ¦ PT SBL TR _om._
+> - <sup>s</sup> 7. ἀγαλλιώμεθα ¦ CT ἀγαλλιῶμεν
+> - <sup>t</sup> 7. δῶμεν ¦ NA δώσωμεν ¦ SBL WH δώσομεν
+> - <sup>u</sup> 8. λαμπρὸν καὶ καθαρόν ¦ TR καθαρὸν καὶ λαμπρόν ¦ CT PT λαμπρὸν καθαρόν
+> - <sup>v</sup> 8. τῶν ἁγίων ἐστίν ¦ TR εστι(ν) τῶν ἁγίων
+> - <sup>w</sup> 9. τὸ ¦ HF τὸν
+> - <sup>x</sup> 9. τοῦ θεοῦ εἰσιν ¦ PCK RP<sup>mg</sup> TR εισι(ν) τοῦ θεοῦ
+> - <sup>y</sup> 10. ἔπεσα ¦ PCK RP<sup>mg</sup> TR ἔπεσον
+> - <sup>z</sup> 10. Ἰησοῦ ¦ TR τοῦ Ἰησοῦ
+> - <sup>aa</sup> 10. τοῦ ¦ CT _om._
+> - <sup>ab</sup> 11. ἀνεῳγμένον ¦ NA SBL TH WH ἠνεῳγμένον
+> - <sup>ac</sup> 11. καλούμενος πιστὸς ¦ ECM<sup>†</sup> _txt_ ¦ NA [καλούμενος] πιστὸς ¦ SBL πιστὸς καλούμενος ¦ WH πιστὸς [καλούμενος] ¦ ECM<sup>†</sup> πιστὸς
+> - <sup>ad</sup> 12. φλὸξ ¦ PT TR ὡς φλὸξ ¦ NA [ὡς] φλὸξ
+> - <sup>ae</sup> 12. ὀνόματα γεγραμμένα καὶ ¦ [PT] ¦ CT TR _om._
+> - <sup>af</sup> 13. βεβαμμένον ¦ PT βεβαμμένον [ἐν] ¦ WH ῥεραντισμένον
+> - <sup>ag</sup> 13. καλεῖται ¦ CT HF PT RP<sup>mg</sup> κέκληται
+> - <sup>ah</sup> 14. τὰ ¦ [NA PT] ¦ RP<sup>mg</sup> ST TH _om._
+> - <sup>ai</sup> 14. ἐπὶ ¦ CT TR ἐφ
+> - <sup>aj</sup> 14. καθαρόν ¦ TR καὶ καθαρόν
+> - <sup>ak</sup> 15. δίστομος ὀξεῖα ¦ PT ὀξεῖα [δίστομος] ¦ CT TR ὀξεῖα
+> - <sup>al</sup> 15. πατάξῃ ¦ PT TR πατάσσῃ
+> - <sup>am</sup> 15. τῆς ¦ TR καὶ τῆς
+> - <sup>an</sup> 16. ὄνομα ¦ ST τὸ ὄνομα
+> - <sup>ao</sup> 17. ἄγγελον ¦ CT PCK PT RP<sup>mg</sup> TR ἕνα ἄγγελον
+> - <sup>ap</sup> 17. φωνῇ ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF ἐν φωνῇ ¦ NA PT WH [ἐν] φωνῇ
+> - <sup>aq</sup> 17. πετομένοις ¦ TR πετωμένοις
+> - <sup>ar</sup> 17. συνάχθητε ¦ TR καὶ συνάγεσθε
+> - <sup>as</sup> 17. τὸ δεῖπνον τὸ μέγα τοῦ ¦ RP<sup>mg</sup> TR τὸ δεῖπνον τοῦ μεγάλου ¦ HF RP<sup>mg</sup> τὸν δεῖπνον τὸν μέγαν τοῦ
+> - <sup>at</sup> 18. αὐτῶν ¦ WH αὐτούς
 > - <sup>au</sup> 18. τε ¦ [PT] ¦ ST _om._
 > - <sup>av</sup> 18. τε ¦ [PT] ¦ CT RP<sup>mg</sup> TR _om._
-> - <sup>aw</sup> 19. ειδον ¦ ECM ιδον
-> - <sup>ax</sup> 19. πολεμον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF PT τον πολεμον
-> - <sup>ay</sup> 20. ο μετ αυτου ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK RP<sup>mg</sup> μετ αυτου ο ¦ TR μετα τουτου ο
-> - <sup>az</sup> 20. την καιομενην ¦ NA SBL TH WH της καιομενης
-> - <sup>ba</sup> 20. θειω ¦ RP<sup>mg</sup> TR τω θειω
-> - <sup>bb</sup> 21. εξελθουση ¦ TR εκπορευομενη
+> - <sup>aw</sup> 19. εἶδον ¦ ECM ἴδον
+> - <sup>ax</sup> 19. πόλεμον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> HF PT τὸν πόλεμον
+> - <sup>ay</sup> 20. ὁ μετ αὐτοῦ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> PCK RP<sup>mg</sup> μετ αὐτοῦ ὁ ¦ TR μετὰ τούτου ὁ
+> - <sup>az</sup> 20. τὴν καιομένην ¦ NA SBL TH WH τῆς καιομένης
+> - <sup>ba</sup> 20. θείῳ ¦ RP<sup>mg</sup> TR τῷ θείῳ
+> - <sup>bb</sup> 21. ἐξελθούσῃ ¦ TR ἐκπορευομένη
 
 ## Chapter 20
 
@@ -1349,47 +1349,47 @@
 <sup>14</sup> Καὶ ὁ Θάνατος καὶ ὁ ᾍδης ἐβλήθησαν εἰς τὴν λίμνην τοῦ πυρός· οὗτος ὁ<sup>am</sup> θάνατος ὁ δεύτερός ἐστιν, ἡ<sup>an</sup> λίμνη τοῦ πυρός.
 <sup>15</sup> Καὶ εἴ τις οὐχ εὑρέθη ἐν τῷ<sup>ao</sup> βιβλίῳ τῆς ζωῆς γεγραμμένος, ἐβλήθη εἰς τὴν λίμνην τοῦ πυρός.
 
-> - <sup>a</sup> 1. κλειν ¦ TR κλειδα
-> - <sup>b</sup> 2. τον οφιν τον αρχαιον ¦ NA SBL TH WH ο οφις ο αρχαιος
-> - <sup>c</sup> 2. ο ¦ [PT] ¦ RP<sup>mg</sup> TR _om._
-> - <sup>d</sup> 2. ο πλανων την οικουμενην ολην ¦ PT [ο πλανων την οικουμενην] ¦ CT TR _om._
-> - <sup>e</sup> 3. εκλεισεν ¦ TR εκλεισεν αυτον
-> - <sup>f</sup> 3. πλανα ¦ CT TR πλανηση
-> - <sup>g</sup> 3. ετι τα εθνη ¦ TR τα εθνη ετι
-> - <sup>h</sup> 3. και ¦ CT HF PT RP<sup>mg</sup> _om._
-> - <sup>i</sup> 3. αυτον λυθηναι ¦ CT HF RP<sup>mg</sup> λυθηναι αυτον
-> - <sup>j</sup> 4. το θηριον ουδε ¦ PT το θηριον ουτε ¦ PCK RP<sup>mg</sup> TR τω θηριω ουτε
-> - <sup>k</sup> 4. την εικονα ¦ PCK τη εικονι
-> - <sup>l</sup> 4. μετωπον ¦ PCK PT RP<sup>mg</sup> TR μετωπον αυτων
-> - <sup>m</sup> 4. του ¦ TR _om._
-> - <sup>n</sup> 4. τα ¦ CT PCK PT RP<sup>mg</sup> SCR _om._
-> - <sup>o</sup> 5. και οι ¦ NA SBL TH WH οι ¦ TR οι δε ¦ ECM _om._
-> - <sup>p</sup> 5. λοιποι … ετη ¦ ECM _om._
-> - <sup>q</sup> 5. εζησαν αχρι ¦ PT εζησαν εως ¦ TR ανεζησαν εως
-> - <sup>r</sup> 6. δευτερος θανατος ¦ TR θανατος ο δευτερος
-> - <sup>s</sup> 6. χιλια ¦ TH τα χιλια ¦ NA WH [τα] χιλια
-> - <sup>t</sup> 7. οταν τελεσθη ¦ HF RP<sup>mg</sup> μετα
-> - <sup>u</sup> 8. τον ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
-> - <sup>v</sup> 8. τον ¦ TR _om._
-> - <sup>w</sup> 8. αριθμος ¦ CT HF PT RP<sup>mg</sup> αριθμος αυτων
-> - <sup>x</sup> 9. εκυκλωσαν ¦ CT HF PCK PT RP<sup>mg</sup> εκυκλευσαν
-> - <sup>y</sup> 9. εκ του ουρανου απο του θεου ¦ ECM TR απο του θεου εκ του ουρανου ¦ NA SBL TH WH εκ του ουρανου
-> - <sup>z</sup> 10. θειου ¦ PT του θειου
-> - <sup>aa</sup> 10. και ¦ TR _om._
-> - <sup>ab</sup> 11. μεγαν λευκον ¦ RP<sup>mg</sup> TR λευκον μεγαν
-> - <sup>ac</sup> 11. αυτον ¦ SBL TH TR WH αυτου ¦ PT αυτω
-> - <sup>ad</sup> 11. προσωπου ¦ CT του προσωπου
-> - <sup>ae</sup> 11. η γη και ο ουρανος ¦ PCK ο ουρανος και η γη
-> - <sup>af</sup> 12. τους μεγαλους και τους μικρους ¦ TR μικρους και μεγαλους
-> - <sup>ag</sup> 12. θρονου ¦ TR θεου
-> - <sup>ah</sup> 12. ηνεωχθησαν ¦ PCK ανεωχθησαν ¦ CT PT ηνοιχθησαν ¦ HF RP<sup>mg</sup> ηνοιξαν
-> - <sup>ai</sup> 12. αλλο βιβλιον ¦ TR βιβλιον αλλο
-> - <sup>aj</sup> 12. ηνεωχθη ¦ PCK ανεωχθη ¦ NA PT SBL TH WH ηνοιχθη
-> - <sup>ak</sup> 13. νεκρους τους εν αυτη … νεκρους τους εν αυτοις ¦ PCK RP<sup>mg</sup> TR εν αυτη νεκρους … εν αυτοις νεκρους
-> - <sup>al</sup> 13. αυτων ¦ HF αυτου
-> - <sup>am</sup> 14. ο θανατος ο δευτερος εστιν ¦ PCK εστιν ο θανατος ο δευτερος ¦ TR εστιν ο δευτερος θανατος
-> - <sup>an</sup> 14. η λιμνη του πυρος ¦ PT TR _om._
-> - <sup>ao</sup> 15. τω βιβλιω ¦ CT PCK PT RP<sup>mg</sup> TR τη βιβλω
+> - <sup>a</sup> 1. κλεῖν ¦ TR κλεῖδα
+> - <sup>b</sup> 2. τὸν ὄφιν τὸν ἀρχαῖον ¦ NA SBL TH WH ὁ ὄφις ὁ ἀρχαῖος
+> - <sup>c</sup> 2. ὁ ¦ [PT] ¦ RP<sup>mg</sup> TR _om._
+> - <sup>d</sup> 2. ὁ πλανῶν τὴν οἰκουμένην ὅλην ¦ PT [ὁ πλανῶν τὴν οἰκουμένην] ¦ CT TR _om._
+> - <sup>e</sup> 3. ἔκλεισεν ¦ TR ἔκλεισεν αὐτὸν
+> - <sup>f</sup> 3. πλανᾷ ¦ CT TR πλανήσῃ
+> - <sup>g</sup> 3. ἔτι τὰ ἔθνη ¦ TR τὰ ἔθνη ἔτι
+> - <sup>h</sup> 3. καὶ ¦ CT HF PT RP<sup>mg</sup> _om._
+> - <sup>i</sup> 3. αὐτὸν λυθῆναι ¦ CT HF RP<sup>mg</sup> λυθῆναι αὐτὸν
+> - <sup>j</sup> 4. τὸ θηρίον οὐδὲ ¦ PT τὸ θηρίον οὔτε ¦ PCK RP<sup>mg</sup> TR τῷ θηρίῳ οὔτε
+> - <sup>k</sup> 4. τὴν εἰκόνα ¦ PCK τῇ εἰκόνι
+> - <sup>l</sup> 4. μέτωπον ¦ PCK PT RP<sup>mg</sup> TR μέτωπον αὐτῶν
+> - <sup>m</sup> 4. τοῦ ¦ TR _om._
+> - <sup>n</sup> 4. τὰ ¦ CT PCK PT RP<sup>mg</sup> SCR _om._
+> - <sup>o</sup> 5. Καὶ οἱ ¦ NA SBL TH WH Οἱ ¦ TR Οἱ δὲ ¦ ECM _om._
+> - <sup>p</sup> 5. λοιποὶ … ἔτη ¦ ECM _om._
+> - <sup>q</sup> 5. ἔζησαν ἄχρι ¦ PT ἔζησαν ἕως ¦ TR ἀνέζησαν ἕως
+> - <sup>r</sup> 6. δεύτερος θάνατος ¦ TR θάνατος ὁ δεύτερος
+> - <sup>s</sup> 6. χίλια ¦ TH τὰ χίλια ¦ NA WH [τὰ] χίλια
+> - <sup>t</sup> 7. ὅταν τελεσθῇ ¦ HF RP<sup>mg</sup> μετὰ
+> - <sup>u</sup> 8. τὸν ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
+> - <sup>v</sup> 8. τὸν ¦ TR _om._
+> - <sup>w</sup> 8. ἀριθμὸς ¦ CT HF PT RP<sup>mg</sup> ἀριθμὸς αὐτῶν
+> - <sup>x</sup> 9. ἐκύκλωσαν ¦ CT HF PCK PT RP<sup>mg</sup> ἐκύκλευσαν
+> - <sup>y</sup> 9. ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ ¦ ECM TR ἀπὸ τοῦ θεοῦ ἐκ τοῦ οὐρανοῦ ¦ NA SBL TH WH ἐκ τοῦ οὐρανοῦ
+> - <sup>z</sup> 10. θείου ¦ PT τοῦ θείου
+> - <sup>aa</sup> 10. καὶ ¦ TR _om._
+> - <sup>ab</sup> 11. μέγαν λευκόν ¦ RP<sup>mg</sup> TR λευκὸν μέγαν
+> - <sup>ac</sup> 11. αὐτόν ¦ SBL TH TR WH αὐτοῦ ¦ PT αὐτῷ
+> - <sup>ad</sup> 11. προσώπου ¦ CT τοῦ προσώπου
+> - <sup>ae</sup> 11. ἡ γῆ καὶ ὁ οὐρανός ¦ PCK ὁ οὐρανὸς καὶ ἡ γῆ
+> - <sup>af</sup> 12. τοὺς μεγάλους καὶ τοὺς μικρούς ¦ TR μικροὺς καὶ μεγάλους
+> - <sup>ag</sup> 12. θρόνου ¦ TR θεοῦ
+> - <sup>ah</sup> 12. ἠνεῴχθησαν ¦ PCK ἀνεῴχθησαν ¦ CT PT ἠνοίχθησαν ¦ HF RP<sup>mg</sup> ἤνοιξαν
+> - <sup>ai</sup> 12. ἄλλο βιβλίον ¦ TR βιβλίον ἄλλο
+> - <sup>aj</sup> 12. ἠνεῴχθη ¦ PCK Ἀνεῴχθη ¦ NA PT SBL TH WH ἠνοίχθη
+> - <sup>ak</sup> 13. νεκροὺς τοὺς ἐν αὐτῇ … νεκροὺς τοὺς ἐν αὐτοῖς ¦ PCK RP<sup>mg</sup> TR ἐν αὐτῇ νεκροὺς … ἐν αὐτοῖς νεκρούς
+> - <sup>al</sup> 13. αὐτῶν ¦ HF αὐτοῦ
+> - <sup>am</sup> 14. ὁ θάνατος ὁ δεύτερός ἐστιν ¦ PCK ἐστιν ὁ θάνατος ὁ δεύτερος ¦ TR ἐστιν ὁ δεύτερος θάνατος
+> - <sup>an</sup> 14. ἡ λίμνη τοῦ πυρός ¦ PT TR _om._
+> - <sup>ao</sup> 15. τῷ βιβλίῳ ¦ CT PCK PT RP<sup>mg</sup> TR τῇ βίβλῳ
 
 ## Chapter 21
 
@@ -1422,76 +1422,76 @@
 <sup>26</sup> καὶ οἴσουσιν τὴν δόξαν καὶ τὴν τιμὴν τῶν ἐθνῶν εἰς αὐτήν·<sup>bp</sup>
 <sup>27</sup> καὶ οὐ μὴ εἰσέλθῃ εἰς αὐτὴν πᾶν κοινόν,<sup>bq</sup> καὶ ποιοῦν<sup>br</sup> βδέλυγμα καὶ ψεῦδος· εἰ μὴ οἱ γεγραμμένοι ἐν τῷ βιβλίῳ τῆς ζωῆς τοῦ ἀρνίου.
 
-> - <sup>a</sup> 1. απηλθον ¦ NA SBL TH WH απηλθαν ¦ PCK RP<sup>mg</sup> TR παρηλθε(ν)
-> - <sup>b</sup> 2. την … καινην ειδον ¦ TR εγω ιωαννης ειδον την … καινην
-> - <sup>c</sup> 2. εκ του ουρανου απο του θεου ¦ PCK RP<sup>mg</sup> TR απο του θεου εκ του ουρανου
-> - <sup>d</sup> 3. ουρανου ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> θρονου
-> - <sup>e</sup> 3. λαος ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR λαοι
-> - <sup>f</sup> 3. εσται μετ αυτων ¦ ECM<sup>†</sup> HF PT RP<sup>mg</sup> SBL WH μετ αυτων εσται ¦ TR εσται μετ αυτων θεος αυτων ¦ ECM<sup>†</sup> TH μετ αυτων εσται αυτων θεος ¦ NA μετ αυτων εσται [αυτων θεος]
-> - <sup>g</sup> 4. εξαλειψει ¦ TR εξαλειψει ο θεος ¦ HF RP<sup>mg</sup> εξαλειψει απ αυτων ¦ PT εξαλειψει [απ αυτων] ο θεος
-> - <sup>h</sup> 4. απο ¦ NA SBL TH WH εκ
-> - <sup>i</sup> 4. οτι ¦ [NA] ¦ ECM SBL TH WH _om._
-> - <sup>j</sup> 4. απηλθον ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> απηλθεν ¦ NA SBL TH WH απηλθαν
-> - <sup>k</sup> 5. τω θρονω ¦ PCK TR του θρονου
-> - <sup>l</sup> 5. παντα καινα ποιω ¦ CT PCK PT RP<sup>mg</sup> καινα ποιω παντα ¦ TR καινα παντα ποιω
+> - <sup>a</sup> 1. ἀπῆλθον ¦ NA SBL TH WH ἀπῆλθαν ¦ PCK RP<sup>mg</sup> TR παρηλθε(ν)
+> - <sup>b</sup> 2. τὴν … καινὴν εἶδον ¦ TR ἐγὼ Ἰωάννης εἶδον τὴν … καινὴν
+> - <sup>c</sup> 2. ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ ¦ PCK RP<sup>mg</sup> TR ἀπὸ τοῦ θεοῦ ἐκ τοῦ οὐρανοῦ
+> - <sup>d</sup> 3. οὐρανοῦ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> θρόνου
+> - <sup>e</sup> 3. λαὸς ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> TR λαοὶ
+> - <sup>f</sup> 3. ἔσται μετ αὐτῶν ¦ ECM<sup>†</sup> HF PT RP<sup>mg</sup> SBL WH μετ αὐτῶν ἔσται ¦ TR ἔσται μετ αὐτῶν θεὸς αὐτῶν ¦ ECM<sup>†</sup> TH μετ αὐτῶν ἔσται αὐτῶν θεός ¦ NA μετ αὐτῶν ἔσται [αὐτῶν θεός]
+> - <sup>g</sup> 4. ἐξαλείψει ¦ TR ἐξαλείψει ὁ θεὸς ¦ HF RP<sup>mg</sup> ἐξαλείψει ἀπ αὐτῶν ¦ PT ἐξαλείψει [ἀπ αὐτῶν] ὁ θεὸς
+> - <sup>h</sup> 4. ἀπὸ ¦ NA SBL TH WH ἐκ
+> - <sup>i</sup> 4. ὅτι ¦ [NA] ¦ ECM SBL TH WH _om._
+> - <sup>j</sup> 4. ἀπῆλθον ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> ἀπῆλθεν ¦ NA SBL TH WH ἀπῆλθαν
+> - <sup>k</sup> 5. τῷ θρόνῳ ¦ PCK TR τοῦ θρόνου
+> - <sup>l</sup> 5. πάντα καινὰ ποιῶ ¦ CT PCK PT RP<sup>mg</sup> καινὰ ποιῶ πάντα ¦ TR καινὰ πάντα ποιῶ
 > - <sup>m</sup> 5. μοι ¦ [PT] ¦ CT HF _om._
-> - <sup>n</sup> 5. αληθινοι και πιστοι ¦ CT PT πιστοι και αληθινοι ¦ HF RP<sup>mg</sup> πιστοι και αληθινοι του θεου
-> - <sup>o</sup> 6. γεγονα ¦ ECM RP<sup>mg</sup> γεγονα εγω ¦ SBL WH γεγοναν εγω ¦ PT γεγονεν εγω ¦ TH γεγοναν εγω ειμι ¦ NA γεγοναν εγω [ειμι] ¦ TR γεγονε(ν) εγω ειμι
-> - <sup>p</sup> 6. αλφα ¦ PT TR α
-> - <sup>q</sup> 6. η αρχη και το ¦ HF RP<sup>mg</sup> και η αρχη και το ¦ PCK RP<sup>mg</sup> αρχη και
-> - <sup>r</sup> 6. δωσω ¦ HF RP<sup>mg</sup> δωσω αυτω
-> - <sup>s</sup> 7. κληρονομησει ταυτα ¦ TR κληρονομησει παντα ¦ HF RP<sup>mg</sup> δωσω αυτω ταυτα ¦ PT εσται αυτω ταυτα
-> - <sup>t</sup> 7. υιος ¦ TR ο υιος
-> - <sup>u</sup> 8. τοις δε δειλοις ¦ TR δειλοις δε
-> - <sup>v</sup> 8. και αμαρτωλοις ¦ CT PT TR _om._
-> - <sup>w</sup> 8. φαρμακοις ¦ TR φαρμακευσι(ν)
-> - <sup>x</sup> 8. πυρι ¦ PT εν πυρι
-> - <sup>y</sup> 8. ο θανατος ο δευτερος ¦ TR δευτερος θανατος
-> - <sup>z</sup> 9. ηλθεν εις εκ ¦ PT ηλθεν εις ¦ TR ηλθε(ν) προς με εις
-> - <sup>aa</sup> 9. γεμουσας ¦ PT TR τας γεμουσας ¦ CT των γεμοντων
-> - <sup>ab</sup> 9. γυναικα την νυμφην του αρνιου ¦ CT PT νυμφην την γυναικα του αρνιου ¦ TR νυμφην του αρνιου την γυναικα
-> - <sup>ac</sup> 10. επ ¦ CT επι
-> - <sup>ad</sup> 10. την μεγαλην ¦ CT HF PT RP<sup>mg</sup> _om._
-> - <sup>ae</sup> 10. απο ¦ HF εκ
-> - <sup>af</sup> 11. ο ¦ TR και ο
-> - <sup>ag</sup> 11. κρυσταλλιζοντι ¦ PCK RP<sup>mg</sup> κρυσταλιζοντι
-> - <sup>ah</sup> 12. εχουσα … εχουσα ¦ TR εχουσαν τε … εχουσαν
-> - <sup>ai</sup> 12. δωδεκα ¦ HF δεκαδυο
-> - <sup>aj</sup> 12. ονοματα ¦ [PT] ¦ TH τα ονοματα ¦ NA [τα ονοματα] ¦ ECM PCK RP<sup>mg</sup> SBL TR WH _om._
-> - <sup>ak</sup> 12. των ¦ CT HF RP<sup>mg</sup> _om._
-> - <sup>al</sup> 13. απο ¦ PT TR απ
-> - <sup>am</sup> 13. ανατολων ¦ CT TR ανατολης
-> - <sup>an</sup> 13. και ¦ TR _om._
-> - <sup>ao</sup> 13. και ¦ TR _om._
-> - <sup>ap</sup> 13. και ¦ ST _om._
-> - <sup>aq</sup> 14. εχον ¦ NA SBL TH WH εχων
-> - <sup>ar</sup> 14. επ αυτων δωδεκα ¦ TR εν αυτοις
-> - <sup>as</sup> 15. μετρον ¦ TR _om._
-> - <sup>at</sup> 15. και το τειχος αυτης ¦ PCK RP<sup>mg</sup> _om._
-> - <sup>au</sup> 16. οσον ¦ TH οσον και ¦ NA PT οσον [και] ¦ TR τοσουτον εστιν οσον και
-> - <sup>av</sup> 16. τω ¦ PT [εν] τω
-> - <sup>aw</sup> 16. σταδιους ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA TR WH σταδιων
-> - <sup>ax</sup> 16. δωδεκα ¦ HF RP<sup>mg</sup> δεκαδυο
-> - <sup>ay</sup> 16. δωδεκα ¦ CT PT RP<sup>mg</sup> TR _om._
-> - <sup>az</sup> 17. εμετρησεν ¦ HF RP<sup>mg</sup> _om._
-> - <sup>ba</sup> 17. εκατον τεσσαρακοντα τεσσαρων ¦ NA SBL WH εκατον τεσσερακοντα τεσσαρων
-> - <sup>bb</sup> 18. ην η ενδομησις ¦ NA SBL TH WH η ενδωμησις
-> - <sup>bc</sup> 18. ομοιον ¦ TR ομοια
-> - <sup>bd</sup> 18. υελω ¦ CT PT RP<sup>mg</sup> TR υαλω
-> - <sup>be</sup> 19. οι ¦ PCK RP<sup>mg</sup> TR και οι
-> - <sup>bf</sup> 19. σαπφειρος ¦ NA SBL σαπφιρος
-> - <sup>bg</sup> 20. σαρδονυξ ¦ PCK σαρδωνυξ
-> - <sup>bh</sup> 20. σαρδιον ¦ PCK RP<sup>mg</sup> TR σαρδιος
-> - <sup>bi</sup> 20. ενατος ¦ SCR εννατος
-> - <sup>bj</sup> 20. αμεθυσος ¦ CT PT TR αμεθυστος
-> - <sup>bk</sup> 21. υελος ¦ CT PT TR υαλος
-> - <sup>bl</sup> 21. διαυγης ¦ TR διαφανης
-> - <sup>bm</sup> 23. αυτη η γαρ ¦ PCK TR εν αυτη η γαρ ¦ HF αὐτὴ γαρ η
-> - <sup>bn</sup> 24. περιπατησουσιν τα εθνη δια του φωτος αυτης ¦ TR τα εθνη των σωζομενων εν τω φωτι αυτης περιπατησουσι(ν)
-> - <sup>bo</sup> 24. αυτω δοξαν και τιμην των εθνων ¦ PCK TR την δοξαν και την τιμην αυτων ¦ RP<sup>mg</sup> την δοξαν [και την τιμην] αυτων ¦ PT την δοξαν και [την] τιμην αυτων ¦ CT την δοξαν αυτων
-> - <sup>bp</sup> 26. αυτην ¦ HF RP<sup>mg</sup> αυτην ινα εισελθωσι(ν)
-> - <sup>bq</sup> 27. κοινον ¦ TR κοινουν
-> - <sup>br</sup> 27. ποιουν ¦ ECM<sup>†</sup> _txt_ ¦ SBL TH ποιων ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> ο ποιων ¦ NA PT WH [ο] ποιων
+> - <sup>n</sup> 5. ἀληθινοὶ καὶ πιστοὶ ¦ CT PT πιστοὶ καὶ ἀληθινοὶ ¦ HF RP<sup>mg</sup> πιστοὶ καὶ ἀληθινοὶ τοῦ θεοῦ
+> - <sup>o</sup> 6. Γέγονα ¦ ECM RP<sup>mg</sup> Γέγονα ἐγὼ ¦ SBL WH Γέγοναν ἐγὼ ¦ PT Γέγονεν ἐγὼ ¦ TH Γέγοναν ἐγώ εἰμι ¦ NA Γέγοναν ἐγώ [εἰμι] ¦ TR γεγονε(ν) Ἐγώ εἰμι
+> - <sup>p</sup> 6. Ἄλφα ¦ PT TR ἃ
+> - <sup>q</sup> 6. ἡ ἀρχὴ καὶ τὸ ¦ HF RP<sup>mg</sup> καὶ ἡ ἀρχὴ καὶ τὸ ¦ PCK RP<sup>mg</sup> ἀρχὴ καὶ
+> - <sup>r</sup> 6. δώσω ¦ HF RP<sup>mg</sup> δώσω αὐτῷ
+> - <sup>s</sup> 7. κληρονομήσει ταῦτα ¦ TR κληρονομήσει πάντα ¦ HF RP<sup>mg</sup> δώσω αὐτῷ ταῦτα ¦ PT ἔσται αὐτῷ ταῦτα
+> - <sup>t</sup> 7. υἱός ¦ TR ὁ υἱός
+> - <sup>u</sup> 8. Τοῖς δὲ δειλοῖς ¦ TR Δειλοῖς δὲ
+> - <sup>v</sup> 8. καὶ ἁμαρτωλοῖς ¦ CT PT TR _om._
+> - <sup>w</sup> 8. φαρμάκοις ¦ TR φαρμακευσι(ν)
+> - <sup>x</sup> 8. πυρὶ ¦ PT ἐν πυρὶ
+> - <sup>y</sup> 8. ὁ θάνατος ὁ δεύτερος ¦ TR δεύτερος θάνατος
+> - <sup>z</sup> 9. ἦλθεν εἷς ἐκ ¦ PT ἦλθεν εἷς ¦ TR ηλθε(ν) πρός μὲ εἷς
+> - <sup>aa</sup> 9. γεμούσας ¦ PT TR τὰς γεμούσας ¦ CT τῶν γεμόντων
+> - <sup>ab</sup> 9. γυναῖκα τὴν νύμφην τοῦ ἀρνίου ¦ CT PT νύμφην τὴν γυναῖκα τοῦ ἀρνίου ¦ TR νύμφην τοῦ ἀρνίου τὴν γυναῖκα
+> - <sup>ac</sup> 10. ἐπ ¦ CT ἐπὶ
+> - <sup>ad</sup> 10. τὴν μεγάλην ¦ CT HF PT RP<sup>mg</sup> _om._
+> - <sup>ae</sup> 10. ἀπὸ ¦ HF ἐκ
+> - <sup>af</sup> 11. ὁ ¦ TR καὶ ὁ
+> - <sup>ag</sup> 11. κρυσταλλίζοντι ¦ PCK RP<sup>mg</sup> κρυσταλίζοντι
+> - <sup>ah</sup> 12. ἔχουσα … ἔχουσα ¦ TR ἔχουσάν τε … ἔχουσαν
+> - <sup>ai</sup> 12. δώδεκα ¦ HF δεκαδύο
+> - <sup>aj</sup> 12. ὀνόματα ¦ [PT] ¦ TH τὰ ὀνόματα ¦ NA [τὰ ὀνόματα] ¦ ECM PCK RP<sup>mg</sup> SBL TR WH _om._
+> - <sup>ak</sup> 12. τῶν ¦ CT HF RP<sup>mg</sup> _om._
+> - <sup>al</sup> 13. Ἀπὸ ¦ PT TR Ἀπ
+> - <sup>am</sup> 13. ἀνατολῶν ¦ CT TR ἀνατολῆς
+> - <sup>an</sup> 13. καὶ ¦ TR _om._
+> - <sup>ao</sup> 13. καὶ ¦ TR _om._
+> - <sup>ap</sup> 13. καὶ ¦ ST _om._
+> - <sup>aq</sup> 14. ἔχον ¦ NA SBL TH WH ἔχων
+> - <sup>ar</sup> 14. ἐπ αὐτῶν δώδεκα ¦ TR ἐν αὐτοῖς
+> - <sup>as</sup> 15. μέτρον ¦ TR _om._
+> - <sup>at</sup> 15. καὶ τὸ τεῖχος αὐτῆς ¦ PCK RP<sup>mg</sup> _om._
+> - <sup>au</sup> 16. ὅσον ¦ TH ὅσον καὶ ¦ NA PT ὅσον [καὶ] ¦ TR τοσοῦτόν ἐστὶν ὅσον καὶ
+> - <sup>av</sup> 16. τῷ ¦ PT [ἐν] τῷ
+> - <sup>aw</sup> 16. σταδίους ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA TR WH σταδίων
+> - <sup>ax</sup> 16. δώδεκα ¦ HF RP<sup>mg</sup> δεκαδύο
+> - <sup>ay</sup> 16. δώδεκα ¦ CT PT RP<sup>mg</sup> TR _om._
+> - <sup>az</sup> 17. ἐμέτρησεν ¦ HF RP<sup>mg</sup> _om._
+> - <sup>ba</sup> 17. ἑκατὸν τεσσαράκοντα τεσσάρων ¦ NA SBL WH ἑκατὸν τεσσεράκοντα τεσσάρων
+> - <sup>bb</sup> 18. ἦν ἡ ἐνδόμησις ¦ NA SBL TH WH ἡ ἐνδώμησις
+> - <sup>bc</sup> 18. ὅμοιον ¦ TR ὁμοία
+> - <sup>bd</sup> 18. ὑέλῳ ¦ CT PT RP<sup>mg</sup> TR ὑάλῳ
+> - <sup>be</sup> 19. Οἱ ¦ PCK RP<sup>mg</sup> TR Καὶ οἱ
+> - <sup>bf</sup> 19. σάπφειρος ¦ NA SBL σάπφιρος
+> - <sup>bg</sup> 20. σαρδόνυξ ¦ PCK σαρδώνυξ
+> - <sup>bh</sup> 20. σάρδιον ¦ PCK RP<sup>mg</sup> TR σάρδιος
+> - <sup>bi</sup> 20. ἔνατος ¦ SCR ἔννατος
+> - <sup>bj</sup> 20. ἀμέθυσος ¦ CT PT TR ἀμέθυστος
+> - <sup>bk</sup> 21. ὕελος ¦ CT PT TR ὕαλος
+> - <sup>bl</sup> 21. διαυγής ¦ TR διαφανής
+> - <sup>bm</sup> 23. αὐτῇ ἡ γὰρ ¦ PCK TR ἐν αὐτῇ ἡ γὰρ ¦ HF αὐτὴ γαρ η
+> - <sup>bn</sup> 24. περιπατήσουσιν τὰ ἔθνη διὰ τοῦ φωτὸς αὐτῆς ¦ TR τὰ ἔθνη τῶν σωζομένων ἐν τῷ φωτὶ αὐτῆς περιπατησουσι(ν)
+> - <sup>bo</sup> 24. αὐτῷ δόξαν καὶ τιμὴν τῶν ἐθνῶν ¦ PCK TR τὴν δόξαν καὶ τὴν τιμὴν αὐτῶν ¦ RP<sup>mg</sup> τὴν δόξαν [καὶ τὴν τιμὴν] αὐτῶν ¦ PT τὴν δόξαν καὶ [τὴν] τιμὴν αὐτῶν ¦ CT τὴν δόξαν αὐτῶν
+> - <sup>bp</sup> 26. αὐτήν ¦ HF RP<sup>mg</sup> αὐτὴν ἵνα εισελθωσι(ν)
+> - <sup>bq</sup> 27. κοινόν ¦ TR κοινοῦν
+> - <sup>br</sup> 27. ποιοῦν ¦ ECM<sup>†</sup> _txt_ ¦ SBL TH ποιῶν ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> ὁ ποιῶν ¦ NA PT WH [ὁ] ποιῶν
 
 ## Chapter 22
 
@@ -1525,60 +1525,60 @@
 
 <sup>21</sup> Ἡ χάρις τοῦ κυρίου Ἰησοῦ<sup>bc</sup> χριστοῦ μετὰ πάντων<sup>bd</sup> τῶν ἁγίων. Ἀμήν.<sup>be</sup>
 
-> - <sup>a</sup> 1. ποταμον καθαρον ¦ TR καθαρον ποταμον ¦ CT HF PT RP<sup>mg</sup> ποταμον
-> - <sup>b</sup> 1. κρυσταλλον ¦ PCK κρυσταλον
-> - <sup>c</sup> 2. εκειθεν ¦ PCK RP<sup>mg</sup> TR εντευθεν
-> - <sup>d</sup> 2. εκαστον αποδιδους ¦ ECM NA PT SBL WH εκαστον αποδιδουν ¦ HF RP<sup>mg</sup> αποδιδους εκαστον ¦ TR ενα εκαστον αποδιδουν
-> - <sup>e</sup> 3. καταθεμα ¦ TR καταναθεμα
-> - <sup>f</sup> 3. ετι ¦ PCK RP<sup>mg</sup> εκει
-> - <sup>g</sup> 3. λατρευσουσιν ¦ HF λατρευουσιν
-> - <sup>h</sup> 5. εκει ¦ CT PT ετι ¦ HF _om._
-> - <sup>i</sup> 5. χρειαν ουκ εχουσιν ¦ ECM<sup>†</sup> _txt_ ¦ NA SBL TH WH ουκ εχουσιν χρειαν ¦ ECM<sup>†</sup> ουκ εξουσιν χρειαν ¦ HF PT RP<sup>mg</sup> ου χρεια
-> - <sup>j</sup> 5. λυχνου και φωτος ηλιου ¦ SBL WH φωτος λυχνου και φως ηλιου ¦ ECM<sup>†</sup> NA TH φωτος λυχνου και φωτος ηλιου ¦ ECM<sup>†</sup> λυχνου και φως ηλιου ¦ HF λυχνου και φωτος
-> - <sup>k</sup> 5. φωτιει ¦ TR φωτιζει ¦ NA SBL TH φωτισει επ ¦ WH φωτισει [επ]
-> - <sup>l</sup> 6. λεγει ¦ CT RP<sup>mg</sup> TR ειπε(ν)
-> - <sup>m</sup> 6. κυριος ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> ο κυριος
-> - <sup>n</sup> 6. πνευματων των ¦ TR αγιων
-> - <sup>o</sup> 7. και ¦ PCK RP<sup>mg</sup> TR _om._
-> - <sup>p</sup> 8. καγω ¦ RP<sup>mg</sup> TR και εγω
-> - <sup>q</sup> 8. ακουων και βλεπων ταυτα ¦ RP<sup>mg</sup> βλεπων και ακουων ταυτα ¦ TR βλεπων ταυτα και ακουων
-> - <sup>r</sup> 8. εβλεψα ¦ RP<sup>mg</sup> ειδον ¦ HF οτε ειδον
-> - <sup>s</sup> 8. επεσον ¦ NA PT SBL TH TR WH επεσα
-> - <sup>t</sup> 8. δεικνυοντος ¦ HF PCK RP<sup>mg</sup> δεικνυντος
-> - <sup>u</sup> 9. σου ¦ TR σου γαρ
-> - <sup>v</sup> 9. και ¦ PCK _om._
-> - <sup>w</sup> 10. ο καιρος γαρ ¦ PCK RP<sup>mg</sup> TR οτι ο καιρος
-> - <sup>x</sup> 11. ρυπαρος ρυπαρευθητω ¦ NA TH WH ρυπαρος ρυπανθητω ¦ TR ρυπων ρυπωσατω
-> - <sup>y</sup> 11. δικαιοσυνην ποιησατω ¦ TR δικαιωθητω
-> - <sup>z</sup> 12. ιδου ¦ TR και ιδου
-> - <sup>aa</sup> 12. εσται αυτου ¦ RP<sup>mg</sup> TR αυτου εσται ¦ NA SBL TH WH εστιν αυτου
-> - <sup>ab</sup> 13. εγω ¦ TR εγω ειμι
-> - <sup>ac</sup> 13. αλφα ¦ PT RP<sup>mg</sup> TR α
-> - <sup>ad</sup> 13. ο πρωτος και ο εσχατος η αρχη και το τελος ¦ PT ο πρωτος και ο εσχατος αρχη και τελος ¦ PCK RP<sup>mg</sup> TR αρχη και τελος ο πρωτος και ο εσχατος
-> - <sup>ae</sup> 14. ποιουντες τας εντολας αυτου ¦ CT πλυνοντες τας στολας αυτων
-> - <sup>af</sup> 14. Guardian Press: ποιουντες τας εντολας αυτου 046 1862 ¦ πλυνοντες τας στολας αυτων ℵ A 1841
-> - <sup>ag</sup> 15. εξω ¦ TR εξω δε
-> - <sup>ah</sup> 15. φιλων ¦ HF RP<sup>mg</sup> TR ο φιλων ¦ PT [ο] φιλων
-> - <sup>ai</sup> 16. δαυιδ ¦ WH δαυειδ ¦ HF δαβιδ ¦ TR του δαβιδ
-> - <sup>aj</sup> 16. ο πρωινος ¦ TR και ορθρινος
-> - <sup>ak</sup> 17. ερχου … ερχου ¦ TR ελθε … ελθε
-> - <sup>al</sup> 17. ερχεσθω ¦ PT ερχεσθω και ¦ TR ελθετω και
-> - <sup>am</sup> 17. λαβετω ¦ TR λαμβανετω το
-> - <sup>an</sup> 18. μαρτυρω εγω ¦ TR συμμαρτυρουμαι γαρ
-> - <sup>ao</sup> 18. τω ¦ PCK TR _om._
-> - <sup>ap</sup> 18. επιθη επ αυτα ¦ PT επιθη επι ταυτα ¦ TR επιτιθη προς ταυτα
-> - <sup>aq</sup> 18. επιθησαι ¦ CT PT RP<sup>mg</sup> TR επιθησει
-> - <sup>ar</sup> 18. ο θεος επ αυτον ¦ PCK RP<sup>mg</sup> TH επ αυτον ο θεος
-> - <sup>as</sup> 18. πληγας ¦ PCK RP<sup>mg</sup> επτα πληγας
-> - <sup>at</sup> 18. τω ¦ TR _om._
-> - <sup>au</sup> 19. αφελη ¦ TR αφαιρη
-> - <sup>av</sup> 19. του βιβλιου ¦ TR βιβλου
-> - <sup>aw</sup> 19. αφελοι ¦ CT PT RP<sup>mg</sup> αφελει ¦ TR αφαιρησει
-> - <sup>ax</sup> 19. του ξυλου ¦ TR βιβλου
-> - <sup>ay</sup> 19. των ¦ TR και των
-> - <sup>az</sup> 19. τω ¦ TR _om._
-> - <sup>ba</sup> 20. ναι ¦ CT _om._
-> - <sup>bb</sup> 20. ιησου ¦ RP<sup>mg</sup> ιησου χριστε
-> - <sup>bc</sup> 21. ιησου χριστου ¦ ECM<sup>†</sup> _txt_ ¦ PT WH ιησου [χριστου] ¦ TR ημων ιησου χριστου ¦ ECM<sup>†</sup> NA SBL TH ιησου
-> - <sup>bd</sup> 21. παντων των αγιων ¦ TH WH των αγιων ¦ NA SBL παντων ¦ TR παντων υμων
-> - <sup>be</sup> 21. αμην ¦ NA SBL WH _om._
+> - <sup>a</sup> 1. ποταμὸν καθαρὸν ¦ TR καθαρὸν ποταμὸν ¦ CT HF PT RP<sup>mg</sup> ποταμὸν
+> - <sup>b</sup> 1. κρύσταλλον ¦ PCK κρύσταλον
+> - <sup>c</sup> 2. ἐκεῖθεν ¦ PCK RP<sup>mg</sup> TR ἐντεῦθεν
+> - <sup>d</sup> 2. ἕκαστον ἀποδιδοὺς ¦ ECM NA PT SBL WH ἕκαστον ἀποδιδοῦν ¦ HF RP<sup>mg</sup> ἀποδιδοὺς ἕκαστον ¦ TR ἕνα ἕκαστον ἀποδιδοῦν
+> - <sup>e</sup> 3. κατάθεμα ¦ TR κατανάθεμα
+> - <sup>f</sup> 3. ἔτι ¦ PCK RP<sup>mg</sup> ἐκεῖ
+> - <sup>g</sup> 3. λατρεύσουσιν ¦ HF λατρεύουσιν
+> - <sup>h</sup> 5. ἐκεῖ ¦ CT PT ἔτι ¦ HF _om._
+> - <sup>i</sup> 5. χρείαν οὐκ ἔχουσιν ¦ ECM<sup>†</sup> _txt_ ¦ NA SBL TH WH οὐκ ἔχουσιν χρείαν ¦ ECM<sup>†</sup> οὐκ ἕξουσιν χρείαν ¦ HF PT RP<sup>mg</sup> οὐ χρεία
+> - <sup>j</sup> 5. λύχνου καὶ φωτὸς ἡλίου ¦ SBL WH φωτὸς λύχνου καὶ φῶς ἡλίου ¦ ECM<sup>†</sup> NA TH φωτὸς λύχνου καὶ φωτὸς ἡλίου ¦ ECM<sup>†</sup> λύχνου καὶ φῶς ἡλίου ¦ HF λύχνου καὶ φωτός
+> - <sup>k</sup> 5. φωτιεῖ ¦ TR φωτίζει ¦ NA SBL TH φωτίσει ἐπ ¦ WH φωτίσει [ἐπ]
+> - <sup>l</sup> 6. λέγει ¦ CT RP<sup>mg</sup> TR ειπε(ν)
+> - <sup>m</sup> 6. κύριος ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> ὁ κύριος
+> - <sup>n</sup> 6. πνευμάτων τῶν ¦ TR ἁγίων
+> - <sup>o</sup> 7. Καὶ ¦ PCK RP<sup>mg</sup> TR _om._
+> - <sup>p</sup> 8. Κἀγὼ ¦ RP<sup>mg</sup> TR Καὶ ἐγὼ
+> - <sup>q</sup> 8. ἀκούων καὶ βλέπων ταῦτα ¦ RP<sup>mg</sup> βλέπων καὶ ἀκούων ταῦτα ¦ TR βλέπων ταῦτα καὶ ἀκούων
+> - <sup>r</sup> 8. ἔβλεψα ¦ RP<sup>mg</sup> εἶδον ¦ HF ὅτε εἶδον
+> - <sup>s</sup> 8. ἔπεσον ¦ NA PT SBL TH TR WH ἔπεσα
+> - <sup>t</sup> 8. δεικνύοντός ¦ HF PCK RP<sup>mg</sup> δεικνύντος
+> - <sup>u</sup> 9. σοὺ ¦ TR σοὺ γὰρ
+> - <sup>v</sup> 9. καὶ ¦ PCK _om._
+> - <sup>w</sup> 10. ὁ καιρὸς γὰρ ¦ PCK RP<sup>mg</sup> TR ὅτι ὁ καιρὸς
+> - <sup>x</sup> 11. ῥυπαρὸς ῥυπαρευθήτω ¦ NA TH WH ῥυπαρὸς ῥυπανθήτω ¦ TR ῥύπων ῥυπωσάτω
+> - <sup>y</sup> 11. δικαιοσύνην ποιησάτω ¦ TR δικαιωθήτω
+> - <sup>z</sup> 12. Ἰδού ¦ TR Καὶ ἰδού
+> - <sup>aa</sup> 12. ἔσται αὐτοῦ ¦ RP<sup>mg</sup> TR αὐτοῦ ἔσται ¦ NA SBL TH WH ἐστὶν αὐτοῦ
+> - <sup>ab</sup> 13. Ἐγὼ ¦ TR Ἐγώ εἰμι
+> - <sup>ac</sup> 13. Ἄλφα ¦ PT RP<sup>mg</sup> TR ἂ
+> - <sup>ad</sup> 13. ὁ πρῶτος καὶ ὁ ἔσχατος ἡ ἀρχὴ καὶ τὸ τέλος ¦ PT ὁ πρῶτος καὶ ὁ ἔσχατος ἀρχὴ καὶ τέλος ¦ PCK RP<sup>mg</sup> TR ἀρχὴ καὶ τέλος ὁ πρῶτος καὶ ὁ ἔσχατος
+> - <sup>ae</sup> 14. ποιοῦντες τὰς ἐντολὰς αὐτοῦ ¦ CT πλύνοντες τὰς στολὰς αὐτῶν
+> - <sup>af</sup> 14. Guardian Press: ποιοῦντες τὰς ἐντολὰς αὐτοῦ 046 1862 ¦ πλύνοντες τὰς στολὰς αὐτῶν ℵ A 1841
+> - <sup>ag</sup> 15. Ἔξω ¦ TR Ἔξω δὲ
+> - <sup>ah</sup> 15. φιλῶν ¦ HF RP<sup>mg</sup> TR ὁ φιλῶν ¦ PT [ὁ] φιλῶν
+> - <sup>ai</sup> 16. Δαυίδ ¦ WH Δαυείδ ¦ HF Δαβίδ ¦ TR τοῦ Δαβίδ
+> - <sup>aj</sup> 16. ὁ πρωϊνός ¦ TR καὶ ὀρθρινός
+> - <sup>ak</sup> 17. Ἔρχου … ἔρχου ¦ TR Ἐλθὲ … ἐλθέ
+> - <sup>al</sup> 17. ἐρχέσθω ¦ PT ἐρχέσθω καί ¦ TR ἐλθέτω καί
+> - <sup>am</sup> 17. λαβέτω ¦ TR λαμβανέτω τὸ
+> - <sup>an</sup> 18. Μαρτυρῶ ἐγὼ ¦ TR Συμμαρτυροῦμαι γὰρ
+> - <sup>ao</sup> 18. τῷ ¦ PCK TR _om._
+> - <sup>ap</sup> 18. ἐπιθῇ ἐπ αὐτά ¦ PT ἐπιθῇ ἐπὶ ταῦτα ¦ TR ἐπιτίθη πρὸς ταῦτα
+> - <sup>aq</sup> 18. ἐπιθήσαι ¦ CT PT RP<sup>mg</sup> TR ἐπιθήσει
+> - <sup>ar</sup> 18. ὁ θεὸς ἐπ αὐτὸν ¦ PCK RP<sup>mg</sup> TH ἐπ αὐτὸν ὁ θεὸς
+> - <sup>as</sup> 18. πληγὰς ¦ PCK RP<sup>mg</sup> ἑπτὰ πληγὰς
+> - <sup>at</sup> 18. τῷ ¦ TR _om._
+> - <sup>au</sup> 19. ἀφέλῃ ¦ TR ἀφαιρῇ
+> - <sup>av</sup> 19. τοῦ βιβλίου ¦ TR βίβλου
+> - <sup>aw</sup> 19. ἀφέλοι ¦ CT PT RP<sup>mg</sup> ἀφελεῖ ¦ TR ἀφαιρήσει
+> - <sup>ax</sup> 19. τοῦ ξύλου ¦ TR βίβλου
+> - <sup>ay</sup> 19. τῶν ¦ TR καὶ τῶν
+> - <sup>az</sup> 19. τῷ ¦ TR _om._
+> - <sup>ba</sup> 20. Ναί ¦ CT _om._
+> - <sup>bb</sup> 20. Ἰησοῦ ¦ RP<sup>mg</sup> Ἰησοῦ χριστέ
+> - <sup>bc</sup> 21. Ἰησοῦ χριστοῦ ¦ ECM<sup>†</sup> _txt_ ¦ PT WH Ἰησοῦ [χριστοῦ] ¦ TR ἡμῶν Ἰησοῦ χριστοῦ ¦ ECM<sup>†</sup> NA SBL TH Ἰησοῦ
+> - <sup>bd</sup> 21. πάντων τῶν ἁγίων ¦ TH WH τῶν ἁγίων ¦ NA SBL πάντων ¦ TR πάντων ὑμῶν
+> - <sup>be</sup> 21. Ἀμήν ¦ NA SBL WH _om._

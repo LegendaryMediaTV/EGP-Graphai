@@ -30,27 +30,27 @@
 
 <sup>25</sup> Ἡ χάρις τοῦ κυρίου ἡμῶν<sup>v</sup> Ἰησοῦ χριστοῦ<sup>w</sup> μετὰ τοῦ πνεύματος ὑμῶν. Ἀμήν.<sup>x</sup>
 
-> - <sup>a</sup> 1. ιησου χριστου ¦ CT HF PT RP<sup>mg</sup> TR χριστου ιησου
-> - <sup>b</sup> 2. αγαπητη ¦ CT αδελφη
-> - <sup>c</sup> 2. συστρατιωτη ¦ TH WH συνστρατιωτη
-> - <sup>d</sup> 5. προς ¦ WH εις
-> - <sup>e</sup> 6. του ¦ [WH]
-> - <sup>f</sup> 6. ημιν ¦ PCK TR υμιν
-> - <sup>g</sup> 6. ιησουν ¦ CT _om._
-> - <sup>h</sup> 7. χαριν ¦ CT SCR χαραν
-> - <sup>i</sup> 7. εχομεν πολλην ¦ CT πολλην εσχον
-> - <sup>j</sup> 9. ιησου χριστου ¦ CT χριστου ιησου
+> - <sup>a</sup> 1. Ἰησοῦ χριστοῦ ¦ CT HF PT RP<sup>mg</sup> TR χριστοῦ Ἰησοῦ
+> - <sup>b</sup> 2. ἀγαπητῇ ¦ CT ἀδελφῇ
+> - <sup>c</sup> 2. συστρατιώτῃ ¦ TH WH συνστρατιώτῃ
+> - <sup>d</sup> 5. πρὸς ¦ WH εἰς
+> - <sup>e</sup> 6. τοῦ ¦ [WH]
+> - <sup>f</sup> 6. ἡμῖν ¦ PCK TR ὑμῖν
+> - <sup>g</sup> 6. Ἰησοῦν ¦ CT _om._
+> - <sup>h</sup> 7. Χάριν ¦ CT SCR Χαρὰν
+> - <sup>i</sup> 7. ἔχομεν πολλὴν ¦ CT πολλὴν ἔσχον
+> - <sup>j</sup> 9. Ἰησοῦ χριστοῦ ¦ CT χριστοῦ Ἰησοῦ
 > - <sup>k</sup> 10. μου ¦ CT _om._
-> - <sup>l</sup> 11. δε ¦ NA δε [και]
-> - <sup>m</sup> 12. συ δε ¦ CT σοι
-> - <sup>n</sup> 12. προσλαβου ¦ CT _om._
-> - <sup>o</sup> 13. διακονη μοι ¦ CT μοι διακονη
-> - <sup>p</sup> 16. αλλ ¦ SBL WH αλλα
-> - <sup>q</sup> 17. με ¦ TR εμε
-> - <sup>r</sup> 18. ελλογει ¦ CT ελλογα
-> - <sup>s</sup> 20. κυριω ¦ CT χριστω
-> - <sup>t</sup> 21. ο ¦ CT α
-> - <sup>u</sup> 23. ασπαζονται ¦ CT PT ασπαζεται
-> - <sup>v</sup> 25. ημων ¦ NA SBL WH _om._
-> - <sup>w</sup> 25. χριστου ¦ PCK _om._
-> - <sup>x</sup> 25. αμην ¦ NA SBL WH _om._
+> - <sup>l</sup> 11. δὲ ¦ NA δὲ [καὶ]
+> - <sup>m</sup> 12. σὺ δὲ ¦ CT σοι
+> - <sup>n</sup> 12. προσλαβοῦ ¦ CT _om._
+> - <sup>o</sup> 13. διακονῇ μοι ¦ CT μοι διακονῇ
+> - <sup>p</sup> 16. ἀλλ ¦ SBL WH ἀλλὰ
+> - <sup>q</sup> 17. με ¦ TR ἐμὲ
+> - <sup>r</sup> 18. ἐλλόγει ¦ CT ἐλλόγα
+> - <sup>s</sup> 20. κυρίῳ ¦ CT χριστῷ
+> - <sup>t</sup> 21. ὃ ¦ CT ἃ
+> - <sup>u</sup> 23. Ἀσπάζονταί ¦ CT PT Ἀσπάζεταί
+> - <sup>v</sup> 25. ἡμῶν ¦ NA SBL WH _om._
+> - <sup>w</sup> 25. χριστοῦ ¦ PCK _om._
+> - <sup>x</sup> 25. Ἀμήν ¦ NA SBL WH _om._
