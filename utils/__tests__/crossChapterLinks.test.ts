@@ -7,10 +7,13 @@ import {
   classifyBibleLink,
   completeTruncatedRange,
   CrossChapterFinding,
+  findCrossChapterLinks,
   findUnresolvableTarget,
   formatCrossChapterFinding,
   formatTruncatedRangeFinding,
+  formatUnreadableTargetFinding,
   formatUnresolvableTargetFinding,
+  UnreadableTargetFinding,
   reconstructTruncatedRangesInContent,
   splitCrossChapterLink,
   splitCrossChapterLinksInContent,
@@ -21,17 +24,16 @@ import {
 } from "../crossChapterLinks";
 
 /**
- * Two synthetic "versions" written to isolated temp dirs, not the real
- * bible-versions/ corpus — real book ids (so name resolution still hits the
- * real bible-books.json registry) but invented chapter/verse content.
- * `readVersionBookFiles` treats an absolute path as a directory to read
- * directly, so this needed no change to any function signature.
+ * Write one synthetic "version" to an isolated temp dir: real book ids, so
+ * name resolution still hits the real bible-books.json registry, but invented
+ * chapter/verse content. `readVersionBookFiles` treats an absolute path as a
+ * directory to read directly, which is the seam these fixtures go through.
  *
- * FAKE_A and FAKE_B share Romans 14 at two different lengths, to prove
- * chapter length comes from whichever version is asked, never a shared
- * table. Every other book exists only where a specific test needs it — an
- * absent book resolves to `null` rather than throwing, so most grammar-only
- * tests need no fixture data for their own book name at all.
+ * FAKE_A and FAKE_B share Romans 14 at two different lengths, to prove chapter
+ * length comes from whichever version is asked, never a shared table. Every
+ * other book exists only where a specific test needs it — an absent book
+ * resolves to `null` rather than throwing, so most grammar-only tests need no
+ * fixture data for their own book name at all.
  */
 function writeFixtureVersion(root: string, books: Record<string, Record<number, number[]>>): void {
   fs.mkdirSync(root, { recursive: true });
@@ -48,7 +50,7 @@ const FAKE_B = fs.mkdtempSync(path.join(os.tmpdir(), "crossChapterLinks-test-b-"
 
 beforeAll(() => {
   writeFixtureVersion(FAKE_A, {
-    EXO: { 3: [1, 2, 3, 4], 12: range(1, 25) },
+    EXO: { 3: [1, 2, 3, 4], 4: range(1, 17), 12: range(1, 25) },
     "2KG": { 6: range(1, 10), 7: range(1, 8) },
     ROM: { 14: range(1, 6) },
     MRK: { 9: [1, 2, 3, 4, 5, 6, 8, 9, 10] }, // verse 7 deliberately omitted — a genuine gap, not just "past the end"
@@ -93,8 +95,26 @@ describe("classifyBibleLink — target shape", () => {
     expect(classifyBibleLink(FAKE_A, "Exodus 3:3–4").shape).toBe("singleChapter");
   });
 
-  it("should classify a whole-chapter range as wholeChapterRange — a finding, split with no verse anchor (see the splitCrossChapterLink suite below)", () => {
-    expect(classifyBibleLink(FAKE_A, "Revelation 4–20").shape).toBe("wholeChapterRange");
+  it("should classify a whole-chapter range as crossChapterRange too — one range shape, whichever endpoints anchor a verse", () => {
+    expect(classifyBibleLink(FAKE_A, "Revelation 4–20").shape).toBe("crossChapterRange");
+  });
+
+  // The real ESV2025 LUK 20:37 shape (`Exodus 3–4:17`, displayed
+  // `Ex. 3:1–4:17`): the left endpoint names only a chapter, the right one
+  // names a verse. Six ESV2025 targets carry it.
+  it("should classify a chapter-to-verse range as crossChapterRange, with no verse on the left endpoint", () => {
+    const result = classifyBibleLink(FAKE_A, "Exodus 3–4:17");
+    expect(result.shape).toBe("crossChapterRange");
+    expect(result.fromChapter).toBe(3);
+    expect(result.fromVerse).toBeNull();
+    expect(result.toChapter).toBe(4);
+    expect(result.toVerse).toBe(17);
+  });
+
+  it("should read that same chapter-to-verse range through an em dash and an ASCII hyphen, differing only in which dash it reports", () => {
+    const enDash = classifyBibleLink(FAKE_A, "Exodus 3–4:17");
+    expect(classifyBibleLink(FAKE_A, "Exodus 3—4:17")).toEqual({ ...enDash, dash: "—" });
+    expect(classifyBibleLink(FAKE_A, "Exodus 3-4:17")).toEqual({ ...enDash, dash: "-" });
   });
 
   it("should classify a bare chapter reference as singleChapter (grammar illustration)", () => {
@@ -109,9 +129,10 @@ describe("classifyBibleLink — target shape", () => {
     expect(classifyBibleLink(FAKE_A, "Ezekiel 34:11–12, 15, 22").shape).toBe("mergedTarget");
   });
 
-  it("should report an unparsed siglum-suffixed target rather than throw", () => {
-    expect(() => classifyBibleLink(FAKE_A, "Deuteronomy 32:43 LXX")).not.toThrow();
-    expect(classifyBibleLink(FAKE_A, "Deuteronomy 32:43 LXX").shape).toBe("unparsed");
+  it("should report a target the grammar cannot read rather than throw", () => {
+    expect(() => classifyBibleLink(FAKE_A, "Romans 1–end")).not.toThrow();
+    expect(classifyBibleLink(FAKE_A, "Romans 1–end").shape).toBe("unparsed"); // a second endpoint that is neither a number nor an endpoint of its own
+    expect(classifyBibleLink(FAKE_A, "see the note above").shape).toBe("unparsed"); // a first endpoint that names no chapter
   });
 
   it("should find the em-dash target even though an en-dash-only pattern would miss it", () => {
@@ -159,7 +180,7 @@ describe("classifyBibleLink — book-name resolution restricted to a version's o
   });
 });
 
-describe("formatCrossChapterFinding (was auditCrossChapterLinks.ts's own function, moved here)", () => {
+describe("formatCrossChapterFinding", () => {
   it("should format a finding into the one-line report format", () => {
     const finding: CrossChapterFinding = {
       book: "2KG",
@@ -176,6 +197,58 @@ describe("formatCrossChapterFinding (was auditCrossChapterLinks.ts's own functio
     };
     expect(formatCrossChapterFinding(finding)).toBe(
       'HEB 11:34 [xrf/verse]: "2 Kings 6:31—7:20" spans 2KG 6–7 — unsplit',
+    );
+  });
+});
+
+// The sweep needs its own fixture: the shared versions above carry
+// plain-string content with no bibleLink node anywhere in it.
+describe("findCrossChapterLinks — the whole-version sweep", () => {
+  const FAKE_SWEEP = fs.mkdtempSync(path.join(os.tmpdir(), "crossChapterLinks-test-sweep-"));
+
+  beforeAll(() => {
+    const records: unknown[] = [
+      // A readable chapter-spanning range, in verse content with no footnote.
+      { book: "EXO", chapter: 3, verse: 1, content: ["see ", { bibleLink: "Exodus 3–4:17", content: "Ex. 3:1–4:17" }] },
+      // A target the grammar cannot read, inside an xrf footnote.
+      { book: "EXO", chapter: 3, verse: 2, content: [{ text: "so", foot: { type: "xrf", content: [{ bibleLink: "Romans 1–end" }] } }] },
+      // A target that reads fine and is no finding at all.
+      { book: "EXO", chapter: 3, verse: 3, content: [{ bibleLink: "Exodus 4:2" }] },
+    ];
+    for (const verse of [4, ...range(5, 17)]) records.push({ book: "EXO", chapter: 3, verse, content: ["filler"] });
+    for (const verse of range(1, 17)) records.push({ book: "EXO", chapter: 4, verse, content: ["filler"] });
+    fs.mkdirSync(FAKE_SWEEP, { recursive: true });
+    fs.writeFileSync(path.join(FAKE_SWEEP, "EXO.json"), JSON.stringify(records));
+  });
+
+  afterAll(() => {
+    fs.rmSync(FAKE_SWEEP, { recursive: true, force: true });
+  });
+
+  it("should report the readable range as a finding, the unreadable target separately, and every bibleLink it walked past in scanned", () => {
+    const { findings, unreadable, scanned } = findCrossChapterLinks(FAKE_SWEEP);
+
+    expect(scanned).toBe(3);
+    expect(findings).toHaveLength(1);
+    expect(findings[0].target).toBe("Exodus 3–4:17");
+    expect(unreadable).toEqual([
+      { atBook: "EXO", atChapter: 3, atVerse: 2, footnoteType: "xrf", zone: "verse", target: "Romans 1–end" },
+    ]);
+  });
+});
+
+describe("formatUnreadableTargetFinding", () => {
+  it("should format an unreadable target into the same one-line report format its peers use", () => {
+    const finding: UnreadableTargetFinding = {
+      atBook: "EXO",
+      atChapter: 3,
+      atVerse: 2,
+      footnoteType: "xrf",
+      zone: "verse",
+      target: "Romans 1–end",
+    };
+    expect(formatUnreadableTargetFinding(finding)).toBe(
+      'EXO 3:2 [xrf/verse]: "Romans 1–end" — no target grammar reads this',
     );
   });
 });
@@ -213,7 +286,7 @@ describe("splitCrossChapterLink — whole-chapter ranges (pure function only —
     expect(partB).toEqual({ bibleLink: "Matthew 5", content: "v" });
   });
 
-  it("should read Part B's chapter number, not fold it into a verse the way crossChapterRange does", () => {
+  it("should read Part B's chapter number, not fold it into a verse the way a verse-anchored endpoint does", () => {
     const [, , partB] = splitCrossChapterLink(FAKE_A, { bibleLink: "2 Corinthians 10–12" })!;
     expect(partB).toEqual({ bibleLink: "2 Corinthians 12", content: "12" });
   });
@@ -225,23 +298,77 @@ describe("splitCrossChapterLink — whole-chapter ranges (pure function only —
   });
 });
 
+describe("splitCrossChapterLink — a chapter-to-verse range (pure function only — must not write to disk)", () => {
+  // The real ESV2025 LUK 20:37 node, on this fixture's own Exodus.
+  const link = { bibleLink: "Exodus 3–4:17", content: "Ex. 3:1–4:17" };
+
+  it("should leave Part A a bare chapter even though Part B carries a verse", () => {
+    const split = splitCrossChapterLink(FAKE_A, link);
+
+    expect(split).not.toBeNull();
+    const [partA, dash, partB] = split!;
+    expect(partA).toEqual({ bibleLink: "Exodus 3", content: "Ex. 3:1" });
+    expect(dash).toBe("–");
+    expect(partB).toEqual({ bibleLink: "Exodus 4:1–17", content: "4:17" });
+  });
+
+  it("should preserve the display — Part A, the separator, and Part B concatenate back to the original byte-for-byte", () => {
+    const [partA, dash, partB] = splitCrossChapterLink(FAKE_A, link)!;
+    expect(`${partA.content}${dash}${partB.content}`).toBe(link.content);
+  });
+
+  it("should report zero splits on a second pass over its own output", () => {
+    const first = splitCrossChapterLinksInContent(FAKE_A, link);
+    expect(first.splits).toBe(1);
+
+    const second = splitCrossChapterLinksInContent(FAKE_A, first.content);
+    expect(second.splits).toBe(0);
+    expect(second.content).toEqual(first.content);
+  });
+
+  it("should give Part B a bare verse one, with no trailing range, when the right endpoint stops there", () => {
+    const [, , partB] = splitCrossChapterLink(FAKE_A, { bibleLink: "Exodus 3–4:1" })!;
+    expect(partB).toEqual({ bibleLink: "Exodus 4:1", content: "4:1" });
+  });
+
+  it("should throw when this fixture carries no toChapter — the existing chapter-existence guards cover the new shape too", () => {
+    expect(() => splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 1–2:3" })).toThrow(/carries no Jude 2 for:/);
+  });
+});
+
+// A fully-spelled second endpoint (`Exodus 3–Exodus 4:17`) is unmeasured in
+// this corpus but not assumed absent.
+describe("splitCrossChapterLink — each endpoint decides its own half", () => {
+  it("should keep Part A a bare chapter when the left endpoint names no verse, however the right endpoint is spelled", () => {
+    const [partA, , partB] = splitCrossChapterLink(FAKE_A, { bibleLink: "Exodus 3–Exodus 4:17" })!;
+    expect(partA).toEqual({ bibleLink: "Exodus 3" }); // not "Exodus 3–4", which reads as chapters 3–4
+    expect(partB).toEqual({ bibleLink: "Exodus 4:1–17", content: "Exodus 4:17" });
+  });
+
+  it("should carry Part A to its own chapter's end when the left endpoint names a verse, however the right endpoint is spelled", () => {
+    const [partA, , partB] = splitCrossChapterLink(FAKE_A, { bibleLink: "Exodus 3:2–Exodus 4" })!;
+    expect(partA).toEqual({ bibleLink: "Exodus 3:2–4", content: "Exodus 3:2" }); // not "Exodus 3:2", losing the rest of chapter 3
+    expect(partB).toEqual({ bibleLink: "Exodus 4" });
+  });
+});
+
 describe("splitCrossChapterLink — chapter-existence guard", () => {
   // Every fixture here uses Jude (JUD) — single-chapter in this fixture, so
   // "chapter 2" is guaranteed absent without depending on any other data.
 
-  it("should throw for a wholeChapterRange target whose fromChapter is absent (this fixture's Jude has only chapter 1)", () => {
+  it("should throw for a whole-chapter range whose fromChapter is absent", () => {
     expect(() => splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 2–3" })).toThrow(/cannot derive .*chapter length for:/);
   });
 
-  it("should throw for a wholeChapterRange target whose toChapter is absent (this fixture's Jude has only chapter 1)", () => {
+  it("should throw for a whole-chapter range whose toChapter is absent", () => {
     expect(() => splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 1–2" })).toThrow(/carries no Jude 2 for:/);
   });
 
-  it("should throw for a crossChapterRange target whose toChapter is absent", () => {
+  it("should throw for a verse-anchored range whose toChapter is absent", () => {
     expect(() => splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 1:5–2:3" })).toThrow(/carries no Jude 2 for:/);
   });
 
-  it("should still throw for a crossChapterRange target whose fromChapter is absent — already threw before this guard; kept so the hoisting refactor cannot regress it", () => {
+  it("should throw for a verse-anchored range whose fromChapter is absent", () => {
     expect(() => splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 2:5–3:1" })).toThrow(/cannot derive .*chapter length for:/);
   });
 });
@@ -289,8 +416,7 @@ describe("splitCrossChapterLinksInContent — idempotence", () => {
   });
 });
 
-// A bibleLink whose target is truncated short of the range its own display
-// override names. Every fixture here is hand-authored against the synthetic
+// Every truncated-range fixture below is hand-authored against the synthetic
 // FAKE_A/FAKE_B chapter data above, not any real translation's own text.
 describe("completeTruncatedRange — whole-chapter-equivalence gate", () => {
   it("should NOT be a finding: a bare-chapter target whose display spells out that exact chapter's own verses 1..last", () => {
@@ -312,8 +438,6 @@ describe("completeTruncatedRange — the whole-chapter gate rejects a display th
   });
 
   it("should NOT be a finding for the identical target and display checked against a version whose Romans 14 really does end at 9 (FAKE_B)", () => {
-    // Same gate, different version — reads real per-version data, not a
-    // shared assumption (mirrors classifyBibleLink's per-version tests above).
     expect(
       completeTruncatedRange(FAKE_B, { bibleLink: "Romans 14", content: "Rom. 14:1–9" })
     ).toBeNull();
@@ -366,9 +490,11 @@ describe("completeTruncatedRange — not findings", () => {
     ).toBeNull();
   });
 
-  it("should not flag the deliberate siglum shape just because it classifies as unparsed", () => {
+  // The display below names a range this check would otherwise complete, so
+  // the unparsed shape is the only thing making this null.
+  it("should never flag a target the grammar cannot read at all", () => {
     expect(
-      completeTruncatedRange(FAKE_A, { bibleLink: "Deuteronomy 32:43 LXX" })
+      completeTruncatedRange(FAKE_A, { bibleLink: "Romans 1–end", content: "Rom. 1.1–5" })
     ).toBeNull();
   });
 
@@ -471,12 +597,10 @@ describe("reconstructTruncatedRangesInContent — the content-tree transform", (
   });
 });
 
-// A bibleLink names a location in Scripture, so it is judged against every
-// version pooled together, never against the one version it is written in.
 // FAKE_A's Mark 9 omits verse 7 — the shape a textual-variant footnote is
-// written about — and FAKE_B carries it, so the pooled corpus resolves a
-// link FAKE_A alone cannot.
-describe("findUnresolvableTarget — the single-target entry point (G4)", () => {
+// written about — and FAKE_B carries it, so the pooled corpus resolves a link
+// FAKE_A alone cannot.
+describe("findUnresolvableTarget — the single-target entry point", () => {
   it("should report a verse no pooled version carries", () => {
     const result = findUnresolvableTarget("Mark 9:7", [FAKE_A]);
     expect(result).not.toBeNull();
@@ -516,8 +640,10 @@ describe("findUnresolvableTarget — the single-target entry point (G4)", () => 
     expect(findUnresolvableTarget("Romans 14:8", [FAKE_A, FAKE_B])).toBeNull();
   });
 
+  // FAKE_A carries no Romans 1, so without the unparsed guard this endpoint
+  // would come back "chapter-not-carried".
   it("should never flag a target the endpoint grammar cannot parse at all", () => {
-    expect(findUnresolvableTarget("Deuteronomy 32:43 LXX", [FAKE_A])).toBeNull();
+    expect(findUnresolvableTarget("Romans 1–end", [FAKE_A])).toBeNull();
   });
 
   it("should never flag a comma-merged target — one never resolves to a book/chapter/verse to judge", () => {
@@ -565,9 +691,6 @@ describe("formatUnresolvableTargetFinding", () => {
   });
 });
 
-// A one-chapter book is cited by verse alone. That shorthand looks exactly
-// like a chapter number, so the target needs the chapter written in while
-// the display keeps the shorthand a reader expects to see.
 describe("findSingleChapterShorthand — the single-target entry point", () => {
   it("should read a bare number after a one-chapter book as the verse it is", () => {
     expect(findSingleChapterShorthand("Jude 3", undefined, [FAKE_A])).toEqual({
@@ -621,14 +744,13 @@ describe("findSingleChapterShorthand — the single-target entry point", () => {
     expect(findSingleChapterShorthand("Jude 3", undefined, [FAKE_B])).toBeNull();
   });
 
+  // A target with no book name at all — without the unparsed guard this
+  // would reach book resolution with a null name and throw.
   it("should never touch a target the endpoint grammar cannot parse", () => {
-    expect(findSingleChapterShorthand("Deuteronomy 32:43 LXX", undefined, [FAKE_A])).toBeNull();
+    expect(findSingleChapterShorthand("see the note above", undefined, [FAKE_A])).toBeNull();
   });
 });
 
-// The fixer — normalizeSingleChapterShorthandInContent. What a reader sees
-// never changes: a node with no display override of its own gains the
-// shorthand it was already showing.
 describe("normalizeSingleChapterShorthandInContent — the fixer", () => {
   it("should write the chapter into the target and leave an existing display override untouched", () => {
     const { content, changed } = normalizeSingleChapterShorthandInContent(

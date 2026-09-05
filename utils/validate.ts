@@ -27,6 +27,7 @@ import {
   fixCrossChapterLinks,
   formatCrossChapterFinding,
   formatTruncatedRangeFinding,
+  formatUnreadableTargetFinding,
   formatUnresolvableTargetFinding,
   normalizeSingleChapterShorthandInContent,
   reconstructTruncatedRangesInContent,
@@ -266,13 +267,8 @@ async function reconstructTruncatedRangesInFile(
 
 /**
  * Normalize every un-normalized fraction in one verse file and write it back
- * if anything changed.
- *
- * Uses {@link normalizeFractionsInContent}'s own per-verse `changed` flag,
- * the same pattern {@link normalizeBibleLinkDashesInFile} uses. No
- * `sortVerseKeys` call is needed — same reason as {@link
- * reconstructTruncatedRangesInFile}: this step only mutates an existing
- * `text` string's value in place.
+ * if anything changed. No `sortVerseKeys` call is needed: this step only
+ * mutates an existing `text` string's value in place.
  */
 async function normalizeFractionsInFile(filePath: string): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
@@ -295,11 +291,8 @@ async function normalizeFractionsInFile(filePath: string): Promise<boolean> {
 
 /**
  * Normalize every un-normalized ellipsis in one verse file and write it back
- * if anything changed.
- *
- * Uses {@link normalizeEllipsesInContent}'s own per-verse `changed` flag,
- * the same pattern {@link normalizeFractionsInFile} uses. No `sortVerseKeys`
- * call is needed, same reason as {@link normalizeFractionsInFile}.
+ * if anything changed. No `sortVerseKeys` call is needed: this step only
+ * mutates an existing `text` string's value in place.
  *
  * Deliberately narrower than `auditNodes.ts`'s ellipsis check: this only
  * ever rewrites the unambiguous three-plus-dot and spaced-dot shapes
@@ -327,23 +320,9 @@ async function normalizeEllipsesInFile(filePath: string): Promise<boolean> {
 }
 
 /**
- * Normalize every straight `'`/`"` in one verse file to its correctly
- * directed curly counterpart and write it back if anything changed.
- *
- * Uses {@link normalizeQuotesInContent}'s own per-verse `changed` flag, the
- * same pattern {@link normalizeFractionsInFile} and
- * {@link normalizeEllipsesInFile} use. No `sortVerseKeys` call is needed —
- * same reason as those two: this step only mutates an existing `text`
- * string's value in place.
- */
-/**
  * Repairs every misplaced Greek dialytika in one verse file and writes it
- * back if anything changed.
- *
- * Uses {@link normalizeDiacriticsInContent} own per-verse `changed` flag, the
- * same pattern the fraction, ellipsis and quote steps use. No
- * `sortVerseKeys` call is needed, same reason as those three: this step only
- * mutates an existing `text` string value in place.
+ * back if anything changed. No `sortVerseKeys` call is needed: this step only
+ * mutates an existing `text` string's value in place.
  */
 async function normalizeDiacriticsInFile(filePath: string): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
@@ -364,6 +343,12 @@ async function normalizeDiacriticsInFile(filePath: string): Promise<boolean> {
   return false;
 }
 
+/**
+ * Normalize every straight `'`/`"` in one verse file to its correctly
+ * directed curly counterpart and write it back if anything changed. No
+ * `sortVerseKeys` call is needed: this step only mutates an existing `text`
+ * string's value in place.
+ */
 async function normalizeQuotesInFile(filePath: string): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
@@ -811,32 +796,24 @@ async function addMissingHeadingParagraphsInFile(filePath: string): Promise<bool
 // ---------------------------------------------------------------------------
 
 /**
- * Re-applies every per-verse content transform the auto-fix pass runs
- * above, in the exact same order, chaining each step's own output into the
- * next — matching how the real pass threads content from file write to
- * file write, not testing every step against the same stale input. Returns
- * the name of every step that still reports a change, in the order they
- * fired; an empty array means this verse really is a fixed point of the
- * whole pass.
+ * Re-applies every per-verse content transform the auto-fix pass runs above,
+ * in the exact same order, chaining each step's own output into the next —
+ * matching how the real pass threads content from file write to file write,
+ * not testing every step against the same stale input. Returns the name of
+ * every step that still reports a change, in the order they fired; an empty
+ * array means this verse really is a fixed point of the whole pass.
  *
- * This is the idempotence guard's own per-verse unit — see {@link
- * checkAutoFixPassIsFixedPoint}, which calls this against every file the
- * pass actually touched, after the pass has already run and (presumably)
- * settled. Factored out so it can be tested directly against a synthetic
- * verse with no file I/O at all.
+ * Per-verse unit of the idempotence guard — see {@link
+ * checkAutoFixPassIsFixedPoint}. Factored out so it can be tested directly
+ * against a synthetic verse with no file I/O at all.
  *
- * Named per step rather than returning a bare boolean so a failure can
- * point at exactly which step in the pass is still rewriting something —
- * the whole reason this guard exists: two steps that quietly undo each
- * other's work should fail loudly in the run that introduced the
- * interaction, not need a second, manual `npm run validate` to notice. A
- * real, verified instance of exactly this class of interaction exists in
- * the mark-boundary-embedded-space check's own fixer: relocating a
- * mark-boundary space across a genuine formatting disagreement can leave a
- * new, equally-disagreeing space on the far side of the same boundary,
- * which the mark-boundary-embedded-space check's own next application then
- * flips straight back (see `fixMarkBoundaryEmbeddedSpaces.ts`'s own doc comment,
- * and this repo's own test coverage for this function).
+ * Named per step rather than returning a bare boolean so a failure points at
+ * exactly which step is still rewriting something. A real, verified instance
+ * of the interaction this catches lives in the mark-boundary-embedded-space
+ * fixer: relocating a space across a genuine formatting disagreement can
+ * leave a new, equally-disagreeing space on the far side of the same
+ * boundary, which that fixer's next application flips straight back (see
+ * `fixMarkBoundaryEmbeddedSpaces.ts`'s own doc comment).
  *
  * Sort-keys and Prettier formatting are deliberately excluded: neither
  * touches the content tree, so neither can participate in the kind of
@@ -1387,137 +1364,64 @@ export function normalizeBibleLinkDashesInContent(
 
 /**
  * Validates (and normalizes) one version, or every version when none is
- * requested. The auto-fix pass runs the following steps, in order: sort verse
- * keys, format JSON files, hoist non-reference prose out of `bibleLink`
- * nodes, normalize `bibleLink` dashes, reconstruct
- * truncated `bibleLink` ranges, split cross-chapter `bibleLink` ranges,
- * normalize fractions, normalize ellipses, normalize straight quotes, tag
- * untagged script runs, merge unmerged node pairs, reorder footnote
- * punctuation, relocate mark-boundary embedded spaces, relocate
- * footnote-marker spacing, drop empty text keys, remove duplicate footnote
- * anchors, merge equivalent siblings, merge mark-boundary spaces, and add
- * missing heading/subtitle paragraph flags. Single-chapter shorthand
- * targets gain their implied chapter near the front, right after dashes.
+ * requested. The auto-fix pass runs these steps, in order: sort verse keys,
+ * format JSON files, hoist non-reference prose out of `bibleLink` nodes,
+ * normalize `bibleLink` dashes, write the implied chapter into single-chapter
+ * shorthand targets, reconstruct truncated `bibleLink` ranges, split
+ * cross-chapter `bibleLink` ranges, normalize fractions, normalize ellipses,
+ * normalize straight quotes, repair misplaced dialytika, tag untagged script
+ * runs, merge unmerged node pairs, reorder footnote punctuation, relocate
+ * mark-boundary embedded spaces, relocate footnote-marker spacing, drop empty
+ * text keys, remove duplicate footnote anchors, merge equivalent siblings,
+ * merge mark-boundary spaces, and add missing heading/subtitle paragraph
+ * flags.
  *
- * The ordering is deliberate. The display-prose hoist goes first because it
- * is the step that takes a tradition siglon off a *target*, the difference
- * between a target naming a real verse and one naming nothing, so every
- * later target-reading step sees a settled reference. Dashes settle before
- * the truncated-range and
- * cross-chapter steps look for the separator; a reconstructed truncated
- * range runs before the cross-chapter split so a range that turns out to
- * span two chapters gets split on the very next step rather than left for a
- * later run; and both consume a range before the text-only fractions,
- * ellipses, quote-direction, and script-run steps see the same nodes. The
- * straight-quote check's own direction rule reads only the characters
- * immediately around each quote, never a fraction or ellipsis glyph, so it
- * runs after those two without depending on either — it only needs to run
- * before the script-run check, the same reason the other text-only steps
- * do. The script-run check runs last among the text-shaped steps and
- * before the structural checks: splitting a node into several siblings is
- * itself a structural change, so it needs to see fractions, ellipses, and
- * quotes already normalized in the text it's about to split, and the
- * structural checks after it need to see the split nodes it produces
- * rather than the single pre-split node. The unmerged-connector check, the
- * footnote-punctuation-order check, the mark-boundary-embedded-space
- * check, and the footnote-marker-spacing check run next, in that order,
- * because the unmerged-connector check's merge is the coarsest structural
- * change (so it precedes the finer-grained footnote-punctuation-order and
- * mark-boundary-embedded-space checks); the footnote-marker-spacing check
- * runs immediately after the mark-boundary-embedded-space check because
- * the mark-boundary-embedded-space check's own relocation settles which
- * node owns a boundary space, and the footnote-marker-spacing check needs
- * to see that settled state rather than relocate a space the
- * mark-boundary-embedded-space check was about to move a second time.
- * Dropping empty text keys, the duplicate-footnote-anchor check's removal,
- * and the mergeable-sibling check's merge run immediately after the
- * footnote-marker-spacing check and before the
- * heading-paragraph check, in that order: the footnote-marker-spacing
- * check must settle every node's own space before either of the first two
- * can decide whether a node renders anything, since deleting a node here
- * changes which neighbor a *later* run of the footnote-marker-spacing
- * check would relocate a space onto; the empty-text-key drop runs first so
- * the duplicate-footnote-anchor check always compares nodes whose own key
- * set is already fully settled, even though {@link
- * isDuplicateFootnoteAnchor} treats an absent `text` and an empty one
- * identically either way (a node can be both a husk and a duplicate anchor
- * at once, and loses both in this one pass regardless of which of the two
- * runs first). The mergeable-sibling check runs after the
- * duplicate-footnote-anchor check's removal because deleting a node can
- * leave two plain siblings newly adjacent that only the mergeable-sibling
- * check's own merge should fold together. **The mark-boundary-space check's own
- * merge runs after the mergeable-sibling check and before the
- * heading-paragraph check.** After the mergeable-sibling check: that
- * step's own merge can leave a bare whitespace-only node newly adjacent to
- * a node it just folded two other siblings around, so the mark-boundary-space
- * check needs to see the array in its fully-settled shape rather than roll
- * a boundary space forward onto a node a later merge would still touch.
- * Before the heading-paragraph check: a heading/subtitle run is never
- * itself a `isBlankConnector` candidate, so nothing about that check's own
- * additive flag could feed back into a boundary this one is still
- * deciding — the two never interact, so this step's own position relative
- * to it is a matter of grouping with the rest of the space-boundary
- * cluster, not a load-bearing ordering constraint. The heading-paragraph
- * check runs last because it's additive and touches a node class none of
- * the others do.
- * The script-run check, the unmerged-connector check, the
- * footnote-punctuation-order check, the mark-boundary-embedded-space
- * check, the empty-text-key drop, the duplicate-footnote-anchor check, the
- * mergeable-sibling check, the mark-boundary-space check, and the
- * heading-paragraph check call `sortVerseKeys` on every changed verse,
- * unlike most steps before the script-run check, since splitting, merging,
- * reordering, relocating, dropping a key, deleting a node, and flagging can
- * all change which keys a node carries. The single-chapter shorthand
- * rewrite calls it too, for the same reason: a link with no display
- * override of its own gains one. The footnote-marker-spacing check doesn't
- * need it either, for the same reason the truncated-range, cross-chapter,
- * and text-only steps don't — see {@link reconstructTruncatedRangesInFile}:
- * it only ever mutates an existing `text` string's value in place.
+ * The ordering is deliberate, and each step's own `…InFile` doc comment gives
+ * its own constraint. Four constraints belong to the sequence as a whole
+ * rather than to any one step:
+ *
+ * - **Target-reading steps run in grammar order** — prose hoist, dashes,
+ *   shorthand, truncated ranges, cross-chapter split — so each one sees a
+ *   target the one before it has already settled, and a truncation that turns
+ *   out to span two chapters is split on the very next step rather than
+ *   waiting for a later run.
+ * - **Every text-shaped step precedes every structural one.** The script-run
+ *   check is the hinge: splitting a node into siblings is itself structural,
+ *   so it needs fractions, ellipses and quotes already normalized in the text
+ *   it is about to split, and the structural steps after it need its split
+ *   nodes rather than the single pre-split one.
+ * - **Structural steps run coarsest first**, so a finer step never resolves a
+ *   boundary a coarser one is still about to move.
+ * - **The heading-paragraph flag goes last**, being purely additive and
+ *   touching a node class none of the others do.
  *
  * **Immediately after the auto-fix pass, before any schema/structure check,
- * `main` proves the pass is a fixed point of itself.** A before/after
- * byte snapshot of every verse file (taken once, before the sort-keys step)
- * names exactly which files the steps above actually touched; only
- * those files get re-checked, by re-running {@link
- * findResidualContentChanges}'s own chain of the pass's per-verse content
- * transforms against their already-fixed content, entirely in memory. On a
- * settled corpus nothing changed, so nothing is even re-read. The moment two
- * steps interact — one step's fix recreating a shape an earlier step would
- * rewrite again — this fails the run that introduced the interaction, naming
- * the file, the verse, and the step, rather than needing a second, manual
- * `npm run validate` to notice.
+ * `main` proves the pass is a fixed point of itself.** A before/after byte
+ * snapshot of every verse file (taken once, before the sort-keys step) names
+ * exactly which files the steps above actually touched, and only those get
+ * re-checked, in memory, through {@link findResidualContentChanges}. The
+ * moment two steps interact — one step's fix recreating a shape an earlier
+ * step would rewrite again — this fails the run that introduced the
+ * interaction, naming the file, the verse, and the step.
  *
  * After that, `main` checks bible-books, each version's `_version.json`,
  * book ordering, and every verse file's schema and content, then runs the
  * report-only audits: declared chapter counts, cross-chapter links,
- * truncated ranges, node conventions, unresolvable `bibleLink` targets, and
- * `bibleLink` display prose
- * — exiting non-zero on the first phase that fails.
+ * truncated ranges, node conventions, unresolvable `bibleLink` targets,
+ * `bibleLink` display prose, and abbreviation references.
  *
- * **The report-only audits run after the fix pass on purpose.** The
- * footnote-punctuation-order check, the mark-boundary-embedded-space
- * check, the footnote-marker-spacing check, and the script-run check, and
- * the truncated-range reconstruction each
- * have a gate that can decline a real finding rather than guess at it.
+ * **The report-only audits run after the fix pass on purpose.** Several fix
+ * steps have a gate that can decline a real finding rather than guess at it.
  * Whatever a gate declines is still on disk when the audit re-reads it, so
  * the run still fails with detail — the "report what it can't fix" half of
- * the contract falls out of the ordering alone, with no extra code needed to
- * enforce it.
+ * the contract falls out of the ordering alone, with no extra code enforcing
+ * it.
  *
- * The schema/structure phases are hierarchical: each assumes the earlier
- * ones held, so a failure exits immediately. The corpus-wide audits
- * that run last (the declared-chapter check, `crossChapterLinks.ts`'s
- * checks, and `auditNodes.ts`) have no such dependency on each other,
- * so every one of them always runs to completion before `main` exits non-zero — a
- * version failing one still gets audited by the others in the same pass,
- * rather than needing a second run to find out. **This is why the
- * declared-chapter mismatches are collected during the book-ordering loop,
- * far earlier in this function, but not reported or gated until here**:
- * gating on them the moment they're found — the way a duplicate order
- * number or a numbering gap already does, immediately after that same
- * loop — would exit before the schema/verse checks and the other four
- * audits ever ran. Reporting it here instead, alongside its peers, keeps it
- * consistent with every other corpus-wide audit in this function.
+ * The schema/structure phases are hierarchical: each assumes the earlier ones
+ * held, so a failure exits immediately. The corpus-wide audits that run last
+ * depend on neither each other nor anything upstream, so every one of them
+ * runs to completion before `main` exits non-zero — a version failing one
+ * still gets audited by the rest in the same pass.
  *
  * @param requestedVersion - A single version id (e.g. `"YLT1898"`, from
  *   `process.argv[2]`). Omitted → every version directory on disk is
@@ -2092,7 +1996,6 @@ async function main(requestedVersion?: string) {
       continue;
     }
 
-    // Load and store the version for further validation
     const versionContent = fs.readFileSync(versionFilePath, "utf-8");
     const version = JSON.parse(versionContent) as BibleVersion;
     versions.push(version);
@@ -2335,9 +2238,7 @@ async function main(requestedVersion?: string) {
   // `_version.json` declares a chapter count its own verse file does not
   // actually carry. No check can supply missing chapters, so this only
   // reports — fixing a finding here means either completing the verse file
-  // or correcting `_version.json` to what the file actually carries. Uses
-  // the mismatches the book-ordering loop above already computed, rather
-  // than re-reading `_version.json` or any verse file a second time.
+  // or correcting `_version.json` to what the file actually carries.
   console.log("\n📐 Auditing declared chapter counts...");
   let declaredChapterMismatchesPassed = true;
 
@@ -2356,29 +2257,42 @@ async function main(requestedVersion?: string) {
   }
 
   // Cross-chapter bibleLink audit: every unsplit range still in this
-  // version's content. Report-only — see the auto-fix pass above and
-  // crossChapterLinks.ts for the split rule.
+  // version's content, plus every target the grammar could not read at all.
+  // Report-only — see the auto-fix pass above and crossChapterLinks.ts for
+  // the split rule.
   //
-  // Prints each version's own `scanned` count — findCrossChapterLinks
-  // already returns it, so a walk that silently stops descending is caught
-  // rather than under-reporting a clean bill of health. A dropped number
-  // here is a real regression to investigate, the same way a third
-  // node-convention finding below would be.
+  // The unreadable targets share this section rather than getting a peer
+  // audit of their own: findCrossChapterLinks already walks every bibleLink
+  // in a version, and what it could not read is the missing half of the same
+  // coverage statement its `scanned` count makes. A version's clean line is
+  // clean only when both counts are zero.
+  //
+  // Prints each version's own `scanned` count, so a walk that silently stops
+  // descending is caught rather than under-reporting a clean bill of health.
+  // A dropped number here is a real regression to investigate.
   console.log("\n🔗 Auditing cross-chapter bibleLink targets...");
   let crossChapterLinksPassed = true;
   let crossChapterLinksScanned = 0;
 
   for (const versionDir of versionDirs) {
-    const { findings, scanned } = findCrossChapterLinks(versionDir);
+    const { findings, unreadable, scanned } = findCrossChapterLinks(versionDir);
     crossChapterLinksScanned += scanned;
-    if (findings.length === 0) {
-      console.log(`✅ ${versionDir}: no unsplit cross-chapter links (${scanned} bibleLink node(s) scanned)`);
+    if (findings.length === 0 && unreadable.length === 0) {
+      console.log(`✅ ${versionDir}: no unsplit cross-chapter links, no unreadable targets (${scanned} bibleLink node(s) scanned)`);
       continue;
     }
 
-    console.error(`❌ ${versionDir}: ${findings.length} unsplit cross-chapter link(s) (${scanned} bibleLink node(s) scanned):`);
-    for (const finding of findings) {
-      console.error(`  ${formatCrossChapterFinding(finding)}`);
+    if (findings.length > 0) {
+      console.error(`❌ ${versionDir}: ${findings.length} unsplit cross-chapter link(s) (${scanned} bibleLink node(s) scanned):`);
+      for (const finding of findings) {
+        console.error(`  ${formatCrossChapterFinding(finding)}`);
+      }
+    }
+    if (unreadable.length > 0) {
+      console.error(`❌ ${versionDir}: ${unreadable.length} unreadable bibleLink target(s) (${scanned} bibleLink node(s) scanned):`);
+      for (const finding of unreadable) {
+        console.error(`  ${formatUnreadableTargetFinding(finding)}`);
+      }
     }
     crossChapterLinksPassed = false;
   }
@@ -2428,11 +2342,8 @@ async function main(requestedVersion?: string) {
   // Unresolvable-target audit: every bibleLink target naming a location no
   // version on disk records. Report-only on purpose — a link is written
   // wrong or it isn't, and both a mis-imported shorthand and a plain
-  // mistake want a person's attention rather than a quiet rewrite.
-  // Fourth peer audit alongside the three above —
-  // depends on neither them nor anything upstream, so it always runs to
-  // completion regardless of their outcome. Prints its own `scanned` count,
-  // matching the cross-chapter and truncated-range audits above.
+  // mistake want a person's attention rather than a quiet rewrite. Prints its
+  // own `scanned` count, matching the audits above.
   console.log("\n🔓 Auditing unresolvable bibleLink targets...");
   let unresolvableTargetsPassed = true;
   let unresolvableTargetsScanned = 0;
@@ -2487,10 +2398,9 @@ async function main(requestedVersion?: string) {
   console.log(`   ${displayProseScanned} bibleLink node(s) scanned corpus-wide`);
 
   // Abbreviation audit: every `{ abbr }` node naming an id its own version
-  // registry defines, and no registry defining an id twice. Sixth peer audit,
-  // report-only for the same reason as the four above: a bad id is either a
-  // typo in the content or a missing registry entry, and only a person can
-  // say which. Prints its own `scanned` count, matching them.
+  // registry defines, and no registry defining an id twice. Report-only for
+  // the same reason as its peers: a bad id is either a typo in the content or
+  // a missing registry entry, and only a person can say which.
   console.log("\n🔤 Auditing abbreviation references...");
   let abbreviationsPassed = true;
   let abbreviationsScanned = 0;
@@ -2534,7 +2444,7 @@ async function main(requestedVersion?: string) {
       console.error("\n❌ Declared chapter count audit failed! A book's chapters count in _version.json must match the highest chapter its own verse file actually carries. See the findings printed above for detail — fix by completing the verse file or correcting the declared count to what the file actually has.");
     }
     if (!crossChapterLinksPassed) {
-      console.error("\n❌ Cross-chapter link audit failed! The split step above already ran automatically — a finding surviving here means it genuinely could not be split. See the findings printed above for detail.");
+      console.error("\n❌ Cross-chapter link audit failed! The split step above already ran automatically — a finding surviving here means it genuinely could not be split. An unreadable target is the other way this fails: nothing split it because no target grammar reads it, so it is invisible to this audit's peers as well. See the findings printed above for detail.");
     }
     if (!truncatedRangesPassed) {
       console.error("\n❌ Truncated bibleLink range audit failed! The reconstruction step above already ran automatically — a finding surviving here means it declined the completion (a display range spanning two chapters, which the cross-chapter split owns instead). See the findings printed above for detail.");
