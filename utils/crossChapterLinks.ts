@@ -1,73 +1,36 @@
 /**
- * Whether a `bibleLink` target spans two different chapters of the same
- * book — a reference resolves inside neither chapter if so, so the
- * convention is to split it into two chapter-scoped links joined by a
- * literal en dash. Checked here across **any** version this repo carries.
+ * Detection and repair for `bibleLink` targets, across **any** version this
+ * repo carries. Four related checks live here because each one needs the
+ * same three things — the target grammar, a chapter-length index built from
+ * each version's own verse records, and book-name resolution:
  *
- * `utils/` already holds `validate.ts` and `exportContent.ts`, the other
- * tools that walk every version's data — this module joins them as the
- * version-agnostic owner of this one rule: dash-agnostic detection (a
- * target may use an en dash, em dash, or ASCII hyphen), a chapter-length
- * index built from each version's own verse records (versification can
- * differ between translations, so no shared or borrowed table), and
- * book-name resolution restricted to the version being checked.
+ * - **Cross-chapter ranges** ({@link findCrossChapterLinks},
+ *   {@link splitCrossChapterLink}). A target spanning two chapters of one
+ *   book resolves inside neither of them, so the convention splits it into
+ *   two chapter-scoped links joined by a literal en dash.
+ * - **Truncated ranges** ({@link findTruncatedRanges},
+ *   {@link completeTruncatedRange}). A target stopping short of the range its
+ *   own display override already spells out. Telling one apart from a
+ *   legitimate whole-chapter target needs this module's own per-version
+ *   chapter-length answer, not a second copy of it.
+ * - **Unresolvable targets** ({@link findUnresolvableTargets}). A target that
+ *   reads perfectly and names a location no version on disk records — a
+ *   wrong link is worse than a missing one, and one that reads correctly
+ *   until it is clicked is worse still.
+ * - **Single-chapter shorthand** ({@link findSingleChapterShorthand}). A
+ *   one-chapter book cited by verse alone, which reads as a chapter number.
  *
- * Two measured facts shaped the design:
+ * Chapter length always comes from the version being asked, never a shared or
+ * borrowed table: `ROM 14` ends at 23 in ASV1901 but 26 in WEBUS2020, so one
+ * version's table applied to another would silently mis-split a range in some
+ * of them. A `bibleLink` naming a book outside a version's own canon (e.g.
+ * any name absent from BYZ2026's NT-only canon) is reported as unresolvable,
+ * never thrown — see {@link classifyBibleLink} for why.
  *
- * - **Detection must accept the whole dash class, not only the en dash the
- *   convention emits.** A real target in this repo uses an em dash instead
- *   (see {@link DASH_CLASS}) — an en-dash-only detector would report a false
- *   all-clear on it.
- * - **Chapter length must come from each version's own verse records, never
- *   a shared or borrowed table.** Chapters disagree on last verse between
- *   versions (e.g. `ROM 14` ends at 23 in ASV1901 but 26 in WEBUS2020) — a
- *   table built from one version and applied to another would silently
- *   mis-split a range in some of them.
- *
- * A `bibleLink` naming a book outside a version's own canon (e.g. any name
- * absent from BYZ2026's NT-only canon) is reported as unresolvable, never
- * thrown — see {@link classifyBibleLink} for why.
- *
- * This module also owns a second, related check: whether a bibleLink's own
- * target stops short of the range its display override names (see
- * {@link completeTruncatedRange}). It belongs here for the same three
- * reasons as the cross-chapter check above — the target grammar, the
- * per-version chapter-length index, and book resolution
- * are already this module's business — and telling a genuine truncation
- * apart from a legitimate whole-chapter target needs this module's own
- * per-version chapter-length answer, not a second copy of it. A truncation
- * whose display crosses a chapter boundary is declined here rather than
- * reconstructed, since completing it would produce exactly the
- * crossChapterRange shape the split machinery above exists to take apart.
- *
- * A third, related check owned here: whether a bibleLink's own target
- * resolves to a verse the version actually carries at all (see
- * {@link findUnresolvableTarget}) — a wrong link is worse than a missing
- * one, but a target that reads correctly until it is clicked is worse
- * still. Unlike the two checks above, this one has a real, general fixer:
- * an unresolvable target loses its `bibleLink` wrapper and keeps whatever it
- * displayed (see {@link unlinkUnresolvableTargetsInContent}), which is
- * rendering-neutral by construction because that is already what
- * `exportContent.ts` renders for that shape.
- *
- * Public surface: {@link findCrossChapterLinks} (the whole-version sweep),
- * {@link classifyBibleLink} (the single-link entry point it is built on, also
- * directly callable — "callers pass a version id and a link, and get back
- * findings"), {@link splitCrossChapterLink}/{@link
- * splitCrossChapterLinksInContent}/{@link fixCrossChapterLinks} (the fix),
- * the {@link CrossChapterFinding} type, and their truncated-range
- * counterparts — {@link findTruncatedRanges}, {@link completeTruncatedRange}
- * (the single-link entry point, directly callable the same way
- * `classifyBibleLink` is), {@link reconstructTruncatedRangesInContent} (the
- * fix), and the {@link TruncatedRangeFinding}/{@link TruncatedRangeResult}
- * types — plus their unresolvable-target counterparts, {@link
- * findUnresolvableTargets}, {@link findUnresolvableTarget} (the single-link
- * entry point), {@link unlinkUnresolvableTargetsInContent} (the fix), and
- * the {@link UnresolvableTargetFinding}/{@link UnresolvableTargetResult}
- * types. Everything else — the dash-class regex, the endpoint grammar, the
- * display-range grammar, the per-version chapter-length index, the
- * per-version verse-existence index, the per-version book-alias index — is
- * this module's own business, never a caller's.
+ * Everything the four checks are built on — the dash-class regex, the
+ * endpoint grammar, the display-range grammar, and the per-version
+ * chapter-length, verse-existence and book-alias indexes — is this module's
+ * own business, never a caller's.
  */
 
 import * as fs from "fs";
@@ -89,10 +52,9 @@ const BIBLE_BOOKS_FILE = path.resolve(__dirname, "../bible-books/bible-books.jso
 /**
  * Every dash character this repo's `bibleLink` targets are known to use —
  * U+2010–U+2015 (hyphen through horizontal bar), U+2212 (minus sign), and
- * the ASCII hyphen. The convention emits only U+2013 (en dash), but
- * detection stays broad rather than assuming a source always agrees with the
- * convention: the real WEBUS2020 Hebrews 11:34 target once used an em dash
- * instead, and a future import could just as easily reintroduce one.
+ * the ASCII hyphen. The convention emits only U+2013 (en dash), but the real
+ * WEBUS2020 Hebrews 11:34 target used an em dash, so detection accepts the
+ * whole class rather than assuming a source agrees with the convention.
  */
 const DASH_CLASS = "\\u2010-\\u2015\\u2212-";
 const DASH = new RegExp(`[${DASH_CLASS}]`);
@@ -100,9 +62,12 @@ const DASH = new RegExp(`[${DASH_CLASS}]`);
 /**
  * One endpoint's grammar: a book name (anything, including digits and
  * spaces — `"1 Kings"`, `"Song of Solomon"`), then a chapter, then optionally
- * a verse. Anchored to the whole remaining text so trailing content the
- * grammar does not describe (a siglum like `" LXX"`) fails to match rather
- * than being silently accepted.
+ * a verse. Anchored to the whole remaining text so a trailing tail the
+ * grammar does not describe fails to match rather than being silently
+ * truncated to the part that does. Nothing in the corpus carries such a tail
+ * today — `"Deuteronomy 32:43 LXX"` was the last, and its siglum now sits in
+ * a sibling `abbr` node — so the anchor is guarding a door nothing walks
+ * through, and should stay shut.
  */
 const ENDPOINT = /^(.+?)\s+(\d+)(?::(\d+))?$/;
 
@@ -127,20 +92,31 @@ function parseEndpoint(text: string): ParsedEndpoint | null {
 /**
  * Which of this repo's `bibleLink` target shapes a string matches.
  *
- * `crossChapterRange` and `wholeChapterRange` are both findings this audit
- * splits — the two ends name a verse in `crossChapterRange` (e.g.
- * `"2 Kings 6:31–7:20"`), and name only a chapter in `wholeChapterRange`
- * (e.g. `"Romans 1–11"`); either way, a target spanning two chapters resolves
- * inside neither, so both get cut into two chapter-scoped halves.
- * `mergedTarget` is a same-book-and-chapter comma-joined
- * target (e.g. `"Isaiah 66:10, 13"`); a comma is that merge's unambiguous
- * signature (a plain target never contains one), and a merge is by
- * construction confined to one chapter, so it is excluded before the dash
- * grammar is even attempted rather than risking the comma being misread as a
- * second endpoint. `unparsed` is anything the grammar above does not
- * describe at all (`"Deuteronomy 32:43 LXX"`) — reported, never thrown.
+ * `crossChapterRange` is the one range shape, and it means exactly one thing:
+ * the target's two endpoints name two different chapters of the same book. It
+ * says nothing about whether either endpoint anchors a verse, because
+ * `fromVerse` and `toVerse` already answer that, and each half of a split
+ * reads its own endpoint's answer rather than a per-shape formula (see
+ * {@link splitCrossChapterLink}). All four combinations are the same shape:
+ * `"2 Kings 6:31–7:20"` (both ends), `"Romans 1–11"` (neither),
+ * `"Exodus 3–4:17"` (the right one only, six real ESV2025 targets), and
+ * `"Exodus 3:2–Exodus 4"` (the left one only). An endpoint pair naming the
+ * same chapter twice is `singleChapter` instead, however it was spelled.
+ *
+ * `mergedTarget` is a comma-joined same-chapter target (e.g.
+ * `"Isaiah 66:10, 13"`). The comma is that merge's unambiguous signature — a
+ * plain target never contains one — so it is excluded before the dash grammar
+ * is even attempted, rather than risking the comma being misread as a second
+ * endpoint.
+ *
+ * `unparsed` is a target the grammar above cannot read at all: a first
+ * endpoint that names no chapter (`"see the note above"`), or a second
+ * endpoint that is neither a number nor a `Book C[:V]` of its own
+ * (`"Romans 1–end"`). Never thrown, and never silent —
+ * {@link findCrossChapterLinks} returns it as `unreadable`. The corpus holds
+ * none.
  */
-type TargetShape = "singleChapter" | "crossChapterRange" | "wholeChapterRange" | "mergedTarget" | "unparsed";
+type TargetShape = "singleChapter" | "crossChapterRange" | "mergedTarget" | "unparsed";
 
 /**
  * One `bibleLink` target's classification for one version — shape, resolved
@@ -184,9 +160,9 @@ const UNRESOLVED: BibleLinkClassification = {
 
 /**
  * Classify one `bibleLink` target for one version — the single-link entry
- * point every finding is built from, and directly callable on its own (this
- * is how the per-version chapter-length divergence and book-resolution
- * behavior below are exercised: the same target, a different `versionId`).
+ * point every finding is built from, and directly callable on its own: the
+ * same target with a different `versionId` is how the per-version
+ * chapter-length and book-resolution behavior below is exercised.
  *
  * Never throws. A target this repo's grammar does not describe, or that
  * names a book outside `versionId`'s own canon, comes back reported in the
@@ -234,8 +210,7 @@ const UNPARSED_GRAMMAR: TargetGrammar = {
  * `"unparsed"` rather than raising.
  */
 function parseTarget(target: string): TargetGrammar {
-  // A comma-merged target is excluded before the dash grammar is even
-  // attempted — see the `mergedTarget` case in TargetShape's doc comment.
+  // The comma wins over the dash grammar — see TargetShape's `mergedTarget`.
   if (target.includes(",")) return { ...UNPARSED_GRAMMAR, shape: "mergedTarget" };
 
   const dashMatch = DASH.exec(target);
@@ -256,10 +231,10 @@ function parseTarget(target: string): TargetGrammar {
   // (this repo's cross-chapter-range shorthand), a bare number (a verse in
   // `fromChapter` when `from` already named one, otherwise a whole chapter),
   // or a full `Book C[:V]` endpoint (unmeasured in this corpus, but not
-  // assumed absent).
+  // assumed absent). None of the three consults the *first* endpoint's verse
+  // to pick a shape; only the chapter numbers decide.
   const shorthand = /^(\d+):(\d+)$/.exec(secondText);
   if (shorthand) {
-    if (from.verse === null) return { ...UNPARSED_GRAMMAR, ...base, shape: "unparsed", dash };
     const toChapter = Number(shorthand[1]);
     const toVerse = Number(shorthand[2]);
     return { ...UNPARSED_GRAMMAR, ...base, shape: toChapter === from.chapter ? "singleChapter" : "crossChapterRange", toChapter, toVerse, dash };
@@ -267,13 +242,15 @@ function parseTarget(target: string): TargetGrammar {
 
   if (/^\d+$/.test(secondText)) {
     const bare = Number(secondText);
-    if (from.verse === null) return { ...UNPARSED_GRAMMAR, ...base, shape: "wholeChapterRange", toChapter: bare, dash };
+    if (from.verse === null) {
+      return { ...UNPARSED_GRAMMAR, ...base, shape: bare === from.chapter ? "singleChapter" : "crossChapterRange", toChapter: bare, dash };
+    }
     return { ...UNPARSED_GRAMMAR, ...base, shape: "singleChapter", toChapter: from.chapter, toVerse: bare, dash };
   }
 
   const to = parseEndpoint(secondText);
   if (!to) return { ...UNPARSED_GRAMMAR, ...base, shape: "unparsed", dash };
-  return { ...UNPARSED_GRAMMAR, ...base, shape: to.verse === null ? "wholeChapterRange" : "crossChapterRange", toChapter: to.chapter, toVerse: to.verse, dash };
+  return { ...UNPARSED_GRAMMAR, ...base, shape: to.chapter === from.chapter ? "singleChapter" : "crossChapterRange", toChapter: to.chapter, toVerse: to.verse, dash };
 }
 
 // ---------------------------------------------------------------------------
@@ -347,9 +324,9 @@ function readVersionRecords(versionId: string): readonly VerseSchema[] {
 interface VersionIndex {
   /** `"BOOK C"` -> last verse number, the max recorded for that book+chapter in this version's own files. */
   lastVerseByChapter: ReadonlyMap<string, number>;
-  /** `"BOOK C"` -> every verse number actually recorded for that book+chapter — distinguishes a genuine gap (an omitted textual-variant verse inside an otherwise-ordinary chapter) from a number past the chapter's own last verse, which {@link lastVerseByChapter} alone cannot: a chapter's own last verse being 50 does not mean every verse 1–50 was recorded. */
+  /** `"BOOK C"` -> every verse number actually recorded for that book+chapter — a chapter's last verse being 50 does not mean 1–50 were all recorded, which is the gap {@link lastVerseByChapter} alone cannot see (see {@link verseExistsIn}). */
   versesInChapter: ReadonlyMap<string, ReadonlySet<number>>;
-  /** Repo book id -> the highest chapter number recorded anywhere in this version's own data for that book — used only to report a real chapter count in an unresolvable-target finding's own message, never for resolvability itself ({@link lastVerseByChapter} already answers whether a given chapter exists at all). */
+  /** Repo book id -> the highest chapter number recorded anywhere in this version's own data for that book (see {@link lastChapterOf} for what it is and isn't used for). */
   lastChapterByBook: ReadonlyMap<string, number>;
   /** Folded name -> repo book id, restricted to books this version actually carries. */
   bookIdByFoldedName: ReadonlyMap<string, string>;
@@ -575,9 +552,9 @@ type Zone = "verse" | "heading" | "subtitle";
 
 /**
  * One genuine cross-chapter-range finding — a `bibleLink` whose target names
- * a verse in one chapter and a verse in a different chapter of the same
- * book, the one shape this repo's cross-chapter convention requires to be
- * split rather than left as-is.
+ * two different chapters of the same book, however either endpoint happens to
+ * be spelled (see {@link TargetShape}): the one shape this repo's
+ * cross-chapter convention requires to be split rather than left as-is.
  */
 export interface CrossChapterFinding {
   /** Repo book id the target's range names, resolved within this version's own canon — `null` on the (unmeasured, never yet observed) chance a genuine cross-chapter shape names a book this version does not carry. */
@@ -616,6 +593,44 @@ export function formatCrossChapterFinding(finding: CrossChapterFinding): string 
   return (
     `${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
     `"${finding.target}" spans ${finding.book ?? finding.target} ${finding.fromChapter}–${finding.toChapter} — unsplit`
+  );
+}
+
+/**
+ * One `bibleLink` whose target this module's grammar cannot read at all —
+ * {@link classifyBibleLink}'s `unparsed` shape, reported by
+ * {@link findCrossChapterLinks} alongside its own findings.
+ *
+ * **Not the same thing as an {@link UnresolvableTargetFinding}**, despite the
+ * neighboring name: that one is a target that reads perfectly and names a
+ * place no version records. This one never got as far as naming a place.
+ * Which is also why it carries only where the link is and what it says — an
+ * unreadable target resolves no book, chapter, or verse there would be
+ * anything else to report about.
+ */
+export interface UnreadableTargetFinding {
+  /** Repo book id of the verse this `bibleLink` is attached to. */
+  atBook: string;
+  /** Chapter of the verse this `bibleLink` is attached to. */
+  atChapter: number;
+  /** Verse number this `bibleLink` is attached to. */
+  atVerse: number;
+  /** The enclosing footnote's type (`"stu"`, `"xrf"`, …), or `null` when the `bibleLink` sits directly in content with no footnote wrapper. */
+  footnoteType: string | null;
+  /** Which part of the verse's content tree this finding was found in. */
+  zone: Zone;
+  /** The target exactly as written. */
+  target: string;
+}
+
+/**
+ * Render one unreadable target as this report's one-line format, matching
+ * {@link formatCrossChapterFinding}'s own shape.
+ */
+export function formatUnreadableTargetFinding(finding: UnreadableTargetFinding): string {
+  return (
+    `${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
+    `"${finding.target}" — no target grammar reads this`
   );
 }
 
@@ -670,20 +685,29 @@ function walkContent(
 /**
  * Audit one version for `bibleLink`s spanning two chapters — every
  * `bibleLink` this version carries, classified through
- * {@link classifyBibleLink}, with both the `crossChapterRange` and
- * `wholeChapterRange` shapes collected as findings (see {@link TargetShape}
- * for why the same finding covers both).
+ * {@link classifyBibleLink}, with every `crossChapterRange` collected as a
+ * finding regardless of which endpoints anchor a verse (see
+ * {@link TargetShape}).
+ *
+ * Reports the targets it could **not** read at all in the same sweep, for the
+ * same reason it reports `scanned`: a coverage statement that counts only
+ * what the grammar understood is not a coverage statement. When that category
+ * was silent, 31 defective ESV2025 targets sat behind three separate clean
+ * bills of health.
  *
  * @param versionId - A `bible-versions/` directory name, e.g. `"WEBUS2020"`.
- * @returns `findings` (empty for a version with none) and `scanned` (every
- *   `bibleLink` node visited, so a walk that silently stops descending is
- *   caught rather than under-reporting a clean bill of health).
+ * @returns `findings` (empty for a version with none), `unreadable` (targets
+ *   the grammar could not read at all — empty corpus-wide today), and
+ *   `scanned` (every `bibleLink` node visited, so a walk that silently stops
+ *   descending is caught rather than under-reporting a clean bill of health).
  */
 export function findCrossChapterLinks(versionId: string): {
   findings: readonly CrossChapterFinding[];
+  unreadable: readonly UnreadableTargetFinding[];
   scanned: number;
 } {
   const findings: CrossChapterFinding[] = [];
+  const unreadable: UnreadableTargetFinding[] = [];
   let scanned = 0;
 
   for (const record of readVersionRecords(versionId)) {
@@ -691,7 +715,18 @@ export function findCrossChapterLinks(versionId: string): {
       scanned += 1;
       const classification = classifyBibleLink(versionId, link.bibleLink);
 
-      if (classification.shape !== "crossChapterRange" && classification.shape !== "wholeChapterRange") return;
+      if (classification.shape === "unparsed") {
+        unreadable.push({
+          atBook: record.book,
+          atChapter: record.chapter,
+          atVerse: record.verse,
+          footnoteType,
+          zone,
+          target: link.bibleLink,
+        });
+        return;
+      }
+      if (classification.shape !== "crossChapterRange") return;
 
       findings.push({
         book: classification.book,
@@ -710,7 +745,7 @@ export function findCrossChapterLinks(versionId: string): {
     });
   }
 
-  return { findings, scanned };
+  return { findings, unreadable, scanned };
 }
 
 // ---------------------------------------------------------------------------
@@ -720,9 +755,8 @@ export function findCrossChapterLinks(versionId: string): {
 /**
  * The convention's own emitted separator — always the en dash, regardless of
  * which dash character a source target used. Detection accepts the whole
- * {@link DASH} class; emission never does — WEBUS2020's real `HEB 11:34`
- * target used an em dash, and splitting it still writes an en dash (an
- * accepted one-character normalization).
+ * {@link DASH} class; emission never does, so splitting an em-dash target
+ * writes an en dash, an accepted one-character normalization.
  */
 const EN_DASH = "–";
 
@@ -749,13 +783,10 @@ function withDisplay(target: string, display: string): ContentBibleLink {
  * split at, so concatenating Part A's display, the separator, and Part B's
  * display always reconstructs the original display byte-for-byte.
  *
- * The two shapes this handles carry different endpoints: `crossChapterRange`
- * (e.g. `"2 Kings 6:31–7:20"`) anchors each half on a verse — Part A gets
- * `fromChapter`'s own last verse tacked on unless it's already there, Part B
- * gets `toChapter:1` (or `toChapter:1–toVerse` when `toVerse` isn't 1).
- * `wholeChapterRange` (e.g. `"Romans 1–11"`) names no verse on either end, so
- * neither half gets one — Part A is `fromChapter` verbatim, Part B is
- * `${bookName} ${toChapter}`.
+ * **Each half is decided by its own endpoint**, never by the shape name, since
+ * a target may anchor a verse at one end and not the other. That is what keeps
+ * `"Exodus 3–Exodus 4:17"` from writing a Part A of `"Exodus 3–4"`, which
+ * would read as *chapters* 3–4.
  *
  * @param versionId - A `bible-versions/` directory name, e.g. `"WEBUS2020"` —
  *   Part A's chapter length and Part B's book spelling are both read from
@@ -764,26 +795,24 @@ function withDisplay(target: string, display: string): ContentBibleLink {
  * @param link - One `bibleLink` node exactly as it appears in `versionId`'s
  *   own data.
  * @returns `null` when `link.bibleLink` needs no split — anything other than
- *   {@link classifyBibleLink}'s `crossChapterRange` or `wholeChapterRange`
- *   shape, including an already-split half (`"2 Kings 6:31–33"` classifies
- *   as `singleChapter`, which is what makes re-running this idempotent).
- *   Otherwise the replacement — Part A, the literal en-dash separator, Part
- *   B — that {@link splitCrossChapterLinksInContent} splices into `link`'s
- *   place.
+ *   {@link classifyBibleLink}'s `crossChapterRange` shape, including an
+ *   already-split half (`"2 Kings 6:31–33"` classifies as `singleChapter`,
+ *   which is what makes re-running this idempotent). Otherwise the
+ *   replacement — Part A, the literal en-dash separator, Part B — that
+ *   {@link splitCrossChapterLinksInContent} splices into `link`'s place.
  * @throws if `link.content` is present but is not a plain string; if
  *   `versionId`'s own data cannot resolve the book for a target already
- *   classified as one of the two shapes above; or if either endpoint's
- *   chapter — `fromChapter` or `toChapter` — is absent from `versionId`'s own
- *   chapter-length index, for either shape. A split whose result would point
- *   at a chapter that version does not carry is refused rather than silently
- *   written.
+ *   classified as a range; or if either endpoint's chapter — `fromChapter` or
+ *   `toChapter` — is absent from `versionId`'s own chapter-length index. A
+ *   split whose result would point at a chapter that version does not carry
+ *   is refused rather than silently written.
  */
 export function splitCrossChapterLink(
   versionId: string,
   link: ContentBibleLink,
 ): readonly [ContentBibleLink, string, ContentBibleLink] | null {
   const classification = classifyBibleLink(versionId, link.bibleLink);
-  if (classification.shape !== "crossChapterRange" && classification.shape !== "wholeChapterRange") return null;
+  if (classification.shape !== "crossChapterRange") return null;
 
   if (link.content !== undefined && typeof link.content !== "string") {
     throw new Error(`splitCrossChapterLink: a bibleLink's content override must be a plain string: ${JSON.stringify(link)}`);
@@ -805,9 +834,9 @@ export function splitCrossChapterLink(
   const bookName = classification.bookName as string; // the left endpoint's own spelling, exactly as written — never a naming table
   const toChapter = classification.toChapter as number;
 
-  // Both endpoints must exist in `versionId`'s own data before either shape
-  // writes anything — checked once, here, rather than per-shape below, so
-  // neither shape can skip an endpoint the other one checks.
+  // Both endpoints must exist in `versionId`'s own data before either half
+  // writes anything — checked once, here, so neither half can skip an
+  // endpoint the other one checks.
   if (classification.firstChapterLastVerse === null) {
     throw new Error(`splitCrossChapterLink: cannot derive ${versionId}'s chapter length for: ${JSON.stringify(link)}`);
   }
@@ -815,22 +844,24 @@ export function splitCrossChapterLink(
     throw new Error(`splitCrossChapterLink: ${versionId} carries no ${bookName} ${toChapter} for: ${JSON.stringify(link)}`);
   }
 
-  if (classification.shape === "wholeChapterRange") {
-    const partA = withDisplay(targetPrefix, displayPrefix);
-    const partB = withDisplay(`${bookName} ${toChapter}`, displayTail);
-    return [partA, EN_DASH, partB];
-  }
-
+  // The left endpoint verbatim, carried to its own chapter's end only when it
+  // anchors a verse short of that end.
   const lastVerse = classification.firstChapterLastVerse;
-  const fromVerse = classification.fromVerse as number;
-  const partATarget = fromVerse === lastVerse ? targetPrefix : `${targetPrefix}${EN_DASH}${lastVerse}`;
-  const partA = withDisplay(partATarget, displayPrefix);
+  const fromVerse = classification.fromVerse;
+  const partATarget =
+    fromVerse === null || fromVerse === lastVerse ? targetPrefix : `${targetPrefix}${EN_DASH}${lastVerse}`;
 
-  const toVerse = classification.toVerse as number;
-  const partBTarget = toVerse === 1 ? `${bookName} ${toChapter}:1` : `${bookName} ${toChapter}:1${EN_DASH}${toVerse}`;
-  const partB = withDisplay(partBTarget, displayTail);
+  // The second chapter from its own verse 1 to wherever the right endpoint
+  // stops, or the bare chapter when that endpoint named no verse.
+  const toVerse = classification.toVerse;
+  const partBTarget =
+    toVerse === null
+      ? `${bookName} ${toChapter}`
+      : toVerse === 1
+        ? `${bookName} ${toChapter}:1`
+        : `${bookName} ${toChapter}:1${EN_DASH}${toVerse}`;
 
-  return [partA, EN_DASH, partB];
+  return [withDisplay(partATarget, displayPrefix), EN_DASH, withDisplay(partBTarget, displayTail)];
 }
 
 /**
@@ -959,16 +990,12 @@ export function fixCrossChapterLinks(versionId: string): readonly FixedBook[] {
 // A bibleLink whose target is a single verse (or a bare chapter) while its
 // own display override spells out a fuller range — e.g. target
 // "Exodus 12:3", display "Ex. 12.3–20" — is truncated short of what its own
-// display already says. It lives here for the same reasons the cross-chapter
-// check above does (see this file's own top doc comment), and telling a
-// genuine truncation apart from a legitimate whole-chapter target (the real
-// ASV1901 PSA 18:1 bibleLink, "2 Samuel 22" with display "2 Sam. 22:1–51" —
-// not truncated, since ASV1901's own 2 Samuel 22 really is 51 verses) needs
-// this module's own per-version chapter-length answer.
+// display already says.
 //
-// A cross-chapter truncation is declined rather than reconstructed here (see
-// the module doc comment for why) — there's no automatic path for it, only a
-// human judgment call.
+// The near-miss to watch for is the real ASV1901 PSA 18:1 bibleLink,
+// "2 Samuel 22" with display "2 Sam. 22:1–51": not truncated, because
+// ASV1901's own 2 Samuel 22 really is 51 verses. Only a per-version
+// chapter-length answer tells the two apart.
 
 /**
  * Reason {@link completeTruncatedRange} declined to complete an otherwise
@@ -1279,14 +1306,11 @@ export function reconstructTruncatedRangesInContent(
 // defect worth reporting: a link nothing can ever open is a link written
 // wrong.
 //
-// A location the version being read happens to lack is a different thing
-// entirely, and is never a finding. A footnote saying a verse was omitted
-// here is *about* a verse this version does not carry, and its link to that
-// verse is correct for exactly that reason. Canon membership is excluded
-// the same way, and always was: an NT-only version's own footnote can say
-// "see Isaiah 7:14" without contradiction. All three cases collapse into
-// one rule — judge a target against every version on disk, never against
-// the one it is written in.
+// The rule is one line: judge a target against every version on disk, never
+// against the one it is written in (see "Corpus-wide chapter and verse
+// extents" above for why). Canon membership falls out of the same rule — an
+// NT-only version's own footnote can say "see Isaiah 7:14" without
+// contradiction.
 //
 // Reporting is the whole of it. Nothing here rewrites a link, because the
 // two things a bad target can be — a mis-imported shorthand, or a genuine
@@ -1294,10 +1318,11 @@ export function reconstructTruncatedRangesInContent(
 // buys quiet at the cost of hiding whichever one it was.
 //
 // An unparsed target (classifyBibleLink's "unparsed" shape) is a different
-// question and never a finding here — a deliberate versification siglum
-// trailing the endpoint reads as unparsed rather than wrong. A comma-merged
-// target ("mergedTarget") is excluded the same way: neither shape ever
-// resolves to a single book/chapter/verse to judge in the first place.
+// question and never a finding here, and a comma-merged target
+// ("mergedTarget") is excluded for the same structural reason: neither shape
+// ever resolves a book, chapter, or verse for this check to judge in the
+// first place. Unparsed is not left silent, though — findCrossChapterLinks
+// reports it as `unreadable` on the sweep that already walks every bibleLink.
 
 /**
  * Why {@link findUnresolvableTarget} judged one endpoint of a bibleLink
@@ -1372,11 +1397,6 @@ function unresolvableEndpoint(
  * **Takes no version id.** A link names a location in Scripture, so the
  * version it happens to be written in has no say in whether it is right;
  * see this section's own header comment.
- *
- * **A target the endpoint grammar cannot parse at all, or a comma-merged
- * target, is never a finding here** — the `"unparsed"` and `"mergedTarget"`
- * shapes both mean no book/chapter/verse was ever resolved to judge, not
- * that a resolved location turned out to be missing.
  *
  * Checks the first (`from`) endpoint before the second (`to`) endpoint of a
  * range, returning on the first unresolvable one found — a range
