@@ -21,7 +21,7 @@
 - **Font Awesome (CDN)** – Icon library for UI icons in the web reader.
 - **Lodash** – Utility library used in validation scripts for data manipulation (grouping, sorting, difference operations).
 - **ts-node** – TypeScript execution engine for running `.ts` files directly without compilation.
-- **Vitest** – Modern test runner used for all unit tests. 1,482 tests pass across all 42 suites, with no local setup or gitignored corpus required — every suite runs clean on a fresh clone (see [6-tests-and-build.md](./6-tests-and-build.md#usfm-import-pipeline-domain) for how the USFM pipeline specs achieve that). Runs via `npm test` or `npx vitest --run`.
+- **Vitest** – Modern test runner used for all unit tests. Every suite runs clean on a fresh clone, with no local setup and no gitignored corpus required (see [6-tests-and-build.md](./6-tests-and-build.md#usfm-import-pipeline-domain) for how the USFM pipeline specs achieve that). Runs via `npm test` or `npx vitest --run`. The default include pattern reaches into `_specs/`, so a scratch checkout parked there gets collected as if it were this repo's own; keep that directory free of anything with a `.test.ts` in it.
 
 ### State Management Approach
 
@@ -51,6 +51,8 @@ EGP Graphai is a **Bible resource data management and display system**. It provi
 - **Content** – Flexible nested structure supporting plain text, formatted text, headings, paragraphs, subtitles, Bible reference links, and abbreviation references
 - **Strong's Numbers** – Lexicon references in format `G####` (Greek) or `H####` (Hebrew)
 - **Morphological Codes** – Grammatical parsing information (Robinson or Packard format)
+- **Lexical Map** (`lexical-maps/`) – Per-language codex keyed by dictionary root. Every attested spelling carries its parse as category-tagged codes, and an index number such as Strong's is a value on the parse rather than the key. A language registry names the categories and codes; a morphology file holds one code system's positional grammar; an index file holds cell-level placement rules
+- **Parse** – A cell's morphology as an array of registry codes (`["verb", "pres", "act", "ind", "pers-3", "sg"]`), with at most one code per category. This is the joinable form that two different morph code systems can both decode into
 - **Footnotes** – Study notes, translation notes, textual variants, cross-references, and maps
 - **Scripts** – Support for Greek (G), Hebrew (H), and Latin script rendering
 - **USFM Import** – Pipeline (`utils/importUsfm.ts`, `utils/usfm/`) that converts USFM-formatted translation source into verse JSON; used to bring WEBUS2020's apocrypha into the corpus

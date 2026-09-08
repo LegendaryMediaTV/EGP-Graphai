@@ -125,6 +125,18 @@
     "bible-versions/WEBUS2020/*.json",
     "bible-versions/YLT1898/*.json"
   ],
+  "lexical-map-schema": [
+    "lexical-maps/codex-schema.json",
+    "lexical-maps/index-schema.json",
+    "lexical-maps/language-schema.json",
+    "lexical-maps/morphology-schema.json"
+  ],
+  "lexical-map-data": [
+    "lexical-maps/greek/_language.json",
+    "lexical-maps/greek/{letter}.json",
+    "lexical-maps/greek/indices/strongs.json",
+    "lexical-maps/greek/morphology/robinson.json"
+  ],
   "web-server": [
     "web/server.ts"
   ],

@@ -41,6 +41,8 @@ As a side effect of stage 1, validation rewrites every JSON file with canonical 
 
 The validator exits non-zero on any remaining error or finding. This is deliberate so it can gate CI. Because it owns every normalization rule, a per-source importer no longer needs to enforce any of them itself — it only needs to produce content that a subsequent `npm run validate` can normalize and check like anything else.
 
+One directory is outside all of this. `lexical-maps/` is not read by the validator, so nothing checks that a parse code resolves in the language registry, that a cell's index number is what the placement rules say it should be, or that every tagged form in a corpus has a home in the map. The rules those checks would enforce are written down in [lexical-map.md](./lexical-map.md#validation-rules); the walker that would run them is not built. Until it is, a change to a letter file has no safety net.
+
 ## Schema chain
 
 ```mermaid

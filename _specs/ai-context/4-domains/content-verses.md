@@ -116,7 +116,7 @@ Acrostic headings render one step smaller than standard headings in every consum
 
 ### Content Schema (Recursive)
 
-_From [content-schema.json](../content-schema.json)_
+_From [content-schema.json](../../../content-schema.json)_
 
 ```json
 {
@@ -199,7 +199,7 @@ _When Strong's number applies to multiple words_
 
 ### Recursive Content Processing
 
-_From [utils/exportContent.ts](../utils/exportContent.ts)_
+_From [utils/exportContent.ts](../../../utils/exportContent.ts)_
 
 ```typescript
 function renderContent(content: Content, ctx: RenderContext): string {
@@ -238,7 +238,7 @@ function renderContent(content: Content, ctx: RenderContext): string {
 
 ### Content Rendering in React
 
-_From [web/public/js/ContentNode.js](../web/public/js/ContentNode.js)_
+_From [web/public/js/ContentNode.js](../../../web/public/js/ContentNode.js)_
 
 ```javascript
 function ContentNode({ node, settings, onFootnoteClick }) {
@@ -276,7 +276,7 @@ function ContentNode({ node, settings, onFootnoteClick }) {
 
 ### TypeScript Type Definitions
 
-_From [types/Content.ts](../types/Content.ts)_
+_From [types/Content.ts](../../../types/Content.ts)_
 
 ```typescript
 type Content =

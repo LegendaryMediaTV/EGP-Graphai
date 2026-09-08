@@ -49,7 +49,7 @@ Of these, only `PS2` and `DAG` are new registry entries. The other 13 already ex
 
 ### Book Schema Definition
 
-_From [bible-books/bible-books-schema.json](../bible-books/bible-books-schema.json)_
+_From [bible-books/bible-books-schema.json](../../../bible-books/bible-books-schema.json)_
 
 ```json
 {
@@ -80,7 +80,7 @@ _From [bible-books/bible-books-schema.json](../bible-books/bible-books-schema.js
 
 ### Book Data Example
 
-_From [bible-books/bible-books.json](../bible-books/bible-books.json)_
+_From [bible-books/bible-books.json](../../../bible-books/bible-books.json)_
 
 ```json
 {
@@ -94,7 +94,7 @@ _From [bible-books/bible-books.json](../bible-books/bible-books.json)_
 
 ### Book Validation
 
-_From [utils/validate.ts](../utils/validate.ts)_
+_From [utils/validate.ts](../../../utils/validate.ts)_
 
 ```typescript
 // Load books for validation
@@ -112,7 +112,7 @@ if (!validBookIds.has(bookIdFromFilename)) {
 
 ### Book Display in Sidebar
 
-_From [web/public/js/components/Sidebar.js](../web/public/js/components/Sidebar.js)_
+_From [web/public/js/components/Sidebar.js](../../../web/public/js/components/Sidebar.js)_
 
 ```javascript
 {

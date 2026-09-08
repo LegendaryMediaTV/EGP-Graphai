@@ -242,3 +242,65 @@ JSON Schemas in this project use JSON Schema Draft-07 to define the structure of
   }
 }
 ```
+
+## Open-Keyed Schemas
+
+Most schemas in this repo describe a fixed set of named properties. The lexical-map codex does not: its keys are the words of a language, so the schema constrains the *value* shape and leaves the key space open.
+
+```json
+{
+  "$id": "https://github.com/LegendaryMediaTV/EGP-Graphai/lexical-maps/codex-schema.json",
+  "type": "object",
+  "additionalProperties": { "$ref": "#/$defs/root" },
+  "$defs": {
+    "root": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["language", "pos", "inflections"],
+      "properties": {
+        "inflections": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/cell" },
+            "minItems": 1
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+Two conventions come with that shape:
+
+- **`$defs` rather than `definitions`** in the lexical-map schemas, matching Draft-07's later naming. The older Bible schemas use `definitions`. Follow whichever the file already uses; do not mix them within one schema.
+- **`additionalProperties: false` on every closed object, even inside an open-keyed parent.** The key space is open one level down; the value shape is not.
+
+### Scalar-or-array unions
+
+An index number is usually one value and occasionally several. Rather than forcing every consumer through an array, these schemas accept both and require `minItems: 2` on the array branch, so there is exactly one way to write any given value.
+
+```json
+{
+  "strongs": {
+    "oneOf": [
+      { "type": "string", "pattern": "^[GH][0-9]{1,4}$" },
+      {
+        "type": "array",
+        "items": { "type": "string", "pattern": "^[GH][0-9]{1,4}$" },
+        "minItems": 2
+      }
+    ]
+  }
+}
+```
+
+### Say in `description` what the schema cannot check
+
+Cross-file rules have nowhere to live in JSON Schema, so the lexical-map schemas carry them in prose and mark them as external. A reader of the schema alone still learns the whole rule.
+
+> Every code must resolve in the language registry, at most one code per category, and required categories present for the part of speech; a variant's parse must be a subset of its canonical's parse (all checked outside this schema).
+
+Phrase these as statements of the rule with the enforcement gap named, not as vague hedging. See [validation.md](../4-domains/validation.md) for which of them a walker actually runs today.
