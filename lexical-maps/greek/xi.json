@@ -1,0 +1,360 @@
+{
+  "ξενία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3578" },
+    "inflections": {
+      "ξενίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3578" }
+        }
+      ]
+    },
+    "transliterations": { "ξενίαν": "xenían" }
+  },
+  "ξενίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to astonish, be strange; fig. to host",
+    "indices": { "strongs": "G3579" },
+    "inflections": {
+      "ἐξένισεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3579" }
+        }
+      ],
+      "ξενίζεσθε": [
+        {
+          "parse": ["verb", "pres", "pas", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G3579" }
+        }
+      ],
+      "ξενίζεται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3579" }
+        }
+      ],
+      "ξενίζοντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3579" }
+        }
+      ],
+      "ξενίζονται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3579" }
+        }
+      ],
+      "ξενίσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3579" }
+        }
+      ],
+      "ξενισθῶμεν": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G3579" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐξένισεν": "exénisen",
+      "ξενίζεσθε": "xenízesthe",
+      "ξενίζεται": "xenízetai",
+      "ξενίζοντα": "xenízonta",
+      "ξενίζονται": "xenízontai",
+      "ξενίσαντες": "xenísantes",
+      "ξενισθῶμεν": "xenisthō̂men"
+    }
+  },
+  "ξενοδοχέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3580" },
+    "inflections": {
+      "ἐξενοδόχησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3580" }
+        }
+      ]
+    },
+    "transliterations": { "ἐξενοδόχησεν": "exenodóchēsen" }
+  },
+  "ξένος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be foreign, strange; fig. to be hosting",
+    "indices": { "strongs": "G3581" },
+    "inflections": {
+      "ξέναις": [
+        {
+          "parse": ["adj", "dat", "pl", "fem"],
+          "indices": { "strongs": "G3581" }
+        }
+      ],
+      "ξένοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3581" }
+        }
+      ],
+      "ξένοις": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G3581" }
+        }
+      ],
+      "ξένον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3581" }
+        }
+      ],
+      "ξένος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3581" }
+        }
+      ],
+      "ξένου": [
+        {
+          "parse": ["adj", "gen", "sg", "neut"],
+          "indices": { "strongs": "G3581" }
+        }
+      ],
+      "ξένους": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3581" }
+        }
+      ],
+      "ξένων": [
+        {
+          "parse": ["adj", "gen", "pl", "neut"],
+          "indices": { "strongs": "G3581" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ξέναις": "xénais",
+      "ξένοι": "xénoi",
+      "ξένοις": "xénois",
+      "ξένον": "xénon",
+      "ξένος": "xénos",
+      "ξένου": "xénou",
+      "ξένους": "xénous",
+      "ξένων": "xénōn"
+    }
+  },
+  "ξέστης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3582" },
+    "inflections": {
+      "ξεστῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3582" }
+        }
+      ]
+    },
+    "transliterations": { "ξεστῶν": "xestō̂n" }
+  },
+  "ξηραίνω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3583" },
+    "inflections": {
+      "ἐξηραμμένην": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3583" }
+        }
+      ],
+      "ἐξήρανεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3583" }
+        }
+      ],
+      "ἐξηράνθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3583" }
+        }
+      ],
+      "ἐξήρανται": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3583" }
+        }
+      ],
+      "ξηραίνεται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3583" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐξηραμμένην": "exēramménēn",
+      "ἐξήρανεν": "exḗranen",
+      "ἐξηράνθη": "exēránthē",
+      "ἐξήρανται": "exḗrantai",
+      "ξηραίνεται": "xēraínetai"
+    }
+  },
+  "ξηρός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G3584" },
+    "inflections": {
+      "ξηρά": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3584" }
+        }
+      ],
+      "ξηράν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3584" }
+        }
+      ],
+      "ξηρὰν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3584" }
+        }
+      ],
+      "ξηρᾶς": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3584" }
+        }
+      ],
+      "ξηρῷ": [
+        {
+          "parse": ["adj", "dat", "sg", "neut"],
+          "indices": { "strongs": "G3584" }
+        }
+      ],
+      "ξηρῶν": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3584" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ξηρά": "xērá",
+      "ξηράν": "xērán",
+      "ξηρὰν": "xēràn",
+      "ξηρᾶς": "xērâs",
+      "ξηρῷ": "xērō̂",
+      "ξηρῶν": "xērō̂n"
+    }
+  },
+  "ξύλινος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G3585" },
+    "inflections": {
+      "ξύλινα": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G3585" }
+        },
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3585" }
+        }
+      ]
+    },
+    "transliterations": { "ξύλινα": "xýlina" }
+  },
+  "ξύλον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3586" },
+    "inflections": {
+      "ξύλα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3586" }
+        }
+      ],
+      "ξύλον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3586" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G3586" }
+        }
+      ],
+      "ξύλου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G3586" }
+        }
+      ],
+      "ξύλῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G3586" }
+        }
+      ],
+      "ξύλων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G3586" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ξύλα": "xýla",
+      "ξύλον": "xýlon",
+      "ξύλου": "xýlou",
+      "ξύλῳ": "xýlō",
+      "ξύλων": "xýlōn"
+    }
+  },
+  "ξυράω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3587" },
+    "inflections": {
+      "ἐξυρημένῃ": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"],
+          "indices": { "strongs": "G3587" }
+        }
+      ],
+      "ξυρᾶσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G3587" }
+        }
+      ],
+      "ξυρήσωνται": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G3587" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐξυρημένῃ": "exyrēménē",
+      "ξυρᾶσθαι": "xyrâsthai",
+      "ξυρήσωνται": "xyrḗsōntai"
+    }
+  }
+}

@@ -1,0 +1,1430 @@
+{
+  "Ζαβουλών": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2194" },
+    "inflections": {
+      "ζαβουλών": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2194" }
+        }
+      ],
+      "ζαβουλὼν": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2194" }
+        }
+      ]
+    },
+    "transliterations": { "ζαβουλών": "zaboulṓn", "ζαβουλὼν": "zaboulṑn" }
+  },
+  "Ζακχαῖος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2195" },
+    "inflections": {
+      "ζακχαῖε": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G2195" }
+        }
+      ],
+      "ζακχαῖος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2195" }
+        }
+      ]
+    },
+    "transliterations": { "ζακχαῖε": "zakchaîe", "ζακχαῖος": "zakchaîos" }
+  },
+  "Ζαρά": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Zerah; lit: Rising Light",
+    "indices": { "strongs": "G2196" },
+    "inflections": {
+      "ζαρὰ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2196" }
+        }
+      ]
+    },
+    "transliterations": { "ζαρὰ": "zarà" }
+  },
+  "Ζαχαρίας": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2197" },
+    "inflections": {
+      "ζαχαρία": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G2197" }
+        }
+      ],
+      "ζαχαρίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2197" }
+        }
+      ],
+      "ζαχαρίας": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2197" }
+        }
+      ],
+      "ζαχαρίου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2197" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζαχαρία": "zacharía",
+      "ζαχαρίαν": "zacharían",
+      "ζαχαρίας": "zacharías",
+      "ζαχαρίου": "zacharíou"
+    }
+  },
+  "ζάω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to live",
+    "indices": { "strongs": "G2198" },
+    "inflections": {
+      "ἔζησα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ἔζησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ἔζησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ἐζῆτε": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ἔζων": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῇ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῇν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῇς": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζήσασα": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζήσεσθε": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζήσεται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζήσῃ": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζησόμεθα": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζήσομεν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζήσονται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζήσω": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζήσωμεν": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῆτε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶμεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2198" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2198" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶντας": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶντι": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2198" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "neut"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζώντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶσαν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2198" }
+        }
+      ],
+      "ζῶσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2198" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G2198" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔζησα": "ézēsa",
+      "ἔζησαν": "ézēsan",
+      "ἔζησεν": "ézēsen",
+      "ἐζῆτε": "ezē̂te",
+      "ἔζων": "ézōn",
+      "ζῇ": "zē̂",
+      "ζῇν": "zē̂n",
+      "ζῇς": "zē̂s",
+      "ζήσασα": "zḗsasa",
+      "ζήσεσθε": "zḗsesthe",
+      "ζήσεται": "zḗsetai",
+      "ζήσῃ": "zḗsē",
+      "ζησόμεθα": "zēsómetha",
+      "ζήσομεν": "zḗsomen",
+      "ζήσονται": "zḗsontai",
+      "ζήσω": "zḗsō",
+      "ζήσωμεν": "zḗsōmen",
+      "ζῆτε": "zē̂te",
+      "ζῶ": "zō̂",
+      "ζῶμεν": "zō̂men",
+      "ζῶν": "zō̂n",
+      "ζῶντα": "zō̂nta",
+      "ζῶντας": "zō̂ntas",
+      "ζῶντες": "zō̂ntes",
+      "ζῶντι": "zō̂nti",
+      "ζῶντος": "zō̂ntos",
+      "ζώντων": "zṓntōn",
+      "ζῶσα": "zō̂sa",
+      "ζῶσαν": "zō̂san",
+      "ζῶσιν": "zō̂sin"
+    }
+  },
+  "Ζεβεδαῖος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2199" },
+    "inflections": {
+      "ζεβεδαῖον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2199" }
+        }
+      ],
+      "ζεβεδαίου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2199" }
+        }
+      ]
+    },
+    "transliterations": { "ζεβεδαῖον": "zebedaîon", "ζεβεδαίου": "zebedaíou" }
+  },
+  "ζεστός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2200" },
+    "inflections": {
+      "ζεστός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2200" }
+        }
+      ],
+      "ζεστὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2200" }
+        }
+      ]
+    },
+    "transliterations": { "ζεστός": "zestós", "ζεστὸς": "zestòs" }
+  },
+  "ζεῦγος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2201" },
+    "inflections": {
+      "ζεύγη": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2201" }
+        }
+      ],
+      "ζεῦγος": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2201" }
+        }
+      ]
+    },
+    "transliterations": { "ζεύγη": "zeúgē", "ζεῦγος": "zeûgos" }
+  },
+  "ζευκτηρία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2202" },
+    "inflections": {
+      "ζευκτηρίας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2202" }
+        }
+      ]
+    },
+    "transliterations": { "ζευκτηρίας": "zeuktērías" }
+  },
+  "Ζεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2203" },
+    "inflections": {
+      "δία": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2203" }
+        }
+      ],
+      "διὸς": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2203" }
+        }
+      ]
+    },
+    "transliterations": { "δία": "día", "διὸς": "diòs" }
+  },
+  "ζέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to behave zealously/fervently",
+    "indices": { "strongs": "G2204" },
+    "inflections": {
+      "ζέοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2204" }
+        }
+      ],
+      "ζέων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2204" }
+        }
+      ]
+    },
+    "transliterations": { "ζέοντες": "zéontes", "ζέων": "zéōn" }
+  },
+  "ζῆλος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a zeal, fervor",
+    "indices": { "strongs": "G2205" },
+    "inflections": {
+      "ζῆλοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2205" }
+        }
+      ],
+      "ζῆλον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2205" }
+        }
+      ],
+      "ζῆλος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2205" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2205" }
+        }
+      ],
+      "ζήλου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2205" }
+        }
+      ],
+      "ζήλῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2205" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζῆλοι": "zē̂loi",
+      "ζῆλον": "zē̂lon",
+      "ζῆλος": "zē̂los",
+      "ζήλου": "zḗlou",
+      "ζήλῳ": "zḗlō"
+    }
+  },
+  "ζηλόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2206" },
+    "inflections": {
+      "ζηλοῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2206" }
+        }
+      ],
+      "ζηλοῦσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G2206" }
+        }
+      ],
+      "ζηλοῦσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2206" }
+        }
+      ],
+      "ζηλοῦτε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G2206" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G2206" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2206" }
+        }
+      ],
+      "ζηλῶ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2206" }
+        }
+      ],
+      "ζηλώσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2206" }
+        }
+      ],
+      "ζήλωσον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2206" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζηλοῖ": "zēloî",
+      "ζηλοῦσθαι": "zēloûsthai",
+      "ζηλοῦσιν": "zēloûsin",
+      "ζηλοῦτε": "zēloûte",
+      "ζηλῶ": "zēlō̂",
+      "ζηλώσαντες": "zēlṓsantes",
+      "ζήλωσον": "zḗlōson"
+    }
+  },
+  "ζηλωτής": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2207" },
+    "inflections": {
+      "ζηλωταί": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2207" }
+        }
+      ],
+      "ζηλωταὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2207" }
+        }
+      ],
+      "ζηλωτήν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2207" }
+        }
+      ],
+      "ζηλωτὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2207" }
+        }
+      ],
+      "ζηλωτής": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2207" }
+        }
+      ],
+      "ζηλωτὴς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2207" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζηλωταί": "zēlōtaí",
+      "ζηλωταὶ": "zēlōtaì",
+      "ζηλωτήν": "zēlōtḗn",
+      "ζηλωτὴν": "zēlōtḕn",
+      "ζηλωτής": "zēlōtḗs",
+      "ζηλωτὴς": "zēlōtḕs"
+    }
+  },
+  "ζημία": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a detriment",
+    "indices": { "strongs": "G2209" },
+    "inflections": {
+      "ζημίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2209" }
+        }
+      ],
+      "ζημίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2209" }
+        }
+      ]
+    },
+    "transliterations": { "ζημίαν": "zēmían", "ζημίας": "zēmías" }
+  },
+  "ζημιόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2210" },
+    "inflections": {
+      "ἐζημιώθην": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2210" }
+        }
+      ],
+      "ζημιωθείς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2210" }
+        }
+      ],
+      "ζημιωθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2210" }
+        }
+      ],
+      "ζημιωθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2210" }
+        }
+      ],
+      "ζημιωθῆτε": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G2210" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐζημιώθην": "ezēmiṓthēn",
+      "ζημιωθείς": "zēmiōtheís",
+      "ζημιωθῇ": "zēmiōthē̂",
+      "ζημιωθήσεται": "zēmiōthḗsetai",
+      "ζημιωθῆτε": "zēmiōthē̂te"
+    }
+  },
+  "Ζηνᾶς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2211" },
+    "inflections": {
+      "ζηνᾶν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2211" }
+        }
+      ]
+    },
+    "transliterations": { "ζηνᾶν": "zēnân" }
+  },
+  "ζητέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to seek, search for",
+    "indices": { "strongs": "G2212" },
+    "inflections": {
+      "ἐζήτει": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ἐζητεῖτέ": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ἐζητεῖτο": [
+        {
+          "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ἐζητήσαμεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ἐζήτησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ἐζήτησέν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ἐζητοῦμέν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ἐζήτουν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζήτει": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητεῖν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητεῖς": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητεῖται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητεῖτε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G2212" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητεῖτέ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητείτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητηθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητησάτω": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητήσετέ": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητήσῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζήτησον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητήσουσιν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητοῦν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητοῦντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητοῦντές": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητοῦντι": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητούντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητοῦσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2212" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητοῦσίν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητῶ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2212" }
+        }
+      ],
+      "ζητῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2212" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐζήτει": "ezḗtei",
+      "ἐζητεῖτέ": "ezēteîté",
+      "ἐζητεῖτο": "ezēteîto",
+      "ἐζητήσαμεν": "ezētḗsamen",
+      "ἐζήτησαν": "ezḗtēsan",
+      "ἐζήτησέν": "ezḗtēsén",
+      "ἐζητοῦμέν": "ezētoûmén",
+      "ἐζήτουν": "ezḗtoun",
+      "ζητεῖ": "zēteî",
+      "ζήτει": "zḗtei",
+      "ζητεῖν": "zēteîn",
+      "ζητεῖς": "zēteîs",
+      "ζητεῖται": "zēteîtai",
+      "ζητεῖτε": "zēteîte",
+      "ζητεῖτέ": "zēteîté",
+      "ζητείτω": "zēteítō",
+      "ζητηθήσεται": "zētēthḗsetai",
+      "ζητῆσαι": "zētē̂sai",
+      "ζητησάτω": "zētēsátō",
+      "ζητήσετέ": "zētḗseté",
+      "ζητήσῃ": "zētḗsē",
+      "ζήτησον": "zḗtēson",
+      "ζητήσουσιν": "zētḗsousin",
+      "ζητοῦν": "zētoûn",
+      "ζητοῦντες": "zētoûntes",
+      "ζητοῦντές": "zētoûntés",
+      "ζητοῦντι": "zētoûnti",
+      "ζητούντων": "zētoúntōn",
+      "ζητοῦσιν": "zētoûsin",
+      "ζητοῦσίν": "zētoûsín",
+      "ζητῶ": "zētō̂",
+      "ζητῶν": "zētō̂n"
+    }
+  },
+  "ζήτημα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2213" },
+    "inflections": {
+      "ζήτημά": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2213" }
+        }
+      ],
+      "ζητήματα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2213" }
+        }
+      ],
+      "ζητήματος": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G2213" }
+        }
+      ],
+      "ζητημάτων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G2213" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζήτημά": "zḗtēmá",
+      "ζητήματα": "zētḗmata",
+      "ζητήματος": "zētḗmatos",
+      "ζητημάτων": "zētēmátōn"
+    }
+  },
+  "ζήτησις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2214" },
+    "inflections": {
+      "ζητήσεις": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2214" }
+        }
+      ],
+      "ζητήσεως": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2214" }
+        }
+      ],
+      "ζήτησιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2214" }
+        }
+      ],
+      "ζήτησις": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2214" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζητήσεις": "zētḗseis",
+      "ζητήσεως": "zētḗseōs",
+      "ζήτησιν": "zḗtēsin",
+      "ζήτησις": "zḗtēsis"
+    }
+  },
+  "ζιζάνιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2215" },
+    "inflections": {
+      "ζιζάνια": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2215" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G2215" }
+        }
+      ],
+      "ζιζάνιά": [
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G2215" }
+        }
+      ],
+      "ζιζανίων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G2215" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζιζάνια": "zizánia",
+      "ζιζάνιά": "zizániá",
+      "ζιζανίων": "zizaníōn"
+    }
+  },
+  "Ζοροβάβελ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Zerubbabel; lit. Born in Babel",
+    "indices": { "strongs": "G2216" },
+    "inflections": {
+      "ζοροβάβελ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2216" }
+        }
+      ]
+    },
+    "transliterations": { "ζοροβάβελ": "zorobábel" }
+  },
+  "ζόφος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2217" },
+    "inflections": {
+      "ζόφον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2217" }
+        }
+      ],
+      "ζόφος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2217" }
+        }
+      ],
+      "ζόφου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2217" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζόφον": "zóphon",
+      "ζόφος": "zóphos",
+      "ζόφου": "zóphou"
+    }
+  },
+  "ζυγός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2218" },
+    "inflections": {
+      "ζυγόν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2218" }
+        }
+      ],
+      "ζυγὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2218" }
+        }
+      ],
+      "ζυγός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2218" }
+        }
+      ],
+      "ζυγῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2218" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζυγόν": "zygón",
+      "ζυγὸν": "zygòn",
+      "ζυγός": "zygós",
+      "ζυγῷ": "zygō̂"
+    }
+  },
+  "ζύμη": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a yeast, leaven",
+    "indices": { "strongs": "G2219" },
+    "inflections": {
+      "ζύμη": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2219" }
+        }
+      ],
+      "ζύμῃ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2219" }
+        }
+      ],
+      "ζύμην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2219" }
+        }
+      ],
+      "ζύμης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2219" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζύμη": "zýmē",
+      "ζύμῃ": "zýmē",
+      "ζύμην": "zýmēn",
+      "ζύμης": "zýmēs"
+    }
+  },
+  "ζυμόω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to ferment, leaven",
+    "indices": { "strongs": "G2220" },
+    "inflections": {
+      "ἐζυμώθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2220" }
+        }
+      ],
+      "ζυμοῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2220" }
+        }
+      ]
+    },
+    "transliterations": { "ἐζυμώθη": "ezymṓthē", "ζυμοῖ": "zymoî" }
+  },
+  "ζωγρέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2221" },
+    "inflections": {
+      "ἐζωγρημένοι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2221" }
+        }
+      ],
+      "ζωγρῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2221" }
+        }
+      ]
+    },
+    "transliterations": { "ἐζωγρημένοι": "ezōgrēménoi", "ζωγρῶν": "zōgrō̂n" }
+  },
+  "ζωή": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a life",
+    "indices": { "strongs": "G2222" },
+    "inflections": {
+      "ζωή": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2222" }
+        }
+      ],
+      "ζωὴ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2222" }
+        }
+      ],
+      "ζωῇ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2222" }
+        }
+      ],
+      "ζωήν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2222" }
+        }
+      ],
+      "ζωὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2222" }
+        }
+      ],
+      "ζωῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2222" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζωή": "zōḗ",
+      "ζωὴ": "zōḕ",
+      "ζωῇ": "zōē̂",
+      "ζωήν": "zōḗn",
+      "ζωὴν": "zōḕn",
+      "ζωῆς": "zōē̂s"
+    }
+  },
+  "ζώνη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2223" },
+    "inflections": {
+      "ζώνας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2223" }
+        }
+      ],
+      "ζώνη": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2223" }
+        }
+      ],
+      "ζώνην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2223" }
+        }
+      ]
+    },
+    "transliterations": { "ζώνας": "zṓnas", "ζώνη": "zṓnē", "ζώνην": "zṓnēn" }
+  },
+  "ζώννυμι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2224" },
+    "inflections": {
+      "ἐζώννυες": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2224" }
+        }
+      ],
+      "ζώσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2224" }
+        }
+      ]
+    },
+    "transliterations": { "ἐζώννυες": "ezṓnnyes", "ζώσει": "zṓsei" }
+  },
+  "ζῳογονέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2225" },
+    "inflections": {
+      "ζῳογονεῖσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G2225" }
+        }
+      ],
+      "ζῳογονήσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2225" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζῳογονεῖσθαι": "zōogoneîsthai",
+      "ζῳογονήσει": "zōogonḗsei"
+    }
+  },
+  "ζῷον": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a living thing, creature",
+    "indices": { "strongs": "G2226" },
+    "inflections": {
+      "ζῷα": [
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G2226" }
+        }
+      ],
+      "ζῷον": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2226" }
+        }
+      ],
+      "ζῴου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G2226" }
+        }
+      ],
+      "ζῴων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G2226" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζῷα": "zō̂a",
+      "ζῷον": "zō̂on",
+      "ζῴου": "zṓou",
+      "ζῴων": "zṓōn"
+    }
+  },
+  "ζῳοποιέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to make alive, give life",
+    "indices": { "strongs": "G2227" },
+    "inflections": {
+      "ζῳοποιεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2227" }
+        }
+      ],
+      "ζῳοποιεῖται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2227" }
+        }
+      ],
+      "ζῳοποιηθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2227" }
+        }
+      ],
+      "ζῳοποιηθήσονται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2227" }
+        }
+      ],
+      "ζῳοποιῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G2227" }
+        }
+      ],
+      "ζῳοποιήσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2227" }
+        }
+      ],
+      "ζῳοποιοῦν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2227" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2227" }
+        }
+      ],
+      "ζῳοποιοῦντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2227" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ζῳοποιεῖ": "zōopoieî",
+      "ζῳοποιεῖται": "zōopoieîtai",
+      "ζῳοποιηθεὶς": "zōopoiētheìs",
+      "ζῳοποιηθήσονται": "zōopoiēthḗsontai",
+      "ζῳοποιῆσαι": "zōopoiē̂sai",
+      "ζῳοποιήσει": "zōopoiḗsei",
+      "ζῳοποιοῦν": "zōopoioûn",
+      "ζῳοποιοῦντος": "zōopoioûntos"
+    }
+  }
+}

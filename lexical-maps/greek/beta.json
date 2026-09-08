@@ -1,0 +1,4449 @@
+{
+  "Βάαλ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G896" },
+    "inflections": {
+      "βάαλ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G896" } }
+      ]
+    },
+    "transliterations": { "βάαλ": "báal" }
+  },
+  "Βαβυλών": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Babylon; lit. Confusion",
+    "indices": { "strongs": "G897" },
+    "inflections": {
+      "βαβυλών": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G897" }
+        }
+      ],
+      "βαβυλὼν": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G897" }
+        }
+      ],
+      "βαβυλῶνι": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G897" }
+        }
+      ],
+      "βαβυλῶνος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G897" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαβυλών": "babylṓn",
+      "βαβυλὼν": "babylṑn",
+      "βαβυλῶνι": "babylō̂ni",
+      "βαβυλῶνος": "babylō̂nos"
+    }
+  },
+  "βαθμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G898" },
+    "inflections": {
+      "βαθμὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G898" }
+        }
+      ]
+    },
+    "transliterations": { "βαθμὸν": "bathmòn" }
+  },
+  "βάθος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G899" },
+    "inflections": {
+      "βάθη": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G899" }
+        }
+      ],
+      "βάθος": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G899" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G899" }
+        }
+      ],
+      "βάθους": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G899" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βάθη": "báthē",
+      "βάθος": "báthos",
+      "βάθους": "báthous"
+    }
+  },
+  "βαθύνω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G900" },
+    "inflections": {
+      "ἐβάθυνεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G900" }
+        }
+      ]
+    },
+    "transliterations": { "ἐβάθυνεν": "ebáthynen" }
+  },
+  "βαθύς": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G901" },
+    "inflections": {
+      "βαθέα": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G901" }
+        }
+      ],
+      "βαθεῖ": [
+        {
+          "parse": ["adj", "dat", "sg", "masc"],
+          "indices": { "strongs": "G901" }
+        }
+      ],
+      "βαθέος": [
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G901" }
+        }
+      ],
+      "βαθύ": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G901" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαθέα": "bathéa",
+      "βαθεῖ": "batheî",
+      "βαθέος": "bathéos",
+      "βαθύ": "bathý"
+    }
+  },
+  "βαΐον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G902" },
+    "inflections": {
+      "βαΐα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G902" }
+        }
+      ]
+    },
+    "transliterations": { "βαΐα": "baḯa" }
+  },
+  "Βαλαάμ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G903" },
+    "inflections": {
+      "βαλαάμ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G903" } }
+      ],
+      "βαλαὰμ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G903" } }
+      ]
+    },
+    "transliterations": { "βαλαάμ": "balaám", "βαλαὰμ": "balaàm" }
+  },
+  "Βαλάκ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G904" },
+    "inflections": {
+      "βαλὰκ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G904" } }
+      ]
+    },
+    "transliterations": { "βαλὰκ": "balàk" }
+  },
+  "βαλάντιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G905" },
+    "inflections": {
+      "βαλάντια": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G905" }
+        }
+      ],
+      "βαλάντιον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G905" }
+        }
+      ],
+      "βαλαντίου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G905" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαλάντια": "balántia",
+      "βαλάντιον": "balántion",
+      "βαλαντίου": "balantíou"
+    }
+  },
+  "βάλλω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to throw",
+    "indices": { "strongs": "G906" },
+    "inflections": {
+      "βάλε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βαλεῖν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "inf"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλετε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βαλέτω": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλῃ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλητε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλλει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλλεται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλλομεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βαλλόμενα": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "neut"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βαλλόμενον": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλλοντας": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλλοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βαλλόντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλλουσαν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλλουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλλω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βαλοῦσα": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βαλοῦσιν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλω": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βάλωσιν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βέβληκεν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βεβληκότος": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βεβλημένην": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βεβλημένον": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βεβλημένος": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βέβληται": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βληθείσῃ": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "dat", "sg", "fem"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βληθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βληθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βληθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βληθήσῃ": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "βλήθητι": [
+        {
+          "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "ἔβαλεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "ἔβαλλον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "ἔβαλον": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "ἐβέβλητο": [
+        {
+          "parse": ["verb", "plup", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "ἐβλήθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G906" }
+        }
+      ],
+      "ἐβλήθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G906" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βάλε": "bále",
+      "βαλεῖν": "baleîn",
+      "βάλετε": "bálete",
+      "βαλέτω": "balétō",
+      "βάλῃ": "bálē",
+      "βάλητε": "bálēte",
+      "βάλλει": "bállei",
+      "βάλλεται": "bálletai",
+      "βάλλομεν": "bállomen",
+      "βαλλόμενα": "ballómena",
+      "βαλλόμενον": "ballómenon",
+      "βάλλοντας": "bállontas",
+      "βάλλοντες": "bállontes",
+      "βαλλόντων": "ballóntōn",
+      "βάλλουσαν": "bállousan",
+      "βάλλουσιν": "bállousin",
+      "βάλλω": "bállō",
+      "βαλοῦσα": "baloûsa",
+      "βαλοῦσιν": "baloûsin",
+      "βάλω": "bálō",
+      "βάλωσιν": "bálōsin",
+      "βέβληκεν": "béblēken",
+      "βεβληκότος": "beblēkótos",
+      "βεβλημένην": "beblēménēn",
+      "βεβλημένον": "beblēménon",
+      "βεβλημένος": "beblēménos",
+      "βέβληται": "béblētai",
+      "βληθείσῃ": "blētheísē",
+      "βληθῇ": "blēthē̂",
+      "βληθῆναι": "blēthē̂nai",
+      "βληθήσεται": "blēthḗsetai",
+      "βληθήσῃ": "blēthḗsē",
+      "βλήθητι": "blḗthēti",
+      "ἔβαλεν": "ébalen",
+      "ἔβαλλον": "éballon",
+      "ἔβαλον": "ébalon",
+      "ἐβέβλητο": "ebéblēto",
+      "ἐβλήθη": "eblḗthē",
+      "ἐβλήθησαν": "eblḗthēsan"
+    }
+  },
+  "βαπτίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to overwhelm, immerse; fig. to ritually wash, baptize",
+    "indices": { "strongs": "G907" },
+    "inflections": {
+      "βαπτίζει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτίζειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτίζεις": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτίζομαι": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτιζόμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτίζονται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτίζοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτίζω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτίζων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βάπτισαι": [
+        {
+          "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτίσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτισθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτισθέντες": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτισθέντος": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτισθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτισθήσεσθε": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτισθήτω": [
+        {
+          "parse": ["verb", "aor", "pas", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βαπτίσωνται": [
+        {
+          "parse": ["verb", "aor", "mid", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "βεβαπτισμένοι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "ἐβάπτιζεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "ἐβαπτίζοντο": [
+        {
+          "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "ἐβάπτισα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "ἐβαπτίσαντο": [
+        {
+          "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "ἐβάπτισεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "ἐβαπτίσθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "ἐβαπτίσθημεν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "ἐβαπτίσθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G907" }
+        }
+      ],
+      "ἐβαπτίσθητε": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G907" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαπτίζει": "baptízei",
+      "βαπτίζειν": "baptízein",
+      "βαπτίζεις": "baptízeis",
+      "βαπτίζομαι": "baptízomai",
+      "βαπτιζόμενοι": "baptizómenoi",
+      "βαπτίζονται": "baptízontai",
+      "βαπτίζοντες": "baptízontes",
+      "βαπτίζω": "baptízō",
+      "βαπτίζων": "baptízōn",
+      "βάπτισαι": "báptisai",
+      "βαπτίσει": "baptísei",
+      "βαπτισθεὶς": "baptistheìs",
+      "βαπτισθέντες": "baptisthéntes",
+      "βαπτισθέντος": "baptisthéntos",
+      "βαπτισθῆναι": "baptisthē̂nai",
+      "βαπτισθήσεσθε": "baptisthḗsesthe",
+      "βαπτισθήτω": "baptisthḗtō",
+      "βαπτίσωνται": "baptísōntai",
+      "βεβαπτισμένοι": "bebaptisménoi",
+      "ἐβάπτιζεν": "ebáptizen",
+      "ἐβαπτίζοντο": "ebaptízonto",
+      "ἐβάπτισα": "ebáptisa",
+      "ἐβαπτίσαντο": "ebaptísanto",
+      "ἐβάπτισεν": "ebáptisen",
+      "ἐβαπτίσθη": "ebaptísthē",
+      "ἐβαπτίσθημεν": "ebaptísthēmen",
+      "ἐβαπτίσθησαν": "ebaptísthēsan",
+      "ἐβαπτίσθητε": "ebaptísthēte"
+    }
+  },
+  "βάπτισμα": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a saturation, soaking; fig. a baptism",
+    "indices": { "strongs": "G908" },
+    "inflections": {
+      "βάπτισμα": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G908" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G908" }
+        }
+      ],
+      "βαπτίσματι": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G908" }
+        }
+      ],
+      "βαπτίσματος": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G908" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βάπτισμα": "báptisma",
+      "βαπτίσματι": "baptísmati",
+      "βαπτίσματος": "baptísmatos"
+    }
+  },
+  "βαπτισμός": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an overwhelming, immersion; fig. a ritual washing, baptism",
+    "indices": { "strongs": "G909" },
+    "inflections": {
+      "βαπτισμοῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G909" }
+        }
+      ],
+      "βαπτισμοὺς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G909" }
+        }
+      ],
+      "βαπτισμῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G909" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαπτισμοῖς": "baptismoîs",
+      "βαπτισμοὺς": "baptismoùs",
+      "βαπτισμῶν": "baptismō̂n"
+    }
+  },
+  "βαπτιστής": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a Baptizer/Baptist; lit. an overwhelmer, immerser",
+    "indices": { "strongs": "G910" },
+    "inflections": {
+      "βαπτιστήν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G910" }
+        }
+      ],
+      "βαπτιστής": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G910" }
+        }
+      ],
+      "βαπτιστὴς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G910" }
+        }
+      ],
+      "βαπτιστοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G910" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαπτιστήν": "baptistḗn",
+      "βαπτιστής": "baptistḗs",
+      "βαπτιστὴς": "baptistḕs",
+      "βαπτιστοῦ": "baptistoû"
+    }
+  },
+  "βάπτω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to overwhelm, immerse; fig. to dip",
+    "indices": { "strongs": "G911" },
+    "inflections": {
+      "βάψας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G911" }
+        }
+      ],
+      "βάψῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G911" }
+        }
+      ],
+      "βεβαμμένον": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"],
+          "indices": { "strongs": "G911" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βάψας": "bápsas",
+      "βάψῃ": "bápsē",
+      "βεβαμμένον": "bebamménon"
+    }
+  },
+  "Βαραββᾶς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G912" },
+    "inflections": {
+      "βαραββᾶν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G912" }
+        }
+      ],
+      "βαραββᾶς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G912" }
+        }
+      ]
+    },
+    "transliterations": { "βαραββᾶν": "barabbân", "βαραββᾶς": "barabbâs" }
+  },
+  "Βαράκ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G913" },
+    "inflections": {
+      "βαράκ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G913" } }
+      ]
+    },
+    "transliterations": { "βαράκ": "barák" }
+  },
+  "Βαραχίας": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G914" },
+    "inflections": {
+      "βαραχίου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G914" }
+        }
+      ]
+    },
+    "transliterations": { "βαραχίου": "barachíou" }
+  },
+  "βάρβαρος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G915" },
+    "inflections": {
+      "βάρβαροι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G915" }
+        }
+      ],
+      "βαρβάροις": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G915" }
+        }
+      ],
+      "βάρβαρος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G915" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βάρβαροι": "bárbaroi",
+      "βαρβάροις": "barbárois",
+      "βάρβαρος": "bárbaros"
+    }
+  },
+  "βαρέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G916" },
+    "inflections": {
+      "βαρείσθω": [
+        {
+          "parse": ["verb", "pres", "pas", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G916" }
+        }
+      ],
+      "βαρηθῶσιν": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G916" }
+        }
+      ],
+      "βαρούμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G916" }
+        }
+      ],
+      "βεβαρημένοι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G916" }
+        }
+      ],
+      "ἐβαρήθημεν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G916" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαρείσθω": "bareísthō",
+      "βαρηθῶσιν": "barēthō̂sin",
+      "βαρούμενοι": "baroúmenoi",
+      "βεβαρημένοι": "bebarēménoi",
+      "ἐβαρήθημεν": "ebarḗthēmen"
+    }
+  },
+  "βαρέως": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G917" },
+    "inflections": {
+      "βαρέως": [{ "parse": ["adv"], "indices": { "strongs": "G917" } }]
+    },
+    "transliterations": { "βαρέως": "baréōs" }
+  },
+  "Βαρθολομαῖος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G918" },
+    "inflections": {
+      "βαρθολομαῖον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G918" }
+        }
+      ],
+      "βαρθολομαῖος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G918" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαρθολομαῖον": "bartholomaîon",
+      "βαρθολομαῖος": "bartholomaîos"
+    }
+  },
+  "Βαριησοῦς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G919" },
+    "inflections": {
+      "βαρϊησοῦς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G919" }
+        }
+      ]
+    },
+    "transliterations": { "βαρϊησοῦς": "barïēsoûs" }
+  },
+  "Βαριωνᾶ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G920" },
+    "inflections": {
+      "βαριωνᾶ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G920" } }
+      ]
+    },
+    "transliterations": { "βαριωνᾶ": "bariōnâ" }
+  },
+  "Βαρνάβας": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G921" },
+    "inflections": {
+      "βαρνάβα": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G921" }
+        }
+      ],
+      "βαρνάβᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G921" }
+        }
+      ],
+      "βαρνάβαν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G921" }
+        }
+      ],
+      "βαρνάβας": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G921" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαρνάβα": "barnába",
+      "βαρνάβᾳ": "barnába",
+      "βαρνάβαν": "barnában",
+      "βαρνάβας": "barnábas"
+    }
+  },
+  "βάρος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a weight; fig. a burden",
+    "indices": { "strongs": "G922" },
+    "inflections": {
+      "βάρει": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G922" }
+        }
+      ],
+      "βάρη": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G922" }
+        }
+      ],
+      "βάρος": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G922" }
+        }
+      ]
+    },
+    "transliterations": { "βάρει": "bárei", "βάρη": "bárē", "βάρος": "báros" }
+  },
+  "Βαρσαββᾶς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G923" },
+    "inflections": {
+      "βαρσαβᾶν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G923" }
+        }
+      ],
+      "βαρσαββᾶν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G923" }
+        }
+      ]
+    },
+    "transliterations": { "βαρσαβᾶν": "barsabân", "βαρσαββᾶν": "barsabbân" }
+  },
+  "Βαρτίμαιος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G924" },
+    "inflections": {
+      "βαρτίμαιος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G924" }
+        }
+      ]
+    },
+    "transliterations": { "βαρτίμαιος": "bartímaios" }
+  },
+  "βαρύς": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "heavy; fig. weighty, burdensome, grievous",
+    "indices": { "strongs": "G926" },
+    "inflections": {
+      "βαρέα": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G926" }
+        }
+      ],
+      "βαρεῖαι": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G926" }
+        }
+      ],
+      "βαρεῖς": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G926" }
+        }
+      ],
+      "βαρύτερα": [
+        {
+          "parse": ["adj", "comp", "acc", "pl", "neut"],
+          "indices": { "strongs": "G926" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαρέα": "baréa",
+      "βαρεῖαι": "bareîai",
+      "βαρεῖς": "bareîs",
+      "βαρύτερα": "barýtera"
+    }
+  },
+  "βαρύτιμος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G927" },
+    "inflections": {
+      "βαρυτίμου": [
+        {
+          "parse": ["adj", "gen", "sg", "neut"],
+          "indices": { "strongs": "G927" }
+        }
+      ]
+    },
+    "transliterations": { "βαρυτίμου": "barytímou" }
+  },
+  "βασανίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G928" },
+    "inflections": {
+      "βασανιζομένη": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G928" }
+        }
+      ],
+      "βασανιζόμενον": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G928" }
+        }
+      ],
+      "βασανιζόμενος": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G928" }
+        }
+      ],
+      "βασανιζομένους": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G928" }
+        }
+      ],
+      "βασανίσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G928" }
+        }
+      ],
+      "βασανίσῃς": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G928" }
+        }
+      ],
+      "βασανισθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G928" }
+        }
+      ],
+      "βασανισθήσονται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G928" }
+        }
+      ],
+      "βασανισθῶσιν": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G928" }
+        }
+      ],
+      "ἐβασάνιζεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G928" }
+        }
+      ],
+      "ἐβασάνισαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G928" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βασανιζομένη": "basanizoménē",
+      "βασανιζόμενον": "basanizómenon",
+      "βασανιζόμενος": "basanizómenos",
+      "βασανιζομένους": "basanizoménous",
+      "βασανίσαι": "basanísai",
+      "βασανίσῃς": "basanísēs",
+      "βασανισθήσεται": "basanisthḗsetai",
+      "βασανισθήσονται": "basanisthḗsontai",
+      "βασανισθῶσιν": "basanisthō̂sin",
+      "ἐβασάνιζεν": "ebasánizen",
+      "ἐβασάνισαν": "ebasánisan"
+    }
+  },
+  "βασανισμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G929" },
+    "inflections": {
+      "βασανισμὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G929" }
+        }
+      ],
+      "βασανισμὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G929" }
+        }
+      ],
+      "βασανισμοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G929" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βασανισμὸν": "basanismòn",
+      "βασανισμὸς": "basanismòs",
+      "βασανισμοῦ": "basanismoû"
+    }
+  },
+  "βασανιστής": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G930" },
+    "inflections": {
+      "βασανισταῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G930" }
+        }
+      ]
+    },
+    "transliterations": { "βασανισταῖς": "basanistaîs" }
+  },
+  "βάσανος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G931" },
+    "inflections": {
+      "βασάνοις": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G931" }
+        }
+      ],
+      "βασάνου": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G931" }
+        }
+      ]
+    },
+    "transliterations": { "βασάνοις": "basánois", "βασάνου": "basánou" }
+  },
+  "βασιλεία": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a kingship; fig. a kingdom",
+    "indices": { "strongs": "G932" },
+    "inflections": {
+      "βασιλεία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G932" }
+        }
+      ],
+      "βασιλείᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G932" }
+        }
+      ],
+      "βασιλείαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G932" }
+        }
+      ],
+      "βασιλείας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G932" }
+        },
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G932" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βασιλεία": "basileía",
+      "βασιλείᾳ": "basileía",
+      "βασιλείαν": "basileían",
+      "βασιλείας": "basileías"
+    }
+  },
+  "βασίλειος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G934" },
+    "inflections": {
+      "βασιλείοις": [
+        {
+          "parse": ["adj", "dat", "pl", "neut"],
+          "indices": { "strongs": "G934" }
+        }
+      ],
+      "βασίλειον": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G934" }
+        }
+      ],
+      "βασιλείων": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G934" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βασιλείοις": "basileíois",
+      "βασίλειον": "basíleion",
+      "βασιλείων": "basileíōn"
+    }
+  },
+  "βασιλεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a king",
+    "indices": { "strongs": "G935" },
+    "inflections": {
+      "βασιλέα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G935" }
+        }
+      ],
+      "βασιλεῖ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G935" }
+        }
+      ],
+      "βασιλεῖς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G935" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G935" }
+        }
+      ],
+      "βασιλεῦ": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G935" }
+        }
+      ],
+      "βασιλεύς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G935" }
+        }
+      ],
+      "βασιλεὺς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G935" }
+        }
+      ],
+      "βασιλεῦσιν": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G935" }
+        }
+      ],
+      "βασιλέων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G935" }
+        }
+      ],
+      "βασιλέως": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G935" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βασιλέα": "basiléa",
+      "βασιλεῖ": "basileî",
+      "βασιλεῖς": "basileîs",
+      "βασιλεῦ": "basileû",
+      "βασιλεύς": "basileús",
+      "βασιλεὺς": "basileùs",
+      "βασιλεῦσιν": "basileûsin",
+      "βασιλέων": "basiléōn",
+      "βασιλέως": "basiléōs"
+    }
+  },
+  "βασιλεύω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G936" },
+    "inflections": {
+      "βασιλεύει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "βασιλεύειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "βασιλευέτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "βασιλευόντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "βασιλεῦσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "βασιλεύσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "βασιλεύσῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "βασιλεύσουσιν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "ἐβασίλευσαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "ἐβασίλευσας": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "ἐβασιλεύσατε": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G936" }
+        }
+      ],
+      "ἐβασίλευσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G936" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βασιλεύει": "basileúei",
+      "βασιλεύειν": "basileúein",
+      "βασιλευέτω": "basileuétō",
+      "βασιλευόντων": "basileuóntōn",
+      "βασιλεῦσαι": "basileûsai",
+      "βασιλεύσει": "basileúsei",
+      "βασιλεύσῃ": "basileúsē",
+      "βασιλεύσουσιν": "basileúsousin",
+      "ἐβασίλευσαν": "ebasíleusan",
+      "ἐβασίλευσας": "ebasíleusas",
+      "ἐβασιλεύσατε": "ebasileúsate",
+      "ἐβασίλευσεν": "ebasíleusen"
+    }
+  },
+  "βασιλικός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G937" },
+    "inflections": {
+      "βασιλικήν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G937" }
+        }
+      ],
+      "βασιλικῆς": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G937" }
+        }
+      ],
+      "βασιλικόν": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G937" }
+        }
+      ],
+      "βασιλικός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G937" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βασιλικήν": "basilikḗn",
+      "βασιλικῆς": "basilikē̂s",
+      "βασιλικόν": "basilikón",
+      "βασιλικός": "basilikós"
+    }
+  },
+  "βασίλισσα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G938" },
+    "inflections": {
+      "βασίλισσα": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G938" }
+        }
+      ],
+      "βασιλίσσης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G938" }
+        }
+      ]
+    },
+    "transliterations": { "βασίλισσα": "basílissa", "βασιλίσσης": "basilíssēs" }
+  },
+  "βάσις": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a step; fig. a sole of a foot",
+    "indices": { "strongs": "G939" },
+    "inflections": {
+      "βάσεις": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G939" }
+        }
+      ]
+    },
+    "transliterations": { "βάσεις": "báseis" }
+  },
+  "βασκαίνω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G940" },
+    "inflections": {
+      "ἐβάσκανεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G940" }
+        }
+      ]
+    },
+    "transliterations": { "ἐβάσκανεν": "ebáskanen" }
+  },
+  "βαστάζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G941" },
+    "inflections": {
+      "βαστάζει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάζειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάζεις": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάζεσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάζετε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάζοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάζοντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "neut"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάζω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάζων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάσασά": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάσασιν": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "dat", "pl", "masc"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "βαστάσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "ἐβάσταζεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "ἐβαστάζετο": [
+        {
+          "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "ἐβάστασαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "ἐβάστασας": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G941" }
+        }
+      ],
+      "ἐβάστασεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G941" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βαστάζει": "bastázei",
+      "βαστάζειν": "bastázein",
+      "βαστάζεις": "bastázeis",
+      "βαστάζεσθαι": "bastázesthai",
+      "βαστάζετε": "bastázete",
+      "βαστάζοντες": "bastázontes",
+      "βαστάζοντος": "bastázontos",
+      "βαστάζω": "bastázō",
+      "βαστάζων": "bastázōn",
+      "βαστάσαι": "bastásai",
+      "βαστάσασά": "bastásasá",
+      "βαστάσασιν": "bastásasin",
+      "βαστάσει": "bastásei",
+      "ἐβάσταζεν": "ebástazen",
+      "ἐβαστάζετο": "ebastázeto",
+      "ἐβάστασαν": "ebástasan",
+      "ἐβάστασας": "ebástasas",
+      "ἐβάστασεν": "ebástasen"
+    }
+  },
+  "βάτος¹": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G942" },
+    "inflections": {
+      "βάτου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G942" }
+        },
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G942" }
+        }
+      ],
+      "βάτῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G942" }
+        }
+      ]
+    },
+    "transliterations": { "βάτου": "bátou", "βάτῳ": "bátō" }
+  },
+  "βάτος²": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G943" },
+    "inflections": {
+      "βάτους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G943" }
+        }
+      ]
+    },
+    "transliterations": { "βάτους": "bátous" }
+  },
+  "βάτραχος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G944" },
+    "inflections": {
+      "βάτραχοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G944" }
+        }
+      ]
+    },
+    "transliterations": { "βάτραχοι": "bátrachoi" }
+  },
+  "βαττολογέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G945" },
+    "inflections": {
+      "βαττολογήσητε": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G945" }
+        }
+      ]
+    },
+    "transliterations": { "βαττολογήσητε": "battologḗsēte" }
+  },
+  "βδέλυγμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G946" },
+    "inflections": {
+      "βδέλυγμα": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G946" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G946" }
+        }
+      ],
+      "βδελυγμάτων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G946" }
+        }
+      ]
+    },
+    "transliterations": { "βδέλυγμα": "bdélygma", "βδελυγμάτων": "bdelygmátōn" }
+  },
+  "βδελυκτός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G947" },
+    "inflections": {
+      "βδελυκτοὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G947" }
+        }
+      ]
+    },
+    "transliterations": { "βδελυκτοὶ": "bdelyktoì" }
+  },
+  "βδελύσσομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G948" },
+    "inflections": {
+      "βδελυσσόμενος": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G948" }
+        }
+      ],
+      "ἐβδελυγμένοις": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "dat", "pl", "masc"],
+          "indices": { "strongs": "G948" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βδελυσσόμενος": "bdelyssómenos",
+      "ἐβδελυγμένοις": "ebdelygménois"
+    }
+  },
+  "βέβαιος": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["βέβαιος", "βεβαία"],
+    "indices": { "strongs": "G949" },
+    "inflections": {
+      "βεβαία": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G949" }
+        }
+      ],
+      "βεβαίαν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G949" }
+        }
+      ],
+      "βέβαιος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G949" }
+        }
+      ],
+      "βεβαιότερον": [
+        {
+          "parse": ["adj", "comp", "acc", "sg", "masc"],
+          "indices": { "strongs": "G949" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βεβαία": "bebaía",
+      "βεβαίαν": "bebaían",
+      "βέβαιος": "bébaios",
+      "βεβαιότερον": "bebaióteron"
+    }
+  },
+  "βεβαιόω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to establish; fig. to confirm",
+    "indices": { "strongs": "G950" },
+    "inflections": {
+      "βεβαιούμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G950" }
+        }
+      ],
+      "βεβαιοῦντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G950" }
+        }
+      ],
+      "βεβαιοῦσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G950" }
+        }
+      ],
+      "βεβαιῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G950" }
+        }
+      ],
+      "βεβαιῶσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G950" }
+        }
+      ],
+      "βεβαιώσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G950" }
+        }
+      ],
+      "ἐβεβαιώθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G950" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βεβαιούμενοι": "bebaioúmenoi",
+      "βεβαιοῦντος": "bebaioûntos",
+      "βεβαιοῦσθαι": "bebaioûsthai",
+      "βεβαιῶν": "bebaiō̂n",
+      "βεβαιῶσαι": "bebaiō̂sai",
+      "βεβαιώσει": "bebaiṓsei",
+      "ἐβεβαιώθη": "ebebaiṓthē"
+    }
+  },
+  "βεβαίωσις": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an establishment; fig. a confirmation",
+    "indices": { "strongs": "G951" },
+    "inflections": {
+      "βεβαιώσει": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G951" }
+        }
+      ],
+      "βεβαίωσιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G951" }
+        }
+      ]
+    },
+    "transliterations": { "βεβαιώσει": "bebaiṓsei", "βεβαίωσιν": "bebaíōsin" }
+  },
+  "βέβηλος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G952" },
+    "inflections": {
+      "βεβήλοις": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G952" }
+        }
+      ],
+      "βέβηλος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G952" }
+        }
+      ],
+      "βεβήλους": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G952" }
+        },
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G952" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βεβήλοις": "bebḗlois",
+      "βέβηλος": "bébēlos",
+      "βεβήλους": "bebḗlous"
+    }
+  },
+  "βεβηλόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G953" },
+    "inflections": {
+      "βεβηλοῦσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G953" }
+        }
+      ],
+      "βεβηλῶσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G953" }
+        }
+      ]
+    },
+    "transliterations": { "βεβηλοῦσιν": "bebēloûsin", "βεβηλῶσαι": "bebēlō̂sai" }
+  },
+  "Βεελζεβούλ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G954" },
+    "inflections": {
+      "βεελζεβοὺλ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G954" } }
+      ]
+    },
+    "transliterations": { "βεελζεβοὺλ": "beelzeboùl" }
+  },
+  "Βελίαρ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G955" },
+    "inflections": {
+      "βελίαρ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G955" } }
+      ]
+    },
+    "transliterations": { "βελίαρ": "belíar" }
+  },
+  "βέλος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G956" },
+    "inflections": {
+      "βέλη": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G956" }
+        }
+      ]
+    },
+    "transliterations": { "βέλη": "bélē" }
+  },
+  "βέλτιον": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G957" },
+    "inflections": {
+      "βέλτιον": [
+        { "parse": ["adv", "comp"], "indices": { "strongs": "G957" } }
+      ]
+    },
+    "transliterations": { "βέλτιον": "béltion" }
+  },
+  "Βενιαμίν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G958" },
+    "inflections": {
+      "βενιαμίν": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G958" } }
+      ]
+    },
+    "transliterations": { "βενιαμίν": "beniamín" }
+  },
+  "Βερνίκη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G959" },
+    "inflections": {
+      "βερνίκη": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G959" }
+        }
+      ],
+      "βερνίκης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G959" }
+        }
+      ]
+    },
+    "transliterations": { "βερνίκη": "berníkē", "βερνίκης": "berníkēs" }
+  },
+  "Βέροια": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G960" },
+    "inflections": {
+      "βεροίᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G960" }
+        }
+      ],
+      "βέροιαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G960" }
+        }
+      ]
+    },
+    "transliterations": { "βεροίᾳ": "beroía", "βέροιαν": "béroian" }
+  },
+  "Βεροιαῖος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G961" },
+    "inflections": {
+      "βεροιαῖος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G961" }
+        }
+      ]
+    },
+    "transliterations": { "βεροιαῖος": "beroiaîos" }
+  },
+  "Βηθανία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G963" },
+    "inflections": {
+      "βηθανία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G963" }
+        }
+      ],
+      "βηθανίᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G963" }
+        }
+      ],
+      "βηθανίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G963" }
+        }
+      ],
+      "βηθανίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G963" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βηθανία": "bēthanía",
+      "βηθανίᾳ": "bēthanía",
+      "βηθανίαν": "bēthanían",
+      "βηθανίας": "bēthanías"
+    }
+  },
+  "Βηθεσδά": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G964" },
+    "inflections": {
+      "βηθεσδά": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G964" } }
+      ]
+    },
+    "transliterations": { "βηθεσδά": "bēthesdá" }
+  },
+  "Βηθλεέμ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G965" },
+    "inflections": {
+      "βηθλεέμ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G965" } }
+      ],
+      "βηθλεὲμ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G965" } }
+      ],
+      "βηθλέεμ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G965" } }
+      ]
+    },
+    "transliterations": {
+      "βηθλεέμ": "bēthleém",
+      "βηθλεὲμ": "bēthleèm",
+      "βηθλέεμ": "bēthléem"
+    }
+  },
+  "Βηθσαϊδά": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G966" },
+    "inflections": {
+      "βηθσαϊδά": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G966" } }
+      ],
+      "βηθσαϊδὰ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G966" } }
+      ],
+      "βηθσαϊδάν": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G966" } }
+      ]
+    },
+    "transliterations": {
+      "βηθσαϊδά": "bēthsaïdá",
+      "βηθσαϊδὰ": "bēthsaïdà",
+      "βηθσαϊδάν": "bēthsaïdán"
+    }
+  },
+  "Βηθσφαγή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G967" },
+    "inflections": {
+      "βηθσφαγὴ": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G967" } }
+      ]
+    },
+    "transliterations": { "βηθσφαγὴ": "bēthsphagḕ" }
+  },
+  "βῆμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G968" },
+    "inflections": {
+      "βῆμα": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G968" }
+        }
+      ],
+      "βήματι": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G968" }
+        }
+      ],
+      "βήματος": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G968" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βῆμα": "bē̂ma",
+      "βήματι": "bḗmati",
+      "βήματος": "bḗmatos"
+    }
+  },
+  "βήρυλλος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G969" },
+    "inflections": {
+      "βήρυλλος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G969" }
+        }
+      ]
+    },
+    "transliterations": { "βήρυλλος": "bḗryllos" }
+  },
+  "βία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G970" },
+    "inflections": {
+      "βίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G970" }
+        }
+      ],
+      "βίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G970" }
+        }
+      ]
+    },
+    "transliterations": { "βίαν": "bían", "βίας": "bías" }
+  },
+  "βιάζομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G971" },
+    "inflections": {
+      "βιάζεται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G971" }
+        },
+        {
+          "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G971" }
+        }
+      ]
+    },
+    "transliterations": { "βιάζεται": "biázetai" }
+  },
+  "βίαιος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G972" },
+    "inflections": {
+      "βιαίας": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G972" }
+        }
+      ]
+    },
+    "transliterations": { "βιαίας": "biaías" }
+  },
+  "βιαστής": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G973" },
+    "inflections": {
+      "βιασταὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G973" }
+        }
+      ]
+    },
+    "transliterations": { "βιασταὶ": "biastaì" }
+  },
+  "βιβλιδάριον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G974" },
+    "inflections": {
+      "βιβλιδάριον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G974" }
+        }
+      ]
+    },
+    "transliterations": { "βιβλιδάριον": "biblidárion" }
+  },
+  "βιβλίον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G975" },
+    "inflections": {
+      "βιβλία": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G975" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G975" }
+        }
+      ],
+      "βιβλίοις": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G975" }
+        }
+      ],
+      "βιβλίον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G975" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G975" }
+        }
+      ],
+      "βιβλίου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G975" }
+        }
+      ],
+      "βιβλίῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G975" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βιβλία": "biblía",
+      "βιβλίοις": "biblíois",
+      "βιβλίον": "biblíon",
+      "βιβλίου": "biblíou",
+      "βιβλίῳ": "biblíō"
+    }
+  },
+  "βίβλος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a book",
+    "indices": { "strongs": "G976" },
+    "inflections": {
+      "βίβλος": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G976" }
+        }
+      ],
+      "βίβλου": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G976" }
+        }
+      ],
+      "βίβλους": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G976" }
+        }
+      ],
+      "βίβλῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G976" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βίβλος": "bíblos",
+      "βίβλου": "bíblou",
+      "βίβλους": "bíblous",
+      "βίβλῳ": "bíblō"
+    }
+  },
+  "βιβρώσκω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G977" },
+    "inflections": {
+      "βεβρωκόσιν": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "dat", "pl", "masc"],
+          "indices": { "strongs": "G977" }
+        }
+      ]
+    },
+    "transliterations": { "βεβρωκόσιν": "bebrōkósin" }
+  },
+  "Βιθυνία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G978" },
+    "inflections": {
+      "βιθυνίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G978" }
+        }
+      ],
+      "βιθυνίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G978" }
+        }
+      ]
+    },
+    "transliterations": { "βιθυνίαν": "bithynían", "βιθυνίας": "bithynías" }
+  },
+  "βίος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an existence; fig. a livelihood",
+    "indices": { "strongs": "G979" },
+    "inflections": {
+      "βίον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G979" }
+        }
+      ],
+      "βίου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G979" }
+        }
+      ]
+    },
+    "transliterations": { "βίον": "bíon", "βίου": "bíou" }
+  },
+  "βιόω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to exist",
+    "indices": { "strongs": "G980" },
+    "inflections": {
+      "βιῶσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G980" }
+        }
+      ]
+    },
+    "transliterations": { "βιῶσαι": "biō̂sai" }
+  },
+  "βίωσις": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a manner of existence, way of life",
+    "indices": { "strongs": "G981" },
+    "inflections": {
+      "βίωσίν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G981" }
+        }
+      ]
+    },
+    "transliterations": { "βίωσίν": "bíōsín" }
+  },
+  "βιωτικός": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be pertaining to this existence/life",
+    "indices": { "strongs": "G982" },
+    "inflections": {
+      "βιωτικά": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G982" }
+        }
+      ],
+      "βιωτικὰ": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G982" }
+        }
+      ],
+      "βιωτικαῖς": [
+        {
+          "parse": ["adj", "dat", "pl", "fem"],
+          "indices": { "strongs": "G982" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βιωτικά": "biōtiká",
+      "βιωτικὰ": "biōtikà",
+      "βιωτικαῖς": "biōtikaîs"
+    }
+  },
+  "βλαβερός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G983" },
+    "inflections": {
+      "βλαβεράς": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G983" }
+        }
+      ]
+    },
+    "transliterations": { "βλαβεράς": "blaberás" }
+  },
+  "βλάπτω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G984" },
+    "inflections": {
+      "βλάψαν": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G984" }
+        }
+      ],
+      "βλάψῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G984" }
+        }
+      ]
+    },
+    "transliterations": { "βλάψαν": "blápsan", "βλάψῃ": "blápsē" }
+  },
+  "βλαστάνω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G985" },
+    "inflections": {
+      "βλαστάνῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G985" }
+        }
+      ],
+      "βλαστήσασα": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G985" }
+        }
+      ],
+      "ἐβλάστησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G985" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βλαστάνῃ": "blastánē",
+      "βλαστήσασα": "blastḗsasa",
+      "ἐβλάστησεν": "eblástēsen"
+    }
+  },
+  "βλαστός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G986" },
+    "inflections": {
+      "βλάστον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G986" }
+        }
+      ]
+    },
+    "transliterations": { "βλάστον": "bláston" }
+  },
+  "βλασφημέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G987" },
+    "inflections": {
+      "βλασφημεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημεῖν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημεῖς": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημείσθω": [
+        {
+          "parse": ["verb", "pres", "pas", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημεῖται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημηθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημήσαντι": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημήσῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημήσωσιν": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημῆται": [
+        {
+          "parse": ["verb", "pres", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημοῦμαι": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημούμεθα": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημούμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημοῦντας": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημοῦντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημούντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "βλασφημοῦσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "ἐβλασφήμει": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "ἐβλασφήμησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "ἐβλασφήμησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G987" }
+        }
+      ],
+      "ἐβλασφήμουν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G987" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βλασφημεῖ": "blasphēmeî",
+      "βλασφημεῖν": "blasphēmeîn",
+      "βλασφημεῖς": "blasphēmeîs",
+      "βλασφημείσθω": "blasphēmeísthō",
+      "βλασφημεῖται": "blasphēmeîtai",
+      "βλασφημηθήσεται": "blasphēmēthḗsetai",
+      "βλασφημῆσαι": "blasphēmē̂sai",
+      "βλασφημήσαντι": "blasphēmḗsanti",
+      "βλασφημήσῃ": "blasphēmḗsē",
+      "βλασφημήσωσιν": "blasphēmḗsōsin",
+      "βλασφημῆται": "blasphēmē̂tai",
+      "βλασφημοῦμαι": "blasphēmoûmai",
+      "βλασφημούμεθα": "blasphēmoúmetha",
+      "βλασφημούμενοι": "blasphēmoúmenoi",
+      "βλασφημοῦντας": "blasphēmoûntas",
+      "βλασφημοῦντες": "blasphēmoûntes",
+      "βλασφημούντων": "blasphēmoúntōn",
+      "βλασφημοῦσιν": "blasphēmoûsin",
+      "ἐβλασφήμει": "eblasphḗmei",
+      "ἐβλασφήμησαν": "eblasphḗmēsan",
+      "ἐβλασφήμησεν": "eblasphḗmēsen",
+      "ἐβλασφήμουν": "eblasphḗmoun"
+    }
+  },
+  "βλασφημία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G988" },
+    "inflections": {
+      "βλασφημία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G988" }
+        }
+      ],
+      "βλασφημίαι": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G988" }
+        }
+      ],
+      "βλασφημίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G988" }
+        }
+      ],
+      "βλασφημίας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G988" }
+        },
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G988" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βλασφημία": "blasphēmía",
+      "βλασφημίαι": "blasphēmíai",
+      "βλασφημίαν": "blasphēmían",
+      "βλασφημίας": "blasphēmías"
+    }
+  },
+  "βλάσφημος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G989" },
+    "inflections": {
+      "βλάσφημα": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G989" }
+        }
+      ],
+      "βλάσφημοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G989" }
+        }
+      ],
+      "βλάσφημον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G989" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G989" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βλάσφημα": "blásphēma",
+      "βλάσφημοι": "blásphēmoi",
+      "βλάσφημον": "blásphēmon"
+    }
+  },
+  "βλέμμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G990" },
+    "inflections": {
+      "βλέμματι": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G990" }
+        }
+      ]
+    },
+    "transliterations": { "βλέμματι": "blémmati" }
+  },
+  "βλέπω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to look, see",
+    "indices": { "strongs": "G991" },
+    "inflections": {
+      "βλέπε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπεις": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπετε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G991" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλεπέτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπῃς": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπομεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλεπόμενα": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "neut"],
+          "indices": { "strongs": "G991" }
+        },
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "neut"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλεπομένη": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλεπομένων": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "neut"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέποντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέποντας": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέποντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλεπόντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέπωσιν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέψετε": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "βλέψον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "ἔβλεπεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "ἔβλεπον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G991" }
+        }
+      ],
+      "ἔβλεψα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G991" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βλέπε": "blépe",
+      "βλέπει": "blépei",
+      "βλέπειν": "blépein",
+      "βλέπεις": "blépeis",
+      "βλέπετε": "blépete",
+      "βλεπέτω": "blepétō",
+      "βλέπῃ": "blépē",
+      "βλέπῃς": "blépēs",
+      "βλέπομεν": "blépomen",
+      "βλεπόμενα": "blepómena",
+      "βλεπομένη": "blepoménē",
+      "βλεπομένων": "blepoménōn",
+      "βλέποντα": "bléponta",
+      "βλέποντας": "blépontas",
+      "βλέποντες": "blépontes",
+      "βλεπόντων": "blepóntōn",
+      "βλέπουσιν": "blépousin",
+      "βλέπω": "blépō",
+      "βλέπων": "blépōn",
+      "βλέπωσιν": "blépōsin",
+      "βλέψετε": "blépsete",
+      "βλέψον": "blépson",
+      "ἔβλεπεν": "éblepen",
+      "ἔβλεπον": "éblepon",
+      "ἔβλεψα": "éblepsa"
+    }
+  },
+  "βλητέος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G992" },
+    "inflections": {
+      "βλητέον": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G992" }
+        }
+      ]
+    },
+    "transliterations": { "βλητέον": "blētéon" }
+  },
+  "Βοανηργές": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G993" },
+    "inflections": {
+      "βοανεργές": [
+        { "parse": ["noun", "indecl-proper"], "indices": { "strongs": "G993" } }
+      ]
+    },
+    "transliterations": { "βοανεργές": "boanergés" }
+  },
+  "βοάω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to shout",
+    "indices": { "strongs": "G994" },
+    "inflections": {
+      "βόησον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G994" }
+        }
+      ],
+      "βοῶντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"],
+          "indices": { "strongs": "G994" }
+        }
+      ],
+      "βοῶντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G994" }
+        }
+      ],
+      "βοῶντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G994" }
+        }
+      ],
+      "βοώντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G994" }
+        }
+      ],
+      "ἐβόησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G994" }
+        }
+      ],
+      "ἐβόων": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G994" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βόησον": "bóēson",
+      "βοῶντα": "boō̂nta",
+      "βοῶντες": "boō̂ntes",
+      "βοῶντος": "boō̂ntos",
+      "βοώντων": "boṓntōn",
+      "ἐβόησεν": "ebóēsen",
+      "ἐβόων": "ebóōn"
+    }
+  },
+  "βοή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G995" },
+    "inflections": {
+      "βοαὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G995" }
+        }
+      ]
+    },
+    "transliterations": { "βοαὶ": "boaì" }
+  },
+  "βοήθεια": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a help",
+    "indices": { "strongs": "G996" },
+    "inflections": {
+      "βοηθείαις": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G996" }
+        }
+      ],
+      "βοήθειαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G996" }
+        }
+      ]
+    },
+    "transliterations": { "βοηθείαις": "boētheíais", "βοήθειαν": "boḗtheian" }
+  },
+  "βοηθέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to help",
+    "indices": { "strongs": "G997" },
+    "inflections": {
+      "βοήθει": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G997" }
+        }
+      ],
+      "βοηθεῖτε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G997" }
+        }
+      ],
+      "βοηθῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G997" }
+        }
+      ],
+      "βοήθησον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G997" }
+        }
+      ],
+      "ἐβοήθησά": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G997" }
+        }
+      ],
+      "ἐβοήθησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G997" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βοήθει": "boḗthei",
+      "βοηθεῖτε": "boētheîte",
+      "βοηθῆσαι": "boēthē̂sai",
+      "βοήθησον": "boḗthēson",
+      "ἐβοήθησά": "eboḗthēsá",
+      "ἐβοήθησεν": "eboḗthēsen"
+    }
+  },
+  "βοηθός": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "to be helpful",
+    "indices": { "strongs": "G998" },
+    "inflections": {
+      "βοηθός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G998" }
+        }
+      ]
+    },
+    "transliterations": { "βοηθός": "boēthós" }
+  },
+  "βόθυνος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G999" },
+    "inflections": {
+      "βόθυνον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G999" }
+        }
+      ]
+    },
+    "transliterations": { "βόθυνον": "bóthynon" }
+  },
+  "βολή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1000" },
+    "inflections": {
+      "βολήν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G1000" }
+        }
+      ]
+    },
+    "transliterations": { "βολήν": "bolḗn" }
+  },
+  "βολίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G1001" },
+    "inflections": {
+      "βολίσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G1001" }
+        }
+      ]
+    },
+    "transliterations": { "βολίσαντες": "bolísantes" }
+  },
+  "Βοόζ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Boaz; lit. In Him Is Strength",
+    "indices": { "strongs": "G1003" },
+    "inflections": {
+      "βοόζ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G1003" }
+        }
+      ],
+      "βοὸζ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G1003" }
+        }
+      ]
+    },
+    "transliterations": { "βοόζ": "boóz", "βοὸζ": "boòz" }
+  },
+  "βόρβορος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1004" },
+    "inflections": {
+      "βορβόρου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G1004" }
+        }
+      ]
+    },
+    "transliterations": { "βορβόρου": "borbórou" }
+  },
+  "βορρᾶς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1005" },
+    "inflections": {
+      "βορρᾶ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G1005" }
+        }
+      ]
+    },
+    "transliterations": { "βορρᾶ": "borrâ" }
+  },
+  "βόσκω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to pasture, graze, feed",
+    "indices": { "strongs": "G1006" },
+    "inflections": {
+      "βόσκε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G1006" }
+        }
+      ],
+      "βόσκειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G1006" }
+        }
+      ],
+      "βοσκομένη": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G1006" }
+        }
+      ],
+      "βοσκομένων": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G1006" }
+        }
+      ],
+      "βόσκοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G1006" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βόσκε": "bóske",
+      "βόσκειν": "bóskein",
+      "βοσκομένη": "boskoménē",
+      "βοσκομένων": "boskoménōn",
+      "βόσκοντες": "bóskontes"
+    }
+  },
+  "Βοσόρ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1007" },
+    "inflections": {
+      "βοσόρ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G1007" }
+        }
+      ]
+    },
+    "transliterations": { "βοσόρ": "bosór" }
+  },
+  "βοτάνη": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a hay",
+    "indices": { "strongs": "G1008" },
+    "inflections": {
+      "βοτάνην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G1008" }
+        }
+      ]
+    },
+    "transliterations": { "βοτάνην": "botánēn" }
+  },
+  "βότρυς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1009" },
+    "inflections": {
+      "βότρυας": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G1009" }
+        }
+      ]
+    },
+    "transliterations": { "βότρυας": "bótryas" }
+  },
+  "βουλεύομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G1011" },
+    "inflections": {
+      "βουλεύεται": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1011" }
+        }
+      ],
+      "βουλεύομαι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G1011" }
+        }
+      ],
+      "βουλευόμενος": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1011" }
+        }
+      ],
+      "ἐβουλεύοντο": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G1011" }
+        }
+      ],
+      "ἐβουλεύσαντο": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G1011" }
+        }
+      ],
+      "ἐβουλεύσατο": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1011" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βουλεύεται": "bouleúetai",
+      "βουλεύομαι": "bouleúomai",
+      "βουλευόμενος": "bouleuómenos",
+      "ἐβουλεύοντο": "ebouleúonto",
+      "ἐβουλεύσαντο": "ebouleúsanto",
+      "ἐβουλεύσατο": "ebouleúsato"
+    }
+  },
+  "βουλευτής": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1010" },
+    "inflections": {
+      "βουλευτής": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1010" }
+        }
+      ],
+      "βουλευτὴς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1010" }
+        }
+      ]
+    },
+    "transliterations": { "βουλευτής": "bouleutḗs", "βουλευτὴς": "bouleutḕs" }
+  },
+  "βουλή": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a will, intention, purpose",
+    "indices": { "strongs": "G1012" },
+    "inflections": {
+      "βουλὰς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G1012" }
+        }
+      ],
+      "βουλή": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G1012" }
+        }
+      ],
+      "βουλὴ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G1012" }
+        }
+      ],
+      "βουλῇ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G1012" }
+        }
+      ],
+      "βουλὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G1012" }
+        }
+      ],
+      "βουλῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G1012" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βουλὰς": "boulàs",
+      "βουλή": "boulḗ",
+      "βουλὴ": "boulḕ",
+      "βουλῇ": "boulē̂",
+      "βουλὴν": "boulḕn",
+      "βουλῆς": "boulē̂s"
+    }
+  },
+  "βούλημα": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a will, intent, purpose",
+    "indices": { "strongs": "G1013" },
+    "inflections": {
+      "βουλήματι": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G1013" }
+        }
+      ],
+      "βουλήματος": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G1013" }
+        }
+      ]
+    },
+    "transliterations": { "βουλήματι": "boulḗmati", "βουλήματος": "boulḗmatos" }
+  },
+  "βούλομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to will, intend, purpose",
+    "indices": { "strongs": "G1014" },
+    "inflections": {
+      "βούλει": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βούλεσθε": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βούλεται": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βουληθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βουληθῇ": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βούληται": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βούλοιτο": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "opt", "pers-3", "sg"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βούλομαι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βούλομαί": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βουλόμεθα": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βουλόμενοι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βουλόμενος": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βουλόμενός": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βουλομένου": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "βουλομένους": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "ἐβουλήθη": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "ἐβουλήθην": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "ἐβουλόμην": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G1014" }
+        }
+      ],
+      "ἐβούλοντο": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G1014" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βούλει": "boúlei",
+      "βούλεσθε": "boúlesthe",
+      "βούλεται": "boúletai",
+      "βουληθεὶς": "boulētheìs",
+      "βουληθῇ": "boulēthē̂",
+      "βούληται": "boúlētai",
+      "βούλοιτο": "boúloito",
+      "βούλομαι": "boúlomai",
+      "βούλομαί": "boúlomaí",
+      "βουλόμεθα": "boulómetha",
+      "βουλόμενοι": "boulómenoi",
+      "βουλόμενος": "boulómenos",
+      "βουλόμενός": "boulómenós",
+      "βουλομένου": "bouloménou",
+      "βουλομένους": "bouloménous",
+      "ἐβουλήθη": "eboulḗthē",
+      "ἐβουλήθην": "eboulḗthēn",
+      "ἐβουλόμην": "eboulómēn",
+      "ἐβούλοντο": "eboúlonto"
+    }
+  },
+  "βουνός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1015" },
+    "inflections": {
+      "βουνοῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G1015" }
+        }
+      ],
+      "βουνὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1015" }
+        }
+      ]
+    },
+    "transliterations": { "βουνοῖς": "bounoîs", "βουνὸς": "bounòs" }
+  },
+  "βοῦς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1016" },
+    "inflections": {
+      "βόας": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G1016" }
+        }
+      ],
+      "βοῦν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G1016" }
+        }
+      ],
+      "βοῦς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1016" }
+        }
+      ],
+      "βοῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G1016" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βόας": "bóas",
+      "βοῦν": "boûn",
+      "βοῦς": "boûs",
+      "βοῶν": "boō̂n"
+    }
+  },
+  "βραβεῖον": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a trophy",
+    "indices": { "strongs": "G1017" },
+    "inflections": {
+      "βραβεῖον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G1017" }
+        }
+      ]
+    },
+    "transliterations": { "βραβεῖον": "brabeîon" }
+  },
+  "βραβεύω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to arbitrate",
+    "indices": { "strongs": "G1018" },
+    "inflections": {
+      "βραβευέτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G1018" }
+        }
+      ]
+    },
+    "transliterations": { "βραβευέτω": "brabeuétō" }
+  },
+  "βραδύνω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G1019" },
+    "inflections": {
+      "βραδύνει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1019" }
+        }
+      ],
+      "βραδύνω": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G1019" }
+        }
+      ]
+    },
+    "transliterations": { "βραδύνει": "bradýnei", "βραδύνω": "bradýnō" }
+  },
+  "βραδυπλοέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G1020" },
+    "inflections": {
+      "βραδυπλοοῦντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G1020" }
+        }
+      ]
+    },
+    "transliterations": { "βραδυπλοοῦντες": "bradyplooûntes" }
+  },
+  "βραδύς": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G1021" },
+    "inflections": {
+      "βραδεῖς": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G1021" }
+        }
+      ],
+      "βραδὺς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1021" }
+        }
+      ]
+    },
+    "transliterations": { "βραδεῖς": "bradeîs", "βραδὺς": "bradỳs" }
+  },
+  "βραδυτής": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1022" },
+    "inflections": {
+      "βραδυτῆτα": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G1022" }
+        }
+      ]
+    },
+    "transliterations": { "βραδυτῆτα": "bradytē̂ta" }
+  },
+  "βραχίων": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an arm",
+    "indices": { "strongs": "G1023" },
+    "inflections": {
+      "βραχίονι": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G1023" }
+        }
+      ],
+      "βραχίονος": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G1023" }
+        }
+      ],
+      "βραχίων": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1023" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βραχίονι": "brachíoni",
+      "βραχίονος": "brachíonos",
+      "βραχίων": "brachíōn"
+    }
+  },
+  "βραχύς": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G1024" },
+    "inflections": {
+      "βραχέων": [
+        {
+          "parse": ["adj", "gen", "pl", "neut"],
+          "indices": { "strongs": "G1024" }
+        }
+      ],
+      "βραχύ": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G1024" }
+        }
+      ],
+      "βραχὺ": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G1024" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βραχέων": "brachéōn",
+      "βραχύ": "brachý",
+      "βραχὺ": "brachỳ"
+    }
+  },
+  "βρέφος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a baby",
+    "indices": { "strongs": "G1025" },
+    "inflections": {
+      "βρέφη": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G1025" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G1025" }
+        }
+      ],
+      "βρέφος": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G1025" }
+        },
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G1025" }
+        }
+      ],
+      "βρέφους": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G1025" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βρέφη": "bréphē",
+      "βρέφος": "bréphos",
+      "βρέφους": "bréphous"
+    }
+  },
+  "βρέχω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G1026" },
+    "inflections": {
+      "βρέξαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G1026" }
+        }
+      ],
+      "βρέχει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1026" }
+        }
+      ],
+      "βρέχειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G1026" }
+        }
+      ],
+      "βρέχῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G1026" }
+        }
+      ],
+      "ἔβρεξεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1026" }
+        }
+      ],
+      "ἔβρεξέν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1026" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βρέξαι": "bréxai",
+      "βρέχει": "bréchei",
+      "βρέχειν": "bréchein",
+      "βρέχῃ": "bréchē",
+      "ἔβρεξεν": "ébrexen",
+      "ἔβρεξέν": "ébrexén"
+    }
+  },
+  "βροντή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1027" },
+    "inflections": {
+      "βρονταί": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G1027" }
+        }
+      ],
+      "βρονταὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G1027" }
+        }
+      ],
+      "βροντὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G1027" }
+        }
+      ],
+      "βροντῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G1027" }
+        }
+      ],
+      "βροντῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G1027" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βρονταί": "brontaí",
+      "βρονταὶ": "brontaì",
+      "βροντὴν": "brontḕn",
+      "βροντῆς": "brontē̂s",
+      "βροντῶν": "brontō̂n"
+    }
+  },
+  "βροχή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1028" },
+    "inflections": {
+      "βροχὴ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G1028" }
+        }
+      ]
+    },
+    "transliterations": { "βροχὴ": "brochḕ" }
+  },
+  "βρόχος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a noose",
+    "indices": { "strongs": "G1029" },
+    "inflections": {
+      "βρόχον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G1029" }
+        }
+      ]
+    },
+    "transliterations": { "βρόχον": "bróchon" }
+  },
+  "βρυγμός": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a gnashing",
+    "indices": { "strongs": "G1030" },
+    "inflections": {
+      "βρυγμὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G1030" }
+        }
+      ]
+    },
+    "transliterations": { "βρυγμὸς": "brygmòs" }
+  },
+  "βρύχω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to gnash",
+    "indices": { "strongs": "G1031" },
+    "inflections": {
+      "ἔβρυχον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G1031" }
+        }
+      ]
+    },
+    "transliterations": { "ἔβρυχον": "ébrychon" }
+  },
+  "βρύω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G1032" },
+    "inflections": {
+      "βρύει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1032" }
+        }
+      ]
+    },
+    "transliterations": { "βρύει": "brýei" }
+  },
+  "βρῶμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1033" },
+    "inflections": {
+      "βρῶμα": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G1033" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G1033" }
+        }
+      ],
+      "βρῶμά": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G1033" }
+        }
+      ],
+      "βρώμασιν": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G1033" }
+        }
+      ],
+      "βρώματα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G1033" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G1033" }
+        }
+      ],
+      "βρώματί": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G1033" }
+        }
+      ],
+      "βρώματος": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G1033" }
+        }
+      ],
+      "βρωμάτων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G1033" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βρῶμα": "brō̂ma",
+      "βρῶμά": "brō̂má",
+      "βρώμασιν": "brṓmasin",
+      "βρώματα": "brṓmata",
+      "βρώματί": "brṓmatí",
+      "βρώματος": "brṓmatos",
+      "βρωμάτων": "brōmátōn"
+    }
+  },
+  "βρώσιμος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G1034" },
+    "inflections": {
+      "βρώσιμον": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G1034" }
+        }
+      ]
+    },
+    "transliterations": { "βρώσιμον": "brṓsimon" }
+  },
+  "βρῶσις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1035" },
+    "inflections": {
+      "βρώσει": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G1035" }
+        }
+      ],
+      "βρώσεως": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G1035" }
+        }
+      ],
+      "βρῶσιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G1035" }
+        }
+      ],
+      "βρῶσις": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G1035" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βρώσει": "brṓsei",
+      "βρώσεως": "brṓseōs",
+      "βρῶσιν": "brō̂sin",
+      "βρῶσις": "brō̂sis"
+    }
+  },
+  "βυθίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G1036" },
+    "inflections": {
+      "βυθίζεσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G1036" }
+        }
+      ],
+      "βυθίζουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G1036" }
+        }
+      ]
+    },
+    "transliterations": {
+      "βυθίζεσθαι": "bythízesthai",
+      "βυθίζουσιν": "bythízousin"
+    }
+  },
+  "βυθός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1037" },
+    "inflections": {
+      "βυθῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G1037" }
+        }
+      ]
+    },
+    "transliterations": { "βυθῷ": "bythō̂" }
+  },
+  "βυρσεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a tanner",
+    "indices": { "strongs": "G1038" },
+    "inflections": {
+      "βυρσεῖ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G1038" }
+        }
+      ],
+      "βυρσέως": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G1038" }
+        }
+      ]
+    },
+    "transliterations": { "βυρσεῖ": "byrseî", "βυρσέως": "byrséōs" }
+  },
+  "βύσσινος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G1039" },
+    "inflections": {
+      "βύσσινον": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G1039" }
+        },
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G1039" }
+        }
+      ],
+      "βυσσίνου": [
+        {
+          "parse": ["adj", "gen", "sg", "neut"],
+          "indices": { "strongs": "G1039" }
+        }
+      ]
+    },
+    "transliterations": { "βύσσινον": "býssinon", "βυσσίνου": "byssínou" }
+  },
+  "βύσσος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1040" },
+    "inflections": {
+      "βύσσον": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G1040" }
+        }
+      ]
+    },
+    "transliterations": { "βύσσον": "býsson" }
+  },
+  "βωμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G1041" },
+    "inflections": {
+      "βωμὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G1041" }
+        }
+      ]
+    },
+    "transliterations": { "βωμὸν": "bōmòn" }
+  }
+}

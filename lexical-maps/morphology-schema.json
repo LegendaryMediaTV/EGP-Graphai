@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/LegendaryMediaTV/EGP-Graphai/lexical-maps/morphology-schema.json",
+  "title": "EGP Graphai • Lexical Map Morphology Codes",
+  "description": "One morphology code system for a language: the positional grammar that says how a code is laid out, and the token map that says what each character means. Robinson's codes for Greek are one such system, and a language may have several.",
+  "$defs": {
+    "head": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pos", "slots"],
+      "properties": {
+        "pos": {
+          "type": "string",
+          "description": "Part-of-speech code this head token maps to. Resolves in the language registry's \"pos\" category (checked outside this schema)."
+        },
+        "slots": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "description": "Ordered positions read after the head. Each position is an array of slot names to try, in order, against the code found there."
+        }
+      }
+    },
+    "slotVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["length", "fields"],
+      "properties": {
+        "length": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Character count that selects this variant's field list."
+        },
+        "fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "Inflection categories read one character at a time, in order, when the slot has this length."
+        }
+      }
+    },
+    "slot": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Optional explanation of how the slot reads, e.g. why a length tells two readings apart."
+        },
+        "prefix": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Leading token to inflection code, e.g. { \"2\": \"second\" }, consumed before the rest of the slot is read."
+        },
+        "fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "Inflection categories read one character at a time, in order. Mutually exclusive with `variants`."
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/slotVariant"
+          },
+          "minItems": 1,
+          "description": "Alternate field lists, selected by the slot's character length. Mutually exclusive with `fields`."
+        },
+        "guard": {
+          "type": "string",
+          "description": "Prose condition that must hold for this slot to apply, checked before `fields` or `variants` are read."
+        },
+        "whole": {
+          "type": "boolean",
+          "description": "Whether the whole slot is one code rather than one character per field. Pairs with `category`."
+        },
+        "category": {
+          "type": "string",
+          "description": "Inflection category the whole slot resolves to, when `whole` is true."
+        }
+      }
+    }
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["_id", "name", "language", "heads", "tokens"],
+  "properties": {
+    "_id": {
+      "type": "string",
+      "description": "Short identifier for the scheme, e.g. \"robinson\"."
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name, e.g. \"Robinson's Morphological Analysis Codes\"."
+    },
+    "language": {
+      "type": "string",
+      "description": "_id of the language registry this scheme decodes into, e.g. \"greek\"."
+    },
+    "description": {
+      "type": "string",
+      "description": "Prose describing how a code is structured: head, positional slot groups, trailing qualifiers, and how ties are decided."
+    },
+    "delimiter": {
+      "type": "string",
+      "description": "Character that separates the head, slot groups, and qualifiers in a raw code, e.g. \"-\"."
+    },
+    "heads": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/head"
+      },
+      "minProperties": 1,
+      "description": "Every head token this scheme uses, keyed by the token itself, e.g. \"V\" for a verb."
+    },
+    "slots": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/slot"
+      },
+      "description": "Every slot referenced from `heads`, keyed by slot name."
+    },
+    "qualifiers": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Trailing qualifier token to inflection code, e.g. { \"ATT\": \"attic\" }. Qualifiers are optional and may trail any code."
+    },
+    "tokens": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "string"
+        }
+      },
+      "description": "Token maps for each inflection category named in `slots`, e.g. tokens.tense.\"A\" is \"aor\". Every code produced must resolve in the language registry (checked outside this schema)."
+    }
+  }
+}

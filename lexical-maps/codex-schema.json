@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/LegendaryMediaTV/EGP-Graphai/lexical-maps/codex-schema.json",
+  "title": "EGP Graphai • Lexical Map Codex",
+  "description": "Keyed by root, in the language's original script. A key is any attested lexical root; keys are not restricted to one pattern because roots come from the lexicon rather than from a controlled vocabulary.",
+  "$defs": {
+    "indices": {
+      "type": "object",
+      "minProperties": 1,
+      "properties": {
+        "strongs": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^[GH][0-9]{1,4}$"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[GH][0-9]{1,4}$"
+              },
+              "minItems": 2
+            }
+          ],
+          "description": "Strong's number, or an array of them when the tradition files one word under several numbers (an adverbial case form given its own entry, for instance). Same pattern as strongsNumber in content-schema.json. Must resolve in the lexicon (checked outside this schema)."
+        }
+      },
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2
+          }
+        ]
+      },
+      "description": "Lexical indices keyed by index name. On the root, the numbers the corpus uses for the word; on a cell, the number it tagged that form with."
+    },
+    "occurrences": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "description": "Attested token counts keyed by source version id, e.g. \"BYZ2026\". A cell with no `occurrences` is a paradigm cell no imported corpus has attested yet, which is expected and not an error."
+    },
+    "cell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["parse"],
+      "properties": {
+        "parse": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "Category-tagged codes describing this cell's morphology. Every code must resolve in the language registry, at most one code per category, and required categories present for the part of speech; a variant's parse must be a subset of its canonical's parse (all checked outside this schema)."
+        },
+        "indices": {
+          "$ref": "#/$defs/indices",
+          "description": "Parse-level lexical indices, such as a defective-verb's own Strong's number. Never present on a variant cell (checked outside this schema)."
+        }
+      },
+      "description": "One parse of one spelling, with the index the corpus tagged it with. A spelling with several parses has several cells. Two spellings sharing a root and a parse are the same paradigm slot written two ways; nothing marks one as primary."
+    },
+    "root": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["language", "pos", "inflections"],
+      "properties": {
+        "language": {
+          "type": "string",
+          "description": "_id of the language registry this root belongs to, e.g. \"greek\"."
+        },
+        "pos": {
+          "type": "string",
+          "description": "Part-of-speech code for this root. Resolves in the language registry's \"pos\" category (checked outside this schema)."
+        },
+        "citationForms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "Optional citation forms, e.g. [\"ὁ\", \"ἡ\", \"τό\"] for a gender set filed under one root."
+        },
+        "shortDefinition": {
+          "type": "string",
+          "description": "Optional brief gloss for the root."
+        },
+        "indices": {
+          "$ref": "#/$defs/indices",
+          "description": "Root-level lexical indices, for identifiers that belong to the word rather than to one parse cell."
+        },
+        "inflections": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/cell"
+            },
+            "minItems": 1
+          },
+          "description": "Every attested inflected form under this root, keyed by the (normalized) surface spelling. Each form maps to a non-empty array of cells because one spelling can carry more than one parse. Every (form, parse) pair attested in a tagged corpus must exist here (checked outside this schema)."
+        },
+        "transliterations": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Academic transliteration of every key in `inflections`, keyed the same way. Derived from the table in the language registry and stored so no consumer has to reimplement it."
+        }
+      }
+    }
+  },
+  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/$defs/root"
+  }
+}

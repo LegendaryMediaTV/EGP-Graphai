@@ -1,0 +1,3400 @@
+{
+  "Ἰάειρος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2383" },
+    "inflections": {
+      "ἰάειρος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2383" }
+        }
+      ]
+    },
+    "transliterations": { "ἰάειρος": "iáeiros" }
+  },
+  "Ἰακώβ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Jacob; lit. Heel-Catcher, Supplanter",
+    "indices": { "strongs": "G2384" },
+    "inflections": {
+      "ἰακώβ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2384" }
+        }
+      ],
+      "ἰακὼβ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2384" }
+        }
+      ]
+    },
+    "transliterations": { "ἰακώβ": "iakṓb", "ἰακὼβ": "iakṑb" }
+  },
+  "Ἰάκωβος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2385" },
+    "inflections": {
+      "ἰάκωβον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2385" }
+        }
+      ],
+      "ἰάκωβος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2385" }
+        }
+      ],
+      "ἰακώβου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2385" }
+        }
+      ],
+      "ἰακώβῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2385" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰάκωβον": "iákōbon",
+      "ἰάκωβος": "iákōbos",
+      "ἰακώβου": "iakṓbou",
+      "ἰακώβῳ": "iakṓbō"
+    }
+  },
+  "ἴαμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2386" },
+    "inflections": {
+      "ἰαμάτων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G2386" }
+        }
+      ]
+    },
+    "transliterations": { "ἰαμάτων": "iamátōn" }
+  },
+  "Ἰαμβρῆς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2387" },
+    "inflections": {
+      "ἰαμβρῆς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2387" }
+        }
+      ]
+    },
+    "transliterations": { "ἰαμβρῆς": "iambrē̂s" }
+  },
+  "Ἰαννά": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2388" },
+    "inflections": {
+      "ἰαννά": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2388" }
+        }
+      ]
+    },
+    "transliterations": { "ἰαννά": "ianná" }
+  },
+  "Ἰαννῆς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2389" },
+    "inflections": {
+      "ἰαννῆς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2389" }
+        }
+      ]
+    },
+    "transliterations": { "ἰαννῆς": "iannē̂s" }
+  },
+  "ἰάομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to heal",
+    "indices": { "strongs": "G2390" },
+    "inflections": {
+      "ἰαθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰαθέντος": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰαθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰάθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰαθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰαθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰαθῆτε": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰάθητε": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰάσασθαι": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "inf"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰάσατο": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰάσηται": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰᾶσθαι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "inf"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰάσομαι": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰάσωμαι": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰᾶταί": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἴαται": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰᾶτο": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2390" }
+        }
+      ],
+      "ἰώμενος": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2390" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰαθεὶς": "iatheìs",
+      "ἰαθέντος": "iathéntos",
+      "ἰαθῇ": "iathē̂",
+      "ἰάθη": "iáthē",
+      "ἰαθῆναι": "iathē̂nai",
+      "ἰαθήσεται": "iathḗsetai",
+      "ἰαθῆτε": "iathē̂te",
+      "ἰάθητε": "iáthēte",
+      "ἰάσασθαι": "iásasthai",
+      "ἰάσατο": "iásato",
+      "ἰάσηται": "iásētai",
+      "ἰᾶσθαι": "iâsthai",
+      "ἰάσομαι": "iásomai",
+      "ἰάσωμαι": "iásōmai",
+      "ἰᾶταί": "iâtaí",
+      "ἴαται": "íatai",
+      "ἰᾶτο": "iâto",
+      "ἰώμενος": "iṓmenos"
+    }
+  },
+  "Ἰαρέδ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2391" },
+    "inflections": {
+      "ἰαρέδ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2391" }
+        }
+      ]
+    },
+    "transliterations": { "ἰαρέδ": "iaréd" }
+  },
+  "ἴασις": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a healing",
+    "indices": { "strongs": "G2392" },
+    "inflections": {
+      "ἰάσεις": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2392" }
+        }
+      ],
+      "ἰάσεως": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2392" }
+        }
+      ],
+      "ἴασιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2392" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰάσεις": "iáseis",
+      "ἰάσεως": "iáseōs",
+      "ἴασιν": "íasin"
+    }
+  },
+  "ἴασπις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2393" },
+    "inflections": {
+      "ἰάσπιδι": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2393" }
+        }
+      ],
+      "ἴασπις": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2393" }
+        }
+      ]
+    },
+    "transliterations": { "ἰάσπιδι": "iáspidi", "ἴασπις": "íaspis" }
+  },
+  "Ἰάσων": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2394" },
+    "inflections": {
+      "ἰάσονα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2394" }
+        }
+      ],
+      "ἰάσονος": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2394" }
+        }
+      ],
+      "ἰάσων": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2394" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰάσονα": "iásona",
+      "ἰάσονος": "iásonos",
+      "ἰάσων": "iásōn"
+    }
+  },
+  "ἰατρός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2395" },
+    "inflections": {
+      "ἰατρέ": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G2395" }
+        }
+      ],
+      "ἰατροῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2395" }
+        }
+      ],
+      "ἰατρὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2395" }
+        }
+      ],
+      "ἰατροῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2395" }
+        }
+      ],
+      "ἰατρῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2395" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰατρέ": "iatré",
+      "ἰατροῖς": "iatroîs",
+      "ἰατρὸς": "iatròs",
+      "ἰατροῦ": "iatroû",
+      "ἰατρῶν": "iatrō̂n"
+    }
+  },
+  "ἴδε": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2396" },
+    "inflections": {
+      "ἴδε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2396" }
+        }
+      ]
+    },
+    "transliterations": { "ἴδε": "íde" }
+  },
+  "ἰδέα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2397" },
+    "inflections": {
+      "ἰδέα": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2397" }
+        }
+      ]
+    },
+    "transliterations": { "ἰδέα": "idéa" }
+  },
+  "ἴδιος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be one’s own",
+    "indices": { "strongs": "G2398" },
+    "inflections": {
+      "ἰδίᾳ": [
+        {
+          "parse": ["adj", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἴδια": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2398" }
+        },
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἰδίαις": [
+        {
+          "parse": ["adj", "dat", "pl", "fem"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἰδίαν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἰδίας": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2398" }
+        },
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἴδιοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἰδίοις": [
+        {
+          "parse": ["adj", "dat", "pl", "neut"],
+          "indices": { "strongs": "G2398" }
+        },
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἴδιον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2398" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἴδιος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἰδίου": [
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2398" }
+        },
+        {
+          "parse": ["adj", "gen", "sg", "neut"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἰδίους": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἰδίῳ": [
+        {
+          "parse": ["adj", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2398" }
+        },
+        {
+          "parse": ["adj", "dat", "sg", "neut"],
+          "indices": { "strongs": "G2398" }
+        }
+      ],
+      "ἰδίων": [
+        {
+          "parse": ["adj", "gen", "pl", "neut"],
+          "indices": { "strongs": "G2398" }
+        },
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2398" }
+        },
+        {
+          "parse": ["adj", "gen", "pl", "fem"],
+          "indices": { "strongs": "G2398" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰδίᾳ": "idía",
+      "ἴδια": "ídia",
+      "ἰδίαις": "idíais",
+      "ἰδίαν": "idían",
+      "ἰδίας": "idías",
+      "ἴδιοι": "ídioi",
+      "ἰδίοις": "idíois",
+      "ἴδιον": "ídion",
+      "ἴδιος": "ídios",
+      "ἰδίου": "idíou",
+      "ἰδίους": "idíous",
+      "ἰδίῳ": "idíō",
+      "ἰδίων": "idíōn"
+    }
+  },
+  "ἰδιώτης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2399" },
+    "inflections": {
+      "ἰδιῶται": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2399" }
+        }
+      ],
+      "ἰδιώτης": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2399" }
+        }
+      ],
+      "ἰδιώτου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2399" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰδιῶται": "idiō̂tai",
+      "ἰδιώτης": "idiṓtēs",
+      "ἰδιώτου": "idiṓtou"
+    }
+  },
+  "Ἰδουμαία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2401" },
+    "inflections": {
+      "ἰδουμαίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2401" }
+        }
+      ]
+    },
+    "transliterations": { "ἰδουμαίας": "idoumaías" }
+  },
+  "ἱδρώς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2402" },
+    "inflections": {
+      "ἱδρὼς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2402" }
+        }
+      ]
+    },
+    "transliterations": { "ἱδρὼς": "hidrṑs" }
+  },
+  "Ἰεζάβελ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2403" },
+    "inflections": {
+      "ἰεζάβελ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2403" }
+        }
+      ]
+    },
+    "transliterations": { "ἰεζάβελ": "iezábel" }
+  },
+  "Ἱεράπολις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2404" },
+    "inflections": {
+      "ἱεραπόλει": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2404" }
+        }
+      ]
+    },
+    "transliterations": { "ἱεραπόλει": "hierapólei" }
+  },
+  "ἱερατεία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2405" },
+    "inflections": {
+      "ἱερατείαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2405" }
+        }
+      ],
+      "ἱερατείας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2405" }
+        }
+      ]
+    },
+    "transliterations": { "ἱερατείαν": "hierateían", "ἱερατείας": "hierateías" }
+  },
+  "ἱεράτευμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2406" },
+    "inflections": {
+      "ἱεράτευμα": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2406" }
+        }
+      ]
+    },
+    "transliterations": { "ἱεράτευμα": "hieráteuma" }
+  },
+  "ἱερατεύω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2407" },
+    "inflections": {
+      "ἱερατεύειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G2407" }
+        }
+      ]
+    },
+    "transliterations": { "ἱερατεύειν": "hierateúein" }
+  },
+  "Ἰερεμίας": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2408" },
+    "inflections": {
+      "ἰερεμίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2408" }
+        }
+      ],
+      "ἰερεμίου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2408" }
+        }
+      ]
+    },
+    "transliterations": { "ἰερεμίαν": "ieremían", "ἰερεμίου": "ieremíou" }
+  },
+  "ἱερεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a priest",
+    "indices": { "strongs": "G2409" },
+    "inflections": {
+      "ἱερέα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2409" }
+        }
+      ],
+      "ἱερεῖ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2409" }
+        }
+      ],
+      "ἱερεῖς": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2409" }
+        },
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2409" }
+        }
+      ],
+      "ἱερεύς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2409" }
+        }
+      ],
+      "ἱερεὺς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2409" }
+        }
+      ],
+      "ἱερεῦσιν": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2409" }
+        }
+      ],
+      "ἱερέων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2409" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἱερέα": "hieréa",
+      "ἱερεῖ": "hiereî",
+      "ἱερεῖς": "hiereîs",
+      "ἱερεύς": "hiereús",
+      "ἱερεὺς": "hiereùs",
+      "ἱερεῦσιν": "hiereûsin",
+      "ἱερέων": "hieréōn"
+    }
+  },
+  "Ἰεριχώ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2410" },
+    "inflections": {
+      "ἰεριχώ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2410" }
+        }
+      ],
+      "ἰεριχὼ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2410" }
+        }
+      ]
+    },
+    "transliterations": { "ἰεριχώ": "ierichṓ", "ἰεριχὼ": "ierichṑ" }
+  },
+  "ἱερόν": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a temple",
+    "indices": { "strongs": "G2411" },
+    "inflections": {
+      "ἱερόν": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2411" }
+        }
+      ],
+      "ἱερὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2411" }
+        }
+      ],
+      "ἱεροῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G2411" }
+        }
+      ],
+      "ἱερῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G2411" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἱερόν": "hierón",
+      "ἱερὸν": "hieròn",
+      "ἱεροῦ": "hieroû",
+      "ἱερῷ": "hierō̂"
+    }
+  },
+  "ἱεροπρεπής": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be fit for sacredness",
+    "indices": { "strongs": "G2412" },
+    "inflections": {
+      "ἱεροπρεπεῖς": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2412" }
+        }
+      ]
+    },
+    "transliterations": { "ἱεροπρεπεῖς": "hieroprepeîs" }
+  },
+  "ἱερός": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be sacred",
+    "indices": { "strongs": "G2413" },
+    "inflections": {
+      "ἱερὰ": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2413" }
+        }
+      ]
+    },
+    "transliterations": { "ἱερὰ": "hierà" }
+  },
+  "Ἱεροσόλυμα": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Jerusalem; lit. Foundation of Peace",
+    "indices": { "strongs": "G2414" },
+    "inflections": {
+      "ἱεροσόλυμα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2414" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2414" }
+        }
+      ],
+      "ἱεροσολύμοις": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G2414" }
+        }
+      ],
+      "ἱεροσολύμων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G2414" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἱεροσόλυμα": "hierosólyma",
+      "ἱεροσολύμοις": "hierosolýmois",
+      "ἱεροσολύμων": "hierosolýmōn"
+    }
+  },
+  "Ἱεροσολυμίτης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2415" },
+    "inflections": {
+      "ἱεροσολυμῖται": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2415" }
+        }
+      ],
+      "ἱεροσολυμιτῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2415" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἱεροσολυμῖται": "hierosolymîtai",
+      "ἱεροσολυμιτῶν": "hierosolymitō̂n"
+    }
+  },
+  "ἱεροσυλέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2416" },
+    "inflections": {
+      "ἱεροσυλεῖς": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2416" }
+        }
+      ]
+    },
+    "transliterations": { "ἱεροσυλεῖς": "hierosyleîs" }
+  },
+  "ἱερόσυλος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2417" },
+    "inflections": {
+      "ἱεροσύλους": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2417" }
+        }
+      ]
+    },
+    "transliterations": { "ἱεροσύλους": "hierosýlous" }
+  },
+  "ἱερουργέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2418" },
+    "inflections": {
+      "ἱερουργοῦντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2418" }
+        }
+      ]
+    },
+    "transliterations": { "ἱερουργοῦντα": "hierourgoûnta" }
+  },
+  "Ἱερουσαλήμ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Jerusalem; lit. Foundation of Peace",
+    "indices": { "strongs": "G2419" },
+    "inflections": {
+      "ἱερουσαλήμ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2419" }
+        }
+      ],
+      "ἱερουσαλὴμ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2419" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἱερουσαλήμ": "hierousalḗm",
+      "ἱερουσαλὴμ": "hierousalḕm"
+    }
+  },
+  "ἱερωσύνη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2420" },
+    "inflections": {
+      "ἱερωσύνην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2420" }
+        }
+      ],
+      "ἱερωσύνης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2420" }
+        }
+      ]
+    },
+    "transliterations": { "ἱερωσύνην": "hierōsýnēn", "ἱερωσύνης": "hierōsýnēs" }
+  },
+  "Ἰεσσαί": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Jesse; lit. YH/Yah/Jah Exists, Wealthy",
+    "indices": { "strongs": "G2421" },
+    "inflections": {
+      "ἰεσσαί": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2421" }
+        }
+      ],
+      "ἰεσσαὶ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2421" }
+        }
+      ]
+    },
+    "transliterations": { "ἰεσσαί": "iessaí", "ἰεσσαὶ": "iessaì" }
+  },
+  "Ἰεφθάε": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2422" },
+    "inflections": {
+      "ἰεφθάε": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2422" }
+        }
+      ]
+    },
+    "transliterations": { "ἰεφθάε": "iephtháe" }
+  },
+  "Ἰεχονίας": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Jechoniah; lit. YH/Yah/Jah will Establish",
+    "indices": { "strongs": "G2423" },
+    "inflections": {
+      "ἰεχονίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2423" }
+        }
+      ],
+      "ἰεχονίας": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2423" }
+        }
+      ]
+    },
+    "transliterations": { "ἰεχονίαν": "iechonían", "ἰεχονίας": "iechonías" }
+  },
+  "Ἰησοῦς": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Jesus, Joshua; lit. YHWH/Yahweh/Jehovah Is Salvation",
+    "indices": { "strongs": "G2424" },
+    "inflections": {
+      "ἰησοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2424" }
+        },
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G2424" }
+        },
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2424" }
+        }
+      ],
+      "ἰησοῦν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2424" }
+        }
+      ],
+      "ἰησοῦς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2424" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰησοῦ": "iēsoû",
+      "ἰησοῦν": "iēsoûn",
+      "ἰησοῦς": "iēsoûs"
+    }
+  },
+  "ἱκανός": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["ἱκανός", "ἱκανόν"],
+    "shortDefinition": "to be ample, plenty; fig. to be worthy",
+    "indices": { "strongs": "G2425" },
+    "inflections": {
+      "ἱκανὰ": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκαναί": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκαναὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκαναῖς": [
+        {
+          "parse": ["adj", "dat", "pl", "fem"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανάς": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανὰς": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανοί": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανοὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανοῖς": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανόν": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2425" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανὸν": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2425" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2425" }
+        },
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανοῦ": [
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανούς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανῷ": [
+        {
+          "parse": ["adj", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2425" }
+        }
+      ],
+      "ἱκανῶν": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2425" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἱκανὰ": "hikanà",
+      "ἱκαναί": "hikanaí",
+      "ἱκαναὶ": "hikanaì",
+      "ἱκαναῖς": "hikanaîs",
+      "ἱκανάς": "hikanás",
+      "ἱκανὰς": "hikanàs",
+      "ἱκανοί": "hikanoí",
+      "ἱκανοὶ": "hikanoì",
+      "ἱκανοῖς": "hikanoîs",
+      "ἱκανόν": "hikanón",
+      "ἱκανὸν": "hikanòn",
+      "ἱκανός": "hikanós",
+      "ἱκανὸς": "hikanòs",
+      "ἱκανοῦ": "hikanoû",
+      "ἱκανούς": "hikanoús",
+      "ἱκανῷ": "hikanō̂",
+      "ἱκανῶν": "hikanō̂n"
+    }
+  },
+  "ἱκανότης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2426" },
+    "inflections": {
+      "ἱκανότης": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2426" }
+        }
+      ]
+    },
+    "transliterations": { "ἱκανότης": "hikanótēs" }
+  },
+  "ἱκανόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2427" },
+    "inflections": {
+      "ἱκανώσαντι": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2427" }
+        }
+      ],
+      "ἱκάνωσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2427" }
+        }
+      ]
+    },
+    "transliterations": { "ἱκανώσαντι": "hikanṓsanti", "ἱκάνωσεν": "hikánōsen" }
+  },
+  "ἱκετηρία": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an entreaty",
+    "indices": { "strongs": "G2428" },
+    "inflections": {
+      "ἱκετηρίας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2428" }
+        }
+      ]
+    },
+    "transliterations": { "ἱκετηρίας": "hiketērías" }
+  },
+  "ἰκμάς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2429" },
+    "inflections": {
+      "ἰκμάδα": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2429" }
+        }
+      ]
+    },
+    "transliterations": { "ἰκμάδα": "ikmáda" }
+  },
+  "Ἰκόνιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2430" },
+    "inflections": {
+      "ἰκόνιον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2430" }
+        }
+      ],
+      "ἰκονίου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G2430" }
+        }
+      ],
+      "ἰκονίῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G2430" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰκόνιον": "ikónion",
+      "ἰκονίου": "ikoníou",
+      "ἰκονίῳ": "ikoníō"
+    }
+  },
+  "ἱλαρός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2431" },
+    "inflections": {
+      "ἱλαρὸν": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2431" }
+        }
+      ]
+    },
+    "transliterations": { "ἱλαρὸν": "hilaròn" }
+  },
+  "ἱλαρότης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2432" },
+    "inflections": {
+      "ἱλαρότητι": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2432" }
+        }
+      ]
+    },
+    "transliterations": { "ἱλαρότητι": "hilarótēti" }
+  },
+  "ἱλάσκομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to reconcile",
+    "indices": { "strongs": "G2433" },
+    "inflections": {
+      "ἱλάσθητί": [
+        {
+          "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2433" }
+        }
+      ],
+      "ἱλάσκεσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G2433" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἱλάσθητί": "hilásthētí",
+      "ἱλάσκεσθαι": "hiláskesthai"
+    }
+  },
+  "ἱλασμός": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a reconciler",
+    "indices": { "strongs": "G2434" },
+    "inflections": {
+      "ἱλασμὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2434" }
+        }
+      ],
+      "ἱλασμός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2434" }
+        }
+      ]
+    },
+    "transliterations": { "ἱλασμὸν": "hilasmòn", "ἱλασμός": "hilasmós" }
+  },
+  "ἱλαστήριον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2435" },
+    "inflections": {
+      "ἱλαστήριον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2435" }
+        }
+      ]
+    },
+    "transliterations": { "ἱλαστήριον": "hilastḗrion" }
+  },
+  "ἵλεως": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2436" },
+    "inflections": {
+      "ἵλεως": [
+        {
+          "parse": ["adj", "attic", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2436" }
+        }
+      ],
+      "ἵλεώς": [
+        {
+          "parse": ["adj", "attic", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2436" }
+        }
+      ]
+    },
+    "transliterations": { "ἵλεως": "híleōs", "ἵλεώς": "híleṓs" }
+  },
+  "Ἰλλυρικόν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2437" },
+    "inflections": {
+      "ἰλλυρικοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G2437" }
+        }
+      ]
+    },
+    "transliterations": { "ἰλλυρικοῦ": "illyrikoû" }
+  },
+  "ἱμάς": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a strap",
+    "indices": { "strongs": "G2438" },
+    "inflections": {
+      "ἱμάντα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2438" }
+        }
+      ],
+      "ἱμᾶσιν": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2438" }
+        }
+      ]
+    },
+    "transliterations": { "ἱμάντα": "himánta", "ἱμᾶσιν": "himâsin" }
+  },
+  "ἱματίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2439" },
+    "inflections": {
+      "ἱματισμένον": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2439" }
+        }
+      ]
+    },
+    "transliterations": { "ἱματισμένον": "himatisménon" }
+  },
+  "ἱμάτιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2440" },
+    "inflections": {
+      "ἱμάτια": [
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G2440" }
+        },
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2440" }
+        }
+      ],
+      "ἱμάτιά": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2440" }
+        }
+      ],
+      "ἱματίοις": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G2440" }
+        }
+      ],
+      "ἱμάτιον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2440" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2440" }
+        }
+      ],
+      "ἱμάτιόν": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2440" }
+        }
+      ],
+      "ἱματίου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G2440" }
+        }
+      ],
+      "ἱματίῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G2440" }
+        }
+      ],
+      "ἱματίων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G2440" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἱμάτια": "himátia",
+      "ἱμάτιά": "himátiá",
+      "ἱματίοις": "himatíois",
+      "ἱμάτιον": "himátion",
+      "ἱμάτιόν": "himátión",
+      "ἱματίου": "himatíou",
+      "ἱματίῳ": "himatíō",
+      "ἱματίων": "himatíōn"
+    }
+  },
+  "ἱματισμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2441" },
+    "inflections": {
+      "ἱματισμόν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2441" }
+        }
+      ],
+      "ἱματισμὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2441" }
+        }
+      ],
+      "ἱματισμοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2441" }
+        }
+      ],
+      "ἱματισμῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2441" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἱματισμόν": "himatismón",
+      "ἱματισμὸς": "himatismòs",
+      "ἱματισμοῦ": "himatismoû",
+      "ἱματισμῷ": "himatismō̂"
+    }
+  },
+  "ἵνα": {
+    "language": "greek",
+    "pos": "conj",
+    "shortDefinition": "so that/then, in order that",
+    "indices": { "strongs": "G2443" },
+    "inflections": {
+      "ἵνα": [{ "parse": ["conj"], "indices": { "strongs": "G2443" } }]
+    },
+    "transliterations": { "ἵνα": "hína" }
+  },
+  "Ἰόππη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2445" },
+    "inflections": {
+      "ἰόππῃ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2445" }
+        }
+      ],
+      "ἰόππην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2445" }
+        }
+      ],
+      "ἰόππης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2445" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰόππῃ": "ióppē",
+      "ἰόππην": "ióppēn",
+      "ἰόππης": "ióppēs"
+    }
+  },
+  "Ἰορδάνης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2446" },
+    "inflections": {
+      "ἰορδάνῃ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2446" }
+        }
+      ],
+      "ἰορδάνην": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2446" }
+        }
+      ],
+      "ἰορδάνου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2446" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰορδάνῃ": "iordánē",
+      "ἰορδάνην": "iordánēn",
+      "ἰορδάνου": "iordánou"
+    }
+  },
+  "ἰός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2447" },
+    "inflections": {
+      "ἰὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2447" }
+        }
+      ],
+      "ἰοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2447" }
+        }
+      ]
+    },
+    "transliterations": { "ἰὸς": "iòs", "ἰοῦ": "ioû" }
+  },
+  "Ἰουδαία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2449" },
+    "inflections": {
+      "ἰουδαία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2449" }
+        }
+      ],
+      "ἰουδαίᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2449" }
+        }
+      ],
+      "ἰουδαίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2449" }
+        }
+      ],
+      "ἰουδαίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2449" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰουδαία": "ioudaía",
+      "ἰουδαίᾳ": "ioudaía",
+      "ἰουδαίαν": "ioudaían",
+      "ἰουδαίας": "ioudaías"
+    }
+  },
+  "ἰουδαΐζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2450" },
+    "inflections": {
+      "ἰουδαΐζειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G2450" }
+        }
+      ]
+    },
+    "transliterations": { "ἰουδαΐζειν": "ioudaḯzein" }
+  },
+  "Ἰουδαϊκός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2451" },
+    "inflections": {
+      "ἰουδαϊκοῖς": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2451" }
+        }
+      ]
+    },
+    "transliterations": { "ἰουδαϊκοῖς": "ioudaïkoîs" }
+  },
+  "Ἰουδαϊκῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G2452" },
+    "inflections": {
+      "ἰουδαϊκῶς": [{ "parse": ["adv"], "indices": { "strongs": "G2452" } }]
+    },
+    "transliterations": { "ἰουδαϊκῶς": "ioudaïkō̂s" }
+  },
+  "Ἰουδαῖος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be Jewish",
+    "indices": { "strongs": "G2453" },
+    "inflections": {
+      "ἰουδαίᾳ": [
+        {
+          "parse": ["adj", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαίαν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαίας": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαῖοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2453" }
+        },
+        {
+          "parse": ["adj", "voc", "pl", "masc"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαῖοί": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαίοις": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαῖον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαῖος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαῖός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαίου": [
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαίους": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαίῳ": [
+        {
+          "parse": ["adj", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2453" }
+        }
+      ],
+      "ἰουδαίων": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2453" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰουδαίᾳ": "ioudaía",
+      "ἰουδαίαν": "ioudaían",
+      "ἰουδαίας": "ioudaías",
+      "ἰουδαῖοι": "ioudaîoi",
+      "ἰουδαῖοί": "ioudaîoí",
+      "ἰουδαίοις": "ioudaíois",
+      "ἰουδαῖον": "ioudaîon",
+      "ἰουδαῖος": "ioudaîos",
+      "ἰουδαῖός": "ioudaîós",
+      "ἰουδαίου": "ioudaíou",
+      "ἰουδαίους": "ioudaíous",
+      "ἰουδαίῳ": "ioudaíō",
+      "ἰουδαίων": "ioudaíōn"
+    }
+  },
+  "Ἰουδαϊσμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2454" },
+    "inflections": {
+      "ἰουδαϊσμῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2454" }
+        }
+      ]
+    },
+    "transliterations": { "ἰουδαϊσμῷ": "ioudaïsmō̂" }
+  },
+  "Ἰούδας": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Judah, Judas, Jude; lit. He Shall Be Praised",
+    "indices": { "strongs": ["G2448", "G2455"] },
+    "inflections": {
+      "ἰούδα": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2448" }
+        },
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G2455" }
+        }
+      ],
+      "ἰούδᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2455" }
+        }
+      ],
+      "ἰούδαν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2455" }
+        }
+      ],
+      "ἰούδας": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2455" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰούδα": "ioúda",
+      "ἰούδᾳ": "ioúda",
+      "ἰούδαν": "ioúdan",
+      "ἰούδας": "ioúdas"
+    }
+  },
+  "Ἰουλία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2456" },
+    "inflections": {
+      "ἰουλίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2456" }
+        }
+      ]
+    },
+    "transliterations": { "ἰουλίαν": "ioulían" }
+  },
+  "Ἰούλιος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2457" },
+    "inflections": {
+      "ἰούλιος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2457" }
+        }
+      ],
+      "ἰουλίῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2457" }
+        }
+      ]
+    },
+    "transliterations": { "ἰούλιος": "ioúlios", "ἰουλίῳ": "ioulíō" }
+  },
+  "Ἰουνία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2458" },
+    "inflections": {
+      "ἰουνίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2458" }
+        }
+      ]
+    },
+    "transliterations": { "ἰουνίαν": "iounían" }
+  },
+  "Ἰοῦστος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2459" },
+    "inflections": {
+      "ἰοῦστος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2459" }
+        }
+      ],
+      "ἰούστου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2459" }
+        }
+      ]
+    },
+    "transliterations": { "ἰοῦστος": "ioûstos", "ἰούστου": "ioústou" }
+  },
+  "ἱππεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2460" },
+    "inflections": {
+      "ἱππεῖς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2460" }
+        }
+      ]
+    },
+    "transliterations": { "ἱππεῖς": "hippeîs" }
+  },
+  "ἵππος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2462" },
+    "inflections": {
+      "ἵπποις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2462" }
+        }
+      ],
+      "ἵππος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2462" }
+        }
+      ],
+      "ἵππου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2462" }
+        }
+      ],
+      "ἵππους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2462" }
+        }
+      ],
+      "ἵππων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2462" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἵπποις": "híppois",
+      "ἵππος": "híppos",
+      "ἵππου": "híppou",
+      "ἵππους": "híppous",
+      "ἵππων": "híppōn"
+    }
+  },
+  "ἶρις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2463" },
+    "inflections": {
+      "ἶρις": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2463" }
+        }
+      ]
+    },
+    "transliterations": { "ἶρις": "îris" }
+  },
+  "Ἰσαάκ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Isaac; lit. Laughter, He will Laugh",
+    "indices": { "strongs": "G2464" },
+    "inflections": {
+      "ἰσαάκ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2464" }
+        }
+      ],
+      "ἰσαὰκ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2464" }
+        }
+      ]
+    },
+    "transliterations": { "ἰσαάκ": "isaák", "ἰσαὰκ": "isaàk" }
+  },
+  "ἰσάγγελος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2465" },
+    "inflections": {
+      "ἰσάγγελοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2465" }
+        }
+      ]
+    },
+    "transliterations": { "ἰσάγγελοι": "isángeloi" }
+  },
+  "Ἰσαχάρ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2466" },
+    "inflections": {
+      "ἰσαχάρ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2466" }
+        }
+      ]
+    },
+    "transliterations": { "ἰσαχάρ": "isachár" }
+  },
+  "Ἰσκαριώτης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2469" },
+    "inflections": {
+      "ἰσκαριώτῃ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2469" }
+        }
+      ],
+      "ἰσκαριώτην": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2469" }
+        }
+      ],
+      "ἰσκαριώτης": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2469" }
+        }
+      ],
+      "ἰσκαριώτου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2469" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰσκαριώτῃ": "iskariṓtē",
+      "ἰσκαριώτην": "iskariṓtēn",
+      "ἰσκαριώτης": "iskariṓtēs",
+      "ἰσκαριώτου": "iskariṓtou"
+    }
+  },
+  "ἴσος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be comparable",
+    "indices": { "strongs": "G2470" },
+    "inflections": {
+      "ἴσα": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2470" }
+        },
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G2470" }
+        }
+      ],
+      "ἶσα": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2470" }
+        }
+      ],
+      "ἴσαι": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G2470" }
+        }
+      ],
+      "ἴση": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2470" }
+        }
+      ],
+      "ἴσην": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2470" }
+        }
+      ],
+      "ἴσον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2470" }
+        }
+      ],
+      "ἴσους": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2470" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἴσα": "ísa",
+      "ἶσα": "îsa",
+      "ἴσαι": "ísai",
+      "ἴση": "ísē",
+      "ἴσην": "ísēn",
+      "ἴσον": "íson",
+      "ἴσους": "ísous"
+    }
+  },
+  "ἰσότης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2471" },
+    "inflections": {
+      "ἰσότης": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2471" }
+        }
+      ],
+      "ἰσότητα": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2471" }
+        }
+      ],
+      "ἰσότητος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2471" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰσότης": "isótēs",
+      "ἰσότητα": "isótēta",
+      "ἰσότητος": "isótētos"
+    }
+  },
+  "ἰσότιμος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2472" },
+    "inflections": {
+      "ἰσότιμον": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2472" }
+        }
+      ]
+    },
+    "transliterations": { "ἰσότιμον": "isótimon" }
+  },
+  "ἰσόψυχος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2473" },
+    "inflections": {
+      "ἰσόψυχον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2473" }
+        }
+      ]
+    },
+    "transliterations": { "ἰσόψυχον": "isópsychon" }
+  },
+  "Ἰσραήλ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Israel; lit. He Strives with God",
+    "indices": { "strongs": "G2474" },
+    "inflections": {
+      "ἰσραήλ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2474" }
+        }
+      ],
+      "ἰσραὴλ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2474" }
+        }
+      ]
+    },
+    "transliterations": { "ἰσραήλ": "israḗl", "ἰσραὴλ": "israḕl" }
+  },
+  "Ἰσραηλίτης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2475" },
+    "inflections": {
+      "ἰσραηλῖται": [
+        {
+          "parse": ["noun", "voc", "pl", "masc"],
+          "indices": { "strongs": "G2475" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2475" }
+        }
+      ],
+      "ἰσραηλῖταί": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2475" }
+        }
+      ],
+      "ἰσραηλίτης": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2475" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰσραηλῖται": "israēlîtai",
+      "ἰσραηλῖταί": "israēlîtaí",
+      "ἰσραηλίτης": "israēlítēs"
+    }
+  },
+  "ἵστημι": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to stand; fig. to settle",
+    "indices": { "strongs": "G2476" },
+    "inflections": {
+      "εἱστήκει": [
+        {
+          "parse": ["verb", "plup", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "εἱστήκεισαν": [
+        {
+          "parse": ["verb", "plup", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἐστάθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἐστάθην": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστάναι": [
+        {
+          "parse": ["verb", "perf", "act", "inf"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἔστη": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἕστηκα": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστήκαμεν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἕστηκας": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστήκασιν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστήκατε": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἕστηκεν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστηκὸς": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2476" }
+        },
+        {
+          "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστηκότες": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστηκότων": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστηκὼς": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἔστησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2476" }
+        },
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἔστησάν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἔστησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστώς": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστὼς": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστῶσαι": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "fem"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστῶτα": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2476" }
+        },
+        {
+          "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστῶτας": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστῶτες": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστῶτος": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἑστώτων": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἵστησιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "ἱστῶμεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "σταθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "σταθέντα": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "σταθέντες": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "σταθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "σταθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "σταθήσεσθε": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "σταθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στάντος": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στὰς": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στᾶσα": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στῆθι": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στῆναι": [
+        {
+          "parse": ["verb", "second", "aor", "act", "inf"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στήσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στήσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στήσῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στήσῃς": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στήσονται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2476" }
+        }
+      ],
+      "στῆτε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G2476" }
+        },
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G2476" }
+        }
+      ]
+    },
+    "transliterations": {
+      "εἱστήκει": "heistḗkei",
+      "εἱστήκεισαν": "heistḗkeisan",
+      "ἐστάθη": "estáthē",
+      "ἐστάθην": "estáthēn",
+      "ἑστάναι": "hestánai",
+      "ἔστη": "éstē",
+      "ἕστηκα": "héstēka",
+      "ἑστήκαμεν": "hestḗkamen",
+      "ἕστηκας": "héstēkas",
+      "ἑστήκασιν": "hestḗkasin",
+      "ἑστήκατε": "hestḗkate",
+      "ἕστηκεν": "héstēken",
+      "ἑστηκὸς": "hestēkòs",
+      "ἑστηκότες": "hestēkótes",
+      "ἑστηκότων": "hestēkótōn",
+      "ἑστηκὼς": "hestēkṑs",
+      "ἔστησαν": "éstēsan",
+      "ἔστησάν": "éstēsán",
+      "ἔστησεν": "éstēsen",
+      "ἑστώς": "hestṓs",
+      "ἑστὼς": "hestṑs",
+      "ἑστῶσαι": "hestō̂sai",
+      "ἑστῶτα": "hestō̂ta",
+      "ἑστῶτας": "hestō̂tas",
+      "ἑστῶτες": "hestō̂tes",
+      "ἑστῶτος": "hestō̂tos",
+      "ἑστώτων": "hestṓtōn",
+      "ἵστησιν": "hístēsin",
+      "ἱστῶμεν": "histō̂men",
+      "σταθεὶς": "statheìs",
+      "σταθέντα": "stathénta",
+      "σταθέντες": "stathéntes",
+      "σταθῇ": "stathē̂",
+      "σταθῆναι": "stathē̂nai",
+      "σταθήσεσθε": "stathḗsesthe",
+      "σταθήσεται": "stathḗsetai",
+      "στάντος": "stántos",
+      "στὰς": "stàs",
+      "στᾶσα": "stâsa",
+      "στῆθι": "stē̂thi",
+      "στῆναι": "stē̂nai",
+      "στῆσαι": "stē̂sai",
+      "στήσαντες": "stḗsantes",
+      "στήσει": "stḗsei",
+      "στήσῃ": "stḗsē",
+      "στήσῃς": "stḗsēs",
+      "στήσονται": "stḗsontai",
+      "στῆτε": "stē̂te"
+    }
+  },
+  "ἱστορέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2477" },
+    "inflections": {
+      "ἱστορῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G2477" }
+        }
+      ]
+    },
+    "transliterations": { "ἱστορῆσαι": "historē̂sai" }
+  },
+  "ἰσχυρός": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["ἰσχυρότερός", "ἰσχυρά", "ἰσχυρότερον"],
+    "shortDefinition": "to be able, capable",
+    "indices": { "strongs": "G2478" },
+    "inflections": {
+      "ἰσχυρά": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2478" }
+        },
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρᾷ": [
+        {
+          "parse": ["adj", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυραί": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρὰν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρᾶς": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυροί": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυροὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρόν": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρὸν": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρότεροι": [
+        {
+          "parse": ["adj", "comp", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρότερον": [
+        {
+          "parse": ["adj", "comp", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρότερος": [
+        {
+          "parse": ["adj", "comp", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρότερός": [
+        {
+          "parse": ["adj", "comp", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυροῦ": [
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2478" }
+        }
+      ],
+      "ἰσχυρῶν": [
+        {
+          "parse": ["adj", "gen", "pl", "fem"],
+          "indices": { "strongs": "G2478" }
+        },
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2478" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰσχυρά": "ischyrá",
+      "ἰσχυρᾷ": "ischyrâ",
+      "ἰσχυραί": "ischyraí",
+      "ἰσχυρὰν": "ischyràn",
+      "ἰσχυρᾶς": "ischyrâs",
+      "ἰσχυροί": "ischyroí",
+      "ἰσχυροὶ": "ischyroì",
+      "ἰσχυρόν": "ischyrón",
+      "ἰσχυρὸν": "ischyròn",
+      "ἰσχυρὸς": "ischyròs",
+      "ἰσχυρότεροι": "ischyróteroi",
+      "ἰσχυρότερον": "ischyróteron",
+      "ἰσχυρότερος": "ischyróteros",
+      "ἰσχυρότερός": "ischyróterós",
+      "ἰσχυροῦ": "ischyroû",
+      "ἰσχυρῶν": "ischyrō̂n"
+    }
+  },
+  "ἰσχύς": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an ability, capability; lit: forcefulness",
+    "indices": { "strongs": "G2479" },
+    "inflections": {
+      "ἰσχύϊ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2479" }
+        }
+      ],
+      "ἰσχὺν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2479" }
+        }
+      ],
+      "ἰσχύος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2479" }
+        }
+      ],
+      "ἰσχὺς": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2479" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰσχύϊ": "ischýï",
+      "ἰσχὺν": "ischỳn",
+      "ἰσχύος": "ischýos",
+      "ἰσχὺς": "ischỳs"
+    }
+  },
+  "ἰσχύω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to be able to, be capable of",
+    "indices": { "strongs": "G2480" },
+    "inflections": {
+      "ἰσχύει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἰσχύειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἴσχυεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἴσχυον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἰσχύοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἰσχύοντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἰσχύσαμεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἴσχυσαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἴσχυσας": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἰσχύσατε": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἴσχυσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἰσχύσουσιν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2480" }
+        }
+      ],
+      "ἰσχύω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2480" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰσχύει": "ischýei",
+      "ἰσχύειν": "ischýein",
+      "ἴσχυεν": "íschyen",
+      "ἴσχυον": "íschyon",
+      "ἰσχύοντες": "ischýontes",
+      "ἰσχύοντος": "ischýontos",
+      "ἰσχύσαμεν": "ischýsamen",
+      "ἴσχυσαν": "íschysan",
+      "ἴσχυσας": "íschysas",
+      "ἰσχύσατε": "ischýsate",
+      "ἴσχυσεν": "íschysen",
+      "ἰσχύσουσιν": "ischýsousin",
+      "ἰσχύω": "ischýō"
+    }
+  },
+  "ἴσως": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G2481" },
+    "inflections": {
+      "ἴσως": [{ "parse": ["adv"], "indices": { "strongs": "G2481" } }]
+    },
+    "transliterations": { "ἴσως": "ísōs" }
+  },
+  "Ἰταλία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2482" },
+    "inflections": {
+      "ἰταλίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2482" }
+        }
+      ],
+      "ἰταλίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2482" }
+        }
+      ]
+    },
+    "transliterations": { "ἰταλίαν": "italían", "ἰταλίας": "italías" }
+  },
+  "Ἰταλικός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2483" },
+    "inflections": {
+      "ἰταλικῆς": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2483" }
+        }
+      ]
+    },
+    "transliterations": { "ἰταλικῆς": "italikē̂s" }
+  },
+  "Ἰτουραῖος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2484" },
+    "inflections": {
+      "ἰτουραίας": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2484" }
+        }
+      ]
+    },
+    "transliterations": { "ἰτουραίας": "itouraías" }
+  },
+  "ἰχθύδιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2485" },
+    "inflections": {
+      "ἰχθύδια": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G2485" }
+        }
+      ]
+    },
+    "transliterations": { "ἰχθύδια": "ichthýdia" }
+  },
+  "ἰχθύς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2486" },
+    "inflections": {
+      "ἰχθύας": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2486" }
+        }
+      ],
+      "ἰχθύες": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2486" }
+        }
+      ],
+      "ἰχθύν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2486" }
+        }
+      ],
+      "ἰχθὺν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2486" }
+        }
+      ],
+      "ἰχθύος": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2486" }
+        }
+      ],
+      "ἰχθύων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2486" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰχθύας": "ichthýas",
+      "ἰχθύες": "ichthýes",
+      "ἰχθύν": "ichthýn",
+      "ἰχθὺν": "ichthỳn",
+      "ἰχθύος": "ichthýos",
+      "ἰχθύων": "ichthýōn"
+    }
+  },
+  "ἴχνος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2487" },
+    "inflections": {
+      "ἴχνεσιν": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G2487" }
+        }
+      ]
+    },
+    "transliterations": { "ἴχνεσιν": "íchnesin" }
+  },
+  "Ἰωάθαμ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Jotham; lit. YHWH/Yahweh/Jehovah Is Upright/Perfect",
+    "indices": { "strongs": "G2488" },
+    "inflections": {
+      "ἰωάθαμ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2488" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωάθαμ": "iōátham" }
+  },
+  "Ἰωανάν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2490" },
+    "inflections": {
+      "ἰωανάν": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2490" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωανάν": "iōanán" }
+  },
+  "Ἰωάννα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2489" },
+    "inflections": {
+      "ἰωάννα": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2489" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωάννα": "iōánna" }
+  },
+  "Ἰωάννης": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "John; lit. Jehovah Is a Gracious Giver",
+    "indices": { "strongs": "G2491" },
+    "inflections": {
+      "ἰωάννῃ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2491" }
+        }
+      ],
+      "ἰωάννην": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2491" }
+        }
+      ],
+      "ἰωάννης": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2491" }
+        }
+      ],
+      "ἰωάννου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2491" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἰωάννῃ": "iōánnē",
+      "ἰωάννην": "iōánnēn",
+      "ἰωάννης": "iōánnēs",
+      "ἰωάννου": "iōánnou"
+    }
+  },
+  "Ἰώβ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2492" },
+    "inflections": {
+      "ἰὼβ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2492" }
+        }
+      ]
+    },
+    "transliterations": { "ἰὼβ": "iṑb" }
+  },
+  "Ἰωήλ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2493" },
+    "inflections": {
+      "ἰωήλ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2493" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωήλ": "iōḗl" }
+  },
+  "Ἰωνάν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2494" },
+    "inflections": {
+      "ἰωνάν": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2494" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωνάν": "iōnán" }
+  },
+  "Ἰωνᾶς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2495" },
+    "inflections": {
+      "ἰωνᾶ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2495" }
+        }
+      ],
+      "ἰωνᾶς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2495" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωνᾶ": "iōnâ", "ἰωνᾶς": "iōnâs" }
+  },
+  "Ἰωράμ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Joram; lit. Exalted by YHWH/Yahwh/Jehovah",
+    "indices": { "strongs": "G2496" },
+    "inflections": {
+      "ἰωράμ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2496" }
+        }
+      ],
+      "ἰωρὰμ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2496" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωράμ": "iōrám", "ἰωρὰμ": "iōràm" }
+  },
+  "Ἰωρείμ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2497" },
+    "inflections": {
+      "ἰωρείμ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2497" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωρείμ": "iōreím" }
+  },
+  "Ἰωσαφάτ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Jehoshaphat; lit. Judged by YHWH/Yahwh/Jehovah",
+    "indices": { "strongs": "G2498" },
+    "inflections": {
+      "ἰωσαφάτ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2498" }
+        }
+      ],
+      "ἰωσαφὰτ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2498" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωσαφάτ": "iōsaphát", "ἰωσαφὰτ": "iōsaphàt" }
+  },
+  "Ἰωσῆς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": ["G2499", "G2500"] },
+    "inflections": {
+      "ἰωσή": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2499" }
+        }
+      ],
+      "ἰωσῆ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2499" }
+        }
+      ],
+      "ἰωσῆς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2500" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωσή": "iōsḗ", "ἰωσῆ": "iōsē̂", "ἰωσῆς": "iōsē̂s" }
+  },
+  "Ἰωσήφ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2501" },
+    "inflections": {
+      "ἰωσήφ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2501" }
+        }
+      ],
+      "ἰωσὴφ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2501" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωσήφ": "iōsḗph", "ἰωσὴφ": "iōsḕph" }
+  },
+  "Ἰωσίας": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Josiah; lit. Founded by YH/Yah/Jah",
+    "indices": { "strongs": "G2502" },
+    "inflections": {
+      "ἰωσίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2502" }
+        }
+      ],
+      "ἰωσίας": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2502" }
+        }
+      ]
+    },
+    "transliterations": { "ἰωσίαν": "iōsían", "ἰωσίας": "iōsías" }
+  },
+  "ἰῶτα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2503" },
+    "inflections": {
+      "ἰῶτα": [
+        {
+          "parse": ["noun", "indecl-letter"],
+          "indices": { "strongs": "G2503" }
+        }
+      ]
+    },
+    "transliterations": { "ἰῶτα": "iō̂ta" }
+  }
+}

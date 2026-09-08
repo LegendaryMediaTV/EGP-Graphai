@@ -1,0 +1,3217 @@
+{
+  "χαίρω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to rejoice; fig. to greet, hail",
+    "indices": { "strongs": "G5463" },
+    "inflections": {
+      "ἔχαιρεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "ἐχάρη": [
+        {
+          "parse": ["verb", "second", "aor", "pas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "ἐχάρημεν": [
+        {
+          "parse": ["verb", "second", "aor", "pas-dep", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "ἐχάρην": [
+        {
+          "parse": ["verb", "second", "aor", "pas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "ἐχάρησαν": [
+        {
+          "parse": ["verb", "second", "aor", "pas-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "ἐχάρητε": [
+        {
+          "parse": ["verb", "second", "aor", "pas-dep", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαῖρε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαίρει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαίρειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαίρετε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαίρῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαίρομεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαίροντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαιρόντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαίρουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαίρω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαίρωμεν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαίρων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαρῆναι": [
+        {
+          "parse": ["verb", "second", "aor", "pas-dep", "inf"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαρήσεται": [
+        {
+          "parse": ["verb", "second", "fut", "pas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαρήσομαι": [
+        {
+          "parse": ["verb", "second", "fut", "pas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαρήσονται": [
+        {
+          "parse": ["verb", "second", "fut", "pas-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χαρῆτε": [
+        {
+          "parse": ["verb", "second", "aor", "pas-dep", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G5463" }
+        }
+      ],
+      "χάρητε": [
+        {
+          "parse": ["verb", "second", "aor", "pas-dep", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5463" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔχαιρεν": "échairen",
+      "ἐχάρη": "echárē",
+      "ἐχάρημεν": "echárēmen",
+      "ἐχάρην": "echárēn",
+      "ἐχάρησαν": "echárēsan",
+      "ἐχάρητε": "echárēte",
+      "χαῖρε": "chaîre",
+      "χαίρει": "chaírei",
+      "χαίρειν": "chaírein",
+      "χαίρετε": "chaírete",
+      "χαίρῃ": "chaírē",
+      "χαίρομεν": "chaíromen",
+      "χαίροντες": "chaírontes",
+      "χαιρόντων": "chairóntōn",
+      "χαίρουσιν": "chaírousin",
+      "χαίρω": "chaírō",
+      "χαίρωμεν": "chaírōmen",
+      "χαίρων": "chaírōn",
+      "χαρῆναι": "charē̂nai",
+      "χαρήσεται": "charḗsetai",
+      "χαρήσομαι": "charḗsomai",
+      "χαρήσονται": "charḗsontai",
+      "χαρῆτε": "charē̂te",
+      "χάρητε": "chárēte"
+    }
+  },
+  "χάλαζα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5464" },
+    "inflections": {
+      "χάλαζα": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5464" }
+        }
+      ],
+      "χαλάζης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5464" }
+        }
+      ]
+    },
+    "transliterations": { "χάλαζα": "chálaza", "χαλάζης": "chalázēs" }
+  },
+  "χαλάω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5465" },
+    "inflections": {
+      "ἐχαλάσθην": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5465" }
+        }
+      ],
+      "χαλάσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5465" }
+        }
+      ],
+      "χαλασάντων": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5465" }
+        }
+      ],
+      "χαλάσατε": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5465" }
+        }
+      ],
+      "χαλάσω": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5465" }
+        }
+      ],
+      "χαλῶσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5465" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐχαλάσθην": "echalásthēn",
+      "χαλάσαντες": "chalásantes",
+      "χαλασάντων": "chalasántōn",
+      "χαλάσατε": "chalásate",
+      "χαλάσω": "chalásō",
+      "χαλῶσιν": "chalō̂sin"
+    }
+  },
+  "Χαλδαῖοι": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5466" },
+    "inflections": {
+      "χαλδαίων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5466" }
+        }
+      ]
+    },
+    "transliterations": { "χαλδαίων": "chaldaíōn" }
+  },
+  "χαλεπός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5467" },
+    "inflections": {
+      "χαλεποί": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5467" }
+        }
+      ],
+      "χαλεποὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5467" }
+        }
+      ]
+    },
+    "transliterations": { "χαλεποί": "chalepoí", "χαλεποὶ": "chalepoì" }
+  },
+  "χαλιναγωγέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5468" },
+    "inflections": {
+      "χαλιναγωγῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5468" }
+        }
+      ],
+      "χαλιναγωγῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5468" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χαλιναγωγῆσαι": "chalinagōgē̂sai",
+      "χαλιναγωγῶν": "chalinagōgō̂n"
+    }
+  },
+  "χαλινός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5469" },
+    "inflections": {
+      "χαλινοὺς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5469" }
+        }
+      ],
+      "χαλινῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5469" }
+        }
+      ]
+    },
+    "transliterations": { "χαλινοὺς": "chalinoùs", "χαλινῶν": "chalinō̂n" }
+  },
+  "χαλκεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5471" },
+    "inflections": {
+      "χαλκεὺς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5471" }
+        }
+      ]
+    },
+    "transliterations": { "χαλκεὺς": "chalkeùs" }
+  },
+  "χαλκηδών": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5472" },
+    "inflections": {
+      "χαλκηδών": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5472" }
+        }
+      ]
+    },
+    "transliterations": { "χαλκηδών": "chalkēdṓn" }
+  },
+  "χαλκίον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5473" },
+    "inflections": {
+      "χαλκίων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5473" }
+        }
+      ]
+    },
+    "transliterations": { "χαλκίων": "chalkíōn" }
+  },
+  "χαλκολίβανον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5474" },
+    "inflections": {
+      "χαλκολιβάνῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5474" }
+        }
+      ]
+    },
+    "transliterations": { "χαλκολιβάνῳ": "chalkolibánō" }
+  },
+  "χαλκός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5475" },
+    "inflections": {
+      "χαλκόν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5475" }
+        }
+      ],
+      "χαλκὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5475" }
+        }
+      ],
+      "χαλκὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5475" }
+        }
+      ],
+      "χαλκοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5475" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χαλκόν": "chalkón",
+      "χαλκὸν": "chalkòn",
+      "χαλκὸς": "chalkòs",
+      "χαλκοῦ": "chalkoû"
+    }
+  },
+  "χαλκοῦς": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5470" },
+    "inflections": {
+      "χαλκᾶ": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5470" }
+        }
+      ]
+    },
+    "transliterations": { "χαλκᾶ": "chalkâ" }
+  },
+  "χαμαί": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5476" },
+    "inflections": {
+      "χαμαί": [{ "parse": ["adv"], "indices": { "strongs": "G5476" } }]
+    },
+    "transliterations": { "χαμαί": "chamaí" }
+  },
+  "Χαναάν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5477" },
+    "inflections": {
+      "χαναάν": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5477" }
+        }
+      ]
+    },
+    "transliterations": { "χαναάν": "chanaán" }
+  },
+  "Χαναναῖος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5478" },
+    "inflections": {
+      "χαναναία": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5478" }
+        }
+      ]
+    },
+    "transliterations": { "χαναναία": "chananaía" }
+  },
+  "χαρά": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a joy, enthusiasm",
+    "indices": { "strongs": "G5479" },
+    "inflections": {
+      "χαρά": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5479" }
+        }
+      ],
+      "χαρὰ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5479" }
+        }
+      ],
+      "χαρᾷ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5479" }
+        }
+      ],
+      "χαράν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5479" }
+        }
+      ],
+      "χαρὰν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5479" }
+        }
+      ],
+      "χαρᾶς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5479" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χαρά": "chará",
+      "χαρὰ": "charà",
+      "χαρᾷ": "charâ",
+      "χαράν": "charán",
+      "χαρὰν": "charàn",
+      "χαρᾶς": "charâs"
+    }
+  },
+  "χάραγμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5480" },
+    "inflections": {
+      "χάραγμα": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5480" }
+        }
+      ],
+      "χαράγματα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5480" }
+        }
+      ],
+      "χαράγματι": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5480" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χάραγμα": "cháragma",
+      "χαράγματα": "charágmata",
+      "χαράγματι": "charágmati"
+    }
+  },
+  "χαρακτήρ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5481" },
+    "inflections": {
+      "χαρακτὴρ": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5481" }
+        }
+      ]
+    },
+    "transliterations": { "χαρακτὴρ": "charaktḕr" }
+  },
+  "χάραξ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5482" },
+    "inflections": {
+      "χάρακά": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5482" }
+        }
+      ]
+    },
+    "transliterations": { "χάρακά": "cháraká" }
+  },
+  "χαρίζομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to grant, fig: to forgive",
+    "indices": { "strongs": "G5483" },
+    "inflections": {
+      "ἐχαρίσατο": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "ἐχαρίσθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "κεχάρισμαι": [
+        {
+          "parse": ["verb", "perf", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "κεχάρισται": [
+        {
+          "parse": ["verb", "perf", "midpas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "κεχάρισταί": [
+        {
+          "parse": ["verb", "perf", "midpas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "χαρίζεσθαί": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "inf"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "χαρίζεσθε": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "χαριζόμενοι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "χαρισάμενος": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "χαρίσασθαι": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "inf"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "χαρίσασθέ": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "χαρίσεται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "χαρισθέντα": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "χαρισθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G5483" }
+        }
+      ],
+      "χαρισθήσομαι": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5483" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐχαρίσατο": "echarísato",
+      "ἐχαρίσθη": "echarísthē",
+      "κεχάρισμαι": "kechárismai",
+      "κεχάρισται": "kecháristai",
+      "κεχάρισταί": "kecháristaí",
+      "χαρίζεσθαί": "charízesthaí",
+      "χαρίζεσθε": "charízesthe",
+      "χαριζόμενοι": "charizómenoi",
+      "χαρισάμενος": "charisámenos",
+      "χαρίσασθαι": "charísasthai",
+      "χαρίσασθέ": "charísasthé",
+      "χαρίσεται": "charísetai",
+      "χαρισθέντα": "charisthénta",
+      "χαρισθῆναι": "charisthē̂nai",
+      "χαρισθήσομαι": "charisthḗsomai"
+    }
+  },
+  "χάριν": {
+    "language": "greek",
+    "pos": "prep",
+    "indices": { "strongs": "G5484" },
+    "inflections": {
+      "χάριν": [{ "parse": ["prep"], "indices": { "strongs": "G5484" } }]
+    },
+    "transliterations": { "χάριν": "chárin" }
+  },
+  "χάρις": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a grace; fig. thanks",
+    "indices": { "strongs": "G5485" },
+    "inflections": {
+      "χάριν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5485" }
+        }
+      ],
+      "χάρις": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5485" }
+        }
+      ],
+      "χάριτας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5485" }
+        }
+      ],
+      "χάριτι": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5485" }
+        }
+      ],
+      "χάριτί": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5485" }
+        }
+      ],
+      "χάριτος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5485" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χάριν": "chárin",
+      "χάρις": "cháris",
+      "χάριτας": "cháritas",
+      "χάριτι": "cháriti",
+      "χάριτί": "chárití",
+      "χάριτος": "cháritos"
+    }
+  },
+  "χάρισμα": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a grace-gift",
+    "indices": { "strongs": "G5486" },
+    "inflections": {
+      "χάρισμα": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5486" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5486" }
+        }
+      ],
+      "χαρίσματα": [
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5486" }
+        },
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5486" }
+        }
+      ],
+      "χαρίσματι": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5486" }
+        }
+      ],
+      "χαρίσματος": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5486" }
+        }
+      ],
+      "χαρισμάτων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5486" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χάρισμα": "chárisma",
+      "χαρίσματα": "charísmata",
+      "χαρίσματι": "charísmati",
+      "χαρίσματος": "charísmatos",
+      "χαρισμάτων": "charismátōn"
+    }
+  },
+  "χαριτόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5487" },
+    "inflections": {
+      "ἐχαρίτωσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5487" }
+        }
+      ],
+      "κεχαριτωμένη": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5487" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐχαρίτωσεν": "echarítōsen",
+      "κεχαριτωμένη": "kecharitōménē"
+    }
+  },
+  "Χαρράν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5488" },
+    "inflections": {
+      "χαρράν": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5488" }
+        }
+      ]
+    },
+    "transliterations": { "χαρράν": "charrán" }
+  },
+  "χάρτης": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a paper",
+    "indices": { "strongs": "G5489" },
+    "inflections": {
+      "χάρτου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5489" }
+        }
+      ]
+    },
+    "transliterations": { "χάρτου": "chártou" }
+  },
+  "χάσμα": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a chasm",
+    "indices": { "strongs": "G5490" },
+    "inflections": {
+      "χάσμα": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5490" }
+        }
+      ]
+    },
+    "transliterations": { "χάσμα": "chásma" }
+  },
+  "χεῖλος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5491" },
+    "inflections": {
+      "χείλεσιν": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5491" }
+        }
+      ],
+      "χείλεσίν": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5491" }
+        }
+      ],
+      "χειλέων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5491" }
+        }
+      ],
+      "χείλη": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5491" }
+        }
+      ],
+      "χεῖλος": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5491" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χείλεσιν": "cheílesin",
+      "χείλεσίν": "cheílesín",
+      "χειλέων": "cheiléōn",
+      "χείλη": "cheílē",
+      "χεῖλος": "cheîlos"
+    }
+  },
+  "χειμάζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5492" },
+    "inflections": {
+      "χειμαζομένων": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5492" }
+        }
+      ]
+    },
+    "transliterations": { "χειμαζομένων": "cheimazoménōn" }
+  },
+  "χειμάρρους": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5493" },
+    "inflections": {
+      "χειμάρρου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5493" }
+        }
+      ]
+    },
+    "transliterations": { "χειμάρρου": "cheimárrou" }
+  },
+  "χειμών": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a rainstorm; fig. a winter",
+    "indices": { "strongs": "G5494" },
+    "inflections": {
+      "χειμών": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5494" }
+        }
+      ],
+      "χειμὼν": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5494" }
+        }
+      ],
+      "χειμῶνος": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5494" }
+        }
+      ],
+      "χειμῶνός": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5494" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χειμών": "cheimṓn",
+      "χειμὼν": "cheimṑn",
+      "χειμῶνος": "cheimō̂nos",
+      "χειμῶνός": "cheimō̂nós"
+    }
+  },
+  "χείρ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a hand; fig. power",
+    "indices": { "strongs": "G5495" },
+    "inflections": {
+      "χείρ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χεὶρ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χεῖρα": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χεῖρά": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χεῖρας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χεῖράς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χεῖρες": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χειρί": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χειρὶ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χειρός": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χειρὸς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χειρῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χερσίν": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ],
+      "χερσὶν": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5495" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χείρ": "cheír",
+      "χεὶρ": "cheìr",
+      "χεῖρα": "cheîra",
+      "χεῖρά": "cheîrá",
+      "χεῖρας": "cheîras",
+      "χεῖράς": "cheîrás",
+      "χεῖρες": "cheîres",
+      "χειρί": "cheirí",
+      "χειρὶ": "cheirì",
+      "χειρός": "cheirós",
+      "χειρὸς": "cheiròs",
+      "χειρῶν": "cheirō̂n",
+      "χερσίν": "chersín",
+      "χερσὶν": "chersìn"
+    }
+  },
+  "χειραγωγέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5496" },
+    "inflections": {
+      "χειραγωγούμενος": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5496" }
+        }
+      ],
+      "χειραγωγοῦντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5496" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χειραγωγούμενος": "cheiragōgoúmenos",
+      "χειραγωγοῦντες": "cheiragōgoûntes"
+    }
+  },
+  "χειραγωγός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5497" },
+    "inflections": {
+      "χειραγωγούς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5497" }
+        }
+      ]
+    },
+    "transliterations": { "χειραγωγούς": "cheiragōgoús" }
+  },
+  "χειρόγραφον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5498" },
+    "inflections": {
+      "χειρόγραφον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5498" }
+        }
+      ]
+    },
+    "transliterations": { "χειρόγραφον": "cheirógraphon" }
+  },
+  "χειροποίητος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5499" },
+    "inflections": {
+      "χειροποίητα": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5499" }
+        }
+      ],
+      "χειροποιήτοις": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5499" }
+        }
+      ],
+      "χειροποίητον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5499" }
+        }
+      ],
+      "χειροποιήτου": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5499" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χειροποίητα": "cheiropoíēta",
+      "χειροποιήτοις": "cheiropoiḗtois",
+      "χειροποίητον": "cheiropoíēton",
+      "χειροποιήτου": "cheiropoiḗtou"
+    }
+  },
+  "χειροτονέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5500" },
+    "inflections": {
+      "χειροτονηθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5500" }
+        }
+      ],
+      "χειροτονήσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5500" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χειροτονηθεὶς": "cheirotonētheìs",
+      "χειροτονήσαντες": "cheirotonḗsantes"
+    }
+  },
+  "χείρων": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["χείρων", "χείρων", "χεῖρον"],
+    "indices": { "strongs": "G5501" },
+    "inflections": {
+      "χεῖρον": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5501" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5501" }
+        }
+      ],
+      "χεῖρόν": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5501" }
+        }
+      ],
+      "χείρονα": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5501" }
+        }
+      ],
+      "χείρονος": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5501" }
+        }
+      ],
+      "χείρων": [
+        {
+          "parse": ["adj", "comp", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5501" }
+        },
+        {
+          "parse": ["adj", "comp", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5501" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χεῖρον": "cheîron",
+      "χεῖρόν": "cheîrón",
+      "χείρονα": "cheírona",
+      "χείρονος": "cheíronos",
+      "χείρων": "cheírōn"
+    }
+  },
+  "Χερουβίμ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5502" },
+    "inflections": {
+      "χερουβὶμ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5502" }
+        }
+      ]
+    },
+    "transliterations": { "χερουβὶμ": "cheroubìm" }
+  },
+  "χήρα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5503" },
+    "inflections": {
+      "χήρα": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5503" }
+        }
+      ],
+      "χῆραι": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5503" }
+        }
+      ],
+      "χήραις": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5503" }
+        }
+      ],
+      "χήραν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5503" }
+        }
+      ],
+      "χήρας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5503" }
+        }
+      ],
+      "χηρῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5503" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χήρα": "chḗra",
+      "χῆραι": "chē̂rai",
+      "χήραις": "chḗrais",
+      "χήραν": "chḗran",
+      "χήρας": "chḗras",
+      "χηρῶν": "chērō̂n"
+    }
+  },
+  "χθές": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5504" },
+    "inflections": {
+      "χθὲς": [{ "parse": ["adv"], "indices": { "strongs": "G5504" } }]
+    },
+    "transliterations": { "χθὲς": "chthès" }
+  },
+  "χιλίαρχος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5506" },
+    "inflections": {
+      "χιλίαρχοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5506" }
+        }
+      ],
+      "χιλιάρχοις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5506" }
+        }
+      ],
+      "χιλίαρχον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5506" }
+        }
+      ],
+      "χιλίαρχος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5506" }
+        }
+      ],
+      "χιλιάρχῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5506" }
+        }
+      ],
+      "χιλιάρχων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5506" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χιλίαρχοι": "chilíarchoi",
+      "χιλιάρχοις": "chiliárchois",
+      "χιλίαρχον": "chilíarchon",
+      "χιλίαρχος": "chilíarchos",
+      "χιλιάρχῳ": "chiliárchō",
+      "χιλιάρχων": "chiliárchōn"
+    }
+  },
+  "χιλιάς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5505" },
+    "inflections": {
+      "χιλιάδες": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5505" }
+        }
+      ],
+      "χιλιάδων": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5505" }
+        }
+      ],
+      "χιλιάσιν": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5505" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χιλιάδες": "chiliádes",
+      "χιλιάδων": "chiliádōn",
+      "χιλιάσιν": "chiliásin"
+    }
+  },
+  "χίλιοι": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5507" },
+    "inflections": {
+      "χίλια": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5507" }
+        },
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5507" }
+        }
+      ],
+      "χιλίας": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5507" }
+        }
+      ],
+      "χιλίων": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5507" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χίλια": "chília",
+      "χιλίας": "chilías",
+      "χιλίων": "chilíōn"
+    }
+  },
+  "Χίος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5508" },
+    "inflections": {
+      "χίου": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5508" }
+        }
+      ]
+    },
+    "transliterations": { "χίου": "chíou" }
+  },
+  "χιτών": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5509" },
+    "inflections": {
+      "χιτὼν": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5509" }
+        }
+      ],
+      "χιτῶνα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5509" }
+        }
+      ],
+      "χιτῶνά": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5509" }
+        }
+      ],
+      "χιτῶνας": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5509" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χιτὼν": "chitṑn",
+      "χιτῶνα": "chitō̂na",
+      "χιτῶνά": "chitō̂ná",
+      "χιτῶνας": "chitō̂nas"
+    }
+  },
+  "χιών": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5510" },
+    "inflections": {
+      "χιών": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5510" }
+        }
+      ]
+    },
+    "transliterations": { "χιών": "chiṓn" }
+  },
+  "χλαμύς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5511" },
+    "inflections": {
+      "χλαμύδα": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5511" }
+        }
+      ]
+    },
+    "transliterations": { "χλαμύδα": "chlamýda" }
+  },
+  "χλευάζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5512" },
+    "inflections": {
+      "ἐχλεύαζον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5512" }
+        }
+      ],
+      "χλευάζοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5512" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐχλεύαζον": "echleúazon",
+      "χλευάζοντες": "chleuázontes"
+    }
+  },
+  "χλιαρός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5513" },
+    "inflections": {
+      "χλιαρὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5513" }
+        }
+      ]
+    },
+    "transliterations": { "χλιαρὸς": "chliaròs" }
+  },
+  "χλόη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5514" },
+    "inflections": {
+      "χλόης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5514" }
+        }
+      ]
+    },
+    "transliterations": { "χλόης": "chlóēs" }
+  },
+  "χλωρός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5515" },
+    "inflections": {
+      "χλωρόν": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5515" }
+        }
+      ],
+      "χλωρός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5515" }
+        }
+      ],
+      "χλωρὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5515" }
+        }
+      ],
+      "χλωρῷ": [
+        {
+          "parse": ["adj", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5515" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χλωρόν": "chlōrón",
+      "χλωρός": "chlōrós",
+      "χλωρὸς": "chlōròs",
+      "χλωρῷ": "chlōrō̂"
+    }
+  },
+  "χοϊκός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5517" },
+    "inflections": {
+      "χοϊκοί": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5517" }
+        }
+      ],
+      "χοϊκός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5517" }
+        }
+      ],
+      "χοϊκοῦ": [
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5517" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χοϊκοί": "choïkoí",
+      "χοϊκός": "choïkós",
+      "χοϊκοῦ": "choïkoû"
+    }
+  },
+  "χοῖνιξ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5518" },
+    "inflections": {
+      "χοίνικες": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5518" }
+        }
+      ],
+      "χοῖνιξ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5518" }
+        }
+      ]
+    },
+    "transliterations": { "χοίνικες": "choínikes", "χοῖνιξ": "choînix" }
+  },
+  "χοῖρος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5519" },
+    "inflections": {
+      "χοῖροι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5519" }
+        }
+      ],
+      "χοίρους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5519" }
+        }
+      ],
+      "χοίρων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5519" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χοῖροι": "choîroi",
+      "χοίρους": "choírous",
+      "χοίρων": "choírōn"
+    }
+  },
+  "χολάω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5520" },
+    "inflections": {
+      "χολᾶτε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5520" }
+        }
+      ]
+    },
+    "transliterations": { "χολᾶτε": "cholâte" }
+  },
+  "χολή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5521" },
+    "inflections": {
+      "χολὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5521" }
+        }
+      ],
+      "χολῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5521" }
+        }
+      ]
+    },
+    "transliterations": { "χολὴν": "cholḕn", "χολῆς": "cholē̂s" }
+  },
+  "Χοραζίν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5523" },
+    "inflections": {
+      "χοραζίν": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5523" }
+        }
+      ]
+    },
+    "transliterations": { "χοραζίν": "chorazín" }
+  },
+  "χορηγέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5524" },
+    "inflections": {
+      "χορηγεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5524" }
+        }
+      ],
+      "χορηγήσαι": [
+        {
+          "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"],
+          "indices": { "strongs": "G5524" }
+        }
+      ]
+    },
+    "transliterations": { "χορηγεῖ": "chorēgeî", "χορηγήσαι": "chorēgḗsai" }
+  },
+  "χορός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5525" },
+    "inflections": {
+      "χορῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5525" }
+        }
+      ]
+    },
+    "transliterations": { "χορῶν": "chorō̂n" }
+  },
+  "χορτάζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5526" },
+    "inflections": {
+      "ἐχορτάσθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5526" }
+        }
+      ],
+      "ἐχορτάσθητε": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5526" }
+        }
+      ],
+      "χορτάζεσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G5526" }
+        }
+      ],
+      "χορτάζεσθε": [
+        {
+          "parse": ["verb", "pres", "pas", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5526" }
+        }
+      ],
+      "χορτάσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5526" }
+        }
+      ],
+      "χορτασθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G5526" }
+        }
+      ],
+      "χορτασθήσεσθε": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5526" }
+        }
+      ],
+      "χορτασθήσονται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5526" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐχορτάσθησαν": "echortásthēsan",
+      "ἐχορτάσθητε": "echortásthēte",
+      "χορτάζεσθαι": "chortázesthai",
+      "χορτάζεσθε": "chortázesthe",
+      "χορτάσαι": "chortásai",
+      "χορτασθῆναι": "chortasthē̂nai",
+      "χορτασθήσεσθε": "chortasthḗsesthe",
+      "χορτασθήσονται": "chortasthḗsontai"
+    }
+  },
+  "χόρτασμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5527" },
+    "inflections": {
+      "χορτάσματα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5527" }
+        }
+      ]
+    },
+    "transliterations": { "χορτάσματα": "chortásmata" }
+  },
+  "χόρτος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5528" },
+    "inflections": {
+      "χόρτον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5528" }
+        }
+      ],
+      "χόρτος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5528" }
+        }
+      ],
+      "χόρτου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5528" }
+        }
+      ],
+      "χόρτους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5528" }
+        }
+      ],
+      "χόρτῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5528" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χόρτον": "chórton",
+      "χόρτος": "chórtos",
+      "χόρτου": "chórtou",
+      "χόρτους": "chórtous",
+      "χόρτῳ": "chórtō"
+    }
+  },
+  "Χουζᾶς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5529" },
+    "inflections": {
+      "χουζᾶ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5529" }
+        }
+      ]
+    },
+    "transliterations": { "χουζᾶ": "chouzâ" }
+  },
+  "χοῦς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5522" },
+    "inflections": {
+      "χοῦν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5522" }
+        }
+      ]
+    },
+    "transliterations": { "χοῦν": "choûn" }
+  },
+  "χράομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to use",
+    "indices": { "strongs": "G5530" },
+    "inflections": {
+      "ἐχρησάμεθα": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5530" }
+        }
+      ],
+      "ἐχρησάμην": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5530" }
+        }
+      ],
+      "ἐχρῶντο": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5530" }
+        }
+      ],
+      "χρῆσαι": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5530" }
+        }
+      ],
+      "χρησάμενος": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5530" }
+        }
+      ],
+      "χρήσωμαι": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G5530" }
+        }
+      ],
+      "χρῆται": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5530" }
+        }
+      ],
+      "χρῶ": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5530" }
+        }
+      ],
+      "χρώμεθα": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5530" }
+        }
+      ],
+      "χρώμενοι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5530" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐχρησάμεθα": "echrēsámetha",
+      "ἐχρησάμην": "echrēsámēn",
+      "ἐχρῶντο": "echrō̂nto",
+      "χρῆσαι": "chrē̂sai",
+      "χρησάμενος": "chrēsámenos",
+      "χρήσωμαι": "chrḗsōmai",
+      "χρῆται": "chrē̂tai",
+      "χρῶ": "chrō̂",
+      "χρώμεθα": "chrṓmetha",
+      "χρώμενοι": "chrṓmenoi"
+    }
+  },
+  "χρεία": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a need, necessity",
+    "indices": { "strongs": "G5532" },
+    "inflections": {
+      "χρεία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5532" }
+        }
+      ],
+      "χρείαις": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5532" }
+        }
+      ],
+      "χρείαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5532" }
+        }
+      ],
+      "χρείας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5532" }
+        },
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5532" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρεία": "chreía",
+      "χρείαις": "chreíais",
+      "χρείαν": "chreían",
+      "χρείας": "chreías"
+    }
+  },
+  "χρεωφειλέτης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5533" },
+    "inflections": {
+      "χρεωφειλέται": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5533" }
+        }
+      ],
+      "χρεωφειλετῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5533" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρεωφειλέται": "chreōpheilétai",
+      "χρεωφειλετῶν": "chreōpheiletō̂n"
+    }
+  },
+  "χρή": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to need to",
+    "indices": { "strongs": "G5534" },
+    "inflections": {
+      "χρή": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5534" }
+        }
+      ]
+    },
+    "transliterations": { "χρή": "chrḗ" }
+  },
+  "χρῄζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5535" },
+    "inflections": {
+      "χρῄζει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5535" }
+        }
+      ],
+      "χρῄζετε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5535" }
+        }
+      ],
+      "χρῄζῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5535" }
+        }
+      ],
+      "χρῄζομεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5535" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρῄζει": "chrḗzei",
+      "χρῄζετε": "chrḗzete",
+      "χρῄζῃ": "chrḗzē",
+      "χρῄζομεν": "chrḗzomen"
+    }
+  },
+  "χρῆμα": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a wealth",
+    "indices": { "strongs": "G5536" },
+    "inflections": {
+      "χρῆμα": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5536" }
+        }
+      ],
+      "χρήμασιν": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5536" }
+        }
+      ],
+      "χρήματα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5536" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5536" }
+        }
+      ],
+      "χρημάτων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5536" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρῆμα": "chrē̂ma",
+      "χρήμασιν": "chrḗmasin",
+      "χρήματα": "chrḗmata",
+      "χρημάτων": "chrēmátōn"
+    }
+  },
+  "χρηματίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to divinely instruct",
+    "indices": { "strongs": "G5537" },
+    "inflections": {
+      "ἐχρηματίσθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5537" }
+        }
+      ],
+      "κεχρηματισμένον": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5537" }
+        }
+      ],
+      "κεχρημάτισται": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5537" }
+        }
+      ],
+      "χρηματίζοντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5537" }
+        }
+      ],
+      "χρηματίσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5537" }
+        }
+      ],
+      "χρηματίσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5537" }
+        }
+      ],
+      "χρηματισθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5537" }
+        }
+      ],
+      "χρηματισθέντες": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5537" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐχρηματίσθη": "echrēmatísthē",
+      "κεχρηματισμένον": "kechrēmatisménon",
+      "κεχρημάτισται": "kechrēmátistai",
+      "χρηματίζοντα": "chrēmatízonta",
+      "χρηματίσαι": "chrēmatísai",
+      "χρηματίσει": "chrēmatísei",
+      "χρηματισθεὶς": "chrēmatistheìs",
+      "χρηματισθέντες": "chrēmatisthéntes"
+    }
+  },
+  "χρηματισμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5538" },
+    "inflections": {
+      "χρηματισμός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5538" }
+        }
+      ]
+    },
+    "transliterations": { "χρηματισμός": "chrēmatismós" }
+  },
+  "χρήσιμος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5539" },
+    "inflections": {
+      "χρήσιμον": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5539" }
+        }
+      ]
+    },
+    "transliterations": { "χρήσιμον": "chrḗsimon" }
+  },
+  "χρῆσις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5540" },
+    "inflections": {
+      "χρῆσιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5540" }
+        }
+      ]
+    },
+    "transliterations": { "χρῆσιν": "chrē̂sin" }
+  },
+  "χρηστεύομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5541" },
+    "inflections": {
+      "χρηστεύεται": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5541" }
+        }
+      ]
+    },
+    "transliterations": { "χρηστεύεται": "chrēsteúetai" }
+  },
+  "χρηστολογία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5542" },
+    "inflections": {
+      "χρηστολογίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5542" }
+        }
+      ]
+    },
+    "transliterations": { "χρηστολογίας": "chrēstologías" }
+  },
+  "χρηστός": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["χρηστός", "χρηστόν"],
+    "indices": { "strongs": "G5543" },
+    "inflections": {
+      "χρηστὰ": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5543" }
+        }
+      ],
+      "χρηστοί": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5543" }
+        }
+      ],
+      "χρηστὸν": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5543" }
+        }
+      ],
+      "χρηστός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5543" }
+        }
+      ],
+      "χρηστὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5543" }
+        }
+      ],
+      "χρηστότερός": [
+        {
+          "parse": ["adj", "comp", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5543" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρηστὰ": "chrēstà",
+      "χρηστοί": "chrēstoí",
+      "χρηστὸν": "chrēstòn",
+      "χρηστός": "chrēstós",
+      "χρηστὸς": "chrēstòs",
+      "χρηστότερός": "chrēstóterós"
+    }
+  },
+  "χρηστότης": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a kindness",
+    "indices": { "strongs": "G5544" },
+    "inflections": {
+      "χρηστότης": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5544" }
+        }
+      ],
+      "χρηστότητα": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5544" }
+        }
+      ],
+      "χρηστότητι": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5544" }
+        }
+      ],
+      "χρηστότητος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5544" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρηστότης": "chrēstótēs",
+      "χρηστότητα": "chrēstótēta",
+      "χρηστότητι": "chrēstótēti",
+      "χρηστότητος": "chrēstótētos"
+    }
+  },
+  "χρίσμα": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an anointing; fig. an appointment, delegation",
+    "indices": { "strongs": "G5545" },
+    "inflections": {
+      "χρίσμα": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5545" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5545" }
+        }
+      ]
+    },
+    "transliterations": { "χρίσμα": "chrísma" }
+  },
+  "Χριστιανός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5546" },
+    "inflections": {
+      "χριστιανὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5546" }
+        }
+      ],
+      "χριστιανός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5546" }
+        }
+      ],
+      "χριστιανούς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5546" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χριστιανὸν": "christianòn",
+      "χριστιανός": "christianós",
+      "χριστιανούς": "christianoús"
+    }
+  },
+  "Χριστός": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "the Christ; lit. an anointed person/thing; fig. an appointed person/thing",
+    "indices": { "strongs": "G5547" },
+    "inflections": {
+      "χριστέ": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G5547" }
+        }
+      ],
+      "χριστόν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5547" }
+        }
+      ],
+      "χριστὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5547" }
+        }
+      ],
+      "χριστός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5547" }
+        }
+      ],
+      "χριστὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5547" }
+        }
+      ],
+      "χριστοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5547" }
+        }
+      ],
+      "χριστῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5547" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χριστέ": "christé",
+      "χριστόν": "christón",
+      "χριστὸν": "christòn",
+      "χριστός": "christós",
+      "χριστὸς": "christòs",
+      "χριστοῦ": "christoû",
+      "χριστῷ": "christō̂"
+    }
+  },
+  "χρίω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to anoint; fig. to appoint, delegate",
+    "indices": { "strongs": "G5548" },
+    "inflections": {
+      "ἔχρισας": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5548" }
+        }
+      ],
+      "ἔχρισεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5548" }
+        }
+      ],
+      "ἔχρισέν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5548" }
+        }
+      ],
+      "χρίσας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5548" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔχρισας": "échrisas",
+      "ἔχρισεν": "échrisen",
+      "ἔχρισέν": "échrisén",
+      "χρίσας": "chrísas"
+    }
+  },
+  "χρονίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5549" },
+    "inflections": {
+      "χρονιεῖ": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5549" }
+        }
+      ],
+      "χρονίζει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5549" }
+        }
+      ],
+      "χρονίζειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5549" }
+        }
+      ],
+      "χρονίζοντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5549" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρονιεῖ": "chronieî",
+      "χρονίζει": "chronízei",
+      "χρονίζειν": "chronízein",
+      "χρονίζοντος": "chronízontos"
+    }
+  },
+  "χρόνος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a time",
+    "indices": { "strongs": "G5550" },
+    "inflections": {
+      "χρόνοις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5550" }
+        }
+      ],
+      "χρόνον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5550" }
+        }
+      ],
+      "χρόνος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5550" }
+        }
+      ],
+      "χρόνου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5550" }
+        }
+      ],
+      "χρόνους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5550" }
+        }
+      ],
+      "χρόνῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5550" }
+        }
+      ],
+      "χρόνων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5550" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρόνοις": "chrónois",
+      "χρόνον": "chrónon",
+      "χρόνος": "chrónos",
+      "χρόνου": "chrónou",
+      "χρόνους": "chrónous",
+      "χρόνῳ": "chrónō",
+      "χρόνων": "chrónōn"
+    }
+  },
+  "χρονοτριβέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5551" },
+    "inflections": {
+      "χρονοτριβῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5551" }
+        }
+      ]
+    },
+    "transliterations": { "χρονοτριβῆσαι": "chronotribē̂sai" }
+  },
+  "χρυσίον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5553" },
+    "inflections": {
+      "χρυσίον": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5553" }
+        },
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5553" }
+        }
+      ],
+      "χρυσίου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5553" }
+        }
+      ],
+      "χρυσίῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5553" }
+        }
+      ],
+      "χρυσίων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5553" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρυσίον": "chrysíon",
+      "χρυσίου": "chrysíou",
+      "χρυσίῳ": "chrysíō",
+      "χρυσίων": "chrysíōn"
+    }
+  },
+  "χρυσοδακτύλιος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5554" },
+    "inflections": {
+      "χρυσοδακτύλιος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5554" }
+        }
+      ]
+    },
+    "transliterations": { "χρυσοδακτύλιος": "chrysodaktýlios" }
+  },
+  "χρυσόλιθος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5555" },
+    "inflections": {
+      "χρυσόλιθος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5555" }
+        }
+      ]
+    },
+    "transliterations": { "χρυσόλιθος": "chrysólithos" }
+  },
+  "χρυσόπρασος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5556" },
+    "inflections": {
+      "χρυσόπρασος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5556" }
+        }
+      ]
+    },
+    "transliterations": { "χρυσόπρασος": "chrysóprasos" }
+  },
+  "χρυσός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5557" },
+    "inflections": {
+      "χρυσόν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5557" }
+        }
+      ],
+      "χρυσὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5557" }
+        }
+      ],
+      "χρυσός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5557" }
+        }
+      ],
+      "χρυσὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5557" }
+        }
+      ],
+      "χρυσοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5557" }
+        }
+      ],
+      "χρυσῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5557" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρυσόν": "chrysón",
+      "χρυσὸν": "chrysòn",
+      "χρυσός": "chrysós",
+      "χρυσὸς": "chrysòs",
+      "χρυσοῦ": "chrysoû",
+      "χρυσῷ": "chrysō̂"
+    }
+  },
+  "χρυσοῦς": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5552" },
+    "inflections": {
+      "χρυσᾶ": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5552" }
+        },
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5552" }
+        }
+      ],
+      "χρυσᾶς": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5552" }
+        }
+      ],
+      "χρυσῆ": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5552" }
+        }
+      ],
+      "χρυσῆν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5552" }
+        }
+      ],
+      "χρυσοῖ": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5552" }
+        }
+      ],
+      "χρυσοῦ": [
+        {
+          "parse": ["adj", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5552" }
+        }
+      ],
+      "χρυσοῦν": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5552" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5552" }
+        }
+      ],
+      "χρυσοῦς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5552" }
+        }
+      ],
+      "χρυσῶν": [
+        {
+          "parse": ["adj", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5552" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χρυσᾶ": "chrysâ",
+      "χρυσᾶς": "chrysâs",
+      "χρυσῆ": "chrysē̂",
+      "χρυσῆν": "chrysē̂n",
+      "χρυσοῖ": "chrysoî",
+      "χρυσοῦ": "chrysoû",
+      "χρυσοῦν": "chrysoûn",
+      "χρυσοῦς": "chrysoûs",
+      "χρυσῶν": "chrysō̂n"
+    }
+  },
+  "χρυσόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5558" },
+    "inflections": {
+      "κεχρυσωμένη": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5558" }
+        }
+      ]
+    },
+    "transliterations": { "κεχρυσωμένη": "kechrysōménē" }
+  },
+  "χρώς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5559" },
+    "inflections": {
+      "χρωτὸς": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5559" }
+        }
+      ]
+    },
+    "transliterations": { "χρωτὸς": "chrōtòs" }
+  },
+  "χωλός": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["χωλός", "χωλόν"],
+    "indices": { "strongs": "G5560" },
+    "inflections": {
+      "χωλοὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5560" }
+        }
+      ],
+      "χωλόν": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5560" }
+        }
+      ],
+      "χωλὸν": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5560" }
+        },
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5560" }
+        }
+      ],
+      "χωλὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5560" }
+        }
+      ],
+      "χωλοῦ": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5560" }
+        }
+      ],
+      "χωλούς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5560" }
+        }
+      ],
+      "χωλοὺς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5560" }
+        }
+      ],
+      "χωλῶν": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5560" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χωλοὶ": "chōloì",
+      "χωλόν": "chōlón",
+      "χωλὸν": "chōlòn",
+      "χωλὸς": "chōlòs",
+      "χωλοῦ": "chōloû",
+      "χωλούς": "chōloús",
+      "χωλοὺς": "chōloùs",
+      "χωλῶν": "chōlō̂n"
+    }
+  },
+  "χώρα": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an area, space, room",
+    "indices": { "strongs": "G5561" },
+    "inflections": {
+      "χώρα": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5561" }
+        }
+      ],
+      "χώρᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5561" }
+        }
+      ],
+      "χώραις": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5561" }
+        }
+      ],
+      "χώραν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5561" }
+        }
+      ],
+      "χώρας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5561" }
+        },
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5561" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χώρα": "chṓra",
+      "χώρᾳ": "chṓra",
+      "χώραις": "chṓrais",
+      "χώραν": "chṓran",
+      "χώρας": "chṓras"
+    }
+  },
+  "χωρέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to make space/room; fig. to receive",
+    "indices": { "strongs": "G5562" },
+    "inflections": {
+      "χωρεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5562" }
+        }
+      ],
+      "χωρεῖν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5562" }
+        }
+      ],
+      "χωρείτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G5562" }
+        }
+      ],
+      "χωρῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5562" }
+        }
+      ],
+      "χωρήσατε": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5562" }
+        }
+      ],
+      "χωροῦσαι": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5562" }
+        }
+      ],
+      "χωροῦσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5562" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χωρεῖ": "chōreî",
+      "χωρεῖν": "chōreîn",
+      "χωρείτω": "chōreítō",
+      "χωρῆσαι": "chōrē̂sai",
+      "χωρήσατε": "chōrḗsate",
+      "χωροῦσαι": "chōroûsai",
+      "χωροῦσιν": "chōroûsin"
+    }
+  },
+  "χωρίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5563" },
+    "inflections": {
+      "ἐχωρίσθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5563" }
+        }
+      ],
+      "κεχωρισμένος": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5563" }
+        }
+      ],
+      "χωρίζεσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G5563" }
+        }
+      ],
+      "χωριζέσθω": [
+        {
+          "parse": ["verb", "pres", "pas", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G5563" }
+        }
+      ],
+      "χωρίζεται": [
+        {
+          "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5563" }
+        }
+      ],
+      "χωριζέτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G5563" }
+        }
+      ],
+      "χωρίσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5563" }
+        }
+      ],
+      "χωρίσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5563" }
+        }
+      ],
+      "χωρισθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5563" }
+        }
+      ],
+      "χωρισθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5563" }
+        }
+      ],
+      "χωρισθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G5563" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐχωρίσθη": "echōrísthē",
+      "κεχωρισμένος": "kechōrisménos",
+      "χωρίζεσθαι": "chōrízesthai",
+      "χωριζέσθω": "chōrizésthō",
+      "χωρίζεται": "chōrízetai",
+      "χωριζέτω": "chōrizétō",
+      "χωρίσαι": "chōrísai",
+      "χωρίσει": "chōrísei",
+      "χωρισθεὶς": "chōristheìs",
+      "χωρισθῇ": "chōristhē̂",
+      "χωρισθῆναι": "chōristhē̂nai"
+    }
+  },
+  "χωρίον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5564" },
+    "inflections": {
+      "χωρία": [
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5564" }
+        }
+      ],
+      "χωρίον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5564" }
+        }
+      ],
+      "χωρίου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5564" }
+        }
+      ],
+      "χωρίων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5564" }
+        }
+      ]
+    },
+    "transliterations": {
+      "χωρία": "chōría",
+      "χωρίον": "chōríon",
+      "χωρίου": "chōríou",
+      "χωρίων": "chōríōn"
+    }
+  },
+  "χωρίς": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5565" },
+    "inflections": {
+      "χωρίς": [{ "parse": ["adv"], "indices": { "strongs": "G5565" } }],
+      "χωρὶς": [{ "parse": ["adv"], "indices": { "strongs": "G5565" } }]
+    },
+    "transliterations": { "χωρίς": "chōrís", "χωρὶς": "chōrìs" }
+  },
+  "χῶρος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5566" },
+    "inflections": {
+      "χῶρον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5566" }
+        }
+      ]
+    },
+    "transliterations": { "χῶρον": "chō̂ron" }
+  }
+}

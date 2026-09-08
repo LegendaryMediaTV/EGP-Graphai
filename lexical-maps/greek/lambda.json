@@ -1,0 +1,4813 @@
+{
+  "λαγχάνω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2975" },
+    "inflections": {
+      "ἔλαχεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2975" }
+        }
+      ],
+      "λαχοῦσιν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2975" }
+        }
+      ],
+      "λάχωμεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G2975" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔλαχεν": "élachen",
+      "λαχοῦσιν": "lachoûsin",
+      "λάχωμεν": "láchōmen"
+    }
+  },
+  "Λάζαρος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Lazarus; lit. God Is Helper",
+    "indices": { "strongs": "G2976" },
+    "inflections": {
+      "λάζαρε": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G2976" }
+        }
+      ],
+      "λάζαρον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2976" }
+        }
+      ],
+      "λάζαρος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2976" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λάζαρε": "lázare",
+      "λάζαρον": "lázaron",
+      "λάζαρος": "lázaros"
+    }
+  },
+  "λάθρᾳ": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "secretly",
+    "indices": { "strongs": "G2977" },
+    "inflections": {
+      "λάθρᾳ": [{ "parse": ["adv"], "indices": { "strongs": "G2977" } }]
+    },
+    "transliterations": { "λάθρᾳ": "láthra" }
+  },
+  "λαῖλαψ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2978" },
+    "inflections": {
+      "λαίλαπος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2978" }
+        }
+      ],
+      "λαῖλαψ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2978" }
+        }
+      ]
+    },
+    "transliterations": { "λαίλαπος": "laílapos", "λαῖλαψ": "laîlaps" }
+  },
+  "λακτίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2979" },
+    "inflections": {
+      "λακτίζειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G2979" }
+        }
+      ]
+    },
+    "transliterations": { "λακτίζειν": "laktízein" }
+  },
+  "λαλέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to talk, speak",
+    "indices": { "strongs": "G2980" },
+    "inflections": {
+      "ἐλάλει": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "ἐλαλήθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "ἐλάλησα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "ἐλαλήσαμεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "ἐλάλησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "ἐλαλήσατε": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "ἐλάλησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "ἐλάλησέν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "ἐλαλοῦμεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "ἐλάλουν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2980" }
+        },
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λάλει": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλεῖν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλεῖς": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλεῖσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλεῖται": [
+        {
+          "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλεῖτε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλείτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλείτωσαν": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλῇ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαληθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαληθείσης": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαληθέντος": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "neut"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαληθέντων": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "gen", "pl", "neut"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαληθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαληθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαληθήσεταί": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαληθησομένων": [
+        {
+          "parse": ["verb", "fut", "pas", "ptc", "gen", "pl", "neut"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλῆσαί": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσαντος": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσετε": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσητε": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσομεν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσουσιν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσω": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G2980" }
+        },
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλήσωσιν": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦμεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλουμένη": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλουμένοις": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "dat", "pl", "neut"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλούμενον": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2980" }
+        },
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦντας": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦντι": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦντός": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλούντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦσαι": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦσαν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλούσης": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλοῦσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλῶ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2980" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λαλῶσιν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λελάληκα": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λελάληκεν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λελαλημένοις": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "dat", "pl", "neut"],
+          "indices": { "strongs": "G2980" }
+        }
+      ],
+      "λελάληταί": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2980" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐλάλει": "elálei",
+      "ἐλαλήθη": "elalḗthē",
+      "ἐλάλησα": "elálēsa",
+      "ἐλαλήσαμεν": "elalḗsamen",
+      "ἐλάλησαν": "elálēsan",
+      "ἐλαλήσατε": "elalḗsate",
+      "ἐλάλησεν": "elálēsen",
+      "ἐλάλησέν": "elálēsén",
+      "ἐλαλοῦμεν": "elaloûmen",
+      "ἐλάλουν": "eláloun",
+      "λαλεῖ": "laleî",
+      "λάλει": "lálei",
+      "λαλεῖν": "laleîn",
+      "λαλεῖς": "laleîs",
+      "λαλεῖσθαι": "laleîsthai",
+      "λαλεῖται": "laleîtai",
+      "λαλεῖτε": "laleîte",
+      "λαλείτω": "laleítō",
+      "λαλείτωσαν": "laleítōsan",
+      "λαλῇ": "lalē̂",
+      "λαληθεὶς": "lalētheìs",
+      "λαληθείσης": "lalētheísēs",
+      "λαληθέντος": "lalēthéntos",
+      "λαληθέντων": "lalēthéntōn",
+      "λαληθῆναι": "lalēthē̂nai",
+      "λαληθήσεται": "lalēthḗsetai",
+      "λαληθήσεταί": "lalēthḗsetaí",
+      "λαληθησομένων": "lalēthēsoménōn",
+      "λαλῆσαι": "lalē̂sai",
+      "λαλῆσαί": "lalē̂saí",
+      "λαλήσαντες": "lalḗsantes",
+      "λαλήσαντος": "lalḗsantos",
+      "λαλήσας": "lalḗsas",
+      "λαλήσει": "lalḗsei",
+      "λαλήσετε": "lalḗsete",
+      "λαλήσῃ": "lalḗsē",
+      "λαλήσητε": "lalḗsēte",
+      "λαλήσομεν": "lalḗsomen",
+      "λαλήσουσιν": "lalḗsousin",
+      "λαλήσω": "lalḗsō",
+      "λαλήσωσιν": "lalḗsōsin",
+      "λαλοῦμεν": "laloûmen",
+      "λαλουμένη": "lalouménē",
+      "λαλουμένοις": "lalouménois",
+      "λαλούμενον": "laloúmenon",
+      "λαλοῦν": "laloûn",
+      "λαλοῦντα": "laloûnta",
+      "λαλοῦντας": "laloûntas",
+      "λαλοῦντες": "laloûntes",
+      "λαλοῦντι": "laloûnti",
+      "λαλοῦντος": "laloûntos",
+      "λαλοῦντός": "laloûntós",
+      "λαλούντων": "laloúntōn",
+      "λαλοῦσα": "laloûsa",
+      "λαλοῦσαι": "laloûsai",
+      "λαλοῦσαν": "laloûsan",
+      "λαλούσης": "laloúsēs",
+      "λαλοῦσιν": "laloûsin",
+      "λαλῶ": "lalō̂",
+      "λαλῶν": "lalō̂n",
+      "λαλῶσιν": "lalō̂sin",
+      "λελάληκα": "lelálēka",
+      "λελάληκεν": "lelálēken",
+      "λελαλημένοις": "lelalēménois",
+      "λελάληταί": "lelálētaí"
+    }
+  },
+  "λαλιά": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2981" },
+    "inflections": {
+      "λαλιά": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2981" }
+        }
+      ],
+      "λαλιὰν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2981" }
+        }
+      ]
+    },
+    "transliterations": { "λαλιά": "laliá", "λαλιὰν": "laliàn" }
+  },
+  "λαμβάνω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to take, receive",
+    "indices": { "strongs": "G2983" },
+    "inflections": {
+      "εἴληφα": [
+        {
+          "parse": ["verb", "second", "perf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "εἴληφας": [
+        {
+          "parse": ["verb", "second", "perf", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "εἴληφεν": [
+        {
+          "parse": ["verb", "second", "perf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "εἰληφώς": [
+        {
+          "parse": [
+            "verb",
+            "second",
+            "perf",
+            "act",
+            "ptc",
+            "nom",
+            "sg",
+            "masc"
+          ],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "εἰληφὼς": [
+        {
+          "parse": [
+            "verb",
+            "second",
+            "perf",
+            "act",
+            "ptc",
+            "nom",
+            "sg",
+            "masc"
+          ],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "ἔλαβεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "ἔλαβες": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "ἐλάβετε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "ἐλάβομεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "ἔλαβον": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2983" }
+        },
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "ἐλάμβανον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λάβε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαβεῖν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "inf"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λάβετε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαβέτω": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λάβῃ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λάβητε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λάβοι": [
+        {
+          "parse": ["verb", "second", "aor", "act", "opt", "pers-3", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαβόντα": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαβόντας": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαβόντες": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαβοῦσα": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαβοῦσαι": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "pl", "fem"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λάβω": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λάβωμεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαβών": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαβὼν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λάβωσιν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνεις": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνετε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2983" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνετέ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνομεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβανόμενον": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβανόμενος": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λαμβάνων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λήψεσθε": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λήψεται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λήψεταί": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "ληψόμεθα": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ],
+      "λήψονται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2983" }
+        }
+      ]
+    },
+    "transliterations": {
+      "εἴληφα": "eílēpha",
+      "εἴληφας": "eílēphas",
+      "εἴληφεν": "eílēphen",
+      "εἰληφώς": "eilēphṓs",
+      "εἰληφὼς": "eilēphṑs",
+      "ἔλαβεν": "élaben",
+      "ἔλαβες": "élabes",
+      "ἐλάβετε": "elábete",
+      "ἐλάβομεν": "elábomen",
+      "ἔλαβον": "élabon",
+      "ἐλάμβανον": "elámbanon",
+      "λάβε": "lábe",
+      "λαβεῖν": "labeîn",
+      "λάβετε": "lábete",
+      "λαβέτω": "labétō",
+      "λάβῃ": "lábē",
+      "λάβητε": "lábēte",
+      "λάβοι": "láboi",
+      "λαβόντα": "labónta",
+      "λαβόντας": "labóntas",
+      "λαβόντες": "labóntes",
+      "λαβοῦσα": "laboûsa",
+      "λαβοῦσαι": "laboûsai",
+      "λάβω": "lábō",
+      "λάβωμεν": "lábōmen",
+      "λαβών": "labṓn",
+      "λαβὼν": "labṑn",
+      "λάβωσιν": "lábōsin",
+      "λαμβάνει": "lambánei",
+      "λαμβάνειν": "lambánein",
+      "λαμβάνεις": "lambáneis",
+      "λαμβάνετε": "lambánete",
+      "λαμβάνετέ": "lambáneté",
+      "λαμβάνῃ": "lambánē",
+      "λαμβάνομεν": "lambánomen",
+      "λαμβανόμενον": "lambanómenon",
+      "λαμβανόμενος": "lambanómenos",
+      "λαμβάνοντες": "lambánontes",
+      "λαμβάνουσιν": "lambánousin",
+      "λαμβάνω": "lambánō",
+      "λαμβάνων": "lambánōn",
+      "λήψεσθε": "lḗpsesthe",
+      "λήψεται": "lḗpsetai",
+      "λήψεταί": "lḗpsetaí",
+      "ληψόμεθα": "lēpsómetha",
+      "λήψονται": "lḗpsontai"
+    }
+  },
+  "Λάμεχ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2984" },
+    "inflections": {
+      "λάμεχ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G2984" }
+        }
+      ]
+    },
+    "transliterations": { "λάμεχ": "lámech" }
+  },
+  "λαμπάς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2985" },
+    "inflections": {
+      "λαμπάδας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2985" }
+        }
+      ],
+      "λαμπάδες": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G2985" }
+        }
+      ],
+      "λαμπάδων": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G2985" }
+        }
+      ],
+      "λαμπάς": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2985" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λαμπάδας": "lampádas",
+      "λαμπάδες": "lampádes",
+      "λαμπάδων": "lampádōn",
+      "λαμπάς": "lampás"
+    }
+  },
+  "λαμπρός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2986" },
+    "inflections": {
+      "λαμπρὰ": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G2986" }
+        }
+      ],
+      "λαμπρᾷ": [
+        {
+          "parse": ["adj", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2986" }
+        }
+      ],
+      "λαμπράν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2986" }
+        }
+      ],
+      "λαμπρόν": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2986" }
+        }
+      ],
+      "λαμπρὸν": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G2986" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2986" }
+        }
+      ],
+      "λαμπρὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2986" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λαμπρὰ": "lamprà",
+      "λαμπρᾷ": "lamprâ",
+      "λαμπράν": "lamprán",
+      "λαμπρόν": "lamprón",
+      "λαμπρὸν": "lampròn",
+      "λαμπρὸς": "lampròs"
+    }
+  },
+  "λαμπρότης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2987" },
+    "inflections": {
+      "λαμπρότητα": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2987" }
+        }
+      ]
+    },
+    "transliterations": { "λαμπρότητα": "lamprótēta" }
+  },
+  "λαμπρῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G2988" },
+    "inflections": {
+      "λαμπρῶς": [{ "parse": ["adv"], "indices": { "strongs": "G2988" } }]
+    },
+    "transliterations": { "λαμπρῶς": "lamprō̂s" }
+  },
+  "λάμπω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2989" },
+    "inflections": {
+      "ἔλαμψεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2989" }
+        }
+      ],
+      "λάμπει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2989" }
+        }
+      ],
+      "λάμψαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G2989" }
+        }
+      ],
+      "λαμψάτω": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G2989" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔλαμψεν": "élampsen",
+      "λάμπει": "lámpei",
+      "λάμψαι": "lámpsai",
+      "λαμψάτω": "lampsátō"
+    }
+  },
+  "λανθάνω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to hide, conceal",
+    "indices": { "strongs": "G2990" },
+    "inflections": {
+      "ἔλαθεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2990" }
+        }
+      ],
+      "ἔλαθόν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2990" }
+        }
+      ],
+      "λαθεῖν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "inf"],
+          "indices": { "strongs": "G2990" }
+        }
+      ],
+      "λανθάνει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2990" }
+        }
+      ],
+      "λανθάνειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G2990" }
+        }
+      ],
+      "λανθανέτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G2990" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔλαθεν": "élathen",
+      "ἔλαθόν": "élathón",
+      "λαθεῖν": "latheîn",
+      "λανθάνει": "lanthánei",
+      "λανθάνειν": "lanthánein",
+      "λανθανέτω": "lanthanétō"
+    }
+  },
+  "λαξευτός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G2991" },
+    "inflections": {
+      "λαξευτῷ": [
+        {
+          "parse": ["adj", "dat", "sg", "neut"],
+          "indices": { "strongs": "G2991" }
+        }
+      ]
+    },
+    "transliterations": { "λαξευτῷ": "laxeutō̂" }
+  },
+  "Λαοδικαῖος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2994" },
+    "inflections": {
+      "λαοδικαίων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2994" }
+        }
+      ]
+    },
+    "transliterations": { "λαοδικαίων": "laodikaíōn" }
+  },
+  "Λαοδίκεια": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2993" },
+    "inflections": {
+      "λαοδικείᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G2993" }
+        }
+      ],
+      "λαοδίκειαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2993" }
+        }
+      ],
+      "λαοδικείας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2993" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λαοδικείᾳ": "laodikeía",
+      "λαοδίκειαν": "laodíkeian",
+      "λαοδικείας": "laodikeías"
+    }
+  },
+  "λαός": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a people",
+    "indices": { "strongs": "G2992" },
+    "inflections": {
+      "λαοί": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2992" }
+        }
+      ],
+      "λαοὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2992" }
+        }
+      ],
+      "λαοῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G2992" }
+        }
+      ],
+      "λαόν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2992" }
+        }
+      ],
+      "λαὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2992" }
+        }
+      ],
+      "λαός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2992" }
+        }
+      ],
+      "λαὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2992" }
+        }
+      ],
+      "λαοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2992" }
+        }
+      ],
+      "λαῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2992" }
+        }
+      ],
+      "λαῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G2992" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λαοί": "laoí",
+      "λαοὶ": "laoì",
+      "λαοῖς": "laoîs",
+      "λαόν": "laón",
+      "λαὸν": "laòn",
+      "λαός": "laós",
+      "λαὸς": "laòs",
+      "λαοῦ": "laoû",
+      "λαῷ": "laō̂",
+      "λαῶν": "laō̂n"
+    }
+  },
+  "λάρυγξ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2995" },
+    "inflections": {
+      "λάρυγξ": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2995" }
+        }
+      ]
+    },
+    "transliterations": { "λάρυγξ": "lárynx" }
+  },
+  "Λασαία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G2996" },
+    "inflections": {
+      "λασαία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2996" }
+        }
+      ]
+    },
+    "transliterations": { "λασαία": "lasaía" }
+  },
+  "λάσκω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2997" },
+    "inflections": {
+      "ἐλάκησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2997" }
+        }
+      ]
+    },
+    "transliterations": { "ἐλάκησεν": "elákēsen" }
+  },
+  "λατομέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G2998" },
+    "inflections": {
+      "ἐλατόμησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2998" }
+        }
+      ],
+      "λελατομημένον": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G2998" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐλατόμησεν": "elatómēsen",
+      "λελατομημένον": "lelatomēménon"
+    }
+  },
+  "λατρεία": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a devout service",
+    "indices": { "strongs": "G2999" },
+    "inflections": {
+      "λατρεία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2999" }
+        }
+      ],
+      "λατρείαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G2999" }
+        }
+      ],
+      "λατρείας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G2999" }
+        },
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G2999" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λατρεία": "latreía",
+      "λατρείαν": "latreían",
+      "λατρείας": "latreías"
+    }
+  },
+  "λατρεύω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to devoutly serve",
+    "indices": { "strongs": "G3000" },
+    "inflections": {
+      "ἐλάτρευσαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύομεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεῦον": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύοντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύοντας": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύουσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύσεις": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύσουσιν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύσουσίν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3000" }
+        }
+      ],
+      "λατρεύω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G3000" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐλάτρευσαν": "elátreusan",
+      "λατρεύειν": "latreúein",
+      "λατρεύομεν": "latreúomen",
+      "λατρεῦον": "latreûon",
+      "λατρεύοντα": "latreúonta",
+      "λατρεύοντας": "latreúontas",
+      "λατρεύοντες": "latreúontes",
+      "λατρεύουσα": "latreúousa",
+      "λατρεύουσιν": "latreúousin",
+      "λατρεύσεις": "latreúseis",
+      "λατρεύσουσιν": "latreúsousin",
+      "λατρεύσουσίν": "latreúsousín",
+      "λατρεύω": "latreúō"
+    }
+  },
+  "λάχανον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3001" },
+    "inflections": {
+      "λάχανα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3001" }
+        }
+      ],
+      "λάχανον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3001" }
+        }
+      ],
+      "λαχάνων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G3001" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λάχανα": "láchana",
+      "λάχανον": "láchanon",
+      "λαχάνων": "lachánōn"
+    }
+  },
+  "Λεββαῖος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3002" },
+    "inflections": {
+      "λεββαῖος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3002" }
+        }
+      ]
+    },
+    "transliterations": { "λεββαῖος": "lebbaîos" }
+  },
+  "λεγεών": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3003" },
+    "inflections": {
+      "λεγεών": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3003" }
+        }
+      ],
+      "λεγεὼν": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3003" }
+        }
+      ],
+      "λεγεῶνα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3003" }
+        }
+      ],
+      "λεγεῶνας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G3003" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λεγεών": "legeṓn",
+      "λεγεὼν": "legeṑn",
+      "λεγεῶνα": "legeō̂na",
+      "λεγεῶνας": "legeō̂nas"
+    }
+  },
+  "λέγω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to say, call",
+    "indices": { "strongs": ["G2036", "G3004"] },
+    "inflections": {
+      "εἶπα": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἶπας": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἴπατε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G2036" }
+        },
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἴπατέ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπάτω": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπάτωσαν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-3", "pl"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπέ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπὲ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπεῖν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "inf"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἶπεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἶπέν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἴπῃ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἴπῃς": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἴπητε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἴπητέ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπόν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἶπον": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2036" }
+        },
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἶπόν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G2036" }
+        },
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπόντα": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπόντες": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπόντι": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπόντος": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰποῦσα": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἴπω": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἴπωμεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπών": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἰπὼν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "εἴπωσιν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G2036" }
+        }
+      ],
+      "ἔλεγεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "ἐλέγετε": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "ἔλεγον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3004" }
+        },
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγεις": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγεσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγεται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγετε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G3004" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγετέ": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγέτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγητε": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγομεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγόμενα": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγομένη": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγομένην": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγομένης": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγόμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγομένοις": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "dat", "pl", "neut"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγόμενον": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3004" }
+        },
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγόμενος": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγομένου": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγον": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγοντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"],
+          "indices": { "strongs": "G3004" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγοντά": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγοντας": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγοντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G3004" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "neut"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγόντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγουσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγουσαι": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγουσαν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λεγούσης": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3004" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "neut"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγουσίν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G3004" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγωμεν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3004" }
+        }
+      ],
+      "λέγωσιν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G3004" }
+        }
+      ]
+    },
+    "transliterations": {
+      "εἶπα": "eîpa",
+      "εἶπας": "eîpas",
+      "εἴπατε": "eípate",
+      "εἴπατέ": "eípaté",
+      "εἰπάτω": "eipátō",
+      "εἰπάτωσαν": "eipátōsan",
+      "εἰπέ": "eipé",
+      "εἰπὲ": "eipè",
+      "εἰπεῖν": "eipeîn",
+      "εἶπεν": "eîpen",
+      "εἶπέν": "eîpén",
+      "εἴπῃ": "eípē",
+      "εἴπῃς": "eípēs",
+      "εἴπητε": "eípēte",
+      "εἴπητέ": "eípēté",
+      "εἰπόν": "eipón",
+      "εἶπον": "eîpon",
+      "εἶπόν": "eîpón",
+      "εἰπόντα": "eipónta",
+      "εἰπόντες": "eipóntes",
+      "εἰπόντι": "eipónti",
+      "εἰπόντος": "eipóntos",
+      "εἰποῦσα": "eipoûsa",
+      "εἴπω": "eípō",
+      "εἴπωμεν": "eípōmen",
+      "εἰπών": "eipṓn",
+      "εἰπὼν": "eipṑn",
+      "εἴπωσιν": "eípōsin",
+      "ἔλεγεν": "élegen",
+      "ἐλέγετε": "elégete",
+      "ἔλεγον": "élegon",
+      "λέγε": "lége",
+      "λέγει": "légei",
+      "λέγειν": "légein",
+      "λέγεις": "légeis",
+      "λέγεσθαι": "légesthai",
+      "λέγεται": "légetai",
+      "λέγετε": "légete",
+      "λέγετέ": "légeté",
+      "λεγέτω": "legétō",
+      "λέγῃ": "légē",
+      "λέγητε": "légēte",
+      "λέγομεν": "légomen",
+      "λεγόμενα": "legómena",
+      "λεγομένη": "legoménē",
+      "λεγομένην": "legoménēn",
+      "λεγομένης": "legoménēs",
+      "λεγόμενοι": "legómenoi",
+      "λεγομένοις": "legoménois",
+      "λεγόμενον": "legómenon",
+      "λεγόμενος": "legómenos",
+      "λεγομένου": "legoménou",
+      "λέγον": "légon",
+      "λέγοντα": "légonta",
+      "λέγοντά": "légontá",
+      "λέγοντας": "légontas",
+      "λέγοντες": "légontes",
+      "λέγοντος": "légontos",
+      "λεγόντων": "legóntōn",
+      "λέγουσα": "légousa",
+      "λέγουσαι": "légousai",
+      "λέγουσαν": "légousan",
+      "λεγούσης": "legoúsēs",
+      "λέγουσιν": "légousin",
+      "λέγουσίν": "légousín",
+      "λέγω": "légō",
+      "λέγωμεν": "légōmen",
+      "λέγων": "légōn",
+      "λέγωσιν": "légōsin"
+    }
+  },
+  "λεία": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G3006" },
+    "inflections": {
+      "λείας": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G3006" }
+        }
+      ]
+    },
+    "transliterations": { "λείας": "leías" }
+  },
+  "λεῖμμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3005" },
+    "inflections": {
+      "λεῖμμα": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G3005" }
+        }
+      ]
+    },
+    "transliterations": { "λεῖμμα": "leîmma" }
+  },
+  "λείπω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to leave behind; fig. to lack",
+    "indices": { "strongs": "G3007" },
+    "inflections": {
+      "λείπει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3007" }
+        }
+      ],
+      "λείπεται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3007" }
+        }
+      ],
+      "λείπῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G3007" }
+        }
+      ],
+      "λειπόμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3007" }
+        }
+      ],
+      "λείποντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3007" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λείπει": "leípei",
+      "λείπεται": "leípetai",
+      "λείπῃ": "leípē",
+      "λειπόμενοι": "leipómenoi",
+      "λείποντα": "leíponta"
+    }
+  },
+  "λειτουργέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to serve/minister liturgically",
+    "indices": { "strongs": "G3008" },
+    "inflections": {
+      "λειτουργῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G3008" }
+        }
+      ],
+      "λειτουργούντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3008" }
+        }
+      ],
+      "λειτουργῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3008" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λειτουργῆσαι": "leitourgē̂sai",
+      "λειτουργούντων": "leitourgoúntōn",
+      "λειτουργῶν": "leitourgō̂n"
+    }
+  },
+  "λειτουργία": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a liturgical service/ministry",
+    "indices": { "strongs": "G3009" },
+    "inflections": {
+      "λειτουργίᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G3009" }
+        }
+      ],
+      "λειτουργίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3009" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λειτουργίᾳ": "leitourgía",
+      "λειτουργίας": "leitourgías"
+    }
+  },
+  "λειτουργικός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G3010" },
+    "inflections": {
+      "λειτουργικὰ": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G3010" }
+        }
+      ]
+    },
+    "transliterations": { "λειτουργικὰ": "leitourgikà" }
+  },
+  "λειτουργός": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a liturgical servant/minister",
+    "indices": { "strongs": "G3011" },
+    "inflections": {
+      "λειτουργοὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3011" }
+        }
+      ],
+      "λειτουργὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3011" }
+        }
+      ],
+      "λειτουργός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3011" }
+        }
+      ],
+      "λειτουργοὺς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3011" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λειτουργοὶ": "leitourgoì",
+      "λειτουργὸν": "leitourgòn",
+      "λειτουργός": "leitourgós",
+      "λειτουργοὺς": "leitourgoùs"
+    }
+  },
+  "λέντιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3012" },
+    "inflections": {
+      "λέντιον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3012" }
+        }
+      ],
+      "λεντίῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G3012" }
+        }
+      ]
+    },
+    "transliterations": { "λέντιον": "léntion", "λεντίῳ": "lentíō" }
+  },
+  "λεπίς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3013" },
+    "inflections": {
+      "λεπίδες": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G3013" }
+        }
+      ]
+    },
+    "transliterations": { "λεπίδες": "lepídes" }
+  },
+  "λέπρα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3014" },
+    "inflections": {
+      "λέπρα": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3014" }
+        }
+      ],
+      "λέπρας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3014" }
+        }
+      ]
+    },
+    "transliterations": { "λέπρα": "lépra", "λέπρας": "lépras" }
+  },
+  "λεπρός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G3015" },
+    "inflections": {
+      "λεπροὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3015" }
+        }
+      ],
+      "λεπρός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3015" }
+        }
+      ],
+      "λεπρὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3015" }
+        }
+      ],
+      "λεπροῦ": [
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G3015" }
+        }
+      ],
+      "λεπροὺς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3015" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λεπροὶ": "leproì",
+      "λεπρός": "leprós",
+      "λεπρὸς": "lepròs",
+      "λεπροῦ": "leproû",
+      "λεπροὺς": "leproùs"
+    }
+  },
+  "λεπτόν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3016" },
+    "inflections": {
+      "λεπτά": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3016" }
+        }
+      ],
+      "λεπτὰ": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3016" }
+        }
+      ],
+      "λεπτὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3016" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λεπτά": "leptá",
+      "λεπτὰ": "leptà",
+      "λεπτὸν": "leptòn"
+    }
+  },
+  "Λευΐ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3017" },
+    "inflections": {
+      "λευΐ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G3017" }
+        }
+      ],
+      "λευῒ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G3017" }
+        }
+      ]
+    },
+    "transliterations": { "λευΐ": "leuḯ", "λευῒ": "leuï̀" }
+  },
+  "Λευΐς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3018" },
+    "inflections": {
+      "λευῒ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G3018" }
+        }
+      ],
+      "λευΐν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3018" }
+        }
+      ],
+      "λευῒς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3018" }
+        }
+      ]
+    },
+    "transliterations": { "λευῒ": "leuï̀", "λευΐν": "leuḯn", "λευῒς": "leuï̀s" }
+  },
+  "Λευΐτης": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a Levite",
+    "indices": { "strongs": "G3019" },
+    "inflections": {
+      "λευΐτας": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3019" }
+        }
+      ],
+      "λευΐτης": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3019" }
+        }
+      ]
+    },
+    "transliterations": { "λευΐτας": "leuḯtas", "λευΐτης": "leuḯtēs" }
+  },
+  "Λευϊτικός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G3020" },
+    "inflections": {
+      "λευϊτικῆς": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3020" }
+        }
+      ]
+    },
+    "transliterations": { "λευϊτικῆς": "leuïtikē̂s" }
+  },
+  "λευκαίνω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3021" },
+    "inflections": {
+      "ἐλεύκαναν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3021" }
+        }
+      ],
+      "λευκᾶναι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G3021" }
+        }
+      ]
+    },
+    "transliterations": { "ἐλεύκαναν": "eleúkanan", "λευκᾶναι": "leukânai" }
+  },
+  "λευκός": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["λευκός", "λευκή", "λευκόν"],
+    "shortDefinition": "to be white",
+    "indices": { "strongs": "G3022" },
+    "inflections": {
+      "λευκά": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκὰ": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκαί": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκαὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκάς": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκή": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκῇ": [
+        {
+          "parse": ["adj", "dat", "sg", "fem"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκήν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκὴν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκοῖς": [
+        {
+          "parse": ["adj", "dat", "pl", "neut"],
+          "indices": { "strongs": "G3022" }
+        },
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκόν": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G3022" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκὸν": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G3022" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3022" }
+        }
+      ],
+      "λευκὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3022" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λευκά": "leuká",
+      "λευκὰ": "leukà",
+      "λευκαί": "leukaí",
+      "λευκαὶ": "leukaì",
+      "λευκάς": "leukás",
+      "λευκή": "leukḗ",
+      "λευκῇ": "leukē̂",
+      "λευκήν": "leukḗn",
+      "λευκὴν": "leukḕn",
+      "λευκοῖς": "leukoîs",
+      "λευκόν": "leukón",
+      "λευκὸν": "leukòn",
+      "λευκός": "leukós",
+      "λευκὸς": "leukòs"
+    }
+  },
+  "λέων": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3023" },
+    "inflections": {
+      "λέοντι": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G3023" }
+        }
+      ],
+      "λέοντος": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G3023" }
+        }
+      ],
+      "λεόντων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3023" }
+        }
+      ],
+      "λέων": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3023" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λέοντι": "léonti",
+      "λέοντος": "léontos",
+      "λεόντων": "leóntōn",
+      "λέων": "léōn"
+    }
+  },
+  "λήθη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3024" },
+    "inflections": {
+      "λήθην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3024" }
+        }
+      ]
+    },
+    "transliterations": { "λήθην": "lḗthēn" }
+  },
+  "ληνός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3025" },
+    "inflections": {
+      "ληνόν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3025" }
+        }
+      ],
+      "ληνὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3025" }
+        }
+      ],
+      "ληνὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3025" }
+        }
+      ],
+      "ληνοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3025" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ληνόν": "lēnón",
+      "ληνὸν": "lēnòn",
+      "ληνὸς": "lēnòs",
+      "ληνοῦ": "lēnoû"
+    }
+  },
+  "λῆρος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a nonsense",
+    "indices": { "strongs": "G3026" },
+    "inflections": {
+      "λῆρος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3026" }
+        }
+      ]
+    },
+    "transliterations": { "λῆρος": "lē̂ros" }
+  },
+  "λῃστής": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3027" },
+    "inflections": {
+      "λῃσταί": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3027" }
+        }
+      ],
+      "λῃσταὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3027" }
+        }
+      ],
+      "λῃσταῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G3027" }
+        }
+      ],
+      "λῃστάς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3027" }
+        }
+      ],
+      "λῃστὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3027" }
+        }
+      ],
+      "λῃστής": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3027" }
+        }
+      ],
+      "λῃστῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3027" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λῃσταί": "lēstaí",
+      "λῃσταὶ": "lēstaì",
+      "λῃσταῖς": "lēstaîs",
+      "λῃστάς": "lēstás",
+      "λῃστὴν": "lēstḕn",
+      "λῃστής": "lēstḗs",
+      "λῃστῶν": "lēstō̂n"
+    }
+  },
+  "λῆψις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3028" },
+    "inflections": {
+      "λήψεως": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3028" }
+        }
+      ]
+    },
+    "transliterations": { "λήψεως": "lḗpseōs" }
+  },
+  "λίαν": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G3029" },
+    "inflections": {
+      "λίαν": [{ "parse": ["adv"], "indices": { "strongs": "G3029" } }]
+    },
+    "transliterations": { "λίαν": "lían" }
+  },
+  "λίβανος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3030" },
+    "inflections": {
+      "λίβανον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3030" }
+        }
+      ]
+    },
+    "transliterations": { "λίβανον": "líbanon" }
+  },
+  "λιβανωτός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3031" },
+    "inflections": {
+      "λιβανωτόν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3031" }
+        }
+      ],
+      "λιβανωτὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3031" }
+        }
+      ]
+    },
+    "transliterations": { "λιβανωτόν": "libanōtón", "λιβανωτὸν": "libanōtòn" }
+  },
+  "Λιβερτῖνος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3032" },
+    "inflections": {
+      "λιβερτίνων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3032" }
+        }
+      ]
+    },
+    "transliterations": { "λιβερτίνων": "libertínōn" }
+  },
+  "Λιβύη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3033" },
+    "inflections": {
+      "λιβύης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3033" }
+        }
+      ]
+    },
+    "transliterations": { "λιβύης": "libýēs" }
+  },
+  "λιθάζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3034" },
+    "inflections": {
+      "ἐλιθάσθην": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G3034" }
+        }
+      ],
+      "ἐλιθάσθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3034" }
+        }
+      ],
+      "λιθάζετέ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G3034" }
+        }
+      ],
+      "λιθάζομέν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G3034" }
+        }
+      ],
+      "λιθάσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G3034" }
+        }
+      ],
+      "λιθάσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3034" }
+        }
+      ],
+      "λιθασθῶσιν": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G3034" }
+        }
+      ],
+      "λιθάσωσιν": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G3034" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐλιθάσθην": "elithásthēn",
+      "ἐλιθάσθησαν": "elithásthēsan",
+      "λιθάζετέ": "litházeté",
+      "λιθάζομέν": "litházomén",
+      "λιθάσαι": "lithásai",
+      "λιθάσαντες": "lithásantes",
+      "λιθασθῶσιν": "lithasthō̂sin",
+      "λιθάσωσιν": "lithásōsin"
+    }
+  },
+  "λίθινος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G3035" },
+    "inflections": {
+      "λίθινα": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3035" }
+        }
+      ],
+      "λίθιναι": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G3035" }
+        }
+      ],
+      "λιθίναις": [
+        {
+          "parse": ["adj", "dat", "pl", "fem"],
+          "indices": { "strongs": "G3035" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λίθινα": "líthina",
+      "λίθιναι": "líthinai",
+      "λιθίναις": "lithínais"
+    }
+  },
+  "λιθοβολέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3036" },
+    "inflections": {
+      "ἐλιθοβόλησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3036" }
+        }
+      ],
+      "ἐλιθοβόλουν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3036" }
+        }
+      ],
+      "λιθοβολεῖσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G3036" }
+        }
+      ],
+      "λιθοβοληθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3036" }
+        }
+      ],
+      "λιθοβολῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G3036" }
+        }
+      ],
+      "λιθοβολήσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3036" }
+        }
+      ],
+      "λιθοβολοῦσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3036" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐλιθοβόλησαν": "elithobólēsan",
+      "ἐλιθοβόλουν": "elithobóloun",
+      "λιθοβολεῖσθαι": "lithoboleîsthai",
+      "λιθοβοληθήσεται": "lithobolēthḗsetai",
+      "λιθοβολῆσαι": "lithobolē̂sai",
+      "λιθοβολήσαντες": "lithobolḗsantes",
+      "λιθοβολοῦσα": "lithoboloûsa"
+    }
+  },
+  "λίθος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a stone",
+    "indices": { "strongs": "G3037" },
+    "inflections": {
+      "λίθοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3037" }
+        }
+      ],
+      "λίθοις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G3037" }
+        }
+      ],
+      "λίθον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3037" }
+        }
+      ],
+      "λίθος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3037" }
+        }
+      ],
+      "λίθου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G3037" }
+        }
+      ],
+      "λίθους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3037" }
+        }
+      ],
+      "λίθῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G3037" }
+        }
+      ],
+      "λίθων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3037" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λίθοι": "líthoi",
+      "λίθοις": "líthois",
+      "λίθον": "líthon",
+      "λίθος": "líthos",
+      "λίθου": "líthou",
+      "λίθους": "líthous",
+      "λίθῳ": "líthō",
+      "λίθων": "líthōn"
+    }
+  },
+  "Λιθόστρωτον": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G3038" },
+    "inflections": {
+      "λιθόστρωτον": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3038" }
+        }
+      ]
+    },
+    "transliterations": { "λιθόστρωτον": "lithóstrōton" }
+  },
+  "λικμάω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3039" },
+    "inflections": {
+      "λικμήσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3039" }
+        }
+      ]
+    },
+    "transliterations": { "λικμήσει": "likmḗsei" }
+  },
+  "λιμά": {
+    "language": "greek",
+    "pos": "hebrew",
+    "indices": { "strongs": "G2982" },
+    "inflections": {
+      "λιμὰ": [
+        { "parse": ["hebrew"], "indices": { "strongs": "G2982" } },
+        { "parse": ["aramaic"], "indices": { "strongs": "G2982" } }
+      ]
+    },
+    "transliterations": { "λιμὰ": "limà" }
+  },
+  "λιμήν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3040" },
+    "inflections": {
+      "λιμένα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3040" }
+        }
+      ],
+      "λιμένας": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3040" }
+        }
+      ],
+      "λιμένος": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G3040" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λιμένα": "liména",
+      "λιμένας": "liménas",
+      "λιμένος": "liménos"
+    }
+  },
+  "λίμνη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3041" },
+    "inflections": {
+      "λίμνη": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3041" }
+        }
+      ],
+      "λίμνῃ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G3041" }
+        }
+      ],
+      "λίμνην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3041" }
+        }
+      ],
+      "λίμνης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3041" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λίμνη": "límnē",
+      "λίμνῃ": "límnē",
+      "λίμνην": "límnēn",
+      "λίμνης": "límnēs"
+    }
+  },
+  "λιμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3042" },
+    "inflections": {
+      "λιμοὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3042" }
+        }
+      ],
+      "λιμὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3042" }
+        }
+      ],
+      "λιμός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3042" }
+        }
+      ],
+      "λιμὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3042" }
+        }
+      ],
+      "λιμῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G3042" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λιμοὶ": "limoì",
+      "λιμὸν": "limòn",
+      "λιμός": "limós",
+      "λιμὸς": "limòs",
+      "λιμῷ": "limō̂"
+    }
+  },
+  "λίνον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3043" },
+    "inflections": {
+      "λίνον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3043" }
+        }
+      ]
+    },
+    "transliterations": { "λίνον": "línon" }
+  },
+  "Λῖνος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3044" },
+    "inflections": {
+      "λῖνος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3044" }
+        }
+      ]
+    },
+    "transliterations": { "λῖνος": "lînos" }
+  },
+  "λιπαρός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G3045" },
+    "inflections": {
+      "λιπαρὰ": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G3045" }
+        }
+      ]
+    },
+    "transliterations": { "λιπαρὰ": "liparà" }
+  },
+  "λίτρα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3046" },
+    "inflections": {
+      "λίτραν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3046" }
+        }
+      ],
+      "λίτρας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G3046" }
+        }
+      ]
+    },
+    "transliterations": { "λίτραν": "lítran", "λίτρας": "lítras" }
+  },
+  "λίψ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3047" },
+    "inflections": {
+      "λίβα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3047" }
+        }
+      ]
+    },
+    "transliterations": { "λίβα": "líba" }
+  },
+  "λογία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3048" },
+    "inflections": {
+      "λογίαι": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G3048" }
+        }
+      ],
+      "λογίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3048" }
+        }
+      ]
+    },
+    "transliterations": { "λογίαι": "logíai", "λογίας": "logías" }
+  },
+  "λογίζομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3049" },
+    "inflections": {
+      "ἐλογιζόμην": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "ἐλογίζοντο": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "ἐλογίσθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "ἐλογίσθημεν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογίζεσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογίζεσθε": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογιζέσθω": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογίζεται": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογίζῃ": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογίζομαι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογιζόμεθα": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογιζόμενος": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογιζομένους": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογιζομένῳ": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογισάμενος": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογίσασθαί": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "inf"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογίσηται": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογισθείη": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "opt", "pers-3", "sg"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογισθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G3049" }
+        }
+      ],
+      "λογισθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3049" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐλογιζόμην": "elogizómēn",
+      "ἐλογίζοντο": "elogízonto",
+      "ἐλογίσθη": "elogísthē",
+      "ἐλογίσθημεν": "elogísthēmen",
+      "λογίζεσθαι": "logízesthai",
+      "λογίζεσθε": "logízesthe",
+      "λογιζέσθω": "logizésthō",
+      "λογίζεται": "logízetai",
+      "λογίζῃ": "logízē",
+      "λογίζομαι": "logízomai",
+      "λογιζόμεθα": "logizómetha",
+      "λογιζόμενος": "logizómenos",
+      "λογιζομένους": "logizoménous",
+      "λογιζομένῳ": "logizoménō",
+      "λογισάμενος": "logisámenos",
+      "λογίσασθαί": "logísasthaí",
+      "λογίσηται": "logísētai",
+      "λογισθείη": "logistheíē",
+      "λογισθῆναι": "logisthē̂nai",
+      "λογισθήσεται": "logisthḗsetai"
+    }
+  },
+  "λογικός": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be reasonable",
+    "indices": { "strongs": "G3050" },
+    "inflections": {
+      "λογικὴν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3050" }
+        }
+      ],
+      "λογικὸν": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3050" }
+        }
+      ]
+    },
+    "transliterations": { "λογικὴν": "logikḕn", "λογικὸν": "logikòn" }
+  },
+  "λόγιον": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an oracle",
+    "indices": { "strongs": "G3051" },
+    "inflections": {
+      "λόγια": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3051" }
+        }
+      ],
+      "λογίων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G3051" }
+        }
+      ]
+    },
+    "transliterations": { "λόγια": "lógia", "λογίων": "logíōn" }
+  },
+  "λόγιος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be eloquent",
+    "indices": { "strongs": "G3052" },
+    "inflections": {
+      "λόγιος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3052" }
+        }
+      ]
+    },
+    "transliterations": { "λόγιος": "lógios" }
+  },
+  "λογισμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3053" },
+    "inflections": {
+      "λογισμοὺς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3053" }
+        }
+      ],
+      "λογισμῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3053" }
+        }
+      ]
+    },
+    "transliterations": { "λογισμοὺς": "logismoùs", "λογισμῶν": "logismō̂n" }
+  },
+  "λογομαχέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3054" },
+    "inflections": {
+      "λογομαχεῖν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G3054" }
+        }
+      ]
+    },
+    "transliterations": { "λογομαχεῖν": "logomacheîn" }
+  },
+  "λογομαχία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3055" },
+    "inflections": {
+      "λογομαχίας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G3055" }
+        }
+      ]
+    },
+    "transliterations": { "λογομαχίας": "logomachías" }
+  },
+  "λόγος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a statement, message, word",
+    "indices": { "strongs": "G3056" },
+    "inflections": {
+      "λόγοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3056" }
+        }
+      ],
+      "λόγοις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G3056" }
+        }
+      ],
+      "λόγον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3056" }
+        }
+      ],
+      "λόγος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3056" }
+        }
+      ],
+      "λόγου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G3056" }
+        }
+      ],
+      "λόγους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3056" }
+        }
+      ],
+      "λόγῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G3056" }
+        }
+      ],
+      "λόγων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3056" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λόγοι": "lógoi",
+      "λόγοις": "lógois",
+      "λόγον": "lógon",
+      "λόγος": "lógos",
+      "λόγου": "lógou",
+      "λόγους": "lógous",
+      "λόγῳ": "lógō",
+      "λόγων": "lógōn"
+    }
+  },
+  "λόγχη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3057" },
+    "inflections": {
+      "λόγχῃ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G3057" }
+        }
+      ]
+    },
+    "transliterations": { "λόγχῃ": "lónchē" }
+  },
+  "λοιδορέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3058" },
+    "inflections": {
+      "ἐλοιδόρησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3058" }
+        }
+      ],
+      "λοιδορεῖς": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G3058" }
+        }
+      ],
+      "λοιδορούμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3058" }
+        }
+      ],
+      "λοιδορούμενος": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3058" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐλοιδόρησαν": "eloidórēsan",
+      "λοιδορεῖς": "loidoreîs",
+      "λοιδορούμενοι": "loidoroúmenoi",
+      "λοιδορούμενος": "loidoroúmenos"
+    }
+  },
+  "λοιδορία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3059" },
+    "inflections": {
+      "λοιδορίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3059" }
+        }
+      ],
+      "λοιδορίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3059" }
+        }
+      ]
+    },
+    "transliterations": { "λοιδορίαν": "loidorían", "λοιδορίας": "loidorías" }
+  },
+  "λοίδορος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G3060" },
+    "inflections": {
+      "λοίδοροι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3060" }
+        }
+      ],
+      "λοίδορος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3060" }
+        }
+      ]
+    },
+    "transliterations": { "λοίδοροι": "loídoroi", "λοίδορος": "loídoros" }
+  },
+  "λοιμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3061" },
+    "inflections": {
+      "λοιμοὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3061" }
+        }
+      ],
+      "λοιμόν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3061" }
+        }
+      ]
+    },
+    "transliterations": { "λοιμοὶ": "loimoì", "λοιμόν": "loimón" }
+  },
+  "λοιπός": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be remaining, the rest of",
+    "indices": { "strongs": ["G3062", "G3063", "G3064"] },
+    "inflections": {
+      "λοιπά": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3062" }
+        }
+      ],
+      "λοιπὰ": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G3062" }
+        },
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G3062" }
+        }
+      ],
+      "λοιπαὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G3062" }
+        }
+      ],
+      "λοιπὰς": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G3062" }
+        }
+      ],
+      "λοιποί": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3062" }
+        }
+      ],
+      "λοιποὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3062" }
+        }
+      ],
+      "λοιποῖς": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G3062" }
+        },
+        {
+          "parse": ["adj", "dat", "pl", "neut"],
+          "indices": { "strongs": "G3062" }
+        }
+      ],
+      "λοιπόν": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3063" }
+        }
+      ],
+      "λοιπὸν": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3063" }
+        }
+      ],
+      "λοιποῦ": [
+        {
+          "parse": ["adj", "gen", "sg", "neut"],
+          "indices": { "strongs": "G3064" }
+        }
+      ],
+      "λοιπούς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3062" }
+        }
+      ],
+      "λοιποὺς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G3062" }
+        }
+      ],
+      "λοιπῶν": [
+        {
+          "parse": ["adj", "gen", "pl", "neut"],
+          "indices": { "strongs": "G3062" }
+        },
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3062" }
+        },
+        {
+          "parse": ["adj", "gen", "pl", "fem"],
+          "indices": { "strongs": "G3062" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λοιπά": "loipá",
+      "λοιπὰ": "loipà",
+      "λοιπαὶ": "loipaì",
+      "λοιπὰς": "loipàs",
+      "λοιποί": "loipoí",
+      "λοιποὶ": "loipoì",
+      "λοιποῖς": "loipoîs",
+      "λοιπόν": "loipón",
+      "λοιπὸν": "loipòn",
+      "λοιποῦ": "loipoû",
+      "λοιπούς": "loipoús",
+      "λοιποὺς": "loipoùs",
+      "λοιπῶν": "loipō̂n"
+    }
+  },
+  "Λουκᾶς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3065" },
+    "inflections": {
+      "λουκᾶς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3065" }
+        }
+      ]
+    },
+    "transliterations": { "λουκᾶς": "loukâs" }
+  },
+  "Λούκιος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3066" },
+    "inflections": {
+      "λούκιος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3066" }
+        }
+      ]
+    },
+    "transliterations": { "λούκιος": "loúkios" }
+  },
+  "λουτρόν": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a bath",
+    "indices": { "strongs": "G3067" },
+    "inflections": {
+      "λουτροῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G3067" }
+        }
+      ],
+      "λουτρῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G3067" }
+        }
+      ]
+    },
+    "transliterations": { "λουτροῦ": "loutroû", "λουτρῷ": "loutrō̂" }
+  },
+  "λούω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to bathe",
+    "indices": { "strongs": "G3068" },
+    "inflections": {
+      "ἔλουσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3068" }
+        }
+      ],
+      "λελουμένοι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3068" }
+        }
+      ],
+      "λελουμένος": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3068" }
+        }
+      ],
+      "λουσαμένη": [
+        {
+          "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3068" }
+        }
+      ],
+      "λούσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3068" }
+        }
+      ],
+      "λούσαντι": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G3068" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔλουσεν": "élousen",
+      "λελουμένοι": "lelouménoi",
+      "λελουμένος": "lelouménos",
+      "λουσαμένη": "lousaménē",
+      "λούσαντες": "loúsantes",
+      "λούσαντι": "loúsanti"
+    }
+  },
+  "Λύδδα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3069" },
+    "inflections": {
+      "λύδδαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3069" }
+        }
+      ],
+      "λύδδης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3069" }
+        }
+      ]
+    },
+    "transliterations": { "λύδδαν": "lýddan", "λύδδης": "lýddēs" }
+  },
+  "Λυδία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3070" },
+    "inflections": {
+      "λυδία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3070" }
+        }
+      ],
+      "λυδίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3070" }
+        }
+      ]
+    },
+    "transliterations": { "λυδία": "lydía", "λυδίαν": "lydían" }
+  },
+  "Λυκαονία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3071" },
+    "inflections": {
+      "λυκαονίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3071" }
+        }
+      ]
+    },
+    "transliterations": { "λυκαονίας": "lykaonías" }
+  },
+  "Λυκαονιστί": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G3072" },
+    "inflections": {
+      "λυκαονιστὶ": [{ "parse": ["adv"], "indices": { "strongs": "G3072" } }]
+    },
+    "transliterations": { "λυκαονιστὶ": "lykaonistì" }
+  },
+  "Λυκία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3073" },
+    "inflections": {
+      "λυκίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3073" }
+        }
+      ]
+    },
+    "transliterations": { "λυκίας": "lykías" }
+  },
+  "λύκος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3074" },
+    "inflections": {
+      "λύκοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3074" }
+        }
+      ],
+      "λύκον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3074" }
+        }
+      ],
+      "λύκος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3074" }
+        }
+      ],
+      "λύκων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3074" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λύκοι": "lýkoi",
+      "λύκον": "lýkon",
+      "λύκος": "lýkos",
+      "λύκων": "lýkōn"
+    }
+  },
+  "λυμαίνομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3075" },
+    "inflections": {
+      "ἐλυμαίνετο": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3075" }
+        }
+      ]
+    },
+    "transliterations": { "ἐλυμαίνετο": "elymaíneto" }
+  },
+  "λυπέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to feel sorrow/sorry, grieve",
+    "indices": { "strongs": "G3076" },
+    "inflections": {
+      "ἐλυπήθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "ἐλυπήθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "ἐλυπήθητε": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "ἐλύπησα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "ἐλύπησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λελύπηκεν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπεῖσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπεῖται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπεῖτε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπηθέντες": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπηθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπηθήσεσθε": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπηθῆτε": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπῆσθε": [
+        {
+          "parse": ["verb", "pres", "pas", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπούμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπούμενος": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3076" }
+        }
+      ],
+      "λυπῶ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G3076" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐλυπήθη": "elypḗthē",
+      "ἐλυπήθησαν": "elypḗthēsan",
+      "ἐλυπήθητε": "elypḗthēte",
+      "ἐλύπησα": "elýpēsa",
+      "ἐλύπησεν": "elýpēsen",
+      "λελύπηκεν": "lelýpēken",
+      "λυπεῖσθαι": "lypeîsthai",
+      "λυπεῖται": "lypeîtai",
+      "λυπεῖτε": "lypeîte",
+      "λυπηθέντες": "lypēthéntes",
+      "λυπηθῆναι": "lypēthē̂nai",
+      "λυπηθήσεσθε": "lypēthḗsesthe",
+      "λυπηθῆτε": "lypēthē̂te",
+      "λυπῆσθε": "lypē̂sthe",
+      "λυπούμενοι": "lypoúmenoi",
+      "λυπούμενος": "lypoúmenos",
+      "λυπῶ": "lypō̂"
+    }
+  },
+  "λύπη": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a sorrow, grief",
+    "indices": { "strongs": "G3077" },
+    "inflections": {
+      "λύπας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G3077" }
+        }
+      ],
+      "λύπη": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3077" }
+        }
+      ],
+      "λύπῃ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G3077" }
+        }
+      ],
+      "λύπην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3077" }
+        }
+      ],
+      "λύπης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3077" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λύπας": "lýpas",
+      "λύπη": "lýpē",
+      "λύπῃ": "lýpē",
+      "λύπην": "lýpēn",
+      "λύπης": "lýpēs"
+    }
+  },
+  "Λυσανίας": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3078" },
+    "inflections": {
+      "λυσανίου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G3078" }
+        }
+      ]
+    },
+    "transliterations": { "λυσανίου": "lysaníou" }
+  },
+  "Λυσίας": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3079" },
+    "inflections": {
+      "λυσίας": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3079" }
+        }
+      ]
+    },
+    "transliterations": { "λυσίας": "lysías" }
+  },
+  "λύσις": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a loosening; fig. a release, dismantling",
+    "indices": { "strongs": "G3080" },
+    "inflections": {
+      "λύσιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3080" }
+        }
+      ]
+    },
+    "transliterations": { "λύσιν": "lýsin" }
+  },
+  "λυσιτελέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to benefit",
+    "indices": { "strongs": "G3081" },
+    "inflections": {
+      "λυσιτελεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3081" }
+        }
+      ]
+    },
+    "transliterations": { "λυσιτελεῖ": "lysiteleî" }
+  },
+  "Λύστρα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3082" },
+    "inflections": {
+      "λύστραν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3082" }
+        }
+      ],
+      "λύστροις": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G3082" }
+        }
+      ]
+    },
+    "transliterations": { "λύστραν": "lýstran", "λύστροις": "lýstrois" }
+  },
+  "λύτρον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3083" },
+    "inflections": {
+      "λύτρον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G3083" }
+        }
+      ]
+    },
+    "transliterations": { "λύτρον": "lýtron" }
+  },
+  "λυτροῦμαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G3084" },
+    "inflections": {
+      "ἐλυτρώθητε": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G3084" }
+        }
+      ],
+      "λυτροῦσθαι": [
+        {
+          "parse": ["verb", "pres", "mid", "inf"],
+          "indices": { "strongs": "G3084" }
+        }
+      ],
+      "λυτρώσηται": [
+        {
+          "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G3084" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐλυτρώθητε": "elytrṓthēte",
+      "λυτροῦσθαι": "lytroûsthai",
+      "λυτρώσηται": "lytrṓsētai"
+    }
+  },
+  "λύτρωσις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3085" },
+    "inflections": {
+      "λύτρωσιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3085" }
+        }
+      ]
+    },
+    "transliterations": { "λύτρωσιν": "lýtrōsin" }
+  },
+  "λυτρωτής": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3086" },
+    "inflections": {
+      "λυτρωτὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3086" }
+        }
+      ]
+    },
+    "transliterations": { "λυτρωτὴν": "lytrōtḕn" }
+  },
+  "λυχνία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3087" },
+    "inflections": {
+      "λυχνία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G3087" }
+        }
+      ],
+      "λυχνίαι": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G3087" }
+        }
+      ],
+      "λυχνίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G3087" }
+        }
+      ],
+      "λυχνίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3087" }
+        },
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G3087" }
+        }
+      ],
+      "λυχνιῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G3087" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λυχνία": "lychnía",
+      "λυχνίαι": "lychníai",
+      "λυχνίαν": "lychnían",
+      "λυχνίας": "lychnías",
+      "λυχνιῶν": "lychniō̂n"
+    }
+  },
+  "λύχνος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a lamp",
+    "indices": { "strongs": "G3088" },
+    "inflections": {
+      "λύχνοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3088" }
+        }
+      ],
+      "λύχνον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G3088" }
+        }
+      ],
+      "λύχνος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3088" }
+        }
+      ],
+      "λύχνου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G3088" }
+        }
+      ],
+      "λύχνῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G3088" }
+        }
+      ]
+    },
+    "transliterations": {
+      "λύχνοι": "lýchnoi",
+      "λύχνον": "lýchnon",
+      "λύχνος": "lýchnos",
+      "λύχνου": "lýchnou",
+      "λύχνῳ": "lýchnō"
+    }
+  },
+  "λύω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to loosen, untie; fig. to release, dismantle",
+    "indices": { "strongs": "G3089" },
+    "inflections": {
+      "ἔλυεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "ἐλύετο": [
+        {
+          "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "ἐλύθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "ἐλύθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "ἔλυσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λελυμένα": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "neut"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λελυμένον": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λέλυσαι": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύετε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λυθείσης": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "fem"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λυθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λυθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λυθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λυθήσονται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λυομένων": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "neut"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λυόντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λῦσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύσας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύσατε": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύσῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύσῃς": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύσητε": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λῦσον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ],
+      "λύσω": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G3089" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔλυεν": "élyen",
+      "ἐλύετο": "elýeto",
+      "ἐλύθη": "elýthē",
+      "ἐλύθησαν": "elýthēsan",
+      "ἔλυσεν": "élysen",
+      "λελυμένα": "lelyména",
+      "λελυμένον": "lelyménon",
+      "λέλυσαι": "lélysai",
+      "λύει": "lýei",
+      "λύετε": "lýete",
+      "λυθείσης": "lytheísēs",
+      "λυθῇ": "lythē̂",
+      "λυθῆναι": "lythē̂nai",
+      "λυθήσεται": "lythḗsetai",
+      "λυθήσονται": "lythḗsontai",
+      "λυομένων": "lyoménōn",
+      "λύοντες": "lýontes",
+      "λυόντων": "lyóntōn",
+      "λύουσιν": "lýousin",
+      "λῦσαι": "lŷsai",
+      "λύσαντες": "lýsantes",
+      "λύσας": "lýsas",
+      "λύσατε": "lýsate",
+      "λύσῃ": "lýsē",
+      "λύσῃς": "lýsēs",
+      "λύσητε": "lýsēte",
+      "λῦσον": "lŷson",
+      "λύσω": "lýsō"
+    }
+  },
+  "Λωΐς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3090" },
+    "inflections": {
+      "λωΐδι": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G3090" }
+        }
+      ]
+    },
+    "transliterations": { "λωΐδι": "lōḯdi" }
+  },
+  "Λώτ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G3091" },
+    "inflections": {
+      "λώτ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G3091" }
+        }
+      ],
+      "λὼτ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G3091" }
+        }
+      ]
+    },
+    "transliterations": { "λώτ": "lṓt", "λὼτ": "lṑt" }
+  }
+}

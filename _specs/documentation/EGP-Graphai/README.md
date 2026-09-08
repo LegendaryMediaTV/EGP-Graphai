@@ -12,6 +12,7 @@ Project overview, install/run commands, and JSON examples live in the [project R
 | Add a new translation, validate data, or change the export pipeline     | [data-pipeline.md](./data-pipeline.md)  |
 | Import a translation from USFM source files, or add deuterocanon books  | [usfm-import.md](./usfm-import.md)      |
 | Modify the web reader, add a study-tool toggle, or change the API shape | [web-reader.md](./web-reader.md)        |
+| Work on roots, inflections, parses, or the Strong's crosswalk           | [lexical-map.md](./lexical-map.md)      |
 
 For AI-agent reference material, such as file categorization, architectural domains, and style guides, see [_specs/ai-context/](../../ai-context/). The two folders are complementary: this folder is narrative, the ai-context folder is structured for retrieval.
 
