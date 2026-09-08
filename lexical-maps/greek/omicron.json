@@ -3742,52 +3742,52 @@
     "language": "greek",
     "pos": "verb",
     "shortDefinition": "to observe, stare at; fig: to see clearly, watch out",
-    "indices": { "strongs": ["G2400", "G3708"] },
+    "indices": { "strongs": ["G1492", "G2400", "G3700", "G3708"] },
     "inflections": {
       "εἶδεν": [
         {
           "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "εἶδες": [
         {
           "parse": ["verb", "second", "aor", "act", "ind", "pers-2", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "εἴδετε": [
         {
           "parse": ["verb", "second", "aor", "act", "ind", "pers-2", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "εἴδομεν": [
         {
           "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "εἴδομέν": [
         {
           "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "εἶδον": [
         {
           "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         },
         {
           "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "εἶδόν": [
         {
           "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἑώρακα": [
@@ -3871,37 +3871,37 @@
       "ἰδεῖν": [
         {
           "parse": ["verb", "second", "aor", "act", "inf"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἴδετε": [
         {
           "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἴδῃ": [
         {
           "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἴδῃς": [
         {
           "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἴδητε": [
         {
           "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἰδόντες": [
         {
           "parse": ["verb", "second", "aor", "act", "ptc", "nom", "pl", "masc"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἰδού": [
@@ -3919,37 +3919,37 @@
       "ἰδοῦσα": [
         {
           "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "fem"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἴδω": [
         {
           "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἴδωμεν": [
         {
           "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἰδών": [
         {
           "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "masc"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἰδὼν": [
         {
           "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "masc"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ἴδωσιν": [
         {
           "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G1492" }
         }
       ],
       "ὁρᾷ": [
@@ -4007,97 +4007,97 @@
       "ὀφθείς": [
         {
           "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὀφθέντες": [
         {
           "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὀφθέντος": [
         {
           "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "masc"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὀφθήσεται": [
         {
           "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὀφθήσομαί": [
         {
           "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὄψει": [
         {
           "parse": ["verb", "attic", "fut", "mid-dep", "ind", "pers-2", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὄψεσθε": [
         {
           "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὄψεσθέ": [
         {
           "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὄψεται": [
         {
           "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὄψησθε": [
         {
           "parse": ["verb", "second", "aor", "mid-dep", "subj", "pers-2", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὄψομαι": [
         {
           "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὀψόμεθα": [
         {
           "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὄψονται": [
         {
           "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὤφθη": [
         {
           "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὤφθην": [
         {
           "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ],
       "ὤφθησαν": [
         {
           "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
-          "indices": { "strongs": "G3708" }
+          "indices": { "strongs": "G3700" }
         }
       ]
     },

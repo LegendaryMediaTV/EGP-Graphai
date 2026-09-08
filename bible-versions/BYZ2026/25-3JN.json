@@ -47,7 +47,7 @@
         "strong": "G2172",
         "morph": "V-PNI-1S"
       },
-      { "text": " σε", "script": "G", "strong": "G4771", "morph": "P-2AS" },
+      { "text": " σε", "script": "G", "strong": "G4571", "morph": "P-2AS" },
       {
         "text": " εὐοδοῦσθαι",
         "script": "G",
@@ -68,7 +68,7 @@
         "strong": "G2137",
         "morph": "V-PPI-3S"
       },
-      { "text": " σου", "script": "G", "strong": "G4771", "morph": "P-2GS" },
+      { "text": " σου", "script": "G", "strong": "G4675", "morph": "P-2GS" },
       { "text": " ἡ", "script": "G", "strong": "G3588", "morph": "T-NSF" },
       { "text": " ψυχή.", "script": "G", "strong": "G5590", "morph": "N-NSF" }
     ]
@@ -100,7 +100,7 @@
         "strong": "G3140",
         "morph": "V-PAP-GPM"
       },
-      { "text": " σου", "script": "G", "strong": "G4771", "morph": "P-2GS" },
+      { "text": " σου", "script": "G", "strong": "G4675", "morph": "P-2GS" },
       { "text": " τῇ", "script": "G", "strong": "G3588", "morph": "T-DSF" },
       {
         "text": " ἀληθείᾳ,",
@@ -128,10 +128,10 @@
       {
         "text": "Μειζοτέραν",
         "script": "G",
-        "strong": "G3173",
+        "strong": "G3186",
         "morph": "A-ASF-C"
       },
-      { "text": " τούτων", "script": "G", "strong": "G3778", "morph": "D-GPN" },
+      { "text": " τούτων", "script": "G", "strong": "G5130", "morph": "D-GPN" },
       { "text": " οὐκ", "script": "G", "strong": "G3756", "morph": "PRT-N" },
       { "text": " ἔχω", "script": "G", "strong": "G2192", "morph": "V-PAI-1S" },
       {
@@ -251,7 +251,7 @@
         "strong": "G3140",
         "morph": "V-AAI-3P"
       },
-      { "text": " σου", "script": "G", "strong": "G4771", "morph": "P-2GS" },
+      { "text": " σου", "script": "G", "strong": "G4675", "morph": "P-2GS" },
       { "text": " τῇ", "script": "G", "strong": "G3588", "morph": "T-DSF" },
       { "text": " ἀγάπῃ", "script": "G", "strong": "G26", "morph": "N-DSF" },
       { "text": " ἐνώπιον", "script": "G", "strong": "G1799", "morph": "PREP" },
@@ -356,7 +356,7 @@
     "chapter": 1,
     "verse": 8,
     "content": [
-      { "text": "Ἡμεῖς", "script": "G", "strong": "G1473", "morph": "P-1NP" },
+      { "text": "Ἡμεῖς", "script": "G", "strong": "G2249", "morph": "P-1NP" },
       { "text": " οὖν", "script": "G", "strong": "G3767", "morph": "CONJ" },
       {
         "text": " ὀφείλομεν",
@@ -453,7 +453,7 @@
         "strong": "G1926",
         "morph": "V-PNI-3S"
       },
-      { "text": " ἡμᾶς.", "script": "G", "strong": "G1473", "morph": "P-1AP" }
+      { "text": " ἡμᾶς.", "script": "G", "strong": "G2248", "morph": "P-1AP" }
     ]
   },
   {
@@ -462,7 +462,7 @@
     "verse": 10,
     "content": [
       { "text": "Διὰ", "script": "G", "strong": "G1223", "morph": "PREP" },
-      { "text": " τοῦτο,", "script": "G", "strong": "G3778", "morph": "D-ASN" },
+      { "text": " τοῦτο,", "script": "G", "strong": "G5124", "morph": "D-ASN" },
       { "text": " ἐὰν", "script": "G", "strong": "G1437", "morph": "COND" },
       {
         "text": " ἔλθω,",
@@ -499,7 +499,7 @@
         "strong": "G5396",
         "morph": "V-PAP-NSM"
       },
-      { "text": " ἡμᾶς·", "script": "G", "strong": "G1473", "morph": "P-1AP" },
+      { "text": " ἡμᾶς·", "script": "G", "strong": "G2248", "morph": "P-1AP" },
       { "text": " καὶ", "script": "G", "strong": "G2532", "morph": "CONJ" },
       { "text": " μὴ", "script": "G", "strong": "G3361", "morph": "PRT-N" },
       {
@@ -512,7 +512,7 @@
       {
         "text": " τούτοις,",
         "script": "G",
-        "strong": "G3778",
+        "strong": "G5125",
         "morph": "D-DPN"
       },
       { "text": " οὔτε", "script": "G", "strong": "G3777", "morph": "CONJ-N" },
@@ -606,7 +606,7 @@
       {
         "text": " ἐστίν·",
         "script": "G",
-        "strong": "G1510",
+        "strong": "G2076",
         "morph": "V-PAI-3S"
       },
       {
@@ -692,7 +692,7 @@
         "morph": "N-GSF"
       },
       { "text": " καὶ", "script": "G", "strong": "G2532", "morph": "CONJ" },
-      { "text": " ἡμεῖς", "script": "G", "strong": "G1473", "morph": "P-1NP" },
+      { "text": " ἡμεῖς", "script": "G", "strong": "G2249", "morph": "P-1NP" },
       { "text": " δὲ", "script": "G", "strong": "G1161", "morph": "CONJ" },
       {
         "text": " μαρτυροῦμεν,",
@@ -769,12 +769,12 @@
         "strong": "G3141",
         "morph": "N-NSF"
       },
-      { "text": " ἡμῶν", "script": "G", "strong": "G1473", "morph": "P-1GP" },
+      { "text": " ἡμῶν", "script": "G", "strong": "G2257", "morph": "P-1GP" },
       { "text": " ἀληθής", "script": "G", "strong": "G227", "morph": "A-NSF" },
       {
         "text": " ἐστιν.",
         "script": "G",
-        "strong": "G1510",
+        "strong": "G2076",
         "morph": "V-PAI-3S"
       }
     ]
@@ -834,7 +834,7 @@
         "strong": "G2563",
         "morph": "N-GSM"
       },
-      { "text": " σοι", "script": "G", "strong": "G4771", "morph": "P-2DS" },
+      { "text": " σοι", "script": "G", "strong": "G4671", "morph": "P-2DS" },
       {
         "text": " γράψαι·",
         "script": "G",
@@ -877,10 +877,10 @@
             { "text": " σε ἰδεῖν", "script": "G" }
           ]
         },
-        "strong": "G3708",
+        "strong": "G1492",
         "morph": "V-2AAN"
       },
-      { "text": " σε,", "script": "G", "strong": "G4771", "morph": "P-2AS" },
+      { "text": " σε,", "script": "G", "strong": "G4571", "morph": "P-2AS" },
       { "text": " καὶ", "script": "G", "strong": "G2532", "morph": "CONJ" },
       { "text": " στόμα", "script": "G", "strong": "G4750", "morph": "N-ASN" },
       { "text": " πρὸς", "script": "G", "strong": "G4314", "morph": "PREP" },
@@ -892,14 +892,14 @@
         "morph": "V-FAI-1P"
       },
       { "text": " Εἰρήνη", "script": "G", "strong": "G1515", "morph": "N-NSF" },
-      { "text": " σοι.", "script": "G", "strong": "G4771", "morph": "P-2DS" },
+      { "text": " σοι.", "script": "G", "strong": "G4671", "morph": "P-2DS" },
       {
         "text": " Ἀσπάζονταί",
         "script": "G",
         "strong": "G782",
         "morph": "V-PNI-3P"
       },
-      { "text": " σε", "script": "G", "strong": "G4771", "morph": "P-2AS" },
+      { "text": " σε", "script": "G", "strong": "G4571", "morph": "P-2AS" },
       { "text": " οἱ", "script": "G", "strong": "G3588", "morph": "T-NPM" },
       { "text": " φίλοι.", "script": "G", "strong": "G5384", "morph": "A-NPM" },
       {

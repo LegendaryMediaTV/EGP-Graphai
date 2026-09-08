@@ -15,10 +15,18 @@
     "indices": { "strongs": "G1437" },
     "inflections": {
       "ἐάν": [{ "parse": ["cond"], "indices": { "strongs": "G1437" } }],
-      "ἐὰν": [{ "parse": ["cond"], "indices": { "strongs": "G1437" } }],
+      "ἐὰν": [{ "parse": ["cond"], "indices": { "strongs": "G1437" } }]
+    },
+    "transliterations": { "ἐάν": "eán", "ἐὰν": "eàn" }
+  },
+  "ἐάνπερ": {
+    "language": "greek",
+    "pos": "cond",
+    "indices": { "strongs": "G1437" },
+    "inflections": {
       "ἐάνπερ": [{ "parse": ["cond"], "indices": { "strongs": "G1437" } }]
     },
-    "transliterations": { "ἐάν": "eán", "ἐὰν": "eàn", "ἐάνπερ": "eánper" }
+    "transliterations": { "ἐάνπερ": "eánper" }
   },
   "ἑαυτοῦ": {
     "language": "greek",
@@ -1328,7 +1336,7 @@
       "ἐμὲ": [
         {
           "parse": ["pron-pers", "pers-1", "acc", "sg"],
-          "indices": { "strongs": "G1473" }
+          "indices": { "strongs": "G1691" }
         }
       ],
       "ἐμοί": [
@@ -1340,7 +1348,7 @@
       "ἐμοὶ": [
         {
           "parse": ["pron-pers", "pers-1", "dat", "sg"],
-          "indices": { "strongs": "G1473" }
+          "indices": { "strongs": "G1698" }
         }
       ],
       "ἐμοῦ": [
@@ -1382,7 +1390,7 @@
       "μέ": [
         {
           "parse": ["pron-pers", "pers-1", "acc", "sg"],
-          "indices": { "strongs": "G1473" }
+          "indices": { "strongs": "G3165" }
         }
       ],
       "μοι": [
@@ -1394,7 +1402,7 @@
       "μοί": [
         {
           "parse": ["pron-pers", "pers-1", "dat", "sg"],
-          "indices": { "strongs": "G1473" }
+          "indices": { "strongs": "G3427" }
         }
       ],
       "μου": [
@@ -1406,7 +1414,7 @@
       "μού": [
         {
           "parse": ["pron-pers", "pers-1", "gen", "sg"],
-          "indices": { "strongs": "G1473" }
+          "indices": { "strongs": "G3450" }
         }
       ]
     },
@@ -2245,7 +2253,7 @@
       "ἔστωσαν": [
         {
           "parse": ["verb", "pres", "act", "imp", "pers-3", "pl"],
-          "indices": { "strongs": "G1510" }
+          "indices": { "strongs": "G2077" }
         }
       ],
       "ᾖ": [
@@ -5394,6 +5402,15 @@
       "ἐκπεμφθέντες": "ekpemphthéntes",
       "ἐξέπεμψαν": "exépempsan"
     }
+  },
+  "ἐκπερισσοῦ": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G4053" },
+    "inflections": {
+      "ἐκπερισσοῦ": [{ "parse": ["adv"], "indices": { "strongs": "G4053" } }]
+    },
+    "transliterations": { "ἐκπερισσοῦ": "ekperissoû" }
   },
   "ἐκπετάννυμι": {
     "language": "greek",
@@ -10120,10 +10137,19 @@
     "pos": "adv",
     "indices": { "strongs": "G1759" },
     "inflections": {
-      "ἐνθάδε": [{ "parse": ["adv"], "indices": { "strongs": "G1759" } }],
-      "ἔνθεν": [{ "parse": ["adv"], "indices": { "strongs": "G1759" } }]
+      "ἐνθάδε": [{ "parse": ["adv"], "indices": { "strongs": "G1759" } }]
     },
-    "transliterations": { "ἐνθάδε": "entháde", "ἔνθεν": "énthen" }
+    "transliterations": { "ἐνθάδε": "entháde" }
+  },
+  "ἔνθεν": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "from here",
+    "indices": { "strongs": "G1782" },
+    "inflections": {
+      "ἔνθεν": [{ "parse": ["adv"], "indices": { "strongs": "G1782" } }]
+    },
+    "transliterations": { "ἔνθεν": "énthen" }
   },
   "ἐνθυμέομαι": {
     "language": "greek",
@@ -19650,12 +19676,12 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a clothing, apparel",
-    "indices": { "strongs": "G2066" },
+    "indices": { "strongs": ["G2066", "G2067"] },
     "inflections": {
       "ἐσθήσεσιν": [
         {
           "parse": ["noun", "dat", "pl", "fem"],
-          "indices": { "strongs": "G2066" }
+          "indices": { "strongs": "G2067" }
         }
       ],
       "ἐσθῆτα": [
@@ -21350,15 +21376,9 @@
     "shortDefinition": "immediately",
     "indices": { "strongs": "G2112" },
     "inflections": {
-      "εὐθέως": [{ "parse": ["adv"], "indices": { "strongs": "G2112" } }],
-      "εὐθύς": [{ "parse": ["adv"], "indices": { "strongs": "G2112" } }],
-      "εὐθὺς": [{ "parse": ["adv"], "indices": { "strongs": "G2112" } }]
+      "εὐθέως": [{ "parse": ["adv"], "indices": { "strongs": "G2112" } }]
     },
-    "transliterations": {
-      "εὐθέως": "euthéōs",
-      "εὐθύς": "euthýs",
-      "εὐθὺς": "euthỳs"
-    }
+    "transliterations": { "εὐθέως": "euthéōs" }
   },
   "εὐθυδρομέω": {
     "language": "greek",
@@ -21415,7 +21435,7 @@
   },
   "εὔθυμος": {
     "language": "greek",
-    "pos": "adv",
+    "pos": "adj",
     "indices": { "strongs": "G2115" },
     "inflections": {
       "εὔθυμοι": [
@@ -21474,12 +21494,16 @@
           "parse": ["adj", "acc", "pl", "fem"],
           "indices": { "strongs": "G2117" }
         }
-      ]
+      ],
+      "εὐθύς": [{ "parse": ["adv"], "indices": { "strongs": "G2117" } }],
+      "εὐθὺς": [{ "parse": ["adv"], "indices": { "strongs": "G2117" } }]
     },
     "transliterations": {
       "εὐθεῖα": "eutheîa",
       "εὐθεῖαν": "eutheîan",
-      "εὐθείας": "eutheías"
+      "εὐθείας": "eutheías",
+      "εὐθύς": "euthýs",
+      "εὐθὺς": "euthỳs"
     }
   },
   "εὐθύτης": {

@@ -1020,7 +1020,7 @@
     "language": "greek",
     "pos": "verb",
     "shortDefinition": "to essentially/inherently be",
-    "indices": { "strongs": "G5225" },
+    "indices": { "strongs": ["G5224", "G5225"] },
     "inflections": {
       "ὑπάρχει": [
         {
@@ -1037,11 +1037,11 @@
       "ὑπάρχοντα": [
         {
           "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"],
-          "indices": { "strongs": "G5225" }
+          "indices": { "strongs": "G5224" }
         },
         {
           "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"],
-          "indices": { "strongs": "G5225" }
+          "indices": { "strongs": ["G5224", "G5225"] }
         },
         {
           "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
@@ -1051,7 +1051,7 @@
       "ὑπάρχοντά": [
         {
           "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"],
-          "indices": { "strongs": "G5225" }
+          "indices": { "strongs": "G5224" }
         }
       ],
       "ὑπάρχοντας": [
@@ -1079,7 +1079,7 @@
       "ὑπαρχόντων": [
         {
           "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"],
-          "indices": { "strongs": "G5225" }
+          "indices": { "strongs": "G5224" }
         }
       ],
       "ὑπαρχούσης": [
@@ -1091,7 +1091,7 @@
       "ὑπάρχουσιν": [
         {
           "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "neut"],
-          "indices": { "strongs": "G5225" }
+          "indices": { "strongs": "G5224" }
         },
         {
           "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],

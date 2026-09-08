@@ -1529,7 +1529,7 @@
     "pos": "adj",
     "citationForms": ["ἅγιος", "ἁγία", "ἅγιον"],
     "shortDefinition": "to be holy, sacred, dedicated, sanctified",
-    "indices": { "strongs": "G40" },
+    "indices": { "strongs": ["G39", "G40"] },
     "inflections": {
       "ἁγία": [
         {
@@ -1546,11 +1546,11 @@
       "ἅγια": [
         {
           "parse": ["adj", "nom", "pl", "neut"],
-          "indices": { "strongs": "G40" }
+          "indices": { "strongs": "G39" }
         },
         {
           "parse": ["adj", "acc", "pl", "neut"],
-          "indices": { "strongs": "G40" }
+          "indices": { "strongs": "G39" }
         }
       ],
       "ἅγιά": [
@@ -1608,7 +1608,7 @@
       "ἅγιον": [
         {
           "parse": ["adj", "acc", "sg", "neut"],
-          "indices": { "strongs": "G40" }
+          "indices": { "strongs": ["G39", "G40"] }
         },
         {
           "parse": ["adj", "acc", "sg", "masc"],
@@ -1670,7 +1670,7 @@
         },
         {
           "parse": ["adj", "gen", "pl", "neut"],
-          "indices": { "strongs": "G40" }
+          "indices": { "strongs": "G39" }
         }
       ],
       "ἁγιωτάτῃ": [
@@ -5541,7 +5541,7 @@
       "αἰτίου": [
         {
           "parse": ["adj", "gen", "sg", "neut"],
-          "indices": { "strongs": "G158" }
+          "indices": { "strongs": "G159" }
         }
       ]
     },
@@ -17271,7 +17271,7 @@
       "ἀπέχει": [
         {
           "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G566" }
+          "indices": { "strongs": ["G566", "G568"] }
         }
       ],
       "ἀπέχεσθαι": [
@@ -21606,9 +21606,14 @@
   "ἆρα": {
     "language": "greek",
     "pos": "prt",
-    "indices": { "strongs": "G687" },
+    "indices": { "strongs": ["G686", "G687"] },
     "inflections": {
-      "ἄρα": [{ "parse": ["prt", "interr"], "indices": { "strongs": "G687" } }],
+      "ἄρα": [
+        {
+          "parse": ["prt", "interr"],
+          "indices": { "strongs": ["G686", "G687"] }
+        }
+      ],
       "ἆρα": [{ "parse": ["prt", "interr"], "indices": { "strongs": "G687" } }],
       "ἆρά": [{ "parse": ["prt", "interr"], "indices": { "strongs": "G687" } }]
     },

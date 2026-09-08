@@ -710,7 +710,7 @@
   "μακρός": {
     "language": "greek",
     "pos": "adj",
-    "indices": { "strongs": "G3117" },
+    "indices": { "strongs": ["G3112", "G3117"] },
     "inflections": {
       "μακρὰ": [
         {
@@ -721,7 +721,7 @@
       "μακράν": [
         {
           "parse": ["adj", "acc", "sg", "fem"],
-          "indices": { "strongs": "G3117" }
+          "indices": { "strongs": ["G3112", "G3117"] }
         }
       ]
     },
@@ -5793,7 +5793,7 @@
     "pos": "adj",
     "citationForms": ["μικρότερος", "μικρά", "μικρότερον"],
     "shortDefinition": "to be small, little, less",
-    "indices": { "strongs": "G3398" },
+    "indices": { "strongs": ["G3397", "G3398"] },
     "inflections": {
       "μικρὰ": [
         {
@@ -5822,17 +5822,17 @@
       "μικρόν": [
         {
           "parse": ["adj", "acc", "sg", "neut"],
-          "indices": { "strongs": "G3398" }
+          "indices": { "strongs": "G3397" }
         },
         {
           "parse": ["adj", "nom", "sg", "neut"],
-          "indices": { "strongs": "G3398" }
+          "indices": { "strongs": "G3397" }
         }
       ],
       "μικρὸν": [
         {
           "parse": ["adj", "acc", "sg", "neut"],
-          "indices": { "strongs": "G3398" }
+          "indices": { "strongs": "G3397" }
         },
         {
           "parse": ["adj", "nom", "sg", "neut"],
@@ -5840,7 +5840,7 @@
         },
         {
           "parse": ["adj", "acc", "sg", "masc"],
-          "indices": { "strongs": "G3398" }
+          "indices": { "strongs": ["G3397", "G3398"] }
         }
       ],
       "μικρὸς": [

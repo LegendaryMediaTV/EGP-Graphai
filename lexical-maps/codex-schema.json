@@ -23,7 +23,7 @@
               "minItems": 2
             }
           ],
-          "description": "Strong's number, or an array of them when the tradition files one word under several numbers (an adverbial case form given its own entry, for instance). Same pattern as strongsNumber in content-schema.json. Must resolve in the lexicon (checked outside this schema)."
+          "description": "Strong's number, or an array of them when the tradition files one word under several numbers (an adverbial case form given its own entry, for instance). On a cell, an array means the index splits this one spelling and parse by sense, so no single number belongs to the cell and the corpus tag decides each token. Same pattern as strongsNumber in content-schema.json. Must resolve in the lexicon (checked outside this schema)."
         }
       },
       "additionalProperties": {

@@ -405,12 +405,12 @@
   "ἴδε": {
     "language": "greek",
     "pos": "verb",
-    "indices": { "strongs": "G2396" },
+    "indices": { "strongs": "G1492" },
     "inflections": {
       "ἴδε": [
         {
           "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
-          "indices": { "strongs": "G2396" }
+          "indices": { "strongs": "G1492" }
         }
       ]
     },
@@ -1900,7 +1900,7 @@
       "ἰούδα": [
         {
           "parse": ["noun", "gen", "sg", "masc"],
-          "indices": { "strongs": "G2448" }
+          "indices": { "strongs": ["G2448", "G2455"] }
         },
         {
           "parse": ["noun", "voc", "sg", "masc"],

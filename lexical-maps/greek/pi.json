@@ -8488,9 +8488,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be abundant",
-    "indices": { "strongs": ["G4053", "G4055"] },
+    "indices": { "strongs": ["G4053", "G4054", "G4055"] },
     "inflections": {
-      "ἐκπερισσοῦ": [{ "parse": ["adv"], "indices": { "strongs": "G4053" } }],
       "περισσόν": [
         {
           "parse": ["adj", "nom", "sg", "neut"],
@@ -8510,19 +8509,19 @@
       "περισσοτέρᾳ": [
         {
           "parse": ["adj", "comp", "dat", "sg", "fem"],
-          "indices": { "strongs": "G4055" }
+          "indices": { "strongs": "G4053" }
         }
       ],
       "περισσοτέραν": [
         {
           "parse": ["adj", "comp", "acc", "sg", "fem"],
-          "indices": { "strongs": "G4055" }
+          "indices": { "strongs": "G4053" }
         }
       ],
       "περισσότερον": [
         {
           "parse": ["adj", "comp", "acc", "sg", "neut"],
-          "indices": { "strongs": "G4053" }
+          "indices": { "strongs": ["G4053", "G4054", "G4055"] }
         },
         {
           "parse": ["adj", "comp", "acc", "sg", "masc"],
@@ -8530,7 +8529,7 @@
         },
         {
           "parse": ["adj", "comp", "nom", "sg", "neut"],
-          "indices": { "strongs": "G4053" }
+          "indices": { "strongs": "G4054" }
         }
       ],
       "περισσότερόν": [
@@ -8541,7 +8540,6 @@
       ]
     },
     "transliterations": {
-      "ἐκπερισσοῦ": "ekperissoû",
       "περισσόν": "perissón",
       "περισσὸν": "perissòn",
       "περισσοτέρᾳ": "perissotéra",
@@ -8550,7 +8548,7 @@
       "περισσότερόν": "perissóterón"
     }
   },
-  "περισσοτέρως": {
+  "περισσῶς": {
     "language": "greek",
     "pos": "adv",
     "indices": { "strongs": ["G4056", "G4057"] },
@@ -16312,13 +16310,13 @@
       "πρᾳΰτητι": [
         {
           "parse": ["noun", "dat", "sg", "fem"],
-          "indices": { "strongs": "G4236" }
+          "indices": { "strongs": "G4240" }
         }
       ],
       "πρᾳΰτητος": [
         {
           "parse": ["noun", "gen", "sg", "fem"],
-          "indices": { "strongs": "G4236" }
+          "indices": { "strongs": "G4240" }
         }
       ]
     },
@@ -16560,7 +16558,7 @@
       "πραῢς": [
         {
           "parse": ["adj", "nom", "sg", "masc"],
-          "indices": { "strongs": "G4235" }
+          "indices": { "strongs": "G4239" }
         }
       ]
     },
@@ -20734,12 +20732,12 @@
   "πρότερος": {
     "language": "greek",
     "pos": "adj",
-    "indices": { "strongs": "G4386" },
+    "indices": { "strongs": ["G4386", "G4387"] },
     "inflections": {
       "προτέραν": [
         {
           "parse": ["adj", "comp", "acc", "sg", "fem"],
-          "indices": { "strongs": "G4386" }
+          "indices": { "strongs": "G4387" }
         }
       ],
       "πρότερον": [
