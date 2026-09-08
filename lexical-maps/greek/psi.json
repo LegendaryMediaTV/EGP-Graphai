@@ -1,0 +1,840 @@
+{
+  "ψάλλω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to play music",
+    "indices": { "strongs": "G5567" },
+    "inflections": {
+      "ψαλλέτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G5567" }
+        }
+      ],
+      "ψάλλοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5567" }
+        }
+      ],
+      "ψαλῶ": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5567" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψαλλέτω": "psallétō",
+      "ψάλλοντες": "psállontes",
+      "ψαλῶ": "psalō̂"
+    }
+  },
+  "ψαλμός": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a psalm",
+    "indices": { "strongs": "G5568" },
+    "inflections": {
+      "ψαλμοῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5568" }
+        }
+      ],
+      "ψαλμὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5568" }
+        }
+      ],
+      "ψαλμῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5568" }
+        }
+      ],
+      "ψαλμῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5568" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψαλμοῖς": "psalmoîs",
+      "ψαλμὸν": "psalmòn",
+      "ψαλμῷ": "psalmō̂",
+      "ψαλμῶν": "psalmō̂n"
+    }
+  },
+  "ψευδάδελφος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5569" },
+    "inflections": {
+      "ψευδαδέλφοις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5569" }
+        }
+      ],
+      "ψευδαδέλφους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5569" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψευδαδέλφοις": "pseudadélphois",
+      "ψευδαδέλφους": "pseudadélphous"
+    }
+  },
+  "ψευδαπόστολος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5570" },
+    "inflections": {
+      "ψευδαπόστολοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5570" }
+        }
+      ]
+    },
+    "transliterations": { "ψευδαπόστολοι": "pseudapóstoloi" }
+  },
+  "ψευδής": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be lying, false",
+    "indices": { "strongs": "G5571" },
+    "inflections": {
+      "ψευδεῖς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5571" }
+        }
+      ],
+      "ψευδέσιν": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5571" }
+        }
+      ]
+    },
+    "transliterations": { "ψευδεῖς": "pseudeîs", "ψευδέσιν": "pseudésin" }
+  },
+  "ψευδοδιδάσκαλος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5572" },
+    "inflections": {
+      "ψευδοδιδάσκαλοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5572" }
+        }
+      ]
+    },
+    "transliterations": { "ψευδοδιδάσκαλοι": "pseudodidáskaloi" }
+  },
+  "ψευδολόγος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5573" },
+    "inflections": {
+      "ψευδολόγων": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5573" }
+        }
+      ]
+    },
+    "transliterations": { "ψευδολόγων": "pseudológōn" }
+  },
+  "ψεύδομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to lie",
+    "indices": { "strongs": "G5574" },
+    "inflections": {
+      "ἐψεύσω": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5574" }
+        }
+      ],
+      "ψεύδεσθε": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5574" }
+        }
+      ],
+      "ψεύδομαι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5574" }
+        }
+      ],
+      "ψευδόμεθα": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5574" }
+        }
+      ],
+      "ψευδόμενοι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5574" }
+        }
+      ],
+      "ψεύδονται": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5574" }
+        }
+      ],
+      "ψεύσασθαι": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "inf"],
+          "indices": { "strongs": "G5574" }
+        }
+      ],
+      "ψεύσασθαί": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "inf"],
+          "indices": { "strongs": "G5574" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐψεύσω": "epseúsō",
+      "ψεύδεσθε": "pseúdesthe",
+      "ψεύδομαι": "pseúdomai",
+      "ψευδόμεθα": "pseudómetha",
+      "ψευδόμενοι": "pseudómenoi",
+      "ψεύδονται": "pseúdontai",
+      "ψεύσασθαι": "pseúsasthai",
+      "ψεύσασθαί": "pseúsasthaí"
+    }
+  },
+  "ψευδομαρτυρέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5576" },
+    "inflections": {
+      "ἐψευδομαρτύρουν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5576" }
+        }
+      ],
+      "ψευδομαρτυρήσεις": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5576" }
+        }
+      ],
+      "ψευδομαρτυρήσῃς": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G5576" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐψευδομαρτύρουν": "epseudomartýroun",
+      "ψευδομαρτυρήσεις": "pseudomartyrḗseis",
+      "ψευδομαρτυρήσῃς": "pseudomartyrḗsēs"
+    }
+  },
+  "ψευδομαρτυρία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5577" },
+    "inflections": {
+      "ψευδομαρτυρίαι": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5577" }
+        }
+      ],
+      "ψευδομαρτυρίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5577" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψευδομαρτυρίαι": "pseudomartyríai",
+      "ψευδομαρτυρίαν": "pseudomartyrían"
+    }
+  },
+  "ψευδομάρτυς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5575" },
+    "inflections": {
+      "ψευδομάρτυρες": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5575" }
+        }
+      ],
+      "ψευδομαρτύρων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5575" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψευδομάρτυρες": "pseudomártyres",
+      "ψευδομαρτύρων": "pseudomartýrōn"
+    }
+  },
+  "ψευδοπροφήτης": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a false prophet",
+    "indices": { "strongs": "G5578" },
+    "inflections": {
+      "ψευδοπροφῆται": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5578" }
+        }
+      ],
+      "ψευδοπροφήταις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5578" }
+        }
+      ],
+      "ψευδοπροφήτην": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5578" }
+        }
+      ],
+      "ψευδοπροφήτης": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5578" }
+        }
+      ],
+      "ψευδοπροφήτου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5578" }
+        }
+      ],
+      "ψευδοπροφητῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5578" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψευδοπροφῆται": "pseudoprophē̂tai",
+      "ψευδοπροφήταις": "pseudoprophḗtais",
+      "ψευδοπροφήτην": "pseudoprophḗtēn",
+      "ψευδοπροφήτης": "pseudoprophḗtēs",
+      "ψευδοπροφήτου": "pseudoprophḗtou",
+      "ψευδοπροφητῶν": "pseudoprophētō̂n"
+    }
+  },
+  "ψεῦδος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5579" },
+    "inflections": {
+      "ψεύδει": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5579" }
+        }
+      ],
+      "ψεῦδος": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5579" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5579" }
+        }
+      ],
+      "ψεύδους": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5579" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψεύδει": "pseúdei",
+      "ψεῦδος": "pseûdos",
+      "ψεύδους": "pseúdous"
+    }
+  },
+  "ψευδόχριστος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5580" },
+    "inflections": {
+      "ψευδόχριστοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5580" }
+        }
+      ]
+    },
+    "transliterations": { "ψευδόχριστοι": "pseudóchristoi" }
+  },
+  "ψευδώνυμος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5581" },
+    "inflections": {
+      "ψευδωνύμου": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5581" }
+        }
+      ]
+    },
+    "transliterations": { "ψευδωνύμου": "pseudōnýmou" }
+  },
+  "ψεῦσμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5582" },
+    "inflections": {
+      "ψεύσματι": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5582" }
+        }
+      ]
+    },
+    "transliterations": { "ψεύσματι": "pseúsmati" }
+  },
+  "ψεύστης": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a liar",
+    "indices": { "strongs": "G5583" },
+    "inflections": {
+      "ψεῦσται": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5583" }
+        }
+      ],
+      "ψεύσταις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5583" }
+        }
+      ],
+      "ψεύστην": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5583" }
+        }
+      ],
+      "ψεύστης": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5583" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψεῦσται": "pseûstai",
+      "ψεύσταις": "pseústais",
+      "ψεύστην": "pseústēn",
+      "ψεύστης": "pseústēs"
+    }
+  },
+  "ψηλαφάω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to handle, touch",
+    "indices": { "strongs": "G5584" },
+    "inflections": {
+      "ἐψηλάφησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5584" }
+        }
+      ],
+      "ψηλαφήσατέ": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5584" }
+        }
+      ],
+      "ψηλαφήσειαν": [
+        {
+          "parse": ["verb", "aor", "act", "opt", "pers-3", "pl"],
+          "indices": { "strongs": "G5584" }
+        }
+      ],
+      "ψηλαφωμένῳ": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5584" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐψηλάφησαν": "epsēláphēsan",
+      "ψηλαφήσατέ": "psēlaphḗsaté",
+      "ψηλαφήσειαν": "psēlaphḗseian",
+      "ψηλαφωμένῳ": "psēlaphōménō"
+    }
+  },
+  "ψηφίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5585" },
+    "inflections": {
+      "ψηφίζει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5585" }
+        }
+      ],
+      "ψηφισάτω": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G5585" }
+        }
+      ]
+    },
+    "transliterations": { "ψηφίζει": "psēphízei", "ψηφισάτω": "psēphisátō" }
+  },
+  "ψῆφος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a pebble; fig. a verdict",
+    "indices": { "strongs": "G5586" },
+    "inflections": {
+      "ψῆφον": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5586" }
+        }
+      ]
+    },
+    "transliterations": { "ψῆφον": "psē̂phon" }
+  },
+  "ψιθυρισμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5587" },
+    "inflections": {
+      "ψιθυρισμοί": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5587" }
+        }
+      ]
+    },
+    "transliterations": { "ψιθυρισμοί": "psithyrismoí" }
+  },
+  "ψιθυριστής": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5588" },
+    "inflections": {
+      "ψιθυριστάς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5588" }
+        }
+      ]
+    },
+    "transliterations": { "ψιθυριστάς": "psithyristás" }
+  },
+  "ψιχίον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5589" },
+    "inflections": {
+      "ψιχίων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5589" }
+        }
+      ]
+    },
+    "transliterations": { "ψιχίων": "psichíōn" }
+  },
+  "ψυχή": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a gentle breath; fig. a light breeze, life-breath, living creature, a soul",
+    "indices": { "strongs": "G5590" },
+    "inflections": {
+      "ψυχαί": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχαὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχαῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχάς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχὰς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχή": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5590" }
+        },
+        {
+          "parse": ["noun", "voc", "sg", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχὴ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχῇ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχήν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ],
+      "ψυχῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5590" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψυχαί": "psychaí",
+      "ψυχαὶ": "psychaì",
+      "ψυχαῖς": "psychaîs",
+      "ψυχάς": "psychás",
+      "ψυχὰς": "psychàs",
+      "ψυχή": "psychḗ",
+      "ψυχὴ": "psychḕ",
+      "ψυχῇ": "psychē̂",
+      "ψυχήν": "psychḗn",
+      "ψυχὴν": "psychḕn",
+      "ψυχῆς": "psychē̂s",
+      "ψυχῶν": "psychō̂n"
+    }
+  },
+  "ψυχικός": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["ψυχικός", "ψυχική", "ψυχικόν"],
+    "indices": { "strongs": "G5591" },
+    "inflections": {
+      "ψυχική": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5591" }
+        }
+      ],
+      "ψυχικοί": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5591" }
+        }
+      ],
+      "ψυχικόν": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5591" }
+        }
+      ],
+      "ψυχικὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5591" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψυχική": "psychikḗ",
+      "ψυχικοί": "psychikoí",
+      "ψυχικόν": "psychikón",
+      "ψυχικὸς": "psychikòs"
+    }
+  },
+  "ψύχος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5592" },
+    "inflections": {
+      "ψύχει": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5592" }
+        }
+      ],
+      "ψύχος": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5592" }
+        }
+      ],
+      "ψῦχος": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5592" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψύχει": "psýchei",
+      "ψύχος": "psýchos",
+      "ψῦχος": "psŷchos"
+    }
+  },
+  "ψυχρός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5593" },
+    "inflections": {
+      "ψυχρός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5593" }
+        }
+      ],
+      "ψυχρὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5593" }
+        }
+      ],
+      "ψυχροῦ": [
+        {
+          "parse": ["adj", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5593" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ψυχρός": "psychrós",
+      "ψυχρὸς": "psychròs",
+      "ψυχροῦ": "psychroû"
+    }
+  },
+  "ψύχω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to breathe gently",
+    "indices": { "strongs": "G5594" },
+    "inflections": {
+      "ψυγήσεται": [
+        {
+          "parse": ["verb", "second", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5594" }
+        }
+      ]
+    },
+    "transliterations": { "ψυγήσεται": "psygḗsetai" }
+  },
+  "ψωμίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5595" },
+    "inflections": {
+      "ψώμιζε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5595" }
+        }
+      ],
+      "ψωμίσω": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G5595" }
+        }
+      ]
+    },
+    "transliterations": { "ψώμιζε": "psṓmize", "ψωμίσω": "psōmísō" }
+  },
+  "ψωμίον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5596" },
+    "inflections": {
+      "ψωμίον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5596" }
+        }
+      ]
+    },
+    "transliterations": { "ψωμίον": "psōmíon" }
+  },
+  "ψώχω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to scrub",
+    "indices": { "strongs": "G5597" },
+    "inflections": {
+      "ψώχοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5597" }
+        }
+      ]
+    },
+    "transliterations": { "ψώχοντες": "psṓchontes" }
+  }
+}

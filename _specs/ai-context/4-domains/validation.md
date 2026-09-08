@@ -124,7 +124,7 @@ A few rules this pipeline holds every version to are easy to miss from the check
 
 ### Key Sorting During Validation
 
-_From [utils/validate.ts](../../utils/validate.ts)_
+_From [utils/validate.ts](../../../utils/validate.ts)_
 
 ```typescript
 import { sortVerseKeys } from "../functions/sortContentKeys";
@@ -156,7 +156,7 @@ async function sortVerseFileKeys(filePath: string): Promise<boolean> {
 
 ### Schema Validation Function
 
-_From [functions/validateJsonAgainstSchema.ts](../functions/validateJsonAgainstSchema.ts)_
+_From [functions/validateJsonAgainstSchema.ts](../../../functions/validateJsonAgainstSchema.ts)_
 
 ```typescript
 export default function validateJsonAgainstSchema(
@@ -205,7 +205,7 @@ export default function validateJsonAgainstSchema(
 
 ### Book Order Validation
 
-_From [utils/validate.ts](../utils/validate.ts)_
+_From [utils/validate.ts](../../../utils/validate.ts)_
 
 ```typescript
 for (const version of versions) {
@@ -249,7 +249,7 @@ for (const version of versions) {
 
 ### Verse File Validation
 
-_From [utils/validate.ts](../utils/validate.ts)_
+_From [utils/validate.ts](../../../utils/validate.ts)_
 
 ```typescript
 for (const version of versionDirs) {
@@ -336,7 +336,7 @@ The walk descends through every content-bearing branch, including `foot.content`
 
 ### Exit on Failure
 
-_From [utils/validate.ts](../utils/validate.ts)_
+_From [utils/validate.ts](../../../utils/validate.ts)_
 
 ```typescript
 if (!booksValidationPassed) {

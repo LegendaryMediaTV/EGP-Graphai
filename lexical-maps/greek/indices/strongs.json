@@ -1,0 +1,637 @@
+{
+  "_id": "strongs",
+  "language": "greek",
+  "description": "Cell-level Strong's numbers. The corpus tags at the lexical level, so every form of εἰμί arrives as G1510; the index also has finer numbers (G2076 for the third singular present, G2258 for the imperfect) that belong on particular cells. Each rule names a root and the parse codes a cell must carry, or a single spelling, to take the number. Numbers listed as unplaced are real index entries whose word does not occur in this corpus, or whose split is by sense rather than by parse and so cannot be a rule.",
+  "rules": [
+    {
+      "n": "G2036",
+      "root": "λέγω",
+      "requires": ["aor"]
+    },
+    {
+      "n": "G2076",
+      "root": "εἰμί",
+      "requires": ["pres", "ind", "pers-3", "sg"]
+    },
+    {
+      "n": "G2258",
+      "root": "εἰμί",
+      "requires": ["impf", "act"]
+    },
+    {
+      "n": "G2071",
+      "root": "εἰμί",
+      "requires": ["fut"]
+    },
+    {
+      "n": "G1526",
+      "root": "εἰμί",
+      "requires": ["pres", "ind", "pers-3", "pl"]
+    },
+    {
+      "n": "G5607",
+      "root": "εἰμί",
+      "requires": ["pres", "ptc"]
+    },
+    {
+      "n": "G1511",
+      "root": "εἰμί",
+      "requires": ["pres", "inf"]
+    },
+    {
+      "n": "G1488",
+      "root": "εἰμί",
+      "requires": ["pres", "ind", "pers-2", "sg"]
+    },
+    {
+      "n": "G2075",
+      "root": "εἰμί",
+      "requires": ["pres", "ind", "pers-2", "pl"]
+    },
+    {
+      "n": "G5600",
+      "root": "εἰμί",
+      "requires": ["pres", "subj"]
+    },
+    {
+      "n": "G2070",
+      "root": "εἰμί",
+      "requires": ["pres", "ind", "pers-1", "pl"]
+    },
+    {
+      "n": "G2077",
+      "root": "εἰμί",
+      "requires": ["pres", "imp", "pers-3", "sg"],
+      "spelling": "ἔστω"
+    },
+    {
+      "n": "G2252",
+      "root": "εἰμί",
+      "requires": ["impf", "mid"]
+    },
+    {
+      "n": "G1498",
+      "root": "εἰμί",
+      "requires": ["pres", "opt"]
+    },
+    {
+      "n": "G2468",
+      "root": "εἰμί",
+      "requires": ["pres", "imp", "pers-2", "sg"]
+    },
+    {
+      "n": "G2277",
+      "root": "εἰμί",
+      "requires": ["pres", "imp", "pers-3", "sg"],
+      "spelling": "ἤτω"
+    },
+    {
+      "n": "G4483",
+      "root": "ἐρῶ",
+      "requires": ["aor", "pas"]
+    },
+    {
+      "n": "G4280",
+      "root": "προλέγω",
+      "requires": ["perf"]
+    },
+    {
+      "n": "G4277",
+      "root": "προλέγω",
+      "requires": ["aor"]
+    },
+    {
+      "n": "G471",
+      "root": "ἀντιλέγω",
+      "requires": ["aor", "inf"]
+    },
+    {
+      "n": "G4275",
+      "root": "προοράω",
+      "requires": ["aor", "ptc"]
+    },
+    {
+      "n": "G2400",
+      "root": "ὁράω",
+      "requires": ["second", "aor", "mid", "imp"]
+    },
+    {
+      "n": "G1492",
+      "root": "ὁράω",
+      "requires": ["aor", "act"]
+    },
+    {
+      "n": "G1492",
+      "root": "ἴδε",
+      "requires": ["verb"]
+    },
+    {
+      "n": "G3700",
+      "root": "ὁράω",
+      "requires": ["fut"]
+    },
+    {
+      "n": "G3700",
+      "root": "ὁράω",
+      "requires": ["aor", "pas"]
+    },
+    {
+      "n": "G3700",
+      "root": "ὁράω",
+      "requires": ["aor", "mid-dep"]
+    },
+    {
+      "n": "G3415",
+      "root": "μιμνῄσκομαι",
+      "requires": ["aor", "pas"]
+    },
+    {
+      "n": "G3415",
+      "root": "μιμνῄσκομαι",
+      "requires": ["perf", "pas"]
+    },
+    {
+      "n": "G1507",
+      "root": "ἑλίσσω",
+      "requires": ["pres", "pas", "ptc"]
+    },
+    {
+      "n": "G2467",
+      "root": "οἶδα",
+      "requires": ["perf", "ind"],
+      "spelling": "ἴσασιν"
+    },
+    {
+      "n": "G2467",
+      "root": "οἶδα",
+      "requires": ["perf"],
+      "spelling": "ἴστε"
+    },
+    {
+      "n": "G3450",
+      "root": "ἐγώ",
+      "spelling": "μου"
+    },
+    {
+      "n": "G3450",
+      "root": "ἐγώ",
+      "spelling": "μού"
+    },
+    {
+      "n": "G1700",
+      "root": "ἐγώ",
+      "spelling": "ἐμοῦ"
+    },
+    {
+      "n": "G2257",
+      "root": "ἐγώ",
+      "requires": ["gen", "pl"]
+    },
+    {
+      "n": "G3165",
+      "root": "ἐγώ",
+      "spelling": "με"
+    },
+    {
+      "n": "G3165",
+      "root": "ἐγώ",
+      "spelling": "μέ"
+    },
+    {
+      "n": "G1691",
+      "root": "ἐγώ",
+      "spelling": "ἐμέ"
+    },
+    {
+      "n": "G1691",
+      "root": "ἐγώ",
+      "spelling": "ἐμὲ"
+    },
+    {
+      "n": "G2249",
+      "root": "ἐγώ",
+      "requires": ["nom", "pl"]
+    },
+    {
+      "n": "G3427",
+      "root": "ἐγώ",
+      "spelling": "μοι"
+    },
+    {
+      "n": "G3427",
+      "root": "ἐγώ",
+      "spelling": "μοί"
+    },
+    {
+      "n": "G1698",
+      "root": "ἐγώ",
+      "spelling": "ἐμοί"
+    },
+    {
+      "n": "G1698",
+      "root": "ἐγώ",
+      "spelling": "ἐμοὶ"
+    },
+    {
+      "n": "G2248",
+      "root": "ἐγώ",
+      "requires": ["acc", "pl"]
+    },
+    {
+      "n": "G2254",
+      "root": "ἐγώ",
+      "requires": ["dat", "pl"]
+    },
+    {
+      "n": "G5213",
+      "root": "σύ",
+      "requires": ["dat", "pl"]
+    },
+    {
+      "n": "G5216",
+      "root": "σύ",
+      "requires": ["gen", "pl"]
+    },
+    {
+      "n": "G4675",
+      "root": "σύ",
+      "requires": ["gen", "sg"]
+    },
+    {
+      "n": "G5209",
+      "root": "σύ",
+      "requires": ["acc", "pl"]
+    },
+    {
+      "n": "G5210",
+      "root": "σύ",
+      "requires": ["nom", "pl"]
+    },
+    {
+      "n": "G4671",
+      "root": "σύ",
+      "requires": ["dat", "sg"]
+    },
+    {
+      "n": "G4571",
+      "root": "σύ",
+      "requires": ["acc", "sg"]
+    },
+    {
+      "n": "G5124",
+      "root": "οὗτος",
+      "requires": ["neut", "sg", "nom"]
+    },
+    {
+      "n": "G5124",
+      "root": "οὗτος",
+      "requires": ["neut", "sg", "acc"]
+    },
+    {
+      "n": "G5023",
+      "root": "οὗτος",
+      "requires": ["neut", "pl", "nom"]
+    },
+    {
+      "n": "G5023",
+      "root": "οὗτος",
+      "requires": ["neut", "pl", "acc"]
+    },
+    {
+      "n": "G5129",
+      "root": "οὗτος",
+      "spelling": "τούτῳ"
+    },
+    {
+      "n": "G5127",
+      "root": "οὗτος",
+      "spelling": "τούτου"
+    },
+    {
+      "n": "G5130",
+      "root": "οὗτος",
+      "spelling": "τούτων"
+    },
+    {
+      "n": "G5126",
+      "root": "οὗτος",
+      "requires": ["acc", "sg", "masc"]
+    },
+    {
+      "n": "G5128",
+      "root": "οὗτος",
+      "requires": ["acc", "pl", "masc"]
+    },
+    {
+      "n": "G5125",
+      "root": "οὗτος",
+      "spelling": "τούτοις"
+    },
+    {
+      "n": "G4119",
+      "root": "πολύς",
+      "requires": ["adj", "comp"]
+    },
+    {
+      "n": "G4118",
+      "root": "πολύς",
+      "requires": ["adj", "super"]
+    },
+    {
+      "n": "G3187",
+      "root": "μέγας",
+      "spelling": "μείζων"
+    },
+    {
+      "n": "G3176",
+      "root": "μέγας",
+      "requires": ["adj", "super"]
+    },
+    {
+      "n": "G3185",
+      "root": "μέγας",
+      "requires": ["adv", "comp"]
+    },
+    {
+      "n": "G3186",
+      "root": "μέγας",
+      "spelling": "μειζοτέραν"
+    },
+    {
+      "n": "G4056",
+      "root": "περισσῶς",
+      "requires": ["adv", "comp"]
+    },
+    {
+      "n": "G4208",
+      "root": "πόρρω",
+      "requires": ["adv", "comp"]
+    },
+    {
+      "n": "G4706",
+      "root": "σπουδαῖος",
+      "spelling": "σπουδαιότερον"
+    },
+    {
+      "n": "G4191",
+      "root": "πονηρός",
+      "requires": ["adj", "comp"]
+    },
+    {
+      "n": "G3391",
+      "root": "εἷς",
+      "requires": ["adj", "fem"]
+    },
+    {
+      "n": "G567",
+      "root": "ἀπέχω",
+      "requires": ["pres", "mid", "inf"]
+    },
+    {
+      "n": "G567",
+      "root": "ἀπέχω",
+      "requires": ["pres", "mid", "imp"]
+    },
+    {
+      "n": "G158",
+      "root": "αἴτιος",
+      "requires": ["adj", "acc", "sg", "neut"]
+    },
+    {
+      "n": "G4387",
+      "root": "πρότερος",
+      "spelling": "προτέραν"
+    },
+    {
+      "n": "G2067",
+      "root": "ἐσθής",
+      "spelling": "ἐσθήσεσιν"
+    },
+    {
+      "n": "G4235",
+      "root": "πραΰς",
+      "spelling": "πρᾷός"
+    },
+    {
+      "n": "G2499",
+      "root": "Ἰωσῆς",
+      "requires": ["gen", "sg"]
+    },
+    {
+      "n": "G4236",
+      "root": "πρᾳότης",
+      "spelling": "πρᾳότης"
+    },
+    {
+      "n": "G4236",
+      "root": "πρᾳότης",
+      "spelling": "πρᾳότητα"
+    },
+    {
+      "n": "G4236",
+      "root": "πρᾳότης",
+      "spelling": "πρᾳότητι"
+    },
+    {
+      "n": "G4236",
+      "root": "πρᾳότης",
+      "spelling": "πρᾳότητος"
+    },
+    {
+      "n": "G3063",
+      "root": "λοιπός",
+      "requires": ["acc", "sg", "neut"]
+    },
+    {
+      "n": "G3064",
+      "root": "λοιπός",
+      "requires": ["gen", "sg", "neut"]
+    }
+  ],
+  "unplaced": [
+    {
+      "n": "G4054",
+      "reason": "sense split, not a parse cell"
+    },
+    {
+      "n": "G4055",
+      "reason": "the index files the comparative περισσότερος under G4053 nearly everywhere and reserves G4055 for occurrences sharing their parse with G4053 ones; no parse or spelling separates them"
+    },
+    {
+      "n": "G566",
+      "reason": "sense split: ἀπέχει is the same third singular present indicative at Matthew 15:8, Mark 7:6 and Mark 14:41, but only Mark 14:41 is the impersonal \"it is enough\" the index numbers G566"
+    },
+    {
+      "n": "G2448",
+      "reason": "sense split: the genitive Ἰούδα is the territory at Matthew 2:6, Luke 1:39, Hebrews 7:14, Hebrews 8:8 and Revelation 5:5, 7:5, and a person at Mark 6:3, Luke 3:26, 3:30, 3:33, John 13:2, Acts 1:16 and 9:11, on one parse"
+    },
+    {
+      "n": "G3112",
+      "reason": "sense split: the feminine accusative μακράν is the adverb \"afar off\" at Acts 2:39 but an ordinary adjective in \"a far country\" at Luke 15:13 and 19:12"
+    },
+    {
+      "n": "G2117",
+      "reason": "the corpus files the adverbial εὐθύς under the adjective εὐθύς, whose own number this already is, so no rule is needed"
+    },
+    {
+      "n": "G686",
+      "reason": "sense split: ἄρα spelled and parsed alike is the interrogative ἆρα in thirteen places and the inferential particle in the three \"εἰ ἄρα\" clauses"
+    },
+    {
+      "n": "G2077",
+      "reason": "the plural ἔστωσαν has no entry of its own and takes G2077 on the cell, since the rule states the singular"
+    },
+    {
+      "n": "G4387",
+      "reason": "sense split, not a parse cell"
+    },
+    {
+      "n": "G39",
+      "reason": "sense split (sanctuary vs holy), not a parse cell"
+    },
+    {
+      "n": "G3397",
+      "reason": "one spelling covers two genders and only some uses; sense split"
+    },
+    {
+      "n": "G5224",
+      "reason": "substantival sense, not a parse cell"
+    },
+    {
+      "n": "G348",
+      "reason": "compound ἀνά+κόπτω (ἀνακόπτω) never attested in BYZ2026; no root entry exists to attach a cell to"
+    },
+    {
+      "n": "G534",
+      "reason": "compound ἀπό+ἄρτι (ἀπαρτί) never attested in BYZ2026 as its own word"
+    },
+    {
+      "n": "G925",
+      "reason": "denominative verb βαρύνω (from βαρύς) never attested in BYZ2026"
+    },
+    {
+      "n": "G962",
+      "reason": "proper noun Βηθαβαρά, no pointsAt and not attested as its own root"
+    },
+    {
+      "n": "G1002",
+      "reason": "noun βολίς, derived from βάλλω but never attested as its own root"
+    },
+    {
+      "n": "G1307",
+      "reason": "compound διά+φαίνω (διαφανής) never attested as its own root"
+    },
+    {
+      "n": "G1827",
+      "reason": "compound ἐκ+ἐλέγχω (ἐξελέγχω) never attested as its own root"
+    },
+    {
+      "n": "G2179",
+      "reason": "adjective Ἐφεσῖνος, a distinct derivative of Ἔφεσος never attested as its own root"
+    },
+    {
+      "n": "G2461",
+      "reason": "adjective ἱππικόν, a distinct derivative not attested (only the unrelated noun ἱππεύς is attested)"
+    },
+    {
+      "n": "G2568",
+      "reason": "place-name phrase Καλοὶ Λιμένες never attested as its own root"
+    },
+    {
+      "n": "G2700",
+      "reason": "compound κατά+τόξον (κατατοξεύω) never attested as its own root"
+    },
+    {
+      "n": "G2858",
+      "reason": "demonym Κολοσσαεύς, a distinct derivative of the place name Κολασσαί (G2857), never attested as its own root"
+    },
+    {
+      "n": "G3387",
+      "reason": "compound μή+τις (μήτις) never attested as its own root"
+    },
+    {
+      "n": "G3390",
+      "reason": "compound μήτηρ+πόλις (μητρόπολις) never attested as its own root"
+    },
+    {
+      "n": "G3505",
+      "reason": "proper noun Νέρων, no pointsAt and not attested as its own root"
+    },
+    {
+      "n": "G3658",
+      "reason": "noun ὅμιλος, distinct from ὁμοῦ/αἱρέομαι, never attested as its own root"
+    },
+    {
+      "n": "G3720",
+      "reason": "adjective ὀρθρινός, a distinct derivative of ὄρθρος never attested as its own root"
+    },
+    {
+      "n": "G3818",
+      "reason": "adjective Πακατιανή, no pointsAt, uncertain derivation, never attested as its own root"
+    },
+    {
+      "n": "G3872",
+      "reason": "compound παρακαταθήκη never attested; BYZ2026 uses the shorter compound παραθήκη (G3866) throughout, a different lexeme"
+    },
+    {
+      "n": "G4384",
+      "reason": "compound πρό+τάσσω (προτάσσω) never attested as its own root"
+    },
+    {
+      "n": "G4450",
+      "reason": "adjective πυρρός never attested as its own root (only the unrelated verb πυρράζω is attested)"
+    },
+    {
+      "n": "G4530",
+      "reason": "place-name Σαλείμ/Σαλίμ never attested as its own root"
+    },
+    {
+      "n": "G4555",
+      "reason": "adjective σάρδινος, a distinct derivative of σάρδιον, never attested as its own root"
+    },
+    {
+      "n": "G4668",
+      "reason": "demonym adjective Σμυρναῖος, a distinct derivative of σμύρνα, never attested as its own root"
+    },
+    {
+      "n": "G5332",
+      "reason": "noun φαρμακεύς, no pointsAt and never attested as its own root"
+    },
+    {
+      "n": "G5414",
+      "reason": "noun φόρτος, a distinct nominal derivative of φέρω, never attested as its own root"
+    },
+    {
+      "n": "G5516",
+      "reason": "χξς (chi-xi-stigma) is a numeral symbol for 666, not an inflected word form; no cell applies"
+    },
+    {
+      "n": "G1302",
+      "reason": "compound interrogative διά+τίς (διατί) never attested as a single word in BYZ2026"
+    },
+    {
+      "n": "G2444",
+      "reason": "compound conjunction ἵνα+τίς (ἱνατί) never attested as a single word in BYZ2026"
+    },
+    {
+      "n": "G1513",
+      "reason": "compound conditional εἰ+πώς (εἴ πως) never attested as a single word in BYZ2026"
+    },
+    {
+      "n": "G168",
+      "reason": "noun ἀκαθάρτης, a distinct nominal derivative of ἀκάθαρτος, never attested as its own root"
+    },
+    {
+      "n": "G5123",
+      "reason": "fused conjunction τουτέστι(ν) (\"that is\") never appears as a single attested word in BYZ2026; no root/spelling exists for it in the map"
+    },
+    {
+      "n": "G848",
+      "reason": "crasis spelling αὑτοῦ for ἑαυτοῦ does not survive as its own attested surface form in BYZ2026 (which spells the word plainly); no distinct cell exists for the crasis form, and treating it as the ordinary ἑαυτοῦ gen sg cell overshoots by an order of magnitude (matched ~52 vs expected 2)"
+    },
+    {
+      "n": "G1275",
+      "reason": "compound adverb διά+παντός (διαπαντός) never attested as a single word in BYZ2026"
+    }
+  ]
+}

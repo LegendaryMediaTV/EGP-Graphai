@@ -1,0 +1,202 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/LegendaryMediaTV/EGP-Graphai/lexical-maps/language-schema.json",
+  "title": "EGP Graphai • Lexical Map Language Registry",
+  "description": "Registry of a language's inflection categories and codes, letters, and key-normalization rules. One file per language, at lexical-maps/<language>/_language.json.",
+  "$defs": {
+    "collation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["locale", "sensitivity"],
+      "properties": {
+        "locale": {
+          "type": "string",
+          "description": "Intl.Collator locale for display-time sorting, e.g. \"el\" for Greek or \"he\" for Hebrew and Aramaic. Not \"grc\" or \"arc\" — those are not collation locales and resolve silently to root collation."
+        },
+        "sensitivity": {
+          "type": "string",
+          "enum": ["base", "accent", "case", "variant"],
+          "description": "Intl.Collator sensitivity. \"accent\" ignores case and sorts on accents, the setting the lexical map wants; \"base\" ignores accents too and is not wanted, since it ties distinct forms."
+        }
+      }
+    },
+    "normalizationRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["_id", "name"],
+      "properties": {
+        "_id": {
+          "type": "string",
+          "description": "Identifier for this key-normalization rule, e.g. \"fold-grave\"."
+        },
+        "name": {
+          "type": "string",
+          "description": "Short human-readable label."
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional longer explanation of what the rule folds and why."
+        }
+      }
+    },
+    "inflectionCategory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["_id", "name"],
+      "properties": {
+        "_id": {
+          "type": "string",
+          "description": "Identifier for this category, e.g. \"tense\" or \"voice\". A parse may carry at most one code from any one category (checked outside this schema)."
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable label for the category."
+        },
+        "required": {
+          "type": "boolean",
+          "description": "Whether a parse for the relevant part(s) of speech must carry a code from this category (checked outside this schema)."
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional longer explanation, e.g. why this category is kept apart from a related one."
+        }
+      }
+    },
+    "inflection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["_id", "category", "name"],
+      "properties": {
+        "_id": {
+          "type": "string",
+          "description": "Code for this inflection value, e.g. \"aor\" or \"midpas\". This is the token a parse array carries, and it must resolve in a parse (checked outside this schema)."
+        },
+        "category": {
+          "type": "string",
+          "description": "_id of the inflectionCategories entry this code belongs to."
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable label."
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional longer explanation, e.g. for a code minted to resolve a genuine ambiguity such as \"midpas\"."
+        }
+      }
+    }
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["_id", "name", "letters", "inflectionCategories", "inflections"],
+  "properties": {
+    "_id": {
+      "type": "string",
+      "description": "Short identifier for the language, e.g. \"greek\". Names the lexical-maps/<language>/ directory."
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable language name, e.g. \"Greek\"."
+    },
+    "script": {
+      "type": "string",
+      "enum": ["G", "H"],
+      "description": "Script this language is written in, matching the script codes in content-schema.json."
+    },
+    "citationConvention": {
+      "type": "string",
+      "description": "Prose describing how a root is cited, e.g. which principal part or grammatical form a lexicon headword names."
+    },
+    "collation": {
+      "$ref": "#/$defs/collation",
+      "description": "Intl.Collator settings for display-time sorting of this language's forms. Files themselves sort by NFD code point, which is stable across ICU versions."
+    },
+    "normalization": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/normalizationRule"
+      },
+      "description": "Ordered key-normalization rules applied when forming a codex key from an attested surface form."
+    },
+    "letters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "description": "Ordered alphabet. Each entry names one codex file under lexical-maps/<language>/, and the order also drives display order."
+    },
+    "inflectionCategories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/inflectionCategory"
+      },
+      "minItems": 1,
+      "description": "Categories a parse code can belong to. A parse may carry at most one code per category (checked outside this schema)."
+    },
+    "inflections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/inflection"
+      },
+      "minItems": 1,
+      "description": "Every code usable in a parse array, each tied to one category. Every code in a parse must resolve here (checked outside this schema)."
+    },
+    "transliteration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["style", "letters"],
+      "properties": {
+        "style": {
+          "type": "string",
+          "description": "Name of the scheme, such as `academic`."
+        },
+        "description": {
+          "type": "string",
+          "description": "What the scheme does and what it is for."
+        },
+        "lossy": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Features the scheme does not represent, so a reader knows where the round trip breaks."
+        },
+        "letters": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Base letter to its Latin rendering."
+        },
+        "diphthongs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Two-letter sequences that read as one sound."
+        },
+        "velars": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Letters that turn a preceding gamma into a nasal."
+        },
+        "gammaNasal": {
+          "type": "string",
+          "description": "Rendering of gamma before a velar."
+        },
+        "upsilonInDiphthong": {
+          "type": "string",
+          "description": "Rendering of upsilon closing a diphthong."
+        },
+        "aspirate": {
+          "type": "string",
+          "description": "Rendering of the rough breathing."
+        }
+      },
+      "description": "Table driving transliteration. Kept as data so a consumer can read it rather than reimplement the scheme."
+    }
+  }
+}

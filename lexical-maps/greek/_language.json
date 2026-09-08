@@ -1,0 +1,502 @@
+{
+  "_id": "greek",
+  "name": "Greek",
+  "script": "G",
+  "citationConvention": "Verbs cite in the first person singular present active indicative; nominals cite in the nominative singular.",
+  "collation": {
+    "locale": "el",
+    "sensitivity": "accent"
+  },
+  "normalization": [
+    {
+      "_id": "strip-punctuation",
+      "name": "Strip trailing punctuation"
+    },
+    {
+      "_id": "fold-case",
+      "name": "Fold case"
+    },
+    {
+      "_id": "fold-grave",
+      "name": "Fold grave to acute",
+      "description": "A grave replaces an acute on a final syllable because of the following word. Read the pairs off each letter's variants map (varia to oxia, psiliVaria to psiliOxia, and so on)."
+    },
+    {
+      "_id": "lexical-accent",
+      "name": "Restore the lexical accent",
+      "description": "Proclitics and enclitics accent differently depending on what stands beside them. An accent can appear (ὁ becomes ὅ), disappear (ἐστίν becomes ἐστιν) or move (ἐστίν becomes ἔστιν). All three collapse to the lexical accentuation, and the positional spelling becomes a variant."
+    }
+  ],
+  "letters": [
+    "alpha",
+    "beta",
+    "gamma",
+    "delta",
+    "epsilon",
+    "zeta",
+    "eta",
+    "theta",
+    "iota",
+    "kappa",
+    "lambda",
+    "mu",
+    "nu",
+    "xi",
+    "omicron",
+    "pi",
+    "rho",
+    "sigma",
+    "tau",
+    "upsilon",
+    "phi",
+    "chi",
+    "psi",
+    "omega"
+  ],
+  "inflectionCategories": [
+    {
+      "_id": "pos",
+      "name": "Part of speech",
+      "required": true
+    },
+    {
+      "_id": "tense",
+      "name": "Tense"
+    },
+    {
+      "_id": "voice",
+      "name": "Voice"
+    },
+    {
+      "_id": "mood",
+      "name": "Mood"
+    },
+    {
+      "_id": "person",
+      "name": "Person"
+    },
+    {
+      "_id": "number",
+      "name": "Number"
+    },
+    {
+      "_id": "case",
+      "name": "Case"
+    },
+    {
+      "_id": "gender",
+      "name": "Gender"
+    },
+    {
+      "_id": "degree",
+      "name": "Degree"
+    },
+    {
+      "_id": "polarity",
+      "name": "Polarity"
+    },
+    {
+      "_id": "force",
+      "name": "Force"
+    },
+    {
+      "_id": "formation",
+      "name": "Formation",
+      "description": "How a stem is built, as against what the form does. Kept apart from tense because the two co-occur."
+    },
+    {
+      "_id": "dialect",
+      "name": "Dialect"
+    },
+    {
+      "_id": "contraction",
+      "name": "Contraction"
+    },
+    {
+      "_id": "declinability",
+      "name": "Declinability"
+    },
+    {
+      "_id": "possessorNumber",
+      "name": "Possessor number",
+      "description": "Possessive pronouns agree with two things at once. `person` and this category describe the possessor; `case`, `number` and `gender` describe the noun."
+    }
+  ],
+  "inflections": [
+    {
+      "_id": "noun",
+      "category": "pos",
+      "name": "Noun"
+    },
+    {
+      "_id": "verb",
+      "category": "pos",
+      "name": "Verb"
+    },
+    {
+      "_id": "art",
+      "category": "pos",
+      "name": "Article"
+    },
+    {
+      "_id": "adj",
+      "category": "pos",
+      "name": "Adjective"
+    },
+    {
+      "_id": "adv",
+      "category": "pos",
+      "name": "Adverb"
+    },
+    {
+      "_id": "prep",
+      "category": "pos",
+      "name": "Preposition"
+    },
+    {
+      "_id": "conj",
+      "category": "pos",
+      "name": "Conjunction"
+    },
+    {
+      "_id": "prt",
+      "category": "pos",
+      "name": "Particle"
+    },
+    {
+      "_id": "cond",
+      "category": "pos",
+      "name": "Conditional particle"
+    },
+    {
+      "_id": "inj",
+      "category": "pos",
+      "name": "Interjection"
+    },
+    {
+      "_id": "pron-pers",
+      "category": "pos",
+      "name": "Personal pronoun"
+    },
+    {
+      "_id": "pron-dem",
+      "category": "pos",
+      "name": "Demonstrative pronoun"
+    },
+    {
+      "_id": "pron-rel",
+      "category": "pos",
+      "name": "Relative pronoun"
+    },
+    {
+      "_id": "pron-int",
+      "category": "pos",
+      "name": "Interrogative pronoun"
+    },
+    {
+      "_id": "pron-indef",
+      "category": "pos",
+      "name": "Indefinite pronoun"
+    },
+    {
+      "_id": "pron-refl",
+      "category": "pos",
+      "name": "Reflexive pronoun"
+    },
+    {
+      "_id": "pron-poss",
+      "category": "pos",
+      "name": "Possessive pronoun"
+    },
+    {
+      "_id": "pron-recip",
+      "category": "pos",
+      "name": "Reciprocal pronoun"
+    },
+    {
+      "_id": "pron-corr",
+      "category": "pos",
+      "name": "Correlative pronoun"
+    },
+    {
+      "_id": "pron-corr-int",
+      "category": "pos",
+      "name": "Correlative or interrogative pronoun"
+    },
+    {
+      "_id": "aramaic",
+      "category": "pos",
+      "name": "Aramaic transliteration"
+    },
+    {
+      "_id": "hebrew",
+      "category": "pos",
+      "name": "Hebrew transliteration"
+    },
+    {
+      "_id": "pres",
+      "category": "tense",
+      "name": "Present"
+    },
+    {
+      "_id": "impf",
+      "category": "tense",
+      "name": "Imperfect"
+    },
+    {
+      "_id": "fut",
+      "category": "tense",
+      "name": "Future"
+    },
+    {
+      "_id": "aor",
+      "category": "tense",
+      "name": "Aorist"
+    },
+    {
+      "_id": "perf",
+      "category": "tense",
+      "name": "Perfect"
+    },
+    {
+      "_id": "plup",
+      "category": "tense",
+      "name": "Pluperfect"
+    },
+    {
+      "_id": "act",
+      "category": "voice",
+      "name": "Active"
+    },
+    {
+      "_id": "mid",
+      "category": "voice",
+      "name": "Middle"
+    },
+    {
+      "_id": "pas",
+      "category": "voice",
+      "name": "Passive"
+    },
+    {
+      "_id": "midpas",
+      "category": "voice",
+      "name": "Middle or passive",
+      "description": "The form is identical in both voices; context decides which is meant."
+    },
+    {
+      "_id": "mid-dep",
+      "category": "voice",
+      "name": "Middle deponent"
+    },
+    {
+      "_id": "pas-dep",
+      "category": "voice",
+      "name": "Passive deponent"
+    },
+    {
+      "_id": "midpas-dep",
+      "category": "voice",
+      "name": "Middle or passive deponent"
+    },
+    {
+      "_id": "ind",
+      "category": "mood",
+      "name": "Indicative"
+    },
+    {
+      "_id": "imp",
+      "category": "mood",
+      "name": "Imperative"
+    },
+    {
+      "_id": "inf",
+      "category": "mood",
+      "name": "Infinitive"
+    },
+    {
+      "_id": "opt",
+      "category": "mood",
+      "name": "Optative"
+    },
+    {
+      "_id": "ptc",
+      "category": "mood",
+      "name": "Participle"
+    },
+    {
+      "_id": "subj",
+      "category": "mood",
+      "name": "Subjunctive"
+    },
+    {
+      "_id": "pers-1",
+      "category": "person",
+      "name": "First person"
+    },
+    {
+      "_id": "pers-2",
+      "category": "person",
+      "name": "Second person"
+    },
+    {
+      "_id": "pers-3",
+      "category": "person",
+      "name": "Third person"
+    },
+    {
+      "_id": "sg",
+      "category": "number",
+      "name": "Singular"
+    },
+    {
+      "_id": "pl",
+      "category": "number",
+      "name": "Plural"
+    },
+    {
+      "_id": "nom",
+      "category": "case",
+      "name": "Nominative"
+    },
+    {
+      "_id": "gen",
+      "category": "case",
+      "name": "Genitive"
+    },
+    {
+      "_id": "dat",
+      "category": "case",
+      "name": "Dative"
+    },
+    {
+      "_id": "acc",
+      "category": "case",
+      "name": "Accusative"
+    },
+    {
+      "_id": "voc",
+      "category": "case",
+      "name": "Vocative"
+    },
+    {
+      "_id": "masc",
+      "category": "gender",
+      "name": "Masculine"
+    },
+    {
+      "_id": "fem",
+      "category": "gender",
+      "name": "Feminine"
+    },
+    {
+      "_id": "neut",
+      "category": "gender",
+      "name": "Neuter"
+    },
+    {
+      "_id": "comp",
+      "category": "degree",
+      "name": "Comparative"
+    },
+    {
+      "_id": "super",
+      "category": "degree",
+      "name": "Superlative"
+    },
+    {
+      "_id": "neg",
+      "category": "polarity",
+      "name": "Negative"
+    },
+    {
+      "_id": "interr",
+      "category": "force",
+      "name": "Interrogative"
+    },
+    {
+      "_id": "second",
+      "category": "formation",
+      "name": "Second formation",
+      "description": "A second aorist, future, perfect or pluperfect. Same tense, different stem."
+    },
+    {
+      "_id": "attic",
+      "category": "dialect",
+      "name": "Attic form"
+    },
+    {
+      "_id": "crasis",
+      "category": "contraction",
+      "name": "Crasis",
+      "description": "Two words run together, as κἀγώ from καὶ ἐγώ."
+    },
+    {
+      "_id": "indecl-proper",
+      "category": "declinability",
+      "name": "Proper indeclinable"
+    },
+    {
+      "_id": "indecl-numeral",
+      "category": "declinability",
+      "name": "Numeral indeclinable"
+    },
+    {
+      "_id": "indecl-letter",
+      "category": "declinability",
+      "name": "Letter indeclinable"
+    },
+    {
+      "_id": "indecl-other",
+      "category": "declinability",
+      "name": "Other indeclinable"
+    },
+    {
+      "_id": "poss-sg",
+      "category": "possessorNumber",
+      "name": "Singular possessor"
+    },
+    {
+      "_id": "poss-pl",
+      "category": "possessorNumber",
+      "name": "Plural possessor"
+    }
+  ],
+  "transliteration": {
+    "style": "academic",
+    "description": "Letter-for-letter transliteration in the academic style. Accents carry over as combining marks, so a reader can round-trip everything except the iota subscript, which no common scheme represents.",
+    "lossy": ["iota subscript"],
+    "letters": {
+      "α": "a",
+      "β": "b",
+      "γ": "g",
+      "δ": "d",
+      "ε": "e",
+      "ζ": "z",
+      "η": "ē",
+      "θ": "th",
+      "ι": "i",
+      "κ": "k",
+      "λ": "l",
+      "μ": "m",
+      "ν": "n",
+      "ξ": "x",
+      "ο": "o",
+      "π": "p",
+      "ρ": "r",
+      "σ": "s",
+      "ς": "s",
+      "τ": "t",
+      "υ": "y",
+      "φ": "ph",
+      "χ": "ch",
+      "ψ": "ps",
+      "ω": "ō"
+    },
+    "diphthongs": ["αι", "αυ", "ει", "ευ", "ηυ", "οι", "ου", "υι"],
+    "velars": ["γ", "κ", "ξ", "χ"],
+    "gammaNasal": "n",
+    "upsilonInDiphthong": "u",
+    "aspirate": "h"
+  }
+}

@@ -97,5 +97,24 @@
       "cli-arguments": "Export script accepts optional version and bookId arguments for selective export.",
       "main-module-check": "Export only runs when script is main module (require.main === module)."
     }
+  },
+  "lexical-map": {
+    "required_patterns": {
+      "root-is-the-key": "A codex file is keyed by the language's dictionary root, never by an index number. The root is the word as the language uses it, determined by the language's own citation convention in _language.json. A frozen case form is not a root: πρῶτον used adverbially is a cell under πρῶτος, and the parse records the adverbial use. A fused compound written solid is a root of its own (ἐντεῦθεν, ἐξαυτῆς, ἐκπερισσοῦ); an elision is not (ἀπ' and ἀφ' are spellings of ἀπό).",
+      "parse-is-category-tagged": "A cell's morphology is an array of codes that each resolve in the language registry, with at most one code per category. Never store a positional morph string such as 'V-2AAI-3P' as the parse; that string is one code system's rendering, and two systems that both decode into the category-tagged array can join while two positional strings cannot.",
+      "spelling-maps-to-an-array-of-cells": "inflections[spelling] is always an array, because one spelling can carry more than one parse (ἦτε is both imperfect indicative and present subjunctive). Two spellings under one root with the same parse are the same paradigm slot written two ways, and nothing marks one as primary.",
+      "cell-number-is-derived": "A cell's index number is the corpus's own tag for that (root, spelling, parse), overridden by any matching rule in indices/{index}.json. Correct a wrong number by editing the rule and re-deriving, not by typing into the letter file.",
+      "sense-splits-list-every-number": "Where an index splits one spelling and one parse by sense, no single number belongs to the cell. The cell lists all of them as an array and the corpus tag decides each token; the number goes under `unplaced` in the index file with the reason.",
+      "transliteration-is-stored-not-computed": "Every key in inflections has an entry in transliterations, derived from the table in the language registry. Consumers read it rather than reimplementing the scheme. The scheme is academic and reversible, so a reading-aid form can be derived from it but not the reverse.",
+      "morph-code-systems-are-self-contained": "A morphology file carries both the positional grammar (heads, slots, qualifiers) and the token map. A decoder driven by that file holds no language knowledge of its own. Splitting the halves across files produces a table that looks whole and is not."
+    },
+    "architectural_constraints": {
+      "no-validator-coverage": "npm run validate does not read lexical-maps/. Nothing checks parse codes against the registry, cell numbers against the placement rules, or corpus coverage against the map. The rules are documented in _specs/documentation/EGP-Graphai/lexical-map.md; the walker is not built. Treat letter files as generated output.",
+      "sort-order-is-collator-not-code-point": "The Greek files on disk are sorted with Intl.Collator('el', { sensitivity: 'accent' }), roots and inflection keys alike. The documented target is NFD code point order, which is stable across ICU versions, but the files do not follow it yet. Match the existing order when editing or the diff fills with reordering noise.",
+      "root-numbers-mirror-cell-numbers": "A root's indices.strongs is the union of the numbers on its cells, sorted numerically, written as a string when there is one and an array when there are more.",
+      "root-key-order-is-fixed": "language, pos, citationForms, shortDefinition, indices, inflections, transliterations. Omit what does not apply; do not reorder.",
+      "keys-are-normalized-not-folded-further": "An inflection key is the word as written, less trailing clause punctuation and sentence-initial capitalization, in NFC. Accents stay, graves included, because the positional spelling is a real key someone will look up.",
+      "index-rules-must-not-collide": "Two placement rules must never both match one cell. A rule names a root plus either the parse codes a cell must carry or a single spelling."
+    }
   }
 }

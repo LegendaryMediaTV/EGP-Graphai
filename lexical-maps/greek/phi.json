@@ -1,0 +1,4721 @@
+{
+  "φάγος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5314" },
+    "inflections": {
+      "φάγος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5314" }
+        }
+      ]
+    },
+    "transliterations": { "φάγος": "phágos" }
+  },
+  "φαίνω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to shine forth, appear",
+    "indices": { "strongs": "G5316" },
+    "inflections": {
+      "ἐφάνη": [
+        {
+          "parse": ["verb", "second", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "ἐφάνησαν": [
+        {
+          "parse": ["verb", "second", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φαίνει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φαίνεσθε": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φαίνεται": [
+        {
+          "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φαινομένη": [
+        {
+          "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φαινομένου": [
+        {
+          "parse": ["verb", "pres", "midpas", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φαινομένων": [
+        {
+          "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φαίνονται": [
+        {
+          "parse": ["verb", "pres", "midpas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φαίνοντι": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φαίνων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φαίνωσιν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φανεῖται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φανῇ": [
+        {
+          "parse": ["verb", "second", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φάνῃ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φανῇς": [
+        {
+          "parse": ["verb", "second", "aor", "pas", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φανήσεται": [
+        {
+          "parse": ["verb", "second", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φανῶμεν": [
+        {
+          "parse": ["verb", "second", "aor", "pas", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G5316" }
+        }
+      ],
+      "φανῶσιν": [
+        {
+          "parse": ["verb", "second", "aor", "pas", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5316" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφάνη": "ephánē",
+      "ἐφάνησαν": "ephánēsan",
+      "φαίνει": "phaínei",
+      "φαίνεσθε": "phaínesthe",
+      "φαίνεται": "phaínetai",
+      "φαινομένη": "phainoménē",
+      "φαινομένου": "phainoménou",
+      "φαινομένων": "phainoménōn",
+      "φαίνονται": "phaínontai",
+      "φαίνοντι": "phaínonti",
+      "φαίνων": "phaínōn",
+      "φαίνωσιν": "phaínōsin",
+      "φανεῖται": "phaneîtai",
+      "φανῇ": "phanē̂",
+      "φάνῃ": "phánē",
+      "φανῇς": "phanē̂s",
+      "φανήσεται": "phanḗsetai",
+      "φανῶμεν": "phanō̂men",
+      "φανῶσιν": "phanō̂sin"
+    }
+  },
+  "Φάλεγ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5317" },
+    "inflections": {
+      "φάλεγ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5317" }
+        }
+      ]
+    },
+    "transliterations": { "φάλεγ": "pháleg" }
+  },
+  "φανερός": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["φανερά", "φανερόν"],
+    "shortDefinition": "to be glaring; fig. obvious",
+    "indices": { "strongs": "G5318" },
+    "inflections": {
+      "φανερά": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5318" }
+        }
+      ],
+      "φανερὰ": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5318" }
+        },
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5318" }
+        }
+      ],
+      "φανεροὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5318" }
+        }
+      ],
+      "φανερόν": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5318" }
+        }
+      ],
+      "φανερὸν": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5318" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5318" }
+        },
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5318" }
+        }
+      ],
+      "φανεροὺς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5318" }
+        }
+      ],
+      "φανερῷ": [
+        {
+          "parse": ["adj", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5318" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φανερά": "phanerá",
+      "φανερὰ": "phanerà",
+      "φανεροὶ": "phaneroì",
+      "φανερόν": "phanerón",
+      "φανερὸν": "phaneròn",
+      "φανεροὺς": "phaneroùs",
+      "φανερῷ": "phanerō̂"
+    }
+  },
+  "φανερόω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to illuminate, light up, bring to light; fig. to appear, make apparent",
+    "indices": { "strongs": "G5319" },
+    "inflections": {
+      "ἐφανερώθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "ἐφανερώθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "ἐφανέρωσά": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "ἐφανέρωσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "πεφανερώμεθα": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "πεφανερῶσθαι": [
+        {
+          "parse": ["verb", "perf", "pas", "inf"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "πεφανέρωται": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερούμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερούμενον": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανεροῦντι": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανεροῦται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερωθεῖσαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερωθέντες": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερωθέντος": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερωθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερωθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερωθήσεσθε": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερωθῶσιν": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερώσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανέρωσον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5319" }
+        }
+      ],
+      "φανερώσω": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G5319" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφανερώθη": "ephanerṓthē",
+      "ἐφανερώθησαν": "ephanerṓthēsan",
+      "ἐφανέρωσά": "ephanérōsá",
+      "ἐφανέρωσεν": "ephanérōsen",
+      "πεφανερώμεθα": "pephanerṓmetha",
+      "πεφανερῶσθαι": "pephanerō̂sthai",
+      "πεφανέρωται": "pephanérōtai",
+      "φανερούμενοι": "phaneroúmenoi",
+      "φανερούμενον": "phaneroúmenon",
+      "φανεροῦντι": "phaneroûnti",
+      "φανεροῦται": "phaneroûtai",
+      "φανερωθεῖσαν": "phanerōtheîsan",
+      "φανερωθέντες": "phanerōthéntes",
+      "φανερωθέντος": "phanerōthéntos",
+      "φανερωθῇ": "phanerōthē̂",
+      "φανερωθῆναι": "phanerōthē̂nai",
+      "φανερωθήσεσθε": "phanerōthḗsesthe",
+      "φανερωθῶσιν": "phanerōthō̂sin",
+      "φανερώσει": "phanerṓsei",
+      "φανέρωσον": "phanérōson",
+      "φανερώσω": "phanerṓsō"
+    }
+  },
+  "φανερῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5320" },
+    "inflections": {
+      "φανερῶς": [{ "parse": ["adv"], "indices": { "strongs": "G5320" } }]
+    },
+    "transliterations": { "φανερῶς": "phanerō̂s" }
+  },
+  "φανέρωσις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5321" },
+    "inflections": {
+      "φανερώσει": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5321" }
+        }
+      ],
+      "φανέρωσις": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5321" }
+        }
+      ]
+    },
+    "transliterations": { "φανερώσει": "phanerṓsei", "φανέρωσις": "phanérōsis" }
+  },
+  "φανός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5322" },
+    "inflections": {
+      "φανῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5322" }
+        }
+      ]
+    },
+    "transliterations": { "φανῶν": "phanō̂n" }
+  },
+  "Φανουήλ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5323" },
+    "inflections": {
+      "φανουήλ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5323" }
+        }
+      ]
+    },
+    "transliterations": { "φανουήλ": "phanouḗl" }
+  },
+  "φαντάζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5324" },
+    "inflections": {
+      "φανταζόμενον": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5324" }
+        }
+      ]
+    },
+    "transliterations": { "φανταζόμενον": "phantazómenon" }
+  },
+  "φαντασία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5325" },
+    "inflections": {
+      "φαντασίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5325" }
+        }
+      ]
+    },
+    "transliterations": { "φαντασίας": "phantasías" }
+  },
+  "φάντασμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5326" },
+    "inflections": {
+      "φάντασμα": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5326" }
+        }
+      ],
+      "φάντασμά": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5326" }
+        }
+      ]
+    },
+    "transliterations": { "φάντασμα": "phántasma", "φάντασμά": "phántasmá" }
+  },
+  "φάραγξ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5327" },
+    "inflections": {
+      "φάραγξ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5327" }
+        }
+      ]
+    },
+    "transliterations": { "φάραγξ": "pháranx" }
+  },
+  "Φαραώ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5328" },
+    "inflections": {
+      "φαραώ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5328" }
+        }
+      ],
+      "φαραὼ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5328" }
+        }
+      ]
+    },
+    "transliterations": { "φαραώ": "pharaṓ", "φαραὼ": "pharaṑ" }
+  },
+  "Φαρές": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Perez, Pharez; lit. Breach",
+    "indices": { "strongs": "G5329" },
+    "inflections": {
+      "φαρές": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5329" }
+        }
+      ],
+      "φαρὲς": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5329" }
+        }
+      ]
+    },
+    "transliterations": { "φαρές": "pharés", "φαρὲς": "pharès" }
+  },
+  "Φαρισαῖος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a Pharisee",
+    "indices": { "strongs": "G5330" },
+    "inflections": {
+      "φαρισαῖε": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G5330" }
+        }
+      ],
+      "φαρισαῖοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5330" }
+        },
+        {
+          "parse": ["noun", "voc", "pl", "masc"],
+          "indices": { "strongs": "G5330" }
+        }
+      ],
+      "φαρισαίοις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5330" }
+        }
+      ],
+      "φαρισαῖος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5330" }
+        }
+      ],
+      "φαρισαῖός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5330" }
+        }
+      ],
+      "φαρισαίου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5330" }
+        }
+      ],
+      "φαρισαίους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5330" }
+        }
+      ],
+      "φαρισαίων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5330" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φαρισαῖε": "pharisaîe",
+      "φαρισαῖοι": "pharisaîoi",
+      "φαρισαίοις": "pharisaíois",
+      "φαρισαῖος": "pharisaîos",
+      "φαρισαῖός": "pharisaîós",
+      "φαρισαίου": "pharisaíou",
+      "φαρισαίους": "pharisaíous",
+      "φαρισαίων": "pharisaíōn"
+    }
+  },
+  "φαρμακεία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5331" },
+    "inflections": {
+      "φαρμακεία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5331" }
+        }
+      ],
+      "φαρμακείᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5331" }
+        }
+      ],
+      "φαρμακειῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5331" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φαρμακεία": "pharmakeía",
+      "φαρμακείᾳ": "pharmakeía",
+      "φαρμακειῶν": "pharmakeiō̂n"
+    }
+  },
+  "φαρμακός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5333" },
+    "inflections": {
+      "φαρμακοὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5333" }
+        }
+      ],
+      "φαρμάκοις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5333" }
+        }
+      ]
+    },
+    "transliterations": { "φαρμακοὶ": "pharmakoì", "φαρμάκοις": "pharmákois" }
+  },
+  "φάσις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5334" },
+    "inflections": {
+      "φάσις": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5334" }
+        }
+      ]
+    },
+    "transliterations": { "φάσις": "phásis" }
+  },
+  "φάσκω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to insist",
+    "indices": { "strongs": "G5335" },
+    "inflections": {
+      "ἔφασκεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5335" }
+        }
+      ],
+      "φάσκοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5335" }
+        }
+      ]
+    },
+    "transliterations": { "ἔφασκεν": "éphasken", "φάσκοντες": "pháskontes" }
+  },
+  "φάτνη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5336" },
+    "inflections": {
+      "φάτνῃ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5336" }
+        }
+      ],
+      "φάτνης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5336" }
+        }
+      ]
+    },
+    "transliterations": { "φάτνῃ": "phátnē", "φάτνης": "phátnēs" }
+  },
+  "φαῦλος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5337" },
+    "inflections": {
+      "φαῦλα": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5337" }
+        }
+      ],
+      "φαῦλον": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5337" }
+        },
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5337" }
+        }
+      ]
+    },
+    "transliterations": { "φαῦλα": "phaûla", "φαῦλον": "phaûlon" }
+  },
+  "φέγγος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5338" },
+    "inflections": {
+      "φέγγος": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5338" }
+        }
+      ]
+    },
+    "transliterations": { "φέγγος": "phéngos" }
+  },
+  "φείδομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5339" },
+    "inflections": {
+      "ἐφείσατο": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5339" }
+        }
+      ],
+      "φείδομαι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5339" }
+        }
+      ],
+      "φειδόμενοι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5339" }
+        }
+      ],
+      "φειδόμενος": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5339" }
+        }
+      ],
+      "φείσεται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5339" }
+        }
+      ],
+      "φείσομαι": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5339" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφείσατο": "epheísato",
+      "φείδομαι": "pheídomai",
+      "φειδόμενοι": "pheidómenoi",
+      "φειδόμενος": "pheidómenos",
+      "φείσεται": "pheísetai",
+      "φείσομαι": "pheísomai"
+    }
+  },
+  "φειδομένως": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5340" },
+    "inflections": {
+      "φειδομένως": [{ "parse": ["adv"], "indices": { "strongs": "G5340" } }]
+    },
+    "transliterations": { "φειδομένως": "pheidoménōs" }
+  },
+  "φελόνης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5341" },
+    "inflections": {
+      "φελόνην": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5341" }
+        }
+      ]
+    },
+    "transliterations": { "φελόνην": "phelónēn" }
+  },
+  "φέρω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to bear; fig. to carry, bring",
+    "indices": { "strongs": "G5342" },
+    "inflections": {
+      "ἐνέγκαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἐνέγκας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἐνέγκατε": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἐνεχθεῖσαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἐνεχθείσης": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἐνεχθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἔφερεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἐφερόμεθα": [
+        {
+          "parse": ["verb", "impf", "pas", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἔφερον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἐφέροντο": [
+        {
+          "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἤνεγκα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἤνεγκαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἤνεγκεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "ἠνέχθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "οἴσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "οἴσουσιν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρεσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρετε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5342" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρετέ": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρητε": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φερομένην": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φερομένης": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φερόμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρον": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέροντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρουσαι": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρουσαν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φερώμεθα": [
+        {
+          "parse": ["verb", "pres", "pas", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G5342" }
+        }
+      ],
+      "φέρων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5342" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐνέγκαντες": "enénkantes",
+      "ἐνέγκας": "enénkas",
+      "ἐνέγκατε": "enénkate",
+      "ἐνεχθεῖσαν": "enechtheîsan",
+      "ἐνεχθείσης": "enechtheísēs",
+      "ἐνεχθῆναι": "enechthē̂nai",
+      "ἔφερεν": "épheren",
+      "ἐφερόμεθα": "epherómetha",
+      "ἔφερον": "épheron",
+      "ἐφέροντο": "ephéronto",
+      "ἤνεγκα": "ḗnenka",
+      "ἤνεγκαν": "ḗnenkan",
+      "ἤνεγκεν": "ḗnenken",
+      "ἠνέχθη": "ēnéchthē",
+      "οἴσει": "oísei",
+      "οἴσουσιν": "oísousin",
+      "φέρε": "phére",
+      "φέρει": "phérei",
+      "φέρειν": "phérein",
+      "φέρεσθαι": "phéresthai",
+      "φέρετε": "phérete",
+      "φέρετέ": "phéreté",
+      "φέρῃ": "phérē",
+      "φέρητε": "phérēte",
+      "φερομένην": "pheroménēn",
+      "φερομένης": "pheroménēs",
+      "φερόμενοι": "pherómenoi",
+      "φέρον": "phéron",
+      "φέροντες": "phérontes",
+      "φέρουσαι": "phérousai",
+      "φέρουσαν": "phérousan",
+      "φέρουσιν": "phérousin",
+      "φερώμεθα": "pherṓmetha",
+      "φέρων": "phérōn"
+    }
+  },
+  "φεύγω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5343" },
+    "inflections": {
+      "ἔφυγεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5343" }
+        }
+      ],
+      "ἔφυγον": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5343" }
+        }
+      ],
+      "φεῦγε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5343" }
+        }
+      ],
+      "φεύγει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5343" }
+        }
+      ],
+      "φεύγετε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5343" }
+        }
+      ],
+      "φευγέτωσαν": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "pl"],
+          "indices": { "strongs": "G5343" }
+        }
+      ],
+      "φεύξεται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5343" }
+        }
+      ],
+      "φεύξονται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5343" }
+        }
+      ],
+      "φυγεῖν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "inf"],
+          "indices": { "strongs": "G5343" }
+        }
+      ],
+      "φύγητε": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G5343" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔφυγεν": "éphygen",
+      "ἔφυγον": "éphygon",
+      "φεῦγε": "pheûge",
+      "φεύγει": "pheúgei",
+      "φεύγετε": "pheúgete",
+      "φευγέτωσαν": "pheugétōsan",
+      "φεύξεται": "pheúxetai",
+      "φεύξονται": "pheúxontai",
+      "φυγεῖν": "phygeîn",
+      "φύγητε": "phýgēte"
+    }
+  },
+  "Φῆλιξ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5344" },
+    "inflections": {
+      "φήλικα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5344" }
+        }
+      ],
+      "φήλικι": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5344" }
+        }
+      ],
+      "φήλικος": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5344" }
+        }
+      ],
+      "φῆλιξ": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G5344" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5344" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φήλικα": "phḗlika",
+      "φήλικι": "phḗliki",
+      "φήλικος": "phḗlikos",
+      "φῆλιξ": "phē̂lix"
+    }
+  },
+  "φήμη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5345" },
+    "inflections": {
+      "φήμη": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5345" }
+        }
+      ]
+    },
+    "transliterations": { "φήμη": "phḗmē" }
+  },
+  "φημί": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to declare",
+    "indices": { "strongs": "G5346" },
+    "inflections": {
+      "ἔφη": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5346" }
+        }
+      ],
+      "φασίν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5346" }
+        }
+      ],
+      "φημι": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5346" }
+        }
+      ],
+      "φησιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5346" }
+        }
+      ],
+      "φησίν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5346" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔφη": "éphē",
+      "φασίν": "phasín",
+      "φημι": "phēmi",
+      "φησιν": "phēsin",
+      "φησίν": "phēsín"
+    }
+  },
+  "Φῆστος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5347" },
+    "inflections": {
+      "φῆστε": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G5347" }
+        }
+      ],
+      "φῆστον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5347" }
+        }
+      ],
+      "φῆστος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5347" }
+        }
+      ],
+      "φήστου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5347" }
+        }
+      ],
+      "φήστῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5347" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φῆστε": "phē̂ste",
+      "φῆστον": "phē̂ston",
+      "φῆστος": "phē̂stos",
+      "φήστου": "phḗstou",
+      "φήστῳ": "phḗstō"
+    }
+  },
+  "φθάνω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5348" },
+    "inflections": {
+      "ἐφθάσαμεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5348" }
+        }
+      ],
+      "ἔφθασεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5348" }
+        }
+      ],
+      "φθάσωμεν": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G5348" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφθάσαμεν": "ephthásamen",
+      "ἔφθασεν": "éphthasen",
+      "φθάσωμεν": "phthásōmen"
+    }
+  },
+  "φθαρτός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5349" },
+    "inflections": {
+      "φθαρτῆς": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5349" }
+        }
+      ],
+      "φθαρτοῖς": [
+        {
+          "parse": ["adj", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5349" }
+        }
+      ],
+      "φθαρτὸν": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5349" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5349" }
+        },
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5349" }
+        }
+      ],
+      "φθαρτοῦ": [
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5349" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φθαρτῆς": "phthartē̂s",
+      "φθαρτοῖς": "phthartoîs",
+      "φθαρτὸν": "phthartòn",
+      "φθαρτοῦ": "phthartoû"
+    }
+  },
+  "φθέγγομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5350" },
+    "inflections": {
+      "φθέγγεσθαι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "inf"],
+          "indices": { "strongs": "G5350" }
+        }
+      ],
+      "φθεγγόμενοι": [
+        {
+          "parse": ["verb", "pres", "mid-dep", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5350" }
+        }
+      ],
+      "φθεγξάμενον": [
+        {
+          "parse": ["verb", "aor", "midpas-dep", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5350" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φθέγγεσθαι": "phthéngesthai",
+      "φθεγγόμενοι": "phthengómenoi",
+      "φθεγξάμενον": "phthenxámenon"
+    }
+  },
+  "φθείρω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to shrivel up, wither away; fig. to corrupt",
+    "indices": { "strongs": "G5351" },
+    "inflections": {
+      "ἐφθείραμεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5351" }
+        }
+      ],
+      "φθαρῇ": [
+        {
+          "parse": ["verb", "second", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5351" }
+        }
+      ],
+      "φθείρει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5351" }
+        }
+      ],
+      "φθειρόμενον": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5351" }
+        }
+      ],
+      "φθείρονται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5351" }
+        }
+      ],
+      "φθείρουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5351" }
+        }
+      ],
+      "φθερεῖ": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5351" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφθείραμεν": "ephtheíramen",
+      "φθαρῇ": "phtharē̂",
+      "φθείρει": "phtheírei",
+      "φθειρόμενον": "phtheirómenon",
+      "φθείρονται": "phtheírontai",
+      "φθείρουσιν": "phtheírousin",
+      "φθερεῖ": "phthereî"
+    }
+  },
+  "φθινοπωρινός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5352" },
+    "inflections": {
+      "φθινοπωρινά": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5352" }
+        }
+      ]
+    },
+    "transliterations": { "φθινοπωρινά": "phthinopōriná" }
+  },
+  "φθόγγος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5353" },
+    "inflections": {
+      "φθόγγοις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5353" }
+        }
+      ],
+      "φθόγγος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5353" }
+        }
+      ]
+    },
+    "transliterations": { "φθόγγοις": "phthóngois", "φθόγγος": "phthóngos" }
+  },
+  "φθονέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5354" },
+    "inflections": {
+      "φθονοῦντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5354" }
+        }
+      ]
+    },
+    "transliterations": { "φθονοῦντες": "phthonoûntes" }
+  },
+  "φθόνος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5355" },
+    "inflections": {
+      "φθόνοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5355" }
+        }
+      ],
+      "φθόνον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5355" }
+        }
+      ],
+      "φθόνος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5355" }
+        }
+      ],
+      "φθόνου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5355" }
+        }
+      ],
+      "φθόνους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5355" }
+        }
+      ],
+      "φθόνῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5355" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φθόνοι": "phthónoi",
+      "φθόνον": "phthónon",
+      "φθόνος": "phthónos",
+      "φθόνου": "phthónou",
+      "φθόνους": "phthónous",
+      "φθόνῳ": "phthónō"
+    }
+  },
+  "φθορά": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5356" },
+    "inflections": {
+      "φθορὰ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5356" }
+        }
+      ],
+      "φθορᾷ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5356" }
+        }
+      ],
+      "φθοράν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5356" }
+        }
+      ],
+      "φθορὰν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5356" }
+        }
+      ],
+      "φθορᾶς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5356" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φθορὰ": "phthorà",
+      "φθορᾷ": "phthorâ",
+      "φθοράν": "phthorán",
+      "φθορὰν": "phthoràn",
+      "φθορᾶς": "phthorâs"
+    }
+  },
+  "φιάλη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5357" },
+    "inflections": {
+      "φιάλας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5357" }
+        }
+      ],
+      "φιάλην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5357" }
+        }
+      ]
+    },
+    "transliterations": { "φιάλας": "phiálas", "φιάλην": "phiálēn" }
+  },
+  "φιλάγαθος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5358" },
+    "inflections": {
+      "φιλάγαθον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5358" }
+        }
+      ]
+    },
+    "transliterations": { "φιλάγαθον": "philágathon" }
+  },
+  "Φιλαδέλφεια": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5359" },
+    "inflections": {
+      "φιλαδελφείᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5359" }
+        }
+      ],
+      "φιλαδέλφειαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5359" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φιλαδελφείᾳ": "philadelpheía",
+      "φιλαδέλφειαν": "philadélpheian"
+    }
+  },
+  "φιλαδελφία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5360" },
+    "inflections": {
+      "φιλαδελφία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5360" }
+        }
+      ],
+      "φιλαδελφίᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5360" }
+        }
+      ],
+      "φιλαδελφίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5360" }
+        }
+      ],
+      "φιλαδελφίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5360" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φιλαδελφία": "philadelphía",
+      "φιλαδελφίᾳ": "philadelphía",
+      "φιλαδελφίαν": "philadelphían",
+      "φιλαδελφίας": "philadelphías"
+    }
+  },
+  "φιλάδελφος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5361" },
+    "inflections": {
+      "φιλάδελφοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5361" }
+        }
+      ]
+    },
+    "transliterations": { "φιλάδελφοι": "philádelphoi" }
+  },
+  "φίλανδρος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be husband-adoring",
+    "indices": { "strongs": "G5362" },
+    "inflections": {
+      "φιλάνδρους": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5362" }
+        }
+      ]
+    },
+    "transliterations": { "φιλάνδρους": "philándrous" }
+  },
+  "φιλανθρωπία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5363" },
+    "inflections": {
+      "φιλανθρωπία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5363" }
+        }
+      ],
+      "φιλανθρωπίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5363" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φιλανθρωπία": "philanthrōpía",
+      "φιλανθρωπίαν": "philanthrōpían"
+    }
+  },
+  "φιλανθρώπως": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5364" },
+    "inflections": {
+      "φιλανθρώπως": [{ "parse": ["adv"], "indices": { "strongs": "G5364" } }]
+    },
+    "transliterations": { "φιλανθρώπως": "philanthrṓpōs" }
+  },
+  "φιλαργυρία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5365" },
+    "inflections": {
+      "φιλαργυρία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5365" }
+        }
+      ]
+    },
+    "transliterations": { "φιλαργυρία": "philargyría" }
+  },
+  "φιλάργυρος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5366" },
+    "inflections": {
+      "φιλάργυροι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5366" }
+        }
+      ]
+    },
+    "transliterations": { "φιλάργυροι": "philárgyroi" }
+  },
+  "φίλαυτος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5367" },
+    "inflections": {
+      "φίλαυτοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5367" }
+        }
+      ]
+    },
+    "transliterations": { "φίλαυτοι": "phílautoi" }
+  },
+  "φιλέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to love (like a close friend), adore; fig. to kiss",
+    "indices": { "strongs": "G5368" },
+    "inflections": {
+      "ἐφίλει": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "πεφιλήκατε": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "φιλεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "φιλεῖς": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "φιλῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "φιλήσω": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "φιλοῦντας": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "φιλούντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "φιλοῦσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "φιλοῦσίν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "φιλῶ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5368" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G5368" }
+        }
+      ],
+      "φιλῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5368" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφίλει": "ephílei",
+      "πεφιλήκατε": "pephilḗkate",
+      "φιλεῖ": "phileî",
+      "φιλεῖς": "phileîs",
+      "φιλῆσαι": "philē̂sai",
+      "φιλήσω": "philḗsō",
+      "φιλοῦντας": "philoûntas",
+      "φιλούντων": "philoúntōn",
+      "φιλοῦσιν": "philoûsin",
+      "φιλοῦσίν": "philoûsín",
+      "φιλῶ": "philō̂",
+      "φιλῶν": "philō̂n"
+    }
+  },
+  "φιλήδονος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be pleasure-loving",
+    "indices": { "strongs": "G5369" },
+    "inflections": {
+      "φιλήδονοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5369" }
+        }
+      ]
+    },
+    "transliterations": { "φιλήδονοι": "philḗdonoi" }
+  },
+  "φίλημα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5370" },
+    "inflections": {
+      "φίλημά": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5370" }
+        }
+      ],
+      "φιλήματι": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5370" }
+        }
+      ]
+    },
+    "transliterations": { "φίλημά": "phílēmá", "φιλήματι": "philḗmati" }
+  },
+  "Φιλήμων": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5371" },
+    "inflections": {
+      "φιλήμονι": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5371" }
+        }
+      ]
+    },
+    "transliterations": { "φιλήμονι": "philḗmoni" }
+  },
+  "Φιλητός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5372" },
+    "inflections": {
+      "φιλητός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5372" }
+        }
+      ]
+    },
+    "transliterations": { "φιλητός": "philētós" }
+  },
+  "φιλία": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a friendship",
+    "indices": { "strongs": "G5373" },
+    "inflections": {
+      "φιλία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5373" }
+        }
+      ]
+    },
+    "transliterations": { "φιλία": "philía" }
+  },
+  "Φιλιππήσιος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5374" },
+    "inflections": {
+      "φιλιππήσιοι": [
+        {
+          "parse": ["noun", "voc", "pl", "masc"],
+          "indices": { "strongs": "G5374" }
+        }
+      ]
+    },
+    "transliterations": { "φιλιππήσιοι": "philippḗsioi" }
+  },
+  "Φίλιπποι": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5375" },
+    "inflections": {
+      "φιλίπποις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5375" }
+        }
+      ],
+      "φιλίππους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5375" }
+        }
+      ],
+      "φιλίππων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5375" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φιλίπποις": "philíppois",
+      "φιλίππους": "philíppous",
+      "φιλίππων": "philíppōn"
+    }
+  },
+  "Φίλιππος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5376" },
+    "inflections": {
+      "φίλιππε": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G5376" }
+        }
+      ],
+      "φίλιππον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5376" }
+        }
+      ],
+      "φίλιππος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5376" }
+        }
+      ],
+      "φιλίππου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5376" }
+        }
+      ],
+      "φιλίππῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5376" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φίλιππε": "phílippe",
+      "φίλιππον": "phílippon",
+      "φίλιππος": "phílippos",
+      "φιλίππου": "philíppou",
+      "φιλίππῳ": "philíppō"
+    }
+  },
+  "φιλόθεος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be God-loving",
+    "indices": { "strongs": "G5377" },
+    "inflections": {
+      "φιλόθεοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5377" }
+        }
+      ]
+    },
+    "transliterations": { "φιλόθεοι": "philótheoi" }
+  },
+  "Φιλόλογος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5378" },
+    "inflections": {
+      "φιλόλογον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5378" }
+        }
+      ]
+    },
+    "transliterations": { "φιλόλογον": "philólogon" }
+  },
+  "φιλονεικία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5379" },
+    "inflections": {
+      "φιλονεικία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5379" }
+        }
+      ]
+    },
+    "transliterations": { "φιλονεικία": "philoneikía" }
+  },
+  "φιλόνεικος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5380" },
+    "inflections": {
+      "φιλόνεικος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5380" }
+        }
+      ]
+    },
+    "transliterations": { "φιλόνεικος": "philóneikos" }
+  },
+  "φιλοξενία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5381" },
+    "inflections": {
+      "φιλοξενίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5381" }
+        }
+      ],
+      "φιλοξενίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5381" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φιλοξενίαν": "philoxenían",
+      "φιλοξενίας": "philoxenías"
+    }
+  },
+  "φιλόξενος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5382" },
+    "inflections": {
+      "φιλόξενοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5382" }
+        }
+      ],
+      "φιλόξενον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5382" }
+        }
+      ]
+    },
+    "transliterations": { "φιλόξενοι": "philóxenoi", "φιλόξενον": "philóxenon" }
+  },
+  "φιλοπρωτεύω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to love being first",
+    "indices": { "strongs": "G5383" },
+    "inflections": {
+      "φιλοπρωτεύων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5383" }
+        }
+      ]
+    },
+    "transliterations": { "φιλοπρωτεύων": "philoprōteúōn" }
+  },
+  "φίλος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be dear, adoring, friendly",
+    "indices": { "strongs": "G5384" },
+    "inflections": {
+      "φίλας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5384" }
+        }
+      ],
+      "φίλε": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G5384" }
+        }
+      ],
+      "φίλοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5384" }
+        }
+      ],
+      "φίλοις": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5384" }
+        }
+      ],
+      "φίλον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5384" }
+        }
+      ],
+      "φίλος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5384" }
+        }
+      ],
+      "φίλους": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5384" }
+        }
+      ],
+      "φίλων": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5384" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φίλας": "phílas",
+      "φίλε": "phíle",
+      "φίλοι": "phíloi",
+      "φίλοις": "phílois",
+      "φίλον": "phílon",
+      "φίλος": "phílos",
+      "φίλους": "phílous",
+      "φίλων": "phílōn"
+    }
+  },
+  "φιλοσοφία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5385" },
+    "inflections": {
+      "φιλοσοφίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5385" }
+        }
+      ]
+    },
+    "transliterations": { "φιλοσοφίας": "philosophías" }
+  },
+  "φιλόσοφος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5386" },
+    "inflections": {
+      "φιλοσόφων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5386" }
+        }
+      ]
+    },
+    "transliterations": { "φιλοσόφων": "philosóphōn" }
+  },
+  "φιλόστοργος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5387" },
+    "inflections": {
+      "φιλόστοργοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5387" }
+        }
+      ]
+    },
+    "transliterations": { "φιλόστοργοι": "philóstorgoi" }
+  },
+  "φιλότεκνος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be child-adoring",
+    "indices": { "strongs": "G5388" },
+    "inflections": {
+      "φιλοτέκνους": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5388" }
+        }
+      ]
+    },
+    "transliterations": { "φιλοτέκνους": "philotéknous" }
+  },
+  "φιλοτιμέομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5389" },
+    "inflections": {
+      "φιλοτιμεῖσθαι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "inf"],
+          "indices": { "strongs": "G5389" }
+        }
+      ],
+      "φιλοτιμούμεθα": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5389" }
+        }
+      ],
+      "φιλοτιμούμενον": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5389" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φιλοτιμεῖσθαι": "philotimeîsthai",
+      "φιλοτιμούμεθα": "philotimoúmetha",
+      "φιλοτιμούμενον": "philotimoúmenon"
+    }
+  },
+  "φιλοφρόνως": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5390" },
+    "inflections": {
+      "φιλοφρόνως": [{ "parse": ["adv"], "indices": { "strongs": "G5390" } }]
+    },
+    "transliterations": { "φιλοφρόνως": "philophrónōs" }
+  },
+  "φιλόφρων": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5391" },
+    "inflections": {
+      "φιλόφρονες": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5391" }
+        }
+      ]
+    },
+    "transliterations": { "φιλόφρονες": "philóphrones" }
+  },
+  "φιμόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5392" },
+    "inflections": {
+      "ἐφιμώθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5392" }
+        }
+      ],
+      "ἐφίμωσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5392" }
+        }
+      ],
+      "πεφίμωσο": [
+        {
+          "parse": ["verb", "perf", "pas", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5392" }
+        }
+      ],
+      "φιμοῦν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5392" }
+        }
+      ],
+      "φιμώθητι": [
+        {
+          "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5392" }
+        }
+      ],
+      "φιμώσεις": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5392" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφιμώθη": "ephimṓthē",
+      "ἐφίμωσεν": "ephímōsen",
+      "πεφίμωσο": "pephímōso",
+      "φιμοῦν": "phimoûn",
+      "φιμώθητι": "phimṓthēti",
+      "φιμώσεις": "phimṓseis"
+    }
+  },
+  "φλέγω": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5393" },
+    "inflections": {
+      "φλέγοντα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5393" }
+        }
+      ]
+    },
+    "transliterations": { "φλέγοντα": "phlégonta" }
+  },
+  "φλογίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5394" },
+    "inflections": {
+      "φλογιζομένη": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5394" }
+        }
+      ],
+      "φλογίζουσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5394" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φλογιζομένη": "phlogizoménē",
+      "φλογίζουσα": "phlogízousa"
+    }
+  },
+  "φλόξ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5395" },
+    "inflections": {
+      "φλόγα": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5395" }
+        }
+      ],
+      "φλογὶ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5395" }
+        }
+      ],
+      "φλογός": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5395" }
+        }
+      ],
+      "φλὸξ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5395" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φλόγα": "phlóga",
+      "φλογὶ": "phlogì",
+      "φλογός": "phlogós",
+      "φλὸξ": "phlòx"
+    }
+  },
+  "φλυαρέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to babble about/against",
+    "indices": { "strongs": "G5396" },
+    "inflections": {
+      "φλυαρῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5396" }
+        }
+      ]
+    },
+    "transliterations": { "φλυαρῶν": "phlyarō̂n" }
+  },
+  "φλύαρος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be babbling",
+    "indices": { "strongs": "G5397" },
+    "inflections": {
+      "φλύαροι": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5397" }
+        }
+      ]
+    },
+    "transliterations": { "φλύαροι": "phlýaroi" }
+  },
+  "φοβέομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to fear; fig. to revere, respect, venerate",
+    "indices": { "strongs": "G5399" },
+    "inflections": {
+      "ἐφοβεῖτο": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "ἐφοβήθη": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "ἐφοβήθησαν": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "ἐφοβούμην": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "ἐφοβοῦντο": [
+        {
+          "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβεῖσθαι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "inf"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβεῖσθε": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβῇ": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβηθείς": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβηθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβηθεῖσα": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβηθέντες": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβηθῇ": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβηθῇς": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβηθήσομαι": [
+        {
+          "parse": ["verb", "fut", "pas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβηθῆτε": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5399" }
+        },
+        {
+          "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβήθητε": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβηθῶμεν": [
+        {
+          "parse": ["verb", "aor", "pas-dep", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβῆται": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβοῦ": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβοῦμαι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβούμεθα": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβούμεναι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβούμενοι": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβούμενοί": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβουμένοις": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5399" }
+        }
+      ],
+      "φοβούμενος": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5399" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφοβεῖτο": "ephobeîto",
+      "ἐφοβήθη": "ephobḗthē",
+      "ἐφοβήθησαν": "ephobḗthēsan",
+      "ἐφοβούμην": "ephoboúmēn",
+      "ἐφοβοῦντο": "ephoboûnto",
+      "φοβεῖσθαι": "phobeîsthai",
+      "φοβεῖσθε": "phobeîsthe",
+      "φοβῇ": "phobē̂",
+      "φοβηθείς": "phobētheís",
+      "φοβηθεὶς": "phobētheìs",
+      "φοβηθεῖσα": "phobētheîsa",
+      "φοβηθέντες": "phobēthéntes",
+      "φοβηθῇ": "phobēthē̂",
+      "φοβηθῇς": "phobēthē̂s",
+      "φοβηθήσομαι": "phobēthḗsomai",
+      "φοβηθῆτε": "phobēthē̂te",
+      "φοβήθητε": "phobḗthēte",
+      "φοβηθῶμεν": "phobēthō̂men",
+      "φοβῆται": "phobē̂tai",
+      "φοβοῦ": "phoboû",
+      "φοβοῦμαι": "phoboûmai",
+      "φοβούμεθα": "phoboúmetha",
+      "φοβούμεναι": "phoboúmenai",
+      "φοβούμενοι": "phoboúmenoi",
+      "φοβούμενοί": "phoboúmenoí",
+      "φοβουμένοις": "phobouménois",
+      "φοβούμενος": "phoboúmenos"
+    }
+  },
+  "φοβερός": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["φοβερά", "φοβερόν"],
+    "indices": { "strongs": "G5398" },
+    "inflections": {
+      "φοβερὰ": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5398" }
+        }
+      ],
+      "φοβερὸν": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5398" }
+        }
+      ]
+    },
+    "transliterations": { "φοβερὰ": "phoberà", "φοβερὸν": "phoberòn" }
+  },
+  "φόβητρον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5400" },
+    "inflections": {
+      "φόβητρά": [
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5400" }
+        }
+      ]
+    },
+    "transliterations": { "φόβητρά": "phóbētrá" }
+  },
+  "φόβος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a fear; fig. a reverence, respect, veneration",
+    "indices": { "strongs": "G5401" },
+    "inflections": {
+      "φόβοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5401" }
+        }
+      ],
+      "φόβον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5401" }
+        }
+      ],
+      "φόβος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5401" }
+        }
+      ],
+      "φόβου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5401" }
+        }
+      ],
+      "φόβῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5401" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φόβοι": "phóboi",
+      "φόβον": "phóbon",
+      "φόβος": "phóbos",
+      "φόβου": "phóbou",
+      "φόβῳ": "phóbō"
+    }
+  },
+  "Φοίβη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5402" },
+    "inflections": {
+      "φοίβην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5402" }
+        }
+      ]
+    },
+    "transliterations": { "φοίβην": "phoíbēn" }
+  },
+  "Φοινίκη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5403" },
+    "inflections": {
+      "φοινίκην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5403" }
+        }
+      ],
+      "φοινίκης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5403" }
+        }
+      ]
+    },
+    "transliterations": { "φοινίκην": "phoiníkēn", "φοινίκης": "phoiníkēs" }
+  },
+  "Φοῖνιξ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5405" },
+    "inflections": {
+      "φοίνικα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5405" }
+        }
+      ]
+    },
+    "transliterations": { "φοίνικα": "phoínika" }
+  },
+  "φοῖνιξ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5404" },
+    "inflections": {
+      "φοίνικας": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5404" }
+        }
+      ],
+      "φοινίκων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5404" }
+        }
+      ]
+    },
+    "transliterations": { "φοίνικας": "phoínikas", "φοινίκων": "phoiníkōn" }
+  },
+  "φονεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a murderer",
+    "indices": { "strongs": "G5406" },
+    "inflections": {
+      "φονέα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5406" }
+        }
+      ],
+      "φονεῖς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5406" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5406" }
+        }
+      ],
+      "φονεύς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5406" }
+        }
+      ],
+      "φονεῦσιν": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5406" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φονέα": "phonéa",
+      "φονεῖς": "phoneîs",
+      "φονεύς": "phoneús",
+      "φονεῦσιν": "phoneûsin"
+    }
+  },
+  "φονεύω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5407" },
+    "inflections": {
+      "ἐφονεύσατε": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5407" }
+        }
+      ],
+      "φονεύετε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5407" }
+        }
+      ],
+      "φονευσάντων": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5407" }
+        }
+      ],
+      "φονεύσεις": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5407" }
+        }
+      ],
+      "φονεύσῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5407" }
+        }
+      ],
+      "φονεύσῃς": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G5407" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφονεύσατε": "ephoneúsate",
+      "φονεύετε": "phoneúete",
+      "φονευσάντων": "phoneusántōn",
+      "φονεύσεις": "phoneúseis",
+      "φονεύσῃ": "phoneúsē",
+      "φονεύσῃς": "phoneúsēs"
+    }
+  },
+  "φόνος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a murder",
+    "indices": { "strongs": "G5408" },
+    "inflections": {
+      "φόνοι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5408" }
+        }
+      ],
+      "φόνον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5408" }
+        }
+      ],
+      "φόνου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5408" }
+        }
+      ],
+      "φόνῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5408" }
+        }
+      ],
+      "φόνων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5408" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φόνοι": "phónoi",
+      "φόνον": "phónon",
+      "φόνου": "phónou",
+      "φόνῳ": "phónō",
+      "φόνων": "phónōn"
+    }
+  },
+  "φορέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to wear",
+    "indices": { "strongs": "G5409" },
+    "inflections": {
+      "ἐφορέσαμεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5409" }
+        }
+      ],
+      "φορεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5409" }
+        }
+      ],
+      "φορέσωμεν": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G5409" }
+        }
+      ],
+      "φοροῦντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5409" }
+        }
+      ],
+      "φοροῦντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5409" }
+        }
+      ],
+      "φορῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5409" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφορέσαμεν": "ephorésamen",
+      "φορεῖ": "phoreî",
+      "φορέσωμεν": "phorésōmen",
+      "φοροῦντα": "phoroûnta",
+      "φοροῦντες": "phoroûntes",
+      "φορῶν": "phorō̂n"
+    }
+  },
+  "Φόρον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5410" },
+    "inflections": {
+      "φόρου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5410" }
+        }
+      ]
+    },
+    "transliterations": { "φόρου": "phórou" }
+  },
+  "φόρος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a tax",
+    "indices": { "strongs": "G5411" },
+    "inflections": {
+      "φόρον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5411" }
+        }
+      ],
+      "φόρους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5411" }
+        }
+      ]
+    },
+    "transliterations": { "φόρον": "phóron", "φόρους": "phórous" }
+  },
+  "φορτίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5412" },
+    "inflections": {
+      "πεφορτισμένοι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5412" }
+        }
+      ],
+      "φορτίζετε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5412" }
+        }
+      ]
+    },
+    "transliterations": {
+      "πεφορτισμένοι": "pephortisménoi",
+      "φορτίζετε": "phortízete"
+    }
+  },
+  "φορτίον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5413" },
+    "inflections": {
+      "φορτία": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5413" }
+        }
+      ],
+      "φορτίοις": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5413" }
+        }
+      ],
+      "φορτίον": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5413" }
+        },
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5413" }
+        }
+      ],
+      "φορτίου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5413" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φορτία": "phortía",
+      "φορτίοις": "phortíois",
+      "φορτίον": "phortíon",
+      "φορτίου": "phortíou"
+    }
+  },
+  "Φουρτουνᾶτος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5415" },
+    "inflections": {
+      "φουρτουνάτου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5415" }
+        }
+      ]
+    },
+    "transliterations": { "φουρτουνάτου": "phourtounátou" }
+  },
+  "φραγέλλιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5416" },
+    "inflections": {
+      "φραγέλλιον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5416" }
+        }
+      ]
+    },
+    "transliterations": { "φραγέλλιον": "phragéllion" }
+  },
+  "φραγελλόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5417" },
+    "inflections": {
+      "φραγελλώσας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5417" }
+        }
+      ]
+    },
+    "transliterations": { "φραγελλώσας": "phragellṓsas" }
+  },
+  "φραγμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5418" },
+    "inflections": {
+      "φραγμόν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5418" }
+        }
+      ],
+      "φραγμὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5418" }
+        }
+      ],
+      "φραγμοῦ": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5418" }
+        }
+      ],
+      "φραγμούς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5418" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φραγμόν": "phragmón",
+      "φραγμὸν": "phragmòn",
+      "φραγμοῦ": "phragmoû",
+      "φραγμούς": "phragmoús"
+    }
+  },
+  "φράζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5419" },
+    "inflections": {
+      "φράσον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5419" }
+        }
+      ]
+    },
+    "transliterations": { "φράσον": "phráson" }
+  },
+  "φράσσω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5420" },
+    "inflections": {
+      "ἔφραξαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5420" }
+        }
+      ],
+      "φραγῇ": [
+        {
+          "parse": ["verb", "second", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5420" }
+        }
+      ],
+      "φραγήσεται": [
+        {
+          "parse": ["verb", "second", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5420" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔφραξαν": "éphraxan",
+      "φραγῇ": "phragē̂",
+      "φραγήσεται": "phragḗsetai"
+    }
+  },
+  "φρέαρ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5421" },
+    "inflections": {
+      "φρέαρ": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5421" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5421" }
+        }
+      ],
+      "φρέατος": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5421" }
+        }
+      ]
+    },
+    "transliterations": { "φρέαρ": "phréar", "φρέατος": "phréatos" }
+  },
+  "φρεναπατάω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5422" },
+    "inflections": {
+      "φρεναπατᾷ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5422" }
+        }
+      ]
+    },
+    "transliterations": { "φρεναπατᾷ": "phrenapatâ" }
+  },
+  "φρεναπάτης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5423" },
+    "inflections": {
+      "φρεναπάται": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5423" }
+        }
+      ]
+    },
+    "transliterations": { "φρεναπάται": "phrenapátai" }
+  },
+  "φρήν": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a gut; fig. a mindset, inclination, instinct",
+    "indices": { "strongs": "G5424" },
+    "inflections": {
+      "φρεσίν": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5424" }
+        }
+      ],
+      "φρεσὶν": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5424" }
+        }
+      ]
+    },
+    "transliterations": { "φρεσίν": "phresín", "φρεσὶν": "phresìn" }
+  },
+  "φρίσσω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5425" },
+    "inflections": {
+      "φρίσσουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5425" }
+        }
+      ]
+    },
+    "transliterations": { "φρίσσουσιν": "phríssousin" }
+  },
+  "φρονέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to set one’s mind on",
+    "indices": { "strongs": "G5426" },
+    "inflections": {
+      "ἐφρονεῖτε": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "ἐφρόνουν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονεῖν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονεῖς": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονείσθω": [
+        {
+          "parse": ["verb", "pres", "pas", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονεῖτε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5426" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονήσετε": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονῆτε": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονοῦντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονοῦσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονῶμεν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G5426" }
+        }
+      ],
+      "φρονῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5426" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφρονεῖτε": "ephroneîte",
+      "ἐφρόνουν": "ephrónoun",
+      "φρονεῖ": "phroneî",
+      "φρονεῖν": "phroneîn",
+      "φρονεῖς": "phroneîs",
+      "φρονείσθω": "phroneísthō",
+      "φρονεῖτε": "phroneîte",
+      "φρονήσετε": "phronḗsete",
+      "φρονῆτε": "phronē̂te",
+      "φρονοῦντες": "phronoûntes",
+      "φρονοῦσιν": "phronoûsin",
+      "φρονῶμεν": "phronō̂men",
+      "φρονῶν": "phronō̂n"
+    }
+  },
+  "φρόνημα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5427" },
+    "inflections": {
+      "φρόνημα": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5427" }
+        }
+      ]
+    },
+    "transliterations": { "φρόνημα": "phrónēma" }
+  },
+  "φρόνησις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5428" },
+    "inflections": {
+      "φρονήσει": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5428" }
+        }
+      ]
+    },
+    "transliterations": { "φρονήσει": "phronḗsei" }
+  },
+  "φρόνιμος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5429" },
+    "inflections": {
+      "φρόνιμοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5429" }
+        },
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5429" }
+        }
+      ],
+      "φρονίμοις": [
+        {
+          "parse": ["adj", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5429" }
+        },
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5429" }
+        }
+      ],
+      "φρόνιμος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5429" }
+        }
+      ],
+      "φρονίμῳ": [
+        {
+          "parse": ["adj", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5429" }
+        }
+      ],
+      "φρονιμώτεροι": [
+        {
+          "parse": ["adj", "comp", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5429" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φρόνιμοι": "phrónimoi",
+      "φρονίμοις": "phronímois",
+      "φρόνιμος": "phrónimos",
+      "φρονίμῳ": "phronímō",
+      "φρονιμώτεροι": "phronimṓteroi"
+    }
+  },
+  "φρονίμως": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5430" },
+    "inflections": {
+      "φρονίμως": [{ "parse": ["adv"], "indices": { "strongs": "G5430" } }]
+    },
+    "transliterations": { "φρονίμως": "phronímōs" }
+  },
+  "φροντίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5431" },
+    "inflections": {
+      "φροντίζωσιν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5431" }
+        }
+      ]
+    },
+    "transliterations": { "φροντίζωσιν": "phrontízōsin" }
+  },
+  "φρουρέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5432" },
+    "inflections": {
+      "ἐφρούρει": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5432" }
+        }
+      ],
+      "ἐφρουρούμεθα": [
+        {
+          "parse": ["verb", "impf", "pas", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5432" }
+        }
+      ],
+      "φρουρήσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5432" }
+        }
+      ],
+      "φρουρουμένους": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5432" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφρούρει": "ephroúrei",
+      "ἐφρουρούμεθα": "ephrouroúmetha",
+      "φρουρήσει": "phrourḗsei",
+      "φρουρουμένους": "phrourouménous"
+    }
+  },
+  "φρυάσσομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to rage",
+    "indices": { "strongs": "G5433" },
+    "inflections": {
+      "ἐφρύαξαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5433" }
+        }
+      ]
+    },
+    "transliterations": { "ἐφρύαξαν": "ephrýaxan" }
+  },
+  "φρύγανον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5434" },
+    "inflections": {
+      "φρυγάνων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5434" }
+        }
+      ]
+    },
+    "transliterations": { "φρυγάνων": "phrygánōn" }
+  },
+  "Φρυγία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5435" },
+    "inflections": {
+      "φρυγίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5435" }
+        }
+      ]
+    },
+    "transliterations": { "φρυγίαν": "phrygían" }
+  },
+  "Φύγελος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5436" },
+    "inflections": {
+      "φύγελος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5436" }
+        }
+      ]
+    },
+    "transliterations": { "φύγελος": "phýgelos" }
+  },
+  "φυγή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5437" },
+    "inflections": {
+      "φυγὴ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5437" }
+        }
+      ]
+    },
+    "transliterations": { "φυγὴ": "phygḕ" }
+  },
+  "φυλακή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5438" },
+    "inflections": {
+      "φυλακαῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5438" }
+        }
+      ],
+      "φυλακάς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5438" }
+        }
+      ],
+      "φυλακὰς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5438" }
+        }
+      ],
+      "φυλακὴ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5438" }
+        }
+      ],
+      "φυλακῇ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5438" }
+        }
+      ],
+      "φυλακήν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5438" }
+        }
+      ],
+      "φυλακὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5438" }
+        }
+      ],
+      "φυλακῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5438" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φυλακαῖς": "phylakaîs",
+      "φυλακάς": "phylakás",
+      "φυλακὰς": "phylakàs",
+      "φυλακὴ": "phylakḕ",
+      "φυλακῇ": "phylakē̂",
+      "φυλακήν": "phylakḗn",
+      "φυλακὴν": "phylakḕn",
+      "φυλακῆς": "phylakē̂s"
+    }
+  },
+  "φυλακίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5439" },
+    "inflections": {
+      "φυλακίζων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5439" }
+        }
+      ]
+    },
+    "transliterations": { "φυλακίζων": "phylakízōn" }
+  },
+  "φυλακτήριον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5440" },
+    "inflections": {
+      "φυλακτήρια": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5440" }
+        }
+      ]
+    },
+    "transliterations": { "φυλακτήρια": "phylaktḗria" }
+  },
+  "φύλαξ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5441" },
+    "inflections": {
+      "φύλακας": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5441" }
+        }
+      ],
+      "φύλακές": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5441" }
+        }
+      ]
+    },
+    "transliterations": { "φύλακας": "phýlakas", "φύλακές": "phýlakés" }
+  },
+  "φυλάσσω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to monitor; fig. to guard, keep",
+    "indices": { "strongs": "G5442" },
+    "inflections": {
+      "ἐφύλαξα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "ἐφυλαξάμην": [
+        {
+          "parse": ["verb", "aor", "mid", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "ἐφυλάξατε": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "ἐφύλαξεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάξαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάξατε": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάξει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάξῃς": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φύλαξον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάσσειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάσσεσθαι": [
+        {
+          "parse": ["verb", "pres", "mid", "inf"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάσσεσθε": [
+        {
+          "parse": ["verb", "pres", "mid", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάσσῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλασσόμενος": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάσσοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάσσοντι": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάσσου": [
+        {
+          "parse": ["verb", "pres", "mid", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάσσουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5442" }
+        }
+      ],
+      "φυλάσσων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5442" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφύλαξα": "ephýlaxa",
+      "ἐφυλαξάμην": "ephylaxámēn",
+      "ἐφυλάξατε": "ephyláxate",
+      "ἐφύλαξεν": "ephýlaxen",
+      "φυλάξαι": "phyláxai",
+      "φυλάξατε": "phyláxate",
+      "φυλάξει": "phyláxei",
+      "φυλάξῃς": "phyláxēs",
+      "φύλαξον": "phýlaxon",
+      "φυλάσσειν": "phylássein",
+      "φυλάσσεσθαι": "phylássesthai",
+      "φυλάσσεσθε": "phylássesthe",
+      "φυλάσσῃ": "phylássē",
+      "φυλασσόμενος": "phylassómenos",
+      "φυλάσσοντες": "phylássontes",
+      "φυλάσσοντι": "phylássonti",
+      "φυλάσσου": "phylássou",
+      "φυλάσσουσιν": "phylássousin",
+      "φυλάσσων": "phylássōn"
+    }
+  },
+  "φυλή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5443" },
+    "inflections": {
+      "φυλαὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5443" }
+        }
+      ],
+      "φυλαῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5443" }
+        }
+      ],
+      "φυλὰς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5443" }
+        }
+      ],
+      "φυλὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5443" }
+        }
+      ],
+      "φυλῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5443" }
+        }
+      ],
+      "φυλῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5443" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φυλαὶ": "phylaì",
+      "φυλαῖς": "phylaîs",
+      "φυλὰς": "phylàs",
+      "φυλὴν": "phylḕn",
+      "φυλῆς": "phylē̂s",
+      "φυλῶν": "phylō̂n"
+    }
+  },
+  "φύλλον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5444" },
+    "inflections": {
+      "φύλλα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5444" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5444" }
+        }
+      ]
+    },
+    "transliterations": { "φύλλα": "phýlla" }
+  },
+  "φύραμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5445" },
+    "inflections": {
+      "φύραμα": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5445" }
+        },
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5445" }
+        }
+      ],
+      "φυράματος": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5445" }
+        }
+      ]
+    },
+    "transliterations": { "φύραμα": "phýrama", "φυράματος": "phyrámatos" }
+  },
+  "φυσικός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5446" },
+    "inflections": {
+      "φυσικὰ": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5446" }
+        }
+      ],
+      "φυσικὴν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5446" }
+        }
+      ]
+    },
+    "transliterations": { "φυσικὰ": "physikà", "φυσικὴν": "physikḕn" }
+  },
+  "φυσικῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5447" },
+    "inflections": {
+      "φυσικῶς": [{ "parse": ["adv"], "indices": { "strongs": "G5447" } }]
+    },
+    "transliterations": { "φυσικῶς": "physikō̂s" }
+  },
+  "φυσιόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5448" },
+    "inflections": {
+      "ἐφυσιώθησάν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5448" }
+        }
+      ],
+      "πεφυσιωμένοι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5448" }
+        }
+      ],
+      "πεφυσιωμένων": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5448" }
+        }
+      ],
+      "φυσιοῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5448" }
+        }
+      ],
+      "φυσιούμενος": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5448" }
+        }
+      ],
+      "φυσιοῦσθε": [
+        {
+          "parse": ["verb", "pres", "pas", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G5448" }
+        }
+      ],
+      "φυσιοῦται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5448" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφυσιώθησάν": "ephysiṓthēsán",
+      "πεφυσιωμένοι": "pephysiōménoi",
+      "πεφυσιωμένων": "pephysiōménōn",
+      "φυσιοῖ": "physioî",
+      "φυσιούμενος": "physioúmenos",
+      "φυσιοῦσθε": "physioûsthe",
+      "φυσιοῦται": "physioûtai"
+    }
+  },
+  "φύσις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5449" },
+    "inflections": {
+      "φύσει": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5449" }
+        }
+      ],
+      "φύσεως": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5449" }
+        }
+      ],
+      "φύσιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5449" }
+        }
+      ],
+      "φύσις": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5449" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φύσει": "phýsei",
+      "φύσεως": "phýseōs",
+      "φύσιν": "phýsin",
+      "φύσις": "phýsis"
+    }
+  },
+  "φυσίωσις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5450" },
+    "inflections": {
+      "φυσιώσεις": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5450" }
+        }
+      ]
+    },
+    "transliterations": { "φυσιώσεις": "physiṓseis" }
+  },
+  "φυτεία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5451" },
+    "inflections": {
+      "φυτεία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5451" }
+        }
+      ]
+    },
+    "transliterations": { "φυτεία": "phyteía" }
+  },
+  "φυτεύω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5452" },
+    "inflections": {
+      "ἐφύτευον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5452" }
+        }
+      ],
+      "ἐφύτευσα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5452" }
+        }
+      ],
+      "ἐφύτευσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5452" }
+        }
+      ],
+      "πεφυτευμένην": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5452" }
+        }
+      ],
+      "φυτεύει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5452" }
+        }
+      ],
+      "φυτεύθητι": [
+        {
+          "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5452" }
+        }
+      ],
+      "φυτεύων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5452" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφύτευον": "ephýteuon",
+      "ἐφύτευσα": "ephýteusa",
+      "ἐφύτευσεν": "ephýteusen",
+      "πεφυτευμένην": "pephyteuménēn",
+      "φυτεύει": "phyteúei",
+      "φυτεύθητι": "phyteúthēti",
+      "φυτεύων": "phyteúōn"
+    }
+  },
+  "φύω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5453" },
+    "inflections": {
+      "φυὲν": [
+        {
+          "parse": ["verb", "second", "aor", "pas", "ptc", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5453" }
+        }
+      ],
+      "φύουσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5453" }
+        }
+      ]
+    },
+    "transliterations": { "φυὲν": "phyèn", "φύουσα": "phýousa" }
+  },
+  "φωλεός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5454" },
+    "inflections": {
+      "φωλεοὺς": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5454" }
+        }
+      ]
+    },
+    "transliterations": { "φωλεοὺς": "phōleoùs" }
+  },
+  "φωνέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to call, crow",
+    "indices": { "strongs": "G5455" },
+    "inflections": {
+      "ἐφώνει": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "ἐφώνησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "ἐφώνησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φωνεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φώνει": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φωνεῖτέ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φωνηθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φωνῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φωνήσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φωνήσας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φωνήσῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φώνησον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φωνοῦντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5455" }
+        }
+      ],
+      "φωνοῦσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5455" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφώνει": "ephṓnei",
+      "ἐφώνησαν": "ephṓnēsan",
+      "ἐφώνησεν": "ephṓnēsen",
+      "φωνεῖ": "phōneî",
+      "φώνει": "phṓnei",
+      "φωνεῖτέ": "phōneîté",
+      "φωνηθῆναι": "phōnēthē̂nai",
+      "φωνῆσαι": "phōnē̂sai",
+      "φωνήσαντες": "phōnḗsantes",
+      "φωνήσας": "phōnḗsas",
+      "φωνήσῃ": "phōnḗsē",
+      "φώνησον": "phṓnēson",
+      "φωνοῦντες": "phōnoûntes",
+      "φωνοῦσιν": "phōnoûsin"
+    }
+  },
+  "φωνή": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a tone, voice",
+    "indices": { "strongs": "G5456" },
+    "inflections": {
+      "φωναί": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ],
+      "φωναὶ": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ],
+      "φωναῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ],
+      "φωνάς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ],
+      "φωνὰς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ],
+      "φωνὴ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ],
+      "φωνῇ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ],
+      "φωνήν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ],
+      "φωνὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ],
+      "φωνῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ],
+      "φωνῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5456" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φωναί": "phōnaí",
+      "φωναὶ": "phōnaì",
+      "φωναῖς": "phōnaîs",
+      "φωνάς": "phōnás",
+      "φωνὰς": "phōnàs",
+      "φωνὴ": "phōnḕ",
+      "φωνῇ": "phōnē̂",
+      "φωνήν": "phōnḗn",
+      "φωνὴν": "phōnḕn",
+      "φωνῆς": "phōnē̂s",
+      "φωνῶν": "phōnō̂n"
+    }
+  },
+  "φῶς": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a light",
+    "indices": { "strongs": "G5457" },
+    "inflections": {
+      "φῶς": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5457" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5457" }
+        }
+      ],
+      "φῶτα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5457" }
+        }
+      ],
+      "φωτί": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5457" }
+        }
+      ],
+      "φωτὶ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5457" }
+        }
+      ],
+      "φωτός": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5457" }
+        }
+      ],
+      "φωτὸς": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5457" }
+        }
+      ],
+      "φώτων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5457" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φῶς": "phō̂s",
+      "φῶτα": "phō̂ta",
+      "φωτί": "phōtí",
+      "φωτὶ": "phōtì",
+      "φωτός": "phōtós",
+      "φωτὸς": "phōtòs",
+      "φώτων": "phṓtōn"
+    }
+  },
+  "φωστήρ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5458" },
+    "inflections": {
+      "φωστὴρ": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5458" }
+        }
+      ],
+      "φωστῆρες": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5458" }
+        }
+      ]
+    },
+    "transliterations": { "φωστὴρ": "phōstḕr", "φωστῆρες": "phōstē̂res" }
+  },
+  "φωσφόρος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5459" },
+    "inflections": {
+      "φωσφόρος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5459" }
+        }
+      ]
+    },
+    "transliterations": { "φωσφόρος": "phōsphóros" }
+  },
+  "φωτεινός": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["φωτεινή", "φωτεινόν"],
+    "indices": { "strongs": "G5460" },
+    "inflections": {
+      "φωτεινὴ": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5460" }
+        }
+      ],
+      "φωτεινόν": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5460" }
+        }
+      ],
+      "φωτεινὸν": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5460" }
+        }
+      ]
+    },
+    "transliterations": {
+      "φωτεινὴ": "phōteinḕ",
+      "φωτεινόν": "phōteinón",
+      "φωτεινὸν": "phōteinòn"
+    }
+  },
+  "φωτίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to shine on, enlighten",
+    "indices": { "strongs": "G5461" },
+    "inflections": {
+      "ἐφώτισεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5461" }
+        }
+      ],
+      "ἐφωτίσθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5461" }
+        }
+      ],
+      "πεφωτισμένους": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5461" }
+        }
+      ],
+      "φωτιεῖ": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5461" }
+        }
+      ],
+      "φωτίζει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5461" }
+        }
+      ],
+      "φωτίζῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5461" }
+        }
+      ],
+      "φωτίσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5461" }
+        }
+      ],
+      "φωτίσαντος": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5461" }
+        }
+      ],
+      "φωτίσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5461" }
+        }
+      ],
+      "φωτισθέντας": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5461" }
+        }
+      ],
+      "φωτισθέντες": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5461" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐφώτισεν": "ephṓtisen",
+      "ἐφωτίσθη": "ephōtísthē",
+      "πεφωτισμένους": "pephōtisménous",
+      "φωτιεῖ": "phōtieî",
+      "φωτίζει": "phōtízei",
+      "φωτίζῃ": "phōtízē",
+      "φωτίσαι": "phōtísai",
+      "φωτίσαντος": "phōtísantos",
+      "φωτίσει": "phōtísei",
+      "φωτισθέντας": "phōtisthéntas",
+      "φωτισθέντες": "phōtisthéntes"
+    }
+  },
+  "φωτισμός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5462" },
+    "inflections": {
+      "φωτισμὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5462" }
+        }
+      ]
+    },
+    "transliterations": { "φωτισμὸν": "phōtismòn" }
+  }
+}

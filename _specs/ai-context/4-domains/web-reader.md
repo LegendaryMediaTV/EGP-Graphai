@@ -87,7 +87,7 @@ App
 - **Bible Reference Links** – `bibleLink` nodes render as anchors invoking an `onBibleLinkClick` callback; display text falls back to the reference string when no `content` override is set
 - **Heading Type** – A heading with `type: "acrostic"` (e.g., Psalm 119 Hebrew stanza markers) renders as `h4`/`text-lg` instead of the standard `h3`/`text-xl`, one Tailwind step smaller; both share the same `showHeadings` toggle
 - **Abbreviation references resolve through a React context, not a prop chain** – An `{ abbr }` node carries only an id, so `ContentNode.js` needs the current version's `abbr` registry to render it. `App.js` builds that map from the version metadata it already loads and provides it through `AbbreviationContext`; threading it as a prop would mean passing it through `BibleContent` and `VerseRenderer`, neither of which has any use for it. The map rebuilds whenever the reader switches versions, since registries are per-version and the same short code means something else in the next one. The siglum renders as an `<abbr>` element with the entry's `description` as its tooltip and the footnote modal on click; an id the registry does not define falls back to the bare id rather than rendering nothing, leaving `npm run validate` to report it
-- **Footnote text extraction is shared, not duplicated** – Both the nested-content and leaf-content rendering paths in `ContentNode.js` derive a footnote's clickable/hover text through the same `window.getFootnoteText` (from [footnoteText.js](../web/public/js/footnoteText.js)), rather than each flattening `node.foot.content` inline. Before this was unified, the leaf-content path used a weaker inline version that silently dropped `bibleLink`-shaped footnote segments.
+- **Footnote text extraction is shared, not duplicated** – Both the nested-content and leaf-content rendering paths in `ContentNode.js` derive a footnote's clickable/hover text through the same `window.getFootnoteText` (from [footnoteText.js](../../../web/public/js/footnoteText.js)), rather than each flattening `node.foot.content` inline. Before this was unified, the leaf-content path used a weaker inline version that silently dropped `bibleLink`-shaped footnote segments.
 - **Footnote marker placement** – The footnote marker renders immediately after the node's own content and before its verse-break, so the marker stays attached to the word it annotates rather than trailing after a line break.
 - **Script load order is a real dependency, not convention** – `footnoteText.js` must load before `ContentNode.js` in `index.html`; there's no bundler to resolve this, so it's a `window`-global that has to exist before the script that calls it parses.
 
@@ -95,7 +95,7 @@ App
 
 ### App State Initialization
 
-_From [web/public/js/App.js](../web/public/js/App.js)_
+_From [web/public/js/App.js](../../../web/public/js/App.js)_
 
 ```javascript
 const [versions, setVersions] = useState([]);
@@ -122,7 +122,7 @@ const [settings, setSettings] = useState({
 
 ### Content Loading
 
-_From [web/public/js/App.js](../web/public/js/App.js)_
+_From [web/public/js/App.js](../../../web/public/js/App.js)_
 
 ```javascript
 useEffect(() => {
@@ -148,7 +148,7 @@ useEffect(() => {
 
 ### Recursive Content Rendering
 
-_From [web/public/js/ContentNode.js](../web/public/js/ContentNode.js)_
+_From [web/public/js/ContentNode.js](../../../web/public/js/ContentNode.js)_
 
 ```javascript
 function ContentNode({ node, settings, onFootnoteClick }) {
@@ -218,7 +218,7 @@ function ContentNode({ node, settings, onFootnoteClick }) {
 
 ### Chapter Navigation
 
-_From [web/public/js/App.js](../web/public/js/App.js)_
+_From [web/public/js/App.js](../../../web/public/js/App.js)_
 
 ```javascript
 const handleChapterChange = (newChapter) => {
@@ -251,7 +251,7 @@ const handleChapterChange = (newChapter) => {
 
 ### Settings Toggle Pattern
 
-_From [web/public/js/App.js](../web/public/js/App.js)_
+_From [web/public/js/App.js](../../../web/public/js/App.js)_
 
 ```javascript
 const toggleSetting = (key) => {
@@ -261,7 +261,7 @@ const toggleSetting = (key) => {
 
 ### Footnote Text Extraction
 
-_From [web/public/js/footnoteText.js](../web/public/js/footnoteText.js)_
+_From [web/public/js/footnoteText.js](../../../web/public/js/footnoteText.js)_
 
 ```javascript
 export function getFootnoteText(content) {
@@ -277,7 +277,7 @@ Handles every shape `foot.content` can take: a plain string, a mixed array (cros
 
 ### Strong's Number Linking
 
-_From [web/public/js/ContentNode.js](../web/public/js/ContentNode.js)_
+_From [web/public/js/ContentNode.js](../../../web/public/js/ContentNode.js)_
 
 ```javascript
 if (settings.showStrongs && node.strong) {

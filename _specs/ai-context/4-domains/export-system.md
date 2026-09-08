@@ -128,7 +128,7 @@ const MARKDOWN_OPTIONS: RenderOptions = {
 
 ### Core Rendering Function
 
-_From [utils/exportContent.ts](../utils/exportContent.ts)_
+_From [utils/exportContent.ts](../../../utils/exportContent.ts)_
 
 ```typescript
 function renderContent(content: Content, ctx: RenderContext): string {
@@ -197,7 +197,7 @@ Called once per transition between array siblings (not once per node), so a run 
 
 ### Text Object Rendering with Footnote Order
 
-_From [utils/exportContent.ts](../utils/exportContent.ts)_
+_From [utils/exportContent.ts](../../../utils/exportContent.ts)_
 
 ```typescript
 function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
@@ -234,7 +234,7 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
 
 ### Verse Conversion
 
-_From [utils/exportContent.ts](../utils/exportContent.ts)_
+_From [utils/exportContent.ts](../../../utils/exportContent.ts)_
 
 ```typescript
 function convertVerseToText(verse: VerseSchema): string {

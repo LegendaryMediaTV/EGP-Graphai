@@ -1,0 +1,509 @@
+{
+  "ὦ": {
+    "language": "greek",
+    "pos": "inj",
+    "indices": { "strongs": "G5599" },
+    "inflections": {
+      "ὦ": [{ "parse": ["inj"], "indices": { "strongs": "G5599" } }]
+    },
+    "transliterations": { "ὦ": "ō̂" }
+  },
+  "Ὦ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an omega; fig. to be last",
+    "indices": { "strongs": "G5598" },
+    "inflections": {
+      "ὦ": [
+        {
+          "parse": ["noun", "indecl-letter"],
+          "indices": { "strongs": "G5598" }
+        }
+      ]
+    },
+    "transliterations": { "ὦ": "ō̂" }
+  },
+  "Ὠβήδ": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "Obed; lit. Serving",
+    "indices": { "strongs": "G5601" },
+    "inflections": {
+      "ὠβήδ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5601" }
+        }
+      ],
+      "ὠβὴδ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5601" }
+        }
+      ]
+    },
+    "transliterations": { "ὠβήδ": "ōbḗd", "ὠβὴδ": "ōbḕd" }
+  },
+  "ὧδε": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "here",
+    "indices": { "strongs": "G5602" },
+    "inflections": {
+      "ὧδε": [{ "parse": ["adv"], "indices": { "strongs": "G5602" } }],
+      "ὧδέ": [{ "parse": ["adv"], "indices": { "strongs": "G5602" } }]
+    },
+    "transliterations": { "ὧδε": "hō̂de", "ὧδέ": "hō̂dé" }
+  },
+  "ᾠδή": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a song",
+    "indices": { "strongs": "G5603" },
+    "inflections": {
+      "ᾠδαῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5603" }
+        }
+      ],
+      "ᾠδήν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5603" }
+        }
+      ],
+      "ᾠδὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5603" }
+        }
+      ]
+    },
+    "transliterations": { "ᾠδαῖς": "ōdaîs", "ᾠδήν": "ōdḗn", "ᾠδὴν": "ōdḕn" }
+  },
+  "ὠδίν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5604" },
+    "inflections": {
+      "ὠδὶν": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5604" }
+        }
+      ],
+      "ὠδῖνας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5604" }
+        }
+      ],
+      "ὠδίνων": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5604" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ὠδὶν": "ōdìn",
+      "ὠδῖνας": "ōdînas",
+      "ὠδίνων": "ōdínōn"
+    }
+  },
+  "ὠδίνω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5605" },
+    "inflections": {
+      "ὠδίνουσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5605" }
+        }
+      ],
+      "ὠδίνω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5605" }
+        }
+      ]
+    },
+    "transliterations": { "ὠδίνουσα": "ōdínousa", "ὠδίνω": "ōdínō" }
+  },
+  "ὦμος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5606" },
+    "inflections": {
+      "ὤμους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5606" }
+        }
+      ]
+    },
+    "transliterations": { "ὤμους": "ṓmous" }
+  },
+  "ὠνέομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5608" },
+    "inflections": {
+      "ὠνήσατο": [
+        {
+          "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5608" }
+        }
+      ]
+    },
+    "transliterations": { "ὠνήσατο": "ōnḗsato" }
+  },
+  "ᾠόν": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5609" },
+    "inflections": {
+      "ᾠόν": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5609" }
+        }
+      ]
+    },
+    "transliterations": { "ᾠόν": "ōón" }
+  },
+  "ὥρα": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an hour",
+    "indices": { "strongs": "G5610" },
+    "inflections": {
+      "ὥρα": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5610" }
+        }
+      ],
+      "ὥρᾳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5610" }
+        }
+      ],
+      "ὧραι": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5610" }
+        }
+      ],
+      "ὥραν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5610" }
+        }
+      ],
+      "ὥρας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5610" }
+        },
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5610" }
+        }
+      ],
+      "ὡρῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5610" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ὥρα": "hṓra",
+      "ὥρᾳ": "hṓra",
+      "ὧραι": "hō̂rai",
+      "ὥραν": "hṓran",
+      "ὥρας": "hṓras",
+      "ὡρῶν": "hōrō̂n"
+    }
+  },
+  "ὡραῖος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5611" },
+    "inflections": {
+      "ὡραίᾳ": [
+        {
+          "parse": ["adj", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5611" }
+        }
+      ],
+      "ὡραίαν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5611" }
+        }
+      ],
+      "ὡραῖοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5611" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ὡραίᾳ": "hōraía",
+      "ὡραίαν": "hōraían",
+      "ὡραῖοι": "hōraîoi"
+    }
+  },
+  "ὠρύομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5612" },
+    "inflections": {
+      "ὠρυόμενος": [
+        {
+          "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5612" }
+        }
+      ]
+    },
+    "transliterations": { "ὠρυόμενος": "ōryómenos" }
+  },
+  "ὡς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "as, like",
+    "indices": { "strongs": "G5613" },
+    "inflections": {
+      "ὡς": [{ "parse": ["adv"], "indices": { "strongs": "G5613" } }],
+      "ὥς": [{ "parse": ["adv"], "indices": { "strongs": "G5613" } }]
+    },
+    "transliterations": { "ὡς": "hōs", "ὥς": "hṓs" }
+  },
+  "ὡσαννά": {
+    "language": "greek",
+    "pos": "hebrew",
+    "shortDefinition": "save us!, salvation has come!, trad. hosanna!",
+    "indices": { "strongs": "G5614" },
+    "inflections": {
+      "ὡσαννά": [{ "parse": ["hebrew"], "indices": { "strongs": "G5614" } }],
+      "ὡσαννὰ": [{ "parse": ["hebrew"], "indices": { "strongs": "G5614" } }]
+    },
+    "transliterations": { "ὡσαννά": "hōsanná", "ὡσαννὰ": "hōsannà" }
+  },
+  "ὡσαύτως": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5615" },
+    "inflections": {
+      "ὡσαύτως": [{ "parse": ["adv"], "indices": { "strongs": "G5615" } }]
+    },
+    "transliterations": { "ὡσαύτως": "hōsaútōs" }
+  },
+  "ὡσεί": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5616" },
+    "inflections": {
+      "ὡσεὶ": [{ "parse": ["adv"], "indices": { "strongs": "G5616" } }]
+    },
+    "transliterations": { "ὡσεὶ": "hōseì" }
+  },
+  "Ὡσηέ": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5617" },
+    "inflections": {
+      "ὡσηὲ": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5617" }
+        }
+      ]
+    },
+    "transliterations": { "ὡσηὲ": "hōsēè" }
+  },
+  "ὥσπερ": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5618" },
+    "inflections": {
+      "ὥσπερ": [{ "parse": ["adv"], "indices": { "strongs": "G5618" } }]
+    },
+    "transliterations": { "ὥσπερ": "hṓsper" }
+  },
+  "ὡσπερεί": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5619" },
+    "inflections": {
+      "ὡσπερεὶ": [{ "parse": ["adv"], "indices": { "strongs": "G5619" } }]
+    },
+    "transliterations": { "ὡσπερεὶ": "hōspereì" }
+  },
+  "ὥστε": {
+    "language": "greek",
+    "pos": "conj",
+    "indices": { "strongs": "G5620" },
+    "inflections": {
+      "ὥστε": [{ "parse": ["conj"], "indices": { "strongs": "G5620" } }]
+    },
+    "transliterations": { "ὥστε": "hṓste" }
+  },
+  "ὠτίον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5621" },
+    "inflections": {
+      "ὠτίον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5621" }
+        }
+      ],
+      "ὠτίου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5621" }
+        }
+      ]
+    },
+    "transliterations": { "ὠτίον": "ōtíon", "ὠτίου": "ōtíou" }
+  },
+  "ὠφέλεια": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5622" },
+    "inflections": {
+      "ὠφέλεια": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5622" }
+        }
+      ],
+      "ὠφελείας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5622" }
+        }
+      ]
+    },
+    "transliterations": { "ὠφέλεια": "ōphéleia", "ὠφελείας": "ōpheleías" }
+  },
+  "ὠφελέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to profit; fig. to benefit",
+    "indices": { "strongs": "G5623" },
+    "inflections": {
+      "ὠφελεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5623" }
+        }
+      ],
+      "ὠφελεῖται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5623" }
+        }
+      ],
+      "ὠφελεῖτε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5623" }
+        }
+      ],
+      "ὠφεληθεῖσα": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5623" }
+        }
+      ],
+      "ὠφεληθῇς": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G5623" }
+        }
+      ],
+      "ὠφελήθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5623" }
+        }
+      ],
+      "ὠφελήσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5623" }
+        }
+      ],
+      "ὠφέλησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5623" }
+        }
+      ],
+      "ὠφελήσω": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5623" }
+        }
+      ],
+      "ὠφελοῦμαι": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5623" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ὠφελεῖ": "ōpheleî",
+      "ὠφελεῖται": "ōpheleîtai",
+      "ὠφελεῖτε": "ōpheleîte",
+      "ὠφεληθεῖσα": "ōphelētheîsa",
+      "ὠφεληθῇς": "ōphelēthē̂s",
+      "ὠφελήθησαν": "ōphelḗthēsan",
+      "ὠφελήσει": "ōphelḗsei",
+      "ὠφέλησεν": "ōphélēsen",
+      "ὠφελήσω": "ōphelḗsō",
+      "ὠφελοῦμαι": "ōpheloûmai"
+    }
+  },
+  "ὠφέλιμος": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be profitable; fig. to be beneficial",
+    "indices": { "strongs": "G5624" },
+    "inflections": {
+      "ὠφέλιμα": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5624" }
+        }
+      ],
+      "ὠφέλιμος": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5624" }
+        }
+      ],
+      "ὠφέλιμός": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5624" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ὠφέλιμα": "ōphélima",
+      "ὠφέλιμος": "ōphélimos",
+      "ὠφέλιμός": "ōphélimós"
+    }
+  }
+}

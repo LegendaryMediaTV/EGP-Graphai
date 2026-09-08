@@ -10,7 +10,7 @@ Bible Versions represent distinct translations, editions, or manuscripts of the 
 
 ### Version Metadata (`_version.json`)
 
-_From [types/Version.ts](../types/Version.ts)_
+_From [types/Version.ts](../../../types/Version.ts)_
 
 ```typescript
 interface BibleVersion {
@@ -90,7 +90,7 @@ CLV1880's Esther and Daniel are missing that edition's own deuterocanonical addi
 
 ### Version Discovery Function
 
-_From [functions/getBibleVersions.ts](../functions/getBibleVersions.ts)_
+_From [functions/getBibleVersions.ts](../../../functions/getBibleVersions.ts)_
 
 ```typescript
 export function getBibleVersions(versionsDir?: string): BibleVersion[] {
@@ -147,7 +147,7 @@ function disambiguateDuplicateNames(versions: BibleVersion[]): BibleVersion[] {
 
 ### Version Loading in Frontend
 
-_From [web/public/js/App.js](../web/public/js/App.js)_
+_From [web/public/js/App.js](../../../web/public/js/App.js)_
 
 ```javascript
 useEffect(() => {
@@ -168,7 +168,7 @@ useEffect(() => {
 
 ### Order Validation
 
-_From [utils/validate.ts](../utils/validate.ts)_
+_From [utils/validate.ts](../../../utils/validate.ts)_
 
 ```typescript
 // Check for duplicates

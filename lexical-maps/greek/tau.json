@@ -1,0 +1,5792 @@
+{
+  "Ταβέρναι": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G4999" },
+    "inflections": {
+      "ταβερνῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G4999" }
+        }
+      ]
+    },
+    "transliterations": { "ταβερνῶν": "tabernō̂n" }
+  },
+  "Ταβηθά": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5000" },
+    "inflections": {
+      "ταβηθά": [
+        {
+          "parse": ["noun", "indecl-proper"],
+          "indices": { "strongs": "G5000" }
+        }
+      ]
+    },
+    "transliterations": { "ταβηθά": "tabēthá" }
+  },
+  "τάγμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5001" },
+    "inflections": {
+      "τάγματι": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5001" }
+        }
+      ]
+    },
+    "transliterations": { "τάγματι": "tágmati" }
+  },
+  "τακτός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5002" },
+    "inflections": {
+      "τακτῇ": [
+        {
+          "parse": ["adj", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5002" }
+        }
+      ]
+    },
+    "transliterations": { "τακτῇ": "taktē̂" }
+  },
+  "ταλαιπωρέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5003" },
+    "inflections": {
+      "ταλαιπωρήσατε": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5003" }
+        }
+      ]
+    },
+    "transliterations": { "ταλαιπωρήσατε": "talaipōrḗsate" }
+  },
+  "ταλαιπωρία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5004" },
+    "inflections": {
+      "ταλαιπωρία": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5004" }
+        }
+      ],
+      "ταλαιπωρίαις": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5004" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ταλαιπωρία": "talaipōría",
+      "ταλαιπωρίαις": "talaipōríais"
+    }
+  },
+  "ταλαίπωρος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5005" },
+    "inflections": {
+      "ταλαίπωρος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5005" }
+        }
+      ]
+    },
+    "transliterations": { "ταλαίπωρος": "talaípōros" }
+  },
+  "ταλαντιαῖος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5006" },
+    "inflections": {
+      "ταλαντιαία": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5006" }
+        }
+      ]
+    },
+    "transliterations": { "ταλαντιαία": "talantiaía" }
+  },
+  "τάλαντον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5007" },
+    "inflections": {
+      "τάλαντα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5007" }
+        }
+      ],
+      "τάλαντά": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5007" }
+        }
+      ],
+      "τάλαντον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5007" }
+        }
+      ],
+      "τάλαντόν": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5007" }
+        }
+      ],
+      "ταλάντων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5007" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τάλαντα": "tálanta",
+      "τάλαντά": "tálantá",
+      "τάλαντον": "tálanton",
+      "τάλαντόν": "tálantón",
+      "ταλάντων": "talántōn"
+    }
+  },
+  "ταλιθά": {
+    "language": "greek",
+    "pos": "aramaic",
+    "indices": { "strongs": "G5008" },
+    "inflections": {
+      "ταλιθά": [{ "parse": ["aramaic"], "indices": { "strongs": "G5008" } }]
+    },
+    "transliterations": { "ταλιθά": "talithá" }
+  },
+  "ταμεῖον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5009" },
+    "inflections": {
+      "ταμείοις": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5009" }
+        }
+      ],
+      "ταμεῖον": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5009" }
+        }
+      ],
+      "ταμιεῖόν": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5009" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ταμείοις": "tameíois",
+      "ταμεῖον": "tameîon",
+      "ταμιεῖόν": "tamieîón"
+    }
+  },
+  "τάξις": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an order, assignment; fig. an ordainment, appointment",
+    "indices": { "strongs": "G5010" },
+    "inflections": {
+      "τάξει": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5010" }
+        }
+      ],
+      "τάξιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5010" }
+        }
+      ]
+    },
+    "transliterations": { "τάξει": "táxei", "τάξιν": "táxin" }
+  },
+  "ταπεινός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5011" },
+    "inflections": {
+      "ταπεινοῖς": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5011" }
+        }
+      ],
+      "ταπεινὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5011" }
+        }
+      ],
+      "ταπεινούς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5011" }
+        }
+      ],
+      "ταπεινοὺς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5011" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ταπεινοῖς": "tapeinoîs",
+      "ταπεινὸς": "tapeinòs",
+      "ταπεινούς": "tapeinoús",
+      "ταπεινοὺς": "tapeinoùs"
+    }
+  },
+  "ταπεινοφροσύνη": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5012" },
+    "inflections": {
+      "ταπεινοφροσύνῃ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5012" }
+        }
+      ],
+      "ταπεινοφροσύνην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5012" }
+        }
+      ],
+      "ταπεινοφροσύνης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5012" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ταπεινοφροσύνῃ": "tapeinophrosýnē",
+      "ταπεινοφροσύνην": "tapeinophrosýnēn",
+      "ταπεινοφροσύνης": "tapeinophrosýnēs"
+    }
+  },
+  "ταπεινόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5013" },
+    "inflections": {
+      "ἐταπείνωσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5013" }
+        }
+      ],
+      "ταπεινοῦσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G5013" }
+        }
+      ],
+      "ταπεινωθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5013" }
+        }
+      ],
+      "ταπεινώθητε": [
+        {
+          "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5013" }
+        }
+      ],
+      "ταπεινῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5013" }
+        }
+      ],
+      "ταπεινώσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5013" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐταπείνωσεν": "etapeínōsen",
+      "ταπεινοῦσθαι": "tapeinoûsthai",
+      "ταπεινωθήσεται": "tapeinōthḗsetai",
+      "ταπεινώθητε": "tapeinṓthēte",
+      "ταπεινῶν": "tapeinō̂n",
+      "ταπεινώσει": "tapeinṓsei"
+    }
+  },
+  "ταπείνωσις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5014" },
+    "inflections": {
+      "ταπεινώσει": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5014" }
+        }
+      ],
+      "ταπεινώσεως": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5014" }
+        }
+      ],
+      "ταπείνωσιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5014" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ταπεινώσει": "tapeinṓsei",
+      "ταπεινώσεως": "tapeinṓseōs",
+      "ταπείνωσιν": "tapeínōsin"
+    }
+  },
+  "ταράσσω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to disturb",
+    "indices": { "strongs": "G5015" },
+    "inflections": {
+      "ἐτάραξαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "ἐτάραξεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "ἐτάρασσεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "ἐταράχθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "ἐταράχθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "ταρασσέσθω": [
+        {
+          "parse": ["verb", "pres", "pas", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "ταράσσοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "ταράσσων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "ταραχθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "ταραχθῆτε": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "τεταραγμένοι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5015" }
+        }
+      ],
+      "τετάρακται": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5015" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐτάραξαν": "etáraxan",
+      "ἐτάραξεν": "etáraxen",
+      "ἐτάρασσεν": "etárassen",
+      "ἐταράχθη": "etaráchthē",
+      "ἐταράχθησαν": "etaráchthēsan",
+      "ταρασσέσθω": "tarassésthō",
+      "ταράσσοντες": "tarássontes",
+      "ταράσσων": "tarássōn",
+      "ταραχθῇ": "tarachthē̂",
+      "ταραχθῆτε": "tarachthē̂te",
+      "τεταραγμένοι": "tetaragménoi",
+      "τετάρακται": "tetáraktai"
+    }
+  },
+  "ταραχή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5016" },
+    "inflections": {
+      "ταραχαί": [
+        {
+          "parse": ["noun", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5016" }
+        }
+      ],
+      "ταραχὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5016" }
+        }
+      ]
+    },
+    "transliterations": { "ταραχαί": "tarachaí", "ταραχὴν": "tarachḕn" }
+  },
+  "τάραχος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5017" },
+    "inflections": {
+      "τάραχος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5017" }
+        }
+      ]
+    },
+    "transliterations": { "τάραχος": "tárachos" }
+  },
+  "Ταρσεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5018" },
+    "inflections": {
+      "ταρσέα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5018" }
+        }
+      ],
+      "ταρσεὺς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5018" }
+        }
+      ]
+    },
+    "transliterations": { "ταρσέα": "tarséa", "ταρσεὺς": "tarseùs" }
+  },
+  "Ταρσός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5019" },
+    "inflections": {
+      "ταρσόν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5019" }
+        }
+      ],
+      "ταρσὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5019" }
+        }
+      ],
+      "ταρσῷ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5019" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ταρσόν": "tarsón",
+      "ταρσὸν": "tarsòn",
+      "ταρσῷ": "tarsō̂"
+    }
+  },
+  "ταρταρόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5020" },
+    "inflections": {
+      "ταρταρώσας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5020" }
+        }
+      ]
+    },
+    "transliterations": { "ταρταρώσας": "tartarṓsas" }
+  },
+  "τάσσω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to order, assign; fig. to ordain, appoint",
+    "indices": { "strongs": "G5021" },
+    "inflections": {
+      "ἔταξαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5021" }
+        }
+      ],
+      "ἐτάξατο": [
+        {
+          "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5021" }
+        }
+      ],
+      "ταξάμενοι": [
+        {
+          "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5021" }
+        }
+      ],
+      "τασσόμενος": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5021" }
+        }
+      ],
+      "τεταγμέναι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5021" }
+        }
+      ],
+      "τεταγμένοι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5021" }
+        }
+      ],
+      "τέτακταί": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5021" }
+        }
+      ],
+      "τεταχέναι": [
+        {
+          "parse": ["verb", "perf", "act", "inf"],
+          "indices": { "strongs": "G5021" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔταξαν": "étaxan",
+      "ἐτάξατο": "etáxato",
+      "ταξάμενοι": "taxámenoi",
+      "τασσόμενος": "tassómenos",
+      "τεταγμέναι": "tetagménai",
+      "τεταγμένοι": "tetagménoi",
+      "τέτακταί": "tétaktaí",
+      "τεταχέναι": "tetachénai"
+    }
+  },
+  "ταῦρος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5022" },
+    "inflections": {
+      "ταῦροί": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5022" }
+        }
+      ],
+      "ταύρους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5022" }
+        }
+      ],
+      "ταύρων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5022" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ταῦροί": "taûroí",
+      "ταύρους": "taúrous",
+      "ταύρων": "taúrōn"
+    }
+  },
+  "ταφή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5027" },
+    "inflections": {
+      "ταφὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5027" }
+        }
+      ]
+    },
+    "transliterations": { "ταφὴν": "taphḕn" }
+  },
+  "τάφος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5028" },
+    "inflections": {
+      "τάφοις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5028" }
+        }
+      ],
+      "τάφον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5028" }
+        }
+      ],
+      "τάφος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5028" }
+        }
+      ],
+      "τάφου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5028" }
+        }
+      ],
+      "τάφους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5028" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τάφοις": "táphois",
+      "τάφον": "táphon",
+      "τάφος": "táphos",
+      "τάφου": "táphou",
+      "τάφους": "táphous"
+    }
+  },
+  "τάχα": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5029" },
+    "inflections": {
+      "τάχα": [{ "parse": ["adv"], "indices": { "strongs": "G5029" } }]
+    },
+    "transliterations": { "τάχα": "tácha" }
+  },
+  "ταχέως": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5030" },
+    "inflections": {
+      "ταχέως": [{ "parse": ["adv"], "indices": { "strongs": "G5030" } }]
+    },
+    "transliterations": { "ταχέως": "tachéōs" }
+  },
+  "ταχινός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5031" },
+    "inflections": {
+      "ταχινή": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5031" }
+        }
+      ],
+      "ταχινὴν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5031" }
+        }
+      ]
+    },
+    "transliterations": { "ταχινή": "tachinḗ", "ταχινὴν": "tachinḕn" }
+  },
+  "τάχιον": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5032" },
+    "inflections": {
+      "τάχιον": [
+        { "parse": ["adv", "comp"], "indices": { "strongs": "G5032" } }
+      ]
+    },
+    "transliterations": { "τάχιον": "táchion" }
+  },
+  "τάχιστα": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5033" },
+    "inflections": {
+      "τάχιστα": [
+        { "parse": ["adv", "super"], "indices": { "strongs": "G5033" } }
+      ]
+    },
+    "transliterations": { "τάχιστα": "táchista" }
+  },
+  "τάχος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5034" },
+    "inflections": {
+      "τάχει": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5034" }
+        }
+      ]
+    },
+    "transliterations": { "τάχει": "táchei" }
+  },
+  "ταχύ": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5035" },
+    "inflections": {
+      "ταχύ": [{ "parse": ["adv"], "indices": { "strongs": "G5035" } }],
+      "ταχὺ": [{ "parse": ["adv"], "indices": { "strongs": "G5035" } }]
+    },
+    "transliterations": { "ταχύ": "tachý", "ταχὺ": "tachỳ" }
+  },
+  "ταχύς": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5036" },
+    "inflections": {
+      "ταχὺς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5036" }
+        }
+      ]
+    },
+    "transliterations": { "ταχὺς": "tachỳs" }
+  },
+  "τε": {
+    "language": "greek",
+    "pos": "prt",
+    "shortDefinition": "even, in addition to",
+    "indices": { "strongs": "G5037" },
+    "inflections": {
+      "τε": [{ "parse": ["prt"], "indices": { "strongs": "G5037" } }]
+    },
+    "transliterations": { "τε": "te" }
+  },
+  "τέθνηκα": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to die",
+    "indices": { "strongs": "G2348" },
+    "inflections": {
+      "ἐτεθνήκει": [
+        {
+          "parse": ["verb", "plup", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2348" }
+        }
+      ],
+      "τεθνάναι": [
+        {
+          "parse": ["verb", "second", "perf", "act", "inf"],
+          "indices": { "strongs": "G2348" }
+        }
+      ],
+      "τεθνήκασιν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G2348" }
+        }
+      ],
+      "τέθνηκεν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G2348" }
+        }
+      ],
+      "τεθνηκότα": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G2348" }
+        }
+      ],
+      "τεθνηκότος": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G2348" }
+        }
+      ],
+      "τεθνηκώς": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2348" }
+        }
+      ],
+      "τεθνηκὼς": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G2348" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐτεθνήκει": "etethnḗkei",
+      "τεθνάναι": "tethnánai",
+      "τεθνήκασιν": "tethnḗkasin",
+      "τέθνηκεν": "téthnēken",
+      "τεθνηκότα": "tethnēkóta",
+      "τεθνηκότος": "tethnēkótos",
+      "τεθνηκώς": "tethnēkṓs",
+      "τεθνηκὼς": "tethnēkṑs"
+    }
+  },
+  "τεῖχος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5038" },
+    "inflections": {
+      "τείχη": [
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5038" }
+        }
+      ],
+      "τεῖχος": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5038" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5038" }
+        }
+      ],
+      "τείχους": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5038" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τείχη": "teíchē",
+      "τεῖχος": "teîchos",
+      "τείχους": "teíchous"
+    }
+  },
+  "τεκμήριον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5039" },
+    "inflections": {
+      "τεκμηρίοις": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5039" }
+        }
+      ]
+    },
+    "transliterations": { "τεκμηρίοις": "tekmēríois" }
+  },
+  "τεκνίον": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a dear little/young child",
+    "indices": { "strongs": "G5040" },
+    "inflections": {
+      "τεκνία": [
+        {
+          "parse": ["noun", "voc", "pl", "neut"],
+          "indices": { "strongs": "G5040" }
+        }
+      ]
+    },
+    "transliterations": { "τεκνία": "teknía" }
+  },
+  "τεκνογονέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to have children",
+    "indices": { "strongs": "G5041" },
+    "inflections": {
+      "τεκνογονεῖν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5041" }
+        }
+      ]
+    },
+    "transliterations": { "τεκνογονεῖν": "teknogoneîn" }
+  },
+  "τεκνογονία": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a childbirth",
+    "indices": { "strongs": "G5042" },
+    "inflections": {
+      "τεκνογονίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5042" }
+        }
+      ]
+    },
+    "transliterations": { "τεκνογονίας": "teknogonías" }
+  },
+  "τέκνον": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a dear child, child belonging to",
+    "indices": { "strongs": "G5043" },
+    "inflections": {
+      "τέκνα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5043" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5043" }
+        },
+        {
+          "parse": ["noun", "voc", "pl", "neut"],
+          "indices": { "strongs": "G5043" }
+        }
+      ],
+      "τέκνοις": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5043" }
+        }
+      ],
+      "τέκνον": [
+        {
+          "parse": ["noun", "voc", "sg", "neut"],
+          "indices": { "strongs": "G5043" }
+        },
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5043" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5043" }
+        }
+      ],
+      "τέκνου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5043" }
+        }
+      ],
+      "τέκνῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5043" }
+        }
+      ],
+      "τέκνων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5043" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τέκνα": "tékna",
+      "τέκνοις": "téknois",
+      "τέκνον": "téknon",
+      "τέκνου": "téknou",
+      "τέκνῳ": "téknō",
+      "τέκνων": "téknōn"
+    }
+  },
+  "τεκνοτροφέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to raise children",
+    "indices": { "strongs": "G5044" },
+    "inflections": {
+      "ἐτεκνοτρόφησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5044" }
+        }
+      ]
+    },
+    "transliterations": { "ἐτεκνοτρόφησεν": "eteknotróphēsen" }
+  },
+  "τέκτων": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5045" },
+    "inflections": {
+      "τέκτονος": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5045" }
+        }
+      ],
+      "τέκτων": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5045" }
+        }
+      ]
+    },
+    "transliterations": { "τέκτονος": "téktonos", "τέκτων": "téktōn" }
+  },
+  "τέλειος": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["τέλειός", "τελεία", "τέλειον"],
+    "shortDefinition": "to be complete; fig. to be perfect, mature",
+    "indices": { "strongs": "G5046" },
+    "inflections": {
+      "τελεία": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5046" }
+        }
+      ],
+      "τέλειοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5046" }
+        }
+      ],
+      "τελείοις": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5046" }
+        }
+      ],
+      "τέλειον": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5046" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5046" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5046" }
+        }
+      ],
+      "τέλειος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5046" }
+        }
+      ],
+      "τέλειός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5046" }
+        }
+      ],
+      "τελειοτέρας": [
+        {
+          "parse": ["adj", "comp", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5046" }
+        }
+      ],
+      "τελείων": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5046" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τελεία": "teleía",
+      "τέλειοι": "téleioi",
+      "τελείοις": "teleíois",
+      "τέλειον": "téleion",
+      "τέλειος": "téleios",
+      "τέλειός": "téleiós",
+      "τελειοτέρας": "teleiotéras",
+      "τελείων": "teleíōn"
+    }
+  },
+  "τελειότης": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a completion; fig. a perfection, maturity [state]",
+    "indices": { "strongs": "G5047" },
+    "inflections": {
+      "τελειότητα": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5047" }
+        }
+      ],
+      "τελειότητος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5047" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τελειότητα": "teleiótēta",
+      "τελειότητος": "teleiótētos"
+    }
+  },
+  "τελειόω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to complete; fig. to perfect, mature",
+    "indices": { "strongs": "G5048" },
+    "inflections": {
+      "ἐτελειώθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "ἐτελείωσα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "ἐτελείωσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τελειοῦμαι": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τελειοῦται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τελειωθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τελειωθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τελειωθῶσιν": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τελειῶσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τελειωσάντων": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τελειώσω": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τετελείωκεν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τετελείωμαι": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τετελειωμένη": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τετελειωμένοι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τετελειωμένον": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τετελειωμένων": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5048" }
+        }
+      ],
+      "τετελείωται": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5048" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐτελειώθη": "eteleiṓthē",
+      "ἐτελείωσα": "eteleíōsa",
+      "ἐτελείωσεν": "eteleíōsen",
+      "τελειοῦμαι": "teleioûmai",
+      "τελειοῦται": "teleioûtai",
+      "τελειωθεὶς": "teleiōtheìs",
+      "τελειωθῇ": "teleiōthē̂",
+      "τελειωθῶσιν": "teleiōthō̂sin",
+      "τελειῶσαι": "teleiō̂sai",
+      "τελειωσάντων": "teleiōsántōn",
+      "τελειώσω": "teleiṓsō",
+      "τετελείωκεν": "teteleíōken",
+      "τετελείωμαι": "teteleíōmai",
+      "τετελειωμένη": "teteleiōménē",
+      "τετελειωμένοι": "teteleiōménoi",
+      "τετελειωμένον": "teteleiōménon",
+      "τετελειωμένων": "teteleiōménōn",
+      "τετελείωται": "teteleíōtai"
+    }
+  },
+  "τελείως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "completely; fig. perfectly, maturely",
+    "indices": { "strongs": "G5049" },
+    "inflections": {
+      "τελείως": [{ "parse": ["adv"], "indices": { "strongs": "G5049" } }]
+    },
+    "transliterations": { "τελείως": "teleíōs" }
+  },
+  "τελείωσις": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a completion; fig. a perfection, maturity [act]",
+    "indices": { "strongs": "G5050" },
+    "inflections": {
+      "τελείωσις": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5050" }
+        }
+      ]
+    },
+    "transliterations": { "τελείωσις": "teleíōsis" }
+  },
+  "τελειωτής": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5051" },
+    "inflections": {
+      "τελειωτὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5051" }
+        }
+      ]
+    },
+    "transliterations": { "τελειωτὴν": "teleiōtḕn" }
+  },
+  "τελεσφορέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5052" },
+    "inflections": {
+      "τελεσφοροῦσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5052" }
+        }
+      ]
+    },
+    "transliterations": { "τελεσφοροῦσιν": "telesphoroûsin" }
+  },
+  "τελευτάω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5053" },
+    "inflections": {
+      "ἐτελεύτησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5053" }
+        }
+      ],
+      "τελευτᾷ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5053" }
+        }
+      ],
+      "τελευτᾷν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5053" }
+        }
+      ],
+      "τελευτάτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G5053" }
+        }
+      ],
+      "τελευτήσαντος": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5053" }
+        }
+      ],
+      "τελευτῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5053" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐτελεύτησεν": "eteleútēsen",
+      "τελευτᾷ": "teleutâ",
+      "τελευτᾷν": "teleutân",
+      "τελευτάτω": "teleutátō",
+      "τελευτήσαντος": "teleutḗsantos",
+      "τελευτῶν": "teleutō̂n"
+    }
+  },
+  "τελευτή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5054" },
+    "inflections": {
+      "τελευτῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5054" }
+        }
+      ]
+    },
+    "transliterations": { "τελευτῆς": "teleutē̂s" }
+  },
+  "τελέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to end, finish, pay dues",
+    "indices": { "strongs": "G5055" },
+    "inflections": {
+      "ἐτέλεσαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "ἐτέλεσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "ἐτελέσθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τελεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τελεῖτε": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τελέσητε": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τελεσθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τελεσθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τελεσθήσεται": [
+        {
+          "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τελεσθῶσιν": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τελέσωσιν": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τελοῦσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τετέλεκα": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5055" }
+        }
+      ],
+      "τετέλεσται": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5055" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐτέλεσαν": "etélesan",
+      "ἐτέλεσεν": "etélesen",
+      "ἐτελέσθη": "etelésthē",
+      "τελεῖ": "teleî",
+      "τελεῖτε": "teleîte",
+      "τελέσητε": "telésēte",
+      "τελεσθῇ": "telesthē̂",
+      "τελεσθῆναι": "telesthē̂nai",
+      "τελεσθήσεται": "telesthḗsetai",
+      "τελεσθῶσιν": "telesthō̂sin",
+      "τελέσωσιν": "telésōsin",
+      "τελοῦσα": "teloûsa",
+      "τετέλεκα": "tetéleka",
+      "τετέλεσται": "tetélestai"
+    }
+  },
+  "τέλος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "an end, result, dues",
+    "indices": { "strongs": "G5056" },
+    "inflections": {
+      "τέλη": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5056" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5056" }
+        }
+      ],
+      "τέλος": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5056" }
+        },
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5056" }
+        }
+      ],
+      "τέλους": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5056" }
+        }
+      ]
+    },
+    "transliterations": { "τέλη": "télē", "τέλος": "télos", "τέλους": "télous" }
+  },
+  "τελώνης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5057" },
+    "inflections": {
+      "τελῶναι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5057" }
+        }
+      ],
+      "τελώνην": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5057" }
+        }
+      ],
+      "τελώνης": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5057" }
+        }
+      ],
+      "τελωνῶν": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5057" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τελῶναι": "telō̂nai",
+      "τελώνην": "telṓnēn",
+      "τελώνης": "telṓnēs",
+      "τελωνῶν": "telōnō̂n"
+    }
+  },
+  "τελώνιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5058" },
+    "inflections": {
+      "τελώνιον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5058" }
+        }
+      ]
+    },
+    "transliterations": { "τελώνιον": "telṓnion" }
+  },
+  "τέρας": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a wonder, omen",
+    "indices": { "strongs": "G5059" },
+    "inflections": {
+      "τέρασιν": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5059" }
+        }
+      ],
+      "τέρατα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5059" }
+        },
+        {
+          "parse": ["noun", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5059" }
+        }
+      ],
+      "τεράτων": [
+        {
+          "parse": ["noun", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5059" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τέρασιν": "térasin",
+      "τέρατα": "térata",
+      "τεράτων": "terátōn"
+    }
+  },
+  "Τέρτιος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5060" },
+    "inflections": {
+      "τέρτιος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5060" }
+        }
+      ]
+    },
+    "transliterations": { "τέρτιος": "tértios" }
+  },
+  "Τέρτυλλος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5061" },
+    "inflections": {
+      "τέρτυλλος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5061" }
+        }
+      ],
+      "τερτύλλου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5061" }
+        }
+      ]
+    },
+    "transliterations": { "τέρτυλλος": "tértyllos", "τερτύλλου": "tertýllou" }
+  },
+  "τεσσαράκοντα": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5062" },
+    "inflections": {
+      "τεσσαράκοντα": [
+        {
+          "parse": ["adj", "indecl-numeral"],
+          "indices": { "strongs": "G5062" }
+        }
+      ]
+    },
+    "transliterations": { "τεσσαράκοντα": "tessarákonta" }
+  },
+  "τεσσαρακονταετής": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5063" },
+    "inflections": {
+      "τεσσαρακονταετῆ": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5063" }
+        }
+      ],
+      "τεσσαρακονταετὴς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5063" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τεσσαρακονταετῆ": "tessarakontaetē̂",
+      "τεσσαρακονταετὴς": "tessarakontaetḕs"
+    }
+  },
+  "τέσσαρες": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be four",
+    "indices": { "strongs": "G5064" },
+    "inflections": {
+      "τέσσαρα": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5064" }
+        },
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5064" }
+        }
+      ],
+      "τέσσαρας": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5064" }
+        },
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5064" }
+        }
+      ],
+      "τέσσαρες": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5064" }
+        },
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5064" }
+        }
+      ],
+      "τέσσαρσιν": [
+        {
+          "parse": ["adj", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5064" }
+        },
+        {
+          "parse": ["adj", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5064" }
+        },
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5064" }
+        }
+      ],
+      "τεσσάρων": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5064" }
+        },
+        {
+          "parse": ["adj", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5064" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τέσσαρα": "téssara",
+      "τέσσαρας": "téssaras",
+      "τέσσαρες": "téssares",
+      "τέσσαρσιν": "téssarsin",
+      "τεσσάρων": "tessárōn"
+    }
+  },
+  "τεσσαρεσκαιδέκατος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5065" },
+    "inflections": {
+      "τεσσαρεσκαιδεκάτη": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5065" }
+        }
+      ],
+      "τεσσαρεσκαιδεκάτην": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5065" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τεσσαρεσκαιδεκάτη": "tessareskaidekátē",
+      "τεσσαρεσκαιδεκάτην": "tessareskaidekátēn"
+    }
+  },
+  "τεταρταῖος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5066" },
+    "inflections": {
+      "τεταρταῖος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5066" }
+        }
+      ]
+    },
+    "transliterations": { "τεταρταῖος": "tetartaîos" }
+  },
+  "τέταρτος": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["τέταρτος", "τέταρτον"],
+    "shortDefinition": "to be fourth",
+    "indices": { "strongs": "G5067" },
+    "inflections": {
+      "τετάρτῃ": [
+        {
+          "parse": ["adj", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5067" }
+        }
+      ],
+      "τετάρτην": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5067" }
+        }
+      ],
+      "τετάρτης": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5067" }
+        }
+      ],
+      "τέταρτον": [
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5067" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5067" }
+        }
+      ],
+      "τέταρτος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5067" }
+        }
+      ],
+      "τετάρτου": [
+        {
+          "parse": ["adj", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5067" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τετάρτῃ": "tetártē",
+      "τετάρτην": "tetártēn",
+      "τετάρτης": "tetártēs",
+      "τέταρτον": "tétarton",
+      "τέταρτος": "tétartos",
+      "τετάρτου": "tetártou"
+    }
+  },
+  "τετράγωνος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5068" },
+    "inflections": {
+      "τετράγωνος": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5068" }
+        }
+      ]
+    },
+    "transliterations": { "τετράγωνος": "tetrágōnos" }
+  },
+  "τετράδιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5069" },
+    "inflections": {
+      "τετραδίοις": [
+        {
+          "parse": ["noun", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5069" }
+        }
+      ]
+    },
+    "transliterations": { "τετραδίοις": "tetradíois" }
+  },
+  "τετρακισχίλιοι": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5070" },
+    "inflections": {
+      "τετρακισχίλιοι": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5070" }
+        }
+      ],
+      "τετρακισχιλίους": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5070" }
+        }
+      ],
+      "τετρακισχιλίων": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5070" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τετρακισχίλιοι": "tetrakischílioi",
+      "τετρακισχιλίους": "tetrakischilíous",
+      "τετρακισχιλίων": "tetrakischilíōn"
+    }
+  },
+  "τετρακόσιοι": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5071" },
+    "inflections": {
+      "τετρακόσια": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5071" }
+        }
+      ],
+      "τετρακοσίοις": [
+        {
+          "parse": ["adj", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5071" }
+        }
+      ],
+      "τετρακοσίων": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5071" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τετρακόσια": "tetrakósia",
+      "τετρακοσίοις": "tetrakosíois",
+      "τετρακοσίων": "tetrakosíōn"
+    }
+  },
+  "τετράμηνος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5072" },
+    "inflections": {
+      "τετράμηνός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5072" }
+        }
+      ]
+    },
+    "transliterations": { "τετράμηνός": "tetrámēnós" }
+  },
+  "τετραπλοῦς": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5073" },
+    "inflections": {
+      "τετραπλοῦν": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5073" }
+        }
+      ]
+    },
+    "transliterations": { "τετραπλοῦν": "tetraploûn" }
+  },
+  "τετράπους": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5074" },
+    "inflections": {
+      "τετράποδα": [
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5074" }
+        },
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5074" }
+        }
+      ],
+      "τετραπόδων": [
+        {
+          "parse": ["adj", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5074" }
+        }
+      ]
+    },
+    "transliterations": { "τετράποδα": "tetrápoda", "τετραπόδων": "tetrapódōn" }
+  },
+  "τετραρχέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5075" },
+    "inflections": {
+      "τετραρχοῦντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5075" }
+        }
+      ]
+    },
+    "transliterations": { "τετραρχοῦντος": "tetrarchoûntos" }
+  },
+  "τετράρχης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5076" },
+    "inflections": {
+      "τετράρχης": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5076" }
+        }
+      ],
+      "τετράρχου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5076" }
+        }
+      ]
+    },
+    "transliterations": { "τετράρχης": "tetrárchēs", "τετράρχου": "tetrárchou" }
+  },
+  "τεφρόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5077" },
+    "inflections": {
+      "τεφρώσας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5077" }
+        }
+      ]
+    },
+    "transliterations": { "τεφρώσας": "tephrṓsas" }
+  },
+  "τέχνη": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a craft, art",
+    "indices": { "strongs": "G5078" },
+    "inflections": {
+      "τέχνην": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5078" }
+        }
+      ],
+      "τέχνης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5078" }
+        }
+      ]
+    },
+    "transliterations": { "τέχνην": "téchnēn", "τέχνης": "téchnēs" }
+  },
+  "τεχνίτης": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a craftsman, artisan",
+    "indices": { "strongs": "G5079" },
+    "inflections": {
+      "τεχνῖται": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5079" }
+        }
+      ],
+      "τεχνίταις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5079" }
+        }
+      ],
+      "τεχνίτης": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5079" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τεχνῖται": "technîtai",
+      "τεχνίταις": "technítais",
+      "τεχνίτης": "technítēs"
+    }
+  },
+  "τήκω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5080" },
+    "inflections": {
+      "τήκεται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5080" }
+        }
+      ]
+    },
+    "transliterations": { "τήκεται": "tḗketai" }
+  },
+  "τηλαυγῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5081" },
+    "inflections": {
+      "τηλαυγῶς": [{ "parse": ["adv"], "indices": { "strongs": "G5081" } }]
+    },
+    "transliterations": { "τηλαυγῶς": "tēlaugō̂s" }
+  },
+  "τηλικοῦτος": {
+    "language": "greek",
+    "pos": "pron-dem",
+    "indices": { "strongs": "G5082" },
+    "inflections": {
+      "τηλικαῦτα": [
+        {
+          "parse": ["pron-dem", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5082" }
+        }
+      ],
+      "τηλικαύτης": [
+        {
+          "parse": ["pron-dem", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5082" }
+        }
+      ],
+      "τηλικοῦτος": [
+        {
+          "parse": ["pron-dem", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5082" }
+        }
+      ],
+      "τηλικούτου": [
+        {
+          "parse": ["pron-dem", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5082" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τηλικαῦτα": "tēlikaûta",
+      "τηλικαύτης": "tēlikaútēs",
+      "τηλικοῦτος": "tēlikoûtos",
+      "τηλικούτου": "tēlikoútou"
+    }
+  },
+  "τηρέω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to observe; fig. to guard",
+    "indices": { "strongs": "G5083" },
+    "inflections": {
+      "ἐτηρεῖτο": [
+        {
+          "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "ἐτήρησα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "ἐτήρησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "ἐτήρησας": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "ἐτήρησάς": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "ἐτήρουν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5083" }
+        },
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τετήρηκα": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τετήρηκας": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τετηρήκασιν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τετήρηκεν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τετηρημένην": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τετηρημένοις": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τετήρηται": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρεῖ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τήρει": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρεῖν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρεῖσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρεῖτε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρῇ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρηθείη": [
+        {
+          "parse": ["verb", "aor", "pas", "opt", "pers-3", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρηθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρῆσαί": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρήσαντας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρήσατε": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρήσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρήσῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρήσῃς": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρήσητε": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τήρησον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρήσουσιν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρήσω": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηροῦμεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρούμενοι": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρουμένους": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηροῦντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρούντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρῶ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρῶμεν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G5083" }
+        }
+      ],
+      "τηρῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5083" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐτηρεῖτο": "etēreîto",
+      "ἐτήρησα": "etḗrēsa",
+      "ἐτήρησαν": "etḗrēsan",
+      "ἐτήρησας": "etḗrēsas",
+      "ἐτήρησάς": "etḗrēsás",
+      "ἐτήρουν": "etḗroun",
+      "τετήρηκα": "tetḗrēka",
+      "τετήρηκας": "tetḗrēkas",
+      "τετηρήκασιν": "tetērḗkasin",
+      "τετήρηκεν": "tetḗrēken",
+      "τετηρημένην": "tetērēménēn",
+      "τετηρημένοις": "tetērēménois",
+      "τετήρηται": "tetḗrētai",
+      "τηρεῖ": "tēreî",
+      "τήρει": "tḗrei",
+      "τηρεῖν": "tēreîn",
+      "τηρεῖσθαι": "tēreîsthai",
+      "τηρεῖτε": "tēreîte",
+      "τηρῇ": "tērē̂",
+      "τηρηθείη": "tērētheíē",
+      "τηρηθῆναι": "tērēthē̂nai",
+      "τηρῆσαί": "tērē̂saí",
+      "τηρήσαντας": "tērḗsantas",
+      "τηρήσατε": "tērḗsate",
+      "τηρήσει": "tērḗsei",
+      "τηρήσῃ": "tērḗsē",
+      "τηρήσῃς": "tērḗsēs",
+      "τηρήσητε": "tērḗsēte",
+      "τήρησον": "tḗrēson",
+      "τηρήσουσιν": "tērḗsousin",
+      "τηρήσω": "tērḗsō",
+      "τηροῦμεν": "tēroûmen",
+      "τηρούμενοι": "tēroúmenoi",
+      "τηρουμένους": "tērouménous",
+      "τηροῦντες": "tēroûntes",
+      "τηρούντων": "tēroúntōn",
+      "τηρῶ": "tērō̂",
+      "τηρῶμεν": "tērō̂men",
+      "τηρῶν": "tērō̂n"
+    }
+  },
+  "τήρησις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5084" },
+    "inflections": {
+      "τηρήσει": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5084" }
+        }
+      ],
+      "τήρησιν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5084" }
+        }
+      ],
+      "τήρησις": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5084" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τηρήσει": "tērḗsei",
+      "τήρησιν": "tḗrēsin",
+      "τήρησις": "tḗrēsis"
+    }
+  },
+  "Τιβεριάς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5085" },
+    "inflections": {
+      "τιβεριάδος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5085" }
+        }
+      ]
+    },
+    "transliterations": { "τιβεριάδος": "tiberiádos" }
+  },
+  "Τιβέριος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5086" },
+    "inflections": {
+      "τιβερίου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5086" }
+        }
+      ]
+    },
+    "transliterations": { "τιβερίου": "tiberíou" }
+  },
+  "τίθημι": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to put, place",
+    "indices": { "strongs": "G5087" },
+    "inflections": {
+      "ἔθεντο": [
+        {
+          "parse": ["verb", "second", "aor", "mid", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἔθεσθε": [
+        {
+          "parse": ["verb", "second", "aor", "mid", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἔθετο": [
+        {
+          "parse": ["verb", "second", "aor", "mid", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἔθηκα": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἔθηκαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἔθηκας": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἔθηκεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἔθου": [
+        {
+          "parse": ["verb", "second", "aor", "mid", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἐτέθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἐτέθην": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἐτέθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἐτίθει": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "ἐτίθουν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θεῖναι": [
+        {
+          "parse": ["verb", "second", "aor", "act", "inf"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θεὶς": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θέμενος": [
+        {
+          "parse": ["verb", "second", "aor", "mid", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θέντες": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θέντος": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θέσθε": [
+        {
+          "parse": ["verb", "second", "aor", "mid", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θῇ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θήσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θήσεις": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θήσω": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5087" }
+        },
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "θῶ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τέθεικα": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τέθεικά": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τεθείκατε": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τεθεικώς": [
+        {
+          "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τεθῇ": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τεθῆναι": [
+        {
+          "parse": ["verb", "aor", "pas", "inf"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τεθῶσιν": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τιθέασιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τιθεὶς": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τιθέναι": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τιθέντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τίθεται": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τιθέτω": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τίθημι": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ],
+      "τίθησιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5087" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔθεντο": "éthento",
+      "ἔθεσθε": "éthesthe",
+      "ἔθετο": "étheto",
+      "ἔθηκα": "éthēka",
+      "ἔθηκαν": "éthēkan",
+      "ἔθηκας": "éthēkas",
+      "ἔθηκεν": "éthēken",
+      "ἔθου": "éthou",
+      "ἐτέθη": "etéthē",
+      "ἐτέθην": "etéthēn",
+      "ἐτέθησαν": "etéthēsan",
+      "ἐτίθει": "etíthei",
+      "ἐτίθουν": "etíthoun",
+      "θεῖναι": "theînai",
+      "θεὶς": "theìs",
+      "θέμενος": "thémenos",
+      "θέντες": "théntes",
+      "θέντος": "théntos",
+      "θέσθε": "thésthe",
+      "θῇ": "thē̂",
+      "θήσει": "thḗsei",
+      "θήσεις": "thḗseis",
+      "θήσω": "thḗsō",
+      "θῶ": "thō̂",
+      "τέθεικα": "tétheika",
+      "τέθεικά": "tétheiká",
+      "τεθείκατε": "tetheíkate",
+      "τεθεικώς": "tetheikṓs",
+      "τεθῇ": "tethē̂",
+      "τεθῆναι": "tethē̂nai",
+      "τεθῶσιν": "tethō̂sin",
+      "τιθέασιν": "tithéasin",
+      "τιθεὶς": "titheìs",
+      "τιθέναι": "tithénai",
+      "τιθέντες": "tithéntes",
+      "τίθεται": "títhetai",
+      "τιθέτω": "tithétō",
+      "τίθημι": "títhēmi",
+      "τίθησιν": "títhēsin"
+    }
+  },
+  "τίκτω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to bear",
+    "indices": { "strongs": "G5088" },
+    "inflections": {
+      "ἔτεκεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5088" }
+        }
+      ],
+      "ἐτέχθη": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5088" }
+        }
+      ],
+      "τεκεῖν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "inf"],
+          "indices": { "strongs": "G5088" }
+        }
+      ],
+      "τέκῃ": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5088" }
+        }
+      ],
+      "τέξεται": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5088" }
+        }
+      ],
+      "τέξῃ": [
+        {
+          "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5088" }
+        }
+      ],
+      "τεχθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5088" }
+        }
+      ],
+      "τίκτει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5088" }
+        }
+      ],
+      "τίκτῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5088" }
+        }
+      ],
+      "τίκτουσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5088" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔτεκεν": "éteken",
+      "ἐτέχθη": "etéchthē",
+      "τεκεῖν": "tekeîn",
+      "τέκῃ": "tékē",
+      "τέξεται": "téxetai",
+      "τέξῃ": "téxē",
+      "τεχθεὶς": "techtheìs",
+      "τίκτει": "tíktei",
+      "τίκτῃ": "tíktē",
+      "τίκτουσα": "tíktousa"
+    }
+  },
+  "τίλλω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5089" },
+    "inflections": {
+      "ἔτιλλον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5089" }
+        }
+      ],
+      "τίλλειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5089" }
+        }
+      ],
+      "τίλλοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5089" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔτιλλον": "étillon",
+      "τίλλειν": "tíllein",
+      "τίλλοντες": "tíllontes"
+    }
+  },
+  "Τιμαῖος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5090" },
+    "inflections": {
+      "τιμαίου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5090" }
+        }
+      ]
+    },
+    "transliterations": { "τιμαίου": "timaíou" }
+  },
+  "τιμάω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to value; fig. to honor",
+    "indices": { "strongs": "G5091" },
+    "inflections": {
+      "ἐτίμησαν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "ἐτιμήσαντο": [
+        {
+          "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "τετιμημένου": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "τιμᾷ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "τίμα": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "τιμᾶτε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "τιμήσατε": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "τιμήσει": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "τιμήσῃ": [
+        {
+          "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "τιμῶ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "τιμῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5091" }
+        }
+      ],
+      "τιμῶσιν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5091" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5091" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐτίμησαν": "etímēsan",
+      "ἐτιμήσαντο": "etimḗsanto",
+      "τετιμημένου": "tetimēménou",
+      "τιμᾷ": "timâ",
+      "τίμα": "tíma",
+      "τιμᾶτε": "timâte",
+      "τιμήσατε": "timḗsate",
+      "τιμήσει": "timḗsei",
+      "τιμήσῃ": "timḗsē",
+      "τιμῶ": "timō̂",
+      "τιμῶν": "timō̂n",
+      "τιμῶσιν": "timō̂sin"
+    }
+  },
+  "τιμή": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a value; fig. an honor",
+    "indices": { "strongs": "G5092" },
+    "inflections": {
+      "τιμαῖς": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5092" }
+        }
+      ],
+      "τιμὰς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5092" }
+        }
+      ],
+      "τιμὴ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5092" }
+        }
+      ],
+      "τιμῇ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5092" }
+        }
+      ],
+      "τιμήν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5092" }
+        }
+      ],
+      "τιμὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5092" }
+        }
+      ],
+      "τιμῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5092" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τιμαῖς": "timaîs",
+      "τιμὰς": "timàs",
+      "τιμὴ": "timḕ",
+      "τιμῇ": "timē̂",
+      "τιμήν": "timḗn",
+      "τιμὴν": "timḕn",
+      "τιμῆς": "timē̂s"
+    }
+  },
+  "τίμιος": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["τίμιος", "τιμιώτερον"],
+    "shortDefinition": "to be precious",
+    "indices": { "strongs": "G5093" },
+    "inflections": {
+      "τίμια": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5093" }
+        }
+      ],
+      "τιμίαν": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5093" }
+        }
+      ],
+      "τίμιον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5093" }
+        }
+      ],
+      "τίμιος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5093" }
+        }
+      ],
+      "τιμίου": [
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5093" }
+        }
+      ],
+      "τιμίους": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5093" }
+        }
+      ],
+      "τιμίῳ": [
+        {
+          "parse": ["adj", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5093" }
+        },
+        {
+          "parse": ["adj", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5093" }
+        }
+      ],
+      "τιμιωτάτου": [
+        {
+          "parse": ["adj", "super", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5093" }
+        }
+      ],
+      "τιμιωτάτῳ": [
+        {
+          "parse": ["adj", "super", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5093" }
+        }
+      ],
+      "τιμιώτερον": [
+        {
+          "parse": ["adj", "comp", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5093" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τίμια": "tímia",
+      "τιμίαν": "timían",
+      "τίμιον": "tímion",
+      "τίμιος": "tímios",
+      "τιμίου": "timíou",
+      "τιμίους": "timíous",
+      "τιμίῳ": "timíō",
+      "τιμιωτάτου": "timiōtátou",
+      "τιμιωτάτῳ": "timiōtátō",
+      "τιμιώτερον": "timiṓteron"
+    }
+  },
+  "τιμιότης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5094" },
+    "inflections": {
+      "τιμιότητος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5094" }
+        }
+      ]
+    },
+    "transliterations": { "τιμιότητος": "timiótētos" }
+  },
+  "Τιμόθεος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5095" },
+    "inflections": {
+      "τιμόθεε": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G5095" }
+        }
+      ],
+      "τιμόθεον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5095" }
+        }
+      ],
+      "τιμόθεος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5095" }
+        }
+      ],
+      "τιμοθέου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5095" }
+        }
+      ],
+      "τιμοθέῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5095" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τιμόθεε": "timóthee",
+      "τιμόθεον": "timótheon",
+      "τιμόθεος": "timótheos",
+      "τιμοθέου": "timothéou",
+      "τιμοθέῳ": "timothéō"
+    }
+  },
+  "Τίμων": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5096" },
+    "inflections": {
+      "τίμωνα": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5096" }
+        }
+      ]
+    },
+    "transliterations": { "τίμωνα": "tímōna" }
+  },
+  "τιμωρέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5097" },
+    "inflections": {
+      "τιμωρηθῶσιν": [
+        {
+          "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5097" }
+        }
+      ],
+      "τιμωρῶν": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5097" }
+        }
+      ]
+    },
+    "transliterations": { "τιμωρηθῶσιν": "timōrēthō̂sin", "τιμωρῶν": "timōrō̂n" }
+  },
+  "τιμωρία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5098" },
+    "inflections": {
+      "τιμωρίας": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5098" }
+        }
+      ]
+    },
+    "transliterations": { "τιμωρίας": "timōrías" }
+  },
+  "τίνω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5099" },
+    "inflections": {
+      "τίσουσιν": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5099" }
+        }
+      ]
+    },
+    "transliterations": { "τίσουσιν": "tísousin" }
+  },
+  "τις": {
+    "language": "greek",
+    "pos": "pron-indef",
+    "citationForms": ["τις", "τις", "τι"],
+    "shortDefinition": "some, any",
+    "indices": { "strongs": "G5100" },
+    "inflections": {
+      "τι": [
+        {
+          "parse": ["pron-indef", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τί": [
+        {
+          "parse": ["pron-indef", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινα": [
+        {
+          "parse": ["pron-indef", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινά": [
+        {
+          "parse": ["pron-indef", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινὰ": [
+        {
+          "parse": ["pron-indef", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινας": [
+        {
+          "parse": ["pron-indef", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινάς": [
+        {
+          "parse": ["pron-indef", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινὰς": [
+        {
+          "parse": ["pron-indef", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινες": [
+        {
+          "parse": ["pron-indef", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινές": [
+        {
+          "parse": ["pron-indef", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινὲς": [
+        {
+          "parse": ["pron-indef", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινι": [
+        {
+          "parse": ["pron-indef", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινί": [
+        {
+          "parse": ["pron-indef", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινὶ": [
+        {
+          "parse": ["pron-indef", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινος": [
+        {
+          "parse": ["pron-indef", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινός": [
+        {
+          "parse": ["pron-indef", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινὸς": [
+        {
+          "parse": ["pron-indef", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινων": [
+        {
+          "parse": ["pron-indef", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τινῶν": [
+        {
+          "parse": ["pron-indef", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τις": [
+        {
+          "parse": ["pron-indef", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5100" }
+        },
+        {
+          "parse": ["pron-indef", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τίς": [
+        {
+          "parse": ["pron-indef", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τισιν": [
+        {
+          "parse": ["pron-indef", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τισίν": [
+        {
+          "parse": ["pron-indef", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ],
+      "τισὶν": [
+        {
+          "parse": ["pron-indef", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5100" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τι": "ti",
+      "τί": "tí",
+      "τινα": "tina",
+      "τινά": "tiná",
+      "τινὰ": "tinà",
+      "τινας": "tinas",
+      "τινάς": "tinás",
+      "τινὰς": "tinàs",
+      "τινες": "tines",
+      "τινές": "tinés",
+      "τινὲς": "tinès",
+      "τινι": "tini",
+      "τινί": "tiní",
+      "τινὶ": "tinì",
+      "τινος": "tinos",
+      "τινός": "tinós",
+      "τινὸς": "tinòs",
+      "τινων": "tinōn",
+      "τινῶν": "tinō̂n",
+      "τις": "tis",
+      "τίς": "tís",
+      "τισιν": "tisin",
+      "τισίν": "tisín",
+      "τισὶν": "tisìn"
+    }
+  },
+  "τίς": {
+    "language": "greek",
+    "pos": "pron-int",
+    "citationForms": ["τίς", "τίς", "τί"],
+    "shortDefinition": "who, which, what",
+    "indices": { "strongs": "G5101" },
+    "inflections": {
+      "τι": [
+        {
+          "parse": ["pron-int", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5101" }
+        }
+      ],
+      "τί": [
+        {
+          "parse": ["pron-int", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5101" }
+        },
+        {
+          "parse": ["pron-int", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5101" }
+        }
+      ],
+      "τίνα": [
+        {
+          "parse": ["pron-int", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5101" }
+        },
+        {
+          "parse": ["pron-int", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5101" }
+        },
+        {
+          "parse": ["pron-int", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5101" }
+        }
+      ],
+      "τίνας": [
+        {
+          "parse": ["pron-int", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5101" }
+        }
+      ],
+      "τίνες": [
+        {
+          "parse": ["pron-int", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5101" }
+        }
+      ],
+      "τίνι": [
+        {
+          "parse": ["pron-int", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5101" }
+        },
+        {
+          "parse": ["pron-int", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5101" }
+        }
+      ],
+      "τίνος": [
+        {
+          "parse": ["pron-int", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5101" }
+        },
+        {
+          "parse": ["pron-int", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5101" }
+        }
+      ],
+      "τίνων": [
+        {
+          "parse": ["pron-int", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5101" }
+        },
+        {
+          "parse": ["pron-int", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5101" }
+        }
+      ],
+      "τίς": [
+        {
+          "parse": ["pron-int", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5101" }
+        },
+        {
+          "parse": ["pron-int", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5101" }
+        }
+      ],
+      "τίσιν": [
+        {
+          "parse": ["pron-int", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5101" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τι": "ti",
+      "τί": "tí",
+      "τίνα": "tína",
+      "τίνας": "tínas",
+      "τίνες": "tínes",
+      "τίνι": "tíni",
+      "τίνος": "tínos",
+      "τίνων": "tínōn",
+      "τίς": "tís",
+      "τίσιν": "tísin"
+    }
+  },
+  "τίτλος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5102" },
+    "inflections": {
+      "τίτλον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5102" }
+        }
+      ]
+    },
+    "transliterations": { "τίτλον": "títlon" }
+  },
+  "Τίτος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5103" },
+    "inflections": {
+      "τίτον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5103" }
+        }
+      ],
+      "τίτος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5103" }
+        }
+      ],
+      "τίτου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5103" }
+        }
+      ],
+      "τίτῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5103" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τίτον": "títon",
+      "τίτος": "títos",
+      "τίτου": "títou",
+      "τίτῳ": "títō"
+    }
+  },
+  "τοιγαροῦν": {
+    "language": "greek",
+    "pos": "prt",
+    "indices": { "strongs": "G5105" },
+    "inflections": {
+      "τοιγαροῦν": [{ "parse": ["prt"], "indices": { "strongs": "G5105" } }]
+    },
+    "transliterations": { "τοιγαροῦν": "toigaroûn" }
+  },
+  "τοίνυν": {
+    "language": "greek",
+    "pos": "prt",
+    "indices": { "strongs": "G5106" },
+    "inflections": {
+      "τοίνυν": [{ "parse": ["prt"], "indices": { "strongs": "G5106" } }]
+    },
+    "transliterations": { "τοίνυν": "toínyn" }
+  },
+  "τοιόσδε": {
+    "language": "greek",
+    "pos": "pron-dem",
+    "indices": { "strongs": "G5107" },
+    "inflections": {
+      "τοιᾶσδε": [
+        {
+          "parse": ["pron-dem", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5107" }
+        }
+      ]
+    },
+    "transliterations": { "τοιᾶσδε": "toiâsde" }
+  },
+  "τοιοῦτος": {
+    "language": "greek",
+    "pos": "pron-dem",
+    "citationForms": ["τοιοῦτος", "τοιαύτη"],
+    "shortDefinition": "such as this",
+    "indices": { "strongs": "G5108" },
+    "inflections": {
+      "τοιαῦτα": [
+        {
+          "parse": ["pron-dem", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιαῦται": [
+        {
+          "parse": ["pron-dem", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιαύταις": [
+        {
+          "parse": ["pron-dem", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιαύτας": [
+        {
+          "parse": ["pron-dem", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιαύτη": [
+        {
+          "parse": ["pron-dem", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιαύτην": [
+        {
+          "parse": ["pron-dem", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιοῦτοι": [
+        {
+          "parse": ["pron-dem", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιούτοις": [
+        {
+          "parse": ["pron-dem", "dat", "pl", "neut"],
+          "indices": { "strongs": "G5108" }
+        },
+        {
+          "parse": ["pron-dem", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιοῦτον": [
+        {
+          "parse": ["pron-dem", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5108" }
+        },
+        {
+          "parse": ["pron-dem", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιοῦτος": [
+        {
+          "parse": ["pron-dem", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιούτου": [
+        {
+          "parse": ["pron-dem", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιούτους": [
+        {
+          "parse": ["pron-dem", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιούτῳ": [
+        {
+          "parse": ["pron-dem", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5108" }
+        }
+      ],
+      "τοιούτων": [
+        {
+          "parse": ["pron-dem", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5108" }
+        },
+        {
+          "parse": ["pron-dem", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5108" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τοιαῦτα": "toiaûta",
+      "τοιαῦται": "toiaûtai",
+      "τοιαύταις": "toiaútais",
+      "τοιαύτας": "toiaútas",
+      "τοιαύτη": "toiaútē",
+      "τοιαύτην": "toiaútēn",
+      "τοιοῦτοι": "toioûtoi",
+      "τοιούτοις": "toioútois",
+      "τοιοῦτον": "toioûton",
+      "τοιοῦτος": "toioûtos",
+      "τοιούτου": "toioútou",
+      "τοιούτους": "toioútous",
+      "τοιούτῳ": "toioútō",
+      "τοιούτων": "toioútōn"
+    }
+  },
+  "τοῖχος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5109" },
+    "inflections": {
+      "τοῖχε": [
+        {
+          "parse": ["noun", "voc", "sg", "masc"],
+          "indices": { "strongs": "G5109" }
+        }
+      ]
+    },
+    "transliterations": { "τοῖχε": "toîche" }
+  },
+  "τόκος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5110" },
+    "inflections": {
+      "τόκῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5110" }
+        }
+      ]
+    },
+    "transliterations": { "τόκῳ": "tókō" }
+  },
+  "τολμάω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5111" },
+    "inflections": {
+      "ἐτόλμα": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5111" }
+        }
+      ],
+      "ἐτόλμησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5111" }
+        }
+      ],
+      "ἐτόλμησέν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5111" }
+        }
+      ],
+      "ἐτόλμων": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5111" }
+        }
+      ],
+      "τολμᾷ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5111" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5111" }
+        }
+      ],
+      "τολμᾷν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5111" }
+        }
+      ],
+      "τολμῆσαι": [
+        {
+          "parse": ["verb", "aor", "act", "inf"],
+          "indices": { "strongs": "G5111" }
+        }
+      ],
+      "τολμήσας": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5111" }
+        }
+      ],
+      "τολμήσω": [
+        {
+          "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5111" }
+        }
+      ],
+      "τολμῶ": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5111" }
+        }
+      ],
+      "τολμῶμεν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5111" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐτόλμα": "etólma",
+      "ἐτόλμησεν": "etólmēsen",
+      "ἐτόλμησέν": "etólmēsén",
+      "ἐτόλμων": "etólmōn",
+      "τολμᾷ": "tolmâ",
+      "τολμᾷν": "tolmân",
+      "τολμῆσαι": "tolmē̂sai",
+      "τολμήσας": "tolmḗsas",
+      "τολμήσω": "tolmḗsō",
+      "τολμῶ": "tolmō̂",
+      "τολμῶμεν": "tolmō̂men"
+    }
+  },
+  "τολμηρότερον": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5112" },
+    "inflections": {
+      "τολμηρότερον": [
+        { "parse": ["adv", "comp"], "indices": { "strongs": "G5112" } }
+      ]
+    },
+    "transliterations": { "τολμηρότερον": "tolmēróteron" }
+  },
+  "τολμητής": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5113" },
+    "inflections": {
+      "τολμηταί": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5113" }
+        }
+      ]
+    },
+    "transliterations": { "τολμηταί": "tolmētaí" }
+  },
+  "τομός": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "to be sharper",
+    "indices": { "strongs": "G5114" },
+    "inflections": {
+      "τομώτερος": [
+        {
+          "parse": ["adj", "comp", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5114" }
+        }
+      ]
+    },
+    "transliterations": { "τομώτερος": "tomṓteros" }
+  },
+  "τόξον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5115" },
+    "inflections": {
+      "τόξον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5115" }
+        }
+      ]
+    },
+    "transliterations": { "τόξον": "tóxon" }
+  },
+  "τοπάζιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5116" },
+    "inflections": {
+      "τοπάζιον": [
+        {
+          "parse": ["noun", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5116" }
+        }
+      ]
+    },
+    "transliterations": { "τοπάζιον": "topázion" }
+  },
+  "τόπος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a place, space",
+    "indices": { "strongs": "G5117" },
+    "inflections": {
+      "τόποις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5117" }
+        }
+      ],
+      "τόπον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5117" }
+        }
+      ],
+      "τόπος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5117" }
+        }
+      ],
+      "τόπου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5117" }
+        }
+      ],
+      "τόπους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5117" }
+        }
+      ],
+      "τόπῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5117" }
+        }
+      ],
+      "τόπων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5117" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τόποις": "tópois",
+      "τόπον": "tópon",
+      "τόπος": "tópos",
+      "τόπου": "tópou",
+      "τόπους": "tópous",
+      "τόπῳ": "tópō",
+      "τόπων": "tópōn"
+    }
+  },
+  "τοσοῦτος": {
+    "language": "greek",
+    "pos": "pron-dem",
+    "indices": { "strongs": "G5118" },
+    "inflections": {
+      "τοσαῦτα": [
+        {
+          "parse": ["pron-dem", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5118" }
+        },
+        {
+          "parse": ["pron-dem", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5118" }
+        }
+      ],
+      "τοσαύτην": [
+        {
+          "parse": ["pron-dem", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5118" }
+        }
+      ],
+      "τοσοῦτοι": [
+        {
+          "parse": ["pron-dem", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5118" }
+        }
+      ],
+      "τοσοῦτον": [
+        {
+          "parse": ["pron-dem", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5118" }
+        },
+        {
+          "parse": ["pron-dem", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5118" }
+        }
+      ],
+      "τοσοῦτος": [
+        {
+          "parse": ["pron-dem", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5118" }
+        }
+      ],
+      "τοσούτου": [
+        {
+          "parse": ["pron-dem", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5118" }
+        }
+      ],
+      "τοσούτους": [
+        {
+          "parse": ["pron-dem", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5118" }
+        }
+      ],
+      "τοσούτῳ": [
+        {
+          "parse": ["pron-dem", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5118" }
+        }
+      ],
+      "τοσούτων": [
+        {
+          "parse": ["pron-dem", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5118" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τοσαῦτα": "tosaûta",
+      "τοσαύτην": "tosaútēn",
+      "τοσοῦτοι": "tosoûtoi",
+      "τοσοῦτον": "tosoûton",
+      "τοσοῦτος": "tosoûtos",
+      "τοσούτου": "tosoútou",
+      "τοσούτους": "tosoútous",
+      "τοσούτῳ": "tosoútō",
+      "τοσούτων": "tosoútōn"
+    }
+  },
+  "τότε": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "then",
+    "indices": { "strongs": "G5119" },
+    "inflections": {
+      "τότε": [{ "parse": ["adv"], "indices": { "strongs": "G5119" } }]
+    },
+    "transliterations": { "τότε": "tóte" }
+  },
+  "τοὐναντίον": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5121" },
+    "inflections": {
+      "τοὐναντίον": [
+        { "parse": ["adv", "crasis"], "indices": { "strongs": "G5121" } }
+      ]
+    },
+    "transliterations": { "τοὐναντίον": "tounantíon" }
+  },
+  "τοὔνομα": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5122" },
+    "inflections": {
+      "τοὔνομα": [
+        { "parse": ["adv", "crasis"], "indices": { "strongs": "G5122" } }
+      ]
+    },
+    "transliterations": { "τοὔνομα": "toúnoma" }
+  },
+  "τράγος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5131" },
+    "inflections": {
+      "τράγων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5131" }
+        }
+      ]
+    },
+    "transliterations": { "τράγων": "trágōn" }
+  },
+  "τράπεζα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5132" },
+    "inflections": {
+      "τράπεζα": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5132" }
+        }
+      ],
+      "τραπέζαις": [
+        {
+          "parse": ["noun", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5132" }
+        }
+      ],
+      "τράπεζαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5132" }
+        }
+      ],
+      "τραπέζας": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5132" }
+        }
+      ],
+      "τραπέζης": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5132" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τράπεζα": "trápeza",
+      "τραπέζαις": "trapézais",
+      "τράπεζαν": "trápezan",
+      "τραπέζας": "trapézas",
+      "τραπέζης": "trapézēs"
+    }
+  },
+  "τραπεζίτης": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5133" },
+    "inflections": {
+      "τραπεζίταις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5133" }
+        }
+      ]
+    },
+    "transliterations": { "τραπεζίταις": "trapezítais" }
+  },
+  "τραῦμα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5134" },
+    "inflections": {
+      "τραύματα": [
+        {
+          "parse": ["noun", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5134" }
+        }
+      ]
+    },
+    "transliterations": { "τραύματα": "traúmata" }
+  },
+  "τραυματίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5135" },
+    "inflections": {
+      "τετραυματισμένους": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5135" }
+        }
+      ],
+      "τραυματίσαντες": [
+        {
+          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5135" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τετραυματισμένους": "tetraumatisménous",
+      "τραυματίσαντες": "traumatísantes"
+    }
+  },
+  "τραχηλίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to expose the neck for killing",
+    "indices": { "strongs": "G5136" },
+    "inflections": {
+      "τετραχηλισμένα": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5136" }
+        }
+      ]
+    },
+    "transliterations": { "τετραχηλισμένα": "tetrachēlisména" }
+  },
+  "τράχηλος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a neck",
+    "indices": { "strongs": "G5137" },
+    "inflections": {
+      "τράχηλον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5137" }
+        }
+      ]
+    },
+    "transliterations": { "τράχηλον": "tráchēlon" }
+  },
+  "τραχύς": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5138" },
+    "inflections": {
+      "τραχεῖαι": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5138" }
+        }
+      ],
+      "τραχεῖς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5138" }
+        }
+      ]
+    },
+    "transliterations": { "τραχεῖαι": "tracheîai", "τραχεῖς": "tracheîs" }
+  },
+  "Τραχωνῖτις": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5139" },
+    "inflections": {
+      "τραχωνίτιδος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5139" }
+        }
+      ]
+    },
+    "transliterations": { "τραχωνίτιδος": "trachōnítidos" }
+  },
+  "τρεῖς": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "a three",
+    "indices": { "strongs": "G5140" },
+    "inflections": {
+      "τρεῖς": [
+        {
+          "parse": ["adj", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5140" }
+        },
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5140" }
+        },
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5140" }
+        },
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5140" }
+        }
+      ],
+      "τρία": [
+        {
+          "parse": ["adj", "acc", "pl", "neut"],
+          "indices": { "strongs": "G5140" }
+        },
+        {
+          "parse": ["adj", "nom", "pl", "neut"],
+          "indices": { "strongs": "G5140" }
+        }
+      ],
+      "τρισίν": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5140" }
+        }
+      ],
+      "τρισὶν": [
+        {
+          "parse": ["adj", "dat", "pl", "fem"],
+          "indices": { "strongs": "G5140" }
+        },
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5140" }
+        }
+      ],
+      "τριῶν": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5140" }
+        },
+        {
+          "parse": ["adj", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5140" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τρεῖς": "treîs",
+      "τρία": "tría",
+      "τρισίν": "trisín",
+      "τρισὶν": "trisìn",
+      "τριῶν": "triō̂n"
+    }
+  },
+  "τρέμω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5141" },
+    "inflections": {
+      "τρέμουσα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5141" }
+        }
+      ],
+      "τρέμουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5141" }
+        }
+      ]
+    },
+    "transliterations": { "τρέμουσα": "trémousa", "τρέμουσιν": "trémousin" }
+  },
+  "τρέφω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to nourish; fig. to nurture, raise",
+    "indices": { "strongs": "G5142" },
+    "inflections": {
+      "ἐθρέψαμεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-1", "pl"],
+          "indices": { "strongs": "G5142" }
+        }
+      ],
+      "ἐθρέψατε": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5142" }
+        }
+      ],
+      "τεθραμμένος": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5142" }
+        }
+      ],
+      "τρέφει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5142" }
+        }
+      ],
+      "τρέφεσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G5142" }
+        }
+      ],
+      "τρέφηται": [
+        {
+          "parse": ["verb", "pres", "pas", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5142" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐθρέψαμεν": "ethrépsamen",
+      "ἐθρέψατε": "ethrépsate",
+      "τεθραμμένος": "tethramménos",
+      "τρέφει": "tréphei",
+      "τρέφεσθαι": "tréphesthai",
+      "τρέφηται": "tréphētai"
+    }
+  },
+  "τρέχω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to run",
+    "indices": { "strongs": "G5143" },
+    "inflections": {
+      "δραμὼν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "ἔδραμεν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "ἔδραμον": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5143" }
+        },
+        {
+          "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "ἐτρέχετε": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "ἔτρεχον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "τρέχει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "τρέχετε": [
+        {
+          "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "τρέχῃ": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "τρέχοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "τρέχοντος": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "τρεχόντων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "τρέχουσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "τρέχω": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+          "indices": { "strongs": "G5143" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"],
+          "indices": { "strongs": "G5143" }
+        }
+      ],
+      "τρέχωμεν": [
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"],
+          "indices": { "strongs": "G5143" }
+        }
+      ]
+    },
+    "transliterations": {
+      "δραμὼν": "dramṑn",
+      "ἔδραμεν": "édramen",
+      "ἔδραμον": "édramon",
+      "ἐτρέχετε": "etréchete",
+      "ἔτρεχον": "étrechon",
+      "τρέχει": "tréchei",
+      "τρέχετε": "tréchete",
+      "τρέχῃ": "tréchē",
+      "τρέχοντες": "tréchontes",
+      "τρέχοντος": "tréchontos",
+      "τρεχόντων": "trechóntōn",
+      "τρέχουσιν": "tréchousin",
+      "τρέχω": "tréchō",
+      "τρέχωμεν": "tréchōmen"
+    }
+  },
+  "τριάκοντα": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5144" },
+    "inflections": {
+      "τριάκοντα": [
+        {
+          "parse": ["adj", "indecl-numeral"],
+          "indices": { "strongs": "G5144" }
+        }
+      ]
+    },
+    "transliterations": { "τριάκοντα": "triákonta" }
+  },
+  "τριακόσιοι": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5145" },
+    "inflections": {
+      "τριακοσίων": [
+        {
+          "parse": ["adj", "gen", "pl", "neut"],
+          "indices": { "strongs": "G5145" }
+        },
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5145" }
+        }
+      ]
+    },
+    "transliterations": { "τριακοσίων": "triakosíōn" }
+  },
+  "τρίβολος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a caltrop, thistle",
+    "indices": { "strongs": "G5146" },
+    "inflections": {
+      "τριβόλους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5146" }
+        }
+      ],
+      "τριβόλων": [
+        {
+          "parse": ["noun", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5146" }
+        }
+      ]
+    },
+    "transliterations": { "τριβόλους": "tribólous", "τριβόλων": "tribólōn" }
+  },
+  "τρίβος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a path",
+    "indices": { "strongs": "G5147" },
+    "inflections": {
+      "τρίβους": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5147" }
+        }
+      ]
+    },
+    "transliterations": { "τρίβους": "tríbous" }
+  },
+  "τριετία": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5148" },
+    "inflections": {
+      "τριετίαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5148" }
+        }
+      ]
+    },
+    "transliterations": { "τριετίαν": "trietían" }
+  },
+  "τρίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5149" },
+    "inflections": {
+      "τρίζει": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5149" }
+        }
+      ]
+    },
+    "transliterations": { "τρίζει": "trízei" }
+  },
+  "τρίμηνος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5150" },
+    "inflections": {
+      "τρίμηνον": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5150" }
+        }
+      ]
+    },
+    "transliterations": { "τρίμηνον": "trímēnon" }
+  },
+  "τρίς": {
+    "language": "greek",
+    "pos": "adv",
+    "indices": { "strongs": "G5151" },
+    "inflections": {
+      "τρίς": [{ "parse": ["adv"], "indices": { "strongs": "G5151" } }],
+      "τρὶς": [{ "parse": ["adv"], "indices": { "strongs": "G5151" } }]
+    },
+    "transliterations": { "τρίς": "trís", "τρὶς": "trìs" }
+  },
+  "τρίστεγον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5152" },
+    "inflections": {
+      "τριστέγου": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5152" }
+        }
+      ]
+    },
+    "transliterations": { "τριστέγου": "tristégou" }
+  },
+  "τρισχίλιοι": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5153" },
+    "inflections": {
+      "τρισχίλιαι": [
+        {
+          "parse": ["adj", "nom", "pl", "fem"],
+          "indices": { "strongs": "G5153" }
+        }
+      ]
+    },
+    "transliterations": { "τρισχίλιαι": "trischíliai" }
+  },
+  "τρίτος": {
+    "language": "greek",
+    "pos": "adj",
+    "citationForms": ["τρίτος", "τρίτη", "τρίτον"],
+    "shortDefinition": "to be third",
+    "indices": { "strongs": "G5154" },
+    "inflections": {
+      "τρίτη": [
+        {
+          "parse": ["adj", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5154" }
+        }
+      ],
+      "τρίτῃ": [
+        {
+          "parse": ["adj", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5154" }
+        }
+      ],
+      "τρίτην": [
+        {
+          "parse": ["adj", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5154" }
+        }
+      ],
+      "τρίτης": [
+        {
+          "parse": ["adj", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5154" }
+        }
+      ],
+      "τρίτον": [
+        {
+          "parse": ["adj", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5154" }
+        },
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5154" }
+        },
+        { "parse": ["adv"], "indices": { "strongs": "G5154" } },
+        {
+          "parse": ["adj", "nom", "sg", "neut"],
+          "indices": { "strongs": "G5154" }
+        }
+      ],
+      "τρίτος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5154" }
+        }
+      ],
+      "τρίτου": [
+        {
+          "parse": ["adj", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5154" }
+        },
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5154" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τρίτη": "trítē",
+      "τρίτῃ": "trítē",
+      "τρίτην": "trítēn",
+      "τρίτης": "trítēs",
+      "τρίτον": "tríton",
+      "τρίτος": "trítos",
+      "τρίτου": "trítou"
+    }
+  },
+  "τρίχινος": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5155" },
+    "inflections": {
+      "τρίχινος": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5155" }
+        }
+      ]
+    },
+    "transliterations": { "τρίχινος": "tríchinos" }
+  },
+  "τρόμος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5156" },
+    "inflections": {
+      "τρόμος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5156" }
+        }
+      ],
+      "τρόμου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5156" }
+        }
+      ],
+      "τρόμῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5156" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τρόμος": "trómos",
+      "τρόμου": "trómou",
+      "τρόμῳ": "trómō"
+    }
+  },
+  "τροπή": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a rotation",
+    "indices": { "strongs": "G5157" },
+    "inflections": {
+      "τροπῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5157" }
+        }
+      ]
+    },
+    "transliterations": { "τροπῆς": "tropē̂s" }
+  },
+  "τρόπος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5158" },
+    "inflections": {
+      "τρόπον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5158" }
+        }
+      ],
+      "τρόπος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5158" }
+        }
+      ],
+      "τρόπῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5158" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τρόπον": "trópon",
+      "τρόπος": "trópos",
+      "τρόπῳ": "trópō"
+    }
+  },
+  "τροποφορέω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5159" },
+    "inflections": {
+      "ἐτροποφόρησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5159" }
+        }
+      ]
+    },
+    "transliterations": { "ἐτροποφόρησεν": "etropophórēsen" }
+  },
+  "τροφή": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a nourishment; fig. food",
+    "indices": { "strongs": "G5160" },
+    "inflections": {
+      "τροφὰς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5160" }
+        }
+      ],
+      "τροφή": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5160" }
+        }
+      ],
+      "τροφὴ": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5160" }
+        }
+      ],
+      "τροφὴν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5160" }
+        }
+      ],
+      "τροφῆς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5160" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τροφὰς": "trophàs",
+      "τροφή": "trophḗ",
+      "τροφὴ": "trophḕ",
+      "τροφὴν": "trophḕn",
+      "τροφῆς": "trophē̂s"
+    }
+  },
+  "Τρόφιμος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5161" },
+    "inflections": {
+      "τρόφιμον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5161" }
+        }
+      ],
+      "τρόφιμος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5161" }
+        }
+      ]
+    },
+    "transliterations": { "τρόφιμον": "tróphimon", "τρόφιμος": "tróphimos" }
+  },
+  "τροφός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5162" },
+    "inflections": {
+      "τροφὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "fem"],
+          "indices": { "strongs": "G5162" }
+        }
+      ]
+    },
+    "transliterations": { "τροφὸς": "trophòs" }
+  },
+  "τροχιά": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5163" },
+    "inflections": {
+      "τροχιὰς": [
+        {
+          "parse": ["noun", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5163" }
+        }
+      ]
+    },
+    "transliterations": { "τροχιὰς": "trochiàs" }
+  },
+  "τροχός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5164" },
+    "inflections": {
+      "τροχὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5164" }
+        }
+      ]
+    },
+    "transliterations": { "τροχὸν": "trochòn" }
+  },
+  "τρύβλιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5165" },
+    "inflections": {
+      "τρυβλίον": [
+        {
+          "parse": ["noun", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5165" }
+        }
+      ],
+      "τρυβλίῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5165" }
+        }
+      ]
+    },
+    "transliterations": { "τρυβλίον": "tryblíon", "τρυβλίῳ": "tryblíō" }
+  },
+  "τρυγάω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5166" },
+    "inflections": {
+      "ἐτρύγησεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5166" }
+        }
+      ],
+      "τρύγησον": [
+        {
+          "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+          "indices": { "strongs": "G5166" }
+        }
+      ],
+      "τρυγῶσιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5166" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐτρύγησεν": "etrýgēsen",
+      "τρύγησον": "trýgēson",
+      "τρυγῶσιν": "trygō̂sin"
+    }
+  },
+  "τρυγών": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5167" },
+    "inflections": {
+      "τρυγόνων": [
+        {
+          "parse": ["noun", "gen", "pl", "fem"],
+          "indices": { "strongs": "G5167" }
+        }
+      ]
+    },
+    "transliterations": { "τρυγόνων": "trygónōn" }
+  },
+  "τρυμαλιά": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5168" },
+    "inflections": {
+      "τρυμαλιᾶς": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5168" }
+        }
+      ]
+    },
+    "transliterations": { "τρυμαλιᾶς": "trymaliâs" }
+  },
+  "τρύπημα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5169" },
+    "inflections": {
+      "τρυπήματος": [
+        {
+          "parse": ["noun", "gen", "sg", "neut"],
+          "indices": { "strongs": "G5169" }
+        }
+      ]
+    },
+    "transliterations": { "τρυπήματος": "trypḗmatos" }
+  },
+  "Τρύφαινα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5170" },
+    "inflections": {
+      "τρύφαιναν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5170" }
+        }
+      ]
+    },
+    "transliterations": { "τρύφαιναν": "trýphainan" }
+  },
+  "τρυφάω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5171" },
+    "inflections": {
+      "ἐτρυφήσατε": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G5171" }
+        }
+      ]
+    },
+    "transliterations": { "ἐτρυφήσατε": "etryphḗsate" }
+  },
+  "τρυφή": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5172" },
+    "inflections": {
+      "τρυφῇ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5172" }
+        }
+      ],
+      "τρυφήν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5172" }
+        }
+      ]
+    },
+    "transliterations": { "τρυφῇ": "tryphē̂", "τρυφήν": "tryphḗn" }
+  },
+  "Τρυφῶσα": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5173" },
+    "inflections": {
+      "τρυφῶσαν": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5173" }
+        }
+      ]
+    },
+    "transliterations": { "τρυφῶσαν": "tryphō̂san" }
+  },
+  "Τρῳάς": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5174" },
+    "inflections": {
+      "τρῳάδα": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5174" }
+        }
+      ],
+      "τρῳάδι": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5174" }
+        }
+      ],
+      "τρῳάδος": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5174" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τρῳάδα": "trōáda",
+      "τρῳάδι": "trōádi",
+      "τρῳάδος": "trōádos"
+    }
+  },
+  "Τρωγύλλιον": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5175" },
+    "inflections": {
+      "τρωγυλλίῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "neut"],
+          "indices": { "strongs": "G5175" }
+        }
+      ]
+    },
+    "transliterations": { "τρωγυλλίῳ": "trōgyllíō" }
+  },
+  "τρώγω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5176" },
+    "inflections": {
+      "τρώγοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5176" }
+        }
+      ],
+      "τρώγων": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5176" }
+        }
+      ]
+    },
+    "transliterations": { "τρώγοντες": "trṓgontes", "τρώγων": "trṓgōn" }
+  },
+  "τυγχάνω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to obtain, reach",
+    "indices": { "strongs": "G5177" },
+    "inflections": {
+      "τέτυχεν": [
+        {
+          "parse": ["verb", "second", "perf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5177" }
+        }
+      ],
+      "τυγχάνοντα": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5177" }
+        }
+      ],
+      "τυγχάνοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5177" }
+        }
+      ],
+      "τυχεῖν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "inf"],
+          "indices": { "strongs": "G5177" }
+        }
+      ],
+      "τύχοι": [
+        {
+          "parse": ["verb", "second", "aor", "act", "opt", "pers-3", "sg"],
+          "indices": { "strongs": "G5177" }
+        }
+      ],
+      "τυχὸν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5177" }
+        }
+      ],
+      "τυχοῦσαν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5177" }
+        }
+      ],
+      "τυχούσας": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "acc", "pl", "fem"],
+          "indices": { "strongs": "G5177" }
+        }
+      ],
+      "τυχὼν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5177" }
+        }
+      ],
+      "τύχωσιν": [
+        {
+          "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"],
+          "indices": { "strongs": "G5177" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τέτυχεν": "tétychen",
+      "τυγχάνοντα": "tynchánonta",
+      "τυγχάνοντες": "tynchánontes",
+      "τυχεῖν": "tycheîn",
+      "τύχοι": "týchoi",
+      "τυχὸν": "tychòn",
+      "τυχοῦσαν": "tychoûsan",
+      "τυχούσας": "tychoúsas",
+      "τυχὼν": "tychṑn",
+      "τύχωσιν": "týchōsin"
+    }
+  },
+  "τυμπανίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5178" },
+    "inflections": {
+      "ἐτυμπανίσθησαν": [
+        {
+          "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5178" }
+        }
+      ]
+    },
+    "transliterations": { "ἐτυμπανίσθησαν": "etympanísthēsan" }
+  },
+  "τύπος": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a type, imprint; fig. a figure",
+    "indices": { "strongs": "G5179" },
+    "inflections": {
+      "τύποι": [
+        {
+          "parse": ["noun", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5179" }
+        }
+      ],
+      "τύπον": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5179" }
+        }
+      ],
+      "τύπος": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5179" }
+        }
+      ],
+      "τύπους": [
+        {
+          "parse": ["noun", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5179" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τύποι": "týpoi",
+      "τύπον": "týpon",
+      "τύπος": "týpos",
+      "τύπους": "týpous"
+    }
+  },
+  "τύπτω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to beat, batter, pummel",
+    "indices": { "strongs": "G5180" },
+    "inflections": {
+      "ἔτυπτεν": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5180" }
+        }
+      ],
+      "ἔτυπτον": [
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"],
+          "indices": { "strongs": "G5180" }
+        }
+      ],
+      "τύπτειν": [
+        {
+          "parse": ["verb", "pres", "act", "inf"],
+          "indices": { "strongs": "G5180" }
+        }
+      ],
+      "τύπτεσθαι": [
+        {
+          "parse": ["verb", "pres", "pas", "inf"],
+          "indices": { "strongs": "G5180" }
+        }
+      ],
+      "τύπτοντες": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5180" }
+        }
+      ],
+      "τύπτοντί": [
+        {
+          "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5180" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἔτυπτεν": "étypten",
+      "ἔτυπτον": "étypton",
+      "τύπτειν": "týptein",
+      "τύπτεσθαι": "týptesthai",
+      "τύπτοντες": "týptontes",
+      "τύπτοντί": "týptontí"
+    }
+  },
+  "Τύραννος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5181" },
+    "inflections": {
+      "τυράννου": [
+        {
+          "parse": ["noun", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5181" }
+        }
+      ]
+    },
+    "transliterations": { "τυράννου": "tyránnou" }
+  },
+  "τυρβάζω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5182" },
+    "inflections": {
+      "τυρβάζῃ": [
+        {
+          "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"],
+          "indices": { "strongs": "G5182" }
+        }
+      ]
+    },
+    "transliterations": { "τυρβάζῃ": "tyrbázē" }
+  },
+  "Τύριος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5183" },
+    "inflections": {
+      "τυρίοις": [
+        {
+          "parse": ["noun", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5183" }
+        }
+      ]
+    },
+    "transliterations": { "τυρίοις": "tyríois" }
+  },
+  "Τύρος": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5184" },
+    "inflections": {
+      "τύρον": [
+        {
+          "parse": ["noun", "acc", "sg", "fem"],
+          "indices": { "strongs": "G5184" }
+        }
+      ],
+      "τύρου": [
+        {
+          "parse": ["noun", "gen", "sg", "fem"],
+          "indices": { "strongs": "G5184" }
+        }
+      ],
+      "τύρῳ": [
+        {
+          "parse": ["noun", "dat", "sg", "fem"],
+          "indices": { "strongs": "G5184" }
+        }
+      ]
+    },
+    "transliterations": { "τύρον": "týron", "τύρου": "týrou", "τύρῳ": "týrō" }
+  },
+  "τυφλός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5185" },
+    "inflections": {
+      "τυφλέ": [
+        {
+          "parse": ["adj", "voc", "sg", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλοί": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5185" }
+        },
+        {
+          "parse": ["adj", "voc", "pl", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλοὶ": [
+        {
+          "parse": ["adj", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλοῖς": [
+        {
+          "parse": ["adj", "dat", "pl", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλόν": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλὸν": [
+        {
+          "parse": ["adj", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλὸς": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλοῦ": [
+        {
+          "parse": ["adj", "gen", "sg", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλούς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλοὺς": [
+        {
+          "parse": ["adj", "acc", "pl", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλῷ": [
+        {
+          "parse": ["adj", "dat", "sg", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ],
+      "τυφλῶν": [
+        {
+          "parse": ["adj", "gen", "pl", "masc"],
+          "indices": { "strongs": "G5185" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τυφλέ": "typhlé",
+      "τυφλοί": "typhloí",
+      "τυφλοὶ": "typhloì",
+      "τυφλοῖς": "typhloîs",
+      "τυφλόν": "typhlón",
+      "τυφλὸν": "typhlòn",
+      "τυφλός": "typhlós",
+      "τυφλὸς": "typhlòs",
+      "τυφλοῦ": "typhloû",
+      "τυφλούς": "typhloús",
+      "τυφλοὺς": "typhloùs",
+      "τυφλῷ": "typhlō̂",
+      "τυφλῶν": "typhlō̂n"
+    }
+  },
+  "τυφλόω": {
+    "language": "greek",
+    "pos": "verb",
+    "shortDefinition": "to blind; fig. to obscure",
+    "indices": { "strongs": "G5186" },
+    "inflections": {
+      "ἐτύφλωσεν": [
+        {
+          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5186" }
+        }
+      ],
+      "τετύφλωκεν": [
+        {
+          "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5186" }
+        }
+      ]
+    },
+    "transliterations": {
+      "ἐτύφλωσεν": "etýphlōsen",
+      "τετύφλωκεν": "tetýphlōken"
+    }
+  },
+  "τυφόω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5187" },
+    "inflections": {
+      "τετυφωμένοι": [
+        {
+          "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"],
+          "indices": { "strongs": "G5187" }
+        }
+      ],
+      "τετύφωται": [
+        {
+          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G5187" }
+        }
+      ],
+      "τυφωθεὶς": [
+        {
+          "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5187" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τετυφωμένοι": "tetyphōménoi",
+      "τετύφωται": "tetýphōtai",
+      "τυφωθεὶς": "typhōtheìs"
+    }
+  },
+  "τύφω": {
+    "language": "greek",
+    "pos": "verb",
+    "indices": { "strongs": "G5188" },
+    "inflections": {
+      "τυφόμενον": [
+        {
+          "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"],
+          "indices": { "strongs": "G5188" }
+        }
+      ]
+    },
+    "transliterations": { "τυφόμενον": "typhómenon" }
+  },
+  "τυφωνικός": {
+    "language": "greek",
+    "pos": "adj",
+    "indices": { "strongs": "G5189" },
+    "inflections": {
+      "τυφωνικός": [
+        {
+          "parse": ["adj", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5189" }
+        }
+      ]
+    },
+    "transliterations": { "τυφωνικός": "typhōnikós" }
+  },
+  "Τυχικός": {
+    "language": "greek",
+    "pos": "noun",
+    "indices": { "strongs": "G5190" },
+    "inflections": {
+      "τυχικόν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5190" }
+        }
+      ],
+      "τυχικὸν": [
+        {
+          "parse": ["noun", "acc", "sg", "masc"],
+          "indices": { "strongs": "G5190" }
+        }
+      ],
+      "τυχικός": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5190" }
+        }
+      ],
+      "τυχικὸς": [
+        {
+          "parse": ["noun", "nom", "sg", "masc"],
+          "indices": { "strongs": "G5190" }
+        }
+      ]
+    },
+    "transliterations": {
+      "τυχικόν": "tychikón",
+      "τυχικὸν": "tychikòn",
+      "τυχικός": "tychikós",
+      "τυχικὸς": "tychikòs"
+    }
+  }
+}

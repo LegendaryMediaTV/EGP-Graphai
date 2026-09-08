@@ -21,11 +21,11 @@
         },
         "license": {
           "type": "string",
-          "description": "License identifier, similar to package.json licensing (e.g., 'public-domain', 'copyright')."
+          "description": "License identifier covering everything the version ships. An SPDX id such as 'CC0-1.0' where one fits, otherwise 'proprietary' or a 'LicenseRef-' id, optionally adding additional terms to the `copyright`."
         },
         "copyright": {
           "$ref": "../content-schema.json",
-          "description": "Copyright statement or license information."
+          "description": "The publisher's required copyright statement or license information."
         },
         "script": {
           "type": "string",

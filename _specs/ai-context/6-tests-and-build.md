@@ -6,7 +6,7 @@
 
 - **Vitest** – Modern test runner configured via `npm run test` (executes `vitest --run`)
 - **Configuration** – No `vitest.config.ts` file present; uses default configuration
-- **Suite size** – 43 test files, 1,571 tests, all passing. Every test reads only tracked files: a `.usfm` fixture, content this repo ships under `bible-versions/`, or a temp directory it writes itself. A fresh clone runs the whole suite with nothing beyond `npm install`, and nothing is skipped — the `fs.existsSync` guards and `describe.skip` placeholders that once stood in for specs needing a local raw-USFM corpus are gone
+- **Suite health** – Every suite passes. Every test reads only tracked files: a `.usfm` fixture, content this repo ships under `bible-versions/`, or a temp directory it writes itself. A fresh clone runs the whole suite with nothing beyond `npm install`, and nothing is skipped — the `fs.existsSync` guards and `describe.skip` placeholders that once stood in for specs needing a local raw-USFM corpus are gone
 
 ### Test Locations
 
@@ -21,7 +21,7 @@
 
 ### Content Schema Domain
 
-- **Existing tests** – `functions/__tests__/contentSchema.test.ts` (4 tests)
+- **Existing tests** – `functions/__tests__/contentSchema.test.ts`
 - **Covered scenarios:**
   - Compiles `content-schema.json` directly with Ajv (not via the verse/version wrapper schemas)
   - A heading object with no `type` is valid (regression baseline for pre-existing data)
@@ -30,7 +30,7 @@
 
 ### Bible Versions Domain
 
-- **Existing tests** – `functions/__tests__/getBibleVersions.test.ts` (17 tests)
+- **Existing tests** – `functions/__tests__/getBibleVersions.test.ts`
 - **Covered scenarios:**
   - Every case runs against a fixture directory (`functions/__tests__/fixtures/versions/`, plus small ones each `describe` writes and tears down itself), never the real shipped `bible-versions/` tree, so no assertion depends on which translations happen to be checked in
   - Version discovery from `_version.json` files
@@ -44,7 +44,7 @@
 
 ### Content Processing / Export Domain
 
-- **Existing tests** – `utils/__tests__/exportContent.test.ts` (175 tests)
+- **Existing tests** – `utils/__tests__/exportContent.test.ts`
 - **Covered scenarios:**
   - Plain text conversion with Strong's numbers and morphology
   - Markdown conversion with paragraph markers, footnotes, line breaks
@@ -64,7 +64,7 @@
 
 ### Small Caps Conversion Domain
 
-- **Existing tests** – `functions/__tests__/convertToSmallCaps.test.ts` (40 tests)
+- **Existing tests** – `functions/__tests__/convertToSmallCaps.test.ts`
 - **Covered scenarios:**
   - Simple LORD to small caps conversion
   - Lord GOD (Adonai YHWH) pattern handling
@@ -77,7 +77,7 @@
 
 ### Key Ordering Domain
 
-- **Existing tests** – `functions/__tests__/sortContentKeys.test.ts` (27 tests)
+- **Existing tests** – `functions/__tests__/sortContentKeys.test.ts`
 - **Covered scenarios:**
   - Basic key ordering (text, marks, strong, morph, etc.)
   - Marks array alphabetization
@@ -88,7 +88,7 @@
 
 ### File Writing Domain
 
-- **Existing tests** – `functions/__tests__/writeJsonFile.test.ts` (10 tests)
+- **Existing tests** – `functions/__tests__/writeJsonFile.test.ts`
 - **Covered scenarios:**
   - `writeJsonFile()` produces the same bytes as formatting a compact (unindented) stringify
   - A short object collapses to one line rather than being forced onto three. This is the regression test for the compact-stringify fix (indenting before Prettier sees the text would lock every object onto its own lines regardless of length)
@@ -100,7 +100,7 @@
 
 ### Shared Content-Normalization Helpers Domain
 
-- **Existing tests** – `functions/__tests__/normalizeFractions.test.ts` (24), `functions/__tests__/normalizeEllipses.test.ts` (19), `functions/__tests__/normalizeStraightQuotes.test.ts` (14), `functions/__tests__/normalizeGreekDiacritics.test.ts` (11), `functions/__tests__/mapContentText.test.ts` (14), `functions/__tests__/tagScriptRunsInContent.test.ts` (19), `functions/__tests__/mergeEquivalentSiblingsInContent.test.ts` (18)
+- **Existing tests** – `functions/__tests__/normalizeFractions.test.ts`, `functions/__tests__/normalizeEllipses.test.ts`, `functions/__tests__/normalizeStraightQuotes.test.ts`, `functions/__tests__/normalizeGreekDiacritics.test.ts`, `functions/__tests__/mapContentText.test.ts`, `functions/__tests__/tagScriptRunsInContent.test.ts`, `functions/__tests__/mergeEquivalentSiblingsInContent.test.ts`
 - **Covered scenarios:**
   - Fraction normalization across raw ASCII `N/M`, precomposed vulgar-fraction glyphs, and digits already split by U+2044 but not yet raised/lowered — the one function both `validate.ts`'s auto-fix pass and the USFM importer call
   - Ellipsis normalization to U+2026, including the deliberate standing exception (a bare two-period run is reported but never auto-rewritten)
@@ -112,7 +112,7 @@
 
 ### Cross-Chapter Link and bibleLink Target Domain
 
-- **Existing tests** – `utils/__tests__/crossChapterLinks.test.ts` (81 tests)
+- **Existing tests** – `utils/__tests__/crossChapterLinks.test.ts`
 - **Covered scenarios:**
   - Every case runs against `FAKE_A`/`FAKE_B`, two synthetic version directories written to `os.tmpdir()` in `beforeAll` and removed in `afterAll` — real book ids, so name resolution still hits the real `bible-books.json` registry, but invented chapter/verse records. They reach the module through `readVersionBookFiles`'s absolute-path seam, so nothing else in the module had to change
   - Target-shape classification: `singleChapter`, `crossChapterRange`, `wholeChapterRange`, `mergedTarget`, `unparsed`. `wholeChapterRange` is a finding, split alongside `crossChapterRange`, not an out-of-scope shape
@@ -129,30 +129,35 @@
 
 ### Validation Domain
 
-- **Existing tests** – `utils/__tests__/validate.test.ts` (75 tests)
+- **Existing tests** – `utils/__tests__/validate.test.ts`
 - **Covered scenarios:**
   - `collectJsonFiles()`'s scoping — every version-scoped path belongs to the requested version and no other, and the shared root-level/registry files come along regardless of scope — measured against two throwaway version directories written to `os.tmpdir()` and passed as the optional `versionsRoot`, so the assertions don't move when a translation is added to or removed from `bible-versions/`
   - `findMeaninglessContentNodes()`: formatting (`marks`/`script`) with no `text`, and an empty `""` husk riding alongside other properties, flagged; `foot`/`strong`/`morph`/`lemma`/`bibleLink`/bare `paragraph`/`break` left alone; descends into `foot.content`, subtitles, and headings, not just the top level
   - `findStrongTrailingWhitespaceNodes()`: a `strong`-carrying node's own `text` ending in whitespace
   - `main()` gated behind `require.main === module`, so importing the module for its exported functions doesn't trigger a full validation run
   - The full auto-fix pass, in pass order, and the fixed-point re-application check that fails by name — file, verse, step — if a second pass would still find something to change
-  - `main()` also runs the report-only audits (declared chapter counts, cross-chapter links, truncated ranges, Strong's-node placement, unresolvable `bibleLink` targets) for each version it validates, as peers that all run to completion regardless of one another's outcome. See [validation.md](../4-domains/validation.md), [cross-chapter-links.md](../4-domains/cross-chapter-links.md), and [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for what each one checks
+  - `main()` also runs the report-only audits (declared chapter counts, cross-chapter links, truncated ranges, Strong's-node placement, unresolvable `bibleLink` targets) for each version it validates, as peers that all run to completion regardless of one another's outcome. See [validation.md](4-domains/validation.md), [cross-chapter-links.md](4-domains/cross-chapter-links.md), and [strongs-node-audit.md](4-domains/strongs-node-audit.md) for what each one checks
 
 ### Strong's-Node Audit Domain
 
-- **Existing tests** – `utils/__tests__/auditNodes.test.ts` (176 tests, the largest suite outside the USFM import pipeline)
-- **Covered scenarios:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the domain narrative: every finding's positive/negative cases, `agreesInFormatting` mark/script agreement, textless-Strong's-and-textless-foot-sibling skip-through (both directions), the mark-boundary-space check's exact-vs-subset match and its smaller-mark-set direction (including the backward case and the blocked-both-directions exemption), `break`/`paragraph` boundary guards, verse-initial-space detection scoped to a verse's own outermost content, the flat heading/subtitle-paragraph convention, fraction/ellipsis normalization reuse, the footnote-marker-after-whitespace render-order judgment, mixed-script-run detection, duplicate-footnote-anchor detection tight enough to spare the far more common two-real-occurrences shape, mergeable-sibling detection, and `exitCodeFor()`/`isClean()` across every check combined. Every fixture is in-memory `Content`: the file no longer imports `auditVersion`/`auditVersions` at all, and the read-only guarantee now comes from calling `findStrongsNodeIssues()` twice on the same content rather than from walking `bible-versions/` twice
+- **Existing tests** – `utils/__tests__/auditNodes.test.ts` (the largest suite outside the USFM import pipeline)
+- **Covered scenarios:** see [strongs-node-audit.md](4-domains/strongs-node-audit.md) for the domain narrative: every finding's positive/negative cases, `agreesInFormatting` mark/script agreement, textless-Strong's-and-textless-foot-sibling skip-through (both directions), the mark-boundary-space check's exact-vs-subset match and its smaller-mark-set direction (including the backward case and the blocked-both-directions exemption), `break`/`paragraph` boundary guards, verse-initial-space detection scoped to a verse's own outermost content, the flat heading/subtitle-paragraph convention, fraction/ellipsis normalization reuse, the footnote-marker-after-whitespace render-order judgment, mixed-script-run detection, duplicate-footnote-anchor detection tight enough to spare the far more common two-real-occurrences shape, mergeable-sibling detection, and `exitCodeFor()`/`isClean()` across every check combined. Every fixture is in-memory `Content`: the file no longer imports `auditVersion`/`auditVersions` at all, and the read-only guarantee now comes from calling `findStrongsNodeIssues()` twice on the same content rather than from walking `bible-versions/` twice
 
 ### Node-Placement Auto-Fix Domain
 
-- **Existing tests** – `utils/__tests__/fixUnmergedNodes.test.ts` (5), `fixHeadingParagraphs.test.ts` (4), `fixFootnotePunctuationOrder.test.ts` (7), `fixMarkBoundaryEmbeddedSpaces.test.ts` (10), `fixMarkBoundarySpaces.test.ts` (13), `fixFootnoteMarkerSpacing.test.ts` (25), `fixDuplicateFootnoteAnchors.test.ts` (8)
+- **Existing tests** – `utils/__tests__/fixUnmergedNodes.test.ts`, `fixHeadingParagraphs.test.ts`, `fixFootnotePunctuationOrder.test.ts`, `fixMarkBoundaryEmbeddedSpaces.test.ts`, `fixMarkBoundarySpaces.test.ts`, `fixFootnoteMarkerSpacing.test.ts`, `fixDuplicateFootnoteAnchors.test.ts`
 - **Covered scenarios:** each fixer reuses `auditNodes.ts`'s own eligibility judgment (`canJoinForward`, `findHeadingParagraphMismatches`, `leadingTightPunctuationSplit`/`isRealAttachmentPoint`, `carriesFormatting`/`agreesInFormatting`, `findWhitespaceSourceIndex`, `isDuplicateFootnoteAnchor`, `isFormattingSubsetOf`) rather than re-deriving it, so these suites are largely regression coverage confirming the fix direction matches the audit's own judgment. `fixFootnoteMarkerSpacing.test.ts` is the largest of the seven because the footnote-marker-spacing check asks a render-order question (accumulated visible text, not just the node's own trailing character) with several declining conditions to cover: no real next node, a `break`/`paragraph` boundary at the join, the next node already starting with whitespace, or a `marks`/`script` disagreement. `fixMarkBoundarySpaces.test.ts` covers the exact-match forward case, the subset-match direction that can go either way depending on which side is smaller, and the blocked-direction case where an already-correctly-tagged blank is left untouched. None of these seven files has a CLI or `--fix` flag of its own — `validate.ts` calls each transform unconditionally as one step in its own auto-fix pass. The other two self-repairing checks (script-run tagging and sibling merge) are tested under `functions/__tests__/` — see the Shared Content-Normalization Helpers Domain above
+
+### Lexical Map Domain
+
+- **Existing tests** – none. Nothing under `utils/__tests__/` or `functions/__tests__/` reads `lexical-maps/`, and `npm run validate` does not touch the directory either
+- **Uncovered scenarios:** every rule the format states. That a parse code resolves in the language registry, that a parse carries at most one code per category, that the categories a part of speech requires are present, that `inflections` and `transliterations` have the same key set, that a cell's index number is what the corpus tag plus the placement rules produce, that two placement rules never both match one cell, that a root's numbers are the union of its cells', and that every (form, parse) pair a tagged corpus attests has a home in the map. A decoder for the morph code system is likewise untested, though the format is designed so one can be written from the morphology file alone with no language knowledge. See [lexical-map.md](4-domains/lexical-map.md) for what each rule means
 
 ### USFM Import Pipeline Domain
 
-- **Existing tests** – 19 files: `utils/__tests__/importUsfm.test.ts` (19), `utils/__tests__/overhaulFootnotes.test.ts` (22), `utils/__tests__/overhaulReferences.test.ts` (20), and 16 under `utils/usfm/__tests__/`: `footnoteTypeRules.test.ts` (231, the largest test file in the repo), `segmentVerses.test.ts` (141), `verify.test.ts` (77), `footnotes.test.ts` (55), `references.test.ts` (69), `inlineMarks.test.ts` (28), `headings.test.ts` (30), `blockStructure.test.ts` (14), `embeddedReferenceConventions.test.ts` (12), `metadata.test.ts` (10), `tokenize.test.ts` (10), `paragraphNoise.test.ts` (7), `splitScriptRuns.test.ts` (2), `bMarkerUpstreamConvention.test.ts` (1), `bibleLinkTargetConventions.test.ts` (1), `chapterBoundaryUpstreamConvention.test.ts` (1)
-- **No local setup.** All 19 run in a fresh clone. Every spec drives a production function directly against either a tracked `.usfm` fixture read through `readFixture()` or a raw-USFM string copied verbatim from the source, and `utils/usfm/headings.ts`, `footnotes.ts`, and `verify.ts` import their Hebrew/Greek run-splitting helper from the tracked `utils/usfm/splitScriptRuns.ts`, which now has its own dedicated suite covering the Hebrew presentation-form range a shipped acrostic heading needed. See [usfm-import.md](../4-domains/usfm-import.md#key-business-rules) for detail.
-- **`footnoteTypeRules.test.ts` grew from 132 to 231 tests, and `headings.test.ts` doubled from 15 to 30.** The footnote-classifier growth covers a registry-driven book-name slot (recognizing a spelled-out, multi-word, or long book name in a citation instead of only a one-word abbreviation) and a guard against reading a printed-edition or manuscript siglon standing where a book name would go (`WH 76` is the number 276, not chapter 76 of an invented book). The headings growth covers acrostic letter names in the several spellings different shipped and non-shipped editions use for the same Hebrew letter, combined two-letter stanza headings joined in any of several real styles, and Psalter book-division headings recognized by their printed "BOOK n" text on any of the `\ms`/`\ms1`/`\ms2`/`\ms3` markers rather than assumed onto `\ms1` alone.
+- **Existing tests** – `utils/__tests__/importUsfm.test.ts`, `utils/__tests__/overhaulFootnotes.test.ts`, `utils/__tests__/overhaulReferences.test.ts`, and the suites under `utils/usfm/__tests__/`: `footnoteTypeRules.test.ts` (the largest test file in the repo), `segmentVerses.test.ts`, `verify.test.ts`, `footnotes.test.ts`, `references.test.ts`, `inlineMarks.test.ts`, `headings.test.ts`, `blockStructure.test.ts`, `embeddedReferenceConventions.test.ts`, `metadata.test.ts`, `tokenize.test.ts`, `paragraphNoise.test.ts`, `splitScriptRuns.test.ts`, `bMarkerUpstreamConvention.test.ts`, `bibleLinkTargetConventions.test.ts`, `chapterBoundaryUpstreamConvention.test.ts`
+- **No local setup.** All 19 run in a fresh clone. Every spec drives a production function directly against either a tracked `.usfm` fixture read through `readFixture()` or a raw-USFM string copied verbatim from the source, and `utils/usfm/headings.ts`, `footnotes.ts`, and `verify.ts` import their Hebrew/Greek run-splitting helper from the tracked `utils/usfm/splitScriptRuns.ts`, which now has its own dedicated suite covering the Hebrew presentation-form range a shipped acrostic heading needed. See [usfm-import.md](4-domains/usfm-import.md#key-business-rules) for detail.
+- **`footnoteTypeRules.test.ts` and `headings.test.ts` both grew sharply.** The footnote-classifier growth covers a registry-driven book-name slot (recognizing a spelled-out, multi-word, or long book name in a citation instead of only a one-word abbreviation) and a guard against reading a printed-edition or manuscript siglon standing where a book name would go (`WH 76` is the number 276, not chapter 76 of an invented book). The headings growth covers acrostic letter names in the several spellings different shipped and non-shipped editions use for the same Hebrew letter, combined two-letter stanza headings joined in any of several real styles, and Psalter book-division headings recognized by their printed "BOOK n" text on any of the `\ms`/`\ms1`/`\ms2`/`\ms3` markers rather than assumed onto `\ms1` alone.
 - **The four convention specs pin named examples, not corpus totals.** All four used to sweep WEBUS2020's raw source and assert aggregate counts; each now checks the construct against real, named occurrences instead:
   - `bMarkerUpstreamConvention.test.ts` — the `\b` stanza-break fix's two-part convention (no `break` on the line before, `paragraph` on the line after) at Ezra 4:16→17's real `\b \p \v 17` shape, from `ezra-4-16-17-b-p.usfm`, with `upstreamMatchesRule`/`fixedOutputMatchesRule` comparing `segmentVerses()`'s output against WEBUS2020's own committed content for those two verses, inlined as a literal. The 66-book sweep and its nine named edition-drift exceptions are gone; none was safe to freeze into a fixture, Judges 5:11 least of all — the drift it names is still moving
   - `chapterBoundaryUpstreamConvention.test.ts` — Psalm 33:22→34:1 from `psalm-33-22-34-1-textless-footnote-node.usfm`, the one named exception where a textless footnote-anchored node reads as a heading to `upstreamMatchesRule`'s heuristic and so reports a mismatch, while `segmentVerses()` itself still produces the right paragraph start. The bare-`\qN` case it also used to count is already covered in detail by `segmentVerses.test.ts`
@@ -172,7 +177,7 @@
 
 ### Web Reader Domain
 
-- **Existing tests** – `web/public/js/__tests__/footnoteText.test.ts` (10 tests) for `getFootnoteText()`; none yet for React components or the HTTP server
+- **Existing tests** – `web/public/js/__tests__/footnoteText.test.ts`  for `getFootnoteText()`; none yet for React components or the HTTP server
 - **Covered scenarios:**
   - Plain string passthrough
   - `{bibleLink}` falls back to the raw reference when no display override is set; a `content` override is preferred over the raw link when present
@@ -246,7 +251,7 @@ npx ts-node utils/convertToSmallCaps.ts WEBUS2020 PSA
 npx ts-node utils/sortBibleKeys.ts WEBUS2020
 ```
 
-There is no standalone audit or fixer CLI for cross-chapter links, `bibleLink` targets, or Strong's-node placement. `crossChapterLinks.ts` and `auditNodes.ts`, and every node-placement fixer under `utils/` and `functions/`, are library modules with no `main()` — `npm run validate` above is the only way any of that logic runs. See [validation.md](../4-domains/validation.md#one-entry-point).
+There is no standalone audit or fixer CLI for cross-chapter links, `bibleLink` targets, or Strong's-node placement. `crossChapterLinks.ts` and `auditNodes.ts`, and every node-placement fixer under `utils/` and `functions/`, are library modules with no `main()` — `npm run validate` above is the only way any of that logic runs. See [validation.md](4-domains/validation.md#one-entry-point).
 
 ### Run Tests
 
@@ -344,7 +349,7 @@ Everything here runs against synthetic version directories in `os.tmpdir()`, rea
 
 **Relevant tests:** `npx vitest --run utils/__tests__/auditNodes.test.ts`
 
-**Test coverage includes:** see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for the full rule set. `auditNodes.ts` itself has no `--fix` path — it's read-only detection across every finding. `isClean()` and `printFindingLines()` are exported alongside the audit functions specifically so `validate.ts` can reuse them rather than re-deriving the same clean/dirty check and report formatting. Several checks each have a separate fixer file that imports this file's own eligibility functions rather than re-deriving them (the script-run check's fixer runs that dependency in the other direction — see [strongs-node-audit.md](../4-domains/strongs-node-audit.md) for why); changing an eligibility function here should trigger a re-run of that check's own fixer suite too — see the Node-Placement Auto-Fix Domain above for which suite that is.
+**Test coverage includes:** see [strongs-node-audit.md](4-domains/strongs-node-audit.md) for the full rule set. `auditNodes.ts` itself has no `--fix` path — it's read-only detection across every finding. `isClean()` and `printFindingLines()` are exported alongside the audit functions specifically so `validate.ts` can reuse them rather than re-deriving the same clean/dirty check and report formatting. Several checks each have a separate fixer file that imports this file's own eligibility functions rather than re-deriving them (the script-run check's fixer runs that dependency in the other direction — see [strongs-node-audit.md](4-domains/strongs-node-audit.md) for why); changing an eligibility function here should trigger a re-run of that check's own fixer suite too — see the Node-Placement Auto-Fix Domain above for which suite that is.
 
 ### When Modifying Footnote Text Extraction (footnoteText.js)
 
@@ -385,6 +390,15 @@ Fraction normalization is shared with `validate.ts` via `functions/normalizeFrac
 
 - Manual testing in browser
 - Check console for React errors
+
+### When Modifying the Lexical Map
+
+**Relevant validation:**
+
+- None automated. `npm run validate` does not read `lexical-maps/`, so a broken parse code, a colliding placement rule, or a cell out of step with the rule that should produce it all pass silently
+- Correct a wrong index number in the placement rules, then re-derive the cells. A cell edited by hand puts the codex out of step with the index file, and the next derivation reverts it
+- Match the existing sort order when adding a root or a spelling. The Greek files are collator-sorted rather than code-point sorted, so a re-sort under the documented target rewrites every letter file
+- Changing a rule changes the corpus. Any edition refined from the map has to be re-derived and re-exported, and `exports/text-vbv-strongs/` carries the numbers verbatim
 
 ## Test Data Strategy
 

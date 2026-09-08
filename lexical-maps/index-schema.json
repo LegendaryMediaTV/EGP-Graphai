@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/LegendaryMediaTV/EGP-Graphai/lexical-maps/index-schema.json",
+  "title": "EGP Graphai • Lexical Map Index Crosswalk",
+  "description": "Cell-level entries of one external index (Strong's, for instance) placed onto paradigm cells. A corpus tags at the lexical level; an index may go finer. Each rule names a root and either the parse codes a cell must carry or the single spelling it must have, and every cell that matches takes the rule's number in place of the corpus's.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["_id", "language", "rules"],
+  "properties": {
+    "_id": {
+      "type": "string",
+      "description": "The index this file places, matching its key under `indices` in the codex (`strongs`)."
+    },
+    "language": {
+      "type": "string",
+      "description": "The language registry this belongs to."
+    },
+    "description": { "type": "string" },
+    "rules": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/rule" },
+      "description": "Placement rules. Two rules must not both match one cell; the validator checks that."
+    },
+    "unplaced": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["n"],
+        "properties": {
+          "n": {
+            "type": "string",
+            "description": "An index entry that has no cell here, with the reason."
+          },
+          "reason": { "type": "string" }
+        }
+      },
+      "description": "Index entries that could not be placed: the word does not occur in the corpus, or the split is by sense rather than by parse."
+    }
+  },
+  "$defs": {
+    "rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["n", "root"],
+      "anyOf": [{ "required": ["requires"] }, { "required": ["spelling"] }],
+      "properties": {
+        "n": {
+          "type": "string",
+          "pattern": "^[GH][0-9]{1,4}$",
+          "description": "The index entry being placed."
+        },
+        "root": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The root whose cells this rule applies to. Must exist in the codex (checked outside this schema)."
+        },
+        "requires": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "Parse codes a cell must all carry to match. Each must resolve in the language registry (checked outside this schema)."
+        },
+        "spelling": {
+          "type": "string",
+          "minLength": 1,
+          "description": "A single spelling the cell must have, for rules narrower than a parse class."
+        }
+      }
+    }
+  }
+}

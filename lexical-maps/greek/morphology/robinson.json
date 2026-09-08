@@ -1,0 +1,202 @@
+{
+  "_id": "robinson",
+  "name": "Robinson's Morphological Analysis Codes",
+  "language": "greek",
+  "description": "Positional grammar and token map for reading a Robinson code into a parse. A code is a head, then one hyphen-joined group per slot position, then zero or more trailing qualifiers. Each slot position lists the readings allowed there, tried in order.",
+  "delimiter": "-",
+  "heads": {
+    "N": {
+      "pos": "noun",
+      "slots": [["caseNumberGender", "declinability"]]
+    },
+    "V": {
+      "pos": "verb",
+      "slots": [["tenseVoiceMood"], ["agreement"]]
+    },
+    "T": {
+      "pos": "art",
+      "slots": [["caseNumberGender"]]
+    },
+    "A": {
+      "pos": "adj",
+      "slots": [["caseNumberGender", "declinability"]]
+    },
+    "ADV": {
+      "pos": "adv",
+      "slots": []
+    },
+    "PREP": {
+      "pos": "prep",
+      "slots": []
+    },
+    "CONJ": {
+      "pos": "conj",
+      "slots": []
+    },
+    "PRT": {
+      "pos": "prt",
+      "slots": []
+    },
+    "COND": {
+      "pos": "cond",
+      "slots": []
+    },
+    "INJ": {
+      "pos": "inj",
+      "slots": []
+    },
+    "P": {
+      "pos": "pron-pers",
+      "slots": [["personCaseNumber", "caseNumberGender"]]
+    },
+    "D": {
+      "pos": "pron-dem",
+      "slots": [["caseNumberGender"]]
+    },
+    "R": {
+      "pos": "pron-rel",
+      "slots": [["caseNumberGender"]]
+    },
+    "I": {
+      "pos": "pron-int",
+      "slots": [["caseNumberGender"]]
+    },
+    "X": {
+      "pos": "pron-indef",
+      "slots": [["caseNumberGender"]]
+    },
+    "F": {
+      "pos": "pron-refl",
+      "slots": [["personCaseNumberGender"]]
+    },
+    "S": {
+      "pos": "pron-poss",
+      "slots": [["possessorCaseNumberGender"]]
+    },
+    "C": {
+      "pos": "pron-recip",
+      "slots": [["caseNumberGender"]]
+    },
+    "K": {
+      "pos": "pron-corr",
+      "slots": [["caseNumberGender"]]
+    },
+    "Q": {
+      "pos": "pron-corr-int",
+      "slots": [["caseNumberGender"]]
+    },
+    "ARAM": {
+      "pos": "aramaic",
+      "slots": []
+    },
+    "HEB": {
+      "pos": "hebrew",
+      "slots": []
+    }
+  },
+  "slots": {
+    "tenseVoiceMood": {
+      "prefix": {
+        "2": "second"
+      },
+      "fields": ["tense", "voice", "mood"]
+    },
+    "agreement": {
+      "description": "Person and number for a finite verb, case, number and gender for a participle. Length tells them apart.",
+      "variants": [
+        {
+          "length": 2,
+          "fields": ["person", "number"]
+        },
+        {
+          "length": 3,
+          "fields": ["case", "number", "gender"]
+        }
+      ]
+    },
+    "caseNumberGender": {
+      "fields": ["case", "number", "gender"]
+    },
+    "personCaseNumber": {
+      "description": "First and second person pronouns state person and carry no gender. Third person uses caseNumberGender instead.",
+      "guard": "first character is a person digit",
+      "fields": ["person", "case", "number"]
+    },
+    "personCaseNumberGender": {
+      "fields": ["person", "case", "number", "gender"]
+    },
+    "possessorCaseNumberGender": {
+      "fields": ["person", "possessorNumber", "case", "number", "gender"]
+    },
+    "declinability": {
+      "whole": true,
+      "category": "declinability"
+    }
+  },
+  "qualifiers": {
+    "C": "comp",
+    "S": "super",
+    "N": "neg",
+    "I": "interr",
+    "K": "crasis",
+    "ATT": "attic"
+  },
+  "tokens": {
+    "tense": {
+      "P": "pres",
+      "I": "impf",
+      "F": "fut",
+      "A": "aor",
+      "R": "perf",
+      "L": "plup"
+    },
+    "voice": {
+      "A": "act",
+      "M": "mid",
+      "P": "pas",
+      "E": "midpas",
+      "D": "mid-dep",
+      "O": "pas-dep",
+      "N": "midpas-dep"
+    },
+    "mood": {
+      "I": "ind",
+      "M": "imp",
+      "N": "inf",
+      "O": "opt",
+      "P": "ptc",
+      "S": "subj"
+    },
+    "person": {
+      "1": "pers-1",
+      "2": "pers-2",
+      "3": "pers-3"
+    },
+    "number": {
+      "S": "sg",
+      "P": "pl"
+    },
+    "possessorNumber": {
+      "S": "poss-sg",
+      "P": "poss-pl"
+    },
+    "case": {
+      "N": "nom",
+      "G": "gen",
+      "D": "dat",
+      "A": "acc",
+      "V": "voc"
+    },
+    "gender": {
+      "M": "masc",
+      "F": "fem",
+      "N": "neut"
+    },
+    "declinability": {
+      "PRI": "indecl-proper",
+      "NUI": "indecl-numeral",
+      "LI": "indecl-letter",
+      "OI": "indecl-other"
+    }
+  }
+}

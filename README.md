@@ -20,6 +20,15 @@ EGP Graphai establishes a free, open JSON schema for Bible resources that priori
 - **Bible Versions Schema** - Registry of Bible versions with metadata, licensing, and per-version book ordering
 - **Bible Verses Schema** - Structured verse content with lexical annotations
 - **Book Metadata Schema** - Canonical book information and alternate names
+- **Lexical Map Schemas** - Per-language registry, morphology code systems, the codex of roots and inflected forms, and index crosswalks
+
+### Lexical Map
+
+A per-language paradigm chart, keyed by the dictionary root rather than by a concordance number. Each attested spelling carries its parse as category-tagged codes, so a Strong's number becomes a value on a parse instead of the primary key. That is what lets one word hold several numbers and one number cover several words without either fact breaking the other.
+
+Because the parse is where the number lives, an edition tagged only at the lexical level can be refined against the map: every form of εἰμί arriving as G1510 resolves to the finer number Strong's actually assigns that form. The map also carries academic transliteration for every spelling, and a lexicon organized by headword joins it with no number-to-number crosswalk at all.
+
+See [lexical-map.md](./_specs/documentation/EGP-Graphai/lexical-map.md) for the format and its rationale.
 
 ### Rich Content Structure
 
@@ -111,6 +120,12 @@ npm run dev
  content-schema.json    # Recursive content schema (root for all verse content)
  exports/               # Generated output files
  functions/             # Reusable functionality
+ lexical-maps/          # Roots, inflected forms, parses, and index crosswalks
+    {language}/
+        _language.json # Inflection categories, codes, letters, transliteration
+        {letter}.json  # Roots and their attested forms, one file per letter
+        indices/       # Cell-level placements for one external index
+        morphology/    # Positional grammar for one morph code system
  types/                 # TypeScript type definitions
  utils/                 # CLI utilities and validation
  web/                   # Graphai Reader web application
@@ -121,7 +136,7 @@ npm run dev
 
 For deeper architectural and domain detail, see:
 
-- [Supplemental developer docs](./_specs/documentation/EGP-Graphai/README.md); content model, data pipeline, USFM import, web reader
+- [Supplemental developer docs](./_specs/documentation/EGP-Graphai/README.md); content model, lexical map, data pipeline, USFM import, web reader
 - [AI context references](./_specs/ai-context/); domain documents and style guides for AI agents
 
 ## JSON Format Examples
