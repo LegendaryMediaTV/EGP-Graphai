@@ -114,9 +114,8 @@
         "morph": "V-FDI-3S"
       },
       { "text": " μεθ’", "script": "G", "strong": "G3326", "morph": "PREP" },
+      " ",
       {
-        "text": " ἡμῶν",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -129,10 +128,9 @@
             { "abbr": "SCR" },
             { "text": " ὑμῶν", "script": "G" }
           ]
-        },
-        "strong": "G2257",
-        "morph": "P-1GP"
+        }
       },
+      { "text": "ἡμῶν", "script": "G", "strong": "G2257", "morph": "P-1GP" },
       { "text": " χάρις,", "script": "G", "strong": "G5485", "morph": "N-NSF" },
       { "text": " ἔλεος,", "script": "G", "strong": "G1656", "morph": "N-NSN" },
       { "text": " εἰρήνη", "script": "G", "strong": "G1515", "morph": "N-NSF" },
@@ -146,9 +144,8 @@
       },
       { "text": " καὶ", "script": "G", "strong": "G2532", "morph": "CONJ" },
       { "text": " παρὰ", "script": "G", "strong": "G3844", "morph": "PREP" },
+      " ",
       {
-        "text": " κυρίου",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -158,10 +155,9 @@
             " ",
             { "abbr": "OM" }
           ]
-        },
-        "strong": "G2962",
-        "morph": "N-GSM"
+        }
       },
+      { "text": "κυρίου", "script": "G", "strong": "G2962", "morph": "N-GSM" },
       { "text": " Ἰησοῦ", "script": "G", "strong": "G2424", "morph": "N-GSM" },
       {
         "text": " χριστοῦ",
@@ -262,9 +258,8 @@
         "strong": "G1785",
         "morph": "N-ASF"
       },
+      " ",
       {
-        "text": " γράφων",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -280,7 +275,11 @@
             { "abbr": "ST" },
             { "text": " γράφω σοι καινήν", "script": "G" }
           ]
-        },
+        }
+      },
+      {
+        "text": "γράφων",
+        "script": "G",
         "strong": "G1125",
         "morph": "V-PAP-NSM"
       },
@@ -291,9 +290,8 @@
         "strong": "G2537",
         "morph": "A-ASF"
       },
+      " ",
       {
-        "text": " ἀλλὰ",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -306,14 +304,12 @@
             { "abbr": "PCK" },
             { "text": " ἀλλ", "script": "G" }
           ]
-        },
-        "strong": "G235",
-        "morph": "CONJ"
+        }
       },
+      { "text": "ἀλλὰ", "script": "G", "strong": "G235", "morph": "CONJ" },
       { "text": " ἣν", "script": "G", "strong": "G3739", "morph": "R-ASF" },
+      " ",
       {
-        "text": " εἴχομεν",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -325,7 +321,11 @@
             { "abbr": "WH" },
             { "text": " εἴχαμεν", "script": "G" }
           ]
-        },
+        }
+      },
+      {
+        "text": "εἴχομεν",
+        "script": "G",
         "strong": "G2192",
         "morph": "V-IAI-1P"
       },
@@ -378,9 +378,8 @@
       },
       { "text": " αὐτοῦ.", "script": "G", "strong": "G846", "morph": "P-GSM" },
       { "text": " Αὕτη", "script": "G", "strong": "G3778", "morph": "D-NSF" },
+      " ",
       {
-        "text": " ἐστὶν",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -389,7 +388,11 @@
             { "abbr": "CT" },
             { "text": " ἡ ἐντολή ἐστιν", "script": "G" }
           ]
-        },
+        }
+      },
+      {
+        "text": "ἐστὶν",
+        "script": "G",
         "strong": "G2076",
         "morph": "V-PAI-3S"
       },
@@ -428,9 +431,8 @@
       { "text": "Ὅτι", "script": "G", "strong": "G3754", "morph": "CONJ" },
       { "text": " πολλοὶ", "script": "G", "strong": "G4183", "morph": "A-NPM" },
       { "text": " πλάνοι", "script": "G", "strong": "G4108", "morph": "A-NPM" },
+      " ",
       {
-        "text": " εἰσῆλθον",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -448,7 +450,11 @@
             { "abbr": "WH" },
             { "text": " ἐξῆλθαν", "script": "G" }
           ]
-        },
+        }
+      },
+      {
+        "text": "εἰσῆλθον",
+        "script": "G",
         "strong": "G1525",
         "morph": "V-2AAI-3P"
       },
@@ -521,9 +527,8 @@
       },
       { "text": " ἵνα", "script": "G", "strong": "G2443", "morph": "CONJ" },
       { "text": " μὴ", "script": "G", "strong": "G3361", "morph": "PRT-N" },
+      " ",
       {
-        "text": " ἀπολέσωμεν",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -532,14 +537,17 @@
             { "abbr": "CT" },
             { "text": " ἀπολέσητε", "script": "G" }
           ]
-        },
+        }
+      },
+      {
+        "text": "ἀπολέσωμεν",
+        "script": "G",
         "strong": "G622",
         "morph": "V-AAS-1P"
       },
       { "text": " ἃ", "script": "G", "strong": "G3739", "morph": "R-APN" },
+      " ",
       {
-        "text": " εἰργασάμεθα,",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -551,16 +559,19 @@
             { "abbr": "TH" },
             { "text": " εἰργάσασθε", "script": "G" }
           ]
-        },
+        }
+      },
+      {
+        "text": "εἰργασάμεθα,",
+        "script": "G",
         "strong": "G2038",
         "morph": "V-ADI-1P"
       },
       { "text": " ἀλλὰ", "script": "G", "strong": "G235", "morph": "CONJ" },
       { "text": " μισθὸν", "script": "G", "strong": "G3408", "morph": "N-ASM" },
       { "text": " πλήρη", "script": "G", "strong": "G4134", "morph": "A-ASM" },
+      " ",
       {
-        "text": " ἀπολάβωμεν.",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -569,7 +580,11 @@
             { "abbr": "CT" },
             { "text": " ἀπολάβητε", "script": "G" }
           ]
-        },
+        }
+      },
+      {
+        "text": "ἀπολάβωμεν.",
+        "script": "G",
         "strong": "G618",
         "morph": "V-2AAS-1P"
       }
@@ -582,9 +597,8 @@
     "content": [
       { "text": "Πᾶς", "script": "G", "strong": "G3956", "morph": "A-NSM" },
       { "text": " ὁ", "script": "G", "strong": "G3588", "morph": "T-NSM" },
+      " ",
       {
-        "text": " παραβαίνων",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -593,7 +607,11 @@
             { "abbr": "CT" },
             { "text": " προάγων", "script": "G" }
           ]
-        },
+        }
+      },
+      {
+        "text": "παραβαίνων",
+        "script": "G",
         "strong": "G3845",
         "morph": "V-PAP-NSM"
       },
@@ -623,9 +641,8 @@
         "strong": "G2192",
         "morph": "V-PAI-3S"
       },
+      " ",
       {
-        "text": " ὁ",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -634,10 +651,9 @@
             { "abbr": "PCK" },
             { "text": " ὁ δὲ", "script": "G" }
           ]
-        },
-        "strong": "G3588",
-        "morph": "T-NSM"
+        }
       },
+      { "text": "ὁ", "script": "G", "strong": "G3588", "morph": "T-NSM" },
       {
         "text": " μένων",
         "script": "G",
@@ -647,9 +663,8 @@
       { "text": " ἐν", "script": "G", "strong": "G1722", "morph": "PREP" },
       { "text": " τῇ", "script": "G", "strong": "G3588", "morph": "T-DSF" },
       { "text": " διδαχῇ", "script": "G", "strong": "G1322", "morph": "N-DSF" },
+      " ",
       {
-        "text": " τοῦ",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -659,10 +674,9 @@
             " ",
             { "abbr": "OM" }
           ]
-        },
-        "strong": "G3588",
-        "morph": "T-GSM"
+        }
       },
+      { "text": "τοῦ", "script": "G", "strong": "G3588", "morph": "T-GSM" },
       {
         "text": " χριστοῦ,",
         "script": "G",
@@ -672,9 +686,8 @@
       { "text": " οὗτος", "script": "G", "strong": "G3778", "morph": "D-NSM" },
       { "text": " καὶ", "script": "G", "strong": "G2532", "morph": "CONJ" },
       { "text": " τὸν", "script": "G", "strong": "G3588", "morph": "T-ASM" },
+      " ",
       {
-        "text": " πατέρα",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -687,10 +700,9 @@
             { "abbr": "ECM-SPLIT" },
             { "text": " υἱὸν καὶ τὸν πατέρα", "script": "G" }
           ]
-        },
-        "strong": "G3962",
-        "morph": "N-ASM"
+        }
       },
+      { "text": "πατέρα", "script": "G", "strong": "G3962", "morph": "N-ASM" },
       { "text": " καὶ", "script": "G", "strong": "G2532", "morph": "CONJ" },
       { "text": " τὸν", "script": "G", "strong": "G3588", "morph": "T-ASM" },
       { "text": " υἱὸν", "script": "G", "strong": "G5207", "morph": "N-ASM" },
@@ -771,9 +783,8 @@
     "verse": 11,
     "content": [
       { "text": "ὁ", "script": "G", "strong": "G3588", "morph": "T-NSM" },
+      " ",
       {
-        "text": " γὰρ",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -782,19 +793,17 @@
             { "abbr": "CT" },
             { "text": " λέγων γὰρ", "script": "G" }
           ]
-        },
-        "strong": "G1063",
-        "morph": "CONJ"
+        }
       },
+      { "text": "γὰρ", "script": "G", "strong": "G1063", "morph": "CONJ" },
       {
         "text": " λέγων",
         "script": "G",
         "strong": "G3004",
         "morph": "V-PAP-NSM"
       },
+      " ",
       {
-        "text": " αὐτῷ",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -803,10 +812,9 @@
             { "abbr": "PT" },
             "]"
           ]
-        },
-        "strong": "G846",
-        "morph": "P-DSM"
+        }
       },
+      { "text": "αὐτῷ", "script": "G", "strong": "G846", "morph": "P-DSM" },
       {
         "text": " χαίρειν",
         "script": "G",
@@ -857,9 +865,8 @@
         "morph": "V-PAN"
       },
       { "text": " οὐκ", "script": "G", "strong": "G3756", "morph": "PRT-N" },
+      " ",
       {
-        "text": " ἐβουλήθην",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -870,7 +877,11 @@
             { "abbr": "TR" },
             { "text": " ἠβουλήθην", "script": "G" }
           ]
-        },
+        }
+      },
+      {
+        "text": "ἐβουλήθην",
+        "script": "G",
         "strong": "G1014",
         "morph": "V-AOI-1S"
       },
@@ -883,9 +894,8 @@
         "strong": "G3188",
         "morph": "A-GSN"
       },
+      " ",
       {
-        "text": " ἀλλὰ",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -898,19 +908,17 @@
             { "abbr": "PCK" },
             { "text": " ἀλλ", "script": "G" }
           ]
-        },
-        "strong": "G235",
-        "morph": "CONJ"
+        }
       },
+      { "text": "ἀλλὰ", "script": "G", "strong": "G235", "morph": "CONJ" },
       {
         "text": " ἐλπίζω",
         "script": "G",
         "strong": "G1679",
         "morph": "V-PAI-1S"
       },
+      " ",
       {
-        "text": " ἐλθεῖν",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -919,10 +927,9 @@
             { "abbr": "CT" },
             { "text": " γενέσθαι", "script": "G" }
           ]
-        },
-        "strong": "G2064",
-        "morph": "V-2AAN"
+        }
       },
+      { "text": "ἐλθεῖν", "script": "G", "strong": "G2064", "morph": "V-2AAN" },
       { "text": " πρὸς", "script": "G", "strong": "G4314", "morph": "PREP" },
       { "text": " ὑμᾶς,", "script": "G", "strong": "G5209", "morph": "P-2AP" },
       { "text": " καὶ", "script": "G", "strong": "G2532", "morph": "CONJ" },
@@ -938,9 +945,8 @@
       { "text": " ἵνα", "script": "G", "strong": "G2443", "morph": "CONJ" },
       { "text": " ἡ", "script": "G", "strong": "G3588", "morph": "T-NSF" },
       { "text": " χαρὰ", "script": "G", "strong": "G5479", "morph": "N-NSF" },
+      " ",
       {
-        "text": " ἡμῶν",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -961,10 +967,9 @@
             { "abbr": "WH" },
             { "text": " ὑμῶν πεπληρωμένη ᾖ", "script": "G" }
           ]
-        },
-        "strong": "G2257",
-        "morph": "P-1GP"
+        }
       },
+      { "text": "ἡμῶν", "script": "G", "strong": "G2257", "morph": "P-1GP" },
       { "text": " ᾖ", "script": "G", "strong": "G5600", "morph": "V-PAS-3S" },
       {
         "text": " πεπληρωμένη.",
@@ -998,9 +1003,8 @@
         "strong": "G1588",
         "morph": "A-GSF"
       },
+      " ",
       {
-        "text": " Ἀμήν.",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -1010,10 +1014,9 @@
             " ",
             { "abbr": "OM" }
           ]
-        },
-        "strong": "G281",
-        "morph": "HEB"
-      }
+        }
+      },
+      { "text": "Ἀμήν.", "script": "G", "strong": "G281", "morph": "HEB" }
     ]
   }
 ]
