@@ -99,9 +99,9 @@ describe("classifyBibleLink — target shape", () => {
     expect(classifyBibleLink(FAKE_A, "Revelation 4–20").shape).toBe("crossChapterRange");
   });
 
-  // The real ESV2025 LUK 20:37 shape (`Exodus 3–4:17`, displayed
+  // The real LUK 20:37 shape (`Exodus 3–4:17`, displayed
   // `Ex. 3:1–4:17`): the left endpoint names only a chapter, the right one
-  // names a verse. Six ESV2025 targets carry it.
+  // names a verse. Six real targets carry it.
   it("should classify a chapter-to-verse range as crossChapterRange, with no verse on the left endpoint", () => {
     const result = classifyBibleLink(FAKE_A, "Exodus 3–4:17");
     expect(result.shape).toBe("crossChapterRange");
@@ -299,7 +299,7 @@ describe("splitCrossChapterLink — whole-chapter ranges (pure function only —
 });
 
 describe("splitCrossChapterLink — a chapter-to-verse range (pure function only — must not write to disk)", () => {
-  // The real ESV2025 LUK 20:37 node, on this fixture's own Exodus.
+  // The real LUK 20:37 node, on this fixture's own Exodus.
   const link = { bibleLink: "Exodus 3–4:17", content: "Ex. 3:1–4:17" };
 
   it("should leave Part A a bare chapter even though Part B carries a verse", () => {

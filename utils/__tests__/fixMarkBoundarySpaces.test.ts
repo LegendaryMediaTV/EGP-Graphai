@@ -127,13 +127,13 @@ describe("mergeMarkBoundarySpacesInContent", () => {
     ]);
   });
 
-  it("should absorb both of a shared node's own stranded spaces onto that node itself, one on each edge, when it's the smaller side of a subset pair with both neighbors — real CSB2017 Matthew 15:4 shape once fixFootnoteMarkerSpacing.ts's own chain fix has already run", () => {
+  it("should absorb both of a shared node's own stranded spaces onto that node itself, one on each edge, when it's the smaller side of a subset pair with both neighbors — real Matthew 15:4 shape once fixFootnoteMarkerSpacing.ts's own chain fix has already run", () => {
     const content = [
       { text: "Honor your father and your mother;", marks: ["b", "woc"] },
       " ",
       { text: "and,", marks: ["woc"] },
       " ",
-      { text: "Whoever speaks evil of father or mother must be put to death.", marks: ["b", "woc"] },
+      { text: "Anyone who curses a parent is to be put to death.", marks: ["b", "woc"] },
     ];
 
     const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
@@ -142,7 +142,7 @@ describe("mergeMarkBoundarySpacesInContent", () => {
     expect(result).toEqual([
       { text: "Honor your father and your mother;", marks: ["b", "woc"] },
       { text: " and, ", marks: ["woc"] },
-      { text: "Whoever speaks evil of father or mother must be put to death.", marks: ["b", "woc"] },
+      { text: "Anyone who curses a parent is to be put to death.", marks: ["b", "woc"] },
     ]);
   });
 

@@ -23,7 +23,7 @@ describe("isAcrosticLetterName", () => {
     }
   });
 
-  it("should recognize the canonical 22 as this repo's own already-shipped tagged data spells them (bible-versions/NKJV1982/19-PSA.json), which KAPF alone used to stand in for", () => {
+  it("should recognize the canonical 22 as this repo's own already-shipped tagged data spells them, which KAPF alone used to stand in for", () => {
     for (const name of [
       "ALEPH", "BETH", "GIMEL", "DALETH", "HE", "WAW", "ZAYIN", "HETH", "TETH", "YOD",
       "KAPH", "LAMED", "MEM", "NUN", "SAMEK", "AYIN", "PE", "TSADDE", "QOPH", "RESH",
@@ -49,7 +49,7 @@ describe("isAcrosticLetterName", () => {
     expect(isAcrosticLetterName("qoph")).toBe(true);
   });
 
-  it("should ignore display punctuation a source prints around the name, as ASV1901's trailing period and NET2019's parentheses both do", () => {
+  it("should ignore display punctuation a source prints around the name, as ASV1901's trailing period and another edition's parentheses both do", () => {
     expect(isAcrosticLetterName("ALEPH.")).toBe(true);
     expect(isAcrosticLetterName("(Alef)")).toBe(true);
   });
@@ -86,7 +86,7 @@ describe("isAcrosticGlyphHeading", () => {
     expect(isAcrosticGlyphHeading([{ text: "ALEPH" }])).toBe(true);
   });
 
-  it("should accept a shin written as U+FB2A, the presentation form CSB2017's own shipped acrostic headings use, with no dependence on splitScriptRuns' Hebrew range covering it", () => {
+  it("should accept a shin written as U+FB2A, the presentation form one edition's own shipped acrostic headings use, with no dependence on splitScriptRuns' Hebrew range covering it", () => {
     expect(isAcrosticGlyphHeading([{ text: "שׁ Shin" }])).toBe(true);
   });
 

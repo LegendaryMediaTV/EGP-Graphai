@@ -50,10 +50,10 @@ import { Token } from "./tokenize";
  * lookup {@link isAcrosticLetterName} does.
  *
  * The canonical 22 are read from this repo's own already-shipped tagged
- * acrostic data (`bible-versions/NKJV1982/19-PSA.json`) rather than typed
- * out from memory; every variant beside them is attested in another
- * shipped version's own acrostic headings (named per group) or is a
- * standard transliteration of the same letter. The breadth is deliberate:
+ * acrostic data rather than typed out from memory; every variant beside
+ * them is attested in some shipped version's own acrostic headings (named
+ * per group where that version ships here) or is a standard
+ * transliteration of the same letter. The breadth is deliberate:
  * the question asked here is "is this text nothing but a letter name," and
  * a source spelling Ṣade "Tsade" means the same construct WEB spells
  * "TZADHE".
@@ -63,41 +63,42 @@ import { Token } from "./tokenize";
  * classifies — the standard spellings sit beside them.
  */
 const ACROSTIC_LETTER_NAMES = new Set([
-  "ALEPH", "ALEF", // NET2019: "Alef"
+  "ALEPH", "ALEF", // one edition: "Alef"
   "BETH", "BET", // KJV1769: "Bet"
   "GIMEL",
-  "DALETH", "DALET", "DELETH", // KJV1769/NET2019: "Dalet"; CLV1880: "deleth"
+  "DALETH", "DALET", "DELETH", // KJV1769: "Dalet"; CLV1880: "deleth"
   "HE",
-  "WAW", "VAV", // WEBUS2020/ASV1901/LSB2021/NASB1995: "VAV"
+  "WAW", "VAV", // WEBUS2020/ASV1901: "VAV"
   "ZAYIN", "ZAIN", "ZAI", // KJV1769/YLT1898: "Zain"; CLV1880: "zai"
-  "HETH", "HET", "CHETH", "KHET", "HHETH", // KJV1769: "Het"; CSB2017/YLT1898: "Cheth"; NET2019: "Khet"; ASV1901: "HHETH"
-  "TETH", "TET", // KJV1769/NET2019: "Tet"
-  "YOD", "YODH", "IOTH", // WEBUS2020/ESV2025/LSB2021: "YODH"; CLV1880: "ioth"
-  "KAPH", "KAF", "CAPH", "CAF", "KAPF", // NET2019: "Kaf"; CLV1880: "caf"; WEBUS2020: "KAPF"
-  "LAMED", "LAMEDH", // WEBUS2020/ESV2025/LSB2021: "LAMEDH"
+  "HETH", "HET", "CHETH", "KHET", "HHETH", // KJV1769: "Het"; YLT1898: "Cheth"; ASV1901: "HHETH"; another edition: "Khet"
+  "TETH", "TET", // KJV1769: "Tet"
+  "YOD", "YODH", "IOTH", // WEBUS2020: "YODH"; CLV1880: "ioth"
+  "KAPH", "KAF", "CAPH", "CAF", "KAPF", // CLV1880: "caf"; WEBUS2020: "KAPF"; another edition: "Kaf"
+  "LAMED", "LAMEDH", // WEBUS2020: "LAMEDH"
   "MEM", "ME", // CLV1880: "me"
   "NUN",
-  "SAMEK", "SAMEKH", "SAMECH", // WEBUS2020/LSB2021: "SAMEKH"; CLV1880/YLT1898: "Samech"
+  "SAMEK", "SAMEKH", "SAMECH", // WEBUS2020: "SAMEKH"; CLV1880/YLT1898: "Samech"
   "AYIN", "AIN", // KJV1769/CLV1880: "Ain"
   "PE", "FE", // CLV1880: "fe"
-  // CSB2017/NET2019: "Tsade"; MSB2025: "TZADE"; WEBUS2020: "TZADHE"; KJV1769: "Zade"; CLV1880: "sade"
+  // MSB2025: "TZADE"; WEBUS2020: "TZADHE"; KJV1769: "Zade"; CLV1880: "sade"; two other editions: "Tsade"
   "TSADDE", "TSADHE", "TSADE", "TSADI", "TZADE", "TZADHE", "TZADI", "SADHE", "SADE", "ZADE",
-  "QOPH", "QOF", "KOPH", "COF", // NET2019: "Qof"; MSB2025/YLT1898: "KOPH"; CLV1880: "cof"
+  "QOPH", "QOF", "KOPH", "COF", // MSB2025/YLT1898: "KOPH"; CLV1880: "cof"; another edition: "Qof"
   "RESH", "RES", // CLV1880: "res"
   "SIN", "SHIN", "SEN", // CLV1880: "sen"; the combined "SIN AND SHIN" form is LETTER_NAME_JOINERS' job, never an entry here
-  "TAU", "TAV", "TAW", "THAV", "THAU", // WEBUS2020/ASV1901: "TAV"; ESV2025/NIV1984: "Taw"; CLV1880: "thau"
+  "TAU", "TAV", "TAW", "THAV", "THAU", // WEBUS2020/ASV1901: "TAV"; CLV1880: "thau"; two other editions: "Taw"
 ]);
 
 /**
  * How a source joins two letter names into one combined acrostic stanza
- * heading — "SIN AND SHIN" (WEBUS2020), "SIN and SHIN" (MSB2025),
- * "Sin/Shin" (NET2019), "Sin – Shin" and "He – Vav" (LSB2021). Splitting
- * on the joiner and requiring *every* part to be a letter name covers all
- * five with one rule, rather than a table entry per joiner style per pair.
+ * heading — "SIN AND SHIN" (WEBUS2020), "SIN and SHIN" (MSB2025), and
+ * "Sin/Shin", "Sin – Shin" and "He – Vav" in two further editions.
+ * Splitting on the joiner and requiring *every* part to be a letter name
+ * covers all five with one rule, rather than a table entry per joiner style
+ * per pair.
  */
 const LETTER_NAME_JOINERS = /\s+(?:AND|&)\s+|\s*[/\-–—]\s*/;
 
-/** Punctuation a source prints around a letter name that is display convention rather than part of the name — ASV1901's own trailing period (`\qc א ALEPH.`) and NET2019's own parentheses ("(Alef)"). */
+/** Punctuation a source prints around a letter name that is display convention rather than part of the name — ASV1901's own trailing period (`\qc א ALEPH.`) and another edition's own parentheses ("(Alef)"). */
 const LETTER_NAME_PUNCTUATION = /^[\s.,;:()[\]"'“”‘’]+|[\s.,;:()[\]"'“”‘’]+$/g;
 
 /**
@@ -248,7 +249,7 @@ export function buildSuperscriptionContent(
  * whitespace" rather than by naming Hebrew's own codepoint ranges, so no
  * range table has to be right for this classifier to be. A list of blocks can
  * be short by one — `usfm/splitScriptRuns.ts`'s Hebrew range really was,
- * missing the presentation-form shin CSB2017 ships, until that block was
+ * missing the presentation-form shin one edition ships, until that block was
  * added — and needs extending again for every script a future source prints
  * ahead of a letter name. The complement of Latin already covers Greek and
  * Syriac too. Missing a glyph here would demote a real letter heading to a

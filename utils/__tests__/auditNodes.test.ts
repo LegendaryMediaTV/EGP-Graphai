@@ -234,6 +234,50 @@ describe("findStrongsNodeIssues — leading punctuation", () => {
       foot: { type: "trn", content: "x" },
     });
   });
+
+  it("should flag a footnoted punctuation node stranded beside the Strong's word it belongs to", () => {
+    const content: Content = [
+      { text: " replied", strong: "G3004" },
+      { text: ",", foot: { type: "trn", content: "Grk “said.”" } },
+    ];
+    const findings = findStrongsNodeIssues(content).leadingPunctuation;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].leading).toBe(",");
+    expect(findings[0].attachTo).toEqual({ text: " replied", strong: "G3004" });
+  });
+
+  it("should flag a line-ending punctuation node carrying only a break", () => {
+    const content: Content = [
+      { text: " in his own image", strong: "H6754" },
+      { text: ",", break: true },
+    ];
+    const findings = findStrongsNodeIssues(content).leadingPunctuation;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].leading).toBe(",");
+    expect(findings[0].attachTo).toEqual({
+      text: " in his own image",
+      strong: "H6754",
+    });
+  });
+
+  it("should not fire on an apostrophe inside a word split across two nodes", () => {
+    const content: Content = [
+      { text: " him, ‘I", strong: "H595" },
+      { text: "’m", foot: { type: "var", content: "x" } },
+    ];
+    expect(findStrongsNodeIssues(content).leadingPunctuation).toEqual([]);
+  });
+
+  it("should leave an untagged, footless, breakless punctuation node to the unmerged-connector check rather than reporting the same node twice", () => {
+    const content: Content = [
+      { text: " word", strong: "H1" },
+      { text: "," },
+      { text: " more", strong: "H2" },
+    ];
+    const findings = findStrongsNodeIssues(content);
+    expect(findings.leadingPunctuation).toEqual([]);
+    expect(findings.unmergedPairs).toHaveLength(1);
+  });
 });
 
 describe("findFirstRenderedIndex", () => {
@@ -1005,7 +1049,7 @@ describe("findHeadingParagraphMismatches", () => {
             text: "In the ",
             foot: { type: "xrf", content: "x" },
           },
-          "beginning, God created the heavens and the earth.",
+          "beginning God created the heavens and the earth.",
         ] as unknown as Content,
       },
     ];

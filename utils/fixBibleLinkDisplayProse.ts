@@ -21,8 +21,9 @@
  * question — "which part of this display text is the reference?" — has no
  * safe mechanical answer over this corpus, because a version's own citation
  * style is not prose about the reference but the reference as that version
- * writes it: YLT's "v. 1–17" targets Matthew 1:1–17, ESV's "Ps. 46, title"
- * targets Psalm 46:1, and NET's "49:1–9a" targets Isaiah 49:1–9. Every one
+ * writes it: YLT's "v. 1–17" targets Matthew 1:1–17, a second edition's
+ * "Ps. 46, title" targets Psalm 46:1, and a third's "49:1–9a" targets
+ * Isaiah 49:1–9. Every one
  * of those looks like a reference with something extra stuck to it and is in
  * fact the whole reference, so a grammar confident enough to trim them would
  * be wrong far more often than this table can be. A corpus-wide sweep of
@@ -51,7 +52,7 @@ import Content, { ContentAbbreviation, ContentBibleLink } from "../types/Content
  * - `"end of "` — ASV Romans 16:25's "Compare the end of chapter 14", where
  *   "chapter 14" is the reference and "end of" is the sentence around it.
  * - a bare `"("` — a parenthesized citation whose open paren was swallowed
- *   into the link while its closing partner stayed in the prose (AMP1987
+ *   into the link while its closing partner stayed in the prose (a real
  *   2 Samuel 12:11's "(13:28, 29").
  */
 const LEADING_PROSE: readonly RegExp[] = [/^(?:See|Compare) /, /^end of /, /^\(/];
@@ -60,10 +61,10 @@ const LEADING_PROSE: readonly RegExp[] = [/^(?:See|Compare) /, /^end of /, /^\(/
  * Prose written after a reference, to print after the link instead of inside
  * it.
  *
- * - `" above"` — ESV's locator for a verse earlier in the same chapter
+ * - `" above"` — one edition's locator for a verse earlier in the same chapter
  *   ("22 above", Genesis 5:24). "22" is the reference; "above" says where to
  *   look for it on the page.
- * - `" (Gk.)"`/`" (Heb.)"` — ESV's note that the reference follows the Greek
+ * - `" (Gk.)"`/`" (Heb.)"` — the same edition's note that the reference follows the Greek
  *   or Hebrew verse numbering rather than the English. No digits follow, so
  *   this can never be a second reference being clipped; `Heb.` here is the
  *   language, not the book.
@@ -180,7 +181,7 @@ function isBibleLink(node: unknown): node is ContentBibleLink {
  * then-prose runs {@link splitLink} describes, concatenating each piece of
  * prose onto a neighboring string item rather than pushing a second one
  * beside it — the same reason `usfm/references.ts`'s own `pushText` does, and
- * exactly what the AMP1987 shape needs: the open paren rejoins the sentence
+ * exactly what that swallowed-paren shape needs: the open paren rejoins the sentence
  * it was taken from ("…by his brother Absalom " + "(") instead of sitting
  * beside it as its own node.
  */

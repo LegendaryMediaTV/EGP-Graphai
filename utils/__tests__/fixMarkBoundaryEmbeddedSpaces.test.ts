@@ -28,7 +28,7 @@ describe("relocateMarkBoundarySpacesInContent", () => {
     ]);
   });
 
-  it("should extract a leading space into its own standalone node when the predecessor carries foot, instead of manufacturing trailing whitespace under an already-correctly-placed marker (CSB2017 1 Chronicles 17:17's own real shape)", () => {
+  it("should extract a leading space into its own standalone node when the predecessor carries foot, instead of manufacturing trailing whitespace under an already-correctly-placed marker (a real 1 Chronicles 17:17 shape)", () => {
     // A footed predecessor's own text already ends flush against its own
     // last real character ("distinction,") with the marker already hugging
     // it correctly. Relocating the small-caps node's own leading space onto

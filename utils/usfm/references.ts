@@ -337,8 +337,8 @@ function wouldStealBookOrdinal(text: string): boolean {
  * continuous span rather than a list, and `utils/crossChapterLinks.ts` exists to
  * split exactly that target. Measured over all 322,565 footnote bodies on disk,
  * 27 links take the comma-list shape — 13 in MSB2025, 13 continental-style
- * bibliographic citations in NET2019 (`Gen 3, 16`), and AMP1987's `I Sam. 21,
- * 22` — every one a chapter list, none a verse list.
+ * bibliographic citations in another edition (`Gen 3, 16`), and one `I Sam.
+ * 21, 22` — every one a chapter list, none a verse list.
  *
  * @returns `undefined` when `rest` does not carry the mandatory head, which the
  *   caller treats as declining the candidate entirely.
@@ -751,7 +751,7 @@ const LEADING_CONTINUATION_CONNECTOR = /^(?:;\s?|\s+and\s+)/;
  * number from reading as a citation. The paren it fires against is the *trigger*
  * only, not part of what gets linked — the match starts just past it, leaving
  * the paren to the surrounding prose that carries its closing partner. A real
- * AMP1987 2 Samuel 12:11 footnote shows what the alternative looked like: one
+ * 2 Samuel 12:11 footnote shows what the alternative looked like: one
  * bare citation in the sentence with the paren outside its link and the next
  * with it inside, purely because an earlier pass had already linked the first.
  *

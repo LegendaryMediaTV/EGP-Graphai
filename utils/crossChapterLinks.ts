@@ -99,7 +99,7 @@ function parseEndpoint(text: string): ParsedEndpoint | null {
  * reads its own endpoint's answer rather than a per-shape formula (see
  * {@link splitCrossChapterLink}). All four combinations are the same shape:
  * `"2 Kings 6:31–7:20"` (both ends), `"Romans 1–11"` (neither),
- * `"Exodus 3–4:17"` (the right one only, six real ESV2025 targets), and
+ * `"Exodus 3–4:17"` (the right one only, six real targets), and
  * `"Exodus 3:2–Exodus 4"` (the left one only). An endpoint pair naming the
  * same chapter twice is `singleChapter` instead, however it was spelled.
  *
@@ -692,7 +692,7 @@ function walkContent(
  * Reports the targets it could **not** read at all in the same sweep, for the
  * same reason it reports `scanned`: a coverage statement that counts only
  * what the grammar understood is not a coverage statement. When that category
- * was silent, 31 defective ESV2025 targets sat behind three separate clean
+ * was silent, 31 defective targets sat behind three separate clean
  * bills of health.
  *
  * @param versionId - A `bible-versions/` directory name, e.g. `"WEBUS2020"`.

@@ -84,7 +84,7 @@ describe("reorderFootnotePunctuationInContent", () => {
     expect(result).toEqual(content);
   });
 
-  it("should extract a footed node's own foot onto a new node after a pure-punctuation sibling that disagrees in formatting (real CSB2017 John 7:36/8:22/16:17 shape)", () => {
+  it("should extract a footed node's own foot onto a new node after a pure-punctuation sibling that disagrees in formatting (real John 7:36/8:22/16:17 shape)", () => {
     // A footed, italic-marked node immediately followed by bare, unmarked
     // punctuation — the same marks mismatch the fixer's own top doc comment
     // names as a real corpus shape it must not guess across by merging. But
