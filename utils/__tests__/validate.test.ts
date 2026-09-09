@@ -838,6 +838,27 @@ describe("findResidualContentChanges — the idempotence guard's own per-verse r
       "equivalent sibling merge",
     ]);
   });
+
+  // A real corpus shape: the comma sits outside the Strong's span it
+  // belongs to and the footnote anchors to the comma. Naming exactly one
+  // residual step proves the reattach runs and that nothing downstream of it
+  // in the chain then rewrites what it produced.
+  it("should name the leading-punctuation reattach, and nothing after it, for a footnoted comma stranded beside its Strong's word", () => {
+    const verse: VerseRecord = {
+      book: "LUK",
+      chapter: 11,
+      verse: 46,
+      content: [
+        { text: " replied", strong: "G3004" },
+        { text: ",", foot: { type: "trn", content: "Grk “said.”" } },
+      ] as unknown as Content,
+    };
+    // Any version id does here: it only reaches the link-resolving steps,
+    // and this verse carries no links for them to resolve.
+    expect(findResidualContentChanges("YLT1898", verse)).toEqual([
+      "leading-punctuation reattach",
+    ]);
+  });
 });
 
 // A version's declared chapter count must match the chapters its own verse

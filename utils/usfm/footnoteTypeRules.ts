@@ -492,7 +492,7 @@ const SIGLA_SYMBOLS = /ℵ/u;
  * costs the MSB a single body.
  *
  * `NA`, `NE`, and `TH` name editions another apparatus cites *with its own
- * printing number* — NET2019 writes `NA²⁸` 145 times, in notes about where that
+ * printing number* — one edition writes `NA²⁸` 145 times, in notes about where that
  * edition sets a verse division or brackets a word, which are remarks about an
  * edition rather than claims about this verse's text. The same two letters also
  * stand where a book abbreviation would (`NE 4:6` for Nehemiah). One guard
@@ -500,7 +500,7 @@ const SIGLA_SYMBOLS = /ℵ/u;
  * printing of it and never a chapter and verse.
  *
  * `SBL` abbreviates both the SBL Greek New Testament and the society that
- * publishes *SBL Seminar Papers*, and 5 real NET2019 notes cite that journal in
+ * publishes *SBL Seminar Papers*, and 5 real notes in one edition cite that journal in
  * a bibliography. An edition's siglum stands alone or immediately before the
  * reading it carries, while a publication's name continues into the rest of its
  * title, so a following two-word Title Case phrase is the guard. It admits every
@@ -609,8 +609,8 @@ const ANOTHER_READING = /\banother reading\b/i;
 /**
  * `"Some read, our"` — a witness claim with the witness noun left out, since
  * "some read" can only mean "some *manuscripts* read." KJV1769 writes 24 of its
- * variants this way, CSB2017 and NLT2015 several hundred more. `"Some emend to
- * X"` is the same elliptical shape with a different verb — CSB2017's real "Some
+ * variants this way, and two other editions several hundred more. `"Some emend
+ * to X"` is the same elliptical shape with a different verb — a real "Some
  * emend to king" (2 Kings 6:33) and eight more like it.
  *
  * Anchored to the body's own start on purpose. As a whole note the construct is
@@ -784,8 +784,8 @@ function namesAWitness(body: string): boolean {
  * The whole-body idiom asserting a verse's content was originally numbered
  * differently — `"Originally verse 20:29."`, always this exact shape. It is
  * overwhelmingly CLV1880's versification apparatus (2,938 of the corpus's 2,944
- * real bodies), but the identical wording turns up verbatim in 5 GNB1992
- * footnotes and 1 NLT1996 — all long-recognized spots where editions' verse
+ * real bodies), but the identical wording turns up verbatim in 6 footnotes
+ * across two other editions — all long-recognized spots where editions' verse
  * numbering genuinely diverges, not a coincidental phrase collision. It
  * therefore fires wherever the phrasing appears rather than being scoped to one
  * edition.

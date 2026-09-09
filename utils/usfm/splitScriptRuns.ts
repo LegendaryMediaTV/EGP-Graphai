@@ -77,8 +77,8 @@ function rangeClass(pairs: ReadonlyArray<readonly [string, string]>): string {
  * Hebrew: accents/points/diacritics (U+0591-U+05C7), the base-letter block
  * (U+05D0-U+05EA), and Alphabetic Presentation Forms (U+FB1D-U+FB4F) —
  * precomposed letter+point glyphs, indistinguishable on screen from their
- * two-codepoint base-block spellings, which CSB2017's own shipped acrostic
- * headings really use (shin U+FB2A, sin U+FB2B).
+ * two-codepoint base-block spellings, which one edition's own shipped
+ * acrostic headings really use (shin U+FB2A, sin U+FB2B).
  *
  * Greek: Combining Diacritical Marks (U+0300-U+036F, a bare accent arriving
  * decomposed), Greek and Coptic (U+0370-U+03FF, base letters and

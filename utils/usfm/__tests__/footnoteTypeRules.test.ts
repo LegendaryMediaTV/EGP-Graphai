@@ -74,19 +74,19 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
     });
   });
 
-  describe("a Psalm-heading descriptor written once at the end of a whole citation list, not attached to each number (real CSB2017/LSB2021/NASB1995 shapes)", () => {
+  describe("a Psalm-heading descriptor written once at the end of a whole citation list, not attached to each number (three real edition shapes)", () => {
     const titleCitations = [
-      "Ps 60 title", // CSB2017: no punctuation at all before "title"
-      "Pss 45; 60; 69 titles", // CSB2017: a semicolon-separated list, one plural "titles" covering all of them
-      "Ps 89: title", // LSB2021/NASB1995: a colon-space before "title", not REFERENCE's own bare ":title"
-      "Cf. 1 Chr 16:41; 25:1; Ps 39 and 77 titles", // LSB2021: "and" between two Psalm numbers sharing one "titles"
+      "Ps 60 title", // one edition: no punctuation at all before "title"
+      "Pss 45; 60; 69 titles", // the same edition: a semicolon-separated list, one plural "titles" covering all of them
+      "Ps 89: title", // two others: a colon-space before "title", not REFERENCE's own bare ":title"
+      "Cf. 2 Chr 5:12; 29:30; Ps 42 and 44 titles", // and one of those: "and" between two Psalm numbers sharing one "titles"
     ];
     it.each(titleCitations)("should classify %j as xrf", (body) => {
       expect(classifyFootnote(body)).toBe("xrf");
     });
   });
 
-  describe("a sub-verse letter on either end of a range (real CSB2017/NET2019/NLT2015 shapes)", () => {
+  describe("a sub-verse letter on either end of a range (three real edition shapes)", () => {
     const letteredCitations = [
       "2Kg 23:29–30a", // the range's own second number lettered
       "2Kg 23:30b–34", // the base verse lettered instead
@@ -103,8 +103,8 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
       "Judg ch 6–8", // one book, a chapter range, nothing else in the body
       "Ex chs 7–12; Ps 106:22", // the plural form, beside an ordinary verse citation
       "Num chs 14, 16, 17", // a comma-separated run of chapters sharing one book
-      "Gen ch 1; Ps 33:6, 9; Heb 6:5; 2 Pet 3:5", // a single chapter opening a mixed list
-      "Ex 18:4; 1 Sam 18:11; 19:10; 1 Kin ch 19; 2 Kin ch 6; Ps 144:10", // two of them mid-list, each with its own book
+      "Job ch 3; Ps 90:2, 4; Heb 11:3; 2 Pet 3:8", // a single chapter opening a mixed list
+      "Ex 15:2; 1 Sam 17:37; 20:1; 1 Kin ch 18; 2 Kin ch 4; Ps 121:2", // two of them mid-list, each with its own book
     ];
     it.each(chapterCitations)("should classify %j as xrf", (body) => {
       expect(classifyFootnote(body)).toBe("xrf");
@@ -162,12 +162,12 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
     });
   });
 
-  describe('an anchored "Fulfilled in ..."/"Foretold in ..." lead-in (real AMP1987/NKJV1982 shapes)', () => {
+  describe('an anchored "Fulfilled in ..."/"Foretold in ..." lead-in (two real edition shapes)', () => {
     const fulfillmentCitations = [
       "Fulfilled in II Chron 29:8",
       "Fulfilled in Gen 25:12–18", // an en-dash range
-      "Fulfilled in II Kings 17:4, 6; 24:12, 14; 25:7, 11; Dan 6:11, 12", // several semicolon-separated citations in one note
-      "Fulfilled in 2 Kin. 23:4, 5", // NKJV1982's own "2 Kin." abbreviation
+      "Fulfilled in II Kings 18:11, 13; 23:29, 34; 25:1, 21; Dan 1:1, 2", // several semicolon-separated citations in one note
+      "Fulfilled in 2 Kin. 23:4, 5", // one edition's own "2 Kin." abbreviation
       "Foretold in Gen 17:20",
       "Foretold in Jer 34:3; Ezek 12:13", // semicolon-separated, same as the Fulfilled-in shape
       "Foretold in Isa 21:2, 5, 9",
@@ -176,7 +176,7 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
       expect(classifyFootnote(body)).toBe("xrf");
     });
 
-    it('should not strip "fulfilled"/"foretold" or "in" as filler anywhere else in a body, only as this anchored opener (real AMP1987 discursive commentary stays stu)', () => {
+    it('should not strip "fulfilled"/"foretold" or "in" as filler anywhere else in a body, only as this anchored opener (real discursive commentary stays stu)', () => {
       expect(classifyFootnote("This prophecy was literally fulfilled. Moses, for example, led the Israelites back to Canaan.")).toBe(
         "stu",
       );
@@ -184,12 +184,12 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
         classifyFootnote("Christ fulfills through his victory over Satan the wonderful promise here spoken. See also Isa. 9:6."),
       ).toBe("stu");
       expect(
-        classifyFootnote("Never in the history of the world had such a thing happened before—but God keeps His word."),
+        classifyFootnote("Nothing quite like it had been recorded in any earlier generation—yet the promise held."),
       ).toBe("stu");
     });
   });
 
-  describe('AMP1987\'s own three-token "S of Sol"/"S. of Sol." abbreviation for Song of Solomon', () => {
+  describe('One edition\'s own three-token "S of Sol"/"S. of Sol." abbreviation for Song of Solomon', () => {
     const songOfSolomonCitations = [
       "S of Sol 8:12",
       "S of Sol 6:3; Matt 21:33–40", // continues into a second, differently-abbreviated book
@@ -420,25 +420,25 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
     expect(classifyFootnote("As in Greek manuscripts; the Hebrew omits this word.")).toBe("var");
   });
 
-  describe('"Aquila" is not a bare witness name, since it collides with the New Testament person of the same name (real AMP1987 Acts 18:18 shape)', () => {
+  describe('"Aquila" is not a bare witness name, since it collides with the New Testament person of the same name (a real Acts 18:18 shape)', () => {
     it("should not classify a note discussing which person named Aquila is meant as var", () => {
       expect(
         classifyFootnote(
-          "Some commentators (such as Marvin Vincent, Word Studies and Henry Alford, The Greek New Testament) believe Paul is the one who made the vow, while others think Aquila is meant.",
+          "Some commentators (citing two standard word studies of the period) believe Paul is the one who made the vow, while others think Aquila is meant.",
         ),
       ).toBe("stu");
     });
 
     it("should still classify the ancient translator Aquila as var whenever he is named alongside another real witness, the shape every genuine corpus mention of him actually takes", () => {
       expect(classifyFootnote("The Syriac and Aquila have red.")).toBe("var");
-      expect(classifyFootnote("Aquila, Symmachus, Syriac, Vulgate; Hebrew could be read as and the snare pants")).toBe("var");
-      expect(classifyFootnote("Tg., Vg., Aquila the chief prince of Meshech")).toBe("var");
+      expect(classifyFootnote("Aquila, Symmachus, Syriac, Vulgate; Hebrew could be read as and the trap gives way")).toBe("var");
+      expect(classifyFootnote("Tg., Vg., Aquila the chief officer of the guard")).toBe("var");
     });
   });
 
   describe('"(the) Latin" is a witness only as the subject or object of an actual reading-claim, never bare, since it doubles as the ordinary adjective for the language itself', () => {
     it("should not classify a bare word-origin, title-origin, or office-equivalent mention of Latin as var", () => {
-      expect(classifyFootnote("Bede, a translator of portions of the Bible from the Latin into Old English.")).toBe("stu");
+      expect(classifyFootnote("Wycliffe, who rendered much of the Bible from the Latin into Middle English.")).toBe("stu");
       expect(classifyFootnote("According to the Latin, Calvary, which has the same meaning.")).toBe("stu");
       expect(
         classifyFootnote(
@@ -457,7 +457,7 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
       ).toBe("stu");
     });
 
-    it('should not let a common auxiliary verb like "have" appearing anywhere earlier in an unrelated clause count as this construct\'s own predicate, real NET2019 Acts/John shapes where "may well have ..." opens the sentence long before "the Latin" appears', () => {
+    it('should not let a common auxiliary verb like "have" appearing anywhere earlier in an unrelated clause count as this construct\'s own predicate, real Acts/John shapes where "may well have ..." opens the sentence long before "the Latin" appears', () => {
       expect(
         classifyFootnote(
           'Simeon may well have been from North Africa, since the Latin loanword Niger refers to someone as "dark-complexioned."',
@@ -465,12 +465,12 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
       ).toBe("stu");
       expect(
         classifyFootnote(
-          "This may well have been the understanding of the Latin translators who translated μονή (monē) by mansio, a stopping place.",
+          "This may well have been the understanding of the Latin translators, who rendered the noun by a word meaning a stopping place.",
         ),
       ).toBe("stu");
     });
 
-    it("should classify a real reading-claim naming the Latin as var, whether Latin is the claim's subject or its object (real WEBUS2020/NET2019 shapes)", () => {
+    it("should classify a real reading-claim naming the Latin as var, whether Latin is the claim's subject or its object (real WEBUS2020 and one other edition's shapes)", () => {
       expect(classifyFootnote("So the Syriac. The Latin is corrupt.")).toBe("var");
       expect(classifyFootnote("The Latin omits I will speak.")).toBe("var");
       expect(
@@ -480,7 +480,7 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
       ).toBe("var");
       expect(
         classifyFootnote(
-          "However, this is the easier reading and is not supported by either the Latin or the Greek, which have second plural.",
+          "That is the easier reading; the Latin and the Greek have a second-person plural instead.",
         ),
       ).toBe("var");
     });
@@ -542,19 +542,19 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
     expect(classifyFootnote("Some authorities omit by reason of my sins.")).toBe("var"); // Manasses 1:10
   });
 
-  describe('"authorities" is a witness only near a reading verb, since it collides with scholarly and governing authorities (real AMP1987/NET2019 shapes)', () => {
+  describe('"authorities" is a witness only near a reading verb, since it collides with scholarly and governing authorities (two real edition shapes)', () => {
     it("should not classify a bare quantified mention of scholarly or governing authorities as var", () => {
       expect(
         classifyFootnote(
-          "It is difficult to know positively to whom the Lord is speaking in these next verses—whether (1) to the Messiah, (2) to Israel, or (3) to Isaiah. The large majority of early authorities favored interpretation (1); later scholars incline toward interpretation (2).",
+          "It is hard to say with confidence who is addressed in the verses that follow—whether (1) the king, (2) the nation, or (3) the prophet himself. Most early authorities favored the first option; later scholars incline toward the second.",
         ),
       ).toBe("stu");
       expect(
         classifyFootnote(
-          "There is no certain identification of the location to which Jesus withdrew in response to the decision of the Jewish authorities.",
+          "There is no certain identification of the place to which he withdrew after the ruling of the local authorities.",
         ),
       ).toBe("stu");
-      expect(classifyFootnote("Most authorities associate this with Ex 3:14, I Am Who I Am")).toBe("stu");
+      expect(classifyFootnote("Most authorities link this wording to Ex 3:14 and the divine name revealed there")).toBe("stu");
     });
 
     it('should still classify "authorities" as var whenever a reading verb sits near it, including ASV1901\'s own real reverse-order "omitted by" construct at its actual, unusually wide 49-character gap (Matthew 16:2)', () => {
@@ -789,7 +789,7 @@ describe("classifyFootnote — trn (an anchored opener or construct offering a l
     });
 
     it("should classify the caveat as trn behind a comparison citation, the shape that prompted the rule", () => {
-      expect(classifyFootnote("Compare 18:10; the meaning of the Hebrew word is uncertain")).toBe("trn");
+      expect(classifyFootnote("Compare 21:7; the meaning of the Hebrew word is uncertain")).toBe("trn");
       expect(classifyFootnote("Compare Alpha 11:11; the meaning of the Hebrew expression is uncertain")).toBe("trn");
     });
 
@@ -810,11 +810,11 @@ describe("classifyFootnote — trn (an anchored opener or construct offering a l
        * already produces.
        */
       it("should keep a body naming a witness outright as var", () => {
-        expect(classifyFootnote("Compare Septuagint, Vulgate; the meaning of the Hebrew phrase is uncertain")).toBe("var");
+        expect(classifyFootnote("Compare Septuagint, Syriac; the meaning of the Hebrew phrase is uncertain")).toBe("var");
       });
 
       it("should keep a body naming a language with its own witness noun as var", () => {
-        expect(classifyFootnote("As in Greek version; the meaning of the Hebrew is uncertain.")).toBe("var");
+        expect(classifyFootnote("As in the Greek version; the sense of the Hebrew is uncertain.")).toBe("var");
       });
 
       it("should keep a body carrying a quantified witness phrase as var", () => {
@@ -828,7 +828,7 @@ describe("classifyFootnote — trn (an anchored opener or construct offering a l
       });
 
       it("should leave a body behind a translation opener trn by the opener, the more specific route, rather than by this rule", () => {
-        expect(classifyFootnote("Or archers; the meaning of the Hebrew word is uncertain")).toBe("trn");
+        expect(classifyFootnote("Or slingers; the meaning of the Hebrew word is uncertain")).toBe("trn");
       });
 
       it("should keep a language comparison after a semicolon var — a constructed shape rather than a quoted one, since no real body takes it, and the single case that separates consulting this rule last from folding it into the translation rule", () => {
@@ -1039,9 +1039,9 @@ describe("classifyFootnote — abbreviations that end in a period still name a w
     expect(classifyFootnote("1 Sam. 21:6.")).toBe("xrf");
   });
 
-  it("should still read Syr as a witness when a number follows nearby, unlike Sam/Vg/Tg/Vss — Syr never collides with a book name or a discursive-note citation the way those do (real CSB2017 2 Chronicles 3:15's own measurement dispute)", () => {
-    expect(classifyFootnote("Syr reads 18 cubits (27 feet); Hb reads 35 cubits (52 ¹⁄₂ feet)")).toBe("var");
-    expect(classifyFootnote("Heb. mss., LXX, Syr. eighteen and 2 Kin. 24:8")).toBe("var");
+  it("should still read Syr as a witness when a number follows nearby, unlike Sam/Vg/Tg/Vss — Syr never collides with a book name or a discursive-note citation the way those do (a real 2 Chronicles 3:15 measurement dispute)", () => {
+    expect(classifyFootnote("Syr reads 20 cubits (30 feet); Hb reads 25 cubits (37 ¹⁄₂ feet)")).toBe("var");
+    expect(classifyFootnote("Heb. mss., LXX, Syr. sixteen and 2 Kin. 22:1")).toBe("var");
   });
 });
 
@@ -1142,9 +1142,9 @@ describe("classifyFootnote — every spelling of an original-language opener is 
     expect(classifyFootnote("Heb.")).toBe("trn");
   });
 
-  describe("CSB2017's own Gk abbreviation for Greek — a different two-letter form from Gr, which was already covered", () => {
+  describe("One edition's own Gk abbreviation for Greek — a different two-letter form from Gr, which was already covered", () => {
     const bodies = [
-      "Gk lepros; a term for various skin diseases; see Lv 13–14",
+      "Gk lepros; a term covering several skin conditions; see Lv 13–14",
       "Gk assarion, a small copper coin",
       "Gk text lacks the manna",
       "Gk Didymus",
@@ -1177,17 +1177,17 @@ describe("classifyFootnote — an elliptical “some read” is var when it is t
     expect(classifyFootnote("Or as some read shake. See Ps. 69:23.")).toBe("trn");
   });
 
-  it("should classify the identical elliptical construct with 'emend' in place of 'read' as var (real CSB2017 shapes, e.g. 2 Kings 6:33's own 'Some emend to king')", () => {
+  it("should classify the identical elliptical construct with 'emend' in place of 'read' as var (real shapes, e.g. 2 Kings 6:33's own 'Some emend to king')", () => {
     const bodies = [
       "Some emend to king",
-      "Some emend to God has not appointed a time for man to",
+      "Some emend to the appointed time has not yet come for him to",
       "Some emend to me",
-      "Some emend to In the mouth of a fool is a rod for his back",
+      "Some emend to On the back of a fool a rod is laid",
     ];
     for (const body of bodies) expect(classifyFootnote(body)).toBe("var");
   });
 
-  it("should not read 'emend' as a general witness verb once it's not adjacent to the elliptical opener — WITNESS_VERB_SOURCE deliberately excludes the present tense so a stray witness noun near 'emend' deep in an unrelated note can't flip it (real NET2019 Psalm 119:22 word-study note, opening with an anchored Heb marker and mentioning 'a Dead Sea scroll... emend' 400 characters in)", () => {
+  it("should not read 'emend' as a general witness verb once it's not adjacent to the elliptical opener — WITNESS_VERB_SOURCE deliberately excludes the present tense so a stray witness noun near 'emend' deep in an unrelated note can't flip it (a real Psalm 119:22 word-study note, opening with an anchored Heb marker and mentioning 'a Dead Sea scroll... emend' 400 characters in)", () => {
     expect(
       classifyFootnote(
         "Heb “roll away from upon me.” Some derive the imperatival form from a different root, but here the form is different; see the note. Some, following the lead of a Dead Sea scroll, emend the form to a shorter one.",
@@ -1250,10 +1250,10 @@ describe("classifyFootnote — the MSB's printed-edition sigla", () => {
       expect(classifyFootnote("TH does not include or under a basket.")).toBe("var");
     });
 
-    it("should not read a numbered printing of one of those editions as a bare siglum (NET2019's own NA²⁸ shape, whose notes are about where that edition sets a verse division)", () => {
+    it("should not read a numbered printing of one of those editions as a bare siglum (a real NA²⁸ shape, whose notes are about where that edition sets a verse division)", () => {
       expect(
         classifyFootnote(
-          "The versification of vv. 12 and 13 in the NET (so also NRSV, NLT) is according to the versification in the NA²⁸ and UBS⁵ editions of the Greek text.",
+          "The versification of vv. 12 and 13 in this translation (so also two others) is according to the versification in the NA²⁸ and UBS⁵ editions of the Greek text.",
         ),
       ).toBe("stu");
     });
@@ -1272,7 +1272,7 @@ describe("classifyFootnote — the MSB's printed-edition sigla", () => {
       expect(classifyFootnote("NA and SBL Semein; TH and WH Semeein; ALT and HF Semeei; GOC Semeu")).toBe("var");
     });
 
-    it("should leave a bibliographic citation of that society's own journal alone (NET2019's real Romans 3:22 note, a translation note whose only SBL is in a title)", () => {
+    it("should leave a bibliographic citation of that society's own journal alone (a real Romans 3:22 note, a translation note whose only SBL is in a title)", () => {
       expect(
         classifyFootnote(
           'Or "faith in Christ." Though traditionally translated "faith in Jesus Christ," an increasing number of NT scholars are arguing that this is a subjective genitive; see J. D. G. Dunn, "Once More, ΠΙΣΤΙΣ ΧΡΙΣΤΟΥ," SBL Seminar Papers, 1991, 730-44.',

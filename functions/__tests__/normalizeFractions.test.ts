@@ -57,7 +57,7 @@ describe("normalizeFractionText — the citation guard", () => {
   // comment names — a journal volume/issue pair followed by a parenthesized
   // year — proving the guard rather than reproducing a real corpus instance.
   it("should leave a multi-digit-numerator/parenthesized-year pair untouched, not converted as a fraction", () => {
-    const text = "Journal of Theology 24/25 (1980): 239-42.";
+    const text = "Review of Semitic Studies 24/25 (1980): 239-42.";
     const { value, changes } = normalizeFractionText(text);
 
     expect(value).toBe(text);
@@ -65,11 +65,11 @@ describe("normalizeFractionText — the citation guard", () => {
   });
 
   it("should still convert a genuine single-digit-numerator fraction elsewhere in the same string", () => {
-    const text = "1/2 of a hin, cited in Journal of Theology 24/25 (1980): 239-42.";
+    const text = "1/2 of a hin, cited in Review of Semitic Studies 24/25 (1980): 239-42.";
     const { value, changes } = normalizeFractionText(text);
 
     expect(value).toBe(
-      `${uniformFraction("1", "2")} of a hin, cited in Journal of Theology 24/25 (1980): 239-42.`,
+      `${uniformFraction("1", "2")} of a hin, cited in Review of Semitic Studies 24/25 (1980): 239-42.`,
     );
     expect(changes).toBe(1);
   });

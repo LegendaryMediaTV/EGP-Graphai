@@ -312,7 +312,7 @@ function scanArrayForUnmergedPairs(
 }
 
 // ---------------------------------------------------------------------------
-// The leading-punctuation check — leading punctuation glued to the wrong side of a strong-carrying node
+// The leading-punctuation check — leading punctuation glued to the wrong side of a node that cannot merge forward
 // ---------------------------------------------------------------------------
 
 /**
@@ -330,13 +330,26 @@ function isTightPunctuationChar(ch: string): boolean {
   return !/[\p{L}\p{N}\s\p{Pd}\p{Ps}\p{Pi}]/u.test(ch);
 }
 
-/** Splits `text` at the boundary between its own leading run of {@link isTightPunctuationChar} characters and everything after — `undefined` when `text` does not start with one at all. */
+/**
+ * Splits `text` at the boundary between its own leading run of {@link
+ * isTightPunctuationChar} characters and everything after — `undefined` when
+ * `text` does not start with one at all.
+ *
+ * **A run glued to the front of a word is not a leading run.** One real
+ * corpus shape splits the contraction "I’m" as `" him, ‘I"`/H595 followed by
+ * `{text: "’m", foot}`: that apostrophe is inside a word, not closing a
+ * clause, and every caller here would move it onto the node before — leaving
+ * "I’" tagged as one word and "m" as another. A letter or digit immediately
+ * after the run is the signal; a space, or the end of the string, means the punctuation really
+ * does end what came before it.
+ */
 export function leadingTightPunctuationSplit(
   text: string,
 ): { before: string; after: string } | undefined {
   let i = 0;
   while (i < text.length && isTightPunctuationChar(text[i])) i++;
   if (i === 0) return undefined;
+  if (i < text.length && /[\p{L}\p{N}]/u.test(text[i])) return undefined;
   return { before: text.slice(0, i), after: text.slice(i) };
 }
 
@@ -344,7 +357,7 @@ export function leadingTightPunctuationSplit(
 interface LeadingPunctuationFinding {
   /** The array level this was found in. */
   where: string;
-  /** The `strong`-carrying node whose own text starts with punctuation that does not belong to it. */
+  /** The node whose own text starts with punctuation that does not belong to it. */
   node: unknown;
   /** The leading run of tight-punctuation characters that should have moved. */
   leading: string;
@@ -352,10 +365,34 @@ interface LeadingPunctuationFinding {
   attachTo: unknown;
 }
 
+/** Where one node's own misplaced leading punctuation belongs, and what moving it leaves behind. */
+export interface LeadingPunctuationSplit {
+  /** Index, within the same array level, of the earlier node the punctuation should have been part of. */
+  attachAt: number;
+  /** The leading run of tight-punctuation characters that should move onto `attachAt`. */
+  leading: string;
+  /** What is left of the offending node's own text once `leading` moves off it — `""` when the node is nothing but the misplaced punctuation. */
+  remainder: string;
+}
+
 /**
- * Scan one array level for a `strong`-carrying node whose own `text` starts
- * with tight punctuation that reads as glued to the word before it —
- * illustrative shape: `"Look"`/G2400 + `"! The"`/G3588.
+ * Decide whether the node at `at` starts with tight punctuation that reads as
+ * glued to the word before it, and if so, which earlier node that punctuation
+ * belongs on — illustrative shapes: `"Look"`/G2400 + `"! The"`/G3588, and
+ * `" replied"`/G3004 + `{text: ",", foot}`, where the comma ends up outside
+ * the Strong's span it belongs to and the footnote anchors to the comma
+ * rather than to the word it annotates.
+ *
+ * **The offending node has to be one the unmerged-connector check cannot
+ * sweep up** ({@link isMergeableConnector}) — that is, it carries a `strong`
+ * number, a `foot`, or a `break`. That gate is what keeps the two checks
+ * complementary rather than overlapping: a bare `{text: ","}` between two
+ * tagged words is already a `scanArrayForUnmergedPairs` finding with its own
+ * answer (merge it *forward* into the target that made it stay split), and
+ * reporting it here as well would give one node two contradictory
+ * resolutions. Everything else — anything anchored in place by a suffix it
+ * carries — has no forward merge available, so its leading punctuation is
+ * this check's to report.
  *
  * A finding requires a genuine attachment point immediately before the
  * offending node (see {@link isRealAttachmentPoint}), agreeing in
@@ -371,6 +408,34 @@ interface LeadingPunctuationFinding {
  * name followed by unmarked punctuation correctly stays split rather than
  * take on formatting it doesn't carry.
  */
+export function misplacedLeadingPunctuationAt(
+  shapes: readonly NodeShape[],
+  at: number,
+): LeadingPunctuationSplit | undefined {
+  const shape = shapes[at];
+  if (shape === undefined || shape.text === undefined || shape.text.length === 0) return undefined;
+  if (isMergeableConnector(shape)) return undefined;
+
+  const split = leadingTightPunctuationSplit(shape.text);
+  if (split === undefined) return undefined;
+
+  let attachAt = at - 1;
+  while (attachAt >= 0 && shapes[attachAt].isTextlessStrongSibling) attachAt--;
+  if (attachAt < 0) return undefined;
+
+  const target = shapes[attachAt];
+  if (
+    !isRealAttachmentPoint(target) ||
+    target.endsBreak ||
+    shape.opensParagraph ||
+    !agreesInFormatting(target, shape)
+  )
+    return undefined;
+
+  return { attachAt, leading: split.before, remainder: split.after };
+}
+
+/** Reports every {@link misplacedLeadingPunctuationAt} answer in one array level, in document order. */
 function scanArrayForLeadingPunctuation(
   nodes: readonly unknown[],
   where: string,
@@ -378,36 +443,14 @@ function scanArrayForLeadingPunctuation(
   const shapes = nodes.map(describeNode);
   const findings: LeadingPunctuationFinding[] = [];
 
-  for (let i = 0; i < nodes.length; i++) {
-    const shape = shapes[i];
-    if (
-      shape.strong === undefined ||
-      shape.text === undefined ||
-      shape.text.length === 0
-    )
-      continue;
-
-    const split = leadingTightPunctuationSplit(shape.text);
+  for (let at = 0; at < nodes.length; at++) {
+    const split = misplacedLeadingPunctuationAt(shapes, at);
     if (split === undefined) continue;
-
-    let j = i - 1;
-    while (j >= 0 && shapes[j].isTextlessStrongSibling) j--;
-    if (j < 0) continue;
-
-    const target = shapes[j];
-    if (
-      !isRealAttachmentPoint(target) ||
-      target.endsBreak ||
-      shape.opensParagraph ||
-      !agreesInFormatting(target, shape)
-    )
-      continue;
-
     findings.push({
       where,
-      node: nodes[i],
-      leading: split.before,
-      attachTo: nodes[j],
+      node: nodes[at],
+      leading: split.leading,
+      attachTo: nodes[split.attachAt],
     });
   }
 
@@ -1547,7 +1590,7 @@ export interface EllipsisFinding {
 }
 
 /** One misplaced-leading-punctuation node, with its file/verse identity attached. */
-export interface StrongLeadingPunctuationFinding extends LeadingPunctuationFinding {
+export interface LeadingPunctuationFileFinding extends LeadingPunctuationFinding {
   /** The version id this finding belongs to (e.g. `KJV1769`). */
   version: string;
   /** The verse file this finding belongs to (e.g. `01-GEN.json`). */
@@ -1745,7 +1788,7 @@ export interface VersionAudit {
   /** The trailing-whitespace check's findings, corpus-wide for this version. */
   trailingWhitespace: readonly StrongTrailingWhitespaceFinding[];
   /** The leading-punctuation check's findings, corpus-wide for this version. */
-  leadingPunctuation: readonly StrongLeadingPunctuationFinding[];
+  leadingPunctuation: readonly LeadingPunctuationFileFinding[];
   /** The mark-boundary-space check's findings, corpus-wide for this version. */
   markBoundarySpaces: readonly MarkBoundarySpaceFileFinding[];
   /** The verse-initial-space check's findings, corpus-wide for this version. */
@@ -1784,7 +1827,7 @@ export function auditVersion(version: string): VersionAudit {
   const unmergedPairs: UnmergedStrongPairFinding[] = [];
   const duplicateFootnoteAnchors: DuplicateFootnoteAnchorFileFinding[] = [];
   const trailingWhitespace: StrongTrailingWhitespaceFinding[] = [];
-  const leadingPunctuation: StrongLeadingPunctuationFinding[] = [];
+  const leadingPunctuation: LeadingPunctuationFileFinding[] = [];
   const markBoundarySpaces: MarkBoundarySpaceFileFinding[] = [];
   const verseInitialSpaces: VerseInitialSpaceFileFinding[] = [];
   const headingParagraphMismatches: HeadingParagraphFileFinding[] = [];
@@ -1963,7 +2006,7 @@ export function printFindingLines(summary: VersionAudit, verbose: boolean): void
     );
 
   console.log(
-    `  ${summary.leadingPunctuation.length} strong-carrying node(s) whose own text starts with punctuation glued to the wrong node`,
+    `  ${summary.leadingPunctuation.length} node(s) whose own text starts with punctuation glued to the wrong node`,
   );
   for (const finding of summary.leadingPunctuation.slice(0, cap)) {
     console.log(

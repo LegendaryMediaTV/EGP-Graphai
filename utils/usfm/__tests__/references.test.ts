@@ -578,12 +578,12 @@ describe("linkEmbeddedReferences — a multi-digit verse number is never truncat
  * was tested before.
  */
 describe("linkEmbeddedReferences — a written-out list's own trailing \"and N\" still continues the same reference's verse list", () => {
-  it('should link every verse in a written-out list through its own trailing "and N" item (Genesis 14:2\'s real note, "Chapter 14 alone contains six such explanatory notes (Gen. 14:2, 3, 7, 8, 15, and 17)")', () => {
+  it('should link every verse in a written-out list through its own trailing "and N" item', () => {
     const content = linkEmbeddedReferences(
-      "Chapter 14 alone contains six such explanatory notes (Gen. 14:2, 3, 7, 8, 15, and 17).",
+      "The same chapter carries six of these notes (Gen. 14:2, 3, 7, 8, 15, and 17).",
     );
     expect(content).toEqual([
-      "Chapter 14 alone contains six such explanatory notes (",
+      "The same chapter carries six of these notes (",
       { bibleLink: "Genesis 14:2, 3, 7, 8, 15, 17", content: "Gen. 14:2, 3, 7, 8, 15, and 17" },
       ").",
     ]);
@@ -593,16 +593,16 @@ describe("linkEmbeddedReferences — a written-out list's own trailing \"and N\"
 /**
  * A bare "C:V" reference naming a different chapter of the same book, joined by
  * a semicolon to the reference before it, inherits that reference's book the way
- * an already-isolated `\xt` target's bare continuation does. Genesis 23:19's
- * real note is this shape exactly.
+ * an already-isolated `\xt` target's bare continuation does. A real note in this
+ * corpus is this shape exactly.
  */
 describe('linkEmbeddedReferences — a semicolon-joined bare "C:V" continuation inherits the book of the reference right before it', () => {
-  it('should link "50:13" to Genesis after "Gen. 49:31" (Genesis 23:19\'s real note, "Here were buried Abraham and Sarah, Isaac and Rebekah, and Jacob and Leah (Gen. 49:31; 50:13)")', () => {
+  it('should link "50:13" to Genesis after "Gen. 49:31"', () => {
     const content = linkEmbeddedReferences(
-      "Here were buried Abraham and Sarah, Isaac and Rebekah, and Jacob and Leah (Gen. 49:31; 50:13).",
+      "The burial of the patriarchs is recorded twice (Gen. 49:31; 50:13).",
     );
     expect(content).toEqual([
-      "Here were buried Abraham and Sarah, Isaac and Rebekah, and Jacob and Leah (",
+      "The burial of the patriarchs is recorded twice (",
       { bibleLink: "Genesis 49:31", content: "Gen. 49:31" },
       "; ",
       { bibleLink: "Genesis 50:13", content: "50:13" },
@@ -721,7 +721,7 @@ describe("linkEmbeddedReferences — a book name followed by an open-paren-led c
  *
  * The paren that triggers this branch stays outside the link. It is the note's
  * own punctuation, not part of the citation, and its closing partner is already
- * outside — the AMP1987 shape below is what the alternative produced: the
+ * outside — the swallowed-paren shape below is what the alternative produced: the
  * already-tagged nodes carry a bare "13:14" with the paren in the prose, while
  * the newly-found ones carried "(13:28, 29", the same footnote punctuating two
  * identical citations two different ways.
@@ -730,29 +730,29 @@ describe('linkEmbeddedReferences — a bare parenthetical "(C:V...)" citation el
   it('should inherit the book from an already-tagged bibleLink sibling earlier in the same content array, across intervening prose (2 Samuel 12:11\'s real shape)', () => {
     const content = linkEmbeddedReferences(
       [
-        "Amnon’s scandalous behavior with his half sister Tamar (",
+        "The quarrel between the brothers began early (",
         { bibleLink: "2 Samuel 13:14", content: "13:14" },
-        ") and his consequent murder by his brother Absalom (13:28, 29); Absalom’s escape to a foreign land (",
+        ") and ended in bloodshed two years later (13:28, 29); the exile that followed lasted three years (",
         { bibleLink: "2 Samuel 13:38", content: "13:38" },
-        ") and his return after three years; Absalom without recognition by David for two more years (",
+        ") and the return brought no welcome for two more (",
         { bibleLink: "2 Samuel 14:28", content: "14:28" },
-        "); David’s flight from Jerusalem, with the mass of the people against him (",
+        "); the revolt drove the king out of the city (",
         { bibleLink: "2 Samuel 15:14", content: "15:14" },
-        "), the terrible battle in the forest of Ephraim, won by David’s forces, with Absalom killed in flight (18:6ff.).",
+        "), and the fighting in the forest settled it (18:6ff.).",
       ],
     );
     expect(content).toEqual([
-      "Amnon’s scandalous behavior with his half sister Tamar (",
+      "The quarrel between the brothers began early (",
       { bibleLink: "2 Samuel 13:14", content: "13:14" },
-      ") and his consequent murder by his brother Absalom (",
+      ") and ended in bloodshed two years later (",
       { bibleLink: "2 Samuel 13:28, 29", content: "13:28, 29" },
-      "); Absalom’s escape to a foreign land (",
+      "); the exile that followed lasted three years (",
       { bibleLink: "2 Samuel 13:38", content: "13:38" },
-      ") and his return after three years; Absalom without recognition by David for two more years (",
+      ") and the return brought no welcome for two more (",
       { bibleLink: "2 Samuel 14:28", content: "14:28" },
-      "); David’s flight from Jerusalem, with the mass of the people against him (",
+      "); the revolt drove the king out of the city (",
       { bibleLink: "2 Samuel 15:14", content: "15:14" },
-      "), the terrible battle in the forest of Ephraim, won by David’s forces, with Absalom killed in flight (",
+      "), and the fighting in the forest settled it (",
       { bibleLink: "2 Samuel 18:6", content: "18:6" },
       "ff.).",
     ]);
@@ -760,12 +760,12 @@ describe('linkEmbeddedReferences — a bare parenthetical "(C:V...)" citation el
 
   it("should inherit the book from a reference resolved earlier in the very same string, not just from an already-tagged sibling", () => {
     const content = linkEmbeddedReferences(
-      "He prayed (2 Kings 19:15), and God performed a miracle, one He had foretold (19:20, 32-37).",
+      "He prayed (2 Kings 19:15), and the deliverance came just as the prophet had said (19:20, 32-37).",
     );
     expect(content).toEqual([
       "He prayed (",
       { bibleLink: "2 Kings 19:15" },
-      "), and God performed a miracle, one He had foretold (",
+      "), and the deliverance came just as the prophet had said (",
       { bibleLink: "2 Kings 19:20, 32-37", content: "19:20, 32-37" },
       ").",
     ]);
@@ -808,15 +808,15 @@ describe("linkEmbeddedReferences — a comma list after a chapter-only head is p
     ]);
   });
 
-  it("should link only the first chapter of a continental bibliographic citation (NET2019's Genesis 3:16 note, \"Gen 3, 16\")", () => {
+  it("should link only the first chapter of a continental bibliographic citation (a real Genesis 3:16 note, \"Gen 3, 16\")", () => {
     const content = linkEmbeddedReferences("See the discussion in Gen 3, 16 below.");
     expect(content).toEqual(["See the discussion in ", { bibleLink: "Genesis 3", content: "Gen 3" }, ", 16 below."]);
   });
 
-  it("should still extend a verse-bearing head through its own comma list (Genesis 14:2's real note)", () => {
-    const content = linkEmbeddedReferences("six such explanatory notes (Gen. 14:2, 3, 7, 8, 15, and 17).");
+  it("should still extend a verse-bearing head through its own comma list", () => {
+    const content = linkEmbeddedReferences("six of these notes (Gen. 14:2, 3, 7, 8, 15, and 17).");
     expect(content).toEqual([
-      "six such explanatory notes (",
+      "six of these notes (",
       { bibleLink: "Genesis 14:2, 3, 7, 8, 15, 17", content: "Gen. 14:2, 3, 7, 8, 15, and 17" },
       ").",
     ]);

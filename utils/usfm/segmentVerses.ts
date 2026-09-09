@@ -779,7 +779,7 @@ export function segmentVerses(
         // below, whose own doc comment covers all three steps.
         // A heading's own reference range is encoded as an `xrf` footnote
         // on the heading's text node — the shape already shipped
-        // corpus-wide (NKJV1982 807 of them, MSB2025 1,325, CSB2017 5) —
+        // corpus-wide (MSB2025 1,325 of them, 812 more across two other editions) —
         // reached through the same `attachFootToPieces` + `buildRunNodes`
         // pipeline every other footnote-in-a-run goes through, so `\mr`
         // lands as `{heading: {text, foot}}` rather than as a second shape

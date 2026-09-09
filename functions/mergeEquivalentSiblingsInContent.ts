@@ -41,7 +41,7 @@ import { agreesInFormatting, describeNode, isMergeableTextNode } from "../utils/
  * equivalence between the two. Excludes an *empty* `text: ""`: the schema's
  * equivalence breaks down there — a bare string requires `minLength: 1`
  * while the object form carries no such floor — so normalizing `{text: ""}`
- * would produce an invalid `""` array element (real CSB2017 Matthew 18:16,
+ * would produce an invalid `""` array element (real Matthew 18:16,
  * once `fixFootnoteMarkerSpacing.ts`'s own bug in the "already-settled"
  * guard is fixed, still leaves this shape reachable from elsewhere). Left as
  * `{text: ""}`, `utils/validate.ts`'s own `findMeaninglessContentNodes`

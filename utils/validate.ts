@@ -41,6 +41,7 @@ import {
   VerseRecord,
 } from "./auditNodes";
 import { mergeUnmergedNodesInContent } from "./fixUnmergedNodes";
+import { reattachLeadingPunctuationInContent } from "./fixLeadingPunctuation";
 import { addMissingHeadingParagraphsInVerse } from "./fixHeadingParagraphs";
 import {
   reorderFootnotePunctuationInContent,
@@ -437,6 +438,33 @@ async function mergeUnmergedNodesInFile(filePath: string): Promise<boolean> {
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
     const rewritten = mergeUnmergedNodesInContent(verse.content as Content);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+    return true;
+  }
+  return false;
+}
+
+/**
+ * Moves every misplaced leading punctuation run in one verse file onto the
+ * node it belongs to, writing the file back if anything moved. Calls
+ * `sortVerseKeys` on every changed verse for the same reason {@link
+ * mergeUnmergedNodesInFile} does: emptying a punctuation-only node hands its
+ * `foot` or `break` to the node before it, which may never have carried
+ * either.
+ */
+async function reattachLeadingPunctuationInFile(filePath: string): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = reattachLeadingPunctuationInContent(verse.content as Content);
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return sortVerseKeys({ ...verse, content: rewritten.content });
@@ -857,6 +885,7 @@ export function findResidualContentChanges(
   applyStep("dialytika repair", (c) => normalizeDiacriticsInContent(c));
   applyStep("script-run tagging", (c) => tagScriptRunsInContent(c));
   applyStep("unmerged-node merge", (c) => mergeUnmergedNodesInContent(c));
+  applyStep("leading-punctuation reattach", (c) => reattachLeadingPunctuationInContent(c));
   applyStep("footnote punctuation reorder", (c) => reorderFootnotePunctuationInContent(c));
   applyStep("mark-boundary space relocation", (c) => relocateMarkBoundarySpacesInContent(c));
   applyStep("footnote-marker spacing relocation", (c) => relocateFootnoteMarkerSpacesInContent(c));
@@ -1725,6 +1754,26 @@ async function main(requestedVersion?: string) {
     console.log(`\n✅ Merged unmerged node pairs in ${unmergedNodesFixedCount} file(s)\n`);
   } else {
     console.log("✅ No unmerged node pairs found\n");
+  }
+
+  console.log("📎 Reattaching misplaced leading punctuation...\n");
+
+  let leadingPunctuationFixedCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasFixed = await reattachLeadingPunctuationInFile(file);
+      if (wasFixed) {
+        leadingPunctuationFixedCount++;
+        console.log(`  🔄 Reattached leading punctuation: ${file}`);
+      }
+    }
+  }
+
+  if (leadingPunctuationFixedCount > 0) {
+    console.log(`\n✅ Reattached leading punctuation in ${leadingPunctuationFixedCount} file(s)\n`);
+  } else {
+    console.log("✅ No misplaced leading punctuation found\n");
   }
 
   console.log("🔀 Reordering footnote punctuation...\n");

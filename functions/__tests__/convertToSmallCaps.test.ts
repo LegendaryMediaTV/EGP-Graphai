@@ -379,7 +379,7 @@ describe("convertContentToSmallCaps", () => {
           content: [
             "The ",
             { text: "Lord", marks: ["sc"] },
-            " sent word through Nathan the prophet to name the baby Jedidiah,",
+            " sent word through the prophet, giving the child a second name,",
           ],
         },
         " because the ",
@@ -402,7 +402,7 @@ describe("convertContentToSmallCaps", () => {
           content: [
             "The ",
             { text: "Lord", marks: ["sc"] },
-            " sent word through Nathan the prophet to name the baby Jedidiah,",
+            " sent word through the prophet, giving the child a second name,",
           ],
         },
         " because the ",

@@ -30,7 +30,7 @@
  *   refuses the whole merge and reports the finding as skipped instead, via
  *   its own {@link SkipReason}.
  * - **Extract** (formatting disagrees, sibling is pure punctuation): moving
- *   the punctuation is off the table (real CSB2017 John 7:36, 8:22, 16:17:
+ *   the punctuation is off the table (real John 7:36, 8:22, 16:17 shapes:
  *   a `marks: ["woc"]` quotation's own footnote, followed by the
  *   narrator's unmarked closing `"?”"` — absorbing that into the quotation
  *   would misattribute the narrator's own punctuation as part of what was
@@ -141,7 +141,7 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
     if (!agreesInFormatting(shape, next)) {
       if (split.after === "") {
         // The sibling is nothing but punctuation that disagrees in
-        // `marks`/`script` with the footed node — real CSB2017 John 7:36,
+        // `marks`/`script` with the footed node — real John 7:36,
         // 8:22, 16:17: a `marks: ["woc"]` quotation followed by the
         // narrator's own unmarked closing `"?”"`. Absorbing that
         // punctuation into the footed node (this function's only other

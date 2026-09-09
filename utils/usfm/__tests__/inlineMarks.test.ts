@@ -9,7 +9,7 @@ import { buildRunNodes, collapseContentNodes, mergeConnectors, moveTrailingPunct
  * these tests don't need a real USFM fixture to be meaningful. Some cases
  * below (the mark-mismatch split, the textless-sibling stop) never occur
  * in the WEBUS2020 corpus, but are general rules established from other
- * sources (KJV1769, NASB1995) that this module must hold to regardless.
+ * sources (KJV1769 among them) that this module must hold to regardless.
  * `buildRunNodes` is then tested against pieces shaped the way
  * `segmentVerses.ts` actually produces them, closing the loop.
  */

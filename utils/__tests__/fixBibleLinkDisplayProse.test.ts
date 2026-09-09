@@ -45,17 +45,17 @@ describe("hoistBibleLinkDisplayProseInContent — a lead-in word ahead of a refe
     });
   });
 
-  it("should rejoin a swallowed open paren to the sentence it was taken from, so the two halves of the pair sit on the same side of the link (AMP1987 2 Samuel 12:11)", () => {
+  it("should rejoin a swallowed open paren to the sentence it was taken from, so the two halves of the pair sit on the same side of the link (a real 2 Samuel 12:11 shape)", () => {
     const result = hoistBibleLinkDisplayProseInContent([
-      "his consequent murder by his brother Absalom ",
+      "and ended in bloodshed two years later ",
       { bibleLink: "2 Samuel 13:28, 29", content: "(13:28, 29" },
-      "); Absalom’s escape",
+      "); the exile that followed",
     ]);
     expect(result).toEqual({
       content: [
-        "his consequent murder by his brother Absalom (",
+        "and ended in bloodshed two years later (",
         { bibleLink: "2 Samuel 13:28, 29", content: "13:28, 29" },
-        "); Absalom’s escape",
+        "); the exile that followed",
       ],
       changed: true,
     });
@@ -63,12 +63,12 @@ describe("hoistBibleLinkDisplayProseInContent — a lead-in word ahead of a refe
 });
 
 describe("hoistBibleLinkDisplayProseInContent — a locator or edition note after a reference", () => {
-  it('should move ESV\'s " above" out, leaving the verse number as the linked text (ESV2025 Genesis 5:24, "22 above")', () => {
+  it('should move a trailing " above" out, leaving the verse number as the linked text (a real Genesis 5:24, "22 above")', () => {
     const result = hoistBibleLinkDisplayProseInContent({ bibleLink: "Genesis 5:22", content: "22 above" });
     expect(result).toEqual({ content: [{ bibleLink: "Genesis 5:22", content: "22" }, " above"], changed: true });
   });
 
-  it('should move a parenthesized language note out, "Heb." here being the language and not the book (ESV2025 Genesis 31:53, "Neh. 5:5 (Heb.)")', () => {
+  it('should move a parenthesized language note out, "Heb." here being the language and not the book (a real Genesis 31:53, "Neh. 5:5 (Heb.)")', () => {
     const result = hoistBibleLinkDisplayProseInContent({ bibleLink: "Nehemiah 5:5", content: "Neh. 5:5 (Heb.)" });
     expect(result).toEqual({
       content: [{ bibleLink: "Nehemiah 5:5", content: "Neh. 5:5" }, " (Heb.)"],
@@ -115,7 +115,7 @@ describe("hoistBibleLinkDisplayProseInContent — a version's own citation style
     expect(hoistBibleLinkDisplayProseInContent(content)).toEqual({ content, changed: false });
   });
 
-  it("should leave a Psalm superscription's own \"title\" specifier alone (ESV2025 Psalm 46, CSB2017 Psalm 60, LSB2021 Psalm 59)", () => {
+  it("should leave a Psalm superscription's own \"title\" specifier alone (real Psalm 46, 60 and 59 shapes)", () => {
     for (const content of [
       { bibleLink: "Psalm 46:1", content: "Ps. 46, title" },
       { bibleLink: "Psalm 60:1", content: "Ps 60 title" },
@@ -125,7 +125,7 @@ describe("hoistBibleLinkDisplayProseInContent — a version's own citation style
     }
   });
 
-  it('should leave a verse-part letter or "ff" suffix in the display, where it belongs (NET2019 Isaiah 49:1, LSB2021 Leviticus 14:2)', () => {
+  it('should leave a verse-part letter or "ff" suffix in the display, where it belongs (real Isaiah 49:1 and Leviticus 14:2 shapes)', () => {
     for (const content of [
       { bibleLink: "Isaiah 49:1–9", content: "49:1–9a" },
       { bibleLink: "Leviticus 14:2–57", content: "14:2ff" },
