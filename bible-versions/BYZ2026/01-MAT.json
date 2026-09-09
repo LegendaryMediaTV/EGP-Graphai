@@ -56239,16 +56239,25 @@
         "foot": {
           "type": "var",
           "content": [
-            {
-              "text": "Some comparison editions swap verse numbers for verse 13 and verse 14, some omit the content of verse 13 entirely, and some display variations in the appearance of the post-positive conjunction",
-              "marks": ["i"]
-            },
+            { "text": "οὐαὶ δὲ ὑμῖν … κρίμα", "script": "G" },
+            " ¦ ",
+            { "abbr": "SCR" },
+            " [23:14] ",
+            { "text": "οὐαὶ ὑμῖν … κρίμα", "script": "G" },
+            " ¦ ",
+            { "abbr": "NA" },
             " ",
-            { "text": "δὲ", "script": "G", "marks": ["i"] },
-            {
-              "text": ". Please see Appendix C for a full treatment of this lengthy variant unit.",
-              "marks": ["i"]
-            }
+            { "abbr": "SBL" },
+            " ",
+            { "abbr": "TH" },
+            " [23:14] ",
+            { "abbr": "OM" },
+            " ¦ ",
+            { "abbr": "WH" },
+            " ",
+            { "abbr": "OM" },
+            " ",
+            { "text": "(cf. next note, and see Appendix C)", "marks": ["i"] }
           ]
         },
         "strong": "G3759",
@@ -56524,7 +56533,33 @@
     "chapter": 23,
     "verse": 14,
     "content": [
-      { "text": "Οὐαὶ", "script": "G", "strong": "G3759", "morph": "INJ" },
+      {
+        "text": "Οὐαὶ",
+        "script": "G",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "οὐαὶ ὑμῖν … εἰσελθεῖν", "script": "G" },
+            " ¦ ",
+            { "abbr": "WH" },
+            { "text": " οὐαὶ δὲ ὑμῖν … εἰσελθεῖν", "script": "G" },
+            " ¦ ",
+            { "abbr": "NA" },
+            " ",
+            { "abbr": "SBL" },
+            " ",
+            { "abbr": "SCR" },
+            " ",
+            { "abbr": "TH" },
+            " [23:13] ",
+            { "text": "οὐαὶ δὲ ὑμῖν … εἰσελθεῖν", "script": "G" },
+            " ",
+            { "text": "(cf. last note, and see Appendix C)", "marks": ["i"] }
+          ]
+        },
+        "strong": "G3759",
+        "morph": "INJ"
+      },
       { "text": " ὑμῖν,", "script": "G", "strong": "G5213", "morph": "P-2DP" },
       {
         "text": " γραμματεῖς",
