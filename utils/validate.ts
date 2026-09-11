@@ -68,6 +68,15 @@ import {
   registeredAbbreviationIds,
 } from "./abbreviations";
 import { mergeMarkBoundarySpacesInContent } from "./fixMarkBoundarySpaces";
+import {
+  auditLexicalMaps,
+  formatLexicalMapFinding,
+  lexicalMapLanguages,
+} from "./lexicalMaps";
+import {
+  auditCorpusMorphology,
+  formatCorpusMorphFinding,
+} from "./corpusMorphology";
 
 /** Path to the bible-books registry JSON file. */
 const jsonPath = "./bible-books/bible-books.json";
@@ -1457,6 +1466,27 @@ export function normalizeBibleLinkDashesInContent(
  *   validated. An unmatched id surfaces as a natural filesystem error later
  *   rather than being checked for existence up front.
  */
+/**
+ * Every JSON file under `lexical-maps`, so the format pass covers them too.
+ *
+ * A codex is generated output like a verse file, and wants the same canonical
+ * bytes for the same reason: a diff should show what changed in the data.
+ */
+function collectLexicalMapFiles(): string[] {
+  const root = "./lexical-maps";
+  if (!fs.existsSync(root)) return [];
+  const out: string[] = [];
+  const walk = (dir: string) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (entry.name.endsWith(".json")) out.push(full);
+    }
+  };
+  walk(root);
+  return out.sort();
+}
+
 async function main(requestedVersion?: string) {
   const versionDirs = requestedVersion
     ? [requestedVersion]
@@ -1499,7 +1529,20 @@ async function main(requestedVersion?: string) {
 
   let formattedCount = 0;
 
-  for (const file of jsonFiles) {
+  // The lexical maps go through the same formatter as the verse files. They did
+  // not, and the omission cost more than tidiness: fifteen importer passes write
+  // that directory and they disagreed about layout, so the last one to run
+  // decided it. The committed files are Prettier-shaped, the importer had
+  // regressed them to `JSON.stringify(data, null, 2)`, and this branch's diff
+  // read as 1.19 million insertions where the content had grown by a few
+  // thousand roots.
+  //
+  // Safe to format here only because the importer now writes through one
+  // function that formats identically; see `writeCodex` in
+  // `imports/lxx/lib/codex.mjs`. If the two ever disagree again they will revert
+  // each other on alternate runs, and `node imports/lxx/build-map.mjs --check`
+  // is what catches it.
+  for (const file of [...jsonFiles, ...collectLexicalMapFiles()]) {
     if (fs.existsSync(file)) {
       const wasFormatted = await formatJsonFile(file);
       if (wasFormatted) {
@@ -2480,14 +2523,81 @@ async function main(requestedVersion?: string) {
   }
   console.log(`   ${abbreviationsScanned} abbr node(s) scanned corpus-wide`);
 
+  // Lexical-map audit: every codex file against its own schema, and every
+  // claim in it against the language registry that defines the vocabulary.
+  // Corpus-wide rather than per-version, because a codex belongs to a language
+  // rather than to an edition. Report-only, like its peers: an unknown parse
+  // code is either a typo in the codex or a missing registry entry, and only a
+  // person can say which. Prints its own scanned counts for the same reason
+  // the audits above do.
+  console.log("\n📚 Auditing lexical maps...");
+  let lexicalMapsPassed = true;
+
+  for (const language of lexicalMapLanguages()) {
+    const { findings, rootsScanned, cellsScanned } = auditLexicalMaps(language);
+    const scanned = `${rootsScanned} root(s), ${cellsScanned} cell(s) scanned`;
+    if (findings.length === 0) {
+      console.log(`✅ ${language}: every parse resolves in the registry (${scanned})`);
+      continue;
+    }
+
+    console.error(`❌ ${language}: ${findings.length} lexical-map finding(s) (${scanned}):`);
+    for (const finding of findings.slice(0, 50)) {
+      console.error(`  ${formatLexicalMapFinding(finding)}`);
+    }
+    if (findings.length > 50) {
+      console.error(`  ...and ${findings.length - 50} more`);
+    }
+    lexicalMapsPassed = false;
+  }
+
+  // Corpus-against-map audit: every `morph` code a version prints must be one
+  // the lexical map can account for. This is what makes the map's claim
+  // testable rather than asserted — the map stores what is known about a form,
+  // a morph code is one rendering of that, and a code the map cannot explain
+  // means a missing spelling, a missing parse, or a code in some other scheme.
+  //
+  // Narrowing is allowed and is not a finding: an indeclinable has no case
+  // marking, so the map records `indecl-proper` rather than listing every case
+  // it could stand in, and a corpus may narrow it from context. The same word
+  // reads `N-PRI` in BYZ2026 and `N-GSM` in LXX1935 and both are right.
+  //
+  // Report-only, like its peers. A gap here is either a cell to add or a code
+  // to correct, and only a person can say which.
+  console.log("\n🔠 Auditing corpus morphology against the lexical map...");
+  let corpusMorphologyPassed = true;
+
+  for (const versionDir of versionDirs) {
+    const { scheme, findings, scanned } = auditCorpusMorphology(versionDir);
+    if (!scheme) {
+      console.log(`➖ ${versionDir}: declares no morphology scheme, so nothing to check`);
+      continue;
+    }
+    if (findings.length === 0) {
+      console.log(`✅ ${versionDir}: every ${scheme} code resolves through the map (${scanned} token(s) scanned)`);
+      continue;
+    }
+
+    console.error(`❌ ${versionDir}: ${findings.length} ${scheme} code(s) the map cannot account for (${scanned} token(s) scanned):`);
+    for (const finding of findings.slice(0, 25)) {
+      console.error(`  ${formatCorpusMorphFinding(finding)}`);
+    }
+    if (findings.length > 25) {
+      console.error(`  ...and ${findings.length - 25} more`);
+    }
+    corpusMorphologyPassed = false;
+  }
+
   if (
+    !corpusMorphologyPassed ||
     !declaredChapterMismatchesPassed ||
     !crossChapterLinksPassed ||
     !truncatedRangesPassed ||
     !nodeConventionsPassed ||
     !unresolvableTargetsPassed ||
     !displayProsePassed ||
-    !abbreviationsPassed
+    !abbreviationsPassed ||
+    !lexicalMapsPassed
   ) {
     if (!declaredChapterMismatchesPassed) {
       console.error("\n❌ Declared chapter count audit failed! A book's chapters count in _version.json must match the highest chapter its own verse file actually carries. See the findings printed above for detail — fix by completing the verse file or correcting the declared count to what the file actually has.");
@@ -2507,13 +2617,19 @@ async function main(requestedVersion?: string) {
     if (!displayProsePassed) {
       console.error("\n❌ bibleLink display prose audit failed! Each link above still has non-reference text inside it — a lead-in word, a locator, an edition note, or a stray paren. The hoist step above already ran automatically, so a finding surviving here is a display override that is not a plain string: splitting it would have to decide how the prose half is marked. Fix by hand, or by making the override plain text so the hoist step can take it.");
     }
+    if (!corpusMorphologyPassed) {
+      console.error("\n❌ Corpus morphology audit failed! Each code above is one the lexical map cannot account for: a spelling the map does not hold, a spelling whose cells do not include this parse, or a code written in a scheme the version does not declare in its own `morphology` field. Narrowing an indeclinable from context is allowed and never reported, so a finding here is a real gap. No auto-fix: add the cell the corpus attests, or correct the code.");
+    }
+    if (!lexicalMapsPassed) {
+      console.error("\n❌ Lexical map audit failed! Each finding above is either a codex file that does not match `codex-schema.json`, a parse code the language registry does not define, a parse stating two values for one category, a stored transliteration the registry's own table does not produce, two spellings under one root that are the same key written twice (differing only in case or in a grave for an acute), a cell Strong's number that is not a subset of its root's or is the root's whole set, or a root-level lexical fact (gender, declension, conjugation, deponent, stems) that contradicts the root's own cells or the registry's own vocabulary. No auto-fix: correct the codex, or add the registry entry the codex is relying on.");
+    }
     if (!abbreviationsPassed) {
       console.error("\n❌ Abbreviation audit failed! Each id above is written in content but missing from its own version’s `abbr` registry, or defined there twice. Registries are per-version on purpose — the same short code means different things in different editions — so there is nowhere for a lookup to fall through to. No auto-fix: add the registry entry, or correct the id in the content.");
     }
     process.exit(1);
   }
 
-  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, display-prose, and abbreviation audits all passed!");
+  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, display-prose, abbreviation, lexical-map, and corpus-morphology audits all passed!");
 }
 
 // Guard so importing this module (e.g. from tests) doesn't also run main()

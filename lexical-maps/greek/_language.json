@@ -3,19 +3,10 @@
   "name": "Greek",
   "script": "G",
   "citationConvention": "Verbs cite in the first person singular present active indicative; nominals cite in the nominative singular.",
-  "collation": {
-    "locale": "el",
-    "sensitivity": "accent"
-  },
+  "collation": { "locale": "el", "sensitivity": "accent" },
   "normalization": [
-    {
-      "_id": "strip-punctuation",
-      "name": "Strip trailing punctuation"
-    },
-    {
-      "_id": "fold-case",
-      "name": "Fold case"
-    },
+    { "_id": "strip-punctuation", "name": "Strip trailing punctuation" },
+    { "_id": "fold-case", "name": "Fold case" },
     {
       "_id": "fold-grave",
       "name": "Fold grave to acute",
@@ -54,68 +45,25 @@
     "omega"
   ],
   "inflectionCategories": [
-    {
-      "_id": "pos",
-      "name": "Part of speech",
-      "required": true
-    },
-    {
-      "_id": "tense",
-      "name": "Tense"
-    },
-    {
-      "_id": "voice",
-      "name": "Voice"
-    },
-    {
-      "_id": "mood",
-      "name": "Mood"
-    },
-    {
-      "_id": "person",
-      "name": "Person"
-    },
-    {
-      "_id": "number",
-      "name": "Number"
-    },
-    {
-      "_id": "case",
-      "name": "Case"
-    },
-    {
-      "_id": "gender",
-      "name": "Gender"
-    },
-    {
-      "_id": "degree",
-      "name": "Degree"
-    },
-    {
-      "_id": "polarity",
-      "name": "Polarity"
-    },
-    {
-      "_id": "force",
-      "name": "Force"
-    },
+    { "_id": "pos", "name": "Part of speech", "required": true },
+    { "_id": "tense", "name": "Tense" },
+    { "_id": "voice", "name": "Voice" },
+    { "_id": "mood", "name": "Mood" },
+    { "_id": "person", "name": "Person" },
+    { "_id": "number", "name": "Number" },
+    { "_id": "case", "name": "Case" },
+    { "_id": "gender", "name": "Gender" },
+    { "_id": "degree", "name": "Degree" },
+    { "_id": "polarity", "name": "Polarity" },
+    { "_id": "force", "name": "Force" },
     {
       "_id": "formation",
       "name": "Formation",
       "description": "How a stem is built, as against what the form does. Kept apart from tense because the two co-occur."
     },
-    {
-      "_id": "dialect",
-      "name": "Dialect"
-    },
-    {
-      "_id": "contraction",
-      "name": "Contraction"
-    },
-    {
-      "_id": "declinability",
-      "name": "Declinability"
-    },
+    { "_id": "dialect", "name": "Dialect" },
+    { "_id": "contraction", "name": "Contraction" },
+    { "_id": "declinability", "name": "Declinability" },
     {
       "_id": "possessorNumber",
       "name": "Possessor number",
@@ -123,308 +71,84 @@
     }
   ],
   "inflections": [
-    {
-      "_id": "noun",
-      "category": "pos",
-      "name": "Noun"
-    },
-    {
-      "_id": "verb",
-      "category": "pos",
-      "name": "Verb"
-    },
-    {
-      "_id": "art",
-      "category": "pos",
-      "name": "Article"
-    },
-    {
-      "_id": "adj",
-      "category": "pos",
-      "name": "Adjective"
-    },
-    {
-      "_id": "adv",
-      "category": "pos",
-      "name": "Adverb"
-    },
-    {
-      "_id": "prep",
-      "category": "pos",
-      "name": "Preposition"
-    },
-    {
-      "_id": "conj",
-      "category": "pos",
-      "name": "Conjunction"
-    },
-    {
-      "_id": "prt",
-      "category": "pos",
-      "name": "Particle"
-    },
-    {
-      "_id": "cond",
-      "category": "pos",
-      "name": "Conditional particle"
-    },
-    {
-      "_id": "inj",
-      "category": "pos",
-      "name": "Interjection"
-    },
-    {
-      "_id": "pron-pers",
-      "category": "pos",
-      "name": "Personal pronoun"
-    },
-    {
-      "_id": "pron-dem",
-      "category": "pos",
-      "name": "Demonstrative pronoun"
-    },
-    {
-      "_id": "pron-rel",
-      "category": "pos",
-      "name": "Relative pronoun"
-    },
-    {
-      "_id": "pron-int",
-      "category": "pos",
-      "name": "Interrogative pronoun"
-    },
-    {
-      "_id": "pron-indef",
-      "category": "pos",
-      "name": "Indefinite pronoun"
-    },
-    {
-      "_id": "pron-refl",
-      "category": "pos",
-      "name": "Reflexive pronoun"
-    },
-    {
-      "_id": "pron-poss",
-      "category": "pos",
-      "name": "Possessive pronoun"
-    },
-    {
-      "_id": "pron-recip",
-      "category": "pos",
-      "name": "Reciprocal pronoun"
-    },
-    {
-      "_id": "pron-corr",
-      "category": "pos",
-      "name": "Correlative pronoun"
-    },
+    { "_id": "noun", "category": "pos", "name": "Noun" },
+    { "_id": "verb", "category": "pos", "name": "Verb" },
+    { "_id": "art", "category": "pos", "name": "Article" },
+    { "_id": "adj", "category": "pos", "name": "Adjective" },
+    { "_id": "adv", "category": "pos", "name": "Adverb" },
+    { "_id": "prep", "category": "pos", "name": "Preposition" },
+    { "_id": "conj", "category": "pos", "name": "Conjunction" },
+    { "_id": "prt", "category": "pos", "name": "Particle" },
+    { "_id": "cond", "category": "pos", "name": "Conditional particle" },
+    { "_id": "inj", "category": "pos", "name": "Interjection" },
+    { "_id": "pron-pers", "category": "pos", "name": "Personal pronoun" },
+    { "_id": "pron-dem", "category": "pos", "name": "Demonstrative pronoun" },
+    { "_id": "pron-rel", "category": "pos", "name": "Relative pronoun" },
+    { "_id": "pron-int", "category": "pos", "name": "Interrogative pronoun" },
+    { "_id": "pron-indef", "category": "pos", "name": "Indefinite pronoun" },
+    { "_id": "pron-refl", "category": "pos", "name": "Reflexive pronoun" },
+    { "_id": "pron-poss", "category": "pos", "name": "Possessive pronoun" },
+    { "_id": "pron-recip", "category": "pos", "name": "Reciprocal pronoun" },
+    { "_id": "pron-corr", "category": "pos", "name": "Correlative pronoun" },
     {
       "_id": "pron-corr-int",
       "category": "pos",
       "name": "Correlative or interrogative pronoun"
     },
-    {
-      "_id": "aramaic",
-      "category": "pos",
-      "name": "Aramaic transliteration"
-    },
-    {
-      "_id": "hebrew",
-      "category": "pos",
-      "name": "Hebrew transliteration"
-    },
-    {
-      "_id": "pres",
-      "category": "tense",
-      "name": "Present"
-    },
-    {
-      "_id": "impf",
-      "category": "tense",
-      "name": "Imperfect"
-    },
-    {
-      "_id": "fut",
-      "category": "tense",
-      "name": "Future"
-    },
-    {
-      "_id": "aor",
-      "category": "tense",
-      "name": "Aorist"
-    },
-    {
-      "_id": "perf",
-      "category": "tense",
-      "name": "Perfect"
-    },
-    {
-      "_id": "plup",
-      "category": "tense",
-      "name": "Pluperfect"
-    },
-    {
-      "_id": "act",
-      "category": "voice",
-      "name": "Active"
-    },
-    {
-      "_id": "mid",
-      "category": "voice",
-      "name": "Middle"
-    },
-    {
-      "_id": "pas",
-      "category": "voice",
-      "name": "Passive"
-    },
+    { "_id": "aramaic", "category": "pos", "name": "Aramaic transliteration" },
+    { "_id": "hebrew", "category": "pos", "name": "Hebrew transliteration" },
+    { "_id": "pres", "category": "tense", "name": "Present" },
+    { "_id": "impf", "category": "tense", "name": "Imperfect" },
+    { "_id": "fut", "category": "tense", "name": "Future" },
+    { "_id": "aor", "category": "tense", "name": "Aorist" },
+    { "_id": "perf", "category": "tense", "name": "Perfect" },
+    { "_id": "plup", "category": "tense", "name": "Pluperfect" },
+    { "_id": "act", "category": "voice", "name": "Active" },
+    { "_id": "mid", "category": "voice", "name": "Middle" },
+    { "_id": "pas", "category": "voice", "name": "Passive" },
     {
       "_id": "midpas",
       "category": "voice",
       "name": "Middle or passive",
       "description": "The form is identical in both voices; context decides which is meant."
     },
-    {
-      "_id": "mid-dep",
-      "category": "voice",
-      "name": "Middle deponent"
-    },
-    {
-      "_id": "pas-dep",
-      "category": "voice",
-      "name": "Passive deponent"
-    },
+    { "_id": "mid-dep", "category": "voice", "name": "Middle deponent" },
+    { "_id": "pas-dep", "category": "voice", "name": "Passive deponent" },
     {
       "_id": "midpas-dep",
       "category": "voice",
       "name": "Middle or passive deponent"
     },
-    {
-      "_id": "ind",
-      "category": "mood",
-      "name": "Indicative"
-    },
-    {
-      "_id": "imp",
-      "category": "mood",
-      "name": "Imperative"
-    },
-    {
-      "_id": "inf",
-      "category": "mood",
-      "name": "Infinitive"
-    },
-    {
-      "_id": "opt",
-      "category": "mood",
-      "name": "Optative"
-    },
-    {
-      "_id": "ptc",
-      "category": "mood",
-      "name": "Participle"
-    },
-    {
-      "_id": "subj",
-      "category": "mood",
-      "name": "Subjunctive"
-    },
-    {
-      "_id": "pers-1",
-      "category": "person",
-      "name": "First person"
-    },
-    {
-      "_id": "pers-2",
-      "category": "person",
-      "name": "Second person"
-    },
-    {
-      "_id": "pers-3",
-      "category": "person",
-      "name": "Third person"
-    },
-    {
-      "_id": "sg",
-      "category": "number",
-      "name": "Singular"
-    },
-    {
-      "_id": "pl",
-      "category": "number",
-      "name": "Plural"
-    },
-    {
-      "_id": "nom",
-      "category": "case",
-      "name": "Nominative"
-    },
-    {
-      "_id": "gen",
-      "category": "case",
-      "name": "Genitive"
-    },
-    {
-      "_id": "dat",
-      "category": "case",
-      "name": "Dative"
-    },
-    {
-      "_id": "acc",
-      "category": "case",
-      "name": "Accusative"
-    },
-    {
-      "_id": "voc",
-      "category": "case",
-      "name": "Vocative"
-    },
-    {
-      "_id": "masc",
-      "category": "gender",
-      "name": "Masculine"
-    },
-    {
-      "_id": "fem",
-      "category": "gender",
-      "name": "Feminine"
-    },
-    {
-      "_id": "neut",
-      "category": "gender",
-      "name": "Neuter"
-    },
-    {
-      "_id": "comp",
-      "category": "degree",
-      "name": "Comparative"
-    },
-    {
-      "_id": "super",
-      "category": "degree",
-      "name": "Superlative"
-    },
-    {
-      "_id": "neg",
-      "category": "polarity",
-      "name": "Negative"
-    },
-    {
-      "_id": "interr",
-      "category": "force",
-      "name": "Interrogative"
-    },
+    { "_id": "ind", "category": "mood", "name": "Indicative" },
+    { "_id": "imp", "category": "mood", "name": "Imperative" },
+    { "_id": "inf", "category": "mood", "name": "Infinitive" },
+    { "_id": "opt", "category": "mood", "name": "Optative" },
+    { "_id": "ptc", "category": "mood", "name": "Participle" },
+    { "_id": "subj", "category": "mood", "name": "Subjunctive" },
+    { "_id": "pers-1", "category": "person", "name": "First person" },
+    { "_id": "pers-2", "category": "person", "name": "Second person" },
+    { "_id": "pers-3", "category": "person", "name": "Third person" },
+    { "_id": "sg", "category": "number", "name": "Singular" },
+    { "_id": "pl", "category": "number", "name": "Plural" },
+    { "_id": "nom", "category": "case", "name": "Nominative" },
+    { "_id": "gen", "category": "case", "name": "Genitive" },
+    { "_id": "dat", "category": "case", "name": "Dative" },
+    { "_id": "acc", "category": "case", "name": "Accusative" },
+    { "_id": "voc", "category": "case", "name": "Vocative" },
+    { "_id": "masc", "category": "gender", "name": "Masculine" },
+    { "_id": "fem", "category": "gender", "name": "Feminine" },
+    { "_id": "neut", "category": "gender", "name": "Neuter" },
+    { "_id": "comp", "category": "degree", "name": "Comparative" },
+    { "_id": "super", "category": "degree", "name": "Superlative" },
+    { "_id": "neg", "category": "polarity", "name": "Negative" },
+    { "_id": "interr", "category": "force", "name": "Interrogative" },
     {
       "_id": "second",
       "category": "formation",
       "name": "Second formation",
       "description": "A second aorist, future, perfect or pluperfect. Same tense, different stem."
     },
-    {
-      "_id": "attic",
-      "category": "dialect",
-      "name": "Attic form"
-    },
+    { "_id": "attic", "category": "dialect", "name": "Attic form" },
     {
       "_id": "crasis",
       "category": "contraction",
@@ -498,5 +222,269 @@
     "gammaNasal": "n",
     "upsilonInDiphthong": "u",
     "aspirate": "h"
+  },
+  "classCategories": [
+    {
+      "_id": "declension",
+      "name": "Declension",
+      "description": "Which ending table a noun or adjective inflects by. A lexical fact: the citation form does not always show it, since ὁδός and λόγος both end in -ος and decline alike but differ in gender, while πνεῦμα and χώρα both end in -α and do not decline alike at all."
+    },
+    {
+      "_id": "conjugation",
+      "name": "Conjugation",
+      "description": "Which present-system pattern a verb inflects by. Separate from the principal parts in `stems`, which say how each tense outside the present is built."
+    }
+  ],
+  "classes": [
+    {
+      "_id": "indeclinable",
+      "category": "declension",
+      "name": "Indeclinable",
+      "appliesTo": ["noun", "adj"]
+    },
+    {
+      "_id": "1f-a",
+      "category": "declension",
+      "name": "First declension feminine in -ᾱ",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "1f-a-impure",
+      "category": "declension",
+      "name": "First declension feminine in -α with genitive -ης",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "1f-e",
+      "category": "declension",
+      "name": "First declension feminine in -η",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "1m-as",
+      "category": "declension",
+      "name": "First declension masculine in -ᾱς",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "1m-es",
+      "category": "declension",
+      "name": "First declension masculine in -ης",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "2m",
+      "category": "declension",
+      "name": "Second declension masculine",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "2f",
+      "category": "declension",
+      "name": "Second declension feminine",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "2n",
+      "category": "declension",
+      "name": "Second declension neuter",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "2m-contract",
+      "category": "declension",
+      "name": "Second declension masculine, contracted",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "2n-contract",
+      "category": "declension",
+      "name": "Second declension neuter, contracted",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "3-cons",
+      "category": "declension",
+      "name": "Third declension, consonant stem",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "3-syncopated",
+      "category": "declension",
+      "name": "Third declension, syncopated stem in -ηρ",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "3n-ma",
+      "category": "declension",
+      "name": "Third declension neuter in -μα",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "3n-es",
+      "category": "declension",
+      "name": "Third declension neuter in -ος, sigma stem",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "3f-is",
+      "category": "declension",
+      "name": "Third declension feminine in -ις",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "3m-eus",
+      "category": "declension",
+      "name": "Third declension masculine in -ευς",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "3-us",
+      "category": "declension",
+      "name": "Third declension in -υς",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "3n-u",
+      "category": "declension",
+      "name": "Third declension neuter in -υ",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "3-nt",
+      "category": "declension",
+      "name": "Third declension, dental-nasal stem",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "3f-os",
+      "category": "declension",
+      "name": "Third declension feminine in -ως",
+      "appliesTo": ["noun"]
+    },
+    {
+      "_id": "2-1-2",
+      "category": "declension",
+      "name": "Second-first-second declension, feminine in -η",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "2-1-2-a",
+      "category": "declension",
+      "name": "Second-first-second declension, feminine in -ᾱ",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "2-2",
+      "category": "declension",
+      "name": "Two-termination, second declension throughout",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "3-3-es",
+      "category": "declension",
+      "name": "Two-termination third declension in -ης",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "3-3-on",
+      "category": "declension",
+      "name": "Two-termination third declension in -ων",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "3-1-3-us",
+      "category": "declension",
+      "name": "Third-first-third declension in -υς",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "3-1-3-nt",
+      "category": "declension",
+      "name": "Third-first-third declension, dental-nasal stem",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "numeral-plural",
+      "category": "declension",
+      "name": "Plural-only numeral",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "comparative",
+      "category": "declension",
+      "name": "Comparative in -ων",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "thematic",
+      "category": "conjugation",
+      "name": "Thematic, present in -ω",
+      "appliesTo": ["verb"]
+    },
+    {
+      "_id": "contract-e",
+      "category": "conjugation",
+      "name": "Contract, present stem in -ε",
+      "appliesTo": ["verb"]
+    },
+    {
+      "_id": "contract-a",
+      "category": "conjugation",
+      "name": "Contract, present stem in -α",
+      "appliesTo": ["verb"]
+    },
+    {
+      "_id": "contract-o",
+      "category": "conjugation",
+      "name": "Contract, present stem in -ο",
+      "appliesTo": ["verb"]
+    },
+    {
+      "_id": "athematic",
+      "category": "conjugation",
+      "name": "Athematic, present in -μι",
+      "appliesTo": ["verb"]
+    },
+    {
+      "_id": "athematic-middle",
+      "category": "conjugation",
+      "name": "Athematic, cited in the middle in -μαι",
+      "appliesTo": ["verb"]
+    },
+    {
+      "_id": "deponent",
+      "category": "conjugation",
+      "name": "Deponent, cited in the middle in -ομαι",
+      "appliesTo": ["verb"]
+    },
+    {
+      "_id": "listed",
+      "category": "conjugation",
+      "name": "Suppletive, paradigm listed rather than derived",
+      "appliesTo": ["verb"]
+    }
+  ],
+  "posReadings": {
+    "description": "Part of speech to the others a lexeme's forms may legitimately be tagged with. A corpus records the reading a token has, which need not be the heading its lexicon files the word under.",
+    "readings": {
+      "noun": ["adj", "adv", "verb"],
+      "adj": ["adv", "noun", "pron-poss"],
+      "verb": ["adj", "adv", "noun"],
+      "prep": ["adv"],
+      "adv": ["prep", "conj", "prt", "adj", "noun"],
+      "conj": ["adv", "prt"],
+      "prt": ["adv", "conj"],
+      "inj": ["noun"],
+      "hebrew": ["aramaic"],
+      "aramaic": ["hebrew"],
+      "pron-poss": ["adj"],
+      "pron-corr": ["pron-rel", "adj", "pron-corr-int"],
+      "pron-corr-int": ["adj", "pron-int", "pron-corr"],
+      "pron-rel": ["pron-corr", "adj"],
+      "pron-dem": ["pron-pers", "adj"],
+      "pron-indef": ["pron-int", "adj"],
+      "pron-int": ["pron-indef", "adj", "pron-corr-int"]
+    }
   }
 }

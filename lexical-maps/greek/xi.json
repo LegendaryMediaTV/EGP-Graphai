@@ -1,360 +1,1014 @@
 {
+  "ξανθίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "inflections": {
+      "ξανθίζουσα": {
+        "transliteration": "xanthízousa",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "fem"] }
+        ]
+      }
+    }
+  },
+  "Ξανθικός": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "inflections": {
+      "Ξανθικοῦ": {
+        "transliteration": "Xanthikoû",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      }
+    }
+  },
+  "ξανθός": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "inflections": {
+      "ξανθῆς": {
+        "transliteration": "xanthē̂s",
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
+      }
+    }
+  },
   "ξενία": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "indices": { "strongs": "G3578" },
     "inflections": {
-      "ξενίαν": [
-        {
-          "parse": ["noun", "acc", "sg", "fem"],
-          "indices": { "strongs": "G3578" }
-        }
-      ]
-    },
-    "transliterations": { "ξενίαν": "xenían" }
+      "ξένια": {
+        "transliteration": "xénia",
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "voc", "sg", "fem"] }
+        ]
+      },
+      "ξενίαν": {
+        "transliteration": "xenían",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
   },
   "ξενίζω": {
     "language": "greek",
     "pos": "verb",
+    "conjugation": "thematic",
+    "stems": { "aor": "εξενι" },
     "shortDefinition": "to astonish, be strange; fig. to host",
     "indices": { "strongs": "G3579" },
     "inflections": {
-      "ἐξένισεν": [
-        {
-          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3579" }
-        }
-      ],
-      "ξενίζεσθε": [
-        {
-          "parse": ["verb", "pres", "pas", "imp", "pers-2", "pl"],
-          "indices": { "strongs": "G3579" }
-        }
-      ],
-      "ξενίζεται": [
-        {
-          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3579" }
-        }
-      ],
-      "ξενίζοντα": [
-        {
-          "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"],
-          "indices": { "strongs": "G3579" }
-        }
-      ],
-      "ξενίζονται": [
-        {
-          "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"],
-          "indices": { "strongs": "G3579" }
-        }
-      ],
-      "ξενίσαντες": [
-        {
-          "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
-          "indices": { "strongs": "G3579" }
-        }
-      ],
-      "ξενισθῶμεν": [
-        {
-          "parse": ["verb", "aor", "pas", "subj", "pers-1", "pl"],
-          "indices": { "strongs": "G3579" }
-        }
-      ]
-    },
-    "transliterations": {
-      "ἐξένισεν": "exénisen",
-      "ξενίζεσθε": "xenízesthe",
-      "ξενίζεται": "xenízetai",
-      "ξενίζοντα": "xenízonta",
-      "ξενίζονται": "xenízontai",
-      "ξενίσαντες": "xenísantes",
-      "ξενισθῶμεν": "xenisthō̂men"
+      "ἐξένισεν": {
+        "transliteration": "exénisen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ξενίζεσθε": {
+        "transliteration": "xenízesthe",
+        "cells": [{ "parse": ["verb", "pres", "pas", "imp", "pers-2", "pl"] }]
+      },
+      "ξενίζεται": {
+        "transliteration": "xenízetai",
+        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "ξενίζοντα": {
+        "transliteration": "xenízonta",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] }
+        ]
+      },
+      "ξενίζονται": {
+        "transliteration": "xenízontai",
+        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"] }]
+      },
+      "ξενιζούσαις": {
+        "transliteration": "xenizoúsais",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "fem"] }
+        ]
+      },
+      "ξενίζουσαν": {
+        "transliteration": "xenízousan",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
+        ]
+      },
+      "ξενίσαντες": {
+        "transliteration": "xenísantes",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+        ]
+      },
+      "ξενισθῶμεν": {
+        "transliteration": "xenisthō̂men",
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-1", "pl"] }]
+      }
+    }
+  },
+  "ξένιον": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "2n",
+    "inflections": {
+      "ξένια": {
+        "transliteration": "xénia",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
+      },
+      "ξενίοις": {
+        "transliteration": "xeníois",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      }
+    }
+  },
+  "Ξένιος": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "inflections": {
+      "Ξενίου": {
+        "transliteration": "Xeníou",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      }
+    }
+  },
+  "ξενισμός": {
+    "language": "greek",
+    "pos": "noun",
+    "inflections": {
+      "ξενισμός": {
+        "transliteration": "xenismós",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      }
+    }
+  },
+  "ξενιτεία": {
+    "language": "greek",
+    "pos": "noun",
+    "inflections": {
+      "ξενιτείας": {
+        "transliteration": "xeniteías",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
+      }
     }
   },
   "ξενοδοχέω": {
     "language": "greek",
     "pos": "verb",
+    "conjugation": "contract-e",
+    "stems": { "aor": "εξενοδοχη" },
     "indices": { "strongs": "G3580" },
     "inflections": {
-      "ἐξενοδόχησεν": [
-        {
-          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3580" }
-        }
-      ]
-    },
-    "transliterations": { "ἐξενοδόχησεν": "exenodóchēsen" }
+      "ἐξενοδόχησεν": {
+        "transliteration": "exenodóchēsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
+  "ξενολογέω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-e",
+    "inflections": {
+      "ἐξενολόγει": {
+        "transliteration": "exenológei",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐξενολόγησα": {
+        "transliteration": "exenológēsa",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      },
+      "ἐξενολόγησεν": {
+        "transliteration": "exenológēsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
   },
   "ξένος": {
     "language": "greek",
     "pos": "adj",
+    "declension": "2-1-2",
     "shortDefinition": "to be foreign, strange; fig. to be hosting",
     "indices": { "strongs": "G3581" },
     "inflections": {
-      "ξέναις": [
-        {
-          "parse": ["adj", "dat", "pl", "fem"],
-          "indices": { "strongs": "G3581" }
-        }
-      ],
-      "ξένοι": [
-        {
-          "parse": ["adj", "nom", "pl", "masc"],
-          "indices": { "strongs": "G3581" }
-        }
-      ],
-      "ξένοις": [
-        {
-          "parse": ["adj", "dat", "pl", "masc"],
-          "indices": { "strongs": "G3581" }
-        }
-      ],
-      "ξένον": [
-        {
-          "parse": ["adj", "acc", "sg", "masc"],
-          "indices": { "strongs": "G3581" }
-        }
-      ],
-      "ξένος": [
-        {
-          "parse": ["adj", "nom", "sg", "masc"],
-          "indices": { "strongs": "G3581" }
-        }
-      ],
-      "ξένου": [
-        {
-          "parse": ["adj", "gen", "sg", "neut"],
-          "indices": { "strongs": "G3581" }
-        }
-      ],
-      "ξένους": [
-        {
-          "parse": ["adj", "acc", "pl", "masc"],
-          "indices": { "strongs": "G3581" }
-        }
-      ],
-      "ξένων": [
-        {
-          "parse": ["adj", "gen", "pl", "neut"],
-          "indices": { "strongs": "G3581" }
-        }
-      ]
-    },
-    "transliterations": {
-      "ξέναις": "xénais",
-      "ξένοι": "xénoi",
-      "ξένοις": "xénois",
-      "ξένον": "xénon",
-      "ξένος": "xénos",
-      "ξένου": "xénou",
-      "ξένους": "xénous",
-      "ξένων": "xénōn"
+      "ξέναις": {
+        "transliteration": "xénais",
+        "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
+      },
+      "ξένας": {
+        "transliteration": "xénas",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "gen", "sg", "fem"] }
+        ]
+      },
+      "ξένη": {
+        "transliteration": "xénē",
+        "cells": [
+          { "parse": ["adj", "dat", "sg", "fem"] },
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "voc", "sg", "fem"] }
+        ]
+      },
+      "ξένῃ": {
+        "transliteration": "xénē",
+        "cells": [
+          { "parse": ["adj", "dat", "sg", "fem"] },
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "voc", "sg", "fem"] }
+        ]
+      },
+      "ξένην": {
+        "transliteration": "xénēn",
+        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+      },
+      "ξένης": {
+        "transliteration": "xénēs",
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
+      },
+      "ξένοι": {
+        "transliteration": "xénoi",
+        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+      },
+      "ξένοις": {
+        "transliteration": "xénois",
+        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
+      },
+      "ξένον": {
+        "transliteration": "xénon",
+        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
+      },
+      "ξένος": {
+        "transliteration": "xénos",
+        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+      },
+      "ξένου": {
+        "transliteration": "xénou",
+        "cells": [{ "parse": ["adj", "gen", "sg", "neut"] }]
+      },
+      "ξένους": {
+        "transliteration": "xénous",
+        "cells": [{ "parse": ["adj", "acc", "pl", "masc"] }]
+      },
+      "ξένῳ": {
+        "transliteration": "xénō",
+        "cells": [
+          { "parse": ["adj", "dat", "sg", "fem"] },
+          { "parse": ["adj", "dat", "sg", "masc"] },
+          { "parse": ["adj", "dat", "sg", "neut"] }
+        ]
+      },
+      "ξένων": {
+        "transliteration": "xénōn",
+        "cells": [{ "parse": ["adj", "gen", "pl", "neut"] }]
+      }
+    }
+  },
+  "ξενοτροφέω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-e",
+    "inflections": {
+      "ἐξενοτρόφει": {
+        "transliteration": "exenotróphei",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
+  "Ξέρξης": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "inflections": {
+      "Ξέρξου": {
+        "transliteration": "Xérxou",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      }
     }
   },
   "ξέστης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
+    "declension": "1m-es",
     "indices": { "strongs": "G3582" },
     "inflections": {
-      "ξεστῶν": [
-        {
-          "parse": ["noun", "gen", "pl", "masc"],
-          "indices": { "strongs": "G3582" }
-        }
-      ]
-    },
-    "transliterations": { "ξεστῶν": "xestō̂n" }
+      "ξεστῶν": {
+        "transliteration": "xestō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      }
+    }
+  },
+  "ξεστός": {
+    "language": "greek",
+    "pos": "adj",
+    "inflections": {
+      "ξεστῷ": {
+        "transliteration": "xestō̂",
+        "cells": [
+          { "parse": ["adj", "dat", "sg", "fem"] },
+          { "parse": ["adj", "dat", "sg", "masc"] },
+          { "parse": ["adj", "dat", "sg", "neut"] }
+        ]
+      }
+    }
   },
   "ξηραίνω": {
     "language": "greek",
     "pos": "verb",
+    "conjugation": "thematic",
+    "stems": { "aor": "εξηραν" },
     "indices": { "strongs": "G3583" },
     "inflections": {
-      "ἐξηραμμένην": [
-        {
-          "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"],
-          "indices": { "strongs": "G3583" }
-        }
-      ],
-      "ἐξήρανεν": [
-        {
-          "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3583" }
-        }
-      ],
-      "ἐξηράνθη": [
-        {
-          "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3583" }
-        }
-      ],
-      "ἐξήρανται": [
-        {
-          "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3583" }
-        }
-      ],
-      "ξηραίνεται": [
-        {
-          "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G3583" }
-        }
-      ]
-    },
-    "transliterations": {
-      "ἐξηραμμένην": "exēramménēn",
-      "ἐξήρανεν": "exḗranen",
-      "ἐξηράνθη": "exēránthē",
-      "ἐξήρανται": "exḗrantai",
-      "ξηραίνεται": "xēraínetai"
+      "ἐξηραμμένην": {
+        "transliteration": "exēramménēn",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"] }
+        ]
+      },
+      "ἐξήρανας": {
+        "transliteration": "exḗranas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
+        ]
+      },
+      "ἐξήρανεν": {
+        "transliteration": "exḗranen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐξηράνθη": {
+        "transliteration": "exēránthē",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "ἐξηράνθην": {
+        "transliteration": "exēránthēn",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] }]
+      },
+      "ἐξηράνθησαν": {
+        "transliteration": "exēránthēsan",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
+      },
+      "ἐξήρανται": {
+        "transliteration": "exḗrantai",
+        "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "ξηραίνεται": {
+        "transliteration": "xēraínetai",
+        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "ξηραινόμενος": {
+        "transliteration": "xērainómenos",
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ξηραίνων": {
+        "transliteration": "xēraínōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
+        ]
+      },
+      "ξηρανθείη": {
+        "transliteration": "xērantheíē",
+        "cells": [{ "parse": ["verb", "aor", "pas", "opt", "pers-3", "sg"] }]
+      },
+      "ξηρανθῆναι": {
+        "transliteration": "xēranthē̂nai",
+        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
+      }
+    }
+  },
+  "ξηρασία": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "inflections": {
+      "ξηρασία": {
+        "transliteration": "xērasía",
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "voc", "sg", "fem"] }
+        ]
+      },
+      "ξηρασίᾳ": {
+        "transliteration": "xērasía",
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "voc", "sg", "fem"] }
+        ]
+      },
+      "ξηρασίας": {
+        "transliteration": "xērasías",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
+      }
     }
   },
   "ξηρός": {
     "language": "greek",
     "pos": "adj",
+    "declension": "2-1-2-a",
     "indices": { "strongs": "G3584" },
     "inflections": {
-      "ξηρά": [
-        {
-          "parse": ["adj", "nom", "sg", "fem"],
-          "indices": { "strongs": "G3584" }
-        }
-      ],
-      "ξηράν": [
-        {
-          "parse": ["adj", "acc", "sg", "fem"],
-          "indices": { "strongs": "G3584" }
-        }
-      ],
-      "ξηρὰν": [
-        {
-          "parse": ["adj", "acc", "sg", "fem"],
-          "indices": { "strongs": "G3584" }
-        }
-      ],
-      "ξηρᾶς": [
-        {
-          "parse": ["adj", "gen", "sg", "fem"],
-          "indices": { "strongs": "G3584" }
-        }
-      ],
-      "ξηρῷ": [
-        {
-          "parse": ["adj", "dat", "sg", "neut"],
-          "indices": { "strongs": "G3584" }
-        }
-      ],
-      "ξηρῶν": [
-        {
-          "parse": ["adj", "gen", "pl", "masc"],
-          "indices": { "strongs": "G3584" }
-        }
-      ]
-    },
-    "transliterations": {
-      "ξηρά": "xērá",
-      "ξηράν": "xērán",
-      "ξηρὰν": "xēràn",
-      "ξηρᾶς": "xērâs",
-      "ξηρῷ": "xērō̂",
-      "ξηρῶν": "xērō̂n"
+      "ξηρά": {
+        "transliteration": "xērá",
+        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
+      },
+      "ξηράν": {
+        "transliteration": "xērán",
+        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+      },
+      "ξηρᾶς": {
+        "transliteration": "xērâs",
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
+      },
+      "ξηρόν": {
+        "transliteration": "xērón",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "fem"] },
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      },
+      "ξηρός": {
+        "transliteration": "xērós",
+        "cells": [
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "nom", "sg", "masc"] }
+        ]
+      },
+      "ξηροῦ": {
+        "transliteration": "xēroû",
+        "cells": [
+          { "parse": ["adj", "gen", "sg", "fem"] },
+          { "parse": ["adj", "gen", "sg", "masc"] },
+          { "parse": ["adj", "gen", "sg", "neut"] }
+        ]
+      },
+      "ξηρούς": {
+        "transliteration": "xēroús",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "acc", "pl", "masc"] }
+        ]
+      },
+      "ξηρῷ": {
+        "transliteration": "xērō̂",
+        "cells": [{ "parse": ["adj", "dat", "sg", "neut"] }]
+      },
+      "ξηρῶν": {
+        "transliteration": "xērō̂n",
+        "cells": [{ "parse": ["adj", "gen", "pl", "masc"] }]
+      }
+    }
+  },
+  "ξιφηφόρος": {
+    "language": "greek",
+    "pos": "adj",
+    "inflections": {
+      "ξιφηφόρον": {
+        "transliteration": "xiphēphóron",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "fem"] },
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      }
+    }
+  },
+  "ξίφος": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "3n-es",
+    "inflections": {
+      "ξίφει": {
+        "transliteration": "xíphei",
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
+      "ξίφος": {
+        "transliteration": "xíphos",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
+      "ξίφους": {
+        "transliteration": "xíphous",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "gen", "sg", "neut"] }
+        ]
+      },
+      "ξιφῶν": {
+        "transliteration": "xiphō̂n",
+        "cells": [
+          { "parse": ["noun", "gen", "pl", "fem"] },
+          { "parse": ["noun", "gen", "pl", "masc"] },
+          { "parse": ["noun", "gen", "pl", "neut"] }
+        ]
+      }
+    }
+  },
+  "ξυλάριον": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "2n",
+    "inflections": {
+      "ξυλάρια": {
+        "transliteration": "xylária",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
+      }
     }
   },
   "ξύλινος": {
     "language": "greek",
     "pos": "adj",
+    "declension": "2-1-2",
     "indices": { "strongs": "G3585" },
     "inflections": {
-      "ξύλινα": [
-        {
-          "parse": ["adj", "nom", "pl", "neut"],
-          "indices": { "strongs": "G3585" }
-        },
-        {
-          "parse": ["adj", "acc", "pl", "neut"],
-          "indices": { "strongs": "G3585" }
-        }
-      ]
-    },
-    "transliterations": { "ξύλινα": "xýlina" }
+      "ξύλινα": {
+        "transliteration": "xýlina",
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "acc", "pl", "neut"] }
+        ]
+      },
+      "ξύλινά": {
+        "transliteration": "xýliná",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "nom", "pl", "neut"] }
+        ]
+      },
+      "ξυλίνη": {
+        "transliteration": "xylínē",
+        "cells": [
+          { "parse": ["adj", "dat", "sg", "fem"] },
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "voc", "sg", "fem"] }
+        ]
+      },
+      "ξυλίνην": {
+        "transliteration": "xylínēn",
+        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+      },
+      "ξύλινοι": {
+        "transliteration": "xýlinoi",
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "nom", "pl", "masc"] }
+        ]
+      },
+      "ξυλίνοις": {
+        "transliteration": "xylínois",
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "fem"] },
+          { "parse": ["adj", "dat", "pl", "masc"] },
+          { "parse": ["adj", "dat", "pl", "neut"] }
+        ]
+      },
+      "ξύλινον": {
+        "transliteration": "xýlinon",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "fem"] },
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      },
+      "ξύλινος": {
+        "transliteration": "xýlinos",
+        "cells": [
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "nom", "sg", "masc"] }
+        ]
+      },
+      "ξυλίνου": {
+        "transliteration": "xylínou",
+        "cells": [
+          { "parse": ["adj", "gen", "sg", "fem"] },
+          { "parse": ["adj", "gen", "sg", "masc"] },
+          { "parse": ["adj", "gen", "sg", "neut"] }
+        ]
+      },
+      "ξυλίνους": {
+        "transliteration": "xylínous",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "acc", "pl", "masc"] }
+        ]
+      },
+      "ξυλίνῳ": {
+        "transliteration": "xylínō",
+        "cells": [
+          { "parse": ["adj", "dat", "sg", "fem"] },
+          { "parse": ["adj", "dat", "sg", "masc"] },
+          { "parse": ["adj", "dat", "sg", "neut"] }
+        ]
+      },
+      "ξυλίνων": {
+        "transliteration": "xylínōn",
+        "cells": [
+          { "parse": ["adj", "gen", "pl", "fem"] },
+          { "parse": ["adj", "gen", "pl", "masc"] },
+          { "parse": ["adj", "gen", "pl", "neut"] }
+        ]
+      }
+    }
+  },
+  "ξυλοκόπος": {
+    "language": "greek",
+    "pos": "noun",
+    "inflections": {
+      "ξυλοκόποι": {
+        "transliteration": "xylokópoi",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
+      "ξυλοκόπος": {
+        "transliteration": "xylokópos",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
+      "ξυλοκόπου": {
+        "transliteration": "xylokópou",
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "fem"] },
+          { "parse": ["noun", "gen", "sg", "masc"] }
+        ]
+      },
+      "ξυλοκόπους": {
+        "transliteration": "xylokópous",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "gen", "sg", "neut"] }
+        ]
+      }
+    }
   },
   "ξύλον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
+    "declension": "2n",
     "indices": { "strongs": "G3586" },
     "inflections": {
-      "ξύλα": [
-        {
-          "parse": ["noun", "acc", "pl", "neut"],
-          "indices": { "strongs": "G3586" }
-        }
-      ],
-      "ξύλον": [
-        {
-          "parse": ["noun", "acc", "sg", "neut"],
-          "indices": { "strongs": "G3586" }
-        },
-        {
-          "parse": ["noun", "nom", "sg", "neut"],
-          "indices": { "strongs": "G3586" }
-        }
-      ],
-      "ξύλου": [
-        {
-          "parse": ["noun", "gen", "sg", "neut"],
-          "indices": { "strongs": "G3586" }
-        }
-      ],
-      "ξύλῳ": [
-        {
-          "parse": ["noun", "dat", "sg", "neut"],
-          "indices": { "strongs": "G3586" }
-        }
-      ],
-      "ξύλων": [
-        {
-          "parse": ["noun", "gen", "pl", "neut"],
-          "indices": { "strongs": "G3586" }
-        }
-      ]
-    },
-    "transliterations": {
-      "ξύλα": "xýla",
-      "ξύλον": "xýlon",
-      "ξύλου": "xýlou",
-      "ξύλῳ": "xýlō",
-      "ξύλων": "xýlōn"
+      "ξύλα": {
+        "transliteration": "xýla",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] }
+        ]
+      },
+      "ξύλοις": {
+        "transliteration": "xýlois",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
+      "ξύλον": {
+        "transliteration": "xýlon",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] }
+        ]
+      },
+      "ξύλου": {
+        "transliteration": "xýlou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
+      },
+      "ξύλῳ": {
+        "transliteration": "xýlō",
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
+      "ξύλων": {
+        "transliteration": "xýlōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
+      }
+    }
+  },
+  "ξυλοφορία": {
+    "language": "greek",
+    "pos": "noun",
+    "inflections": {
+      "ξυλοφορίας": {
+        "transliteration": "xylophorías",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
+      }
+    }
+  },
+  "ξυλοφόρος": {
+    "language": "greek",
+    "pos": "adj",
+    "inflections": {
+      "ξυλοφόρων": {
+        "transliteration": "xylophórōn",
+        "cells": [
+          { "parse": ["adj", "gen", "pl", "fem"] },
+          { "parse": ["adj", "gen", "pl", "masc"] },
+          { "parse": ["adj", "gen", "pl", "neut"] }
+        ]
+      }
+    }
+  },
+  "ξυλόω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-o",
+    "inflections": {
+      "ἐξυλωμένα": {
+        "transliteration": "exylōména",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "ἐξύλωσεν": {
+        "transliteration": "exýlōsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
     }
   },
   "ξυράω": {
     "language": "greek",
     "pos": "verb",
+    "conjugation": "contract-a",
+    "deponent": true,
     "indices": { "strongs": "G3587" },
     "inflections": {
-      "ἐξυρημένῃ": [
-        {
-          "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"],
-          "indices": { "strongs": "G3587" }
-        }
-      ],
-      "ξυρᾶσθαι": [
-        {
-          "parse": ["verb", "pres", "pas", "inf"],
-          "indices": { "strongs": "G3587" }
-        }
-      ],
-      "ξυρήσωνται": [
-        {
-          "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "pl"],
-          "indices": { "strongs": "G3587" }
-        }
-      ]
-    },
-    "transliterations": {
-      "ἐξυρημένῃ": "exyrēménē",
-      "ξυρᾶσθαι": "xyrâsthai",
-      "ξυρήσωνται": "xyrḗsōntai"
+      "ἐξυρήθη": {
+        "transliteration": "exyrḗthē",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἐξυρημένῃ": {
+        "transliteration": "exyrēménē",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] }
+        ]
+      },
+      "ἐξυρημένοι": {
+        "transliteration": "exyrēménoi",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "mid-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "masc"] },
+          {
+            "parse": ["verb", "perf", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas-dep", "ptc", "nom", "pl", "masc"] }
+        ]
+      },
+      "ἐξυρημένους": {
+        "transliteration": "exyrēménous",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "mid-dep", "ptc", "acc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "acc", "pl", "masc"] },
+          {
+            "parse": ["verb", "perf", "midpas-dep", "ptc", "acc", "pl", "masc"]
+          },
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas-dep", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
+      "ἐξύρησαν": {
+        "transliteration": "exýrēsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἐξυρήσατο": {
+        "transliteration": "exyrḗsato",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἐξύρησεν": {
+        "transliteration": "exýrēsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ξυρᾶσθαι": {
+        "transliteration": "xyrâsthai",
+        "cells": [{ "parse": ["verb", "pres", "pas", "inf"] }]
+      },
+      "ξυρηθῆναι": {
+        "transliteration": "xyrēthē̂nai",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "inf"] },
+          { "parse": ["verb", "aor", "pas-dep", "inf"] }
+        ]
+      },
+      "ξυρηθήσεσθε": {
+        "transliteration": "xyrēthḗsesthe",
+        "cells": [
+          { "parse": ["verb", "fut", "pas", "ind", "pers-2", "pl"] },
+          { "parse": ["verb", "fut", "pas-dep", "ind", "pers-2", "pl"] }
+        ]
+      },
+      "ξυρηθήσεται": {
+        "transliteration": "xyrēthḗsetai",
+        "cells": [
+          { "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "pas-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ξύρησαι": {
+        "transliteration": "xýrēsai",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "inf"] },
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
+        ]
+      },
+      "ξυρήσασθαι": {
+        "transliteration": "xyrḗsasthai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "inf"] },
+          { "parse": ["verb", "aor", "mid-dep", "inf"] }
+        ]
+      },
+      "ξυρήσει": {
+        "transliteration": "xyrḗsei",
+        "cells": [
+          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "ξυρήσεις": {
+        "transliteration": "xyrḗseis",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ξυρήσεται": {
+        "transliteration": "xyrḗsetai",
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ξυρήσονται": {
+        "transliteration": "xyrḗsontai",
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
+      "ξυρήσωμαι": {
+        "transliteration": "xyrḗsōmai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "subj", "pers-1", "sg"] },
+          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-1", "sg"] }
+        ]
+      },
+      "ξυρήσωνται": {
+        "transliteration": "xyrḗsōntai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "pl"] }
+        ]
+      }
+    }
+  },
+  "ξύρησις": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "3f-is",
+    "inflections": {
+      "ξύρησιν": {
+        "transliteration": "xýrēsin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
+  "ξυρόν": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "2n",
+    "inflections": {
+      "ξυρόν": {
+        "transliteration": "xyrón",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
+      "ξυρῷ": {
+        "transliteration": "xyrō̂",
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      }
+    }
+  },
+  "ξυστός": {
+    "language": "greek",
+    "pos": "noun",
+    "inflections": {
+      "ξυστοῦ": {
+        "transliteration": "xystoû",
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "fem"] },
+          { "parse": ["noun", "gen", "sg", "masc"] }
+        ]
+      },
+      "ξυστούς": {
+        "transliteration": "xystoús",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "gen", "sg", "neut"] }
+        ]
+      },
+      "ξυστῶν": {
+        "transliteration": "xystō̂n",
+        "cells": [
+          { "parse": ["noun", "gen", "pl", "fem"] },
+          { "parse": ["noun", "gen", "pl", "masc"] },
+          { "parse": ["noun", "gen", "pl", "neut"] }
+        ]
+      }
+    }
+  },
+  "ξύω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "inflections": {
+      "ξύῃ": {
+        "transliteration": "xýē",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "mid", "subj", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "midpas", "subj", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] }
+        ]
+      },
+      "ξύων": {
+        "transliteration": "xýōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
+        ]
+      }
     }
   }
 }

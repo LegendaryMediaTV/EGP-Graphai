@@ -1,0 +1,5942 @@
+[
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 1,
+    "content": [
+      { "paragraph": true, "text": "Ἆισμα", "script": "G", "lemma": "ᾆσμα" },
+      { "text": " ᾀσμάτων,", "script": "G", "morph": "N-GPN", "lemma": "ᾆσμα" },
+      { "text": " ὅ", "script": "G", "morph": "R-ASN", "lemma": "ὅς" },
+      { "text": " ἐστιν", "script": "G", "morph": "V-PAI-3S", "lemma": "εἰμί" },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      {
+        "text": " Σαλωμων.",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "Σαλωμών"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 2,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Φιλησάτω",
+        "script": "G",
+        "morph": "V-AAM-3S",
+        "lemma": "φιλέω"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " φιλημάτων",
+        "script": "G",
+        "morph": "N-GPN",
+        "lemma": "φίλημα"
+      },
+      {
+        "text": " στόματος",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "στόμα"
+      },
+      { "text": " αὐτοῦ,", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      { "text": " ἀγαθοὶ", "script": "G", "morph": "A-NPM", "lemma": "ἀγαθός" },
+      { "text": " μαστοί", "script": "G", "morph": "N-NPM", "lemma": "μαστός" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὑπὲρ", "script": "G", "morph": "PREP", "lemma": "ὑπέρ" },
+      { "text": " οἶνον,", "script": "G", "morph": "N-ASM", "lemma": "οἶνος" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 3,
+    "content": [
+      { "text": "καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ὀσμὴ", "script": "G", "morph": "N-NSF", "lemma": "ὀσμή" },
+      { "text": " μύρων", "script": "G", "morph": "N-GPN", "lemma": "μύρον" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὑπὲρ", "script": "G", "morph": "PREP", "lemma": "ὑπέρ" },
+      { "text": " πάντα", "script": "G", "morph": "A-ASM", "lemma": "πᾶς" },
+      { "text": " τὰ", "script": "G", "morph": "T-APN", "lemma": "ὁ" },
+      {
+        "text": " ἀρώματα,",
+        "script": "G",
+        "morph": "N-APN",
+        "lemma": "ἄρωμα"
+      },
+      { "text": " μύρον", "script": "G", "morph": "N-ASN", "lemma": "μύρον" },
+      {
+        "text": " ἐκκενωθὲν",
+        "script": "G",
+        "morph": "V-APP-ASN",
+        "lemma": "ἐκκενόω"
+      },
+      { "text": " ὄνομά", "script": "G", "morph": "N-ASN", "lemma": "ὄνομα" },
+      { "text": " σου.", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " Διὰ", "script": "G", "morph": "PREP", "lemma": "διά" },
+      { "text": " τοῦτο", "script": "G", "morph": "D-NSN", "lemma": "οὗτος" },
+      {
+        "text": " νεάνιδες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "νεᾶνις"
+      },
+      {
+        "text": " ἠγάπησάν",
+        "script": "G",
+        "morph": "V-AAI-3P",
+        "lemma": "ἀγαπάω"
+      },
+      { "text": " σε,", "script": "G", "morph": "P-2AS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 4,
+    "content": [
+      {
+        "text": "εἵλκυσάν",
+        "script": "G",
+        "morph": "V-AAI-3P",
+        "lemma": "ἑλκύω"
+      },
+      { "text": " σε,", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      { "text": " ὀπίσω", "script": "G", "morph": "ADV", "lemma": "ὀπίσω" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " ὀσμὴν", "script": "G", "morph": "N-ASF", "lemma": "ὀσμή" },
+      { "text": " μύρων", "script": "G", "morph": "N-GPN", "lemma": "μύρον" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " δραμοῦμεν.", "script": "G", "lemma": "τρέχω" },
+      {
+        "paragraph": true,
+        "text": " Εἰσήνεγκέν",
+        "script": "G",
+        "morph": "V-2AAI-3S",
+        "lemma": "εἰσφέρω"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      {
+        "text": " βασιλεὺς",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "βασιλεύς"
+      },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " τὸ", "script": "G", "morph": "T-ASN", "lemma": "ὁ" },
+      {
+        "text": " ταμίειον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "ταμεῖον"
+      },
+      { "text": " αὐτοῦ.", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "paragraph": true,
+        "text": " Ἀγαλλιασώμεθα",
+        "script": "G",
+        "morph": "V-AMS-1P",
+        "lemma": "ἀγαλλιάω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " εὐφρανθῶμεν",
+        "script": "G",
+        "morph": "V-APS-1P",
+        "lemma": "εὐφραίνω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " σοί,", "script": "G", "morph": "P-2DS", "lemma": "σύ" },
+      {
+        "text": " ἀγαπήσομεν",
+        "script": "G",
+        "morph": "V-FAI-1P",
+        "lemma": "ἀγαπάω"
+      },
+      {
+        "text": " μαστούς",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "μαστός"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὑπὲρ", "script": "G", "morph": "PREP", "lemma": "ὑπέρ" },
+      { "text": " οἶνον·", "script": "G", "morph": "N-ASM", "lemma": "οἶνος" },
+      {
+        "text": " εὐθύτης",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "εὐθύτης"
+      },
+      {
+        "text": " ἠγάπησέν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ἀγαπάω"
+      },
+      { "text": " σε.", "script": "G", "morph": "P-2AS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 5,
+    "content": [
+      { "paragraph": true, "text": "Μέλαινά", "script": "G", "lemma": "μέλας" },
+      { "text": " εἰμι", "script": "G", "morph": "V-PAI-1S", "lemma": "εἰμί" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " καλή,", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      {
+        "text": " θυγατέρες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "θυγάτηρ"
+      },
+      {
+        "text": " Ιερουσαλημ,",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Ἱερουσαλήμ"
+      },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " σκηνώματα",
+        "script": "G",
+        "morph": "N-APN",
+        "lemma": "σκήνωμα"
+      },
+      { "text": " Κηδαρ,", "script": "G", "morph": "N-PRI", "lemma": "Κηδαρ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " δέρρεις",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "δέρρις"
+      },
+      {
+        "text": " Σαλωμων.",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "Σαλωμών"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 6,
+    "content": [
+      { "text": "Μὴ", "script": "G", "morph": "PRT-N", "lemma": "μή" },
+      {
+        "text": " βλέψητέ",
+        "script": "G",
+        "morph": "V-AAS-2P",
+        "lemma": "βλέπω"
+      },
+      { "text": " με,", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      { "text": " ἐγώ", "script": "G", "morph": "P-1NS", "lemma": "ἐγώ" },
+      { "text": " εἰμι", "script": "G", "morph": "V-PAI-1S", "lemma": "εἰμί" },
+      {
+        "text": " μεμελανωμένη,",
+        "script": "G",
+        "morph": "V-REP-NSF",
+        "lemma": "μελανόομαι"
+      },
+      { "text": " ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      {
+        "text": " παρέβλεψέν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "παραβλέπω"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      { "text": " ἥλιος·", "script": "G", "morph": "N-NSM", "lemma": "ἥλιος" },
+      { "text": " υἱοὶ", "script": "G", "morph": "N-NPM", "lemma": "υἱός" },
+      { "text": " μητρός", "script": "G", "morph": "N-GSF", "lemma": "μήτηρ" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἐμαχέσαντο", "script": "G", "lemma": "μάχομαι" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ἐμοί,", "script": "G", "morph": "P-1DS", "lemma": "ἐγώ" },
+      {
+        "text": " ἔθεντό",
+        "script": "G",
+        "morph": "V-2AMI-3P",
+        "lemma": "τίθημι"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      {
+        "text": " φυλάκισσαν",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "φυλάκισσα"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ἀμπελῶσιν·", "script": "G", "lemma": "ἀμπελών" },
+      {
+        "text": " ἀμπελῶνα",
+        "script": "G",
+        "morph": "N-ASM",
+        "lemma": "ἀμπελών"
+      },
+      { "text": " ἐμὸν", "script": "G", "morph": "S-1SASM", "lemma": "ἐμός" },
+      { "text": " οὐκ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " ἐφύλαξα.",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "φυλάσσω"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 7,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἀπάγγειλόν",
+        "script": "G",
+        "morph": "V-AAM-2S",
+        "lemma": "ἀπαγγέλλω"
+      },
+      { "text": " μοι,", "script": "G", "morph": "P-1DS", "lemma": "ἐγώ" },
+      { "text": " ὃν", "script": "G", "morph": "R-ASM", "lemma": "ὅς" },
+      {
+        "text": " ἠγάπησεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ἀγαπάω"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " ψυχή", "script": "G", "morph": "N-NSF", "lemma": "ψυχή" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ποῦ", "script": "G", "morph": "ADV", "lemma": "πού" },
+      {
+        "text": " ποιμαίνεις,",
+        "script": "G",
+        "morph": "V-PAI-2S",
+        "lemma": "ποιμαίνω"
+      },
+      { "text": " ποῦ", "script": "G", "morph": "ADV", "lemma": "πού" },
+      {
+        "text": " κοιτάζεις",
+        "script": "G",
+        "morph": "V-PAI-2S",
+        "lemma": "κοιτάζομαι"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " μεσημβρίᾳ,",
+        "script": "G",
+        "morph": "N-DSF",
+        "lemma": "μεσημβρία"
+      },
+      { "text": " μήποτε", "script": "G", "morph": "ADV-N", "lemma": "μήποτε" },
+      {
+        "text": " γένωμαι",
+        "script": "G",
+        "morph": "V-2ADS-1S",
+        "lemma": "γίνομαι"
+      },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " περιβαλλομένη",
+        "script": "G",
+        "morph": "V-PEP-NSF",
+        "lemma": "περιβάλλω"
+      },
+      { "text": " ἐπ’", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " ἀγέλαις", "script": "G", "morph": "N-DPF", "lemma": "ἀγέλη" },
+      {
+        "text": " ἑταίρων",
+        "script": "G",
+        "morph": "N-GPM",
+        "lemma": "ἑταῖρος"
+      },
+      { "text": " σου.", "script": "G", "morph": "P-2GS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 8,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐὰν",
+        "script": "G",
+        "morph": "COND",
+        "lemma": "ἐάν"
+      },
+      { "text": " μὴ", "script": "G", "morph": "PRT-N", "lemma": "μή" },
+      {
+        "text": " γνῷς",
+        "script": "G",
+        "morph": "V-2AAS-2S",
+        "lemma": "γινώσκω"
+      },
+      { "text": " σεαυτήν,", "script": "G", "lemma": "σεαυτοῦ" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " καλὴ", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " γυναιξίν,",
+        "script": "G",
+        "morph": "N-DPF",
+        "lemma": "γυνή"
+      },
+      {
+        "text": " ἔξελθε",
+        "script": "G",
+        "morph": "V-2AAM-2S",
+        "lemma": "ἐξέρχομαι"
+      },
+      { "text": " σὺ", "script": "G", "morph": "P-2NS", "lemma": "σύ" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " πτέρναις",
+        "script": "G",
+        "morph": "N-DPF",
+        "lemma": "πτέρνη"
+      },
+      { "text": " τῶν", "script": "G", "morph": "T-GPN", "lemma": "ὁ" },
+      {
+        "text": " ποιμνίων",
+        "script": "G",
+        "morph": "N-GPN",
+        "lemma": "ποίμνιον"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ποίμαινε",
+        "script": "G",
+        "morph": "V-PAM-2S",
+        "lemma": "ποιμαίνω"
+      },
+      { "text": " τὰς", "script": "G", "morph": "T-APF", "lemma": "ὁ" },
+      {
+        "text": " ἐρίφους",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "ἔριφος"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " σκηνώμασιν", "script": "G", "lemma": "σκήνωμα" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPM", "lemma": "ὁ" },
+      {
+        "text": " ποιμένων.",
+        "script": "G",
+        "morph": "N-GPM",
+        "lemma": "ποιμήν"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 9,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Τῇ",
+        "script": "G",
+        "morph": "T-DSF",
+        "lemma": "ὁ"
+      },
+      { "text": " ἵππῳ", "script": "G", "morph": "N-DSM", "lemma": "ἵππος" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ἅρμασιν", "script": "G", "lemma": "ἅρμα" },
+      { "text": " Φαραω", "script": "G", "morph": "N-PRI", "lemma": "Φαραώ" },
+      {
+        "text": " ὡμοίωσά",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ὁμοιόω"
+      },
+      { "text": " σε,", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " πλησίον", "script": "G", "morph": "ADV", "lemma": "πλησίον" },
+      { "text": " μου.", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 10,
+    "content": [
+      { "text": "Τί", "script": "G", "morph": "X-ASN", "lemma": "τις" },
+      {
+        "text": " ὡραιώθησαν",
+        "script": "G",
+        "morph": "V-API-3P",
+        "lemma": "ὡραιοῦμαι"
+      },
+      {
+        "text": " σιαγόνες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "σιαγών"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " τρυγόνες,",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "τρυγών"
+      },
+      {
+        "text": " τράχηλός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "τράχηλος"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " ὁρμίσκοι;",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "ὁρμίσκος"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 11,
+    "content": [
+      {
+        "text": "Ὁμοιώματα",
+        "script": "G",
+        "morph": "N-APN",
+        "lemma": "ὁμοίωμα"
+      },
+      {
+        "text": " χρυσίου",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "χρυσίον"
+      },
+      {
+        "text": " ποιήσομέν",
+        "script": "G",
+        "morph": "V-FAI-1P",
+        "lemma": "ποιέω"
+      },
+      { "text": " σοι", "script": "G", "morph": "P-2DS", "lemma": "σύ" },
+      { "text": " μετὰ", "script": "G", "morph": "PREP", "lemma": "μετά" },
+      {
+        "text": " στιγμάτων",
+        "script": "G",
+        "morph": "N-GPN",
+        "lemma": "στίγμα"
+      },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSN", "lemma": "ὁ" },
+      {
+        "text": " ἀργυρίου.",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "ἀργύριον"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 12,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἕως",
+        "script": "G",
+        "morph": "ADV",
+        "lemma": "ἕως"
+      },
+      { "text": " οὗ", "script": "G", "morph": "R-GSM", "lemma": "ὅς" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      {
+        "text": " βασιλεὺς",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "βασιλεύς"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " ἀνακλίσει",
+        "script": "G",
+        "morph": "N-DSF",
+        "lemma": "ἀνάκλισις"
+      },
+      { "text": " αὐτοῦ,", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " νάρδος", "script": "G", "morph": "N-NSF", "lemma": "νάρδος" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἔδωκεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "δίδωμι"
+      },
+      { "text": " ὀσμὴν", "script": "G", "morph": "N-ASF", "lemma": "ὀσμή" },
+      { "text": " αὐτοῦ.", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 13,
+    "content": [
+      {
+        "text": "Ἀπόδεσμος",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀπόδεσμος"
+      },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      {
+        "text": " στακτῆς",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "στακτή"
+      },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἐμοί,", "script": "G", "morph": "S-1SNPM", "lemma": "ἐμός" },
+      { "text": " ἀνὰ", "script": "G", "morph": "PREP", "lemma": "ἀνά" },
+      { "text": " μέσον", "script": "G", "morph": "A-ASN", "lemma": "μέσος" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPM", "lemma": "ὁ" },
+      { "text": " μαστῶν", "script": "G", "morph": "N-GPM", "lemma": "μαστός" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " αὐλισθήσεται·", "script": "G", "lemma": "αὐλίζομαι" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 14,
+    "content": [
+      { "text": "βότρυς", "script": "G", "morph": "N-NSM", "lemma": "βότρυς" },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      { "text": " κύπρου", "script": "G", "morph": "N-GSF", "lemma": "Κύπρος" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἐμοὶ", "script": "G", "morph": "S-1SNPM", "lemma": "ἐμός" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ἀμπελῶσιν", "script": "G", "lemma": "ἀμπελών" },
+      {
+        "text": " Εγγαδδι.",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Εγγαδδι"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 15,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἰδοὺ",
+        "script": "G",
+        "morph": "V-2AMM-2S",
+        "lemma": "ὁράω"
+      },
+      { "text": " εἶ", "script": "G", "morph": "V-PAI-2S", "lemma": "εἰμί" },
+      { "text": " καλή,", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " πλησίον", "script": "G", "morph": "ADV", "lemma": "πλησίον" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἰδοὺ", "script": "G", "morph": "V-2AMM-2S", "lemma": "ὁράω" },
+      { "text": " εἶ", "script": "G", "morph": "V-PAI-2S", "lemma": "εἰμί" },
+      { "text": " καλή,", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      {
+        "text": " ὀφθαλμοί",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "ὀφθαλμός"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      {
+        "text": " περιστεραί.",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "περιστερά"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 16,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἰδοὺ",
+        "script": "G",
+        "morph": "V-2AMM-2S",
+        "lemma": "ὁράω"
+      },
+      { "text": " εἶ", "script": "G", "morph": "V-PAI-2S", "lemma": "εἰμί" },
+      { "text": " καλός,", "script": "G", "morph": "A-NSM", "lemma": "καλός" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καί", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " γε", "script": "G", "morph": "PRT", "lemma": "γε" },
+      {
+        "text": " ὡραῖος·",
+        "script": "G",
+        "morph": "A-NSM",
+        "lemma": "ὡραῖος"
+      },
+      { "text": " πρὸς", "script": "G", "morph": "PREP", "lemma": "πρός" },
+      { "text": " κλίνη", "script": "G", "morph": "N-NSF", "lemma": "κλίνη" },
+      { "text": " ἡμῶν", "script": "G", "morph": "P-1GP", "lemma": "ἐγώ" },
+      {
+        "text": " σύσκιος,",
+        "script": "G",
+        "morph": "A-NSM",
+        "lemma": "σύσκιος"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 1,
+    "verse": 17,
+    "content": [
+      { "text": "δοκοὶ", "script": "G", "morph": "N-NPF", "lemma": "δοκός" },
+      { "text": " οἴκων", "script": "G", "morph": "N-GPM", "lemma": "οἶκος" },
+      { "text": " ἡμῶν", "script": "G", "morph": "P-1GP", "lemma": "ἐγώ" },
+      {
+        "text": " κέδροι,",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "κέδρος"
+      },
+      {
+        "text": " φατνώματα",
+        "script": "G",
+        "morph": "N-APN",
+        "lemma": "φάτνωμα"
+      },
+      { "text": " ἡμῶν", "script": "G", "morph": "P-1GP", "lemma": "ἐγώ" },
+      {
+        "text": " κυπάρισσοι.",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "κυπάρισσος"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐγὼ",
+        "script": "G",
+        "morph": "P-1NS",
+        "lemma": "ἐγώ"
+      },
+      { "text": " ἄνθος", "script": "G", "morph": "N-NSN", "lemma": "ἄνθος" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSN", "lemma": "ὁ" },
+      {
+        "text": " πεδίου,",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "πεδίον"
+      },
+      { "text": " κρίνον", "script": "G", "morph": "N-ASN", "lemma": "κρίνον" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPF", "lemma": "ὁ" },
+      {
+        "text": " κοιλάδων.",
+        "script": "G",
+        "morph": "N-GPF",
+        "lemma": "κοιλάς"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 2,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ὡς",
+        "script": "G",
+        "morph": "ADV",
+        "lemma": "ὡς"
+      },
+      { "text": " κρίνον", "script": "G", "morph": "N-ASN", "lemma": "κρίνον" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " μέσῳ", "script": "G", "morph": "A-DSN", "lemma": "μέσος" },
+      {
+        "text": " ἀκανθῶν,",
+        "script": "G",
+        "morph": "N-GPF",
+        "lemma": "ἄκανθα"
+      },
+      { "text": " οὕτως", "script": "G", "morph": "ADV", "lemma": "οὕτως" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " πλησίον", "script": "G", "morph": "ADV", "lemma": "πλησίον" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἀνὰ", "script": "G", "morph": "PREP", "lemma": "ἀνά" },
+      { "text": " μέσον", "script": "G", "morph": "A-ASN", "lemma": "μέσος" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPF", "lemma": "ὁ" },
+      {
+        "text": " θυγατέρων.",
+        "script": "G",
+        "morph": "N-GPF",
+        "lemma": "θυγάτηρ"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 3,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ὡς",
+        "script": "G",
+        "morph": "ADV",
+        "lemma": "ὡς"
+      },
+      { "text": " μῆλον", "script": "G", "morph": "N-ASN", "lemma": "μῆλον" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τοῖς", "script": "G", "morph": "T-DPN", "lemma": "ὁ" },
+      { "text": " ξύλοις", "script": "G", "morph": "N-DPN", "lemma": "ξύλον" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      {
+        "text": " δρυμοῦ,",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "δρυμός"
+      },
+      { "text": " οὕτως", "script": "G", "morph": "ADV", "lemma": "οὕτως" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἀνὰ", "script": "G", "morph": "PREP", "lemma": "ἀνά" },
+      { "text": " μέσον", "script": "G", "morph": "A-ASN", "lemma": "μέσος" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPM", "lemma": "ὁ" },
+      { "text": " υἱῶν·", "script": "G", "morph": "N-GPM", "lemma": "υἱός" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      { "text": " σκιᾷ", "script": "G", "morph": "N-DSF", "lemma": "σκιά" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " ἐπεθύμησα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ἐπιθυμέω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἐκάθισα,",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "καθίζω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " καρπὸς", "script": "G", "morph": "N-NSM", "lemma": "καρπός" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " γλυκὺς", "script": "G", "morph": "A-NSM", "lemma": "γλυκύς" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " λάρυγγί", "script": "G", "lemma": "λάρυγξ" },
+      { "text": " μου.", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 4,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Εἰσαγάγετέ",
+        "script": "G",
+        "lemma": "εἰσάγω"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " οἶκον", "script": "G", "morph": "N-ASM", "lemma": "οἶκος" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      { "text": " οἴνου,", "script": "G", "morph": "N-GSM", "lemma": "οἶνος" },
+      {
+        "text": " τάξατε",
+        "script": "G",
+        "morph": "V-2AAI-2P",
+        "lemma": "τάσσω"
+      },
+      { "text": " ἐπ’", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " ἐμὲ", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ἀγάπην.", "script": "G", "morph": "N-ASF", "lemma": "ἀγάπη" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 5,
+    "content": [
+      {
+        "text": "Στηρίσατέ",
+        "script": "G",
+        "morph": "V-AAM-2P",
+        "lemma": "στηρίζω"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " ἀμόραις,",
+        "script": "G",
+        "morph": "A-DPF",
+        "lemma": "ἄμορος"
+      },
+      {
+        "text": " στοιβάσατέ",
+        "script": "G",
+        "morph": "V-AAM-2P",
+        "lemma": "στοιβάζω"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " μήλοις,", "script": "G", "morph": "N-DPN", "lemma": "μῆλον" },
+      { "text": " ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      {
+        "text": " τετρωμένη",
+        "script": "G",
+        "morph": "V-REP-NSF",
+        "lemma": "τιτρώσκω"
+      },
+      { "text": " ἀγάπης", "script": "G", "morph": "N-GSF", "lemma": "ἀγάπη" },
+      { "text": " ἐγώ.", "script": "G", "morph": "P-1NS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 6,
+    "content": [
+      {
+        "text": "Εὐώνυμος",
+        "script": "G",
+        "morph": "A-NSM",
+        "lemma": "εὐώνυμος"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ὑπὸ", "script": "G", "morph": "PREP", "lemma": "ὑπό" },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      {
+        "text": " κεφαλήν",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "κεφαλή"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " δεξιὰ", "script": "G", "morph": "A-NSF", "lemma": "δεξιός" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " περιλήμψεταί",
+        "script": "G",
+        "morph": "V-FMI-3S",
+        "lemma": "περιλαμβάνω"
+      },
+      { "text": " με.", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 7,
+    "content": [
+      {
+        "text": "Ὥρκισα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ὁρκίζω"
+      },
+      { "text": " ὑμᾶς,", "script": "G", "morph": "P-2AP", "lemma": "σύ" },
+      {
+        "text": " θυγατέρες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "θυγάτηρ"
+      },
+      {
+        "text": " Ιερουσαλημ,",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Ἱερουσαλήμ"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ταῖς", "script": "G", "morph": "T-DPF", "lemma": "ὁ" },
+      {
+        "text": " δυνάμεσιν",
+        "script": "G",
+        "morph": "N-DPF",
+        "lemma": "δύναμις"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ταῖς", "script": "G", "morph": "T-DPF", "lemma": "ὁ" },
+      { "text": " ἰσχύσεσιν", "script": "G", "lemma": "ἰσχύς" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      { "text": " ἀγροῦ,", "script": "G", "morph": "N-GSM", "lemma": "ἀγρός" },
+      { "text": " ἐὰν", "script": "G", "morph": "COND", "lemma": "ἐάν" },
+      {
+        "text": " ἐγείρητε",
+        "script": "G",
+        "morph": "V-AAS-2P",
+        "lemma": "ἐγείρω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἐξεγείρητε",
+        "script": "G",
+        "morph": "V-AAS-2P",
+        "lemma": "ἐξεγείρω"
+      },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      { "text": " ἀγάπην,", "script": "G", "morph": "N-ASF", "lemma": "ἀγάπη" },
+      { "text": " ἕως", "script": "G", "morph": "ADV", "lemma": "ἕως" },
+      { "text": " οὗ", "script": "G", "morph": "R-GSM", "lemma": "ὅς" },
+      {
+        "text": " θελήσῃ.",
+        "script": "G",
+        "morph": "V-AAS-3S",
+        "lemma": "θέλω"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 8,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Φωνὴ",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "φωνή"
+      },
+      {
+        "text": " ἀδελφιδοῦ",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου·", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἰδοὺ", "script": "G", "morph": "V-2AMM-2S", "lemma": "ὁράω" },
+      { "text": " οὗτος", "script": "G", "morph": "D-NSM", "lemma": "οὗτος" },
+      { "text": " ἥκει", "script": "G", "morph": "V-PAI-3S", "lemma": "ἥκω" },
+      {
+        "text": " πηδῶν",
+        "script": "G",
+        "morph": "V-PAP-NSM",
+        "lemma": "πηδάω"
+      },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " τὰ", "script": "G", "morph": "T-APN", "lemma": "ὁ" },
+      { "text": " ὄρη", "script": "G", "morph": "N-APN", "lemma": "ὄρος" },
+      {
+        "text": " διαλλόμενος",
+        "script": "G",
+        "morph": "V-PEP-NSM",
+        "lemma": "διάλλομαι"
+      },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " τοὺς", "script": "G", "morph": "T-APM", "lemma": "ὁ" },
+      {
+        "text": " βουνούς.",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "βουνός"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 9,
+    "content": [
+      { "text": "Ὅμοιός", "script": "G", "morph": "A-NSM", "lemma": "ὅμοιος" },
+      { "text": " ἐστιν", "script": "G", "morph": "V-PAI-3S", "lemma": "εἰμί" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      {
+        "text": " δορκάδι",
+        "script": "G",
+        "morph": "N-DSF",
+        "lemma": "δορκάς"
+      },
+      { "text": " ἢ", "script": "G", "morph": "PRT", "lemma": "ἤ" },
+      { "text": " νεβρῷ", "script": "G", "morph": "N-DSF", "lemma": "νεβρός" },
+      { "text": " ἐλάφων", "script": "G", "morph": "N-GPF", "lemma": "ἔλαφος" },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " τὰ", "script": "G", "morph": "T-APN", "lemma": "ὁ" },
+      { "text": " ὄρη", "script": "G", "morph": "N-APN", "lemma": "ὄρος" },
+      {
+        "text": " Βαιθηλ.",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Βαιθηλ"
+      },
+      { "text": " Ἰδοὺ", "script": "G", "morph": "V-2AMM-2S", "lemma": "ὁράω" },
+      { "text": " οὗτος", "script": "G", "morph": "D-NSM", "lemma": "οὗτος" },
+      {
+        "text": " ἕστηκεν",
+        "script": "G",
+        "morph": "V-RAI-3S",
+        "lemma": "ἵστημι"
+      },
+      { "text": " ὀπίσω", "script": "G", "morph": "ADV", "lemma": "ὀπίσω" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      { "text": " τοίχου", "script": "G", "morph": "N-GSM", "lemma": "τοῖχος" },
+      { "text": " ἡμῶν", "script": "G", "morph": "P-1GP", "lemma": "ἐγώ" },
+      {
+        "text": " παρακύπτων",
+        "script": "G",
+        "morph": "V-PAP-NSM",
+        "lemma": "παρακύπτω"
+      },
+      { "text": " διὰ", "script": "G", "morph": "PREP", "lemma": "διά" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPF", "lemma": "ὁ" },
+      { "text": " θυρίδων", "script": "G", "morph": "N-GPF", "lemma": "θυρίς" },
+      {
+        "text": " ἐκκύπτων",
+        "script": "G",
+        "morph": "V-PAP-NSM",
+        "lemma": "ἐκκύπτω"
+      },
+      { "text": " διὰ", "script": "G", "morph": "PREP", "lemma": "διά" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPN", "lemma": "ὁ" },
+      {
+        "text": " δικτύων.",
+        "script": "G",
+        "morph": "N-GPN",
+        "lemma": "δίκτυον"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 10,
+    "content": [
+      {
+        "text": "Ἀποκρίνεται",
+        "script": "G",
+        "morph": "V-PNI-3S",
+        "lemma": "ἀποκρίνομαι"
+      },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " λέγει", "script": "G", "morph": "V-PAI-3S", "lemma": "λέγω" },
+      { "text": " μοι", "script": "G", "morph": "P-1DS", "lemma": "ἐγώ" },
+      {
+        "text": " Ἀνάστα",
+        "script": "G",
+        "morph": "V-2AAM-2S",
+        "lemma": "ἀνίστημι"
+      },
+      {
+        "text": " ἐλθέ,",
+        "script": "G",
+        "morph": "V-2AAM-2S",
+        "lemma": "ἔρχομαι"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " πλησίον", "script": "G", "morph": "ADV", "lemma": "πλησίον" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καλή", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " περιστερά",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "περιστερά"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 11,
+    "content": [
+      { "text": "ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      { "text": " ἰδοὺ", "script": "G", "morph": "V-2AMM-2S", "lemma": "ὁράω" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      { "text": " χειμὼν", "script": "G", "morph": "N-NSM", "lemma": "χειμών" },
+      {
+        "text": " παρῆλθεν,",
+        "script": "G",
+        "morph": "V-2AAI-3S",
+        "lemma": "παρέρχομαι"
+      },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      { "text": " ὑετὸς", "script": "G", "morph": "N-NSM", "lemma": "ὑετός" },
+      {
+        "text": " ἀπῆλθεν,",
+        "script": "G",
+        "morph": "V-2AAI-3S",
+        "lemma": "ἀπέρχομαι"
+      },
+      {
+        "text": " ἐπορεύθη",
+        "script": "G",
+        "morph": "V-AOI-3S",
+        "lemma": "πορεύομαι"
+      },
+      { "text": " ἑαυτῷ,", "script": "G", "morph": "F-3DSM", "lemma": "ἑαυτοῦ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 12,
+    "content": [
+      { "text": "τὰ", "script": "G", "morph": "T-APN", "lemma": "ὁ" },
+      { "text": " ἄνθη", "script": "G", "morph": "N-APN", "lemma": "ἄνθος" },
+      { "text": " ὤφθη", "script": "G", "morph": "V-API-3S", "lemma": "ὁράω" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      { "text": " γῇ,", "script": "G", "morph": "N-DSF", "lemma": "γῆ" },
+      { "text": " καιρὸς", "script": "G", "morph": "N-NSM", "lemma": "καιρός" },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      { "text": " τομῆς", "script": "G", "morph": "N-GSF", "lemma": "τομή" },
+      {
+        "text": " ἔφθακεν,",
+        "script": "G",
+        "morph": "V-RAI-3S",
+        "lemma": "φθάνω"
+      },
+      { "text": " φωνὴ", "script": "G", "morph": "N-NSF", "lemma": "φωνή" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      {
+        "text": " τρυγόνος",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "τρυγών"
+      },
+      {
+        "text": " ἠκούσθη",
+        "script": "G",
+        "morph": "V-API-3S",
+        "lemma": "ἀκούω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      { "text": " γῇ", "script": "G", "morph": "N-DSF", "lemma": "γῆ" },
+      { "text": " ἡμῶν,", "script": "G", "morph": "P-1GP", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 13,
+    "content": [
+      { "text": "ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " συκῆ", "script": "G", "morph": "N-NSF", "lemma": "συκῆ" },
+      {
+        "text": " ἐξήνεγκεν",
+        "script": "G",
+        "morph": "V-RAI-3S",
+        "lemma": "ἐκφέρω"
+      },
+      {
+        "text": " ὀλύνθους",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "ὄλυνθος"
+      },
+      { "text": " αὐτῆς,", "script": "G", "morph": "P-GSF", "lemma": "αὐτός" },
+      { "text": " αἱ", "script": "G", "morph": "T-NPF", "lemma": "ὁ" },
+      {
+        "text": " ἄμπελοι",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "ἄμπελος"
+      },
+      {
+        "text": " κυπρίζουσιν,",
+        "script": "G",
+        "morph": "V-PAI-3P",
+        "lemma": "κυπρίζω"
+      },
+      {
+        "text": " ἔδωκαν",
+        "script": "G",
+        "morph": "V-AAI-3P",
+        "lemma": "δίδωμι"
+      },
+      { "text": " ὀσμήν.", "script": "G", "morph": "N-ASF", "lemma": "ὀσμή" },
+      {
+        "text": " Ἀνάστα",
+        "script": "G",
+        "morph": "V-2AAM-2S",
+        "lemma": "ἀνίστημι"
+      },
+      {
+        "text": " ἐλθέ,",
+        "script": "G",
+        "morph": "V-2AAM-2S",
+        "lemma": "ἔρχομαι"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " πλησίον", "script": "G", "morph": "ADV", "lemma": "πλησίον" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καλή", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " περιστερά",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "περιστερά"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 14,
+    "content": [
+      { "text": "καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἐλθὲ",
+        "script": "G",
+        "morph": "V-2AAM-2S",
+        "lemma": "ἔρχομαι"
+      },
+      { "text": " σύ,", "script": "G", "morph": "P-2NS", "lemma": "σύ" },
+      {
+        "text": " περιστερά",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "περιστερά"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " σκέπῃ", "script": "G", "morph": "N-DSF", "lemma": "σκέπη" },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      { "text": " πέτρας", "script": "G", "morph": "N-GSF", "lemma": "πέτρα" },
+      {
+        "text": " ἐχόμενα",
+        "script": "G",
+        "morph": "V-PPP-APN",
+        "lemma": "ἔχω"
+      },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSN", "lemma": "ὁ" },
+      {
+        "text": " προτειχίσματος,",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "προτείχισμα"
+      },
+      {
+        "text": " δεῖξόν",
+        "script": "G",
+        "morph": "V-2AAP-ASN",
+        "lemma": "δεικνύω"
+      },
+      { "text": " μοι", "script": "G", "morph": "P-1DS", "lemma": "ἐγώ" },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      { "text": " ὄψιν", "script": "G", "morph": "N-ASF", "lemma": "ὄψις" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἀκούτισόν",
+        "script": "G",
+        "morph": "V-FAP-ASN",
+        "lemma": "ἀκουτίζω"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      { "text": " φωνήν", "script": "G", "morph": "N-ASF", "lemma": "φωνή" },
+      { "text": " σου,", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " φωνή", "script": "G", "morph": "N-NSF", "lemma": "φωνή" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἡδεῖα,", "script": "G", "morph": "A-NSF", "lemma": "ἡδύς" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " ὄψις", "script": "G", "morph": "N-NSF", "lemma": "ὄψις" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡραία.", "script": "G", "morph": "A-DSF", "lemma": "ὡραῖος" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 15,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Πιάσατε",
+        "script": "G",
+        "morph": "V-AAM-2P",
+        "lemma": "πιάζω"
+      },
+      { "text": " ἡμῖν", "script": "G", "morph": "P-1DP", "lemma": "ἐγώ" },
+      { "text": " ἀλώπεκας", "script": "G", "lemma": "ἀλώπηξ" },
+      {
+        "text": " μικροὺς",
+        "script": "G",
+        "morph": "A-APM",
+        "lemma": "μικρός"
+      },
+      {
+        "text": " ἀφανίζοντας",
+        "script": "G",
+        "morph": "V-PAP-APM",
+        "lemma": "ἀφανίζω"
+      },
+      {
+        "text": " ἀμπελῶνας,",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "ἀμπελών"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " αἱ", "script": "G", "morph": "T-NPF", "lemma": "ὁ" },
+      {
+        "text": " ἄμπελοι",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "ἄμπελος"
+      },
+      { "text": " ἡμῶν", "script": "G", "morph": "P-1GP", "lemma": "ἐγώ" },
+      {
+        "text": " κυπρίζουσιν.",
+        "script": "G",
+        "morph": "V-PAI-3P",
+        "lemma": "κυπρίζω"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 16,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἐμοί,", "script": "G", "morph": "S-1SNPM", "lemma": "ἐμός" },
+      { "text": " κἀγὼ", "script": "G", "morph": "P-1NS-K", "lemma": "κἀγώ" },
+      { "text": " αὐτῷ,", "script": "G", "morph": "P-DSM", "lemma": "αὐτός" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      {
+        "text": " ποιμαίνων",
+        "script": "G",
+        "morph": "V-PAP-NSM",
+        "lemma": "ποιμαίνω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τοῖς", "script": "G", "morph": "T-DPN", "lemma": "ὁ" },
+      {
+        "text": " κρίνοις,",
+        "script": "G",
+        "morph": "N-DPN",
+        "lemma": "κρίνον"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 2,
+    "verse": 17,
+    "content": [
+      { "text": "ἕως", "script": "G", "morph": "ADV", "lemma": "ἕως" },
+      { "text": " οὗ", "script": "G", "morph": "R-GSM", "lemma": "ὅς" },
+      {
+        "text": " διαπνεύσῃ",
+        "script": "G",
+        "morph": "V-FMI-2S",
+        "lemma": "διαπνέω"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " ἡμέρα", "script": "G", "morph": "N-NSF", "lemma": "ἡμέρα" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " κινηθῶσιν",
+        "script": "G",
+        "morph": "V-APS-3P",
+        "lemma": "κινέω"
+      },
+      { "text": " αἱ", "script": "G", "morph": "T-NPF", "lemma": "ὁ" },
+      { "text": " σκιαί.", "script": "G", "morph": "N-NPF", "lemma": "σκιά" },
+      {
+        "text": " Ἀπόστρεψον",
+        "script": "G",
+        "morph": "V-AAM-2S",
+        "lemma": "ἀποστρέφω"
+      },
+      {
+        "text": " ὁμοιώθητι",
+        "script": "G",
+        "morph": "V-APM-2S",
+        "lemma": "ὁμοιόω"
+      },
+      { "text": " σύ,", "script": "G", "morph": "P-2NS", "lemma": "σύ" },
+      {
+        "text": " ἀδελφιδέ",
+        "script": "G",
+        "morph": "N-VSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      { "text": " δόρκωνι", "script": "G", "lemma": "δόρκων" },
+      { "text": " ἢ", "script": "G", "morph": "PRT", "lemma": "ἤ" },
+      { "text": " νεβρῷ", "script": "G", "morph": "N-DSF", "lemma": "νεβρός" },
+      { "text": " ἐλάφων", "script": "G", "morph": "N-GPF", "lemma": "ἔλαφος" },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " ὄρη", "script": "G", "morph": "N-APN", "lemma": "ὄρος" },
+      {
+        "text": " κοιλωμάτων.",
+        "script": "G",
+        "morph": "N-GPN",
+        "lemma": "κοίλωμα"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐπὶ",
+        "script": "G",
+        "morph": "PREP",
+        "lemma": "ἐπί"
+      },
+      { "text": " κοίτην", "script": "G", "morph": "N-ASF", "lemma": "κοίτη" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " νυξὶν", "script": "G", "lemma": "νύξ" },
+      {
+        "text": " ἐζήτησα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ζητέω"
+      },
+      { "text": " ὃν", "script": "G", "morph": "R-ASM", "lemma": "ὅς" },
+      {
+        "text": " ἠγάπησεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ἀγαπάω"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " ψυχή", "script": "G", "morph": "N-NSF", "lemma": "ψυχή" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἐζήτησα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ζητέω"
+      },
+      { "text": " αὐτὸν", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " οὐχ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " εὗρον",
+        "script": "G",
+        "morph": "V-2AAI-1S",
+        "lemma": "εὑρίσκω"
+      },
+      { "text": " αὐτόν,", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      {
+        "text": " ἐκάλεσα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "καλέω"
+      },
+      { "text": " αὐτόν,", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " οὐχ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " ὑπήκουσέν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ὑπακούω"
+      },
+      { "text": " μου.", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 2,
+    "content": [
+      {
+        "text": "Ἀναστήσομαι",
+        "script": "G",
+        "morph": "V-FMI-1S",
+        "lemma": "ἀνίστημι"
+      },
+      { "text": " δὴ", "script": "G", "morph": "PRT", "lemma": "δή" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " κυκλώσω",
+        "script": "G",
+        "morph": "V-FAI-1S",
+        "lemma": "κυκλόω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      { "text": " πόλει", "script": "G", "morph": "N-DSF", "lemma": "πόλις" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ταῖς", "script": "G", "morph": "T-DPF", "lemma": "ὁ" },
+      { "text": " ἀγοραῖς", "script": "G", "morph": "N-DPF", "lemma": "ἀγορά" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ταῖς", "script": "G", "morph": "T-DPF", "lemma": "ὁ" },
+      {
+        "text": " πλατείαις",
+        "script": "G",
+        "morph": "A-DPF",
+        "lemma": "πλατύς"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ζητήσω",
+        "script": "G",
+        "morph": "V-FAI-1S",
+        "lemma": "ζητέω"
+      },
+      { "text": " ὃν", "script": "G", "morph": "R-ASM", "lemma": "ὅς" },
+      {
+        "text": " ἠγάπησεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ἀγαπάω"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " ψυχή", "script": "G", "morph": "N-NSF", "lemma": "ψυχή" },
+      { "text": " μου·", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἐζήτησα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ζητέω"
+      },
+      { "text": " αὐτὸν", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " οὐχ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " εὗρον",
+        "script": "G",
+        "morph": "V-2AAI-1S",
+        "lemma": "εὑρίσκω"
+      },
+      { "text": " αὐτόν.", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 3,
+    "content": [
+      {
+        "text": "Εὕροσάν",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "εὑρίσκω"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " οἱ", "script": "G", "morph": "T-NPM", "lemma": "ὁ" },
+      {
+        "text": " τηροῦντες",
+        "script": "G",
+        "morph": "V-PAP-NPM",
+        "lemma": "τηρέω"
+      },
+      { "text": " οἱ", "script": "G", "morph": "T-NPM", "lemma": "ὁ" },
+      {
+        "text": " κυκλοῦντες",
+        "script": "G",
+        "morph": "V-PAP-NPM",
+        "lemma": "κυκλόω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      { "text": " πόλει", "script": "G", "morph": "N-DSF", "lemma": "πόλις" },
+      { "text": " Μὴ", "script": "G", "morph": "PRT-N", "lemma": "μή" },
+      { "text": " ὃν", "script": "G", "morph": "R-ASM", "lemma": "ὅς" },
+      {
+        "text": " ἠγάπησεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ἀγαπάω"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " ψυχή", "script": "G", "morph": "N-NSF", "lemma": "ψυχή" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " εἴδετε;",
+        "script": "G",
+        "morph": "V-2AAI-2P",
+        "lemma": "ὁράω"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 4,
+    "content": [
+      { "text": "Ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " μικρὸν", "script": "G", "morph": "A-ASM", "lemma": "μικρός" },
+      { "text": " ὅτε", "script": "G", "morph": "ADV", "lemma": "ὅτε" },
+      {
+        "text": " παρῆλθον",
+        "script": "G",
+        "morph": "V-2AAI-1S",
+        "lemma": "παρέρχομαι"
+      },
+      { "text": " ἀπ’", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " αὐτῶν,", "script": "G", "morph": "P-GPM", "lemma": "αὐτός" },
+      { "text": " ἕως", "script": "G", "morph": "ADV", "lemma": "ἕως" },
+      { "text": " οὗ", "script": "G", "morph": "R-GSM", "lemma": "ὅς" },
+      {
+        "text": " εὗρον",
+        "script": "G",
+        "morph": "V-2AAI-1S",
+        "lemma": "εὑρίσκω"
+      },
+      { "text": " ὃν", "script": "G", "morph": "R-ASM", "lemma": "ὅς" },
+      {
+        "text": " ἠγάπησεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ἀγαπάω"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " ψυχή", "script": "G", "morph": "N-NSF", "lemma": "ψυχή" },
+      { "text": " μου·", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἐκράτησα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "κρατέω"
+      },
+      { "text": " αὐτὸν", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " οὐκ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " ἀφήσω",
+        "script": "G",
+        "morph": "V-FAI-1S",
+        "lemma": "ἀφίημι"
+      },
+      { "text": " αὐτόν,", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " ἕως", "script": "G", "morph": "ADV", "lemma": "ἕως" },
+      { "text": " οὗ", "script": "G", "morph": "R-GSM", "lemma": "ὅς" },
+      {
+        "text": " εἰσήγαγον",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "εἰσάγω"
+      },
+      { "text": " αὐτὸν", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " οἶκον", "script": "G", "morph": "N-ASM", "lemma": "οἶκος" },
+      { "text": " μητρός", "script": "G", "morph": "N-GSF", "lemma": "μήτηρ" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      {
+        "text": " ταμίειον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "ταμεῖον"
+      },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      { "text": " συλλαβούσης", "script": "G", "lemma": "συλλαμβάνω" },
+      { "text": " με.", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 5,
+    "content": [
+      {
+        "text": "Ὥρκισα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ὁρκίζω"
+      },
+      { "text": " ὑμᾶς,", "script": "G", "morph": "P-2AP", "lemma": "σύ" },
+      {
+        "text": " θυγατέρες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "θυγάτηρ"
+      },
+      {
+        "text": " Ιερουσαλημ,",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Ἱερουσαλήμ"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ταῖς", "script": "G", "morph": "T-DPF", "lemma": "ὁ" },
+      {
+        "text": " δυνάμεσιν",
+        "script": "G",
+        "morph": "N-DPF",
+        "lemma": "δύναμις"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ταῖς", "script": "G", "morph": "T-DPF", "lemma": "ὁ" },
+      { "text": " ἰσχύσεσιν", "script": "G", "lemma": "ἰσχύς" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      { "text": " ἀγροῦ,", "script": "G", "morph": "N-GSM", "lemma": "ἀγρός" },
+      { "text": " ἐὰν", "script": "G", "morph": "COND", "lemma": "ἐάν" },
+      {
+        "text": " ἐγείρητε",
+        "script": "G",
+        "morph": "V-AAS-2P",
+        "lemma": "ἐγείρω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἐξεγείρητε",
+        "script": "G",
+        "morph": "V-AAS-2P",
+        "lemma": "ἐξεγείρω"
+      },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      { "text": " ἀγάπην,", "script": "G", "morph": "N-ASF", "lemma": "ἀγάπη" },
+      { "text": " ἕως", "script": "G", "morph": "ADV", "lemma": "ἕως" },
+      { "text": " ἂν", "script": "G", "morph": "PRT", "lemma": "ἄν" },
+      {
+        "text": " θελήσῃ.",
+        "script": "G",
+        "morph": "V-AAS-3S",
+        "lemma": "θέλω"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 6,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Τίς",
+        "script": "G",
+        "morph": "I-NSF",
+        "lemma": "τις"
+      },
+      { "text": " αὕτη", "script": "G", "morph": "D-NSF", "lemma": "οὗτος" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      {
+        "text": " ἀναβαίνουσα",
+        "script": "G",
+        "morph": "V-PAP-NSF",
+        "lemma": "ἀναβαίνω"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      { "text": " ἐρήμου", "script": "G", "morph": "A-GSF", "lemma": "ἔρημος" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " στελέχη",
+        "script": "G",
+        "morph": "N-APN",
+        "lemma": "στέλεχος"
+      },
+      { "text": " καπνοῦ", "script": "G", "morph": "N-GSM", "lemma": "καπνός" },
+      {
+        "text": " τεθυμιαμένη",
+        "script": "G",
+        "morph": "V-REP-NSF",
+        "lemma": "θυμιάω"
+      },
+      {
+        "text": " σμύρναν",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "σμύρνα"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " λίβανον",
+        "script": "G",
+        "morph": "N-ASM",
+        "lemma": "λίβανος"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " πάντων", "script": "G", "morph": "A-GPM", "lemma": "πᾶς" },
+      {
+        "text": " κονιορτῶν",
+        "script": "G",
+        "morph": "N-GPM",
+        "lemma": "κονιορτός"
+      },
+      {
+        "text": " μυρεψοῦ;",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "μυρεψός"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 7,
+    "content": [
+      { "text": "Ἰδοὺ", "script": "G", "morph": "V-2AMM-2S", "lemma": "ὁράω" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " κλίνη", "script": "G", "morph": "N-NSF", "lemma": "κλίνη" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      {
+        "text": " Σαλωμων,",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "Σαλωμών"
+      },
+      {
+        "text": " ἑξήκοντα",
+        "script": "G",
+        "morph": "A-NUI",
+        "lemma": "ἑξήκοντα"
+      },
+      {
+        "text": " δυνατοὶ",
+        "script": "G",
+        "morph": "A-NPM",
+        "lemma": "δυνατός"
+      },
+      { "text": " κύκλῳ", "script": "G", "morph": "N-DSM", "lemma": "κύκλος" },
+      { "text": " αὐτῆς", "script": "G", "morph": "P-GSF", "lemma": "αὐτός" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " δυνατῶν",
+        "script": "G",
+        "morph": "A-GPM",
+        "lemma": "δυνατός"
+      },
+      { "text": " Ισραηλ,", "script": "G", "morph": "N-PRI", "lemma": "Ἰσραήλ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 8,
+    "content": [
+      { "text": "πάντες", "script": "G", "morph": "A-NPM", "lemma": "πᾶς" },
+      {
+        "text": " κατέχοντες",
+        "script": "G",
+        "morph": "V-PAP-NPM",
+        "lemma": "κατέχω"
+      },
+      {
+        "text": " ῥομφαίαν",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "ῥομφαία"
+      },
+      { "text": " δεδιδαγμένοι", "script": "G", "lemma": "διδάσκω" },
+      {
+        "text": " πόλεμον,",
+        "script": "G",
+        "morph": "N-ASM",
+        "lemma": "πόλεμος"
+      },
+      { "text": " ἀνὴρ", "script": "G", "morph": "N-NSM", "lemma": "ἀνήρ" },
+      {
+        "text": " ῥομφαία",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "ῥομφαία"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " μηρὸν", "script": "G", "morph": "N-ASM", "lemma": "μηρός" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " θάμβους",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "θάμβος"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " νυξίν.", "script": "G", "lemma": "νύξ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 9,
+    "content": [
+      {
+        "text": "Φορεῖον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "φορεῖον"
+      },
+      {
+        "text": " ἐποίησεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ποιέω"
+      },
+      { "text": " ἑαυτῷ", "script": "G", "morph": "F-3DSM", "lemma": "ἑαυτοῦ" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      {
+        "text": " βασιλεὺς",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "βασιλεύς"
+      },
+      {
+        "text": " Σαλωμων",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "Σαλωμών"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " ξύλων", "script": "G", "morph": "N-GPN", "lemma": "ξύλον" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      {
+        "text": " Λιβάνου,",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "λίβανος"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 10,
+    "content": [
+      { "text": "στύλους", "script": "G", "morph": "N-APM", "lemma": "στῦλος" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " ἐποίησεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ποιέω"
+      },
+      {
+        "text": " ἀργύριον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "ἀργύριον"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἀνάκλιτον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "ἀνάκλιτον"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " χρύσεον,",
+        "script": "G",
+        "morph": "A-NSN",
+        "lemma": "χρύσεος"
+      },
+      {
+        "text": " ἐπίβασις",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "ἐπίβασις"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " πορφυρᾶ,",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "πορφύρα"
+      },
+      { "text": " ἐντὸς", "script": "G", "morph": "ADV", "lemma": "ἐντός" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " λιθόστρωτον,",
+        "script": "G",
+        "morph": "A-ASF",
+        "lemma": "λιθόστρωτος"
+      },
+      { "text": " ἀγάπην", "script": "G", "morph": "N-ASF", "lemma": "ἀγάπη" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " θυγατέρων",
+        "script": "G",
+        "morph": "N-GPF",
+        "lemma": "θυγάτηρ"
+      },
+      {
+        "text": " Ιερουσαλημ.",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Ἱερουσαλήμ"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 3,
+    "verse": 11,
+    "content": [
+      { "text": "Ἐξέλθατε", "script": "G", "lemma": "ἐξέρχομαι" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἴδετε",
+        "script": "G",
+        "morph": "V-2AAM-2P",
+        "lemma": "ὁράω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      {
+        "text": " βασιλεῖ",
+        "script": "G",
+        "morph": "N-DSM",
+        "lemma": "βασιλεύς"
+      },
+      {
+        "text": " Σαλωμων",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "Σαλωμών"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      {
+        "text": " στεφάνῳ,",
+        "script": "G",
+        "morph": "N-DSM",
+        "lemma": "Στέφανος"
+      },
+      { "text": " ᾧ", "script": "G", "morph": "R-DSM", "lemma": "ὅς" },
+      { "text": " ἐστεφάνωσεν", "script": "G", "lemma": "στεφάνω" },
+      { "text": " αὐτὸν", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " μήτηρ", "script": "G", "morph": "N-NSF", "lemma": "μήτηρ" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ἡμέρᾳ", "script": "G", "morph": "N-DSF", "lemma": "ἡμέρα" },
+      {
+        "text": " νυμφεύσεως",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "νύμφευσις"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ἡμέρᾳ", "script": "G", "morph": "N-DSF", "lemma": "ἡμέρα" },
+      {
+        "text": " εὐφροσύνης",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "εὐφροσύνη"
+      },
+      {
+        "text": " καρδίας",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "καρδία"
+      },
+      { "text": " αὐτοῦ.", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἰδοὺ",
+        "script": "G",
+        "morph": "V-2AMM-2S",
+        "lemma": "ὁράω"
+      },
+      { "text": " εἶ", "script": "G", "morph": "V-PAI-2S", "lemma": "εἰμί" },
+      { "text": " καλή,", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " πλησίον", "script": "G", "morph": "ADV", "lemma": "πλησίον" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἰδοὺ", "script": "G", "morph": "V-2AMM-2S", "lemma": "ὁράω" },
+      { "text": " εἶ", "script": "G", "morph": "V-PAI-2S", "lemma": "εἰμί" },
+      { "text": " καλή.", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      {
+        "text": " Ὀφθαλμοί",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "ὀφθαλμός"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      {
+        "text": " περιστεραὶ",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "περιστερά"
+      },
+      { "text": " ἐκτὸς", "script": "G", "morph": "ADV", "lemma": "ἐκτός" },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      {
+        "text": " σιωπήσεώς",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "σιώπησις"
+      },
+      { "text": " σου.", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      {
+        "text": " Τρίχωμά",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "τρίχωμα"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " ἀγέλαι", "script": "G", "morph": "N-NPF", "lemma": "ἀγέλη" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPM", "lemma": "ὁ" },
+      { "text": " αἰγῶν,", "script": "G", "lemma": "αἴξ" },
+      { "text": " αἳ", "script": "G", "morph": "R-NPF", "lemma": "ὅς" },
+      { "text": " ἀπεκαλύφθησαν", "script": "G", "lemma": "ἀποκαλύπτω" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      { "text": " Γαλααδ.", "script": "G", "morph": "N-PRI", "lemma": "Γαλαάδ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 2,
+    "content": [
+      { "text": "Ὀδόντες", "script": "G", "morph": "N-NPM", "lemma": "ὀδούς" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " ἀγέλαι", "script": "G", "morph": "N-NPF", "lemma": "ἀγέλη" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPM", "lemma": "ὁ" },
+      { "text": " κεκαρμένων,", "script": "G", "lemma": "κείρω" },
+      { "text": " αἳ", "script": "G", "morph": "R-NPF", "lemma": "ὅς" },
+      {
+        "text": " ἀνέβησαν",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "ἀναβαίνω"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSN", "lemma": "ὁ" },
+      {
+        "text": " λουτροῦ,",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "λουτρόν"
+      },
+      { "text": " αἱ", "script": "G", "morph": "T-NPF", "lemma": "ὁ" },
+      { "text": " πᾶσαι", "script": "G", "morph": "A-NPF", "lemma": "πᾶς" },
+      {
+        "text": " διδυμεύουσαι,",
+        "script": "G",
+        "morph": "V-PAP-NPF",
+        "lemma": "διδυμεύω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἀτεκνοῦσα",
+        "script": "G",
+        "morph": "V-PAP-NSF",
+        "lemma": "ἀτεκνόω"
+      },
+      { "text": " οὐκ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      { "text": " ἔστιν", "script": "G", "morph": "V-PAI-3S", "lemma": "εἰμί" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " αὐταῖς.", "script": "G", "morph": "P-DPF", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 3,
+    "content": [
+      { "text": "Ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " σπαρτίον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "σπαρτίον"
+      },
+      { "text": " τὸ", "script": "G", "morph": "T-ASN", "lemma": "ὁ" },
+      {
+        "text": " κόκκινον",
+        "script": "G",
+        "morph": "A-ASN",
+        "lemma": "κόκκινος"
+      },
+      { "text": " χείλη", "script": "G", "morph": "N-APN", "lemma": "χεῖλος" },
+      { "text": " σου,", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " λαλιά", "script": "G", "morph": "N-NSF", "lemma": "λαλιά" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡραία.", "script": "G", "morph": "A-DSF", "lemma": "ὡραῖος" },
+      { "text": " Ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " λέπυρον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "λέπυρον"
+      },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      { "text": " ῥόας", "script": "G", "morph": "N-GSF", "lemma": "ῥοά" },
+      { "text": " μῆλόν", "script": "G", "morph": "N-ASN", "lemma": "μῆλον" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἐκτὸς", "script": "G", "morph": "ADV", "lemma": "ἐκτός" },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      {
+        "text": " σιωπήσεώς",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "σιώπησις"
+      },
+      { "text": " σου.", "script": "G", "morph": "P-2GS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 4,
+    "content": [
+      { "text": "Ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " πύργος", "script": "G", "morph": "N-NSM", "lemma": "πύργος" },
+      { "text": " Δαυιδ", "script": "G", "morph": "N-PRI", "lemma": "Δαβίδ" },
+      {
+        "text": " τράχηλός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "τράχηλος"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      {
+        "text": " ᾠκοδομημένος",
+        "script": "G",
+        "morph": "V-REP-NSM",
+        "lemma": "οἰκοδομέω"
+      },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      {
+        "text": " θαλπιωθ·",
+        "script": "G",
+        "morph": "N-OI",
+        "lemma": "θαλπιωθ"
+      },
+      { "text": " χίλιοι", "script": "G", "morph": "A-NPM", "lemma": "χίλιοι" },
+      { "text": " θυρεοὶ", "script": "G", "morph": "N-NPM", "lemma": "θυρεός" },
+      {
+        "text": " κρέμανται",
+        "script": "G",
+        "morph": "V-PPI-3P",
+        "lemma": "κρεμάννυμι"
+      },
+      { "text": " ἐπ’", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " αὐτόν,", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " πᾶσαι", "script": "G", "morph": "A-NPF", "lemma": "πᾶς" },
+      { "text": " βολίδες", "script": "G", "morph": "N-NPF", "lemma": "βολίς" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPM", "lemma": "ὁ" },
+      {
+        "text": " δυνατῶν.",
+        "script": "G",
+        "morph": "A-GPM",
+        "lemma": "δυνατός"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 5,
+    "content": [
+      { "text": "Δύο", "script": "G", "morph": "A-NUI", "lemma": "δύο" },
+      { "text": " μαστοί", "script": "G", "morph": "N-NPM", "lemma": "μαστός" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " δύο", "script": "G", "morph": "A-NUI", "lemma": "δύο" },
+      { "text": " νεβροὶ", "script": "G", "morph": "N-NPM", "lemma": "νεβρός" },
+      {
+        "text": " δίδυμοι",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "δίδυμος"
+      },
+      {
+        "text": " δορκάδος",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "δορκάς"
+      },
+      { "text": " οἱ", "script": "G", "morph": "T-NPM", "lemma": "ὁ" },
+      {
+        "text": " νεμόμενοι",
+        "script": "G",
+        "morph": "V-PEP-NPM",
+        "lemma": "νέμω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " κρίνοις.",
+        "script": "G",
+        "morph": "N-DPN",
+        "lemma": "κρίνον"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 6,
+    "content": [
+      { "text": "Ἕως", "script": "G", "morph": "ADV", "lemma": "ἕως" },
+      { "text": " οὗ", "script": "G", "morph": "R-GSM", "lemma": "ὅς" },
+      {
+        "text": " διαπνεύσῃ",
+        "script": "G",
+        "morph": "V-FMI-2S",
+        "lemma": "διαπνέω"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " ἡμέρα", "script": "G", "morph": "N-NSF", "lemma": "ἡμέρα" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " κινηθῶσιν",
+        "script": "G",
+        "morph": "V-APS-3P",
+        "lemma": "κινέω"
+      },
+      { "text": " αἱ", "script": "G", "morph": "T-NPF", "lemma": "ὁ" },
+      { "text": " σκιαί,", "script": "G", "morph": "N-NPF", "lemma": "σκιά" },
+      {
+        "text": " πορεύσομαι",
+        "script": "G",
+        "morph": "V-FDI-1S",
+        "lemma": "πορεύομαι"
+      },
+      {
+        "text": " ἐμαυτῷ",
+        "script": "G",
+        "morph": "F-1DSM",
+        "lemma": "ἐμαυτοῦ"
+      },
+      { "text": " πρὸς", "script": "G", "morph": "PREP", "lemma": "πρός" },
+      { "text": " τὸ", "script": "G", "morph": "T-ASN", "lemma": "ὁ" },
+      { "text": " ὄρος", "script": "G", "morph": "N-ASN", "lemma": "ὄρος" },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      {
+        "text": " σμύρνης",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "σμύρνα"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " πρὸς", "script": "G", "morph": "PREP", "lemma": "πρός" },
+      { "text": " τὸν", "script": "G", "morph": "T-ASM", "lemma": "ὁ" },
+      { "text": " βουνὸν", "script": "G", "morph": "N-ASM", "lemma": "βουνός" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      {
+        "text": " Λιβάνου.",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "λίβανος"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 7,
+    "content": [
+      { "text": "Ὅλη", "script": "G", "morph": "A-NSF", "lemma": "ὅλος" },
+      { "text": " καλὴ", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      { "text": " εἶ,", "script": "G", "morph": "V-PAI-2S", "lemma": "εἰμί" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " πλησίον", "script": "G", "morph": "ADV", "lemma": "πλησίον" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " μῶμος", "script": "G", "morph": "N-NSM", "lemma": "μῶμος" },
+      { "text": " οὐκ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      { "text": " ἔστιν", "script": "G", "morph": "V-PAI-3S", "lemma": "εἰμί" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " σοί.", "script": "G", "morph": "P-2DS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 8,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Δεῦρο",
+        "script": "G",
+        "morph": "V-PAM-2S",
+        "lemma": "δεῦρο"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " Λιβάνου,",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "λίβανος"
+      },
+      { "text": " νύμφη,", "script": "G", "morph": "N-NSF", "lemma": "νύμφη" },
+      {
+        "text": " δεῦρο",
+        "script": "G",
+        "morph": "V-PAM-2S",
+        "lemma": "δεῦρο"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " Λιβάνου·",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "λίβανος"
+      },
+      {
+        "text": " ἐλεύσῃ",
+        "script": "G",
+        "morph": "V-FMI-2S",
+        "lemma": "ἔρχομαι"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " διελεύσῃ",
+        "script": "G",
+        "morph": "V-FMI-2S",
+        "lemma": "διέρχομαι"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " ἀρχῆς", "script": "G", "morph": "N-GSF", "lemma": "ἀρχή" },
+      {
+        "text": " πίστεως,",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "πίστις"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " κεφαλῆς",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "κεφαλή"
+      },
+      { "text": " Σανιρ", "script": "G", "morph": "N-PRI", "lemma": "Σανιρ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " Ερμων,", "script": "G", "morph": "N-NSM", "lemma": "Ἕρμων" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " μανδρῶν",
+        "script": "G",
+        "morph": "N-GPF",
+        "lemma": "μάνδρα"
+      },
+      { "text": " λεόντων,", "script": "G", "morph": "N-GPM", "lemma": "λέων" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " ὀρέων", "script": "G", "morph": "N-GPN", "lemma": "ὄρος" },
+      {
+        "text": " παρδάλεων.",
+        "script": "G",
+        "morph": "N-GPF",
+        "lemma": "πάρδαλις"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 9,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐκαρδίωσας",
+        "script": "G",
+        "morph": "V-AAI-2S",
+        "lemma": "καρδιόω"
+      },
+      { "text": " ἡμᾶς,", "script": "G", "morph": "P-1AP", "lemma": "ἐγώ" },
+      { "text": " ἀδελφή", "script": "G", "morph": "N-NSF", "lemma": "ἀδελφή" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " νύμφη,", "script": "G", "morph": "N-NSF", "lemma": "νύμφη" },
+      {
+        "text": " ἐκαρδίωσας",
+        "script": "G",
+        "morph": "V-AAI-2S",
+        "lemma": "καρδιόω"
+      },
+      { "text": " ἡμᾶς", "script": "G", "morph": "P-1AP", "lemma": "ἐγώ" },
+      { "text": " ἑνὶ", "script": "G", "morph": "A-DSM", "lemma": "εἷς" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " ὀφθαλμῶν",
+        "script": "G",
+        "morph": "N-GPM",
+        "lemma": "ὀφθαλμός"
+      },
+      { "text": " σου,", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " μιᾷ", "script": "G", "morph": "A-DSF", "lemma": "εἷς" },
+      {
+        "text": " ἐνθέματι",
+        "script": "G",
+        "morph": "N-DSN",
+        "lemma": "ἔνθεμα"
+      },
+      {
+        "text": " τραχήλων",
+        "script": "G",
+        "morph": "N-GPM",
+        "lemma": "τράχηλος"
+      },
+      { "text": " σου.", "script": "G", "morph": "P-2GS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 10,
+    "content": [
+      { "text": "Τί", "script": "G", "morph": "X-ASN", "lemma": "τις" },
+      {
+        "text": " ἐκαλλιώθησαν",
+        "script": "G",
+        "morph": "V-API-3P",
+        "lemma": "καλλιόω"
+      },
+      { "text": " μαστοί", "script": "G", "morph": "N-NPM", "lemma": "μαστός" },
+      { "text": " σου,", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἀδελφή", "script": "G", "morph": "N-NSF", "lemma": "ἀδελφή" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " νύμφη,", "script": "G", "morph": "N-NSF", "lemma": "νύμφη" },
+      { "text": " τί", "script": "G", "morph": "X-NSN", "lemma": "τις" },
+      {
+        "text": " ἐκαλλιώθησαν",
+        "script": "G",
+        "morph": "V-API-3P",
+        "lemma": "καλλιόω"
+      },
+      { "text": " μαστοί", "script": "G", "morph": "N-NPM", "lemma": "μαστός" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " οἴνου;", "script": "G", "morph": "N-GSM", "lemma": "οἶνος" },
+      { "text": " Καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ὀσμὴ", "script": "G", "morph": "N-NSF", "lemma": "ὀσμή" },
+      {
+        "text": " ἱματίων",
+        "script": "G",
+        "morph": "N-GPN",
+        "lemma": "ἱμάτιον"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὑπὲρ", "script": "G", "morph": "PREP", "lemma": "ὑπέρ" },
+      { "text": " πάντα", "script": "G", "morph": "A-ASM", "lemma": "πᾶς" },
+      { "text": " τὰ", "script": "G", "morph": "T-APN", "lemma": "ὁ" },
+      { "text": " ἀρώματα.", "script": "G", "morph": "N-APN", "lemma": "ἄρωμα" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 11,
+    "content": [
+      { "text": "Κηρίον", "script": "G", "morph": "N-ASN", "lemma": "κηρίον" },
+      {
+        "text": " ἀποστάζουσιν",
+        "script": "G",
+        "morph": "V-PAI-3P",
+        "lemma": "ἀποστάζω"
+      },
+      { "text": " χείλη", "script": "G", "morph": "N-APN", "lemma": "χεῖλος" },
+      { "text": " σου,", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " νύμφη,", "script": "G", "morph": "N-NSF", "lemma": "νύμφη" },
+      { "text": " μέλι", "script": "G", "morph": "N-NSN", "lemma": "μέλι" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " γάλα", "script": "G", "morph": "N-ASN", "lemma": "γάλα" },
+      { "text": " ὑπὸ", "script": "G", "morph": "PREP", "lemma": "ὑπό" },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      {
+        "text": " γλῶσσάν",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "γλῶσσα"
+      },
+      { "text": " σου,", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ὀσμὴ", "script": "G", "morph": "N-NSF", "lemma": "ὀσμή" },
+      {
+        "text": " ἱματίων",
+        "script": "G",
+        "morph": "N-GPN",
+        "lemma": "ἱμάτιον"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " ὀσμὴ", "script": "G", "morph": "N-NSF", "lemma": "ὀσμή" },
+      {
+        "text": " Λιβάνου.",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "λίβανος"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 12,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Κῆπος",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "κῆπος"
+      },
+      { "text": " κεκλεισμένος", "script": "G", "lemma": "κλείω" },
+      { "text": " ἀδελφή", "script": "G", "morph": "N-NSF", "lemma": "ἀδελφή" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " νύμφη,", "script": "G", "morph": "N-NSF", "lemma": "νύμφη" },
+      { "text": " κῆπος", "script": "G", "morph": "N-NSM", "lemma": "κῆπος" },
+      { "text": " κεκλεισμένος,", "script": "G", "lemma": "κλείω" },
+      { "text": " πηγὴ", "script": "G", "morph": "N-NSF", "lemma": "πηγή" },
+      {
+        "text": " ἐσφραγισμένη·",
+        "script": "G",
+        "morph": "V-REP-NSF",
+        "lemma": "σφραγίζω"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 13,
+    "content": [
+      {
+        "text": "ἀποστολαί",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "ἀποστολή"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      {
+        "text": " παράδεισος",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "παράδεισος"
+      },
+      { "text": " ῥοῶν", "script": "G", "morph": "N-GPF", "lemma": "ῥοά" },
+      { "text": " μετὰ", "script": "G", "morph": "PREP", "lemma": "μετά" },
+      { "text": " καρποῦ", "script": "G", "morph": "N-GSM", "lemma": "καρπός" },
+      {
+        "text": " ἀκροδρύων,",
+        "script": "G",
+        "morph": "N-GPF",
+        "lemma": "ἀκρόδρυα"
+      },
+      { "text": " κύπροι", "script": "G", "morph": "N-NPF", "lemma": "κύπρος" },
+      { "text": " μετὰ", "script": "G", "morph": "PREP", "lemma": "μετά" },
+      { "text": " νάρδων,", "script": "G", "morph": "N-GPF", "lemma": "νάρδος" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 14,
+    "content": [
+      { "text": "νάρδος", "script": "G", "morph": "N-NSF", "lemma": "νάρδος" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " κρόκος,",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "κρόκος"
+      },
+      {
+        "text": " κάλαμος",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "κάλαμος"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " κιννάμωμον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "κιννάμωμον"
+      },
+      { "text": " μετὰ", "script": "G", "morph": "PREP", "lemma": "μετά" },
+      { "text": " πάντων", "script": "G", "morph": "A-GPN", "lemma": "πᾶς" },
+      { "text": " ξύλων", "script": "G", "morph": "N-GPN", "lemma": "ξύλον" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      {
+        "text": " Λιβάνου,",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "λίβανος"
+      },
+      { "text": " σμύρνα", "script": "G", "morph": "N-NSF", "lemma": "σμύρνα" },
+      { "text": " αλωθ", "script": "G", "morph": "N-OI", "lemma": "αλωθ" },
+      { "text": " μετὰ", "script": "G", "morph": "PREP", "lemma": "μετά" },
+      { "text": " πάντων", "script": "G", "morph": "A-GPM", "lemma": "πᾶς" },
+      {
+        "text": " πρώτων",
+        "script": "G",
+        "morph": "A-GPN-S",
+        "lemma": "πρῶτος"
+      },
+      { "text": " μύρων,", "script": "G", "morph": "N-GPN", "lemma": "μύρον" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 15,
+    "content": [
+      { "text": "πηγὴ", "script": "G", "morph": "N-NSF", "lemma": "πηγή" },
+      { "text": " κήπων,", "script": "G", "morph": "N-GPM", "lemma": "κῆπος" },
+      { "text": " φρέαρ", "script": "G", "morph": "N-ASN", "lemma": "φρέαρ" },
+      { "text": " ὕδατος", "script": "G", "morph": "N-GSN", "lemma": "ὕδωρ" },
+      {
+        "text": " ζῶντος",
+        "script": "G",
+        "morph": "V-PAP-GSM",
+        "lemma": "ζάω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ῥοιζοῦντος",
+        "script": "G",
+        "morph": "V-PAP-GSM",
+        "lemma": "ῥοιζέω"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      {
+        "text": " Λιβάνου.",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "λίβανος"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 4,
+    "verse": 16,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐξεγέρθητι,",
+        "script": "G",
+        "morph": "V-APM-2S",
+        "lemma": "ἐξεγείρω"
+      },
+      { "text": " βορρᾶ,", "script": "G", "morph": "N-GSM", "lemma": "βορρᾶς" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἔρχου,",
+        "script": "G",
+        "morph": "V-PNM-2S",
+        "lemma": "ἔρχομαι"
+      },
+      { "text": " νότε,", "script": "G", "morph": "N-VSM", "lemma": "νότος" },
+      {
+        "text": " διάπνευσον",
+        "script": "G",
+        "morph": "V-FAP-ASN",
+        "lemma": "διαπνέω"
+      },
+      { "text": " κῆπόν", "script": "G", "morph": "N-ASM", "lemma": "κῆπος" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ῥευσάτωσαν", "script": "G", "lemma": "ῥέω" },
+      { "text": " ἀρώματά", "script": "G", "morph": "N-APN", "lemma": "ἄρωμα" },
+      { "text": " μου·", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καταβήτω", "script": "G", "lemma": "καταβαίνω" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " κῆπον", "script": "G", "morph": "N-ASM", "lemma": "κῆπος" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " φαγέτω", "script": "G", "lemma": "ἐσθίω" },
+      { "text": " καρπὸν", "script": "G", "morph": "N-ASM", "lemma": "καρπός" },
+      {
+        "text": " ἀκροδρύων",
+        "script": "G",
+        "morph": "N-GPF",
+        "lemma": "ἀκρόδρυα"
+      },
+      { "text": " αὐτοῦ.", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Εἰσῆλθον",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "εἰσέρχομαι"
+      },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " κῆπόν", "script": "G", "morph": "N-ASM", "lemma": "κῆπος" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἀδελφή", "script": "G", "morph": "N-NSF", "lemma": "ἀδελφή" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " νύμφη,", "script": "G", "morph": "N-NSF", "lemma": "νύμφη" },
+      {
+        "text": " ἐτρύγησα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "τρυγάω"
+      },
+      {
+        "text": " σμύρναν",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "σμύρνα"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " μετὰ", "script": "G", "morph": "PREP", "lemma": "μετά" },
+      {
+        "text": " ἀρωμάτων",
+        "script": "G",
+        "morph": "N-GPN",
+        "lemma": "ἄρωμα"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἔφαγον",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "ἐσθίω"
+      },
+      { "text": " ἄρτον", "script": "G", "morph": "N-ASM", "lemma": "ἄρτος" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " μετὰ", "script": "G", "morph": "PREP", "lemma": "μετά" },
+      { "text": " μέλιτός", "script": "G", "lemma": "μέλι" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἔπιον",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "πίνω"
+      },
+      { "text": " οἶνόν", "script": "G", "morph": "N-ASM", "lemma": "οἶνος" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " μετὰ", "script": "G", "morph": "PREP", "lemma": "μετά" },
+      { "text": " γάλακτός", "script": "G", "morph": "N-GSN", "lemma": "γάλα" },
+      { "text": " μου·", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " φάγετε,",
+        "script": "G",
+        "morph": "V-2AAM-2P",
+        "lemma": "ἐσθίω"
+      },
+      {
+        "text": " πλησίοι,",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "πλησίος"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " πίετε",
+        "script": "G",
+        "morph": "V-2AAM-2P",
+        "lemma": "πίνω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " μεθύσθητε,",
+        "script": "G",
+        "morph": "V-API-2P",
+        "lemma": "μεθύω"
+      },
+      {
+        "text": " ἀδελφοί,",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "ἀδελφός"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 2,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐγὼ",
+        "script": "G",
+        "morph": "P-1NS",
+        "lemma": "ἐγώ"
+      },
+      {
+        "text": " καθεύδω,",
+        "script": "G",
+        "morph": "V-PAI-1S",
+        "lemma": "καθεύδω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " καρδία", "script": "G", "morph": "N-NSF", "lemma": "καρδία" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἀγρυπνεῖ.",
+        "script": "G",
+        "morph": "V-PAI-3S",
+        "lemma": "ἀγρυπνέω"
+      },
+      { "text": " Φωνὴ", "script": "G", "morph": "N-NSF", "lemma": "φωνή" },
+      {
+        "text": " ἀδελφιδοῦ",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " κρούει",
+        "script": "G",
+        "morph": "V-PAI-3S",
+        "lemma": "κρούω"
+      },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      { "text": " θύραν", "script": "G", "morph": "N-ASF", "lemma": "θύρα" },
+      {
+        "text": " Ἄνοιξόν",
+        "script": "G",
+        "morph": "V-AAM-2S",
+        "lemma": "ἀνοίγω"
+      },
+      { "text": " μοι,", "script": "G", "morph": "P-1DS", "lemma": "ἐγώ" },
+      { "text": " ἀδελφή", "script": "G", "morph": "N-NSF", "lemma": "ἀδελφή" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " πλησίον", "script": "G", "morph": "ADV", "lemma": "πλησίον" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " περιστερά",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "περιστερά"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " τελεία",
+        "script": "G",
+        "morph": "A-NSF",
+        "lemma": "τέλειος"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " κεφαλή", "script": "G", "morph": "N-NSF", "lemma": "κεφαλή" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἐπλήσθη",
+        "script": "G",
+        "morph": "V-API-3S",
+        "lemma": "πλήθω"
+      },
+      { "text": " δρόσου", "script": "G", "morph": "N-GSF", "lemma": "δρόσος" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " οἱ", "script": "G", "morph": "T-NPM", "lemma": "ὁ" },
+      {
+        "text": " βόστρυχοί",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "βόστρυχος"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ψεκάδων", "script": "G", "lemma": "ψεκάς" },
+      { "text": " νυκτός.", "script": "G", "morph": "N-GSF", "lemma": "νύξ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 3,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐξεδυσάμην",
+        "script": "G",
+        "lemma": "ἐκδύω"
+      },
+      { "text": " τὸν", "script": "G", "morph": "T-ASM", "lemma": "ὁ" },
+      { "text": " χιτῶνά", "script": "G", "morph": "N-ASM", "lemma": "χιτών" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " πῶς", "script": "G", "morph": "ADV-I", "lemma": "πῶς" },
+      {
+        "text": " ἐνδύσωμαι",
+        "script": "G",
+        "morph": "V-AMS-1S",
+        "lemma": "ἐνδύω"
+      },
+      { "text": " αὐτόν;", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      {
+        "text": " Ἐνιψάμην",
+        "script": "G",
+        "morph": "V-AMI-1S",
+        "lemma": "νίπτω"
+      },
+      { "text": " τοὺς", "script": "G", "morph": "T-APM", "lemma": "ὁ" },
+      { "text": " πόδας", "script": "G", "morph": "N-APM", "lemma": "πούς" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " πῶς", "script": "G", "morph": "ADV-I", "lemma": "πῶς" },
+      {
+        "text": " μολυνῶ",
+        "script": "G",
+        "morph": "V-FAI-1S",
+        "lemma": "μολύνω"
+      },
+      { "text": " αὐτούς;", "script": "G", "morph": "P-APM", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 4,
+    "content": [
+      {
+        "text": "Ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἀπέστειλεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ἀποστέλλω"
+      },
+      { "text": " χεῖρα", "script": "G", "morph": "N-ASF", "lemma": "χείρ" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      { "text": " ὀπῆς,", "script": "G", "morph": "N-GSF", "lemma": "ὀπή" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " κοιλία", "script": "G", "morph": "N-NSF", "lemma": "κοιλία" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἐθροήθη",
+        "script": "G",
+        "morph": "V-API-3S",
+        "lemma": "θροέω"
+      },
+      { "text": " ἐπ’", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " αὐτόν.", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 5,
+    "content": [
+      {
+        "text": "Ἀνέστην",
+        "script": "G",
+        "morph": "V-IAI-1S",
+        "lemma": "ἀνίστημι"
+      },
+      { "text": " ἐγὼ", "script": "G", "morph": "P-1NS", "lemma": "ἐγώ" },
+      {
+        "text": " ἀνοῖξαι",
+        "script": "G",
+        "morph": "V-AAN",
+        "lemma": "ἀνοίγω"
+      },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      {
+        "text": " ἀδελφιδῷ",
+        "script": "G",
+        "morph": "N-DSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " χεῖρές", "script": "G", "morph": "N-NPF", "lemma": "χείρ" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἔσταξαν",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "στάζω"
+      },
+      {
+        "text": " σμύρναν,",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "σμύρνα"
+      },
+      {
+        "text": " δάκτυλοί",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "δάκτυλος"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " σμύρναν",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "σμύρνα"
+      },
+      { "text": " πλήρη", "script": "G", "morph": "A-ASM", "lemma": "πλήρης" },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " χεῖρας", "script": "G", "morph": "N-APF", "lemma": "χείρ" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSN", "lemma": "ὁ" },
+      {
+        "text": " κλείθρου.",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "κλεῖθρον"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 6,
+    "content": [
+      { "text": "Ἤνοιξα", "script": "G", "lemma": "ἀνοίγω" },
+      { "text": " ἐγὼ", "script": "G", "morph": "P-1NS", "lemma": "ἐγώ" },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      {
+        "text": " ἀδελφιδῷ",
+        "script": "G",
+        "morph": "N-DSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " παρῆλθεν·",
+        "script": "G",
+        "morph": "V-2AAI-3S",
+        "lemma": "παρέρχομαι"
+      },
+      { "text": " ψυχή", "script": "G", "morph": "N-NSF", "lemma": "ψυχή" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἐξῆλθεν",
+        "script": "G",
+        "morph": "V-2AAI-3S",
+        "lemma": "ἐξέρχομαι"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " λόγῳ", "script": "G", "morph": "N-DSM", "lemma": "λόγος" },
+      { "text": " αὐτοῦ,", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " ἐζήτησα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ζητέω"
+      },
+      { "text": " αὐτὸν", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " οὐχ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " εὗρον",
+        "script": "G",
+        "morph": "V-2AAI-1S",
+        "lemma": "εὑρίσκω"
+      },
+      { "text": " αὐτόν,", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      {
+        "text": " ἐκάλεσα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "καλέω"
+      },
+      { "text": " αὐτόν,", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " οὐχ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " ὑπήκουσέν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ὑπακούω"
+      },
+      { "text": " μου.", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 7,
+    "content": [
+      {
+        "text": "Εὕροσάν",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "εὑρίσκω"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " οἱ", "script": "G", "morph": "T-NPM", "lemma": "ὁ" },
+      { "text": " φύλακες", "script": "G", "morph": "N-NPM", "lemma": "φύλαξ" },
+      { "text": " οἱ", "script": "G", "morph": "T-NPM", "lemma": "ὁ" },
+      {
+        "text": " κυκλοῦντες",
+        "script": "G",
+        "morph": "V-PAP-NPM",
+        "lemma": "κυκλόω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      { "text": " πόλει,", "script": "G", "morph": "N-DSF", "lemma": "πόλις" },
+      {
+        "text": " ἐπάταξάν",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "πατάσσω"
+      },
+      { "text": " με,", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      {
+        "text": " ἐτραυμάτισάν",
+        "script": "G",
+        "morph": "V-AAI-3P",
+        "lemma": "τραυματίζω"
+      },
+      { "text": " με,", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ἦραν", "script": "G", "morph": "V-AAI-3P", "lemma": "αἴρω" },
+      { "text": " τὸ", "script": "G", "morph": "T-ASN", "lemma": "ὁ" },
+      {
+        "text": " θέριστρόν",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "θέριστρον"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἀπ’", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " ἐμοῦ", "script": "G", "morph": "S-1SGSN", "lemma": "ἐμός" },
+      { "text": " φύλακες", "script": "G", "morph": "N-NPM", "lemma": "φύλαξ" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPM", "lemma": "ὁ" },
+      { "text": " τειχέων.", "script": "G", "lemma": "τεῖχος" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 8,
+    "content": [
+      {
+        "text": "Ὥρκισα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ὁρκίζω"
+      },
+      { "text": " ὑμᾶς,", "script": "G", "morph": "P-2AP", "lemma": "σύ" },
+      {
+        "text": " θυγατέρες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "θυγάτηρ"
+      },
+      {
+        "text": " Ιερουσαλημ,",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Ἱερουσαλήμ"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ταῖς", "script": "G", "morph": "T-DPF", "lemma": "ὁ" },
+      {
+        "text": " δυνάμεσιν",
+        "script": "G",
+        "morph": "N-DPF",
+        "lemma": "δύναμις"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ταῖς", "script": "G", "morph": "T-DPF", "lemma": "ὁ" },
+      { "text": " ἰσχύσεσιν", "script": "G", "lemma": "ἰσχύς" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      { "text": " ἀγροῦ,", "script": "G", "morph": "N-GSM", "lemma": "ἀγρός" },
+      { "text": " ἐὰν", "script": "G", "morph": "COND", "lemma": "ἐάν" },
+      {
+        "text": " εὕρητε",
+        "script": "G",
+        "morph": "V-2AAS-2P",
+        "lemma": "εὑρίσκω"
+      },
+      { "text": " τὸν", "script": "G", "morph": "T-ASM", "lemma": "ὁ" },
+      {
+        "text": " ἀδελφιδόν",
+        "script": "G",
+        "morph": "N-ASM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " τί", "script": "G", "morph": "X-ASN", "lemma": "τις" },
+      {
+        "text": " ἀπαγγείλητε",
+        "script": "G",
+        "morph": "V-AAS-2P",
+        "lemma": "ἀπαγγέλλω"
+      },
+      { "text": " αὐτῷ;", "script": "G", "morph": "P-DSM", "lemma": "αὐτός" },
+      { "text": " Ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      {
+        "text": " τετρωμένη",
+        "script": "G",
+        "morph": "V-REP-NSF",
+        "lemma": "τιτρώσκω"
+      },
+      { "text": " ἀγάπης", "script": "G", "morph": "N-GSF", "lemma": "ἀγάπη" },
+      { "text": " εἰμὶ", "script": "G", "morph": "V-PAI-1S", "lemma": "εἰμί" },
+      { "text": " ἐγώ.", "script": "G", "morph": "P-1NS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 9,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Τί",
+        "script": "G",
+        "morph": "X-NSN",
+        "lemma": "τις"
+      },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " ἀδελφιδοῦ,",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " καλὴ", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " γυναιξίν,",
+        "script": "G",
+        "morph": "N-DPF",
+        "lemma": "γυνή"
+      },
+      { "text": " τί", "script": "G", "morph": "X-NSN", "lemma": "τις" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " ἀδελφιδοῦ,",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      { "text": " οὕτως", "script": "G", "morph": "ADV", "lemma": "οὕτως" },
+      {
+        "text": " ὥρκισας",
+        "script": "G",
+        "morph": "V-AAI-2S",
+        "lemma": "ὁρκίζω"
+      },
+      { "text": " ἡμᾶς;", "script": "G", "morph": "P-1AP", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 10,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " λευκὸς", "script": "G", "morph": "A-NSM", "lemma": "λευκός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " πυρρός,",
+        "script": "G",
+        "morph": "A-NSM",
+        "lemma": "πυρρός"
+      },
+      { "text": " ἐκλελοχισμένος", "script": "G", "lemma": "ἐκλοχίζω" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      {
+        "text": " μυριάδων·",
+        "script": "G",
+        "morph": "N-GPF",
+        "lemma": "μυριάς"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 11,
+    "content": [
+      { "text": "κεφαλὴ", "script": "G", "morph": "N-NSF", "lemma": "κεφαλή" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " χρυσίον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "χρυσίον"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " φαζ,", "script": "G", "morph": "N-OI", "lemma": "φαζ" },
+      {
+        "text": " βόστρυχοι",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "βόστρυχος"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ἐλάται,", "script": "G", "morph": "N-NPF", "lemma": "ἐλάτη" },
+      { "text": " μέλανες", "script": "G", "lemma": "μέλας" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " κόραξ,", "script": "G", "morph": "N-OI", "lemma": "κόραξ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 12,
+    "content": [
+      {
+        "text": "ὀφθαλμοὶ",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "ὀφθαλμός"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " περιστεραὶ",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "περιστερά"
+      },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      {
+        "text": " πληρώματα",
+        "script": "G",
+        "morph": "N-APN",
+        "lemma": "πλήρωμα"
+      },
+      { "text": " ὑδάτων", "script": "G", "morph": "N-GPN", "lemma": "ὕδωρ" },
+      { "text": " λελουσμέναι", "script": "G", "lemma": "λούω" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " γάλακτι", "script": "G", "lemma": "γάλα" },
+      {
+        "text": " καθήμεναι",
+        "script": "G",
+        "morph": "V-PNP-NPF",
+        "lemma": "κάθημαι"
+      },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      {
+        "text": " πληρώματα",
+        "script": "G",
+        "morph": "N-APN",
+        "lemma": "πλήρωμα"
+      },
+      { "text": " ὑδάτων,", "script": "G", "morph": "N-GPN", "lemma": "ὕδωρ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 13,
+    "content": [
+      {
+        "text": "σιαγόνες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "σιαγών"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " φιάλαι", "script": "G", "morph": "N-NPF", "lemma": "φιάλη" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSN", "lemma": "ὁ" },
+      {
+        "text": " ἀρώματος",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "ἄρωμα"
+      },
+      {
+        "text": " φύουσαι",
+        "script": "G",
+        "morph": "V-PAP-NPF",
+        "lemma": "φύω"
+      },
+      {
+        "text": " μυρεψικά,",
+        "script": "G",
+        "morph": "A-APN",
+        "lemma": "μυρεψικός"
+      },
+      { "text": " χείλη", "script": "G", "morph": "N-APN", "lemma": "χεῖλος" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " κρίνα", "script": "G", "morph": "N-APN", "lemma": "κρίνον" },
+      {
+        "text": " στάζοντα",
+        "script": "G",
+        "morph": "V-PAP-ASM",
+        "lemma": "στάζω"
+      },
+      {
+        "text": " σμύρναν",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "σμύρνα"
+      },
+      { "text": " πλήρη,", "script": "G", "morph": "A-ASM", "lemma": "πλήρης" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 14,
+    "content": [
+      { "text": "χεῖρες", "script": "G", "morph": "N-NPF", "lemma": "χείρ" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " τορευταὶ",
+        "script": "G",
+        "morph": "A-NPF",
+        "lemma": "τορευτός"
+      },
+      { "text": " χρυσαῖ", "script": "G", "lemma": "χρύσεος" },
+      {
+        "text": " πεπληρωμέναι",
+        "script": "G",
+        "morph": "V-REP-NPF",
+        "lemma": "πληρόω"
+      },
+      {
+        "text": " θαρσις,",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Θαρσις"
+      },
+      { "text": " κοιλία", "script": "G", "morph": "N-NSF", "lemma": "κοιλία" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " πυξίον", "script": "G", "morph": "N-ASN", "lemma": "πυξίον" },
+      {
+        "text": " ἐλεφάντινον",
+        "script": "G",
+        "morph": "A-ASN",
+        "lemma": "ἐλεφάντινος"
+      },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " λίθου", "script": "G", "morph": "N-GSM", "lemma": "λίθος" },
+      {
+        "text": " σαπφείρου,",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "σάπφειρος"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 15,
+    "content": [
+      { "text": "κνῆμαι", "script": "G", "morph": "N-NPF", "lemma": "κνήμη" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " στῦλοι", "script": "G", "morph": "N-NPM", "lemma": "στύλος" },
+      {
+        "text": " μαρμάρινοι",
+        "script": "G",
+        "morph": "A-NPM",
+        "lemma": "μαρμάρινος"
+      },
+      {
+        "text": " τεθεμελιωμένοι",
+        "script": "G",
+        "morph": "V-RPP-NPM",
+        "lemma": "θεμελιόω"
+      },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " βάσεις", "script": "G", "morph": "N-NPF", "lemma": "βάσις" },
+      {
+        "text": " χρυσᾶς,",
+        "script": "G",
+        "morph": "A-APF",
+        "lemma": "χρυσοῦς"
+      },
+      { "text": " εἶδος", "script": "G", "morph": "N-ASN", "lemma": "εἶδος" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " Λίβανος,",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "λίβανος"
+      },
+      {
+        "text": " ἐκλεκτὸς",
+        "script": "G",
+        "morph": "A-NSM",
+        "lemma": "ἐκλεκτός"
+      },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " κέδροι,", "script": "G", "morph": "N-NPF", "lemma": "κέδρος" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 5,
+    "verse": 16,
+    "content": [
+      { "text": "φάρυγξ", "script": "G", "morph": "N-OI", "lemma": "φάρυγξ" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " γλυκασμοὶ",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "γλυκασμός"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ὅλος", "script": "G", "morph": "A-NSM", "lemma": "ὅλος" },
+      {
+        "text": " ἐπιθυμία·",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "ἐπιθυμία"
+      },
+      { "text": " οὗτος", "script": "G", "morph": "D-NSM", "lemma": "οὗτος" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " οὗτος", "script": "G", "morph": "D-NSM", "lemma": "οὗτος" },
+      { "text": " πλησίον", "script": "G", "morph": "ADV", "lemma": "πλησίον" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " θυγατέρες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "θυγάτηρ"
+      },
+      {
+        "text": " Ιερουσαλημ.",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Ἱερουσαλήμ"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ποῦ",
+        "script": "G",
+        "morph": "ADV",
+        "lemma": "πού"
+      },
+      {
+        "text": " ἀπῆλθεν",
+        "script": "G",
+        "morph": "V-2AAI-3S",
+        "lemma": "ἀπέρχομαι"
+      },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " σου,", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " καλὴ", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " γυναιξίν;",
+        "script": "G",
+        "morph": "N-DPF",
+        "lemma": "γυνή"
+      },
+      { "text": " Ποῦ", "script": "G", "morph": "ADV", "lemma": "πού" },
+      {
+        "text": " ἀπέβλεψεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "ἀποβλέπω"
+      },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " σου;", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " Καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ζητήσομεν",
+        "script": "G",
+        "morph": "V-FAI-1P",
+        "lemma": "ζητέω"
+      },
+      { "text": " αὐτὸν", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" },
+      { "text": " μετὰ", "script": "G", "morph": "PREP", "lemma": "μετά" },
+      { "text": " σοῦ.", "script": "G", "morph": "P-2GS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 2,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " κατέβη",
+        "script": "G",
+        "morph": "V-2AAI-3S",
+        "lemma": "καταβαίνω"
+      },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " κῆπον", "script": "G", "morph": "N-ASM", "lemma": "κῆπος" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " φιάλας", "script": "G", "morph": "N-APF", "lemma": "φιάλη" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSN", "lemma": "ὁ" },
+      {
+        "text": " ἀρώματος",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "ἄρωμα"
+      },
+      {
+        "text": " ποιμαίνειν",
+        "script": "G",
+        "morph": "V-PAN",
+        "lemma": "ποιμαίνω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " κήποις", "script": "G", "morph": "N-DPM", "lemma": "κῆπος" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " συλλέγειν",
+        "script": "G",
+        "morph": "V-PAN",
+        "lemma": "συλλέγω"
+      },
+      { "text": " κρίνα·", "script": "G", "morph": "N-APN", "lemma": "κρίνον" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 3,
+    "content": [
+      { "text": "ἐγὼ", "script": "G", "morph": "P-1NS", "lemma": "ἐγώ" },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      {
+        "text": " ἀδελφιδῷ",
+        "script": "G",
+        "morph": "N-DSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἀδελφιδός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἐμοὶ", "script": "G", "morph": "S-1SNPM", "lemma": "ἐμός" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      {
+        "text": " ποιμαίνων",
+        "script": "G",
+        "morph": "V-PAP-NSM",
+        "lemma": "ποιμαίνω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τοῖς", "script": "G", "morph": "T-DPN", "lemma": "ὁ" },
+      {
+        "text": " κρίνοις.",
+        "script": "G",
+        "morph": "N-DPN",
+        "lemma": "κρίνον"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 4,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Καλὴ",
+        "script": "G",
+        "morph": "A-DSF",
+        "lemma": "καλός"
+      },
+      { "text": " εἶ,", "script": "G", "morph": "V-PAI-2S", "lemma": "εἰμί" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " πλησίον", "script": "G", "morph": "ADV", "lemma": "πλησίον" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " εὐδοκία,",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "εὐδοκία"
+      },
+      { "text": " ὡραία", "script": "G", "morph": "A-DSF", "lemma": "ὡραῖος" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " Ιερουσαλημ,",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Ἱερουσαλήμ"
+      },
+      { "text": " θάμβος", "script": "G", "morph": "N-ASN", "lemma": "θάμβος" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " τεταγμέναι.",
+        "script": "G",
+        "morph": "V-RPP-NPF",
+        "lemma": "τάσσω"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 5,
+    "content": [
+      {
+        "text": "Ἀπόστρεψον",
+        "script": "G",
+        "morph": "V-AAM-2S",
+        "lemma": "ἀποστρέφω"
+      },
+      {
+        "text": " ὀφθαλμούς",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "ὀφθαλμός"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἀπεναντίον", "script": "G", "lemma": "ἀπεναντίον" },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      { "text": " αὐτοὶ", "script": "G", "morph": "P-NPM", "lemma": "αὐτός" },
+      {
+        "text": " ἀνεπτέρωσάν",
+        "script": "G",
+        "morph": "V-AAI-3P",
+        "lemma": "ἀναπτερόω"
+      },
+      { "text": " με.", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      {
+        "text": " Τρίχωμά",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "τρίχωμα"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " ἀγέλαι", "script": "G", "morph": "N-NPF", "lemma": "ἀγέλη" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPM", "lemma": "ὁ" },
+      { "text": " αἰγῶν,", "script": "G", "lemma": "αἴξ" },
+      { "text": " αἳ", "script": "G", "morph": "R-NPF", "lemma": "ὅς" },
+      {
+        "text": " ἀνεφάνησαν",
+        "script": "G",
+        "morph": "V-2API-3P",
+        "lemma": "ἀναφαίνω"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      { "text": " Γαλααδ.", "script": "G", "morph": "N-PRI", "lemma": "Γαλαάδ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 6,
+    "content": [
+      { "text": "Ὀδόντες", "script": "G", "morph": "N-NPM", "lemma": "ὀδούς" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " ἀγέλαι", "script": "G", "morph": "N-NPF", "lemma": "ἀγέλη" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPM", "lemma": "ὁ" },
+      { "text": " κεκαρμένων,", "script": "G", "lemma": "κείρω" },
+      { "text": " αἳ", "script": "G", "morph": "R-NPF", "lemma": "ὅς" },
+      {
+        "text": " ἀνέβησαν",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "ἀναβαίνω"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSN", "lemma": "ὁ" },
+      {
+        "text": " λουτροῦ,",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "λουτρόν"
+      },
+      { "text": " αἱ", "script": "G", "morph": "T-NPF", "lemma": "ὁ" },
+      { "text": " πᾶσαι", "script": "G", "morph": "A-NPF", "lemma": "πᾶς" },
+      {
+        "text": " διδυμεύουσαι,",
+        "script": "G",
+        "morph": "V-PAP-NPF",
+        "lemma": "διδυμεύω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἀτεκνοῦσα",
+        "script": "G",
+        "morph": "V-PAP-NSF",
+        "lemma": "ἀτεκνόω"
+      },
+      { "text": " οὐκ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      { "text": " ἔστιν", "script": "G", "morph": "V-PAI-3S", "lemma": "εἰμί" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " αὐταῖς.", "script": "G", "morph": "P-DPF", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 7,
+    "content": [
+      { "text": "Ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " σπαρτίον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "σπαρτίον"
+      },
+      { "text": " τὸ", "script": "G", "morph": "T-ASN", "lemma": "ὁ" },
+      {
+        "text": " κόκκινον",
+        "script": "G",
+        "morph": "A-ASN",
+        "lemma": "κόκκινος"
+      },
+      { "text": " χείλη", "script": "G", "morph": "N-APN", "lemma": "χεῖλος" },
+      { "text": " σου,", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " λαλιά", "script": "G", "morph": "N-NSF", "lemma": "λαλιά" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡραία.", "script": "G", "morph": "A-DSF", "lemma": "ὡραῖος" },
+      { "text": " Ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " λέπυρον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "λέπυρον"
+      },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      { "text": " ῥόας", "script": "G", "morph": "N-GSF", "lemma": "ῥοά" },
+      { "text": " μῆλόν", "script": "G", "morph": "N-ASN", "lemma": "μῆλον" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἐκτὸς", "script": "G", "morph": "ADV", "lemma": "ἐκτός" },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      {
+        "text": " σιωπήσεώς",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "σιώπησις"
+      },
+      { "text": " σου.", "script": "G", "morph": "P-2GS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 8,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἑξήκοντά",
+        "script": "G",
+        "morph": "A-NUI",
+        "lemma": "ἑξήκοντα"
+      },
+      { "text": " εἰσιν", "script": "G", "morph": "V-PAI-3P", "lemma": "εἰμί" },
+      {
+        "text": " βασίλισσαι,",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "βασίλισσα"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ὀγδοήκοντα",
+        "script": "G",
+        "morph": "A-NUI",
+        "lemma": "ὀγδοήκοντα"
+      },
+      {
+        "text": " παλλακαί,",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "παλλακή"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " νεάνιδες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "νεᾶνις"
+      },
+      { "text": " ὧν", "script": "G", "morph": "R-GPM", "lemma": "ὅς" },
+      { "text": " οὐκ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      { "text": " ἔστιν", "script": "G", "morph": "V-PAI-3S", "lemma": "εἰμί" },
+      {
+        "text": " ἀριθμός.",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀριθμός"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 9,
+    "content": [
+      { "text": "Μία", "script": "G", "morph": "A-NSF", "lemma": "εἷς" },
+      { "text": " ἐστὶν", "script": "G", "morph": "V-PAI-3S", "lemma": "εἰμί" },
+      {
+        "text": " περιστερά",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "περιστερά"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " τελεία",
+        "script": "G",
+        "morph": "A-NSF",
+        "lemma": "τέλειος"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " μία", "script": "G", "morph": "A-NSF", "lemma": "εἷς" },
+      { "text": " ἐστὶν", "script": "G", "morph": "V-PAI-3S", "lemma": "εἰμί" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      { "text": " μητρὶ", "script": "G", "morph": "N-DSF", "lemma": "μήτηρ" },
+      { "text": " αὐτῆς,", "script": "G", "morph": "P-GSF", "lemma": "αὐτός" },
+      {
+        "text": " ἐκλεκτή",
+        "script": "G",
+        "morph": "A-DSF",
+        "lemma": "ἐκλεκτός"
+      },
+      { "text": " ἐστιν", "script": "G", "morph": "V-PAI-3S", "lemma": "εἰμί" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      {
+        "text": " τεκούσῃ",
+        "script": "G",
+        "morph": "V-FMI-2S",
+        "lemma": "τίκτω"
+      },
+      { "text": " αὐτῆς.", "script": "G", "morph": "P-GSF", "lemma": "αὐτός" },
+      {
+        "text": " Εἴδοσαν",
+        "script": "G",
+        "morph": "V-2AAI-3P",
+        "lemma": "ὁράω"
+      },
+      { "text": " αὐτὴν", "script": "G", "morph": "P-ASF", "lemma": "αὐτός" },
+      {
+        "text": " θυγατέρες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "θυγάτηρ"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " μακαριοῦσιν",
+        "script": "G",
+        "morph": "V-FAI-3P-ATT",
+        "lemma": "μακαρίζω"
+      },
+      { "text": " αὐτήν,", "script": "G", "morph": "P-ASF", "lemma": "αὐτός" },
+      {
+        "text": " βασίλισσαι",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "βασίλισσα"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " παλλακαὶ",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "παλλακή"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " αἰνέσουσιν",
+        "script": "G",
+        "morph": "V-FAI-3P",
+        "lemma": "αἰνέω"
+      },
+      { "text": " αὐτήν.", "script": "G", "morph": "P-ASF", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 10,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Τίς",
+        "script": "G",
+        "morph": "I-NSF",
+        "lemma": "τις"
+      },
+      { "text": " αὕτη", "script": "G", "morph": "D-NSF", "lemma": "οὗτος" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      {
+        "text": " ἐκκύπτουσα",
+        "script": "G",
+        "morph": "V-PAP-NSF",
+        "lemma": "ἐκκύπτω"
+      },
+      { "text": " ὡσεὶ", "script": "G", "morph": "ADV", "lemma": "ὡσεί" },
+      {
+        "text": " ὄρθρος,",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ὄρθρος"
+      },
+      { "text": " καλὴ", "script": "G", "morph": "A-DSF", "lemma": "καλός" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " σελήνη,",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "σελήνη"
+      },
+      {
+        "text": " ἐκλεκτὴ",
+        "script": "G",
+        "morph": "A-DSF",
+        "lemma": "ἐκλεκτός"
+      },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      { "text": " ἥλιος,", "script": "G", "morph": "N-NSM", "lemma": "ἥλιος" },
+      { "text": " θάμβος", "script": "G", "morph": "N-NSN", "lemma": "θάμβος" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " τεταγμέναι;",
+        "script": "G",
+        "morph": "V-RPP-NPF",
+        "lemma": "τάσσω"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 11,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Εἰς",
+        "script": "G",
+        "morph": "PREP",
+        "lemma": "εἰς"
+      },
+      { "text": " κῆπον", "script": "G", "morph": "N-ASM", "lemma": "κῆπος" },
+      { "text": " καρύας", "script": "G", "morph": "N-APF", "lemma": "καρύα" },
+      {
+        "text": " κατέβην",
+        "script": "G",
+        "morph": "V-2AAI-1S",
+        "lemma": "καταβαίνω"
+      },
+      { "text": " ἰδεῖν", "script": "G", "morph": "V-2AAN", "lemma": "ὁράω" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " γενήμασιν", "script": "G", "lemma": "γέννημα" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      {
+        "text": " χειμάρρου,",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "χειμάρρους"
+      },
+      { "text": " ἰδεῖν", "script": "G", "morph": "V-2AAN", "lemma": "ὁράω" },
+      { "text": " εἰ", "script": "G", "morph": "COND", "lemma": "εἰ" },
+      { "text": " ἤνθησεν", "script": "G", "lemma": "ἀνθέω" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      {
+        "text": " ἄμπελος,",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "ἄμπελος"
+      },
+      {
+        "text": " ἐξήνθησαν",
+        "script": "G",
+        "morph": "V-AAI-3P",
+        "lemma": "ἐξανθέω"
+      },
+      { "text": " αἱ", "script": "G", "morph": "T-NPF", "lemma": "ὁ" },
+      { "text": " ῥόαι·", "script": "G", "morph": "N-NPF", "lemma": "ῥοά" },
+      { "text": " ἐκεῖ", "script": "G", "morph": "ADV", "lemma": "ἐκεῖ" },
+      {
+        "text": " δώσω",
+        "script": "G",
+        "morph": "V-FAI-1S",
+        "lemma": "δίδωμι"
+      },
+      { "text": " τοὺς", "script": "G", "morph": "T-APM", "lemma": "ὁ" },
+      {
+        "text": " μαστούς",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "μαστός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " σοί.", "script": "G", "morph": "S-2SNPM", "lemma": "σός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 6,
+    "verse": 12,
+    "content": [
+      { "text": "Οὐκ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " ἔγνω",
+        "script": "G",
+        "morph": "V-2AAI-3S",
+        "lemma": "γινώσκω"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " ψυχή", "script": "G", "morph": "N-NSF", "lemma": "ψυχή" },
+      { "text": " μου·", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἔθετό",
+        "script": "G",
+        "morph": "V-2AMI-3S",
+        "lemma": "τίθημι"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ἅρματα", "script": "G", "morph": "N-APN", "lemma": "ἅρμα" },
+      {
+        "text": " Αμιναδαβ.",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Ἀμιναδάβ"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐπίστρεφε",
+        "script": "G",
+        "morph": "V-PAM-2S",
+        "lemma": "ἐπιστρέφω"
+      },
+      {
+        "text": " ἐπίστρεφε,",
+        "script": "G",
+        "morph": "V-PAM-2S",
+        "lemma": "ἐπιστρέφω"
+      },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      {
+        "text": " Σουλαμῖτις,",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "Σουλαμῖτις"
+      },
+      {
+        "text": " ἐπίστρεφε",
+        "script": "G",
+        "morph": "V-PAM-2S",
+        "lemma": "ἐπιστρέφω"
+      },
+      {
+        "text": " ἐπίστρεφε,",
+        "script": "G",
+        "morph": "V-PAM-2S",
+        "lemma": "ἐπιστρέφω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ὀψόμεθα",
+        "script": "G",
+        "morph": "V-FDI-1P",
+        "lemma": "ὁράω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " σοί.", "script": "G", "morph": "P-2DS", "lemma": "σύ" },
+      {
+        "paragraph": true,
+        "text": " Τί",
+        "script": "G",
+        "morph": "X-ASN",
+        "lemma": "τις"
+      },
+      {
+        "text": " ὄψεσθε",
+        "script": "G",
+        "morph": "V-FDI-2P",
+        "lemma": "ὁράω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      {
+        "text": " Σουλαμίτιδι;",
+        "script": "G",
+        "morph": "N-DSF",
+        "lemma": "Σουλαμῖτις"
+      },
+      { "text": " Ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      {
+        "text": " ἐρχομένη",
+        "script": "G",
+        "morph": "V-PNP-NSF",
+        "lemma": "ἔρχομαι"
+      },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " χοροὶ", "script": "G", "morph": "N-NPM", "lemma": "χορός" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPF", "lemma": "ὁ" },
+      {
+        "text": " παρεμβολῶν.",
+        "script": "G",
+        "morph": "N-GPF",
+        "lemma": "παρεμβολή"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 2,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Τί",
+        "script": "G",
+        "morph": "X-ASN",
+        "lemma": "τις"
+      },
+      {
+        "text": " ὡραιώθησαν",
+        "script": "G",
+        "morph": "V-API-3P",
+        "lemma": "ὡραιοῦμαι"
+      },
+      {
+        "text": " διαβήματά",
+        "script": "G",
+        "morph": "N-APN",
+        "lemma": "διάβημα"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ὑποδήμασιν,", "script": "G", "lemma": "ὑπόδημα" },
+      {
+        "text": " θύγατερ",
+        "script": "G",
+        "morph": "N-VSF",
+        "lemma": "θυγάτηρ"
+      },
+      { "text": " Ναδαβ;", "script": "G", "morph": "N-PRI", "lemma": "Ναδαβ" },
+      { "text": " Ῥυθμοὶ", "script": "G", "morph": "N-NPM", "lemma": "ῥυθμός" },
+      { "text": " μηρῶν", "script": "G", "morph": "N-GPM", "lemma": "μηρός" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὅμοιοι", "script": "G", "morph": "A-NPM", "lemma": "ὅμοιος" },
+      {
+        "text": " ὁρμίσκοις",
+        "script": "G",
+        "morph": "N-DPM",
+        "lemma": "ὁρμίσκος"
+      },
+      { "text": " ἔργῳ", "script": "G", "morph": "N-DSN", "lemma": "ἔργον" },
+      { "text": " χειρῶν", "script": "G", "morph": "N-GPF", "lemma": "χείρ" },
+      {
+        "text": " τεχνίτου·",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "τεχνίτης"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 3,
+    "content": [
+      {
+        "text": "ὀμφαλός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ὀμφαλός"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " κρατὴρ", "script": "G", "lemma": "κρατήρ" },
+      {
+        "text": " τορευτὸς",
+        "script": "G",
+        "morph": "A-NSM",
+        "lemma": "τορευτός"
+      },
+      { "text": " μὴ", "script": "G", "morph": "PRT-N", "lemma": "μή" },
+      {
+        "text": " ὑστερούμενος",
+        "script": "G",
+        "morph": "V-PEP-NSM",
+        "lemma": "ὑστερέω"
+      },
+      { "text": " κρᾶμα·", "script": "G", "morph": "N-NSN", "lemma": "κρᾶμα" },
+      { "text": " κοιλία", "script": "G", "morph": "N-NSF", "lemma": "κοιλία" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      {
+        "text": " θιμωνιὰ",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "θιμωνιά"
+      },
+      { "text": " σίτου", "script": "G", "morph": "N-GSM", "lemma": "σῖτος" },
+      {
+        "text": " πεφραγμένη",
+        "script": "G",
+        "morph": "V-2AAS-3S",
+        "lemma": "φράσσω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " κρίνοις·",
+        "script": "G",
+        "morph": "N-DPN",
+        "lemma": "κρίνον"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 4,
+    "content": [
+      { "text": "δύο", "script": "G", "morph": "A-NUI", "lemma": "δύο" },
+      { "text": " μαστοί", "script": "G", "morph": "N-NPM", "lemma": "μαστός" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " δύο", "script": "G", "morph": "A-NUI", "lemma": "δύο" },
+      { "text": " νεβροὶ", "script": "G", "morph": "N-NPM", "lemma": "νεβρός" },
+      {
+        "text": " δίδυμοι",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "δίδυμος"
+      },
+      {
+        "text": " δορκάδος·",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "δορκάς"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 5,
+    "content": [
+      {
+        "text": "τράχηλός",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "τράχηλος"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " πύργος", "script": "G", "morph": "N-NSM", "lemma": "πύργος" },
+      {
+        "text": " ἐλεφάντινος·",
+        "script": "G",
+        "morph": "A-NSM",
+        "lemma": "ἐλεφάντινος"
+      },
+      {
+        "text": " ὀφθαλμοί",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "ὀφθαλμός"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " λίμναι", "script": "G", "morph": "N-NPF", "lemma": "λίμνη" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " Εσεβων", "script": "G", "morph": "N-PRI", "lemma": "Εσεβων" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " πύλαις", "script": "G", "morph": "N-DPF", "lemma": "πύλη" },
+      {
+        "text": " θυγατρὸς",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "θυγάτηρ"
+      },
+      { "text": " πολλῶν·", "script": "G", "morph": "A-GPF", "lemma": "πολύς" },
+      { "text": " μυκτήρ", "script": "G", "morph": "N-NSM", "lemma": "μυκτήρ" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " πύργος", "script": "G", "morph": "N-NSM", "lemma": "πύργος" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      {
+        "text": " Λιβάνου",
+        "script": "G",
+        "morph": "N-GSM",
+        "lemma": "λίβανος"
+      },
+      {
+        "text": " σκοπεύων",
+        "script": "G",
+        "morph": "V-PAP-NSM",
+        "lemma": "σκοπεύω"
+      },
+      {
+        "text": " πρόσωπον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "πρόσωπον"
+      },
+      {
+        "text": " Δαμασκοῦ·",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "Δαμασκός"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 6,
+    "content": [
+      { "text": "κεφαλή", "script": "G", "morph": "N-NSF", "lemma": "κεφαλή" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " σὲ", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " Κάρμηλος,",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "Κάρμηλος"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " πλόκιον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "πλόκιον"
+      },
+      {
+        "text": " κεφαλῆς",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "κεφαλή"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " πορφύρα,",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "πορφύρα"
+      },
+      {
+        "text": " βασιλεὺς",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "βασιλεύς"
+      },
+      {
+        "text": " δεδεμένος",
+        "script": "G",
+        "morph": "V-RPP-NSM",
+        "lemma": "δέω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " παραδρομαῖς.",
+        "script": "G",
+        "morph": "N-DPF",
+        "lemma": "παραδρομή"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 7,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Τί",
+        "script": "G",
+        "morph": "X-ASN",
+        "lemma": "τις"
+      },
+      {
+        "text": " ὡραιώθης",
+        "script": "G",
+        "morph": "V-API-2S",
+        "lemma": "ὡραιοῦμαι"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " τί", "script": "G", "morph": "X-ASN", "lemma": "τις" },
+      {
+        "text": " ἡδύνθης,",
+        "script": "G",
+        "morph": "V-API-2S",
+        "lemma": "ἡδύνω"
+      },
+      { "text": " ἀγάπη,", "script": "G", "morph": "N-NSF", "lemma": "ἀγάπη" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τρυφαῖς", "script": "G", "morph": "N-DPF", "lemma": "τρυφή" },
+      { "text": " σου;", "script": "G", "morph": "P-2GS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 8,
+    "content": [
+      { "text": "Τοῦτο", "script": "G", "morph": "D-ASN", "lemma": "οὗτος" },
+      {
+        "text": " μέγεθός",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "μέγεθος"
+      },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      {
+        "text": " ὡμοιώθη",
+        "script": "G",
+        "morph": "V-API-3S",
+        "lemma": "ὁμοιόω"
+      },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      { "text": " φοίνικι", "script": "G", "lemma": "φοῖνιξ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " οἱ", "script": "G", "morph": "T-NPM", "lemma": "ὁ" },
+      { "text": " μαστοί", "script": "G", "morph": "N-NPM", "lemma": "μαστός" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " τοῖς", "script": "G", "morph": "T-DPM", "lemma": "ὁ" },
+      { "text": " βότρυσιν.", "script": "G", "lemma": "βότρυς" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 9,
+    "content": [
+      { "text": "Εἶπα", "script": "G", "morph": "V-2AAI-1S", "lemma": "ἔπω" },
+      {
+        "text": " Ἀναβήσομαι",
+        "script": "G",
+        "morph": "V-FMI-1S",
+        "lemma": "ἀναβαίνω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      { "text": " φοίνικι,", "script": "G", "lemma": "φοῖνιξ" },
+      {
+        "text": " κρατήσω",
+        "script": "G",
+        "morph": "V-FAI-1S",
+        "lemma": "κρατέω"
+      },
+      { "text": " τῶν", "script": "G", "morph": "T-GPM", "lemma": "ὁ" },
+      { "text": " ὕψεων", "script": "G", "lemma": "ὕψος" },
+      { "text": " αὐτοῦ,", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ἔσονται",
+        "script": "G",
+        "morph": "V-FDI-3P",
+        "lemma": "εἰμί"
+      },
+      { "text": " δὴ", "script": "G", "morph": "PRT", "lemma": "δή" },
+      { "text": " μαστοί", "script": "G", "morph": "N-NPM", "lemma": "μαστός" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " βότρυες",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "βότρυς"
+      },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      {
+        "text": " ἀμπέλου",
+        "script": "G",
+        "morph": "N-GSF",
+        "lemma": "ἄμπελος"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ὀσμὴ", "script": "G", "morph": "N-NSF", "lemma": "ὀσμή" },
+      { "text": " ῥινός", "script": "G", "lemma": "ῥίς" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " μῆλα", "script": "G", "morph": "N-APN", "lemma": "μῆλον" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 10,
+    "content": [
+      { "text": "καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " λάρυγξ", "script": "G", "morph": "N-NSM", "lemma": "λάρυγξ" },
+      { "text": " σου", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " οἶνος", "script": "G", "morph": "N-NSM", "lemma": "οἶνος" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      { "text": " ἀγαθὸς", "script": "G", "morph": "A-NSM", "lemma": "ἀγαθός" },
+      {
+        "text": " πορευόμενος",
+        "script": "G",
+        "morph": "V-PNP-NSM",
+        "lemma": "πορεύομαι"
+      },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      {
+        "text": " ἀδελφιδῷ",
+        "script": "G",
+        "morph": "N-DSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " εὐθύθητα", "script": "G", "lemma": "εὐθύτης" },
+      {
+        "text": " ἱκανούμενος",
+        "script": "G",
+        "morph": "V-PEP-NSM",
+        "lemma": "ἱκανόω"
+      },
+      {
+        "text": " χείλεσίν",
+        "script": "G",
+        "morph": "N-DPN",
+        "lemma": "χεῖλος"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ὀδοῦσιν.", "script": "G", "lemma": "ὀδούς" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 11,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐγὼ",
+        "script": "G",
+        "morph": "P-1NS",
+        "lemma": "ἐγώ"
+      },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      {
+        "text": " ἀδελφιδῷ",
+        "script": "G",
+        "morph": "N-DSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἐπ’", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " ἐμὲ", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      {
+        "text": " ἐπιστροφὴ",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "ἐπιστροφή"
+      },
+      { "text": " αὐτοῦ.", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 12,
+    "content": [
+      {
+        "text": "Ἐλθέ,",
+        "script": "G",
+        "morph": "V-2AAM-2S",
+        "lemma": "ἔρχομαι"
+      },
+      {
+        "text": " ἀδελφιδέ",
+        "script": "G",
+        "morph": "N-VSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἐξέλθωμεν", "script": "G", "lemma": "ἐξέρχομαι" },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " ἀγρόν,", "script": "G", "morph": "N-ASM", "lemma": "ἀγρός" },
+      { "text": " αὐλισθῶμεν", "script": "G", "lemma": "αὐλίζομαι" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " κώμαις·", "script": "G", "morph": "N-DPF", "lemma": "κώμη" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 13,
+    "content": [
+      {
+        "text": "ὀρθρίσωμεν",
+        "script": "G",
+        "morph": "V-AAS-1P",
+        "lemma": "ὀρθρίζω"
+      },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      {
+        "text": " ἀμπελῶνας,",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "ἀμπελών"
+      },
+      {
+        "text": " ἴδωμεν",
+        "script": "G",
+        "morph": "V-2AAS-1P",
+        "lemma": "ὁράω"
+      },
+      { "text": " εἰ", "script": "G", "morph": "COND", "lemma": "εἰ" },
+      { "text": " ἤνθησεν", "script": "G", "lemma": "ἀνθέω" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      {
+        "text": " ἄμπελος,",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "ἄμπελος"
+      },
+      { "text": " ἤνθησεν", "script": "G", "lemma": "ἀνθέω" },
+      { "text": " ὁ", "script": "G", "morph": "T-NSM", "lemma": "ὁ" },
+      {
+        "text": " κυπρισμός,",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "κυπρισμός"
+      },
+      { "text": " ἤνθησαν", "script": "G", "lemma": "ἀνθέω" },
+      { "text": " αἱ", "script": "G", "morph": "T-NPF", "lemma": "ὁ" },
+      { "text": " ῥόαι·", "script": "G", "morph": "N-NPF", "lemma": "ῥοά" },
+      { "text": " ἐκεῖ", "script": "G", "morph": "ADV", "lemma": "ἐκεῖ" },
+      {
+        "text": " δώσω",
+        "script": "G",
+        "morph": "V-FAI-1S",
+        "lemma": "δίδωμι"
+      },
+      { "text": " τοὺς", "script": "G", "morph": "T-APM", "lemma": "ὁ" },
+      {
+        "text": " μαστούς",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "μαστός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " σοί.", "script": "G", "morph": "S-2SNPM", "lemma": "σός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 7,
+    "verse": 14,
+    "content": [
+      { "text": "Οἱ", "script": "G", "morph": "T-NPM", "lemma": "ὁ" },
+      {
+        "text": " μανδραγόραι",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "μανδραγόρας"
+      },
+      {
+        "text": " ἔδωκαν",
+        "script": "G",
+        "morph": "V-AAI-3P",
+        "lemma": "δίδωμι"
+      },
+      { "text": " ὀσμήν,", "script": "G", "morph": "N-ASF", "lemma": "ὀσμή" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " θύραις", "script": "G", "morph": "N-DPF", "lemma": "θύρα" },
+      { "text": " ἡμῶν", "script": "G", "morph": "P-1GP", "lemma": "ἐγώ" },
+      { "text": " πάντα", "script": "G", "morph": "A-APN", "lemma": "πᾶς" },
+      {
+        "text": " ἀκρόδρυα,",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "ἀκρόδρυα"
+      },
+      { "text": " νέα", "script": "G", "morph": "A-NSF", "lemma": "νέος" },
+      { "text": " πρὸς", "script": "G", "morph": "PREP", "lemma": "πρός" },
+      {
+        "text": " παλαιά,",
+        "script": "G",
+        "morph": "A-NSF",
+        "lemma": "παλαιός"
+      },
+      {
+        "text": " ἀδελφιδέ",
+        "script": "G",
+        "morph": "N-VSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " ἐτήρησά",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "τηρέω"
+      },
+      { "text": " σοι.", "script": "G", "morph": "P-2DS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Τίς",
+        "script": "G",
+        "morph": "X-NSM",
+        "lemma": "τις"
+      },
+      {
+        "text": " δῴη",
+        "script": "G",
+        "morph": "V-2AAO-3S",
+        "lemma": "δίδωμι"
+      },
+      { "text": " σε", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      {
+        "text": " ἀδελφιδόν",
+        "script": "G",
+        "morph": "N-ASM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " θηλάζοντα",
+        "script": "G",
+        "morph": "V-PAP-ASM",
+        "lemma": "θηλάζω"
+      },
+      {
+        "text": " μαστοὺς",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "μαστός"
+      },
+      { "text": " μητρός", "script": "G", "morph": "N-GSF", "lemma": "μήτηρ" },
+      { "text": " μου;", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      {
+        "text": " Εὑροῦσά",
+        "script": "G",
+        "morph": "V-2AAP-NSF",
+        "lemma": "εὑρίσκω"
+      },
+      { "text": " σε", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      { "text": " ἔξω", "script": "G", "morph": "ADV", "lemma": "ἔξω" },
+      {
+        "text": " φιλήσω",
+        "script": "G",
+        "morph": "V-AAS-1S",
+        "lemma": "φιλέω"
+      },
+      { "text": " σε,", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      { "text": " καί", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " γε", "script": "G", "morph": "PRT", "lemma": "γε" },
+      { "text": " οὐκ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " ἐξουδενώσουσίν",
+        "script": "G",
+        "morph": "V-FAI-3P",
+        "lemma": "ἐξουδενόω"
+      },
+      { "text": " μοι.", "script": "G", "morph": "P-1DS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 2,
+    "content": [
+      { "text": "Παραλήμψομαί", "script": "G", "lemma": "παραλαμβάνω" },
+      { "text": " σε,", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      {
+        "text": " εἰσάξω",
+        "script": "G",
+        "morph": "V-FAI-1S",
+        "lemma": "εἰσάγω"
+      },
+      { "text": " σε", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      { "text": " οἶκον", "script": "G", "morph": "N-ASM", "lemma": "οἶκος" },
+      { "text": " μητρός", "script": "G", "morph": "N-GSF", "lemma": "μήτηρ" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " εἰς", "script": "G", "morph": "PREP", "lemma": "εἰς" },
+      {
+        "text": " ταμίειον",
+        "script": "G",
+        "morph": "N-ASN",
+        "lemma": "ταμεῖον"
+      },
+      { "text": " τῆς", "script": "G", "morph": "T-GSF", "lemma": "ὁ" },
+      { "text": " συλλαβούσης", "script": "G", "lemma": "συλλαμβάνω" },
+      { "text": " με·", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ποτιῶ", "script": "G", "lemma": "ποτίζω" },
+      { "text": " σε", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " οἴνου", "script": "G", "morph": "N-GSM", "lemma": "οἶνος" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      {
+        "text": " μυρεψικοῦ,",
+        "script": "G",
+        "morph": "A-GSM",
+        "lemma": "μυρεψικός"
+      },
+      { "text": " ἀπὸ", "script": "G", "morph": "PREP", "lemma": "ἀπό" },
+      { "text": " νάματος", "script": "G", "morph": "N-GSN", "lemma": "νᾶμα" },
+      { "text": " ῥοῶν", "script": "G", "morph": "N-GPF", "lemma": "ῥοά" },
+      { "text": " μου.", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 3,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Εὐώνυμος",
+        "script": "G",
+        "morph": "A-NSM",
+        "lemma": "εὐώνυμος"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ὑπὸ", "script": "G", "morph": "PREP", "lemma": "ὑπό" },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      {
+        "text": " κεφαλήν",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "κεφαλή"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " δεξιὰ", "script": "G", "morph": "A-NSF", "lemma": "δεξιός" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " περιλήμψεταί",
+        "script": "G",
+        "morph": "V-FMI-3S",
+        "lemma": "περιλαμβάνω"
+      },
+      { "text": " με.", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 4,
+    "content": [
+      {
+        "text": "Ὥρκισα",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ὁρκίζω"
+      },
+      { "text": " ὑμᾶς,", "script": "G", "morph": "P-2AP", "lemma": "σύ" },
+      {
+        "text": " θυγατέρες",
+        "script": "G",
+        "morph": "N-NPF",
+        "lemma": "θυγάτηρ"
+      },
+      {
+        "text": " Ιερουσαλημ,",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Ἱερουσαλήμ"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ταῖς", "script": "G", "morph": "T-DPF", "lemma": "ὁ" },
+      {
+        "text": " δυνάμεσιν",
+        "script": "G",
+        "morph": "N-DPF",
+        "lemma": "δύναμις"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ταῖς", "script": "G", "morph": "T-DPF", "lemma": "ὁ" },
+      { "text": " ἰσχύσεσιν", "script": "G", "lemma": "ἰσχύς" },
+      { "text": " τοῦ", "script": "G", "morph": "T-GSM", "lemma": "ὁ" },
+      { "text": " ἀγροῦ,", "script": "G", "morph": "N-GSM", "lemma": "ἀγρός" },
+      { "text": " τί", "script": "G", "morph": "X-ASN", "lemma": "τις" },
+      {
+        "text": " ἐγείρητε",
+        "script": "G",
+        "morph": "V-AAS-2P",
+        "lemma": "ἐγείρω"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " τί", "script": "G", "morph": "X-ASN", "lemma": "τις" },
+      {
+        "text": " ἐξεγείρητε",
+        "script": "G",
+        "morph": "V-AAS-2P",
+        "lemma": "ἐξεγείρω"
+      },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      { "text": " ἀγάπην,", "script": "G", "morph": "N-ASF", "lemma": "ἀγάπη" },
+      { "text": " ἕως", "script": "G", "morph": "ADV", "lemma": "ἕως" },
+      { "text": " ἂν", "script": "G", "morph": "PRT", "lemma": "ἄν" },
+      {
+        "text": " θελήσῃ.",
+        "script": "G",
+        "morph": "V-AAS-3S",
+        "lemma": "θέλω"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 5,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Τίς",
+        "script": "G",
+        "morph": "I-NSF",
+        "lemma": "τις"
+      },
+      { "text": " αὕτη", "script": "G", "morph": "D-NSF", "lemma": "οὗτος" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      {
+        "text": " ἀναβαίνουσα",
+        "script": "G",
+        "morph": "V-PAP-NSF",
+        "lemma": "ἀναβαίνω"
+      },
+      { "text": " λελευκανθισμένη", "script": "G", "lemma": "λευκανίζω" },
+      {
+        "text": " ἐπιστηριζομένη",
+        "script": "G",
+        "morph": "V-PEP-NSF",
+        "lemma": "ἐπιστηρίζω"
+      },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " τὸν", "script": "G", "morph": "T-ASM", "lemma": "ὁ" },
+      {
+        "text": " ἀδελφιδὸν",
+        "script": "G",
+        "morph": "N-ASM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " αὐτῆς;", "script": "G", "morph": "P-GSF", "lemma": "αὐτός" },
+      {
+        "paragraph": true,
+        "text": " Ὑπὸ",
+        "script": "G",
+        "morph": "PREP",
+        "lemma": "ὑπό"
+      },
+      { "text": " μῆλον", "script": "G", "morph": "N-ASN", "lemma": "μῆλον" },
+      {
+        "text": " ἐξήγειρά",
+        "script": "G",
+        "morph": "V-AAI-1S",
+        "lemma": "ἐξεγείρω"
+      },
+      { "text": " σε·", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      { "text": " ἐκεῖ", "script": "G", "morph": "ADV", "lemma": "ἐκεῖ" },
+      { "text": " ὠδίνησέν", "script": "G", "lemma": "ὠδίνω" },
+      { "text": " σε", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " μήτηρ", "script": "G", "morph": "N-NSF", "lemma": "μήτηρ" },
+      { "text": " σου,", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ἐκεῖ", "script": "G", "morph": "ADV", "lemma": "ἐκεῖ" },
+      { "text": " ὠδίνησέν", "script": "G", "lemma": "ὠδίνω" },
+      { "text": " σε", "script": "G", "morph": "P-2AS", "lemma": "σύ" },
+      { "text": " ἡ", "script": "G", "morph": "T-NSF", "lemma": "ὁ" },
+      { "text": " τεκοῦσά", "script": "G", "lemma": "τίκτω" },
+      { "text": " σου.", "script": "G", "morph": "P-2GS", "lemma": "σύ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 6,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Θές",
+        "script": "G",
+        "morph": "V-2AAP-NSM",
+        "lemma": "τίθημι"
+      },
+      { "text": " με", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " σφραγῖδα",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "σφραγίς"
+      },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      {
+        "text": " καρδίαν",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "καρδία"
+      },
+      { "text": " σου,", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " σφραγῖδα",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "σφραγίς"
+      },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " τὸν", "script": "G", "morph": "T-ASM", "lemma": "ὁ" },
+      {
+        "text": " βραχίονά",
+        "script": "G",
+        "morph": "N-ASM",
+        "lemma": "βραχίων"
+      },
+      { "text": " σου·", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      { "text": " ὅτι", "script": "G", "morph": "CONJ", "lemma": "ὅτι" },
+      {
+        "text": " κραταιὰ",
+        "script": "G",
+        "morph": "A-NSF",
+        "lemma": "κραταιός"
+      },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " θάνατος",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "θάνατος"
+      },
+      { "text": " ἀγάπη,", "script": "G", "morph": "N-NSF", "lemma": "ἀγάπη" },
+      {
+        "text": " σκληρὸς",
+        "script": "G",
+        "morph": "A-NSM",
+        "lemma": "σκληρός"
+      },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      { "text": " ᾅδης", "script": "G", "morph": "N-NSM", "lemma": "ᾅδης" },
+      { "text": " ζῆλος·", "script": "G", "morph": "N-NSM", "lemma": "ζῆλος" },
+      {
+        "text": " περίπτερα",
+        "script": "G",
+        "morph": "A-NSF",
+        "lemma": "περίπτερος"
+      },
+      { "text": " αὐτῆς", "script": "G", "morph": "P-GSF", "lemma": "αὐτός" },
+      {
+        "text": " περίπτερα",
+        "script": "G",
+        "morph": "A-NSF",
+        "lemma": "περίπτερος"
+      },
+      { "text": " πυρός,", "script": "G", "morph": "N-GSN", "lemma": "πῦρ" },
+      { "text": " φλόγες", "script": "G", "lemma": "φλόξ" },
+      { "text": " αὐτῆς·", "script": "G", "morph": "P-GSF", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 7,
+    "content": [
+      { "text": "ὕδωρ", "script": "G", "morph": "N-ASN", "lemma": "ὕδωρ" },
+      { "text": " πολὺ", "script": "G", "morph": "A-ASN", "lemma": "πολύς" },
+      { "text": " οὐ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " δυνήσεται",
+        "script": "G",
+        "morph": "V-FDI-3S",
+        "lemma": "δύναμαι"
+      },
+      {
+        "text": " σβέσαι",
+        "script": "G",
+        "morph": "V-AAN",
+        "lemma": "σβέννυμι"
+      },
+      { "text": " τὴν", "script": "G", "morph": "T-ASF", "lemma": "ὁ" },
+      { "text": " ἀγάπην,", "script": "G", "morph": "N-ASF", "lemma": "ἀγάπη" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ποταμοὶ",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "ποταμός"
+      },
+      { "text": " οὐ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      {
+        "text": " συγκλύσουσιν",
+        "script": "G",
+        "morph": "V-FAI-3P",
+        "lemma": "συγκλύζω"
+      },
+      { "text": " αὐτήν·", "script": "G", "morph": "P-ASF", "lemma": "αὐτός" },
+      { "text": " ἐὰν", "script": "G", "morph": "COND", "lemma": "ἐάν" },
+      { "text": " δῷ", "script": "G", "morph": "V-2AAS-3S", "lemma": "δίδωμι" },
+      { "text": " ἀνὴρ", "script": "G", "morph": "N-NSM", "lemma": "ἀνήρ" },
+      { "text": " τὸν", "script": "G", "morph": "T-ASM", "lemma": "ὁ" },
+      { "text": " πάντα", "script": "G", "morph": "A-ASM", "lemma": "πᾶς" },
+      { "text": " βίον", "script": "G", "morph": "N-ASM", "lemma": "βίος" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      { "text": " ἀγάπῃ,", "script": "G", "morph": "N-DSF", "lemma": "ἀγάπη" },
+      {
+        "text": " ἐξουδενώσει",
+        "script": "G",
+        "morph": "N-DSF",
+        "lemma": "ἐξουδένωσις"
+      },
+      {
+        "text": " ἐξουδενώσουσιν",
+        "script": "G",
+        "morph": "V-FAI-3P",
+        "lemma": "ἐξουδενόω"
+      },
+      { "text": " αὐτόν.", "script": "G", "morph": "P-ASM", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 8,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἀδελφὴ",
+        "script": "G",
+        "morph": "N-NSF",
+        "lemma": "ἀδελφή"
+      },
+      { "text": " ἡμῖν", "script": "G", "morph": "P-1DP", "lemma": "ἐγώ" },
+      { "text": " μικρὰ", "script": "G", "morph": "A-NSF", "lemma": "μικρός" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " μαστοὺς",
+        "script": "G",
+        "morph": "N-APM",
+        "lemma": "μαστός"
+      },
+      { "text": " οὐκ", "script": "G", "morph": "PRT-N", "lemma": "οὐ" },
+      { "text": " ἔχει·", "script": "G", "morph": "V-PAI-3S", "lemma": "ἔχω" },
+      { "text": " τί", "script": "G", "morph": "X-ASN", "lemma": "τις" },
+      {
+        "text": " ποιήσωμεν",
+        "script": "G",
+        "morph": "V-AAS-1P",
+        "lemma": "ποιέω"
+      },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      { "text": " ἀδελφῇ", "script": "G", "morph": "N-NSF", "lemma": "ἀδελφή" },
+      { "text": " ἡμῶν", "script": "G", "morph": "P-1GP", "lemma": "ἐγώ" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " ἡμέρᾳ,", "script": "G", "morph": "N-DSF", "lemma": "ἡμέρα" },
+      { "text": " ᾗ", "script": "G", "morph": "R-DSF", "lemma": "ὅς" },
+      { "text": " ἐὰν", "script": "G", "morph": "COND", "lemma": "ἐάν" },
+      {
+        "text": " λαληθῇ",
+        "script": "G",
+        "morph": "V-APS-3S",
+        "lemma": "λαλέω"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " αὐτῇ;", "script": "G", "morph": "P-DSF", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 9,
+    "content": [
+      { "text": "Εἰ", "script": "G", "morph": "COND", "lemma": "εἰ" },
+      { "text": " τεῖχός", "script": "G", "morph": "N-ASN", "lemma": "τεῖχος" },
+      {
+        "text": " ἐστιν,",
+        "script": "G",
+        "morph": "V-PAI-3S",
+        "lemma": "εἰμί"
+      },
+      {
+        "text": " οἰκοδομήσωμεν",
+        "script": "G",
+        "morph": "V-AAS-1P",
+        "lemma": "οἰκοδομέω"
+      },
+      { "text": " ἐπ’", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " αὐτὴν", "script": "G", "morph": "P-ASF", "lemma": "αὐτός" },
+      {
+        "text": " ἐπάλξεις",
+        "script": "G",
+        "morph": "N-APF",
+        "lemma": "ἔπαλξις"
+      },
+      { "text": " ἀργυρᾶς·", "script": "G", "lemma": "ἀργύρεος" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " εἰ", "script": "G", "morph": "COND", "lemma": "εἰ" },
+      { "text": " θύρα", "script": "G", "morph": "N-NSF", "lemma": "θύρα" },
+      {
+        "text": " ἐστίν,",
+        "script": "G",
+        "morph": "V-PAI-3S",
+        "lemma": "εἰμί"
+      },
+      {
+        "text": " διαγράψωμεν",
+        "script": "G",
+        "morph": "V-AAS-1P",
+        "lemma": "διαγράφω"
+      },
+      { "text": " ἐπ’", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " αὐτὴν", "script": "G", "morph": "P-ASF", "lemma": "αὐτός" },
+      { "text": " σανίδα", "script": "G", "lemma": "σανίδος" },
+      {
+        "text": " κεδρίνην.",
+        "script": "G",
+        "morph": "A-ASF",
+        "lemma": "κέδρινος"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 10,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐγὼ",
+        "script": "G",
+        "morph": "P-1NS",
+        "lemma": "ἐγώ"
+      },
+      {
+        "text": " τεῖχος,",
+        "script": "G",
+        "morph": "N-NSN",
+        "lemma": "τεῖχος"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " μαστοί", "script": "G", "morph": "N-NPM", "lemma": "μαστός" },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " πύργοι·",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "πύργος"
+      },
+      { "text": " ἐγὼ", "script": "G", "morph": "P-1NS", "lemma": "ἐγώ" },
+      { "text": " ἤμην", "script": "G", "morph": "V-IMI-1S", "lemma": "εἰμί" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " ὀφθαλμοῖς",
+        "script": "G",
+        "morph": "N-DPM",
+        "lemma": "ὀφθαλμός"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " ὡς", "script": "G", "morph": "ADV", "lemma": "ὡς" },
+      {
+        "text": " εὑρίσκουσα",
+        "script": "G",
+        "morph": "V-PAP-NSF",
+        "lemma": "εὑρίσκω"
+      },
+      {
+        "text": " εἰρήνην.",
+        "script": "G",
+        "morph": "N-ASF",
+        "lemma": "εἰρήνη"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 11,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἀμπελὼν",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀμπελών"
+      },
+      {
+        "text": " ἐγενήθη",
+        "script": "G",
+        "morph": "V-AOI-3S",
+        "lemma": "γίνομαι"
+      },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      {
+        "text": " Σαλωμων",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "Σαλωμών"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      {
+        "text": " Βεελαμων·",
+        "script": "G",
+        "morph": "N-PRI",
+        "lemma": "Βεελαμων"
+      },
+      {
+        "text": " ἔδωκεν",
+        "script": "G",
+        "morph": "V-AAI-3S",
+        "lemma": "δίδωμι"
+      },
+      { "text": " τὸν", "script": "G", "morph": "T-ASM", "lemma": "ὁ" },
+      {
+        "text": " ἀμπελῶνα",
+        "script": "G",
+        "morph": "N-ASM",
+        "lemma": "ἀμπελών"
+      },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      { "text": " τοῖς", "script": "G", "morph": "T-DPM", "lemma": "ὁ" },
+      {
+        "text": " τηροῦσιν,",
+        "script": "G",
+        "morph": "V-PAI-3P",
+        "lemma": "τηρέω"
+      },
+      { "text": " ἀνὴρ", "script": "G", "morph": "N-NSM", "lemma": "ἀνήρ" },
+      { "text": " οἴσει", "script": "G", "morph": "V-FAI-3S", "lemma": "φέρω" },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " καρπῷ", "script": "G", "morph": "N-DSM", "lemma": "Κάρπος" },
+      { "text": " αὐτοῦ", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" },
+      {
+        "text": " χιλίους",
+        "script": "G",
+        "morph": "A-APM",
+        "lemma": "χίλιοι"
+      },
+      {
+        "text": " ἀργυρίου.",
+        "script": "G",
+        "morph": "N-GSN",
+        "lemma": "ἀργύριον"
+      }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 12,
+    "content": [
+      {
+        "text": "Ἀμπελών",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "ἀμπελών"
+      },
+      { "text": " μου", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " ἐμὸς", "script": "G", "morph": "S-1SNSM", "lemma": "ἐμός" },
+      {
+        "text": " ἐνώπιόν",
+        "script": "G",
+        "morph": "A-ASM",
+        "lemma": "ἐνώπιος"
+      },
+      { "text": " μου·", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " οἱ", "script": "G", "morph": "T-NPM", "lemma": "ὁ" },
+      { "text": " χίλιοι", "script": "G", "morph": "A-NPM", "lemma": "χίλιοι" },
+      { "text": " σοί,", "script": "G", "morph": "S-2SNPM", "lemma": "σός" },
+      {
+        "text": " Σαλωμων,",
+        "script": "G",
+        "morph": "N-NSM",
+        "lemma": "Σαλωμών"
+      },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      { "text": " οἱ", "script": "G", "morph": "T-NPM", "lemma": "ὁ" },
+      {
+        "text": " διακόσιοι",
+        "script": "G",
+        "morph": "A-NPM",
+        "lemma": "διακόσιοι"
+      },
+      { "text": " τοῖς", "script": "G", "morph": "T-DPM", "lemma": "ὁ" },
+      {
+        "text": " τηροῦσι",
+        "script": "G",
+        "morph": "V-PAP-DPM",
+        "lemma": "τηρέω"
+      },
+      { "text": " τὸν", "script": "G", "morph": "T-ASM", "lemma": "ὁ" },
+      { "text": " καρπὸν", "script": "G", "morph": "N-ASM", "lemma": "καρπός" },
+      { "text": " αὐτοῦ.", "script": "G", "morph": "P-GSM", "lemma": "αὐτός" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 13,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ὁ",
+        "script": "G",
+        "morph": "T-NSM",
+        "lemma": "ὁ"
+      },
+      {
+        "text": " καθήμενος",
+        "script": "G",
+        "morph": "V-PNP-NSM",
+        "lemma": "κάθημαι"
+      },
+      { "text": " ἐν", "script": "G", "morph": "PREP", "lemma": "ἐν" },
+      { "text": " κήποις,", "script": "G", "morph": "N-DPM", "lemma": "κῆπος" },
+      {
+        "text": " ἑταῖροι",
+        "script": "G",
+        "morph": "N-NPM",
+        "lemma": "ἑταῖρος"
+      },
+      {
+        "text": " προσέχοντες",
+        "script": "G",
+        "morph": "V-PAP-NPM",
+        "lemma": "προσέχω"
+      },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      { "text": " φωνῇ", "script": "G", "morph": "N-DSF", "lemma": "φωνή" },
+      { "text": " σου·", "script": "G", "morph": "P-2GS", "lemma": "σύ" },
+      {
+        "text": " ἀκούτισόν",
+        "script": "G",
+        "morph": "V-FAP-ASN",
+        "lemma": "ἀκουτίζω"
+      },
+      { "text": " με.", "script": "G", "morph": "P-1AS", "lemma": "ἐγώ" }
+    ]
+  },
+  {
+    "book": "SOS",
+    "chapter": 8,
+    "verse": 14,
+    "content": [
+      { "paragraph": true, "text": "Φύγε,", "script": "G", "lemma": "φεύγω" },
+      {
+        "text": " ἀδελφιδέ",
+        "script": "G",
+        "morph": "N-VSM",
+        "lemma": "ἀδελφιδός"
+      },
+      { "text": " μου,", "script": "G", "morph": "P-1GS", "lemma": "ἐγώ" },
+      { "text": " καὶ", "script": "G", "morph": "CONJ", "lemma": "καί" },
+      {
+        "text": " ὁμοιώθητι",
+        "script": "G",
+        "morph": "V-APM-2S",
+        "lemma": "ὁμοιόω"
+      },
+      { "text": " τῇ", "script": "G", "morph": "T-DSF", "lemma": "ὁ" },
+      {
+        "text": " δορκάδι",
+        "script": "G",
+        "morph": "N-DSF",
+        "lemma": "δορκάς"
+      },
+      { "text": " ἢ", "script": "G", "morph": "PRT", "lemma": "ἤ" },
+      { "text": " τῷ", "script": "G", "morph": "T-DSM", "lemma": "ὁ" },
+      { "text": " νεβρῷ", "script": "G", "morph": "N-DSM", "lemma": "νεβρός" },
+      { "text": " τῶν", "script": "G", "morph": "T-GPF", "lemma": "ὁ" },
+      { "text": " ἐλάφων", "script": "G", "morph": "N-GPF", "lemma": "ἔλαφος" },
+      { "text": " ἐπὶ", "script": "G", "morph": "PREP", "lemma": "ἐπί" },
+      { "text": " ὄρη", "script": "G", "morph": "N-APN", "lemma": "ὄρος" },
+      {
+        "text": " ἀρωμάτων.",
+        "script": "G",
+        "morph": "N-GPN",
+        "lemma": "ἄρωμα"
+      }
+    ]
+  }
+]

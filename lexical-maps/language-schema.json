@@ -75,10 +75,7 @@
           "type": "string",
           "description": "_id of the inflectionCategories entry this code belongs to."
         },
-        "name": {
-          "type": "string",
-          "description": "Human-readable label."
-        },
+        "name": { "type": "string", "description": "Human-readable label." },
         "description": {
           "type": "string",
           "description": "Optional longer explanation, e.g. for a code minted to resolve a genuine ambiguity such as \"midpas\"."
@@ -113,32 +110,24 @@
     },
     "normalization": {
       "type": "array",
-      "items": {
-        "$ref": "#/$defs/normalizationRule"
-      },
+      "items": { "$ref": "#/$defs/normalizationRule" },
       "description": "Ordered key-normalization rules applied when forming a codex key from an attested surface form."
     },
     "letters": {
       "type": "array",
-      "items": {
-        "type": "string"
-      },
+      "items": { "type": "string" },
       "minItems": 1,
       "description": "Ordered alphabet. Each entry names one codex file under lexical-maps/<language>/, and the order also drives display order."
     },
     "inflectionCategories": {
       "type": "array",
-      "items": {
-        "$ref": "#/$defs/inflectionCategory"
-      },
+      "items": { "$ref": "#/$defs/inflectionCategory" },
       "minItems": 1,
       "description": "Categories a parse code can belong to. A parse may carry at most one code per category (checked outside this schema)."
     },
     "inflections": {
       "type": "array",
-      "items": {
-        "$ref": "#/$defs/inflection"
-      },
+      "items": { "$ref": "#/$defs/inflection" },
       "minItems": 1,
       "description": "Every code usable in a parse array, each tied to one category. Every code in a parse must resolve here (checked outside this schema)."
     },
@@ -157,30 +146,22 @@
         },
         "lossy": {
           "type": "array",
-          "items": {
-            "type": "string"
-          },
+          "items": { "type": "string" },
           "description": "Features the scheme does not represent, so a reader knows where the round trip breaks."
         },
         "letters": {
           "type": "object",
-          "additionalProperties": {
-            "type": "string"
-          },
+          "additionalProperties": { "type": "string" },
           "description": "Base letter to its Latin rendering."
         },
         "diphthongs": {
           "type": "array",
-          "items": {
-            "type": "string"
-          },
+          "items": { "type": "string" },
           "description": "Two-letter sequences that read as one sound."
         },
         "velars": {
           "type": "array",
-          "items": {
-            "type": "string"
-          },
+          "items": { "type": "string" },
           "description": "Letters that turn a preceding gamma into a nasal."
         },
         "gammaNasal": {

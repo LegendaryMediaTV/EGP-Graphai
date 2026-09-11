@@ -15,12 +15,7 @@
         },
         "slots": {
           "type": "array",
-          "items": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
+          "items": { "type": "array", "items": { "type": "string" } },
           "description": "Ordered positions read after the head. Each position is an array of slot names to try, in order, against the code found there."
         }
       }
@@ -37,9 +32,7 @@
         },
         "fields": {
           "type": "array",
-          "items": {
-            "type": "string"
-          },
+          "items": { "type": "string" },
           "minItems": 1,
           "description": "Inflection categories read one character at a time, in order, when the slot has this length."
         }
@@ -55,24 +48,18 @@
         },
         "prefix": {
           "type": "object",
-          "additionalProperties": {
-            "type": "string"
-          },
+          "additionalProperties": { "type": "string" },
           "description": "Leading token to inflection code, e.g. { \"2\": \"second\" }, consumed before the rest of the slot is read."
         },
         "fields": {
           "type": "array",
-          "items": {
-            "type": "string"
-          },
+          "items": { "type": "string" },
           "minItems": 1,
           "description": "Inflection categories read one character at a time, in order. Mutually exclusive with `variants`."
         },
         "variants": {
           "type": "array",
-          "items": {
-            "$ref": "#/$defs/slotVariant"
-          },
+          "items": { "$ref": "#/$defs/slotVariant" },
           "minItems": 1,
           "description": "Alternate field lists, selected by the slot's character length. Mutually exclusive with `fields`."
         },
@@ -117,33 +104,25 @@
     },
     "heads": {
       "type": "object",
-      "additionalProperties": {
-        "$ref": "#/$defs/head"
-      },
+      "additionalProperties": { "$ref": "#/$defs/head" },
       "minProperties": 1,
       "description": "Every head token this scheme uses, keyed by the token itself, e.g. \"V\" for a verb."
     },
     "slots": {
       "type": "object",
-      "additionalProperties": {
-        "$ref": "#/$defs/slot"
-      },
+      "additionalProperties": { "$ref": "#/$defs/slot" },
       "description": "Every slot referenced from `heads`, keyed by slot name."
     },
     "qualifiers": {
       "type": "object",
-      "additionalProperties": {
-        "type": "string"
-      },
+      "additionalProperties": { "type": "string" },
       "description": "Trailing qualifier token to inflection code, e.g. { \"ATT\": \"attic\" }. Qualifiers are optional and may trail any code."
     },
     "tokens": {
       "type": "object",
       "additionalProperties": {
         "type": "object",
-        "additionalProperties": {
-          "type": "string"
-        }
+        "additionalProperties": { "type": "string" }
       },
       "description": "Token maps for each inflection category named in `slots`, e.g. tokens.tense.\"A\" is \"aor\". Every code produced must resolve in the language registry (checked outside this schema)."
     }

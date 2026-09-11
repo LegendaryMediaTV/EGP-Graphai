@@ -10,16 +10,10 @@
       "properties": {
         "strongs": {
           "oneOf": [
-            {
-              "type": "string",
-              "pattern": "^[GH][0-9]{1,4}$"
-            },
+            { "type": "string", "pattern": "^[GH][0-9]{1,4}$" },
             {
               "type": "array",
-              "items": {
-                "type": "string",
-                "pattern": "^[GH][0-9]{1,4}$"
-              },
+              "items": { "type": "string", "pattern": "^[GH][0-9]{1,4}$" },
               "minItems": 2
             }
           ],
@@ -28,27 +22,11 @@
       },
       "additionalProperties": {
         "oneOf": [
-          {
-            "type": "string"
-          },
-          {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "minItems": 2
-          }
+          { "type": "string" },
+          { "type": "array", "items": { "type": "string" }, "minItems": 2 }
         ]
       },
-      "description": "Lexical indices keyed by index name. On the root, the numbers the corpus uses for the word; on a cell, the number it tagged that form with."
-    },
-    "occurrences": {
-      "type": "object",
-      "additionalProperties": {
-        "type": "integer",
-        "minimum": 0
-      },
-      "description": "Attested token counts keyed by source version id, e.g. \"BYZ2026\". A cell with no `occurrences` is a paradigm cell no imported corpus has attested yet, which is expected and not an error."
+      "description": "Lexical indices keyed by index name. On the root, every number the index files this word under; on a cell, which of them this spelling and parse takes."
     },
     "cell": {
       "type": "object",
@@ -57,18 +35,35 @@
       "properties": {
         "parse": {
           "type": "array",
-          "items": {
-            "type": "string"
-          },
+          "items": { "type": "string" },
           "minItems": 1,
-          "description": "Category-tagged codes describing this cell's morphology. Every code must resolve in the language registry, at most one code per category, and required categories present for the part of speech; a variant's parse must be a subset of its canonical's parse (all checked outside this schema)."
+          "description": "Category-tagged codes describing this cell's morphology. Every code must resolve in the language registry, at most one code per category, and required categories present for the part of speech (all checked outside this schema)."
         },
         "indices": {
           "$ref": "#/$defs/indices",
-          "description": "Parse-level lexical indices, such as a defective-verb's own Strong's number. Never present on a variant cell (checked outside this schema)."
+          "description": "Indices belonging to this parse rather than to the word. Present only where the root's own index holds more than one number and this spelling and parse takes some of them: εἰμί is filed under sixteen Strong's numbers, and G2076 is the one for its third person singular present. So a cell's value is always a subset of its root's and never the whole of it, since naming every number the root holds says nothing a reader could not read off the root (both checked outside this schema). A corpus tags at the lexical level, so a cell that merely copied its token's tag is the root's number written again."
         }
       },
       "description": "One parse of one spelling, with the index the corpus tagged it with. A spelling with several parses has several cells. Two spellings sharing a root and a parse are the same paradigm slot written two ways; nothing marks one as primary."
+    },
+    "inflection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cells"],
+      "properties": {
+        "transliteration": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Academic transliteration of this spelling, derived from the table in the language registry and stored so no consumer has to reimplement it. It belongs to the spelling rather than to a parse, which is why it sits here and not on a cell: a spelling carrying more than one parse romanizes the same way for all of them."
+        },
+        "cells": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/cell" },
+          "minItems": 1,
+          "description": "One entry per parse this spelling carries. An array because a spelling can fill several paradigm slots at once."
+        }
+      },
+      "description": "One attested spelling: how it romanizes, and every parse it carries."
     },
     "root": {
       "type": "object",
@@ -85,11 +80,31 @@
         },
         "citationForms": {
           "type": "array",
-          "items": {
-            "type": "string"
-          },
+          "items": { "type": "string" },
           "minItems": 1,
           "description": "Optional citation forms, e.g. [\"ὁ\", \"ἡ\", \"τό\"] for a gender set filed under one root."
+        },
+        "gender": {
+          "type": "string",
+          "description": "This noun's grammatical gender, for a language that fixes one per noun. A lexical fact the citation form usually does not carry: ὁδός is feminine and λόγος masculine, and both end in -ος. Present only where the evidence settles it, and only on a noun; a root filed as a gender set (ὁ ἡ τό) has no one gender and omits this. Resolves in the language registry's \"gender\" category (checked outside this schema)."
+        },
+        "declension": {
+          "type": "string",
+          "description": "This noun's or adjective's inflection class, which fixes the endings its paradigm takes. Not derivable from a citation form alone, since -ος is second-declension masculine in λόγος and feminine in ὁδός, and πνεῦμα is a -ματος neuter rather than a first-declension feminine. Resolves in the language registry's \"declension\" class category (checked outside this schema). Absent where the evidence does not discriminate, which is common for a root attested once."
+        },
+        "conjugation": {
+          "type": "string",
+          "description": "This verb's present-system class, which fixes how it forms its present and imperfect: thematic, one of the contract types, athematic, or irregular. The formation of each other principal part belongs beside that part in `stems` rather than here, since a verb can be regular in one tense and not another. Resolves in the language registry's \"conjugation\" class category (checked outside this schema)."
+        },
+        "deponent": {
+          "type": "boolean",
+          "description": "Whether this verb's middle and passive forms carry an active meaning, so a corpus tags their voice with the deponent codes rather than the plain ones. Not derivable from any ending: γίνομαι has no active at all, and nothing about -ομαι says so. Present only on a verb, and only when true."
+        },
+        "stems": {
+          "type": "object",
+          "additionalProperties": { "type": "string", "minLength": 1 },
+          "minProperties": 1,
+          "description": "This verb's principal parts, keyed by the tense each builds: {\"aor\": \"ειπ\"} for λέγω. Unaccented, and an augment may be included where the corpus attests it that way. Every tense a regular verb derives from its present stem is absent; what appears here is what no rule produces. Each key must be a tense code in the language registry (checked outside this schema)."
         },
         "shortDefinition": {
           "type": "string",
@@ -102,29 +117,12 @@
         "inflections": {
           "type": "object",
           "minProperties": 1,
-          "additionalProperties": {
-            "type": "array",
-            "items": {
-              "$ref": "#/$defs/cell"
-            },
-            "minItems": 1
-          },
-          "description": "Every attested inflected form under this root, keyed by the (normalized) surface spelling. Each form maps to a non-empty array of cells because one spelling can carry more than one parse. Every (form, parse) pair attested in a tagged corpus must exist here (checked outside this schema)."
-        },
-        "transliterations": {
-          "type": "object",
-          "minProperties": 1,
-          "additionalProperties": {
-            "type": "string",
-            "minLength": 1
-          },
-          "description": "Academic transliteration of every key in `inflections`, keyed the same way. Derived from the table in the language registry and stored so no consumer has to reimplement it."
+          "additionalProperties": { "$ref": "#/$defs/inflection" },
+          "description": "Every attested spelling under this root, keyed by the spelling as a text prints it, less what is positional rather than lexical: outer punctuation off but the elision apostrophe kept, initial case taken from the root key, the grave accent read as its acute, NFC. Every other accent stays, so two editions printing one word differently are two keys. No two keys are equal under that fold, and every (form, parse) pair a corpus attests exists here (both checked outside this schema, which cannot compare two property names to each other)."
         }
       }
     }
   },
   "type": "object",
-  "additionalProperties": {
-    "$ref": "#/$defs/root"
-  }
+  "additionalProperties": { "$ref": "#/$defs/root" }
 }

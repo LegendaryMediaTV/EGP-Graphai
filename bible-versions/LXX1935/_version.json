@@ -1,0 +1,430 @@
+{
+  "_id": "LXX1935",
+  "name": "Septuagint (Rahlfs)",
+  "copyright": "Scripture quotations and versification from Septuaginta, edited by Alfred Rahlfs (Stuttgart: Württembergische Bibelanstalt, 1935). It is in the public domain.",
+  "license": "CC0-1.0",
+  "script": "G",
+  "morphology": "robinson",
+  "books": [
+    {
+      "_id": "GEN",
+      "name": { "text": "Γένεσις", "script": "G" },
+      "title": { "text": "ΓΕΝΕΣΙΣ", "script": "G" },
+      "order": 1,
+      "chapters": 50
+    },
+    {
+      "_id": "EXO",
+      "name": { "text": "Ἔξοδος", "script": "G" },
+      "title": { "text": "ΕΞΟΔΟΣ", "script": "G" },
+      "order": 2,
+      "chapters": 40
+    },
+    {
+      "_id": "LEV",
+      "name": { "text": "Λευιτικόν", "script": "G" },
+      "title": { "text": "ΛΕΥΙΤΙΚΟΝ", "script": "G" },
+      "order": 3,
+      "chapters": 27
+    },
+    {
+      "_id": "NUM",
+      "name": { "text": "Ἀριθμοί", "script": "G" },
+      "title": { "text": "ΑΡΙΘΜΟΙ", "script": "G" },
+      "order": 4,
+      "chapters": 36
+    },
+    {
+      "_id": "DEU",
+      "name": { "text": "Δευτερονόμιον", "script": "G" },
+      "title": { "text": "ΔΕΥΤΕΡΟΝΟΜΙΟΝ", "script": "G" },
+      "order": 5,
+      "chapters": 34
+    },
+    {
+      "_id": "JSH",
+      "name": { "text": "Ἰησοῦς (Β)", "script": "G" },
+      "title": { "text": "ΙΗΣΟΥΣ (Β)", "script": "G" },
+      "order": 6,
+      "chapters": 24
+    },
+    {
+      "_id": "JSA",
+      "name": { "text": "Ἰησοῦς (Α)", "script": "G" },
+      "title": { "text": "ΙΗΣΟΥΣ (Α)", "script": "G" },
+      "order": 7,
+      "chapters": 19
+    },
+    {
+      "_id": "JDG",
+      "name": { "text": "Κριταί (Α)", "script": "G" },
+      "title": { "text": "ΚΡΙΤΑΙ (Α)", "script": "G" },
+      "order": 8,
+      "chapters": 21
+    },
+    {
+      "_id": "JDB",
+      "name": { "text": "Κριταί (Β)", "script": "G" },
+      "title": { "text": "ΚΡΙΤΑΙ (Β)", "script": "G" },
+      "order": 9,
+      "chapters": 21
+    },
+    {
+      "_id": "RTH",
+      "name": { "text": "Ῥούθ", "script": "G" },
+      "title": { "text": "ΡΟΥΘ", "script": "G" },
+      "order": 10,
+      "chapters": 4
+    },
+    {
+      "_id": "1SM",
+      "name": { "text": "Βασιλειῶν Α΄", "script": "G" },
+      "title": { "text": "ΒΑΣΙΛΕΙΩΝ Α΄", "script": "G" },
+      "order": 11,
+      "chapters": 31
+    },
+    {
+      "_id": "2SM",
+      "name": { "text": "Βασιλειῶν Β΄", "script": "G" },
+      "title": { "text": "ΒΑΣΙΛΕΙΩΝ Β΄", "script": "G" },
+      "order": 12,
+      "chapters": 24
+    },
+    {
+      "_id": "1KG",
+      "name": { "text": "Βασιλειῶν Γ΄", "script": "G" },
+      "title": { "text": "ΒΑΣΙΛΕΙΩΝ Γ΄", "script": "G" },
+      "order": 13,
+      "chapters": 22
+    },
+    {
+      "_id": "2KG",
+      "name": { "text": "Βασιλειῶν Δ΄", "script": "G" },
+      "title": { "text": "ΒΑΣΙΛΕΙΩΝ Δ΄", "script": "G" },
+      "order": 14,
+      "chapters": 25
+    },
+    {
+      "_id": "1CH",
+      "name": { "text": "Παραλειπομένων Α΄", "script": "G" },
+      "title": { "text": "ΠΑΡΑΛΕΙΠΟΜΕΝΩΝ Α΄", "script": "G" },
+      "order": 15,
+      "chapters": 29
+    },
+    {
+      "_id": "2CH",
+      "name": { "text": "Παραλειπομένων Β΄", "script": "G" },
+      "title": { "text": "ΠΑΡΑΛΕΙΠΟΜΕΝΩΝ Β΄", "script": "G" },
+      "order": 16,
+      "chapters": 36
+    },
+    {
+      "_id": "1ES",
+      "name": { "text": "Ἔσδρας Α΄", "script": "G" },
+      "title": { "text": "ΕΣΔΡΑΣ Α΄", "script": "G" },
+      "order": 17,
+      "chapters": 9
+    },
+    {
+      "_id": "2ES",
+      "name": { "text": "Ἔσδρας Β΄", "script": "G" },
+      "title": { "text": "ΕΣΔΡΑΣ Β΄", "script": "G" },
+      "order": 18,
+      "chapters": 23
+    },
+    {
+      "_id": "ESG",
+      "name": { "text": "Ἐσθήρ", "script": "G" },
+      "title": { "text": "ΕΣΘΗΡ", "script": "G" },
+      "order": 19,
+      "chapters": 10
+    },
+    {
+      "_id": "JDT",
+      "name": { "text": "Ἰουδίθ", "script": "G" },
+      "title": { "text": "ΙΟΥΔΙΘ", "script": "G" },
+      "order": 20,
+      "chapters": 16
+    },
+    {
+      "_id": "TOB",
+      "name": { "text": "Τωβίτ", "script": "G" },
+      "title": { "text": "ΤΩΒΙΤ", "script": "G" },
+      "order": 21,
+      "chapters": 14
+    },
+    {
+      "_id": "TBS",
+      "name": { "text": "Τωβίτ (Σ)", "script": "G" },
+      "title": { "text": "ΤΩΒΙΤ (Σ)", "script": "G" },
+      "order": 22,
+      "chapters": 14
+    },
+    {
+      "_id": "1MC",
+      "name": { "text": "Μακκαβαίων Α΄", "script": "G" },
+      "title": { "text": "ΜΑΚΚΑΒΑΙΩΝ Α΄", "script": "G" },
+      "order": 23,
+      "chapters": 16
+    },
+    {
+      "_id": "2MC",
+      "name": { "text": "Μακκαβαίων Β΄", "script": "G" },
+      "title": { "text": "ΜΑΚΚΑΒΑΙΩΝ Β΄", "script": "G" },
+      "order": 24,
+      "chapters": 15
+    },
+    {
+      "_id": "3MC",
+      "name": { "text": "Μακκαβαίων Γ΄", "script": "G" },
+      "title": { "text": "ΜΑΚΚΑΒΑΙΩΝ Γ΄", "script": "G" },
+      "order": 25,
+      "chapters": 7
+    },
+    {
+      "_id": "4MC",
+      "name": { "text": "Μακκαβαίων Δ΄", "script": "G" },
+      "title": { "text": "ΜΑΚΚΑΒΑΙΩΝ Δ΄", "script": "G" },
+      "order": 26,
+      "chapters": 18
+    },
+    {
+      "_id": "PSA",
+      "name": { "text": "Ψαλμοί", "script": "G" },
+      "title": { "text": "ΨΑΛΜΟΙ", "script": "G" },
+      "order": 27,
+      "chapters": 151
+    },
+    {
+      "_id": "ODS",
+      "name": { "text": "Ὠδαί", "script": "G" },
+      "title": { "text": "ΩΔΑΙ", "script": "G" },
+      "order": 28,
+      "chapters": 14
+    },
+    {
+      "_id": "PRV",
+      "name": { "text": "Παροιμίαι", "script": "G" },
+      "title": { "text": "ΠΑΡΟΙΜΙΑΙ", "script": "G" },
+      "order": 29,
+      "chapters": 31
+    },
+    {
+      "_id": "ECC",
+      "name": { "text": "Ἐκκλησιαστής", "script": "G" },
+      "title": { "text": "ΕΚΚΛΗΣΙΑΣΤΗΣ", "script": "G" },
+      "order": 30,
+      "chapters": 12
+    },
+    {
+      "_id": "SOS",
+      "name": { "text": "Ἆσμα Ἀσμάτων", "script": "G" },
+      "title": { "text": "ΑΣΜΑ ΑΣΜΑΤΩΝ", "script": "G" },
+      "order": 31,
+      "chapters": 8
+    },
+    {
+      "_id": "JOB",
+      "name": { "text": "Ἰώβ", "script": "G" },
+      "title": { "text": "ΙΩΒ", "script": "G" },
+      "order": 32,
+      "chapters": 42
+    },
+    {
+      "_id": "WIS",
+      "name": { "text": "Σοφία Σαλωμῶνος", "script": "G" },
+      "title": { "text": "ΣΟΦΙΑ ΣΑΛΩΜΩΝΟΣ", "script": "G" },
+      "order": 33,
+      "chapters": 19
+    },
+    {
+      "_id": "SRP",
+      "name": { "text": "Πρόλογος Σοφίας Σιράχ", "script": "G" },
+      "title": { "text": "ΠΡΟΛΟΓΟΣ ΣΟΦΙΑΣ ΣΙΡΑΧ", "script": "G" },
+      "order": 34,
+      "chapters": 1
+    },
+    {
+      "_id": "SIR",
+      "name": { "text": "Σοφία Σιράχ", "script": "G" },
+      "title": { "text": "ΣΟΦΙΑ ΣΙΡΑΧ", "script": "G" },
+      "order": 35,
+      "chapters": 51
+    },
+    {
+      "_id": "PSS",
+      "name": { "text": "Ψαλμοὶ Σαλωμῶντος", "script": "G" },
+      "title": { "text": "ΨΑΛΜΟΙ ΣΑΛΩΜΩΝΤΟΣ", "script": "G" },
+      "order": 36,
+      "chapters": 18
+    },
+    {
+      "_id": "HOS",
+      "name": { "text": "Ὡσηέ", "script": "G" },
+      "title": { "text": "ΩΣΗΕ", "script": "G" },
+      "order": 37,
+      "chapters": 14
+    },
+    {
+      "_id": "AMS",
+      "name": { "text": "Ἀμώς", "script": "G" },
+      "title": { "text": "ΑΜΩΣ", "script": "G" },
+      "order": 38,
+      "chapters": 9
+    },
+    {
+      "_id": "MIC",
+      "name": { "text": "Μιχαίας", "script": "G" },
+      "title": { "text": "ΜΙΧΑΙΑΣ", "script": "G" },
+      "order": 39,
+      "chapters": 7
+    },
+    {
+      "_id": "JOL",
+      "name": { "text": "Ἰωήλ", "script": "G" },
+      "title": { "text": "ΙΩΗΛ", "script": "G" },
+      "order": 40,
+      "chapters": 4
+    },
+    {
+      "_id": "OBD",
+      "name": { "text": "Ὀβδιού", "script": "G" },
+      "title": { "text": "ΟΒΔΙΟΥ", "script": "G" },
+      "order": 41,
+      "chapters": 1
+    },
+    {
+      "_id": "JNA",
+      "name": { "text": "Ἰωνᾶς", "script": "G" },
+      "title": { "text": "ΙΩΝΑΣ", "script": "G" },
+      "order": 42,
+      "chapters": 4
+    },
+    {
+      "_id": "NAH",
+      "name": { "text": "Ναούμ", "script": "G" },
+      "title": { "text": "ΝΑΟΥΜ", "script": "G" },
+      "order": 43,
+      "chapters": 3
+    },
+    {
+      "_id": "HAB",
+      "name": { "text": "Ἀμβακούμ", "script": "G" },
+      "title": { "text": "ΑΜΒΑΚΟΥΜ", "script": "G" },
+      "order": 44,
+      "chapters": 3
+    },
+    {
+      "_id": "ZPH",
+      "name": { "text": "Σοφονίας", "script": "G" },
+      "title": { "text": "ΣΟΦΟΝΙΑΣ", "script": "G" },
+      "order": 45,
+      "chapters": 3
+    },
+    {
+      "_id": "HAG",
+      "name": { "text": "Ἁγγαῖος", "script": "G" },
+      "title": { "text": "ΑΓΓΑΙΟΣ", "script": "G" },
+      "order": 46,
+      "chapters": 2
+    },
+    {
+      "_id": "ZEC",
+      "name": { "text": "Ζαχαρίας", "script": "G" },
+      "title": { "text": "ΖΑΧΑΡΙΑΣ", "script": "G" },
+      "order": 47,
+      "chapters": 14
+    },
+    {
+      "_id": "MAL",
+      "name": { "text": "Μαλαχίας", "script": "G" },
+      "title": { "text": "ΜΑΛΑΧΙΑΣ", "script": "G" },
+      "order": 48,
+      "chapters": 3
+    },
+    {
+      "_id": "ISA",
+      "name": { "text": "Ἠσαΐας", "script": "G" },
+      "title": { "text": "ΗΣΑΙΑΣ", "script": "G" },
+      "order": 49,
+      "chapters": 66
+    },
+    {
+      "_id": "JER",
+      "name": { "text": "Ἰερεμίας", "script": "G" },
+      "title": { "text": "ΙΕΡΕΜΙΑΣ", "script": "G" },
+      "order": 50,
+      "chapters": 52
+    },
+    {
+      "_id": "BAR",
+      "name": { "text": "Βαρούχ", "script": "G" },
+      "title": { "text": "ΒΑΡΟΥΧ", "script": "G" },
+      "order": 51,
+      "chapters": 5
+    },
+    {
+      "_id": "LAM",
+      "name": { "text": "Θρῆνοι", "script": "G" },
+      "title": { "text": "ΘΡΗΝΟΙ", "script": "G" },
+      "order": 52,
+      "chapters": 5
+    },
+    {
+      "_id": "EPJ",
+      "name": { "text": "Ἐπιστολὴ Ἰερεμίου", "script": "G" },
+      "title": { "text": "ΕΠΙΣΤΟΛΗ ΙΕΡΕΜΙΟΥ", "script": "G" },
+      "order": 53,
+      "chapters": 1
+    },
+    {
+      "_id": "EZK",
+      "name": { "text": "Ἰεζεκιήλ", "script": "G" },
+      "title": { "text": "ΙΕΖΕΚΙΗΛ", "script": "G" },
+      "order": 54,
+      "chapters": 48
+    },
+    {
+      "_id": "SUS",
+      "name": { "text": "Σουσάννα", "script": "G" },
+      "title": { "text": "ΣΟΥΣΑΝΝΑ", "script": "G" },
+      "order": 55,
+      "chapters": 1
+    },
+    {
+      "_id": "SST",
+      "name": { "text": "Σουσάννα (Θ)", "script": "G" },
+      "title": { "text": "ΣΟΥΣΑΝΝΑ (Θ)", "script": "G" },
+      "order": 56,
+      "chapters": 1
+    },
+    {
+      "_id": "DOG",
+      "name": { "text": "Δανιήλ", "script": "G" },
+      "title": { "text": "ΔΑΝΙΗΛ", "script": "G" },
+      "order": 57,
+      "chapters": 12
+    },
+    {
+      "_id": "DNT",
+      "name": { "text": "Δανιήλ (Θ)", "script": "G" },
+      "title": { "text": "ΔΑΝΙΗΛ (Θ)", "script": "G" },
+      "order": 58,
+      "chapters": 12
+    },
+    {
+      "_id": "BEL",
+      "name": { "text": "Βὴλ καὶ Δράκων", "script": "G" },
+      "title": { "text": "ΒΗΛ ΚΑΙ ΔΡΑΚΩΝ", "script": "G" },
+      "order": 59,
+      "chapters": 1
+    },
+    {
+      "_id": "BLT",
+      "name": { "text": "Βὴλ καὶ Δράκων (Θ)", "script": "G" },
+      "title": { "text": "ΒΗΛ ΚΑΙ ΔΡΑΚΩΝ (Θ)", "script": "G" },
+      "order": 60,
+      "chapters": 1
+    }
+  ]
+}

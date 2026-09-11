@@ -88,6 +88,20 @@ export interface NodeShape {
   strong: string | undefined;
   /** Whether this node carries a `foot`. */
   hasFoot: boolean;
+  /**
+   * Whether this node carries a parse of its own — a `morph` or a `lemma`.
+   *
+   * A tagged word, in other words, on the same footing as a `strong`-carrying
+   * one: it is a word in its own right rather than stray text belonging on
+   * some neighbor. {@link isMergeableTextNode}'s own doc anticipated this
+   * shape as "legal per the schema, absent from this corpus today", and
+   * LXX1935 is the corpus where it stopped being absent — every one of its
+   * 624,654 words carries `morph` and `lemma` and none carries `strong`.
+   * Without this, {@link isMergeableConnector} read all of them as plain text
+   * and folded five whole runs into the next footnoted word, taking their
+   * parses with them.
+   */
+  hasParse: boolean;
   /** A `ContentNested` wrapper (`{content: [...], strong: "..."}`) — has rendered text one level down but no top-level `text` of its own, so it's never itself an eligible donor, merge target, or attachment point at this array level. */
   hasNestedContent: boolean;
   /** A multi-number `<st>` tag's own textless sibling (`{strong: "H853"}`, no `text`, no nested `content` either) — renders nothing at all, so a backward scan for an attachment point passes straight through it rather than stopping there. Distinct from `hasNestedContent`: both lack top-level `text`, but only one of them is actually invisible. */
@@ -115,6 +129,7 @@ export function describeNode(node: unknown): NodeShape {
     script: undefined,
     strong: undefined,
     hasFoot: false,
+    hasParse: false,
     hasNestedContent: false,
     isTextlessStrongSibling: false,
     isTextlessFootSibling: false,
@@ -143,6 +158,7 @@ export function describeNode(node: unknown): NodeShape {
   const strong = typeof record.strong === "string" ? record.strong : undefined;
   const hasNestedContent = "content" in record;
   const hasFoot = record.foot !== undefined && record.foot !== null;
+  const hasParse = typeof record.morph === "string" || typeof record.lemma === "string";
 
   return {
     text,
@@ -150,6 +166,7 @@ export function describeNode(node: unknown): NodeShape {
     script: record.script,
     strong,
     hasFoot,
+    hasParse,
     hasNestedContent,
     isTextlessStrongSibling:
       text === undefined && strong !== undefined && !hasNestedContent,
@@ -177,12 +194,19 @@ export function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
  * itself a valid {@link canJoinForward} target; without the exclusion the
  * scanning loop would sweep past it instead of stopping to treat it as the
  * target.
+ *
+ * `hasParse` excludes a word tagged with a `morph` or a `lemma` for the same
+ * reason `strong` does: it is a word of its own, not text that belongs on a
+ * neighbor. Untagged used to mean "carries no `strong`", which was true of
+ * every corpus here until a morph-tagged one arrived; see {@link
+ * NodeShape.hasParse}.
  */
 export function isMergeableConnector(shape: NodeShape): boolean {
   return (
     shape.text !== undefined &&
     shape.text.trim() !== "" &&
     shape.strong === undefined &&
+    !shape.hasParse &&
     !shape.hasFoot &&
     !shape.endsBreak
   );

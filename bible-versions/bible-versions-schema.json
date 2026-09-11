@@ -32,6 +32,10 @@
           "enum": ["G", "H"],
           "description": "Default script for this version (Greek or Hebrew). If unset, assume Latin."
         },
+        "morphology": {
+          "type": "string",
+          "description": "Which scheme this version's `morph` codes are written in, as the _id of a file under lexical-maps/<language>/morphology, e.g. \"robinson\". A code alone does not say: `N-GSM` is Robinson and `N1T-GSM` is Packard. Absent where a version carries no morphology."
+        },
         "abbr": {
           "type": "array",
           "items": { "$ref": "#/definitions/abbreviation" },
@@ -111,6 +115,10 @@
           "type": "string",
           "enum": ["G", "H"],
           "description": "Script override for this testament (Greek or Hebrew). If unset, assume Latin."
+        },
+        "morphology": {
+          "type": "string",
+          "description": "Morphology-scheme override for this testament, for an edition whose two halves are tagged in different schemes."
         }
       }
     }
