@@ -582,9 +582,10 @@
             "Or, ",
             { "text": "was being done away", "marks": ["i"] },
             ". Compare ",
-            { "bibleLink": "1 Corinthians 13:8", "content": "1 Cor. 13:8" },
-            ", ",
-            { "bibleLink": "1 Corinthians 13:10", "content": "10" },
+            {
+              "bibleLink": "1 Corinthians 13:8, 10",
+              "content": "1 Cor. 13:8, 10"
+            },
             "."
           ]
         }

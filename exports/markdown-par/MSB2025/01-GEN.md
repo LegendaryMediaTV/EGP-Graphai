@@ -866,7 +866,7 @@ Then Abram gave Melchizedek a tenth of everything.
 
 > - <sup>a</sup> Heading. Romans 4:1–12; Hebrews 11:8–19
 > - <sup>b</sup> 5. Cited in Romans 4:18
-> - <sup>c</sup> 6. Cited in Romans 4:3, Romans 4:22, Galatians 3:6, and James 2:23
+> - <sup>c</sup> 6. Cited in Romans 4:3, 22, Galatians 3:6, and James 2:23
 > - <sup>d</sup> Heading. Numbers 34:1–15; Romans 4:13–25
 > - <sup>e</sup> 14. Cited in Acts 7:6–7
 

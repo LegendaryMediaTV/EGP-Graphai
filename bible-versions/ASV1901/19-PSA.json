@@ -7936,13 +7936,10 @@
             "Or, ",
             { "text": "the earth", "marks": ["i"] },
             " (and so in verses ",
-            { "bibleLink": "Psalm 37:11", "content": "11" },
-            ", ",
-            { "bibleLink": "Psalm 37:22", "content": "22" },
-            ", ",
-            { "bibleLink": "Psalm 37:29", "content": "29" },
-            ", ",
-            { "bibleLink": "Psalm 37:34", "content": "34" },
+            {
+              "bibleLink": "Psalm 37:11, 22, 29, 34",
+              "content": "11, 22, 29, 34"
+            },
             ")"
           ]
         }
@@ -14749,11 +14746,7 @@
             "Or, ",
             { "text": "God ariseth", "marks": ["i"] },
             "; and so throughout verses ",
-            { "bibleLink": "Psalm 68:1", "content": "1" },
-            ", ",
-            { "bibleLink": "Psalm 68:2", "content": "2" },
-            ", ",
-            { "bibleLink": "Psalm 68:3", "content": "3" }
+            { "bibleLink": "Psalm 68:1, 2, 3", "content": "1, 2, 3" }
           ]
         }
       }

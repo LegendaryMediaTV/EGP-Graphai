@@ -62,6 +62,34 @@ Three lexical pointers can attach to any text object or nested wrapper:
 
 These three are independent. A node can have any subset. Toggles in the reader let students show or hide each independently.
 
+**Where a missing one comes from.** `npm run validate` fills in whichever of the two a script-tagged word node is missing, in one pass over the tree.
+
+A `lemma` is resolved for a node that carries a morphology code and none of its own — 140,107 of BYZ2026's 140,146, which arrived with Strong's numbers and no lemmas — by narrowing the roots the codex holds for the printed spelling, first by the parse the morph code states, then by the Strong's number the node already carries. A spelling two dictionary entries still share after both is reported and left blank rather than guessed at: 39 nodes, 38 of them `ἄρα` against `ἆρα`.
+
+A `strong` is resolved from that lemma for a node carrying no number of its own — 570,435 of LXX1935's 623,684, which arrived with lemmas and morphology and no Strong's numbers — through the index's placement rules, the number the codex puts on the cell itself, and the root's own single number, in that order. The remaining 53,249 are almost entirely roots the index has no number for at all, which is what makes this "where available" rather than a gap to close. See [lexical-map.md](lexical-map.md).
+
+**An existing value is never rewritten.** This is the difference between an annotation and a transliteration. A `lemma` or a `strong` a version already carries can hold a disambiguation a person made from the surrounding sentence, which no function can re-derive from the word alone, so validate writes only where the field is absent and reports a disagreement instead of repairing it. A `transliteration` has exactly one right answer given the text, so it is recomputed and overwritten on every run. The single hand-edit that survives a run is a node storing its own `text` verbatim, which marks a form that does not romanize at all — see below.
+
+## Transliteration
+
+A text object carrying `script` also carries `transliteration`: its own `text` romanized by the table the lexical map's language registry declares for that script. `npm run validate` writes it on every run, and the nested wrapper has none — it has no `text` of its own, so there would be nothing to check the value against.
+
+The point of storing it is that a consumer can print a transliterated edition without implementing the scheme, and the field is shaped so that printing one is a substitution and nothing else:
+
+- **Word boundaries, capitalization and whitespace are the text's own.** Each word is romanized by itself and everything between and around the words carries through, so `{ text: " χριστοῦ," }` stores `" christoû,"`, leading space and trailing comma intact.
+- **Script-specific punctuation converts.** The Greek ano teleia (U+0387) reads as a semicolon and the Greek question mark (U+037E) as a question mark. Every other mark — commas, dashes, ellipses, editorial brackets, the elision apostrophe, digits — stands as printed.
+- **Stitching the transliterations yields what stitching the texts does**: the same word boundaries, the same spacing, the same punctuation in the same places.
+
+**Or the node's own text, where there is nothing to romanize.** A Greek alphabetic numeral is letters standing for a number: REV 13:18 prints `χξς` and means 666. The table has an answer for those letters, `chxs`, and it is the wrong kind of thing — not the number, and not a word anyone reads. So the node stores its own `text` as its transliteration, and a transliterated edition prints the numeral the way the Greek prints it.
+
+That equality is both the marking and the way validate recognizes it: a stored value that already equals the node's `text` is held rather than recomputed. Nothing new goes in the schema, and there is no list of exempt references to keep in step with the text. The cost is that a value set equal to its text by mistake is preserved just as faithfully, so the lexical-enrichment audit counts these per version — three in BYZ2026, one in LXX1935 — and a wrong one shows up there as a number that moved. The count is of nodes where holding and recomputing give different answers; a text the table reproduces unchanged, such as a lone stigma, is equal either way and is not counted.
+
+A consumer still needs `node.transliteration ?? node.text`. A bare string in a content array carries no keys, and neither a Latin node nor an `abbr` name has a transliteration to offer.
+
+`npm run export` is that consumer, and the worked example of what the field buys: it writes `exports/markdown-par/<VERSION>-Transliterated/` for every version declaring a `script`, using the same renderer with one option changed. See [The transliterated markdown](data-pipeline.md#the-transliterated-markdown).
+
+Two things the field is deliberately not. It is **not** looked up in the codex, whose key folds initial case away and reads a grave as its acute — see [lexical-map.md](lexical-map.md). And it is **not** written where no language registry declares the node's script, which today means every Hebrew node: `npm run validate` leaves those as printed and reports the count rather than guessing at a scheme.
+
 ## Formatting marks
 
 A `marks` array carries presentation choices:

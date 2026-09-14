@@ -3713,7 +3713,7 @@ Hallelujah!<sup>b</sup>
 > - <sup>c</sup> 6. Cited in Hebrews 13:6
 > - <sup>d</sup> 22. Hebrew _the head of the corner_; cited in Matthew 21:42, Mark 12:10, Luke 20:17, Acts 4:11, and 1 Peter 2:7
 > - <sup>e</sup> 23. Cited in Matthew 21:42 and Mark 12:11
-> - <sup>f</sup> 25. Hebrew _hosia-na_, meaning _save, we pray_ or _save now_; see Matthew 21:9, Matthew 21:15, Mark 11:9, and John 12:13.
+> - <sup>f</sup> 25. Hebrew _hosia-na_, meaning _save, we pray_ or _save now_; see Matthew 21:9, 15, Mark 11:9, and John 12:13.
 > - <sup>g</sup> 26. Cited in Matthew 21:9, Matthew 23:39, Mark 11:9, Luke 13:35, Luke 19:38, and John 12:13
 > - <sup>h</sup> 27. Or _Join in the festal procession with boughs in hand, up to the horns of the altar._
 

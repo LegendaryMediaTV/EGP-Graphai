@@ -9,10 +9,10 @@
  * spelling missing from the map, a parse missing from a spelling, or a code
  * written in a scheme the version does not declare.
  *
- * It found a real fault the first time it ran outside validation. BYZ tags
- * `οὐαὶ` both `INJ` and `N-OI`, and a cleanup pass had deleted the second cell
- * as though a script had put it there, taking four tokens of corpus data with
- * it. Nothing else would have noticed.
+ * It has already caught a real fault. BYZ tags `οὐαὶ` both `INJ` and `N-OI`,
+ * and a cleanup pass had deleted the second cell as though a script had put it
+ * there, taking four tokens of corpus data with it. Nothing else would have
+ * noticed.
  *
  * **Narrowing is allowed, and is not a failure.** A word that does not inflect
  * has no case marking, and the map records that as `indecl-proper` rather than
@@ -21,23 +21,32 @@
  * from context. So `Ἀβραάμ` reads `N-PRI` in BYZ2026, which did not narrow it,
  * and `N-GSM` in LXX1935, which did, and both are right about the same word.
  * See {@link accountsFor}.
+ *
+ * What the map holds for a spelling is asked of `lexicon.ts` rather than
+ * indexed here. A second index would be a second answer to the very question
+ * this check exists to settle.
  */
 
 import fs from "fs";
 import path from "path";
 import { accountsFor, decodeMorph, readScheme } from "./morphology";
-import { codexLookup } from "./lexicalMaps";
+import { entriesFor, inflectionCategories, lexicalMapLanguages } from "./lexicon";
 import { spellingsOf } from "./punctuation";
 
+/** Directory holding one subdirectory per Bible version. */
 const bibleVersionsDir = "./bible-versions";
+/** Directory holding one subdirectory per language codex. */
 const lexicalMapsDir = "./lexical-maps";
 
 /** One `morph` code the map cannot account for. */
 export interface CorpusMorphFinding {
   /** Book file, e.g. `"01-MAT.json"`. */
   file: string;
+  /** Repo book id, e.g. `"MAT"`. */
   book: string;
+  /** Chapter the word sits in. */
   chapter: number;
+  /** Verse the word sits in. */
   verse: number;
   /** The printed word, punctuation stripped. */
   word: string;
@@ -49,71 +58,15 @@ export interface CorpusMorphFinding {
 
 /** What {@link auditCorpusMorphology} found in one version. */
 export interface CorpusMorphAudit {
+  /** Directory under `bible-versions` that was audited. */
   version: string;
   /** The scheme the version declares, or null when it declares none. */
   scheme: string | null;
+  /** Every code the map could not account for, in document order. */
   findings: CorpusMorphFinding[];
   /** Tokens carrying a `morph` code, so a walk that stops descending shows. */
   scanned: number;
 }
-
-
-/** Accents and the iota subscript away, for the fallback lookup. */
-const fold = (word: string) =>
-  word.normalize("NFD").replace(/[̀-ͯͅ]/g, "").toLowerCase().normalize("NFC");
-
-/** Every language directory holding a codex. */
-function languages(): string[] {
-  if (!fs.existsSync(lexicalMapsDir)) return [];
-  return fs
-    .readdirSync(lexicalMapsDir, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name);
-}
-
-/**
- * Spelling to the cells the map holds for it, across every language, plus the
- * category each inflection code belongs to.
- *
- * Indexed by the codex's own key rule as {@link codexLookup} computes it, and
- * looked up the same way, so a corpus printing a capital where a sentence
- * starts finds the key its root gave it. This audit reported 13 such words as
- * parses the map could not account for while the two sides disagreed about
- * case. The fully folded key stays as a fallback, for a spelling the map
- * carries only under some other accentuation.
- */
-function readMap(): { cells: Map<string, string[][]>; categoryOf: Map<string, string> } {
-  const cells = new Map<string, string[][]>();
-  const categoryOf = new Map<string, string>();
-
-  for (const language of languages()) {
-    const dir = path.join(lexicalMapsDir, language);
-    const registryPath = path.join(dir, "_language.json");
-    if (fs.existsSync(registryPath)) {
-      const registry = JSON.parse(fs.readFileSync(registryPath, "utf-8"));
-      for (const entry of registry.inflections ?? []) categoryOf.set(entry._id, entry.category);
-    }
-
-    for (const name of fs.readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "_language.json")) {
-      const data = JSON.parse(fs.readFileSync(path.join(dir, name), "utf-8"));
-      for (const entry of Object.values<any>(data)) {
-        for (const [spelling, inflection] of Object.entries<any>(entry.inflections ?? {})) {
-          for (const cell of inflection.cells ?? []) {
-            const parse = cell.parse ?? [];
-            for (const key of [codexLookup(spelling), fold(spelling)]) {
-              const bucket = cells.get(key) ?? [];
-              bucket.push(parse);
-              cells.set(key, bucket);
-            }
-          }
-        }
-      }
-    }
-  }
-  return { cells, categoryOf };
-}
-
-let cached: ReturnType<typeof readMap> | null = null;
 
 /**
  * Audit one version's morphology codes against the map.
@@ -127,7 +80,7 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
   if (!declared) return { version, scheme: null, findings: [], scanned: 0 };
 
   // The scheme file, from whichever language carries one by that id.
-  const scheme = languages().reduce<ReturnType<typeof readScheme>>(
+  const scheme = lexicalMapLanguages().reduce<ReturnType<typeof readScheme>>(
     (found, language) => found ?? readScheme(language, declared),
     null
   );
@@ -150,8 +103,7 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
     };
   }
 
-  cached ??= readMap();
-  const { cells, categoryOf } = cached;
+  const categoryOf = inflectionCategories();
   const findings: CorpusMorphFinding[] = [];
   let scanned = 0;
 
@@ -170,8 +122,8 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
           findings.push({ ...at, word, morph, reason: `${declared} cannot read this code` });
           return;
         }
-        const candidates = candidateSpellings.flatMap(
-          (spelling) => cells.get(codexLookup(spelling)) ?? cells.get(fold(spelling)) ?? []
+        const candidates = candidateSpellings.flatMap((spelling) =>
+          entriesFor(spelling).map((entry) => entry.cell)
         );
         if (!candidates.length) {
           findings.push({ ...at, word, morph, reason: "the map holds no such spelling" });
@@ -202,10 +154,9 @@ function walk(nodes: unknown, visit: (spellings: string[], morph: string) => voi
 
     if (node.text === undefined) {
       // A tagged node with no text is a second reading of the word before it,
-      // which is this corpus's own convention. Skipping it left BYZ2026's 27
-      // such codes outside every check here, and one of them was a cell a
-      // cleanup pass had deleted. A code the map cannot explain is worth
-      // reporting wherever it is printed.
+      // which is this corpus's own convention. Skipping such a node would leave
+      // its code outside every check here, and a code the map cannot explain is
+      // worth reporting wherever it is printed.
       if (preceding.length) visit(preceding, node.morph);
       continue;
     }

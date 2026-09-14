@@ -14,8 +14,6 @@ Project overview, install/run commands, and JSON examples live in the [project R
 | Modify the web reader, add a study-tool toggle, or change the API shape | [web-reader.md](./web-reader.md)        |
 | Work on roots, inflections, parses, or the Strong's crosswalk           | [lexical-map.md](./lexical-map.md)      |
 
-For AI-agent reference material, such as file categorization, architectural domains, and style guides, see [_specs/ai-context/](../../ai-context/). The two folders are complementary: this folder is narrative, the ai-context folder is structured for retrieval.
-
 ## How the pieces fit together
 
 ```mermaid
@@ -28,6 +26,7 @@ flowchart LR
 
     VerseFiles --> Export[exportContent.ts]
     Export --> Markdown[/markdown-par files/]
+    Export --> Roman[/markdown-par VERSION-Transliterated files/]
     Export --> Text[/text-vbv-strongs files/]
 
     VerseFiles --> Server[web/server.ts]
@@ -57,6 +56,8 @@ The lexical map sits beside that loop rather than inside it. It is built from th
 | `npm run validate` fails with schema error           | Mismatched content shape; diff against [content-model.md](./content-model.md) examples |
 | `npm run validate` fails on a cross-chapter link, `bibleLink` target, or Strong's-node finding | These are report-only audits inside the same `npm run validate` run, not separate tools; see their rows below for what to do |
 | Exports look right but markdown drops a piece        | Missing case in `renderContent` dispatch; see [data-pipeline.md](./data-pipeline.md) |
+| A `-Transliterated` export still shows Greek or Hebrew | If it is a whole word, the node is missing a stored `transliteration` — run `npm run validate <VERSION>`, which is what writes the field. If it is a lone letter, it is very likely one of the deliberate survivors: a manuscript siglum from the `abbr` registry, or an archaic numeral or editorial marker. See [The transliterated markdown](./data-pipeline.md#the-transliterated-markdown) |
+| A version you expected has no `-Transliterated` folder | The folder is written only for a version whose `_version.json` declares a `script`, since romanizing Latin is the identity. See [The transliterated markdown](./data-pipeline.md#the-transliterated-markdown) |
 | Web reader shows raw JSON or blank                   | A new content variant isn't handled in `ContentNode.js`; see [web-reader.md](./web-reader.md) |
 | Strong's link points to a 404                        | Strong's number doesn't match `^[GH][0-9]{1,4}$` or starts with the wrong testament prefix |
 | `Failed to write … after N attempts`                 | Something is holding that file open past the retry budget; see [Writing files](./data-pipeline.md#writing-files) |

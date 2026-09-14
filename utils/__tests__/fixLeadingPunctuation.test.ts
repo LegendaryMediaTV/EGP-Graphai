@@ -70,7 +70,23 @@ describe("reattachLeadingPunctuationInContent", () => {
     ]);
   });
 
-  it("should leave an untagged, footless, breakless connector to the unmerged-node fixer", () => {
+  it("should leave an untagged, footless, breakless connector *word* to the unmerged-node fixer", () => {
+    const content = [
+      { text: " word", strong: "H1" },
+      { text: " and" },
+      { text: " more", strong: "H2" },
+    ];
+
+    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+
+    expect(changed).toBe(false);
+    expect(result).toBe(content);
+  });
+
+  it("should reattach a punctuation-only node backward, the unmerged-node fixer having declined it", () => {
+    // Punctuation is not a connector word (auditNodes.ts's isMergeableConnector),
+    // so the merge fixer no longer folds this comma forward into H2's span. The
+    // comma ends the word before it, and that is where this fixer puts it.
     const content = [
       { text: " word", strong: "H1" },
       { text: "," },
@@ -79,8 +95,11 @@ describe("reattachLeadingPunctuationInContent", () => {
 
     const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
 
-    expect(changed).toBe(false);
-    expect(result).toBe(content);
+    expect(changed).toBe(true);
+    expect(result).toEqual([
+      { text: " word,", strong: "H1" },
+      { text: " more", strong: "H2" },
+    ]);
   });
 
   it("should leave the emptied node behind as a bare footnote sibling when the attachment point already carries a footnote of its own", () => {

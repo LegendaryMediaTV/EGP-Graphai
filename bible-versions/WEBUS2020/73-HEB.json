@@ -1205,7 +1205,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            { "text": "ἰδοὺ", "script": "G" },
+            { "text": "ἰδοὺ", "script": "G", "transliteration": "idoù" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -1966,7 +1966,11 @@
           "type": "trn",
           "content": [
             "The phrase “only born” is from the Greek word “",
-            { "text": "μονογενη", "script": "G" },
+            {
+              "text": "μονογενη",
+              "script": "G",
+              "transliteration": "monogenē"
+            },
             "”, which is sometimes translated “only begotten” or “one and only”."
           ]
         }

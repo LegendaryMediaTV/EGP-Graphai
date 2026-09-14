@@ -1,4 +1,15 @@
 {
+  "η": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "inflections": {
+      "η": {
+        "transliteration": "ē",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
   "ἤ": {
     "language": "greek",
     "pos": "prt",

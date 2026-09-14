@@ -120,6 +120,42 @@ describe("sortContentKeys", () => {
       expect(Object.keys(result)).toEqual(["text", "script", "foot"]);
     });
 
+    it("should place transliteration between script and marks", () => {
+      const input = {
+        marks: ["i"],
+        transliteration: " christoû,",
+        script: "G",
+        text: " χριστοῦ,",
+      };
+      const result = sortContentKeys(input);
+      expect(Object.keys(result)).toEqual([
+        "text",
+        "script",
+        "transliteration",
+        "marks",
+      ]);
+    });
+
+    it("should place transliteration ahead of the lexical annotations it is not one of", () => {
+      const input = {
+        lemma: "Χριστός",
+        morph: "N-GSM",
+        strong: "G5547",
+        transliteration: "christoû",
+        script: "G",
+        text: "χριστοῦ",
+      };
+      const result = sortContentKeys(input);
+      expect(Object.keys(result)).toEqual([
+        "text",
+        "script",
+        "transliteration",
+        "strong",
+        "morph",
+        "lemma",
+      ]);
+    });
+
     it("should handle lemma after morph", () => {
       const input = {
         lemma: "λόγος",

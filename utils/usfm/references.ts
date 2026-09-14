@@ -194,8 +194,36 @@ const DASH_CLASS = "\\u2010-\\u2015\\u2212-";
  */
 const DIGITS = "\\d+(?!\\d)";
 
-/** A dash-joined range endpoint: a dash character, a digit run, and an optional colon-joined verse. */
-const DASH_RANGE_SOURCE = `[${DASH_CLASS}]${DIGITS}(?::${DIGITS})?`;
+/**
+ * A verse number's own trailing sub-verse letters, which this corpus writes
+ * glued to the digit with no space: "13b" is the back half of verse 13,
+ * "21:13abcd" names four clauses of one verse, and "2:11ff" is the standard
+ * abbreviation for "verse 11 and those following".
+ *
+ * Restricted to `a`-`f` rather than the whole alphabet, and to four letters,
+ * because that is exactly what the corpus writes — a sub-verse sequence
+ * (`a`, `b`, `c`, `d`, `e`, `ab`, `bc`, `abcd`) or the follow marker
+ * (`f`, `ff`), measured over every display override on disk. The narrowness is
+ * the safety: an English ordinal suffix ("5th", "1st", "2nd", "3rd") shares the
+ * shape exactly and would otherwise be read as a sub-verse letter, and a longer
+ * run is far likelier to be a word than a citation. The trailing
+ * `(?![A-Za-z])` stops a run from being taken out of the middle of a real word,
+ * so a shape this cannot describe simply fails to match and stays plain text.
+ *
+ * A letter never reaches the resolved target — {@link stripSubVerseLetters}
+ * takes it back off, since no edition has a verse "13b" to link to — while
+ * {@link withDisplay} keeps the source's own spelling, so the reader still sees
+ * which half of the verse a note meant. That split is this corpus's own
+ * standing `bibleLink` convention, already followed by every hand-built
+ * letter-bearing citation on disk.
+ */
+const SUB_VERSE_LETTERS = "[a-f]{1,4}(?![A-Za-z])";
+
+/** A verse number, with the sub-verse letters it may carry. Used at every position a *verse* can sit; a chapter takes bare {@link DIGITS}, since no chapter is ever lettered. */
+const VERSE = `${DIGITS}(?:${SUB_VERSE_LETTERS})?`;
+
+/** A dash-joined range endpoint: a dash character, an optional colon-joined chapter, and the verse itself. */
+const DASH_RANGE_SOURCE = `[${DASH_CLASS}](?:${DIGITS}:)?${VERSE}`;
 /**
  * One comma-joined additional verse or range, continuing a reference's own
  * verse list — the optional `(?:and\s+)?` is this corpus's own real
@@ -205,7 +233,7 @@ const DASH_RANGE_SOURCE = `[${DASH_CLASS}]${DIGITS}(?::${DIGITS})?`;
  * `\xt` target, which never has any reason to spell a verse list this way,
  * so nothing here narrows this source to the embedded scan alone.
  */
-const COMMA_SEGMENT_SOURCE = `,\\s?(?:and\\s+)?${DIGITS}(?:[${DASH_CLASS}]${DIGITS})?`;
+const COMMA_SEGMENT_SOURCE = `,\\s?(?:and\\s+)?${VERSE}(?:[${DASH_CLASS}]${VERSE})?`;
 /** A trailing tradition siglon — see {@link REFERENCE_SUFFIX}'s own doc comment for why only these four. */
 const SIGLON_SOURCE = "\\s(?:LXX|MT|TR|NU)";
 
@@ -253,7 +281,7 @@ const TRAILING_SIGLON = new RegExp(`${SIGLON_SOURCE}$`);
  * references, so a bare comma inside one target is always more of *that same*
  * target's verse list, and the trailing `$` demands nothing else follow.
  */
-const REFERENCE_SUFFIX = new RegExp(`^${DIGITS}(?::${DIGITS})?(?:${DASH_RANGE_SOURCE})?(?:${COMMA_SEGMENT_SOURCE})*(?:${SIGLON_SOURCE})?$`);
+const REFERENCE_SUFFIX = new RegExp(`^${DIGITS}(?::${VERSE})?(?:${DASH_RANGE_SOURCE})?(?:${COMMA_SEGMENT_SOURCE})*(?:${SIGLON_SOURCE})?$`);
 
 /**
  * The mandatory core of a named embedded reference: a chapter, with an optional
@@ -273,7 +301,7 @@ const REFERENCE_SUFFIX = new RegExp(`^${DIGITS}(?::${DIGITS})?(?:${DASH_RANGE_SO
  * than one static regex accepting or rejecting the whole shape at once the way
  * {@link REFERENCE_SUFFIX} does for an already-isolated target.
  */
-const EMBEDDED_HEAD = new RegExp(`^${DIGITS}(?::${DIGITS})?`);
+const EMBEDDED_HEAD = new RegExp(`^${DIGITS}(?::${VERSE})?`);
 
 /**
  * {@link EMBEDDED_HEAD}'s stricter sibling, verse-mandatory — the head
@@ -281,7 +309,7 @@ const EMBEDDED_HEAD = new RegExp(`^${DIGITS}(?::${DIGITS})?`);
  * of the shared default. See {@link EMBEDDED_HEAD} for why a chapter alone
  * isn't enough there.
  */
-const AMBIENT_HEAD = new RegExp(`^${DIGITS}:${DIGITS}`);
+const AMBIENT_HEAD = new RegExp(`^${DIGITS}:${VERSE}`);
 
 const LEADING_DASH_RANGE = new RegExp(`^${DASH_RANGE_SOURCE}`);
 const LEADING_COMMA_SEGMENT = new RegExp(`^${COMMA_SEGMENT_SOURCE}`);
@@ -400,6 +428,20 @@ function stripAndFromVerseList(text: string): string {
 }
 
 /**
+ * Takes a verse's own sub-verse letters back off a `bibleLink` target — real
+ * "Lev 1:13b, 17b" targets "Leviticus 1:13, 17". {@link SUB_VERSE_LETTERS}
+ * exists so the *raw* source text matches through to a real verse number; a
+ * target names a whole verse, because that is the unit anything reading one can
+ * resolve. So this runs only on the string {@link buildLinkTarget} builds a
+ * target from, never on `raw`, which {@link withDisplay} keeps exactly as the
+ * source wrote it, letters included — the same division
+ * {@link stripAndFromVerseList} already draws for a written-out list's "and".
+ */
+function stripSubVerseLetters(text: string): string {
+  return text.replace(/(\d)[a-f]{1,4}(?![A-Za-z])/g, "$1");
+}
+
+/**
  * Finds the longest registry name/alias `text` starts with, immediately
  * followed by an optional period, a mandatory space, an optional open
  * parenthesis, and a digit (so `"Isaiahs 61:2"` would not match `"Isaiah"`
@@ -449,7 +491,7 @@ function withDisplay(target: string, raw: string): ContentBibleLink {
 function buildLinkTarget(bookId: string, rest: string): { target: string; bookName: string } {
   const { canonicalNameById } = registry();
   const bookName = BIBLE_LINK_BOOK_NAME_OVERRIDES.get(bookId) ?? (canonicalNameById.get(bookId) as string);
-  const cleaned = stripAndFromVerseList(addSpaceAfterVerseListComma(rest));
+  const cleaned = stripSubVerseLetters(stripAndFromVerseList(addSpaceAfterVerseListComma(rest)));
   const withChapter = SINGLE_CHAPTER_BOOK_IDS.has(bookId) && !/^\d+:/.test(cleaned) ? `1:${cleaned}` : cleaned;
   return { target: `${bookName} ${withChapter}`, bookName };
 }
@@ -868,8 +910,8 @@ function splitEmbeddedReferences(text: string, ambient: AmbientBook): string | (
  * explicit `\x`/`\+xt` span becomes one. The book-registry-and-grammar
  * validation {@link findNextEmbeddedReference} performs is the whole safety net
  * against a false positive: a book name has to be real and followed by a real
- * chapter before anything links. The one shape that still never links is a
- * chapter with no verse — see {@link EMBEDDED_HEAD}.
+ * chapter before anything links. A chapter with no verse of its own links too
+ * — see {@link EMBEDDED_HEAD}.
  *
  * Only meant to run on a non-`xrf` footnote body (`usfm/footnotes.ts`): a body
  * that is *nothing but* references takes the {@link buildReferenceOnlyContent}

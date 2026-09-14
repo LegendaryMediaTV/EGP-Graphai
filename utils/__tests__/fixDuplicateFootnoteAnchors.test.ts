@@ -80,7 +80,7 @@ describe("removeDuplicateFootnoteAnchorsInContent", () => {
   it("should not delete two adjacent textless anchors whose own foot values genuinely differ — real shape from the retired BYZ2018's Revelation 7:5", () => {
     const content = [
       {
-        text: " ἐσφραγισμέναι·",
+        text: " ἐσφραγισμέναι·",
         script: "G",
         foot: { type: "var", content: ["B ", { text: "ἐσφραγισμέναι", script: "G" }, " ⇒ ", { text: "ἐσφραγισμένοι", script: "G" }] },
         strong: "G4972",

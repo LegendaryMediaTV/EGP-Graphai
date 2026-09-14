@@ -1087,11 +1087,7 @@
             ", or ",
             { "text": "host", "marks": ["i"] },
             " (and so in verses ",
-            { "bibleLink": "Numbers 4:35", "content": "35" },
-            ", ",
-            { "bibleLink": "Numbers 4:39", "content": "39" },
-            ", ",
-            { "bibleLink": "Numbers 4:43", "content": "43" },
+            { "bibleLink": "Numbers 4:35, 39, 43", "content": "35, 39, 43" },
             ")."
           ]
         }
@@ -2822,11 +2818,7 @@
             "Hebrew ",
             { "text": "wave", "marks": ["i"] },
             ", and in verses ",
-            { "bibleLink": "Numbers 8:13", "content": "13" },
-            ", ",
-            { "bibleLink": "Numbers 8:15", "content": "15" },
-            ", ",
-            { "bibleLink": "Numbers 8:21", "content": "21" },
+            { "bibleLink": "Numbers 8:13, 15, 21", "content": "13, 15, 21" },
             "."
           ]
         }
@@ -7900,11 +7892,10 @@
             ", ",
             { "text": "Abiezer", "marks": ["i"] },
             ". See ",
-            { "bibleLink": "Judges 6:11", "content": "Judg. 6:11" },
-            ", ",
-            { "bibleLink": "Judges 6:24", "content": "24" },
-            ", ",
-            { "bibleLink": "Judges 6:34", "content": "34" },
+            {
+              "bibleLink": "Judges 6:11, 24, 34",
+              "content": "Judg. 6:11, 24, 34"
+            },
             "."
           ]
         }

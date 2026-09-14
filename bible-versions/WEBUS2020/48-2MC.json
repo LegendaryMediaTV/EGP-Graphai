@@ -1379,7 +1379,12 @@
           "type": "trn",
           "content": [
             "Gr. ",
-            { "text": "Μυσάρχην", "script": "G", "marks": ["i"] },
+            {
+              "text": "Μυσάρχην",
+              "script": "G",
+              "transliteration": "Mysárchēn",
+              "marks": ["i"]
+            },
             { "text": ",", "marks": ["i"] },
             " which also may mean ",
             { "text": "ruler of the Mysians.", "marks": ["i"] }

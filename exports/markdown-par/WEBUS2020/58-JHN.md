@@ -290,7 +290,7 @@ Jesus said to her, “You said well, ‘I have no husband,’
 Now that day was a Sabbath.
 <sup>10</sup> So the Jews said to him who was cured, “It is the Sabbath. It is not lawful for you to carry the mat.”
 
-<sup>11</sup> He answered them, “He who made me well said to me, ‘Take up your mat and walk.’ ”
+<sup>11</sup> He answered them, “He who made me well said to me, ‘Take up your mat and walk.’”
 
 <sup>12</sup> Then they asked him, “Who is the man who said to you, ‘Take up your mat and walk’?”
 

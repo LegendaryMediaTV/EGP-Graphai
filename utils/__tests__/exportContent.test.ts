@@ -1,5 +1,9 @@
 import { describe, it, expect } from "vitest";
-import { convertVerseToText, convertVerseToMarkdown } from "../exportContent";
+import {
+  MARKDOWN_TRANSLITERATED_OPTIONS,
+  convertVerseToMarkdown,
+  convertVerseToText,
+} from "../exportContent";
 import VerseSchema from "../../types/VerseSchema";
 
 /** Unicode whitespace, as CommonMark defines it for the flanking rules. */
@@ -465,6 +469,58 @@ describe("exportContent", () => {
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
       expect(result).toBe("<sup>1</sup> In the beginning _God_ created");
+    });
+
+    it("should keep a node's own space before a comma, rather than closing it up — the LXX1935 closing-dash shape, where the space is the source edition's own typography", () => {
+      // Rahlfs closes a parenthetical with a spaced en dash and the clause's
+      // comma follows it, all inside one node's own text. The markdown
+      // export used to close that gap and so disagreed with the plain-text
+      // export on 21 lines; it no longer does. Written as escapes because an
+      // en dash is easy to confuse with a hyphen in a diff.
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 44,
+        verse: 30,
+        content: [{ text: "μου – ,", script: "G" }],
+      };
+      const footnotes: string[] = [];
+      expect(convertVerseToMarkdown(verse, footnotes)).toBe(
+        "<sup>30</sup> μου – ,"
+      );
+    });
+
+    it("should keep a node's own space before an ano teleia, the shape that only the transliterated edition used to move", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 42,
+        verse: 18,
+        content: [{ text: "μου – \u0387", script: "G" }],
+      };
+      const footnotes: string[] = [];
+      expect(convertVerseToMarkdown(verse, footnotes)).toBe(
+        "<sup>18</sup> μου – \u0387"
+      );
+    });
+
+    it("should render an italic supplied word followed by its own punctuation with no gap, once the punctuation node carries no leading space — the repaired KJV1769 MRK 12:29", () => {
+      const verse: VerseSchema = {
+        book: "MRK",
+        chapter: 12,
+        verse: 29,
+        content: [
+          {
+            content: [
+              { text: "is", marks: ["i", "woc"] },
+              { text: ", Hear,", marks: ["woc"] },
+            ],
+            strong: "G191",
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      expect(convertVerseToMarkdown(verse, footnotes)).toBe(
+        "<sup>29</sup> _is_, Hear,"
+      );
     });
 
     it("should nest bold inside italic as _**text**_ when both marks are present", () => {
@@ -3565,6 +3621,245 @@ describe("exportContent", () => {
       const footnotes: string[] = [];
       convertVerseToMarkdown(verse, footnotes, REGISTRY);
       expect(footnotes[0]).toContain("NA<sup>27</sup> _adds_");
+    });
+  });
+
+  describe("the transliterated markdown export renders the stored romanization in place of the original script", () => {
+    /**
+     * A verse carrying every structural feature the markdown export knows how
+     * to emit: a chapter-opening heading, a subtitle, a paragraph flag, a line
+     * break, a footnote, and all three emphasis marks. Rendered both ways, the
+     * two results must differ in their words and in nothing else.
+     */
+    function richVerse(): VerseSchema {
+      return {
+        book: "MAT",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { heading: [{ text: "Ἀρχή", script: "G", transliteration: "Archḗ" }] },
+          {
+            subtitle: [{ text: "Ψαλμός", script: "G", transliteration: "Psalmós" }],
+          },
+          {
+            paragraph: true,
+            text: "Βίβλος",
+            script: "G",
+            transliteration: "Bíblos",
+            marks: ["b"],
+          },
+          {
+            text: " γενέσεως",
+            script: "G",
+            transliteration: " genéseōs",
+            marks: ["i"],
+            foot: {
+              type: "var",
+              content: [{ text: "Δαυίδ", script: "G", transliteration: "Dauíd" }],
+            },
+          },
+          {
+            text: " Ἰησοῦ",
+            script: "G",
+            transliteration: " Iēsoû",
+            marks: ["sc"],
+            break: true,
+          },
+          { text: " χριστοῦ,", script: "G", transliteration: " christoû," },
+        ],
+      };
+    }
+
+    /** Every `<sup>...</sup>` marker in `line`, in the order it appears. */
+    function supMarkers(line: string): string[] {
+      return line.match(/<sup>[^<]*<\/sup>/g) ?? [];
+    }
+
+    /** How many times `delimiter` appears in `line`. */
+    function countOf(line: string, delimiter: string): number {
+      return line.split(delimiter).length - 1;
+    }
+
+    it("should render a node's transliteration instead of its text", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: " χριστοῦ,", script: "G", transliteration: " christoû," },
+        ],
+      };
+      expect(
+        convertVerseToMarkdown(verse, [], undefined, MARKDOWN_TRANSLITERATED_OPTIONS)
+      ).toBe("<sup>1</sup> christoû,");
+    });
+
+    it("should keep the space a romanized ano teleia sits behind, the three lines where the two markdown editions used to disagree with each other", () => {
+      // An ano teleia romanizes to an ASCII semicolon, which put the
+      // transliterated edition's own copy of this node inside the strip
+      // rule's character class while the Greek edition's stayed outside it.
+      // Written as escapes: an ano teleia and an ASCII middle dot look
+      // identical in a terminal and in a diff.
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 42,
+        verse: 18,
+        content: [
+          { text: "μου – \u0387", script: "G", transliteration: "mou – ;" },
+        ],
+      };
+      expect(
+        convertVerseToMarkdown(verse, [], undefined, MARKDOWN_TRANSLITERATED_OPTIONS)
+      ).toBe("<sup>18</sup> mou – ;");
+    });
+
+    it("should fall back to a node's text when it carries no transliteration, so an unenriched version exports its own script rather than blanks", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 1,
+        content: [{ text: "Βίβλος", script: "G" }, { text: " γενέσεως" }],
+      };
+      expect(
+        convertVerseToMarkdown(verse, [], undefined, MARKDOWN_TRANSLITERATED_OPTIONS)
+      ).toBe("<sup>1</sup> Βίβλος γενέσεως");
+    });
+
+    it("should leave the normal markdown export reading a node's text, transliteration present or not", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: " χριστοῦ,", script: "G", transliteration: " christoû," },
+        ],
+      };
+      expect(convertVerseToMarkdown(verse, [])).toBe("<sup>1</sup> χριστοῦ,");
+    });
+
+    it("should render a verse carrying every structural feature to a known string", () => {
+      const footnotes: string[] = [];
+      expect(
+        convertVerseToMarkdown(
+          richVerse(),
+          footnotes,
+          undefined,
+          MARKDOWN_TRANSLITERATED_OPTIONS
+        )
+      ).toBe(
+        // The verse-level fallback lifts one leading wrapper, so the subtitle
+        // stays inline here. A chapter-opening verse has both hoisted above it
+        // by `convertBibleVersionToMarkdown` instead.
+        "\n### Archḗ\n<sup>1</sup> > _Psalmós_\n\n**Bíblos** _genéseōs_<sup>a</sup> IĒSOÛ<br> christoû,"
+      );
+      expect(footnotes).toEqual(["- <sup>a</sup> 1. Dauíd"]);
+    });
+
+    it("should match the normal render's structure line for line, differing only in the words", () => {
+      const plainFootnotes: string[] = [];
+      const plain = convertVerseToMarkdown(richVerse(), plainFootnotes);
+      const romanFootnotes: string[] = [];
+      const roman = convertVerseToMarkdown(
+        richVerse(),
+        romanFootnotes,
+        undefined,
+        MARKDOWN_TRANSLITERATED_OPTIONS
+      );
+
+      const plainLines = plain.split("\n");
+      const romanLines = roman.split("\n");
+      expect(romanLines).toHaveLength(plainLines.length);
+      plainLines.forEach((line, index) => {
+        expect(supMarkers(romanLines[index])).toEqual(supMarkers(line));
+        expect(countOf(romanLines[index], "**")).toBe(countOf(line, "**"));
+        expect(countOf(romanLines[index], "_")).toBe(countOf(line, "_"));
+        expect(countOf(romanLines[index], "<br>")).toBe(countOf(line, "<br>"));
+        expect(romanLines[index].startsWith("### ")).toBe(
+          line.startsWith("### ")
+        );
+      });
+      expect(romanFootnotes).toHaveLength(plainFootnotes.length);
+      expect(supMarkers(romanFootnotes[0])).toEqual(
+        supMarkers(plainFootnotes[0])
+      );
+    });
+
+    it("should transliterate a footnote body's Greek, which carries no strong or morph and so looks like nothing the enrichment touched", () => {
+      // BYZ2026's apparatus shape: a variant-reading node inside
+      // `foot.content`, tagged `script` and nothing else.
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 5,
+        content: [
+          {
+            text: "Βοόζ",
+            script: "G",
+            strong: "G1003",
+            morph: "N-PRI",
+            transliteration: "Boóz",
+            foot: {
+              type: "var",
+              content: [
+                { text: "Βοὸζ … Βοὸζ", script: "G", transliteration: "Boòz … Boòz" },
+              ],
+            },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(
+        verse,
+        footnotes,
+        undefined,
+        MARKDOWN_TRANSLITERATED_OPTIONS
+      );
+      expect(footnotes[0]).toBe("- <sup>a</sup> 5. Boòz … Boòz");
+    });
+
+    it("should print a Greek-lettered registry name unromanized, because a manuscript siglum names a manuscript rather than a word", () => {
+      // "Δ" is Codex Bezae's companion siglum, not the letter delta as text.
+      // Romanized to "D" it would name a different manuscript, so the
+      // registry name renders exactly as the registry writes it.
+      const SIGLA = new Map<string, any>([["MS-DELTA", "Δ"]]);
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 6,
+        content: [
+          {
+            text: "βασιλεύς",
+            script: "G",
+            transliteration: "basileús",
+            foot: { type: "var", content: [{ abbr: "MS-DELTA" }] },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(
+        verse,
+        footnotes,
+        SIGLA,
+        MARKDOWN_TRANSLITERATED_OPTIONS
+      );
+      expect(footnotes[0]).toBe("- <sup>a</sup> 6. Δ");
+      expect(footnotes[0]).not.toContain("D");
+    });
+
+    it("should render a bare string in a content array unchanged, since a string cannot carry a transliteration", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "Βίβλος", script: "G", transliteration: "Bíblos" },
+          " and ",
+          { text: "γενέσεως", script: "G", transliteration: "genéseōs" },
+        ],
+      };
+      expect(
+        convertVerseToMarkdown(verse, [], undefined, MARKDOWN_TRANSLITERATED_OPTIONS)
+      ).toBe("<sup>1</sup> Bíblos and genéseōs");
     });
   });
 });

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { mapContentText } from "../mapContentText";
-import Content from "../../types/Content";
+import { mapContentNodes, mapContentText } from "../mapContentText";
+import Content, { ContentObject } from "../../types/Content";
 
 /**
  * A transform to exercise the walker's own traversal, independent of any
@@ -153,6 +153,111 @@ describe("mapContentText — multiple independent rewrites", () => {
     ).toEqual({
       content: [{ text: "HELLO" }, "PLAIN", { text: "WORLD" }],
       changed: true,
+    });
+  });
+});
+
+/**
+ * A node-level transform in the same spirit as {@link shout}: stamp a `lemma`
+ * on any node carrying text, and report "unchanged" otherwise. Adding a key is
+ * the thing a leaf-level text map cannot do, so this exercises the difference
+ * between the two walkers rather than restating {@link mapContentText}'s tests.
+ */
+const stamp = (node: ContentObject): ContentObject | undefined =>
+  typeof node.text === "string" && node.lemma === undefined
+    ? { ...node, lemma: node.text.trim() }
+    : undefined;
+
+describe("mapContentNodes — recursion into every content-bearing branch", () => {
+  it("should hand over a node so a transform can add a key to it", () => {
+    expect(mapContentNodes([{ text: "λόγος" }], stamp)).toEqual({
+      content: [{ text: "λόγος", lemma: "λόγος" }],
+      changed: true,
+    });
+  });
+
+  it("should reach a node nested inside a heading, a subtitle, a wrapper and a footnote", () => {
+    const fixture: Content = [
+      { heading: [{ text: "one" }] },
+      { subtitle: [{ text: "two" }] },
+      { content: [{ text: "three" }], strong: "G1" },
+      { text: "four", foot: { type: "stu", content: [{ text: "five" }] } },
+    ];
+    expect(mapContentNodes(fixture, stamp)).toEqual({
+      content: [
+        { heading: [{ text: "one", lemma: "one" }] },
+        { subtitle: [{ text: "two", lemma: "two" }] },
+        { content: [{ text: "three", lemma: "three" }], strong: "G1" },
+        {
+          text: "four",
+          lemma: "four",
+          foot: { type: "stu", content: [{ text: "five", lemma: "five" }] },
+        },
+      ],
+      changed: true,
+    });
+  });
+
+  it("should not walk into a bibleLink node's own display-content override", () => {
+    expect(
+      mapContentNodes([{ bibleLink: "John 3:16", content: [{ text: "here" }] }], stamp),
+    ).toEqual({
+      content: [{ bibleLink: "John 3:16", content: [{ text: "here" }] }],
+      changed: false,
+    });
+  });
+
+  it("should leave a bare string in a content array alone", () => {
+    expect(mapContentNodes(["and ", { text: "word" }], stamp)).toEqual({
+      content: ["and ", { text: "word", lemma: "word" }],
+      changed: true,
+    });
+  });
+
+  it("should let a transform remove a key it should not be carrying", () => {
+    const strip = (node: ContentObject): ContentObject | undefined => {
+      if (node.text !== undefined || node.lemma === undefined) return undefined;
+      const { lemma: _lemma, ...rest } = node;
+      return rest;
+    };
+    expect(mapContentNodes([{ lemma: "orphan", strong: "G1" }], strip)).toEqual({
+      content: [{ strong: "G1" }],
+      changed: true,
+    });
+  });
+
+  it("should hand the transform a node whose children have already been rewritten", () => {
+    // The walk settles a node's children first, so a transform that spreads the
+    // node it is given keeps their rewrites rather than discarding them.
+    const seen: unknown[] = [];
+    const watch = (node: ContentObject): ContentObject | undefined => {
+      if (node.foot) seen.push(node.foot);
+      return stamp(node);
+    };
+    mapContentNodes([{ text: "outer", foot: { type: "stu", content: [{ text: "inner" }] } }], watch);
+    expect(seen).toEqual([{ type: "stu", content: [{ text: "inner", lemma: "inner" }] }]);
+  });
+});
+
+describe("mapContentNodes — reference semantics", () => {
+  it("should return the original reference and changed: false when nothing needs rewriting", () => {
+    const fixture: Content = [{ text: "word", lemma: "word" }, "plain"];
+    const result = mapContentNodes(fixture, stamp);
+    expect(result.content).toBe(fixture);
+    expect(result.changed).toBe(false);
+  });
+
+  it("should return a new reference and changed: true when something changes", () => {
+    const fixture: Content = [{ text: "word" }];
+    const result = mapContentNodes(fixture, stamp);
+    expect(result.content).not.toBe(fixture);
+    expect(result.changed).toBe(true);
+  });
+
+  it("should accept plain string content", () => {
+    expect(mapContentNodes("just a string", stamp)).toEqual({
+      content: "just a string",
+      changed: false,
     });
   });
 });

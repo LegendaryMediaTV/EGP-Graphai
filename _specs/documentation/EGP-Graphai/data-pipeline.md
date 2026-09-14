@@ -18,7 +18,8 @@ flowchart TD
     Audits -->|any finding remains?| ExitErr
 
     Verse --> Export[exportContent.ts]
-    Export --> Markdown[/exports/markdown-par/]
+    Export --> Markdown[/exports/markdown-par/VERSION/]
+    Export --> Roman[/exports/markdown-par/VERSION-Transliterated/]
     Export --> Text[/exports/text-vbv-strongs/]
 
     Verse --> SmallCaps[convertToSmallCaps.ts]
@@ -58,12 +59,25 @@ The schemas use absolute `$id` URLs and `$ref` against the same URL space. Valid
 
 ## Export
 
-`npm run export` ([utils/exportContent.ts](../../../utils/exportContent.ts)) produces two formats from the same verse data:
+`npm run export` ([utils/exportContent.ts](../../../utils/exportContent.ts)) produces three formats from the same verse data:
 
-- **Markdown** (`exports/markdown-par/`): paragraph-formatted, browser-readable, footnotes collected at the end of each chapter
-- **Strong's text** (`exports/text-vbv-strongs/`): verse-by-verse with inline lexical codes for grep-based study
+- **Markdown** (`exports/markdown-par/<VERSION>/`): paragraph-formatted, browser-readable, footnotes collected at the end of each chapter
+- **Strong's text** (`exports/text-vbv-strongs/<VERSION>/`): verse-by-verse with inline lexical codes for grep-based study
+- **Transliterated markdown** (`exports/markdown-par/<VERSION>-Transliterated/`): the markdown above with each node's stored `transliteration` printed in place of its original-script `text`
 
-Both formats are produced by walking the same `renderContent` dispatch over the recursive content tree. The two formats are configured with different `RenderOptions` (footnote style, paragraph marker, formatting wrappers) but share the dispatch logic. Adding a new shape to the content model means adding one case here. See the [content-model checklist](./content-model.md#adding-a-new-shape-a-checklist).
+All three are produced by walking the same `renderContent` dispatch over the recursive content tree, configured with different `RenderOptions` (footnote style, paragraph marker, formatting wrappers) but sharing the dispatch logic. Adding a new shape to the content model means adding one case here. See the [content-model checklist](./content-model.md#adding-a-new-shape-a-checklist).
+
+### The transliterated markdown
+
+`RenderOptions.textOf` names which of a node's own strings a format prints, the way `escapeSourceText` beside it names how that string is escaped. `MARKDOWN_TRANSLITERATED_OPTIONS` spreads `MARKDOWN_OPTIONS` and overrides that one field; every other markdown knob is shared rather than restated, which is what makes the two trees line-for-line identical instead of merely intended to be. Verified across all 87 files: same line counts, same `## Chapter N` lines, same `<sup>` verse markers in the same order, same footnote labels and footnote line counts, same `<br>`, `**` and `_` counts per line.
+
+Three things about it are worth knowing before you read a file and think something broke:
+
+- **The romanization is read, not computed.** `npm run validate` stores it on the node; this exporter never imports [utils/lexicon.ts](../../../utils/lexicon.ts). A node with no stored value falls back to its own `text`, so a version that has not been through the enrichment pass exports readable text in its own script rather than blanks.
+- **Only a version declaring a `script` gets a folder.** Romanizing Latin is the identity, so the alternative is hundreds of byte-identical duplicate files. Today that selects BYZ2026 and LXX1935; a future Hebrew edition needs no code change.
+- **Some Greek survives on purpose.** BYZ2026's ten Greek-lettered manuscript sigla print unromanized, because "Δ" is Codex Bezae's companion siglum and "D" names a different manuscript; they reach the page through the `{ abbr }` registry, which `textOf` never touches. LXX1935 keeps `ϡ` (an editorial bracket pair at 2MC 13:15) and `Ϛ`/`ϛ` (the Greek numerals 6 and 16 heading acrostic stanzas at PSA 118:41 and 118:121), which are markers and numerals rather than words.
+
+One rendering difference is not the transliteration's doing. GEN 42:18, EXO 1:1 and 1ES 9:50 each carry a `– ·`, and `convertVerseToMarkdown`'s long-standing "remove space before punctuation" rewrite matches the ASCII semicolon the ano teleia becomes where it never matched the ano teleia itself. Three lines corpus-wide, all mid-line, so no line count moves.
 
 You can scope the export to a single version, or a single book within a version:
 
@@ -107,9 +121,9 @@ Verse content is built one lexical node at a time, each carrying its own `strong
 | Duplicate footnote anchor | A textless node repeating the identical footnote already carried by the node right before it                |
 | Mergeable siblings      | Two adjacent nodes differing in nothing but `text`                                                            |
 
-_A representative sampling — see the [Strong's-node audit domain doc](../../ai-context/4-domains/strongs-node-audit.md) for the full catalog._
+_A representative sampling. [utils/auditNodes.ts](../../../utils/auditNodes.ts) carries the full catalog._
 
-`auditNodes.ts` itself only ever detects; it carries no CLI and never writes. Several of the checks below repair themselves automatically, as their own step in `validate.ts`'s auto-fix pass — most through a fixer that reuses this file's own eligibility logic rather than re-deriving it, plus straight-quote direction (the straight-quote check), which resolves the way real typography tools do: from the characters immediately around each quote, not from this file's own node-placement judgment. The rest stay report-only, because deciding what to do needs a judgment call — which direction a word belongs, or whether a non-breaking space was meant to hold two words together — that a mechanical fix would get wrong on real Bible text. See the [Strong's-node audit domain doc](../../ai-context/4-domains/strongs-node-audit.md) for which check falls into which group.
+`auditNodes.ts` itself only ever detects; it carries no CLI and never writes. Several of the checks below repair themselves automatically, as their own step in `validate.ts`'s auto-fix pass — most through a fixer that reuses this file's own eligibility logic rather than re-deriving it, plus straight-quote direction (the straight-quote check), which resolves the way real typography tools do: from the characters immediately around each quote, not from this file's own node-placement judgment. The rest stay report-only, because deciding what to do needs a judgment call — which direction a word belongs, or whether a non-breaking space was meant to hold two words together — that a mechanical fix would get wrong on real Bible text. Which group a check falls into is readable from [utils/validate.ts](../../../utils/validate.ts): a check with a matching `fix*` or `normalize*` module wired into the auto-fix pass repairs itself, and one with no such module is report-only.
 
 ## Writing files
 
@@ -153,4 +167,4 @@ The export logic in particular has tight test coverage because it's the most fra
 - **A "Failed to write … after N attempts" error names a real holdout.** The retries in [writeJsonFile.ts](../../../functions/writeJsonFile.ts) already absorb the usual transient file lock; if a write still fails after all of them, something (antivirus, an indexer, a sync client) is holding that specific file open longer than the retry budget. Check what's watching the folder rather than re-running the tool.
 - **A file's formatting reflects its data, not its history.** Two writers of identical content always produce identical bytes, because canonicalization starts from parsed data every time rather than from whatever a file already looks like. One translation once drifted into a far more spread-out style than the rest of the corpus this way. Formatting from raw text let a line break baked in by an earlier bug persist across every subsequent validation run instead of being caught and corrected.
 - **`git diff` is the review surface, not a console count.** Nothing this pipeline runs commits itself; every fix from the auto-fix pass sits in the working tree afterward, so reviewing a `npm run validate` run means reading the diff it produced, not trusting a summary line.
-- **`npm run validate` is expected to exit clean, always.** A version whose source content is still incomplete (CLV1880's Esther and Daniel are short their deuterocanonical additions) declares only the chapters its own verse files actually carry — the declared count moves up in the same change that imports the rest, so there's never a standing finding to work around. See the [bible-versions domain doc](../../ai-context/4-domains/bible-versions.md).
+- **`npm run validate` is expected to exit clean, always.** A version whose source content is still incomplete (CLV1880's Esther and Daniel are short their deuterocanonical additions) declares only the chapters its own verse files actually carry — the declared count moves up in the same change that imports the rest, so there's never a standing finding to work around.

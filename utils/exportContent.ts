@@ -17,7 +17,8 @@ import BibleVersion from "../types/Version";
 
 /**
  * Per-format rendering knobs shared by every rendering function below.
- * `TEXT_OPTIONS` and `MARKDOWN_OPTIONS` are the two concrete configurations.
+ * `TEXT_OPTIONS`, `MARKDOWN_OPTIONS` and `MARKDOWN_TRANSLITERATED_OPTIONS`
+ * are the three concrete configurations.
  */
 interface RenderOptions {
   includeStrongs: boolean; // Whether to append Strong's numbers after words
@@ -33,7 +34,14 @@ interface RenderOptions {
   italicWrapper: (text: string) => string; // Wraps text carrying an "i" mark
   superscriptWrapper: (text: string) => string; // Wraps text carrying a "sup" mark
   escapeSourceText: (text: string) => string; // Escapes this format's own delimiter characters when they appear in text taken verbatim from content (see `escapeMarkdownDelimiters`)
+  textOf: (obj: ContentObject) => string; // Which of a node's own strings this format prints: its `text`, or the `transliteration` standing in for it (see `MARKDOWN_TRANSLITERATED_OPTIONS`)
 }
+
+/**
+ * The string a format prints for a node that holds its text in the script it
+ * was written in. Every export but the transliterated one reads this.
+ */
+const SOURCE_TEXT = (obj: ContentObject) => obj.text || "";
 
 /** Rendering configuration for the plain-text export (`exports/text-vbv-strongs`). */
 const TEXT_OPTIONS: RenderOptions = {
@@ -55,6 +63,7 @@ const TEXT_OPTIONS: RenderOptions = {
   superscriptWrapper: (text) => text,
   // The text export has no delimiter grammar of its own to collide with.
   escapeSourceText: (text) => text,
+  textOf: SOURCE_TEXT,
 };
 
 /**
@@ -97,6 +106,24 @@ const MARKDOWN_OPTIONS: RenderOptions = {
   italicWrapper: (text) => wrapDelimitersOffWhitespace(text, "_"),
   superscriptWrapper: (text) => `<sup>${text}</sup>`,
   escapeSourceText: escapeMarkdownDelimiters,
+  textOf: SOURCE_TEXT,
+};
+
+/**
+ * Rendering configuration for the transliterated markdown export
+ * (`exports/markdown-par/<version>-Transliterated`). The spread is what keeps
+ * the two markdown exports structurally identical by construction rather than
+ * by two configurations being kept in agreement: they differ in the one string
+ * read off each node, so the two trees agree line for line.
+ *
+ * The romanization is read, never computed: `validate` stores it on the node
+ * and this module has no opinion about how a script romanizes. A node without
+ * one falls back to its own text, so a version that has not been through the
+ * enrichment pass exports readable text in its own script rather than blanks.
+ */
+const MARKDOWN_TRANSLITERATED_OPTIONS: RenderOptions = {
+  ...MARKDOWN_OPTIONS,
+  textOf: (obj) => obj.transliteration ?? obj.text ?? "",
 };
 
 // ============================================================================
@@ -211,10 +238,9 @@ function markedBibleLinkOverride(item: Content): ContentObject | undefined {
  * An `abbr` node's registry name, when that name is a single mark-bearing
  * object — the one name shape whose marks are judged against the surrounding
  * emphasis run rather than rendered as an opaque span (see
- * `isMarkRunCandidate`, `renderAbbreviationParts`). BYZ2026's registry has
- * two such entries, the italic `om.` and `txt`; every other name is a bare
- * string (`CT`) or an array (`NA` plus a superscript `27`), carries no
- * "b"/"i" to share, and keeps falling through to the opaque `"abbr" in
+ * `isMarkRunCandidate`, `renderAbbreviationParts`). Every other name shape —
+ * a bare string (`CT`), or an array (`NA` plus a superscript `27`) — carries
+ * no "b"/"i" to share and keeps falling through to the opaque `"abbr" in
  * content` render below.
  *
  * Narrow for the same reason `markedBibleLinkOverride` is: an array name
@@ -905,7 +931,7 @@ function renderTextObjectParts(obj: ContentObject, ctx: RenderContext): Rendered
       : ctx.options.paragraphMarker;
   }
 
-  let text = obj.text || "";
+  let text = ctx.options.textOf(obj);
 
   // Small caps render as uppercase in the text and markdown exports
   if (obj.marks?.includes("sc")) {
@@ -1101,6 +1127,20 @@ function readAbbreviations(
 }
 
 /**
+ * The script a version declares in `_version.json`, or undefined for one
+ * that declares none and is therefore written in Latin. This is what decides
+ * whether a version gets a transliterated export: romanizing Latin is the
+ * identity, so a version with no script would only produce a byte-identical
+ * duplicate of its own markdown.
+ */
+function declaredScript(versionDir: string): BibleVersion["script"] {
+  const versionPath = path.join(versionDir, "_version.json");
+  if (!fs.existsSync(versionPath)) return undefined;
+  const version: BibleVersion = JSON.parse(fs.readFileSync(versionPath, "utf-8"));
+  return version.script;
+}
+
+/**
  * Convert a verse to plain text with Strong's numbers and morph codes.
  */
 function convertVerseToText(
@@ -1129,15 +1169,16 @@ function convertVerseToText(
 /**
  * Convert a verse to markdown format. Any footnotes it renders are appended
  * to chapterFootnotes, which the caller shares across every verse in a
- * chapter.
+ * chapter. Pass `MARKDOWN_TRANSLITERATED_OPTIONS` for the romanized edition.
  */
 function convertVerseToMarkdown(
   verse: VerseSchema,
   chapterFootnotes: string[],
-  abbreviations?: ReadonlyMap<string, Content>
+  abbreviations?: ReadonlyMap<string, Content>,
+  options: RenderOptions = MARKDOWN_OPTIONS
 ): string {
   const ctx: RenderContext = {
-    options: MARKDOWN_OPTIONS,
+    options,
     footnotes: chapterFootnotes,
     verseNum: verse.verse,
     abbreviations,
@@ -1208,12 +1249,11 @@ function convertVerseToMarkdown(
 
   text = text.replace(/^ +/, "");
   text = text.replace(/ +/g, " ");
-  text = text.replace(/ ([.,;:!?])/g, "$1"); // Remove space before punctuation
 
   const paragraphPrefix = hasLeadingParagraph ? "\n" : "";
 
-  // Last, after the two rewrites above: collapsing spaces and dropping a
-  // space before punctuation both change the neighbors the flanking rules
+  // Last, after the two rewrites above: stripping a leading space and
+  // collapsing a run of spaces both change the neighbors the flanking rules
   // read, so deciding a delimiter's form any earlier would decide it on
   // characters that are about to move.
   for (let index = firstOwnFootnote; index < chapterFootnotes.length; index++) {
@@ -1285,11 +1325,19 @@ async function convertBibleVersion(
  * chapter heading rather than inline, and collects "reference"-style
  * footnotes into a per-chapter list at the end of each chapter. Pass
  * `bookId` to limit the run to a single book's file.
+ *
+ * Pass `transliterated` to write the romanized edition to
+ * `<version>-Transliterated` instead, through
+ * {@link MARKDOWN_TRANSLITERATED_OPTIONS}.
  */
 async function convertBibleVersionToMarkdown(
   version: string,
-  bookId?: string
+  bookId?: string,
+  transliterated = false
 ): Promise<void> {
+  const options = transliterated
+    ? MARKDOWN_TRANSLITERATED_OPTIONS
+    : MARKDOWN_OPTIONS;
   const inputDir = path.join(
     path.dirname(__dirname),
     "bible-versions",
@@ -1299,7 +1347,7 @@ async function convertBibleVersionToMarkdown(
     path.dirname(__dirname),
     "exports",
     "markdown-par",
-    version
+    transliterated ? `${version}-Transliterated` : version
   );
 
   if (!fs.existsSync(outputDir)) {
@@ -1362,7 +1410,7 @@ async function convertBibleVersionToMarkdown(
 
         if (!hoistedSubtitle && "subtitle" in firstItem) {
           const ctx: RenderContext = {
-            options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
+            options: { ...options, includeFootnotes: true },
             footnotes: chapterFootnotes,
             verseNum: chapterVerses[0].verse,
             withinItalicWrapper: true,
@@ -1370,7 +1418,7 @@ async function convertBibleVersionToMarkdown(
           };
           const subtitleText = renderContent(firstItem.subtitle, ctx);
           markdownLines.push("");
-          markdownLines.push(MARKDOWN_OPTIONS.subtitleWrapper(subtitleText));
+          markdownLines.push(options.subtitleWrapper(subtitleText));
           chapterVerses[0].content = firstContent.slice(1);
           hoistedSubtitle = true;
           continue;
@@ -1378,7 +1426,7 @@ async function convertBibleVersionToMarkdown(
 
         if (!hoistedHeading && "heading" in firstItem) {
           const ctx: RenderContext = {
-            options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
+            options: { ...options, includeFootnotes: true },
             footnotes: chapterFootnotes,
             footnotePrefix: "Heading.",
           };
@@ -1420,7 +1468,8 @@ async function convertBibleVersionToMarkdown(
         const verseText = convertVerseToMarkdown(
           verse,
           chapterFootnotes,
-          abbreviations
+          abbreviations,
+          options
         );
         markdownLines.push(verseText);
       }
@@ -1447,8 +1496,9 @@ async function convertBibleVersionToMarkdown(
 
 /**
  * CLI entry point: converts one version (argv[2]) or every version under
- * `bible-versions/`, and one book (argv[3]) or every book, to both plain
- * text and markdown.
+ * `bible-versions/`, and one book (argv[3]) or every book, to plain text and
+ * markdown, plus transliterated markdown for a version that declares a
+ * script.
  */
 async function main(): Promise<void> {
   const translation = process.argv[2];
@@ -1470,6 +1520,9 @@ async function main(): Promise<void> {
     console.log(`Processing version: ${version}`);
     await convertBibleVersion(version, bookId);
     await convertBibleVersionToMarkdown(version, bookId);
+    if (declaredScript(path.join(versionsDir, version))) {
+      await convertBibleVersionToMarkdown(version, bookId, true);
+    }
   }
 
   console.log("Conversion complete!");
@@ -1482,4 +1535,8 @@ if (require.main === module) {
   });
 }
 
-export { convertVerseToText, convertVerseToMarkdown };
+export {
+  MARKDOWN_TRANSLITERATED_OPTIONS,
+  convertVerseToMarkdown,
+  convertVerseToText,
+};

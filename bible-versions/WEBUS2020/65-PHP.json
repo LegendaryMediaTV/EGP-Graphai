@@ -51,7 +51,11 @@
           "type": "trn",
           "content": [
             "The word translated “partnership” (",
-            { "text": "κοινωνίᾳ", "script": "G" },
+            {
+              "text": "κοινωνίᾳ",
+              "script": "G",
+              "transliteration": "koinōnía"
+            },
             ") also means “fellowship” and “sharing”."
           ]
         }

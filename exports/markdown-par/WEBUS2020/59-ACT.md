@@ -1078,7 +1078,7 @@ They said, “Into John’s baptism.”
 <sup>32</sup> Now, brothers,<sup>d</sup> I entrust you to God and to the word of his grace, which is able to build up and to give you the inheritance among all those who are sanctified.
 <sup>33</sup> I coveted no one’s silver, gold, or clothing.
 <sup>34</sup> You yourselves know that these hands served my necessities, and those who were with me.
-<sup>35</sup> In all things I gave you an example, that so laboring you ought to help the weak, and to remember the words of the Lord Jesus, that he himself said, ‘It is more blessed to give than to receive.’ ”
+<sup>35</sup> In all things I gave you an example, that so laboring you ought to help the weak, and to remember the words of the Lord Jesus, that he himself said, ‘It is more blessed to give than to receive.’”
 
 <sup>36</sup> When he had spoken these things, he knelt down and prayed with them all.
 <sup>37</sup> They all wept freely, and fell on Paul’s neck and kissed him,
@@ -1176,7 +1176,7 @@ He said,
 <sup>19</sup> I said, ‘Lord, they themselves know that I imprisoned and beat in every synagogue those who believed in you.
 <sup>20</sup> When the blood of Stephen, your witness, was shed, I also was standing by, consenting to his death, and guarding the cloaks of those who killed him.’
 
-<sup>21</sup> “He said to me, ‘Depart, for I will send you out far from here to the Gentiles.’ ”
+<sup>21</sup> “He said to me, ‘Depart, for I will send you out far from here to the Gentiles.’”
 
 <sup>22</sup> They listened to him until he said that; then they lifted up their voice and said, “Rid the earth of this fellow, for he isn’t fit to live!”
 

@@ -753,8 +753,8 @@ describe('linkEmbeddedReferences — a bare parenthetical "(C:V...)" citation el
       "); the revolt drove the king out of the city (",
       { bibleLink: "2 Samuel 15:14", content: "15:14" },
       "), and the fighting in the forest settled it (",
-      { bibleLink: "2 Samuel 18:6", content: "18:6" },
-      "ff.).",
+      { bibleLink: "2 Samuel 18:6", content: "18:6ff" },
+      ".).",
     ]);
   });
 
@@ -825,5 +825,73 @@ describe("linkEmbeddedReferences — a comma list after a chapter-only head is p
   it("should still extend a chapter-only head through a dash range, which names one span rather than a list", () => {
     const content = linkEmbeddedReferences("By faith Noah (Genesis 4–9) built an ark.");
     expect(content).toEqual(["By faith Noah (", { bibleLink: "Genesis 4–9" }, ") built an ark."]);
+  });
+});
+
+describe("linkEmbeddedReferences — a verse's own sub-verse letters stay in the display and never reach the target", () => {
+  it("should absorb a letter on every verse of a comma list, keeping the whole list in one link", () => {
+    const content = linkEmbeddedReferences("The same formula appears at Lev 1:13b, 17b.");
+    expect(content).toEqual([
+      "The same formula appears at ",
+      { bibleLink: "Leviticus 1:13, 17", content: "Lev 1:13b, 17b" },
+      ".",
+    ]);
+  });
+
+  it("should absorb the \"and following\" marker a citation abbreviates as ff (ASV1901 Acts 2:17)", () => {
+    const content = linkEmbeddedReferences("Quoted from Joel 2:28ff in the sermon.");
+    expect(content).toEqual(["Quoted from ", { bibleLink: "Joel 2:28", content: "Joel 2:28ff" }, " in the sermon."]);
+  });
+
+  it("should absorb the single-f form of the same marker (ASV1901 Luke 4:18)", () => {
+    const content = linkEmbeddedReferences("Quoted from Isa. 61:1f here.");
+    expect(content).toEqual(["Quoted from ", { bibleLink: "Isaiah 61:1", content: "Isa. 61:1f" }, " here."]);
+  });
+
+  it("should absorb a whole run of clause letters on one verse", () => {
+    const content = linkEmbeddedReferences("The measurements repeat (Rev 21:13abcd).");
+    expect(content).toEqual(["The measurements repeat (", { bibleLink: "Revelation 21:13", content: "Rev 21:13abcd" }, ")."]);
+  });
+
+  it("should absorb a letter on a dash range's own right endpoint", () => {
+    const content = linkEmbeddedReferences("The servant song runs to Isa 49:1–9a.");
+    expect(content).toEqual(["The servant song runs to ", { bibleLink: "Isaiah 49:1–9", content: "Isa 49:1–9a" }, "."]);
+  });
+
+  it("should absorb a letter on a dash range's own left endpoint and still carry the range", () => {
+    const content = linkEmbeddedReferences("The promise continues (Ezek. 37:22b–25).");
+    expect(content).toEqual(["The promise continues (", { bibleLink: "Ezekiel 37:22–25", content: "Ezek. 37:22b–25" }, ")."]);
+  });
+
+  it("should stop at the sentence punctuation after the marker rather than swallowing it", () => {
+    const content = linkEmbeddedReferences("He gives God all the glory (Gen. 24:35ff.).");
+    expect(content).toEqual(["He gives God all the glory (", { bibleLink: "Genesis 24:35", content: "Gen. 24:35ff" }, ".)."]);
+  });
+
+  it("should leave an English ordinal suffix alone, which shares the shape exactly", () => {
+    const content = linkEmbeddedReferences("The reading for Matthew 5:4th of the cycle.");
+    expect(content).toEqual(["The reading for ", { bibleLink: "Matthew 5:4" }, "th of the cycle."]);
+  });
+
+  it("should leave a letter run too long to be a sub-verse sequence alone", () => {
+    const content = linkEmbeddedReferences("See Matthew 5:4abcdef for the whole span.");
+    expect(content).toEqual(["See ", { bibleLink: "Matthew 5:4" }, "abcdef for the whole span."]);
+  });
+
+  it("should never letter a chapter, which has no halves to name (the chapter-only match it falls back to is unchanged behavior)", () => {
+    const content = linkEmbeddedReferences("See Matthew 5b:4 for the whole span.");
+    expect(content).toEqual(["See ", { bibleLink: "Matthew 5" }, "b:4 for the whole span."]);
+  });
+});
+
+describe("buildCrossReferenceContent — an \\xt target carries its sub-verse letters the same way", () => {
+  it("should keep the letter in the display and leave it out of the target", () => {
+    const { footnote } = xrefFrom("\\x + \\xo 3:5 \\xt Leviticus 1:13b\\x*");
+    expect(footnote.content).toEqual({ bibleLink: "Leviticus 1:13", content: "Leviticus 1:13b" });
+  });
+
+  it("should resolve a lettered target that would otherwise have stayed plain text", () => {
+    const { footnote } = xrefFrom("\\x + \\xo 2:17 \\xt Joel 2:28ff\\x*");
+    expect(footnote.content).toEqual({ bibleLink: "Joel 2:28", content: "Joel 2:28ff" });
   });
 });

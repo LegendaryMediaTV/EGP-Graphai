@@ -4126,13 +4126,10 @@
             "Hebrew ",
             { "text": "ranks", "marks": ["i"] },
             " (and so in verses ",
-            { "bibleLink": "1 Samuel 17:10", "content": "10" },
-            ", ",
-            { "bibleLink": "1 Samuel 17:21", "content": "21" },
-            ", ",
-            { "bibleLink": "1 Samuel 17:22", "content": "22" },
-            ", ",
-            { "bibleLink": "1 Samuel 17:26", "content": "26" },
+            {
+              "bibleLink": "1 Samuel 17:10, 21, 22, 26",
+              "content": "10, 21, 22, 26"
+            },
             ", etc.)."
           ]
         }

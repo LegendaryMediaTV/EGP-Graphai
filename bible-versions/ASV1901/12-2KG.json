@@ -2218,15 +2218,10 @@
             "Hebrew ",
             { "text": "Jehoram", "marks": ["i"] },
             " (and in verses ",
-            { "bibleLink": "2 Kings 9:17", "content": "17" },
-            ", ",
-            { "bibleLink": "2 Kings 9:21", "content": "21" },
-            ", ",
-            { "bibleLink": "2 Kings 9:22", "content": "22" },
-            ", ",
-            { "bibleLink": "2 Kings 9:23", "content": "23" },
-            ", ",
-            { "bibleLink": "2 Kings 9:24", "content": "24" },
+            {
+              "bibleLink": "2 Kings 9:17, 21, 22, 23, 24",
+              "content": "17, 21, 22, 23, 24"
+            },
             ")."
           ]
         }
@@ -3750,9 +3745,7 @@
           "type": "stu",
           "content": [
             "In verses ",
-            { "bibleLink": "2 Kings 15:13", "content": "13" },
-            ", ",
-            { "bibleLink": "2 Kings 15:30", "content": "30" },
+            { "bibleLink": "2 Kings 15:13, 30", "content": "13, 30" },
             ", etc., ",
             { "text": "Uzziah", "marks": ["i"] }
           ]

@@ -115,6 +115,41 @@ describe("findStrongsNodeIssues — unmerged pairs", () => {
     expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
   });
 
+  it("should stay silent on a punctuation-only node before an eligible target — real LXX1935 GEN 1:29 shape, one half of Rahlfs's parenthetical dash pair", () => {
+    // Folding " –" into " ὑμῖν" leaves the rendered verse byte-identical and
+    // leaves the node claiming " – ὑμῖν" is the word σύ. A node with no letter
+    // in it has no lexical content to belong to a neighbour.
+    const content: Content = [
+      { text: " σπορίμου", script: "G", morph: "A-GSN", lemma: "σπόριμος", strong: "G4702" },
+      { text: " –", script: "G" },
+      { text: " ὑμῖν", script: "G", morph: "P-2DP", lemma: "σύ", strong: "G4771" },
+    ];
+    expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
+  });
+
+  it("should stay silent before a target carrying its own parse — real LXX1935 HOS 1:8 shape, an untagged word the tagger missed", () => {
+    // Folding " – ἠλεημένην" into " καὶ" would make that node's own parse
+    // describe text it does not describe, and auditCorpusMorphology would then
+    // report the merged node as a spelling the map cannot find. The repair for
+    // an untagged word is a tag, never a merge into the word beside it.
+    const content: Content = [
+      { text: " Οὐκ", script: "G", morph: "PRT-N", lemma: "οὐ", strong: "G3756" },
+      { text: " – ἠλεημένην", script: "G" },
+      { text: " καὶ", script: "G", morph: "CONJ", lemma: "καί", strong: "G2532" },
+    ];
+    expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
+  });
+
+  it("should still flag a one-letter connector word before an eligible target — a real word is a connector however short it is", () => {
+    const content: Content = [
+      { text: " ὁ", script: "G" },
+      { text: " θεός", script: "G", strong: "G2316" },
+    ];
+    const findings = findStrongsNodeIssues(content).unmergedPairs;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].plain).toEqual({ text: " ὁ", script: "G" });
+  });
+
   it("should never treat a bare versification-boundary foot node as an unmerged-connector merge target or donor — real CLV1880 NUM 20:28 post-fix shape", () => {
     const content: Content = [
       {
@@ -268,10 +303,28 @@ describe("findStrongsNodeIssues — leading punctuation", () => {
     expect(findStrongsNodeIssues(content).leadingPunctuation).toEqual([]);
   });
 
-  it("should leave an untagged, footless, breakless punctuation node to the unmerged-connector check rather than reporting the same node twice", () => {
+  it("should own a punctuation-only node alone, the unmerged-connector check having declined it, so it is still reported exactly once", () => {
+    // The two checks stay complementary; only the boundary between them moved.
+    // A node with no letter is not a connector word (isMergeableConnector), so
+    // the merge check no longer offers to fold the comma forward into H2's
+    // span — which would have claimed ", more" is the word H2 — and this check
+    // reports the answer that is true instead: the comma ends the word before it.
     const content: Content = [
       { text: " word", strong: "H1" },
       { text: "," },
+      { text: " more", strong: "H2" },
+    ];
+    const findings = findStrongsNodeIssues(content);
+    expect(findings.unmergedPairs).toEqual([]);
+    expect(findings.leadingPunctuation).toHaveLength(1);
+    expect(findings.leadingPunctuation[0].leading).toBe(",");
+    expect(findings.leadingPunctuation[0].attachTo).toEqual({ text: " word", strong: "H1" });
+  });
+
+  it("should leave an untagged connector *word* to the unmerged-connector check rather than reporting the same node twice", () => {
+    const content: Content = [
+      { text: " word", strong: "H1" },
+      { text: " and" },
       { text: " more", strong: "H2" },
     ];
     const findings = findStrongsNodeIssues(content);
@@ -904,6 +957,217 @@ describe("findStrongsNodeIssues — non-standard whitespace", () => {
     ];
     expect(
       findStrongsNodeIssues(content).nonStandardWhitespaceFindings.map(
+        (finding) => finding.path,
+      ),
+    ).toEqual(["content.foot.content[0]"]);
+  });
+});
+
+describe("findStrongsNodeIssues — detached punctuation", () => {
+  it("should flag a node whose text opens with a space and then a comma — the KJV1769 MRK 12:29 shape, where the comma belongs on the italic supplied word before it", () => {
+    const content: Content = [
+      { text: "is", marks: ["i", "woc"] },
+      { text: " , Hear,", marks: ["woc"] },
+    ];
+    const findings =
+      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].path).toBe("content[1]");
+    expect(findings[0].text).toBe(" , Hear,");
+  });
+
+  it("should stay silent on the same node once its leading space is gone — the repaired MRK 12:29", () => {
+    const content: Content = [
+      { text: "is", marks: ["i", "woc"] },
+      { text: ", Hear,", marks: ["woc"] },
+    ];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should flag a node that is nothing but a space and a period — the KJV1769 MRK 15:2 shape", () => {
+    const content: Content = [
+      { text: "it", marks: ["i", "woc"] },
+      { text: " .", marks: ["woc"] },
+    ];
+    const findings =
+      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].text).toBe(" .");
+  });
+
+  it("should flag a bare string in a content array — the shape most of the downstream fork's own hits take", () => {
+    const content: Content = [{ text: "adultery", strong: "G3431" }, " ;"];
+    const findings =
+      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].path).toBe("content[1]");
+    expect(findings[0].text).toBe(" ;");
+  });
+
+  it("should stay silent on the LXX1935 closing-dash-then-comma shape — 21 real nodes ride on this exclusion", () => {
+    // Rahlfs closes a parenthetical with a spaced en dash and the clause's
+    // own comma follows it. The first non-space character is the dash, and
+    // isTightPunctuationChar excludes every dash, so the run never starts.
+    const content: Content = [{ text: " – ,", script: "G" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should stay silent on the same shape closed by an ano teleia — the other three LXX1935 nodes", () => {
+    // Written as an escape on purpose: an ano teleia and an ASCII middle
+    // dot are indistinguishable in a terminal and in a diff.
+    const content: Content = [{ text: " – \u0387", script: "G" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should stay silent on an opening parenthesis, which attaches to what it introduces rather than closing what came before", () => {
+    const content: Content = [{ text: " (word)" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should stay silent on an initial quotation mark, for the same reason", () => {
+    const content: Content = [{ text: " ‘Hello" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should stay silent on a leading em dash", () => {
+    const content: Content = [{ text: " —word" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should stay silent when a letter follows the punctuation, because the mark is inside a word rather than closing one", () => {
+    // The corpus splits the contraction "I’m" as " him, ‘I" followed by
+    // " ’m": that apostrophe belongs to the word it sits in.
+    const content: Content = [{ text: " him, ‘I" }, { text: " ’m" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should stay silent when a digit follows the punctuation, the same as a letter", () => {
+    const content: Content = [{ text: " ’45" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should stay silent on BYZ2026's own apparatus separator, which is spaced on both sides on purpose — 12,085 nodes ride on this exclusion", () => {
+    const content: Content = [{ text: " ¦ " }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should stay silent on an ampersand joining two cross-references, a conjunction rather than a mark that lost its word", () => {
+    const content: Content = [{ text: " & 21.17" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should flag a stranded closing double quote — the WEBUS2020 JHN 5:11 shape, where the quote closes the speech in the node before it", () => {
+    // The curly marks are written as literals, the way every quote in this
+    // file is — unlike the ano teleia above, a right double quote and its
+    // ASCII cousin are told apart on sight.
+    const content: Content = [
+      { text: "‘Take up your mat and walk.’", marks: ["woc"] },
+      { text: " ”" },
+    ];
+    const findings =
+      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].path).toBe("content[1]");
+    expect(findings[0].text).toBe(" ”");
+  });
+
+  it("should stay silent on the same node once its leading space is gone — the repaired JHN 5:11, which is LUK 8:45's own attested shape", () => {
+    const content: Content = [
+      { text: "‘Take up your mat and walk.’", marks: ["woc"] },
+      { text: "”" },
+    ];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should flag a stranded closing single quote, the inner mark of the same nested-speech cluster", () => {
+    const content: Content = [{ text: "word" }, { text: " ’" }];
+    const findings =
+      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].text).toBe(" ’");
+  });
+
+  it("should flag a whole closing cluster, both marks and the terminator they follow", () => {
+    const content: Content = [{ text: " .’”" }];
+    const findings =
+      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].text).toBe(" .’”");
+  });
+
+  it("should stay silent on a leading ellipsis", () => {
+    const content: Content = [{ text: " … with the likeness" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should carry a closing quote riding behind the terminator into the same finding", () => {
+    const content: Content = [{ text: " ,”" }];
+    const findings =
+      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    expect(findings).toHaveLength(1);
+    expect(findings[0].text).toBe(" ,”");
+  });
+
+  it("should stay silent on a leading decimal, where the digit after the point says the mark is inside a number", () => {
+    const content: Content = [{ text: " .45 centimeters" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should stay silent on a node whose text opens with whitespace and nothing else", () => {
+    const content: Content = [{ text: " " }, { text: "   " }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should stay silent on ordinary leading-space text, which is this corpus's own convention", () => {
+    const content: Content = [{ text: " and it was so.", strong: "H776" }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings,
+    ).toEqual([]);
+  });
+
+  it("should report each offending node's own path when more than one node in the same array carries the shape", () => {
+    const content: Content = [{ text: " ;" }, { text: "word" }, { text: " ." }];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings.map(
+        (finding) => finding.path,
+      ),
+    ).toEqual(["content[0]", "content[2]"]);
+  });
+
+  it("should descend into a footnote body's own content, the same as every other check in this recursion", () => {
+    const content: Content = [
+      { text: "word", foot: { type: "trn", content: [{ text: " ;" }] } },
+    ];
+    expect(
+      findStrongsNodeIssues(content).detachedPunctuationFindings.map(
         (finding) => finding.path,
       ),
     ).toEqual(["content.foot.content[0]"]);
@@ -1694,7 +1958,7 @@ describe("findStrongsNodeIssues — duplicate footnote anchor", () => {
   it('should not flag two adjacent textless anchors whose own foot values genuinely differ only in their own manuscript-witness prefix — real shape from the retired BYZ2018 Revelation 7:5 (both type "var"; "B " against a distinct "N " variant note immediately after)', () => {
     const content: Content = [
       {
-        text: " ἐσφραγισμέναι·",
+        text: " ἐσφραγισμέναι·",
         script: "G",
         foot: {
           type: "var",
@@ -2022,6 +2286,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2057,6 +2322,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2093,6 +2359,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2127,6 +2394,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2162,6 +2430,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2195,6 +2464,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2231,6 +2501,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2267,6 +2538,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2300,6 +2572,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2335,6 +2608,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2370,6 +2644,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2403,6 +2678,7 @@ describe("exitCodeFor", () => {
       ],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2438,6 +2714,7 @@ describe("exitCodeFor", () => {
         },
       ],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2473,6 +2750,42 @@ describe("exitCodeFor", () => {
           excerpt: "10 a.m.",
         },
       ],
+      detachedPunctuationFindings: [],
+    };
+    expect(exitCodeFor([summary])).toBe(1);
+  });
+
+  it("should exit non-zero when a version carries only a detached-punctuation finding", () => {
+    const summary = {
+      version: "X",
+      unmergedPairs: [],
+      duplicateFootnoteAnchors: [],
+      trailingWhitespace: [],
+      leadingPunctuation: [],
+      markBoundarySpaces: [],
+      verseInitialSpaces: [],
+      headingParagraphMismatches: [],
+      fractionFindings: [],
+      footnotePunctuationOrder: [],
+      markBoundaryEmbeddedSpaces: [],
+      ellipsisFindings: [],
+      straightQuoteFindings: [],
+      dialytikaFindings: [],
+      footnoteMarkerAfterWhitespace: [],
+      untaggedScriptRuns: [],
+      mergeableSiblingPairs: [],
+      nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [
+        {
+          version: "X",
+          file: "41-MRK.json",
+          book: "MRK",
+          chapter: 12,
+          verse: 29,
+          path: "content[10].content[1]",
+          text: " , Hear,",
+        },
+      ],
     };
     expect(exitCodeFor([summary])).toBe(1);
   });
@@ -2497,6 +2810,7 @@ describe("exitCodeFor", () => {
       untaggedScriptRuns: [],
       mergeableSiblingPairs: [],
       nonStandardWhitespaceFindings: [],
+      detachedPunctuationFindings: [],
     } as const;
     expect(exitCodeFor([summary])).toBe(0);
   });

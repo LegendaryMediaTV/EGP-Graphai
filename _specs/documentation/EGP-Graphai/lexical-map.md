@@ -476,7 +476,15 @@ flowchart TD
     Cell --> Human["Readable parse, from the registry"]
 ```
 
-The failure branch matters as much as the success one. A token whose morph matches no parse under its form is either a tagging error in the corpus or a gap in the map, and either way somebody should look at it. Today that discrepancy has nowhere to surface.
+The failure branch matters as much as the success one. A token whose morph matches no parse under its form is either a tagging error in the corpus or a gap in the map, and either way somebody should look at it. The corpus-morphology audit is where that surfaces.
+
+**Do not write this ladder again.** [utils/lexicon.ts](../../../utils/lexicon.ts) owns it, as `resolveLemma` and `resolveStrongs`, and both answer with the value or with the reason they declined — never with a guess and never with `undefined`, because a caller made to invent the reason is a caller whose reasons go missing.
+
+`resolveLemma` takes a node's printed text, its morph code and the scheme its version declares, plus the Strong's number the node already carries. A node holding more than one word is declined outright: there is no single lemma to name. Otherwise the codex answers with every root that holds the spelling, and three things narrow it in turn — the spelling alone settles 96.3% of BYZ2026, the parse settles another 2.2%, and the corpus's own Strong's number settles 1.5%. What two dictionary entries still share after all three is reported: 39 nodes, 38 of them `ἄρα` against `ἆρα`.
+
+`resolveStrongs` starts from a lemma instead, which must be a root **exactly** — no accent-blind fallback, since a fold can tie two roots and would answer a question the corpus did not ask. Three sources can then name a number, consulted most specific first: the index's placement rules, the number the codex puts on the cell itself, and the root's own single number. Where the rules and the cell both answer they agree, measured across 35,536 LXX1935 nodes with no disagreement, which is what you would expect of one claim recorded on both sides of an import.
+
+**Collect the distinct numbers matching rules name; never count the matches.** Two rules differing only in a grave for an acute both match one node, because `codexLookup` folds the pair together. Counting matches calls that a conflict 386 times across LXX1935 — 232 of `ἐμέ`/`ἐμὲ` giving G1691 and 118 of `ἐμοί`/`ἐμοὶ` giving G1698 — and every one of them is one number written twice.
 
 ## What the map makes possible
 
@@ -486,13 +494,15 @@ The failure branch matters as much as the success one. A token whose morph match
 
 **Translations inherit tags from their source.** Declaring that an edition follows BYZ, TR or MT lets it carry root and morphology even where its own tagging has none.
 
-**A transliterated edition becomes a render-time join.** Store an academic transliteration on each form and the edition is a projection of existing data rather than a second corpus.
+**A transliterated edition reads the registry's table, not the codex's stored values.** The obvious shortcut is to join each printed token to its spelling's stored `transliteration`, and it does not work, for a structural reason rather than an incidental one: the codex key deliberately folds away the two things a printed page needs. `codexLookup` lower-cases the spelling and reads a grave as its acute, so the corpus's `Δαυὶδ` keys as `δαυίδ`, whose stored value is *dauíd* where the page wants *Dauìd*. Every sentence-initial capital in both Greek corpora collapses into its lower-case key, and 636 keys answer for more than one root. A lookup is also empty for a word the codex has never heard of — BYZ2026's 20,454 untagged footnote variants, LXX1935's six deliberate misspellings in an apparatus.
+
+So the value is computed from the language registry's own `transliteration` table instead, one word at a time, and stored on the node (see [content-model.md](content-model.md)). The codex is never consulted for it. The lexical-map audit's existing check, that each stored codex transliteration is reproducible from the registry alone, is what keeps the two sides agreeing by construction rather than by a second lookup.
 
 **`inflections` on lexicon entries stops being hand work.** Grouping (root, parse) over a tagged corpus produces exactly the shape that was being typed by hand, corpus-attested rather than transcribed.
 
 ## Validation rules
 
-`npm run validate` runs two audits over this directory. Both are report-only, like every other audit there: a finding is either a codex to correct or a registry entry to add, and only a person can say which.
+`npm run validate` runs three audits that bear on this directory. All three are report-only for what they count, like every other audit there: a finding is either a codex to correct or a registry entry to add, and only a person can say which.
 
 **The lexical-map audit** ([utils/lexicalMaps.ts](../../../utils/lexicalMaps.ts)) checks the map against itself and against the registry.
 
@@ -510,12 +520,18 @@ It earns its keep. It found a cell a cleanup pass had deleted by mistake — BYZ
 
 **Narrowing is allowed and is never a finding.** A word that does not inflect has no case marking, and the map records that as `indecl-proper` rather than by listing every case it could stand in, because "this can be anything" is a different claim from "this is one of these two". A corpus may then narrow it from context. So `Ἀβραάμ` reads `N-PRI` in BYZ2026, which did not narrow it, and `N-GSM` in LXX1935, which did, and both are right about the same word.
 
+**The lexical-enrichment audit** ([utils/corpusEnrichment.ts](../../../utils/corpusEnrichment.ts)) checks how far the map reaches into each version's Greek, and is the reporting half of the auto-fix pass's own lexical annotation resolution.
+
+It counts, per version, the word nodes the map could be asked about, how many carry a lemma and a Strong's number, and why the rest do not, bucketed by the reason `resolveLemma` and `resolveStrongs` gave. The counts never fail a run. Neither resolver guesses, so an unresolved node is the map declining rather than failing, and gating on that would leave the command permanently red over 50,035 LXX1935 nodes whose root simply has no Strong's number — which is exactly the "where available" the corpus was enriched under. A coverage regression shows up the way it does in the audits above: as a number that moved.
+
+One thing there does gate: a stored `transliteration` the registry's own table does not produce. That value is derived, the pass recomputes it on every run, and a disagreement surviving the run means the fixer declined to write it rather than that the map has a gap.
+
 Still unchecked, and worth building:
 
 - No two `inflections` keys under one root are equal under the case-and-grave fold.
 - A cell's Strong's number is never equal to its root's, and always a subset of it.
 - Every Strong's number resolves in the lexicon, not only its pattern.
-- Two placement rules never both match one cell.
+- Two placement rules never both match one cell. `strongs.json` carries two pairs that do — `ἐμέ`/`ἐμὲ` and `ἐμοί`/`ἐμοὶ`, each differing only in a grave for an acute, which the codex key folds together. Harmless as long as a reader collects the distinct numbers the matching rules name instead of counting the matches, but it is a rule the file's own schema says is checked and is not.
 - Every cell's number is what the corpus tag plus the placement rules produce, so the codex and the index file cannot drift apart.
 - Every attested cell of a root the generator handles is one the generator produces. This needs the paradigm generator, which lives in the gitignored importer; see below.
 

@@ -248,7 +248,7 @@
             "“Behold”, from “",
             { "text": "הִנֵּה", "script": "H" },
             "” or “",
-            { "text": "ἰδοὺ", "script": "G" },
+            { "text": "ἰδοὺ", "script": "G", "transliteration": "idoù" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -433,7 +433,11 @@
           "type": "stu",
           "content": [
             "“Overseer” is from the Greek ",
-            { "text": "ἐπίσκοπον", "script": "G" },
+            {
+              "text": "ἐπίσκοπον",
+              "script": "G",
+              "transliteration": "epískopon"
+            },
             ", which can mean overseer, curator, guardian, or superintendent."
           ]
         }

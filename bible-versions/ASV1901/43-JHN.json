@@ -386,9 +386,7 @@
             ", some ",
             { "text": "Betharabah", "marks": ["i"] },
             ". Compare ",
-            { "bibleLink": "Joshua 15:6", "content": "Josh. 15:6" },
-            ", ",
-            { "bibleLink": "Joshua 15:61", "content": "61" },
+            { "bibleLink": "Joshua 15:6, 61", "content": "Josh. 15:6, 61" },
             "; ",
             { "bibleLink": "Joshua 18:22", "content": "18:22" },
             "."
@@ -914,9 +912,7 @@
             "; ",
             { "bibleLink": "James 1:17", "content": "Jas. 1:17" },
             "; ",
-            { "bibleLink": "James 3:15", "content": "3:15" },
-            ", ",
-            { "bibleLink": "James 3:17", "content": "17" },
+            { "bibleLink": "James 3:15, 17", "content": "3:15, 17" },
             "."
           ]
         }
@@ -961,9 +957,7 @@
             "; ",
             { "bibleLink": "James 1:17", "content": "Jas. 1:17" },
             "; ",
-            { "bibleLink": "James 3:15", "content": "3:15" },
-            ", ",
-            { "bibleLink": "James 3:17", "content": "17" },
+            { "bibleLink": "James 3:15, 17", "content": "3:15, 17" },
             "."
           ]
         }
@@ -1307,9 +1301,7 @@
             ": and so in ",
             { "bibleLink": "John 4:14", "content": "verse 14" },
             "; but not in verses ",
-            { "bibleLink": "John 4:11", "content": "11" },
-            ", ",
-            { "bibleLink": "John 4:12", "content": "12" },
+            { "bibleLink": "John 4:11, 12", "content": "11, 12" },
             "."
           ]
         }
@@ -1337,9 +1329,7 @@
             ": and so in ",
             { "bibleLink": "John 4:14", "content": "verse 14" },
             "; but not in verses ",
-            { "bibleLink": "John 4:11", "content": "11" },
-            ", ",
-            { "bibleLink": "John 4:12", "content": "12" },
+            { "bibleLink": "John 4:11, 12", "content": "11, 12" },
             "."
           ]
         }
@@ -2510,9 +2500,7 @@
           "content": [
             { "bibleLink": "Nehemiah 9:15", "content": "Neh. 9:15" },
             "; ",
-            { "bibleLink": "Exodus 16:4", "content": "Ex. 16:4" },
-            ", ",
-            { "bibleLink": "Exodus 16:15", "content": "15" },
+            { "bibleLink": "Exodus 16:4, 15", "content": "Ex. 16:4, 15" },
             "; ",
             { "bibleLink": "Psalm 78:24", "content": "Ps. 78:24" },
             "; ",
@@ -6914,9 +6902,7 @@
             ". Compare ",
             { "bibleLink": "John 16:26", "content": "verse 26" },
             "; ",
-            { "bibleLink": "John 14:13", "content": "14:13" },
-            ", ",
-            { "bibleLink": "John 14:20", "content": "20" },
+            { "bibleLink": "John 14:13, 20", "content": "14:13, 20" },
             "."
           ]
         }
@@ -7735,13 +7721,10 @@
             "Or, ",
             { "text": "officers", "marks": ["i"] },
             ": as in verses ",
-            { "bibleLink": "John 18:3", "content": "3" },
-            ", ",
-            { "bibleLink": "John 18:12", "content": "12" },
-            ", ",
-            { "bibleLink": "John 18:18", "content": "18" },
-            ", ",
-            { "bibleLink": "John 18:22", "content": "22" },
+            {
+              "bibleLink": "John 18:3, 12, 18, 22",
+              "content": "3, 12, 18, 22"
+            },
             "."
           ]
         }
@@ -8595,9 +8578,7 @@
             "; ",
             { "bibleLink": "Isaiah 20:2", "content": "Isa. 20:2" },
             "; ",
-            { "bibleLink": "Micah 1:8", "content": "Mic. 1:8" },
-            ", ",
-            { "bibleLink": "Micah 1:11", "content": "11" },
+            { "bibleLink": "Micah 1:8, 11", "content": "Mic. 1:8, 11" },
             "."
           ]
         }

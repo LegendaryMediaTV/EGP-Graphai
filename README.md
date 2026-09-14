@@ -45,6 +45,7 @@ See [lexical-map.md](./_specs/documentation/EGP-Graphai/lexical-map.md) for the 
 
 - **Markdown** - Clean, readable format with superscript verse numbers and footnotes
 - **Strong’s Text** - Annotated format with linguistic codes and lexical data
+- **Transliterated Markdown** - The same markdown romanized, written to `<VERSION>-Transliterated` for any version that declares a `script`, so a reader who does not read Greek or Hebrew can hold it line-for-line against the original
 
 ### Graphai Reader
 
@@ -78,7 +79,9 @@ npm install
 # conventions whose fixes are safe; and fails with detail on everything else
 npm run validate
 
-# Convert Bible JSON to text/markdown formats (all versions)
+# Convert Bible JSON to text/markdown formats (all versions). A version that
+# declares a `script` also gets a romanized markdown tree beside its own, at
+# exports/markdown-par/<VERSION>-Transliterated/
 npm run export
 
 # Convert specific version and book (e.g., WEBUS2020 Genesis)
@@ -129,7 +132,7 @@ npm run dev
  types/                 # TypeScript type definitions
  utils/                 # CLI utilities and validation
  web/                   # Graphai Reader web application
- _specs/                # AI context and human-readable supplemental documentation
+ _specs/                # Human-readable supplemental documentation
 ```
 
 ## Documentation
@@ -137,7 +140,6 @@ npm run dev
 For deeper architectural and domain detail, see:
 
 - [Supplemental developer docs](./_specs/documentation/EGP-Graphai/README.md); content model, lexical map, data pipeline, USFM import, web reader
-- [AI context references](./_specs/ai-context/); domain documents and style guides for AI agents
 
 ## JSON Format Examples
 
@@ -181,6 +183,12 @@ For deeper architectural and domain detail, see:
 
 ```
 001:001 ¶  Ἐν G1722 (PREP) ἀρχῇ G746 (N-DSF) ἦν G1510 (V-IAI-3S) ὁ G3588 (T-NSM) λόγος, G3056 (N-NSM) ␤
+```
+
+**Transliterated Markdown** (BYZ2026 John 1:1, beside `Ἐν ἀρχῇ ἦν ὁ λόγος, …` in the tree above it):
+
+```markdown
+<sup>1</sup> En archē̂ ē̂n ho lógos, kaì ho lógos ē̂n pròs tòn theón, kaì theòs ē̂n ho lógos.
 ```
 
 ## Development

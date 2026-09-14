@@ -5,15 +5,16 @@
  * ({@link canJoinForward}), wherever that neighbor's own eligibility already
  * makes the fold unambiguous.
  *
- * `auditNodes.ts` ships no detection-side fix of its own — see its domain
- * doc (`_specs/ai-context/4-domains/strongs-node-audit.md`)'s "Read-only by
- * design" note — because a mechanical fixer risks getting the fold direction
- * wrong on real Bible text. This module does not reimplement that judgment:
- * it imports `describeNode`/`isMergeableConnector`/`canJoinForward` directly
- * from `auditNodes.ts` and only acts where those functions already say the
- * fold is safe, keeping exactly one "is this safe" decision in the repo.
- * What this module adds is purely mechanical: building the merged node once
- * eligibility says yes. `utils/validate.ts` calls
+ * `auditNodes.ts` is read-only by design. It ships no detection-side fix of
+ * its own, because a mechanical fixer risks getting the fold direction wrong
+ * on real Bible text. `_specs/documentation/EGP-Graphai/data-pipeline.md`
+ * covers which of its checks repair themselves in `validate.ts`'s auto-fix
+ * pass and which stay report-only. This module does not reimplement that
+ * judgment: it imports `describeNode`/`isMergeableConnector`/`canJoinForward`
+ * directly from `auditNodes.ts` and only acts where those functions already
+ * say the fold is safe, keeping exactly one "is this safe" decision in the
+ * repo. What this module adds is purely mechanical: building the merged node
+ * once eligibility says yes. `utils/validate.ts` calls
  * {@link mergeUnmergedNodesInContent} directly, on every run, with no flag
  * to opt in or out.
  *

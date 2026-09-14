@@ -333,13 +333,12 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should accept marks on a nested-content object", () => {
-      // The marks apply to the nested content, not to text.
-      // Cast because types/Content.ts omits marks from ContentNested while
-      // content-schema.json allows it.
+      // The marks apply to the nested content rather than to text, so the node
+      // is meaningful with no `text` of its own.
       expect(
         findMeaninglessContentNodes([
           { content: ["the", " Lord"], marks: ["sc"] },
-        ] as unknown as Content)
+        ])
       ).toEqual([]);
     });
 
@@ -802,14 +801,11 @@ describe("findResidualContentChanges — the idempotence guard's own per-verse r
   });
 
   // Real, verified interaction: two adjacent nodes whose marks disagree,
-  // joined by a boundary space the mark-boundary-embedded-space check
-  // already relocated once. Re-running that check's detector against the
-  // relocated state finds a *new*, equally-disagreeing space on the
-  // boundary's other side — its single left-to-right pass never revisits
-  // the node it just rewrote, so it fires again and flips the boundary
-  // straight back. This is exactly the interaction the idempotence guard
-  // exists to catch automatically, rather than needing a second manual
-  // `npm run validate` to notice.
+  // joined by a boundary space the mark-boundary-embedded-space check already
+  // relocated once. Re-running that check's detector against the relocated
+  // state finds a *new*, equally-disagreeing space on the boundary's other
+  // side — its single left-to-right pass never revisits the node it just
+  // rewrote, so it fires again and flips the boundary straight back.
   it("should report a residual mark-boundary-space finding when a relocated space leaves a new, equally-disagreeing space on the other side of the same boundary", () => {
     const verse: VerseRecord = {
       book: "REV",
@@ -859,12 +855,74 @@ describe("findResidualContentChanges — the idempotence guard's own per-verse r
       "leading-punctuation reattach",
     ]);
   });
+
+  // The transliteration step is last in the pass and last in this chain, so a
+  // script-tagged node that arrives with no transliteration is a verse the pass
+  // would still rewrite. Naming it here is what turns a stale stored value into
+  // a named failure rather than a silent one.
+  it("should name the script-run transliteration for a script-tagged node carrying no transliteration", () => {
+    const verse: VerseRecord = {
+      book: "MAT",
+      chapter: 1,
+      verse: 1,
+      content: [{ text: "χριστοῦ", script: "G" }] as unknown as Content,
+    };
+    expect(findResidualContentChanges("BYZ2026", verse)).toEqual([
+      "script-run transliteration",
+    ]);
+  });
+
+  it("should report nothing for a script-tagged node whose transliteration already agrees with the table", () => {
+    const verse: VerseRecord = {
+      book: "MAT",
+      chapter: 1,
+      verse: 1,
+      content: [
+        { text: "χριστοῦ", script: "G", transliteration: "christoû" },
+      ] as unknown as Content,
+    };
+    expect(findResidualContentChanges("BYZ2026", verse)).toEqual([]);
+  });
+
+  // The annotation step follows the transliteration, so this verse carries the
+  // transliteration the table produces already — otherwise both steps fire and
+  // the assertion says nothing about the one being tested.
+  it("should name the lexical annotation resolution for a word node carrying no lemma the map can resolve", () => {
+    const verse: VerseRecord = {
+      book: "MAT",
+      chapter: 1,
+      verse: 1,
+      content: [
+        { text: " χριστοῦ,", script: "G", transliteration: " christoû,", strong: "G5547", morph: "N-GSM" },
+      ] as unknown as Content,
+    };
+    expect(findResidualContentChanges("BYZ2026", verse)).toEqual(["lexical annotation resolution"]);
+  });
+
+  it("should report nothing for a word node already carrying its lemma", () => {
+    const verse: VerseRecord = {
+      book: "MAT",
+      chapter: 1,
+      verse: 1,
+      content: [
+        {
+          text: " χριστοῦ,",
+          script: "G",
+          transliteration: " christoû,",
+          strong: "G5547",
+          morph: "N-GSM",
+          lemma: "Χριστός",
+        },
+      ] as unknown as Content,
+    };
+    expect(findResidualContentChanges("BYZ2026", verse)).toEqual([]);
+  });
 });
 
 // A version's declared chapter count must match the chapters its own verse
 // file actually carries — corpus completeness, not validity. Real,
-// permanent corpus findings exist for this (see bible-versions.md);
-// fixtures below are synthetic since this pure comparator needs no file I/O.
+// permanent corpus findings exist for this; fixtures below are synthetic
+// since this pure comparator needs no file I/O.
 describe("findDeclaredChapterMismatches", () => {
   const book = (overrides: Partial<VersionBook>): VersionBook => ({
     _id: "GEN",

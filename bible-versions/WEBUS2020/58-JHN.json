@@ -37,7 +37,11 @@
           "type": "trn",
           "content": [
             "The word translated “overcome” (",
-            { "text": "κατέλαβεν", "script": "G" },
+            {
+              "text": "κατέλαβεν",
+              "script": "G",
+              "transliteration": "katélaben"
+            },
             ") can also be translated “comprehended.” It refers to getting a grip on an enemy to defeat him."
           ]
         }
@@ -111,7 +115,11 @@
           "type": "trn",
           "content": [
             "The phrase “only born” is from the Greek word “",
-            { "text": "μονογενους", "script": "G" },
+            {
+              "text": "μονογενους",
+              "script": "G",
+              "transliteration": "monogenous"
+            },
             "”, which is sometimes translated “only begotten” or “one and only”."
           ]
         }
@@ -151,7 +159,11 @@
           "type": "trn",
           "content": [
             "The phrase “only born” is from the Greek word “",
-            { "text": "μονογενη", "script": "G" },
+            {
+              "text": "μονογενη",
+              "script": "G",
+              "transliteration": "monogenē"
+            },
             "”, which is sometimes translated “only begotten” or “one and only”."
           ]
         }
@@ -265,7 +277,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            { "text": "ἰδοὺ", "script": "G" },
+            { "text": "ἰδοὺ", "script": "G", "transliteration": "idoù" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -736,7 +748,7 @@
             "The word translated “anew” here and in ",
             { "bibleLink": "John 3:7" },
             " (",
-            { "text": "ἄνωθεν", "script": "G" },
+            { "text": "ἄνωθεν", "script": "G", "transliteration": "ánōthen" },
             ") also means “again” and “from above”."
           ]
         }
@@ -795,7 +807,7 @@
           "type": "stu",
           "content": [
             "The same Greek word (",
-            { "text": "πνεῦμα", "script": "G" },
+            { "text": "πνεῦμα", "script": "G", "transliteration": "pneûma" },
             ") means wind, breath, and spirit."
           ]
         }
@@ -884,7 +896,11 @@
           "type": "trn",
           "content": [
             "The phrase “only born” is from the Greek word “",
-            { "text": "μονογενη", "script": "G" },
+            {
+              "text": "μονογενη",
+              "script": "G",
+              "transliteration": "monogenē"
+            },
             "”, which is sometimes translated “only begotten” or “one and only”."
           ]
         }
@@ -1608,7 +1624,7 @@
         "text": "He answered them, “He who made me well said to me, "
       },
       { "text": "‘Take up your mat and walk.’", "marks": ["woc"] },
-      " ”"
+      "”"
     ]
   },
   {
@@ -6010,7 +6026,11 @@
           "type": "trn",
           "content": [
             "Greek ",
-            { "text": "παρακλητον", "script": "G" },
+            {
+              "text": "παρακλητον",
+              "script": "G",
+              "transliteration": "paraklēton"
+            },
             ": Counselor, Helper, Intercessor, Advocate, and Comforter."
           ]
         }

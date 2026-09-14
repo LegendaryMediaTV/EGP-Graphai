@@ -2,21 +2,23 @@
  * Lexical-map audit: every codex file against its schema, and every claim in
  * it against the language registry that defines the vocabulary.
  *
- * The codex schema defers a list of checks to "outside this schema". The reason
- * is narrower than this comment used to claim, and worth stating correctly:
- * **a schema cannot open a second file.** Most of what is checked here — that a
- * parse code exists, that a parse states one value per category, that a root's
- * class resolves, that a cell's part of speech is a reading its root allows —
- * is a plain `enum` or an `if`/`then` once the vocabulary is in hand, and the
- * vocabulary lives in `_language.json`. No draft lets a schema read instance
- * data from another document, so the choice is between generating those
- * fragments from the registry at validate time and writing the checks here.
+ * The codex schema defers a list of checks to "outside this schema", and the
+ * reason is narrow: **a schema cannot open a second file.** Most of what is
+ * checked here — that a parse code exists, that a parse states one value per
+ * category, that a root's class resolves, that a cell's part of speech is a
+ * reading its root allows — is a plain `enum` or an `if`/`then` once the
+ * vocabulary is in hand, and the vocabulary lives in `_language.json`. No draft
+ * lets a schema read instance data from another document, so the choice is
+ * between generating those fragments from the registry at validate time and
+ * writing the checks here.
  *
  * Two things are genuinely out of reach. Recomputing a transliteration needs a
- * string transformation with context, which no draft has. Comparing two
- * property names to each other has no keyword either, though the key rule can
- * be stated as two patterns that make a collision impossible rather than
- * checked pairwise.
+ * string transformation with context, which no draft has — so that check runs
+ * here, through `lexicon.ts`, and therefore asks whether the codex's stored
+ * value is the one a consumer will actually compute rather than whether two
+ * copies of one table agree. Comparing two property names to each other has no
+ * keyword either, though the key rule can be stated as two patterns that make a
+ * collision impossible rather than checked pairwise.
  *
  * A codex is a controlled vocabulary applied to tens of thousands of cells, and
  * a typo in one code is invisible until something downstream silently fails to
@@ -30,6 +32,13 @@
 import fs from "fs";
 import path from "path";
 import validateJsonAgainstSchema from "../functions/validateJsonAgainstSchema";
+import {
+  TransliterationTable,
+  codexLookup,
+  indexNumbers,
+  transliterate,
+  transliterationTable,
+} from "./lexicon";
 
 /** Directory holding one subdirectory per language codex. */
 const lexicalMapsDir = "./lexical-maps";
@@ -52,6 +61,7 @@ export interface LexicalMapFinding {
 export interface LexicalMapAudit {
   /** Language directory, e.g. `"greek"`. */
   language: string;
+  /** Everything wrong with the codex, in the order the walk found it. */
   findings: LexicalMapFinding[];
   /** Roots walked, so a scan that silently stops descending is visible. */
   rootsScanned: number;
@@ -77,133 +87,6 @@ interface Registry {
   transliteration: TransliterationTable | null;
 }
 
-interface TransliterationTable {
-  letters: Record<string, string>;
-  diphthongs: string[];
-  velars: string[];
-  gammaNasal: string;
-  upsilonInDiphthong: string;
-  aspirate: string;
-}
-
-
-/** The combining grave and the combining acute, the pair the fold rewrites. */
-const GRAVE = "̀";
-const ACUTE = "́";
-
-/**
- * A spelling with the two things about it that are not the word's own removed:
- * the grave accent, and the initial capital.
- *
- * The codex keys each spelling with a grave read as its acute, because the grave
- * stands only where another word follows, and with its initial case taken from
- * the root, because a capital at the head of a sentence belongs to the sentence
- * while a proper noun's belongs to the word. So this is what two spellings of
- * one word have in common, which is both what a reader holding a printed token
- * can compute without knowing the root, and what tells two keys that are really
- * one key apart. The rule the passes write by is `codexKey` in
- * `imports/lxx/lib/greek.mjs`, and the schema states it in full.
- *
- * @param spelling One spelling, outer punctuation already off.
- */
-export function codexLookup(spelling: string): string {
-  return spelling.toLowerCase().normalize("NFD").split(GRAVE).join(ACUTE).normalize("NFC");
-}
-
-/** One index value as a list, however the codex spells it. */
-function indexNumbers(value: unknown): string[] {
-  if (value === undefined || value === null) return [];
-  return Array.isArray(value) ? (value as string[]) : [String(value)];
-}
-
-/** Combining marks, and what each becomes. The iota subscript is dropped. */
-const MARKS: Record<string, string> = {
-  "́": "́", // acute
-  "̀": "̀", // grave
-  "͂": "̂", // perispomeni becomes a plain circumflex
-  "̈": "̈", // diaeresis
-  "ͅ": "", // iota subscript
-};
-const ROUGH = "̔";
-const SMOOTH = "̓";
-
-/**
- * Capitalise a transliterated letter, which may be more than one character.
- *
- * Only the first: the Greek theta is *Th* and psi is *Ps*, never *TH* or *PS*.
- */
-const titleCase = (latin: string) => latin.charAt(0).toUpperCase() + latin.slice(1);
-
-/**
- * The academic transliteration of one word, from the registry's own table.
- *
- * A reimplementation of the rule the codex was written with, on purpose: the
- * point of the check is that the stored value is reproducible from the
- * registry alone, so a consumer that implements the table gets the same
- * answer. See the `transliteration` block in a language registry for the
- * table's own account of itself, including the iota subscript being the one
- * thing it cannot round-trip.
- */
-export function transliterate(word: string, table: TransliterationTable): string {
-  const diphthongs = new Set(table.diphthongs);
-  const velars = new Set(table.velars);
-
-  // `base` is lower-cased because the registry's table is keyed that way, and
-  // `capital` remembers what the text printed so the Latin can match it. A
-  // transliteration that lower-cases everything reads `Ζαβδος` as *zabdos*, a
-  // proper name in lower case, and stops round-tripping its own key.
-  const chars: { base: string; marks: string[]; capital: boolean }[] = [];
-  for (const ch of word.normalize("NFD")) {
-    if (ch in MARKS || ch === ROUGH || ch === SMOOTH) {
-      if (chars.length) chars[chars.length - 1].marks.push(ch);
-      continue;
-    }
-    const base = ch.toLowerCase();
-    chars.push({ base, marks: [], capital: base !== ch });
-  }
-
-  let out = "";
-  let aspirated = false;
-  chars.forEach((char, i) => {
-    const previous = chars[i - 1];
-    const next = chars[i + 1];
-    let latin: string;
-
-    if (char.base === "γ" && next && velars.has(next.base)) {
-      latin = table.gammaNasal;
-    } else if (char.base === "υ" && previous && diphthongs.has(previous.base + char.base)) {
-      latin = table.upsilonInDiphthong;
-    } else {
-      latin = table.letters[char.base] ?? char.base;
-    }
-
-    // A rough breathing aspirates the syllable, so its `h` goes ahead of the
-    // vowel or diphthong it sits on, and after a rho.
-    if (char.marks.includes(ROUGH)) {
-      // A rho takes its aspirate after itself, so the rho keeps the capital
-      // (`Ῥώμη` is *Rhṓmē*); a vowel's aspirate stands first and takes it
-      // instead (`Ἅγιος` is *Hágios*, not *hÁgios*).
-      if (char.base === "ρ") latin = (char.capital ? titleCase(latin) : latin) + table.aspirate;
-      else if (previous && diphthongs.has(previous.base + char.base)) aspirated = true;
-      else latin = (char.capital ? titleCase(table.aspirate) : table.aspirate) + latin;
-    } else if (char.capital) {
-      latin = titleCase(latin);
-    }
-
-    out += latin + char.marks.map((m) => MARKS[m] ?? "").join("");
-  });
-
-  // A rough breathing on the second half of a diphthong prefixes the whole
-  // diphthong, so the capital moves out to it: `Οὗτος` is *Hoûtos*.
-  if (aspirated) {
-    const capital = chars[0]?.capital;
-    out =
-      (capital ? titleCase(table.aspirate) : table.aspirate) +
-      (capital ? out.charAt(0).toLowerCase() + out.slice(1) : out);
-  }
-  return out.normalize("NFC");
-}
-
 /** Read one language's registry into the shape the checks want. */
 function readRegistry(languageDir: string): Registry | null {
   const registryPath = path.join(lexicalMapsDir, languageDir, "_language.json");
@@ -223,18 +106,7 @@ function readRegistry(languageDir: string): Registry | null {
 
   const readableAs = new Map<string, string[]>(Object.entries(registry.posReadings?.readings ?? {}));
 
-  const table = registry.transliteration;
-  const transliteration =
-    table?.letters && table?.diphthongs && table?.velars
-      ? {
-          letters: table.letters,
-          diphthongs: table.diphthongs,
-          velars: table.velars,
-          gammaNasal: table.gammaNasal ?? "n",
-          upsilonInDiphthong: table.upsilonInDiphthong ?? "u",
-          aspirate: table.aspirate ?? "h",
-        }
-      : null;
+  const transliteration = transliterationTable(languageDir);
 
   const classes = new Map<string, { category: string; appliesTo: string[] }>();
   for (const entry of registry.classes ?? []) {
@@ -242,16 +114,6 @@ function readRegistry(languageDir: string): Registry | null {
   }
 
   return { categoryOf, partsOfSpeech, tenses, genders, classes, readableAs, transliteration };
-}
-
-/** The language subdirectories under `lexical-maps`. */
-export function lexicalMapLanguages(): string[] {
-  if (!fs.existsSync(lexicalMapsDir)) return [];
-  return fs
-    .readdirSync(lexicalMapsDir, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name)
-    .sort();
 }
 
 /**

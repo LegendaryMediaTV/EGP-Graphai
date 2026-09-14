@@ -37,6 +37,10 @@
       "type": "string",
       "description": "Lexical lemma in original script."
     },
+    "transliteration": {
+      "type": "string",
+      "description": "Romanized form of the text, keeping its spacing and capitalization so the values stitch together the way the texts do."
+    },
     "morphology": {
       "type": "string",
       "description": "Morphological code (i.e., Robinson or Packard format)."
@@ -64,6 +68,7 @@
           "enum": ["G", "H"],
           "description": "Specifies the script of the text. If not specified, Latin script is assumed."
         },
+        "transliteration": { "$ref": "#/$defs/transliteration" },
         "marks": { "$ref": "#/$defs/marks" },
         "foot": { "$ref": "#/$defs/footnote" },
         "strong": { "$ref": "#/$defs/strongsNumber" },
@@ -72,6 +77,7 @@
         "paragraph": { "$ref": "#/$defs/paragraphFlag" },
         "break": { "$ref": "#/$defs/lineBreak" }
       },
+      "dependencies": { "transliteration": ["text"] },
       "minProperties": 1,
       "additionalProperties": false
     },
