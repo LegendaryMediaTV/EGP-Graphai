@@ -1048,7 +1048,7 @@
             { "abbr": "NA28" },
             " ",
             { "abbr": "PCK" },
-            { "text": " ἀλλ", "script": "G", "transliteration": " all" }
+            { "text": " ἀλλ’", "script": "G", "transliteration": " all’" }
           ]
         }
       },
@@ -1694,7 +1694,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -3334,9 +3334,9 @@
             " ",
             { "abbr": "TH" },
             {
-              "text": " ὅτι ἐπ ἐσχάτου χρόνου",
+              "text": " ὅτι ἐπ’ ἐσχάτου χρόνου",
               "script": "G",
-              "transliteration": " hóti ep eschátou chrónou"
+              "transliteration": " hóti ep’ eschátou chrónou"
             },
             " ¦ ",
             { "abbr": "ECM-SPLIT" },
@@ -3347,9 +3347,9 @@
             " ",
             { "abbr": "WH" },
             {
-              "text": " ἐπ ἐσχάτου χρόνου",
+              "text": " ἐπ’ ἐσχάτου χρόνου",
               "script": "G",
-              "transliteration": " ep eschátou chrónou"
+              "transliteration": " ep’ eschátou chrónou"
             },
             " ¦ ",
             { "abbr": "NA27" },
@@ -3357,9 +3357,9 @@
             { "text": "ὅτι", "script": "G", "transliteration": "hóti" },
             "] ",
             {
-              "text": "ἐπ ἐσχάτου",
+              "text": "ἐπ’ ἐσχάτου",
               "script": "G",
-              "transliteration": "ep eschátou"
+              "transliteration": "ep’ eschátou"
             },
             " [",
             { "text": "τοῦ", "script": "G", "transliteration": "toû" },

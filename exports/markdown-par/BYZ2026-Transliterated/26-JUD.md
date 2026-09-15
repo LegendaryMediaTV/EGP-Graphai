@@ -36,10 +36,10 @@
 > - <sup>d</sup> 4. chárin ¦ CT chárita
 > - <sup>e</sup> 4. theòn ¦ CT PT _om._
 > - <sup>f</sup> 5. hymâs hápax toûto hóti ho kýrios ¦ NA<sup>27</sup> [hymâs] pánta hóti [ho] kýrios hápax ¦ WH hápax pánta hóti kýrios ¦ ECM NA<sup>28</sup> SBL hymâs hápax pánta hóti Iēsoûs ¦ TH hápax pánta hóti Iēsoûs
-> - <sup>g</sup> 6. allà ¦ ECM NA<sup>28</sup> PCK all
+> - <sup>g</sup> 6. allà ¦ ECM NA<sup>28</sup> PCK all’
 > - <sup>h</sup> 7. toútois trópon ¦ CT trópon toútois
 > - <sup>i</sup> 9. Mōÿséōs ¦ HF PCK PT RP<sup>mg</sup> TR Mōséōs
-> - <sup>j</sup> 9. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>j</sup> 9. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>k</sup> 12. en ¦ CT hoi en
 > - <sup>l</sup> 12. syneuōchoúmenoi ¦ SCR syneuōchoúmenoi hymîn
 > - <sup>m</sup> 12. parapherómenai ¦ TR peripherómenai
@@ -51,7 +51,7 @@
 > - <sup>s</sup> 16. autō̂n ¦ ECM NA PCK RP<sup>mg</sup> heautō̂n
 > - <sup>t</sup> 16. ōpheleías ¦ WH ōphelías
 > - <sup>u</sup> 17. rhēmátōn tō̂n proeirēménōn ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> proeirēménōn rhēmátōn
-> - <sup>v</sup> 18. hóti en eschátō chrónō ¦ ECM<sup>†</sup> TH hóti ep eschátou chrónou ¦ ECM<sup>†</sup> NA<sup>28</sup> SBL WH ep eschátou chrónou ¦ NA<sup>27</sup> [hóti] ep eschátou [toû] chrónou
+> - <sup>v</sup> 18. hóti en eschátō chrónō ¦ ECM<sup>†</sup> TH hóti ep’ eschátou chrónou ¦ ECM<sup>†</sup> NA<sup>28</sup> SBL WH ep’ eschátou chrónou ¦ NA<sup>27</sup> [hóti] ep’ eschátou [toû] chrónou
 > - <sup>w</sup> 19. apodiorízontes ¦ SCR apodiorízontes heautoús
 > - <sup>x</sup> 20. tē̂ hagiōtátē hymō̂n pístei epoikodomoûntes heautoús ¦ CT epoikodomoûntes heautoùs tē̂ hagiōtátē hymō̂n pístei
 > - <sup>y</sup> 22. eleeîte diakrinómenoi hoùs dè en phóbō sṓzete ek pyròs harpázontes ¦ TR eleeîte diakrinómenoi hoùs dè en phóbō sṓzete ek toû pyròs harpázontes ¦ PT eleeîte diakrinómenoi hoùs dè en phóbō sṓzete ek [toû] pyròs harpázontes ¦ WH eleâte diakrinoménous sṓzete ek pyròs harpázontes hoùs dè eleâte en phóbō ¦ ECM NA SBL eleâte diakrinoménous hoùs dè sṓzete ek pyròs harpázontes hoùs dè eleâte en phóbō ¦ TH elénchete diakrinoménous hoùs dè sṓzete ek pyròs harpázontes hoùs dè eleâte en phóbō

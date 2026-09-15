@@ -35,7 +35,7 @@
 > - <sup>g</sup> 10. τὰ ἐπὶ ¦ TR τά τε ἐν
 > - <sup>h</sup> 12. δόξης ¦ PCK TR τῆς δόξης
 > - <sup>i</sup> 13. ὑμεῖς ¦ PCK ἡμεῖς
-> - <sup>j</sup> 14. ὃς ¦ CT ὃ
+> - <sup>j</sup> 14. ὅς ¦ CT ὅ
 > - <sup>k</sup> 15. τὴν ἀγάπην ¦ WH _om._
 > - <sup>l</sup> 16. ὑμῶν ¦ CT _om._
 > - <sup>m</sup> 18. καρδίας ὑμῶν ¦ NA WH καρδίας [ὑμῶν] ¦ TR διανοίας ὑμῶν
@@ -82,7 +82,7 @@
 > - <sup>i</sup> 15. ἑαυτῷ ¦ NA TH αὐτῷ ¦ SBL WH αὑτῷ
 > - <sup>j</sup> 17. ὑμῖν ¦ PCK ἡμῖν
 > - <sup>k</sup> 17. καὶ ¦ CT καὶ εἰρήνην
-> - <sup>l</sup> 19. ἀλλὰ ¦ NA<sup>28</sup> ἀλλ
+> - <sup>l</sup> 19. ἀλλὰ ¦ NA<sup>28</sup> ἀλλ’
 > - <sup>m</sup> 19. συμπολῖται ¦ NA SBL ἐστὲ συμπολῖται ¦ TH WH ἐστὲ συνπολῖται
 > - <sup>n</sup> 20. Ἰησοῦ χριστοῦ ¦ CT χριστοῦ Ἰησοῦ
 > - <sup>o</sup> 21. οἰκοδομὴ ¦ TR ἡ οἰκοδομὴ
@@ -191,7 +191,7 @@
 > - <sup>o</sup> 26. τῷ ¦ [NA] ¦ SBL TH WH _om._
 > - <sup>p</sup> 27. μηδὲ ¦ TR μήτε
 > - <sup>q</sup> 28. τὸ ἀγαθὸν ταῖς χερσίν ¦ WH ταῖς χερσὶν τὸ ἀγαθόν ¦ SBL TH ταῖς ἰδίαις χερσὶν τὸ ἀγαθόν ¦ NA ταῖς [ἰδίαις] χερσὶν τὸ ἀγαθόν
-> - <sup>r</sup> 29. ἀλλ ¦ NA<sup>27</sup> SBL TH WH ἀλλὰ
+> - <sup>r</sup> 29. ἀλλ’ ¦ NA<sup>27</sup> SBL TH WH ἀλλὰ
 > - <sup>s</sup> 32. γίνεσθε δὲ ¦ NA WH γίνεσθε [δὲ] ¦ TH γείνεσθε δὲ ¦ SBL γίνεσθε
 > - <sup>t</sup> 32. ἡμῖν ¦ NA PCK SBL TR WH ὑμῖν
 
@@ -239,7 +239,7 @@
 > - <sup>d</sup> 4. τὰ οὐκ ἀνήκοντα ¦ CT ἃ οὐκ ἀνῆκεν
 > - <sup>e</sup> 5. ἐστε ¦ CT PCK Ἴστε
 > - <sup>f</sup> 5. γινώσκοντες ¦ TH γεινώσκοντες
-> - <sup>g</sup> 5. ὃς ¦ CT ὃ
+> - <sup>g</sup> 5. ὅς ¦ CT ὅ
 > - <sup>h</sup> 6. ἀπειθείας ¦ WH ἀπειθίας
 > - <sup>i</sup> 7. γίνεσθε ¦ TH γείνεσθε
 > - <sup>j</sup> 7. συμμέτοχοι ¦ TH WH συνμέτοχοι
@@ -254,16 +254,16 @@
 > - <sup>s</sup> 19. ἐν ¦ CT _om._
 > - <sup>t</sup> 21. χριστοῦ ¦ HF PCK RP<sup>mg</sup> TR θεοῦ
 > - <sup>u</sup> 22. ὑποτάσσεσθε ¦ NA SBL WH _om._ ¦ TH ὑποτασσέσθωσαν
-> - <sup>v</sup> 23. ἀνὴρ ¦ TR ὁ ἀνὴρ ¦ PT [ὁ] ἀνὴρ
+> - <sup>v</sup> 23. ἀνήρ ¦ TR ὁ ἀνήρ ¦ PT [ὁ] ἀνήρ
 > - <sup>w</sup> 23. καὶ αὐτός ἐστιν ¦ CT αὐτὸς
-> - <sup>x</sup> 24. Ἀλλ ¦ NA<sup>27</sup> SBL TH WH Ἀλλὰ
+> - <sup>x</sup> 24. Ἀλλ’ ¦ NA<sup>27</sup> SBL TH WH Ἀλλὰ
 > - <sup>y</sup> 24. ὥσπερ ¦ CT ὡς
 > - <sup>z</sup> 24. ἰδίοις ¦ CT _om._
 > - <sup>aa</sup> 25. ἑαυτῶν ¦ CT _om._
 > - <sup>ab</sup> 27. αὐτὴν ¦ CT αὐτὸς
 > - <sup>ac</sup> 28. οἱ ¦ SBL TH καὶ οἱ ¦ NA WH [καὶ] οἱ
 > - <sup>ad</sup> 29. ἐμίσησεν ¦ TH ἐμείσησεν
-> - <sup>ae</sup> 29. ἀλλ ¦ NA<sup>27</sup> PCK SBL TH WH ἀλλὰ
+> - <sup>ae</sup> 29. ἀλλ’ ¦ NA<sup>27</sup> PCK SBL TH WH ἀλλὰ
 > - <sup>af</sup> 29. κύριος ¦ CT χριστὸς
 > - <sup>ag</sup> 30. ἐκ … ὀστέων αὐτοῦ ¦ CT _om._
 > - <sup>ah</sup> 30. Guardian Press: ἐκ τῆς σαρκὸς αὐτοῦ καὶ ἐκ τῶν ὀστέων αὐτοῦ ℵ<sup>2</sup> D F G (K) L P Ψ 049 056 075 0142 (0150) (0151) 0278 0285 0319 1841 1862 1900 (0150: _om._ ἐκ τῆς σαρκὸς αὐτοῦ; K 0151: τοῦ σώματος _for_ τῶν ὀστέων) ¦ _om._ 𝔓<sup>46</sup> ℵ<sup>∗</sup> A B 048 33 2464
@@ -305,7 +305,7 @@
 <sup>24</sup> Ἡ χάρις μετὰ πάντων τῶν ἀγαπώντων τὸν κύριον ἡμῶν Ἰησοῦν χριστὸν ἐν ἀφθαρσίᾳ. <sup>v</sup>Ἀμήν.
 
 > - <sup>a</sup> 1. ἐν κυρίῳ ¦ [NA WH]
-> - <sup>b</sup> 4. ἀλλ ¦ NA<sup>27</sup> SBL TH WH ἀλλὰ
+> - <sup>b</sup> 4. ἀλλ’ ¦ NA<sup>27</sup> SBL TH WH ἀλλὰ
 > - <sup>c</sup> 5. κυρίοις κατὰ σάρκα ¦ CT κατὰ σάρκα κυρίοις
 > - <sup>d</sup> 6. ὀφθαλμοδουλείαν ¦ NA PCK PT SBL WH ὀφθαλμοδουλίαν
 > - <sup>e</sup> 6. τοῦ ¦ [PT] ¦ CT _om._

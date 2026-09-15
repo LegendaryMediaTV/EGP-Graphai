@@ -47,11 +47,11 @@
 > - <sup>g</sup> 16. prō̂ton ¦ [WH]
 > - <sup>h</sup> 19. gàr theòs ¦ CT theòs gàr
 > - <sup>i</sup> 21. eucharístēsan ¦ CT ēucharístēsan
-> - <sup>j</sup> 21. all ¦ SBL WH allà
+> - <sup>j</sup> 21. all’ ¦ SBL WH allà
 > - <sup>k</sup> 23. ḗllaxan ¦ PCK ēlláxanto
 > - <sup>l</sup> 24. kaì ¦ CT _om._
 > - <sup>m</sup> 24. heautoîs ¦ CT PT autoîs
-> - <sup>n</sup> 27. te ¦ PT RP<sup>mg</sup> de ¦ PCK _om._
+> - <sup>n</sup> 27. te ¦ PT RP<sup>mg</sup> dè ¦ PCK _om._
 > - <sup>o</sup> 27. árrenes ¦ CT PT SCR ársenes
 > - <sup>p</sup> 27. en ¦ PCK _om._
 > - <sup>q</sup> 27. heautoîs ¦ WH hautoîs
@@ -211,7 +211,7 @@
 > - <sup>m</sup> 19. ou ¦ CT _om._
 > - <sup>n</sup> 19. ḗdē ¦ [NA WH] ¦ SBL _om._
 > - <sup>o</sup> 19. tē̂s ¦ PT _om._
-> - <sup>p</sup> 20. all ¦ SBL WH allà
+> - <sup>p</sup> 20. all’ ¦ SBL WH allà
 > - <sup>q</sup> 22. kaì ¦ [NA WH] ¦ SBL _om._
 
 ## Chapter 5
@@ -245,7 +245,7 @@
 > - <sup>d</sup> 11. kauchṓmenoi ¦ PCK kauchṓmetha
 > - <sup>e</sup> 11. christoû ¦ [WH]
 > - <sup>f</sup> 13. ellogeîtai ¦ WH ellogâtai
-> - <sup>g</sup> 14. All ¦ NA<sup>27</sup> SBL WH Allà
+> - <sup>g</sup> 14. All’ ¦ NA<sup>27</sup> SBL WH Allà
 > - <sup>h</sup> 14. Mōÿséōs ¦ PCK Mōÿséos ¦ RP<sup>mg</sup> TR Mōséōs
 > - <sup>i</sup> 15. kaì ¦ [WH]
 > - <sup>j</sup> 15. tē̂ ¦ [PT]
@@ -286,9 +286,9 @@
 > - <sup>e</sup> 11. tō̂ kyríō hēmō̂n ¦ CT _om._
 > - <sup>f</sup> 12. autē̂ en ¦ CT _om._
 > - <sup>g</sup> 13. hōs ¦ CT hōseì
-> - <sup>h</sup> 14. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>h</sup> 14. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>i</sup> 15. Hamartḗsomen ¦ CT Hamartḗsōmen
-> - <sup>j</sup> 15. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>j</sup> 15. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>k</sup> 19. eis tḕn anomían ¦ [WH]
 
 ## Chapter 7
@@ -322,18 +322,18 @@
 
 > - <sup>a</sup> 6. apothanóntes ¦ SCR apothanóntos
 > - <sup>b</sup> 6. hēmâs ¦ [WH]
-> - <sup>c</sup> 11. di ¦ PT dià
+> - <sup>c</sup> 11. di’ ¦ PT dià
 > - <sup>d</sup> 13. gégonen ¦ CT egéneto
-> - <sup>e</sup> 13. Allà ¦ NA<sup>28</sup> All
-> - <sup>f</sup> 14. sarkikòs ¦ CT sárkinós
+> - <sup>e</sup> 13. Allà ¦ NA<sup>28</sup> All’
+> - <sup>f</sup> 14. sarkikós ¦ CT sárkinós
 > - <sup>g</sup> 15. misō̂ ¦ TH meisō̂
 > - <sup>h</sup> 16. sýmphēmi ¦ WH sýnphēmi
-> - <sup>i</sup> 17. all ¦ NA<sup>27</sup> SBL WH allà
+> - <sup>i</sup> 17. all’ ¦ NA<sup>27</sup> SBL WH allà
 > - <sup>j</sup> 17. oikoûsa ¦ WH enoikoûsa
 > - <sup>k</sup> 18. ouch heurískō ¦ CT oú
-> - <sup>l</sup> 19. all ¦ NA<sup>27</sup> SBL WH allà
+> - <sup>l</sup> 19. all’ ¦ NA<sup>27</sup> SBL WH allà
 > - <sup>m</sup> 20. egṓ ¦ [NA] ¦ SBL TH WH _om._
-> - <sup>n</sup> 20. all ¦ NA<sup>27</sup> SBL WH allà
+> - <sup>n</sup> 20. all’ ¦ NA<sup>27</sup> SBL WH allà
 > - <sup>o</sup> 23. tō̂ ¦ HF NA RP<sup>mg</sup> SBL TH en tō̂ ¦ PT WH [en] tō̂
 > - <sup>p</sup> 25. Eucharistō̂ ¦ SBL Cháris ¦ NA Cháris dè ¦ WH Cháris [dè]
 
@@ -386,28 +386,28 @@
 > - <sup>a</sup> 1. mḕ katà … pneûma ¦ CT _om._
 > - <sup>b</sup> 1. Guardian Press: mḕ katà sárka peripatoûsin allà katà pneûma ℵ<sup>2</sup> D<sup>2</sup> K L P 049 056 0142 0151 0311<sup>vid</sup> 0319 33<sup>vid</sup> 1841 1862 2464 ¦ mḕ katà sárka peripatoûsin A D<sup>1</sup> Ψ ¦ _om._ ℵ<sup>∗</sup> B C D<sup>∗</sup> F G
 > - <sup>c</sup> 2. me ¦ NA SBL WH se
-> - <sup>d</sup> 9. all ¦ NA<sup>27</sup> SBL TH WH allà
-> - <sup>e</sup> 10. dià ¦ PCK PT TR di
+> - <sup>d</sup> 9. all’ ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>e</sup> 10. dià ¦ PCK PT TR di’
 > - <sup>f</sup> 11. Iēsoûn ¦ CT tòn Iēsoûn
 > - <sup>g</sup> 11. tòn christòn ek nekrō̂n ¦ NA TH christòn ek nekrō̂n ¦ SBL WH ek nekrō̂n christòn Iēsoûn
 > - <sup>h</sup> 11. kaì ¦ [WH]
 > - <sup>i</sup> 11. tò enoikoûn autoû pneûma ¦ NA SCR WH toû enoikoûntos autoû pneúmatos
 > - <sup>j</sup> 14. eisin hyioì theoû ¦ NA TH WH hyioì theoû eisin ¦ SBL hyioí eisin theoû
-> - <sup>k</sup> 15. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>k</sup> 15. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>l</sup> 16. symmartyreî ¦ TH WH synmartyreî
 > - <sup>m</sup> 17. synklēronómoi ¦ TH WH synklēronómoi
 > - <sup>n</sup> 17. sympáschomen ¦ TH WH synpáschomen
-> - <sup>o</sup> 20. ep elpídi ¦ NA SBL WH eph helpídi ¦ TH eph elpídi
+> - <sup>o</sup> 20. ep’ elpídi ¦ NA SBL WH eph’ helpídi ¦ TH eph’ elpídi
 > - <sup>p</sup> 22. systenázei ¦ WH synstenázei
 > - <sup>q</sup> 23. kaì hēmeîs ¦ NA SBL TH hēmeîs kaì ¦ WH [hēmeîs] kaì
-> - <sup>r</sup> 24. tis tí kai ¦ NA SBL WH tís
+> - <sup>r</sup> 24. tis tí kaì ¦ NA SBL WH tís
 > - <sup>s</sup> 26. taîs astheneíais ¦ CT tē̂ astheneía
 > - <sup>t</sup> 26. proseuxómetha ¦ CT TR proseuxṓmetha
-> - <sup>u</sup> 26. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>u</sup> 26. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>v</sup> 26. hypèr hēmō̂n ¦ CT _om._
 > - <sup>w</sup> 27. ereunō̂n ¦ CT eraunō̂n
 > - <sup>x</sup> 28. synergeî ¦ WH synergeî [ho theòs]
-> - <sup>y</sup> 32. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>y</sup> 32. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>z</sup> 34. katakrínōn ¦ NA SBL WH katakrinō̂n
 > - <sup>aa</sup> 34. Christòs ¦ NA WH Christòs [Iēsoûs]
 > - <sup>ab</sup> 34. kaì egertheís ¦ NA SBL TH egertheís ¦ WH egertheìs [ek nekrō̂n]
@@ -518,7 +518,7 @@
 > - <sup>n</sup> 17. theoû ¦ CT christoû
 > - <sup>o</sup> 19. ouk égnō Israḗl ¦ CT Israḕl ouk égnō
 > - <sup>p</sup> 19. Mōÿsē̂s ¦ PCK TR Mōsē̂s
-> - <sup>q</sup> 19. epì ¦ CT ep
+> - <sup>q</sup> 19. epì ¦ CT ep’
 > - <sup>r</sup> 20. toîs ¦ SBL en toîs ¦ NA [en] toîs
 
 ## Chapter 11
@@ -575,11 +575,11 @@
 > - <sup>j</sup> 9. Dauìd ¦ TH WH Daueìd ¦ HF TR Dabìd
 > - <sup>k</sup> 10. sýnkampson ¦ TH WH sýnkampson
 > - <sup>l</sup> 13. gàr ¦ CT dè
-> - <sup>m</sup> 13. mèn ¦ CT mèn oûn
+> - <sup>m</sup> 13. mén ¦ CT mèn oûn
 > - <sup>n</sup> 15. próslēpsis ¦ CT próslēmpsis
 > - <sup>o</sup> 17. synkoinōnòs ¦ TH WH synkoinōnòs
 > - <sup>p</sup> 17. kaì ¦ CT _om._
-> - <sup>q</sup> 18. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>q</sup> 18. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>r</sup> 19. kládoi ¦ TR hoi kládoi ¦ PT [hoi] kládoi
 > - <sup>s</sup> 19. enkentristhō̂ ¦ TH WH enkentristhō̂
 > - <sup>t</sup> 20. hypsēlophrónei ¦ CT hypsēlà phrónei
@@ -594,7 +594,7 @@
 > - <sup>ac</sup> 23. ho theós estin ¦ CT HF TR estin ho theòs
 > - <sup>ad</sup> 23. enkentrísai ¦ TH WH enkentrísai
 > - <sup>ae</sup> 24. enkentristhḗsontai ¦ TH WH enkentristhḗsontai
-> - <sup>af</sup> 25. par ¦ [NA] ¦ WH en ¦ SBL _om._
+> - <sup>af</sup> 25. par’ ¦ [NA] ¦ WH en ¦ SBL _om._
 > - <sup>ag</sup> 26. kaì ¦ CT _om._
 > - <sup>ah</sup> 30. kaì ¦ CT _om._
 > - <sup>ai</sup> 30. apeitheía ¦ WH apeithía
@@ -638,7 +638,7 @@
 > - <sup>i</sup> 14. hymâs ¦ [NA] ¦ SBL WH _om._
 > - <sup>j</sup> 15. kaì ¦ CT _om._
 > - <sup>k</sup> 16. gínesthe ¦ TH geínesthe
-> - <sup>l</sup> 20. Eàn oûn ¦ NA<sup>28</sup> All eàn ¦ NA<sup>27</sup> SBL TH WH Allà eàn
+> - <sup>l</sup> 20. Eàn oûn ¦ NA<sup>28</sup> All’ eàn ¦ NA<sup>27</sup> SBL TH WH Allà eàn
 
 ## Chapter 13
 
@@ -674,7 +674,7 @@
 > - <sup>m</sup> 11. hēmâs ḗdē ¦ CT ḗdē hymâs
 > - <sup>n</sup> 12. apothṓmetha ¦ SBL apobalṓmetha
 > - <sup>o</sup> 12. kaì endysṓmetha ¦ SBL TH endysṓmetha dè ¦ NA WH endysṓmetha [dè]
-> - <sup>p</sup> 14. All ¦ NA<sup>27</sup> SBL TH WH Allà
+> - <sup>p</sup> 14. All’ ¦ NA<sup>27</sup> SBL TH WH Allà
 
 ## Chapter 14
 
@@ -854,13 +854,13 @@ Hē cháris toû kyríou hēmō̂n Iēsoû <sup>t</sup>christoû meth’ hymō̂
 > - <sup>o</sup> 16. ekklēsíai ¦ CT ekklēsíai pâsai
 > - <sup>p</sup> 17. ekklínate ¦ NA SBL WH ekklínete ¦ TH ekkleínete
 > - <sup>q</sup> 18. Iēsoû ¦ [PT] ¦ CT _om._
-> - <sup>r</sup> 19. Chaírō oûn tò eph hymîn ¦ CT Eph hymîn oûn chaírō
+> - <sup>r</sup> 19. Chaírō oûn tò eph’ hymîn ¦ CT Eph’ hymîn oûn chaírō
 > - <sup>s</sup> 19. mèn ¦ [WH] ¦ NA SBL TH _om._
-> - <sup>t</sup> 20. christoû meth hymō̂n ¦ SCR christoû meth hymō̂n amḗn ¦ NA TH WH meth hymō̂n
+> - <sup>t</sup> 20. christoû meth’ hymō̂n ¦ SCR christoû meth’ hymō̂n amḗn ¦ NA TH WH meth’ hymō̂n
 > - <sup>u</sup> 21. Aspázontai ¦ CT Aspázetai
 > - <sup>v</sup> 21. mou ¦ [WH]
 > - <sup>w</sup> 23. tē̂s ekklēsías hólēs ¦ CT hólēs tē̂s ekklēsías
 > - <sup>x</sup> 24. Hē … amḗn ¦ NA TH WH _om._
-> - <sup>y</sup> 24. Guardian Press: hē cháris toû kyríou hēmō̂n Iēsoû christoû metà pántōn hymō̂n amḕn D (F) (G) L (P) Ψ 049 056 0142 0319 (33) 1841 1862 1900 (F G: _om._ Iēsoû christoû? P: _om._ hēmō̂n? P 33: _add after 16:27_) ¦ _om._ 𝔓<sup>46</sup> 𝔓<sup>61</sup> ℵ A B C 0150 0151 2464
+> - <sup>y</sup> 24. Guardian Press: Hē cháris toû kyríou hēmō̂n Iēsoû christoû metà pántōn hymō̂n amḕn D (F) (G) L (P) Ψ 049 056 0142 0319 (33) 1841 1862 1900 (F G: _om._ Iēsoû christoû? P: _om._ hēmō̂n? P 33: _add after 16:27_) ¦ _om._ 𝔓<sup>46</sup> 𝔓<sup>61</sup> ℵ A B C 0150 0151 2464
 > - <sup>z</sup> 24. hymō̂n ¦ PCK hēmō̂n
 > - <sup>aa</sup> 25. [14:24–26] ¦ NA TH TR WH [16:25–27] (_cf._ 14:24–26) ¦ SBL _om._ (_cf._ 14:24–26)

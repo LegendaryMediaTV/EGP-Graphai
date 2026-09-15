@@ -3435,7 +3435,7 @@
             { "abbr": "PT" },
             " ",
             { "abbr": "TR" },
-            { "text": " ἀλλ", "script": "G", "transliteration": " all" }
+            { "text": " ἀλλ’", "script": "G", "transliteration": " all’" }
           ]
         }
       },
@@ -7030,10 +7030,10 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "νεκρὰ", "script": "G", "transliteration": "nekrà" },
+            { "text": "νεκρά", "script": "G", "transliteration": "nekrá" },
             " ¦ ",
             { "abbr": "CT" },
-            { "text": " ἀργὴ", "script": "G", "transliteration": " argḕ" }
+            { "text": " ἀργή", "script": "G", "transliteration": " argḗ" }
           ]
         }
       },
@@ -10341,7 +10341,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -15010,16 +15010,16 @@
           "type": "var",
           "content": [
             {
-              "text": "κατ ἀλλήλων ἀδελφοί",
+              "text": "κατ’ ἀλλήλων ἀδελφοί",
               "script": "G",
-              "transliteration": "kat allḗlōn adelphoí"
+              "transliteration": "kat’ allḗlōn adelphoí"
             },
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " ἀδελφοὶ κατ ἀλλήλων",
+              "text": " ἀδελφοὶ κατ’ ἀλλήλων",
               "script": "G",
-              "transliteration": " adelphoì kat allḗlōn"
+              "transliteration": " adelphoì kat’ allḗlōn"
             }
           ]
         }

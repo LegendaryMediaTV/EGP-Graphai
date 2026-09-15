@@ -84,7 +84,7 @@
 <sup>16</sup> Poû eisin hoi árchontes tō̂n ethnō̂n kaì hoi kyrieúontes tō̂n thēríōn tō̂n epì tē̂s gē̂s,
 <sup>17</sup> hoi en toîs ornéois toû ouranoû empaízontes kaì tò argýrion thēsaurízontes kaì tò chrysíon, hō̂ epepoítheisan ánthrōpoi, kaì ouk éstin télos tē̂s ktḗseōs autō̂n,
 <sup>18</sup> hoi tò argýrion tektaínontes kaì merimnō̂ntes, kaì ouk éstin exeúresis tō̂n érgōn autō̂n?
-<sup>19</sup> Ēphanísthēsan kaì eis hádou katébēsan, kaì álloi antanéstēsan ant autō̂n.
+<sup>19</sup> Ēphanísthēsan kaì eis hádou katébēsan, kaì álloi antanéstēsan ant’ autō̂n.
 <sup>20</sup> Neṓteroi eîdon phō̂s kaì katṓkēsan epì tē̂s gē̂s, hodòn dè epistḗmēs ouk égnōsan
 <sup>21</sup> oudè synē̂kan tríbous autē̂s oudè antelábonto autē̂s; hoi hyioì autō̂n apò tē̂s hodoû autō̂n pórrō egenḗthēsan.
 <sup>22</sup> Oudè ēkoústhē en Chanaan oudè ṓphthē en Thaiman,

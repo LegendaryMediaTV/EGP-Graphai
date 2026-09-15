@@ -4531,14 +4531,6 @@
     "conjugation": "thematic",
     "indices": { "strongs": "G1502" },
     "inflections": {
-      "εἰκών": {
-        "transliteration": "eikṓn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "fem"] }
-        ]
-      },
       "εἶξαι": {
         "transliteration": "eîxai",
         "cells": [
@@ -20062,25 +20054,6 @@
       "ἐμβριμήματι": {
         "transliteration": "embrimḗmati",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
-      }
-    }
-  },
-  "ἐμεγαλύνθω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "ἐμεγαλύνθη": {
-        "transliteration": "emegalýnthē",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "mid", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] }
-        ]
       }
     }
   },

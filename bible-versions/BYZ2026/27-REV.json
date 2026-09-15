@@ -5647,7 +5647,7 @@
             { "abbr": "RP-MG" },
             " ",
             { "abbr": "TR" },
-            { "text": " Ἀλλ", "script": "G", "transliteration": " All" }
+            { "text": " Ἀλλ’", "script": "G", "transliteration": " All’" }
           ]
         }
       },
@@ -8114,7 +8114,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "Ἀλλ", "script": "G", "transliteration": "All" },
+            { "text": "Ἀλλ’", "script": "G", "transliteration": "All’" },
             " ¦ ",
             { "abbr": "HF" },
             " ",
@@ -9559,7 +9559,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "Ἀλλ", "script": "G", "transliteration": "All" },
+            { "text": "Ἀλλ’", "script": "G", "transliteration": "All’" },
             " ¦ ",
             { "abbr": "HF" },
             " ",
@@ -9687,7 +9687,7 @@
           "type": "var",
           "content": [
             "Guardian Press: ",
-            { "text": "σοῦ", "script": "G", "transliteration": "soû" },
+            { "text": "σου", "script": "G", "transliteration": "sou" },
             " (",
             { "abbr": "MS-A" },
             ") ",
@@ -9705,7 +9705,7 @@
             " ",
             { "text": "after", "marks": ["i"] },
             " ",
-            { "text": "σοῦ", "script": "G", "transliteration": "soû" },
+            { "text": "σου", "script": "G", "transliteration": "sou" },
             ") ¦ ",
             { "abbr": "OM" },
             " ",
@@ -12257,16 +12257,16 @@
           "type": "var",
           "content": [
             {
-              "text": "Ἀλλ ὀλίγα ἔχεις",
+              "text": "Ἀλλ’ ὀλίγα ἔχεις",
               "script": "G",
-              "transliteration": "All olíga écheis"
+              "transliteration": "All’ olíga écheis"
             },
             " ¦ ",
             { "abbr": "NA28" },
             {
-              "text": " Ἀλλ ἔχεις ὀλίγα",
+              "text": " Ἀλλ’ ἔχεις ὀλίγα",
               "script": "G",
-              "transliteration": " All écheis olíga"
+              "transliteration": " All’ écheis olíga"
             },
             " ¦ ",
             { "abbr": "ECM" },
@@ -14552,18 +14552,18 @@
           "type": "var",
           "content": [
             {
-              "text": "ἣ καταβαινει",
+              "text": "ἣ καταβαίνει",
               "script": "G",
-              "transliteration": "hḕ katabainei"
+              "transliteration": "hḕ katabaínei"
             },
             " ¦ ",
             { "abbr": "CT" },
             " ",
             { "abbr": "ST" },
             {
-              "text": " ἡ καταβαινουσα",
+              "text": " ἡ καταβαίνουσα",
               "script": "G",
-              "transliteration": " hē katabainousa"
+              "transliteration": " hē katabaínousa"
             }
           ]
         }
@@ -15701,9 +15701,9 @@
           "type": "var",
           "content": [
             {
-              "text": "χρυσίον παρ ἐμοῦ",
+              "text": "χρυσίον παρ’ ἐμοῦ",
               "script": "G",
-              "transliteration": "chrysíon par emoû"
+              "transliteration": "chrysíon par’ emoû"
             },
             " ¦ ",
             { "abbr": "CT" },
@@ -15712,9 +15712,9 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " παρ ἐμοῦ χρυσίον",
+              "text": " παρ’ ἐμοῦ χρυσίον",
               "script": "G",
-              "transliteration": " par emoû chrysíon"
+              "transliteration": " par’ emoû chrysíon"
             }
           ]
         }
@@ -21258,12 +21258,12 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἃ", "script": "G", "transliteration": "hà" },
+            { "text": "ἅ", "script": "G", "transliteration": "há" },
             " ¦ ",
             { "abbr": "CT" },
             " ",
             { "abbr": "TR" },
-            { "text": " οἳ", "script": "G", "transliteration": " hoì" }
+            { "text": " οἵ", "script": "G", "transliteration": " hoí" }
           ]
         }
       },
@@ -25512,18 +25512,18 @@
             " ",
             { "abbr": "RP-MG" },
             {
-              "text": " ἠκολούθει μετ αὐτοῦ",
+              "text": " ἠκολούθει μετ’ αὐτοῦ",
               "script": "G",
-              "transliteration": " ēkoloúthei met autoû"
+              "transliteration": " ēkoloúthei met’ autoû"
             },
             " ¦ ",
             { "abbr": "PCK" },
             " ",
             { "abbr": "TR" },
             {
-              "text": " ἀκολούθει μετ αὐτοῦ",
+              "text": " ἀκολούθει μετ’ αὐτοῦ",
               "script": "G",
-              "transliteration": " akoloúthei met autoû"
+              "transliteration": " akoloúthei met’ autoû"
             }
           ]
         }
@@ -31932,7 +31932,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "οὐδ οὐ", "script": "G", "transliteration": "oud ou" },
+            { "text": "οὐδ’ οὐ", "script": "G", "transliteration": "oud’ ou" },
             " ¦ ",
             { "abbr": "CT" },
             " ",
@@ -36894,18 +36894,18 @@
           "type": "var",
           "content": [
             {
-              "text": "ἀπ αὐτῶν ὁ θάνατος",
+              "text": "ἀπ’ αὐτῶν ὁ θάνατος",
               "script": "G",
-              "transliteration": "ap autō̂n ho thánatos"
+              "transliteration": "ap’ autō̂n ho thánatos"
             },
             " ¦ ",
             { "abbr": "CT" },
             " ",
             { "abbr": "TR" },
             {
-              "text": " ὁ θάνατος ἀπ αὐτῶν",
+              "text": " ὁ θάνατος ἀπ’ αὐτῶν",
               "script": "G",
-              "transliteration": " ho thánatos ap autō̂n"
+              "transliteration": " ho thánatos ap’ autō̂n"
             }
           ]
         }
@@ -37713,37 +37713,37 @@
           "type": "var",
           "content": [
             {
-              "text": "Ἔχουσαι βασιλέα ἐπ αὐτῶν",
+              "text": "Ἔχουσαι βασιλέα ἐπ’ αὐτῶν",
               "script": "G",
-              "transliteration": "Échousai basiléa ep autō̂n"
+              "transliteration": "Échousai basiléa ep’ autō̂n"
             },
             " ¦ ",
             { "abbr": "PT" },
             {
-              "text": " Ἐχούσι βασιλέα ἐπ αὐτῶν",
+              "text": " Ἐχούσι βασιλέα ἐπ’ αὐτῶν",
               "script": "G",
-              "transliteration": " Echoúsi basiléa ep autō̂n"
+              "transliteration": " Echoúsi basiléa ep’ autō̂n"
             },
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " Ἔχουσιν ἐπ αὐτῶν βασιλέα",
+              "text": " Ἔχουσιν ἐπ’ αὐτῶν βασιλέα",
               "script": "G",
-              "transliteration": " Échousin ep autō̂n basiléa"
+              "transliteration": " Échousin ep’ autō̂n basiléa"
             },
             " ¦ ",
             { "abbr": "SCR" },
             {
-              "text": " Καὶ ἔχουσιν ἐπ αὐτῶν βασιλέα",
+              "text": " Καὶ ἔχουσιν ἐπ’ αὐτῶν βασιλέα",
               "script": "G",
-              "transliteration": " Kaì échousin ep autō̂n basiléa"
+              "transliteration": " Kaì échousin ep’ autō̂n basiléa"
             },
             " ¦ ",
             { "abbr": "ST" },
             {
-              "text": " Καὶ ἔχουσιν ἐφ αὐτῶν βασιλέα",
+              "text": " Καὶ ἔχουσιν ἐφ’ αὐτῶν βασιλέα",
               "script": "G",
-              "transliteration": " Kaì échousin eph autō̂n basiléa"
+              "transliteration": " Kaì échousin eph’ autō̂n basiléa"
             }
           ]
         }
@@ -42128,7 +42128,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "TR" },
             { "text": " ἀλλὰ", "script": "G", "transliteration": " allà" }
@@ -45188,16 +45188,16 @@
           "type": "var",
           "content": [
             {
-              "text": "μετ αὐτῶν πόλεμον",
+              "text": "μετ’ αὐτῶν πόλεμον",
               "script": "G",
-              "transliteration": "met autō̂n pólemon"
+              "transliteration": "met’ autō̂n pólemon"
             },
             " ¦ ",
             { "abbr": "TR" },
             {
-              "text": " πόλεμον μετ αὐτῶν",
+              "text": " πόλεμον μετ’ αὐτῶν",
               "script": "G",
-              "transliteration": " pólemon met autō̂n"
+              "transliteration": " pólemon met’ autō̂n"
             }
           ]
         }
@@ -46257,9 +46257,9 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " ἐπ αὐτούς",
+              "text": " ἐπ’ αὐτούς",
               "script": "G",
-              "transliteration": " ep autoús"
+              "transliteration": " ep’ autoús"
             },
             " ¦ ",
             { "abbr": "NA" },
@@ -55414,25 +55414,25 @@
           "type": "var",
           "content": [
             {
-              "text": "ἀποκτενεῖ δει αυτον εν μαχαιρα",
+              "text": "ἀποκτενεῖ δεῖ αὐτὸν ἐν μαχαίρᾳ",
               "script": "G",
-              "transliteration": "apokteneî dei auton en machaira"
+              "transliteration": "apokteneî deî autòn en machaíra"
             },
             " ¦ ",
             { "abbr": "TH" },
             " ",
             { "abbr": "WH" },
             {
-              "text": " ἀποκτενεῖ δει αυτον εν μαχαιρη",
+              "text": " ἀποκτενεῖ δεῖ αὐτὸν ἐν μαχαίρῃ",
               "script": "G",
-              "transliteration": " apokteneî dei auton en machairē"
+              "transliteration": " apokteneî deî autòn en machaírē"
             },
             " ¦ ",
             { "abbr": "PCK" },
             {
-              "text": " ἀποκτένει δει αυτον εν μαχαιρα",
+              "text": " ἀποκτένει δεῖ αὐτὸν ἐν μαχαίρᾳ",
               "script": "G",
-              "transliteration": " apokténei dei auton en machaira"
+              "transliteration": " apokténei deî autòn en machaíra"
             },
             " ¦ ",
             { "abbr": "PT" },
@@ -55444,9 +55444,9 @@
             },
             "] ",
             {
-              "text": "δει αυτον εν μαχαιρα",
+              "text": "δεῖ αὐτὸν ἐν μαχαίρᾳ",
               "script": "G",
-              "transliteration": "dei auton en machaira"
+              "transliteration": "deî autòn en machaíra"
             },
             " ¦ ",
             { "abbr": "NA" },
@@ -59365,7 +59365,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "γὰρ", "script": "G", "transliteration": "gàr" },
+            { "text": "γάρ", "script": "G", "transliteration": "gár" },
             " ¦ ",
             { "abbr": "ECM-SPLIT" },
             " ",
@@ -73997,7 +73997,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -85255,7 +85255,7 @@
             { "abbr": "CT" },
             " ",
             { "abbr": "TR" },
-            { "text": " ἐφ", "script": "G", "transliteration": " eph" }
+            { "text": " ἐφ’", "script": "G", "transliteration": " eph’" }
           ]
         }
       },
@@ -86811,9 +86811,9 @@
           "type": "var",
           "content": [
             {
-              "text": "ὁ μετ αὐτοῦ",
+              "text": "ὁ μετ’ αὐτοῦ",
               "script": "G",
-              "transliteration": "ho met autoû"
+              "transliteration": "ho met’ autoû"
             },
             " ¦ ",
             { "abbr": "ECM-SPLIT" },
@@ -86826,9 +86826,9 @@
             " ",
             { "abbr": "RP-MG" },
             {
-              "text": " μετ αὐτοῦ ὁ",
+              "text": " μετ’ αὐτοῦ ὁ",
               "script": "G",
-              "transliteration": " met autoû ho"
+              "transliteration": " met’ autoû ho"
             },
             " ¦ ",
             { "abbr": "TR" },
@@ -92468,9 +92468,9 @@
           "type": "var",
           "content": [
             {
-              "text": "ἔσται μετ αὐτῶν",
+              "text": "ἔσται μετ’ αὐτῶν",
               "script": "G",
-              "transliteration": "éstai met autō̂n"
+              "transliteration": "éstai met’ autō̂n"
             },
             " ¦ ",
             { "abbr": "ECM-SPLIT" },
@@ -92485,32 +92485,32 @@
             " ",
             { "abbr": "WH" },
             {
-              "text": " μετ αὐτῶν ἔσται",
+              "text": " μετ’ αὐτῶν ἔσται",
               "script": "G",
-              "transliteration": " met autō̂n éstai"
+              "transliteration": " met’ autō̂n éstai"
             },
             " ¦ ",
             { "abbr": "TR" },
             {
-              "text": " ἔσται μετ αὐτῶν θεὸς αὐτῶν",
+              "text": " ἔσται μετ’ αὐτῶν θεὸς αὐτῶν",
               "script": "G",
-              "transliteration": " éstai met autō̂n theòs autō̂n"
+              "transliteration": " éstai met’ autō̂n theòs autō̂n"
             },
             " ¦ ",
             { "abbr": "ECM-SPLIT" },
             " ",
             { "abbr": "TH" },
             {
-              "text": " μετ αὐτῶν ἔσται αὐτῶν θεός",
+              "text": " μετ’ αὐτῶν ἔσται αὐτῶν θεός",
               "script": "G",
-              "transliteration": " met autō̂n éstai autō̂n theós"
+              "transliteration": " met’ autō̂n éstai autō̂n theós"
             },
             " ¦ ",
             { "abbr": "NA" },
             {
-              "text": " μετ αὐτῶν ἔσται",
+              "text": " μετ’ αὐτῶν ἔσται",
               "script": "G",
-              "transliteration": " met autō̂n éstai"
+              "transliteration": " met’ autō̂n éstai"
             },
             " [",
             {
@@ -92583,9 +92583,9 @@
             " ",
             { "abbr": "RP-MG" },
             {
-              "text": " ἐξαλείψει ἀπ αὐτῶν",
+              "text": " ἐξαλείψει ἀπ’ αὐτῶν",
               "script": "G",
-              "transliteration": " exaleípsei ap autō̂n"
+              "transliteration": " exaleípsei ap’ autō̂n"
             },
             " ¦ ",
             { "abbr": "PT" },
@@ -92596,9 +92596,9 @@
             },
             " [",
             {
-              "text": "ἀπ αὐτῶν",
+              "text": "ἀπ’ αὐτῶν",
               "script": "G",
-              "transliteration": "ap autō̂n"
+              "transliteration": "ap’ autō̂n"
             },
             "] ",
             { "text": "ὁ θεὸς", "script": "G", "transliteration": "ho theòs" }
@@ -94123,9 +94123,9 @@
             { "text": "ν", "script": "G", "transliteration": "n" },
             ") ",
             {
-              "text": "πρός μὲ εἷς",
+              "text": "πρὸς μὲ εἷς",
               "script": "G",
-              "transliteration": "prós mè heîs"
+              "transliteration": "pròs mè heîs"
             }
           ]
         }
@@ -94488,7 +94488,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἐπ", "script": "G", "transliteration": "ep" },
+            { "text": "ἐπ’", "script": "G", "transliteration": "ep’" },
             " ¦ ",
             { "abbr": "CT" },
             { "text": " ἐπὶ", "script": "G", "transliteration": " epì" }
@@ -95186,7 +95186,7 @@
             { "abbr": "PT" },
             " ",
             { "abbr": "TR" },
-            { "text": " Ἀπ", "script": "G", "transliteration": " Ap" }
+            { "text": " Ἀπ’", "script": "G", "transliteration": " Ap’" }
           ]
         }
       },
@@ -95506,9 +95506,9 @@
           "type": "var",
           "content": [
             {
-              "text": "ἐπ αὐτῶν δώδεκα",
+              "text": "ἐπ’ αὐτῶν δώδεκα",
               "script": "G",
-              "transliteration": "ep autō̂n dṓdeka"
+              "transliteration": "ep’ autō̂n dṓdeka"
             },
             " ¦ ",
             { "abbr": "TR" },
@@ -97573,9 +97573,9 @@
             " ¦ ",
             { "abbr": "HF" },
             {
-              "text": " αὐτὴ γαρ η",
+              "text": " αὐτὴ γὰρ ἡ",
               "script": "G",
-              "transliteration": " autḕ gar ē"
+              "transliteration": " autḕ gàr hē"
             }
           ]
         }
@@ -99602,9 +99602,9 @@
             " ",
             { "abbr": "TH" },
             {
-              "text": " φωτίσει ἐπ",
+              "text": " φωτίσει ἐπ’",
               "script": "G",
-              "transliteration": " phōtísei ep"
+              "transliteration": " phōtísei ep’"
             },
             " ¦ ",
             { "abbr": "WH" },
@@ -99614,7 +99614,7 @@
               "transliteration": " phōtísei"
             },
             " [",
-            { "text": "ἐπ", "script": "G", "transliteration": "ep" },
+            { "text": "ἐπ’", "script": "G", "transliteration": "ep’" },
             "]"
           ]
         }
@@ -100486,10 +100486,10 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "σοὺ", "script": "G", "transliteration": "soù" },
+            { "text": "σού", "script": "G", "transliteration": "soú" },
             " ¦ ",
             { "abbr": "TR" },
-            { "text": " σοὺ γὰρ", "script": "G", "transliteration": " soù gàr" }
+            { "text": " σου γάρ", "script": "G", "transliteration": " sou gár" }
           ]
         }
       },
@@ -102551,9 +102551,9 @@
           "type": "var",
           "content": [
             {
-              "text": "ἐπιθῇ ἐπ αὐτά",
+              "text": "ἐπιθῇ ἐπ’ αὐτά",
               "script": "G",
-              "transliteration": "epithē̂ ep autá"
+              "transliteration": "epithē̂ ep’ autá"
             },
             " ¦ ",
             { "abbr": "PT" },
@@ -102636,9 +102636,9 @@
           "type": "var",
           "content": [
             {
-              "text": "ὁ θεὸς ἐπ αὐτὸν",
+              "text": "ὁ θεὸς ἐπ’ αὐτὸν",
               "script": "G",
-              "transliteration": "ho theòs ep autòn"
+              "transliteration": "ho theòs ep’ autòn"
             },
             " ¦ ",
             { "abbr": "PCK" },
@@ -102647,9 +102647,9 @@
             " ",
             { "abbr": "TH" },
             {
-              "text": " ἐπ αὐτὸν ὁ θεὸς",
+              "text": " ἐπ’ αὐτὸν ὁ θεὸς",
               "script": "G",
-              "transliteration": " ep autòn ho theòs"
+              "transliteration": " ep’ autòn ho theòs"
             }
           ]
         }

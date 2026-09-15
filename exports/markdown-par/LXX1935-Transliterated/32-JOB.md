@@ -438,7 +438,7 @@
 
 <sup>2</sup> Akḗkoa toiaûta pollá; paraklḗtores kakō̂n pántes.
 <sup>3</sup> Tí gár? Mḕ táxis estìn rhḗmasin pneúmatos? Ḕ tí parenochlḗsei soi, hóti apokrínē?
-<sup>4</sup> Kagṑ kath’ hymâs lalḗsō, ei hypékeitó ge hē psychḕ hymō̂n antì tē̂s emē̂s; eît enaloûmai hymîn rhḗmasin, kinḗsō dè kath’ hymō̂n kephalḗn;
+<sup>4</sup> Kagṑ kath’ hymâs lalḗsō, ei hypékeitó ge hē psychḕ hymō̂n antì tē̂s emē̂s; eît’ enaloûmai hymîn rhḗmasin, kinḗsō dè kath’ hymō̂n kephalḗn;
 <sup>5</sup> eíē dè ischỳs en tō̂ stómatí mou, kínēsin dè cheiléōn ou pheísomai.
 <sup>6</sup> Eàn gàr lalḗsō, ouk algḗsō tò traûma; eàn dè kaì siōpḗsō, tí élatton trōthḗsomai?
 <sup>7</sup> Nŷn dè katákopón me pepoíēken, mōrón, sesēpóta,
@@ -562,7 +562,7 @@
 <sup>22</sup> Hótan dè dokē̂ ḗdē peplērō̂sthai, thlibḗsetai, pâsa dè anánkē ep’ autòn epeleúsetai.
 <sup>23</sup> Eí pōs plērṓsai gastéra autoû, epaposteílai ep’ autòn thymòn orgē̂s, nípsai ep’ autòn odýnas;
 <sup>24</sup> kaì ou mḕ sōthē̂ ek cheiròs sidḗrou, trṓsai autòn tóxon chálkeion;
-<sup>25</sup> diexélthoi dè dià sṓmatos autoû bélos, astrapaì dè en diaítais autoû peripatḗsaisan; ep autō̂ phóboi.
+<sup>25</sup> diexélthoi dè dià sṓmatos autoû bélos, astrapaì dè en diaítais autoû peripatḗsaisan; ep’ autō̂ phóboi.
 <sup>26</sup> Pân dè skótos autō̂ hypomeínai; katédetai autòn pŷr ákauston, kakṓsai dè autoû epḗlytos tòn oîkon.
 <sup>27</sup> Anakalýpsai dè autoû ho ouranòs tàs anomías, gē̂ dè epanastaíē autō̂.
 <sup>28</sup> Helkýsai tòn oîkon autoû apṓleia eis télos, hēméra orgē̂s epélthoi autō̂.
@@ -573,7 +573,7 @@
 <sup>1</sup> Hypolabṑn dè Iōb légei
 
 <sup>2</sup> Akoúsate akoúsaté mou tō̂n lógōn, hína mḕ ē̂ moi par’ hymō̂n haútē hē paráklēsis.
-<sup>3</sup> Áraté me, egṑ dè lalḗsō, eît ou katageláseté mou.
+<sup>3</sup> Áraté me, egṑ dè lalḗsō, eît’ ou katageláseté mou.
 <sup>4</sup> Tí gár? Mḕ anthrṓpou mou hē élenxis? Ḕ dià tí ou thymōthḗsomai?
 <sup>5</sup> Eisblépsantes eis emè thaumásate cheîra théntes epì siagóni.
 <sup>6</sup> Eán te gàr mnēsthō̂, espoúdaka, échousin dé mou tàs sárkas odýnai.
@@ -629,7 +629,7 @@
 <sup>18</sup> Hòs dè enéplēsen toùs oíkous autō̂n agathō̂n, boulḕ dè asebō̂n pórrō ap’ autoû.
 <sup>19</sup> Idóntes díkaioi egélasan, ámemptos dè emyktḗrisen.
 <sup>20</sup> Ei mḕ ēphanísthē hē hypóstasis autō̂n, kaì tò katáleimma autō̂n kataphágetai pŷr.
-<sup>21</sup> Genoû dḕ sklērós, eàn hypomeínēs; eît ho karpós sou éstai en agathoîs.
+<sup>21</sup> Genoû dḕ sklērós, eàn hypomeínēs; eît’ ho karpós sou éstai en agathoîs.
 <sup>22</sup> Éklabe dè ek stómatos autoû exēgorían kaì análabe tà rhḗmata autoû en kardía sou.
 <sup>23</sup> Eàn dè epistraphē̂s kaì tapeinṓsēs seautòn énanti kyríou, pórrō epoíēsas apò diaítēs sou tò ádikon.
 <sup>24</sup> Thḗsē epì chṓmati en pétra kaì hōs pétra cheimárrous Ōphir.
@@ -681,7 +681,7 @@
 <sup>17</sup> hóti homothymadòn tò prōï̀ autoîs skià thanátou, hóti epignṓsetai tarachàs skiâs thanátou.
 <sup>18</sup> Elaphrós estin epì prósōpon hýdatos; kataratheíē hē merìs autō̂n epì gē̂s.
 <sup>19</sup> Anaphaneíē dè tà phytà autō̂n epì gē̂s xērá; ankalída gàr orphanō̂n hḗrpasan.
-<sup>20</sup> Eît anemnḗsthē autoû hē hamartía, hṓsper dè homíchlē drósou aphanḕs egéneto; apodotheíē dè autō̂ hà épraxen, syntribeíē dè pâs ádikos ísa xýlō aniátō.
+<sup>20</sup> Eît’ anemnḗsthē autoû hē hamartía, hṓsper dè homíchlē drósou aphanḕs egéneto; apodotheíē dè autō̂ hà épraxen, syntribeíē dè pâs ádikos ísa xýlō aniátō.
 <sup>21</sup> Steîran gàr ouk eû epoíēsen kaì gýnaion ouk ēléēsen,
 <sup>22</sup> thymō̂ dè katéstrepsen adynátous. Anastàs toigaroûn ou mḕ pisteúsē katà tē̂s heautoû zōē̂s;
 <sup>23</sup> malakistheìs mḕ elpizétō hygiasthē̂nai, allà peseîtai nósō.
@@ -759,7 +759,7 @@
 <sup>12</sup> Hē dè sophía póthen heuréthē? Poîos dè tópos estìn tē̂s epistḗmēs?
 <sup>13</sup> Ouk oîden brotòs hodòn autē̂s, oudè mḕ heurethē̂ en anthrṓpois.
 <sup>14</sup> Ábyssos eîpen Ouk éstin en emoí; kaì thálassa eîpen Ouk éstin met’ emoû.
-<sup>15</sup> Ou dṓsei synkleismòn ant autē̂s, kaì ou stathḗsetai argýrion antállagma autē̂s;
+<sup>15</sup> Ou dṓsei synkleismòn ant’ autē̂s, kaì ou stathḗsetai argýrion antállagma autē̂s;
 <sup>16</sup> kaì ou symbastachthḗsetai chrysíō Ōphir, en ónychi timíō kaì sappheírō;
 <sup>17</sup> ouk isōthḗsetai autē̂ chrysíon kaì hýalos kaì tò állagma autē̂s skeúē chrysâ;
 <sup>18</sup> metéōra kaì gabis ou mnēsthḗsetai, kaì hélkyson sophían hypèr tà esṓtata;
@@ -806,7 +806,7 @@
 ## Chapter 30
 
 <sup>1</sup> Nynì dè kategélasán mou, eláchistoi nŷn nouthetoûsín me en mérei, hō̂n exoudénoun patéras autō̂n, hoùs ouch hēgēsámēn eînai axíous kynō̂n tō̂n emō̂n nomádōn.
-<sup>2</sup> Kaí ge ischỳs cheirō̂n autō̂n hína tí moi? Ep autoùs apṓleto syntéleia
+<sup>2</sup> Kaí ge ischỳs cheirō̂n autō̂n hína tí moi? Ep’ autoùs apṓleto syntéleia
 <sup>3</sup> en endeía kaì limō̂ ágonos; hoi pheúgontes ánydron echthès synochḕn kaì talaipōrían,
 <sup>4</sup> hoi periklō̂ntes hálima epì ēchoûnti, hoítines hálima ē̂n autō̂n tà sîta, átimoi dè kaì pephaulisménoi, endeeîs pantòs agathoû, hoì kaì rhízas xýlōn emasō̂nto hypò limoû megálou.
 <sup>5</sup> Epanéstēsán moi kléptai,
@@ -854,7 +854,7 @@
 <sup>13</sup> Ei dè kaì ephaúlisa kríma therápontós mou ḕ therapaínēs krinoménōn autō̂n prós me,
 <sup>14</sup> tí gàr poiḗsō, eàn étasín mou poiḗsētai ho kýrios? Eàn dè kaì episkopḗn, tína apókrisin poiḗsomai?
 <sup>15</sup> Póteron ouch hōs kaì egṑ egenómēn en gastrí, kaì ekeînoi gegónasin? Gegónamen dè en tē̂ autē̂ koilía.
-<sup>16</sup> Adýnatoi dè chreían, hḗn pot eîchon, ouk apétychon, chḗras dè tòn ophthalmòn ouk exétēxa.
+<sup>16</sup> Adýnatoi dè chreían, hḗn pot’ eîchon, ouk apétychon, chḗras dè tòn ophthalmòn ouk exétēxa.
 <sup>17</sup> Ei dè kaì tòn psōmón mou éphagon mónos kaì ouchì orphanō̂ metédōka;
 <sup>18</sup> hóti ek neótētós mou exétrephon hōs patḕr kaì ek gastròs mētrós mou hōdḗgēsa;
 <sup>19</sup> ei dè kaì hypereîdon gymnòn apollýmenon kaì ouk ēmphíasa,
@@ -1030,7 +1030,7 @@
 <sup>17</sup> Ouch hysterḗsei dè apò dikaíōn kríma,
 <sup>18</sup> thymòs dè ep’ asebeîs éstai di’ asébeian dṓrōn, hō̂n edéchonto ep’ adikíais.
 <sup>19</sup> Mḗ se ekklinátō hekṑn ho noûs deḗseōs en anánkē óntōn adynátōn, kaì pántas toùs krataioûntas ischýn.
-<sup>20</sup> Mḕ exelkýsēs tḕn nýkta toû anabē̂nai laoùs ant autō̂n;
+<sup>20</sup> Mḕ exelkýsēs tḕn nýkta toû anabē̂nai laoùs ant’ autō̂n;
 <sup>21</sup> allà phýlaxai mḕ práxēs átopa; epì toûton gàr exeílō apò ptōcheías.
 <sup>22</sup> Idoù ho ischyròs krataiṓsei en ischýi autoû; tís gár estin kat’ autòn dynástēs?
 <sup>23</sup> Tís dé estin ho etázōn autoû tà érga? Ḕ tís ho eípas Épraxen ádika?
@@ -1146,7 +1146,7 @@
 <sup>25</sup> sálpingos dè sēmainoúsēs légei Eûge, pórrōthen dè osphraínetai polémou sỳn hálmati kaì kraugē̂.
 <sup>26</sup> Ek dè tē̂s sē̂s epistḗmēs héstēken hiérax anapetásas tàs ptérygas akínētos kathorō̂n tà pròs nóton?
 <sup>27</sup> Epì dè sō̂ prostágmati hypsoûtai aetós, gỳps dè epì nossiâs autoû kathestheìs aulízetai
-<sup>28</sup> ep exochē̂ pétras kaì apokrýphō?
+<sup>28</sup> ep’ exochē̂ pétras kaì apokrýphō?
 <sup>29</sup> Ekeîse ṑn zēteî tà sîta, pórrōthen hoi ophthalmoì autoû skopeúousin;
 <sup>30</sup> neossoì dè autoû phýrontai en haímati, hoû d’ àn ō̂si tethneō̂tes, parachrē̂ma heurískontai.
 

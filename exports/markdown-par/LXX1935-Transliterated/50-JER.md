@@ -143,12 +143,12 @@
 <sup>11</sup> Hóti athetō̂n ēthétēsen eis emé, légei kýrios, oîkos Israēl kaì oîkos Iouda.
 <sup>12</sup> Epseúsanto tō̂ kyríō heautō̂n kaì eîpan Ouk éstin taûta; ouch hḗxei eph’ hēmâs kaká, kaì máchairan kaì limòn ouk opsómetha;
 <sup>13</sup> hoi prophē̂tai hēmō̂n ē̂san eis ánemon, kaì lógos kyríou ouch hypē̂rchen en autoîs; hoútōs éstai autoîs.
-<sup>14</sup> Dià toûto táde légei kýrios pantokrátōr Anth hō̂n elalḗsate tò rhē̂ma toûto, idoù egṑ dédōka toùs lógous mou eis tò stóma sou pŷr kaì tòn laòn toûton xýla, kaì kataphágetai autoús.
+<sup>14</sup> Dià toûto táde légei kýrios pantokrátōr Anth’ hō̂n elalḗsate tò rhē̂ma toûto, idoù egṑ dédōka toùs lógous mou eis tò stóma sou pŷr kaì tòn laòn toûton xýla, kaì kataphágetai autoús.
 <sup>15</sup> Idoù egṑ epágō eph’ hymâs éthnos pórrōthen, oîkos Israēl, légei kýrios, éthnos, hoû ouk akoúsē tē̂s phōnē̂s tē̂s glṓssēs autoû;
 <sup>16</sup> pántes ischyroì
 <sup>17</sup> kaì katédontai tòn therismòn hymō̂n kaì toùs ártous hymō̂n kaì katédontai toùs hyioùs hymō̂n kaì tàs thygatéras hymō̂n kaì katédontai tà próbata hymō̂n kaì toùs móschous hymō̂n kaì katédontai toùs ampelō̂nas hymō̂n kaì toùs sykō̂nas hymō̂n kaì toùs elaiō̂nas hymō̂n; kaì aloḗsousin tàs póleis tàs ochyràs hymō̂n, eph’ haîs hymeîs pepoíthate ep’ autaîs, en rhomphaía.
 <sup>18</sup> Kaì éstai en taîs hēmérais ekeínais, légei kýrios ho theós sou, ou mḕ poiḗsō hymâs eis syntéleian.
-<sup>19</sup> Kaì éstai hótan eípēte Tínos héneken epoíēsen kýrios ho theòs hēmō̂n hēmîn hápanta taûta? Kaì ereîs autoîs Anth hō̂n edouleúsate theoîs allotríois en tē̂ gē̂ hymō̂n, hoútōs douleúsete allotríois en gē̂ ouch hymō̂n.
+<sup>19</sup> Kaì éstai hótan eípēte Tínos héneken epoíēsen kýrios ho theòs hēmō̂n hēmîn hápanta taûta? Kaì ereîs autoîs Anth’ hō̂n edouleúsate theoîs allotríois en tē̂ gē̂ hymō̂n, hoútōs douleúsete allotríois en gē̂ ouch hymō̂n.
 <sup>20</sup> Anangeílate taûta eis tòn oîkon Iakōb, kaì akousthḗtō en tō̂ Iouda.
 <sup>21</sup> Akoúsate dḕ taûta, laòs mōròs kaì akárdios, ophthalmoì autoîs kaì ou blépousin, ō̂ta autoîs kaì ouk akoúousin.
 <sup>22</sup> Mḕ emè ou phobēthḗsesthe? Légei kýrios, ḕ apò prosṓpou mou ouk eulabēthḗsesthe? Tòn táxanta ámmon hórion tē̂ thalássē, próstagma aiṓnion, kaì ouch hyperbḗsetai autó, kaì tarachthḗsetai kaì ou dynḗsetai, kaì ēchḗsousin tà kýmata autē̂s kaì ouch hyperbḗsetai autó.
@@ -459,7 +459,7 @@
 <sup>8</sup> Eis oikían pótou ouk eiseleúsē synkathísai met’ autō̂n toû phageîn kaì pieîn.
 <sup>9</sup> Dióti táde légei kýrios ho theòs Israēl Idoù egṑ katalýō ek toû tópou toútou enṓpion tō̂n ophthalmō̂n hymō̂n kaì en taîs hēmérais hymō̂n phōnḕn charâs kaì phōnḕn euphrosýnēs, phōnḕn nymphíou kaì phōnḕn nýmphēs.
 <sup>10</sup> Kaì éstai hótan anangeílēs tō̂ laō̂ toútō hápanta tà rhḗmata taûta kaì eípōsin pròs sé Dià tí elálēsen kýrios eph’ hēmâs pánta tà kakà taûta? Tís hē adikía hēmō̂n? Kaì tís hē hamartía hēmō̂n, hḕn hēmártomen énanti kyríou toû theoû hēmō̂n?
-<sup>11</sup> Kaì ereîs autoîs Anth hō̂n enkatélipón me hoi patéres hymō̂n, légei kýrios, kaì ṓchonto opísō theō̂n allotríōn kaì edoúleusan autoîs kaì prosekýnēsan autoîs kaì emè enkatélipon kaì tòn nómon mou ouk ephyláxanto,
+<sup>11</sup> Kaì ereîs autoîs Anth’ hō̂n enkatélipón me hoi patéres hymō̂n, légei kýrios, kaì ṓchonto opísō theō̂n allotríōn kaì edoúleusan autoîs kaì prosekýnēsan autoîs kaì emè enkatélipon kaì tòn nómon mou ouk ephyláxanto,
 <sup>12</sup> kaì hymeîs eponēreúsasthe hypèr toùs patéras hymō̂n kaì idoù hymeîs poreúesthe hékastos opísō tō̂n arestō̂n tē̂s kardías hymō̂n tē̂s ponērâs toû mḕ hypakoúein mou,
 <sup>13</sup> kaì aporrípsō hymâs apò tē̂s gē̂s taútēs eis tḕn gē̂n, hḕn ouk ḗdeite hymeîs kaì hoi patéres hymō̂n, kaì douleúsete ekeî theoîs hetérois, hoì ou dṓsousin hymîn éleos.
 
@@ -600,7 +600,7 @@
 <sup>6</sup> Hóti táde légei kýrios katà toû oíkou basiléōs Iouda Galaad sý moi, archḕ toû Libánou; eàn mḕ thō̂ se eis érēmon, póleis mḕ katoikēthēsoménas;
 <sup>7</sup> kaì epáxō epì sè ándra olethreúonta kaì tòn pélekyn autoû, kaì ekkópsousin tàs eklektàs kédrous sou kaì embaloûsin eis tò pŷr.
 <sup>8</sup> Kaì dieleúsontai éthnē dià tē̂s póleōs taútēs kaì eroûsin hékastos pròs tòn plēsíon autoû Dià tí epoíēsen kýrios hoútōs tē̂ pólei tē̂ megálē taútē?
-<sup>9</sup> Kaì eroûsin Anth hō̂n enkatélipon tḕn diathḗkēn kyríou theoû autō̂n kaì prosekýnēsan theoîs allotríois kaì edoúleusan autoîs.
+<sup>9</sup> Kaì eroûsin Anth’ hō̂n enkatélipon tḕn diathḗkēn kyríou theoû autō̂n kaì prosekýnēsan theoîs allotríois kaì edoúleusan autoîs.
 
 <sup>10</sup> Mḕ klaíete tòn tethnēkóta mēdè thrēneîte autón; klaúsate klauthmō̂ tòn ekporeuómenon, hóti ouk epistrépsei éti kaì ou mḕ ídē tḕn gē̂n patrídos autoû.
 <sup>11</sup> Dióti táde légei kýrios epì Sellēm hyiòn Iōsia tòn basileúonta antì Iōsia toû patròs autoû, hòs exē̂lthen ek toû tópou toútou Ouk anastrépsei ekeî oukéti,
@@ -666,7 +666,7 @@
 <sup>35</sup> Hóti hoútōs ereîte hékastos pròs tòn plēsíon autoû kaì hékastos pròs tòn adelphòn autoû Tí apekríthē kýrios, kaì Tí elálēsen kýrios?
 <sup>36</sup> Kaì Lē̂mma kyríou mḕ onomázete éti, hóti tò lē̂mma tō̂ anthrṓpō éstai ho lógos autoû;
 <sup>37</sup> kaì dià tí elálēsen kýrios ho theòs hēmō̂n?
-<sup>38</sup> Dià toûto táde légei kýrios ho theós Anth hō̂n eípate tòn lógon toûton Lē̂mma kyríou, kaì apésteila pròs hymâs légōn Ouk ereîte Lē̂mma kyríou,
+<sup>38</sup> Dià toûto táde légei kýrios ho theós Anth’ hō̂n eípate tòn lógon toûton Lē̂mma kyríou, kaì apésteila pròs hymâs légōn Ouk ereîte Lē̂mma kyríou,
 <sup>39</sup> dià toûto idoù egṑ lambánō kaì rhássō hymâs kaì tḕn pólin, hḕn édōka hymîn kaì toîs patrásin hymō̂n,
 <sup>40</sup> kaì dṓsō eph’ hymâs oneidismòn aiṓnion kaì atimían aiṓnion, hḗtis ouk epilēsthḗsetai.
 
@@ -1067,7 +1067,7 @@
 <sup>11</sup> Kaì eîpen Ananias kat’ ophthalmoùs pantòs toû laoû légōn Hoútōs eîpen kýrios Hoútōs syntrípsō tòn zygòn basiléōs Babylō̂nos apò trachḗlōn pántōn tō̂n ethnō̂n. Kaì ṓcheto Ieremias eis tḕn hodòn autoû. –
 <sup>12</sup> kaì egéneto lógos kyríou pròs Ieremian metà tò syntrîpsai Ananian toùs kloioùs apò toû trachḗlou autoû légōn
 
-<sup>13</sup> Bádize kaì eipòn pròs Ananian légōn Hoútōs eîpen kýrios Kloioùs xylínous synétripsas, kaì poiḗsō ant autō̂n kloioùs sidēroûs;
+<sup>13</sup> Bádize kaì eipòn pròs Ananian légōn Hoútōs eîpen kýrios Kloioùs xylínous synétripsas, kaì poiḗsō ant’ autō̂n kloioùs sidēroûs;
 <sup>14</sup> hóti hoútōs eîpen kýrios Zygòn sidēroûn éthēka epì tòn tráchēlon pántōn tō̂n ethnō̂n ergázesthai tō̂ basileî Babylō̂nos.
 <sup>15</sup> Kaì eîpen Ieremias tō̂ Anania Ouk apéstalkén se kýrios, kaì pepoithénai epoíēsas tòn laòn toûton ep’ adíkō;
 <sup>16</sup> dià toûto hoútōs eîpen kýrios Idoù egṑ exapostéllō se apò prosṓpou tē̂s gē̂s, toútō tō̂ eniautō̂ apothanē̂.

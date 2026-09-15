@@ -37,7 +37,7 @@
 > - <sup>b</sup> 5. prṓtēs ¦ CT tē̂s prṓtēs
 > - <sup>c</sup> 6. christoû Iēsoû ¦ PCK PT TR WH Iēsoû christoû
 > - <sup>d</sup> 7. en ¦ TR _om._
-> - <sup>e</sup> 7. synkoinōnoùs ¦ TH WH synkoinōnoùs
+> - <sup>e</sup> 7. synkoinōnoús ¦ TH WH synkoinōnoús
 > - <sup>f</sup> 8. estin ¦ CT _om._
 > - <sup>g</sup> 8. Iēsoû christoû ¦ CT christoû Iēsoû
 > - <sup>h</sup> 11. karpō̂n dikaiosýnēs tō̂n ¦ CT karpòn dikaiosýnēs tòn
@@ -94,27 +94,27 @@
 > - <sup>a</sup> 1. tis ¦ PCK ti ¦ TR tína
 > - <sup>b</sup> 1. oiktirmoí ¦ TH oikteirmoí
 > - <sup>c</sup> 2. sýmpsychoi ¦ TH WH sýnpsychoi
-> - <sup>d</sup> 3. katà eritheían ḕ ¦ NA SBL TH kat eritheían mēdè katà ¦ WH kat erithían mēdè katà
+> - <sup>d</sup> 3. katà eritheían ḕ ¦ NA SBL TH kat’ eritheían mēdè katà ¦ WH kat’ erithían mēdè katà
 > - <sup>e</sup> 4. hékastos ¦ SBL WH hékastoi
 > - <sup>f</sup> 4. skopeîte ¦ CT skopoûntes
 > - <sup>g</sup> 4. kaì tà ¦ NA [kaì] tà ¦ PCK kaì tò
 > - <sup>h</sup> 4. hékastos ¦ CT hékastoi
 > - <sup>i</sup> 5. gàr phroneísthō ¦ CT phroneîte
-> - <sup>j</sup> 7. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>j</sup> 7. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>k</sup> 9. ónoma ¦ CT tò ónoma
 > - <sup>l</sup> 12. hōs ¦ [WH]
 > - <sup>m</sup> 13. ho ¦ CT _om._
 > - <sup>n</sup> 15. amṓmēta en mésō ¦ CT ámōma méson
-> - <sup>o</sup> 17. All ¦ NA<sup>27</sup> SBL WH Allà
+> - <sup>o</sup> 17. All’ ¦ NA<sup>27</sup> SBL WH Allà
 > - <sup>p</sup> 17. synchaírō … synchaírete ¦ TH WH synchaírō … synchaírete
-> - <sup>q</sup> 18. d ¦ CT dè
+> - <sup>q</sup> 18. d’ ¦ CT dè
 > - <sup>r</sup> 21. christoû Iēsoû ¦ NA SBL TH Iēsoû christoû ¦ TR toû christoû Iēsoû
 > - <sup>s</sup> 22. ginṓskete ¦ TH geinṓskete
 > - <sup>t</sup> 23. apídō ¦ CT aphídō
 > - <sup>u</sup> 25. systratiṓtēn ¦ TH WH synstratiṓtēn
 > - <sup>v</sup> 26. hymâs ¦ WH hymâs [ideîn]
 > - <sup>w</sup> 27. thanátō ¦ PT WH thanátou
-> - <sup>x</sup> 27. allà ¦ HF NA<sup>28</sup> PCK PT TR all
+> - <sup>x</sup> 27. allà ¦ HF NA<sup>28</sup> PCK PT TR all’
 > - <sup>y</sup> 27. autòn ēléēsen ¦ CT ēléēsen autón
 > - <sup>z</sup> 27. lýpēn ¦ TR lýpē
 > - <sup>aa</sup> 30. toû christoû ¦ NA SBL TH christoû ¦ WH kyríou
@@ -151,7 +151,7 @@
 > - <sup>c</sup> 5. peritomē̂ ¦ TR peritomḗ
 > - <sup>d</sup> 5. Beniamín ¦ TH WH Beniameín
 > - <sup>e</sup> 6. zē̂lon ¦ CT zē̂los
-> - <sup>f</sup> 7. All ¦ [NA<sup>28</sup>] ¦ SBL TH WH Allà ¦ NA<sup>27</sup> [Allà]
+> - <sup>f</sup> 7. All’ ¦ [NA<sup>28</sup>] ¦ SBL TH WH Allà ¦ NA<sup>27</sup> [Allà]
 > - <sup>g</sup> 8. mèn oûn ¦ CT PT TR Menoûnge
 > - <sup>h</sup> 8. eînai ¦ CT _om._
 > - <sup>i</sup> 10. tḕn koinōnían tō̂n ¦ NA [tḕn] koinōnían [tō̂n] ¦ SBL TH WH koinōnían
@@ -163,7 +163,7 @@
 > - <sup>o</sup> 14. epì ¦ CT eis
 > - <sup>p</sup> 16. tō̂ autō̂ stoicheîn kanóni tò autò phroneîn ¦ CT tō̂ autō̂ stoicheîn
 > - <sup>q</sup> 16. Guardian Press: tō̂ autō̂ stoicheîn kanóni tò autò phroneîn ℵ<sup>2</sup> K L P Ψ 049 056 075 0142 0151 1841 1862 1900 2464 ¦ tò autò phroneîn tō̂ autō̂ stoicheîn kanóni D<sup>(∗),2</sup> (F) (G) 0319 (D∗: _om._ kanóni? F G: _synstoicheîn for_ stoicheîn kanóni) ¦ autò phroneîn P ¦ tō̂ autō̂ stoicheîn 𝔓<sup>16</sup> 𝔓<sup>46</sup> ℵ∗ A B I 0150 33
-> - <sup>r</sup> 17. Symmimētaì ¦ TH WH Synmimētaì
+> - <sup>r</sup> 17. Symmimētaí ¦ TH WH Synmimētaí
 > - <sup>s</sup> 17. gínesthe ¦ TH geínesthe
 > - <sup>t</sup> 21. eis tò genésthai autò ¦ CT _om._
 > - <sup>u</sup> 21. heautō̂ ¦ NA PT TH autō̂ ¦ SBL WH hautō̂
@@ -204,12 +204,12 @@
 > - <sup>b</sup> 3. Naí ¦ TR Kaí
 > - <sup>c</sup> 3. sýzyge gnḗsie ¦ NA SBL gnḗsie sýzyge ¦ TH WH gnḗsie sýnzyge
 > - <sup>d</sup> 3. syllambánou ¦ TH WH synlambánou
-> - <sup>e</sup> 6. metà ¦ SBL WH met
+> - <sup>e</sup> 6. metà ¦ SBL WH met’
 > - <sup>f</sup> 12. kaì ¦ ST dè
 > - <sup>g</sup> 13. christō̂ ¦ CT _om._
 > - <sup>h</sup> 14. synkoinōnḗsantés ¦ TH WH synkoinōnḗsantés
 > - <sup>i</sup> 15. lḗpseōs ¦ CT lḗmpseōs
-> - <sup>j</sup> 17. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>j</sup> 17. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>k</sup> 19. tòn ploûton ¦ CT tò ploûtos
 > - <sup>l</sup> 23. kyríou ¦ TR kyríou hēmō̂n
 > - <sup>m</sup> 23. pántōn ¦ CT toû pneúmatos

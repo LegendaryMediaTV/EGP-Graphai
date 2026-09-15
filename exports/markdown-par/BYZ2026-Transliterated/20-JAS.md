@@ -47,7 +47,7 @@
 > - <sup>l</sup> 25. hoûtos ¦ CT _om._
 > - <sup>m</sup> 26. en hymîn ¦ CT _om._
 > - <sup>n</sup> 26. autoû ¦ WH heautoû
-> - <sup>o</sup> 26. allà ¦ ECM NA<sup>28</sup> PCK PT TR all
+> - <sup>o</sup> 26. allà ¦ ECM NA<sup>28</sup> PCK PT TR all’
 > - <sup>p</sup> 26. autoû ¦ WH heautoû
 > - <sup>q</sup> 27. theō̂ ¦ CT TR tō̂ theō̂ ¦ PT [tō̂] theō̂
 
@@ -108,7 +108,7 @@
 > - <sup>y</sup> 18. deíxō soi ¦ CT soi deíxō
 > - <sup>z</sup> 18. mou ¦ CT _om._
 > - <sup>aa</sup> 19. ho theòs heîs estín ¦ ECM NA SBL TH heîs estin ho theós ¦ WH heîs theós estín
-> - <sup>ab</sup> 20. nekrà ¦ CT argḕ
+> - <sup>ab</sup> 20. nekrá ¦ CT argḗ
 > - <sup>ac</sup> 24. toínyn ¦ CT _om._
 > - <sup>ad</sup> 26. gàr ¦ WH _om._
 > - <sup>ae</sup> 26. tō̂n ¦ CT _om._
@@ -151,7 +151,7 @@
 > - <sup>n</sup> 9. theòn ¦ CT kýrion
 > - <sup>o</sup> 12. Hoútōs oudemía pēgḕ halykòn kaì ¦ CT Oúte halykòn
 > - <sup>p</sup> 14. eritheían ¦ WH erithían
-> - <sup>q</sup> 15. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>q</sup> 15. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>r</sup> 16. eritheía ¦ WH erithía
 > - <sup>s</sup> 17. kaì ¦ CT _om._
 > - <sup>t</sup> 18. tē̂s ¦ [PT] ¦ CT PCK _om._
@@ -242,7 +242,7 @@
 > - <sup>d</sup> 7. autón ¦ CT PT TR autō̂
 > - <sup>e</sup> 7. héōs ¦ PCK TR héōs àn
 > - <sup>f</sup> 7. hyetòn prṓïmon ¦ CT próïmon
-> - <sup>g</sup> 9. kat allḗlōn adelphoí ¦ CT adelphoì kat allḗlōn
+> - <sup>g</sup> 9. kat’ allḗlōn adelphoí ¦ CT adelphoì kat’ allḗlōn
 > - <sup>h</sup> 9. krithē̂te ¦ TR katakrithē̂te
 > - <sup>i</sup> 9. ho ¦ ST _om._
 > - <sup>j</sup> 10. adelphoí mou tē̂s kakopatheías ¦ TR tē̂s kakopatheías adelphoí mou ¦ ECM PCK TH adelphoì tē̂s kakopatheías ¦ NA SBL WH adelphoì tē̂s kakopathías

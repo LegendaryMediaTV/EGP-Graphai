@@ -3551,7 +3551,7 @@
     "inflections": {
       "Ἀσσάρωνα": {
         "transliteration": "Assárōna",
-        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Σαρων": {
         "transliteration": "Sarōn",
@@ -33615,18 +33615,6 @@
       "Σωσίπατρος": {
         "transliteration": "Sōsípatros",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      }
-    }
-  },
-  "Σῶσον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
-    "inflections": {
-      "Σῶσον": {
-        "transliteration": "Sō̂son",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
       }
     }
   },

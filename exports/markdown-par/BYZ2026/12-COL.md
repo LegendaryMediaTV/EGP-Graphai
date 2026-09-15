@@ -53,7 +53,7 @@
 > - <sup>r</sup> 16. τὰ ¦ CT _om._
 > - <sup>s</sup> 16. τὰ ¦ CT _om._
 > - <sup>t</sup> 18. ἀρχή ¦ WH [ἡ] ἀρχή
-> - <sup>u</sup> 20. δι αὐτοῦ ¦ [NA SBL WH]
+> - <sup>u</sup> 20. δι’ αὐτοῦ ¦ [NA SBL WH]
 > - <sup>v</sup> 20. ἐπὶ ¦ CT PT TR ἐν
 > - <sup>w</sup> 21. ἀποκατήλλαξεν ¦ SBL ἀποκατηλλάγητε
 > - <sup>x</sup> 22. θανάτου ¦ PCK θανάτου αὐτοῦ
@@ -62,8 +62,8 @@
 > - <sup>aa</sup> 24. Νῦν ¦ SCR Ὃς νῦν
 > - <sup>ab</sup> 24. παθήμασιν ¦ PCK TR παθημασι(ν) μου ¦ PT παθήμασί [μου]
 > - <sup>ac</sup> 26. νυνὶ ¦ CT νῦν
-> - <sup>ad</sup> 27. τὶ τὸ ¦ PCK PT TR τὶς ὃ
-> - <sup>ae</sup> 27. ὃς ¦ CT ὃ
+> - <sup>ad</sup> 27. τί τὸ ¦ PCK PT TR τὶς ὃ
+> - <sup>ae</sup> 27. ὅς ¦ CT ὅ
 > - <sup>af</sup> 28. Ἰησοῦ ¦ CT PCK _om._
 
 ## Chapter 2

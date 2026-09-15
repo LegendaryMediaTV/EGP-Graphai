@@ -35,7 +35,7 @@
 > - <sup>g</sup> 10. tà epì ¦ TR tá te en
 > - <sup>h</sup> 12. dóxēs ¦ PCK TR tē̂s dóxēs
 > - <sup>i</sup> 13. hymeîs ¦ PCK hēmeîs
-> - <sup>j</sup> 14. hòs ¦ CT hò
+> - <sup>j</sup> 14. hós ¦ CT hó
 > - <sup>k</sup> 15. tḕn agápēn ¦ WH _om._
 > - <sup>l</sup> 16. hymō̂n ¦ CT _om._
 > - <sup>m</sup> 18. kardías hymō̂n ¦ NA WH kardías [hymō̂n] ¦ TR dianoías hymō̂n
@@ -82,7 +82,7 @@
 > - <sup>i</sup> 15. heautō̂ ¦ NA TH autō̂ ¦ SBL WH hautō̂
 > - <sup>j</sup> 17. hymîn ¦ PCK hēmîn
 > - <sup>k</sup> 17. kaì ¦ CT kaì eirḗnēn
-> - <sup>l</sup> 19. allà ¦ NA<sup>28</sup> all
+> - <sup>l</sup> 19. allà ¦ NA<sup>28</sup> all’
 > - <sup>m</sup> 19. sympolîtai ¦ NA SBL estè sympolîtai ¦ TH WH estè synpolîtai
 > - <sup>n</sup> 20. Iēsoû christoû ¦ CT christoû Iēsoû
 > - <sup>o</sup> 21. oikodomḕ ¦ TR hē oikodomḕ
@@ -191,7 +191,7 @@
 > - <sup>o</sup> 26. tō̂ ¦ [NA] ¦ SBL TH WH _om._
 > - <sup>p</sup> 27. mēdè ¦ TR mḗte
 > - <sup>q</sup> 28. tò agathòn taîs chersín ¦ WH taîs chersìn tò agathón ¦ SBL TH taîs idíais chersìn tò agathón ¦ NA taîs [idíais] chersìn tò agathón
-> - <sup>r</sup> 29. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>r</sup> 29. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>s</sup> 32. gínesthe dè ¦ NA WH gínesthe [dè] ¦ TH geínesthe dè ¦ SBL gínesthe
 > - <sup>t</sup> 32. hēmîn ¦ NA PCK SBL TR WH hymîn
 
@@ -239,7 +239,7 @@
 > - <sup>d</sup> 4. tà ouk anḗkonta ¦ CT hà ouk anē̂ken
 > - <sup>e</sup> 5. este ¦ CT PCK Íste
 > - <sup>f</sup> 5. ginṓskontes ¦ TH geinṓskontes
-> - <sup>g</sup> 5. hòs ¦ CT hò
+> - <sup>g</sup> 5. hós ¦ CT hó
 > - <sup>h</sup> 6. apeitheías ¦ WH apeithías
 > - <sup>i</sup> 7. gínesthe ¦ TH geínesthe
 > - <sup>j</sup> 7. symmétochoi ¦ TH WH synmétochoi
@@ -254,16 +254,16 @@
 > - <sup>s</sup> 19. en ¦ CT _om._
 > - <sup>t</sup> 21. christoû ¦ HF PCK RP<sup>mg</sup> TR theoû
 > - <sup>u</sup> 22. hypotássesthe ¦ NA SBL WH _om._ ¦ TH hypotassésthōsan
-> - <sup>v</sup> 23. anḕr ¦ TR ho anḕr ¦ PT [ho] anḕr
+> - <sup>v</sup> 23. anḗr ¦ TR ho anḗr ¦ PT [ho] anḗr
 > - <sup>w</sup> 23. kaì autós estin ¦ CT autòs
-> - <sup>x</sup> 24. All ¦ NA<sup>27</sup> SBL TH WH Allà
+> - <sup>x</sup> 24. All’ ¦ NA<sup>27</sup> SBL TH WH Allà
 > - <sup>y</sup> 24. hṓsper ¦ CT hōs
 > - <sup>z</sup> 24. idíois ¦ CT _om._
 > - <sup>aa</sup> 25. heautō̂n ¦ CT _om._
 > - <sup>ab</sup> 27. autḕn ¦ CT autòs
 > - <sup>ac</sup> 28. hoi ¦ SBL TH kaì hoi ¦ NA WH [kaì] hoi
 > - <sup>ad</sup> 29. emísēsen ¦ TH emeísēsen
-> - <sup>ae</sup> 29. all ¦ NA<sup>27</sup> PCK SBL TH WH allà
+> - <sup>ae</sup> 29. all’ ¦ NA<sup>27</sup> PCK SBL TH WH allà
 > - <sup>af</sup> 29. kýrios ¦ CT christòs
 > - <sup>ag</sup> 30. ek … ostéōn autoû ¦ CT _om._
 > - <sup>ah</sup> 30. Guardian Press: ek tē̂s sarkòs autoû kaì ek tō̂n ostéōn autoû ℵ<sup>2</sup> D F G (K) L P Ψ 049 056 075 0142 (0150) (0151) 0278 0285 0319 1841 1862 1900 (0150: _om._ ek tē̂s sarkòs autoû? K 0151: toû sṓmatos _for_ tō̂n ostéōn) ¦ _om._ 𝔓<sup>46</sup> ℵ<sup>∗</sup> A B 048 33 2464
@@ -305,7 +305,7 @@
 <sup>24</sup> Hē cháris metà pántōn tō̂n agapṓntōn tòn kýrion hēmō̂n Iēsoûn christòn en aphtharsía. <sup>v</sup>Amḗn.
 
 > - <sup>a</sup> 1. en kyríō ¦ [NA WH]
-> - <sup>b</sup> 4. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>b</sup> 4. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>c</sup> 5. kyríois katà sárka ¦ CT katà sárka kyríois
 > - <sup>d</sup> 6. ophthalmodouleían ¦ NA PCK PT SBL WH ophthalmodoulían
 > - <sup>e</sup> 6. toû ¦ [PT] ¦ CT _om._

@@ -367,7 +367,7 @@
 <sup>20</sup> tò dè plē̂thos ephelkómenon dià tò eúchari tē̂s ergasías tòn prò olígou timēthénta ánthrōpon nŷn sébasma elogísanto.
 <sup>21</sup> Kaì toûto egéneto tō̂ bíō eis énedron, hóti ḕ symphorâ ḕ tyrannídi douleúsantes ánthrōpoi tò akoinṓnēton ónoma líthois kaì xýlois periéthesan.
 
-<sup>22</sup> Eît ouk ḗrkesen tò planâsthai perì tḕn toû theoû gnō̂sin, allà kaì en megálō zō̂ntes agnoías polémō tà tosaûta kakà eirḗnēn prosagoreúousin.
+<sup>22</sup> Eît’ ouk ḗrkesen tò planâsthai perì tḕn toû theoû gnō̂sin, allà kaì en megálō zō̂ntes agnoías polémō tà tosaûta kakà eirḗnēn prosagoreúousin.
 <sup>23</sup> Ḕ gàr teknophónous teletàs ḕ krýphia mystḗria ḕ emmaneîs exállōn thesmō̂n kṓmous ágontes
 <sup>24</sup> oúte bíous oúte gámous katharoùs éti phylássousin, héteros d’ héteron ḕ lochō̂n anaireî ḕ notheúōn odynâ.
 <sup>25</sup> Pánta d’ epimìx échei haîma kaì phónos, klopḕ kaì dólos, phthorá, apistía, tárachos, epiorkía,
@@ -427,7 +427,7 @@
 <sup>20</sup> Anth’ hō̂n angélōn trophḕn epsṓmisas tòn laón sou kaì hétoimon árton ap’ ouranoû parésches autoîs akopiátōs pâsan hēdonḕn ischýonta kaì pròs pâsan harmónion geûsin;
 <sup>21</sup> hē mèn gàr hypóstasís sou tḕn sḕn pròs tékna enephánizen glykýtēta, tē̂ dè toû prospheroménou epithymía hypēretō̂n pròs hó tis eboúleto metekirnâto.
 <sup>22</sup> Chiṑn dè kaì krýstallos hypémeine pŷr kaì ouk etḗketo, hína gnō̂sin hóti toùs tō̂n echthrō̂n karpoùs katéphtheire pŷr phlegómenon en tē̂ chalázē kaì en toîs hyetoîs diastrápton;
-<sup>23</sup> toûto pálin d, hína traphō̂sin díkaioi, kaì tē̂s idías epilélēstai dynámeōs.
+<sup>23</sup> toûto pálin d’, hína traphō̂sin díkaioi, kaì tē̂s idías epilélēstai dynámeōs.
 
 <sup>24</sup> Hē gàr ktísis soì tō̂ poiḗsanti hypēretoûsa epiteínetai eis kólasin katà tō̂n adíkōn kaì aníetai eis euergesían hypèr tō̂n epì soì pepoithótōn.
 <sup>25</sup> Dià toûto kaì tóte eis pánta metalleuoménē tē̂ pantotróphō sou dōreâ hypērétei pròs tḕn tō̂n deoménōn thélēsin,
@@ -452,7 +452,7 @@
 <sup>12</sup> éndothen dè oûsa hḗttōn hē prosdokía pleíona logízetai tḕn ágnoian tē̂s parechoúsēs tḕn básanon aitías.
 <sup>13</sup> Hoi dè tḕn adýnaton óntōs nýkta kaì ex adynátou hádou mychō̂n epelthoûsan tòn autòn hýpnon koimṓmenoi
 <sup>14</sup> tà mèn térasin ēlaúnonto phantasmátōn, tà dè tē̂s psychē̂s parelýonto prodosía; aiphnídios gàr autoîs kaì aprosdókētos phóbos epechýthē.
-<sup>15</sup> Eîth hoútōs, hòs dḗ pot oûn ē̂n ekeî katapíptōn, ephroureîto eis tḕn asídēron heirktḕn katakleistheís;
+<sup>15</sup> Eîth’ hoútōs, hòs dḗ pot’ oûn ē̂n ekeî katapíptōn, ephroureîto eis tḕn asídēron heirktḕn katakleistheís;
 <sup>16</sup> eí te gàr geōrgòs ē̂n tis ḕ poimḕn ḕ tō̂n kat’ erēmían ergátēs móchthōn, prolēmphtheìs tḕn dysálykton émenen anánkēn, miâ gàr halýsei skótous pántes edéthēsan;
 <sup>17</sup> eí te pneûma syrízon ḕ perì amphilapheîs kládous ornéōn ē̂chos eumelḕs ḕ rhythmòs hýdatos poreuoménou bía ḕ ktýpos apēnḕs katarriptoménōn petrō̂n
 <sup>18</sup> ḕ skirtṓntōn zṓōn drómos atheṓrētos ḕ ōryoménōn apēnestátōn thēríōn phōnḕ ḕ antanaklōménē ek koilótētos oréōn ēchṓ, parélyen autoùs ekphoboûnta.

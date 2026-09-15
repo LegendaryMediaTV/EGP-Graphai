@@ -79,7 +79,7 @@
 <sup>14</sup> autòs kýrios eis krísin hḗxei metà tō̂n presbytérōn toû laoû kaì metà tō̂n archóntōn autoû Hymeîs dè tí enepyrísate tòn ampelō̂ná mou kaì hē harpagḕ toû ptōchoû en toîs oíkois hymō̂n?
 <sup>15</sup> Tí hymeîs adikeîte tòn laón mou kaì tò prósōpon tō̂n ptōchō̂n kataischýnete?
 
-<sup>16</sup> Táde légei kýrios Anth hō̂n hypsṓthēsan hai thygatéres Siōn kaì eporeúthēsan hypsēlō̂ trachḗlō kaì en neúmasin ophthalmō̂n kaì tē̂ poreía tō̂n podō̂n háma sýrousai toùs chitō̂nas kaì toîs posìn háma paízousai,
+<sup>16</sup> Táde légei kýrios Anth’ hō̂n hypsṓthēsan hai thygatéres Siōn kaì eporeúthēsan hypsēlō̂ trachḗlō kaì en neúmasin ophthalmō̂n kaì tē̂ poreía tō̂n podō̂n háma sýrousai toùs chitō̂nas kaì toîs posìn háma paízousai,
 <sup>17</sup> kaì tapeinṓsei ho theòs archoúsas thygatéras Siōn, kaì kýrios apokalýpsei tò schē̂ma autō̂n
 <sup>18</sup> en tē̂ hēméra ekeínē kaì apheleî kýrios tḕn dóxan toû himatismoû autō̂n kaì toùs kósmous autō̂n kaì tà emplókia kaì toùs kosýmbous kaì toùs mēnískous
 <sup>19</sup> kaì tò káthema kaì tòn kósmon toû prosṓpou autō̂n
@@ -346,7 +346,7 @@
 <sup>5</sup> Synétripsen ho theòs tòn zygòn tō̂n hamartōlō̂n, tòn zygòn tō̂n archóntōn;
 <sup>6</sup> patáxas éthnos thymō̂ plēgē̂ aniátō, paíōn éthnos plēgḕn thymoû, hḕ ouk epheísato,
 <sup>7</sup> anepaúsato pepoithṓs. Pâsa hē gē̂ boâ met’ euphrosýnēs,
-<sup>8</sup> kaì tà xýla toû Libánou euphránthēsan epì soì kaì hē kédros toû Libánou Aph hoû sỳ kekoímēsai, ouk anébē ho kóptōn hēmâs.
+<sup>8</sup> kaì tà xýla toû Libánou euphránthēsan epì soì kaì hē kédros toû Libánou Aph’ hoû sỳ kekoímēsai, ouk anébē ho kóptōn hēmâs.
 <sup>9</sup> Ho hádēs kátōthen epikránthē synantḗsas soi, synēgérthēsán soi pántes hoi gígantes hoi árxantes tē̂s gē̂s hoi egeírantes ek tō̂n thrónōn autō̂n pántas basileîs ethnō̂n.
 <sup>10</sup> Pántes apokrithḗsontai kaì eroûsín soi Kaì sỳ heálōs hṓsper kaì hēmeîs, en hēmîn dè katelogísthēs.
 <sup>11</sup> Katébē dè eis hádou hē dóxa sou, hē pollḗ sou euphrosýnē; hypokátō sou strṓsousin sē̂psin, kaì tò katakálymmá sou skṓlēx.
@@ -916,7 +916,7 @@
 
 <sup>36</sup> Kaì exē̂lthen ángelos kyríou kaì aneîlen ek tē̂s parembolē̂s tō̂n Assyríōn hekatòn ogdoḗkonta pénte chiliádas, kaì exanastántes tò prōï̀ heûron pánta tà sṓmata nekrá.
 <sup>37</sup> Kaì apostrapheìs apē̂lthen basileùs Assyríōn kaì ṓkēsen en Nineuē.
-<sup>38</sup> Kaì en tō̂ autòn proskyneîn en tō̂ oíkō Nasarach tòn patachron autoû, Adramelech kaì Sarasar hoi hyioì autoû epátaxan autòn machaírais, autoì dè diesṓthēsan eis Armenían; kaì ebasíleusen Asordan ho hyiòs autoû ant autoû.
+<sup>38</sup> Kaì en tō̂ autòn proskyneîn en tō̂ oíkō Nasarach tòn patachron autoû, Adramelech kaì Sarasar hoi hyioì autoû epátaxan autòn machaírais, autoì dè diesṓthēsan eis Armenían; kaì ebasíleusen Asordan ho hyiòs autoû ant’ autoû.
 
 ## Chapter 38
 

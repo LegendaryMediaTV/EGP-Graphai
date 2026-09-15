@@ -82,6 +82,14 @@ import {
   auditCorpusEnrichment,
   formatEnrichmentDisagreement,
 } from "./corpusEnrichment";
+import {
+  auditCorpusAgreement,
+  formatAgreementFinding,
+} from "./corpusAgreement";
+import {
+  auditCodexAttestation,
+  formatCellContradiction,
+} from "./codexAttestation";
 
 /** Path to the bible-books registry JSON file. */
 const jsonPath = "./bible-books/bible-books.json";
@@ -2853,6 +2861,86 @@ async function main(requestedVersion?: string) {
       );
       reportUnresolved("lemma", lemma);
       reportUnresolved("Strong's number", strongs);
+    }
+  }
+
+  // Word-agreement audit: a Greek article agrees with its noun in case, number
+  // and gender, and nothing else in this repo compares two nodes at all. The
+  // corpus walk the morphology audit uses hands its visitor a spelling list and
+  // one code, discarding the sequence, so a pair that disagrees with each
+  // other — each individually resolvable, each accounted for by the map —
+  // passes every check there is.
+  //
+  // The article/noun rule reports only pairs the codex already holds an
+  // agreeing pair of cells for, so what is left is the corpus's own choice of
+  // reading rather than a gap in the map. The other disagreements are counted
+  // and not listed: `ἀδελφῇ` is held as a nominative and nothing else, so 63
+  // rows reading `τῇ ἀδελφῇ` are the corpus faithfully copying the map, and
+  // correcting those here first would turn a silent defect into a failing
+  // morphology audit.
+  //
+  // **Never fails the run.** In every finding only a person can say which of
+  // the two words is wrong, the same reason the coverage numbers above never
+  // fail one. And a pair wrong on both sides in the same direction agrees, so
+  // nothing here can see it at all — 1ES 8:57 is the worked example.
+  console.log("\n🔗 Auditing word agreement...");
+
+  for (const versionDir of versionDirs) {
+    const { scheme, findings, pairs, reconcilable } = auditCorpusAgreement(versionDir);
+    if (!scheme) {
+      console.log(`➖ ${versionDir}: declares no morphology scheme this repo can read, so nothing to compare`);
+      continue;
+    }
+
+    const scanned = `${pairs} article/noun pair(s) scanned, ${reconcilable} of them the map can reconcile`;
+    if (findings.length === 0) {
+      console.log(`✅ ${versionDir}: every neighbouring word agrees with the one beside it (${scanned})`);
+      continue;
+    }
+
+    console.log(`⚠️  ${versionDir}: ${findings.length} disagreeing pair(s) (${scanned}):`);
+    for (const finding of findings.slice(0, 25)) {
+      console.log(`    ${formatAgreementFinding(finding)}`);
+    }
+    if (findings.length > 25) {
+      console.log(`    ...and ${findings.length - 25} more`);
+    }
+  }
+
+  // Codex-attestation audit: a cell whose root carries a Strong's number, where
+  // every corpus word the cell explains that carries a number carries a
+  // different one. Read plainly, such a cell says *this root inflects to this
+  // spelling* while every occurrence of that spelling in the corpus is indexed
+  // to some other word — a disagreement between two files rather than a
+  // linguistic judgment, which is what makes it safe to report at all.
+  //
+  // Corpus-wide rather than per-version, because a cell belongs to a language
+  // rather than to an edition. Deliberately not a cross-part-of-speech rule: a
+  // registry's `posReadings` permits a verb root to carry noun cells and is
+  // right to, `οὐαί (inj) / οὐαί [noun indecl-other]` among them.
+  //
+  // **Never fails the run.** A cell here can be redundant rather than wrong —
+  // `ἄρχω / ἄρχων` explains 123 nodes and every one of them correctly names
+  // ἄρχων — and whether a derived noun should also stand under its verb is
+  // lexicographic policy. A corpus wrong about the lemma and the number in the
+  // same direction is invisible here for the same reason it is invisible
+  // everywhere: there is nothing left to disagree about.
+  console.log("\n🧭 Auditing codex cells against the corpus's own index...");
+
+  const attestation = auditCodexAttestation();
+  const attested = `${attestation.cellsAttested} cell(s) attested by ${attestation.nodesScanned} tagged word(s) across ${attestation.versions.join(", ") || "no version"}`;
+  if (attestation.contradictions.length === 0) {
+    console.log(`✅ every attested cell agrees with the index on at least one of its words (${attested})`);
+  } else {
+    const sole = attestation.contradictions.filter((finding) => finding.sole > 0).length;
+    console.log(
+      `⚠️  ${attestation.contradictions.length} cell(s) the corpus's own index contradicts, ${sole} of them the sole explanation of any word (${attested}):`
+    );
+    for (const contradiction of attestation.contradictions.slice(0, 25)) {
+      console.log(`    ${formatCellContradiction(contradiction)}`);
+    }
+    if (attestation.contradictions.length > 25) {
+      console.log(`    ...and ${attestation.contradictions.length - 25} more`);
     }
   }
 

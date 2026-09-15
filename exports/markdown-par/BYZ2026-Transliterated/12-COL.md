@@ -53,7 +53,7 @@
 > - <sup>r</sup> 16. tà ¦ CT _om._
 > - <sup>s</sup> 16. tà ¦ CT _om._
 > - <sup>t</sup> 18. archḗ ¦ WH [hē] archḗ
-> - <sup>u</sup> 20. di autoû ¦ [NA SBL WH]
+> - <sup>u</sup> 20. di’ autoû ¦ [NA SBL WH]
 > - <sup>v</sup> 20. epì ¦ CT PT TR en
 > - <sup>w</sup> 21. apokatḗllaxen ¦ SBL apokatēllágēte
 > - <sup>x</sup> 22. thanátou ¦ PCK thanátou autoû
@@ -62,8 +62,8 @@
 > - <sup>aa</sup> 24. Nŷn ¦ SCR Hòs nŷn
 > - <sup>ab</sup> 24. pathḗmasin ¦ PCK TR pathēmasi(n) mou ¦ PT pathḗmasí [mou]
 > - <sup>ac</sup> 26. nynì ¦ CT nŷn
-> - <sup>ad</sup> 27. tì tò ¦ PCK PT TR tìs hò
-> - <sup>ae</sup> 27. hòs ¦ CT hò
+> - <sup>ad</sup> 27. tí tò ¦ PCK PT TR tìs hò
+> - <sup>ae</sup> 27. hós ¦ CT hó
 > - <sup>af</sup> 28. Iēsoû ¦ CT PCK _om._
 
 ## Chapter 2

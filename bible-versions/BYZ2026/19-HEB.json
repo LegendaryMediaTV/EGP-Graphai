@@ -453,9 +453,9 @@
           "type": "var",
           "content": [
             {
-              "text": "αὐτοῦ δι ἑαυτοῦ",
+              "text": "αὐτοῦ δι’ ἑαυτοῦ",
               "script": "G",
-              "transliteration": "autoû di heautoû"
+              "transliteration": "autoû di’ heautoû"
             },
             " ¦ ",
             { "abbr": "NA" },
@@ -467,9 +467,9 @@
             " ¦ ",
             { "abbr": "SBL" },
             {
-              "text": " δι αὑτοῦ",
+              "text": " δι’ αὑτοῦ",
               "script": "G",
-              "transliteration": " di hautoû"
+              "transliteration": " di’ hautoû"
             }
           ]
         }
@@ -7903,7 +7903,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "δι", "script": "G", "transliteration": "di" },
+            { "text": "δι’", "script": "G", "transliteration": "di’" },
             " ¦ ",
             { "abbr": "PCK" },
             { "text": " διὰ", "script": "G", "transliteration": " dià" }
@@ -10845,9 +10845,9 @@
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " δι αὐτὴν",
+              "text": " δι’ αὐτὴν",
               "script": "G",
-              "transliteration": " di autḕn"
+              "transliteration": " di’ autḕn"
             }
           ]
         }
@@ -11065,7 +11065,7 @@
             { "text": " ἀλλὰ ὁ", "script": "G", "transliteration": " allà ho" },
             " ¦ ",
             { "abbr": "HF" },
-            { "text": " ἀλλ ὁ", "script": "G", "transliteration": " all ho" }
+            { "text": " ἀλλ’ ὁ", "script": "G", "transliteration": " all’ ho" }
           ]
         }
       },
@@ -16725,7 +16725,7 @@
             { "text": "διὰ", "script": "G", "transliteration": "dià" },
             " ¦ ",
             { "abbr": "CT" },
-            { "text": " δι", "script": "G", "transliteration": " di" }
+            { "text": " δι’", "script": "G", "transliteration": " di’" }
           ]
         }
       },
@@ -18348,7 +18348,7 @@
             { "text": "μετὰ", "script": "G", "transliteration": "metà" },
             " ¦ ",
             { "abbr": "TH" },
-            { "text": " μετ", "script": "G", "transliteration": " met" }
+            { "text": " μετ’", "script": "G", "transliteration": " met’" }
           ]
         }
       },
@@ -20554,7 +20554,7 @@
             { "text": "ι", "script": "G", "transliteration": "i" },
             "] ¦ ",
             { "abbr": "WH" },
-            { "text": " Νυν", "script": "G", "transliteration": " Nyn" }
+            { "text": " Νῦν", "script": "G", "transliteration": " Nŷn" }
           ]
         }
       },
@@ -24997,7 +24997,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "οὐδ", "script": "G", "transliteration": "oud" },
+            { "text": "οὐδ’", "script": "G", "transliteration": "oud’" },
             " ¦ ",
             { "abbr": "CT" },
             " ",
@@ -36860,17 +36860,17 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "Δαυὶδ", "script": "G", "transliteration": "Dauìd" },
+            { "text": "Δαυίδ", "script": "G", "transliteration": "Dauíd" },
             " ¦ ",
             { "abbr": "TH" },
             " ",
             { "abbr": "WH" },
-            { "text": " Δαυεὶδ", "script": "G", "transliteration": " Daueìd" },
+            { "text": " Δαυείδ", "script": "G", "transliteration": " Daueíd" },
             " ¦ ",
             { "abbr": "HF" },
             " ",
             { "abbr": "TR" },
-            { "text": " Δαβὶδ", "script": "G", "transliteration": " Dabìd" }
+            { "text": " Δαβίδ", "script": "G", "transliteration": " Dabíd" }
           ]
         }
       },
@@ -40450,9 +40450,9 @@
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " δι αὐτῆς",
+              "text": " δι’ αὐτῆς",
               "script": "G",
-              "transliteration": " di autē̂s"
+              "transliteration": " di’ autē̂s"
             }
           ]
         }

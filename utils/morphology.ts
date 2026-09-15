@@ -16,8 +16,15 @@
 import fs from "fs";
 import path from "path";
 
-/** A morphology scheme as its own file describes it. */
-interface Scheme {
+/**
+ * A morphology scheme as its own file describes it.
+ *
+ * Exported so a caller can hold one and decode many codes against it, which is
+ * what a walk over a whole version does. The alternative — resolving the scheme
+ * inside {@link decodeMorph} from a version id — would re-read the file per
+ * token, and would tie a pure function to the directory layout.
+ */
+export interface Scheme {
   _id: string;
   delimiter?: string;
   heads: Record<string, { pos: string; slots: string[][] }>;

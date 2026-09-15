@@ -69,7 +69,7 @@
 <sup>17</sup> Kaí ge tō̂n kritō̂n ouch hypḗkousan, hóti exepórneusan opísō theō̂n hetérōn kaì prosekýnēsan autoîs; kaì exéklinan tachỳ ek tē̂s hodoû, hē̂s eporeúthēsan hoi patéres autō̂n toû eisakoúein tō̂n lógōn kyríou, ouk epoíēsan hoútōs.
 <sup>18</sup> Kaì hóti ḗgeiren kýrios kritàs autoîs, kaì ē̂n kýrios metà toû kritoû kaì ésōsen autoùs ek cheiròs echthrō̂n autō̂n pásas tàs hēméras toû kritoû, hóti pareklḗthē kýrios apò toû stenagmoû autō̂n apò prosṓpou tō̂n poliorkoúntōn autoùs kaì ekthlibóntōn autoús.
 <sup>19</sup> Kaì egéneto hōs apéthnēsken ho kritḗs, kaì apéstrepsan kaì pálin diéphtheiran hypèr toùs patéras autō̂n poreúesthai opísō theō̂n hetérōn latreúein autoîs kaì proskyneîn autoîs; ouk apérripsan tà epitēdeúmata autō̂n kaì tàs hodoùs autō̂n tàs sklērás.
-<sup>20</sup> Kaì ōrgísthē thymō̂ kýrios en tō̂ Israēl kaì eîpen Anth hō̂n hósa enkatélipon tò éthnos toûto tḕn diathḗkēn mou, hḕn eneteilámēn toîs patrásin autō̂n, kaì ouk eisḗkousan tē̂s phōnē̂s mou,
+<sup>20</sup> Kaì ōrgísthē thymō̂ kýrios en tō̂ Israēl kaì eîpen Anth’ hō̂n hósa enkatélipon tò éthnos toûto tḕn diathḗkēn mou, hḕn eneteilámēn toîs patrásin autō̂n, kaì ouk eisḗkousan tē̂s phōnē̂s mou,
 <sup>21</sup> kaí ge egṑ ou prosthḗsō toû exârai ándra ek prosṓpou autō̂n apò tō̂n ethnō̂n, hō̂n katélipen Iēsoûs hyiòs Nauē en tē̂ gē̂ kaì aphē̂ken,
 <sup>22</sup> toû peirásai en autoîs tòn Israēl ei phylássontai tḕn hodòn kyríou poreúesthai en autē̂, hòn trópon ephýlaxan hoi patéres autō̂n, ḕ oú.
 <sup>23</sup> Kaì aphē̂ken kýrios tà éthnē taûta toû mḕ exârai autà tò táchos kaì ou parédōken autà en cheirì Iēsoû.
@@ -247,7 +247,7 @@
 <sup>14</sup> Kaì apekríthē ho plēsíon autoû kaì eîpen Ouk éstin haútē ei mḕ rhomphaía Gedeōn hyioû Iōas andròs Israēl; parédōken ho theòs en cheirì autoû tḕn Madiam kaì pâsan tḕn parembolḗn.
 <sup>15</sup> Kaì egéneto hōs ḗkousen Gedeōn tḕn exḗgēsin toû enypníou kaì tḕn sýnkrisin autoû, kaì prosekýnēsen kyríō kaì hypéstrepsen eis tḕn parembolḕn Israēl kaì eîpen Anástēte, hóti parédōken kýrios en cheirì hēmō̂n tḕn parembolḕn Madiam.
 <sup>16</sup> Kaì dieîlen toùs triakosíous ándras eis treîs archàs kaì édōken keratínas en cheirì pántōn kaì hydrías kenàs kaì lampádas en taîs hydríais
-<sup>17</sup> kaì eîpen pròs autoús Ap emoû ópsesthe kaì hoútōs poiḗsete; kaì idoù egṑ eisporeúomai en archē̂ tē̂s parembolē̂s, kaì éstai kathṑs àn poiḗsō, hoútōs poiḗsete;
+<sup>17</sup> kaì eîpen pròs autoús Ap’ emoû ópsesthe kaì hoútōs poiḗsete; kaì idoù egṑ eisporeúomai en archē̂ tē̂s parembolē̂s, kaì éstai kathṑs àn poiḗsō, hoútōs poiḗsete;
 <sup>18</sup> kaì salpiō̂ en tē̂ keratínē egṓ, kaì pántes met’ emoû salpieîte en taîs keratínais kýklō hólēs tē̂s parembolē̂s kaì ereîte Tō̂ kyríō kaì tō̂ Gedeōn.
 <sup>19</sup> Kaì eisē̂lthen Gedeōn kaì hoi hekatòn ándres hoi met’ autoû en archē̂ tē̂s parembolē̂s en archē̂ tē̂s phylakē̂s mésēs kaì egeírontes ḗgeiran toùs phylássontas kaì esálpisan en taîs keratínais kaì exetínaxan tàs hydrías tàs en taîs chersìn autō̂n.
 <sup>20</sup> Kaì esálpisan hai treîs archaì en taîs keratínais kaì synétripsan tàs hydrías kaì ekrátēsan en chersìn aristeraîs autō̂n tàs lampádas kaì en chersìn dexiaîs autō̂n tàs keratínas toû salpízein kaì anékraxan Rhomphaía tō̂ kyríō kaì tō̂ Gedeōn.

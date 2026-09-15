@@ -5863,7 +5863,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "εἶδόν", "script": "G", "transliteration": "eîdón" },
+            { "text": "εἶδον", "script": "G", "transliteration": "eîdon" },
             " ¦ ",
             { "abbr": "CT" },
             { "text": " εἶδάν", "script": "G", "transliteration": " eîdán" }
@@ -8171,7 +8171,11 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀπ ἄρτι", "script": "G", "transliteration": "ap árti" },
+            {
+              "text": "ἀπ’ ἄρτι",
+              "script": "G",
+              "transliteration": "ap’ árti"
+            },
             " ¦ ",
             { "abbr": "CT" },
             " ",
@@ -14778,9 +14782,9 @@
           "type": "var",
           "content": [
             {
-              "text": "εἰς αὐτὸν μὴ ἀπόληται ἀλλ",
+              "text": "εἰς αὐτὸν μὴ ἀπόληται ἀλλ’",
               "script": "G",
-              "transliteration": "eis autòn mḕ apólētai all"
+              "transliteration": "eis autòn mḕ apólētai all’"
             },
             " ¦ ",
             { "abbr": "TH" },
@@ -15065,7 +15069,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "SBL" },
             " ",
@@ -19742,18 +19746,18 @@
           "type": "var",
           "content": [
             {
-              "text": "Σαμαρεῖτίς",
+              "text": "Σαμαρεῖτις",
               "script": "G",
-              "transliteration": "Samareîtís"
+              "transliteration": "Samareîtis"
             },
             " ¦ ",
             { "abbr": "NA" },
             " ",
             { "abbr": "SBL" },
             {
-              "text": " Σαμαρῖτίς",
+              "text": " Σαμαρῖτις",
               "script": "G",
-              "transliteration": " Samarîtís"
+              "transliteration": " Samarîtis"
             }
           ]
         }
@@ -22354,7 +22358,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "Ἀλλ", "script": "G", "transliteration": "All" },
+            { "text": "Ἀλλ’", "script": "G", "transliteration": "All’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -27170,16 +27174,16 @@
           "type": "var",
           "content": [
             {
-              "text": "παρ αὐτῶν τὴν ὥραν",
+              "text": "παρ’ αὐτῶν τὴν ὥραν",
               "script": "G",
-              "transliteration": "par autō̂n tḕn hṓran"
+              "transliteration": "par’ autō̂n tḕn hṓran"
             },
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " τὴν ὥραν παρ αὐτῶν",
+              "text": " τὴν ὥραν παρ’ αὐτῶν",
               "script": "G",
-              "transliteration": " tḕn hṓran par autō̂n"
+              "transliteration": " tḕn hṓran par’ autō̂n"
             }
           ]
         }
@@ -34883,7 +34887,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -35252,7 +35256,7 @@
             { "abbr": "SBL" },
             " ",
             { "abbr": "WH" },
-            { "text": " παρ", "script": "G", "transliteration": " par" }
+            { "text": " παρ’", "script": "G", "transliteration": " par’" }
           ]
         }
       },
@@ -42528,7 +42532,7 @@
             { "text": "ἀλλὰ", "script": "G", "transliteration": "allà" },
             " ¦ ",
             { "abbr": "NA28" },
-            { "text": " ἀλλ", "script": "G", "transliteration": " all" }
+            { "text": " ἀλλ’", "script": "G", "transliteration": " all’" }
           ]
         }
       },
@@ -42635,10 +42639,10 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "δὲ", "script": "G", "transliteration": "dè" },
+            { "text": "δέ", "script": "G", "transliteration": "dé" },
             " ¦ ",
             { "abbr": "CT" },
-            { "text": " γὰρ", "script": "G", "transliteration": " gàr" }
+            { "text": " γάρ", "script": "G", "transliteration": " gár" }
           ]
         }
       },
@@ -46869,7 +46873,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "Ἀλλ", "script": "G", "transliteration": "All" },
+            { "text": "Ἀλλ’", "script": "G", "transliteration": "All’" },
             " ¦ ",
             { "abbr": "SBL" },
             " ",
@@ -48658,16 +48662,16 @@
             " ",
             { "abbr": "TH" },
             {
-              "text": " θεωρήσουσίν σοῦ τὰ ἔργα",
+              "text": " θεωρήσουσιν σοῦ τὰ ἔργα",
               "script": "G",
-              "transliteration": " theōrḗsousín soû tà érga"
+              "transliteration": " theōrḗsousin soû tà érga"
             },
             " ¦ ",
             { "abbr": "WH" },
             {
-              "text": " θεωρήσουσίν",
+              "text": " θεωρήσουσιν",
               "script": "G",
-              "transliteration": " theōrḗsousín"
+              "transliteration": " theōrḗsousin"
             },
             " [",
             { "text": "σοῦ", "script": "G", "transliteration": "soû" },
@@ -49767,7 +49771,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -56006,7 +56010,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "Ἀλλ", "script": "G", "transliteration": "All" },
+            { "text": "Ἀλλ’", "script": "G", "transliteration": "All’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -56371,16 +56375,16 @@
           "type": "var",
           "content": [
             {
-              "text": "παρ αὐτοῦ πρότερον",
+              "text": "παρ’ αὐτοῦ πρότερον",
               "script": "G",
-              "transliteration": "par autoû próteron"
+              "transliteration": "par’ autoû próteron"
             },
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " πρῶτον παρ αὐτοῦ",
+              "text": " πρῶτον παρ’ αὐτοῦ",
               "script": "G",
-              "transliteration": " prō̂ton par autoû"
+              "transliteration": " prō̂ton par’ autoû"
             }
           ]
         }
@@ -57108,9 +57112,9 @@
             { "text": "εἰσιν", "script": "G", "transliteration": "eisin" },
             " ¦ ",
             {
-              "text": "εἰσιν οἱ κατήγοροί σοῦ",
+              "text": "εἰσιν οἱ κατήγοροί σου",
               "script": "G",
-              "transliteration": "eisin hoi katḗgoroí soû"
+              "transliteration": "eisin hoi katḗgoroí sou"
             },
             " ",
             { "text": "i", "marks": ["sup"] },
@@ -57827,16 +57831,16 @@
           "type": "var",
           "content": [
             {
-              "text": "αὕτη ἡ γυνὴ κατελήφθη ἐπ αὐτοφόρῳ μοιχευομένη",
+              "text": "αὕτη ἡ γυνὴ κατελήφθη ἐπ’ αὐτοφόρῳ μοιχευομένη",
               "script": "G",
-              "transliteration": "haútē hē gynḕ katelḗphthē ep autophórō moicheuoménē"
+              "transliteration": "haútē hē gynḕ katelḗphthē ep’ autophórō moicheuoménē"
             },
             " ¦ ",
             { "abbr": "RP-MG" },
             {
-              "text": " αὕτη ἡ γυνὴ κατελήφθη ἐπ αὐτοφώρῳ μοιχευομένη",
+              "text": " αὕτη ἡ γυνὴ κατελήφθη ἐπ’ αὐτοφώρῳ μοιχευομένη",
               "script": "G",
-              "transliteration": " haútē hē gynḕ katelḗphthē ep autophṓrō moicheuoménē"
+              "transliteration": " haútē hē gynḕ katelḗphthē ep’ autophṓrō moicheuoménē"
             },
             " ¦ ",
             { "abbr": "TR" },
@@ -57852,18 +57856,18 @@
             " ",
             { "abbr": "WH" },
             {
-              "text": " αὕτη ἡ γυνὴ κατείληπται ἐπ αὐτοφώρῳ μοιχευομένη",
+              "text": " αὕτη ἡ γυνὴ κατείληπται ἐπ’ αὐτοφώρῳ μοιχευομένη",
               "script": "G",
-              "transliteration": " haútē hē gynḕ kateílēptai ep autophṓrō moicheuoménē"
+              "transliteration": " haútē hē gynḕ kateílēptai ep’ autophṓrō moicheuoménē"
             },
             " ¦ ",
             { "abbr": "HF" },
             " ",
             { "abbr": "PCK" },
             {
-              "text": " ταύτην εὕρομεν ἐπ αὐτοφώρῳ μοιχευομένην",
+              "text": " ταύτην εὕρομεν ἐπ’ αὐτοφώρῳ μοιχευομένην",
               "script": "G",
-              "transliteration": " taútēn heúromen ep autophṓrō moicheuoménēn"
+              "transliteration": " taútēn heúromen ep’ autophṓrō moicheuoménēn"
             }
           ]
         }
@@ -58254,16 +58258,16 @@
             { "text": "ν", "script": "G", "transliteration": "n" },
             ") ",
             {
-              "text": "κατηγορίαν κατ",
+              "text": "κατηγορίαν κατ’",
               "script": "G",
-              "transliteration": "katēgorían kat"
+              "transliteration": "katēgorían kat’"
             },
             " ¦ ",
             { "abbr": "PT" },
             {
-              "text": " σχῶσι κατηγορίαν κατ",
+              "text": " σχῶσι κατηγορίαν κατ’",
               "script": "G",
-              "transliteration": " schō̂si katēgorían kat"
+              "transliteration": " schō̂si katēgorían kat’"
             }
           ]
         }
@@ -58661,48 +58665,48 @@
           "type": "var",
           "content": [
             {
-              "text": "ἐπ αὐτὴν τὸν λίθον βαλέτω",
+              "text": "ἐπ’ αὐτὴν τὸν λίθον βαλέτω",
               "script": "G",
-              "transliteration": "ep autḕn tòn líthon balétō"
+              "transliteration": "ep’ autḕn tòn líthon balétō"
             },
             " ¦ ",
             { "abbr": "RP-MG" },
             {
-              "text": " ἐπ αὐτὴν λίθον βαλλέτω",
+              "text": " ἐπ’ αὐτὴν λίθον βαλλέτω",
               "script": "G",
-              "transliteration": " ep autḕn líthon ballétō"
+              "transliteration": " ep’ autḕn líthon ballétō"
             },
             " ¦ ",
             { "abbr": "PCK" },
             " ",
             { "abbr": "TR" },
             {
-              "text": " τὸν λίθον ἐπ αὐτῇ βαλέτω",
+              "text": " τὸν λίθον ἐπ’ αὐτῇ βαλέτω",
               "script": "G",
-              "transliteration": " tòn líthon ep autē̂ balétō"
+              "transliteration": " tòn líthon ep’ autē̂ balétō"
             },
             " ¦ ",
             { "abbr": "NA" },
             " ",
             { "abbr": "WH" },
             {
-              "text": " ἐπ αὐτὴν βαλέτω λίθον",
+              "text": " ἐπ’ αὐτὴν βαλέτω λίθον",
               "script": "G",
-              "transliteration": " ep autḕn balétō líthon"
+              "transliteration": " ep’ autḕn balétō líthon"
             },
             " ¦ ",
             { "abbr": "PT" },
             {
-              "text": " βαλέτω λίθον ἐπ αὐτήν",
+              "text": " βαλέτω λίθον ἐπ’ αὐτήν",
               "script": "G",
-              "transliteration": " balétō líthon ep autḗn"
+              "transliteration": " balétō líthon ep’ autḗn"
             },
             " ¦ ",
             { "abbr": "HF" },
             {
-              "text": " λίθον βαλέτω ἐπ αὐτήν",
+              "text": " λίθον βαλέτω ἐπ’ αὐτήν",
               "script": "G",
-              "transliteration": " líthon balétō ep autḗn"
+              "transliteration": " líthon balétō ep’ autḗn"
             }
           ]
         }
@@ -60515,13 +60519,13 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀληθὴς", "script": "G", "transliteration": "alēthḕs" },
+            { "text": "ἀληθής", "script": "G", "transliteration": "alēthḗs" },
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " ἀληθινὴ",
+              "text": " ἀληθινή",
               "script": "G",
-              "transliteration": " alēthinḕ"
+              "transliteration": " alēthinḗ"
             }
           ]
         }
@@ -67658,7 +67662,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -70951,7 +70955,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "Σύ τὶ", "script": "G", "transliteration": "Sý tì" },
+            { "text": "Σὺ τί", "script": "G", "transliteration": "Sỳ tí" },
             " ¦ ",
             { "abbr": "NA" },
             " ",
@@ -74852,16 +74856,16 @@
           "type": "var",
           "content": [
             {
-              "text": "ὄντες μετ αὐτοῦ",
+              "text": "ὄντες μετ’ αὐτοῦ",
               "script": "G",
-              "transliteration": "óntes met autoû"
+              "transliteration": "óntes met’ autoû"
             },
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " μετ αὐτοῦ ὄντες",
+              "text": " μετ’ αὐτοῦ ὄντες",
               "script": "G",
-              "transliteration": " met autoû óntes"
+              "transliteration": " met’ autoû óntes"
             }
           ]
         }
@@ -75302,7 +75306,7 @@
             { "text": "ἀλλὰ", "script": "G", "transliteration": "allà" },
             " ¦ ",
             { "abbr": "NA28" },
-            { "text": " ἀλλ", "script": "G", "transliteration": " all" }
+            { "text": " ἀλλ’", "script": "G", "transliteration": " all’" }
           ]
         }
       },
@@ -79435,7 +79439,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -84212,7 +84216,7 @@
             { "abbr": "PT" },
             " ",
             { "abbr": "TR" },
-            { "text": " ἀλλ", "script": "G", "transliteration": " all" }
+            { "text": " ἀλλ’", "script": "G", "transliteration": " all’" }
           ]
         }
       },
@@ -89940,7 +89944,7 @@
             { "text": "ἀλλὰ", "script": "G", "transliteration": "allà" },
             " ¦ ",
             { "abbr": "NA28" },
-            { "text": " ἀλλ", "script": "G", "transliteration": " all" }
+            { "text": " ἀλλ’", "script": "G", "transliteration": " all’" }
           ]
         }
       },
@@ -90457,7 +90461,7 @@
             { "text": "ἀλλὰ", "script": "G", "transliteration": "allà" },
             " ¦ ",
             { "abbr": "NA28" },
-            { "text": " ἀλλ", "script": "G", "transliteration": " all" }
+            { "text": " ἀλλ’", "script": "G", "transliteration": " all’" }
           ]
         }
       },
@@ -92337,7 +92341,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "HF" },
             " ",
@@ -97188,9 +97192,9 @@
           "type": "var",
           "content": [
             {
-              "text": "μεθ ὑμῶν",
+              "text": "μεθ’ ὑμῶν",
               "script": "G",
-              "transliteration": "meth hymō̂n"
+              "transliteration": "meth’ hymō̂n"
             },
             " ¦ ",
             { "abbr": "CT" },
@@ -98699,7 +98703,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -99520,10 +99524,10 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἔδωκέν", "script": "G", "transliteration": "édōkén" },
+            { "text": "ἔδωκεν", "script": "G", "transliteration": "édōken" },
             " ¦ ",
             { "abbr": "CT" },
-            { "text": " δέδωκέν", "script": "G", "transliteration": " dédōkén" }
+            { "text": " δέδωκεν", "script": "G", "transliteration": " dédōken" }
           ]
         }
       },
@@ -101970,16 +101974,16 @@
           "type": "var",
           "content": [
             {
-              "text": "Γινώσκετέ",
+              "text": "Γινώσκετε",
               "script": "G",
-              "transliteration": "Ginṓsketé"
+              "transliteration": "Ginṓskete"
             },
             " ¦ ",
             { "abbr": "TH" },
             {
-              "text": " Γεινώσκετέ",
+              "text": " Γεινώσκετε",
               "script": "G",
-              "transliteration": " Geinṓsketé"
+              "transliteration": " Geinṓskete"
             }
           ]
         }
@@ -102783,9 +102787,9 @@
           "type": "var",
           "content": [
             {
-              "text": "μετ ἐμοῦ",
+              "text": "μετ’ ἐμοῦ",
               "script": "G",
-              "transliteration": "met emoû"
+              "transliteration": "met’ emoû"
             },
             " ¦ ",
             { "abbr": "CT" },
@@ -103083,10 +103087,10 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἐὰν", "script": "G", "transliteration": "eàn" },
+            { "text": "ἐάν", "script": "G", "transliteration": "eán" },
             " ¦ ",
             { "abbr": "CT" },
-            { "text": " ἂν", "script": "G", "transliteration": " àn" }
+            { "text": " ἄν", "script": "G", "transliteration": " án" }
           ]
         }
       },
@@ -109245,27 +109249,27 @@
           "type": "var",
           "content": [
             {
-              "text": "μένῃ μεθ ὑμῶν εἰς τὸν αἰῶνα",
+              "text": "μένῃ μεθ’ ὑμῶν εἰς τὸν αἰῶνα",
               "script": "G",
-              "transliteration": "ménē meth hymō̂n eis tòn aiō̂na"
+              "transliteration": "ménē meth’ hymō̂n eis tòn aiō̂na"
             },
             " ¦ ",
             { "abbr": "SBL" },
             " ",
             { "abbr": "WH" },
             {
-              "text": " ᾖ μεθ ὑμῶν εἰς τὸν αἰῶνα",
+              "text": " ᾖ μεθ’ ὑμῶν εἰς τὸν αἰῶνα",
               "script": "G",
-              "transliteration": " ē̂ meth hymō̂n eis tòn aiō̂na"
+              "transliteration": " ē̂ meth’ hymō̂n eis tòn aiō̂na"
             },
             " ¦ ",
             { "abbr": "NA" },
             " ",
             { "abbr": "TH" },
             {
-              "text": " μεθ ὑμῶν εἰς τὸν αἰῶνα ᾖ",
+              "text": " μεθ’ ὑμῶν εἰς τὸν αἰῶνα ᾖ",
               "script": "G",
-              "transliteration": " meth hymō̂n eis tòn aiō̂na ē̂"
+              "transliteration": " meth’ hymō̂n eis tòn aiō̂na ē̂"
             }
           ]
         }
@@ -119275,9 +119279,9 @@
           "type": "var",
           "content": [
             {
-              "text": "Τοῦτό τί ἐστιν",
+              "text": "Τοῦτο τί ἐστιν",
               "script": "G",
-              "transliteration": "Toûtó tí estin"
+              "transliteration": "Toûto tí estin"
             },
             " ¦ ",
             { "abbr": "CT" },
@@ -119394,9 +119398,9 @@
           "type": "var",
           "content": [
             {
-              "text": "τὶ λαλεῖ",
+              "text": "τί λαλεῖ",
               "script": "G",
-              "transliteration": "tì laleî"
+              "transliteration": "tí laleî"
             },
             " ¦ [",
             { "abbr": "WH" },
@@ -120826,7 +120830,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "CT" },
             " ",
@@ -130397,16 +130401,16 @@
           "type": "var",
           "content": [
             {
-              "text": "μετ αὐτῶν ὁ Πέτρος",
+              "text": "μετ’ αὐτῶν ὁ Πέτρος",
               "script": "G",
-              "transliteration": "met autō̂n ho Pétros"
+              "transliteration": "met’ autō̂n ho Pétros"
             },
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " καὶ ὁ Πέτρος μετ αὐτῶν",
+              "text": " καὶ ὁ Πέτρος μετ’ αὐτῶν",
               "script": "G",
-              "transliteration": " kaì ho Pétros met autō̂n"
+              "transliteration": " kaì ho Pétros met’ autō̂n"
             }
           ]
         }
@@ -132182,7 +132186,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "CT" },
             { "text": " ἀλλὰ", "script": "G", "transliteration": " allà" }
@@ -132344,7 +132348,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "εἶπέν", "script": "G", "transliteration": "eîpén" },
+            { "text": "εἶπεν", "script": "G", "transliteration": "eîpen" },
             " ¦ ",
             { "abbr": "CT" },
             { "text": " φησίν", "script": "G", "transliteration": " phēsín" }
@@ -133239,9 +133243,9 @@
           "type": "var",
           "content": [
             {
-              "text": "Ἀφ ἑαυτοῦ",
+              "text": "Ἀφ’ ἑαυτοῦ",
               "script": "G",
-              "transliteration": "Aph heautoû"
+              "transliteration": "Aph’ heautoû"
             },
             " ¦ ",
             { "abbr": "CT" },
@@ -136796,16 +136800,16 @@
           "type": "var",
           "content": [
             {
-              "text": "οὐδεμίαν κατ ἐμοῦ",
+              "text": "οὐδεμίαν κατ’ ἐμοῦ",
               "script": "G",
-              "transliteration": "oudemían kat emoû"
+              "transliteration": "oudemían kat’ emoû"
             },
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " κατ ἐμοῦ οὐδεμίαν",
+              "text": " κατ’ ἐμοῦ οὐδεμίαν",
               "script": "G",
-              "transliteration": " kat emoû oudemían"
+              "transliteration": " kat’ emoû oudemían"
             }
           ]
         }
@@ -136932,16 +136936,16 @@
           "type": "var",
           "content": [
             {
-              "text": "παραδιδοὺς",
+              "text": "παραδιδούς",
               "script": "G",
-              "transliteration": "paradidoùs"
+              "transliteration": "paradidoús"
             },
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " παραδοὺς",
+              "text": " παραδούς",
               "script": "G",
-              "transliteration": " paradoùs"
+              "transliteration": " paradoús"
             }
           ]
         }
@@ -138116,18 +138120,18 @@
           "type": "var",
           "content": [
             {
-              "text": "τον σταυρον αὐτοῦ",
+              "text": "τὸν σταυρὸν αὐτοῦ",
               "script": "G",
-              "transliteration": "ton stauron autoû"
+              "transliteration": "tòn stauròn autoû"
             },
             " ¦ ",
             { "abbr": "SBL" },
             " ",
             { "abbr": "WH" },
             {
-              "text": " αὑτῷ τον σταυρον",
+              "text": " αὑτῷ τὸν σταυρὸν",
               "script": "G",
-              "transliteration": " hautō̂ ton stauron"
+              "transliteration": " hautō̂ tòn stauròn"
             },
             " ¦ ",
             { "abbr": "NA" },
@@ -142038,7 +142042,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀπ", "script": "G", "transliteration": "ap" },
+            { "text": "ἀπ’", "script": "G", "transliteration": "ap’" },
             " ¦ ",
             { "abbr": "CT" },
             " ",
@@ -150690,7 +150694,7 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἀλλ", "script": "G", "transliteration": "all" },
+            { "text": "ἀλλ’", "script": "G", "transliteration": "all’" },
             " ¦ ",
             { "abbr": "NA27" },
             " ",
@@ -153829,9 +153833,9 @@
           "type": "var",
           "content": [
             {
-              "text": "τὶ πρός σε",
+              "text": "τί πρός σε",
               "script": "G",
-              "transliteration": "tì prós se"
+              "transliteration": "tí prós se"
             },
             " ¦ [",
             { "abbr": "NA" },
@@ -154207,7 +154211,7 @@
             { "text": "οὐδὲ", "script": "G", "transliteration": "oudè" },
             " ¦ ",
             { "abbr": "CT" },
-            { "text": " οὐδ", "script": "G", "transliteration": " oud" }
+            { "text": " οὐδ’", "script": "G", "transliteration": " oud’" }
           ]
         }
       },

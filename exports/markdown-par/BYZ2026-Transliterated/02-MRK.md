@@ -66,7 +66,7 @@
 > - <sup>h</sup> 4. baptízōn ¦ SBL TH WH ho baptízōn ¦ NA [ho] baptízōn
 > - <sup>i</sup> 4. kaì ¦ SBL WH _om._
 > - <sup>j</sup> 5. Hierosolymîtai ¦ TH WH Hierosolymeîtai
-> - <sup>k</sup> 5. kaì ebaptízonto pántes en tō̂ Iordánē potamō̂ hyp autoû ¦ CT pántes kaì ebaptízonto hyp autoû en tō̂ Iordánē potamō̂
+> - <sup>k</sup> 5. kaì ebaptízonto pántes en tō̂ Iordánē potamō̂ hyp’ autoû ¦ CT pántes kaì ebaptízonto hyp’ autoû en tō̂ Iordánē potamō̂
 > - <sup>l</sup> 6. Ē̂n dè ho ¦ CT Kaì ē̂n ho ¦ TR Ē̂n dè
 > - <sup>m</sup> 6. Iōánnēs ¦ WH Iōánēs
 > - <sup>n</sup> 6. esthíōn ¦ SBL TH WH esthṑn
@@ -80,7 +80,7 @@
 > - <sup>v</sup> 10. euthéōs ¦ CT euthỳs
 > - <sup>w</sup> 10. apò ¦ CT ek
 > - <sup>x</sup> 10. hōseì ¦ CT PT RP<sup>mg</sup> hōs
-> - <sup>y</sup> 10. ep ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> eis
+> - <sup>y</sup> 10. ep’ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> eis
 > - <sup>z</sup> 11. egéneto ¦ [WH]
 > - <sup>aa</sup> 11. hō̂ ¦ CT PT soì
 > - <sup>ab</sup> 11. eudókēsa ¦ PT ēudókēsa
@@ -113,7 +113,7 @@
 > - <sup>bc</sup> 27. pántes ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> hápantes
 > - <sup>bd</sup> 27. syzēteîn ¦ TH WH synzēteîn
 > - <sup>be</sup> 27. pròs heautoús ¦ TR pròs autoús ¦ WH autoús
-> - <sup>bf</sup> 27. Tìs hē didachḕ hē kainḕ haútē hóti ¦ CT Didachḕ kainḕ
+> - <sup>bf</sup> 27. Tís hē didachḕ hē kainḕ haútē hóti ¦ CT Didachḕ kainḕ
 > - <sup>bg</sup> 28. Exē̂lthen dè ¦ CT PT Kaì exē̂lthen
 > - <sup>bh</sup> 28. euthỳs ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> euthỳs pantachoû
 > - <sup>bi</sup> 29. euthéōs ¦ CT euthỳs
@@ -146,11 +146,11 @@
 > - <sup>cj</sup> 42. eipóntos autoû euthéōs ¦ CT euthỳs
 > - <sup>ck</sup> 42. ekatharísthē ¦ TH WH ekatherísthē
 > - <sup>cl</sup> 43. euthéōs ¦ CT euthỳs
-> - <sup>cm</sup> 44. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>cm</sup> 44. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>cn</sup> 44. prosénenke ¦ PCK prosenénkai
 > - <sup>co</sup> 44. Mōsē̂s ¦ CT PT Mōÿsē̂s
-> - <sup>cp</sup> 45. all ¦ SBL WH allà
-> - <sup>cq</sup> 45. en ¦ CT ep
+> - <sup>cp</sup> 45. all’ ¦ SBL WH allà
+> - <sup>cq</sup> 45. en ¦ CT ep’
 > - <sup>cr</sup> 45. ē̂n ¦ [WH]
 > - <sup>cs</sup> 45. pantachóthen ¦ CT pántothen
 
@@ -188,13 +188,13 @@
 <sup>27</sup> Kaì élegen autoîs, Tò sábbaton dià tòn ánthrōpon egéneto, <sup>bl</sup>ouch ho ánthrōpos dià tò sábbaton;
 <sup>28</sup> hṓste kýriós estin ho hyiòs toû anthrṓpou kaì toû sabbátou.
 
-> - <sup>a</sup> 1. eisē̂lthen pálin eis Kapernaoùm di hēmerō̂n kaì ¦ TR pálin eisē̂lthen eis Kapernaoùm di hēmerō̂n kaì ¦ CT eiselthṑn pálin eis Kapharnaoùm di hēmerō̂n
+> - <sup>a</sup> 1. eisē̂lthen pálin eis Kapernaoùm di’ hēmerō̂n kaì ¦ TR pálin eisē̂lthen eis Kapernaoùm di’ hēmerō̂n kaì ¦ CT eiselthṑn pálin eis Kapharnaoùm di’ hēmerō̂n
 > - <sup>b</sup> 1. eis oîkón ¦ CT en oíkō
 > - <sup>c</sup> 2. euthéōs ¦ CT _om._
 > - <sup>d</sup> 3. pròs autòn paralytikòn phérontes ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA SBL WH phérontes pròs autòn paralytikón
 > - <sup>e</sup> 4. prosengísai ¦ CT prosenénkai
 > - <sup>f</sup> 4. krábbaton ¦ CT PT RP<sup>mg</sup> krábatton
-> - <sup>g</sup> 4. eph hō̂ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> hópou
+> - <sup>g</sup> 4. eph’ hō̂ ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> hópou
 > - <sup>h</sup> 5. Idṑn dè ¦ CT Kaì idṑn
 > - <sup>i</sup> 5. aphéōntaí soi hai hamartíai sou ¦ TH aphéōntaí sou hai hamartíai ¦ ECM NA SBL WH aphíentaí sou hai hamartíai
 > - <sup>j</sup> 7. blasphēmías ¦ CT blasphēmeî
@@ -219,29 +219,29 @@
 > - <sup>ac</sup> 16. kaì hoi Pharisaîoi ¦ CT tō̂n Pharisaíōn
 > - <sup>ad</sup> 16. autòn esthíonta ¦ ECM NA SBL WH hóti esthíei ¦ TH hóti ḗsthien
 > - <sup>ae</sup> 16. telōnō̂n kaì hamartōlō̂n ¦ CT hamartōlō̂n kaì telōnō̂n
-> - <sup>af</sup> 16. Tì ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
+> - <sup>af</sup> 16. Tí ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
 > - <sup>ag</sup> 16. esthíei kaì pínei ¦ CT esthíei
 > - <sup>ah</sup> 16. Guardian Press: esthíei kaì pínei 𝔓<sup>88</sup> A (C) E F (G) H K (L) M S U V Y Γ (Δ) Π (Σ) Φ Ω 047 055<sup>vid</sup> 0211 33 399 461 (565) 566 892 1080 1143 1295 (1424) 1500 2224 (C: ho didáskalos hymō̂n esthíei kaì pínei? G Σ 565 1424: esthíete kaì pínete? L Δ: esthíei kaì pínei ho didáskalos hymō̂n) ¦ esthíei (ℵ) B D W (Θ) (ℵ: esthíei ho didáskalos hymō̂n? Θ: esthíete)
 > - <sup>ai</sup> 17. autoîs ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> SBL autoîs hóti ¦ NA WH autoîs [hóti]
-> - <sup>aj</sup> 17. allà ¦ ECM NA<sup>28</sup> all
+> - <sup>aj</sup> 17. allà ¦ ECM NA<sup>28</sup> all’
 > - <sup>ak</sup> 17. eis metánoian ¦ CT _om._
 > - <sup>al</sup> 18. Iōánnou ¦ WH Iōánou
 > - <sup>am</sup> 18. tō̂n Pharisaíōn ¦ CT Pharisaîoi
 > - <sup>an</sup> 18. Iōánnou ¦ WH Iōánou
 > - <sup>ao</sup> 18. hoi ¦ CT hoi mathētaì
 > - <sup>ap</sup> 18. mathētaì ¦ [WH]
-> - <sup>aq</sup> 19. meth heautō̂n échousin tòn nymphíon ¦ CT échousin tòn nymphíon met autō̂n
+> - <sup>aq</sup> 19. meth’ heautō̂n échousin tòn nymphíon ¦ CT échousin tòn nymphíon met’ autō̂n
 > - <sup>ar</sup> 20. ekeínais taîs hēmérais ¦ CT ekeínē tē̂ hēméra
 > - <sup>as</sup> 21. Kaì ¦ CT PT _om._
 > - <sup>at</sup> 21. epirráptei ¦ CT epiráptei
 > - <sup>au</sup> 21. himatíō palaiō̂ ¦ CT himátion palaión
 > - <sup>av</sup> 21. mḗ ¦ PT mḗge
-> - <sup>aw</sup> 21. autoû ¦ CT ap autoû
+> - <sup>aw</sup> 21. autoû ¦ CT ap’ autoû
 > - <sup>ax</sup> 21. gínetai ¦ TH geínetai
 > - <sup>ay</sup> 22. rhḗssei ¦ CT rhḗxei
 > - <sup>az</sup> 22. ho néos ¦ CT _om._
 > - <sup>ba</sup> 22. ekcheîtai kaì hoi askoì apoloûntai ¦ ECM NA SBL WH apóllytai kaì hoi askoí
-> - <sup>bb</sup> 22. allà … kainoùs ¦ [WH] ¦ ECM NA<sup>28</sup> all … kainoùs
+> - <sup>bb</sup> 22. allà … kainoùs ¦ [WH] ¦ ECM NA<sup>28</sup> all’ … kainoùs
 > - <sup>bc</sup> 22. blētéon ¦ CT _om._
 > - <sup>bd</sup> 23. paraporeúesthai autòn en toîs sábbasin ¦ ECM NA SBL TH autòn en toîs sábbasin paraporeúesthai ¦ WH autòn en toîs sábbasin diaporeúesthai
 > - <sup>be</sup> 23. ḗrxanto hoi mathētaì autoû ¦ CT hoi mathētaì autoû ḗrxanto
@@ -331,12 +331,12 @@ Kaì <sup>ac</sup>érchontai eis oîkon;
 > - <sup>ah</sup> 25. stathē̂nai hē oikía ekeínē ¦ ECM NA SBL hē oikía ekeínē stathē̂nai ¦ TH WH hē oikía ekeínē stē̂nai
 > - <sup>ai</sup> 26. meméristai ¦ CT emerísthē
 > - <sup>aj</sup> 26. stathē̂nai ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> stē̂nai
-> - <sup>ak</sup> 27. Oudeìs dýnatai ¦ SBL All oudeìs dýnatai ¦ ECM NA TH WH All ou dýnatai oudeìs ¦ TR Ou dýnatai oudeìs
+> - <sup>ak</sup> 27. Oudeìs dýnatai ¦ SBL All’ oudeìs dýnatai ¦ ECM NA TH WH All’ ou dýnatai oudeìs ¦ TR Ou dýnatai oudeìs
 > - <sup>al</sup> 27. tà skeúē toû ischyroû eiselthṑn eis tḕn oikían ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> eis tḕn oikían toû ischyroû eiselthṑn tà skeúē
 > - <sup>am</sup> 27. diarpásē ¦ CT PT RP<sup>mg</sup> TR diarpásei
 > - <sup>an</sup> 28. tà hamartḗmata toîs hyioîs tō̂n anthrṓpōn ¦ CT PT toîs hyioîs tō̂n anthrṓpōn tà hamartḗmata
 > - <sup>ao</sup> 28. blasphēmíai hósas àn ¦ ECM<sup>†</sup> PT hai blasphēmíai hósas eàn ¦ CT<sup>†</sup> hai blasphēmíai hósa eàn
-> - <sup>ap</sup> 29. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>ap</sup> 29. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>aq</sup> 29. kríseōs ¦ CT hamartḗmatos
 > - <sup>ar</sup> 31. Érchontai oûn ¦ ECM<sup>†</sup> SBL WH Kaì érchontai ¦ ECM<sup>†</sup> NA TH Kaì érchetai
 > - <sup>as</sup> 31. hoi adelphoì kaì hē mḗtēr ¦ CT PT hē mḗtēr autoû kaì hoi adelphoì
@@ -463,7 +463,7 @@ Kaì <sup>ac</sup>érchontai eis oîkon;
 > - <sup>bg</sup> 32. kataskēnoûn ¦ WH kataskēnoîn
 > - <sup>bh</sup> 33. edýnanto ¦ CT PT TR ēdýnanto
 > - <sup>bi</sup> 34. autoîs ¦ PT autoîs tòn lógon
-> - <sup>bj</sup> 34. kat ¦ TH kath
+> - <sup>bj</sup> 34. kat’ ¦ TH kath’
 > - <sup>bk</sup> 34. mathētaîs autoû ¦ CT idíois mathētaîs
 > - <sup>bl</sup> 36. dè ploiária ¦ PT dè ploîa ¦ CT ploîa
 > - <sup>bm</sup> 37. gínetai ¦ TH geínetai
@@ -538,7 +538,7 @@ Kaì <sup>ac</sup>érchontai eis oîkon;
 > - <sup>k</sup> 6. Idṑn dè ¦ CT Kaì idṑn
 > - <sup>l</sup> 6. apò ¦ [PT]
 > - <sup>m</sup> 6. autō̂ ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> PT SBL WH autón
-> - <sup>n</sup> 7. eîpén ¦ CT PT légei
+> - <sup>n</sup> 7. eîpen ¦ CT PT légei
 > - <sup>o</sup> 9. soi ónoma ¦ CT PT ónomá soi
 > - <sup>p</sup> 9. apekríthē légōn Legeṑn ¦ CT légei autō̂ Legiṑn
 > - <sup>q</sup> 10. autoùs aposteílē ¦ ECM NA SBL WH autà aposteílē ¦ PT aposteílē autoùs
@@ -555,7 +555,7 @@ Kaì <sup>ac</sup>érchontai eis oîkon;
 > - <sup>ab</sup> 15. Legeō̂na ¦ CT Legiō̂na
 > - <sup>ac</sup> 16. Diēgḗsanto dè ¦ CT PT TR Kaì diēgḗsanto
 > - <sup>ad</sup> 18. embántos ¦ CT PT embaínontos
-> - <sup>ae</sup> 18. ē̂ met autoû ¦ CT PT met autoû ē̂
+> - <sup>ae</sup> 18. ē̂ met’ autoû ¦ CT PT met’ autoû ē̂
 > - <sup>af</sup> 19. Ho dè Iēsoûs ¦ CT PT Kaì
 > - <sup>ag</sup> 19. anángeilon ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> apángeilon
 > - <sup>ah</sup> 19. soi ho kýrios ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> ho kýriós soi
@@ -574,10 +574,10 @@ Kaì <sup>ac</sup>érchontai eis oîkon;
 > - <sup>au</sup> 28. Kàn tō̂n himatíōn autoû hápsōmai ¦ CT PT Eàn hápsōmai kàn tō̂n himatíōn autoû
 > - <sup>av</sup> 29. euthéōs ¦ CT euthỳs
 > - <sup>aw</sup> 30. euthéōs ¦ CT euthỳs
-> - <sup>ax</sup> 33. ep ¦ CT _om._
+> - <sup>ax</sup> 33. ep’ ¦ CT _om._
 > - <sup>ay</sup> 34. Thýgater ¦ ECM NA SBL WH Thygátēr
 > - <sup>az</sup> 36. euthéōs akoúsas ¦ CT parakoúsas
-> - <sup>ba</sup> 37. oudéna autō̂ ¦ PT autō̂ oudéna ¦ CT oudéna met autoû
+> - <sup>ba</sup> 37. oudéna autō̂ ¦ PT autō̂ oudéna ¦ CT oudéna met’ autoû
 > - <sup>bb</sup> 37. Pétron ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> tòn Pétron
 > - <sup>bc</sup> 37. Iōánnēn ¦ WH Iōánēn
 > - <sup>bd</sup> 38. érchetai ¦ CT érchontai
@@ -672,7 +672,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>m</sup> 5. oudemían dýnamin poiē̂sai ¦ ECM NA SBL WH poiē̂sai oudemían dýnamin
 > - <sup>n</sup> 6. ethaúmazen ¦ WH ethaúmasen
 > - <sup>o</sup> 8. pḗran mḕ árton ¦ CT árton mḕ pḗran
-> - <sup>p</sup> 9. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>p</sup> 9. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>q</sup> 9. endýsēsthe ¦ SCR WH endýsasthai ¦ PT endedýsthai
 > - <sup>r</sup> 11. hósoi àn mḕ déxōntai ¦ PCK PT hósoi eàn mḕ déxōntai ¦ CT hòs àn tópos mḕ déxētai
 > - <sup>s</sup> 11. Amḕn légō hymîn anektóteron éstai Sodómois ḕ Gomórrois en hēméra kríseōs ḕ tē̂ pólei ekeínē ¦ CT _om._
@@ -755,7 +755,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>cr</sup> 51. pròs autoùs eis tò ploîon ¦ PT eis tò ploîon pròs autoús
 > - <sup>cs</sup> 51. ekperissoû ¦ ECM<sup>†</sup> _txt_ ¦ [NA] ¦ ECM<sup>†</sup> TH WH _om._
 > - <sup>ct</sup> 51. kaì ethaúmazon ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
-> - <sup>cu</sup> 52. ē̂n gàr ¦ CT PT all ē̂n
+> - <sup>cu</sup> 52. ē̂n gàr ¦ CT PT all’ ē̂n
 > - <sup>cv</sup> 52. autō̂n hē kardía ¦ TR hē kardía autō̂n
 > - <sup>cw</sup> 53. ē̂lthon epì tḕn gē̂n ¦ PT apē̂lthon epì tḕn gē̂n ¦ CT epì tḕn gē̂n ē̂lthon eis
 > - <sup>cx</sup> 53. Gennēsarét ¦ PCK ST Genēsarét
@@ -811,13 +811,13 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 
 > - <sup>a</sup> 2. koinaîs ¦ CT hóti koinaîs
 > - <sup>b</sup> 2. esthíontas ártous emémpsanto ¦ CT esthíousin toùs ártous
-> - <sup>c</sup> 4. apò ¦ CT ap
+> - <sup>c</sup> 4. apò ¦ CT ap’
 > - <sup>d</sup> 4. baptísōntai ¦ WH rhantísōntai
 > - <sup>e</sup> 4. chalkíōn ¦ PCK chalkeíōn
 > - <sup>f</sup> 4. kaì klinō̂n ¦ [NA] ¦ TH WH _om._
 > - <sup>g</sup> 5. Épeita ¦ CT Kaì
 > - <sup>h</sup> 5. hoi mathētaí sou ou peripatoûsin ¦ CT PT ou peripatoûsin hoi mathētaí sou
-> - <sup>i</sup> 5. allà aníptois ¦ PT all aníptois ¦ CT allà koinaîs
+> - <sup>i</sup> 5. allà aníptois ¦ PT all’ aníptois ¦ CT allà koinaîs
 > - <sup>j</sup> 6. apokritheìs ¦ CT _om._
 > - <sup>k</sup> 6. hóti ¦ CT _om._
 > - <sup>l</sup> 6. proephḗteusen ¦ CT eprophḗteusen
@@ -832,7 +832,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>u</sup> 14. Akoúeté ¦ CT Akoúsaté
 > - <sup>v</sup> 14. syníete ¦ CT sýnete
 > - <sup>w</sup> 15. autòn koinō̂sai ¦ CT koinō̂sai autón
-> - <sup>x</sup> 15. ekporeuómena ap autoû ekeîná ¦ PT ekporeuómená ¦ CT ek toû anthrṓpou ekporeuómená
+> - <sup>x</sup> 15. ekporeuómena ap’ autoû ekeîná ¦ PT ekporeuómená ¦ CT ek toû anthrṓpou ekporeuómená
 > - <sup>y</sup> 16. Eí tis … akouétō ¦ [[ECM]] ¦ NA PT SBL TH WH _om._
 > - <sup>z</sup> 16. Guardian Press: Eí tis échei ō̂ta akoúein akouétō A D E F G H K M S U V W X Y Γ Δ<sup>c</sup> Θ Π Σ Φ Ω 047 0211 33 399 461 565 566 892 1080 1143 1295 1424 1500 2224 2811 ¦ _om._ ℵ B L Δ<sup>∗</sup> 0274 ¦ 0257 _unreadable_
 > - <sup>aa</sup> 17. perì tē̂s parabolē̂s ¦ CT tḕn parabolḗn
@@ -844,7 +844,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>ag</sup> 24. kaì Sidō̂nos ¦ ECM<sup>†</sup> _txt_ ¦ [WH] ¦ ECM<sup>†</sup> NA SBL _om._
 > - <sup>ah</sup> 24. oikían ¦ TR tḕn oikían
 > - <sup>ai</sup> 24. ēdynḗthē ¦ WH ēdynásthē
-> - <sup>aj</sup> 25. Akoúsasa gàr ¦ CT All euthỳs akoúsasa
+> - <sup>aj</sup> 25. Akoúsasa gàr ¦ CT All’ euthỳs akoúsasa
 > - <sup>ak</sup> 26. ē̂n dè hē gynḕ ¦ TH hē gynḕ dè ē̂n ¦ ECM NA PT SBL WH hē dè gynḕ ē̂n
 > - <sup>al</sup> 26. Syraphoiníkissa ¦ CT PT Syrophoiníkissa ¦ TR Syrophoínissa
 > - <sup>am</sup> 26. ekbálē ¦ TR ekbállē
@@ -916,7 +916,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>c</sup> 1. autoû ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
 > - <sup>d</sup> 2. hēmérai ¦ PCK RP<sup>mg</sup> TR hēméras
 > - <sup>e</sup> 3. nḗsteis ¦ PCK nḗstis
-> - <sup>f</sup> 3. tinès gàr ¦ CT kaì tines
+> - <sup>f</sup> 3. tinès gàr ¦ CT kaí tines
 > - <sup>g</sup> 3. makróthen ¦ CT PT apò makróthen
 > - <sup>h</sup> 3. hḗkousin ¦ ECM NA PT SBL TH TR ēkasi(n) ¦ WH eisin
 > - <sup>i</sup> 4. autoû ¦ CT autoû hóti
@@ -983,7 +983,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>br</sup> 36. ōphelḗsei ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA SBL WH ōpheleî ¦ TH ōpheleî tòn
 > - <sup>bs</sup> 36. eàn kerdḗsē ¦ CT kerdē̂sai
 > - <sup>bt</sup> 36. zēmiōthē̂ ¦ CT zēmiōthē̂nai
-> - <sup>bu</sup> 37. Ḗ tì dṓsei ¦ CT Tì gàr doî
+> - <sup>bu</sup> 37. Ḕ tí dṓsei ¦ CT Tì gàr doî
 > - <sup>bv</sup> 38. eàn ¦ RP<sup>mg</sup> TR àn
 
 ## Chapter 9
@@ -1046,7 +1046,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 <sup>50</sup> Kalòn tò hálas; eàn dè tò hálas ánalon génētai, en tíni autò artýsete? Échete en heautoîs <sup>dg</sup>hálas, kaì eirēneúete en allḗlois.
 
 > - <sup>a</sup> 1. tō̂n hō̂de ¦ NA WH hō̂de tō̂n
-> - <sup>b</sup> 2. meth ¦ CT metà
+> - <sup>b</sup> 2. meth’ ¦ CT metà
 > - <sup>c</sup> 2. tòn ¦ [PT]
 > - <sup>d</sup> 2. Iōánnēn ¦ ECM NA PCK RP<sup>mg</sup> TR tòn Iōánnēn ¦ PT [tòn] Iōánnēn ¦ WH Iōánēn
 > - <sup>e</sup> 3. egénonto ¦ CT PCK PT RP<sup>mg</sup> TR egéneto
@@ -1065,11 +1065,11 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>r</sup> 7. ē̂lthen ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA SBL WH egéneto
 > - <sup>s</sup> 7. nephélēs ¦ PT TR nephélēs légousa
 > - <sup>t</sup> 7. autoû akoúete ¦ CT akoúete autoû
-> - <sup>u</sup> 8. allà tòn Iēsoûn mónon meth heautō̂n ¦ WH meth heautō̂n ei mḕ tòn Iēsoûn mónon
+> - <sup>u</sup> 8. allà tòn Iēsoûn mónon meth’ heautō̂n ¦ WH meth’ heautō̂n ei mḕ tòn Iēsoûn mónon
 > - <sup>v</sup> 9. Katabainóntōn dè ¦ CT Kaì katabainóntōn
 > - <sup>w</sup> 9. apò ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA SBL WH ek
 > - <sup>x</sup> 9. diēgḗsōntai hà eîdon ¦ CT hà eîdon diēgḗsōntai
-> - <sup>y</sup> 10. syzētoûntés ¦ TH WH synzētoûntés
+> - <sup>y</sup> 10. syzētoûntes ¦ TH WH synzētoûntes
 > - <sup>z</sup> 11. Ēlían ¦ WH Ēleían
 > - <sup>aa</sup> 12. apokritheìs eîpen ¦ CT éphē
 > - <sup>ab</sup> 12. Ēlías ¦ WH Ēleías
@@ -1109,7 +1109,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>bj</sup> 26. polloùs ¦ CT toùs polloùs
 > - <sup>bk</sup> 27. autòn tē̂s cheirós ¦ CT tē̂s cheiròs autoû
 > - <sup>bl</sup> 28. eiselthónta autòn ¦ CT eiselthóntos autoû
-> - <sup>bm</sup> 28. epērṓtōn autòn kat idían ¦ CT kat idían epērṓtōn autòn
+> - <sup>bm</sup> 28. epērṓtōn autòn kat’ idían ¦ CT kat’ idían epērṓtōn autòn
 > - <sup>bn</sup> 29. kaì nēsteía ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA SBL WH _om._
 > - <sup>bo</sup> 29. Guardian Press: kaì nēsteía 𝔓<sup>45</sup><sup>vid</sup> ℵ<sup>2</sup> A C D E F G H K L M N S U V W X Y Γ Δ Θ Π Σ Φ Ψ Ω 047 055 0211 0257 33 399 461 565 566 892 1080 1143 1295 1424 1500 2224 2811 ¦ _om._ ℵ<sup>∗</sup> B 0274 ¦ 0318 _inaccessible_
 > - <sup>bp</sup> 30. Kaì ekeîthen ¦ CT Kakeîthen
@@ -1238,14 +1238,14 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>r</sup> 13. epetímōn toîs prosphérousin ¦ CT epetímēsan autoîs
 > - <sup>s</sup> 14. mḕ ¦ PT TR kaì mḕ
 > - <sup>t</sup> 15. eàn ¦ CT àn
-> - <sup>u</sup> 16. titheìs tàs cheîras ep autà eulógei ¦ TR titheìs tàs cheîras ep autà ēulógei ¦ CT kateulógei titheìs tàs cheîras ep ¦ PT katēulógei titheìs tàs cheîras ep
+> - <sup>u</sup> 16. titheìs tàs cheîras ep’ autà eulógei ¦ TR titheìs tàs cheîras ep’ autà ēulógei ¦ CT kateulógei titheìs tàs cheîras ep’ ¦ PT katēulógei titheìs tàs cheîras ep’
 > - <sup>v</sup> 17. heîs ¦ PCK tìs
 > - <sup>w</sup> 19. moicheúsēs mḕ phoneúsēs ¦ ECM NA SBL WH phoneúsēs mḕ moicheúsēs
 > - <sup>x</sup> 20. apokritheìs eîpen ¦ CT éphē
 > - <sup>y</sup> 21. soi ¦ CT PT se
 > - <sup>z</sup> 21. hýpage ¦ PT ei théleis téleios eînai hýpage
 > - <sup>aa</sup> 21. dòs ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> SBL TH TR dòs toîs ¦ NA WH dòs [toîs]
-> - <sup>ab</sup> 21. áras tòn staurón ¦ PT áras tòn staurón soû ¦ CT _om._
+> - <sup>ab</sup> 21. áras tòn staurón ¦ PT áras tòn staurón sou ¦ CT _om._
 > - <sup>ac</sup> 24. toùs pepoithótas epì chrḗmasin ¦ TR toùs pepoithótas epì toîs chrḗmasin ¦ CT _om._
 > - <sup>ad</sup> 25. estin ¦ PCK gár estin
 > - <sup>ae</sup> 25. tē̂s trymaliâs tē̂s ¦ ECM<sup>†</sup> _txt_ ¦ NA [tē̂s] trymaliâs [tē̂s] ¦ PCK trymaliâs tē̂s ¦ ECM<sup>†</sup> PT WH trymaliâs
@@ -1397,9 +1397,9 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>ax</sup> 24. lambánete ¦ CT elábete
 > - <sup>ay</sup> 25. stḗkēte ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> stḗkete
 > - <sup>az</sup> 26. Ei … hymō̂n ¦ [[ECM]] ¦ NA SBL TH WH _om._ ¦ PT ei dè hymeîs ouk aphíete oudè ho patḕr hymō̂n aphḗsei tà paraptṓmata hymō̂n
-> - <sup>ba</sup> 26. Guardian Press: ei dè hymeîs ouk aphíete oudè ho patḕr hymō̂n ho en toîs ouranoîs aphḗsei tà paraptṓmata hymō̂n A C D E F<sup>vid</sup> G H K M N U V X Y Γ Θ Π Σ Φ Ω (047) 055<sup>vid</sup> (0211) (0233) 33 399 461 1080 1143 1295 1424 (1500) 2224 2811<sup>c</sup> (047: ouránios _for_ en toîs ouranoîs? 0211 1500: _om._ toîs? 0233: aphḗsē _for_ aphḗsei) ¦ _om._ ℵ B L S W Δ Ψ 565 566 892 2811<sup>∗</sup> ¦ 0154 0318 _inaccessible_
+> - <sup>ba</sup> 26. Guardian Press: Ei dè hymeîs ouk aphíete oudè ho patḕr hymō̂n ho en toîs ouranoîs aphḗsei tà paraptṓmata hymō̂n A C D E F<sup>vid</sup> G H K M N U V X Y Γ Θ Π Σ Φ Ω (047) 055<sup>vid</sup> (0211) (0233) 33 399 461 1080 1143 1295 1424 (1500) 2224 2811<sup>c</sup> (047: ouránios _for_ en toîs ouranoîs? 0211 1500: _om._ toîs? 0233: aphḗsē _for_ aphḗsei) ¦ _om._ ℵ B L S W Δ Ψ 565 566 892 2811<sup>∗</sup> ¦ 0154 0318 _inaccessible_
 > - <sup>bb</sup> 28. légousin ¦ CT élegon
-> - <sup>bc</sup> 28. Kaí tís soi tḕn exousían taútēn édōken ¦ CT PT Ḗ tís soi edōke(n) tḕn exousían taútēn
+> - <sup>bc</sup> 28. Kaì tís soi tḕn exousían taútēn édōken ¦ CT PT Ḗ tís soi edōke(n) tḕn exousían taútēn
 > - <sup>bd</sup> 29. apokritheìs ¦ CT _om._
 > - <sup>be</sup> 29. kaì egṑ ¦ PT TR kagṑ ¦ CT _om._
 > - <sup>bf</sup> 30. Iōánnou ¦ ECM NA SBL TH tò Iōánnou ¦ WH tò Iōánou
@@ -1407,7 +1407,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>bh</sup> 31. elogízonto ¦ CT dielogízonto
 > - <sup>bi</sup> 31. Eàn ¦ SBL Tì eípōmen eàn
 > - <sup>bj</sup> 31. oûn ¦ [NA WH]
-> - <sup>bk</sup> 32. All ¦ NA<sup>27</sup> PT SBL TH WH Allà ¦ TR All eàn
+> - <sup>bk</sup> 32. All’ ¦ NA<sup>27</sup> PT SBL TH WH Allà ¦ TR All’ eàn
 > - <sup>bl</sup> 32. laón ¦ NA SBL TH WH óchlon
 > - <sup>bm</sup> 32. Iōánnēn ¦ WH Iōánēn
 > - <sup>bn</sup> 32. hóti óntōs ¦ CT óntōs hóti ¦ PT hóti
@@ -1610,7 +1610,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>h</sup> 5. apokritheìs autoîs ḗrxato légein ¦ PT apokritheìs ḗrxato légein autoîs ¦ CT ḗrxato légein autoîs
 > - <sup>i</sup> 6. gàr ¦ CT _om._
 > - <sup>j</sup> 7. gàr ¦ CT _om._
-> - <sup>k</sup> 8. epì ¦ CT ep
+> - <sup>k</sup> 8. epì ¦ CT ep’
 > - <sup>l</sup> 8. kaì ¦ CT _om._
 > - <sup>m</sup> 8. kaì ¦ CT _om._
 > - <sup>n</sup> 8. kaì tarachaì archaì ¦ CT archḕ
@@ -1643,7 +1643,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>ao</sup> 22. kaì ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
 > - <sup>ap</sup> 23. idoú ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
 > - <sup>aq</sup> 23. pánta ¦ PT hápanta
-> - <sup>ar</sup> 24. All ¦ NA<sup>27</sup> SBL TH WH Allà
+> - <sup>ar</sup> 24. All’ ¦ NA<sup>27</sup> SBL TH WH Allà
 > - <sup>as</sup> 25. toû ouranoû ésontai ekpíptontes ¦ CT PT ésontai ek toû ouranoû píptontes
 > - <sup>at</sup> 27. autoû ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
 > - <sup>au</sup> 27. autoû ¦ [NA WH] ¦ SBL _om._
@@ -1780,7 +1780,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>y</sup> 16. autoû ¦ CT _om._
 > - <sup>z</sup> 18. eîpen ho Iēsoûs ¦ CT ho Iēsoûs eîpen
 > - <sup>aa</sup> 19. Hoi dè ¦ CT _om._
-> - <sup>ab</sup> 19. kath ¦ CT katà
+> - <sup>ab</sup> 19. kath’ ¦ CT katà
 > - <sup>ac</sup> 19. Kaì állos mḗti egṓ ¦ CT _om._
 > - <sup>ad</sup> 20. apokritheìs ¦ CT _om._
 > - <sup>ae</sup> 20. ek ¦ CT _om._
@@ -1809,13 +1809,13 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>bb</sup> 32. Gethsēmanē̂ ¦ ECM NA SBL Gethsēmaní ¦ TH WH Gethsēmaneí
 > - <sup>bc</sup> 32. proseúxōmai ¦ PCK proseúxomai
 > - <sup>bd</sup> 33. Iákōbon kaì Iōánnēn ¦ TR tòn Iákōbon kaì Iōánnēn ¦ ECM TH tòn Iákōbon kaì tòn Iōánnēn ¦ NA [tòn] Iákōbon kaì [tòn] Iōánnēn ¦ WH tòn Iákōbon kaì tòn Iōánēn
-> - <sup>be</sup> 33. meth heautoû ¦ CT met autoû
+> - <sup>be</sup> 33. meth’ heautoû ¦ CT met’ autoû
 > - <sup>bf</sup> 34. légei ¦ PT légein
 > - <sup>bg</sup> 35. proselthṑn ¦ CT PCK PT TR proelthṑn
 > - <sup>bh</sup> 35. épesen ¦ CT épipten ¦ PT épesen epì prósōpon
 > - <sup>bi</sup> 36. Parénenke ¦ PCK Parénenkai
-> - <sup>bj</sup> 36. ap emoû toûto ¦ CT toûto ap emoû
-> - <sup>bk</sup> 36. allà ¦ PT all ei
+> - <sup>bj</sup> 36. ap’ emoû toûto ¦ CT toûto ap’ emoû
+> - <sup>bk</sup> 36. allà ¦ PT all’ ei
 > - <sup>bl</sup> 37. íschysas ¦ PT ischýsate
 > - <sup>bm</sup> 38. eisélthēte ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> élthēte
 > - <sup>bn</sup> 39. tòn autòn lógon eipṓn ¦ [WH]
@@ -1835,7 +1835,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>cb</sup> 45. euthéōs ¦ CT euthỳs
 > - <sup>cc</sup> 45. autō̂ rhabbì rhabbí ¦ TR rhabbì rhabbí ¦ PT Chaîre rhabbí ¦ ECM NA SBL rhabbí ¦ TH WH rhabbeí
 > - <sup>cd</sup> 46. epébalon ¦ SBL WH epébalan
-> - <sup>ce</sup> 46. ep autòn tàs cheîras autō̂n ¦ ECM<sup>†</sup> tàs cheîras autō̂n ¦ CT<sup>†</sup> tàs cheîras autō̂
+> - <sup>ce</sup> 46. ep’ autòn tàs cheîras autō̂n ¦ ECM<sup>†</sup> tàs cheîras autō̂n ¦ CT<sup>†</sup> tàs cheîras autō̂
 > - <sup>cf</sup> 47. tis ¦ [NA WH]
 > - <sup>cg</sup> 47. ōtíon ¦ CT ōtárion
 > - <sup>ch</sup> 48. exḗlthete ¦ CT exḗlthate
@@ -1844,7 +1844,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>ck</sup> 51. heîs tis neanískos ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> neanískos tis
 > - <sup>cl</sup> 51. ēkoloúthēsen ¦ TR ēkoloúthei ¦ CT synēkoloúthei
 > - <sup>cm</sup> 51. hoi neanískoi ¦ CT _om._
-> - <sup>cn</sup> 52. ap autō̂n ¦ CT _om._
+> - <sup>cn</sup> 52. ap’ autō̂n ¦ CT _om._
 > - <sup>co</sup> 53. autō̂ ¦ ECM NA SBL WH _om._
 > - <sup>cp</sup> 54. synkathḗmenos ¦ TH WH synkathḗmenos
 > - <sup>cq</sup> 55. heúriskon ¦ CT hēúriskon
@@ -1862,7 +1862,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>dc</sup> 66. en tē̂ aulē̂ kátō ¦ CT PT kátō en tē̂ aulē̂
 > - <sup>dd</sup> 67. Nazarēnoû Iēsoû ē̂stha ¦ CT Nazarēnoû ē̂stha toû Iēsoû ¦ PT Iēsoû toû Nazarēnoû ē̂stha
 > - <sup>de</sup> 68. Ouk oîda oudè ¦ HF PCK RP<sup>mg</sup> Ouk oîda oúte ¦ CT Oúte oîda oúte
-> - <sup>df</sup> 68. tì sỳ ¦ CT sý tì
+> - <sup>df</sup> 68. tí sỳ ¦ CT sý tì
 > - <sup>dg</sup> 68. kaì aléktōr ephṓnēsen ¦ ECM<sup>†</sup> _txt_ ¦ [NA] ¦ ECM<sup>†</sup> WH _om._
 > - <sup>dh</sup> 69. pálin ḗrxato ¦ CT ḗrxato pálin
 > - <sup>di</sup> 69. parestēkósin ¦ CT parestō̂sin
@@ -1965,7 +1965,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>ai</sup> 23. ho ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> hòs
 > - <sup>aj</sup> 24. staurṓsantes autòn diamerízontai ¦ ECM<sup>†</sup> _txt_ ¦ TR staurṓsantes autòn diemérizon ¦ CT<sup>†</sup> stauroûsin autòn kaì diamerízontai
 > - <sup>ak</sup> 28. Kaì … elogísthē ¦ [[ECM]] ¦ [PT] ¦ NA SBL TH WH _om._
-> - <sup>al</sup> 28. Guardian Press: kaì eplērṓthē hē graphḕ hē légousa kaì metà anómōn elogísthē E F G H K L M P S U (V) Γ (Δ) Θ Π Σ Ω 083 0211 0250 0257 33 399 565 566 892 1143 1424 2224 2811 (V: _adds_ tò _after_ légousa? Δ: _adds_ hē _before_ eplērṓthē) ¦ _om._ ℵ A B C D X Y Ψ 047 055<sup>vid</sup> 461 1080 1295
+> - <sup>al</sup> 28. Guardian Press: Kaì eplērṓthē hē graphḕ hē légousa kaì metà anómōn elogísthē E F G H K L M P S U (V) Γ (Δ) Θ Π Σ Ω 083 0211 0250 0257 33 399 565 566 892 1143 1424 2224 2811 (V: _adds_ tò _after_ légousa? Δ: _adds_ hē _before_ eplērṓthē) ¦ _om._ ℵ A B C D X Y Ψ 047 055<sup>vid</sup> 461 1080 1295
 > - <sup>am</sup> 29. kinoûntes ¦ TH keinoûntes
 > - <sup>an</sup> 29. en trisìn hēmérais oikodomō̂n ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> NA SBL TH oikodomō̂n en trisìn hēmérais ¦ WH oikodomō̂n [en] trisìn hēmérais
 > - <sup>ao</sup> 30. kaì katába ¦ CT katabàs
@@ -1986,7 +1986,7 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>bd</sup> 36. heîs kaì ¦ ECM SBL tis kaì ¦ NA tis [kaì] ¦ TH WH tis
 > - <sup>be</sup> 36. te ¦ CT _om._
 > - <sup>bf</sup> 36. Ēlías ¦ WH Ēleías
-> - <sup>bg</sup> 38. apò ¦ CT ap
+> - <sup>bg</sup> 38. apò ¦ CT ap’
 > - <sup>bh</sup> 39. kráxas ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
 > - <sup>bi</sup> 39. ho ánthrōpos hoûtos hyiòs ē̂n theoû ¦ TH hoûtos ho ánthrōpos hyiòs ē̂n theoû ¦ ECM NA SBL WH hoûtos ho ánthrōpos hyiòs theoû ē̂n
 > - <sup>bj</sup> 40. ē̂n kaì ¦ PCK ē̂n ¦ CT kaì
@@ -2040,15 +2040,15 @@ Kaì periē̂gen tàs kṓmas kýklō didáskōn.
 > - <sup>c</sup> 1. autón ¦ PCK tòn Iēsoûn
 > - <sup>d</sup> 2. tē̂s miâs ¦ ECM NA SBL TH tē̂ miâ tō̂n ¦ WH [tē̂] miâ tō̂n
 > - <sup>e</sup> 4. apokekýlistai ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> WH anakekýlistai
-> - <sup>f</sup> 7. All ¦ NA<sup>27</sup> SBL TH WH Allà
+> - <sup>f</sup> 7. All’ ¦ NA<sup>27</sup> SBL TH WH Allà
 > - <sup>g</sup> 8. éphygon ¦ TR tachỳ éphygon
 > - <sup>h</sup> 8. dè ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> gàr
 > - <sup>i</sup> 8. eîpon ¦ ECM NA SBL WH eîpan
-> - <sup>j</sup> 8. _om._ ¦ ECM<sup>†</sup> NA SBL [[pánta dè tà parēngelména toîs perì tòn Pétron syntómōs exḗngeilan metà dè taûta kaì autòs ho Iēsoûs apò anatolē̂s kaì áchri dýseōs exapésteilen di autō̂n tò hieròn kaì áphtharton kḗrygma tē̂s aiōníou sōtērías amḕn]] ¦ ECM<sup>†</sup> [[pánta … sōtērías]] ¦ WH _as last_ ECM<sup>†</sup> _but placed after_ 16:20 ¦ TH _adds in offset and small caps type:_ en tísi mèn tō̂n antigráphōn héōs hō̂de plēroûtai ho euangelistḕs héōs ou kaì Eusébios ho Pamphílou ekanónisen en polloîs dè kaì taûta phéretai
+> - <sup>j</sup> 8. _om._ ¦ ECM<sup>†</sup> NA SBL [[pánta dè tà parēngelména toîs perì tòn Pétron syntómōs exḗngeilan metà dè taûta kaì autòs ho Iēsoûs apò anatolē̂s kaì áchri dýseōs exapésteilen di’ autō̂n tò hieròn kaì áphtharton kḗrygma tē̂s aiōníou sōtērías amḕn]] ¦ ECM<sup>†</sup> [[pánta … sōtērías]] ¦ WH _as last_ ECM<sup>†</sup> _but placed after_ 16:20 ¦ TH _adds in offset and small caps type:_ en tísi mèn tō̂n antigráphōn héōs hō̂de plēroûtai ho euangelistḕs héōs ou kaì Eusébios ho Pamphílou ekanónisen en polloîs dè kaì taûta phéretai
 > - <sup>k</sup> 9. Anastàs … sēmeíōn amḕn ¦ ECM NA SBL WH _place these verses in double brackets._
 > - <sup>l</sup> 9. Guardian Press: _Retain verses 9–20, variants ignored_ A C D E G H K (L) M S U V W X Y Γ Δ Θ Π Σ (Ψ) Ω 047 055 (083) (099) 0211 0257 33 399 461 565 566 892 1080 1143 1295 1424 2224 2811 (L Ψ 083 099: _also add shorter conclusion_) ¦ _om._ ℵ B
 > - <sup>m</sup> 9. dè ¦ PCK dè ho Iēsoûs
-> - <sup>n</sup> 9. aph ¦ CT par
+> - <sup>n</sup> 9. aph’ ¦ CT par’
 > - <sup>o</sup> 11. Kakeînoi ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> Ekeînoi
 > - <sup>p</sup> 14. Hýsteron ¦ SBL TH Hýsteron dè ¦ NA WH Hýsteron [dè]
 > - <sup>q</sup> 14. autoîs ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> _om._

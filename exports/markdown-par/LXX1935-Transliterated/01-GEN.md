@@ -64,7 +64,7 @@
 <sup>19</sup> Kaì éplasen ho theòs éti ek tē̂s gē̂s pánta tà thēría toû agroû kaì pánta tà peteinà toû ouranoû kaì ḗgagen autà pròs tòn Adam ideîn, tí kalései autá, kaì pân, hò eàn ekálesen autò Adam psychḕn zō̂san, toûto ónoma autoû.
 
 <sup>20</sup> Kaì ekálesen Adam onómata pâsin toîs ktḗnesin kaì pâsi toîs peteinoîs toû ouranoû kaì pâsi toîs thēríois toû agroû, tō̂ dè Adam ouch heuréthē boēthòs hómoios autō̂. –
-<sup>21</sup> kaì epébalen ho theòs ékstasin epì tòn Adam, kaì hýpnōsen; kaì élaben mían tō̂n pleurō̂n autoû kaì aneplḗrōsen sárka ant autē̂s.
+<sup>21</sup> kaì epébalen ho theòs ékstasin epì tòn Adam, kaì hýpnōsen; kaì élaben mían tō̂n pleurō̂n autoû kaì aneplḗrōsen sárka ant’ autē̂s.
 <sup>22</sup> Kaì ōkodómēsen kýrios ho theòs tḕn pleurán, hḕn élaben apò toû Adam, eis gynaîka kaì ḗgagen autḕn pròs tòn Adam.
 <sup>23</sup> Kaì eîpen Adam Toûto nŷn ostoûn ek tō̂n ostéōn mou kaì sàrx ek tē̂s sarkós mou; haútē klēthḗsetai gynḗ, hóti ek toû andròs autē̂s elḗmphthē haútē.
 <sup>24</sup> Héneken toútou kataleípsei ánthrōpos tòn patéra autoû kaì tḕn mētéra autoû kaì proskollēthḗsetai pròs tḕn gynaîka autoû, kaì ésontai hoi dýo eis sárka mían.
@@ -735,7 +735,7 @@
 
 <sup>10</sup> Ephrōn dè ekáthēto en mésō tō̂n hyiō̂n Chet; apokritheìs dè Ephrōn ho Chettaîos pròs Abraam eîpen akouóntōn tō̂n hyiō̂n Chet kaì pántōn tō̂n eisporeuoménōn eis tḕn pólin légōn
 
-<sup>11</sup> Par emoì genoû, kýrie, kaì ákousón mou. Tòn agròn kaì tò spḗlaion tò en autō̂ soi dídōmi; enantíon pántōn tō̂n politō̂n mou dédōká soi; thápson tòn nekrón sou.
+<sup>11</sup> Par’ emoì genoû, kýrie, kaì ákousón mou. Tòn agròn kaì tò spḗlaion tò en autō̂ soi dídōmi; enantíon pántōn tō̂n politō̂n mou dédōká soi; thápson tòn nekrón sou.
 <sup>12</sup> Kaì prosekýnēsen Abraam enantíon toû laoû tē̂s gē̂s
 <sup>13</sup> kaì eîpen tō̂ Ephrōn eis tà ō̂ta toû laoû tē̂s gē̂s Epeidḕ pròs emoû eî, ákousón mou; tò argýrion toû agroû labè par’ emoû, kaì thápsō tòn nekrón mou ekeî.
 <sup>14</sup> Apekríthē dè Ephrōn tō̂ Abraam légōn
@@ -1119,7 +1119,7 @@
 <sup>29</sup> Kaì nŷn ischýei hē cheír mou kakopoiē̂saí se; ho dè theòs toû patrós sou echthès eîpen prós me légōn Phýlaxai seautón, mḗpote lalḗsēs metà Iakōb ponērá.
 <sup>30</sup> Nŷn oûn pepóreusai; epithymía gàr epethýmēsas apeltheîn eis tòn oîkon toû patrós sou; hína tí éklepsas toùs theoús mou?
 <sup>31</sup> Apokritheìs dè Iakōb eîpen tō̂ Laban Eîpa gár Mḗpote aphélēs tàs thygatéras sou ap’ emoû kaì pánta tà emá;
-<sup>32</sup> epígnōthi, tí estin tō̂n sō̂n par’ emoí, kaì labé. Kaì ouk epégnō par’ autō̂ outhén. Kaì eîpen autō̂ Iakōb Par hō̂ eàn heúrēs toùs theoús sou, ou zḗsetai enantíon tō̂n adelphō̂n hēmō̂n. Ouk ḗdei dè Iakōb hóti Rachēl hē gynḕ autoû éklepsen autoús.
+<sup>32</sup> epígnōthi, tí estin tō̂n sō̂n par’ emoí, kaì labé. Kaì ouk epégnō par’ autō̂ outhén. Kaì eîpen autō̂ Iakōb Par’ hō̂ eàn heúrēs toùs theoús sou, ou zḗsetai enantíon tō̂n adelphō̂n hēmō̂n. Ouk ḗdei dè Iakōb hóti Rachēl hē gynḕ autoû éklepsen autoús.
 <sup>33</sup> Eiselthṑn dè Laban ēreúnēsen eis tòn oîkon Leias kaì ouch heûren; kaì exelthṑn ek toû oíkou Leias ēreúnēsen tòn oîkon Iakōb kaì en tō̂ oíkō tō̂n dýo paidiskō̂n kaì ouch heûren. Eisē̂lthen dè kaì eis tòn oîkon Rachēl.
 
 <sup>34</sup> Rachēl dè élaben tà eídōla kaì enébalen autà eis tà ságmata tē̂s kamḗlou kaì epekáthisen autoîs
@@ -1318,13 +1318,13 @@
 
 <sup>31</sup> Kaì hoûtoi hoi basileîs hoi basileúsantes en Edōm prò toû basileûsai basiléa en Israēl.
 <sup>32</sup> Kaì ebasíleusen en Edōm Balak hyiòs toû Beōr, kaì ónoma tē̂ pólei autoû Dennaba.
-<sup>33</sup> Apéthanen dè Balak, kaì ebasíleusen ant autoû Iōbab hyiòs Zara ek Bosorras.
-<sup>34</sup> Apéthanen dè Iōbab, kaì ebasíleusen ant autoû Asom ek tē̂s gē̂s Thaimanōn.
-<sup>35</sup> Apéthanen dè Asom, kaì ebasíleusen ant autoû Adad hyiòs Barad ho ekkópsas Madiam en tō̂ pedíō Mōab, kaì ónoma tē̂ pólei autoû Geththaim.
-<sup>36</sup> Apéthanen dè Adad, kaì ebasíleusen ant autoû Samala ek Masekkas.
-<sup>37</sup> Apéthanen dè Samala, kaì ebasíleusen ant autoû Saoul ek Roōbōth tē̂s parà potamón.
-<sup>38</sup> Apéthanen dè Saoul, kaì ebasíleusen ant autoû Balaennōn hyiòs Achobōr.
-<sup>39</sup> Apéthanen dè Balaennōn hyiòs Achobōr, kaì ebasíleusen ant autoû Arad hyiòs Barad, kaì ónoma tē̂ pólei autoû Phogōr, ónoma dè tē̂ gynaikì autoû Maitebeēl thygátēr Matraith hyioû Maizoob.
+<sup>33</sup> Apéthanen dè Balak, kaì ebasíleusen ant’ autoû Iōbab hyiòs Zara ek Bosorras.
+<sup>34</sup> Apéthanen dè Iōbab, kaì ebasíleusen ant’ autoû Asom ek tē̂s gē̂s Thaimanōn.
+<sup>35</sup> Apéthanen dè Asom, kaì ebasíleusen ant’ autoû Adad hyiòs Barad ho ekkópsas Madiam en tō̂ pedíō Mōab, kaì ónoma tē̂ pólei autoû Geththaim.
+<sup>36</sup> Apéthanen dè Adad, kaì ebasíleusen ant’ autoû Samala ek Masekkas.
+<sup>37</sup> Apéthanen dè Samala, kaì ebasíleusen ant’ autoû Saoul ek Roōbōth tē̂s parà potamón.
+<sup>38</sup> Apéthanen dè Saoul, kaì ebasíleusen ant’ autoû Balaennōn hyiòs Achobōr.
+<sup>39</sup> Apéthanen dè Balaennōn hyiòs Achobōr, kaì ebasíleusen ant’ autoû Arad hyiòs Barad, kaì ónoma tē̂ pólei autoû Phogōr, ónoma dè tē̂ gynaikì autoû Maitebeēl thygátēr Matraith hyioû Maizoob.
 
 <sup>40</sup> Taûta tà onómata tō̂n hēgemónōn Ēsau en taîs phylaîs autō̂n katà tópon autō̂n, en taîs chṓrais autō̂n kaì en toîs éthnesin autō̂n; hēgemṑn Thamna, hēgemṑn Gōla, hēgemṑn Iether,
 <sup>41</sup> hēgemṑn Elibemas, hēgemṑn Ēlas, hēgemṑn Phinōn,

@@ -291,8 +291,8 @@
 
 <sup>12</sup> Archḕ hyperēphanías anthrṓpou aphístasthai apò kyríou, kaì apò toû poiḗsantos autòn apéstē hē kardía autoû.
 <sup>13</sup> Hóti archḕ hyperēphanías hamartía, kaì ho kratō̂n autē̂s exombrḗsei bdélygma; dià toûto paredóxasen kýrios tàs epagōgàs kaì katéstrepsen eis télos autoús.
-<sup>14</sup> Thrónous archóntōn katheîlen ho kýrios kaì ekáthisen praeîs ant autō̂n;
-<sup>15</sup> rhízas ethnō̂n exétilen ho kýrios kaì ephýteusen tapeinoùs ant autō̂n;
+<sup>14</sup> Thrónous archóntōn katheîlen ho kýrios kaì ekáthisen praeîs ant’ autō̂n;
+<sup>15</sup> rhízas ethnō̂n exétilen ho kýrios kaì ephýteusen tapeinoùs ant’ autō̂n;
 <sup>16</sup> chṓras ethnō̂n katéstrepsen ho kýrios kaì apṓlesen autàs héōs themelíōn gē̂s;
 <sup>17</sup> exē̂ren ex autō̂n kaì apṓlesen autoùs kaì katépausen apò gē̂s tò mnēmósynon autō̂n.
 <sup>18</sup> Ouk éktistai anthrṓpois hyperēphanía oudè orgḕ thymoû gennḗmasin gynaikō̂n.

@@ -97,7 +97,7 @@
 
 <sup>13</sup> Agathòs paîs pénēs kaì sophòs hypèr basiléa presbýteron kaì áphrona, hòs ouk égnō toû proséchein éti;
 <sup>14</sup> hóti ex oíkou tō̂n desmíōn exeleúsetai toû basileûsai, hóti kaí ge en basileía autoû egennḗthē pénēs.
-<sup>15</sup> Eîdon sỳn pántas toùs zō̂ntas toùs peripatoûntas hypò tòn hḗlion metà toû neanískou toû deutérou, hòs stḗsetai ant autoû,
+<sup>15</sup> Eîdon sỳn pántas toùs zō̂ntas toùs peripatoûntas hypò tòn hḗlion metà toû neanískou toû deutérou, hòs stḗsetai ant’ autoû,
 <sup>16</sup> ouk éstin perasmòs tō̂ pantì laō̂, toîs pâsin, hósoi egénonto émprosthen autō̂n; kaí ge hoi éschatoi ouk euphranthḗsontai en autō̂; hóti kaí ge toûto mataiótēs kaì proaíresis pneúmatos.
 
 <sup>17</sup> Phýlaxon póda sou, en hō̂ eàn poreúē eis oîkon toû theoû, kaì engỳs toû akoúein; hypèr dóma tō̂n aphrónōn thysía sou, hóti oúk eisin eidótes toû poiē̂sai kakón.

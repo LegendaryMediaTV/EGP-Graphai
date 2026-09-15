@@ -13,7 +13,7 @@
 <sup>9</sup> kaì ptoēthḗsontai hoi machētaí sou hoi ek Thaiman, hópōs exarthē̂ ánthrōpos ex órous Ēsau
 <sup>10</sup> dià tḕn sphagḕn kaì tḕn asébeian tḕn eis tòn adelphón sou Iakōb, kaì kalýpsei se aischýnē kaì exarthḗsē eis tòn aiō̂na.
 
-<sup>11</sup> Aph hē̂s hēméras antéstēs ex enantías en hēméra aichmalōteuóntōn allogenō̂n dýnamin autoû kaì allótrioi eisē̂lthon eis pýlas autoû kaì epì Ierousalēm ébalon klḗrous, kaì sỳ ē̂s hōs heîs ex autō̂n.
+<sup>11</sup> Aph’ hē̂s hēméras antéstēs ex enantías en hēméra aichmalōteuóntōn allogenō̂n dýnamin autoû kaì allótrioi eisē̂lthon eis pýlas autoû kaì epì Ierousalēm ébalon klḗrous, kaì sỳ ē̂s hōs heîs ex autō̂n.
 <sup>12</sup> Kaì mḕ epídēs hēméran adelphoû sou en hēméra allotríōn kaì mḕ epicharē̂s epì toùs hyioùs Iouda en hēméra apōleías autō̂n kaì mḕ megalorrēmonḗsēs en hēméra thlípseōs;
 <sup>13</sup> mēdè eisélthēs eis pýlas laō̂n en hēméra pónōn autō̂n mēdè epídēs kaì sỳ tḕn synagōgḕn autō̂n en hēméra oléthrou autō̂n mēdè synepithē̂ epì tḕn dýnamin autō̂n en hēméra apōleías autō̂n;
 <sup>14</sup> mēdè epistē̂s epì tàs diekbolàs autō̂n toû exolethreûsai toùs anasōzoménous autō̂n mēdè synkleísēs toùs pheúgontas ex autō̂n en hēméra thlípseōs.

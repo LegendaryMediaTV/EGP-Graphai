@@ -38,7 +38,7 @@
 > - <sup>h</sup> 12. oúte ¦ TH oudè
 > - <sup>i</sup> 12. Iēsoû ¦ PCK _om._
 > - <sup>j</sup> 15. ho theòs ¦ [NA WH] ¦ SBL _om._
-> - <sup>k</sup> 17. allà ¦ NA<sup>28</sup> TR all
+> - <sup>k</sup> 17. allà ¦ NA<sup>28</sup> TR all’
 > - <sup>l</sup> 18. étē tría ¦ WH tría étē
 > - <sup>m</sup> 18. Pétron ¦ CT Kēphân
 > - <sup>n</sup> 21. tē̂s ¦ [WH]
@@ -124,7 +124,7 @@
 > - <sup>e</sup> 8. Eneulogēthḗsontai ¦ SCR Eulogēthḗsontai
 > - <sup>f</sup> 10. gár ¦ CT gàr hóti
 > - <sup>g</sup> 10. en ¦ CT _om._
-> - <sup>h</sup> 12. all ¦ TH allà
+> - <sup>h</sup> 12. all’ ¦ TH allà
 > - <sup>i</sup> 12. ánthrōpos ¦ CT _om._
 > - <sup>j</sup> 13. gégraptai gár ¦ CT hóti gégraptai
 > - <sup>k</sup> 14. christō̂ Iēsoû ¦ WH Iēsoû christō̂
@@ -175,24 +175,24 @@
 <sup>30</sup> Allà tí légei hē graphḗ? Ékbale tḕn paidískēn kaì tòn hyiòn autē̂s, ou <sup>aa</sup>gàr mḕ <sup>ab</sup>klēronomḗsē ho hyiòs tē̂s paidískēs metà toû hyioû tē̂s eleuthéras.
 <sup>31</sup> <sup>ac</sup>Ára, adelphoí, ouk esmèn paidískēs tékna, allà tē̂s eleuthéras.
 
-> - <sup>a</sup> 2. allà ¦ NA<sup>28</sup> PCK all
+> - <sup>a</sup> 2. allà ¦ NA<sup>28</sup> PCK all’
 > - <sup>b</sup> 3. ē̂men ¦ NA SBL WH ḗmetha
 > - <sup>c</sup> 6. hymō̂n ¦ CT hēmō̂n
-> - <sup>d</sup> 7. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>d</sup> 7. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>e</sup> 7. theoû dià christoû ¦ CT dià theoû
 > - <sup>f</sup> 8. mḕ phýsei ¦ CT phýsei mḕ
 > - <sup>g</sup> 9. douleúein ¦ WH douleúsai
 > - <sup>h</sup> 12. Gínesthe ¦ TH Geínesthe
 > - <sup>i</sup> 14. mou tòn ¦ CT hymō̂n
-> - <sup>j</sup> 14. all ¦ NA<sup>27</sup> SBL WH allà
-> - <sup>k</sup> 15. Tìs oûn ē̂n ¦ CT Poû oûn
+> - <sup>j</sup> 14. all’ ¦ NA<sup>27</sup> SBL WH allà
+> - <sup>k</sup> 15. Tís oûn ē̂n ¦ CT Poû oûn
 > - <sup>l</sup> 15. àn ¦ CT _om._
-> - <sup>m</sup> 17. allà ¦ NA<sup>28</sup> all
+> - <sup>m</sup> 17. allà ¦ NA<sup>28</sup> all’
 > - <sup>n</sup> 18. tò ¦ CT _om._
 > - <sup>o</sup> 19. Teknía ¦ NA SBL Tékna
 > - <sup>p</sup> 19. áchri ¦ CT méchris
 > - <sup>q</sup> 23. mèn ¦ [WH]
-> - <sup>r</sup> 23. dià tē̂s ¦ CT di
+> - <sup>r</sup> 23. dià tē̂s ¦ CT di’
 > - <sup>s</sup> 24. dýo ¦ TR hai dýo
 > - <sup>t</sup> 24. Sinâ ¦ TH Seinâ
 > - <sup>u</sup> 25. gàr ¦ NA SBL WH dè
@@ -247,7 +247,7 @@
 > - <sup>g</sup> 10. àn ¦ CT eàn
 > - <sup>h</sup> 14. plēroûtai ¦ CT peplḗrōtai
 > - <sup>i</sup> 14. heautón ¦ CT HF PCK PT RP<sup>mg</sup> seautón
-> - <sup>j</sup> 15. hypò ¦ CT PT hyp
+> - <sup>j</sup> 15. hypò ¦ CT PT hyp’
 > - <sup>k</sup> 17. dè antíkeitai allḗlois ¦ CT gàr allḗlois antíkeitai
 > - <sup>l</sup> 17. àn ¦ CT eàn
 > - <sup>m</sup> 19. moicheía ¦ CT _om._

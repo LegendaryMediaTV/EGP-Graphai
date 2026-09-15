@@ -17,7 +17,7 @@
 
 > - <sup>a</sup> 1. eschátou ¦ TR eschátōn
 > - <sup>b</sup> 2. toùs aiō̂nas epoíēsen ¦ CT epoíēsen toùs aiō̂nas
-> - <sup>c</sup> 3. autoû di heautoû ¦ NA TH WH autoû ¦ SBL di hautoû
+> - <sup>c</sup> 3. autoû di’ heautoû ¦ NA TH WH autoû ¦ SBL di’ hautoû
 > - <sup>d</sup> 3. poiēsámenos tō̂n hamartiō̂n hēmō̂n ¦ CT tō̂n hamartiō̂n poiēsámenos
 > - <sup>e</sup> 8. toû aiō̂nos ¦ [WH]
 > - <sup>f</sup> 8. rhábdos euthýtētos hē ¦ CT kaì hē rhábdos tē̂s euthýtētos
@@ -98,7 +98,7 @@
 > - <sup>r</sup> 16. Tinès ¦ CT HF PCK PT RP<sup>mg</sup> tínes
 > - <sup>s</sup> 16. Mōÿséōs ¦ PCK Mōÿséos ¦ TR Mōséōs
 > - <sup>t</sup> 17. tessarákonta ¦ CT tesserákonta
-> - <sup>u</sup> 19. di ¦ PCK dià
+> - <sup>u</sup> 19. di’ ¦ PCK dià
 
 ## Chapter 4
 
@@ -148,10 +148,10 @@
 <sup>14</sup> Teleíōn dé estin hē stereà trophḗ, tō̂n dià tḕn héxin tà aisthētḗria gegymnasména echóntōn pròs diákrisin kaloû te kaì kakoû.
 
 > - <sup>a</sup> 1. te ¦ [WH]
-> - <sup>b</sup> 3. dià taútēn ¦ CT di autḕn
+> - <sup>b</sup> 3. dià taútēn ¦ CT di’ autḕn
 > - <sup>c</sup> 3. heautoû ¦ NA autoû ¦ SBL hautoû
 > - <sup>d</sup> 3. hypèr ¦ CT perì
-> - <sup>e</sup> 4. allà ¦ TR allà ho ¦ HF all ho
+> - <sup>e</sup> 4. allà ¦ TR allà ho ¦ HF all’ ho
 > - <sup>f</sup> 4. katháper ¦ CT kathṓsper
 > - <sup>g</sup> 4. Aarṓn ¦ TR ho Aarṓn
 > - <sup>h</sup> 9. toîs hypakoúousin autō̂ pâsin ¦ CT pâsin toîs hypakoúousin autō̂
@@ -232,7 +232,7 @@
 > - <sup>b</sup> 5. Leuï̀ ¦ TH WH Leueì
 > - <sup>c</sup> 5. hierateían … apodekatoûn ¦ WH hieratían … apodekatoîn
 > - <sup>d</sup> 6. tòn ¦ CT _om._
-> - <sup>e</sup> 9. dià ¦ CT di
+> - <sup>e</sup> 9. dià ¦ CT di’
 > - <sup>f</sup> 9. Leuï̀ ¦ TH WH Leueìs
 > - <sup>g</sup> 10. ho ¦ CT _om._
 > - <sup>h</sup> 11. Leuïtikē̂s ¦ TH WH Leueitikē̂s
@@ -241,7 +241,7 @@
 > - <sup>k</sup> 14. Mōÿsē̂s ¦ TR Mōsē̂s
 > - <sup>l</sup> 16. sarkikē̂s ¦ CT PCK sarkínēs
 > - <sup>m</sup> 17. martyreî ¦ CT martyreîtai
-> - <sup>n</sup> 21. metà ¦ TH met
+> - <sup>n</sup> 21. metà ¦ TH met’
 > - <sup>o</sup> 21. katà … Melchisedék ¦ CT _om._
 > - <sup>p</sup> 22. tosoûton ¦ SBL tosoûto ¦ TH WH tosoûto kaì ¦ NA tosoûto [kaì]
 > - <sup>q</sup> 26. éprepen ¦ NA SBL TH kaì éprepen ¦ WH [kaì] éprepen
@@ -269,7 +269,7 @@
 > - <sup>e</sup> 4. tòn ¦ CT _om._
 > - <sup>f</sup> 5. Mōÿsē̂s ¦ TR Mōsē̂s
 > - <sup>g</sup> 5. poiḗseis ¦ TR poiḗsēs
-> - <sup>h</sup> 6. Nynì ¦ NA nyn[i] ¦ WH Nyn
+> - <sup>h</sup> 6. Nynì ¦ NA nyn[i] ¦ WH Nŷn
 > - <sup>i</sup> 6. tétychen ¦ PCK PT TH TR teteuche(n)
 > - <sup>j</sup> 8. autoîs ¦ NA SBL WH autoùs
 > - <sup>k</sup> 11. polítēn ¦ PCK TR plēsíon
@@ -320,7 +320,7 @@
 > - <sup>h</sup> 13. taúrōn kaì trágōn ¦ CT trágōn kaì taúrōn
 > - <sup>i</sup> 14. aiōníou ¦ PCK hagíou
 > - <sup>j</sup> 14. hymō̂n ¦ NA SBL WH hēmō̂n
-> - <sup>k</sup> 18. oud ¦ CT PCK oudè
+> - <sup>k</sup> 18. oud’ ¦ CT PCK oudè
 > - <sup>l</sup> 18. enkekaínistai ¦ TH WH enkekaínistai
 > - <sup>m</sup> 19. nómon ¦ CT PT tòn nómon
 > - <sup>n</sup> 19. Mōÿséōs ¦ PCK Mōÿséos
@@ -473,7 +473,7 @@
 > - <sup>y</sup> 30. épesen ¦ CT épesan
 > - <sup>z</sup> 32. gár me ¦ CT me gàr
 > - <sup>aa</sup> 32. te kaì Sampsṑn kaì ¦ CT Sampsṑn
-> - <sup>ab</sup> 32. Dauìd ¦ TH WH Daueìd ¦ HF TR Dabìd
+> - <sup>ab</sup> 32. Dauíd ¦ TH WH Daueíd ¦ HF TR Dabíd
 > - <sup>ac</sup> 33. eirgásanto ¦ WH ērgásanto
 > - <sup>ad</sup> 34. machaíras enedynamṓthēsan ¦ CT machaírēs edynamṓthēsan
 > - <sup>ae</sup> 37. eprísthēsan epeirásthēsan ¦ WH epeirásthēsan eprísthēsan ¦ NA SBL eprísthēsan
@@ -525,7 +525,7 @@
 > - <sup>f</sup> 9. pollō̂ ¦ SBL TH WH polỳ ¦ NA polỳ [dè]
 > - <sup>g</sup> 11. dè ¦ WH mèn
 > - <sup>h</sup> 13. poiḗsate ¦ CT poieîte
-> - <sup>i</sup> 15. dià taútēs ¦ CT di autē̂s
+> - <sup>i</sup> 15. dià taútēs ¦ CT di’ autē̂s
 > - <sup>j</sup> 15. polloí ¦ WH hoi polloí
 > - <sup>k</sup> 16. apédoto ¦ CT apédeto
 > - <sup>l</sup> 16. autoû ¦ CT heautoû

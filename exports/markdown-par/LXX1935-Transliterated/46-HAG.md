@@ -10,7 +10,7 @@
 <sup>6</sup> espeírate pollà kaì eisēnénkate olíga, ephágete kaì ouk eis plēsmonḗn, epíete kaì ouk eis méthēn, periebálesthe kaì ouk ethermánthēte en autoîs, kaì ho toùs misthoùs synágōn synḗgagen eis desmòn tetrypēménon.
 <sup>7</sup> Táde légei kýrios pantokrátōr Thésthe tàs kardías hymō̂n eis tàs hodoùs hymō̂n;
 <sup>8</sup> anábēte epì tò óros kaì kópsate xýla kaì oikodomḗsate tòn oîkon, kaì eudokḗsō en autō̂ kaì endoxasthḗsomai, eîpen kýrios.
-<sup>9</sup> Epeblépsate eis pollá, kaì egéneto olíga; kaì eisēnéchthē eis tòn oîkon, kaì exephýsēsa autá. Dià toûto táde légei kýrios pantokrátōr Anth hō̂n ho oîkós moú estin érēmos, hymeîs dè diṓkete hékastos eis tòn oîkon autoû,
+<sup>9</sup> Epeblépsate eis pollá, kaì egéneto olíga; kaì eisēnéchthē eis tòn oîkon, kaì exephýsēsa autá. Dià toûto táde légei kýrios pantokrátōr Anth’ hō̂n ho oîkós moú estin érēmos, hymeîs dè diṓkete hékastos eis tòn oîkon autoû,
 <sup>10</sup> dià toûto anéxei ho ouranòs apò drósou, kaì hē gē̂ hyposteleîtai tà ekphória autē̂s;
 <sup>11</sup> kaì epáxō rhomphaían epì tḕn gē̂n kaì epì tà órē kaì epì tòn sîton kaì epì tòn oînon kaì epì tò élaion kaì hósa ekphérei hē gē̂ kaì epì toùs anthrṓpous kaì epì tà ktḗnē kaì epì pántas toùs pónous tō̂n cheirō̂n autō̂n. –
 <sup>12</sup> kaì ḗkousen Zorobabel ho toû Salathiēl ek phylē̂s Iouda kaì Iēsoûs ho toû Iōsedek ho hiereùs ho mégas kaì pántes hoi katáloipoi toû laoû tē̂s phōnē̂s kyríou toû theoû autō̂n kaì tō̂n lógōn Angaiou toû prophḗtou, kathóti exapésteilen autòn kýrios ho theòs autō̂n pròs autoús, kaì ephobḗthē ho laòs apò prosṓpou kyríou.

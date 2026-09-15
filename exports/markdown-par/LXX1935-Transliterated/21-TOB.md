@@ -16,13 +16,13 @@
 <sup>13</sup> Kaì édōken ho hýpsistos chárin kaì morphḕn enṓpion Enemessarou, kaì ḗmēn autoû agorastḗs;
 <sup>14</sup> kaì eporeuómēn eis tḕn Mēdían kaì parethémēn Gabaḗlō tō̂ adelphō̂ Gabria en Ragois tē̂s Mēdías argyríou tálanta déka.
 
-<sup>15</sup> Kaì hóte apéthanen Enemessaros, ebasíleusen Sennachērim ho hyiòs autoû ant autoû, kaì hai hodoì autoû ēkatastátēsan, kaì oukéti ēdynásthēn poreuthē̂nai eis tḕn Mēdían.
+<sup>15</sup> Kaì hóte apéthanen Enemessaros, ebasíleusen Sennachērim ho hyiòs autoû ant’ autoû, kaì hai hodoì autoû ēkatastátēsan, kaì oukéti ēdynásthēn poreuthē̂nai eis tḕn Mēdían.
 <sup>16</sup> Kaì en taîs hēmérais Enemessarou eleēmosýnas pollàs epoíoun toîs adelphoîs mou;
 <sup>17</sup> toùs ártous mou edídoun toîs peinō̂sin kaì tà himátiá mou toîs gymnoîs, kaì eí tina ek toû génous mou etheṓroun tethnēkóta kaì errimménon opísō toû teíchous Nineuē, éthapton autón.
 <sup>18</sup> Kaì eí tina apékteinen Sennachērim ho basileús, hóte ē̂lthen pheúgōn ek tē̂s Ioudaías, éthapsa autoùs kléptōn; polloùs gàr apékteinen en tō̂ thymō̂ autoû; kaì ezētḗthē hypò toû basiléōs tà sṓmata, kaì ouch heuréthē.
 <sup>19</sup> Poreutheìs dè heîs tō̂n en Nineuē hypédeixe tō̂ basileî perì emoû hóti tháptō autoús, kaì ekrýbēn; epignoùs dè hóti zētoûmai apothaneîn, phobētheìs anechṓrēsa.
 <sup>20</sup> Kaì diērpágē pánta tà hypárchontá mou, kaì ou kateleíphthē moi oudèn plḕn Annas tē̂s gynaikós mou kaì Tōbiou toû hyioû mou.
-<sup>21</sup> Kaì ou diē̂lthon hēmérai pentḗkonta héōs hoû apékteinan autòn hoi dýo hyioì autoû; kaì éphygon eis tà órē Ararat, kaì ebasíleusen Sacherdonos ho hyiòs autoû ant autoû. Kaì étaxen Achiacharon tòn Anaēl hyiòn toû adelphoû mou epì pâsan tḕn eklogistían tē̂s basileías autoû kaì epì pâsan tḕn dioíkēsin.
+<sup>21</sup> Kaì ou diē̂lthon hēmérai pentḗkonta héōs hoû apékteinan autòn hoi dýo hyioì autoû; kaì éphygon eis tà órē Ararat, kaì ebasíleusen Sacherdonos ho hyiòs autoû ant’ autoû. Kaì étaxen Achiacharon tòn Anaēl hyiòn toû adelphoû mou epì pâsan tḕn eklogistían tē̂s basileías autoû kaì epì pâsan tḕn dioíkēsin.
 <sup>22</sup> Kaì ēxíōsen Achiacharos perì emoû, kaì ē̂lthon eis Nineuē.
 
  Achiacharos dè ē̂n ho oinochóos kaì epì toû daktylíou kaì dioikētḕs kaì eklogistḗs, kaì katéstēsen autòn ho Sacherdonos ek deutéras; ē̂n dè exádelphós mou.

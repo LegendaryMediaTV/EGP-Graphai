@@ -181,7 +181,7 @@
 <sup>7</sup> Apérripsen Samáreia basiléa autē̂s hōs phrýganon epì prosṓpou hýdatos.
 <sup>8</sup> Kaì exarthḗsontai bōmoì Ōn, hamartḗmata toû Israēl; ákanthai kaì tríboloi anabḗsontai epì tà thysiastḗria autō̂n; kaì eroûsin toîs óresin Kalýpsate hēmâs, kaì toîs bounoîs Pésate eph’ hēmâs.
 
-<sup>9</sup> Aph hoû hoi bounoí, hḗmarten Israēl, ekeî éstēsan; ou mḕ katalábē autoùs en tō̂ bounō̂ pólemos epì tà tékna adikías?
+<sup>9</sup> Aph’ hoû hoi bounoí, hḗmarten Israēl, ekeî éstēsan; ou mḕ katalábē autoùs en tō̂ bounō̂ pólemos epì tà tékna adikías?
 <sup>10</sup> Ē̂lthen paideûsai autoús, kaì synachthḗsontai ep’ autoùs laoì en tō̂ paideúesthai autoùs en taîs dysìn adikíais autō̂n.
 
 <sup>11</sup> Ephraim dámalis dedidagménē agapân neîkos, egṑ dè epeleúsomai epì tò kálliston toû trachḗlou autē̂s; epibibō̂ Ephraim kaì parasiōpḗsomai Ioudan, enischýsei autō̂ Iakōb.

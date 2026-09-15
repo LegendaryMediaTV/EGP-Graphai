@@ -976,7 +976,7 @@
 <sup>27</sup> Kaì hagiáseis tò stēthýnion aphórisma kaì tòn brachíona toû aphairématos, hòs aphṓristai kaì hòs aphḗrētai apò toû krioû tē̂s teleiṓseōs apò toû Aarōn kaì apò tō̂n hyiō̂n autoû,
 <sup>28</sup> kaì éstai Aarōn kaì toîs hyioîs autoû nómimon aiṓnion parà tō̂n hyiō̂n Israēl; éstin gàr aphaírema toûto kaì aphaírema éstai parà tō̂n hyiō̂n Israēl apò tō̂n thymátōn tō̂n sōtēríōn tō̂n hyiō̂n Israēl, aphaírema kyríō. –
 <sup>29</sup> kaì hē stolḕ toû hagíou, hḗ estin Aarōn, éstai toîs hyioîs autoû met’ autón, christhē̂nai autoùs en autoîs kaì teleiō̂sai tàs cheîras autō̂n.
-<sup>30</sup> Heptà hēméras endýsetai autà ho hiereùs ho ant autoû tō̂n hyiō̂n autoû, hòs eiseleúsetai eis tḕn skēnḕn toû martyríou leitourgeîn en toîs hagíois.
+<sup>30</sup> Heptà hēméras endýsetai autà ho hiereùs ho ant’ autoû tō̂n hyiō̂n autoû, hòs eiseleúsetai eis tḕn skēnḕn toû martyríou leitourgeîn en toîs hagíois.
 <sup>31</sup> Kaì tòn kriòn tē̂s teleiṓseōs lḗmpsē kaì hepsḗseis tà kréa en tópō hagíō,
 <sup>32</sup> kaì édontai Aarōn kaì hoi hyioì autoû tà kréa toû krioû kaì toùs ártous toùs en tō̂ kanō̂ parà tàs thýras tē̂s skēnē̂s toû martyríou;
 <sup>33</sup> édontai autá, en hoîs hēgiásthēsan en autoîs teleiō̂sai tàs cheîras autō̂n hagiásai autoús, kaì allogenḕs ouk édetai ap’ autō̂n; éstin gàr hágia.

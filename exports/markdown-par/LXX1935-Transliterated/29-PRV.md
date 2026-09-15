@@ -173,7 +173,7 @@
 <sup>8</sup> hetoimázetai thérous tḕn trophḕn pollḗn te en tō̂ amḗtō poieîtai tḕn paráthesin. <sup>a</sup> ḕ poreúthēti pròs tḕn mélissan kaì máthe hōs ergátis estìn tḗn te ergasían hōs semnḕn poieîtai, <sup>b</sup> hē̂s toùs pónous basileîs kaì idiō̂tai pròs hygíeian prosphérontai, potheinḕ dé estin pâsin kaì epídoxos; <sup>c</sup> kaíper oûsa tē̂ rhṓmē asthenḗs, tḕn sophían timḗsasa proḗchthē.
 <sup>9</sup> Héōs tínos, oknēré, katákeisai? Póte dè ex hýpnou egerthḗsē?
 <sup>10</sup> Olígon mèn hypnoîs, olígon dè káthēsai, mikròn dè nystázeis, olígon dè enankalízē chersìn stḗthē;
-<sup>11</sup> eît emparagínetaí soi hṓsper kakòs hodoipóros hē penía kaì hē éndeia hṓsper agathòs dromeús. <sup>a</sup> eàn dè áoknos ē̂s, hḗxei hṓsper pēgḕ ho amētós sou, hē dè éndeia hṓsper kakòs dromeùs apautomolḗsei.
+<sup>11</sup> eît’ emparagínetaí soi hṓsper kakòs hodoipóros hē penía kaì hē éndeia hṓsper agathòs dromeús. <sup>a</sup> eàn dè áoknos ē̂s, hḗxei hṓsper pēgḕ ho amētós sou, hē dè éndeia hṓsper kakòs dromeùs apautomolḗsei.
 
 <sup>12</sup> Anḕr áphrōn kaì paránomos poreúetai hodoùs ouk agathás;
 <sup>13</sup> ho d’ autòs enneúei ophthalmō̂, sēmaínei dè podí, didáskei dè enneúmasin daktýlōn,
@@ -341,7 +341,7 @@
 <sup>5</sup> Dikaiosýnē amṓmous orthotomeî hodoús, asébeia dè peripíptei adikía.
 <sup>6</sup> Dikaiosýnē andrō̂n orthō̂n rhýetai autoús, tē̂ dè apōleía autō̂n halískontai paránomoi.
 <sup>7</sup> Teleutḗsantos andròs dikaíou ouk óllytai elpís, tò dè kaúchēma tō̂n asebō̂n óllytai.
-<sup>8</sup> Díkaios ek thḗras ekdýnei, ant autoû dè paradídotai ho asebḗs.
+<sup>8</sup> Díkaios ek thḗras ekdýnei, ant’ autoû dè paradídotai ho asebḗs.
 <sup>9</sup> En stómati asebō̂n pagìs polítais, aísthēsis dè dikaíōn eúodos.
 <sup>10</sup> En agathoîs dikaíōn katṓrthōsen pólis,
 <sup>11</sup> stómasin dè asebō̂n kateskáphē.

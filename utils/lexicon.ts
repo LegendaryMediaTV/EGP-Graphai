@@ -90,6 +90,19 @@ export interface TransliterationTable {
 
 /** What the codex holds under one spelling, for one cell of one root. */
 export interface CodexEntry {
+  /**
+   * Codex file the cell is written in, e.g. `"greek/chi.json"` — the same
+   * naming `auditLexicalMaps` reports a finding under, so a caller holding an
+   * entry can say where to go and correct it.
+   */
+  file: string;
+  /**
+   * The spelling as the codex writes it, which is **not** the key it was found
+   * under: {@link codexLookup} folds initial case and reads a grave as its
+   * acute, so `Δαυὶδ` is stored under `δαυίδ`. A caller reporting a cell wants
+   * the written form, and nothing else can recover it from the key.
+   */
+  spelling: string;
   /** Dictionary root the spelling inflects from, e.g. `"Χριστός"`. */
   root: string;
   /** The root's part of speech. */
@@ -293,6 +306,8 @@ function codexIndex(): Map<string, CodexEntry[]> {
           const keys = new Set([codexLookup(spelling), fold(spelling)]);
           for (const cell of inflection.cells ?? []) {
             const held: CodexEntry = {
+              file: `${language}/${name}`,
+              spelling,
               root,
               pos: entry.pos,
               rootStrongs,

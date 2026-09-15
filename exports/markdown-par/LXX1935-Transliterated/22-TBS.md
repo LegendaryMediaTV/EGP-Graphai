@@ -16,7 +16,7 @@
 <sup>13</sup> kaì édōkén moi ho hýpsistos chárin kaì morphḕn enṓpion Enemessarou, kaì ēgórazon autō̂ pánta tà pròs tḕn chrē̂sin;
 <sup>14</sup> kaì eporeuómēn eis Mēdían kaì ēgórazon autō̂ ekeîthen héōs autòn apothaneîn. Kaì parethémēn Gabaḗlō ballántia tō̂ adelphō̂ tō̂ Gabri en tē̂ chṓra tē̂s Mēdías, argyríou tálanta déka.
 
-<sup>15</sup> Kaì hóte apéthanen Enemassar kaì ebasíleusen Sennachērim hyiòs autoû ant autoû, kaì hai hodoì tē̂s Mēdías apéstēsan, kaì oukéti ēdynásthēn poreuthē̂nai eis tḕn Mēdían.
+<sup>15</sup> Kaì hóte apéthanen Enemassar kaì ebasíleusen Sennachērim hyiòs autoû ant’ autoû, kaì hai hodoì tē̂s Mēdías apéstēsan, kaì oukéti ēdynásthēn poreuthē̂nai eis tḕn Mēdían.
 <sup>16</sup> En taîs hēmérais Enemessarou eleēmosýnas pollàs epoíēsa toîs adelphoîs mou toîs ek toû génous mou;
 <sup>17</sup> toùs ártous mou edídoun toîs peinō̂sin kaì himátia toîs gymnoîs, kaì eí tina tō̂n ek toû éthnous mou etheṓroun tethnēkóta kaì errimménon opísō toû teíchous Nineuē, éthapton autón.
 <sup>18</sup> Kaì eí tina apékteinen Sennachērim, hóte apē̂lthen pheúgōn ek tē̂s Ioudaías en hēmérais tē̂s kríseōs, hē̂s epoíēsen ex autoû ho basileùs toû ouranoû perì tō̂n blasphēmiō̂n, hō̂n eblasphḗmēsen, éthapsa; polloùs gàr apékteinen en tō̂ thymō̂ autoû ek tō̂n hyiō̂n Israēl, kaì éklepton tà sṓmata autō̂n kaì éthapton; kaì ezḗtēsen autà Sennachērim kaì ouch heûren autá.

@@ -160,7 +160,7 @@
 
 <sup>13</sup> Toûto tò dō̂ron Aarōn kaì tō̂n hyiō̂n autoû, hò prosoísousin kyríō en tē̂ hēméra, hē̂ àn chrísēs autón; tò dékaton toû oiphi semidáleōs eis thysían dià pantós, tò hḗmisy autē̂s tò prōï̀ kaì tò hḗmisy autē̂s tò deilinón.
 <sup>14</sup> Epì tēgánou en elaíō poiēthḗsetai, pephyraménēn oísei autḗn, heliktá, thysían ek klasmátōn, thysían osmḕn euōdías kyríō.
-<sup>15</sup> Ho hiereùs ho christòs ant autoû ek tō̂n hyiō̂n autoû poiḗsei autḗn; nómos aiṓnios, hápan epitelesthḗsetai.
+<sup>15</sup> Ho hiereùs ho christòs ant’ autoû ek tō̂n hyiō̂n autoû poiḗsei autḗn; nómos aiṓnios, hápan epitelesthḗsetai.
 <sup>16</sup> Kaì pâsa thysía hieréōs holókautos éstai kaì ou brōthḗsetai.
 
 <sup>17</sup> Kaì elálēsen kýrios pròs Mōysē̂n légōn

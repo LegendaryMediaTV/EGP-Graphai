@@ -45,7 +45,7 @@
 > - <sup>m</sup> 12. sỳ dè ¦ CT soi
 > - <sup>n</sup> 12. proslaboû ¦ CT _om._
 > - <sup>o</sup> 13. diakonē̂ moi ¦ CT moi diakonē̂
-> - <sup>p</sup> 16. all ¦ SBL WH allà
+> - <sup>p</sup> 16. all’ ¦ SBL WH allà
 > - <sup>q</sup> 17. me ¦ TR emè
 > - <sup>r</sup> 18. ellógei ¦ CT ellóga
 > - <sup>s</sup> 20. kyríō ¦ CT christō̂

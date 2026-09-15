@@ -66,7 +66,7 @@
 <sup>10</sup> [Hoi Ommin próteroi enekáthēnto ep’ autē̂s, éthnos méga kaì polỳ kaì ischýontes hṓsper hoi Enakim;
 
 <sup>11</sup> Raphain logisthḗsontai kaì hoûtoi hṓsper hoi Enakim, kaì hoi Mōabîtai eponomázousin autoùs Ommin.
-<sup>12</sup> Kaì en Sēir enekáthēto ho Chorraîos próteron, kaì hyioì Ēsau apṓlesan autoùs kaì exétripsan autoùs apò prosṓpou autō̂n kaì katōkísthēsan ant autō̂n, hòn trópon epoíēsen Israēl tḕn gē̂n tē̂s klēronomías autoû, hḕn dédōken kýrios autoîs.]
+<sup>12</sup> Kaì en Sēir enekáthēto ho Chorraîos próteron, kaì hyioì Ēsau apṓlesan autoùs kaì exétripsan autoùs apò prosṓpou autō̂n kaì katōkísthēsan ant’ autō̂n, hòn trópon epoíēsen Israēl tḕn gē̂n tē̂s klēronomías autoû, hḕn dédōken kýrios autoîs.]
 <sup>13</sup> nŷn oûn anástēte kaì apárate hymeîs kaì paraporeúesthe tḕn pháranga Zaret. Kaì parḗlthomen tḕn pháranga Zaret.
 <sup>14</sup> Kaì hai hēmérai, hàs pareporeúthēmen apò Kadēs Barnē héōs hoû parḗlthomen tḕn pháranga Zaret, triákonta kaì oktṑ étē, héōs hoû diépesen pâsa geneà andrō̂n polemistō̂n apothnḗskontes ek tē̂s parembolē̂s, kathóti ṓmosen autoîs ho theós;
 <sup>15</sup> kaì hē cheìr toû theoû ē̂n ep’ autoîs exanalō̂sai autoùs ek tē̂s parembolē̂s, héōs hoû diépesan. –
@@ -76,9 +76,9 @@
 <sup>18</sup> Sỳ paraporeúsē sḗmeron tà hória Mōab tḕn Sēir
 <sup>19</sup> kaì prosáxete engỳs hyiō̂n Amman; mḕ echthraínete autoîs kaì mḕ synápsēte autoîs eis pólemon; ou gàr mḕ dō̂ apò tē̂s gē̂s hyiō̂n Amman soì en klḗrō, hóti toîs hyioîs Lōt dédōka autḕn en klḗrō.
 <sup>20</sup> [Gē̂ Raphain logisthḗsetai; kaì gàr ep’ autē̂s katṓkoun hoi Raphain tò próteron, kaì hoi Ammanîtai onomázousin autoùs Zomzommin,
-<sup>21</sup> éthnos méga kaì polỳ kaì dynatṓteron hymō̂n hṓsper hoi Enakim, kaì apṓlesen autoùs kýrios prò prosṓpou autō̂n, kaì kateklēronómēsan kaì katōkísthēsan ant autō̂n héōs tē̂s hēméras taútēs;
-<sup>22</sup> hṓsper epoíēsan toîs hyioîs Ēsau toîs katoikoûsin en Sēir, hòn trópon exétripsan tòn Chorraîon apò prosṓpou autō̂n kaì kateklēronómēsan kaì katōkísthēsan ant autō̂n héōs tē̂s hēméras taútēs;
-<sup>23</sup> kaì hoi Euaîoi hoi katoikoûntes en asērōth héōs Gázēs, kaì hoi Kappádokes hoi exelthóntes ek Kappadokías exétripsan autoùs kaì katōkísthēsan ant autō̂n.]
+<sup>21</sup> éthnos méga kaì polỳ kaì dynatṓteron hymō̂n hṓsper hoi Enakim, kaì apṓlesen autoùs kýrios prò prosṓpou autō̂n, kaì kateklēronómēsan kaì katōkísthēsan ant’ autō̂n héōs tē̂s hēméras taútēs;
+<sup>22</sup> hṓsper epoíēsan toîs hyioîs Ēsau toîs katoikoûsin en Sēir, hòn trópon exétripsan tòn Chorraîon apò prosṓpou autō̂n kaì kateklēronómēsan kaì katōkísthēsan ant’ autō̂n héōs tē̂s hēméras taútēs;
+<sup>23</sup> kaì hoi Euaîoi hoi katoikoûntes en asērōth héōs Gázēs, kaì hoi Kappádokes hoi exelthóntes ek Kappadokías exétripsan autoùs kaì katōkísthēsan ant’ autō̂n.]
 <sup>24</sup> nŷn oûn anástēte kaì apárate kaì parélthate hymeîs tḕn pháranga Arnōn; idoù paradédōka eis tàs cheîrás sou tòn Sēōn basiléa Esebōn tòn Amorraîon kaì tḕn gē̂n autoû; enárchou klēronomeîn, sýnapte pròs autòn pólemon.
 <sup>25</sup> En tē̂ hēméra taútē enárchou doûnai tòn trómon sou kaì tòn phóbon sou epì prósōpon pántōn tō̂n ethnō̂n tō̂n hypokátō toû ouranoû, hoítines akoúsantes tò ónomá sou tarachthḗsontai kaì ōdînas héxousin apò prosṓpou sou.
 
@@ -349,7 +349,7 @@
 <sup>3</sup> Kaì epoíēsa kibōtòn ek xýlōn asḗptōn kaì eláxeusa tàs dýo plákas tàs lithínas hōs hai prō̂tai; kaì anébēn eis tò óros, kaì hai dýo plákes epì taîs chersín mou.
 <sup>4</sup> Kaì égrapsen epì tàs plákas katà tḕn graphḕn tḕn prṓtēn toùs déka lógous, hoùs elálēsen kýrios pròs hymâs en tō̂ órei ek mésou toû pyrós, kaì édōken autàs kýrios emoí.
 <sup>5</sup> Kaì epistrépsas katébēn ek toû órous kaì enébalon tàs plákas eis tḕn kibōtón, hḕn epoíēsa, kaì ē̂san ekeî, kathà eneteílató moi kýrios. –
-<sup>6</sup> kaì hoi hyioì Israēl apē̂ran ek Bērōth hyiō̂n Iakim Misadai; ekeî apéthanen Aarōn kaì etáphē ekeî, kaì hieráteusen Eleazar hyiòs autoû ant autoû.
+<sup>6</sup> kaì hoi hyioì Israēl apē̂ran ek Bērōth hyiō̂n Iakim Misadai; ekeî apéthanen Aarōn kaì etáphē ekeî, kaì hieráteusen Eleazar hyiòs autoû ant’ autoû.
 <sup>7</sup> Ekeîthen apē̂ran eis Gadgad kaì apò Gadgad eis Etebatha, gē̂ cheímarroi hydátōn.
 <sup>8</sup> En ekeínō tō̂ kairō̂ diésteilen kýrios tḕn phylḕn tḕn Leui aírein tḕn kibōtòn tē̂s diathḗkēs kyríou parestánai énanti kyríou leitourgeîn kaì epeúchesthai epì tō̂ onómati autoû héōs tē̂s hēméras taútēs.
 <sup>9</sup> Dià toûto ouk éstin toîs Leuítais merìs kaì klē̂ros en toîs adelphoîs autō̂n; kýrios autòs klē̂ros autoû, kathà eîpen autō̂.
@@ -503,7 +503,7 @@
 
 ## Chapter 15
 
-<sup>1</sup> Di heptà etō̂n poiḗseis áphesin.
+<sup>1</sup> Di’ heptà etō̂n poiḗseis áphesin.
 <sup>2</sup> Kaì hoútōs tò próstagma tē̂s aphéseōs; aphḗseis pân chréos ídion, hò opheílei soi ho plēsíon, kaì tòn adelphón sou ouk apaitḗseis, hóti epikéklētai áphesis kyríō tō̂ theō̂ sou.
 <sup>3</sup> Tòn allótrion apaitḗseis hósa eàn ē̂ soi par’ autō̂, toû adelphoû sou áphesin poiḗseis toû chréous sou;
 <sup>4</sup> hóti ouk éstai en soì endeḗs, hóti eulogō̂n eulogḗsei se kýrios ho theós sou en tē̂ gē̂, hē̂ kýrios ho theós sou dídōsín soi en klḗrō kataklēronomē̂sai autḗn,
@@ -1145,7 +1145,7 @@
 
 <sup>12</sup> Kaì tō̂ Beniamin eîpen Ēgapēménos hypò kyríou kataskēnṓsei pepoithṓs, kaì ho theòs skiázei ep’ autō̂ pásas tàs hēméras, kaì anà méson tō̂n ṓmōn autoû katépausen.
 
-<sup>13</sup> Kaì tō̂ Iōsēph eîpen Ap eulogías kyríou hē gē̂ autoû apò hōrō̂n ouranoû kaì drósou kaì apò abýssōn pēgō̂n kátōthen
+<sup>13</sup> Kaì tō̂ Iōsēph eîpen Ap’ eulogías kyríou hē gē̂ autoû apò hōrō̂n ouranoû kaì drósou kaì apò abýssōn pēgō̂n kátōthen
 <sup>14</sup> kaì kath’ hṓran genēmátōn hēlíou tropō̂n kaì apò synódōn mēnō̂n
 <sup>15</sup> kaì apò koryphē̂s oréōn archē̂s kaì apò koryphē̂s bounō̂n aenáōn
 <sup>16</sup> kaì kath’ hṓran gē̂s plērṓseōs. Kaì tà dektà tō̂ ophthénti en tō̂ bátō élthoisan epì kephalḕn Iōsēph, kaì epì koryphē̂s doxastheìs en adelphoîs.

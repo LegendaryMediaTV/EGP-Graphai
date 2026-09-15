@@ -96,7 +96,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>f</sup> 15. toû ¦ CT _om._
 > - <sup>g</sup> 17. hypò ¦ CT dià
 > - <sup>h</sup> 18. thrē̂nos kaì ¦ CT _om._
-> - <sup>i</sup> 19. kat ónar phaínetai ¦ CT phaínetai kat ónar
+> - <sup>i</sup> 19. kat’ ónar phaínetai ¦ CT phaínetai kat’ ónar
 > - <sup>j</sup> 21. ē̂lthen ¦ CT eisē̂lthen
 > - <sup>k</sup> 22. epì ¦ CT _om._
 > - <sup>l</sup> 22. Hērṓdou toû patròs autoû ¦ CT toû patròs autoû Hērṓdou
@@ -279,7 +279,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>j</sup> 21. erréthē ¦ TH errḗthē
 > - <sup>k</sup> 22. eikē̂ ¦ CT _om._
 > - <sup>l</sup> 23. kaì ekeî ¦ CT PT TR kakeî
-> - <sup>m</sup> 25. en tē̂ hodō̂ met autoû ¦ CT met autoû en tē̂ hodō̂
+> - <sup>m</sup> 25. en tē̂ hodō̂ met’ autoû ¦ CT met’ autoû en tē̂ hodō̂
 > - <sup>n</sup> 25. se paradō̂ ¦ CT _om._
 > - <sup>o</sup> 26. àn ¦ PT ou
 > - <sup>p</sup> 27. erréthē ¦ TH errḗthē ¦ PT TR erréthē toîs archaíois
@@ -362,7 +362,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>m</sup> 10. tē̂s ¦ CT _om._
 > - <sup>n</sup> 12. aphíemen ¦ CT aphḗkamen
 > - <sup>o</sup> 13. Hóti soû estin … amḗn ¦ CT _om._
-> - <sup>p</sup> 13. Guardian Press: hóti soû estin hē basileía kaì hē dýnamis kaì hē dóxa eis toùs aiō̂nas amḕn E G K L M S U V W Δ Θ Π Σ Φ Ω 047 0211 0233<sup>(∗),c</sup> 33 399 461 565 566 892 1080 1143 1424 1500 2224 (0233∗: _kaì hē dýnamis twice_) ¦ _om._ ℵ B D Z 0170
+> - <sup>p</sup> 13. Guardian Press: Hóti soû estin hē basileía kaì hē dýnamis kaì hē dóxa eis toùs aiō̂nas amḕn E G K L M S U V W Δ Θ Π Σ Φ Ω 047 0211 0233<sup>(∗),c</sup> 33 399 461 565 566 892 1080 1143 1424 1500 2224 (0233∗: _kaì hē dýnamis twice_) ¦ _om._ ℵ B D Z 0170
 > - <sup>q</sup> 15. tà paraptṓmata autō̂n ¦ [WH] ¦ NA SBL _om._
 > - <sup>r</sup> 16. hṓsper ¦ CT hōs
 > - <sup>s</sup> 16. hóti ¦ CT _om._
@@ -375,7 +375,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>z</sup> 22. phōteinòn ¦ WH phōtinòn
 > - <sup>aa</sup> 23. skoteinòn ¦ WH skotinòn
 > - <sup>ab</sup> 24. mamōnâ ¦ TR mammōnâ
-> - <sup>ac</sup> 25. kaí tì píēte ¦ TH ḗ tì píēte ¦ NA WH [ḗ tì píēte] ¦ SBL _om._
+> - <sup>ac</sup> 25. kaì tí píēte ¦ TH ḗ tì píēte ¦ NA WH [ḗ tì píēte] ¦ SBL _om._
 > - <sup>ad</sup> 25. endýsēsthe ¦ PCK endýsesthe
 > - <sup>ae</sup> 25. pleîón ¦ PCK pleíōn
 > - <sup>af</sup> 28. auxánei ou kopiâ oudè nḗthei ¦ NA SBL WH auxánousin ou kopiō̂sin oudè nḗthousin ¦ TH auxánousin ou kopioûsin oudè nḗthousin
@@ -430,7 +430,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>h</sup> 12. àn ¦ NA SBL WH eàn
 > - <sup>i</sup> 13. Eisélthete ¦ CT Eisélthate
 > - <sup>j</sup> 13. hē pýlē ¦ WH _om._
-> - <sup>k</sup> 14. tì ¦ SBL TR WH hóti
+> - <sup>k</sup> 14. tí ¦ SBL TR WH hóti
 > - <sup>l</sup> 15. dè ¦ CT _om._
 > - <sup>m</sup> 16. staphylḗn ¦ CT staphylás
 > - <sup>n</sup> 18. poieîn ¦ WH enenkeîn
@@ -493,7 +493,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>b</sup> 2. elthṑn ¦ CT proselthṑn
 > - <sup>c</sup> 3. ho Iēsoûs ¦ CT _om._
 > - <sup>d</sup> 3. ekatharísthē ¦ WH ekatherísthē
-> - <sup>e</sup> 4. allà ¦ HF NA<sup>28</sup> PCK TR all
+> - <sup>e</sup> 4. allà ¦ HF NA<sup>28</sup> PCK TR all’
 > - <sup>f</sup> 4. prosénenke ¦ NA SBL WH prosénenkon ¦ PCK prosenénkai
 > - <sup>g</sup> 4. Mōsē̂s ¦ CT Mōÿsē̂s
 > - <sup>h</sup> 5. Eiselthónti dè autō̂ ¦ CT Eiselthóntos dè autoû ¦ TR Eiselthónti dè tō̂ Iēsoû
@@ -503,7 +503,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>l</sup> 8. Kaì apokritheìs ¦ WH Apokritheìs dè
 > - <sup>m</sup> 8. lógō ¦ TR lógon
 > - <sup>n</sup> 9. exousían ¦ WH exousían [tassómenos]
-> - <sup>o</sup> 10. oudè en tō̂ Israḕl tosaútēn pístin ¦ CT par oudenì tosaútēn pístin en tō̂ Israḕl
+> - <sup>o</sup> 10. oudè en tō̂ Israḕl tosaútēn pístin ¦ CT par’ oudenì tosaútēn pístin en tō̂ Israḕl
 > - <sup>p</sup> 13. hekatontárchē ¦ PCK PT TR hekatontárchō
 > - <sup>q</sup> 13. kaì ¦ CT _om._
 > - <sup>r</sup> 13. autoû ¦ [NA] ¦ SBL TH WH _om._
@@ -592,9 +592,9 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>p</sup> 11. esthíei ¦ PCK esthíei kaì pínei
 > - <sup>q</sup> 12. Iēsoûs ¦ CT _om._
 > - <sup>r</sup> 12. autoîs ¦ CT _om._
-> - <sup>s</sup> 12. all ¦ SBL WH allà
+> - <sup>s</sup> 12. all’ ¦ SBL WH allà
 > - <sup>t</sup> 13. Éleon ¦ CT Éleos
-> - <sup>u</sup> 13. allà ¦ NA<sup>28</sup> TR all
+> - <sup>u</sup> 13. allà ¦ NA<sup>28</sup> TR all’
 > - <sup>v</sup> 13. eis metánoian ¦ CT _om._
 > - <sup>w</sup> 14. Iōánnou ¦ WH Iōánou
 > - <sup>x</sup> 14. pollá ¦ [NA] ¦ WH _om._
@@ -604,7 +604,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>ab</sup> 17. amphóteroi ¦ TR amphótera
 > - <sup>ac</sup> 18. heîs ¦ [PT WH] ¦ PCK tìs ¦ ST _om._
 > - <sup>ad</sup> 18. elthṑn ¦ PT WH proselthṑn
-> - <sup>ae</sup> 18. allà ¦ NA<sup>28</sup> all
+> - <sup>ae</sup> 18. allà ¦ NA<sup>28</sup> all’
 > - <sup>af</sup> 19. ēkoloúthēsen ¦ SBL TH WH ēkoloúthei
 > - <sup>ag</sup> 22. epistrapheìs ¦ CT strapheìs
 > - <sup>ah</sup> 24. légei autoîs ¦ CT élegen
@@ -687,7 +687,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>k</sup> 10. ho ergátēs tē̂s trophē̂s autoû estin ¦ PT estin ho ergátēs tē̂s trophē̂s autoû ¦ CT ho ergátēs tē̂s trophē̂s autoû
 > - <sup>l</sup> 12. autḗn ¦ PT autḕn légontes eirḗnē tō̂ oíkō toútō
 > - <sup>m</sup> 13. elthétō ¦ CT elthátō
-> - <sup>n</sup> 13. pròs ¦ WH eph
+> - <sup>n</sup> 13. pròs ¦ WH eph’
 > - <sup>o</sup> 14. eàn ¦ CT àn
 > - <sup>p</sup> 14. tē̂s ¦ CT PT éxō tē̂s
 > - <sup>q</sup> 15. Gomórrōn ¦ PT Gomórras
@@ -708,7 +708,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>af</sup> 31. phobēthē̂te ¦ CT phobeîsthe
 > - <sup>ag</sup> 31. pollō̂n ¦ PCK pollō̂
 > - <sup>ah</sup> 32. en ¦ WH en toîs ¦ NA en [toîs]
-> - <sup>ai</sup> 33. d àn ¦ WH dè
+> - <sup>ai</sup> 33. d’ àn ¦ WH dè
 > - <sup>aj</sup> 33. autòn kagṑ ¦ CT kagṑ autòn
 > - <sup>ak</sup> 33. en ¦ WH en toîs ¦ NA en [toîs]
 > - <sup>al</sup> 36. oikeiakoì ¦ CT PT TR oikiakoì
@@ -763,7 +763,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>j</sup> 8. eisín ¦ WH _om._
 > - <sup>k</sup> 9. exḗlthete ¦ CT exḗlthate
 > - <sup>l</sup> 9. ideîn prophḗtēn ¦ SBL WH prophḗtēn ideîn
-> - <sup>m</sup> 10. gàr ¦ CT _om._
+> - <sup>m</sup> 10. gár ¦ CT _om._
 > - <sup>n</sup> 11. Iōánnou … Iōánnou ¦ WH Iōánou … Iōánou
 > - <sup>o</sup> 13. Iōánnou ¦ WH Iōánou
 > - <sup>p</sup> 13. proephḗteusan ¦ CT eprophḗteusan
@@ -861,7 +861,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>l</sup> 11. éstai ¦ [WH]
 > - <sup>m</sup> 13. tḕn cheîrá sou ¦ CT PT sou tḕn cheîra
 > - <sup>n</sup> 13. apokatestáthē ¦ CT apekatestáthē
-> - <sup>o</sup> 14. Hoi dè Pharisaîoi symboúlion élabon kat autoû exelthóntes ¦ CT PT Exelthóntes dè hoi Pharisaîoi symboúlion élabon kat autoû
+> - <sup>o</sup> 14. Hoi dè Pharisaîoi symboúlion élabon kat’ autoû exelthóntes ¦ CT PT Exelthóntes dè hoi Pharisaîoi symboúlion élabon kat’ autoû
 > - <sup>p</sup> 15. óchloi ¦ [NA] ¦ SBL WH _om._
 > - <sup>q</sup> 15. pántas ¦ PCK hápantas
 > - <sup>r</sup> 16. autòn poiḗsōsin ¦ PT poiḗsōsin autón
@@ -901,7 +901,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>az</sup> 46. heistḗkeisan ¦ TH WH histḗkeisan
 > - <sup>ba</sup> 46. autō̂ lalē̂sai ¦ PT lalē̂sai autō̂
 > - <sup>bb</sup> 47. Eîpen … lalē̂sai ¦ [NA] ¦ WH _om._
-> - <sup>bc</sup> 47. Guardian Press: eîpen dé tis autō̂ idoù hē mḗtēr sou kaì hoi adelphoí sou éxō hestḗkasin zētoûntés soi lalē̂sai (ℵ<sup>1</sup>) C (D) E F G K M S U V W X Y Z Δ Θ Π Σ Φ Ω 047 0211 (33) 399 461 565 566 (892) 1080 1143 (1424) 1500 2224 2500 (ℵ<sup>1</sup>: eîpen dé tis tō̂n mathētō̂n autoû idoù hē mḗtēr sou kaì hoi adelphoí sou éxō zētoûsín sè? D<sup>∗</sup>: eîpen dé tis autō̂ idoù hē mḗtēr sou kaì hoi adelphoí sou hestḗkeisan [D<sup>1</sup> hestḗkasan] éxō zētoûntes lalē̂saí soi? 33: hestḗkasin éxō _for_ éxō hestḗkasin? 892: tō̂n mathētō̂n autoû pròs autòn _for_ autō̂? 1424: hestḗkasin éxō zētoûntés sè ideîn _for_ éxō hestḗkasin zētoûntés soi lalē̂sai) ¦ _om._ ℵ<sup>∗</sup> B L Γ ¦ 0257 _unreadable_
+> - <sup>bc</sup> 47. Guardian Press: Eîpen dé tis autō̂ idoù hē mḗtēr sou kaì hoi adelphoí sou éxō hestḗkasin zētoûntés soi lalē̂sai (ℵ<sup>1</sup>) C (D) E F G K M S U V W X Y Z Δ Θ Π Σ Φ Ω 047 0211 (33) 399 461 565 566 (892) 1080 1143 (1424) 1500 2224 2500 (ℵ<sup>1</sup>: eîpen dé tis tō̂n mathētō̂n autoû idoù hē mḗtēr sou kaì hoi adelphoí sou éxō zētoûsín sè? D<sup>∗</sup>: eîpen dé tis autō̂ idoù hē mḗtēr sou kaì hoi adelphoí sou hestḗkeisan [D<sup>1</sup> hestḗkasan] éxō zētoûntes lalē̂saí soi? 33: hestḗkasin éxō _for_ éxō hestḗkasin? 892: tō̂n mathētō̂n autoû pròs autòn _for_ autō̂? 1424: hestḗkasin éxō zētoûntés sè ideîn _for_ éxō hestḗkasin zētoûntés soi lalē̂sai) ¦ _om._ ℵ<sup>∗</sup> B L Γ ¦ 0257 _unreadable_
 > - <sup>bd</sup> 47. éxō hestḗkasin zētoûntés soi lalē̂sai ¦ PT hestḗkasin éxō zētoûntés sè ideîn
 > - <sup>be</sup> 48. eipónti ¦ CT PT légonti
 > - <sup>bf</sup> 49. autoû ¦ [WH]
@@ -991,7 +991,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>j</sup> 10. eîpon ¦ CT eîpan
 > - <sup>k</sup> 11. autoîs ¦ WH _om._
 > - <sup>l</sup> 13. hóti blépontes ou blépousin kaì akoúontes ouk akoúousin oudè synioûsin kaì anaplēroûtai ¦ PT hína blépontes mḕ blépōsi kaì akoúontes mḕ akoúōsi mēdè synō̂si mḗpote epistrépsōsi kaì tóte plērōthḗsetai
-> - <sup>m</sup> 14. autoîs ¦ TR ep autoîs
+> - <sup>m</sup> 14. autoîs ¦ TR ep’ autoîs
 > - <sup>n</sup> 14. hē ¦ [PT]
 > - <sup>o</sup> 15. iásomai ¦ PCK RP<sup>mg</sup> TR iásōmai
 > - <sup>p</sup> 16. hymō̂n ¦ [WH]
@@ -1004,7 +1004,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>w</sup> 22. sympnígei ¦ TH WH synpnígei
 > - <sup>x</sup> 23. gē̂n tḕn kalḕn ¦ CT kalḕn gē̂n
 > - <sup>y</sup> 23. syniṓn ¦ CT synieís
-> - <sup>z</sup> 23. ho mèn … ho dè … ho dè ¦ NA SBL WH hò men … hò de … hò de
+> - <sup>z</sup> 23. ho mèn … ho dè … ho dè ¦ NA SBL WH hò mèn … hò dè … hò dè
 > - <sup>aa</sup> 24. speíronti ¦ CT PCK PT SCR speíranti
 > - <sup>ab</sup> 25. éspeiren ¦ CT epéspeiren
 > - <sup>ac</sup> 27. sō̂ ¦ [PT]
@@ -1095,7 +1095,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>e</sup> 4. autō̂ ho Iōánnēs ¦ NA ho Iōánnēs autō̂ ¦ WH ho Iōánēs autō̂
 > - <sup>f</sup> 5. ephobḗthē ¦ PCK ephobeîto
 > - <sup>g</sup> 6. Genesíōn dè agoménōn ¦ CT genesíois dè genoménois
-> - <sup>h</sup> 7. meth ¦ SBL WH metà
+> - <sup>h</sup> 7. meth’ ¦ SBL WH metà
 > - <sup>i</sup> 8. Iōánnou ¦ WH Iōánou
 > - <sup>j</sup> 9. elypḗthē ho basileùs dià dè ¦ CT lypētheìs ho basileùs dià
 > - <sup>k</sup> 10. tòn Iōánnēn ¦ NA [tòn] Iōánnēn ¦ WH Iōánēn
@@ -1270,7 +1270,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>i</sup> 11. ártou ¦ CT ártōn
 > - <sup>j</sup> 11. proséchein ¦ CT proséchete dè
 > - <sup>k</sup> 12. toû ártou ¦ NA SBL TH tō̂n ártōn ¦ WH [tō̂n ártōn]
-> - <sup>l</sup> 12. allà ¦ NA<sup>28</sup> PT TR all
+> - <sup>l</sup> 12. allà ¦ NA<sup>28</sup> PT TR all’
 > - <sup>m</sup> 13. Kaisareías ¦ WH Kaisarías
 > - <sup>n</sup> 13. me ¦ CT _om._
 > - <sup>o</sup> 14. eîpon ¦ NA SBL WH eîpan
@@ -1331,7 +1331,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>c</sup> 3. ṓphthēsan ¦ CT ṓphthē
 > - <sup>d</sup> 3. Mōsē̂s ¦ CT Mōÿsē̂s
 > - <sup>e</sup> 3. Ēlías ¦ WH Ēleías
-> - <sup>f</sup> 3. met autoû syllaloûntes ¦ NA SBL syllaloûntes met autoû ¦ TH WH synlaloûntes met autoû
+> - <sup>f</sup> 3. met’ autoû syllaloûntes ¦ NA SBL syllaloûntes met’ autoû ¦ TH WH synlaloûntes met’ autoû
 > - <sup>g</sup> 4. poiḗsōmen ¦ CT poiḗsō
 > - <sup>h</sup> 4. Mōsē̂ ¦ PCK PT Mōseî ¦ CT Mōÿseî
 > - <sup>i</sup> 4. mían Ēlía ¦ NA SBL TH Ēlía mían ¦ WH Ēleía mían
@@ -1349,19 +1349,19 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>u</sup> 11. Ēlías ¦ WH Ēleías
 > - <sup>v</sup> 11. prō̂ton ¦ CT _om._
 > - <sup>w</sup> 12. Ēlías ¦ WH Ēleías
-> - <sup>x</sup> 12. allà ¦ NA<sup>28</sup> PCK PT TH TR all
+> - <sup>x</sup> 12. allà ¦ NA<sup>28</sup> PCK PT TH TR all’
 > - <sup>y</sup> 13. Iōánnou ¦ WH Iōánou
 > - <sup>z</sup> 14. autō̂n ¦ CT _om._
-> - <sup>aa</sup> 14. autón ¦ TR autō̂
+> - <sup>aa</sup> 14. autòn ¦ TR autō̂
 > - <sup>ab</sup> 15. páschei ¦ TH WH échei
-> - <sup>ac</sup> 17. ésomai meth hymō̂n ¦ CT meth hymō̂n ésomai
+> - <sup>ac</sup> 17. ésomai meth’ hymō̂n ¦ CT meth’ hymō̂n ésomai
 > - <sup>ad</sup> 18. etherapeúthē ¦ PCK iáthē
 > - <sup>ae</sup> 19. eîpon ¦ WH eîpan
 > - <sup>af</sup> 20. Iēsoûs eîpen ¦ CT légei
 > - <sup>ag</sup> 20. apistían ¦ CT oligopistían
 > - <sup>ah</sup> 20. Metábēthi enteûthen ¦ CT Metába énthen
 > - <sup>ai</sup> 21. Toûto … nēsteía ¦ CT _om._
-> - <sup>aj</sup> 21. Guardian Press: toûto dè tò génos ouk ekporeúetai ei mḕ en proseuchē̂ kaì nēsteía (ℵ<sup>2</sup>) C D E F G H K L M O S U V W X Y Γ Δ Π Σ Φ Ω 047 0211 (399) 461 565 566 892<sup>c</sup> 1080 1143 1295 1424 1500 2224 2500 (ℵ<sup>2</sup>: ekbálletai _for_ ekporeúetai? 399: exérchetai _for_ ekporeúetai) ¦ _om._ ℵ<sup>∗</sup> B Θ 0281 33 892<sup>∗</sup>
+> - <sup>aj</sup> 21. Guardian Press: Toûto dè tò génos ouk ekporeúetai ei mḕ en proseuchē̂ kaì nēsteía (ℵ<sup>2</sup>) C D E F G H K L M O S U V W X Y Γ Δ Π Σ Φ Ω 047 0211 (399) 461 565 566 892<sup>c</sup> 1080 1143 1295 1424 1500 2224 2500 (ℵ<sup>2</sup>: ekbálletai _for_ ekporeúetai? 399: exérchetai _for_ ekporeúetai) ¦ _om._ ℵ<sup>∗</sup> B Θ 0281 33 892<sup>∗</sup>
 > - <sup>ak</sup> 22. Anastrephoménōn ¦ CT Systrephoménōn
 > - <sup>al</sup> 22. en tē̂ Galilaía ¦ PT eis tḕn Galilaían
 > - <sup>am</sup> 24. Kapernaoúm ¦ CT Kapharnaoúm
@@ -1421,7 +1421,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>g</sup> 8. autà ¦ CT autòn
 > - <sup>h</sup> 8. chōlòn ḕ kyllón ¦ NA SBL WH kyllòn ḕ chōlón
 > - <sup>i</sup> 11. Ē̂lthen … apolōlós ¦ CT _om._
-> - <sup>j</sup> 11. Guardian Press: ē̂lthen gàr ho hyiòs toû anthrṓpou sō̂sai tò apolōlòs D E F (G) H K (L<sup>c</sup>) M N S U V W X Y Γ (Δ) Θ<sup>c</sup> Π Σ Φ Ω 047 078 0211 (399) 461 565 566 (892<sup>c</sup>) 1080 1143 1295 1424 1500<sup>∗,(c)</sup> 2224 2500 2811 (G 399 892<sup>c</sup> 1500<sup>c</sup>: _add_ zētē̂sai kaì _before_ sō̂sai? L<sup>c</sup>: _adds_ zētē̂sai _before_ sō̂sai? Δ: _om._ ho) ¦ _om._ ℵ B L<sup>∗</sup> Θ<sup>∗</sup> 33 892<sup>∗</sup>
+> - <sup>j</sup> 11. Guardian Press: Ē̂lthen gàr ho hyiòs toû anthrṓpou sō̂sai tò apolōlòs D E F (G) H K (L<sup>c</sup>) M N S U V W X Y Γ (Δ) Θ<sup>c</sup> Π Σ Φ Ω 047 078 0211 (399) 461 565 566 (892<sup>c</sup>) 1080 1143 1295 1424 1500<sup>∗,(c)</sup> 2224 2500 2811 (G 399 892<sup>c</sup> 1500<sup>c</sup>: _add_ zētē̂sai kaì _before_ sō̂sai? L<sup>c</sup>: _adds_ zētē̂sai _before_ sō̂sai? Δ: _om._ ho) ¦ _om._ ℵ B L<sup>∗</sup> Θ<sup>∗</sup> 33 892<sup>∗</sup>
 > - <sup>k</sup> 12. apheìs ¦ CT aphḗsei
 > - <sup>l</sup> 12. enenḗkonta ennéa ¦ TR ennenēkontaennéa
 > - <sup>m</sup> 12. poreutheìs ¦ CT kaì poreutheìs
@@ -1437,7 +1437,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>w</sup> 19. amḕn ¦ [NA WH] ¦ TR _om._
 > - <sup>x</sup> 19. hymō̂n symphōnḗsōsin ¦ CT symphōnḗsōsin ex hymō̂n
 > - <sup>y</sup> 21. autō̂ ho Pétros eîpen ¦ NA ho Pétros eîpen autō̂ ¦ WH ho Pétros eîpen [autō̂]
-> - <sup>z</sup> 22. all ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>z</sup> 22. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>aa</sup> 24. prosēnéchthē ¦ WH prosḗchthē
 > - <sup>ab</sup> 24. autō̂ heîs ¦ WH heîs autō̂
 > - <sup>ac</sup> 25. autoû ¦ CT _om._
@@ -1450,7 +1450,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>aj</sup> 28. moi eì ¦ TR moi ho ¦ CT eì
 > - <sup>ak</sup> 29. eis toùs pódas autoû ¦ CT _om._
 > - <sup>al</sup> 29. kaì ¦ TR kaì pánta
-> - <sup>am</sup> 30. allà ¦ NA<sup>28</sup> SCR all
+> - <sup>am</sup> 30. allà ¦ NA<sup>28</sup> SCR all’
 > - <sup>an</sup> 30. hoû ¦ NA TH WH _om._
 > - <sup>ao</sup> 31. dè ¦ CT oûn
 > - <sup>ap</sup> 31. heautō̂n ¦ TR autō̂n
@@ -1607,7 +1607,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>w</sup> 17. en tē̂ hodō̂ kaì ¦ CT kaì en tē̂ hodō̂
 > - <sup>x</sup> 18. thanátō ¦ [WH]
 > - <sup>y</sup> 19. anastḗsetai ¦ CT egerthḗsetai
-> - <sup>z</sup> 20. par ¦ NA TH WH ap
+> - <sup>z</sup> 20. par’ ¦ NA TH WH ap’
 > - <sup>aa</sup> 21. sou ¦ WH _om._
 > - <sup>ab</sup> 21. sou ¦ TR _om._
 > - <sup>ac</sup> 22. ḕ tò … baptisthē̂nai ¦ TR kaì tò … baptisthē̂nai ¦ CT _om._
@@ -1698,7 +1698,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>i</sup> 4. hólon ¦ CT _om._
 > - <sup>j</sup> 5. pō̂lon ¦ CT epì pō̂lon
 > - <sup>k</sup> 6. prosétaxen ¦ NA SBL WH synétaxen
-> - <sup>l</sup> 7. epánō ¦ CT ep
+> - <sup>l</sup> 7. epánō ¦ CT ep’
 > - <sup>m</sup> 7. autō̂n ¦ CT _om._
 > - <sup>n</sup> 7. epekáthisen ¦ SCR epekáthisan
 > - <sup>o</sup> 8. heautō̂n ¦ PCK autō̂n
@@ -1722,7 +1722,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>ag</sup> 23. prosē̂lthon ¦ WH prosē̂lthan
 > - <sup>ah</sup> 24. dè ¦ [WH]
 > - <sup>ai</sup> 25. Iōánnou ¦ NA SBL TH tò Iōánnou ¦ WH tò Iōánou
-> - <sup>aj</sup> 25. par ¦ NA SBL WH en
+> - <sup>aj</sup> 25. par’ ¦ NA SBL WH en
 > - <sup>ak</sup> 26. échousin tòn Iōánnēn hōs prophḗtēn ¦ NA SBL TH hōs prophḗtēn échousin tòn Iōánnēn ¦ WH hōs prophḗtēn échousin tòn Iōánēn
 > - <sup>al</sup> 27. eîpon ¦ NA SBL WH eîpan
 > - <sup>am</sup> 28. eîchen ¦ PCK PT tìs eiche(n)
@@ -1906,10 +1906,10 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>q</sup> 10. heîs gàr hymō̂n estin ho kathēgētḗs ¦ PCK heîs gár estin hymō̂n ho kathēgētḗs ¦ CT hóti kathēgētḕs hymō̂n estin heîs
 > - <sup>r</sup> 10. ho ¦ [PT]
 > - <sup>s</sup> 11. éstai ¦ PCK éstō
-> - <sup>t</sup> 13. ouaì dè hymîn … kríma ¦ SCR [23:14] ouaì hymîn … kríma ¦ NA SBL TH [23:14] _om._ ¦ WH _om. (cf. next note, and see Appendix C)_
-> - <sup>u</sup> 13. Guardian Press: (23:14) ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti katesthíete tàs oikías tō̂n chērō̂n kaì prophásei makrà proseuchómenoi dià toûto lḗpsesthe perissóteron kríma E F G H K M O S U W Y Γ Δ Π Σ Φ Ω 047 0102 0104 0107 0211 (0233) 399 461 565 (566) 892<sup>c</sup> 1080 1143 1295 1424 1500 2500 (0233 566: _place verse after 23:14 (23:13)_? 566: _om._ dè) ¦ _om._ ℵ B D L Z<sup>vid</sup> Θ 33 892<sup>∗</sup> ¦ 0133 0257 _unreadable_
-> - <sup>v</sup> 13. **Guardian Press, Appendix C: Alternate Readings & Lengthy Variants**<br><br>Five editions (NA SBL SCR TH WH) contain lengthy variant units for Matthew 23:13–14. Variations are presented here in full for each comparison edition. Robinson-Pierpont 2026 (RP) is given for reference.<br><br>**RP: <sup>13</sup>** ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti katesthíete tàs oikías tō̂n chērō̂n kaì prophásei makrà proseuchómenoi dià toûto lḗpsesthe perissóteron kríma **<sup>14</sup>** ouaì hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn<br>**SCR: <sup>13</sup>** ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn **<sup>14</sup>** ouaì hymîn grammateîs kaì Pharisaîoi hypokritaì hóti katesthíete tàs oikías tō̂n chērō̂n kaì prophásei makrà proseuchómenoi dià toûto lḗpsesthe perissóteron kríma<br>**NA SBL TH: <sup>13</sup>** ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn **<sup>14</sup>** _om._<br>**WH: <sup>13</sup>** _om._ **<sup>14</sup>** ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn
-> - <sup>w</sup> 14. ouaì hymîn … eiseltheîn ¦ WH ouaì dè hymîn … eiseltheîn ¦ NA SBL SCR TH [23:13] ouaì dè hymîn … eiseltheîn _(cf. last note, and see Appendix C)_
+> - <sup>t</sup> 13. Ouaì dè hymîn … kríma ¦ SCR [23:14] ouaì hymîn … kríma ¦ NA SBL TH [23:14] _om._ ¦ WH _om. (cf. next note, and see Appendix C)_
+> - <sup>u</sup> 13. Guardian Press: (23:14) Ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti katesthíete tàs oikías tō̂n chērō̂n kaì prophásei makrà proseuchómenoi dià toûto lḗpsesthe perissóteron kríma E F G H K M O S U W Y Γ Δ Π Σ Φ Ω 047 0102 0104 0107 0211 (0233) 399 461 565 (566) 892<sup>c</sup> 1080 1143 1295 1424 1500 2500 (0233 566: _place verse after 23:14 (23:13)_? 566: _om._ dè) ¦ _om._ ℵ B D L Z<sup>vid</sup> Θ 33 892<sup>∗</sup> ¦ 0133 0257 _unreadable_
+> - <sup>v</sup> 13. **Guardian Press, Appendix C: Alternate Readings & Lengthy Variants**<br><br>Five editions (NA SBL SCR TH WH) contain lengthy variant units for Matthew 23:13–14. Variations are presented here in full for each comparison edition. Robinson-Pierpont 2026 (RP) is given for reference.<br><br>**RP: <sup>13</sup>** Ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti katesthíete tàs oikías tō̂n chērō̂n kaì prophásei makrà proseuchómenoi dià toûto lḗpsesthe perissóteron kríma **<sup>14</sup>** ouaì hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn<br>**SCR: <sup>13</sup>** ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn **<sup>14</sup>** ouaì hymîn grammateîs kaì Pharisaîoi hypokritaì hóti katesthíete tàs oikías tō̂n chērō̂n kaì prophásei makrà proseuchómenoi dià toûto lḗpsesthe perissóteron kríma<br>**NA SBL TH: <sup>13</sup>** ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn **<sup>14</sup>** _om._<br>**WH: <sup>13</sup>** _om._ **<sup>14</sup>** ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn
+> - <sup>w</sup> 14. Ouaì hymîn … eiseltheîn ¦ WH ouaì dè hymîn … eiseltheîn ¦ NA SBL SCR TH [23:13] ouaì dè hymîn … eiseltheîn _(cf. last note, and see Appendix C)_
 > - <sup>x</sup> 17. hagiázōn ¦ CT hagiásas
 > - <sup>y</sup> 18. eàn ¦ CT PT àn
 > - <sup>z</sup> 19. Mōroì kaì ¦ CT _om._
@@ -2113,12 +2113,12 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>t</sup> 17. kaì autòs ¦ CT _om._
 > - <sup>u</sup> 18. en tē̂ gē̂ kaì apékrypsen ¦ CT gē̂n kaì ékrypsen
 > - <sup>v</sup> 19. chrónon polỳn ¦ CT polỳn chrónon
-> - <sup>w</sup> 19. met autō̂n lógon ¦ CT lógon met autō̂n
-> - <sup>x</sup> 20. ep autoîs ¦ CT _om._
+> - <sup>w</sup> 19. met’ autō̂n lógon ¦ CT lógon met’ autō̂n
+> - <sup>x</sup> 20. ep’ autoîs ¦ CT _om._
 > - <sup>y</sup> 21. dè ¦ CT PT _om._
 > - <sup>z</sup> 22. dè ¦ [NA] ¦ WH _om._
 > - <sup>aa</sup> 22. labṑn ¦ CT _om._
-> - <sup>ab</sup> 22. ep autoîs ¦ CT _om._
+> - <sup>ab</sup> 22. ep’ autoîs ¦ CT _om._
 > - <sup>ac</sup> 27. oûn se ¦ CT se oûn
 > - <sup>ad</sup> 27. tò argýrión ¦ CT tà argýriá
 > - <sup>ae</sup> 27. trapezítais ¦ TH WH trapezeítais
@@ -2260,7 +2260,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>al</sup> 39. proselthṑn ¦ NA PCK PT SBL TR WH proelthṑn
 > - <sup>am</sup> 39. parelthétō ¦ CT parelthátō
 > - <sup>an</sup> 42. légōn ¦ [WH]
-> - <sup>ao</sup> 42. tò potḗrion pareltheîn ap emoû ¦ CT pareltheîn
+> - <sup>ao</sup> 42. tò potḗrion pareltheîn ap’ emoû ¦ CT pareltheîn
 > - <sup>ap</sup> 43. heurískei autoùs pálin ¦ PCK heûren autoùs pálin ¦ CT pálin heûren autoùs
 > - <sup>aq</sup> 44. apelthṑn pálin ¦ CT pálin apelthṑn
 > - <sup>ar</sup> 44. eipṓn ¦ NA SBL WH eipṑn pálin
@@ -2297,7 +2297,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>bw</sup> 71. autòn ¦ CT _om._
 > - <sup>bx</sup> 71. autoîs ¦ CT TR toîs
 > - <sup>by</sup> 71. Kaì ¦ CT _om._
-> - <sup>bz</sup> 72. meth ¦ CT metà
+> - <sup>bz</sup> 72. meth’ ¦ CT metà
 > - <sup>ca</sup> 74. katathematízein ¦ TR katanathematízein
 > - <sup>cb</sup> 74. euthéōs ¦ TH WH euthỳs
 > - <sup>cc</sup> 75. toû ¦ CT PCK PT _om._
@@ -2385,7 +2385,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>d</sup> 3. apéstrepsen ¦ CT Éstrepsen
 > - <sup>e</sup> 3. toîs ¦ CT _om._
 > - <sup>f</sup> 4. athō̂on ¦ WH díkaion
-> - <sup>g</sup> 4. eîpón ¦ NA SBL WH eîpán
+> - <sup>g</sup> 4. eîpon ¦ NA SBL WH eîpán
 > - <sup>h</sup> 4. ópsei ¦ CT ópsē
 > - <sup>i</sup> 5. en tō̂ naō̂ ¦ CT eis tòn naón
 > - <sup>j</sup> 6. eîpon ¦ NA SBL WH eîpan
@@ -2409,7 +2409,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>ab</sup> 29. epì tḕn dexiàn ¦ CT en tē̂ dexiâ
 > - <sup>ac</sup> 29. enépaizon ¦ CT enépaixan
 > - <sup>ad</sup> 29. ho basileùs ¦ CT basileû
-> - <sup>ae</sup> 33. hò ¦ TR hòs
+> - <sup>ae</sup> 33. hó ¦ TR hós
 > - <sup>af</sup> 33. legómenos Kraníou tópos ¦ PCK legómenon Kraníou tópos ¦ CT Kraníou tópos legómenos
 > - <sup>ag</sup> 34. óxos ¦ CT oînon
 > - <sup>ah</sup> 34. ḗthelen ¦ CT ēthélēsen
@@ -2421,7 +2421,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>an</sup> 41. kaì Pharisaíōn ¦ CT TR _om._
 > - <sup>ao</sup> 42. Ei ¦ CT _om._
 > - <sup>ap</sup> 42. pisteúsomen ¦ PT pisteúsōmen
-> - <sup>aq</sup> 42. ep autō̂ ¦ TR autō̂ ¦ CT ep autón
+> - <sup>aq</sup> 42. ep’ autō̂ ¦ TR autō̂ ¦ CT ep’ autón
 > - <sup>ar</sup> 43. autón ¦ CT _om._
 > - <sup>as</sup> 44. systaurōthéntes ¦ TH WH synstaurōthéntes
 > - <sup>at</sup> 44. autō̂ ¦ CT sỳn autō̂
@@ -2436,7 +2436,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>bc</sup> 49. élegon ¦ WH eîpan
 > - <sup>bd</sup> 49. Ēlías ¦ WH Ēleías
 > - <sup>be</sup> 49. autón ¦ WH autòn [[állos dè labṑn lónchēn ényxen autoû tḕn pleuràn kaì exē̂lthen hýdōr kaì haîma]]
-> - <sup>bf</sup> 51. eis dýo apò ánōthen héōs kátō ¦ TH eis dýo ap ánōthen héōs kátō ¦ NA SBL ap ánōthen héōs kátō eis dýo ¦ WH [ap] ánōthen héōs kátō eis dýo
+> - <sup>bf</sup> 51. eis dýo apò ánōthen héōs kátō ¦ TH eis dýo ap’ ánōthen héōs kátō ¦ NA SBL ap’ ánōthen héōs kátō eis dýo ¦ WH [ap’] ánōthen héōs kátō eis dýo
 > - <sup>bg</sup> 52. ēgérthē ¦ CT ēgérthēsan
 > - <sup>bh</sup> 54. genómena ¦ WH ginómena
 > - <sup>bi</sup> 55. gynaîkes ¦ PCK PT kaì gynaîkes
@@ -2486,7 +2486,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>g</sup> 6. ho kýrios ¦ CT _om._
 > - <sup>h</sup> 8. exelthoûsai ¦ CT apelthoûsai
 > - <sup>i</sup> 9. Hōs … mathētaîs autoû ¦ [PT] ¦ CT _om._
-> - <sup>j</sup> 9. Guardian Press: hōs dè eporeúonto apangeîlai toîs mathētaîs autoû A C E F G H K L M S U V Y Γ Δ Π Σ Φ Ω 047 0148 0211 399 565 566 1080 1143 1295 (1424) 1500 2224 2500 (1424: édramon _for_ eporeúonto) ¦ _om._ ℵ B D W Θ 33 892
+> - <sup>j</sup> 9. Guardian Press: Hōs dè eporeúonto apangeîlai toîs mathētaîs autoû A C E F G H K L M S U V Y Γ Δ Π Σ Φ Ω 047 0148 0211 399 565 566 1080 1143 1295 (1424) 1500 2224 2500 (1424: édramon _for_ eporeúonto) ¦ _om._ ℵ B D W Θ 33 892
 > - <sup>k</sup> 9. Iēsoûs ¦ TR ho Iēsoûs
 > - <sup>l</sup> 9. apḗntēsen ¦ CT hypḗntēsen
 > - <sup>m</sup> 10. kaì ekeî ¦ CT PT RP<sup>mg</sup> TR kakeî

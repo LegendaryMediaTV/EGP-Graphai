@@ -3078,7 +3078,8 @@
         "cells": [
           { "parse": ["adj", "gen", "pl", "fem"] },
           { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
+          { "parse": ["adj", "gen", "pl", "neut"] },
+          { "parse": ["noun", "gen", "pl", "masc"] }
         ]
       }
     }
