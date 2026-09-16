@@ -381,9 +381,21 @@
       "appliesTo": ["adj"]
     },
     {
+      "_id": "2-1-2-contract",
+      "category": "declension",
+      "name": "Second-first-second declension, contracted",
+      "appliesTo": ["adj"]
+    },
+    {
       "_id": "2-2",
       "category": "declension",
       "name": "Two-termination, second declension throughout",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "2-2-contract",
+      "category": "declension",
+      "name": "Two-termination, second declension contracted",
       "appliesTo": ["adj"]
     },
     {
@@ -396,6 +408,12 @@
       "_id": "3-3-on",
       "category": "declension",
       "name": "Two-termination third declension in -ων",
+      "appliesTo": ["adj"]
+    },
+    {
+      "_id": "3-3-cons",
+      "category": "declension",
+      "name": "Two-termination third declension, consonant stem",
       "appliesTo": ["adj"]
     },
     {

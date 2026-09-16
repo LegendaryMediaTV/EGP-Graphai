@@ -151,15 +151,12 @@
   "θαιηλαθα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
+    "declension": "indeclinable",
     "inflections": {
       "θαιηλαθα": {
         "transliteration": "thaiēlatha",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
       }
     }
   },

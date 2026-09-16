@@ -21558,22 +21558,11 @@
       }
     }
   },
-  "ἐλεφάντων": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "3-cons",
-    "inflections": {
-      "ἐλεφάντων": {
-        "transliteration": "elephántōn",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      }
-    },
-    "gender": "masc"
-  },
   "ἐλέφας": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "declension": "3-cons",
     "inflections": {
       "ἐλέφαντας": {
         "transliteration": "eléphantas",
@@ -25934,7 +25923,7 @@
   "ἔμπνους": {
     "language": "greek",
     "pos": "adj",
-    "declension": "3-1-3-us",
+    "declension": "2-2-contract",
     "inflections": {
       "ἔμπνουν": {
         "transliteration": "émpnoun",
@@ -62004,7 +61993,7 @@
   "ἐρεοῦς": {
     "language": "greek",
     "pos": "adj",
-    "declension": "3-1-3-us",
+    "declension": "2-1-2-contract",
     "inflections": {
       "ἐρεοῖς": {
         "transliteration": "ereoîs",
@@ -71099,7 +71088,7 @@
   "εὔνους": {
     "language": "greek",
     "pos": "adj",
-    "declension": "3-1-3-us",
+    "declension": "2-2-contract",
     "inflections": {
       "εὔνους": {
         "transliteration": "eúnous",

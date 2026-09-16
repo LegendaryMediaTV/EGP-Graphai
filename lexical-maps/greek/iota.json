@@ -4415,7 +4415,7 @@
   "Ἱεροσόλυμα": {
     "language": "greek",
     "pos": "noun",
-    "declension": "3n-ma",
+    "declension": "2n",
     "shortDefinition": "Jerusalem; lit. Foundation of Peace",
     "indices": { "strongs": "G2414" },
     "inflections": {
@@ -4439,10 +4439,7 @@
       },
       "Ιεροσολύμοις": {
         "transliteration": "Ierosolýmois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "masc"] },
-          { "parse": ["noun", "dat", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "Ἱεροσολύμοις": {
         "transliteration": "Hierosolýmois",
@@ -4450,10 +4447,7 @@
       },
       "Ιεροσολύμων": {
         "transliteration": "Ierosolýmōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "neut"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       },
       "Ἱεροσολύμων": {
         "transliteration": "Hierosolýmōn",
@@ -4497,30 +4491,6 @@
       "Ἱεροσολυμιτῶν": {
         "transliteration": "Hierosolymitō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
-      }
-    }
-  },
-  "Ιεροσολύμος": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "Ιεροσολύμοις": {
-        "transliteration": "Ierosolýmois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "pl", "masc"] },
-          { "parse": ["noun", "dat", "sg"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
-        ]
-      },
-      "Ιεροσολύμων": {
-        "transliteration": "Ierosolýmōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] },
-          { "parse": ["noun", "gen", "sg"] }
-        ]
       }
     }
   },
