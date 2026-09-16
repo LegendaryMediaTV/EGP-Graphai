@@ -11,7 +11,10 @@
       },
       "ψαλίδες": {
         "transliteration": "psalídes",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       }
     }
   },
@@ -40,14 +43,21 @@
       "ψάλατε": {
         "transliteration": "psálate",
         "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] },
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "pl", "second"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "pl", "second"] }
         ]
+      },
+      "ψαλεῖ": {
+        "transliteration": "psaleî",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "ψάλῃ": {
         "transliteration": "psálē",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] }
+          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
+          { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }
         ]
       },
       "ψάλλε": {
@@ -74,7 +84,8 @@
       "ψάλλοντες": {
         "transliteration": "psállontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ψαλλόντων": {
@@ -98,13 +109,20 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
+      "ψαλοῦμεν": {
+        "transliteration": "psaloûmen",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
+      },
       "ψαλῶ": {
         "transliteration": "psalō̂",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "ψάλω": {
         "transliteration": "psálō",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
+        ]
       }
     }
   },
@@ -233,7 +251,9 @@
         "transliteration": "psaltōdoí",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "ψαλτῳδοῖς": {
@@ -323,7 +343,9 @@
         "transliteration": "psaroí",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -347,9 +369,10 @@
     "inflections": {
       "ψεκάδων": {
         "transliteration": "psekádōn",
-        "cells": [{ "parse": ["noun", "gen", "pl"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
-    }
+    },
+    "gender": "fem"
   },
   "ψέλιον": {
     "language": "greek",
@@ -387,7 +410,8 @@
       "ψελλίζουσαι": {
         "transliteration": "psellízousai",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
         ]
       }
     }
@@ -418,7 +442,10 @@
     "inflections": {
       "ψευδαπόστολοι": {
         "transliteration": "pseudapóstoloi",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -439,7 +466,13 @@
       },
       "ψευδεῖς": {
         "transliteration": "pseudeîs",
-        "cells": [{ "parse": ["adj", "acc", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "acc", "pl", "masc"] },
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "ψευδές": {
         "transliteration": "pseudés",
@@ -465,7 +498,10 @@
       },
       "ψεύδεσιν": {
         "transliteration": "pseúdesin",
-        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "masc"] },
+          { "parse": ["adj", "dat", "pl", "neut"] }
+        ]
       },
       "ψευδῆ": {
         "transliteration": "pseudē̂",
@@ -530,7 +566,10 @@
     "inflections": {
       "ψευδοδιδάσκαλοι": {
         "transliteration": "pseudodidáskaloi",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -556,9 +595,10 @@
     "inflections": {
       "ψευδοθυρίδων": {
         "transliteration": "pseudothyrídōn",
-        "cells": [{ "parse": ["noun", "gen", "pl"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
-    }
+    },
+    "gender": "fem"
   },
   "ψευδολογέω": {
     "language": "greek",
@@ -664,6 +704,9 @@
         "cells": [
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
           }
         ]
       },
@@ -751,7 +794,10 @@
     "inflections": {
       "ψευδομαρτυρίαι": {
         "transliteration": "pseudomartyríai",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "ψευδομαρτυρίαν": {
         "transliteration": "pseudomartyrían",
@@ -765,9 +811,16 @@
     "gender": "masc",
     "indices": { "strongs": "G5575" },
     "inflections": {
+      "ψευδομάρτυρας": {
+        "transliteration": "pseudomártyras",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      },
       "ψευδομάρτυρες": {
         "transliteration": "pseudomártyres",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "ψευδομαρτύρων": {
         "transliteration": "pseudomartýrōn",
@@ -785,7 +838,10 @@
     "inflections": {
       "ψευδοπροφῆται": {
         "transliteration": "pseudoprophē̂tai",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "ψευδοπροφήταις": {
         "transliteration": "pseudoprophḗtais",
@@ -836,14 +892,16 @@
         "transliteration": "pseûdos",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ψεῦδός": {
         "transliteration": "pseûdós",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ψεύδους": {
@@ -861,7 +919,10 @@
     "inflections": {
       "ψευδόχριστοι": {
         "transliteration": "pseudóchristoi",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -958,7 +1019,8 @@
       "ψευσθέντες": {
         "transliteration": "pseusthéntes",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ψεύσομαι": {
@@ -1013,7 +1075,10 @@
     "inflections": {
       "ψεῦσται": {
         "transliteration": "pseûstai",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "ψεύσταις": {
         "transliteration": "pseústais",
@@ -1063,6 +1128,10 @@
           { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
+      },
+      "ψηλαφήσαισαν": {
+        "transliteration": "psēlaphḗsaisan",
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "pl"] }]
       },
       "ψηλαφήσατέ": {
         "transliteration": "psēlaphḗsaté",
@@ -1243,7 +1312,10 @@
     "inflections": {
       "ψιθυρισμοί": {
         "transliteration": "psithyrismoí",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "ψιθυρισμῷ": {
         "transliteration": "psithyrismō̂",
@@ -1496,11 +1568,12 @@
       "ψυκτῆρες": {
         "transliteration": "psyktē̂res",
         "cells": [
-          { "parse": ["noun", "nom", "pl"] },
-          { "parse": ["noun", "voc", "pl"] }
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       }
-    }
+    },
+    "gender": "masc"
   },
   "ψύλλος": {
     "language": "greek",
@@ -1535,7 +1608,10 @@
     "inflections": {
       "ψυχαί": {
         "transliteration": "psychaí",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "ψυχαῖς": {
         "transliteration": "psychaîs",
@@ -1579,7 +1655,10 @@
     "inflections": {
       "ψυχικαί": {
         "transliteration": "psychikaí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "fem"] }
+        ]
       },
       "ψυχική": {
         "transliteration": "psychikḗ",
@@ -1587,11 +1666,18 @@
       },
       "ψυχικοί": {
         "transliteration": "psychikoí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "ψυχικόν": {
         "transliteration": "psychikón",
-        "cells": [{ "parse": ["adj", "nom", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
       },
       "ψυχικός": {
         "transliteration": "psychikós",
@@ -1623,13 +1709,18 @@
       },
       "ψύχος": {
         "transliteration": "psýchos",
-        "cells": [{ "parse": ["noun", "nom", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       },
       "ψῦχος": {
         "transliteration": "psŷchos",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -1657,8 +1748,11 @@
         "transliteration": "psychoulkoúmenoi",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -1738,7 +1832,8 @@
         "transliteration": "epsṓmizon",
         "cells": [
           { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
         ]
       },
       "ἐψώμισά": {
@@ -1761,9 +1856,21 @@
         "transliteration": "epsṓmisén",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
+      "ψωμιεῖ": {
+        "transliteration": "psōmieî",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ψωμιεῖς": {
+        "transliteration": "psōmieîs",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      },
       "ψώμιζε": {
         "transliteration": "psṓmize",
         "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
+      },
+      "ψωμιοῦσίν": {
+        "transliteration": "psōmioûsín",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "ψωμίσαντός": {
         "transliteration": "psōmísantós",
@@ -1800,7 +1907,8 @@
       "ψωμιῶ": {
         "transliteration": "psōmiō̂",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] }
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
       }
     }
@@ -1814,7 +1922,11 @@
     "inflections": {
       "ψωμίον": {
         "transliteration": "psōmíon",
-        "cells": [{ "parse": ["noun", "acc", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -1893,7 +2005,8 @@
       "ψώχοντες": {
         "transliteration": "psṓchontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }

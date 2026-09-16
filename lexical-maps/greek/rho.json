@@ -180,7 +180,14 @@
       },
       "ἐρράβδιζεν": {
         "transliteration": "errábdizen",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἐρράβδισεν": {
+        "transliteration": "errábdisen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ῥαβδίζειν": {
         "transliteration": "rhabdízein",
@@ -248,7 +255,10 @@
     "inflections": {
       "ῥαβδοῦχοι": {
         "transliteration": "rhabdoûchoi",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "ῥαβδούχους": {
         "transliteration": "rhabdoúchous",
@@ -276,9 +286,10 @@
     "inflections": {
       "ῥαγάδα": {
         "transliteration": "rhagáda",
-        "cells": [{ "parse": ["noun", "acc", "sg"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
-    }
+    },
+    "gender": "fem"
   },
   "Ῥαγαῦ": {
     "language": "greek",
@@ -314,6 +325,10 @@
     "pos": "noun",
     "declension": "1f-e",
     "inflections": {
+      "ῥάγα": {
+        "transliteration": "rhága",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
       "Ραγη": {
         "transliteration": "Ragē",
         "cells": [
@@ -370,15 +385,24 @@
     "inflections": {
       "ραγοις": {
         "transliteration": "ragois",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "dat", "pl", "masc"] },
+          { "parse": ["noun", "dat", "sg", "masc"] }
+        ]
       },
       "ῥάγοις": {
         "transliteration": "rhágois",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "dat", "pl", "masc"] },
+          { "parse": ["noun", "dat", "sg", "masc"] }
+        ]
       },
       "ῥάγων": {
         "transliteration": "rhágōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "pl", "masc"] },
+          { "parse": ["noun", "gen", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -457,7 +481,11 @@
     "inflections": {
       "ῥᾳδιούργημα": {
         "transliteration": "rhadioúrgēma",
-        "cells": [{ "parse": ["noun", "nom", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -624,10 +652,29 @@
     "conjugation": "thematic",
     "stems": { "fut": "ραν", "aor": "ραν" },
     "inflections": {
+      "ἔρρανεν": {
+        "transliteration": "érranen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ῥανάτωσαν": {
+        "transliteration": "rhanátōsan",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-3", "pl", "second"] }
+        ]
+      },
+      "ῥανεῖ": {
+        "transliteration": "rhaneî",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ῥανεῖς": {
+        "transliteration": "rhaneîs",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      },
       "ῥανῶ": {
         "transliteration": "rhanō̂",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] }
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
       }
     }
@@ -694,6 +741,8 @@
         "transliteration": "rhakṓdē",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["noun", "voc", "sg", "masc"] }
         ]
       }
@@ -866,7 +915,10 @@
     "inflections": {
       "Ραμωθ": {
         "transliteration": "Ramōth",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-proper", "fem"] },
+          { "parse": ["noun", "indecl-proper", "masc"] }
+        ]
       }
     }
   },
@@ -903,11 +955,20 @@
         "transliteration": "errántisen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
+      "ἐρραντίσθη": {
+        "transliteration": "errantísthē",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
+      },
       "ἐρραντισμένοι": {
         "transliteration": "errantisménoi",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
         ]
+      },
+      "ῥαντιεῖς": {
+        "transliteration": "rhantieîs",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "ῥαντίζουσα": {
         "transliteration": "rhantízousa",
@@ -963,7 +1024,9 @@
         "transliteration": "rhantoí",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "ῥαντόν": {
@@ -1032,6 +1095,7 @@
         "transliteration": "errápizen",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }
         ]
       },
@@ -1075,7 +1139,8 @@
               "neut",
               "second"
             ]
-          }
+          },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
         ]
       },
       "ἐρράπισαν": {
@@ -1104,7 +1169,11 @@
     "inflections": {
       "ῥάπισμα": {
         "transliteration": "rhápisma",
-        "cells": [{ "parse": ["noun", "acc", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       },
       "ῥαπίσμασιν": {
         "transliteration": "rhapísmasin",
@@ -1114,7 +1183,8 @@
         "transliteration": "rhapísmata",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -1152,6 +1222,10 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
         ]
+      },
+      "ῥάψαι": {
+        "transliteration": "rhápsai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -1221,7 +1295,26 @@
     "inflections": {
       "ἐρράχθη": {
         "transliteration": "erráchthē",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }
+        ]
+      },
+      "ῥάξει": {
+        "transliteration": "rháxei",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ῥάξον": {
+        "transliteration": "rháxon",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
+      },
+      "ῥάξουσιν": {
+        "transliteration": "rháxousin",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ῥάξω": {
+        "transliteration": "rháxō",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "ῥάσσω": {
         "transliteration": "rhássō",
@@ -1411,7 +1504,10 @@
       },
       "ραφις": {
         "transliteration": "raphis",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "masc"] },
+          { "parse": ["noun", "indecl-proper", "fem"] }
+        ]
       }
     }
   },
@@ -1531,7 +1627,10 @@
     "inflections": {
       "Ρεβεκκα": {
         "transliteration": "Rebekka",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "fem"] }
+        ]
       },
       "Ῥεβέκκα": {
         "transliteration": "Rhebékka",
@@ -1581,7 +1680,10 @@
     "inflections": {
       "ἔρρεγχεν": {
         "transliteration": "érrenchen",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }
+        ]
       },
       "ῥέγχεις": {
         "transliteration": "rhéncheis",
@@ -1892,6 +1994,10 @@
     "conjugation": "contract-e",
     "indices": { "strongs": "G4482" },
     "inflections": {
+      "ἐρρύησαν": {
+        "transliteration": "errýēsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
       "ῥέῃ": {
         "transliteration": "rhéē",
         "cells": [
@@ -1935,6 +2041,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
         ]
       },
+      "ῥευσάτωσαν": {
+        "transliteration": "rheusátōsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
+      },
       "ῥεύσουσιν": {
         "transliteration": "rheúsousin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
@@ -1969,7 +2079,11 @@
     "inflections": {
       "Ῥήγιον": {
         "transliteration": "Rhḗgion",
-        "cells": [{ "parse": ["noun", "acc", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -1982,7 +2096,11 @@
     "inflections": {
       "ῥῆγμα": {
         "transliteration": "rhē̂gma",
-        "cells": [{ "parse": ["noun", "nom", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       },
       "ῥήγματα": {
         "transliteration": "rhḗgmata",
@@ -2001,6 +2119,25 @@
     "stems": { "aor": "ερρηξ", "fut": "ρηξ" },
     "indices": { "strongs": "G4486" },
     "inflections": {
+      "ἐρράγη": {
+        "transliteration": "errágē",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ἐρράγησαν": {
+        "transliteration": "errágēsan",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] },
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl", "second"] }
+        ]
+      },
+      "ἐρρηγώς": {
+        "transliteration": "errēgṓs",
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
       "ἔρρηξαν": {
         "transliteration": "érrēxan",
         "cells": [
@@ -2017,11 +2154,23 @@
         "transliteration": "érrēxen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
+      "ἐρρώγασιν": {
+        "transliteration": "errṓgasin",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
+      },
       "ῥαγῇ": {
         "transliteration": "rhagē̂",
         "cells": [
           { "parse": ["verb", "second", "aor", "pas", "subj", "pers-3", "sg"] }
         ]
+      },
+      "ῥαγήσεται": {
+        "transliteration": "rhagḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "ῥαγῶσιν": {
+        "transliteration": "rhagō̂sin",
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
       },
       "ῥήγνυνται": {
         "transliteration": "rhḗgnyntai",
@@ -2034,6 +2183,31 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
+      },
+      "ῥῆξαι": {
+        "transliteration": "rhē̂xai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+      },
+      "ῥήξαντες": {
+        "transliteration": "rhḗxantes",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "ῥήξας": {
+        "transliteration": "rhḗxas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ῥηξάτω": {
+        "transliteration": "rhēxátō",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"] }]
+      },
+      "ῥηξάτωσαν": {
+        "transliteration": "rhēxátōsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
       },
       "ῥήξει": {
         "transliteration": "rhḗxei",
@@ -2050,6 +2224,10 @@
       "ῥήσσει": {
         "transliteration": "rhḗssei",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ῥήσσω": {
+        "transliteration": "rhḗssō",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -2092,14 +2270,16 @@
         "transliteration": "rhē̂ma",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ῥῆμά": {
         "transliteration": "rhē̂má",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ῥήμασιν": {
@@ -2113,15 +2293,17 @@
       "ῥήματα": {
         "transliteration": "rhḗmata",
         "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "acc", "pl", "neut"] }
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "ῥήματά": {
         "transliteration": "rhḗmatá",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "ῥήματι": {
@@ -2414,7 +2596,10 @@
     "inflections": {
       "ἐρριζώθησαν": {
         "transliteration": "errizṓthēsan",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἐρρίζωκεν": {
         "transliteration": "errízōken",
@@ -2434,8 +2619,13 @@
       "ἐρριζωμένοι": {
         "transliteration": "errizōménoi",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
         ]
+      },
+      "ἐρρίζωσα": {
+        "transliteration": "errízōsa",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
       },
       "ῥιζωθῇ": {
         "transliteration": "rhizōthē̂",
@@ -2495,6 +2685,10 @@
     "conjugation": "thematic",
     "indices": { "strongs": "G4494" },
     "inflections": {
+      "ἐρρίπισεν": {
+        "transliteration": "errípisen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ῥιπιζομένῳ": {
         "transliteration": "rhipizoménō",
         "cells": [
@@ -2551,28 +2745,90 @@
     "shortDefinition": "to fling",
     "indices": { "strongs": "G4496" },
     "inflections": {
+      "ἐρριμμένα": {
+        "transliteration": "errimména",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "ἐρριμμένη": {
+        "transliteration": "errimménē",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] }
+        ]
+      },
+      "ἐρριμμένην": {
+        "transliteration": "errimménēn",
+        "cells": [
+          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "fem"] }
+        ]
+      },
       "ἐρριμμένοι": {
         "transliteration": "errimménoi",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ἐρριμμένον": {
         "transliteration": "errimménon",
         "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"] },
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
+      "ἐρριμμένῳ": {
+        "transliteration": "errimménō",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "masc"] }
+        ]
+      },
       "ἔρριπται": {
         "transliteration": "érriptai",
-        "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }
+        ]
       },
       "ἔρριπτεν": {
         "transliteration": "érripten",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἔρριπτο": {
+        "transliteration": "érripto",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐρρίφη": {
+        "transliteration": "erríphē",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ἐρρίφησαν": {
+        "transliteration": "erríphēsan",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl", "second"] }
+        ]
+      },
+      "ἔρριψα": {
+        "transliteration": "érripsa",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      },
+      "ἔρριψά": {
+        "transliteration": "érripsá",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
       },
       "ἐρρίψαμεν": {
         "transliteration": "errípsamen",
@@ -2582,6 +2838,32 @@
         "transliteration": "érripsan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
+      "ἔρριψας": {
+        "transliteration": "érripsas",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἔρριψάς": {
+        "transliteration": "érripsás",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἔρριψε": {
+        "transliteration": "érripse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἔρριψεν": {
+        "transliteration": "érripsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἔρριψέν": {
+        "transliteration": "érripsén",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ῥεριμμένος": {
+        "transliteration": "rherimménos",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
       "ῥίπτω": {
         "transliteration": "rhíptō",
         "cells": [
@@ -2589,28 +2871,60 @@
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
       },
+      "ῥιφείς": {
+        "transliteration": "rhipheís",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ῥιφέντα": {
+        "transliteration": "rhiphénta",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "masc"] }
+        ]
+      },
+      "ῥιφῇ": {
+        "transliteration": "rhiphē̂",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] }]
+      },
+      "ῥιφῆναι": {
+        "transliteration": "rhiphē̂nai",
+        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
+      },
       "ῥιφήσεται": {
         "transliteration": "rhiphḗsetai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }
+        ]
       },
       "ῥιφήσῃ": {
         "transliteration": "rhiphḗsē",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "fut", "pas", "ind", "pers-2", "sg"] }
+        ]
       },
       "ῥιφήσονται": {
         "transliteration": "rhiphḗsontai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }
+        ]
       },
       "ῥίψαν": {
         "transliteration": "rhípsan",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "neut"] }
+          { "parse": ["verb", "aor", "act", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "ῥίψαντες": {
         "transliteration": "rhípsantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ῥίψας": {
@@ -2618,6 +2932,29 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "ῥίψατε": {
+        "transliteration": "rhípsate",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] }]
+      },
+      "ῥίψει": {
+        "transliteration": "rhípsei",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ῥίψεις": {
+        "transliteration": "rhípseis",
+        "cells": [
+          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "ῥῖψον": {
+        "transliteration": "rhîpson",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
+      },
+      "ῥίψωμεν": {
+        "transliteration": "rhípsōmen",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-1", "pl"] }]
       }
     }
   },
@@ -2750,7 +3087,10 @@
     "inflections": {
       "ῥόακος": {
         "transliteration": "rhóakos",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "fem"] },
+          { "parse": ["noun", "gen", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -2817,6 +3157,10 @@
       "Ῥόδιοι": {
         "transliteration": "Rhódioi",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "ῥοδίων": {
+        "transliteration": "rhodíōn",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -2852,9 +3196,30 @@
     "gender": "fem",
     "indices": { "strongs": "G4499" },
     "inflections": {
+      "ῥόδα": {
+        "transliteration": "rhóda",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
+      },
       "ῥόδον": {
         "transliteration": "rhódon",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
+      "ῥόδου": {
+        "transliteration": "rhódou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
+      },
+      "ῥόδων": {
+        "transliteration": "rhódōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       }
     }
   },
@@ -2948,7 +3313,8 @@
         "transliteration": "rhoízō",
         "cells": [
           { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
+          { "parse": ["noun", "dat", "sg", "masc"] },
+          { "parse": ["noun", "dat", "sg", "neut"] }
         ]
       }
     }
@@ -3020,6 +3386,7 @@
         "transliteration": "Romelia",
         "cells": [
           { "parse": ["noun", "dat", "sg", "masc"] },
+          { "parse": ["noun", "gen", "sg", "masc"] },
           { "parse": ["noun", "voc", "sg", "masc"] }
         ]
       },
@@ -3048,7 +3415,10 @@
     "inflections": {
       "ῥομφαία": {
         "transliteration": "rhomphaía",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "voc", "sg", "fem"] }
+        ]
       },
       "ῥομφαίᾳ": {
         "transliteration": "rhomphaía",
@@ -3136,10 +3506,11 @@
         "transliteration": "Roubēn",
         "cells": [
           { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       }
-    }
+    },
+    "gender": "masc"
   },
   "Ρουβηνι": {
     "language": "greek",
@@ -3230,7 +3601,10 @@
     "inflections": {
       "Ροωβ": {
         "transliteration": "Roōb",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-proper", "fem"] },
+          { "parse": ["noun", "indecl-proper", "masc"] }
+        ]
       }
     }
   },
@@ -3254,9 +3628,10 @@
     "inflections": {
       "ῥοῶνος": {
         "transliteration": "rhoō̂nos",
-        "cells": [{ "parse": ["noun", "gen", "sg"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
-    }
+    },
+    "gender": "masc"
   },
   "Ροως": {
     "language": "greek",
@@ -3366,6 +3741,24 @@
     "shortDefinition": "to deliver, rescue",
     "indices": { "strongs": "G4506" },
     "inflections": {
+      "ἐρρυσάμην": {
+        "transliteration": "errysámēn",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "ἐρρύσαντο": {
+        "transliteration": "errýsanto",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
+      "ἐρρύσασθε": {
+        "transliteration": "errýsasthe",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "pl"] }
+        ]
+      },
       "ἐρρύσατο": {
         "transliteration": "errýsato",
         "cells": [
@@ -3378,13 +3771,34 @@
           { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       },
+      "ἐρρύσθη": {
+        "transliteration": "errýsthē",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἐρρύσθημεν": {
+        "transliteration": "errýsthēmen",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-1", "pl"] }
+        ]
+      },
       "ἐρρύσθην": {
         "transliteration": "errýsthēn",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] }]
       },
+      "ἐρρύσθησαν": {
+        "transliteration": "errýsthēsan",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
       "ἐρρύσω": {
         "transliteration": "errýsō",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
+        ]
       },
       "ῥύεσθαι": {
         "transliteration": "rhýesthai",
@@ -3400,13 +3814,21 @@
         "transliteration": "rhyómenoi",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "mid-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid-dep", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
           },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
+          },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas-dep", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ῥυομένοις": {
@@ -3464,6 +3886,12 @@
         "transliteration": "rhŷsaí",
         "cells": [
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
+        ]
+      },
+      "ῥύσαιτο": {
+        "transliteration": "rhýsaito",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "opt", "pers-3", "sg"] }
         ]
       },
       "ῥυσάμενον": {
@@ -3565,10 +3993,28 @@
           { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "sg"] }
         ]
       },
+      "ῥυσθείην": {
+        "transliteration": "rhystheíēn",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "opt", "pers-1", "sg"] }
+        ]
+      },
       "ῥυσθέντας": {
         "transliteration": "rhysthéntas",
         "cells": [
           { "parse": ["verb", "aor", "pas", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
+      "ῥυσθήσῃ": {
+        "transliteration": "rhysthḗsē",
+        "cells": [
+          { "parse": ["verb", "fut", "midpas-dep", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "ῥυσθήσομαι": {
+        "transliteration": "rhysthḗsomai",
+        "cells": [
+          { "parse": ["verb", "fut", "midpas-dep", "ind", "pers-1", "sg"] }
         ]
       },
       "ῥυσθῶ": {
@@ -3578,6 +4024,12 @@
       "ῥυσθῶμεν": {
         "transliteration": "rhysthō̂men",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-1", "pl"] }]
+      },
+      "ῥυσθῶσιν": {
+        "transliteration": "rhysthō̂sin",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "subj", "pers-3", "pl"] }
+        ]
       },
       "ῥύσομαι": {
         "transliteration": "rhýsomai",
@@ -3633,7 +4085,11 @@
     "inflections": {
       "ῥυπαρά": {
         "transliteration": "rhypará",
-        "cells": [{ "parse": ["adj", "acc", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
+        ]
       },
       "ῥυπαρᾷ": {
         "transliteration": "rhyparâ",
@@ -3654,7 +4110,12 @@
     "inflections": {
       "ῥύπον": {
         "transliteration": "rhýpon",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "masc"] },
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       },
       "ῥύπου": {
         "transliteration": "rhýpou",
@@ -3782,11 +4243,17 @@
     "inflections": {
       "Ῥωμαῖοι": {
         "transliteration": "Rhōmaîoi",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "Ῥωμαῖοί": {
         "transliteration": "Rhōmaîoí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "Ῥωμαίοις": {
         "transliteration": "Rhōmaíois",
@@ -3806,7 +4273,10 @@
       },
       "Ῥωμαίους": {
         "transliteration": "Rhōmaíous",
-        "cells": [{ "parse": ["adj", "acc", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "masc"] },
+          { "parse": ["adj", "dat", "pl", "masc"] }
+        ]
       },
       "Ῥωμαίων": {
         "transliteration": "Rhōmaíōn",
@@ -3833,7 +4303,9 @@
         "transliteration": "rhōmaléoi",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -3885,6 +4357,7 @@
       "ἐρρωμένων": {
         "transliteration": "errōménōn",
         "cells": [
+          { "parse": ["verb", "aor", "mid", "ptc", "gen", "pl", "neut"] },
           { "parse": ["verb", "perf", "mid", "ptc", "gen", "pl", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "gen", "pl", "masc"] },
           { "parse": ["verb", "perf", "mid", "ptc", "gen", "pl", "neut"] },
@@ -3906,7 +4379,10 @@
       },
       "ἔρρωσθε": {
         "transliteration": "érrōsthe",
-        "cells": [{ "parse": ["verb", "perf", "pas", "imp", "pers-2", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "imp", "pers-2", "pl"] },
+          { "parse": ["verb", "perf", "pas", "imp", "pers-2", "pl"] }
+        ]
       },
       "ἔρρωσο": {
         "transliteration": "érrōso",
@@ -3920,6 +4396,14 @@
     "gender": "masc",
     "declension": "indeclinable",
     "inflections": {
+      "ῥῶγας": {
+        "transliteration": "rhō̂gas",
+        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+      },
+      "ῥῶγες": {
+        "transliteration": "rhō̂ges",
+        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+      },
       "ῥώξ": {
         "transliteration": "rhṓx",
         "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]

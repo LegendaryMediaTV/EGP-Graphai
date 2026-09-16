@@ -293,7 +293,10 @@
     "inflections": {
       "γαβης": {
         "transliteration": "gabēs",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -602,7 +605,8 @@
         "transliteration": "Gazaíō",
         "cells": [
           { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
+          { "parse": ["noun", "dat", "sg", "masc"] },
+          { "parse": ["noun", "gen", "pl", "masc"] }
         ]
       }
     }
@@ -624,11 +628,16 @@
         "transliteration": "Gazaran",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
+      "Γαζαροις": {
+        "transliteration": "Gazarois",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
       "Γαζαρων": {
         "transliteration": "Gazarōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
-    }
+    },
+    "gender": "fem"
   },
   "γαζαρηνός": {
     "language": "greek",
@@ -766,7 +775,8 @@
         "transliteration": "gazophylákion",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "γαζοφυλακίου": {
@@ -840,7 +850,11 @@
     "inflections": {
       "Γαι": {
         "transliteration": "Gai",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-proper", "fem"] },
+          { "parse": ["noun", "indecl-proper", "masc"] },
+          { "parse": ["noun", "indecl-proper", "neut"] }
+        ]
       }
     }
   },
@@ -1067,8 +1081,13 @@
         "transliteration": "gála",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "γάλακτι": {
+        "transliteration": "gálakti",
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       },
       "γάλακτος": {
         "transliteration": "gálaktos",
@@ -1170,6 +1189,10 @@
       "Γαλααδῖτιν": {
         "transliteration": "Galaadîtin",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "Γαλααδιτῶν": {
+        "transliteration": "Galaaditō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -1215,7 +1238,8 @@
       "γαλακτοποτοῦντες": {
         "transliteration": "galaktopotoûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -1282,7 +1306,10 @@
     "inflections": {
       "Γαλάται": {
         "transliteration": "Galátai",
-        "cells": [{ "parse": ["noun", "voc", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -1340,9 +1367,16 @@
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
+      "Γαλγαλοις": {
+        "transliteration": "Galgalois",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
       "Γαλγαλων": {
         "transliteration": "Galgalōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "pl", "fem"] },
+          { "parse": ["noun", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -1748,7 +1782,8 @@
       "γαμοῦντες": {
         "transliteration": "gamoûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γαμοῦσιν": {
@@ -1770,9 +1805,17 @@
       "γῆμαι": {
         "transliteration": "gē̂mai",
         "cells": [
+          { "parse": ["verb", "aor", "act", "inf"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "perf", "pas", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "γήμαντες": {
+        "transliteration": "gḗmantes",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γήμῃ": {
@@ -2100,7 +2143,10 @@
       },
       "γαστέρες": {
         "transliteration": "gastéres",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "γαστήρ": {
         "transliteration": "gastḗr",
@@ -2235,8 +2281,11 @@
         "transliteration": "gegaurōménoi",
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γεγαυρωμένος": {
@@ -2322,7 +2371,10 @@
     "inflections": {
       "Γεδδουρ": {
         "transliteration": "Geddour",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-proper", "masc"] },
+          { "parse": ["noun", "indecl-proper", "neut"] }
+        ]
       }
     }
   },
@@ -2686,36 +2738,53 @@
     "inflections": {
       "γείτονα": {
         "transliteration": "geítona",
-        "cells": [{ "parse": ["noun", "acc", "sg"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "γείτονας": {
         "transliteration": "geítonas",
         "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "acc", "pl", "fem"] }
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "acc", "pl", "masc"] }
         ]
       },
       "γείτονες": {
         "transliteration": "geítones",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "γείτονές": {
         "transliteration": "geítonés",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "γείτονος": {
         "transliteration": "geítonos",
-        "cells": [{ "parse": ["noun", "gen", "sg"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "γειτόνων": {
         "transliteration": "geitónōn",
-        "cells": [{ "parse": ["noun", "gen", "pl"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      },
+      "γείτοσιν": {
+        "transliteration": "geítosin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
+      "γείτοσίν": {
+        "transliteration": "geítosín",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "γείτων": {
         "transliteration": "geítōn",
-        "cells": [{ "parse": ["noun", "nom", "sg"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
-    }
+    },
+    "gender": "masc"
   },
   "γειώρας": {
     "language": "greek",
@@ -2725,6 +2794,10 @@
       "γειώραις": {
         "transliteration": "geiṓrais",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
+      "γιώρας": {
+        "transliteration": "giṓras",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -2788,7 +2861,10 @@
       },
       "γελάσονται": {
         "transliteration": "gelásontai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }
+        ]
       },
       "γελάσω": {
         "transliteration": "gelásō",
@@ -2811,7 +2887,8 @@
       "γελῶντες": {
         "transliteration": "gelō̂ntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ἐγέλασα": {
@@ -2997,6 +3074,22 @@
       "γέλως": {
         "transliteration": "gélōs",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "γέλωτα": {
+        "transliteration": "gélōta",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "γέλωτά": {
+        "transliteration": "gélōtá",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "γέλωτι": {
+        "transliteration": "gélōti",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
+      "γέλωτος": {
+        "transliteration": "gélōtos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -3035,7 +3128,10 @@
       },
       "γεμίσατε": {
         "transliteration": "gemísate",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] },
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }
+        ]
       },
       "γεμισθῇ": {
         "transliteration": "gemisthē̂",
@@ -3084,14 +3180,16 @@
         "transliteration": "gémon",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "γέμοντα": {
         "transliteration": "gémonta",
         "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
         ]
       },
       "γέμουσα": {
@@ -3140,7 +3238,10 @@
       },
       "γενεαί": {
         "transliteration": "geneaí",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "γενεαῖς": {
         "transliteration": "geneaîs",
@@ -3295,6 +3396,10 @@
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
       },
+      "γενέσεσιν": {
+        "transliteration": "genésesin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
       "γενέσεως": {
         "transliteration": "genéseōs",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
@@ -3305,7 +3410,10 @@
       },
       "γένεσιν": {
         "transliteration": "génesin",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "dat", "pl", "neut"] }
+        ]
       },
       "γένεσις": {
         "transliteration": "génesis",
@@ -3348,18 +3456,24 @@
     "declension": "3n-ma",
     "indices": { "strongs": "G1081" },
     "inflections": {
+      "γενήμασίν": {
+        "transliteration": "genḗmasín",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "γενήματα": {
         "transliteration": "genḗmata",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "γενήματά": {
         "transliteration": "genḗmatá",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "γενήματος": {
@@ -3396,6 +3510,14 @@
     "language": "greek",
     "pos": "noun",
     "inflections": {
+      "γενναία": {
+        "transliteration": "gennaía",
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
+      "γενναίᾳ": {
+        "transliteration": "gennaía",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
       "γενναῖοι": {
         "transliteration": "gennaîoi",
         "cells": [
@@ -3409,7 +3531,10 @@
         "transliteration": "gennaîon",
         "cells": [
           { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
+          { "parse": ["noun", "acc", "sg", "masc"] },
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "γενναῖος": {
@@ -3421,6 +3546,14 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "γενναιοτέρα": {
+        "transliteration": "gennaiotéra",
+        "cells": [{ "parse": ["noun", "comp", "nom", "sg", "fem"] }]
+      },
+      "γενναιοτέρων": {
+        "transliteration": "gennaiotérōn",
+        "cells": [{ "parse": ["noun", "comp", "gen", "pl", "masc"] }]
       },
       "γενναίους": {
         "transliteration": "gennaíous",
@@ -3504,8 +3637,10 @@
       "γεγεννημένον": {
         "transliteration": "gegennēménon",
         "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "γεγεννημένος": {
@@ -3548,7 +3683,10 @@
       },
       "γεννᾶται": {
         "transliteration": "gennâtai",
-        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
+        ]
       },
       "γεννηθείς": {
         "transliteration": "gennētheís",
@@ -3556,16 +3694,25 @@
           { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"] }
         ]
       },
+      "γεννηθεῖσιν": {
+        "transliteration": "gennētheîsin",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "dat", "pl", "masc"] }
+        ]
+      },
       "γεννηθέν": {
         "transliteration": "gennēthén",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "neut"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "γεννηθέντες": {
         "transliteration": "gennēthéntes",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γεννηθέντος": {
@@ -3626,13 +3773,15 @@
       "γεννήσαντες": {
         "transliteration": "gennḗsantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γεννήσαντές": {
         "transliteration": "gennḗsantés",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γεννήσαντος": {
@@ -3649,6 +3798,12 @@
           { "parse": ["verb", "aor", "act", "ptc", "gen", "sg", "neut"] }
         ]
       },
+      "γεννήσασιν": {
+        "transliteration": "gennḗsasin",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "dat", "pl", "masc"] }
+        ]
+      },
       "γεννήσει": {
         "transliteration": "gennḗsei",
         "cells": [
@@ -3662,7 +3817,10 @@
       },
       "γεννήσῃ": {
         "transliteration": "gennḗsē",
-        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
+        ]
       },
       "γεννήσῃς": {
         "transliteration": "gennḗsēs",
@@ -3707,7 +3865,9 @@
       "γεννώμενον": {
         "transliteration": "gennṓmenon",
         "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "γεννωμένων": {
@@ -3805,7 +3965,10 @@
       },
       "ἐγεννῶσαν": {
         "transliteration": "egennō̂san",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
+        ]
       }
     }
   },
@@ -3816,9 +3979,45 @@
     "declension": "3n-ma",
     "indices": { "strongs": "G1081" },
     "inflections": {
+      "γένημα": {
+        "transliteration": "génēma",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
+      "γένημά": {
+        "transliteration": "génēmá",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
+      "γενήμασιν": {
+        "transliteration": "genḗmasin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
+      "γενήματι": {
+        "transliteration": "genḗmati",
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
+      "γενημάτων": {
+        "transliteration": "genēmátōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
+      },
+      "γεννήμασιν": {
+        "transliteration": "gennḗmasin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "γεννήματα": {
         "transliteration": "gennḗmata",
-        "cells": [{ "parse": ["noun", "voc", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
       }
     }
   },
@@ -3912,15 +4111,17 @@
       "γένη": {
         "transliteration": "génē",
         "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "acc", "pl", "neut"] }
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "γένος": {
         "transliteration": "génos",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "γένους": {
@@ -4010,11 +4211,16 @@
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
+      "Γεραροις": {
+        "transliteration": "Gerarois",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
       "Γεραρων": {
         "transliteration": "Gerarōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
-    }
+    },
+    "gender": "fem"
   },
   "γέρας": {
     "language": "greek",
@@ -4024,7 +4230,10 @@
         "transliteration": "géras",
         "cells": [
           { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -4128,6 +4337,25 @@
     "declension": "3-cons",
     "indices": { "strongs": "G1088" },
     "inflections": {
+      "γέροντα": {
+        "transliteration": "géronta",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "γέροντες": {
+        "transliteration": "gérontes",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
+      "γέροντι": {
+        "transliteration": "géronti",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
+      "γερόντων": {
+        "transliteration": "geróntōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      },
       "γέρων": {
         "transliteration": "gérōn",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
@@ -4419,7 +4647,11 @@
     "inflections": {
       "γεωμετρικόν": {
         "transliteration": "geōmetrikón",
-        "cells": [{ "parse": ["adj", "nom", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -4437,7 +4669,8 @@
       "γεωργοῦντες": {
         "transliteration": "geōrgoûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γεωργούντων": {
@@ -4482,8 +4715,9 @@
       "γεώργιον": {
         "transliteration": "geṓrgion",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "γεωργίου": {
@@ -4501,7 +4735,10 @@
     "inflections": {
       "γεωργοί": {
         "transliteration": "geōrgoí",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "γεωργοῖς": {
         "transliteration": "geōrgoîs",
@@ -4589,8 +4826,14 @@
           { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "acc", "pl", "masc"] },
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
+      },
+      "γηγενέσιν": {
+        "transliteration": "gēgenésin",
+        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
       },
       "γηγενοῦς": {
         "transliteration": "gēgenoûs",
@@ -4646,7 +4889,10 @@
       },
       "Γήρᾳ": {
         "transliteration": "Gḗra",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-proper", "masc"] },
+          { "parse": ["noun", "indecl-proper", "neut"] }
+        ]
       }
     }
   },
@@ -4660,19 +4906,29 @@
         "transliteration": "gē̂ras",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "γῆράς": {
         "transliteration": "gē̂rás",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "γήρει": {
         "transliteration": "gḗrei",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
+      "γήρους": {
+        "transliteration": "gḗrous",
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
+      },
+      "γήρως": {
+        "transliteration": "gḗrōs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -4698,6 +4954,7 @@
       "γηρᾶσαι": {
         "transliteration": "gērâsai",
         "cells": [
+          { "parse": ["verb", "aor", "act", "inf"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
@@ -4712,7 +4969,10 @@
       },
       "γηράσῃ": {
         "transliteration": "gērásē",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
+        ]
       },
       "γηράσῃς": {
         "transliteration": "gērásēs",
@@ -4721,12 +4981,22 @@
       "γηράσκον": {
         "transliteration": "gēráskon",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "γηράσκουσιν": {
         "transliteration": "gēráskousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἐγήρασα": {
+        "transliteration": "egḗrasa",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      },
+      "ἐγήρασεν": {
+        "transliteration": "egḗrasen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -4920,30 +5190,78 @@
     "shortDefinition": "to come into being, become, make; fig. to happen, be born",
     "indices": { "strongs": "G1096" },
     "inflections": {
+      "γεγένημαι": {
+        "transliteration": "gegénēmai",
+        "cells": [
+          { "parse": ["verb", "perf", "mid-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
       "γεγενημένα": {
         "transliteration": "gegenēména",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "γεγενημένας": {
+        "transliteration": "gegenēménas",
+        "cells": [
+          { "parse": ["verb", "perf", "mid-dep", "ptc", "acc", "pl", "fem"] }
+        ]
+      },
+      "γεγενημένοις": {
+        "transliteration": "gegenēménois",
+        "cells": [
+          { "parse": ["verb", "perf", "mid-dep", "ptc", "dat", "pl", "neut"] }
         ]
       },
       "γεγενημένον": {
         "transliteration": "gegenēménon",
         "cells": [
+          { "parse": ["verb", "perf", "mid-dep", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "perf", "mid-dep", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "perf", "mid-dep", "ptc", "voc", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
+        ]
+      },
+      "γεγενημένος": {
+        "transliteration": "gegenēménos",
+        "cells": [
+          { "parse": ["verb", "perf", "mid-dep", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "γεγενημένων": {
+        "transliteration": "gegenēménōn",
+        "cells": [
+          { "parse": ["verb", "perf", "mid-dep", "ptc", "gen", "pl", "masc"] }
         ]
       },
       "γεγενῆσθαι": {
         "transliteration": "gegenē̂sthai",
-        "cells": [{ "parse": ["verb", "perf", "pas", "inf"] }]
+        "cells": [
+          { "parse": ["verb", "perf", "mid-dep", "inf"] },
+          { "parse": ["verb", "perf", "pas", "inf"] }
+        ]
       },
       "γεγενῆσθαί": {
         "transliteration": "gegenē̂sthaí",
-        "cells": [{ "parse": ["verb", "perf", "pas", "inf"] }]
+        "cells": [
+          { "parse": ["verb", "perf", "mid-dep", "inf"] },
+          { "parse": ["verb", "perf", "pas", "inf"] }
+        ]
       },
       "γεγένησθε": {
         "transliteration": "gegénēsthe",
         "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-2", "pl"] }]
+      },
+      "γεγένηται": {
+        "transliteration": "gegénētai",
+        "cells": [
+          { "parse": ["verb", "perf", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
       },
       "γέγονα": {
         "transliteration": "gégona",
@@ -5002,6 +5320,19 @@
       "γεγονός": {
         "transliteration": "gegonós",
         "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"] },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "perf",
+              "act",
+              "ptc",
+              "acc",
+              "sg",
+              "neut"
+            ]
+          },
           {
             "parse": [
               "verb",
@@ -5021,7 +5352,7 @@
               "perf",
               "act",
               "ptc",
-              "acc",
+              "voc",
               "sg",
               "neut"
             ]
@@ -5072,6 +5403,18 @@
               "act",
               "ptc",
               "nom",
+              "pl",
+              "masc"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "perf",
+              "act",
+              "ptc",
+              "voc",
               "pl",
               "masc"
             ]
@@ -5160,11 +5503,35 @@
         "transliteration": "genésthai",
         "cells": [{ "parse": ["verb", "second", "aor", "mid-dep", "inf"] }]
       },
+      "γένεσθε": {
+        "transliteration": "génesthe",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "pl", "second"]
+          }
+        ]
+      },
+      "γένεσθέ": {
+        "transliteration": "génesthé",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "pl", "second"]
+          }
+        ]
+      },
       "γενέσθω": {
         "transliteration": "genésthō",
         "cells": [
           {
             "parse": ["verb", "second", "aor", "mid-dep", "imp", "pers-3", "sg"]
+          }
+        ]
+      },
+      "γενέσθωσαν": {
+        "transliteration": "genésthōsan",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "mid-dep", "imp", "pers-3", "pl", "second"]
           }
         ]
       },
@@ -5184,6 +5551,24 @@
           }
         ]
       },
+      "γενηθείς": {
+        "transliteration": "genētheís",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "γενηθεῖσα": {
+        "transliteration": "genētheîsa",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "ptc", "nom", "sg", "fem"] }
+        ]
+      },
+      "γενηθείσῃ": {
+        "transliteration": "genētheísē",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "ptc", "dat", "sg", "fem"] }
+        ]
+      },
       "γενηθέντας": {
         "transliteration": "genēthéntas",
         "cells": [
@@ -5193,13 +5578,26 @@
       "γενηθέντες": {
         "transliteration": "genēthéntes",
         "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "γενηθέντος": {
+        "transliteration": "genēthéntos",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "ptc", "gen", "sg", "masc"] }
         ]
       },
       "γενηθέντων": {
         "transliteration": "genēthéntōn",
         "cells": [
           { "parse": ["verb", "aor", "pas-dep", "ptc", "gen", "pl", "neut"] }
+        ]
+      },
+      "γενηθῇ": {
+        "transliteration": "genēthē̂",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "subj", "pers-3", "sg"] }
         ]
       },
       "γενηθῆναι": {
@@ -5210,16 +5608,40 @@
         "transliteration": "genēthē̂naí",
         "cells": [{ "parse": ["verb", "aor", "pas-dep", "inf"] }]
       },
+      "γενηθῇς": {
+        "transliteration": "genēthē̂s",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "subj", "pers-2", "sg"] }
+        ]
+      },
       "γενήθητε": {
         "transliteration": "genḗthēte",
         "cells": [
           { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] }
         ]
       },
+      "γενήθητι": {
+        "transliteration": "genḗthēti",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "imp", "pers-2", "sg"] }
+        ]
+      },
       "γενηθήτω": {
         "transliteration": "genēthḗtō",
         "cells": [
           { "parse": ["verb", "aor", "pas-dep", "imp", "pers-3", "sg"] }
+        ]
+      },
+      "γενηθήτωσαν": {
+        "transliteration": "genēthḗtōsan",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "imp", "pers-3", "pl"] }
+        ]
+      },
+      "γενηθῶσιν": {
+        "transliteration": "genēthō̂sin",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "subj", "pers-3", "pl"] }
         ]
       },
       "γενήσεσθε": {
@@ -5254,7 +5676,14 @@
         "transliteration": "genēsómenon",
         "cells": [
           { "parse": ["verb", "fut", "mid-dep", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "fut", "mid-dep", "ptc", "nom", "sg", "neut"] }
+          { "parse": ["verb", "fut", "mid-dep", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "fut", "mid-dep", "ptc", "voc", "sg", "neut"] }
+        ]
+      },
+      "γενησομένων": {
+        "transliteration": "genēsoménōn",
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ptc", "gen", "pl", "neut"] }
         ]
       },
       "γένηται": {
@@ -5286,6 +5715,30 @@
               "pers-3",
               "sg"
             ]
+          }
+        ]
+      },
+      "γενοίμεθα": {
+        "transliteration": "genoímetha",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "mid-dep", "opt", "pers-1", "pl", "second"]
+          }
+        ]
+      },
+      "γενοίμην": {
+        "transliteration": "genoímēn",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "mid-dep", "opt", "pers-1", "sg", "second"]
+          }
+        ]
+      },
+      "γένοιντο": {
+        "transliteration": "génointo",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "mid-dep", "opt", "pers-3", "pl", "second"]
           }
         ]
       },
@@ -5331,6 +5784,18 @@
               "pl",
               "neut"
             ]
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "voc",
+              "pl",
+              "neut"
+            ]
           }
         ]
       },
@@ -5347,6 +5812,52 @@
               "nom",
               "pl",
               "fem"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "voc",
+              "pl",
+              "fem"
+            ]
+          }
+        ]
+      },
+      "γενομένας": {
+        "transliteration": "genoménas",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "acc",
+              "pl",
+              "fem",
+              "second"
+            ]
+          }
+        ]
+      },
+      "γενομένη": {
+        "transliteration": "genoménē",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "nom",
+              "sg",
+              "fem",
+              "second"
             ]
           }
         ]
@@ -5399,6 +5910,18 @@
               "pl",
               "masc"
             ]
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "voc",
+              "pl",
+              "masc"
+            ]
           }
         ]
       },
@@ -5413,6 +5936,18 @@
               "mid-dep",
               "ptc",
               "nom",
+              "pl",
+              "masc"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "voc",
               "pl",
               "masc"
             ]
@@ -5474,6 +6009,18 @@
               "sg",
               "neut"
             ]
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "voc",
+              "sg",
+              "neut"
+            ]
           }
         ]
       },
@@ -5523,9 +6070,55 @@
           }
         ]
       },
+      "γενομένους": {
+        "transliteration": "genoménous",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "acc",
+              "pl",
+              "masc",
+              "second"
+            ]
+          }
+        ]
+      },
+      "γενομένῳ": {
+        "transliteration": "genoménō",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "dat",
+              "sg",
+              "masc",
+              "second"
+            ]
+          }
+        ]
+      },
       "γενομένων": {
         "transliteration": "genoménōn",
         "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "gen",
+              "pl",
+              "neut",
+              "second"
+            ]
+          },
           {
             "parse": [
               "verb",
@@ -5549,6 +6142,14 @@
               "pl",
               "masc"
             ]
+          }
+        ]
+      },
+      "γενοῦ": {
+        "transliteration": "genoû",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg", "second"]
           }
         ]
       },
@@ -5632,6 +6233,44 @@
           }
         ]
       },
+      "γίγνεσθαι": {
+        "transliteration": "gígnesthai",
+        "cells": [{ "parse": ["verb", "pres", "mid-dep", "inf"] }]
+      },
+      "γιγνέσθω": {
+        "transliteration": "gignésthō",
+        "cells": [
+          { "parse": ["verb", "pres", "mid-dep", "imp", "pers-3", "sg"] }
+        ]
+      },
+      "γίγνεται": {
+        "transliteration": "gígnetai",
+        "cells": [
+          { "parse": ["verb", "pres", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "γίγνηται": {
+        "transliteration": "gígnētai",
+        "cells": [
+          { "parse": ["verb", "pres", "mid-dep", "subj", "pers-3", "sg"] }
+        ]
+      },
+      "γιγνόμενα": {
+        "transliteration": "gignómena",
+        "cells": [
+          { "parse": ["verb", "pres", "mid-dep", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "pres", "mid-dep", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "pres", "mid-dep", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "γιγνόμενον": {
+        "transliteration": "gignómenon",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "acc", "sg", "masc"]
+          }
+        ]
+      },
       "γίνεσθαι": {
         "transliteration": "gínesthai",
         "cells": [{ "parse": ["verb", "pres", "midpas-dep", "inf"] }]
@@ -5643,12 +6282,14 @@
       "γίνεσθε": {
         "transliteration": "gínesthe",
         "cells": [
+          { "parse": ["verb", "pres", "mid-dep", "ind", "pers-2", "pl"] },
           { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
         ]
       },
       "γίνεσθέ": {
         "transliteration": "gínesthé",
         "cells": [
+          { "parse": ["verb", "pres", "mid-dep", "ind", "pers-2", "pl"] },
           { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
         ]
       },
@@ -5713,6 +6354,9 @@
           },
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "neut"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "neut"]
           }
         ]
       },
@@ -5772,6 +6416,9 @@
         "cells": [
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
           }
         ]
       },
@@ -5787,13 +6434,16 @@
         "transliteration": "ginómenon",
         "cells": [
           {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "acc", "sg", "neut"]
-          },
-          {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "acc", "sg", "masc"]
           },
           {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "acc", "sg", "neut"]
+          },
+          {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "neut"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "sg", "neut"]
           }
         ]
       },
@@ -5834,6 +6484,7 @@
       "γινομένων": {
         "transliteration": "ginoménōn",
         "cells": [
+          { "parse": ["verb", "pres", "mid-dep", "ptc", "gen", "pl", "masc"] },
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "gen", "pl", "neut"]
           }
@@ -5866,6 +6517,7 @@
       "ἐγεγόνει": {
         "transliteration": "egegónei",
         "cells": [
+          { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "second", "plup", "act", "ind", "pers-3", "sg"] }
         ]
       },
@@ -5905,9 +6557,16 @@
           { "parse": ["verb", "aor", "pas-dep", "ind", "pers-1", "pl"] }
         ]
       },
+      "ἐγενήθην": {
+        "transliteration": "egenḗthēn",
+        "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
       "ἐγενήθης": {
         "transliteration": "egenḗthēs",
         "cells": [
+          { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "sg"] }
         ]
@@ -5934,6 +6593,14 @@
         "transliteration": "egenḗthēté",
         "cells": [
           { "parse": ["verb", "aor", "pas-dep", "ind", "pers-2", "pl"] }
+        ]
+      },
+      "ἐγενόμεθα": {
+        "transliteration": "egenómetha",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "mid-dep", "ind", "pers-1", "pl", "second"]
+          }
         ]
       },
       "ἐγενόμην": {
@@ -6029,6 +6696,20 @@
     "shortDefinition": "to know intimately, to get acquainted with; fig. to have sexual intercourse with",
     "indices": { "strongs": "G1097" },
     "inflections": {
+      "γίγνωσκε": {
+        "transliteration": "gígnōske",
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
+      },
+      "γιγνώσκει": {
+        "transliteration": "gignṓskei",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+      },
+      "γιγνώσκοντας": {
+        "transliteration": "gignṓskontas",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
       "γίνωσκε": {
         "transliteration": "gínōske",
         "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
@@ -6047,7 +6728,10 @@
       },
       "γινώσκεται": {
         "transliteration": "ginṓsketai",
-        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "mid-dep", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
+        ]
       },
       "γινώσκετε": {
         "transliteration": "ginṓskete",
@@ -6083,14 +6767,18 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "γινώσκοντες": {
         "transliteration": "ginṓskontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γινώσκουσαν": {
@@ -6102,12 +6790,14 @@
       "γινώσκουσιν": {
         "transliteration": "ginṓskousin",
         "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
         ]
       },
       "γινώσκουσίν": {
         "transliteration": "ginṓskousín",
         "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
         ]
       },
@@ -6128,6 +6818,12 @@
       "γινώσκωσίν": {
         "transliteration": "ginṓskōsín",
         "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
+      },
+      "γνοίη": {
+        "transliteration": "gnoíē",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg", "second"] }
+        ]
       },
       "γνόντα": {
         "transliteration": "gnónta",
@@ -6157,6 +6853,18 @@
               "act",
               "ptc",
               "nom",
+              "pl",
+              "masc"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
               "pl",
               "masc"
             ]
@@ -6192,10 +6900,22 @@
           { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
         ]
       },
+      "γνῴην": {
+        "transliteration": "gnṓēn",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "opt", "pers-1", "sg", "second"] }
+        ]
+      },
       "γνῶθι": {
         "transliteration": "gnō̂thi",
         "cells": [
           { "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"] }
+        ]
+      },
+      "γνῶμεν": {
+        "transliteration": "gnō̂men",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "pl", "second"] }
         ]
       },
       "γνῶναι": {
@@ -6242,8 +6962,17 @@
       "γνωσθέντες": {
         "transliteration": "gnōsthéntes",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
         ]
+      },
+      "γνωσθῇ": {
+        "transliteration": "gnōsthē̂",
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
+      },
+      "γνωσθῆναι": {
+        "transliteration": "gnōsthē̂nai",
+        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
       },
       "γνωσθήσεται": {
         "transliteration": "gnōsthḗsetai",
@@ -6253,9 +6982,33 @@
         "transliteration": "gnōsthḗsetaí",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
       },
+      "γνωσθήσῃ": {
+        "transliteration": "gnōsthḗsē",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-2", "sg"] }]
+      },
+      "γνωσθήσομαι": {
+        "transliteration": "gnōsthḗsomai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"] }]
+      },
+      "γνωσθήσομαί": {
+        "transliteration": "gnōsthḗsomaí",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"] }]
+      },
+      "γνωσθήσονται": {
+        "transliteration": "gnōsthḗsontai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
+      },
+      "γνώσθητι": {
+        "transliteration": "gnṓsthēti",
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }]
+      },
       "γνωσθήτω": {
         "transliteration": "gnōsthḗtō",
         "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-3", "sg"] }]
+      },
+      "γνωσθῶ": {
+        "transliteration": "gnōsthō̂",
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-1", "sg"] }]
       },
       "γνῶσιν": {
         "transliteration": "gnō̂sin",
@@ -6296,13 +7049,22 @@
           { "parse": ["verb", "second", "aor", "act", "imp", "pers-3", "sg"] }
         ]
       },
+      "γνώτωσαν": {
+        "transliteration": "gnṓtōsan",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-3", "pl", "second"] }
+        ]
+      },
       "ἐγίνωσκεν": {
         "transliteration": "egínōsken",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐγίνωσκον": {
         "transliteration": "egínōskon",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἔγνω": {
         "transliteration": "égnō",
@@ -6346,10 +7108,23 @@
         "transliteration": "égnōken",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
       },
+      "ἐγνωκότας": {
+        "transliteration": "egnōkótas",
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
       "ἐγνωκότες": {
         "transliteration": "egnōkótes",
         "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "act", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "ἔγνωμεν": {
+        "transliteration": "égnōmen",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-1", "pl", "second"] }
         ]
       },
       "ἔγνων": {
@@ -6382,9 +7157,26 @@
           { "parse": ["verb", "second", "aor", "pas", "ind", "pers-3", "sg"] }
         ]
       },
+      "ἐγνώσθην": {
+        "transliteration": "egnṓsthēn",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] }]
+      },
+      "ἐγνώσθης": {
+        "transliteration": "egnṓsthēs",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-2", "sg"] }]
+      },
       "ἔγνωσται": {
         "transliteration": "égnōstai",
-        "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "perf", "mid-dep", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἔγνωτε": {
+        "transliteration": "égnōte",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-2", "pl", "second"] }
+        ]
       }
     }
   },
@@ -6451,9 +7243,17 @@
         "transliteration": "glykaínein",
         "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       },
+      "γλυκανεῖ": {
+        "transliteration": "glykaneî",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
       "γλυκανθῇ": {
         "transliteration": "glykanthē̂",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
+      },
+      "γλυκανθήσεται": {
+        "transliteration": "glykanthḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
       },
       "ἐγλύκανας": {
         "transliteration": "eglýkanas",
@@ -6559,7 +7359,8 @@
         "transliteration": "glykeîs",
         "cells": [
           { "parse": ["adj", "acc", "pl", "masc"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "γλυκέος": {
@@ -6572,13 +7373,33 @@
       "γλυκύ": {
         "transliteration": "glyký",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "acc", "sg", "neut"] }
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "γλυκύς": {
         "transliteration": "glykýs",
         "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+      },
+      "γλυκύτερα": {
+        "transliteration": "glykýtera",
+        "cells": [
+          { "parse": ["adj", "comp", "acc", "pl", "neut"] },
+          { "parse": ["adj", "comp", "nom", "pl", "neut"] },
+          { "parse": ["adj", "comp", "voc", "pl", "neut"] }
+        ]
+      },
+      "γλυκύτερον": {
+        "transliteration": "glykýteron",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "comp", "acc", "sg", "neut"] },
+          { "parse": ["adj", "comp", "nom", "sg", "neut"] },
+          { "parse": ["adj", "comp", "voc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -6718,6 +7539,10 @@
       "γλυφῶν": {
         "transliteration": "glyphō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+      },
+      "ἐγλύφην": {
+        "transliteration": "eglýphēn",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -6727,10 +7552,25 @@
     "conjugation": "thematic",
     "stems": { "aor": "γεγλυμμενου" },
     "inflections": {
+      "γεγλυμμένα": {
+        "transliteration": "geglymména",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "γεγλυμμένους": {
+        "transliteration": "geglymménous",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
       "γλύφοντες": {
         "transliteration": "glýphontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γλύψαι": {
@@ -6773,11 +7613,17 @@
       },
       "γλώσσαι": {
         "transliteration": "glṓssai",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "γλῶσσαι": {
         "transliteration": "glō̂ssai",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "γλώσσαις": {
         "transliteration": "glṓssais",
@@ -6806,6 +7652,10 @@
       "γλωσσῶν": {
         "transliteration": "glōssō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+      },
+      "γλῶτταν": {
+        "transliteration": "glō̂ttan",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -6820,7 +7670,8 @@
         "transliteration": "glōssókomon",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -6854,6 +7705,7 @@
       "γλωττοτομῆσαι": {
         "transliteration": "glōttotomē̂sai",
         "cells": [
+          { "parse": ["verb", "aor", "act", "inf"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
@@ -6946,8 +7798,10 @@
       "γνήσιον": {
         "transliteration": "gnḗsion",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] }
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "γνησίῳ": {
@@ -7068,6 +7922,14 @@
     "stems": { "fut": "γνωρι", "aor": "εγνωρι" },
     "indices": { "strongs": "G1107" },
     "inflections": {
+      "γνωριεῖς": {
+        "transliteration": "gnōrieîs",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      },
+      "γνωριεῖτε": {
+        "transliteration": "gnōrieîte",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"] }]
+      },
       "γνώριζε": {
         "transliteration": "gnṓrize",
         "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
@@ -7099,7 +7961,8 @@
       "γνωρίζοντες": {
         "transliteration": "gnōrízontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γνωρίζω": {
@@ -7112,6 +7975,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
+      },
+      "γνωριοῦμεν": {
+        "transliteration": "gnōrioûmen",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
       },
       "γνωριοῦσιν": {
         "transliteration": "gnōrioûsin",
@@ -7177,7 +8044,10 @@
       },
       "γνωρίσω": {
         "transliteration": "gnōrísō",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
+        ]
       },
       "γνωρίσωσιν": {
         "transliteration": "gnōrísōsin",
@@ -7186,6 +8056,10 @@
       "γνωρίσωσίν": {
         "transliteration": "gnōrísōsín",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
+      },
+      "γνωριῶ": {
+        "transliteration": "gnōriō̂",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "ἐγνώρισα": {
         "transliteration": "egnṓrisa",
@@ -7241,7 +8115,9 @@
         "transliteration": "gnṓrimoí",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "γνώριμον": {
@@ -7368,13 +8244,17 @@
       "γνωστά": {
         "transliteration": "gnōstá",
         "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "acc", "pl", "neut"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "γνωσταί": {
         "transliteration": "gnōstaí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "fem"] }
+        ]
       },
       "γνωστέ": {
         "transliteration": "gnōsté",
@@ -7392,7 +8272,10 @@
       },
       "γνωστοί": {
         "transliteration": "gnōstoí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "γνωστοῖς": {
         "transliteration": "gnōstoîs",
@@ -7401,8 +8284,10 @@
       "γνωστόν": {
         "transliteration": "gnōstón",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "acc", "sg", "neut"] }
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "γνωστός": {
@@ -7454,7 +8339,8 @@
       "γογγύζοντες": {
         "transliteration": "gongýzontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γογγύζοντος": {
@@ -7553,7 +8439,10 @@
     "inflections": {
       "γογγυσταί": {
         "transliteration": "gongystaí",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -7650,7 +8539,10 @@
     "inflections": {
       "γόητες": {
         "transliteration": "góētes",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -7831,7 +8723,10 @@
     "inflections": {
       "Γομορρα": {
         "transliteration": "Gomorra",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "fem"] }
+        ]
       },
       "Γόμορρα": {
         "transliteration": "Gómorra",
@@ -7918,7 +8813,8 @@
         "transliteration": "goneîs",
         "cells": [
           { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "nom", "pl", "masc"] }
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
       "γονεῦσιν": {
@@ -7994,7 +8890,10 @@
     "inflections": {
       "γόνασιν": {
         "transliteration": "gónasin",
-        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "dat", "pl", "neut"] },
+          { "parse": ["noun", "dat", "sg", "neut"] }
+        ]
       },
       "γόνασίν": {
         "transliteration": "gónasín",
@@ -8004,21 +8903,28 @@
         "transliteration": "gónata",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "γόνατά": {
         "transliteration": "gónatá",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
+      },
+      "γονάτων": {
+        "transliteration": "gonátōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       },
       "γόνυ": {
         "transliteration": "góny",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -8032,7 +8938,8 @@
       "γονυπετήσαντες": {
         "transliteration": "gonypetḗsantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γονυπετήσας": {
@@ -8087,6 +8994,7 @@
       "Γοργίαν": {
         "transliteration": "Gorgían",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
           { "parse": ["noun", "acc", "sg", "masc"] },
           { "parse": ["noun", "voc", "sg", "masc"] }
         ]
@@ -8207,7 +9115,8 @@
         "transliteration": "grámma",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "γράμμασιν": {
@@ -8218,7 +9127,8 @@
         "transliteration": "grámmata",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "γράμματι": {
@@ -8323,7 +9233,9 @@
         "transliteration": "grammatikoí",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "γραμματικούς": {
@@ -8373,7 +9285,11 @@
     "inflections": {
       "γραπτόν": {
         "transliteration": "graptón",
-        "cells": [{ "parse": ["adj", "acc", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -8398,7 +9314,10 @@
     "inflections": {
       "γραφαί": {
         "transliteration": "graphaí",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "γραφαῖς": {
         "transliteration": "graphaîs",
@@ -8450,9 +9369,10 @@
     "inflections": {
       "γραφίδι": {
         "transliteration": "graphídi",
-        "cells": [{ "parse": ["noun", "dat", "sg"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
-    }
+    },
+    "gender": "fem"
   },
   "γράφω": {
     "language": "greek",
@@ -8465,13 +9385,27 @@
       "γεγραμμένα": {
         "transliteration": "gegramména",
         "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "γεγραμμέναι": {
+        "transliteration": "gegramménai",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "γεγραμμένας": {
         "transliteration": "gegramménas",
         "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "fem"] }
         ]
       },
@@ -8484,13 +9418,17 @@
       "γεγραμμένην": {
         "transliteration": "gegramménēn",
         "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"] }
         ]
       },
       "γεγραμμένοι": {
         "transliteration": "gegramménoi",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γεγραμμένοις": {
@@ -8502,25 +9440,44 @@
       "γεγραμμένον": {
         "transliteration": "gegramménon",
         "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "γεγραμμένος": {
         "transliteration": "gegramménos",
         "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "γεγραμμένους": {
+        "transliteration": "gegramménous",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "masc"] }
         ]
       },
       "γεγραμμένων": {
         "transliteration": "gegramménōn",
         "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "gen", "pl", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "gen", "pl", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "neut"] }
         ]
       },
       "γέγραπται": {
         "transliteration": "gégraptai",
-        "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }
+        ]
       },
       "γέγραφα": {
         "transliteration": "gégrapha",
@@ -8544,6 +9501,74 @@
         "transliteration": "gráphein",
         "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       },
+      "γραφὲν": {
+        "transliteration": "graphèn",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "pas",
+              "ptc",
+              "acc",
+              "sg",
+              "neut",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "pas",
+              "ptc",
+              "nom",
+              "sg",
+              "neut",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "pas",
+              "ptc",
+              "voc",
+              "sg",
+              "neut",
+              "second"
+            ]
+          }
+        ]
+      },
+      "γραφέντα": {
+        "transliteration": "graphénta",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "γραφέντες": {
+        "transliteration": "graphéntes",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "γραφέντος": {
+        "transliteration": "graphéntos",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "neut"] }
+        ]
+      },
+      "γραφέντων": {
+        "transliteration": "graphéntōn",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "gen", "pl", "masc"] }
+        ]
+      },
       "γράφεσθαι": {
         "transliteration": "gráphesthai",
         "cells": [{ "parse": ["verb", "pres", "pas", "inf"] }]
@@ -8556,13 +9581,28 @@
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
       },
+      "γραφῆναι": {
+        "transliteration": "graphē̂nai",
+        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
+      },
       "γραφήσονται": {
         "transliteration": "graphḗsontai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }
+        ]
       },
       "γράφηται": {
         "transliteration": "gráphētai",
         "cells": [{ "parse": ["verb", "pres", "pas", "subj", "pers-3", "sg"] }]
+      },
+      "γραφήτω": {
+        "transliteration": "graphḗtō",
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-3", "sg"] }]
+      },
+      "γραφήτωσαν": {
+        "transliteration": "graphḗtōsan",
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-3", "pl"] }]
       },
       "γράφομεν": {
         "transliteration": "gráphomen",
@@ -8571,7 +9611,9 @@
       "γραφόμενα": {
         "transliteration": "graphómena",
         "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "neut"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "neut"] }
         ]
       },
       "γράφοντας": {
@@ -8583,7 +9625,8 @@
       "γράφοντες": {
         "transliteration": "gráphontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γράφοντι": {
@@ -8615,7 +9658,10 @@
       },
       "γράφουσιν": {
         "transliteration": "gráphousin",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
+        ]
       },
       "γράφω": {
         "transliteration": "gráphō",
@@ -8642,7 +9688,8 @@
       "γράψαντες": {
         "transliteration": "grápsantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γράψας": {
@@ -8688,6 +9735,19 @@
       "γράψω": {
         "transliteration": "grápsō",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
+      },
+      "ἐγγραφή": {
+        "transliteration": "engraphḗ",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ἐγέγραπτο": {
+        "transliteration": "egégrapto",
+        "cells": [
+          { "parse": ["verb", "plup", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "plup", "pas", "ind", "pers-3", "sg"] }
+        ]
       },
       "ἔγραφεν": {
         "transliteration": "égraphen",
@@ -8810,7 +9870,8 @@
       "γρηγοροῦντες": {
         "transliteration": "grēgoroûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "γρηγορούντων": {
@@ -8873,6 +9934,10 @@
     "conjugation": "thematic",
     "stems": { "fut": "γρυξ", "aor": "γρυξ" },
     "inflections": {
+      "γρύξει": {
+        "transliteration": "grýxei",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔγρυξεν": {
         "transliteration": "égryxen",
         "cells": [
@@ -8904,7 +9969,9 @@
       "γεγυμνασμένα": {
         "transliteration": "gegymnasména",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "neut"] }
         ]
       },
       "γεγυμνασμένην": {
@@ -8985,13 +10052,17 @@
       "γυμνά": {
         "transliteration": "gymná",
         "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "acc", "pl", "neut"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "γυμναί": {
         "transliteration": "gymnaí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "fem"] }
+        ]
       },
       "γυμνή": {
         "transliteration": "gymnḗ",
@@ -9006,7 +10077,10 @@
       },
       "γυμνοί": {
         "transliteration": "gymnoí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "γυμνοῖς": {
         "transliteration": "gymnoîs",
@@ -9107,7 +10181,11 @@
     "inflections": {
       "γυναικάρια": {
         "transliteration": "gynaikária",
-        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
       }
     }
   },
@@ -9151,7 +10229,10 @@
       },
       "γυναικείῳ": {
         "transliteration": "gynaikeíō",
-        "cells": [{ "parse": ["adj", "dat", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["adj", "dat", "sg", "masc"] },
+          { "parse": ["adj", "dat", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -9220,11 +10301,17 @@
       },
       "γυναῖκες": {
         "transliteration": "gynaîkes",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "γυναῖκές": {
         "transliteration": "gynaîkés",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "γυναικί": {
         "transliteration": "gynaikí",
@@ -9237,6 +10324,10 @@
       "γυναικῶν": {
         "transliteration": "gynaikō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+      },
+      "γυναιξί": {
+        "transliteration": "gynaixí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       },
       "γυναιξίν": {
         "transliteration": "gynaixín",
@@ -9278,8 +10369,20 @@
     "gender": "masc",
     "declension": "indeclinable",
     "inflections": {
+      "γύπα": {
+        "transliteration": "gýpa",
+        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+      },
+      "γυπός": {
+        "transliteration": "gypós",
+        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+      },
       "γύψ": {
         "transliteration": "gýps",
+        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+      },
+      "γυψίν": {
+        "transliteration": "gypsín",
         "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
       }
     }
@@ -9402,6 +10505,7 @@
         "transliteration": "gōlēla",
         "cells": [
           { "parse": ["noun", "dat", "sg", "fem"] },
+          { "parse": ["noun", "gen", "sg", "masc"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]

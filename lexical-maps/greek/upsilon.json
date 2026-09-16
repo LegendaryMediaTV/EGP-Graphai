@@ -75,7 +75,10 @@
     "inflections": {
       "ὑάκινθον": {
         "transliteration": "hyákinthon",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "acc", "sg", "masc"] }
+        ]
       },
       "ὑάκινθος": {
         "transliteration": "hyákinthos",
@@ -83,11 +86,17 @@
       },
       "ὑακίνθου": {
         "transliteration": "hyakínthou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "fem"] },
+          { "parse": ["noun", "gen", "sg", "masc"] }
+        ]
       },
       "ὑακίνθῳ": {
         "transliteration": "hyakínthō",
-        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "fem"] },
+          { "parse": ["noun", "dat", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -151,7 +160,8 @@
       "ὑβρίζοντες": {
         "transliteration": "hybrízontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑβρίσαι": {
@@ -177,7 +187,8 @@
       "ὑβρισθέντες": {
         "transliteration": "hybristhéntes",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑβρισθῆναι": {
@@ -252,7 +263,10 @@
       },
       "ὑβριστής": {
         "transliteration": "hybristḗs",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "masc"] }
+        ]
       },
       "ὑβριστῶν": {
         "transliteration": "hybristō̂n",
@@ -402,7 +416,10 @@
       "ὑγιαίνοντα": {
         "transliteration": "hygiaínonta",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
         ]
       },
       "ὑγιαίνοντας": {
@@ -414,7 +431,8 @@
       "ὑγιαίνοντες": {
         "transliteration": "hygiaínontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑγιαινόντων": {
@@ -445,6 +463,7 @@
       "ὑγιαίνουσιν": {
         "transliteration": "hygiaínousin",
         "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
         ]
       },
@@ -499,11 +518,20 @@
     "inflections": {
       "ὑγιεῖς": {
         "transliteration": "hygieîs",
-        "cells": [{ "parse": ["adj", "acc", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "masc"] },
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "ὑγιῆ": {
         "transliteration": "hygiē̂",
-        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
+        ]
       },
       "ὑγιής": {
         "transliteration": "hygiḗs",
@@ -649,8 +677,11 @@
         "transliteration": "hydreuómenai",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "fem"] }
+          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "fem"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "ὑδρευομένων": {
@@ -720,7 +751,10 @@
       },
       "ὑδρίαι": {
         "transliteration": "hydríai",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "ὑδρίαις": {
         "transliteration": "hydríais",
@@ -732,7 +766,10 @@
       },
       "ὑδρίας": {
         "transliteration": "hydrías",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       },
       "ὑδριῶν": {
         "transliteration": "hydriō̂n",
@@ -819,6 +856,10 @@
     "shortDefinition": "water",
     "indices": { "strongs": "G5204" },
     "inflections": {
+      "ὕδασι": {
+        "transliteration": "hýdasi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "ὕδασιν": {
         "transliteration": "hýdasin",
         "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
@@ -827,7 +868,11 @@
         "transliteration": "hýdata",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὕδατι": {
@@ -850,7 +895,8 @@
         "transliteration": "hýdōr",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -1270,7 +1316,8 @@
       "ὑμνήσαντες": {
         "transliteration": "hymnḗsantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑμνήσατε": {
@@ -1294,7 +1341,10 @@
       },
       "ὑμνήσω": {
         "transliteration": "hymnḗsō",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
+        ]
       },
       "ὕμνουν": {
         "transliteration": "hýmnoun",
@@ -1303,7 +1353,8 @@
       "ὑμνοῦντες": {
         "transliteration": "hymnoûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑμνούντων": {
@@ -1405,7 +1456,8 @@
       "ὑμνῳδοῦντες": {
         "transliteration": "hymnōdoûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -1465,7 +1517,8 @@
       "ὑπάγοντες": {
         "transliteration": "hypágontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπάγω": {
@@ -1839,7 +1892,8 @@
         "transliteration": "hypárxeis",
         "cells": [
           { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "nom", "pl", "fem"] }
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
         ]
       },
       "ὑπάρξεως": {
@@ -1866,7 +1920,8 @@
       "ὑπάρξαντες": {
         "transliteration": "hypárxantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπαρξάτω": {
@@ -1956,11 +2011,12 @@
             "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"],
             "indices": { "strongs": "G5224" }
           },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
           {
             "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
             "indices": { "strongs": "G5225" }
-          }
+          },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
         ]
       },
       "ὑπάρχοντά": {
@@ -1970,7 +2026,8 @@
             "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"],
             "indices": { "strongs": "G5224" }
           },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
         ]
       },
       "ὑπάρχοντας": {
@@ -1988,7 +2045,8 @@
           {
             "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
             "indices": { "strongs": "G5225" }
-          }
+          },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπάρχοντος": {
@@ -2007,6 +2065,7 @@
       "ὑπαρχόντων": {
         "transliteration": "hyparchóntōn",
         "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] },
           {
             "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"],
             "indices": { "strongs": "G5224" }
@@ -2121,7 +2180,9 @@
         "transliteration": "hýpatoi",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "ὕπατος": {
@@ -2180,7 +2241,9 @@
         "transliteration": "hypenantíoi",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "ὑπεναντίοις": {
@@ -2194,8 +2257,10 @@
       "ὑπεναντίον": {
         "transliteration": "hypenantíon",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "acc", "sg", "neut"] }
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "ὑπεναντίος": {
@@ -2343,6 +2408,10 @@
     "conjugation": "thematic",
     "stems": { "aor": "υπερηρ", "fut": "υπεραρ", "perf": "υπερηρ" },
     "inflections": {
+      "ὑπεραρθήσεται": {
+        "transliteration": "hyperarthḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
+      },
       "ὑπερῆραν": {
         "transliteration": "hyperē̂ran",
         "cells": [
@@ -2366,7 +2435,8 @@
       "ὑπερῄρετο": {
         "transliteration": "hyperḗreto",
         "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] }
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] },
+          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] }
         ]
       },
       "ὑπερήρθη": {
@@ -2445,6 +2515,10 @@
     "conjugation": "thematic",
     "stems": { "fut": "υπερασπι", "aor": "υπερασπι" },
     "inflections": {
+      "ὑπερασπιεῖ": {
+        "transliteration": "hyperaspieî",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
       "ὑπερασπίζει": {
         "transliteration": "hyperaspízei",
         "cells": [
@@ -2499,13 +2573,21 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }
         ]
       },
       "ὑπερασπιῶ": {
         "transliteration": "hyperaspiō̂",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] }
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "ὑπερησπικότα": {
+        "transliteration": "hyperēspikóta",
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"] }
         ]
       }
     }
@@ -2539,6 +2621,10 @@
     "gender": "masc",
     "declension": "1m-es",
     "inflections": {
+      "ὑπερασπιστά": {
+        "transliteration": "hyperaspistá",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
       "ὑπερασπιστήν": {
         "transliteration": "hyperaspistḗn",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
@@ -2587,7 +2673,8 @@
       "ὑπερβαίνοντες": {
         "transliteration": "hyperbaínontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπερβαίνουσιν": {
@@ -2608,6 +2695,12 @@
         "transliteration": "hyperbebḗkate",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"] }]
       },
+      "ὑπερβῇ": {
+        "transliteration": "hyperbē̂",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] }
+        ]
+      },
       "ὑπερβήσεται": {
         "transliteration": "hyperbḗsetai",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
@@ -2625,6 +2718,18 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] }
+        ]
+      },
+      "ὑπερέβην": {
+        "transliteration": "hyperébēn",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] }
+        ]
+      },
+      "ὑπερέβησαν": {
+        "transliteration": "hyperébēsan",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
         ]
       }
     }
@@ -2649,7 +2754,9 @@
       "ὑπερβάλλον": {
         "transliteration": "hyperbállon",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "ὑπερβάλλοντα": {
@@ -2689,6 +2796,23 @@
         "transliteration": "hyperballoúsēs",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
+        ]
+      },
+      "ὑπερβαλών": {
+        "transliteration": "hyperbalṓn",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "sg",
+              "masc",
+              "second"
+            ]
+          }
         ]
       },
       "ὑπερέβαλεν": {
@@ -2757,6 +2881,10 @@
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
+      },
+      "ὑπήρεισεν": {
+        "transliteration": "hypḗreisen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -2804,6 +2932,10 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
+      },
+      "ὑπερεκχυθήσονται": {
+        "transliteration": "hyperekchythḗsontai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -2816,7 +2948,9 @@
       "ὑπερεκχυνόμενον": {
         "transliteration": "hyperekchynómenon",
         "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -2828,8 +2962,11 @@
       "ὑπερένδοξος": {
         "transliteration": "hyperéndoxos",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "masc"] }
+          { "parse": ["adj", "nom", "sg", "masc"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -2885,7 +3022,9 @@
       "ὑπερέχον": {
         "transliteration": "hyperéchon",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "ὑπερέχοντας": {
@@ -2929,7 +3068,10 @@
       },
       "ὑπερέχουσιν": {
         "transliteration": "hyperéchousin",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
+        ]
       },
       "ὑπερέχων": {
         "transliteration": "hyperéchōn",
@@ -2948,6 +3090,7 @@
       "ὑπερηφανεύου": {
         "transliteration": "hyperēphaneúou",
         "cells": [
+          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg", "second"] },
           { "parse": ["verb", "impf", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "impf", "pas", "ind", "pers-2", "sg"] },
@@ -3012,7 +3155,8 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "aor", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "neut"] }
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "neut"] },
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl", "second"] }
         ]
       }
     }
@@ -3057,11 +3201,17 @@
     "inflections": {
       "ὑπερήφανοι": {
         "transliteration": "hyperḗphanoi",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "ὑπερηφάνοις": {
         "transliteration": "hyperēphánois",
-        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "masc"] },
+          { "parse": ["adj", "dat", "pl", "neut"] }
+        ]
       },
       "ὑπερήφανον": {
         "transliteration": "hyperḗphanon",
@@ -3090,7 +3240,10 @@
       },
       "ὑπερηφάνους": {
         "transliteration": "hyperēphánous",
-        "cells": [{ "parse": ["adj", "acc", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "acc", "pl", "masc"] }
+        ]
       },
       "ὑπερηφάνῳ": {
         "transliteration": "hyperēphánō",
@@ -3192,7 +3345,8 @@
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] }
         ]
       }
     }
@@ -3336,7 +3490,8 @@
         "transliteration": "hypéronka",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] }
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ὑπέρογκον": {
@@ -3375,6 +3530,38 @@
     "conjugation": "contract-a",
     "indices": { "strongs": "G5237" },
     "inflections": {
+      "ὑπερεῖδεν": {
+        "transliteration": "hypereîden",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ὑπερεῖδέν": {
+        "transliteration": "hypereîdén",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ὑπερεῖδες": {
+        "transliteration": "hypereîdes",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
+        ]
+      },
+      "ὑπερεῖδον": {
+        "transliteration": "hypereîdon",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] },
+          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
+        ]
+      },
+      "ὑπερεῖδόν": {
+        "transliteration": "hypereîdón",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
+        ]
+      },
       "ὑπερεωραμένη": {
         "transliteration": "hypereōraménē",
         "cells": [
@@ -3442,6 +3629,18 @@
               "act",
               "ptc",
               "nom",
+              "pl",
+              "masc",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
               "pl",
               "masc",
               "second"
@@ -3521,6 +3720,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
+      },
+      "ὑπεροφθήσεται": {
+        "transliteration": "hyperophthḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
       },
       "ὑπερόψεται": {
         "transliteration": "hyperópsetai",
@@ -3648,7 +3851,10 @@
     "inflections": {
       "ὑπερρίπτοσαν": {
         "transliteration": "hyperríptosan",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
+        ]
       }
     }
   },
@@ -3796,7 +4002,10 @@
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"] },
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "ὑπερυψωμένος": {
@@ -3804,7 +4013,8 @@
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "ὑπερύψωσεν": {
@@ -3841,6 +4051,10 @@
       "ὑπερέφερε": {
         "transliteration": "hyperéphere",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ὑπερήνεγκαν": {
+        "transliteration": "hyperḗnenkan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
       "ὑπεροίσει": {
         "transliteration": "hyperoísei",
@@ -3915,7 +4129,9 @@
           { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "acc", "pl", "masc"] },
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "ὑπερχαρής": {
@@ -3953,7 +4169,8 @@
       "ὑπεληλυθυῖαι": {
         "transliteration": "hypelēlythyîai",
         "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "fem"] }
+          { "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "perf", "act", "ptc", "voc", "pl", "fem"] }
         ]
       }
     }
@@ -3973,6 +4190,13 @@
           { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
+      "ὑπερῷοι": {
+        "transliteration": "hyperō̂oi",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
       "ὑπερῴοις": {
         "transliteration": "hyperṓois",
         "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
@@ -3981,7 +4205,8 @@
         "transliteration": "hyperō̂on",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὑπερῴου": {
@@ -4022,6 +4247,7 @@
       "ὑπευλαβεῖτο": {
         "transliteration": "hypeulabeîto",
         "cells": [
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       }
@@ -4085,8 +4311,13 @@
       "ὑπέχουσαι": {
         "transliteration": "hypéchousai",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
         ]
+      },
+      "ὑφέξεται": {
+        "transliteration": "hyphéxetai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -4097,11 +4328,17 @@
     "inflections": {
       "ὑπήκοοι": {
         "transliteration": "hypḗkooi",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "ὑπήκοοί": {
         "transliteration": "hypḗkooí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "ὑπήκοος": {
         "transliteration": "hypḗkoos",
@@ -4198,7 +4435,10 @@
     "inflections": {
       "ὑπηρέται": {
         "transliteration": "hypērétai",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "ὑπηρέταις": {
         "transliteration": "hypērétais",
@@ -4243,8 +4483,11 @@
         "transliteration": "hypischnoúmenoi",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπισχνούμενος": {
@@ -4324,7 +4567,8 @@
       "ὑπνοῦντες": {
         "transliteration": "hypnoûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπνούντων": {
@@ -4342,6 +4586,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
+      "ὕπνωσα": {
+        "transliteration": "hýpnōsa",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      },
       "ὑπνῶσαι": {
         "transliteration": "hypnō̂sai",
         "cells": [
@@ -4356,6 +4604,7 @@
       "ὕπνωσαν": {
         "transliteration": "hýpnōsan",
         "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "aor", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "neut"] }
@@ -4382,6 +4631,10 @@
       "ὑπνώσεις": {
         "transliteration": "hypnṓseis",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ὕπνωσεν": {
+        "transliteration": "hýpnōsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ὑπνώσουσιν": {
         "transliteration": "hypnṓsousin",
@@ -4519,7 +4772,16 @@
       "ὑπογεγραμμένα": {
         "transliteration": "hypogegramména",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] }
+          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "ὑπογεγραμμένην": {
+        "transliteration": "hypogegramménēn",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "fem"] }
         ]
       },
       "ὑπογεγραμμένον": {
@@ -4562,12 +4824,14 @@
               "neut",
               "second"
             ]
-          }
+          },
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "masc"] }
         ]
       },
       "ὑπογράφῃ": {
         "transliteration": "hypográphē",
         "cells": [
+          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "mid", "subj", "pers-2", "sg"] },
@@ -4605,12 +4869,17 @@
         "transliteration": "hypódeigma",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὑποδείγματα": {
         "transliteration": "hypodeígmata",
-        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
       },
       "ὑποδείγματι": {
         "transliteration": "hypodeígmati",
@@ -4625,6 +4894,10 @@
     "stems": { "aor": "υπεδειξ" },
     "indices": { "strongs": "G5263" },
     "inflections": {
+      "ὑπεδείκνυεν": {
+        "transliteration": "hypedeíknyen",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ὑπέδειξα": {
         "transliteration": "hypédeixa",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
@@ -4657,12 +4930,29 @@
         "transliteration": "hypédeixen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
+      "ὑπεδείχθη": {
+        "transliteration": "hypedeíchthē",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
+      },
       "ὑποδείκνυμέν": {
         "transliteration": "hypodeíknymén",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "pl", "second"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"] }
+        ]
+      },
+      "ὑποδεικνύοντες": {
+        "transliteration": "hypodeiknýontes",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "ὑποδεικνύοντος": {
+        "transliteration": "hypodeiknýontos",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] }
         ]
       },
       "ὑποδείκνυτε": {
@@ -4674,6 +4964,50 @@
           { "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"] }
         ]
+      },
+      "ὑποδεικνύω": {
+        "transliteration": "hypodeiknýō",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }]
+      },
+      "ὑποδεικνύων": {
+        "transliteration": "hypodeiknýōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ὑποδεῖξαι": {
+        "transliteration": "hypodeîxai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+      },
+      "ὑποδεῖξαί": {
+        "transliteration": "hypodeîxaí",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+      },
+      "ὑποδείξαντος": {
+        "transliteration": "hypodeíxantos",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "gen", "sg", "masc"] }
+        ]
+      },
+      "ὑποδείξατε": {
+        "transliteration": "hypodeíxate",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "pl", "second"] }
+        ]
+      },
+      "ὑποδείξῃ": {
+        "transliteration": "hypodeíxē",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }]
+      },
+      "ὑπόδειξόν": {
+        "transliteration": "hypódeixón",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] }
+        ]
+      },
+      "ὑποδείξουσιν": {
+        "transliteration": "hypodeíxousin",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "ὑποδείξω": {
         "transliteration": "hypodeíxō",
@@ -4749,7 +5083,8 @@
       "ὑποδησάμενοι": {
         "transliteration": "hypodēsámenoi",
         "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "mid", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -4766,28 +5101,36 @@
         "transliteration": "hypódēma",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὑπόδημά": {
         "transliteration": "hypódēmá",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "ὑποδήμασιν": {
+        "transliteration": "hypodḗmasin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "ὑποδήματα": {
         "transliteration": "hypodḗmata",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "ὑποδήματά": {
         "transliteration": "hypodḗmatá",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "ὑποδήματι": {
@@ -4839,7 +5182,8 @@
       "ὑποδύσαντες": {
         "transliteration": "hypodýsantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -4866,15 +5210,17 @@
       "ὑποζύγιον": {
         "transliteration": "hypozýgion",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὑποζύγιόν": {
         "transliteration": "hypozýgión",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὑποζυγίου": {
@@ -4897,15 +5243,24 @@
     "conjugation": "athematic",
     "indices": { "strongs": "G5269" },
     "inflections": {
+      "ὑπεζωσμέναι": {
+        "transliteration": "hypezōsménai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "aor", "mid", "ptc", "voc", "pl", "fem"] }
+        ]
+      },
       "ὑποζωννύντες": {
         "transliteration": "hypozōnnýntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπόζωσον": {
         "transliteration": "hypózōson",
         "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "fut", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "fut", "act", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "fut", "act", "ptc", "voc", "sg", "neut"] }
@@ -5041,6 +5396,10 @@
     "pos": "verb",
     "conjugation": "deponent",
     "inflections": {
+      "ὑπέκειτό": {
+        "transliteration": "hypékeitó",
+        "cells": [{ "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] }]
+      },
       "ὑποκείμενον": {
         "transliteration": "hypokeímenon",
         "cells": [
@@ -5055,7 +5414,10 @@
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"] },
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "ὑποκειμένου": {
@@ -5066,7 +5428,8 @@
           { "parse": ["verb", "perf", "midpas", "ptc", "gen", "sg", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "gen", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "gen", "sg", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "gen", "sg", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "gen", "sg", "neut"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "gen", "sg", "masc"] }
         ]
       },
       "ὑπόκειται": {
@@ -5074,7 +5437,8 @@
         "cells": [
           { "parse": ["verb", "perf", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] }
         ]
       }
     }
@@ -5119,6 +5483,10 @@
           { "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "sg"] }
         ]
+      },
+      "ὑποκρίνασθαι": {
+        "transliteration": "hypokrínasthai",
+        "cells": [{ "parse": ["verb", "aor", "midpas-dep", "inf"] }]
       },
       "ὑποκρινόμενος": {
         "transliteration": "hypokrinómenos",
@@ -5187,7 +5555,8 @@
         "transliteration": "hypokríseis",
         "cells": [
           { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "nom", "pl", "fem"] }
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
         ]
       },
       "ὑποκρίσεως": {
@@ -5219,6 +5588,7 @@
         "transliteration": "hypokritaí",
         "cells": [
           { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "nom", "sg", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
@@ -5240,6 +5610,13 @@
     "shortDefinition": "to take up, gather; fig. to suppose",
     "indices": { "strongs": "G5274" },
     "inflections": {
+      "ὑπειληφότες": {
+        "transliteration": "hypeilēphótes",
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "act", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
       "ὑπέλαβεν": {
         "transliteration": "hypélaben",
         "cells": [
@@ -5357,6 +5734,53 @@
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
         ]
       },
+      "ὑπολάβῃς": {
+        "transliteration": "hypolábēs",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg", "second"] }
+        ]
+      },
+      "ὑπολάβητε": {
+        "transliteration": "hypolábēte",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-2", "pl", "second"] }
+        ]
+      },
+      "ὑπολάβοι": {
+        "transliteration": "hypoláboi",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ὑπολαβόντες": {
+        "transliteration": "hypolabóntes",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "pl",
+              "masc",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
+              "pl",
+              "masc",
+              "second"
+            ]
+          }
+        ]
+      },
       "ὑπολαβών": {
         "transliteration": "hypolabṓn",
         "cells": [
@@ -5392,7 +5816,8 @@
       "ὑπολαμβάνοντες": {
         "transliteration": "hypolambánontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπολαμβάνουσιν": {
@@ -5461,6 +5886,30 @@
         "transliteration": "hypeleíphthēsán",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
       },
+      "ὑπέλιπεν": {
+        "transliteration": "hypélipen",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ὑπελίπετο": {
+        "transliteration": "hypelípeto",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ὑπελίποντο": {
+        "transliteration": "hypelíponto",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl", "second"] }
+        ]
+      },
+      "ὑπελίπω": {
+        "transliteration": "hypelípō",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg", "second"] }
+        ]
+      },
       "ὑπολείπεσθαι": {
         "transliteration": "hypoleípesthai",
         "cells": [
@@ -5495,8 +5944,18 @@
         "transliteration": "hypoleipómenoi",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "ὑπολειφθεῖσιν": {
+        "transliteration": "hypoleiphtheîsin",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "dat", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "dat", "pl", "neut"] }
         ]
       },
       "ὑπολειφθέν": {
@@ -5504,7 +5963,8 @@
         "cells": [
           { "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "neut"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "neut"] },
+          { "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }
         ]
       },
       "ὑπολειφθέντα": {
@@ -5578,16 +6038,22 @@
         "transliteration": "hypoleleimménai",
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "fem"] }
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "ὑπολελειμμένοι": {
         "transliteration": "hypoleleimménoi",
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπολελειμμένοις": {
@@ -5647,6 +6113,28 @@
           { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "masc"] },
           { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "neut"] }
         ]
+      },
+      "ὑπολέλειπται": {
+        "transliteration": "hypoléleiptai",
+        "cells": [{ "parse": ["verb", "perf", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "ὑπολίπεσθε": {
+        "transliteration": "hypolípesthe",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "pl", "second"] }
+        ]
+      },
+      "ὑπολίποιτο": {
+        "transliteration": "hypolípoito",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "opt", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ὑπολίπωμεν": {
+        "transliteration": "hypolípōmen",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "pl", "second"] }
+        ]
       }
     }
   },
@@ -5679,7 +6167,8 @@
         "transliteration": "hypolḗnion",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὑποληνίων": {
@@ -5848,10 +6337,37 @@
         "transliteration": "hypémenon",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
+      "ὑπομείναι": {
+        "transliteration": "hypomeínai",
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
+      },
+      "ὑπομεῖναι": {
+        "transliteration": "hypomeînai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+      },
+      "ὑπομείναντες": {
+        "transliteration": "hypomeínantes",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "ὑπομεινάντων": {
+        "transliteration": "hypomeinántōn",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "gen", "pl", "masc"] }
+        ]
+      },
       "ὑπομείνας": {
         "transliteration": "hypomeínas",
         "cells": [
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ὑπομείνασαν": {
+        "transliteration": "hypomeínasan",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "acc", "sg", "fem"] }
         ]
       },
       "ὑπομείνατε": {
@@ -5890,7 +6406,10 @@
       },
       "ὑπομενεῖ": {
         "transliteration": "hypomeneî",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
+        ]
       },
       "ὑπομένει": {
         "transliteration": "hypoménei",
@@ -5927,13 +6446,15 @@
       "ὑπομένοντες": {
         "transliteration": "hypoménontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπομένοντές": {
         "transliteration": "hypoménontés",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑπομενοῦμέν": {
@@ -5951,19 +6472,25 @@
         "transliteration": "hypoménousin",
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
         ]
       },
       "ὑπομένουσίν": {
         "transliteration": "hypoménousín",
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
         ]
       },
       "ὑπομενῶ": {
         "transliteration": "hypomenō̂",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }
+        ]
       },
       "ὑπομένω": {
         "transliteration": "hypoménō",
@@ -6013,6 +6540,12 @@
         "transliteration": "hypomnē̂sai",
         "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
+      "ὑπομνήσας": {
+        "transliteration": "hypomnḗsas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
       "ὑπομνήσει": {
         "transliteration": "hypomnḗsei",
         "cells": [
@@ -6053,7 +6586,10 @@
     "inflections": {
       "ὑπεμνημάτιστο": {
         "transliteration": "hypemnēmátisto",
-        "cells": [{ "parse": ["verb", "plup", "pas", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "plup", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "plup", "pas", "ind", "pers-3", "sg"] }
+        ]
       }
     }
   },
@@ -6242,11 +6778,17 @@
       },
       "ὑπόνοιαι": {
         "transliteration": "hypónoiai",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "ὑπόνοιαί": {
         "transliteration": "hypónoiaí",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       }
     }
   },
@@ -6272,6 +6814,10 @@
     "deponent": true,
     "stems": { "aor": "υπεπε", "fut": "υποπεσ", "perf": "υποπτω" },
     "inflections": {
+      "ὑπέπεσεν": {
+        "transliteration": "hypépesen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ὑποπίπτῃ": {
         "transliteration": "hypopíptē",
         "cells": [
@@ -6346,14 +6892,16 @@
         "transliteration": "hypopódion",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὑποπόδιόν": {
         "transliteration": "hypopódión",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὑποποδίου": {
@@ -6375,6 +6923,10 @@
       "ὑποπτεύσῃς": {
         "transliteration": "hypopteúsēs",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"] }]
+      },
+      "ὑπώπτευσα": {
+        "transliteration": "hypṓpteusa",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -6481,7 +7033,10 @@
     "inflections": {
       "ὑποσκελίσματι": {
         "transliteration": "hyposkelísmati",
-        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "masc"] },
+          { "parse": ["noun", "dat", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -6535,7 +7090,10 @@
       },
       "ὑποστείλῃ": {
         "transliteration": "hyposteílē",
-        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] }
+        ]
       },
       "ὑποστείληται": {
         "transliteration": "hyposteílētai",
@@ -6544,6 +7102,14 @@
       "ὑποστείληταί": {
         "transliteration": "hyposteílētaí",
         "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg"] }]
+      },
+      "ὑποστελεῖσθε": {
+        "transliteration": "hyposteleîsthe",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-2", "pl"] }]
+      },
+      "ὑποστελεῖται": {
+        "transliteration": "hyposteleîtai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -6677,7 +7243,8 @@
       "ὑποστρέψαντες": {
         "transliteration": "hypostrépsantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑποστρέψαντι": {
@@ -6695,7 +7262,8 @@
       "ὑποστρέψασαι": {
         "transliteration": "hypostrépsasai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "fem"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "ὑποστρέψει": {
@@ -6726,9 +7294,20 @@
         "transliteration": "hypestrṓnnyon",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
+      "ὑπέστρωσαν": {
+        "transliteration": "hypéstrōsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
       "ὑποστρώσῃ": {
         "transliteration": "hypostrṓsē",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "ὑποστρώσῃς": {
+        "transliteration": "hypostrṓsēs",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"] }]
       },
       "ὑποστρώσονται": {
         "transliteration": "hypostrṓsontai",
@@ -6795,9 +7374,16 @@
           { "parse": ["verb", "second", "aor", "pas", "ind", "pers-3", "sg"] }
         ]
       },
+      "ὑπετάγημεν": {
+        "transliteration": "hypetágēmen",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-1", "pl", "second"] }
+        ]
+      },
       "ὑπετάγησαν": {
         "transliteration": "hypetágēsan",
         "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "second", "aor", "pas", "ind", "pers-3", "pl"] }
         ]
       },
@@ -6832,6 +7418,13 @@
           { "parse": ["verb", "second", "aor", "pas", "subj", "pers-3", "sg"] }
         ]
       },
+      "ὑποτάγηθι": {
+        "transliteration": "hypotágēthi",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] },
+          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }
+        ]
+      },
       "ὑποταγήσεται": {
         "transliteration": "hypotagḗsetai",
         "cells": [
@@ -6849,6 +7442,10 @@
         "cells": [
           { "parse": ["verb", "second", "fut", "pas", "ind", "pers-1", "pl"] }
         ]
+      },
+      "ὑποταγήσονται": {
+        "transliteration": "hypotagḗsontai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
       },
       "ὑποτάγητε": {
         "transliteration": "hypotágēte",
@@ -6878,6 +7475,20 @@
           { "parse": ["verb", "aor", "act", "ptc", "gen", "sg", "masc"] }
         ]
       },
+      "ὑποτάξας": {
+        "transliteration": "hypotáxas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ὑποτάξατε": {
+        "transliteration": "hypotáxate",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] }]
+      },
+      "ὑποτάξει": {
+        "transliteration": "hypotáxei",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
       "ὑποτάσσεσθαι": {
         "transliteration": "hypotássesthai",
         "cells": [{ "parse": ["verb", "pres", "mid", "inf"] }]
@@ -6901,7 +7512,8 @@
       "ὑποτασσόμεναι": {
         "transliteration": "hypotassómenai",
         "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "fem"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "ὑποτασσομένας": {
@@ -6913,7 +7525,8 @@
       "ὑποτασσόμενοι": {
         "transliteration": "hypotassómenoi",
         "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑποτασσόμενος": {
@@ -6922,10 +7535,39 @@
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
         ]
       },
+      "ὑποτάσσων": {
+        "transliteration": "hypotássōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
       "ὑποτεταγμένα": {
         "transliteration": "hypotetagména",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "ὑποτεταγμένοις": {
+        "transliteration": "hypotetagménois",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "dat", "pl", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "dat", "pl", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "dat", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "dat", "pl", "neut"] }
+        ]
+      },
+      "ὑποτεταγμένους": {
+        "transliteration": "hypotetagménous",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
+      "ὑποτεταγμένων": {
+        "transliteration": "hypotetagménōn",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "gen", "pl", "masc"] }
         ]
       },
       "ὑποτέτακται": {
@@ -6944,6 +7586,7 @@
         "transliteration": "hypéthento",
         "cells": [
           { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl", "second"] },
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] },
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }
@@ -7111,7 +7754,10 @@
       "ὑποτίτθια": {
         "transliteration": "hypotítthia",
         "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "voc", "pl", "neut"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       }
@@ -7134,6 +7780,18 @@
               "act",
               "ptc",
               "nom",
+              "pl",
+              "masc"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
               "pl",
               "masc"
             ]
@@ -7203,6 +7861,13 @@
     "conjugation": "thematic",
     "indices": { "strongs": "G5297" },
     "inflections": {
+      "ὑπενέγκαντες": {
+        "transliteration": "hypenénkantes",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
       "ὑπενεγκεῖν": {
         "transliteration": "hypenenkeîn",
         "cells": [{ "parse": ["verb", "second", "aor", "act", "inf"] }]
@@ -7278,7 +7943,9 @@
         "transliteration": "hypocheírioi",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "ὑποχειρίοις": {
@@ -7378,9 +8045,10 @@
     "inflections": {
       "ὑποχυτῆρας": {
         "transliteration": "hypochytē̂ras",
-        "cells": [{ "parse": ["noun", "acc", "pl"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
-    }
+    },
+    "gender": "masc"
   },
   "ὑποχωρέω": {
     "language": "greek",
@@ -7508,11 +8176,17 @@
       },
       "ὗν": {
         "transliteration": "hŷn",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "acc", "sg", "masc"] }
+        ]
       },
       "ὑός": {
         "transliteration": "hyós",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "fem"] },
+          { "parse": ["noun", "gen", "sg", "masc"] }
+        ]
       },
       "ὗς": {
         "transliteration": "hŷs",
@@ -7533,7 +8207,10 @@
       },
       "ὑσσώπου": {
         "transliteration": "hyssṓpou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "fem"] },
+          { "parse": ["noun", "gen", "sg", "masc"] }
+        ]
       },
       "ὑσσώπῳ": {
         "transliteration": "hyssṓpō",
@@ -7553,11 +8230,17 @@
       },
       "ὑστέρει": {
         "transliteration": "hystérei",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
+        ]
       },
       "ὑστερεῖσθαι": {
         "transliteration": "hystereîsthai",
-        "cells": [{ "parse": ["verb", "pres", "pas", "inf"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "inf"] },
+          { "parse": ["verb", "pres", "pas", "inf"] }
+        ]
       },
       "ὑστερεῖται": {
         "transliteration": "hystereîtai",
@@ -7634,7 +8317,8 @@
       "ὑστερούμενοι": {
         "transliteration": "hysteroúmenoi",
         "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑστερούμενος": {
@@ -7685,19 +8369,25 @@
         "transliteration": "hystérēma",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὑστέρημά": {
         "transliteration": "hystérēmá",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὑστερήματα": {
         "transliteration": "hysterḗmata",
-        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
       },
       "ὑστερήματος": {
         "transliteration": "hysterḗmatos",
@@ -7748,11 +8438,17 @@
     "pos": "adj",
     "indices": { "strongs": "G5306" },
     "inflections": {
+      "ὑστάτην": {
+        "transliteration": "hystátēn",
+        "cells": [{ "parse": ["adj", "super", "acc", "sg", "fem"] }]
+      },
       "ὕστεροι": {
         "transliteration": "hýsteroi",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "ὑστέροις": {
@@ -7821,6 +8517,10 @@
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
         ]
       },
+      "ὑφᾶναι": {
+        "transliteration": "hyphânai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+      },
       "ὕφανεν": {
         "transliteration": "hýphanen",
         "cells": [
@@ -7831,6 +8531,14 @@
         "transliteration": "hyphánēs",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg", "second"] }
+        ]
+      },
+      "ὑφασμένον": {
+        "transliteration": "hyphasménon",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -7845,8 +8553,11 @@
         "transliteration": "hyphairoúmenoi",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑφείλατο": {
@@ -8038,6 +8749,10 @@
           }
         ]
       },
+      "ὑποστῆναι": {
+        "transliteration": "hypostē̂nai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf", "second"] }]
+      },
       "ὑποστήσεται": {
         "transliteration": "hypostḗsetai",
         "cells": [
@@ -8138,13 +8853,21 @@
         "transliteration": "hyphorṓmenoi",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "mid-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid-dep", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
           },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
+          },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas-dep", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑφορώμενος": {
@@ -8170,7 +8893,8 @@
       "ὑψαυχενοῦντες": {
         "transliteration": "hypsauchenoûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑψαυχενῶν": {
@@ -8206,12 +8930,16 @@
         "transliteration": "hypsēlá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] }
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ὑψηλαί": {
         "transliteration": "hypsēlaí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "fem"] }
+        ]
       },
       "ὑψηλάς": {
         "transliteration": "hypsēlás",
@@ -8243,18 +8971,25 @@
         "transliteration": "hypsēloí",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "ὑψηλοῖς": {
         "transliteration": "hypsēloîs",
-        "cells": [{ "parse": ["adj", "dat", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "masc"] },
+          { "parse": ["adj", "dat", "pl", "neut"] }
+        ]
       },
       "ὑψηλόν": {
         "transliteration": "hypsēlón",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] }
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "ὑψηλός": {
@@ -8286,7 +9021,10 @@
       },
       "ὑψηλοῦ": {
         "transliteration": "hypsēloû",
-        "cells": [{ "parse": ["adj", "gen", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "gen", "sg", "masc"] },
+          { "parse": ["adj", "gen", "sg", "neut"] }
+        ]
       },
       "ὑψηλούς": {
         "transliteration": "hypsēloús",
@@ -8343,7 +9081,10 @@
       },
       "ὑψίστοις": {
         "transliteration": "hypsístois",
-        "cells": [{ "parse": ["adj", "super", "dat", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "masc"] },
+          { "parse": ["adj", "super", "dat", "pl", "neut"] }
+        ]
       },
       "ὕψιστον": {
         "transliteration": "hýpsiston",
@@ -8361,7 +9102,10 @@
       },
       "ὑψίστου": {
         "transliteration": "hypsístou",
-        "cells": [{ "parse": ["adj", "super", "gen", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "gen", "sg", "neut"] },
+          { "parse": ["adj", "super", "gen", "sg", "masc"] }
+        ]
       },
       "ὑψίστῳ": {
         "transliteration": "hypsístō",
@@ -8395,7 +9139,14 @@
       },
       "ὕψεσι": {
         "transliteration": "hýpsesi",
-        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "dat", "pl", "masc"] },
+          { "parse": ["noun", "dat", "pl", "neut"] }
+        ]
+      },
+      "ὕψεων": {
+        "transliteration": "hýpseōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       },
       "ὕψη": {
         "transliteration": "hýpsē",
@@ -8408,8 +9159,9 @@
       "ὕψος": {
         "transliteration": "hýpsos",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ὕψους": {
@@ -8473,6 +9225,7 @@
           { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "act", "inf"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
@@ -8498,7 +9251,8 @@
       "ὑψοῦντες": {
         "transliteration": "hypsoûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ὑψούσθωσαν": {
@@ -8624,7 +9378,8 @@
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "ὑψῶν": {
@@ -8635,7 +9390,10 @@
       },
       "ὕψωσα": {
         "transliteration": "hýpsōsa",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
+        ]
       },
       "ὕψωσά": {
         "transliteration": "hýpsōsá",
@@ -8649,7 +9407,9 @@
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "ὑψῶσαί": {
@@ -8677,7 +9437,8 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "fem"] }
         ]
       },
       "ὕψωσάς": {
@@ -8685,7 +9446,8 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "fem"] }
         ]
       },
       "ὑψώσατε": {
@@ -8768,8 +9530,9 @@
       "ὕψωμα": {
         "transliteration": "hýpsōma",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }

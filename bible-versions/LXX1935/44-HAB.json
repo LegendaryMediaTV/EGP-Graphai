@@ -10,14 +10,14 @@
         "script": "G",
         "transliteration": "Tò",
         "strong": "G3588",
-        "morph": "T-ASN",
+        "morph": "T-NSN",
         "lemma": "ὁ"
       },
       {
         "text": " λῆμμα,",
         "script": "G",
         "transliteration": " lē̂mma,",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "λῆμμα"
       },
       {
@@ -96,6 +96,7 @@
         "script": "G",
         "transliteration": " kekráxomai",
         "strong": "G2896",
+        "morph": "V-FDI-1S",
         "lemma": "κράζω"
       },
       {
@@ -159,7 +160,7 @@
         "script": "G",
         "transliteration": " adikoúmenos",
         "strong": "G91",
-        "morph": "V-PEP-NSM",
+        "morph": "V-PPP-NSM",
         "lemma": "ἀδικέω"
       },
       {
@@ -434,7 +435,7 @@
         "script": "G",
         "transliteration": " kríma,",
         "strong": "G2917",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "κρίμα"
       },
       {
@@ -498,7 +499,7 @@
         "script": "G",
         "transliteration": " toútou",
         "strong": "G5127",
-        "morph": "D-GSM",
+        "morph": "D-GSN",
         "lemma": "οὗτος"
       },
       {
@@ -514,7 +515,7 @@
         "script": "G",
         "transliteration": " tò",
         "strong": "G3588",
-        "morph": "T-ASN",
+        "morph": "T-NSN",
         "lemma": "ὁ"
       },
       {
@@ -522,7 +523,7 @@
         "script": "G",
         "transliteration": " kríma",
         "strong": "G2917",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "κρίμα"
       },
       {
@@ -530,7 +531,7 @@
         "script": "G",
         "transliteration": " diestramménon.",
         "strong": "G1294",
-        "morph": "V-2AAP-ASN",
+        "morph": "V-RMP-NSN",
         "lemma": "διαστρέφω"
       }
     ]
@@ -633,7 +634,7 @@
         "script": "G",
         "transliteration": " érgon",
         "strong": "G2041",
-        "morph": "N-NSN",
+        "morph": "N-ASN",
         "lemma": "ἔργον"
       },
       {
@@ -894,7 +895,7 @@
         "script": "G",
         "transliteration": " poreuómenon",
         "strong": "G4198",
-        "morph": "V-PNP-ASM",
+        "morph": "V-PNP-ASN",
         "lemma": "πορεύομαι"
       },
       {
@@ -942,7 +943,7 @@
         "script": "G",
         "transliteration": " toû",
         "strong": "G3588",
-        "morph": "T-GSM",
+        "morph": "T-GSN",
         "lemma": "ὁ"
       },
       {
@@ -950,7 +951,7 @@
         "script": "G",
         "transliteration": " kataklēronomē̂sai",
         "strong": "G2624",
-        "morph": "V-AMM-2S",
+        "morph": "V-AAN",
         "lemma": "κατακληρονομέω"
       },
       {
@@ -974,7 +975,7 @@
         "script": "G",
         "transliteration": " autoû;",
         "strong": "G846",
-        "morph": "P-GSM",
+        "morph": "P-GSN",
         "lemma": "αὐτός"
       }
     ]
@@ -1037,7 +1038,7 @@
         "script": "G",
         "transliteration": " tò",
         "strong": "G3588",
-        "morph": "T-ASN",
+        "morph": "T-NSN",
         "lemma": "ὁ"
       },
       {
@@ -1045,7 +1046,7 @@
         "script": "G",
         "transliteration": " kríma",
         "strong": "G2917",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "κρίμα"
       },
       {
@@ -1077,14 +1078,14 @@
         "script": "G",
         "transliteration": " tò",
         "strong": "G3588",
-        "morph": "T-ASN",
+        "morph": "T-NSN",
         "lemma": "ὁ"
       },
       {
         "text": " λῆμμα",
         "script": "G",
         "transliteration": " lē̂mma",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "λῆμμα"
       },
       {
@@ -1139,6 +1140,7 @@
         "script": "G",
         "transliteration": " exaloûntai",
         "strong": "G1814",
+        "morph": "V-FNI-3P",
         "lemma": "ἐξάλλομαι"
       },
       {
@@ -1178,7 +1180,7 @@
         "script": "G",
         "transliteration": " autoû",
         "strong": "G846",
-        "morph": "P-GSM",
+        "morph": "P-GSN",
         "lemma": "αὐτός"
       },
       {
@@ -1194,6 +1196,7 @@
         "script": "G",
         "transliteration": " oxýteroi",
         "strong": "G3691",
+        "morph": "A-NPM-C",
         "lemma": "ὀξύς"
       },
       {
@@ -1264,7 +1267,7 @@
         "script": "G",
         "transliteration": " hippeîs",
         "strong": "G2460",
-        "morph": "N-APM",
+        "morph": "N-NPM",
         "lemma": "ἱππεύς"
       },
       {
@@ -1272,7 +1275,7 @@
         "script": "G",
         "transliteration": " autoû",
         "strong": "G846",
-        "morph": "P-GSM",
+        "morph": "P-GSN",
         "lemma": "αὐτός"
       },
       {
@@ -1312,6 +1315,7 @@
         "script": "G",
         "transliteration": " petasthḗsontai",
         "strong": "G4072",
+        "morph": "V-FNI-3P",
         "lemma": "πέτομαι"
       },
       {
@@ -1390,7 +1394,7 @@
         "script": "G",
         "transliteration": " asebeîs",
         "strong": "G765",
-        "morph": "A-APM",
+        "morph": "A-NPM",
         "lemma": "ἀσεβής"
       },
       {
@@ -1406,6 +1410,7 @@
         "script": "G",
         "transliteration": " anthestēkótas",
         "strong": "G436",
+        "morph": "V-RAP-APM",
         "lemma": "ἀνθίστημι"
       },
       {
@@ -1546,7 +1551,7 @@
         "text": " παίγνια",
         "script": "G",
         "transliteration": " paígnia",
-        "morph": "N-APN",
+        "morph": "N-NPN",
         "lemma": "παίγνιον"
       },
       {
@@ -1602,6 +1607,7 @@
         "script": "G",
         "transliteration": " empaíxetai",
         "strong": "G1702",
+        "morph": "V-FMI-3S",
         "lemma": "ἐμπαίζω"
       },
       {
@@ -1647,7 +1653,7 @@
         "script": "G",
         "transliteration": " autoû.",
         "strong": "G846",
-        "morph": "P-GSM",
+        "morph": "P-GSN",
         "lemma": "αὐτός"
       }
     ]
@@ -1670,6 +1676,7 @@
         "script": "G",
         "transliteration": " metabaleî",
         "strong": "G3328",
+        "morph": "V-FAI-3S",
         "lemma": "μεταβάλλω"
       },
       {
@@ -1916,6 +1923,7 @@
         "script": "G",
         "transliteration": " tétachas",
         "strong": "G5021",
+        "morph": "V-RAI-2S",
         "lemma": "τάσσω"
       },
       {
@@ -1939,6 +1947,7 @@
         "script": "G",
         "transliteration": " éplasén",
         "strong": "G4111",
+        "morph": "V-AAI-3S",
         "lemma": "πλάσσω"
       },
       {
@@ -1954,7 +1963,7 @@
         "script": "G",
         "transliteration": " toû",
         "strong": "G3588",
-        "morph": "T-GSM",
+        "morph": "T-GSN",
         "lemma": "ὁ"
       },
       {
@@ -2032,7 +2041,7 @@
         "script": "G",
         "transliteration": " ponērá,",
         "strong": "G4190",
-        "morph": "A-NSF",
+        "morph": "A-APN",
         "lemma": "πονηρός"
       },
       {
@@ -2127,7 +2136,7 @@
         "text": " Παρασιωπήσῃ",
         "script": "G",
         "transliteration": " Parasiōpḗsē",
-        "morph": "V-AAS-3S",
+        "morph": "V-FMI-2S",
         "lemma": "παρασιωπάω"
       },
       {
@@ -2143,7 +2152,7 @@
         "script": "G",
         "transliteration": " tō̂",
         "strong": "G3588",
-        "morph": "T-DSM",
+        "morph": "T-DSN",
         "lemma": "ὁ"
       },
       {
@@ -2310,7 +2319,7 @@
         "script": "G",
         "transliteration": " échonta",
         "strong": "G2192",
-        "morph": "V-PAP-ASM",
+        "morph": "V-PAP-APN",
         "lemma": "ἔχω"
       },
       {
@@ -2467,7 +2476,7 @@
         "script": "G",
         "transliteration": " toútou",
         "strong": "G5127",
-        "morph": "D-GSM",
+        "morph": "D-GSN",
         "lemma": "οὗτος"
       },
       {
@@ -2475,6 +2484,7 @@
         "script": "G",
         "transliteration": " euphranthḗsetai",
         "strong": "G2165",
+        "morph": "V-FPI-3S",
         "lemma": "εὐφραίνω"
       },
       {
@@ -2696,7 +2706,7 @@
         "script": "G",
         "transliteration": " eklektá;",
         "strong": "G1588",
-        "morph": "A-NSF",
+        "morph": "A-APN",
         "lemma": "ἐκλεκτός"
       }
     ]
@@ -2726,6 +2736,7 @@
         "text": " ἀμφιβαλεῖ",
         "script": "G",
         "transliteration": " amphibaleî",
+        "morph": "V-FAI-3S",
         "lemma": "ἀμφιβάλλω"
       },
       {
@@ -2773,7 +2784,7 @@
         "script": "G",
         "transliteration": " pantòs",
         "strong": "G3956",
-        "morph": "A-GSM",
+        "morph": "A-GSN",
         "lemma": "πᾶς"
       },
       {
@@ -2781,6 +2792,7 @@
         "script": "G",
         "transliteration": " apokténnein",
         "strong": "G615",
+        "morph": "V-PAN",
         "lemma": "ἀποκτείνω"
       },
       {
@@ -2907,7 +2919,7 @@
         "script": "G",
         "transliteration": " toû",
         "strong": "G3588",
-        "morph": "T-GSM",
+        "morph": "T-GSN",
         "lemma": "ὁ"
       },
       {
@@ -2971,6 +2983,7 @@
         "script": "G",
         "transliteration": " apokrithō̂",
         "strong": "G611",
+        "morph": "V-AOS-1S",
         "lemma": "ἀποκρίνομαι"
       },
       {
@@ -3095,6 +3108,7 @@
         "text": " σαφῶς",
         "script": "G",
         "transliteration": " saphō̂s",
+        "morph": "ADV",
         "lemma": "σαφῶς"
       },
       {
@@ -3125,7 +3139,7 @@
         "script": "G",
         "transliteration": " diṓkē",
         "strong": "G1377",
-        "morph": "V-2API-3S",
+        "morph": "V-PAS-3S",
         "lemma": "διώκω"
       },
       {
@@ -3212,6 +3226,7 @@
         "script": "G",
         "transliteration": " anateleî",
         "strong": "G393",
+        "morph": "V-FAI-3S",
         "lemma": "ἀνατέλλω"
       },
       {
@@ -3227,7 +3242,7 @@
         "script": "G",
         "transliteration": " péras",
         "strong": "G4009",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "πέρας"
       },
       {
@@ -3259,7 +3274,7 @@
         "script": "G",
         "transliteration": " kenón;",
         "strong": "G2756",
-        "morph": "A-ASM",
+        "morph": "A-ASN",
         "lemma": "κενός"
       },
       {
@@ -3512,6 +3527,7 @@
         "text": " κατοινωμένος",
         "script": "G",
         "transliteration": " katoinōménos",
+        "morph": "V-PMP-NSM",
         "lemma": "κατοινόομαι"
       },
       {
@@ -3551,7 +3567,7 @@
         "script": "G",
         "transliteration": " oudèn",
         "strong": "G3762",
-        "morph": "A-NSN-N",
+        "morph": "A-ASN-N",
         "lemma": "οὐδείς"
       },
       {
@@ -3582,7 +3598,7 @@
         "script": "G",
         "transliteration": " eplátynen",
         "strong": "G4115",
-        "morph": "V-AAI-3S",
+        "morph": "V-IAI-3S",
         "lemma": "πλατύνω"
       },
       {
@@ -3677,6 +3693,7 @@
         "text": " ἐμπιπλάμενος",
         "script": "G",
         "transliteration": " empiplámenos",
+        "morph": "V-PMP-NSM",
         "lemma": "ἐμπίπλημι"
       },
       {
@@ -3716,7 +3733,7 @@
         "script": "G",
         "transliteration": " pánta",
         "strong": "G3956",
-        "morph": "A-ASM",
+        "morph": "A-APN",
         "lemma": "πᾶς"
       },
       {
@@ -3851,6 +3868,7 @@
         "script": "G",
         "transliteration": " lḗmpsontai",
         "strong": "G2983",
+        "morph": "V-FDI-3P",
         "lemma": "λαμβάνω"
       },
       {
@@ -4032,6 +4050,7 @@
         "text": " στιβαρῶς.",
         "script": "G",
         "transliteration": " stibarō̂s.",
+        "morph": "ADV",
         "lemma": "στιβαρῶς"
       }
     ]
@@ -4433,7 +4452,7 @@
         "script": "G",
         "transliteration": " toû",
         "strong": "G3588",
-        "morph": "T-GSM",
+        "morph": "T-GSN",
         "lemma": "ὁ"
       },
       {
@@ -4441,7 +4460,7 @@
         "script": "G",
         "transliteration": " táxai",
         "strong": "G5021",
-        "morph": "V-REI-2S",
+        "morph": "V-AAN",
         "lemma": "τάσσω"
       },
       {
@@ -4481,7 +4500,7 @@
         "script": "G",
         "transliteration": " toû",
         "strong": "G3588",
-        "morph": "T-GSM",
+        "morph": "T-GSN",
         "lemma": "ὁ"
       },
       {
@@ -4565,6 +4584,7 @@
         "text": " συνεπέρανας",
         "script": "G",
         "transliteration": " synepéranas",
+        "morph": "V-AAI-2S",
         "lemma": "συμπεραίνω"
       },
       {
@@ -4769,6 +4789,7 @@
         "script": "G",
         "transliteration": " haímasin",
         "strong": "G129",
+        "morph": "N-DPN",
         "lemma": "αἷμα"
       },
       {
@@ -4831,7 +4852,7 @@
         "script": "G",
         "transliteration": " taûtá",
         "strong": "G5023",
-        "morph": "D-APN",
+        "morph": "D-NPN",
         "lemma": "οὗτος"
       },
       {
@@ -4879,6 +4900,7 @@
         "script": "G",
         "transliteration": " exélipon",
         "strong": "G1587",
+        "morph": "V-2AAI-3P",
         "lemma": "ἐκλείπω"
       },
       {
@@ -4926,7 +4948,7 @@
         "script": "G",
         "transliteration": " éthnē",
         "strong": "G1484",
-        "morph": "N-APN",
+        "morph": "N-NPN",
         "lemma": "ἔθνος"
       },
       {
@@ -4934,7 +4956,7 @@
         "script": "G",
         "transliteration": " pollà",
         "strong": "G4183",
-        "morph": "A-APN",
+        "morph": "A-NPN",
         "lemma": "πολύς"
       },
       {
@@ -5043,6 +5065,7 @@
         "script": "G",
         "transliteration": " katakalýpsei",
         "strong": "G2619",
+        "morph": "V-FAI-3S",
         "lemma": "κατακαλύπτω"
       },
       {
@@ -5136,6 +5159,7 @@
         "script": "G",
         "transliteration": " methýskōn,",
         "strong": "G3184",
+        "morph": "V-PAP-NSM",
         "lemma": "μεθύω"
       },
       {
@@ -5151,7 +5175,7 @@
         "script": "G",
         "transliteration": " epiblépē",
         "strong": "G1914",
-        "morph": "V-PEI-2S",
+        "morph": "V-PAS-3S",
         "lemma": "ἐπιβλέπω"
       },
       {
@@ -5309,7 +5333,7 @@
         "script": "G",
         "transliteration": " potḗrion",
         "strong": "G4221",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "ποτήριον"
       },
       {
@@ -5612,7 +5636,7 @@
         "text": " γλυπτόν,",
         "script": "G",
         "transliteration": " glyptón,",
-        "morph": "A-ASM",
+        "morph": "A-NSN",
         "lemma": "γλυπτός"
       },
       {
@@ -5643,6 +5667,7 @@
         "script": "G",
         "transliteration": " Éplasan",
         "strong": "G4111",
+        "morph": "V-AAI-3P",
         "lemma": "πλάσσω"
       },
       {
@@ -5705,6 +5730,7 @@
         "script": "G",
         "transliteration": " plásas",
         "strong": "G4111",
+        "morph": "V-AAP-NSM",
         "lemma": "πλάσσω"
       },
       {
@@ -5744,7 +5770,7 @@
         "script": "G",
         "transliteration": " toû",
         "strong": "G3588",
-        "morph": "T-GSM",
+        "morph": "T-GSN",
         "lemma": "ὁ"
       },
       {
@@ -5879,7 +5905,7 @@
         "script": "G",
         "transliteration": " autó",
         "strong": "G846",
-        "morph": "P-ASN",
+        "morph": "P-NSN",
         "lemma": "αὐτός"
       },
       {
@@ -5903,7 +5929,7 @@
         "script": "G",
         "transliteration": " toûto",
         "strong": "G5124",
-        "morph": "D-ASN",
+        "morph": "D-NSN",
         "lemma": "οὗτος"
       },
       {
@@ -5926,7 +5952,7 @@
         "text": " ἔλασμα",
         "script": "G",
         "transliteration": " élasma",
-        "morph": "N-ASN",
+        "morph": "N-NSM",
         "lemma": "ἔλασμα"
       },
       {
@@ -5966,7 +5992,7 @@
         "script": "G",
         "transliteration": " pân",
         "strong": "G3956",
-        "morph": "A-ASN",
+        "morph": "A-NSN",
         "lemma": "πᾶς"
       },
       {
@@ -5974,7 +6000,7 @@
         "script": "G",
         "transliteration": " pneûma",
         "strong": "G4151",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "πνεῦμα"
       },
       {
@@ -6204,6 +6230,7 @@
         "script": "G",
         "transliteration": " eisakḗkoa",
         "strong": "G1522",
+        "morph": "V-RAI-1S",
         "lemma": "εἰσακούω"
       },
       {
@@ -6290,7 +6317,7 @@
         "script": "G",
         "transliteration": " exéstēn.",
         "strong": "G1839",
-        "morph": "V-IAI-1S",
+        "morph": "V-2AAI-1S",
         "lemma": "ἐξίστημι"
       },
       {
@@ -6330,6 +6357,7 @@
         "script": "G",
         "transliteration": " gnōsthḗsē,",
         "strong": "G1097",
+        "morph": "V-FPI-2S",
         "lemma": "γινώσκω"
       },
       {
@@ -6345,7 +6373,7 @@
         "script": "G",
         "transliteration": " tō̂",
         "strong": "G3588",
-        "morph": "T-DSM",
+        "morph": "T-DSN",
         "lemma": "ὁ"
       },
       {
@@ -6377,6 +6405,7 @@
         "script": "G",
         "transliteration": " epignōsthḗsē,",
         "strong": "G1921",
+        "morph": "V-FPI-2S",
         "lemma": "ἐπιγινώσκω"
       },
       {
@@ -6392,7 +6421,7 @@
         "script": "G",
         "transliteration": " tō̂",
         "strong": "G3588",
-        "morph": "T-DSM",
+        "morph": "T-DSN",
         "lemma": "ὁ"
       },
       {
@@ -6424,6 +6453,7 @@
         "script": "G",
         "transliteration": " anadeichthḗsē,",
         "strong": "G322",
+        "morph": "V-FPI-2S",
         "lemma": "ἀναδείκνυμι"
       },
       {
@@ -6439,7 +6469,7 @@
         "script": "G",
         "transliteration": " tō̂",
         "strong": "G3588",
-        "morph": "T-DSM",
+        "morph": "T-DSN",
         "lemma": "ὁ"
       },
       {
@@ -6502,6 +6532,7 @@
         "text": " μνησθήσῃ.",
         "script": "G",
         "transliteration": " mnēsthḗsē.",
+        "morph": "V-FPI-2S",
         "lemma": "μιμνήσκω"
       }
     ]
@@ -6608,7 +6639,7 @@
         "text": " Διάψαλμα.",
         "script": "G",
         "transliteration": " Diápsalma.",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "διάψαλμα"
       },
       {
@@ -6680,7 +6711,7 @@
         "script": "G",
         "transliteration": " plḗrēs",
         "strong": "G4134",
-        "morph": "A-NSM",
+        "morph": "A-NSF",
         "lemma": "πλήρης"
       },
       {
@@ -6719,7 +6750,7 @@
         "script": "G",
         "transliteration": " phéngos",
         "strong": "G5338",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "φέγγος"
       },
       {
@@ -6743,7 +6774,7 @@
         "script": "G",
         "transliteration": " phō̂s",
         "strong": "G5457",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "φῶς"
       },
       {
@@ -6759,7 +6790,7 @@
         "script": "G",
         "transliteration": " kérata",
         "strong": "G2768",
-        "morph": "N-APN",
+        "morph": "N-NPN",
         "lemma": "κέρας"
       },
       {
@@ -7002,6 +7033,7 @@
         "text": " διετάκη",
         "script": "G",
         "transliteration": " dietákē",
+        "morph": "V-2API-3S",
         "lemma": "διατήκω"
       },
       {
@@ -7016,7 +7048,7 @@
         "text": " Διεθρύβη",
         "script": "G",
         "transliteration": " Diethrýbē",
-        "morph": "V-2AAS-3S",
+        "morph": "V-2API-3S",
         "lemma": "διαθρύπτω"
       },
       {
@@ -7024,7 +7056,7 @@
         "script": "G",
         "transliteration": " tà",
         "strong": "G3588",
-        "morph": "T-APN",
+        "morph": "T-NPN",
         "lemma": "ὁ"
       },
       {
@@ -7032,7 +7064,7 @@
         "script": "G",
         "transliteration": " órē",
         "strong": "G3735",
-        "morph": "N-APN",
+        "morph": "N-NPN",
         "lemma": "ὄρος"
       },
       {
@@ -7048,6 +7080,7 @@
         "script": "G",
         "transliteration": " etákēsan",
         "strong": "G5080",
+        "morph": "V-2API-3P",
         "lemma": "τήκω"
       },
       {
@@ -7118,7 +7151,7 @@
         "script": "G",
         "transliteration": " eîdon;",
         "strong": "G1492",
-        "morph": "V-2AAI-3P",
+        "morph": "V-2AAI-1S",
         "lemma": "ὁράω"
       },
       {
@@ -7126,7 +7159,7 @@
         "script": "G",
         "transliteration": " skēnṓmata",
         "strong": "G4638",
-        "morph": "N-APN",
+        "morph": "N-NPN",
         "lemma": "σκήνωμα"
       },
       {
@@ -7142,7 +7175,7 @@
         "script": "G",
         "transliteration": " ptoēthḗsontai",
         "strong": "G4422",
-        "morph": "V-FMI-3P",
+        "morph": "V-FPI-3P",
         "lemma": "πτοέω"
       },
       {
@@ -7309,7 +7342,7 @@
         "script": "G",
         "transliteration": " tò",
         "strong": "G3588",
-        "morph": "T-ASN",
+        "morph": "T-NSN",
         "lemma": "ὁ"
       },
       {
@@ -7317,7 +7350,7 @@
         "script": "G",
         "transliteration": " hórmēmá",
         "strong": "G3731",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "ὅρμημα"
       },
       {
@@ -7433,6 +7466,7 @@
         "text": " ἐντενεῖς",
         "script": "G",
         "transliteration": " enteneîs",
+        "morph": "V-FAI-2S",
         "lemma": "ἐντείνω"
       },
       {
@@ -7518,6 +7552,7 @@
         "script": "G",
         "transliteration": " rhagḗsetai",
         "strong": "G4486",
+        "morph": "V-FPI-3S",
         "lemma": "ῥήγνυμι"
       },
       {
@@ -7596,7 +7631,7 @@
         "script": "G",
         "transliteration": " poreías",
         "strong": "G4197",
-        "morph": "N-APF",
+        "morph": "N-GSF",
         "lemma": "πορεία"
       },
       {
@@ -7975,7 +8010,7 @@
         "script": "G",
         "transliteration": " toû",
         "strong": "G3588",
-        "morph": "T-GSM",
+        "morph": "T-GSN",
         "lemma": "ὁ"
       },
       {
@@ -8085,7 +8120,7 @@
         "text": " Διάψαλμα.",
         "script": "G",
         "transliteration": " Diápsalma.",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "διάψαλμα"
       }
     ]
@@ -8139,6 +8174,7 @@
         "script": "G",
         "transliteration": " seisthḗsontai",
         "strong": "G4579",
+        "morph": "V-FPI-3P",
         "lemma": "σείω"
       },
       {
@@ -8193,6 +8229,7 @@
         "text": " ἔσθων",
         "script": "G",
         "transliteration": " ésthōn",
+        "morph": "V-PAP-NSM",
         "lemma": "ἐσθίω"
       },
       {
@@ -8231,6 +8268,7 @@
         "script": "G",
         "transliteration": " epebíbasas",
         "strong": "G1913",
+        "morph": "V-AAI-2S",
         "lemma": "ἐπιβιβάζω"
       },
       {
@@ -8436,6 +8474,7 @@
         "text": " ὀστᾶ",
         "script": "G",
         "transliteration": " ostâ",
+        "morph": "N-APN",
         "lemma": "ὀστέον"
       },
       {
@@ -8458,6 +8497,7 @@
         "text": " ὑποκάτωθέν",
         "script": "G",
         "transliteration": " hypokátōthén",
+        "morph": "ADV",
         "lemma": "ὑποκάτωθεν"
       },
       {
@@ -8537,7 +8577,7 @@
         "script": "G",
         "transliteration": " toû",
         "strong": "G3588",
-        "morph": "T-GSM",
+        "morph": "T-GSN",
         "lemma": "ὁ"
       },
       {
@@ -8545,6 +8585,7 @@
         "script": "G",
         "transliteration": " anabē̂nai",
         "strong": "G305",
+        "morph": "V-2AAN",
         "lemma": "ἀναβαίνω"
       },
       {
@@ -8647,7 +8688,7 @@
         "script": "G",
         "transliteration": " genḗmata",
         "strong": "G1081",
-        "morph": "N-APN",
+        "morph": "N-NPN",
         "lemma": "γένημα"
       },
       {
@@ -8686,7 +8727,7 @@
         "script": "G",
         "transliteration": " érgon",
         "strong": "G2041",
-        "morph": "N-ASN",
+        "morph": "N-NSN",
         "lemma": "ἔργον"
       },
       {
@@ -8710,14 +8751,14 @@
         "script": "G",
         "transliteration": " tà",
         "strong": "G3588",
-        "morph": "T-APN",
+        "morph": "T-NPN",
         "lemma": "ὁ"
       },
       {
         "text": " πεδία",
         "script": "G",
         "transliteration": " pedía",
-        "morph": "N-APN",
+        "morph": "N-NPN",
         "lemma": "πεδίον"
       },
       {
@@ -8749,6 +8790,7 @@
         "script": "G",
         "transliteration": " exélipon",
         "strong": "G1587",
+        "morph": "V-2AAI-3P",
         "lemma": "ἐκλείπω"
       },
       {
@@ -8772,7 +8814,7 @@
         "script": "G",
         "transliteration": " próbata,",
         "strong": "G4263",
-        "morph": "N-APN",
+        "morph": "N-NPN",
         "lemma": "πρόβατον"
       },
       {
@@ -8804,6 +8846,7 @@
         "script": "G",
         "transliteration": " bóes",
         "strong": "G1016",
+        "morph": "N-NPM",
         "lemma": "βοῦς"
       },
       {
@@ -9065,6 +9108,7 @@
         "script": "G",
         "transliteration": " epibibâ",
         "strong": "G1913",
+        "morph": "V-FAI-3S",
         "lemma": "ἐπιβιβάζω"
       },
       {
@@ -9080,7 +9124,7 @@
         "script": "G",
         "transliteration": " toû",
         "strong": "G3588",
-        "morph": "T-GSM",
+        "morph": "T-GSN",
         "lemma": "ὁ"
       },
       {

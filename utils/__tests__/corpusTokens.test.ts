@@ -149,7 +149,16 @@ describe("cellsFor", () => {
   it("should answer with what the codex holds for the printed word", () => {
     const [token] = sequences([{ text: ` ${PNEUMA},`, morph: "N-NSN" }])[0];
 
-    expect(cellsFor(token).map((entry) => entry.root)).toEqual([PNEUMA, PNEUMA]);
+    const roots = cellsFor(token).map((entry) => entry.root);
+
+    // Every cell comes from the one root, and there is more than one of them
+    // because a spelling filling several slots has a cell for each. How many
+    // is deliberately not asserted: `πνεῦμα` is the nominative, accusative and
+    // vocative singular neuter, and it had two cells here until the vocative
+    // was filled in. The map is meant to grow more complete, so a test that
+    // pins the count fails every time it does.
+    expect(new Set(roots)).toEqual(new Set([PNEUMA]));
+    expect(roots.length).toBeGreaterThan(1);
   });
 
   it("should answer for the elided spelling as printed, mark and all", () => {
@@ -167,7 +176,9 @@ describe("cellsFor", () => {
     const [token] = sequences([{ text: `${PNEUMA}${greek(0x2019)}`, morph: "N-NSN" }])[0];
 
     expect(token.spellings).toEqual([`${PNEUMA}${greek(0x2019)}`, PNEUMA]);
-    expect(cellsFor(token).map((entry) => entry.root)).toEqual([PNEUMA, PNEUMA]);
+    // The spellings above are what this test is about. The cells only show the
+    // fall-through reached the codex, so the root is asserted and not the count.
+    expect(new Set(cellsFor(token).map((entry) => entry.root))).toEqual(new Set([PNEUMA]));
   });
 
   it("should answer with nothing for a word the codex does not hold", () => {

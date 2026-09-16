@@ -172,14 +172,15 @@
         "transliteration": "Chairéan",
         "cells": [
           { "parse": ["noun", "acc", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg"] }
+          { "parse": ["noun", "gen", "sg", "masc"] }
         ]
       },
       "Χαιρεου": {
         "transliteration": "Chaireou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
-    }
+    },
+    "gender": "masc"
   },
   "χαιρετίζω": {
     "language": "greek",
@@ -262,7 +263,10 @@
       },
       "χαίρετε": {
         "transliteration": "chaírete",
-        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"] },
+          { "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }
+        ]
       },
       "χαιρέτω": {
         "transliteration": "chairétō",
@@ -289,7 +293,8 @@
       "χαίροντες": {
         "transliteration": "chaírontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "χαιρόντων": {
@@ -314,6 +319,16 @@
         "transliteration": "chaírōn",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "χαρεῖται": {
+        "transliteration": "chareîtai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "χάρηθι": {
+        "transliteration": "chárēthi",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "sg"] }
         ]
       },
       "χαρῆναι": {
@@ -367,6 +382,10 @@
             "parse": ["verb", "second", "aor", "pas-dep", "imp", "pers-2", "pl"]
           }
         ]
+      },
+      "χαροῦνται": {
+        "transliteration": "charoûntai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -379,7 +398,10 @@
     "inflections": {
       "χαλαζα": {
         "transliteration": "chalaza",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "fem"] }
+        ]
       },
       "χάλαζα": {
         "transliteration": "chálaza",
@@ -450,7 +472,10 @@
     "inflections": {
       "χαλαστῶν": {
         "transliteration": "chalastō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "pl", "fem"] },
+          { "parse": ["noun", "gen", "pl", "neut"] }
+        ]
       }
     }
   },
@@ -462,6 +487,7 @@
       "χαλαστά": {
         "transliteration": "chalastá",
         "cells": [
+          { "parse": ["noun", "acc", "pl", "masc"] },
           { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "voc", "pl", "neut"] }
@@ -503,7 +529,8 @@
       "χαλάσαντες": {
         "transliteration": "chalásantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "χαλασάντων": {
@@ -700,7 +727,10 @@
       },
       "χαλεποί": {
         "transliteration": "chalepoí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "χαλεπόν": {
         "transliteration": "chalepón",
@@ -719,6 +749,10 @@
           { "parse": ["adj", "nom", "pl", "neut", "comp"] },
           { "parse": ["adj", "voc", "pl", "neut", "comp"] }
         ]
+      },
+      "χαλεπωτέραν": {
+        "transliteration": "chalepōtéran",
+        "cells": [{ "parse": ["adj", "comp", "acc", "sg", "fem"] }]
       },
       "χαλεπωτέρας": {
         "transliteration": "chalepōtéras",
@@ -875,7 +909,10 @@
     "inflections": {
       "χάλκειαι": {
         "transliteration": "chálkeiai",
-        "cells": [{ "parse": ["adj", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "fem"] }
+        ]
       },
       "χαλκείαις": {
         "transliteration": "chalkeíais",
@@ -885,7 +922,9 @@
         "transliteration": "chálkeioi",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "χαλκείοις": {
@@ -1086,7 +1125,10 @@
       },
       "χαλκοῦς": {
         "transliteration": "chalkoûs",
-        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "nom", "sg", "masc"] }
+        ]
       },
       "χαλκῷ": {
         "transliteration": "chalkō̂",
@@ -1103,7 +1145,8 @@
         "transliteration": "chalkâ",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] }
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -1181,11 +1224,19 @@
     "pos": "noun",
     "declension": "3-cons",
     "inflections": {
+      "χαμαιλέοντες": {
+        "transliteration": "chamailéontes",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
       "χαμαιλέων": {
         "transliteration": "chamailéōn",
-        "cells": [{ "parse": ["noun", "nom", "sg"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
-    }
+    },
+    "gender": "masc"
   },
   "χαμαιπετής": {
     "language": "greek",
@@ -1357,6 +1408,10 @@
     "gender": "masc",
     "declension": "3-cons",
     "inflections": {
+      "Χανανιν": {
+        "transliteration": "Chananin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
       "Χανανις": {
         "transliteration": "Chananis",
         "cells": [
@@ -1484,11 +1539,19 @@
     "inflections": {
       "χάραγμα": {
         "transliteration": "cháragma",
-        "cells": [{ "parse": ["noun", "acc", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       },
       "χαράγματα": {
         "transliteration": "charágmata",
-        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
       },
       "χαράγματι": {
         "transliteration": "charágmati",
@@ -1606,6 +1669,24 @@
       "χάρακά": {
         "transliteration": "cháraká",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "χάρακας": {
+        "transliteration": "chárakas",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "acc", "pl", "masc"] }
+        ]
+      },
+      "χάρακες": {
+        "transliteration": "chárakes",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
+      "χάρακι": {
+        "transliteration": "cháraki",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -1777,6 +1858,9 @@
         "cells": [
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
           }
         ]
       },
@@ -1826,7 +1910,9 @@
         "transliteration": "charisámenoi",
         "cells": [
           { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "mid", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "χαρισάμενος": {
@@ -1854,7 +1940,9 @@
       "χαρισθέντα": {
         "transliteration": "charisthénta",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "acc", "pl", "neut"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "neut"] }
         ]
       },
       "χαρισθῆναι": {
@@ -1864,6 +1952,12 @@
       "χαρισθήσομαι": {
         "transliteration": "charisthḗsomai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"] }]
+      },
+      "χαρισομένους": {
+        "transliteration": "charisoménous",
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ptc", "acc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -1901,7 +1995,10 @@
       },
       "χάριτες": {
         "transliteration": "chárites",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "χάριτι": {
         "transliteration": "cháriti",
@@ -1933,14 +2030,16 @@
         "transliteration": "chárisma",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "χαρίσματα": {
         "transliteration": "charísmata",
         "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "acc", "pl", "neut"] }
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "χαρίσματι": {
@@ -2164,7 +2263,9 @@
         "transliteration": "charopoí",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -2394,7 +2495,8 @@
       "χάσκοντες": {
         "transliteration": "cháskontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "χάσκων": {
@@ -2441,8 +2543,9 @@
       "χάσμα": {
         "transliteration": "chásma",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -2502,9 +2605,10 @@
     "inflections": {
       "χαυῶνας": {
         "transliteration": "chauō̂nas",
-        "cells": [{ "parse": ["noun", "acc", "pl"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
-    }
+    },
+    "gender": "masc"
   },
   "χαφ": {
     "language": "greek",
@@ -2547,7 +2651,10 @@
     "inflections": {
       "Χεβρων": {
         "transliteration": "Chebrōn",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-proper", "fem"] },
+          { "parse": ["noun", "indecl-proper", "masc"] }
+        ]
       }
     }
   },
@@ -2610,14 +2717,16 @@
         "transliteration": "cheílē",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "χεῖλος": {
         "transliteration": "cheîlos",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "χείλους": {
@@ -2665,6 +2774,10 @@
       "χειμάρροις": {
         "transliteration": "cheimárrois",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
+      "χείμαρρον": {
+        "transliteration": "cheímarron",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "χειμάρρου": {
         "transliteration": "cheimárrou",
@@ -2807,11 +2920,17 @@
       },
       "χεῖρες": {
         "transliteration": "cheîres",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "χεῖρές": {
         "transliteration": "cheîrés",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "χειρί": {
         "transliteration": "cheirí",
@@ -2824,6 +2943,10 @@
       "χειρῶν": {
         "transliteration": "cheirō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+      },
+      "χερσί": {
+        "transliteration": "chersí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       },
       "χερσίν": {
         "transliteration": "chersín",
@@ -2872,7 +2995,8 @@
       "χειραγωγοῦντες": {
         "transliteration": "cheiragōgoûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -2937,7 +3061,8 @@
         "transliteration": "cheirógraphon",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -2998,7 +3123,8 @@
         "transliteration": "cheiropoíēta",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] }
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "χειροποιήτοις": {
@@ -3007,7 +3133,12 @@
       },
       "χειροποίητον": {
         "transliteration": "cheiropoíēton",
-        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
       },
       "χειροποιήτου": {
         "transliteration": "cheiropoiḗtou",
@@ -3030,7 +3161,8 @@
       "χειροτονήσαντες": {
         "transliteration": "cheirotonḗsantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -3052,12 +3184,16 @@
     "inflections": {
       "ἐχειρώσαντο": {
         "transliteration": "echeirṓsanto",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }
+        ]
       },
       "χειρωσάμενοι": {
         "transliteration": "cheirōsámenoi",
         "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "mid", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -3086,19 +3222,26 @@
       "χεῖρον": {
         "transliteration": "cheîron",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "acc", "sg", "neut"] }
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "χεῖρόν": {
         "transliteration": "cheîrón",
-        "cells": [{ "parse": ["adj", "nom", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
       },
       "χείρονα": {
         "transliteration": "cheírona",
         "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "acc", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "acc", "pl", "neut"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "χείρονος": {
@@ -3228,13 +3371,17 @@
     "inflections": {
       "χελιδόνες": {
         "transliteration": "chelidónes",
-        "cells": [{ "parse": ["noun", "nom", "pl"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "χελιδών": {
         "transliteration": "chelidṓn",
-        "cells": [{ "parse": ["noun", "nom", "sg"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
-    }
+    },
+    "gender": "fem"
   },
   "Χελκαθ": {
     "language": "greek",
@@ -3306,10 +3453,7 @@
       },
       "Χελκιαν": {
         "transliteration": "Chelkian",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Χελκιας": {
         "transliteration": "Chelkias",
@@ -3323,7 +3467,8 @@
         "transliteration": "Chelkiou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
-    }
+    },
+    "gender": "masc"
   },
   "Χελκιος": {
     "language": "greek",
@@ -3488,7 +3633,17 @@
     "inflections": {
       "χερουβ": {
         "transliteration": "cheroub",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-other", "masc"] },
+          { "parse": ["noun", "indecl-other", "neut"] }
+        ]
+      },
+      "χερουβιν": {
+        "transliteration": "cheroubin",
+        "cells": [
+          { "parse": ["noun", "indecl-other", "masc"] },
+          { "parse": ["noun", "indecl-other", "neut"] }
+        ]
       }
     }
   },
@@ -3541,7 +3696,8 @@
         "transliteration": "kechersōménē",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] }
+          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] }
         ]
       }
     }
@@ -3784,6 +3940,7 @@
       "χεεῖ": {
         "transliteration": "cheeî",
         "cells": [
+          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -3806,6 +3963,10 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
+      },
+      "χυθήσεται": {
+        "transliteration": "chythḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -3848,11 +4009,17 @@
       },
       "χῆραι": {
         "transliteration": "chē̂rai",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "χῆραί": {
         "transliteration": "chē̂raí",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "χήραις": {
         "transliteration": "chḗrais",
@@ -3864,7 +4031,10 @@
       },
       "χήρας": {
         "transliteration": "chḗras",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       },
       "χηρῶν": {
         "transliteration": "chērō̂n",
@@ -3937,6 +4107,10 @@
     "pos": "adv",
     "indices": { "strongs": "G5504" },
     "inflections": {
+      "ἐχθές": {
+        "transliteration": "echthés",
+        "cells": [{ "parse": ["adv"] }]
+      },
       "χθές": { "transliteration": "chthés", "cells": [{ "parse": ["adv"] }] }
     }
   },
@@ -3948,7 +4122,9 @@
         "transliteration": "chthizoí",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -3998,7 +4174,10 @@
     "inflections": {
       "χιλίαρχοι": {
         "transliteration": "chilíarchoi",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "χιλιάρχοις": {
         "transliteration": "chiliárchois",
@@ -4039,7 +4218,10 @@
       },
       "χιλιάδες": {
         "transliteration": "chiliádes",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "χιλιάδων": {
         "transliteration": "chiliádōn",
@@ -4064,13 +4246,17 @@
       "χίλια": {
         "transliteration": "chília",
         "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "acc", "pl", "neut"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "χίλιαι": {
         "transliteration": "chíliai",
-        "cells": [{ "parse": ["adj", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "fem"] }
+        ]
       },
       "χιλίαις": {
         "transliteration": "chilíais",
@@ -4078,7 +4264,10 @@
       },
       "χιλιάς": {
         "transliteration": "chiliás",
-        "cells": [{ "parse": ["adj", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "gen", "sg", "fem"] }
+        ]
       },
       "χιλίας": {
         "transliteration": "chilías",
@@ -4086,7 +4275,10 @@
       },
       "χίλιοι": {
         "transliteration": "chílioi",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "χιλίοις": {
         "transliteration": "chilíois",
@@ -4101,7 +4293,11 @@
       },
       "χιλίων": {
         "transliteration": "chilíōn",
-        "cells": [{ "parse": ["adj", "gen", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "gen", "pl", "fem"] },
+          { "parse": ["adj", "gen", "pl", "masc"] },
+          { "parse": ["adj", "gen", "pl", "neut"] }
+        ]
       }
     }
   },
@@ -4265,6 +4461,10 @@
       "χιτώνων": {
         "transliteration": "chitṓnōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      },
+      "χιτῶσιν": {
+        "transliteration": "chitō̂sin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -4281,7 +4481,10 @@
       },
       "χιόνες": {
         "transliteration": "chiónes",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "χιόνι": {
         "transliteration": "chióni",
@@ -4319,6 +4522,10 @@
       "χλαμύδα": {
         "transliteration": "chlamýda",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "χλαμύδος": {
+        "transliteration": "chlamýdos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -4339,7 +4546,8 @@
       "χλευάζοντες": {
         "transliteration": "chleuázontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "χλευάσασα": {
@@ -4416,7 +4624,10 @@
       },
       "χλιδῶνας": {
         "transliteration": "chlidō̂nas",
-        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "acc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -4507,8 +4718,10 @@
       "χλωρόν": {
         "transliteration": "chlōrón",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] }
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "χλωρός": {
@@ -4544,24 +4757,10 @@
     "inflections": {
       "χλωρότητι": {
         "transliteration": "chlōrótēti",
-        "cells": [{ "parse": ["noun", "dat", "sg"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
-    }
-  },
-  "χνοῦν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "2n-contract",
-    "inflections": {
-      "χνοῦν": {
-        "transliteration": "chnoûn",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
+    },
+    "gender": "fem"
   },
   "χνοῦς": {
     "language": "greek",
@@ -4714,7 +4913,10 @@
     "inflections": {
       "χοϊκοί": {
         "transliteration": "choïkoí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "χοϊκός": {
         "transliteration": "choïkós",
@@ -4734,7 +4936,10 @@
     "inflections": {
       "χοίνικες": {
         "transliteration": "choínikes",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       },
       "χοῖνιξ": {
         "transliteration": "choînix",
@@ -4749,11 +4954,15 @@
     "inflections": {
       "χοιρογρυλλίοις": {
         "transliteration": "choirogryllíois",
-        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "dat", "pl", "masc"] },
+          { "parse": ["noun", "dat", "pl", "neut"] }
+        ]
       },
       "χοιρογρύλλιον": {
         "transliteration": "choirogrýllion",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "masc"] },
           { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
@@ -4789,7 +4998,10 @@
     "inflections": {
       "χοῖροι": {
         "transliteration": "choîroi",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "χοίρους": {
         "transliteration": "choírous",
@@ -5014,13 +5226,17 @@
       "χορεύοντες": {
         "transliteration": "choreúontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "χορεύουσαι": {
         "transliteration": "choreúousai",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "fem"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "χορευουσῶν": {
@@ -5076,8 +5292,11 @@
         "transliteration": "kechorēgēménoi",
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "χορηγεῖ": {
@@ -5086,7 +5305,10 @@
       },
       "χορηγεῖν": {
         "transliteration": "chorēgeîn",
-        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "inf"] },
+          { "parse": ["verb", "pres", "act", "inf"] }
+        ]
       },
       "χορηγηθήσεται": {
         "transliteration": "chorēgēthḗsetai",
@@ -5122,8 +5344,11 @@
         "transliteration": "chorēgoúmenoi",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -5365,14 +5590,16 @@
         "transliteration": "chortásmata",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "χορτάσματά": {
         "transliteration": "chortásmatá",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -5523,9 +5750,14 @@
       "χοί": {
         "transliteration": "choí",
         "cells": [
+          { "parse": ["noun", "dat", "sg", "masc"] },
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
+      },
+      "χοός": {
+        "transliteration": "choós",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "χοῦν": {
         "transliteration": "choûn",
@@ -5696,6 +5928,7 @@
       "χρῆσαι": {
         "transliteration": "chrē̂sai",
         "cells": [
+          { "parse": ["verb", "aor", "act", "inf"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
       },
@@ -5712,6 +5945,10 @@
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "pl"] }
         ]
       },
+      "χρῆσθαι": {
+        "transliteration": "chrē̂sthai",
+        "cells": [{ "parse": ["verb", "pres", "mid-dep", "inf"] }]
+      },
       "χρήσωμαι": {
         "transliteration": "chrḗsōmai",
         "cells": [
@@ -5727,6 +5964,7 @@
       "χρῶ": {
         "transliteration": "chrō̂",
         "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "sg"] }
         ]
       },
@@ -5741,6 +5979,9 @@
         "cells": [
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
           }
         ]
       },
@@ -5903,6 +6144,10 @@
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       },
+      "χρησαίμεθα": {
+        "transliteration": "chrēsaímetha",
+        "cells": [{ "parse": ["verb", "aor", "mid", "opt", "pers-1", "pl"] }]
+      },
       "χρησάμενος": {
         "transliteration": "chrēsámenos",
         "cells": [
@@ -5942,6 +6187,10 @@
       "χρησθῇ": {
         "transliteration": "chrēsthē̂",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
+      },
+      "χρησθήσεται": {
+        "transliteration": "chrēsthḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
       },
       "χρήσομαι": {
         "transliteration": "chrḗsomai",
@@ -6101,6 +6350,7 @@
         "transliteration": "chréous",
         "cells": [
           { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "gen", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "masc"] },
           { "parse": ["noun", "voc", "sg", "masc"] }
         ]
@@ -6116,6 +6366,7 @@
         "transliteration": "chreopheilétou",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "gen", "sg", "masc"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
@@ -6131,7 +6382,10 @@
     "inflections": {
       "χρεωφειλέται": {
         "transliteration": "chreōpheilétai",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "χρεωφειλετῶν": {
         "transliteration": "chreōpheiletō̂n",
@@ -6185,7 +6439,11 @@
     "inflections": {
       "χρῆμα": {
         "transliteration": "chrē̂ma",
-        "cells": [{ "parse": ["noun", "acc", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       },
       "χρήμασι": {
         "transliteration": "chrḗmasi",
@@ -6203,14 +6461,16 @@
         "transliteration": "chrḗmata",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "χρήματά": {
         "transliteration": "chrḗmatá",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "χρημάτων": {
@@ -6267,7 +6527,8 @@
               "neut",
               "second"
             ]
-          }
+          },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
         ]
       },
       "ἐχρημάτισα": {
@@ -6286,15 +6547,29 @@
         "transliteration": "echrēmatísthē",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
       },
+      "κεχρηματικέναι": {
+        "transliteration": "kechrēmatikénai",
+        "cells": [{ "parse": ["verb", "perf", "act", "inf"] }]
+      },
       "κεχρηματισμένον": {
         "transliteration": "kechrēmatisménon",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "κεχρημάτισται": {
         "transliteration": "kechrēmátistai",
         "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "χρηματιεῖ": {
+        "transliteration": "chrēmatieî",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
+      "χρηματιεῖς": {
+        "transliteration": "chrēmatieîs",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "χρηματίζει": {
         "transliteration": "chrēmatízei",
@@ -6328,7 +6603,8 @@
       "χρηματισθέντες": {
         "transliteration": "chrēmatisthéntes",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -6407,7 +6683,9 @@
         "transliteration": "chrḗsimoi",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "χρησίμοις": {
@@ -6421,8 +6699,10 @@
       "χρήσιμον": {
         "transliteration": "chrḗsimon",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] }
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "χρησίμους": {
@@ -6483,7 +6763,10 @@
     "inflections": {
       "χρησμολογεῖ": {
         "transliteration": "chrēsmologeî",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
+        ]
       }
     }
   },
@@ -6547,12 +6830,16 @@
         "transliteration": "chrēstá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] }
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "χρηστοί": {
         "transliteration": "chrēstoí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "χρηστοῖς": {
         "transliteration": "chrēstoîs",
@@ -6565,8 +6852,10 @@
       "χρηστόν": {
         "transliteration": "chrēstón",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "acc", "sg", "neut"] }
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "χρηστός": {
@@ -6609,7 +6898,10 @@
       },
       "χρηστότητα": {
         "transliteration": "chrēstótēta",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "acc", "sg", "fem"] }
+        ]
       },
       "χρηστότητι": {
         "transliteration": "chrēstótēti",
@@ -6680,14 +6972,16 @@
         "transliteration": "chrísma",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "χρῖσμα": {
         "transliteration": "chrîsma",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -6872,8 +7166,11 @@
         "transliteration": "chriómenoi",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "χρίουσιν": {
@@ -6928,6 +7225,10 @@
       "χρισθῆναι": {
         "transliteration": "christhē̂nai",
         "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
+      },
+      "χρισθήσεται": {
+        "transliteration": "christhḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
       },
       "χρῖσον": {
         "transliteration": "chrîson",
@@ -6997,7 +7298,10 @@
       },
       "χρονιεῖς": {
         "transliteration": "chronieîs",
-        "cells": [{ "parse": ["verb", "plup", "act", "ind", "pers-2", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "plup", "act", "ind", "pers-2", "sg"] }
+        ]
       },
       "χρονίζει": {
         "transliteration": "chronízei",
@@ -7133,11 +7437,20 @@
     "language": "greek",
     "pos": "adj",
     "inflections": {
+      "χρυσαῖ": {
+        "transliteration": "chrysaî",
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "fem"] }
+        ]
+      },
       "χρύσεοι": {
         "transliteration": "chrýseoi",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
       "χρύσεον": {
@@ -7164,6 +7477,14 @@
           { "parse": ["adj", "gen", "pl", "masc"] },
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
+      },
+      "χρυσῆς": {
+        "transliteration": "chrysē̂s",
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
+      },
+      "χρυσοῖς": {
+        "transliteration": "chrysoîs",
+        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -7185,8 +7506,9 @@
       "χρυσίον": {
         "transliteration": "chrysíon",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "χρυσίου": {
@@ -7240,7 +7562,10 @@
     "inflections": {
       "χρυσόλιθον": {
         "transliteration": "chrysólithon",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "acc", "sg", "masc"] }
+        ]
       },
       "χρυσόλιθος": {
         "transliteration": "chrysólithos",
@@ -7311,8 +7636,9 @@
       "χρυσᾶ": {
         "transliteration": "chrysâ",
         "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "acc", "pl", "neut"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "χρυσᾶς": {
@@ -7333,7 +7659,10 @@
       },
       "χρυσοῖ": {
         "transliteration": "chrysoî",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "χρυσοῦ": {
         "transliteration": "chrysoû",
@@ -7342,18 +7671,26 @@
       "χρυσοῦν": {
         "transliteration": "chrysoûn",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "nom", "sg", "neut"] }
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "χρυσοῦς": {
         "transliteration": "chrysoûs",
-        "cells": [{ "parse": ["adj", "acc", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "masc"] },
+          { "parse": ["adj", "nom", "sg", "masc"] }
+        ]
       },
       "χρυσῶν": {
         "transliteration": "chrysō̂n",
-        "cells": [{ "parse": ["adj", "gen", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["adj", "gen", "pl", "fem"] },
+          { "parse": ["adj", "gen", "pl", "masc"] },
+          { "parse": ["adj", "gen", "pl", "neut"] }
+        ]
       }
     }
   },
@@ -7426,7 +7763,8 @@
         "cells": [
           { "parse": ["noun", "gen", "pl", "fem"] },
           { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
+          { "parse": ["noun", "gen", "pl", "neut"] },
+          { "parse": ["noun", "nom", "sg", "fem"] }
         ]
       }
     }
@@ -7472,6 +7810,10 @@
     "pos": "noun",
     "declension": "3n-ma",
     "inflections": {
+      "χρυσώμασιν": {
+        "transliteration": "chrysṓmasin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "χρυσώματα": {
         "transliteration": "chrysṓmata",
         "cells": [
@@ -7508,6 +7850,10 @@
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
+      "χρώμασιν": {
+        "transliteration": "chrṓmasin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "χρώματος": {
         "transliteration": "chrṓmatos",
         "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
@@ -7524,6 +7870,10 @@
         "transliteration": "chrṓs",
         "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
       },
+      "χρῶτα": {
+        "transliteration": "chrō̂ta",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
       "χρωτός": {
         "transliteration": "chrōtós",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
@@ -7538,7 +7888,9 @@
         "transliteration": "chydaîoi",
         "cells": [
           { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] }
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -7737,6 +8089,10 @@
           { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }
         ]
+      },
+      "χωλανεῖτε": {
+        "transliteration": "chōlaneîte",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"] }]
       }
     }
   },
@@ -7758,14 +8114,18 @@
       },
       "χωλοί": {
         "transliteration": "chōloí",
-        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
       },
       "χωλόν": {
         "transliteration": "chōlón",
         "cells": [
           { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "acc", "sg", "neut"] }
+          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
       "χωλός": {
@@ -7847,6 +8207,10 @@
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
+      },
+      "Χωνενιου": {
+        "transliteration": "Chōneniou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -8158,7 +8522,8 @@
       "χωροῦσαι": {
         "transliteration": "chōroûsai",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "χωροῦσαν": {
@@ -8216,12 +8581,22 @@
       "κεχωρισμένος": {
         "transliteration": "kechōrisménos",
         "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "κεχωρισμένων": {
+        "transliteration": "kechōrisménōn",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "gen", "pl", "masc"] }
         ]
       },
       "χωρίζεσθαι": {
         "transliteration": "chōrízesthai",
-        "cells": [{ "parse": ["verb", "pres", "pas", "inf"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "inf"] },
+          { "parse": ["verb", "pres", "pas", "inf"] }
+        ]
       },
       "χωριζέσθω": {
         "transliteration": "chōrizésthō",
@@ -8254,7 +8629,8 @@
       "χωρίσαντες": {
         "transliteration": "chōrísantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "χωρίσει": {
@@ -8270,7 +8646,8 @@
       "χωρισθέντες": {
         "transliteration": "chōristhéntes",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "χωρισθῇ": {
@@ -8303,7 +8680,11 @@
     "inflections": {
       "χωρία": {
         "transliteration": "chōría",
-        "cells": [{ "parse": ["noun", "nom", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
       },
       "χωρίοις": {
         "transliteration": "chōríois",
@@ -8313,7 +8694,8 @@
         "transliteration": "chōríon",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "χωρίου": {

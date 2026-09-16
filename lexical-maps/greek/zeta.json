@@ -651,7 +651,11 @@
     "inflections": {
       "Ζαχαρια": {
         "transliteration": "Zacharia",
-        "cells": [{ "parse": ["noun", "voc", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "masc"] },
+          { "parse": ["noun", "voc", "sg", "masc"] }
+        ]
       },
       "Ζαχαρία": {
         "transliteration": "Zacharía",
@@ -728,6 +732,10 @@
     "shortDefinition": "to live",
     "indices": { "strongs": "G2198" },
     "inflections": {
+      "ἔζη": {
+        "transliteration": "ézē",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔζησα": {
         "transliteration": "ézēsa",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
@@ -762,7 +770,14 @@
       },
       "ζῇ": {
         "transliteration": "zē̂",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }
+        ]
+      },
+      "ζῆθι": {
+        "transliteration": "zē̂thi",
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
       },
       "ζῆν": {
         "transliteration": "zē̂n",
@@ -774,7 +789,10 @@
       },
       "ζῇς": {
         "transliteration": "zē̂s",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }
+        ]
       },
       "ζήσαι": {
         "transliteration": "zḗsai",
@@ -797,7 +815,8 @@
       "ζήσαντες": {
         "transliteration": "zḗsantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ζήσασα": {
@@ -878,7 +897,12 @@
       },
       "ζῆσόν": {
         "transliteration": "zē̂són",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "fut", "act", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "fut", "act", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "fut", "act", "ptc", "voc", "sg", "neut"] }
+        ]
       },
       "ζήσονται": {
         "transliteration": "zḗsontai",
@@ -896,7 +920,10 @@
       },
       "ζῆτε": {
         "transliteration": "zē̂te",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] },
+          { "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"] }
+        ]
       },
       "ζῶ": {
         "transliteration": "zō̂",
@@ -912,14 +939,16 @@
       "ζῶν": {
         "transliteration": "zō̂n",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "ζῶντα": {
         "transliteration": "zō̂nta",
         "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] }
         ]
       },
@@ -932,13 +961,15 @@
       "ζῶντες": {
         "transliteration": "zō̂ntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ζῶντι": {
         "transliteration": "zō̂nti",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "neut"] }
         ]
       },
       "ζῶντος": {
@@ -951,7 +982,15 @@
       "ζώντων": {
         "transliteration": "zṓntōn",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"] }
+        ]
+      },
+      "ζῶντως": {
+        "transliteration": "zō̂ntōs",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ζῶσα": {
@@ -963,7 +1002,8 @@
       "ζῶσαι": {
         "transliteration": "zō̂sai",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "ζῶσαν": {
@@ -1191,6 +1231,12 @@
     "conjugation": "thematic",
     "stems": { "aor": "ζευξ" },
     "inflections": {
+      "ἐζευγμένην": {
+        "transliteration": "ezeugménēn",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"] }
+        ]
+      },
       "ἔζευξαν": {
         "transliteration": "ézeuxan",
         "cells": [
@@ -1206,18 +1252,21 @@
       "ζεύξας": {
         "transliteration": "zeúxas",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
+          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] },
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "ζεύξατε": {
         "transliteration": "zeúxate",
         "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "pl", "second"] }
         ]
       },
       "ζεῦξον": {
         "transliteration": "zeûxon",
         "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] },
           {
@@ -1271,14 +1320,16 @@
         "transliteration": "zeúgē",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "ζεῦγος": {
         "transliteration": "zeûgos",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ζεύγους": {
@@ -1353,7 +1404,8 @@
       "ζέοντες": {
         "transliteration": "zéontes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ζέουσι": {
@@ -1391,9 +1443,16 @@
     "shortDefinition": "a zeal, fervor",
     "indices": { "strongs": "G2205" },
     "inflections": {
+      "ζήλει": {
+        "transliteration": "zḗlei",
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
       "ζῆλοι": {
         "transliteration": "zē̂loi",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "ζῆλον": {
         "transliteration": "zē̂lon",
@@ -1406,9 +1465,10 @@
       "ζῆλος": {
         "transliteration": "zē̂los",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "masc"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ζῆλός": {
@@ -1416,7 +1476,8 @@
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ζήλου": {
@@ -1463,7 +1524,10 @@
       },
       "ἐζήλωκα": {
         "transliteration": "ezḗlōka",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "plup", "act", "ind", "pers-1", "sg"] }
+        ]
       },
       "ἐζήλωσα": {
         "transliteration": "ezḗlōsa",
@@ -1477,6 +1541,10 @@
         "transliteration": "ezḗlōsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
+      "ζήλει": {
+        "transliteration": "zḗlei",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+      },
       "ζηλοῖ": {
         "transliteration": "zēloî",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
@@ -1485,7 +1553,8 @@
         "transliteration": "zēloîs",
         "cells": [
           { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "opt", "pers-2", "sg"] }
+          { "parse": ["verb", "pres", "act", "opt", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }
         ]
       },
       "ζήλου": {
@@ -1555,7 +1624,8 @@
       "ζηλώσαντες": {
         "transliteration": "zēlṓsantes",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ζηλώσας": {
@@ -1621,11 +1691,17 @@
     "inflections": {
       "ζηλωταί": {
         "transliteration": "zēlōtaí",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       },
       "ζηλωτήν": {
         "transliteration": "zēlōtḗn",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "acc", "sg", "masc"] }
+        ]
       },
       "ζηλωτής": {
         "transliteration": "zēlōtḗs",
@@ -1707,6 +1783,7 @@
       "ζημιοῦν": {
         "transliteration": "zēmioûn",
         "cells": [
+          { "parse": ["verb", "pres", "act", "inf"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
@@ -1821,7 +1898,10 @@
       },
       "ἐζήτουν": {
         "transliteration": "ezḗtoun",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
+        ]
       },
       "ζητεῖ": {
         "transliteration": "zēteî",
@@ -1994,8 +2074,9 @@
       "ζητοῦν": {
         "transliteration": "zētoûn",
         "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "ζητοῦντας": {
@@ -2007,13 +2088,15 @@
       "ζητοῦντες": {
         "transliteration": "zētoûntes",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ζητοῦντές": {
         "transliteration": "zētoûntés",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ζητοῦντι": {
@@ -2073,7 +2156,11 @@
       },
       "ζήτω": {
         "transliteration": "zḗtō",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }
+        ]
       },
       "ζητῶν": {
         "transliteration": "zētō̂n",
@@ -2092,11 +2179,19 @@
     "inflections": {
       "ζήτημά": {
         "transliteration": "zḗtēmá",
-        "cells": [{ "parse": ["noun", "nom", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       },
       "ζητήματα": {
         "transliteration": "zētḗmata",
-        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
       },
       "ζητήματος": {
         "transliteration": "zētḗmatos",
@@ -2123,7 +2218,8 @@
         "transliteration": "zētḗseis",
         "cells": [
           { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "nom", "pl", "fem"] }
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
         ]
       },
       "ζητήσεως": {
@@ -2178,12 +2274,17 @@
         "transliteration": "zizánia",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "ζιζάνιά": {
         "transliteration": "zizániá",
-        "cells": [{ "parse": ["noun", "nom", "pl", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
       },
       "ζιζανίων": {
         "transliteration": "zizaníōn",
@@ -2350,20 +2451,39 @@
     "declension": "2m",
     "indices": { "strongs": "G2218" },
     "inflections": {
+      "ζυγά": {
+        "transliteration": "zygá",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
+      },
       "ζυγοί": {
         "transliteration": "zygoí",
         "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "ζυγοῖς": {
         "transliteration": "zygoîs",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "dat", "pl", "masc"] },
+          { "parse": ["noun", "dat", "pl", "neut"] }
+        ]
       },
       "ζυγόν": {
         "transliteration": "zygón",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "masc"] },
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       },
       "ζυγός": {
         "transliteration": "zygós",
@@ -2371,7 +2491,10 @@
       },
       "ζυγοῦ": {
         "transliteration": "zygoû",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "masc"] },
+          { "parse": ["noun", "gen", "sg", "neut"] }
+        ]
       },
       "ζυγῷ": {
         "transliteration": "zygō̂",
@@ -2476,8 +2599,11 @@
         "transliteration": "ezymōménoi",
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ζυμοῖ": {
@@ -2565,7 +2691,10 @@
     "inflections": {
       "ζωγρείαν": {
         "transliteration": "zōgreían",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "acc", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -2578,7 +2707,8 @@
       "ἐζωγρημένοι": {
         "transliteration": "ezōgrēménoi",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "ἐζώγρησαν": {
@@ -2729,13 +2859,60 @@
         "transliteration": "ezṓnnyes",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-2", "sg"] }]
       },
+      "ἔζωσά": {
+        "transliteration": "ézōsá",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      },
+      "ἐζώσατο": {
+        "transliteration": "ezṓsato",
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "ἔζωσεν": {
+        "transliteration": "ézōsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐζωσμένοι": {
+        "transliteration": "ezōsménoi",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "ἐζωσμένος": {
+        "transliteration": "ezōsménos",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ἐζωσμένους": {
+        "transliteration": "ezōsménous",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
       "ζῶσαι": {
         "transliteration": "zō̂sai",
         "cells": [
+          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg", "second"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
         ]
+      },
+      "ζώσαντες": {
+        "transliteration": "zṓsantes",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "ζώσασθε": {
+        "transliteration": "zṓsasthe",
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "pl"] }]
       },
       "ζώσει": {
         "transliteration": "zṓsei",
@@ -2775,11 +2952,18 @@
     "inflections": {
       "ἐζωογόνει": {
         "transliteration": "ezōogónei",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
+        ]
       },
       "ἐζωογονεῖτε": {
         "transliteration": "ezōogoneîte",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-2", "pl"] }]
+      },
+      "ἐζωογονήκειτε": {
+        "transliteration": "ezōogonḗkeite",
+        "cells": [{ "parse": ["verb", "plup", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐζωογονήσατε": {
         "transliteration": "ezōogonḗsate",
@@ -2859,15 +3043,17 @@
       "ζῷα": {
         "transliteration": "zō̂a",
         "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "acc", "pl", "neut"] }
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "ζῷά": {
         "transliteration": "zō̂á",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "ζῴοις": {
@@ -2877,15 +3063,17 @@
       "ζῷον": {
         "transliteration": "zō̂on",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ζῷόν": {
         "transliteration": "zō̂ón",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ζῴου": {
@@ -2918,6 +3106,10 @@
       "ζωοποιεῖς": {
         "transliteration": "zōopoieîs",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ζωοποίησιν": {
+        "transliteration": "zōopoíēsin",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       }
     }
   },
@@ -2966,8 +3158,9 @@
       "ζῳοποιοῦν": {
         "transliteration": "zōopoioûn",
         "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "ζῳοποιοῦντος": {
