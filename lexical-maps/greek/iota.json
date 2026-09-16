@@ -380,7 +380,7 @@
       }
     }
   },
-  "Ἰαθάν": {
+  "Ἰαθάν": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -415,7 +415,7 @@
       }
     }
   },
-  "Ἰάϊρος": {
+  "Ἰάϊρος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -751,7 +751,7 @@
       }
     }
   },
-  "Ιαμνίτης": {
+  "Ιαμνίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -2380,7 +2380,7 @@
       }
     }
   },
-  "Ἰδούηλος": {
+  "Ἰδούηλος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -2927,7 +2927,7 @@
       }
     }
   },
-  "Ἰεζαβήλ": {
+  "Ἰεζαβήλ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -3179,7 +3179,7 @@
       }
     }
   },
-  "Ἰέηλος": {
+  "Ἰέηλος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -3927,6 +3927,13 @@
     "declension": "1m-as",
     "indices": { "strongs": "G2408" },
     "inflections": {
+      "Ιερεμια": {
+        "transliteration": "Ieremia",
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "masc"] },
+          { "parse": ["noun", "voc", "sg", "masc"] }
+        ]
+      },
       "Ιερεμιαν": {
         "transliteration": "Ieremian",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
@@ -3935,29 +3942,6 @@
         "transliteration": "Ieremían",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
-      "Ιερεμιου": {
-        "transliteration": "Ieremiou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      },
-      "Ἰερεμίου": {
-        "transliteration": "Ieremíou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      }
-    }
-  },
-  "Ἱερεμίας": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "1m-as",
-    "inflections": {
-      "Ιερεμια": {
-        "transliteration": "Ieremia",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
-      },
       "Ιερεμιας": {
         "transliteration": "Ieremias",
         "cells": [
@@ -3965,6 +3949,14 @@
           { "parse": ["noun", "indecl-proper", "masc"] },
           { "parse": ["noun", "nom", "sg", "masc"] }
         ]
+      },
+      "Ιερεμιου": {
+        "transliteration": "Ieremiou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      },
+      "Ἰερεμίου": {
+        "transliteration": "Ieremíou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -4692,7 +4684,7 @@
       }
     }
   },
-  "Ἱερώνυμος": {
+  "Ἱερώνυμος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -5031,7 +5023,7 @@
       }
     }
   },
-  "Ἰετάμαρος": {
+  "Ἰετάμαρος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -6548,7 +6540,7 @@
       }
     }
   },
-  "Ἰνδός": {
+  "Ἰνδός": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -6700,7 +6692,7 @@
       }
     }
   },
-  "Ιόππης": {
+  "Ιόππης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -6839,7 +6831,7 @@
       }
     }
   },
-  "Ἰουδά": {
+  "Ἰουδά": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -6909,16 +6901,9 @@
       "ἰουδαΐζειν": {
         "transliteration": "ioudaḯzein",
         "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
-      }
-    }
-  },
-  "Ἰουδαΐζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "Ιουδάιζον": {
-        "transliteration": "Ioudáizon",
+      },
+      "ιουδάιζον": {
+        "transliteration": "ioudáizon",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
@@ -7093,8 +7078,8 @@
     "pos": "adv",
     "shortDefinition": "in the Jews' language",
     "inflections": {
-      "ιουδαιστί": {
-        "transliteration": "ioudaistí",
+      "Ιουδαιστί": {
+        "transliteration": "Ioudaistí",
         "cells": [{ "parse": ["adv"] }]
       }
     }
@@ -7177,7 +7162,7 @@
       }
     }
   },
-  "Ἰουδίθ": {
+  "Ἰουδίθ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7720,7 +7705,7 @@
       }
     }
   },
-  "Ισακίος": {
+  "Ισακίος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -8345,8 +8330,8 @@
         "transliteration": "Israēlítē",
         "cells": [{ "parse": ["adj", "dat", "sg", "masc"] }]
       },
-      "ισραηλίτην": {
-        "transliteration": "israēlítēn",
+      "Ισραηλίτην": {
+        "transliteration": "Israēlítēn",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Ισραηλίτης": {
@@ -8357,16 +8342,16 @@
         "transliteration": "Israēlítēs",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
-      "ισραηλίτιδος": {
-        "transliteration": "israēlítidos",
+      "Ισραηλίτιδος": {
+        "transliteration": "Israēlítidos",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
-      "ισραηλῖτιν": {
-        "transliteration": "israēlîtin",
+      "Ισραηλῖτιν": {
+        "transliteration": "Israēlîtin",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
-      "ισραηλίτου": {
-        "transliteration": "israēlítou",
+      "Ισραηλίτου": {
+        "transliteration": "Israēlítou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
@@ -8396,7 +8381,7 @@
       }
     }
   },
-  "Ἰσσαχάρ": {
+  "Ἰσσαχάρ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -10002,21 +9987,6 @@
       "ἴσως": { "transliteration": "ísōs", "cells": [{ "parse": ["adv"] }] }
     }
   },
-  "ἰταβύριον": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "2n",
-    "inflections": {
-      "ἰταβύριον": {
-        "transliteration": "itabýrion",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "Ἰταβύριον": {
     "language": "greek",
     "pos": "noun",
@@ -10513,7 +10483,7 @@
       }
     }
   },
-  "Ἰωάνης": {
+  "Ἰωάνης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -10756,7 +10726,7 @@
       }
     }
   },
-  "Ἰωβήλ": {
+  "Ἰωβήλ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -10768,7 +10738,7 @@
       }
     }
   },
-  "Ἰωδά": {
+  "Ἰωδά": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -11205,7 +11175,7 @@
       }
     }
   },
-  "Ἰώσαβδος": {
+  "Ἰώσαβδος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -11280,7 +11250,7 @@
       }
     }
   },
-  "Ἰωσάφιας": {
+  "Ἰωσάφιας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -11304,7 +11274,7 @@
       }
     }
   },
-  "Ἰωσείας": {
+  "Ἰωσείας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",

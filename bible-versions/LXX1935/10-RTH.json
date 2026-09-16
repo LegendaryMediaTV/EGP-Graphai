@@ -161,7 +161,7 @@
         "script": "G",
         "transliteration": " Iouda",
         "morph": "N-PRI",
-        "lemma": "Ἰουδά"
+        "lemma": "Ἰουδά"
       },
       {
         "text": " τοῦ",
@@ -472,7 +472,7 @@
         "script": "G",
         "transliteration": " Iouda;",
         "morph": "N-PRI",
-        "lemma": "Ἰουδά"
+        "lemma": "Ἰουδά"
       },
       {
         "text": " καὶ",
@@ -1441,7 +1441,7 @@
         "script": "G",
         "transliteration": " Iouda.",
         "morph": "N-PRI",
-        "lemma": "Ἰουδά"
+        "lemma": "Ἰουδά"
       }
     ]
   },
@@ -3287,15 +3287,17 @@
         "text": " ἀποθάνῃς,",
         "script": "G",
         "transliteration": " apothánēs,",
+        "strong": "G599",
         "morph": "V-2AAS-2S",
-        "lemma": "ἀποθνήσκω"
+        "lemma": "ἀποθνῄσκω"
       },
       {
         "text": " ἀποθανοῦμαι",
         "script": "G",
         "transliteration": " apothanoûmai",
+        "strong": "G599",
         "morph": "V-FMI-1S",
-        "lemma": "ἀποθνήσκω"
+        "lemma": "ἀποθνῄσκω"
       },
       {
         "text": " κἀκεῖ",
@@ -3836,7 +3838,7 @@
         "script": "G",
         "transliteration": " Pikrán,",
         "morph": "N-PRI",
-        "lemma": "Πικράν"
+        "lemma": "Πικράν"
       },
       {
         "text": " ὅτι",
@@ -15550,7 +15552,7 @@
         "script": "G",
         "transliteration": " Iouda,",
         "morph": "N-PRI",
-        "lemma": "Ἰουδά"
+        "lemma": "Ἰουδά"
       },
       {
         "text": " ἐκ",
@@ -16542,8 +16544,9 @@
         "text": " Δαυιδ.",
         "script": "G",
         "transliteration": " Dauid.",
+        "strong": "G1138",
         "morph": "N-PRI",
-        "lemma": "Δαβίδ"
+        "lemma": "Δαυίδ"
       }
     ]
   },
@@ -16621,8 +16624,9 @@
         "text": " Εσρων,",
         "script": "G",
         "transliteration": " Esrōn,",
+        "strong": "G2074",
         "morph": "N-PRI",
-        "lemma": "Ἐσρώμ"
+        "lemma": "Ἑσρώμ"
       }
     ]
   },
@@ -16636,8 +16640,9 @@
         "text": "Εσρων",
         "script": "G",
         "transliteration": "Esrōn",
+        "strong": "G2074",
         "morph": "N-PRI",
-        "lemma": "Ἐσρώμ"
+        "lemma": "Ἑσρώμ"
       },
       {
         "text": " δὲ",
@@ -16964,8 +16969,9 @@
         "text": " Δαυιδ.",
         "script": "G",
         "transliteration": " Dauid.",
+        "strong": "G1138",
         "morph": "N-PRI",
-        "lemma": "Δαβίδ"
+        "lemma": "Δαυίδ"
       }
     ]
   }

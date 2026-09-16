@@ -14140,7 +14140,7 @@
       }
     }
   },
-  "Πάτροκλος": {
+  "Πάτροκλος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -14755,6 +14755,7 @@
     "language": "greek",
     "pos": "adj",
     "indices": { "strongs": "G3977" },
+    "declension": "2-1-2",
     "inflections": {
       "πεδινή": {
         "transliteration": "pedinḗ",
@@ -17017,7 +17018,7 @@
       }
     }
   },
-  "Πεντάπολις": {
+  "Πεντάπολις": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -23499,7 +23500,7 @@
       }
     }
   },
-  "Περσέα": {
+  "Περσέα": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -23510,7 +23511,7 @@
       }
     }
   },
-  "Περσέπολις": {
+  "Περσέπολις": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -23562,7 +23563,7 @@
       }
     }
   },
-  "Περσική": {
+  "Περσική": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -24947,7 +24948,7 @@
       }
     }
   },
-  "Πικράν": {
+  "Πικράν": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -29496,18 +29497,6 @@
       }
     }
   },
-  "πλημμύρα": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "indices": { "strongs": "G4132" },
-    "inflections": {
-      "πλημμύρας": {
-        "transliteration": "plēmmýras",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      }
-    }
-  },
   "πλήμμυρα": {
     "language": "greek",
     "pos": "noun",
@@ -29518,8 +29507,14 @@
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
+      },
+      "πλημμύρας": {
+        "transliteration": "plēmmýras",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
-    }
+    },
+    "gender": "fem",
+    "indices": { "strongs": "G4132" }
   },
   "πλήν": {
     "language": "greek",
@@ -35712,19 +35707,28 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
-    "indices": { "strongs": "G4195" },
     "inflections": {
-      "πόντον": {
-        "transliteration": "pónton",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
-      "πόντου": {
-        "transliteration": "póntou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      },
       "πόντῳ": {
         "transliteration": "póntō",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      }
+    }
+  },
+  "Πόντος": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "Pontus",
+    "indices": { "strongs": "G4195" },
+    "inflections": {
+      "Πόντον": {
+        "transliteration": "Pónton",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "Πόντου": {
+        "transliteration": "Póntou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -37041,7 +37045,7 @@
       }
     }
   },
-  "Ποσιδώνιος": {
+  "Ποσιδώνιος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -37249,24 +37253,17 @@
       }
     }
   },
-  "ποτε": {
-    "language": "greek",
-    "pos": "prt",
-    "shortDefinition": "once",
-    "indices": { "strongs": "G4218" },
-    "inflections": {
-      "ποτε": { "transliteration": "pote", "cells": [{ "parse": ["prt"] }] },
-      "ποτέ": { "transliteration": "poté", "cells": [{ "parse": ["prt"] }] }
-    }
-  },
   "ποτέ": {
     "language": "greek",
     "pos": "prt",
     "shortDefinition": "at some time, once, ever",
     "inflections": {
       "ποτ": { "transliteration": "pot", "cells": [{ "parse": ["prt"] }] },
-      "ποτ’": { "transliteration": "pot’", "cells": [{ "parse": ["prt"] }] }
-    }
+      "ποτ’": { "transliteration": "pot’", "cells": [{ "parse": ["prt"] }] },
+      "ποτε": { "transliteration": "pote", "cells": [{ "parse": ["prt"] }] },
+      "ποτέ": { "transliteration": "poté", "cells": [{ "parse": ["prt"] }] }
+    },
+    "indices": { "strongs": "G4218" }
   },
   "πότε": {
     "language": "greek",

@@ -213,8 +213,8 @@
         "text": " Αυλων",
         "script": "G",
         "transliteration": " Aulōn",
-        "morph": "N-PRI",
-        "lemma": "Αυλων"
+        "morph": "N-NSM",
+        "lemma": "αὐλών"
       },
       {
         "text": " καὶ",
@@ -1103,7 +1103,7 @@
         "script": "G",
         "transliteration": " Araba",
         "morph": "N-PRI",
-        "lemma": "Ἀραβά"
+        "lemma": "Ἀραβά"
       },
       {
         "text": " εἰς",
@@ -8071,7 +8071,7 @@
         "transliteration": " potè",
         "strong": "G4218",
         "morph": "PRT",
-        "lemma": "ποτε"
+        "lemma": "ποτέ"
       },
       {
         "text": " ἡμέρας",
@@ -9423,7 +9423,7 @@
         "script": "G",
         "transliteration": " Araba",
         "morph": "N-PRI",
-        "lemma": "Ἀραβά"
+        "lemma": "Ἀραβά"
       },
       {
         "text": " ἀπὸ",
@@ -12017,7 +12017,7 @@
         "transliteration": " Gázēs,",
         "strong": "G1047",
         "morph": "N-GSF",
-        "lemma": "γάζα"
+        "lemma": "Γάζα"
       },
       {
         "text": " καὶ",
@@ -12040,7 +12040,7 @@
         "script": "G",
         "transliteration": " Kappádokes",
         "morph": "N-PRI",
-        "lemma": "Καππάδοκες"
+        "lemma": "Καππάδοκες"
       },
       {
         "text": " οἱ",
@@ -14600,7 +14600,7 @@
         "script": "G",
         "transliteration": " Galaad",
         "morph": "N-PRI",
-        "lemma": "Γαλαάδ"
+        "lemma": "Γαλαάδ"
       },
       {
         "text": " οὐκ",
@@ -16566,7 +16566,7 @@
         "script": "G",
         "transliteration": " Phoínikes",
         "morph": "N-PRI",
-        "lemma": "Φοίνικες"
+        "lemma": "Φοίνικες"
       },
       {
         "text": " ἐπονομάζουσιν",
@@ -16695,7 +16695,7 @@
         "script": "G",
         "transliteration": " Galaad",
         "morph": "N-PRI",
-        "lemma": "Γαλαάδ"
+        "lemma": "Γαλαάδ"
       },
       {
         "text": " καὶ",
@@ -17287,7 +17287,7 @@
         "script": "G",
         "transliteration": " Galaad",
         "morph": "N-PRI",
-        "lemma": "Γαλαάδ"
+        "lemma": "Γαλαάδ"
       },
       {
         "text": " καὶ",
@@ -17412,7 +17412,7 @@
         "script": "G",
         "transliteration": " Galaad",
         "morph": "N-PRI",
-        "lemma": "Γαλαάδ"
+        "lemma": "Γαλαάδ"
       },
       {
         "text": " καὶ",
@@ -17868,7 +17868,7 @@
         "script": "G",
         "transliteration": " Galaad.",
         "morph": "N-PRI",
-        "lemma": "Γαλαάδ"
+        "lemma": "Γαλαάδ"
       }
     ]
   },
@@ -17953,7 +17953,7 @@
         "script": "G",
         "transliteration": " Galaad",
         "morph": "N-PRI",
-        "lemma": "Γαλαάδ"
+        "lemma": "Γαλαάδ"
       },
       {
         "text": " ἕως",
@@ -18116,7 +18116,7 @@
         "script": "G",
         "transliteration": " Araba",
         "morph": "N-NSF",
-        "lemma": "Ἀραβά"
+        "lemma": "Ἀραβά"
       },
       {
         "text": " καὶ",
@@ -18186,7 +18186,7 @@
         "script": "G",
         "transliteration": " Araba,",
         "morph": "N-PRI",
-        "lemma": "Ἀραβά"
+        "lemma": "Ἀραβά"
       },
       {
         "text": " θαλάσσης",
@@ -29941,7 +29941,7 @@
         "script": "G",
         "transliteration": " Galaad",
         "morph": "N-PRI",
-        "lemma": "Γαλαάδ"
+        "lemma": "Γαλαάδ"
       },
       {
         "text": " τῷ",
@@ -30912,7 +30912,7 @@
         "script": "G",
         "transliteration": " Araba",
         "morph": "N-PRI",
-        "lemma": "Ἀραβά"
+        "lemma": "Ἀραβά"
       },
       {
         "text": " πέραν",
@@ -35635,8 +35635,9 @@
         "text": " ἀποθανούμεθα.",
         "script": "G",
         "transliteration": " apothanoúmetha.",
+        "strong": "G599",
         "morph": "V-FMI-1P",
-        "lemma": "ἀποθνήσκω"
+        "lemma": "ἀποθνῄσκω"
       }
     ]
   },
@@ -39450,6 +39451,7 @@
         "text": " ἐλαιῶνας,",
         "script": "G",
         "transliteration": " elaiō̂nas,",
+        "strong": "G1638",
         "morph": "N-APM",
         "lemma": "ἐλαιών"
       },
@@ -49161,7 +49163,7 @@
         "script": "G",
         "transliteration": " rhóai,",
         "morph": "N-NPF",
-        "lemma": "ῥοά"
+        "lemma": "ῥόα"
       },
       {
         "text": " γῆ",
@@ -74356,7 +74358,7 @@
         "transliteration": " dorkàs",
         "strong": "G1393",
         "morph": "N-NSF",
-        "lemma": "Δορκάς"
+        "lemma": "δορκάς"
       },
       {
         "text": " καὶ",
@@ -105894,8 +105896,9 @@
         "text": " ἀπεθάνῃ,",
         "script": "G",
         "transliteration": " apethánē,",
+        "strong": "G599",
         "morph": "V-2AAS-3S",
-        "lemma": "ἀποθνήσκω"
+        "lemma": "ἀποθνῄσκω"
       },
       {
         "text": " καὶ",
@@ -111705,7 +111708,7 @@
         "script": "G",
         "transliteration": " cháraka?",
         "morph": "N-PRI",
-        "lemma": "Χάρακα"
+        "lemma": "Χάρακα"
       }
     ]
   },
@@ -140933,7 +140936,7 @@
         "script": "G",
         "transliteration": " Issachar,",
         "morph": "N-PRI",
-        "lemma": "Ἰσσαχάρ"
+        "lemma": "Ἰσσαχάρ"
       },
       {
         "text": " Ιωσηφ",
@@ -170981,7 +170984,7 @@
         "transliteration": " stŷlos",
         "strong": "G4769",
         "morph": "N-NSM",
-        "lemma": "στύλος"
+        "lemma": "στῦλος"
       },
       {
         "text": " τῆς",
@@ -183758,8 +183761,9 @@
         "text": " ἀποθανέτω",
         "script": "G",
         "transliteration": " apothanétō",
+        "strong": "G599",
         "morph": "V-2AAM-3S",
-        "lemma": "ἀποθνήσκω"
+        "lemma": "ἀποθνῄσκω"
       },
       {
         "text": " καὶ",
@@ -183830,7 +183834,7 @@
         "script": "G",
         "transliteration": " Iouda",
         "morph": "N-PRI",
-        "lemma": "Ἰουδά"
+        "lemma": "Ἰουδά"
       },
       {
         "text": " Εἰσάκουσον,",
@@ -183861,7 +183865,7 @@
         "script": "G",
         "transliteration": " Iouda,",
         "morph": "N-PRI",
-        "lemma": "Ἰουδά"
+        "lemma": "Ἰουδά"
       },
       {
         "text": " καὶ",
@@ -184767,7 +184771,7 @@
         "transliteration": " osphỳn",
         "strong": "G3751",
         "morph": "N-ASF",
-        "lemma": "ὀσφῦς"
+        "lemma": "ὀσφύς"
       },
       {
         "text": " ἐχθρῶν",
@@ -185873,7 +185877,7 @@
         "script": "G",
         "transliteration": " Issachar,",
         "morph": "N-PRI",
-        "lemma": "Ἰσσαχάρ"
+        "lemma": "Ἰσσαχάρ"
       },
       {
         "text": " ἐν",
@@ -187632,7 +187636,7 @@
         "script": "G",
         "transliteration": " Arabōth",
         "morph": "N-PRI",
-        "lemma": "Ἀραβώθ"
+        "lemma": "Ἀραβώθ"
       },
       {
         "text": " Μωαβ",
@@ -187794,7 +187798,7 @@
         "script": "G",
         "transliteration": " Galaad",
         "morph": "N-PRI",
-        "lemma": "Γαλαάδ"
+        "lemma": "Γαλαάδ"
       },
       {
         "text": " ἕως",
@@ -187951,7 +187955,7 @@
         "script": "G",
         "transliteration": " Iouda",
         "morph": "N-PRI",
-        "lemma": "Ἰουδά"
+        "lemma": "Ἰουδά"
       },
       {
         "text": " ἕως",
@@ -188864,7 +188868,7 @@
         "script": "G",
         "transliteration": " Arabōth",
         "morph": "N-PRI",
-        "lemma": "Ἀραβώθ"
+        "lemma": "Ἀραβώθ"
       },
       {
         "text": " Μωαβ",

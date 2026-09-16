@@ -48,7 +48,7 @@
       }
     }
   },
-  "Κααθίτης": {
+  "Κααθίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -235,7 +235,7 @@
       }
     }
   },
-  "Καδμίηλος": {
+  "Καδμίηλος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -5841,7 +5841,7 @@
       }
     }
   },
-  "Καλλισθένης": {
+  "Καλλισθένης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7282,7 +7282,7 @@
       }
     }
   },
-  "Καππάδοκες": {
+  "Καππάδοκες": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7468,7 +7468,7 @@
       }
     }
   },
-  "Καρία": {
+  "Καρία": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7602,7 +7602,7 @@
       }
     }
   },
-  "Καρμηλία": {
+  "Καρμηλία": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7613,7 +7613,7 @@
       }
     }
   },
-  "Καρμήλιας": {
+  "Καρμήλιας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7658,7 +7658,7 @@
       }
     }
   },
-  "Κάρμηλον": {
+  "Κάρμηλον": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -8308,7 +8308,7 @@
       }
     }
   },
-  "Καρχηδόνιοι": {
+  "Καρχηδόνιοι": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -24643,19 +24643,6 @@
       }
     }
   },
-  "Κατόρθωσις": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "Κατόρθωσις": {
-        "transliteration": "Katórthōsis",
-        "cells": [
-          { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "κατορύσσω": {
     "language": "greek",
     "pos": "verb",
@@ -28704,6 +28691,7 @@
   "Κιτιεῖς": {
     "language": "greek",
     "pos": "noun",
+    "declension": "3m-eus",
     "inflections": {
       "Κιτιεῖς": {
         "transliteration": "Kitieîs",
@@ -28719,7 +28707,7 @@
     },
     "gender": "masc"
   },
-  "Κίτιοι": {
+  "Κίτιοι": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -28730,7 +28718,7 @@
       }
     }
   },
-  "Κίτιος": {
+  "Κίτιος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -31970,7 +31958,7 @@
       }
     }
   },
-  "Κόιντος": {
+  "Κόιντος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -33459,7 +33447,7 @@
       }
     }
   },
-  "Κονιορτόν": {
+  "Κονιορτόν": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -34531,7 +34519,7 @@
       }
     }
   },
-  "Κορίτη": {
+  "Κορίτη": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -34542,7 +34530,7 @@
       }
     }
   },
-  "Κορίτης": {
+  "Κορίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -36412,7 +36400,7 @@
     },
     "gender": "masc"
   },
-  "Κράτης": {
+  "Κράτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -39820,7 +39808,7 @@
       }
     }
   },
-  "Κυαμών": {
+  "Κυαμών": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -40870,7 +40858,7 @@
       }
     }
   },
-  "Κυπριάρχης": {
+  "Κυπριάρχης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -40948,6 +40936,10 @@
           { "parse": ["noun", "voc", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
+      },
+      "κύπρου": {
+        "transliteration": "kýprou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -42207,18 +42199,12 @@
   "Κώς": {
     "language": "greek",
     "pos": "noun",
-    "declension": "3f-os",
+    "gender": "masc",
+    "declension": "indeclinable",
     "inflections": {
-      "Κῶ": {
-        "transliteration": "Kō̂",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      },
       "Κως": {
         "transliteration": "Kōs",
-        "cells": [
-          { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
       }
     }
   },

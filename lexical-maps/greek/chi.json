@@ -115,7 +115,7 @@
       }
     }
   },
-  "Χαδιάσαι": {
+  "Χαδιάσαι": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -589,7 +589,7 @@
       }
     }
   },
-  "Χαλδαία": {
+  "Χαλδαία": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -1421,7 +1421,7 @@
       }
     }
   },
-  "Χανανίτης": {
+  "Χανανίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -1596,7 +1596,7 @@
       }
     }
   },
-  "Χάρακα": {
+  "Χάρακα": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -3416,7 +3416,7 @@
       }
     }
   },
-  "Χελκείας": {
+  "Χελκείας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -3505,7 +3505,7 @@
       }
     }
   },
-  "Χελούς": {
+  "Χελούς": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -5171,7 +5171,7 @@
       }
     }
   },
-  "Χορβέ": {
+  "Χορβέ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -6960,13 +6960,11 @@
       }
     }
   },
-  "χρίσμα": {
+  "χρῖσμα": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
-    "shortDefinition": "an anointing; fig. an appointment, delegation",
-    "indices": { "strongs": "G5545" },
     "inflections": {
       "χρίσμα": {
         "transliteration": "chrísma",
@@ -6983,20 +6981,14 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
-      }
-    }
-  },
-  "χρῖσμα": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "3n-ma",
-    "inflections": {
+      },
       "χρίσματος": {
         "transliteration": "chrísmatos",
         "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
-    }
+    },
+    "shortDefinition": "an anointing; fig. an appointment, delegation",
+    "indices": { "strongs": "G5545" }
   },
   "Χριστιανός": {
     "language": "greek",
@@ -7025,45 +7017,37 @@
     "gender": "masc",
     "declension": "2m",
     "inflections": {
+      "χριστέ": {
+        "transliteration": "christé",
+        "cells": [{ "parse": ["noun", "voc", "sg", "masc"] }]
+      },
+      "χριστόν": {
+        "transliteration": "christón",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "χριστός": {
+        "transliteration": "christós",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "χριστοῦ": {
+        "transliteration": "christoû",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      },
       "χριστούς": {
         "transliteration": "christoús",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      },
+      "χριστῷ": {
+        "transliteration": "christō̂",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "χριστῶν": {
         "transliteration": "christō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
-    }
-  },
-  "Χριστός": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    },
     "shortDefinition": "the Christ; lit. an anointed person/thing; fig. an appointed person/thing",
-    "indices": { "strongs": "G5547" },
-    "inflections": {
-      "Χριστέ": {
-        "transliteration": "Christé",
-        "cells": [{ "parse": ["noun", "voc", "sg", "masc"] }]
-      },
-      "Χριστόν": {
-        "transliteration": "Christón",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
-      "Χριστός": {
-        "transliteration": "Christós",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      },
-      "Χριστοῦ": {
-        "transliteration": "Christoû",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      },
-      "Χριστῷ": {
-        "transliteration": "Christō̂",
-        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
-      }
-    }
+    "indices": { "strongs": "G5547" }
   },
   "χρίω": {
     "language": "greek",
@@ -7927,6 +7911,7 @@
   "χυτός": {
     "language": "greek",
     "pos": "adj",
+    "declension": "2-1-2",
     "inflections": {
       "χυτήν": {
         "transliteration": "chytḗn",
@@ -7934,10 +7919,7 @@
       },
       "χυτός": {
         "transliteration": "chytós",
-        "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
       }
     }
   },

@@ -186,6 +186,17 @@ function auditRoot(
     at(`pos "${entry.pos}" is not a part of speech the registry defines`);
   }
 
+  // A root key is an identifier: a corpus names it, a script matches it, and a
+  // reader types it. Two spellings of one identifier is one identifier too
+  // many. 258 keys were stored with the oxia code points rather than the tonos
+  // ones NFC produces, which nothing caught because {@link codexLookup}
+  // decomposes and recomposes on the way in and normalizes the difference away
+  // for free. It stops being free the moment anything compares a key to a
+  // literal: a script written to move `Δαβίδ` reported the root as absent.
+  if (root !== root.normalize("NFC")) {
+    at(`root key is not NFC, so a literal written elsewhere will not match it`);
+  }
+
   // A lexical fact has to belong to the part of speech that can have it, and
   // agree with the root's own cells. A root stating one gender while its cells
   // state another is the kind of error that makes a generated paradigm wrong
@@ -196,6 +207,23 @@ function auditRoot(
   }
   if (entry.deponent !== undefined && entry.pos !== "verb") {
     at(`deponent on a ${entry.pos}, which cannot be one`);
+  }
+
+  // The initial capital on a root key is the map saying the word is a proper
+  // name, and that is the only thing it can mean. A capital that belongs to
+  // the sentence rather than the word is never stored, because `codexLookup`
+  // folds it away on the way in, so a capital that is stored is a claim. A
+  // verb is not a name, and a word the map holds as `indecl-proper` is not a
+  // common noun, so the two have to agree with each other.
+  const capitalised = /^\p{Lu}/u.test(root.normalize("NFD"));
+  if (capitalised && !["noun", "adj", "adv"].includes(entry.pos)) {
+    at(`root key is capitalised, which says proper name, on a ${entry.pos}`);
+  }
+  if (!capitalised) {
+    const proper = Object.values<any>(entry.inflections ?? {}).some((inflection) =>
+      (inflection.cells ?? []).some((cell: any) => (cell.parse ?? []).includes("indecl-proper"))
+    );
+    if (proper) at(`root key is lowercase, which says common word, but a cell says indecl-proper`);
   }
 
   // An inflection class has to exist, belong to the category the field names,
@@ -241,6 +269,21 @@ function auditRoot(
     const first = byLookup.get(lookup);
     if (first === undefined) byLookup.set(lookup, spelling);
     else at(`spelling "${spelling}" and "${first}" are one key: they differ only in case or in a grave for an acute`, spelling);
+
+    // Case is a fact about the word, so it belongs to the root and every
+    // spelling under it carries the root's. A spelling written in the other
+    // case is storing the page's typography, which the fold above already
+    // handles, and it makes the root contradict itself about whether the word
+    // is a name. `Ἰσραηλίτης` held `ισραηλίτην` because Rahlfs prints it
+    // lowercase.
+    if (/^\p{Lu}/u.test(spelling.normalize("NFD")) !== capitalised) {
+      at(
+        capitalised
+          ? `spelling "${spelling}" is lowercase under a capitalised root`
+          : `spelling "${spelling}" is capitalised under a lowercase root`,
+        spelling
+      );
+    }
   }
 
   for (const [spelling, inflection] of Object.entries<any>(entry.inflections ?? {})) {

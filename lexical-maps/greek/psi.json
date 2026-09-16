@@ -1696,12 +1696,9 @@
       }
     }
   },
-  "ψύχος": {
+  "ψῦχος": {
     "language": "greek",
     "pos": "noun",
-    "gender": "neut",
-    "declension": "3n-es",
-    "indices": { "strongs": "G5592" },
     "inflections": {
       "ψύχει": {
         "transliteration": "psýchei",
@@ -1722,13 +1719,7 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
-      }
-    }
-  },
-  "ψῦχος": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
+      },
       "ψύχους": {
         "transliteration": "psýchous",
         "cells": [
@@ -1737,7 +1728,10 @@
           { "parse": ["noun", "gen", "sg", "neut"] }
         ]
       }
-    }
+    },
+    "gender": "neut",
+    "declension": "3n-es",
+    "indices": { "strongs": "G5592" }
   },
   "ψυχουλκέομαι": {
     "language": "greek",

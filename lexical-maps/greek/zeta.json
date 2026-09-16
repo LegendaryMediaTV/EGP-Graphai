@@ -228,7 +228,7 @@
       }
     }
   },
-  "Ζαβουλωνίτης": {
+  "Ζαβουλωνίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -606,7 +606,7 @@
       }
     }
   },
-  "Ζατόν": {
+  "Ζατόν": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -2944,11 +2944,12 @@
       }
     }
   },
-  "ζωογονέω": {
+  "ζῳογονέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "stems": { "plup": "εζωογονη" },
+    "stems": { "fut": "ζωογονη" },
+    "indices": { "strongs": "G2225" },
     "inflections": {
       "ἐζωογόνει": {
         "transliteration": "ezōogónei",
@@ -2990,12 +2991,24 @@
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
         ]
       },
+      "ζῳογονεῖσθαι": {
+        "transliteration": "zōogoneîsthai",
+        "cells": [{ "parse": ["verb", "pres", "pas", "inf"] }]
+      },
       "ζωογονεῖτε": {
         "transliteration": "zōogoneîte",
         "cells": [
           { "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }
         ]
+      },
+      "ζωογονήσει": {
+        "transliteration": "zōogonḗsei",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ζῳογονήσει": {
+        "transliteration": "zōogonḗsei",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "ζωογονήσωσιν": {
         "transliteration": "zōogonḗsōsin",
@@ -3008,27 +3021,6 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"] }
         ]
-      }
-    }
-  },
-  "ζῳογονέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "stems": { "fut": "ζωογονη" },
-    "indices": { "strongs": "G2225" },
-    "inflections": {
-      "ζῳογονεῖσθαι": {
-        "transliteration": "zōogoneîsthai",
-        "cells": [{ "parse": ["verb", "pres", "pas", "inf"] }]
-      },
-      "ζωογονήσει": {
-        "transliteration": "zōogonḗsei",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ζῳογονήσει": {
-        "transliteration": "zōogonḗsei",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -3090,10 +3082,13 @@
       }
     }
   },
-  "ζωοποιέω": {
+  "ζῳοποιέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "stems": { "fut": "ζωοποιη" },
+    "shortDefinition": "to make alive, give life",
+    "indices": { "strongs": "G2227" },
     "inflections": {
       "ἐζωοποίησαν": {
         "transliteration": "ezōopoíēsan",
@@ -3103,27 +3098,13 @@
         "transliteration": "ezōopoíēsás",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
-      "ζωοποιεῖς": {
-        "transliteration": "zōopoieîs",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
-      },
-      "ζωοποίησιν": {
-        "transliteration": "zōopoíēsin",
-        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
-      }
-    }
-  },
-  "ζῳοποιέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "stems": { "fut": "ζωοποιη" },
-    "shortDefinition": "to make alive, give life",
-    "indices": { "strongs": "G2227" },
-    "inflections": {
       "ζῳοποιεῖ": {
         "transliteration": "zōopoieî",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ζωοποιεῖς": {
+        "transliteration": "zōopoieîs",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
       },
       "ζῳοποιεῖται": {
         "transliteration": "zōopoieîtai",
@@ -3154,6 +3135,10 @@
       "ζῳοποιήσει": {
         "transliteration": "zōopoiḗsei",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ζωοποίησιν": {
+        "transliteration": "zōopoíēsin",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
       "ζῳοποιοῦν": {
         "transliteration": "zōopoioûn",

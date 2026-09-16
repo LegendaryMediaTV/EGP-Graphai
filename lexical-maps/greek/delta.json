@@ -33,18 +33,6 @@
       }
     }
   },
-  "Δαβίδ": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "David",
-    "inflections": {
-      "Δαυιδ": {
-        "transliteration": "Dauid",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Δαβιρ": {
     "language": "greek",
     "pos": "noun",
@@ -1023,6 +1011,7 @@
     "language": "greek",
     "pos": "adj",
     "indices": { "strongs": "G1153" },
+    "declension": "2-1-2",
     "inflections": {
       "Δαμασκηνῆς": {
         "transliteration": "Damaskēnē̂s",
@@ -1675,13 +1664,17 @@
     "shortDefinition": "David; lit. Loving",
     "indices": { "strongs": "G1138" },
     "inflections": {
+      "Δαυιδ": {
+        "transliteration": "Dauid",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
       "Δαυίδ": {
         "transliteration": "Dauíd",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
-  "Δάφνη": {
+  "Δάφνη": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -4568,16 +4561,9 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
-      }
-    }
-  },
-  "Δευτερονόμιον": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "2n",
-    "inflections": {
-      "Δευτερονομίῳ": {
-        "transliteration": "Deuteronomíō",
+      },
+      "δευτερονομίῳ": {
+        "transliteration": "deuteronomíō",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       }
     }
@@ -5893,7 +5879,7 @@
       }
     }
   },
-  "Δημοφών": {
+  "Δημοφών": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -8421,21 +8407,6 @@
       "διακοπῆς": {
         "transliteration": "diakopē̂s",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      }
-    }
-  },
-  "Διακοπή": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "1f-e",
-    "inflections": {
-      "Διακοπή": {
-        "transliteration": "Diakopḗ",
-        "cells": [
-          { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
       }
     }
   },
@@ -13617,11 +13588,11 @@
       }
     }
   },
-  "διασώζω": {
+  "διασῴζω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "stems": { "fut": "διασω", "aor": "διαεσω", "perf": "διασεσω" },
+    "indices": { "strongs": "G1295" },
     "inflections": {
       "διασέσῳσμαι": {
         "transliteration": "diasésōsmai",
@@ -13771,6 +13742,19 @@
           { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "masc"] }
         ]
       },
+      "διασωθέντα": {
+        "transliteration": "diasōthénta",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "masc"] }
+        ]
+      },
+      "διασωθέντες": {
+        "transliteration": "diasōthéntes",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
       "διασωθέντι": {
         "transliteration": "diasōthénti",
         "cells": [
@@ -13781,6 +13765,10 @@
       "διασωθῇ": {
         "transliteration": "diasōthē̂",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
+      },
+      "διασωθῆναι": {
+        "transliteration": "diasōthē̂nai",
+        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
       },
       "διασωθῇς": {
         "transliteration": "diasōthē̂s",
@@ -13817,6 +13805,14 @@
         "transliteration": "diasōthō̂sin",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
       },
+      "διασώσαι": {
+        "transliteration": "diasṓsai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+      },
+      "διασῶσαι": {
+        "transliteration": "diasō̂sai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+      },
       "διασώσαντι": {
         "transliteration": "diasṓsanti",
         "cells": [
@@ -13835,12 +13831,23 @@
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
+      "διασώσῃ": {
+        "transliteration": "diasṓsē",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
+        ]
+      },
       "διασώσω": {
         "transliteration": "diasṓsō",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
+      },
+      "διασώσωσιν": {
+        "transliteration": "diasṓsōsin",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
       "διεσῴζοντο": {
         "transliteration": "diesṓzonto",
@@ -13862,6 +13869,10 @@
         "transliteration": "diesṓthēn",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] }]
       },
+      "διεσώθησαν": {
+        "transliteration": "diesṓthēsan",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
+      },
       "διέσωσα": {
         "transliteration": "diésōsa",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
@@ -13873,54 +13884,6 @@
       "διέσωσέν": {
         "transliteration": "diésōsén",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      }
-    }
-  },
-  "διασῴζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "indices": { "strongs": "G1295" },
-    "inflections": {
-      "διασωθέντα": {
-        "transliteration": "diasōthénta",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "masc"] }
-        ]
-      },
-      "διασωθέντες": {
-        "transliteration": "diasōthéntes",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
-        ]
-      },
-      "διασωθῆναι": {
-        "transliteration": "diasōthē̂nai",
-        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
-      },
-      "διασώσαι": {
-        "transliteration": "diasṓsai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
-      },
-      "διασῶσαι": {
-        "transliteration": "diasō̂sai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
-      },
-      "διασώσῃ": {
-        "transliteration": "diasṓsē",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "διασώσωσιν": {
-        "transliteration": "diasṓsōsin",
-        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
-      },
-      "διεσώθησαν": {
-        "transliteration": "diesṓthēsan",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -20601,7 +20564,7 @@
       "διόλου": { "transliteration": "diólou", "cells": [{ "parse": ["adv"] }] }
     }
   },
-  "Διονύσια": {
+  "Διονύσια": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -20900,7 +20863,7 @@
       }
     }
   },
-  "Διόσπολις": {
+  "Διόσπολις": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -23704,6 +23667,10 @@
       "δορκάδων": {
         "transliteration": "dorkádōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+      },
+      "δορκάς": {
+        "transliteration": "dorkás",
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -23782,7 +23749,7 @@
       }
     }
   },
-  "Δορυμένης": {
+  "Δορυμένης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -24745,7 +24712,7 @@
       }
     }
   },
-  "Δρίμυλος": {
+  "Δρίμυλος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -26695,7 +26662,7 @@
       }
     }
   },
-  "Δύστρος": {
+  "Δύστρος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -27396,7 +27363,7 @@
       }
     }
   },
-  "Δωσίθεος": {
+  "Δωσίθεος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",

@@ -518,7 +518,7 @@
       }
     }
   },
-  "Λακαιδαιμόνιοι": {
+  "Λακαιδαιμόνιοι": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -2566,7 +2566,7 @@
       }
     }
   },
-  "Λασθενής": {
+  "Λασθενής": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -4223,6 +4223,10 @@
       "Λειαν": {
         "transliteration": "Leian",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "Λειας": {
+        "transliteration": "Leias",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -5312,7 +5316,7 @@
       }
     }
   },
-  "Λεύκιος": {
+  "Λεύκιος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -5862,6 +5866,10 @@
     "gender": "masc",
     "declension": "2m",
     "inflections": {
+      "Λίβανον": {
+        "transliteration": "Líbanon",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
       "Λίβανος": {
         "transliteration": "Líbanos",
         "cells": [
@@ -5927,7 +5935,7 @@
       }
     }
   },
-  "Λίβευς": {
+  "Λίβευς": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -8614,7 +8622,7 @@
       }
     }
   },
-  "Λυδοί": {
+  "Λυδοί": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -8625,7 +8633,7 @@
       }
     }
   },
-  "Λυδός": {
+  "Λυδός": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",

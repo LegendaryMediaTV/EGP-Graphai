@@ -1062,7 +1062,7 @@
       }
     }
   },
-  "Ὀζείας": {
+  "Ὀζείας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -5753,7 +5753,7 @@
       }
     }
   },
-  "Ὀλύμπιος": {
+  "Ὀλύμπιος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7292,7 +7292,7 @@
       }
     }
   },
-  "Ὀνείας": {
+  "Ὀνείας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -11359,7 +11359,7 @@
       "ὀρθῶς": { "transliteration": "orthō̂s", "cells": [{ "parse": ["adv"] }] }
     }
   },
-  "Ὀρθωσία": {
+  "Ὀρθωσία": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -13269,19 +13269,6 @@
         "transliteration": "osphḗn",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
-      "ὀσφύς": {
-        "transliteration": "osphýs",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
-      }
-    }
-  },
-  "ὀσφῦς": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "3-us",
-    "indices": { "strongs": "G3751" },
-    "inflections": {
       "ὀσφύας": {
         "transliteration": "osphýas",
         "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
@@ -13308,8 +13295,13 @@
       "ὀσφύος": {
         "transliteration": "osphýos",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      },
+      "ὀσφύς": {
+        "transliteration": "osphýs",
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
-    }
+    },
+    "indices": { "strongs": "G3751" }
   },
   "ὅταν": {
     "language": "greek",
@@ -15133,18 +15125,6 @@
       }
     }
   },
-  "ὀφρύς": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "3-us",
-    "inflections": {
-      "ὀφρύας": {
-        "transliteration": "ophrýas",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
-      }
-    },
-    "gender": "fem"
-  },
   "ὀφρῦς": {
     "language": "greek",
     "pos": "noun",
@@ -15152,6 +15132,10 @@
     "declension": "3-us",
     "indices": { "strongs": "G3790" },
     "inflections": {
+      "ὀφρύας": {
+        "transliteration": "ophrýas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+      },
       "ὀφρύος": {
         "transliteration": "ophrýos",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]

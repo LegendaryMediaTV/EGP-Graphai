@@ -52,7 +52,7 @@
       }
     }
   },
-  "Ἀαρωνίδης": {
+  "Ἀαρωνίδης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -332,6 +332,18 @@
       }
     }
   },
+  "Αββα": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "indeclinable",
+    "inflections": {
+      "Αββα": {
+        "transliteration": "Abba",
+        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+      }
+    }
+  },
   "ἀββᾶ": {
     "language": "greek",
     "pos": "noun",
@@ -339,13 +351,9 @@
     "shortDefinition": "a papa, daddy",
     "indices": { "strongs": "G5" },
     "inflections": {
-      "αββα": {
-        "transliteration": "abba",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      },
       "ἀββᾶ": {
         "transliteration": "abbâ",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -1161,7 +1169,7 @@
       }
     }
   },
-  "Ἀβούβος": {
+  "Ἀβούβος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -1266,7 +1274,7 @@
       }
     }
   },
-  "Ἀβρααμίτις": {
+  "Ἀβρααμίτις": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -2954,7 +2962,7 @@
       }
     }
   },
-  "Αγαρίτης": {
+  "Αγαρίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -8921,7 +8929,7 @@
     },
     "gender": "masc"
   },
-  "Ἀδωναί": {
+  "Ἀδωναί": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -8932,7 +8940,7 @@
       }
     }
   },
-  "Ἀδωναϊέ": {
+  "Ἀδωναϊέ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -9462,7 +9470,7 @@
       }
     }
   },
-  "Αζητάς": {
+  "Αζητάς": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -9555,7 +9563,7 @@
       }
     }
   },
-  "Αζουρού": {
+  "Αζουρού": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -9648,7 +9656,7 @@
       }
     }
   },
-  "Ἀζωτία": {
+  "Ἀζωτία": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -9682,7 +9690,7 @@
       }
     }
   },
-  "Ἀζωτιστί": {
+  "Ἀζωτιστί": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -11560,7 +11568,7 @@
       }
     }
   },
-  "Αιλαμείτης": {
+  "Αιλαμείτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -11572,7 +11580,7 @@
       }
     }
   },
-  "Αἰλαμίτης": {
+  "Αἰλαμίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -15867,7 +15875,7 @@
       }
     }
   },
-  "Ακκαρωνίτης": {
+  "Ακκαρωνίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -17368,7 +17376,7 @@
       }
     }
   },
-  "Ακραβαττήνη": {
+  "Ακραβαττήνη": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -18949,7 +18957,7 @@
       }
     }
   },
-  "Ἀλεξάνδρεια": {
+  "Ἀλεξάνδρεια": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -18971,8 +18979,8 @@
         "transliteration": "Alexandreús",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
-      "ἀλεξανδρεῦσιν": {
-        "transliteration": "alexandreûsin",
+      "Ἀλεξανδρεῦσιν": {
+        "transliteration": "Alexandreûsin",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "Ἀλεξανδρέων": {
@@ -19518,7 +19526,7 @@
       }
     }
   },
-  "Ἁλικαρνασσός": {
+  "Ἁλικαρνασσός": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -22052,7 +22060,7 @@
       }
     }
   },
-  "Αμαληκίτος": {
+  "Αμαληκίτος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -22063,7 +22071,7 @@
       }
     }
   },
-  "Ἀμάλθεια": {
+  "Ἀμάλθεια": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -22085,7 +22093,7 @@
       }
     }
   },
-  "Ἁμάν": {
+  "Ἁμάν": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -22096,7 +22104,7 @@
       }
     }
   },
-  "Αμάνιτος": {
+  "Αμάνιτος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -23888,7 +23896,7 @@
       }
     }
   },
-  "Αμμανίτην": {
+  "Αμμανίτην": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -24322,7 +24330,7 @@
       }
     }
   },
-  "Ἀμορραία": {
+  "Ἀμορραία": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -28180,7 +28188,7 @@
       }
     }
   },
-  "Αναθωθίτης": {
+  "Αναθωθίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -30398,12 +30406,24 @@
       }
     }
   },
-  "ἀναμιμνήσκω": {
+  "ἀναμιμνῄσκω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "stems": { "fut": "αναμνησ", "perf": "αναμνη", "aor": "αναμνη" },
+    "deponent": true,
+    "stems": { "fut": "αναμνη" },
+    "indices": { "strongs": "G363" },
     "inflections": {
+      "ἀναμιμνῄσκεσθε": {
+        "transliteration": "anamimnḗskesthe",
+        "cells": [{ "parse": ["verb", "pres", "mid", "imp", "pers-2", "pl"] }]
+      },
+      "ἀναμιμνῃσκομένου": {
+        "transliteration": "anamimnēskoménou",
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "ptc", "gen", "sg", "masc"] }
+        ]
+      },
       "ἀναμιμνήσκουσα": {
         "transliteration": "anamimnḗskousa",
         "cells": [
@@ -30416,6 +30436,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
         ]
+      },
+      "ἀναμιμνῄσκω": {
+        "transliteration": "anamimnḗskō",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
       },
       "ἀναμιμνῄσκων": {
         "transliteration": "anamimnḗskōn",
@@ -30438,9 +30462,19 @@
         "transliteration": "anamnḗsate",
         "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] }]
       },
+      "ἀναμνήσει": {
+        "transliteration": "anamnḗsei",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἀναμνησθείη": {
         "transliteration": "anamnēstheíē",
         "cells": [{ "parse": ["verb", "aor", "pas", "opt", "pers-3", "sg"] }]
+      },
+      "ἀναμνησθείς": {
+        "transliteration": "anamnēstheís",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"] }
+        ]
       },
       "ἀναμνησθήσεσθε": {
         "transliteration": "anamnēsthḗsesthe",
@@ -30464,40 +30498,6 @@
       "ἀνεμνήσατε": {
         "transliteration": "anemnḗsate",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"] }]
-      }
-    }
-  },
-  "ἀναμιμνῄσκω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "deponent": true,
-    "stems": { "fut": "αναμνη" },
-    "indices": { "strongs": "G363" },
-    "inflections": {
-      "ἀναμιμνῄσκεσθε": {
-        "transliteration": "anamimnḗskesthe",
-        "cells": [{ "parse": ["verb", "pres", "mid", "imp", "pers-2", "pl"] }]
-      },
-      "ἀναμιμνῃσκομένου": {
-        "transliteration": "anamimnēskoménou",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "gen", "sg", "masc"] }
-        ]
-      },
-      "ἀναμιμνῄσκω": {
-        "transliteration": "anamimnḗskō",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
-      },
-      "ἀναμνήσει": {
-        "transliteration": "anamnḗsei",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ἀναμνησθείς": {
-        "transliteration": "anamnēstheís",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"] }
-        ]
       },
       "ἀνεμνήσθη": {
         "transliteration": "anemnḗsthē",
@@ -32890,17 +32890,6 @@
       "ἀνατολῶν": {
         "transliteration": "anatolō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
-      }
-    }
-  },
-  "Ἀνατολή": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "1f-e",
-    "inflections": {
-      "Ἀνατολήν": {
-        "transliteration": "Anatolḗn",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -37604,20 +37593,6 @@
       }
     }
   },
-  "Ἄννα": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "inflections": {
-      "Αννας": {
-        "transliteration": "Annas",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "Ἅννα": {
     "language": "greek",
     "pos": "noun",
@@ -37634,6 +37609,13 @@
       "Ἅννα": {
         "transliteration": "Hánna",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
+      "Αννας": {
+        "transliteration": "Annas",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -37679,7 +37661,7 @@
       }
     }
   },
-  "Αννίας": {
+  "Αννίας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -41169,7 +41151,7 @@
       }
     }
   },
-  "Ἀντιοχίς": {
+  "Ἀντιοχίς": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -41180,7 +41162,7 @@
       }
     }
   },
-  "Ἀντίοχον": {
+  "Ἀντίοχον": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -41188,22 +41170,6 @@
       "Ἀντίοχον": {
         "transliteration": "Antíochon",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
-  "ἀντίοχος": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "ἀντίοχος": {
-        "transliteration": "antíochos",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
       }
     }
   },
@@ -41224,8 +41190,12 @@
       "Ἀντίοχος": {
         "transliteration": "Antíochos",
         "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "indecl-proper", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "Ἀντιόχου": {
@@ -44249,7 +44219,7 @@
       }
     }
   },
-  "Ἀπάμη": {
+  "Ἀπάμη": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -49260,11 +49230,14 @@
       }
     }
   },
-  "ἀποθνήσκω": {
+  "ἀποθνῄσκω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "stems": { "fut": "αποθαν", "aor": "αποθαν" },
+    "deponent": true,
+    "stems": { "aor": "απεθαν" },
+    "shortDefinition": "to die off",
+    "indices": { "strongs": "G599" },
     "inflections": {
       "ἀπέθαναν": {
         "transliteration": "apéthanan",
@@ -49278,11 +49251,42 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
         ]
       },
+      "ἀπέθανεν": {
+        "transliteration": "apéthanen",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἀπέθανέν": {
+        "transliteration": "apéthanén",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἀπεθάνετε": {
+        "transliteration": "apethánete",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-2", "pl"] }
+        ]
+      },
       "ἀπεθάνῃ": {
         "transliteration": "apethánē",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
           { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ἀπεθάνομεν": {
+        "transliteration": "apethánomen",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "pl"] }
+        ]
+      },
+      "ἀπέθανον": {
+        "transliteration": "apéthanon",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"] }
         ]
       },
       "ἀπεθάνοσαν": {
@@ -49291,6 +49295,10 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] },
           { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl", "second"] }
         ]
+      },
+      "ἀπέθνῃσκεν": {
+        "transliteration": "apéthnēsken",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἀπέθνῃσκον": {
         "transliteration": "apéthnēskon",
@@ -49306,10 +49314,39 @@
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] }
         ]
       },
+      "ἀποθανεῖν": {
+        "transliteration": "apothaneîn",
+        "cells": [{ "parse": ["verb", "second", "aor", "act", "inf"] }]
+      },
+      "ἀποθανεῖσθε": {
+        "transliteration": "apothaneîsthe",
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "pl"] }
+        ]
+      },
+      "ἀποθανεῖται": {
+        "transliteration": "apothaneîtai",
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
       "ἀποθανέτω": {
         "transliteration": "apothanétō",
         "cells": [
           { "parse": ["verb", "aor", "act", "imp", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ἀποθανῇ": {
+        "transliteration": "apothanē̂",
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
+        ]
+      },
+      "ἀποθάνῃ": {
+        "transliteration": "apothánē",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
         ]
       },
       "ἀποθάνῃς": {
@@ -49334,198 +49371,6 @@
         "transliteration": "apothánoimen",
         "cells": [
           { "parse": ["verb", "aor", "act", "opt", "pers-1", "pl", "second"] }
-        ]
-      },
-      "ἀποθανόντας": {
-        "transliteration": "apothanóntas",
-        "cells": [
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "acc",
-              "pl",
-              "masc",
-              "second"
-            ]
-          }
-        ]
-      },
-      "ἀποθανόντων": {
-        "transliteration": "apothanóntōn",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-3", "pl", "second"] },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "gen",
-              "pl",
-              "masc",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "gen",
-              "pl",
-              "neut",
-              "second"
-            ]
-          }
-        ]
-      },
-      "ἀποθανοῦμαι": {
-        "transliteration": "apothanoûmai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] }]
-      },
-      "ἀποθανούμεθα": {
-        "transliteration": "apothanoúmetha",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "pl"] }]
-      },
-      "ἀποθανοῦσιν": {
-        "transliteration": "apothanoûsin",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
-        ]
-      },
-      "ἀποθάνω": {
-        "transliteration": "apothánō",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] }
-        ]
-      },
-      "ἀποθάνωσιν": {
-        "transliteration": "apothánōsin",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "pl", "second"] }
-        ]
-      },
-      "ἀποθνῄσκεις": {
-        "transliteration": "apothnḗskeis",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
-      },
-      "ἀποθνῄσκετε": {
-        "transliteration": "apothnḗskete",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }
-        ]
-      },
-      "ἀποθνῃσκέτω": {
-        "transliteration": "apothnēskétō",
-        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"] }]
-      },
-      "ἀποθνῇσκον": {
-        "transliteration": "apothnē̂skon",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
-        ]
-      },
-      "ἀποθνῄσκοντας": {
-        "transliteration": "apothnḗskontas",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
-        ]
-      },
-      "ἀποθνῄσκοντος": {
-        "transliteration": "apothnḗskontos",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "neut"] }
-        ]
-      },
-      "ἀποθνῃσκόντων": {
-        "transliteration": "apothnēskóntōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"] }
-        ]
-      }
-    }
-  },
-  "ἀποθνῄσκω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "deponent": true,
-    "stems": { "aor": "απεθαν" },
-    "shortDefinition": "to die off",
-    "indices": { "strongs": "G599" },
-    "inflections": {
-      "ἀπέθανεν": {
-        "transliteration": "apéthanen",
-        "cells": [
-          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἀπέθανέν": {
-        "transliteration": "apéthanén",
-        "cells": [
-          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἀπεθάνετε": {
-        "transliteration": "apethánete",
-        "cells": [
-          { "parse": ["verb", "second", "aor", "act", "ind", "pers-2", "pl"] }
-        ]
-      },
-      "ἀπεθάνομεν": {
-        "transliteration": "apethánomen",
-        "cells": [
-          { "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "pl"] }
-        ]
-      },
-      "ἀπέθανον": {
-        "transliteration": "apéthanon",
-        "cells": [
-          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "ἀπέθνῃσκεν": {
-        "transliteration": "apéthnēsken",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ἀποθανεῖν": {
-        "transliteration": "apothaneîn",
-        "cells": [{ "parse": ["verb", "second", "aor", "act", "inf"] }]
-      },
-      "ἀποθανεῖσθε": {
-        "transliteration": "apothaneîsthe",
-        "cells": [
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "pl"] }
-        ]
-      },
-      "ἀποθανεῖται": {
-        "transliteration": "apothaneîtai",
-        "cells": [
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἀποθανῇ": {
-        "transliteration": "apothanē̂",
-        "cells": [
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
-        ]
-      },
-      "ἀποθάνῃ": {
-        "transliteration": "apothánē",
-        "cells": [
-          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
         ]
       },
       "ἀποθανόντα": {
@@ -49565,6 +49410,23 @@
               "voc",
               "pl",
               "neut"
+            ]
+          }
+        ]
+      },
+      "ἀποθανόντας": {
+        "transliteration": "apothanóntas",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "acc",
+              "pl",
+              "masc",
+              "second"
             ]
           }
         ]
@@ -49632,10 +49494,60 @@
           }
         ]
       },
+      "ἀποθανόντων": {
+        "transliteration": "apothanóntōn",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-3", "pl", "second"] },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "gen",
+              "pl",
+              "masc",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "gen",
+              "pl",
+              "neut",
+              "second"
+            ]
+          }
+        ]
+      },
+      "ἀποθανοῦμαι": {
+        "transliteration": "apothanoûmai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] }]
+      },
+      "ἀποθανούμεθα": {
+        "transliteration": "apothanoúmetha",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "pl"] }]
+      },
       "ἀποθανοῦνται": {
         "transliteration": "apothanoûntai",
         "cells": [
           { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
+      "ἀποθανοῦσιν": {
+        "transliteration": "apothanoûsin",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
+        ]
+      },
+      "ἀποθάνω": {
+        "transliteration": "apothánō",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] }
         ]
       },
       "ἀποθάνωμεν": {
@@ -49661,6 +49573,12 @@
           }
         ]
       },
+      "ἀποθάνωσιν": {
+        "transliteration": "apothánōsin",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-3", "pl", "second"] }
+        ]
+      },
       "ἀποθνῄσκει": {
         "transliteration": "apothnḗskei",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
@@ -49669,15 +49587,59 @@
         "transliteration": "apothnḗskein",
         "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       },
+      "ἀποθνῄσκεις": {
+        "transliteration": "apothnḗskeis",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἀποθνῄσκετε": {
+        "transliteration": "apothnḗskete",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"] },
+          { "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }
+        ]
+      },
+      "ἀποθνῃσκέτω": {
+        "transliteration": "apothnēskétō",
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"] }]
+      },
       "ἀποθνῄσκομεν": {
         "transliteration": "apothnḗskomen",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"] }]
+      },
+      "ἀποθνῇσκον": {
+        "transliteration": "apothnē̂skon",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
+        ]
+      },
+      "ἀποθνῄσκοντας": {
+        "transliteration": "apothnḗskontas",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
+        ]
       },
       "ἀποθνῄσκοντες": {
         "transliteration": "apothnḗskontes",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "ἀποθνῄσκοντος": {
+        "transliteration": "apothnḗskontos",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "neut"] }
+        ]
+      },
+      "ἀποθνῃσκόντων": {
+        "transliteration": "apothnēskóntōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "imp", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"] }
         ]
       },
       "ἀποθνῄσκουσιν": {
@@ -52463,7 +52425,7 @@
       }
     }
   },
-  "Ἀπολλοφάνης": {
+  "Ἀπολλοφάνης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -59017,7 +58979,7 @@
       }
     }
   },
-  "Ἀραβά": {
+  "Ἀραβά": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -59071,7 +59033,7 @@
       }
     }
   },
-  "Ἀράβισσα": {
+  "Ἀράβισσα": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -59082,7 +59044,7 @@
       }
     }
   },
-  "Ἀραβώθ": {
+  "Ἀραβώθ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -59093,7 +59055,7 @@
       }
     }
   },
-  "Αραβωθίτης": {
+  "Αραβωθίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -59285,7 +59247,7 @@
       }
     }
   },
-  "Αραουρίτης": {
+  "Αραουρίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -59394,8 +59356,8 @@
     "gender": "masc",
     "indices": { "strongs": "G690" },
     "inflections": {
-      "ἄραβας": {
-        "transliteration": "árabas",
+      "Ἄραβας": {
+        "transliteration": "Árabas",
         "cells": [
           { "parse": ["noun", "acc", "pl", "fem"] },
           { "parse": ["noun", "acc", "pl", "masc"] }
@@ -59408,8 +59370,8 @@
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
-      "ἀράβων": {
-        "transliteration": "arábōn",
+      "Ἀράβων": {
+        "transliteration": "Arábōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       },
       "Ἄραψ": {
@@ -60021,8 +59983,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "inflections": {
-      "αρεε": {
-        "transliteration": "aree",
+      "Αρεε": {
+        "transliteration": "Aree",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       },
       "Αρες": {
@@ -60433,7 +60395,7 @@
       }
     }
   },
-  "Ἀριαράθης": {
+  "Ἀριαράθης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -61333,7 +61295,7 @@
       }
     }
   },
-  "Ἀρμενία": {
+  "Ἀρμενία": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -64134,7 +64096,7 @@
       }
     }
   },
-  "Αρωδίτης": {
+  "Αρωδίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -64549,7 +64511,7 @@
       }
     }
   },
-  "Ἀσάφ": {
+  "Ἀσάφ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -64629,7 +64591,7 @@
       }
     }
   },
-  "Ασβίτης": {
+  "Ασβίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -64743,7 +64705,7 @@
       }
     }
   },
-  "Ἁσεβείας": {
+  "Ἁσεβείας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -64876,7 +64838,7 @@
       }
     }
   },
-  "Ἀσεβηβίας": {
+  "Ἀσεβηβίας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -66311,16 +66273,16 @@
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
-      "ασμοδαυν": {
-        "transliteration": "asmodaun",
+      "Ασμοδαυν": {
+        "transliteration": "Asmodaun",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
-      "ασμοδαυς": {
-        "transliteration": "asmodaus",
+      "Ασμοδαυς": {
+        "transliteration": "Asmodaus",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
@@ -66949,7 +66911,7 @@
       }
     }
   },
-  "Ἀσσυρία": {
+  "Ἀσσυρία": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -67034,7 +66996,7 @@
       }
     }
   },
-  "Ἀστάρτα": {
+  "Ἀστάρτα": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -67517,7 +67479,7 @@
       }
     }
   },
-  "Ἀστυάγης": {
+  "Ἀστυάγης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -67578,7 +67540,7 @@
       }
     }
   },
-  "Ἀσύερος": {
+  "Ἀσύερος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -68046,7 +68008,7 @@
       }
     }
   },
-  "Ασφάρασος": {
+  "Ασφάρασος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -68102,7 +68064,7 @@
       }
     }
   },
-  "Ασχανάζαιος": {
+  "Ασχανάζαιος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -68275,7 +68237,7 @@
       }
     }
   },
-  "Ασωθίτης": {
+  "Ασωθίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -68833,7 +68795,7 @@
       "ἄτερ": { "transliteration": "áter", "cells": [{ "parse": ["prep"] }] }
     }
   },
-  "Ατεργάτιον": {
+  "Ατεργάτιον": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -68856,7 +68818,7 @@
       }
     }
   },
-  "Ατητά": {
+  "Ατητά": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -70193,27 +70155,16 @@
       }
     }
   },
-  "Αυλων": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "3-cons",
-    "inflections": {
-      "Αυλων": {
-        "transliteration": "Aulōn",
-        "cells": [
-          { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
-      }
-    },
-    "gender": "masc"
-  },
   "αὐλών": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
     "inflections": {
+      "αυλων": {
+        "transliteration": "aulōn",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
       "αὐλών": {
         "transliteration": "aulṓn",
         "cells": [
@@ -70480,7 +70431,7 @@
       }
     }
   },
-  "Αυρανίτις": {
+  "Αυρανίτις": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -75288,7 +75239,7 @@
       }
     }
   },
-  "Ἀχίμ": {
+  "Ἀχίμ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -76042,7 +75993,7 @@
       }
     }
   },
-  "Αωίτης": {
+  "Αωίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",

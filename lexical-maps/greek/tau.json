@@ -629,7 +629,7 @@
       }
     }
   },
-  "Τάνιν": {
+  "Τάνιν": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -2154,7 +2154,7 @@
       }
     }
   },
-  "Ταφνάς": {
+  "Ταφνάς": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -4441,6 +4441,7 @@
   "τέρετρον": {
     "language": "greek",
     "pos": "noun",
+    "declension": "2n",
     "inflections": {
       "τερέτρῳ": {
         "transliteration": "terétrō",
@@ -6136,7 +6137,7 @@
       }
     }
   },
-  "Τίγρης": {
+  "Τίγρης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -9580,7 +9581,7 @@
       }
     }
   },
-  "Τουβίας": {
+  "Τουβίας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -9591,7 +9592,7 @@
       }
     }
   },
-  "Τουβινοί": {
+  "Τουβινοί": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -11017,7 +11018,7 @@
       }
     }
   },
-  "Τρίπολις": {
+  "Τρίπολις": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -12612,7 +12613,7 @@
       }
     }
   },
-  "Τρωγλοδύται": {
+  "Τρωγλοδύται": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -13320,6 +13321,10 @@
         "transliteration": "týrannos",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
+      "τυράννου": {
+        "transliteration": "tyránnou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      },
       "τυράννους": {
         "transliteration": "tyránnous",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
@@ -13664,7 +13669,7 @@
       }
     }
   },
-  "Τωβεία": {
+  "Τωβεία": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",

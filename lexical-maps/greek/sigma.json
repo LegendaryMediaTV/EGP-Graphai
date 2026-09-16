@@ -170,7 +170,7 @@
       }
     }
   },
-  "Σάβαννος": {
+  "Σάβαννος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -646,7 +646,7 @@
       }
     }
   },
-  "Σάδδουκος": {
+  "Σάδδουκος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -849,7 +849,7 @@
       }
     }
   },
-  "Σάις": {
+  "Σάις": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -959,7 +959,7 @@
       }
     }
   },
-  "Σαλαβωνίτης": {
+  "Σαλαβωνίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -1332,7 +1332,7 @@
       }
     }
   },
-  "Σάλημος": {
+  "Σάλημος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -1542,7 +1542,7 @@
       }
     }
   },
-  "Σαλούμ": {
+  "Σαλούμ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -1796,19 +1796,6 @@
       }
     }
   },
-  "σαλωμών": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "3-cons",
-    "shortDefinition": "Solomon",
-    "inflections": {
-      "σαλωμῶντος": {
-        "transliteration": "salōmō̂ntos",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      }
-    }
-  },
   "Σαλωμών": {
     "language": "greek",
     "pos": "noun",
@@ -1827,7 +1814,8 @@
         "transliteration": "Salōmō̂ntos",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
-    }
+    },
+    "shortDefinition": "Solomon"
   },
   "Σαλωμῶντα": {
     "language": "greek",
@@ -2519,7 +2507,7 @@
       }
     }
   },
-  "Σαμψάμης": {
+  "Σαμψάμης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -3741,7 +3729,7 @@
       }
     }
   },
-  "Σαρωνίτης": {
+  "Σαρωνίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -4045,7 +4033,7 @@
       }
     }
   },
-  "Σαυχίτης": {
+  "Σαυχίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -6214,7 +6202,7 @@
       }
     }
   },
-  "Σενναχηρίμ": {
+  "Σενναχηρίμ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7285,7 +7273,7 @@
       }
     }
   },
-  "Σήρων": {
+  "Σήρων": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7635,7 +7623,7 @@
       }
     }
   },
-  "Σίδη": {
+  "Σίδη": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -8055,6 +8043,7 @@
   "σίκυς": {
     "language": "greek",
     "pos": "noun",
+    "declension": "3-us",
     "inflections": {
       "σικύας": {
         "transliteration": "sikýas",
@@ -8062,7 +8051,7 @@
       }
     }
   },
-  "Σικυών": {
+  "Σικυών": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -8841,6 +8830,7 @@
   "σκαμβός": {
     "language": "greek",
     "pos": "adj",
+    "declension": "2-1-2",
     "inflections": {
       "σκαμβή": {
         "transliteration": "skambḗ",
@@ -11149,7 +11139,7 @@
       }
     }
   },
-  "Σκύθαι": {
+  "Σκύθαι": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -11905,7 +11895,7 @@
       }
     }
   },
-  "Σοδομίτης": {
+  "Σοδομίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -11930,7 +11920,7 @@
       }
     }
   },
-  "Σοήνη": {
+  "Σοήνη": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -12426,7 +12416,7 @@
       }
     }
   },
-  "Σουδίας": {
+  "Σουδίας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -12691,7 +12681,7 @@
       }
     }
   },
-  "Σουσίτης": {
+  "Σουσίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -13278,7 +13268,7 @@
       }
     }
   },
-  "Σπάρτη": {
+  "Σπάρτη": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -16582,9 +16572,17 @@
         "transliteration": "stéphanós",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
+      "στεφάνου": {
+        "transliteration": "stephánou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      },
       "στεφάνους": {
         "transliteration": "stephánous",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      },
+      "στεφάνῳ": {
+        "transliteration": "stephánō",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "στεφάνων": {
         "transliteration": "stephánōn",
@@ -18304,17 +18302,6 @@
         "transliteration": "stratiâ",
         "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
-      "στρατιᾶς": {
-        "transliteration": "stratiâs",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      }
-    }
-  },
-  "στρατία": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "inflections": {
       "στρατιαί": {
         "transliteration": "stratiaí",
         "cells": [
@@ -18325,6 +18312,10 @@
       "στρατιάν": {
         "transliteration": "stratián",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "στρατιᾶς": {
+        "transliteration": "stratiâs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -19419,12 +19410,11 @@
       }
     }
   },
-  "στύλος": {
+  "στῦλος": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
-    "indices": { "strongs": "G4769" },
     "inflections": {
       "στύλοι": {
         "transliteration": "stýloi",
@@ -19439,6 +19429,10 @@
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
+      },
+      "στύλοις": {
+        "transliteration": "stýlois",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "στύλον": {
         "transliteration": "stýlon",
@@ -19455,18 +19449,6 @@
       "στῦλος": {
         "transliteration": "stŷlos",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      }
-    }
-  },
-  "στῦλος": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
-    "inflections": {
-      "στύλοις": {
-        "transliteration": "stýlois",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "στύλου": {
         "transliteration": "stýlou",
@@ -19484,7 +19466,8 @@
         "transliteration": "stýlōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
-    }
+    },
+    "indices": { "strongs": "G4769" }
   },
   "στυράκινος": {
     "language": "greek",
@@ -27577,20 +27560,6 @@
       }
     }
   },
-  "συναποθνήσκω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to die together with",
-    "inflections": {
-      "συναποθανέτω": {
-        "transliteration": "synapothanétō",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-3", "sg", "second"] }
-        ]
-      }
-    }
-  },
   "συναποθνῄσκω": {
     "language": "greek",
     "pos": "verb",
@@ -27606,8 +27575,15 @@
       "συναποθανεῖν": {
         "transliteration": "synapothaneîn",
         "cells": [{ "parse": ["verb", "second", "aor", "act", "inf"] }]
+      },
+      "συναποθανέτω": {
+        "transliteration": "synapothanétō",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-3", "sg", "second"] }
+        ]
       }
-    }
+    },
+    "shortDefinition": "to die together with"
   },
   "συναποκρύπτω": {
     "language": "greek",
@@ -34962,7 +34938,7 @@
       }
     }
   },
-  "Σύρων": {
+  "Σύρων": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",

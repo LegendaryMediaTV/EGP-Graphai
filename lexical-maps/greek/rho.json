@@ -273,8 +273,8 @@
     "declension": "1f-a",
     "shortDefinition": "Rhagae, a city of Media",
     "inflections": {
-      "ῥάγας": {
-        "transliteration": "rhágas",
+      "Ῥάγας": {
+        "transliteration": "Rhágas",
         "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       }
     }
@@ -325,8 +325,8 @@
     "pos": "noun",
     "declension": "1f-e",
     "inflections": {
-      "ῥάγα": {
-        "transliteration": "rhága",
+      "Ῥάγα": {
+        "transliteration": "Rhága",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "Ραγη": {
@@ -383,22 +383,22 @@
     "declension": "2m",
     "shortDefinition": "Rages, a city of Media",
     "inflections": {
-      "ραγοις": {
-        "transliteration": "ragois",
+      "Ραγοις": {
+        "transliteration": "Ragois",
         "cells": [
           { "parse": ["noun", "dat", "pl", "masc"] },
           { "parse": ["noun", "dat", "sg", "masc"] }
         ]
       },
-      "ῥάγοις": {
-        "transliteration": "rhágois",
+      "Ῥάγοις": {
+        "transliteration": "Rhágois",
         "cells": [
           { "parse": ["noun", "dat", "pl", "masc"] },
           { "parse": ["noun", "dat", "sg", "masc"] }
         ]
       },
-      "ῥάγων": {
-        "transliteration": "rhágōn",
+      "Ῥάγων": {
+        "transliteration": "Rhágōn",
         "cells": [
           { "parse": ["noun", "gen", "pl", "masc"] },
           { "parse": ["noun", "gen", "sg", "masc"] }
@@ -679,7 +679,7 @@
       }
     }
   },
-  "Ῥαιφάν": {
+  "Ῥαιφάν": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -810,7 +810,7 @@
       }
     }
   },
-  "Ραμεσσή": {
+  "Ραμεσσή": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -1491,6 +1491,18 @@
       }
     }
   },
+  "Ραφις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
+    "inflections": {
+      "Ραφις": {
+        "transliteration": "Raphis",
+        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
   "ῥαφίς": {
     "language": "greek",
     "pos": "noun",
@@ -1501,13 +1513,6 @@
       "ῥαφίδος": {
         "transliteration": "rhaphídos",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      },
-      "ραφις": {
-        "transliteration": "raphis",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "masc"] },
-          { "parse": ["noun", "indecl-proper", "fem"] }
-        ]
       }
     }
   },
@@ -2362,7 +2367,7 @@
       }
     }
   },
-  "Ρησαίας": {
+  "Ρησαίας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -3024,38 +3029,6 @@
       }
     }
   },
-  "ῥοά": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "inflections": {
-      "ῥοαί": {
-        "transliteration": "rhoaí",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
-      },
-      "ῥόαι": {
-        "transliteration": "rhóai",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
-      },
-      "ῥόας": {
-        "transliteration": "rhóas",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
-      },
-      "ῥοῶν": {
-        "transliteration": "rhoō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
-      }
-    }
-  },
   "ῥόα": {
     "language": "greek",
     "pos": "noun",
@@ -3072,9 +3045,34 @@
         "transliteration": "rhóa",
         "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
+      "ῥοαί": {
+        "transliteration": "rhoaí",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
+      },
+      "ῥόαι": {
+        "transliteration": "rhóai",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
+      },
       "ῥόαν": {
         "transliteration": "rhóan",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "ῥόας": {
+        "transliteration": "rhóas",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
+      },
+      "ῥοῶν": {
+        "transliteration": "rhoō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },
@@ -3158,8 +3156,8 @@
         "transliteration": "Rhódioi",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       },
-      "ῥοδίων": {
-        "transliteration": "rhodíōn",
+      "Ῥοδίων": {
+        "transliteration": "Rhodíōn",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
@@ -3252,7 +3250,7 @@
       }
     }
   },
-  "Ρόειμος": {
+  "Ρόειμος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",

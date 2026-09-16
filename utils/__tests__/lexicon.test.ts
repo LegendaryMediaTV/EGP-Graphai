@@ -122,14 +122,18 @@ describe("codexLookup", () => {
 });
 
 describe("entriesFor", () => {
+  // Rahlfs prints this gentilic in lower case and the codex keys it under the
+  // capitalised root, because case is a fact about the word and `Ἰσραηλίτης` is
+  // a name. `χριστός` used to be the example here and no longer is: it is a
+  // common noun used as a title, the corpora print it lower case 603 times of
+  // 610, and it is now one lower-case root.
   it("should reach a capitalized root from a lower-case printed spelling", () => {
-    const entries = entriesFor("χριστοῦ");
+    const entries = entriesFor("ισραηλίτου");
     expect(entries.length).toBeGreaterThan(0);
-    expect(entries.map((entry) => entry.root)).toContain("Χριστός");
-    const christ = entries.find((entry) => entry.root === "Χριστός");
-    expect(christ?.pos).toBe("noun");
-    expect(christ?.rootStrongs).toContain("G5547");
-    expect(christ?.cell).toContain("gen");
+    expect(entries.map((entry) => entry.root)).toContain("Ἰσραηλίτης");
+    const israelite = entries.find((entry) => entry.root === "Ἰσραηλίτης");
+    expect(israelite?.pos).toBe("noun");
+    expect(israelite?.cell).toContain("gen");
   });
 
   it("should answer with nothing for a spelling the codex does not hold", () => {
@@ -153,9 +157,13 @@ describe("inflectionCategories", () => {
  * ladder runs and nothing about whether it answers.
  */
 describe("resolveLemma", () => {
+  // The root is lower case because the word is a common noun, "an anointed
+  // one", that the New Testament uses as a title. Both corpora print it lower
+  // case 603 times of 610, the three mid-clause capitals all standing directly
+  // after `Ἰησοῦς`, so the capital is typography rather than a second word.
   it("should answer with the only root the codex holds for the spelling", () => {
     expect(resolveLemma({ text: " χριστοῦ,", morph: "N-GSM", morphology: "robinson" })).toEqual({
-      lemma: "Χριστός",
+      lemma: "χριστός",
     });
   });
 

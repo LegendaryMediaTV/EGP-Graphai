@@ -751,7 +751,7 @@
       }
     }
   },
-  "Φάλεκ": {
+  "Φάλεκ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -1345,7 +1345,7 @@
       }
     }
   },
-  "Φαραθωνίτης": {
+  "Φαραθωνίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -1963,7 +1963,7 @@
       }
     }
   },
-  "Φάσσορος": {
+  "Φάσσορος": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -2676,7 +2676,7 @@
       }
     }
   },
-  "Φεισών": {
+  "Φεισών": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -2873,7 +2873,7 @@
       }
     }
   },
-  "Φερεζαίου": {
+  "Φερεζαίου": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -5354,31 +5354,23 @@
     "pos": "noun",
     "declension": "3-cons",
     "inflections": {
+      "φιλομήτορα": {
+        "transliteration": "philomḗtora",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
       "φιλομήτορες": {
         "transliteration": "philomḗtores",
         "cells": [
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
+      },
+      "φιλομήτορος": {
+        "transliteration": "philomḗtoros",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     },
     "gender": "masc"
-  },
-  "Φιλομήτωρ": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "3-cons",
-    "inflections": {
-      "Φιλομήτορα": {
-        "transliteration": "Philomḗtora",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
-      "Φιλομήτορος": {
-        "transliteration": "Philomḗtoros",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      }
-    }
   },
   "φιλονεικέω": {
     "language": "greek",
@@ -5466,7 +5458,7 @@
       }
     }
   },
-  "Φιλοπάτωρ": {
+  "Φιλοπάτωρ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7278,7 +7270,7 @@
       }
     }
   },
-  "Φοίνικες": {
+  "Φοίνικες": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7336,7 +7328,7 @@
       }
     }
   },
-  "Φοινικών": {
+  "Φοινικών": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -7353,6 +7345,10 @@
     "gender": "masc",
     "indices": { "strongs": "G5404" },
     "inflections": {
+      "φοίνικα": {
+        "transliteration": "phoínika",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
       "φοίνικας": {
         "transliteration": "phoínikas",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
@@ -7384,10 +7380,14 @@
       "Φοίνικα": {
         "transliteration": "Phoínika",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "Φοινίκων": {
+        "transliteration": "Phoiníkōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
-  "Φοίνισσα": {
+  "Φοίνισσα": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -8149,7 +8149,7 @@
       }
     }
   },
-  "Φρααθωνίτης": {
+  "Φρααθωνίτης": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -9279,7 +9279,7 @@
       }
     }
   },
-  "Φρύξ": {
+  "Φρύξ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",

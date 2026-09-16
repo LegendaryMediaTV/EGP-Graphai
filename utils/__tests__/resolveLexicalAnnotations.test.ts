@@ -32,7 +32,7 @@ describe("resolveLexicalAnnotationsInContent — lemma", () => {
     const result = resolveLexicalAnnotationsInContent([word()] as unknown as Content, "robinson");
 
     expect(result.changed).toBe(true);
-    expect(result.content).toEqual([word({ lemma: "Χριστός" })]);
+    expect(result.content).toEqual([word({ lemma: "χριστός" })]);
   });
 
   it("should leave an existing lemma exactly as it was, even one the map disagrees with", () => {
@@ -89,7 +89,7 @@ describe("resolveLexicalAnnotationsInContent — lemma", () => {
     expect(result.changed).toBe(true);
     expect(result.content).toEqual([
       "and ",
-      { text: "x", foot: { content: [word({ lemma: "Χριστός" })] } },
+      { text: "x", foot: { content: [word({ lemma: "χριστός" })] } },
     ]);
   });
 
